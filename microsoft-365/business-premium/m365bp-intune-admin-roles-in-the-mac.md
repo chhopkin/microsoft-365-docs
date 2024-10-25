@@ -34,6 +34,8 @@ For more information, see [Microsoft Entra roles and RBAC](/azure/active-directo
 
 ## Microsoft Intune built-in roles
 
+<!--- /mem/intune/fundamentals/role-based-access-control-reference --->
+
 Built-in roles use pre-defined rules based on common Intune scenarios. Alternatively, custom roles are built upon rules that are strictly defined by you.
 
 Here are the built-in roles that you can assign:
@@ -50,6 +52,8 @@ Here are the built-in roles that you can assign:
 |**Cloud PC Reader**|A Cloud PC Reader has read access to all Cloud PC features located within the Cloud PC blade.|
 
 ## Microsoft Intune custom roles
+
+<!--- /mem/intune/fundamentals/create-custom-role --->
 
 You can create custom roles in Intune that include any permissions required for a specific job function. For example, if an IT department group manages applications, policies, and configuration profiles, you can add all those permissions together in one custom role. After creating a custom role, you can assign it to any users that need those permissions.
 
@@ -79,6 +83,8 @@ To copy a role:
    > To be able to administer Intune you must have an Intune license assigned. Alternatively, you can allow non-licensed users to administer Intune by setting **Allow access to unlicensed admins** to **Yes**.
 
 ## How to assign a role
+
+<!--- /mem/intune/fundamentals/assign-role --->
 
 1. In the [Intune admin center](https://intune.microsoft.com), choose **Tenant administration** > **Roles** > **All roles**.
 
