@@ -55,7 +55,7 @@ When you uncheck the 'Allow users to be asked whether they want to pin it' optio
 Global administrators can make changes to Microsoft Copilot pinning settings at any time. Changes take up to 48 hours to go into effect.
 
 > [!NOTE]
-> Users with a license for Microsoft 365 Copilot will have Microsoft Copilot pinned by default.
+> Users with a license for Microsoft 365 Copilot will have Microsoft Copilot pinned by default. Users without a Copilot license will not see Copilot pinned.
 
 ## User experience
 

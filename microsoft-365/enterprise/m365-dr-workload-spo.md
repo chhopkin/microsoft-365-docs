@@ -264,7 +264,7 @@ To schedule a _Geography_ move for a later time, use one of the following parame
 You can stop the _Geography_ move of a user's OneDrive, provided the move isn't in progress or completed by using the cmdlet:
 
 ```powershell
-Stop-SPOUserAndContentMove – UserPrincipalName <UserPrincipalName>
+Stop-SPOUserAndContentMove –UserPrincipalName <UserPrincipalName>
 ```
 
 Where _UserPrincipalName_ is the UPN of the user whose OneDrive move you want to stop.

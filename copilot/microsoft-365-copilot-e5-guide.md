@@ -1,12 +1,12 @@
 ---
-title: Get your data ready for Microsoft 365 Copilot with E5 license
+title: Get your data ready for Microsoft 365 Copilot with E5 + SAM licenses
 description: The E5 deployment for Microsoft 365 Copilot uses a E5 license, SharePoint Advanced Management, and Microsoft Purview. These services help your organization get ready for Copilot. This IT admin guide helps you prevent oversharing, declutter data sources, and monitor site changes. Get your organization and data ready for Copilot by following the steps in this article.
 f1.keywords:
 - NOCSH
 ms.author: mandia
 author: MandiOhlinger
 manager: laurawi
-ms.date: 11/20/2024
+ms.date: 12/11/2024
 ms.reviewer: cabailey, ruihu
 audience: Admin
 ms.topic: get-started
@@ -22,9 +22,9 @@ appliesto:
   - ✅ Microsoft 365 Copilot
 ---
 
-# Microsoft 365 Copilot admin guide for E5 licenses
+# Microsoft 365 Copilot admin guide for E5 + SAM licenses
 
-When preparing your organization for [Microsoft 365 Copilot](microsoft-365-copilot-overview.md) or you're ready to start using Copilot, there are features in your E5 license that can help get your data ready.
+When preparing your organization for [Microsoft 365 Copilot](microsoft-365-copilot-overview.md) or you're ready to start using Copilot, there are features in your E5 + SAM licenses that can help get your data ready.
 
 When users enter a prompt, Copilot can respond with data that the user has permission to access. Overshared and outdated data can lead to inaccurate results from Copilot.
 
@@ -59,7 +59,7 @@ This article applies to:
 
   - **[Microsoft SharePoint Premium - SharePoint Advanced Management](/sharepoint/advanced-management#licensing)**
 
-    There are some features in SharePoint Advanced Management (SAM) that are included with your Microsoft 365 Copilot license. To get the full version of SAM and use all the features described in this article, you need the [Microsoft SharePoint Premium - SharePoint Advanced Management](/sharepoint/advanced-management#licensing) license.
+    Beginning in early 2025, Microsoft SharePoint Premium - SharePoint Advanced Management (SAM) will be included with your Microsoft 365 Copilot license. To learn more about SAM licensing, see [Microsoft SharePoint Premium - SharePoint Advanced Management](/sharepoint/advanced-management#licensing).
 
   - **[Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)**
 
@@ -75,11 +75,11 @@ This article applies to:
     - [Permissions required to create and manage sensitivity labels](/purview/get-started-with-sensitivity-labels#permissions-required-to-create-and-manage-sensitivity-labels)
     - [Roles and role groups in Microsoft Defender for Office 365 and Microsoft Purview](/defender-office-365/scc-permissions)
 
-## Step 1 - Use SharePoint Advanced Management (SAM) features
+## SharePoint admin task - Use SharePoint Advanced Management (SAM) features
 
 [!INCLUDE [copilot-e5-e3-sharepoint-advanced-management](./includes/copilot-e5-e3-sharepoint-advanced-management.md)]
 
-## Step 2 - Restrict SharePoint Search (RSS)
+## SharePoint admin task - Restrict SharePoint Search (RSS)
 
 ✅ **Copilot goal: Disable RSS**
 
@@ -134,7 +134,7 @@ To learn more about these cmdlets, see [Use PowerShell Scripts for Restricted Sh
 
     To learn more about this cmdlet, see [Use PowerShell Scripts for Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search-admin-scripts).
 
-## Step 3 - Use Microsoft Purview features
+## Purview admin tasks - Use Microsoft Purview features
 
 There are features in [Microsoft Purview](/purview/copilot-in-purview-overview) that can help you get ready for Copilot.
 
@@ -290,7 +290,7 @@ With DLP policies, you can use [trainable classifiers](/purview/trainable-classi
 This section introduces you to the DLP policy creation process. DLP policies are a powerful tool. Make sure you:
 
 - Understand the data you're protecting and the goals you want to achieve.
-- Take time to design a policy before you implement it. You want to avoid any unintended issues. It's not recommended to create a policy, and then only tune the policy by trial-and-error.
+- Take time to design a policy before you implement it. You want to avoid any unintended issues. We don't recommend you create a policy, and then only tune the policy by trial-and-error.
 - Work through [Data loss prevention - Before you begin](/purview/dlp-learn-about-dlp#before-you-begin) before you start designing a policy. This step helps you understand the concepts and the tools you use to create and manage DLP policies.
 
 #### 1. Open the Microsoft Purview portal
@@ -396,7 +396,7 @@ If you have stale data in your organization, create and use retention policies. 
 
 Retention policies can also retain Copilot prompts and responses for compliance requirements, even if [users delete their Copilot activity](https://support.microsoft.com/office/delete-your-microsoft-365-copilot-activity-history-76de8afa-5eaf-43b0-bda8-0076d6e0390f). To learn more, see [Learn about retention for Copilot & AI apps](/purview/retention-policies-copilot).
 
-Settings in a retention policy apply at the container level, like a SharePoint site or an Exchange mailbox. These settings are automatically inherited by the data in that container. If you need [exceptions for individual emails or documents](/purview/create-retention-labels-data-lifecycle-management), use retention labels. For example, you have a retention policy to delete data in OneDrive if the data is older than one year. But, users can apply retention labels to keep specific documents from automatic deletion.
+Settings in a retention policy apply at the container level, like a SharePoint site or an Exchange mailbox. Data in that container automatically inherits these settings. If you need [exceptions for individual emails or documents](/purview/create-retention-labels-data-lifecycle-management), use retention labels. For example, you have a retention policy to delete data in OneDrive if the data is older than one year. But, users can apply retention labels to keep specific documents from automatic deletion.
 
 1. To create retention policies, sign into the [Microsoft Purview portal](https://purview.microsoft.com/) as a Compliance Administrator.
 

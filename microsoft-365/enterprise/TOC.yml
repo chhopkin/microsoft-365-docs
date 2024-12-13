@@ -458,7 +458,7 @@
             - name: Performance troubleshooting plan
               href: performance-troubleshooting-plan.md
 
-- name: Windows 10
+- name: Windows 11
   items:
     - name: How to check release health
       href: /windows/deployment/update/check-release-health

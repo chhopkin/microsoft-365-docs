@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: mandia
 author: MandiOhlinger
 manager: laurawi
-ms.date: 11/19/2024
+ms.date: 12/11/2024
 ms.reviewer: 
 audience: Admin
 ms.topic: get-started
@@ -34,7 +34,7 @@ In this deployment blueprint, we provide a recommended approach to address inter
 
 The blueprint breaks the deployment into three phases:
 
-- Pilot
+- Pilot (optional)
 - Deploy
 - Operate
 
@@ -47,36 +47,11 @@ The blueprint provides:
 
 :::image type="content" source="media/microsoft-365-copilot-blueprint-oversharing/blueprint-oversharing-copilot.png" alt-text="Diagram that shows oversharing blueprint for Microsoft 365 Copilot." lightbox="media/microsoft-365-copilot-blueprint-oversharing/blueprint-oversharing-copilot.png":::
 
-## Phase 1 - Pilot
-
-The initial stage provides steps for customers to quickly enable a Microsoft 365 Copilot pilot.
-
-During this stage, you generate reports to identify the most frequently used and potentially overshared sites. Based on these insights, you decide to allow or restrict SharePoint sites from being accessed and searched by Copilot during testing.
-
-The primary goal is to begin the Copilot deployment with a limited group of users. And later, expand iteratively based on the generated reports and learnings.
-
-## Phase 2 - Deploy
-
-The second stage, Deploy at scale, helps customers in fully deploying Copilot across the entire organization.
-
-This stage focuses on identifying oversharing risks and restricting Copilot's access to and processing of sensitive information.
-
-During this stage, the overall data security posture is improved by ensuring organizational controls are set to avoid unintentional oversharing and to increase visibility into potential security gaps.
-
-## Phase 3 - Operate
-
-The third stage aims to mitigate risks and streamline oversight by regularly generating oversharing reports and implementing corrective actions.
-
-It also focuses on:
-
-- Enhancing the security of sensitive data through automatic labeling
-- Improving Copilot responses by reducing data volume and minimizing the potential for oversharing
-
 ## Download the blueprint and documentation
 
 | Deployment model | Description |
 |---|---|
-|**Address oversharing in Microsoft 365 Copilot**<br/><br/> [![Address internal oversharing concerns in Microsoft 365 Copilot](media/microsoft-365-copilot-blueprint-oversharing/blueprint-oversharing-copilot-thumbprint.png)](https://aka.ms/Copilot/OversharingBlueprintPDF) <br/> Updated November 2024 | Use this deployment model to assist organizations in identifying and mitigating internal oversharing risks. <br/><br/>**This model includes**<br/><ul><li>Blueprint with high level activities and presentation [PDF](https://aka.ms/Copilot/OversharingBlueprintPDF) \| [PowerPoint](https://aka.ms/Copilot/OversharingBlueprintPPT)</li></ul> |
+| [![Address internal oversharing concerns in Microsoft 365 Copilot](media/microsoft-365-copilot-blueprint-oversharing/blueprint-oversharing-copilot.png)](https://aka.ms/Copilot/OversharingBlueprintPDF) | Use this deployment model to assist organizations in identifying and mitigating internal oversharing risks. <br/><br/>**This model includes**<br/><ul><li>Blueprint with high level activities and presentation [PDF](https://aka.ms/Copilot/OversharingBlueprintPDF) \| [PowerPoint](https://aka.ms/Copilot/OversharingBlueprintPPT)</li></ul> |
 
 ### Documentation resources
 

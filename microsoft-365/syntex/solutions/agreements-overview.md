@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: jtremper
 ms.reviewer: ssathyamoort
-ms.date: 10/30/2024
+ms.date: 12/10/2024
 audience: admin
 ms.topic: conceptual
 ms.service: microsoft-syntex
@@ -60,3 +60,6 @@ With SharePoint Agreements, you can:
 |[View reports](agreements-reports.md)    |Learn about the reports that are available to monitor all agreements, their statuses, and other essential metrics.         |
 |[Receive approval notifications](agreements-notifications.md)    |Learn about approval notifications in the Approvals app and in email.         |
 |[Import an agreement](agreements-import-agreement.md)    |Add existing agreements by uploading signed documents.        |
+
+> [!NOTE]
+> SharePoint Agreements is not yet available for Government Community Cloud (GCC) organizations. However, it is planned and will be available in the future.
