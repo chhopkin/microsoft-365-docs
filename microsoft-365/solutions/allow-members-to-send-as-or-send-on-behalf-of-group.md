@@ -3,8 +3,8 @@ title: "Allow members to send as or send on behalf of a group"
 ms.reviewer: rahulnayak
 ms.date: 10/28/2024
 f1.keywords: NOCSH
-ms.author: jtremper
-author: jacktremper
+author: DaniEASmith
+ms.author: danismith
 manager: jtremper
 audience: Admin
 ms.topic: article

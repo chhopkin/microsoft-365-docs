@@ -13,7 +13,7 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 hideEdit: true
-ms.date: 12/04/2024
+ms.date: 12/13/2024
 ---
 
 # Data, privacy, and security for web search in Microsoft 365 Copilot and Microsoft Copilot
@@ -117,6 +117,12 @@ If the IT admin turns on web search for Microsoft 365 Copilot users, those users
 If the IT admin turns off web search, the **Web content** toggle can longer be used and there isn’t a way for users to turn web search back on. For example, even if a Microsoft 365 Copilot user has turned on the **Web content** toggle, they still won’t be able to use web search.
 
 If the IT admin doesn’t configure the **Allow web search in Copilot** policy, web search will be available to users in both Microsoft 365 Copilot and Microsoft Copilot, unless the IT admin has set the **Allow the use of additional optional connected experiences in Office** policy to **Disabled**. But turning off optional connected experiences restricts Microsoft Copilot, Microsoft 365 Copilot, and multiple experiences across Microsoft 365.
+
+> [!NOTE]
+> For Government Community Cloud (GCC) customers:
+> - Web search is available in GCC, except for BizChat in Teams.
+> - The **Allow web search in Copilot** policy is available in GCC in Cloud Policy service for Microsoft 365.
+> - If the IT admin doesn’t configure the **Allow web search in Copilot** policy, web search will be turned off in GCC, regardless of how the **Allow the use of additional optional connected experiences in Office** policy is configured.
 
 ### Web content toggle for users (only for Microsoft 365 Copilot)
 
