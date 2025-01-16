@@ -21,17 +21,17 @@ description: Learn how to use AI Builder to create structured or freeform docume
 # Overview of structured and freeform document processing in Microsoft Syntex
 
 > [!NOTE]
-> Through June 2025, you can try out structured and freeform document processing and other selected Syntex services at no cost if you have [pay-as-you-go billing](syntex-azure-billing.md) set up. For information and limitations, see [Try out Microsoft Syntex and explore its services](promo-syntex.md).
+> Through June 2025, you can try out a [limited amount](promo-syntex.md#monthly-included-capacity) of structured and freeform document processing and other selected Syntex services at no cost if you have [pay-as-you-go billing](syntex-azure-billing.md) set up. For information and limitations, see [Try out Microsoft Syntex and explore its services](promo-syntex.md).
 
 <!---</br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW15YNo]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=43234179-fd0c-47c0-96a9-0fd6bc76163b]
 
 </br>--->
 
-Use the structured document processing model ([layout method](create-syntex-model.md#train-a-custom-model)) to automatically identify field and table values. It works best for structured or semi-structured documents, such as forms and invoices.
+Use the structured document processing model ([layout method](create-syntex-model.md#create-a-custom-model)) to automatically identify field and table values. It works best for structured or semi-structured documents, such as forms and invoices.
 
-Use the freeform document processing model ([freeform selection method](create-syntex-model.md#train-a-custom-model)) to automatically extract information from unstructured and freeform documents, such as letters and contracts.
+Use the freeform document processing model ([freeform selection method](create-syntex-model.md#create-a-custom-model)) to automatically extract information from unstructured and freeform documents, such as letters and contracts.
 
 > [!NOTE]
 > Microsoft respects the privacy and ownership of data you use to train and process models in Syntex. None of your organization's data is used or transferred by Microsoft to train AI models, large-language models, or any other models. Your data remains securely within your organization’s tenant. For more information, see [Microsoft data protection and privacy](https://www.microsoft.com/en-us/trust-center/privacy).
@@ -64,5 +64,3 @@ If you need it enabled on your document library, contact your Microsoft 365 admi
 ## Requirements and limitations
 
 For information about requirements to consider when choosing this model, see [Requirements and limitations for models in Microsoft Syntex](requirements-and-limitations.md#structured-document-processing).
-
-
