@@ -170,6 +170,7 @@ jobs:
 
                             Write-Host "The branch $OriginRepo/$OriginBranch isn't allowed to merge into $PublishBranch. Click Summary in the left pane for more information."
                             
+                            Throw "The branch $OriginRepo/$OriginBranch isn't allowed to merge into $PublishBranch. Click Summary in the left pane for more information."
 
                         } # OriginBranch
 
