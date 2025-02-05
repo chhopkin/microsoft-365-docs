@@ -17,6 +17,7 @@ ms.collection:
 - Microsoft 365-collaboration
 - Tier3
 - essentials-manage
+- magic-ai-copilot
 search.appverid:
 - SPO160
 - MET150
@@ -26,10 +27,11 @@ description: "Learn how to manage Loop components in your organization."
 # Loop admin policies for Loop components and Loop workspaces
 
 Loop components and integrations are backed by `.loop` files (earlier releases of Loop created these as `.fluid` files), stored in OneDrive, SharePoint, or [SharePoint Embedded](/sharepoint/dev/embedded/concepts/admin-exp/consuming-tenant-admin/cta). IT administrators need to manage creation of Loop content and integrations using **BOTH**:
-1. Cloud Policy 
-2. SharePoint PowerShell command (Teams only)
 
-Loop workspaces, Copilot Pages, and the `.loop` files and content created in Loop workspaces are stored in SharePoint Embedded containers. IT admins can manage creation of Loop workspaces using Cloud Policy. 
+1. Cloud Policy
+1. SharePoint PowerShell command (Teams only)
+
+Loop workspaces, Copilot Pages, and the `.loop` files and content created in Loop workspaces are stored in SharePoint Embedded containers. IT admins can manage creation of Loop workspaces using Cloud Policy.
 
 ## Requirements
 
@@ -95,12 +97,13 @@ Configure the creation of content in these locations by using the appropriate po
 ## User experience expectations when admin settings are configured
 
 As described in this topic, you can control the ability for users in your environment to create new Loop content. **You cannot prevent access to existing content using the admin controls.** You can configure the admin controls via select groups or for your entire tenant (except for the Teams controls, which apply to the entire tenant only).
+
 - To prevent collaboration between certain groups in your organization, refer to [Information Barriers](/en-us/purview/information-barriers-sharepoint).
 - To prevent access to existing content and the Loop app with workspaces, refer to [Conditional Access policies](/sharepoint/control-access-from-unmanaged-devices).
 
 ### Here's what you should expect when using the Loop IT admin controls configured to Disabled
 
-When Loop IT admin controls are set to Disabled, the creation of new Loop files and SharePoint Embedded containers is prevented. Existing user data is not deleted, and users can still find, see, and access existing Loop files and Loop workspaces.
+When Loop IT admin controls are set to Disabled, the creation of new Loop files and SharePoint Embedded containers is prevented. Existing user data isn't deleted, and users can still find, see, and access existing Loop files and Loop workspaces.
 
 Even with the admin policies disabled, Loop content and icons may still appear in certain places. Files created before disabling new creation can still be found in Microsoft365.com, the Loop component viewer and editor (loop.cloud.microsoft), and links shared in messages or documents. Access to these files is determined by their permissions, so users with edit access can still open and edit them.
 
@@ -149,18 +152,18 @@ The Loop experiences (except for Microsoft Teams) check the following [Cloud Pol
                 - OneNote integration
                 - Whiteboard integration
             - this setting does **NOT** apply to:
-                - Loop workspaces (see [Manage Loop workspaces in SharePoint Embedded](/microsoft-365/loop/loop-workspaces-configuration))
+                - Loop workspaces
                 - Teams integration (see [Settings management for Loop components in Teams](#settings-management-for-loop-functionality-in-teams))
                 - Copilot Pages
         - **Enabled**: Creation of Loop components and integration is available to the users.
         - **Disabled**: Creation of Loop components and integration isn't available to the users.
-        - **Not configured**: Creation of Loop components and integration is available to the users.   
+        - **Not configured**: Creation of Loop components and integration is available to the users.
     - For **Create and view Loop files in Microsoft 365 Copilot Chat**
         - **Enabled**: Copilot pages creation and integration are available to the users.
         - **Disabled**: Copilot pages creation and integration aren't available to the users.
         - **Not configured**: Copilot pages creation and integration are available to the users.
           >[!NOTE]
-          >If your organization has [disabled the creation of OneDrive](/sharepoint/manage-user-profiles#disable-onedrive-creation-for-some-users), regardless of the setting noted here, these people in your organization will not be able to create a Copilot Pages workspace.  
+          >If your organization has [disabled the creation of OneDrive](/sharepoint/manage-user-profiles#disable-onedrive-creation-for-some-users), regardless of the setting noted here, these people in your organization won't be able to create a Copilot Pages workspace.  
     - For **Create and view Loop files in Outlook** (includes Outlook and [Teams New Calendar](https://support.microsoft.com/en-us/office/get-started-with-the-new-calendar-in-microsoft-teams-98f3b637-5da2-43e2-91b3-f312ab3e4dc5)):
         - **Enabled**: Creation of Loop components and integration is available to the users.
         - **Disabled**: Creation of Loop components and integration isn't available to the users.
@@ -169,6 +172,7 @@ The Loop experiences (except for Microsoft Teams) check the following [Cloud Pol
 1. Reassign priority for any security group, if required. (If two or more policy configurations are applicable to the same set of users, the one with the higher priority is applied.)
 
 In case you create a new policy configuration or change the configuration for an existing policy, there can be a delay in the change being reflected as described below:
+
 - If there were existing policy configurations prior to the change, then it will take 90 mins for the change to be reflected.
 - If there were no policy configurations prior to the change, then it will take 24 hours for the change to be reflected.
 
@@ -182,7 +186,7 @@ You'll need the [latest version of SharePoint PowerShell module](/powershell/sha
 |Experience  |SharePoint organization properties  |Notes  |
 |---------|---------|---------|
 |Loop components in Teams  | `IsLoopEnabled` (boolean)  |  This property controls Loop component creation and integration in Microsoft Teams. It applies to the entire tenant and can't be configured at the user level.  |
-|Collaborative meeting notes  |  `IsCollabMeetingNotesFluidEnabled` (boolean)  |  This property controls the collaborative meeting notes creation and integration in Microsoft Teams. It applies to the entire tenant and can't be configured at the user level. <br/><br/>The SharePoint organization property does not apply to collaborative meeting notes in [Teams New Calendar](https://support.microsoft.com/en-us/office/get-started-with-the-new-calendar-in-microsoft-teams-98f3b637-5da2-43e2-91b3-f312ab3e4dc5), see [Settings management in Cloud Policy](#settings-management-in-cloud-policy).   |
+|Collaborative meeting notes  |  `IsCollabMeetingNotesFluidEnabled` (boolean)  |  This property controls the collaborative meeting notes creation and integration in Microsoft Teams. It applies to the entire tenant and can't be configured at the user level. <br/><br/>The SharePoint organization property doesn't apply to collaborative meeting notes in [Teams New Calendar](https://support.microsoft.com/en-us/office/get-started-with-the-new-calendar-in-microsoft-teams-98f3b637-5da2-43e2-91b3-f312ab3e4dc5), see [Settings management in Cloud Policy](#settings-management-in-cloud-policy).   |
 
 To check your tenant's default file permissions, perform the following steps:
 

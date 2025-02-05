@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - Tier1
 - scotvorg
+ms.custom: campaignIDs-batch1
 description: "Get a report about how people in your organization use Microsoft 365 services and drill into each chart for more insights."
 ---
 
