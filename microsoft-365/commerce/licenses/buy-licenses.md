@@ -25,6 +25,7 @@ ms.custom:
 - adminvideo
 - admindeeplinkMAC
 - GAUpdates
+- campaignIDs-batch1
 search.appverid: MET150
 description: "Learn how to buy more licenses or reduce the number of licenses for your business subscription in the Microsoft 365 admin center."
 ms.date: 02/22/2024

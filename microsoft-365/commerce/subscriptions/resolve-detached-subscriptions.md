@@ -21,6 +21,7 @@ ms.custom:
 - commerce_subscriptions
 - QuickDraft
 - AdminTemplateSet
+- campaignIDs-batch1
 search.appverid: MET150 
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to use the Microsoft 365 admin center to resolve a detached subscription that you bought from a CSP partner."
