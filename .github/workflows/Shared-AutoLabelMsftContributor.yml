@@ -13,7 +13,9 @@ on:
         secrets:
             AccessToken:
                 required: true
-            TeamReadAccessToken:
+            ClientId:
+                required: true
+            PrivateKey:
                 required: true
 jobs:
     build:
@@ -25,7 +27,8 @@ jobs:
           env: 
             PayloadJson: ${{ inputs.PayloadJson }}
             AccessToken: ${{ secrets.AccessToken }}
-            TeamReadAccessToken: ${{ secrets.TeamReadAccessToken }}
+            ClientId: ${{ secrets.ClientId }}
+            PrivateKey: ${{ secrets.PrivateKey }}
             
           run: |
 
@@ -33,9 +36,10 @@ jobs:
 
             # Get payload data from GitHub. 
             $GitHubData = $env:PayloadJson | ConvertFrom-Json -Depth 50
-            $AccessToken = $env:AccessToken
-            $TeamReadAccessToken = $env:TeamReadAccessToken
             $GitRequestEvent = $GitHubData.event_name
+            $AccessToken = $env:AccessToken
+            $ClientId = $env:ClientId
+            $PrivateKey = $env:PrivateKey
 
             $RepoName = $GitHubData.event.repository.name
             $RepoUrl = $GitHubData.event.repository.url
@@ -43,6 +47,134 @@ jobs:
 
             # URL of the org team to check. We're using the "everyone" team in MicrosoftDocs. 
             $OrgTeamUrl = "https://api.github.com/orgs/microsoftdocs/teams/everyone/memberships/"
+
+            ###########################################
+            ###########################################
+            # GitHub app/installation token block start
+            ###########################################
+            ###########################################
+
+            Function ConvertTo-JwtBase64 {
+                param(
+                    [Parameter(Mandatory = $True)]
+                    [string]$RawJson
+                )
+                
+                # Convert UTF-8 bytes to Base64, then make it URL-safe for JWT
+                $Encoded = [Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes($RawJson))
+                Return $Encoded.TrimEnd('=') -replace '\+','-' -replace '/','_'
+            }
+
+            Function New-GitHubAppJWT {
+                param(
+                    [Parameter(Mandatory = $True)]
+                    [string]$ClientId,
+                    
+                    [Parameter(Mandatory = $True)]
+                    [string]$PrivateKey,
+
+                    [int]$ExpiresInMinutes = 10
+                )
+
+                Write-Host "Create JWT"
+
+                # Build the header
+                $Header = @{
+                    alg = "RS256"
+                    typ = "JWT"
+                } | ConvertTo-Json -Compress
+
+                $HeaderEncoded = ConvertTo-JwtBase64 -RawJson $Header
+
+                # Build the payload
+                $Now = [System.DateTimeOffset]::UtcNow
+                $Payload = @{
+                    iat = $now.AddSeconds(-10).ToUnixTimeSeconds()
+                    exp = $now.AddMinutes($ExpiresInMinutes).ToUnixTimeSeconds()
+                    iss = $ClientId
+                } | ConvertTo-Json -Compress
+
+                $PayloadEncoded = ConvertTo-JwtBase64 -RawJson $Payload
+
+                # Combine and sign
+                $Rsa = [System.Security.Cryptography.RSA]::Create()
+                $Rsa.ImportFromPem($PrivateKey)
+
+                $Combined = "$HeaderEncoded.$PayloadEncoded"
+                $SignatureBytes = $Rsa.SignData(
+                    [System.Text.Encoding]::UTF8.GetBytes($Combined),
+                    [System.Security.Cryptography.HashAlgorithmName]::SHA256,
+                    [System.Security.Cryptography.RSASignaturePadding]::Pkcs1
+                )
+
+                $SignatureEncoded = [Convert]::ToBase64String($SignatureBytes).TrimEnd('=') -replace '\+','-' -replace '/','_'
+                
+                Return "$HeaderEncoded.$PayloadEncoded.$SignatureEncoded"
+            }
+
+            Function Get-GitHubAppInstallationToken {
+                param(
+                    [Parameter(Mandatory = $true)]
+                    [string]$ClientId,
+                    
+                    [Parameter(Mandatory = $true)]
+                    [string]$PrivateKey,
+                    
+                    [Parameter(Mandatory = $true)]
+                    [string]$Organization,
+
+                    [int]$TokenTTLMinutes = 10
+                )
+
+                # Create the JWT
+                $Jwt = New-GitHubAppJWT -ClientId $ClientId -PrivateKey $PrivateKey -ExpiresInMinutes $TokenTTLMinutes
+                
+                # Prepare headers
+                $JwtHeaders = @{
+                    Authorization         = "Bearer $Jwt"
+                    Accept               = "application/vnd.github+json"
+                    "X-GitHub-Api-Version"= "2022-11-28"
+                }
+
+                Write-Host "Request org installation ID"
+
+                # 1) Retrieve the installation ID for the org
+                Try {
+                    $InstallationInfo = Invoke-RestMethod `
+                        -Uri "https://api.github.com/orgs/$Organization/installation" `
+                        -Headers $JwtHeaders `
+                        -ErrorAction Stop
+
+                    $InstallationId = $InstallationInfo.id
+                }
+                Catch {
+                    Write-Error "Failed to get installation ID from GitHub. $_"
+                    Return $Null
+                }
+
+                Write-Host "Get installation token"
+
+                # 2) Use the installation ID to request an installation token
+                Try {
+                    $TokenResponse = Invoke-RestMethod `
+                        -Uri "https://api.github.com/app/installations/$InstallationId/access_tokens" `
+                        -Headers $JwtHeaders `
+                        -Method Post `
+                        -ErrorAction Stop
+
+                    Return $TokenResponse.token
+                }
+                Catch {
+                    Write-Error "Failed to get access token from GitHub. $_"
+                    Return $Null
+                }
+            }
+
+            #########################################
+            #########################################
+            # GitHub app/installation token block end
+            #########################################
+            #########################################
 
             #####################
             #####################
@@ -180,10 +312,13 @@ jobs:
             $GitHubHeaders.Add("User-Agent", "OfficeDocs")
             $GitHubHeaders.Add("Accept","application/vnd.github.mercy-preview+json")
 
-            # Create team read GitHub HTTP authentication header. Need a token that has access to org scope. GITHUB_TOKEN that 
-            # is used to populate $AccessToken doesn't have access to org scope so using a custom fine-grained token with limited member read scope.
+            # Create team read GitHub HTTP authentication header. Need a token that has access to org scope. Get-GitHubAppInstallationToken
+            # requests an installation token from our GitHub app so that we can authenticate. GITHUB_TOKEN that is used to populate $AccessToken 
+            # doesn't have access to org scope so using our GitHub app's access.
+            $GitHubAccessToken = Get-GitHubAppInstallationToken -ClientId $ClientId -PrivateKey $PrivateKey -Organization MicrosoftDocs -TokenTTLMinutes 10
+
             $TeamReadGitHubHeaders = @{}
-            $TeamReadGitHubHeaders.Add("Authorization","token $($TeamReadAccessToken)")
+            $TeamReadGitHubHeaders.Add("Authorization","token $($GitHubAccessToken)")
             $TeamReadGitHubHeaders.Add("User-Agent", "OfficeDocs")
             $TeamReadGitHubHeaders.Add("Accept","application/vnd.github.mercy-preview+json")
 
