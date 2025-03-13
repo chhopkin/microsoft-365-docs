@@ -77,7 +77,7 @@ jobs:
           <p/>
           If you're ready to merge this PR, add the <b>Sign off</b> label to have the PR reviewed and merged by PubOps. 
           <p/> 
-          If you're not ready to merge this PR yet and want to keep it open, click on <b>Update branch</b> at the bottom of this PR to bring it up to date with the main branch. 
+          If you're not ready to merge this PR yet and want to keep it open, click on <b>Update branch</b> at the bottom of this PR to bring it up to date with the main branch. The <b>Inactive</b> label will be removed within six hours.
           <p/>
           If the changes in this PR are no longer needed, click on <b>Close</b> at the bottom of the page. Please also delete the branch by clicking on <b>Delete branch</b>.
           <p/> 
