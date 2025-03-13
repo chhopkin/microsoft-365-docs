@@ -1,0 +1,277 @@
+name: (Scheduled) Stale branch removal
+
+permissions:
+  contents: write
+
+on:
+    workflow_call:
+        inputs:
+            PayloadJson:
+                required: true
+                type: string
+            RepoBranchSkipList:
+                required: true
+                type: string
+            ReportOnly:
+                required: true
+                type: boolean
+        secrets:
+            AccessToken:
+                required: true
+
+jobs:
+
+    stale-branch:
+        name: Removal stale branches
+        runs-on: ubuntu-latest
+        steps:  
+          - name: Process branches
+            shell: pwsh
+            env: 
+                DefaultSkipBranchList: '[
+                        "live",
+                        "main",
+                        "repo_sync_working_branch"
+                    ]'
+                RepoBranchSkipList: ${{ inputs.RepoBranchSkipList }}
+                PayloadJson: ${{ inputs.PayloadJson }}
+                ReportOnly: ${{ inputs.ReportOnly }}
+                AccessToken: ${{ secrets.AccessToken }}
+                
+            run: |
+
+                # Get GitHub data
+                $GitHubData = $env:PayloadJson | ConvertFrom-Json -Depth 50
+                $AccessToken = $env:AccessToken
+                $DefaultSkipBranchList = $env:DefaultSkipBranchList | ConvertFrom-Json
+                $RepoBranchSkipList = $env:RepoBranchSkipList | ConvertFrom-Json
+                $ReportOnly = [System.Convert]::ToBoolean($env:ReportOnly)
+
+                Function Get-TotalElements {
+                    param(
+                        [Parameter(Mandatory=$true)]
+                        [Object[]]$Array
+                    )
+                    
+                    $count = 0
+                    foreach ($item in $Array) {
+                        if ($item -is [System.Array]) {
+                            # Add the number of elements in the nested array
+                            $count += $item.Count
+                        } else {
+                            # Otherwise count it as one element
+                            $count++
+                        }
+                    }
+                    return $count
+                }
+
+
+                If ($ReportOnly) {
+                
+                    Write-Host "`n`nRUNNING IN REPORTING MODE`n`n"
+
+                    $ReportOnlyString = "REPORT ONLY -"
+                
+                } Else {
+                
+                    $ReportOnlyString = $Null
+
+                }
+
+                Write-Host "Default branch skip list: $DefaultSkipBranchList"
+                Write-Host "Repo branch skip list: $RepoBranchSkipList"
+
+                $SkipBranchList = $DefaultSkipBranchList + $RepoBranchSkipList | Select-Object -Unique
+
+                # WARNING - Setting $MaxCommitsAhead to anything other than 0 means that the workflow will delete branches with changes not in default branch. 
+                # !!! > 0 WILL RESULT IN DATA LOSS !!!
+                $MaxCommitsAhead = 0   # This is the maximum number of commits a branch can be ahead of default branch.
+                $AllowDataLoss = $False # This flag must be set to $True to allow branches with commits not in default branch to be deleted.
+                # !!! > 0 WILL RESULT IN DATA LOSS !!!
+
+                $MaxDaysBehind = 90
+                $DateLimit = (Get-Date).AddDays(-$MaxDaysBehind)
+
+                # Create github HTTP authentication header
+                $UserAgent = "officedocs"
+                $GitHubHeaders = @{}
+                $GitHubHeaders.Add("Authorization","token $($AccessToken)")
+                $GitHubHeaders.Add("User-Agent", $UserAgent)
+
+                $RepoUrl = $GitHubData.event.repository.url
+                $RepoData = Invoke-RestMethod -Headers $GitHubHeaders -Uri $RepoUrl -Method GET
+
+                $BranchesUrl = $RepoData.branches_url.Replace("{/branch}", "?per_page=100")
+
+                $DefaultBranch = $RepoData.default_branch
+                $CompareUrl = $RepoData.compare_url.Replace("{base}...{head}", "$DefaultBranch...")
+            
+                $Branches = Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchesUrl  -Method GET -FollowRelLink -MaximumFollowRelLink 50 -ResponseHeadersVariable ResponseHeaders
+
+                $StartBranchCount = Get-TotalElements -Array $Branches
+
+                $ReportBranchList = @()
+                $DeleteBranchCount = 0
+                $WatchListCount = 0
+                $DataLossCount = 0
+                $DataLossBlockedCount = 0
+
+                # Block the script from running if Ahead by is greater than 0 when maximum branch age is less than 90. Doing this could result in loss of data that may still be
+                # wanted. Do not change the values unless you accept the high risk of unwanted data loss.
+                If (($MaxCommitsAhead -gt 0) -and ($MaxDaysBehind -lt 90)) {
+                
+                    Throw "ERROR: You can't set MaxCommitsAhead above 0 when MaxDaysBehind is set to less than 90. The potential for data loss is too high."
+
+                }
+
+                # Block the script from running if maximum age is less than 30 days. 
+                If ($MaxDaysBehind -lt 30) {
+                
+                    Throw "ERROR: You can't set MaxDaysBehind to less than 30. Branch churn too high."
+
+                }
+                
+                ForEach ($Page in $Branches) {
+
+                    ForEach ($Branch in $Page) {
+
+                        $AheadBy = $BehindBy = $LastCommitDate = $CompareData = $Null
+                        $ProtectedBranch = $True
+
+                        $BranchName = $Branch.name
+                        $CommitsUrl = $RepoData.commits_url.Replace("{/sha}", "?sha=$BranchName&per_page=1&page=1")
+                        $BranchDeleteUrl = $RepoData.url + "/git/refs/heads/$BranchName"
+
+                        Write-Host "`nBranch name: $BranchName"
+
+                        If ($SkipBranchList -contains $BranchName) {
+
+                            Write-Host "      Skipped. Branch is on the branch skip list."
+
+                            continue
+
+                        }
+
+                        $ProtectedBranch = $Branch.protected
+
+                        Write-Host "   Protected: $ProtectedBranch."
+
+                        If ($ProtectedBranch) {
+
+                            Write-Host "      Skipped. Branch is protected."
+
+                            continue
+
+                        }
+
+                        $LastCommitDate = (Invoke-RestMethod -Headers $GitHubHeaders -uri $CommitsUrl).commit.committer.date
+
+                        Write-Host "   Last commit date: $LastCommitDate."
+
+                        If ($LastCommitDate -ge $DateLimit) {
+
+                            Write-Host "      Skipped. Last commit date is after $DateLimit."
+
+                            continue
+
+                        }
+
+                        $CompareData = Invoke-RestMethod -Headers $GitHubHeaders -Uri "$CompareUrl$BranchName" -Method GET -ResponseHeadersVariable ResponseHeaders
+
+                        $BehindBy = $CompareData.behind_by
+                        $AheadBy = $CompareData.ahead_by
+
+                        Write-Host "   Ahead of $DefaultBranch by: $AheadBy `n   Behind by: $BehindBy."
+
+                        If ($AheadBy -gt $MaxCommitsAhead) {
+
+                            Write-Host "      Skipped. Branch exceeds `"ahead by`" limit of $MaxCommitsAhead."
+
+                            $ReportBranchList += ">>> Branch watch list <<< $BranchName exceeds maximum age but has outstanding commits that exceed maximum Ahead By limit. Branch protected: $ProtectedBranch. Ahead by: $AheadBy. Behind by $BehindBy. Days since last commit: $($($(Get-Date) - $LastCommitDate).Days)."
+
+                            $WatchListCount++
+
+                            continue
+
+                        }
+
+                        If ($AheadBy -eq 0) {
+                        
+                            Write-Host "      $ReportOnlyString Delete branch $BranchName"
+
+                            If (!$ReportOnly) {
+
+                                Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchDeleteUrl -Method DELETE -ResponseHeadersVariable ResponseHeaders | Out-Null
+
+                            }
+
+                            $ReportBranchList += "$ReportOnlyString $BranchName deleted. Branch protected: $ProtectedBranch. Ahead by: $AheadBy. Behind by $BehindBy. Days since last commit: $($($(Get-Date) - $LastCommitDate).Days). "
+
+                            $DeleteBranchCount++
+
+                        } Else {
+                        
+                            If ($AllowDataLoss) {
+                            
+                                Write-Host "      $ReportOnlyString Delete branch $BranchName with data loss"
+
+                                If (!$ReportOnly) {
+
+                                    Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchDeleteUrl -Method DELETE -ResponseHeadersVariable ResponseHeaders | Out-Null
+
+                                }
+
+                                $ReportBranchList += "$ReportOnlyString !!! DATA LOSS !!! $BranchName deleted. Branch protected: $ProtectedBranch. Ahead by: $AheadBy. Behind by $BehindBy. Days since last commit: $($($(Get-Date) - $LastCommitDate).Days). "
+
+                                $DeleteBranchCount++
+                                $DataLossCount++
+                            
+                            } Else {
+                            
+                                Write-Host "      $ReportOnlyString Branch $BranchName was marked for deletion with data loss but data loss flag is disabled."
+
+                                $ReportBranchList += "$ReportOnlyString *** DATA LOSS BLOCKED *** $BranchName was marked for deletion with data loss but the data loss flag is disabled. Branch protected: $ProtectedBranch. Ahead by: $AheadBy. Behind by $BehindBy. Days since last commit: $($($(Get-Date) - $LastCommitDate).Days)."
+
+                                $DataLossBlockedCount++
+                            
+                            } # AllowDataLoss If
+                        
+                        } # AheadBy If
+   
+                    } # Branch loop
+
+                } # Result pages loop
+
+                $Branches = Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchesUrl  -Method GET -FollowRelLink -MaximumFollowRelLink 50 -ResponseHeadersVariable ResponseHeaders
+                
+                $EndBranchCount = Get-TotalElements -Array $Branches
+
+                Write-Host "`n`n`n"
+
+                $ReportBranchList = $ReportBranchList | Sort-Object
+
+                ForEach ($Item in $ReportBranchList) {
+                    
+                    Write-Host $Item
+
+                }
+
+                Write-Host "`nReport only mode: $ReportOnly"
+                Write-Host "Allow data loss: $AllowDataLoss"
+                Write-Host "Maximum commits ahead by limit: $MaxCommitsAhead"
+                Write-Host "Maximum days behind limit: $MaxDaysBehind"
+                Write-Host "Maximum branch age based on days behind limit: $DateLimit"
+                Write-Host "==========="
+                Write-Host "Default branch skip list: $DefaultSkipBranchList"
+                Write-Host "Repo branch skip list: $RepoBranchSkipList"
+                Write-Host "==========="
+                Write-Host "Total branches before run: $StartBranchCount"
+                Write-Host "Total branches after run: $EndBranchCount"
+                Write-Host "==========="
+                Write-Host "Watch list branches: $WatchListCount"
+                Write-Host "$ReportOnlyString Data loss blocked branches: $DataLossBlockedCount"
+                Write-Host "==========="
+                Write-Host "$ReportOnlyString Branches deleted with data loss: $DataLossCount"
+                Write-Host "$ReportOnlyString Total deleted branches: $DeleteBranchCount"
+                
