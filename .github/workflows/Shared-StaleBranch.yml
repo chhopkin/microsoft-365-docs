@@ -116,6 +116,8 @@ jobs:
                 $WatchListCount = 0
                 $DataLossCount = 0
                 $DataLossBlockedCount = 0
+                $RetrieveBranchDataErrorCount = 0
+                $RetrieveBranchDataError = $False
 
                 # Block the script from running if Ahead by is greater than 0 when maximum branch age is less than 90. Doing this could result in loss of data that may still be
                 # wanted. Do not change the values unless you accept the high risk of unwanted data loss.
@@ -177,44 +179,43 @@ jobs:
 
                         }
 
-                        $CompareData = Invoke-RestMethod -Headers $GitHubHeaders -Uri "$CompareUrl$BranchName" -Method GET -ResponseHeadersVariable ResponseHeaders
+                        Try {
 
-                        $BehindBy = $CompareData.behind_by
-                        $AheadBy = $CompareData.ahead_by
+                            $CompareData = Invoke-RestMethod -Headers $GitHubHeaders -Uri "$CompareUrl$BranchName" -Method GET -ResponseHeadersVariable ResponseHeaders -ErrorAction Stop
 
-                        Write-Host "   Ahead of $DefaultBranch by: $AheadBy `n   Behind by: $BehindBy."
+                            $BehindBy = [int]$CompareData.behind_by
+                            $AheadBy = [int]$CompareData.ahead_by
 
-                        If ($AheadBy -gt $MaxCommitsAhead) {
+                        } Catch {
+                        
+                            Write-Host "      ERROR: Failed to retrieve branch data. Skipping. URL: "$CompareUrl$BranchName" Error: $($_)"
 
-                            Write-Host "      Skipped. Branch exceeds `"ahead by`" limit of $MaxCommitsAhead."
-
-                            $ReportBranchList += ">>> Branch watch list <<< $BranchName exceeds maximum age but has outstanding commits that exceed maximum Ahead By limit. Branch protected: $ProtectedBranch. Ahead by: $AheadBy. Behind by $BehindBy. Days since last commit: $($($(Get-Date) - $LastCommitDate).Days)."
-
-                            $WatchListCount++
+                            $RetrieveBranchDataError = $True
+                            $RetrieveBranchDataErrorCount++
 
                             continue
-
+                        
                         }
 
-                        If ($AheadBy -eq 0) {
-                        
-                            Write-Host "      $ReportOnlyString Delete branch $BranchName"
+                        If (($CompareData) -and ($BehindBy -is [int]) -and ($AheadBy -is [int]) -and ($LastCommitDate -is [datetime])) {
 
-                            If (!$ReportOnly) {
+                            Write-Host "   Ahead of $DefaultBranch by: $AheadBy `n   Behind by: $BehindBy."
 
-                                Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchDeleteUrl -Method DELETE -ResponseHeadersVariable ResponseHeaders | Out-Null
+                            If ($AheadBy -gt $MaxCommitsAhead) {
+
+                                Write-Host "      Skipped. Branch exceeds `"ahead by`" limit of $MaxCommitsAhead."
+
+                                $ReportBranchList += ">>> Branch watch list <<< $BranchName exceeds maximum age but has outstanding commits that exceed maximum Ahead By limit. Branch protected: $ProtectedBranch. Ahead by: $AheadBy. Behind by $BehindBy. Days since last commit: $($($(Get-Date) - $LastCommitDate).Days)."
+
+                                $WatchListCount++
+
+                                continue
 
                             }
 
-                            $ReportBranchList += "$ReportOnlyString $BranchName deleted. Branch protected: $ProtectedBranch. Ahead by: $AheadBy. Behind by $BehindBy. Days since last commit: $($($(Get-Date) - $LastCommitDate).Days). "
-
-                            $DeleteBranchCount++
-
-                        } Else {
-                        
-                            If ($AllowDataLoss) {
+                            If ($AheadBy -eq 0) {
                             
-                                Write-Host "      $ReportOnlyString Delete branch $BranchName with data loss"
+                                Write-Host "      $ReportOnlyString Delete branch $BranchName"
 
                                 If (!$ReportOnly) {
 
@@ -222,22 +223,51 @@ jobs:
 
                                 }
 
-                                $ReportBranchList += "$ReportOnlyString !!! DATA LOSS !!! $BranchName deleted. Branch protected: $ProtectedBranch. Ahead by: $AheadBy. Behind by $BehindBy. Days since last commit: $($($(Get-Date) - $LastCommitDate).Days). "
+                                $ReportBranchList += "$ReportOnlyString $BranchName deleted. Branch protected: $ProtectedBranch. Ahead by: $AheadBy. Behind by $BehindBy. Days since last commit: $($($(Get-Date) - $LastCommitDate).Days). "
 
                                 $DeleteBranchCount++
-                                $DataLossCount++
-                            
+
                             } Else {
                             
-                                Write-Host "      $ReportOnlyString Branch $BranchName was marked for deletion with data loss but data loss flag is disabled."
+                                If ($AllowDataLoss) {
+                                
+                                    Write-Host "      $ReportOnlyString Delete branch $BranchName with data loss"
 
-                                $ReportBranchList += "$ReportOnlyString *** DATA LOSS BLOCKED *** $BranchName was marked for deletion with data loss but the data loss flag is disabled. Branch protected: $ProtectedBranch. Ahead by: $AheadBy. Behind by $BehindBy. Days since last commit: $($($(Get-Date) - $LastCommitDate).Days)."
+                                    If (!$ReportOnly) {
 
-                                $DataLossBlockedCount++
+                                        Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchDeleteUrl -Method DELETE -ResponseHeadersVariable ResponseHeaders | Out-Null
+
+                                    }
+
+                                    $ReportBranchList += "$ReportOnlyString !!! DATA LOSS !!! $BranchName deleted. Branch protected: $ProtectedBranch. Ahead by: $AheadBy. Behind by $BehindBy. Days since last commit: $($($(Get-Date) - $LastCommitDate).Days). "
+
+                                    $DeleteBranchCount++
+                                    $DataLossCount++
+                                
+                                } Else {
+                                
+                                    Write-Host "      $ReportOnlyString Branch $BranchName was marked for deletion with data loss but data loss flag is disabled."
+
+                                    $ReportBranchList += "$ReportOnlyString *** DATA LOSS BLOCKED *** $BranchName was marked for deletion with data loss but the data loss flag is disabled. Branch protected: $ProtectedBranch. Ahead by: $AheadBy. Behind by $BehindBy. Days since last commit: $($($(Get-Date) - $LastCommitDate).Days)."
+
+                                    $DataLossBlockedCount++
+                                
+                                } # AllowDataLoss If
                             
-                            } # AllowDataLoss If
+                            } # AheadBy If
+
+                        } Else {
                         
-                        } # AheadBy If
+                            Write-Host "      ERROR - One or more variables doesn't contain a valid data type. CompareData: $($CompareData). AheadBy: $($AheadBy -is [int]). BehindBy: $($BehindBy -is [int]). LastCommitDate: $($LastCommitDate -is [datetime]). Skipping."
+                            Write-Host "              AheadBy: $AheadBy"
+                            Write-Host "              BehindBy: $BehindBy"
+                            Write-Host "              LastCommitDate: $LastCommitDate"
+                            Write-Host $($CompareData | ConvertTo-Json -Depth 1)
+
+                            $RetrieveBranchDataError = $True
+                            $RetrieveBranchDataErrorCount++
+
+                        } # Data retrieval check If
    
                     } # Branch loop
 
@@ -274,4 +304,12 @@ jobs:
                 Write-Host "==========="
                 Write-Host "$ReportOnlyString Branches deleted with data loss: $DataLossCount"
                 Write-Host "$ReportOnlyString Total deleted branches: $DeleteBranchCount"
+
+                # Forcing the workflow to fail at the end to bring attention to the fact that there was a failure to process
+                # one or more branches.
+                If ($RetrieveBranchDataError) {
+                
+                    Throw "Failed to retrieve data for $RetrieveBranchDataErrorCount branches."
+
+                }
                 
