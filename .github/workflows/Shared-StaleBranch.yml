@@ -22,7 +22,7 @@ on:
 jobs:
 
     stale-branch:
-        name: Removal stale branches
+        name: Stale branch removal
         runs-on: ubuntu-latest
         steps:  
           - name: Process branches
@@ -47,6 +47,7 @@ jobs:
                 $RepoBranchSkipList = $env:RepoBranchSkipList | ConvertFrom-Json
                 $ReportOnly = [System.Convert]::ToBoolean($env:ReportOnly)
 
+                # Function to get the total number of elements in an array. Supports nested arrays.
                 Function Get-TotalElements {
                     param(
                         [Parameter(Mandatory=$true)]
@@ -66,7 +67,7 @@ jobs:
                     return $count
                 }
 
-
+                # Indicate in the script log if the workflow is in reporting mode or not. If in reporting mode, no changes will be made to the branches.
                 If ($ReportOnly) {
                 
                     Write-Host "`n`nRUNNING IN REPORTING MODE`n`n"
@@ -82,6 +83,7 @@ jobs:
                 Write-Host "Default branch skip list: $DefaultSkipBranchList"
                 Write-Host "Repo branch skip list: $RepoBranchSkipList"
 
+                # Create the branch skip list that is a combination of the central workflow list and the branch skip list that can be populated in each individual repo.
                 $SkipBranchList = $DefaultSkipBranchList + $RepoBranchSkipList | Select-Object -Unique
 
                 # WARNING - Setting $MaxCommitsAhead to anything other than 0 means that the workflow will delete branches with changes not in default branch. 
@@ -92,6 +94,7 @@ jobs:
 
                 $MaxDaysBehind = 90
                 $DateLimit = (Get-Date).AddDays(-$MaxDaysBehind)
+                $ReportDate = Get-Date -Format "dddd MMMM dd, yyyy"
 
                 # Create github HTTP authentication header
                 $UserAgent = "officedocs"
@@ -99,18 +102,24 @@ jobs:
                 $GitHubHeaders.Add("Authorization","token $($AccessToken)")
                 $GitHubHeaders.Add("User-Agent", $UserAgent)
 
+                # Retrieve repo data and API URLs.
                 $RepoUrl = $GitHubData.event.repository.url
                 $RepoData = Invoke-RestMethod -Headers $GitHubHeaders -Uri $RepoUrl -Method GET
 
+                # Set basic repo data and construct API query URLs.
+                $RepoName = $GitHubdata.event.repository.name
+                $OrgName = $GitHubData.event.organization.login
                 $BranchesUrl = $RepoData.branches_url.Replace("{/branch}", "?per_page=100")
-
                 $DefaultBranch = $RepoData.default_branch
                 $CompareUrl = $RepoData.compare_url.Replace("{base}...{head}", "$DefaultBranch...")
+                $GitHubGraphQlUrl = "https://api.github.com/graphql"
+                $BranchesHtmlUrl = "$($GitHubData.event.repository.html_url)/branches"
             
+                # Get the list of branches to process and set the initial branch count.
                 $Branches = Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchesUrl  -Method GET -FollowRelLink -MaximumFollowRelLink 50 -ResponseHeadersVariable ResponseHeaders
-
                 $StartBranchCount = Get-TotalElements -Array $Branches
 
+                # Initialize variables that'll be used so they're all zeroed out.
                 $ReportBranchList = @()
                 $DeleteBranchCount = 0
                 $WatchListCount = 0
@@ -138,15 +147,49 @@ jobs:
 
                     ForEach ($Branch in $Page) {
 
+                        # Reset variables
                         $AheadBy = $BehindBy = $LastCommitDate = $CompareData = $Null
-                        $ProtectedBranch = $True
 
+                        # Set branch variables and URLs
+                        $ProtectedBranch = $Branch.protected
                         $BranchName = $Branch.name
                         $CommitsUrl = $RepoData.commits_url.Replace("{/sha}", "?sha=$BranchName&per_page=1&page=1")
                         $BranchDeleteUrl = $RepoData.url + "/git/refs/heads/$BranchName"
 
+                        # GraphQL query to retrieve the account associated with the branch's first commit as seen by GitHub.
+                        # May not be the actual creator of the branch in some edge cases but close enough.
+                        $FirstCommitQuery = @"
+                            query {
+                                repository(owner: "$OrgName", name: "$RepoName") {
+                                    ref(qualifiedName: "refs/heads/$BranchName") {
+                                        target {
+                                            ... on Commit {
+                                                history(first: 1) {
+                                                    edges {
+                                                        node {
+                                                            author {
+                                                                user {
+                                                                    login
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                "@
+
+                        # Create the body to send to GitHub's GraphQL API. Let ConvertTo-Json do some cleanup to make sure the JSON is valid.
+                        $FirstCommitQueryBody = @{query = $FirstCommitQuery} | ConvertTo-Json
+
                         Write-Host "`nBranch name: $BranchName"
 
+                        ####### Preliminary checks to see if the branch should be excluded. #######
+
+                        # Check to see if the branch is on the skip list and, if so, go to the next branch.
                         If ($SkipBranchList -contains $BranchName) {
 
                             Write-Host "      Skipped. Branch is on the branch skip list."
@@ -155,10 +198,9 @@ jobs:
 
                         }
 
-                        $ProtectedBranch = $Branch.protected
-
                         Write-Host "   Protected: $ProtectedBranch."
 
+                        # Check to see if the branch is protect and, if so, go to the next branch.
                         If ($ProtectedBranch) {
 
                             Write-Host "      Skipped. Branch is protected."
@@ -167,10 +209,13 @@ jobs:
 
                         }
 
+                        # Get the last commit in the branch and then get the commit's date. This will be used to determine the last time there was activity in the branch.
                         $LastCommitDate = (Invoke-RestMethod -Headers $GitHubHeaders -uri $CommitsUrl).commit.committer.date
 
                         Write-Host "   Last commit date: $LastCommitDate."
 
+                        # If the date of last activity was after the maximum age cutoff, skip to the next branch. Only if the branch's last activity was before the cut off
+                        # do we process anything else (ahead by, etc).
                         If ($LastCommitDate -ge $DateLimit) {
 
                             Write-Host "      Skipped. Last commit date is after $DateLimit."
@@ -179,12 +224,33 @@ jobs:
 
                         }
 
+                        ####### End of preliminary checks #######
+
+                        #######
+                        # Try/Catch statement retrieves all the data that will be used in the upcoming conditions. If an exception occurs, the error will be returned and the branch will be skipped.
                         Try {
 
+                            # Get a diff between the branch and $DefaultBranch so we can get AheadBy/BehindBy.
                             $CompareData = Invoke-RestMethod -Headers $GitHubHeaders -Uri "$CompareUrl$BranchName" -Method GET -ResponseHeadersVariable ResponseHeaders -ErrorAction Stop
+                            # Get the branch's first commit using the GraphQL query created earlier to get the branch's likely creator.
+                            $FirstCommitData = $(Invoke-RestMethod -Method POST -Uri $GitHubGraphQlUrl -Headers $GitHubHeaders -Body $FirstCommitQueryBody).data.repository.ref.target.history.edges.node | Select-Object -First 1
 
+                            # Force AheadBy/BehindBy type to [int] so we can test later on if we received valid data from GitHub.
+                            # Get the branch's likely creator.
                             $BehindBy = [int]$CompareData.behind_by
                             $AheadBy = [int]$CompareData.ahead_by
+                            $BranchCreator = $FirstCommitData.author.user.login
+
+                            # Create a reporting object that contains all the branch info collected. This will be used to create a table in the workflow summary that can be viewed by repo contributors.
+                            $BranchReportObject = [PSCustomObject]@{
+                                BranchName = $BranchName
+                                ProtectedBranch = $ProtectedBranch
+                                AheadBy = $AheadBy
+                                BehindBy = $BehindBy
+                                DaysSinceLastCommit = $($(Get-Date) - $LastCommitDate).Days
+                                ProcessingResult = $Null
+                                BranchCreator = $BranchCreator       
+                            }
 
                         } Catch {
                         
@@ -197,15 +263,22 @@ jobs:
                         
                         }
 
+                        #######
+                        # From this point to the reporting section, the script will retrieve additional data to determine whether the branch should be excluded or not. Each if statement builds on the previous
+                        # to see if a branch should be excluded or deleted. Only if every if statement is true, will the branch be deleted.
+
+                        # Check that valid data was returned.
                         If (($CompareData) -and ($BehindBy -is [int]) -and ($AheadBy -is [int]) -and ($LastCommitDate -is [datetime])) {
 
                             Write-Host "   Ahead of $DefaultBranch by: $AheadBy `n   Behind by: $BehindBy."
 
+                            # Check to see if there are more commits in the branch than the allowed maximum ahead by commits. If so, update the reporting object and skip to the next branch.
                             If ($AheadBy -gt $MaxCommitsAhead) {
 
                                 Write-Host "      Skipped. Branch exceeds `"ahead by`" limit of $MaxCommitsAhead."
 
-                                $ReportBranchList += ">>> Branch watch list <<< $BranchName exceeds maximum age but has outstanding commits that exceed maximum Ahead By limit. Branch protected: $ProtectedBranch. Ahead by: $AheadBy. Behind by $BehindBy. Days since last commit: $($($(Get-Date) - $LastCommitDate).Days)."
+                                $BranchReportObject.ProcessingResult = "Watch"
+                                $ReportBranchList += $BranchReportObject
 
                                 $WatchListCount++
 
@@ -213,33 +286,42 @@ jobs:
 
                             }
 
+                            # If the branch doesn't contain any commits not in $DefaultBranch, it's ok to delete.
                             If ($AheadBy -eq 0) {
                             
                                 Write-Host "      $ReportOnlyString Delete branch $BranchName"
 
+                                # If the workflow is in reporting mode, don't delete the branch. If it isn't, delete it.
                                 If (!$ReportOnly) {
 
                                     Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchDeleteUrl -Method DELETE -ResponseHeadersVariable ResponseHeaders | Out-Null
 
                                 }
 
-                                $ReportBranchList += "$ReportOnlyString $BranchName deleted. Branch protected: $ProtectedBranch. Ahead by: $AheadBy. Behind by $BehindBy. Days since last commit: $($($(Get-Date) - $LastCommitDate).Days). "
+                                # Update the reporting object.
+                                $BranchReportObject.ProcessingResult = "Deleted"
+                                $ReportBranchList += $BranchReportObject
 
                                 $DeleteBranchCount++
 
                             } Else {
                             
+                                # There's a chance that allowed number of commits to delete is greater than 0. If that's true, then this is an extra check to confirm that
+                                # the branch should actually be deleted. This is because deleting the branch will result in data loss.
                                 If ($AllowDataLoss) {
                                 
                                     Write-Host "      $ReportOnlyString Delete branch $BranchName with data loss"
 
+                                    # If the workflow is in reporting mode, don't delete the branch. If it isn't, delete it.
                                     If (!$ReportOnly) {
 
                                         Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchDeleteUrl -Method DELETE -ResponseHeadersVariable ResponseHeaders | Out-Null
 
                                     }
 
-                                    $ReportBranchList += "$ReportOnlyString !!! DATA LOSS !!! $BranchName deleted. Branch protected: $ProtectedBranch. Ahead by: $AheadBy. Behind by $BehindBy. Days since last commit: $($($(Get-Date) - $LastCommitDate).Days). "
+                                    # Update the reporting object.
+                                    $BranchReportObject.ProcessingResult = "DataLoss-Deleted"
+                                    $ReportBranchList += $BranchReportObject
 
                                     $DeleteBranchCount++
                                     $DataLossCount++
@@ -248,7 +330,9 @@ jobs:
                                 
                                     Write-Host "      $ReportOnlyString Branch $BranchName was marked for deletion with data loss but data loss flag is disabled."
 
-                                    $ReportBranchList += "$ReportOnlyString *** DATA LOSS BLOCKED *** $BranchName was marked for deletion with data loss but the data loss flag is disabled. Branch protected: $ProtectedBranch. Ahead by: $AheadBy. Behind by $BehindBy. Days since last commit: $($($(Get-Date) - $LastCommitDate).Days)."
+                                    # Update the reporting object.
+                                    $BranchReportObject.ProcessingResult = "DataLoss-Blocked"
+                                    $ReportBranchList += $BranchReportObject
 
                                     $DataLossBlockedCount++
                                 
@@ -273,37 +357,207 @@ jobs:
 
                 } # Result pages loop
 
+                #######
+                # Branch processing has completed and, from this point on, reporting is generated. 
+
+                # Construct the markdown table header that'll be used in the workflow summary.
+                $TableHeaderRow1 = "| Branch name | Branch creator | Commits ahead by | Commits behind by | Days since last commit | Processing result |"
+                $TableHeaderRow2 = "|-------------|----------------|------------------|-------------------|------------------------|-------------------|"
+
+                # Set job summary and create the "Deleted stale branches" section.
+                echo "# Stale branch results" >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "**Summary generated**: $ReportDate" >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "This summary shows the actions taken by this workflow during its run on the date above. If you want to see the current status of branches in this repository, see [Branches]($BranchesHtmlUrl)." >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+
+
+                # Retrieve a list of branches again to get the total number of branches after processing the branches.
                 $Branches = Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchesUrl  -Method GET -FollowRelLink -MaximumFollowRelLink 50 -ResponseHeadersVariable ResponseHeaders
-                
                 $EndBranchCount = Get-TotalElements -Array $Branches
 
                 Write-Host "`n`n`n"
 
-                $ReportBranchList = $ReportBranchList | Sort-Object
+                # Sort the results of the branch report, create delete and watch branch lists, and get list counts.
+                $ReportBranchList = $ReportBranchList | Sort-Object -Property ProcessingResult, BranchName
+                $DeleteBranchList = $ReportBranchList | Where {$_.ProcessingResult -notmatch "Watch"}
+                $WatchBranchList = $ReportBranchList | Where {$_.ProcessingResult -match "Watch"}
+                $DeleteBranchListCount = $DeleteBranchList.Count
+                $WatchBranchListCount = $WatchBranchList.Count
 
-                ForEach ($Item in $ReportBranchList) {
+                echo "## Deleted stale branches" >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+
+                If ($DeleteBranchlistCount -gt 0) {
+
+                    echo "## Deleted stale branches" >> $env:GITHUB_STEP_SUMMARY
+                    echo "" >> $env:GITHUB_STEP_SUMMARY
+                    echo "The following branches were deleted because they were over $MaxDaysBehind days behind the $DefaultBranch branch and contained $MaxCommitsAhead or fewer commits not in the $DefaultBranch branch." >> $env:GITHUB_STEP_SUMMARY
+                    echo "" >> $env:GITHUB_STEP_SUMMARY
                     
-                    Write-Host $Item
+                    If ($ReportOnly) {
+                    
+                        echo "**REPORTING MODE**: Reporting mode is currently enabled. No branches were deleted during this run." >> $env:GITHUB_STEP_SUMMARY
+                        echo "" >> $env:GITHUB_STEP_SUMMARY
+                    
+                    }
 
+                    # Start to build the branch action taken table in the workflow summary.
+                    echo $TableHeaderRow1 >> $env:GITHUB_STEP_SUMMARY
+                    echo $TableHeaderRow2 >> $env:GITHUB_STEP_SUMMARY
+
+
+                    # Loop through every reporting object in the array where the processing result isn't "Watch". Add a row for each branch
+                    # containing the branch data for writers to review. This is the table that shows what action was taken for each branch.
+                    ForEach ($BranchReport in $DeleteBranchList) {
+
+                        $BN = $BranchReport.BranchName
+                        $PB = $BranchReport.ProtectedBranch
+                        $AB = $BranchReport.AheadBy
+                        $BB = $BranchReport.BehindBy
+                        $LC = $BranchReport.DaysSinceLastCommit
+                        $PR = $BranchReport.ProcessingResult
+                        $BC = $BranchReport.BranchCreator
+                        
+                        Write-Host "$PR`: Branch name: $BN. Branch creator: $BC. Ahead by: $AB. Behind by: $BB. Days since last commit: $LC. "
+                        echo "| $BN | $BC | $AB | $BB | $LC | $PR |" >> $env:GITHUB_STEP_SUMMARY
+
+                    }
+
+                } Else {
+                
+                    echo "No branches were deleted during this run." >> $env:GITHUB_STEP_SUMMARY
+                    echo "" >> $env:GITHUB_STEP_SUMMARY
+                
                 }
 
-                Write-Host "`nReport only mode: $ReportOnly"
-                Write-Host "Allow data loss: $AllowDataLoss"
-                Write-Host "Maximum commits ahead by limit: $MaxCommitsAhead"
-                Write-Host "Maximum days behind limit: $MaxDaysBehind"
-                Write-Host "Maximum branch age based on days behind limit: $DateLimit"
-                Write-Host "==========="
-                Write-Host "Default branch skip list: $DefaultSkipBranchList"
-                Write-Host "Repo branch skip list: $RepoBranchSkipList"
-                Write-Host "==========="
-                Write-Host "Total branches before run: $StartBranchCount"
-                Write-Host "Total branches after run: $EndBranchCount"
-                Write-Host "==========="
-                Write-Host "Watch list branches: $WatchListCount"
-                Write-Host "$ReportOnlyString Data loss blocked branches: $DataLossBlockedCount"
-                Write-Host "==========="
-                Write-Host "$ReportOnlyString Branches deleted with data loss: $DataLossCount"
-                Write-Host "$ReportOnlyString Total deleted branches: $DeleteBranchCount"
+                # Create a new section for the Watchlist branches
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "## Stale branch watch list" >> $env:GITHUB_STEP_SUMMARY
+
+                If ($WatchBranchListCount -gt 0) {
+
+
+                    echo "The following branches are over $MaxDaysBehind days behind the $DefaultBranch branch but were **not** deleted because they contained more than $MaxCommitsAhead commits not in the $DefaultBranch branch." >> $env:GITHUB_STEP_SUMMARY
+                    echo "These branches should be reviewed and, if they're no longer needed, deleted. If these branches are still needed, they must be brought up to date with the $DefaultBranch branch. Select a branch name to view the differences between it and $($DefaultBranch)." >> $env:GITHUB_STEP_SUMMARY
+                    echo "**Branches in this list may be deleted at a future date even if they contain commits not in the $DefaultBranch branch.**" >> $env:GITHUB_STEP_SUMMARY
+                    echo "" >> $env:GITHUB_STEP_SUMMARY
+                    echo $TableHeaderRow1 >> $env:GITHUB_STEP_SUMMARY
+                    echo $TableHeaderRow2 >> $env:GITHUB_STEP_SUMMARY
+
+                    # Loop through every reporting object in the array where the processing result is "Watch". Add a row for each branch
+                    # containing the branch data for writers to review. This is the table that shows writers which branches might be deleted in the future.
+                    ForEach ($BranchReport in $WatchBranchList) {
+                        
+                        $BN = $BranchReport.BranchName
+                        $PB = $BranchReport.ProtectedBranch
+                        $AB = $BranchReport.AheadBy
+                        $BB = $BranchReport.BehindBy
+                        $LC = $BranchReport.DaysSinceLastCommit
+                        $PR = $BranchReport.ProcessingResult
+                        $BC = $BranchReport.BranchCreator
+
+                        $BranchDiffHtmlUrl = "$($GitHubData.event.repository.html_url)/compare/$DefaultBranch...$($BN)#files_bucket"
+                        
+                        Write-Host "$PR`: Branch name: $BN. Branch creator: $BC. Ahead by: $AB. Behind by: $BB. Days since last commit: $LC. "
+                        echo "| [$BN]($BranchDiffHtmlUrl) | $BC | $AB | $BB | $LC | $PR |" >> $env:GITHUB_STEP_SUMMARY
+
+                    }
+
+                } Else {
+                
+                    echo "No branches were added to the watch list during this run." >> $env:GITHUB_STEP_SUMMARY
+                    echo "" >> $env:GITHUB_STEP_SUMMARY               
+                
+                }
+
+                # The following output the workflow summary to both the script log and to the workflow summary.
+
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "## Workflow overview" >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+
+                $ReportOnlyMode = "Report only mode: $ReportOnly"
+                Write-Host $ReportOnlyMode
+                echo $ReportOnlyMode >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                
+                $AllowDataLossSetting = "Allow data loss: $AllowDataLoss"
+                Write-Host $AllowDataLossSetting
+                echo "$AllowDataLossSetting" >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                
+                $MaximumCommitsAheadByLimit = "Maximum commits ahead by limit: $MaxCommitsAhead"
+                Write-Host $MaximumCommitsAheadByLimit
+                echo "$MaximumCommitsAheadByLimit" >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                
+                $MaximumDaysBehindLimit = "Maximum days behind limit: $MaxDaysBehind"
+                Write-Host $MaximumDaysBehindLimit
+                echo "$MaximumDaysBehindLimit" >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                
+                $MaximumBranchAgeBasedOnDaysBehindLimit = "Maximum branch age based on days behind limit: $DateLimit"
+                Write-Host $MaximumBranchAgeBasedOnDaysBehindLimit
+                echo "$MaximumBranchAgeBasedOnDaysBehindLimit" >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                
+                $SeparatorLine = "==========="
+                Write-Host $SeparatorLine
+                echo $SeparatorLine >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                
+                $DefaultBranchSkipList = "Default branch skip list: $DefaultSkipBranchList"
+                Write-Host $DefaultBranchSkipList
+                echo $DefaultBranchSkipList >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                
+                $RepoBranchSkipListText = "Repo branch skip list: $RepoBranchSkipList"
+                Write-Host $RepoBranchSkipListText
+                echo "$RepoBranchSkipListText" >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                
+                Write-Host $SeparatorLine
+                echo "$SeparatorLine" >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                
+                $TotalBranchesBeforeRun = "Total branches before run: $StartBranchCount"
+                Write-Host $TotalBranchesBeforeRun
+                echo "$TotalBranchesBeforeRun" >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                
+                $TotalBranchesAfterRun = "Total branches after run: $EndBranchCount"
+                Write-Host $TotalBranchesAfterRun
+                echo "$TotalBranchesAfterRun" >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                
+                Write-Host $SeparatorLine
+                echo "$SeparatorLine" >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                
+                $WatchListBranches = "Watch list branches: $WatchListCount"
+                Write-Host $WatchListBranches
+                echo "$WatchListBranches" >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                
+                $DataLossBlockedBranches = "$ReportOnlyString Data loss blocked branches: $DataLossBlockedCount"
+                Write-Host $DataLossBlockedBranches
+                echo "$DataLossBlockedBranches" >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                
+                Write-Host $SeparatorLine
+                echo "$SeparatorLine" >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                
+                $BranchesDeletedWithDataLoss = "$ReportOnlyString Branches deleted with data loss: $DataLossCount"
+                Write-Host $BranchesDeletedWithDataLoss
+                echo "$BranchesDeletedWithDataLoss" >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
+                
+                $TotalDeletedBranches = "$ReportOnlyString Total deleted branches: $DeleteBranchCount"
+                Write-Host $TotalDeletedBranches
+                echo "$TotalDeletedBranches" >> $env:GITHUB_STEP_SUMMARY
 
                 # Forcing the workflow to fail at the end to bring attention to the fact that there was a failure to process
                 # one or more branches.
