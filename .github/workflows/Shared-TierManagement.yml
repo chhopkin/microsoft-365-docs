@@ -23,6 +23,7 @@ on:
 jobs:
     build:
       name: Run Script
+      if: github.repository_owner == 'MicrosoftDocs'
       runs-on: ubuntu-latest
       steps:
         - name: Script
