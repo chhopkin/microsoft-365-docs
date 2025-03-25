@@ -24,6 +24,7 @@ on:
 jobs:
     build:
       name: Run Script
+      if: github.repository_owner == 'MicrosoftDocs'
       runs-on: ubuntu-latest
       outputs:
         JobPayload: ${{ steps.get-payload.outputs.WorkflowPayload }}

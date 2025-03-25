@@ -23,6 +23,7 @@ jobs:
 
     stale-branch:
         name: Stale branch removal
+        if: github.repository_owner == 'MicrosoftDocs'
         runs-on: ubuntu-latest
         steps:  
           - name: Process branches

@@ -21,7 +21,7 @@ jobs:
   stale-private:
     name: Stale check - private repos
     runs-on: ubuntu-latest
-    if: inputs.RepoVisibility == 'private' 
+    if: github.repository_owner == 'MicrosoftDocs' && inputs.RepoVisibility == 'private' 
     steps:
 
  #   - name: Get selected month
@@ -117,7 +117,7 @@ jobs:
 #   stale-public:
 #     name: Stale check - public repos
 #     runs-on: ubuntu-latest
-#     if: inputs.RepoVisibility == 'public'
+#     if: github.repository_owner == 'MicrosoftDocs' && inputs.RepoVisibility == 'public'
 #     steps:
 #     - uses: actions/stale@v9
 #       with:
