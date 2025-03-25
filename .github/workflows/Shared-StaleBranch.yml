@@ -391,8 +391,6 @@ jobs:
 
                 If ($DeleteBranchlistCount -gt 0) {
 
-                    echo "## Deleted stale branches" >> $env:GITHUB_STEP_SUMMARY
-                    echo "" >> $env:GITHUB_STEP_SUMMARY
                     echo "The following branches were deleted because they were over $MaxDaysBehind days behind the $DefaultBranch branch and contained $MaxCommitsAhead or fewer commits not in the $DefaultBranch branch." >> $env:GITHUB_STEP_SUMMARY
                     echo "" >> $env:GITHUB_STEP_SUMMARY
                     
