@@ -6,7 +6,7 @@ author: cmcatee-MSFT
 manager: scotv
 ms.reviewer: mijeffer, nicholak
 audience: Admin
-ms.topic: conceptual 
+ms.topic: article
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-acquisition
 ms.localizationpriority: medium
@@ -18,7 +18,8 @@ ms.collection:
 ms.custom:
 - commerce_subscriptions
 - AdminTemplateSet
-- admindeeplinkMAC                                           
+- admindeeplinkMAC
+- campaignIDs-batch1                                         
 search.appverid: MET150
 robots: NOINDEX NOFOLLOW
 description: "Learn about cloud subscriptions and how to view them in the Microsoft 365 admin center."

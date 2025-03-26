@@ -7,7 +7,7 @@ ms.author: cmcatee
 manager: scotv
 ms.reviewer: enuviadenu, socheng
 audience: Admin
-ms.topic: conceptual
+ms.topic: article
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-acquisition
 ms.localizationpriority: medium
@@ -24,7 +24,7 @@ ms.custom:
 - azure-ad-ref-level-one-done
 search.appverid: MET150
 description: "Learn about the Microsoft 365 self-service sign-up and available self-service programs such as Microsoft Power Apps, Microsoft Power Automate, and Dynamics 365 for Finance."
-ms.date: 11/04/2023
+ms.date: 01/06/2025
 ---
 
 # Using self-service sign-up in your organization
