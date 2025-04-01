@@ -45,6 +45,7 @@ jobs:
                     "PrFileCount.yml", 
                     "ProtectedFiles.yml", 
                     "Stale.yml",
+                    "StaleBranch.yml",
                     "TierManagement.yml",
                     "workflow-status-report.yml",
                     "Shared-AutoLabelAssign.yml", 
@@ -55,6 +56,7 @@ jobs:
                     "Shared-PrFileCount.yml", 
                     "Shared-ProtectedFiles.yml", 
                     "Shared-Stale.yml",
+                    "Shared-StaleBranch.yml",
                     "Shared-TierManagement.yml"
                 ]'
             ApproverList: '["user1"]'
