@@ -486,36 +486,10 @@ items:
           href: security-and-compliance/gdpr-compliance.md
     - name: Manage devices and app data
       items:
-        - name: Device and app data protection methods
-          href: basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md
+        - name: Basic Mobility and Security Overview
+          href: /m365-b-security/m365b-devices-basic-mobility-security-overview
         - name: Manage user consent to apps
           href: misc/user-consent.md
-        - name: Basic Mobility and Security
-          items:
-            - name: Overview of Basic Mobility and Security
-              href: basic-mobility-security/overview.md
-            - name: Compare Basic Mobility and Security and Intune
-              href: basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md
-            - name: Capabilities of Basic Mobility and Security
-              href: basic-mobility-security/capabilities.md  
-            - name: Set up Basic Mobility and Security
-              href: basic-mobility-security/set-up.md
-            - name: Create device security policies
-              href: basic-mobility-security/create-device-security-policies.md
-            - name: Create an APNs certificate for iOS devices
-              href: basic-mobility-security/create-an-apns-certificate-for-ios-devices.md
-            - name: Manage device access settings
-              href: basic-mobility-security/manage-device-access-settings.md
-            - name: Manage enrolled devices
-              href: basic-mobility-security/manage-enrolled-devices.md
-            - name: Enroll your mobile device
-              href: basic-mobility-security/enroll-your-mobile-device.md
-            - name: Frequently asked questions
-              href: basic-mobility-security/frequently-asked-questions.yml
-            - name: Wipe mobile devices
-              href: basic-mobility-security/wipe-mobile-device.md
-            - name: Turn off Basic Mobility and Security
-              href: basic-mobility-security/turn-off.md
     - name: Switch from Google Workspace to M365
       items:
         - name: Overview
