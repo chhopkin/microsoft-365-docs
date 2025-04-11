@@ -37,9 +37,9 @@ jobs:
                     ".gitattributes", 
                     "AutoLabelAssign.yml", 
                     "AutoLabelMsftContributor.yml",
+                    "AutoPublish.yml",
                     "BackgroundTasks.yml",
                     "BuildValidation.yml",
-                    "compare-live-main.yml",
                     "LiveMergeCheck.yml",    
                     "M365Endpoints.yml",             
                     "PrFileCount.yml", 
@@ -50,6 +50,7 @@ jobs:
                     "workflow-status-report.yml",
                     "Shared-AutoLabelAssign.yml", 
                     "Shared-AutoLabelMsftContributor.yml",
+                    "Shared-AutoPublish.yml",
                     "Shared-BuildValidation.yml",
                     "Shared-ExtractPayload.yml", 
                     "Shared-LiveMergeCheck.yml", 
@@ -59,7 +60,7 @@ jobs:
                     "Shared-StaleBranch.yml",
                     "Shared-TierManagement.yml"
                 ]'
-            ApproverList: '["user1"]'
+            ApproverList: '["dstrome", "garycentric"]'
             
             PayloadJson: ${{ inputs.PayloadJson }}
             AccessToken: ${{ secrets.AccessToken }}
