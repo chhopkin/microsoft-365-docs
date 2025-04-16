@@ -1,5 +1,10 @@
 name: (Scheduled) Stale branch removal
 
+# This workflow is designed to be run in the days up to, and including, a "deletion day", specified by 'DeleteOnDayOfMonth' in env:.
+# On the days leading up to "deletion day", the workflow will report the branches to be deleted. This lets users see which branches will be deleted. On "deletion day", those branches are deleted.
+# The workflow should not be configured to run after "deletion day" so that users can review the branches were deleted.
+# Recommendation: configure cron to run on days 15-31,1 where 1 is what's configured in 'DeleteOnDayOfMonth'. If 'DeleteOnDayOfMonth' is set to something else, update cron to run the two weeks leading up to it.
+
 permissions:
   contents: write
 
@@ -29,6 +34,7 @@ jobs:
           - name: Process branches
             shell: pwsh
             env: 
+                DeleteOnDayOfMonth: 1    # Delete branches only on this day of the month. Only a single positive integer is allowed.
                 DefaultSkipBranchList: '[
                         "live",
                         "main",
@@ -47,6 +53,7 @@ jobs:
                 $DefaultSkipBranchList = $env:DefaultSkipBranchList | ConvertFrom-Json
                 $RepoBranchSkipList = $env:RepoBranchSkipList | ConvertFrom-Json
                 $ReportOnly = [System.Convert]::ToBoolean($env:ReportOnly)
+                $DeleteOnDayOfMonth = $env:DeleteOnDayOfMonth
 
                 # Function to get the total number of elements in an array. Supports nested arrays.
                 Function Get-TotalElements {
@@ -68,21 +75,6 @@ jobs:
                     return $count
                 }
 
-                # Indicate in the script log if the workflow is in reporting mode or not. If in reporting mode, no changes will be made to the branches.
-                If ($ReportOnly) {
-                
-                    Write-Host "`n`nRUNNING IN REPORTING MODE`n`n"
-
-                    $ReportOnlyString = "REPORT ONLY -"
-                
-                } Else {
-                
-                    $ReportOnlyString = $Null
-
-                }
-
-                Write-Host "Default branch skip list: $DefaultSkipBranchList"
-                Write-Host "Repo branch skip list: $RepoBranchSkipList"
 
                 # Create the branch skip list that is a combination of the central workflow list and the branch skip list that can be populated in each individual repo.
                 $SkipBranchList = $DefaultSkipBranchList + $RepoBranchSkipList | Select-Object -Unique
@@ -94,9 +86,12 @@ jobs:
                 # !!! > 0 WILL RESULT IN DATA LOSS !!!
 
                 $MaxDaysBehind = 90
+
                 $DateLimit = (Get-Date).AddDays(-$MaxDaysBehind)
                 $ReportDate = Get-Date -Format "dddd MMMM dd, yyyy"
-
+                $CurrentDay = (Get-Date).Day
+                $RunMonth = (Get-Date).AddMonths((Get-Date).Day -ge $DeleteOnDayOfMonth).ToString('MMMM') # If current day is greater or equal to $DeleteOnDayOfMonth, flip to next month ($True = 1). If not, stay on current month ($False = 0).
+                
                 # Create github HTTP authentication header
                 $UserAgent = "officedocs"
                 $GitHubHeaders = @{}
@@ -129,6 +124,34 @@ jobs:
                 $RetrieveBranchDataErrorCount = 0
                 $RetrieveBranchDataError = $False
 
+                # Workflow will only delete branches on the date of the month specified by $DeleteOnDayOfMonth. On all other days the workflow runs, it will only generate
+                # a report of what would have been deleted on that date.
+                If ($CurrentDay -eq $DeleteOnDayOfMonth) {
+                
+                    $DeletionRun = $True
+                
+                } Else {
+
+                    $DeletionRun = $False
+
+                }
+
+                # Indicate in the script log if the workflow is in reporting mode or not. If in reporting mode, no changes will be made to the branches.
+                If ($ReportOnly) {
+                
+                    Write-Host "`n`nRUNNING IN REPORTING MODE`n`n"
+
+                    $ReportOnlyString = "REPORT ONLY -"
+                
+                } Else {
+                
+                    $ReportOnlyString = $Null
+
+                }
+
+                Write-Host "Default branch skip list: $DefaultSkipBranchList"
+                Write-Host "Repo branch skip list: $RepoBranchSkipList"
+
                 # Block the script from running if Ahead by is greater than 0 when maximum branch age is less than 90. Doing this could result in loss of data that may still be
                 # wanted. Do not change the values unless you accept the high risk of unwanted data loss.
                 If (($MaxCommitsAhead -gt 0) -and ($MaxDaysBehind -lt 90)) {
@@ -143,7 +166,14 @@ jobs:
                     Throw "ERROR: You can't set MaxDaysBehind to less than 30. Branch churn too high."
 
                 }
-                
+
+                # Make sure $DeleteOnDayOfMonth is a valid month day. Not allowing above 28 so we don't have to deal with leap years or days with 30/31 days.
+                If (($DeleteOnDayOfMonth -notin 1..28)) {
+
+                    Throw "ERROR: DeleteOnDayOfMonth must be between 1 and 28."
+
+                }
+               
                 ForEach ($Page in $Branches) {
 
                     ForEach ($Branch in $Page) {
@@ -290,28 +320,10 @@ jobs:
                             # If the branch doesn't contain any commits not in $DefaultBranch, it's ok to delete.
                             If ($AheadBy -eq 0) {
                             
-                                Write-Host "      $ReportOnlyString Delete branch $BranchName"
+                                # Delete branch if this is a deletion run. Otherwise indicate that branch is pending deletion in a future run.
+                                If ($DeletionRun) {
 
-                                # If the workflow is in reporting mode, don't delete the branch. If it isn't, delete it.
-                                If (!$ReportOnly) {
-
-                                    Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchDeleteUrl -Method DELETE -ResponseHeadersVariable ResponseHeaders | Out-Null
-
-                                }
-
-                                # Update the reporting object.
-                                $BranchReportObject.ProcessingResult = "Deleted"
-                                $ReportBranchList += $BranchReportObject
-
-                                $DeleteBranchCount++
-
-                            } Else {
-                            
-                                # There's a chance that allowed number of commits to delete is greater than 0. If that's true, then this is an extra check to confirm that
-                                # the branch should actually be deleted. This is because deleting the branch will result in data loss.
-                                If ($AllowDataLoss) {
-                                
-                                    Write-Host "      $ReportOnlyString Delete branch $BranchName with data loss"
+                                    Write-Host "      $ReportOnlyString Delete branch $BranchName"
 
                                     # If the workflow is in reporting mode, don't delete the branch. If it isn't, delete it.
                                     If (!$ReportOnly) {
@@ -320,21 +332,73 @@ jobs:
 
                                     }
 
-                                    # Update the reporting object.
-                                    $BranchReportObject.ProcessingResult = "DataLoss-Deleted"
-                                    $ReportBranchList += $BranchReportObject
+                                    $BranchReportObject.ProcessingResult = "Deleted"
 
+                                } Else {
+                                
+                                    Write-Host "      Pending delete branch $BranchName"
+
+                                    $BranchReportObject.ProcessingResult = "PendingDelete"
+
+                                    
+                                }
+
+                                # Update the reporting object.
+                                $ReportBranchList += $BranchReportObject
+                                $DeleteBranchCount++
+
+                            } Else {
+                            
+                                # There's a chance that allowed number of commits to delete is greater than 0. If that's true, then this is an extra check to confirm that
+                                # the branch should actually be deleted. This is because deleting the branch will result in data loss.
+                                If ($AllowDataLoss) {
+                                
+                                    If ($DeletionRun) {
+
+                                        Write-Host "      $ReportOnlyString Delete branch $BranchName with data loss"
+
+                                        # If the workflow is in reporting mode, don't delete the branch. If it isn't, delete it.
+                                        If (!$ReportOnly) {
+
+                                            Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchDeleteUrl -Method DELETE -ResponseHeadersVariable ResponseHeaders | Out-Null
+
+                                        }
+
+                                        $BranchReportObject.ProcessingResult = "DataLoss-Deleted"
+
+
+                                    } Else {
+                                    
+                                        Write-Host "      Pending delete branch $BranchName with data loss"
+
+                                        $BranchReportObject.ProcessingResult = "PendingDataLoss-Delete"
+                                    
+                                    }
+
+                                    # Update the reporting object.
+                                    $ReportBranchList += $BranchReportObject
                                     $DeleteBranchCount++
                                     $DataLossCount++
                                 
                                 } Else {
                                 
-                                    Write-Host "      $ReportOnlyString Branch $BranchName was marked for deletion with data loss but data loss flag is disabled."
+                                    If ($DeletionRun) {
+
+                                        Write-Host "      $ReportOnlyString Branch $BranchName was marked for deletion with data loss but data loss flag is disabled."
+
+                                        $BranchReportObject.ProcessingResult = "DataLoss-Blocked"
+
+
+                                    } Else {
+                                    
+                                        Write-Host "      Pending branch $BranchName was marked for deletion with data loss but data loss flag is disabled."
+
+                                        $BranchReportObject.ProcessingResult = "PendingDataLoss-Blocked"
+                                    
+                                    }
 
                                     # Update the reporting object.
-                                    $BranchReportObject.ProcessingResult = "DataLoss-Blocked"
                                     $ReportBranchList += $BranchReportObject
-
                                     $DataLossBlockedCount++
                                 
                                 } # AllowDataLoss If
@@ -392,12 +456,22 @@ jobs:
 
                 If ($DeleteBranchlistCount -gt 0) {
 
-                    echo "The following branches were deleted because they were over $MaxDaysBehind days behind the $DefaultBranch branch and contained $MaxCommitsAhead or fewer commits not in the $DefaultBranch branch." >> $env:GITHUB_STEP_SUMMARY
-                    echo "" >> $env:GITHUB_STEP_SUMMARY
+                    If ($DeletionRun) {
+
+                        echo "The following branches were deleted because they were over $MaxDaysBehind days behind the $DefaultBranch branch and contained $MaxCommitsAhead or fewer commits not in the $DefaultBranch branch." >> $env:GITHUB_STEP_SUMMARY
+                        echo "" >> $env:GITHUB_STEP_SUMMARY
                     
-                    If ($ReportOnly) {
+                        If ($ReportOnly) {
+                        
+                            echo "**REPORTING MODE**: Reporting mode is currently enabled. No branches were deleted during this run." >> $env:GITHUB_STEP_SUMMARY
+                            echo "" >> $env:GITHUB_STEP_SUMMARY
+                        
+                        }
+
+                    } Else {
                     
-                        echo "**REPORTING MODE**: Reporting mode is currently enabled. No branches were deleted during this run." >> $env:GITHUB_STEP_SUMMARY
+                        echo "The following branches will be deleted on **$RunMonth $DeleteOnDayOfMonth** because they are over $MaxDaysBehind days behind the $DefaultBranch branch and contain $MaxCommitsAhead or fewer commits not in the $DefaultBranch branch." >> $env:GITHUB_STEP_SUMMARY
+                        echo "**If you don't want a branch to be deleted, merge $DefaultBranch into it before $RunMonth $DeleteOnDayOfMonth.**" >> $env:GITHUB_STEP_SUMMARY
                         echo "" >> $env:GITHUB_STEP_SUMMARY
                     
                     }
@@ -481,6 +555,11 @@ jobs:
                 Write-Host $ReportOnlyMode
                 echo $ReportOnlyMode >> $env:GITHUB_STEP_SUMMARY
                 echo "" >> $env:GITHUB_STEP_SUMMARY
+
+                $DeletionRunMode = "Deletion run: $DeletionRun"
+                Write-Host $DeletionRunMode
+                echo $DeletionRunMode >> $env:GITHUB_STEP_SUMMARY
+                echo "" >> $env:GITHUB_STEP_SUMMARY
                 
                 $AllowDataLossSetting = "Allow data loss: $AllowDataLoss"
                 Write-Host $AllowDataLossSetting
@@ -540,7 +619,20 @@ jobs:
                 echo "$WatchListBranches" >> $env:GITHUB_STEP_SUMMARY
                 echo "" >> $env:GITHUB_STEP_SUMMARY
                 
-                $DataLossBlockedBranches = "$ReportOnlyString Data loss blocked branches: $DataLossBlockedCount"
+                If ($DeletionRun) {
+                
+                    $DataLossBlockedBranches = "$ReportOnlyString Data loss blocked branches: $DataLossBlockedCount"
+                    $BranchesDeletedWithDataLoss = "$ReportOnlyString Branches deleted with data loss: $DataLossCount"
+                    $TotalDeletedBranches = "$ReportOnlyString Total deleted branches: $DeleteBranchCount"
+
+                } Else {
+                
+                    $DataLossBlockedBranches = "Branches pending deletion (data loss blocked): $DataLossBlockedCount"
+                    $BranchesDeletedWithDataLoss = "Branches pending deletion (data loss): $DataLossCount"
+                    $TotalDeletedBranches = "Total branches pending deletion: $DeleteBranchCount"
+                
+                }
+
                 Write-Host $DataLossBlockedBranches
                 echo "$DataLossBlockedBranches" >> $env:GITHUB_STEP_SUMMARY
                 echo "" >> $env:GITHUB_STEP_SUMMARY
@@ -549,12 +641,10 @@ jobs:
                 echo "$SeparatorLine" >> $env:GITHUB_STEP_SUMMARY
                 echo "" >> $env:GITHUB_STEP_SUMMARY
                 
-                $BranchesDeletedWithDataLoss = "$ReportOnlyString Branches deleted with data loss: $DataLossCount"
                 Write-Host $BranchesDeletedWithDataLoss
                 echo "$BranchesDeletedWithDataLoss" >> $env:GITHUB_STEP_SUMMARY
                 echo "" >> $env:GITHUB_STEP_SUMMARY
                 
-                $TotalDeletedBranches = "$ReportOnlyString Total deleted branches: $DeleteBranchCount"
                 Write-Host $TotalDeletedBranches
                 echo "$TotalDeletedBranches" >> $env:GITHUB_STEP_SUMMARY
 
