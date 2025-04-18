@@ -36,6 +36,7 @@ jobs:
                 EnableAutoPublish: ${{ inputs.EnableAutoPublish }}
                 PrivateKey: ${{ secrets.PrivateKey }}
                 ClientId: ${{ secrets.ClientId }}
+                IsPubOpsRepo:  ${{ contains(github.event.repository.topics, 'pubops') }}
 
             run: |
 
@@ -44,6 +45,7 @@ jobs:
                 $AccessToken = $env:AccessToken
                 $PrivateKey = $env:PrivateKey
                 $ClientId = $env:ClientId
+                $IsPubOpsRepo = [System.Convert]::ToBoolean($env:IsPubOpsRepo)
                 
                 # Date/Time calculations
                 $UtcNow = Get-Date -AsUTC                
@@ -70,7 +72,8 @@ jobs:
 
                 # PR variables
                 $PrTitle = "[AutoPublish] $DefaultBranch to $TargetBranch"
-                $PrDescription = "@MicrosoftDocs/marveldocs-pubops`n`nThis is an automated pull request to publish changes from the $DefaultBranch branch to the $TargetBranch branch. Merging this PR will publish the changes to the live learn.microsoft.com site.`n`nBefore merging this PR, complete the following checks:`n`n- There are no more than 100 files in the PR. If there are more than 100 files, review the changes for any obvious mistakes such as mass-deleted files. If the changes appear normal (bulk changes, general updates to many files, etc), merge the PR. If you're not sure, do not merge the PR and investigate further.`n- There are no build warnings. If there are warnings, resolve them before merging the PR.`n- Regular PR criteria checks pass.`n`nIf you have questions, email marveldocs-admins."
+                $PrDescriptionPubOps = "@MicrosoftDocs/marveldocs-pubops`n`nThis is an automated pull request to publish changes from the $DefaultBranch branch to the $TargetBranch branch. Merging this PR will publish the changes to the live learn.microsoft.com site.`n`nBefore merging this PR, complete the following checks:`n`n- There are no more than 100 files in the PR. If there are more than 100 files, review the changes for any obvious mistakes such as mass-deleted files. If the changes appear normal (bulk changes, general updates to many files, etc), merge the PR. If you're not sure, do not merge the PR and investigate further.`n- There are no build warnings. If there are warnings, resolve them before merging the PR.`n- Regular PR criteria checks pass.`n`nIf you have questions, email marveldocs-admins."
+                $PrDescriptionNonPubOps = "This is an automated pull request to publish changes from the $DefaultBranch branch to the $TargetBranch branch.`n`nThis is repo isn't managed by PubOps.`n`n**A contributor with write access to this repo needs to merge this PR for changes in it to go live.**`n`nBefore you merge this PR:`n`n- Check the **Files changed** tab to ensure only changes you intend to publish are included in the PR.`n- View the changes on https://review.learn.microsoft.com to confirm the changes look correct on the site`n`nIf you have questions, email marveldocs-admins."
 
                 # Label variables
                 $AutoPublishLabelColor = "5319E7"
@@ -79,6 +82,9 @@ jobs:
                 $SignOffLabelColor = "46ce1c"
                 $SignOffLabelDescription = "The pull request is ready to be reviewed and merged by PubOps."
                 $SignOffLabel = "Sign off"
+                $ManualMergeLabelColor = "FF6600"
+                $ManualMergeLabelDescription = "An AutoPublish pull request requires a human to merge it."
+                $ManualMergeLabel = "Manual merge required"
 
                 #####################
                 #####################
@@ -229,7 +235,7 @@ jobs:
 
                         Write-Host "Checking to see if label $Name exists in repo URL $LabelUri."
 
-                        $LabelResults = Invoke-WebRequest -UseBasicParsing -Uri $LabelUri -Headers $AppGitHubAccessHeaders  -ErrorAction Stop
+                        $LabelResults = Invoke-WebRequest -UseBasicParsing -Uri $LabelUri -Headers $StandardGitHubHeaders  -ErrorAction Stop
                         $LabelFound = $True
                         
                     } Catch {
@@ -276,7 +282,7 @@ jobs:
 
                         Write-Host "Creating label $Name with color $Color on repo $RepoUri."
                         
-                        $Result = Invoke-RestMethod -Uri $RepoUri -Headers $AppGitHubAccessHeaders  -Body $Body -Method POST
+                        $Result = Invoke-RestMethod -Uri $RepoUri -Headers $StandardGitHubHeaders  -Body $Body -Method POST
 
                     } Catch {
 
@@ -309,7 +315,7 @@ jobs:
 
                         Write-Host "Getting labels on issue $IssueLabelUrl."
 
-                        $LabelResults = Invoke-RestMethod -Uri $IssueLabelUrl -Headers $AppGitHubAccessHeaders  -ErrorAction Stop
+                        $LabelResults = Invoke-RestMethod -Uri $IssueLabelUrl -Headers $StandardGitHubHeaders  -ErrorAction Stop
 
                     } Catch {
 
@@ -371,7 +377,7 @@ jobs:
 
                         Write-Host "Setting label $LabelName on URL $IssueLabelUrl."
 
-                        $Result = Invoke-RestMethod -Uri $IssueLabelUrl -Body $Body -Headers $AppGitHubAccessHeaders  -Method POST
+                        $Result = Invoke-RestMethod -Uri $IssueLabelUrl -Body $Body -Headers $StandardGitHubHeaders  -Method POST
 
 
                     } Catch {
@@ -482,6 +488,94 @@ jobs:
 
                 #####################
                 #####################
+                # Set-Labels  
+
+                Function Set-Labels {
+                
+                    param(
+
+                        [Parameter(Mandatory = $True)]
+                        [string]$IssueUrl
+                        
+                    )
+
+                    # Check if labels exist on the repo.
+                    $AutoLabelExists = Test-RepoLabel -RepoUri $RepoLabelUrl -Name $AutoPublishLabel
+
+                    If (!$AutoLabelExists) {
+
+                        # Create label on the repo if it doesn't exist.
+                        New-RepoLabel -RepoUri $RepoLabelUrl -Name $AutoPublishLabel -Color $AutoPublishLabelColor -Description $AutoPublishLabelDescription
+
+                    }
+
+                    # Only add the AutoPublishLabel label if it doesn't already exist on the PR
+                    If (!$LabelResultsArray.$AutoPublishLabel) {
+
+                        Write-Host "Label $AutoPublishLabel doesn't exist on $IssueUrl. Adding label."
+
+                        # Add the label to the PR
+                        Set-PrLabel -IssueUrl $IssueUrl -LabelName $AutoPublishLabel
+
+                    }
+
+                    If ($IsPubOpsRepo) {
+
+                        Write-Host "PubOps repo. Checking and setting $SignOffLabel label."
+
+                        $SignOffLabelExists = Test-RepoLabel -RepoUri $RepoLabelUrl -Name $SignOffLabel
+
+                        If (!$SignOffLabelExists) {
+
+                            # Create label on the repo if it doesn't exist.
+                            New-RepoLabel -RepoUri $RepoLabelUrl -Name $SignOffLabel -Color $SignOffLabelColor -Description $SignOffLabelDescription
+
+                        }
+
+
+                        # Only add the SignOffLabel label if it doesn't already exist on the PR
+
+                        If (!$LabelResultsArray.$SignOffLabel) {
+
+                            Write-Host "Label $SignOffLabel doesn't exist on $IssueUrl. Adding label."
+
+                            # Add the label to the PR
+                            Set-PrLabel -IssueUrl $IssueUrl -LabelName $SignOffLabel
+
+                        }
+
+
+
+                    } Else {
+
+                        Write-Host "Non-PubOps repo. Checking and setting $ManualMergeLabel label."
+
+                        $ManualMergeLabelExists = Test-RepoLabel -RepoUri $RepoLabelUrl -Name $ManualMergeLabel
+
+                        If (!$ManualMergeLabelExists) {
+
+                            # Create label on the repo if it doesn't exist.
+                            New-RepoLabel -RepoUri $RepoLabelUrl -Name $ManualMergeLabel -Color $ManualMergeLabelColor -Description $ManualMergeLabelDescription
+
+                        }
+
+                        # Only add the ManualMergeLabel label if it doesn't already exist on the PR
+
+                        If (!$LabelResultsArray.$ManualMergeLabel) {
+
+                            Write-Host "Label $ManualMergeLabel doesn't exist on $IssueUrl. Adding label."
+
+                            # Add the label to the PR
+                            Set-PrLabel -IssueUrl $IssueUrl -LabelName $ManualMergeLabel
+
+                        }
+
+                    }
+            
+                }
+
+                #####################
+                #####################
                 # New-PullRequest  
 
                 Function New-PullRequest {                   
@@ -498,6 +592,16 @@ jobs:
 
                     $PrTitle = "$PrTitle - $PacificStamp $(Get-TzAbbrev $PacificTz $PacificNow) | $IndiaStamp $(Get-TzAbbrev $IndiaTz   $IndiaNow)"
 
+                    If ($IsPubOpsRepo) {
+
+                        $PrDescription = $PrDescriptionPubOps
+
+                    } Else {
+                     
+                        $PrDescription = $PrDescriptionNonPubOps
+                    
+                    }
+
                     $PrBody = @{
                         title = $PrTitle
                         head  = $DefaultBranch
@@ -511,59 +615,18 @@ jobs:
 
                         Write-Host "Created pull request $($PrResponse.html_url)"
 
-                        $IssueUrl = $PrResponse.issue_url
-
-                        # Check if labels exist on the repo.
-                        $AutoLabelExists = Test-RepoLabel -RepoUri $RepoLabelUrl -Name $AutoPublishLabel
-                        $SignOffLabelExists = Test-RepoLabel -RepoUri $RepoLabelUrl -Name $SignOffLabel
-
-                        If (!$AutoLabelExists) {
-
-                            # Create label on the repo if it doesn't exist.
-                            New-RepoLabel -RepoUri $RepoLabelUrl -Name $AutoPublishLabel -Color $AutoPublishLabelColor -Description $AutoPublishLabelDescription
-
-                        }
-
-                        If (!$SignOffLabelExists) {
-
-                            # Create label on the repo if it doesn't exist.
-                            New-RepoLabel -RepoUri $RepoLabelUrl -Name $SignOffLabel -Color $SignOffLabelColor -Description $SignOffLabelDescription
-
-                        }
-
-                        # Check to see if the labels we're interested in are already added to the PR.
-                        $LabelResultsArray = Test-Prlabel -LabelArray $AutoPublishLabel,$SignOffLabel -IssueUrl $IssueUrl
-
-                        # Only add the AutoPublishLabel label if it doesn't already exist on the PR
-                        If (!$LabelResultsArray.$AutoPublishLabel) {
-
-                            Write-Host "Label $AutoPublishLabel doesn't exist on $IssueUrl. Adding label."
-
-                            # Add the label to the PR
-                            Set-PrLabel -IssueUrl $IssueUrl -LabelName $AutoPublishLabel
-
-                        }
-
-                        # Only add the SignOffLabel label if it doesn't already exist on the PR
-
-                        If (!$LabelResultsArray.$SignOffLabel) {
-
-                            Write-Host "Label $SignOffLabel doesn't exist on $IssueUrl. Adding label."
-
-                            # Add the label to the PR
-                            Set-PrLabel -IssueUrl $IssueUrl -LabelName $SignOffLabel
-
-                        }
-
                     } Catch {
                     
                         $PrResponse = $Null
+
+                        Write-Host "ERROR occurred during PR creation. Error: $_"
                         
                     }
 
                     Return $PrResponse
 
                 }
+
 
                 #####################
                 #####################
@@ -574,8 +637,6 @@ jobs:
                     If (Test-TargetBranchExists) {
                 
                         $PrData = Get-PublishPullRequest
-
-                        write-host $($PrData | ConvertTo-Json -Depth 50)
 
                         # Check to see if $PrData contains data. If yes, there's a PR. If not, no PR.
                         If ($PrData) {
@@ -597,9 +658,17 @@ jobs:
                             If ($BranchDiff.ahead_by -gt 0) {
                             
                                 Write-Host "$DefaultBranch has changes ahead of $TargetBranch"
+                                Write-Host "PubOps repo: $IsPubOpsRepo"
 
                                 $NewPrResponse = New-PullRequest
-                            
+                                $IssueUrl = $NewPrResponse.issue_url
+
+                                If ($IssueUrl) {
+
+                                    Set-Labels -IssueUrl $IssueUrl
+
+                                }
+
                             } Else {
                              
                                 Write-Host "$DefaultBranch has no changes ahead of $TargetBranch. Not creating PR."
