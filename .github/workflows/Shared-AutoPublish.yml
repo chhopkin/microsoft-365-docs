@@ -82,7 +82,7 @@ jobs:
                 $SignOffLabelColor = "46ce1c"
                 $SignOffLabelDescription = "The pull request is ready to be reviewed and merged by PubOps."
                 $SignOffLabel = "Sign off"
-                $ManualMergeLabelColor = "FF6600"
+                $ManualMergeLabelColor = "f79d43"
                 $ManualMergeLabelDescription = "An AutoPublish pull request requires a human to merge it."
                 $ManualMergeLabel = "Manual merge required"
 
