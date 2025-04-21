@@ -75,6 +75,37 @@ jobs:
                     return $count
                 }
 
+                Function Get-NextDeletionDate {
+
+                    [CmdletBinding()]
+                    Param(
+                        [Parameter(Mandatory)]
+                        [ValidateRange(1,31)]
+                        [Int]$DeletionDayOfMonth
+                    )
+
+                    $Today = Get-Date
+
+                    # Use this month if today’s date is on or before the deletion day;
+                    # otherwise move to next month (AddMonths handles year rollover)
+                    If ($Today.Day -le $DeletionDayOfMonth) {
+                        $TargetMonth = $Today.Month
+                        $TargetYear  = $Today.Year
+                    } Else {
+                        $Next        = $Today.AddMonths(1)
+                        $TargetMonth = $Next.Month
+                        $TargetYear  = $Next.Year
+                    }
+
+                    # Clamp to last day of month if necessary
+                    $DaysInMonth = [DateTime]::DaysInMonth($TargetYear, $TargetMonth)
+                    $TargetDay   = [Math]::Min($DeletionDayOfMonth, $DaysInMonth)
+
+                    # Return midnight on the target day
+                    Get-Date -Year $TargetYear -Month $TargetMonth -Day $TargetDay -Hour 0 -Minute 0 -Second 0
+                }
+
+
 
                 # Create the branch skip list that is a combination of the central workflow list and the branch skip list that can be populated in each individual repo.
                 $SkipBranchList = $DefaultSkipBranchList + $RepoBranchSkipList | Select-Object -Unique
@@ -87,11 +118,12 @@ jobs:
 
                 $MaxDaysBehind = 90
 
-                $DateLimit = (Get-Date).AddDays(-$MaxDaysBehind)
-                $ReportDate = Get-Date -Format "dddd MMMM dd, yyyy"
-                $CurrentDay = (Get-Date).Day
-                $RunMonth = (Get-Date).AddMonths((Get-Date).Day -ge $DeleteOnDayOfMonth).ToString('MMMM') # If current day is greater or equal to $DeleteOnDayOfMonth, flip to next month ($True = 1). If not, stay on current month ($False = 0).
-                
+                $DeletionDate = Get-NextDeletionDate -DeletionDayOfMonth $DeleteOnDayOfMonth
+                $DateLimit = $DeletionDate.AddDays(-$MaxDaysBehind)
+                $ReportDate = Get-Date -Format "dddd MMMM d, yyyy"
+                $CurrentDate = Get-Date
+                $FriendlyDeletionDate = $DeletionDate.ToString('MMMM d')
+
                 # Create github HTTP authentication header
                 $UserAgent = "officedocs"
                 $GitHubHeaders = @{}
@@ -124,9 +156,9 @@ jobs:
                 $RetrieveBranchDataErrorCount = 0
                 $RetrieveBranchDataError = $False
 
-                # Workflow will only delete branches on the date of the month specified by $DeleteOnDayOfMonth. On all other days the workflow runs, it will only generate
+                # Workflow will only delete branches on $DeletionDate. On all other days the workflow runs, it will only generate
                 # a report of what would have been deleted on that date.
-                If ($CurrentDay -eq $DeleteOnDayOfMonth) {
+                If ($CurrentDate.Date -eq $DeletionDate.Date) {
                 
                     $DeletionRun = $True
                 
@@ -167,13 +199,6 @@ jobs:
 
                 }
 
-                # Make sure $DeleteOnDayOfMonth is a valid month day. Not allowing above 28 so we don't have to deal with leap years or days with 30/31 days.
-                If (($DeleteOnDayOfMonth -notin 1..28)) {
-
-                    Throw "ERROR: DeleteOnDayOfMonth must be between 1 and 28."
-
-                }
-               
                 ForEach ($Page in $Branches) {
 
                     ForEach ($Branch in $Page) {
@@ -328,7 +353,7 @@ jobs:
                                     # If the workflow is in reporting mode, don't delete the branch. If it isn't, delete it.
                                     If (!$ReportOnly) {
 
-                                        Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchDeleteUrl -Method DELETE -ResponseHeadersVariable ResponseHeaders | Out-Null
+                                        #Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchDeleteUrl -Method DELETE -ResponseHeadersVariable ResponseHeaders | Out-Null
 
                                     }
 
@@ -360,7 +385,7 @@ jobs:
                                         # If the workflow is in reporting mode, don't delete the branch. If it isn't, delete it.
                                         If (!$ReportOnly) {
 
-                                            Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchDeleteUrl -Method DELETE -ResponseHeadersVariable ResponseHeaders | Out-Null
+                                            #Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchDeleteUrl -Method DELETE -ResponseHeadersVariable ResponseHeaders | Out-Null
 
                                         }
 
@@ -451,7 +476,16 @@ jobs:
                 $DeleteBranchListCount = $DeleteBranchList.Count
                 $WatchBranchListCount = $WatchBranchList.Count
 
-                echo "## Deleted stale branches" >> $env:GITHUB_STEP_SUMMARY
+                If ($DeletionRun) {
+
+                    echo "## Deleted stale branches" >> $env:GITHUB_STEP_SUMMARY
+
+                } Else {
+                
+                    echo "## Stale branches pending deletion" >> $env:GITHUB_STEP_SUMMARY
+                
+                }
+
                 echo "" >> $env:GITHUB_STEP_SUMMARY
 
                 If ($DeleteBranchlistCount -gt 0) {
@@ -470,8 +504,10 @@ jobs:
 
                     } Else {
                     
-                        echo "The following branches will be deleted on **$RunMonth $DeleteOnDayOfMonth** because they are over $MaxDaysBehind days behind the $DefaultBranch branch and contain $MaxCommitsAhead or fewer commits not in the $DefaultBranch branch." >> $env:GITHUB_STEP_SUMMARY
-                        echo "**If you don't want a branch to be deleted, merge $DefaultBranch into it before $RunMonth $DeleteOnDayOfMonth.**" >> $env:GITHUB_STEP_SUMMARY
+                        echo "The following branches will be deleted on **$FriendlyDeletionDate** because they will be over $MaxDaysBehind days behind the $DefaultBranch branch on that date. They also contain $MaxCommitsAhead or fewer commits not in the $DefaultBranch branch." >> $env:GITHUB_STEP_SUMMARY
+                        echo "" >> $env:GITHUB_STEP_SUMMARY
+                        echo "> [!IMPORTANT]" >> $env:GITHUB_STEP_SUMMARY
+                        echo "> **If you don't want a branch to be deleted, merge $DefaultBranch into it before $FriendlyDeletionDate.**" >> $env:GITHUB_STEP_SUMMARY
                         echo "" >> $env:GITHUB_STEP_SUMMARY
                     
                     }
@@ -500,7 +536,7 @@ jobs:
 
                 } Else {
                 
-                    echo "No branches were deleted during this run." >> $env:GITHUB_STEP_SUMMARY
+                    echo "No branches were deleted or were identified as pending deletion during this run." >> $env:GITHUB_STEP_SUMMARY
                     echo "" >> $env:GITHUB_STEP_SUMMARY
                 
                 }
@@ -551,99 +587,82 @@ jobs:
                 echo "## Workflow overview" >> $env:GITHUB_STEP_SUMMARY
                 echo "" >> $env:GITHUB_STEP_SUMMARY
 
-                $ReportOnlyMode = "Report only mode: $ReportOnly"
+                $ReportOnlyMode = "**Report only mode**: $ReportOnly"
                 Write-Host $ReportOnlyMode
-                echo $ReportOnlyMode >> $env:GITHUB_STEP_SUMMARY
-                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "$ReportOnlyMode\" >> $env:GITHUB_STEP_SUMMARY
 
-                $DeletionRunMode = "Deletion run: $DeletionRun"
+                $DeletionRunMode = "**Deletion run**: $DeletionRun"
                 Write-Host $DeletionRunMode
-                echo $DeletionRunMode >> $env:GITHUB_STEP_SUMMARY
-                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "$DeletionRunMode\" >> $env:GITHUB_STEP_SUMMARY
                 
-                $AllowDataLossSetting = "Allow data loss: $AllowDataLoss"
+                $AllowDataLossSetting = "**Allow data loss**: $AllowDataLoss"
                 Write-Host $AllowDataLossSetting
-                echo "$AllowDataLossSetting" >> $env:GITHUB_STEP_SUMMARY
-                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "$AllowDataLossSetting\" >> $env:GITHUB_STEP_SUMMARY
                 
-                $MaximumCommitsAheadByLimit = "Maximum commits ahead by limit: $MaxCommitsAhead"
+                $MaximumCommitsAheadByLimit = "**Maximum commits ahead by limit**: $MaxCommitsAhead"
                 Write-Host $MaximumCommitsAheadByLimit
-                echo "$MaximumCommitsAheadByLimit" >> $env:GITHUB_STEP_SUMMARY
-                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "$MaximumCommitsAheadByLimit\" >> $env:GITHUB_STEP_SUMMARY
                 
-                $MaximumDaysBehindLimit = "Maximum days behind limit: $MaxDaysBehind"
+                $MaximumDaysBehindLimit = "**Maximum days behind limit**: $MaxDaysBehind"
                 Write-Host $MaximumDaysBehindLimit
-                echo "$MaximumDaysBehindLimit" >> $env:GITHUB_STEP_SUMMARY
-                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "$MaximumDaysBehindLimit\" >> $env:GITHUB_STEP_SUMMARY
                 
-                $MaximumBranchAgeBasedOnDaysBehindLimit = "Maximum branch age based on days behind limit: $DateLimit"
+                $MaximumBranchAgeBasedOnDaysBehindLimit = "**Maximum branch age based on days behind limit**: $DateLimit"
                 Write-Host $MaximumBranchAgeBasedOnDaysBehindLimit
-                echo "$MaximumBranchAgeBasedOnDaysBehindLimit" >> $env:GITHUB_STEP_SUMMARY
-                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "$MaximumBranchAgeBasedOnDaysBehindLimit\" >> $env:GITHUB_STEP_SUMMARY
                 
                 $SeparatorLine = "==========="
                 Write-Host $SeparatorLine
-                echo $SeparatorLine >> $env:GITHUB_STEP_SUMMARY
-                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "$SeparatorLine\" >> $env:GITHUB_STEP_SUMMARY
                 
-                $DefaultBranchSkipList = "Default branch skip list: $DefaultSkipBranchList"
+                $DefaultBranchSkipList = "**Default branch skip list**: $DefaultSkipBranchList"
                 Write-Host $DefaultBranchSkipList
-                echo $DefaultBranchSkipList >> $env:GITHUB_STEP_SUMMARY
-                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "$DefaultBranchSkipList\" >> $env:GITHUB_STEP_SUMMARY
                 
-                $RepoBranchSkipListText = "Repo branch skip list: $RepoBranchSkipList"
+                $RepoBranchSkipListText = "**Repo branch skip list**: $RepoBranchSkipList"
                 Write-Host $RepoBranchSkipListText
-                echo "$RepoBranchSkipListText" >> $env:GITHUB_STEP_SUMMARY
-                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "$RepoBranchSkipListText\" >> $env:GITHUB_STEP_SUMMARY
                 
                 Write-Host $SeparatorLine
-                echo "$SeparatorLine" >> $env:GITHUB_STEP_SUMMARY
-                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "$SeparatorLine\" >> $env:GITHUB_STEP_SUMMARY
                 
-                $TotalBranchesBeforeRun = "Total branches before run: $StartBranchCount"
+                $TotalBranchesBeforeRun = "**Total branches before run**: $StartBranchCount"
                 Write-Host $TotalBranchesBeforeRun
-                echo "$TotalBranchesBeforeRun" >> $env:GITHUB_STEP_SUMMARY
-                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "$TotalBranchesBeforeRun\" >> $env:GITHUB_STEP_SUMMARY
                 
-                $TotalBranchesAfterRun = "Total branches after run: $EndBranchCount"
+                $TotalBranchesAfterRun = "**Total branches after run**: $EndBranchCount"
                 Write-Host $TotalBranchesAfterRun
-                echo "$TotalBranchesAfterRun" >> $env:GITHUB_STEP_SUMMARY
-                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "$TotalBranchesAfterRun\" >> $env:GITHUB_STEP_SUMMARY
                 
                 Write-Host $SeparatorLine
-                echo "$SeparatorLine" >> $env:GITHUB_STEP_SUMMARY
-                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "$SeparatorLine\" >> $env:GITHUB_STEP_SUMMARY
                 
-                $WatchListBranches = "Watch list branches: $WatchListCount"
+                $WatchListBranches = "**Watch list branches**: $WatchListCount"
                 Write-Host $WatchListBranches
-                echo "$WatchListBranches" >> $env:GITHUB_STEP_SUMMARY
-                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "$WatchListBranches\" >> $env:GITHUB_STEP_SUMMARY
                 
                 If ($DeletionRun) {
                 
-                    $DataLossBlockedBranches = "$ReportOnlyString Data loss blocked branches: $DataLossBlockedCount"
-                    $BranchesDeletedWithDataLoss = "$ReportOnlyString Branches deleted with data loss: $DataLossCount"
-                    $TotalDeletedBranches = "$ReportOnlyString Total deleted branches: $DeleteBranchCount"
+                    $DataLossBlockedBranches = "**$ReportOnlyString Data loss blocked branches**: $DataLossBlockedCount"
+                    $BranchesDeletedWithDataLoss = "**$ReportOnlyString Branches deleted with data loss**: $DataLossCount"
+                    $TotalDeletedBranches = "**$ReportOnlyString Total deleted branches**: $DeleteBranchCount"
 
                 } Else {
                 
-                    $DataLossBlockedBranches = "Branches pending deletion (data loss blocked): $DataLossBlockedCount"
-                    $BranchesDeletedWithDataLoss = "Branches pending deletion (data loss): $DataLossCount"
-                    $TotalDeletedBranches = "Total branches pending deletion: $DeleteBranchCount"
+                    $DataLossBlockedBranches = "**Branches pending deletion (data loss blocked)**: $DataLossBlockedCount"
+                    $BranchesDeletedWithDataLoss = "**Branches pending deletion (data loss)**: $DataLossCount"
+                    $TotalDeletedBranches = "**Total branches pending deletion**: $DeleteBranchCount"
                 
                 }
 
                 Write-Host $DataLossBlockedBranches
-                echo "$DataLossBlockedBranches" >> $env:GITHUB_STEP_SUMMARY
-                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "$DataLossBlockedBranches\" >> $env:GITHUB_STEP_SUMMARY
                 
                 Write-Host $SeparatorLine
-                echo "$SeparatorLine" >> $env:GITHUB_STEP_SUMMARY
-                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "$SeparatorLine\" >> $env:GITHUB_STEP_SUMMARY
                 
                 Write-Host $BranchesDeletedWithDataLoss
-                echo "$BranchesDeletedWithDataLoss" >> $env:GITHUB_STEP_SUMMARY
-                echo "" >> $env:GITHUB_STEP_SUMMARY
+                echo "$BranchesDeletedWithDataLoss\" >> $env:GITHUB_STEP_SUMMARY
                 
                 Write-Host $TotalDeletedBranches
                 echo "$TotalDeletedBranches" >> $env:GITHUB_STEP_SUMMARY
