@@ -142,6 +142,7 @@ jobs:
                 $CompareUrl = $RepoData.compare_url.Replace("{base}...{head}", "$DefaultBranch...")
                 $GitHubGraphQlUrl = "https://api.github.com/graphql"
                 $BranchesHtmlUrl = "$($GitHubData.event.repository.html_url)/branches"
+                $GitHubBaseUrl = "https://github.com"
             
                 # Get the list of branches to process and set the initial branch count.
                 $Branches = Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchesUrl  -Method GET -FollowRelLink -MaximumFollowRelLink 50 -ResponseHeadersVariable ResponseHeaders
@@ -530,7 +531,7 @@ jobs:
                         $BC = $BranchReport.BranchCreator
                         
                         Write-Host "$PR`: Branch name: $BN. Branch creator: $BC. Ahead by: $AB. Behind by: $BB. Days since last commit: $LC. "
-                        echo "| $BN | $BC | $AB | $BB | $LC | $PR |" >> $env:GITHUB_STEP_SUMMARY
+                        echo "| $BN | [$BC]($GitHubBaseUrl/$BC) | $AB | $BB | $LC | $PR |" >> $env:GITHUB_STEP_SUMMARY
 
                     }
 
@@ -570,7 +571,7 @@ jobs:
                         $BranchDiffHtmlUrl = "$($GitHubData.event.repository.html_url)/compare/$DefaultBranch...$($BN)#files_bucket"
                         
                         Write-Host "$PR`: Branch name: $BN. Branch creator: $BC. Ahead by: $AB. Behind by: $BB. Days since last commit: $LC. "
-                        echo "| [$BN]($BranchDiffHtmlUrl) | $BC | $AB | $BB | $LC | $PR |" >> $env:GITHUB_STEP_SUMMARY
+                        echo "| [$BN]($BranchDiffHtmlUrl) | [$BC]($GitHubBaseUrl/$BC) | $AB | $BB | $LC | $PR |" >> $env:GITHUB_STEP_SUMMARY
 
                     }
 
