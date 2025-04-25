@@ -452,9 +452,12 @@ jobs:
                 #######
                 # Branch processing has completed and, from this point on, reporting is generated. 
 
-                # Construct the markdown table header that'll be used in the workflow summary.
-                $TableHeaderRow1 = "| Branch name | Branch creator | Commits ahead by | Commits behind by | Days since last commit<br>(on $FriendlyDeletionDate) | Processing result |"
-                $TableHeaderRow2 = "|-------------|----------------|:----------------:|:-----------------:|:----------------------------------------------------:|-------------------|"
+                # Construct the markdown table headers that'll be used in the workflow summary.
+                $DeleteTableHeaderRow1 = "| Branch name | Commits ahead by | Commits behind by | Days since last commit<br>(on $FriendlyDeletionDate) | Processing result |"
+                $DeleteTableHeaderRow2 = "|-------------|:----------------:|:-----------------:|:----------------------------------------------------:|-------------------|"
+
+                $WatchTableHeaderRow1 = "| Branch name | Branch creator | Commits ahead by | Commits behind by | Days since last commit<br>(on $FriendlyDeletionDate) | Processing result |"
+                $WatchTableHeaderRow2 = "|-------------|----------------|:----------------:|:-----------------:|:----------------------------------------------------:|-------------------|"
 
                 # Set job summary and create the "Deleted stale branches" section.
                 echo "# Stale branch results" >> $env:GITHUB_STEP_SUMMARY
@@ -519,8 +522,8 @@ jobs:
                     }
 
                     # Start to build the branch action taken table in the workflow summary.
-                    echo $TableHeaderRow1 >> $env:GITHUB_STEP_SUMMARY
-                    echo $TableHeaderRow2 >> $env:GITHUB_STEP_SUMMARY
+                    echo $DeleteTableHeaderRow1 >> $env:GITHUB_STEP_SUMMARY
+                    echo $DeleteTableHeaderRow2 >> $env:GITHUB_STEP_SUMMARY
 
 
                     # Loop through every reporting object in the array where the processing result isn't "Watch". Add a row for each branch
@@ -537,7 +540,7 @@ jobs:
                         $BC = $BranchReport.BranchCreator
                         
                         Write-Host "$PR`: Branch name: $BN. Branch creator: $BC. Ahead by: $AB. Behind by: $BB. Days since last commit: $LC. On $FriendlyDeletionDate`: ($DD)."
-                        echo "| $BN | [$BC]($GitHubBaseUrl/$BC) | $AB | $BB | $LC<br>($DD) | $PR |" >> $env:GITHUB_STEP_SUMMARY
+                        echo "| $BN | $AB | $BB | $LC<br>($DD) | $PR |" >> $env:GITHUB_STEP_SUMMARY
 
                     }
 
@@ -559,8 +562,8 @@ jobs:
                     echo "These branches should be reviewed and, if they're no longer needed, deleted. If these branches are still needed, they must be brought up to date with the $DefaultBranch branch. Select a branch name to view the differences between it and $($DefaultBranch)." >> $env:GITHUB_STEP_SUMMARY
                     echo "**Branches in this list may be deleted at a future date even if they contain commits not in the $DefaultBranch branch.**" >> $env:GITHUB_STEP_SUMMARY
                     echo "" >> $env:GITHUB_STEP_SUMMARY
-                    echo $TableHeaderRow1 >> $env:GITHUB_STEP_SUMMARY
-                    echo $TableHeaderRow2 >> $env:GITHUB_STEP_SUMMARY
+                    echo $WatchTableHeaderRow1 >> $env:GITHUB_STEP_SUMMARY
+                    echo $WatchTableHeaderRow2 >> $env:GITHUB_STEP_SUMMARY
 
                     # Loop through every reporting object in the array where the processing result is "Watch". Add a row for each branch
                     # containing the branch data for writers to review. This is the table that shows writers which branches might be deleted in the future.
