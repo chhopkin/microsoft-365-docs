@@ -355,7 +355,7 @@ jobs:
                                     # If the workflow is in reporting mode, don't delete the branch. If it isn't, delete it.
                                     If (!$ReportOnly) {
 
-                                        #Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchDeleteUrl -Method DELETE -ResponseHeadersVariable ResponseHeaders | Out-Null
+                                        Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchDeleteUrl -Method DELETE -ResponseHeadersVariable ResponseHeaders | Out-Null
 
                                     }
 
@@ -387,7 +387,7 @@ jobs:
                                         # If the workflow is in reporting mode, don't delete the branch. If it isn't, delete it.
                                         If (!$ReportOnly) {
 
-                                            #Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchDeleteUrl -Method DELETE -ResponseHeadersVariable ResponseHeaders | Out-Null
+                                            Invoke-RestMethod -Headers $GitHubHeaders -Uri $BranchDeleteUrl -Method DELETE -ResponseHeadersVariable ResponseHeaders | Out-Null
 
                                         }
 
