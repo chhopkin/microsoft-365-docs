@@ -7,6 +7,7 @@ name: (Scheduled) Stale branch removal
 
 permissions:
   contents: write
+  pull-requests: read
 
 on:
     workflow_call:
@@ -105,7 +106,129 @@ jobs:
                     Get-Date -Year $TargetYear -Month $TargetMonth -Day $TargetDay -Hour 0 -Minute 0 -Second 0
                 }
 
+                Function Get-PrData {
 
+                    [CmdletBinding()]
+                    Param(
+                        [Parameter(Mandatory)]
+                        $Branch
+                    )
+
+                    $PrUrl = $($GitHubData.event.repository.pulls_url).Replace("{/number}", "?state=all&head=$($GitHubData.event.repository.owner.login):$Branch&base=$($GitHubData.event.repository.default_branch)")
+
+                    Try {
+
+                        Write-Host "PR URL: $PrUrl"
+
+                        $PrData = Invoke-RestMethod -Uri $PrUrl -Method Get -Headers $GitHubHeaders -ContentType "application/json" -ErrorAction Stop
+
+                        If ($PrData.count -gt 0) {
+
+                            If ($PrData[0].state -eq "open") {
+
+                                Write-Host "The branch $Branch has an open pull request. PR number: $($PrData[0].number)"
+
+
+                                $ReturnData = $PrData[0]
+
+                            } Else {
+
+                                Write-Host "The branch $Branch has $($PrData.count) closed pull requests. Last PR number: $($PrData[0].number)"
+
+                                $ReturnData = $PrData[0]
+
+                            }
+
+                        } Else {
+
+                            Write-Host "No pull requests found for the branch $Branch."
+
+                            $ReturnData = $Null
+                        }
+
+                    } Catch {
+
+                        Write-Host "ERROR: An error occurred while fetching pull request data: $_"
+
+                        $ReturnData = $Null
+
+                    }
+
+                    Return $ReturnData
+
+                }
+
+                Function Get-PrMarkdown {
+                
+                    [CmdletBinding()]
+                    Param(
+                        $PrData
+                    )
+
+                    If ($PrData) {
+
+                        $PrNumber = $PrData.number
+                        $PrHtmlUrl = $PrData.html_url
+
+                        If ($PrData.state -eq "open") {
+                        
+                            $PrIconText = "Open"
+                            $PrIconUrl = "https://learn.microsoft.com/en-us/Office/media/internal/git-pull-request-16.svg"
+                        
+                        } Else {
+                        
+                            If ($PrData.merged_at -eq $Null) {
+                            
+                                $PrIconText = "Closed"
+                                $PrIconUrl = "https://learn.microsoft.com/en-us/Office/media/internal/git-pull-request-closed-16.svg"
+                            
+                            } Else {
+                            
+                                $PrIconText = "Merged"
+                                $PrIconUrl = "https://learn.microsoft.com/en-us/Office/media/internal/git-merge-16.svg"
+                            
+                            }
+                        
+                        }
+
+                        $PrMarkdown = "![$PrIconText]($PrIconUrl) [$PrNumber]($PrHtmlUrl)"
+
+                    } Else {
+                    
+                        $PrMarkdown = "-"
+
+                    }
+
+                    Return $PrMarkdown
+                
+                }
+
+                Function Get-PrStaleStatus {
+
+                    [CmdletBinding()]
+                    Param(
+                        $PrData
+                    )
+
+                    $PrState = " "
+                    $Labels = $PrData.labels
+                    
+                    If ($Labels.name -contains "Auto Closed") {
+                        
+                        $PrState = "Auto Closed"
+                        
+                    } Else {
+                        
+                        If ($Labels.name -contains "Inactive") {
+                            
+                            $PrState = "Inactive"
+                        }
+                        
+                    }
+
+                    Return $PrState
+                    
+                }
 
                 # Create the branch skip list that is a combination of the central workflow list and the branch skip list that can be populated in each individual repo.
                 $SkipBranchList = $DefaultSkipBranchList + $RepoBranchSkipList | Select-Object -Unique
@@ -456,8 +579,8 @@ jobs:
                 $DeleteTableHeaderRow1 = "| Branch name | Commits ahead by | Commits behind by | Days since last commit<br>(on $FriendlyDeletionDate) | Processing result |"
                 $DeleteTableHeaderRow2 = "|-------------|:----------------:|:-----------------:|:----------------------------------------------------:|-------------------|"
 
-                $WatchTableHeaderRow1 = "| Branch name | Branch creator | Commits ahead by | Commits behind by | Days since last commit<br>(on $FriendlyDeletionDate) | Processing result |"
-                $WatchTableHeaderRow2 = "|-------------|----------------|:----------------:|:-----------------:|:----------------------------------------------------:|-------------------|"
+                $WatchTableHeaderRow1 = "| Branch name | Branch creator | Pull request |Commits ahead by | Commits behind by | Days since last commit<br>(on $FriendlyDeletionDate) |"
+                $WatchTableHeaderRow2 = "|-------------|----------------|:------------:|:---------------:|:-----------------:|:----------------------------------------------------:|"
 
                 # Set job summary and create the "Deleted stale branches" section.
                 echo "# Stale branch results" >> $env:GITHUB_STEP_SUMMARY
@@ -586,13 +709,16 @@ jobs:
                         $BB = $BranchReport.BehindBy
                         $LC = $BranchReport.DaysSinceLastCommit
                         $DD = $BranchReport.DaysSinceLastCommitOnDeleteDay
-                        $PR = $BranchReport.ProcessingResult
                         $BC = $BranchReport.BranchCreator
+
+                        $PrData = Get-PrData -Branch $BN
+                        $PrMarkdown = Get-PrMarkdown -PrData $PrData
+                        $PrStaleState = Get-PrStaleStatus -PrData $PrData
 
                         $BranchDiffHtmlUrl = "$($GitHubData.event.repository.html_url)/compare/$DefaultBranch...$($BN)#files_bucket"
                         
                         Write-Host "$PR`: Branch name: $BN. Branch creator: $BC. Ahead by: $AB. Behind by: $BB. Days since last commit: $LC. On $FriendlyDeletionDate`: ($DD)."
-                        echo "| [$BN]($BranchDiffHtmlUrl) | [$BC]($GitHubBaseUrl/$BC) | $AB | $BB | $LC<br>($DD) | $PR |" >> $env:GITHUB_STEP_SUMMARY
+                        echo "| [$BN]($BranchDiffHtmlUrl) | [$BC]($GitHubBaseUrl/$BC) | $PrMarkdown<br>$PrStaleState | $AB | $BB | $LC<br>($DD) |" >> $env:GITHUB_STEP_SUMMARY
 
                     }
 
