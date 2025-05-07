@@ -16,7 +16,17 @@ description: "Learn about admin settings that will help protect and secure your 
 
 # Remote mode settings
 
-Restricted Mode is a collection of Microsoft 365 security configurations designed to reduce an organization’s attack surface while accepting some trade-offs in functionality or compatibility. It is aimed at enterprise customers who need stronger security measures to protect their operations and demonstrate their security posture to leadership, auditors, and cybersecurity insurers. 
+As a Microsoft 365 admin, you want to protect and secure your business environment.
+
+Restricted Mode for Microsoft 365 helps you do that. Restricted mode helps you:
+
+- protect business data
+- prevent business disruption
+- block unsafe end user practices
+- ensure secure collaboration
+
+
+is a collection of Microsoft 365 security configurations designed to reduce an organization’s attack surface while accepting some trade-offs in functionality or compatibility. It is aimed at enterprise customers who need stronger security measures to protect their operations and demonstrate their security posture to leadership, auditors, and cybersecurity insurers. 
 
 Microsoft (MSIT) will be the first to adopt Restricted Mode, allowing us to improve our own security, test the configurations, and show customers that these measures are both effective and achievable. No configuration will be included unless it can be successfully deployed within our own tenant. 
 
