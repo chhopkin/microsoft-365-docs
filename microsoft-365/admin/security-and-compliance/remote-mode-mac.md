@@ -18,41 +18,30 @@ description: "Learn about admin settings that will help protect and secure your 
 
 As a Microsoft 365 admin, you want to protect and secure your business environment.
 
-Restricted Mode for Microsoft 365 helps you do that. Restricted mode helps you:
+Restricted mode helps you:
 
 - protect business data
 - prevent business disruption
 - block unsafe end user practices
 - ensure secure collaboration
 
+Restricted mode is designed for enterprise customers who want stronger security measures. Restricted Mode covers key Microsoft 365 services, including Microsoft 365 apps, OneDrive, SharePoint, Teams, Exchange and the Microsoft Entra identity platform.
 
-is a collection of Microsoft 365 security configurations designed to reduce an organization’s attack surface while accepting some trade-offs in functionality or compatibility. It is aimed at enterprise customers who need stronger security measures to protect their operations and demonstrate their security posture to leadership, auditors, and cybersecurity insurers. 
+With the addition of Restricted Mode in the Microsoft 365 admin center, you can now set certain security settings that were previously unavailable in the admin center and had to be configured using PowerShell or following customer documetation.
 
-Microsoft (MSIT) will be the first to adopt Restricted Mode, allowing us to improve our own security, test the configurations, and show customers that these measures are both effective and achievable. No configuration will be included unless it can be successfully deployed within our own tenant. 
-
-Restricted Mode covers key Microsoft 365 services, including Office apps, OneDrive/SharePoint, Teams/IC3, Substrate, and Entra (identity platform).  
-
-Restricted Mode includes advanced security configurations that go beyond the default settings in Microsoft 365 products. While we aim to make these configurations the default for all users, doing so isn’t currently feasible because some customer groups would experience unacceptable impacts on functionality or compatibility. 
-
-These configurations require careful evaluation by each organization before deployment. Restricted Mode allows us to encourage—rather than mandate—enterprises to adopt these stronger security measures. By observing their experiences, we can assess the potential for eventually making these settings the default for all users. 
-
-Additionally, we continue to explore opportunities to make select security settings default across Microsoft 365 products, outside of Restricted Mode, where feasible. Restricted Mode complements this broader security strategy.
-
-
+Now that these configurations are available in the admin center, your organization can carefully evaluate each of the settings before deployment.
 
 ## Before you begin
 
-Prereqs
+You must be a global administrator the appropriate admin for the feature area.
 
-Perms needed
+## How to get to Remote Settings
 
-## How to set RM
+1. To get to the Remote Settings feature, go to the Microsoft 365 admin center and select Org Settings.
 
-Go to the MAC
+1. Select...
 
-## RM settings
-
-In the Microsoft 365 admin center, you can go to
+## Available Remote Settings configurations
 
 ### Office settings
 
