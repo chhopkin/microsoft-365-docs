@@ -36,7 +36,7 @@ This article gives you more information about the restricted settings that you t
 
 ## Before you begin
 
-You must be a global administrator the appropriate admin for the feature area.
+You must be a global administrator or the appropriate admin for the feature area.
 
 ## How to get to Restricted mode settings
 
