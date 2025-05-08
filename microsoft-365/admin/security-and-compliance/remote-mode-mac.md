@@ -1,5 +1,5 @@
 ---
-title: "Remote management settings in the Microsoft 365 admin center"
+title: "Restricted mode settings in the Microsoft 365 admin center"
 ms.author: kwekua
 author: kwekuako
 manager: scotv
@@ -11,10 +11,10 @@ ms.localizationpriority: high
 ms.collection: 
 - Tier1
 - scotvorg
-description: "Learn about admin settings that will help protect and secure your organization from external threats."
+description: "Learn about restricted mode admin settings that will help protect and secure your organization from external threats."
 ---
 
-# Remote mode settings
+# Restricted mode settings
 
 As a Microsoft 365 admin, you want to protect and secure your business environment.
 
@@ -27,7 +27,7 @@ Restricted mode helps you:
 
 Restricted mode is designed for enterprise customers who want stronger security measures. Restricted Mode covers key Microsoft 365 services, including Microsoft 365 apps, OneDrive, SharePoint, Teams, Exchange and the Microsoft Entra identity platform.
 
-With the addition of Restricted Mode in the Microsoft 365 admin center, you can now set certain security settings that were previously unavailable in the admin center and had to be configured using PowerShell or following customer documetation.
+With the addition of Restricted Mode in the Microsoft 365 admin center, you can now set certain security settings that were previously unavailable in the admin center and had to be configured using PowerShell or following customer documentation.
 
 Now that these configurations are available in the admin center, your organization can carefully evaluate each of the settings before deployment.
 
@@ -35,13 +35,13 @@ Now that these configurations are available in the admin center, your organizati
 
 You must be a global administrator the appropriate admin for the feature area.
 
-## How to get to Remote Settings
+## How to get to Restricted mode settings
 
-1. To get to the Remote Settings feature, go to the Microsoft 365 admin center and select Org Settings.
+1. To get to the Restricted mode settings feature, go to the Microsoft 365 admin center and select Org Settings.
 
 1. Select...
 
-## Available Remote Settings configurations
+## Available Restricted mode settings
 
 ### Office settings
 
