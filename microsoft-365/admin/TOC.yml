@@ -469,7 +469,7 @@ items:
         - name: Increase threat protection for Microsoft 365 for business
           href: security-and-compliance/increase-threat-protection.md
         - name: Restricted mode in the Microsoft 365 admin center
-          href: security-and-compliance/remote-mode-mac.md
+          href: security-and-compliance/restricted-mode-mac.md
         - name: Turn on Idle session timeout
           href: manage/idle-session-timeout-web-apps.md
         - name: A guide to GDPR compliance
