@@ -48,7 +48,7 @@ You must be a global administrator or the appropriate admin for the feature area
 
 ### Microsoft 365 apps settings
 
-You must be a the appropriate admin to perform these tasks.
+You must be the appropriate admin to perform these tasks.
 
 |Setting     |More information  |
 |---------|---------|
@@ -62,7 +62,7 @@ You must be a the appropriate admin to perform these tasks.
 
 ### OneDrive and SharePoint settings
 
-You must be a the appropriate admin to perform these tasks.
+You must be the appropriate admin to perform these tasks.
 
 |Setting     |More information  |
 |---------|---------|
@@ -73,7 +73,7 @@ You must be a the appropriate admin to perform these tasks.
 
 ### Exchange settings
 
-You must be a the appropriate admin to perform these tasks.
+You must be the appropriate admin to perform these tasks.
 
 |Setting     |More information  |
 |---------|---------|
@@ -81,7 +81,7 @@ You must be a the appropriate admin to perform these tasks.
 
 ### Identity settings
 
-You must be a the appropriate admin to perform these tasks.
+You must be the appropriate admin to perform these tasks.
 
 |Setting     |More information  |
 |---------|---------|
@@ -92,7 +92,7 @@ You must be a the appropriate admin to perform these tasks.
 
 ### Teams devices settings
 
-You must be a the appropriate admin to perform these tasks.
+You must be the appropriate admin to perform these tasks.
 
 |Setting     |More information  |
 |---------|---------|
