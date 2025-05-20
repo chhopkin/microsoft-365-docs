@@ -51,7 +51,7 @@ Users have their OneDrive provisioned in their preferred data location. If a use
 
 The OneDrive iOS and Android mobile apps show you your OneDrive files and files shared with you regardless of their _Geography_ location. Searches from the OneDrive mobile apps show relevant results from all _Geography_ locations. Download the latest version of these apps.
 
-For more information, see [Use OneDrive on iOS](https://support.office.com/article/08d5c5b2-ccc6-40eb-a244-fe3597a3c247) and [Use OneDrive for Android](https://support.office.com/article/eee1d31c-792d-41d4-8132-f9621b39eb36) for more information.
+For more information, see [Use OneDrive on iOS](https://support.office.com/article/08d5c5b2-ccc6-40eb-a244-fe3597a3c247) and [Use OneDrive for Android](https://support.office.com/article/eee1d31c-792d-41d4-8132-f9621b39eb36).
 
 ## OneDrive mobile client
 
