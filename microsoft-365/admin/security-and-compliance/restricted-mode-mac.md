@@ -68,7 +68,7 @@ You must be the appropriate admin to perform these tasks.
 |---------|---------|
 | Block users and apps connecting to ODSP in browser with legacy RPS protocol | <br/><br/> Learn more|
 |Block clients and scripts connecting to ODSP with legacy IDCRL protocol     |   <br/><br/> Learn more.|
-|Don't allow new custom scripts in SharePoint sites     |   <br/><br/> Learn more|
+|Don't allow new custom scripts in SharePoint sites | Custom scripts are used to modify SharePoint site behaviors. When you allow users to run custom script, you can no longer enforce governance, scope the capabilities of inserted code, block specific parts of code, or block all custom code that has been deployed. This setting permanently removes the ability to add new custom scripts in OneDrive and SharePoint sites. Instead of allowing custom script, we recommend using the SharePoint Framework. <br/><br/>  [Learn more](/sharepoint/security-considerations-of-allowing-custom-script)|
 |Disable Access to Microsoft Store for SharePoint     | When users install unsupported or unauthorized apps from the Microsoft Store for SharePoint, they could install apps that bypass your organization's policies or introduce security vulnerabilities. There could also be costs associated with these apps. When you enable this setting, users will be prevented from installing apps from the Microsoft Store for SharePoint unless you allow them access.  <br/><br/> Learn more|
 
 ### Exchange settings
