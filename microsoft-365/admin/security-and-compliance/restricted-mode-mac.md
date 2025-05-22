@@ -77,7 +77,7 @@ You must be the appropriate admin to perform these tasks.
 
 |Setting     |More information  |
 |---------|---------|
-| Disable tenant-wide access to Exchange web services (EWS) |Exchange web services (EWS) provides cross-platform API access to sensitive Exchange Online data like emails, meetings, and contacts. If compromised, attackers can access confidential data, send phishing emails, spoof identities and potentially gain system control. When you disable access to EWS, you enforce modern authentication and conditional access policies. You also reduce legacy app usage and minimize the number of endpoints that attackers can target.  <br/><br/> [Learn more](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)|
+| Disable tenant-wide access to Exchange web services (EWS) |Exchange web services (EWS) provides cross-platform API access to sensitive Exchange Online data like emails, meetings, and contacts. If compromised, attackers can access confidential data, send phishing emails, spoof identities and potentially gain system control. When you disable access to EWS, you also reduce legacy app usage and minimize the number of endpoints that attackers can target.  <br/><br/> [Learn more](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)|
 
 ### Identity settings
 
