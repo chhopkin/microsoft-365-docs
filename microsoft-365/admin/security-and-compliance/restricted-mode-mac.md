@@ -62,18 +62,18 @@ You must be the appropriate admin to perform these tasks.
 
 ### OneDrive and SharePoint settings
 
-You must be the appropriate admin to perform these tasks.
+You must be a member of the [SharePoint administrator role](/sharepoint/sharepoint-admin-role) to perform this task.
 
 |Setting     |More information  |
 |---------|---------|
-| Block users and apps connecting to ODSP in browser with legacy RPS protocol | <br/><br/> Learn more|
-|Block clients and scripts connecting to ODSP with legacy IDCRL protocol     |   <br/><br/> Learn more.|
+| Block legacy browser authentication connections to SharePoint with legacy Relying Party suite (RPS) protocol | Legacy protocols are more susceptible to brute-force and phishing attacks because they non-modern authentication methods. Microsoft reports that organizations that disable legacy authentication experience fewer account compromises. Enforcing this setting prevents applications, (including third party applications) using non-modern authentication protocols from accessing SharePoint and OneDrive resources in a browser. <br/><br/> Reporting on this setting shows which users are accessing SharePoint with RPS authentication, the date and time and which SharePoint site or OneDrive file or folder they accessed.  <br/><br/>**Note** The change isn't instant. It might take up to 24 hours to be applied. <br/><br/> [Learn more](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps)|
+|Block legacy client authentication connections to SharePoint and OneDrive with legacy Identity Client Runtime Library (IDCRL) protocol     | Legacy protocols are more susceptible to brute-force and phishing attacks because they non-modern authentication methods. Microsoft reports that organizations that disable legacy authentication experience fewer account compromises. Enforcing this setting prevents clients using non-modern authentication protocols from accessing SharePoint Online and OneDrive resources.  <br/><br/>Reporting on this setting shows which users are accessing SharePoint with IDCRL authentication, the date and time and which SharePoint site or OneDrive file or folder they accessed. <br/><br/>**Note** The change isn't instant. It might take up to 24 hours to be applied. <br/><br/>  [Learn more](/powershell/module/sharepoint-online/set-spotenant?view=sharepoint-ps).|
 |Don't allow new custom scripts in SharePoint sites | Custom scripts are used to modify SharePoint site behaviors. When you allow users to run custom script, you can no longer enforce governance, scope the capabilities of inserted code, block specific parts of code, or block all custom code that has been deployed. This setting permanently removes the ability to add new custom scripts in OneDrive and SharePoint sites. Instead of allowing custom script, we recommend using the SharePoint Framework. <br/><br/>  [Learn more](/sharepoint/security-considerations-of-allowing-custom-script)|
-|Disable Access to Microsoft Store for SharePoint     | When users install unsupported or unauthorized apps from the Microsoft Store for SharePoint, they could install apps that bypass your organization's policies or introduce security vulnerabilities. There could also be costs associated with these apps. When you enable this setting, users will be prevented from installing apps from the Microsoft Store for SharePoint unless you allow them access.  <br/><br/> Learn more|
+|Disable Access to Microsoft Store for SharePoint     | When users install unsupported or unauthorized apps from the Microsoft Store for SharePoint, they could install apps that bypass your organization's policies or introduce security vulnerabilities. There could also be costs associated with these apps. When you enable this setting, users will be prevented from installing apps from the Microsoft Store for SharePoint unless you allow them access.  <br/><br/> [Learn more](/sharepoint/configure-sharepoint-store-settings)|
 
 ### Exchange settings
 
-You must be the appropriate admin to perform these tasks.
+You must be a member of the [Exchange online administrator role](../add-users/about-exchange-online-admin-role.md) to perform this task.
 
 |Setting     |More information  |
 |---------|---------|
@@ -87,7 +87,7 @@ You must be the appropriate admin to perform these tasks.
 |---------|---------|
 | Protect admin access to Microsoft admin portals with phishing resistant authentication | Accounts that are assigned privileged administrative roles are frequent targets of attackers. Requiring phishing-resistant multifactor authentication (MFA) on those accounts is an easy way to reduce the risk of those accounts being compromised.<br/><br/> [Learn more](/entra/identity/conditional-access/policy-admin-phish-resistant-mfa)|
 |Block legacy authentication flows     | We recommend that organizations block authentication requests that use legacy protocols that don't support multifactor authentication. Based on analysis most of credential stuffing attacks use legacy authentication and the majority of password spray attacks use legacy authentication protocols. You can help stop these attacks with basic authentication disabled or blocked.  <br/><br/> [Learn more](/entra/identity/conditional-access/policy-block-legacy-authentication)|
-|Block addition of new password credentials to apps    |   <br/><br/> Learn more.|
+|Block addition of new password credentials to apps    |   <br/><br/> Learn more|
 |Restrict end-user consent to Microsoft 365 certified and single tenant apps with low risk perms     | Configure user consent settings in Microsoft Entra ID to control when and how users grant permissions to applications. This guidance helps admins reduce security risks by restricting or disabling user consent for apps in Microsoft 365.  <br/><br/> [Learn more](/entra/identity/enterprise-apps/configure-user-consent?pivots=portal)|
 
 ### Teams devices settings
