@@ -48,7 +48,7 @@ You must be a global administrator or the appropriate admin for the feature area
 
 ### Microsoft 365 apps settings
 
-You must be the appropriate admin to perform these tasks.
+You must be a member of the [Office Apps administrator role](/entra/identity/role-based-access-control/permissions-reference) to perform this task.
 
 |Setting     |More information  |
 |---------|---------|
