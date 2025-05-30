@@ -60,14 +60,22 @@ jobs:
         repo-token: ${{ secrets.AccessToken }} 
         debug-only: ${{ inputs.RunDebug }}
         operations-per-run: 1000
-        days-before-issue-stale: -1
-        days-before-issue-close: -1
+        days-before-issue-stale: 90
+        days-before-issue-close: 14
         days-before-pr-stale: 90
         days-before-pr-close: 14
 #        start-date: ${{ steps.get-month.outputs.SelectedMonth }}
+        stale-issue-label: Inactive
+        close-issue-label: Auto Closed
         stale-pr-label: Inactive
         close-pr-label: Auto Closed
         exempt-pr-labels: Keep open
+        stale-issue-message: >
+          <h2>Inactive issue marked for closure</h2>
+          <p/>
+          This issue has been inactive for over 90 days, and an <b>Inactive</b> label has been added to it. If this issue remains inactive with no new comments, it will be closed automatically in 14 days. 
+        close-issue-message: >
+          This issue has been inactive for a further 14 days and is now being closed. 
         stale-pr-message: >
           <h2>Inactive PR marked for closure</h2>
           <p/>
