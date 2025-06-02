@@ -1867,7 +1867,7 @@
      },
      {
        "source_path": "microsoft-365/admin/devices/device-states.md",
-       "redirect_url": "/microsoft-365/business-premium/m365bp-device-states",
+       "redirect_url": "/defender-business/mdb-manage-devices",
        "redirect_document_id": false
      },
      {
@@ -1917,7 +1917,7 @@
      },
      {
        "source_path": "microsoft-365/admin/security-and-compliance/set-up-compliance.md",
-       "redirect_url": "/microsoft-365/business-premium/m365bp-set-up-compliance",
+       "redirect_url": "/m365b-security/m365bp-information-protection",
        "redirect_document_id": false
      },
      {
@@ -1937,12 +1937,12 @@
      },
      {
        "source_path": "microsoft-365/admin/security-and-compliance/threats-detected-defender-av.md",
-       "redirect_url": "/microsoft-365/business-premium/m365bp-review-threats-take-action",
+       "redirect_url": "/defender-endpoint/review-detected-threats",
        "redirect_document_id": false
      },
      {
        "source_path": "microsoft-365/admin/security-and-compliance/review-threats-take-action.md",
-       "redirect_url": "/microsoft-365/business-premium/m365bp-review-threats-take-action",
+       "redirect_url": "/defender-endpoint/review-detected-threats",
        "redirect_document_id": false
      },
      {
@@ -2012,7 +2012,7 @@
      },
      {
        "source_path": "microsoft-365/admin/security-and-compliance/secure-your-business-data.md",
-       "redirect_url": "/microsoft-365/business-premium/secure-your-business-data",
+       "redirect_url": "/m365b-security/m365b-security-best-practices",
        "redirect_document_id": false
      },
      {
@@ -2252,7 +2252,7 @@
     },
     {
       "source_path": "microsoft-365/admin/admin-overview/what-is-microsoft-365.md",
-      "redirect_url": "/microsoft-365/business-premium/m365bp-overview",
+      "redirect_url": "/m365b-security/m365bp-security-benefits",
       "redirect_document_id": false
     },
     {

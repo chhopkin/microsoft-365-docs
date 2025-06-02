@@ -42,8 +42,8 @@
        },
        {
          "source_path": "microsoft-365/campaigns/m365-campaigns-protect-admin-accounts.md",
-         "redirect_url": "/microsoft-365/business-premium/m365bp-protect-admin-accounts",
-         "redirect_document_id": true
+         "redirect_url": "/m365b-security/m365b-admin-account-security",
+         "redirect_document_id": false
        },
        {
          "source_path": "microsoft-365/campaigns/m365-campaigns-protect-campaign-infographic.md",
@@ -57,8 +57,8 @@
        },
        {
          "source_path": "microsoft-365/campaigns/m365-campaigns-security-overview.md",
-         "redirect_url": "/microsoft-365/business-premium/m365bp-security-overview",
-         "redirect_document_id": true
+         "redirect_url": "/m365b-security/m365bp-security-overview",
+         "redirect_document_id": false
        },
        {
          "source_path": "microsoft-365/campaigns/m365-campaigns-sign-in.md",

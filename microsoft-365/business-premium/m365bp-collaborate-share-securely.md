@@ -37,4 +37,4 @@ Your steps are to:
 - [Share files and videos](share-files-and-videos.md).
 - [Create a communication site](create-communications-site.md).
 
-Once you've achieved these steps, proceed to [Set up and secure managed devices](m365bp-protect-managed-devices.md).
+Once you've achieved these steps, proceed to [Set up and secure managed devices](/m365b-security/m365bp-devices-enrollment).

@@ -141,7 +141,7 @@ If you choose to store personal data in the cloud, such as through Microsoft 365
 
 #### Microsoft 365 features that can help in Step 4
 
-You can use [Set up compliance features](../../business-premium/m365bp-set-up-compliance.md) to help to protect your business's sensitive information. Compliance Manager can help you get started right away! For example, you can [Create and Deploy data loss prevention policies](../../compliance/dlp-create-deploy-policy.md) that uses the [GDPR template](/microsoft-365/compliance/what-the-dlp-policy-templates-include#general-data-protection-regulation-gdpr).
+You can use [Set up compliance features](/m365b-security/m365bp-information-protection) to help to protect your business's sensitive information. Compliance Manager can help you get started right away! For example, you can [Create and Deploy data loss prevention policies](../../compliance/dlp-create-deploy-policy.md) that uses the [GDPR template](/microsoft-365/compliance/what-the-dlp-policy-templates-include#general-data-protection-regulation-gdpr).
 
 ### Step 5: Keep documentation on your data processing activities
 

@@ -55,7 +55,7 @@ These ways are based on your Microsoft 365 plan.
 |Plan|Recommendation|Type of customer|
 |---|---|---|
 |All Microsoft 365 plans|Use security defaults, which require MFA for all user accounts. <p> You can also configure per-user MFA on individual user accounts, but this isn't recommended.|Small business|
-|Microsoft 365 Business Premium <p> Microsoft 365 E3 <p> Microsoft Entra ID P1 licenses|Use [security defaults or Conditional Access policies](/microsoft-365/business-premium/m365bp-turn-on-mfa) to require MFA for user accounts based on group membership, apps, or other criteria.|Small business to enterprise|
+|Microsoft 365 Business Premium <p> Microsoft 365 E3 <p> Microsoft Entra ID P1 licenses|Use [security defaults or Conditional Access policies](/m365b-security/m365b-account-security) to require MFA for user accounts based on group membership, apps, or other criteria.|Small business to enterprise|
 |Microsoft 365 E5 <p> Microsoft Entra ID P2 licenses|Use Microsoft Entra ID Protection to require MFA based on sign-in risk criteria.|Enterprise|
 ||||
 

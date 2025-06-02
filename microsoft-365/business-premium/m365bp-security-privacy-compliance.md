@@ -36,8 +36,8 @@ For information, see the [Microsoft Trust Center - Security](https://www.microso
 
 For related configuration information, see the following articles:
 
-- [Configure your security protection in Microsoft 365 Business Premium](m365bp-security-overview.md)
-- [Microsoft 365 for business security best practices](secure-your-business-data.md)
+- [Configure your security protection in Microsoft 365 Business Premium](/m365b-security/m365bp-security-overview)
+- [Microsoft 365 for business security best practices](/m365b-security/m365b-security-best-practices)
 
 ## Privacy
 
@@ -50,7 +50,7 @@ For information about privacy in Microsoft 365 Business Premium, see:
 
 For information about compliance in Microsoft 365 Business Premium, see the [Microsoft Trust Center - Compliance](https://www.microsoft.com/trust-center/compliance/compliance-overview).
 
-For related configuration information, see [Set up information protection capabilities](m365bp-set-up-compliance.md).
+For related configuration information, see [Set up information protection capabilities](/m365b-security/m365bp-information-protection).
 
 ## Related resources
 

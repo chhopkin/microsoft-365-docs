@@ -475,7 +475,7 @@ items:
     - name: Manage devices and app data
       items:
         - name: Basic Mobility and Security Overview
-          href: /m365-b-security/m365b-devices-basic-mobility-security-overview
+          href: /m365-b-security/m365b-devices-basic-mobility-security-overview?toc=/microsoft-365/admin/manage-devices-and-app-data/toc.json&bc=/microsoft-365/admin/manage-devices-and-app-data/breadcrumb/toc.json
         - name: Manage user consent to apps
           href: misc/user-consent.md
     - name: Switch from Google Workspace to M365
