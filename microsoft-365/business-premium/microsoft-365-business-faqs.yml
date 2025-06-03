@@ -19,7 +19,7 @@ metadata:
 title: Microsoft 365 Business Premium frequently asked questions
 summary: |
   > [!TIP]
-  > For frequently asked questions related to **security** in Microsoft 365 Business Premium, see [Microsoft 365 Business Premium security - frequently asked questions](/mm365bp-security-faq).
+  > For frequently asked questions related to **security** in Microsoft 365 Business Premium, see [Microsoft 365 Business Premium security - frequently asked questions](/m365b-security/m365bp-security-faq).
 
 sections:
   - name: General
@@ -84,7 +84,7 @@ sections:
           - Windows 8 Pro
           - Windows 8.1 Pro
 
-          For more information, see [Upgrade Windows devices to Windows 10 or 11 Pro](/m365bp-upgrade-windows-pro.md).
+          For more information, see [Upgrade Windows devices to Windows 10 or 11 Pro](m365bp-upgrade-windows-pro.md).
 
           > [!IMPORTANT]
           > You must supply the original product key when you upgrade; otherwise, the upgrade doesn't work.
