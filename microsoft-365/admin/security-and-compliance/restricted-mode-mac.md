@@ -92,7 +92,7 @@ You must be the appropriate admin to perform these tasks.
 
 ### Teams devices settings
 
-You must be the appropriate admin to perform these tasks.
+You must be a member of the [Teams administrator role](/entra/identity/role-based-access-control/permissions-reference) to perform this tasks.
 
 |Setting     |More information  |
 |---------|---------|
