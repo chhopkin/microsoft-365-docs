@@ -1,5 +1,5 @@
 ---
-title: "Restricted mode settings in the Microsoft 365 admin center"
+title: "Restricted mode settings"
 ms.author: kwekua
 author: kwekuako
 manager: scotv
@@ -14,7 +14,7 @@ ms.collection:
 description: "Learn about restricted mode admin settings that will help protect and secure your organization from external threats."
 ---
 
-# Restricted mode settings
+# Restricted mode settings in the Microsoft 365 admin center
 
 As a Microsoft 365 admin, you want to protect and secure your business environment.
 
