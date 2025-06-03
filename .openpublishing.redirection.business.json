@@ -352,7 +352,7 @@
     },
     {
       "source_path":"microsoft-365/business/increase-threat-protection.md",
-      "redirect_url":"/m365b-security/m365bp-security-overview",
+      "redirect_url":"/m365b-security/m365bp-security-benefits",
       "redirect_document_id": false
     },
     {
@@ -512,22 +512,22 @@
     },
     {
       "source_path":"microsoft-365/business-video/anti-malware.md",
-      "redirect_url":"/m365b-security/m365bp-security-overview",
+      "redirect_url":"/m365b-security/m365bp-security-benefits",
       "redirect_document_id": false
     },
     {
       "source_path":"microsoft-365/business-video/prevent-ransom-in-email.md",
-      "redirect_url":"/m365b-security/m365bp-security-overview",
+      "redirect_url":"/m365b-security/m365bp-security-benefits",
       "redirect_document_id": false
     },
     {
       "source_path":"microsoft-365/business-video/safe-links.md",
-      "redirect_url":"/m365b-security/m365bp-security-overview",
+      "redirect_url":"/m365b-security/m365bp-security-benefits",
       "redirect_document_id": false
     },
     {
       "source_path":"microsoft-365/business-video/setup-anti-phishing.md",
-      "redirect_url":"/m365b-security/m365bp-security-overview",
+      "redirect_url":"/m365b-security/m365bp-security-benefits",
       "redirect_document_id": false
     },
     {
@@ -737,7 +737,7 @@
     },
     {
       "source_path":"microsoft-365/business-premium/m365-campaigns-security-overview.md",
-      "redirect_url":"/m365b-security/m365bp-security-overview",
+      "redirect_url":"/m365b-security/m365bp-security-benefits",
       "redirect_document_id": false
     },
     {
@@ -997,7 +997,7 @@
     },
     {
       "source_path":"microsoft-365/business-premium/m365bp-protect-admin-accounts.md",
-      "redirect_url":"/m365b-security/m365b-admin-account-security",
+      "redirect_url":"/m365b-security/m365b-account-security-admins",
       "redirect_document_id": false
     },
     {
@@ -1032,7 +1032,7 @@
     },
     {
       "source_path":"m365bp-security-overview.md",
-      "redirect_url":"/m365b-security/m365bp-security-benefits",
+      "redirect_url":"/m365b-security/m365b-security-overview",
       "redirect_document_id": false
     },
     {

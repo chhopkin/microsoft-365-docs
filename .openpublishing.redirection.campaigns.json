@@ -42,7 +42,7 @@
        },
        {
          "source_path": "microsoft-365/campaigns/m365-campaigns-protect-admin-accounts.md",
-         "redirect_url": "/m365b-security/m365b-admin-account-security",
+         "redirect_url": "/m365b-security/m365b-account-security-admins",
          "redirect_document_id": false
        },
        {
@@ -57,7 +57,7 @@
        },
        {
          "source_path": "microsoft-365/campaigns/m365-campaigns-security-overview.md",
-         "redirect_url": "/m365b-security/m365bp-security-overview",
+         "redirect_url": "/m365b-security/m365bp-security-benefits",
          "redirect_document_id": false
        },
        {
@@ -99,6 +99,6 @@
          "source_path": "microsoft-365/campaigns/share-files-and-videos.md",
          "redirect_url": "/microsoft-365/business-premium/share-files-and-videos",
          "redirect_document_id": true
-       },
+       }
     ]
  }

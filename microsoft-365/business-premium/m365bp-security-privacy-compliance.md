@@ -36,7 +36,7 @@ For information, see the [Microsoft Trust Center - Security](https://www.microso
 
 For related configuration information, see the following articles:
 
-- [Configure your security protection in Microsoft 365 Business Premium](/m365b-security/m365bp-security-overview)
+- [Configure your security protection in Microsoft 365 Business Premium](/m365b-security/m365bp-security-benefits)
 - [Microsoft 365 for business security best practices](/m365b-security/m365b-security-best-practices)
 
 ## Privacy

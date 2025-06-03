@@ -54,7 +54,7 @@ conceptualContent:
   # Card
     - title: What is Microsoft 365 Business Premium?
       links:
-        - url: /m365b-security/m365bp-security-overview
+        - url: /m365b-security/m365bp-security-benefits
           itemType: overview
           text: Microsoft 365 Business Premium security overview
         - url: /m365b-security/m365bp-security-benefits
@@ -75,7 +75,7 @@ conceptualContent:
         - url: ../business-premium/m365bp-setup.md
           itemType: how-to-guide
           text: 1. Sign in and set up
-        - url: /m365b-security/m365bp-security-overview
+        - url: /m365b-security/m365bp-security-benefits
           itemType: overview
           text: 2. Configure your security protection
         - url: /m365b-security/m365bp-devices-enrollment#mobile-app-management-in-intune-for-data-protection

@@ -2,7 +2,7 @@ items:
 - name: Microsoft 365 Business Premium
   items:
     - name: Security overview
-      href: /m365b-security/m365bp-security-overview?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: /m365b-security/m365bp-security-benefits?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: What's new in security
       href: /m365b-security/m365b-security-whats-new?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Why choose Microsoft 365 Business Premium?
@@ -24,11 +24,11 @@ items:
 - name: Step 2 - Configure your security protection
   items:
     - name: Overview
-      href: /m365b-security/m365bp-security-overview?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: /m365b-security/m365bp-security-benefits?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Turn on MFA
       href: /m365b-security/m365b-account-security?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Protect your admin accounts
-      href: /m365b-security/m365b-admin-account-security/m365b-security/m365bp-devices-enrollment?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+      href: /m365b-security/m365b-account-security-admins/m365b-security/m365bp-devices-enrollment?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Email and collaboration security
       href: /m365b-security/m365b-email-collaboration-security?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Secure managed and unmanaged devices
