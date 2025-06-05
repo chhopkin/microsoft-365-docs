@@ -98,4 +98,4 @@ You must be a member of the [Teams administrator role](/entra/identity/role-base
 |---------|---------|
 | Remove resource account access to Microsoft 365 assets post meeting/collaboration | To increase security, we recommend you remove resource accounts access that are used by Teams Rooms and devices to access Microsoft 365 assets used for meeting and collaboration. <br/><br/> Learn more|
 |Only allow endpoint managed, compliant devices to sign in     |To increase security, we recommend that only compliant, organization-managed Teams Room devices can sign in to Microsoft 365 applications and that resource accounts can't be misused to authenticate from unmanaged devices.   <br/><br/> Learn more|
-|Block resource account sign in to M365 clients     |To increase security, resource accounts used for Teams devices must be blocked from being used to sign in or used by Microsoft 365 clients.   <br/><br/> Learn more|
+|Block resource account sign in to Microsoft 365 clients     |To increase security, resource accounts used for Teams devices must be blocked from being used to sign in or used by Microsoft 365 clients.   <br/><br/> Learn more|
