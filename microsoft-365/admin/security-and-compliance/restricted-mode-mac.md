@@ -3,14 +3,12 @@ title: "Restricted mode settings"
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 05/05/2025
+ms.date: 06/25/2025
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-business
 ms.localizationpriority: high
-ms.collection: 
-- Tier1
-- scotvorg
+ms.collection: RestrictedMode
 description: "Learn about restricted mode admin settings that will help protect and secure your organization from external threats."
 ---
 
