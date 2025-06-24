@@ -5,7 +5,7 @@ author: chuckedmonson
 manager: jtremper
 audience: admin
 ms.reviewer: sreelakshmi
-ms.date: 03/11/2025
+ms.date: 04/16/2025
 ms.topic: how-to
 ms.service: microsoft-365-backup
 ms.custom: backup
@@ -24,6 +24,12 @@ As part of restoring data from backup, admin needs to choose a *restore point* m
 
 Currently, you can restore OneDrive accounts, SharePoint sites, and Exchange mailbox content from specific prior points in time from the backups.
 
+</br>
+
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=c9a4ced2-7ce3-4bc9-b42f-876b05497e1b]
+
+</br>
+
 ## Restore point frequency
 
 The restore point frequency, also known as the [recovery point objective](backup-faq.md#what-is-the-service-recovery-point-objective) (RPO), defines the maximum amount of time during which data is lost after an attack. Stated differently, it’s the time between the most recent backup of the healthy state of data and the time of the attack. The RPOs for each of the protected services are summarized in the following table.
@@ -32,6 +38,13 @@ The restore point frequency, also known as the [recovery point objective](backup
 |---------|---------|---------|
 |Full OneDrive account and full SharePoint site restore    |10 minutes     |One week     |
 |Exchange Online   |10 minutes         |10 minutes         |
+
+> [!NOTE]
+> You can also use PowerShell cmdlets to perform these operations by following these steps:
+> 1. Go to the [Microsoft 365 Backup Storage Graph APIs](/graph/api/backuprestoreroot-post-onedriveforbusinessrestoresessions) documentation for the specific action you want to perform—for example, restoring data for Onedrive.
+> 2. Scroll to the **Example request** section and select the **PowerShell** tab.
+> 3. Install the Microsoft.Graph.BackupRestore module as shown in the example.
+> 4. Run the provided PowerShell command in an Admin PowerShell session to execute the desired action.
 
 ## Restore data from backup for OneDrive, SharePoint, and Exchange
 
