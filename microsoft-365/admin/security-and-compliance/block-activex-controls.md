@@ -34,7 +34,7 @@ Alternatively, you can make changes to the Group Policy setting that supports th
 
 The Group Policy setting “Disable All ActiveX” can be found in the following path and registry key:
 
-- Group Policy path:  
-- Registry key path:
+- **Group Policy path**: `User Configuration > Administrative Templates > Microsoft Excel 2016 > Excel Options > Security > Trust Center > External content`
+- **Registry key path**: `HKCU\Software\Microsoft\Office\16.0\Excel\External content > disabledserverlaunch`
 
 To revert to the default behavior, set this policy as not configured.

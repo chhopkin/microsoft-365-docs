@@ -35,7 +35,7 @@ Alternatively, you can make changes to the Group Policy setting that supports th
 
 The Group Policy setting **Allow Basic Authentication prompts from network proxies** can be found in the following path and registry key:
 
-- **Group Policy path:** User Configuration\Policies\Administrative Templates\Microsoft Office 2016\Security Settings  
+- **Group Policy path:** `User Configuration > Policies > Administrative Templates > Microsoft Office 2016 > Security settings`
 - **Registry key path**:
 
 This policy setting controls whether network proxies are allowed to show basic authentication prompts. To revert to the default behavior, set this policy as not configured.
