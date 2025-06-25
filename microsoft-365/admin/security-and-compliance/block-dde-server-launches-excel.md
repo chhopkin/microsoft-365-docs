@@ -1,0 +1,39 @@
+---  
+title: "Block Dynamic Data Exchange (DDE) server launches in Excel"  
+description: Use the Microsoft 365 admin center, Office Group policies or registry keys to block Dynamic Data Exchange (DDE) server launches in Excel .
+author: kwekuako
+ms.author: kwekua  
+manager: dansimp
+ms.date: 06/24/2025  
+ms.topic: how-to
+ms.service: microsoft-365-admin
+ms.localizationpriority: medium
+ms.collection: RestrictedMode
+ms.custom: QuickDraft
+ms.reviewer: kwekua
+audience: admin
+---
+
+# Block Dynamic Data Exchange (DDE) server launches in Excel
+
+Dynamic Data Exchange (DDE) allows Excel to pull data from external sources in real time. However, if the source is malicious, it can send harmful code to Excel and potentially compromise the system without requiring macros or other active content. Attackers have used this technique in targeted phishing attacks to execute arbitrary commands. Blocking DDE server launches reduces this risk.  
+
+When you enable this setting, Excel will block DDE server launches, helping prevent malicious external sources from injecting harmful code into spreadsheets.
+
+If you have enabled this setting but need to revert to the default behavior, you can turn this setting off directly in the Microsoft 365 admin center.
+
+## Turn off default setting in the Microsoft 365 admin center
+
+1. Go to the admin center and select Org settings.
+1. Select Restricted mode and find the Block Dynamic Data Exchange setting and switch the toggle to **Off**.
+
+## Use Group Policy settings, registry keys or Office cloud policy service
+
+Alternatively, you can make changes to the Group Policy setting that supports this setting. These changes can be made in the Group Policy Editor, by registry key, or by using the [Office cloud policy service](https://config.office.com/).
+
+The Group Policy setting **Don’t allow Dynamic Data Exchange (DDE) server launch in Excel** can be found in the following path and registry key:
+
+- Group Policy path:  
+- Registry key path:
+
+To revert to the default behavior, set this policy as not configured.
