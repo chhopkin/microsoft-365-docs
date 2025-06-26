@@ -1,6 +1,6 @@
 ---  
 title: "Block Dynamic Data Exchange (DDE) server launches in Excel"  
-description: Use the Microsoft 365 admin center, Office Group policies or registry keys to block Dynamic Data Exchange (DDE) server launches in Excel .
+description: Use the Microsoft 365 admin center, Office Group policies or registry keys to block Dynamic Data Exchange (DDE) server launches in Excel.
 author: kwekuako
 ms.author: kwekua  
 manager: dansimp
@@ -33,7 +33,7 @@ Alternatively, you can make changes to the Group Policy setting that supports th
 
 The Group Policy setting **Don’t allow Dynamic Data Exchange (DDE) server launch in Excel** can be found in the following path and registry key:
 
-- Group Policy path:  
-- Registry key path:
+- Group Policy path: `User Configuration > Administrative Templates > Microsoft Excel 2016 > Excel Options > Security > Trust Center > External Content`
+- Registry key path: `HKCU\Software\Policies\Microsoft\Office\16.0\excel\security\external content > disableddeserverlaunch`
 
 To revert to the default behavior, set this policy as not configured.
