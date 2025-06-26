@@ -1,5 +1,5 @@
 ---  
-title: "Block basic authentication"  
+title: "Block OLE Graph and OrgChart objects"  
 description: Block basic authentication in Microsoft 365 apps
 author: kwekuako
 ms.author: kwekua  
@@ -14,7 +14,7 @@ audience: admin
 ai-usage: ai-assisted  
 ---
 
-# Block basic authentication in Microsoft 365 apps
+# Block OLE Graph and OrgChart objects
 
 Basic authentication is an outdated authentication method that transmits user credentials in a way that can easily be intercepted and stolen. Blocking basic authentication helps protect users from credential theft, especially during phishing attacks or when accessing services over insecure networks. Because of these security risks, basic authentication is now blocked by default in Microsoft 365 apps.
 
