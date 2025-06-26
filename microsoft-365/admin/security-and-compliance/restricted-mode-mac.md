@@ -24,13 +24,13 @@ Restricted mode helps you:
 - secure internal accounts
 - ensure secure collaboration
 
-Restricted Mode covers key Microsoft 365 services, including Microsoft 365 apps, OneDrive, SharePoint, Teams, Exchange and the Microsoft Entra identity platform.
+Restricted mode covers key Microsoft 365 services, including Microsoft 365 apps, OneDrive, SharePoint, Teams, Exchange and the Microsoft Entra identity platform.
 
-With the addition of Restricted Mode in the Microsoft 365 admin center, you can now set certain security settings that were previously unavailable in the admin center and had to be configured using PowerShell or following customer documentation.
+With the addition of Restricted mode in the Microsoft 365 admin center, you can now set certain security settings that were previously unavailable in the admin center and had to be configured using PowerShell or following customer documentation.
 
-Now that these configurations are available in the admin center, your organization can carefully evaluate each of the settings before deployment.
+Now that these settings are available in the admin center, your organization can carefully evaluate each of the Restricted mode settings before deployment.
 
-This article gives you more information about the restricted settings that you turn on and links to content that helps you understand what the setting does and why we recommend that you turn on the setting.
+This article gives you more information about the Restricted mode settings that you turn on and links to content that helps you understand what the setting does and why we recommend that you turn on the setting.
 
 ## Before you begin
 
