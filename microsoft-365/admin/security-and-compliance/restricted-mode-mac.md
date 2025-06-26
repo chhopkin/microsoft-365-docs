@@ -38,7 +38,7 @@ You must be a global administrator or the appropriate admin for the feature area
 
 ## How to get to Restricted mode settings
 
-1. To get to the Restricted mode settings feature, go to the Microsoft 365 admin center and select Org Settings.
+1. To get to Restricted mode settings, go to the Microsoft 365 admin center and select Org Settings.
 
 1. Select...
 
