@@ -34,13 +34,12 @@ This article gives you more information about the Restricted mode settings that 
 
 ## Before you begin
 
-You must be a global administrator or the appropriate admin for the feature area.
+You must be the appropriate admin for the feature area. For more information, see [About admin roles in the Microsoft 365 admin center](../add-users/about-admin-roles.md).
 
 ## How to get to Restricted mode settings
 
-1. To get to Restricted mode settings, go to the Microsoft 365 admin center and select Org Settings.
-
-1. Select...
+1. To get to Restricted mode settings, go to the Microsoft 365 admin center and select **Settings** > **Org Settings**, then go to the **Security & privacy** tab.
+1. Select **Restricted mode**.
 
 ## Available Restricted mode settings
 
@@ -96,6 +95,7 @@ You must be a member of the [Teams administrator role](/entra/identity/role-base
 
 |Setting     |More information  |
 |---------|---------|
-| Remove resource account access to Microsoft 365 assets post meeting and collaboration | To increase security, we recommend you remove resource accounts access that are used by Teams Rooms and devices to access Microsoft 365 assets used for meeting and collaboration. <br/><br/> Learn more|
-|Only allow endpoint managed, compliant devices to sign in     |To increase security, we recommend that only compliant, organization-managed Teams Room devices can sign in to Microsoft 365 applications and that resource accounts can't be misused to authenticate from unmanaged devices.   <br/><br/> Learn more|
-|Block resource account sign in to Microsoft 365 clients     |To increase security, resource accounts used for Teams devices must be blocked from being used to sign in or used by Microsoft 365 clients.   <br/><br/> Learn more|
+| Remove resource account access to Microsoft 365 assets post meeting and collaboration | To increase security, we recommend you remove resource accounts access that are used by Teams Rooms and devices to access Microsoft 365 assets used for meeting and collaboration. <br/><br/> For more information, see .|
+|Only allow endpoint managed, compliant devices to sign in     |To increase security, we recommend that only compliant, organization-managed Teams Room devices can sign in to Microsoft 365 applications and that resource accounts can't be misused to authenticate from unmanaged devices.   <br/><br/> For more information, see .|
+|Remove multifactor authentication (MFA) requirement |   <br/><br/> For more information, see .|
+|Block resource account sign in to Microsoft 365 clients     |To increase security, resource accounts used for Teams devices must be blocked from being used to sign in or used by Microsoft 365 clients.   <br/><br/> For more information, see .|
