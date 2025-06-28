@@ -19,6 +19,8 @@ ai-usage: ai-assisted
 
 As administrator you can restrict Teams Rooms resource account authentication with conditional access policies to ensure the account can only authenticate on a managed Teams Rooms on Windows device. This ensures that the resource account can't authenticate from any other device.
 
+## Before you begin
+
 To configure these settings, your organization must have one of the following subscriptions or add-ons:
 
 - Azure AD Premium P1/P2 (for dynamic groups & Conditional Access)
