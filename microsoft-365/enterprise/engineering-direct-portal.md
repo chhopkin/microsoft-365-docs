@@ -422,9 +422,8 @@ This page contains:
     - **Rejected** – These items were not accepted.
 6.  **Request Closed Date** – Date the case was completed.
 7.  **Product** – Product that the request was opened for.
- 
-![Engineering Direct Portal DCR Overview](..\media\eng-direct-portal\eng-direct-portal-dcr-overview.png)
 
+![Engineering Direct Portal DCR Overview](..\media\eng-direct-portal\eng-direct-portal-dcr-overview.png)
 
 ## More information
 
