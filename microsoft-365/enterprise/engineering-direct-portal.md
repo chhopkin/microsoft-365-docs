@@ -42,7 +42,7 @@ The Engineering Direct Portal is located under **Support** within the Microsoft 
 1. Select **Support**.
 1. Select **Engineering Direct** to enter the portal.
 
-![Accessing the engineering direct portal](../media/eng-direct-portal/eng-direct-portal-launch.png)
+   ![Accessing the engineering direct portal](../media/eng-direct-portal/eng-direct-portal-launch.png)
 
 ## Overview Page
 
@@ -56,7 +56,7 @@ Once in the portal, you'll see the **Overview** page. This page contains several
 - **Insights: Escalation Trend Per Week by Status**: A monthly view of escalations by open and closed for the last six months. This is a focused view of all reactive issues, filtered by all issues that have a Microsoft engineering element.
 - **Request A Feature**: Allows you to submit feedback or a request to the Engineering Direct Portal team. Feedback can be both related to the portal itself and its functionality, and any broader engineering features you would like to see in Engineering Direct. Feature requests submitted via this method are visible to users in your private **MyFeedback** section of the feedback portal.
 
-![Engineering direct portal overview page](../media/eng-direct-portal/eng-direct-portal-overview.png)
+  ![Engineering direct portal overview page](../media/eng-direct-portal/eng-direct-portal-overview.png)
 
 ## Insights Page
 
@@ -79,7 +79,7 @@ The **Insights** page provides detailed metrics, visuals, and lists on both your
     - **Escalate to Engineering – true or false** - represents whether the customer raised the issue directly to engineering
     - **Product** – service product
 
-![Engineering direct portal insights page](../media/eng-direct-portal/eng-direct-portal-insights.png)
+   ![Engineering direct portal insights page](../media/eng-direct-portal/eng-direct-portal-insights.png)
 
 ## Diagnostics Page
 
@@ -170,12 +170,12 @@ This diagnostic tool is particularly useful in the following scenarios:
 
   Navigate to Microsoft Admin Center: 
 
-    - Sign in to the Microsoft Admin Center. 
-    - Go to the Diagnostics section. 
+    1. Sign in to the Microsoft Admin Center. 
+    1. Go to the Diagnostics section. 
 
   Select Validate DKIM Signing Configuration: 
 
-    - Choose the Validate DKIM Signing Configuration tool from the list of available diagnostics. 
+    1. Choose the Validate DKIM Signing Configuration tool from the list of available diagnostics. 
 
 - **Step 2: Input Required Information**
 
@@ -278,13 +278,13 @@ This diagnostic is split into multiple sections that detail steps to remediate t
 
 1. Force Sign Out - First, it is important to force a user to sign out of all sessions:
 
-    - Go to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/homepage).
+    1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/homepage).
 
-    - Navigate to _Users > Active users_.
+    1. Navigate to _Users > Active users_.
 
-    - Click on the desired user.
+    1. Click on the desired user.
 
-    - On the Account Tab, under _Sign-out_, select _Sign out of all sessions_.
+    1. On the Account Tab, under _Sign-out_, select _Sign out of all sessions_.
 
 2. Reset Password - [Reset the password.](/microsoft-365/admin/add-users/reset-passwords) Don't send the new password to the user through email, because the attacker may still have access to the mailbox. Be sure to use a strong and unique password: upper and lowercase letters, at least one number, and at least one special character.
 
