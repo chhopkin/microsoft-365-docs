@@ -59,22 +59,27 @@ Automatically group all tagged resource accounts for policy assignment. Create a
 3. Under **Membership type**, choose **Dynamic User** and add a rule: (user.extensionAttribute2 -eq "-3").
 4. Review and create the group.
 
+### Setup security group for access package
+
+1. Create Entra security group for Entra join called **MTR_DeviceSetup**.
+1. Create Entra security group for Entra join called **MTR_DeviceFull**.
+
 ## Step 3: Configure Access Packages for Device Enrollment
 
 Allow resource accounts to complete Entra join of Teams devices in a controlled, limited-time window.
 
-1. In **Microsoft Entra ID** \> **Identity Governance** \> **Access packages**, create two packages:
+1. Go to **Microsoft Entra ID** \> **Identity Governance** \> **Access packages** and create two packages:
 
-2. - MTR Device Setup (one-time, limited duration)
-    - MTR Device Full (persistent membership for deployed devices)
+- MTR Device Setup (one-time, limited duration)
+- MTR Device Full (persistent membership for deployed devices)
 
-3. For MTR Device Setup:
+2. For MTR Device Setup:
 
-4. - Resource roles: Assign the MTR_DeviceSetup group
-    - Requests: Require two-step approval (local IT manager + global admin)
-    - Duration: Configure a short access window (e.g., 1 day) for Entra join. Under **Lifecycle** -\> **Expiration** set the Access package assignments expire = "Number of days" and set number of days = 1.
-    - Users who can request access: "For users in your directory" and select "Specific users and groups".
-    - Select users and groups: set to "MTR_Resource_Accounts" dynamic group
+- Resource roles: Assign the MTR_DeviceSetup group
+- Requests: Require two-step approval (local IT manager + global admin)
+- Duration: Configure a short access window (1 day) for Entra join. Under **Lifecycle** -\> **Expiration** set the Access package assignments expire = "Number of days" and set number of days = 1.
+- On Users who can request access: "For users in your directory" and select "Specific users and groups".
+- Select users and groups: set to "MTR_Resource_Accounts" dynamic group
 
 5. For MTR Device Full:
 
