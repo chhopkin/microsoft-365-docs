@@ -14,7 +14,7 @@ audience: Admin
 ai-usage: ai-assisted  
 ---
 
-# Open ancient legacy formats in Protected View and disallow editing
+# Open legacy formats in Protected View and disallow editing
 
 Many legacy file formats in Microsoft 365 apps, such as older Word, Excel, and PowerPoint files, are prone to memory corruption vulnerabilities. By opening legacy formats in **Protected View**, you can minimize the risk of malicious code execution, while still allowing users to edit their content safely.
 
@@ -37,7 +37,7 @@ The following old legacy file formats will open in Protected View:
 - Excel 95 Workbooks
 - Legacy Converters for Excel
 
-If you have turned this setting but need to revert to the default behaviors by not opening files in Protected View and allowing files to be saved in these formats, or need to allow trusted files to bypass Protected View, you can modify this setting by changing the Group Policy settings that support this setting. These changes can be made in the Group Policy Editor.
+If you have turned this setting on but need to revert to the default behaviors by not opening files in Protected View and allowing files to be saved in these formats, or need to allow trusted files to bypass Protected View, you can modify this setting by changing the Group Policy settings that support this setting. These changes can be made in the Group Policy Editor.
 
 ## Modifying Group Policy settings
 
