@@ -37,20 +37,18 @@ The following old legacy file formats will open in Protected View:
 - Excel 95 Workbooks
 - Legacy Converters for Excel
 
-If you have turned this setting but need to revert to the default behaviors by not opening files in Protected View and allowing files to be saved in these formats, or need to allow trusted files to bypass Protected View, you can modify this setting by changing the Group Policy settings that support this setting. These changes can be made in the Group Policy Editor, by registry key, or by using the [Office cloud policy service](https://config.office.com/).
+If you have turned this setting but need to revert to the default behaviors by not opening files in Protected View and allowing files to be saved in these formats, or need to allow trusted files to bypass Protected View, you can modify this setting by changing the Group Policy settings that support this setting. These changes can be made in the Group Policy Editor.
 
-## Group Policy settings
+## Modifying Group Policy settings
 
-The Group Policy setting **File Block includes trusted files** can be found in the following paths and registry keys:
+The Group Policy setting **File Block includes trusted files** can be found in the following path:
 
 - **Group Policy path**: `User Configuration > Administrative Templates > Microsoft {App} 2016 > {App} Options > Security > Trust Center`
-- **Registry key path**: `Computer\HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\16.0\App\Security`
 
 To revert to the default behavior, set this policy as not configured for each app (Word, Excel, PowerPoint, and Visio).
 
-The Group Policy setting **Set default file block behavior** controls opening certain file formats in Protected View and disallowing saving. It can be found in the following paths and registry keys:
+The Group Policy setting **Set default file block behavior** controls opening certain file formats in Protected View and disallowing saving. It can be found in the following path:
 
 - **Group Policy path**: `User Configuration > Administrative Templates > Microsoft {App} 2016 > {App} Options > Security > Trust Center`
-- **Registry key path**: `Computer\HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\16.0\App\Security`
 
 To revert to the default behavior, set these policies as not configured.

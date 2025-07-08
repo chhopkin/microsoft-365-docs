@@ -29,20 +29,18 @@ If you have enabled this setting but need to revert to the default behavior (all
 1. Go to the admin center and select Org settings.
 1. Select Restricted mode and find the Block Dynamic Data Exchange setting and switch the toggle to **Off**.
 
-## Use Group Policy settings, registry keys or Office cloud policy service
+## Use Group Policy settings or Office cloud policy service
 
-Alternatively, you can make changes to the Group Policy setting that supports this setting. These changes can be made in the Group Policy Editor, by registry key, or by using the [Office cloud policy service](https://config.office.com/).
+Alternatively, you can make changes to the Group Policy setting that supports this setting. These changes can be made in the Group Policy Editor or by using the [Office cloud policy service](https://config.office.com/).
 
-The Group Policy setting **Allow Basic Authentication prompts from network proxies** can be found in the following path and registry key:
+The Group Policy setting **Allow Basic Authentication prompts from network proxies** can be found in the following path:
 
 - **Group Policy path:** `User Configuration > Policies > Administrative Templates > Microsoft Office 2016 > Security settings`
-- **Registry key path**: `HKCU\Software\Policies\Microsoft\Office\16.0\Common\Identity > BasicAuthProxyBehavior`
 
 This policy setting controls whether network proxies are allowed to show basic authentication prompts. To revert to the default behavior, set this policy as not configured.
 
-The Group Policy setting **Allow specified hosts to show basic authentication prompts to Office apps** can be found in the following path and registry key:
+The Group Policy setting **Allow specified hosts to show basic authentication prompts to Office apps** can be found in the following path:
 
 - **Group Policy path**:  `User Configuration > Administrative Templates > Microsoft Office 2016 > Security Settings`
-- **Registry key path**: `HKCU\Software\Policies\Microsoft\Office\16.0\Common\identity > BasicHostAllowList`
 
 This policy setting controls whether specific hosts can show Basic authentication sign-in prompts. To revert to the default behavior, set this policy as not configured.

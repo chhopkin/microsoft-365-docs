@@ -33,20 +33,16 @@ When the Restricted Mode setting is enabled, legacy file formats will open in **
 
 ## Modifying Group Policy settings
 
-If you have enabled this setting but need to revert to the default behavior of allowing trusted files to bypass Protected View, or allow users to override the editing block using Trust Center, you can modify this setting by making changes to the Group Policy settings that support this setting. These changes can be made in the Group Policy Editor, by registry key, or by using the [Office cloud policy service](https://config.office.com/).
+If you have enabled this setting but need to revert to the default behavior of allowing trusted files to bypass Protected View, or allow users to override the editing block using Trust Center, you can modify this setting by making changes to the Group Policy settings that support this setting. These changes can be made in the Group Policy Editor or by using the [Office cloud policy service](https://config.office.com/).
 
-The Group Policy settings for opening a given file format in Protected View and disallowing editing can be found in the following paths and registry keys:
+The Group Policy settings for opening a given file format in Protected View and disallowing editing can be found in the following path:
 
 - Group Policy path: `User Configuration > Administrative Templates > Microsoft {App} 2016 > {App} Options > Security > Trust Center > File Block Settings`
-- Registry key path: `HKCU\Software\Microsoft\Office\{Version}\{App}\Security\Fileblock > IncludeTrustedFiles`
-
-To revert to the default behavior, set these policies as not configured.
 
 To revert to the default behavior, set this policy as not configured for each app (Word, Excel, PowerPoint, and Visio).
 
-The Group Policy settings for opening a given file format in Protected View and disallowing editing can be found in the following paths and registry keys:
+The Group Policy settings for opening a given file format in Protected View and disallowing editing can be found in the following path:
 
 - Group policy path: `User Configuration > Administrative Templates > Microsoft {App} 2016 > {App} Options > Security > Trust Center`
-- Registry key path: `Computer\HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\16.0\App\Security`
 
 To revert to the default behavior, set these policies as not configured.

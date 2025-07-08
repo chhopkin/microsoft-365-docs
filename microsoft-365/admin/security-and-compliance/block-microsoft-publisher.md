@@ -27,13 +27,12 @@ If you have enabled this setting but need to revert to the default behavior, you
 1. Go to the admin center and select Org settings.
 1. Select Restricted mode and find the Block Dynamic Data Exchange setting and switch the toggle to **Off**.
 
-## Use Group Policy settings, registry keys or Office cloud policy service
+## Use Group Policy settings or Office cloud policy service
 
-Alternatively, you can make changes to the Group Policy setting that supports this setting. These changes can be made in the Group Policy Editor, by registry key, or by using the [Office cloud policy service](https://config.office.com/).
+Alternatively, you can make changes to the Group Policy setting that supports this setting. These changes can be made in the Group Policy Editor or by using the [Office cloud policy service](https://config.office.com/).
 
-The Group Policy setting **Disable Publisher** can be found in the following path and registry key:
+The Group Policy setting **Disable Publisher** can be found in the following path:
 
 - Group Policy path: `User Configuration > Administrative Templates > Microsoft Publisher 2016`
-- Registry key path: `HKCU\Software\Policies\Microsoft\Office\16.0\publisher > disablelaunch`
 
 To revert to the default behavior, set this policy as not configured.
