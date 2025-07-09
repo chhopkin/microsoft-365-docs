@@ -18,9 +18,9 @@ ai-usage: ai-assisted
 
 Many legacy file formats in Microsoft 365 apps, such as older Word, Excel, and PowerPoint files, are prone to memory corruption vulnerabilities. By opening legacy formats in **Protected View**, you can minimize the risk of malicious code execution, while still allowing users to edit their content safely.
 
-When this setting is turned on, old legacy file formats will open in Protected View, even if saved in a trusted location. Users can choose to edit the files and save them to a modern file format, but they will be blocked from saving in old legacy formats.
+When this setting is turned on, legacy file formats will open in Protected View, even if saved in a trusted location. Users can choose to edit the files and save them to a modern file format, but they will be blocked from saving in old legacy formats.
 
-The following old legacy file formats will open in Protected View:
+The following legacy file formats will open in Protected View:
 
 - Word 2007 and later Binary Documents and Templates
 - Word 2003 Binary Documents and Templates
