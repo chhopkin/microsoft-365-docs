@@ -30,7 +30,7 @@ With the addition of Restricted mode in the Microsoft 365 admin center, you can 
 
 Now that these settings are available in the admin center, your organization can carefully evaluate each of the Restricted mode settings before deployment.
 
-This article gives you more information about the Restricted mode settings that you turn on and links to content that helps you understand what the setting does and why we recommend that you turn on the setting.
+This article gives you information about the Restricted mode settings that you can turn on. It also has links to content that helps you understand what the setting does and why we recommend you turn on the setting.
 
 ## Before you begin
 
