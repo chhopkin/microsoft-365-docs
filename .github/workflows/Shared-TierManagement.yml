@@ -42,7 +42,10 @@ jobs:
             
             $AccessToken = $env:AccessToken
             $EnableWriteSignOff = [bool][int]$env:EnableWriteSignOff
-            $EnableReadOnlySignoff = [bool][int]$env:EnableReadOnlySignoff
+
+            # Disabling read-only sign off globally. Switch to TCP doesn't include a read-only sign off and all changes must go through DRI.
+            # $EnableReadOnlySignoff = [bool][int]$env:EnableReadOnlySignoff
+            $EnableReadOnlySignoff = $False
 
             $DefaultBranch = $GitHubData.event.repository.default_branch
             $GitHubState = $GitHubData.event.issue.state
