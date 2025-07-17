@@ -20,7 +20,7 @@ appliesto:
 # Employee Self-Service agent deployment overview
 
 >[!NOTE]
->The Employee Self-Service agent is currently in on-demand preview. Deployment processes are subject to change before this product becomes generally available.
+>The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
 
 There are several steps necessary to deploy the Employee Self-Service (ESS) Agent. Refer to the table for an overview of the deployment process.
 
@@ -80,7 +80,7 @@ You need to work with your organization’s Power Platform administrator to esta
 
 The ESS Agent has three distinct persona experiences:
 
-1. Administrator: Prepare the tenant to deploy, configure, and operate the ESS agent with the correct roles assigned to identified service owners.
+1. Administrator: Prepare the tenant to deploy, configure, and operate the ESS agent with the correct roles assigned to identified administrators.
 
 2. Environment maker: Install, configure, and publish the agent, including third-party ISV packages.
 

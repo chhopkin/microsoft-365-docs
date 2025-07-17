@@ -20,13 +20,13 @@ appliesto:
 # Publish the Employee Self-Service agent to your organization
 
 >[!NOTE]
->The Employee Self-Service agent is currently in on-demand preview. Deployment processes are subject to change before this product becomes generally available.
+>The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
 
 Publishing the Employee Self-Service (ESS) agent makes it available to your users. Currently, the ESS agent supports publishing to Copilot Business Chat.
 
 |Role |Activities to perform |Configuration area |
 |-----|----------------------|-------------------|
-|Environment Maker/ Service owner of the ESS agent |- Deploy customization solution to target environment</br> - Set up authentication</br> - Publish ESS agent |Microsoft Copilot Studio |
+|Environment Maker/ Owner of the ESS agent |- Deploy customization solution to target environment</br> - Set up authentication</br> - Publish ESS agent |Microsoft Copilot Studio |
 |Administrator |- Approve the ESS publish request</br> - Deploy it to selected users |Microsoft admin center |
 |Business stakeholders/ champions |Identify test users |N/A |
 
