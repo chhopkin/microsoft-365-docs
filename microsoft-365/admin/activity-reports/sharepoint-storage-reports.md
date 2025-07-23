@@ -29,9 +29,6 @@ description: "Learn how to access and interpret the SharePoint storage report."
 
 # Microsoft 365 Reports in the admin center – SharePoint storage
 
-> [!NOTE]
-> This feature is rolling out and will be available to all non-Education tenants by end of May 2025.
-
 The SharePoint storage report provides an overview of your tenant’s storage usage. It also offers suggestions for storage optimization and future proofing your organization’s file growth capacity.
 
 > [!NOTE]
@@ -71,6 +68,9 @@ Review the total storage used by your tenant, total storage quota, and available
 ### Usage trend
 
 Understand your tenant’s storage growth trend and use the estimated future storage usage based on past usage to make informed decisions on when to buy more storage or whether to clean up usage.
+
+> [!NOTE]
+> The historical trend represents usage across all sites and may slightly differ from the storage bar, which indicates tenant-level quota consumption.
 
 ### Featured resources
 
