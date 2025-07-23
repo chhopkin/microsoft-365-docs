@@ -150,7 +150,7 @@ conceptualContent:
             - url: solutions/data-privacy-protection.md
               itemType: how-to-guide
               text: Manage data privacy and data protection
-            - url: /m365b-security/m365b-security-overview
+            - url: /microsoft-365/admin/security-and-compliance/m365b-security-overview
               itemType: how-to-guide
               text: Microsoft 365 security for smaller businesses and campaigns
             - url: solutions/productivity-illustrations.md

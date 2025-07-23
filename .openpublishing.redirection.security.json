@@ -3782,7 +3782,7 @@
      },
      {
        "source_path": "microsoft-365/security-and-compliance/index.md",
-       "redirect_url": "/m365b-security/m365b-security-best-practices",
+       "redirect_url": "/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
        "redirect_document_id": false
      },
      {

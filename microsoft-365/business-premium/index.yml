@@ -54,12 +54,9 @@ conceptualContent:
   # Card
     - title: What is Microsoft 365 Business Premium?
       links:
-        - url: /m365b-security/m365bp-security-benefits
+        - url: /microsoft-365/admin/security-and-compliance/m365bp-security-benefits
           itemType: overview
           text: Microsoft 365 Business Premium security overview
-        - url: /m365b-security/m365bp-security-benefits
-          itemType: overview
-          text: Why you should consider Microsoft 365 Business Premium
         - url: /office365/servicedescriptions/office-365-service-descriptions-technet-library
           text: Microsoft 365 service descriptions
           itemType: reference
@@ -72,22 +69,22 @@ conceptualContent:
   # Card
     - title: Set up Microsoft 365 Business Premium
       links:
-        - url: ../business-premium/m365bp-setup.md
+        - url: ../business-premium/m365-business-premium-setup.md
           itemType: how-to-guide
           text: 1. Sign in and set up
-        - url: /m365b-security/m365bp-security-benefits
+        - url: /microsoft-365/admin/security-and-compliance/m365b-security-overview
           itemType: overview
           text: 2. Configure your security protection
-        - url: /m365b-security/m365bp-devices-enrollment#mobile-app-management-in-intune-for-data-protection
+        - url: /microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment#mobile-app-management-in-intune-for-data-protection
           itemType: overview
-          text: 3. Protect unmanaged (personally owned) devices
-        - url: /m365b-security/m365bp-devices-enrollment#mobile-app-management-in-intune-for-data-protection
+          text: 3. Protect personally owned devices
+        - url: /microsoft-365/admin/security-and-compliance/m365b-users-phishing-spam-malware
           itemType: overview
           text: 4. Use email more securely
         - url: ../business-premium/m365bp-collaborate-share-securely.md
           itemType: overview
           text: 5. Collaborate and share more securely
-        - url: /m365b-security/m365bp-devices-enrollment
+        - url: /microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment
           itemType: how-to-guide
           text: 6. Set up and secure managed devices
         - url: ../business-premium/m365bp-maintain-environment.md
@@ -133,19 +130,19 @@ conceptualContent:
         - url: ../security/defender-business/index.yml
           itemType: overview
           text: Get started with Microsoft Defender for Business
-        - url: /m365b-security/m365bp-devices-enrollment#mobile-app-management-in-intune-for-data-protection
+        - url: /microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment#mobile-app-management-in-intune-for-data-protection
           itemType: overview
-          text: Set up unmanaged (personally owned) devices
+          text: Set up personally owned devices
         - url: https://support.microsoft.com/office/ace1d096-61e5-449b-a875-58eb3d74de14
           itemType: how-to-guide
           text: Set up multifactor authentication on devices
         - url: ../business-premium/m365bp-users-install-m365-apps.md
           itemType: how-to-guide
           text: Install Microsoft 365 apps on all devices
-        - url: /m365b-security/m365bp-devices-enrollment#more-options-for-mam
+        - url: /microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment#more-options-for-mam
           itemType: how-to-guide
           text: Protect unmanaged Windows PCs and Macs
-        - url: /m365b-security/m365bp-devices-enrollment
+        - url: /microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment
           itemType: overview
           text: Set up and secure managed devices
         - url: /defender-business/mdb-manage-devices
@@ -158,13 +155,13 @@ conceptualContent:
         - url: /defender-office-365/
           itemType: overview
           text: Email and collaboration security
-        - url: /m365b-security/m365b-email-collaboration-security
+        - url: /microsoft-365/admin/security-and-compliance/m365b-email-collaboration-security
           itemType: how-to-guide
           text: Protect against phishing, malware, and other threats
-        - url: /m365b-security/m365b-users-phishing-spam-malware
+        - url: /microsoft-365/admin/security-and-compliance/m365b-users-phishing-spam-malware
           itemType: how-to-guide
           text: Know what to watch for in email content
-        - url: /m365b-security/m365bp-information-protection
+        - url: /microsoft-365/admin/security-and-compliance/m365bp-information-protection
           itemType: how-to-guide
           text: Encrypt or label sensitive email
         - url: ../business-premium/create-teams-for-collaboration.md
@@ -195,10 +192,10 @@ conceptualContent:
   # Card
     - title: How do I...
       links:
-        - url: /m365b-security/m365b-whats-new
+        - url: /microsoft-365/admin/security-and-compliance/m365b-whats-new
           itemType: overview
-          text: See what's new in Microsoft 365 Business Premium and Defender for Business
-        - url: /m365b-security/m365b-security-best-practices
+          text: See what's new in Microsoft 365 Business Premium
+        - url: /microsoft-365/admin/security-and-compliance/m365b-security-best-practices
           itemType: how-to-guide
           text: See top 10 ways to secure my business
         - url: ../business-premium/m365bp-trial-playbook-microsoft-business-premium.md

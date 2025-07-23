@@ -469,19 +469,43 @@ items:
         - name: Set up multi-factor authentication
           href: security-and-compliance/set-up-multi-factor-authentication.md
         - name: Manage and monitor priority accounts
-          href: setup/priority-accounts.md
+          href: security-and-compliance/priority-accounts.md
         - name: Increase threat protection for Microsoft 365 for business
           href: security-and-compliance/increase-threat-protection.md
         - name: Turn on Idle session timeout
           href: manage/idle-session-timeout-web-apps.md
         - name: A guide to GDPR compliance
           href: security-and-compliance/gdpr-compliance.md
-    - name: Manage devices and app data
-      items:
-        - name: Basic Mobility and Security Overview
-          href: /m365-b-security/m365b-devices-basic-mobility-security-overview?toc=/microsoft-365/admin/manage-devices-and-app-data/toc.json&bc=/microsoft-365/admin/manage-devices-and-app-data/breadcrumb/toc.json
-        - name: Manage user consent to apps
-          href: misc/user-consent.md
+
+        - name: Overview
+          items:
+        - name: Device security
+          items:
+          - name: Basic Mobility and Security
+            items:
+            - name: Overview of Basic Mobility and Security
+              href: security-and-compliance/m365b-devices-basic-mobility-security-overview.md
+            - name: Set up Basic Mobility and Security
+              href: security-and-compliance/m365b-devices-basic-mobility-security-set-up.md
+            - name: Configure policies in Basic Mobility and Security
+              href: security-and-compliance/m365b-devices-basic-mobility-security-policies-configure.md
+            - name: Enroll devices in Basic Mobility and Security
+              href: security-and-compliance/m365b-devices-basic-mobility-security-enroll-devices.md
+            - name: View device details in Basic Mobility and Security
+              href: security-and-compliance/m365b-devices-basic-mobility-security-view-device-details.md
+            - name: Wipe devices in Basic Mobility and Security
+              href: security-and-compliance/m365b-devices-basic-mobility-security-wipe-devices.md
+            - name: Turn off Basic Mobility and Security enforcement
+              href: security-and-compliance/m365b-devices-basic-mobility-security-turn-off.md
+          - name: Use Windows Autopilot to set up or reset devices
+            href: /autopilot/overview?toc=/microsoft-365/admin/security-and-compliance/toc.json&bc=/microsoft-365/admin/security-and-compliance/breadcrumb/toc.json
+          - name: Manage Microsoft 365 installation options for devices
+            href: /DeployOffice/manage-software-download-settings-office-365?toc=/microsoft-365/admin/security-and-compliance/toc.json&bc=/microsoft-365/admin/security-and-compliance/breadcrumb/toc.json
+          - name: Manage user consent to apps
+            href: misc/user-consent.md
+          - name: Business Premium
+            items:
+
     - name: Switch from Google Workspace to M365
       items:
         - name: Overview

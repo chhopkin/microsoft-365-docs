@@ -39,7 +39,7 @@ landingContent:
           - text: Manage data privacy and data protection
             url: data-privacy-protection.md
           - text: Security in Microsoft 365 for smaller businesses and campaigns
-            url: /m365b-security/m365bp-security-benefits
+            url: /microsoft-365/admin/security-and-compliance/m365bp-security-benefits
 
   # Card
   - title: Architecture illustrations and design principles

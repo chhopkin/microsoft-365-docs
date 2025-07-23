@@ -307,7 +307,7 @@
     },
     {
       "source_path":"microsoft-365/business/security-features.md",
-      "redirect_url":"/m365b-security/m365b-security-best-practices",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
       "redirect_document_id": false
     },
     {
@@ -337,7 +337,7 @@
     },
     {
       "source_path":"microsoft-365/business/set-up-compliance.md",
-      "redirect_url":"/m365b-security/m365bp-information-protection",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-information-protection",
       "redirect_document_id": false
     },
     {
@@ -352,7 +352,7 @@
     },
     {
       "source_path":"microsoft-365/business/increase-threat-protection.md",
-      "redirect_url":"/m365b-security/m365bp-security-benefits",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-security-benefits",
       "redirect_document_id": false
     },
     {
@@ -402,7 +402,7 @@
     },
     {
       "source_path":"microsoft-365/business/view-policies-and-devices.md",
-      "redirect_url":"/m365b-security/m365bp-devices-protection",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-devices-protection",
       "redirect_document_id": false
     },
     {
@@ -437,7 +437,7 @@
     },
     {
       "source_path":"microsoft-365/business/set-up.md",
-      "redirect_url":"/microsoft-365/business-premium/m365bp-setup",
+      "redirect_url":"/microsoft-365/business-premium/m365-business-premium-setup",
       "redirect_document_id": true
     },
     {
@@ -512,22 +512,22 @@
     },
     {
       "source_path":"microsoft-365/business-video/anti-malware.md",
-      "redirect_url":"/m365b-security/m365bp-security-benefits",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-security-benefits",
       "redirect_document_id": false
     },
     {
       "source_path":"microsoft-365/business-video/prevent-ransom-in-email.md",
-      "redirect_url":"/m365b-security/m365bp-security-benefits",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-security-benefits",
       "redirect_document_id": false
     },
     {
       "source_path":"microsoft-365/business-video/safe-links.md",
-      "redirect_url":"/m365b-security/m365bp-security-benefits",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-security-benefits",
       "redirect_document_id": false
     },
     {
       "source_path":"microsoft-365/business-video/setup-anti-phishing.md",
-      "redirect_url":"/m365b-security/m365bp-security-benefits",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-security-benefits",
       "redirect_document_id": false
     },
     {
@@ -547,7 +547,7 @@
     },
     {
       "source_path":"microsoft-365/business-video/set-up.md",
-      "redirect_url":"/microsoft-365/business-premium/m365bp-setup",
+      "redirect_url":"/microsoft-365/business-premium/m365-business-premium-setup",
       "redirect_document_id": false
     },
     {
@@ -602,7 +602,7 @@
     },
     {
       "source_path":"microsoft-365/business-video/overview-m365-security.md",
-      "redirect_url":"/m365b-security/m365b-security-best-practices",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
       "redirect_document_id": false
     },
     {
@@ -667,12 +667,12 @@
     },
     {
       "source_path":"microsoft-365/business-video/set-up-dlp.md",
-      "redirect_url":"/m365b-security/m365bp-information-protection",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-information-protection",
       "redirect_document_id": false
     },
     {
       "source_path":"microsoft-365/business-video/create-sensitivity-labels.md",
-      "redirect_url":"/m365b-security/m365bp-information-protection",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-information-protection",
       "redirect_document_id": false
     },
     {
@@ -737,7 +737,7 @@
     },
     {
       "source_path":"microsoft-365/business-premium/m365-campaigns-security-overview.md",
-      "redirect_url":"/m365b-security/m365bp-security-benefits",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-security-benefits",
       "redirect_document_id": false
     },
     {
@@ -837,22 +837,22 @@
     },
     {
       "source_path":"microsoft-365/business-premium/m365bp-secure-users.md",
-      "redirect_url":"/m365b-security/m365bp-security-benefits",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-security-benefits",
       "redirect_document_id": false
     },
     {
       "source_path":"microsoft-365/business-premium/m365bp-conditional-access.md",
-      "redirect_url":"/m365b-security/m365b-account-security",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365b-account-security",
       "redirect_document_id": false
     },
     {
       "source_path":"microsoft-365/business-premium/m365bp-increase-protection.md",
-      "redirect_url":"/m365b-security/m365b-email-collaboration-security",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365b-email-collaboration-security",
       "redirect_document_id": false
     },
     {
       "source_path":"microsoft-365/business-premium/m365bp-devices-overview.md",
-      "redirect_url":"/m365b-security/m365bp-devices-enrollment",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment",
       "redirect_document_id": false
     },
     {
@@ -867,22 +867,22 @@
     },
     {
       "source_path":"microsoft-365/business-premium/m365bp-protect-pcs-macs.md",
-      "redirect_url":"/m365b-security/m365bp-devices-enrollment#more-options-for-mam",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment#more-options-for-mam",
       "redirect_document_id": false
     },
     {
       "source_path":"microsoft-365/business-premium/m365bp-protect-email-overview.md",
-      "redirect_url":"/m365b-security/m365b-users-phishing-spam-malware",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365b-users-phishing-spam-malware",
       "redirect_document_id": false
     },
     {
       "source_path":"microsoft-365/business-premium/send-encrypted-email.md",
-      "redirect_url":"/m365b-security/m365bp-information-protection",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-information-protection",
       "redirect_document_id": false
     },
     {
       "source_path":"microsoft-365/business-premium/m365bp-protect-devices.md",
-      "redirect_url":"/m365b-security/m365bp-devices-enrollment",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment",
       "redirect_document_id": false
     },
     {
@@ -932,7 +932,7 @@
     },
     {
       "source_path": "microsoft-365/business/manage-protected-devices.md",
-      "redirect_url": "/m365b-security/m365bp-devices-enrollment",
+      "redirect_url": "/microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment",
       "redirect_document_id": false
     },
     {
@@ -947,17 +947,17 @@
     },
     {
       "source_path":"microsoft-365/business-premium/m365bp-add-m365e5s.md",
-      "redirect_url":"/m365b-security/m365bp-add-m365e5s",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-add-m365e5s",
       "redirect_document_id": false
     },
     {
       "source_path":"microsoft-365/business-premium/m365bp-avoid-phishing-and-attacks.md",
-      "redirect_url":"/m365b-security/m365b-users-phishing-spam-malware",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365b-users-phishing-spam-malware",
       "redirect_document_id": false
     },
     {
       "source_path":"microsoft-365/business-premium/m365bp-device-groups-mdb.md",
-      "redirect_url":"/m365b-security//m365b-security/m365bp-devices-groups-categories",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-devices-groups-categories",
       "redirect_document_id": false
     },
     {
@@ -972,12 +972,12 @@
     },
     {
       "source_path":"microsoft-365/business-premium/m365bp-managed-unmanaged-devices.md",
-      "redirect_url":"/m365b-security/m365bp-devices-enrollment",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment",
       "redirect_document_id": false
     },
     {
       "source_path":"microsoft-365/business-premium/m365bp-mdb-whats-new.md",
-      "redirect_url":"/m365b-security/m365b-whats-new",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365b-whats-new",
       "redirect_document_id": false
     },
     {
@@ -992,22 +992,22 @@
     },
     {
       "source_path":"microsoft-365/business-premium/m365bp-overview.md",
-      "redirect_url":"/m365b-security/m365bp-security-benefits",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-security-benefits",
       "redirect_document_id": false
     },
     {
       "source_path":"microsoft-365/business-premium/m365bp-protect-admin-accounts.md",
-      "redirect_url":"/m365b-security/m365b-account-security-admins",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365b-account-security-admins",
       "redirect_document_id": false
     },
     {
       "source_path":"microsoft-365/m365bp-protect-against-malware-cyberthreats.md",
-      "redirect_url":"/m365b-security/m365b-email-collaboration-security",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365b-email-collaboration-security",
       "redirect_document_id": false
     },
     {
       "source_path":"microsoft-365/m365bp-protect-managed-devices.md",
-      "redirect_url":"/m365b-security/m365bp-devices-enrollment",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment",
       "redirect_document_id": false
     },
     {
@@ -1022,7 +1022,7 @@
     },
     {
       "source_path":"m365bp-secure-copilot.md",
-      "redirect_url":"/m365b-security/m365b-copilot-security",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365b-copilot-security",
       "redirect_document_id": false
     },
     {
@@ -1032,17 +1032,17 @@
     },
     {
       "source_path":"m365bp-security-overview.md",
-      "redirect_url":"/m365b-security/m365b-security-overview",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365b-security-overview",
       "redirect_document_id": false
     },
     {
       "source_path":"m365bp-set-up-compliance.md",
-      "redirect_url":"/m365b-security/m365bp-information-protection",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-information-protection",
       "redirect_document_id": false
     },
     {
       "source_path":"m365bp-set-up-unmanaged-devices.md",
-      "redirect_url":"/m365b-security/m365bp-devices-enrollment#mobile-app-management-in-intune-for-data-protection",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment#mobile-app-management-in-intune-for-data-protection",
       "redirect_document_id": false
     },
     {
@@ -1052,37 +1052,37 @@
     },
     {
       "source_path":"m365bp-turn-on-mfa.md",
-      "redirect_url":"/m365b-security/m365b-account-security",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365b-account-security",
       "redirect_document_id": false
     },
     {
       "source_path":"m365bp-use-email-securely.md",
-      "redirect_url":"/m365b-security/m365b-users-phishing-spam-malware",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365b-users-phishing-spam-malware",
       "redirect_document_id": false
     },
     {
       "source_path":"m365bp-use-labels-encryption.md",
-      "redirect_url":"/m365b-security/m365bp-information-protection",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-information-protection",
       "redirect_document_id": false
     },
     {
       "source_path":"m365bp-users-protect-unmanaged-devices.md",
-      "redirect_url":"/m365b-security/m365bp-devices-enrollment#more-options-for-mam",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment#more-options-for-mam",
       "redirect_document_id": false
     },
     {
       "source_path":"m365bp-view-edit-create-mdb-policies.md",
-      "redirect_url":"/m365b-security/m365bp-devices-protection",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-devices-protection",
       "redirect_document_id": false
     },
     {
       "source_path":"secure-your-business-data.md",
-      "redirect_url":"/m365b-security/m365b-security-best-practices",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
       "redirect_document_id": false
     },
     {
       "source_path":"why-choose-microsoft-365-business-premium.mdd",
-      "redirect_url":"/m365b-security/m365bp-security-benefits",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-security-benefits",
       "redirect_document_id": false
     }
   ]

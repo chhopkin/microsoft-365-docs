@@ -1362,7 +1362,7 @@
      },
      {
        "source_path": "microsoft-365/admin/basic-mobility-security/troubleshoot.md",
-       "redirect_url": "/m365b-security/m365b-devices-basic-mobility-security-overview#basic-mobility-and-security-faq",
+       "redirect_url": "/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-overview#basic-mobility-and-security-faq",
        "redirect_document_id": false
      },
      {
@@ -1372,7 +1372,7 @@
      },
      {
        "source_path": "microsoft-365/admin/basic-mobility-security/get-details-about-managed-devices.md",
-       "redirect_url": "/m365b-security/m365b-devices-basic-mobility-security-view-device-details",
+       "redirect_url": "/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-view-device-details",
        "redirect_document_id": false
      },
      {
@@ -1402,7 +1402,7 @@
      },
      {
        "source_path": "microsoft-365/admin/devices/choose-device-security.md",
-       "redirect_url": "/m365b-security/m365b-devices-basic-mobility-security-overview#comparison-of-basic-mobility-and-security-and-microsoft-intune",
+       "redirect_url": "/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-overview#comparison-of-basic-mobility-and-security-and-microsoft-intune",
        "redirect_document_id": false
      },
      {
@@ -1917,7 +1917,7 @@
      },
      {
        "source_path": "microsoft-365/admin/security-and-compliance/set-up-compliance.md",
-       "redirect_url": "/m365b-security/m365bp-information-protection",
+       "redirect_url": "/microsoft-365/admin/security-and-compliance/m365bp-information-protection",
        "redirect_document_id": false
      },
      {
@@ -1932,7 +1932,7 @@
      },
      {
        "source_path": "microsoft-365/admin/setup/business-set-up.md",
-       "redirect_url": "/microsoft-365/business-premium/m365bp-setup",
+       "redirect_url": "/microsoft-365/business-premium/m365-business-premium-setup",
        "redirect_document_id": false
      },
      {
@@ -2012,7 +2012,7 @@
      },
      {
        "source_path": "microsoft-365/admin/security-and-compliance/secure-your-business-data.md",
-       "redirect_url": "/m365b-security/m365b-security-best-practices",
+       "redirect_url": "/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
        "redirect_document_id": false
      },
      {
@@ -2022,67 +2022,77 @@
      },
      {
        "source_path": "microsoft-365/admin/basic-mobility-security/privacy-and-security.md",
-       "redirect_url": "/m365b-security/m365b-devices-basic-mobility-security-overview",
+       "redirect_url": "/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-overview",
        "redirect_document_id": false
      },
      {
       "source_path": "microsoft-365/admin/basic-mobility-security/capabilities.md",
-      "redirect_url": "/m365b-security/m365b-devices-basic-mobility-security-overview",
+      "redirect_url": "/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-overview",
       "redirect_document_id": false
      },
      {
       "source_path": "microsoft-365/admin/basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md",
-      "redirect_url": "/m365b-security/m365b-devices-basic-mobility-security-overview#comparison-of-basic-mobility-and-security-and-microsoft-intune",
+      "redirect_url": "/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-overview#comparison-of-basic-mobility-and-security-and-microsoft-intune",
       "redirect_document_id": false
      },
      {
       "source_path": "microsoft-365/admin/basic-mobility-security/create-an-apns-certificate-for-ios-devices.md",
-      "redirect_url": "/m365b-security/m365b-devices-basic-mobility-security-set-up#step-3-create-an-apple-push-notification-service-certificate-for-apple-devices",
+      "redirect_url": "/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-set-up#step-3-create-an-apple-push-notification-service-certificate-for-apple-devices",
       "redirect_document_id": false
      },
      {
       "source_path": "microsoft-365/admin/basic-mobility-security/create-device-security-policies.md",
-      "redirect_url": "/m365b-security/m365b-devices-basic-mobility-security-policies-configure",
+      "redirect_url": "/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-policies-configure",
       "redirect_document_id": false
      },
      {
       "source_path": "microsoft-365/admin/basic-mobility-security/enroll-your-mobile-device.md",
-      "redirect_url": "/m365b-security/m365b-devices-basic-mobility-security-enroll-devices",
+      "redirect_url": "/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-enroll-devices",
       "redirect_document_id": false
      },
      {
       "source_path": "microsoft-365/admin/basic-mobility-security/frequently-asked-questions.yml",
-      "redirect_url": "/m365b-security/m365b-devices-basic-mobility-security-overview#basic-mobility-and-security-faq",
+      "redirect_url": "/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-overview#basic-mobility-and-security-faq",
       "redirect_document_id": false
      },
      {
       "source_path": "microsoft-365/admin/basic-mobility-security/manage-device-access-settings.md",
-      "redirect_url": "/m365b-security/m365b-devices-basic-mobility-security-view-device-details",
+      "redirect_url": "/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-view-device-details",
       "redirect_document_id": false
      },
      {
       "source_path": "microsoft-365/admin/basic-mobility-security/manage-enrolled-devices.md",
-      "redirect_url": "/m365b-security/m365b-devices-basic-mobility-security-overview",
+      "redirect_url": "/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-overview",
       "redirect_document_id": false
      },
      {
       "source_path": "microsoft-365/admin/basic-mobility-security/overview.md",
-      "redirect_url": "/m365b-security/m365b-devices-basic-mobility-security-overview",
+      "redirect_url": "/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-overview",
       "redirect_document_id": false
      },
      {
       "source_path": "microsoft-365/admin/basic-mobility-security/set-up.md",
-      "redirect_url": "/m365b-security/m365b-devices-basic-mobility-security-set-up",
+      "redirect_url": "/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-set-up",
       "redirect_document_id": false
      },
      {
       "source_path": "microsoft-365/admin/basic-mobility-security/turn-off.md",
-      "redirect_url": "/m365b-security/m365b-devices-basic-mobility-security-turn-off",
+      "redirect_url": "/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-turn-off",
       "redirect_document_id": false
      },
      {
       "source_path": "microsoft-365/admin/basic-mobility-security/wipe-mobile-device.md",
-      "redirect_url": "/m365b-security/m365b-devices-basic-mobility-security-wipe-devices",
+      "redirect_url": "/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-wipe-devices",
+      "redirect_document_id": false
+     },
+     {
+      "source_path": "microsoft-365/admin/admin-overview/what-is-microsoft-365.md",
+      "redirect_url": "/microsoft-365/admin/security-and-compliance/m365bp-security-benefits",
+      "redirect_document_id": false
+     },
+     {
+      "source_path": "/microsoft-365/admin/setup/priority-accounts.md",
+      "redirect_url": "/microsoft-365/admin/security-and-compliance/priority-accounts",
       "redirect_document_id": false
      },
      {
@@ -2248,11 +2258,6 @@
     {
       "source_path": "microsoft-365/admin/email/remove-license-from-shared-mailbox.md",
       "redirect_url": "/microsoft-365/admin/email/create-a-shared-mailbox",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "microsoft-365/admin/admin-overview/what-is-microsoft-365.md",
-      "redirect_url": "/m365b-security/m365bp-security-benefits",
       "redirect_document_id": false
     },
     {

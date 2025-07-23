@@ -183,4 +183,4 @@ For larger organizations or if you're starting from Skype for Business, on-premi
 
 ## See also
 
-[Secure your business data with Microsoft 365 for business](/m365b-security/m365b-security-best-practices)
+[Microsoft 365 for business security best practices](../security-and-compliance/m365b-security-best-practices.md)

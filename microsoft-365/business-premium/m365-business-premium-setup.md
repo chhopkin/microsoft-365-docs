@@ -68,7 +68,7 @@ Microsoft has a list of solution providers who are authorized to sell offerings,
 
 To complete the basic setup process, you can choose from several options available:
 
-- Start with the guided setup experience for basic setup and configuration, and then proceed to [set up your security protection](/m365b-security/m365bp-security-benefits); or
+- Start with the guided setup experience for basic setup and configuration, and then proceed to [set up your security protection](/microsoft-365/admin/security-and-compliance/m365bp-security-benefits); or
 - Work with a Microsoft partner who can help you get everything set up and configured.
 
 ##  [**Guided setup process**](#tab/Guided)
@@ -96,7 +96,7 @@ Microsoft 365 Business Premium includes a guided setup process, as shown in the 
 8. When you see **Setup is complete**, it means you completed the basic setup process for your subscription. Use the feedback window to tell us how it went, and then visit your [Microsoft 365 admin center](../admin/admin-overview/admin-center-overview.md).
 
 > [!IMPORTANT]
-> Although your basic setup is complete, but you still need to set up and configure your security settings. **Proceed to [set up your security protection](/m365b-security/m365bp-security-benefits)**.
+> Although your basic setup is complete, but you still need to set up and configure your security settings. **Proceed to [set up your security protection](/microsoft-365/admin/security-and-compliance/m365bp-security-benefits)**.
 
 ### Employee quick setup guide
 
@@ -125,4 +125,4 @@ If you'd prefer to have a Microsoft partner help you get and set up Microsoft 36
 
 ## Next step
 
-Proceed to [Configure your security protection](/m365b-security/m365bp-security-benefits).
+Proceed to [Configure your security protection](/microsoft-365/admin/security-and-compliance/m365bp-security-benefits).

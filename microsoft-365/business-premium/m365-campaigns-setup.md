@@ -100,7 +100,7 @@ Make sure that you meet the following requirements before you begin your setup p
 
 3. Type your username and password. Select **Sign in**.
 
-4. In the top right of the page, find the **Preview on** control. Select **Preview on** so you can use all the controls described in [Configure your security protection for your campaign](/m365b-security/m365bp-security-benefits).
+4. In the top right of the page, find the **Preview on** control. Select **Preview on** so you can use all the controls described in [Configure your security protection for your campaign](/microsoft-365/admin/security-and-compliance/m365bp-security-benefits).
 
 ## How your staff will sign in
 
@@ -142,4 +142,4 @@ To help your staff learn about steps to protect your campaign from cyber threats
 
 ## Next objective
 
-Proceed to [set up your security protection](/m365b-security/m365bp-security-benefits).
+Proceed to [set up your security protection](/microsoft-365/admin/security-and-compliance/m365bp-security-benefits).

@@ -42,7 +42,7 @@
        },
        {
          "source_path": "microsoft-365/campaigns/m365-campaigns-protect-admin-accounts.md",
-         "redirect_url": "/m365b-security/m365b-account-security-admins",
+         "redirect_url": "/microsoft-365/admin/security-and-compliance/m365b-account-security-admins",
          "redirect_document_id": false
        },
        {
@@ -57,7 +57,7 @@
        },
        {
          "source_path": "microsoft-365/campaigns/m365-campaigns-security-overview.md",
-         "redirect_url": "/m365b-security/m365bp-security-benefits",
+         "redirect_url": "/microsoft-365/admin/security-and-compliance/m365bp-security-benefits",
          "redirect_document_id": false
        },
        {
