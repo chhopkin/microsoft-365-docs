@@ -3,9 +3,9 @@ title: Get your data ready for Microsoft 365 Copilot with E3 + SAM licenses
 description: Get started with M365 Copilot. The E3 deployment for Microsoft 365 Copilot uses a E3 license, SharePoint Advanced Management, and Microsoft Purview. These services help your organization get ready for Copilot. This IT admin guide helps you prevent oversharing, declutter data sources, and monitor site changes. Get your organization and data ready for Copilot by following the steps in this article.
 f1.keywords:
 - NOCSH
-ms.author: mandia
-author: MandiOhlinger
-manager: laurawi
+manager: dansimp
+ms.author: ruihu
+author: maggierui
 ms.date: 03/18/2025
 ms.reviewer: cabailey, ruihu
 audience: Admin
@@ -17,6 +17,7 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 - essentials-overview
+- trust-pod
 ms.custom: [copilot-learning-hub]
 appliesto:
   - ✅ Microsoft 365 Copilot
