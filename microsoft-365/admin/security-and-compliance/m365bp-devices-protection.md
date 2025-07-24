@@ -197,7 +197,7 @@ You manage device policies in the Intune admin center at <https://intune.microso
 
 3. On the **Create a profile** flyout that opens, configure the following settings:
    - **Platform**: The available values depend on the device policy type as previously described.
-   - **Profile**: The available values depend on the device policy type and **Platform** value as described at the [beginning of this article](#device-protection-in-microsoft-365-business-premium)
+   - **Profile**: The available values depend on the device policy type and **Platform** value as described at the [beginning of this article](#device-and-application-protection-in-microsoft-365-business-premium)
 
    When you're finished on the **Create a profile** flyout, select **Create**
 

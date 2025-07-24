@@ -36,7 +36,7 @@ After an admin [sets up Basic Mobility and Security](m365b-devices-basic-mobilit
 The rest of this article explains how users can enroll their supported devices in Basic Mobility and Security.
 
 > [!IMPORTANT]
-> Basic Mobility and Security is a mobile device management (MDM) solution, which means your Microsoft 365 organization controls the enrolled device, not just company data on the device. For example, admins can configure policies that require complex passwords, block access to specific features, and remotely wipe devices. For information about information that's visible to admins on enrolled devices, see [What information can my organization see when I enroll my device?](/intune/intune-service/user-help/what-info-can-your-company-see-when-you-enroll-your-device-in-intune).
+> Basic Mobility and Security is a mobile device management (MDM) solution, which means your Microsoft 365 organization controls the enrolled device, not just company data on the device. For example, admins can configure policies that require complex passwords, block access to specific features, and remotely wipe devices. For information about information that's visible to admins on enrolled devices, see [What information can my organization see when I enroll my device?](intune/intune-service/user-help/what-info-can-your-company-see-when-you-enroll-your-device-in-intune).
 
 ## Enroll iOS/iPadOS devices in Basic Mobility and Security
 
