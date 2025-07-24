@@ -323,7 +323,7 @@ A: Check the following items:
 
 A: Check the following items:
 
-- Verify the custom domain for Microsoft 365 accounts is configured to work with Basic Mobility and Security. For instructions, see [Configure CNAME records in DNS for Basic Mobility and Security for custom Microsoft 365 domains](m365b-devices-basic-mobility-security-set-up.md#step-2-configure-cname-records-in-dns-for-basic-mobility-and-security-for-custom-microsoft-365-domains).
+- Verify the custom domain for Microsoft 365 accounts is configured to work with Basic Mobility and Security. For instructions, see [Configure CNAME records in DNS for Basic Mobility and Security for custom Microsoft 365 domains](m365b-devices-basic-mobility-security-set-up.md#step-2-configure-cname-records-for-custom-microsoft-365-domains-in-basic-mobility-and-security).
 - Unless you paid extra for Microsoft Entra ID P1 or P2, verify users select **Enroll in Device Management only** instead of **Connect**.
 
 ### Q: I'm having issues setting up Basic Mobility and Security on Android devices. What can I do?

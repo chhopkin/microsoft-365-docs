@@ -129,7 +129,7 @@ On the **Windows** tab of the **Device configuration** page at <https://security
 
 3. On the **Device groups** page, do one of the following steps:
    - Select :::image type="icon" source="media/m365-cc-sc-add-internal-icon.png" border="false"::: **Use existing group** to select one or more device groups to use in the policy.
-   - Select :::image type="icon" source="media/m365-cc-sc-create-icon.png" border="false"::: **Create new group** to create a new device group to use in the policy. For instructions, see [Create device groups in the Microsoft Defender portal](m365bp-device-groups-categories.md#create-device-groups-in-the-microsoft-defender-portal) (starting at Step 4).
+   - Select :::image type="icon" source="media/m365-cc-sc-create-icon.png" border="false"::: **Create new group** to create a new device group to use in the policy. For instructions, see [Create device groups in the Microsoft Defender portal](m365bp-devices-groups-categories.md#create-device-groups-in-the-microsoft-defender-portal) (starting at Step 4).
 
    When you're finished on the **Device groups** page, select **Next**.
 
@@ -197,7 +197,7 @@ You manage device policies in the Intune admin center at <https://intune.microso
 
 3. On the **Create a profile** flyout that opens, configure the following settings:
    - **Platform**: The available values depend on the device policy type as previously described.
-   - **Profile**: The available values depend on the device policy type and **Platform** value as described at the [beginning of this article](#device-and-application-protection-in-microsoft-365-business-premium)
+   - **Profile**: The available values depend on the device policy type and **Platform** value as described at the [beginning of this article](#device-protection-in-microsoft-365-business-premium)
 
    When you're finished on the **Create a profile** flyout, select **Create**
 

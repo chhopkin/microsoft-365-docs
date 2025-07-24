@@ -188,7 +188,7 @@ There's no direct location to create device groups in the Defender portal. Inste
      - Select :::image type="icon" source="media/m365-cc-sc-add-internal-icon.png" border="false"::: **Use existing group** to select one or more device groups to use in this protection policy.
 
 7. At this step in creating the device protection policy, you have the following options on the **Device groups** page:
-   - Select **Next** to continue creating or modifying the device protection policy as described in [Device protection policies in Microsoft 365 Business Premium](m365bp-device-policies-configure.md) (starting at Step 4).
+   - Select **Next** to continue creating or modifying the device protection policy as described in [Device protection policies in Microsoft 365 Business Premium](m365bp-devices-policies-configure.md) (starting at Step 4).
    - Select **Cancel** to stop creating or modifying the device protection policy. The new device group is available to select in new or existing device protection policies in the Defender portal, and is available in the Microsoft Entra admin center.
 
 ### Create device groups in the Microsoft Entra admin center
