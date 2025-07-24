@@ -114,7 +114,7 @@ On the **Windows** tab of the **Device configuration** page at <https://security
   > [!TIP]
   > To see details about other device policies without leaving the details flyout, use :::image type="icon"source="../../media/updownarrows.png" border="false"::: **Previous item** and **Next item** at the top of the flyout.
 
-  :::image type="content"source="../../media/mdb-deviceconfig-selectedpolicy.png" lightbox="../media/mdb-deviceconfig-selectedpolicy.png" alt-text="Screenshot of the device policy details flyout in the Microsoft Defender portal.":::
+  :::image type="content"source="../../media/mdb-deviceconfig-selectedpolicy.png" lightbox="../../media/mdb-deviceconfig-selectedpolicy.png" alt-text="Screenshot of the device policy details flyout in the Microsoft Defender portal.":::
 
 ### Create device protection policies in the Defender portal
 
