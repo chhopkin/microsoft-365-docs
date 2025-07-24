@@ -1,5 +1,5 @@
 ---
-title: Configure Microsoft Intune protection for apps and devices
+title: Device protection in Microsoft 365 Business Premium
 description: Identify personal, unmanaged devices and company-owned devices, and learn how to secure them.
 ms.author: chrisda
 author: chrisda
@@ -100,7 +100,7 @@ On the **Windows** tab of the **Device configuration** page at <https://security
   - **Assigned devices**: The number of devices that have the policy assigned. An assigned device might not have the policy applied to the device yet.
   - **Applied devices**: The number of assigned devices that have the policy applied.
 
-  :::image type="content"source="../../media/mdb-deviceconfiguration.png" lightbox="../media/mdb-deviceconfiguration.png" alt-text="Screenshot of the Device configuration page in the Microsoft Defender portal.":::
+  :::image type="content"source="../../media/mdb-deviceconfiguration.png" lightbox="../../media/mdb-deviceconfiguration.png" alt-text="Screenshot of the Device configuration page in the Microsoft Defender portal.":::
 
 - To view details about a device policy, select the policy from the list by clicking anywhere in the row other that the check box next to the policy name. The details flyout that opens contains the following information:
   - **Description**

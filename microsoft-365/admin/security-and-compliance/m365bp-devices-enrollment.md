@@ -1,5 +1,5 @@
 ---
-title: Configure Microsoft Intune protection for apps and devices
+title: Microsoft Intune device management and application management in Microsoft 365 Business Premium
 description: Admin can learn how to use Microsoft Intune to in Microsoft 365 Business Premium to secure company owned devices and personal devices (also known as bring your own device or BYOD).
 ms.author: chrisda
 author: chrisda
