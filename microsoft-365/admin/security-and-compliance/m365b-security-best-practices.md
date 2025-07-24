@@ -84,7 +84,7 @@ The following table summarizes how to secure your data using Microsoft 365 for b
 |&nbsp;&nbsp;&nbsp;Install [Microsoft 365 Apps](/microsoft-365/business-premium/m365bp-users-install-m365-apps) on user devices.||✔|✔|
 |&nbsp;&nbsp;&nbsp;Use the [User quick setup guide](https://support.microsoft.com/office/7f34c318-e772-46a5-8c0a-ab86661542d1) to help users get set up and running.|✔|✔|✔|
 |**9. Manage calendar sharing**||||
-|&nbsp;&nbsp;&nbsp;[Outlook](../admin/setup/setup-outlook.md) for email and calendars.|✔|✔|✔|
+|&nbsp;&nbsp;&nbsp;[Outlook](../setup/setup-outlook.md) for email and calendars.|✔|✔|✔|
 |&nbsp;&nbsp;&nbsp;[Microsoft Purview Data Loss Prevention](/purview/dlp-create-deploy-policy) to safeguard company data.|||✔|
 |**10. Maintain your environment**: See [Maintain your environment](m365bp-mdb-maintain-environment.md).|✔|✔|✔|
 

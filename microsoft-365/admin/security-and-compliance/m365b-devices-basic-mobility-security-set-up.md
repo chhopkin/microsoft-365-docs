@@ -157,7 +157,7 @@ The Apple MDM Push certificate is valid for 365 days (with a 30-day grace period
 
 The **Organization Setting** tab on the **Basic Mobility and Security** page at <https://compliance.microsoft.com/basicmobilityandsecurity> contains the following settings that you need to consider:
 
-- **Access restriction for unsupported MDM device**: Prevents users from accessing Microsoft 365 email on devices that Basic Mobility and Security doesn't support. For more information about supported devices, see [Supported device types in Basic Mobility and Security](m365b-devices-basic-mobility-security-overview.md#supported-device-types-in-basic-mobility-and-security).
+- **Access restriction for unsupported MDM device**: Prevents users from accessing Microsoft 365 email on devices that Basic Mobility and Security doesn't support. For more information about supported devices, see [Supported device platforms in Basic Mobility and Security](m365b-devices-basic-mobility-security-overview.md#supported-device-platforms-in-basic-mobility-and-security).
 
   After you expand this section, the following values are available:
 
@@ -274,7 +274,7 @@ For instructions, see [Configure policies in Basic Mobility and Security](m365b-
 
 After you create at least one policy in Basic Mobility and Security, users identified in the policies receive enrollment messages the next time they sign into their device using a Microsoft 365 ID or attempt to access company data using a [supported application](m365b-devices-basic-mobility-security-overview.md#apps-that-prompt-users-to-enroll-in-basic-mobility-and-security).
 
-Users must complete the enrollment and activation steps before they can access Microsoft 365 email and documents. For more information, see [Enroll your mobile device using Basic Mobility and Security](enroll-your-mobile-device.md).
+Users must complete the enrollment and activation steps before they can access Microsoft 365 email and documents. For more information, see [Enroll your mobile device using Basic Mobility and Security](m365b-devices-basic-mobility-security-enroll-devices.md).
 
 > [!TIP]
 > If a user's preferred language isn't available in the device enrollment process, the user might receive the notification and steps in a different language. Currently, not all supported languages in Microsoft 365 are available for the enrollment process on mobile devices.
