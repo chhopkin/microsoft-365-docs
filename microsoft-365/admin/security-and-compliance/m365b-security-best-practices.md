@@ -47,7 +47,7 @@ This article describes the top 10 ways to secure your business data with Microso
 
 ## Top 10 ways to secure your business data
 
-:::image type="content" source="media/top-10-ways-to-secure-data.png" alt-text="Diagram listing the top 10 ways to secure business data with Microsoft 365 for business"  lightbox="media/top-10-ways-to-secure-data.png":::
+:::image type="content"source="../../media/top-10-ways-to-secure-data.png" alt-text="Diagram listing the top 10 ways to secure business data with Microsoft 365 for business"  lightbox="media/top-10-ways-to-secure-data.png":::
 
 The following table summarizes how to secure your data using Microsoft 365 for business.
 

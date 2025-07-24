@@ -73,9 +73,9 @@ On the **Fully managed** tab of the **Active Devices** page, the following prope
 - **Device action**
 - **Last check-in**
 
-To change the list of devices from normal to compact spacing, select :::image type="icon" source="media/m365-cc-sc-standard-icon.png" border="false"::: **Change list spacing to compact or normal**, and then select :::image type="icon" source="media/m365-cc-sc-compact-icon.png" border="false"::: **Compact list**.
+To change the list of devices from normal to compact spacing, select :::image type="icon"source="../../media/m365-cc-sc-standard-icon.png" border="false"::: **Change list spacing to compact or normal**, and then select :::image type="icon"source="../../media/m365-cc-sc-compact-icon.png" border="false"::: **Compact list**.
 
-Use the :::image type="icon" source="media/m365-cc-sc-search-icon.png" border="false"::: **Search** box and a corresponding value to find specific devices.
+Use the :::image type="icon"source="../../media/m365-cc-sc-search-icon.png" border="false"::: **Search** box and a corresponding value to find specific devices.
 
 To view details about a specific device, click anywhere in the row other than the check box next to the first column. The details flyout that opens contains the following information:
 
@@ -88,7 +88,7 @@ To view details about a specific device, click anywhere in the row other than th
 - **Serial number**
 
 > [!TIP]
-> To take action on a device (:::image type="icon" source="media/m365-cc-sc-factory-reset-icon.png" border="false"::: **Factory reset**, :::image type="icon" source="media/m365-cc-sc-remove-company-data-icon.png" border="false"::: **Remove company data**, or :::image type="icon" source="media/m365-cc-sc-delete-icon.png" border="false"::: **Delete**), see [Wipe devices enrolled in Basic Mobility and Security](m365b-devices-basic-mobility-security-wipe-devices.md).
+> To take action on a device (:::image type="icon"source="../../media/m365-cc-sc-factory-reset-icon.png" border="false"::: **Factory reset**, :::image type="icon"source="../../media/m365-cc-sc-remove-company-data-icon.png" border="false"::: **Remove company data**, or :::image type="icon"source="../../media/m365-cc-sc-delete-icon.png" border="false"::: **Delete**), see [Wipe devices enrolled in Basic Mobility and Security](m365b-devices-basic-mobility-security-wipe-devices.md).
 
 ## Use Microsoft Graph PowerShell to view device details
 
@@ -105,7 +105,7 @@ Device cmdlets in Microsoft Graph PowerShell show the enrollment and compliance 
 
 This information is illustrated in the following diagram:
 
-:::image type="content" source="media/basic-mobility-security-device-info.png" alt-text="Diagram showing the device enrollment and device compliance states in Basic Mobility and Security." lightbox="media/basic-mobility-security-device-info.png":::
+:::image type="content"source="../../media/basic-mobility-security-device-info.png" alt-text="Diagram showing the device enrollment and device compliance states in Basic Mobility and Security." lightbox="media/basic-mobility-security-device-info.png":::
 
 ### Use the Get-MgDevice cmdlet to view device details
 

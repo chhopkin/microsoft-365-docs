@@ -82,7 +82,7 @@ Repeat these steps as many times as necessary.
 
 2. On the **Policies** tab, select the policy to remove by selecting the check box next to the name.
 
-3. Select :::image type="icon" source="media/m365-cc-sc-more-actions-icon.png" border="false"::: **More actions** \> **Delete selected policies**.
+3. Select :::image type="icon"source="../../media/m365-cc-sc-more-actions-icon.png" border="false"::: **More actions** \> **Delete selected policies**.
 
 4. Select **Yes** in the warning dialog that opens.
 

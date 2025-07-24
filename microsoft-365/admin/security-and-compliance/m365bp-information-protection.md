@@ -32,7 +32,7 @@ Microsoft 365 Business Premium includes information protection capabilities for 
 - [Microsoft Purview Data Loss Prevention (DLP)](/purview/dlp-create-deploy-policy).
 - [Microsoft Purview Message Encryption](/purview/email-encryption)
 
-:::image type="content" source="media/m365-campaign-email-encrypt.png" alt-text="Diagram of an email with callouts for labels and encryption." lightbox="media/m365-campaign-email-encrypt.png":::
+:::image type="content"source="../../media/m365-campaign-email-encrypt.png" alt-text="Diagram of an email with callouts for labels and encryption." lightbox="media/m365-campaign-email-encrypt.png":::
 
 You can use these capabilities to help protect your company's data, and keep your and your customers' sensitive information more secure.
 
@@ -48,7 +48,7 @@ Use this article to get started with your information protection capabilities.
 
 ## Use Compliance Manager
 
-:::image type="content" source="media/m365bp-compliancemanager.png" alt-text="Screenshot of Compliance Manager in the Microsoft Purview portal in Microsoft 365 Business Premium." lightbox="media/m365bp-compliancemanager.png":::
+:::image type="content"source="../../media/m365bp-compliancemanager.png" alt-text="Screenshot of Compliance Manager in the Microsoft Purview portal in Microsoft 365 Business Premium." lightbox="media/m365bp-compliancemanager.png":::
 
 Business Premium includes Microsoft Purview Compliance Manager, which can help you get started setting up your compliance features. Features include data loss prevention (DLP), data lifecycle management, and insider risk management. Compliance Manager saves time by highlighting recommendations, a compliance score, and ways to improve your score.
 
@@ -60,17 +60,17 @@ Here's how to get started:
 
    Selecting the **Remaining actions** value for a solution entry in the **Solutions that affect your score** section opens the **Improvement actions** page that's filtered by the solution you selected.
 
-   :::image type="content" source="media/m365bp-compliancesolutions.png" alt-text="Screenshot of the Solutions that affect your score section." lightbox="media/m365bp-compliancesolutions.png":::
+   :::image type="content"source="../../media/m365bp-compliancesolutions.png" alt-text="Screenshot of the Solutions that affect your score section." lightbox="media/m365bp-compliancesolutions.png":::
 
    For example, in the **Solutions that affect your score** section, selecting the value in the **Remaining actions** column for the **Data loss prevention** solution opens the **Improvement actions** page filtered by **Solutions: Data loss prevention**.
 
-   :::image type="content" source="media/m365bp-dlppoliciestoconfigure.png" alt-text="Screenshot of the Improvement actions page in Compliance Manager filtered by data loss prevention solutions." lightbox="media/m365bp-dlppoliciestoconfigure.png":::
+   :::image type="content"source="../../media/m365bp-dlppoliciestoconfigure.png" alt-text="Screenshot of the Improvement actions page in Compliance Manager filtered by data loss prevention solutions." lightbox="media/m365bp-dlppoliciestoconfigure.png":::
 
 3. On the **Improvement actions** page, selecting an **Improvement action** entry takes you to a detailed actions page.
 
    For example, selecting **Create customized DLP policies for personally identifiable information (PII)** opens the detailed actions page with more information about the policy to configure.
 
-   :::image type="content" source="media/m365bp-dlppolicyinfo.png" alt-text="Screenshot of the Create customized DLP policies for personally identifiable information (PII) detailed action page." lightbox="media/m365bp-dlppolicyinfo.png":::
+   :::image type="content"source="../../media/m365bp-dlppolicyinfo.png" alt-text="Screenshot of the Create customized DLP policies for personally identifiable information (PII) detailed action page." lightbox="media/m365bp-dlppolicyinfo.png":::
 
    Follow the information on the page to set up your DLP policy.
 

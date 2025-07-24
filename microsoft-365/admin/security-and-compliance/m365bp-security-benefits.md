@@ -62,7 +62,7 @@ For more information, see [Microsoft 365 for business security overview](m365b-s
 
 Our digital threats guide describes different kinds of threats and what you can do to protect against these threats. Download this visual guide for you and your team:
 
-[:::image type="content" source="media/m365bp-whatuserscandotosecure.png" alt-text="Thumbnail of downloadable guide.":::](https://download.microsoft.com/download/9/1/f/91fa8f24-9953-4f33-9d87-a95624db5e0b/M365BPWhatCanUsersDoToSecure.pdf)
+[:::image type="content"source="../../media/m365bp-whatuserscandotosecure.png" alt-text="Thumbnail of downloadable guide.":::](https://download.microsoft.com/download/9/1/f/91fa8f24-9953-4f33-9d87-a95624db5e0b/M365BPWhatCanUsersDoToSecure.pdf)
 
 [PDF](https://download.microsoft.com/download/9/1/f/91fa8f24-9953-4f33-9d87-a95624db5e0b/M365BPWhatCanUsersDoToSecure.pdf) | [PowerPoint](https://download.microsoft.com/download/9/1/f/91fa8f24-9953-4f33-9d87-a95624db5e0b/M365BPWhatCanUsersDoToSecure.pptx)
 
@@ -70,4 +70,4 @@ Our digital threats guide describes different kinds of threats and what you can 
 
 The guidance in these goals is based upon the [Zero Trust security model](/security/zero-trust/guidance-smb-partner), and is summarized in a downloadable [Cybersecurity playbook](https://download.microsoft.com/download/9/c/1/9c167271-8209-492e-acc2-38a39d1834c2/m365bp-cybersecurity-playbook.pdf).
 
-[:::image type="content" source="media/m365bp-cyber-security-playbook.png" alt-text="Cybersecurity playbook. Download this guide.":::](https://download.microsoft.com/download/9/c/1/9c167271-8209-492e-acc2-38a39d1834c2/m365bp-cybersecurity-playbook.pdf)
+[:::image type="content"source="../../media/m365bp-cyber-security-playbook.png" alt-text="Cybersecurity playbook. Download this guide.":::](https://download.microsoft.com/download/9/c/1/9c167271-8209-492e-acc2-38a39d1834c2/m365bp-cybersecurity-playbook.pdf)

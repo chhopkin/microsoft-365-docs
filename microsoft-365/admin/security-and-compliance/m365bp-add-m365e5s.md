@@ -24,7 +24,7 @@ appliesto:
 
 # Add Microsoft 365 E5 Security to your Microsoft 365 Business Premium subscription
 
-As you probably already know, [Microsoft 365 Business Premium](m365bp-overview.md) is an excellent productivity and security solution for small and medium sized businesses up to 300 users. With this solution, you get:
+As you probably already know, [Microsoft 365 Business Premium](m365bp-security-benefits.md) is an excellent productivity and security solution for small and medium sized businesses up to 300 users. With this solution, you get:
 
 - [Microsoft 365 Apps](/microsoft-365/admin/setup/install-applications) installed on your devices
 - Protection for your user accounts with [Microsoft Entra ID Plan 1](/entra/fundamentals/whatis)
@@ -49,7 +49,7 @@ Microsoft 365 E5 Security up levels your Microsoft 365 Business Premium security
 - Collaboration security with [Microsoft Defender for Office 365 Plan 2](/defender-office-365/mdo-about#defender-for-office-365-plan-1-vs-plan-2-cheat-sheet), which adds automated investigation and response, attack simulation training, threat trackers, advanced hunting, incident and alert investigation, and threat explorer.
 - Software as a Service (SaaS) security with [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps), which enables IT teams to identify and manage shadow IT and ensure that only approved applications are used.
 
-:::image type="content" source="media/m365e5s-components.png" alt-text="Diagram that shows the components of Microsoft 365 E5 Security.":::
+:::image type="content"source="../../media/m365e5s-components.png" alt-text="Diagram that shows the components of Microsoft 365 E5 Security.":::
 
 ### Compare the upgraded features in Microsoft 365 E5 Security
 

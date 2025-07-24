@@ -131,15 +131,15 @@ There's no direct location to create device groups in the Defender portal. Inste
 1. In the Microsoft Defender portal at <https://security.microsoft.com>, go to **Endpoints** \> **Configuration management** \> **Device configuration**. Or, to go directly to the **Device configuration** page, use <https://security.microsoft.com/policy-management>.
 
 2. On the **Windows** tab of the **Device configuration** page, do one of the following steps in the **Next-generation protection** or **Firewall** sections:
-   - **Create a new policy**: Select :::image type="icon" source="media/m365-cc-sc-create-icon.png" border="false"::: **Add**.
+   - **Create a new policy**: Select :::image type="icon"source="../../media/m365-cc-sc-create-icon.png" border="false"::: **Add**.
    - **Edit an existing policy**: Do one of the following steps:
-     - Select a policy from the list by clicking on the check box next to the policy name, and then select the :::image type="icon" source="media/m365-cc-sc-edit-icon.png" border="false"::: **Edit** action that appears.
-     - Select a policy from the list by clicking anywhere in the row other than the check box next to the policy name. In the details flyout that opens, select :::image type="icon" source="media/m365-cc-sc-edit-icon.png" border="false"::: **Edit** at the top of the flyout.
+     - Select a policy from the list by clicking on the check box next to the policy name, and then select the :::image type="icon"source="../../media/m365-cc-sc-edit-icon.png" border="false"::: **Edit** action that appears.
+     - Select a policy from the list by clicking anywhere in the row other than the check box next to the policy name. In the details flyout that opens, select :::image type="icon"source="../../media/m365-cc-sc-edit-icon.png" border="false"::: **Edit** at the top of the flyout.
 
 3. On the **General information** page, review or modify the **Policy name**, **Description**, or **Policy order** settings, and then select **Next**.
 
 4. On the **Device groups** page, do the following steps:
-   1. Select :::image type="icon" source="media/m365-cc-sc-create-icon.png" border="false"::: **Create new group**.
+   1. Select :::image type="icon"source="../../media/m365-cc-sc-create-icon.png" border="false"::: **Create new group**.
    2. On the **Create new group** page that opens, configure the following settings:
       - **Group name**: The unmodifiable prefix is **MDE Windows**. Enter a unique, descriptive suffix for the device group name.
       - **Description**: Enter an optional description for the device group.
@@ -155,16 +155,16 @@ There's no direct location to create device groups in the Defender portal. Inste
      - Select **Select an operator**. In the drop down list that appears, select an available operator.
      - The value control appears with the default value **Any**. Leave the value **Any** selected, or click on **Any**, and in the dialog that appears, select or enter the value, and then select **Apply**.
 
-       To add another rule, select :::image type="icon" source="media/m365-cc-sc-create-icon.png" border="false"::: **Add filter** and then repeat the previous steps. Multiple rules use the AND logical operator (a device must match **all** of the specified rules to be included in the dynamic device group).
+       To add another rule, select :::image type="icon"source="../../media/m365-cc-sc-create-icon.png" border="false"::: **Add filter** and then repeat the previous steps. Multiple rules use the AND logical operator (a device must match **all** of the specified rules to be included in the dynamic device group).
 
        > [!TIP]
        > Typically, you don't want to use the same property more than once in one dynamic device group that you create in the Defender portal. It's too easy to create conflicting rules that devices can never meet.
 
-       To remove an existing complete rule, select :::image type="icon" source="media/m365-cc-sc-remove-selection-icon.png" border="false"::: next to the rule.
+       To remove an existing complete rule, select :::image type="icon"source="../../media/m365-cc-sc-remove-selection-icon.png" border="false"::: next to the rule.
 
-       To remove a partial rule, select :::image type="icon" source="media/m365-cc-sc-delete-icon.png" border="false"::: **Delete** next to the rule.
+       To remove a partial rule, select :::image type="icon"source="../../media/m365-cc-sc-delete-icon.png" border="false"::: **Delete** next to the rule.
 
-       To clear all existing rules, select  :::image type="icon" source="media/m365-cc-sc-remove-icon.png" border="false"::: **Clear all**, and then select a property from the **Properties** drop down list in the **Select a filter** dialog that appears.
+       To clear all existing rules, select  :::image type="icon"source="../../media/m365-cc-sc-remove-icon.png" border="false"::: **Clear all**, and then select a property from the **Properties** drop down list in the **Select a filter** dialog that appears.
 
    - **Assigned group**: Select one or more enrolled devices from the list. You can sort the list of enrolled devices by clicking on an available column header:
      - **Device name**
@@ -177,15 +177,15 @@ There's no direct location to create device groups in the Defender portal. Inste
 
    When you're finished on the **Targeted devices** page, select **Create group**.
 
-6. If there are no errors, you return to the **Device groups** page where the device group you created is listed on the page and is now selected in :::image type="icon" source="media/m365-cc-sc-add-internal-icon.png" border="false"::: **Use existing group**.
+6. If there are no errors, you return to the **Device groups** page where the device group you created is listed on the page and is now selected in :::image type="icon"source="../../media/m365-cc-sc-add-internal-icon.png" border="false"::: **Use existing group**.
 
    You can take the following actions on the device groups listed on the **Device groups** page:
 
    - Select **⋮** \> **Edit** to edit the device group.
    - Select **⋮** \> **Group details** to open a flyout that shows the devices that are included in the device group.
    - Select **Remove** to remove the device group from the list. If you do this action, you need to do one of the following steps before you can select **Next** to go to the next page in the wizard:
-     - Select :::image type="icon" source="media/m365-cc-sc-create-icon.png" border="false"::: **Create new group** to create another device group.
-     - Select :::image type="icon" source="media/m365-cc-sc-add-internal-icon.png" border="false"::: **Use existing group** to select one or more device groups to use in this protection policy.
+     - Select :::image type="icon"source="../../media/m365-cc-sc-create-icon.png" border="false"::: **Create new group** to create another device group.
+     - Select :::image type="icon"source="../../media/m365-cc-sc-add-internal-icon.png" border="false"::: **Use existing group** to select one or more device groups to use in this protection policy.
 
 7. At this step in creating the device protection policy, you have the following options on the **Device groups** page:
    - Select **Next** to continue creating or modifying the device protection policy as described in [Device protection policies in Microsoft 365 Business Premium](m365bp-devices-policies-configure.md) (starting at Step 4).
@@ -259,7 +259,7 @@ The steps are described in the following subsections.
 
 1. In the Microsoft Intune admin center at <https://intune.microsoft.com>, go to **Devices** \> **Manage devices** \> **Device categories**. Or, to go directly to the **Device categories** page, use <https://intune.microsoft.com/#view/Microsoft_Intune_DeviceSettings/DevicesMenu/~/deviceCategories>.
 
-2. On the **Device categories** page, select :::image type="icon" source="media/m365-cc-sc-create-icon.png" border="false"::: **Create device category** to start the new category wizard.
+2. On the **Device categories** page, select :::image type="icon"source="../../media/m365-cc-sc-create-icon.png" border="false"::: **Create device category** to start the new category wizard.
 
 3. On the **Basics** tab, enter the following information:
    - **Name**: Enter a unique, descriptive name for the category.
@@ -279,7 +279,7 @@ Back on the **Device categories** page, the new device category appears in the l
 
 > [!TIP]
 >
-> - To delete an existing device category, select :::image type="icon" source="media/m365-cc-sc-more-actions-icon.png" border="false"::: **Context menu** \> :::image type="icon" source="media/m365-cc-sc-delete-icon.png" border="false"::: **Delete**.
+> - To delete an existing device category, select :::image type="icon"source="../../media/m365-cc-sc-more-actions-icon.png" border="false"::: **Context menu** \> :::image type="icon"source="../../media/m365-cc-sc-delete-icon.png" border="false"::: **Delete**.
 >
 >   After you delete the device category, devices that had the category assigned have the category value **Unassigned**.
 >
@@ -291,7 +291,7 @@ Back on the **Device categories** page, the new device category appears in the l
 
 1. In the Microsoft Entra admin center at <https://entra.microsoft.com>, go to **Groups** \> **All groups**. Or, to go directly to the **All groups** page, use <https://entra.microsoft.com/#view/Microsoft_AAD_IAM/GroupsManagementMenuBlade/~/AllGroups/menuId/AllGroups>.
 
-2. On the **All groups** page, select :::image type="icon" source="media/entra-new-group-icon.png" border="false"::: **New group**.
+2. On the **All groups** page, select :::image type="icon"source="../../media/entra-new-group-icon.png" border="false"::: **New group**.
 
 3. On the **New group** page, configure or verify the following options:
    - **Group type**: Verify **Security** is selected.
@@ -305,7 +305,7 @@ Back on the **Device categories** page, the new device category appears in the l
      - **Operator**: **Equals**
      - **Value**: The category name you created in [Step 1:](#step-1-create-the-device-category-in-intune).
 
-     Select :::image type="icon" source="media/m365-cc-sc-save-icon.png" border="false"::: **Save**.
+     Select :::image type="icon"source="../../media/m365-cc-sc-save-icon.png" border="false"::: **Save**.
 
    Back on the **New group** page, select **Create**.
 
@@ -341,10 +341,10 @@ In the Microsoft Intune admin center at <https://intune.microsoft.com>, go to **
 
 On the **All devices** page, admins can do the following category-related tasks:
 
-- **View categories assigned to devices**: if the **Category** column isn't shown, select :::image type="icon" source="media/entra-columns-icon.png" border="false"::: **Columns** \> **Categories**.
+- **View categories assigned to devices**: if the **Category** column isn't shown, select :::image type="icon"source="../../media/entra-columns-icon.png" border="false"::: **Columns** \> **Categories**.
 
    You can also filter the results by selecting **Add filters** \> **Category**, selecting one or more categories, and then selecting **Apply**.
 
 - **Change categories assigned to devices**: Select a device entry from the list by clicking on the **Device name** value. In the device details page that opens, select **Manage** \> **Properties**.
 
-  On the **Properties** page that opens, find the **Device category** property. Select a device category or the value **Unassigned** from the drop down list, and then select :::image type="icon" source="media/m365-cc-sc-save-icon.png" border="false"::: **Save**.
+  On the **Properties** page that opens, find the **Device category** property. Select a device category or the value **Unassigned** from the drop down list, and then select :::image type="icon"source="../../media/m365-cc-sc-save-icon.png" border="false"::: **Save**.

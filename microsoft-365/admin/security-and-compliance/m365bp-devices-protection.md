@@ -100,7 +100,7 @@ On the **Windows** tab of the **Device configuration** page at <https://security
   - **Assigned devices**: The number of devices that have the policy assigned. An assigned device might not have the policy applied to the device yet.
   - **Applied devices**: The number of assigned devices that have the policy applied.
 
-  :::image type="content" source="media/mdb-deviceconfiguration.png" lightbox="../media/mdb-deviceconfiguration.png" alt-text="Screenshot of the Device configuration page in the Microsoft Defender portal.":::
+  :::image type="content"source="../../media/mdb-deviceconfiguration.png" lightbox="../media/mdb-deviceconfiguration.png" alt-text="Screenshot of the Device configuration page in the Microsoft Defender portal.":::
 
 - To view details about a device policy, select the policy from the list by clicking anywhere in the row other that the check box next to the policy name. The details flyout that opens contains the following information:
   - **Description**
@@ -112,15 +112,15 @@ On the **Windows** tab of the **Device configuration** page at <https://security
     - The **Name** and **Status** of each device.
 
   > [!TIP]
-  > To see details about other device policies without leaving the details flyout, use :::image type="icon" source="media/updownarrows.png" border="false"::: **Previous item** and **Next item** at the top of the flyout.
+  > To see details about other device policies without leaving the details flyout, use :::image type="icon"source="../../media/updownarrows.png" border="false"::: **Previous item** and **Next item** at the top of the flyout.
 
-  :::image type="content" source="media/mdb-deviceconfig-selectedpolicy.png" lightbox="../media/mdb-deviceconfig-selectedpolicy.png" alt-text="Screenshot of the device policy details flyout in the Microsoft Defender portal.":::
+  :::image type="content"source="../../media/mdb-deviceconfig-selectedpolicy.png" lightbox="../media/mdb-deviceconfig-selectedpolicy.png" alt-text="Screenshot of the device policy details flyout in the Microsoft Defender portal.":::
 
 ### Create device protection policies in the Defender portal
 
 On the **Windows** tab of the **Device configuration** page at <https://security.microsoft.com/policy-management>, do the following steps:
 
-1. In the **Next-generation protection** or **Firewall** sections, select :::image type="icon" source="media/m365-cc-sc-create-icon.png" border="false"::: **Add** to start the new policy wizard.
+1. In the **Next-generation protection** or **Firewall** sections, select :::image type="icon"source="../../media/m365-cc-sc-create-icon.png" border="false"::: **Add** to start the new policy wizard.
 
 2. On the **General information** page, configure the following settings:
    - **Policy name**: Enter a unique, descriptive name.
@@ -128,8 +128,8 @@ On the **Windows** tab of the **Device configuration** page at <https://security
    - **Policy order**: Accept the default policy order or change it. For more information, see xxx.
 
 3. On the **Device groups** page, do one of the following steps:
-   - Select :::image type="icon" source="media/m365-cc-sc-add-internal-icon.png" border="false"::: **Use existing group** to select one or more device groups to use in the policy.
-   - Select :::image type="icon" source="media/m365-cc-sc-create-icon.png" border="false"::: **Create new group** to create a new device group to use in the policy. For instructions, see [Create device groups in the Microsoft Defender portal](m365bp-devices-groups-categories.md#create-device-groups-in-the-microsoft-defender-portal) (starting at Step 4).
+   - Select :::image type="icon"source="../../media/m365-cc-sc-add-internal-icon.png" border="false"::: **Use existing group** to select one or more device groups to use in the policy.
+   - Select :::image type="icon"source="../../media/m365-cc-sc-create-icon.png" border="false"::: **Create new group** to create a new device group to use in the policy. For instructions, see [Create device groups in the Microsoft Defender portal](m365bp-devices-groups-categories.md#create-device-groups-in-the-microsoft-defender-portal) (starting at Step 4).
 
    When you're finished on the **Device groups** page, select **Next**.
 
@@ -151,17 +151,17 @@ Back on the **Windows** tab of the **Device configuration** page, the policy tha
 
 On the **Windows** tab of the **Device configuration** page at <https://security.microsoft.com/policy-management>, do one of the following steps:
 
-- Select the check box next to the policy name, and then select the :::image type="icon" source="media/m365-cc-sc-edit-icon.png" border="false"::: **Edit** action that appears.
-- Select the policy by clicking anywhere in the row other than the check box next to the policy name. In the details flyout that opens, select :::image type="icon" source="media/m365-cc-sc-edit-icon.png" border="false"::: **Edit** at the top of the flyout.
+- Select the check box next to the policy name, and then select the :::image type="icon"source="../../media/m365-cc-sc-edit-icon.png" border="false"::: **Edit** action that appears.
+- Select the policy by clicking anywhere in the row other than the check box next to the policy name. In the details flyout that opens, select :::image type="icon"source="../../media/m365-cc-sc-edit-icon.png" border="false"::: **Edit** at the top of the flyout.
 
-After you select :::image type="icon" source="media/m365-cc-sc-edit-icon.png" border="false"::: **Edit**, the steps and options are basically the same as previously described in the [Create device protection policies in the Defender portal](#create-device-protection-policies-in-the-defender-portal) section. The main difference is the policy settings are already configured.
+After you select :::image type="icon"source="../../media/m365-cc-sc-edit-icon.png" border="false"::: **Edit**, the steps and options are basically the same as previously described in the [Create device protection policies in the Defender portal](#create-device-protection-policies-in-the-defender-portal) section. The main difference is the policy settings are already configured.
 
 - You can change all settings in custom policies.
 - The default policies named **NGP Windows default policy** or **Firewall Windows default policy** have the following issues:
   - **General information** page: You can't change the **Policy name** or **Policy order** values.
   - **Device groups** page: By default, the device group named **All Devices** is selected:
-    - You can replace **All devices** by selecting :::image type="icon" source="media/m365-cc-sc-add-internal-icon.png" border="false"::: **Use existing group**, and then selecting one or more device groups.
-    - To return to **All Devices** as the only selected device group in the policy, select :::image type="icon" source="media/m365-cc-sc-computer-icon.png" border="false"::: **Add all devices**.
+    - You can replace **All devices** by selecting :::image type="icon"source="../../media/m365-cc-sc-add-internal-icon.png" border="false"::: **Use existing group**, and then selecting one or more device groups.
+    - To return to **All Devices** as the only selected device group in the policy, select :::image type="icon"source="../../media/m365-cc-sc-computer-icon.png" border="false"::: **Add all devices**.
 
 ### Delete device protection policies in the Defender portal
 
@@ -170,8 +170,8 @@ After you select :::image type="icon" source="media/m365-cc-sc-edit-icon.png" bo
 
 On the **Windows** tab of the **Device configuration** page at <https://security.microsoft.com/policy-management>, do one of the following steps:
 
-- Select the check box next to the policy name, and then select the :::image type="icon" source="media/m365-cc-sc-delete-icon.png" border="false"::: **Delete** action that appears.
-- Select the policy by clicking anywhere in the row other than the check box next to the policy name. In the details flyout that opens, select :::image type="icon" source="media/m365-cc-sc-delete-icon.png" border="false"::: **Delete** at the top of the flyout.
+- Select the check box next to the policy name, and then select the :::image type="icon"source="../../media/m365-cc-sc-delete-icon.png" border="false"::: **Delete** action that appears.
+- Select the policy by clicking anywhere in the row other than the check box next to the policy name. In the details flyout that opens, select :::image type="icon"source="../../media/m365-cc-sc-delete-icon.png" border="false"::: **Delete** at the top of the flyout.
 
 In the **Delete policy** dialog that opens, read the information, and then select **Delete**.
 
@@ -193,7 +193,7 @@ You manage device policies in the Intune admin center at <https://intune.microso
    - **Attack surface reduction**: <https://intune.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/asr>
    - **Account protection**: <https://intune.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/accountprotection>
 
-2. On the device policy page, select :::image type="icon" source="media/m365-cc-sc-create-icon.png" border="false"::: **Create Policy**.
+2. On the device policy page, select :::image type="icon"source="../../media/m365-cc-sc-create-icon.png" border="false"::: **Create Policy**.
 
 3. On the **Create a profile** flyout that opens, configure the following settings:
    - **Platform**: The available values depend on the device policy type as previously described.
@@ -238,7 +238,7 @@ Back on the device policy page, the new device category appears in the list.
    - **Attack surface reduction**: <https://intune.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/asr>
    - **Account protection**: <https://intune.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/accountprotection>
 
-2. In the list of policies on the device policy page, select :::image type="icon" source="media/m365-cc-sc-more-actions-icon.png" border="false"::: **Context menu** \> :::image type="icon" source="media/m365-cc-sc-copy-icon.png" border="false"::: **Duplicate** in the row of the policy that you want to copy.
+2. In the list of policies on the device policy page, select :::image type="icon"source="../../media/m365-cc-sc-more-actions-icon.png" border="false"::: **Context menu** \> :::image type="icon"source="../../media/m365-cc-sc-copy-icon.png" border="false"::: **Duplicate** in the row of the policy that you want to copy.
 
 3. In the **Duplicate policy** flyout that opens, enter the following information:
    - **New name**: Enter a unique, descriptive name for the new copy of the policy.
@@ -246,7 +246,7 @@ Back on the device policy page, the new device category appears in the list.
 
    When you're finished in the **Duplicate policy** flyout, select **Save**.
 
-4. Back on the device policy page, select :::image type="icon" source="media/m365-cc-sc-refresh-icon.png" border="false"::: **Refresh** to see the new policy in the list.
+4. Back on the device policy page, select :::image type="icon"source="../../media/m365-cc-sc-refresh-icon.png" border="false"::: **Refresh** to see the new policy in the list.
 
 ### Edit device policies in the Intune admin center
 
@@ -260,7 +260,7 @@ Back on the device policy page, the new device category appears in the list.
    - **Attack surface reduction**: <https://intune.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/asr>
    - **Account protection**: <https://intune.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/accountprotection>
 
-2. In the list of policies on the device policy page, select the policy that you want to edit by clicking anywhere in the row other than :::image type="icon" source="media/m365-cc-sc-more-actions-icon.png" border="false"::: **Context menu**.
+2. In the list of policies on the device policy page, select the policy that you want to edit by clicking anywhere in the row other than :::image type="icon"source="../../media/m365-cc-sc-more-actions-icon.png" border="false"::: **Context menu**.
 
 3. In the **Properties** section of the policy details page that opens, select **Edit** in one of the available subsections:
    - **Basics**
@@ -285,8 +285,8 @@ Back on the device policy page, the new device category appears in the list.
    - **Account protection**: <https://intune.microsoft.com/#view/Microsoft_Intune_Workflows/SecurityManagementMenu/~/accountprotection>
 
 2. In the list of policies on the device policy page, do one of the following steps:
-   - Select :::image type="icon" source="media/m365-cc-sc-more-actions-icon.png" border="false"::: **Context menu** \> :::image type="icon" source="media/m365-cc-sc-delete-icon.png" border="false"::: **Delete** in the row of the policy that you want to delete.
-   - Select the policy that you want to delete by clicking anywhere in the row other than :::image type="icon" source="media/m365-cc-sc-more-actions-icon.png" border="false"::: **Context menu**. On the policy details page that opens, select :::image type="icon" source="media/m365-cc-sc-delete-icon.png" border="false"::: **Delete**.
+   - Select :::image type="icon"source="../../media/m365-cc-sc-more-actions-icon.png" border="false"::: **Context menu** \> :::image type="icon"source="../../media/m365-cc-sc-delete-icon.png" border="false"::: **Delete** in the row of the policy that you want to delete.
+   - Select the policy that you want to delete by clicking anywhere in the row other than :::image type="icon"source="../../media/m365-cc-sc-more-actions-icon.png" border="false"::: **Context menu**. On the policy details page that opens, select :::image type="icon"source="../../media/m365-cc-sc-delete-icon.png" border="false"::: **Delete**.
 
 3. In the **Are you sure?** confirmation dialog that appears, select **OK**.
 

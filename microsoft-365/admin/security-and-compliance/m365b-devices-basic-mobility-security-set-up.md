@@ -64,7 +64,7 @@ Use the following steps to enable Basic Mobility and Security in your organizati
 
 2. On the **Overview** tab, select **Enable feature**.
 
-   :::image type="content" source="media/basic-mobility-security-enable-feature.png" alt-text="Screenshot showing the Basic Mobility and Security page with the Enable feature link available." lightbox="media/basic-mobility-security-enable-feature.png":::
+   :::image type="content"source="../../media/basic-mobility-security-enable-feature.png" alt-text="Screenshot showing the Basic Mobility and Security page with the Enable feature link available." lightbox="media/basic-mobility-security-enable-feature.png":::
 
 3. In the confirmation dialog that opens, select **OK**. The following message is shown in the dialog:
 
@@ -77,7 +77,7 @@ After Basic Mobility and Security is enabled, the following changes happen on th
 - **Enable feature** on the **Overview** tab is replaced by **Managed devices** and **Manage Apple MDM Push Certificate**.
 - The **Policies** and **Organization Setting** tabs are available.
 
-:::image type="content" source="media/basic-mobility-security-feature-enabled.png" alt-text="Screenshot showing the Basic Mobility and Security page after the feature is enabled." lightbox="media/basic-mobility-security-feature-enabled.png":::
+:::image type="content"source="../../media/basic-mobility-security-feature-enabled.png" alt-text="Screenshot showing the Basic Mobility and Security page after the feature is enabled." lightbox="media/basic-mobility-security-feature-enabled.png":::
 
 ### Use PowerShell to enable Basic Mobility and Security in the organization
 
@@ -165,7 +165,7 @@ The **Organization Setting** tab on the **Basic Mobility and Security** page at 
 
   - **Block access**: We recommend this value to help secure your organization. Unsupported devices aren't allowed to access Microsoft 365 email on the device. After you select this value, the tab automatically refreshes and both sections on the page are collapsed. Expand this section to see the value you selected.
 
-  :::image type="content" source="media/basic-mobility-security-organization-setting-tab.png" alt-text="Screenshot of the Organization setting tab on the Basic Mobility and Security page showing the two sections expanded and Block access selected." lightbox="media/basic-mobility-security-organization-setting-tab.png":::
+  :::image type="content"source="../../media/basic-mobility-security-organization-setting-tab.png" alt-text="Screenshot of the Organization setting tab on the Basic Mobility and Security page showing the two sections expanded and Block access selected." lightbox="media/basic-mobility-security-organization-setting-tab.png":::
 
 - **Security groups excluded from access control**: Use this setting to exclude members of the specified security groups from Basic Mobility and Security. For example:
   - Specific, temporary exceptions for known, noncompliant devices.
@@ -189,7 +189,7 @@ The **Organization Setting** tab on the **Basic Mobility and Security** page at 
 
      After you expand this section, start typing the name of the group in the box, and then select the group when it appears. The tab automatically refreshes and the section collapses. Expand the section to see the group you selected below the box.
 
-     To remove a selected group, select :::image type="icon" source="media/m365-cc-sc-remove-selection-icon.png" border="false"::: on the entry. The tab automatically refreshes and the section collapses. Expand the section to see the group you removed is no longer below the box.
+     To remove a selected group, select :::image type="icon"source="../../media/m365-cc-sc-remove-selection-icon.png" border="false"::: on the entry. The tab automatically refreshes and the section collapses. Expand the section to see the group you removed is no longer below the box.
 
      Repeat these steps as many times as necessary.
 

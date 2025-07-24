@@ -148,12 +148,12 @@ The following templates in Conditional Access recreate the policies in security 
 To create Conditional Access policies using these templates, do the following steps:
 
 1. In the Microsoft Entra admin center, go to the **Conditional Access | Policies** page at <https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies>.
-2. On the **Conditional Access | Policies** page, select :::image type="icon" source="media/m365-cc-sc-create-icon.png" border="false"::: **New policy from template**.
+2. On the **Conditional Access | Policies** page, select :::image type="icon"source="../../media/m365-cc-sc-create-icon.png" border="false"::: **New policy from template**.
 3. On the **New policy from template** page, verify the **Select a template** tab is selected. On the **Select a template** tab, verify the **Secure foundation** tab is selected.
 4. On the **Secure foundation** tab, select one of the required templates (for example, **Require multifactor authentication for all users**), and then select **Review + Create**.
 
    > [!TIP]
-   > To find and select the **Require phishing-resistant multifactor authentication for admins** template, use the :::image type="icon" source="media/m365-cc-sc-search-icon.png" border="false"::: **Search** box.
+   > To find and select the **Require phishing-resistant multifactor authentication for admins** template, use the :::image type="icon"source="../../media/m365-cc-sc-search-icon.png" border="false"::: **Search** box.
 
 5. On the **Review + Create** tab, view or configure the following settings:
    - **Basics** section:
@@ -187,7 +187,7 @@ Before you create custom Conditional Access policies, create your emergency acce
 4. On the **Exclude** tab, the following settings are configured:
    - **Select the users and groups to exempt from the policy**: The value **Users and groups** is selected.
    - **Select excluded users and groups**: The value **1 user** is shown, and the user account that was used to create the policy is shown.
-     - To remove the current account from the excluded users list, select :::image type="icon" source="media/m365-cc-sc-more-actions-icon.png" border="false"::: \> :::image type="icon" source="media/m365-cc-sc-delete-icon.png" border="false"::: **Remove**.
+     - To remove the current account from the excluded users list, select :::image type="icon"source="../../media/m365-cc-sc-more-actions-icon.png" border="false"::: \> :::image type="icon"source="../../media/m365-cc-sc-delete-icon.png" border="false"::: **Remove**.
 
        The value changes to **0 users and groups selected** and the warning text **Select at least one user or group** appears.
 
@@ -216,7 +216,7 @@ Security defaults is turned off when you're using Conditional Access policies. I
 To delete Conditional Access policies, use the following steps:
 
 1. On the **Conditional Access | Policies** page at <https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies>, select the policy that you want to delete.
-2. In the details page that opens, select :::image type="icon" source="media/m365-cc-sc-delete-icon.png" border="false"::: **Delete** at the top of the page.
+2. In the details page that opens, select :::image type="icon"source="../../media/m365-cc-sc-delete-icon.png" border="false"::: **Delete** at the top of the page.
 3. In the **Are you sure?** dialog that opens, select **Yes**.
 
 After you delete all Conditional Access policies, you can turn on security defaults as described in [Manage security defaults](#manage-security-defaults).

@@ -79,9 +79,9 @@ Regardless of your selection, the request is immediately sent to the device:
    - Select **⋮** in the **Device name** column.
 
 3. Select one of the following actions:
-   - :::image type="icon" source="media/m365-cc-sc-remove-company-data-icon.png" border="false"::: **Remove company data**: Delete only Microsoft 365 organization information. Read the information in the confirmation dialog that opens, and then select **Remove data**.
-   - :::image type="icon" source="media/m365-cc-sc-factory-reset-icon.png" border="false"::: **Factory reset**: Wipe the device and return it to factory settings. Read the information in the confirmation dialog that opens, and then select **Factory Reset**.
-   - :::image type="icon" source="media/m365-cc-sc-delete-icon.png" border="false"::: **Delete**: Equivalent to **Remove data**. Read the information in the confirmation dialog that opens, and then select **Delete**.
+   - :::image type="icon"source="../../media/m365-cc-sc-remove-company-data-icon.png" border="false"::: **Remove company data**: Delete only Microsoft 365 organization information. Read the information in the confirmation dialog that opens, and then select **Remove data**.
+   - :::image type="icon"source="../../media/m365-cc-sc-factory-reset-icon.png" border="false"::: **Factory reset**: Wipe the device and return it to factory settings. Read the information in the confirmation dialog that opens, and then select **Factory Reset**.
+   - :::image type="icon"source="../../media/m365-cc-sc-delete-icon.png" border="false"::: **Delete**: Equivalent to **Remove data**. Read the information in the confirmation dialog that opens, and then select **Delete**.
 
 > [!TIP]
 > You can configure device security policies in Basic Mobility and Security to automatically factory reset devices after a specified number of unsuccessful device password attempts (the **Number of sign-in failures before device is wiped** setting). For more information, see [Access requirement settings in Basic Mobility and Security](m365b-devices-basic-mobility-security-overview.md#access-requirement-settings) and [Configure policies in Basic Mobility and Security](m365b-devices-basic-mobility-security-policies-configure.md).

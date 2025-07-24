@@ -112,7 +112,7 @@ Alert policies are useful for tracking user and admin activities, potential malw
 
 2. On the **Alert policy** page, review the default policies:
    - Click on the **Name** column header to sort the alert policies by name.
-   - Use :::image type="icon" source="media/m365-cc-sc-filter-icon.png" border="false"::: **Filter** to filter the alert policies by **Category**.
+   - Use :::image type="icon"source="../../media/m365-cc-sc-filter-icon.png" border="false"::: **Filter** to filter the alert policies by **Category**.
    - Click on the **Name** value of a policy to open the details flyout for more information and notification options.
 
 3. The alerts that result from alert policies are available on the **Alerts** page in the Defender portal at **Incidents & alerts** \> **Alerts** or directly at <https://security.microsoft.com/alerts>.
@@ -131,11 +131,11 @@ You can help people share their calendars securely by limiting the level of deta
    - **External sharing** section:
      - **Let your users share their calendars with people outside of your organization who have Office 365 or Exchange**: We recommend clearing this setting.
 
-       :::image type="content" source="media/nocalendarsharing.png" alt-text="Screenshot of showing external calendar sharing as not allowed." lightbox="media/nocalendarsharing.png":::
+       :::image type="content"source="../../media/nocalendarsharing.png" alt-text="Screenshot of showing external calendar sharing as not allowed." lightbox="media/nocalendarsharing.png":::
 
        If you leave this setting selected, **Allow anyone to access calendars with an email invitation** is also available. For this setting, we recommend **Show calendar free/busy information with time only**.
 
-       :::image type="content" source="media/sharefreebusy.png" alt-text="Screenshot of calendar free/busy sharing with anyone." lightbox="media/sharefreebusy.png":::
+       :::image type="content"source="../../media/sharefreebusy.png" alt-text="Screenshot of calendar free/busy sharing with anyone." lightbox="media/sharefreebusy.png":::
 
    When you're finished in the **Calendar** flyout, select **Save**.
 

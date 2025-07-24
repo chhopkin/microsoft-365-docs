@@ -74,7 +74,7 @@ To create a policy, do the following steps.
 
 1. On the **Basic Mobility and Security** page at <https://compliance.microsoft.com/basicmobilityandsecurity>, select the **Policies** tab.
 
-2. On the **Policies** tab, select :::image type="icon" source="media/m365-cc-sc-create-rules-for-devices-icon.png" border="false"::: **Create** to start the new policy wizard.
+2. On the **Policies** tab, select :::image type="icon"source="../../media/m365-cc-sc-create-rules-for-devices-icon.png" border="false"::: **Create** to start the new policy wizard.
 
 3. On the **Policy name** page, configure the following settings:
    - **Name**: Enter a unique, descriptive name for the policy. You can't change the name of the policy after you create it.
@@ -108,11 +108,11 @@ To create a policy, do the following steps.
      > [!IMPORTANT]
      > We recommend that you apply a new policy to a small number of test users (a designated test group with a few designated members). Verify that the policy works as you expect before you deploy it to your organization.
 
-     <!--- Check the status of user devices that have the policy applied. You want the **State** of devices to be **Managed.** You can also do a full or selective wipe on a device by clicking on **Factory reset** or **Remove company data** from **Manage** button after selecting a device. For instructions, see [Wipe a mobile device in Basic Mobility and Security](wipe-mobile-device.md).--->
+     <!--- Check the status of user devices that have the policy applied. You want the **State** of devices to be **Managed.** You can also do a full or selective wipe on a device by clicking on **Factory reset** or **Remove company data** from **Manage** button after selecting a device..--->
 
      After you expand this section, start typing the name of the group in the box, and then select the group when it appears. The selected group appears below the box.
 
-     To remove a selected group, select :::image type="icon" source="media/m365-cc-sc-remove-selection-icon.png" border="false"::: on the entry.
+     To remove a selected group, select :::image type="icon"source="../../media/m365-cc-sc-remove-selection-icon.png" border="false"::: on the entry.
 
      Repeat these steps as many times as necessary.
 
@@ -142,7 +142,7 @@ To create a policy, do the following steps.
 
    Back on the **Policies** tab of the **Basic Mobility and Security** page, the new policy is listed. The **Status value** is **Turning on...** for a few minutes. When you refresh the page, the **Status** value is **On**.
 
-:::image type="content" source="media/basic-mobility-security-policies-tab.png" alt-text="Screenshot of the Policies tab on the Basic Mobility and Security page." lightbox="media/basic-mobility-security-policies-tab.png":::
+:::image type="content"source="../../media/basic-mobility-security-policies-tab.png" alt-text="Screenshot of the Policies tab on the Basic Mobility and Security page." lightbox="media/basic-mobility-security-policies-tab.png":::
 
 The policy is pushed to the affected users the next time they sign in to Microsoft 365 on their device.
 
@@ -167,16 +167,16 @@ On the **Policies** tab of the **Basic Mobility and Security** page at <https://
 - **Status**
 - **Last modified time**
 
-To change the list of policies from normal to compact spacing, select :::image type="icon" source="media/m365-cc-sc-standard-icon.png" border="false"::: **Change list spacing to compact or normal**, and then select :::image type="icon" source="media/m365-cc-sc-compact-icon.png" border="false"::: **Compact list**.
+To change the list of policies from normal to compact spacing, select :::image type="icon"source="../../media/m365-cc-sc-standard-icon.png" border="false"::: **Change list spacing to compact or normal**, and then select :::image type="icon"source="../../media/m365-cc-sc-compact-icon.png" border="false"::: **Compact list**.
 
-Use the :::image type="icon" source="media/m365-cc-sc-search-icon.png" border="false"::: **Search** box and a corresponding value to find specific policies.
+Use the :::image type="icon"source="../../media/m365-cc-sc-search-icon.png" border="false"::: **Search** box and a corresponding value to find specific policies.
 
 To see details about a policy, select the policy by clicking anywhere in the row other than the check box next to the name to open the details flyout for the policy.
 
 > [!TIP]
-> To see details about other policies without leaving the details flyout, use :::image type="icon" source="media/updownarrows.png" border="false"::: **Previous item** and **Next item** at the top of the flyout.
+> To see details about other policies without leaving the details flyout, use :::image type="icon"source="../../media/updownarrows.png" border="false"::: **Previous item** and **Next item** at the top of the flyout.
 
-:::image type="content" source="media/basic-mobility-security-policy-details.png" alt-text="Screenshot of the details flyout of a policy from the Policies tab on the Basic Mobility and Security page." lightbox="media/basic-mobility-security-policy-details.png":::
+:::image type="content"source="../../media/basic-mobility-security-policy-details.png" alt-text="Screenshot of the details flyout of a policy from the Policies tab on the Basic Mobility and Security page." lightbox="media/basic-mobility-security-policy-details.png":::
 
 ## Modify policies in Basic Mobility and Security
 
@@ -203,11 +203,11 @@ Select the **Edit** link in the corresponding section to open another flyout to 
 
 1. On the **Policies** tab of the **Basic Mobility and Security** page at <https://compliance.microsoft.com/basicmobilityandsecurity>, select one or more policies by selecting the check box next to the name.
 
-2. Select :::image type="icon" source="media/m365-cc-sc-more-actions-icon.png" border="false"::: **More actions** \> **Delete selected policies**.
+2. Select :::image type="icon"source="../../media/m365-cc-sc-more-actions-icon.png" border="false"::: **More actions** \> **Delete selected policies**.
 
 3. Select **Yes** in the warning dialog that opens.
 
-Back on the **Policies** tab of the **Basic Mobility and Security** page, the **Status** value of the policy changes to **Deleting...** for a few minutes. Eventually, after you select :::image type="icon" source="media/m365-cc-sc-refresh-icon.png" border="false"::: **Refresh, the policy is no longer listed.
+Back on the **Policies** tab of the **Basic Mobility and Security** page, the **Status** value of the policy changes to **Deleting...** for a few minutes. Eventually, after you select :::image type="icon"source="../../media/m365-cc-sc-refresh-icon.png" border="false"::: **Refresh, the policy is no longer listed.
 
 ## Manage policies in Security & Compliance PowerShell
 

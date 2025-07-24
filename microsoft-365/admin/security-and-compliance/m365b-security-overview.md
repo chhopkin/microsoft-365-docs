@@ -17,7 +17,7 @@ ms.collection:
   - essentials-overview
 ms.custom:
 description: Learn about the security features available in Microsoft 365 for business.
-ms.service: m365b-security
+ms.service: microsoft-365-business-security
 adobe-target:
 ms.date: 05/21/2025
 appliesto:
