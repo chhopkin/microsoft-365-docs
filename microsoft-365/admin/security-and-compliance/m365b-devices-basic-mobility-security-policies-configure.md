@@ -142,7 +142,7 @@ To create a policy, do the following steps.
 
    Back on the **Policies** tab of the **Basic Mobility and Security** page, the new policy is listed. The **Status value** is **Turning on...** for a few minutes. When you refresh the page, the **Status** value is **On**.
 
-:::image type="content"source="../../media/basic-mobility-security-policies-tab.png" alt-text="Screenshot of the Policies tab on the Basic Mobility and Security page." lightbox="media/basic-mobility-security-policies-tab.png":::
+:::image type="content"source="../../media/basic-mobility-security-policies-tab.png" alt-text="Screenshot of the Policies tab on the Basic Mobility and Security page." lightbox="../../media/basic-mobility-security-policies-tab.png":::
 
 The policy is pushed to the affected users the next time they sign in to Microsoft 365 on their device.
 
@@ -176,7 +176,7 @@ To see details about a policy, select the policy by clicking anywhere in the row
 > [!TIP]
 > To see details about other policies without leaving the details flyout, use :::image type="icon"source="../../media/updownarrows.png" border="false"::: **Previous item** and **Next item** at the top of the flyout.
 
-:::image type="content"source="../../media/basic-mobility-security-policy-details.png" alt-text="Screenshot of the details flyout of a policy from the Policies tab on the Basic Mobility and Security page." lightbox="media/basic-mobility-security-policy-details.png":::
+:::image type="content"source="../../media/basic-mobility-security-policy-details.png" alt-text="Screenshot of the details flyout of a policy from the Policies tab on the Basic Mobility and Security page." lightbox="../../media/basic-mobility-security-policy-details.png":::
 
 ## Modify policies in Basic Mobility and Security
 

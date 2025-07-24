@@ -131,11 +131,11 @@ You can help people share their calendars securely by limiting the level of deta
    - **External sharing** section:
      - **Let your users share their calendars with people outside of your organization who have Office 365 or Exchange**: We recommend clearing this setting.
 
-       :::image type="content"source="../../media/nocalendarsharing.png" alt-text="Screenshot of showing external calendar sharing as not allowed." lightbox="media/nocalendarsharing.png":::
+       :::image type="content"source="../../media/nocalendarsharing.png" alt-text="Screenshot of showing external calendar sharing as not allowed." lightbox="../../media/nocalendarsharing.png":::
 
        If you leave this setting selected, **Allow anyone to access calendars with an email invitation** is also available. For this setting, we recommend **Show calendar free/busy information with time only**.
 
-       :::image type="content"source="../../media/sharefreebusy.png" alt-text="Screenshot of calendar free/busy sharing with anyone." lightbox="media/sharefreebusy.png":::
+       :::image type="content"source="../../media/sharefreebusy.png" alt-text="Screenshot of calendar free/busy sharing with anyone." lightbox="../../media/sharefreebusy.png":::
 
    When you're finished in the **Calendar** flyout, select **Save**.
 

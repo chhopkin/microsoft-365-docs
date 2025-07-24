@@ -105,7 +105,7 @@ Device cmdlets in Microsoft Graph PowerShell show the enrollment and compliance 
 
 This information is illustrated in the following diagram:
 
-:::image type="content"source="../../media/basic-mobility-security-device-info.png" alt-text="Diagram showing the device enrollment and device compliance states in Basic Mobility and Security." lightbox="media/basic-mobility-security-device-info.png":::
+:::image type="content"source="../../media/basic-mobility-security-device-info.png" alt-text="Diagram showing the device enrollment and device compliance states in Basic Mobility and Security." lightbox="../../media/basic-mobility-security-device-info.png":::
 
 ### Use the Get-MgDevice cmdlet to view device details
 

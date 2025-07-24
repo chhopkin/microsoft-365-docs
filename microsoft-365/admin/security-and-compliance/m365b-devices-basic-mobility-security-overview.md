@@ -90,7 +90,7 @@ There are two different types of policies in Basic Mobility and Security. Both c
 
   The following diagram shows what happens when a users tries to access company resources using the Microsoft 365 app on an unenrolled device. The applicable policy in Basic Mobility and Security is a **block access** policy, so the user is prompted to enroll the device before they can access company resources in the app.
 
-  :::image type="content"source="../../media/microsoft-365-bsm-app-diagram.png" alt-text="A conceptual diagram that explains the steps in access control from supported apps in Basic Mobility and Security." lightbox="media/microsoft-365-bsm-app-diagram.png":::
+  :::image type="content"source="../../media/microsoft-365-bsm-app-diagram.png" alt-text="A conceptual diagram that explains the steps in access control from supported apps in Basic Mobility and Security." lightbox="../../media/microsoft-365-bsm-app-diagram.png":::
 
 After the device is enrolled in Basic Mobility and Security, and the device meets any [access requirement settings in the applicable policy](#access-requirement-settings), the user can access company resources on the device using supported apps as described in the next section.
 
@@ -130,7 +130,7 @@ For both **allow access policies** and **block access policies** in Basic Mobili
 
   The following diagram shows what happens when a users tries to access company resources using the Office Mobile app on an enrolled device. The applicable policy requires a device password, but the device doesn't have a password.
 
-  :::image type="content"source="../../media/bms-2-device-not-compliant.png" alt-text="Basic Mobility and Security compliance message." lightbox="media/bms-2-device-not-compliant.png":::
+  :::image type="content"source="../../media/bms-2-device-not-compliant.png" alt-text="Basic Mobility and Security compliance message." lightbox="../../media/bms-2-device-not-compliant.png":::
 
 - **Configuration settings**: These settings are described in the [Configuration settings](#configuration-settings) section. These settings control access to features on the device (for example, not allowing screen captures on supported devices) and are automatically configured on the device without user input.
 
