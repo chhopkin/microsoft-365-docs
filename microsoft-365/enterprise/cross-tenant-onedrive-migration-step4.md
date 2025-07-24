@@ -56,7 +56,7 @@ When creating M365 group objects, it is recommended that you assign the group to
    ```
 >[!Note]
 >If the group site will be outside the default instance, the MailboxRegion (PDL) must be set.
->For more information refer to [Create a Microsoft 365 Group with a specific preferred data location - Microsoft 365 Enterprise | Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/enterprise/multi-geo-add-group-with-pdl?view=o365-worldwide) 
+>For more information refer to [Create a Microsoft 365 Group with a specific preferred data location - Microsoft 365 Enterprise | Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/enterprise/multi-geo-add-group-with-pdl) 
 
 >[!Note]
 >To learn more on restricting OneDrive site creation, see [Disable OneDrive creation for some users](/sharepoint/manage-user-profiles#disable-onedrive-creation-for-some-users).
