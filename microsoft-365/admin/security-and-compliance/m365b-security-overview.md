@@ -144,5 +144,5 @@ Business Premium includes the following additional features for device security:
 
 ## See also
 
-- [Microsoft 365 Business Premium frequently asked questions](m365bp-faq.yml)
+- [Microsoft 365 Business Premium frequently asked questions](/microsoft-365/business-premium/microsoft-365-business-faqs)
 - [Set up information protection capabilities in Microsoft 365 Business Premium](m365bp-information-protection.md)

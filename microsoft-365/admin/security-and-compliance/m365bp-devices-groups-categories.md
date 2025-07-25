@@ -35,7 +35,7 @@ The rest of this article explains device groups in Defender for Business, device
 
 ## Device groups in Defender for Business
 
-Defender for Business in Business Premium contains the built-in device group named **All Devices** that's assigned to the built-in [device protection policies](m365bp-device-protection-policies-configure.md) named **NGP Windows default policy** and **Firewall Windows default policy**. This device group includes all devices that are onboarded in Defender for Business.
+Defender for Business in Business Premium contains the built-in device group named **All Devices** that's assigned to the built-in [device protection policies](m365bp-devices-protection.md) named **NGP Windows default policy** and **Firewall Windows default policy**. This device group includes all devices that are onboarded in Defender for Business.
 
 You can also create custom device groups to use in the built-in device protection policies or in custom protection policies. You can create device groups in the following locations:
 
@@ -73,7 +73,7 @@ Details about dynamic device groups in the Defender portal vs. the Microsoft Ent
 
 #### Dynamic device groups in the Defender portal
 
-As you create or edit [device protection policies](m365bp-device-protection-policies-configure.md) in the Defender portal, the following dynamic device group elements are available:
+As you create or edit [device protection policies](m365bp-devices-protection.md) in the Defender portal, the following dynamic device group elements are available:
 
 - **Property**:
   - **Device OS Type**: One or both of the following values:
@@ -188,7 +188,7 @@ There's no direct location to create device groups in the Defender portal. Inste
      - Select :::image type="icon"source="../../media/m365-cc-sc-add-internal-icon.png" border="false"::: **Use existing group** to select one or more device groups to use in this protection policy.
 
 7. At this step in creating the device protection policy, you have the following options on the **Device groups** page:
-   - Select **Next** to continue creating or modifying the device protection policy as described in [Device protection policies in Microsoft 365 Business Premium](m365bp-devices-policies-configure.md) (starting at Step 4).
+   - Select **Next** to continue creating or modifying the device protection policy as described in [Device protection in Microsoft 365 Business Premium](m365bp-devices-protection.md) (starting at Step 4).
    - Select **Cancel** to stop creating or modifying the device protection policy. The new device group is available to select in new or existing device protection policies in the Defender portal, and is available in the Microsoft Entra admin center.
 
 ### Create device groups in the Microsoft Entra admin center

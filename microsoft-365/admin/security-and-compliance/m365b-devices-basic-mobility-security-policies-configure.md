@@ -546,7 +546,7 @@ Remove-DeviceConfigurationPolicy -Identity "Marketing Department"
 
 The associated device configuration rule named `Marketing Department{xxx}` is automatically removed after a few minutes.
 
-For detailed syntax and parameter information, see [Remove-DeviceConfigurationPolicy](/powershell/module/exchange/remove-deviceconfigurationpolicy) and [Remove-DeviceConditionalAccessPolicy](/powershell/module/exchange/remove-deviceconditinalaccesspolicy).
+For detailed syntax and parameter information, see [Remove-DeviceConfigurationPolicy](/powershell/module/exchange/remove-deviceconfigurationpolicy) and [Remove-DeviceConditionalAccessPolicy](/powershell/module/exchange/remove-deviceconditionalaccesspolicy).
 
 ### Use PowerShell to remove device rules
 
@@ -590,4 +590,4 @@ When you delete a policy or remove a user from a policy, the information that mi
 
 The policy is removed from the affected device the next time the device checks in with Basic Mobility and Security. If you deploy a new policy that applies to the device, users are prompted to re-enroll in Basic Mobility and Security.
 
-You can also wipe a mobile device completely, or selectively wipe organizational information from the device. For more information, see [Wipe a mobile device in Basic Mobility and Security](wipe-mobile-device.md).
+You can also wipe a mobile device completely, or selectively wipe organizational information from the device. For more information, see [Wipe a mobile device in Basic Mobility and Security](m365b-devices-basic-mobility-security-wipe-devices.md).

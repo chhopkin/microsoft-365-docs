@@ -86,6 +86,6 @@ The following table summarizes how to secure your data using Microsoft 365 for b
 |**9. Manage calendar sharing**||||
 |&nbsp;&nbsp;&nbsp;[Outlook](../setup/setup-outlook.md) for email and calendars.|✔|✔|✔|
 |&nbsp;&nbsp;&nbsp;[Microsoft Purview Data Loss Prevention](/purview/dlp-create-deploy-policy) to safeguard company data.|||✔|
-|**10. Maintain your environment**: See [Maintain your environment](m365bp-mdb-maintain-environment.md).|✔|✔|✔|
+|**10. Maintain your environment**: See [Maintain your environment](m365bp-security-monitor.md).|✔|✔|✔|
 
 For more information about what each plan includes, see [Microsoft 365 User Subscription Suites for Small and Medium-sized Businesses](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWR6bM).
