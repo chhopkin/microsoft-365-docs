@@ -126,7 +126,7 @@ To create device groups in the Microsoft Entra admin center, see the [Create dev
 
 ### Create device groups in the Microsoft Defender portal
 
-There's no direct location to create device groups in the Defender portal. Instead, you can create device groups while you create or edit device protection policies on the **Windows** tab of the **Device configuration** page. For more information about creating or editing device protection policies, see [Device protection policies in Microsoft 365 Business Premium](m365bp-devices-protection-policies-configure.md).
+There's no direct location to create device groups in the Defender portal. Instead, you can create device groups while you create or edit device protection policies on the **Windows** tab of the **Device configuration** page. For more information about creating or editing device protection policies, see [Device protection policies in Microsoft 365 Business Premium](m365bp-devices-protection.md).
 
 1. In the Microsoft Defender portal at <https://security.microsoft.com>, go to **Endpoints** \> **Configuration management** \> **Device configuration**. Or, to go directly to the **Device configuration** page, use <https://security.microsoft.com/policy-management>.
 
