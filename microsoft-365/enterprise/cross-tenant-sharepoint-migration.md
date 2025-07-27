@@ -16,10 +16,10 @@ ms.collection:
 search.appverid: MET150
 description: "Learn about the Cross-tenant SharePoint migration solution to migrate your SharePoint sites from tenant to tenant, currently in preview."
 ---
-# Cross-tenant SharePoint migration (preview)
+# Cross-tenant SharePoint migration
 
->[!Note]
->Cross-Tenant SharePoint migration is currently in a private preview stage of development. As an unfinished project, any information or availability is subject to change at any time. Support for private-preview customers will be handled via email. Cross-Tenant SharePoint migration is covered by the preview terms of the [Microsoft Universal License Terms for Online Services](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all).
+<!-- >[!Note]
+>Cross-Tenant SharePoint migration is currently in a private preview stage of development. As an unfinished project, any information or availability is subject to change at any time. Support for private-preview customers will be handled via email. Cross-Tenant SharePoint migration is covered by //the preview terms of the [Microsoft Universal License Terms for Online Services](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all).-->
 
 SharePoint sites can now be moved from one tenant to another using the Cross-tenant SharePoint migration feature.
 
@@ -34,16 +34,18 @@ Up to 4,000 SharePoint accounts can be scheduled for migration in advance at a g
 
 The **Cross-Tenant User Content Migration** feature and licenses are currently only available to Enterprise Agreement customers.
 
-If you're an Enterprise Agreement customer who will be purchasing Cross-Tenant User Content Migration licenses, and you would like to evaluate Cross-Tenant SharePoint migration to improve your migration experience, sign-up at:
-
-- **[https://aka.ms/ODSPSecurityPreviews](https://aka.ms/ODSPSecurityPreviews)**
-
-Make sure to include all of the requested information, and indicate your interest in "**SharePoint cross-tenant data migration (Mergers and Acquisition scenario)**".
-
-For more information on licensing:
+If you're an Enterprise Agreement customer who will be purchasing Cross-Tenant User Content Migration licenses, and you would like to evaluate Cross-Tenant SharePoint migration to improve your migration experience:
 
 - Contact your Microsoft account team
 - [**Learn more at Cross-Tenant User Content Migration Licensing**](/microsoft-365/enterprise/cross-tenant-mailbox-migration).
+- Licenses are offered on a per 100 GB of data moved basis
+
+>[!Note]
+> To find out how many licenses are needed to migrate your given data: Get the StorageUsed for each SharePoint Site you are migrating via with this tool and sum it up (values are in bytes). 
+
+```
+Get-SPOSite -Limit All | Select-Object Url, StorageUsageCurrent
+```
 
 ## Prerequisites and settings
 
