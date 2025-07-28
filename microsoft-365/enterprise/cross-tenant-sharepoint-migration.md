@@ -91,8 +91,8 @@ You can migrate sites directly into individual satellite geo instances as needed
 - If a site is migrated to an incorrect instance, you cannot use Cross Tenant User Migration to move it between instances of the same tenant.
 - 
 Use the appropriate multi geo commands to move the site between geo instance of the same tenant.
-- To move OneDrive sites between instances refer to [Move a OneDrive site.](https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-workload-spo?view=o365-worldwide#move-a-onedrive-site)
-- To move SharePoint sites between instances refer to [Move a SharePoint site or SharePoint Embedded container site.] (https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-workload-spo?view=o365-worldwide#move-a-sharepoint-site-or-sharepoint-embedded-container-site)
+- To move OneDrive sites between instances refer to [Move a OneDrive site.](/microsoft-365/enterprise/m365-dr-workload-spo)
+- To move SharePoint sites between instances refer to [Move a SharePoint site or SharePoint Embedded container site.](/microsoft-365/enterprise/m365-dr-workload-spo)
 
 ## Support SharePoint features
 
