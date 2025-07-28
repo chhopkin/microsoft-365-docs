@@ -45,6 +45,8 @@ You must be the appropriate admin for the feature area. For more information, se
 
 ### Microsoft 365 apps settings
 
+This section outlines the options available within Microsoft 365 Apps to turn off Restricted mode settings in the Microsoft 365 admin center.
+
 You must be a member of the [Office Apps administrator role](/entra/identity/role-based-access-control/permissions-reference) to perform this task.
 
 |Setting     |More information  |
@@ -61,6 +63,8 @@ You must be a member of the [Office Apps administrator role](/entra/identity/rol
 
 ### OneDrive and SharePoint settings
 
+This section outlines the options available within OneDrive and SharePoint to turn off Restricted mode settings in the Microsoft 365 admin center.
+
 You must be a member of the [SharePoint administrator role](/sharepoint/sharepoint-admin-role) to perform this task.
 
 |Setting     |More information  |
@@ -72,6 +76,8 @@ You must be a member of the [SharePoint administrator role](/sharepoint/sharepoi
 
 ### Exchange settings
 
+This section outlines the options available within Exchange to turn off Restricted mode settings in the Exchange admin center.
+
 You must be a member of the [Exchange online administrator role](../add-users/about-exchange-online-admin-role.md) to perform this task.
 
 |Setting     |More information  |
@@ -79,6 +85,8 @@ You must be a member of the [Exchange online administrator role](../add-users/ab
 | Disable tenant-wide access to Exchange web services (EWS) |Exchange web services (EWS) provides cross-platform API access to sensitive Exchange Online data like emails, meetings, and contacts. If compromised, attackers can access confidential data, send phishing emails, spoof identities and potentially gain system control. When you disable access to EWS, you also reduce legacy app usage and minimize the number of endpoints that attackers can target.  <br/><br/> For more information, see [Control access to EWS](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)|
 
 ### Identity settings
+
+This section outlines the options available within Identity to turn off Restricted mode settings in the Microsoft 365 admin center.
 
 You must be the appropriate admin to perform these tasks.
 
@@ -90,6 +98,8 @@ You must be the appropriate admin to perform these tasks.
 |Restrict end-user consent to Microsoft 365 certified and single tenant apps with low risk permissions     | Configure user consent settings in Microsoft Entra ID to control when and how users grant permissions to applications. This guidance helps admins reduce security risks by restricting or disabling user consent for apps in Microsoft 365.  <br/><br/> For more information, see [Configure how users consent to applications](/entra/identity/enterprise-apps/configure-user-consent?pivots=portal)|
 
 ### Teams devices settings
+
+This section outlines the options available within Teams to turn off Restricted mode settings in the Microsoft 365 admin center.
 
 You must be a member of the [Teams administrator role](/entra/identity/role-based-access-control/permissions-reference) to perform this tasks.
 
