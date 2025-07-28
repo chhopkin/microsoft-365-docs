@@ -45,7 +45,7 @@ The Group Policy setting **File Block includes trusted files** can be found in t
 
 - **Group Policy path**: `User Configuration > Administrative Templates > Microsoft {App} 2016 > {App} Options > Security > Trust Center`
 
-To revert to the default behavior, set this policy as not configured for each app (Word, Excel, PowerPoint, and Visio).
+To revert to default behavior, set this policy as not configured for each app (Word, Excel, PowerPoint, and Visio).
 
 The Group Policy setting **Set default file block behavior** controls opening certain file formats in Protected View and disallowing saving. It can be found in the following path:
 
