@@ -49,6 +49,9 @@ This section outlines the options available within Microsoft 365 Apps to turn of
 
 You must be a member of the [Office Apps administrator role](/entra/identity/role-based-access-control/permissions-reference) to perform this task.
 
+> [!NOTE]
+> The version number for Microsoft 365 apps client support for Restricted mode settings will be 2508.
+
 |Setting     |More information  |
 |---------|---------|
 | Open ancient legacy formats in Protected View and disallow editing |Ancient legacy file formats in Microsoft 365 apps (formerly Office) are particularly vulnerable to memory corruption. When users open these outdated formats in Protected View with editing disabled, you prevent potential exploits while still allowing users to view the content without risk. <br/><br/> For more information, see [Open ancient legacy formats in Protected View and disallow editing](open-ancient-legacy-formats-protected-view-disallow-editing.md). |
