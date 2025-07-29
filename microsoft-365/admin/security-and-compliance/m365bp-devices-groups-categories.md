@@ -16,6 +16,7 @@ ms.collection:
 - SMB
 - m365-security
 - tier2
+- trust-pod
 appliesto:
   - ✅ <a href="https://www.microsoft.com/microsoft-365/business/microsoft-365-business-premium" target="_blank">Microsoft 365 Business Premium</a>
   - ✅ <a href="https://m365forcampaigns.microsoft.com/" target="_blank">Microsoft 365 for Campaigns</a>

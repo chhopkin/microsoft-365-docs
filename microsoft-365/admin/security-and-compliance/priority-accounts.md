@@ -15,6 +15,7 @@ ms.collection:
 - scotvorg
 - Adm_O365
 - Adm_TOC
+- trust-pod
 ms.custom: 
 - AdminSurgePortfolio
 - admindeeplinkMAC

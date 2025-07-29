@@ -17,6 +17,7 @@ ms.collection:
  - essentials-privacy
  - essentials-compliance
  - magic-ai-copilot
+ - trust-pod
 ms.custom:
 appliesto:
   - ✅ <a href="https://www.microsoft.com/microsoft-365/business/microsoft-365-business-basic" target="_blank">Microsoft 365 Business Basic</a>

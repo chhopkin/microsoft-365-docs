@@ -15,6 +15,7 @@ ms.collection:
   - tier1
   - highpri
   - essentials-overview
+  - trust-pod
 ms.custom:
 description: Learn about the security features available in Microsoft 365 for business.
 ms.service: microsoft-365-business-security
