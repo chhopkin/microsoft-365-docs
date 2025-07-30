@@ -47,7 +47,7 @@ You must be the appropriate admin for the feature area. For more information, se
 
 This section outlines the options available within Microsoft 365 Apps to turn off Restricted mode settings in the Microsoft 365 admin center.
 
-You must be a member of the [Office Apps administrator role](/entra/identity/role-based-access-control/permissions-reference) to perform this task.
+You must be a member of the [Office Apps administrator role](/entra/identity/role-based-access-control/permissions-reference) to perform these tasks.
 
 > [!NOTE]
 > The version number for Microsoft 365 apps client support for Restricted mode settings will be 2508.
@@ -68,7 +68,7 @@ You must be a member of the [Office Apps administrator role](/entra/identity/rol
 
 This section outlines the options available within OneDrive and SharePoint to turn off Restricted mode settings in the Microsoft 365 admin center.
 
-You must be a member of the [SharePoint administrator role](/sharepoint/sharepoint-admin-role) to perform this task.
+You must be a member of the [SharePoint administrator role](/sharepoint/sharepoint-admin-role) to perform these tasks.
 
 |Setting     |More information  |
 |---------|---------|
@@ -91,23 +91,21 @@ You must be a member of the [Exchange online administrator role](../add-users/ab
 
 This section outlines the options available within Identity to turn off Restricted mode settings in the Microsoft 365 admin center.
 
-You must be the appropriate admin to perform these tasks.
-
 |Setting     |More information  |
 |---------|---------|
-| Protect admin access to Microsoft admin portals with phishing resistant authentication | Accounts that are assigned privileged administrative roles are frequent targets of attackers. Requiring phishing-resistant multifactor authentication (MFA) on those accounts is an easy way to reduce the risk of those accounts being compromised.<br/><br/> For more information, see [Require phishing-resistant multifactor authentication for administrators](/entra/identity/conditional-access/policy-admin-phish-resistant-mfa)|
-|Block legacy authentication flows     | We recommend that organizations block authentication requests that use legacy protocols that don't support multifactor authentication. Based on analysis, most credential stuffing attacks use legacy authentication and the majority of password spray attacks use legacy authentication protocols. You can help stop these attacks with basic authentication disabled or blocked.  <br/><br/> For more information, see [Block legacy authentication with Conditional Access](/entra/identity/conditional-access/policy-block-legacy-authentication)|
-|Block addition of new password credentials to apps    | To increase security, we recommend that you block the use of password credentials for your applications. By switching to a more secure method, you improve the security, reduce management complexity and helps you scale your applications securely.  <br/><br/> For more information, see [Microsoft Entra application management policies API overview](/graph/api/resources/applicationauthenticationmethodpolicy?view=graph-rest-1.0).|
-|Restrict end-user consent to Microsoft 365 certified and single tenant apps with low risk permissions     | Configure user consent settings in Microsoft Entra ID to control when and how users grant permissions to applications. This guidance helps admins reduce security risks by restricting or disabling user consent for apps in Microsoft 365.  <br/><br/> For more information, see [Configure how users consent to applications](/entra/identity/enterprise-apps/configure-user-consent?pivots=portal)|
+| Protect admin access to Microsoft admin portals with phishing resistant authentication | Accounts that are assigned privileged administrative roles are frequent targets of attackers. Requiring phishing-resistant multifactor authentication (MFA) on those accounts is an easy way to reduce the risk of those accounts being compromised.<br/><br/> For more information, see [Require phishing-resistant multifactor authentication for administrators](/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) <br/><br/> You must be a member of the [Security administrator](/entra/identity/role-based-access-control/permissions-reference) or the [Conditional access administrator](/entra/identity/role-based-access-control/permissions-reference) roles to perform this task.|
+|Block legacy authentication flows     | We recommend that organizations block authentication requests that use legacy protocols that don't support multifactor authentication. Based on analysis, most credential stuffing attacks use legacy authentication and the majority of password spray attacks use legacy authentication protocols. You can help stop these attacks with basic authentication disabled or blocked.  <br/><br/> For more information, see [Block legacy authentication with Conditional Access](/entra/identity/conditional-access/policy-block-legacy-authentication) <br/><br/> You must be a member of the [Security administrator](/entra/identity/role-based-access-control/permissions-reference) or the [Conditional access administrator](/entra/identity/role-based-access-control/permissions-reference) roles to perform this task.|
+|Block addition of new password credentials to apps    | To increase security, we recommend that you block the use of password credentials for your applications. By switching to a more secure method, you improve the security, reduce management complexity and helps you scale your applications securely.  <br/><br/> For more information, see [Microsoft Entra application management policies API overview](/graph/api/resources/applicationauthenticationmethodpolicy?view=graph-rest-1.0). <br/><br/> You must be a member of the [Security administrator](/entra/identity/role-based-access-control/permissions-reference), [Application administrator](/entra/identity/role-based-access-control/permissions-reference) or the [Cloud Application administrator](/entra/identity/role-based-access-control/permissions-reference) roles to perform this task.|
+|Restrict end-user consent to Microsoft 365 certified and single tenant apps with low risk permissions     | Configure user consent settings in Microsoft Entra ID to control when and how users grant permissions to applications. This guidance helps admins reduce security risks by restricting or disabling user consent for apps in Microsoft 365.  <br/><br/> For more information, see [Configure how users consent to applications](/entra/identity/enterprise-apps/configure-user-consent?pivots=portal) <br/><br/> You must be a member of the [Security administrator](/entra/identity/role-based-access-control/permissions-reference) or the [Privileged role administrator](/entra/identity/role-based-access-control/permissions-reference) roles to perform this task.|
 
 ### Teams devices settings
 
 This section outlines the options available within Teams to turn off Restricted mode settings in the Microsoft 365 admin center.
 
-You must be a member of the [Teams administrator role](/entra/identity/role-based-access-control/permissions-reference) to perform this tasks.
+You must be a member of the [Teams administrator role](/entra/identity/role-based-access-control/permissions-reference) to perform these tasks.
 
 |Setting     |More information  |
 |---------|---------|
 | Restrict resource account access to Microsoft 365 assets post meeting and collaboration | To increase security, we recommend you remove resource accounts access that are used by Teams Rooms and devices to access Microsoft 365 assets used for meeting and collaboration. <br/><br/> For more information, see [Set-SPOTenant](/powershell/module/sharepoint-online/set-spotenant).|
-|Only allow endpoint managed, compliant devices to sign in     |To increase security, we recommend that only compliant, organization-managed Teams Room devices can sign in to Microsoft 365 applications and that resource accounts can't be misused to authenticate from unmanaged devices.   <br/><br/> For more information, see .|
-|Block resource account sign in to Microsoft 365 clients     |To increase security, resource accounts used for Teams devices must be blocked from being used to sign in or used by Microsoft 365 clients.   <br/><br/> For more information, see .|
+|Only allow endpoint managed, compliant devices to sign in     |To increase security, we recommend that only compliant, organization-managed Teams Room devices can sign in to Microsoft 365 applications and that resource accounts can't be misused to authenticate from unmanaged devices. <br/><br/> For more information, see [Block Teams resource account sign in to Microsoft 365 clients](/MicrosoftTeams/rooms/block-non-compliant-teams-rooms-devices?branch=kwekua-restricted-mode-teams).|
+|Block resource account sign in to Microsoft 365 clients     |To increase security, resource accounts used for Teams devices must be blocked from being used to sign in or used by Microsoft 365 clients. <br/><br/> For more information, see [Block Teams resource account sign in to Microsoft 365 clients](/MicrosoftTeams/rooms/block-non-compliant-teams-rooms-devices?branch=kwekua-restricted-mode-teams).|
