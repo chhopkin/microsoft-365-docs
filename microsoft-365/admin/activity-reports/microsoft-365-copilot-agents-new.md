@@ -67,7 +67,7 @@ To learn more about managing and enabling agents in your org, see [Manage agents
 
 You can see the following summary charts in this report as default view: 
 
-**By License type**
+### By License type
  
 :::image type="content" source="../../media/license-type-summary-chart.png" alt-text="Screenshot showing the summary chart for agent usage by license type." lightbox="../../media/license-type-summary-chart.png":::
 
@@ -81,9 +81,10 @@ You can switch between Summary view and Trend view.
 
 :::image type="content" source="../../media/license-type-line-chart.png" alt-text="Screenshot showing the trend chart for agent usage by license type in Microsoft 365 Copilot." lightbox="../../media/license-type-line-chart.png":::
 
-## By Creator type
+### By Creator type
 
-**Users by creator type** 
+#### Users by creator type
+
 Shows how many users actively used an agent grouped by who created the agent.
 
 :::image type="content" source="../../media/users-by-creator-type-summary.png" alt-text="Screenshot showing the summary of active users of agents for a select time period." lightbox="../../media/users-by-creator-type-summary.png":::
@@ -104,9 +105,10 @@ You can switch between Summary view and Trend view.
 
 **Trend view** shows you daily usage of agents– how many users used an agent each day where the agent was one of the Creator types described above, regardless of whether the user had a Microsoft 365 Copilot license, over the selected time frame. 
 
-:::image type="content" source="../../media/agents-by-creator-type-line-chart.png" alt-text="Screenshot showing the trend chart for number of active agents by creator type for a selected time period." lightbox="../../media/agents-by-creator-type-line-chart.png":::
+:::image type="content" source="../../media/users-by-creator-type-line-chart.png" alt-text="Screenshot showing the trend chart for number of active users by creator type for a selected time period." lightbox="../../media/users-by-creator-type-line-chart.png":::
 
-**Agents by creator types** 
+#### Agents by creator types
+
 Shows how many agents were used by users in your organization, grouped by who created the agent.
 
 :::image type="content" source="../../media/agents-by-creator-type-summary.png" alt-text="Screenshot showing the summary chart for the number of active agents by creator type for a select period." lightbox="../../media/agents-by-creator-type-summary.png":::
