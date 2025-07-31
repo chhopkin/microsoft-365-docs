@@ -14,6 +14,8 @@ ms.date: 07/29/2025
 
 Copilot Control System measurement capabilities are designed to empower you to understand adoption and business impact of Copilot and agents, as part of [Copilot Analytics](/viva/insights/copilot-analytics-introduction). Copilot Analytics provides a combination of out-of-the-box experiences ([Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard)) and advanced reporting tools available within [Microsoft 365 Admin Center](/microsoft-365/admin/admin-overview/admin-center-overview), [Viva Insights](/viva/insights/advanced/introduction-to-advanced-insights) and the [Power Platform Admin Center](/power-platform/admin/).
 
+:::image type="content" source="media/measurement-reporting.png" alt-text="A diagram of the Copilot Control System framework highlighting the Measurement & Reporting pillar.":::
+
 > [!NOTE]
 > Three main pillars make up the [Copilot Control System](overview.md):
 >

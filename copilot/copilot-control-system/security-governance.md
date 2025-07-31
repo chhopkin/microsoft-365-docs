@@ -14,6 +14,8 @@ ms.date: 07/29/2025
 
 When you implement AI, you face challenges related to data security, compliance, and specific risks associated with AI applications. To mitigate these issues, use a security and governance framework such as the Copilot Control System. It provides foundational controls and integrates with tools like [Microsoft Purview](/purview/ai-microsoft-purview) and [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps). To enhance AI responses while controlling access to AI applications, you also need to audit AI interactions, adhere to regulatory requirements, and manage the use of web search data.
 
+:::image type="content" source="media/security-governance.png" alt-text="A diagram of the Copilot Control System framework highlighting the Security & Governance pillar.":::
+
 > [!NOTE]
 > Three main pillars make up the [Copilot Control System](overview.md):
 >
