@@ -21,7 +21,7 @@ Copilot Control System management controls enable you to determine how your Micr
 >
 > - [Security & governance](security-governance.md)
 > - **Management controls** (this article)
-> - Measurement & reporting
+> - [Measurement & reporting](measurement-reporting.md)
 
 ## Licensing & metering
 
