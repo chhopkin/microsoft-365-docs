@@ -3,6 +3,8 @@ items:
   href: index.yml
 - name: Copilot release notes
   href: release-notes.md
+- name: Copilot Control System
+  href: copilot-control-system/overview.md
 - name: Get started with Microsoft 365 Copilot
   items:
   - name: What is Microsoft 365 Copilot?
