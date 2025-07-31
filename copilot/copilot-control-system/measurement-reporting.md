@@ -1,6 +1,6 @@
 ---
 title: "Measurement & reporting in Copilot Control System"
-description: "[Article description]."
+description: "Use the Copilot Control System framework to understand adoption and business impact of Microsoft 365 Copilot and agents in your organization."
 author: aczechowski
 ms.author: aaroncz
 manager: dansimp
