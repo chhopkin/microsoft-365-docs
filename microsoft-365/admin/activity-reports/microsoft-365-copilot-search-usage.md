@@ -30,7 +30,7 @@ The Copilot Search usage report provides a detailed view of both organizational 
 
 ## How do I get to the Copilot Search usage report?
 
-1. In the admin center, go to the **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a> page.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to the **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a> page.
 2. Expand **Microsoft 365 Copilot** to view the list of Copilot reports
 3. Select **Copilot Search**.
 
@@ -48,7 +48,7 @@ The following table lists the features included for active users of Copilot Sear
 
 |Copilot app  |Features  |What's counted as active usage  |Learn more about the feature  |
 |---------|---------|---------|---------|
-|Microsoft 365 Copilot app     |Search         |A licensed Microsoft 365 Copilot user completes at least one of the following actions:<br><br>1. Types a natural language query in the search box and presses **Enter**<br>2. Searches for people or files or contents and presses **Enter**<br>3. Selects an item from the options displayed in the search box dropdown list  |[Microsoft 365 Copilot Search](../../../copilot/microsoft-365-copilot-search.md)         |
+|Microsoft 365 Copilot app     |Search         |A licensed Microsoft 365 Copilot user completes at least one of the following actions:<br><br>1. Types a natural language query in the search box and presses **Enter**<br>2. Searches for people or files or contents and presses **Enter**<br>3. Selects an item from the options displayed in the search box dropdown list  |[Microsoft 365 Copilot Search](/copilot/microsoft-365/microsoft-365-copilot-search)         |
 
 **Active users** shows the total number of users with a Microsoft 365 Copilot license in your organization who completed a Copilot Search query within the Microsoft 365 Copilot app over the selected timeframe.
 
@@ -66,7 +66,7 @@ You can see the following trend view charts in this report as default view:
 
 :::image type="content" source="../../media/copilot-search-usage-total-searches-trend.png" alt-text="Screenshot of the Copilot Search total searches chart.":::
 
-Total searches trend view shows a daily trend of searches made by active users over the selected timeframe. When you hover over a specific day on this chart, you see the total number of searches for that day. This interactive feature helps you quickly understand daily engagement patterns with Copilot search across your organization.
+**Total searches trend view** shows a daily trend of searches made by active users over the selected timeframe. When you hover over a specific day on this chart, you see the total number of searches for that day. This interactive feature helps you quickly understand daily engagement patterns with Copilot search across your organization.
 
 ## User activity table
 
@@ -79,13 +79,13 @@ Total searches trend view shows a daily trend of searches made by active users o
 
 The User activity table includes user-level details about each active Copilot Search user, including their total searches and their last activity date in Copilot Search
 
-To export the report data into an Excel .csv file, select the ellipses and then select **Export** above the table. This function exports the Copilot Search usage data of all users and lets you do simple sorting, filtering, and searching for further analysis.
+To export the report data into an Excel .csv file, at the top of the table, select the ellipses and then select **Export**. This function exports the Copilot Search usage data of all users and lets you do simple sorting, filtering, and searching for further analysis.
 
 ## Display user-specific data
 
 By default, usernames and display names in Copilot Search usage reports are anonymous. Global administrators can update the settings to reveal usernames and display names.
 
-1. In the Microsoft 365 admin center, go to the **Settings** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Org Settings</a> page. Under the **Services** tab, select **Reports**.
+1. In the admin center, go to the **Settings** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Org Settings</a> page. Under the **Services** tab, select **Reports**.
 2. Select **Reports**, and then select the checkbox next to **Display Concealed user, group, and site names in all reports**.
 3. Select **Save changes**.
 
