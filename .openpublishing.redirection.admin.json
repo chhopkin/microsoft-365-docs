@@ -2246,11 +2246,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "microsoft-365/ms-feed/m365-feed.md",
-      "redirect_url": "https://techcommunity.microsoft.com/blog/microsoft_365blog/we-are-removing-feed-on-microsoft-365-office/4257176",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "microsoft-365/admin/misc/welcome-business-assist.md",
       "redirect_url": "/microsoft-365/admin/get-help-support",
       "redirect_document_id": false
