@@ -67,7 +67,7 @@ The following table lists the terms shown on the billing profile details page.
 |Get invoices in email statements   |A setting you can turn on to receive the invoice as an email attachment. The default setting is **On**. To turn this setting on or off, select **Edit settings**. |
 |Additional recipients | The list of people who also receive a copy of the invoice by email. |
 |Billing notification settings |A link to the **Billing notifications** page where you can edit notification settings, edit the organization email address, and manage the list of admins who receive billing notifications. To make changes, select **Edit settings**. |
-|Invoice currency      |The currency used for your invoice, based on the **Sold-to** country/region of the billing account. |
+|Invoice currency      |The currency used for your invoice, based on the **Sold-to** country/region of the billing account. Currency cannot be changed on a billing profile.|
 |Payment method        |The payment method used by the billing profile. To make changes to the payment method, select **Edit** or **Replace**. |
 |PO number (optional)  |A purchase order (PO) number that you create to track changes for the billing profile. If you add a PO number in this field, it appears on your invoice. To add a PO number, select **Edit**. |
 
