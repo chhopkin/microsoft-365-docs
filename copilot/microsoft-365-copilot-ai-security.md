@@ -83,7 +83,9 @@ Multi-layered protections include [classifiers](/ai-services/content-safety/) fo
 ##### Data Exfiltration Prevention
 
 Copilot's layered security model addresses traditional and emerging threats, including scenarios with potential for data exfiltration through unauthenticated image URLS where users generate an image containing sensitive data, extract the URL using browser tools and share externally. If the image is accessible without authentication, it may bypass enterprise controls such as Conditional Access or sensitivity labels. Another scenario may include a user from one tenant who generates a malicious image (e.g., QR code) and shares an anonymous URL with users in different tenant. If such a URL is not protected by authentication, access controls may not be enforced. To mitigate this, Microsoft applies its defense-in-depth strategy. This includes continuous monitoring for data leakage vectors, adversarial misuse, and unauthorized access patterns. Microsoft 365 Copilot-generated content is governed by the same access controls and compliance policies as other Microsoft 365 content. This means that user permissions, sensitivity labels, and Conditional Access policies are enforced at the point of content generation and access.
-Privacy and Compliance by Design[DV6.1]
+
+#### Privacy and Compliance by Design
+
 Microsoft 365 Copilot adheres to enterprise-grade privacy and compliance standards. Key safeguards include: 
 Data Access Enforcement
 Copilot respects Microsoft Entra ID permissions and Microsoft Purview policies. This includes strict access controls and sensitivity label inheritance. Policies are enforced via Microsoft Entra ID, Microsoft Purview, and Microsoft 365 Conditional Access.
