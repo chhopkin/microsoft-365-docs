@@ -239,7 +239,7 @@ For a list of all supported AI applications and Purview controls, see [Microsoft
 
 ### Use Microsoft Entra Agent ID
 
-Microsoft Entra Agent ID assigns a unique, managed identity to each AI agent, so that organizations can authenticate and authorize them using the same infrastructure as human users, apply Conditional Access policies, and audit their activity. This approach supports Zero Trust principles by isolating agent permissions, enforcing least privilege access, and enabling independent tracking for compliance. Future integrations will allow distinct identities for Copilot plugins,
+[Microsoft Entra Agent ID](https://techcommunity.microsoft.com/blog/microsoft-entra-blog/announcing-microsoft-entra-agent-id-secure-and-manage-your-ai-agents/3827392) assigns a unique, managed identity to each AI agent, so that organizations can authenticate and authorize them using the same infrastructure as human users, apply Conditional Access policies, and audit their activity. This approach supports [Zero Trust principles](/security/zero-trust/zero-trust-overview) by isolating agent permissions, enforcing least privilege access, and enabling independent tracking for compliance. Future integrations will allow distinct identities for Copilot plugins,
 
 
 
