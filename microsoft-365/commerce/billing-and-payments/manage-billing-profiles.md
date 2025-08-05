@@ -24,7 +24,7 @@ ms.custom:
 - admindeeplinkMAC
 search.appverid: MET150
 description: "Learn about billing profiles and how they're used to pay invoices for Microsoft business accounts."
-ms.date: 08/05/2025
+ms.date: 08/06/2025
 ---
 
 # Manage your Microsoft business billing profiles
