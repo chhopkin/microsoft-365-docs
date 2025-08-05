@@ -54,13 +54,13 @@ Microsoft conducts internal red teaming and commissions third-party assessments 
 
 Microsoft 365 Copilot enforces secure coding and architectural safeguards to prevent misuse, including ransomware generation and remote code execution. Malicious patterns are blocked through prompt inspection and content filtering, while sandboxing ensures Copilot operates within constrained execution boundaries.
 
-#### Threat Intelligence and Risk Mitigation
+#### Threat intelligence and risk mitigation
 
 Microsoft 365 Copilot is protected by a multi-layered defense strategy that combines global threat intelligence, AI-specific detection, and architectural containment. Microsoft leverages global threat intelligence to monitor adversarial attacks, model manipulation, and data leakage.  
 
 Key practices include internal red teaming and third-party penetration testing, proactive identification to block malicious inputs, machine learning classifiers, metaprompting, and content filtering to detect prompt injection attempts, including jailbreaks, eXternalized Prompt Injection Attacks (XPIAs), and agentic vulnerabilities. Microsoft 365 Copilot mitigates XPIA and agentic vulnerabilities through layered defenses, including markdown sanitization, malicious prompt classifiers, session hardening, and content security policies. These protections prevent unauthorized actions and data exfiltration across Copilot surfaces and are deployed automatically through Microsoft's cloud infrastructure without customer action required. This also includes continuous testing and containment strategies.
 
-##### Containment by Design
+##### Containment by design
 
 Even in the event of a successful injection attempt, Copilot's architecture ensures containment by design. Copilot operates within the user's identity and access context, limiting the blast radius of any potential compromise. 
 
@@ -72,7 +72,7 @@ Even in the event of a successful injection attempt, Copilot's architecture ensu
 
 Microsoft Purview captures Copilot interactions for auditing and eDiscovery. Defender for Cloud and AI-SPM provides visibility into AI workloads, plugin usage, and risk scoring. Compliance Manager maps Copilot controls to regulatory frameworks such as GDPR, HIPAA, and the EU AI Act.
 
-##### Prompt Injection Defenses
+##### Prompt injection defenses
 
 Multi-layered protections include [classifiers](/azure/ai-services/content-safety/—) for jailbreak detection, input/output filtering, and containment strategies. These also defend against encoding-based prompt injection (e.g., ROT13, Base64) through:
 
@@ -80,7 +80,7 @@ Multi-layered protections include [classifiers](/azure/ai-services/content-safet
 - Runtime filters that decode and inspect content before LLM processing
 - Regular red teaming to simulate and mitigate encoding-based attacks
 
-##### Data Exfiltration Prevention
+##### Data exfiltration prevention
 
 Copilot's layered security model addresses traditional and emerging threats, including scenarios with potential for data exfiltration through unauthenticated image URLS where users generate an image containing sensitive data, extract the URL using browser tools and share externally. If the image is accessible without authentication, it may bypass enterprise controls such as Conditional Access or sensitivity labels. Another scenario may include a user from one tenant who generates a malicious image (e.g., QR code) and shares an anonymous URL with users in different tenant. If such a URL is not protected by authentication, access controls may not be enforced. To mitigate this, Microsoft applies its defense-in-depth strategy. This includes continuous monitoring for data leakage vectors, adversarial misuse, and unauthorized access patterns. Microsoft 365 Copilot-generated content is governed by the same access controls and compliance policies as other Microsoft 365 content. This means that user permissions, sensitivity labels, and Conditional Access policies are enforced at the point of content generation and access.
 
@@ -173,7 +173,7 @@ Admins can apply Conditional Access policies directly to Microsoft 365 Copilot a
 - Enforce device compliance and fall back to MFA if compliance cannot be verified
 - Use GPS-based or IP-based location data to restrict access to trusted geographic regions or networks
 
-### Monitor and Aaudit AI Aactivity
+### Monitor and audit AI activity
 
 Copilot interactions are logged and auditable through Microsoft Purview Audit (Standard and Premium). These logs capture user prompts, system responses, and related activities, and can be retained for up to 10 years depending on licensing. This supports forensic investigations, compliance reviews, and anomaly detection.
 
