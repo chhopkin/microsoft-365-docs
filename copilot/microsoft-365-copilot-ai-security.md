@@ -124,8 +124,15 @@ For more information, see the following resources:
 - [Microsoft 365 blog: Data residency in the AI era: New capabilities to manage your data](https://www.microsoft.com/en-us/microsoft-365/blog/2024/03/07/data-residency-in-the-ai-era-new-capabilities-to-manage-your-data/)
 
 ##### EU Data Boundary
+
 For eligible EU customers, prompts and responses are processed within the EU, maintaining the same enterprise-grade protections.
-Note: Customers with Multi Geo configurations are not eligible for EUDB commitments. What is the EU Data Boundary? - Microsoft Privacy | Microsoft Learn[M(7.1]
+
+> [!NOTE]
+> Customers with Multi Geo configurations are not eligible for EUDB commitments. 
+> 
+
+For more information, see [What is the EU Data Boundary](/privacy/eudb/eu-data-boundary-learn#how-to-configure-services-for-use-in-the-eu-data-boundary)?
+
 Cross-Cloud Governance for AI Workloads
 Microsoft Purview and Security Copilot help organizations govern AI across hybrid and multicloud environments like Azure, AWS, and Google Cloud.
 *    Purview enables consistent data classification, labeling, and policy enforcement across clouds, with visibility into how data flows into AI models and plugins.
