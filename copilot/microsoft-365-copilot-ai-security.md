@@ -148,6 +148,30 @@ Microsoft Entra ID, Microsoft Purview, and Microsoft 365 for business enforce Co
  
 ## What you can do to strengthen your organization's AI security
 
+Organizations share responsibility for securing AI systems. Microsoft provides tools and guidance to help customers manage risk and enforce compliance. 
+
+1. Define and apply sensitivity labels in Microsoft Purview to classify confidential content across Microsoft 365.
+
+2. Configure DLP policies that restrict Copilot from accessing or processing labeled content, such as blocking summarization or rewriting of documents marked as sensitive.
+
+3. Ensure users have appropriate permissions (e.g., EXTRACT or VIEW rights) to allow Copilot to interact with content appropriately.
+
+4. When Copilot is restricted from accessing content, users are notified, this interaction can be monitored.
+
+5. Extend DLP coverage across Copilot Chat and in-app experiences in Word, Excel, and PowerPoint for consistent protection.
+
+### Control access to data
+
+Customers and Organizations should apply Microsoft Purview sensitivity labels to classify and protect content, enforce Data Loss Prevention (DLP) policies to block Copilot from accessing sensitive data, and use Double Key Encryption (DKE) to retain exclusive control over encryption keys for highly confidential information.
+
+### Use targeted Conditional Access policies for Copilot
+
+Admins can apply Conditional Access policies directly to Microsoft 365 Copilot and Security Copilot service principals to enforce granular, AI-specific access controls. These policies can be configured using Microsoft Graph PowerShell or the Entra admin center. Administrators can:
+
+- Block access to Copilot for users with elevated insider risk levels
+- Require phishing-resistant multifactor authentication (MFA) when users access Copilot from outside the corporate network
+- Enforce device compliance and fall back to MFA if compliance cannot be verified
+- Use GPS-based or IP-based location data to restrict access to trusted geographic regions or networks
 
 
 ## Frequently asked questions
