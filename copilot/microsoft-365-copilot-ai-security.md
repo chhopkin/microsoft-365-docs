@@ -164,7 +164,7 @@ Organizations share responsibility for securing AI systems. Microsoft provides t
 
 Customers and Organizations should apply Microsoft Purview sensitivity labels to classify and protect content, enforce Data Loss Prevention (DLP) policies to block Copilot from accessing sensitive data, and use Double Key Encryption (DKE) to retain exclusive control over encryption keys for highly confidential information.
 
-### Use targeted Conditional Access policies for Copilot
+#### Use targeted Conditional Access policies for Copilot
 
 Admins can apply Conditional Access policies directly to Microsoft 365 Copilot and Security Copilot service principals to enforce granular, AI-specific access controls. These policies can be configured using Microsoft Graph PowerShell or the Entra admin center. Administrators can:
 
@@ -172,6 +172,76 @@ Admins can apply Conditional Access policies directly to Microsoft 365 Copilot a
 - Require phishing-resistant multifactor authentication (MFA) when users access Copilot from outside the corporate network
 - Enforce device compliance and fall back to MFA if compliance cannot be verified
 - Use GPS-based or IP-based location data to restrict access to trusted geographic regions or networks
+
+### Monitor and Aaudit AI Aactivity
+
+Copilot interactions are logged and auditable through Microsoft Purview Audit (Standard and Premium). These logs capture user prompts, system responses, and related activities, and can be retained for up to 10 years depending on licensing. This supports forensic investigations, compliance reviews, and anomaly detection.
+
+Copilot-generated content, such as prompts and responses, is stored in a hidden folder in the user's mailbox. This content is discoverable using Microsoft Purview eDiscovery (Standard and Premium) for legal and compliance teams to search, review, and export Copilot-related content as part of investigations or regulatory inquiries. Administrators can also configure retention policies that apply specifically to Copilot messages. 
+
+To help secure AI usage with Microsoft 365 Copilot, customers should enable Microsoft Purview Audit to log user prompts, Copilot responses, and related activities for up to 10 years to remain in compliance. Purview eDiscovery may also be used to search and export Copilot-generated content and configure retention policies to control how long AI-generated data is preserved or deleted based on organizational and regulatory requirements.
+
+To support compliance with regulations such as GDPR, DORA, HIPAA, and the EU AI Act, Microsoft provides structured tools for risk assessment and reporting. Microsoft Compliance Manager and Microsoft Priva offer templates for Data Protection Impact Assessments (DPIAs), helping organizations document data flows, processing purposes, and risk mitigations related to Copilot use.
+
+Privacy assessments can be integrated into the AI development lifecycle to identify and mitigate risks early. Organizations can also maintain AI risk registers using Microsoft Purview and Microsoft Defender for Cloud. These registers include model names, intended purposes, evaluation metrics, plugin scopes, and risk scores—supporting alignment with standards like ISO/IEC 42001 and the EU AI Act.
+
+#### Be aware of shadow AI
+
+When employees use unsanctioned AI apps such as ChatGPT, Google Gemini, or other third-party LLMs, they may unknowingly upload sensitive data to services that aren't governed by your organization's security or compliance policies. This can lead to:
+
+- Exposure of confidential or regulated information
+- Violations of data residency or industry compliance rules
+- Loss of visibility into how data is accessed, stored, or shared
+
+To help reduce these risks, Defender for Cloud Apps and Microsoft Purview can help detect and manage unauthorized AI usage. These tools help you:
+
+- Discover which AI apps are being used across your environment
+- Block or restrict access to high-risk tools
+- Monitor and protect sensitive data in real time
+
+Most importantly, educate your teams. Help them understand the risks of Shadow AI and encourage the use of approved, secure alternatives like Microsoft 365 Copilot.
+
+#### Be aware of phishing
+
+Microsoft 365 Copilot is designed to enhance productivity while respecting enterprise security boundaries. However, phishing simulation testing has revealed limitations in Copilot's ability to detect and flag malicious content embedded in user prompts or referenced files. These findings have informed Microsoft's roadmap for improving AI-driven threat awareness and integrating Copilot more deeply with existing security tools. 
+
+To address this gap, Microsoft recommends a layered defense approach that combines Copilot with Microsoft Defender and Microsoft Purview:
+
+- Microsoft Defender for Office 365 continues to provide phishing protection at the email gateway, scanning messages before they reach the user's inbox.
+- Safe Links and Safe Attachments policies remain active even when content is surfaced through Copilot, helping to block access to malicious URLs or files.
+- Microsoft Purview DLP policies can be configured to prevent Copilot from accessing or summarizing content that matches phishing indicators or sensitive data patterns.
+
+Additionally, organizations can use audit logs and eDiscovery to monitor Copilot interactions involving suspicious content, enabling security teams to investigate and respond to potential misuse.
+
+#### Roadmap and future enhancements
+
+Microsoft is actively exploring ways to enhance Copilot's awareness of phishing and social engineering risks. Planned improvements include:
+
+- Integration with Microsoft Defender threat intelligence to flag known phishing patterns in prompts.
+- Contextual warnings when Copilot detects language or behavior consistent with phishing attempts.
+- Admin-configurable rules to restrict Copilot's ability to process content from unverified sources or flagged domains.
+
+### Manage Plugins and Web Interactions
+
+To help maintain control and security when using Microsoft 365 Copilot, Microsoft provides robust plugin governance capabilities. As an administrator, plugins may be enabled or disabled, defined in allow or deny lists, and role-based access controls (RBAC) must be applied to ensure only authorized users can access specific plugins. Enforce data protection policies by applying Microsoft Purview Data Loss Prevention (DLP) rules and sensitivity labels to content generated through plugins. To monitor plugin behavior and detect potential risks, Microsoft Defender for Endpoint and Defender for Cloud Apps offer visibility into plugin activity and help identify anomalies.
+
+#### Enterprise Controls for Custom AI Agents
+
+AI agents built with Azure AI Foundry or Copilot Studio can be assigned unique identities using Microsoft Entra Agent ID. Organizations can apply Conditional Access, monitor agent activity, and enforce governance policies independently from human users in this way. These agents can also integrate with Microsoft Purview to apply sensitivity labels and DLP policies to training data and outputs.
+
+### Govern AI with Microsoft Purview
+
+To help maintain a secure AI environment with Microsoft 365 Copilot, Microsoft provides customers with tools to monitor and manage plugin activity. Plugin interactions are logged through Microsoft Purview Audit, while Microsoft Defender for Cloud Apps and Defender for Endpoint offer visibility into plugin behavior and endpoint-level telemetry to detect anomalies or unauthorized use. These capabilities enable security teams to track third-party integrations and respond to potential threats effectively.
+
+Microsoft Defender for Cloud includes AI Security Posture Management (AI-SPM), which evaluates plugin permissions, data access scopes, and usage patterns to generate risk scores and policy recommendations. These insights are integrated with Microsoft Purview, assisting organizations in proactively governing plugin-related risks and responsible use of extensibility features in Copilot.
+
+For a list of all supported AI applications and Purview controls, see [Microsoft Purview data security and compliance protections for Microsoft 365 Copilot and other generative AI apps](/purview/ai-microsoft-purview).
+
+### Use Microsoft Entra Agent ID
+
+Microsoft Entra Agent ID assigns a unique, managed identity to each AI agent, so that organizations can authenticate and authorize them using the same infrastructure as human users, apply Conditional Access policies, and audit their activity. This approach supports Zero Trust principles by isolating agent permissions, enforcing least privilege access, and enabling independent tracking for compliance. Future integrations will allow distinct identities for Copilot plugins,
+
+
 
 
 ## Frequently asked questions
