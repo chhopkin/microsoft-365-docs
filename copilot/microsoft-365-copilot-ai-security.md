@@ -86,24 +86,44 @@ Copilot's layered security model addresses traditional and emerging threats, inc
 
 #### Privacy and Compliance by Design
 
-Microsoft 365 Copilot adheres to enterprise-grade privacy and compliance standards. Key safeguards include: 
-Data Access Enforcement
-Copilot respects Microsoft Entra ID permissions and Microsoft Purview policies. This includes strict access controls and sensitivity label inheritance. Policies are enforced via Microsoft Entra ID, Microsoft Purview, and Microsoft 365 Conditional Access.
+Microsoft 365 Copilot adheres to enterprise-grade privacy and compliance standards. Key safeguards are described in the following sections.
+
+##### Data access enforcement
+
+Copilot respects Microsoft Entra ID permissions and Microsoft Purview policies. This includes strict access controls and sensitivity label inheritance. Policies are enforced via [Microsoft Entra ID](/entra/fundamentals/whatis), [Microsoft Purview](/purview/purview), and [Conditional Access](/entra/identity/conditional-access/overview).
+
 Copilot connectors enhance the value of Copilot while maintaining the same enterprise-grade protections.
-Access is User-Centric
+
+##### Access is user-centric
+
 Copilot only accesses data the user is authorized to view and cannot retrieve or act on content the user cannot access directly. 
-Encryption and Isolation
+
+##### Encryption and isolation
+
 Data is encrypted in transit and at rest using FIPS 140-2–compliant technologies, with tenant-level isolation. Double Key Encryption (DKE) ensures Microsoft cannot access protected content without the customer's key.
-Compliance Tooling
+
+##### Compliance tooling
+
 Microsoft Purview Audit and eDiscovery log and surface Copilot interactions. Compliance Manager maps controls to GDPR, HIPAA, DORA, and the EU AI Act. 
+
 Microsoft Purview's Data Security Posture Management (DSPM) for AI provides centralized visibility and control over how sensitive data is accessed and used across Microsoft 365 Copilot and other AI services. It enables organizations to discover AI activity, classify and label sensitive content, enforce real-time data loss prevention (DLP), and govern usage through audit logs, retention policies, and one-click compliance rules. Integrated with Microsoft Purview and Defender, DSPM for AI delivers built-in analytics, risk scoring, and policy enforcement to help organizations manage AI data risks and maintain regulatory readiness. Copilot uses stateless processing and tenant-scoped semantic indexing.
+
 Microsoft 365 Copilot is part of Microsoft's enterprise compliance program and benefits from a range of certifications and assessments. These include (but are not limited to) FedRAMP, HiTrust, SOC 2 Type 1, ISO/IEC 27001, 27701, 22301, 27018, and 42001. Penetration testing summaries are available through the Microsoft Service Trust Portal, helping customers demonstrate due diligence and satisfy third-party audit requirements.
-Data Residency and Sovereignty
+
+##### Data residency and sovereignty
+
 Advanced Data Residency (ADR) and Multi-Geo capabilities help meet regional requirements. Customers who have purchased ADR or Multi-Geo add-ons can control where certain Microsoft 365 data is stored in accordance with regulatory requirements.
+
 When a user interacts with Copilot, their prompt is processed through a secure orchestration layer that coordinates between Microsoft 365 apps, Microsoft Graph, and the Azure OpenAI Service. The data flow follows these principles: Tenant-aware orchestration: Copilot uses Microsoft Graph to retrieve only the data the user is authorized to access. This includes emails, documents, calendar events, and chats. Regional routing: LLM calls are routed to the nearest Azure region based on the user's Microsoft Entra ID (formerly Azure AD) tenant geography. For example, EU-based tenants have their LLM calls processed within the EU Data Boundary.
-Prompts, responses, and data accessed through Microsoft Graph are not used to train foundation LLM. Learn how Copilot works and how data is protected across its architecture. Microsoft's Azure OpenAI Service hosts the LLMs privately and securely. Copilot uses a stateless LLM architecture.
-Also see: https://www.microsoft.com/en-us/microsoft-365/blog/2024/03/07/data-residency-in-the-ai-era-new-capabilities-to-manage-your-data/
-EU Data Boundary
+
+Prompts, responses, and data accessed through Microsoft Graph are not used to train foundation LLM. Microsoft's Azure OpenAI Service hosts the LLMs privately and securely. Copilot uses a [stateless LLM architecture](/copilot/microsoft-365/microsoft-365-copilot-privacy#data-stored-about-user-interactions-with-microsoft-365-copilot).
+
+For more information, see the following resources:
+
+- [How Copilot works and how data is protected across its architecture](/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing)
+- [Microsoft 365 blog: Data residency in the AI era: New capabilities to manage your data](https://www.microsoft.com/en-us/microsoft-365/blog/2024/03/07/data-residency-in-the-ai-era-new-capabilities-to-manage-your-data/)
+
+##### EU Data Boundary
 For eligible EU customers, prompts and responses are processed within the EU, maintaining the same enterprise-grade protections.
 Note: Customers with Multi Geo configurations are not eligible for EUDB commitments. What is the EU Data Boundary? - Microsoft Privacy | Microsoft Learn[M(7.1]
 Cross-Cloud Governance for AI Workloads
