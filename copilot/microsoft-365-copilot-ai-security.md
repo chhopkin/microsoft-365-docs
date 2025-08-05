@@ -266,7 +266,11 @@ For a list of all supported AI applications and Purview controls, see [Microsoft
 
 ### Embed responsible AI practices
 
-To use Microsoft 365 Copilot responsibly and meet regulatory expectations, conduct Data Protection Impact Assessments (DPIAs) using Microsoft Compliance Manager and Microsoft Priva, which help to assess and mitigate privacy and AI-related risks. It's also important to educate users, raising awareness about AI risks and promoting safe usage practices across your organization. To support transparency and accountability, Microsoft offers detailed documentation such as the Copilot Transparency Note, which explains how Copilot works, what it can and cannot do, and how it aligns with your compliance goals.
+To use Microsoft 365 Copilot responsibly and meet regulatory expectations, conduct Data Protection Impact Assessments (DPIAs) using Microsoft Compliance Manager and Microsoft Priva, which help to assess and mitigate privacy and AI-related risks. 
 
-Using Microsoft Compliance Manager as a centralized dashboard to monitor and manage Copilot-related controls and assessments helps to map controls to key regulatory frameworks, including GDPR, HIPAA, and DORA, and generate audit-ready evidence for both internal reviews and external regulators. To support AI-specific compliance needs, Microsoft is also adding Copilot-specific templates and control mappings, see [Assessments for AI regulations](/purview/compliance-manager-assessments#assessments-for-ai-regulations).
+It's also important to educate users, raising awareness about AI risks and promoting safe usage practices across your organization. To support transparency and accountability, Microsoft offers detailed documentation such as the Copilot Transparency Note, which explains how Copilot works, what it can and cannot do, and how it aligns with your compliance goals.
+
+Using Microsoft Compliance Manager as a centralized dashboard to monitor and manage Copilot-related controls and assessments helps to map controls to key regulatory frameworks, including GDPR, HIPAA, and DORA, and generate audit-ready evidence for both internal reviews and external regulators. 
+
+To support AI-specific compliance needs, Microsoft is also adding Copilot-specific templates and control mappings, see [Assessments for AI regulations](/purview/compliance-manager-assessments#assessments-for-ai-regulations).
 
