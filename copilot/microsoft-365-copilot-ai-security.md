@@ -82,7 +82,7 @@ Microsoft Purview captures Copilot interactions for auditing and eDiscovery. Def
 
 ##### Prompt injection defenses
 
-Multi-layered protections include [classifiers](/azure/ai-services/content-safety/—) for jailbreak detection, input/output filtering, and containment strategies. These also defend against encoding-based prompt injection (for example, ROT13, Base64) through:
+Multi-layered protections include [classifiers](/azure/ai-services/content-safety/—) for jailbreak detection, input/output filtering, and containment strategies. These protections also defend against encoding-based prompt injection (for example, ROT13 or Base64) through:
 
 - Detection of obfuscated input patterns
 - Runtime filters that decode and inspect content before LLM processing
@@ -92,7 +92,7 @@ Multi-layered protections include [classifiers](/azure/ai-services/content-safet
 
 Copilot's layered security model addresses traditional and emerging threats, including scenarios with potential for data exfiltration through unauthenticated image URLS where users generate an image containing sensitive data, extract the URL using browser tools and share externally. If the image is accessible without authentication, it may bypass enterprise controls such as Conditional Access or sensitivity labels. 
 
-Another scenario may include a user from one tenant who generates a malicious image (for example, QR code) and shares an anonymous URL with users in different tenant. If such a URL isn't protected by authentication, access controls may not be enforced. 
+Another scenario could include a user from one tenant who generates a malicious image (for example, QR code) and shares an anonymous URL with users in different tenant. If such a URL isn't protected by authentication, access controls may not be enforced. 
 
 To mitigate this, Microsoft applies its defense-in-depth strategy. This includes continuous monitoring for data leakage vectors, adversarial misuse, and unauthorized access patterns. 
 
