@@ -135,26 +135,22 @@ You can view the roles assigned to users for a billing account and related billi
 
 To export the information shown in the **Related billing role assignments** pane, select **Export to CSV**.
 
-## Manage payment instrument
+## Manage payment method
 
-You can manage the payment instrument used to pay for all purchases and transactions under this billing profile.  There are options to add or replace a payment instrument.
+You can manage the payment method used to pay for all purchases and transactions under a billing profile. You can use the following options to add or replace a payment method.
 
-|Action | Description |
-|---|---|
-|Add|Allows the user to add a new payment instrument, excluding wire transfer|
-|Replace|Use this option to change to another payment instrument already added, this includes when the account has been approved to pay using wire transfer|
+- **Add.** This option allows the user to add a new payment method, excluding wire transfer.
+- **Replace.** Use this option to change to another payment method already added, including when the account is approved to pay using wire transfer.
 
-### Add payment instrument
+### Add a payment method
 
-1. Click **Add.**  This will open the **Add a payment method** pane.
+1. Select **Add**.  This opens the **Add a payment method** panel.
+1. Enter the card details, then select **Save**.
 
-1. Enter the card details and click **Save**.
+### Replace a payment method
 
-### Replace payment instrument
-
-1. Click **Replace.** This will open the **Replace payment method** pane.
-
-1. The use another payment method list is populated with payment methods you own.  If the account has been approved to pay with wire transfer, this is where wire transfer can be set as the default payment method.  See [Paying by Wire Transfer](/microsoft-365/commerce/billing-and-payments/pay-for-your-subscription#paying-by-wire-transfer) for information on the approval process.
+1. Select **Replace**. This opens the **Replace payment method** panel.
+1. The **Use another payment method** contains the payment methods that you own. If the account has been approved to pay with wire transfer, this setting is where a wire transfer can be set as the default payment method. For information on the wire transfer approval process, see [Paying by Wire Transfer](/microsoft-365/commerce/billing-and-payments/pay-for-your-subscription#paying-by-wire-transfer).
 
 ## Related content
 
