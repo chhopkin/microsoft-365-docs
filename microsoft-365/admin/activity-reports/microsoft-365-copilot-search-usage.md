@@ -46,9 +46,11 @@ You can view several metrics for Copilot Search usage:
 
 The following table lists the features included for active users of Copilot Search:
 
-|Copilot app  |Features  |What's counted as active usage  |Learn more about the feature  |
-|---------|---------|---------|---------|
-|Microsoft 365 Copilot app     |Search         |A licensed Microsoft 365 Copilot user completes at least one of the following actions:<br><br>1. Types a natural language query in the search box and presses **Enter**<br>2. Searches for people or files or contents and presses **Enter**<br>3. Selects an item from the options displayed in the search box dropdown list  |[Microsoft 365 Copilot Search](/copilot/microsoft-365/microsoft-365-copilot-search)         |
+|Copilot app  |Features  |What's counted as active usage  |
+|---------|---------|---------|
+|Microsoft 365 Copilot app     |Search         |A licensed Microsoft 365 Copilot user completes at least one of the following actions:<br><br>1. Types in a query, keyword or natural language to find information about files, people, answers and other content and lands in the results page.<br>2. Types in a query and clicks on or engages with query suggestions in the search box.<br>3. Selects an item from the options displayed in the search box dropdown list  |
+
+To learn more about the Copilot Search feature, see [Microsoft 365 Copilot Search](/copilot/microsoft-365/microsoft-365-copilot-search).
 
 **Active users** shows the total number of users with a Microsoft 365 Copilot license in your organization who completed a Copilot Search query within the Microsoft 365 Copilot app over the selected timeframe.
 
