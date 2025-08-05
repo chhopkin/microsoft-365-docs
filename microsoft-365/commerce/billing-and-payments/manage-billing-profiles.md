@@ -24,7 +24,7 @@ ms.custom:
 - admindeeplinkMAC
 search.appverid: MET150
 description: "Learn about billing profiles and how they're used to pay invoices for Microsoft business accounts."
-ms.date: 04/02/2025
+ms.date: 08/05/2025
 ---
 
 # Manage your Microsoft business billing profiles
@@ -67,7 +67,7 @@ The following table lists the terms shown on the billing profile details page.
 |Get invoices in email statements   |A setting you can turn on to receive the invoice as an email attachment. The default setting is **On**. To turn this setting on or off, select **Edit settings**. |
 |Additional recipients | The list of people who also receive a copy of the invoice by email. |
 |Billing notification settings |A link to the **Billing notifications** page where you can edit notification settings, edit the organization email address, and manage the list of admins who receive billing notifications. To make changes, select **Edit settings**. |
-|Invoice currency      |The currency used for your invoice, based on the **Sold-to** country/region of the billing account. Currency cannot be changed on a billing profile.|
+|Invoice currency      |The currency used for your invoice, based on the **Sold-to** country/region of the billing account. Currency can't be changed on a billing profile.|
 |Payment method        |The payment method used by the billing profile. To make changes to the payment method, select **Edit** or **Replace**. |
 |PO number (optional)  |A purchase order (PO) number that you create to track changes for the billing profile. If you add a PO number in this field, it appears on your invoice. To add a PO number, select **Edit**. |
 
@@ -154,7 +154,7 @@ You can manage the payment instrument used to pay for all purchases and transact
 
 1. Click **Replace.** This will open the **Replace payment method** pane.
 
-1. The use another payment method list is populated with payment methods you own.  If the account has been approved to pay with wire transfer, this is where wire transfer can be set as the default payment method.  See [Paying by Wire Transfer](/microsoft-365/commerce/billing-and-payments/pay-for-your-subscription?view=o365-worldwide&source=recommendations&branch=main#paying-by-wire-transfer) for information on the approval process.
+1. The use another payment method list is populated with payment methods you own.  If the account has been approved to pay with wire transfer, this is where wire transfer can be set as the default payment method.  See [Paying by Wire Transfer](/microsoft-365/commerce/billing-and-payments/pay-for-your-subscription#paying-by-wire-transfer) for information on the approval process.
 
 ## Related content
 
