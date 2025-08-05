@@ -56,7 +56,7 @@ Microsoft 365 Copilot enforces secure coding and architectural safeguards to pre
 
 #### Threat intelligence and risk mitigation
 
-Microsoft 365 Copilot is protected by a multi-layered defense strategy that combines global threat intelligence, AI-specific detection, and architectural containment. Microsoft leverages global threat intelligence to monitor adversarial attacks, model manipulation, and data leakage.  
+Microsoft 365 Copilot is protected by a multi-layered defense strategy that combines global threat intelligence, AI-specific detection, and architectural containment. Microsoft uses global threat intelligence to monitor adversarial attacks, model manipulation, and data leakage.  
 
 Key practices include internal red teaming and third-party penetration testing, proactive identification to block malicious inputs, machine learning classifiers, metaprompting, and content filtering to detect prompt injection attempts, including jailbreaks, eXternalized Prompt Injection Attacks (XPIAs), and agentic vulnerabilities. Microsoft 365 Copilot mitigates XPIA and agentic vulnerabilities through layered defenses, including markdown sanitization, malicious prompt classifiers, session hardening, and content security policies. These protections prevent unauthorized actions and data exfiltration across Copilot surfaces and are deployed automatically through Microsoft's cloud infrastructure without customer action required. This also includes continuous testing and containment strategies.
 
@@ -74,7 +74,7 @@ Microsoft Purview captures Copilot interactions for auditing and eDiscovery. Def
 
 ##### Prompt injection defenses
 
-Multi-layered protections include [classifiers](/azure/ai-services/content-safety/—) for jailbreak detection, input/output filtering, and containment strategies. These also defend against encoding-based prompt injection (e.g., ROT13, Base64) through:
+Multi-layered protections include [classifiers](/azure/ai-services/content-safety/—) for jailbreak detection, input/output filtering, and containment strategies. These also defend against encoding-based prompt injection (for example, ROT13, Base64) through:
 
 - Detection of obfuscated input patterns
 - Runtime filters that decode and inspect content before LLM processing
@@ -82,7 +82,7 @@ Multi-layered protections include [classifiers](/azure/ai-services/content-safet
 
 ##### Data exfiltration prevention
 
-Copilot's layered security model addresses traditional and emerging threats, including scenarios with potential for data exfiltration through unauthenticated image URLS where users generate an image containing sensitive data, extract the URL using browser tools and share externally. If the image is accessible without authentication, it may bypass enterprise controls such as Conditional Access or sensitivity labels. Another scenario may include a user from one tenant who generates a malicious image (e.g., QR code) and shares an anonymous URL with users in different tenant. If such a URL is not protected by authentication, access controls may not be enforced. To mitigate this, Microsoft applies its defense-in-depth strategy. This includes continuous monitoring for data leakage vectors, adversarial misuse, and unauthorized access patterns. Microsoft 365 Copilot-generated content is governed by the same access controls and compliance policies as other Microsoft 365 content. This means that user permissions, sensitivity labels, and Conditional Access policies are enforced at the point of content generation and access.
+Copilot's layered security model addresses traditional and emerging threats, including scenarios with potential for data exfiltration through unauthenticated image URLS where users generate an image containing sensitive data, extract the URL using browser tools and share externally. If the image is accessible without authentication, it may bypass enterprise controls such as Conditional Access or sensitivity labels. Another scenario may include a user from one tenant who generates a malicious image (for example, QR code) and shares an anonymous URL with users in different tenant. If such a URL isn't protected by authentication, access controls may not be enforced. To mitigate this, Microsoft applies its defense-in-depth strategy. This includes continuous monitoring for data leakage vectors, adversarial misuse, and unauthorized access patterns. Microsoft 365 Copilot-generated content is governed by the same access controls and compliance policies as other Microsoft 365 content. This means that user permissions, sensitivity labels, and Conditional Access policies are enforced at the point of content generation and access.
 
 #### Privacy and compliance by design
 
@@ -96,11 +96,11 @@ Copilot connectors enhance the value of Copilot while maintaining the same enter
 
 ##### Access is user-centric
 
-Copilot only accesses data the user is authorized to view and cannot retrieve or act on content the user cannot access directly. 
+Copilot only accesses data the user is authorized to view and can't retrieve or act on content the user can't access directly. 
 
 ##### Encryption and isolation
 
-Data is encrypted in transit and at rest using FIPS 140-2–compliant technologies, with tenant-level isolation. Double Key Encryption (DKE) ensures Microsoft cannot access protected content without the customer's key.
+Data is encrypted in transit and at rest using FIPS 140-2–compliant technologies, with tenant-level isolation. Double Key Encryption (DKE) ensures Microsoft can't access protected content without the customer's key.
 
 ##### Compliance tooling
 
@@ -108,7 +108,7 @@ Microsoft Purview Audit and eDiscovery log and surface Copilot interactions. Com
 
 Microsoft Purview's Data Security Posture Management (DSPM) for AI provides centralized visibility and control over how sensitive data is accessed and used across Microsoft 365 Copilot and other AI services. It enables organizations to discover AI activity, classify and label sensitive content, enforce real-time data loss prevention (DLP), and govern usage through audit logs, retention policies, and one-click compliance rules. Integrated with Microsoft Purview and Defender, DSPM for AI delivers built-in analytics, risk scoring, and policy enforcement to help organizations manage AI data risks and maintain regulatory readiness. Copilot uses stateless processing and tenant-scoped semantic indexing.
 
-Microsoft 365 Copilot is part of Microsoft's enterprise compliance program and benefits from a range of certifications and assessments. These include (but are not limited to) FedRAMP, HiTrust, SOC 2 Type 1, ISO/IEC 27001, 27701, 22301, 27018, and 42001. Penetration testing summaries are available through the Microsoft Service Trust Portal, helping customers demonstrate due diligence and satisfy third-party audit requirements.
+Microsoft 365 Copilot is part of Microsoft's enterprise compliance program and benefits from a range of certifications and assessments. These include (but aren't limited to) FedRAMP, HiTrust, SOC 2 Type 1, ISO/IEC 27001, 27701, 22301, 27018, and 42001. Penetration testing summaries are available through the Microsoft Service Trust Portal, helping customers demonstrate due diligence and satisfy third-party audit requirements.
 
 ##### Data residency and sovereignty
 
