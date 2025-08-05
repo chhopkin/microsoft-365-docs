@@ -123,7 +123,7 @@ For more information, see the following resources:
 - [How Copilot works and how data is protected across its architecture](/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing)
 - [Microsoft 365 blog: Data residency in the AI era: New capabilities to manage your data](https://www.microsoft.com/en-us/microsoft-365/blog/2024/03/07/data-residency-in-the-ai-era-new-capabilities-to-manage-your-data/)
 
-##### EU Data Boundary
+##### EU data boundary
 
 For eligible EU customers, prompts and responses are processed within the EU, maintaining the same enterprise-grade protections.
 
@@ -133,10 +133,13 @@ For eligible EU customers, prompts and responses are processed within the EU, ma
 
 For more information, see [What is the EU Data Boundary](/privacy/eudb/eu-data-boundary-learn#how-to-configure-services-for-use-in-the-eu-data-boundary)?
 
-Cross-Cloud Governance for AI Workloads
+##### Cross-cloud governance for AI workloads
+
 Microsoft Purview and Security Copilot help organizations govern AI across hybrid and multicloud environments like Azure, AWS, and Google Cloud.
-*    Purview enables consistent data classification, labeling, and policy enforcement across clouds, with visibility into how data flows into AI models and plugins.
-*    Security Copilot detects AI-related risks across platforms, correlates threats, and surfaces posture insights from AI-SPM.
+
+- Purview enables consistent data classification, labeling, and policy enforcement across clouds, with visibility into how data flows into AI models and plugins.
+- Security Copilot detects AI-related risks across platforms, correlates threats, and surfaces posture insights from [AI-SPM](/azure/defender-for-cloud/concept-cloud-security-posture-management).
+
 Policy Integration and Enforcement
 Microsoft Entra ID, Microsoft Purview, and Microsoft 365 enforce Conditional Access, sensitivity labels, and information barriers. Copilot-generated responses are governed by the same controls as other Microsoft 365 content. For a list of all supported AI applications and Purview controls, see Microsoft Purview data security and compliance protections for Microsoft 365 Copilot and other generative AI apps 
 Learn how to Use Microsoft Purview to manage data security & compliance and about sensitivity labels.
