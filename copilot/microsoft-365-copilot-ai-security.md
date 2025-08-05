@@ -4,7 +4,7 @@ f1.keywords: NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 07/22/2025
+ms.date: 08/05/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -19,19 +19,13 @@ appliesto:
 
 # AI security for Microsoft 365 Copilot
 
-AI has revolutionized many sectors, providing unprecedented capabilities and efficiencies. For example, [Microsoft 365 Copilot](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot), our AI-powered productivity tool, coordinates large language models (LLMs), content in Microsoft Graphs, and the Microsoft 365 productivity apps such as Word, Excel, PowerPoint, Outlook, Teams, SharePoint, and others. This integration provides real-time intelligent assistance, enabling users to enhance their creativity, productivity, and skills.
+AI security is foundational to our approach at Microsoft; it safeguards sensitive data, supports system integrity, and supports responsible AI use. This commitment aligns with our broader principles of privacy, compliance, and trust. This article outlines Microsoft's approach to securing Copilot and provides guidance for customers to strengthen their own AI security posture.
 
-Customers are keen to explore these opportunities, and they're thoughtfully considering the important aspects of security that come with them. Based on our interactions with customers who are on their AI transformation journey, we understand that topics such as data security, privacy, model robustness, and cyberattacks are top of mind.
+## What Microsoft does to secure Microsoft 365 Copilot
 
-Microsoft understands how critical these considerations are, which is why we employ a robust defense-in-depth strategy to help protect productivity tools like Microsoft 365 Copilot against security risks. This multi-layered approach involves a combination of advanced threat intelligence, rigorous security practices, and proactive safeguards. For example, in addition to our own red-teaming exercises to test Microsoft 365 Copilot, we engaged Casaba Security to test nine Copilot implementations across the Microsoft 365 product suite. We promptly addressed and resolved the findings of [their testing](https://servicetrust.microsoft.com/DocumentPage/67d59873-b315-4768-a057-8583cd84680a), which focused on identifying Open Worldwide Application Security Project's (OWASP) top 10 for LLM as well as traditional security vulnerabilities in supporting application infrastructure.
+Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level, grounded in enterprise-grade security, privacy, and compliance standards. This means that if one layer is breached, others still provide protection. Our approach is guided by the Office of Responsible AI and reinforced by our recently expanded Secure Future Initiative.
 
-Microsoft takes extensive steps to ensure that Microsoft 365 Copilot is compliant with our existing privacy, security, and compliance commitments to our customers. And as AI technologies and use cases continue to evolve, our work is never done: Microsoft is committed to continuously advancing protections for Copilot, learning from our own monitoring and testing of our systems, as well as working with customers, partners, and the broader security industry.
-
-This article provides an overview of Microsoft's overall security posture for AI, and how different Microsoft security solutions work together to help secure your data and interactions in Microsoft 365 Copilot and other AI applications. We will update this article with new information about emerging risks and innovations in solutions as they become available.
-
-## Securing Microsoft 365 Copilot
-
-At Microsoft, security isn't just a priority; it's the foundation for everything we do. This commitment extends to AI: not only does the Microsoft Office of Responsible AI guide safety and security on our AI journey, our recently expanded [Secure Future Initiative](https://aka.ms/SFIwebsite) further reflects our dedication to create a safer digital landscape for everyone.
+### Four key pillars
 
 Our comprehensive security posture for AI has the following pillars:
 
