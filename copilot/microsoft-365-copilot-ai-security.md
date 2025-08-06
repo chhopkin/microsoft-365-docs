@@ -84,7 +84,7 @@ Microsoft Purview captures Copilot interactions for auditing and eDiscovery. Def
 
 ##### Prompt injection defenses
 
-Multi-layered protections include [classifiers](/azure/ai-services/content-safety/—) for jailbreak detection, input/output filtering, and containment strategies. These protections also defend against encoding-based prompt injection (for example, ROT13 or Base64) through:
+Multi-layered protections include classifiers for jailbreak detection, input/output filtering, and containment strategies. These protections also defend against encoding-based prompt injection (for example, ROT13 or Base64) through:
 
 - Detection of obfuscated input patterns
 - Runtime filters that decode and inspect content before LLM processing
