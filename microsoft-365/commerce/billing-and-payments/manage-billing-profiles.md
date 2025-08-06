@@ -142,15 +142,21 @@ You can manage the payment method used to pay for all purchases and transactions
 - **Add.** This option allows the user to add a new payment method, excluding wire transfer.
 - **Replace.** Use this option to change to another payment method already added, including when the account is approved to pay using wire transfer.
 
-### Add a payment method
+### Edit a payment method
 
-1. Select **Add**.  This opens the **Add a payment method** panel.
-1. Enter the card details, then select **Save**.
+If you are the owner of the payment method on the billing profile you can update the payment instrument details.
+
+1. Select **Edit**.  This opens the **Edit payment method** panel.
+1. Enter the updated card details, then select **Save**.
 
 ### Replace a payment method
 
+Use this option to change the payment method used to pay for subscriptions and services purchased with this billing profile
+
 1. Select **Replace**. This opens the **Replace payment method** panel.
 1. The **Use another payment method** contains the payment methods that you own. If the account has been approved to pay with wire transfer, this setting is where a wire transfer can be set as the default payment method. For information on the wire transfer approval process, see [Paying by Wire Transfer](/microsoft-365/commerce/billing-and-payments/pay-for-your-subscription#paying-by-wire-transfer).
+
+1. You can also add a new payment method by using the **Add payment method** link under the **New payment method** drop down.
 
 ## Related content
 
