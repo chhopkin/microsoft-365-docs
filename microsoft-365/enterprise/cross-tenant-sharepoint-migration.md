@@ -59,17 +59,17 @@ Get-SPOSite -Limit <String> | Select-Object Url, StorageUsageCurrent
 
 >[!IMPORTANT]
 >
->- Don't create any target SharePoint sites before starting your migration. If the site already exists on the target tenant the migration fails. **You can't overwrite or merge an existing site.**
+>- Don't create any target SharePoint sites before starting your migration. If the site already exists on the target tenant, the migration fails. **You can't overwrite or merge an existing site.**
 >
 >- Target Microsoft 365 Groups for group-connected SharePoint site migrations **can't** be linked to existing SharePoint sites. Target Microsoft 365 groups must be pre-created in a specific way.
 >
->Before starting any migrations, make certain that your source SharePoint sites are set to Read/write mode. If they are set to read-only the migration fails.
+>Before starting any migrations, make certain that your source SharePoint sites are set to Read/write mode. If they are set to read-only, the migration fails.
 >
 >- Each individual SharePoint site being migrated must have no more than 5 TB of storage, or 1 million items. If during a migration of multiple sites a site with more than 5 TB is encountered, that site will eventually timeout and fail. Sites less 5 TB continue until completion.
 >
 >- The 1 million item limit can be any "item", including files (including versions), folders, and list line entries if it's a list or library.
 >
->- Ensure all users and groups identified for migration have been pre-created on the target tenant.
+>- Ensure all users and groups identified for migration are pre-created on the target tenant.
 >- Assign the appropriate licenses to each user on either the Source **or** the Target tenant. **The license does not need to be applied in both locations.**
 
 ## Path size limits
@@ -78,7 +78,7 @@ Microsoft character path limit cannot exceed 400 characters. We recommend shorte
 
 Consider the length of User and Site ULR names in your Target tenant when planning your migrations. Longer user and site URL names may result in migrations failing. Remember that the source's file or folder path name is combined with the new user or site name on the Target. Make sure that total doesn't exceed the 400-character path limit.
 
-If your migration fails, rename the User or Site URL or work with the user to rename or move the affected files or folders higher up the directory structure to ensure it remains under the character threshold limit. Once resolved, you should be able to complete the migration.
+If your migration fails, rename the User or Site URL. Alternatively, work with the user to rename or move the affected files or folders higher up the directory structure to ensure it remains under the character path limit. Once resolved, you should be able to complete the migration.
 
 ## Multi-Geo
 
