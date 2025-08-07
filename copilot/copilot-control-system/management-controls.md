@@ -7,7 +7,7 @@ manager: dansimp
 ms.reviewer: bensum
 ms.service: microsoft-365-copilot
 ms.topic: solution-overview
-ms.date: 07/29/2025
+ms.date: 08/06/2025
 ---
 
 # Management controls in Copilot Control System
@@ -19,11 +19,17 @@ Copilot Control System management controls enable you to determine how your Micr
 > [!NOTE]
 > Three main pillars make up the [Copilot Control System](overview.md):
 >
-> - [Security & governance](security-governance.md)
+> - [Security and governance](security-governance.md)
 > - **Management controls** (this article)
-> - [Measurement & reporting](measurement-reporting.md)
+> - [Measurement and reporting](measurement-reporting.md)
 
-## Licensing & metering
+The management controls pillar of the Copilot Control System focuses on the following key capabilities:
+
+- Licensing and metering
+- Agent lifecycle
+- Customization
+
+## Licensing and metering
 
 You can manage Microsoft 365 Copilot license assignment and control access to agents ensuring compliance with policies, usage limits, and more.
 
