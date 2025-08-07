@@ -41,10 +41,10 @@ If you're an Enterprise Agreement customer who will be purchasing Cross-Tenant U
 - Licenses are offered on a per 100 GB of data moved basis
 
 >[!Note]
-> To find out how many licenses are needed to migrate your given data: Get the StorageUsed for each SharePoint Site you are migrating via with this tool and sum it up (values are in bytes). 
+> To find out how many licenses are needed to migrate your given data: Get the StorageUsed for each SharePoint Site you are migrating via with this tool and sum it up (values are in bytes). A grace storage limit of 20% will be given in the scenario the sites grow in storage used.
 
 ```
-Get-SPOSite -Limit All | Select-Object Url, StorageUsageCurrent
+Get-SPOSite -Limit <String> | Select-Object Url, StorageUsageCurrent
 ```
 
 ## Prerequisites and settings
