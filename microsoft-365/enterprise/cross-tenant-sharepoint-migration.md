@@ -34,14 +34,14 @@ Up to 4,000 SharePoint accounts can be scheduled for migration in advance at a g
 
 The **Cross-Tenant User Content Migration** feature and licenses are currently only available to Enterprise Agreement customers.
 
-If you're an Enterprise Agreement customer who will be purchasing Cross-Tenant User Content Migration licenses, and you would like to evaluate Cross-Tenant SharePoint migration to improve your migration experience:
+If you're an Enterprise Agreement customer who is purchasing Cross-Tenant User Content Migration licenses, and you would like to evaluate Cross-Tenant SharePoint migration to improve your migration experience:
 
 - Contact your Microsoft account team
 - [**Learn more at Cross-Tenant User Content Migration Licensing**](/microsoft-365/enterprise/cross-tenant-mailbox-migration).
 - Licenses are offered on a per 100 GB of data moved basis
 
 >[!Note]
-> To find out how many licenses are needed to migrate your given data: Get the StorageUsed for each SharePoint Site you are migrating via with this tool and sum it up (values are in bytes). A grace storage limit of 20% will be given in the scenario the sites grow in storage used.
+> To find out how many licenses are needed to migrate your given data: Get the StorageUsed for each SharePoint Site you are migrating via with this tool and sum it up (values are in bytes). A grace storage limit of 20% is given in the scenario the sites grow in storage used.
 
 ```
 Get-SPOSite -Limit <String> | Select-Object Url, StorageUsageCurrent
@@ -51,21 +51,21 @@ Get-SPOSite -Limit <String> | Select-Object Url, StorageUsageCurrent
 
 - **Microsoft SharePoint Online Powershell**. Confirm you have the most recent version installed. [Download SharePoint Online Management Shell from Official Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=35588)
 
-- **Confirm that the source SharePoint tenant does not have Service encryption with Microsoft Purview Customer Key enabled.** If enabled on Source tenant, the migration will fail.  [Learn more on Service encryption with Microsoft Purview Customer Key](/microsoft-365/compliance/customer-key-overview)
+- **Confirm that the source SharePoint tenant does not have Service encryption with Microsoft Purview Customer Key enabled.** If enabled on Source tenant, the migration fails.  [Learn more on Service encryption with Microsoft Purview Customer Key](/microsoft-365/compliance/customer-key-overview)
 
-- Source SharePoint sites must be set to Read/Write. If set to Read only, the migration will fail.
+- Source SharePoint sites must be set to Read/Write. If set to Read only, the migration fails.
 
 ## Target SharePoint sites and Group-connected SharePoint sites
 
 >[!IMPORTANT]
 >
->- Don't create any target SharePoint sites before starting your migration. If the site already exists on the target tenant the migration will fail. **You can't overwrite or merge an existing site.**
+>- Don't create any target SharePoint sites before starting your migration. If the site already exists on the target tenant the migration fails. **You can't overwrite or merge an existing site.**
 >
 >- Target Microsoft 365 Groups for group-connected SharePoint site migrations **can't** be linked to existing SharePoint sites. Target Microsoft 365 groups must be pre-created in a specific way.
 >
->Before starting any migrations, make certain that your source SharePoint sites are set to Read/write mode.  If they are set to read-only the migration will fail.
+>Before starting any migrations, make certain that your source SharePoint sites are set to Read/write mode. If they are set to read-only the migration fails.
 >
->- Each individual SharePoint site being migrated must have no more than 5 TB of storage, or 1 million items. If during a migration of multiple sites a site with more than 5 TB is encountered, that site will eventually timeout and fail. Sites less 5 TB will continue until completion.
+>- Each individual SharePoint site being migrated must have no more than 5 TB of storage, or 1 million items. If during a migration of multiple sites a site with more than 5 TB is encountered, that site will eventually timeout and fail. Sites less 5 TB continue until completion.
 >
 >- The 1 million item limit can be any "item", including files (including versions), folders, and list line entries if it's a list or library.
 >
@@ -82,17 +82,17 @@ If your migration fails, rename the User or Site URL or work with the user to re
 
 ## Multi-Geo
 
-You can migrate sites directly into individual satellite geo instances as needed. When working with multi-geo environments additional planning and configuration will need to be considered.  
+You can migrate sites directly into individual satellite geo instances as needed. When working with multi-geo environments more planning and configuration needs to be considered.  
 
-- Trust configurations will need to be established between all source and target instances that will be part of the migration. 
+- Trust configurations need to be established between all source and target instances that are part of the migration. 
 - The identity mapping file must be uploaded to every target instance.
-- When migrating in multi-geo environments, each source instance will be subject to the 4000 queue size limit regardless of the number of target tenants.
+- When migrating in multi-geo environments, each source instance is subject to the 4000 queue size limit regardless of the number of target tenants.
 - Establishing multiple trusts allows you to move sites directly into a geo instance of choice.
 - If a site is migrated to an incorrect instance, you cannot use Cross Tenant User Migration to move it between instances of the same tenant.
 - 
 Use the appropriate multi geo commands to move the site between geo instance of the same tenant.
-- To move OneDrive sites between instances refer to [Move a OneDrive site.](/microsoft-365/enterprise/m365-dr-workload-spo)
-- To move SharePoint sites between instances refer to [Move a SharePoint site or SharePoint Embedded container site.](/microsoft-365/enterprise/m365-dr-workload-spo)
+- To move OneDrive sites between instances, refer to [Move a OneDrive site.](/microsoft-365/enterprise/m365-dr-workload-spo)
+- To move SharePoint sites between instances, refer to [Move a SharePoint site or SharePoint Embedded container site.](/microsoft-365/enterprise/m365-dr-workload-spo)
 
 ## Support SharePoint features
 
@@ -104,11 +104,11 @@ The following types of site can be migrated between geographic locations:
 - Communication sites
 
 >[!Important]
->This feature **does not** include migration of Teams content, channels or associated structure. If a Teams-connected SharePoint site is migrated, only the SharePoint site content will be migrated to the target.
+>This feature **does not** include migration of Teams content, channels or associated structure. If a Teams-connected SharePoint site is migrated, only the SharePoint site content is migrated to the target.
 
 ### Sharing Links
 
-When the SharePoint site migration completes, the existing shared links for the files that were migrated will automatically redirect to the new geographic location.
+When the SharePoint site migration completes, the existing shared links for the files that were migrated are automatically redirected to the new geographic location.
 
 ### Permissions
 
@@ -159,7 +159,7 @@ When migrating SharePoint sites between tenants, it's important to communicate t
 
 You can schedule SharePoint site migrations in advance but consider the following recommendations:
 
-- Start with a small number of sites to validate your workflows and communication strategies
+- Start with a few sites to validate your workflows and communication strategies
 - Once you're comfortable with the process, you can schedule large batches of migrations.
 - You can schedule up to 4,000 migrations at a time per batch
 - As the migrations begin, you can schedule more, with a maximum of 4,000 pending migrations in the queue at any given time.
