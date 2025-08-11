@@ -1,8 +1,8 @@
 ---
 title: "Microsoft 365 admin center Viva Insights activity reports"
-ms.author: camillepack
+ms.author: cmcatee
 author: camillepack
-manager: scotv
+manager: dansimp
 ms.date: 02/29/2024
 audience: Admin
 ms.topic: article

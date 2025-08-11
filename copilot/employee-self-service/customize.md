@@ -15,7 +15,7 @@ ms.collection: m365copilot
 robots: NOINDEX, NOFOLLOW
 description: Learn about the customization stage in the deployment process for the Employee Self-Service agent.
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # Customize the Employee Self-Service agent
