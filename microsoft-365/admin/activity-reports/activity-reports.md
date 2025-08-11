@@ -2,9 +2,9 @@
 title: "Microsoft 365 admin center activity reports"
 f1.keywords:
 - NOCSH
-ms.author: camillepack
+ms.author: cmcatee
 author: camillepack
-manager: scotv
+manager: dansimp
 ms.date: 05/12/2025
 audience: Admin
 ms.topic: overview

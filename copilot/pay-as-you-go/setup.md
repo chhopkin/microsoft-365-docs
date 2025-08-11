@@ -16,7 +16,7 @@ ms.collection:
 - essentials-overview
 ms.custom: [copilot-learning-hub]
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ms.date: 07/23/2025
 ---
 

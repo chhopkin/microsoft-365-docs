@@ -5,7 +5,7 @@ f1.keywords:
 - FWLink-2135711
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: scotv
+manager: dansimp
 ms.reviewer: shegu
 audience: Admin
 ms.topic: how-to
@@ -17,7 +17,7 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-ms.custom: 
+ms.custom:
 - commerce_signup
 - AdminSurgePortfolio
 - admindeeplinkMAC

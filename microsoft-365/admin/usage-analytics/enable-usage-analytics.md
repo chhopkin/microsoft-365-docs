@@ -2,9 +2,9 @@
 title: "Enable Microsoft 365 usage analytics"
 f1.keywords:
 - CSH
-ms.author: efrene
+ms.author: cmcatee
 author: efrene
-manager: scotv
+manager: dansimp
 ms.date: 09/16/2024
 audience: Admin
 ms.topic: how-to
@@ -16,7 +16,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom: 
+ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 - admindeeplinkMAC
