@@ -3,7 +3,7 @@ title: Licensing for document processing for Microsoft 365
 ms.author: chucked
 author: chuckedmonson
 ms.reviewer: ssquires, kkameth
-ms.date: 08/01/2025
+ms.date: 08/11/2025
 manager: jtremper
 audience: admin
 ms.topic: article
@@ -60,15 +60,15 @@ The following pay-as-you-go services are currently available for document proces
 
 --->
 
-### Included features
+### Other features
 
-The following content management features are available (at no cost) once you set up a pay-as-you-go service:
+The following features are also available to support your document processing workflows:
 
-- [Content query](metadata-search.md)
-- [Annotations](annotations.md)
-- [Content processing rules](content-processing-overview.md)
-- [Solution accelerators](site-templates.md)
-- [Taxonomy tools](import-term-set-skos.md)
+- [Content query](metadata-search.md) – Search and filter content based on metadata.
+- [Annotations](annotations.md) – Add notes and comments to content for collaboration and review.
+- [Content processing rules](content-processing-overview.md) – Automate actions and workflows based on content conditions.
+- [Solution accelerators](site-templates.md) – Use prebuilt templates to speed up site creation and deployment.
+- [Taxonomy tools](import-term-set-skos.md) – Manage and import term sets and content types to organize content effectively.
 
 ## If you still have active per-user licenses
 
