@@ -2,7 +2,7 @@ name: Tier management
 
 permissions:
   pull-requests: write
-  contents: read
+  contents: write
       
 on: 
     workflow_call:
@@ -21,9 +21,9 @@ on:
                 required: true
 
 jobs:
-    build:
-      name: Run Script
-      if: github.repository_owner == 'MicrosoftDocs'
+    tier-management:
+      name: Tier management
+      if: github.repository_owner == 'MicrosoftDocs' && github.event_name == 'issue_comment'
       runs-on: ubuntu-latest
       steps:
         - name: Script
@@ -447,4 +447,130 @@ jobs:
 
             } # PR event and action check
 
-          
+    set-draft:
+      name: Set PR as draft
+      if: github.repository_owner == 'MicrosoftDocs' && github.event_name == 'pull_request_target'
+      runs-on: ubuntu-latest
+      steps:
+        - name: Script
+          shell: pwsh
+          env: 
+            PayloadJson: ${{ inputs.PayloadJson }}
+            AccessToken: ${{ secrets.AccessToken }}
+
+          run: |
+
+            # Get GitHub data and event
+            $GitHubData = $env:PayloadJson | ConvertFrom-Json -Depth 50
+            $GitRequestEvent = $GitHubData.event_name
+            
+            $AccessToken = $env:AccessToken
+
+            $DefaultBranch = $GitHubData.event.repository.default_branch
+            $GitHubSender = $GitHubData.event.sender.login
+            $PrUrl = $GitHubData.event.pull_request.url
+            $CommentsUrl = $GitHubData.event.pull_request.comments_url
+            $UserPermissionUrl = $GitHubData.event.repository.collaborators_url.Replace("{/collaborator}", "/$GitHubSender/permission" )
+
+            $DraftMessage = "<h1>Pull request set to Draft</h1><p>Hi @{0}. <p>To avoid accidentally publishing the changes in this pull request prematurely, its state has been changed to <b>Draft</b>.<p>When you're ready for the changes in this pull request to be published live, select the <b>Ready for review</b> button at the bottom of the page.<p>If you have questions, please post a message to <a href=`"https://aka.ms/askanadmin`">https://aka.ms/askanadmin</a>."
+
+            # Create github HTTP authentication header 
+            $GitHubHeaders = @{}
+            $GitHubHeaders.Add("Authorization","token $($AccessToken)")
+            $GitHubHeaders.Add("User-Agent", "OfficeDocs")
+
+            #####################
+            #####################
+            # Set-PrMessage
+
+            Function Set-PrMessage {
+
+              [cmdletbinding()]
+              Param(
+                  [Parameter(Mandatory=$True)]
+                  $Message
+              )
+
+              $BodyHash = @{}
+              $BodyHash.body = $Message
+              $BodyJson = $BodyHash | ConvertTo-Json
+              $BodyJson
+
+              Try {
+
+                  $Result = Invoke-WebRequest -UseBasicParsing -Uri $CommentsUrl -Body $BodyJson -Headers $GitHubHeaders -Method POST -ErrorAction Stop
+              
+                  $PostCommentSuccess = $True
+
+              } Catch {
+
+                  $PostCommentSuccess = $False
+
+              }
+
+              Return $PostCommentSuccess
+
+            }
+
+
+            #####################
+            #####################
+            # Main
+
+
+            # Get permission level of user who created the comment. Need to use .role_name instead of .permission because .permission provides only legacy values. 
+            # .role_name provides legacy plus triage, maintain, and custom roles like write-elevated.
+            $UserPermission = $(Invoke-RestMethod -Method GET -Headers $GitHubHeaders -Uri $UserPermissionUrl).role_name
+
+            Write-Host "User $GitHubSender permission level: $UserPermission."
+
+            # If user has triage or above, do nothing, otherwise switch PR to draft.
+            If (($UserPermission -like "write*") -or ($UserPermission -eq "maintain") -or ($UserPermission -eq "triage") -or ($UserPermission -eq "admin")) {
+
+                Write-Host "User has $UserPermission access. Not switching PR to draft."
+
+            } Else {
+            
+                Write-Host "PR URL: $PrUrl"
+
+                # REST: get PR node_id
+                $PrData   = Invoke-RestMethod -Method Get -Headers $GitHubHeaders -Uri $PrUrl
+                $PrNodeId = $PrData.node_id
+
+                Write-Host "Setting PR $($PrData.number) to draft. Node ID: $PrNodeId."
+
+                $Body = @{
+                            query = @'
+                                mutation($id: ID!){
+                                    convertPullRequestToDraft(input:{pullRequestId:$id}) {
+                                        pullRequest { number url isDraft }
+                                    }
+                            }
+            '@
+                            variables = @{ id = $PrNodeId }
+                        } | ConvertTo-Json -Depth 5
+
+
+                Try {
+                
+                    $Resp = Invoke-RestMethod -Method Post -Uri "https://api.github.com/graphql" -Headers $GitHubHeaders -ContentType 'application/json' -Body $Body
+
+                    # Show errors if any, otherwise show the PR
+                    If ($Resp.errors) {
+                        Write-Error ("GraphQL error(s): " + ($Resp.errors | ConvertTo-Json -Depth 10))
+                    } Else {
+                        $Resp.data.convertPullRequestToDraft.pullRequest | ConvertTo-Json -Depth 5
+                    }
+
+                    $DraftMessage = $DraftMessage -f $GitHubSender
+
+                    Set-PrMessage -Message $DraftMessage
+
+                } Catch {
+                 
+                    Write-Host "ERROR: Failed to set PR to draft. Error: $_"
+                
+                }
+
+            
+            }
