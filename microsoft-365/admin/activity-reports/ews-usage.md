@@ -1,14 +1,14 @@
 ---
 title: "Microsoft 365 Reports in the admin center – EWS usage"
-ms.author: camillepack
+ms.author: cmcatee
 author: camillepack
-manager: scotv
+manager: dansimp
 ms.date: 03/18/2025
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier2
 - scotvorg
 - M365-subscription-management

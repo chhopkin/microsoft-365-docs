@@ -2,15 +2,15 @@
 title: "Remove a former employee - Overview"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
-manager: scotv
+ms.author: deniseb
+author: denisebmsft
+manager: dansimp
 ms.date: 10/01/2024
 audience: Admin
 ms.topic: solution-overview
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier1
 - scotvorg
 - M365-subscription-management
@@ -18,6 +18,7 @@ ms.collection:
 - Adm_TOC
 - SPO_Content
 - m365solution-overview
+- trust-pod
 ms.custom:
 - has-azure-ad-ps-ref
 - azure-ad-ref-level-one-done

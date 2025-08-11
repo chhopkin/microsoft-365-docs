@@ -4,17 +4,18 @@ f1.keywords:
 - NOCSH
 ms.author: kwekua
 author: kwekuako
-manager: scotv
+manager: dansimp
 ms.date: 01/06/2025
 audience: Admin
-ms.topic: article
+ms.topic: concept-article
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
+- Adm_O365
+- trust-pod
+- feedback-content
 - Tier2
 - scotvorg
-- Adm_O365
-ms.custom: AdminSurgePortfolio
 description: "Use Net promoter scores (NPS) from your end users to see how they feel about Microsoft products and services."
 ---
 
