@@ -83,7 +83,7 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
     Your final selections should look like this:
 
-    :::image type="content" source="./media/moodle-services.png" alt-text="Screenshot of Moodle Services." border="true":::
+    :::image type="content" source="./media/moodle-services.png" alt-text="Screenshot of Moodle Services." border="true" lightbox="./media/moodle-services.png":::
 
 1. Check the **Force SSL** box.
 
