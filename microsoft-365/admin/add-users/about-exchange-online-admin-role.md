@@ -10,14 +10,14 @@ audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier2
 - scotvorg
-- M365-subscription-management 
+- M365-subscription-management
 - Adm_O365
 - must-keep
 - trust-pod
-ms.custom: 
+ms.custom:
 - AdminSurgePortfolio
 - admindeeplinkEXCHANGE
 search.appverid:

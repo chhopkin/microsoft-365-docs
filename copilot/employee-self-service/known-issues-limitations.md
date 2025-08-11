@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn about the known issues and limitations affecting the ESS (Employee Self-Service) agent and the workarounds you can employ.
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # Known issues and limitations for the Employee Self-Service agent

@@ -2,9 +2,9 @@
 title: "Microsoft Cloud Solution Provider Partners in Russia"
 f1.keywords:
 - NOCSH
-ms.author: loreenl
-author: LoreenLa
-manager: pamgreen
+ms.author: kwekua
+author: kwekuako
+manager: dansimp
 ms.date: 02/18/2020
 audience: Admin
 ms.topic: article

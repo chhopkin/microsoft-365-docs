@@ -17,7 +17,7 @@ ms.collection:
 - essentials-overview
 ms.custom: [copilot-learning-hub]
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # Meters for Microsoft 365 Copilot pay-as-you-go for IT admins
