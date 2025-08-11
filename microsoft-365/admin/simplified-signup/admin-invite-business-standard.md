@@ -4,17 +4,17 @@ f1.keywords:
 - NOCSH
 ms.author: kwekua
 author: kwekuako
-manager: scotv
+manager: dansimp
 ms.date: 01/06/2025
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier1
 - scotvorg
 - Adm_TOC
-ms.custom: 
+ms.custom:
 - AdminSurgePortfolio
 description: "Invite users to join Microsoft 365 Business Standard organization"
 ---

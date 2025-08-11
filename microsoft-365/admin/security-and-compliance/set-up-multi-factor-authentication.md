@@ -2,9 +2,9 @@
 title: "Set up multifactor authentication for users"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
-manager: scotv
+ms.author: deniseb
+author: denisebmsft
+manager: dansimp
 ms.date: 07/28/2025
 audience: Admin
 ms.topic: install-set-up-deploy
@@ -26,7 +26,7 @@ ms.custom:
 - adminvideo
 - business_assist
 description: "Learn how to set up multifactor authentication for your organization."
-monikerRange: 'o365-worldwide'
+monikerRange: o365-worldwide
 ---
 
 # Set up multifactor authentication for Microsoft 365

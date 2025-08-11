@@ -1,8 +1,8 @@
 ---
 title: "Microsoft 365 admin center browser usage reports"
-ms.author: scotv
+ms.author: cmcatee
 author: efrene
-manager: scotv
+manager: dansimp
 ms.date: 03/09/2021
 audience: Admin
 ms.topic: article

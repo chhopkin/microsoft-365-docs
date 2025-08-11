@@ -1,8 +1,8 @@
 ---
 title: "Microsoft 365 admin center Teams usage activity reports"
-ms.author: camillepack
+ms.author: cmcatee
 author: camillepack
-manager: scotv
+manager: dansimp
 ms.date: 12/14/2023
 audience: Admin
 ms.topic: article
@@ -14,7 +14,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
-ms.custom: 
+ms.custom:
 - AdminSurgePortfolio
 - campaignIDs-batch1
 search.appverid:

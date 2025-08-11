@@ -2,13 +2,13 @@
 title: "Microsoft Feedback Code of Conduct"
 ms.author: kwekua
 author: kwekuako
-manager: scotv
+manager: dansimp
 ms.date: 02/24/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier3
 - scotvorg
 description: "Learn about Microsoft code of conduct for the feedback you provide."

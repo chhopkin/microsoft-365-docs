@@ -2,8 +2,8 @@
 title: "Learn about Microsoft feedback for your organization"
 f1.keywords:
 - NOCSH
-ms.author: danbrown
-author: DHB-MSFT
+ms.author: kwekua
+author: kwekuako
 manager: dansimp
 ms.date: 03/05/2025
 audience: Admin
@@ -11,11 +11,13 @@ ms.topic: concept-article
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
 ms.collection:
-- M365-subscription-management 
+- M365-subscription-management
 - Adm_O365
 - must-keep
 - trust-pod
 - feedback-content
+- Tier2
+- scotvorg
 ms.custom: campaignIDs-batch1
 description: "Learn about feedback your users can send to Microsoft about Microsoft products."
 ---
