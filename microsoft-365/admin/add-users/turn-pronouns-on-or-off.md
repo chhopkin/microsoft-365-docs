@@ -3,9 +3,9 @@ title: "Turn pronouns on or off for your organization in the Microsoft 365 admin
 f1.keywords: CSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: scotv
+manager: dansimp
 audience: Admin
-ms.topic: how-to 
+ms.topic: how-to
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
 ms.collection:

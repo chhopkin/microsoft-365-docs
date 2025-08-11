@@ -1,9 +1,9 @@
 ---
 title: "Add-in deployment email alerts"
 f1.keywords: CSH
-ms.author: elizs
-author: ElizabethSamuel-MSFT
-manager: aljerabe
+ms.author: kwekua
+author: kwekuako
+manager: dansimp
 ms.reviewer: akshah
 ms.date: 06/14/2022
 audience: Admin

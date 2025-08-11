@@ -1,20 +1,20 @@
 ---
 title: "Understand your invoice for your Microsoft MOSA billing account"
 f1.keywords:
-- 'UnderstandBillInvoiceM365'
+- UnderstandBillInvoiceM365
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: scotv
+manager: dansimp
 ms.reviewer: jkinma, ramagane
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-management
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier1
 - scotvorg
-- highpri 
+- highpri
 - M365-subscription-management
 - Adm_O365
 ms.custom:
