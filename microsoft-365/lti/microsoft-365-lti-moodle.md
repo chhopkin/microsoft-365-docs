@@ -73,17 +73,17 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
 1. Set the Services and Privacy configurations as follows:
 
-| **Field in Moodle** |  **Value**      |
-|---------------_-----|-----------------|
-| IMS LTI Assignment and Grade Services  | Use this service for grade sync and column management  |
-| IMS LTI Names and Roles Provisioning   | Use this service to retrieve members’ information as per privacy settings |
-| Share launcher’s name with tool        | Always  |
-| Share launcher’s email with tool       | Always  |
-| Accept grades from the tool            | Always  |
+    | **Field in Moodle** |  **Value**      |
+    |---------------------|-----------------|
+    | IMS LTI Assignment and Grade Services  | Use this service for grade sync and column management  |
+    | IMS LTI Names and Roles Provisioning   | Use this service to retrieve members’ information as per privacy settings |
+    | Share launcher’s name with tool        | Always  |
+    | Share launcher’s email with tool       | Always  |
+    | Accept grades from the tool            | Always  |
 
-Your final selections should look like this:
+    Your final selections should look like this:
 
-:::image type="content" source="./media/moodle-services.png" alt-text="Screenshot of Moodle Services." border="true":::
+    :::image type="content" source="./media/moodle-services.png" alt-text="Screenshot of Moodle Services." border="true":::
 
 1. Check the **Force SSL** box.
 
