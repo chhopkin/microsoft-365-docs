@@ -2,9 +2,9 @@
 title: "GDPR simplified: A guide for your small business"
 f1.keywords:
 - NOCSH
-ms.author: efrene
-author: efrene
-manager: scotv
+ms.author: danbrown
+author: DHB-MSFT
+manager: dansimp
 ms.date: 07/28/2025
 audience: Admin
 ms.topic: overview

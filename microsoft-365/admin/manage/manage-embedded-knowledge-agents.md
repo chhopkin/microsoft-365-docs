@@ -1,9 +1,10 @@
 ---
 title: "Manage agents with embedded file content as a knowledge source in the Microsoft 365 admin center"
-ms.author: camillepack
-author: camillepack
-manager: scotv
+ms.author: aaroncz
+author: aczechowski
+manager: dansimp
 ms.date: 06/18/2025
+ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
