@@ -17,7 +17,7 @@ ms.collection:
 - essentials-overview
 ms.custom: [copilot-learning-hub]
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # View costs and billing for Microsoft 365 Copilot pay-as-you-go
