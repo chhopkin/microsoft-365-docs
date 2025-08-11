@@ -1,13 +1,14 @@
----  
-title: "Microsoft 365 Copilot Search"  
-author: kwekuako
-ms.author: kwekua  
+---
+title: "Microsoft 365 Copilot Search"
+author: Efrene
+ms.author: efrene
 manager: dansimp
 ms.date: 08/07/2025
 ms.topic: overview
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
-ms.collection: CopilotSearch
+ms.collection:
+- CopilotSearch
 ms.reviewer: kwekua
 audience: admin
 ai-usage: ai-assisted

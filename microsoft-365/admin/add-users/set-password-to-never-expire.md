@@ -19,15 +19,16 @@ ms.collection:
 - Adm_TOC
 - trust-pod
 ms.custom:
-  - VSBFY23
-  - MSStore_Link
-  - AdminSurgePortfolio
-  - AdminTemplateSet
-  - has-azure-ad-ps-ref
-  - azure-ad-ref-level-one-done
-search.appverid:
+- VSBFY23
+- MSStore_Link
+- AdminSurgePortfolio
+- AdminTemplateSet
+- has-azure-ad-ps-ref
+- azure-ad-ref-level-one-done
+search.appverid: 
 description: "Sign in to your Microsoft 365 admin account to set some individual user passwords to never expire by using Microsoft Graph PowerShell."
 ---
+
 # Set an individual user's password to never expire
 
 Check out all of our small business content on [Small business help & learning](https://go.microsoft.com/fwlink/?linkid=2224585).
