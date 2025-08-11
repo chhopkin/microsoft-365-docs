@@ -149,6 +149,16 @@ After you sign any necessary agreements or supplemental terms, select **Go to ch
 
 Sales proposals might include subscriptions that start on a future date. A future start date aligns the start date of a new subscription with the end date of a previous subscription. If your proposal contains subscriptions that start on a future date, you receive an invoice for those subscriptions only when the future start date arrives. Using a future start date ensures that you aren't billed for items that you don't own yet. New subscriptions start on the future start date specified in the proposal. On the start date of the new subscription, we send you an email to let you know that your new subscription is now active and your billing for this subscription begins immediately. Your next invoice reflects the new charges plus applicable taxes for the new subscription.
 
+### Understanding Renewal Options
+When a product's term ends, customers have three renewal paths:
+	1. Cancel
+	The subscription will end at expiration without renewal.
+	2. Standard Renewal
+	The subscription renews for the same duration and terms as the original.
+	3. Extended Service Term
+	The subscription renews for a shorter duration (typically monthly) and usually a price uplift is applied.
+
+
 ## Step 3: Checkout
 
 The checkout page contains the following sections:
