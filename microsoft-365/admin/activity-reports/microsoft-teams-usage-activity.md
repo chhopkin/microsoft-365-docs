@@ -36,9 +36,7 @@ The brand-new **Teams usage report** gives you an overview of the usage activity
 ## How to get to the Microsoft Teams usage activity report
 
 1. In the admin center, go to the **Reports**, then select **Usage**.
-2. From the dashboard homepage, click on the **View more** button on the **Microsoft Teams activity** card.
-
-   ![Microsoft 365 reports - Microsoft Teams activity card.](../../media/teams-usage-card.png)<br/>
+1. From the dashboard homepage, click on the **View more** button on the **Microsoft Teams activity** card.
 
 3. On the **Microsoft Teams** reports page, select the **Teams Usage** tab.
 
@@ -49,11 +47,11 @@ You can view the user activity in the Teams report by choosing the **Teams Usage
 - **Channel usage**: Tracks the number of channel uses, by activity type, over time.
 
   ![Teams usage activity report - channel usage.](../../media/teams-usage-channel.png)
-
+  
 - **Team usage**: Tracks the number of teams, by type and activity, over time.
 
   ![Teams usage activity report - team usage.](../../media/teams-usage-usage.png)
-
+  
 Additionally, the chart includes usage details for individual teams, such as last activity date, active users, active channels, and other data.
 
 ![Microsoft 365 reports - Microsoft Teams usage activity table.](../../media/teams-usage-table.png)
@@ -75,10 +73,9 @@ To ensure data quality, we perform daily data validation checks for the past thr
 
 The Channel usage chart shows data on the following metrics.
 
-|Item|Description|
+|Metric |Definition |
 |:-----|:-----|
-|**Metric**|**Definition**|
-|Active channel users|This is the total of internal active users, active guests, and external active users.  <br/><br/> **Internal active users** - Users that have at least one panel action in the specified time period. This excludes guests.   <br/> **Active guests** - Guests that have at least one panel action in the specified time period. A guest is a person from outside your organization who accesses shared resources by signing in to a guest account in my directory.  <br/> **External active user** - External participants that have at least one panel action in the specified time period. An external participant is a person from outside your organization who is participating in a resource – such as a shared channel – using their own identity and not a guest account in your directory.|
+|Active channel users |This is the total of internal active users, active guests, and external active users.  <br/><br/> **Internal active users** - Users that have at least one panel action in the specified time period. This excludes guests.   <br/> **Active guests** - Guests that have at least one panel action in the specified time period. A guest is a person from outside your organization who accesses shared resources by signing in to a guest account in my directory.  <br/> **External active user** - External participants that have at least one panel action in the specified time period. An external participant is a person from outside your organization who is participating in a resource – such as a shared channel – using their own identity and not a guest account in your directory.|
 |Active channels|Valid channels in active teams that have at least one active user in the specified time period. This includes public, private, or shared channels.|
 |Channel messages|The number of unique messages that the user posted in a private chat during the specified time period.|
 
@@ -89,9 +86,8 @@ The Channel usage chart shows data on the following metrics.
 
 The Teams usage chart shows data on the following metrics.
 
-|Item|Description|
+|Metric |Definition|
 |:-----|:-----|
-|**Metric**|**Definition**|
 |Private teams|A private team that is either active or inactive.|
 |Public teams|A public team that is either active or inactive.|
 |Active private teams|A team that is private and active.|
@@ -101,16 +97,15 @@ The Teams usage chart shows data on the following metrics.
 
 Data for following metrics are available for individual teams.
 
-|Item|Description|
+|Metric|Definition|
 |:-----|:-----|
-|**Metric**|**Definition**|
 |Team ID|Team identifier|
 |Internal active users|Users that have at least one panel action in the specified time period including guests. <br/> <br/> Internal users and guests that reside in the same tenant. Internal users exclude guests.|
 |Active guests|Guests that have at least one panel action in the specified time period. <br/> <br/> A guest is defined as persons from outside your organization who accesses shared resources by signing in to a guest account in my directory.|
 |External active users|External participants that have at least one panel action in the specified time period.<br/><br/> An external participant is defined as a person from outside your organization who is participating in a resource – such as a shared channel – using their own identity and not a guest account in your directory.|
 |Active channels|Valid channels in active teams that have at least one active user in the specified time period. This includes public, private, or shared channels.|
-|Active shared channels|Valid shared channels in active teams that have at least one active user in the specified time. <br/> <br/>A shared channel is defined as a Teams channel that can be shared with people outside the team. These people can be inside your organization or from other Microsoft Entra organizations.|
-|Total organized meetings|The sum of one-time scheduled, recurring, ad hoc and unclassified meetings a user organized during the specified time period.|
+|Active shared channels|Valid shared channels in active teams that have at least one active user in the specified time. <br/><br/>A shared channel is defined as a Teams channel that can be shared with people outside the team. These people can be inside your organization or from other Microsoft Entra organizations.<br/><br/>**NOTE:** For shared channels that include external users, the report might undercount the number of active shared channels due to current telemetry limitations. |
+|Total organized meetings |The sum of one-time scheduled, recurring, ad hoc and unclassified meetings a user organized during the specified time period.|
 |Posts|Count of all the post messages in channels in the specified time period.|
 |Replies|Count of all the reply messages in channels in the specified time period.|
 |Mentions|Count of all mentions made in the specified time period.|
