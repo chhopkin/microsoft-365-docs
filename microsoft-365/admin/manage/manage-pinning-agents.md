@@ -37,7 +37,7 @@ description: "Learn how to manage pinning of agents for Microsoft 365 Copilot in
 
 This article explains how administrators can pin, unpin, or manage agents for everyone or specific groups using Microsoft 365 admin center. It also covers related actions like ranking the list of pinned agents and editing the scope of pinned agents.
 
-Pinning agents is a feature that enables administrators to pre-select and pin agents for end-users using M365 Copilot. By pinning an agent, the administrator ensures that the agent is automatically listed in the end user's Copilot interface without any user action. The agent is now readily accessible to the user in the Copilot interface.
+Pinning agents is a feature that enables administrators to preselect and pin agents for end-users using Microsoft 365 Copilot. The administrator pins the agent to ensure that it is automatically listed in the end user's Copilot interface without requiring any user action. The agent is now readily accessible to the user in the Copilot interface.
 
 ## Prerequisites
 
@@ -52,57 +52,59 @@ Pinning agents is a feature that enables administrators to pre-select and pin ag
 - Global Administrator
 - AI Administrator
 - Access to Microsoft 365 admin center
-- (Optional) Power Platform admin center access if you use Pay-as-you-go (PAYG) for agents
+- (Optional) Power Platform admin center access if you use Pay-as-you-go (pay-as-you-go) for agents
 
-:::image type="content" source="../../media/manage-pinning-agents/copilot-chat-pinned-agents.png" alt-text="Screenshot showing the pinned agents in M365 Copilot chat." lightbox="../../media/manage-pinning-agents/copilot-chat-pinned-agents.png":::
+## Pinned agents
 
-#### Microsoft-pinned agents
+:::image type="content" source="../../media/manage-pinning-agents/copilot-chat-pinned-agents.png" alt-text="Screenshot showing the pinned agents in Microsoft 365 Copilot chat." lightbox="../../media/manage-pinning-agents/copilot-chat-pinned-agents.png":::
+
+### Microsoft-pinned agents
 
 - These are agents that Microsoft pins by default for all users.
 - Purpose: Ensure essential or high-value agents (like core Copilot features) are always visible.
-- End users **cannot unpin** these agents. They are fixed in the pinned list.
+- End users **cannot unpin** these agents. They're fixed in the pinned list.
 
-#### Administrator-pinned agents
+### Administrator-pinned agents
 
 - Pinned by your organization's administrator through the Microsoft 365 admin center.
 - Scope: Can be pinned for **all users** or for **specific groups or for specific users**.
-- End users usually **cannot unpin** these either. They are fixed in the pinned list.
+- End users usually **cannot unpin** these agents either. They're fixed in the pinned list.
 
-#### User-pinned agents
+### User-pinned agents
 
-- Pinned by individual users in their own M365 Copilot Chat experience.
+- Pinned by individual users in their own Microsoft 365 Copilot Chat experience.
 - Users can:
   - Pin agents they frequently use.
   - Unpin them anytime.
-- This is fully under the user's control, except for Microsoft-pinned or administrator-pinned agents which remain locked.
+- This list is fully under the user's control, except for Microsoft-pinned or administrator-pinned agents, which remain locked.
 
 ## Features
 
 - Administrator-pinned agents appear by default for end-users, making them easier to discover and helping highlight new or important agents.
 - Administrators can view the Microsoft-pinned agents in Microsoft 365 admin center.
-- Administrators can pin up to 3 agents in Microsoft 365 admin center for end-users using Microsoft 365 Copilot in the organization.
+- Administrators can pin up to three agents in Microsoft 365 admin center for end-users using Microsoft 365 Copilot in the organization.
 - Administrators can choose to pin an agent for all users in the tenant or for specific users/groups. For example:
   - Pin **Sales Coach** agent only for the sales department.
   - Pin **HR Q&A** agent for all employees.
-- Administrator-pinned and Microsoft-pinned agents cannot be unpinned by an end-user.
+- The end-user cannot unpin the Administrator-pinned and Microsoft-pinned agents.
 
 ## How to pin agents
 
 1. In the Microsoft 365 Admin Center, navigate to **Copilot > Agents** by expanding Copilot in the left navigation.
-2. In the **Agents** page, click **Manage pinned agents** icon.
+2. In the **Agents** page, select **Manage pinned agents** icon.
 :::image type="content" source="../../media/manage-pinning-agents/manage-pinned-agents.png" alt-text="Screenshot showing the Agents page in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/manage-pinned-agents.png":::
 
 ### View Microsoft-pinned agents and administrator-pinned agents
 
 1. In the right pane, you can view the Microsoft-pinned agents in the **Pinned by Microsoft** list view. Initially, there are no agents in the **pinned by your org** section.
-2. Click  **Pin agents** to pin new agents.
+2. Select  **Pin agents** to pin new agents.
 :::image type="content" source="../../media/manage-pinning-agents/pin-agents.png" alt-text="Screenshot showing the Pin agents button in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/pin-agents.png":::
 
 ### Locate the agent to pin
 
 1. From the list of agents, find the agent you want to pin. You can search from the list to find a specific agent by name.
 :::image type="content" source="../../media/manage-pinning-agents/select-an-agent.png" alt-text="Screenshot showing a list of agents that you can select from in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/select-an-agent.png":::
-2. Click **Next**.
+2. Select **Next**.
 
 ### Choose the scope of pinning
 
@@ -117,17 +119,17 @@ If you choose to select **Specific Groups or Users**, you can then select the sp
 
 :::image type="content" source="../../media/manage-pinning-agents/choose-specific-users-groups.png" alt-text="Screenshot showing a list of users or groups that you can select from in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/choose-specific-users-groups.png":::
 
-Click **Save**, to save the details.
+Select **Save**, to save the details.
 
 ### Review and finish
 
-1. Click **Review & Finish**.
+1. Select **Review & Finish**.
 2. After you save the configuration, the system records which agent is pinned for the selected audience.
 :::image type="content" source="../../media/manage-pinning-agents/pinned-agents.png" alt-text="Screenshot showing all the pinned agents in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/pinned-agents.png":::
 
 ## Can you pin any agent?
 
-Only deployed agents can be pinned. If the agent is not deployed, you will see a banner with a message to first deploy the agent.
+Only deployed agents can be pinned. If the agent isn't deployed, you see a banner with a message to first deploy the agent.
 :::image type="content" source="../../media/manage-pinning-agents/deploy-agents.png" alt-text="Screenshot a message to first deploy the agent." lightbox="../../media/manage-pinning-agents/deploy-agents.png":::
 
 If the agent is blocked, you must first unblock the agent before you can pin it.
@@ -135,8 +137,8 @@ If the agent is blocked, you must first unblock the agent before you can pin it.
 
 ## Rank the list of pinned agents
 
-- The administrator has 3 slots reserved for the pinned agents for each user.
-- The administrator can use the **Move up** and **Move down** buttons to  re-order the list of pinned agents by priority to control what is shown to the user.
+- The administrator has three slots reserved for the pinned agents for each user.
+- The administrator can use the **Move up** and **Move down** buttons to  reorder the list of pinned agents by priority to control what is shown to the user.
 
 ## How to unpin an agent
 
@@ -150,6 +152,6 @@ Select the agent and choose **Edit users** to modify the scope of users for whic
 
 ## Alternate entry point for pinning
 
-You can also pin an agent from the agent details pane. Click on the pin for the user icon. The icon is only enabled if the agent is deployed.
+You can also pin an agent from the agent details pane. Select the pin for the user icon. The icon is only enabled if the agent is deployed.
 
 :::image type="content" source="../../media/manage-pinning-agents/agent-details.png" alt-text="Screenshot showing the agent details pane in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/agent-details.png":::
