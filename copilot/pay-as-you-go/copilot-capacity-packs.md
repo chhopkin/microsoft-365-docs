@@ -1,6 +1,6 @@
 ---
-title: Use Copilot Studio capacity packs for Microsoft 365 Copilot Chat
-description: Learn how to use capacity packs for Copilot Studio to pay for Microsoft 365 Copilot Chat usage.
+title: Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat
+description: Learn how to use prepaid capacity packs for Copilot Studio to pay for Microsoft 365 Copilot Chat usage.
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: dansimp
@@ -19,7 +19,7 @@ appliesto:
 ms.date: 06/16/2025
 ---
 
-# Use Copilot Studio capacity packs for Microsoft 365 Copilot Chat
+# Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat
 
 A Copilot Studio capacity pack is a prepaid subscription for Microsoft Copilot Studio. Each capacity pack provides a fixed number of Copilot messages that you can use across your tenant. Messages are the unit of consumption in Microsoft 365 Copilot Chat for AI interactions and are available in quantities of 25,000 per month per pack. The number of messages consumed by a Microsoft 365 Copilot Chat agent depends on the design of the agent, how often customers interact with it, and the features they use. For more information about the billing rates for messages, see [Billing rates and management - Microsoft Copilot Studio | Microsoft Learn](/microsoft-copilot-studio/requirements-messages-management#message-scenarios).
 
