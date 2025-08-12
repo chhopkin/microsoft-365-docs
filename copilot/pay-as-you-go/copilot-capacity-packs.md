@@ -1,7 +1,6 @@
 ---
 title: Use Copilot Studio capacity packs for Microsoft 365 Copilot Chat
-description: 
-Enterprise and company IT admins can learn about the pay-as-you-go service for Microsoft 365 Copilot services, including Copilot Chat. Get an overview of the usage-based billing process, connecting the billing to a Copilot service, and monitoring costs.
+description: Learn how to use capacity packs for Copilot Studio to pay for Microsoft 365 Copilot Chat usage.
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: dansimp
@@ -24,7 +23,7 @@ ms.date: 06/16/2025
 
 A Copilot Studio capacity pack is a prepaid subscription for Microsoft Copilot Studio. Each capacity pack provides a fixed number of Copilot messages that you can use across your tenant. Messages are the unit of consumption in Microsoft 365 Copilot Chat for AI interactions and are available in quantities of 25,000 per month per pack. The number of messages consumed by a Microsoft 365 Copilot Chat agent depends on the design of the agent, how often customers interact with it, and the features they use. For more information about the billing rates for messages, see [Billing rates and management - Microsoft Copilot Studio | Microsoft Learn](/microsoft-copilot-studio/requirements-messages-management#message-scenarios).
 
-By default, Copilot Chat uses pay-as-you-go billing. With a capacity pack, you can prepay for a set number of messages, reducing the amount billed through pay-as-you-go billing.
+By default, Copilot Chat uses [pay-as-you-go billing](overview.md). With a capacity pack, you can prepay for a set number of messages, reducing the amount billed through pay-as-you-go billing.
 
 > [!NOTE]
 > You must enable pay-as-you-go billing before you can use a capacity pack for Copilot Chat. When you enable pay-as-you-go billing first, your Copilot Chat environment is linked to an Azure subscription to pay for any overages and provisions the environment for capacity usage.
@@ -55,8 +54,8 @@ A major benefit of the integration between prepaid capacity packs and pay-as-you
 
 First, you must buy a capacity pack for your tenant. Each capacity pack is a tenant license that includes 25,000 Copilot messages per month. If necessary, you can buy multiple packs.
 
-1. In the Microsoft 365 admin enter, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Marketplace</a> page.
-2. In the search box, type "Microsoft Copilot Studio – Messages."
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Marketplace</a> page.
+2. In the search box, type "Microsoft Copilot Studio – Messages".
 3. Find the product, then select **Details**.
 4. Enter the number of capacity packs that you want to buy, then select **Buy**.
 5. In the **Checkout** panel, choose the billing profile that you want to use, or add a new one.
@@ -98,7 +97,6 @@ After pay-as-you-go billing is set up with the capacity pack option, you must al
 
    - **Draw from the available capacity in my tenant**.
    - **Bill to my pay-as-you-go billing plan**. If you select this option, from the drop-down list, select the billing plan that you want to use.
-
 7. If you want to receive a notification when the capacity usage reaches a certain percentage, you can configure the notification setting. Under **Overage notification**, select the **Send notification when nearing capacity usage** checkbox, then select a percentage value from the drop-down list.
 8. Select **Save**, then close the **Manage capacity** panel.
 
