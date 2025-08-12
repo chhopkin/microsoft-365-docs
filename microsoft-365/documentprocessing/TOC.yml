@@ -277,7 +277,7 @@ items:
                         - name: Analyze model usage
                           href: model-usage-analytics.md
 
-    - name: Included features 
+    - name: Other features 
       items: 
         - name: Annotations 
           href: annotations.md
