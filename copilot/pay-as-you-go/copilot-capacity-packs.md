@@ -54,11 +54,14 @@ A major benefit of the integration between prepaid capacity packs and pay-as-you
 First, you must buy a capacity pack for your tenant. Each capacity pack is a tenant license that includes 25,000 Copilot messages per month. If necessary, you can buy multiple packs.
 
 1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Marketplace</a> page.
-2. In the search box, type "Microsoft Copilot Studio – Messages".
+2. In the search box, type "Microsoft Copilot Studio".
 3. Find the product, then select **Details**.
-4. Enter the number of capacity packs that you want to buy, then select **Buy**.
-5. In the **Checkout** panel, choose the billing profile that you want to use, or add a new one.
-6. Review your order, and then select **Place order**.
+4. On the product details page, in the **Select a plan** drop-down list, select **Microsoft Copilot Studio**.
+5. Select a **Subscription length** and **Billing frequency**.
+6. In the **Select license quantity** box, enter the number of capacity packs that you want to buy. Each pack represents 25,000 messages.
+7. Select **Buy**.
+8. In the **Checkout** panel, choose the billing profile that you want to use, or add a new one.
+9. Review your order, and then select **Place order**.
 
 After the purchase is complete, the capacity pack license appears in your tenant's subscriptions list. Because it's a tenant-wide resource, users don't need licenses individually assigned to them. However, you must [allocate the capacity pack to a Microsoft 365 Copilot Chat environment](#step-3-allocate-capacity-to-the-copilot-chat-environment-in-the-power-platform-admin-center).
 
