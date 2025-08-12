@@ -2,9 +2,9 @@
 title: "Microsoft Industry Updates"
 f1.keywords:
 - NOCSH
-ms.author: pebaum
-author: pebaum
-manager: scotv
+ms.author: kwekua
+author: kwekuako
+manager: dansimp
 ms.date: 03/17/2021
 audience: Admin
 ms.topic: article

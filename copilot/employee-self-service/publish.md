@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn about the last step in the deployment process for the Employee Self-Service agent.
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # Publish the Employee Self-Service agent to your organization

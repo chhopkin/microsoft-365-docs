@@ -11,8 +11,8 @@ ms.topic: article
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
 ms.custom: m365-groups
-ms.collection: 
-- M365-subscription-management 
+ms.collection:
+- M365-subscription-management
 - Adm_O365
 - Adm_TOC
 - trust-pod

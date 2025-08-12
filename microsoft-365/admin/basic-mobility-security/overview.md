@@ -10,7 +10,7 @@ audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-basic-mobility-security
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier3
 - scotvorg
 - highpri

@@ -1,11 +1,11 @@
 ---
 title: Enable pay-as-you-go for your subscription
-f1.keywords: 
+f1.keywords:
 - MACBillingPurchasePDPPayG
 - MACBillingPurchaseIDPPayG
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: scotv
+manager: dansimp
 ms.reviewer: emmasheridan, nicholak
 audience: Admin
 ms.topic: how-to

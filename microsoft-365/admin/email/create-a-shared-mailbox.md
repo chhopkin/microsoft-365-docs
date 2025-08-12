@@ -4,13 +4,13 @@ f1.keywords:
 - NOCSH
 ms.author: kwekua
 author: kwekuako
-manager: scotv
+manager: dansimp
 ms.date: 09/30/2024
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
 ms.localizationpriority: high
-ms.collection: 
+ms.collection:
 - Tier2
 - scotvorg
 - M365-subscription-management

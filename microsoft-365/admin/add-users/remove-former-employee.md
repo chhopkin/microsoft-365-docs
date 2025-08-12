@@ -10,7 +10,7 @@ audience: Admin
 ms.topic: solution-overview
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier1
 - scotvorg
 - M365-subscription-management

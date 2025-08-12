@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn about the deployment process and application lifecycle management for the Employee Self-Service agent
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # Employee Self-Service agent deployment overview
