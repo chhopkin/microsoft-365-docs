@@ -17,23 +17,17 @@ ai-usage: ai-assisted
 
 # How to Block FrontPage Server Extensions Remote Procedure Call (FPRPC) for file opens in Microsoft 365
 
-FrontPage Server Extensions Remote Procedure Call (FPRPC) is an outdated protocol that poses security risks. It can be exploited by attackers to execute arbitrary commands or compromise systems through specially crafted files or network traffic. Due to these risks, Microsoft 365 apps block FPRPC by default. When FPRPC fallback is blocked, the app will attempt to open the file using HTTPS instead.
+FrontPage Server Extensions Remote Procedure Call (FPRPC) is an outdated protocol that poses security risks. It can be exploited by attackers to execute arbitrary commands or compromise systems through specially crafted files or network traffic. Due to these risks, Microsoft 365 apps block file opens using FPRPC by default. When FPRPC is blocked, the app will attempt to open the file using HTTPS instead.
 
 When this setting is turned on, users in your environment won’t be able to override the default configuration using Trust Center.
 
 If you have turned on this setting and you need to revert to the default behavior, allowing users to override FPRPC blocking using Trust Center, you can turn off the Restricted Mode setting directly in the Microsoft 365 admin center.
 
-## Turn off default setting in the Microsoft 365 admin center
+## Turn off setting in the Microsoft 365 admin center
 
 1. Go to the admin center and select Org settings.
-1. Select Restricted mode and find the Block Dynamic Data Exchange setting and switch the toggle to **Off**.
+1. Select Restricted mode and find the Block FPRPC protocol for file opens setting and switch the toggle to **Off**.
 
-## Use Group Policy settings or Office cloud policy service
+## Use Office Cloud Policy service
 
-Alternatively, you can make changes to the Group Policy setting that supports this setting. These changes can be made in the Group Policy Editor or by using the [Office cloud policy service](https://config.office.com/).
-
-The Group Policy setting **Restrict Apps from FPRPC Fallback** can be found in the following path:
-
-- Group Policy path: `User Configuration > Administrative Templates > Microsoft Office 2016 > Security Settings > Restrict apps from FPRPC fallback`
-
-To revert to the default behavior, set this policy as not configured.
+Alternatively, you can make changes to the policy setting directly using the [Office cloud policy service](https://config.office.com/). Set the **Restrict Apps from FPRPC Fallback** policy as not configured to revert to the default behavior.
