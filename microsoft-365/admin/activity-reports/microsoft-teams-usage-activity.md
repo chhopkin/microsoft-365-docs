@@ -1,7 +1,7 @@
 ---
 title: "Microsoft 365 admin center Teams usage activity reports"
 ms.author: cmcatee
-author: camillepack
+author: cmcatee-MSFT
 manager: dansimp
 ms.date: 12/14/2023
 audience: Admin
@@ -10,12 +10,9 @@ ms.service: microsoft-365-business
 ms.localizationpriority: medium
 ms.collection:
 - Tier2
-- scotvorg
 - M365-subscription-management
 - Adm_O365
-- Adm_NonTOC
 ms.custom:
-- AdminSurgePortfolio
 - campaignIDs-batch1
 search.appverid:
 - BCS160
