@@ -5,18 +5,17 @@ author: cmcatee-MSFT
 ms.author: cmcatee
 manager: dansimp
 ms.update-cycle: 180-days
-ms.reviewer: clalissayi, issahn
+ms.reviewer: issahn, clalissayi
 audience: Admin
-ms.topic: get-started
+ms.topic: how-to
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.collection: 
 - m365copilot
 - essentials-overview
-ms.custom: [copilot-learning-hub]
 appliesto:
 - ✅ Microsoft 365 Copilot
-ms.date: 06/16/2025
+ms.date: 08/12/2025
 ---
 
 # Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat
@@ -113,8 +112,6 @@ In the Power Platform admin center, go to the **Licensing** > <a href="https://g
 You can also see the message allocation per environment. If you need to adjust the allocation (for example, to move some message units to a different environment or if you buy more capacity packs), you can use the **Manage capacity** panel to update the numbers. To open the panel again, go to the **Prepaid capacity** card and select **Manage capacity**.
 
 You can use the Power Platform admin center not just to manage message allocation, but also to check if your Copilot Chat environment's allocated capacity is being used up as users send messages.
-
-For example, let's say you allocated 25,000 messages to Copilot Chat and your users collectively sent 20,000 Copilot Chat queries this month. The Microsoft 365 admin center might show 20,000/25,000 messages used from prepaid capacity,  and the Power Platform admin center might show 5,000 messages remaining. The **Capacity consumption by product** tile in the Microsoft 365 admin center shows any usage over 25,000 as pay-as-you-go billing. If 27,000 messages were sent, it would show 25,000 from prepaid and 2,000 on pay-as-you-go, and your Azure billing policy is charged for those 2,000 extra messages.
 
 ## Additional tips and FAQs
 
