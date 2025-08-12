@@ -449,7 +449,7 @@ jobs:
 
     set-draft:
       name: Set PR as draft
-      if: github.repository_owner == 'MicrosoftDocs' && github.event_name == 'pull_request_target'
+      if: github.repository_owner == 'MicrosoftDocs' && github.event_name == 'pull_request_target' && github.event.pull_request.user.login != 'm365-skilling-repo-management[bot]'
       runs-on: ubuntu-latest
       steps:
         - name: Script
