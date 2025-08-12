@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: jtremper
 ms.reviewer: ssathyamoort
-ms.date: 06/20/2025
+ms.date: 08/11/2025
 audience: admin
 ms.topic: article
 ms.service: microsoft-syntex
@@ -21,7 +21,7 @@ description: Learn how to get started with the SharePoint Agreements solution.
 # Introduction to SharePoint Agreements
 
 > [!NOTE]
-> SharePoint Agreements is now generally available for early access users. Contact your Microsoft representative or submit your nomination for the limited GA here: [Sign up for limited GA](https://aka.ms/AgreementsSelectiveGA). For a list of articles to help you set up and use this feature, see [Help documentation](#help-documentation).
+> SharePoint Agreements is generally available for early access users. Thank you for your interest in SharePoint Agreements. We are no longer accepting new sign-ups for SharePoint Agreements. For a list of articles to help you set up and use this feature, see [Help documentation](#help-documentation).
 
 ## Overview
 
