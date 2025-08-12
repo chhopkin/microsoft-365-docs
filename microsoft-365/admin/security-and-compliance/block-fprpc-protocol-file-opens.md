@@ -1,6 +1,6 @@
 ---  
 title: "Block FPRPC protocol for file opens"
-description: FPRPC (FrontPage Server Extensions Remote Procedure Call) is an outdated protocol that poses security risks. It can be exploited by attackers to execute arbitrary commands or compromise systems through specially crafted files or network traffic. Due to these risks, Microsoft 365 apps block FPRPC by default. When FPRPC fallback is blocked, the app will attempt to open the file using HTTPS instead.
+description: FPRPC (FrontPage Server Extensions Remote Procedure Call) is an outdated protocol that poses security risks. It can be exploited by attackers to execute arbitrary commands or compromise systems through specially crafted files or network traffic. Due to these risks, Microsoft 365 apps block file opens using FPRPC by default. When FPRPC fallback is blocked, the app will attempt to open the file using HTTPS instead.
 author: kwekuako
 ms.author: kwekua  
 manager: dansimp
@@ -15,7 +15,7 @@ audience: Admin
 ai-usage: ai-assisted  
 ---  
 
-# How to Block FrontPage Server Extensions Remote Procedure Call (FPRPC) for file opens in Microsoft 365
+# How to Block FrontPage Server Extensions Remote Procedure Call (FPRPC) for file opens in Microsoft 365 apps
 
 FrontPage Server Extensions Remote Procedure Call (FPRPC) is an outdated protocol that poses security risks. It can be exploited by attackers to execute arbitrary commands or compromise systems through specially crafted files or network traffic. Due to these risks, Microsoft 365 apps block file opens using FPRPC by default. When FPRPC is blocked, the app will attempt to open the file using HTTPS instead.
 
@@ -26,8 +26,8 @@ If you have turned on this setting and you need to revert to the default behavio
 ## Turn off setting in the Microsoft 365 admin center
 
 1. Go to the admin center and select Org settings.
-1. Select Restricted mode and find the Block FPRPC protocol for file opens setting and switch the toggle to **Off**.
+1. Select Restricted Mode, find the Block FPRPC protocol for file opens setting, and switch the toggle to **Off**.
 
 ## Use Office Cloud Policy service
 
-Alternatively, you can make changes to the policy setting directly using the [Office cloud policy service](https://config.office.com/). Set the **Restrict Apps from FPRPC Fallback** policy as not configured to revert to the default behavior.
+Alternatively, you can make changes to the policy setting directly using the [Office Cloud Policy service](https://config.office.com/). Set the **Restrict Apps from FPRPC Fallback** policy as not configured to revert to the default behavior.
