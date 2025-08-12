@@ -94,7 +94,6 @@ After pay-as-you-go billing is set up with the capacity pack option, you must al
 4. The **Manage capacity** panel lists the environments eligible for Copilot Studio capacity. Select the **Microsoft 365 Copilot Chat** environment. This environment is the one that was just created or that you already set up for Copilot Chat.
 5. Under **Allocate capacity**, enter the number of messages from the capacity pack that you want to allocate to the selected environment. For example, if you bought one pack of 25,000 messages, you can allocate all 25,000 messages to Copilot Chat, or you can divide them between environments if you have multiple groups of users.
 6. Under **Capacity overages**, select the options for what happens when capacity reaches zero. You can choose one or both of the following options:
-
    - **Draw from the available capacity in my tenant**.
    - **Bill to my pay-as-you-go billing plan**. If you select this option, from the drop-down list, select the billing plan that you want to use.
 7. If you want to receive a notification when the capacity usage reaches a certain percentage, you can configure the notification setting. Under **Overage notification**, select the **Send notification when nearing capacity usage** checkbox, then select a percentage value from the drop-down list.
