@@ -19,10 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 description: "Learn about search usage in Microsoft 365 Copilot and gain insights into the Microsoft 365 Copilot activity in your organization."
-ms.date: 08/04/2025
+ms.date: 08/12/2025
 ---
 
 # Microsoft 365 reports in the admin center – Copilot Search usage
+
+> [!NOTE]
+> The Copilot Search usage report is currently in public preview. Deployment processes and functionality are subject to change before the product becomes generally available. During the public preview phase, users might encounter occasional errors or unexpected behavior. These issues are a normal part of the preview experience and help inform improvements before general availability.
 
 The Microsoft 365 Copilot Search usage report provides an overview of Copilot Search usage within the Microsoft 365 Copilot app. It helps you  understand adoption and engagement trends for Copilot Search capabilities.
 
