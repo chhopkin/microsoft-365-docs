@@ -46,7 +46,7 @@ For security best practices for priority accounts, see [Security recommendations
 
 The **Priority account protection** feature that's described in this topic is available only to organizations that meet the following requirements:
 
-- Microsoft Defender for Office 365 Plan 2, including those with Office 365 E3, Office 365 E5, Microsoft 365 E5, or Microsoft 365 E5 Security.
+- Microsoft Defender for Office 365 Plan 2, including those with Office 365 E3, Office 365 E5, Microsoft 365 E5, or the Microsoft Defender Suite.
 
 The **Exchange Online priority account monitoring** and **Premium mail flow monitoring** features that are described in this topic is available only to organizations that meet the following requirements:
 
