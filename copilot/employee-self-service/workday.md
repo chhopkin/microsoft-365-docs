@@ -208,7 +208,7 @@ Security configuration to support ESS Copilot features for full-time employees a
 1. If the **Integration Build** domain security policy isn't set, you need to add it.
     1. in the search textbox for this page, search for **integration build** and filter for **security**.
     1. Select the **Integration Build** domain security policy from the search results.
-    1. Select the elipsis (…) menu, then select **Domain** > **Edit Security Policy Permissions**.
+    1. Select the ellipsis (…) menu, then select **Domain** > **Edit Security Policy Permissions**.
     1. Add **ISSG_Generic_COPILOT** to **Integration Permissions**.
     1. Run **Activate Pending Security Policy Changes**.
 
