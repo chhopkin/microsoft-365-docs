@@ -2,9 +2,9 @@
 title: "Remove a domain"
 f1.keywords:
 - NOCSH
-ms.author: kvice
-author: kelleyvice-msft
-manager: scotv
+ms.author: kwekua
+author: kwekuako
+manager: dansimp
 ms.date: 11/18/2024
 audience: Admin
 ms.topic: how-to
@@ -19,11 +19,11 @@ ms.collection:
 - Adm_TOC
 - Adm_O365_Setup
 ms.custom:
-  - AdminSurgePortfolio
-  - AdminTemplateSet
-  - business_assist
-  - has-azure-ad-ps-ref
-  - azure-ad-ref-level-one-done
+- AdminSurgePortfolio
+- AdminTemplateSet
+- business_assist
+- has-azure-ad-ps-ref
+- azure-ad-ref-level-one-done
 search.appverid:
 - BCS160
 - MET150

@@ -7,6 +7,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 ms.date: 07/22/2025
+ms.update-cycle: 180-days
 ms.reviewer: 
 audience: Admin
 ms.topic: get-started
@@ -20,7 +21,7 @@ ms.collection:
 - trust-pod
 ms.custom: [copilot-learning-hub]
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # Address oversharing concerns in Microsoft 365 Copilot deployment blueprint

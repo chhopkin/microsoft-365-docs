@@ -3,7 +3,7 @@ title: "Online service activation for Open programs"
 f1.keywords: NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: scotv
+manager: dansimp
 ms.reviewer: aasthatiwari, atuldubey
 audience: Admin
 ms.topic: how-to

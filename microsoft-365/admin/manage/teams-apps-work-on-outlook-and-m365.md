@@ -2,9 +2,9 @@
 title: "Teams apps that work on Outlook and Microsoft 365"
 f1.keywords:
 - NOCSH
-ms.author: efrene
-author: efrene
-manager: scotv
+ms.author: kwekua
+author: kwekuako
+manager: dansimp
 ms.date: 03/12/2025
 audience: Admin
 ms.topic: article

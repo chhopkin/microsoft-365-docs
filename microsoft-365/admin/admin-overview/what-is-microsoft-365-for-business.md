@@ -2,9 +2,9 @@
 title: "What is Microsoft 365 for business"
 f1.keywords:
 - NOCSH
-ms.author: efrene
-author: efrene
-manager: scotv
+ms.author: kwekua
+author: kwekuako
+manager: dansimp
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-business
