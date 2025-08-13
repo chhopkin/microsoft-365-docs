@@ -52,21 +52,21 @@ The following table contains the settings in Office Cloud Policy service that su
 
 | Policy | Configuration Setting |
 | ------ | ------------- |
-| **File Block includes trusted files** | Enabled [[1]](#footnote-1) |
-| **File Block includes external link files** | Enabled |
-| **Word 2007 and later binary documents and templates** | Allow editing and open in Protected View |
-| **Word 2003 and plain xml documents** | Allow editing and open in Protected View |
-| **Word XP binary documents and templates** | Allow editing and open in Protected View |
-| **Word 2000 binary documents and templates** | Allow editing and open in Protected View |
-| **Word 97 binary documents and templates** | Allow editing and open in Protected View |
-| **Legacy converters for Word** | Allow editing and open in Protected View |
-| **PowerPoint 97-2003 presentations, shows, templates and add-in files** | Allow editing and open in Protected View |
-| **Legacy converters for PowerPoint** | Allow editing and open in Protected View |
-| **Excel 97-2003 add-in files** | Save blocked |
-| **Excel 97-2003 workbooks and templates** | Allow editing and open in Protected View |
-| **Excel 95-97 workbooks and templates** | Allow editing and open in Protected View |
-| **Excel 95 workbooks** | Allow editing and open in Protected View |
-| **Legacy converters for Excel** | Allow editing and open in Protected View |
+| File Block includes trusted files | Enabled [[1]](#footnote-1) |
+| File Block includes external link files | Enabled |
+| Word 2007 and later binary documents and templates | Allow editing and open in Protected View |
+| Word 2003 and plain xml documents | Allow editing and open in Protected View |
+| Word XP binary documents and templates | Allow editing and open in Protected View |
+| Word 2000 binary documents and templates | Allow editing and open in Protected View |
+| Word 97 binary documents and templates| Allow editing and open in Protected View |
+| Legacy converters for Word | Allow editing and open in Protected View |
+| PowerPoint 97-2003 presentations, shows, templates and add-in files | Allow editing and open in Protected View |
+| Legacy converters for PowerPoint** | Allow editing and open in Protected View |
+| Excel 97-2003 add-in files | Save blocked |
+| Excel 97-2003 workbooks and templates | Allow editing and open in Protected View |
+| Excel 95-97 workbooks and templates | Allow editing and open in Protected View |
+| Excel 95 workbooks | Allow editing and open in Protected View |
+| Legacy converters for Excel | Allow editing and open in Protected View |
 
-###### Footnote 1 
+1 
 This policy is enabled for Word, PowerPoint, Excel, and Visio.

@@ -44,18 +44,18 @@ The following table contains the settings in Office Cloud Policy service that su
 
 | Policy | Configuration Setting |
 | ------ | ------------- |
-| **File Block includes trusted files** | Enabled [[1]](#footnote-1) |
-| **File Block includes external link files** | Enabled |
-| **Word 2 and earlier binary documents and templates** | Open in Protected View |
-| **Word 6.0 binary documents and templates** | Open in Protected View |
-| **Word 95 binary documents and templates** | Open in Protected View |
-| **Excel 2 macrosheets and add-in files** | Open in Protected View |
-| **Excel 3 macrosheets and add-in files** | Open in Protected View |
-| **Excel 4 macrosheets and add-in files** | Open in Protected View |
-| **Excel 2 worksheets** | Open in Protected View |
-| **Excel 3 worksheets** | Open in Protected View |
-| **Excel 4 worksheets** | Open in Protected View |
-| **Excel 4 workbooks** | Open in Protected View |
+| File Block includes trusted files | Enabled [[1]](#footnote-1) |
+| File Block includes external link files | Enabled |
+| Word 2 and earlier binary documents and templates | Open in Protected View |
+| Word 6.0 binary documents and templates | Open in Protected View |
+| Word 95 binary documents and templates | Open in Protected View |
+| Excel 2 macrosheets and add-in files| Open in Protected View |
+| Excel 3 macrosheets and add-in files | Open in Protected View |
+| Excel 4 macrosheets and add-in files | Open in Protected View |
+| Excel 2 worksheets | Open in Protected View |
+| Excel 3 worksheets | Open in Protected View |
+| Excel 4 worksheets | Open in Protected View |
+| Excel 4 workbooks | Open in Protected View |
 
-###### Footnote 1 
+#1 
 This policy is enabled for Word, PowerPoint, Excel, and Visio.
