@@ -94,6 +94,9 @@ The following configuration and preparation tasks need to be done in Workday by 
 1. [Task 7 – Add ISSG_Generic_COPILOT to Integration Permissions](#task-7--add-issg_generic_copilot-to-integration-permissions)
 1. [Create reports](#task-8-create-reports)
 
+> [!NOTE]
+> Skip tasks 1 and 2 if Workday & Entra SSO are already set up.
+
 ### Task 1 Create the X.509 public key
 
 Use the X509 public key provided by Microsoft Entra to create a new key in Workday.
