@@ -2,9 +2,9 @@
 title: "SaaS linked apps"
 f1.keywords:
 - NOCSH
-ms.author: efrene
-author: efrene
-manager: scotv
+ms.author: kwekua
+author: kwekuako
+manager: dansimp
 ms.date: 05/12/2023
 audience: Admin
 ms.topic: article

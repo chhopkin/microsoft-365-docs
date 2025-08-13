@@ -1,16 +1,16 @@
 ---
 title: "Microsoft 365 admin center – Microsoft 365 Copilot Chat usage"
-ms.author: camillepack
-author: camillepack
-manager: scotv
-ms.date: 07/16/2025
+ms.author: cmcatee
+author: cmcatee-MSFT
+manager: dansimp
+ms.date: 05/07/2025
+ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier2
-- scotvorg
 - M365-subscription-management
 - Adm_O365
 - m365copilot
@@ -23,7 +23,7 @@ description: "Learn about the Microsoft 365 Copilot Chat usage report and gain i
 The Microsoft 365 Copilot Chat usage dashboard provides insights into active usage of Microsoft 365 Copilot Chat. The report includes total active users, average daily active users, and active users per app. Usage insights can be viewed as totals and trends for the past 7, 30, 90, or 180-day periods. The report also shows the last activity date per user, anonymized by default. To view all reports, check out [Microsoft 365 Reports in the admin center overview](activity-reports.md).
 
 > [!NOTE]
-> The report is currently limited to users without a Microsoft 365 Copilot license that interact with Copilot Chat in Teams, Outlook, Copilot.cloud.microsoft, Microsoft 365 Copilot (app), Microsoft Edge, Word, Excel, and PowerPoint. The all-up Copilot Chat user count as well as the ‘last activity date’ for each user will reflect usage of Copilot Chat in all of these host apps. Initially the report will not provide a breakout of usage in Word, Excel, and PowerPoint, but this update is planned and will be available soon.
+> The report is currently limited to users without a Microsoft 365 Copilot license that interact with Copilot Chat in Teams, Outlook, Copilot.cloud.microsoft, Microsoft 365 Copilot (app), and Microsoft Edge.
 
 ## How do I get to the Microsoft 365 Copilot Chat usage report?
 
@@ -72,7 +72,7 @@ You can view a table list to show each active user who accessed Microsoft 365 Co
 
 :::image type="content" source="../../media/microsoft-copilot-export.png" alt-text="Screenshot showing the table list of data for active users for Microsoft 365 Copilot Chat." lightbox="../../media/microsoft-copilot-export.png":::
 
-You can also export the report data into an Excel .csv file by selecting the **Export** link. This exports the Microsoft 365 Copilot Chat usage data of all users and enables you to do simple sorting, filtering, and searching for further analysis.
+You can also export the report data into an Excel .csv file by selecting the **Export** link. This action exports the Microsoft 365 Copilot Chat usage data of all users and enables you to do simple sorting, filtering, and searching for further analysis.
 
 ## User last activity table
 
@@ -80,20 +80,21 @@ You can also export the report data into an Excel .csv file by selecting the **E
 |-----------------------------|-----------------------------------------------------------------------------|
 | **Username**                | The user's principal name.                                                  |
 | **Display name**            | The full name of the user.                                                  |
-| **Last activity date (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Teams, Outlook, Copilot.cloud.microsoft, Microsoft Edge, the Microsoft 365 Copilot (app), Word, Excel, or PowerPoint. This date remains fixed even if the timeframe of the report is changed.  |
+| **Last activity date (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Teams, Outlook, Copilot.cloud.microsoft, Microsoft Edge, or the Microsoft 365 Copilot (app). This date remains fixed even if the timeframe of the report is changed. |
 | **Last activity date of Teams (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Teams. This date remains fixed even if the timeframe of the report is changed. |
 | **Last activity date of Outlook (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Outlook. This date remains fixed even if the timeframe of the report is changed.  |
 | **Last activity date of Copilot.cloud.microsoft (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Copilot.cloud.microsoft. This date remains fixed even if the timeframe of the report is changed. |
 | **Last activity date of Microsoft 365 Copilot (app) (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Microsoft 365 Copilot (app). This date remains fixed even if the timeframe of the report is changed.  |
 | **Last activity date of Edge (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat from the sidebar in the Microsoft Edge browser. This date remains fixed even if the timeframe of the report is changed.  |
 
-## User-specific data de-anonymous/anonymous setting
+## Display user-specific data
 
-By default, usernames and display names in the Microsoft 365 Copilot Chat report are anonymous. Global administrators can update settings to unconceal or conceal usernames and display names.
+By default, usernames and display names in Copilot Search usage reports are anonymous. Global administrators can update the settings to reveal usernames and display names.
 
-1. In the Microsoft 365 admin center, go to the **Settings** > **Org Settings**, and under the **Services** tab, choose **Reports**.
-2. Select **Reports**, and update the setting to “Display Concealed user, group, and site names in all reports”.
-3. Select **Save**.
+1. In the admin center, go to the **Settings** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Org Settings</a> page.
+2. Select the **Services** tab, then select **Reports**.
+3. In the **Reports** panel, select the checkbox next to **Display Concealed user, group, and site names in all reports**.
+4. Select **Save**.
 
 ## FAQ
 

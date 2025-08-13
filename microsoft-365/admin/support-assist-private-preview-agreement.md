@@ -3,7 +3,7 @@ title: "Support Assist Private Preview Agreement"
 f1.keywords: NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: scotv
+manager: dansimp
 ms.reviewer: rabhange
 audience: Admin
 ms.topic: legal
@@ -18,7 +18,7 @@ ms.custom:
 - asset-status-exempt-cela
 feedback_system: None
 hideEdit: true
-ROBOTS: NOINDEX, NOFOLLOW 
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Support Assist Private Preview Agreement"
 ms.date: 10/31/2024
 ---

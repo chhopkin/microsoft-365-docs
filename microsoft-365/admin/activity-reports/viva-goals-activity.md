@@ -1,8 +1,8 @@
 ---
 title: "Microsoft 365 admin center Viva Goals activity reports"
-ms.author: rasanders
+ms.author: cmcatee
 author: rasanders
-manager: liz.pierce
+manager: dansimp
 ms.date: 06/09/2023
 audience: Admin
 ms.topic: article
