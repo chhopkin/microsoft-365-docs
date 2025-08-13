@@ -1,5 +1,5 @@
 ---  
-title: "Open legacy formats in Protected View and disallow editing"  
+title: "Open ancient legacy formats in Protected View and disallow editing"  
 description: Use Office Group policy to disallow editing of legacy formats in Microsoft 365 apps, like Word, Excel, PowerPoint.
 author: kwekuako
 ms.author: kwekua  
@@ -18,11 +18,9 @@ ai-usage: ai-assisted
 
 Ancient legacy file formats in Microsoft 365 apps are vulnerable to memory corruption-related security issues. To mitigate these risks, administrators can configure settings to open these outdated formats in **Protected View** with editing disabled. This approach prevents potential exploits while still allowing users to view the content without risk.
 
-## Setting up protected view for ancient legacy file formats
+When this setting is turned on, ancient legacy file formats will open in Protected View and users will be unable to edit them, even if saved in a trusted location. Users can save files to a modern file format, but they will be blocked from saving in legacy formats. In Excel, new external workbook links referencing ancient legacy formats will return a #BLOCKED error, and existing links will display the last successfully refreshed values but will no longer refresh.
 
-When the Restricted Mode setting is enabled, legacy file formats will open in **Protected View**, and users will be unable to edit them, even if the file is saved in a trusted location. Users can save files to a modern format but will be blocked from saving them as legacy formats.
-
-### Ancient legacy file formats
+The following ancient legacy file formats will open in Protected View with editing disabled:
 
 - Word 2 and earlier binary documents
 - Word 6.0 binary documents
@@ -31,18 +29,33 @@ When the Restricted Mode setting is enabled, legacy file formats will open in **
 - Excel 2, 3, 4 worksheets
 - Excel 4 workbooks
 
-## Modifying Group Policy settings
+## Turn off setting in the Microsoft 365 admin center
 
-If you have enabled this setting but need to revert to the default behavior of allowing trusted files to bypass Protected View, or allow users to override the editing block using Trust Center, you can modify this setting by making changes to the Group Policy settings that support this setting. These changes can be made in the Group Policy Editor or by using the [Office cloud policy service](https://config.office.com/). 
+If you have turned this setting on but need to revert to the default behaviors (allowing trusted files to bypass Protected View and allowing users to override the editing block using Trust Center), you can turn off the setting directly in the Microsoft 365 admin center.
 
-The Group Policy settings for opening a given file format in Protected View and disallowing editing can be found in the following path:
+1. Go to the admin center and select Org settings.
+2. Select Restricted Mode, find the **Open ancient legacy formats in Protected View and disallow editing** setting, and switch the toggle to **Off**.
 
-- Group Policy path: `User Configuration > Administrative Templates > Microsoft {App} 2016 > {App} Options > Security > Trust Center > File Block Settings`
+## Use Office Cloud Policy service
 
-To revert to the default behavior, set this policy as not configured for each app (Word, Excel, PowerPoint, and Visio).
+You can make also changes to the policy settings directly using the [Office Cloud Policy service](https://config.office.com/) if you need to modify the behavior or if you need to scope the setting to specific groups of users.
 
-The Group Policy settings for opening a given file format in Protected View and disallowing editing can be found in the following path:
+The following table contains the settings in Office Cloud Policy service that support this Restricted Mode setting. To revert to the default behavior, set these policies as not configured.
 
-- Group policy path: `User Configuration > Administrative Templates > Microsoft {App} 2016 > {App} Options > Security > Trust Center`
+| Policy | Configuration Setting |
+| ------ | ------------- |
+| **File Block includes trusted files** | Enabled [[1]](#footnote-1) |
+| **File Block includes external link files** | Enabled |
+| **Word 2 and earlier binary documents and templates** | Open in Protected View |
+| **Word 6.0 binary documents and templates** | Open in Protected View |
+| **Word 95 binary documents and templates** | Open in Protected View |
+| **Excel 2 macrosheets and add-in files** | Open in Protected View |
+| **Excel 3 macrosheets and add-in files** | Open in Protected View |
+| **Excel 4 macrosheets and add-in files** | Open in Protected View |
+| **Excel 2 worksheets** | Open in Protected View |
+| **Excel 3 worksheets** | Open in Protected View |
+| **Excel 4 worksheets** | Open in Protected View |
+| **Excel 4 workbooks** | Open in Protected View |
 
-To revert to the default behavior, set these policies as not configured.
+###### Footnote 1 
+This policy is enabled for Word, PowerPoint, Excel, and Visio.
