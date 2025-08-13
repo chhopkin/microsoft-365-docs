@@ -50,7 +50,7 @@ This section outlines the options available within Microsoft 365 Apps to turn of
 You must be a member of the [Office Apps administrator role](/entra/identity/role-based-access-control/permissions-reference) to perform these tasks.
 
 > [!NOTE]
-> The version number for Microsoft 365 apps client support for Restricted mode settings will be 2508.
+> The version number for Microsoft 365 apps client support for Restricted mode settings will be 2508. For more information, see [Minimum Version Requirements for Restricted Mode](minimum-version-numbers-office.md).
 
 |Setting     |More information  |
 |---------|---------|
