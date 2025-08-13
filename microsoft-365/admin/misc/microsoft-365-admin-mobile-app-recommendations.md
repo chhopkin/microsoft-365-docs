@@ -2,15 +2,15 @@
 title: "Microsoft 365 admin mobile app recommendations"
 f1.keywords:
 - NOCSH
-ms.author: camillepack
-author: camillepack
-manager: scotv
+ms.author: kwekua
+author: kwekuako
+manager: dansimp
 ms.date: 05/02/2024
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier2
 - scotvorg
 ROBOTS: NOINDEX; NOFOLLOW

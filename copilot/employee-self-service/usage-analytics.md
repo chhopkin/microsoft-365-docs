@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn how to access usage analytics for the Employee Self-Service agent.
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # Usage analytics for the Employee Self-Service agent

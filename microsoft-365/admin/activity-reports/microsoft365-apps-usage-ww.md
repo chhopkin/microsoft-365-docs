@@ -1,8 +1,8 @@
 ---
 title: "Microsoft 365 admin center apps usage reports"
-ms.author: camillepack
+ms.author: cmcatee
 author: camillepack
-manager: scotv
+manager: dansimp
 ms.date: 03/17/2025
 audience: Admin
 ms.topic: article

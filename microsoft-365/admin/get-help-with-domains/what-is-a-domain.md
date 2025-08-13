@@ -2,9 +2,9 @@
 title: "What is a domain?"
 f1.keywords:
 - CSH
-ms.author: kvice
-author: kelleyvice-msft
-manager: scotv
+ms.author: kwekua
+author: kwekuako
+manager: dansimp
 ms.date: 03/18/2025
 audience: Admin
 ms.topic: concept-article
@@ -12,7 +12,7 @@ ms.service: microsoft-365-business
 ms.subservice: m365-domains
 ms.localizationpriority: medium
 ms.collection:
-- Tier2 
+- Tier2
 - ContentEngagementFY23
 - scotvorg
 - highpri
@@ -26,7 +26,7 @@ search.appverid:
 ms.assetid: c33d1ba6-077c-4cea-be04-cfffbe3f3ed8
 description: "Learn what a domain is and how you can buy a domain or use the default domain of your business to get started with OneDrive and Microsoft apps."
 ms.custom:
-- VSBFY23 
+- VSBFY23
 - okr_smb
 - AdminSurgePortfolio
 - AdminTemplateSet

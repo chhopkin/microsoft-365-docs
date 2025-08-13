@@ -1,14 +1,15 @@
 ---
 title: "Microsoft 365 admin center – Microsoft 365 Copilot Chat usage"
-ms.author: camillepack
+ms.author: cmcatee
 author: camillepack
-manager: scotv
+manager: dansimp
 ms.date: 05/07/2025
+ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier2
 - scotvorg
 - M365-subscription-management
