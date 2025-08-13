@@ -17,15 +17,15 @@ ai-usage: ai-assisted
 
 # Minimum Version Requirements for Restricted Mode in Microsoft 365 for Windows
 
-As an admin, it's essential to ensure that your organization is using the correct version of Microsoft 365 apps to fully leverage Restricted Mode functionality. Restricted Mode settings in Office apps are implemented using Cloud Policy settings. This article provides information on the minimum version requirements for Restricted Mode functionality in Microsoft 365 for Windows. For more information, see [Restricted mode settings in the Microsoft 365 admin center](restricted-mode-mac.md).
+As an admin, it's essential to ensure that your organization is using the correct version of Microsoft 365 apps to fully leverage Restricted Mode functionality. Restricted Mode settings in Office apps are implemented using Cloud Policy settings. This article provides information on the minimum version requirements for Restricted Mode functionality in Microsoft 365 for Windows. For more information, see [Restricted settings mode](restricted-mode-mac.md).
 
-## Minimum Version Requirements
+## Minimum version requirements
 
 The recommended minimum version for Restricted Mode functionality in Microsoft 365 for Windows is version 2508. Earlier versions do not support sending telemetry signals from Office clients to the Microsoft 365 admin center to display simulation mode data.
 
-### Restricted Mode Settings and Minimum Required Versions
+### Restricted settings mode and minimum required versions
 
-| Setting                                                                 | Minimum required version                                                   |
+| Setting  | Minimum required version  |
 |-------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | Open ancient legacy formats in Protected View and disallow editing  | 2502 |
 | Open old legacy formats in Protected View and save as modern format| 2502 |
@@ -37,7 +37,7 @@ The recommended minimum version for Restricted Mode functionality in Microsoft 3
 | Block insecure protocols for file opens | 2507 |
 | Block FPRPC protocol for file opens | 2507 |
 
-The [Restricted mode settings in the Microsoft 365 admin center](restricted-mode-mac.md) topic has details on which Cloud Policy settings support the Restricted Mode setting. Individual Cloud Policy settings can be used to modify Restricted Mode behavior. For example, allowing trusted files in old legacy formats to bypass Protected View while continuing to open all other old legacy format files in Protected View, without turning off the entire Restricted Mode policy.
+The [Restricted settings mode](restricted-mode-mac.md) topic has details on which Cloud Policy settings support the Restricted Mode setting. Individual Cloud Policy settings can be used to modify Restricted Mode behavior. For example, allowing trusted files in old legacy formats to bypass Protected View while continuing to open all other old legacy format files in Protected View, without turning off the entire Restricted Mode policy.
 
 > [!NOTE]
 > If you are managing Microsoft 365 apps using the Group Policy Editor, it is strongly recommended that you migrate to Cloud Policy service. When a policy is configured in both Group Policy and Cloud Policy, the Cloud Policy configuration will take precedence.
