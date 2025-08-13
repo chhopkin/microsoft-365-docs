@@ -28,7 +28,7 @@ This article refers to *foundational* and *optimized* controls. In general, thos
 :::image type="content" source="media/security-governance.png" alt-text="A diagram of the Copilot Control System framework highlighting the Security and Governance pillar.":::
 
 > [!NOTE]
-> Three main pillars make up the [Copilot Control System](overview.md):
+> The [Copilot Control System](overview.md) consists of three main pillars:
 >
 > - **Security and governance** (this article)
 > - [Management controls](management-controls.md)

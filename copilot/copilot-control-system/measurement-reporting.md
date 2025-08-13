@@ -17,7 +17,7 @@ Copilot Control System measurement capabilities are designed to empower you to u
 :::image type="content" source="media/measurement-reporting.png" alt-text="A diagram of the Copilot Control System framework highlighting the Measurement and Reporting pillar.":::
 
 > [!NOTE]
-> Three main pillars make up the [Copilot Control System](overview.md):
+> The [Copilot Control System](overview.md) consists of three main pillars:
 >
 > - [Security and governance](security-governance.md)
 > - [Management controls](management-controls.md)
