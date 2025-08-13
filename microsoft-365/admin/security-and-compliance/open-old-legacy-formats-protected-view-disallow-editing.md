@@ -48,11 +48,11 @@ If you have turned this setting on but need to revert to the default behaviors (
 
 You can make also changes to the policy settings directly using the [Office Cloud Policy service](https://config.office.com/) if you need to modify the behavior -- for example, allowing files in a certain old legacy format to bypass Protected View while continuing to open all other old legacy format files in Protected View -- or if you need to scope the setting to specific groups of users.
 
-The following table contains the settings in Office Cloud Policy service that support this Restricted Mode setting.
+The following table contains the settings in Office Cloud Policy service that support this Restricted Mode setting. To revert to the default behavior, set these policies as not configured.
 
 | Policy | Configuration Setting |
 | ------ | ------------- |
-| **File Block includes trusted files** | Enabled [^1] |
+| **File Block includes trusted files** | Enabled [[1]](#footnote-1) |
 | **File Block includes external link files** | Enabled |
 | **Word 2007 and later binary documents and templates** | Allow editing and open in Protected View |
 | **Word 2003 and plain xml documents** | Allow editing and open in Protected View |
@@ -67,6 +67,6 @@ The following table contains the settings in Office Cloud Policy service that su
 | **Excel 95-97 workbooks and templates** | Allow editing and open in Protected View |
 | **Excel 95 workbooks** | Allow editing and open in Protected View |
 | **Legacy converters for Excel** | Allow editing and open in Protected View |
-[^1]: This policy is enabled for Word, PowerPoint, Excel, and Visio.
 
-To revert to the default behavior, set these policies as not configured.
+###### Footnote 1 
+This policy is enabled for Word, PowerPoint, Excel, and Visio.
