@@ -14,6 +14,9 @@ ms.date: 08/06/2025
 
 Copilot Control System management controls enable you to determine how your Microsoft 365 Copilot licenses and agents are deployed to meet the unique needs of your organization. Copilot and agent management controls are found primarily but not exclusively in the [Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview), [Power Platform admin center](/power-platform/admin/), and [Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
 
+
+***temporary image***
+
 :::image type="content" source="media/management-controls.png" alt-text="A diagram of the Copilot Control System framework highlighting the Management Controls pillar.":::
 
 > [!NOTE]
@@ -31,7 +34,18 @@ The management controls pillar of the Copilot Control System focuses on the foll
 
 ## Licensing and metering
 
-You can manage Microsoft 365 Copilot license assignment and control access to agents ensuring compliance with policies, usage limits, and more.
+To ensure compliance with policies and usage limits, plan to manage Microsoft 365 Copilot license assignment. You can also monitor message capacity for both prepaid and pay-as-you-go consumption.
+
+Use the [Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview) to manage licensing and pay-as-you-go billing. For more information, see the following articles:
+
+- [License plans for Microsoft 365 Copilot](../microsoft-365-copilot-licensing.md)
+- [Microsoft 365 Copilot pay-as-you-go overview for IT admins](../pay-as-you-go/overview.md)
+
+Use the [Power Platform admin center](/power-platform/admin/) to manage message capacity for Copilot Studio:
+
+:::image type="content" source="media/power-platform-admin-center-licensing.png" alt-text="Screenshot of the Power Platform admin center, Licensing node, showing the Copilot Studio page that summarizes message capacity." lightbox="media/power-platform-admin-center-licensing-large.png":::
+
+For more information, see [Manage Copilot Studio messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity).
 
 ## Agent lifecycle
 
