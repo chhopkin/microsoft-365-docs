@@ -1,5 +1,5 @@
 ---  
-title: "Block ActiveX controls in Microsoft 365 apps documents"  
+title: "Block ActiveX controls in Microsoft 365 apps"  
 description: Use the Microsoft 365 admin center, Office Group policies or registry keys to block ActiveX controls from running in your Microsoft 365 organization.
 author: kwekuako
 ms.author: kwekua  
@@ -15,25 +15,19 @@ audience: admin
 ai-usage: ai-assisted  
 ---
 
-# Block ActiveX controls in Microsoft 365 apps documents
+# Block ActiveX controls in Microsoft 365 apps
 
 ActiveX controls are small programs used to add interactive features to Microsoft 365 documents and web pages. Due to their history of security vulnerabilities, ActiveX controls are highly susceptible to exploitation by malicious actors. These controls can be used to run harmful code, install malware, or take control of a system when users open compromised files or visit unsafe websites. Consequently, ActiveX is now blocked by default in Microsoft 365 apps.
 
-When this setting is turned on, users in your environment won’t be able to override the default configuration using Trust Center.
+When this setting is turned on, users in your environment won’t be able to override the default configuration using **Trust Center**.
 
 If you have turned on this setting but need to revert to the default behavior (allow users to override ActiveX blocking using Trust Center), you can turn this setting off directly in the Microsoft 365 admin center.
 
-## Turn off default setting in the Microsoft 365 admin center
+## Turn off setting in the Microsoft 365 admin center
 
 1. Go to the admin center and select Org settings.
-1. Select Restricted mode and find the ActiveX controls setting and switch the toggle to **Off**.
+1. Select Restricted Mode, find the **Block ActiveX controls in the Microsoft 365 apps** setting, and switch the toggle to **Off**.
 
-## Use Group Policy settings or Office cloud policy service
+## Use Office Cloud Policy service
 
-Alternatively, you can make changes to the Group Policy setting that supports this setting. These changes can be made in the Group Policy Editor or by using the [Office cloud policy service](https://config.office.com/).  
-
-The Group Policy setting “Disable All ActiveX” can be found in the following path:
-
-- **Group Policy path**: `User Configuration > Administrative Templates > Office 2016 > Security Settings > Disable All ActiveX`
-
-To revert to the default behavior, set this policy as not configured.
+Alternatively, you can make changes to the policy settings directly using the [Office Cloud Policy service](https://config.office.com/). Set the **Disable All ActiveX** policy as not configured to revert to the default behavior.
