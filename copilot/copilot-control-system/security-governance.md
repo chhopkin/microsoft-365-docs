@@ -25,9 +25,6 @@ This article refers to *foundational* and *optimized* controls. In general, thos
 - The Microsoft 365 admin center provides many *foundational* controls for security and governance.
 - When you use [Microsoft Purview](/purview/ai-microsoft-purview) and [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps), they provide further *optimized* controls.
 
-
-***temporary image***
-
 :::image type="content" source="media/security-governance.png" alt-text="A diagram of the Copilot Control System framework highlighting the Security and Governance pillar.":::
 
 > [!NOTE]

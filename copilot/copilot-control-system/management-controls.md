@@ -14,9 +14,6 @@ ms.date: 08/06/2025
 
 Copilot Control System management controls enable you to determine how your Microsoft 365 Copilot licenses and agents are deployed to meet the unique needs of your organization. Copilot and agent management controls are found primarily but not exclusively in the [Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview), [Power Platform admin center](/power-platform/admin/), and [Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
 
-
-***temporary image***
-
 :::image type="content" source="media/management-controls.png" alt-text="A diagram of the Copilot Control System framework highlighting the Management Controls pillar.":::
 
 > [!NOTE]

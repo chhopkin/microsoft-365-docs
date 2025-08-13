@@ -14,9 +14,7 @@ ms.date: 08/06/2025
 
 The Copilot Control System is a framework of integrated controls and capabilities for Copilot and agents. It's designed to help you secure data, manage Copilot and agent experiences, and measure and analyze adoption and impact across your organization. It provides a governance structure for the use of Microsoft 365 Copilot, Copilot Chat, Microsoft Copilot Studio, and agents in your enterprise.
 
-***temporary image***
-
-:::image type="content" source="media/copilot-control-system-overview-slide.png" alt-text="A diagram of the Copilot Control System framework showing the three pillars.":::
+:::image type="content" source="media/copilot-control-system-overview.png" alt-text="A diagram of the Copilot Control System framework showing the three pillars.":::
 
 Three main pillars make up the Copilot Control System:
 
