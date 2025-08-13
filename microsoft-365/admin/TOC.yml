@@ -468,7 +468,7 @@ items:
       href: ../commerce/index.yml
     - name: Secure your organization
       items: 
-        - name: Multi-factor authentication for Microsoft 365
+        - name: Multi-factor authentication in Microsoft 365
           href: security-and-compliance/multi-factor-authentication-microsoft-365.md
         - name: Set up multi-factor authentication
           href: security-and-compliance/set-up-multi-factor-authentication.md

@@ -178,7 +178,7 @@ Our recommendations for distinct security tiers are described in [Data protectio
 
 ### More options for MAM
 
-Multifactor authentication (MFA) and a supported authenticator app like the [Microsoft Authenticator app](https://support.microsoft.com/account-billing/351498fc-850a-45da-b7b6-27e523b8702a) are required by default for all Business Premium accounts. For more information, see [multifactor authentication in Microsoft 365 for business](m365b-account-security.md).
+Multifactor authentication (MFA) and a supported authenticator app like the [Microsoft Authenticator app](https://support.microsoft.com/account-billing/351498fc-850a-45da-b7b6-27e523b8702a) are required by default for all Business Premium accounts. For more information, see [Multifactor authentication for Microsoft 365](multi-factor-authentication-microsoft-365.md).
 
 Otherwise, the device owner is responsible for protecting and maintaining their own device in MAM scenarios. They can take the following steps:
 

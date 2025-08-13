@@ -133,7 +133,7 @@ Points to address or value: EnterpriseRegistration.windows.net
 ```
 
 > [!TIP]
-> Need help with setting up the CNAME records? We provide instructions to create CNAME records for different Microsoft 365 services at many domain registrars. You can use these instructions as a starting point to create the CNAME records for Basic Mobility and Security. For more information, see [Add DNS records to connect your domain](/Microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider).
+> Need help with setting up the CNAME records? We provide instructions to create CNAME records for different Microsoft 365 services at many domain registrars. You can use these instructions as a starting point to create the CNAME records for Basic Mobility and Security. For more information, see [Add DNS records to connect your domain](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md).
 >
 > If you're unfamiliar with DNS configuration, contact your domain registrar and ask for help.
 
@@ -174,7 +174,7 @@ The **Organization Setting** tab on the **Basic Mobility and Security** page at 
 
   The following security group types are supported:
 
-  - **User groups**: To create user security groups in the Microsoft 365 admin center, see [Create, edit, or delete a security group](/microsoft-365/admin/email/create-edit-or-delete-a-security-group)
+  - **User groups**: To create user security groups in the Microsoft 365 admin center, see [Create, edit, or delete a security group](../email/create-edit-or-delete-a-security-group.md)
   
     Business Basic and Business Standard include Microsoft Entra Free, which supports creating **assigned user groups** (not dynamic user groups), although the built-in **All Users** dynamic user group is available. To create assigned user groups in the Microsoft Entra admin center, see [Create a basic group and add members](/entra/fundamentals/how-to-manage-groups#create-a-basic-group-and-add-members). Use the following settings:
     - **Group type**: **Security** (default).
@@ -250,7 +250,7 @@ If you'd rather use [Security & Compliance PowerShell](/powershell/exchange/conn
           > [!TIP]
           > You might need to decrease the font size in the PowerShell window and run the command again to clearly see all of the values. For example, click in the window and use the scroll wheel on your mouse to scroll down, and then run the command again.
           >
-          > You can't use [Microsoft 365 Groups](/microsoft-365/admin/create-groups/office-365-groups) (the _GroupTypes_ property value is `Unified`).
+          > You can't use [Microsoft 365 Groups](../create-groups/office-365-groups.md) (the _GroupTypes_ property value is `Unified`).
           >
           > Values that you specify for the _ExclusionList_ parameter overwrite existing values. Refer back to Step 1 to see how to view the complete list of security groups.
           >

@@ -30,7 +30,7 @@ sections:
     questions:
       - question: How do I add Microsoft 365 E5 Security to Microsoft 365 Business Premium?
         answer: |
-          Work with your [Microsoft partner](/microsoft-365/admin/manage/find-your-partner-or-reseller) or visit [Microsoft Security for Business](https://aka.ms/SMBSecurity).
+          Work with your [Microsoft partner](../manage/find-your-partner-or-reseller.md) or visit [Microsoft Security for Business](https://aka.ms/SMBSecurity).
 
       - question: Does Microsoft 365 Business Premium with Microsoft 365 E5 Security allow mixed licensing for endpoint security solutions?
         answer: |
@@ -91,7 +91,7 @@ sections:
           
           Features that aren't available in the simplified management experience in the Microsoft Defender portal are available in the Microsoft Intune portal. For example:
           
-          - Third-party app management
+          - Non-Microsoft app management
           - Configuration of Wi-Fi profiles
           - VPN certificates
 

@@ -50,7 +50,7 @@ The following list describes the high-level steps to manage devices in Basic Mob
 
 2. An admin configures one or more policies in Basic Mobility and Security that specify required device settings and access to device features. For instructions, see [Configure policies in Basic Mobility and Security](m365b-devices-basic-mobility-security-policies-configure.md).
 
-3. Users enroll their devices in Basic Mobility and security, or admins enroll the devices before they're given to users. Either way, enrollment happens on the device itself. For instructions, see [Enroll your device in Basic Mobility and Security](/microsoft-365/admin/basic-mobility-security/enroll-your-mobile-device).
+3. Users enroll their devices in Basic Mobility and security, or admins enroll the devices before they're given to users. Either way, enrollment happens on the device itself. For instructions, see [Enroll your device in Basic Mobility and Security](m365b-devices-basic-mobility-security-enroll-devices.md).
 
 4. After the devices are enrolled, users can access company resources using [supported apps](#apps-that-prompt-users-to-enroll-in-basic-mobility-and-security), and admins can wipe devices and view details about devices, because the organization fully manages the devices. For more information, see the following articles:
    - [View device details in Basic Mobility and Security](m365b-devices-basic-mobility-security-view-device-details.md)

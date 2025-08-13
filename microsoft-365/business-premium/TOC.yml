@@ -25,8 +25,8 @@ items:
   items:
     - name: Overview
       href: /microsoft-365/admin/security-and-compliance/m365bp-security-benefits?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
-    - name: Turn on MFA
-      href: /microsoft-365/admin/security-and-compliance/m365b-account-security?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+    - name: Verify MFA is turned on or Configure Conditional access policies
+      href: /microsoft-365/admin/security-and-compliance//microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Protect your admin accounts
       href: /microsoft-365/admin/security-and-compliance/m365b-account-security-admins?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Email and collaboration security

@@ -55,9 +55,9 @@ The following table summarizes how to secure your data using Microsoft 365 for b
 |Best practices and capabilities|Business<br/>Basic|Business<br/>Standard|Business<br/>Premium|
 |---|:---:|:---:|:---:|
 |**1. Use multi-factor authentication** (MFA), also known as two-step verification:||||
-|&nbsp;&nbsp;&nbsp;[Security defaults](m365b-account-security.md#manage-security-defaults) is on by default and is suitable for most organizations.|✔|✔|✔|
-|&nbsp;&nbsp;&nbsp;Use [Conditional Access](m365b-account-security.md#manage-conditional-access-policies-in-microsoft-365-business-premium) for more stringent requirements.|||✔|
-|**2. Protect admin accounts**. See [Assign admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/assign-admin-roles) and [Manage emergency access accounts in Microsoft Entra ID](/entra/identity/role-based-access-control/security-emergency-access).|✔|✔|✔|
+|&nbsp;&nbsp;&nbsp;[Security defaults](set-up-multi-factor-authentication.md#manage-security-defaults) is on by default and is suitable for most organizations.|✔|✔|✔|
+|&nbsp;&nbsp;&nbsp;Use [Conditional Access](set-up-multi-factor-authentication.md#manage-conditional-access-policies-in-microsoft-365-business-premium) for more stringent requirements.|||✔|
+|**2. Protect admin accounts**. See [Assign admin roles in the Microsoft 365 admin center](../add-users/assign-admin-roles.md) and [Manage emergency access accounts in Microsoft Entra ID](/entra/identity/role-based-access-control/security-emergency-access).|✔|✔|✔|
 |**3. Use preset security policies**. See [Preset security policies in cloud organizations](/defender-office-365/preset-security-policies) and [Determine your threat policy strategy](/defender-office-365/mdo-deployment-guide#determine-your-protection-policy-strategy).||||
 |&nbsp;&nbsp;&nbsp;[Default email protections for cloud mailboxes](/defender-office-365/eop-about). Includes: Anti-spam, anti-malware, and anti-phishing (spoof) protection.|✔|✔|✔|
 |&nbsp;&nbsp;&nbsp;[Microsoft Defender for Office 365 Plan 1](/defender-office-365/mdo-about#defender-for-office-365-plan-1-capabilities) protection. Includes: Extra anti-phishing protection features (impersonation protection and anti-phishing thresholds), Safe Links (email, Office apps, and Microsoft Teams), and Safe Attachments (email and files in SharePoint, OneDrive, and Microsoft Teams)|||✔|

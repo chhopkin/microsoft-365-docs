@@ -70,7 +70,7 @@ For more information, see [Configure email protection policies](/defender-office
 
 ### Identify priority accounts
 
-Identify and tag the appropriate users in your organization as [priority accounts](/microsoft-365/admin/setup/priority-accounts) for easier identification in reports and investigations.
+Identify and tag the appropriate users in your organization as [priority accounts](../setup/priority-accounts.md) for easier identification in reports and investigations.
 
 For more information, see [Priority accounts and user tags](/defender-office-365/mdo-deployment-guide#step-4-priority-accounts-and-user-tags).
 

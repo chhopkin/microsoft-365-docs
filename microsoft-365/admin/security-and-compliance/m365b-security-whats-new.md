@@ -29,7 +29,7 @@ appliesto:
 
 This article lists new security features in the latest releases of Microsoft 365 for business, which includes Microsoft 365 Business Basic, Microsoft 365 Business Standard, and Microsoft 365 Business Premium. Features that are currently in preview are denoted with **(preview)**.
 
-For more information about Microsoft 365 for business, see [What is Microsoft 365 for business](/microsoft-365/admin/admin-overview/what-is-microsoft-365-for-business).
+For more information about Microsoft 365 for business, see [What is Microsoft 365 for business](../admin-overview/what-is-microsoft-365-for-business.md).
 
 > [!TIP]
 > Microsoft 365 Business Premium includes Microsoft Defender for Business. For information about what's new in Microsoft Defender for Business, see [What's new in Microsoft Defender for Business](/defender-business/mdb-whats-new).

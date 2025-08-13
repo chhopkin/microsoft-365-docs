@@ -119,7 +119,7 @@ To create a policy, do the following steps.
 
      The following security group types are supported:
 
-     - **User groups**: To create user security groups in the Microsoft 365 admin center, see [Create, edit, or delete a security group](/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
+     - **User groups**: To create user security groups in the Microsoft 365 admin center, see [Create, edit, or delete a security group](../email/create-edit-or-delete-a-security-group.md).
 
        Business Basic and Business Standard include Microsoft Entra Free, which supports creating **assigned user groups** (not dynamic user groups), although the built-in **All Users** dynamic user group is available. To create assigned user groups in the Entra admin center, see [Create a basic group and add members](/entra/fundamentals/how-to-manage-groups#create-a-basic-group-and-add-members). Use the following settings:
        - **Group type**: **Security** (default).
@@ -147,7 +147,7 @@ To create a policy, do the following steps.
 
 The policy is pushed to the affected users the next time they sign in to Microsoft 365 on their device.
 
-After you deploy the policy, if the user never had a Basic Mobility and Security policy applied to their device, they get a notification to enroll and activate Basic Mobility and Security on their device. For more information, see [Enroll your mobile device using Basic Mobility and Security](/microsoft-365/admin/basic-mobility-security/enroll-your-mobile-device).
+After you deploy the policy, if the user never had a Basic Mobility and Security policy applied to their device, they get a notification to enroll and activate Basic Mobility and Security on their device. For more information, see [Enroll your mobile device using Basic Mobility and Security](m365b-devices-basic-mobility-security-enroll-devices.md).
 
 Until they complete the enrollment in Basic Mobility and Security, access to email, OneDrive, and other services in Microsoft 365 is restricted. After they complete enrollment, they have access to Microsoft 365 services and the policy is applied to their device.
 
@@ -332,7 +332,7 @@ In [Security & Compliance PowerShell](/powershell/exchange/connect-to-scc-powers
        > [!TIP]
        > You might need to decrease the font size in the PowerShell window and run the command again to clearly see all of the values. For example, click in the window and use the scroll wheel on your mouse to scroll down, and then run the command again.
        >
-       > You can't use [Microsoft 365 Groups](/microsoft-365/admin/create-groups/office-365-groups) in device rules (the _GroupTypes_ property value is `Unified`).
+       > You can't use [Microsoft 365 Groups](../create-groups/office-365-groups.md) in device rules (the _GroupTypes_ property value is `Unified`).
 
        For detailed syntax and parameter information, see [Get-MgGroup](/powershell/module/microsoft.graph.groups/get-mggroup).
 

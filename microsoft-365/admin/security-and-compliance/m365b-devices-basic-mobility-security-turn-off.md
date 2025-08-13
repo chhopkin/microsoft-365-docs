@@ -31,10 +31,10 @@ appliesto:
 You can't completely turn off or disable Basic Mobility and Security in your organization after you [enable](m365b-devices-basic-mobility-security-set-up.md) and [configure](m365b-devices-basic-mobility-security-policies-configure.md#create-policies-in-basic-mobility-and-security) it. But you can remove the enforcement of Basic Mobility and Security on devices in your organization by using either of the following methods:
 
 - **Remove security group assignments from all Basic Mobility and Security policies**: This method works up to a certain point, because a policy must be assigned to at least one security group. You have the following options:
-  - Create a new security group with no members and assign all policies to that group. For security group creation instructions, see [Create, edit, or delete a security group](/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
+  - Create a new security group with no members and assign all policies to that group. For security group creation instructions, see [Create, edit, or delete a security group](../email/create-edit-or-delete-a-security-group.md).
   - Assign the policy to no one (select **We'll save this policy, but it won't be applied to any devices in your organization**).
 - **Remove all Basic Mobility and Security policies**: This option works up to a certain point, because you can't remove the last remaining policy in the organization. You have the following options:
-  - Create a new security group with no members and assign the last remaining policy to that group. For security group creation instructions, see [Create, edit, or delete a security group](/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
+  - Create a new security group with no members and assign the last remaining policy to that group. For security group creation instructions, see [Create, edit, or delete a security group](../email/create-edit-or-delete-a-security-group.md).
   - Assign the last remaining policy to no one (select **We'll save this policy, but it won't be applied to any devices in your organization**).
   - Create a new policy with no restrictions assigned to no one or an empty security group, and then remove all other policies.
 

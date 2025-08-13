@@ -842,7 +842,7 @@
     },
     {
       "source_path":"microsoft-365/business-premium/m365bp-conditional-access.md",
-      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365b-account-security",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication#manage-conditional-access",
       "redirect_document_id": false
     },
     {
@@ -1052,7 +1052,7 @@
     },
     {
       "source_path":"m365bp-turn-on-mfa.md",
-      "redirect_url":"/microsoft-365/admin/security-and-compliance/m365b-account-security",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication",
       "redirect_document_id": false
     },
     {

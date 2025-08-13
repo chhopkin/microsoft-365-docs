@@ -30,12 +30,12 @@ appliesto:
 
 # Microsoft 365 for business security overview
 
-Microsoft 365 for business is the collective name of Microsoft 365 subscriptions that cater to small to medium sized businesses up to 300 users. For more information, see [What is Microsoft 365 for business?](/microsoft-365/admin/admin-overview/what-is-microsoft-365-for-business).
+Microsoft 365 for business is the collective name of Microsoft 365 subscriptions that cater to small to medium sized businesses up to 300 users. For more information, see [What is Microsoft 365 for business?](../admin-overview/what-is-microsoft-365-for-business.md).
 
 Microsoft 365 for business includes the following subscriptions:
 
-- **Microsoft 365 Business Basic**: For setup instructions, see [Set up Microsoft 365 Business Basic](/microsoft-365/admin/setup/setup-business-basic).
-- **Microsoft 365 Business Standard**: For setup instructions, see [Set up Microsoft 365 Business Standard with a new or existing domain](/microsoft-365/admin/setup/setup-business-standard).
+- **Microsoft 365 Business Basic**: For setup instructions, see [Set up Microsoft 365 Business Basic](../setup/setup-business-basic.md).
+- **Microsoft 365 Business Standard**: For setup instructions, see [Set up Microsoft 365 Business Standard with a new or existing domain](../setup/setup-business-standard.md).
 - **Microsoft 365 Business Premium**: For setup instructions, see [Sign in and set up Microsoft 365 Business Premium](/microsoft-365/business-premium/m365-business-premium-setup).
 
   > [!TIP]
@@ -57,7 +57,7 @@ These security categories are described in the following sections and are summar
 |---|:---:|:---:|:---:|
 |**Account security**||||
 |&nbsp;&nbsp;Microsoft Entra ID|Free|Free|Plan 1|
-|&nbsp;&nbsp;Microsoft 365 E5 Security|||Purchased separately<br/>(includes Microsoft Entra ID Plan 2)|
+|&nbsp;&nbsp;Microsoft 365 E5 Security|||Purchased separately<br/>(includes Microsoft Entra ID P2)|
 |**Email and collaboration security**||||
 |&nbsp;&nbsp;Default email protections for cloud mailboxes|✔|✔|✔|
 |&nbsp;&nbsp;Microsoft Defender for Office 365|||Plan 1|
@@ -76,9 +76,9 @@ Watch this short video for more information:
 
 All subscriptions in Microsoft 365 for business include Microsoft Entra ID Free, which includes the feature named _security defaults_. Because security defaults is on by default, multifactor authentication (MFA) is also on by default in Microsoft 365 for business organizations.
 
-Business Premium also includes Microsoft Entra ID Plan 1, which includes the feature named _Conditional Access_. Conditional Access uses granular policies based on Zero Trust architecture to give users access to resources. If your organization has increased or complex security requirements, you can use Conditional Access policies instead of security defaults.
+Business Premium also includes Microsoft Entra ID P1, which includes the feature named _Conditional Access_. Conditional Access uses granular policies based on Zero Trust architecture to give users access to resources. If your organization has increased or complex security requirements, you can use Conditional Access policies instead of security defaults.
 
-For information about security defaults, conditional access, and how to configure both of them, see [Multifactor authentication in Microsoft 365 for business](m365b-account-security.md).
+For information about security defaults and conditional access, see [Multifactor authentication in Microsoft 365 for business](multi-factor-authentication-microsoft-365.md).
 
 For additional considerations for administrator or admin accounts, see [Admin account security in Microsoft 365 for business](m365b-account-security-admins.md)
 
@@ -135,7 +135,7 @@ Business Premium includes the following additional features for device security:
   - [Device and application protection in Microsoft 365 Business Premium](m365bp-devices-protection.md).
 
 - **Ability to add Microsoft 365 E5 Security**: If you choose to buy this additional subscription, you get the following upgraded features:
-  - [Microsoft Entra ID Plan 2](/entra/fundamentals/licensing)
+  - [Microsoft Entra ID P2](/entra/fundamentals/licensing)
   - [Microsoft Defender for Identity](/defender-for-identity/what-is)
   - [Microsoft Defender for Endpoint Plan 2](/defender-endpoint/microsoft-defender-endpoint)
   - [Microsoft Defender for Office 365 Plan 2](/defender-office-365/mdo-about#defender-for-office-365-plan-1-vs-plan-2-cheat-sheet)

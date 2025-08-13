@@ -27,8 +27,8 @@ appliesto:
 
 As you probably already know, [Microsoft 365 Business Premium](m365bp-security-benefits.md) is an excellent productivity and security solution for small and medium sized businesses up to 300 users. With this solution, you get:
 
-- [Microsoft 365 Apps](/microsoft-365/admin/setup/install-applications) installed on your devices
-- Protection for your user accounts with [Microsoft Entra ID Plan 1](/entra/fundamentals/whatis)
+- [Microsoft 365 Apps](../setup/install-applications.md) installed on your devices
+- Protection for your user accounts with [Microsoft Entra ID P1](/entra/fundamentals/whatis)
 - Endpoint management, security, and mobile application management with [Microsoft Intune Plan 1](/mem/intune/fundamentals/what-is-intune)
 - Protection for your devices with [Microsoft Defender for Business](/defender-business/mdb-overview)
 - Protection for email and files with [Microsoft Defender for Office 365 Plan 1](/defender-office-365/mdo-about#defender-for-office-365-plan-1-capabilities)
@@ -44,7 +44,7 @@ You can now extend the security capabilities you have in Microsoft 365 Business 
 
 Microsoft 365 E5 Security up levels your Microsoft 365 Business Premium security capabilities with:
 
-- Enhanced identity and access controls with [Microsoft Entra ID Plan 2](/entra/fundamentals/licensing), which adds advanced security and governance features with Microsoft Entra ID Protection and Microsoft Entra ID Governance.
+- Enhanced identity and access controls with [Microsoft Entra ID P2](/entra/fundamentals/licensing), which adds advanced security and governance features with Microsoft Entra ID Protection and Microsoft Entra ID Governance.
 - Identity protection with [Microsoft Defender for Identity](/defender-for-identity/what-is), which is an identity threat detection and response (ITDR) solution that helps secure identity monitoring across your organization.
 - Device security with [Microsoft Defender for Endpoint Plan 2](/defender-endpoint/microsoft-defender-endpoint), which adds threat hunting, live response, six months of data retention on the device, and endpoint security for IoT devices.
 - Collaboration security with [Microsoft Defender for Office 365 Plan 2](/defender-office-365/mdo-about#defender-for-office-365-plan-1-vs-plan-2-cheat-sheet), which adds automated investigation and response, attack simulation training, threat trackers, advanced hunting, incident and alert investigation, and threat explorer.
@@ -64,7 +64,7 @@ The upgraded features in Microsoft Entra ID P2 vs. P1 are described at [Microsof
 
 To get Microsoft 365 E5 Security, you have the following options:
 
-- [Work with a Microsoft Partner](/microsoft-365/admin/manage/find-your-partner-or-reseller)
+- [Work with a Microsoft Partner](../manage/find-your-partner-or-reseller.md)
 - Visit [Microsoft Security for Business](https://aka.ms/SMBSecurity)
 
 ## See also
