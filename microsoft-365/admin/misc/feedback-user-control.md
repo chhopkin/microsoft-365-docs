@@ -17,6 +17,7 @@ ms.collection:
 - trust-pod
 - feedback-content
 ms.custom: campaignIDs-batch1
+hideEdit: true
 description: "Learn about feedback your users can send to Microsoft about Microsoft products."
 ---
 
