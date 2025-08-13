@@ -16,8 +16,6 @@ ms.collection:
 - Adm_TOC
 - trust-pod
 - feedback-content
-- Tier2
-- scotvorg
 ms.custom: admindeeplinkMAC
 description: "Manage feedback your users can send to Microsoft about Microsoft products."
 ---

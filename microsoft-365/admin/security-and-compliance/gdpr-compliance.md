@@ -11,8 +11,6 @@ ms.topic: overview
 ms.service: microsoft-365-business
 ms.localizationpriority: high
 ms.collection:
-- Tier2
-- scotvorg
 - highpri
 - M365-subscription-management
 - Adm_O365

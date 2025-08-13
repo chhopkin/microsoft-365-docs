@@ -16,8 +16,6 @@ ms.collection:
 - must-keep
 - trust-pod
 - feedback-content
-- Tier2
-- scotvorg
 ms.custom: campaignIDs-batch1
 description: "Learn about feedback your users can send to Microsoft about Microsoft products."
 ---
