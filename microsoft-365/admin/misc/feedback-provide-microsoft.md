@@ -2,8 +2,8 @@
 title: "Learn about how to provide feedback to Microsoft"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: danbrown
+author: DHB-MSFT
 manager: dansimp
 ms.date: 01/06/2025
 audience: Admin

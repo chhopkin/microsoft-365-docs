@@ -2,8 +2,8 @@
 title: "Microsoft product NPS feedback and insights for your organization"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: danbrown
+author: DHB-MSFT
 manager: dansimp
 ms.date: 01/06/2025
 audience: Admin

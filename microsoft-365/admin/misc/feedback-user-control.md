@@ -2,8 +2,8 @@
 title: "Learn about Microsoft feedback for your organization"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: danbrown
+author: DHB-MSFT
 manager: dansimp
 ms.date: 03/05/2025
 audience: Admin
