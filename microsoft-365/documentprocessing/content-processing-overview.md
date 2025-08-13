@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: jtremper
 ms.reviewer: ssquires
-ms.date: 08/01/2025
+ms.date: 08/11/2025
 audience: admin
 ms.topic: article
 ms.service: microsoft-syntex
@@ -25,8 +25,10 @@ Content processing rules let you build simple rules-driven actions in document l
 You'll choose a condition that triggers the rule and the action that the rule will take. 
 For example, you can create a rule to move files tagged with a specific customer to a specific library or folder. These rules help you structure your content architecture with the power of AI-driven processing.
 
+<!---
 > [!NOTE]
 > This feature is available for users who have document processing [per-user](set-up-content-understanding.md) or [pay-as-you-go](syntex-azure-billing.md) licensing.
+--->
 
 ## Document processing rules
 

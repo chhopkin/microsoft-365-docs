@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn about integrating ServiceNow Live Agent in the deployment process for the Employee Self-Service agent using Microsoft 365 Copilot Connector.
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # Integrate ServiceNow Live Agent with your Employee Self-Service deployment

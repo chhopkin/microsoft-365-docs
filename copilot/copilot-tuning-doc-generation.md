@@ -1,8 +1,8 @@
 ---
 title: Configure Copilot Tuning for document generation
-author: jasonjoh
-ms.author: jasonjoh
-manager: calvind
+author: kwekuako
+ms.author: kwekua
+manager: dansimp
 ms.audience: ITPro
 ms.reviewer: jwolk
 ms.date: 07/17/2025

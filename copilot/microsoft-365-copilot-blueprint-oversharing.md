@@ -21,7 +21,7 @@ ms.collection:
 - trust-pod
 ms.custom: [copilot-learning-hub]
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # Address oversharing concerns in Microsoft 365 Copilot deployment blueprint

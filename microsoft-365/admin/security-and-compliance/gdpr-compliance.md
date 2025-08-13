@@ -2,17 +2,15 @@
 title: "GDPR simplified: A guide for your small business"
 f1.keywords:
 - NOCSH
-ms.author: efrene
-author: efrene
+ms.author: danbrown
+author: DHB-MSFT
 manager: dansimp
 ms.date: 07/28/2025
 audience: Admin
-ms.topic: overview
+ms.topic: concept-article
 ms.service: microsoft-365-business
 ms.localizationpriority: high
 ms.collection:
-- Tier2
-- scotvorg
 - highpri
 - M365-subscription-management
 - Adm_O365
@@ -25,6 +23,7 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 211c5c90-9719-4d73-9ad9-1925bb80f5f6
+hideEdit: true
 description: "Learn how Microsoft 365 for business can help you with the General Data Protection Regulation (GDPR) process."
 ---
 
