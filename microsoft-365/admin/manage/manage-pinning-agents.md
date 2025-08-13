@@ -31,7 +31,11 @@ description: "Learn how to manage pinning of agents for Microsoft 365 Copilot in
 
 # Manage Pinning of Agents
 
-> [!IMPORTANT]
+>[!NOTE]
+>
+> - Pinning agents is currently in limited public preview. For more information, see [Stay on top of updates](stay-on-top-of-updates.md#learn-about-microsoft-365-previews)
+>
+> - After pinning an Agent, it may take up to six hours for end-users to see it as pinned.
 >
 > - This article is intended for IT administrators.
 
@@ -67,7 +71,7 @@ Pinning agents is a feature that enables administrators to preselect and pin age
 ### Administrator-pinned agents
 
 - Pinned by your organization's administrator through the Microsoft 365 admin center.
-- Scope: Can be pinned for **all users** or for **specific groups or for specific users**.
+- Scope: Can be pinned for **All users** or for **specific groups or for specific users**.
 - End users usually **cannot unpin** these agents either. They're fixed in the pinned list.
 
 ### User-pinned agents
@@ -92,48 +96,48 @@ Pinning agents is a feature that enables administrators to preselect and pin age
 
 1. In the Microsoft 365 Admin Center, navigate to **Copilot > Agents** by expanding Copilot in the left navigation.
 2. In the **Agents** page, select **Manage pinned agents** icon.
-:::image type="content" source="../../media/manage-pinning-agents/manage-pinned-agents.png" alt-text="Screenshot showing the Agents page in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/manage-pinned-agents.png":::
+  :::image type="content" source="../../media/manage-pinning-agents/manage-pinned-agents.png" alt-text="Screenshot showing the Agents page in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/manage-pinned-agents.png":::
 
 ### View Microsoft-pinned agents and administrator-pinned agents
 
 1. In the right pane, you can view the Microsoft-pinned agents in the **Pinned by Microsoft** list view. Initially, there are no agents in the **pinned by your org** section.
 2. Select  **Pin agents** to pin new agents.
-:::image type="content" source="../../media/manage-pinning-agents/pin-agents.png" alt-text="Screenshot showing the Pin agents button in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/pin-agents.png":::
+  :::image type="content" source="../../media/manage-pinning-agents/pin-agents.png" alt-text="Screenshot showing the Pin agents button in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/pin-agents.png":::
 
 ### Locate the agent to pin
 
 1. From the list of agents, find the agent you want to pin. You can search from the list to find a specific agent by name.
-:::image type="content" source="../../media/manage-pinning-agents/select-an-agent.png" alt-text="Screenshot showing a list of agents that you can select from in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/select-an-agent.png":::
+  :::image type="content" source="../../media/manage-pinning-agents/select-an-agent.png" alt-text="Screenshot showing a list of agents that you can select from in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/select-an-agent.png":::
 2. Select **Next**.
 
 ### Choose the scope of pinning
 
-You can choose the scope for the agent that you want to pin.
+1. You can choose the scope for the agent that you want to pin.
+  
+   - **Everyone (All Users):** Pin the agent for all users that the agent is deployed to in the tenant.
+   - **Specific Groups or Users:** Pin for one or more groups or individual accounts.
 
-:::image type="content" source="../../media/manage-pinning-agents/scope-agent.png" alt-text="Screenshot showing the scope selection for pinning agents in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/scope-agent.png":::
+   :::image type="content" source="../../media/manage-pinning-agents/scope-agent.png" alt-text="Screenshot showing the scope selection for pinning agents in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/scope-agent.png":::
 
-- **Everyone (All Users):** Pin the agent for all users that the agent is deployed to in the tenant.
-- **Specific Groups or Users:** Pin for one or more groups or individual accounts.
+2. If you choose to select **Specific Groups or Users**, you can then select the specific users or groups to pin the agent.
 
-If you choose to select **Specific Groups or Users**, you can then select the specific users or groups to pin the agent.
+   :::image type="content" source="../../media/manage-pinning-agents/choose-specific-users-groups.png" alt-text="Screenshot showing a list of users or groups that you can select from in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/choose-specific-users-groups.png":::
 
-:::image type="content" source="../../media/manage-pinning-agents/choose-specific-users-groups.png" alt-text="Screenshot showing a list of users or groups that you can select from in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/choose-specific-users-groups.png":::
-
-Select **Save**, to save the details.
+3. Select **Save**, to save the details.
 
 ### Review and finish
 
 1. Select **Review & Finish**.
 2. After you save the configuration, the system records which agent is pinned for the selected audience.
-:::image type="content" source="../../media/manage-pinning-agents/pinned-agents.png" alt-text="Screenshot showing all the pinned agents in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/pinned-agents.png":::
+   :::image type="content" source="../../media/manage-pinning-agents/pinned-agents.png" alt-text="Screenshot showing all the pinned agents in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/pinned-agents.png":::
 
 ## Can you pin any agent?
 
 Only deployed agents can be pinned. If the agent isn't deployed, you see a banner with a message to first deploy the agent.
-:::image type="content" source="../../media/manage-pinning-agents/deploy-agents.png" alt-text="Screenshot a message to first deploy the agent." lightbox="../../media/manage-pinning-agents/deploy-agents.png":::
+  :::image type="content" source="../../media/manage-pinning-agents/deploy-agents.png" alt-text="Screenshot a message to first deploy the agent." lightbox="../../media/manage-pinning-agents/deploy-agents.png":::
 
 If the agent is blocked, you must first unblock the agent before you can pin it.
-:::image type="content" source="../../media/manage-pinning-agents/unblock-agent.png" alt-text="Screenshot a message to first unblock the agent." lightbox="../../media/manage-pinning-agents/unblock-agent.png":::
+  :::image type="content" source="../../media/manage-pinning-agents/unblock-agent.png" alt-text="Screenshot a message to first unblock the agent." lightbox="../../media/manage-pinning-agents/unblock-agent.png":::
 
 ## Rank the list of pinned agents
 
@@ -148,10 +152,10 @@ From the list of pinned agents, locate the agent that you want to unpin and sele
 
 Select the agent and choose **Edit users** to modify the scope of users for which an agent is pinned.
 
-:::image type="content" source="../../media/manage-pinning-agents/edit-user.png" alt-text="Screenshot showing the edit user option for pinning agents in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/edit-user.png":::
+  :::image type="content" source="../../media/manage-pinning-agents/edit-user.png" alt-text="Screenshot showing the edit user option for pinning agents in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/edit-user.png":::
 
 ## Alternate entry point for pinning
 
 You can also pin an agent from the agent details pane. Select the pin for the user icon. The icon is only enabled if the agent is deployed.
 
-:::image type="content" source="../../media/manage-pinning-agents/agent-details.png" alt-text="Screenshot showing the agent details pane in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/agent-details.png":::
+  :::image type="content" source="../../media/manage-pinning-agents/agent-details.png" alt-text="Screenshot showing the agent details pane in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/agent-details.png":::
