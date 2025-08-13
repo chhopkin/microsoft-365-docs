@@ -33,7 +33,7 @@ When the Restricted Mode setting is enabled, legacy file formats will open in **
 
 ## Modifying Group Policy settings
 
-If you have enabled this setting but need to revert to the default behavior of allowing trusted files to bypass Protected View, or allow users to override the editing block using Trust Center, you can modify this setting by making changes to the Group Policy settings that support this setting. These changes can be made in the Group Policy Editor or by using the [Office cloud policy service](https://config.office.com/).
+If you have enabled this setting but need to revert to the default behavior of allowing trusted files to bypass Protected View, or allow users to override the editing block using Trust Center, you can modify this setting by making changes to the Group Policy settings that support this setting. These changes can be made in the Group Policy Editor or by using the [Office cloud policy service](https://config.office.com/). 
 
 The Group Policy settings for opening a given file format in Protected View and disallowing editing can be found in the following path:
 
