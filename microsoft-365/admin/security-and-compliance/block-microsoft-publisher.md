@@ -22,17 +22,11 @@ When you enable this setting, Microsoft Publisher will not launch. When users tr
 
 If you have enabled this setting but need to revert to the default behavior, you can turn this setting off directly in the Microsoft 365 admin center.
 
-## Turn off default setting in the Microsoft 365 admin center
+## Turn off setting in the Microsoft 365 admin center
 
 1. Go to the admin center and select Org settings.
-1. Select Restricted mode and find the Block Dynamic Data Exchange setting and switch the toggle to **Off**.
+1. Select Restricted Mode, find the **Block Microsoft Publisher** setting, and switch the toggle to **Off**.
 
-## Use Group Policy settings or Office cloud policy service
+## Office Cloud Policy service
 
-Alternatively, you can make changes to the Group Policy setting that supports this setting. These changes can be made in the Group Policy Editor or by using the [Office cloud policy service](https://config.office.com/).
-
-The Group Policy setting **Disable Publisher** can be found in the following path:
-
-- Group Policy path: `User Configuration > Administrative Templates > Microsoft Publisher 2016`
-
-To revert to the default behavior, set this policy as not configured.
+Alternatively, you can make changes to the policy setting directly using the [Office Cloud Policy service](https://config.office.com/). Set the **Disable Publisher** policy as not configured to revert to the default behavior.
