@@ -17,6 +17,7 @@ ms.collection:
 - trust-pod
 - feedback-content
 ms.custom: admindeeplinkMAC
+hideEdit: true
 description: "Manage feedback your users can send to Microsoft about Microsoft products."
 ---
 

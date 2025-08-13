@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - trust-pod
 - feedback-content
+hideEdit: true
 description: "Use Net promoter scores (NPS) from your end users to see how they feel about Microsoft products and services."
 ---
 

@@ -5,12 +5,13 @@ author: DHB-MSFT
 manager: dansimp
 ms.date: 02/24/2025
 audience: Admin
-ms.topic: article
+ms.topic: concept-article
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
 ms.collection:
 - feedback-content
 - trust-pod
+hideEdit: true
 description: "Learn about Microsoft code of conduct for the feedback you provide."
 ---
 
