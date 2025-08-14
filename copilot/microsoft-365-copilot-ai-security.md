@@ -180,11 +180,11 @@ For more information, see the following resources:
  
 ## What you can do to strengthen your organization's AI security
 
-Organizations share responsibility for securing AI systems. Microsoft provides tools and guidance to help customers manage risk and enforce compliance. 
+Organizations share responsibility for securing AI systems. Microsoft provides tools and guidance to help customers manage risk and enforce compliance. Here are some steps you can take to secure Copilot:
 
-1. Define and apply sensitivity labels in Microsoft Purview to classify confidential content across Microsoft 365.
+1. Define and apply [sensitivity labels](/purview/get-started-with-sensitivity-labels) by using Purview to classify confidential content across Microsoft 365.
 
-2. Configure DLP policies that restrict Copilot from accessing or processing labeled content, such as blocking summarization or rewriting of documents marked as sensitive.
+2. Configure [DLP policies that restrict Copilot](/purview/dlp-microsoft365-copilot-location-learn-about) from accessing or processing labeled content, such as blocking summarization or rewriting of documents marked as sensitive.
 
 3. Ensure users have appropriate permissions (e.g., EXTRACT or VIEW rights) to allow Copilot to interact with content appropriately.
 
