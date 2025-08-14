@@ -121,7 +121,12 @@ Data is encrypted in transit and at rest using FIPS 140-2–compliant technologi
 
 Microsoft Purview Audit and eDiscovery log and surface Copilot interactions. Compliance Manager maps controls to [regulations](/purview/compliance-manager-regulations-list), such as the EU Artificial Intelligence Act and NIST AI RMF 1.0. 
 
-[Microsoft Purview Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai) provides centralized visibility and control over how sensitive data is accessed and used across Microsoft 365 Copilot and other AI services. It enables your organization to discover AI activity, classify and label sensitive content, enforce real-time data loss prevention (DLP), and govern usage through audit logs, retention policies, and compliance rules. Integrated with Microsoft Purview and Defender, DSPM for AI delivers built-in analytics, risk scoring, and policy enforcement to help organizations manage AI data risks and maintain regulatory readiness. Copilot uses stateless processing and tenant-scoped semantic indexing.
+[Microsoft Purview Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai) provides centralized visibility and control over how sensitive data is accessed and used across Microsoft 365 Copilot and other AI services. It enables your organization to discover AI activity, classify and label sensitive content, enforce real-time data loss prevention (DLP), and govern usage through audit logs, retention policies, and compliance rules. 
+
+<!---
+Integrated with Microsoft Purview and Microsoft Defender, DSPM for AI delivers built-in analytics, risk scoring, and policy enforcement to help you manage AI data risks and maintain regulatory readiness. For more information, see [Build a strong security posture for AI](/security/security-for-ai/posture).--->
+
+Copilot uses stateless processing and tenant-scoped semantic indexing.
 
 Microsoft 365 Copilot is part of Microsoft's enterprise compliance program and benefits from a range of certifications and assessments. These include (but aren't limited to):
 
@@ -130,7 +135,7 @@ Microsoft 365 Copilot is part of Microsoft's enterprise compliance program and b
 - SOC 2 Type 1
 - ISO/IEC 27001, 27701, 22301, 27018, and 42001
 
-Penetration testing summaries are available through the Microsoft Service Trust Portal, helping customers demonstrate due diligence and satisfy third-party audit requirements.
+Penetration testing summaries are available through the [Microsoft Service Trust Portal](https://servicetrust.microsoft.com/), helping customers demonstrate due diligence and satisfy third-party audit requirements.
 
 ##### Data residency and sovereignty
 
