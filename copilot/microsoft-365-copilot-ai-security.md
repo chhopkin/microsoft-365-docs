@@ -75,20 +75,25 @@ In the event of a successful injection attempt, Copilot's architecture ensures c
 
 If you have the [Defender for Cloud Security Posture Management (CSPM) plan in Defender for Cloud](/azure/defender-for-cloud/ai-security-posture), you get additional visibility into AI workloads, plugin usage, and risk scoring.
 
-
 #### Prompt injection defenses
 
-Multi-layered protections include classifiers for jailbreak detection, input/output filtering, and containment strategies. These protections also defend against encoding-based prompt injection (for example, ROT13 or Base64) through:
+Microsoft employs a multi-layered defense strategy across the Copilot prompt flow to mitigate risks of prompt injection. Here are some examples of protection features that are active by default and don't require setup:
 
-- Detection of obfuscated input patterns
-- Runtime filters that decode and inspect content before LLM processing
-- Regular red teaming to simulate and mitigate encoding-based attacks
+- Harm category classifiers are applied to Copilot's outputs, helping to ensure that inappropriate or harmful responses are identified and blocked.
+- The user-in-the-loop design enables users to review, modify, or reject AI-generated content.
+- Spam, scam, and suspicious content filtering helps block malicious instructions, phishing attempts, and fraudulent material in prompts.
+- Copyright materials protection helps safeguard intellectual property and maintain integrity.
+- Copilot ignores junk email and untrusted Microsoft Teams chats, including chats from external contacts.
+- Copilot honors Bing web blocking to filter out adult, low-authority, and malicious sites during web search.
+
+For more information, see [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
 
 #### Data exfiltration prevention
 
-Copilot's layered security model addresses traditional and emerging threats, including scenarios with potential for data exfiltration through unauthenticated image URLS where users generate an image containing sensitive data, extract the URL using browser tools and share externally. If the image is accessible without authentication, it may bypass enterprise controls such as Conditional Access or sensitivity labels. 
+Copilot's layered security model addresses traditional and emerging threats, including scenarios with the potential for data exfiltration, like these:
 
-Another scenario could include a user from one tenant who generates a malicious image (for example, QR code) and shares an anonymous URL with users in different tenant. If such a URL isn't protected by authentication, access controls may not be enforced. 
+- Unauthenticated image URLs, where a user generates an image containing sensitive data, extracts the URL using browser tools, and then shares the image externally. If the image is accessible without authentication, it could bypass enterprise controls, such as [Conditional Access](/entra/identity/conditional-access/overview) or [sensitivity labels](/purview/sensitivity-labels#sensitivity-labels-for-microsoft-365-copilot-and-microsoft-365-copilot-chat).
+- Malicous images, such as QR codes, where a user in one tenant generates a malicious image and shares an anonymous URL with users in another tenant. If the a URL isn't protected by authentication, access controls might not be enforced. 
 
 To mitigate this, Microsoft applies its defense-in-depth strategy. This includes continuous monitoring for data leakage vectors, adversarial misuse, and unauthorized access patterns. 
 
