@@ -2,8 +2,8 @@
 title: Cross-tenant SharePoint site migration overview (preview)
 ms.author: heidip
 author: MicrosoftHeidi
-manager: jtremper
-ms.date: 05/31/2024
+manager: dansimp
+ms.date: 08/14/2025
 recommendations: true
 audience: ITPro
 ms.topic: upgrade-and-migration-article
@@ -19,7 +19,7 @@ description: "Learn about the Cross-tenant SharePoint migration solution to migr
 # Cross-tenant SharePoint migration
 
 <!-- >[!Note]
->Cross-Tenant SharePoint migration is currently in a private preview stage of development. As an unfinished project, any information or availability is subject to change at any time. Support for private-preview customers will be handled via email. Cross-Tenant SharePoint migration is covered by //the preview terms of the [Microsoft Universal License Terms for Online Services](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all).-->
+>Cross-Tenant SharePoint migration is currently in a private preview stage of development. As an unfinished project, any information or availability is subject to change at any time. Support for private-preview customers is handled via email. Cross-Tenant SharePoint migration is covered by //the preview terms of the [Microsoft Universal License Terms for Online Services](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all).-->
 
 SharePoint sites can now be moved from one tenant to another using the Cross-tenant SharePoint migration feature.
 
@@ -28,7 +28,7 @@ SharePoint Admins can transition sites into their new tenants using *SharePoint 
 Up to 4,000 SharePoint accounts can be scheduled for migration in advance at a given time. Once scheduled, migrations occur without content ever leaving the Microsoft 365 cloud and with minimal disruption. When migrations are complete, a redirect is placed in the location of the user's original SharePoint site, so any links to files and folders can continue working in the new location.
 
 >[!Important]
->Cross-Tenant moves are a one and done migration activity. The content will be **moved** from the Source to Target, leaving behind a redirect link on Source. **Incremental and delta migration passes can't be performed.**
+>Cross-Tenant moves are a one and done migration activity. The content is **moved** from the Source to Target, leaving behind a redirect link on Source. **Incremental and delta migration passes can't be performed.**
 
 ## How to participate
 
@@ -65,7 +65,7 @@ Get-SPOSite -Limit <String> | Select-Object Url, StorageUsageCurrent
 >
 >- Before starting any migrations, make certain that your source SharePoint sites are set to Read/write mode. If they're set to Read-only, the migration fails.
 >
->- Each individual SharePoint site being migrated must have no more than 5 TB of storage, or 1 million items. If during a migration of multiple sites a site with more than 5 TB is encountered, that site will eventually time out and fail. Sites less 5 TB continue until completion.
+>- Each individual SharePoint site being migrated must have no more than 5 TB of storage, or 1 million items. If during a migration of multiple sites a site with more than 5 TB is encountered, that site eventually times out and fails. Sites less 5 TB continue until completion.
 >
 >- The 1 million item limit can be any item, including files (including versions), folders, and list line entries if it's a list or library.
 >
@@ -86,7 +86,7 @@ You can migrate sites directly into individual satellite geo instances as needed
 
 - Trust configurations need to be established between all source and target instances that are part of the migration. 
 - The identity mapping file must be uploaded to every target instance.
-- When migrating in multi-geo environments, each source instance is subject to the 4000 queue size limit regardless of the number of target tenants.
+- When you migrate in multi-geo environments, each source instance is subject to the 4000 queue size limit regardless of the number of target tenants.
 - Establishing multiple trusts allows you to move sites directly into a geo instance of choice.
 - If a site is migrated to an incorrect instance, you can't use Cross Tenant User Migration to move it between instances of the same tenant.
 
@@ -148,7 +148,7 @@ In order to migrate sites containing Sensitivity labels with *user-defined permi
 
 When you migrate SharePoint sites between tenants, it's important to communicate to your users what to expect.
 
-- How will this migration impact them?
+- How could this migration impact them?
 - Can they continue to work during the migration?
 - When does the migration start and how long could it last?
 - What's the new URL to access the new site, plus any other details about the new tenant?
