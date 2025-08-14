@@ -235,7 +235,7 @@ To add the Microsoft 365 LTI app to Brightspace's activity bar for quick access,
 1. Select the **LinkId variable** name.
 1. On the **LinkId configuration** screen, select **Add Value** to select an **Org Unit** and paste the numeric Link ID value you collected previously.
 1. You need to repeat this for each Org Unit you wish to use the **Quicklinks Activity Bar**.
-1. To have this setting applied to descendent org types of those you added, you can edit the **Cascading Org Unit Types** and select which types and in which order the settings will apply.
+1. To have this setting applied to descendant org types of those you added, you can edit the **Cascading Org Unit Types** and select which types and in which order the settings will apply.
 
 ## First-time configuration by an LMS administrator
 
