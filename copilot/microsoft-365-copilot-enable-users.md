@@ -15,6 +15,7 @@ ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 description: Enterprise and company IT admins can send a Microsoft 365 Copilot welcome email to users and enable feedback. This welcome email is part of the Copilot adoption and onboarding process.
 appliesto:
 - ✅ Microsoft 365 Copilot

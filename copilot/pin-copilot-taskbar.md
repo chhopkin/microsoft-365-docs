@@ -21,6 +21,7 @@ ms.collection:
 - Adm_TOC
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 ---
 
 # Pin Microsoft 365 Copilot app to the Windows taskbar

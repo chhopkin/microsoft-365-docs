@@ -3,6 +3,7 @@ title: Manage your skills library in People Skills
 description: How to manage the skills library settings
 author: kwekuako
 ms.author: kwekua
+ms.collection: operations-pod
 ms.service: microsoft-365-copilot
 manager: dansimp
 ms.topic: article
