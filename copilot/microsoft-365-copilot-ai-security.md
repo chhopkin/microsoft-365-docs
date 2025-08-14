@@ -95,13 +95,13 @@ Copilot's layered security model addresses traditional and emerging threats, inc
 - Unauthenticated image URLs, where a user generates an image containing sensitive data, extracts the URL using browser tools, and then shares the image externally. If the image is accessible without authentication, it could bypass enterprise controls, such as [Conditional Access](/entra/identity/conditional-access/overview) or [sensitivity labels](/purview/sensitivity-labels#sensitivity-labels-for-microsoft-365-copilot-and-microsoft-365-copilot-chat).
 - Malicous images, such as QR codes, where a user in one tenant generates a malicious image and shares an anonymous URL with users in another tenant. If the a URL isn't protected by authentication, access controls might not be enforced. 
 
-To mitigate this, Microsoft applies its defense-in-depth strategy. This includes continuous monitoring for data leakage vectors, adversarial misuse, and unauthorized access patterns. 
+To mitigate such scenarios, Microsoft applies its defense-in-depth strategy. This strategy includes continuous monitoring for data leakage vectors, adversarial misuse, and unauthorized access patterns. 
 
-Microsoft 365 Copilot-generated content is governed by the same access controls and compliance policies as other Microsoft 365 content. This means that user permissions, sensitivity labels, and Conditional Access policies are enforced at the point of content generation and access.
+Microsoft 365 Copilot generated content is governed by the same access controls and compliance policies as other Microsoft 365 content. This means that user permissions, sensitivity labels, and Conditional Access policies are enforced at the point of content generation and access.
 
 ### Privacy and compliance by design
 
-Microsoft 365 Copilot adheres to enterprise-grade privacy and compliance standards. Key safeguards are described in the following sections.
+Microsoft 365 Copilot adheres to enterprise-grade [privacy and compliance standards](microsoft-365-copilot-privacy.md). Key safeguards are described in the following sections.
 
 #### Data access enforcement
 
@@ -115,7 +115,7 @@ Copilot only accesses data the user is authorized to view and can't retrieve or 
 
 #### Encryption and isolation
 
-Data is encrypted in transit and at rest using FIPS 140-2–compliant technologies, with tenant-level isolation. Double Key Encryption (DKE) ensures Microsoft can't access protected content without the customer's key.
+Data is encrypted in transit and at rest using FIPS 140-2–compliant technologies, with tenant-level isolation. [Double Key Encryption](/purview/double-key-encryption) (DKE) ensures Microsoft can't access protected content without the customer's key.
 
 #### Compliance tooling
 
