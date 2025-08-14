@@ -12,39 +12,42 @@ ms.date: 08/14/2025
 
 # Copilot Control System overview
 
-The Copilot Control System is a framework of integrated controls and capabilities for Copilot and agents. It's designed to help you secure data, manage Copilot and agent experiences, and measure and analyze adoption and impact across your organization. It provides a governance structure for the use of Microsoft 365 Copilot, Copilot Chat, Microsoft Copilot Studio, and agents in your enterprise.
+The Copilot Control System is a framework of integrated controls and capabilities for Copilot and agents. Use it to help secure data, manage Copilot and agent experiences, and measure and analyze adoption and impact across your organization. It provides a governance structure for the use of Microsoft 365 Copilot, Copilot Chat, Microsoft Copilot Studio, and agents in your enterprise.
 
 :::image type="content" source="media/copilot-control-system-overview.png" alt-text="A diagram of the Copilot Control System framework showing the three pillars.":::
 
-Three main pillars make up the Copilot Control System:
+The Copilot Control System consists of three main pillars:
 
 - Security and governance
 - Management controls
 - Measurement and reporting
 
+> [!TIP]
+> As a framework, Copilot Control System is a conceptual model for how to structure your organization's approach to AI. These articles provide an overview and key points for each pillar, which then link out to supporting content with more detailed information and implementation instructions.
+
 ## Prerequisites
 
 > *If this section is needed, make Prerequisites your first H2 in the article. Use clear and unambiguous language and use an unordered list format.*
 
-> **?? Do we include here and risk duplication?** Or link to other content like [Microsoft 365 Copilot adoption guide and overview for IT admins](../microsoft-365-copilot-enablement-resources.md).
+> Link out to upcoming minimum requirements articles for Copilot Chat, M365 Copilot, and agents.
 
 ## Key capabilities
 
-<!-- Add a table with a list and definitions of key capabilities used in the solution. The table should also list any pre-requisites or required licenses for each capability. You can also link to more details about licensing or pre-requisites. -->
-
-The following table outlines the key capabilities of each pillar of the Copilot Control System. It also includes the primary components that you'll use to support each pillar.
+The following table outlines the key capabilities of each pillar of the Copilot Control System. It also includes the primary components that you use to support each pillar.
 
 | Pillar | Capabilities | Components |
 |---------|---------|---------|
-| [Security and governance](security-governance.md) | - Data security<br>- AI security<br>- Compliance & privacy | - SharePoint Advanced Management<br>- Microsoft Purview<br>- Microsoft Defender for Cloud Apps |
-| [Management controls](management-controls.md) | - Licensing & metering<br>- Agent lifecycle<br>- Customization | - M365 admin center<br>- Power Platform admin Center<br>- Copilot Studio |
-| [Measurement and reporting](measurement-reporting.md) | - Readiness & adoption<br>- Productivity impact<br>- Business value & ROI | - Copilot Analytics in Microsoft Viva<br>- M365 admin center<br>- Power Platform admin Center |
+| [Security and governance](security-governance.md) | - Data security<br>- AI security<br>- Compliance and privacy | - SharePoint Advanced Management<br>- Microsoft Purview<br>- Microsoft Defender for Cloud Apps |
+| [Management controls](management-controls.md) | - Licensing and metering<br>- Agent lifecycle<br>- Customization | - Microsoft 365 admin center<br>- Power Platform admin Center<br>- Copilot Studio |
+| [Measurement and reporting](measurement-reporting.md) | - Readiness and adoption<br>- Productivity impact<br>- Business value and return on investment (ROI) | - Copilot Analytics in Microsoft Viva<br>- Microsoft 365 admin center<br>- Power Platform admin Center |
 
 ## Process overview
 
 > *Required: Process overview (H2)*
 >
 > *Use an H2 section to introduce the steps that are needed to get going with the solution. Use H3s to describe steps to set up/configure the solution.*
+>
+> Do we include this? Do we include links? Do we move each main step to the top of the pillar articles with links to subsections? 🤔
 
 ### Step 1: Security and governance actions
 
@@ -81,12 +84,14 @@ For more information, see [Measurement & reporting in Copilot Control System](me
 
 ## End user guidance and support
 
-We have lots of resources on Microsoft Support to help you get your entire organization on board and help end users adopt the new processes. There are short videos, articles specific to each Microsoft 365 app, AI prompting information, and other training resources.
+[Microsoft Support](https://support.microsoft.com/copilot-skilling) offers many resources to help you get your entire organization on board and help users adopt the new processes. You'll find short videos, articles specific to each Microsoft 365 app, AI prompting information, and other training resources.
 
 For more information, see [Microsoft 365 Copilot help & learning](https://support.microsoft.com/copilot-skilling).
 
 ## Related content
 
-- [Related article title]
-- [Transparency note for Microsoft 365 Copilot](../microsoft-365-copilot-transparency-note.md)
+- [Security and governance](security-governance.md)
+- [Management controls](management-controls.md)
+- [Measurement and reporting](measurement-reporting.md)
 - [Copilot Control System - Microsoft Adoption](https://adoption.microsoft.com/copilot/control-system/)
+- [Transparency note for Microsoft 365 Copilot](../microsoft-365-copilot-transparency-note.md)
