@@ -11,12 +11,13 @@ ms.topic: concept-article
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
 ms.collection:
-- M365-subscription-management 
+- M365-subscription-management
 - Adm_O365
 - must-keep
 - trust-pod
 - feedback-content
 ms.custom: campaignIDs-batch1
+hideEdit: true
 description: "Learn about feedback your users can send to Microsoft about Microsoft products."
 ---
 

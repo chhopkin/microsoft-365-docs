@@ -1,9 +1,9 @@
 ---
 title: Selecting knowledge for Microsoft 365 Copilot Tuning
 description: Learn how to prepare and select the right knowledge sources when fine-tuning Microsoft 365 Copilot, including required document types, data limitations, and best practices.
-author: msplants
-ms.author: jwolk
-manager: calvind
+author: kwekuako
+ms.author: kwekua
+manager: dansimp
 ms.topic: concept-article
 ms.date: 07/17/2025
 ms.localizationpriority: medium
