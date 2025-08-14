@@ -111,7 +111,7 @@ You now have a tool registration configured in the Microsoft registration portal
 
 1. In Brightspace, navigate to **Admin Tools** > **External Learning Tools**.
 
-1. Select **Microsoft Education**.
+1. Select **Microsoft 365 LTI**.
 
 1. Scroll down to select **View Links**.
 
