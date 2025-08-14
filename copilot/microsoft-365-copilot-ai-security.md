@@ -94,25 +94,25 @@ To mitigate this, Microsoft applies its defense-in-depth strategy. This includes
 
 Microsoft 365 Copilot-generated content is governed by the same access controls and compliance policies as other Microsoft 365 content. This means that user permissions, sensitivity labels, and Conditional Access policies are enforced at the point of content generation and access.
 
-#### Privacy and compliance by design
+### Privacy and compliance by design
 
 Microsoft 365 Copilot adheres to enterprise-grade privacy and compliance standards. Key safeguards are described in the following sections.
 
-##### Data access enforcement
+#### Data access enforcement
 
 Copilot respects Microsoft Entra ID permissions and Microsoft Purview policies. This includes strict access controls and sensitivity label inheritance. Policies are enforced via [Microsoft Entra ID](/entra/fundamentals/whatis), [Microsoft Purview](/purview/purview), and [Conditional Access](/entra/identity/conditional-access/overview).
 
 Copilot connectors enhance the value of Copilot while maintaining the same enterprise-grade protections.
 
-##### Access is user-centric
+#### Access is user-centric
 
 Copilot only accesses data the user is authorized to view and can't retrieve or act on content the user can't access directly. 
 
-##### Encryption and isolation
+#### Encryption and isolation
 
 Data is encrypted in transit and at rest using FIPS 140-2–compliant technologies, with tenant-level isolation. Double Key Encryption (DKE) ensures Microsoft can't access protected content without the customer's key.
 
-##### Compliance tooling
+#### Compliance tooling
 
 Microsoft Purview Audit and eDiscovery log and surface Copilot interactions. Compliance Manager maps controls to GDPR, HIPAA, DORA, and the EU AI Act. 
 
