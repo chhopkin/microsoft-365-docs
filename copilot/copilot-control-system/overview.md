@@ -1,13 +1,13 @@
 ---
 title: "Copilot Control System overview"
-description: "Overview of CCS."
+description: "Learn about the Copilot Control System framework to secure, manage, and measure Microsoft 365 Copilot, Copilot Chat, Copilot Studio, and agents in your organization."
 author: aczechowski
 ms.author: aaroncz
 manager: dansimp
 ms.reviewer: bensum
 ms.service: microsoft-365-copilot
 ms.topic: solution-overview
-ms.date: 08/06/2025
+ms.date: 08/14/2025
 ---
 
 # Copilot Control System overview

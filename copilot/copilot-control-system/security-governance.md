@@ -1,13 +1,13 @@
 ---
 title: "Security and governance in Copilot Control System"
-description: "Use the security and governance framework of Copilot Control System to handle data security, compliance, and risks associated with Microsoft 365 Copilot, Copilot Chat, Microsoft Copilot Studio, and agents."
+description: "Learn how to implement data security, AI security, and compliance controls using the Copilot Control System framework for Microsoft 365 Copilot and agents."
 author: aczechowski
 ms.author: aaroncz
 manager: dansimp
 ms.reviewer: bensum
 ms.service: microsoft-365-copilot
 ms.topic: solution-overview
-ms.date: 08/06/2025
+ms.date: 08/14/2025
 ---
 
 # Security and governance in Copilot Control System
@@ -103,5 +103,7 @@ For more information, see [Use Zero Trust security to prepare for Copilot](/secu
 - [Data, Privacy, and Security for Microsoft 365 Copilot](../microsoft-365-copilot-privacy.md)
 
 - [SharePoint Advanced Management](/sharepoint/advanced-management)
+
+- [Microsoft Purview](/purview/ai-microsoft-purview)
 
 - [Copilot Control System - Microsoft Adoption](https://adoption.microsoft.com/copilot/control-system/)
