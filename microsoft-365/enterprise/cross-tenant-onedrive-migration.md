@@ -81,20 +81,20 @@ Any legal URL is accepted when creating your Identity Map from Source to Target 
 
 ## OneDrive account size limits
 
-Each OneDrive account can have a maximum of five TB of content or one million items.
+Each OneDrive account can have a maximum of 5 TB of content or one million items.
 
 > [!IMPORTANT]
-> The one million item limit can be any *item*, including files (and versions), folders, and list line entries if it's a list or library.
+> The 1 million item limit can be any *item*, including files (and versions), folders, and list line entries if it's a list or library.
 >
->If you attempt to migrate any OneDrive site that exceeds the five terabyte quota, the transfer fails.
+>If you attempt to migrate any OneDrive site that exceeds the five-terabyte quota, the transfer fails.
 
 ## Multi-Geo
 
-You can migrate sites directly into individual satellite geo instances as needed. When working with multi-geo environments, additional planning and configuration need to be considered.  
+You can migrate sites directly into individual satellite geo instances as needed. When you work with multi-geo environments, additional planning and configuration need to be considered.  
 
 - Trust configurations need to be established between all source and target instances that are part of the migration. 
 - The identity mapping file must be uploaded to every target instance.
-- When migrating in multi-geo environments, each source instance is subject to the 4,000 queue size limit, regardless of the number of target tenants.
+- When you migrate in multi-geo environments, each source instance is subject to the 4,000 queue size limit, regardless of the number of target tenants.
 - Establishing multiple trusts allows you to move sites directly into a geo instance of choice.
 
 ## Permissions
