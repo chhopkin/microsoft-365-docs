@@ -16,7 +16,7 @@ ms.collection:
 search.appverid: MET150
 description: "Step 2 of the SharePoint Cross-tenant migration feature"
 ---
-# Step 2: Establishing trust between the source and target tenants
+# Step 2: Establishing trust between the source and target tenants (SharePoint)
 
 <!-- >[!Note]
 >Cross-Tenant SharePoint migration is currently in a private preview stage of development. As an unfinished project, any information or availability is subject to change at any time. Support for private-preview customers will be handled via email. Cross-Tenant SharePoint migration is covered by //the preview terms of the [Microsoft Universal License Terms for Online Services](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all).-->
@@ -25,7 +25,7 @@ This is Step 2 in a solution designed to complete a Cross-tenant SharePoint migr
 
 - Step 1: [Connect to the source and the target tenants](cross-tenant-SharePoint-migration-step1.md)
 - **Step 2: [Establish trust between the source and the target tenant](cross-tenant-SharePoint-migration-step2.md)**
-- Step 3: [Verify trust has been established](cross-tenant-SharePoint-migration-step3.md)
+- Step 3: [Verify trust is established](cross-tenant-SharePoint-migration-step3.md)
 - Step 4: [Precreate users and groups](cross-tenant-SharePoint-migration-step4.md)
 - Step 5: [Prepare identity mapping](cross-tenant-SharePoint-migration-step5.md)
 - Step 6: [Start a Cross-tenant SharePoint migration](cross-tenant-SharePoint-migration-step6.md)
@@ -33,7 +33,7 @@ This is Step 2 in a solution designed to complete a Cross-tenant SharePoint migr
 
 After connecting to the source and target tenant, the next step in performing a cross-tenant SharePoint migration is establishing trust between the tenants.
 
-To establish trust, each SharePoint tenant administrator must run specific commands on both source and target tenants. Once the trust has been requested, the administrator of the target tenant will receive an email informing them that another tenant is trying to establish a trust relationship.
+To establish trust, each SharePoint tenant administrator must run specific commands on both source and target tenants. Once the trust is requested, the administrator of the target tenant receives an email informing them that another tenant is trying to establish a trust relationship.
 
 > [!NOTE]
 > The "trust" command is specific to SharePoint. It only grants permission for the SharePoint administrator on the source tenant to execute SharePoint Migration operations to the identified target tenant.
@@ -99,4 +99,4 @@ The following in an example of the email that is sent to global admins:
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
-## Step 3: [Verify that trust has been established](cross-tenant-SharePoint-migration-step3.md)
+## Step 3: [Verify that trust is established](cross-tenant-SharePoint-migration-step3.md)
