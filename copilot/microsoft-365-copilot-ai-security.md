@@ -21,38 +21,27 @@ appliesto:
 
 # AI security for Microsoft 365 Copilot
 
-AI security is foundational to our approach at Microsoft; it safeguards sensitive data, supports system integrity, and supports responsible AI use. This commitment aligns with our broader principles of privacy, compliance, and trust. This article outlines Microsoft's approach to securing Copilot and provides guidance for customers to strengthen their own AI security posture.
+AI security is foundational to our approach at Microsoft; it safeguards customer data, supports system integrity, and includes user safety features. This commitment aligns with our broader principles of privacy, compliance, and trust. This article outlines Microsoft's approach to securing Copilot and provides guidance to strengthen your AI security posture.
 
 ## What Microsoft does to secure Microsoft 365 Copilot
 
 Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level, grounded in enterprise-grade security, privacy, and compliance standards. This means that if one layer is breached, others still provide protection. Our approach is guided by the Office of Responsible AI and reinforced by our recently expanded Secure Future Initiative.
 
-### Four key pillars
+Our comprehensive security posture for AI includes:
 
-Our comprehensive security posture for AI has the following pillars:
-
-- Responsible AI development
 - Secure engineering and development practices
 - Threat intelligence and risk mitigation
 - Privacy and compliance by design
 
 Each aspect of this foundation forms a safer digital ecosystem for our customers to confidently adopt AI features and tools.
 
-#### Responsible AI development
+### Secure engineering and development practices
 
-Microsoft embeds its Responsible AI principle-based governance across the entire AI lifecycle to ensure systems are developed and deployed ethically and securely. This strategy helps ensure AI behaves in ways that are trustworthy, responsible, and in alignment with user expectations. These principles are reflected in our transparency documentation. 
-
-To prevent harmful or inappropriate outputs, Microsoft 365 Copilot uses classifiers and metaprompting to detect unsafe prompts and responses to keep behavior in alignment with Microsoft's Responsible AI principles and remains within intended use cases.
-
-Microsoft provides development tools such as content filters, prompt evaluation frameworks, and risk templates to help engineers build secure, trustworthy Copilot experiences aligned with Responsible AI principles.
-
-#### Secure engineering and development practices
-
-Security is integrated from the ground up through our Security Development Lifecycle (SDL). This ensures that vulnerabilities are identified and mitigated early in the development process. We also provide tailored security guidance and best practices for developers, engineers, and security professionals working with Microsoft AI technologies.
+Security is integrated from the ground up through our Security Development Lifecycle (SDL). This integration ensures that vulnerabilities are identified and mitigated early in the development process. Microsoft also provides tailored security guidance and best practices for developers, engineers, and security professionals working with Microsoft AI technologies.
 
 Microsoft conducts internal red teaming and commissions third-party assessments that include penetration testing to evaluate Copilot implementations against traditional vulnerabilities and the Open Web Application Security Project (OWASP) Top 10 for LLMs. 
 
-##### Execution controls
+#### Execution controls
 
 Microsoft 365 Copilot enforces secure coding and architectural safeguards to prevent misuse, including ransomware generation and remote code execution. Malicious patterns are blocked through prompt inspection and content filtering, while sandboxing ensures Copilot operates within constrained execution boundaries.
 
