@@ -41,7 +41,7 @@ If you're an Enterprise Agreement customer purchasing Cross-Tenant User Content 
 - Licenses are offered on a per 100 GB of data moved basis.
 
 >[!Note]
-> To find out how many licenses are needed to migrate your given data: Get the StorageUsed for each SharePoint Site you are migrating via with this tool and sum it up (values are in bytes). A grace storage limit of 20% is given in the scenario the sites grow in storage used.
+> To find out how many licenses are needed to migrate your given data: Get the StorageUsed for each SharePoint Site you are migrating via with this tool and sum it up (values are in bytes). A grace storage limit of 20 percent is given in the scenario the sites grow in storage used.
 
 ```
 Get-SPOSite -Limit <String> | Select-Object Url, StorageUsageCurrent
@@ -51,7 +51,7 @@ Get-SPOSite -Limit <String> | Select-Object Url, StorageUsageCurrent
 
 - **Microsoft SharePoint Online Powershell**. Confirm you have the most recent version installed. [Download SharePoint Online Management Shell from Official Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=35588)
 
-- **Confirm that the source SharePoint tenant does not have Service encryption with Microsoft Purview Customer Key enabled.** If enabled on Source tenant, the migration fails.  [Learn more on Service encryption with Microsoft Purview Customer Key](/microsoft-365/compliance/customer-key-overview)
+- **Confirm that the source SharePoint tenant does not have Service encryption with Microsoft Purview Customer Key enabled.** If enabled on Source tenant, the migration fails. [Learn more on Service encryption with Microsoft Purview Customer Key](/microsoft-365/compliance/customer-key-overview)
 
 - Source SharePoint sites must be set to Read/Write. If set to Read only, the migration fails.
 
@@ -63,13 +63,13 @@ Get-SPOSite -Limit <String> | Select-Object Url, StorageUsageCurrent
 >
 >- Target Microsoft 365 Groups for group-connected SharePoint site migrations **can't** be linked to existing SharePoint sites. Target Microsoft 365 groups must be pre-created in a specific way.
 >
->Before starting any migrations, make certain that your source SharePoint sites are set to Read/write mode. If they are set to read-only, the migration fails.
+>- Before starting any migrations, make certain that your source SharePoint sites are set to Read/write mode. If they are set to Read-only, the migration fails.
 >
 >- Each individual SharePoint site being migrated must have no more than 5 TB of storage, or 1 million items. If during a migration of multiple sites a site with more than 5 TB is encountered, that site will eventually timeout and fail. Sites less 5 TB continue until completion.
 >
 >- The 1 million item limit can be any "item", including files (including versions), folders, and list line entries if it's a list or library.
 >
->- Ensure all users and groups identified for migration are pre-created on the target tenant.
+>- Ensure all users and groups identified for migration are precreated on the target tenant.
 >- Assign the appropriate licenses to each user on either the Source **or** the Target tenant. **The license doesn't need to be applied in both locations.**
 
 ## Path size limits
@@ -124,7 +124,7 @@ If you're migrating a site with Apps, you must republish and potentially modify 
 
 ### PowerApps/PowerAutomate
 
-PowerApps and Automation Tasks must be re-created and reconnected to the Site on the target tenant.
+PowerApps and Automation Tasks must be recreated and reconnected to the Site on the target tenant.
 
 ### Web Parts
 
@@ -168,7 +168,7 @@ You can schedule SharePoint site migrations in advance but consider the followin
 
 - **Step 1:** [Connect to the source and the target tenants](cross-tenant-onedrive-migration-step1.md).  
 - **Step 2:** [Establish trust between the source and the target tenant](cross-tenant-onedrive-migration-step2.md)
-- **Step 3:** [Verify trust has been established](cross-tenant-onedrive-migration-step3.md)
+- **Step 3:** [Verify trust is established](cross-tenant-onedrive-migration-step3.md)
 - **Step 4:** [Precreate users and groups](cross-tenant-sharepoint-migration-step4.md)  
 - **Step 5:** [Prepare identity mapping](cross-tenant-sharepoint-migration-step5.md)
 - **Step 6:** [Start a Cross-tenant SharePoint migration](cross-tenant-sharepoint-migration-step6.md)
