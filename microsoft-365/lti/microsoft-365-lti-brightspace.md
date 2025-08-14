@@ -204,17 +204,17 @@ You now have a tool registration configured in the Microsoft registration portal
 1. Select **Save and Close**.
 
 ## Turn on the new Microsoft 365 LTI app on the Quicklinks Activity Bar
- 
-The Micrsoft 365 LTI app is now available to users, and the older OneDrive app can now be turned off (if ready to migrate over).
 
-1. Navigate to **dmin > Config Variable Browser**.
+The Microsoft 365 LTI app is now available to users, and the older OneDrive app can now be turned off (if ready to migrate over).
+
+1. Navigate to **Admin > Config Variable Browser**.
 1. Locate the variable titled **d2l.3rdParty.OneDrive.EnableOneDrivePicker** and set the value to **off**.
 
 To add the Microsoft 365 LTI app to Brightspace's activity bar for quick access, you need to set an org unit **Config Variable** to the link ID of the LTI app.
- 
+
 > [!NOTE]
-> You'll need to repeat these steps for every org ID (or parent org ID) where you want the Microsoft 365 LTI app to appear in the activity bar.
- 
+> You need to repeat these steps for every org ID (or parent org ID) where you want the Microsoft 365 LTI app to appear in the activity bar.
+
 **To collect the Link ID:**
 
 1. Navigate to **Admin Tools** by selecting the gear icon at the top right.
@@ -257,7 +257,7 @@ Learn more about Microsoft 365 LTI application scenarios for Instructors and Stu
 
 - Popups shouldn't be blocked for Microsoft apps.
 
-If you receive an error message regarding cookies being blocked, check your browser's address bar for an icon to allow third-party cookies and popups. If this issue persists, review your settings related to cookies and popups to make sure they are allowed for this app.
+If you receive an error message regarding cookies being blocked, check your browser's address bar for an icon to allow third-party cookies and popups. If this issue persists, review your settings related to cookies and popups to make sure they're allowed for this app.
 
 ## Getting help and giving feedback
 
