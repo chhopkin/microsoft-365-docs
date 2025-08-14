@@ -2,22 +2,22 @@
 title: "Deploy add-ins in the admin center"
 f1.keywords:
 - NOCSH
-ms.author: efrene
-author: efrene
-manager: scotv
+ms.author: kwekua
+author: kwekuako
+manager: dansimp
 ms.date: 03/31/2025
 audience: Admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier3
 - scotvorg
-- M365-subscription-management 
+- M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
 - Adm_TOC
-ms.custom: 
+ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 - AdminTemplateSet

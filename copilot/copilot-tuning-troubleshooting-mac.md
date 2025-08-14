@@ -1,10 +1,11 @@
 ---
 title: "Troubleshoot the Microsoft 365 Admin Center task fine-tuning"
 f1.keywords:
-ms.author: emrek
-author: emrekiciman
-manager: calvind
+ms.author: kwekua
+author: kwekuako
+manager: dansimp
 ms.date: 07/17/2025
+ms.update-cycle: 180-days
 audience: Admin
 ms.topic: troubleshooting
 ms.service: microsoft-365-copilot

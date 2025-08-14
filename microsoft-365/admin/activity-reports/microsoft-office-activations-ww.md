@@ -1,14 +1,14 @@
 ---
 title: "Microsoft 365 admin center Office activations reports"
-ms.author: efrene
+ms.author: cmcatee
 author: efrene
-manager: scotv
+manager: dansimp
 ms.date: 03/04/2024
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier2
 - scotvorg
 - M365-subscription-management
