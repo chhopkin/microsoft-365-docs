@@ -17,7 +17,7 @@ search.appverid: MET150
 description: "Step 4 of the OneDrive Cross-tenant migration feature, involving group precreation."
 ---
 
-# Step 4: Precreating users and groups
+# Step 4: Precreate users and groups
 
 This article is Step 4 in a solution designed to complete a Cross-tenant OneDrive migration. To learn more, see [Cross-tenant OneDrive migration overview](cross-tenant-onedrive-migration.md).
 
