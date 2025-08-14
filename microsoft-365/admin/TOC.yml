@@ -468,26 +468,28 @@ items:
       href: ../commerce/index.yml
     - name: Secure your organization
       items: 
-        - name: Increase threat protection for Microsoft 365 for business
-          href: security-and-compliance/increase-threat-protection.md
-        - name: GDPR simplified - A guide for your small business
-          href: security-and-compliance/gdpr-compliance.md
-        - name: Secure Microsoft 365 Copilot for small businesses
-          href: security-and-compliance/m365b-copilot-security.md
-        - name: Microsoft 365 for business security best practices
-          href: security-and-compliance/m365b-security-best-practices.md
         - name: Microsoft 365 for business security overview
           href: security-and-compliance/m365b-security-overview.md
         - name: What's new in security in Microsoft 365 for business
           href: security-and-compliance/m365b-security-whats-new.md
-        - name: Add Microsoft 365 E5 Security to Microsoft 365 Business Premium
-          href: security-and-compliance/m365bp-add-m365e5s.md
-        - name: Set up information protection in Microsoft 365 Business Premium
-          href: security-and-compliance/m365bp-information-protection.md
-        - name: Why should I choose Microsoft 365 Business Premium?
-          href: security-and-compliance/m365bp-security-benefits.md
-        - name: Monitor Microsoft 365 Business Premium and Defender for Business
-          href: security-and-compliance/m365bp-security-monitor.md
+        - name: Get started
+          items:
+          - name: Increase threat protection for Microsoft 365 for business
+            href: security-and-compliance/increase-threat-protection.md
+          - name: Microsoft 365 for business security best practices
+            href: security-and-compliance/m365b-security-best-practices.md
+          - name: Set up information protection in Microsoft 365 Business Premium
+            href: security-and-compliance/m365bp-information-protection.md
+          - name: Why should I choose Microsoft 365 Business Premium?
+            href: security-and-compliance/m365bp-security-benefits.md
+          - name: Monitor Microsoft 365 Business Premium and Defender for Business
+            href: security-and-compliance/m365bp-security-monitor.md
+          - name: Add Microsoft 365 E5 Security to Microsoft 365 Business Premium
+            href: security-and-compliance/m365bp-add-m365e5s.md
+          - name: Secure Microsoft 365 Copilot for small businesses
+            href: security-and-compliance/m365b-copilot-security.md
+          - name: GDPR simplified - A guide for your small business
+            href: security-and-compliance/gdpr-compliance.md
         - name: Account security
           items:
             - name: Multi-factor authentication in Microsoft 365
@@ -500,9 +502,9 @@ items:
               href: security-and-compliance/priority-accounts.md
         - name: Email & Collaboration security
           items:
-            - name: Overview of email and collaboration security
-              href: security-and-compliance/email-collaboration-security-overview.md
-            - name: Protect against phishing, spam, and malware
+            - name: Email and collaboration security in Microsoft 365 for business
+              href: security-and-compliance/m365b-devices-basic-mobility-security-overview.md
+            - name: Protect users against phishing and other attacks in Microsoft 365 for business
               href: security-and-compliance/m365b-users-phishing-spam-malware.md
         - name: Device security
           items:
