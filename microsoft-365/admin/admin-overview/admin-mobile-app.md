@@ -73,9 +73,6 @@ The admin app has a lot of capabilities that allows you to manage Microsoft 365 
 
 If you're an admin and you're responsible for more than one Microsoft 365 organization, you can sign in to multiple organizations and quickly switch between them. The app supports dark theme and is available in 39 languages.
   
-> [!IMPORTANT]
-> If you're having issues using the Admin mobile app on iOS or Android, email us at [feedback365@microsoft.com](mailto:feedback365@microsoft.com) to let us know.
-
 ## Frequently asked questions
 
 Below are answers to frequently asked questions.
