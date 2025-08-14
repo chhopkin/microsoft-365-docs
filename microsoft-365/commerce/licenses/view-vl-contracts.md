@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: scotv
+manager: dansimp
 ms.reviewer: aasthatiwari, atuldubey
 audience: Admin
 ms.topic: how-to

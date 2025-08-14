@@ -9,14 +9,16 @@ audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-business-security
 ms.date: 07/11/2024
+ms.update-cycle: 180-days
 ms.localizationpriority: medium
 ms.reviewer:
 f1.keywords: NOCSH
 ms.collection:
- - essentials-security
- - essentials-privacy
- - essentials-compliance
- - magic-ai-copilot
+- essentials-security
+- essentials-privacy
+- essentials-compliance
+- magic-ai-copilot
+- trust-pod
 ms.custom:
 ---
 

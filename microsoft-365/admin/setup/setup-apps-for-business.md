@@ -2,15 +2,15 @@
 title: "Set up Microsoft 365 Apps for business"
 f1.keywords:
 - NOCSH
-ms.author: efrene
-author: efrene
-manager: scotv
+ms.author: kwekua
+author: kwekuako
+manager: dansimp
 ms.date: 06/21/2024
 audience: Admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier2
 - scotvorg
 - highpri

@@ -4,7 +4,7 @@ description: Learn how to deploy the Microsoft 365 Learning Tool Interoperabilit
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
-ms.date: 07/14/2025
+ms.date: 08/01/2025
 audience: admin
 ms.topic: how-to
 ms.service: msteams
@@ -52,7 +52,7 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
 1. Log into Brightspace as an Administrator or Super Administrator with permission to **Manage Extensibility** and **External Tools**.
 
-1. In Brightspace, navigate to **Admin Tools** **(gear icon)** > **Manage Extensibility** and then select the **Register Tool** button.
+1. In Brightspace, navigate to **Admin Tools** **(gear icon)** > **Manage Extensibility**, select the **LTI Advantage** tab, and then select the **Register Tool** button.
 
 1. Select the **Standard** registration radio button and enter the values listed in the table:
 
@@ -103,11 +103,9 @@ You now have a tool registration configured in the Microsoft registration portal
 1. In Configuration Settings, select **Grades created by LTI will be included in Final Grade** and **Auto Create Grade Items**. Make sure that **Open as External Resource** is **not** checked.
     :::image type="content" source="./media/brightspace-configuration-settings.png" alt-text="Screenshot of configuration settings." border="true":::
 
-1. Select **Add Org Units**. Select the orgs you wish to deploy to, or the **root org** or **all** units to deploy the app for all orgs.
+1. Select **Add Org Units**. Select the orgs you wish to deploy to, or the **root org** or **all** units to deploy the app for all orgs by searching for the Organization name and selecting **All Descendants**
 
-1. Select **Create Deployment** and confirm the deployment.
-
-1. From the deployments list, select the **Microsoft** **Education** deployment, scroll down to **Deployment Id** at the bottom, and save this value and its name, as it also is required in the Microsoft Registration portal.
+1. Select **Create Deployment** and confirm the deployment. A pop-up appears, showing the Deployment ID. Save it with the Name chosen on step 3, as it will be required in the Microsoft Registration Portal.
 
 **To add links to the Microsoft Education tools in your D2L Brightspace courses:**
 
@@ -157,7 +155,7 @@ You now have a tool registration configured in the Microsoft registration portal
 
 1. Navigate to **Admin Tools** > **Navigation and Themes**.
 
-1. Select **Standard Course Navigation** and then **Add Links**.
+1. Select the Navbar that you wish to modify and then **Add Links**.
 
 1. Select **Create Custom Link**.
 
@@ -171,7 +169,7 @@ You now have a tool registration configured in the Microsoft registration portal
 
 1. Ensure that the **Microsoft Education** checkbox is selected, and then select **Add**.
 
-1. Drag the Teams Assignments link to your preferred location in the course navigation.
+1. Drag the Teams Assignments link to your preferred location in the Navbar.
 
 1. Select **Save and Close**.
 
@@ -181,8 +179,8 @@ You must launch the app for the first time as a user with the **Brightspace Syst
 
 1. As a Brightspace System Administrator, access any Course that has the Microsoft Education link added.
 
-1. Continue with the **Microsoft 365 LTI first-time configuration steps** to complete the configuration for your organization.
-<!-- -->
+1. Continue with the [**Microsoft 365 LTI first-time configuration steps**](microsoft-365-lti-first-time-configuration.md) to complete the configuration for your organization.
+
 ## Ongoing use by instructors and students in a course
 
 On first access, users must sign in using their Microsoft 365 (Microsoft Entra) account.
@@ -197,12 +195,12 @@ Learn more about Microsoft 365 LTI application scenarios for Instructors and Stu
 
 If you receive an error message regarding cookies being blocked, check your browser's address bar for an icon to allow third-party cookies and popups. If this issue persists, review your settings related to cookies and popups to make sure they are allowed for this app.
 
-## Getting help for admins and educators
+## Getting help and giving feedback
 
 - LMS and Microsoft 365 admins can contact Microsoft [Education Support](https://aka.ms/edusupport) to help resolve configuration and deployment issues, for themselves or on behalf of users.
 
 - Educators and Learners can contact support or give feedback directly from the app through the help and feedback menu.
 
-:::image type="content" source="./media/feedback.png" alt-text="Screenshot of link to send feedback for Microsoft Teams Assignments." border="true":::
+:::image type="content" source="./media/help-and-feedback.png" alt-text="Screenshot of link to send feedback for Microsoft 365 LTI." border="true":::
 
 Learning Tools Interoperability® (LTI®) is a trademark of the 1EdTech Consortium, Inc. (**[**1edtech.org**](https://1edtech.org)**)

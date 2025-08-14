@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: scotv
+manager: dansimp
 ms.reviewer: enuviadenu, socheng
 audience: Admin
 ms.topic: article
