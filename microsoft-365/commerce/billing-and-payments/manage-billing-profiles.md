@@ -135,19 +135,23 @@ You can view the roles assigned to users for a billing account and related billi
 
 To export the information shown in the **Related billing role assignments** pane, select **Export to CSV**.
 
-## Manage payment method
+## Manage payment methods for billing profiles
 
 You can manage the payment method used to pay for all purchases and transactions under a billing profile. You can use the following options to add or replace a payment method.
 
-- **Add.** This option allows the user to add a new payment method, excluding wire transfer.
-- **Replace.** Use this option to change to another payment method already added, including when the account is approved to pay using wire transfer.
+- **Edit.** Use this option to change the name, billing address, or expiration date for an existing payment method..
+- **Replace.** Use this option to change to an existing payment method, or add a new one, including when the account is approved to pay using wire transfer.
 
 ### Edit a payment method
 
-If you are the owner of the payment method on the billing profile you can update the payment instrument details.
+If you're the owner of the payment method on the billing profile you can update the payment method details.
 
-1. Select **Edit**.  This opens the **Edit payment method** panel.
-1. Enter the updated card details, then select **Save**.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Billing accounts</a> page.
+2. On the **Overview** tab, select a billing account.
+3. On the billing account details page, select the **Billing profiles** tab.
+4. Select a billing profile name to view its details page.
+5. In the **Invoice and billing notifications** section, under **Payment method**, select **Edit**. This opens the **Edit payment method** panel.
+6. Enter the updated card details, then select **Save**.
 
 ### Replace a payment method
 
