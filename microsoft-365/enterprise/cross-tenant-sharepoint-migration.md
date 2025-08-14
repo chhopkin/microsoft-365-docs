@@ -23,7 +23,7 @@ description: "Learn about the Cross-tenant SharePoint migration solution to migr
 
 SharePoint sites can now be moved from one tenant to another using the Cross-tenant SharePoint migration feature.
 
-Using *SharePoint Online PowerShell*, SharePoint Admins can transition sites into their new tenants.
+SharePoint Admins can transition sites into their new tenants using *SharePoint Online PowerShell*.
 
 Up to 4,000 SharePoint accounts can be scheduled for migration in advance at a given time. Once scheduled, migrations occur without content ever leaving the Microsoft 365 cloud and with minimal disruption. When migrations are complete, a redirect is placed in the location of the user's original SharePoint site, so any links to files and folders can continue working in the new location.
 
@@ -61,28 +61,28 @@ Get-SPOSite -Limit <String> | Select-Object Url, StorageUsageCurrent
 >
 >- Don't create any target SharePoint sites before starting your migration. If the site already exists on the target tenant, the migration fails. **You can't overwrite or merge an existing site.**
 >
->- Target Microsoft 365 Groups for group-connected SharePoint site migrations **can't** be linked to existing SharePoint sites. Target Microsoft 365 groups must be pre-created in a specific way.
+>- Target Microsoft 365 Groups for group-connected SharePoint site migrations **can't** be linked to existing SharePoint sites. Target Microsoft 365 groups must be precreated in a specific way.
 >
->- Before starting any migrations, make certain that your source SharePoint sites are set to Read/write mode. If they are set to Read-only, the migration fails.
+>- Before starting any migrations, make certain that your source SharePoint sites are set to Read/write mode. If they're set to Read-only, the migration fails.
 >
->- Each individual SharePoint site being migrated must have no more than 5 TB of storage, or 1 million items. If during a migration of multiple sites a site with more than 5 TB is encountered, that site will eventually timeout and fail. Sites less 5 TB continue until completion.
+>- Each individual SharePoint site being migrated must have no more than 5 TB of storage, or 1 million items. If during a migration of multiple sites a site with more than 5 TB is encountered, that site will eventually time out and fail. Sites less 5 TB continue until completion.
 >
->- The 1 million item limit can be any "item", including files (including versions), folders, and list line entries if it's a list or library.
+>- The 1 million item limit can be any item, including files (including versions), folders, and list line entries if it's a list or library.
 >
 >- Ensure all users and groups identified for migration are precreated on the target tenant.
 >- Assign the appropriate licenses to each user on either the Source **or** the Target tenant. **The license doesn't need to be applied in both locations.**
 
 ## Path size limits
 
-Microsoft character path limit cannot exceed 400 characters. We recommend shortening your Target User and Site URL names to stay within the character limit.
+Microsoft character path limit can't exceed 400 characters. We recommend shortening your Target User and Site URL names to stay within the character limit.
 
-Consider the length of User and Site ULR names in your Target tenant when planning your migrations. Longer user and site URL names may result in migrations failing. Remember that the source's file or folder path name is combined with the new user or site name on the Target. Make sure that total doesn't exceed the 400-character path limit.
+Consider the length of User and Site ULR names in your Target tenant when you plan your migrations. Longer user and site URL names may result in migrations failing. Remember that the source's file or folder path name is combined with the new user or site name on the Target. Make sure that total doesn't exceed the 400-character path limit.
 
 If your migration fails, rename the User or Site URL. Alternatively, work with the user to rename or move the affected files or folders higher up the directory structure to ensure it remains under the character path limit. Once resolved, you should be able to complete the migration.
 
 ## Multi-Geo
 
-You can migrate sites directly into individual satellite geo instances as needed. When working with multi-geo environments, more planning and configuration need to be considered.
+You can migrate sites directly into individual satellite geo instances as needed. When you work with multi-geo environments, more planning and configuration need to be considered.
 
 - Trust configurations need to be established between all source and target instances that are part of the migration. 
 - The identity mapping file must be uploaded to every target instance.
@@ -146,7 +146,7 @@ In order to migrate sites containing Sensitivity labels with *user-defined permi
 
 ## Communicating with your users
 
-When migrating SharePoint sites between tenants, it's important to communicate to your users what to expect.
+When you migrate SharePoint sites between tenants, it's important to communicate to your users what to expect.
 
 - How will this migration impact them?
 - Can they continue to work during the migration?
