@@ -71,24 +71,7 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
 1. A modal with Brightspace registration details appears. **Copy these names and values as they need to be entered into the Microsoft Registration Portal to complete registration.** You can return to the registration to copy the values later if needed.
 
-**To save the values obtained from Brightspace in the Microsoft tool registration portal:**
-
-1. On the **LMS provided registration keys** tab, select **Next** to navigate to **LMS provided registration keys**. Enter the values listed in the table that were copied from Brightspace in the previous steps.
-
-    | **Microsoft registration field** | **Brightspace registration value** |
-    |---|---|
-    | **Issuer ID URL** | Issuer |
-    | **Client ID** | Client ID |
-    | **Keyset URL** | Brightspace Keyset URL |
-    | **Platform authentication URL** | OpenID Connect Authentication Endpoint |
-    | **Deployment ID** | Deployment ID |
-    | **Access Token URL** | Brightspace OAuth2 Access Token URL |
-
-1. Select **Next**, review the **Review and save** page, and then select **Save and exit** to complete the update.
-
-You now have a tool registration configured in the Microsoft registration portal and both a registration and a deployment of the tool in Brightspace. The next steps create links in Brightspace to add to courses.
-
-**To add a deployment of Microsoft Teams Assignments in your D2L Brightspace courses:**
+**To add a deployment of Microsoft Education in your D2L Brightspace courses:**
 
 1. Navigate to **Admin Tools** > **External Learning Tools**.
 
@@ -106,6 +89,23 @@ You now have a tool registration configured in the Microsoft registration portal
 1. Select **Add Org Units**. Select the orgs you wish to deploy to, or the **root org** or **all** units to deploy the app for all orgs by searching for the Organization name and selecting **All Descendants**
 
 1. Select **Create Deployment** and confirm the deployment. A pop-up appears, showing the Deployment ID. Save it with the Name chosen on step 3, as it will be required in the Microsoft Registration Portal.
+
+**To save the values obtained from Brightspace in the Microsoft tool registration portal:**
+
+1. On the **LMS provided registration keys** tab, select **Next** to navigate to **LMS provided registration keys**. Enter the values listed in the table that were copied from Brightspace in the previous steps.
+
+    | **Microsoft registration field** | **Brightspace registration value** |
+    |---|---|
+    | **Issuer ID URL** | Issuer |
+    | **Client ID** | Client ID |
+    | **Keyset URL** | Brightspace Keyset URL |
+    | **Platform authentication URL** | OpenID Connect Authentication Endpoint |
+    | **Deployment ID** | Deployment ID |
+    | **Access Token URL** | Brightspace OAuth2 Access Token URL |
+
+1. Select **Next**, review the **Review and save** page, and then select **Save and exit** to complete the update.
+
+You now have a tool registration configured in the Microsoft registration portal and both a registration and a deployment of the tool in Brightspace. The next steps create links in Brightspace to add to courses.
 
 **To add links to the Microsoft Education tools in your D2L Brightspace courses:**
 
@@ -161,7 +161,7 @@ You now have a tool registration configured in the Microsoft registration portal
 
 1. Enter **Microsoft Education** as the **Name**.
 
-1. For the **URL**, select **Insert Quicklink**, and then **Teams Assignments**.
+1. For the **URL**, select **Insert Quicklink**, and then **Microsoft Education**.
 
 1. Select **Same window** for **Behavior**.
 
@@ -169,7 +169,7 @@ You now have a tool registration configured in the Microsoft registration portal
 
 1. Ensure that the **Microsoft Education** checkbox is selected, and then select **Add**.
 
-1. Drag the Teams Assignments link to your preferred location in the Navbar.
+1. Drag the Microsoft Education link to your preferred location in the Navbar.
 
 1. Select **Save and Close**.
 
