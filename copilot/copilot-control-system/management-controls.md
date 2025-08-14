@@ -94,7 +94,7 @@ The system provides visibility into the status, governance, and lifecycle of age
 
 For more information on managing agents, see the following articles:
 
-- [Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center](../../microsoft-365/admin/manage/manage-copilot-agents-integrated-apps.md)
+- [Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps)
 
 - [Track, manage, and scale Copilot adoption in the Power Platform](/power-platform/admin/copilot/copilot-hub)
 
@@ -110,6 +110,6 @@ Beyond the management controls already discussed in this article, use the **Copi
 
 - [Manage Microsoft 365 Copilot scenarios in the Microsoft 365 admin center](../microsoft-365-copilot-page.md)
 
-- [Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center](../../microsoft-365/admin/manage/manage-copilot-agents-integrated-apps.md)
+- [Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps)
 
 - [Copilot Control System - Microsoft Adoption](https://adoption.microsoft.com/copilot/control-system/)
