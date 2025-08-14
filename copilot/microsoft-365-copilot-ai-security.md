@@ -71,7 +71,7 @@ In the event of a successful injection attempt, Copilot's architecture ensures c
 
 #### Audit and eDiscovery
 
-Microsoft Purview captures Copilot interactions for auditing and eDiscovery. Defender for Cloud and AI-SPM provides visibility into AI workloads, plugin usage, and risk scoring. Compliance Manager maps Copilot controls to regulatory frameworks such as GDPR, HIPAA, and the EU AI Act.
+[Microsoft Purview](/purview/purview) captures Copilot interactions for auditing and eDiscovery. Defender for Cloud and AI-SPM provides visibility into AI workloads, plugin usage, and risk scoring. Compliance Manager maps Copilot controls to regulatory frameworks such as GDPR, HIPAA, and the EU AI Act.
 
 #### Prompt injection defenses
 
