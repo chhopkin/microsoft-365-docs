@@ -3,7 +3,7 @@ title: OneDrive Cross-tenant OneDrive migration Step 4
 ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
-ms.date: 04/14/2025
+ms.date: 08/14/2025
 recommendations: true
 audience: ITPro
 ms.topic: how-to
@@ -29,7 +29,6 @@ This article is Step 4 in a solution designed to complete a Cross-tenant OneDriv
 - Step 6: [Start a Cross-tenant OneDrive migration](cross-tenant-onedrive-migration-step6.md)
 - Step 7: [Post migration steps](cross-tenant-onedrive-migration-step7.md)
 
-
 ## Identify users and groups to be migrated
 
 To ensure that OneDrive permissions are retained as part of the migration, a mapping file needs to be created to align users from the source tenant to the target tenant.
@@ -49,16 +48,17 @@ To ensure that OneDrive permissions are retained as part of the migration, a map
 
 ## For tenants with Multi-Geo
 
-When creating M365 group objects, it is recommended that you assign the group to the geo instance the site will be migrated to at the time of creation. The “MailboxRegion” will be used to set the residency of the group object. 
+When creating M365 group objects, we recommend you assign the group to the geo instance the site's to be migrated to at the time of creation. The "MailboxRegion" is used to set the residency of the group object. 
 
    ```powershell
    New-UnifiedGroup -DisplayName MultiGeoEUR -Alias "MultiGeoEUR" -AccessType Public -MailboxRegion EUR
    ```
->[!Note]
->If the group site will be outside the default instance, the MailboxRegion (PDL) must be set.
->For more information refer to [Create a Microsoft 365 Group with a specific preferred data location - Microsoft 365 Enterprise | Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/enterprise/multi-geo-add-group-with-pdl) 
 
->[!Note]
+>[!NOTE]
+>If the group site will be outside the default instance, the MailboxRegion (PDL) must be set.
+>For more information see [Create a Microsoft 365 Group with a specific preferred data location](https://learn.microsoft.com/microsoft-365/enterprise/multi-geo-add-group-with-pdl).
+
+>[!NOTE]
 >To learn more on restricting OneDrive site creation, see [Disable OneDrive creation for some users](/sharepoint/manage-user-profiles#disable-onedrive-creation-for-some-users).
 
 ## Step 5: [Prepare the identity mapping file](cross-tenant-onedrive-migration-step5.md)
