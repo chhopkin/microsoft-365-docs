@@ -7,12 +7,12 @@ manager: dansimp
 ms.reviewer: bensum
 ms.service: microsoft-365-copilot
 ms.topic: solution-overview
-ms.date: 08/06/2025
+ms.date: 08/14/2025
 ---
 
 # Measurement and reporting in Copilot Control System
 
-Copilot Control System measurement and reporting capabilities help you to understand adoption and business impact of Microsoft 365 Copilot, Copilot Chat, and agents. These capabilities primarily come together as part of [Copilot Analytics](/viva/insights/copilot-analytics-introduction). The main component of Copilot Analytics is the [Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard), which provides actionable insights. There are also advanced reporting tools available in the [Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview), [Viva Insights](/viva/insights/advanced/introduction-to-advanced-insights), and the [Power Platform admin center](/power-platform/admin/).
+Copilot Control System measurement and reporting capabilities help you understand adoption and business impact of Microsoft 365 Copilot, Copilot Chat, and agents. These capabilities primarily come together as part of [Copilot Analytics](/viva/insights/copilot-analytics-introduction). The main component of Copilot Analytics is the [Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard), which provides actionable insights. You can also access advanced reporting tools in the [Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview), [Viva Insights](/viva/insights/advanced/introduction-to-advanced-insights), and the [Power Platform admin center](/power-platform/admin/).
 
 :::image type="content" source="media/measurement-reporting.png" alt-text="A diagram of the Copilot Control System framework highlighting the Measurement and Reporting pillar.":::
 
@@ -27,11 +27,13 @@ The measurement and reporting pillar of the Copilot Control System focuses on th
 
 - Readiness and adoption
 - Productivity impact
-- Business value and ROI
+- Business value and return on investment (ROI)
 
 ## How it works
 
-Copilot Analytics is a reporting system that you can use right away and customize for your organization's unique needs. To keeping your data secure and compliant, it's built within the Microsoft security trust boundary. It incorporates the following key data elements:
+Copilot Analytics is a reporting system that you can use right away and customize for your organization's unique needs. Your data is stored within the Microsoft security trust boundary, which keeps it secure and compliant.
+
+Copilot Analytics incorporates the following key data elements:
 
 - Copilot usage data
 - Agent usage data
@@ -40,13 +42,13 @@ Copilot Analytics is a reporting system that you can use right away and customiz
 
 You can also upload your own business metrics from non-Microsoft products such as SAP, Salesforce, or Workday.
 
-Copilot Analytics centralizes all of this data into a reporting platform where it's transformed, cleaned, and properly formatted. It can then present insights to you in a private, secure manner through various reports and visualizations, including the Copilot Dashboard, Microsoft 365 Admin Center, and Copilot Studio.
+Copilot Analytics centralizes all of this data into a reporting platform where the system transforms, cleans, and properly formats the data. It can then present insights to you in a private, secure manner through various reports and visualizations. You can view the outcomes in the Copilot Dashboard, Microsoft 365 admin center, and Copilot Studio.
 
 ## Readiness and adoption
 
-To help you prepare for Copilot and agent deployment and track adoption, there are several reports that offer insights into usage trends and adoption across your organization. These reports help you manage license assignments, activation groups, and usage telemetry.
+To help you prepare for Copilot and agent deployment and track adoption, several reports offer insights into usage trends and adoption across your organization. These reports help you manage license assignments, activation groups, and usage data.
 
-They also provide operational metrics like agent billing, usage and spend rates, and success rates of agent performance. There are also deeper insights into how users use Copilot features across Microsoft 365, such as summarizing meeting notes, drafting emails, or creating presentations.
+They also provide operational metrics like agent billing, usage and spend rates, and success rates of agent performance. You get deeper insights into how users use Copilot features across Microsoft 365. For example, you see how users summarize meeting notes, draft emails, or create presentations.
 
 The following image shows a brief example of the **Adoption** tab of the Copilot Dashboard in Viva Insights:
 
@@ -58,27 +60,26 @@ Use the **Analytics** tab in Copilot Studio to get insights into specific agents
 
 ## Productivity impact
 
-The productivity-focused reporting helps you understand how AI is transforming the way your organization works. The **Impact** tab of the Copilot Dashboard shows metrics for workplace patterns and collaboration trends. If you review this data over time, it can reveal shifts in behavior, such as time spent in meetings, sending emails, or chatting in Teams.
+Productivity-focused reporting helps you understand how AI transforms the way your organization works. The **Impact** tab of the Copilot Dashboard shows metrics for workplace patterns and collaboration trends. If you review this data over time, it can reveal shifts in behavior, such as time spent in meetings, sending emails, or chatting in Teams.
 
-Additionally, the dashboard provides tools to understand employee sentiment around AI's impact. It combines both qualitative data and quantitative data from Pulse and Glint surveys to offer a comprehensive view. You can also compare your organization to industry benchmarks.
+Additionally, the dashboard provides tools to understand user sentiment around AI's impact. It combines both qualitative data and quantitative data from Pulse and Glint surveys to offer a comprehensive view. You can also compare your organization to industry benchmarks.
 
 The following image shows a brief example of the **Impact** tab of the Copilot Dashboard in Viva Insights:
 
 :::image type="content" source="media/viva-insights-copilot-dashboard-impact.png" alt-text="Screenshot of the Microsoft Copilot Dashboard in Viva Insights, showing the Impact tab." lightbox="media/viva-insights-copilot-dashboard-impact-large.png":::
 
-There are also two reports in the Microsoft 365 admin center for Copilot and Copilot Chat usage. For more information, see the following articles:
+The Microsoft 365 admin center also provides two reports for Copilot and Copilot Chat usage. For more information, see the following articles:
 
 - [Microsoft 365 Copilot usage report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage)
 - [Microsoft 365 Copilot Chat usage report](/microsoft-365/admin/activity-reports/microsoft-copilot-usage)
 
 ## Business value and ROI
 
-See and measure the impact AI has on your bottom line. Evaluate Copilot and agent usage and see how it relates to your organization's KPIs in areas like Sales, Service, Finance, Marketing, and more. Learn more with the 
+To better measure the business value of Copilot and agents, integrate your key business metrics. This advanced reporting lets you customize analysis specific to your organization. Based on learnings from these custom insights, make adjustments to your deployment and usage plans to improve impact.
 
-Measure the ROI of Copilot and agents with your own business metrics and access these deeper insights in advanced reporting.
+:::image type="content" source="media/business-impact-report.png" alt-text="Screenshot of a business impact report, specifically Agent impact for a human resources support agent." lightbox="media/business-impact-report.png":::
 
-
-[Copilot Business Impact Report](/viva/insights/advanced/analyst/templates/copilot-business-impact).
+For more information, see [Copilot Business Impact Report](/viva/insights/advanced/analyst/templates/copilot-business-impact).
 
 ## Related content
 
