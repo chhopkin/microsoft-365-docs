@@ -468,23 +468,52 @@ items:
       href: ../commerce/index.yml
     - name: Secure your organization
       items: 
-        - name: Multi-factor authentication in Microsoft 365
-          href: security-and-compliance/multi-factor-authentication-microsoft-365.md
-        - name: Set up multi-factor authentication
-          href: security-and-compliance/set-up-multi-factor-authentication.md
-        - name: Manage and monitor priority accounts
-          href: security-and-compliance/priority-accounts.md
         - name: Increase threat protection for Microsoft 365 for business
           href: security-and-compliance/increase-threat-protection.md
-        - name: Turn on Idle session timeout
-          href: manage/idle-session-timeout-web-apps.md
-        - name: A guide to GDPR compliance
+        - name: GDPR simplified - A guide for your small business
           href: security-and-compliance/gdpr-compliance.md
-
-        - name: Overview
+        - name: Secure Microsoft 365 Copilot for small businesses
+          href: security-and-compliance/m365b-copilot-security.md
+        - name: Microsoft 365 for business security best practices
+          href: security-and-compliance/m365b-security-best-practices.md
+        - name: Microsoft 365 for business security overview
+          href: security-and-compliance/m365b-security-overview.md
+        - name: What's new in security in Microsoft 365 for business
+          href: security-and-compliance/m365b-security-whats-new.md
+        - name: Add Microsoft 365 E5 Security to Microsoft 365 Business Premium
+          href: security-and-compliance/m365bp-add-m365e5s.md
+        - name: Set up information protection in Microsoft 365 Business Premium
+          href: security-and-compliance/m365bp-information-protection.md
+        - name: Why should I choose Microsoft 365 Business Premium?
+          href: security-and-compliance/m365bp-security-benefits.md
+        - name: Monitor Microsoft 365 Business Premium and Defender for Business
+          href: security-and-compliance/m365bp-security-monitor.md
+        - name: Account security
           items:
+            - name: Multi-factor authentication in Microsoft 365
+              href: security-and-compliance/multi-factor-authentication-microsoft-365.md
+            - name: Set up multi-factor authentication
+              href: security-and-compliance/set-up-multi-factor-authentication.md
+            - name: Admin account security in Microsoft 365 for business
+              href: security-and-compliance/m365b-account-security-admins.md
+            - name: Manage and monitor priority accounts
+              href: security-and-compliance/priority-accounts.md
+        - name: Email & Collaboration security
+          items:
+            - name: Overview of email and collaboration security
+              href: security-and-compliance/email-collaboration-security-overview.md
+            - name: Protect against phishing, spam, and malware
+              href: security-and-compliance/m365b-users-phishing-spam-malware.md
         - name: Device security
           items:
+          - name: Device protection in Microsoft 365 Business Premium
+            items:
+            - name: Microsoft Intune and Microsoft Defender for Business
+              href: security-and-compliance/m365bp-devices-protection.md
+            - name: Device management and application management in Microsoft 365 Business Premium
+              href: security-and-compliance/m365bp-devices-enrollment.md
+            - name: Device groups and Microsoft Intune categories in Microsoft 365 Business Premium
+              href: security-and-compliance/m365bp-devices-groups-categories.md
           - name: Basic Mobility and Security
             items:
             - name: Overview of Basic Mobility and Security
@@ -507,9 +536,8 @@ items:
             href: /DeployOffice/manage-software-download-settings-office-365?toc=/microsoft-365/admin/security-and-compliance/toc.json&bc=/microsoft-365/admin/security-and-compliance/breadcrumb/toc.json
           - name: Manage user consent to apps
             href: misc/user-consent.md
-          - name: Business Premium
-            items:
-
+          - name: Turn on Idle session timeout
+            href: manage/idle-session-timeout-web-apps.md
     - name: Switch from Google Workspace to M365
       items:
         - name: Overview

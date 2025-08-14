@@ -24,7 +24,7 @@ appliesto:
   - ✅ <a href="https://m365forcampaigns.microsoft.com/" target="_blank">Microsoft 365 for Campaigns</a>
 ---
 
-# Microsoft Intune device management and application management in Microsoft 365 Business Premium
+# Device management and application management in Microsoft 365 Business Premium
 
 An important part of your security strategy in Microsoft 365 Business Premium is protecting the computers, tablets, and phones that are used to access company data. Business Premium includes Microsoft Intune Plan 1, a comprehensive device management solution that allows you to enroll, monitor, and manage devices. For more information, see [Microsoft Intune overview](/intune/intune-service/fundamentals/what-is-intune).
 
@@ -32,7 +32,7 @@ Devices managed by Intune are typically **company-owned devices**, but they can 
 
 Intune provides two basic strategies for managing devices that access company data:
 
-- **Mobile device management (MDM)**: The organization controls all aspects of the device. After the device is enrolled in Intune, admins can install apps, allow or block enrollment by platform, block personal devices, and more. If the device is ever lost or stolen, you can remotely remove *all data* from the device. The enrolled device is said to be *managed*.
+- **Mobile device management (MDM)**: The organization controls all aspects of the device. After the device is enrolled in Intune, admins can install apps, allow or block enrollment by platform, block personal devices, and more. If the device is ever lost or stolen, you can remotely wipe the device. The enrolled device is said to be *managed*.
 
   We always recommend MDM for company-owned devices. For instructions in this article, see [Mobile device management in Intune for device protection](#mobile-device-management-using-intune-for-device-protection)
 
