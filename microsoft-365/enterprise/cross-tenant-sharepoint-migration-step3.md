@@ -16,13 +16,13 @@ ms.collection:
 search.appverid: MET150
 description: "Step 3 of the SharePoint Cross-tenant migration feature"
 ---
-# Step 3: Verifying trust
+# Step 3: Verifying trust (SharePoint)
 
 This article is Step 3 in a solution designed to complete a **Cross-tenant SharePoint migration.** To learn more, see [Cross-tenant SharePoint migration overview](cross-tenant-SharePoint-migration.md).
 
 - Step 1: [Connect to the source and the target tenants](cross-tenant-SharePoint-migration-step1.md)
 - Step 2: [Establish trust between the source and the target tenant](cross-tenant-SharePoint-migration-step2.md) 
-- **Step 3: [Verify trust has been established](cross-tenant-SharePoint-migration-step3.md)** 
+- **Step 3: [Verify trust is established](cross-tenant-SharePoint-migration-step3.md)** 
 - Step 4: [Pre-create users and groups](cross-tenant-SharePoint-migration-step4.md)  
 - Step 5: [Prepare identity mapping](cross-tenant-SharePoint-migration-step5.md)
 - Step 6: [Start a Cross-tenant SharePoint migration](cross-tenant-SharePoint-migration-step6.md)
@@ -30,7 +30,7 @@ This article is Step 3 in a solution designed to complete a **Cross-tenant Share
 
 Before proceeding with your migration,  you need to verify the trust is complete. A status of *GoodToProceed* confirms that the trust is verified.
 
-## To verify trust has been established
+## To verify trust is established
 
 1. On the **source tenant** run:
  
