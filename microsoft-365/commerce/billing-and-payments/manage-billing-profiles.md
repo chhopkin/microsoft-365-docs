@@ -140,7 +140,7 @@ To export the information shown in the **Related billing role assignments** pane
 You can manage the payment method used to pay for all purchases and transactions under a billing profile. You can use the following options to add or replace a payment method.
 
 - **Edit.** Use this option to change the name, billing address, or expiration date for an existing payment method..
-- **Replace.** Use this option to change to an existing payment method, or add a new one, including when the account is approved to pay using wire transfer.
+- **Replace.** Use this option to change to an existing payment method, or add a new one. If you're approved to pay by using a wire transfer, you can use this option to add account information for the wire transfer.
 
 ### Edit a payment method
 
@@ -157,10 +157,15 @@ If you're the owner of the payment method on the billing profile you can update 
 
 Use this option to change the payment method used to pay for subscriptions and services purchased with this billing profile
 
-1. Select **Replace**. This opens the **Replace payment method** panel.
-1. The **Use another payment method** contains the payment methods that you own. If the account has been approved to pay with wire transfer, this setting is where a wire transfer can be set as the default payment method. For information on the wire transfer approval process, see [Paying by Wire Transfer](/microsoft-365/commerce/billing-and-payments/pay-for-your-subscription#paying-by-wire-transfer).
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Billing accounts</a> page.
+2. On the **Overview** tab, select a billing account.
+3. On the billing account details page, select the **Billing profiles** tab.
+4. Select a billing profile name to view its details page.
+5. In the **Invoice and billing notifications** section, under **Payment method**, select **Replace**. This opens the **Replace payment method** panel.
+6. The **Use another payment method** drop-down list contains the payment methods that you own. If the account is approved to pay with a wire transfer, this is where a wire transfer can be set as the default payment method. For information on the wire transfer approval process, see [Paying by Wire Transfer](/microsoft-365/commerce/billing-and-payments/pay-for-your-subscription#paying-by-wire-transfer).
+7. Enter the new payment method details, then select **Save**.
 
-1. You can also add a new payment method by using the **Add payment method** link under the **New payment method** drop down.
+You can also add a new payment method by using the **Add payment method** link under the **New payment method** drop down.
 
 ## Related content
 
