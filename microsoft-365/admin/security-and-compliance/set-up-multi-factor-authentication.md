@@ -26,7 +26,7 @@ ms.custom:
 - adminvideo
 - business_assist
 description: "Learn how to set up multifactor authentication for your organization."
-monikerRange: 'o365-worldwide'
+monikerRange: o365-worldwide
 ---
 
 # Set up multifactor authentication for Microsoft 365

@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn how to craft agent instructions for the Employee Self-Service agent that align with your organization's needs.
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # How to craft agent instructions for high-quality responses in Employee Self-Service
