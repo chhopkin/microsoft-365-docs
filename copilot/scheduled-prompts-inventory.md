@@ -2,10 +2,11 @@
 title: "Inventory for scheduled prompts"
 f1.keywords:
 - NOCSH
-ms.author: camillepack
-author: camillepack
+ms.author: aaroncz
+author: aczechowski
 manager: dansimp
 ms.date: 06/02/2025
+ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-copilot

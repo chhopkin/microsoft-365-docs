@@ -1,10 +1,10 @@
 ---
 title: "Manage your Microsoft business billing profiles"
 f1.keywords:
-- 'MACBillingBillsPaymentsBillingProfiles'
+- MACBillingBillsPaymentsBillingProfiles
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: scotv
+manager: dansimp
 ms.reviewer: jkinma, ramagane
 audience: Admin
 ms.topic: how-to
@@ -16,7 +16,7 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-ms.custom: 
+ms.custom:
 - commerce_billing
 - admindeeplinkMAC
 - AdminSurgePortfolio
