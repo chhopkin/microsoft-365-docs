@@ -45,7 +45,7 @@ Microsoft conducts internal red teaming and commissions third-party assessments 
 
 Microsoft 365 Copilot enforces secure coding and architectural safeguards to prevent misuse, including ransomware generation and remote code execution. Malicious patterns are blocked through prompt inspection and content filtering, while sandboxing ensures Copilot operates within constrained execution boundaries.
 
-#### Threat intelligence and risk mitigation
+### Threat intelligence and risk mitigation
 
 Microsoft 365 Copilot is protected by a multi-layered defense strategy that combines global threat intelligence, AI-specific detection, and architectural containment. Microsoft uses global threat intelligence to monitor adversarial attacks, model manipulation, and data leakage.  
 
@@ -61,19 +61,19 @@ Microsoft 365 Copilot mitigates XPIA and agentic vulnerabilities through layered
 
 These protections prevent unauthorized actions and data exfiltration across Copilot surfaces, and are deployed automatically through Microsoft's cloud infrastructure without customer action required. This also includes continuous testing and containment strategies.
 
-##### Containment by design
+#### Containment by design
 
-Even in the event of a successful injection attempt, Copilot's architecture ensures containment by design. Copilot operates within the user's identity and access context, limiting the blast radius of any potential compromise. 
+In the event of a successful injection attempt, Copilot's architecture ensures containment by design. Copilot operates within the user's identity and access context, limiting the blast radius of any potential compromise. 
 
 - Copilot operates within the user's identity and tenant context
 - Copilot only accesses data the user is authorized to view
-- All interactions are scoped to existing permissions, preventing lateral movement or unauthorized data access.
+- All interactions are scoped to existing permissions, preventing lateral movement or unauthorized data access
 
-##### Audit and eDiscovery
+#### Audit and eDiscovery
 
 Microsoft Purview captures Copilot interactions for auditing and eDiscovery. Defender for Cloud and AI-SPM provides visibility into AI workloads, plugin usage, and risk scoring. Compliance Manager maps Copilot controls to regulatory frameworks such as GDPR, HIPAA, and the EU AI Act.
 
-##### Prompt injection defenses
+#### Prompt injection defenses
 
 Multi-layered protections include classifiers for jailbreak detection, input/output filtering, and containment strategies. These protections also defend against encoding-based prompt injection (for example, ROT13 or Base64) through:
 
@@ -81,7 +81,7 @@ Multi-layered protections include classifiers for jailbreak detection, input/out
 - Runtime filters that decode and inspect content before LLM processing
 - Regular red teaming to simulate and mitigate encoding-based attacks
 
-##### Data exfiltration prevention
+#### Data exfiltration prevention
 
 Copilot's layered security model addresses traditional and emerging threats, including scenarios with potential for data exfiltration through unauthenticated image URLS where users generate an image containing sensitive data, extract the URL using browser tools and share externally. If the image is accessible without authentication, it may bypass enterprise controls such as Conditional Access or sensitivity labels. 
 
