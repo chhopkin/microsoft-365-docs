@@ -182,8 +182,6 @@ Hate and fairness-related harms refer to any content that uses pejorative or dis
 
 In addition to content filtering provided by the Azure OpenAI Service, Microsoft 365 Copilot also applies filters to help prevent workplace harms from happening. Workplace harms refers to a category of harms that can result from generative AI or models making inferences, judgments, or evaluations about an employee based on their workplace communication. Currently, that means inferences, judgments, or evaluations about an employee's performance, attitude, internal or emotional state, or personal characteristics. We restrict the use of generative AI or models from being used for these purposes.
 
-[Learn more about Azure OpenAI content filtering](/azure/ai-services/openai/concepts/content-filter?tabs=warning%2Cpython#harm-categories).
-
 ### Does Copilot provide protected material detection?
 
 Yes, Microsoft 365 Copilot provides detection for protected materials, which includes text subject to copyright and code subject to licensing restrictions. Not all of these mitigations are relevant for all Microsoft 365 Copilot scenarios.
