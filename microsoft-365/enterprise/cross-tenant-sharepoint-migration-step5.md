@@ -188,16 +188,16 @@ Get-SPOCrossTenantCompatibilityStatus -PartnerCrossTenantHostURL https://m365x12
 - If the tenant status shows as **Compatible** or **Warning**, you can then proceed with the next step of starting cross-tenant migrations.
 - If the tenant status shows as **Incompatible**, your tenants need to be patched/updated to ensure compatibility.
 
-|Status|Can proceed with migration|
-|---|---|
-|Compatible|Yes|
-|Warning|Yes|
-|Incompatible|No|
+|Status       |Can proceed with migration |
+|-------------|---------------------------|
+|Compatible   |Yes                        |
+|Warning      |Yes                        |
+|Incompatible |No                         |
 
 > [!IMPORTANT]
 > We recommend waiting a period of **48 hours**. If your tenants are still reporting as *incompatible*, contact support.
 >
-> We recommend performing the compatibility status check on a frequent basis before starting ANY instances of cross tenant migrations. If the tenants are incompatible, this incompatability can result in cross-tenant migrations failing.
+> We recommend performing the compatibility status check on a frequent basis before starting ANY instances of cross tenant migrations. If the tenants are incompatible, this incompatibility can result in cross-tenant migrations failing.
 
 
 ## Step 6: [Start a SharePoint cross-tenant migration](cross-tenant-SharePoint-migration-step6.md)
