@@ -1,17 +1,17 @@
 ---
 title: "Microsoft 365 admin center mailbox usage reports"
-ms.author: camillepack
+ms.author: cmcatee
 author: camillepack
-manager: scotv
+manager: dansimp
 ms.date: 11/27/2023
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier2
 - scotvorg
-- M365-subscription-management 
+- M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
 ms.custom: AdminSurgePortfolio

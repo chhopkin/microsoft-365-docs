@@ -2,9 +2,9 @@
 title: "Microsoft 365 admin center - Overview"
 f1.keywords:
 - NOCSH
-ms.author: efrene
-author: efrene
-manager: scotv
+ms.author: kwekua
+author: kwekuako
+manager: dansimp
 ms.date: 03/19/2025
 audience: Admin
 ms.topic: article
@@ -22,7 +22,7 @@ ms.custom:
 - AdminSurgePortfolio
 - adminvideo
 - admindeeplinkMAC
-monikerRange: 'o365-worldwide'
+monikerRange: o365-worldwide
 search.appverid:
 - BCS160
 - MET150
