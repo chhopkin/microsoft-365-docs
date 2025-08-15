@@ -25,7 +25,7 @@ This article is Step 1 in a solution designed to complete a **Cross-tenant Share
 
 - **Step 1: [Connect to the source and the target tenants](cross-tenant-SharePoint-migration-step1.md)**
 - Step 2: [Establish trust between the source and the target tenant](cross-tenant-SharePoint-migration-step2.md) 
-- Step 3: [Verify trust has been established](cross-tenant-SharePoint-migration-step3.md) 
+- Step 3: [Verify trust is established](cross-tenant-SharePoint-migration-step3.md) 
 - Step 4: [Precreate users and groups](cross-tenant-SharePoint-migration-step4.md)  
 - Step 5: [Prepare identity mapping](cross-tenant-SharePoint-migration-step5.md)
 - Step 6: [Start a Cross-tenant SharePoint migration](cross-tenant-SharePoint-migration-step6.md)
