@@ -2,9 +2,9 @@
 title: "Connect your DNS records at web.com to Microsoft 365"
 f1.keywords:
 - CSH
-ms.author: kvice
-author: kelleyvice-msft
-manager: scotv
+ms.author: kwekua
+author: kwekuako
+manager: dansimp
 ms.date: 08/21/2024
 audience: Admin
 ms.topic: how-to

@@ -4,8 +4,8 @@ f1.keywords:
 - CSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: scotv
-ms.reviewer: sinakassaw, nicholak
+manager: dansimp
+ms.reviewer: nicholak
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -13,7 +13,7 @@ ms.subservice: m365-commerce-acquisition
 ms.localizationpriority: medium
 ms.collection:
 - Tier1
-- scotvorg 
+- scotvorg
 - highpri
 - M365-subscription-management
 - Adm_O365
@@ -32,7 +32,7 @@ ms.custom:
 - campaignIDs-batch1
 search.appverid: MET150
 description: "Learn how to assign or unassign licenses for your users in the Microsoft 365 admin center."
-ms.date: 04/07/2025
+ms.date: 07/08/2025
 ---
 
 # Assign or unassign licenses for users in the Microsoft 365 admin center
