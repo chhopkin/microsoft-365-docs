@@ -99,7 +99,7 @@ When you replace an existing payment method, you can add a new one or use a paym
 If you have an MCA billing account type, you can replace the payment method currently linked with a billing profile. If you have an MOSA billing account type, you can replace the payment method associated with one or more subscriptions.
 
 > [!IMPORTANT]
-> Replacing a payment method doesn't delete the existing payment method. The old payment method is still available for you to select and use for other subscriptions and billing profiles. [Learn how to delete a payment method](https://learn.microsoft.com/microsoft-365/commerce/billing-and-payments/manage-payment-methods#delete-a-payment-method).
+> Replacing a payment method doesn't delete the existing payment method. The old payment method is still available for you to select and use for other subscriptions and billing profiles. [Learn how to delete a payment method](#delete-a-payment-method).
 
 1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>.
 
