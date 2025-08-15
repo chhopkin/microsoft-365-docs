@@ -4,7 +4,7 @@ description: Learn how to deploy the Microsoft 365 Learning Tool Interoperabilit
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
-ms.date: 07/14/2025
+ms.date: 08/14/2025
 audience: admin
 ms.topic: how-to
 ms.service: msteams
@@ -61,12 +61,13 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
     | **Field in Moodle** | **Value** |
     |---|---|
-    | **Tool name** | Teams Assignments |
+    | **Tool name** | Microsoft 365 LTI |
     | **Tool URL** | Copy the Target Link URL value from the Microsoft registration |
     | **LTI version** | LTI 1.3 |
     | **Initiate login URL** | Copy the Open ID connection URL value from the Microsoft registration |
     | **Redirection URIs** | Copy the Redirect URL value from the Microsoft registration |
     | **Custom Parameters** | t=$ResourceLink.title<br>csid=$CourseSection.sourcedId<br>usid=$Person.sourcedId |
+    | **Content Selection URL** | `https://lti.edu.cloud.microsoft/tool?launchType=courseAssignmentsUpload` |
     | **Secure icon URL** | `https://res.cdn.office.net/onedrivelti/public/favicon-32x32.png` |
 
 1. Check the **Supports Deep Linking (Content-Item Message)** box.
