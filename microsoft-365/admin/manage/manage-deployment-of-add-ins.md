@@ -33,7 +33,7 @@ description: "Learn to deploy add-ins to users and groups in your organization b
 # Deploy add-ins in the Microsoft 365 admin center
 
 > [!NOTE]
-> The [integrated apps portal](test-and-deploy-microsoft-365-apps.md) is the recommended and most feature-rich way for most customers to centrally deploy Office add-ins to users and groups within your organization. If that method is not available for your organization, use the add-in portal as described in this article. For information on which portal is best for your organization, see [Determine if centralized deployment of Office Add-ins works for your organization](centralized-deployment-of-add-ins.md).
+> The [integrated apps portal](test-and-deploy-microsoft-365-apps.md) is the recommended and most feature-rich way for most customers to centrally deploy Office add-ins to users and groups within your organization. If that method is not available for your organization, use the add-in portal as described in [Deploy an Office Add-in using the admin center](#deploy-an-office-add-in-using-the-admin-center) later in this article.
 
 Office Add-ins help you personalize your documents and streamline the way you access information on the web (see [Start using your Office Add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862)). As an admin, you can deploy Office Add-ins for the users in your organization by using the centralized deployment feature in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
 
@@ -78,7 +78,7 @@ Before you begin, see [Determine if centralized deployment of add-ins works for 
    :::image type="content" source="../../media/addanaddin.png" alt-text="Select Add-in" lightbox="../../media/addanaddin.png":::
 
    > [!NOTE]
-   > With the Appsource (store) option, updates and enhancements are automatically deployed to users.
+   > With the AppSource (store) option, updates and enhancements are automatically deployed to users.
 
 1. If you chose to upload a custom add-in, carry out the following steps.
 
@@ -145,7 +145,7 @@ When a manifest is updated, the typical changes are to an add-in's icon and text
   
 Updates for add-ins happen as follows:
   
-- **Line-of-business add-in**: In this case, where an admin uploaded a manifest, the admin must upload the new manifest file to support metadata changes. The next time a user starts the relevant Microsoft 365 productivity application, the add-in will update.
+- **Line-of-business (LOB) add-in**: In this case, where an admin uploaded a manifest, the admin must upload the new manifest file to support metadata changes. The next time a user starts the relevant Microsoft 365 productivity application, the add-in will update.
 
   > [!NOTE]
   > To deploy the update, select the LOB add-in and choose the **Update Button** in the bottom right corner.

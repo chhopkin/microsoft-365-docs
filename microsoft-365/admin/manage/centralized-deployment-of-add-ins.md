@@ -40,7 +40,7 @@ Centralized deployment provides the following benefits:
 - When the relevant Office application starts, the add-in automatically downloads. If the add-in supports add-in commands, the add-in automatically appears in the ribbon within the Microsoft 365 application.
 - Add-ins no longer appear for users if the admin turns off or deletes the add-in, or if the user is removed from Microsoft Entra ID or from a group that the add-in is assigned to.
 
-Centralized deployment supports three desktop platforms: Office on Windows, Mac, and the web. Centralized deployment also supports iOS and Android (Outlook Mobile Add-ins Only).
+Centralized deployment supports two platforms: Office on Windows and Mac. It also supports Office on the web. For Outlook Mobile Add-ins only, centralized deployment also supports iOS and Android.
 
 > [!IMPORTANT]
 > It can take up to 24 hours for an add-in to appear on all users' clients after it has been centrally deployed.

@@ -416,7 +416,7 @@ items:
               href: manage/manage-deployment-of-add-ins.md
             - name: Manage add-ins in the admin center 
               href: manage/manage-addins-in-the-admin-center.md      
-            - name: Centralized Deployment FAQ
+            - name: Centralized deployment FAQ
               href: manage/centralized-deployment-faq.yml
             - name: Deploy add-ins in GCC High environments
               href: manage/deploy-addins-for-gcch.md
