@@ -1,16 +1,16 @@
 ---
 title: "Microsoft 365 admin center – Microsoft 365 Copilot Chat usage"
-ms.author: camillepack
-author: camillepack
-manager: scotv
+ms.author: cmcatee
+author: cmcatee-MSFT
+manager: dansimp
 ms.date: 05/07/2025
+ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier2
-- scotvorg
 - M365-subscription-management
 - Adm_O365
 - m365copilot
@@ -72,7 +72,7 @@ You can view a table list to show each active user who accessed Microsoft 365 Co
 
 :::image type="content" source="../../media/microsoft-copilot-export.png" alt-text="Screenshot showing the table list of data for active users for Microsoft 365 Copilot Chat." lightbox="../../media/microsoft-copilot-export.png":::
 
-You can also export the report data into an Excel .csv file by selecting the **Export** link. This exports the Microsoft 365 Copilot Chat usage data of all users and enables you to do simple sorting, filtering, and searching for further analysis.
+You can also export the report data into an Excel .csv file by selecting the **Export** link. This action exports the Microsoft 365 Copilot Chat usage data of all users and enables you to do simple sorting, filtering, and searching for further analysis.
 
 ## User last activity table
 
@@ -87,13 +87,14 @@ You can also export the report data into an Excel .csv file by selecting the **E
 | **Last activity date of Microsoft 365 Copilot (app) (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Microsoft 365 Copilot (app). This date remains fixed even if the timeframe of the report is changed.  |
 | **Last activity date of Edge (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat from the sidebar in the Microsoft Edge browser. This date remains fixed even if the timeframe of the report is changed.  |
 
-## User-specific data de-anonymous/anonymous setting
+## Display user-specific data
 
-By default, usernames and display names in the Microsoft 365 Copilot Chat report are anonymous. Global administrators can update settings to unconceal or conceal usernames and display names.
+By default, usernames and display names in Copilot Search usage reports are anonymous. Global administrators can update the settings to reveal usernames and display names.
 
-1. In the Microsoft 365 admin center, go to the **Settings** > **Org Settings**, and under the **Services** tab, choose **Reports**.
-2. Select **Reports**, and update the setting to “Display Concealed user, group, and site names in all reports”.
-3. Select **Save**.
+1. In the admin center, go to the **Settings** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Org Settings</a> page.
+2. Select the **Services** tab, then select **Reports**.
+3. In the **Reports** panel, select the checkbox next to **Display Concealed user, group, and site names in all reports**.
+4. Select **Save**.
 
 ## FAQ
 

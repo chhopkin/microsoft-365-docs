@@ -3,7 +3,7 @@ title: "What are cloud subscriptions?"
 f1.keywords: CSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: scotv
+manager: dansimp
 ms.reviewer: mijeffer, nicholak
 audience: Admin
 ms.topic: article
@@ -19,7 +19,7 @@ ms.custom:
 - commerce_subscriptions
 - AdminTemplateSet
 - admindeeplinkMAC
-- campaignIDs-batch1                                         
+- campaignIDs-batch1
 search.appverid: MET150
 robots: NOINDEX NOFOLLOW
 description: "Learn about cloud subscriptions and how to view them in the Microsoft 365 admin center."

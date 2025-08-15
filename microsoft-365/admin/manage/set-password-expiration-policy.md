@@ -4,13 +4,13 @@ f1.keywords:
 - CSH
 ms.author: kwekua
 author: kwekuako
-manager: scotv
+manager: dansimp
 ms.date: 05/29/2024
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
 ms.localizationpriority: high
-ms.collection: 
+ms.collection:
 - Tier1
 - scotvorg
 - highpri
@@ -19,14 +19,14 @@ ms.collection:
 - Adm_TOC
 - must-keep
 ms.custom:
-  - VSBFY23
-  - AdminSurgePortfolio
-  - okr_smb
-  - AdminTemplateSet
-  - admindeeplinkMAC
-  - business_assist
-  - has-azure-ad-ps-ref
-  - azure-ad-ref-level-one-done
+- VSBFY23
+- AdminSurgePortfolio
+- okr_smb
+- AdminTemplateSet
+- admindeeplinkMAC
+- business_assist
+- has-azure-ad-ps-ref
+- azure-ad-ref-level-one-done
 description: "Learn how an admin can set a password expiration policy for your business, school, or nonprofit in Microsoft 365 admin center."
 ---
 

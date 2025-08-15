@@ -3,7 +3,7 @@ title: "Manage billing across multiple tenants in the Microsoft 365 admin center
 f1.keywords: NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: scotv
+manager: dansimp
 ms.reviewer: jkinma, ramagane
 audience: Admin
 ms.topic: how-to
