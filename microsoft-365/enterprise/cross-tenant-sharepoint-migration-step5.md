@@ -1,5 +1,5 @@
 ---
-title: SharePoint Cross-tenant SharePoint migration Step 5 (preview)
+title: SharePoint Cross-tenant SharePoint migration Step 5
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
