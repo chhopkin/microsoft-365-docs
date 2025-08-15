@@ -49,7 +49,7 @@ Verify-SPOCrossTenantRelationship -Scenario MnA -PartnerRole Source -PartnerCros
 
 ## Troubleshooting trust issues
 
-When verifying trust, the possible values are:
+When you verify the trust, the possible values are:
 
 |Value                   |Description                                                                       |
 |:-----------------------|:---------------------------------------------------------------------------------|
