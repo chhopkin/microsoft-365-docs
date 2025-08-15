@@ -272,3 +272,4 @@ To support AI-specific compliance needs, Microsoft is also adding Copilot-specif
 ## See also
 
 - [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md)
+- [Microsoft 365 Roadmap: Copilot](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=08e18dc796b066bc12cd9bef979d67e4&filters=%5B%22Microsoft+Copilot+%28Microsoft+365%29%22%5D)
