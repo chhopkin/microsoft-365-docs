@@ -165,7 +165,7 @@ For more information, see [What is the EU Data Boundary](/privacy/eudb/eu-data-b
 Microsoft Purview and Security Copilot help organizations govern AI across hybrid and multicloud environments like Azure, AWS, and Google Cloud.
 
 - [Purview](/purview/ai-microsoft-purview) enables consistent data classification, labeling, and policy enforcement across clouds, with visibility into how data flows into AI models and plugins.
-- [Security Copilot](/copilot/security/microsoft-security-copilot) detects AI-related risks across platforms, correlates threats, and surfaces posture insights from [AI-SPM](/azure/defender-for-cloud/concept-cloud-security-posture-management).
+- [Security Copilot](/copilot/security/microsoft-security-copilot) detects AI-related risks across platforms, correlates threats, and surfaces posture insights from [Cloud security posture management](/azure/defender-for-cloud/concept-cloud-security-posture-management).
 
 #### Policy integration and enforcement
 
