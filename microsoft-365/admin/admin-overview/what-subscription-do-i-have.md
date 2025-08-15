@@ -4,14 +4,14 @@ f1.keywords:
 - NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: scotv
+manager: dansimp
 ms.reviewer: emmasheridan, nicholak
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-acquisition
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier1
 - scotvorg
 - highpri
@@ -19,7 +19,7 @@ ms.collection:
 - Adm_O365
 - Adm_O365_Setup
 - Adm_TOC
-ms.custom: 
+ms.custom:
 - commerce_subscriptions
 - VSBFY23
 - okr_smb

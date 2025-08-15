@@ -2,13 +2,13 @@
 title: "Microsoft 365 Experience insights dashboard"
 ms.author: kwekua
 author: kwekuako
-manager: scotv
+manager: dansimp
 ms.date: 01/06/2025
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier1
 - scotvorg
 ms.custom: campaignIDs-batch1

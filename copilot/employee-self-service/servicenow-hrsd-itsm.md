@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn about integrating ServiceNow HRSD and ITSM in the deployment process for the Employee Self-Service agent.
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # Integrate ServiceNow HRSD and ITSM with your Employee Self-Service deployment

@@ -4,20 +4,20 @@ f1.keywords:
 - CSH
 ms.author: twerner
 author: twernermsft
-manager: scotv
+manager: dansimp
 ms.date: 06/20/2024
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier2
 - scotvorg
-- M365-subscription-management 
+- M365-subscription-management
 - Adm_O365
 - Adm_TOC
 - must-keep
-ms.custom: 
+ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 - AdminTemplateSet
