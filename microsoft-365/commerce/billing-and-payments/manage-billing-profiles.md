@@ -141,7 +141,7 @@ You can manage the payment method used to pay for all purchases and transactions
 
 ### Edit a payment method
 
-If you're the owner of the payment method on the billing profile you can update the payment method details.
+If you're the owner of the payment method on the billing profile, you can update the payment method details.
 
 1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Billing accounts</a> page.
 2. On the **Overview** tab, select a billing account.
@@ -159,7 +159,7 @@ Use this option to change the payment method used to pay for subscriptions and s
 3. On the billing account details page, select the **Billing profiles** tab.
 4. Select a billing profile name to view its details page.
 5. In the **Invoice and billing notifications** section, under **Payment method**, select **Replace**. This opens the **Replace payment method** panel.
-6. The **Use an existing payment method** drop-down list contains the payment methods that you own. If the account is approved to pay with a wire transfer, you can select it from the drop-down list as the default payment method. For information on the wire transfer approval process, see [Paying by Wire Transfer](/microsoft-365/commerce/billing-and-payments/pay-for-your-subscription#paying-by-wire-transfer).
+6. The **Use an existing payment method** drop-down list contains the payment methods that you own. Select an alternate payment method to use for the billing profile. If the account is approved to pay with a wire transfer, you can select the wire transfer account from the drop-down list and use it as the default payment method. For information about the wire transfer approval process, see [Paying by Wire Transfer](/microsoft-365/commerce/billing-and-payments/pay-for-your-subscription#paying-by-wire-transfer).
 7. Select **Save**.
 
 You can also add a new payment method by using the **Add payment method** link under the **New payment method** drop down.
