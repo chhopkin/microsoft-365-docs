@@ -4,7 +4,7 @@ f1.keywords: NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 08/07/2025
+ms.date: 08/15/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: article
@@ -21,7 +21,7 @@ appliesto:
 
 # AI security for Microsoft 365 Copilot
 
-AI security is foundational to our approach at Microsoft; it safeguards customer data, supports system integrity, and includes user safety features. This commitment aligns with our broader principles of privacy, compliance, and trust. This article outlines Microsoft's approach to securing Copilot and provides guidance to strengthen your AI security posture.
+AI security is foundational to our approach at Microsoft; it safeguards customer data, supports system integrity, and includes user safety features. This commitment aligns with our broader principles of privacy, compliance, and trust. This article outlines Microsoft's approach to securing Copilot and provides guidance you can use to strengthen your AI security posture.
 
 ## What Microsoft does to secure Microsoft 365 Copilot
 
