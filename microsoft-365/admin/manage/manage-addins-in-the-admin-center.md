@@ -84,7 +84,7 @@ Post deployment, admins can also manage user access to add-ins.
 > [!NOTE]
 > Outlook add-in installation is managed by a [different process](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins).
 
-As an organization you may wish to manage the download of Office add-ins from the Office store. This could be used to ensure that users within your organization can get the benefits from all the Office add-ins, or only the organization-approved add-ins can be deployed with Centralized Deployment.
+As an organization you may wish to manage the download of Office add-ins from the Office store. This could be used to ensure that users within your organization can get the benefits from all the Office add-ins, or only the organization-approved add-ins can be deployed with centralized deployment.
   
 **To turn on/off add-in acquisition**
   
@@ -120,7 +120,7 @@ This will control all users' ability to acquire the following add-ins from the s
  When you disable the access to the Office store, a user who tries to access the store will see the following message: **Office store not available. Unfortunately, your organization has disabled access to the Office Store. Please contact your administrator to get access to the store.**
 
 > [!NOTE]
-> Acquisitions may still be possible from AppSource, but the user will not be able to launch or use the add-in in the client. This does not prevent an administrator from using Centralized Deployment to assign an add-in from the Office Store.
+> Acquisitions may still be possible from AppSource, but the user will not be able to launch or use the add-in in the client. This does not prevent an administrator from using centralized deployment to assign an add-in from the Office Store.
   
 Support for turning on/off the Office Store is available in the following versions:
   
