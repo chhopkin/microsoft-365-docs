@@ -13,18 +13,15 @@ ms.subservice: m365-commerce-management
 ms.localizationpriority: medium
 ms.collection:
 - Tier1
-- scotvorg
 - M365-subscription-management
 - Adm_O365
 ms.custom:
 - commerce_billing
 - admindeeplinkMAC
-- AdminSurgePortfolio
 - AdminTemplateSet
-- admindeeplinkMAC
 search.appverid: MET150
 description: "Learn about billing profiles and how they're used to pay invoices for Microsoft business accounts."
-ms.date: 08/06/2025
+ms.date: 08/15/2025
 ---
 
 # Manage your Microsoft business billing profiles
