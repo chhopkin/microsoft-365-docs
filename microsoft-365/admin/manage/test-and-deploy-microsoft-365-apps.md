@@ -22,9 +22,9 @@ description: "An overview of the integrated apps portal in the Microsoft 365 adm
 
 # Get started with the integrated apps portal
 
-## What is the integrated apps portfolio?
+## What is the integrated apps portal?
 
-The integrated apps portal in the Microsoft 365 admin center gives you the flexibility to deploy and manage apps, agents, and add-ins from a single portal, including both store apps and custom line-of-business (LOB) apps from a single location. These apps can be built by Microsoft or by other companies. The ability to find, test, and fully deploy purchased and licensed apps from the integrated apps portal provides the convenience and benefits your organization requires to keep business services updated regularly and running efficiently.
+The integrated apps portal in the Microsoft 365 admin center gives you the flexibility to deploy and manage apps, agents, and add-ins from a single portal, including both AppSource apps and custom line-of-business (LOB) apps from a single location. These apps can be built by Microsoft or by other companies. The ability to find, test, and fully deploy purchased and licensed apps from the integrated apps portal provides the convenience and benefits your organization requires to keep business services updated regularly and running efficiently.
 
 The integrated apps portal displays a list of apps that can be accessed by users in your organization. The following apps can be managed via the integrated apps portal:
 

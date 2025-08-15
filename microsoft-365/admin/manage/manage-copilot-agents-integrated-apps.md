@@ -225,11 +225,11 @@ The metadata includes details such as the agent’s capabilities, data sources (
 
 For detailed information about how Microsoft 365 Copilot uses, protects, and shares organizational information to power extensibility, see [Data, Privacy, and Security for Microsoft 365 Copilot](/microsoft-365-copilot/microsoft-365-copilot-privacy).
 
-## Manage agents using Integrated Apps
+## Manage agents using the integrated apps portal
 
 During the transition to the Copilot Control System, some agent management features are still available on the **Integrated Apps** page in the Microsoft 365 admin center. This section helps admins manage agents from that location.
 
-To manage agents using Integrated Apps:
+To manage agents using the integrated apps portal:
 
 1. Sign in to the Microsoft 365 admin center.
 1. Go to **Settings** > **Integrated apps**.

@@ -1,5 +1,5 @@
 ---
-title: "Deploy and manage Office Add-ins through Integrated Apps"
+title: "Deploy and manage Office Add-ins through the integrated apps portal"
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -20,7 +20,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: "An overview of how to deploy and manage Office Add-ins."
 ---
 
-# Deploy and manage Office Add-ins through Integrated Apps
+# Deploy and manage Office Add-ins through the integrated apps portal
 
 ## What are Office add-ins?
 
