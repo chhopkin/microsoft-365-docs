@@ -74,7 +74,7 @@ Existing links and permissions should continue to work as expected once the migr
 
 ### SharePoint sites
 
-The source SharePoint site is set to read-only while a migration is in progress. Once the migration's complete, users are directed to the site in the new target tenant whenever they navigate to the source site.  Users must sign in using their target tenant credentials.
+The source SharePoint site is set to read-only while a migration is in progress. Once the migration's complete, users are directed to the site in the new target tenant whenever they navigate to the source site. Users must sign in using their target tenant credentials.
 
 ### Permissions on SharePoint content
 
