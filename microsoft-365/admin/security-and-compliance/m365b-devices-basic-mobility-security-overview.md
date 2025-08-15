@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: chrisda
 author: chrisda
 manager: orspodek
-ms.date: 04/03/2025
+ms.date: 08/14/2025
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-basic-mobility-security
@@ -44,7 +44,7 @@ Basic Mobility and Security is a subset of [Microsoft Intune](/intune/intune-ser
 >
 > Microsoft Intune supports both MDM and MAM device management strategies, and supports more device platforms (for example, macOS and Linux). For a comparison of Basic Mobility and Security and Microsoft Intune, see the [Comparison of Basic Mobility and Security and Microsoft Intune](#comparison-of-basic-mobility-and-security-and-microsoft-intune) section later in this article.
 
-The following list describes the high-level steps to manage devices in Basic Mobility and Security:
+The high-level steps to manage devices in Basic Mobility and Security are described in the following list:
 
 1. An admin turns on Basic Mobility and Security in the organization and configures organization settings. For instructions, see [Set up Basic Mobility and Security](m365b-devices-basic-mobility-security-set-up.md).
 
@@ -58,7 +58,7 @@ The following list describes the high-level steps to manage devices in Basic Mob
 
    Admins can also modify the settings in existing policies, and modify the organization settings.
 
-5. Although you can't turn off Basic Mobility and Security in an organization, you can effectively disable it and remove device management from devices. For instructions, see [Turn off Basic Mobility and Security enforcement](m365b-devices-basic-mobility-security-turn-off.md).
+Although you can't turn off Basic Mobility and Security in an organization, you can effectively disable it and remove device management from devices. For instructions, see [Turn off Basic Mobility and Security enforcement](m365b-devices-basic-mobility-security-turn-off.md).
 
 The rest of this article describes the supported devices and capabilities in Basic Mobility and Security.
 
@@ -81,15 +81,15 @@ You can manage the following device platforms in Basic Mobility and Security:
 
 There are two different types of policies in Basic Mobility and Security. Both control access to company resources on supported devices platforms. The main difference is whether the user is prompted to enroll the device:
 
-- **Allow access policies**: If a user tries to access company resources using a [supported app](#apps-that-prompt-users-to-enroll-in-basic-mobility-and-security) on an unenrolled device, access is blocked. **The user isn't prompted to enroll the device; they need to start the device enrollment manually**.
+- **Allow access policies**: If a user tries to access company resources using a [supported app](#apps-that-prompt-users-to-enroll-in-basic-mobility-and-security) on an unenrolled device, **the user is prompted to enroll the device in Basic Mobility and Security; device enrollment starts automatically**.
 
   This type of policy corresponds to the **Allow access (device enrollment required)** selection in the new policy wizard, and the **New-DeviceConfigurationPolicy** and **New-DeviceConfigurationRule** cmdlets in Security & Compliance PowerShell.
 
-- **Block access policies**: If a user tries to access company resources using a [supported app](#apps-that-prompt-users-to-enroll-in-basic-mobility-and-security) on an unenrolled device, **the user is prompted to enroll the device in Basic Mobility and Security; device enrollment starts automatically**.
+- **Block access policies**: If a user tries to access company resources using a [supported app](#apps-that-prompt-users-to-enroll-in-basic-mobility-and-security) on an unenrolled device, access is blocked. **The user isn't prompted to enroll the device; they need to start the device enrollment manually**.
 
   This type of policy corresponds to the **Block access** selection in the new policy wizard, and the **New-DeviceConditionalAccessPolicy** and **New-DeviceConditionalAccessRule** cmdlets in Security & Compliance PowerShell.
 
-  The following diagram shows what happens when a users tries to access company resources using the Microsoft 365 app on an unenrolled device. The applicable policy in Basic Mobility and Security is a **block access** policy, so the user is prompted to enroll the device before they can access company resources in the app.
+  The following diagram shows what happens when a user tries to access company resources using the Microsoft 365 app on an unenrolled device. The applicable policy in Basic Mobility and Security is a **block access** policy, so the user is prompted to enroll the device before they can access company resources in the app.
 
   :::image type="content"source="../../media/microsoft-365-bsm-app-diagram.png" alt-text="A conceptual diagram that explains the steps in access control from supported apps in Basic Mobility and Security." lightbox="../../media/microsoft-365-bsm-app-diagram.png":::
 
@@ -129,7 +129,7 @@ For both **allow access policies** and **block access policies** in Basic Mobili
 
 - **Access requirement settings**: These settings are described in the [Access requirement settings](#access-requirement-settings) section. If the device doesn't meet the setting configuration (for example, password, encryption, or jail broken settings), users are prompted to update the device to continue to access company resources. If they don't update the setting, they can't access company resources on the device using [supported apps](#apps-that-prompt-users-to-enroll-in-basic-mobility-and-security).
 
-  The following diagram shows what happens when a users tries to access company resources using the Office Mobile app on an enrolled device. The applicable policy requires a device password, but the device doesn't have a password.
+  The following diagram shows what happens when a user tries to access company resources using the Office Mobile app on an enrolled device. The applicable policy requires a device password, but the device doesn't have a password.
 
   :::image type="content"source="../../media/bms-2-device-not-compliant.png" alt-text="Basic Mobility and Security compliance message." lightbox="../../media/bms-2-device-not-compliant.png":::
 
@@ -298,7 +298,7 @@ A: For instructions, see [Set up Basic Mobility and Security in Microsoft 365 fo
 
 ### Q: I'm trying to set up Basic Mobility and Security but it seems stuck. The Microsoft 365 Service Health has been showing "provisioning" for a while. What can I do?
 
-A: It might take some time to get the service ready for you. When provisioning is complete, you see the **Basic Mobility and Security** page. If it's been 24 hours and the status is still provisioning, contact Support so we can help you.
+A: It might take some time to get the service ready for you. When provisioning is complete, you see the **Basic Mobility and Security** page. If the status is still provisioning after 24 hours, contact Support so we can help you.
 
 ### Q: I'm running into issues when I try to enroll a device in Basic Mobility and Security. What can I do?
 

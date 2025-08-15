@@ -4,7 +4,7 @@ description: Admin can learn how to use Microsoft Intune to in Microsoft 365 Bus
 ms.author: chrisda
 author: chrisda
 manager: deniseb
-ms.date: 06/17/2025
+ms.date: 08/14/2025
 ms.topic: how-to
 ms.service: microsoft-365-business-security
 ms.localizationpriority: medium
@@ -81,7 +81,7 @@ For the device types that you intend to enroll in MDM, you need to take care of 
 
 Compliance policy settings are organization-wide and determine how Intune treats devices with no device compliance policies (also known as compliance policies) assigned. Possible values are:
 
-- **Mark devices with no compliance policy assigned as** \> **Compliant**: Devices are considered compliant until verified as not compliant after a device compliance policy is assigned. This is the default value.
+- **Mark devices with no compliance policy assigned as** \> **Compliant**: Devices are considered compliant until verified as not compliant after a device compliance policy is assigned. This value is the default.
 - **Mark devices with no compliance policy assigned as** \> **Not compliant**: Devices are considered not compliant until verified as compliant after a device compliance policy is assigned.
 
 Typically, we recommend the default value **Compliant**. But, if you're using device-based Conditional Access policies as described in the next section, and you want to ensure that only compliant devices are ever allowed to access company resources, use the value **Mark devices with no compliance policy assigned as** \> **Not compliant**.

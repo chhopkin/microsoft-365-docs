@@ -20,7 +20,7 @@ ms.custom:
 description: Learn about the security features available in Microsoft 365 for business.
 ms.service: microsoft-365-business-security
 adobe-target:
-ms.date: 05/21/2025
+ms.date: 08/14/2025
 appliesto:
   - ✅ <a href="https://www.microsoft.com/microsoft-365/business/microsoft-365-business-basic" target="_blank">Microsoft 365 Business Basic</a>
   - ✅ <a href="https://www.microsoft.com/microsoft-365/business/microsoft-365-business-standard" target="_blank">Microsoft 365 Business Standard</a>
@@ -76,11 +76,11 @@ Watch this short video for more information:
 
 All subscriptions in Microsoft 365 for business include Microsoft Entra ID Free, which includes the feature named _security defaults_. Because security defaults is on by default, multifactor authentication (MFA) is also on by default in Microsoft 365 for business organizations.
 
-Business Premium also includes Microsoft Entra ID P1, which includes the feature named _Conditional Access_. Conditional Access uses granular policies based on Zero Trust architecture to give users access to resources. If your organization has increased or complex security requirements, you can use Conditional Access policies instead of security defaults.
+Business Premium also includes Microsoft Entra ID P1, which includes the feature named _Conditional Access_. Conditional Access uses granular policies based on Zero Trust architecture to give users access to resources. If your organization requires increased or complex security settings, you can use Conditional Access policies instead of security defaults.
 
 For information about security defaults and conditional access, see [Multifactor authentication in Microsoft 365 for business](multi-factor-authentication-microsoft-365.md).
 
-For additional considerations for administrator or admin accounts, see [Admin account security in Microsoft 365 for business](m365b-account-security-admins.md)
+For other considerations for administrator or admin accounts, see [Admin account security in Microsoft 365 for business](m365b-account-security-admins.md)
 
 ## Email and collaboration security
 
@@ -98,7 +98,7 @@ Microsoft 365 Business Premium also includes Microsoft Defender for Office 365 P
 - [Safe Attachments policies](/defender-office-365/safe-attachments-about)
 - [Safe Links policies](/defender-office-365/safe-links-about)
 
-The default settings for these email and collaboration protection features provide a good level of protection. But for even better protection, we recommend configuring additional settings and features for the best available protection (for example, [turn on and assign the Standard and/or Strict preset security policies](/defender-office-365/preset-security-policies#use-the-microsoft-defender-portal-to-assign-standard-and-strict-preset-security-policies-to-users)).
+The default settings for these email and collaboration protection features provide a good level of protection. But for even better protection, we recommend configuring more settings and features for the best available protection (for example, [turn on and assign the Standard and/or Strict preset security policies](/defender-office-365/preset-security-policies#use-the-microsoft-defender-portal-to-assign-standard-and-strict-preset-security-policies-to-users)).
 
 For more information, see [Email and collaboration security in Microsoft 365 for business](m365b-email-collaboration-security.md).
 
@@ -113,7 +113,7 @@ All subscriptions in Microsoft 365 for business include _Basic Mobility and Secu
 
 For more information, see [Overview of Basic Mobility and Security for Microsoft 365](m365b-devices-basic-mobility-security-overview.md).
 
-Business Premium includes the following additional features for device security:
+Business Premium includes the following extra features for device security:
 
 - **Microsoft Intune Plan 1**: Improves upon Basic Mobility and Security with [more features](m365b-devices-basic-mobility-security-overview.md#comparison-of-basic-mobility-and-security-and-microsoft-intune):
   - Support for mobile device management (MDM) and mobile application management (MAM) strategies. In MDM, the company manages the whole device. In MAM, the company manages _company data_ on the device (which is an option for personal devices, also known as bring your own device or BYOD).
@@ -134,7 +134,7 @@ Business Premium includes the following additional features for device security:
   - [Device groups and Microsoft Intune categories in Microsoft 365 Business Premium](m365bp-devices-groups-categories.md)
   - [Device and application protection in Microsoft 365 Business Premium](m365bp-devices-protection.md).
 
-- **Ability to add Microsoft 365 E5 Security**: If you choose to buy this additional subscription, you get the following upgraded features:
+- **Ability to add Microsoft 365 E5 Security**: If you choose to buy this extra subscription, you get the following upgraded features:
   - [Microsoft Entra ID P2](/entra/fundamentals/licensing)
   - [Microsoft Defender for Identity](/defender-for-identity/what-is)
   - [Microsoft Defender for Endpoint Plan 2](/defender-endpoint/microsoft-defender-endpoint)

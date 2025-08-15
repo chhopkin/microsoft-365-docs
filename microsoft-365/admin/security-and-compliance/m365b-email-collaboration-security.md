@@ -8,7 +8,7 @@ manager: deniseb
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business-security
-ms.date: 07/21/2025
+ms.date: 08/14/2025
 ms.localizationpriority: medium
 ms.collection:
 - M365-Campaigns
@@ -42,7 +42,7 @@ Although your organization includes a default level of protection for email and 
 
 ### Roles and permissions
 
-To configure email and collaboration protection features features, you need permissions. The following table lists the permissions that allow you to do the procedures in this article:
+To configure email and collaboration protection features, you need permissions. The following table lists the permissions that allow you to do the procedures in this article:
 
 |Role or role group|Learn more|
 |---|---|
@@ -76,7 +76,7 @@ For more information, see [Priority accounts and user tags](/defender-office-365
 
 ## Review and configure user reported message settings
 
-Use the [built-in Report button in Outlook](/defender-office-365/submissions-outlook-report-messages#use-the-built-in-report-button-in-outlook) or a [supported third party tool](/defender-office-365/submissions-user-reported-messages-custom-mailbox#message-submission-format-for-third-party-reporting-tools) so users can report false positives and false negatives in Outlook, and so those reported messages are available to admins on the **User-reported** tab of the **Submissions** page in the Defender portal. Configure the organization so reported messages go to a specified reporting mailbox, to Microsoft, or both (default).
+Use the [built-in Report button in Outlook](/defender-office-365/submissions-outlook-report-messages#use-the-built-in-report-button-in-outlook) or a [supported non-Microsoft tool](/defender-office-365/submissions-user-reported-messages-custom-mailbox#message-submission-format-for-non-microsoft-reporting-tools) so users can report false positives and false negatives in Outlook, and so those reported messages are available to admins on the **User-reported** tab of the **Submissions** page in the Defender portal. Configure the organization so reported messages go to a specified reporting mailbox, to Microsoft, or both (default).
 
 For more information, see [Review and configure user reported message settings](/defender-office-365/mdo-deployment-guide#step-5-review-and-configure-user-reported-message-settings).
 

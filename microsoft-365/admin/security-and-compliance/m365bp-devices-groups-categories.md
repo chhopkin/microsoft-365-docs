@@ -8,7 +8,7 @@ manager: deniseb
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business-security
-ms.date: 05/21/2025
+ms.date: 08/14/2025
 ms.localizationpriority: medium
 ms.reviewer: nehabha
 f1.keywords: NOCSH
@@ -36,7 +36,7 @@ The rest of this article explains device groups in Defender for Business, device
 
 ## Device groups in Defender for Business
 
-Defender for Business in Business Premium contains the built-in device group named **All Devices** that's assigned to the built-in [device protection policies](m365bp-devices-protection.md) named **NGP Windows default policy** and **Firewall Windows default policy**. This device group includes all devices that are onboarded in Defender for Business.
+Defender for Business in Business Premium contains the built-in device group named **All Devices** assigned to the built-in [device protection policies](m365bp-devices-protection.md) named **NGP Windows default policy** and **Firewall Windows default policy**. This device group includes all devices that are onboarded in Defender for Business.
 
 You can also create custom device groups to use in the built-in device protection policies or in custom protection policies. You can create device groups in the following locations:
 
@@ -107,7 +107,7 @@ As you create or edit [device protection policies](m365bp-devices-protection.md)
 
 To create dynamic device groups in the Defender portal, see the [Create device groups in the Microsoft Defender portal](#create-device-groups-in-the-microsoft-defender-portal) section.
 
-<sup>\*</sup> Protecting Windows Server operating systems require an extra license that's not included in Defender for Business or Business Premium (for example, [Microsoft Defender for Business servers](/defender-business/get-defender-business#how-to-get-microsoft-defender-for-business-servers)).
+<sup>\*</sup> Protecting Windows Server operating systems require an extra license not included in Defender for Business or Business Premium (for example, [Microsoft Defender for Business servers](/defender-business/get-defender-business#how-to-get-microsoft-defender-for-business-servers)).
 
 ### Device groups in the Microsoft Entra admin center
 
@@ -152,8 +152,8 @@ There's no direct location to create device groups in the Defender portal. Inste
 
 5. On the **Targeted devices** page, the available options depend on the **Membership type** value you selected on the previous page:
    - **Dynamic group**: Configure one or more rules as described in the [Dynamic device groups in the Defender portal](#dynamic-device-groups-in-the-defender-portal) section earlier in this article:
-     - Select **Select Property**. In the drop down list that appears, select an available property.
-     - Select **Select an operator**. In the drop down list that appears, select an available operator.
+     - Select **Select Property**. In the drop-down list that appears, select an available property.
+     - Select **Select an operator**. In the drop-down list that appears, select an available operator.
      - The value control appears with the default value **Any**. Leave the value **Any** selected, or click on **Any**, and in the dialog that appears, select or enter the value, and then select **Apply**.
 
        To add another rule, select :::image type="icon"source="../../media/m365-cc-sc-create-icon.png" border="false"::: **Add filter** and then repeat the previous steps. Multiple rules use the AND logical operator (a device must match **all** of the specified rules to be included in the dynamic device group).
@@ -348,4 +348,4 @@ On the **All devices** page, admins can do the following category-related tasks:
 
 - **Change categories assigned to devices**: Select a device entry from the list by clicking on the **Device name** value. In the device details page that opens, select **Manage** \> **Properties**.
 
-  On the **Properties** page that opens, find the **Device category** property. Select a device category or the value **Unassigned** from the drop down list, and then select :::image type="icon"source="../../media/m365-cc-sc-save-icon.png" border="false"::: **Save**.
+  On the **Properties** page that opens, find the **Device category** property. Select a device category or the value **Unassigned** from the drop-down list, and then select :::image type="icon"source="../../media/m365-cc-sc-save-icon.png" border="false"::: **Save**.

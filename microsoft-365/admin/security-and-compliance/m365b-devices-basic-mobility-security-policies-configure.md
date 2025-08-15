@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: chrisda
 author: chrisda
 manager: orspodek
-ms.date: 04/03/2025
+ms.date: 08/14/2025
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-basic-mobility-security
@@ -39,7 +39,7 @@ This article described how to create, view, modify, and remove device security p
 
 For more information about Basic Mobility and Security, see [Overview of Basic Mobility and Security in Microsoft 365 for business](m365b-devices-basic-mobility-security-overview.md).
 
-You can use Basic Mobility and Security to create device policies that help protect your organization information on Microsoft 365 from unauthorized access. You can apply policies to supported device in your organization where the user has an applicable Microsoft 365 license and has enrolled the device in Basic Mobility and Security.
+You can use Basic Mobility and Security to create device policies that help protect your organization information on Microsoft 365 from unauthorized access. You can apply policies to supported device in your organization where the user has an applicable Microsoft 365 license and enrolled the device in Basic Mobility and Security.
 
 ## What do you need to know before you begin?
 
@@ -87,9 +87,9 @@ To create a policy, do the following steps.
    - Configure the device access requirements. The available settings are described in the **Access requirements** section of the table at [Policy settings in Basic Mobility and Security](m365b-devices-basic-mobility-security-overview.md#policy-settings-in-basic-mobility-and-security).
 
    - **If a device doesn't meet the requirements above, then...**: Select one of the following values:
-     - **Allow access (device enrollment is required)**: This is the default value. If a user tries to access company resources using a [supported app](m365b-devices-basic-mobility-security-overview.md#apps-that-prompt-users-to-enroll-in-basic-mobility-and-security) on an unenrolled device, access is blocked. **The user isn't prompted to enroll the device; they need to start the [device enrollment](m365b-devices-basic-mobility-security-enroll-devices.md) manually**.
+     - **Allow access (device enrollment is required)**: This value is the default. If a user tries to access company resources using a [supported app](m365b-devices-basic-mobility-security-overview.md#apps-that-prompt-users-to-enroll-in-basic-mobility-and-security) on an unenrolled device, access is blocked. **The user is prompted to enroll the device; [device enrollment](m365b-devices-basic-mobility-security-enroll-devices.md) starts automatically**.
 
-     - **Block access**: If a user tries to access company resources using a [supported app](m365b-devices-basic-mobility-security-overview.md#apps-that-prompt-users-to-enroll-in-basic-mobility-and-security) on an unenrolled device, **the user is prompted to enroll the device in Basic Mobility and Security; device enrollment starts automatically**.
+     - **Block access**: If a user tries to access company resources using a [supported app](m365b-devices-basic-mobility-security-overview.md#apps-that-prompt-users-to-enroll-in-basic-mobility-and-security) on an unenrolled device, **the user isn't prompted to enroll the device; they need to start the device enrollment manually**.
 
      > [!NOTE]
      >
@@ -103,11 +103,11 @@ To create a policy, do the following steps.
    When you're finished on the **Configurations** page, select **Next**.
 
 6. On the **Deployment** page, configure one of the following options:
-   - **We'll save this policy, but it won't be applied to any devices in your organization**: This is the default value. The policy is saved but not applied to any devices. You can apply the policy to one or more security groups later.
+   - **We'll save this policy, but it won't be applied to any devices in your organization**: This value is the default. The policy is saved but not applied to any devices. You can apply the policy to one or more security groups later.
    - **Select one or more security groups that contain the people you want to apply this policy to**:
 
      > [!IMPORTANT]
-     > We recommend that you apply a new policy to a small number of test users (a designated test group with a few designated members). Verify that the policy works as you expect before you deploy it to your organization.
+     > We recommend that you apply a new policy to a few test users (a designated test group with a few designated members). Verify that the policy works as you expect before you deploy it to your organization.
 
      <!--- Check the status of user devices that have the policy applied. You want the **State** of devices to be **Managed.** You can also do a full or selective wipe on a device by clicking on **Factory reset** or **Remove company data** from **Manage** button after selecting a device..--->
 
@@ -121,12 +121,12 @@ To create a policy, do the following steps.
 
      - **User groups**: To create user security groups in the Microsoft 365 admin center, see [Create, edit, or delete a security group](../email/create-edit-or-delete-a-security-group.md).
 
-       Business Basic and Business Standard include Microsoft Entra Free, which supports creating **assigned user groups** (not dynamic user groups), although the built-in **All Users** dynamic user group is available. To create assigned user groups in the Entra admin center, see [Create a basic group and add members](/entra/fundamentals/how-to-manage-groups#create-a-basic-group-and-add-members). Use the following settings:
+       Business Basic and Business Standard include Microsoft Entra Free, which supports creating **assigned user groups** (not dynamic user groups), although the built-in **All Users** dynamic user group is available. To create assigned user groups in the Microsoft Entra admin center, see [Create a basic group and add members](/entra/fundamentals/how-to-manage-groups#create-a-basic-group-and-add-members). Use the following settings:
        - **Group type**: **Security** (default).
        - **Microsoft Entra roles can be assigned to the group**: **No** (default).
        - **Members**: (Step 10): Select **No members selected**. On the **Add members** page that opens, select the **Users** tab to select the users to add to the group.
 
-     - **Assigned device groups**: Similarly, Microsoft Entra Free supports creating assigned device groups (not dynamic device groups). To create assigned device groups in the Entra admin center, see [Create a basic group and add members](/entra/fundamentals/how-to-manage-groups#create-a-basic-group-and-add-members). Use the following settings:
+     - **Assigned device groups**: Similarly, Microsoft Entra Free supports creating assigned device groups (not dynamic device groups). To create assigned device groups in the Microsoft Entra admin center, see [Create a basic group and add members](/entra/fundamentals/how-to-manage-groups#create-a-basic-group-and-add-members). Use the following settings:
        - **Group type**: **Security** (default).
        - **Microsoft Entra roles can be assigned to the group**: **No** (default).
        - **Members**: (Step 10): Select **No members selected**. On the **Add members** page that opens, select the **Devices** tab to select the devices to add to the group.
@@ -226,7 +226,7 @@ In Security & Compliance PowerShell, the difference between device policies and 
 
 - In PowerShell, you create the device policy first, then you create the device rule that specifies the device policy (creating the rule requires an available policy).
 - In PowerShell, you specify the name of the device policy when you create it. When you create the device rule, you identify the policy that the rule applies to, and the name of the policy (for example, Contoso Engineering) is used in the name of the rule (for example, Contoso Engineering{2b18}). You can't change the name of the device policy after you create it.
-- When you remove a device policy from PowerShell, the associated device rule is automatically removed after a few minutes.If you remove the device rule first, the associated device policy isn't automatically removed.
+- When you remove a device policy from PowerShell, the associated device rule is automatically removed after a few minutes. If you remove the device rule first, the associated device policy isn't automatically removed.
 
 The cmdlets that you use to manage device policies and device rules depend on what you want for devices that don't meet the **Access requirements** settings described in the table at [Policy settings in Basic Mobility and Security](m365b-devices-basic-mobility-security-overview.md#policy-settings-in-basic-mobility-and-security):
 
@@ -249,7 +249,7 @@ Creating a policy in Basic Mobility and Security using Security & Compliance Pow
 1. Create the device policy.
 2. Create the device rule that specifies the device policy that the rule applies to.
 
-The only differences in default values of policies created on the **Policies** tab of the **Basic Mobility and security** page vs. device rules created in Powershell are:
+The only differences in default values of policies created on the **Policies** tab of the **Basic Mobility and security** page vs. device rules created in PowerShell are:
 
 - _PasswordRequired_ is `$false` by default in PowerShell.
 - _AllowSimplePassword_ is `$false` by default in PowerShell.
@@ -580,7 +580,7 @@ For detailed syntax and parameter information, see [Remove-DeviceConfigurationRu
 
 ## What happens when you delete a policy or remove a user from a policy?
 
-When you delete a policy or remove a user from a policy, the information that might be removed from the device is described in the following table:
+When you delete a policy or remove a user from a policy, information that might be removed from the device is described in the following table:
 
 |What's removed|iOS/iPadOS|Android|Samsung KNOX|
 |---|:---:|:---:|

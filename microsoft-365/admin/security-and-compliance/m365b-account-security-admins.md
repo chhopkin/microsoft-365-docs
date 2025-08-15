@@ -8,7 +8,7 @@ manager: deniseb
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business-security
-ms.date: 05/21/2025
+ms.date: 08/14/2025
 ms.localizationpriority: medium
 ms.collection:
 - M365-Campaigns
@@ -53,8 +53,8 @@ Use the following guidance to make the most of admin accounts while protecting y
   - Before using admin accounts, close all unrelated browser sessions and apps, including personal email accounts. You can also use InPrivate, Incognito, or Private browsing mode for admin tasks.
   - After completing admin tasks, be sure to sign out of the browser session.
 
-  For account creation instructions, see [Add users and assign licenses at the same time](../add-users/add-users/add-users.md).
-
+  For account creation instructions, see [Add users and assign licenses at the same time](../add-users/add-users.md).
+[Add users and assign licenses at the same time](../add-users/add-users.md)
   > [!TIP]
   > Ordinary user accounts need Microsoft 365 for business licenses, but you don't need to license admin only accounts.
   >

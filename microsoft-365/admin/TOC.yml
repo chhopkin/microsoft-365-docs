@@ -474,8 +474,6 @@ items:
           href: security-and-compliance/m365b-security-whats-new.md
         - name: Get started
           items:
-          - name: Increase threat protection for Microsoft 365 for business
-            href: security-and-compliance/increase-threat-protection.md
           - name: Microsoft 365 for business security best practices
             href: security-and-compliance/m365b-security-best-practices.md
           - name: Set up information protection in Microsoft 365 Business Premium

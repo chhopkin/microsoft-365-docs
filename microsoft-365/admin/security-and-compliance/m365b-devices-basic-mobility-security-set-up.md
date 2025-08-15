@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: chrisda
 author: chrisda
 manager: orspodek
-ms.date: 04/03/2025
+ms.date: 08/14/2025
 audience: Admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-basic-mobility-security
@@ -162,7 +162,7 @@ The **Organization Setting** tab on the **Basic Mobility and Security** page at 
 
   After you expand this section, the following values are available:
 
-  - **Allow access (device enrollment is required)**. This is the default value.
+  - **Allow access (device enrollment is required)**. This value is the default.
 
   - **Block access**: We recommend this value to help secure your organization. Unsupported devices aren't allowed to access Microsoft 365 email on the device. After you select this value, the tab automatically refreshes and both sections on the page are collapsed. Expand this section to see the value you selected.
 
