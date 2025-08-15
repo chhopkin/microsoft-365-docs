@@ -237,12 +237,7 @@ Additionally, organizations can use audit logs and eDiscovery to monitor Copilot
 <!---
 #### Roadmap and future enhancements
 
-Microsoft is actively exploring ways to enhance Copilot's awareness of phishing and social engineering risks. Planned improvements include:
-
-- Integration with Microsoft Defender threat intelligence to flag known phishing patterns in prompts.
-- Contextual warnings when Copilot detects language or behavior consistent with phishing attempts.
-- Admin-configurable rules to restrict Copilot's ability to process content from unverified sources or flagged domains.
-- --->
+Microsoft is actively exploring ways to enhance Copilot's awareness of phishing and social engineering risks. Planned improvements include: - Integration with Microsoft Defender threat intelligence to flag known phishing patterns in prompts.- Contextual warnings when Copilot detects language or behavior consistent with phishing attempts. - Admin-configurable rules to restrict Copilot's ability to process content from unverified sources or flagged domains. --->
 
 ### Manage plugins and web interactions
 
