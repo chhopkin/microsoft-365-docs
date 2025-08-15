@@ -269,3 +269,6 @@ Using Microsoft Compliance Manager as a centralized dashboard to monitor and man
 
 To support AI-specific compliance needs, Microsoft is also adding Copilot-specific templates and control mappings, see [Assessments for AI regulations](/purview/compliance-manager-assessments#assessments-for-ai-regulations).
 
+## See also
+
+- [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md)
