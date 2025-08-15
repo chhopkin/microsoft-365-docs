@@ -88,7 +88,7 @@ These commands send a request to the tenant with whom you want to establish trus
 
 ## Sample trust email
 
-The following image shows an example of the email sent to a global admins:
+The following image shows an example of the email sent to a global admin:
 
 :::image type="content" source="../media/cross-tenant-migration/t2t-onedrive-trust-email.png" alt-text="example of trust email":::
 
