@@ -24,7 +24,7 @@ description: "How to manage Teams apps that work in Outlook and Microsoft 365 Co
 
 ## What are Teams apps that work on Outlook and the Microsoft 365 Copilot application?
 
-A Teams app that uses a sufficiently recent manifest version can work across Outlook, and the Microsoft 365 Copilot application in addition to working on Teams. Such apps enable developers to surface Teams capabilities, such as custom personal tabs or message extensions in Outlook and the Microsoft 365 Copilot application. For more information, see [Extend Teams apps across Microsoft 365](/microsoftteams/platform/m365-app/overview). Developers can submit a single app package that works across Teams, Outlook, and the Microsoft 365 Copilot application. These apps may be subject to different terms than other Office add-ins or pure Teams Apps. Read your license agreement for more details.
+A Teams app that uses a sufficiently recent manifest version can work across Outlook, and the Microsoft 365 Copilot application in addition to working on Teams. Such apps enable developers to surface Teams capabilities, such as custom personal tabs or message extensions in Outlook and the Microsoft 365 Copilot application. For more information, see [Extend Teams apps across Microsoft 365](/microsoftteams/platform/m365-apps/overview). Developers can submit a single app package that works across Teams, Outlook, and the Microsoft 365 Copilot application. These apps may be subject to different terms than other Office add-ins or pure Teams Apps. Read your license agreement for more details.
 
 > [!NOTE]
 >
