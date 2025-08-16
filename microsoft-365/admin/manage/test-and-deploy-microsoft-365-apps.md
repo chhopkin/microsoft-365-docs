@@ -32,7 +32,7 @@ The integrated apps portal displays a list of apps that can be accessed by users
 - Teams apps that work on Outlook and the Microsoft 365 app (formerly known as Office.com).
 - Teams Apps that only work on Teams.
 - SPFx apps
-- SaaS apps that are available in [AppSource](appsource.microsoft.com) and can be deployed by admins giving consent on behalf of the organization.
+- SaaS apps that are available in [AppSource](https://appsource.microsoft.com) and can be deployed by admins giving consent on behalf of the organization.
 
 ## How to access the integrated apps portal
 

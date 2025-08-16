@@ -84,12 +84,12 @@ Before you begin, see [Determine if centralized deployment of add-ins works for 
 
     1. In the **Choose how to upload app** section, do one of the following:
 
-           - Select the option to upload the manifest, and then select the **Choose File** button. Navigate to the add-in's manifest and select it.
-           
-              > [!IMPORTANT]
-              > Only add-ins that use the add-in only manifest can be deployed from the add-in portal at this time. To deploy an add-in that uses the Microsoft 365 unified manifest, you must use the integrated apps portal. See [Office Add-ins manifest](/office/dev/add-ins/develop/add-in-manifests) for information about the difference.
+      - Select the option to upload the manifest, and then select the **Choose File** button. Navigate to the add-in's manifest and select it.
 
-           - Select the option to provide a URL for the manifest, fill in the URL.
+         > [!IMPORTANT]
+         > Only add-ins that use the add-in only manifest can be deployed from the add-in portal at this time. To deploy an add-in that uses the Microsoft 365 unified manifest, you must use the integrated apps portal. See [Office Add-ins manifest](/office/dev/add-ins/develop/add-in-manifests) for information about the difference.
+
+      - Select the option to provide a URL for the manifest, fill in the URL.
 
     1. Select **Upload**.
 
