@@ -1,6 +1,6 @@
 ---
 title: "Azure integration with Microsoft 365"
-ms.author: kvice
+ms.author: rickki
 author: kelleyvice-msft
 manager: scotv
 ms.date: 08/26/2025

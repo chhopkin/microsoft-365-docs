@@ -1,6 +1,6 @@
 ---
 title: "Custom apps and Microsoft Entra ID for Microsoft 365 administrators"
-ms.author: kvice
+ms.author: rickki
 author: kelleyvice-msft
 manager: scotv
 ms.date: 08/26/2025
