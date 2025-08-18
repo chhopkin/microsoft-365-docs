@@ -31,7 +31,7 @@ As an admin, you can pin Microsoft 365 Copilot Chat in the Microsoft 365 apps an
 
 ## Before you begin
 
-:::image type="content" source="media/pin-copilot-microsoft-365-apps2.png" alt-text="Screenshot showing selected checkbox of Pin Copilot Chat in Microsoft 365 apps" lightbox="media/media/pin-copilot-microsoft-365-apps2.png":::
+:::image type="content" source="media/pin-copilot-microsoft-365-apps2.png" alt-text="Screenshot showing selected checkbox of Pin Copilot Chat in Microsoft 365 apps" lightbox="media/pin-copilot-microsoft-365-apps2.png":::
 
 The following role can access the pinning setting in the Microsoft 365 admin center:
 
