@@ -33,6 +33,8 @@ As an admin, you can pin Microsoft 365 Copilot Chat in the Microsoft 365 apps an
 
 :::image type="content" source="../microsoft-365/media/pin-copilot-microsoft-365-apps3.png" alt-text="sss":::
 
+:::image type="content" source="../microsoft-365/media/pin-copilot-microsoft-365-apps3.jpg" alt-text="Screenshot showing selected checkbox of Pin Copilot Chat in Microsoft 365 apps - recommended":::
+
 The following role can access the pinning setting in the Microsoft 365 admin center:
 
 - AI Administrator
@@ -66,9 +68,9 @@ You can make changes to Copilot Chat pinning settings at any time. Changes take 
 
 You can pin the Microsoft 365 Copilot app to the Windows taskbar of managed devices.
 
-:::image type="content" source="../microsoft-365/media/pin-copilot-microsoft-365-win-taskbar.png" alt-text="Screenshot showing the link to pin Microsoft 365 Copilot app to the Windows taskbar":::
+:::image type="content" source="media/pin-copilot-microsoft-365-win-taskbar.png" alt-text="Screenshot showing the link to pin Microsoft 365 Copilot app to the Windows taskbar":::
 
-:::image type="content" source="../microsoft-365/media/pin-copilot-microsoft-365-win-taskbar.png" alt-text="sss":::
+:::image type="content" source="../microsoft-365/media/pin-copilot-microsoft-365-win-taskbar.jpg" alt-text="Screenshot showing the link to pin Microsoft 365 Copilot app to the Windows taskbar":::
 
 This setting is only applicable to users who have an active Intune license. To view or configure Copilot taskbar pinning in the Microsoft 365 admin center, you need to be a member of the **Intune Administrator** role.
 
