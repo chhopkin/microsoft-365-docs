@@ -56,7 +56,7 @@ Pinning agents is a feature that enables administrators to preselect and pin age
 - Global Administrator
 - AI Administrator
 - Access to Microsoft 365 admin center
-- (Optional) Power Platform admin center access if you use Pay-as-you-go (pay-as-you-go) for agents
+- (Optional) Power Platform admin center access if you use Pay-as-you-go for agents
 
 ## Pinned agents
 
