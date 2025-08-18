@@ -83,9 +83,9 @@ For large enterprises with complex needs, you can set up the Pinning policy to a
 5. In policies, look for "Pin Microsoft Copilot to the navigation bar."
    
    The flyout panel displays the configuration options. 
-7. Select an option and apply.
-8. Review final changes.
-9. Publish.
+6. Select an option and apply.
+7. Review final changes.
+8. Publish.
 
 ## User experience
 
