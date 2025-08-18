@@ -137,6 +137,7 @@ When enabled, Microsoft 365 Backup sends email alerts to a __Backup Notification
 
 You can add up to 20 individual recipients to the list or include distribution lists and security groups. By default, recipients are notified only about potentially harmful events, but you can also opt in to receive notifications for routine events. Notifications are sent as a __daily email digest__ when at least one relevant event occurs. If both notification types are enabled, you’ll receive two separate emails—one for potentially harmful events and another for routine events.
 
+
 __Events that trigger notifications__
 
 __Potentially harmful events:__
