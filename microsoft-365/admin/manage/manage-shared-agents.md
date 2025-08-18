@@ -19,6 +19,7 @@ ms.collection:
 - Adm_TOC
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 description: "Learn how to manage shared agents for Microsoft 365 Copilot in the Microsoft 365 admin center."
 ---
 
