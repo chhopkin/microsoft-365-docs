@@ -18,6 +18,7 @@ ms.collection:
 - Adm_TOC
 - Microsoft
 - 365-subscription-management
+- operations-pod
 ms.custom: AdminSurgePortfolio
 monikerRange: o365-worldwide
 search.appverid:

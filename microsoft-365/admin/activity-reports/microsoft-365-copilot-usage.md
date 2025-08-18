@@ -15,6 +15,7 @@ ms.collection:
 - Adm_O365
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 ms.custom:
 - campaignIDs-batch1
 search.appverid:

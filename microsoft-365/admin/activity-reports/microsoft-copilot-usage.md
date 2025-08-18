@@ -15,6 +15,7 @@ ms.collection:
 - Adm_O365
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 description: "Learn about the Microsoft 365 Copilot Chat usage report and gain insights into the Microsoft 365 Copilot Chat activity in your organization."
 ---
 

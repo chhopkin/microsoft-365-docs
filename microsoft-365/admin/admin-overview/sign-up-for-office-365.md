@@ -20,6 +20,7 @@ ms.collection:
 - TRN_SMB
 - Adm_TOC
 - ContentFreshnessFY24
+- operations-pod
 ms.custom:
 - commerce_signup
 - VSBFY23
