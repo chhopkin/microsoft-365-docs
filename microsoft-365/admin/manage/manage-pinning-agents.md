@@ -33,7 +33,7 @@ description: "Learn how to manage pinning of agents for Microsoft 365 Copilot in
 
 >[!NOTE]
 >
-> - Pinning agents is currently in limited public preview. For more information, see [Stay on top of updates](stay-on-top-of-updates.md#learn-about-microsoft-365-previews)
+> - Pinning agents is currently in limited public preview. For more information, see [Stay on top of updates](stay-on-top-of-updates.md#learn-about-microsoft-365-previews).
 >
 > - After pinning an Agent, it may take up to six hours for end-users to see it as pinned.
 >
