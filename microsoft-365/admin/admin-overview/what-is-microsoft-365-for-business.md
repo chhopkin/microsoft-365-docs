@@ -15,6 +15,7 @@ ms.collection:
 - highpri
 - M365-subscription-management
 - Adm_O365
+- operations-pod
 ms.custom:
 - VSBFY23
 - AdminSurgePortfolio

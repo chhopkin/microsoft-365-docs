@@ -15,6 +15,7 @@ ms.collection:
 - scotvorg
 - highpri
 - Adm_TOC
+- operations-pod
 ms.custom:
 - VSBFY23
 - AdminSurgePortfolio

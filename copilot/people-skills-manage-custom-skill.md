@@ -3,6 +3,7 @@ title: Manage custom skills
 description: Learn how to modify and import or export custom skills.
 author: kwekuako
 ms.author: kwekua
+ms.collection: operations-pod
 manager: dansimp
 ms.service: microsoft-365-copilot
 ms.topic: article

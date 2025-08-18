@@ -13,6 +13,7 @@ ms.subservice: m365-commerce-volume-licensing
 ms.collection:
 - Tier1
 - scotvorg
+- operations-pod
 ms.custom:
 - commerce_vl
 - AdminTemplateSet

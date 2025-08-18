@@ -13,6 +13,7 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - must-keep
+- operations-pod
 ms.custom: 
 description: "Learn about the accessibility conformance and features of the Microsoft 365 admin center."
 ms.date: 10/20/2023
