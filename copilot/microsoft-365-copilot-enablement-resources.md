@@ -16,6 +16,7 @@ ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---

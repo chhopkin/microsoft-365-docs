@@ -15,6 +15,7 @@ ms.collection:
 - Tier1
 - scotvorg
 - Adm_o365
+- operations-pod
 ms.custom:
 - commerce_licensing
 - original owners paprud, marketing

@@ -19,6 +19,7 @@ ms.collection:
 - Adm_TOC
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 description: "Learn about Copilot in Microsoft 365 admin centers and how it can help simplify admin tasks."
 ---
 

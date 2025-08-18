@@ -15,6 +15,7 @@ ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 description: Enterprise and company IT admins can add Microsoft 365 Copilot to their  Microsoft 365 subscription plans. This article describes the Microsoft 365 Copilot license plans that let you add Copilot and how to add them to your subscription.
 appliesto:
 - ✅ Microsoft 365 Copilot

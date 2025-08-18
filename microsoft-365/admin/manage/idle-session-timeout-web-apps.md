@@ -14,6 +14,7 @@ ms.collection:
 - Tier3
 - scotvorg
 - Adm_TOC
+- operations-pod
 description: "Set how long user's session lasts in Microsoft 365 before they're timed out."
 ---
 
