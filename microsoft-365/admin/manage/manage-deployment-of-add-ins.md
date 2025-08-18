@@ -17,6 +17,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_TOC
+- operations-pod
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb

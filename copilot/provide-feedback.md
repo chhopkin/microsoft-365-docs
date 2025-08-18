@@ -15,6 +15,7 @@ ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 description: "Learn how to provide Microsoft 365 Copilot feedback to Microsoft on behalf of your users who encounter issues"
 appliesto:
 - ✅ Microsoft 365 Copilot
