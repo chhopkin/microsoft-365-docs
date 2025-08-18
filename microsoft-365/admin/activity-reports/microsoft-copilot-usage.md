@@ -10,7 +10,7 @@ ms.topic: concept-article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.collection:
-- Tier2
+- Tier1
 - M365-subscription-management
 - Adm_O365
 - m365copilot
