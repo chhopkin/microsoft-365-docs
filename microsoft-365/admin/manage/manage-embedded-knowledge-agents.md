@@ -63,7 +63,7 @@ When a file is uploaded to an agent, it's stored in a SharePoint Embedded contai
 
 ## View agent metadata
 
-On the **Agents & connectors** page in the Microsoft 365 admin center, you can filter the agent inventory to view only agents that use embedded files as knowledge sources.
+On the **Agents** page in the Microsoft 365 admin center, you can filter the agent inventory to view only agents that use embedded files as knowledge sources.
 
 :::image type="content" source="../../media/knowledge-agent-filter.png" alt-text="Screenshot showing the agents and connectors page in the Microsoft 365 admin center with the filters highlighted." lightbox="../../media/knowledge-agent-filter.png":::
 
