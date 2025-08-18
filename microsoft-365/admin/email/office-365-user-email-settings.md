@@ -14,6 +14,7 @@ ms.collection:
 - scotvorg
 - Adm_O365
 - Adm_TOC
+- operations-pod
 ms.custom: AdminSurgePortfolio
 ms.localizationpriority: medium
 search.appverid:

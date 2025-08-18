@@ -17,6 +17,7 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - must-keep
+- operations-pod
 search.appverid:
 - MET150
 - MOE150
