@@ -9,6 +9,7 @@ ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.collection:
 - CopilotSearch
+- operations-pod
 ms.reviewer: kwekua
 audience: admin
 ai-usage: ai-assisted

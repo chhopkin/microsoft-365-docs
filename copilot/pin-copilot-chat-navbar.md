@@ -19,6 +19,7 @@ ms.collection:
 - Adm_TOC
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 description: "Learn how to improve the use of Microsoft 365 Copilot Chat across your organization by pinning it to the navigation bar in Teams, Outlook, and the Microsoft 365 Copilot app cross the web, desktop, and mobile."
 ---
 

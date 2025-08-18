@@ -14,6 +14,7 @@ ms.collection:
 - M365-subscription-management
 - scotvorg
 - highpri
+- operations-pod
 ms.custom: 
 search.appverid: MET150
 description: "Learn more about Meetings insights score - people experiences Adoption Score."
