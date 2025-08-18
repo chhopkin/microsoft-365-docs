@@ -19,6 +19,7 @@ ms.collection:
 - Adm_TOC
 - Adm_O365_Setup
 - TRN_SMB
+- operations-pod
 ms.custom:
 - VSBFY23
 - TRN_M365B
