@@ -74,9 +74,9 @@ You can manage priority accounts in the Microsoft Defender portal or the Microso
 
        Back on the **Assign members** page, the users and groups that you added are listed by **Name** and **Type**.
 
-     - Select :::image type="icon" source="media/m365-cc-sc-download-icon.png" border="false"::: **Import** to select a text file that contains the email addresses of the users or groups (one entry per line).
+     - Select :::image type="icon" source="../../media/m365-cc-sc-download-icon.png" border="false"::: **Import** to select a text file that contains the email addresses of the users or groups (one entry per line).
 
-     - **Remove members**: In the list of members on the **Assign members** page, select :::image type="icon" source="media/m365-cc-sc-delete-icon.png" border="false"::: **Delete** in the entry row.
+     - **Remove members**: In the list of members on the **Assign members** page, select :::image type="icon" source="../../media/m365-cc-sc-delete-icon.png" border="false"::: **Delete** in the entry row.
 
    When you're finished on the **Assign members** page, select **Next**.
 
