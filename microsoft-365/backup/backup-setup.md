@@ -184,6 +184,9 @@ __Set up multi-admin notifications__
 
 1. Save your changes.
 
+> [!NOTE]
+> We highly recommend enabling multi-admin notifications, at a minimum for potentially harmful events.
+
 ## Create backup policies to protect your data
 
 Now that Microsoft 365 Backup is enabled for your organization, follow through to create policies and start protecting your content.
