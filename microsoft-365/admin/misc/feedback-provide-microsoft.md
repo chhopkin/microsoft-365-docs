@@ -2,8 +2,8 @@
 title: "Learn about how to provide feedback to Microsoft"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: danbrown
+author: DHB-MSFT
 manager: dansimp
 ms.date: 01/06/2025
 audience: Admin
@@ -13,8 +13,7 @@ ms.localizationpriority: medium
 ms.collection:
 - trust-pod
 - feedback-content
-- Tier2
-- scotvorg
+hideEdit: true
 description: "Learn about the different ways you can provide feedback to Microsoft about Microsoft products and services."
 ---
 
