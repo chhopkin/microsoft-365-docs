@@ -2,21 +2,23 @@
 title: Microsoft 365 Copilot welcome email and feedback
 f1.keywords:
 - NOCSH
-ms.author: camillepack
-author: camillepack
-manager: scotv
+ms.author: efrene
+author: Efrene
+manager: dansimp
 ms.date: 05/20/2025
+ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 description: Enterprise and company IT admins can send a Microsoft 365 Copilot welcome email to users and enable feedback. This welcome email is part of the Copilot adoption and onboarding process.
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # Welcome users and enable feedback for Microsoft 365 Copilot

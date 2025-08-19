@@ -2,21 +2,22 @@
 title: "Manage devices enrolled in Mobile Device Management in Microsoft 365"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
-manager: scotv
+ms.author: deniseb
+author: denisebmsft
+manager: dansimp
 ms.date: 11/11/2024
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-basic-mobility-security
 ms.localizationpriority: medium
 ms.collection:
-- Tier3 
+- Tier3
 - scotvorg
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
 - basic-mobility-security
+- trust-pod
 ms.custom:
 - AdminSurgePortfolio
 - admindeeplinkMAC
