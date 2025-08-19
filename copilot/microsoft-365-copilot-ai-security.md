@@ -192,9 +192,9 @@ Organizations share responsibility for securing AI systems. Microsoft provides t
 
 3. [Ensure users have appropriate permissions](/purview/information-protection-solution), such as *extract* or *view* rights, to allow Copilot to interact with content appropriately. 
 
-4. When Copilot is restricted from accessing content, users are notified, this interaction can be monitored. 
+4. When Copilot is restricted from accessing content, users are notified, this interaction can be monitored. See [Data stored about user interactions with Microsoft 365 Copilot](microsoft-365-copilot-privacy.md#data-stored-about-user-interactions-with-microsoft-365-copilot)
 
-5. Extend DLP coverage across Copilot Chat and in-app experiences in Word, Excel, and PowerPoint for consistent protection.
+5. Extend DLP coverage across Copilot Chat and in-app experiences in Word, Excel, and PowerPoint for consistent protection. See [Learn about data loss prevention](/purview/dlp-learn-about-dlp).
 
 ### Control access to data
 
