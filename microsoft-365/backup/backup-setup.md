@@ -5,7 +5,7 @@ author: chuckedmonson
 manager: jtremper
 audience: admin
 ms.reviewer: sreelakshmi
-ms.date: 08/01/2025
+ms.date: 08/19/2025
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-backup
 ms.custom: backup
@@ -133,60 +133,50 @@ To turn on Microsoft 365 Backup, you need to go to the Microsoft 365 admin cente
 
 Email notifications help ensure that potentially harmful or important changes in Microsoft 365 Backup solution are brought to the attention of multiple people in your organization. This reduces the risk of critical actions going unnoticed.
 
-When enabled, Microsoft 365 Backup sends email alerts to a **Backup Notification List** whenever an important backup event occurs. Global admins and Microsoft 365 Backup admins can turn this feature on and update the notification list at any time.
+When enabled, Microsoft 365 Backup sends email alerts to a **Backup Notification List** whenever an important backup event occurs. Global admins and Microsoft 365 Backup admins can turn on this feature and update the notification list at any time.
 
-You can add up to 20 individual recipients to the list or include distribution lists and security groups. By default, recipients are notified only about potentially harmful events, but you can also opt in to receive notifications for routine events. Notifications are sent as a **daily email digest** when at least one relevant event occurs. If both notification types are enabled, you’ll receive two separate emails—one for potentially harmful events and another for routine events.
+You can add up to 20 individual recipients to the list or include distribution lists and security groups. By default, recipients are notified only about potentially harmful events, but you can also opt in to receive notifications for routine events. Notifications are sent as a **daily email digest** when at least one relevant event occurs. If both notification types are enabled, you receive two separate emails—one for potentially harmful events and another for routine events.
 
 ### Events that trigger notifications
 
 #### Potentially harmful events
 
-- Disablement of Microsoft 365 Backup.
-
-- Pausing of billing due to issues or admin action.
-
-- Removal of protection units from backup policies.
-
-- Offboarding of protection units (deletion of backups).
-
-- Pausing of a backup policy.
-
-- Transfer of backup controllers between Microsoft and third-party providers.
-
-- Revocation of the Controller app.
-
-- Change in the Backup Notification List membership.
-
-- Enablement or disablement of the notifications feature.
+- Disabling Microsoft 365 Backup
+- Pausing billing due to issues or admin action
+- Removing protection units from backup policies
+- Offboarding protection units (deletion of backups)
+- Pausing a backup policy
+- Transferring backup controllers between Microsoft and third-party providers
+- Revoking the Controller app
+- Changing membership in the Backup Notification List
+- Enabling or disabling the notifications feature
 
 #### Routine events
 
-- Completion of backup routine jobs.
-
-- Creation or modification of backup policies.
-
-- Initiation or completion of a restore.
+- Completing backup routine jobs
+- Creating or modifying backup policies
+- Initiating or completing restores
 
 ### Set up multi-admin notifications
 
-1. Sign in to Microsoft 365 admin center as a Global admin, Microsoft 365 Backup admin, or SharePoint or Exchange admin.
+1. Sign in to Microsoft 365 admin center as a Global admin, Microsoft 365 Backup admin, SharePoint admin, or Exchange admin.
 
-1. Go to Manage notifications option in the Microsoft 365 Backup enablement page, or Email notifications option in the Microsoft 365 Backup homepage.  
+2. Go to the **Manage** notifications option on the **Backup** panel, or the **Email notifications** option on the **Microsoft 365 Backup** home page.  
 
     ![Screenshot of the Backup panel in the Microsoft 365 admin center showing the Manage notifications option.](../media/m365-backup/backup-manage-notifications-option.png)
 
     ![Screenshot of the Microsoft 365 Backup page in the Microsoft 365 admin center showing the Email notifications option.](../media/m365-backup/backup-email-notifications-option.png)
 
-1. Turn on notifications.
+3. Turn on notifications.
 
-1. Add users, distribution lists, or security groups (only email enabled) to the Backup Notification List.
+4. Add users, distribution lists, or security groups (only email enabled) to the Backup Notification List.
 
-1. (Optional) Select the checkbox to also receive routine event notifications.
+5. (Optional) Select the checkbox to also receive routine event notifications.
 
-1. Save your changes.
+6. Save your changes.
 
 > [!NOTE]
-> We highly recommend enabling multi-admin notifications, at a minimum for potentially harmful events.
+> We highly recommend enabling multi-admin notifications, at a minimum, for potentially harmful events.
 
 ## Create backup policies to protect your data
 
