@@ -44,21 +44,21 @@ This article describes how to tag users and groups as priority accounts, and the
 > [!IMPORTANT]
 > <sup>\*</sup> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
-<a name='add-priority-accounts-from-the-microsoft-365-defender-page'></a>
-
-<a name='add-priority-accounts-from-the-microsoft-defender-xdr-page'></a>
-
 ## Manage priority accounts
 
 You can manage priority accounts in the Microsoft Defender portal or the Microsoft 365 admin center.
+
+<a name='add-priority-accounts-from-the-microsoft-365-defender-page'></a>
+
+<a name='add-priority-accounts-from-the-microsoft-defender-xdr-page'></a>
 
 ### Manage priority accounts in the Microsoft Defender portal
 
 1. In the Microsoft Defender portal at <https://security.microsoft.com>, go to **Settings** \> **Email & collaboration** \> **User tags**. Or, to go directly to the **User tags** page, use <https://security.microsoft.com/securitysettings/userTags>.
 
 2. On the **User tags** page, do one of the following steps to select and edit the **Priority account** tag:
-   - Select the check box next to the first column, and then select the :::image type="icon" source="../../media/m365-cc-sc-edit-icon.png" border="false"::: **Edit** action that appears.
-   - Click anywhere in the row other than the check box. In the details flyout that opens, select :::image type="icon" source="../../media/m365-cc-sc-edit-icon.png" border="false"::: **Edit** at the top of the flyout
+   - Select the check box next to the first column of the **Priority account** row, and then select the :::image type="icon" source="../../media/m365-cc-sc-edit-icon.png" border="false"::: **Edit** action that appears.
+   - Click anywhere in the **Priority account** row other than the check box. In the details flyout that opens, select :::image type="icon" source="../../media/m365-cc-sc-edit-icon.png" border="false"::: **Edit** at the top of the flyout
 
 3. The **Edit tag Priority account** wizard opens. On the **Assign members** page, take either of the following actions:
    - **Add members**: Do either of the following steps:
@@ -134,7 +134,7 @@ After you tag users or groups as priority accounts, they get the following prote
   > When you apply priority account protection to a mailbox, you should also apply priority account protection to users with access to the mailbox. For example, the CEO and their executive assistant.
 
 - **Email monitoring in Exchange Online**: Email monitoring features for priority accounts have the following requirements:
-  - At least 5,000 licenses in any combination from the following products:
+  - At least 5,000 licenses in any combination of the following products:
     - Office 365 E3
     - Microsoft 365 E3
     - Office 365 E3
