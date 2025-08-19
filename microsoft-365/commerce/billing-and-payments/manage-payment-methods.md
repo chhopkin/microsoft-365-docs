@@ -4,18 +4,19 @@ f1.keywords:
 - CSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: scotv
+manager: dansimp
 ms.reviewer: lishepar, jobailey
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-management
 ms.localizationpriority: high
-ms.collection: 
+ms.collection:
 - Tier1
 - scotvorg
 - M365-subscription-management
 - Adm_O365
+- operations-pod
 ms.custom:
 - commerce_billing
 - TopSMBIssues
@@ -30,7 +31,7 @@ ms.custom:
 - campaignIDs-batch1
 search.appverid: MET150
 description: "Learn how to manage your payment methods for Microsoft business products or services in the Microsoft 365 admin center."
-ms.date: 07/23/2025
+ms.date: 08/14/2025
 ---
 
 # Manage payment methods for Microsoft business accounts
@@ -99,7 +100,7 @@ When you replace an existing payment method, you can add a new one or use a paym
 If you have an MCA billing account type, you can replace the payment method currently linked with a billing profile. If you have an MOSA billing account type, you can replace the payment method associated with one or more subscriptions.
 
 > [!IMPORTANT]
-> Replacing a payment method doesn't delete the existing payment method. The old payment method is still available for you to select and use for other subscriptions and billing profiles. Learn how to delete a payment method.
+> Replacing a payment method doesn't delete the existing payment method. The old payment method is still available for you to select and use for other subscriptions and billing profiles. [Learn how to delete a payment method](#delete-a-payment-method).
 
 1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>.
 

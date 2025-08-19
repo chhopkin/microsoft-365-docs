@@ -3,8 +3,8 @@ title: Release Notes for Microsoft 365 Copilot
 description: Lists the features that have reached General Availability in each release of Microsoft 365 Copilot.
 f1.keywords:
 - NOCSH
-ms.author: mandia
-author: MandiOhlinger
+ms.author: kwekua
+author: kwekuako
 manager: dansimp
 ms.update-cycle: 180-days
 ms.date: 08/5/2025
@@ -13,14 +13,15 @@ ms.reviewer: briandesouza
 ms.topic: get-started
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
 - essentials-overview
+- operations-pod
 ms.custom: [copilot-learning-hub]
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # Microsoft 365 Copilot release notes

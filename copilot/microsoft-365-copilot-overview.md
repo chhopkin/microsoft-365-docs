@@ -3,8 +3,8 @@ title: What is Microsoft 365 Copilot?
 description: Learn about what Microsoft 365 Copilot is and common Copilot features in Microsoft 365 apps, like Word, Excel, PowerPoint, and Teams. This article answers common questions about Copilot, including what is Copilot, how Copilot works, and the benefits of using Copilot.
 f1.keywords:
 - NOCSH
-ms.author: camillepack
-author: camillepack
+ms.author: efrene
+author: Efrene
 ms.update-cycle: 180-days
 manager: dansimp
 ms.date: 08/07/2025
@@ -13,11 +13,12 @@ ms.reviewer: mandia
 ms.topic: overview
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
 - essentials-overview
+- operations-pod
 ms.custom: [copilot-learning-hub]
 appliesto:
 - ✅ Microsoft 365 Copilot

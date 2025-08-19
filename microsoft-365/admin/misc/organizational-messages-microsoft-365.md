@@ -2,20 +2,21 @@
 title: "Organizational messages in the Microsoft 365 admin center"
 f1.keywords:
 - NOCSH
-ms.author: camillepack
-author: camillepack
-manager: scotv
+ms.author: kwekua
+author: kwekuako
+manager: dansimp
 ms.date: 11/18/2024
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier2
 - scotvorg
-- M365-subscription-management 
+- M365-subscription-management
 - Adm_O365
 - Adm_TOC
+- operations-pod
 ms.custom: campaignIDs-batch2
 search.appverid:
 - MET150
