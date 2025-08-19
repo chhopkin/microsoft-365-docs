@@ -176,7 +176,7 @@ You can add up to 20 individual recipients to the list or include distribution l
 6. Save your changes.
 
 > [!NOTE]
-> We highly recommend enabling multi-admin notifications, at a minimum for potentially harmful events.
+> We highly recommend enabling multi-admin notifications, at a minimum, for potentially harmful events.
 
 ## Create backup policies to protect your data
 
