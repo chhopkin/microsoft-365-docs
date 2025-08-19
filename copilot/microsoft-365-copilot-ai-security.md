@@ -194,11 +194,11 @@ Organizations share responsibility for securing AI systems. Microsoft provides t
 
 4. When Copilot is restricted from accessing content, users are notified, this interaction can be monitored. See [Data stored about user interactions with Microsoft 365 Copilot](microsoft-365-copilot-privacy.md#data-stored-about-user-interactions-with-microsoft-365-copilot)
 
-5. Extend DLP coverage across Copilot Chat and in-app experiences in Word, Excel, and PowerPoint for consistent protection. See [Learn about data loss prevention](/purview/dlp-learn-about-dlp).
+5. Extend DLP coverage across Copilot Chat and in-app experiences in Word, Excel, and PowerPoint for consistent protection. See [Learn about DLP](/purview/dlp-learn-about-dlp).
 
 ### Control access to data
 
-Customers and Organizations should apply Microsoft Purview sensitivity labels to classify and protect content, enforce Data Loss Prevention (DLP) policies to block Copilot from accessing sensitive data, and use Double Key Encryption (DKE) to retain exclusive control over encryption keys for highly confidential information.
+You can apply [Microsoft Purview sensitivity labels](/purview/default-sensitivity-labels-policies) to classify and protect content, enforce [DLP policies](/purview/dlp-policy-reference) to block Copilot from accessing sensitive data, and use [DKE](/purview/double-key-encryption) to retain exclusive control over encryption keys for highly confidential information.
 
 #### Use targeted Conditional Access policies for Copilot
 
