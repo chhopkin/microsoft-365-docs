@@ -145,7 +145,7 @@ For more information, see [Build a strong security posture for AI](/security/sec
 
 #### Safeguarding data across the AI lifecycle
 
-[Advanced Data Residency (ADR)](/microsoft-365/enterprise/advanced-data-residency#overview-of-advanced-data-residency) and Multi-Geo capabilities help meet regional requirements. Customers who have purchased ADR or Multi-Geo add-ons can control where certain Microsoft 365 data is stored, in accordance with regulatory requirements.
+[Advanced Data Residency (ADR)](/microsoft-365/enterprise/advanced-data-residency#overview-of-advanced-data-residency) and [Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo) capabilities help meet regional requirements. Customers who have purchased ADR or Multi-Geo add-ons can control where certain Microsoft 365 data is stored, in accordance with regulatory requirements.
 
 When a user interacts with Copilot, their prompt is processed through a secure orchestration layer that coordinates between Microsoft 365 apps, Microsoft Graph, and the Azure OpenAI Service. The data flow follows these principles: 
 
