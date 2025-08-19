@@ -16,6 +16,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - must-keep
+- operations-pod
 ms.custom:
 - Lean
 - MSStore_Link

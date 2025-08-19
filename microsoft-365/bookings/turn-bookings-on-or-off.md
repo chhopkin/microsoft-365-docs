@@ -13,6 +13,7 @@ ms.collection:
 - Tier1
 - scotvorg
 - essentials-manage
+- operations-pod
 description: "Turn on or off Shared Bookings for organization"
 ---
 

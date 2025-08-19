@@ -13,6 +13,7 @@ ms.localizationpriority: medium
 ms.collection:
 - Tier2
 - scotvorg
+- operations-pod
 ROBOTS: NOINDEX; NOFOLLOW
 description: "Recommendations for how to use Microsoft 365 admin mobile app to get the most out of your Microsoft 365 subscription."
 ---

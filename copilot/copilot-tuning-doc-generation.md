@@ -2,6 +2,7 @@
 title: Configure Copilot Tuning for document generation
 author: kwekuako
 ms.author: kwekua
+ms.collection: operations-pod
 manager: dansimp
 ms.audience: ITPro
 ms.reviewer: jwolk

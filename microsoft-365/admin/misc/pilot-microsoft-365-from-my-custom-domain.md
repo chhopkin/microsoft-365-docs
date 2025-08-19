@@ -15,6 +15,7 @@ ms.collection:
 - scotvorg
 - Adm_O365
 - Adm_TOC
+- operations-pod
 ms.custom:
 - admindeeplinkMAC
 - admindeeplinkEXCHANGE

@@ -17,6 +17,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - SPO_Content
+- operations-pod
 ms.custom:
 - commerce_subscriptions
 - MAX_CampaignID
