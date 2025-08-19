@@ -161,7 +161,7 @@ You can add up to 20 individual recipients to the list or include distribution l
 
 1. Sign in to Microsoft 365 admin center as a Global admin, Microsoft 365 Backup admin, SharePoint admin, or Exchange admin.
 
-2. Go to the **Manage** notifications option on the Microsoft 365 Backup panel, or the **Email notifications** option on the Microsoft 365 Backup home page.  
+2. Go to the **Manage** notifications option on the **Backup** panel, or the **Email notifications** option on the **Microsoft 365 Backup** home page.  
 
     ![Screenshot of the Backup panel in the Microsoft 365 admin center showing the Manage notifications option.](../media/m365-backup/backup-manage-notifications-option.png)
 
