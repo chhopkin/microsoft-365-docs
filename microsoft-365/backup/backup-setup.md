@@ -133,10 +133,9 @@ To turn on Microsoft 365 Backup, you need to go to the Microsoft 365 admin cente
 
 Email notifications help ensure that potentially harmful or important changes in Microsoft 365 Backup solution are brought to the attention of multiple people in your organization. This reduces the risk of critical actions going unnoticed.
 
-When enabled, Microsoft 365 Backup sends email alerts to a **Backup Notification List** whenever an important backup event occurs. Global admins and M365 Backup admins can turn this feature on and update the notification list at any time.
+When enabled, Microsoft 365 Backup sends email alerts to a **Backup Notification List** whenever an important backup event occurs. Global admins and Microsoft 365 Backup admins can turn this feature on and update the notification list at any time.
 
 You can add up to 20 individual recipients to the list or include distribution lists and security groups. By default, recipients are notified only about potentially harmful events, but you can also opt in to receive notifications for routine events. Notifications are sent as a **daily email digest** when at least one relevant event occurs. If both notification types are enabled, you’ll receive two separate emails—one for potentially harmful events and another for routine events.
-
 
 ### Events that trigger notifications
 
@@ -154,7 +153,7 @@ You can add up to 20 individual recipients to the list or include distribution l
 
 - Transfer of backup controllers between Microsoft and third-party providers.
 
-- Revocation of the Controller app
+- Revocation of the Controller app.
 
 - Change in the Backup Notification List membership.
 
@@ -162,13 +161,11 @@ You can add up to 20 individual recipients to the list or include distribution l
 
 #### Routine events
 
-- Completion of backup routine jobs
+- Completion of backup routine jobs.
 
-- Creation or modification of backup policies
+- Creation or modification of backup policies.
 
-- Initiation or completion of a restore
-
- 
+- Initiation or completion of a restore.
 
 ### Set up multi-admin notifications
 
