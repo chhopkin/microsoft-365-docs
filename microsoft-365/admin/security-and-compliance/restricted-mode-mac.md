@@ -87,6 +87,25 @@ You must be a member of the [Exchange online administrator role](../add-users/ab
 |---------|---------|
 | Disable tenant-wide access to Exchange web services (EWS) |Exchange web services (EWS) provides cross-platform API access to sensitive Exchange Online data like emails, meetings, and contacts. If compromised, attackers can access confidential data, send phishing emails, spoof identities and potentially gain system control. When you disable access to EWS, you also reduce legacy app usage and minimize the number of endpoints that attackers can target.  <br/><br/> For more information, see [Control access to EWS](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)|
 
+#### Requirements
+
+Before you can disable EWS, make sure that you meet these requirements:
+
+- Current Channel (CC): will require the CC July 2025 Fork. This will be shipped end of August 2025.
+- For Monthly Enterprise Channel (MEC): will require the MEC July 2025  Fork. This will be shipped in November 2025.
+- For Semi Annual Channel (SAC): will require the SAC July 2025 Fork. This will be shipped on January 2026.
+
+> [!NOTE]
+> These statements and build requirements are Win32 only.
+
+#### Impact of Restricted mode settings on cross-tenant features
+
+Currently the following features will not work when Restricted mode settings are enabled:
+
+- Calendar sharing and Free/Busy (cross-tenant/cloud)
+- MailTips (cross-tenant/cloud)
+- User photo and profile (cross-tenant/cloud)
+
 ### Identity settings
 
 This section outlines the options available within Identity to turn off Restricted mode settings in the Microsoft 365 admin center.
