@@ -101,7 +101,16 @@ Microsoft 365 Copilot generated content is governed by the same access controls 
 
 ### Privacy and compliance by design
 
-Microsoft 365 Copilot adheres to enterprise-grade [privacy and compliance standards](microsoft-365-copilot-privacy.md). Key safeguards are described in the following sections.
+Microsoft 365 Copilot adheres to enterprise-grade privacy and compliance standards, as described in [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md). This section outlines some of the security-based and privacy approaches. Protections that are enforced through security controls include:
+
+- Data access enforcement
+- User-centric access
+- Encryption and isolation
+- Compliance tooling
+- Safeguarding data across the AI lifecycle
+- EU data boundary
+- Cross-cloud governance for AI workloads
+- Policy integration and enforcement
 
 #### Data access enforcement
 
@@ -109,7 +118,7 @@ Copilot respects Microsoft Entra ID permissions and Microsoft Purview policies. 
 
 Copilot connectors enhance the value of Copilot while maintaining the same enterprise-grade protections.
 
-#### Access is user-centric
+#### User-centric access
 
 Copilot only accesses data the user is authorized to view and can't retrieve or act on content the user can't access directly. 
 
