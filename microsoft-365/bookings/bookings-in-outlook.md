@@ -15,6 +15,7 @@ ms.collection:
 - essentials-get-started
 - essentials-manage
 - must-keep
+- operations-pod
 description: "Steps to turn off Personal Bookings."
 ---
 

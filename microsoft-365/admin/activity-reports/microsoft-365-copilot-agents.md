@@ -1,14 +1,15 @@
 ---
 title: "Agent usage in Microsoft 365 Copilot"
-ms.author: camillepack
+ms.author: cmcatee
 author: camillepack
-manager: scotv
+manager: dansimp
 ms.date: 10/02/2024
+ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier2
 - scotvorg
 - M365-subscription-management
@@ -16,6 +17,7 @@ ms.collection:
 - Adm_NonTOC
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160

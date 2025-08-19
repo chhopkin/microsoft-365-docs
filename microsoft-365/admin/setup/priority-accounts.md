@@ -2,9 +2,9 @@
 title: "Manage and monitor priority accounts"
 f1.keywords:
 - CSH
-ms.author: kwekua
-author: kwekuako
-manager: scotv
+ms.author: deniseb
+author: denisebmsft
+manager: dansimp
 ms.date: 10/01/2024
 audience: Admin
 ms.topic: how-to
@@ -15,7 +15,7 @@ ms.collection:
 - scotvorg
 - Adm_O365
 - Adm_TOC
-ms.custom: 
+ms.custom:
 - AdminSurgePortfolio
 - admindeeplinkMAC
 description: "Monitor failed and delayed emailed messages sent to or from accounts who have high business impact."
