@@ -7,6 +7,7 @@ ms.audience: ITPro
 ms.reviewer: robertode
 ms.date: 06/17/2025
 ms.topic: how-to
+ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 description: Learn how to use Copilot Tuning to build an AI model for document summarization based on organizational knowledge.
 ---

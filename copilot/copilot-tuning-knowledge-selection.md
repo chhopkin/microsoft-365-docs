@@ -6,6 +6,7 @@ ms.author: mabond
 manager: dansimp
 ms.topic: concept-article
 ms.date: 07/17/2025
+ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ---
 
