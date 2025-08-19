@@ -14,6 +14,7 @@ ms.collection:
 - Tier1
 - scotvorg
 - Adm_TOC
+- operations-pod
 ms.custom:
 - AdminSurgePortfolio
 description: "Invite users to join Microsoft 365 Business Standard organization"

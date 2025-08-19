@@ -16,6 +16,7 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - ContentEnagagementFY25
+- operations-pod
 ms.custom:
 - VSBFY23
 - AdminSurgePortfolio
