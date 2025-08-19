@@ -37,6 +37,9 @@ Each aspect of this foundation forms a safer digital ecosystem for you to confid
 
 In addition to the following pillars, Microsoft embeds its Responsible AI principle-based governance across the entire AI lifecycle to ensure systems are developed and deployed ethically and securely. This strategy helps ensure AI behaves in ways that are trustworthy, responsible, and in alignment with user expectations. These principles are reflected in the [Transparency note for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-transparency-note).
 
+To prevent harmful or inappropriate outputs, Microsoft 365 Copilot uses classifiers and metaprompting to detect unsafe prompts and responses to keep behavior in alignment with [Microsoft’s Responsible AI principles](https://www.microsoft.com/en-us/ai/principles-and-approach) and remains within intended use cases. Microsoft provides development tools such as content filters, prompt evaluation frameworks, and risk templates to help engineers build secure, trustworthy Copilot experiences that are aligned with Responsible AI principles.
+
+
 ### Secure engineering and development practices
 
 Security is integrated from the ground up through our [Security Development Lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl/) (SDL). This integration ensures that vulnerabilities are identified and mitigated early in the development process. Microsoft also provides tailored security guidance and best practices for developers, engineers, and security professionals working with Microsoft AI technologies.
