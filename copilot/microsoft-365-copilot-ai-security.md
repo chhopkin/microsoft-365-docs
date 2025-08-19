@@ -241,7 +241,7 @@ Most importantly, educate your teams. Help them understand the risks of Shadow A
 
 Microsoft 365 Copilot is designed to enhance productivity while respecting enterprise security boundaries. However, phishing simulation testing has revealed limitations in Copilot's ability to detect and flag malicious content embedded in user prompts or referenced files. These findings have informed Microsoft's roadmap for improving AI-driven threat awareness and integrating Copilot more deeply with existing security tools. 
 
-To address this gap, Microsoft recommends a layered defense approach that combines Copilot with Microsoft Defender and Microsoft Purview:
+To help address this gap, Microsoft recommends a layered defense approach that combines Copilot with [Microsoft Defender](/defender-xdr/microsoft-365-defender) and Microsoft Purview:
 
 - Microsoft Defender for Office 365 continues to provide phishing protection at the email gateway, scanning messages before they reach the user's inbox.
 - Safe Links and Safe Attachments policies remain active even when content is surfaced through Copilot, helping to block access to malicious URLs or files.
