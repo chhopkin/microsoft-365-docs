@@ -243,16 +243,12 @@ Microsoft 365 Copilot is designed to enhance productivity while respecting enter
 
 To help address this gap, Microsoft recommends a layered defense approach that combines Copilot with [Microsoft Defender](/defender-xdr/microsoft-365-defender) and Microsoft Purview:
 
-- Microsoft Defender for Office 365 continues to provide phishing protection at the email gateway, scanning messages before they reach the user's inbox.
+- DPSM for AI helps you discover and protect AI apps.
+- Microsoft Defender for Office 365 continues to provide phishing protection at the email gateway, scanning messages before they reach the user’s inbox.
 - Safe Links and Safe Attachments policies remain active even when content is surfaced through Copilot, helping to block access to malicious URLs or files.
 - Microsoft Purview DLP policies can be configured to prevent Copilot from accessing or summarizing content that matches phishing indicators or sensitive data patterns.
 
 Additionally, organizations can use audit logs and eDiscovery to monitor Copilot interactions involving suspicious content, enabling security teams to investigate and respond to potential misuse.
-
-<!---
-#### Roadmap and future enhancements
-
-Microsoft is actively exploring ways to enhance Copilot's awareness of phishing and social engineering risks. Planned improvements include: - Integration with Microsoft Defender threat intelligence to flag known phishing patterns in prompts.- Contextual warnings when Copilot detects language or behavior consistent with phishing attempts. - Admin-configurable rules to restrict Copilot's ability to process content from unverified sources or flagged domains. --->
 
 ### Manage plugins and web interactions
 
