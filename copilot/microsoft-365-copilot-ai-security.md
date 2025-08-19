@@ -248,7 +248,7 @@ To help address this gap, Microsoft recommends a layered defense approach that c
 - [Safe Links](/defender-office-365/safe-links-about) and [Safe Attachments](/defender-office-365/safe-attachments-about) policies remain active even when content is surfaced through Copilot, helping to block access to malicious URLs or files.
 - [Microsoft Purview DLP policies](/purview/dlp-microsoft365-copilot-location-learn-about) can be configured to prevent Copilot from accessing or summarizing content that matches phishing indicators or sensitive data patterns.
 
-Additionally, organizations can use audit logs and eDiscovery to monitor Copilot interactions involving suspicious content, enabling security teams to investigate and respond to potential misuse.
+Additionally, you can use [audit logs](/purview/audit-copilot) and [eDiscovery](/purview/edisc) to monitor Copilot interactions involving suspicious content, enabling security teams to investigate and respond to potential misuse.
 
 ### Manage plugins and web interactions
 
