@@ -14,6 +14,7 @@ ms.collection:
 - Tier3
 - scotvorg
 - Adm_O365
+- operations-pod
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio

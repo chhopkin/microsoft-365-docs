@@ -17,6 +17,7 @@ ms.collection:
 - Adm_NonTOC
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 ms.custom: AdminSurgePortfolio
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn about the Message consumption report in the Microsoft 365 admin center and how it helps to manage costs associated with Microsoft 365 Copilot Chat."
