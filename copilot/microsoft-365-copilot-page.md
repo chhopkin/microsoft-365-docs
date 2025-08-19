@@ -3,21 +3,23 @@ title: Microsoft 365 admin center scenarios that configure Copilot
 description: Learn about some of the Microsoft 365 Copilot scenarios and some settings that IT admins can configure using the Copilot Control System in the Microsoft 365 admin center.
 f1.keywords:
 - NOCSH
-ms.author: camillepack
-author: camillepack
-manager: scotv
+ms.author: aaroncz
+author: aczechowski
+manager: dansimp
 ms.date: 04/09/2025
+ms.update-cycle: 180-days
 ms.reviewer: elvaf
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 appliesto:
- - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # Manage Microsoft 365 Copilot scenarios in the Microsoft 365 admin center

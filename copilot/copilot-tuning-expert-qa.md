@@ -1,8 +1,9 @@
 ---
 title: Configure Copilot Tuning for expert Q&A
-author: danielabom
-ms.author: danielabo
-manager: calvind
+author: kwekuako
+ms.author: kwekua
+ms.collection: operations-pod
+manager: dansimp
 ms.reviewer: jwolk
 ms.date: 07/16/2025
 ms.topic: how-to

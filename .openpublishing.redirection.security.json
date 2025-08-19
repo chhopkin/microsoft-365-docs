@@ -1,6 +1,11 @@
 {
    "redirections": [
-     {
+    {
+       "source_path": "microsoft-365/security/defender/advanced-hunting-IdentityEvents-table.md",
+       "redirect_url": "/defender-xdr/advanced-hunting-identityevents-table",
+       "redirect_document_id": false
+    },
+    {
        "source_path": "microsoft-365/security/defender-identity/directory-service-accounts.md",
        "redirect_url": "/defender-for-identity/deploy/directory-service-accounts?toc=/microsoft-365/security/defender/toc.json&bc=/microsoft-365/security/defender/breadcrumb/toc.json",
        "redirect_document_id": false

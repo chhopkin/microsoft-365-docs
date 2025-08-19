@@ -2,9 +2,9 @@
 title: "Enable developers to use app analytics in the Developer Portal for Teams"
 f1.keywords:
 - CSH
-ms.author: kvice
-author: kelleyvice-msft
-manager: scotv
+ms.author: kwekua
+author: kwekuako
+manager: dansimp
 ms.date: 04/14/2025
 audience: Admin
 ms.topic: how-to
@@ -12,14 +12,15 @@ ms.service: microsoft-365-enterprise
 ms.subservice: administration
 ms.localizationpriority: medium
 ms.reviewer: luywang
-ms.collection: 
+ms.collection:
 - scotvorg
 - highpri
 - M365-subscription-management
 - Adm_O365
 - Adm_O365_Setup
 - must-keep
-ms.custom: 
+- operations-pod
+ms.custom:
 - admindeeplinkMAC
 search.appverid:
 - MET150

@@ -17,7 +17,7 @@ ms.collection:
 - Adm_TOC
 - basic-mobility-security
 - trust-pod
-ms.custom: 
+ms.custom:
 - AdminSurgePortfolio
 - basic-mobility-security
 description: "Remove groups or policies to turn off Basic Mobility and Security."

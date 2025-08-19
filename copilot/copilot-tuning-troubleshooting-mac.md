@@ -1,10 +1,11 @@
 ---
 title: "Troubleshoot the Microsoft 365 Admin Center task fine-tuning"
 f1.keywords:
-ms.author: emrek
-author: emrekiciman
-manager: calvind
+ms.author: kwekua
+author: kwekuako
+manager: dansimp
 ms.date: 07/17/2025
+ms.update-cycle: 180-days
 audience: Admin
 ms.topic: troubleshooting
 ms.service: microsoft-365-copilot
@@ -12,6 +13,7 @@ ms.localizationpriority: medium
 ms.collection:
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 description: Find information about how to troubleshoot issues with the Microsoft 365 admin center when using Copilot Tuning to fine-tune models.
 ---
 

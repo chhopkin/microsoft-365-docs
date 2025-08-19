@@ -4,22 +4,23 @@ f1.keywords:
 - NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: scotv
+manager: dansimp
 ms.reviewer: drjones, jobailey
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-marketplace
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier1
 - scotvorg
-- highpri 
+- highpri
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
 - ContentEnagagementFY23
-ms.custom: 
+- operations-pod
+ms.custom:
 - commerce_purchase
 - VSBFY23
 - AdminSurgePortfolio
@@ -28,7 +29,7 @@ ms.custom:
 - adminvideo
 - GAUpdates
 - campaignIDs-batch1
-search.appverid: GEA150 
+search.appverid: GEA150
 description: "Learn how to sign up for a free 30-day trial or buy a subscription for Microsoft 365 for business products and services."
 ms.date: 06/02/2025
 ---

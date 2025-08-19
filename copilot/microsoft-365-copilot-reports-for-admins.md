@@ -1,26 +1,28 @@
----  
+---
 title: Microsoft 365 Copilot reports for IT admins
 description: Learn about the different Microsoft 365 Copilot reporting options available for enterprise admins. Get an overview of the Copilot readiness and usage reports, enable the Copilot Dashboard in Viva Insights, get advanced insights and Power BI templates with Microsoft Viva, view agent reports in Power Platform and Copilot Studio, and access the Microsoft Purview audit logs.
-author: MandiOhlinger
-ms.author: mandia
+author: aczechowski
+ms.author: aaroncz
 manager: dansimp
 ms.date: 07/15/2025
+ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: microsoft-365-copilot
 ms.subservice: 
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
-ms.custom:  
+- operations-pod
+ms.custom: 
 ms.reviewer: alejanl, camillepack
 search.appverid: MET150
 f1.keywords: Copilot reporting options, Copilot usage reports, Microsoft 365 Copilot reports, Power BI templates, Purview audit logs
 audience: Admin
 ai-usage: ai-assisted
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # Microsoft 365 Copilot reporting options for admins
