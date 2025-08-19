@@ -114,17 +114,17 @@ Microsoft 365 Copilot adheres to enterprise-grade privacy and compliance standar
 
 #### Data access enforcement
 
-Copilot respects Microsoft Entra ID permissions and Microsoft Purview policies. This includes strict access controls and sensitivity label inheritance. Policies are enforced via [Microsoft Entra ID](/entra/fundamentals/whatis), [Microsoft Purview](/purview/purview), and [Conditional Access](/entra/identity/conditional-access/overview).
+Copilot respects [Microsoft Entra ID](/entra/fundamentals/what-is-entra) permissions and [Microsoft Purview policies](h/purview/ai-m365-copilot), including strict access controls and sensitivity label inheritance. Policies are enforced via Microsoft Entra ID, Microsoft Purview, and [Conditional Access](/entra/identity/conditional-access/overview).
 
-Copilot connectors enhance the value of Copilot while maintaining the same enterprise-grade protections.
+[Microsoft 365 Copilot connectors](/microsoft-365-copilot/extensibility/overview-copilot-connector) enhance the value of Copilot while maintaining the same enterprise-grade protections.
 
 #### User-centric access
 
-Copilot only accesses data the user is authorized to view and can't retrieve or act on content the user can't access directly. 
+Copilot only accesses data the user is authorized to view, and can't retrieve or act on content the user can't access directly. 
 
 #### Encryption and isolation
 
-Data is encrypted in transit and at rest using FIPS 140-2–compliant technologies, with tenant-level isolation. [Double Key Encryption](/purview/double-key-encryption) (DKE) ensures Microsoft can't access protected content without the customer's key.
+Data is encrypted in transit and at rest using FIPS 140-2–compliant technologies, with tenant-level isolation. [Double Key Encryption](/purview/double-key-encryption) (DKE) ensures Microsoft can't access protected content without the customer's key, and the content is not accessible to Copilot.
 
 #### Compliance tooling
 
