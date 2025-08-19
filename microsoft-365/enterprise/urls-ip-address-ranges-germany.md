@@ -1,7 +1,7 @@
 ---
-title: "Microsoft 365 URLs and IP address ranges - France"
-ms.author: kvice
-author: kelleyvice-msft
+title: "Microsoft 365 URLs and IP address ranges - Germany"
+ms.author: VargheseSivi
+author: siviv
 manager: scotv
 ms.date: 05/12/2025
 audience: Admin
@@ -24,11 +24,11 @@ search.appverid:
 - MBS150
 - MOM160
 - BCS160
-description: "Summary: Microsoft 365 requires connectivity to the Internet. The endpoints in this article should be reachable for France customers using Microsoft 365 plans."
+description: "Summary: Microsoft 365 requires connectivity to the Internet. The endpoints in this article should be reachable for Germany customers using Microsoft 365 plans."
 hideEdit: true
 ---
 
-# Microsoft 365 URLs and IP address ranges - France
+# Microsoft 365 URLs and IP address ranges - Germany
 
 Microsoft 365 requires connectivity to the Internet. The endpoints in this article should be reachable for Germany customers using Microsoft 365 plans.
   
@@ -74,7 +74,7 @@ Data columns shown are:
 |184|Required|`*.static.microsoft`|Dedicated to static (not customer generated) content hosted on CDNs.|**TCP:** 443,80<br>**UDP:** 443|
 |184|Required|`*.usercontent.microsoft`|Content used in Microsoft 365 experiences that requires domain isolation from applications.|**TCP:** 443,80<br>**UDP:** 443|
 
-[!INCLUDE [Microsoft 365 France endpoints](../includes/office-365-france-endpoints.md)]
+[!INCLUDE [Microsoft 365 Germany endpoints](../includes/office-365-germany-endpoints.md)]
 
 Notes for this table:
 

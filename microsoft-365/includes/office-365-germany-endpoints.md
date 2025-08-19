@@ -3,18 +3,6 @@
 <!--Germany endpoints version 2025053000-->
 <!--File generated 2025-05-30 06:10:48.0018-->
 
-## 
-
-
-
-
-## 
-
-
-
-
-## 
-
 
 
 
