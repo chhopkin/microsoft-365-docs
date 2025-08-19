@@ -28,7 +28,7 @@ The Microsoft 365 Copilot Chat usage dashboard provides insights into active usa
 ## How do I get to the Microsoft 365 Copilot Chat usage report?
 
 1. In the admin center, go to **Reports** > **Usage**.
-2. Select the **Microsoft 365 Copilot Chat** page.
+2. Select **Microsoft 365 Copilot** > **Copilot Chat**.
 
 ## Interpret the Microsoft 365 Copilot Chat usage report
 
@@ -82,6 +82,7 @@ You can also export the report data into an Excel .csv file by selecting the **E
 | **Display name**            | The full name of the user.                                                  |
 | **Last activity date (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Teams, Outlook, Copilot.cloud.microsoft, Microsoft Edge, or the Microsoft 365 Copilot (app). This date remains fixed even if the timeframe of the report is changed. |
 | **Last activity date of Teams (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Teams. This date remains fixed even if the timeframe of the report is changed. |
+| **Last activity date of Outlook (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Outlook. This date remains fixed even if the timeframe of the report is changed.  |
 | **Last activity date of Copilot.cloud.microsoft (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Copilot.cloud.microsoft. This date remains fixed even if the timeframe of the report is changed. |
 | **Last activity date of Microsoft 365 Copilot (app) (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Microsoft 365 Copilot (app). This date remains fixed even if the timeframe of the report is changed.  |
 | **Last activity date of Edge (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat from the sidebar in the Microsoft Edge browser. This date remains fixed even if the timeframe of the report is changed.  |
