@@ -252,7 +252,9 @@ Additionally, you can use [audit logs](/purview/audit-copilot) and [eDiscovery](
 
 ### Manage plugins and web interactions
 
-To help maintain control and security when using Microsoft 365 Copilot, Microsoft provides robust plugin governance capabilities. As an administrator, plugins may be enabled or disabled, defined in allow or deny lists, and role-based access controls (RBAC) must be applied to ensure only authorized users can access specific plugins. Enforce data protection policies by applying Microsoft Purview Data Loss Prevention (DLP) rules and sensitivity labels to content generated through plugins. To monitor plugin behavior and detect potential risks, Microsoft Defender for Endpoint and Defender for Cloud Apps offer visibility into plugin activity and help identify anomalies.
+To help maintain control and security when using Microsoft 365 Copilot, Microsoft provides robust plugin governance capabilities. Administrator can configure plugins to be enabled or disabled, defined in allow or deny lists, and role-based access controls (RBAC) must be applied to ensure only authorized users can access specific plugins. 
+
+You can enforce data protection policies by applying DLP rules and sensitivity labels to content generated through plugins. To monitor plugin behavior and detect potential risks, Microsoft Defender for Endpoint and Defender for Cloud Apps offer visibility into plugin activity and help identify anomalies.
 
 #### Enterprise controls for custom AI agents
 
