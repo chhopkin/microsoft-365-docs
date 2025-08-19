@@ -211,9 +211,9 @@ Administrators can apply [Conditional Access policies](/entra/identity/condition
 
 ### Monitor and audit AI activity
 
-Copilot interactions are logged and auditable through [auditing solutions in Microsoft Purview Audit (Standard and Premium)](/purview/audit-solutions-overview). These logs capture user prompts, system responses, and related activities, and can be retained for up to 10 years depending on licensing. This supports forensic investigations, compliance reviews, and anomaly detection.
+Copilot interactions are logged and auditable through [auditing solutions in Microsoft Purview Audit (Standard and Premium)](/purview/audit-solutions-overview). These logs capture user prompts, system responses, and related activities, and can be retained for up to 10 years depending on licensing. This solution supports forensic investigations, compliance reviews, and anomaly detection.
 
-Copilot-generated content, such as prompts and responses, is stored in a hidden folder in the user's mailbox. This content is discoverable using Microsoft Purview eDiscovery (Standard and Premium) for legal and compliance teams to search, review, and export Copilot-related content as part of investigations or regulatory inquiries. Administrators can also configure retention policies that apply specifically to Copilot messages. 
+Copilot interactions, such as prompts and responses, are stored in a hidden folder in the user's mailbox. This content is discoverable using [Microsoft Purview eDiscovery (Standard and Premium)](/purview/edisc) for legal and compliance teams to search, review, and export Copilot-related content as part of investigations or regulatory inquiries. The prompts and responses are also displayed in activity explorer for [DPSM for AI](/purview/dspm-for-ai). Administrators can also configure retention policies that apply specifically to Copilot messages. 
 
 To help secure AI usage with Microsoft 365 Copilot, customers should enable Microsoft Purview Audit to log user prompts, Copilot responses, and related activities for up to 10 years to remain in compliance. Purview eDiscovery may also be used to search and export Copilot-generated content and configure retention policies to control how long AI-generated data is preserved or deleted based on organizational and regulatory requirements.
 
