@@ -4,7 +4,7 @@ f1.keywords: NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 08/15/2025
+ms.date: 08/19/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: article
@@ -25,7 +25,7 @@ AI security is foundational to our approach at Microsoft; it safeguards customer
 
 ## What Microsoft does to secure Microsoft 365 Copilot
 
-Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level, grounded in enterprise-grade security, privacy, and compliance standards. This means that if one layer is breached, others still provide protection. Microsoft's approach is guided by the [Office of Responsible AI](https://www.microsoft.com/en-us/ai/responsible-ai) and reinforced by the recently expanded [Secure Future Initiative](https://aka.ms/SFIwebsite).
+Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level, grounded in enterprise-grade security, privacy, and compliance standards. This means that if one layer is breached, others still provide protection. Microsoft's approach is guided by the [Office of Responsible AI](https://www.microsoft.com/en-us/ai/responsible-ai) and is reinforced by the recently expanded [Secure Future Initiative](https://aka.ms/SFIwebsite).
 
 Our comprehensive security posture for AI includes:
 
@@ -33,7 +33,9 @@ Our comprehensive security posture for AI includes:
 - Threat intelligence and risk mitigation
 - Privacy and compliance by design
 
-Each aspect of this foundation forms a safer digital ecosystem for our customers to confidently adopt AI features and tools.
+Each aspect of this foundation forms a safer digital ecosystem for you to confidently adopt AI features and tools.
+
+In addition to the following pillars, Microsoft embeds its Responsible AI principle-based governance across the entire AI lifecycle to ensure systems are developed and deployed ethically and securely. This strategy helps ensure AI behaves in ways that are trustworthy, responsible, and in alignment with user expectations. These principles are reflected in the [Transparency note for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-transparency-note).
 
 ### Secure engineering and development practices
 
