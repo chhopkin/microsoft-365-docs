@@ -81,10 +81,10 @@ items:
               href: microsoft-365-u-s-government-gcc-high-endpoints.md
             - name: Microsoft 365 operated by 21Vianet endpoints
               href: urls-and-ip-address-ranges-21vianet.md
-            - name: French Government endpoints
-              href: urls-and-ip-address-ranges-france-government.md
-            - name: German Government endpoints
-              href: urls-and-ip-address-ranges-germany-government.md
+            - name: France endpoints
+              href: urls-and-ip-address-ranges-france.md
+            - name: Germany endpoints
+              href: urls-and-ip-address-ranges-germany.md
         - name: Content delivery networks
           href: content-delivery-networks.md
         - name: IPv6 support in Microsoft 365 services

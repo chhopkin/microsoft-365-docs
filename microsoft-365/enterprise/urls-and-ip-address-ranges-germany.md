@@ -1,5 +1,5 @@
 ---
-title: "Microsoft 365 URLs and IP address ranges - French Government"
+title: "Microsoft 365 URLs and IP address ranges - Germany"
 ms.author: kvice
 author: kelleyvice-msft
 manager: scotv
@@ -24,13 +24,13 @@ search.appverid:
 - MBS150
 - MOM160
 - BCS160
-description: "Summary: Microsoft 365 requires connectivity to the Internet. The endpoints in this article should be reachable for French government customers using Microsoft 365 plans."
+description: "Summary: Microsoft 365 requires connectivity to the Internet. The endpoints in this article should be reachable for Germany customers using Microsoft 365 plans."
 hideEdit: true
 ---
 
-# Microsoft 365 URLs and IP address ranges - French Government
+# Microsoft 365 URLs and IP address ranges - Germany
 
-Microsoft 365 requires connectivity to the Internet. The endpoints in this article should be reachable for German government customers using Microsoft 365 plans.
+Microsoft 365 requires connectivity to the Internet. The endpoints in this article should be reachable for Germany customers using Microsoft 365 plans.
   
 *Microsoft 365 Worldwide (+GCC)* \| [Microsoft 365 operated by 21 Vianet](urls-and-ip-address-ranges-21vianet.md) \| [Microsoft 365 U.S. Government DoD](microsoft-365-u-s-government-dod-endpoints.md) \| [Microsoft 365 U.S. Government GCC High](microsoft-365-u-s-government-gcc-high-endpoints.md) \|
 
@@ -74,7 +74,7 @@ Data columns shown are:
 |184|Required|`*.static.microsoft`|Dedicated to static (not customer generated) content hosted on CDNs.|**TCP:** 443,80<br>**UDP:** 443|
 |184|Required|`*.usercontent.microsoft`|Content used in Microsoft 365 experiences that requires domain isolation from applications.|**TCP:** 443,80<br>**UDP:** 443|
 
-[!INCLUDE [Microsoft 365 French government endpoints](../includes/office-365-france-govt-endpoints.md)]
+[!INCLUDE [Microsoft 365 Germany endpoints](../includes/office-365-germany-endpoints.md)]
 
 Notes for this table:
 
