@@ -19,6 +19,7 @@ ms.collection:
 - Adm_O365
 - Adm_O365_Setup
 - Adm_TOC
+- operations-pod
 ms.custom:
 - commerce_subscriptions
 - VSBFY23

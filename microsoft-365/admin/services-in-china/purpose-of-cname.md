@@ -13,6 +13,7 @@ ms.collection:
 - scotvorg
 - Adm_O365
 - Adm_NonTOC
+- operations-pod
 ms.custom: AdminSurgePortfolio
 ms.service: microsoft-365-business
 ms.localizationpriority: medium

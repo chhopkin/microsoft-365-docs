@@ -17,6 +17,7 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - SPO_Content
+- operations-pod
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160

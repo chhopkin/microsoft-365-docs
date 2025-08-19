@@ -19,6 +19,7 @@ ms.collection:
 - Adm_NonTOC
 - Adm_O365_Setup
 - must-keep
+- operations-pod
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160

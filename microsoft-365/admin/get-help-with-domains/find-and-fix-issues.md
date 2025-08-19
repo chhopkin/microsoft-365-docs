@@ -20,6 +20,7 @@ ms.collection:
 - Adm_TOC
 - Adm_O365_Setup
 - must-keep
+- operations-pod
 ms.custom:
 - VSBFY23
 - AdminSurgePortfolio
