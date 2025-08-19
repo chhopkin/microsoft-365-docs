@@ -1,7 +1,7 @@
 ---
 title: "Microsoft 365 URLs and IP address ranges - Germany"
-ms.author: VargheseSivi
-author: siviv
+ms.author: siviv
+author: VargheseSivi
 manager: scotv
 ms.date: 05/12/2025
 audience: Admin
