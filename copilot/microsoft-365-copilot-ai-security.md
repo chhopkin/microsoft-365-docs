@@ -39,7 +39,6 @@ In addition to the following pillars, Microsoft embeds its Responsible AI princi
 
 To prevent harmful or inappropriate outputs, Microsoft 365 Copilot uses classifiers and metaprompting to detect unsafe prompts and responses to keep behavior in alignment with [Microsoft’s Responsible AI principles](https://www.microsoft.com/en-us/ai/principles-and-approach) and remains within intended use cases. Microsoft provides development tools such as content filters, prompt evaluation frameworks, and risk templates to help engineers build secure, trustworthy Copilot experiences that are aligned with Responsible AI principles.
 
-
 ### Secure engineering and development practices
 
 Security is integrated from the ground up through our [Security Development Lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl/) (SDL). This integration ensures that vulnerabilities are identified and mitigated early in the development process. Microsoft also provides tailored security guidance and best practices for developers, engineers, and security professionals working with Microsoft AI technologies.
@@ -62,9 +61,7 @@ Key practices include:
 - Metaprompting
 - Content filtering to detect prompt injection attempts, including jailbreaks, eXternalized Prompt Injection Attacks (XPIAs), and agentic vulnerabilities
 
-Microsoft 365 Copilot mitigates XPIA and agentic vulnerabilities through layered defenses, including markdown sanitization, malicious prompt classifiers, session hardening, and content security policies. 
-
-These protections prevent unauthorized actions and data exfiltration across Copilot surfaces, and are deployed automatically through Microsoft's cloud infrastructure without customer action required. This also includes continuous testing and containment strategies.
+Microsoft 365 Copilot mitigates XPIA and agentic vulnerabilities through layered defenses, including markdown sanitization, malicious prompt classifiers, session hardening, and content security policies. These protections prevent unauthorized actions and data exfiltration across Copilot surfaces, and are deployed automatically through Microsoft's cloud infrastructure without customer action required. This methodology also includes continuous testing and containment strategies.
 
 #### Containment by design
 
@@ -77,8 +74,6 @@ In the event of a successful injection attempt, Copilot's architecture ensures c
 #### Audit and eDiscovery
 
 [Microsoft Purview](/purview/ai-microsoft-purview) captures Copilot interactions for auditing and eDiscovery. [Compliance Manager](/purview/compliance-manager) provides [regulatory templates](/purview/compliance-manager-assessments#assessments-for-ai-regulations) to help your organization assess, implement, and strengthen compliance against AI regulations, such as the EU Artificial Intelliegnce Act, ISO/IEC 23894:2023, ISO/IEC 42001:2023, and NIST AI Risk Management Framework (RMF) 1.0. 
-
-If you have the [Defender for Cloud Security Posture Management (CSPM) plan in Defender for Cloud](/azure/defender-for-cloud/ai-security-posture), you get additional visibility into AI workloads, plugin usage, and risk scoring.
 
 #### Prompt injection defenses
 
