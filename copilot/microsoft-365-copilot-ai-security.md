@@ -219,7 +219,7 @@ To help secure AI usage with Microsoft 365 Copilot, you can enable [audit logs f
 
 To support compliance with regulations such as GDPR, DORA, HIPAA, and the EU AI Act, Microsoft provides structured tools for risk assessment and reporting. [Microsoft Compliance Manager](/purview/compliance-manager) and [Microsoft Priva](/privacy/priva/priva-overview) offer templates for Data Protection Impact Assessments (DPIAs), helping organizations document data flows, processing purposes, and risk mitigations related to Copilot use.
 
-Privacy assessments can be integrated into the AI development lifecycle to identify and mitigate risks early. Organizations can also maintain AI risk registers using Microsoft Purview and Microsoft Defender for Cloud. These registers include model names, intended purposes, evaluation metrics, plugin scopes, and risk scores—supporting alignment with standards like ISO/IEC 42001 and the EU AI Act.
+Privacy assessments can be integrated into the AI development lifecycle to identify and mitigate risks early. Organizations can also maintain AI risk registers using Microsoft Purview and [Microsoft Defender for Cloud](/azure/defender-for-cloud/defender-for-cloud-introduction). These registers include model names, intended purposes, evaluation metrics, plugin scopes, and risk scores—supporting alignment with standards like ISO/IEC 42001 and the EU AI Act.
 
 #### Be aware of shadow AI
 
@@ -229,7 +229,7 @@ When employees use unsanctioned AI apps such as ChatGPT, Google Gemini, or other
 - Violations of data residency or industry compliance rules
 - Loss of visibility into how data is accessed, stored, or shared
 
-To help reduce these risks, Defender for Cloud Apps and Microsoft Purview can help detect and manage unauthorized AI usage. These tools help you:
+To help reduce these risks, [Defender for Cloud Apps](/defender-cloud-apps/tutorial-shadow-it) and Microsoft Purview can help detect and manage unauthorized AI usage. These tools help you:
 
 - Discover which AI apps are being used across your environment
 - Block or restrict access to high-risk tools
