@@ -201,7 +201,7 @@ Organizations share responsibility for securing AI systems. Microsoft provides t
 
 ### Control access to data
 
-You can apply [Microsoft Purview sensitivity labels](/purview/default-sensitivity-labels-policies) to classify and protect content, enforce [DLP policies](/purview/dlp-policy-reference) to block Copilot from accessing sensitive data, and use [DKE](/purview/double-key-encryption) to retain exclusive control over encryption keys for highly confidential information.
+You can apply [Purview sensitivity labels](/purview/default-sensitivity-labels-policies) to classify and protect content, and enforce [DLP policies](/purview/dlp-policy-reference) to block Copilot from accessing sensitive data. For highly confidential information, you can use [DKE](/purview/double-key-encryption) to retain exclusive control over encryption keys.
 
 #### Use targeted Conditional Access policies for Copilot
 
@@ -254,8 +254,6 @@ To help address this gap, Microsoft recommends a layered defense approach that c
 Additionally, you can use [audit logs](/purview/audit-copilot) and [eDiscovery](/purview/edisc) to monitor Copilot interactions involving suspicious content, enabling security teams to investigate and respond to potential misuse.
 
 ### Manage plugins and web interactions
-
-<!---PICK UP HERE. ADD LINKS--->
 
 To help maintain control and security when using Microsoft 365 Copilot, Microsoft provides robust plugin governance capabilities. Administrators can configure plugins to be enabled or disabled, defined in allowlists or blocklists, and role-based access controls (RBAC) must be applied to ensure only authorized users can access specific plugins. 
 
