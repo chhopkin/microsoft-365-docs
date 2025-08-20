@@ -31,7 +31,7 @@ Some other benefits of using Cross-Tenant Identity Mapping:
 - Automates identification of objects within scope to migrate from the source organization to the target organization.
 - Establishes a 1:1 map of a Mailbox User object in the source organization to a preexisting Mail Enabled User object in the target organization.
 - Automates population of required attributes from the source organization Mailbox User to the target organization Mail Enabled User.
-- Provides a list of objects prepared and ready for [cross-tenant mailbox migration](cross-tenant-mailbox-migration.md) based on the source organization users' primarySMTPAddress value.
+- Provides a list of objects ready for [cross-tenant mailbox migration](cross-tenant-mailbox-migration.md), based on the source organization users' primarySMTPAddress value.
 
 ## FAQ about Cross-Tenant Identity Mapping
 
