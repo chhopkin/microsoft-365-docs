@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 LTI First Time Configuration
 description: Learn about the first time configuration of Microsoft 365 LTI
-ms.date: 07/21/2025
+ms.date: 08/20/2025
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
@@ -92,7 +92,7 @@ When migrating from any legacy app that is replaced by the Microsoft Education L
 
 ### Migrating from Teams Meetings LTI 1.3 app
 
-[The legacy Teams Meetings app will sunset on September 15, 2025](https://support.microsoft.com/topic/teams-learning-tools-interoperability-lti-sunset-faq-7e071764-f5bf-420a-b4a1-6070cd6b9aa2). There's no required migration of the meetings created by Teams Meetings LTI. The new Teams Meetings app that is included in the Microsoft Education LTI app is backwards compatible and will display any previously created meetings. We suggest that you uninstall the legacy app before sunset by locating the app in **Admin > Settings > Apps > View App Configurations** and use the Gear icon drop-down to delete the app deployment.
+[The legacy Teams Meetings app will sunset on September 15, 2025](https://support.microsoft.com/topic/teams-learning-tools-interoperability-lti-sunset-faq-7e071764-f5bf-420a-b4a1-6070cd6b9aa2). Meetings created by the  classic Teams Meetings LTI will continue to display in Outlook and Teams calendars but will not display in the new Meetings app that is part of Microsoft 365 LTI. Course meetings should be created in the new Meetings app going forward. We suggest that you uninstall the legacy app before sunset by locating the app in **Admin > Settings > Apps > View App Configurations** and use the Gear icon drop-down to delete the app deployment.
 
 ### OneNote Class Notebook LTI 1.1 app
 
