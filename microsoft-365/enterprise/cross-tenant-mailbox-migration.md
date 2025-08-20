@@ -1,9 +1,9 @@
 ---
 title: Cross-tenant mailbox migration
 description: How to move mailboxes between Microsoft 365 or Office 365 tenants.
-ms.author: kvice
-author: kelleyvice-msft
-manager: scotv
+ms.author: heidip
+author: MicrosoftHeidi
+manager: dansimp
 ms.service: microsoft-365-enterprise
 ms.subservice: multi-tenant
 ms.topic: upgrade-and-migration-article
