@@ -49,9 +49,9 @@ When a mailbox is migrated cross-tenant with this feature, only user-visible con
 Cross-Tenant migrations require a per user license (one-time fee) and can be assigned either on the source or target user object. This license also covers [OneDrive migration](cross-tenant-onedrive-migration.md). Cross Tenant User Data Migration is available as an add-on to the following Microsoft 365 subscription plans: Microsoft 365 Business Basic, Standard, and Premium; Microsoft 365 F1/F3/E3/E5/; Office 365 F3/E1/E3/E5; Exchange Online; SharePoint in Microsoft 365; OneDrive and EDU.
 
 > [!WARNING]
-> You must have purchased, or verified that you can purchase, cross-tenant user data migration licenses prior to the next steps. Migrations fail if this step hasn't been completed. Microsoft doesn't offer exceptions for this licensing requirement.
+> You must purchase, or verify you can purchase, cross-tenant user data migration licenses before the next steps. Migrations fail if this step isn't completed. Microsoft doesn't offer exceptions for this licensing requirement.
 
-If you don't have the proper license assigned to the user being migrated, the migration fails, and you receive an error that is similar to the following:
+If you don't have the proper license assigned to the user being migrated, the migration fails, and you receive an error that is similar to the following example:
 
 ``` code
 Error: CrossTenantMigrationWithoutLicensePermanentException: No license was found for the source recipient, '65c3c3ea-2b9a-44d0-a685-9bfe300f8c87', or the target recipient, '65c3c3ea-2b9a-44d0-a685-9bfe300f8c87'. A Cross-tenant User Data Migration license is required to move a mailbox between tenants.
@@ -182,7 +182,7 @@ Now that the migration application and secret is successfully created, the next 
    ```
 
 > [!NOTE]
-> If the prior command fails, check with the source tenant administrator to confirm if the application was granted admin consent.
+> If the previous command fails, check with the source tenant administrator to confirm if the application was granted admin consent.
 
 3. Create a new organization relationship object or edit your existing organization relationship object to your source tenant.
 
@@ -301,7 +301,7 @@ For any mailbox moving from a source organization, you must provision a MailUser
    2. `msExchSafeRecipientsHash` – Writes back online safe recipients data from clients to on-premises Active Directory.
    3. `msExchSafeSendersHash` – Writes back online safe sender data from clients to on-premises Active Directory.
 
-   Users in the target organization must be licensed with appropriate Exchange Online subscriptions applicable for the organization. You may apply a license in advance of a mailbox move but ONLY once the target MailUser is properly set up with ExchangeGUID and proxy addresses. Applying a license before the ExchangeGUID is applied results in a new mailbox provisioned in target organization. You must also apply a Cross Tenant User Data Migration license; else, you may see a transient error reading **needs approval**, which reports a warning in the move report that a license hasn't been applied to the target user.
+   Users in the target organization must be licensed with appropriate Exchange Online subscriptions applicable for the organization. You may apply a license in advance of a mailbox move but ONLY once the target MailUser is properly set up with ExchangeGUID and proxy addresses. Applying a license before the ExchangeGUID is applied results in a new mailbox provisioned in target organization. You must also apply a Cross Tenant User Data Migration license; else, you may see a transient error reading **needs approval**, which reports a warning in the move report that a license isn't applied to the target user.
 
    > [!NOTE]
    > When you apply a license on a Mailbox or MailUser object, all SMTP type proxyAddresses are scrubbed to ensure only verified domains are included in the Exchange EmailAddresses array.
@@ -595,11 +595,11 @@ Yes. However, we only keep the store permissions as described in this article:
 
 ### Do you have any recommendations for batches?
 
-Don't exceed 2,000 mailboxes per batch. We strongly recommend submitting batches two weeks prior to the cut-over date as there's no impact on the end users during synchronization. If you need guidance for mailboxes quantities over 50,000, you can reach out to your CSAM or open a support request.
+Don't exceed 2,000 mailboxes per batch. We strongly recommend submitting batches two weeks before the cut-over date as there's no impact on the end users during synchronization. If you need guidance for mailboxes quantities over 50,000, you can reach out to your CSAM or open a support request.
 
 ### What if I use Service encryption with Microsoft Purview Customer Key?
 
-The mailbox is decrypted prior to moving. Ensure Customer Key is configured in the target tenant if it's still required. For more information, see [here](/purview/customer-key-overview).
+The mailbox is decrypted before moving. Ensure Customer Key is configured in the target tenant if it's still required. For more information, see [here](/purview/customer-key-overview).
 
 ### What is the estimated migration time?
 
@@ -629,7 +629,7 @@ These conversions happen automatically during the migration process. No manual s
 
 ### At which step should I assign the Exchange Online license to destination MailUsers?
 
-This license assignation can be done before the migration is complete, but you shouldn't assign a license prior to stamping the _ExchangeGUID_ attribute. Otherwise, the conversion of MailUser object to mailbox fails and a new mailbox is created instead. To mitigate this risk, it's best to wait until the migration is complete and assign licenses during the 30-day grace period.
+This license assignation can be done before the migration is complete, but you shouldn't assign a license before stamping the _ExchangeGUID_ attribute. Otherwise, the conversion of MailUser object to mailbox fails and a new mailbox is created instead. To mitigate this risk, it's best to wait until the migration is complete and assign licenses during the 30-day grace period.
 
 <a name='can-i-use-azure-ad-connect-to-sync-users-to-the-new-tenant-if-im-keeping-the-on-premises-active-directory'></a>
 
@@ -643,7 +643,7 @@ Yes. It's possible to have two instances of Microsoft Entra Connect synchronize 
 
 ### How should I handle mailboxes that are close to, or over quota.
 
-Mailboxes nearing their quota prior to migration might end up over quota either before or during the actual migration. If this situation happens, these mailboxes fail migration and need to be remediated and restarted. To mitigate this situation, we recommend the source tenant admin identify mailboxes at or near quota prior to migration and take the necessary steps to either reduce the mailbox size, provision a primary archive, or in some cases enable auto expanding archives for the user's mailboxes.
+Mailboxes nearing their quota before migration might end up over quota either before or during the actual migration. If this situation happens, these mailboxes fail migration and need to be remediated and restarted. To mitigate this situation, we recommend the source tenant admin identify mailboxes at or near quota before migration and take the necessary steps to either reduce the mailbox size, provision a primary archive, or in some cases enable auto expanding archives for the user's mailboxes.
 
 > [!NOTE]
 > Once enabling an archive or auto expanding archive for a user, ensure the correct archiving policies are applied to the user and the process is run to move the mailbox data to its new location and free up space.
