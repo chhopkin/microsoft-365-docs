@@ -135,7 +135,7 @@ All users in both the source and target organizations must be licensed with the 
     > [!NOTE]
     > The password is used when creating your migration endpoint. It's important that you copy this password to your clipboard and/or to a secure/secret password safe location. The secret creation stage is the only time during which you can see this password! If you do somehow lose it or need to reset it, you can sign back into the Azure portal, go to **App registrations**, find your migration app, select **Secrets & certificates**, and then create a new secret for your app.
 
-Now that you've successfully created the migration application and secret, the next step is to consent to the application. 
+Now that the migration application and secret is successfully created, the next step is to consent to the application. 
 
 ### Grant consent to the application
 
