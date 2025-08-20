@@ -257,7 +257,7 @@ For any mailbox moving from a source organization, you must provision a MailUser
 
       1. ExchangeGUID (direct flow from source to target): The mailbox GUID must match. The move process doesn't proceed if this attribute isn't present on target object.
       2. ArchiveGUID (direct flow from source to target): The archive GUID must match. The move process doesn't proceed if this attribute isn't present on the target object. (This attribute is only required if the source mailbox is Archive enabled).
-      3. LegacyExchangeDN (flow as proxyAddress, "x500:\<LegacyExchangeDN\>"): The LegacyExchangeDN must be present on target MailUser as x500: proxyAddress. **In addition, you also need to copy all x500 addresses from the source mailbox to the target mail user.** The move processes doesn't proceed if these x500 addresses aren't present on the target object. Also, this step is important for enabling reply ability for emails that are sent before migration. The sender/recipient address in each email item and the autocomplete cache in Microsoft Outlook and in Microsoft Outlook Web App (OWA) use the value of the LegacyExchangeDN attribute. If a user can't be located using the LegacyExchangeDN value, the delivery of email messages might fail with a 5.1.1 NDR.
+      3. LegacyExchangeDN (flow as proxyAddress, "x500:\<LegacyExchangeDN\>"): The LegacyExchangeDN must be present on target MailUser as x500: proxyAddress. **In addition, you also need to copy all x500 addresses from the source mailbox to the target mail user.** The move process doesn't proceed if these x500 addresses aren't present on the target object. Also, this step is important for enabling reply ability for emails that are sent before migration. The sender/recipient address in each email item and the autocomplete cache in Microsoft Outlook and in Microsoft Outlook Web App (OWA) use the value of the LegacyExchangeDN attribute. If a user can't be located using the LegacyExchangeDN value, the delivery of email messages might fail with a 5.1.1 NDR.
       4. UserPrincipalName: UPN aligns to the user's NEW identity or target company (for example, user@northwindtraders.onmicrosoft.com).
       5. Primary SMTPAddress: Primary SMTP address aligns to the user's NEW company (for example, user@northwindtraders.com).
       6. TargetAddress/ExternalEmailAddress: MailUser references the user's current mailbox hosted in source tenant (for example user@contoso.onmicrosoft.com). When this value is being assigned, verify that you have/are also assigning PrimarySMTPAddress. Otherwise, this value sets the PrimarySMTPAddress, which causes move failures.
@@ -309,7 +309,7 @@ For any mailbox moving from a source organization, you must provision a MailUser
 8. You must ensure that the target MailUser has no previous ExchangeGUID that doesn't match the Source ExchangeGUID. This mismatch might occur if the target MEU was previously licensed for Exchange Online and provisioned a mailbox. If the target MailUser was previously licensed for or had an ExchangeGUID that doesn't match the Source ExchangeGUID, you need to perform a cleanup of the cloud MEU. For these cloud MEUs, you can run `Set-User <identity> -PermanentlyClearPreviousMailboxInfo`.
 
 > [!CAUTION]
-> This process is irreversible. If the object has a softDeleted mailbox, it can't be restored after this point. Once cleared, however, you can synchronize the correct ExchangeGUID to the target object, and MRS then connecta the source mailbox to the newly created target mailbox. (Reference EHLO blog on the new parameter.)
+> This process is irreversible. If the object has a softDeleted mailbox, it can't be restored after this point. Once cleared, however, you can synchronize the correct ExchangeGUID to the target object, and MRS then connects the source mailbox to the newly created target mailbox. (Reference EHLO blog on the new parameter.)
 
 Find objects that were previously mailboxes using the following command:
 
@@ -653,7 +653,7 @@ Yes. It's possible to have two instances of Microsoft Entra Connect synchronize 
 
 ### How should I handle mailboxes that are close to, or over quota.
 
-Mailboxes nearing their quota before migration might end up over quota either before or during the actual migration. If this situation happens, these mailboxes fail migration and need to be remediated and restarted. To mitigate this situation, we recommend the source tenant admin identify mailboxes at or near quota before migration. After identifaction, you can take the necessary steps to either reduce the mailbox size, provision a primary archive, or in some cases enable auto expanding archives for the user's mailboxes.
+Mailboxes nearing their quota before migration might end up over quota either before or during the actual migration. If this situation happens, these mailboxes fail migration and need to be remediated and restarted. To mitigate this situation, we recommend the source tenant admin identify mailboxes at or near quota before migration. After identification, you can take the necessary steps to either reduce the mailbox size, provision a primary archive, or in some cases enable auto expanding archives for the user's mailboxes.
 
 > [!NOTE]
 > Once enabling an archive or auto expanding archive for a user, ensure the correct archiving policies are applied to the user. Also ensure the process is run to move the mailbox data to its new location and free up space.
@@ -696,7 +696,7 @@ Mailbox signatures aren't migrated cross tenant and must be recreated.
   ```
 
   > [!NOTE]
-  > The _contoso.onmicrosoft.com_ address is _not_ present in the EmailAddresses/proxyAddresses array.
+  > The _contoso.onmicrosoft.com_ address _isn't_ present in the EmailAddresses/proxyAddresses array.
 
 - MailUser objects with "external" primary SMTP addresses are modified/reset to "internal" company-claimed domains.
 
