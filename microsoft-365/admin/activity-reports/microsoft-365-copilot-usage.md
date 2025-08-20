@@ -1,24 +1,22 @@
 ---
 title: "Microsoft 365 admin center Microsoft 365 Copilot usage"
-ms.author: camillepack
-author: camillepack
-manager: scotv
+ms.author: cmcatee
+author: cmcatee-MSFT
+manager: dansimp
 ms.date: 01/14/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier2
-- scotvorg
 - M365-subscription-management
 - Adm_O365
-- Adm_NonTOC
 - m365copilot
 - magic-ai-copilot
-ms.custom: 
-- AdminSurgePortfolio
+- operations-pod
+ms.custom:
 - campaignIDs-batch1
 search.appverid:
 - BCS160
@@ -159,7 +157,7 @@ To ensure data quality, we perform daily data validation checks for the past thr
 |------|-------------|
 | User name                                      | The user's principal name.                                                                                                                    |
 | Display name                                   | The full name of the user.                                                                                                                    |
-| Last activity date (UTC (Universal Time Code)) | The latest date the user had activity in Microsoft 365 Copilot among all Microsoft 365 products, including any of the intentional activities, regardless of the selected time period of past 7/30/90/180 days. |
+| Last activity date (UTC (Universal Time Code)) | The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Teams, Outlook, Copilot.cloud.microsoft, Microsoft Edge, the Microsoft 365 Copilot (app), Word, Excel, PowerPoint, or OneNote. This date remains fixed even if the timeframe of the report is changed.  |
 | Last activity date of Teams Copilot (UTC)      | The latest date the user had activity in Microsoft Teams Copilot, including any of the intentional activities, regardless of the selected time period of past 7/30/90/180 days.                                |
 | Last activity date of Word Copilot (UTC)       | The latest date the user had activity in Word Copilot, including any of the intentional activities, regardless of the selected time period of past 7/30/90/180 days.                                            |
 | Last activity date of Excel Copilot (UTC)      | The latest date the user had activity in Excel Copilot, including any of the intentional activities, regardless of the selected time period of past 7/30/90/180 days.                                        |
@@ -173,14 +171,14 @@ To ensure data quality, we perform daily data validation checks for the past thr
 | Last activity date of Microsoft Edge (UTC)     | The latest date the user had activity in Copilot Chat in entry point Microsoft Edge, including any of the intentional activities, regardless of the selected time period of past 7/30/90/180 days.         |
 | Last activity date of any agent (UTC)   | The latest date the user had activity with an agent built by your org, regardless of the selected time period of past 7/30/90/180 days.      |
 
-## Make the user-specific data anonymous
+## Display user-specific data
 
-By default, usernames and display names in Microsoft 365 Copilot usage report are anonymous. And global administrator can update settings to unconceal usernames and display name.
+By default, usernames and display names in Copilot Search usage reports are anonymous. Global administrators can update the settings to reveal usernames and display names.
 
-1. In Microsoft 365 admin center, go to the **Settings** > **Org Settings**, and under the **Services** tab, choose **Reports**.
-
-2. Select **Reports**, and then update the setting “Display Concealed user, group, and site names in all reports”.
-3. Select **Save changes**.
+1. In the admin center, go to the **Settings** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Org Settings</a> page.
+2. Select the **Services** tab, then select **Reports**.
+3. In the **Reports** panel, select the checkbox next to **Display Concealed user, group, and site names in all reports**.
+4. Select **Save**.
 
 ## FAQ
 

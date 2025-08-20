@@ -1,19 +1,21 @@
----  
-title: "Copilot Search admin experience"  
-author: kwekuako
-ms.author: kwekua  
+---
+title: "Copilot Search admin experience"
+author: Efrene
+ms.author: efrene
 manager: dansimp
-ms.date: 06/05/2025  
+ms.date: 06/05/2025
 ms.topic: overview
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
-ms.collection: CopilotSearch
+ms.collection:
+- CopilotSearch
+- operations-pod
 ms.custom: QuickDraft
 ms.reviewer: kwekua
 audience: admin
 ai-usage: ai-assisted
 description: Information on the admin experience in Microsoft 365 Copilot Search.
----  
+---
 
 # Microsoft 365 Copilot Search admin experience
 

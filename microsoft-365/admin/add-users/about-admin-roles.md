@@ -10,14 +10,14 @@ audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-business
 ms.localizationpriority: high
-ms.collection: 
+ms.collection:
 - Tier1
 - scotvorg
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
 - trust-pod
-ms.custom: 
+ms.custom:
 - AdminSurgePortfolio
 - okr_smb
 - AdminTemplateSet

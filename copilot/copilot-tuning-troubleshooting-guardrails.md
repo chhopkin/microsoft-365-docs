@@ -1,9 +1,9 @@
 ---
 title: "Troubleshoot Copilot Tuning guardrails"
 f1.keywords:
-ms.author: danielabo
-author: danielabom
-manager: calvind
+ms.author: kwekua
+author: kwekuako
+manager: dansimp
 ms.date: 06/17/2025
 ms.update-cycle: 180-days
 ms.topic: troubleshooting
@@ -12,6 +12,7 @@ ms.localizationpriority: medium
 ms.collection:
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 description: Find information about how to troubleshoot Copilot Tuning guardrails.
 ---
 
