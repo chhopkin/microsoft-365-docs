@@ -155,7 +155,7 @@ Now that you've successfully created the migration application and secret, the n
 
    > [!NOTE]
    > - You need the application ID of the mailbox migration app you just created.
-   > - You need to replace contoso.onmicrosoft.com in the above example with your source tenant's correct onmicrosoft.com name.
+   > - You need to replace contoso.onmicrosoft.com in the previous example with your source tenant's correct onmicrosoft.com name.
    > - You also need to replace [application_id_of_the_app_you_just_created] with the application ID of the mailbox migration app you just created.
 
 ### Prepare the target tenant by creating the Exchange Online migration endpoint and organization relationship
@@ -167,7 +167,7 @@ Now that you've successfully created the migration application and secret, the n
    > [!NOTE]
    > You need the application ID of the mailbox migration app you just created and the password (secret) you configured in [Prepare the target (destination) tenant by creating the migration application and secret](#prepare-the-target-destination-tenant-by-creating-the-migration-application-and-secret). Depending on the Microsoft 365 cloud instance you use, your endpoint may be different. See the [Microsoft 365 endpoints](microsoft-365-endpoints.md) page; select the correct instance for your tenant; then review the Exchange Online _Optimize/Required_ address, and replace as appropriate.
    > 
-   > Your trusted partner (source tenant administrator) should accept the application using the URL mentioned in the previous section before you proceed with the next steps, otherwise, the last command in the below commands fails with an authentication error and you aren't able to complete the migration endpoint creation.
+   > Your trusted partner (source tenant administrator) should accept the application using the URL mentioned in the previous section before you proceed with the next steps, otherwise, the last command in the following commands fails with an authentication error and you aren't able to complete the migration endpoint creation.
 
    ```PowerShell
    $AppId = "[Guid copied from the migrations app]"
@@ -182,7 +182,7 @@ Now that you've successfully created the migration application and secret, the n
    ```
 
 > [!NOTE]
-> If the above command fails, check with the source tenant administrator to confirm if the application was granted admin consent. 
+> If the prior command fails, check with the source tenant administrator to confirm if the application was granted admin consent.
 
 3. Create a new organization relationship object or edit your existing organization relationship object to your source tenant.
 
@@ -441,7 +441,7 @@ Items in the Outbox aren't migrated cross-tenant as this folder is a client-base
 
 ### Does the Teams chat folder content migrate cross-tenant?
 
-No, the Teams chat folder content doesn't migrate cross-tenant. However, once the mailbox has been migrated cross-tenant, the Teams chat folder content is available for source tenant administrator to search and export, using a content search.
+No, the Teams chat folder content doesn't migrate cross-tenant. However, once the mailbox is migrated cross-tenant, the Teams chat folder content is available for source tenant administrator to search and export, using a content search.
 
 ### How can I see just moves that are cross-tenant moves, not my onboarding and off-boarding moves?
 
@@ -467,7 +467,7 @@ $mailboxes | ForEach-Object {Get-Mailbox $_} | Select-Object PrimarySMTPAddress,
 ```
 
 ```PowerShell
-# Copy the file $outfile to the desktop of the target on-premises then run the below to create MEU in Target
+# Copy the file $outfile to the desktop of the target on-premises then run the following to create MEU in Target
 $symbols = '!@#$%^&*'.ToCharArray()
 $characterList = @([char[]]([char]'a'..[char]'z'), [char[]]([char]'A'..[char]'Z'), [char[]]([char]'0'..[char]'9') + $symbols)
 
@@ -537,7 +537,7 @@ Cross-Tenant mail flow after migration works similar to Exchange Hybrid mail flo
 Mailbox permissions include Send on Behalf of and Mailbox Access:
 
 - Send On Behalf Of (AD:publicDelegates) stores the DN of recipients with access to a user's mailbox as a delegate. This value is stored in the Active Directory and currently doesn't move as part of the mailbox transition. If the source mailbox has publicDelegates set, you need to restamp the publicDelegates on the target Mailbox once the MEU to Mailbox conversion completes in the target environment by running `Set-Mailbox <principle> -GrantSendOnBehalfTo <delegate>`.
-- Mailbox Permissions that are stored in the mailbox move with the mailbox when both the principal and the delegate are moved to the target system. For example, the user TestUser*7 is granted FullAccess to the mailbox TestUser_8 in the tenant SourceCompany.onmicrosoft.com. After the mailbox moves complete to TargetCompany.onmicrosoft.com, the same permissions are set up in the target directory. Examples using \_Get-MailboxPermission* for TestUser_7 in both source and target tenants are shown below. Exchange cmdlets are prefixed with source and target accordingly.
+- Mailbox Permissions that are stored in the mailbox move with the mailbox when both the principal and the delegate are moved to the target system. For example, the user TestUser*7 is granted FullAccess to the mailbox TestUser_8 in the tenant SourceCompany.onmicrosoft.com. After the mailbox moves complete to TargetCompany.onmicrosoft.com, the same permissions are set up in the target directory. Examples using \_Get-MailboxPermission* for TestUser_7 in both source and target tenants are shown in this section. Exchange cmdlets are prefixed with source and target accordingly.
 
 Here's an example of the output of the mailbox permission before a move from the source side:
 
@@ -619,9 +619,9 @@ Because cross-tenant migrations don't export labels and there's no way to share 
 
 Currently the cross-tenant mailbox migrations feature doesn't support the migration of Microsoft 365 Groups.
 
-### Can a source tenant admin perform an eDiscovery search against a mailbox after the mailbox has been migrated to the new/target tenant?
+### Can a source tenant admin perform an eDiscovery search against a mailbox after the mailbox is migrated to the new/target tenant?
 
-No, after a cross-tenant mailbox migration, eDiscovery against the migrated user's mailbox in the source doesn't work. This eDiscovery failure is because there's no longer a mailbox in the source to search for as the mailbox has been migrated to the target tenant and now belongs to the target tenant. eDiscovery after mailbox migration can only be done in the target tenant (where the mailbox now exists). If a copy of the source mailbox needs to persist in the source tenant after migration, the administrator in the source tenant can copy the contents to an alternate mailbox premigration for future eDiscovery operations against the data.
+No, after a cross-tenant mailbox migration, eDiscovery against the migrated user's mailbox in the source doesn't work. This eDiscovery failure is because there's no longer a mailbox in the source to search for as the mailbox is migrated to the target tenant and now belongs to the target tenant. eDiscovery after mailbox migration can only be done in the target tenant (where the mailbox now exists). If a copy of the source mailbox needs to persist in the source tenant after migration, the administrator in the source tenant can copy the contents to an alternate mailbox premigration for future eDiscovery operations against the data.
 
 ### At which point does the destination MailUser convert to a destination mailbox and the source mailbox convert to a source MailUser?
 
@@ -639,7 +639,7 @@ Yes. It's possible to have two instances of Microsoft Entra Connect synchronize 
 
 - Pre-provisioning the user's accounts with the script provided in this article shouldn't be done. Instead, a selective OU sync of the users in scope for the migration can be performed to populate the target tenant. You receive a warning about the UPN not matching during Microsoft Entra Connect configuration.
 - Depending on your current state of hybrid Exchange, you need to verify that the on-premises directory objects have the required attributes (such as msExchMailboxGUID and proxyAddresses) populated correctly before attempting to sync to another tenant. Otherwise, you run into issues with double mailboxes and migration failures.
-- You must take some extra steps to manage UPN transitioning, changing it on-premises once the migration has been completed for a user unless you're also moving the custom domain during a cut-over migration.
+- You must take some extra steps to manage UPN transitioning, changing it on-premises once the migration is completed for a user unless you're also moving the custom domain during a cutover migration.
 
 ### How should I handle mailboxes that are close to, or over quota.
 
@@ -842,7 +842,7 @@ Company   PendingActivation   882e1d05-acd1-4ccb-8708-6ee03664b117 INTUNE_O365
 
   When `msExchRemoteRecipientType` is set to 8 (DeprovisionMailbox), for on-premises MailUsers that are migrated to the target tenant, the proxy scrubbing logic in Azure removes non-owned domains and reset the primarySMTP to an owned domain. With the msExchRemoteRecipientType in the on-premises MailUser being cleared, the proxy scrub logic no longer applies.
 
-  Below is the full set of current service plans that include Exchange Online:
+  Here's the full set of current service plans that include Exchange Online:
 
   | Name                                             |
   | ------------------------------------------------ |
@@ -890,80 +890,92 @@ Company   PendingActivation   882e1d05-acd1-4ccb-8708-6ee03664b117 INTUNE_O365
 
 - MailboxNotInCrossTenantMigrationScopeException
 
-  Ensure the migration scope is set up correctly on the source tenant and that MailboxMovesPublishedScopes is set in the organization relationship with the target tenant.  
-  Verify that the mailbox to be migrated has been added to the security group in the source tenant.  
-  After adding user to correct security group, resume the migration batch.  
+  Ensure the migration scope is set up correctly on the source tenant and that MailboxMovesPublishedScopes is set in the organization relationship with the target tenant.
+
+  Verify that the mailbox to be migrated is added to the security group in the source tenant.
+
+  After adding user to correct security group, resume the migration batch.
 
 - AuxArchiveNotFoundInTargetRecipientException
 
   This failure is because the user wasn't in the migration scope when batch was started and the user has AuxArchive on the source.  
-  Add user to the correct security group on source target.  
-  Remove the migration user from the batch.  
+  Add user to the correct security group on source target.
+
+  Remove the migration user from the batch.
+
   Remove users with the following command:
 
   ```powershell
   Get-MigrationUser -Identity LaraN@contoso.onmicrosoft.com -IncludeAssociatedUsers | Remove-MigrationUser  
   ```
   
-  Add user to new batch.  
+  Add user to new batch.
 
 - MailboxIsNotInExpectedDBException
 
-  This failure is due to internal Microsoft maintenance.  
-  Remove the migration user from the batch.  
+  This failure is due to internal Microsoft maintenance.
+
+  Remove the migration user from the batch.
+
   Remove users with the following command:
 
    ```powershell
   Get-MigrationUser -Identity LaraN@contoso.onmicrosoft.com -IncludeAssociatedUsers | Remove-MigrationUser
    ```
   
-  Add user to new batch.  
+  Add user to new batch.
 
 - NotAcceptedDomainException
 
-  There's an invalid proxy address stamped on the target user. An example would be where a user in contoso.onmicrosoft.com had a proxy address of  fabrikam.onmicrosoft.com, which is the source tenant.  
+  There's an invalid proxy address stamped on the target user. An example would be where a user in contoso.onmicrosoft.com had a proxy address of fabrikam.onmicrosoft.com, which is the source tenant.
+
   Remove the invalid proxy address using the following command:
 
   ```powershell
   Set-MailUser LaraN@contoso.onmicrosoft.com -EmailAddress @{remove="smtp:LaraN@northwindtraders.onmicrosoft.com"}
   ```
 
-  Resume the migration batch.  
+  Resume the migration batch.
 
 - SourceAuxArchiveIsProvisionedDuringCrossTenantMovePermanentException
 
-  A new AuxArchive was provisioned during migration.  
-  Remove the migration user from the batch.  
+  A new AuxArchive was provisioned during migration.
+
+  Remove the migration user from the batch.
+
   Remove users with the following command:
 
   ```powershell
   Get-MigrationUser -Identity LaraN@contoso.onmicrosoft.com -IncludeAssociatedUsers | Remove-MigrationUser 
    ```
 
-  Add user to new batch.  
+  Add user to new batch.
 
 - UserDuplicateInOtherBatchException
 
-  User exists in another batch already.  
-  Remove the migration user from the batch.  
+  User exists in another batch already.
+
+  Remove the migration user from the batch.
+
   Remove users with the following command:
 
   ```powershell
   Get-MigrationUser -Identity LaraN@contoso.onmicrosoft.com -IncludeAssociatedUsers | Remove-MigrationUser
   ```
 
-  Add user to new batch.  
+  Add user to new batch.
 
 - MissingExchangeGuidException
 
-  The target mailuser object is missing the correct ExchangeGuid value.  
+  The target mailuser object is missing the correct ExchangeGuid value.
+
   Update the ExchangeGuid with the following command:
 
   ```powershell
   Set-MailUser LaraN@contoso.onmicrosoft.com -ExchangeGuid 4e3188c6-39f5-4387-adc7-b355b6b852c8  
   ```
 
-  Resume migration batch.  
+  Resume migration batch.
 
 - SourceMailboxAlreadyBeingMovedPermanentException
 
@@ -977,13 +989,13 @@ Company   PendingActivation   882e1d05-acd1-4ccb-8708-6ee03664b117 INTUNE_O365
   Get-MigrationUser -Identity LaraN@contoso.onmicrosoft.com -IncludeAssociatedUsers | Remove-MigrationUser  
   ```
 
-  Add user to new batch after the original move has been removed or completed.
+  Add user to new batch after the original move is removed or completed.
 
 - UserAlreadyHasDemotedArchiveException
 
-  The user had an archive mailbox previously that was disabled. Choose one of the two following options to resolve this issue.
+  The user had an archive mailbox previously that was disabled. To resolve this issue, choose one of the two following options:
 
-  Permanently delete the disabled archive mailbox, this action is unreversable. Set-Mailbox -RemoveDisabledArchive LaraN@contoso.onmicrosoft.com.
+  Permanently delete the disabled archive mailbox. This action is unreversable. Set-Mailbox -RemoveDisabledArchive LaraN@contoso.onmicrosoft.com.
 
   Re-enable the disabled archive mailbox with the following command:
 
