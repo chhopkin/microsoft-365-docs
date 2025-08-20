@@ -61,5 +61,5 @@ appliesto:
 
 | Questions | Answers |
 |---------|---------|
-| **What controls do admins have over Researcher?** | <ul><li>Enable/disable Researcher through policy</li><li>Scope access to specific users or groups.</li></ul>Configure connectors and data sources</li><li>Monitor usage through audit logs and analytics</li></ul> |
+| **What controls do admins have over Researcher?** | <ul><li>Enable/disable Researcher through policy</li><li>Scope access to specific users or groups.</li><li>Configure connectors and data sources</li><li>Monitor usage through audit logs and analytics</li></ul> |
 | **Can Researcher be disabled or scoped to specific users?** | Yes. Researcher can be disabled tenant-wide or scoped to licensed users through Microsoft 365 admin center or through Windows PowerShell. |
