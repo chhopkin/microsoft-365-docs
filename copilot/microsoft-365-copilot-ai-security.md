@@ -142,7 +142,7 @@ Microsoft 365 Copilot is part of Microsoft's enterprise compliance program and b
 - SOC 2 Type 1
 - ISO/IEC 27001, 27701, 22301, 27018, and 42001
 
-Penetration testing summaries are available through the [Microsoft Service Trust Portal](https://servicetrust.microsoft.com/), helping customers demonstrate due diligence and satisfy third-party audit requirements.
+Penetration testing summaries are available in the [Microsoft Service Trust Portal](https://servicetrust.microsoft.com/), helping your organization demonstrate due diligence and satisfy third-party audit requirements.
 
 For more information, see [Build a strong security posture for AI](/security/security-for-ai/posture).
 
