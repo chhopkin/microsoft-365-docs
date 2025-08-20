@@ -41,7 +41,7 @@ To prevent harmful or inappropriate outputs, Microsoft 365 Copilot uses classifi
 
 ### Secure engineering and development practices
 
-Security is integrated from the ground up through our [Security Development Lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl/) (SDL). This integration ensures that vulnerabilities are identified and mitigated early in the development process. Microsoft also provides tailored security guidance and best practices for developers, engineers, and security professionals working with Microsoft AI technologies.
+Security is integrated from the ground up through our [Security Development Lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl/) (SDL). This integration helps ensure that vulnerabilities are identified and mitigated early in the development process. Microsoft also provides tailored security guidance and best practices for developers, engineers, and security professionals working with Microsoft AI technologies.
 
 Microsoft conducts internal red teaming and commissions third-party assessments that include penetration testing. These assessments help evaluate Copilot implementations against traditional vulnerabilities and the Open Web Application Security Project (OWASP) Top 10 for LLMs. To see the assessments, visit the [Service Trust Portal](https://servicetrust.microsoft.com/viewpage/PenTest). 
 
@@ -73,7 +73,7 @@ In the event of a successful injection attempt, Copilot's architecture ensures c
 
 #### Audit and eDiscovery
 
-[Microsoft Purview](/purview/ai-microsoft-purview) captures Copilot interactions for auditing and eDiscovery. [Compliance Manager](/purview/compliance-manager) provides [regulatory templates](/purview/compliance-manager-assessments#assessments-for-ai-regulations) to help your organization assess, implement, and strengthen compliance against AI regulations, such as the EU Artificial Intelligence Act, ISO/IEC 23894:2023, ISO/IEC 42001:2023, and NIST AI Risk Management Framework (RMF) 1.0. 
+[Microsoft Purview](/purview/ai-microsoft-purview) captures Copilot interactions for auditing and eDiscovery. [Microsoft Compliance Manager](/purview/compliance-manager) provides [regulatory templates](/purview/compliance-manager-assessments#assessments-for-ai-regulations) to help your organization assess, implement, and strengthen compliance against AI regulations, such as the EU Artificial Intelligence Act, ISO/IEC 23894:2023, ISO/IEC 42001:2023, and NIST AI Risk Management Framework (RMF) 1.0. 
 
 #### Prompt injection defenses
 
@@ -82,11 +82,12 @@ Microsoft employs a multi-layered defense strategy across the Copilot prompt flo
 - Harm category classifiers are applied to Copilot's outputs, helping to ensure that inappropriate or harmful responses are identified and blocked.
 - The user-in-the-loop design enables users to review, modify, or reject AI-generated content.
 - Spam, scam, and suspicious content filtering help block malicious instructions, phishing attempts, and fraudulent material in prompts.
-- Copyright materials protection helps safeguard intellectual property and maintain integrity.
 - Copilot ignores junk email and untrusted Microsoft Teams chats, including chats from external contacts.
 - Copilot honors Bing web blocking to filter out adult, low-authority, and malicious sites during web search.
 
 For more information, see [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
+
+<!---Two bullet points not included yet: Copyright materials protection helps safeguard intellectual property and maintain integrity; and Copilot operates using a stateless LLM architecture. Requests are processed in real time using tenant-scoped semantic indexing to ensure data access and relevance are strictly limited to the user's organizational context. Neither of these is a prompt injection defense--->
 
 #### Data exfiltration prevention
 
