@@ -19,10 +19,10 @@ ms.collection:
 - Adm_TOC
 - m365copilot
 - magic-ai-copilot
-description: "Learn about enabling brand kits and asset libraries in the Microsoft 365 Copilot app to streamline on-brand content creation."
+description: "Learn about policy setup for brand kits and asset libraries in the Microsoft 365 Copilot app to streamline on-brand content creation."
 ---
 
-# Enterprise brand manager policy and organizational asset library (OAL) access
+# Enterprise brand manager policy setup for official brandkits
 
 Your organization can enable their brand managers to set up and publish organization or official brand kits using the Create tab on [microsoft365.com](https://microsoft365.com). These brand kits can contain multiple logos, color palettes, fonts, images, and templates pertaining to a certain brand.
 
