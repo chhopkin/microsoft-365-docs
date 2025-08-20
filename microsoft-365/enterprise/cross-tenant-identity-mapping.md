@@ -1,9 +1,9 @@
 ---
 title: Cross-Tenant Identity Mapping (preview)
 description: How to map identities across Microsoft 365 organizations when preparing for cross-tenant migrations. 
-author: briandaymsft
-ms.author: brianday
-manager: rolowe
+author: MicrosoftHeidi
+ms.author: heidip
+manager: dansimp
 ms.topic: overview
 ms.date: 07/18/2022
 ms.service: microsoft-365-enterprise
