@@ -76,7 +76,7 @@ All users in both the source and target organizations must be licensed with the 
 ### Configuration steps to enable your tenants for cross-tenant mailbox migrations
 
 > [!NOTE]
-> You must configure the target (destination) first. To complete these steps, you aren't required to have or know the tenant administrator credentials for both the source and target tenant. Steps can be performed individually for each tenant by different administrators.
+> You must configure the target (destination) first. To complete these steps, you aren't required to have or know the tenant administrator credentials for both the source and target tenant. Different administrators can perform steps individually for each tenant.
 
 ### Prepare the target (destination) tenant by creating the migration application and secret
 
