@@ -649,7 +649,7 @@ Yes. It's possible to have two instances of Microsoft Entra Connect synchronize 
 
 - Pre-provisioning the user's accounts with the script provided in this article shouldn't be done. Instead, a selective OU sync of the users in scope for the migration can be performed to populate the target tenant. You receive a warning about the UPN not matching during Microsoft Entra Connect configuration.
 - Depending on your current state of hybrid Exchange, you need to verify that the on-premises directory objects have the required attributes (such as msExchMailboxGUID and proxyAddresses) populated correctly before attempting to sync to another tenant. Otherwise, you run into issues with double mailboxes and migration failures.
-- You must take some extra steps to manage UPN transitioning, changing it on-premises once the migration is completed for a user unless you're also moving the custom domain during a cutover migration.
+- Take some extra steps to manage UPN transitioning. Change it on-premises once the migration is completed for a user, unless you're also moving the custom domain during a cutover migration.
 
 ### How should I handle mailboxes that are close to, or over quota.
 
