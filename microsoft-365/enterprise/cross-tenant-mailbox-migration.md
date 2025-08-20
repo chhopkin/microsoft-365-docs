@@ -531,7 +531,7 @@ For this initial deployment, users need to rebuild their profile with their new 
 
 There's a matrix of roles based on assumption of delegated duties when executing a mailbox move. Currently, two roles are required:
 
-- The first role is for a one-time setup task that establishes the authorization of moving content into or out of your tenant/organizational boundary. As moving data out of your organizational control is a critical concern for all companies, we opted for the highest assigned role of **Organization Administrator**. This role must alter or set up a new OrganizationRelationship that defines the `-MailboxMoveCapability` setting with the remote organization. Only the organization administrator can alter the `-MailboxMoveCapability` setting, while other attributes on the OrganizationRelationship can be managed by the Federated Sharing administrator.
+- The first role is for a one-time setup task that establishes the authorization of moving content into or out of your tenant/organizational boundary. As moving data out of your organizational control is a critical concern for all companies, we opted for the highest assigned role of **Organization Administrator**. This role must alter or set up a new OrganizationRelationship that defines the `-MailboxMoveCapability` setting with the remote organization. Only the organization administrator can alter the `-MailboxMoveCapability` setting, while the Federated Sharing administrator can managed other attributes on the OrganizationRelationship.
 - The role of executing the actual move commands can be delegated to a lower-level function. The role of **Move Mailboxes** is assigned to the capability of moving mailboxes in or out of the organization.
 
 ### How do we target which SMTP address is selected for targetAddress (TargetDeliveryDomain) on the converted mailbox (to MailUser conversion)?
@@ -546,7 +546,7 @@ Cross-Tenant mail flow after migration works similar to Exchange Hybrid mail flo
 
 Mailbox permissions include Send on Behalf of and Mailbox Access:
 
-- Send On Behalf Of (AD:publicDelegates) stores the DN of recipients with access to a user's mailbox as a delegate. This value is stored in the Active Directory and currently doesn't move as part of the mailbox transition. If the source mailbox has publicDelegates set, you need to restamp the publicDelegates on the target Mailbox once the MEU to Mailbox conversion completes in the target environment by running `Set-Mailbox <principle> -GrantSendOnBehalfTo <delegate>`.
+- Send On Behalf Of (AD:publicDelegates) stores the DN of recipients with access to a user's mailbox as a delegate. This value is stored in the Active Directory and currently doesn't move as part of the mailbox transition. If publicDelegates is set on the source mailbox, you need to restamp the publicDelegates on the target Mailbox once the MEU to Mailbox conversion completes in the target environment by running `Set-Mailbox <principle> -GrantSendOnBehalfTo <delegate>`.
 - Mailbox Permissions that are stored in the mailbox move with the mailbox when both the principal and the delegate are moved to the target system. For example, the user TestUser*7 is granted FullAccess to the mailbox TestUser_8 in the tenant SourceCompany.onmicrosoft.com. After the mailbox moves complete to TargetCompany.onmicrosoft.com, the same permissions are set up in the target directory. Examples using \_Get-MailboxPermission* for TestUser_7 in both source and target tenants are shown in this section. Exchange cmdlets are prefixed with source and target accordingly.
 
 Here's an example of the output of the mailbox permission before a move from the source side:
@@ -576,7 +576,7 @@ TestUser_8@northwindtraders.onmicrosoft.com      {FullAccess}                   
 
 ### What X500 proxy should be added to the target MailUser proxy addresses to enable migration?
 
-The cross-tenant mailbox migration requires that the LegacyExchangeDN value of the source mailbox object be stamped as an x500 email address on the target MailUser object.
+The cross-tenant mailbox migration requires that the LegacyExchangeDN value of the source mailbox object is stamped as an x500 email address on the target MailUser object.
 
 Example:
 
@@ -609,7 +609,7 @@ Don't exceed 2,000 mailboxes per batch. We strongly recommend submitting batches
 
 ### What if I use Service encryption with Microsoft Purview Customer Key?
 
-The mailbox is decrypted before moving. Ensure Customer Key is configured in the target tenant if it's still required. For more information, see [here](/purview/customer-key-overview).
+The mailbox is decrypted before moving. Ensure the Customer Key is configured in the target tenant if required. For more information, see [here](/purview/customer-key-overview).
 
 ### What is the estimated migration time?
 
@@ -621,7 +621,7 @@ Cross-tenant migration only migrates mailbox data and nothing else. There are mu
 
 <https://techcommunity.microsoft.com/t5/security-compliance-and-identity/mergers-and-spinoffs/ba-p/910455>
 
-### Can I have the same labels in the destination tenant as you had in the source tenant, either as the only set of labels or an additional set of labels for the migrated users depending on alignment between the organizations.\*\*
+### Can I have the same labels in the destination tenant as you had in the source tenant? Either as the only set of labels or an additional set of labels for the migrated users, depending on alignment between the organizations.\*\*
 
 Because cross-tenant migrations don't export labels and there's no way to share labels between tenants, you can only achieve this objective by recreating the labels in the destination tenant.
 
@@ -631,7 +631,7 @@ Currently the cross-tenant mailbox migrations feature doesn't support the migrat
 
 ### Can a source tenant admin perform an eDiscovery search against a mailbox after the mailbox is migrated to the new/target tenant?
 
-No, after a cross-tenant mailbox migration, eDiscovery against the migrated user's mailbox in the source doesn't work. This eDiscovery failure is because there's no longer a mailbox in the source to search for as the mailbox is migrated to the target tenant and now belongs to the target tenant. eDiscovery after mailbox migration can only be done in the target tenant (where the mailbox now exists). If a copy of the source mailbox needs to persist in the source tenant after migration, the administrator in the source tenant can copy the contents to an alternate mailbox premigration for future eDiscovery operations against the data.
+No, after a cross-tenant mailbox migration, eDiscovery against the migrated user's mailbox in the source doesn't work. This eDiscovery failure happens because there's no longer a mailbox in the source to search for. The mailbox is migrated to the target tenant and now belongs to the target tenant. eDiscovery after mailbox migration can only be done in the target tenant (where the mailbox now exists). If a copy of the source mailbox needs to persist in the source tenant after migration, the administrator in the source tenant can copy the contents to an alternate mailbox premigration for future eDiscovery operations against the data.
 
 ### At which point does the destination MailUser convert to a destination mailbox and the source mailbox convert to a source MailUser?
 
@@ -653,10 +653,10 @@ Yes. It's possible to have two instances of Microsoft Entra Connect synchronize 
 
 ### How should I handle mailboxes that are close to, or over quota.
 
-Mailboxes nearing their quota before migration might end up over quota either before or during the actual migration. If this situation happens, these mailboxes fail migration and need to be remediated and restarted. To mitigate this situation, we recommend the source tenant admin identify mailboxes at or near quota before migration and take the necessary steps to either reduce the mailbox size, provision a primary archive, or in some cases enable auto expanding archives for the user's mailboxes.
+Mailboxes nearing their quota before migration might end up over quota either before or during the actual migration. If this situation happens, these mailboxes fail migration and need to be remediated and restarted. To mitigate this situation, we recommend the source tenant admin identify mailboxes at or near quota before migration. After identifaction, you can take the necessary steps to either reduce the mailbox size, provision a primary archive, or in some cases enable auto expanding archives for the user's mailboxes.
 
 > [!NOTE]
-> Once enabling an archive or auto expanding archive for a user, ensure the correct archiving policies are applied to the user and the process is run to move the mailbox data to its new location and free up space.
+> Once enabling an archive or auto expanding archive for a user, ensure the correct archiving policies are applied to the user, and the process is run to move the mailbox data to its new location and free up space.
 
 ### Do autoexpanded archive mailboxes move?
 
