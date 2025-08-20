@@ -355,7 +355,7 @@ Test-MigrationServerAvailability -EndPoint "[the name of your migration endpoint
 ```
 
 > [!NOTE]
-> Additionally, you might want to take advantage of the [Cross-tenant mailbox migration validation script](https://aka.ms/crosstenantmailboxmigrationvalidationscript), which allows you to validate the organizations being correctly set up between them, and the objects you're planning to migrate from one tenant to another. The script helps identify any discrepancies that may be present on all objects at once, and as a result, it reduces the time spent on the initial phase.
+> Additionally, you might want to take advantage of the [Cross-tenant mailbox migration validation script](https://aka.ms/crosstenantmailboxmigrationvalidationscript). This script allows you to validate the organizations being correctly set up between them and the objects you're planning to migrate from one tenant to another. The script helps identify any discrepancies that may be present on all objects at once, and as a result, it reduces the time spent on the initial phase.
 
 ### Move mailboxes back to the original source
 
@@ -433,7 +433,17 @@ While Teams meetings are moved, the meeting URL isn't updated when items migrate
 
 ### What content is migrated cross-tenant?
 
-When a mailbox is migrated cross-tenant with this feature, only user-visible content in the mailbox, also known as Top of Information Store (email, contacts, calendar, tasks, and notes), and the Recoverable Items folders Deletions, Versions, and Purges are migrated.
+When a mailbox is migrated cross-tenant with this feature, only user-visible content in the mailbox, listed here, are migrated:
+- The Top of the Information Store
+  - Email
+  - Contacts
+  - Calendar
+  - Tasks
+  - Notes
+- The Recoverable Items folders
+  - Deletions
+  - Versions
+  - Purges
 
 ### Do items in the Outbox get migrated cross-tenant?
 
