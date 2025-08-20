@@ -257,7 +257,12 @@ Additionally, you can use [audit logs](/purview/audit-copilot) and [eDiscovery](
 
 To help maintain control and security when using Microsoft 365 Copilot, Microsoft provides robust plugin governance capabilities. Administrators can configure plugins to be enabled or disabled, defined in allowlists or blocklists, and role-based access controls (RBAC) must be applied to ensure only authorized users can access specific plugins. 
 
-You can enforce data protection policies by applying DLP rules and sensitivity labels to content generated through plugins. To monitor plugin behavior and detect potential risks, Microsoft Defender for Endpoint and Defender for Cloud Apps offer visibility into plugin activity and help identify anomalies.
+You can enforce data protection policies by applying DLP rules and sensitivity labels to content generated through plugins. 
+
+To monitor plugin behavior and detect potential risks, you can use DSPM for AI, Defender for Cloud Apps, and Defender for Cloud. For more information, see the following articles:
+
+- [Discover AI apps and data](https://learn.microsoft.com/en-us/security/security-for-ai/discover)
+- [How to use DSPM for AI](/purview/dspm-for-ai#how-to-use-data-security-posture-management-for-ai)
 
 #### Enterprise controls for custom AI agents
 
