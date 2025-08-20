@@ -1,5 +1,5 @@
 ---
-title: Enterprise brand manager policy and organizational asset library (OAL) access
+title: Enterprise brand manager policy setup for official brandkits
 f1.keywords:
 - NOCSH
 ms.author: camillepack
@@ -24,22 +24,20 @@ description: "Learn about enabling brand kits and asset libraries in the Microso
 
 # Enterprise brand manager policy and organizational asset library (OAL) access
 
-Your organization can enable their brand managers to set up and publish organization or official brand kits via [create.microsoft.com](https://create.microsoft.com). These brand kits can contain multiple logos, color palettes, fonts, images, and templates pertaining to a certain brand.
+Your organization can enable their brand managers to set up and publish organization or official brand kits using the Create tab on [microsoft365.com](https://microsoft365.com). These brand kits can contain multiple logos, color palettes, fonts, images, and templates pertaining to a certain brand.
 
-Once published, the brand kit is available to all users in the organization on create.microsoft.com. They can use these brand kits to generate branded artifacts or manually add brand content to existing designs and images.
+Once published, the brand kit is available to all users in the tenant in the Create tab on [microsoft365.com](https://microsoft365.com). They can use these brand kits to generate branded artifacts or manually add brand assets to existing designs and images.
 
 To enable this functionality, admins must configure the Enterprise Brand Manager policy, which involves:
 
-- Defining a security group that includes the brand managers.
+- Defining a mail-enabled security group that includes the brand managers.
 - Assigning responsibility to these brand managers for creating, managing, and publishing the official or organizational brand kits.
-
-Beyond brand kits, Copilot also supports access to an organization’s designated [organizational asset library (OAL)](/sharepoint/organization-assets-library). OALs provide broad, centralized access to brand content and support images, logos and illustrations. OALs need to be configured as searchable by an admin.
 
 ## Configure Enterprise Brand Manager policy
 
-Use the following instructions to configure Enterprise Brand Mangager. 
+Use the following instructions to configure Enterprise Brand Mangager policy.
 
-**Prerequisite** Create a mail-enabled security group with identified brand managers who have access and permission to create, publish, and manage brand kits available to all users within the organization.
+**Prerequisite** Create a mail-enabled security group with identified brand managers who will have access and permission to create, publish, and manage brand kits available to all users within the organization.
 
 **Policy setup** Follow these steps to create and enable the Enterprise Brand Manager policy for your organization:
 
@@ -54,13 +52,11 @@ Use the following instructions to configure Enterprise Brand Mangager.
 6. Set the policy to **Enabled**. By default, it's set as **Not configured**.
 7. In the Security group email address field, provide the email address for the brand managers security group for your tenant.
 
+Once configured, the brand managers will see a publish button in their brand kits to share their brandkits at the organization level. To setup the brandkit, see  [Create and manage official brandkits in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/create-and-manage-official-brand-kits-in-microsoft-365-copilot-app-6bc8a5a7-5697-466b-9e1f-302a38d44afc).
+
     :::image type="content" source="media/brand-manager/brand-manager-role.png" alt-text="Screenshot showing the Security group email text box filled with an email." lightbox="media/brand-manager/brand-manager-role.png":::
 
 8. Select **Apply**.
 
 > [!NOTE]
 > It could take up to 24 hours after a policy is created for brand managers to be able to create and edit and official brand kits.
-
-## Related content
-
-- [Create an organizational asset library (OAL) in the Microsoft 365 Copilot app](enterprise-brand-manager-policy.md)

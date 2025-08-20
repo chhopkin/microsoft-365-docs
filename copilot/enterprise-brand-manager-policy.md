@@ -1,5 +1,5 @@
 ---
-title: Create an organizational asset library (OAL) in the Microsoft 365 Copilot app
+title: Accessing an organizational asset library (OAL) in the Microsoft 365 Copilot app
 f1.keywords:
 - NOCSH
 ms.author: dansimp
@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 description: "Learn about enabling brand kits and asset libraries in the Microsoft 365 Copilot app to streamline on-brand content creation."
 ---
 
-# Create an organizational asset library in the Microsoft 365 Copilot app
+# Accessing an organizational asset library in the Microsoft 365 Copilot app
 
 Connecting an organizational asset library (OAL) to Copilot enables brand content access in the **Create** experience of the Microsoft 365 Copilot app, while also enabling Copilot Chat access in PowerPoint and Word.
 
