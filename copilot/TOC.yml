@@ -133,7 +133,7 @@ items:
   items:
   - name: Overview of Microsoft 365 Copilot Researcher
     href: researcher-agent.md
-  - name: How Researcher works in Microsoft 365 Copilot
+  - name: Microsoft 365 Copilot Researcher FAQ
     href: faq-researcher.md.md    
 - name: Maximize the value of Microsoft 365 Copilot
   items:
