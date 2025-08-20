@@ -85,9 +85,9 @@ Microsoft employs a multi-layered defense strategy across the Copilot prompt flo
 - Copilot ignores junk email and untrusted Microsoft Teams chats, including chats from external contacts.
 - Copilot honors Bing web blocking to filter out adult, low-authority, and malicious sites during web search.
 
-For more information, see [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
+For a comprehensive overview of how Microsoft safeguards data, enforces privacy controls, and secures AI operations, see [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
 
-<!---Two bullet points not included yet: Copyright materials protection helps safeguard intellectual property and maintain integrity; and Copilot operates using a stateless LLM architecture. Requests are processed in real time using tenant-scoped semantic indexing to ensure data access and relevance are strictly limited to the user's organizational context. Neither of these is a prompt injection defense--->
+<!---Two bullet points not included yet: Copyright materials protection helps safeguard intellectual property and maintain integrity; and Copilot operates using a stateless LLM architecture. Requests are processed in real time using tenant-scoped semantic indexing to ensure data access and relevance are strictly limited to the user's organizational context. These points are not included in this section because neither of these is a prompt injection defense--->
 
 #### Data exfiltration prevention
 
@@ -102,7 +102,9 @@ Microsoft 365 Copilot generated content is governed by the same access controls 
 
 ### Privacy and compliance by design
 
-Microsoft 365 Copilot adheres to enterprise-grade privacy and compliance standards, as described in [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md). This section outlines some of the security-based and privacy approaches. Protections that are enforced through security controls include:
+Microsoft 365 Copilot adheres to enterprise-grade privacy and compliance standards, as described in [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md). This section outlines some of the security-based and privacy approaches. 
+
+Protections that are enforced through security controls include:
 
 - Data access enforcement
 - User-centric access
