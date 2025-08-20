@@ -27,7 +27,7 @@ appliesto:
 | Questions | Answers |
 |---------|---------|
 | **What is Researcher in Microsoft 365 Copilot?** | Researcher is a Copilot agent designed to help users explore, summarize, and extract insights from enterprise data. It supports natural language queries and provides citations to source content, enabling users to build knowledge quickly and confidently.|
-| **What are the key capabilities of Researcher in Microsoft 365 Copilot?** | <ul><li>Summarizes documents, emails, chats, and meeting transcripts.</li><li> Answers questions using enterprise content.</li></ul>Provides citations and links to source material</li><li>Supports follow-up questions and iterative exploration</li></ul> |
+| **What are the key capabilities of Researcher in Microsoft 365 Copilot?** | <ul><li>Summarizes documents, emails, chats, and meeting transcripts.</li><li> Answers questions using enterprise content</li></li>Provides citations and links to source material</li><li>Supports follow-up questions and iterative exploration</li></ul> |
 
 ## Security and privacy
 

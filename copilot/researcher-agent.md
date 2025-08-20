@@ -28,7 +28,7 @@ Researcher is an advanced AI Copilot agent in Microsoft 365 designed to tackle c
 
 Researcher's architecture is built on the Microsoft 365 Copilot platform, leveraging a multi-tier agent orchestration model. In simple terms, Researcher is a Copilot chat agent with a specialized workflow: it interprets your question, plans a research strategy, uses various tools to gather information, and then generates a detailed answer. Several components work together behind the scenes:
 
-- **Copilot Orchestrator:**- The Copilot service hosts and manages the Researcher agent. It maintains the conversation state and coordinates function calls (like searches or invoking sub-agents) on behalf of the AI. This orchestrator enables Researcher to perform complex sequences of actions rather than just answering immediately.
+- **Copilot Orchestrator**- The Copilot service hosts and manages the Researcher agent. It maintains the conversation state and coordinates function calls (like searches or invoking sub-agents) on behalf of the AI. This orchestrator enables Researcher to perform complex sequences of actions rather than just answering immediately.
 
 - **Advanced Reasoning LLM**- Instead of the regular chat model, Researcher uses a dedicated large Language Model optimized for reasoning. This model is fine-tuned to support lengthy, multi-step thought processes.
 
