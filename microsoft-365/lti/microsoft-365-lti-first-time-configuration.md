@@ -51,7 +51,7 @@ Once the Microsoft 365 tool is installed, an LMS Administrator must complete the
 
 1. As the LMS Administrator, you can choose to enable or disable the Microsoft Education experiences available to your instructors. The **Enabled** toggle switch controls the enabled state of the application for the deployment, and the **On by default** toggle switch controls the default state of visibility for the app in a course. Instructors can change the visibility of any enabled app in their course.
       > [!IMPORTANT]
-      > For Preview, we recommend you test OneDrive and Class Notebook in courses that don't have the other versions deployed. Both current and new apps can exist and create assets in the same course, but files won't be able to be copied or accessed between versions at the moment.
+      > For Preview, we recommend you test OneDrive and Class Notebook in courses that do not have the other versions deployed. Both current and new apps can exist and create assets in the same course, but files won't be able to be copied or accessed between versions at the moment.
 
      :::image type="content" source="./media/applications.png" alt-text="Screenshot of applications." border="true":::
 
@@ -60,7 +60,7 @@ Once the Microsoft 365 tool is installed, an LMS Administrator must complete the
      :::image type="content" source="./media/teams-creation.png" alt-text="Screenshot of Microsoft Teams creation." border="true":::
 
 > [!IMPORTANT]
-> Canvas, Blackboard, Moodle, and other LMSs have robust integrations to create and sync Microsoft Teams for a course. If you have one of those sync mechanisms already enabled, we recommend that you continue to use that integration and leave this setting disabled so your users don't unexpectantly end up with multiple Teams. At the current time, those integrations are more robust and are the preferred way to create and sync a Team for their courses. Allowing your instructors to create Teams via the Microsoft 365 integration results in a separate Team being created for the course.
+> Canvas, Blackboard, Moodle, and other LMSs have robust integrations to create and sync Microsoft Teams for a course. If you have one of those sync mechanisms already enabled, we recommend that you continue to use that integration and leave this setting disabled so your users do not unexpectedly end up with multiple Teams. At the current time, those integrations are more robust and are the preferred way to create and sync a Team for their courses. Allowing your instructors to create Teams via the Microsoft 365 integration results in a separate Team being created for the course.
 
 ## Considerations for Teams Sync Options
 
