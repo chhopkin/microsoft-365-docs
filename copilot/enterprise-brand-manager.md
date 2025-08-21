@@ -51,7 +51,7 @@ Use the following instructions to configure Enterprise Brand Manager policy.
     :::image type="content" source="media/brand-manager/brand-manager-policy.png" alt-text="Screenshot showing the Policy Management page to configure settings." lightbox="media/brand-manager/brand-manager-policy.png":::
 
 1. Set the policy to **Enabled**. By default, it's set as **Not configured**.
-1. In the Security group email address field, provide the email address for the brand managers security group for your tenant.
+1. In the **Security group email address** field, provide the email address for the brand managers security group for your tenant.
 
     Once configured, the brand managers will see a publish button in their brand kits to share their brandkits at the organization level. To set up the brand kit, see [Create and manage official brandkits in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/create-and-manage-official-brand-kits-in-microsoft-365-copilot-app-6bc8a5a7-5697-466b-9e1f-302a38d44afc).
 
