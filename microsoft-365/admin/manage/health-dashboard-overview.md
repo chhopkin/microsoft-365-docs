@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 ms.collection:
 - Tier2
 - scotvorg
+- operations-pod
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb

@@ -14,6 +14,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+- operations-pod
 ms.custom: AdminSurgePortfolio
 description: "Learn how to get an Office Activation report to know which users have activated their Microsoft 365 subscription, and identify users that might need additional help."
 ---

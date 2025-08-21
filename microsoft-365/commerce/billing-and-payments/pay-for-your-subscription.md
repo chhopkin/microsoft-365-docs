@@ -18,6 +18,7 @@ ms.collection:
 - highpri
 - M365-subscription-management
 - Adm_O365
+- operations-pod
 search.appverid: MET150
 ms.custom:
 - commerce_billing

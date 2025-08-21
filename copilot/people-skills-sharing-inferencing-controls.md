@@ -5,7 +5,9 @@ author: kwekuako
 ms.author: kwekua
 manager: dansimp
 ms.service: microsoft-365-copilot
-ms.collection: trust-pod
+ms.collection: 
+- trust-pod
+- operations-pod
 ms.topic: article
 ms.date: 07/22/2025
 ---

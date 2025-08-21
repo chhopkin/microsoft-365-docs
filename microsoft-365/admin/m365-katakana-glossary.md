@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - scotvorg
 - must-keep
+- operations-pod
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Understand the Japanese katakana terms used in the Microsoft 365 admin center."
 ms.date: 03/13/2025

@@ -15,6 +15,7 @@ ms.collection:
 - Tier1
 - scotvorg
 - M365-subscription-management
+- operations-pod
 ms.custom:
 - commerce_ssp
 - AdminSurgePortfolio

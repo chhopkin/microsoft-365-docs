@@ -14,6 +14,7 @@ ms.collection:
 - Tier2
 - scotvorg
 - Adm_TOC
+- operations-pod
 ms.custom: AdminSurgePortfolio
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW

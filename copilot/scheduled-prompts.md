@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection:
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 description: "Learn about managing scheduled prompts for Microsoft 365 Copilot, admin controls, data policies, and user management steps."
 ---
 
