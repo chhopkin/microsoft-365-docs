@@ -46,7 +46,7 @@ To help you mitigate overspending, the report includes alerts when users in your
 
 You can filter the report by different time periods. The Copilot credits report can be viewed over the last 7 or 30 days.
 
-:::image type="content" source="../../media/mc-hero-metric.png" alt-text="Screenshot showing the Copilot credits report page in the Microsoft 365 admin center." lightbox="../../media/mc-hero-metric.png":::
+:::image type="content" source="../../media/copilot-credit/copilot-credit-hero-metric.png" alt-text="Screenshot showing the Copilot credits report page in the Microsoft 365 admin center." lightbox="../../media/copilot-credit/copilot-credit-hero-metric.png":::
 
 >[!NOTE]
 > During the preview, the report displays a maximum of 30 days of Copilot credits history. In addition, usage information from before May 3, 2025 isn't available in the report.
@@ -63,7 +63,7 @@ The **Alert** card is visible in the report when one or more users consumed more
 
 Select **View Copilot credits details** to see the user list and export it to CSV. If users have consumed 2000-3000 credits, a similar alert appears.
 
-:::image type="content" source="../../media/mc-alert.png" alt-text="Screenshot showing the alert box that informs admins about high Copilot credits." lightbox="../../media/mc-alert.png":::
+:::image type="content" source="../../media/copilot-credit/copilot-credit-alert.png" alt-text="Screenshot showing the alert box that informs admins about high Copilot credits." lightbox="../../media/copilot-credit/copilot-credit-alert.png":::
 
 >[!NOTE]
 > For preview, the Alerts will remain visible in the report for up to seven days and will disappear after if there are no new users who crossed the threshold.  
@@ -72,7 +72,7 @@ Select **View Copilot credits details** to see the user list and export it to CS
 
 You can see the following cumulative chart in this report as default view.
 
-:::image type="content" source="../../media/mc-cumulative-chart.png" alt-text="Screenshot showing the chart with a green trend line that shows the cumulative default view for Copilot credits." lightbox="../../media/mc-cumulative-chart.png":::
+:::image type="content" source="../../media/copilot-credit/copilot-credit-cumulative-chart.png" alt-text="Screenshot showing the chart with a green trend line that shows the cumulative default view for Copilot credits." lightbox="../../media/copilot-credit/copilot-credit-cumulative-chart.png":::
 
 The definition of credits used is the same as provided earlier in this article.
 
@@ -87,7 +87,7 @@ You can view user details, agent details, and user and agent details in the Copi
 
 ### User details
 
-:::image type="content" source="../../media/message-consumption-user-details.png" alt-text="Screenshot showing a table for user details in the Copilot credits report." lightbox="../../media/message-consumption-user-details.png":::
+:::image type="content" source="../../media/copilot-credit/copilot-credit-user-details.png" alt-text="Screenshot showing a table for user details in the Copilot credits report." lightbox="../../media/copilot-credit/copilot-credit-user-details.png":::
 
 | Item                    | Description            |
 |-------------------------|------------------------|
