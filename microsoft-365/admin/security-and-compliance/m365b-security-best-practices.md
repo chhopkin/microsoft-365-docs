@@ -58,7 +58,7 @@ The following table summarizes how to secure your data using Microsoft 365 for b
 |&nbsp;&nbsp;&nbsp;[Security defaults](set-up-multi-factor-authentication.md#manage-security-defaults) is on by default and is suitable for most organizations.|✔|✔|✔|
 |&nbsp;&nbsp;&nbsp;Use [Conditional Access](set-up-multi-factor-authentication.md#manage-conditional-access-policies) for more stringent requirements.|||✔|
 |**2. Protect admin accounts**. See [Admin account security in Microsoft 365 for business](m365b-account-security-admins.md).|✔|✔|✔|
-|**3. Use preset security policies**. See [Preset security policies in cloud organizations](/defender-office-365/preset-security-policies) and [Determine your threat policy strategy](/defender-office-365/mdo-deployment-guide#determine-your-protection-policy-strategy).||||
+|**3. Use preset security policies**. See [Preset security policies in cloud organizations](/defender-office-365/preset-security-policies) and [Determine your threat policy strategy](/defender-office-365/mdo-deployment-guide#determine-your-threat-policy-strategy).||||
 |&nbsp;&nbsp;&nbsp;[Default email protections for cloud mailboxes](/defender-office-365/eop-about). Includes: Anti-spam, anti-malware, and anti-phishing (spoof) protection.|✔|✔|✔|
 |&nbsp;&nbsp;&nbsp;[Microsoft Defender for Office 365 Plan 1](/defender-office-365/mdo-about#defender-for-office-365-plan-1-capabilities) protection. Includes: Extra anti-phishing protection features (impersonation protection and anti-phishing thresholds), Safe Links (email, Office apps, and Microsoft Teams), and Safe Attachments (email and files in SharePoint, OneDrive, and Microsoft Teams)|||✔|
 |**4. Protect all devices** that access company data, including personal and company devices:||||

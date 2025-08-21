@@ -96,6 +96,7 @@ Microsoft 365 Business Premium also includes Microsoft Defender for Office 365 P
 
 - [Impersonation protection and phishing email thresholds in anti-phishing policies](/defender-office-365/anti-phishing-policies-about#exclusive-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365)
 - [Safe Attachments policies](/defender-office-365/safe-attachments-about)
+- [Safe Attachments for SharePoint, OneDrive, and Microsoft Teams](/defender-office-365/safe-attachments-for-spo-odfb-teams-about)
 - [Safe Links policies](/defender-office-365/safe-links-about)
 
 The default settings for these email and collaboration protection features provide a good level of protection. But for even better protection, we recommend configuring more settings and features for the best available protection (for example, [turn on and assign the Standard and/or Strict preset security policies](/defender-office-365/preset-security-policies#use-the-microsoft-defender-portal-to-assign-standard-and-strict-preset-security-policies-to-users)).
@@ -103,7 +104,7 @@ The default settings for these email and collaboration protection features provi
 For more information, see [Email and collaboration security in Microsoft 365 for business](m365b-email-collaboration-security.md).
 
 > [!TIP]
-> For a deeper dive into default policies vs. custom policies vs. preset security policies, see [Configure threat policies in Defender for Office 365](/defender-office-365/mdo-deployment-guide#step-2-configure-protection-policies).
+> For a deeper dive into default policies vs. custom policies vs. preset security policies, see [Configure threat policies in Defender for Office 365](/defender-office-365/mdo-deployment-guide#step-2-configure-threat-policies).
 >
 > The security settings in default policies, the Standard preset security policy, and the Strict preset security policy are listed in the tables in [Recommended email and collaboration threat policy settings for cloud organizations](/defender-office-365/recommended-settings-for-eop-and-office365).
 

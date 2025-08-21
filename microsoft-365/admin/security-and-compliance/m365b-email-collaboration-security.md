@@ -62,11 +62,11 @@ Configure [SPF](/defender-office-365/email-authentication-spf-configure), [DKIM]
 
 For more information, see [Configure email authentication for your Microsoft 365 domains](/defender-office-365/mdo-deployment-guide#step-1-configure-email-authentication-for-your-microsoft-365-domains).
 
-## Configure email protection policies
+## Configure threat policies
 
-Turn on and use the Standard and/or Strict [preset security policies](/defender-office-365/preset-security-policies) for all recipients. Or, if [business needs dictate](/defender-office-365/mdo-deployment-guide#determine-your-protection-policy-strategy), create and use custom protection policies instead, but check them periodically using the [configuration analyzer](/defender-office-365/configuration-analyzer-for-security-policies).
+Turn on and use the Standard and/or Strict [preset security policies](/defender-office-365/preset-security-policies) for all recipients. Or, if [business needs dictate](/defender-office-365/mdo-deployment-guide#determine-your-threat-policy-strategy), create and use custom threat policies instead, but check them periodically using the [configuration analyzer](/defender-office-365/configuration-analyzer-for-security-policies).
 
-For more information, see [Configure email protection policies](/defender-office-365/mdo-deployment-guide#step-2-configure-protection-policies).
+For more information, see [Configure threat policies](/defender-office-365/mdo-deployment-guide#step-2-configure-threat-policies).
 
 ### Identify priority accounts
 
