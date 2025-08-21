@@ -257,7 +257,7 @@ jobs:
                 $script:siHash = @{}
                 $siHash.China = "Office 365 operated by 21Vianet"
                 $siHash.Germany = "Office 365 Germany"
-                $siHash.Franch = "Office 365 France"
+                $siHash.France = "Office 365 France"
                 $siHash.USGovDoD = "Office 365 U.S. Government DoD"
                 $siHash.USGovGCCHigh = "Office 365 U.S. Government GCC High"
                 $siHash.Worldwide = "Office 365 Worldwide"
@@ -904,4 +904,5 @@ jobs:
           with:
             name: RunData
             path: "${{ github.workspace }}/run-data/endpoints*"
+
 
