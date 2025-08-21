@@ -503,7 +503,7 @@ items:
         - name: Email & Collaboration security
           items:
             - name: Email and collaboration security in Microsoft 365 for business
-              href: security-and-compliance/m365b-devices-basic-mobility-security-overview.md
+              href: security-and-compliance/m365b-email-collaboration-security.md
             - name: Protect users against phishing and other attacks in Microsoft 365 for business
               href: security-and-compliance/m365b-users-phishing-spam-malware.md
         - name: Device security
