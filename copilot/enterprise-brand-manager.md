@@ -1,5 +1,5 @@
 ---
-title: Enterprise brand manager policy setup for official brandkits
+title: Enterprise brand manager policy setup for official brand kits
 f1.keywords:
 - NOCSH
 ms.author: aaroncz
@@ -27,7 +27,7 @@ description: "Learn about policy setup for brand kits and asset libraries in the
 
 Your organization can enable their brand managers to set up and publish organization or official brand kits using the Create tab on [microsoft365.com](https://microsoft365.com). These brand kits can contain multiple logos, color palettes, fonts, images, and templates pertaining to a certain brand.
 
-Once published, the brand kit is available to all users in the tenant in the Create tab on [microsoft365.com](https://microsoft365.com). They can use these brand kits to generate branded artifacts or manually add brand assets to existing designs and images.
+Once published, the brand kit is available to all users in the tenant in the **Create** tab on [microsoft365.com](https://microsoft365.com). They can use these brand kits to generate branded artifacts or manually add brand assets to existing designs and images.
 
 To enable this functionality, admins must configure the Enterprise Brand Manager policy, which involves:
 
@@ -36,7 +36,7 @@ To enable this functionality, admins must configure the Enterprise Brand Manager
 
 ## Configure Enterprise Brand Manager policy
 
-Use the following instructions to configure Enterprise Brand Mangager policy.
+Use the following instructions to configure Enterprise Brand Manager policy.
 
 **Prerequisite** Create a mail-enabled security group with identified brand managers who will have access and permission to create, publish, and manage brand kits available to all users within the organization.
 
@@ -53,7 +53,7 @@ Use the following instructions to configure Enterprise Brand Mangager policy.
 6. Set the policy to **Enabled**. By default, it's set as **Not configured**.
 7. In the Security group email address field, provide the email address for the brand managers security group for your tenant.
 
-Once configured, the brand managers will see a publish button in their brand kits to share their brandkits at the organization level. To setup the brandkit, see  [Create and manage official brandkits in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/create-and-manage-official-brand-kits-in-microsoft-365-copilot-app-6bc8a5a7-5697-466b-9e1f-302a38d44afc).
+Once configured, the brand managers will see a publish button in their brand kits to share their brandkits at the organization level. To set up the brandkit, see [Create and manage official brandkits in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/create-and-manage-official-brand-kits-in-microsoft-365-copilot-app-6bc8a5a7-5697-466b-9e1f-302a38d44afc).
 
 :::image type="content" source="media/brand-manager/brand-manager-role.png" alt-text="Screenshot showing the Security group email text box filled with an email." lightbox="media/brand-manager/brand-manager-role.png":::
 
