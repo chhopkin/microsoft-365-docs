@@ -2,8 +2,8 @@
 title: "Submit admin-initiated Copilot feedback from the Microsoft 365 admin center"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: danbrown
+author: DHB-MSFT
 manager: dansimp
 ms.date: 11/01/2024
 ms.update-cycle: 180-days
@@ -12,11 +12,12 @@ ms.topic: how-to
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.collection:
-- scotvorg
+- feedback-content
 - m365copilot
 - magic-ai-copilot
-- operations-pod
+- trust-pod
 description: "Learn how to provide Microsoft 365 Copilot feedback to Microsoft on behalf of your users who encounter issues"
+hideEdit: true
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---

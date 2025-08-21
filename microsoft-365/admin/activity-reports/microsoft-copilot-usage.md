@@ -87,6 +87,8 @@ You can also export the report data into an Excel .csv file by selecting the **E
 |-----------------------------|------------------|
 | **Username**                | The user's principal name.  |
 | **Display name**            | The full name of the user.      |
+| **Prompts submitted**       | The total number of prompts submitted by this user to Microsoft 365 Copilot Chat during the specified period. |
+| **Active days**             | The total number of days the user has submitted prompts to Microsoft 365 Copilot Chat within the specified timeframe. |
 | **Last activity date (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Teams, Outlook, Copilot.cloud.microsoft, Microsoft Edge, the Microsoft 365 Copilot (app), Word, Excel, PowerPoint, or OneNote. This date remains fixed even if the timeframe of the report is changed. |
 | **Last activity date of Teams (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Teams. This date remains fixed even if the timeframe of the report is changed. |
 | **Last activity date of Outlook (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Outlook. This date remains fixed even if the timeframe of the report is changed.  |

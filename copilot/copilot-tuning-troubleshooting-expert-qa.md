@@ -8,6 +8,7 @@ manager: dansimp
 ms.date: 06/17/2025
 audience: Admin
 ms.topic: troubleshooting-general
+ms.service: microsoft-365-copilot
 ms.reviewer: calvind
 ms.localizationpriority: medium
 recommendations: false

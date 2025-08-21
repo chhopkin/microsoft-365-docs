@@ -129,7 +129,7 @@ items:
           href: setup-guides-for-microsoft-365.md
         - name: Integration
           items: 
-            - name: Integrated Apps and Microsoft Entra ID
+            - name: Custom Apps and Microsoft Entra ID
               href: integrated-apps-and-azure-ads.md
             - name: Integration with on-premises
               href: microsoft-365-integration.md
