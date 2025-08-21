@@ -55,7 +55,7 @@ Use the following instructions to configure Enterprise Brand Mangager policy.
 
 Once configured, the brand managers will see a publish button in their brand kits to share their brandkits at the organization level. To setup the brandkit, see  [Create and manage official brandkits in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/create-and-manage-official-brand-kits-in-microsoft-365-copilot-app-6bc8a5a7-5697-466b-9e1f-302a38d44afc).
 
-    :::image type="content" source="media/brand-manager/brand-manager-role.png" alt-text="Screenshot showing the Security group email text box filled with an email." lightbox="media/brand-manager/brand-manager-role.png":::
+:::image type="content" source="media/brand-manager/brand-manager-role.png" alt-text="Screenshot showing the Security group email text box filled with an email." lightbox="media/brand-manager/brand-manager-role.png":::
 
 8. Select **Apply**.
 
