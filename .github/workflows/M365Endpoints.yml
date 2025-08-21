@@ -565,10 +565,15 @@ jobs:
             function Write-ServiceAreaHeader {
                 param($saName, $path, $file)
 
-                Write-Host "Write service header for $saName"
+                    If ($saName -ne "") {
 
-                # Add a header with the service area name to the output file
-                "`n## " + $saName + "`n" | Out-File -Append -FilePath ($path + $file)
+                        Write-Host "Write service header for $saName"
+
+                        # Add a header with the service area name to the output file
+                        "`n## " + $saName + "`n" | Out-File -Append -FilePath ($path + $file)
+                        
+                    }
+                  
             } # end function Write-ServiceAreaHeader
 
             function ConvertTo-EndpointObject {
@@ -904,5 +909,6 @@ jobs:
           with:
             name: RunData
             path: "${{ github.workspace }}/run-data/endpoints*"
+
 
 
