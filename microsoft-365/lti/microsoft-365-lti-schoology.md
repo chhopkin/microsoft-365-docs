@@ -4,7 +4,7 @@ description: Learn how to deploy the Microsoft 365 Learning Tool Interoperabilit
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
-ms.date: 07/21/2025
+ms.date: 08/21/2025
 audience: admin
 ms.topic: how-to
 ms.service: msteams
@@ -46,7 +46,7 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
 1. From the [**Organization Apps list**](https://app.schoology.com/apps/school_apps), locate the **Teams Assignments** app and select the **Install/Remove** button.
 
-1. To install the app for all courses, choose the **All Courses** checkbox and the **Course Admins Only** checkbox.
+1. To install the app for all courses, choose the **All Courses** checkbox.
 
 > [!NOTE]
 > If you choose not to install the app for all courses, then Course Admins must install the app for themselves by either:
