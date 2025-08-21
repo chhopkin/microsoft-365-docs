@@ -2,7 +2,7 @@
 title: "Microsoft 365 reports in the admin center – Copilot Search usage"
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: dansimp
+manager: scotv
 ms.reviewer: kols
 audience: Admin
 ms.topic: concept-article
@@ -19,7 +19,7 @@ search.appverid:
 - MET150
 - MOE150
 description: "Learn about search usage in Microsoft 365 Copilot and gain insights into the Microsoft 365 Copilot activity in your organization."
-ms.date: 08/12/2025
+ms.date: 08/21/2025
 ---
 
 # Microsoft 365 reports in the admin center – Copilot Search usage
