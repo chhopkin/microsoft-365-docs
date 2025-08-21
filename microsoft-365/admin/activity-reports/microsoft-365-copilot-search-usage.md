@@ -34,7 +34,7 @@ The Copilot Search usage report provides a detailed view of both organizational 
 ## How do I get to the Copilot Search usage report?
 
 1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to the **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a> page.
-2. Expand **Microsoft 365 Copilot** to view the list of Copilot reports
+2. Expand **Microsoft 365 Copilot** to view the list of Copilot reports.
 3. Select **Copilot Search**.
 
 ## Interpret the Copilot Search usage report
