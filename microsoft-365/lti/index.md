@@ -42,7 +42,7 @@ Follow the guide that is relevant to your LMS. If there isn’t a guide specific
 - [Deploy the Microsoft 365 LTI® app in PowerSchool Schoology Learning](microsoft-365-lti-schoology.md)
 - [Deploy the Microsoft 365 LTI® app in Brightspace by D2L](microsoft-365-lti-brightspace.md)
 - [Deploy the Microsoft 365 LTI® app in Moodle™](microsoft-365-lti-moodle.md)
-- Deploy Microsoft 365 LTI in any LTI1 1.3 Advantage Platform
+- [Deploy Microsoft 365 LTI in any LTI1 1.3 Advantage Platform](microsoft-365-lti-other.md)
 <!-- -->
 
 ## Experiences that are part of the Microsoft 365 LTI
