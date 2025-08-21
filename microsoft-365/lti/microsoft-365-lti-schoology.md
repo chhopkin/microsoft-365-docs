@@ -34,7 +34,7 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
 ## One-time setup by an LMS administrator
 
-1. Access the **Teams Assignments** app in the **Schoology** [**App Center**](https://app.schoology.com/apps) by copying this direct link into a browser: `https://_\<apps>_.schoology.com/apps/profile/7876809197` and replacing the _\<apps>_ portion of the URL with your organizations custom subdomain (for example: districtXYZ.schoology.com/apps/profile/7876809197). Then browse the app store profile.
+1. Access the **Teams Assignments** app in the **Schoology** [**App Center**](https://app.schoology.com/apps) by copying this direct link into a browser: `https://_\<apps>_.schoology.com/apps/profile/7876809197` and replacing the _\<apps>_ portion of the URL with your organization's custom subdomain (for example: districtXYZ.schoology.com/apps/profile/7876809197). Then browse the app store profile.
 
 1. Select **Login** in the upper right to log into your Schoology Learning instance as an administrator with access to install and configure the app.
 
