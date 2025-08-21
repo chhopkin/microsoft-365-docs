@@ -12,7 +12,7 @@ ms.service: microsoft-365-basic-mobility-security
 ms.localizationpriority: medium
 ms.collection:
 - Tier3
-- scotvorg 
+- scotvorg
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC

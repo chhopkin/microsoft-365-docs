@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: scotv
+manager: dansimp
 ms.reviewer: lishepar, jobailey
 audience: Admin
 ms.topic: how-to
@@ -15,11 +15,12 @@ ms.collection:
 - Tier1
 - ContentEngagementFY23
 - scotvorg
-- highpri 
+- highpri
 - M365-subscription-management
 - Adm_O365
-search.appverid: MET150 
-ms.custom: 
+- operations-pod
+search.appverid: MET150
+ms.custom:
 - commerce_billing
 - VSBFY23
 - okr_SMB

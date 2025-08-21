@@ -3,23 +3,25 @@ title: Get your data ready for Microsoft 365 Copilot with E5 + SAM licenses
 description: Get started with M365 Copilot. The E5 deployment for Microsoft 365 Copilot uses a E5 license, SharePoint Advanced Management, and Microsoft Purview. These services help your organization get ready for Copilot. This IT admin guide helps you prevent oversharing, declutter data sources, and monitor site changes. Get your organization and data ready for Copilot by following the steps in this article.
 f1.keywords:
 - NOCSH
-ms.author: mandia
-author: MandiOhlinger
-manager: laurawi
+ms.author: ruihu
+author: maggierui
+manager: dansimp
 ms.date: 03/06/2025
+ms.update-cycle: 180-days
 ms.reviewer: cabailey, ruihu
 audience: Admin
+customer-intent: As an IT admin, I want to prepare my organization for Microsoft 365 Copilot.
 ms.topic: get-started
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
 - essentials-overview
 ms.custom: [copilot-learning-hub]
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # Microsoft 365 Copilot admin guide for E5 + SAM licenses

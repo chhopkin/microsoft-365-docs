@@ -3,9 +3,9 @@ title: "Place a mailbox on Litigation Hold"
 description: "Learn how to place a mailbox on Litigation hold, retaining all the mailbox content during an investigation."
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
-manager: scotv
+ms.author: deniseb
+author: denisebmsft
+manager: dansimp
 ms.date: 04/10/2025
 audience: Admin
 ms.topic: how-to

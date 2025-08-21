@@ -17,7 +17,7 @@ ms.collection:
 - Adm_TOC
 - basic-mobility-security
 - trust-pod
-ms.custom: 
+ms.custom:
 - AdminSurgePortfolio
 - basic-mobility-security
 description: "To manage iOS devices such as iPads and iPhones in Basic Mobility and Security, begin by creating an Apple Push Notification service (APNs) certificate."

@@ -10,7 +10,7 @@ audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-basic-mobility-security
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier3
 - scotvorg
 - M365-subscription-management
