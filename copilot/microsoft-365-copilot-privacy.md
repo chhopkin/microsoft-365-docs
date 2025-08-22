@@ -16,7 +16,7 @@ ms.collection:
 - trust-pod
 hideEdit: true
 ms.update-cycle: 180-days
-ms.date: 08/20/2025
+ms.date: 08/22/2025
 ms.custom: [copilot-learning-hub]
 ---
 
