@@ -42,7 +42,7 @@ In addition, Microsoft embeds its Responsible AI principle-based governance acro
 
 Security is integrated from the ground up through our [Security Development Lifecycle](https://www.microsoft.com/en-us/securityengineering/sdl/) (SDL). This integration helps ensure that vulnerabilities are identified and mitigated early in the development process. Microsoft also provides tailored security guidance and best practices for developers, engineers, and security professionals working with Microsoft AI technologies. See [Build a strong security posture for AI](/security/security-for-ai/posture).
 
-Microsoft conducts internal red teaming and commissions third-party assessments that include penetration testing. These assessments help evaluate Copilot implementations against traditional vulnerabilities and the Open Web Application Security Project (OWASP) Top 10 for LLMs. To see the assessments, visit the [Service Trust Portal](https://servicetrust.microsoft.com/viewpage/PenTest). 
+Microsoft conducts internal red teaming and commissions third-party assessments that include penetration testing. These assessments help evaluate Copilot implementations against traditional vulnerabilities and the [Open Web Application Security Project (OWASP) Top 10 for LLMs](https://owasp.org/www-project-top-10-for-large-language-model-applications/). To see the assessments, visit the [Service Trust Portal](https://servicetrust.microsoft.com/viewpage/PenTest). 
 
 #### Execution controls
 
