@@ -99,7 +99,7 @@ You can view user details, agent details, and user and agent details in the Copi
 
 ### Agent details
 
-:::image type="content" source="../../media/message-consumption-agent-details.png" alt-text="Screenshot showing a table for agent details in the Copilot credits report." lightbox="../../media/message-consumption-agent-details.png":::
+:::image type="content" source="../../media/copilot-credit/copilot-credit-agent-details.png" alt-text="Screenshot showing a table for agent details in the Copilot credits report." lightbox="../../media/copilot-credit/copilot-credit-agent-details.png":::
 
 | Item                    | Description      |
 |-------------------------|------------------|
@@ -111,7 +111,7 @@ You can view user details, agent details, and user and agent details in the Copi
 
 ### Billing Policies
 
-:::image type="content" source="../../media/message-consumption-billing-policies.png" alt-text="Screenshot showing a table for billing policies in the Copilot credits report." lightbox="../../media/message-consumption-billing-policies.png":::
+:::image type="content" source="../../media/copilot-credit/copilot-credit-billing-policies.png" alt-text="Screenshot showing a table for billing policies in the Copilot credits report." lightbox="../../media/copilot-credit/copilot-credit-billing-policies.png":::
 
 | Item                    | Description          |
 |-------------------------|----------------------|
@@ -122,7 +122,7 @@ You can view user details, agent details, and user and agent details in the Copi
 
 ### User and agent details
 
-:::image type="content" source="../../media/message-consumption-user-agent.png" alt-text="Screenshot showing the table for user and agent details in the Copilot credits report." lightbox="../../media/message-consumption-user-agent.png":::
+:::image type="content" source="../../media/copilot-credit/copilot-credit-user-agent.png" alt-text="Screenshot showing the table for user and agent details in the Copilot credits report." lightbox="../../media/copilot-credit/copilot-credit-user-agent.png":::
 
 | Item                    | Description     |
 |-------------------------|-----------------|
