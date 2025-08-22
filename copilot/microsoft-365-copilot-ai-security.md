@@ -103,7 +103,6 @@ Microsoft 365 Copilot adheres to enterprise-grade privacy and compliance standar
 Protections that are enforced through security controls include:
 
 - Data access enforcement
-- User-centric access
 - Encryption and isolation
 - Compliance tooling
 - Safeguarding data across the AI lifecycle
@@ -115,15 +114,13 @@ Protections that are enforced through security controls include:
 
 Microsoft 365 Copilot respects [Microsoft Entra ID](/entra/fundamentals/what-is-entra) permissions and [Microsoft Purview policies](/purview/ai-m365-copilot). Microsoft 365 Copilot only surfaces organizational data to which individual users have at least view permissions. Policies are enforced by Microsoft Entra ID, Microsoft Purview, and [Microsoft Entra Conditional Access](/entra/identity/conditional-access/overview).
 
-[Microsoft 365 Copilot connectors](/microsoft-365-copilot/extensibility/overview-copilot-connector) enhance the value of Copilot while maintaining the same enterprise-grade protections.
-
-#### User-centric access
-
-Microsoft 365 Copilot only accesses data the user is authorized to view, and can't retrieve or act on content the user can't access directly. 
+[Microsoft 365 Copilot connectors](/microsoft-365-copilot/extensibility/overview-copilot-connector) enhance the value of Microsoft 365 Copilot while maintaining the same enterprise-grade protections.
 
 #### Encryption and isolation
 
-Data is encrypted in transit and at rest using FIPS 140-2–compliant technologies, with tenant-level isolation. [Double Key Encryption](/purview/double-key-encryption) (DKE) ensures Microsoft can't access protected content without the customer's key, and the content isn't accessible to Microsoft 365 Copilot.
+Data is encrypted in transit and at rest using FIPS 140-2–compliant technologies, with tenant-level isolation. [Double Key Encryption](/purview/double-key-encryption) (DKE) helps to ensure that Microsoft can't access protected content without the customer's key, and the content isn't accessible to Microsoft 365 Copilot.
+
+When you have data that's encrypted by Microsoft Purview Information Protection, Microsoft 365 Copilot honors the usage rights granted to the user. This encryption can be applied by sensitivity labels or by restricted permissions in apps in Microsoft 365 by using Information Rights Management (IRM). For more information about using Purview with Microsoft 365 Copilot, see [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview).
 
 #### Compliance tooling
 
