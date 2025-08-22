@@ -1,7 +1,7 @@
 ---
 title: Overview of Loop storage
-ms.author: jenz
-author: jenzamora
+ms.author: odocspr
+author: officedocspr5
 manager: jtremper
 audience: Admin
 ms.topic: article
