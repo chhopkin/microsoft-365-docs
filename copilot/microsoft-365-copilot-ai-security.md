@@ -22,7 +22,7 @@ appliesto:
 
 # AI security for Microsoft 365 Copilot
 
-AI security is foundational to our approach at Microsoft; it safeguards customer data, supports system integrity, and includes user safety features. This commitment aligns with our broader principles of privacy, compliance, and trust. This article outlines Microsoft's approach to securing Copilot and provides guidance you can use to strengthen your AI security posture.
+AI security is foundational to our approach at Microsoft; it safeguards customer data, supports system integrity, and includes user safety features. This commitment aligns with our broader principles of privacy, compliance, and trust. This article outlines Microsoft's approach to securing Microsoft 365 Copilot and provides guidance you can use to strengthen your AI security posture.
 
 ## What Microsoft does to secure Microsoft 365 Copilot
 
@@ -44,11 +44,11 @@ Security is integrated from the ground up through our [Security Development Life
 
 #### Assessments and testing
 
-Microsoft conducts internal red teaming and commissions third-party assessments that include penetration testing. These assessments help evaluate Copilot implementations against traditional vulnerabilities and the [Open Web Application Security Project (OWASP) Top 10 for LLMs](https://owasp.org/www-project-top-10-for-large-language-model-applications/). To see the assessments, visit the [Service Trust Portal](https://servicetrust.microsoft.com/viewpage/PenTest). 
+Microsoft conducts internal red teaming and commissions third-party assessments that include penetration testing. These assessments help evaluate Microsoft 365 Copilot implementations against traditional vulnerabilities and the [Open Web Application Security Project (OWASP) Top 10 for LLMs](https://owasp.org/www-project-top-10-for-large-language-model-applications/). To see the assessments, visit the [Service Trust Portal](https://servicetrust.microsoft.com/viewpage/PenTest). 
 
 #### Execution controls
 
-Microsoft 365 Copilot enforces secure coding and architectural safeguards to prevent misuse, including ransomware generation and remote code execution. Malicious patterns are blocked through prompt inspection and content filtering, while sandboxing ensures Copilot operates within constrained execution boundaries. For more information, see [Microsoft 365 Copilot architecture and how it works](/copilot/microsoft-365/microsoft-365-copilot-architecture).
+Microsoft 365 Copilot enforces secure coding and architectural safeguards to prevent misuse, including ransomware generation and remote code execution. Malicious patterns are blocked through prompt inspection and content filtering, while sandboxing ensures Microsoft 365 Copilot operates within constrained execution boundaries. For more information, see [Microsoft 365 Copilot architecture and how it works](/copilot/microsoft-365/microsoft-365-copilot-architecture).
 
 ### Threat intelligence and risk mitigation
 
@@ -62,32 +62,32 @@ Key practices include:
 - Metaprompting
 - Content filtering to detect prompt injection attempts, including jailbreaks, eXternalized Prompt Injection Attacks (XPIAs), and agentic vulnerabilities
 
-Microsoft 365 Copilot mitigates XPIA and agentic vulnerabilities through layered defenses, including markdown sanitization, malicious prompt classifiers, session hardening, and content security policies. These protections prevent unauthorized actions and data exfiltration across Copilot surfaces, and are deployed automatically through Microsoft's cloud infrastructure without customer action required. This methodology also includes continuous testing and containment strategies.
+Microsoft 365 Copilot mitigates XPIA and agentic vulnerabilities through layered defenses, including markdown sanitization, malicious prompt classifiers, session hardening, and content security policies. These protections prevent unauthorized actions and data exfiltration across Microsoft 365 Copilot surfaces, and are deployed automatically through Microsoft's cloud infrastructure without customer action required. This methodology also includes continuous testing and containment strategies.
 
 #### Containment by design
 
-In the event of a successful injection attempt, Copilot's architecture helps ensure containment by design. Copilot operates within the user's identity and access context, limiting the blast radius of any potential compromise. 
+In the event of a successful injection attempt, Microsoft 365 Copilot's architecture helps ensure containment by design. Microsoft 365 Copilot operates within the user's identity and access context, limiting the blast radius of any potential compromise. 
 
-- Copilot operates within the user's identity and tenant context
-- Copilot only accesses data the user is authorized to view
+- Microsoft 365 Copilot operates within the user's identity and tenant context
+- Microsoft 365 Copilot only accesses data the user is authorized to view
 - All interactions are scoped to existing permissions, preventing lateral movement or unauthorized data access
 
 #### Prompt injection defenses
 
-Microsoft employs a multi-layered defense strategy across the Copilot prompt flow to mitigate risks of prompt injection. Here are some examples of protection features that are active by default and don't require setup:
+Microsoft employs a multi-layered defense strategy across the Microsoft 365 Copilot prompt flow to mitigate risks of prompt injection. Here are some examples of protection features that are active by default and don't require setup:
 
 - The user-in-the-loop design enables users to review, modify, or reject AI-generated content.
 - Spam, scam, and suspicious content filtering help block malicious instructions, phishing attempts, and fraudulent material in prompts.
-- Copilot ignores junk email and untrusted Microsoft Teams chats, including chats from external contacts.
-- Copilot honors Bing web blocking to filter out adult, low-authority, and malicious sites during web search.
+- Microsoft 365 Copilot ignores junk email and untrusted Microsoft Teams chats, including chats from external contacts.
+- Microsoft 365 Copilot honors Bing web blocking to filter out adult, low-authority, and malicious sites during web search.
 
 For a comprehensive overview of how Microsoft safeguards data, enforces privacy controls, and secures AI operations, see [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
 
-<!---Two bullet points not included yet: Copyright materials protection helps safeguard intellectual property and maintain integrity; and Copilot operates using a stateless LLM architecture. Requests are processed in real time using tenant-scoped semantic indexing to ensure data access and relevance are strictly limited to the user's organizational context. These points are not included in this section because neither of these is a prompt injection defense--->
+<!---Two bullet points not included yet: Copyright materials protection helps safeguard intellectual property and maintain integrity; and Microsoft 365 Copilot operates using a stateless LLM architecture. Requests are processed in real time using tenant-scoped semantic indexing to ensure data access and relevance are strictly limited to the user's organizational context. These points are not included in this section because neither of these is a prompt injection defense--->
 
 #### Data exfiltration prevention
 
-Copilot's layered security model addresses traditional and emerging threats, including scenarios with the potential for data exfiltration, like these:
+Microsoft 365 Copilot's layered security model addresses traditional and emerging threats, including scenarios with the potential for data exfiltration, like these:
 
 - Unauthenticated image URLs, where a user generates an image containing sensitive data, extracts the URL using browser tools, and then shares the image externally. If the image is accessible without authentication, it could bypass enterprise controls, such as [Conditional Access](/entra/identity/conditional-access/overview) or [sensitivity labels](/purview/sensitivity-labels#sensitivity-labels-for-microsoft-365-copilot-and-microsoft-365-copilot-chat).
 - Malicious images, such as QR codes, where a user in one tenant generates a malicious image and shares an anonymous URL with users in another tenant. If a URL isn't protected by authentication, access controls might not be enforced. 
@@ -113,21 +113,21 @@ Protections that are enforced through security controls include:
 
 #### Data access enforcement
 
-Copilot respects [Microsoft Entra ID](/entra/fundamentals/what-is-entra) permissions and [Microsoft Purview policies](/purview/ai-m365-copilot), including strict access controls and sensitivity label inheritance. Policies are enforced via Microsoft Entra ID, Microsoft Purview, and [Conditional Access](/entra/identity/conditional-access/overview).
+Microsoft 365 Copilot respects [Microsoft Entra ID](/entra/fundamentals/what-is-entra) permissions and [Microsoft Purview policies](/purview/ai-m365-copilot), including strict access controls and sensitivity label inheritance. Policies are enforced via Microsoft Entra ID, Microsoft Purview, and [Conditional Access](/entra/identity/conditional-access/overview).
 
 [Microsoft 365 Copilot connectors](/microsoft-365-copilot/extensibility/overview-copilot-connector) enhance the value of Copilot while maintaining the same enterprise-grade protections.
 
 #### User-centric access
 
-Copilot only accesses data the user is authorized to view, and can't retrieve or act on content the user can't access directly. 
+Microsoft 365 Copilot only accesses data the user is authorized to view, and can't retrieve or act on content the user can't access directly. 
 
 #### Encryption and isolation
 
-Data is encrypted in transit and at rest using FIPS 140-2–compliant technologies, with tenant-level isolation. [Double Key Encryption](/purview/double-key-encryption) (DKE) ensures Microsoft can't access protected content without the customer's key, and the content isn't accessible to Copilot.
+Data is encrypted in transit and at rest using FIPS 140-2–compliant technologies, with tenant-level isolation. [Double Key Encryption](/purview/double-key-encryption) (DKE) ensures Microsoft can't access protected content without the customer's key, and the content isn't accessible to Microsoft 365 Copilot.
 
 #### Compliance tooling
 
-Microsoft Purview Audit and eDiscovery log and surface Copilot interactions. Compliance Manager maps controls to [regulations](/purview/compliance-manager-regulations-list), such as the EU Artificial Intelligence Act and NIST AI RMF 1.0. 
+Microsoft Purview Audit and eDiscovery log and surface Microsoft 365 Copilot interactions. Compliance Manager maps controls to [regulations](/purview/compliance-manager-regulations-list), such as the EU Artificial Intelligence Act and NIST AI RMF 1.0. 
 
 [Microsoft Purview Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai) provides centralized visibility and control over how sensitive data is accessed and used across Microsoft 365 Copilot and other AI services. It enables your organization to discover AI activity, classify and label sensitive content, enforce real-time [data loss prevention (DLP)](/purview/dlp-learn-about-dlp), and govern usage through audit logs, retention policies, and [compliance rules](/purview/dspm-for-ai-considerations#one-click-policies-from-data-security-posture-management-for-ai). 
 
@@ -146,14 +146,14 @@ For more information, see [Build a strong security posture for AI](/security/sec
 
 [Advanced Data Residency (ADR)](/microsoft-365/enterprise/advanced-data-residency#overview-of-advanced-data-residency) and [Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo) capabilities help meet regional requirements. Customers who have purchased ADR or Multi-Geo add-ons can control where certain Microsoft 365 data is stored, in accordance with regulatory requirements.
 
-When a user interacts with Copilot, their prompt is processed through a secure orchestration layer that coordinates between Microsoft 365 apps, Microsoft Graph, and the Azure OpenAI Service. The data flow follows these principles: 
+When a user interacts with Microsoft 365 Copilot, their prompt is processed through a secure orchestration layer that coordinates between Microsoft 365 apps, Microsoft Graph, and the Azure OpenAI Service. The data flow follows these principles: 
 
-- Tenant-aware orchestration: Copilot uses Microsoft Graph to retrieve only the data the user is authorized to access. This includes emails, documents, calendar events, and chats. 
+- Tenant-aware orchestration: Microsoft 365 Copilot uses Microsoft Graph to retrieve only the data the user is authorized to access. This includes emails, documents, calendar events, and chats. 
 - Regional routing: LLM calls are routed to the nearest Azure region based on the user's Microsoft Entra ID (formerly Azure AD) tenant geography. For example, EU-based tenants have their LLM calls processed within the EU Data Boundary.
 
 For more information, see the following resources:
 
-- [How Copilot works and how data is protected across its architecture](/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing)
+- [How Microsoft 365 Copilot works and how data is protected across its architecture](/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing)
 - [Microsoft 365 blog: Data residency in the AI era: New capabilities to manage your data](https://www.microsoft.com/en-us/microsoft-365/blog/2024/03/07/data-residency-in-the-ai-era-new-capabilities-to-manage-your-data/)
 
 #### EU data boundary
@@ -174,7 +174,7 @@ Microsoft Purview and Security Copilot help organizations govern AI across hybri
 
 #### Policy integration and enforcement
 
-Microsoft Entra ID, Microsoft Purview, and Microsoft 365 for business enforce Conditional Access, sensitivity labels, and information barriers. Copilot-generated responses are governed by the same controls as other Microsoft 365 content. 
+Microsoft Entra ID, Microsoft Purview, and Microsoft 365 for business enforce Conditional Access, sensitivity labels, and information barriers. Microsoft 365 Copilot-generated responses are governed by the same controls as other Microsoft 365 content. 
 
 For more information, see the following resources:
 
@@ -187,36 +187,36 @@ Organizations share responsibility for securing AI systems. Microsoft provides t
 
 1. Define and apply [sensitivity labels](/purview/get-started-with-sensitivity-labels) by using [Microsoft Purview](/purview/get-started-with-sensitivity-labels) to classify confidential content across Microsoft 365. 
 
-2. Configure [DLP policies that restrict Copilot](/purview/dlp-microsoft365-copilot-location-learn-about) from accessing or processing labeled content, such as blocking summarization or rewriting of documents marked as sensitive. 
+2. Configure [DLP policies that restrict Microsoft 365 Copilot](/purview/dlp-microsoft365-copilot-location-learn-about) from accessing or processing labeled content, such as blocking summarization or rewriting of documents marked as sensitive. 
 
-3. [Ensure users have appropriate permissions](/purview/information-protection-solution), such as *extract* or *view* rights, to allow Copilot to interact with content appropriately. 
+3. [Ensure users have appropriate permissions](/purview/information-protection-solution), such as *extract* or *view* rights, to allow Microsoft 365 Copilot to interact with content appropriately. 
 
-4. When Copilot is restricted from accessing content, users are notified, this interaction can be monitored. See [Data stored about user interactions with Microsoft 365 Copilot](microsoft-365-copilot-privacy.md#data-stored-about-user-interactions-with-microsoft-365-copilot)
+4. When Microsoft 365 Copilot is restricted from accessing content, users are notified, this interaction can be monitored. See [Data stored about user interactions with Microsoft 365 Copilot](microsoft-365-copilot-privacy.md#data-stored-about-user-interactions-with-microsoft-365-copilot)
 
-5. Extend DLP coverage across Copilot Chat and in-app experiences in Word, Excel, and PowerPoint for consistent protection. See [Learn about DLP](/purview/dlp-learn-about-dlp).
+5. Extend DLP coverage across Microsoft 365 Copilot Chat and in-app experiences in Word, Excel, and PowerPoint for consistent protection. See [Learn about DLP](/purview/dlp-learn-about-dlp).
 
 ### Control access to data
 
-You can apply [Purview sensitivity labels](/purview/default-sensitivity-labels-policies) to classify and protect content, and enforce [DLP policies](/purview/dlp-policy-reference) to block Copilot from accessing sensitive data. For highly confidential information, you can use [DKE](/purview/double-key-encryption) to retain exclusive control over encryption keys.
+You can apply [Purview sensitivity labels](/purview/default-sensitivity-labels-policies) to classify and protect content, and enforce [DLP policies](/purview/dlp-policy-reference) to block Microsoft 365 Copilot from accessing sensitive data. For highly confidential information, you can use [DKE](/purview/double-key-encryption) to retain exclusive control over encryption keys.
 
-#### Use targeted Conditional Access policies for Copilot
+#### Use targeted Conditional Access policies for Microsoft 365 Copilot
 
 Administrators can apply [Conditional Access policies](/entra/identity/conditional-access/policy-all-users-copilot-ai-security) directly to Microsoft 365 Copilot and Security Copilot service principals to enforce granular, AI-specific access controls. These policies can be configured using [Microsoft Graph PowerShell](/powershell/microsoftgraph/) or the [Microsoft Entra admin center](/entra/fundamentals/entra-admin-center). Administrators can:
 
-- Block access to Copilot for users with elevated insider risk levels
-- Require phishing-resistant multifactor authentication (MFA) when users access Copilot from outside the corporate network
+- Block access to Microsoft 365 Copilot for users with elevated insider risk levels
+- Require phishing-resistant multifactor authentication (MFA) when users access Microsoft 365 Copilot from outside the corporate network
 - Enforce device compliance and fall back to MFA if compliance can't be verified
 - Use GPS-based or IP-based location data to restrict access to trusted geographic regions or networks
 
 ### Monitor and audit AI activity
 
-Copilot interactions are logged and auditable through [auditing solutions in Microsoft Purview Audit (Standard and Premium)](/purview/audit-solutions-overview). These logs capture user prompts, system responses, and related activities, and can be retained for up to 10 years depending on licensing. This solution supports forensic investigations, compliance reviews, and anomaly detection.
+Microsoft 365 Copilot interactions are logged and auditable through [auditing solutions in Microsoft Purview Audit (Standard and Premium)](/purview/audit-solutions-overview). These logs capture user prompts, system responses, and related activities, and can be retained for up to 10 years depending on licensing. This solution supports forensic investigations, compliance reviews, and anomaly detection.
 
-Copilot interactions, such as prompts and responses, are stored in a hidden folder in the user's mailbox. This content is discoverable using [Microsoft Purview eDiscovery (Standard and Premium)](/purview/edisc) for legal and compliance teams to search, review, and export Copilot-related content as part of investigations or regulatory inquiries. The prompts and responses are also displayed in activity explorer for [DPSM for AI](/purview/dspm-for-ai). Administrators can also configure retention policies from Microsoft Purview Data Lifecycle Management to automatically retain or delete these Copilot messages.  
+Microsoft 365 Copilot interactions, such as prompts and responses, are stored in a hidden folder in the user's mailbox. This content is discoverable using [Microsoft Purview eDiscovery (Standard and Premium)](/purview/edisc) for legal and compliance teams to search, review, and export Microsoft 365 Copilot-related content as part of investigations or regulatory inquiries. The prompts and responses are also displayed in activity explorer for [DPSM for AI](/purview/dspm-for-ai). Administrators can also configure retention policies from Microsoft Purview Data Lifecycle Management to automatically retain or delete these Microsoft 365 Copilot messages.  
 
-To help secure AI usage with Microsoft 365 Copilot, you can enable [audit logs for Copilot and AI applications](/purview/audit-copilot) to log user prompts, Copilot responses, and related activities for up to 10 years to remain in compliance. Purview eDiscovery can also be used to search and export Copilot-generated content and configure retention policies to control how long AI-generated data is preserved or deleted based on organizational and regulatory requirements.
+To help secure AI usage with Microsoft 365 Copilot, you can enable [audit logs for Microsoft 365 Copilot and AI applications](/purview/audit-copilot) to log user prompts, Microsoft 365 Copilot responses, and related activities for up to 10 years to remain in compliance. Purview eDiscovery can also be used to search and export Microsoft 365 Copilot-generated content and configure retention policies to control how long AI-generated data is preserved or deleted based on organizational and regulatory requirements.
 
-To support compliance with regulations such as GDPR, DORA, HIPAA, and the EU AI Act, Microsoft provides structured tools for risk assessment and reporting. [Compliance Manager](/purview/compliance-manager) and [Microsoft Priva](/privacy/priva/priva-overview) offer templates for Data Protection Impact Assessments (DPIAs), helping organizations document data flows, processing purposes, and risk mitigations related to Copilot use.
+To support compliance with regulations such as GDPR, DORA, HIPAA, and the EU AI Act, Microsoft provides structured tools for risk assessment and reporting. [Compliance Manager](/purview/compliance-manager) and [Microsoft Priva](/privacy/priva/priva-overview) offer templates for Data Protection Impact Assessments (DPIAs), helping organizations document data flows, processing purposes, and risk mitigations related to Microsoft 365 Copilot use.
 
 Privacy assessments can be integrated into the AI development lifecycle to identify and mitigate risks early. Organizations can also maintain AI risk registers using Microsoft Purview and [Microsoft Defender for Cloud](/azure/defender-for-cloud/defender-for-cloud-introduction). These registers include model names, intended purposes, evaluation metrics, plugin scopes, and risk scores—supporting alignment with standards like ISO/IEC 42001 and the EU AI Act.
 
@@ -238,16 +238,16 @@ Most importantly, educate your teams. Help them understand the risks of Shadow A
 
 #### Be aware of phishing
 
-Microsoft 365 Copilot is designed to enhance productivity while respecting enterprise security boundaries. However, phishing simulation testing has revealed limitations in Copilot's ability to detect and flag malicious content embedded in user prompts or referenced files. These findings have informed Microsoft's roadmap for improving AI-driven threat awareness and integrating Copilot more deeply with existing security tools. 
+Microsoft 365 Copilot is designed to enhance productivity while respecting enterprise security boundaries. However, phishing simulation testing has revealed limitations in Microsoft 365 Copilot's ability to detect and flag malicious content embedded in user prompts or referenced files. These findings have informed Microsoft's roadmap for improving AI-driven threat awareness and integrating Microsoft 365 Copilot more deeply with existing security tools. 
 
-To help address this gap, Microsoft recommends a layered defense approach that combines Copilot with [Microsoft Defender](/defender-xdr/microsoft-365-defender) and Microsoft Purview:
+To help address this gap, Microsoft recommends a layered defense approach that combines Microsoft 365 Copilot with [Microsoft Defender](/defender-xdr/microsoft-365-defender) and Microsoft Purview:
 
 - [DPSM for AI](/purview/ai-other-apps) helps you discover and protect AI apps.
 - [Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/defender-for-office-365?view=o365-worldwide) provides phishing protection at the email gateway, scanning messages before they reach the user's inbox.
-- [Safe Links](/defender-office-365/safe-links-about) and [Safe Attachments](/defender-office-365/safe-attachments-about) policies remain active even when content is surfaced through Copilot, helping to block access to malicious URLs or files.
-- [Microsoft Purview DLP policies](/purview/dlp-microsoft365-copilot-location-learn-about) can be configured to prevent Copilot from accessing or summarizing content that matches phishing indicators or sensitive data patterns.
+- [Safe Links](/defender-office-365/safe-links-about) and [Safe Attachments](/defender-office-365/safe-attachments-about) policies remain active even when content is surfaced through Microsoft 365 Copilot, helping to block access to malicious URLs or files.
+- [Microsoft Purview DLP policies](/purview/dlp-microsoft365-copilot-location-learn-about) can be configured to prevent Microsoft 365 Copilot from accessing or summarizing content that matches phishing indicators or sensitive data patterns.
 
-Additionally, you can use [audit logs](/purview/audit-copilot) and [eDiscovery](/purview/edisc) to monitor Copilot interactions involving suspicious content, enabling security teams to investigate and respond to potential misuse.
+Additionally, you can use [audit logs](/purview/audit-copilot) and [eDiscovery](/purview/edisc) to monitor Microsoft 365 Copilot interactions involving suspicious content, enabling security teams to investigate and respond to potential misuse.
 
 ### Manage plugins and web interactions
 
@@ -268,23 +268,23 @@ AI agents built with [Azure AI Foundry](https://techcommunity.microsoft.com/blog
 
 To help maintain a secure AI environment with Microsoft 365 Copilot, Microsoft provides customers with tools to monitor and manage plugin activity. Plugin interactions are logged through Microsoft Purview Audit, while Microsoft Defender for Cloud Apps and Defender for Endpoint offer visibility into plugin behavior and endpoint-level telemetry to detect anomalies or unauthorized use. These capabilities enable security teams to track third-party integrations and respond to potential threats effectively.
 
-Microsoft Defender for Cloud includes AI Security Posture Management (AI-SPM), which evaluates plugin permissions, data access scopes, and usage patterns to generate risk scores and policy recommendations. These insights are integrated with Microsoft Purview, assisting organizations in proactively governing plugin-related risks and responsible use of extensibility features in Copilot.
+Microsoft Defender for Cloud includes AI Security Posture Management (AI-SPM), which evaluates plugin permissions, data access scopes, and usage patterns to generate risk scores and policy recommendations. These insights are integrated with Microsoft Purview, assisting organizations in proactively governing plugin-related risks and responsible use of extensibility features in Microsoft 365 Copilot.
 
 For a list of all supported AI applications and Purview controls, see [Microsoft Purview data security and compliance protections for Microsoft 365 Copilot and other generative AI apps](/purview/ai-microsoft-purview).
 
 ### Use Microsoft Entra Agent ID
 
-[Microsoft Entra Agent ID](https://techcommunity.microsoft.com/blog/microsoft-entra-blog/announcing-microsoft-entra-agent-id-secure-and-manage-your-ai-agents/3827392) assigns a unique, managed identity to each AI agent, so that organizations can authenticate and authorize them using the same infrastructure as human users, apply Conditional Access policies, and audit their activity. This approach supports [Zero Trust principles](/security/zero-trust/zero-trust-overview) by isolating agent permissions, enforcing least privilege access, and enabling independent tracking for compliance. Future integrations allow distinct identities for Copilot plugins,
+[Microsoft Entra Agent ID](https://techcommunity.microsoft.com/blog/microsoft-entra-blog/announcing-microsoft-entra-agent-id-secure-and-manage-your-ai-agents/3827392) assigns a unique, managed identity to each AI agent, so that organizations can authenticate and authorize them using the same infrastructure as human users, apply Conditional Access policies, and audit their activity. This approach supports [Zero Trust principles](/security/zero-trust/zero-trust-overview) by isolating agent permissions, enforcing least privilege access, and enabling independent tracking for compliance. Future integrations allow distinct identities for Microsoft 365 Copilot plugins,
 
 ### Embed responsible AI practices
 
 To use Microsoft 365 Copilot responsibly and meet regulatory expectations, conduct Data Protection Impact Assessments (DPIAs) using Compliance Manager and Microsoft Priva, which help to assess and mitigate privacy and AI-related risks. 
 
-It's also important to educate users, raising awareness about AI risks and promoting safe usage practices across your organization. To support transparency and accountability, Microsoft offers detailed documentation such as the Copilot Transparency Note, which explains how Copilot works, what it can and can't do, and how it aligns with your compliance goals.
+It's also important to educate users, raising awareness about AI risks and promoting safe usage practices across your organization. To support transparency and accountability, Microsoft offers detailed documentation such as the Microsoft 365 Copilot Transparency Note, which explains how Microsoft 365 Copilot works, what it can and can't do, and how it aligns with your compliance goals.
 
-Using Compliance Manager as a centralized dashboard to monitor and manage Copilot-related controls and assessments helps to map controls to key regulatory frameworks, including GDPR, HIPAA, and DORA, and generate audit-ready evidence for both internal reviews and external regulators. 
+Using Compliance Manager as a centralized dashboard to monitor and manage Microsoft 365 Copilot-related controls and assessments helps to map controls to key regulatory frameworks, including GDPR, HIPAA, and DORA, and generate audit-ready evidence for both internal reviews and external regulators. 
 
-To support AI-specific compliance needs, Microsoft is also adding Copilot-specific templates and control mappings, see [Assessments for AI regulations](/purview/compliance-manager-assessments#assessments-for-ai-regulations).
+To support AI-specific compliance needs, Microsoft is also adding Microsoft 365 Copilot-specific templates and control mappings, see [Assessments for AI regulations](/purview/compliance-manager-assessments#assessments-for-ai-regulations).
 
 ## See also
 
