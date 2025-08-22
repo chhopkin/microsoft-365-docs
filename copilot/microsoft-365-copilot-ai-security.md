@@ -72,15 +72,10 @@ In the event of a successful injection attempt, Copilot's architecture helps ens
 - Copilot only accesses data the user is authorized to view
 - All interactions are scoped to existing permissions, preventing lateral movement or unauthorized data access
 
-#### Audit and eDiscovery
-
-[Microsoft Purview](/purview/ai-microsoft-purview) captures Copilot interactions for auditing and eDiscovery. [Microsoft Compliance Manager](/purview/compliance-manager) provides [regulatory templates](/purview/compliance-manager-assessments#assessments-for-ai-regulations) to help your organization assess, implement, and strengthen compliance against AI regulations, such as the EU Artificial Intelligence Act, ISO/IEC 23894:2023, ISO/IEC 42001:2023, and NIST AI Risk Management Framework (RMF) 1.0. 
-
 #### Prompt injection defenses
 
 Microsoft employs a multi-layered defense strategy across the Copilot prompt flow to mitigate risks of prompt injection. Here are some examples of protection features that are active by default and don't require setup:
 
-- Harm category classifiers are applied to Copilot's outputs, helping to ensure that inappropriate or harmful responses are identified and blocked.
 - The user-in-the-loop design enables users to review, modify, or reject AI-generated content.
 - Spam, scam, and suspicious content filtering help block malicious instructions, phishing attempts, and fraudulent material in prompts.
 - Copilot ignores junk email and untrusted Microsoft Teams chats, including chats from external contacts.
