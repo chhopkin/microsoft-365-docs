@@ -122,46 +122,6 @@ Data is encrypted in transit and at rest using FIPS 140-2–compliant technologi
 
 When you have data that's encrypted by Microsoft Purview Information Protection, Microsoft 365 Copilot honors the usage rights granted to the user. This encryption can be applied by sensitivity labels or by restricted permissions in apps in Microsoft 365 by using Information Rights Management (IRM). For more information about using Purview with Microsoft 365 Copilot, see [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview).
 
-#### Compliance tooling
-
-Microsoft Purview Audit and eDiscovery log and surface Microsoft 365 Copilot interactions. Compliance Manager maps controls to [regulations](/purview/compliance-manager-regulations-list), such as the EU Artificial Intelligence Act and NIST AI RMF 1.0. 
-
-[Microsoft Purview Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai) provides centralized visibility and control over how sensitive data is accessed and used across Microsoft 365 Copilot and other AI services. It enables your organization to discover AI activity, classify and label sensitive content, enforce real-time [data loss prevention (DLP)](/purview/dlp-learn-about-dlp), and govern usage through audit logs, retention policies, and [compliance rules](/purview/dspm-for-ai-considerations#one-click-policies-from-data-security-posture-management-for-ai). 
-
-Microsoft 365 Copilot is part of Microsoft's enterprise compliance program and benefits from a range of certifications and assessments. These include (but aren't limited to):
-
-- FedRAMP
-- HiTrust
-- SOC 2 Type 1
-- ISO/IEC 27001, 27701, 22301, 27018, and 42001
-
-Penetration testing summaries are available in the [Microsoft Service Trust Portal](https://servicetrust.microsoft.com/), helping your organization demonstrate due diligence and satisfy third-party audit requirements.
-
-For more information, see [Build a strong security posture for AI](/security/security-for-ai/posture).
-
-#### Safeguarding data across the AI lifecycle
-
-[Advanced Data Residency (ADR)](/microsoft-365/enterprise/advanced-data-residency#overview-of-advanced-data-residency) and [Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo) capabilities help meet regional requirements. Customers who have purchased ADR or Multi-Geo add-ons can control where certain Microsoft 365 data is stored, in accordance with regulatory requirements.
-
-When a user interacts with Microsoft 365 Copilot, their prompt is processed through a secure orchestration layer that coordinates between Microsoft 365 apps, Microsoft Graph, and the Azure OpenAI Service. The data flow follows these principles: 
-
-- Tenant-aware orchestration: Microsoft 365 Copilot uses Microsoft Graph to retrieve only the data the user is authorized to access. This includes emails, documents, calendar events, and chats. 
-- Regional routing: LLM calls are routed to the nearest Azure region based on the user's Microsoft Entra ID (formerly Azure AD) tenant geography. For example, EU-based tenants have their LLM calls processed within the EU Data Boundary.
-
-For more information, see the following resources:
-
-- [How Microsoft 365 Copilot works and how data is protected across its architecture](/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing)
-- [Microsoft 365 blog: Data residency in the AI era: New capabilities to manage your data](https://www.microsoft.com/en-us/microsoft-365/blog/2024/03/07/data-residency-in-the-ai-era-new-capabilities-to-manage-your-data/)
-
-#### EU data boundary
-
-For eligible EU customers, prompts and responses are processed within the EU, maintaining the same enterprise-grade protections.
-
-> [!NOTE]
-> Customers with Multi Geo configurations aren't eligible for EUDB commitments. 
-
-For more information, see [What is the EU Data Boundary](/privacy/eudb/eu-data-boundary-learn#how-to-configure-services-for-use-in-the-eu-data-boundary)?
-
 #### Cross-cloud governance for AI workloads
 
 Microsoft Purview and Security Copilot help organizations govern AI across hybrid and multicloud environments like Azure, AWS, and Google Cloud.
@@ -170,6 +130,13 @@ Microsoft Purview and Security Copilot help organizations govern AI across hybri
 - [Security Copilot](/copilot/security/microsoft-security-copilot) detects AI-related risks across platforms, correlates threats, and surfaces posture insights from [Cloud security posture management](/azure/defender-for-cloud/concept-cloud-security-posture-management).
 
 #### Policy integration and enforcement
+
+Microsoft 365 Copilot is part of Microsoft's enterprise compliance program and benefits from a range of certifications and assessments. These include (but are not limited to) 
+
+- FedRAMP
+- HiTrust
+- SOC 2 Type 1
+- ISO/IEC 27001, 27701, 22301, 27018, and 42001
 
 Microsoft Entra ID, Microsoft Purview, and Microsoft 365 for business enforce Conditional Access, sensitivity labels, and information barriers. Microsoft 365 Copilot-generated responses are governed by the same controls as other Microsoft 365 content. 
 
