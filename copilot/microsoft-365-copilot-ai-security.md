@@ -4,6 +4,7 @@ f1.keywords: NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
+ms.reviewer: georgerozo
 ms.date: 08/22/2025
 ms.update-cycle: 180-days
 audience: Admin
@@ -25,7 +26,7 @@ AI security is foundational to our approach at Microsoft; it safeguards customer
 
 ## What Microsoft does to secure Microsoft 365 Copilot
 
-Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level, grounded in enterprise-grade security, privacy, and compliance standards. This means that if one layer is breached, others still provide protection. Microsoft's approach is guided by the [Office of Responsible AI](https://www.microsoft.com/en-us/ai/responsible-ai) and is reinforced by the recently expanded [Secure Future Initiative](https://aka.ms/SFIwebsite).
+Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level, grounded in enterprise-grade security, privacy, and compliance standards. This means that if one layer is breached, others still provide protection. Microsoft's approach is guided by the [Responsible AI principles](https://www.microsoft.com/en-us/ai/responsible-ai) and is reinforced by the recently expanded [Secure Future Initiative](https://aka.ms/SFIwebsite).
 
 Our comprehensive security posture for AI includes:
 
