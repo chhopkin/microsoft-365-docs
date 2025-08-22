@@ -26,7 +26,7 @@ AI security is foundational to our approach at Microsoft; it safeguards customer
 
 ## What Microsoft does to secure Microsoft 365 Copilot
 
-Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level, grounded in enterprise-grade security, privacy, and compliance standards. This means that if one layer is breached, others still provide protection. Microsoft's approach is guided by the [Responsible AI principles](https://www.microsoft.com/en-us/ai/responsible-ai) and is reinforced by the recently expanded [Secure Future Initiative](https://aka.ms/SFIwebsite).
+Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level, grounded in enterprise-grade security, privacy, and compliance standards. This means that if one layer is breached, others still provide protection. Microsoft's approach is guided by [Responsible AI principles](https://www.microsoft.com/en-us/ai/responsible-ai) and reinforced by the recently expanded [Secure Future Initiative](https://aka.ms/SFIwebsite).
 
 Our comprehensive security posture for AI includes:
 
@@ -36,7 +36,7 @@ Our comprehensive security posture for AI includes:
 
 Each aspect of this foundation forms a safer digital ecosystem for you to confidently adopt AI features and tools.
 
-In addition to the following pillars, Microsoft embeds its Responsible AI principle-based governance across the entire AI lifecycle to ensure systems are developed and deployed ethically and securely. This strategy helps ensure AI behaves in ways that are trustworthy, responsible, and in alignment with user expectations. A core part of the Responsible AI program is designed to identify potential risks, measure their propensity to occur, and build mitigations to manage them, outlined in  [Mapping, measuring, and managing risks](/copilot/microsoft-365/microsoft-365-copilot-transparency-note#mapping-measuring-and-managing-risks).
+In addition to the following pillars, Microsoft embeds its Responsible AI principle-based governance across the entire AI lifecycle to help ensure systems are developed and deployed ethically and securely. This strategy helps ensure AI behaves in ways that are trustworthy, responsible, and in alignment with user expectations. A core part of the Responsible AI program is designed to identify potential risks, measure their propensity to occur, and build mitigations to manage them, outlined in  [Mapping, measuring, and managing risks](/copilot/microsoft-365/microsoft-365-copilot-transparency-note#mapping-measuring-and-managing-risks).
 
 To prevent harmful or inappropriate outputs, Microsoft 365 Copilot uses classifiers and metaprompting to detect unsafe prompts and responses to keep behavior in alignment with [Microsoft's Responsible AI principles](https://www.microsoft.com/en-us/ai/principles-and-approach) and remains within intended use cases. Microsoft provides development tools such as content filters, prompt evaluation frameworks, and risk templates to help engineers build secure, trustworthy Copilot experiences that are aligned with Responsible AI principles.
 
