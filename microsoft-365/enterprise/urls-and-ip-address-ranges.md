@@ -1,7 +1,7 @@
 ---
 title: "Microsoft 365 URLs and IP address ranges"
-ms.author: kvice
-author: kelleyvice-msft
+ms.author: siviv
+author: VargheseSivi
 manager: scotv
 ms.date: 07/31/2025
 audience: Admin
