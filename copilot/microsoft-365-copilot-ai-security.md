@@ -81,9 +81,9 @@ Microsoft employs a multi-layered defense strategy across the Microsoft 365 Copi
 - Microsoft 365 Copilot ignores junk email and untrusted Microsoft Teams chats, including chats from external contacts.
 - Microsoft 365 Copilot honors Bing web blocking to filter out adult, low-authority, and malicious sites during web search.
 
-For a comprehensive overview of how Microsoft safeguards data, enforces privacy controls, and secures AI operations, see [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
+For more information about how Microsoft safeguards data, enforces privacy controls, and secures AI operations, see [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
 
-<!---Two bullet points not included yet: Copyright materials protection helps safeguard intellectual property and maintain integrity; and Microsoft 365 Copilot operates using a stateless LLM architecture. Requests are processed in real time using tenant-scoped semantic indexing to ensure data access and relevance are strictly limited to the user's organizational context. These points are not included in this section because neither of these is a prompt injection defense--->
+<!---One bullet point isn't included yet: Microsoft 365 Copilot operates using a stateless LLM architecture. Requests are processed in real time using tenant-scoped semantic indexing to ensure data access and relevance are strictly limited to the user's organizational context. This point isn't included because it's not a prompt injection defense--->
 
 #### Data exfiltration prevention
 
@@ -92,7 +92,7 @@ Microsoft 365 Copilot's layered security model addresses traditional and emergin
 - Unauthenticated image URLs, where a user generates an image containing sensitive data, extracts the URL using browser tools, and then shares the image externally. If the image is accessible without authentication, it could bypass enterprise controls, such as [Conditional Access](/entra/identity/conditional-access/overview) or [sensitivity labels](/purview/sensitivity-labels#sensitivity-labels-for-microsoft-365-copilot-and-microsoft-365-copilot-chat).
 - Malicious images, such as QR codes, where a user in one tenant generates a malicious image and shares an anonymous URL with users in another tenant. If a URL isn't protected by authentication, access controls might not be enforced. 
 
-To mitigate such scenarios, Microsoft applies its defense-in-depth strategy. This strategy includes continuous monitoring for data leakage vectors, adversarial misuse, and unauthorized access patterns. 
+To help mitigate such scenarios, Microsoft applies its defense-in-depth strategy. This strategy includes continuous monitoring for data leakage vectors, adversarial misuse, and unauthorized access patterns. 
 
 Microsoft 365 Copilot generated content is governed by the same access controls and compliance policies as other Microsoft 365 content. This means that user permissions, sensitivity labels, and Conditional Access policies are enforced at the point of content generation and access.
 
