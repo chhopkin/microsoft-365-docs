@@ -66,7 +66,7 @@ Microsoft 365 Copilot mitigates XPIA and agentic vulnerabilities through layered
 
 #### Containment by design
 
-In the event of a successful injection attempt, Copilot's architecture ensures containment by design. Copilot operates within the user's identity and access context, limiting the blast radius of any potential compromise. 
+In the event of a successful injection attempt, Copilot's architecture helps ensure containment by design. Copilot operates within the user's identity and access context, limiting the blast radius of any potential compromise. 
 
 - Copilot operates within the user's identity and tenant context
 - Copilot only accesses data the user is authorized to view
