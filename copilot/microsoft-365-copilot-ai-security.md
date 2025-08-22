@@ -4,7 +4,7 @@ f1.keywords: NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 08/20/2025
+ms.date: 08/22/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: article
@@ -261,7 +261,7 @@ You can enforce data protection policies by applying DLP rules and sensitivity l
 
 To monitor plugin behavior and detect potential risks, you can use DSPM for AI, Defender for Cloud Apps, and Defender for Cloud. For more information, see the following articles:
 
-- [Discover AI apps and data](https://learn.microsoft.com/en-us/security/security-for-ai/discover)
+- [Discover AI apps and data](/security/security-for-ai/discover)
 - [How to use DSPM for AI](/purview/dspm-for-ai#how-to-use-data-security-posture-management-for-ai)
 
 #### Enterprise controls for custom AI agents
