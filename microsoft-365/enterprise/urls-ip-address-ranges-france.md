@@ -64,7 +64,7 @@ Data columns shown are:
 ## [Microsoft 365 Unified Domains](cloud-microsoft-domain.md)
 
 > [!NOTE]
-> In response to customer feedback and to streamline endpoint management, Microsoft has initiated the process of consolidating Microsoft 365 apps and services into a select group of dedicated, secured, and purpose-managed domains within the **.microsoft** top level domain (TLD). 
+> In response to customer feedback and to streamline endpoint management, Microsoft has initiated the process of consolidating Microsoft 365 apps and services into a select group of dedicated, secured, and purpose-managed domains within the **.fr** top level domain (TLD). 
 > 
 > To avoid connectivity issues for users, ensure that the following essential domains are included in your allowlist and that connectivity to these domains isn't blocked.
 
