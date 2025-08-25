@@ -16,6 +16,7 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_o365
+- operations-pod
 ms.custom:
 - commerce_licensing
 - okr_SMB

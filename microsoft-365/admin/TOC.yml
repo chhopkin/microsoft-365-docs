@@ -274,6 +274,8 @@ items:
               href: manage/manage-copilot-agents-integrated-apps.md
             - name: Manage shared agents
               href: manage/manage-shared-agents.md
+            - name: Manage pinning of agents
+              href: manage/manage-pinning-agents.md  
             - name: Manage embedded knowledge agents
               href: manage/manage-embedded-knowledge-agents.md
             - name: Microsoft Graph connectors for Microsoft Search
@@ -294,6 +296,8 @@ items:
               href: activity-reports/microsoft-365-copilot-usage.md
             - name: Microsoft 365 Copilot Chat usage
               href: activity-reports/microsoft-copilot-usage.md
+            - name: Microsoft 365 Copilot Search usage
+              href: activity-reports/microsoft-365-copilot-search-usage.md
             - name: Message consumption
               href: activity-reports/message-consumption.md              
             - name: Dynamics 365 Customer Voice activity
@@ -394,13 +398,13 @@ items:
            href: misc/organizational-messages-microsoft-365.md
          - name: Place a mailbox on Litigation Hold
            href: misc/create-litigation-hold-mac.md           
-         - name: Integrated apps
+         - name: Integrated apps portal
            items:
-            - name: What is Integrated Apps
+            - name: What is the integrated apps portal
               href: manage/test-and-deploy-microsoft-365-apps.md
             - name: Manage Office add-ins
               href: manage/office-addins.md 
-            - name: Teams apps that work on Outlook & Microsoft 365
+            - name: Teams apps that work on Outlook & Microsoft 365 Copilot
               href: manage/teams-apps-work-on-outlook-and-m365.md
             - name: Teams apps that only work on Teams
               href: manage/teams-apps-work-only-on-teams.md
@@ -416,7 +420,7 @@ items:
               href: manage/manage-deployment-of-add-ins.md
             - name: Manage add-ins in the admin center 
               href: manage/manage-addins-in-the-admin-center.md      
-            - name: Centralized Deployment FAQ
+            - name: Centralized deployment FAQ
               href: manage/centralized-deployment-faq.yml
             - name: Deploy add-ins in GCC High environments
               href: manage/deploy-addins-for-gcch.md

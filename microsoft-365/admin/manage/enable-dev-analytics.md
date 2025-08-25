@@ -19,6 +19,7 @@ ms.collection:
 - Adm_O365
 - Adm_O365_Setup
 - must-keep
+- operations-pod
 ms.custom:
 - admindeeplinkMAC
 search.appverid:

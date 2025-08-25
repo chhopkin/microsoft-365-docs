@@ -14,6 +14,7 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 - trust-pod
+- operations-pod
 description: Get answers to frequently asked questions about responsible AI and Microsoft 365 Copilot Tuning
 ---
 

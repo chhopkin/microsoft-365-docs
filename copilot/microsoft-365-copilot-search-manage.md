@@ -9,6 +9,7 @@ ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 ms.collection:
 - CopilotSearch
+- operations-pod
 ms.custom: QuickDraft
 ms.reviewer: kwekua
 audience: admin
