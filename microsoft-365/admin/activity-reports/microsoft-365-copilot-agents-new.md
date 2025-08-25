@@ -3,7 +3,7 @@ title: "Microsoft 365 reports in the admin center – Agent usage"
 ms.author: camillepack
 author: camillepack
 manager: scotv
-ms.date: 07/31/2025
+ms.date: 08/25/2025
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-copilot

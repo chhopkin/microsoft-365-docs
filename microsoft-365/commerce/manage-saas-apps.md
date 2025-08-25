@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: scotv
+manager: dansimp
 ms.reviewer: nicholak
 audience: Admin
 ms.topic: how-to
@@ -16,12 +16,13 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-ms.custom: 
+- operations-pod
+ms.custom:
 - commerce_subscriptions
 - AdminSurgePortfolio
 - admindeeplinkMAC
 - GAUpdates
-search.appverid: MET150 
+search.appverid: MET150
 description: "Learn how to activate and manage third-party apps in the Microsoft 365 admin center."
 ms.date: 07/08/2025
 ---
