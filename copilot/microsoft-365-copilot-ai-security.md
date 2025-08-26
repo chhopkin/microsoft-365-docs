@@ -142,5 +142,5 @@ For information about how to avoid oversharing, see [Address oversharing concern
 
 To learn more about Microsoff Purview protections for AI apps, see [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview).
 
-Also see [Microsoft 365 Copilot Tuning admin guide (preview)](copilot-tuning-admin-guide.md)
+Also see [Microsoft 365 Copilot Tuning admin guide (preview)](copilot-tuning-admin-guide.md).
 
