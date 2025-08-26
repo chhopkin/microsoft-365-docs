@@ -210,7 +210,7 @@ Most importantly, educate your teams. Help them understand the risks of Shadow A
 
 Microsoft 365 Copilot is designed to enhance productivity while respecting enterprise security boundaries. However, phishing simulation testing has revealed limitations in Microsoft 365 Copilot's ability to detect and flag malicious content embedded in user prompts or referenced files. These findings have informed Microsoft's roadmap for improving AI-driven threat awareness and integrating Microsoft 365 Copilot more deeply with existing security tools. 
 
-To help address this gap, Microsoft recommends a layered defense approach that combines Microsoft 365 Copilot with [Microsoft Defender](/defender-xdr/microsoft-365-defender) and Microsoft Purview:
+To help address this gap, Microsoft recommends a layered defense approach that combines Microsoft 365 Copilot with [Microsoft Defender XDR](/defender-xdr/microsoft-365-defender) and Microsoft Purview:
 
 - [DPSM for AI](/purview/ai-other-apps) helps you discover and protect AI apps.
 - [Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/defender-for-office-365?view=o365-worldwide) provides phishing protection at the email gateway, scanning messages before they reach the user's inbox.
@@ -225,14 +225,14 @@ To help maintain control and security when using Microsoft 365 Copilot, Microsof
 
 You can enforce data protection policies by applying DLP rules and sensitivity labels to content generated through plugins. 
 
-To monitor plugin behavior and detect potential risks, you can use DSPM for AI, Defender for Cloud Apps, and Defender for Cloud. For more information, see the following articles:
+To monitor plugin behavior and detect potential risks, you can use Purview, Defender for Cloud, and Defender for Cloud Apps. For more information, see the following articles:
 
 - [Discover AI apps and data](/security/security-for-ai/discover)
 - [How to use DSPM for AI](/purview/dspm-for-ai#how-to-use-data-security-posture-management-for-ai)
 
 #### Enterprise controls for custom AI agents
 
-AI agents built with [Azure AI Foundry](https://techcommunity.microsoft.com/blog/microsoft-security-blog/enterprise-grade-controls-for-ai-apps-and-agents-built-with-azure-ai-foundry-and/4414757) or Copilot Studio can be assigned unique identities using Microsoft Entra Agent ID. Organizations can apply Conditional Access, monitor agent activity, and enforce governance policies independently from human users in this way. These agents can also integrate with Microsoft Purview to apply sensitivity labels and DLP policies to training data and outputs.
+AI agents built with [Azure AI Foundry](https://techcommunity.microsoft.com/blog/microsoft-security-blog/enterprise-grade-controls-for-ai-apps-and-agents-built-with-azure-ai-foundry-and/4414757) or Microsoft 365 Copilot Studio can be assigned unique identities using Microsoft Entra Agent ID. Organizations can apply Conditional Access, monitor agent activity, and enforce governance policies independently from human users in this way. These agents can also integrate with Microsoft Purview to apply sensitivity labels and DLP policies to training data and outputs.
 
 ### Govern AI with Microsoft Purview
 
