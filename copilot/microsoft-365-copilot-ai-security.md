@@ -22,7 +22,7 @@ appliesto:
 
 # AI security for Microsoft 365 Copilot
 
-AI security is foundational to our approach at Microsoft; it safeguards customer data, supports system integrity, and includes user safety features. This commitment aligns with our [broader principles of privacy, compliance, and trust](https://www.microsoft.com/trust-center). This article outlines our approach to securing Microsoft 365 Copilot and includes guidance you can use to strengthen your AI security posture.
+AI security is foundational to our approach at Microsoft; it safeguards customer data, supports system integrity, and includes user safety features. This commitment aligns with our [broader principles of privacy, compliance, and trust](https://www.microsoft.com/trust-center). 
 
 ## What Microsoft does to secure Microsoft 365 Copilot
 
@@ -83,8 +83,6 @@ Microsoft employs a multi-layered defense strategy across the Microsoft 365 Copi
 
 For more information about how Microsoft safeguards data, enforces privacy controls, and secures AI operations, see [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
 
-<!---One bullet point isn't included yet: Microsoft 365 Copilot operates using a stateless LLM architecture. Requests are processed in real time using tenant-scoped semantic indexing to ensure data access and relevance are strictly limited to the user's organizational context. This point isn't included because it's not a prompt injection defense--->
-
 #### Data exfiltration prevention
 
 Microsoft 365 Copilot's layered security model addresses traditional and emerging threats, including scenarios with the potential for data exfiltration, like these:
@@ -137,21 +135,11 @@ Microsoft 365 Copilot is part of Microsoft's enterprise compliance program and b
 - HiTrust
 - SOC 2 Type 1
 - ISO/IEC 27001, 27701, 22301, 27018, and 42001
-
-Microsoft Entra ID, Microsoft Purview, and Microsoft 365 for business enforce Conditional Access, sensitivity labels, and information barriers. Microsoft 365 Copilot-generated responses are governed by the same controls as other Microsoft 365 content. 
-
-For more information, see the following resources:
-
-- [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview)
-- [Use Microsoft Purview to manage data security & compliance for Microsoft 365 Copilot & Microsoft 365 Copilot Chat](/purview/ai-m365-copilot).
  
 ## What you can do to strengthen your organization's AI security
 
 For information about protecting your environment and avoiding oversharing, see [Address oversharing concerns in Microsoft 365 Copilot deployment blueprint](microsoft-365-copilot-blueprint-oversharing.md).
 
+To learn more about Microsoff Purview protections for AI apps, see [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview).
+
 Also see [Microsoft 365 Copilot Tuning admin guide (preview)](copilot-tuning-admin-guide.md)
-
-## Related articles
-
-- [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md)
-- [Microsoft 365 Roadmap: Copilot](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=08e18dc796b066bc12cd9bef979d67e4&filters=%5B%22Microsoft+Copilot+%28Microsoft+365%29%22%5D)
