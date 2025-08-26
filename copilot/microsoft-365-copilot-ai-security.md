@@ -151,7 +151,7 @@ Organizations share responsibility for securing AI systems. Microsoft provides t
 
 - Define and apply [sensitivity labels](/purview/get-started-with-sensitivity-labels) by using [Microsoft Purview](/purview/get-started-with-sensitivity-labels) to classify confidential content across Microsoft 365. 
 - Configure [DLP policies that restrict Microsoft 365 Copilot](/purview/dlp-microsoft365-copilot-location-learn-about) from accessing or processing labeled content, such as blocking summarization or rewriting of documents marked as sensitive. 
-- When Microsoft 365 Copilot is restricted from accessing content, users are notified, this interaction can be monitored. See [Data stored about user interactions with Microsoft 365 Copilot](microsoft-365-copilot-privacy.md#data-stored-about-user-interactions-with-microsoft-365-copilot)
+- When Microsoft 365 Copilot is restricted from accessing content, users are notified, and this interaction can be monitored. See [Data stored about user interactions with Microsoft 365 Copilot](microsoft-365-copilot-privacy.md#data-stored-about-user-interactions-with-microsoft-365-copilot)
 - [Ensure users have appropriate permissions](/purview/information-protection-solution), such as *extract* or *view* rights, to allow Microsoft 365 Copilot to interact with content appropriately. 
 - Extend DLP coverage across Microsoft 365 Copilot Chat and in-app experiences in Word, Excel, and PowerPoint for consistent protection. See [Learn about DLP](/purview/dlp-learn-about-dlp).
 
@@ -161,7 +161,7 @@ You can apply [Purview sensitivity labels](/purview/default-sensitivity-labels-p
 
 #### Use targeted Conditional Access policies for Microsoft 365 Copilot
 
-Administrators can apply [Conditional Access policies](/entra/identity/conditional-access/policy-all-users-copilot-ai-security) directly to Microsoft 365 Copilot and Security Copilot service principals to enforce granular, AI-specific access controls. These policies can be configured using [Microsoft Graph PowerShell](/powershell/microsoftgraph/) or the [Microsoft Entra admin center](/entra/fundamentals/entra-admin-center). Administrators can:
+Administrators can apply [Conditional Access policies](/entra/identity/conditional-access/policy-all-users-copilot-ai-security) directly to Microsoft 365 Copilot service principals to enforce granular, AI-specific access controls. These policies can be configured using [Microsoft Graph PowerShell](/powershell/microsoftgraph/) or the [Microsoft Entra admin center](/entra/fundamentals/entra-admin-center). Administrators can:
 
 - Block access to Microsoft 365 Copilot for users with elevated insider risk levels
 - Require phishing-resistant multifactor authentication (MFA) when users access Microsoft 365 Copilot from outside the corporate network
