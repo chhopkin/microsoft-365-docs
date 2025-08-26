@@ -14,6 +14,7 @@ ms.collection:
 - Tier2
 - scotvorg
 - M365-subscription-management
+- operations-pod
 ms.custom:
 - AdminTemplateSet
 - admindeeplinkMAC

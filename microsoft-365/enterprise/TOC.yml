@@ -85,6 +85,10 @@ items:
               href: microsoft-365-u-s-government-gcc-high-endpoints.md
             - name: Microsoft 365 operated by 21Vianet endpoints
               href: urls-and-ip-address-ranges-21vianet.md
+            - name: French endpoints
+              href: urls-ip-address-ranges-france.md
+            - name: German endpoints
+              href: urls-ip-address-ranges-germany.md
         - name: Content delivery networks
           href: content-delivery-networks.md
         - name: IPv6 support in Microsoft 365 services
@@ -129,7 +133,7 @@ items:
           href: setup-guides-for-microsoft-365.md
         - name: Integration
           items: 
-            - name: Integrated Apps and Microsoft Entra ID
+            - name: Custom Apps and Microsoft Entra ID
               href: integrated-apps-and-azure-ads.md
             - name: Integration with on-premises
               href: microsoft-365-integration.md

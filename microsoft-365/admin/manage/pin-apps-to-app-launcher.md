@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - Adm_TOC
+- operations-pod
 ms.service: microsoft-365-business
 ms.custom: admindeeplinkMAC
 ms.localizationpriority: medium

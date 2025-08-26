@@ -15,6 +15,7 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - GAUpdates
+- operations-pod
 ms.custom:
 - okr_smb
 - AdminTemplateSet

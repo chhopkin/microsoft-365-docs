@@ -16,6 +16,7 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 - essentials-get-started
+- operations-pod
 description: Learn how IT administrators can prepare their organization for Microsoft 365 Copilot. Admin cans assign licenses, optimize SharePoint search, give enough access, prevent oversharing, use sensitivity labels, create a pilot group, and more.
 appliesto:
 - ✅ Microsoft 365 Copilot

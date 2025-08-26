@@ -15,6 +15,7 @@ ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 description: Enterprise and company IT admins can learn about the Microsoft 365 app and network requirements for Microsoft 365 Copilot. Admins must configure features in popular apps, like OneDrive, Teams, Loop, and Whiteboard that allow Copilot. Allow the network and endpoint URLs for Microsoft 365 Copilot to work properly in your network solution. Check your app privacy settings and run the Office Feature Updates task.
 ms.custom: [copilot-learning-hub]
 appliesto:

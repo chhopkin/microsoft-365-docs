@@ -19,6 +19,7 @@ ms.collection:
 - Adm_O365_Setup
 - TRN_SMB
 - must-keep
+- operations-pod
 ms.custom:
 - TRN_M365B
 - OKR_SMB_Videos

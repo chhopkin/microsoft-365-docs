@@ -12,6 +12,7 @@ ms.localizationpriority: medium
 ms.collection:
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 description: Find information about how to troubleshoot Copilot Tuning document generation.
 ---
 

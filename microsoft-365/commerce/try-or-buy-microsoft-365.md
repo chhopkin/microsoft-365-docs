@@ -19,6 +19,7 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - ContentEnagagementFY23
+- operations-pod
 ms.custom:
 - commerce_purchase
 - VSBFY23

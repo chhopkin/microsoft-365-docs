@@ -109,8 +109,8 @@ Each user, Group mailbox, and SharePoint site have a Preferred Data Location (PD
 
 Users get a seamless experience when using Microsoft 365 services, including Office applications, OneDrive, and Search. See User experience in a Multi-Geo environment for details.
 
->[!NOTE]
->Once your tenant has enabled the Multi-Geo add-on, changing the default location for the tenant is not supported. This applies even for the [Data Residency Legacy Move Program](/microsoft-365/enterprise/m365-dr-legacy-move-program) and the Advanced Data Residency add-on.
+> [!NOTE]
+> Once your tenant has enabled the Multi-Geo add-on, changing the default location for the tenant is not supported. This applies even for the Advanced Data Residency add-on.
 
 ### **OneDrive**
 

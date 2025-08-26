@@ -14,6 +14,7 @@ ms.localizationpriority: medium
 ms.collection:
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 description: "Learn about how Microsoft 365 Copilot admins can take inventory of scheduled prompts in their organization using PowerShell scripts to view, list, or delete them efficiently."
 ---
 

@@ -15,6 +15,7 @@ ms.collection:
 - Tier1
 - M365-subscription-management
 - Adm_O365
+- operations-pod
 ms.custom:
 - commerce_billing
 - admindeeplinkMAC

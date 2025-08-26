@@ -17,6 +17,7 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 - essentials-overview
+- operations-pod
 description: Learn how Microsoft 365 Copilot works within the service boundary of your Microsoft 365 tenant. And, how it uses Microsoft Graph to get your organization data based on user permissions. Copilot also honors Conditional Access and multifactor authentication (MFA).
 ms.custom: [copilot-learning-hub]
 appliesto:

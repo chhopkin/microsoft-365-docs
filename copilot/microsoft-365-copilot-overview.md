@@ -7,7 +7,7 @@ ms.author: efrene
 author: Efrene
 ms.update-cycle: 180-days
 manager: dansimp
-ms.date: 08/07/2025
+ms.date: 08/18/2025
 audience: Admin
 ms.reviewer: mandia
 ms.topic: overview
@@ -18,6 +18,7 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 - essentials-overview
+- operations-pod
 ms.custom: [copilot-learning-hub]
 appliesto:
 - ✅ Microsoft 365 Copilot
@@ -30,6 +31,8 @@ appliesto:
 > - When using GPT-5 in Copilot Chat, Copilot chooses the best model, including GPT-5, to generate a response that has increased complexity, accuracy, and overall performance.
 > - The **Try GPT-5** button will appear in Copilot Chat, whether users do or don't have a Microsoft 365 Copilot license.
 > - This model update doesn't change your [security, privacy, or compliance settings](/copilot/microsoft-365/manage-public-web-access).
+>
+> GPT-5 is not yet available in [Microsoft 365 Copilot GCC](https://adoption.microsoft.com/en-us/copilot/gcc/).
 > 
 > For more information, see the [Microsoft 365 Blog: Available today: GPT-5 in Microsoft 365 Copilot](https://www.microsoft.com/en-us/microsoft-365/blog/2025/08/07/available-today-gpt-5-in-microsoft-365-copilot/).
 
