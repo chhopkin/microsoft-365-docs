@@ -4,7 +4,7 @@ description: Learn how to deploy the Microsoft 365 Learning Tool Interoperabilit
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
-ms.date: 07/21/2025
+ms.date: 08/21/2025
 audience: admin
 ms.topic: how-to
 ms.service: msteams
@@ -34,7 +34,7 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
 ## One-time setup by an LMS administrator
 
-1. Access the **Teams Assignments** app in the **Schoology** [**App Center**](https://app.schoology.com/apps) by copying this direct link into a browser: `https://_\<apps>_.schoology.com/apps/profile/7876809197` and replacing the _\<apps>_ portion of the URL with your organizations custom subdomain (for example: districtXYZ.schoology.com/apps/profile/7876809197). Then browse the app store profile.
+1. Access the **Teams Assignments** app in the **Schoology** [**App Center**](https://app.schoology.com/apps) by copying this direct link into a browser: `https://_\<apps>_.schoology.com/apps/profile/7876809197` and replacing the _\<apps>_ portion of the URL with your organization's custom subdomain (for example: districtXYZ.schoology.com/apps/profile/7876809197). Then browse the app store profile.
 
 1. Select **Login** in the upper right to log into your Schoology Learning instance as an administrator with access to install and configure the app.
 
@@ -46,7 +46,7 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
 1. From the [**Organization Apps list**](https://app.schoology.com/apps/school_apps), locate the **Teams Assignments** app and select the **Install/Remove** button.
 
-1. To install the app for all courses, choose the **All Courses** checkbox and the **Course Admins Only** checkbox.
+1. To install the app for all courses, choose the **All Courses** checkbox.
 
 > [!NOTE]
 > If you choose not to install the app for all courses, then Course Admins must install the app for themselves by either:
@@ -60,8 +60,8 @@ You must launch the app for the first time as a user with the **System Admin** r
 
 1. As a System Admin, access any Course that has the Microsoft Education link added
 
-1. Continue with the **Microsoft 365 LTI first-time configuration steps** to complete the configuration for your organization.
-<!-- -->
+1. Continue with the [**Microsoft 365 LTI first-time configuration steps**](microsoft-365-lti-first-time-configuration.md) to complete the configuration for your organization.
+
 ## Ongoing use by instructors and students in a course
 
 On first access, users must sign in using their Microsoft 365 (Microsoft Entra) account.
@@ -82,6 +82,6 @@ If you receive an error message regarding cookies being blocked, check your brow
 
 - Educators and Learners can contact support or give feedback directly from the app through the help and feedback menu.
 
-:::image type="content" source="./media/help-and-feedback.png" alt-text="Screenshot of link to send feedback for Microsoft 365 LTI ." border="true":::
+:::image type="content" source="./media/help-and-feedback.png" alt-text="Screenshot of link to send feedback for Microsoft 365 LTI." border="true":::
 
 Learning Tools Interoperability® (LTI®) is a trademark of the 1EdTech Consortium, Inc. (**[**1edtech.org**](https://1edtech.org)**).

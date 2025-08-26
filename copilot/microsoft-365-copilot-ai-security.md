@@ -1,18 +1,22 @@
 ---
 title: AI security for Microsoft 365 Copilot
 f1.keywords: NOCSH
-ms.author: adparmar
-author: adparmar
-manager: pauloliveria
-ms.date: 10/24/2024
+ms.author: deniseb
+author: denisebmsft
+manager: dansimp
+ms.date: 08/07/2025
+ms.update-cycle: 180-days
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
-ms.collection: m365copilot
+ms.collection: 
+- m365copilot
+- trust-pod
+- magic-ai-copilot
 description: Learn how Microsoft 365 Copilot integrates AI to enhance productivity while maintaining robust security and compliance measures.
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # AI security for Microsoft 365 Copilot

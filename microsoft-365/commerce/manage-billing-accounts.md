@@ -4,7 +4,7 @@ f1.keywords:
 - MACBillingBillingAccountsOverview
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: scotv
+manager: dansimp
 ms.reviewer: jkinma, ramagane
 audience: Admin
 ms.topic: how-to
@@ -14,9 +14,10 @@ ms.localizationpriority: medium
 ms.collection:
 - Tier1
 - scotvorg
-- M365-subscription-management 
+- M365-subscription-management
 - Adm_O365
-ms.custom: 
+- operations-pod
+ms.custom:
 - commerce_billing
 - AdminSurgePortfolio
 - AdminTemplateSet

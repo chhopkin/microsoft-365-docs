@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: scotv
+manager: dansimp
 ms.reviewer: shegu, nicholak
 audience: Admin
 ms.topic: how-to
@@ -13,10 +13,11 @@ ms.subservice: m365-commerce-acquisition
 ms.localizationpriority: medium
 ms.collection:
 - Tier1
-- scotvorg 
+- scotvorg
 - M365-subscription-management
 - Adm_O365
-ms.custom: 
+- operations-pod
+ms.custom:
 - commerce_licensing
 - AdminSurgePortfolio
 - okr_SMB
@@ -27,6 +28,7 @@ search.appverid: MET150
 description: "Learn how to assign Microsoft 365 Apps licenses to groups for use with devices."
 ms.date: 07/13/2025
 ---
+
 # Manage Microsoft 365 Apps licenses for devices
 
 If you have Microsoft 365 Apps for enterprise (device) or Microsoft 365 Apps for Education (device), you can assign licenses to devices by using Microsoft Entra groups. When a device has a license, anyone who uses that device can use Microsoft 365 Apps for enterprise. For example, let's say you have 20 laptops and tablets that are used by people in your organization. When you assign a license to each device, each person who logs in to one of the devices uses Microsoft 365 Apps for enterprise without the need for their own license.

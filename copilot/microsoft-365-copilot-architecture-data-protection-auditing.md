@@ -2,24 +2,26 @@
 title: Microsoft 365 Copilot data protection architecture
 f1.keywords:
 - NOCSH
-ms.author: mandia
-author: MandiOhlinger
-manager: laurawi
+ms.author: ruihu
+author: maggierui
+manager: dansimp
 ms.date: 05/27/2025
+ms.update-cycle: 180-days
 audience: Admin
 ms.reviewer: mandia, bcarter, ruihu, cabailey
 ms.topic: overview
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
 - essentials-overview
+- trust-pod
 description: Get descriptions and see diagrams that describe how Microsoft Purview data protection, SharePoint oversharing controls, and auditing work with Microsoft 365 Copilot. This article also shows how Microsoft Purview sensitivity labels, SharePoint oversharing controls, and Purview tools like eDiscovery and retention policies affect Microsoft 365 Copilot.
 ms.custom: [copilot-learning-hub]
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # Architecture diagrams of Microsoft 365 data protection features that affect Microsoft 365 Copilot
