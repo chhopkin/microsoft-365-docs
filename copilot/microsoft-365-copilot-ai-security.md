@@ -178,7 +178,17 @@ To help secure AI usage with Microsoft 365 Copilot, you can enable [audit logs f
 
 To support compliance with regulations such as GDPR, DORA, HIPAA, and the EU AI Act, Microsoft provides structured tools for risk assessment and reporting. [Compliance Manager](/purview/compliance-manager) and [Microsoft Priva](/privacy/priva/priva-overview) offer templates for Data Protection Impact Assessments (DPIAs), helping organizations document data flows, processing purposes, and risk mitigations related to Microsoft 365 Copilot use.
 
-Privacy assessments can be integrated into the AI development lifecycle to identify and mitigate risks early. Organizations can also maintain AI risk registers using Microsoft Purview and [Microsoft Defender for Cloud](/azure/defender-for-cloud/defender-for-cloud-introduction). These registers include model names, intended purposes, evaluation metrics, plugin scopes, and risk scores—supporting alignment with standards like ISO/IEC 42001 and the EU AI Act.
+Privacy assessments can be integrated into the AI development lifecycle to identify and mitigate risks early. You can also maintain AI risk registers by using Microsoft Purview and [Microsoft Defender for Cloud](/azure/defender-for-cloud/defender-for-cloud-introduction). These registers include model names, intended purposes, evaluation metrics, plugin scopes, and risk scores—supporting alignment with standards like ISO/IEC 42001 and the EU AI Act.
+
+#### Compliance Tooling
+
+Microsoft Purview Audit and eDiscovery log and surface Microsoft 365 Copilot interactions. Compliance Manager maps controls to regulations, such as the EU Artificial Intelligence Act and NIST AI RMF 1.0. See [Audit logs for Copilot and AI applications](purview/audit-copilot).
+
+[Microsoft Purview Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai) provides centralized visibility and control over how sensitive data is accessed and used across Microsoft 365 Copilot and other AI services. It enables your organization to discover AI activity, classify and label sensitive content, enforce real-time data loss prevention (DLP), and govern usage through audit logs, retention policies, and compliance rules. 
+
+#### Audit and eDiscovery
+
+Microsoft Purview captures Microsoft 365 Copilot interactions for auditing and eDiscovery. Compliance Manager provides regulatory templates to help your organization assess, implement, and strengthen compliance against AI regulations, such as the EU Artificial Intelligence Act, ISO/IEC 23894:2023, ISO/IEC 42001:2023, and NIST AI Risk Management Framework (RMF) 1.0. 
 
 #### Be aware of shadow AI
 
