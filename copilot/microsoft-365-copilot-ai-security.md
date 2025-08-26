@@ -198,7 +198,7 @@ When employees use unsanctioned AI apps or third-party LLMs, they may unknowingl
 - Violations of data residency or industry compliance rules
 - Loss of visibility into how data is accessed, stored, or shared
 
-To help reduce these risks, [Defender for Cloud Apps](/defender-cloud-apps/tutorial-shadow-it) and Microsoft Purview can help detect and manage unauthorized AI usage. These tools help you:
+To help reduce these risks, [Defender for Cloud Apps](/defender-cloud-apps/tutorial-shadow-it) and [Microsoft Purview](/purview/purview) can help detect and manage unauthorized AI usage. These tools help you:
 
 - Discover which AI apps are being used across your environment
 - Block or restrict access to high-risk tools
