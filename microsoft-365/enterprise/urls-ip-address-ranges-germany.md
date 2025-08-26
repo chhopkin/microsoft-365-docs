@@ -1,9 +1,9 @@
 ---
-title: "Microsoft 365 URLs and IP address ranges"
+title: "Microsoft 365 URLs and IP address ranges - Germany"
 ms.author: siviv
 author: VargheseSivi
 manager: scotv
-ms.date: 07/31/2025
+ms.date: 05/12/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-enterprise
@@ -24,20 +24,19 @@ search.appverid:
 - MBS150
 - MOM160
 - BCS160
-ms.assetid: 8548a211-3fe7-47cb-abb1-355ea5aa88a2
-description: "Summary: Microsoft 365 requires connectivity to the Internet. The endpoints in this article should be reachable for customers using Microsoft 365 plans, including Government Community Cloud (GCC)."
+description: "Summary: Microsoft 365 requires connectivity to the Internet. The endpoints in this article should be reachable for Germany customers using Microsoft 365 plans."
 hideEdit: true
 ---
 
-# Microsoft 365 URLs and IP address ranges
+# Microsoft 365 URLs and IP address ranges - Germany
 
-Microsoft 365 requires connectivity to the Internet. The endpoints in this article should be reachable for customers using Microsoft 365 plans, including Government Community Cloud (GCC).
+Microsoft 365 requires connectivity to the Internet. The endpoints in this article should be reachable for Germany customers using Microsoft 365 plans.
   
-*Microsoft 365 Worldwide (+GCC)* \| [Microsoft 365 operated by 21 Vianet](urls-and-ip-address-ranges-21vianet.md) \| [Microsoft 365 U.S. Government DoD](microsoft-365-u-s-government-dod-endpoints.md) \| [Microsoft 365 U.S. Government GCC High](microsoft-365-u-s-government-gcc-high-endpoints.md) \| [Microsoft 365 France](urls-ip-address-ranges-france.md) \| [Microsoft 365 Germany](urls-ip-address-ranges-germany.md) \|
+[Microsoft 365 Worldwide (+GCC)](urls-and-ip-address-ranges.md) \| [Microsoft 365 operated by 21 Vianet](urls-and-ip-address-ranges-21vianet.md) \| [Microsoft 365 U.S. Government DoD](microsoft-365-u-s-government-dod-endpoints.md) \| [Microsoft 365 U.S. Government GCC High](microsoft-365-u-s-government-gcc-high-endpoints.md) \| [Microsoft 365 France](urls-ip-address-ranges-france.md) \| *Microsoft 365 Germany* \|
 
 |Notes|Download|Use|
 |---|---|---|
-|**Last updated:** 07/31/2025 - ![RSS.](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Change Log subscription](https://endpoints.office.com/version/worldwide?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**Download:** all required and optional destinations in one [JSON formatted](https://endpoints.office.com/endpoints/worldwide?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) list.|**Use:** our proxy [PAC files](managing-office-365-endpoints.md#pacfiles)|
+|**Last updated:** 04/30/2025 - ![RSS.](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Change Log subscription](https://endpoints.office.com/version/worldwide?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**Download:** all required and optional destinations in one [JSON formatted](https://endpoints.office.com/endpoints/worldwide?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7) list.|**Use:** our proxy [PAC files](managing-office-365-endpoints.md#pacfiles)|
 
 Start with [Managing Microsoft 365 endpoints](managing-office-365-endpoints.md) to understand our recommendations for managing network connectivity using this data. Endpoints data is updated as needed at the beginning of each month with new IP Addresses and URLs published 30 days in advance of being active. This cadence allows for customers who don't yet have automated updates to complete their processes before new connectivity is required. Endpoints may also be updated during the month if needed to address support escalations, security incidents, or other immediate operational requirements. The data shown on this page below is all generated from the REST-based web services. If you're using a script or a network device to access this data, you should go to the [Web service](microsoft-365-ip-web-service.md) directly.
 
@@ -64,21 +63,18 @@ Data columns shown are:
 ## [Microsoft 365 Unified Domains](cloud-microsoft-domain.md)
 
 > [!NOTE]
-> In response to customer feedback and to streamline endpoint management, Microsoft has initiated the process of consolidating Microsoft 365 apps and services into a select group of dedicated, secured, and purpose-managed domains within the **.microsoft** top level domain (TLD). 
+> In response to customer feedback and to streamline endpoint management, Microsoft has initiated the process of consolidating Microsoft 365 apps and services into a select group of dedicated, secured, and purpose-managed domains within the **.de** top level domain (TLD). 
 > 
 > To avoid connectivity issues for users, ensure that the following essential domains are included in your allowlist and that connectivity to these domains isn't blocked.
 
 | ID | Category | Domain name| Purpose | Ports |
 |---|---|---|---|---|
-|184|Required|`*.cloud.microsoft`|Dedicated to authenticated user facing Microsoft SaaS product experiences.|**TCP:** 443<br>**UDP:** 443|
-|184|Required|`*.static.microsoft`|Dedicated to static (not customer generated) content hosted on CDNs.|**TCP:** 443<br>**UDP:** 443|
-|184|Required|`*.usercontent.microsoft`|Content used in Microsoft 365 experiences that requires domain isolation from applications.|**TCP:** 443<br>**UDP:** 443|
+|36|Required|`*.sovcloud.de`|Dedicated to authenticated user facing Microsoft SaaS product experiences.|**TCP:** 443,80<br>**UDP:** 443|
+|36|Required|`*.sovcloud-static.de`|Dedicated to static (not customer generated) content hosted on CDNs.|**TCP:** 443,80<br>**UDP:** 443|
+|36|Required|`*.sovcloud-usercontent.de`|Content used in Microsoft 365 experiences that requires domain isolation from applications.|**TCP:** 443,80<br>**UDP:** 443|
 
-[!INCLUDE [Microsoft 365 worldwide endpoints](../includes/office-365-worldwide-endpoints.md)]
+[!INCLUDE [Microsoft 365 Germany endpoints](../includes/office-365-germany-endpoints.md)]
 
-Notes for this table:
-
-- The Security and Compliance Center (SCC) provides support for Azure ExpressRoute for Microsoft 365. The same applies for many features exposed through the SCC such as Reporting, Auditing, eDiscovery (Premium), Unified DLP, and Data Governance. Two specific features, PST Import and eDiscovery Export, currently don't support Azure ExpressRoute with only Microsoft 365 route filters due to their dependency on Azure Blob Storage (*.blob.core.windows.net). To consume those features, you need separate connectivity to Azure Blob Storage using any supportable Azure connectivity options, which include Internet connectivity or Azure ExpressRoute with Azure Public route filters. You have to evaluate establishing such connectivity for both of those features. The Microsoft 365 Information Protection team is aware of this limitation and is actively working to bring support for Azure ExpressRoute for Microsoft 365 as limited to Microsoft 365 route filters for both of those features.
 
 ## Related Topics
 
