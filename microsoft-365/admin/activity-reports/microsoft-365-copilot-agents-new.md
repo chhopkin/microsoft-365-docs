@@ -3,7 +3,7 @@ title: "Microsoft 365 reports in the admin center – Agent usage"
 ms.author: camillepack
 author: camillepack
 manager: scotv
-ms.date: 08/25/2025
+ms.date: 08/26/2025
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
@@ -49,7 +49,7 @@ You can use this report to see the usage of Microsoft 365 Copilot agents in your
 At the top of the report, you can filter by different periods. The agent report can be viewed over the last 7 days, 30 days.
 
 > [!NOTE]
-> The data in the Agent usage preview report is available starting July 31, 2025.
+> The data in the Agent usage preview report is available starting August 19, 2025.
 
 :::image type="content" source="../../media/agent-filters-and-metrics.png" alt-text="Screenshot showing the active agents metrics for Microsoft 365 Copilot.":::
 
