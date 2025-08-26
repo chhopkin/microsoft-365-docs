@@ -192,7 +192,7 @@ Microsoft Purview Audit and eDiscovery log and surface Microsoft 365 Copilot int
 
 #### Be aware of shadow AI
 
-When employees use unsanctioned AI apps such as ChatGPT, Google Gemini, or other third-party LLMs, they may unknowingly upload sensitive data to services that aren't governed by your organization's security or compliance policies. This can lead to:
+When employees use unsanctioned AI apps or third-party LLMs, they may unknowingly upload sensitive data to services that aren't governed by your organization's security or compliance policies. This can lead to:
 
 - Exposure of confidential or regulated information
 - Violations of data residency or industry compliance rules
