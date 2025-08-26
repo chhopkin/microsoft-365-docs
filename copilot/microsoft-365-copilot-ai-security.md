@@ -5,7 +5,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 ms.reviewer: georgerozo
-ms.date: 08/22/2025
+ms.date: 08/26/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: article
@@ -147,17 +147,13 @@ For more information, see the following resources:
  
 ## What you can do to strengthen your organization's AI security
 
-Organizations share responsibility for securing AI systems. Microsoft provides tools and guidance to help customers manage risk and enforce compliance. 
+Organizations share responsibility for securing AI systems. Microsoft provides tools and guidance to help you manage risk and enforce compliance. 
 
-1. Define and apply [sensitivity labels](/purview/get-started-with-sensitivity-labels) by using [Microsoft Purview](/purview/get-started-with-sensitivity-labels) to classify confidential content across Microsoft 365. 
-
-2. Configure [DLP policies that restrict Microsoft 365 Copilot](/purview/dlp-microsoft365-copilot-location-learn-about) from accessing or processing labeled content, such as blocking summarization or rewriting of documents marked as sensitive. 
-
-3. [Ensure users have appropriate permissions](/purview/information-protection-solution), such as *extract* or *view* rights, to allow Microsoft 365 Copilot to interact with content appropriately. 
-
-4. When Microsoft 365 Copilot is restricted from accessing content, users are notified, this interaction can be monitored. See [Data stored about user interactions with Microsoft 365 Copilot](microsoft-365-copilot-privacy.md#data-stored-about-user-interactions-with-microsoft-365-copilot)
-
-5. Extend DLP coverage across Microsoft 365 Copilot Chat and in-app experiences in Word, Excel, and PowerPoint for consistent protection. See [Learn about DLP](/purview/dlp-learn-about-dlp).
+- Define and apply [sensitivity labels](/purview/get-started-with-sensitivity-labels) by using [Microsoft Purview](/purview/get-started-with-sensitivity-labels) to classify confidential content across Microsoft 365. 
+- Configure [DLP policies that restrict Microsoft 365 Copilot](/purview/dlp-microsoft365-copilot-location-learn-about) from accessing or processing labeled content, such as blocking summarization or rewriting of documents marked as sensitive. 
+- When Microsoft 365 Copilot is restricted from accessing content, users are notified, this interaction can be monitored. See [Data stored about user interactions with Microsoft 365 Copilot](microsoft-365-copilot-privacy.md#data-stored-about-user-interactions-with-microsoft-365-copilot)
+- [Ensure users have appropriate permissions](/purview/information-protection-solution), such as *extract* or *view* rights, to allow Microsoft 365 Copilot to interact with content appropriately. 
+- Extend DLP coverage across Microsoft 365 Copilot Chat and in-app experiences in Word, Excel, and PowerPoint for consistent protection. See [Learn about DLP](/purview/dlp-learn-about-dlp).
 
 ### Control access to data
 
