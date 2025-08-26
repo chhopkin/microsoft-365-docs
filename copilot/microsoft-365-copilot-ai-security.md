@@ -182,13 +182,13 @@ Privacy assessments can be integrated into the AI development lifecycle to ident
 
 #### Compliance Tooling
 
-Microsoft Purview Audit and eDiscovery log and surface Microsoft 365 Copilot interactions. Compliance Manager maps controls to regulations, such as the EU Artificial Intelligence Act and NIST AI RMF 1.0. See [Audit logs for Copilot and AI applications](purview/audit-copilot).
+Microsoft Purview Audit and eDiscovery log and surface Microsoft 365 Copilot interactions. [Compliance Manager](/purview/compliance-manager) maps controls to regulations, such as the EU Artificial Intelligence Act and NIST AI RMF 1.0. See [Audit logs for Copilot and AI applications](purview/audit-copilot).
 
-[Microsoft Purview Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai) provides centralized visibility and control over how sensitive data is accessed and used across Microsoft 365 Copilot and other AI services. It enables your organization to discover AI activity, classify and label sensitive content, enforce real-time data loss prevention (DLP), and govern usage through audit logs, retention policies, and compliance rules. 
+[DSPM for AI](/purview/dspm-for-ai) provides centralized visibility and control over how sensitive data is accessed and used across Microsoft 365 Copilot and other AI services. It enables your organization to discover AI activity, classify and label sensitive content, enforce real-time data loss prevention (DLP), and govern usage through audit logs, retention policies, and compliance rules. 
 
 #### Audit and eDiscovery
 
-Microsoft Purview captures Microsoft 365 Copilot interactions for auditing and eDiscovery. Compliance Manager provides regulatory templates to help your organization assess, implement, and strengthen compliance against AI regulations, such as the EU Artificial Intelligence Act, ISO/IEC 23894:2023, ISO/IEC 42001:2023, and NIST AI Risk Management Framework (RMF) 1.0. 
+[Microsoft Purview](/purview/ai-microsoft-purview) captures Microsoft 365 Copilot interactions for auditing and eDiscovery. Compliance Manager provides regulatory templates to help your organization assess, implement, and strengthen compliance against AI regulations, such as the EU Artificial Intelligence Act, ISO/IEC 23894:2023, ISO/IEC 42001:2023, and NIST AI Risk Management Framework (RMF) 1.0. 
 
 #### Be aware of shadow AI
 
