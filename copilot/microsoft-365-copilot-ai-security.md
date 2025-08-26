@@ -138,6 +138,8 @@ Microsoft 365 Copilot is part of Microsoft's enterprise compliance program and b
 - SOC 2 Type 1
 - ISO/IEC 27001, 27701, 22301, 27018, and 42001
  
+See [Meeting regulatory compliance requirements](microsoft-365-copilot-privacy.md#meeting-regulatory-compliance-requirements).
+
 ## What you can do to strengthen your organization's AI security
 
 For information about how to avoid oversharing, see [Address oversharing concerns in Microsoft 365 Copilot deployment blueprint](microsoft-365-copilot-blueprint-oversharing.md).
