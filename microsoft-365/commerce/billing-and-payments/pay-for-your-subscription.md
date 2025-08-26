@@ -44,6 +44,7 @@ You can manage payment methods whenever you need to. To learn how to add, change
 
 **Just want to find out where to send your invoice payment?** If you currently pay your invoice by wire transfer, see [Where do I send my wire transfer payment?](#where-do-i-send-my-wire-transfer-payment)
 
+
 ## Before you begin
 
 - [Find out what type of billing account you have](../manage-billing-accounts.md#view-my-billing-accounts).
@@ -72,6 +73,9 @@ If you have a Microsoft Customer Agreement (MCA) billing account type, partial p
 
 A minimum payment has a minimum value that you can pay, which varies by country/region. 
 
+> [!Important]
+> Partial payments only apply to customers with a Microsoft Customer Agreement billing account type. 
+
 > [!NOTE] 
 > To avoid service interruption, pay the full invoice amount by the due date on the invoice. 
  
@@ -79,7 +83,7 @@ A minimum payment has a minimum value that you can pay, which varies by country/
 
    - If you're using the **Simplified view**, select the **Products** tab, then select **View invoices**. 
    - If you're using the **Dashboard view**, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Bills & payments</a> page, and select the **Invoices** tab. 
-1. If any of your eligible invoices are due or past due, you see a blue **Pay now** link for the invoice. Select **Pay now**. 
+1. If any of your eligible invoice are due or past due, you see a blue **Pay now** link for the invoice. Select **Pay now**. 
 1. In the **Pay now** window, select **Select a payment method** to choose an existing credit card or add a new one.
 1. Select **Pay now**.
 1. If the payment fails, the partial payment feature appears in the **Pay now** section. There's a minimum partial payment amount. You must enter an amount greater than the minimum. 
