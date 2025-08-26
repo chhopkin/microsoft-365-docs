@@ -4,7 +4,7 @@ description: Learn how to deploy the Microsoft 365 Learning Tool Interoperabilit
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
-ms.date: 07/14/2025
+ms.date: 08/01/2025
 audience: admin
 ms.topic: how-to
 ms.service: msteams
@@ -52,13 +52,13 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
 1. Log into Brightspace as an Administrator or Super Administrator with permission to **Manage Extensibility** and **External Tools**.
 
-1. In Brightspace, navigate to **Admin Tools** **(gear icon)** > **Manage Extensibility** and then select the **Register Tool** button.
+1. In Brightspace, navigate to **Admin Tools** **(gear icon)** > **Manage Extensibility**, select the **LTI Advantage** tab, and then select the **Register Tool** button.
 
 1. Select the **Standard** registration radio button and enter the values listed in the table:
 
     | **Field in Brightspace** | **Value** |
     |---|---|
-    | **Name** | Microsoft Education |
+    | **Name** | Microsoft 365 LTI |
     | **Domain** | Copy the **Target Link URL** value from the Microsoft registration. |
     | **Redirect URLs** | Copy the **Redirect URL** value from the Microsoft registration. |
     | **OpenID Connect Login URL** | Copy the **Open ID connection URL** value from the Microsoft registration. |
@@ -70,6 +70,25 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 1. Select the **Register** button.
 
 1. A modal with Brightspace registration details appears. **Copy these names and values as they need to be entered into the Microsoft Registration Portal to complete registration.** You can return to the registration to copy the values later if needed.
+
+**To add a deployment of Microsoft Education in your D2L Brightspace courses:**
+
+1. Navigate to **Admin Tools** > **External Learning Tools**.
+
+1. Select **New Deployment**.
+
+1. Select **Microsoft 365 LTI** as the **Tool** and enter **Microsoft 365 LTI** as the **Name**.
+
+1. Select ***all*** Security Settings ***except*** **Anonymous** (including Org Unit information, User Information, Link Information).
+  
+    :::image type="content" source="./media/brightspace-security-settings.png" alt-text="Screenshot of security settings." border="true":::
+
+1. In Configuration Settings, select **Grades created by LTI will be included in Final Grade** and **Auto Create Grade Items**. Make sure that **Open as External Resource** is **not** checked.
+    :::image type="content" source="./media/brightspace-configuration-settings.png" alt-text="Screenshot of configuration settings." border="true":::
+
+1. Select **Add Org Units**. Select the orgs you wish to deploy to, or the **root org** or **all** units to deploy the app for all orgs by searching for the Organization name and selecting **All Descendants**
+
+1. Select **Create Deployment** and confirm the deployment. A pop-up appears, showing the Deployment ID. Save it with the Name chosen on step 3, as it will be required in the Microsoft Registration Portal.
 
 **To save the values obtained from Brightspace in the Microsoft tool registration portal:**
 
@@ -88,32 +107,11 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
 You now have a tool registration configured in the Microsoft registration portal and both a registration and a deployment of the tool in Brightspace. The next steps create links in Brightspace to add to courses.
 
-**To add a deployment of Microsoft Teams Assignments in your D2L Brightspace courses:**
-
-1. Navigate to **Admin Tools** > **External Learning Tools**.
-
-1. Select **New Deployment**.
-
-1. Select **Microsoft** **Education** as the **Tool** and enter **Microsoft** **Education** as the **Name**.
-
-1. Select ***all*** Security Settings ***except*** **Anonymous** (including Org Unit information, User Information, Link Information).
-  
-    :::image type="content" source="./media/brightspace-security-settings.png" alt-text="Screenshot of security settings." border="true":::
-
-1. In Configuration Settings, select **Grades created by LTI will be included in Final Grade** and **Auto Create Grade Items**. Make sure that **Open as External Resource** is **not** checked.
-    :::image type="content" source="./media/brightspace-configuration-settings.png" alt-text="Screenshot of configuration settings." border="true":::
-
-1. Select **Add Org Units**. Select the orgs you wish to deploy to, or the **root org** or **all** units to deploy the app for all orgs.
-
-1. Select **Create Deployment** and confirm the deployment.
-
-1. From the deployments list, select the **Microsoft** **Education** deployment, scroll down to **Deployment Id** at the bottom, and save this value and its name, as it also is required in the Microsoft Registration portal.
-
 **To add links to the Microsoft Education tools in your D2L Brightspace courses:**
 
 1. In Brightspace, navigate to **Admin Tools** > **External Learning Tools**.
 
-1. Select **Microsoft Education**.
+1. Select **Microsoft 365 LTI**.
 
 1. Scroll down to select **View Links**.
 
@@ -123,7 +121,7 @@ You now have a tool registration configured in the Microsoft registration portal
 
 1. Enter **Microsoft Education** as the **Name**.
 
-1. For the **URL**, enter: `https://assignments.edu.cloud.microsoft/lti-ui`.
+1. For the **URL**, enter: `https://lti.edu.cloud.microsoft/tool`.
 
 1. For the **Type**, select **Basic Launch**.
 
@@ -133,11 +131,41 @@ You now have a tool registration configured in the Microsoft registration portal
 
 1. Select **New Link**.
 
-1. Enter **Microsoft Education** as the **Name**.
+1. Enter **Microsoft Education Activity** as the **Name**.
 
-1. For the **URL**, enter: `https://assignments.edu.cloud.microsoft/lti-ui`.
+1. For the **URL**, enter: `https://lti.edu.cloud.microsoft/tool`.
 
 1. Select **Deep Linking Quicklink** for the **Type**.
+
+1. Create a **Custom Parameter** named **launchType** with value **courseAssignments**.
+
+1. Select **Save and Close** to create the link.
+
+**To create a Deep Linking Insert Stuff link for documents:**
+
+1. Select **New Link.**
+
+1. Enter **Microsoft 365 Document** as the **Name**.
+
+1. For the **URL**, enter: `https://lti.edu.cloud.microsoft/tool`
+
+1. Select **Deep Linking Quicklink** for the **Type**.
+
+1. Create a **Custom Parameter** named **launchType** with value **link-selection**.
+
+1. Select **Save and Close** to create the link.
+
+**To create a Deep Linking Quicklink link for document collaborations:**
+
+1. Select **New Link**.
+
+1. Enter **Microsoft 365 Document Collaboration** as the **Name**.
+
+1. For the **URL**, enter: `https://lti.edu.cloud.microsoft/tool`
+
+1. Select **Deep Linking Quicklink** for the **Type**.
+
+1. Create a **Custom Parameter** named **launchType** with value **collaborations**.
 
 1. Select **Save and Close** to create the link.
 
@@ -147,7 +175,7 @@ You now have a tool registration configured in the Microsoft registration portal
 
 1. Enter **Microsoft Education** as the **Name**.
 
-1. For the **URL**, enter: `https://assignments.edu.cloud.microsoft/lti-ui`.
+1. For the **URL**, enter: `https://lti.edu.cloud.microsoft/tool`.
 
 1. For the **Type**, select **Widget**.
 
@@ -157,13 +185,13 @@ You now have a tool registration configured in the Microsoft registration portal
 
 1. Navigate to **Admin Tools** > **Navigation and Themes**.
 
-1. Select **Standard Course Navigation** and then **Add Links**.
+1. Select the Navbar that you wish to modify and then **Add Links**.
 
 1. Select **Create Custom Link**.
 
 1. Enter **Microsoft Education** as the **Name**.
 
-1. For the **URL**, select **Insert Quicklink**, and then **Teams Assignments**.
+1. For the **URL**, select **Insert Quicklink**, and then **Microsoft Education**.
 
 1. Select **Same window** for **Behavior**.
 
@@ -171,9 +199,43 @@ You now have a tool registration configured in the Microsoft registration portal
 
 1. Ensure that the **Microsoft Education** checkbox is selected, and then select **Add**.
 
-1. Drag the Teams Assignments link to your preferred location in the course navigation.
+1. Drag the Microsoft Education link to your preferred location in the Navbar.
 
 1. Select **Save and Close**.
+
+## Turn on the new Microsoft 365 LTI app on the Quicklinks Activity Bar
+
+The Microsoft 365 LTI app is now available to users, and the older OneDrive app can now be turned off (if ready to migrate over).
+
+1. Navigate to **Admin > Config Variable Browser**.
+1. Locate the variable titled **d2l.3rdParty.OneDrive.EnableOneDrivePicker** and set the value to **off**.
+
+To add the Microsoft 365 LTI app to Brightspace's activity bar for quick access, you need to set an org unit **Config Variable** to the link ID of the LTI app.
+
+> [!NOTE]
+> You need to repeat these steps for every org ID (or parent org ID) where you want the Microsoft 365 LTI app to appear in the activity bar.
+
+**To collect the Link ID:**
+
+1. Navigate to **Admin Tools** by selecting the gear icon at the top right.
+1. Select **Manage Extensibility** to view the **LTI Advantage Deployments** list.
+1. Select the **Microsoft 365 LTI** LTI Advantage app you created.
+1. Scroll to the bottom of the page and select **View Deployments**.
+1. Select the **Microsoft 365 LTI** app deployment you created.
+1. Scroll down to the bottom of the page and select **View Links**.
+1. Select the **Microsoft 365 Document** link with the **Deep Linking Quicklink** type.
+1. Move your mouse to the URL address bar in your browser.
+1. Copy the numeric digits after the final / in the URL. For example, if the link url is `https://example.desire2learn.com/d2l/le/ltiadvantage/deployments/3bfcc0b7-2fb6-4ffe-b353-95b520d4bae6/links/details/259`, copy the 259 numeric value.
+
+**To update the Config Variables:**
+
+1. In the Brightspace admin portal, navigate to **Admin Tools** by selecting the top right gear icon.
+1. Select **Config Variable Browser**.
+1. In the **All Variables** menu on the left, navigate to **3rdParty > Microsoft > OneDriveLTI**. You should see the variable name **3rdparty.microsoft.onedriveLTI.linkId** in the right pane.
+1. Select the **LinkId variable** name.
+1. On the **LinkId configuration** screen, select **Add Value** to select an **Org Unit** and paste the numeric Link ID value you collected previously.
+1. You need to repeat this for each Org Unit you wish to use the **Quicklinks Activity Bar**.
+1. To have this setting applied to descendant org types of those you added, you can edit the **Cascading Org Unit Types** and select which types and in which order the settings will apply.
 
 ## First-time configuration by an LMS administrator
 
@@ -181,8 +243,8 @@ You must launch the app for the first time as a user with the **Brightspace Syst
 
 1. As a Brightspace System Administrator, access any Course that has the Microsoft Education link added.
 
-1. Continue with the **Microsoft 365 LTI first-time configuration steps** to complete the configuration for your organization.
-<!-- -->
+1. Continue with the [**Microsoft 365 LTI first-time configuration steps**](microsoft-365-lti-first-time-configuration.md) to complete the configuration for your organization.
+
 ## Ongoing use by instructors and students in a course
 
 On first access, users must sign in using their Microsoft 365 (Microsoft Entra) account.
@@ -195,7 +257,7 @@ Learn more about Microsoft 365 LTI application scenarios for Instructors and Stu
 
 - Popups shouldn't be blocked for Microsoft apps.
 
-If you receive an error message regarding cookies being blocked, check your browser's address bar for an icon to allow third-party cookies and popups. If this issue persists, review your settings related to cookies and popups to make sure they are allowed for this app.
+If you receive an error message regarding cookies being blocked, check your browser's address bar for an icon to allow third-party cookies and popups. If this issue persists, review your settings related to cookies and popups to make sure they're allowed for this app.
 
 ## Getting help and giving feedback
 
@@ -203,6 +265,6 @@ If you receive an error message regarding cookies being blocked, check your brow
 
 - Educators and Learners can contact support or give feedback directly from the app through the help and feedback menu.
 
-:::image type="content" source="./media/help-and-feedback.png" alt-text="Screenshot of link to send feedback for Microsoft 365 LTI ." border="true":::
+:::image type="content" source="./media/help-and-feedback.png" alt-text="Screenshot of link to send feedback for Microsoft 365 LTI." border="true":::
 
 Learning Tools Interoperability® (LTI®) is a trademark of the 1EdTech Consortium, Inc. (**[**1edtech.org**](https://1edtech.org)**)

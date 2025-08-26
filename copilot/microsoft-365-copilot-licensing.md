@@ -2,21 +2,23 @@
 title: "License options for Microsoft 365 Copilot"
 f1.keywords:
 - NOCSH
-ms.author: camillepack
-author: camillepack
-manager: scotv
+ms.author: aaroncz
+author: aczechowski
+manager: dansimp
 ms.date: 05/20/2025
+ms.update-cycle: 180-days
 audience: Admin
 ms.topic: get-started
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 description: Enterprise and company IT admins can add Microsoft 365 Copilot to their  Microsoft 365 subscription plans. This article describes the Microsoft 365 Copilot license plans that let you add Copilot and how to add them to your subscription.
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # License plans for Microsoft 365 Copilot

@@ -13,8 +13,10 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 - must-keep
+- trust-pod
 hideEdit: true
 ms.date: 03/13/2025
+ms.update-cycle: 180-days
 ---
 
 # Enterprise data protection in Microsoft 365 Copilot and Microsoft 365 Copilot Chat

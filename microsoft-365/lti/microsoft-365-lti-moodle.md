@@ -4,7 +4,7 @@ description: Learn how to deploy the Microsoft 365 Learning Tool Interoperabilit
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
-ms.date: 07/14/2025
+ms.date: 08/14/2025
 audience: admin
 ms.topic: how-to
 ms.service: msteams
@@ -15,6 +15,7 @@ ms.collection:
 - tier2
 ms.localizationpriority: medium
 ---
+
 # Deploy the Microsoft 365 LTI® app in Moodle™
 
 This guide provides steps for deploying the Microsoft 365 Learning Tool Interoperability® (LTI) app in Moodle.
@@ -33,6 +34,8 @@ By installing and using the Microsoft Education LTI app, educators and students 
 ### User matching between Microsoft 365/Entra ID and the LMS
 
 To fully integrate with your LMS environment and perform tasks on behalf of users like populating students and co-teachers into OneNote Class Notebooks, setting file permissions, or sending grades from Assignments to the LMS gradebook, the Microsoft 365 LTI app must be able to map Student and Teacher identities between the LMS and the Microsoft 365 Entra ID directory services. It's required to populate the LMS user Email field (which is the same email value returned from the LTI Names and Roles Provisioning Service) with the user's Microsoft 365/Microsoft Entra User UPN or Primary Email address. Verify this for people in every course that will use the integration to ensure the Microsoft apps can match LMS users.
+
+## One-time setup by an LMS administrator
 
 **To register the application in the Microsoft registration portal:**
 
@@ -58,15 +61,32 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
     | **Field in Moodle** | **Value** |
     |---|---|
-    | **Tool name** | Teams Assignments |
+    | **Tool name** | Microsoft 365 LTI |
     | **Tool URL** | Copy the Target Link URL value from the Microsoft registration |
     | **LTI version** | LTI 1.3 |
     | **Initiate login URL** | Copy the Open ID connection URL value from the Microsoft registration |
     | **Redirection URIs** | Copy the Redirect URL value from the Microsoft registration |
     | **Custom Parameters** | t=$ResourceLink.title<br>csid=$CourseSection.sourcedId<br>usid=$Person.sourcedId |
-    | **Secure icon URL** | Copy the Icon URL value from the Microsoft registration |
+    | **Content Selection URL** | `https://lti.edu.cloud.microsoft/tool?launchType=courseAssignmentsUpload` |
+    | **Secure icon URL** | `https://res.cdn.office.net/onedrivelti/public/favicon-32x32.png` |
 
 1. Check the **Supports Deep Linking (Content-Item Message)** box.
+
+1. Set the Services and Privacy configurations as follows:
+
+    | **Field in Moodle** |  **Value**      |
+    |---------------------|-----------------|
+    | IMS LTI Assignment and Grade Services  | Use this service for grade sync and column management  |
+    | IMS LTI Names and Roles Provisioning   | Use this service to retrieve members’ information as per privacy settings |
+    | Share launcher’s name with tool        | Always  |
+    | Share launcher’s email with tool       | Always  |
+    | Accept grades from the tool            | Always  |
+
+    Your final selections should look like this:
+
+    :::image type="content" source="./media/moodle-services.png" alt-text="Screenshot of Moodle Services." border="true" lightbox="./media/moodle-services.png":::
+
+1. Check the **Force SSL** box.
 
 1. Select the **Save changes** button.
 
@@ -134,8 +154,7 @@ You must launch the app for the first time as a user with the **Moodle System Ad
 
 1. As a Moodle System Administrator, access any course that has the Microsoft Education link added.
 
-1. Continue with the **Microsoft 365 LTI first-time configuration steps** to complete the configuration for your organization.
-<!-- -->
+1. Continue with the [**Microsoft 365 LTI first-time configuration steps**](microsoft-365-lti-first-time-configuration.md) to complete the configuration for your organization.
 
 ## Ongoing use by instructors and students in a course
 
@@ -158,6 +177,6 @@ If you receive an error message regarding cookies being blocked, check your brow
 
 - Educators and Learners can contact support or give feedback directly from the app through the help and feedback menu.
 
-:::image type="content" source="./media/help-and-feedback.png" alt-text="Screenshot of link to send feedback for Microsoft 365 LTI ." border="true":::
+:::image type="content" source="./media/help-and-feedback.png" alt-text="Screenshot of link to send feedback for Microsoft 365 LTI." border="true":::
 
 Learning Tools Interoperability® (LTI®) is a trademark of the 1EdTech Consortium, Inc. (**[**1edtech.org**](https://1edtech.org)**).

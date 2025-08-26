@@ -1,9 +1,10 @@
 ---
 ms.date: 06/10/2025
+ms.update-cycle: 180-days
 title: "Manage Copilot Pages and Copilot Notebooks in your organization"
 ms.reviewer: dancost, tonchan
-ms.author: jenz
-author: jenzamora
+ms.author: odocspr
+author: officedocspr5
 manager: jtremper
 recommendations: true
 audience: Admin

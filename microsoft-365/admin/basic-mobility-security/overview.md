@@ -2,15 +2,15 @@
 title: "Overview of Basic Mobility and Security for Microsoft 365"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
-manager: scotv
+ms.author: deniseb
+author: denisebmsft
+manager: dansimp
 ms.date: 11/11/2024
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-basic-mobility-security
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier3
 - scotvorg
 - highpri
@@ -18,6 +18,7 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - basic-mobility-security
+- trust-pod
 ms.custom:
 - VSBFY23
 - AdminSurgePortfolio
