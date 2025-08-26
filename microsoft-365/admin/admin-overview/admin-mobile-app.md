@@ -137,7 +137,7 @@ Email [feedback365@microsoft.com](mailto:feedback365@microsoft.com) to report an
 
 ## Next steps
 
-Once you've downloaded the admin mobile, you can add users to get you started.
+Once you've downloaded the admin mobile app, you can add users to get you started.
   
 ## Related content
 
