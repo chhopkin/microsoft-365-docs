@@ -73,6 +73,10 @@ This setting is only applicable to users who have an active Intune license. To v
 
 For more information, see [Pin Microsoft 365 Copilot app to the Windows taskbar](pin-copilot-taskbar.md).
 
+If your organization doesn't have an Intune subscription, then you'll see the following page:
+
+:::image type="content" source="media/pin-copilot-microsoft-365-no-intune.png" alt-text="Screenshot showing the link to pin Microsoft 365 Copilot app to the Windows taskbar if you don't have an Intune subscription.":::
+
 ## Pin at a group or user level
 
 For large enterprises with complex needs, you can set up the Pinning policy to apply to specific groups of users. This option isn't recommended for most customers due to management complexity.
