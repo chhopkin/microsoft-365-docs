@@ -44,6 +44,10 @@ To get a list of all of user-owned containers in your organization, regardless o
 Get-SPOContainer -OwningApplicationId 'a187e399-0c36-4b98-8f04-1edc167a0996' | WHERE OwnershipType -EQ 'UserOwned' | FT
 ```
 
+## Migrations
+
+Currently, there is no supported method to transfer an existing SharePoint Embedded container between Microsoft 365 tenants — for example, in scenarios involving mergers or acquisitions.
+
 ## Related articles
 
 - [Summary of Compliance, Lifecycle, Governance](cpcn-compliance-summary.md)
