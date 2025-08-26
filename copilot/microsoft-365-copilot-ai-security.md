@@ -182,7 +182,7 @@ Privacy assessments can be integrated into the AI development lifecycle to ident
 
 #### Compliance Tooling
 
-Microsoft Purview Audit and eDiscovery log and surface Microsoft 365 Copilot interactions. [Compliance Manager](/purview/compliance-manager) maps controls to regulations, such as the EU Artificial Intelligence Act and NIST AI RMF 1.0. See [Audit logs for Copilot and AI applications](purview/audit-copilot).
+Microsoft Purview Audit and eDiscovery log and surface Microsoft 365 Copilot interactions. [Compliance Manager](/purview/compliance-manager) maps controls to regulations, such as the EU Artificial Intelligence Act and NIST AI RMF 1.0. See [Audit logs for Copilot and AI applications](/purview/audit-copilot).
 
 [DSPM for AI](/purview/dspm-for-ai) provides centralized visibility and control over how sensitive data is accessed and used across Microsoft 365 Copilot and other AI services. It enables your organization to discover AI activity, classify and label sensitive content, enforce real-time data loss prevention (DLP), and govern usage through audit logs, retention policies, and compliance rules. 
 
@@ -213,7 +213,7 @@ Microsoft 365 Copilot is designed to enhance productivity while respecting enter
 To help address this gap, Microsoft recommends a layered defense approach that combines Microsoft 365 Copilot with [Microsoft Defender XDR](/defender-xdr/microsoft-365-defender) and Microsoft Purview:
 
 - [DPSM for AI](/purview/ai-other-apps) helps you discover and protect AI apps.
-- [Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/defender-for-office-365?view=o365-worldwide) provides phishing protection at the email gateway, scanning messages before they reach the user's inbox.
+- [Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/defender-for-office-365) provides phishing protection at the email gateway, scanning messages before they reach the user's inbox.
 - [Safe Links](/defender-office-365/safe-links-about) and [Safe Attachments](/defender-office-365/safe-attachments-about) policies remain active even when content is surfaced through Microsoft 365 Copilot, helping to block access to malicious URLs or files.
 - [Microsoft Purview DLP policies](/purview/dlp-microsoft365-copilot-location-learn-about) can be configured to prevent Microsoft 365 Copilot from accessing or summarizing content that matches phishing indicators or sensitive data patterns.
 
