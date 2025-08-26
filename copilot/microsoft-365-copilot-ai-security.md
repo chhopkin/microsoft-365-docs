@@ -1,7 +1,7 @@
 ---
 title: AI security for Microsoft 365 Copilot
 f1.keywords: NOCSH
-ms.author: deniseb
+ms.author: georgerozo
 author: denisebmsft
 manager: dansimp
 ms.reviewer: georgerozo
@@ -22,7 +22,7 @@ appliesto:
 
 # AI security for Microsoft 365 Copilot
 
-AI security is foundational to our approach at Microsoft; it safeguards customer data, supports system integrity, and includes user safety features. This commitment aligns with our broader principles of privacy, compliance, and trust. This article outlines Microsoft's approach to securing Microsoft 365 Copilot and provides guidance you can use to strengthen your AI security posture.
+AI security is foundational to our approach at Microsoft; it safeguards customer data, supports system integrity, and includes user safety features. This commitment aligns with our [broader principles of privacy, compliance, and trust](https://www.microsoft.com/trust-center). This article outlines our approach to securing Microsoft 365 Copilot and includes guidance you can use to strengthen your AI security posture.
 
 ## What Microsoft does to secure Microsoft 365 Copilot
 
@@ -238,7 +238,7 @@ AI agents built with [Azure AI Foundry](https://techcommunity.microsoft.com/blog
 
 To help maintain a secure AI environment with Microsoft 365 Copilot, Microsoft provides tools to monitor and manage plugin activity. Plugin interactions are logged through [Purview auditing solutions](/purview/audit-solutions-overview), while [Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps) and [Defender for Endpoint](/defender-endpoint/microsoft-defender-endpoint) offer visibility into plugin behavior and endpoint-level telemetry to detect anomalies or unauthorized use. These capabilities enable security teams to track third-party integrations and respond to potential threats effectively.
 
-Microsoft Defender for Cloud includes AI Security Posture Management (AI-SPM), which evaluates plugin permissions, data access scopes, and usage patterns to generate risk scores and policy recommendations. These insights are integrated with Microsoft Purview, assisting organizations in proactively governing plugin-related risks and responsible use of extensibility features in Microsoft 365 Copilot.
+[Defender for Cloud includes AI Security Posture Management (AI-SPM)](/azure/defender-for-cloud/ai-security-posture), which evaluates plugin permissions, data access scopes, and usage patterns to generate risk scores and policy recommendations. These insights are integrated with Microsoft Purview, assisting you in proactively governing plugin-related risks and responsible use of extensibility features in Microsoft 365 Copilot.
 
 For a list of all supported AI applications and Purview controls, see [Microsoft Purview data security and compliance protections for Microsoft 365 Copilot and other generative AI apps](/purview/ai-microsoft-purview).
 
