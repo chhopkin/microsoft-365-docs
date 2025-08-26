@@ -140,7 +140,7 @@ Microsoft 365 Copilot is part of Microsoft's enterprise compliance program and b
 
 For information about how to avoid oversharing, see [Address oversharing concerns in Microsoft 365 Copilot deployment blueprint](microsoft-365-copilot-blueprint-oversharing.md).
 
-To learn more about Microsoff Purview protections for AI apps, see [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview).
+To learn more about Microsoft Purview protections for AI apps, see [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview).
 
 Also see [Microsoft 365 Copilot Tuning admin guide (preview)](copilot-tuning-admin-guide.md).
 
