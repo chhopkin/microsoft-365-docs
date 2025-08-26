@@ -44,6 +44,9 @@ You can manage payment methods whenever you need to. To learn how to add, change
 
 **Just want to find out where to send your invoice payment?** If you currently pay your invoice by wire transfer, see [Where do I send my wire transfer payment?](#where-do-i-send-my-wire-transfer-payment)
 
+> [!Important]
+> This article only applies to customers with a Microsoft Customer Agreement billing account type. 
+
 ## Before you begin
 
 - [Find out what type of billing account you have](../manage-billing-accounts.md#view-my-billing-accounts).
