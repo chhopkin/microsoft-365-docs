@@ -31,7 +31,7 @@ ms.custom:
 - admindeeplinkMAC
 - GAUpdates
 description: "Learn what payment options are available to pay for your Microsoft business subscription."
-ms.date: 07/13/2025
+ms.date: 08/24/2025
 ---
 
 # Payment options for Microsoft business subscriptions
@@ -69,8 +69,8 @@ If recurring billing is turned off for a subscription that is paid for by a bill
 
 ## Pay now and partial payments
 
-Partial payment is available in the Microsoft 365 admin center for customers who experience a payment failure during the one-time payment **Pay now** flow. If you accrue usage higher than your credit card limit, you can use the following self-serve process to split the invoice amount across multiple credit cards. 
- 
+If you have a Microsoft Customer Agreement (MCA) billing account type, partial payment is available in the Microsoft 365 admin center for customers who experience a payment failure during the one-time payment **Pay now** flow. If you accrue usage higher than your credit card limit, you can use the following self-serve process to split the invoice amount across multiple credit cards. 
+
 A minimum payment has a minimum value that you can pay, which varies by country/region. 
 
 > [!Important]
