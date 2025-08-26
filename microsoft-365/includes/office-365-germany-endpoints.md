@@ -6,9 +6,6 @@
 
 
 
-
-
-
 ## Microsoft 365 Common and Office Online
 
 ID | Category | ER | Addresses | Ports
