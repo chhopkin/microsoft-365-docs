@@ -236,7 +236,7 @@ AI agents built with [Azure AI Foundry](https://techcommunity.microsoft.com/blog
 
 ### Govern AI with Microsoft Purview
 
-To help maintain a secure AI environment with Microsoft 365 Copilot, Microsoft provides customers with tools to monitor and manage plugin activity. Plugin interactions are logged through Microsoft Purview Audit, while Microsoft Defender for Cloud Apps and Defender for Endpoint offer visibility into plugin behavior and endpoint-level telemetry to detect anomalies or unauthorized use. These capabilities enable security teams to track third-party integrations and respond to potential threats effectively.
+To help maintain a secure AI environment with Microsoft 365 Copilot, Microsoft provides tools to monitor and manage plugin activity. Plugin interactions are logged through [Purview auditing solutions](/purview/audit-solutions-overview), while Microsoft Defender for Cloud Apps and Defender for Endpoint offer visibility into plugin behavior and endpoint-level telemetry to detect anomalies or unauthorized use. These capabilities enable security teams to track third-party integrations and respond to potential threats effectively.
 
 Microsoft Defender for Cloud includes AI Security Posture Management (AI-SPM), which evaluates plugin permissions, data access scopes, and usage patterns to generate risk scores and policy recommendations. These insights are integrated with Microsoft Purview, assisting organizations in proactively governing plugin-related risks and responsible use of extensibility features in Microsoft 365 Copilot.
 
