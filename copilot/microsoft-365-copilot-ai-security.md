@@ -137,8 +137,14 @@ Microsoft 365 Copilot is part of Microsoft's enterprise compliance program and b
 - HiTrust
 - SOC 2 Type 1
 - ISO/IEC 27001, 27701, 22301, 27018, and 42001
+
+Microsoft Entra ID, Microsoft Purview, and Microsoft 365 for business enforce Conditional Access, sensitivity labels, and information barriers. 
  
-See [Meeting regulatory compliance requirements](microsoft-365-copilot-privacy.md#meeting-regulatory-compliance-requirements).
+For more information, see the following resources:
+
+- [Meeting regulatory compliance requirements](microsoft-365-copilot-privacy.md#meeting-regulatory-compliance-requirements)
+- [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview)
+- U[se Microsoft Purview to manage data security & compliance for Microsoft 365 Copilot & Microsoft 365 Copilot Chat](/purview/ai-m365-copilot)
 
 ## What you can do to strengthen your organization's AI security
 
