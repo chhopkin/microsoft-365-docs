@@ -129,7 +129,7 @@ Microsoft Purview and Security Copilot help organizations govern AI across hybri
 
 #### Policy integration and enforcement
 
-Microsoft 365 Copilot is part of Microsoft's enterprise compliance program and benefits from a range of certifications and assessments. These include (but are not limited to) 
+Microsoft 365 Copilot is part of Microsoft's enterprise compliance program and benefits from a range of certifications and assessments. These include (but aren't limited to):
 
 - FedRAMP
 - HiTrust
