@@ -118,14 +118,16 @@ Microsoft 365 Copilot respects [Microsoft Entra ID](/entra/fundamentals/what-is-
 
 Data is encrypted in transit and at rest using FIPS 140-2–compliant technologies, with tenant-level isolation. [Double Key Encryption](/purview/double-key-encryption) (DKE) helps to ensure that Microsoft can't access protected content without the customer's key, and the content isn't accessible to Microsoft 365 Copilot.
 
-When you have data that's encrypted by Microsoft Purview Information Protection, Microsoft 365 Copilot honors the usage rights granted to the user. This encryption can be applied by [sensitivity labels](/purview/sensitivity-labels) or by restricted permissions in apps in Microsoft 365 by using Information Rights Management (IRM). For more information about using Purview with Microsoft 365 Copilot, see [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview).
+When you have data that's encrypted by Microsoft Purview Information Protection, Microsoft 365 Copilot honors the usage rights granted to the user. This encryption can be applied by [sensitivity labels](/purview/sensitivity-labels) or by restricted permissions in apps in Microsoft 365 by using Information Rights Management (IRM). 
+
+For more information about using Purview with Microsoft 365 Copilot, see [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview).
 
 #### Cross-cloud governance for AI workloads
 
-Microsoft Purview and Security Copilot help organizations govern AI across hybrid and multicloud environments like Azure, AWS, and Google Cloud.
+[Microsoft Purview](/purview/ai-microsoft-purview) and [Security Copilot](/copilot/security/microsoft-security-copilot) help organizations govern AI across hybrid and multicloud environments like Azure, AWS, and Google Cloud.
 
-- [Purview](/purview/ai-microsoft-purview) enables consistent data classification, labeling, and policy enforcement across clouds, with visibility into how data flows into AI models and plugins.
-- [Security Copilot](/copilot/security/microsoft-security-copilot) detects AI-related risks across platforms, correlates threats, and surfaces posture insights from [Cloud security posture management](/azure/defender-for-cloud/concept-cloud-security-posture-management).
+- Purview enables consistent data classification, labeling, and policy enforcement across clouds, with visibility into how data flows into AI models and plugins.
+- Security Copilot detects AI-related risks across platforms, correlates threats, and surfaces posture insights from [Cloud security posture management](/azure/defender-for-cloud/concept-cloud-security-posture-management).
 
 #### Policy integration and enforcement
 
