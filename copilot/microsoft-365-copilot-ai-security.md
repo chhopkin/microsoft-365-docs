@@ -153,9 +153,10 @@ For more information, see the following resources:
 
 Securing your data is a [shared responsibility](/azure/security/fundamentals/shared-responsibility-ai). Microsoft Purview provides tools to help you secure your data for Microsoft 365 Copilot. For more information, see [Use Microsoft Purview to manage data security & compliance for Microsoft 365 Copilot & Microsoft 365 Copilot Chat](/purview/ai-m365-copilot).
 
+Get guidance for deploying security and compliance capabilities for Microsoft 365 Copilot. For information about how to avoid oversharing, see [Microsoft Purview deployment models](https://aka.ms/PurviewBlueprints).
+
 For information about how to avoid oversharing, see [Address oversharing concerns in Microsoft 365 Copilot deployment blueprint](microsoft-365-copilot-blueprint-oversharing.md).
 
 To learn more about Microsoft Purview protections for AI apps, see [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview).
 
-Also see [Microsoft 365 Copilot Tuning admin guide (preview)](copilot-tuning-admin-guide.md).
 
