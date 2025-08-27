@@ -109,6 +109,8 @@ Microsoft 365 Copilot adheres to the privacy and compliance standards described 
 - Cross-cloud governance for AI workloads
 - Policy integration and enforcement
 
+For more information, see [Enterprise data protection in Microsoft 365 Copilot and Microsoft 365 Copilot Chat](/copilot/microsoft-365/enterprise-data-protection).
+
 #### Data access enforcement
 
 Microsoft 365 Copilot respects [Microsoft Entra ID](/entra/fundamentals/what-is-entra) permissions and [Microsoft Purview policies](/purview/ai-m365-copilot). Microsoft 365 Copilot only surfaces organizational data to which individual users have at least view permissions. Policies are enforced by Microsoft Entra ID, Microsoft Purview, and [Microsoft Entra Conditional Access](/entra/identity/conditional-access/overview).
