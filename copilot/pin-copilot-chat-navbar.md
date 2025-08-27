@@ -51,6 +51,9 @@ To get to this setting, go to the [Copilot settings page](https://go.microsoft.c
 
 Copilot Chat is pinned by default to the navigation bar of the Microsoft 365 apps and the Microsoft 365 Copilot app for most users eligible for Copilot Chat across web, mobile, and desktop.
 
+> [!NOTE]
+> Copilot Chat is *not* pinned by default for users in the European Economic Area (EEA) and Switzerland.
+
 Admins can change the pinning settings for Copilot Chat by selecting one of the following options under Settings on the Copilot Control System page in the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
 - **Pin Copilot Chat in Microsoft 365 apps (recommended)**: Copilot Chat is automatically pinned for all users. Users aren't prompted.
