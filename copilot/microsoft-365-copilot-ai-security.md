@@ -5,7 +5,7 @@ ms.author: georgerozo
 author: denisebmsft
 manager: dansimp
 ms.reviewer: georgerozo
-ms.date: 08/26/2025
+ms.date: 08/27/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: article
@@ -36,7 +36,7 @@ Our comprehensive security posture for AI includes:
 
 Each aspect of this foundation forms a safer digital ecosystem for you to confidently adopt AI features and tools.
 
-In addition, Microsoft embeds its Responsible AI principle-based governance across the entire AI lifecycle to help ensure systems are developed and deployed ethically and securely. This strategy helps ensure AI behaves in ways that are trustworthy, responsible, and in alignment with user expectations. A core part of the Responsible AI program is designed to identify potential risks, measure their propensity to occur, and build mitigations to manage them, outlined in [Transparency note for Microsoft 365 Copilot: Mapping, measuring, and managing risks](/copilot/microsoft-365/microsoft-365-copilot-transparency-note#mapping-measuring-and-managing-risks).
+In addition, Microsoft embeds its Responsible AI principle-based governance across the entire AI lifecycle to help ensure that systems are developed and deployed ethically and securely. This strategy helps ensure AI behaves in ways that are trustworthy, responsible, and inclusive. A core part of the Responsible AI program is designed to identify potential risks, measure their propensity to occur, and build mitigations to manage them, outlined in [Transparency note for Microsoft 365 Copilot: Mapping, measuring, and managing risks](/copilot/microsoft-365/microsoft-365-copilot-transparency-note#mapping-measuring-and-managing-risks).
 
 ### Secure engineering and development practices
 
