@@ -52,7 +52,7 @@ Microsoft 365 Copilot enforces secure coding and architectural safeguards to pre
 
 ### Threat intelligence and risk mitigation
 
-Microsoft 365 Copilot is protected by a multi-layered defense strategy that combines global threat intelligence, AI-specific detection, and architectural containment. Microsoft uses global threat intelligence to monitor adversarial attacks, model manipulation, and data leakage.  
+Microsoft 365 Copilot is protected by a multi-layered defense strategy that combines threat intelligence, AI-specific detection, and architectural containment. Microsoft uses global threat intelligence to monitor adversarial attacks, model manipulation, and data leakage. To see the latest findings, visit the [Microsoft Security: Threat intelligence blog](https://www.microsoft.com/security/blog/topic/threat-intelligence/).
 
 Key practices include:
 
@@ -62,11 +62,13 @@ Key practices include:
 - Metaprompting
 - Content filtering to detect prompt injection attempts, including jailbreaks, eXternalized Prompt Injection Attacks (XPIAs), and agentic vulnerabilities
 
+To view reports, whitepapers, and other resources, visit the [Service Trust Portal](https://servicetrust.microsoft.com/).
+
 Microsoft 365 Copilot mitigates XPIA and agentic vulnerabilities through layered defenses, including markdown sanitization, malicious prompt classifiers, session hardening, and content security policies. These protections prevent unauthorized actions and data exfiltration across Microsoft 365 Copilot surfaces, and are deployed automatically through Microsoft's cloud infrastructure without customer action required. This methodology also includes continuous testing and containment strategies.
 
 #### Containment by design
 
-In the event of a successful injection attempt, Microsoft 365 Copilot's architecture helps ensure containment by design. Microsoft 365 Copilot operates within the user's identity and access context, limiting the blast radius of any potential compromise. 
+In the event of a successful injection attempt, [Microsoft 365 Copilot's architecture](/copilot/microsoft-365/microsoft-365-copilot-architecture) helps ensure containment by design. Microsoft 365 Copilot operates within the user's identity and access context, limiting the blast radius of any potential compromise. 
 
 - Microsoft 365 Copilot operates within the user's identity and tenant context
 - Microsoft 365 Copilot only accesses data the user is authorized to view
