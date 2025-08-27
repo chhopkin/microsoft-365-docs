@@ -82,6 +82,7 @@ Microsoft employs a multi-layered defense strategy across the Microsoft 365 Copi
 - Spam, scam, and suspicious content filtering help block malicious instructions, phishing attempts, and fraudulent material in prompts.
 - Microsoft 365 Copilot ignores junk email and untrusted Microsoft Teams chats, including chats from external contacts.
 - Microsoft 365 Copilot honors Bing web blocking to filter out adult, low-authority, and malicious sites during web search.
+- Microsoft 365 Copilot operates using a stateless LLM architecture. Requests are processed in real time using tenant-scoped [semantic indexing](/microsoftsearch/semantic-index-for-copilot) to help ensure data access and relevance are strictly limited to the user's organizational context.
 
 For more information about how Microsoft safeguards data, enforces privacy controls, and secures AI operations, see [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
 
