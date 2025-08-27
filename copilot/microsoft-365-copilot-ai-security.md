@@ -149,7 +149,7 @@ For more information, see the following resources:
 - [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview)
 - [Use Microsoft Purview to manage data security & compliance for Microsoft 365 Copilot & Microsoft 365 Copilot Chat](/purview/ai-m365-copilot)
 
-## What you can do to strengthen your organization's AI security
+## Secure your data for Microsoft 365 Copilot
 
 For information about how to avoid oversharing, see [Address oversharing concerns in Microsoft 365 Copilot deployment blueprint](microsoft-365-copilot-blueprint-oversharing.md).
 
