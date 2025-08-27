@@ -1,5 +1,5 @@
 ---
-title: AI security for Microsoft 365 Copilot
+title: Security for Microsoft 365 Copilot
 f1.keywords: NOCSH
 ms.author: georgerozo
 author: denisebmsft
@@ -20,7 +20,7 @@ appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# AI security for Microsoft 365 Copilot
+# Security for Microsoft 365 Copilot
 
 AI security is foundational to our approach at Microsoft; it safeguards customer data, supports system integrity, and includes user safety features. This commitment aligns with our [broader principles of privacy, compliance, and trust](https://www.microsoft.com/trust-center). 
 
