@@ -51,7 +51,3 @@ A big advantage of Researcher is that it can draw on far more than just your Off
 ## Methods of integrating with Connectors
 
 Given the power of connectors, organizations will want to integrate their important data sources so Researcher (and other Copilot features) can use them.
-
-## Agent-to-Agent Handover
-
-One of the most innovative features of Researcher is Agent-to-Agent handover, meaning Researcher can hand off parts of the task to other specialized Copilot agents and then integrate the results.
