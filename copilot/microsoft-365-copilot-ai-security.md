@@ -99,7 +99,7 @@ Microsoft 365 Copilot generated content is governed by the same access controls 
 
 ### Privacy and compliance by design
 
-Microsoft 365 Copilot adheres to enterprise-grade privacy and compliance standards, described in [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md). This section outlines some of those security-based approaches. 
+Microsoft 365 Copilot adheres to the privacy and compliance standards described in [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md). This section outlines some of those security-based approaches. 
 
 Protections that are enforced through security controls include:
 
