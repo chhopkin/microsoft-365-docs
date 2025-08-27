@@ -121,7 +121,7 @@ Microsoft 365 Copilot respects [Microsoft Entra ID](/entra/fundamentals/what-is-
 
 Data is encrypted in transit and at rest using FIPS 140-2–compliant technologies, with tenant-level isolation. [Double Key Encryption](/purview/double-key-encryption) (DKE) helps to ensure that Microsoft can't access protected content without the customer's key, and the content isn't accessible to Microsoft 365 Copilot.
 
-When you have data that's encrypted by Microsoft Purview Information Protection, Microsoft 365 Copilot honors the usage rights granted to the user. This encryption can be applied by [sensitivity labels](/purview/sensitivity-labels) or by restricted permissions in apps in Microsoft 365 by using Information Rights Management (IRM). 
+When you have data that's encrypted by Microsoft Purview Information Protection, Microsoft 365 Copilot honors the usage rights granted to the user. Encryption can be applied by [sensitivity labels](/purview/sensitivity-labels) or by restricted permissions in apps in Microsoft 365 by using Information Rights Management (IRM). 
 
 For more information about using Purview with Microsoft 365 Copilot, see [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview).
 
@@ -151,7 +151,7 @@ For more information, see the following resources:
 
 ## Secure your data for Microsoft 365 Copilot
 
-Securing your data is a [shared responsibility](/azure/security/fundamentals/shared-responsibility-ai). Microsoft Purview provides tools to help you secure your data for Microsoft 365 Copilot. For more information, see [Use Microsoft Purview to manage data security & compliance for Microsoft 365 Copilot & Microsoft 365 Copilot Chat](/purview/ai-m365-copilot).
+Securing your data is a [shared responsibility](/azure/security/fundamentals/shared-responsibility-ai). Microsoft Purview provides tools to help you monitor compliance and secure your data for Microsoft 365 Copilot. To learn more, see [Use Microsoft Purview to manage data security & compliance for Microsoft 365 Copilot & Microsoft 365 Copilot Chat](/purview/ai-m365-copilot).
 
 Get guidance for deploying security and compliance capabilities for Microsoft 365 Copilot. For information about how to avoid oversharing, see [Microsoft Purview deployment models](https://aka.ms/PurviewBlueprints).
 
