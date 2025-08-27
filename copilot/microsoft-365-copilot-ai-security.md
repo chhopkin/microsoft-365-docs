@@ -99,9 +99,7 @@ Microsoft 365 Copilot generated content is governed by the same access controls 
 
 ### Privacy and compliance by design
 
-Microsoft 365 Copilot adheres to the privacy and compliance standards described in [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md). This section outlines some of those security-based approaches. 
-
-Protections that are enforced through security controls include:
+Microsoft 365 Copilot adheres to the privacy and compliance standards described in [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md). Protections that are enforced through security controls include:
 
 - Data access enforcement
 - Encryption and isolation
@@ -115,7 +113,7 @@ Protections that are enforced through security controls include:
 
 Microsoft 365 Copilot respects [Microsoft Entra ID](/entra/fundamentals/what-is-entra) permissions and [Microsoft Purview policies](/purview/ai-m365-copilot). Microsoft 365 Copilot only surfaces organizational data to which individual users have at least view permissions. Policies are enforced by Microsoft Entra ID, Microsoft Purview, and [Microsoft Entra Conditional Access](/entra/identity/conditional-access/overview).
 
-[Microsoft 365 Copilot connectors](/microsoft-365-copilot/extensibility/overview-copilot-connector) enhance the value of Microsoft 365 Copilot while maintaining protections.
+[Microsoft 365 Copilot connectors](/microsoft-365-copilot/extensibility/overview-copilot-connector) enhance the value of Microsoft 365 Copilot while maintaining enterprise protections.
 
 #### Encryption and isolation
 
@@ -127,7 +125,7 @@ For more information about using Purview with Microsoft 365 Copilot, see [Micros
 
 #### Cross-cloud governance for AI workloads
 
-[Microsoft Purview](/purview/ai-microsoft-purview) and [Security Copilot](/copilot/security/microsoft-security-copilot) help organizations govern AI across hybrid and multicloud environments like Azure, AWS, and Google Cloud.
+[Microsoft Purview](/purview/ai-microsoft-purview) and [Microsoft Security Copilot](/copilot/security/microsoft-security-copilot) help organizations govern AI across hybrid and multicloud environments like Azure, AWS, and Google Cloud.
 
 - Purview enables consistent data classification, labeling, and policy enforcement across clouds, with visibility into how data flows into AI models and plugins.
 - Security Copilot detects AI-related risks across platforms, correlates threats, and surfaces posture insights from [Cloud security posture management](/azure/defender-for-cloud/concept-cloud-security-posture-management).
