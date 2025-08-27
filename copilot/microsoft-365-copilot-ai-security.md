@@ -151,7 +151,7 @@ For more information, see the following resources:
 
 ## Secure your data for Microsoft 365 Copilot
 
-Securing your data is a [shared responsibility](/azure/security/fundamentals/shared-responsibility-ai). Microsoft Purview provides tools to help you secure your data for Microsoft 365 Copilot.
+Securing your data is a [shared responsibility](/azure/security/fundamentals/shared-responsibility-ai). Microsoft Purview provides tools to help you secure your data for Microsoft 365 Copilot. For more information, see [Use Microsoft Purview to manage data security & compliance for Microsoft 365 Copilot & Microsoft 365 Copilot Chat](/purview/ai-m365-copilot).
 
 For information about how to avoid oversharing, see [Address oversharing concerns in Microsoft 365 Copilot deployment blueprint](microsoft-365-copilot-blueprint-oversharing.md).
 
