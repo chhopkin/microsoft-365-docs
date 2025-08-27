@@ -113,7 +113,7 @@ For more information, see [Enterprise data protection in Microsoft 365 Copilot a
 
 #### Data access enforcement
 
-Microsoft 365 Copilot respects [Microsoft Entra ID](/entra/fundamentals/what-is-entra) permissions and [Microsoft Purview policies](/purview/ai-m365-copilot). Microsoft 365 Copilot only surfaces organizational data to which individual users have at least view permissions. Policies are enforced by Microsoft Entra ID, Microsoft Purview, and [Microsoft Entra Conditional Access](/entra/identity/conditional-access/overview).
+Microsoft 365 Copilot respects [Microsoft Entra ID](/entra/fundamentals/what-is-entra) permissions and [Microsoft Purview policies](/purview/ai-m365-copilot). Microsoft 365 Copilot only surfaces organizational data to which individual users have at least view permissions. Policies are enforced by Microsoft Entra ID, Microsoft Purview, and [Conditional Access](/entra/identity/conditional-access/overview).
 
 [Microsoft 365 Copilot connectors](/microsoft-365-copilot/extensibility/overview-copilot-connector) enhance the value of Microsoft 365 Copilot while maintaining enterprise protections.
 
