@@ -140,7 +140,7 @@ Microsoft 365 Copilot is part of Microsoft's enterprise compliance program and b
 - ISO/IEC 27001, 27701, 22301, 27018, and 42001
 
 Microsoft Entra ID, Microsoft Purview, and Microsoft 365 for business enforce Conditional Access, sensitivity labels, and information barriers. 
- 
+
 For more information, see the following resources:
 
 - [Meeting regulatory compliance requirements](microsoft-365-copilot-privacy.md#meeting-regulatory-compliance-requirements)
