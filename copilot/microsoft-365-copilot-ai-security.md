@@ -156,5 +156,3 @@ Securing your data is a [shared responsibility](/azure/security/fundamentals/sha
 Get guidance for deploying security and compliance capabilities for Microsoft 365 Copilot. For information about how to avoid oversharing, see [Microsoft Purview deployment models](https://aka.ms/PurviewBlueprints).
 
 To learn more about Microsoft Purview protections for AI apps, see [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview).
-
-
