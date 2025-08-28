@@ -21,28 +21,36 @@ description: "Microsoft 365 Network Insights"
 
 # Microsoft 365 Network Insights
 
-Network insights are actionable issues that might affect user experience when using Microsoft 365 apps, we detect insights based on network optics received from Microsoft 365 apps for your tenant users. Insights are available to view only by administrative users in your tenant. Insights can be viewed from [Network Connectivity](https://admin.cloud.microsoft/#/networkperformance) in Microsoft 365 Admin Center. 
+Network insights are actionable issues that might affect user experience, performance or interoperability when using Microsoft 365 apps, we detect insights based on network optics received from Microsoft 365 apps for your tenant users. Insights are available to view only by administrative users in your tenant. Insights can be viewed from [Network Connectivity](https://admin.cloud.microsoft/#/networkperformance) in Microsoft 365 Admin Center. 
 
-Insights are intended to help address issues at your network perimeters for your office locations. Each insight provides live details about a specific issue for each geographic location where users are accessing your tenant.
+The insights are designed to help identify and resolve network infrastructure issues that are managed either by your organization or your network provider. This infrastructure includes the systems your tenant users rely on to connect to Microsoft 365 services from various office locations. Each insight highlights a specific connectivity issue tied to the geographic location from which users are accessing Microsoft 365.
 
 > [!TIP]
 > Admins can now view Service health notifications in Microsoft 365 admin center for Network insights detected for their tenant. You may also receive an email if you opted to receive email notifications. The service health notification has a deep link that takes you directly to the detected network insight for your tenant. You receive one notification per insight detected. 
 
-The following are network insights that might be shown for each office location:
+The following are the network insights that might be shown for each office location:
+
+
+| Header 1 | Header 2 | Header 3 | Header 4 |
+| -------- | -------- | -------- | -------- |
+| Cell 1   | Cell 2   | Cell 3   | Cell 4   |
+| Cell 5   | Cell 6   | Cell 7   | Cell 8   |
 
 #### 1. Your connectivity to critical Microsoft 365 domains is failing
 
 We are detecting connectivity (HTTPS) failures to the following domains: `*.cloud.microsoft`, `*.static.microsoft`, `*.usercontent.microsoft`.
 
-- 1a What does this insight mean?
+```
+  What does this insight mean?
 
   Some or all your users can't connect to subdomains or hosts within the above-mentioned wild card domains.
-  
-- 1b What should I do?
 
-  Check your network perimeter devices or proxy to ensure HTTPS connectivity is allowed to hosts in the wildcard domains `*.cloud.microsoft`, `*.static.microsoft`, `*.usercontent.microsoft` or any of their subdomains. 
-  
-#### 2. WebSocket connection to critical Microsoft 365 domains is failing
+  What should I do?
+
+ Check your network perimeter devices or proxy to ensure HTTPS connectivity is allowed to hosts in the wildcard domains `*.cloud.microsoft`, `*.static.microsoft`,    
+
+  `*.usercontent.microsoft` or any of their subdomains. 
+```#### 2. WebSocket connection to critical Microsoft 365 domains is failing
 
 We are detecting WebSocket (WSS) connection failures to the domain: `*.cloud.microsoft`, which his cause Copilot to not work correctly for your users.
 
