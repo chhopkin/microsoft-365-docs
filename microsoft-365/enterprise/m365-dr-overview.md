@@ -40,10 +40,10 @@ In order to promote clarity in the capability descriptions on data residency fun
 |European Union (EU) |An international organization comprising 27 European countries. These countries are **Austria**, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, **Finland**, **France**, **Germany**, Greece, Hungary, **Ireland**, **Italy**, Latvia, Lithuania, Luxembourg, Malta, **Netherlands**, **Poland**, Portugal, Romania, Slovakia, Slovenia, **Spain**, and **Sweden**. <br/> <br/> **Note:** Microsoft 365 currently has data centers in the **bold** _European Union_ countries. |
 |European Union/EFTA |Data that is stored within the _European Union (EU)_ and/or the _European Free Trade Association (EFTA)_. |
 |European Union Data Boundary (EUDB) |_European Union Data Boundary_ commitment. For more information, please see [Microsoft EU Data Boundary Overview - Microsoft Trust Center](https://www.microsoft.com/trust-center/privacy/european-data-boundary-eudb). |
-|Future Local Region Geography |Future planned data center regions: Austria, Denmark, Greece, Kuwait, Saudi Arabia, Thailand |
+|Future Local Region Geography |Future planned data center regions: Denmark, Greece, Kuwait, Saudi Arabia, Thailand |
 |Geography |_Local Region Geography, Future Local Region Geography_, or _Macro Region Geography_ |
 |Legacy Move Program |This program, which is no longer active, was offered to _Tenants_ who had a valid _Default Geography_ which allowed the _Tenant_ to migrate existing data at rest into a _Local Region Geography_. |
-|Local Region Geography |Australia, Brazil, Canada, Chile, France, Germany, India, Indonesia, Israel, Italy, Japan, Malaysia, Mexico, New Zealand, Norway, Poland, Qatar, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, United Arab Emirates, United Kingdom |
+|Local Region Geography |Australia, Austria, Brazil, Canada, Chile, France, Germany, India, Indonesia, Israel, Italy, Japan, Malaysia, Mexico, New Zealand, Norway, Poland, Qatar, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, United Arab Emirates, United Kingdom |
 |Macro Region Geography |Macro Region Geography 1 – Europe, Macro Region Geography 2 – Asia Pacific, Macro Region Geography 3 – Americas, Macro Region Geography 4 – European Union/EFTA |
 |Macro Region Geography 1 – Europe |Data centers in Austria, Finland, France, Germany, Ireland, Italy, Netherlands, Poland, Spain, Sweden <br/> <br/> **Note:** For _Tenants_ with a _Default Geography_ of Israel, data can be stored in Macro Region Geography 1 – Europe or additional data centers located in their _Default Geography_ (i.e., Israel). <br/> <br/> **Note:** This term is referenced as “Europe” on the _Data Location Card_. |
 |Macro Region Geography 2 – Asia Pacific |Data centers in Australia, Hong Kong Special Administrative Region, Indonesia, Japan, Malaysia, New Zealand, Singapore, South Korea <br/> <br/> **Note:** For _Tenants_ with a _Default Geography_ of Taiwan, data can be stored in _Macro Region Geography 2 – Asia Pacific_ or additional data centers located in their _Default Geography_ (i.e., Taiwan). |
@@ -140,6 +140,7 @@ There are three methods for ensuring that the _Tenant_ data location for a parti
 | Country/Region  | Exchange Online | SharePoint, OneDrive | Teams | Microsoft 365 Copilot | MDO P1 | Office for the web | Viva Connections | Purview |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Australia | P-M-A | P-M-A | P-M-A | P-M-A | A | A | A | A |
+| Austria | M-A | M-A | M-A | M-A | A | A | A | A |
 | Brazil | P-M-A | P-M-A | P-M-A | P-M-A | A | A | A | A |
 | Canada | P-M-A | P-M-A | P-M-A | P-M-A | A | A | A | A |
 | Chile | M-A | M-A | M-A | M-A | A | A | A | A |
@@ -182,6 +183,7 @@ The following table displays the various _Geographies_ and the corresponding dat
 |Americas  |Brazil (Campinas, Rio), Canada (Quebec City, Toronto), Chile (Santiago), Mexico (Queretaro), United States (Boydton, Cheyenne, Chicago, Des Moines, Quincy, San Antonio, Santa Clara, San Jose)  |
 |Asia Pacific  |Australia (Sydney, Melbourne), India (Chennai, Mumbai, Pune), Japan (Osaka, Tokyo), South Korea (Busan, Seoul), New Zealand (Auckland), Taiwan (Taipei)  |
 |Australia  |Melbourne, Sydney  |
+|Austria  |Vienna  |
 |Brazil  |Campinas, Rio  |
 |Canada   |Quebec City, Toronto  |
 |Chile   |Santiago  |
