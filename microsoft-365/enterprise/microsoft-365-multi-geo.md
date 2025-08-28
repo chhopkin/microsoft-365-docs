@@ -30,7 +30,7 @@ Microsoft 365 Multi-Geo is designed to meet your data residency requirements whi
 If a customer requires performance optimization functionalities for Microsoft 365, see [Network planning and performance tuning for Microsoft 365](network-planning-and-performance.md) or contact your support group.
 
 > [!NOTE]
-> Exchange Online, SharePoint, OneDrive, and Microsoft Teams are available for Multi-Geo configuration. For more information about data residency commitments, see [Exchange Online](m365-dr-workload-exo.md), [SharePoint and OneDrive](m365-dr-workload-spo.md), and [Microsoft Teams](m365-dr-workload-teams.md#data-residency-commitments-available) for more details.
+> Exchange Online, SharePoint, OneDrive, Microsoft Teams, and Microsoft 365 Copilot and Microsoft 365 Copilot Chat are available for Multi-Geo configuration. For more information about data residency commitments, see [Exchange Online](m365-dr-workload-exo.md), [SharePoint and OneDrive](m365-dr-workload-spo.md), [Microsoft Teams](m365-dr-workload-teams.md#data-residency-commitments-available), and [Microsoft 365 Copilot and Microsoft 365 Copilot Chat](m365-dr-workload-copilot) for more details.
 
 For a video introduction to Microsoft 365 Multi-Geo, see [SharePoint and OneDrive Multi-Geo to control where your data resides](https://www.youtube.com/watch?v=Do9U3JuROhk).
 
