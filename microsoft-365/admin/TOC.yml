@@ -296,6 +296,8 @@ items:
               href: activity-reports/microsoft-365-copilot-usage.md
             - name: Microsoft 365 Copilot Chat usage
               href: activity-reports/microsoft-copilot-usage.md
+            - name: Microsoft 365 Copilot Search usage
+              href: activity-reports/microsoft-365-copilot-search-usage.md
             - name: Agent usage
               href: activity-reports/microsoft-365-copilot-agents-new.md           
             - name: Microsoft 365 Copilot credits
