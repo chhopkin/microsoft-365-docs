@@ -155,4 +155,4 @@ Securing your data is a [shared responsibility](/azure/security/fundamentals/sha
 
 High-level deployment guidance is available to help you deploy a secure-by-default configuration, address oversharing concerns, and prevent data leak to shadow AI. See [Microsoft Purview deployment models](https://aka.ms/PurviewBlueprints).
 
-To learn more about Microsoft Purview protections for AI apps, see [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview).
+You can use Microsoft Purview to mitigate and manage the risks associated with AI usage. See [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview).
