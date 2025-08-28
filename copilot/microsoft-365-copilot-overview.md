@@ -7,7 +7,7 @@ ms.author: efrene
 author: Efrene
 ms.update-cycle: 180-days
 manager: dansimp
-ms.date: 08/18/2025
+ms.date: 08/27/2025
 audience: Admin
 ms.reviewer: mandia
 ms.topic: overview
@@ -34,7 +34,10 @@ appliesto:
 >
 > GPT-5 is not yet available in [Microsoft 365 Copilot GCC](https://adoption.microsoft.com/en-us/copilot/gcc/).
 > 
-> For more information, see the [Microsoft 365 Blog: Available today: GPT-5 in Microsoft 365 Copilot](https://www.microsoft.com/en-us/microsoft-365/blog/2025/08/07/available-today-gpt-5-in-microsoft-365-copilot/).
+> For more information, see the following articles:
+>
+> - [Microsoft 365 Blog: Available today -- GPT-5 in Microsoft 365 Copilot](https://www.microsoft.com/en-us/microsoft-365/blog/2025/08/07/available-today-gpt-5-in-microsoft-365-copilot/)
+> - [Understanding foundation model changes in Microsoft 365 Copilot](https://techcommunity.microsoft.com/blog/microsoft_365blog/understanding-foundation-model-changes-in-microsoft-365-copilot/4440322)
 
 **Microsoft 365 Copilot is an AI-powered tool that helps with your work tasks**.
 

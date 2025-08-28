@@ -41,7 +41,8 @@ As a Compliance Manager or IT administrator, it's crucial to stay up-to-date on 
 
 - **Intune** [Device Management Support](/mem/intune/remote-actions/device-management) exists for Microsoft 365 app, Teams app, and Loop app, on iOS and Android.
 
-- **[Conditional Access](/sharepoint/control-access-from-unmanaged-devices)** is supported.
+    > [!IMPORTANT]
+    > **[Conditional Access](/sharepoint/control-access-from-unmanaged-devices)** only applies to an entire app. Because Copilot Pages and Copilot Notebooks are features of the Microsoft 365 Copilot app, conditional access cannot be used on just those features, it would need to apply to the entire app at m365.cloud.microsoft. Administrators can still block the creation of new Copilot Pages and Copilot Notebooks using the **[Admin Toggle](cpcn-admin-configuration.md)**.
 
     > [!IMPORTANT]
     > **[Information Barriers](/purview/information-barriers-sharepoint)** are not supported. See [admin settings](cpcn-admin-configuration.md) to configure these integrations.
