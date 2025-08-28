@@ -102,7 +102,7 @@ To add Microsoft 365 Copilot to your Microsoft 365 subscription, you need one of
   - Visio Plan 2
 
 - **Other plans:**
-  - Microsoft ClipChamp
+  - Microsoft Clipchamp
 
 ### Education Faculty and Higher Education Students Aged 18+ licenses
 
