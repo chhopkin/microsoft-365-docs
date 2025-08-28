@@ -40,17 +40,13 @@ The following are the network insights that might be shown for each office locat
 
 We are detecting connectivity (HTTPS) failures to the following domains: `*.cloud.microsoft`, `*.static.microsoft`, `*.usercontent.microsoft`.
 
-```
-  What does this insight mean?
+What does this insight mean?
+Some or all your users can't connect to subdomains or hosts within the above-mentioned wild card domains.
 
-  Some or all your users can't connect to subdomains or hosts within the above-mentioned wild card domains.
+What should I do?
+Check your network perimeter devices or proxy to ensure HTTPS connectivity is allowed to hosts in the wildcard domains `*.cloud.microsoft`, `*.static.microsoft`, `*.usercontent.microsoft` or any of their subdomains. 
 
-  What should I do?
-
- Check your network perimeter devices or proxy to ensure HTTPS connectivity is allowed to hosts in the wildcard domains `*.cloud.microsoft`, `*.static.microsoft`,    
-
-  `*.usercontent.microsoft` or any of their subdomains. 
-```#### 2. WebSocket connection to critical Microsoft 365 domains is failing
+#### 2. WebSocket connection to critical Microsoft 365 domains is failing
 
 We are detecting WebSocket (WSS) connection failures to the domain: `*.cloud.microsoft`, which his cause Copilot to not work correctly for your users.
 
