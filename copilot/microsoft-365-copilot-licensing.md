@@ -120,12 +120,12 @@ The following plans are only available using [Enrollment for Education Solutions
 
 ## Microsoft 365 Copilot Chat
 
-[Copilot Chat](/copilot/overview) is an AI prompt and response experience that's automatically included and available to organizations that have a Microsoft 365 subscription. There are two Copilot Chat options available: web-based chat and work-based chat.
+[Copilot Chat](/copilot/overview) is an AI prompt and response experience that's automatically included and available to organizations that have an [eligible Microsoft 365 subscription](/copilot/manage#microsoft-365--chat-eligibility). There are two Copilot Chat options available: web-based chat and work-based chat.
 
 - Web-based chat:
 
   - Shows results from the internet.
-  - Automatically included in your Microsoft 365 subscription with no extra cost.
+  - Automatically included with an [eligible Microsoft 365 subscription](/copilot/manage#microsoft-365--chat-eligibility) with no extra cost.
 
 - Work-based chat:
 
