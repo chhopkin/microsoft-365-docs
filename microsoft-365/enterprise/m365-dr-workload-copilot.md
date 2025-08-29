@@ -33,7 +33,7 @@ The following applications provide the ability to interact with Microsoft 365 Co
 
 The content of interactions and the related semantic index with Microsoft 365 Copilot are stored at rest in the relevant _Local Region Geography_.
 
-[Microsoft 365 Copilot Chat](.../copilot/overview) (formerly Microsoft Copilot for Entra account users) offers secure, AI chat that adds pay-as-you-go agents.
+[Microsoft 365 Copilot Chat](/copilot/overview) (formerly Microsoft Copilot for Entra account users) offers secure, AI chat that adds pay-as-you-go agents.
 
 ## Data Residency Commitments Available for Microsoft 365 Copilot and Copilot Chat
 
