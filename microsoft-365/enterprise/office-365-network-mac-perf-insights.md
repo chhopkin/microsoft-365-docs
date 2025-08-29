@@ -82,9 +82,9 @@ These are the **public IP addresses** from which Microsoft 365 sees your network
 ---
 
 ### 6. What does Microsoft test for in connectivity checks?
-Microsoft tests:
-- **TCP 443 and HTTPS** connectivity to key domains
-- **WebSocket protocol** readiness (required for Microsoft Copilot)
+We test for the following:
+- **TCP 443 and HTTPS** connectivity to key Microsoft 365 domains
+- **WebSocket protocol** connectivity (required for Microsoft Copilot)
 - **The use of non-Microsoft 365-issued certificates on connections to Microsoft 365 services** which may indicate TLS interception, decryption, inspection, and potential alteration of data traffic between clients and Microsoft 365 services within your tenant environment.
 
 Based on these test results, issues are flagged as network Insights along with Service Health notifications.
