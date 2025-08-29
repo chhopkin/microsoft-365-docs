@@ -21,7 +21,7 @@ description: "Microsoft 365 Network Insights"
 
 # Microsoft 365 Network Insights
 
-Network insights are actionable issues that might affect user experience, performance or interoperability when using Microsoft 365 apps, we detect insights based on network optics received from Microsoft 365 apps for your tenant users. Insights are available to view only by administrative users in your tenant. Insights can be viewed from [Network Connectivity](https://admin.cloud.microsoft/#/networkperformance) in Microsoft 365 Admin Center. 
+Network insights are actionable issues that might affect user experience, performance or interoperability when using Microsoft 365 services, we detect insights based on network optics received from Microsoft 365 apps for your tenant users. Insights are available to view only by administrative users in your tenant. Insights can be viewed from [Network Connectivity](https://admin.cloud.microsoft/#/networkperformance) in Microsoft 365 Admin Center. 
 
 The insights are designed to help identify and resolve network infrastructure issues that are managed either by your organization or your network provider. This infrastructure includes the systems your tenant users rely on to connect to Microsoft 365 services from various office locations. Each insight highlights a specific connectivity issue tied to the geographic location from which users are accessing Microsoft 365.
 
