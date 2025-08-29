@@ -63,7 +63,7 @@ Some properties are shown by default on profile cards when data is available. Ad
 
 Admins can choose to show or hide certain properties on the profile cards. They're hidden by default, but admins can configure their visibility by navigating to **Settings > Org settings > People settings > Profile card > Contact info** in the Microsoft 365 admin center.
 
-When enabled, these properties appear in the **Contact** tab of the profile cards in [Microsoft 365 Copilot app](https://www.microsoft365.com/?omkt=en-US). They're visible to users viewing their own profile and when viewing the profiles of others.
+When enabled, these properties appear in the **Contact** tab of the profile cards in [Microsoft 365 Copilot app](https://www.microsoft365.com/?omkt=en-US) and [People Companion app](https://support.microsoft.com/en-us/office/get-started-with-microsoft-365-companions-a27df74a-cc41-4e74-8216-51091dc30194). They're visible to users viewing their own profile and when viewing the profiles of others.
 
 - Division
 
