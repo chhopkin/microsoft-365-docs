@@ -565,7 +565,7 @@ jobs:
             function Write-ServiceAreaHeader {
                 param($saName, $path, $file)
 
-                    If ($saName -ne "") {
+                    If (($saName -ne "") -and ($saName -ne $Null)) {
 
                         Write-Host "Write service header for $saName"
 
@@ -909,6 +909,7 @@ jobs:
           with:
             name: RunData
             path: "${{ github.workspace }}/run-data/endpoints*"
+
 
 
 

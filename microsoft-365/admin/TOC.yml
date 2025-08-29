@@ -298,6 +298,8 @@ items:
               href: activity-reports/microsoft-copilot-usage.md
             - name: Microsoft 365 Copilot Search usage
               href: activity-reports/microsoft-365-copilot-search-usage.md
+            - name: Agent usage
+              href: activity-reports/microsoft-365-copilot-agents-new.md           
             - name: Message consumption
               href: activity-reports/message-consumption.md              
             - name: Dynamics 365 Customer Voice activity
