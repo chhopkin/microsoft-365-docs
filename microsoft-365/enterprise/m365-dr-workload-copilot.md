@@ -1,6 +1,6 @@
 ---
-title: Data Residency for Microsoft 365 Copilot
-description: Learn about data residency for Microsoft 365 Copilot.
+title: Data Residency for Microsoft 365 Copilot and Copilot Chat
+description: Learn about data residency for Microsoft 365 Copilot and Copilot Chat.
 ms.author: v-fahasen
 author: fhasen-msft
 manager: v-nihmi
@@ -22,7 +22,7 @@ ms.collection:
 - magic-ai-copilot
 ---
 
-# Data Residency for Microsoft 365 Copilot
+# Data Residency for Microsoft 365 Copilot and Copilot Chat
 
 ## Overview
 
@@ -33,7 +33,9 @@ The following applications provide the ability to interact with Microsoft 365 Co
 
 The content of interactions and the related semantic index with Microsoft 365 Copilot are stored at rest in the relevant _Local Region Geography_.
 
-## Data Residency Commitments Available for Microsoft 365 Copilot
+[Microsoft 365 Copilot Chat](.../copilot/overview) (formerly Microsoft Copilot for Entra account users) offers secure, AI chat that adds pay-as-you-go agents.
+
+## Data Residency Commitments Available for Microsoft 365 Copilot and Copilot Chat
 
 ### Product Terms
 
@@ -59,9 +61,9 @@ Required Conditions:
 
 **Commitment:**
 
-Refer to the [ADR Commitment page](m365-dr-commitments.md#microsoft-365-copilot) to understand the specific data at rest commitments for Microsoft 365 Copilot. Examples of the committed data include:
+Refer to the [ADR Commitment page](m365-dr-commitments.md#microsoft-365-copilot-and-microsoft-365-copilot-chat) to understand the specific data at rest commitments for Microsoft 365 Copilot. Examples of the committed data include:
 
-- "Content of Interactions" such as the user's prompt and Microsoft Copilot's response, including citations to any information used to ground Microsoft Copilot's response.
+- "Content of Interactions" such as the user's prompt and the response from Microsoft 365 Copilot or Microsoft 365 Copilot Chat, including citations to any information used to ground Microsoft 365 Copilot's response.
 
 ### Multi-Geo add-on
 
