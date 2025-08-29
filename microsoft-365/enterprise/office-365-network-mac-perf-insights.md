@@ -30,20 +30,20 @@ The insights are designed to help identify and resolve network infrastructure is
 
 The following are the network insights that might be shown for each office location:
 
-| No. | Network Insight                                                                                             | Description                                                                                                                                                                                                            | Impact                                                                                                                                                                                                             | Protocol  | Scope of impacted services or scenarios                                                | What action should I take?                                                                                                                                                                                                        |
+|     | Network Insight                                                                                             | Description                                                                                                                                                                                                            | Impact                                                                                                                                                                                                             | Protocol  | Scope of impacted services or scenarios                                                | What action should I take?                                                                                                                                                                                                        |
 | --- | ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | Your connectivity to critical Microsoft 365 domains is failing                                              | We are detecting connectivity (HTTPS) failures to the following domains: `*.cloud.microsoft`, `*.static.microsoft`, `*.usercontent.microsoft`.                                                                         | Some or all users are unable to connect using HTTPS to subdomains or hosts within the specified wildcard domains due to network issues in infrastructure managed by your organization or your network provider.    | HTTPS     | All or any service part of Microsoft 365                                               | Check your network devices or web proxy infrastructure to ensure HTTPS connectivity is allowed to hosts in the wildcard domains `*.cloud.microsoft`, `*.static.microsoft`, `*.usercontent.microsoft` or any of their subdomains.  |
 | 2   | WebSocket connection to critical Microsoft 365 domains is failing                                           | We are detecting WebSocket (WSS) connection failures to the domain: `*.cloud.microsoft`, which his cause Copilot to not work correctly for your users.                                                                 | Some or all users are unable to connect using WebSocket to subdomains or hosts within the specified wildcard domain due to network issues in infrastructure managed by your organization or your network provider. | WebSocket | All or any Microsoft 365 Copilot scenario, Real-time collaboration using Office apps.  | Check your network devices or web proxy infrastructure to ensure WebSocket protocol is allowed for connections to hosts in the wildcard domain `*.cloud.microsoft` or its subdomains.                                             |
 | 3   | User connections to Microsoft 365 domains are being TLS intercepted and decrypted by a network intermediary | We detected the use of non-Microsoft 365 issued certificates for connections to Microsoft 365 services, indicating decryption and potential alteration of data connections between clients and Microsoft 365 services. | Some or all users maybe experiencing TLS break and inspect for connections to Microsoft 365 domains or hosts due to network configuration in infrastructure managed by your organization or your network provider. | HTTPS     | All or any service part of Microsoft 365                                               | We recommend working with your network team or solution provider to update network configurations and ensure that traffic to Microsoft 365 domains is exempt from TLS interception and decryption at the network layer.           |
 
-## 🌐 FAQ: Microsoft 365 Unified domains and Network Connectivity
+## 🌐 FAQ: Microsoft 365 Unified domains and Network Connectivity Insights
 
 ### 1. What is the unified domains for Microsoft 365 apps and services?
 Microsoft announced the transition to a unified domain—**`cloud.microsoft`**—for Microsoft 365 apps and services over two years ago. This change simplifies domain management and improves connectivity across Microsoft 365.
 
 - Learn more:  
-https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain-overview  
-https://techcommunity.microsoft.com/t5/microsoft-365-blog/introducing-cloud-microsoft-a-unified-domain-for-microsoft-365/ba-p/3826287
+[https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain-overview](https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain-overview)  
+[https://techcommunity.microsoft.com/t5/microsoft-365-blog/introducing-cloud-microsoft-a-unified-domain-for-microsoft-365/ba-p/3826287](https://techcommunity.microsoft.com/t5/microsoft-365-blog/introducing-cloud-microsoft-a-unified-domain-for-microsoft-365/ba-p/3826287)
 
 ---
 
@@ -57,26 +57,27 @@ Blocking connectivity to unified domains such as:
 
 ---
 
-### 3. What does the location “Singapore” mean in the connectivity report?
+### 3. What does the term "location" mean in the Connectivity report or network Insight?
 The location label (e.g., “Singapore”) typically refers to either:
 - The **office location** of the user, or
-- The **network egress point** (i.e., where traffic exits your network to reach Microsoft services)
+- The **network egress point** (i.e., where traffic exits your network onto Internet to reach Microsoft services)
 
-This helps identify where connectivity issues are occurring.
+This information helps identify where connectivity issues are occurring.
 
 ---
 
 ### 4. Where can I find more details about network connectivity issues?
-Visit the **Network Connectivity page in the Microsoft 365 Admin Center**. It provides:
+Visit the **[Network Connectivity page in the Microsoft 365 Admin Center](https://admin.cloud.microsoft/#/networkperformance)**. It provides:
+- List of office locations discovered for your tenant users
 - Egress IP address ranges per office location
-- Insights into where connection blocks were detected
+- network Insights detected per location
 
 ---
 
 ### 5. What is meant by “egress IP address ranges”?
 These are the **public IP addresses** from which Microsoft 365 sees your network traffic. They help you understand:
 - How connections are NATed (Network Address Translated)
-- The path your traffic takes to reach Microsoft services
+- The path your traffic takes to reach Microsoft 365 services
 
 ---
 
@@ -84,16 +85,22 @@ These are the **public IP addresses** from which Microsoft 365 sees your network
 Microsoft tests:
 - **TCP 443 and HTTPS** connectivity to key domains
 - **WebSocket protocol** readiness (required for Microsoft Copilot)
+- **The use of non-Microsoft 365-issued certificates on connections to Microsoft 365 services** which may indicate TLS interception, decryption, inspection, and potential alteration of data traffic between clients and Microsoft 365 services within your tenant environment.
 
-If these tests fail, issues are flagged in the Service Health Dashboard (SHD).
+Based on these test results, issues are flagged as network Insights along with Service Health notifications.
 
 ---
 
 ### 7. Does Microsoft’s connectivity insight include user or device context?
-No. The insights are **network-focused only**. They do not include:
+No. The insights are **network-focused only**. Our network tests do not collect or include:
 - User identities
 - Device details
 - Licensing information
+
+---
+
+### 8. Does Microsoft’s connectivity insight apply only to licensed users? For example, does Microsoft test for WebSocket connection only for licensed Copilot users?
+No. Our network tests apply to all users irrespective of their licensing status for Microsoft 365 services. 
 
 ---
 
