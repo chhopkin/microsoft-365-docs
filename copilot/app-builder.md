@@ -70,6 +70,8 @@ With App Builder, create interactive, secure apps using natural language—no co
 
 **How it works**
 
+1. Sign in to [M365 Copilot](https://www.microsoft365.com/)
+1. In the left naviagtion pane, under **Agents**, select **App Builder**.
 1. Enter your prompt in the text box. For example:
    
     ```copilot-prompt
@@ -125,15 +127,15 @@ When you delete an app, everyone you shared it with immediately loses access, an
 
 App Builder is in the Agent store and is labeled with **(Frontier)**. If you have a Microsoft 365 Copilot license, follow these steps to find App Builder:
 
- 1. Open Microsoft 365 Copilot Chat on the web. 
- 1. Select **All Agents**. 
+ 1. Sign in to [M365 Copilot](https://www.microsoft365.com/)
+ 1. In the left navigation pane, Select **Chat** >  **All Agents**. 
  1. Go to one of these categories in the store: **Built by Microsoft**, **Agents**, or **Productivity**. 
  
 There aren't any usage limits for end users, but this might change as the feature evolves. 
 
 App Builder's availability is controlled by your organization's Microsoft 365 app store settings, which follow your company's policies and permissions. Follow these steps to check or update these settings: 
 
-1. Go to the Microsoft 365 admin center. 
+1. sign in to the [Microsoft 365 admin center](https://admin.microsoft.com).
 1. If Copilot agents are set to **No Users**, change this to **All Users** or **Specific Users** to let users access App Builder.
 
 By default, agents are available for users to install, but you might experience throttling during periods of heavy usage. Manage App Builder with the same controls as other Microsoft 365 apps in the admin center. For more information on managing Copilot agents, see [Manage agents for Microsoft 365 Copilot in Integrated Apps](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
