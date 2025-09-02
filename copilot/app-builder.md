@@ -136,7 +136,9 @@ There aren't any usage limits for end users, but this might change as the featur
 
 App Builder's availability is controlled by your organization's Microsoft 365 app store settings, which follow your company's policies and permissions. Follow these steps to check or update these settings: 
 
-1. sign in to the [Microsoft 365 admin center](https://admin.microsoft.com).
-1. If Copilot agents are set to **No Users**, change this to **All Users** or **Specific Users** to let users access App Builder.
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com).
+1. In the left navigation pane, select **Copilot** > **Settings**. 
+1. Select **Agents**
+1. If Copilot agents are set to **No Users**, change this setting to **All Users** or **Specific users/groups** to let users access App Builder.
 
 By default, agents are available for users to install, but you might experience throttling during periods of heavy usage. Manage App Builder with the same controls as other Microsoft 365 apps in the admin center. For more information on managing Copilot agents, see [Manage agents for Microsoft 365 Copilot](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
