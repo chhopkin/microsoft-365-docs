@@ -98,7 +98,8 @@ Play an app you create with App Builder by following these steps:
 
 **For app makers**:
 
-Open App Builder and find your app in the app list. Select the **Play** button next to the app to launch it. If you’re editing an app, play it directly from the editing screen to see how it works in real time.
+1. Open App Builder and find your app in the app list. 
+1. Select the **Play** button next to the app to launch it. If you’re editing an app, play it directly from the editing screen to see how it works in real time.
 
 **For shared users**:
 
