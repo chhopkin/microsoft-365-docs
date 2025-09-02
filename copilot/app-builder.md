@@ -14,7 +14,7 @@ ms.subservice: app-builder
 
 [This article is prerelease documentation and is subject to change.]
 
-App Builder is an agent in Microsoft 365 Copilot that lets you create and share lightweight, interactive apps in your Microsoft 365 environment. You don't need coding skills or extra signups—just open Copilot, describe the app or visualization you want, and start building instantly.
+App Builder is an agent in Microsoft 365 Copilot that lets you create and share lightweight, interactive apps in your Microsoft 365 environment. You don't need coding skills or extra signups—open Copilot, describe the app or visualization you want, and start building instantly.
 
 App Builder lets you:
 
@@ -70,8 +70,8 @@ With App Builder, create interactive, secure apps using natural language—no co
 
 **How it works**
 
-1. Sign in to [M365 Copilot](https://www.microsoft365.com/)
-1. In the left naviagtion pane, under **Agents**, select **App Builder**.
+1. Sign in to [Microsoft 365 Copilot](https://www.microsoft365.com/)
+1. In the left navigation pane, under **Agents**, select **App Builder**.
 1. Enter your prompt in the text box. For example:
    
     ```copilot-prompt
@@ -127,7 +127,7 @@ When you delete an app, everyone you shared it with immediately loses access, an
 
 App Builder is in the Agent store and is labeled with **(Frontier)**. If you have a Microsoft 365 Copilot license, follow these steps to find App Builder:
 
- 1. Sign in to [M365 Copilot](https://www.microsoft365.com/)
+ 1. Sign in to [Microsoft 365 Copilot](https://www.microsoft365.com/)
  1. In the left navigation pane, Select **Chat** >  **All Agents**. 
  1. Go to one of these categories in the store: **Built by Microsoft**, **Agents**, or **Productivity**. 
  
