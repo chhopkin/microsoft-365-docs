@@ -78,7 +78,7 @@ With App Builder, create interactive, secure apps using natural language—no co
    - It generates a schema for your data, like a table for demo signups.
    - It builds a user interface for entering and viewing information.
    
-    :::image type="content" source="media/app-builder/app-builder-build-an-app.png" alt-text="App Builder create an app":::
+     :::image type="content" source="media/app-builder/app-builder-build-an-app.png" alt-text="App Builder create an app":::
 
 1. Refine your app:
     - Ask Copilot to add features, such as showing participant info as cards.
