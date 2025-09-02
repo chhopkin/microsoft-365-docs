@@ -36,7 +36,7 @@ Use enterprise data from documents, spreadsheets, and other sources to generate 
 
 ## Prerequisites
 
-App Builder is available in the Frontier program and you must [add it to your Copilot](managingappbuilder.md). Frontier lets you try the latest model innovation and give feedback before experiences are generally available.
+App Builder is available in the Frontier program and you must [TBD: add it to your Copilot](microsoft-365-copilot-overview.md). Frontier lets you try the latest model innovation and give feedback before experiences are generally available.
 
 ## Key features
 
@@ -87,7 +87,7 @@ With App Builder, create interactive, secure apps using natural language—no co
     - The app updates instantly as you make changes.
 
 > [!NOTE]
-> If you don’t see App Builder as an agent, your organization needs to be enrolled in the [Frontier program](https://adoption.microsoft.com/en-us/copilot/frontier-program/) and [add App Builder to your Copilot](managingappbuilder.md).
+> If you don’t see App Builder as an agent, your organization needs to be enrolled in the [Frontier program](https://adoption.microsoft.com/en-us/copilot/frontier-program/) and [TBD: add App Builder to your Copilot](microsoft-365-copilot-overview.md).
 
 
 ## Play an app
