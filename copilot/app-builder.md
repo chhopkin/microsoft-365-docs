@@ -1,5 +1,5 @@
 ---
-title: Use App Builder in Microsoft 365 Copilot to build apps easily (preview)
+title: Use App Builder in Microsoft 365 Copilot to build apps easily
 description: Discover how to build apps with Microsoft 365 Copilot App Builder. Create and share apps easily—start building today!
 author: mduelae
 manager: tapanm
@@ -10,11 +10,9 @@ ms.topic: concept-article
 ms.service: microsoft-365-copilot
 ms.subservice: app-builder
 ---
-# Build apps with Microsoft 365 Copilot (preview)
+# Build apps with Microsoft 365 Copilot
 
-[This article is prerelease documentation and is subject to change.]
-
-App Builder is an agent in Microsoft 365 Copilot that lets you create and share lightweight, interactive apps in your Microsoft 365 environment. You don't need coding skills or extra signups—open Copilot, describe the app or visualization you want, and start building instantly.
+App Builder is an agent in Microsoft 365 Copilot that lets you create and share lightweight, interactive apps. You don't need coding skills—open Copilot, describe the app or visualization you want, and start building instantly.
 
 App Builder lets you:
 
@@ -23,43 +21,17 @@ App Builder lets you:
 - Build secure productivity tools for you or your team
 - Quickly iterate and refine app features in Copilot chat
 - Share and deploy apps to boost productivity and collaboration
-
-Use enterprise data from documents, spreadsheets, and other sources to generate fully functional, secure apps—all without writing code. Just describe what you need, and App Builder does the rest. Explore data, prototype solutions, and streamline workflows.
+- Use enterprise data from documents, spreadsheets, and other sources to generate fully functional, secure apps—all
 
 :::image type="content" source="media/app-builder/app-builder-enter-prompt.png" alt-text="Screenshot of the App Builder prompt box in Microsoft 365 Copilot, where you enter your prompt to create an app.":::
 
-> [!IMPORTANT]
->
-> - This is a preview feature.
-> - Preview features aren't meant for production use and might have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520), and are available before an official release so that customers can get early access and provide feedback.
-> - This feature is only available in English.
 
 ## Prerequisites
 
-You need to be part of the [Frontier program](https://adoption.microsoft.com/en-us/copilot/frontier-program/) to use Agent Builder, and you need to [TBD: add it to your Copilot](microsoft-365-copilot-overview.md). Frontier lets you try the latest model innovation and give feedback before these experiences are generally available. 
+You need to be part of the [Frontier program](https://adoption.microsoft.com/en-us/copilot/frontier-program/) to use App Builder, and you need to [TBD: add it to your Copilot](microsoft-365-copilot-overview.md). Frontier lets you try the latest model innovation and give feedback before these experiences are generally available. 
 
-## Key features
-
-**No setup required**
-
-- Open Copilot and describe your app.
-- No sign-up or authentication prompt.
-- Works out of the box for Microsoft 365 users.
-
-**Save and share app data**
-
-- Create apps that store simple data.
-- Share with your teammates to collaborate.
-
-**Office-like sharing**
-
-- Share your app across your organization like a Word or Excel document.
-- Use familiar sharing controls and permissions.
-
-**One-click execution**
-
-- Recipients run the app directly in Microsoft 365 Copilot.
-- No installation or configuration needed—just select and go.
+> [!IMPORTANT]
+> This feature is only available in English.
 
 
 ## Build an app
