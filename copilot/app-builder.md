@@ -12,9 +12,9 @@ ms.service: powerapps
 
 [This article is prerelease documentation and is subject to change.]
 
-Microsoft 365 Copilot App Builder lets you create and share lightweight, interactive apps in your Microsoft 365 environment. You don't need coding skills or extra signups—just open Copilot, describe the app or visualization you want, and start building instantly.
+App Builder is a agenet in Microsoft 365 Copilot that lets you create and share lightweight, interactive apps in your Microsoft 365 environment. You don't need coding skills or extra signups—just open Copilot, describe the app or visualization you want, and start building instantly.
 
-App Builder is an agent in Copilot that lets you:
+App Builder lets you:
 
 - Prototype ideas quickly
 - Turn complex data sets into interactive visuals
