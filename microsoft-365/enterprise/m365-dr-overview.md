@@ -122,7 +122,7 @@ There are three methods for ensuring that the _Tenant_ data location for a parti
 |Exchange Online |X<sup>1</sup> |X<sup>2</sup> |X<sup>3</sup> |
 | SharePoint / OneDrive |X<sup>1</sup> |X<sup>2</sup> |X<sup>3</sup> |
 | Microsoft Teams |X<sup>1</sup> |X<sup>2</sup> |X<sup>3</sup> |
-| Microsoft 365 Copilot |X<sup>1</sup> |X<sup>2</sup> |X<sup>3</sup> |
+| Microsoft 365 Copilot and Copilot Chat |X<sup>1</sup> |X<sup>2</sup> |X<sup>3</sup> |
 | Microsoft Defender for Office P1 |- |- |X<sup>3</sup> |
 | Microsoft 365 web apps (formerly known as "Office for the Web") |- |- |X<sup>3</sup> |
 | Viva Connections |- |- |X<sup>3</sup> |
