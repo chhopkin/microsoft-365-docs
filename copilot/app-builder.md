@@ -1,12 +1,12 @@
 ---
-title: Microsoft 365 Copilot App Builder: Build apps easily (preview)
+title: Use App Builder in Microsoft 365 Copilot to build apps easily (preview)
 description: Discover how to build apps with Microsoft 365 Copilot App Builder. Create and share apps easily—start building today!
 author: mduelae
 ms.author: mkaur
 ms.reviewer: mkaur
-ms.date: 09/15/2025
-ms.topic: how-to
-ms.service: powerapps
+ms.date: 09/2/2025
+ms.topic: concept-article
+ms.service: app-builder
 ---
 # Build apps with Microsoft 365 Copilot (preview)
 
@@ -109,8 +109,6 @@ Share apps you create in App Builder with a share link, like you do with Word do
 
 Send this link to anyone in your organization who can use Microsoft 365 Copilot. Anyone with the link can open and use the app, including all its data. Share responsibly and only with people who should have access to the app’s information.
 
-<insert image of share button>
-
 
 ## Delete an app
 
@@ -118,8 +116,6 @@ When you delete an app, everyone you shared it with immediately loses access, an
 
 1. To delete an app, open App Builder and find your app in the app list.
 1. Select the **Delete** icon next to the app to permanently remove it. Confirm the deletion, because you can't undo this action.
-
-<insert image of delete button>
 
 
 ## Manage App Builder
@@ -138,4 +134,4 @@ App Builder's availability is controlled by your organization's Microsoft 365 ap
 1. Go to the Microsoft 365 admin center. 
 1. If Copilot agents are set to **No Users**, change this to **All Users** or **Specific Users** to let users access App Builder.
 
-By default, agents are available for users to install, but you might experience throttling during periods of heavy usage. Manage App Builder with the same controls as other Microsoft 365 apps in the admin center. For more information on managing Copilot agents, see [Manage agents for Microsoft 365 Copilot in Integrated Apps](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide).
+By default, agents are available for users to install, but you might experience throttling during periods of heavy usage. Manage App Builder with the same controls as other Microsoft 365 apps in the admin center. For more information on managing Copilot agents, see [Manage agents for Microsoft 365 Copilot in Integrated Apps](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
