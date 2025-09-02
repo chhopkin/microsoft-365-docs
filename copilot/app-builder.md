@@ -64,7 +64,7 @@ You need to be part of the [Frontier program](https://adoption.microsoft.com/en-
 
 ## Build an app
 
-With App Builder, create interactive, secure apps using natural language. Describe the problem you want to solve, the type of app you need, or the information you want to visualize. Add images to show how you want the app to look, and reference data from documents, spreadsheets, meetings, messages, and other Microsoft 365 sources.
+Describe the problem you want to solve, the type of app you need, or the information you want to visualize. Add images to show how you want the app to look, and reference data from documents, spreadsheets, meetings, messages, and other Microsoft 365 sources.
 
 1. Sign in to [Microsoft 365 Copilot](https://www.microsoft365.com/)
 1. In the left navigation pane, under **Agents**, select **App Builder**.
