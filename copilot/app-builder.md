@@ -112,16 +112,12 @@ Send this link to anyone in your organization who can use Microsoft 365 Copilot.
 <insert image of share button>
 
 
-Send this link to anyone in your organization who has access to Microsoft 365 Copilot. Anyone with the link will be able to open and use the app, including all the data it contains. Be sure to share responsibly and only with people who should have access to the app’s information.
-
-<insert image of share button>
-
 ## Delete an app
 
-1. Open App Builder and find your app in the app list.
-1. Select the **Delete** icon next to the app to permanently remove it. Confirm the deletion, because you can't undo this action.
-
 When you delete an app, everyone you shared it with immediately loses access, and the app and its data aren't available to others.
+
+1. To delete an app, open App Builder and find your app in the app list.
+1. Select the **Delete** icon next to the app to permanently remove it. Confirm the deletion, because you can't undo this action.
 
 <insert image of delete button>
 
@@ -133,7 +129,7 @@ App Builder is in the Agent store and is labeled with **(Frontier)**. If you hav
 
  1. Open Microsoft 365 Copilot Chat on the web. 
  1. Select **All Agents**. 
- 1. Go to one of these categories in the store: **Built by Microsoft**, **agents**, or **productivity**. 
+ 1. Go to one of these categories in the store: **Built by Microsoft**, **Agents**, or **Productivity**. 
  
 There aren't any usage limits for end users, but this might change as the feature evolves. 
 
