@@ -2,6 +2,7 @@
 title: Use App Builder in Microsoft 365 Copilot to build apps easily (preview)
 description: Discover how to build apps with Microsoft 365 Copilot App Builder. Create and share apps easily—start building today!
 author: mduelae
+manager: tapanm
 ms.author: mkaur
 ms.reviewer: mkaur
 ms.date: 09/2/2025
