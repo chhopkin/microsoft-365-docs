@@ -6,7 +6,8 @@ ms.author: mkaur
 ms.reviewer: mkaur
 ms.date: 09/2/2025
 ms.topic: concept-article
-ms.service: app-builder
+ms.service: microsoft-365-copilot
+ms.subservice: app-builder
 ---
 # Build apps with Microsoft 365 Copilot (preview)
 
