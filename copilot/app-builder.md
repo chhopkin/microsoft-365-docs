@@ -89,7 +89,7 @@ With App Builder, create interactive, secure apps using natural language—no co
     - The app updates instantly as you make changes.
 
 > [!NOTE]
-> If you don’t see the App Builder agent, make sure you meet the [prerequisites](app-builder.md#prerequisites)
+> If you don’t see the App Builder agent, make sure you meet the [prerequisites](app-builder.md#prerequisites).
 
 
 ## Play an app
