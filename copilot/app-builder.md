@@ -89,7 +89,7 @@ With App Builder, create interactive, secure apps using natural language—no co
     - The app updates instantly as you make changes.
 
 > [!NOTE]
-> If you don’t see App Builder as an agent, your organization needs to be enrolled in the [Frontier program](https://adoption.microsoft.com/en-us/copilot/frontier-program/) and [TBD: add App Builder to your Copilot](microsoft-365-copilot-overview.md).
+> If you don’t see the App Builder agent, make sure you meet the [prerequisites](app-builder.md#prerequisites)
 
 
 ## Play an app
