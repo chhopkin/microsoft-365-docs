@@ -58,7 +58,8 @@ Blocking connectivity to unified domains such as:
 ---
 
 ### 3. What does the term "location" mean in the Connectivity report or network Insight?
-The location label (e.g., “Singapore”) typically refers to either:
+The location label (e.g., “Singapore” or "Redmond, WA") typically refers to either:
+
 - The **office location** of the user, or
 - The **network egress point** (i.e., where traffic exits your network onto Internet to reach Microsoft services)
 
@@ -74,9 +75,11 @@ Visit the **[Network Connectivity page in the Microsoft 365 Admin Center](https:
 
 ---
 
-### 5. What is meant by “egress IP address ranges”?
+### 5. What does “egress IP address ranges” mean?
+
 These are the **public IP addresses** from which Microsoft 365 sees your network traffic. They help you understand:
-- How connections are NATed (Network Address Translated)
+- How your network connections to Microsoft 365 are NATed (Network Address Translated)
+
 - The path your traffic takes to reach Microsoft 365 services
 
 ---
