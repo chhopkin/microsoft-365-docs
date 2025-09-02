@@ -24,6 +24,7 @@ App Builder is an agent in Copilot that lets you:
 
 Use enterprise data from documents, spreadsheets, and other sources to generate fully functional, secure apps—all without writing code. Just describe what you need, and App Builder does the rest. Explore data, prototype solutions, and streamline workflows.
 
+:::image type="content" source="media/app-builder/app-builder-enter-prompt.png" alt-text=" Enter your prompt in the text box to create an app":::
 
 > [!IMPORTANT]
 >
@@ -70,12 +71,14 @@ With App Builder, create interactive, secure apps using natural language—no co
 1. Enter your prompt in the text box. For example:
    
     ```copilot-prompt
-    I want to build a demo signup sheet that tracks a list of demos
+    I want to build a demo signup sheet that tracks a list of demos.
     ```
 
 1. App Builder creates your app:
-   - It generates a schema for your data, like a table for demo signups. 
+   - It generates a schema for your data, like a table for demo signups.
    - It builds a user interface for entering and viewing information.
+   
+    :::image type="content" source="media/app-builder/app-builder-build-an-app.png" alt-text="App Builder create an app":::
 
 1. Refine your app:
     - Ask Copilot to add features, such as showing participant info as cards.
