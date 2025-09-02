@@ -36,7 +36,7 @@ Use enterprise data from documents, spreadsheets, and other sources to generate 
 
 ## Prerequisites
 
-App Builder is available in the Frontier program and you must [TBD: add it to your Copilot](microsoft-365-copilot-overview.md). Frontier lets you try the latest model innovation and give feedback before experiences are generally available.
+App Builder is available in the [Frontier program](https://adoption.microsoft.com/en-us/copilot/frontier-program/) and you must [TBD: add it to your Copilot](microsoft-365-copilot-overview.md). Frontier lets you try the latest model innovation and give feedback before experiences are generally available. 
 
 ## Key features
 
