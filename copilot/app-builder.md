@@ -26,7 +26,7 @@ App Builder lets you:
 
 Use enterprise data from documents, spreadsheets, and other sources to generate fully functional, secure apps—all without writing code. Just describe what you need, and App Builder does the rest. Explore data, prototype solutions, and streamline workflows.
 
-:::image type="content" source="media/app-builder/app-builder-enter-prompt.png" alt-text=" Enter your prompt in the text box to create an app":::
+:::image type="content" source="media/app-builder/app-builder-enter-prompt.png" alt-text="Screenshot of the App Builder prompt box in Microsoft 365 Copilot, where you enter your prompt to create an app.":::
 
 > [!IMPORTANT]
 >
@@ -36,7 +36,7 @@ Use enterprise data from documents, spreadsheets, and other sources to generate 
 
 ## Prerequisites
 
-You need to be part of the [Frontier program](https://adoption.microsoft.com/en-us/copilot/frontier-program/) to use Agent Builder, and you need to [TBD: add it to your Copilot](microsoft-365-copilot-overview.md). Frontier lets you try the latest model innovation and give feedback before experiences are generally available. 
+You need to be part of the [Frontier program](https://adoption.microsoft.com/en-us/copilot/frontier-program/) to use Agent Builder, and you need to [TBD: add it to your Copilot](microsoft-365-copilot-overview.md). Frontier lets you try the latest model innovation and give feedback before these experiences are generally available. 
 
 ## Key features
 
@@ -46,22 +46,22 @@ You don't need Power Apps or extra authentication. Open Microsoft 365 Copilot, d
 
 - Open Copilot and describe your app.
 - No sign-up or authentication prompt.
-- Works out of the box for Microsoft 365 user.
+- Works out of the box for Microsoft 365 users.
 
 **Save and share app data**
 
 - Create apps that store simple data.
-- Share with your teammate to collaborate.
+- Share with your teammates to collaborate.
 
 **Office-like sharing**
 
-- Share your app across your organization like Word or Excel document.
+- Share your app across your organization like a Word or Excel document.
 - Use familiar sharing controls and permissions.
 
 **One-click execution**
 
 - Recipients run the app directly in Microsoft 365 Copilot.
-- No installation or configuration needed—just select, and go.
+- No installation or configuration needed—just select and go.
 
 
 ## Build an app
