@@ -93,7 +93,6 @@ When you delete an app, everyone you shared it with immediately loses access, an
 
 ## Manage App Builder
 
-
 App Builder is in the Agent store and is labeled with **(Frontier)**. If you have a Microsoft 365 Copilot license, follow these steps to find App Builder:
 
  1. Sign in to [Microsoft 365 Copilot](https://www.microsoft365.com/)
