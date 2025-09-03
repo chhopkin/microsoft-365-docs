@@ -34,14 +34,14 @@ ms.date: 04/06/2025
 
 Many Microsoft business plans have add-ons that you can buy for your subscriptions. Add-ons provide more features to enhance your subscription's capabilities. You buy and manage add-ons in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
 
-This article only applies to customers with a Microsoft Online Subscription Agreement (MOSA) billing account type. If you have a Microsoft Customer Agreement (MCA) billing account type, you can buy add-ons the same as any other product on the **Products and services** page. To learn how to do this, see [Buy a different subscription](try-or-buy-microsoft-365.md#buy-a-different-subscription).  [Find out what type of billing account you have](manage-billing-accounts.md#view-my-billing-accounts).
+This article only applies to customers with a Microsoft Online Subscription Agreement (MOSA) billing account type. If you have a Microsoft Customer Agreement (MCA) billing account type, you can buy add-ons the same as any other product on the **Purchase Services** or **Marketplace** page. To learn how to do this, see [Buy a different subscription](try-or-buy-microsoft-365.md#buy-a-different-subscription).  [Find out what type of billing account you have](manage-billing-accounts.md#view-my-billing-accounts).
 
 ## Before you begin
 
 You must be at least a Billing Administrator to do the steps described in this article. For more information, see [About admin roles](../admin/add-users/about-admin-roles.md).
 
 > [!NOTE]
-> If you're the person who signed up for the subscription, you're automatically a Billing Administrator.
+> If you're the person who signed up for the subscription, you're automatically at least a Billing Administrator.
 
 ## Types of add-ons
 
