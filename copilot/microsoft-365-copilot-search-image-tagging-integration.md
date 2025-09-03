@@ -12,7 +12,7 @@ ms.collection: CopilotSearch
 ms.custom: QuickDraft  
 audience: admin
 ai-usage: ai-assisted
-description: "Learn how to set up and connect an image organizational asset library to Microsoft 365 Copilot."
+description: Learn how to set up and connect an image organizational asset library to Microsoft 365 Copilot.
 ---
 
 # Set up and connect organizational asset library (OAL) with image tagging to Copilot search
@@ -24,7 +24,7 @@ This article provides guidance for keyword tagging, to improve Copilot's search 
 1. [Create an organization assets library](/sharepoint/organization-assets-library).
 2. [Connect your organizational assets library to Copilot](/sharepoint/connect-organizational-asset-libraries-to-copilot).
 3. [Ensure your organizational assets library has the Image Tags column so you can add tags to your images](https://support.microsoft.com/office/2b0361ae-1bd3-41a3-8329-269e5f81cfa2).
-4. (**Optional**) [Use Microsoft Syntex to tag images with AI](../microsoft-365/documentprocessing/image-tagging-overview.md).
+4. [Use Microsoft Syntex to tag images with AI](https://learn.microsoft.com/microsoft-365/documentprocessing/image-tagging-overview) (**Optional**).
 
 ## Steps for effective image tagging
 
