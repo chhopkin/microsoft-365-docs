@@ -113,46 +113,65 @@ As an admin, you can manage how users in your organization use Copilot for Teams
 
 To ensure a smooth and effective rollout of Microsoft 365 Copilot, we encourage you to begin with a phased approach. Start with a limited rollout to a small group of users and expand your user list as your rollout continues. This approach allows your organization to explore Copilot's features in a controlled setting, gather valuable feedback, and address any technical or adoption-related issues early on. By starting with a smaller group, you can refine configurations, ensure security and compliance readiness, and develop tailored training resources. This phased strategy also helps build internal advocates who can support broader adoption and contribute to a more successful organization-wide implementation.
 
-### Define Your Copilot Strategy
+### Define your Copilot strategy
 
 Before selecting users or purchasing licenses, define your organizational goals, use cases, and success metrics. Refer to [Microsoft 365 Copilot adoption guide and overview for IT admins](microsoft-365-copilot-enablement-resources.md).
 
-### Protect Sensitive Data
+### Protect sensitive data
 
-Review and audit site permissions using [SharePoint Advanced Management](/sharepoint/advanced-management). Implement robust data security solutions with [Microsoft Purview](/purview/ai-microsoft-purview).
+Review and audit site permissions using [SharePoint Advanced Management](/sharepoint/advanced-management). Implement robust data security solutions with [Microsoft Purview](/purview/ai-microsoft-purview)
 
-### Start with a Small Group Using a Phased Approach
+### Start with a small group using a phased approach
 
-Begin with a limited rollout to test configurations, gather feedback, and refine processes. See [Microsoft 365 Copilot Setup Guide](https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-setup).
+Begin with a limited rollout to test configurations, gather feedback, and refine processes.
 
-### Check for Microsoft 365 Copilot Readiness
+- [Microsoft 365 Copilot Setup Guide](https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-setup).
 
-Ensure your organization is ready for Microsoft 365. See [Microsoft 365 admin center](https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness?view=o365-worldwide).
+### Check for Microsoft 365 Copilot readiness
 
-### Buy Microsoft 365 Copilot Licenses
+Ensure your organization is ready for Microsoft 365:
 
-Ensure your organization has the correct licensing and subscriptions:  [License options for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/license-options) and [Try or buy a Microsoft 365 for business subscription](https://learn.microsoft.com/en-us/microsoft-365/admin/try-or-buy-microsoft-365).
+- [Microsoft 365 admin center](https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness?view=o365-worldwide)
 
-### Assign Licenses to Users
+### Buy Microsoft 365 Copilot licenses
 
-Use the [Microsoft 365 admin center](https://learn.microsoft.com/en-us/microsoft-365/admin/assign-licenses) to assign Copilot licenses to selected users.
+Ensure your organization has the correct licensing and subscriptions:
 
-### Train End Users
+- [License options for Microsoft 365 Copilot](https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-licensing)
+- [Try or buy a Microsoft 365 for business subscription](https://learn.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide)
 
-Provide training tailored to your users to ensure effective usage. Refer to [Copilot User Enablement Toolkit](https://learn.microsoft.com/en-us/microsoft-365/copilot/user-enablement-toolkit) and [Copilot Prompt Gallery](https://learn.microsoft.com/en-us/microsoft-365/copilot/prompt-gallery).
+### Assign licenses to users
 
-### Drive Adoption
+Use the Microsoft 365 admin center to assign Copilot licenses to selected users: [Assign licenses to users](https://learn.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
 
-Use communication templates, workshops, and champions to promote usage. See [Copilot Success Kit](https://learn.microsoft.com/en-us/microsoft-365/copilot/success-kit) and [Adoption Hub](https://learn.microsoft.com/en-us/microsoft-365/copilot/adoption-hub).
+### Train end users
 
-### Get Feedback
+Provide training tailored to your users to ensure effective usage:
 
-Gather feedback through surveys, usage analytics, and direct user input. Use the [Copilot Dashboard](https://learn.microsoft.com/en-us/microsoft-365/copilot/dashboard).
+- [Copilot User Enablement Toolkit](https://microsoft.seismic.com/Link/Content/DCTdQ8FMmgPcM8CGXR8mCVRDJDdB)
+- [Copilot Prompt Gallery](https://copilot.cloud.microsoft/prompts)
 
-### Expand to the Next Group and Scale Out
+### Drive adoption
 
-Use learnings from the pilot to refine and scale deployment across departments. See [Microsoft 365 Copilot Deployment Readiness](https://learn.microsoft.com/en-us/microsoft-365/copilot/deployment-readiness).
+Use communication templates, workshops, and champions to promote usage.
 
-### Monitor Usage and Evaluate Success
+- [Copilot Success Kit](https://adoption.microsoft.com/copilot/success-kit/)
+- [Adoption Hub](https://adoption.microsoft.com/copilot/)
 
-Track adoption, usage patterns, and business impact using built-in reporting tools. Refer to the [Microsoft 365 Copilot usage report](https://learn.microsoft.com/en-us/microsoft-365/copilot/usage-report).
+### Get feedback
+
+Gather feedback through surveys, usage analytics, and direct user input:
+
+- [Copilot Dashboard](https://learn.microsoft.com/en-us/microsoft-365/copilot/dashboard).
+
+### Expand to the next group and scale out
+
+Use learnings from the pilot to refine and scale deployment across departments:
+
+- [Microsoft 365 Copilot Deployment Readiness](https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness)
+
+### Monitor usage and evaluate success
+
+Track adoption, usage patterns, and business impact using built-in reporting tools:
+
+- [Microsoft 365 Copilot usage report](https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage)
