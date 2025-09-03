@@ -38,13 +38,15 @@ The following are the network insights that might be shown for each office locat
 
 ## FAQ's: Microsoft 365 Unified domains and Network Connectivity Insights
 
-### 1. What is the unified domains for Microsoft 365 apps and services?
-Microsoft announced the transition to a unified domain—**`cloud.microsoft`**—for Microsoft 365 apps and services over two years ago. This change simplifies domain management and improves connectivity across Microsoft 365.
+### 1. What is the unified domain for Microsoft 365 apps and services?
 
-- Learn more:  
-[https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain-overview](https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain-overview)  
+Microsoft announced the transition to a unified domain—**`cloud.microsoft`**—for Microsoft 365 apps and services over two years ago. This change simplifies domain management and improves connectivity across Microsoft 365. Unified domain consolidates authenticated user-facing Microsoft 365 experiences onto a single domain (cloud.microsoft) benefiting customers in several ways. For end users, it will streamline the overall experience by reducing sign-in prompts, redirects, and delays when navigating across apps. For admins, it will drastically reduce the complexity of the allow-lists required to help your tenant stay secure while enabling users to access the apps and services they need to do their work.
+
+References for cloud.microsoft announcements:
 [https://techcommunity.microsoft.com/t5/microsoft-365-blog/introducing-cloud-microsoft-a-unified-domain-for-microsoft-365/ba-p/3826287](https://techcommunity.microsoft.com/t5/microsoft-365-blog/introducing-cloud-microsoft-a-unified-domain-for-microsoft-365/ba-p/3826287)
+[Unified cloud.microsoft domain for Microsoft 365 apps](https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain)  
 
+  
 ---
 
 ### 2. What happens if connections to unified domains are blocked?
