@@ -44,7 +44,6 @@ Microsoft announced the transition to a unified domainâ€”**`cloud.microsoft`**â€
 
 References for cloud.microsoft announcements:
 [https://techcommunity.microsoft.com/t5/microsoft-365-blog/introducing-cloud-microsoft-a-unified-domain-for-microsoft-365/ba-p/3826287](https://techcommunity.microsoft.com/t5/microsoft-365-blog/introducing-cloud-microsoft-a-unified-domain-for-microsoft-365/ba-p/3826287)
-[Unified cloud.microsoft domain for Microsoft 365 apps](https://learn.microsoft.com/en-us/microsoft-365/enterprise/cloud-microsoft-domain)  
 
   
 ---
