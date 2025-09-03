@@ -118,7 +118,7 @@ items:
   - name: Microsoft 365 Copilot Search FAQ
     href: microsoft-365-copilot-search-faq.yml
   - name: Connect organizational asset library to Microsoft 365 Copilot Search
-    href: microsoft-365-copilot-search-oal-integration.md   
+    href: microsoft-365-copilot-search-image-tagging-integration.md   
 - name: Microsoft 365 Copilot in Microsoft Teams
   items:
   - name: Overview of AI in Microsoft Teams
