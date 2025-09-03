@@ -17,7 +17,7 @@ description: "Learn how to set up and connect an image organizational asset libr
 
 # Set up and connect organizational asset library (OAL) with image tagging to Copilot search
 
-This article provides guidance for keyword tagging, to improve Copilot's search results, specifically when integrating SharePoint ‘s Organizational Asset Library (OAL) with Copilot’s ability to create a presentation in PowerPoint. This guide will ensure that Copilot can effectively surface and access your company’s OAL image assets.
+This article provides guidance for keyword tagging, to improve Copilot's search results, specifically when integrating SharePoint ‘s Organizational Asset Library (OAL) with Copilot’s ability to create a presentation in PowerPoint. This guide ensures that Copilot can effectively surface and access your company’s OAL image assets.
 
 ## Prerequisites
 
@@ -32,18 +32,18 @@ This article provides guidance for keyword tagging, to improve Copilot's search 
 
 - Language: ensure all image tags, descriptions, and titles are in American English. If necessary, include a second language but prioritize American English.
 - Descriptive content: tags, descriptions, and titles should accurately describe the contents, subject matter, or objects in the image and their relevance to the company.
-- Company terminology: include terms that employees would use to search for an image, ensuring they are commonly understood and widely recognized.
+- Company terminology: include terms that employees would use to search for an image, ensuring they're commonly understood and widely recognized.
 
 ### Adding keywords
 
 - Department and project specificity: use keywords related to specific departments, projects, or initiatives.
 - Synonyms: include synonyms to increase the chance of matching search queries.
-Literal descriptions: describe the literal objects in the image, such as "laptop" or "office space". Use clear and universally recognized terms to describe the images.
-- Representational keywords: incorporate terms that describe what the image could symbolize, like "innovation" or "sustainability".
+Literal descriptions: describe the literal objects in the image, such as "laptop" or "office space." Use clear and universally recognized terms to describe the images.
+- Representational keywords: incorporate terms that describe what the image could symbolize, like "innovation" or "sustainability."
 
 ### Adding descriptive phrases
 
-- Adjectives: Uue adjectives to describe the setting or style of the image, such as "sunny day" or "black and white photo".
+- Adjectives: Use adjectives to describe the setting or style of the image, such as "sunny day" or "black and white photo".
 - Contextual relevance: ensure the descriptive phrases provide context about the image's use within the company.
 
 ### Examples of keyword tagging
