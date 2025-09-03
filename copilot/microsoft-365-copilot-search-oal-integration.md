@@ -17,33 +17,34 @@ description: "Learn how to set up and connect an image organizational asset libr
 
 # Set up and connect organizational asset library (OAL) with image tagging to Copilot search
 
-This article will help to provide a structured approach to keyword tagging for enhancing Copilot search results in the context of organizational asset library (OAL) integration with the PowerPoint Narrative Builder.  This guide will ensure that Copilot can effectively surface and access your company’s OAL image assets.
+This article provides guidance for keyword tagging, to improve Copilot's search results, specifically when integrating SharePoint ‘s Organizational Asset Library (OAL) with Copilot’s ability to create a presentation in PowerPoint. This guide will ensure that Copilot can effectively surface and access your company’s OAL image assets.
 
 ## Prerequisites
 
 1. [Create an organization assets library](/sharepoint/organization-assets-library).
 2. [Connect your organizational assets library to Copilot](/sharepoint/connect-organizational-asset-libraries-to-copilot).
-3. (**Optional**) [Use Microsoft Syntex to tag images with AI](../microsoft-365/documentprocessing/image-tagging-overview.md).
+3. [Ensure your organizational assets library has the Image Tags column so you can add tags to your images](https://support.microsoft.com/office/2b0361ae-1bd3-41a3-8329-269e5f81cfa2).
+4. (**Optional**) [Use Microsoft Syntex to tag images with AI](../microsoft-365/documentprocessing/image-tagging-overview.md).
 
 ## Steps for effective image tagging
 
 ### Basic guidelines
 
-- Language: Ensure all image tags, descriptions, and titles are in American English. If necessary, include a second language but prioritize American English.
-- Descriptive Content: Tags, descriptions, and titles should accurately describe the contents, subject matter, or objects in the image and their relevance to the company.
-- Keywords: Include terms that employees would use to search for an image, ensuring they are commonly understood and widely recognized.
+- Language: ensure all image tags, descriptions, and titles are in American English. If necessary, include a second language but prioritize American English.
+- Descriptive content: tags, descriptions, and titles should accurately describe the contents, subject matter, or objects in the image and their relevance to the company.
+- Company terminology: include terms that employees would use to search for an image, ensuring they are commonly understood and widely recognized.
 
 ### Adding keywords
 
-- Department and Project Specificity: Use keywords related to specific departments, projects, or initiatives.
-- Synonyms: Include synonyms to increase the chance of matching search queries.
-Literal Descriptions: Describe the literal objects in the image, such as "laptop" or "office space".
-- Representational Keywords: Incorporate terms that describe what the image could symbolize, like "innovation" or "sustainability".
+- Department and project specificity: use keywords related to specific departments, projects, or initiatives.
+- Synonyms: include synonyms to increase the chance of matching search queries.
+Literal descriptions: describe the literal objects in the image, such as "laptop" or "office space". Use clear and universally recognized terms to describe the images.
+- Representational keywords: incorporate terms that describe what the image could symbolize, like "innovation" or "sustainability".
 
 ### Adding descriptive phrases
 
-- Adjectives: Use adjectives to describe the setting or style of the image, such as "sunny day" or "black and white photo".
-- Contextual Relevance: Ensure the descriptive phrases provide context about the image's use within the company.
+- Adjectives: Uue adjectives to describe the setting or style of the image, such as "sunny day" or "black and white photo".
+- Contextual relevance: ensure the descriptive phrases provide context about the image's use within the company.
 
 ### Examples of keyword tagging
 
@@ -64,14 +65,3 @@ Example 3:
 - Title: Canadian small business worker
 - Description: a financial advisor works at a table with a laptop and paper in a shared office space
 - Tags: small business worker, person working on laptop, person working on finance, accountant, Toronto office, person doing paperwork, paperwork, employee, laptop, office, productivity, finance
-
-### Avoid internal jargon
-
-- Avoid using company-specific jargon that may not be understood by Copilot or external users.
-- Use clear and universally recognized terms to describe the images.
-
-### Accessibility considerations
-
-- Alternative text: add alternative text to all images to make them accessible to users with disabilities.
-- Manual and automatic addition: manually add alternative text for each images.
-- English support: this feature only supports English and can be enabled or disabled as needed.
