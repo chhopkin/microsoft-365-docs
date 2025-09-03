@@ -45,7 +45,7 @@ In the Microsoft 365 admin center, in the <a href="https://go.microsoft.com/fwli
 
 Some groups allow dynamic membership or email, as listed in the following table:
 
-| Group type | Mail enabled | Dynamic membership <br/>(in Microsoft Entra ID) |
+| Group type | Mail enabled | Dynamic membership <br/>(In Microsoft Entra ID) |
 |--|--|
 | Microsoft 365 Groups | Yes | Yes |
 | Distribution groups | Yes | No |
@@ -66,7 +66,9 @@ Microsoft 365 Groups can be [configured for dynamic membership in Microsoft Entr
 
 Microsoft 365 Groups can be accessed through mobile apps such as Outlook for iOS and Outlook for Android.
 
-Group members can send as or send on behalf of the group email address if this has been [enabled by the administrator](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group).
+Group members can send as or send on behalf of the group email address if this feature is [enabled by the administrator](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group).
+
+If recipients subscribe to receive group conversations in their inbox, they can delete email messages from the group without removing those messages from the group's shared mailbox. And, if an email is deleted from the group's shared mailbox, it isn't deleted from group members' personal inbox. See [Who can delete email from the Group inbox](/microsoft-365/admin/create-groups/create-groups#who-can-delete-email-from-the-group-inbox).
 
 Microsoft 365 Groups support nesting through [dynamic groups in Microsoft Entra ID](/azure/active-directory/enterprise-users/groups-dynamic-rule-member-of).
 
@@ -86,7 +88,7 @@ Microsoft 365 Groups can't be members of distribution groups.
 
 [Dynamic distribution groups](/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) are mail-enabled groups that are used to send mail to people with specific attributes, such as department or location. These attributes are defined in the Exchange admin center rather than Microsoft Entra ID.
 
-Unlike regular distribution groups that contain a defined set of members, the membership list for dynamic distribution groups is calculated each time a message is sent to the group, based on the filters and conditions that you define. When an email message is sent to a dynamic distribution group, it's delivered to all recipients in the organization that match the criteria defined for that group.
+Unlike regular distribution groups that contain a defined set of members, the membership list for dynamic distribution groups is determined each time a message is sent to the group, based on the filters and conditions that you define. When an email message is sent to a dynamic distribution group, it's delivered to all recipients in the organization that match the criteria defined for that group.
 
 ## Security groups
 
@@ -102,7 +104,7 @@ Microsoft 365 Groups can't be members of security groups.
 
 ## Mail-enabled security groups
 
-Mail-enabled security groups function the same as regular security groups, except that they cannot be dynamically managed through Microsoft Entra ID and cannot contain devices.
+Mail-enabled security groups function the same as regular security groups, except that they can't be dynamically managed through Microsoft Entra ID and can't contain devices.
 
 They include the ability to send mail to all the members of the group.
 
@@ -112,13 +114,13 @@ Mail-enabled security groups can be added to a team.
 
 [Shared mailboxes](/microsoft-365/admin/email/create-a-shared-mailbox) are used when multiple people need access to the same mailbox, such as a company information or support email address, reception desk, or other function that might be shared by multiple people.
 
-Shared mailboxes can receive external emails if the administrator has enabled this.
+Shared mailboxes can receive external emails if the administrator has enabled this feature.
 
 Shared mailboxes include a calendar that can be used for collaboration.
 
-Users with permissions to the shared mailbox can send as or send on behalf of the mailbox email address, if the administrator has given that user permissions to do that. This is especially useful for help and support mailboxes because users can send emails from "Contoso Support" or "Building A Reception Desk."
+Users with permissions to the shared mailbox can send as or send on behalf of the mailbox email address, if the administrator has given that user permissions to do that. This feature is especially useful for help and support mailboxes, because users can send emails from mailbox names like "Contoso Support" or "Building A Reception Desk."
 
-It's not possible to migrate a shared mailbox to a Microsoft 365 group.
+It's not possible to migrate a shared mailbox to Microsoft 365 Groups.
 
 ## Related content
 
