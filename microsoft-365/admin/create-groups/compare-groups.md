@@ -60,13 +60,13 @@ All of these group types can be used with Power Automate.
 
 Microsoft 365 Groups are used for collaboration between users, both inside and outside your company. With each Microsoft 365 group, members get a group email and shared workspace for conversations, files, and calendar events, Stream, and a Planner. Microsoft 365 Groups can also be connected to Teams or Viva Engage.
 
-You can add people from outside your organization to a group as long as this feature is [enabled by the administrator](manage-guest-access-in-groups.md). You can also allow external senders to send email to the group email address.
+You can add people from outside your organization to a group as long as this feature is [enabled by the administrator](/microsoft-365/admin/create-groups/manage-guest-access-in-groups). You can also allow external senders to send email to the group email address.
 
 Microsoft 365 Groups can be [configured for dynamic membership in Microsoft Entra ID](/azure/active-directory/users-groups-roles/groups-change-type), allowing group members to be added or removed automatically based on user attributes such as department, location, title, etc.
 
 Microsoft 365 Groups can be accessed through mobile apps such as Outlook for iOS and Outlook for Android.
 
-Group members can send as or send on behalf of the group email address if this has been [enabled by the administrator](../../solutions/allow-members-to-send-as-or-send-on-behalf-of-group.md).
+Group members can send as or send on behalf of the group email address if this has been [enabled by the administrator](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group).
 
 Microsoft 365 Groups support nesting through [dynamic groups in Microsoft Entra ID](/azure/active-directory/enterprise-users/groups-dynamic-rule-member-of).
 
@@ -90,7 +90,7 @@ Unlike regular distribution groups that contain a defined set of members, the me
 
 ## Security groups
 
-[Security groups](../email/create-edit-or-delete-a-security-group.md) are used for granting access to Microsoft 365 resources, such as SharePoint sites. They can make administration easier because you need only administer the group rather than adding users to each resource individually.
+[Security groups](/microsoft-365/admin/email/create-edit-or-delete-a-security-group) are used for granting access to Microsoft 365 resources, such as SharePoint sites. They can make administration easier because you need only administer the group rather than adding users to each resource individually.
 
 Security groups can contain users or devices. Creating a security group for devices can be used with mobile device management services, such as Microsoft Intune.
 
