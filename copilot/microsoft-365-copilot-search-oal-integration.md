@@ -49,20 +49,20 @@ Literal Descriptions: Describe the literal objects in the image, such as "laptop
 
 Example 1:
 
-- Title: Insulin Manufacturing
-- Description: Scientist working on insulin production line in a manufacturing facility
+- Title: Insulin manufacturing
+- Description: scientist working on insulin production line in a manufacturing facility
 - Tags: insulin production, insulin, scientific equipment, innovation, reliability, product development, manufacturing, manufacturing facility, scientist wearing protective gear, person working in a manufacturing facility, scientist working on insulin production
 
 Example 2:
 
 - Title: Vattenfall windmills in the Baltic Sea
-- Description: Close up of Vattenfall windmill in the Baltic Sea on a sunny day
+- Description: close up of Vattenfall windmill in the Baltic Sea on a sunny day
 - Tags: renewable energy source, resource efficiency, circular economy, sustainable business model, windmill farm, Vattenfall windmill, sustainability, environment, carbon reduction, windmill, Baltic Sea, multiple windmills in the ocean
 
 Example 3:
 
 - Title: Canadian small business worker
-- Description: A financial advisor works at a table with a laptop and paper in a shared office space
+- Description: a financial advisor works at a table with a laptop and paper in a shared office space
 - Tags: small business worker, person working on laptop, person working on finance, accountant, Toronto office, person doing paperwork, paperwork, employee, laptop, office, productivity, finance
 
 ### Avoid internal jargon
@@ -72,6 +72,6 @@ Example 3:
 
 ### Accessibility considerations
 
-- Alternative text: Add alternative text to all images to make them accessible to users with disabilities.
-- Manual and automatic addition: Manually add alternative text for each images.
-- English support: This feature only supports English and can be enabled or disabled as needed.
+- Alternative text: add alternative text to all images to make them accessible to users with disabilities.
+- Manual and automatic addition: manually add alternative text for each images.
+- English support: this feature only supports English and can be enabled or disabled as needed.
