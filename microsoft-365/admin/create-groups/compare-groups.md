@@ -110,7 +110,7 @@ Mail-enabled security groups can be added to a team.
 
 ## Shared mailboxes
 
-[Shared mailboxes](../email/create-a-shared-mailbox.md) are used when multiple people need access to the same mailbox, such as a company information or support email address, reception desk, or other function that might be shared by multiple people.
+[Shared mailboxes](/microsoft-365/admin/email/create-a-shared-mailbox) are used when multiple people need access to the same mailbox, such as a company information or support email address, reception desk, or other function that might be shared by multiple people.
 
 Shared mailboxes can receive external emails if the administrator has enabled this.
 
