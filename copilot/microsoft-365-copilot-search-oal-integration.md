@@ -73,5 +73,5 @@ Example 3:
 ### Accessibility considerations
 
 - Alternative text: Add alternative text to all images to make them accessible to users with disabilities.
-- Manual and Automatic Addition: Manually add alternative text for each images.
+- Manual and automatic addition: Manually add alternative text for each images.
 - English support: This feature only supports English and can be enabled or disabled as needed.
