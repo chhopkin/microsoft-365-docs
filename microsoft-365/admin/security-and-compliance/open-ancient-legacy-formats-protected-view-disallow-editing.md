@@ -11,7 +11,8 @@ ms.localizationpriority: medium
 ms.collection: RestrictedMode
 ms.custom: QuickDraft
 audience: Admin
-ai-usage: ai-assisted  
+ai-usage: ai-assisted
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Open ancient legacy formats in Protected View and disallow editing

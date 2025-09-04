@@ -12,7 +12,8 @@ ms.collection: RestrictedMode
 ms.custom: QuickDraft  
 ms.reviewer: kwekua
 audience: Admin 
-ai-usage: ai-assisted  
+ai-usage: ai-assisted
+ROBOTS: NOINDEX, NOFOLLOW 
 ---  
 
 # How to Block FrontPage Server Extensions Remote Procedure Call (FPRPC) for file opens in Microsoft 365 apps

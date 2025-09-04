@@ -12,7 +12,8 @@ ms.collection: RestrictedMode
 ms.custom: QuickDraft  
 ms.reviewer: kwekua
 audience: Admin 
-ai-usage: ai-assisted  
+ai-usage: ai-assisted
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Block insecure protocols for file opens in Microsoft 365 apps

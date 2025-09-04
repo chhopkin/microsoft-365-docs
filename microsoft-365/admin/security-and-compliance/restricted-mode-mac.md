@@ -10,6 +10,7 @@ ms.service: microsoft-365-business
 ms.localizationpriority: high
 ms.collection: RestrictedMode
 description: "Learn about Baseline Security Mode settings that will help protect and secure your organization from external threats."
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Baseline Security Mode settings in the Microsoft 365 admin center

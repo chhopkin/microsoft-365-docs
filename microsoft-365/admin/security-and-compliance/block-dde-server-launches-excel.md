@@ -12,6 +12,7 @@ ms.collection: RestrictedMode
 ms.custom: QuickDraft
 ms.reviewer: kwekua
 audience: admin
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Block Dynamic Data Exchange (DDE) server launches in Excel

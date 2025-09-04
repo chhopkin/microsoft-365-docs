@@ -11,7 +11,8 @@ ms.localizationpriority: medium
 ms.collection: RestrictedMode
 ms.custom: QuickDraft
 audience: admin
-ai-usage: ai-assisted  
+ai-usage: ai-assisted
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Block Basic authentication in Microsoft 365 apps

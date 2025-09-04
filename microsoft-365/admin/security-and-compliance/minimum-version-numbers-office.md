@@ -12,7 +12,8 @@ ms.collection: RestrictedMode
 ms.custom: QuickDraft  
 ms.reviewer: kwekua
 audience: admin
-ai-usage: ai-assisted  
+ai-usage: ai-assisted
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Minimum versions for Baseline Security Mode settings in Office

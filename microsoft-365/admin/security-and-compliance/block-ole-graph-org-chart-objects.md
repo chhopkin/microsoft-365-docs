@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 ms.collection: RestrictedMode
 ms.custom: QuickDraft
 audience: admin
+ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Block OLE Graph and OrgChart objects
