@@ -35,12 +35,12 @@ App Builder lets you:
      1. Sign in to [Microsoft 365 Copilot](https://www.microsoft365.com/)
      1. In the left navigation pane, select **Chat** >  **All Agents**. 
      1. Go to one of these categories in the store, **Built by Microsoft**, **Agents**, or **Productivity**.
-     1. Find and add **App Buider (Frontier)**.
+     1. Find and add **App Builder (Frontier)**.
  
         You should see **App Builder** in the left navigation pane under **Agents**.
 
  
-        There aren't any usage limits for end users, but this might change as the feature evolves. 
+There aren't any usage limits for end users, but this can change as the feature evolves. 
 
 > [!IMPORTANT]
 > This feature is only available in English.
