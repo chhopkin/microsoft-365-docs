@@ -1,5 +1,5 @@
 ---
-title: Create a signature request from Word in SharePoint eSignature
+title: Create a signature request from Word
 ms.author: chucked
 author: chuckedmonson
 manager: jtremper
@@ -14,13 +14,13 @@ ms.collection:
     - enabler-strategic
     - m365initiative-syntex
 ms.localizationpriority: medium
-description: Learn how to use SharePoint eSignature to create and send electronic signature requests from a Word file to people inside and outside of your organization. 
+description: Learn how to create and send electronic signature requests from a Word file to people inside and outside of your organization. 
 ---
 
-# Create a signature request from Word in SharePoint eSignature
+# Create a signature request from Word
 
 > [!NOTE]
-> This feature begins rolling out to users on the Microsoft 365 Beta and Current channels in June. To get access to the feature, your admin must [complete these steps to allow signature requests in Microsoft Word](esignature-setup.md#allow-signature-requests-in-microsoft-word).
+> This feature is now available to users on the Microsoft 365 Beta and Current channels. To get access to the feature, your admin must [complete these steps to allow signature requests in Microsoft Word](esignature-setup.md#allow-signature-requests-in-microsoft-word).
 
 When you request electronic signatures from Word, the recipients sign a PDF copy of the Word document.
 
@@ -29,7 +29,7 @@ When you request electronic signatures from Word, the recipients sign a PDF copy
 - Upon completion of signing, the signed PDF is stored in the same location as the Word document.
 - Requests can be sent from editable Word documents and read-only Word documents with prepositioned eSignature fields placeholders.
 
-## SharePoint eSignature for Word scenarios
+## eSignature for Word scenarios
 
 - Create a request directly from a Word document. 
 - Reuse the same document to create multiple requests.
@@ -41,15 +41,15 @@ When you request electronic signatures from Word, the recipients sign a PDF copy
 
 - A subscription version of Word desktop.
 - User is on the Microsoft 365 Beta Channel or Current Channel.
-- The document is stored in a SharePoint site that is enabled for SharePoint eSignature.
+- The document is stored in a SharePoint site that is enabled for eSignature.
 - The document is in the .docx format.
 - The document is unencrypted.
 
 ## Create a signature request from Word
 
-Follow these steps to use SharePoint eSignature for Microsoft Word.
+Follow these steps to use eSignature for Microsoft Word.
 
-1. Open a document from a SharePoint eSignature enabled site in Word (Desktop).
+1. Open a document from a eSignature enabled site in Word (Desktop).
 
 2. On the Word **Insert** ribbon, select **eSignatures fields**.
 
