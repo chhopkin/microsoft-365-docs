@@ -318,7 +318,7 @@ items:
               href: m365-dr-workload-spo.md
             - name: Microsoft Teams
               href: m365-dr-workload-teams.md
-            - name: Microsoft 365 Copilot
+            - name: Microsoft 365 Copilot and Copilot Chat
               href: m365-dr-workload-copilot.md
             - name: Microsoft Defender for Office P1
               href: m365-dr-workload-mdo-p1.md
