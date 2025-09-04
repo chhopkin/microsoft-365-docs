@@ -36,7 +36,7 @@ description: "Create quick links to your email, documents, apps, SharePoint site
 You can add your own custom tiles to Apps that point to SharePoint sites, external sites, legacy apps, and more. The custom tile appears under the Apps section in Microsoft 365. Once your users launch the app, it's added automatically to the list of app launcher apps for access. This makes it easy to find the relevant sites, apps, and resources to do your job. 
 
 > [!NOTE]
-> This capability is currently unavailable in the M365 Copilot App. We are evaluating other ways of customizing the app launcher and will provide updated guidance in the future.
+> This capability is currently unavailable in the Microsoft 365 Copilot App. We will provide updated guidance in the future.
 
 ## Add a custom tile for Apps
 
