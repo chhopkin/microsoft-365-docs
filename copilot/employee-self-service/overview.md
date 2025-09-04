@@ -33,14 +33,14 @@ The Employee Self-Service (ESS) agent answer policy-related questions, assist wi
 
 |Version  |Changes |
 |---------|--------|
-|1.0.0.64 |Hard agent handoff base template without context passing (Topic is disabled by default). |
+|1.0.0.64 |Hard agent handoff base template without context passing (Topic is disabled by default) |
 |1.0.0.66 |Internal licensing validation |
 |1.0.0.62 |ESS package name to Employee Self-Service Agent |
 |1.0.0.61 |No functional changes |
 |1.0.0.60 |Added default starter prompts |
 |1.0.0.59 |Internal naming standards fix |
 |1.0.0.58 |Supported back the UserContext flow among ESS Core package and ISV packages.</br> The UserContext setup is the same as existing way of adding ISV specific user context topics as redirected topics in the topic "[Admin] - User Context - Setup" |
-|1.0.0.71 |  |
+|1.0.0.71 |Minor bug fixes |
 
 ## Get started with the Employee Self-Service agent
 

@@ -127,7 +127,7 @@ Tips on writing this disclaimer:
 
 The Employee Self-Service agent comes with several out-of-the-box Topics to get you started. The maker can customize each of these topics. These topics can be tested before publishing them to the broader set of users. These customizations reflect in all surfaces where the agent is published.
 
-The following Topics are available in the current package version 1.0.0.69:
+The following Topics are available in the current package version:
 
 |Topic |Type |Trigger |Enabled (default) |When to use |
 |------|-----|--------|------------------|------------|
