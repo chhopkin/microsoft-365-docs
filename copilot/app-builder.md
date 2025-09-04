@@ -21,14 +21,26 @@ App Builder lets you:
 - Build secure productivity tools for you or your team
 - Quickly iterate and refine app features in Copilot chat
 - Share and deploy apps to boost productivity and collaboration
-- Use enterprise data from documents, spreadsheets, and other sources to generate fully functional, secure apps—all
+- Use enterprise data from documents, spreadsheets, and other sources to generate fully functional, secure apps.
 
 :::image type="content" source="media/app-builder/app-builder-enter-prompt.png" alt-text="Screenshot of the App Builder prompt box in Microsoft 365 Copilot, where you enter your prompt to create an app.":::
 
 
 ## Prerequisites
 
-You need to be part of the [Frontier program](https://adoption.microsoft.com/en-us/copilot/frontier-program/) to use App Builder, and you need to [TBD: add it to your Copilot](microsoft-365-copilot-overview.md). Frontier lets you try the latest model innovation and give feedback before these experiences are generally available. 
+- You need to be part of the [Frontier program](https://adoption.microsoft.com/copilot/frontier-program/) to use App Builder. Frontier lets you try the latest model innovation and give feedback before these experiences are generally available.  
+
+- You need to add App Builder to your Copilot from the **Agent Store**. If you have a Microsoft 365 Copilot license, follow these steps to add App Builder:
+
+     1. Sign in to [Microsoft 365 Copilot](https://www.microsoft365.com/)
+     1. In the left navigation pane, select **Chat** >  **All Agents**. 
+     1. Go to one of these categories in the store, **Built by Microsoft**, **Agents**, or **Productivity**.
+     1. Find and add **App Buider (Frontier)**.
+ 
+        You should see **App Builder** in the left navigation pane under **Agents**.
+
+ 
+        There aren't any usage limits for end users, but this might change as the feature evolves. 
 
 > [!IMPORTANT]
 > This feature is only available in English.
@@ -92,14 +104,6 @@ When you delete an app, everyone you shared it with immediately loses access, an
 
 
 ## Manage App Builder
-
-App Builder is in the Agent store and is labeled with **(Frontier)**. If you have a Microsoft 365 Copilot license, follow these steps to find App Builder:
-
- 1. Sign in to [Microsoft 365 Copilot](https://www.microsoft365.com/)
- 1. In the left navigation pane, Select **Chat** >  **All Agents**. 
- 1. Go to one of these categories in the store: **Built by Microsoft**, **Agents**, or **Productivity**. 
- 
-There aren't any usage limits for end users, but this might change as the feature evolves. 
 
 App Builder's availability is controlled by your organization's Microsoft 365 app store settings, which follow your company's policies and permissions. Follow these steps to check or update these settings: 
 
