@@ -5,7 +5,7 @@ ms.author: georgerozo
 author: denisebmsft
 manager: dansimp
 ms.reviewer: georgerozo
-ms.date: 08/27/2025
+ms.date: 09/04/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: article
@@ -151,8 +151,11 @@ For more information, see the following resources:
 
 ## Secure your data for Microsoft 365 Copilot
 
-Securing your data is a [shared responsibility](/azure/security/fundamentals/shared-responsibility-ai). Microsoft Purview provides tools to help you monitor compliance and secure your data for Microsoft 365 Copilot. See [Use Microsoft Purview to manage data security & compliance for Microsoft 365 Copilot & Microsoft 365 Copilot Chat](/purview/ai-m365-copilot).
+Securing your data for AI tools like Microsoft 365 Copilot is a shared responsibility. In addition to what Microsoft does to secure Microsoft 365 Copilot, there are certain tasks your organization must do to help ensure you're using AI safely and securely. See the [AI shared responsibility model](/azure/security/fundamentals/shared-responsibility-ai). 
 
-High-level deployment guidance is available to help you deploy a secure-by-default configuration, address oversharing concerns, and prevent data leak to shadow AI. See [Microsoft Purview deployment models](https://aka.ms/PurviewBlueprints).
+Microsoft Purview provides tools to help you monitor compliance and secure your data for Microsoft 365 Copilot and AI tools. See the following articles:
 
-You can use Microsoft Purview to mitigate and manage the risks associated with AI usage. See [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview).
+- [Use Microsoft Purview to manage data security & compliance for Microsoft 365 Copilot & Microsoft 365 Copilot Chat](/purview/ai-m365-copilot)
+- [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview)
+
+Download and review our scenario-based deployment models, presentations, and guides. These resources describe how to rapidly implement a secure-by-default configuration, address oversharing concerns, and prevent data leak to shadow AI. See [Notes from engineering: Microsoft Purview deployment models](https://aka.ms/PurviewBlueprints).
