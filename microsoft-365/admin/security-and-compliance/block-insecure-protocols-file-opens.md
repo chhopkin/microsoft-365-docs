@@ -24,7 +24,7 @@ When this setting is turned on, users will be prevented from opening files from 
 ## Turn off setting in the Microsoft 365 admin center
 
 1. Go to the admin center and select Org settings.
-1. Select Restricted Mode, find the **Block insecure protocols for file opens** setting, and switch the toggle to **Off**.
+1. Select Baseline Security Mode, find the **Block insecure protocols for file opens** setting, and switch the toggle to **Off**.
 
 ## Use Office Cloud Policy service
 

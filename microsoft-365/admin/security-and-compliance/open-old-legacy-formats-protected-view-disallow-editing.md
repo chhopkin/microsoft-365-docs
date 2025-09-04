@@ -39,16 +39,16 @@ The following legacy file formats will open in Protected View:
 
 ## Turn off setting in the Microsoft 365 admin center
 
-If you have turned this setting on but need to revert to the default behaviors (not opening files in Protected View, allowing files to be saved in these formats, and allowing external workbook links to reference files), you can turn off the Restricted Mode setting directly in the Microsoft 365 admin center.
+If you have turned this setting on but need to revert to the default behaviors (not opening files in Protected View, allowing files to be saved in these formats, and allowing external workbook links to reference files), you can turn off the Baseline Security Mode setting directly in the Microsoft 365 admin center.
 
 1. Go to the admin center and select Org settings.
-1. Select Restricted Mode, find the **Open old legacy formats in Protected View and save as modern format**, and switch the toggle to **Off**.
+1. Select Baseline Security Mode, find the **Open old legacy formats in Protected View and save as modern format**, and switch the toggle to **Off**.
 
 ## Use Office Cloud Policy service
 
 You can make also changes to the policy settings directly using the [Office Cloud Policy service](https://config.office.com/) if you need to modify the behavior -- for example, allowing files in a certain old legacy format to bypass Protected View while continuing to open all other old legacy format files in Protected View -- or if you need to scope the setting to specific groups of users.
 
-The following table contains the settings in Office Cloud Policy service that support this Restricted Mode setting. To revert to the default behavior, set these policies as not configured.
+The following table contains the settings in Office Cloud Policy service that support this Baseline Security Mode setting. To revert to the default behavior, set these policies as not configured.
 
 | Policy | Configuration Setting |
 | ------ | ------------- |

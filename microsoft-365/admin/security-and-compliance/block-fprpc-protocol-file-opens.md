@@ -21,12 +21,12 @@ FrontPage Server Extensions Remote Procedure Call (FPRPC) is an outdated protoco
 
 When this setting is turned on, users in your environment won’t be able to override the default configuration using Trust Center.
 
-If you have turned on this setting and you need to revert to the default behavior, allowing users to override FPRPC blocking using Trust Center, you can turn off the Restricted Mode setting directly in the Microsoft 365 admin center.
+If you have turned on this setting and you need to revert to the default behavior, allowing users to override FPRPC blocking using Trust Center, you can turn off the Baseline Security Mode setting directly in the Microsoft 365 admin center.
 
 ## Turn off setting in the Microsoft 365 admin center
 
 1. Go to the admin center and select Org settings.
-1. Select Restricted Mode, find the Block FPRPC protocol for file opens setting, and switch the toggle to **Off**.
+1. Select Baseline Security Mode, find the Block FPRPC protocol for file opens setting, and switch the toggle to **Off**.
 
 ## Use Office Cloud Policy service
 

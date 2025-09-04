@@ -27,7 +27,7 @@ If you have enabled this setting but need to revert to the default behavior (all
 ## Turn off setting in the Microsoft 365 admin center
 
 1. Go to the admin center and select Org settings.
-1. Select Restricted Mode, find the **Block Basic authentication prompts** setting, and switch the toggle to **Off**.
+1. Select Baseline Security Mode, find the **Block Basic authentication prompts** setting, and switch the toggle to **Off**.
 
 ## Use Office Cloud Policy service
 

@@ -1,5 +1,5 @@
 ---
-title: "Restricted mode settings"
+title: "Baseline Security Mode settings"
 ms.author: kwekua
 author: kwekuako
 manager: scotv
@@ -9,14 +9,14 @@ ms.topic: overview
 ms.service: microsoft-365-business
 ms.localizationpriority: high
 ms.collection: RestrictedMode
-description: "Learn about restricted mode admin settings that will help protect and secure your organization from external threats."
+description: "Learn about Baseline Security Mode settings that will help protect and secure your organization from external threats."
 ---
 
-# Restricted mode settings in the Microsoft 365 admin center
+# Baseline Security Mode settings in the Microsoft 365 admin center
 
 As a Microsoft 365 admin, you want to protect and secure your business environment.
 
-Restricted mode helps you:
+Baseline Security Mode helps you:
 
 - protect business data
 - prevent business disruption
@@ -24,33 +24,33 @@ Restricted mode helps you:
 - secure internal accounts
 - ensure secure collaboration
 
-Restricted mode covers key Microsoft 365 services, including Microsoft 365 apps, OneDrive, SharePoint, Teams, Exchange and the Microsoft Entra identity platform.
+Baseline Security Mode covers key Microsoft 365 services, including Microsoft 365 apps, OneDrive, SharePoint, Teams, Exchange and the Microsoft Entra identity platform.
 
-With the addition of Restricted mode in the Microsoft 365 admin center, you can now set certain security settings that were previously unavailable in the admin center and had to be configured using PowerShell or following customer documentation.
+With the addition of Baseline Security Mode in the Microsoft 365 admin center, you can now set certain security settings that were previously unavailable in the admin center and had to be configured using PowerShell or following customer documentation.
 
-Now that these settings are available in the admin center, your organization can carefully evaluate each of the Restricted mode settings before deployment.
+Now that these settings are available in the admin center, your organization can carefully evaluate each of the Baseline Security Mode settings before deployment.
 
-This article gives you information about the Restricted mode settings that you can turn on. It also has links to content that helps you understand what the setting does and why we recommend you turn on the setting.
+This article gives you information about the Baseline Security Mode settings that you can turn on. It also has links to content that helps you understand what the setting does and why we recommend you turn on the setting.
 
 ## Before you begin
 
 You must be the appropriate admin for the feature area. For more information, see [About admin roles in the Microsoft 365 admin center](../add-users/about-admin-roles.md).
 
-## How to get to Restricted mode settings
+## How to get to Baseline Security Mode settings
 
-1. To get to Restricted mode settings, go to the Microsoft 365 admin center and select **Settings** > **Org Settings**, then go to the **Security & privacy** tab.
-1. Select **Restricted mode**.
+1. To get to Baseline Security Mode settings, go to the Microsoft 365 admin center and select **Settings** > **Org Settings**, then go to the **Security & privacy** tab.
+1. Select **Baseline Security Mode**.
 
-## Available Restricted mode settings
+## Available Baseline Security Mode settings
 
 ### Microsoft 365 apps settings
 
-This section outlines the options available within Microsoft 365 Apps to apply Restricted mode settings in the Microsoft 365 admin center.
+This section outlines the options available within Microsoft 365 Apps to apply Baseline Security Mode settings in the Microsoft 365 admin center.
 
 You must be a member of the [Office Apps administrator role](/entra/identity/role-based-access-control/permissions-reference) to perform these tasks.
 
 > [!NOTE]
-> The version number for Microsoft 365 apps client support for Restricted mode settings will be 2508. For more information, see [Minimum Version Requirements for Restricted Mode](minimum-version-numbers-office.md).
+> The version number for Microsoft 365 apps client support for Baseline Security Mode settings will be 2508. For more information, see [Minimum Version Requirements for Baseline Security Mode](minimum-version-numbers-office.md).
 
 |Setting     |More information  |
 |---------|---------|
@@ -66,7 +66,7 @@ You must be a member of the [Office Apps administrator role](/entra/identity/rol
 
 ### OneDrive and SharePoint settings
 
-This section outlines the options available within OneDrive and SharePoint to turn off Restricted mode settings in the Microsoft 365 admin center.
+This section outlines the options available within OneDrive and SharePoint to turn off Baseline Security Mode settings in the Microsoft 365 admin center.
 
 You must be a member of the [SharePoint administrator role](/sharepoint/sharepoint-admin-role) to perform these tasks.
 
@@ -79,7 +79,7 @@ You must be a member of the [SharePoint administrator role](/sharepoint/sharepoi
 
 ### Exchange settings
 
-This section outlines the options available within Exchange to turn off Restricted mode settings in the Exchange admin center.
+This section outlines the options available within Exchange to turn off Baseline Security Mode settings in the Exchange admin center.
 
 You must be a member of the [Exchange online administrator role](../add-users/about-exchange-online-admin-role.md) to perform this task.
 
@@ -98,9 +98,9 @@ Before you can disable EWS, make sure that you meet these requirements:
 > [!NOTE]
 > These statements and build requirements are Win32 only.
 
-#### Impact of Restricted mode settings on cross-tenant features
+#### Impact of Baseline Security Mode settings on cross-tenant features
 
-Currently the following features will not work when Restricted mode settings are enabled:
+Currently the following features will not work when Baseline Security Mode settings are enabled:
 
 - Calendar sharing and Free/Busy (cross-tenant/cloud)
 - MailTips (cross-tenant/cloud)
@@ -108,7 +108,7 @@ Currently the following features will not work when Restricted mode settings are
 
 ### Identity settings
 
-This section outlines the options available within Identity to turn off Restricted mode settings in the Microsoft 365 admin center.
+This section outlines the options available within Identity to turn off Baseline Security Mode settings in the Microsoft 365 admin center.
 
 |Setting     |More information  |
 |---------|---------|
@@ -119,7 +119,7 @@ This section outlines the options available within Identity to turn off Restrict
 
 ### Teams devices settings
 
-This section outlines the options available within Teams to turn off Restricted mode settings in the Microsoft 365 admin center.
+This section outlines the options available within Teams to turn off Baseline Security Mode settings in the Microsoft 365 admin center.
 
 You must be a member of the [Teams administrator role](/entra/identity/role-based-access-control/permissions-reference) to perform these tasks.
 

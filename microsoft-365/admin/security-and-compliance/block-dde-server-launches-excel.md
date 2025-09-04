@@ -25,7 +25,7 @@ If you have enabled this setting but need to revert to the default behavior, you
 ## Turn off setting in the Microsoft 365 admin center
 
 1. Go to the admin center and select Org settings.
-1. Select Restricted Mode, find the **Block Dynamic Data Exchange (DDE) server launches in Excel** setting, and switch the toggle to **Off**.
+1. Select Baseline Security Mode, find the **Block Dynamic Data Exchange (DDE) server launches in Excel** setting, and switch the toggle to **Off**.
 
 ## Use Office Cloud Policy service
 
