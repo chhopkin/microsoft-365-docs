@@ -5,7 +5,7 @@ ms.author: georgerozo
 author: denisebmsft
 manager: dansimp
 ms.reviewer: georgerozo
-ms.date: 08/27/2025
+ms.date: 09/04/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: article
@@ -127,7 +127,7 @@ For more information about using Purview with Microsoft 365 Copilot, see [Micros
 
 #### Cross-cloud governance for AI workloads
 
-[Microsoft Purview](/purview/ai-microsoft-purview) helps you govern AI across hybrid and multicloud environments like Azure, AWS, and Google Cloud. If you have [Microsoft Security Copilot](/copilot/security/microsoft-security-copilot), you get additional AI insights and threat detection capabilities.
+[Microsoft Purview](/purview/ai-microsoft-purview) helps you govern AI across hybrid and multicloud environments like Azure, AWS, and Google Cloud. If you have [Microsoft Security Copilot](/copilot/security/microsoft-security-copilot), you get more AI insights and threat detection capabilities.
 
 - Purview enables consistent data classification, labeling, and policy enforcement across clouds, with visibility into how data flows into AI models and plugins.
 - Security Copilot detects AI-related risks across platforms, correlates threats, and surfaces posture insights from [Cloud security posture management](/azure/defender-for-cloud/concept-cloud-security-posture-management).
@@ -151,8 +151,11 @@ For more information, see the following resources:
 
 ## Secure your data for Microsoft 365 Copilot
 
-Securing your data is a [shared responsibility](/azure/security/fundamentals/shared-responsibility-ai). Microsoft Purview provides tools to help you monitor compliance and secure your data for Microsoft 365 Copilot. See [Use Microsoft Purview to manage data security & compliance for Microsoft 365 Copilot & Microsoft 365 Copilot Chat](/purview/ai-m365-copilot).
+Securing your data for AI tools like Microsoft 365 Copilot is a shared responsibility. In addition to what Microsoft does to secure Microsoft 365 Copilot, there are certain tasks your organization must do to manage your data and help ensure you're using AI safely and securely. See the [AI shared responsibility model](/azure/security/fundamentals/shared-responsibility-ai). 
 
-High-level deployment guidance is available to help you deploy a secure-by-default configuration, address oversharing concerns, and prevent data leak to shadow AI. See [Microsoft Purview deployment models](https://aka.ms/PurviewBlueprints).
+Microsoft Purview provides tools to help you secure and govern your data for use in Microsoft 365 Copilot and AI tools. See the following articles:
 
-You can use Microsoft Purview to mitigate and manage the risks associated with AI usage. See [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview).
+- [Use Microsoft Purview to manage data security & compliance for Microsoft 365 Copilot & Microsoft 365 Copilot Chat](/purview/ai-m365-copilot)
+- [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview)
+
+Download and review our scenario-based deployment models, presentations, and guides. These resources describe how to rapidly implement a secure-by-default configuration, address oversharing concerns, and prevent data leak to shadow AI. See [Notes from engineering: Microsoft Purview deployment models](https://aka.ms/PurviewBlueprints).
