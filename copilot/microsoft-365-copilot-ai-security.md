@@ -127,7 +127,7 @@ For more information about using Purview with Microsoft 365 Copilot, see [Micros
 
 #### Cross-cloud governance for AI workloads
 
-[Microsoft Purview](/purview/ai-microsoft-purview) helps you govern AI across hybrid and multicloud environments like Azure, AWS, and Google Cloud. If you have [Microsoft Security Copilot](/copilot/security/microsoft-security-copilot), you get additional AI insights and threat detection capabilities.
+[Microsoft Purview](/purview/ai-microsoft-purview) helps you govern AI across hybrid and multicloud environments like Azure, AWS, and Google Cloud. If you have [Microsoft Security Copilot](/copilot/security/microsoft-security-copilot), you get more AI insights and threat detection capabilities.
 
 - Purview enables consistent data classification, labeling, and policy enforcement across clouds, with visibility into how data flows into AI models and plugins.
 - Security Copilot detects AI-related risks across platforms, correlates threats, and surfaces posture insights from [Cloud security posture management](/azure/defender-for-cloud/concept-cloud-security-posture-management).
