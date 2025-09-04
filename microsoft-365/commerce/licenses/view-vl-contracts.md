@@ -166,10 +166,6 @@ If you want to find a new partner, go to [https://aka.ms/pinpoint](https://aka.m
 > [!NOTE]
 > The contact details displayed might only include the partner's organization name, so you might need to search for the organization's "contact us" details. Alternatively, your IT or Procurement departments might have specific contacts you can work with.
 
-## View license grants in contracts
-
-Occasionally, Microsoft Volume Licensing offers a promotion where the purchase of a specific product entitles the customer to the use of another product. This promotion is called a *license grant*. License grants appear in the **Contract details** panel and on the **Products and services** page. Products received from license grants have an asterisk (*) to indicate that they weren't part of the original purchase.
-
 ## View MPSA licenses
 
 MPSA license information is displayed separately from other VL information in a site called the Microsoft Business Center. If you register an MPSA Purchase Account with the same account you use to access the Microsoft 365 admin center, you can view MPSA licenses, software downloads and keys, and other MPSA licensing functions on the admin center > **Billing** > **Your products** > **MPSA products** tab.  
