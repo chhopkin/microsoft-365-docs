@@ -151,9 +151,9 @@ For more information, see the following resources:
 
 ## Secure your data for Microsoft 365 Copilot
 
-Securing your data for AI tools like Microsoft 365 Copilot is a shared responsibility. In addition to what Microsoft does to secure Microsoft 365 Copilot, there are certain tasks your organization must do to help ensure you're using AI safely and securely. See the [AI shared responsibility model](/azure/security/fundamentals/shared-responsibility-ai). 
+Securing your data for AI tools like Microsoft 365 Copilot is a shared responsibility. In addition to what Microsoft does to secure Microsoft 365 Copilot, there are certain tasks your organization must do to manage your data and help ensure you're using AI safely and securely. See the [AI shared responsibility model](/azure/security/fundamentals/shared-responsibility-ai). 
 
-Microsoft Purview provides tools to help you monitor compliance and secure your data for Microsoft 365 Copilot and AI tools. See the following articles:
+Microsoft Purview provides tools to help you secure and govern your data for use in Microsoft 365 Copilot and AI tools. See the following articles:
 
 - [Use Microsoft Purview to manage data security & compliance for Microsoft 365 Copilot & Microsoft 365 Copilot Chat](/purview/ai-m365-copilot)
 - [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview)
