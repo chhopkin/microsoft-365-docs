@@ -25,7 +25,7 @@ appliesto:
 
 [Microsoft 365 Copilot](microsoft-365-copilot-overview.md) is an AI-powered productivity tool that helps users with everyday tasks.
 
-As part of your [Microsoft 365 Copilot adoption](microsoft-365-copilot-enablement-resources.md), you can send a welcome email to your Microsoft 365 Copilot users that announces Microsoft 365 Copilot and its features. You can also enable feedback for Microsoft 365 Copilot users.
+As part of your [Microsoft 365 Copilot adoption](microsoft-365-copilot-enablement-resources.md), a welcome email to your Microsoft 365 Copilot users is sent on license assignment that announces Microsoft 365 Copilot and its features: You can also enable feedback for Microsoft 365 Copilot users.
 
 :::image type="content" source="media/microsoft-365-copilot-enablement-resources/adopt-copilot-welcome-email-feedback.svg" alt-text="Diagram that shows the send welcome email and enable feedback step to adopt and enable Microsoft 365 Copilot." lightbox="media/microsoft-365-copilot-enablement-resources/adopt-copilot-welcome-email-feedback.svg":::
 
@@ -46,6 +46,35 @@ This guide includes an option for sending a welcome email to your Copilot users.
 :::image type="content" source="media/copilot-welcome-email-jan.png" alt-text="An image of an email introducing Microsoft 365 Copilot and its capabilities that an admin can provide to users.":::
 
 The welcome email also includes a link to [Microsoft Copilot help and learning](https://support.microsoft.com/copilot-skilling).
+
+## Organizational Messages
+
+Admins can also send a customizable in-product message through Teams with Organizational Messaging in the Microsoft Admin Center. After you [set up Microsoft 365 Copilot and assign licenses](microsoft-365-copilot-setup.md) to your users, they can be notified with your message in-product telling them that they can now use Microsoft 365 Copilot.
+
+Admins can configure their message through the Microsoft 365 admin center.
+
+:::image type="content" source="media/copilot-welcome-email-jan.png" alt-text="An image of an email introducing Microsoft 365 Copilot and its capabilities that an admin can provide to users.":::
+
+1. In your Microsoft 365 admin center, in the navigation pane, select **Setup**.
+2. On the Setup page, in the **Featured collections** section, select **Advanced deployment guides & assistance**.
+3. Select **Set up Microsoft 365 Copilot**.
+4. On the **Set up Microsoft 365 Copilot** page, select **Promote using Microsoft 365 Copilot**.
+
+> [!NOTE]
+> The **Promote using Microsoft 365 Copilot** option is also available in Advanced Deployment Guides for [Quickstart](), [Foundations+](), and [Advanced Configuration](). 
+
+After selecting **Promote using Microsoft 365 Copilot**, the Organization messages pane displays and shows a default message. If you choose to use it, select **Schedule message**.  
+
+If you want to create a custom message instead, select **More customization**.
+
+:::image type="content" source="media/copilot-welcome-email-jan.png" alt-text="An image of an email introducing Microsoft 365 Copilot and its capabilities that an admin can provide to users.":::
+
+If you choose to create a custom message, you will be prompted for more options or predefined templates to choose from.
+
+:::image type="content" source="media/copilot-welcome-email-jan.png" alt-text="An image of an email introducing Microsoft 365 Copilot and its capabilities that an admin can provide to users.":::
+
+
+
 
 ## Enable feedback
 
