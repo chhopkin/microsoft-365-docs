@@ -41,7 +41,7 @@ To fix this, you need to update the policy assignment to include the resource ty
 
 5. Select the policy, and then select **Edit assignment**.
 
-6. Under **Parameters88, add the resource types you want to allow:
+6. Under **Parameters**, add the resource types you want to allow:
     - Microsoft.Syntex/accounts
     - Microsoft.Syntex/documentProcessors
 
