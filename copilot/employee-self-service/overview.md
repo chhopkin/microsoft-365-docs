@@ -39,7 +39,7 @@ The Employee Self-Service (ESS) agent answer policy-related questions, assist wi
 |1.0.0.61 |No functional changes. |
 |1.0.0.60 |Added default starter prompts. |
 |1.0.0.59 |Internal naming standards fix. |
-|1.0.0.58 |Supported the UserContext flow among ESS Core package and Independent software vendor (ISV) packages. </br>The UserContext setup is the same as the existing way of adding ISV-specific user context topics as redirected topics in the topic [Setup User Context](sapsuccessfactors.md#setup-user-context). |
+|1.0.0.58 |Supported the UserContext flow among ESS Core package and ISV packages. </br>The UserContext setup is the same as the existing way of adding ISV-specific user context topics as redirected topics in the topic [Setup User Context](sapsuccessfactors.md#setup-user-context). |
 |1.0.0.71 |Minor bug fixes. |
 |1.0.0.72 |Bug fixes for the Large Multimodal Model (LMM) capacity error message. |
 
