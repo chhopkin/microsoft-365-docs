@@ -15,7 +15,7 @@ ms.collection:
 - essentials-overview
 appliesto:
 - ✅ Microsoft 365 Copilot
-ms.date: 08/12/2025
+ms.date: 09/05/2025
 ---
 
 # Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat
@@ -76,7 +76,7 @@ Next, set up pay-as-you-go billing for Copilot Chat in the Microsoft 365 admin c
 1. In the admin center, go to the **Copilot** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2330674" target="_blank">Billing & usage</a> page.
 2. Select the **Pay-as-you-go services** tab, then select **Microsoft 365 Copilot Chat**.
 3. Find the **Billing policy name** to bill for any overage, then switch the **Connection status** toggle to **Connected**. If you have multiple Azure subscriptions or billing policies, select the one that you want to use for Copilot Chat.
-4. If your tenant has a Copilot Studio capacity pack, you see a checkbox for **Apply available Microsoft Copilot Studio message capacity to Microsoft 365 Copilot Chat**. Select the checkbox to indicate that you want to use your prepaid credit capacity for Copilot Chat.
+4. If your tenant has a Copilot Studio capacity pack, you see a checkbox for **Apply available Microsoft Copilot Studio credit capacity to Microsoft 365 Copilot Chat**. Select the checkbox to indicate that you want to use your prepaid credit capacity for Copilot Chat.
 5. Select **Save**.
 
 If a Microsoft 365 Copilot Chat environment doesn't already exist in Power Platform, the system creates one for you when you enable the capacity pack option. This environment is where your capacity pack is applied for Copilot Chat usage.
@@ -88,7 +88,7 @@ After you save the changes, you see a confirmation message. If you enabled the c
 
 ## Step 3. Allocate capacity to the Copilot Chat environment in the Power Platform admin center
 
-After pay-as-you-go billing is set up with the capacity pack option, you must allocate your prepaid credits to the Copilot Chat environment in the Power Platform admin center. To learn more about capacity management for Copilot Studio, see [Manage Copilot Studio messages and capacity - Power Platform | Microsoft Learn](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
+After pay-as-you-go billing is set up with the capacity pack option, you must allocate your prepaid credits to the Copilot Chat environment in the Power Platform admin center. To learn more about capacity management for Copilot Studio, see [Manage Copilot Studio credits and capacity - Power Platform | Microsoft Learn](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
 
 1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2160305" target="_blank">Power Platform admin center</a> and sign in with your admin account.
 2. In the navigation menu, select **Licensing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2330570" target="_blank">Copilot Studio</a>.
@@ -108,7 +108,7 @@ After you complete this step, your Copilot Chat environment has the specified nu
 
 ## Monitor Copilot Chat usage and capacity in the Power Platform admin center
 
-After the capacity pack is in use, you can monitor consumption to understand how much of your prepaid capacity is used and whether any pay-as-you-go charges are occurring. To learn more, see [Manage Copilot Studio messages and capacity - Power Platform | Microsoft Learn](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
+After the capacity pack is in use, you can monitor consumption to understand how much of your prepaid capacity is used and whether any pay-as-you-go charges are occurring. To learn more, see [Manage Copilot Studio credits and capacity - Power Platform | Microsoft Learn](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
 
 In the Power Platform admin center, go to the **Licensing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2330570" target="_blank">Copilot Studio</a> page. On the **Summary** tab, the **Capacity summary** section reflects capacity usage, shows how many credits were consumed in total, and shows how many remain available for the current period.
 
@@ -132,6 +132,6 @@ End-users using Microsoft 365 Copilot Chat must have a Microsoft 365 Copilot lic
 
 ## Related content
 
-[Manage Copilot Studio messages and capacity - Power Platform | Microsoft Learn](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new) (article)\
+[Manage Copilot Studio credits and capacity - Power Platform | Microsoft Learn](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new) (article)\
 [Billing rates and management - Microsoft Copilot Studio | Microsoft Learn](/microsoft-copilot-studio/requirements-messages-management) (article)\
 [Copilot Studio licensing - Microsoft Copilot Studio | Microsoft Learn](/microsoft-copilot-studio/billing-licensing?source=recommendations) (article)
