@@ -16,6 +16,7 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
+- operations-pod
 ms.custom:
 - commerce_subscriptions
 - AdminSurgePortfolio
@@ -25,7 +26,7 @@ ms.custom:
 - GAUpdates
 search.appverid: MET150
 description: "Learn how to manage free self-service sign-up subscriptions for your organization in the Microsoft 365 admin center."
-ms.date: 01/06/2025
+ms.date: 08/26/2025
 ---
 
 # Manage self-service sign-up subscriptions in the Microsoft 365 admin center

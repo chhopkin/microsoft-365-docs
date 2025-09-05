@@ -16,6 +16,7 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
+- operations-pod
 search.appverid: MET150
 description: "Learn about information specifically for Microsoft 365 for business in Italy."
 ms.custom:

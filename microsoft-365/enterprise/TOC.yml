@@ -129,7 +129,7 @@ items:
           href: setup-guides-for-microsoft-365.md
         - name: Integration
           items: 
-            - name: Integrated Apps and Microsoft Entra ID
+            - name: Custom Apps and Microsoft Entra ID
               href: integrated-apps-and-azure-ads.md
             - name: Integration with on-premises
               href: microsoft-365-integration.md
@@ -318,7 +318,7 @@ items:
               href: m365-dr-workload-spo.md
             - name: Microsoft Teams
               href: m365-dr-workload-teams.md
-            - name: Microsoft 365 Copilot
+            - name: Microsoft 365 Copilot and Copilot Chat
               href: m365-dr-workload-copilot.md
             - name: Microsoft Defender for Office P1
               href: m365-dr-workload-mdo-p1.md

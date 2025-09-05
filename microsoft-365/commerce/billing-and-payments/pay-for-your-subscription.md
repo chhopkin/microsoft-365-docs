@@ -18,6 +18,7 @@ ms.collection:
 - highpri
 - M365-subscription-management
 - Adm_O365
+- operations-pod
 search.appverid: MET150
 ms.custom:
 - commerce_billing
@@ -30,7 +31,7 @@ ms.custom:
 - admindeeplinkMAC
 - GAUpdates
 description: "Learn what payment options are available to pay for your Microsoft business subscription."
-ms.date: 07/13/2025
+ms.date: 08/24/2025
 ---
 
 # Payment options for Microsoft business subscriptions
@@ -42,6 +43,7 @@ Microsoft accepts credit cards and debit cards as payment methods for the busine
 You can manage payment methods whenever you need to. To learn how to add, change, or replace a payment method, see [Manage payment methods for Microsoft business accounts](manage-payment-methods.md).
 
 **Just want to find out where to send your invoice payment?** If you currently pay your invoice by wire transfer, see [Where do I send my wire transfer payment?](#where-do-i-send-my-wire-transfer-payment)
+
 
 ## Before you begin
 
@@ -67,9 +69,12 @@ If recurring billing is turned off for a subscription that is paid for by a bill
 
 ## Pay now and partial payments
 
-Partial payment is available in the Microsoft 365 admin center for customers who experience a payment failure during the one-time payment **Pay now** flow. If you accrue usage higher than your credit card limit, you can use the following self-serve process to split the invoice amount across multiple credit cards. 
- 
+If you have a Microsoft Customer Agreement (MCA) billing account type, partial payment is available in the Microsoft 365 admin center for customers who experience a payment failure during the one-time payment **Pay now** flow. If you accrue usage higher than your credit card limit, you can use the following self-serve process to split the invoice amount across multiple credit cards. 
+
 A minimum payment has a minimum value that you can pay, which varies by country/region. 
+
+> [!Important]
+> Partial payments only apply to customers with a Microsoft Customer Agreement billing account type. 
 
 > [!NOTE] 
 > To avoid service interruption, pay the full invoice amount by the due date on the invoice. 
@@ -78,7 +83,7 @@ A minimum payment has a minimum value that you can pay, which varies by country/
 
    - If you're using the **Simplified view**, select the **Products** tab, then select **View invoices**. 
    - If you're using the **Dashboard view**, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">Bills & payments</a> page, and select the **Invoices** tab. 
-1. If any of your eligible invoices are due or past due, you see a blue **Pay now** link for the invoice. Select **Pay now**. 
+1. If any of your eligible invoice are due or past due, you see a blue **Pay now** link for the invoice. Select **Pay now**. 
 1. In the **Pay now** window, select **Select a payment method** to choose an existing credit card or add a new one.
 1. Select **Pay now**.
 1. If the payment fails, the partial payment feature appears in the **Pay now** section. There's a minimum partial payment amount. You must enter an amount greater than the minimum. 

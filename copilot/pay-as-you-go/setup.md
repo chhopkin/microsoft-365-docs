@@ -14,6 +14,7 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 - essentials-overview
+- operations-pod
 ms.custom: [copilot-learning-hub]
 appliesto:
 - ✅ Microsoft 365 Copilot
@@ -36,7 +37,7 @@ This article applies to:
 To set up pay-as-you-go, you must have the following prerequisites:
 
 - Azure subscription and resource group:
-  - You must have an owner or contributor Azure role to an Azure subscription to set up the pay-as-you-go service.
+  - You must have an owner or contributor Azure role to an [Azure subscription](/azure/cloud-adoption-framework/ready/azure-best-practices/initial-subscriptions) to set up the pay-as-you-go service.
   - You must have an owner or contributor Azure role to an Azure resource group linked to the same Azure subscription to set up the pay-as-you-go service.
 
   To learn more, see [Use the Azure portal and Azure Resource Manager to Manage Resource Groups](/azure/azure-resource-manager/management/manage-resource-groups-portal).

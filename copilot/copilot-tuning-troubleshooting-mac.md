@@ -13,6 +13,7 @@ ms.localizationpriority: medium
 ms.collection:
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 description: Find information about how to troubleshoot issues with the Microsoft 365 admin center when using Copilot Tuning to fine-tune models.
 ---
 

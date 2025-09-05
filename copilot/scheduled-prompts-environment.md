@@ -12,6 +12,7 @@ ms.localizationpriority: medium
 ms.collection:
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 description: "Learn about how the Microsoft 365 environment supports Scheduled Prompts with built-in governance, permissions, and lifecycle management."
 ---
 

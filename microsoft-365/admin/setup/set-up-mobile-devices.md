@@ -17,6 +17,7 @@ ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
 - Adm_TOC
+- operations-pod
 ms.custom:
 - VSBFY23
 - Core_O365Admin_Migration
