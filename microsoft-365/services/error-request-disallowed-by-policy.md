@@ -1,5 +1,5 @@
 ---
-title: Error code: 
+title: RequestDisallowedByPolicy 
 ms.author: chucked
 author: chuckedmonson
 manager: jtremper
@@ -15,7 +15,7 @@ ms.localizationpriority:  medium
 description: Learn how to fix the RequestDisallowedByPolicy error when creating resources in Azure.
 ---
 
-# Error code: RequestDisallowedByPolicy
+# RequestDisallowedByPolicy
 
 This article describes how to fix the **RequestDisallowedByPolicy** error when creating resources in Azure.
 
