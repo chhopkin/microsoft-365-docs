@@ -83,5 +83,5 @@ items:
 
     - name: Troubleshooting
       items:
-            - name: Error code: RequestDisallowedByPolicy
+            - name: Error code RequestDisallowedByPolicy
               href: error-request-disallowed-by-policy.md
