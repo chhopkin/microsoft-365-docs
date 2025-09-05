@@ -74,7 +74,7 @@ The ESS Agent involves multiple roles across different service areas. Operators 
 
 The **Admin** works in the Microsoft admin center to assign roles.
 
-The **Maker** works in Microsoft Copilot Studio to configure the agent. The maker sets up user context, knowledge sources (including M365 data and ISV connectors), topics, and ISV packages. All of this information goes through orchestration to reach the end user.
+The **Maker** works in Microsoft Copilot Studio to configure the agent. The maker sets up user context, knowledge sources (including Microsoft 365 data and ISV connectors), topics, and ISV packages. All of this information goes through orchestration to reach the end user.
 
 The **End user** accesses the Employee Self-Service agent in Microsoft 365 Chat or through Microsoft Teams.
 
