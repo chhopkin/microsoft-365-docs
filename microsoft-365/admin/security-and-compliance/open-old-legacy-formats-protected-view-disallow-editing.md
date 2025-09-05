@@ -42,7 +42,7 @@ The following legacy file formats will open in Protected View:
 
 If you have turned this setting on but need to revert to the default behaviors (not opening files in Protected View, allowing files to be saved in these formats, and allowing external workbook links to reference files), you can turn off the Baseline Security Mode setting directly in the Microsoft 365 admin center.
 
-1. Go to the admin center and select Org settings.
+1. Go to the Microsoft 365 admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.cloud.microsoft</a> and select Org settings.
 1. Select Baseline Security Mode, find the **Open old legacy formats in Protected View and save as modern format**, and switch the toggle to **Off**.
 
 ## Use Office Cloud Policy service

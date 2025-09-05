@@ -34,7 +34,7 @@ The following ancient legacy file formats will open in Protected View with editi
 
 If you have turned this setting on but need to revert to the default behaviors (allowing trusted files to bypass Protected View and allowing users to override the editing block using Trust Center), you can turn off the setting directly in the Microsoft 365 admin center.
 
-1. Go to the admin center and select Org settings.
+1. Go to the Microsoft 365 admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.cloud.microsoft</a> and select Org settings.
 2. Select Baseline Security Mode, find the **Open ancient legacy formats in Protected View and disallow editing** setting, and switch the toggle to **Off**.
 
 ## Use Office Cloud Policy service

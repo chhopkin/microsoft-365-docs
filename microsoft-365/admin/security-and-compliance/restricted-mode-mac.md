@@ -39,7 +39,7 @@ You must be the appropriate admin for the feature area. For more information, se
 
 ## How to get to Baseline Security Mode settings
 
-1. To get to Baseline Security Mode settings, go to the Microsoft 365 admin center and select **Settings** > **Org Settings**, then go to the **Security & privacy** tab.
+1. To get to Baseline Security Mode settings, go to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) and select **Settings** > **Org Settings**, then go to the **Security & privacy** tab.
 1. Select **Baseline Security Mode**.
 
 ## Available Baseline Security Mode settings
