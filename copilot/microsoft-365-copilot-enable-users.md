@@ -53,7 +53,7 @@ Admins can also send a customizable in-product message through Teams with Organi
 
 Admins can configure their message through the Microsoft 365 admin center.
 
-:::image type="content" source="media/copilot-welcome-email-jan.png" alt-text="An image of an email introducing Microsoft 365 Copilot and its capabilities that an admin can provide to users.":::
+:::image type="content" source="media/promote-using-copilot.png" alt-text="An image of the Set up Microsoft 365 Copilot page in the Microsoft 365 admin center.":::
 
 1. In your Microsoft 365 admin center, in the navigation pane, select **Setup**.
 2. On the Setup page, in the **Featured collections** section, select **Advanced deployment guides & assistance**.
@@ -63,18 +63,24 @@ Admins can configure their message through the Microsoft 365 admin center.
 > [!NOTE]
 > The **Promote using Microsoft 365 Copilot** option is also available in Advanced Deployment Guides for [Quickstart](), [Foundations+](), and [Advanced Configuration](). 
 
-After selecting **Promote using Microsoft 365 Copilot**, the Organization messages pane displays and shows a default message. If you choose to use it, select **Schedule message**.  
+After selecting **Promote using Microsoft 365 Copilot**, the Organization messages pane displays and shows the default message. If you choose to use it, select the recipients, schedule when and how regularly you want teh message to be delivered to your users, and then select **Schedule message**.  
 
-If you want to create a custom message instead, select **More customization**.
+### Create a custom message
 
-:::image type="content" source="media/copilot-welcome-email-jan.png" alt-text="An image of an email introducing Microsoft 365 Copilot and its capabilities that an admin can provide to users.":::
+If you want to create a custom message instead of using the default one provided to you, select **More customization**.
 
-If you choose to create a custom message, you will be prompted for more options or predefined templates to choose from.
+:::image type="content" source="media/organizational-message-copilot.png" alt-text="An image of the default organization message for Copilot users.":::
 
-:::image type="content" source="media/copilot-welcome-email-jan.png" alt-text="An image of an email introducing Microsoft 365 Copilot and its capabilities that an admin can provide to users.":::
+On the **Organization messages** page, you can then create and deliver messages to targeted groups of users in your organization.
 
-
-
+1. Select **Create a message**.
+2. Select an objective (for example, Adoption, Onboarding, Sustainability, or Training.). Select **Next**.
+3. Select where you would like your message to diplay (for example, Notifications area, Taskbar, Teaching popover, or Windows spotlight). Select **Next**.
+4. Choose to create you own message or start with a premade template. Select **Next**.
+5. Write your message, then select **Next**.
+6. Select your target audience, then select **Next**.
+7. Schedule how long and how often you want you message to appear to your recipients. Select **Next**.
+8. Review your selections, and then select **Schedule**.
 
 ## Enable feedback
 
