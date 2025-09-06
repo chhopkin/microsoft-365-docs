@@ -10,6 +10,7 @@ ms.author:   jefferc # Microsoft alias
 ms.service: microsoft-365-copilot
 ms.topic: how-to
 ms.date:     09/05/2025
+manager: ameshm
 ---
 
 # Deployment overview for the Microsoft 365 Copilot app
