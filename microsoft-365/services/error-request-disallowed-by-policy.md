@@ -49,7 +49,7 @@ To fix this, you need to update the policy assignment to include the resource ty
 
 8. Try creating the resource again.
 
-Need visual help?
+### Need visual help?
 
 Check out the following screenshots for each step in the Azure portal to guide you through the process.
 
