@@ -21,7 +21,7 @@ appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# Welcome users and enable feedback for Microsoft 365 Copilot
+# Welcome users, create organizatioal messages, and enable feedback for Microsoft 365 Copilot
 
 [Microsoft 365 Copilot](microsoft-365-copilot-overview.md) is an AI-powered productivity tool that helps users with everyday tasks.
 
@@ -29,7 +29,9 @@ As part of your [Microsoft 365 Copilot adoption](microsoft-365-copilot-enablemen
 
 :::image type="content" source="media/microsoft-365-copilot-enablement-resources/adopt-copilot-welcome-email-feedback.svg" alt-text="Diagram that shows the send welcome email and enable feedback step to adopt and enable Microsoft 365 Copilot." lightbox="media/microsoft-365-copilot-enablement-resources/adopt-copilot-welcome-email-feedback.svg":::
 
-This article provides information about how to send users a welcome email, enable feedback, and review the Microsoft 365 Copilot usage activity report.
+Additionally, admins can use Organizational Messaging in the Microsoft Admin Center to deliver tailored in-product messages to your users directly through Teams."
+
+This article provides information about how to send users a welcome email, enable feedback, send organizational messages, and review the Microsoft 365 Copilot usage activity report.
 
 This article applies to:
 
@@ -58,20 +60,20 @@ Admins can configure their message through the Microsoft 365 admin center.
 1. In your Microsoft 365 admin center, in the navigation pane, select **Setup**.
 2. On the Setup page, in the **Featured collections** section, select **Advanced deployment guides & assistance**.
 3. Select **Set up Microsoft 365 Copilot**.
-4. On the **Set up Microsoft 365 Copilot** page, select **Promote using Microsoft 365 Copilot**.
+4. On the **Set up Microsoft 365 Copilot** page, in the **Promote using Microsoft 365 Copilot** tile, select **Schedule message**.
 
 > [!NOTE]
 > The **Promote using Microsoft 365 Copilot** option is also available in Advanced Deployment Guides for [Quickstart](), [Foundations+](), and [Advanced Configuration](). 
 
-After selecting **Promote using Microsoft 365 Copilot**, the Organization messages pane displays and shows the default message. If you choose to use it, select the recipients, schedule when and how regularly you want teh message to be delivered to your users, and then select **Schedule message**.  
-
-### Create a custom message
-
-If you want to create a custom message instead of using the default one provided to you, select **More customization**.
+4. The Organization messages pane displays and shows the default message and how it will dsiplay to your users. If you choose to use it, select the recipients, schedule when and how regularly you want the message to be delivered to your users, and then select **Schedule message**.  
 
 :::image type="content" source="media/organizational-message-copilot.png" alt-text="An image of the default organization message for Copilot users.":::
 
-On the **Organization messages** page, you can then create and deliver messages to targeted groups of users in your organization.
+### Create a custom message
+
+If you want to create a custom message instead of using the default one provided to you, at the bottom of the Organizational messages pane, select **More customization**. You can then create and deliver messages to targeted groups of users in your organization.
+
+:::image type="content" source="media/create-custom-message.png" alt-text="An image of the Organizational messages page in which you can create a custom message.":::
 
 1. Select **Create a message**.
 2. Select an objective (for example, Adoption, Onboarding, Sustainability, or Training.). Select **Next**.
