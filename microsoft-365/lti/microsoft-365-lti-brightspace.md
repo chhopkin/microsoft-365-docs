@@ -58,7 +58,7 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
     | **Field in Brightspace** | **Value** |
     |---|---|
-    | **Name** | Microsoft Education |
+    | **Name** | Microsoft 365 LTI |
     | **Domain** | Copy the **Target Link URL** value from the Microsoft registration. |
     | **Redirect URLs** | Copy the **Redirect URL** value from the Microsoft registration. |
     | **OpenID Connect Login URL** | Copy the **Open ID connection URL** value from the Microsoft registration. |
@@ -77,7 +77,7 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
 1. Select **New Deployment**.
 
-1. Select **Microsoft** **Education** as the **Tool** and enter **Microsoft** **Education** as the **Name**.
+1. Select **Microsoft 365 LTI** as the **Tool** and enter **Microsoft 365 LTI** as the **Name**.
 
 1. Select ***all*** Security Settings ***except*** **Anonymous** (including Org Unit information, User Information, Link Information).
   
@@ -111,7 +111,7 @@ You now have a tool registration configured in the Microsoft registration portal
 
 1. In Brightspace, navigate to **Admin Tools** > **External Learning Tools**.
 
-1. Select **Microsoft Education**.
+1. Select **Microsoft 365 LTI**.
 
 1. Scroll down to select **View Links**.
 
@@ -121,7 +121,7 @@ You now have a tool registration configured in the Microsoft registration portal
 
 1. Enter **Microsoft Education** as the **Name**.
 
-1. For the **URL**, enter: `https://assignments.edu.cloud.microsoft/lti-ui`.
+1. For the **URL**, enter: `https://lti.edu.cloud.microsoft/tool`.
 
 1. For the **Type**, select **Basic Launch**.
 
@@ -131,11 +131,41 @@ You now have a tool registration configured in the Microsoft registration portal
 
 1. Select **New Link**.
 
-1. Enter **Microsoft Education** as the **Name**.
+1. Enter **Microsoft Education Activity** as the **Name**.
 
-1. For the **URL**, enter: `https://assignments.edu.cloud.microsoft/lti-ui`.
+1. For the **URL**, enter: `https://lti.edu.cloud.microsoft/tool`.
 
 1. Select **Deep Linking Quicklink** for the **Type**.
+
+1. Create a **Custom Parameter** named **launchType** with value **courseAssignments**.
+
+1. Select **Save and Close** to create the link.
+
+**To create a Deep Linking Insert Stuff link for documents:**
+
+1. Select **New Link.**
+
+1. Enter **Microsoft 365 Document** as the **Name**.
+
+1. For the **URL**, enter: `https://lti.edu.cloud.microsoft/tool`
+
+1. Select **Deep Linking Quicklink** for the **Type**.
+
+1. Create a **Custom Parameter** named **launchType** with value **link-selection**.
+
+1. Select **Save and Close** to create the link.
+
+**To create a Deep Linking Quicklink link for document collaborations:**
+
+1. Select **New Link**.
+
+1. Enter **Microsoft 365 Document Collaboration** as the **Name**.
+
+1. For the **URL**, enter: `https://lti.edu.cloud.microsoft/tool`
+
+1. Select **Deep Linking Quicklink** for the **Type**.
+
+1. Create a **Custom Parameter** named **launchType** with value **collaborations**.
 
 1. Select **Save and Close** to create the link.
 
@@ -145,7 +175,7 @@ You now have a tool registration configured in the Microsoft registration portal
 
 1. Enter **Microsoft Education** as the **Name**.
 
-1. For the **URL**, enter: `https://assignments.edu.cloud.microsoft/lti-ui`.
+1. For the **URL**, enter: `https://lti.edu.cloud.microsoft/tool`.
 
 1. For the **Type**, select **Widget**.
 
@@ -173,6 +203,40 @@ You now have a tool registration configured in the Microsoft registration portal
 
 1. Select **Save and Close**.
 
+## Turn on the new Microsoft 365 LTI app on the Quicklinks Activity Bar
+
+The Microsoft 365 LTI app is now available to users, and the older OneDrive app can now be turned off (if ready to migrate over).
+
+1. Navigate to **Admin > Config Variable Browser**.
+1. Locate the variable titled **d2l.3rdParty.OneDrive.EnableOneDrivePicker** and set the value to **off**.
+
+To add the Microsoft 365 LTI app to Brightspace's activity bar for quick access, you need to set an org unit **Config Variable** to the link ID of the LTI app.
+
+> [!NOTE]
+> You need to repeat these steps for every org ID (or parent org ID) where you want the Microsoft 365 LTI app to appear in the activity bar.
+
+**To collect the Link ID:**
+
+1. Navigate to **Admin Tools** by selecting the gear icon at the top right.
+1. Select **Manage Extensibility** to view the **LTI Advantage Deployments** list.
+1. Select the **Microsoft 365 LTI** LTI Advantage app you created.
+1. Scroll to the bottom of the page and select **View Deployments**.
+1. Select the **Microsoft 365 LTI** app deployment you created.
+1. Scroll down to the bottom of the page and select **View Links**.
+1. Select the **Microsoft 365 Document** link with the **Deep Linking Quicklink** type.
+1. Move your mouse to the URL address bar in your browser.
+1. Copy the numeric digits after the final / in the URL. For example, if the link url is `https://example.desire2learn.com/d2l/le/ltiadvantage/deployments/3bfcc0b7-2fb6-4ffe-b353-95b520d4bae6/links/details/259`, copy the 259 numeric value.
+
+**To update the Config Variables:**
+
+1. In the Brightspace admin portal, navigate to **Admin Tools** by selecting the top right gear icon.
+1. Select **Config Variable Browser**.
+1. In the **All Variables** menu on the left, navigate to **3rdParty > Microsoft > OneDriveLTI**. You should see the variable name **3rdparty.microsoft.onedriveLTI.linkId** in the right pane.
+1. Select the **LinkId variable** name.
+1. On the **LinkId configuration** screen, select **Add Value** to select an **Org Unit** and paste the numeric Link ID value you collected previously.
+1. You need to repeat this for each Org Unit you wish to use the **Quicklinks Activity Bar**.
+1. To have this setting applied to descendant org types of those you added, you can edit the **Cascading Org Unit Types** and select which types and in which order the settings will apply.
+
 ## First-time configuration by an LMS administrator
 
 You must launch the app for the first time as a user with the **Brightspace System Administrator** role to complete the configuration for your deployment and activate the tool. Users won't have access until you complete this step!
@@ -193,7 +257,7 @@ Learn more about Microsoft 365 LTI application scenarios for Instructors and Stu
 
 - Popups shouldn't be blocked for Microsoft apps.
 
-If you receive an error message regarding cookies being blocked, check your browser's address bar for an icon to allow third-party cookies and popups. If this issue persists, review your settings related to cookies and popups to make sure they are allowed for this app.
+If you receive an error message regarding cookies being blocked, check your browser's address bar for an icon to allow third-party cookies and popups. If this issue persists, review your settings related to cookies and popups to make sure they're allowed for this app.
 
 ## Getting help and giving feedback
 

@@ -5,6 +5,7 @@ ms.date: 04/01/2024
 |:------------------------------------------------------------------------------------|:-------|
 |South Korea, Japan, Singapore, Malaysia, Hong Kong Special Administrative Region     |APC
 |Australia                                                                            |AUS
+|Austria                                                                              |AUT
 |Brazil                                                                               |BRA
 |Canada                                                                               |CAN
 |Chile                                                                                |CHL

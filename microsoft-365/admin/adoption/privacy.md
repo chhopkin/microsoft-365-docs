@@ -17,6 +17,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - trust-pod
+- operations-pod
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150

@@ -14,6 +14,7 @@ ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 ms.custom: 
 ms.reviewer: alejanl, camillepack
 search.appverid: MET150
