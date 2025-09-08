@@ -1,11 +1,11 @@
 ---
-title: Microsoft 365 Copilot welcome email and feedback
+title: Welcome users, create organizatioal messages, and enable feedback for Microsoft 365 Copilot
 f1.keywords:
 - NOCSH
 ms.author: efrene
-author: Efrene
+author: efrene
 manager: dansimp
-ms.date: 05/20/2025
+ms.date: 09/08/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
@@ -25,7 +25,7 @@ appliesto:
 
 [Microsoft 365 Copilot](microsoft-365-copilot-overview.md) is an AI-powered productivity tool that helps users with everyday tasks.
 
-As part of your [Microsoft 365 Copilot adoption](microsoft-365-copilot-enablement-resources.md), a welcome email to your Microsoft 365 Copilot users is sent on license assignment that announces Microsoft 365 Copilot and its features: You can also enable feedback for Microsoft 365 Copilot users.
+As part of your [Microsoft 365 Copilot adoption](microsoft-365-copilot-enablement-resources.md), a welcome email to your Microsoft 365 Copilot users is sent on license assignment that announces Microsoft 365 Copilot and its features. You can also enable feedback for Microsoft 365 Copilot users.
 
 :::image type="content" source="media/microsoft-365-copilot-enablement-resources/adopt-copilot-welcome-email-feedback.svg" alt-text="Diagram that shows the send welcome email and enable feedback step to adopt and enable Microsoft 365 Copilot." lightbox="media/microsoft-365-copilot-enablement-resources/adopt-copilot-welcome-email-feedback.svg":::
 
@@ -39,15 +39,13 @@ This article applies to:
 
 ## Send welcome email
 
-After you [set up Microsoft 365 Copilot and assign licenses](microsoft-365-copilot-setup.md) to your users, we recommend you send your users a welcome email. The email should introduce them to Microsoft 365 Copilot and help them understand what Copilot can do for them.
-
-- To send a welcome email, use the [Microsoft 365 Copilot setup guide in the Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home?Q=learndocs#/modernonboarding/microsoft365copilotsetupguide) .
-
-This guide includes an option for sending a welcome email to your Copilot users. For example, your email can look like the following email:
+After you assign a Microsoft 365 Copilot license to a user, they will automatically be sent a notification email that can look like the following email.
 
 :::image type="content" source="media/copilot-welcome-email-jan.png" alt-text="An image of an email introducing Microsoft 365 Copilot and its capabilities that an admin can provide to users.":::
 
 The welcome email also includes a link to [Microsoft Copilot help and learning](https://support.microsoft.com/copilot-skilling).
+
+We also recommend sending an in-product notification to your users through Organizational Messeging.
 
 ## Organizational Messages
 
