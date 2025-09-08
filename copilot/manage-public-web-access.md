@@ -15,7 +15,7 @@ ms.collection:
 - must-keep
 - trust-pod
 hideEdit: true
-ms.date: 07/30/2025
+ms.date: 09/05/2025
 ms.update-cycle: 180-days
 ---
 
@@ -66,6 +66,8 @@ Web search query citations are available only in Microsoft 365 Copilot Chat (pre
 ### Web search query logging
 
 Web search query logging is available so that admins can perform search, audit, and eDiscovery on the exact web search queries Copilot derived from the user's prompt. Admins can already perform these actions for prompts and responses and are able to use their familiar tools to extend those actions to search queries. For more information, see [Audit log activities](/purview/audit-log-activities#copilot-activities), [Copilot interaction events overview](/office/office-365-management-api/copilot-schema), and [Search for and delete Copilot data in eDiscovery (preview)](/purview/edisc-search-copilot-data#identifying-web-queries-in-microsoft-365-copilot-usage).
+
+Administrators can also view the actual web search terms Copilot used, right alongside the original prompt, the response, and any supporting resources by using activity explorer in Microsoft Purview Data Security Posture Management (DSPM) for AI. For more information, see [Learn about Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai).
 
 ### Examples of generated search queries
 
