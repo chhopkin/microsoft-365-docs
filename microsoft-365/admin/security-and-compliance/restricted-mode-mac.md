@@ -86,15 +86,16 @@ You must be a member of the [Exchange online administrator role](../add-users/ab
 
 |Setting     |More information  |
 |---------|---------|
-| Disable tenant-wide access to Exchange web services (EWS) |Exchange web services (EWS) provides cross-platform API access to sensitive Exchange Online data like emails, meetings, and contacts. If compromised, attackers can access confidential data, send phishing emails, spoof identities and potentially gain system control. When you disable access to EWS, you also reduce legacy app usage and minimize the number of endpoints that attackers can target.  <br/><br/> For more information, see [Control access to EWS](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)|
+| Disable tenant-wide access to Exchange web services (EWS) |Exchange web services (EWS) provides cross-platform API access to sensitive Exchange Online data like emails, meetings, and contacts. If compromised, attackers can access confidential data, send phishing emails, spoof identities and potentially gain system control. When you disable access to EWS, you also reduce legacy app usage and minimize the number of endpoints that attackers can target. EWS is also used in some first party features in both Outlook and the web add-in platform. Web add-ins for Word, Excel, PowerPoint and Outlook won't work in some builds [depending on your channel]. See more details below in the requirements section.  <br/><br/> For more information, see [Control access to EWS](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)|
 
 #### Requirements
 
-Before you can disable EWS, make sure that you meet these requirements:
+Before you disable EWS, make sure that you meet these requirements to avoid disruption of web add-ins. Please consider the channel within your organization:
 
-- Current Channel (CC): will require the CC July 2025 Fork. This will be shipped end of August 2025.
-- For Monthly Enterprise Channel (MEC): will require the MEC July 2025  Fork. This will be shipped in November 2025.
-- For Semi Annual Channel (SAC): will require the SAC July 2025 Fork. This will be shipped on January 2026.
+- Current Channel (CC): will require at minimum build 16.0.19127. This build has been released.
+- For Monthly Enterprise Channel (MEC): will require builds 16.0.19127+. This will be released in October of 2025.
+- For Semi Annual Channel (SAC): will require builds 16.0.19127+. This will be released in January 2026.
+- For Teams panels: will require Teams app version 1449/1.0.97.2025086303 or higher. This was released in April 2025.
 
 > [!NOTE]
 > These statements and build requirements are Win32 only.
