@@ -7,7 +7,6 @@ manager: dansimp
 ms.author: ruihu
 author: maggierui
 
-manager: dansimp
 ms.date: 9/9/2025
 
 ms.update-cycle: 180-days
