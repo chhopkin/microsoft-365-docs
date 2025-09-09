@@ -6,10 +6,13 @@ f1.keywords:
 manager: dansimp
 ms.author: ruihu
 author: maggierui
-ms.date: 03/18/2025
+
+ms.date: 9/9/2025
+
 ms.update-cycle: 180-days
 ms.reviewer: cabailey, ruihu
 audience: Admin
+customer-intent: As an IT admin, I want to prepare my organization with E3 license for Microsoft 365 Copilot.
 ms.topic: get-started
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
@@ -44,7 +47,9 @@ This article applies to:
 - Microsoft Purview
 
 > [!NOTE]
-> If you have an E5 license, then see [Microsoft 365 Copilot admin guide for E5 licenses](microsoft-365-copilot-e5-guide.md). For a comparison of the features in the licenses, see [Compare Microsoft 365 Copilot license feature overview](microsoft-365-copilot-license-feature-overview.md).
+> - If you have an E5 license, then see [Microsoft 365 Copilot admin guide for E5 licenses](microsoft-365-copilot-e5-guide.md). For a comparison of the features in the licenses, see [Compare Microsoft 365 Copilot license feature overview](microsoft-365-copilot-license-feature-overview.md).
+>
+> - Beginning in early 2025, Microsoft SharePoint Premium - SharePoint Advanced Management (SAM) is included with your Microsoft 365 Copilot license. To learn more about SAM licensing, see [Microsoft SharePoint Premium - SharePoint Advanced Management](/sharepoint/advanced-management#licensing).
 
 ## Before you begin
 
@@ -60,7 +65,7 @@ This article applies to:
 
   - **[Microsoft SharePoint Premium - SharePoint Advanced Management](/sharepoint/advanced-management#licensing)**
 
-    Beginning in early 2025, Microsoft SharePoint Premium - SharePoint Advanced Management (SAM) will be included with your Microsoft 365 Copilot license. To learn more about SAM licensing, see [Microsoft SharePoint Premium - SharePoint Advanced Management](/sharepoint/advanced-management#licensing) license.
+
 
   - **[Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)**
 
