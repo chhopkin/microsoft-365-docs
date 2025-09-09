@@ -206,18 +206,18 @@ The settings in the following table are available only on the **New-DeviceConfig
 |_AllowVoiceDialing_|✔||||Block voice-activated telephone dialing by Siri on iOS/iPadOS devices.|
 |_AntiVirusSignatureStatus_||||✔||
 |_AntiVirusStatus_||||✔||
-|_AppsRating_|✔||||Specifies the most restrictive rating for apps allowed on iOS/iPAadOS devices. For details, see [AppsRating](/powershell/module/exchange/new-deviceconfigurationrule#-appsrating).|
-|_AutoUpdateStatus_||||✔|Specifies the required update settings for devices. For details, see [AutoUpdateStatus](/powershell/module/exchange/new-deviceconfigurationrule#-autoupdatestatus).|
+|_AppsRating_|✔||||Specifies the most restrictive rating for apps allowed on iOS/iPAadOS devices. For details, see [AppsRating](/powershell/module/exchangepowershell/new-deviceconfigurationrule#-appsrating).|
+|_AutoUpdateStatus_||||✔|Specifies the required update settings for devices. For details, see [AutoUpdateStatus](/powershell/module/exchangepowershell/new-deviceconfigurationrule#-autoupdatestatus).|
 |_CameraEnabled_|✔|✔|||Disables the camera.|
 |_FirewallStatus_||||✔|Specifies the acceptable firewall status on devices. The only available value is blank or `Required`.|
 |_MaxPasswordGracePeriod_|✔||||The time window in which users can reset expired passwords on iOS/iPadOS devices.|
-|_MoviesRating_|✔||||Specifies the most restrictive rating for movies allowed on iOS/iPAadOS devices. For details, see [MoviesRating](/powershell/module/exchange/new-deviceconfigurationrule#-moviesrating).|
+|_MoviesRating_|✔||||Specifies the most restrictive rating for movies allowed on iOS/iPAadOS devices. For details, see [MoviesRating](/powershell/module/exchangepowershell/new-deviceconfigurationrule#-moviesrating).|
 |_PasswordQuality_||✔|✔||A numeric scale that indicates the security and complexity of the password. A higher value indicates a more secure password.|
-|_RegionRatings_|✔||||Specifies the rating system (country/region) to use for movie and television ratings with the MoviesRating and TVShowsRating parameters. For details, see [RegionRatings](/powershell/module/exchange/new-deviceconfigurationrule#-regionratings).|
+|_RegionRatings_|✔||||Specifies the rating system (country/region) to use for movie and television ratings with the MoviesRating and TVShowsRating parameters. For details, see [RegionRatings](/powershell/module/exchangepowershell/new-deviceconfigurationrule#-regionratings).|
 |_SmartScreenEnabled_||||✔||
 |_SystemSecurityTLS_|✔||||Specifies whether TLS encryption is required on iOS/iPadOS devices.|
-|_TVShowsRating_|✔||||Specifies the most restrictive rating for television shows allowed on iOS/iPadOS devices. For details, see [TVShowsRating](/powershell/module/exchange/new-deviceconfigurationrule#-tvshowsrating).|
-|_UserAccountControlStatus_||||✔|Specifies how UAC notifications are shown on devices. For details, see [UserAccountControlStatus](/powershell/module/exchange/new-deviceconfigurationrule#-useraccountcontrolstatus).|
+|_TVShowsRating_|✔||||Specifies the most restrictive rating for television shows allowed on iOS/iPadOS devices. For details, see [TVShowsRating](/powershell/module/exchangepowershell/new-deviceconfigurationrule#-tvshowsrating).|
+|_UserAccountControlStatus_||||✔|Specifies how UAC notifications are shown on devices. For details, see [UserAccountControlStatus](/powershell/module/exchangepowershell/new-deviceconfigurationrule#-useraccountcontrolstatus).|
 |_WLANEnabled_||||✔|Disables Wi-Fi on devices.|
 |_WorkFoldersSyncUrl_||||✔|Specifies the Work Folders URL on a Windows Server that's used to synchronize company resources on devices. For more information about Work Folders, see [Work Folders overview](/windows-server/storage/work-folders/work-folders-overview).|
 
