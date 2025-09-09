@@ -3,9 +3,9 @@ title: Get your data ready for Microsoft 365 Copilot with E5 + SAM licenses
 description: Get started with M365 Copilot. The E5 deployment for Microsoft 365 Copilot uses a E5 license, SharePoint Advanced Management, and Microsoft Purview. These services help your organization get ready for Copilot. This IT admin guide helps you prevent oversharing, declutter data sources, and monitor site changes. Get your organization and data ready for Copilot by following the steps in this article.
 f1.keywords:
 - NOCSH
+manager: dansimp
 ms.author: ruihu
 author: maggierui
-manager: dansimp
 ms.date: 03/06/2025
 ms.update-cycle: 180-days
 ms.reviewer: cabailey, ruihu
@@ -19,6 +19,7 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 - essentials-overview
+- trust-pod
 ms.custom: [copilot-learning-hub]
 appliesto:
 - ✅ Microsoft 365 Copilot
@@ -65,7 +66,7 @@ This article applies to:
 
   - **[Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)**
 
-    Depending on your subscription plan, you might be able purchase Microsoft 365 Copilot licenses through the [Microsoft 365 admin center](https://admin.microsoft.com) (**Billing** > **Purchase services**), Microsoft partners, or your Microsoft account team.
+    Depending on your subscription plan, you might be able to purchase Microsoft 365 Copilot licenses through the [Microsoft 365 admin center](https://admin.microsoft.com) (**Billing** > **Purchase services**), Microsoft partners, or your Microsoft account team.
 
     Microsoft 365 Copilot licenses are available as an add-on to other licensing plans. To learn more, see [Understand licensing for Microsoft 365 Copilot](microsoft-365-copilot-licensing.md).
 
@@ -322,7 +323,7 @@ For more information on the prerequisites and steps to create an endpoint DLP po
 - [Onboard macOS devices into Microsoft 365 overview](/purview/device-onboarding-macos-overview). 
 
 > [!NOTE]
-> If you use a mobile device management (MDM) service to manage and help protect you devices, like [Microsoft Intune](/mem/intune/fundamentals/what-is-intune), then keep using your MDM provider. The endpoint DLP policies focus on data loss prevention with your Microsoft 365 data. MDM focuses on device management. You use them simultaneously.
+> If you use a mobile device management (MDM) service to manage and help protect your devices, like [Microsoft Intune](/mem/intune/fundamentals/what-is-intune), then keep using your MDM provider. The endpoint DLP policies focus on data loss prevention with your Microsoft 365 data. MDM focuses on device management. You use them simultaneously.
 
 #### 5. Create Adaptive Protection
 
