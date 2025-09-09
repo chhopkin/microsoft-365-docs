@@ -19,9 +19,9 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 Many legacy file formats in Microsoft 365 apps, such as older Word, Excel, and PowerPoint files, are prone to memory corruption vulnerabilities. By opening legacy formats in **Protected View**, you can minimize the risk of malicious code execution, while allowing users to edit their content safely.
 
-When this setting is turned on, legacy file formats will open in Protected View, even if saved in a trusted location. Users can choose to edit the files and save them to a modern file format, but they will be blocked from saving in old legacy formats. In Excel, new external workbook links referencing old legacy formats will return a #BLOCKED error, and existing links will display the last successfully refreshed values but will no longer refresh.
+When this setting is turned on, legacy file formats open in Protected View, even if saved in a trusted location. Users can choose to edit the files and save them to a modern file format, but they are blocked from saving in old legacy formats. In Excel, new external workbook links referencing old legacy formats return a #BLOCKED error, and existing links display the last successfully refreshed values but won't refresh.
 
-The following legacy file formats will open in Protected View:
+The following legacy file formats open in Protected View:
 
 - Word 2007 and later Binary Documents and Templates
 - Word 2003 Binary Documents and Templates
@@ -47,7 +47,7 @@ If you have turned this setting on but need to revert to the default behaviors (
 
 ## Use Office Cloud Policy service
 
-You can make also changes to the policy settings directly using the [Office Cloud Policy service](https://config.office.com/) if you need to modify the behavior -- for example, allowing files in a certain old legacy format to bypass Protected View while continuing to open all other old legacy format files in Protected View -- or if you need to scope the setting to specific groups of users.
+You can make changes to the policy settings directly using the [Office Cloud Policy service](https://config.office.com/) if you need to modify the behavior -- for example, allowing files in a certain old legacy format to bypass Protected View while continuing to open all other old legacy format files in Protected View -- or if you need to scope the setting to specific groups of users.
 
 The following table contains the settings in Office Cloud Policy service that support this Baseline Security Mode setting. To revert to the default behavior, set these policies as not configured.
 
