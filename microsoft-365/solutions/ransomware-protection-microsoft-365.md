@@ -166,12 +166,12 @@ To protect your Microsoft 365 tenant from a ransomware attack, use these Microso
 
 | Capability or feature | Description | Helps detect and respond to... | Licensing |
 |:-------|:-----|:-------|:-------|
-| Microsoft Defender XDR | Combines signals and orchestrates capabilities into a single solution. <br><br> Enables security professionals to stitch together threat signals and determine the full scope and impact of a threat. <br><br> Automates actions to prevent or stop the attack and self-heal affected mailboxes, endpoints, and user identities. | Incidents, which are the combined alerts and data that make up an attack. | Microsoft 365 E5 or Microsoft 365 E3 with the Microsoft 365 E5 Security add-on |
-| Microsoft Defender for Identity |  Identifies, detects, and investigates advanced threats, compromised identities, and malicious insider actions directed at your organization through a cloud-based security interface uses your on-premises Active Directory Domain Services (AD DS) signals. | Credential compromise for AD DS accounts. | Microsoft 365 E5 or Microsoft 365 E3 with the Microsoft 365 E5 Security add-on |
-| Microsoft Defender for Office 365 | Safeguards your organization against malicious threats posed by email messages, links (URLs), and collaboration tools. <br><br> Protects against malware, phishing, spoofing, and other attack types. | Phishing attacks. | Microsoft 365 E5 or Microsoft 365 E3 with the Microsoft 365 E5 Security add-on |
-| Microsoft Defender for Endpoint | Enables detection and response to advanced threats across endpoints (devices). | Malware installation and device compromise. | Microsoft 365 E5 or Microsoft 365 E3 with the Microsoft 365 E5 Security add-on |
-| Microsoft Entra ID Protection | Automates detection and remediation of identity-based risks and investigation of those risks. | Credential compromise for Microsoft Entra accounts and privilege escalation. | Microsoft 365 E5 or Microsoft 365 E3 with the Microsoft 365 E5 Security add-on |
-| Defender for Cloud Apps | A cloud access security broker for discovery, investigation, and governance across all your Microsoft and third-party cloud services. | Lateral movement and data exfiltration. | Microsoft 365 E5 or Microsoft 365 E3 with the Microsoft 365 E5 Security add-on |
+| Microsoft Defender XDR | Combines signals and orchestrates capabilities into a single solution. <br><br> Enables security professionals to stitch together threat signals and determine the full scope and impact of a threat. <br><br> Automates actions to prevent or stop the attack and self-heal affected mailboxes, endpoints, and user identities. | Incidents, which are the combined alerts and data that make up an attack. | Microsoft 365 E5 or Microsoft 365 E3 with the Microsoft Defender Suite add-on |
+| Microsoft Defender for Identity |  Identifies, detects, and investigates advanced threats, compromised identities, and malicious insider actions directed at your organization through a cloud-based security interface uses your on-premises Active Directory Domain Services (AD DS) signals. | Credential compromise for AD DS accounts. | Microsoft 365 E5 or Microsoft 365 E3 with the Microsoft Defender Suite add-on |
+| Microsoft Defender for Office 365 | Safeguards your organization against malicious threats posed by email messages, links (URLs), and collaboration tools. <br><br> Protects against malware, phishing, spoofing, and other attack types. | Phishing attacks. | Microsoft 365 E5 or Microsoft 365 E3 with the Microsoft Defender Suite add-on |
+| Microsoft Defender for Endpoint | Enables detection and response to advanced threats across endpoints (devices). | Malware installation and device compromise. | Microsoft 365 E5 or Microsoft 365 E3 with the Microsoft Defender Suite add-on |
+| Microsoft Entra ID Protection | Automates detection and remediation of identity-based risks and investigation of those risks. | Credential compromise for Microsoft Entra accounts and privilege escalation. | Microsoft 365 E5 or Microsoft 365 E3 with the Microsoft Defender Suite add-on |
+| Defender for Cloud Apps | A cloud access security broker for discovery, investigation, and governance across all your Microsoft and third-party cloud services. | Lateral movement and data exfiltration. | Microsoft 365 E5 or Microsoft 365 E3 with the Microsoft Defender Suite add-on |
 |
 
 ### 3. Identities
@@ -180,7 +180,7 @@ To protect your Microsoft 365 tenant from a ransomware attack, use these Microso
 |:-------|:-----|:-------|:-------|
 |Microsoft Entra Password Protection | Block passwords from a common list and custom entries. | Cloud or on-premises user account password determination. |Microsoft 365 E3 or Microsoft 365 E5|
 |MFA enforced with Conditional Access | Require MFA based on the properties of user sign-ins with Conditional Access policies. | Credential compromise and access. | Microsoft 365 E3 or Microsoft 365 E5|
-|MFA enforced with risk-based Conditional Access | Require MFA based on the risk of user sign-ins with Microsoft Entra ID Protection. |Credential compromise and access. | Microsoft 365 E5 or Microsoft 365 E3 with the Microsoft 365 E5 Security add-on|
+|MFA enforced with risk-based Conditional Access | Require MFA based on the risk of user sign-ins with Microsoft Entra ID Protection. |Credential compromise and access. | Microsoft 365 E5 or Microsoft 365 E3 with the Microsoft Defender Suite add-on|
 |
 
 ### 4. Devices
@@ -199,7 +199,7 @@ For Windows 11 or 10 devices:
 | Microsoft Defender Firewall | Provides a host-based firewall.  | Prevent attacks from inbound, unsolicited network traffic. | Microsoft 365 E3 or Microsoft 365 E5 |
 | Microsoft Defender Antivirus | Provides anti-malware protection of devices (endpoints) using machine learning, big-data analysis, in-depth threat resistance research, and the Microsoft cloud infrastructure. | Prevent installation and running of malware. | Microsoft 365 E3 or Microsoft 365 E5 |
 | Microsoft Defender SmartScreen | Protects against phishing or malware websites and applications, and the downloading of potentially malicious files. | Block or warn when checking sites, downloads, apps, and files. | Microsoft 365 E3 or Microsoft 365 E5 |
-| Microsoft Defender for Endpoint | Helps prevent, detect, investigate, and respond to advanced threats across devices (endpoints). | Protect against network tampering. | Microsoft 365 E5 or Microsoft 365 E3 with the Microsoft 365 E5 Security add-on |
+| Microsoft Defender for Endpoint | Helps prevent, detect, investigate, and respond to advanced threats across devices (endpoints). | Protect against network tampering. | Microsoft 365 E5 or Microsoft 365 E3 with the Microsoft Defender Suite add-on |
 |  |  |  |  |
 
 ### 5. Information
@@ -209,7 +209,7 @@ For Windows 11 or 10 devices:
 | Controlled folder access | Protects your data by checking apps against a list of known, trusted apps. | Prevent files from being altered or encrypted by ransomware. | Microsoft 365 E3 or Microsoft 365 E5 |
 | Microsoft Purview Information Protection | Enables sensitivity labels to be applied to information that is ransomable | Prevent use of exfiltrated information. | Microsoft 365 E3 or Microsoft 365 E5 |
 | Data loss prevention (DLP) | Protects sensitive data and reduces risk by preventing users from sharing it inappropriately. | Prevent data exfiltration. | Microsoft 365 E3 or Microsoft 365 E5 |
-| Defender for Cloud Apps | A cloud access security broker for discovery, investigation, and governance. | Detect lateral movement and prevent data exfiltration. | Microsoft 365 E5 or Microsoft 365 E3 with the Microsoft 365 E5 Security add-on |
+| Defender for Cloud Apps | A cloud access security broker for discovery, investigation, and governance. | Detect lateral movement and prevent data exfiltration. | Microsoft 365 E5 or Microsoft 365 E3 with the Microsoft Defender Suite add-on |
 |
 
 ## Impact on users and change management

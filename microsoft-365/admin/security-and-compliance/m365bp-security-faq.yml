@@ -28,22 +28,22 @@ summary: |
 sections:
   - name: General
     questions:
-      - question: How do I add Microsoft 365 E5 Security to Microsoft 365 Business Premium?
+      - question: How do I add Microsoft Defender Suite to Microsoft 365 Business Premium?
         answer: |
           Work with your [Microsoft partner](../manage/find-your-partner-or-reseller.md) or visit [Microsoft Security for Business](https://aka.ms/SMBSecurity).
 
-      - question: Does Microsoft 365 Business Premium with Microsoft 365 E5 Security allow mixed licensing for endpoint security solutions?
+      - question: Does Microsoft 365 Business Premium with Microsoft Defender Suite allow mixed licensing for endpoint security solutions?
         answer: |
           No. For example:
           
           - 80 users are licensed for Business Premium (which includes Defender for Business).
-          - To those 80 users, you add 30 licenses of Microsoft 365 E5 Security (which includes Defender for Endpoint Plan 2).
+          - To those 80 users, you add 30 licenses of Microsoft Defender Suite (which includes Defender for Endpoint Plan 2).
           
           The result is: all 80 users get the Defender for Business experience. To switch to the Defender for Endpoint Plan 2 experience, you need to do the following steps:
           
           1. License all users for Defender for Endpoint Plan 2 using one of the following methods:
              - License all users with the standalone version of Defender for Endpoint Plan 2.
-             - License all users with Microsoft 365 E5 Security.
+             - License all users with Microsoft Defender Suite.
           2. Contact Microsoft Support to request the switch for your organization. 
 
           For more information, see [Change your endpoint security subscription](/defender-business/mdb-manage-subscription). 
@@ -71,15 +71,15 @@ sections:
         answer: |
           PCs managed with Business Premium are protected by Microsoft Defender for Business, an endpoint security solution that's designed especially for small and medium-sized business (up to 300 users). With Defender for Business, the devices in your organization are better protected from ransomware, malware, phishing, and other threats.
 
-      - question: What if my Microsoft 365 Business Premium organization has some Microsoft Defender for Business servers licenses, and I want to switch all users to Microsoft 365 E5 Security?
+      - question: What if my Microsoft 365 Business Premium organization has some Microsoft Defender for Business servers licenses, and I want to switch all users to Microsoft Defender Suite?
         answer: |
           You need to change your server plan to Microsoft Defender for Endpoint for servers or Microsoft Defender for Servers.
 
-      - question: Is Microsoft 365 E5 Security available as an add-on for Microsoft 365 Business Premium for Nonprofits?
+      - question: Is Microsoft Defender Suite available as an add-on for Microsoft 365 Business Premium for Nonprofits?
         answer: |
           Yes.
           
-          Microsoft 365 E5 Security is available as an add-on for the commercial and non-profit offerings of Microsoft 365 Business Premium.
+          Microsoft Defender Suite is available as an add-on for the commercial and non-profit offerings of Microsoft 365 Business Premium.
 
   - name: Deployment
     questions:
