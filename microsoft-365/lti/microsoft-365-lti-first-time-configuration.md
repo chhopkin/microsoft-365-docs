@@ -31,7 +31,7 @@ Once the Microsoft 365 tool is installed, an LMS Administrator must complete the
 
    :::image type="content" source="./media/terms.png" alt-text="Screenshot of terms of service." border="true":::
 
-1. Provide consent as the Microsoft 365 Administrator.
+1. Have a Microsoft 365 Global Administrator provide consent.
 
     - If you're an Microsoft 365 Global Administrator, then you are able to provide consent for the app by clicking the **Admin Consent** button.
     - If you aren't an Microsoft 365 Administrator, then you can copy and paste the Admin consent URL for the app and sent it to a Microsoft 365 Global Administrator to complete this step.
