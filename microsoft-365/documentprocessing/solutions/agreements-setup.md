@@ -77,7 +77,7 @@ Before creating a workspace for SharePoint Agreements, you need to ensure:
    ```
 
    > [!NOTE]
-   > The Connect-SPOService cmdlet might require the use of modern authentication to connect. For information about how to add modern authentication flow to your SPO-Connect cmdlet, see the [Connect-SPOService documentation](/powershell/module/sharepoint-online/connect-sposervice).
+   > The Connect-SPOService cmdlet might require the use of modern authentication to connect. For information about how to add modern authentication flow to your SPO-Connect cmdlet, see the [Connect-SPOService documentation](/powershell/module/microsoft.online.sharepoint.powershell/connect-sposervice).
 
 4. Run the following command to create a new SharePoint site and set it as an Agreements workspace.
 
