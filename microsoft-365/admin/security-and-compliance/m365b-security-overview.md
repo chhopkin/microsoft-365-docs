@@ -49,7 +49,7 @@ After you finish setting up your Microsoft 365 for business organization, you ne
 
 - Account security.
 - Email and collaboration security.
-- Device and computer security.
+- Device security.
 
 These security categories are described in the following sections and are summarized in the following table:
 
@@ -62,7 +62,7 @@ These security categories are described in the following sections and are summar
 |&nbsp;&nbsp;Default email protections for cloud mailboxes|✔|✔|✔|
 |&nbsp;&nbsp;Microsoft Defender for Office 365|||Plan 1|
 |&nbsp;&nbsp;Microsoft 365 E5 Security|||Purchased separately<br/>(includes Defender for Office 365 Plan 2)|
-|**Device and computer security**||||
+|**Device security**||||
 |&nbsp;&nbsp;Basic Mobility and Security|✔|✔|✔|
 |&nbsp;&nbsp;Microsoft Intune|||Plan 1|
 |&nbsp;&nbsp;Microsoft Defender for Business|||✔|
@@ -108,13 +108,13 @@ For more information, see [Email and collaboration security in Microsoft 365 for
 >
 > The security settings in default policies, the Standard preset security policy, and the Strict preset security policy are listed in the tables in [Recommended email and collaboration threat policy settings for cloud organizations](/defender-office-365/recommended-settings-for-eop-and-office365).
 
-## Device and computer security
+## Device security
 
 All subscriptions in Microsoft 365 for business include _Basic Mobility and Security_, which is a [limited subset of Microsoft Intune](m365b-devices-basic-mobility-security-overview.md#comparison-of-basic-mobility-and-security-and-microsoft-intune). Basic Mobility and Security is a mobile device management (MDM) solution that helps you secure access to company data on enrolled devices in supported apps.
 
 For more information, see [Overview of Basic Mobility and Security for Microsoft 365](m365b-devices-basic-mobility-security-overview.md).
 
-Business Premium includes the following extra features for device security:
+**Business Premium** includes the following extra features for device security:
 
 - **Microsoft Intune Plan 1**: Improves upon Basic Mobility and Security with [more features](m365b-devices-basic-mobility-security-overview.md#comparison-of-basic-mobility-and-security-and-microsoft-intune):
   - Support for mobile device management (MDM) and mobile application management (MAM) strategies. In MDM, the company manages the whole device. In MAM, the company manages _company data_ on the device (which is an option for personal devices, also known as bring your own device or BYOD).
