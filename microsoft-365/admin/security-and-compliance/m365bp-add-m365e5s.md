@@ -1,5 +1,5 @@
 ---
-title: Add Microsoft Defender Suite to your Microsoft 365 Business Premium subscription
+title: Add the Microsoft Defender Suite to your Microsoft 365 Business Premium subscription
 description: Get an overview of Microsoft Defender Suite and learn how to add it to your Microsoft 365 Business Premium subscription.
 search.appverid:
 - MET150
@@ -23,7 +23,7 @@ appliesto:
   - ✅ <a href="https://m365forcampaigns.microsoft.com/" target="_blank">Microsoft 365 for Campaigns</a>
 ---
 
-# Add Microsoft Defender Suite to your Microsoft 365 Business Premium subscription
+# Add the Microsoft Defender Suite to your Microsoft 365 Business Premium subscription
 
 As you probably already know, [Microsoft 365 Business Premium](m365bp-security-benefits.md) is an excellent productivity and security solution for small and medium sized businesses up to 300 users. With this solution, you get:
 
@@ -34,15 +34,15 @@ As you probably already know, [Microsoft 365 Business Premium](m365bp-security-b
 - Protection for email and files with [Microsoft Defender for Office 365 Plan 1](/defender-office-365/mdo-about#defender-for-office-365-plan-1-capabilities)
 - [Microsoft Purview Information Protection](/azure/information-protection/what-is-information-protection) and [data loss prevention (DLP)](/purview/dlp-learn-about-dlp) for email and files with Microsoft Purview.
 
-## Extend your current security capabilities with Microsoft Defender Suite
+## Extend your current security capabilities with the Microsoft Defender Suite
 
-You can now extend the security capabilities you have in Microsoft 365 Business Premium by adding Microsoft Defender Suite to your subscription. Adding Microsoft Defender Suite to Microsoft 365 Business Premium provides your business with even more protection in a cost-effective solution.
+You can now extend the security capabilities you have in Microsoft 365 Business Premium by adding the Microsoft Defender Suite (formerly known as *Microsoft 365 E5 Security*) to your subscription. Adding the Microsoft Defender Suite to Microsoft 365 Business Premium provides your business with even more protection in a cost-effective solution.
 
 **See the [Tech Community Blog: Microsoft 365 E5 Security is now available as an add-on to Microsoft 365 Business Premium](https://aka.ms/BusinessPremiumPlusE5SecurityBlog).**
 
 ### Microsoft Defender Suite at a glance
 
-Microsoft Defender Suite up levels your Microsoft 365 Business Premium security capabilities with:
+The Microsoft Defender Suite up levels your Microsoft 365 Business Premium security capabilities with:
 
 - Enhanced identity and access controls with [Microsoft Entra ID P2](/entra/fundamentals/licensing), which adds advanced security and governance features with Microsoft Entra ID Protection and Microsoft Entra ID Governance.
 - Identity protection with [Microsoft Defender for Identity](/defender-for-identity/what-is), which is an identity threat detection and response (ITDR) solution that helps secure identity monitoring across your organization.
@@ -60,7 +60,7 @@ The upgraded features in Defender for Office 365 Plan 2 vs. Plan 1 are described
 
 The upgraded features in Microsoft Entra ID P2 vs. P1 are described at [Microsoft Entra plans and pricing](https://www.microsoft.com/security/business/microsoft-entra-pricing).
 
-## Try or buy Microsoft Defender Suite today
+## Try or buy the Microsoft Defender Suite today
 
 To get Microsoft Defender Suite, you have the following options:
 
