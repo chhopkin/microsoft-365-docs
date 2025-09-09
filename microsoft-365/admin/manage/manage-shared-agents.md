@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 08/13/2025
+ms.date: 09/04/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -79,9 +79,32 @@ If you need to restore access to a previously blocked agent, you can unblock it 
 
 After the agent is unblocked, it’ll be restored to the most recent availability and deployment state.
 
+## Ownerless shared agent management
+
+Shared agents may become ownerless when the user who created them is deleted from the organization.
+
+To help administrators manage these scenarios, the Microsoft 365 Admin Center now enables you to identify and manage ownerless shared agents. The dashboard displays the total count of such agents, a one-click filter to quickly isolate them, and real-time updates reflecting user deletions, enabling administrators to efficiently review and address ownership gaps by blocking or deleting affected agents.
+
+:::image type="content" source="../../media/agents/ownerless-shared-agents.png" alt-text="Screenshot showing ownerless shared agents." lightbox="../../media/agents/unblock.png":::
+
+### Key features
+
+- Ownerless agent count: Administrators can now view the total number of agents without a valid owner directly from the dashboard. For example, the dashboard shows 20 ownerless agents indicating that these agents were created by users who have since left the organization.
+
+- One-Click Filter: Clicking the dashboard pane instantly filters the agent inventory to display only shared agents missing an owner. This feature allows for quick triage and action.
+
+- Real-Time Updates: The ownerless agent count is automatically updated when a user is hard deleted from the organization. This feature ensures that the dashboard reflects the current state without requiring manual refreshes.
+
+### Steps to view and manage ownerless shared agents
+
+1. In the admin center, go to **Copilot** > **Agents**.
+2. Locate the **Missing an Owner** tab.
+3. Select the tab to filter **Agent inventory**.
+4. Review the list of ownerless agents and take appropriate actions such as blocking or deleting the agent.
+
 ## Export to Excel
 
-You can export the list of shared agents to an Excel file. This is essential for detailed analysis and reporting. 
+You can export the list of shared agents to an Excel file. This feature is essential for detailed analysis and reporting.
 
 > [!NOTE]
 > If the export process reaches one minute, only the data up to that point will be included in the exported file.
