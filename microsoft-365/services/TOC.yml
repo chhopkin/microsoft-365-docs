@@ -80,3 +80,8 @@ items:
 
             - name: Microsoft 365 Backup
               href: ../backup/backup-overview.md
+
+    - name: Troubleshooting
+      items:
+            - name: RequestDisallowedByPolicy
+              href: error-request-disallowed-by-policy.md
