@@ -1,9 +1,10 @@
 ---
 ms.date: 07/02/2025
+ms.update-cycle: 180-days
 title: "Manage SharePoint Embedded containers for Copilot Notebooks, Copilot Pages, or Loop workspaces"
 ms.reviewer: dancost, tonchan
-ms.author: jenz
-author: jenzamora
+ms.author: odocspr
+author: officedocspr5
 manager: jtremper
 recommendations: true
 audience: Admin
@@ -43,6 +44,10 @@ To get a list of all of user-owned containers in your organization, regardless o
 ```PowerShell
 Get-SPOContainer -OwningApplicationId 'a187e399-0c36-4b98-8f04-1edc167a0996' | WHERE OwnershipType -EQ 'UserOwned' | FT
 ```
+
+## Migrations
+
+Currently, there is no supported method to transfer an existing SharePoint Embedded container between Microsoft 365 tenants — for example, in scenarios involving mergers or acquisitions.
 
 ## Related articles
 

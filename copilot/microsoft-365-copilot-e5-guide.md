@@ -7,12 +7,14 @@ manager: dansimp
 ms.author: ruihu
 author: maggierui
 ms.date: 03/06/2025
+ms.update-cycle: 180-days
 ms.reviewer: cabailey, ruihu
 audience: Admin
+customer-intent: As an IT admin, I want to prepare my organization for Microsoft 365 Copilot.
 ms.topic: get-started
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
@@ -20,7 +22,7 @@ ms.collection:
 - trust-pod
 ms.custom: [copilot-learning-hub]
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # Microsoft 365 Copilot admin guide for E5 + SAM licenses
