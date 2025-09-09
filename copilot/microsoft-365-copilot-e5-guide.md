@@ -66,7 +66,7 @@ This article applies to:
 
   - **[Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)**
 
-    Depending on your subscription plan, you might be able purchase Microsoft 365 Copilot licenses through the [Microsoft 365 admin center](https://admin.microsoft.com) (**Billing** > **Purchase services**), Microsoft partners, or your Microsoft account team.
+    Depending on your subscription plan, you might be able to purchase Microsoft 365 Copilot licenses through the [Microsoft 365 admin center](https://admin.microsoft.com) (**Billing** > **Purchase services**), Microsoft partners, or your Microsoft account team.
 
     Microsoft 365 Copilot licenses are available as an add-on to other licensing plans. To learn more, see [Understand licensing for Microsoft 365 Copilot](microsoft-365-copilot-licensing.md).
 
@@ -323,7 +323,7 @@ For more information on the prerequisites and steps to create an endpoint DLP po
 - [Onboard macOS devices into Microsoft 365 overview](/purview/device-onboarding-macos-overview). 
 
 > [!NOTE]
-> If you use a mobile device management (MDM) service to manage and help protect you devices, like [Microsoft Intune](/mem/intune/fundamentals/what-is-intune), then keep using your MDM provider. The endpoint DLP policies focus on data loss prevention with your Microsoft 365 data. MDM focuses on device management. You use them simultaneously.
+> If you use a mobile device management (MDM) service to manage and help protect your devices, like [Microsoft Intune](/mem/intune/fundamentals/what-is-intune), then keep using your MDM provider. The endpoint DLP policies focus on data loss prevention with your Microsoft 365 data. MDM focuses on device management. You use them simultaneously.
 
 #### 5. Create Adaptive Protection
 
