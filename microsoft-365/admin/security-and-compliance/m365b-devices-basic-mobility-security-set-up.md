@@ -105,7 +105,7 @@ If you'd rather use [Security & Compliance PowerShell](/powershell/exchange/conn
    >
    > Likewise, you can set the _BlockUnsupportedDevices_ parameter to the value `$true` when you create the device tenant rule instead of setting it later.
 
-For detailed syntax and parameter information, see [New-DeviceTenantPolicy](/powershell/module/exchange/new-devicetenantpolicy) and [New-DeviceTenantRule](/powershell/module/exchange/new-devicetenantrule).
+For detailed syntax and parameter information, see [New-DeviceTenantPolicy](/powershell/module/exchangepowershell/new-devicetenantpolicy) and [New-DeviceTenantRule](/powershell/module/exchangepowershell/new-devicetenantrule).
 
 ## Step 2: Configure CNAME records for custom Microsoft 365 domains in Basic Mobility and Security
 
@@ -265,7 +265,7 @@ If you'd rather use [Security & Compliance PowerShell](/powershell/exchange/conn
    Set-DeviceTenantPolicy -BlockUnsupportedDevices $true -ExclusionList "6010e907-3193-4a6f-b94c-a4c24b1398cc","0be37e4a-8f43-4b9f-ab7f-74659816067a"
    ```
 
-   For detailed syntax and parameter information, see [Set-DeviceTenantPolicy](/powershell/module/exchange/set-devicetenantpolicy).
+   For detailed syntax and parameter information, see [Set-DeviceTenantPolicy](/powershell/module/exchangepowershell/set-devicetenantpolicy).
 
 ### Step 5: Create device security policies
 

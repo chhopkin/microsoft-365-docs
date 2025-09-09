@@ -282,7 +282,7 @@ This example creates a new device configuration policy named Contoso Engineering
 New-DeviceConfigurationPolicy -Name "Contoso Engineering" -Comment "Policy with more restrictive settings."
 ```
 
-For detailed syntax and parameter information, see [New-DeviceConfigurationPolicy](/powershell/module/exchange/new-deviceconfigurationpolicy) or [New-DeviceConditionalAccessPolicy](/powershell/module/exchange/new-deviceconditionalaccesspolicy).
+For detailed syntax and parameter information, see [New-DeviceConfigurationPolicy](/powershell/module/exchangepowershell/new-deviceconfigurationpolicy) or [New-DeviceConditionalAccessPolicy](/powershell/module/exchangepowershell/new-deviceconditionalaccesspolicy).
 
 #### Step 2: Use PowerShell to create a device rule
 
@@ -349,7 +349,7 @@ This example creates a device configuration rule with the following values:
 New-DeviceConfigurationRule -Policy "Contoso Engineering" -TargetGroups "00000000-0000-0000-0000-000000000000"
 ```
 
-For detailed syntax and parameter information, see [New-DeviceConfigurationRule](/powershell/module/exchange/new-deviceconfigurationrule) and [New-DeviceConditionalAccessRule](/powershell/module/exchange/new-deviceconditionalaccessrule).
+For detailed syntax and parameter information, see [New-DeviceConfigurationRule](/powershell/module/exchangepowershell/new-deviceconfigurationrule) and [New-DeviceConditionalAccessRule](/powershell/module/exchangepowershell/new-deviceconditionalaccessrule).
 
 ### Use PowerShell to view device policies
 
@@ -402,7 +402,7 @@ This example returns all the property values for the device configuration policy
 Get-DeviceConfigurationPolicy -Identity "Executives"
 ```
 
-For detailed syntax and parameter information, see [Get-DeviceConfigurationPolicy](/powershell/module/exchange/get-deviceconfigurationpolicy), [Get-DeviceConditionalAccessPolicy](/powershell/module/exchange/get-deviceconditionalaccesspolicy), and [Get-DevicePolicy](/powershell/module/exchange/get-devicepolicy).
+For detailed syntax and parameter information, see [Get-DeviceConfigurationPolicy](/powershell/module/exchangepowershell/get-deviceconfigurationpolicy), [Get-DeviceConditionalAccessPolicy](/powershell/module/exchangepowershell/get-deviceconditionalaccesspolicy), and [Get-DevicePolicy](/powershell/module/exchangepowershell/get-devicepolicy).
 
 ### Use PowerShell to view device rules
 
@@ -455,7 +455,7 @@ Get-DeviceConfigurationRule -Identity "Executives{2b18}" | Select-Object -Expand
 > [!TIP]
 > The value of the _Disabled_ property in the output of the **Get-DeviceConfigurationRule** doesn't mean anything. You enable or disable the policy by using the _Enabled_ parameter on the **New-DeviceConfigurationPolicy** or **Set-DeviceConfigurationPolicy** cmdlets.
 
-For detailed syntax and parameter information, see [Get-DeviceConfigurationRule](/powershell/module/exchange/get-deviceconfigurationrule) and [Get-DeviceConditionalAccessRule](/powershell/module/exchange/get-deviceconditionalaccessrule).
+For detailed syntax and parameter information, see [Get-DeviceConfigurationRule](/powershell/module/exchangepowershell/get-deviceconfigurationrule) and [Get-DeviceConditionalAccessRule](/powershell/module/exchangepowershell/get-deviceconditionalaccessrule).
 
 ### Use PowerShell to modify device policies
 
@@ -485,7 +485,7 @@ On the **Policies** tab of the **Basic Mobility and Security** page, the **Statu
 
 To enable a disabled policy, use the value `$true` for the _Enabled_ parameter.
 
-For detailed syntax and parameter information, see [Set-DeviceConfigurationPolicy](/powershell/module/exchange/set-deviceconfigurationpolicy) and [Set-DeviceConditionalAccessPolicy](/powershell/module/exchange/set-deviceconditionalaccesspolicy).
+For detailed syntax and parameter information, see [Set-DeviceConfigurationPolicy](/powershell/module/exchangepowershell/set-deviceconfigurationpolicy) and [Set-DeviceConditionalAccessPolicy](/powershell/module/exchangepowershell/set-deviceconditionalaccesspolicy).
 
 ### Use PowerShell to modify device rules
 
@@ -516,7 +516,7 @@ To modify a device rule, use the syntax of one of the following commands:
 > Get-DeviceConditionalAccessRule -Identity "<RuleIdentity>" | Select-Object -ExpandProperty TargetGroups
 > ```
 
-For detailed syntax and parameter information, see [Set-DeviceConfigurationRule](/powershell/module/exchange/set-deviceconfigurationrule) and [Set-DeviceConditionalAccessRule](/powershell/module/exchange/set-deviceconditionalaccessrule).
+For detailed syntax and parameter information, see [Set-DeviceConfigurationRule](/powershell/module/exchangepowershell/set-deviceconfigurationrule) and [Set-DeviceConditionalAccessRule](/powershell/module/exchangepowershell/set-deviceconditionalaccessrule).
 
 ### Use PowerShell to remove device policies
 
@@ -547,7 +547,7 @@ Remove-DeviceConfigurationPolicy -Identity "Marketing Department"
 
 The associated device configuration rule named `Marketing Department{xxx}` is automatically removed after a few minutes.
 
-For detailed syntax and parameter information, see [Remove-DeviceConfigurationPolicy](/powershell/module/exchange/remove-deviceconfigurationpolicy) and [Remove-DeviceConditionalAccessPolicy](/powershell/module/exchange/remove-deviceconditionalaccesspolicy).
+For detailed syntax and parameter information, see [Remove-DeviceConfigurationPolicy](/powershell/module/exchangepowershell/remove-deviceconfigurationpolicy) and [Remove-DeviceConditionalAccessPolicy](/powershell/module/exchangepowershell/remove-deviceconditionalaccesspolicy).
 
 ### Use PowerShell to remove device rules
 
@@ -576,7 +576,7 @@ This example removes the device configuration rule named Marketing Department.
 Remove-DeviceConfigurationRule -Identity "Marketing Department"
 ```
 
-For detailed syntax and parameter information, see [Remove-DeviceConfigurationRule](/powershell/module/exchange/remove-deviceconfigurationrule) and [Remove-DeviceConditionalAccessRule](/powershell/module/exchange/remove-deviceconditionalaccessrule).
+For detailed syntax and parameter information, see [Remove-DeviceConfigurationRule](/powershell/module/exchangepowershell/remove-deviceconfigurationrule) and [Remove-DeviceConditionalAccessRule](/powershell/module/exchangepowershell/remove-deviceconditionalaccessrule).
 
 ## What happens when you delete a policy or remove a user from a policy?
 
