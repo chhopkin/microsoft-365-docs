@@ -64,7 +64,7 @@ This article applies to:
 
   - **[Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)**
 
-    Depending on your subscription plan, you might be able purchase Microsoft 365 Copilot licenses through the [Microsoft 365 admin center](https://admin.microsoft.com) (**Billing** > **Purchase services**), Microsoft partners, or your Microsoft account team.
+    Depending on your subscription plan, you might be able to purchase Microsoft 365 Copilot licenses through the [Microsoft 365 admin center](https://admin.microsoft.com) (**Billing** > **Purchase services**), Microsoft partners, or your Microsoft account team.
 
     Microsoft 365 Copilot licenses are also available as an add-on to other licensing plans. To learn more, see [Understand licensing for Microsoft 365 Copilot](microsoft-365-copilot-licensing.md).
 
@@ -268,7 +268,7 @@ When users enter a prompt and get a response from Copilot, you can view and sear
 - Find sensitive information or inappropriate content included in Copilot activities.
 - Respond to a data spillage incident when confidential or malicious information is released through Copilot-related activity.
 
-[eDiscovery](/purview/edisc) uses cases to identify, hold, export, and analyze content found in mailboxes and sites. You can this feature to analyze Copilot prompts and responses.
+[eDiscovery](/purview/edisc) uses cases to identify, hold, export, and analyze content found in mailboxes and sites. You can use this feature to analyze Copilot prompts and responses.
 
 1. Sign into the [Microsoft Purview portal](https://purview.microsoft.com/) as an admin in one of the groups [eDiscovery - Permissions](/purview/ediscovery-assign-permissions).
 2. Select **Solutions** > **eDiscovery** > **Cases**.
