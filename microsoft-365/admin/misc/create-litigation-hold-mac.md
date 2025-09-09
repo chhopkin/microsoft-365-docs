@@ -78,7 +78,7 @@ Get-Mailbox <username> | FL LitigationHoldEnabled
 
 A value of *True* indicates that the mailbox is on litigation hold.
 
-For more information, see [Set-Mailbox](/powershell/module/exchange/set-mailbox).
+For more information, see [Set-Mailbox](/powershell/module/exchangepowershell/set-mailbox).
 
 ## How does Litigation hold work?
 
