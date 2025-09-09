@@ -28,11 +28,11 @@ summary: |
 sections:
   - name: General
     questions:
-      - question: How do I add Microsoft Defender Suite to Microsoft 365 Business Premium?
+      - question: How do I add the Microsoft Defender Suite to Microsoft 365 Business Premium?
         answer: |
           Work with your [Microsoft partner](../manage/find-your-partner-or-reseller.md) or visit [Microsoft Security for Business](https://aka.ms/SMBSecurity).
 
-      - question: Does Microsoft 365 Business Premium with Microsoft Defender Suite allow mixed licensing for endpoint security solutions?
+      - question: Does Microsoft 365 Business Premium with the Microsoft Defender Suite allow mixed licensing for endpoint security solutions?
         answer: |
           No. For example:
           
@@ -43,24 +43,24 @@ sections:
           
           1. License all users for Defender for Endpoint Plan 2 using one of the following methods:
              - License all users with the standalone version of Defender for Endpoint Plan 2.
-             - License all users with Microsoft Defender Suite.
+             - License all users with the Microsoft Defender Suite.
           2. Contact Microsoft Support to request the switch for your organization. 
 
           For more information, see [Change your endpoint security subscription](/defender-business/mdb-manage-subscription). 
 
       - question: Is everyone in my organization required to have a Microsoft 365 Business Premium subscription?
         answer: |
-          No. However, the security and management benefits of Business Premium are available only to users with devices managed with a Business Premium subscription.
+          No. However, the security and management benefits of Microsoft 365 Business Premium are available only to users with devices managed with a Business Premium subscription.
 
           All businesses should seek to standardize their IT environment to help reduce maintenance and security costs over time. However, we recognize that small and medium-sized businesses often update their software when they upgrade their hardware over an extended time period. 
           
-          Although you can deploy Business Premium to part of your organization, we recommend deploying Business Premium to all users for the best protection of sensitive business data and consistent collaboration experiences.
+          Although you can deploy Microsoft 365 Business Premium to part of your organization, we recommend deploying Microsoft 365 Business Premium to all users for the best protection of sensitive business data and consistent collaboration experiences.
 
       - question: How does Microsoft 365 Business Premium help support personal devices (also known as bring your own device or BYOD)?
         answer: |
           Many small to medium-sized businesses don't provide company-owned mobile devices to users, yet users need to access company data when they're not in the office. Although using personal devices to access company data is common these days (in particular, email and calendar data), the practice increases the risk that business information could end up in the wrong hands.
 
-          Business Premium contains simple but powerful features that allow users to security access company data on their personal devices while preventing those devices from accessing, retaining, and/or sharing business information.
+          Microsoft 365 Business Premium contains simple but powerful features that allow users to security access company data on their personal devices while preventing those devices from accessing, retaining, and/or sharing business information.
 
           For more information, see the following articles:
 
@@ -69,7 +69,7 @@ sections:
 
       - question: How does Microsoft 365 Business Premium help protect PCs in my organization from malicious attacks?
         answer: |
-          PCs managed with Business Premium are protected by Microsoft Defender for Business, an endpoint security solution that's designed especially for small and medium-sized business (up to 300 users). With Defender for Business, the devices in your organization are better protected from ransomware, malware, phishing, and other threats.
+          PCs managed with Microsoft 365 Business Premium are protected by Microsoft Defender for Business, an endpoint security solution that's designed especially for small and medium-sized business (up to 300 users). With Defender for Business, the devices in your organization are better protected from ransomware, malware, phishing, and other threats.
 
       - question: What if my Microsoft 365 Business Premium organization has some Microsoft Defender for Business servers licenses, and I want to switch all users to Microsoft Defender Suite?
         answer: |
@@ -87,7 +87,7 @@ sections:
         answer: |
           Yes.
           
-          Business Premium subscribers are licensed to use full Intune capabilities for iOS, Android, Mac, and other cross-platform device management.
+          Microsoft 365 Business Premium subscribers are licensed to use full Intune capabilities for iOS, Android, Mac, and other cross-platform device management.
           
           Features that aren't available in the simplified management experience in the Microsoft Defender portal are available in the Microsoft Intune portal. For example:
           
@@ -99,13 +99,13 @@ sections:
         answer: |
           Yes.
           
-          Microsoft Entra ID P1 is included with Business Premium.
+          Microsoft Entra ID P1 is included with Microsoft 365 Business Premium.
 
       - question: Does Microsoft 365 Business Premium allow customers to manage Apple devices?
         answer: |
           Yes.
           
-          Business Premium includes Intune and Defender for Business to help you securely manage iOS/iPadOS, and macOS devices.
+          Microsoft 365 Business Premium includes Intune and Defender for Business to help you securely manage iOS/iPadOS, and macOS devices.
 
       - question: What is Windows Autopilot?
         answer: |
@@ -117,6 +117,6 @@ sections:
         answer: |
           Yes.
           
-          Business Premium includes Microsoft Defender for Business, which is built on the capabilities of Defender for Endpoint to provide advanced security protection for devices.
+          Microsoft 365 Business Premium includes Microsoft Defender for Business, which is built on the capabilities of Defender for Endpoint to provide advanced security protection for devices.
           
-          However, you can add Defender for Endpoint Plan 1 or Plan 2 to your Business Premium subscription. For more information, see [Microsoft 365 guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
+          However, you can add Defender for Endpoint Plan 1 or Plan 2 to your Microsoft 365 Business Premium subscription. For more information, see [Microsoft 365 guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance).
