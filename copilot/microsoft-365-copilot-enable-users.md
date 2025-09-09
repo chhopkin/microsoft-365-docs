@@ -45,7 +45,7 @@ After you assign a Microsoft 365 Copilot license to a user, they will automatica
 
 The welcome email also includes a link to [Microsoft Copilot help and learning](https://support.microsoft.com/copilot-skilling).
 
-We also recommend sending an in-product notification to your users through Organizational Messeging.
+We also recommend sending an in-product notification to your users through Organizational Messaging.
 
 ## Organizational Messages
 
