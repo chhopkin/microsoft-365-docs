@@ -10,14 +10,14 @@ audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier2
 - scotvorg
-- M365-subscription-management 
+- M365-subscription-management
 - Adm_O365
 - Adm_TOC
 - trust-pod
-ms.custom: 
+ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 - m365-groups
@@ -110,7 +110,7 @@ By default, the person who created the group is the group owner. Often a group w
 
 - [Manage groups dynamically in Microsoft Entra ID](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal): see the section "How can I manage the membership of a group dynamically?"
 
-- To add hundreds or thousands of users to groups, use the [Add-UnifiedGroupLinks](/powershell/module/exchange/add-unifiedgrouplinks).
+- To add hundreds or thousands of users to groups, use the [Add-UnifiedGroupLinks](/powershell/module/exchangepowershell/add-unifiedgrouplinks).
 
 - [Assign a new owner to an orphaned group](https://support.microsoft.com/office/86bb3db6-8857-45d1-95c8-f6d540e45732)
 

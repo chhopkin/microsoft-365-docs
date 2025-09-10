@@ -10,7 +10,7 @@ audience: Admin
 ms.topic: solution-overview
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier1
 - scotvorg
 - M365-subscription-management
@@ -90,4 +90,4 @@ If you're using Microsoft Entra ID, see the [Remove-MgUser](/powershell/module/m
 
 [Restore a user](restore-user.md) (article)\
 [Assign or unassign licenses for users in the Microsoft 365 admin center](../manage/assign-licenses-to-users.md) (article)\
-[Remove-CalendarEvents](/powershell/module/exchange/remove-calendarevents)
+[Remove-CalendarEvents](/powershell/module/exchangepowershell/remove-calendarevents)

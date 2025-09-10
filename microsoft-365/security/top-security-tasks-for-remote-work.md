@@ -27,11 +27,10 @@ If you are like [Microsoft](https://www.microsoft.com/microsoft-365/blog/2020/03
 
 :::image type="content" source="../media/security/security-support-remote-work.png" alt-text="The top tasks to perform to support working from home" lightbox="../media/security/security-support-remote-work.png":::
 
-
 If you're a small or medium-size organization using one of Microsoft's business plans, see these resources instead:
 
-- [Best practices for securing Microsoft 365 for business plans](../business-premium/secure-your-business-data.md)
-- [Microsoft 365 for Campaigns](../business-premium/m365bp-overview.md) (includes a recommended security configuration for Microsoft 365 Business)
+- [Best practices for securing Microsoft 365 for business plans](/microsoft-365/admin/security-and-compliance/m365b-security-best-practices)
+- [Microsoft 365 for Campaigns](/microsoft-365/admin/security-and-compliance/m365bp-security-benefits) (includes a recommended security configuration for Microsoft 365 for business)
 
 For customers using our enterprise plans, Microsoft recommends you complete the tasks listed in the following table that apply to your service plan. Instead of purchasing a Microsoft 365 enterprise plan, if you're combining subscriptions, note the following items:
 
@@ -94,7 +93,7 @@ Microsoft Defender for Office 365 (included with Microsoft 365 E5 and Office 365
 - [Safe Attachments](office-365-security/safe-attachments-about.md) and [Safe Links protection](office-365-security/safe-links-about.md): Protects your organization from unknown threats in real time by using intelligent systems that inspect files, attachments, and links for malicious content. These automated systems include a robust detonation platform, heuristics, and machine learning models.
 - [Safe Attachments for SharePoint, OneDrive, and Microsoft Teams](office-365-security/safe-attachments-for-spo-odfb-teams-about.md): Protects your organization when users collaborate and share files, by identifying and blocking malicious files in team sites and document libraries.
 - [Impersonation protection in anti-phishing policies](office-365-security/anti-phishing-policies-about.md#impersonation-settings-in-anti-phishing-policies-in-microsoft-defender-for-office-365): Applies machine learning models and advanced impersonation-detection algorithms to avert phishing attacks.
-- [Priority account protection](office-365-security/priority-accounts-turn-on-priority-account-protection.md): [Priority accounts](../admin/setup/priority-accounts.md) is a tag that you apply to a select number of high-value user accounts. Then, you can use the **Priority** tag as a filter in alerts, reports, and investigations. In Defender for Office 365 Plan 2 (included in Microsoft 365 E5), *priority account protection* offers additional heuristics for priority accounts that are tailored to company executives (regular employees don't benefit from this specialized protection).
+- [Priority account protection](office-365-security/priority-accounts-turn-on-priority-account-protection.md): [Priority accounts](/microsoft-365/admin/security-and-compliance/priority-accounts) is a tag that you apply to a select number of high-value user accounts. Then, you can use the **Priority** tag as a filter in alerts, reports, and investigations. In Defender for Office 365 Plan 2 (included in Microsoft 365 E5), *priority account protection* offers additional heuristics for priority accounts that are tailored to company executives (regular employees don't benefit from this specialized protection).
 
 For an overview of Defender for Office 365, including a summary of plans, see [Defender for Office 365](./office-365-security/defender-for-office-365.md).
 
@@ -110,7 +109,7 @@ The differences between **Defender for Office 365 protection** settings in Stand
 
 You can turn on and turn off Safe Attachments for SharePoint, OneDrive, and Microsoft Teams independently of preset security policies (it's on by default). To verify, see [Turn on Safe Attachments for SharePoint, OneDrive, and Microsoft Teams](office-365-security/safe-attachments-for-spo-odfb-teams-configure.md).
 
-After you [identify users as priority accounts](../admin/setup/priority-accounts.md), they get priority account protection if it's turned on (it's on by default). To verify, see [Configure and review priority account protection in Microsoft Defender for Office 365](office-365-security/priority-accounts-turn-on-priority-account-protection.md).
+After you [identify users as priority accounts](/microsoft-365/admin/security-and-compliance/priority-accounts), they get priority account protection if it's turned on (it's on by default). To verify, see [Configure and review priority account protection in Microsoft Defender for Office 365](office-365-security/priority-accounts-turn-on-priority-account-protection.md).
 
 ## 4: Configure Microsoft Defender for Identity
 

@@ -10,14 +10,14 @@ audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier2
 - scotvorg
-- M365-subscription-management 
+- M365-subscription-management
 - Adm_O365
 - Adm_TOC
 - trust-pod
-ms.custom: 
+ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 - m365-groups
@@ -84,6 +84,6 @@ Visit the [Microsoft Tech Community](https://techcommunity.microsoft.com/t5/micr
 
 [Restore deleted email conversations](/Exchange/recipients-in-exchange-online/restore-deleted-items-group) (article)\
 [Manage Microsoft 365 Groups with PowerShell](../../enterprise/manage-microsoft-365-groups-with-powershell.md) (article)\
-[Delete groups using the Remove-UnifiedGroup cmdlet](/powershell/module/exchange/remove-unifiedgroup) (article)\
+[Delete groups using the Remove-UnifiedGroup cmdlet](/powershell/module/exchangepowershell/remove-unifiedgroup) (article)\
 [Manage your group-connected team site settings](https://support.microsoft.com/office/8376034d-d0c7-446e-9178-6ab51c58df42) (article)\
 [Delete a group in Outlook](https://support.microsoft.com/office/ca7f5a9e-ae4f-4cbe-a4bc-89c469d1726f) (article)
