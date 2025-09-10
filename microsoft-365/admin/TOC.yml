@@ -478,6 +478,8 @@ items:
           href: security-and-compliance/m365b-security-overview.md
         - name: What's new in security in Microsoft 365 for business
           href: security-and-compliance/m365b-security-whats-new.md
+        - name: Microsoft 365 Business Premium security - frequently asked questions
+          href: security-and-compliance/m365bp-security-faq.yml
         - name: Get started
           items:
           - name: Microsoft 365 for business security best practices

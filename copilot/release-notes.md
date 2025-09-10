@@ -101,7 +101,7 @@ Updates released between August 19, 2025, and September 3, 2025.
 - **Use Copilot Chat to enhance Find on Page** [Web]
 
   Quickly locate the right information by combining CTRL+F with Copilot Chat for smarter, context-aware search in Microsoft Edge for Business.
- <a href="/topic/using-microsoft-copilot-in-edge-at-work-012b3674-bab8-4f99-8585-c961dac68642" target="_blank">Learn more.</a>
+ <a href="https://support.microsoft.com/topic/using-microsoft-copilot-in-edge-at-work-012b3674-bab8-4f99-8585-c961dac68642" target="_blank">Learn more.</a>
 - **Utilize SharePoint and OneDrive folders in prompts** [Web]
 
   Users can now incorporate SharePoint and OneDrive folders into their Copilot Chat  prompts via the "Attach cloud files" feature, refining content scoping capabilities.
@@ -190,7 +190,7 @@ Updates released between August 5, 2025, and August 19, 2025.
 - **Integrate declarative agents into Excel** [Windows, Web]
 
   Users can now seamlessly integrate and leverage declarative Copilot agents directly within Excel, enhancing data interaction and task automation.
- <a href="/office/dev/add-ins/quickstarts/agent-and-add-in-quickstart https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/overview-declarative-agent" target="_blank">Learn more.</a>
+ <a href="/microsoft-365-copilot/extensibility/overview-declarative-agent" target="_blank">Learn more.</a>
 - **Publish agents for IT approval** 
 
   Use Microsoft 365 Agents Toolkit and Copilot Studio to publish custom engine agents for IT review, approval, and deployment in your organization's tenant.
@@ -2990,7 +2990,7 @@ Updates released between August 5, 2025, and August 19, 2025.
 - **Integrate declarative agents into Excel** [Windows, Web]
 
   Users can now seamlessly integrate and leverage declarative Copilot agents directly within Excel, enhancing data interaction and task automation.
- <a href="/office/dev/add-ins/quickstarts/agent-and-add-in-quickstart https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/overview-declarative-agent" target="_blank">Learn more.</a>
+ <a href="/microsoft-365-copilot/extensibility/overview-declarative-agent" target="_blank">Learn more.</a>
 - **Regulate knowledge source with governance tools** [Windows, Web]
 
   Admins can now oversee and manage agents with uploaded files as their knowledge source, utilizing tools for agent filtering, reviewing sensitivity labels, and managing metadata.
@@ -4477,7 +4477,7 @@ Updates released between August 19, 2025, and September 3, 2025.
 - **Use Copilot Chat to enhance Find on Page** [Web]
 
   Quickly locate the right information by combining CTRL+F with Copilot Chat for smarter, context-aware search in Microsoft Edge for Business.
- <a href="/topic/using-microsoft-copilot-in-edge-at-work-012b3674-bab8-4f99-8585-c961dac68642" target="_blank">Learn more.</a>
+ <a href="https://support.microsoft.com/topic/using-microsoft-copilot-in-edge-at-work-012b3674-bab8-4f99-8585-c961dac68642" target="_blank">Learn more.</a>
 - **Utilize SharePoint and OneDrive folders in prompts** [Web]
 
   Users can now incorporate SharePoint and OneDrive folders into their Copilot Chat  prompts via the "Attach cloud files" feature, refining content scoping capabilities.
@@ -4536,7 +4536,7 @@ Updates released between August 5, 2025, and August 19, 2025.
 - **Integrate declarative agents into Excel** [Windows, Web]
 
   Users can now seamlessly integrate and leverage declarative Copilot agents directly within Excel, enhancing data interaction and task automation.
- <a href="/office/dev/add-ins/quickstarts/agent-and-add-in-quickstart https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/overview-declarative-agent" target="_blank">Learn more.</a>
+ <a href="/microsoft-365-copilot/extensibility/overview-declarative-agent" target="_blank">Learn more.</a>
 - **Regulate knowledge source with governance tools** [Windows, Web]
 
   Admins can now oversee and manage agents with uploaded files as their knowledge source, utilizing tools for agent filtering, reviewing sensitivity labels, and managing metadata.
