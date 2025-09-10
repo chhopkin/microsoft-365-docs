@@ -1,5 +1,5 @@
 ---
-title: Welcome users, create organizatioal messages, and enable feedback for Microsoft 365 Copilot
+title: Welcome users, create organizational messages, and enable feedback for Microsoft 365 Copilot
 f1.keywords:
 - NOCSH
 ms.author: efrene
@@ -21,7 +21,7 @@ appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# Welcome users, create organizatioal messages, and enable feedback for Microsoft 365 Copilot
+# Welcome users, create organizational messages, and enable feedback for Microsoft 365 Copilot
 
 [Microsoft 365 Copilot](microsoft-365-copilot-overview.md) is an AI-powered productivity tool that helps users with everyday tasks.
 
@@ -45,7 +45,7 @@ After you assign a Microsoft 365 Copilot license to a user, they will automatica
 
 The welcome email also includes a link to [Microsoft Copilot help and learning](https://support.microsoft.com/copilot-skilling).
 
-We also recommend sending an in-product notification to your users through Organizational Messeging.
+We also recommend sending an in-product notification to your users through Organizational Messaging.
 
 ## Organizational Messages
 

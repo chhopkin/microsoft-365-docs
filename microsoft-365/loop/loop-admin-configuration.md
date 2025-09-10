@@ -208,7 +208,7 @@ To enable Loop components on **Public** defined sessions, the following policies
 
 - WacViewingOnPublicComputersEnabled 
 
-You should also review the configuration of your [ConditionalAccessPolicy](/powershell/module/exchange/set-owamailboxpolicy). By design, user sessions that meet the criteria for conditional access will have limited functionality and will not be able to use Loop components.
+You should also review the configuration of your [ConditionalAccessPolicy](/powershell/module/exchangepowershell/set-owamailboxpolicy). By design, user sessions that meet the criteria for conditional access will have limited functionality and will not be able to use Loop components.
 
 ## Related topics
 
