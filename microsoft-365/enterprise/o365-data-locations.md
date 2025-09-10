@@ -1,8 +1,8 @@
 ---
 title: "Microsoft 365 data locations"
-ms.author: kvice
-author: kelleyvice-msft
-manager: scotv
+ms.author: v-fahasen
+author: fhasen-msft
+manager: v-nihmi
 ms.reviewer: deanw
 ms.date: 02/24/2025
 audience: ITPro
@@ -28,16 +28,10 @@ description: "Determine where your Microsoft 365 customer data is stored worldwi
 This article helps you to understand how you can determine current data residency and data residency commitments.
 
 > [!NOTE]
-> Viva Topics has been retired as of February 22, 2025. Therefore, Viva Topics is no longer a supported workload in ADR. For more details, please visit [aka.ms/TopicsFebSupport](https://aka.ms/TopicsFebSupport).
+> The **Indonesia**, **Malaysia**, **Chile**, and **Austria** local data center regions launched in Quarter 2 and Quarter 3 of 2025. See [Advanced Data Residency](advanced-data-residency.md) if your organization requires the migration of your Microsoft 365 customer data to Indonesia, Malaysia, Chile, or Austria and data residency commitments for these regions.
 
 > [!NOTE]
-> The **New Zealand** local data center region launched on December 1, 2024. If your organization requires the migration of your Microsoft 365 customer data to New Zealand, and data residency commitments for New Zealand, see [Advanced Data Residency](advanced-data-residency.md).
-
-> [!NOTE]
-> The **Taiwan** local data center region launched on November 1, 2024. If your organization requires the migration of your Microsoft 365 customer data to Taiwan, and data residency commitments for Taiwan, see [Advanced Data Residency](advanced-data-residency.md).
-
-> [!NOTE]
-> For tenants in Australia, Brazil, Canada, France, Germany, India, Israel, Italy, Japan, Mexico, New Zealand, Norway, Poland, Qatar, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, United Arab Emirates, and United Kingdom, more workloads are available for data residency commitments. For more information, see [Advanced Data Residency](advanced-data-residency.md).
+> For tenants in Australia, Austria, Brazil, Canada, Chile, France, Germany, India, Indonesia, Israel, Italy, Japan, Malaysia, Mexico, New Zealand, Norway, Poland, Qatar, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, United Arab Emirates, and United Kingdom, more workloads are available for data residency commitments. For more information, see [Advanced Data Residency](advanced-data-residency.md).
 
 See the following links to understand how you can determine current data residency and data residency commitments.
 
@@ -57,14 +51,14 @@ See the following links to understand how you can determine current data residen
   - Audit (Premium)
   - Data Lifecycle Management (DLM)
   
-- Microsoft Entra ID [Data Location](m365-dr-workload-other.md#azure-active-directory-aad)
+- Microsoft Entra ID [Data Location](m365-dr-workload-other.md#microsoft-entra-id)
 - Whiteboard [Data Location](m365-dr-workload-other.md#whiteboard)
 - Forms [Data Location](m365-dr-workload-other.md#forms)
-- Intune [Data Location](m365-dr-workload-other.md#intune)
+- Intune [Data Location](/intune/intune-service/protect/privacy-data-store-process#storage-locations)
 - Planner [Data Location](m365-dr-workload-other.md#planner)
 - Viva Glint [Data Location](m365-dr-workload-other.md#viva-glint)
 - Viva Goals [Data Location](m365-dr-workload-other.md#viva-goals)
-- Viva Insights – Advanced, Manager and leader [Data Location](m365-dr-workload-other.md#viva-insights--advanced-mgr-leader)
+- Viva Insights – Advanced, Manager, and leader [Data Location](m365-dr-workload-other.md#viva-insights--advanced-mgr-leader)
 - Viva Insights – Personal [Data Location](m365-dr-workload-other.md#viva-insights--personal)
 - Viva Learning [Data Location](m365-dr-workload-other.md#viva-learning)
 - Viva Pulse [Data Location](/viva/pulse/get-started/data-residency-for-viva-pulse)

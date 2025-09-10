@@ -1,10 +1,10 @@
 ---
 title: "Understand your invoice for your Microsoft MCA billing account"
 f1.keywords:
-- 'MACBillingAccountsAddBillingProfileInvoices'
+- MACBillingAccountsAddBillingProfileInvoices
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: scotv
+manager: dansimp
 ms.reviewer: jkinma, ramagane
 audience: Admin
 ms.topic: concept-article
@@ -15,10 +15,11 @@ ms.collection:
 - Tier1
 - ContentEngagementFY23
 - scotvorg
-- highpri 
+- highpri
 - M365-subscription-management
 - Adm_O365
-ms.custom: 
+- operations-pod
+ms.custom:
 - commerce_billing
 - VSBFY23
 - AdminSurgePortfolio
@@ -54,6 +55,22 @@ Each new subscription purchase receives the first invoice the next day and is bi
 Changes you make to an existing subscription appear on the monthly invoice around the beginning of the following month.  
 
 If you acquire multiple new subscriptions on different days within a month (excluding additions to current subscriptions), you receive separate invoices for each.
+
+> **Example using Microsoft 365 Business Premium**
+>
+> Let's say a Microsoft 365 Business Premium subscription is purchased on **May 2, 2025**.
+>  
+> **Monthly Billing**
+>
+> - **First invoice**: Received by **May 3, 2024**, covering **May 2-June 1, 2025**.
+> - **Recurring invoices**: Issued by the **3rd of each month**, starting **in June**, for that month's service.
+> - **Mid-term changes**: If the customer adds seats on **June 15th**, the prorated charge appears on an invoice with a different cadence around July 5th. These prorated changes don't appear on recurring charges invoices, but the recurring invoices will show the new seat total.
+>
+> **Annual Billing**
+>
+> - **First invoice**: Received by **May 3, 2024**, covering **May 2-June 1, 2025**.
+> - **Renewal invoice**: Issued by **May 3, 2026**, for the next annual term.
+> - **Mid-term changes**: If seats are added on **December 10, 2025**, the prorated charge appears on an invoice with a different cadence around January 5th. At renewal, the new seat total is billed for the upcoming term.
 
 > [!NOTE]
 > You can only change the billing frequency for a subscription when you buy, upgrade, or renew a subscription.

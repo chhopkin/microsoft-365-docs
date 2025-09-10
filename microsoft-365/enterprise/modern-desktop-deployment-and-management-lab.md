@@ -3,10 +3,10 @@ title: Windows and Microsoft 365 deployment lab kit
 description: Learn about where to access the Windows and Office deployment lab kit.
 f1.keywords:
 - NOCSH
-ms.author: aaroncz
+ms.author: frankroj
 author: cdmm12
-manager: aaroncz
-ms.reviewer: hdhaliwal
+manager: bpardi
+ms.reviewer: mherron
 ms.date: 04/10/2025
 ms.audience: ITPro
 ms.topic: install-set-up-deploy
@@ -116,7 +116,6 @@ The following sections describe the scenarios supported by the lab guides.
 
 ## Related resources
 
-- [Introducing Microsoft 365](https://www.microsoft.com/microsoft-365/default.aspx)
 - [Microsoft 365 for business](https://products.office.com/business/office)
 - [Introducing Enterprise Mobility + Security](https://www.microsoft.com/licensing/product-licensing/enterprise-mobility-security)
 - [Windows for business](https://www.microsoft.com/windows/business)
