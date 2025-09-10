@@ -52,4 +52,4 @@ To set the Compliance Security Filter for a Region:
    New-ComplianceSecurityFilter -Action All -FilterName "NAM eDiscovery Managers" -Region NAM -Users adwood@contoso.onmicrosoft.com
    ```
 
-See the [New-ComplianceSecurityFilter](/powershell/module/exchange/new-compliancesecurityfilter) article for more parameters and syntax.
+See the [New-ComplianceSecurityFilter](/powershell/module/exchangepowershell/new-compliancesecurityfilter) article for more parameters and syntax.
