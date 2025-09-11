@@ -96,7 +96,7 @@ Updates released between August 19, 2025, and September 3, 2025.
   Users can scope their prompts in Copilot Chat by searching and selecting relevant SharePoint Sites, allowing more focused and relevant discussions.
 - **Personalize interactions with Copilot Memory** [Android, iOS, Web]
 
-  Copilot Memory leverages insights iferred from conversations between the user and Copilot, along with data from the Microsoft Graph and custom instructions to provide personalized help for tasks. Users have full control and can view, manage, disable or clear memory at any time.
+  Copilot Memory leverages insights inferred from conversations between the user and Copilot, along with data from the Microsoft Graph and custom instructions to provide personalized help for tasks. Users have full control and can view, manage, disable or clear memory at any time.
  <a href="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-copilot-memory-a-more-productive-and-personalized-ai-for-the-way-you/4432059" target="_blank">Learn more.</a>
 - **Use Copilot Chat to enhance Find on Page** [Web]
 
@@ -1301,7 +1301,7 @@ Updates released between March 20, 2025, and April 2, 2025.
   Get suggestions from Copilot on how to rewrite any text, helping you improve clarity and style effortlessly.
 - **Simplified prompt experience in chat** [Web]
 
-  The chat experience in Word is now simplified with access to attachments, images, and agents now accessed form a single plus-sign menu.
+  The chat experience in Word is now simplified with access to attachments, images, and agents now accessed from a single plus-sign menu.
 - **Visualize as table** [iOS]
 
   Easily convert plain text into structured tables, helping you organize and present data more effectively in your daily work.
@@ -3125,7 +3125,7 @@ Updates released between July 8, 2025, and July 22, 2025.
  <a href="https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d" target="_blank">Learn more.</a>
 - **Microsoft 365 Copilot generates the new presentation in a new file when starting from an existing presentation** [Mac, Windows]
 
-  Now, when creating a presentation using Microsoft 365 Copilot from an existing presentation using , it will create the new presentation in a new file without affecting the original presentation
+  Now, when creating a presentation using Microsoft 365 Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation.
  <a href="https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d" target="_blank">Learn more.</a>
 - **Reference multiple files in your presentation creation using Microsoft 365 Copilot** [Windows, Mac, Web]
 
@@ -3298,7 +3298,7 @@ Updates released between May 29, 2025, and June 10, 2025.
 ### Microsoft 365 Copilot Chat
 - **Advanced email filtering in Copilot chat** [Windows]
 
-  Quickly surface exactly the emails you need—ask Microsoft 365 Copilot Chat for “last week’s external emails,” “threads I haven’t replied to,” “purple-category mail,” or “summarise German emails" "emails where I’m on the To line”—and focus on what matters most.
+  Quickly surface exactly the emails you need—ask Microsoft 365 Copilot Chat for “last week’s external emails,” “threads I haven’t replied to,” “purple-category mail,” or “summarize German emails" "emails where I’m on the To line”—and focus on what matters most.
 - **Find emails awaiting your reply** [Windows]
 
   Tell Microsoft 365 Copilot Chat “show me emails that I need to reply” and instantly see unread, read, @mentioned emails or emails with some question, task that you haven’t answered—while hiding threads you’ve already closed—so you can clear your inbox with confidence.
@@ -4472,7 +4472,7 @@ Updates released between August 19, 2025, and September 3, 2025.
   Users can scope their prompts in Copilot Chat by searching and selecting relevant SharePoint Sites, allowing more focused and relevant discussions.
 - **Personalize interactions with Copilot Memory** [Android, iOS, Web]
 
-  Copilot Memory leverages insights iferred from conversations between the user and Copilot, along with data from the Microsoft Graph and custom instructions to provide personalized help for tasks. Users have full control and can view, manage, disable or clear memory at any time.
+  Copilot Memory leverages insights inferred from conversations between the user and Copilot, along with data from the Microsoft Graph and custom instructions to provide personalized help for tasks. Users have full control and can view, manage, disable or clear memory at any time.
  <a href="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-copilot-memory-a-more-productive-and-personalized-ai-for-the-way-you/4432059" target="_blank">Learn more.</a>
 - **Use Copilot Chat to enhance Find on Page** [Web]
 
@@ -5339,7 +5339,7 @@ Updates released between March 20, 2025, and April 2, 2025.
 ### Word
 - **Simplified prompt experience in chat** [Web]
 
-  The chat experience in Word is now simplified with access to attachments, images, and agents now accessed form a single plus-sign menu.
+  The chat experience in Word is now simplified with access to attachments, images, and agents now accessed from a single plus-sign menu.
 
 ## March 19, 2025
 Updates released between March 5, 2025, and March 19, 2025.
@@ -6493,7 +6493,7 @@ Updates released between August 19, 2025, and September 3, 2025.
 ### Microsoft 365 Copilot Chat
 - **Personalize interactions with Copilot Memory** [Android, iOS, Web]
 
-  Copilot Memory leverages insights iferred from conversations between the user and Copilot, along with data from the Microsoft Graph and custom instructions to provide personalized help for tasks. Users have full control and can view, manage, disable or clear memory at any time.
+  Copilot Memory leverages insights inferred from conversations between the user and Copilot, along with data from the Microsoft Graph and custom instructions to provide personalized help for tasks. Users have full control and can view, manage, disable or clear memory at any time.
  <a href="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-copilot-memory-a-more-productive-and-personalized-ai-for-the-way-you/4432059" target="_blank">Learn more.</a>
 
 <!-- 95488,97897,99129 -->
@@ -6882,7 +6882,7 @@ Updates released between August 19, 2025, and September 3, 2025.
 ### Microsoft 365 Copilot Chat
 - **Personalize interactions with Copilot Memory** [Android, iOS, Web]
 
-  Copilot Memory leverages insights iferred from conversations between the user and Copilot, along with data from the Microsoft Graph and custom instructions to provide personalized help for tasks. Users have full control and can view, manage, disable or clear memory at any time.
+  Copilot Memory leverages insights inferred from conversations between the user and Copilot, along with data from the Microsoft Graph and custom instructions to provide personalized help for tasks. Users have full control and can view, manage, disable or clear memory at any time.
  <a href="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-copilot-memory-a-more-productive-and-personalized-ai-for-the-way-you/4432059" target="_blank">Learn more.</a>
 
 <!-- 95488,97897,99129 -->

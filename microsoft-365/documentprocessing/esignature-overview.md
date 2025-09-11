@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: jtremper
 ms.reviewer: amcdonnell
-ms.date: 08/01/2025
+ms.date: 09/11/2025
 audience: enabler
 ms.topic: concept-article
 ms.service: microsoft-syntex
@@ -26,11 +26,13 @@ The eSignature service simplifies the process of signing and sharing documents, 
 
 With eSignature, you can quickly and securely send documents for signature to people both inside and outside of your organization. You also have a digital audit trail, which can be used to verify the authenticity of documents and transactions.
 
+<!---
 ![Diagram showing the eSignature process.](../media/content-understanding/esignature-overview-flow.png)
+--->
 
 ## Regional availability
 
-The eSignature service is currently available in the US, UK, Canada, the EU, and Australia Pacific. It will be available worldwide later in 2025. The ability to use eSignature with other electronic signature providers is available worldwide.
+The eSignature service is available worldwide (exluding Indonesia and Türkiye, which are due later in 2025), via the Microsoft 365 public cloud. The ability to use eSignature with other electronic signature providers is also available worldwide.
 
 ## Before you begin
 
@@ -63,17 +65,21 @@ The eSignature service enables logging of eSignature activities in the Purview A
 
 ## Using other signature providers
 
-The eSignature platform is now integrated with other electronic signature providers, such as Adobe Acrobat Sign and DocuSign. You can initiate requests using these other providers from PDF documents in SharePoint, while ensuring the secure and automatic storage of signed documents in Microsoft 365. Other electronic signature providers will be added in the future.
+The eSignature platform is integrated with electronic signature providers Adobe Acrobat Sign and Docusign eSignature. You can initiate requests using these providers from PDF documents in SharePoint, while ensuring the secure and automatic storage of signed documents in Microsoft 365.
 
 The providers facilitate the signing process and send out all relevant notifications. When signing is complete, a copy of the fully signed document is automatically saved in SharePoint for easy access. For more information, see [how to add signature providers](esignature-setup.md#add-signature-providers) and [how to create a signature request using another provider](esignature-send-requests.md#create-a-signature-request-using-another-provider).
 
 ## Current release notes
 
-- The feature to use eSignature in Word is currently rolling out to users on the Microsoft 365 Beta and Current channels. Until then, eSignature is available for only PDF documents.
+- Microsoft 365 eSignature now available worldwide for PDFs and Word documents.
 
-- Tracking of eSignature requests through the Approvals app in Microsoft Teams is now available.
+- eSignature for Microsoft Word is available worldwide to users on the Microsoft 365 Beta and Current channels. 
 
-- Support for Adobe Acrobat Sign and DocuSign is now available worldwide. In the future, there will be potential integration with other electronic signature providers.
+- Tracking of eSignature requests through the Approvals app in Microsoft Teams is available.
+
+- Integration with Adobe Acrobat Sign and Docusign eSignature is available worldwide for PDFs. 
+
+*excluding Indonesia and Türkiye, which are due later in 2025.
 
 <br>
 
