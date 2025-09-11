@@ -207,3 +207,9 @@ items:
     href: https://copilot.cloud.microsoft/prompts
   - name: Submit Copilot feedback to Microsoft
     href: provide-feedback.md
+- name: Responsible AI
+  items:
+  - name: Overview
+    href: responsible-ai/responsible-ai-overview.md
+  - name: FAQ for App Builder in Microsoft 365 Copilot
+    href: responsible-ai/faq-app-builder.md
