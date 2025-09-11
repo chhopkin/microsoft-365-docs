@@ -61,7 +61,7 @@ This article applies to:
 
 > [!TIP]
 > - Home users might automatically get Microsoft Copilot, which is the free consumer version. To learn more, see [How can Copilot help you?](https://www.microsoft.com/microsoft-copilot/for-individuals) and [Welcome to Copilot on Windows](https://support.microsoft.com/windows/welcome-to-copilot-on-windows-675708af-8c16-4675-afeb-85a5a476ccb0).
-> - Get sample prompts at the [Copilot Prompt Gallery](https://copilot.cloud.microsoft/prompts) and training at the [Microsoft 365 Copilot Skilling Center](https://adoption.microsoft.com/copilot/skilling-center/).
+> - Get sample prompts at the [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts) and training at the [Microsoft 365 Copilot Skilling Center](https://adoption.microsoft.com/copilot/skilling-center/).
 > - Learn more about data privacy at [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
 
 ## The technical details
@@ -130,7 +130,7 @@ To learn more, see [Semantic indexing for Microsoft 365 Copilot](/microsoftsearc
 Microsoft 365 productivity apps (like Word, Excel, PowerPoint, Outlook, Teams, and Loop) work with Copilot to support users in the context of their work.
 
 > [!TIP]
-> To learn how users can use Copilot within Microsoft 365 apps, including sample prompts, see [Copilot Prompt Gallery](https://copilot.cloud.microsoft/prompts).
+> To learn how users can use Copilot within Microsoft 365 apps, including sample prompts, see [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts).
 
 Some of these features include:
 
@@ -183,5 +183,5 @@ More resources:
 
 - [Get licensing info](microsoft-365-copilot-licensing.md) and [set up Microsoft 365 Copilot](microsoft-365-copilot-setup.md).
 - Learn about [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
-- Get [sample prompts at the Copilot Prompt Gallery](https://copilot.cloud.microsoft/prompts) and [training at the Microsoft 365 Copilot Skilling Center](https://adoption.microsoft.com/copilot/skilling-center/).
+- Get [sample prompts at the Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts) and [training at the Microsoft 365 Copilot Skilling Center](https://adoption.microsoft.com/copilot/skilling-center/).
 - Stay up to date on the latest Copilot features, changes, and announcements using the [Message center](/microsoft-365/admin/manage/message-center) in the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/MessageCenter).

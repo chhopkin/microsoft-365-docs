@@ -29,7 +29,7 @@ As part of your [Microsoft 365 Copilot adoption](microsoft-365-copilot-enablemen
 
 :::image type="content" source="media/microsoft-365-copilot-enablement-resources/adopt-copilot-welcome-email-feedback.svg" alt-text="Diagram that shows the send welcome email and enable feedback step to adopt and enable Microsoft 365 Copilot." lightbox="media/microsoft-365-copilot-enablement-resources/adopt-copilot-welcome-email-feedback.svg":::
 
-Additionally, admins can use Organizational Messaging in the Microsoft Admin Center to deliver tailored in-product messages to your users directly through Teams."
+Additionally, admins can use Organizational Messaging in the Microsoft Admin Center to deliver tailored in-product messages to your users directly through Teams.
 
 This article provides information about how to send users a welcome email, enable feedback, send organizational messages, and review the Microsoft 365 Copilot usage activity report.
 
@@ -74,12 +74,12 @@ If you want to create a custom message instead of using the default one provided
 :::image type="content" source="media/create-custom-message.png" alt-text="An image of the Organizational messages page in which you can create a custom message.":::
 
 1. Select **Create a message**.
-2. Select an objective (for example, Adoption, Onboarding, Sustainability, or Training.). Select **Next**.
-3. Select where you would like your message to diplay (for example, Notifications area, Taskbar, Teaching popover, or Windows spotlight). Select **Next**.
-4. Choose to create you own message or start with a premade template. Select **Next**.
+2. Select an objective (for example, Adoption, Onboarding, Sustainability, or Training). Select **Next**.
+3. Select where you would like your message to display (for example, Notifications area, Taskbar, Teaching popover, or Windows spotlight). Select **Next**.
+4. Choose to create your own message or start with a premade template. Select **Next**.
 5. Write your message, then select **Next**.
 6. Select your target audience, then select **Next**.
-7. Schedule how long and how often you want you message to appear to your recipients. Select **Next**.
+7. Schedule how long and how often you want your message to appear to your recipients. Select **Next**.
 8. Review your selections, and then select **Schedule**.
 
 ## Enable feedback
