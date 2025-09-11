@@ -34,6 +34,8 @@ items:
   items:
   - name: Adoption guide and overview
     href: microsoft-365-copilot-enablement-resources.md
+  - name: Deploy Microsoft 365 Copilot app
+    href: deploy-microsoft-365-copilot-app.md
   - name: License options
     href: microsoft-365-copilot-licensing.md
   - name: App and network requirements
@@ -202,6 +204,6 @@ items:
   - name: Technical training
     href: /training/paths/prepare-your-organization-microsoft-365-copilot/
   - name: "Copilot: End user resources"
-    href: https://copilot.cloud.microsoft/prompts
+    href: https://m365.cloud.microsoft/copilot-prompts
   - name: Submit Copilot feedback to Microsoft
     href: provide-feedback.md

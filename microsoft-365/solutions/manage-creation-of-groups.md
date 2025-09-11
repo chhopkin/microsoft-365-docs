@@ -178,7 +178,7 @@ Changes can take 30 minutes or more to take effect. You can verify the new setti
 Try the same procedure again with a member of the group.
 
 > [!NOTE]
-> If members of the group aren't able to create groups, check that they aren't being blocked through their [OWA mailbox policy](/powershell/module/exchange/set-owamailboxpolicy).
+> If members of the group aren't able to create groups, check that they aren't being blocked through their [OWA mailbox policy](/powershell/module/exchangepowershell/set-owamailboxpolicy).
 
 ## Related articles
 
