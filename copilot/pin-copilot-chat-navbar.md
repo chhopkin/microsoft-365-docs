@@ -36,7 +36,7 @@ As an admin, you can pin Microsoft 365 Copilot Chat in the Microsoft 365 apps an
 
 The following role can access the pinning setting in the Microsoft 365 admin center:
 
-- AI Administrator
+- [AI administrator](/entra/identity/role-based-access-control/permissions-reference)
 
 To get to this setting, go to the [Copilot settings page](https://go.microsoft.com/fwlink/?linkid=2310640), or:
 
@@ -89,38 +89,15 @@ For large enterprises with complex needs, you can set up the Pinning policy to a
 3. Select **Create**.
 4. Customize the basics and scope of the policy.
 5. In policies, look for "Pin Microsoft Copilot to the navigation bar."
-   
-   The flyout panel displays the configuration options. 
+
+   The flyout panel displays the configuration options.
 6. Select an option and apply.
 7. Review final changes.
 8. Publish.
 
 ## User experience
 
-Users can choose to pin or unpin Copilot Chat. Users can also adjust the pinning settings within their application preferences, and these choices are specific to Microsoft 365 apps, the Microsoft 365 Copilot web app ([microsoft365.com](https://M365Copilot.com), [m365.cloud.microsoft](https://m365.cloud.microsoft/)), the Microsoft 365 Copilot desktop app, and Microsoft 365 Copilot mobile app.
-
-A message asking to pin Microsoft 365 Copilot Chat can appear if a user:
-
-- Navigates to [https://microsoft.com/copilot](https://microsoft.com/copilot), [https://microsoft365.com](https://microsoft365.com), or [https://m365.cloud.microsoft/](https://microsoft365.com), and selects **Settings** > **Pin Copilot**.  
-- Opens a Microsoft 365 app, or the Microsoft 365 app on web.
-
-:::image type="content" source="media/pinning-desktop20thsep.png" alt-text="Screenshot showing the prompt for users to pin Copilot Chat." lightbox="media/pinning-desktop20thsep.png":::
-
-The Copilot Chat pinning notification provides users with three options:
-
-- **Ask me later**
-- **Do not Pin**
-- **Pin and Continue**
-
-If a user selects **Ask me later**, the same message is shown to the user up to three more times, with the pinning dialog shown for a maximum of once per user session. On the final message, the **Don't show again** button replaces the **Ask me later** button. If the user selects **Don't show again**, there are no more notifications to pin Copilot Chat.  
-
-If a user selects **Do not Pin**, there are no more notifications to pin Copilot Chat.
-
-If a user opens the Microsoft 365 Copilot mobile app, they see two options: **Pin and Continue** and **Decline**:
-
-:::image type="content" source="media/pinning-mobile20thsep-small.png" alt-text="Screenshot showing the prompt that appears on mobile interfaces for users to pin Copilot Chat." lightbox="media/pinning-mobile20thsep.png":::
-
-Users with a Microsoft 365 Copilot license don't see any pinning messages. Instead, they see a welcome screen when they use Copilot for the first time.
+Unlicensed Copilot Chat users can choose to pin or unpin Copilot Chat. Users can also adjust the pinning settings within their application preferences, and these choices are specific to Microsoft Teams, Outlook and the Microsoft 365 Copilot app.
 
 ## Pin Copilot Chat in Microsoft Teams through the Teams admin center
 
@@ -135,4 +112,4 @@ If you select **Do not pin Copilot** on the **Copilot** > **Settings** page in t
 - [Pin Microsoft 365 Copilot to the Windows taskbar](pin-copilot-taskbar.md)
 - [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md)
 - [Microsoft 365 Copilot technical documentation hub](index.yml)
-- [Copilot Prompt Gallery](https://copilot.cloud.microsoft/prompts)
+- [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
