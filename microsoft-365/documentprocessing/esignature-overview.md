@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: jtremper
 ms.reviewer: amcdonnell
-ms.date: 08/01/2025
+ms.date: 09/11/2025
 audience: enabler
 ms.topic: concept-article
 ms.service: microsoft-syntex
@@ -26,11 +26,13 @@ The eSignature service simplifies the process of signing and sharing documents, 
 
 With eSignature, you can quickly and securely send documents for signature to people both inside and outside of your organization. You also have a digital audit trail, which can be used to verify the authenticity of documents and transactions.
 
+<!---
 ![Diagram showing the eSignature process.](../media/content-understanding/esignature-overview-flow.png)
+--->
 
 ## Regional availability
 
-The eSignature service is available worldwide (exluding Indonesia and Türkiye which are due later in 2025), via the Microsoft 365 public cloud. The ability to use eSignature with other electronic signature providers is also available worldwide.
+The eSignature service is available worldwide (exluding Indonesia and Turkey which are due later in 2025), via the Microsoft 365 public cloud. The ability to use eSignature with other electronic signature providers is also available worldwide.
 
 ## Before you begin
 
@@ -77,7 +79,8 @@ The providers facilitate the signing process and send out all relevant notificat
 
 - Integration with Adobe Acrobat Sign and Docusign eSignature is available worldwide for PDFs. 
 
-*exluding Indonesia and Türkiye which are due later in 2025.
+*excluding Indonesia and Turkey which are due later in 2025.
+
 <br>
 
 > [!div class="nextstepaction"]
