@@ -34,6 +34,8 @@ items:
   items:
   - name: Adoption guide and overview
     href: microsoft-365-copilot-enablement-resources.md
+  - name: Deploy Microsoft 365 Copilot app
+    href: deploy-microsoft-365-copilot-app.md
   - name: License options
     href: microsoft-365-copilot-licensing.md
   - name: App and network requirements
@@ -117,6 +119,8 @@ items:
     href: microsoft-365-copilot-search-admin-experience.md
   - name: Microsoft 365 Copilot Search FAQ
     href: microsoft-365-copilot-search-faq.yml
+  - name: Connect organizational asset library to Microsoft 365 Copilot Search
+    href: microsoft-365-copilot-search-image-tagging-integration.md   
 - name: Microsoft 365 Copilot in Microsoft Teams
   items:
   - name: Overview of AI in Microsoft Teams
@@ -200,6 +204,6 @@ items:
   - name: Technical training
     href: /training/paths/prepare-your-organization-microsoft-365-copilot/
   - name: "Copilot: End user resources"
-    href: https://copilot.cloud.microsoft/prompts
+    href: https://m365.cloud.microsoft/copilot-prompts
   - name: Submit Copilot feedback to Microsoft
     href: provide-feedback.md
