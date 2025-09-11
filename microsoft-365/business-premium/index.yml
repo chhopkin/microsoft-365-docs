@@ -190,9 +190,9 @@ conceptualContent:
   # Card
     - title: How do I...
       links:
-        - url: /microsoft-365/admin/security-and-compliance/m365b-whats-new
+        - url: /microsoft-365/admin/security-and-compliance/m365b-security-whats-new
           itemType: overview
-          text: See what's new in Microsoft 365 Business Premium
+          text: See what's new in security in Microsoft 365 for business
         - url: /microsoft-365/admin/security-and-compliance/m365b-security-best-practices
           itemType: how-to-guide
           text: See top 10 ways to secure my business
