@@ -106,6 +106,17 @@ The **Allow the use of eSignature for Microsoft Word** group policy setting cont
 
 2. Apply the policy setting.
 
+#### As an alternative to applying the policy, use a registry command to enable eSignature for Word
+
+On a Windows device, you can run a "reg add" command from an elevated command prompt. 
+
+The following command updates the registry to display the 'eSignature fields' action on the Word Desktop Insert Ribbon. 
+
+reg add HKCU\software\policies\microsoft\office\16.0\word\options /v isesignenabled /t REG_DWORD /d 1 /f
+
+> [!NOTE]
+> Either the group policy or registry command must be applied for users to have access to the 'eSignature fields' action on the Word Desktop Insert Ribbon.
+
 ### Manage sites
 
 To specify the sites where users can use eSignature, follow these steps.
