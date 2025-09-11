@@ -32,7 +32,7 @@ With eSignature, you can quickly and securely send documents for signature to pe
 
 ## Regional availability
 
-The eSignature service is available worldwide (exluding Indonesia and Türkiye, which are due later in 2025), via the Microsoft 365 public cloud. The ability to use eSignature with other electronic signature providers is also available worldwide.
+The eSignature service is available worldwide (excluding Indonesia and Türkiye, which are due later in 2025), via the Microsoft 365 public cloud. The ability to use eSignature with other electronic signature providers is also available worldwide.
 
 ## Before you begin
 
