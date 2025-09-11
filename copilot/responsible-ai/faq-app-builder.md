@@ -56,3 +56,7 @@ Always test code thoroughly before making it available in production.
 ## How do I provide feedback on M365 App Builder?
 
 Select a thumbs up or thumbs down response, and add comments to suggest improvements, report issues, or share your experience with the tool.
+
+### Additional resources
+
+[Build apps with Microsoft 365 Copilot](https://support.microsoft.com/topic/a50c7eb7-ed36-45b5-baa4-b24e70f3b550)
