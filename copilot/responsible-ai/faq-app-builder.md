@@ -22,7 +22,7 @@ M365 App Builder is an agent in M365 Copilot that lets you generate, save, and s
 
 ## What can M365 App Builder do?
 
-Describe what you want in natural language, and App Builder generates app pages for your purpose in real time through an interactive, conversational experience. Iterate with App Builder to refine what it creates—adjust elements, layout, and functionality to match your vision.
+Describe what you want in natural language, and App Builder generates app pages for your purpose in real time through an interactive, conversational experience. Iterate with App Builder to refine what it creates to adjust elements, layout, and functionality to match your vision.
  
 ## What is M365 App Builder’s intended use?
 
