@@ -928,9 +928,9 @@ Updates released between May 13, 2025, and May 29, 2025.
   Copilot in Forms has been revamped to more easily help users refine and modify their forms. Users can now type prompts to Copilot to help with editing and refinement, so they can get tailored suggestions and easily get their forms ready to send.
  <a href="https://techcommunity.microsoft.com/blog/microsoftformsblog/introducing-new-agentic-features-for-copilot-in-forms-%E2%80%93-create-refine-and-share-/4406237" target="_blank">Learn more.</a>
 ### Microsoft 365 admin center
-- **Usage reports – monitor Copilot.cloud.microsoft/Teams/Outlook activity in Microsoft 365 Copilot Chat usage report** [Web]
+- **Usage reports – monitor m365.cloud.microsoft/chat/Teams/Outlook activity in Microsoft 365 Copilot Chat usage report** [Web]
 
-  Track active users and last activity dates for Copilot.cloud.microsoft, Teams, and Outlook—even for employees without a Copilot license—to gauge grassroots adoption and fine-tune rollout plans in Microsoft 365 Copilot Chat usage report.
+  Track active users and last activity dates for m365.cloud.microsoft/chat, Teams, and Outlook—even for employees without a Copilot license—to gauge grassroots adoption and fine-tune rollout plans in Microsoft 365 Copilot Chat usage report.
  <a href="/microsoft-365/admin/activity-reports/microsoft-copilot-usage" target="_blank">Learn more.</a>
 ### Microsoft 365 Copilot Chat
 - **Analyze usage of declarative agent in Developer Portal**
@@ -5067,9 +5067,9 @@ Updates released between May 13, 2025, and May 29, 2025.
   Copilot in Forms has been revamped to more easily help users refine and modify their forms. Users can now type prompts to Copilot to help with editing and refinement, so they can get tailored suggestions and easily get their forms ready to send.
  <a href="https://techcommunity.microsoft.com/blog/microsoftformsblog/introducing-new-agentic-features-for-copilot-in-forms-%E2%80%93-create-refine-and-share-/4406237" target="_blank">Learn more.</a>
 ### Microsoft 365 admin center
-- **Usage reports – monitor Copilot.cloud.microsoft/Teams/Outlook activity in Microsoft 365 Copilot Chat usage report** [Web]
+- **Usage reports – monitor m365.cloud.microsoft/chat/Teams/Outlook activity in Microsoft 365 Copilot Chat usage report** [Web]
 
-  Track active users and last activity dates for Copilot.cloud.microsoft, Teams, and Outlook—even for employees without a Copilot license—to gauge grassroots adoption and fine-tune rollout plans in Microsoft 365 Copilot Chat usage report.
+  Track active users and last activity dates for m365.cloud.microsoft/chat, Teams, and Outlook—even for employees without a Copilot license—to gauge grassroots adoption and fine-tune rollout plans in Microsoft 365 Copilot Chat usage report.
  <a href="/microsoft-365/admin/activity-reports/microsoft-copilot-usage" target="_blank">Learn more.</a>
 ### Microsoft 365 Copilot Chat
 - **Bring Azure AI Search indexes into Copilot Studio knowledge** [Web]

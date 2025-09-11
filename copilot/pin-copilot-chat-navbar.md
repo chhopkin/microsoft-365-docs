@@ -112,4 +112,4 @@ If you select **Do not pin Copilot** on the **Copilot** > **Settings** page in t
 - [Pin Microsoft 365 Copilot to the Windows taskbar](pin-copilot-taskbar.md)
 - [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md)
 - [Microsoft 365 Copilot technical documentation hub](index.yml)
-- [Copilot Prompt Gallery](https://copilot.cloud.microsoft/prompts)
+- [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
