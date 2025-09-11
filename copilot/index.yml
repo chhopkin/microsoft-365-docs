@@ -147,4 +147,4 @@ sections:
       - componentType: summary-card
         title: Copilot Prompt Gallery
         summary: Explore examples of how to interact with Copilot across apps using natural language prompts.
-        url: https://copilot.cloud.microsoft/prompts
+        url: https://m365.cloud.microsoft/copilot-prompts

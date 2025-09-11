@@ -153,4 +153,4 @@ For more information, see:
 
 - [Microsoft 365 Copilot adoption guide and overview for IT admins](microsoft-365-copilot-reports-for-admins.md)
 - [Which Copilot is right for my organization?](which-copilot-for-your-organization.md)
-- [Start using Copilot in your Microsoft 365 apps](https://copilot.cloud.microsoft/prompts)
+- [Start using Copilot in your Microsoft 365 apps](https://m365.cloud.microsoft/copilot-prompts)
