@@ -117,7 +117,7 @@ Microsoft 365 admins can also track Copilot Chat usage in their Microsoft 365 en
 
 ## Manage Copilot Chat
 
-Microsoft 365 admins can manage Copilot Chat in the admin center through the Copilot Control [EE20.1][EE20.2]System settings. In it, an admin can configure how user interact with Copilot, such as:
+Microsoft 365 admins can manage Copilot Chat in the admin center through the Copilot Control System settings. In it, an admin can configure how user interact with Copilot, such as:
 
 - Choose whether users have Copilot Chat pinned across their experiences.
 - Manage whether users can generate images with Copilot Chat.
