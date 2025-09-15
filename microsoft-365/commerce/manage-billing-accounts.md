@@ -26,14 +26,14 @@ ms.custom:
 - campaignIDs-batch2
 search.appverid: MET150
 description: "Learn about Microsoft business billing accounts and how they're used to manage account settings, invoices, payment methods, and purchases."
-ms.date: 05/05/2025
+ms.date: 09/15/2025
 ---
 
 # Understand your Microsoft business billing account
 
 When you sign up to try or buy Microsoft business products, a billing account is automatically created for you. You use your billing account to manage your account settings, invoices, payment methods, and purchases from us.
 
-You might have access to multiple billing accounts. For example, you can have one billing account when you buy directly from Microsoft, and another when you have access to your organization’s billing account.
+You might have access to multiple billing accounts. For example, you can have one billing account when you buy directly from Microsoft, and another when you have access to your organization's billing account.
 
 ## Before you begin
 
@@ -47,7 +47,7 @@ The <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">
 
 - **Microsoft Customer Agreement (MCA)**: This billing account is created when your organization works with a Microsoft representative, an authorized partner, or buys products and services independently. For MCA billing accounts, you have a corresponding billing profile that contains your subscriptions.
 - **Microsoft Partner Agreement (MPA):** This billing account is created for Cloud Solution Provider (CSP) partners to manage their customers.
-- **Microsoft Online Subscription Agreement (MOSA)**: This billing account was created when you signed up for a Microsoft 365 subscription directly. You might have a MOSA billing account if your account hasn’t yet moved to the Microsoft Customer Agreement. For MOSA billing accounts, you receive an invoice for each order, on the account anniversary.
+- **Microsoft Online Subscription Agreement (MOSA)**: This billing account was created when you signed up for a Microsoft 365 subscription directly. You might have a MOSA billing account if your account hasn't yet moved to the Microsoft Customer Agreement. For MOSA billing accounts, you receive an invoice for each order, on the account anniversary.
 
 ## View my billing accounts
 
@@ -82,12 +82,12 @@ The following table lists the terms shown on the billing account details page.
 |Billing account ID                               |The unique identifier for your billing account. |
 |Name                             |The name of your billing account. To change the name, select **Update name**. |
 |Status                   |A read-only field that specifies the status of your commercial account with Microsoft. |
-|My current role|The role you have on this billing account.  See section on billing account roles below.|
+|My current role|The role you have on this billing account. See the [What are billing account roles?](#what-are-billing-account-roles) section later in this article.|
 |Sold-to address                          |The details of the legal entity responsible for payment and identified on the invoice. This section contains the name and address of the individual or organization responsible for the account, together with a contact email address and phone number. The address provided here is used to determine your tax rate unless you opt to provide an alternative shipping address during your purchase. For more information, see [Tax information](billing-and-payments/tax-information.md). |
-|Tax ID                           |This field only applies if you’re in a country or region that requires you to provide a VAT or local equivalent. For more information, see [Tax information](billing-and-payments/tax-information.md). |
+|Tax ID                           |This field only applies if you're in a country/region that requires you to provide a VAT or local equivalent. For more information, see [Tax information](billing-and-payments/tax-information.md). |
 |Registration number (Optional)   |A legal registration number that you provide to us so we can review the details of your account. For more information, see [About registration numbers and under-review notifications](about-registration-numbers.md). To add a registration number, select **Edit**. |
 |Type|The type of billing account.|
-|Agreements|Links to the agreements signed by your organization with Microsoft.  Not all agreements are available to view online.|
+|Agreements|Links to the agreements signed by your organization with Microsoft. Not all agreements are available to view online.|
 
 > [!NOTE]
 > If you need to change the **Sold-to** name, you must [contact support](../admin/get-help-support.md) to change it. Requests to change the **Sold-to** name require a credit check. Complete [this form](https://www.microsoft.com/download/details.aspx?id=102732), and be ready to share one of the following documents with Microsoft when you contact support:
@@ -95,7 +95,7 @@ The following table lists the terms shown on the billing account details page.
 > - Government-issued document or registration letter
 > - Print out of the local company's registry
 >
-> Support can help with name and address changes where only the customer name changes, but the entity remains the same. Any documentation you provide should clearly show that only the entity’s name has changed. If the change is the result of a transaction, including the sale of a business, a change of controls, or a divestiture or “spin-off” of a Customer Affiliate, please contact your Microsoft Seller or Microsoft support.
+> Support can help with name and address changes where only the customer name changes, but the entity remains the same. Any documentation you provide should clearly show that only the entity's name changed. If the change is the result of a transaction, including the sale of a business, a change of controls, or a divestiture or “spin-off” of a Customer Affiliate, contact your Microsoft Seller or Microsoft support.
 
 ## What are billing account roles?
 
@@ -104,7 +104,7 @@ If you have an MCA billing account type, the top of the billing account details 
 > [!IMPORTANT]
 > Billing account roles only apply to billing accounts, and don't apply to other Microsoft 365 admin center scenarios.
 
-If you’re a Global Administrator, you can assign yourself a Billing account role in the Microsoft 365 admin center through the billing account roles and permissions. Elevating your access to manage billing accounts gives you the ability to view and manage cost and billing for your accounts. You can view invoices, charges, products that are purchased, and the users who have access to the billing accounts.
+If you're a Global Administrator, you can assign yourself a Billing account role in the Microsoft 365 admin center through the billing account roles and permissions. Elevating your access to manage billing accounts gives you the ability to view and manage cost and billing for your accounts. You can view invoices, charges, products that are purchased, and the users who have access to the billing accounts.
 
 You can provide others with access to the billing account in the Microsoft 365 admin center through the billing account roles and permissions. For instructions about how to grant billing account access to other users, see [Assign billing account roles](#assign-billing-account-roles).
 
@@ -139,7 +139,54 @@ To export the information shown in the **Related billing role assignments** pane
 
 If you have an MCA billing account type, you can give users from other tenants access to collaborate on a single set of resources across all products. For more information about associated billing tenants and how to add and assign roles to them, see [Manage billing across multiple tenants in the Microsoft 365 admin center](billing-and-payments/manage-multi-tenant-billing.md).
 
+## Keep your billing account active
+
+If a billing account is unused for a certain amount of time, it's classified as *inactive*. An inactive billing account can increase potential security risks to that account and the resources it contains. To reduce this risk, Microsoft takes measures to secure, protect, and ultimately delete inactive billing accounts, tenants, and subscriptions within them.
+
+This section applies to the following agreements:
+
+- Microsoft Customer Agreement (MCA)
+- Microsoft Online Subscription Agreement (MOSA)
+- Cloud Solution Provider (CSP)
+- Enrollment for Education Solutions (EES)
+
+### What is an inactive billing account?
+
+A billing account is considered inactive when the following criteria are met in a minimum of a 12-month period:
+
+- No usage within the billing account, tenant, or subscription
+- No sign-in activity within the billing account, tenant, or subscription
+- No open or pending support requests
+
+When a billing account meets all these criteria, you receive a notification from Microsoft that says that your inactive billing account will be blocked in 30 days.
+
+> [!IMPORTANT]
+> If your billing account remains inactive for 30 days after the notification, we block it. 
+
+### How do I keep my billing account active?
+
+If you use your billing account within 30 days of receiving the notification, your account returns to its active state and is no longer subject to getting blocked. The following list includes examples of activities and account usage that keep your billing account active:
+
+- Using a product or a service
+- Generating metered usage
+- Creating a support ticket
+
+### What happens if my billing account is blocked?
+
+When your billing account is blocked, you can no longer perform certain actions, like adding new subscriptions and transferring existing subscriptions. To unblock your billing account and return it to its active state, use the following criteria to contact support for help:
+
+- If you bought your subscription directly from Microsoft, [contact Microsoft Support](../admin/get-help-support.md).
+- If you're a Partner or Enterprise customer, contact your partner or account manager.
+
+**If you have a billing account with a prepaid subscription set to auto-renew:** After your billing account is blocked, if no action is taken, you receive a notification of tenant deauthorization. This step can be avoided or reversed within the allowed timeframe specified in the notification. Subscription usage isn't affected until a lifecycle management event occurs, like when a payment method expires. At that time, subscriptions might expire and be deleted, followed by billing account expiration and deletion.
+
+**All other customers:** After your billing account is blocked, if no action is taken, subscription suspension, tenant deauthorization, and account termination might occur. Before each step is implemented, you receive a notification that contains the details and timeframe for that specific step. Each step can be avoided or reversed within the allowed time by contacting the support channels listed in this section.
+
+> [!WARNING]
+> You can avoid account termination, but after it occurs, it's not reversible. If no action is taken within the notification period, your billing account is terminated, and any data and resources associated with the billing account are permanently deleted and can't be recovered.
+
 ## Related content
 
 [Tax information](billing-and-payments/tax-information.md) (article) \
-[Manage your Microsoft business billing profiles](billing-and-payments/manage-billing-profiles.md) (article)
+[Manage your Microsoft business billing profiles](billing-and-payments/manage-billing-profiles.md) (article) \
+[Get support for Microsoft 365 for business](../admin/get-help-support.md) (article)
