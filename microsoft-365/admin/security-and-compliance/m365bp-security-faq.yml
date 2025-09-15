@@ -13,7 +13,7 @@ metadata:
   - tier2
   - m365-security
   - trust-pod
-  ms.date: 09/10/2025
+  ms.date: 09/15/2025
   ms.localizationpriority: medium
   audience: microsoft-business
   keywords:
@@ -63,15 +63,15 @@ sections:
         answer: |
           PCs managed with Business Premium are protected by Microsoft Defender for Business, an endpoint security solution that's designed especially for small and medium-sized business (up to 300 users). With Defender for Business, the devices in your organization are better protected from ransomware, malware, phishing, and other threats.
 
-      - question: What if my Microsoft 365 Business Premium organization has some Microsoft Defender for Business servers licenses, and I want to switch all users to Microsoft 365 E5 Security?
+      - question: What if my Microsoft 365 Business Premium organization has some Microsoft Defender for Business servers licenses, and I want to switch all users to Microsoft Defender Suite?
         answer: |
           You need to change your server plan to Microsoft Defender for Endpoint for servers or Microsoft Defender for Servers.
 
-      - question: Is Microsoft 365 E5 Security available as an add-on for Microsoft 365 Business Premium for Nonprofits?
+      - question: Is Microsoft Defender Suite available as an add-on for Microsoft 365 Business Premium for Nonprofits?
         answer: |
           Yes.
           
-          Microsoft 365 E5 Security is available as an add-on for the commercial and non-profit offerings of Microsoft 365 Business Premium.
+          Microsoft Defender Suite is available as an add-on for the commercial and non-profit offerings of Microsoft 365 Business Premium.
 
   - name: Deployment
     questions:
