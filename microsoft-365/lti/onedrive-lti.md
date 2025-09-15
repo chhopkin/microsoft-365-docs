@@ -7,13 +7,14 @@ ms.reviewer: amitman
 ms.date: 06/21/2021
 audience: admin
 ms.topic: integration
-ms.service: msteams
-ms.subservice: teams-education
+ms.service: microsoft-365-education
 f1.keywords:
 - CSH
 ms.collection: 
 - M365-modern-desktop
 - tier2
+- m365-education
+- all-education
 ms.localizationpriority: medium
 description: Create and grade assignments, build and curate course content, and collaborate on files in real time with the Microsoft OneDrive LTI for Canvas.
 ---
@@ -69,7 +70,7 @@ Integrating Microsoft OneDrive LTI with Canvas is a two-step process. The first 
     >
     > For more information on how educators can modify their course navigation links, see [How do I manage Course Navigation links?](https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-manage-Course-Navigation-links/ta-p/1020)
 
-7. Next, expand the **Additional settings** dropdown and set the **Privacy Level** to **Public**. 
+7. Next, expand the **Additional settings** dropdown and set the **Privacy Level** to **Public**.
   
    Setting the **Privacy Level** to **Public** allows course members' names to appear to other members for collaboration.
 
