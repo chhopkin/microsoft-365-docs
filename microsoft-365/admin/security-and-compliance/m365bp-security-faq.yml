@@ -13,7 +13,7 @@ metadata:
   - tier2
   - m365-security
   - trust-pod
-  ms.date: 05/21/2025
+  ms.date: 09/15/2025
   ms.localizationpriority: medium
   audience: microsoft-business
   keywords:
@@ -34,7 +34,7 @@ sections:
 
       - question: Does Microsoft 365 Business Premium with the Microsoft Defender Suite allow mixed licensing for endpoint security solutions?
         answer: |
-          No. For example:
+          Microsoft Defender for Business doesn't support mixed licensing, so a tenant with Defender for Business (which is included in Microsoft 365 Business Premium) along with Defender for Endpoint Plan 2 (which is included in Microsoft Defender Suite for Business Premium) defaults to the Defender for Business experience.
           
           - 80 users are licensed for Business Premium (which includes Defender for Business).
           - To those 80 users, you add 30 licenses of Microsoft Defender Suite (which includes Defender for Endpoint Plan 2).
