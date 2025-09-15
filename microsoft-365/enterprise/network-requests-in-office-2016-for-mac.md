@@ -70,7 +70,7 @@ The following network endpoints are contacted on first launch of an Office app. 
 |```https://nexusrules.officeapps.live.com/```  <br/> |WXPON  <br/> |ST  <br/> |Office Rules Telemetry download - Informs the client about what data and events to upload to the telemetry service. <br/> |
 |```https://otelrules.svc.static.microsoft/```  <br/> |WXPON  <br/> |ST  <br/> |Office Rules Telemetry download - Informs the client about what data and events to upload to the telemetry service.  <br/> |
 |```https://mobile.pipe.aria.microsoft.com/```  <br/> |N  <br/> |CS  <br/> |OneNote Telemetry Service  <br/> |
-|```https://nexus.officeapps.live.com/```  <br/> |WXPON  <br/> |ST  <br/> |Office Telemetry Upload Reporting - "Heartbeart" and error events that occur on the client are uploaded to the telemetry service.  *[Note: this URL is only used by Office 2019 for Mac and older versions, which are no longer supported.]* <br/> |
+|```https://nexus.officeapps.live.com/```  <br/> |WXPON  <br/> |ST  <br/> |Office Telemetry Upload Reporting - "Heartbeat" and error events that occur on the client are uploaded to the telemetry service.  *[Note: this URL is only used by Office 2019 for Mac and older versions, which are no longer supported.]* <br/> |
 |```https://templateservice.office.com/```  <br/> |WXP  <br/> |CS  <br/> |Office Template Service - Provides users with online document templates.  <br/> |
 |```https://omextemplates.content.office.net/```  <br/> |WXP  <br/> |CS  <br/> |Office Templates Downloads - Storage of PNG template images.  <br/> |
 |```https://store.office.com/```  <br/> |WXP  <br/> |CS  <br/> |Store configuration for Office apps.  <br/> |
@@ -312,7 +312,7 @@ In some cases, the contents of a document will cause the application to crash. I
   
 ### Updates
   
-Microsoft releases Office for Mac updates at regular intervals (typically once a month). We strongly encourage users and IT administrators to keep machines up to date to ensure the latest security fixes are installed. In cases where IT administrators want to closely control and manage machine updates, the following preference can be set to prevent the AutoUpdate process from automatically detecting and offering product updates:
+Microsoft releases Office for Mac updates at regular intervals (typically once a month). We strongly encourage users and IT administrators to keep machines up to date to ensure the latest security fixes are installed. In cases where IT administrators want to closely control and manage machine updates, the following preference can be set to prevent the Microsoft AutoUpdate process from automatically detecting and offering product updates:
   
 ```defaults write com.microsoft.autoupdate2 HowToCheck -string 'Manual'```
 
