@@ -189,11 +189,13 @@ The invoice recon file provides line-item level details for better reconciliatio
 There are several reasons that you might not see an invoice:
 
 - The invoice isn't ready yet. Go to **View Order Details** to check the billing period.
-- You don't have the correct Invoice Reader role for the account you signed in with.
+- You don't have the correct **Invoice Reader role** for the account you signed in with.
 - You only have access to invoices for licensing IDs / contracts for which you're the **Bill To contact**.  
-- The **Invoice created** date must be November 18, 2022, or later.
-- The invoice you're looking for relates to licenses purchased via a License Solution Partner, not to purchases made directly from Microsoft. You won't see invoices for parent agreements. Purchase orders and invoices are issued at License ID level under the parent program agreement.
+- The invoice you're looking for relates to licenses purchased via a License Solution Partner, not to purchases made directly from Microsoft. (To identify the partner or seller for a licensing ID, go to the **Billing** > **Your Products** page, select the **Volume Licensing** tab, select **Contracts**, then select **View contract details** and look for **Bill to** or **Channel Partner)**
 
+- You won't see invoices for parent agreements. Purchase orders and invoices are issued at License ID level under the parent program agreement.
+
+- The **Invoice created** date must be November 18, 2022, or later.
 ### How do I request permission to view volume licensing invoices?
 
 The Invoice Reader VL role is automatically assigned in the admin center to the **Bill To Contact** named in the agreement contract submitted by your Microsoft partner or seller at the time of contract creation.
