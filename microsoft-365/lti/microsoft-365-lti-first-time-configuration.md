@@ -7,12 +7,13 @@ ms.author: avering
 manager: michal.gideoni
 audience: admin
 ms.topic: how-to
-ms.service: msteams
-ms.subservice: teams-education
+ms.service: microsoft-365-education
 ms.collection: 
 - M365-modern-desktop
 - m365initiative-edu
 - tier2
+- m365-education
+- all-education
 ms.localizationpriority: medium
 ---
 # Microsoft 365 LTI® First-Time Configuration
@@ -41,7 +42,7 @@ Once the Microsoft 365 tool is installed, an LMS Administrator must complete the
     :::image type="content" source="./media/consent.png" alt-text="Screenshot of admin setting consent." border="true":::
 
     > [!NOTE]
-    > You can share the following instructions with your Microsoft admin to complete this step. The URL they'll need is: https://m365lti.edu.cloud.microsoft/Consent
+    > You can share the following instructions with your Microsoft admin to complete this step. The URL they'll need is: `https://m365lti.edu.cloud.microsoft/Consent`
 
     Selecting the **Admin Consent** button or visiting the consent link will trigger a login and then the **Permissions requested** dialog. Login with a Microsoft 365 Global Administrator user role, and then select **Accept** on the dialog to complete this step.
 

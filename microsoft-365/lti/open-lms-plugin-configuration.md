@@ -7,13 +7,14 @@ ms.reviewer: amitman
 ms.date: 04/06/2022
 audience: admin
 ms.topic: install-set-up-deploy
-ms.service: msteams
-ms.subservice: teams-education
+ms.service: microsoft-365-education
 f1.keywords:
 - CSH
 ms.collection: 
 - M365-modern-desktop
 - tier2
+- m365-education
+- all-education
 ms.localizationpriority: medium
 description: Get ready to integrate Open LMS and Microsoft Teams by setting up and configuring the Moodle LMS plugins.
 ---
