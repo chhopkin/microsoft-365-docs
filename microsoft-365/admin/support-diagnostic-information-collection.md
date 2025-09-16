@@ -3,7 +3,7 @@ title: "Understanding Microsoft 365 case creation and diagnostic data access"
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 07/30/2025
+ms.date: 09/16/2025
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -19,19 +19,21 @@ description: "Learn about the diagnostic data Microsoft 365 Support engineers ac
 # Understanding Microsoft 365 case creation and diagnostic data access
 
 > [!IMPORTANT]
-> **Based on customer feedback, Microsoft is rolling back and evaluating the following feature**:
-> 
-> When you create a support request and you grant advanced diagnostic consent, you see a notification that cross-tenant access settings were updated due to a partner addition. The notification occurs because the Microsoft Support tenant (`Office365ConciergeSupport.onmicrosoft.com - b4c546a4-7dac-46a6-a7dd-ed822a11efd3`) is added as a service provider for the duration of active support requests in your tenant. Expect to see audit logs in these categories:
-> 
-> - `Policy`
-> - `CrossTenantAccessSettings`
-> - `DelegatedAdminServiceProviderConstraints`
+> New security enhancements are rolling out for advanced diagnostics. Details are available in the Message CenterSee the section, [What happens when cross-tenant access is granted to Microsoft Support?](#what-happens-when-advanced-diagnostic-consent-is-granted-to-microsoft-support) (in this article).
 
 The purpose of this article is to inform Microsoft 365 customers about the type of information that Microsoft Support engineers may collect and use in order to resolve a support case.
 
 ## Consent for diagnostic information
 
-When you [create a support request](get-help-support.md), you consent to allow a Microsoft Support engineer to remotely run diagnostics on the Microsoft 365 subscription(s) associated with your request. This access allows them to collect diagnostic information that enables them to troubleshoot and solve your problem.
+When a user contacts [Microsoft Support](get-help-support.md), consent is implied that Microsoft will be granted the needed access to support your issue. When a user selects **Contact Me**, cross-tenant access initiates in your organization's tenant. This access allows Microsoft Support to collect diagnostic information that helps with troubleshooting and resolving issues.
+
+## What happens when cross-tenant access is granted to Microsoft Support?
+
+When a user creates a support request and cross-tenant access is granted, Microsoft Support is granted access that is time bound, using least-privileged access, in accordance with Zero Trust principals. 
+
+- Microsoft Support engineers can access only the specific resources needed for diagnostics and troubleshooting. 
+- The user's level of access doesn't change. For example, if the user has a non-privileged role, their general restrictions don't change because of the support request
+- All actions are logged in the Microsoft Entra Audit logs. 
 
 ## How long does Microsoft have this access?
 
@@ -56,3 +58,8 @@ Microsoft retains diagnostic data for up to 28 days after it is collected. After
 
 Activity performed on a customer tenant is available under Microsoft Entra Audit logs.
 
+Expect to see audit logs in these categories:
+ 
+- `Policy`
+- `CrossTenantAccessSettings`
+- `DelegatedAdminServiceProviderConstraints`
