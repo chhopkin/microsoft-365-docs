@@ -17,7 +17,7 @@
         },
        {
             "source_path": "microsoft-365/lti/teams-meetings-with-canvas.md",
-            "redirect_url": /lti/teams-classes-with-canvas",
+            "redirect_url": "/lti/teams-classes-with-canvas",
             "redirect_document_id": false
         },        {
             "source_path": "microsoft-365/lti/teams-meetings-with-blackboard-learn.md",
