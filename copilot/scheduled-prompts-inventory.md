@@ -1,11 +1,13 @@
 ---
-title: "Inventory for scheduled prompts"
+title: Inventory for scheduled prompts
+description: Learn how to inventory scheduled prompts in Microsoft 365 Copilot using PowerShell. View, list, and delete scheduled prompts efficiently.
+#customer intent: As an admin, I want to inventory scheduled prompts in my organization so that I can manage them efficiently.
 f1.keywords:
 - NOCSH
 ms.author: aaroncz
 author: aczechowski
 manager: dansimp
-ms.date: 06/02/2025
+ms.date: 09/16/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
@@ -15,26 +17,26 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 - operations-pod
-description: "Learn about how Microsoft 365 Copilot admins can take inventory of scheduled prompts in their organization using PowerShell scripts to view, list, or delete them efficiently."
 ---
+
 
 # Inventory for scheduled prompts
 
-Admins can take inventory of scheduled prompts created in their organization by running PowerShell scripts. The following instructions enable admins to connect to their accounts and view, list, or delete scheduled prompts.
+Use PowerShell to inventory scheduled prompts created in your Microsoft 365 Copilot organization. These instructions help you connect to an admin account and efficiently view, list, or delete scheduled prompts.
 
 ## Prerequisites
 
-To take inventory of scheduled prompts created by users in your organization, you need the following prerequisites:  
+To take inventory of scheduled prompts created by users in your organization, you need the following prerequisites:
 
 - Assign the **Power Platform Administrator** role to your user in Azure portal for the tenant on which you want to do operations.
-- Use [PowerShell v7.0+](/powershell/scripting/install/installing-powershell).
-- Have `Az.Accounts` and `Microsoft.PowerApps.Administration.PowerShell` [modules installed](/powershell/module/powershellget/install-module).
-- Have all scripts in the same folder and run the scripts while being in that folder.
+- Use [PowerShell v7.0](/powershell/scripting/install/installing-powershell) or later.
+- Install the `Az.Accounts` and `Microsoft.PowerApps.Administration.PowerShell` modules. For more information, see [Install-Module](/powershell/module/powershellget/install-module).
+- Store and run all scripts in the same folder.
 
 To get the System Administrator role on the Copilot scheduled prompts environment, follow these steps:
 
 - Go to [Power Platform admin center](https://admin.powerplatform.microsoft.com/environments).
-- Find the **Microsoft 365** environment and select it. (This is the default name for Copilot Actions environment; some tenants might use a different name).
+- Find the **Microsoft 365** environment and select it. This value is the default name for the Copilot scheduled prompts environment. Your tenant might use a different name.
 - Select **Membership**.
 - Select **Add me** to add the System Administrator role to your user. It might take around 30 minutes for the role to be reflected everywhere.
 
@@ -43,67 +45,61 @@ For more information, see [Manage high privileged admin roles](/power-platform/a
 > [!IMPORTANT]
 > Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
-## Connect to your Azure Account
+## Connect to your Azure account
 
-Before running any of the following scripts, you must sign in to your administrator account. To sign in, run the following script:
-
-```powershell
-Connect-AzAccount
-```
+Before you run any of the following PowerShell commands, sign in to your administrator account. To sign in, use the **[Connect-AzAccount](/powershell/module/az.accounts/connect-azaccount)** cmdlet.
 
 ## General operations
 
-1. To get the environment name for Copilot scheduled prompts, run the following script and connect with the admin account if requested:
+1. To get the environment name for Copilot scheduled prompts, use the **[Get-AdminPowerAppEnvironment](/powershell/module/microsoft.powerapps.administration.powershell/get-adminpowerappenvironment)** cmdlet. If requested, connect with the admin account.
 
-```powershell
-Get-AdminPowerAppEnvironment 'Microsoft 365'
-```
+    ```powershell
+    Get-AdminPowerAppEnvironment 'Microsoft 365'
+    ```
 
-Enter your display name (`Microsoft 365` by default). Note the `EnvironmentName` value indicates your environment name.
+    Specify your display name. By default, the display name is `Microsoft 365`. Alternatively, use the `EnvironmentName` parameter to specify your environment name.
 
-2. You can also identify a user ID by running this script, using the appropriate user email (<user@domain.com> in the following example). Note the `Id` field value in the output and that indicate the user’s ID:
+1. You can also identify a user ID with the following Microsoft Entra cmdlets:
 
-```powershell
-Connect-Entra  
+    ```powershell
+    Connect-Entra
 
-Get-EntraUser -UserId 'user@domain.com'
-```
+    Get-EntraUser -UserId 'user@domain.com'
+    ```
+
+    Use the appropriate user email, for example `user@domain.com`. Note the **Id** value in the output, which indicates the user's ID.
 
 ## List Copilot scheduled prompts
 
-There are different ways to run a script to list scheduled prompts created in your tenant.
+You can run a script in different ways to list scheduled prompts created in your tenant.
 
 ### Get a list of Copilot scheduled prompts for the whole tenant
 
-1. Get the `EnvironmentId` using the script provided earlier.
-2. Run the following script, replacing the placeholder with your actual `EnvironmentId`, and connect with the admin account if prompted:
+1. To get the `EnvironmentId`, use the **Get-AdminPowerAppEnvironment** cmdlet.
 
-   ```powershell
-   .\Get-CopilotActions.ps1 -EnvironmentId abc123-a100-xyz000-12345
-   ```
+1. Run the following script, replacing the placeholder with your actual `EnvironmentId`. If prompted, connect with the admin account.
 
-   The list of Copilot scheduled prompts should display in the console.
+    ```powershell
+    .\Get-CopilotActions.ps1 -EnvironmentId abc123-a100-xyz000-12345
+    ```
+
+    The console output displays the list of Copilot scheduled prompts.
 
 ### Get a list of Copilot scheduled prompts for a single user
 
-1. Get the `EnvironmentId` and `UserId` using the scripts provided earlier.
-2. Run the following script using the appropriate `EnvironmentId` and `UserId` to replace the placeholders and connecting with admin account if requested:
+1. To get the `EnvironmentId` and `UserId`, use the **Get-AdminPowerAppEnvironment** and **Get-EntraUser** cmdlets.
 
-   ```powershell
-   .\Get-CopilotActions.ps1 -EnvironmentId abc123-a100-xyz000-12345 -UserId abc123-a100-xyz000-12345
-   ```
+1. Run the following script with the appropriate `EnvironmentId` and `UserId`. If requested, connect with the admin account.
 
-   The list of Copilot scheduled prompts belonging to that user should display in the console.
+    ```powershell
+    .\Get-CopilotActions.ps1 -EnvironmentId abc123-a100-xyz000-12345 -UserId abc123-a100-xyz000-12345
+    ```
 
-### Export the list to an Excel/CSV file
+    The console output displays the list of Copilot scheduled prompts belonging to the specified user.
 
-Add the following to the end of the command:
+### Export the list
 
-```powershell
-| Export-Csv -Path C:\temp\resultFile.csv
-```
-
-Example:
+To export the list to an Excel or CSV file, use the **[Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv?view=powershell-7.5)** cmdlet. For example:
 
 ```powershell
 .\Get-CopilotActions.ps1 -EnvironmentId abc123-a100-xyz000-12345 | Export-Csv -Path C:\temp\resultFile.csv
@@ -111,21 +107,22 @@ Example:
 
 ## Delete Copilot scheduled prompts
 
-### Delete a single Copilot Action
+### Delete a single Copilot scheduled prompt
 
-1. Get the `EnvironmentId` and the `DataverseId` of the action you wish to delete.
-2. Run the following script:
+1. Get the `EnvironmentId` and the `DataverseId` of the scheduled prompt to delete.
 
-   ```powershell
-   .\Remove-CopilotAction.ps1 -EnvironmentId abc123-a100-xyz000-12345 -DataverseId abc123-a100-xyz000-12345
-   ```
+1. Run the following script:
 
-## Delete multiple Copilot Scheduled Prompts from a single user
+    ```powershell
+    .\Remove-CopilotAction.ps1 -EnvironmentId abc123-a100-xyz000-12345 -DataverseId abc123-a100-xyz000-12345
+    ```
 
-1. Complete Getting the Copilot Scheduled Prompts environment ID.
-1. Complete Getting the Microsoft Entra user object ID.
-1. Run the following script using the appropriate `EnvironmentId` and `UserId` and connecting with admin account if requested:
+### Delete multiple Copilot scheduled prompts from a single user
 
-   ```powershell
-   .\Clear-CopilotActions.ps1 -EnvironmentId abc123-a100-xyz000-12345 -UserId abc123-a100-xyz000-12345
-   ```
+1. Get the `EnvironmentId` and `UserId`.
+
+1. Run the following script with the appropriate `EnvironmentId` and `UserId`. If requested, connect with the admin account.
+
+    ```powershell
+    .\Clear-CopilotActions.ps1 -EnvironmentId abc123-a100-xyz000-12345 -UserId abc123-a100-xyz000-12345
+    ```
