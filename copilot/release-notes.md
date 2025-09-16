@@ -101,7 +101,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 - **Schedule meetings effortlessly from email threads** [iOS]
 
   Use Copilot to quickly schedule meetings by analyzing email threads, crafting invitations, and including attendees—all with ease.
- <a href="https://support.microsoft.com/en-us/office/create-a-meeting-and-agenda-with-copilot-in-outlook-31a44dfa-62bb-4751-82c4-14327a26759f">Learn more.</a>
+ <a href="https://support.microsoft.com/office/create-a-meeting-and-agenda-with-copilot-in-outlook-31a44dfa-62bb-4751-82c4-14327a26759f">Learn more.</a>
 ### PowerPoint
 - **Copilot Chat creates and enhances presentation content and design** [Web]
 
@@ -7088,7 +7088,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 - **Schedule meetings effortlessly from email threads** [iOS]
 
   Use Copilot to quickly schedule meetings by analyzing email threads, crafting invitations, and including attendees—all with ease.
- <a href="https://support.microsoft.com/en-us/office/create-a-meeting-and-agenda-with-copilot-in-outlook-31a44dfa-62bb-4751-82c4-14327a26759f">Learn more.</a>
+ <a href="https://support.microsoft.com/office/create-a-meeting-and-agenda-with-copilot-in-outlook-31a44dfa-62bb-4751-82c4-14327a26759f">Learn more.</a>
 
 <!-- 98075,97530,100740 -->
 ## September 3, 2025
@@ -8629,4 +8629,5 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
