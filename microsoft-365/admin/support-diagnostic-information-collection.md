@@ -29,7 +29,7 @@ When a user contacts [Microsoft Support](get-help-support.md), consent is implie
 
 ## What happens when cross-tenant access is granted to Microsoft Support?
 
-When a user creates a support request and cross-tenant access is granted, Microsoft Support is granted access that is time bound and uses least-privileged access, in accordance with Zero Trust principals. 
+When a user creates a support request and cross-tenant access is granted, Microsoft Support is granted access that is time bound and uses least-privileged access, in accordance with [Zero Trust principals](/security/zero-trust/zero-trust-overview). 
 
 - Microsoft Support engineers can access only the specific resources needed for diagnostics and troubleshooting. 
 - The user's level of access doesn't change. For example, if the user has a non-privileged role, their general restrictions don't change because of the support request.
