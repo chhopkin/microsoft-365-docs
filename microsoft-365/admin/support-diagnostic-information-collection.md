@@ -66,3 +66,8 @@ The following table lists entries you can expect to see and what to look for:
 | Cross-tenant access | Entries in these categories: <br/>- `Policy`<br/>- `CrossTenantAccessSettings`<br/>- `DelegatedAdminServiceProviderConstraints` |
 | Service principal provisioning | In the audit log, filter on:<br/>- Audit category: `ApplicationManagement`<br/>- Activity: `Add service principal` |
 | Cross-tenant role assignment | In the audit logs, filter on `ID Governance` > `Privileged Identity Management` > `Groups`. |
+
+See the following resources for more information about the audit logs:
+
+- [What are Microsoft Entra audit logs?](/entra/identity/monitoring-health/concept-audit-logs)
+- [How to customize and filter identity activity logs](/entra/identity/monitoring-health/howto-customize-filter-logs)
