@@ -96,6 +96,8 @@ items:
           href: billing-and-payments/manage-billing-notifications.md
         - name: Understand billing accounts
           href: manage-billing-accounts.md
+        - name: Keep your billing account active
+          href: billing-and-payments/keep-your-billing-account-active.md
         - name: Manage billing profiles
           href: billing-and-payments/manage-billing-profiles.md
         - name: Change your billing addresses
