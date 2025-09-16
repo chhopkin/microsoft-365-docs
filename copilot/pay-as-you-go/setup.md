@@ -15,7 +15,9 @@ ms.collection:
 - magic-ai-copilot
 - essentials-overview
 - operations-pod
-ms.custom: [copilot-learning-hub]
+ms.custom: 
+- [copilot-learning-hub]
+- GAUpdates
 appliesto:
 - ✅ Microsoft 365 Copilot
 ms.date: 07/23/2025
@@ -46,6 +48,8 @@ To set up pay-as-you-go, you must have the following prerequisites:
   - Global administrator
   - Billing administrator
   - AI administrator
+
+[!INCLUDE [global-administrator-note](../../microsoft-365/includes/global-administrator-note.md)]
 
   To learn more about these roles, see [Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles).
 

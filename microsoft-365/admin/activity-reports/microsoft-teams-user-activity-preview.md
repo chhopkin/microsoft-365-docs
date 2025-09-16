@@ -1,8 +1,8 @@
 ---
 title: "Microsoft 365 admin center Teams user activity reports"
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 08/21/2023
 audience: Admin
 ms.topic: article
@@ -15,7 +15,8 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - operations-pod
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- GAUpdates
 search.appverid:
 - BCS160
 - MST160
@@ -87,6 +88,8 @@ To ensure data quality, we perform daily data validation checks for the past thr
 ## Make the user-specific data anonymous
 
 To make the data in Teams user activity report anonymous, you have to be a global administrator. This will hide identifiable information (using MD5 hashes) such as display name, email, and Microsoft Entra Object ID in report and their export.
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 1. In Microsoft 365 admin center, go to the **Settings** > **Org Settings**, and under **Services** tab, choose **Reports**.
 
