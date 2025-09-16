@@ -2,7 +2,7 @@
 title: "Microsoft Adoption Score - Privacy"
 f1.keywords:
 - NOCSH
-ms.author: deniseb
+ms.author: cmcatee
 author: denisebmsft
 manager: dansimp
 ms.date: 09/18/2020
@@ -10,13 +10,14 @@ audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
-monikerRange: 'o365-worldwide'
-ms.collection: 
+monikerRange: o365-worldwide
+ms.collection:
 - Tier2
 - scotvorg
-- M365-subscription-management 
+- M365-subscription-management
 - Adm_O365
 - trust-pod
+- operations-pod
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150

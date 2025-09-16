@@ -1,9 +1,10 @@
 ---
 ms.date: 07/02/2025
+ms.update-cycle: 180-days
 title: "Manage Loop in your organization"
 ms.reviewer: dancost, tonchan
-ms.author: jenz
-author: jenzamora
+ms.author: odocspr
+author: officedocspr5
 manager: jtremper
 recommendations: true
 audience: Admin
@@ -190,6 +191,24 @@ To check if Loop components are enabled, run `Get-SPOTenant` without any argumen
 To enable Loop components in Teams, run `Set-SPOTenant -IsLoopEnabled $true`. The change will take a short time to apply across your organization.
 
 To disable Loop components in Teams, run `Set-SPOTenant -IsLoopEnabled $false`. The change will take a short time to apply across your organization. If your organization has multiple regions (that is, organization URLs), you need to disable loop components for all the regions to have consistent results across the organization.
+
+## Mailbox policies for Outlook Web and new Outlook for Windows
+
+Loop components are designed for collaboration. Outlook Web and new Outlook for Windows require certain OWAMailbox Policies to be **TRUE** for Loop experiences to be enabled in these applications. Learn more about [how to configure OWAMailbox policies](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/configure-outlook-web-app-mailbox-policy-properties).
+
+To enable Loop components on **Private** defined sessions, the following policies need to be set to *true:*
+
+- DirectFileAccessOnPrivateComputersEnabled  
+
+- WacViewingOnPrivateComputersEnabled 
+
+To enable Loop components on **Public** defined sessions, the following policies need to be set to *true:*
+
+- DirectFileAccessOnPublicComputersEnabled  
+
+- WacViewingOnPublicComputersEnabled 
+
+You should also review the configuration of your [ConditionalAccessPolicy](/powershell/module/exchangepowershell/set-owamailboxpolicy). By design, user sessions that meet the criteria for conditional access will have limited functionality and will not be able to use Loop components.
 
 ## Related topics
 

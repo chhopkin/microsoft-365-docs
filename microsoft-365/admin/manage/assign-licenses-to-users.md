@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: scotv
+manager: dansimp
 ms.reviewer: nicholak
 audience: Admin
 ms.topic: how-to
@@ -13,11 +13,12 @@ ms.subservice: m365-commerce-acquisition
 ms.localizationpriority: medium
 ms.collection:
 - Tier1
-- scotvorg 
+- scotvorg
 - highpri
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+- operations-pod
 ms.custom:
 - commerce_licensing
 - VSBFY23

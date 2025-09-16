@@ -1,24 +1,26 @@
 ---
 title: Controls to manage file uploads in Microsoft 365 Copilot and Copilot Chat
-description: Overview of a control that allows admins to determine whether users can upload local files or attach cloud files when using Copilot or Copilot Chat. 
+description: Overview of a control that allows admins to determine whether users can upload local files or attach cloud files when using Copilot or Copilot Chat.
 ms.author: davidedwards
-author: davidedwards
+author: denisebmsft
 manager: kellis
 ms.date: 06/26/2025
+ms.update-cycle: 180-days
 audience: Admin
-ms.reviewer: suparekh
+ms.reviewer: suparekh; davidedwards
 ms.topic: overview
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
 - essentials-overview
+- trust-pod
 ms.custom: [copilot-learning-hub]
 robots: NOINDEX, NOFOLLOW
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ---
 
 # Controls to manage file uploads in Microsoft 365 Copilot and Microsoft 365 Copilot Chat
@@ -28,7 +30,7 @@ File upload is enabled by default in both Microsoft 365 Copilot and Microsoft 36
 To manage the file upload feature so it aligns with organizational policies, user preferences, and security considerations, an admin control is available. This control allows admins to determine whether users can upload local files or attach cloud files when using Copilot or Copilot Chat.
 
 > [!NOTE]
-> The file upload control will be available in mid-July 2025. Once implemented, it may take up to 24 hours for the changes to be reflected for end users.
+> Changes to the file upload control may take up to 24 hours to be reflected for end users.
 
 ## IT admin file upload control
 

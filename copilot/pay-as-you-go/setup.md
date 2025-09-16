@@ -4,6 +4,7 @@ description: Enterprise and company IT administrators can use the Microsoft 365 
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: dansimp
+ms.update-cycle: 180-days
 ms.reviewer: nishanair
 audience: Admin
 ms.topic: get-started
@@ -13,9 +14,10 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 - essentials-overview
+- operations-pod
 ms.custom: [copilot-learning-hub]
 appliesto:
-  - ✅ Microsoft 365 Copilot
+- ✅ Microsoft 365 Copilot
 ms.date: 07/23/2025
 ---
 
@@ -35,7 +37,7 @@ This article applies to:
 To set up pay-as-you-go, you must have the following prerequisites:
 
 - Azure subscription and resource group:
-  - You must have an owner or contributor Azure role to an Azure subscription to set up the pay-as-you-go service.
+  - You must have an owner or contributor Azure role to an [Azure subscription](/azure/cloud-adoption-framework/ready/azure-best-practices/initial-subscriptions) to set up the pay-as-you-go service.
   - You must have an owner or contributor Azure role to an Azure resource group linked to the same Azure subscription to set up the pay-as-you-go service.
 
   To learn more, see [Use the Azure portal and Azure Resource Manager to Manage Resource Groups](/azure/azure-resource-manager/management/manage-resource-groups-portal).
@@ -134,9 +136,9 @@ After you disable pay-as-you-go, you can also delete the billing policy.
   
 ## What if pay-as-you-go is already set up in the Power Platform admin center?
 
-If you already set up a pay-as-you-go billing policy in the Power Platform admin center, you can create another policy in the Microsoft 365 admin center. Both policies can coexist and you're only billed once. The billing system ensures that you're only billed once for your organization's usage, regardless of the billing policy location.
+If a pay-as-you-go billing policy is already set up in the Power Platform admin center, you can still create a new policy in the Microsoft 365 admin center. Both policies can exist at the same time, and the billing system ensures that your organization is only charged once, regardless of where the policy is configured.
 
-Although the policies can coexist, we recommend that you turn off any pay-as-you-go billing policy in the Power Platform admin center before you enable it in the Microsoft 365 admin center. By disabling the policy in the Power Platform admin center, you can manage your pay-as-you-go policies from single location.
+While coexistence is supported, turning off the pay-as-you-go policy in the Power Platform admin center before enabling it in the Microsoft 365 admin center can help streamline management. Managing all pay-as-you-go policies from a single location simplifies administration and reduces potential confusion.
 
 ## Related articles
 

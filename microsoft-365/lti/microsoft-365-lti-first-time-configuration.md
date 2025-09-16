@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 LTI First Time Configuration
 description: Learn about the first time configuration of Microsoft 365 LTI
-ms.date: 07/21/2025
+ms.date: 08/20/2025
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
@@ -31,7 +31,7 @@ Once the Microsoft 365 tool is installed, an LMS Administrator must complete the
 
    :::image type="content" source="./media/terms.png" alt-text="Screenshot of terms of service." border="true":::
 
-1. Provide consent as the Microsoft 365 Administrator.
+1. Have a Microsoft 365 Global Administrator provide consent.
 
     - If you're an Microsoft 365 Global Administrator, then you are able to provide consent for the app by clicking the **Admin Consent** button.
     - If you aren't an Microsoft 365 Administrator, then you can copy and paste the Admin consent URL for the app and sent it to a Microsoft 365 Global Administrator to complete this step.
@@ -60,7 +60,7 @@ Once the Microsoft 365 tool is installed, an LMS Administrator must complete the
      :::image type="content" source="./media/teams-creation.png" alt-text="Screenshot of Microsoft Teams creation." border="true":::
 
 > [!IMPORTANT]
-> Canvas, Blackboard, Moodle, and other LMSs have robust integrations to create and sync Microsoft Teams for a course. If you have one of those sync mechanisms already enabled, we recommend that you continue to use that integration and leave this setting disabled so your users don't unexpectantly end up with multiple Teams. At the current time, those integrations are more robust and are the preferred way to create and sync a Team for their courses. Allowing your instructors to create Teams via the Microsoft 365 integration results in a separate Team being created for the course.
+> Canvas, Blackboard, Moodle, and other LMSs have robust integrations to create and sync Microsoft Teams for a course. If you have one of those sync mechanisms already enabled, we recommend that you continue to use that integration and leave this setting disabled so your users don't unexpectedly end up with multiple Teams. At the current time, those integrations are more robust and are the preferred way to create and sync a Team for their courses. Allowing your instructors to create Teams via the Microsoft 365 integration results in a separate Team being created for the course.
 
 ## Considerations for Teams Sync Options
 
@@ -92,7 +92,7 @@ When migrating from any legacy app that is replaced by the Microsoft Education L
 
 ### Migrating from Teams Meetings LTI 1.3 app
 
-[The legacy Teams Meetings app will sunset on September 15, 2025](https://support.microsoft.com/topic/teams-learning-tools-interoperability-lti-sunset-faq-7e071764-f5bf-420a-b4a1-6070cd6b9aa2). There's no required migration of the meetings created by Teams Meetings LTI. The new Teams Meetings app that is included in the Microsoft Education LTI app is backwards compatible and will display any previously created meetings. We suggest that you uninstall the legacy app before sunset by locating the app in **Admin > Settings > Apps > View App Configurations** and use the Gear icon drop-down to delete the app deployment.
+[The legacy Teams Meetings app will sunset on September 15, 2025](https://support.microsoft.com/topic/teams-learning-tools-interoperability-lti-sunset-faq-7e071764-f5bf-420a-b4a1-6070cd6b9aa2). Meetings created by the  classic Teams Meetings LTI will continue to display in Outlook and Teams calendars but will not display in the new Meetings app that is part of Microsoft 365 LTI. Course meetings should be created in the new Meetings app going forward. We suggest that you uninstall the legacy app before sunset by locating the app in **Admin > Settings > Apps > View App Configurations** and use the Gear icon drop-down to delete the app deployment.
 
 ### OneNote Class Notebook LTI 1.1 app
 
