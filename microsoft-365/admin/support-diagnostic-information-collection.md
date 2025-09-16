@@ -56,10 +56,10 @@ Microsoft retains diagnostic data for up to 28 days after it is collected. After
 
 ## Where is support activity on a customer tenant logged?
 
-Activity performed on a customer tenant is available under Microsoft Entra Audit logs, as follows:
+Activity performed on a customer tenant is available under Microsoft Entra Audit logs. The following table lists entries youc an expect to see and what to look for:
 
-| Policy/activity | Audit log entries |
+| Policy or activity | Audit log entries |
 |--|--|
 | Cross-tenant access | Audit logs associated with the Microsoft Support tenant (`Office365ConciergeSupport.onmicrosoft.com` with tenant ID `b4c546a4-7dac-46a6-a7dd-ed822a11efd3`) in these categories: <br/>- `Policy`<br/>- `CrossTenantAccessSettings`<br/>- `DelegatedAdminServiceProviderConstraints` |
-| Service principal provisioning | In the audit log, filter on:<br/>- Audit category = `ApplicationManagement`<br/>- Activity = `Add service principal` |
+| Service principal provisioning | In the audit log, filter on:<br/>- Audit category: `ApplicationManagement`<br/>- Activity: `Add service principal` |
 | Cross-tenant role assignment | In the audit logs, filter on `ID Governance` > `Privileged Identity Management` > `Groups`. |
