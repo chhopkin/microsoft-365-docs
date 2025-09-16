@@ -99,7 +99,7 @@ You can run a script in different ways to list scheduled prompts created in your
 
 ### Export the list
 
-To export the list to an Excel or CSV file, use the **[Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv?view=powershell-7.5)** cmdlet. For example:
+To export the list to an Excel or CSV file, use the **[Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv)** cmdlet. For example:
 
 ```powershell
 .\Get-CopilotActions.ps1 -EnvironmentId abc123-a100-xyz000-12345 | Export-Csv -Path C:\temp\resultFile.csv

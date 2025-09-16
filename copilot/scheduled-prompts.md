@@ -32,7 +32,7 @@ You need the following license to manage scheduled prompts:
 
 Before you start using the scheduled prompts feature, make sure that *optional connected experiences* are enabled for your users. Optional connected experiences are enabled by default, but you can check by reviewing the **Allow the use of additional optional connected experiences in Office** policy setting in [Cloud Policy service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy).
 
-## ## Admin controls for scheduled prompts
+## Admin controls for scheduled prompts
 
 If you don't want this feature available to your organization, use [Cloud Policy](https://config.office.com/officeSettings/officePolicies) to set the **Allow the use of additional optional connected experiences in Office** policy setting to **Disabled**. For more information, see [Admin controls for optional connected experiences](/microsoft-365-apps/privacy/optional-connected-experiences#admin-controls-for-optional-connected-experiences).
 
