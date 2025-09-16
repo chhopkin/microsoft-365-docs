@@ -29,10 +29,10 @@ When a user contacts [Microsoft Support](get-help-support.md), consent is implie
 
 ## What happens when cross-tenant access is granted to Microsoft Support?
 
-When a user creates a support request and cross-tenant access is granted, Microsoft Support is granted access that is time bound, using least-privileged access, in accordance with Zero Trust principals. 
+When a user creates a support request and cross-tenant access is granted, Microsoft Support is granted access that is time bound and uses least-privileged access, in accordance with Zero Trust principals. 
 
 - Microsoft Support engineers can access only the specific resources needed for diagnostics and troubleshooting. 
-- The user's level of access doesn't change. For example, if the user has a non-privileged role, their general restrictions don't change because of the support request
+- The user's level of access doesn't change. For example, if the user has a non-privileged role, their general restrictions don't change because of the support request.
 - The process leverages cross-tenant access policy, Service Principal provisioning, and cross-tenant role assignment. All actions are logged in the Microsoft Entra Audit logs. 
 
 ## How long does Microsoft have this access?
@@ -56,10 +56,10 @@ Microsoft retains diagnostic data for up to 28 days after it is collected. After
 
 ## Where is support activity on a customer tenant logged?
 
-Activity performed on a customer tenant is available under Microsoft Entra Audit logs.
+Activity performed on a customer tenant is available under Microsoft Entra Audit logs, as follows:
 
-Expect to see audit logs in these categories:
- 
-- `Policy`
-- `CrossTenantAccessSettings`
-- `DelegatedAdminServiceProviderConstraints`
+| Policy/activity | Audit log entries |
+|--|--|
+| Cross-tenant access | Audit logs associated with the Microsoft Support tenant (`Office365ConciergeSupport.onmicrosoft.com` with tenant ID `b4c546a4-7dac-46a6-a7dd-ed822a11efd3`) in these categories: <br/>- `Policy`<br/>- `CrossTenantAccessSettings`<br/>- `DelegatedAdminServiceProviderConstraints` |
+| Service principal provisioning | In the audit log, filter on:<br/>- Audit category = `ApplicationManagement`<br/>- Activity = `Add service principal` |
+| Cross-tenant role assignment | In the audit logs, filter on `ID Governance` > `Privileged Identity Management` > `Groups`. |
