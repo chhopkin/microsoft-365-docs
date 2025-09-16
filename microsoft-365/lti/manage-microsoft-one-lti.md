@@ -4,7 +4,7 @@ author: jennplatt
 ms.author: avering
 manager: michal.gideoni
 ms.reviewer: amitman 
-ms.date: 04/04/2022
+ms.date: 09/15/2025
 audience: admin
 ms.topic: how-to
 ms.service: microsoft-365-education

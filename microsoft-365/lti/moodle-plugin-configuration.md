@@ -4,7 +4,7 @@ author: jennplatt
 ms.author: avering
 manager: michal.gideoni
 ms.reviewer: amitman 
-ms.date: 04/06/2022
+ms.date: 09/15/2025
 audience: admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-education
