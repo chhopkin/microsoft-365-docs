@@ -19,7 +19,7 @@ description: "Learn about the diagnostic data Microsoft 365 Support engineers ac
 # Understanding Microsoft 365 case creation and diagnostic data access
 
 > [!IMPORTANT]
-> New security enhancements are rolling out for advanced diagnostics. These enhancements provide you with greater control, transparency, and peace of mind regarding support-related activities within your tenant. Look for the the Message Center post, "Security enhancements related to Microsoft Support processes." Also see the section, [What happens when cross-tenant access is granted to Microsoft Support?](#what-happens-when-advanced-diagnostic-consent-is-granted-to-microsoft-support) (in this article).
+> New security enhancements are rolling out for advanced diagnostics. These enhancements provide you with greater control, transparency, and peace of mind regarding support-related activities within your tenant. Look for the the Message Center post, "Security enhancements related to Microsoft Support processes." Also see the section, [What happens when cross-tenant access is granted to Microsoft Support?](#what-happens-when-cross-tenant-access-is-granted-to-microsoft-support) (in this article).
 
 The purpose of this article is to inform Microsoft 365 customers about the type of information that Microsoft Support engineers may collect and use in order to resolve a support case.
 
