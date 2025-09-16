@@ -103,4 +103,4 @@ For more info about converting a user mailbox to a shared mailbox in an Exchange
 
 [About shared mailboxes](about-shared-mailboxes.md) (article)\
 [Create a shared mailbox](create-a-shared-mailbox.md) (article)\
-[Configure a shared mailbox](configure-a-shared-mailbox.md) (article)\
+[Configure a shared mailbox](configure-a-shared-mailbox.md) (article)
