@@ -33,7 +33,8 @@ When a user creates a support request and cross-tenant access is granted, Micros
 
 - Microsoft Support engineers can access only the specific resources needed for diagnostics and troubleshooting. 
 - The user's level of access doesn't change. For example, if the user has a non-privileged role, their general restrictions don't change because of the support request.
-- The process leverages cross-tenant access policy, Service Principal provisioning, and cross-tenant role assignment. All actions are logged in the Microsoft Entra Audit logs. 
+- The process leverages cross-tenant access policy, Service Principal provisioning, and cross-tenant role assignment. 
+- All actions are logged in the Microsoft Entra Audit logs. (See the section, [Where is support activity on a customer tenant logged?](#where-is-support-activity-on-a-customer-tenant-logged) (in this article).)
 
 ## How long does Microsoft have this access?
 
