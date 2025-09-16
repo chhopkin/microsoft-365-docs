@@ -42,12 +42,10 @@ This article applies to:
 
 ## Prerequisites
 
-To use the features in this article, you need the following role-based access control (RBAC) roles:
+To use the features in this article, you need the **Office Apps admin** role-based access control (RBAC) role. This role can create the cloud policies for the Microsoft 365 Copilot app.
 
-- **Global Administrator** - This role can configure the Microsoft 365 admin center features.
-- **Office Apps admin** - This role can create the Cloud policies for the Microsoft 365 Copilot app.
-
-To learn more, see [Admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## Settings that configure the app experience
 
