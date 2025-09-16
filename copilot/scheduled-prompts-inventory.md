@@ -26,7 +26,7 @@ Admins can take inventory of scheduled prompts created in their organization by 
 
 To take inventory of scheduled prompts created by users in your organization, you need the following prerequisites:  
 
-- Have the Global Administrator and Power Platform Administrator roles assigned to your user in Azure portal for the tenant on which you want to do operations.
+- Assign the **Power Platform Administrator** role to your user in Azure portal for the tenant on which you want to do operations.
 - Use [PowerShell v7.0+](/powershell/scripting/install/installing-powershell).
 - Have `Az.Accounts` and `Microsoft.PowerApps.Administration.PowerShell` [modules installed](/powershell/module/powershellget/install-module).
 - Have all scripts in the same folder and run the scripts while being in that folder.
@@ -38,7 +38,10 @@ To get the System Administrator role on the Copilot scheduled prompts environmen
 - Select **Membership**.
 - Select **Add me** to add the System Administrator role to your user. It might take around 30 minutes for the role to be reflected everywhere.
 
-More details and options, see [Manage High-Privileged Admin Roles](/power-platform/admin/manage-high-privileged-admin-roles).
+For more information, see [Manage high privileged admin roles](/power-platform/admin/manage-high-privileged-admin-roles).
+
+> [!IMPORTANT]
+> Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## Connect to your Azure Account
 
