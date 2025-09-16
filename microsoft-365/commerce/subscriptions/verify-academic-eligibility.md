@@ -5,8 +5,8 @@ f1.keywords:
 - FWLink-2135711
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
-ms.reviewer: shegu
+manager: scotv
+ms.reviewer: rabhange
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
