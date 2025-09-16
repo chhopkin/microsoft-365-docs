@@ -9,13 +9,14 @@ last.review.date: 07/10/2025
 last.review.by: avering
 audience: admin
 ms.topic: how-to
-ms.service: msteams
-ms.subservice: teams-education
+ms.service: microsoft-365-education
 f1.keywords:
 - CSH
 ms.collection: 
 - M365-modern-desktop
 - tier2
+- m365-education
+- all-education
 ms.localizationpriority: medium
 description: Use Microsoft Teams with Blackboard Learn Ultra.
 ---
