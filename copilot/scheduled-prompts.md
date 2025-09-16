@@ -52,7 +52,10 @@ If you disable this feature after someone in your organization has already used 
 
 ## Inventory scheduled prompts
 
-For admins with Global Administrator and Power Platform Administrator roles, you can use a PowerShell script to inventory the scheduled prompts created by users in your organization. For instructions on how to do this, see [Inventory for scheduled prompts](scheduled-prompts-inventory.md).
+With the **Power Platform Administrator** role, you can use a PowerShell script to inventory the scheduled prompts created by users in your organization. For instructions on how to do this, see [Inventory for scheduled prompts](scheduled-prompts-inventory.md).
+
+> [!IMPORTANT]
+> Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## User controls
 
