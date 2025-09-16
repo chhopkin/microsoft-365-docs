@@ -5,8 +5,8 @@ f1.keywords:
 - MACBillingPurchaseIDPPayG
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: dansimp
-ms.reviewer: emmasheridan, nicholak
+manager: scotv
+ms.reviewer: patyc
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business

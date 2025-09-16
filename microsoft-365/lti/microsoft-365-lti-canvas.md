@@ -7,12 +7,13 @@ manager: michal.gideoni
 ms.date: 07/10/2025
 audience: admin
 ms.topic: how-to
-ms.service: msteams
-ms.subservice: teams-education
+ms.service: microsoft-365-education
 ms.collection: 
 - M365-modern-desktop
 - m365initiative-edu
 - tier2
+- m365-education
+- all-education
 ms.localizationpriority: medium
 ---
 # Deploy the Microsoft 365 LTI® app in Canvas
