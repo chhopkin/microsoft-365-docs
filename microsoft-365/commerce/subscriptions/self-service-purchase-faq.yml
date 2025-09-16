@@ -5,8 +5,8 @@ metadata:
   - NOCSH
   author: cmcatee-MSFT
   ms.author: cmcatee
-  manager: dansimp
-  ms.reviewer: nicholak
+  manager: scotv
+  ms.reviewer: padeshmukh
   audience: Admin
   ms.topic: faq
   ms.service: microsoft-365-business
