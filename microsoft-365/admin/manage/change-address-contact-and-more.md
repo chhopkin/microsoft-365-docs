@@ -58,7 +58,7 @@ You can change most of your organization's information, like the billing account
 > [!NOTE]
 > You can't change your organization's name without assistance. [Complete this form](https://www.microsoft.com/download/details.aspx?id=102732), then contact support to get help with changing your organization's name.
 
-### Change your country/region
+## Change your country/region
 
 You can't change the country/region for your organization. The country/region where your organization is headquartered determines which services are available to you, the taxes and billing currency, and the location of the data center. To change your organization's country/region, sign up for a new account, choose the desired country/region, and buy a new subscription.
 
