@@ -48,11 +48,14 @@ To use the reporting features described in this article, you need to sign into d
 
 | Reporting option | Required roles & access |
 |------------------|-------------------------|
-| **[Microsoft 365 admin center](https://admin.microsoft.com)** | - **Microsoft 365 Global Administrator**: Assigns the **AI Administrator** role. <br/> - **AI Administrator**: Accesses the Copilot reports. |
-| **Copilot Analytics, powered by Viva Insights** | - **Microsoft 365 Global Administrator**: Enables the Copilot Dashboard and delegates access to the dashboard and organizational insights. Senior leaders [might automatically get access](/viva/insights/org-team-insights/copilot-dashboard#how-automatic-access-to-the-copilot-dashboard-is-determined). <br/>- **Microsoft 365 Global Administrator**: Sets up Viva Insights and assigns the **Insights Analyst** and **Insights Administrator** roles. <br/>- **Insights Analyst**: Uses the Advanced Insights Analyst Workbench to build Copilot Power BI Templates. <br/> - **Insights Administrator**: Manages settings in the Advanced Insights Analyst Workbench, like security, privacy, and uploading organization data files. |
+| **[Microsoft 365 admin center](https://admin.microsoft.com)** | - **AI Administrator**: Accesses the Copilot reports. |
+| **[Copilot Analytics](/viva/insights/copilot-analytics-introduction), powered by Viva Insights** | - **AI Administrator**: Enables the Copilot Dashboard and delegates access to the dashboard and organizational insights. Some admins [might automatically get access](/viva/insights/org-team-insights/copilot-dashboard#how-automatic-access-to-the-copilot-dashboard-is-determined). <br/>- **Microsoft 365 Global Administrator**: Assigns the **Insights Analyst** and **Insights Administrator** roles. <br/>- **Insights Analyst**: Uses the Advanced Insights Analyst Workbench to build Copilot Power BI Templates. <br/> - **Insights Administrator**: Manages settings in the Advanced Insights Analyst Workbench, like security, privacy, and uploading organization data files. |
 | **[Microsoft Purview portal](https://purview.microsoft.com)** | - **Audit Reader**: Searches the audit logs. |
 | **[Power Platform admin center](https://admin.powerplatform.microsoft.com)** | - **System Administrator**: Assigns the **Copilot Studio authors** role. <br/> - **License admin** in [Microsoft 365 admin center](https://admin.microsoft.com): Assigns Copilot Studio licenses. |
 | **[Copilot Studio](https://copilotstudio.microsoft.com)** | - **Copilot Studio Author**: Accesses analytics for agents they create. |
+
+> [!IMPORTANT]
+> Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## Microsoft 365 admin center reports
 
@@ -73,17 +76,17 @@ The Microsoft 365 admin center provides Copilot readiness and usage reports:
 
 ### View the reports
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/) as the **Microsoft 365 Global Administrator** and assign the **AI Administrator** role to the users who need to access these reports.
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/) as an **AI Administrator**.
 
 2. To view reports, navigate to **Reports** > **Usage**.
 
-   :::image type="content" source="media/microsoft-365-copilot-reports-for-admins/microsoft-365-admin-center-reports.png" alt-text="In Microsoft 365 admin center, select reports and then select usage.":::
+    :::image type="content" source="media/microsoft-365-copilot-reports-for-admins/microsoft-365-admin-center-reports.png" alt-text="In Microsoft 365 admin center, select reports and then select usage.":::
 
 3. Select **Microsoft 365 Copilot** > **Readiness** or **Usage**:
 
-   :::image type="content" source="media/microsoft-365-copilot-reports-for-admins/microsoft-365-admin-center-usage.png" alt-text="In Microsoft 365 admin center reports, select Microsoft 365 Copilot and then readiness or usage." lightbox="media/microsoft-365-copilot-reports-for-admins/microsoft-365-admin-center-usage.png":::
+    :::image type="content" source="media/microsoft-365-copilot-reports-for-admins/microsoft-365-admin-center-usage.png" alt-text="In Microsoft 365 admin center reports, select Microsoft 365 Copilot and then readiness or usage." lightbox="media/microsoft-365-copilot-reports-for-admins/microsoft-365-admin-center-usage.png":::
 
-To learn more about the reports, see the following articles:
+For more information about the reports, see the following articles:
 
 - [Microsoft 365 Copilot readiness report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness)
 - [Microsoft 365 Copilot usage report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage)
@@ -104,18 +107,18 @@ The **Copilot Dashboard** offers a comprehensive view of Copilot's usage metrics
 
 #### Open the Copilot Dashboard
 
-1. Sign into the [Microsoft 365 admin center](https://admin.microsoft.com) as the **Microsoft 365 Global Administrator** and then follow these steps:
+1. Sign into the [Microsoft 365 admin center](https://admin.microsoft.com) as an **AI Administrator** and then follow these steps:
 
     1. [Enable the Copilot Dashboard](/viva/insights/advanced/admin/manage-settings-copilot-dashboard).
 
     1. [Delegate access](/viva/insights/org-team-insights/delegate-access) to the users who need it.
 
-2. To start using the Copilot Dashboard, take one of the following steps:
+1. To start using the Copilot Dashboard, take one of the following steps:
 
-   - In Microsoft Teams, users search for and open the **Viva Insights** app.
-   - In **Viva Insights**, select **Copilot Dashboard**.
+    - In Microsoft Teams, users search for and open the **Viva Insights** app.
+    - In **Viva Insights**, select **Copilot Dashboard**.
 
-To learn more, see the following articles:
+For more information, see the following articles:
 
 - [Manage settings for the Microsoft Copilot Dashboard](/viva/insights/advanced/admin/manage-settings-copilot-dashboard)
 - [Delegate access to organizational insights and Copilot Dashboard](/viva/insights/org-team-insights/delegate-access)
@@ -132,26 +135,21 @@ For organizations requiring deeper analysis, Viva Insights provides advanced ana
 
 #### Open the Insights Analyst tools
 
-1. Sign into the [Microsoft 365 admin center](https://admin.microsoft.com/) as the **Microsoft 365 Global Administrator** and take the following steps:
+1. [Set up Viva Insights](/viva/insights/advanced/setup-maint/setup-overview). This checklist details the complete steps and the administrative roles required for each step. The **Microsoft 365 Global Administrator** role is required to assign users to the **Insights Analyst** and **Insights Administrator** roles.
 
-    1. [Set up Viva Insights](/viva/insights/advanced/setup-maint/setup-overview).
-    
-    1. Add users to the **Insights Analyst** role.
-    
-    1. Add users to the **Insights Administrator** role.
+    > [!IMPORTANT]
+    > Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
-    For the complete steps, see [Viva Insights setup checklist](/viva/insights/advanced/setup-maint/setup-overview).
+1. As a user with the **Insights Analyst** role, navigate to **Viva Insights** > **Analysis**. Then use the templates and [set up Copilot queries](/viva/insights/advanced/analyst/copilot-query).
 
-1. As a user with the **Insights Analyst** role, navigate to **Viva Insights** > **Analysis**. Then, use the templates and [set up Copilot queries](/viva/insights/advanced/analyst/copilot-query).
+    For more information about the reports and prerequisites, see the following articles:
 
-   To learn more about some of the reports and view any prerequisites, see the following articles:
-
-      - [Microsoft 365 Copilot adoption report](/viva/insights/advanced/analyst/templates/microsoft-365-copilot-adoption)
-      - [Microsoft 365 Copilot impact report](/viva/insights/advanced/analyst/templates/microsoft-365-copilot-impact)
+    - [Microsoft 365 Copilot adoption report](/viva/insights/advanced/analyst/templates/microsoft-365-copilot-adoption)
+    - [Microsoft 365 Copilot impact report](/viva/insights/advanced/analyst/templates/microsoft-365-copilot-impact)
 
 1. The **Insights Administrator** can sign into the [Analyst Workbench](https://analysis.insights.cloud.microsoft), select **Copilot** to filter reports, and then select a report.
 
-To learn more, see the following articles:
+For more information, see the following articles:
 
 - [Advanced insights introduction](/viva/insights/advanced/introduction-to-advanced-insights)
 - [Power BI report templates](/viva/insights/advanced/analyst/templates/introduction-to-templates)
@@ -171,17 +169,17 @@ Microsoft Purview provides detailed audit logs of all Copilot activities, includ
 
 1. Sign in to the [Microsoft Purview portal](https://purview.microsoft.com) with a role that can search audit logs, like **Audit Reader**.
 
-   There are other roles that can also search the audit logs. For a list of roles and what they can do, see [Roles and role groups in Microsoft Defender for Office 365 and Microsoft Purview](/defender-office-365/scc-permissions).
+    There are other roles that can also search the audit logs. For a list of roles and what they can do, see [Roles and role groups in Microsoft Defender for Office 365 and Microsoft Purview](/defender-office-365/scc-permissions).
 
 1. Select **Solutions** > **Audit**.
 
-   :::image type="content" source="media/microsoft-365-copilot-reports-for-admins/microsoft-purview-portal-solutions-audit.png" alt-text="In the Microsoft Purview portal, select solutions and then select audit.":::
+    :::image type="content" source="media/microsoft-365-copilot-reports-for-admins/microsoft-purview-portal-solutions-audit.png" alt-text="In the Microsoft Purview portal, select solutions and then select audit.":::
 
 1. In **Search** > **Workloads**, select **AIApp** and **Copilot**. Select **Search**. This step searches the audit log search results to only show activities related to Microsoft 365 Copilot. You can also get granular and set a date range and more.
 
-   :::image type="content" source="media/microsoft-365-copilot-reports-for-admins/microsoft-purview-portal-audit-search.png" alt-text="In the Microsoft Purview portal audit feature, go to workloads and select some search options."lightbox="media/microsoft-365-copilot-reports-for-admins/microsoft-purview-portal-audit-search.png":::
+    :::image type="content" source="media/microsoft-365-copilot-reports-for-admins/microsoft-purview-portal-audit-search.png" alt-text="In the Microsoft Purview portal audit feature, go to workloads and select some search options."lightbox="media/microsoft-365-copilot-reports-for-admins/microsoft-purview-portal-audit-search.png":::
 
-To learn more, see the following articles:
+For more information, see the following articles:
 
 - [Microsoft Purview auditing solutions](/purview/audit-get-started)
 - [Microsoft Purview audit logs for Copilot and AI activities](/purview/audit-copilot).
@@ -195,9 +193,9 @@ For organizations using Copilot agents, there are some options for specialized a
 - Copilot Studio Analytics for individual agents
 - Copilot Studio Kit for testing and tracking custom agents
 
-To learn more, see the following articles:
+For more information, see the following articles:
 
-- [Key concepts – Analytics in Copilot Studio](/microsoft-copilot-studio/analytics-overview)
+- [Key concepts - Analytics in Copilot Studio](/microsoft-copilot-studio/analytics-overview)
 - [Set up your development environment for Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/ecosystem)
 
 ### Power Platform admin center
@@ -218,10 +216,10 @@ To view the analytics for consumption-based agents, use the Power Platform admin
 1. Sign into the [Power Platform admin center](https://admin.powerplatform.microsoft.com) as the **System Administrator** and then follow these steps:
 
     1. Select **Manage** > **Tenant settings**.
-    
+
     1. Add users to the **Copilot Studio authors** role. Users with this role can create agents in Copilot Studio and view the analytics for the agents they create.
 
-    To learn more, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).
+    For more information, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).
 
     > [!TIP]
     > Users with the **Power Platform Administrators** role can view the analytics for all agents in the tenant. To add users to this role, use the [Microsoft Azure portal](https://portal.azure.com) > **Microsoft Entra ID** > **Manage** > **Roles and administrators**.
@@ -250,22 +248,22 @@ To assign Copilot Studio licenses, use the Microsoft 365 admin center. To view t
 
 1. Sign into the [Microsoft 365 admin center](https://admin.microsoft.com/) as the **License admin**. Assign Copilot Studio licenses to the users who need to create agents.
 
-   To learn more, see the following articles:
+    For more information, see the following articles:
 
-      - [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles)
-      - [Assign licenses and manage access to Copilot Studio](/microsoft-copilot-studio/requirements-licensing)
+    - [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles)
+    - [Assign licenses and manage access to Copilot Studio](/microsoft-copilot-studio/requirements-licensing)
 
 1. As a licensed Copilot Studio user, sign into [Copilot Studio](https://copilotstudio.microsoft.com).
 
-2. Select **Agents**, select your agent, and then select the **Analytics** tab.
+1. Select **Agents**, select your agent, and then select the **Analytics** tab.
 
-   For more information, see [Review and improve agent effectiveness in Copilot Studio](/microsoft-copilot-studio/analytics-improve-agent-effectiveness).
+    For more information, see [Review and improve agent effectiveness in Copilot Studio](/microsoft-copilot-studio/analytics-improve-agent-effectiveness).
 
 ### Copilot Studio Kit
 
 The **Copilot Studio Kit** is a set of tools and resources that helps you test custom agents, track key performance indicators of your custom agents, and more.
 
-To learn more, see the following articles:
+For more information, see the following articles:
 
 - [Copilot Studio Kit - AppSource](https://appsource.microsoft.com/product/dynamics-365/microsoftpowercatarch.copilotstudiokit2)
 - [Power CAT Copilot Studio Kit - GitHub](https://github.com/microsoft/Power-CAT-Copilot-Studio-Kit/blob/main/README.md)
