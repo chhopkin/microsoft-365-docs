@@ -25,7 +25,7 @@ ms.custom:
 - GAUpdates
 search.appverid: MET150
 description: "Learn how to make changes to your organization's address, phone number, and technical contact in the Microsoft 365 admin center."
-ms.date: 09/15/2025
+ms.date: 09/16/2025
 ---
 
 # Change your organization's address, contact preferences, and technical contact in the Microsoft 365 admin center
@@ -73,7 +73,7 @@ For information about how to change your admin cell phone number and email addre
 3. Under **Contact preferences**, choose the types of product-related communications you want to receive.
 4. When you're done, select **Save**.
 
-For Office 365 Enterprise, Microsoft 365 Business Standard, and Microsoft 365 Business Basic, when you first signed up as an admin for Microsoft 365, depending on the country or region of the users in your organization, your users might be automatically signed up to receive product-related communications.
+**For Office 365 Enterprise, Microsoft 365 Business Standard, and Microsoft 365 Business Basic customers:** When you first signed up as an admin for Microsoft 365, depending on the country/region of the users in your organization, they might be automatically signed up to receive product-related communications.
 
 ## Change organization settings for Cloud PCs
 
