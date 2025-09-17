@@ -146,7 +146,10 @@ Volume licensing (VL) agreement administrators access their volume licenses in t
 
 ## Related content
 
-[Assign admin roles](assign-admin-roles.md) (article)\
-[Microsoft Entra roles in the Microsoft 365 admin center](azure-ad-roles-in-the-mac.md) (article)\
-[Activity reports in the Microsoft 365 admin center](../activity-reports/activity-reports.md) (article)\
-[Exchange Online admin role](about-exchange-online-admin-role.md) (article)
+[Assign admin roles](assign-admin-roles.md)
+
+[Microsoft Entra roles in the Microsoft 365 admin center](azure-ad-roles-in-the-mac.md)
+
+[Activity reports in the Microsoft 365 admin center](../activity-reports/activity-reports.md)
+
+[Exchange Online admin role](about-exchange-online-admin-role.md)
