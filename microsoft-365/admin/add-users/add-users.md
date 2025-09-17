@@ -40,7 +40,10 @@ The people on your team each need a user account before they can sign in and acc
 
 ## Before you begin
 
-You must be a global, license, or a user admin to add users and assign licenses. For more information, see [About admin roles](../../admin/add-users/about-admin-roles.md).
+You must be a license or user admin to add users and assign licenses. For more information, see [About admin roles](../../admin/add-users/about-admin-roles.md).
+
+> [!IMPORTANT]
+> Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## Watch: Add users in the dashboard view
 
@@ -143,7 +146,7 @@ You can also use any of the following methods to add multiple users at the same 
 
 ## Create, edit, or delete custom user views
 
-If you're a global or user management admin of a Microsoft 365 for business subscription, you can create up to 50 custom user views to view subsets of users. These views are in addition to the standard set of views. You can create, edit, or delete custom user views, and the custom views you create are available to all admins.
+If you're a user management admin of a Microsoft 365 for business subscription, you can create up to 50 custom user views to view subsets of users. These views are in addition to the standard set of views. You can create, edit, or delete custom user views, and the custom views you create are available to all admins.
 
 When you create, edit, or delete a custom user view, the changes are shown in the **Filter** list that all admins in your company see when they go to the **Users** page.
 
