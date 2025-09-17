@@ -19,6 +19,8 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 - operations-pod
+ms.custom:
+- GAUpdates
 search.appverid:
 - MET150
 - MOE150
@@ -88,6 +90,8 @@ To use organizational messages in AI adoption score, you must be assigned one of
 
 - Global administrator
 - Organizational message writer
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 After selecting **Take action**, the following message configuration panel appears:
 
