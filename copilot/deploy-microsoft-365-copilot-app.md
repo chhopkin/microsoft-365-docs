@@ -28,7 +28,7 @@ Windows devices with the Microsoft 365 desktop apps will automatically install t
 > The installation of the Microsoft 365 Copilot app to devices with Microsoft 365 Apps is not enabled for customers in the European Economic Area (EEA).
 
 ### Updating the Microsoft 365 Copilot app
-With this rollout, the Microsoft 365 Copilot app gains the ability to update automatically through its own built-in updater, rather than relying solely on the Microsoft Store. To ensure reliable app installation and delivery of updates, administrators should allow access to the Microsoft 365 Content Delivery Network (CDN) on the *.office.net domain. This domain is used by Microsoft to distribute updates and content more efficiently. For a comprehensive list of Microsoft 365 URLs and IP address ranges, see [Microsoft 365 URLs and IP address ranges](https://learn.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges). 
+With this rollout, the Microsoft 365 Copilot app gains the ability to update automatically through its own built-in updater, rather than relying solely on the Microsoft Store. To ensure reliable app installation and delivery of updates, administrators should allow access to the Microsoft 365 Content Delivery Network (CDN) on the `*.office.net` domain. This domain is used by Microsoft to distribute updates and content more efficiently. For a comprehensive list of Microsoft 365 URLs and IP address ranges, see [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges). 
 
 ### Prevent automatic installation
 To prevent the app from installing to devices with existing installations of Microsoft 365 Apps:
