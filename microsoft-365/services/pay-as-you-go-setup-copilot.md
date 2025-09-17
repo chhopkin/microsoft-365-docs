@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: jtremper
 ms.reviewer: siruvanti
-ms.date: 07/11/2025
+ms.date: 09/17/2025
 audience: admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
@@ -83,11 +83,12 @@ After setting up billing, you can [set up a budget and monitor your usage in the
 
 - Ensure you have one of the following Microsoft 365 administrator roles:
 
-    - Global administrator
-    - Billing administrator
-    - AI administrator
+    - [Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator)
+    - [Billing Administrator](/entra/identity/role-based-access-control/permissions-reference#billing-administrator)
+    - [AI Administrator](/entra/identity/role-based-access-control/permissions-reference?#ai-administrator)
 
-To learn more about these roles, see [Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles).
+    > [!IMPORTANT]
+    > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ### Disconnect agents from pay-as-you-go billing
 
