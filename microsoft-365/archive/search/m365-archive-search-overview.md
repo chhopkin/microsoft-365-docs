@@ -14,3 +14,6 @@ ms.date:     09/17/2025
 
 # Overview of searching for content in M365 Archive
 
+Content which has been archived either via site archive or file archive can be found by end-users.  End-users can utilize SharePoint or OneDrive search to find these archived results.  The results will still honor permission trimming and will still search the contents of files, just like search works today for active content. 
+
+
