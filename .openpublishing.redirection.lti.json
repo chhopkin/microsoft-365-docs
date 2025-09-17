@@ -12,7 +12,7 @@
         },
         {
             "source_path": "microsoft-365/lti/assignments-lti-license-terms.md",
-            "redirect_url": "microsoft-365/lti/index",
+            "redirect_url": "/microsoft-365/lti/index",
             "redirect_document_id": false
         },
        {
