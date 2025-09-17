@@ -1,8 +1,8 @@
 ---
 title: "Microsoft 365 admin center mailbox usage reports"
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 11/27/2023
 audience: Admin
 ms.topic: article
