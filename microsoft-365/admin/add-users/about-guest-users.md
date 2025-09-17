@@ -36,7 +36,10 @@ To view guests, in the <a href="https://go.microsoft.com/fwlink/p/?linkid=207483
 
 ## Before you begin
 
-You must be a global administrator to perform this task.
+To add a guest user, you need to have a role that allows you to create users in your tenant directory. For example, at least a [Guest Inviter role](/entra/identity/role-based-access-control/permissions-reference#guest-inviter) or a [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator).
+
+> [!IMPORTANT]
+> Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## Watch: Add guests to Teams
 
