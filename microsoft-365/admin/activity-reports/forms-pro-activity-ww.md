@@ -3,8 +3,8 @@ title: "Microsoft Dynamics 365 customer voice activity reports"
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 11/10/2020
 audience: Admin
 ms.topic: article
