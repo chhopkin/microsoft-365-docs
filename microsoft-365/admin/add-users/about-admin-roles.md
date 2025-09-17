@@ -1,11 +1,11 @@
 ---
-title: "About admin roles in the Microsoft 365 admin center"
+title: "About administrator roles in the Microsoft 365 admin center"
 f1.keywords:
 - CSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 04/02/2025
+ms.date: 09/17/2025
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-business
@@ -29,11 +29,11 @@ ms.custom:
 description: "Learn about admin roles, such as the global admin role, or the service admin role. Roles map to specific business functions and give permissions to do specific tasks in the Microsoft 365 admin center."
 ---
 
-# About admin roles in the Microsoft 365 admin center
+# About administrator roles in the Microsoft 365 admin center
 
-Check out [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) on YouTube.
+> Check out [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) on YouTube.
 
-Microsoft 365 or Office 365 subscription comes with a set of admin roles that you can assign to users in your organization using the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>. Each admin role maps to common business functions and gives people in your organization permissions to do specific tasks in the admin centers.
+Your Microsoft 365 or Office 365 subscription comes with a set of admin roles that you can assign to users in your organization using the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>. Each admin role maps to common business functions and gives people in your organization permissions to do specific tasks in the admin centers.
 
 ## Watch: What is an admin?
 
