@@ -5,8 +5,8 @@ f1.keywords:
 - MACGlobalDetachedSubscriptions
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
-ms.reviewer: anderssv, aliceapp
+manager: scotv
+ms.reviewer: patyc
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
