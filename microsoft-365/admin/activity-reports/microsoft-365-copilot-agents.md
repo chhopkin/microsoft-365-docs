@@ -1,8 +1,8 @@
 ---
 title: "Agent usage in Microsoft 365 Copilot"
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 10/02/2024
 ms.update-cycle: 180-days
 audience: Admin
