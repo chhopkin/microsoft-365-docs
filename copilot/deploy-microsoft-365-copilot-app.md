@@ -23,12 +23,15 @@ The app is available as a [web app](https://m365.cloud.microsoft/), as a desktop
 
 ## Deploy the app with Microsoft 365 Apps
 
-Windows devices with the Microsoft 365 desktop client apps will automatically install the Microsoft 365 Copilot app. This app installation takes place in the background and would not disrupt the user. This app installation will start in Fall 2025.
-
+Windows devices with the Microsoft 365 desktop apps will automatically install the Microsoft 365 Copilot app. This app installation takes place in the background and would not disrupt the user. This app installation will start in Fall 2025.
 > [!NOTE]
 > The installation of the Microsoft 365 Copilot app to devices with Microsoft 365 Apps is not enabled for customers in the European Economic Area (EEA).
 
-To prevent the app from installing to a device with existing installations of Microsoft 365 Apps:
+### Updating the Microsoft 365 Copilot app
+With this rollout, the Microsoft 365 Copilot app gains the ability to update automatically through its own built-in updater, rather than relying solely on the Microsoft Store. To ensure reliable app installation and delivery of updates, administrators should allow access to the Microsoft 365 Content Delivery Network (CDN) on the *.office.net domain. This domain is used by Microsoft to distribute updates and content more efficiently. For a comprehensive list of Microsoft 365 URLs and IP address ranges, see [Microsoft 365 URLs and IP address ranges](https://learn.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges). 
+
+### Prevent automatic installation
+To prevent the app from installing to devices with existing installations of Microsoft 365 Apps:
 1. Sign in to the [Microsoft 365 Apps admin center](https://config.office.com/deploymentsettings) with an admin account.
 2. Go to **Customization** > **Device Configuration** > **Modern App Settings**.
 3. Select **Microsoft 365 Copilot app**, then clear the **Enable automatic installation of Microsoft 365 Copilot app** check box.
