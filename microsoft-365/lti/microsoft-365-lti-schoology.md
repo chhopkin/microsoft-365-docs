@@ -35,7 +35,7 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
 ## One-time setup by an LMS administrator
 
-1. Access the **Teams Assignments** app in the **Schoology** [**App Center**](https://app.schoology.com/apps) by copying this direct link into a browser: `https://_\<apps>_.schoology.com/apps/profile/7876809197` and replacing the _\<apps>_ portion of the URL with your organization's custom subdomain (for example: districtXYZ.schoology.com/apps/profile/7876809197). Then browse the app store profile.
+1. Access the **Microsoft Education** app in the **Schoology** [**App Center**](https://app.schoology.com/apps) by copying this direct link into a browser: `https://<apps>.schoology.com/apps/profile/7876809197` and replacing the <apps> portion of the URL with your organization's custom subdomain (for example: districtXYZ.schoology.com/apps/profile/7876809197). Then browse the app store profile.
 
 1. Select **Login** in the upper right to log into your Schoology Learning instance as an administrator with access to install and configure the app.
 
@@ -45,14 +45,14 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
 1. When asked if this app should be installed for your entire organization or just for you, select **Add to Organization**, and you're redirected to the **Organization Apps** page to complete the configuration.
 
-1. From the [**Organization Apps list**](https://app.schoology.com/apps/school_apps), locate the **Teams Assignments** app and select the **Install/Remove** button.
+1. From the [**Organization Apps list**](https://app.schoology.com/apps/school_apps), locate the **Microsoft Education** app and select the **Install/Remove** button.
 
 1. To install the app for all courses, choose the **All Courses** checkbox.
 
 > [!NOTE]
 > If you choose not to install the app for all courses, then Course Admins must install the app for themselves by either:
 >
-> - Selecting the **Install Your App(s)** link at the bottom of the course left rail navigation menu, and then selecting the **Teams Assignments** app to install.
+> - Selecting the **Install Your App(s)** link at the bottom of the course left rail navigation menu, and then selecting the **Microsoft Education** app to install.
 > - Going to the [**Organization Apps list**](https://app.schoology.com/apps/school_apps), selecting the **Install/Remove** button, and choosing the courses in which to install the app.
 
 ## First-time Configuration by an LMS Administrator
