@@ -312,4 +312,4 @@ If you have an MOSA billing account type, you can't automatically change from pa
 ## Related content
 
 [Manage payment methods for Microsoft business accounts](manage-payment-methods.md) (article) \
-[View your invoice in the Microsoft 365 admin center](view-your-bill-or-invoice.md)
+[View your invoice in the Microsoft 365 admin center](view-your-bill-or-invoice.md) (article)
