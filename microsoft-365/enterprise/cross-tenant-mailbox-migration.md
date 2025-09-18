@@ -348,7 +348,7 @@ Do you want to continue?
 
 ### How do I know this migration worked?
 
-You can verify Cross-tenant mailbox migration configuration by running the [Test-MigrationServerAvailability](/powershell/module/exchange/Test-MigrationServerAvailability) cmdlet against the Cross-tenant migration endpoint that you created on your target tenant. Run the following cmdlet from target tenant:
+You can verify Cross-tenant mailbox migration configuration by running the [Test-MigrationServerAvailability](/powershell/module/exchangepowershell/Test-MigrationServerAvailability) cmdlet against the Cross-tenant migration endpoint that you created on your target tenant. Run the following cmdlet from target tenant:
 
 ```PowerShell
 Test-MigrationServerAvailability -EndPoint "[the name of your migration endpoint]" -TestMailbox "[Primary SMTP of MailUser object in target tenant]"
@@ -387,7 +387,7 @@ T2Tbatch                   Syncing ExchangeRemoteMove 1
 
 > [!NOTE]
 > The email address in the CSV file must be the one specified in the target tenant (for example, userA@northwindtraders.onmicrosoft.com), not the one in the source tenant.
-> [For more information on the cmdlet, click here](/powershell/module/exchange/new-migrationbatch)
+> [For more information on the cmdlet, click here](/powershell/module/exchangepowershell/new-migrationbatch)
 > [For some example CSV file info click here](/exchange/csv-files-for-mailbox-migration-exchange-2013-help)
 
 A minimal example of a CSV file is:
