@@ -130,8 +130,10 @@ Register Open LMS as an application in your Microsoft Entra ID using the PowerSh
 
     1. From the Microsoft 365 Integration configuration page, select the **Sync Settings** tab.
 
-    1. In the **Sync users with Microsoft Entra ID** setting, select the checkboxes that apply to your environment. You must select the following options:  
+    1. In the **Sync users with Microsoft Entra ID** setting, select the checkboxes that apply to your environment. You must select the following options:
+       
         ✔ Create accounts in Open LMS for users in Microsoft Entra ID.
+       
         ✔ Update all accounts in Open LMS for users in Microsoft Entra ID.
 
     1. In the **User Creation Restriction** section, you can set up a filter to limit the Microsoft Entra users that are synced to Open LMS.
