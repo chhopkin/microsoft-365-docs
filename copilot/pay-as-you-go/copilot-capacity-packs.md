@@ -15,7 +15,7 @@ ms.collection:
 - essentials-overview
 appliesto:
 - ✅ Microsoft 365 Copilot
-ms.date: 09/05/2025
+ms.date: 09/18/2025
 ---
 
 # Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat
@@ -34,6 +34,8 @@ This article explains how global administrators can use Copilot Studio capacity 
 - You must be a Global Administrator or Billing Administrator to buy capacity packs.
 - You must be a Global Administrator to enable capacity pack usage.
 - Billing administrators or AI administrators can set up pay-as-you-go billing but can't activate a capacity pack.
+
+[!INCLUDE [global-administrator-note](../../microsoft-365/includes/global-administrator-note.md)]
 
 ## Understand the difference between prepaid capacity packs and pay-as-you-go billing
 
