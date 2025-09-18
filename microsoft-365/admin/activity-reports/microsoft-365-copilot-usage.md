@@ -18,6 +18,7 @@ ms.collection:
 - operations-pod
 ms.custom:
 - campaignIDs-batch1
+- GAUpdates
 search.appverid:
 - BCS160
 - MST160
@@ -157,7 +158,7 @@ To ensure data quality, we perform daily data validation checks for the past thr
 |------|-------------|
 | User name                                      | The user's principal name.                                                                                                                    |
 | Display name                                   | The full name of the user.                                                                                                                    |
-| Last activity date (UTC (Universal Time Code)) | The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Teams, Outlook, Copilot.cloud.microsoft, Microsoft Edge, the Microsoft 365 Copilot (app), Word, Excel, PowerPoint, or OneNote. This date remains fixed even if the timeframe of the report is changed.  |
+| Last activity date (UTC (Universal Time Code)) | The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Teams, Outlook,  m365.cloud.microsoft/chat, Microsoft Edge, the Microsoft 365 Copilot (app), Word, Excel, PowerPoint, or OneNote. This date remains fixed even if the timeframe of the report is changed.  |
 | Last activity date of Teams Copilot (UTC)      | The latest date the user had activity in Microsoft Teams Copilot, including any of the intentional activities, regardless of the selected time period of past 7/30/90/180 days.                                |
 | Last activity date of Word Copilot (UTC)       | The latest date the user had activity in Word Copilot, including any of the intentional activities, regardless of the selected time period of past 7/30/90/180 days.                                            |
 | Last activity date of Excel Copilot (UTC)      | The latest date the user had activity in Excel Copilot, including any of the intentional activities, regardless of the selected time period of past 7/30/90/180 days.                                        |
@@ -174,6 +175,8 @@ To ensure data quality, we perform daily data validation checks for the past thr
 ## Display user-specific data
 
 By default, usernames and display names in Copilot Search usage reports are anonymous. Global administrators can update the settings to reveal usernames and display names.
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 1. In the admin center, go to the **Settings** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Org Settings</a> page.
 2. Select the **Services** tab, then select **Reports**.
