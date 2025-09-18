@@ -47,7 +47,7 @@ appliesto:
 > For more information, see the following articles:
 >
 > - [Connect to Anthropic's AI models](../microsoft-365/admin/misc/other-llms.md)
-> - Use Claude with Researcher in Microsoft 365 Copilot
+> - [Use Claude with Researcher in Microsoft 365 Copilot](https://support.microsoft.com/topic/23e2503b-d73e-4abb-902d-b9814205a38a)
 
 **Microsoft 365 Copilot is an AI-powered tool that helps with your work tasks**.
 
