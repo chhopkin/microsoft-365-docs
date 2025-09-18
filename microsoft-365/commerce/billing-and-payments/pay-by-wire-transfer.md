@@ -26,7 +26,7 @@ description: "Learn how to pay for your Microsoft business subscription by using
 ms.date: 09/18/2025
 ---
 
-## Pay your invoice by using a wire transfer
+# Pay your invoice by using a wire transfer
 
 By default, Microsoft accepts credit cards and debit cards as payment methods for the business products and services that you buy from us. In some cases, you can use a wire transfer to pay your invoice.
 
