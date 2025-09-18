@@ -115,6 +115,10 @@ Register Open LMS as an application in your Microsoft Entra ID using the PowerSh
 1. In **Choose connection method**, select **Application access**, and then select **Save changes** again.
 1. After the page refreshes, you can see another new section **Admin consent & additional information**.
     1. Select **Provide Admin Consent** link, enter your Microsoft 365 Global Administrator credentials, then **Accept** to grant the permissions.
+
+        > [!IMPORTANT]
+        > Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
+
     1. Next to the **Microsoft Entra tenant** field, select the **Detect** button.
     1. Next to the **OneDrive for Business URL**, select the **Detect** button.
     1. After the fields populate, select the **Save changes** button again.
