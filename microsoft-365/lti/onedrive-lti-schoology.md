@@ -40,6 +40,10 @@ The person who performs this integration should be an administrator of Schoology
 1. Sign into the [Microsoft OneDrive LTI Registration Portal](https://onedrivelti.microsoft.com/admin) using an Office 365 Global Admin credential.
 1. Select the **Admin Consent** button and accept the permissions.
     1. If this step isn't completed successfully, the following step will give you an error, and you may not be able to take this step for an hour once you've gotten the error. If the consent fails, ensure you're signed in as a Global Admin and repeat this step.
+
+    > [!IMPORTANT]
+    > Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
+
 1. Select the **Create new LTI Tenant** button.
 1. In the **LTI Consumer Platform** list, select **Schoology**.
 1. In the **Schoology Base URL** field, enter your Schoology Learning base URL, like `https://testschool.schoology.com`.
