@@ -55,6 +55,8 @@ items:
     href: pay-as-you-go/meters.md
   - name: View costs and billing for pay-as-you-go
     href: pay-as-you-go/view-cost.md
+  - name: Use prepaid capacity packs
+    href: pay-as-you-go/copilot-capacity-packs.md
 - name: Manage Microsoft 365 Copilot
   items:
   - name: Manage Microsoft 365 Copilot scenarios
