@@ -2,13 +2,22 @@
 title: "Connect to Anthropic's AI models"
 ms.author: kwekua
 author: kwekuako
+ms.update-cycle: 180-days
 manager: scotv
-ms.date: 02/24/2025
+ms.date: 09/18/2025
 audience: Admin
 ms.topic: overview
-ms.service: microsoft-365-business
+ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
-ms.collection: OtherAILLMs
+ms.collection:
+- scotvorg
+- m365copilot
+- magic-ai-copilot
+- essentials-overview
+- operations-pod
+- OtherAILLMs
+appliesto:
+- ✅ Microsoft 365 Copilot
 description: "Learn about how to connect your organization to Anthropic's AI models."
 ---
 

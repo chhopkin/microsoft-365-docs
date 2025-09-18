@@ -33,11 +33,21 @@ appliesto:
 > - This model update doesn't change your [security, privacy, or compliance settings](/copilot/microsoft-365/manage-public-web-access).
 >
 > GPT-5 is not yet available in [Microsoft 365 Copilot GCC](https://adoption.microsoft.com/en-us/copilot/gcc/).
-> 
+>
 > For more information, see the following articles:
 >
 > - [Microsoft 365 Blog: Available today -- GPT-5 in Microsoft 365 Copilot](https://www.microsoft.com/en-us/microsoft-365/blog/2025/08/07/available-today-gpt-5-in-microsoft-365-copilot/)
 > - [Understanding foundation model changes in Microsoft 365 Copilot](https://techcommunity.microsoft.com/blog/microsoft_365blog/understanding-foundation-model-changes-in-microsoft-365-copilot/4440322)
+
+> [!NOTE]
+> Microsoft 365 Copilot is adding Anthropic's Claude AI models as an optional supporting LLM. User's can try Claude with their Copilot prompts by selecting Try Claude button in the Microsoft 365 Copilot app.
+>
+> Claude is not yet available in [Microsoft 365 Copilot GCC](https://adoption.microsoft.com/en-us/copilot/gcc/).
+>
+> For more information, see the following articles:
+>
+> - [Connect to Anthropic's AI models](../microsoft-365/admin/misc/other-llms.md)
+> - Use Claude with Researcher in Microsoft 365 Copilot
 
 **Microsoft 365 Copilot is an AI-powered tool that helps with your work tasks**.
 
