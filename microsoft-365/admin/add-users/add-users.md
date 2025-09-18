@@ -59,13 +59,13 @@ The following video shows how to add a user in Microsoft 365. It's one minute an
 
 ::: moniker range="o365-worldwide"
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft).
+Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft).
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. Sign in to the [Microsoft 365 admin center](https://portal.partner.microsoftonline.cn).
+Sign in to the [Microsoft 365 admin center](https://portal.partner.microsoftonline.cn).
 
 ::: moniker-end
 
@@ -85,11 +85,11 @@ The following video shows how to add a user in Microsoft 365. It's one minute an
 
 1. **Set up the basics**: fill in the basic user information, and then select **Next**.
 
-    - **Name** - Fill in the first name, family name, display name, and username.
+    - **Name**: Fill in the first name, family name, display name, and username.
 
-    - **Domains** - Choose the domain for the user's account. For example, if their username is `Jakob`, and the domain is `contoso.com`, then they sign in with `jakob@contoso.com`.
+    - **Domains**: Choose the domain for the user's account. For example, if their username is `Jakob`, and the domain is `contoso.com`, then they sign in with `jakob@contoso.com`.
 
-    - **Password settings**
+    - **Password settings**:
 
         - By default, the option to **Automatically create a password** is selected. If you deselect this option, create a strong password for the user.
 
@@ -129,7 +129,7 @@ The following video shows how to add multiple users in Microsoft 365. It's one m
 
 1. Go to **Users** > **Active users**, and select **Add multiple users**.
 
-1. **Add list of user**: choose whether to add users via rows on this page or upload a CSV with user information.
+1. **Add list of users**: choose whether to add users via rows on this page or upload a CSV with user information.
 
     :::image type="content" source="../../media/upload-csv-file.png" alt-text="A screenshot from the Microsoft 365 admin center to add a list of users.":::
 
