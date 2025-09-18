@@ -44,7 +44,7 @@ In the Microsoft 365 Copilot agent usage report, you can view the adoption of ag
 
 ## Interpret the Microsoft 365 Copilot agent report
 
-You can use this report to see the usage of Copilot agents in your organization that were built by your organization and include agents that are approved by an admin and agents created via agent builder and shared with users in your org. Admins can manage agents in the same way as they manage any other app in the Integrated apps section of the Microsoft 365 admin center. Learn more in [Manage Copilot agents in Integrated Apps](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
+You can use this report to see the usage of Copilot agents in your organization that were built by your organization and include agents that are approved by an admin and agents created in Copilot Studio and shared with users in your org. Admins can manage agents in the same way as they manage any other app in the Integrated apps section of the Microsoft 365 admin center. Learn more in [Manage Copilot agents in Integrated Apps](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
 
 At the top, you can filter by different periods. The Microsoft 365 Copilot agent report can be viewed over the last 7 days, 30 days, 90 days, or 180 days:
 
@@ -100,7 +100,7 @@ Yes. These are the agents that usage is reported for:
 
 - Agents created in Microsoft Copilot studio by users in your org and approved by admin.
 - Agents created in Teams Toolkit by users in your org and approved by admin.
-- Agents created by users through [agent builder](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder) for users that have this feature enabled and shared with other users in your org.
+- Agents created by users in [Copilot Studio](/microsoft-365-copilot/extensibility/copilot-studio-lite) for users that have this feature enabled and shared with other users in your org.
 
 ### Are agents published by Microsoft or Microsoft Partners included?
 
@@ -108,7 +108,7 @@ No. Currently, the report does not include the usage of agents built by Microsof
 
 ### Why can't I see the Agent name and/or External app ID in the Details section, even though I see the App ID, active users, and last activity date?
 
-Due to system limitations, the information about the agent name for the agents created by users from [Agent Builder](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder) is not currently available. However, usage of these agents is included in the aggregated metrics above the table.
+Due to system limitations, the information about the agent name for the agents created by users in [Copilot Studio](/microsoft-365-copilot/extensibility/copilot-studio-lite) isn't currently available. However, usage of these agents is included in the aggregated metrics above the table.
 
 If External app ID is visible but not the agent name, you can identify your organization’s agent name by looking up the External app ID in the Microsoft Teams admin center under the Manage apps. Admins also have the option to export the details table in the agent report and export the managed apps in Microsoft Teams admin center for a bulk lookup of agent name.
 
