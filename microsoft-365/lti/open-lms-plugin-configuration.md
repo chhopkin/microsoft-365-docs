@@ -1,10 +1,10 @@
 ---
 title: Set up and configure the Moodle LMS plugins for Open LMS
-author: officedocspr5
-ms.author: odocspr
-manager: jacktremper
-ms.reviewer: amitman 
-ms.date: 04/06/2022
+author: jennplatt
+ms.author: avering
+manager: michal.gideoni
+ms.reviewer: avering 
+ms.date: 09/18/2025
 audience: admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-education
