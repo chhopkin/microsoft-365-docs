@@ -86,6 +86,8 @@ items:
           href: billing-and-payments/understand-your-invoice.md
         - name: Pay for your subscription
           href: billing-and-payments/pay-for-your-subscription.md
+        - name: Pay by wire transfer
+          href: billing-and-payments/pay-by-wire-transfer.md
         - name: Manage payment methods
           href: billing-and-payments/manage-payment-methods.md
         - name: Manage billing across multiple tenants
