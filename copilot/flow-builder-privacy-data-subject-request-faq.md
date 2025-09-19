@@ -54,7 +54,7 @@ Flow Builder respects tenant-level settings configured in the Microsoft 365 admi
 - Whether analytics and telemetry are collected
 - Which Copilot features are available to users
 
-To learn more about managing Copilot agents and tenant settings, see [Manage Copilot Agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide)
+To learn more about managing Copilot agents and tenant settings, see [Manage Copilot Agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide&preserve-view=true)
 
 ## What connectors are supported?
 
@@ -85,7 +85,7 @@ Feedback collection settings apply consistently across all Flow Builder surfaces
 Here's some additional information about feedback collection:
 
 - [Providing feedback about Microsoft Copilot with Microsoft 365 apps](https://support.microsoft.com/en-us/topic/providing-feedback-about-microsoft-copilot-with-microsoft-365-apps-c481c26a-e01a-4be3-bdd0-aee0b0b2a423)
-- [Manage feedback for Microsoft 365 apps](/microsoft-365/admin/manage/manage-feedback-ms-org?view=o365-worldwide)
+- [Manage feedback for Microsoft 365 apps](/microsoft-365/admin/manage/manage-feedback-ms-org?view=o365-worldwide&preserve-view=true)
 
 ## Can usage be audited?
 
