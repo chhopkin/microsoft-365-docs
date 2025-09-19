@@ -116,7 +116,7 @@ To successfully integrate your Blackboard Learn Ultra instance with Microsoft Te
 This process can be done either before or after you have configured the LTI applications in your Blackboard Learn Ultra Instance.
 
 > [!IMPORTANT]
-> Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
+> Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ### Before Configuring the LTI Applications
 
