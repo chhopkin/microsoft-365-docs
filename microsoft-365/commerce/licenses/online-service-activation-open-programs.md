@@ -37,6 +37,8 @@ Microsoft Open Value and Open Value Subscription offer the ability to add online
 - You must have a volume licensing (VL) role to access the VL pages in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
 - You must have the Global Administrator role on the organization's online services tenant to activate online service activation (OSA) keys.
 
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
+
 ## Activate services from the online service activation email
 
 After you order your online services through an Open program, the *Primary Contact* listed on the licensing contract receives an email titled "Sign in and activate your online services" that contains a link and instructions to activate your services. The primary contact can choose to complete the service activation themselves or can forward the email to an individual who has global administrator permissions.

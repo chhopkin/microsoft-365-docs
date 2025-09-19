@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: dansimp
+manager: scotv
 ms.date: 05/12/2025
 audience: Admin
 ms.topic: overview
@@ -19,6 +19,7 @@ ms.collection:
 ms.custom:
 - adminvideo
 - AdminTemplateSet
+- GAUpdates
 search.appverid:
 - MET150
 - MOE150
@@ -63,7 +64,9 @@ Check out this and other videos on our [YouTube channel](https://go.microsoft.co
 
 People who have the following permissions can see the reports:
 
-- Global admins: We recommend that only a few people in your company have this role. It reduces the risk to your business.
+- Global admins
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 - Exchange admins
 
