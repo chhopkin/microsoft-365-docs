@@ -225,7 +225,7 @@ In a shared devices deployment, you can use app protection policies to ensure th
 
 #### Limit access to Teams when frontline workers are off shift
 
-With the working time feature, you can use app protection policies to limit access to Teams for shift workers on BYOD or company-owned dedicated devices. This feature lets you can block access or show a warning message when frontline workers access Teams during nonworking time.
+With the working time feature, you can use app protection policies to limit access to Teams for shift workers on BYOD or company-owned dedicated devices. This feature lets you block access or show a warning message when frontline workers access Teams during nonworking time.
 
 To learn more, see [Limit access to Teams when frontline workers are off shift](flw-working-time.md).
 
