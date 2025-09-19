@@ -70,7 +70,7 @@ Before you run any of the following PowerShell commands, sign in to your adminis
 
 ## Save PowerShell scripts
 
-The following scripts help you inventory Copilot scheduled prompts. The provided script names match the scripts referenced in the rest of this article.
+The following scripts help you inventory Copilot scheduled prompts. The provided script names match the scripts referenced in the rest of this article. Save and run the scripts in the same folder.
 
 ### `Get-CopilotActions.ps1`
 
@@ -91,7 +91,7 @@ Begin {
     $ErrorActionPreference = "Stop"
 
     # Retrieve the environment URL using the environment ID
--
+
     $environment = Get-AdminPowerAppEnvironment -EnvironmentName $EnvironmentId
 
     if (-not $environment) {
@@ -341,7 +341,7 @@ You can run a script in different ways to list scheduled prompts created in your
 
 1. To get the `EnvironmentId`, use the **Get-AdminPowerAppEnvironment** cmdlet as described in [General operations](#general-operations).
 
-1. Run the following script, replacing the placeholder with your actual `EnvironmentId`. If prompted, connect with the admin account.
+1. Run the [`Get-CopilotActions.ps1`](#get-copilotactionsps1) script and specify your `EnvironmentId`. If prompted, connect with the admin account. For example:
 
     ```powershell
     .\Get-CopilotActions.ps1 -EnvironmentId abc123-a100-xyz000-12345
@@ -353,7 +353,7 @@ You can run a script in different ways to list scheduled prompts created in your
 
 1. To get the `EnvironmentId` and `UserId`, use the **Get-AdminPowerAppEnvironment** and **Get-EntraUser** cmdlets as described in [General operations](#general-operations).
 
-1. Run the following script with the appropriate `EnvironmentId` and `UserId`. If prompted, connect with the admin account.
+1. Run the [`Get-CopilotActions.ps1`](#get-copilotactionsps1) script with your `EnvironmentId` and `UserId`. If prompted, connect with the admin account. For example:
 
     ```powershell
     .\Get-CopilotActions.ps1 -EnvironmentId abc123-a100-xyz000-12345 -UserId abc123-a100-xyz000-12345
@@ -377,7 +377,7 @@ To export the list to a CSV file, start with either of the previous options to [
 
 1. To get the `EnvironmentId`, use the **Get-AdminPowerAppEnvironment** cmdlet as described in [General operations](#general-operations).
 
-1. Run the following script with the appropriate `EnvironmentId` and `DataverseId` values. If prompted, connect with the admin account.
+1. Run the [`Remove-CopilotActions.ps1`](#remove-copilotactionsps1) script with the appropriate `EnvironmentId` and `DataverseId` values. If prompted, connect with the admin account. For example:
 
     ```powershell
     .\Remove-CopilotAction.ps1 -EnvironmentId abc123-a100-xyz000-12345 -DataverseId abc123-a100-xyz000-12345
@@ -387,7 +387,7 @@ To export the list to a CSV file, start with either of the previous options to [
 
 1. Get the `EnvironmentId` and `UserId` values as described in [General operations](#general-operations).
 
-1. Run the following script with the appropriate `EnvironmentId` and `UserId`. If prompted, connect with the admin account.
+1. Run the [`Clear-CopilotActions.ps1`](#clear-copilotactionsps1) script with the appropriate `EnvironmentId` and `UserId` values. If prompted, connect with the admin account. For example:
 
     ```powershell
     .\Clear-CopilotActions.ps1 -EnvironmentId abc123-a100-xyz000-12345 -UserId abc123-a100-xyz000-12345
