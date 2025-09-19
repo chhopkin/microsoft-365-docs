@@ -56,15 +56,15 @@ The hub Copilot experience shows the list of agents that are available and deplo
 
 You can manage several types of agents in Microsoft 365 Copilot, each serving different purposes:
 
-- **Custom agents** Built with predefined instructions and actions. These agents follow structured logic and are best for predictable, rule-based tasks. Before custom agents are available to users, they go through an admin approval and publishing process to ensure compliance and readiness.
+- **Custom agents**: Built with predefined instructions and actions. These agents follow structured logic and are best for predictable, rule-based tasks. Before custom agents are available to users, they go through an admin approval and publishing process to ensure compliance and readiness.
 
-- **Shared agents** Configured for use by multiple users or groups. Creators share these agents with other users.
+- **Shared agents**: Configured for use by multiple users or groups. Creators share these agents with other users.
 
-- **First-party agents** Developed by Microsoft and integrated with Microsoft 365 services.
+- **First-party agents**: Developed by Microsoft and integrated with Microsoft 365 services.
 
-- **External agents** Created by external developers or vendors. You can control their availability and permissions.
+- **External agents**: Created by external developers or vendors. You can control their availability and permissions.
 
-- **Frontier agents** Experimental or advanced agents that use new capabilities or integrations. These agents might be in early stages of development or testing and could require more oversight or limited rollout.
+- **Frontier agents**: Experimental or advanced agents that use new capabilities or integrations. These agents might be in early stages of development or testing and could require more oversight or limited rollout.
 
 ## Get started
 
@@ -96,17 +96,17 @@ You can also manage shared agents, which are agents that you configure for use b
 
 Use the following settings to manage agents for Copilot:
 
-- **Enable or disable agents** Control whether agents are available in your organization.
-- **Advanced agent settings**  Configure more controls for agent behavior (more options coming).
-- **Agent inventory** View and manage all agents, including first-party, external, shared, and custom agents.
-- **Metadata** View key details for each agent, such as capabilities, data sources (for example, OneDrive, SharePoint, Graph connectors), and custom actions.
-- **Shared agents** Manage agents configured for use by multiple users or groups. You can:
+- **Enable or disable agents**: Control whether agents are available in your organization.
+- **Advanced agent settings**: Configure more controls for agent behavior.
+- **Agent inventory**: View and manage all agents, including first-party, external, shared, and custom agents.
+- **Metadata**: View key details for each agent, such as capabilities, data sources, and custom actions. Example data sources include OneDrive, SharePoint, Graph connectors.
+- **Shared agents**: Manage agents configured for use by multiple users or groups. You can:
   - Change availability (Edit users)
   - Deploy
   - Block
   - Unblock
   - Export all
-- **Requested agents** Review user-submitted agent requests. You can:
+- **Requested agents**: Review user-submitted agent requests. You can:
   - View all pending requests
   - Act on requests (for example, Publish pending, Update pending)
 
@@ -148,14 +148,12 @@ You can also choose to assign or unassign the app to everyone or specific users 
 
 ## Actions for agents
 
-The following table describes the actions you can take to manage an agent for your organization:
+The following list describes the actions you can take to manage an agent for your organization:
 
-| **Action** | **Description** |
-|------------|-----------------|
-| **Publish** | Make an agent available to specific users or groups. This action lists the agent in the store and users can install it. |
-| **Deploy** | Install an agent on behalf of a user by accepting Microsoft Entra permissions for them. This action makes the agent active and usable for specific users or groups. |
-| **Remove** | Remove the agent from the inventory. This action applies only to first-party or external agents. You can readd the agent to the inventory by acquiring it from the store. |
-| **Block** | Prevent any users in the tenant from accessing the agent. This action ensures that no one in the organization can use the agent. |
+- **Publish**: Make an agent available to specific users or groups. This action lists the agent in the store and users can install it.
+- **Deploy**: Install an agent on behalf of a user by accepting Microsoft Entra permissions for them. This action makes the agent active and usable for specific users or groups.
+- **Remove**: Remove the agent from the inventory. This action applies only to first-party or external agents. You can readd the agent to the inventory by acquiring it from the store.
+- **Block**: Prevent any users in the tenant from accessing the agent. This action ensures that no one in the organization can use the agent.
 
 ### Publish agents
 
@@ -164,18 +162,22 @@ The Microsoft 365 admin center publishing process for agents submitted through C
 The publishing process involves the following steps:
 
 1. Developers create and test agents in Copilot Studio, which provides a user-friendly interface for inputting the parameters and data for the applications.
+
 1. Developers submit their agents for approval from within Copilot Studio to the Microsoft 365 admin center.
-1. You can discover the apps with agents that are submitted but not yet approved in admin center under the **Requested Apps** tab in the Integrated Apps section. The tab shows the name, host products, status, and Copilot readiness of the applications. The status of a new app is `Publish pending` and of an update to an existing app is `Update pending`.
-1. You can select a pending application to see more details and metadata, such as the description, requester, request date, and the status. These details help you to make an informed decision on whether to publish or reject the application.
+
+1. To discover the apps with agents that are submitted but not yet approved, go to the **Requested Apps** tab in the Integrated Apps section of the admin center. The tab shows the name, host products, status, and Copilot readiness of the applications. The status of a new app is **Publish pending**. The status of an update to an existing app is **Update pending**.
+
+1. To see more details and metadata, select a pending application. This information includes the description, requester, request date, and the status. These details help you to make an informed decision on whether to publish or reject the application.
 
 1. You can approve or disapprove any pending application by selecting **Publish** or **Reject**.
 
-   1. If you approve the application, it becomes available to the org users based on the org default settings for custom apps. The application also becomes part of the `Agent inventory` list in the admin center, where admins can manage user assignments and other settings as any other app.
+   1. If you approve the application, it becomes available to the org users based on the org default settings for custom apps. The application also becomes part of the **Agent inventory** list in the admin center, where admins can manage user assignments and other settings as any other app.
 
-   1. If you disapprove the application, the service removes it from the `Pending approval` list in the admin center. Then its status is shared with Copilot Studio. The developer can make changes and resubmit the application for approval.
+   1. If you disapprove the application, the service removes it from the **Pending approval** list in the admin center. Then the service shares the app's status with Copilot Studio. The developer can make changes and resubmit the application for approval.
 
     :::image type="content" source="../../media/agents/publish.png" alt-text="Screenshot showing the pop-up window to publish an agent." lightbox="../../media/agents/publish.png":::
-1. If the developer publishes an update to an existing application, the update is also submitted for approval and follows the same workflow as a new application. The update is shown in the `Pending approval` list with the status `Update pending`. Until you approve the update, the previous version of the application remains available to the users.
+
+1. If the developer publishes an update to an existing application, the update is available for approval and follows the same workflow as a new application. It shows in the **Pending approval** list with the status **Update pending**. Until you approve the update, the previous version of the application remains available to the users.
 
 ### Deploy agents
 
@@ -195,7 +197,7 @@ Deploying an agent affects its availability and functionality in Copilot and in 
 
 ### Remove agents
 
-You can remove first-party and external agents across the whole organization or for specific users or groups by using the same controls that work for any other app in the Microsoft 365 admin center. 
+You can remove first-party and external agents across the whole organization or for specific users or groups by using the same controls that work for any other app in the Microsoft 365 admin center.
 
 To remove an agent, follow these steps:
 

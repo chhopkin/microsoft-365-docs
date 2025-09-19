@@ -47,8 +47,10 @@ Embedded knowledge agents support uploading files as knowledge sources. Copilot 
 
 ### Maximum file size
 
-- For `.doc`, `.ppt`, `.xls`, `.xlsx`, and `.txt`: 150 MB
-- For `.docx`, `.pptx`, and `.pdf`: 512 MB
+| File type | Maximum file size |
+|---------|---------|
+| `.doc`, `.ppt`, `.xls`, `.xlsx`, `.txt` | 150 MB |
+| `.docx`, `.pptx`, and `.pdf` | 512 MB |
 
 Files that exceed these limits aren't accepted.
 
