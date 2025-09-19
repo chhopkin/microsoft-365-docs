@@ -2,9 +2,9 @@
 title: "User experience in a multi-geo environment"
 ms.reviewer:
 ms.date: 02/14/2025
-ms.author: kvice
-author: kelleyvice-msft
-manager: scotv
+ms.author: v-fahasen
+author: fhasen-msft
+manager: v-nihmi
 audience: ITPro
 ms.topic: article
 ms.service: microsoft-365-enterprise
@@ -25,7 +25,7 @@ Here's what your users see in a OneDrive Multi-Geo configuration:
 
 ## Exchange Online mailbox
 
-A user's Exchange Online mailbox is provisioned to their preferred data location, and is automatically relocated if their PDL changes. Users can use Outlook and Outlook on the web normally with no change in user experience in a Multi-Geo environment.
+A user's Exchange Online mailbox is provisioned to their _Preferred Data Location (PDL)_, and is automatically relocated if their _PDL_ changes. Users can use Outlook and Outlook on the web normally with no change in user experience in a _Multi-Geo_ environment. All active and inactive mailboxes placed on litigation hold will continue to adhere to the configured _PDL_ for the duration of the litigation hold period. For more information, see [Place a mailbox on Litigation Hold](/admin/misc/create-litigation-hold-mac.md) and [Delete an inactive mailbox](/purview/delete-an-inactive-mailbox).
 
 ## Hub sites
 
