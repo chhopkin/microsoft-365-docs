@@ -1001,7 +1001,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path":"microsoft-365/m365bp-protect-against-malware-cyberthreats.md",
+      "source_path":"microsoft-365/business-premium/m365bp-protect-against-malware-cyberthreats.md",
       "redirect_url":"/microsoft-365/admin/security-and-compliance/m365b-email-collaboration-security",
       "redirect_document_id": false
     },
@@ -1076,7 +1076,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path":"secure-your-business-data.md",
+      "source_path":"microsoft-365/admin/security-and-compliance/secure-your-business-data.md",
       "redirect_url":"/microsoft-365/admin/security-and-compliance/m365b-security-best-practices",
       "redirect_document_id": false
     },
