@@ -38,14 +38,14 @@ Anthropic’s AI models can help people in your organization with some of the fo
 
 ## Before you begin
 
-Before users in your organization can use Anthropic in the Microsoft Researcher agent, they need to be assigned a [Microsoft 365 Copilot license](../manage/assign-licenses-to-users.md).
+Before users in your organization can use Anthropic in the Microsoft Researcher agent, they need to be assigned a [Microsoft 365 Copilot license](../microsoft-365/admin/manage/assign-licenses-to-users.md).
 
 ## Connect to Anthropic in the Microsoft 365 admin center
 
 > [!IMPORTANT]
 > Before your organization can connect to Anthropic AI models, you must allow access in the Microsoft 365 admin center.
 
-You have to be a member of the [Global administrator role](/entra/identity/role-based-access-control/permissions-reference) to perform this task. For more information, see [About admin roles in the Microsoft 365 admin center](../add-users/about-admin-roles.md).
+You have to be a member of the [Global administrator role](/entra/identity/role-based-access-control/permissions-reference) to perform this task. For more information, see [About admin roles in the Microsoft 365 admin center](../microsoft-365/admin/add-users/about-admin-roles.md).
 
 1. Go to the Microsoft 365 admin center and select **Copilot** -> **Settings**.
 2. On the **Data access** page, select **AI providers for other large language models**.
@@ -56,7 +56,7 @@ After you connect, it may take a few hours for the connection to complete.
 
 ### Additional controls for Copilot Studio in the Microsoft Power Platform admin center
 
-Once enabled in the Microsoft 365 admin center, additional admin controls are available in the Microsoft Power Platform admin center (PPAC) to allow Anthropic to be used in Copilot Studio. For more information, see [Allow external large language models (LLMs) for generative responses](/power-platform/admin/allow-llm-generative-responses).
+Once enabled in the Microsoft 365 admin center, additional admin controls are available in the Microsoft Power Platform admin center (PPAC) to allow Anthropic to be used in Copilot Studio. For more information, see [Allow external large language models (LLMs) for generative responses](https://go.microsoft.com/fwlink/?linkid=2334706).
 
 ## Disable connection to Anthropic
 
