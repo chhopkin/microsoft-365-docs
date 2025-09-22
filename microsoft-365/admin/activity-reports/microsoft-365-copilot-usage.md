@@ -18,6 +18,7 @@ ms.collection:
 - operations-pod
 ms.custom:
 - campaignIDs-batch1
+- GAUpdates
 search.appverid:
 - BCS160
 - MST160
@@ -174,6 +175,8 @@ To ensure data quality, we perform daily data validation checks for the past thr
 ## Display user-specific data
 
 By default, usernames and display names in Copilot Search usage reports are anonymous. Global administrators can update the settings to reveal usernames and display names.
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 1. In the admin center, go to the **Settings** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Org Settings</a> page.
 2. Select the **Services** tab, then select **Reports**.
