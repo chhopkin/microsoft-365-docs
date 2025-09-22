@@ -67,13 +67,9 @@ Before working with organizational messages, make sure your team satisfies the f
 
 - **Authors** Anyone in your organization who wants to create messages must have one of these following admin roles assigned to them within Microsoft 365 admin center:
 
-  - [Global Administrator](/azure/active-directory/roles/permissions-reference#global-administrator)
-
   - [Organizational Messages Writer](/azure/active-directory/roles/permissions-reference#organizational-messages-writer)
 
 - **Approvers** Anyone in your organization who is designated a responsible party for approving customized messages must have one of these following admin roles assigned to them within Microsoft 365 admin center:
-
-  - [Global Administrator](/azure/active-directory/roles/permissions-reference#global-administrator)
 
   - [Organizational Messages Approver](/entra/identity/role-based-access-control/permissions-reference#organizational-messages-approver)
 
@@ -389,6 +385,8 @@ The Organizational messages centralized experience is the ‘one-stop-shop’ fo
 > Adoption Score organizational messages on Office or Outlook channels aren't visible in the centralized experience.
 
 ### How do admins get the required permissions?
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
  Reach out to a Global admin and ask them to assign you Organizational Messages Writer or Organizational Message Approver Microsoft Entra role to you following these steps:
 
