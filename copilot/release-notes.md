@@ -2958,7 +2958,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Organize your presentation's flow easily** [Windows, Web, iOS, Mac]  
 
-  Structure your slides, add sections, and insert an agenda slide to improve the overall flow of your presentation. <a href="https://support.microsoft.com/topic/a207eea3-7a56-4225-88f1-54dd37cdcf6a" target="_blank">Learn more.</a>
+  Structure your slides, add sections, and insert an agenda slide to improve the overall flow of your presentation. <a href="https://support.microsoft.com/office/organize-your-powerpoint-slides-into-sections-de4bf162-e9cc-4f58-b64a-7ab09443b9f8" target="_blank">Learn more.</a>
 
 - **Summarize your presentation and identify key points** [Windows, Web, iOS, Mac]  
 
@@ -4498,7 +4498,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Organize your presentation's flow easily** [Windows, Web, iOS, Mac]  
 
-  Structure your slides, add sections, and insert an agenda slide to improve the overall flow of your presentation. <a href="https://support.microsoft.com/topic/a207eea3-7a56-4225-88f1-54dd37cdcf6a" target="_blank">Learn more.</a>
+  Structure your slides, add sections, and insert an agenda slide to improve the overall flow of your presentation. <a href="https://support.microsoft.com/office/organize-your-powerpoint-slides-into-sections-de4bf162-e9cc-4f58-b64a-7ab09443b9f8" target="_blank">Learn more.</a>
 
 - **Summarize your presentation and identify key points** [Windows, Web, iOS, Mac]  
 
@@ -6604,7 +6604,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Organize your presentation's flow easily** [Windows, Web, iOS, Mac]  
 
-  Structure your slides, add sections, and insert an agenda slide to improve the overall flow of your presentation. <a href="https://support.microsoft.com/topic/a207eea3-7a56-4225-88f1-54dd37cdcf6a" target="_blank">Learn more.</a>
+  Structure your slides, add sections, and insert an agenda slide to improve the overall flow of your presentation. <a href="https://support.microsoft.com/office/organize-your-powerpoint-slides-into-sections-de4bf162-e9cc-4f58-b64a-7ab09443b9f8" target="_blank">Learn more.</a>
 
 - **Summarize your presentation and identify key points** [Windows, Web, iOS, Mac]  
 
@@ -7718,7 +7718,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Organize your presentation's flow easily** [Windows, Web, iOS, Mac]  
 
-  Structure your slides, add sections, and insert an agenda slide to improve the overall flow of your presentation. <a href="https://support.microsoft.com/topic/a207eea3-7a56-4225-88f1-54dd37cdcf6a" target="_blank">Learn more.</a>
+  Structure your slides, add sections, and insert an agenda slide to improve the overall flow of your presentation. <a href="https://support.microsoft.com/office/organize-your-powerpoint-slides-into-sections-de4bf162-e9cc-4f58-b64a-7ab09443b9f8" target="_blank">Learn more.</a>
 
 - **Summarize your presentation and identify key points** [Windows, Web, iOS, Mac]  
 
@@ -8596,7 +8596,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Organize your presentation's flow easily** [Windows, Web, iOS, Mac]  
 
-  Structure your slides, add sections, and insert an agenda slide to improve the overall flow of your presentation. <a href="https://support.microsoft.com/topic/a207eea3-7a56-4225-88f1-54dd37cdcf6a" target="_blank">Learn more.</a>
+  Structure your slides, add sections, and insert an agenda slide to improve the overall flow of your presentation. <a href="https://support.microsoft.com/office/organize-your-powerpoint-slides-into-sections-de4bf162-e9cc-4f58-b64a-7ab09443b9f8" target="_blank">Learn more.</a>
 
 - **Summarize your presentation and identify key points** [Windows, Web, iOS, Mac]  
 
