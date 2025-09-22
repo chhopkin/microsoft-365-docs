@@ -38,14 +38,14 @@ Anthropic’s AI models can help people in your organization with some of the fo
 
 ## Before you begin
 
-Before users in your organization can use Anthropic in the Microsoft Researcher agent, they need to be assigned a [Microsoft 365 Copilot license](../microsoft-365/admin/manage/assign-licenses-to-users.md).
+Before users in your organization can use Anthropic in the Microsoft Researcher agent, they need to be assigned a [Microsoft 365 Copilot license](https://learn.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ## Connect to Anthropic in the Microsoft 365 admin center
 
 > [!IMPORTANT]
 > Before your organization can connect to Anthropic AI models, you must allow access in the Microsoft 365 admin center.
 
-You have to be a member of the [Global administrator role](/entra/identity/role-based-access-control/permissions-reference) to perform this task. For more information, see [About admin roles in the Microsoft 365 admin center](../microsoft-365/admin/add-users/about-admin-roles.md).
+You have to be a member of the [Global administrator role](/entra/identity/role-based-access-control/permissions-reference) to perform this task. For more information, see [About admin roles](https://learn.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
 
 1. Go to the Microsoft 365 admin center and select **Copilot** -> **Settings**.
 2. On the **Data access** page, select **AI providers for other large language models**.
