@@ -27,5 +27,6 @@ Microsoft 365 Copilot uses content filtering to protect users from harmful conte
 > [!IMPORTANT]
 > Core responsible AI protections, such as prompt injection defense and copyright safeguards are always enforced and cannot be disabled.
 
-How harmful content protection settings work
+## How harmful content protection settings work
+
 When a harmful content protection policy is applied, users have the option to adjust their harmful content protection settings in Microsoft 365 Copilot Chat. The menu will include a **Harmful content protection** setting, as shown in the following screenshot:
