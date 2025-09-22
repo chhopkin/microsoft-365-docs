@@ -88,7 +88,6 @@ Organizational messages in AI adoption score enable you to drive awareness of Mi
 
 To use organizational messages in AI adoption score, you must be assigned one of the following admin roles:
 
-- Global administrator
 - Organizational message writer
 
 [!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
