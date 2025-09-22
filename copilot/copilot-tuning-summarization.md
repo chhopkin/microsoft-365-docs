@@ -16,6 +16,8 @@ description: Learn how to use Copilot Tuning to build an AI model for document s
 
 <!-- cSpell:ignore rloutlaw routlaw calvind robertode -->
 
+[!INCLUDE [agent-builder-mcs-lite](../microsoft-365/includes/agent-builder-mcs-lite.md)]
+
 Copilot Tuning summarization generates high-quality summaries from complex documents presented in your organization's communication style. Summary generation rephrases complex documents and can generate consistent outputs like:
 
 - Automated executive reports
@@ -82,4 +84,4 @@ Copilot Tuning summarization embraces existing user workflows within the applica
 
 - [Microsoft 365 Copilot Tuning overview (preview)](copilot-tuning-overview.md)
 - [Microsoft 365 Copilot Tuning FAQ](copilot-tuning-faq.yml)
-- [Create declarative agents with Copilot Studio agent builder and Microsoft 365 Copilot Tuning models](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-tuned-models).
+- [Create declarative agents with Copilot Studio lite experience and Microsoft 365 Copilot Tuning models](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-tuned-models).
