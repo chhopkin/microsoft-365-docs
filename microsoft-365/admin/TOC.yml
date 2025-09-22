@@ -275,7 +275,9 @@ items:
             - name: Manage shared agents
               href: manage/manage-shared-agents.md
             - name: Manage pinning of agents
-              href: manage/manage-pinning-agents.md  
+              href: manage/manage-pinning-agents.md
+            - name: Manage agent permissions
+              href: manage/manage-agents-permissions.md  
             - name: Manage embedded knowledge agents
               href: manage/manage-embedded-knowledge-agents.md
             - name: Microsoft Graph connectors for Microsoft Search
