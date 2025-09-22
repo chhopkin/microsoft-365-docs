@@ -46,7 +46,7 @@ appliesto:
 >
 > For more information, see the following articles:
 >
-> - [Connect to Anthropic's AI models](../microsoft-365/admin/misc/other-llms.md)
+> - [Connect to Anthropic's AI models](connect-to-ai-models.md)
 > - [Use Claude with Researcher in Microsoft 365 Copilot](https://support.microsoft.com/topic/23e2503b-d73e-4abb-902d-b9814205a38a)
 
 **Microsoft 365 Copilot is an AI-powered tool that helps with your work tasks**.
@@ -65,7 +65,7 @@ You can also [create and use agents](/microsoft-365-copilot/extensibility) to cu
 
 This article is for IT admins. It describes the different components that Microsoft 365 Copilot uses and the Copilot features in the Microsoft 365 apps. To learn more about the architecture and how Copilot works, see [Microsoft 365 Copilot architecture and how it works](microsoft-365-copilot-architecture.md).
 
-This article applies to:
+This article applies to: 
 
 - Microsoft 365 Copilot
 
