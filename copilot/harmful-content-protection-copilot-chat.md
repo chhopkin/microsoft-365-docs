@@ -54,3 +54,10 @@ When a harmful content protection policy is applied, users have the option to ad
 4. In the flyout pane, specify your configuration settings as follows:
 
    :::image type="content" source="media/harmful-content-protection-copilot-chat/adjust-responsible-ai-protections-options.png" alt-text="Screenshot showing configuration options for the Adjust responsible AI protections policy." lightbox="media/harmful-content-protection-copilot-chat/adjust-responsible-ai-protections-options.png":::
+
+   1. Under **Configuration setting**, select **Enabled**.
+
+   2. Under **Options**, select an option, such as **Provide users with the option to adjust harmful content protection**.
+
+   3. Select **Apply**.
+
