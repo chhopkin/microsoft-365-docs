@@ -65,12 +65,12 @@ When a harmful content protection policy is applied, users have the option to ad
 
 5. Apply your policy to the security group you created in Step 1 and save your changes.
 
-When the policy takes effect, users can opt to disable harmful content protection in their Microsoft 365 Copilot Chat conversations. To learn more about the user experience, see ARTICLE.
+When the policy takes effect, users can opt to disable harmful content protection in their Microsoft 365 Copilot Chat conversations. To learn more about the user experience, see [Using the harmful content protection toggle in Microsoft 365 Copilot Chat](https://support.microsoft.com/en-us/topic/605db862-b859-4ec3-9327-d405cc164690).
 
 ## Best practices and important points
 
 - We recommend defining a security group in Microsoft Entra ID for your harmful content protection policies. Only include users who will use this feature when it is fit for purpose, such as when doing investigative work in law enforcement, legal, or social work scenarios. Not everyone in your organization will need to turn harmful content protection off.
-- Let users know how the feature works and when to use it. For more information about the user experience, see ARTICLE.
+- Let users know how the feature works and when to use it. For more information about the user experience, see [Using the harmful content protection toggle in Microsoft 365 Copilot Chat](https://support.microsoft.com/en-us/topic/605db862-b859-4ec3-9327-d405cc164690).
 
 ## Related articles
 
