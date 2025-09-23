@@ -22,14 +22,14 @@ appliesto:
 
 # Manage harmful content protection settings for Microsoft 365 Copilot Chat
 
-Microsoft 365 Copilot uses content filtering to protect users from harmful content in user prompts and generated responses (see [How does Copilot block harmful content?](/copilot/microsoft-365/microsoft-365-copilot-privacy#how-does-copilot-block-harmful-content)). However, in certain use cases, such as in investigation, law enforcement, legal review, or social work scenarios, it's important to have the ability to adjust responsible harmful content protections appropriately. Microsoft is rolling out the ability to adjust harmful content protection settings so that Microsoft 365 Copilot Chat can respond to queries about harmful content when it is fit for purpose.
+Microsoft 365 Copilot uses content filtering to protect users from harmful content in user prompts and generated responses (see [How does Copilot block harmful content?](/copilot/microsoft-365/microsoft-365-copilot-privacy#how-does-copilot-block-harmful-content)). However, in certain use cases, such as in investigation, law enforcement, legal review, or social work scenarios, it's important to have the ability to adjust responsible harmful content protections appropriately. Microsoft is rolling out the ability to adjust harmful content protection settings so that Microsoft 365 Copilot Chat can respond to queries about harmful content when it's fit for purpose.
 
 > [!IMPORTANT]
-> Core responsible AI protections, such as prompt injection defense, copyright safeguards, and image protections are always enforced and cannot be disabled.
+> Core responsible AI protections, such as prompt injection defense, copyright safeguards, and image protections are always enforced and can't be disabled.
 
 ## How harmful content protection settings work
 
-When a harmful content protection policy is applied, users have the option to adjust their harmful content protection settings in Microsoft 365 Copilot Chat. The menu includes a **Harmful content protection** setting, as shown in the following screenshot:
+When a harmful content protection policy is applied, users can adjust their harmful content protection settings in Microsoft 365 Copilot Chat. The menu includes a **Harmful content protection** setting, as shown in the following screenshot:
 
 :::image type="content" source="media/harmful-content-protection-copilot-chat/copilot-chat-more-menu.png" alt-text="Screenshot showing the More menu in Microsoft 365 Copilot Chat." lightbox="media/harmful-content-protection-copilot-chat/copilot-chat-more-menu.png":::
 
@@ -38,6 +38,7 @@ When a harmful content protection policy is applied, users have the option to ad
 - When this setting is *disabled*, the user can query on harmful content within the context of that conversation. In this case, the user might see sensitive or potentially offensive content related to their queries.
 - Once harmful content protection is disabled in a conversation in Microsoft 365 Copilot Chat, it can't be re-enabled until a new conversation is started. 
 - Regardless of whether harmful content protection is enabled or disabled, [Responsible AI governance](https://www.microsoft.com/en-us/ai/principles-and-approach), including prompt injection defense, copyright safeguards, and image protections continue to be enforced.
+- Harmful content protection settings don't affect images or agents.
 
 ## How to configure harmful content protection settings
 
