@@ -42,3 +42,11 @@ When a harmful content protection policy is applied, users have the option to ad
 ## How to configure harmful content protection settings
 
 1. Set up a security group in Microsoft Entra ID. See [Learn about group types, membership types, and access management](/entra/fundamentals/concept-learn-about-groups).
+
+2. As an AI Administrator, sign into the Microsoft 365 Apps admin center.
+
+3. In the navigation pane, select **Customization**, and then create or edit a policy. Search for **Adjust responsible AI protections for Micrsooft 365 Copilot**. A flyout pane opens.
+
+   :::image type="content" source="media/harmful-content-protection-copilot-chat/adjust-responsible-ai-protections.png" alt-text="Screenshot showing the Adjust responsible AI protections flyout pane." lightbox="media/harmful-content-protection-copilot-chat/adjust-responsible-ai-protections.png":::
+
+4. 
