@@ -71,3 +71,9 @@ When the policy takes effect, users can opt to disable harmful content protectio
 
 - We recommend defining a security group in Microsoft Entra ID for your harmful content protection policies. Only include users who will use this feature when it is fit for purpose, such as when doing investigative work in law enforcement, legal, or social work scenarios. Not everyone in your organization will need to turn harmful content protection off.
 - Let users know how the feature works and when to use it. For more information about the user experience, see ARTICLE.
+
+## Related articles
+
+- [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md)
+- [Security for Microsoft 365 Copilot](microsoft-365-copilot-ai-security.md)
+- [Transparency Note for Microsoft 365 Copilot](microsoft-365-copilot-transparency-note.md)
