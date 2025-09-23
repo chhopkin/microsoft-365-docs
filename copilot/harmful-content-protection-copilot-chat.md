@@ -51,4 +51,6 @@ When a harmful content protection policy is applied, users have the option to ad
 
    :::image type="content" source="media/harmful-content-protection-copilot-chat/adjust-responsible-ai-protections.png" alt-text="Screenshot showing the Adjust responsible AI protections flyout pane." lightbox="media/harmful-content-protection-copilot-chat/adjust-responsible-ai-protections.png":::
 
-4. 
+4. In the flyout pane, specify your configuration settings as follows:
+
+   :::image type="content" source="media/harmful-content-protection-copilot-chat/adjust-responsible-ai-protections-options.png" alt-text="Screenshot showing configuration options for the Adjust responsible AI protections policy." lightbox="media/harmful-content-protection-copilot-chat/adjust-responsible-ai-protections-options.png":::
