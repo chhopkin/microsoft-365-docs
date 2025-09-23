@@ -112,7 +112,7 @@ Copilot Chat is available to users in many of the key Microsoft 365 apps in whic
 - [Copilot user tools and templates](https://adoption.microsoft.com/copilot/user-engagement-tools-and-templates/) – A collection of user-facing tools and templates for you to quickly onboard your organization. See the section for Copilot Chat tools and templates.
 
 ## Track Copilot Chat usage
-Microsoft 365 admins can also track Copilot Chat usage in their Microsoft 365 environments. The [Microsoft 365 Copilot Chat usage dashboard](/microsoft-365/admin/activity-reports/microsoft-copilot-usage?view=o365-worldwide) provides insights into active usage of Copilot Chat. This can be helpful in helping to track adoption over time.
+Microsoft 365 admins can also track Copilot Chat usage in their Microsoft 365 environments. The [Microsoft 365 Copilot Chat usage dashboard](/microsoft-365/admin/activity-reports/microsoft-copilot-usage) provides insights into active usage of Copilot Chat. This can be helpful in helping to track adoption over time.
 
 ## Manage Copilot Chat
 
