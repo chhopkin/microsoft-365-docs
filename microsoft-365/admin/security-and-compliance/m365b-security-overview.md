@@ -135,14 +135,14 @@ For more information, see [Overview of Basic Mobility and Security for Microsoft
   - [Device groups and Microsoft Intune categories in Microsoft 365 Business Premium](m365bp-devices-groups-categories.md)
   - [Device and application protection in Microsoft 365 Business Premium](m365bp-devices-protection.md).
 
-- **Ability to add Microsoft 365 E5 Security**: If you choose to buy this extra subscription, you get the following upgraded features:
+- **Ability to add Microsoft Defender Suite for Business Premium**: If you choose to buy this extra subscription, you get the following upgraded features:
   - [Microsoft Entra ID P2](/entra/fundamentals/licensing)
   - [Microsoft Defender for Identity](/defender-for-identity/what-is)
   - [Microsoft Defender for Endpoint Plan 2](/defender-endpoint/microsoft-defender-endpoint)
   - [Microsoft Defender for Office 365 Plan 2](/defender-office-365/mdo-about#defender-for-office-365-plan-1-vs-plan-2-cheat-sheet)
   - [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps)
 
-  For more information, see [Add Microsoft 365 E5 Security to your Microsoft 365 Business Premium subscription](m365bp-add-m365e5s.md).
+  For more information, see [Add Microsoft Defender Suite for Business Premium to your Microsoft 365 Business Premium subscription](m365bp-add-m365e5s.md).
 
 ## See also
 
