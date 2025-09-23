@@ -45,9 +45,11 @@ When a harmful content protection policy is applied, users have the option to ad
 
 2. As an AI Administrator, sign into the Microsoft 365 Apps admin center.
 
-3. In the navigation pane, select **Customization**, and then create or edit a policy. Search for and select **Adjust responsible AI protections for Micrsooft 365 Copilot**. 
+3. In the navigation pane, select **Customization**.
 
-   A flyout pane opens.
+   :::image type="content" source="media/harmful-content-protection-copilot-chat/m365-apps-admin-center-customization.png" alt-text="Screenshot showing the Customization section in the Microsoft 365 App admin center." lightbox="media/harmful-content-protection-copilot-chat/m365-apps-admin-center-customization.png":::
+
+4. Create or edit a policy configuration for **Adjust responsible AI protections for Micrsooft 365 Copilot**. 
 
    :::image type="content" source="media/harmful-content-protection-copilot-chat/adjust-responsible-ai-protections.png" alt-text="Screenshot showing the Adjust responsible AI protections flyout pane." lightbox="media/harmful-content-protection-copilot-chat/adjust-responsible-ai-protections.png":::
 
