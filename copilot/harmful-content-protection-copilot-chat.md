@@ -31,4 +31,3 @@ Microsoft 365 Copilot uses content filtering to protect users from harmful conte
 
 When a harmful content protection policy is applied, users have the option to adjust their harmful content protection settings in Microsoft 365 Copilot Chat. The menu includes a **Harmful content protection** setting, as shown in the following screenshot:
 
-:::image type="content" source="media/harmful-content-protection-copilot-chat/adjust-responsible-ai-protections.png" alt-text="Screenshot showing the Adjust responsible AI protections dialog box." lightbox="media/harmful-content-protection-copilot-chat/adjust-responsible-ai-protections.png":::
