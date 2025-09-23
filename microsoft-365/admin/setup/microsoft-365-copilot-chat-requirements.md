@@ -44,10 +44,10 @@ Copilot Chat is available at no additional cost for Microsoft Entra account user
     - Microsoft 365 F1, F3, G3, or G5
     - Office 365 F1, F3, G3, or G5
 
-For more detailed information about licenses that include Copilot Chat, see [Microsoft 365 Copilot Chat eligibility](https://learn.microsoft.com/copilot/manage#microsoft-365--chat-eligibility).
+For more detailed information about licenses that include Copilot Chat, see [Microsoft 365 Copilot Chat eligibility](/copilot/manage#microsoft-365--chat-eligibility).
 
 ## Network requirements
-Microsoft 365 Copilot enables AI scenarios that access the web, so it may need to connect to specific network endpoints (domains). See the [full documentation of network requirements for Microsoft 365 Copilot](https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-requirements#network-requirements), which provides a complete list of domains and WebSockets (WSS) that an organization's network shouldn't block.  
+Microsoft 365 Copilot enables AI scenarios that access the web, so it may need to connect to specific network endpoints (domains). See the [full documentation of network requirements for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-requirements#network-requirements), which provides a complete list of domains and WebSockets (WSS) that an organization's network shouldn't block.  
 
 ### Operating system requirements
 - Windows 11
@@ -76,10 +76,10 @@ Microsoft 365 users can access Copilot Chat from:
   - Users with Copilot Chat pinned in the Microsoft 365 Copilot app are redirected to m365.cloud.microsoft/chat. If not, they're redirected to copilot.cloud.microsoft. Get more details on how to pin Copilot Chat.
 - App: Microsoft 365 Copilot app (formerly the Microsoft 365 app), Teams, and Outlook
   - Available for web, desktop, iOS, and Android
-  - To access Copilot Chat in the Microsoft 365 Copilot app, Teams, and Outlook, ensure that it's pinned to the navigation bar. Get more details on [how to pin Copilot Chat](https://learn.microsoft.com/copilot/microsoft-365/pin-copilot).
+  - To access Copilot Chat in the Microsoft 365 Copilot app, Teams, and Outlook, ensure that it's pinned to the navigation bar. Get more details on [how to pin Copilot Chat](/copilot/microsoft-365/pin-copilot).
 - Browser: Copilot in Microsoft Edge 
   - Users can access Copilot Chat through the Copilot icon in the Edge browser UI when they're signed in with their Entra account.
-  - Users can [modify this permission](https://learn.microsoft.com/copilot/manage#manage--chat-in-edge) by going to **Microsoft Edge > Settings > Sidebar > Copilot**, and then turning on or off the **Allow Microsoft to access page content** toggle. 
+  - Users can [modify this permission](/copilot/manage#manage--chat-in-edge) by going to **Microsoft Edge > Settings > Sidebar > Copilot**, and then turning on or off the **Allow Microsoft to access page content** toggle. 
 - Word, Excel, and PowerPoint
   - In Word, Excel, and PowerPoint, Copilot Chat is automatically pinned in the toolbar.
 
@@ -89,14 +89,14 @@ Security and privacy for organizational data is always a top-of-mind concern for
 
 Admins do not need to do any additional configuration in regards to security when using Copilot Chat.  But an understanding of what the following might be helpful for them to know.
 
-- **Enterprise Data Protection (EDP)** - Microsoft 365 Copilot Chat is protected by Enterprise Data Protection (EDP). With EDP, [prompts and responses are protected](https://learn.microsoft.com/copilot/microsoft-365/enterprise-data-protection#enterprise-data-protection-for-prompts-and-responses) by the same contractual terms and commitments widely trusted by our customers for their emails in Exchange and files in SharePoint.
+- **Enterprise Data Protection (EDP)** - Microsoft 365 Copilot Chat is protected by Enterprise Data Protection (EDP). With EDP, [prompts and responses are protected](/copilot/microsoft-365/enterprise-data-protection#enterprise-data-protection-for-prompts-and-responses) by the same contractual terms and commitments widely trusted by our customers for their emails in Exchange and files in SharePoint.
 - **Responses grounded in web data**- Copilot Chat is a generative AI service grounded in data from the public web in the Bing search index only. Unlike Microsoft 365 Copilot, Copilot Chat cannot invoke organizational content like files, emails, or chats when interacting in Copilot Chat.
-- **Users can choose to provide organizational data** - Copilot Chat users can provide organizational content as part of their prompt, manually uploading a file directly, or use an agent that is given access to organizational content. Learn more about [organizational data and Copilot Chat](https://learn.microsoft.com/copilot/privacy-and-protections#organizational-data).
-- **European Union Data Boundary (EUDB)** - Microsoft 365 Copilot Chat calls to the LLM are routed to the closest data centers in the region, but can also call into other regions where greater capacity is available when utilization is especially high. For European Union (EU) users, Copilot Chat has additional safeguards to comply with the EU Data Boundary. EU traffic stays within the [EU Data Boundary](https://learn.microsoft.com/privacy/eudb/eu-data-boundary-learn), while worldwide traffic can be sent to the EU and other countries or regions for LLM processing.
+- **Users can choose to provide organizational data** - Copilot Chat users can provide organizational content as part of their prompt, manually uploading a file directly, or use an agent that is given access to organizational content. Learn more about [organizational data and Copilot Chat](/copilot/privacy-and-protections#organizational-data).
+- **European Union Data Boundary (EUDB)** - Microsoft 365 Copilot Chat calls to the LLM are routed to the closest data centers in the region, but can also call into other regions where greater capacity is available when utilization is especially high. For European Union (EU) users, Copilot Chat has additional safeguards to comply with the EU Data Boundary. EU traffic stays within the [EU Data Boundary](/privacy/eudb/eu-data-boundary-learn), while worldwide traffic can be sent to the EU and other countries or regions for LLM processing.
 
 ## Agents in Copilot Chat
 
-An [agent in Copilot Chat](https://learn.microsoft.com/copilot/agents) is an AI assistant that can perform tasks, automate workflows, or operate independently to help you get work done. Agents vary in complexity — from simple helpers that retrieve information to advanced ones that act on your behalf.
+An [agent in Copilot Chat](/copilot/agents) is an AI assistant that can perform tasks, automate workflows, or operate independently to help you get work done. Agents vary in complexity — from simple helpers that retrieve information to advanced ones that act on your behalf.
 
 Agents you create in Copilot Chat are billed based on metered consumption.  
 
@@ -112,7 +112,7 @@ Copilot Chat is available to users in many of the key Microsoft 365 apps in whic
 - [Copilot user tools and templates](https://adoption.microsoft.com/copilot/user-engagement-tools-and-templates/) – A collection of user-facing tools and templates for you to quickly onboard your organization. See the section for Copilot Chat tools and templates.
 
 ## Track Copilot Chat usage
-Microsoft 365 admins can also track Copilot Chat usage in their Microsoft 365 environments. The [Microsoft 365 Copilot Chat usage dashboard](https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-copilot-usage?view=o365-worldwide) provides insights into active usage of Copilot Chat. This can be helpful in helping to track adoption over time.
+Microsoft 365 admins can also track Copilot Chat usage in their Microsoft 365 environments. The [Microsoft 365 Copilot Chat usage dashboard](/microsoft-365/admin/activity-reports/microsoft-copilot-usage?view=o365-worldwide) provides insights into active usage of Copilot Chat. This can be helpful in helping to track adoption over time.
 
 ## Manage Copilot Chat
 
@@ -132,7 +132,7 @@ Microsoft 365 gives you a path to greater productivity for your users by adding 
 - **Advanced Agents** - Gives you access to powerful agents like Researcher and Analyst that can automate complex, multi-step workflows. 
 - **Advanced controls and analytics** - Microsoft 365 Copilot includes the Copilot Control System and Copilot Analytics, giving IT admins tools to manage access, enforce data governance, and measure usage and ROI—capabilities not available in the Copilot Chat experience.
 
-If you need help determining if you need to add a Microsoft 365 Copilot license, see [Decide which Copilot is right for you](https://learn.microsoft.com/copilot/microsoft-365/which-copilot-for-your-organization).
+If you need help determining if you need to add a Microsoft 365 Copilot license, see [Decide which Copilot is right for you](/copilot/microsoft-365/which-copilot-for-your-organization).
 
 
 
