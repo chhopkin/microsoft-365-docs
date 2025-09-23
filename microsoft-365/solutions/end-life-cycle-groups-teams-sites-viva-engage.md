@@ -45,7 +45,7 @@ The following table outlines the services associated with groups and teams and k
 
 When deleting a group or team, most of the associated resources are also deleted. Exceptions include:
 
-- Videos in Stream remain and are owned by the person who uploaded/recorded them
+- Videos in Stream remain and are owned by the person who uploaded/recorded them.
 - Flows in Power Automate remain and are owned by the person who created them.
 - Project and roadmap data in Project on the web remains in the CDS and can be restored separately.
 
