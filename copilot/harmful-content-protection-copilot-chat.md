@@ -48,7 +48,7 @@ When a harmful content protection policy is applied, users can adjust their harm
 
 3. In the navigation pane, select **Customization**.
 
-   :::image type="content" source="media/harmful-content-protection-copilot-chat/microsoft-365-apps-admin-center-customization.png" alt-text="Screenshot showing the Customization section in the Microsoft 365 App admin center." lightbox="media/harmful-content-protection-copilot-chat/m365-apps-admin-center-customization.png":::
+   :::image type="content" source="media/harmful-content-protection-copilot-chat/microsoft-365-apps-admin-center-customization.png" alt-text="Screenshot showing the Customization section in the Microsoft 365 App admin center." lightbox="media/harmful-content-protection-copilot-chat/microsoft-365-apps-admin-center-customization.png":::
 
 4. Create or edit a policy configuration for **Adjust responsible AI protections for Microsoft 365 Copilot**. 
 
