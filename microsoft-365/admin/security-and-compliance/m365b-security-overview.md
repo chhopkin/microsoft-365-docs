@@ -20,7 +20,7 @@ ms.custom:
 description: Learn about the security features available in Microsoft 365 for business.
 ms.service: microsoft-365-business-security
 adobe-target:
-ms.date: 08/14/2025
+ms.date: 09/23/2025
 appliesto:
   - ✅ <a href="https://www.microsoft.com/microsoft-365/business/microsoft-365-business-basic" target="_blank">Microsoft 365 Business Basic</a>
   - ✅ <a href="https://www.microsoft.com/microsoft-365/business/microsoft-365-business-standard" target="_blank">Microsoft 365 Business Standard</a>
@@ -57,16 +57,16 @@ These security categories are described in the following sections and are summar
 |---|:---:|:---:|:---:|
 |**Account security**||||
 |&nbsp;&nbsp;Microsoft Entra ID|Free|Free|Plan 1|
-|&nbsp;&nbsp;Microsoft 365 E5 Security|||Purchased separately<br/>(includes Microsoft Entra ID P2)|
+|&nbsp;&nbsp;Microsoft Defender Suite for Business Premium|||Purchased separately<br/>(includes Microsoft Entra ID P2)|
 |**Email and collaboration security**||||
 |&nbsp;&nbsp;Default email protections for cloud mailboxes|✔|✔|✔|
 |&nbsp;&nbsp;Microsoft Defender for Office 365|||Plan 1|
-|&nbsp;&nbsp;Microsoft 365 E5 Security|||Purchased separately<br/>(includes Defender for Office 365 Plan 2)|
+|&nbsp;&nbsp;Microsoft Defender Suite for Business Premium|||Purchased separately<br/>(includes Defender for Office 365 Plan 2)|
 |**Device security**||||
 |&nbsp;&nbsp;Basic Mobility and Security|✔|✔|✔|
 |&nbsp;&nbsp;Microsoft Intune|||Plan 1|
 |&nbsp;&nbsp;Microsoft Defender for Business|||✔|
-|&nbsp;&nbsp;Microsoft 365 E5 Security|||Purchased separately<br/>(includes Defender for Endpoint Plan 2)|
+|&nbsp;&nbsp;Microsoft Defender Suite for Business Premium|||Purchased separately<br/>(includes Defender for Endpoint Plan 2)|
 
 Watch this short video for more information:
 
