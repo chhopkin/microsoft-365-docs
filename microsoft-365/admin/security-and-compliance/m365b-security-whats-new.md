@@ -36,7 +36,7 @@ For more information about Microsoft 365 for business, see [What is Microsoft 36
 
 ## September 2025
 
-- You can now add the Microsoft Defender Suite for Business Premium to your subscription. The Microsoft 365 E5 Security add-on is no longer available.
+- You can now add the Microsoft Defender Suite for Business Premium to your subscription. This add-on replaces the former Microsoft 365 E5 Security add-on.
 
 ## March 2025
 
