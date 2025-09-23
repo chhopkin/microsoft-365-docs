@@ -49,7 +49,7 @@ When a harmful content protection policy is applied, users have the option to ad
 
    :::image type="content" source="media/harmful-content-protection-copilot-chat/m365-apps-admin-center-customization.png" alt-text="Screenshot showing the Customization section in the Microsoft 365 App admin center." lightbox="media/harmful-content-protection-copilot-chat/m365-apps-admin-center-customization.png":::
 
-4. Create or edit a policy configuration for **Adjust responsible AI protections for Micrsooft 365 Copilot**. 
+4. Create or edit a policy configuration for **Adjust responsible AI protections for Microsoft 365 Copilot**. 
 
    :::image type="content" source="media/harmful-content-protection-copilot-chat/adjust-responsible-ai-protections.png" alt-text="Screenshot showing the Adjust responsible AI protections flyout pane." lightbox="media/harmful-content-protection-copilot-chat/adjust-responsible-ai-protections.png":::
 
@@ -65,7 +65,10 @@ When a harmful content protection policy is applied, users have the option to ad
 
 5. Apply your policy to the security group you created in Step 1 and save your changes.
 
-When the policy takes effect, users can opt to disable harmful content protection in their Microsoft 365 Copilot Chat conversations. To learn more about the user experience, see [Using the harmful content protection toggle in Microsoft 365 Copilot Chat](https://support.microsoft.com/en-us/topic/605db862-b859-4ec3-9327-d405cc164690).
+When the policy takes effect, users have the **Harmful content protection** toggle in Microsoft 365 Copilot Chat. [Learn more about the user experience](https://support.microsoft.com/en-us/topic/605db862-b859-4ec3-9327-d405cc164690).
+
+> [!NOTE]
+> Harmful content protection settings don't affect images or agents.
 
 ## Best practices and important points
 
