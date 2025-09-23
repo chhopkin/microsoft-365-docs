@@ -16,7 +16,9 @@ ms.collection:
 - magic-ai-copilot
 - essentials-overview
 - operations-pod
-ms.custom: [copilot-learning-hub]
+ms.custom: 
+- [copilot-learning-hub]
+- GAUpdates
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---
@@ -45,6 +47,8 @@ To view detailed reports on Copilot usage and the associated costs, use the foll
 
 2. Go to **Billing** > **Cost Management**.
 3. On the **Cost Management** page, under **Service family**, you can see a service-level view of costs based on Copilot usage.
+
+[!INCLUDE [global-administrator-note](../../microsoft-365/includes/global-administrator-note.md)]
 
 You can also view costs in the Azure portal using [Microsoft Cost Management](/azure/cost-management-billing/costs/overview-cost-management). You can filter the accumulated costs using tags, like `m365copilotchat`:
 

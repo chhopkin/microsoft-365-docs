@@ -67,13 +67,9 @@ Before working with organizational messages, make sure your team satisfies the f
 
 - **Authors** Anyone in your organization who wants to create messages must have one of these following admin roles assigned to them within Microsoft 365 admin center:
 
-  - [Global Administrator](/azure/active-directory/roles/permissions-reference#global-administrator)
-
   - [Organizational Messages Writer](/azure/active-directory/roles/permissions-reference#organizational-messages-writer)
 
 - **Approvers** Anyone in your organization who is designated a responsible party for approving customized messages must have one of these following admin roles assigned to them within Microsoft 365 admin center:
-
-  - [Global Administrator](/azure/active-directory/roles/permissions-reference#global-administrator)
 
   - [Organizational Messages Approver](/entra/identity/role-based-access-control/permissions-reference#organizational-messages-approver)
 
@@ -165,7 +161,7 @@ If you have the Organizational Messages Writer Microsoft Entra role as described
 ## Create a message
 
 > [!IMPORTANT]
-> Organizational messages deliver messages to end users within the time windows configured by admins via Microsoft 365 admin center experiences. However, occasionally, messages might not be delivered as expected due to system or user device conditions, such as urgent messages not being delivered to devices that are disconnected from the internet. In such instances, our system continues trying to deliver messages as possible and appropriate.
+> Organizational messages deliver messages to end users within the time windows configured by admins via Microsoft 365 admin center experiences. However, occasionally, messages might not be delivered as expected due to system or user device conditions, such as urgent messages not being delivered to devices that are disconnected from the internet. In such instances, our system continues trying to deliver messages as possible and appropriate. If a device is offline while an urgent message is attempting to be delivered, the message will be cached for up to 24 hours and Windows will attempt to show the message to the user again once the device is back online.
 
 Users with the Organizational Messages Writer Microsoft Entra role described previously have access to the **Create a message** button and capability in the centralized experience. Selecting this button invokes the wizard, which includes these primary creation steps:
 
@@ -179,7 +175,7 @@ Users with the Organizational Messages Writer Microsoft Entra role described pre
 
 - **Recipients** for setting the groups within your organization that should receive the message.
 
-- **Schedule** for configuring the start and end dates and the frequency with which the system will send the message to the same user over time. If users don't select the message, it reappears based on the frequency set by the admin when creating organizational messages. If they do select the message, it won't reappear for a year.
+- **Schedule** for configuring the start date, end date, and frequency with which the system will send the message to the same user over time. If the user does not select the message when it's displayed, or dismisses the message by clicking "X", then the message will reappear again to the user later based on the specified frequency. If they do select the message, the message won't reappear again for a year (if the message hasn't already expired based on the chosen end date).
 
 - **Finish** for reviewing the message before scheduling or sending for approval by your organization’s approvers.
 
@@ -389,6 +385,8 @@ The Organizational messages centralized experience is the ‘one-stop-shop’ fo
 > Adoption Score organizational messages on Office or Outlook channels aren't visible in the centralized experience.
 
 ### How do admins get the required permissions?
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
  Reach out to a Global admin and ask them to assign you Organizational Messages Writer or Organizational Message Approver Microsoft Entra role to you following these steps:
 

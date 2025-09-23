@@ -1,8 +1,8 @@
 ---
 title: "Microsoft 365 admin center email activity reports"
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 03/14/2024
 audience: Admin
 ms.topic: article

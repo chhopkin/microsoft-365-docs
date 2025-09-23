@@ -3,8 +3,8 @@ title: "Microsoft Adoption Score Organizational Messages"
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 06/14/2024
 audience: Admin
 ms.topic: article
@@ -19,9 +19,9 @@ ms.collection:
 - Adm_TOC
 - operations-pod
 ms.custom:
-- AdminSurgePortfolio
 - AdminTemplateSet
 - campaignIDs-batch1
+- GAUpdates
 search.appverid:
 - MET150
 - MOE150
@@ -42,8 +42,9 @@ Organizational messages for Adoption Score will initially roll out to Communicat
 For a successful preview experience, you need to be one of the following admin roles:
 
 - Global administrator
-
 - Organizational message writer
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 The Organizational message writer role is the new built-in role that allows assigned admins to view and configure messages. The Global administrator can assign the Organizational message writer role to admins:
 
