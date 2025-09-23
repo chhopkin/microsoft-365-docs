@@ -5,7 +5,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 ms.reviewer: nsiu
-ms.date: 09/22/2025
+ms.date: 09/23/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: article
@@ -29,4 +29,4 @@ Microsoft 365 Copilot uses content filtering to protect users from harmful conte
 
 ## How harmful content protection settings work
 
-When a harmful content protection policy is applied, users have the option to adjust their harmful content protection settings in Microsoft 365 Copilot Chat. The menu will include a **Harmful content protection** setting, as shown in the following screenshot:
+When a harmful content protection policy is applied, users have the option to adjust their harmful content protection settings in Microsoft 365 Copilot Chat. The menu includes a **Harmful content protection** setting, as shown in the following screenshot:
