@@ -52,7 +52,7 @@ Defining the migration scope is a crucial step that determines the users and gro
 
 1. In Exchange Online PowerShell, create a Mail-Enabled Security Group in the Source Tenant:
 
-  `New-DistributionGroup -Type Security -Name "<MigrationScopeGroupName>" -DisplayName "Migration Scope for <Project or Batch Name>"`
+  `New-DistributionGroup -Type Security -Name "[MigrationScopeGroupName]" -DisplayName "Migration Scope for [Project or Batch Name]"`
 
   *Example*:
    `New-DistributionGroup -Type Security -Name "MTO-Migration-Scope-2025" -DisplayName "Migration Scope for Bellevue Project"`
@@ -298,7 +298,7 @@ Before starting mailbox migration, it’s essential to validate that your migrat
   `Connect-ExchangeOnline -UserPrincipalName [your-admin-account]`
 2. Run the readiness check:
   `Test-MigrationServerAvailability -Endpoint MigrationEndpointName]`
-  - Replace **[MigrationEndpointName]** with the name of your migration endpoint (for example, `MTO-MigrationEndpoint-[source-tenant-id]`).
+  - Replace **MigrationEndpointName** with the name of your migration endpoint (for example, `MTO-MigrationEndpoint-<source-tenant-id>`).
 3. Check the output for Success or Failure and identity readiness.
 
 ## Perform the migration
