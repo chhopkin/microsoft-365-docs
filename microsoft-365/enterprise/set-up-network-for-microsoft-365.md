@@ -47,8 +47,10 @@ For advice on enhancing performance, see [Network planning and performance tunin
 
 If you are a network equipment vendor, join the [Microsoft 365 Networking Partner Program](microsoft-365-networking-partner-program.md). Enroll in the program to build Microsoft 365 network connectivity principles into your products and solutions.
 
-## Microsoft 365 endpoints
+> [!NOTE]
+> The Microsoft 365 Network Provider program is no longer open for new network providers.
 
+## Microsoft 365 endpoints
 Endpoints are the set of destination IP addresses, DNS domain names, and URLs for Microsoft 365 traffic on the Internet.
 
 To optimize performance to Microsoft 365 cloud-based services, some endpoints need special handling by your client browsers and the devices in your edge network. These devices include firewalls, SSL Break and Inspect and packet inspection devices, and data loss prevention systems.
