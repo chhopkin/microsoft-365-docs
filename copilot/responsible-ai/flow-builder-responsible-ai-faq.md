@@ -1,5 +1,5 @@
 ---
-title: "Responsible AI FAQ for Flow Builder in Microsoft 365 Copilot"
+title: "FAQ for Flow Builder"
 description: "Get answers to frequently asked questions about responsible AI and Flow Builder in Microsoft 365 Copilot."
 ms.author: ralinga
 author: sbasi19
@@ -9,13 +9,15 @@ ms.topic: concept-article
 ms.service: microsoft-365-copilot
 ms.update-cycle: 180-days
 ms.date: 09/19/2025
+ms.custom: 
+  - transparency-note
 ---
 
-# Responsible AI FAQ for Flow Builder in Microsoft 365 Copilot
+# FAQ for Flow Builder
 
 These frequently asked questions describe the AI impact of Flow Builder, the AI assistant embedded in Microsoft 365 Copilot that helps you build automation flows using natural language.
 
-## What is Flow Builder in Microsoft 365 Copilot?
+## What is Flow Builder?
 
 Flow Builder is an AI-powered assistant within Microsoft 365 Copilot that helps you create, edit, and manage automation flows across Microsoft 365 apps such as Outlook, Teams, SharePoint, and Planner. You describe what you want to automate in natural language, and Flow Builder generates the corresponding flow for you. It also helps answer questions about your flows and provides documentation links as needed.
 
@@ -31,7 +33,7 @@ Flow Builder can:
 - Filter out unrelated questions.
 - Suggest when to save or test your flow.
 
-## What is Flow Builder’s intended use?
+## What is Flow Builder's intended use?
 
 Flow Builder is designed to make building automation workflows easier and faster, so you can get value from automation with minimal technical effort.
 
@@ -42,7 +44,7 @@ Microsoft tracks several key metrics to ensure Flow Builder performs well and pr
 ## What are the limitations of Flow Builder? How can users minimize these limitations?
 
 - Flow Builder supports only a limited set of Microsoft 365 connectors; non-Microsoft and custom connectors aren't supported.
-- Flow Builder can't' currently fix errors in existing flows automatically.
+- Flow Builder can't currently fix errors in existing flows automatically.
 - Since Flow Builder relies on natural language input in chat to specify locations like SharePoint sites or Teams channels, it might occasionally identify the wrong site or channel if the names are ambiguous or similar.
 - AI-generated flows should always be reviewed and tested before use in production.
 - Flow Builder is only available in English.
