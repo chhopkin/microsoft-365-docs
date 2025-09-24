@@ -3,7 +3,7 @@ title: Join or leave a multitenant organization in Microsoft 365
 ms.author: kvice
 author: kelleyvice-msft
 manager: scotv
-ms.date: 06/24/2024
+ms.date: 09/24/2025
 audience: ITPro
 ms.topic: how-to
 ms.service: microsoft-365-enterprise
