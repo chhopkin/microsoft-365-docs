@@ -22,9 +22,9 @@ description: Get answers to frequently asked questions about responsible AI and 
 
 <!-- cSpell:ignore calvind emrek emrekiciman pretrained -->
 
-This FAQ article helps answer questions about the responsible use of AI in [Microsoft 365 Copilot Tuning](copilot-tuning-overview.md).
+This FAQ article helps answer questions about the responsible use of AI in [Microsoft 365 Copilot Tuning](../copilot-tuning-overview.md).
 
-[!INCLUDE [copilot-tuning-preview](includes/copilot-tuning-preview.md)]
+[!INCLUDE [copilot-tuning-preview](../includes/copilot-tuning-preview.md)]
 
 ## What is Copilot Tuning?
 
@@ -79,8 +79,8 @@ After using Copilot Tuning to create a task-specific, organization-specific agen
 
 ## Related content
 
-- [Transparency Note for Microsoft 365 Copilot](microsoft-365-copilot-transparency-note.md)
-- [Microsoft 365 Copilot Tuning overview (preview)](copilot-tuning-overview.md)
+- [Transparency Note for Microsoft 365 Copilot](../microsoft-365-copilot-transparency-note.md)
+- [Microsoft 365 Copilot Tuning overview (preview)](../copilot-tuning-overview.md)
 - [Microsoft AI principles](https://www.microsoft.com/ai/responsible-ai)
 - [Microsoft responsible AI resources](https://www.microsoft.com/ai/responsible-ai-resources)
 - [Microsoft Azure learning courses on responsible AI](/ai)
