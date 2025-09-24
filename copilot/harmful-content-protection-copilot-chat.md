@@ -44,14 +44,14 @@ When a harmful content protection policy is applied, users can adjust their harm
 
 ## How to configure harmful content protection settings
 
-1. Set up or identify a security group in Microsoft Entra ID. The group should only include users who need to disable harmful content protection, such as for investigation, legal review, law enforcement, or other scenarios.
+1. Set up or identify a security group in Microsoft Entra ID. The group should only include users who need to disable harmful content protection for certain scenarios, such as investigation, law enforcement, legal review, or similar use cases.
 
    To get help with your security group, see [Learn about group types, membership types, and access management](/entra/fundamentals/concept-learn-about-groups).
 
 2. As an Office Apps Administrator (or Global Administrator), sign into the [Microsoft 365 Apps admin center](https://config.office.com).
 
    > [!IMPORTANT]
-   > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+   > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. [Learn more about administrator roles](/microsoft-365/admin/add-users/about-admin-roles).
 
 3. In the navigation pane, select **Customization**.
 
