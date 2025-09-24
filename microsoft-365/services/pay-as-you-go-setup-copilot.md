@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: jtremper
 ms.reviewer: siruvanti
-ms.date: 09/17/2025
+ms.date: 09/18/2025
 audience: admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
@@ -23,22 +23,20 @@ This article explains how to set up or disconnect pay-as-you-go billing for agen
 
 Before you begin, ensure the following:
 
+- The tenant has at least one SharePoint license, or a license that includes SharePoint.
+
 - You have an Azure subscription in the same tenant as Microsoft 365.
 
 - You have an Azure resource group in that subscription.
 
 - You have one of the following Microsoft 365 administrator roles:
 
-    - Global administrator
-    - Billing administrator
-    - AI administrator
-
-    To learn more about these roles, see [Microsoft 365 admin roles](/microsoft-365/admin/add-users/about-admin-roles).
-
-<!---
-    - [SharePoint Administrator](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator) for accessing the Microsoft 365 admin center.
-    - Owner or Contributor rights to the Azure subscription and resource group.
---->
+    - [Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator)
+    - [Billing Administrator](/entra/identity/role-based-access-control/permissions-reference?#billing-administrator)
+    - [AI Administrator](/entra/identity/role-based-access-control/permissions-reference?#ai-administrator)
+    
+    > [!IMPORTANT]
+    > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## Set up pay-as-you-go billing
 
