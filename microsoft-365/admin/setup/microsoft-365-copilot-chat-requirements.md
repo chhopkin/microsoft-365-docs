@@ -33,7 +33,7 @@ This document outlines the minimum technical and licensing requirements for usin
 For information on minimum requirements for the Microsoft 365 Copilot add-on license, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](/copilot/microsoft-365/microsoft-365-copilot-min-reqs).
 
 ## Licensing requirements
-Copilot Chat is available at no additional cost for Microsoft Entra account users with one of the following licenses:
+Before your users can use Microsoft Copilot Chat, they must have one of the following subscriptions or plans: 
 - Microsoft 365 A1/A3/A5 (including MA3/MA5 for students, MA3/MA5 for faculty, and MA3/MA5 student-use benefit)
 - Microsoft 365 Business Basic/Business Standard/Business Premium
 - Microsoft 365 E3/E5
@@ -50,6 +50,9 @@ For more detailed information about licenses that include Copilot Chat, see [Mic
 
 ## Network requirements
 Microsoft 365 Copilot enables AI scenarios that access the web, so it may need to connect to specific network endpoints (domains). See the [full documentation of network requirements for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-requirements#network-requirements), which provides a complete list of domains and WebSockets (WSS) that an organization's network shouldn't block.  
+
+## Sign-in requirements
+Before your users can use Microsoft Copilot Chat, they must have a Microsoft Entra ID (Azure AD) account. 
 
 ## Operating system requirements
 - Windows 11
