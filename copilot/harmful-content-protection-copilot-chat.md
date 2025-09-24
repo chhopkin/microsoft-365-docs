@@ -5,7 +5,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 ms.reviewer: nsiu
-ms.date: 09/23/2025
+ms.date: 09/24/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: article
@@ -46,7 +46,10 @@ When a harmful content protection policy is applied, users can adjust their harm
 
 1. Set up a security group in Microsoft Entra ID. See [Learn about group types, membership types, and access management](/entra/fundamentals/concept-learn-about-groups).
 
-2. As an AI Administrator, sign into the Microsoft 365 Apps admin center.
+2. As an Global Administrator or Office Apps Administrator, sign into the Microsoft 365 Apps admin center.
+
+   > [!IMPORTANT]
+   > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 3. In the navigation pane, select **Customization**.
 
