@@ -44,6 +44,8 @@ When a harmful content protection policy is applied, users can adjust their harm
 
 ## How to configure harmful content protection settings
 
+CAUTION: When harmful content protection is turned off, Microsoft 365 Copilot Chat responses could include sensitive or potentially offensive content that violates the [Microsoft Generative AI Services Code of Conduct](https://learn.microsoft.com/en-us/legal/ai-code-of-conduct). 
+
 1. Set up or identify a security group in Microsoft Entra ID. The group should only include users who need to disable harmful content protection for certain scenarios, such as investigation, law enforcement, legal review, or similar use cases.
 
    To get help with your security group, see [Learn about group types, membership types, and access management](/entra/fundamentals/concept-learn-about-groups).
