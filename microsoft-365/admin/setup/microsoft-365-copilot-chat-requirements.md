@@ -26,9 +26,11 @@ appliesto:
 
 [Microsoft 365 Copilot Chat](/copilot/overview) is an AI chat tool that is included in your Microsoft 365 subscription and is integrated into Microsoft 365 apps such as Word, Excel, Outlook, and Teams. It uses the latest AI models and data from the web to answer your questions, generate content and ideas, and find information. Since it is included in your Microsoft 365 subscription, it is the entry point into the Microsoft 365 Copilot experience.
 
-This document outlines the minimum technical and licensing requirements for using Microsoft 365 Copilot Chat in your organization. It additionally includes considerations admins need to be aware of, such as security, management, and resoures to help train your users.
+Add image here^^^
 
-For information on minimum requirements for the Microsoft 365 Copilot add-on license, see Microsoft 365 Copilot min requirements.
+This document outlines the minimum technical and licensing requirements for using Microsoft 365 Copilot Chat in your organization. It additionally includes considerations admins need to be aware of, such as security, management, and resources to help train your users.
+
+For information on minimum requirements for the Microsoft 365 Copilot add-on license, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](/copilot/microsoft-365/microsoft-365-copilot-min-reqs).
 
 ## Licensing requirements
 Copilot Chat is available at no additional cost for Microsoft Entra account users with one of the following licenses:
@@ -49,16 +51,19 @@ For more detailed information about licenses that include Copilot Chat, see [Mic
 ## Network requirements
 Microsoft 365 Copilot enables AI scenarios that access the web, so it may need to connect to specific network endpoints (domains). See the [full documentation of network requirements for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-requirements#network-requirements), which provides a complete list of domains and WebSockets (WSS) that an organization's network shouldn't block.  
 
-### Operating system requirements
+## Operating system requirements
 - Windows 11
 - macOS 14.0 (Sonoma) or later 
+> [!NOTE]
+> Make sure you're on the latest supported operating system version.
 
-### Mobile device requirements 
+
+## Mobile device requirements 
 - iPhone: iOS 16.0 or later 
 - iPad: iPadOS 16.0 or later 
 - Android: Android 8.0 (API level 26) or higher.
 
-### Browser requirements 
+## Browser requirements 
 Any modern browser with third-party cookies enabled for online apps. Recommended browsers are:
 - Microsoft Edge (recommended for best compatibility and performance) 
 - Google Chrome 
@@ -68,20 +73,18 @@ Any modern browser with third-party cookies enabled for online apps. Recommended
 For more information about recommended browsers, see [Which browsers work with Microsoft 365 for the web and Microsoft 365 Add-ins](https://support.microsoft.com/office/which-browsers-work-with-microsoft-365-for-the-web-and-microsoft-365-add-ins-ad1303e0-a318-47aa-b409-d3a5eb44e452).
 
 
-## How do user access Copilot Chat
+## User access to Copilot Chat
 
 Microsoft 365 users can access Copilot Chat from:
 
-- Web: [m365copilot.com](https://m365copilot.com/)
-  - Users with Copilot Chat pinned in the Microsoft 365 Copilot app are redirected to m365.cloud.microsoft/chat. If not, they're redirected to copilot.cloud.microsoft. Get more details on how to pin Copilot Chat.
-- App: Microsoft 365 Copilot app (formerly the Microsoft 365 app), Teams, and Outlook
-  - Available for web, desktop, iOS, and Android
-  - To access Copilot Chat in the Microsoft 365 Copilot app, Teams, and Outlook, ensure that it's pinned to the navigation bar. Get more details on [how to pin Copilot Chat](/copilot/microsoft-365/pin-copilot).
+- Web: Go to [m365copilot.com](https://m365copilot.com/)
+- App: Download the Microsoft 365 Copilot app from the Microsoft Store.
 - Browser: Copilot in Microsoft Edge 
   - Users can access Copilot Chat through the Copilot icon in the Edge browser UI when they're signed in with their Entra account.
   - Users can [modify this permission](/copilot/manage#manage--chat-in-edge) by going to **Microsoft Edge > Settings > Sidebar > Copilot**, and then turning on or off the **Allow Microsoft to access page content** toggle. 
-- Word, Excel, and PowerPoint
-  - In Word, Excel, and PowerPoint, Copilot Chat is automatically pinned in the toolbar.
+- Microsoft 365 apps 
+  - In Word, Excel, OneNote, Outlook, and PowerPoint, Copilot Chat is automatically pinned in the toolbar.
+  - For more details, see [Use Copilot Chat in Microsoft 365 apps](https://support.microsoft.com/topic/use-copilot-chat-in-microsoft-365-apps-676db5e8-9568-4bdb-bf0b-e207e29e056b).
 
 ## Security and Trust
 
