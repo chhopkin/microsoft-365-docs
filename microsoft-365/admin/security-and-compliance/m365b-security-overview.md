@@ -142,7 +142,7 @@ For more information, see [Overview of Basic Mobility and Security for Microsoft
   - [Microsoft Defender for Office 365 Plan 2](/defender-office-365/mdo-about#defender-for-office-365-plan-1-vs-plan-2-cheat-sheet)
   - [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps)
 
-  For more information, see [Add Microsoft Defender Suite for Business Premium to your Microsoft 365 Business Premium subscription](m365bp-add-m365e5s.md).
+  For more information, see [Add Microsoft Defender Suite for Business Premium to your Microsoft 365 Business Premium subscription](add-defender-suite-business-premium.md).
 
 ## See also
 
