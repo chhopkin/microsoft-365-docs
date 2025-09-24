@@ -77,6 +77,8 @@ items:
     href: pin-copilot-chat-navbar.md
   - name: Copilot in Microsoft 365 admin centers
     href: copilot-for-microsoft-365-admin.md
+  - name: Connect to Anthropic's AI models
+    href: connect-to-ai-models.md    
   - name: Multiple account access for work and school documents
     href: multiple-account-access.md
   - name: Manage prompts
