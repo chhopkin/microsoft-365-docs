@@ -3,7 +3,7 @@ title: "Set up your network for Microsoft 365"
 ms.author: kvice
 author: kelleyvice-msft
 manager: scotv
-ms.date: 06/27/2024
+ms.date: 09/23/2025
 audience: ITPro
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-enterprise
@@ -21,7 +21,6 @@ f1.keywords:
 ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
-ms.assetid: 
 description: Find links to articles with information to help you set up your network for Microsoft 365, including a network connectivity overview and list of endpoints.
 ---
 
