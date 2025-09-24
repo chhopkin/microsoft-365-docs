@@ -37,6 +37,8 @@ To enable the setting, in the Microsoft 365 Admin Center, sign in with the **Tea
 
 :::image type="content" source="../../media/enable-dev-analytics/enable-dev-analytics-flyout.png" alt-text="Image of the flyout pane where you can enable the setting":::
 
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
+
 ## How will this setting affect admins and their organization?
 
 By default, the **App usage for custom apps** setting is disabled. When you enable this setting, enterprise developers are provided with better insights into the performance and user engagement of custom apps, helping them make informed decisions about app improvements. If this setting is disabled, developers may be prevented from understanding app usage and other insights, causing disruptive change to their workflow.

@@ -15,7 +15,9 @@ ms.collection:
 - magic-ai-copilot
 - essentials-overview
 - operations-pod
-ms.custom: [copilot-learning-hub]
+ms.custom: 
+- [copilot-learning-hub]
+- GAUpdates
 appliesto:
 - ✅ Microsoft 365 Copilot
 ms.date: 06/16/2025
@@ -49,7 +51,6 @@ The following administrator roles in the [Microsoft 365 admin center](https://ad
 
 - Global administrator
 - Billing administrator
-
 - AI administrator
 - Global reader (read-only access)
 
@@ -93,6 +94,8 @@ The following conditions apply when managing billing policies:
 ### Process for new feature releases
 
 In the future, new features using pay-as-you-go billing are announced in a [message center](/microsoft-365/admin/manage/message-center) post. When the features become available, users in your organization can take advantage of those capabilities. Pay-as-you-go billing is disabled by default. A global admin or owner to the subscription can enable or disable Microsoft 365 pay-as-you-go features in the [Microsoft 365 admin center](https://admin.microsoft.com).
+
+[!INCLUDE [global-administrator-note](../../microsoft-365/includes/global-administrator-note.md)]
 
 ## Pricing details
 
