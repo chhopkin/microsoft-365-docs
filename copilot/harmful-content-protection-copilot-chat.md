@@ -40,13 +40,13 @@ When a harmful content protection policy is applied, users can adjust their harm
 - When this setting is *disabled*, the user can query on harmful content within the context of that conversation. In this case, the user might see sensitive or potentially offensive content related to their queries.
 - Once harmful content protection is disabled in a conversation in Microsoft 365 Copilot Chat, it can't be re-enabled until a new conversation is started. 
 - Regardless of whether harmful content protection is enabled or disabled, [Responsible AI governance](https://www.microsoft.com/en-us/ai/principles-and-approach), including prompt injection defense, copyright safeguards, and image protections continue to be enforced.
-- Harmful content protection settings don't affect images or agents.
+- If harmful content protection is disabled, it doesn't affect images or agents.
 
 ## How to configure harmful content protection settings
 
 1. Set up a security group in Microsoft Entra ID. See [Learn about group types, membership types, and access management](/entra/fundamentals/concept-learn-about-groups).
 
-2. As an Global Administrator or Office Apps Administrator, sign into the Microsoft 365 Apps admin center.
+2. As an Global Administrator or Office Apps Administrator, sign into the [Microsoft 365 Apps admin center](https://config.office.com).
 
    > [!IMPORTANT]
    > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
