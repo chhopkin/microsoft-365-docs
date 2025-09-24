@@ -3,7 +3,7 @@ title: Join or leave a multitenant organization in Microsoft 365
 ms.author: kvice
 author: kelleyvice-msft
 manager: scotv
-ms.date: 06/24/2024
+ms.date: 09/24/2025
 audience: ITPro
 ms.topic: how-to
 ms.service: microsoft-365-enterprise
@@ -102,7 +102,7 @@ To remove your users from other tenants in a multitenant organization:
 1. Select **Cross-tenant synchronization**.
 1. Select **Configurations**.
 1. Select the link for the configuration you want to update.
-1. Select **Users and groups**
+1. Select **Users and groups**.
 1. Select the check boxes for the security groups that you want to remove, and then select **Remove**.
 1. Select **Overview**.
 1. Select **Restart provisioning**.
