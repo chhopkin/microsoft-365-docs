@@ -12,7 +12,7 @@ ms.subservice: app-builder
 ms.custom: 
   - transparency-note
 ---
-# FAQ for App Builder in Microsoft 365 Copilot
+# Responsible AI FAQs for App Builder
 
 These frequently asked questions (FAQ) describe the AI impact of App Builder in Microsoft 365 Copilot.
 
