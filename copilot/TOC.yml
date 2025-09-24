@@ -223,5 +223,5 @@ items:
   items:
   - name: Overview
     href: responsible-ai/responsible-ai-overview.md
-  - name: FAQ for App Builder in Microsoft 365 Copilot
+  - name: FAQ for App Builder
     href: responsible-ai/faq-app-builder.md
