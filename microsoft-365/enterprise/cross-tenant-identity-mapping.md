@@ -8,7 +8,6 @@ ms.service: microsoft-365-enterprise
 ms.subservice: multi-tenant
 ms.topic: upgrade-and-migration-article
 ms.date: 07/18/2022
-ms.service: microsoft-365-enterprise
 ms.custom: template-overview
 ---
 
