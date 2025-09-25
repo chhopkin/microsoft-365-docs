@@ -38,8 +38,6 @@ As you probably already know, [Microsoft 365 Business Premium](m365bp-security-b
 
 You can now extend the security capabilities you have in Microsoft 365 Business Premium by adding Microsoft Defender Suite for Business Premium to your subscription. Adding Microsoft Defender Suite for Business Premium to Microsoft 365 Business Premium provides your business with even more protection in a cost-effective solution.
 
-**See the [Tech Community Blog: Microsoft Defender Suite for Business Premium is now available as an add-on to Microsoft 365 Business Premium](https://aka.ms/BusinessPremiumPlusE5SecurityBlog).**
-
 ### Microsoft Defender Suite for Business Premium at a glance
 
 Microsoft Defender Suite for Business Premium up levels your Microsoft 365 Business Premium security capabilities with:
