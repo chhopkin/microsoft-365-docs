@@ -7,11 +7,11 @@ items:
   items:
   - name: Copilot Control System overview
     href: copilot-control-system/overview.md
-  - name: Security & governance
+  - name: Security and governance
     href: copilot-control-system/security-governance.md
   - name: Management controls
     href: copilot-control-system/management-controls.md
-  - name: Measurement & reporting
+  - name: Measurement and reporting
     href: copilot-control-system/measurement-reporting.md
 - name: Get started with Microsoft 365 Copilot
   items:
