@@ -490,8 +490,8 @@ items:
             href: security-and-compliance/m365bp-security-benefits.md
           - name: Monitor Microsoft 365 Business Premium and Defender for Business
             href: security-and-compliance/m365bp-security-monitor.md
-          - name: Add Microsoft 365 E5 Security to Microsoft 365 Business Premium
-            href: security-and-compliance/m365bp-add-m365e5s.md
+          - name: Add Microsoft Defender Suite for Business Premium to your subscription
+            href: security-and-compliance/add-defender-suite-business-premium.md
           - name: Secure Microsoft 365 Copilot for small businesses
             href: security-and-compliance/m365b-copilot-security.md
           - name: GDPR simplified - A guide for your small business
