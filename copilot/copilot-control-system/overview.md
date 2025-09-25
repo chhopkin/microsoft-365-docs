@@ -1,6 +1,7 @@
 ---
-title: "Copilot Control System overview"
+title: "Copilot Control System Overview"
 description: "Learn about the Copilot Control System framework to secure, manage, and measure Microsoft 365 Copilot, Copilot Chat, Copilot Studio, and agents in your organization."
+#customer intent: As an IT admin, I want to understand the Copilot Control System framework so that I can secure, manage, and measure Microsoft 365 Copilot and agents in my organization.
 author: aczechowski
 ms.author: aaroncz
 manager: dansimp
@@ -21,7 +22,7 @@ It provides a governance structure for the use of:
 - Microsoft 365 prebuilt agents
 - Agents your organization creates in Microsoft Copilot Studio and publish to Microsoft 365 channels
 
-:::image type="content" source="media/copilot-control-system-overview.png" alt-text="A diagram of the Copilot Control System framework showing the three pillars.":::
+:::image type="content" source="media/copilot-control-system-overview.png" alt-text="A diagram of the Copilot Control System framework showing the three pillars and key capabilities.":::
 
 The Copilot Control System consists of three main pillars:
 

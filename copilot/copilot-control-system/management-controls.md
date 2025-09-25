@@ -1,6 +1,7 @@
 ---
-title: "Management controls in Copilot Control System"
-description: "Learn how to use the Copilot Control System framework to manage licensing, agent lifecycle, and customize  management controls for Microsoft 365 Copilot and agents."
+title: "Copilot Control System Management Controls"
+description: "Learn how to use the Copilot Control System framework to manage licensing, agent lifecycle, and customize management controls for Microsoft 365 Copilot and agents."
+#customer intent: As an IT admin, I want to manage Microsoft 365 Copilot licenses, agents, and usage so that I can control costs and ensure efficient deployment.
 author: aczechowski
 ms.author: aaroncz
 manager: dansimp
@@ -10,7 +11,8 @@ ms.topic: solution-overview
 ms.date: 09/24/2025
 ---
 
-# Management controls in Copilot Control System
+
+# Copilot Control System management controls
 
 Copilot Control System management controls help you decide how to deploy and customize your Microsoft 365 Copilot licenses and agents to fit your organization's unique needs. You can find Copilot and agent management controls mainly in the [Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview), [Power Platform admin center](/power-platform/admin/), and [Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
 

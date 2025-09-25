@@ -1,6 +1,7 @@
 ---
-title: "Measurement and reporting in Copilot Control System"
-description: "Learn how to measure adoption, productivity impact, and business value using Copilot Control System reporting for Microsoft 365 Copilot and agents."
+title: "Copilot Control System Measurement and Reporting"
+description: "Measure Microsoft 365 Copilot adoption, productivity impact, and ROI with Copilot Control System and Copilot Analytics reporting tools. Track usage trends and business value."
+#customer intent: As an IT admin, I want to measure the adoption of Microsoft 365 Copilot so that I can track usage trends and manage license assignments effectively.
 author: aczechowski
 ms.author: aaroncz
 manager: dansimp
@@ -10,7 +11,8 @@ ms.topic: solution-overview
 ms.date: 09/24/2025
 ---
 
-# Measurement and reporting in Copilot Control System
+
+# Copilot Control System measurement and reporting
 
 Copilot Control System measurement and reporting capabilities help you understand the adoption and business impact of Microsoft 365 Copilot, Copilot Chat, and agents. These capabilities primarily come together as part of [Copilot Analytics](/viva/insights/copilot-analytics-introduction). The main component of Copilot Analytics is the [Copilot Dashboard](/viva/insights/org-team-insights/copilot-dashboard), which provides actionable insights. For example, by detailing Copilot actions across each Microsoft 365 app, you can determine user education needs and forecast future licensing requirements. You can also access advanced reporting tools in the [Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview), [Viva Insights](/viva/insights/advanced/introduction-to-advanced-insights), and the [Power Platform admin center](/power-platform/admin/).
 
@@ -53,7 +55,7 @@ They also provide operational metrics like agent billing, usage and spend rates,
 
 The following image shows a brief example of the **Adoption** tab of the Copilot Dashboard in Viva Insights:
 
-:::image type="content" source="media/viva-insights-copilot-dashboard-adoption.png" alt-text="Screenshot of the Microsoft Copilot Dashboard in Viva Insights, showing the Adoption tab." lightbox="media/viva-insights-copilot-dashboard-adoption-large.png":::
+:::image type="content" source="media/viva-insights-copilot-dashboard-adoption.png" alt-text="Screenshot of the Adoption tab on the Microsoft Copilot Dashboard in Viva Insights displaying both licensed and active users and adoption by group." lightbox="media/viva-insights-copilot-dashboard-adoption-large.png":::
 
 There's also a Copilot readiness report in the Microsoft 365 admin center. For more information, see [Microsoft 365 Copilot readiness report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness).
 

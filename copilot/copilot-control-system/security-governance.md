@@ -1,6 +1,7 @@
 ---
-title: "Security and governance in Copilot Control System"
+title: "Copilot Control System Security and Governance"
 description: "Learn how to implement data security, AI security, and compliance controls using the Copilot Control System framework for Microsoft 365 Copilot and agents."
+#customer intent: As an IT admin, I want to implement security and governance controls for Microsoft 365 Copilot, so that I can mitigate risks related to data security, compliance, and governance.
 author: aczechowski
 ms.author: aaroncz
 manager: dansimp
@@ -10,7 +11,8 @@ ms.topic: solution-overview
 ms.date: 09/24/2025
 ---
 
-# Security and governance in Copilot Control System
+
+# Copilot Control System security and governance
 
 When you implement Copilot and agents, you might face new and amplified risks related to data security, compliance, and governance. This security and governance framework helps you mitigate these issues in the following components:
 
