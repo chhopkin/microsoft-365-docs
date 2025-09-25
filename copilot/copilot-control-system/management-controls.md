@@ -100,7 +100,7 @@ Beyond the management controls already discussed in this article, use the **Copi
 
 - Use the **Settings** node to manage everything related to Copilot. You can access many of the controls previously mentioned in this article through shortcuts in this node. For more information on the other settings that are available, see [Manage Microsoft 365 Copilot scenarios in the Microsoft 365 admin center](../microsoft-365-copilot-page.md).
 
-- Enable your users to more quickly access Copilot on Windows and in Microsoft 365 apps by pinning those experiences. For more information, see [Pin Microsoft 365 Copilot app to the Windows Taskbar](/copilot/microsoft-365/pin-copilot-taskbar) and [Pin Microsoft 365 Copilot Chat in the Microsoft 365 apps](/copilot/microsoft-365/pin-copilot-chat-navbar).
+- Enable your users to more quickly access Copilot on Windows and in Microsoft 365 apps by pinning those experiences. For more information, see [Pin Microsoft 365 Copilot app to the Windows Taskbar](../pin-copilot-taskbar.md) and [Pin Microsoft 365 Copilot Chat in the Microsoft 365 apps](../pin-copilot-chat-navbar.md).
 
 ## Related content
 

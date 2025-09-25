@@ -108,11 +108,11 @@ You also need to safeguard AI-powered tools and their associated data against ev
 
 Copilot already includes built-in protections against AI-based attacks. These protections include, but aren't limited to, the following protections:
 
-- [Block prompt injection attacks](/copilot/microsoft-365/microsoft-365-copilot-privacy)
+- [Block prompt injection attacks](../microsoft-365-copilot-privacy.md#does-copilot-block-prompt-injections-jailbreak-attacks)
 
-- [Block harmful content](/copilot/microsoft-365/microsoft-365-copilot-privacy)
+- [Block harmful content](../microsoft-365-copilot-privacy.md#how-does-copilot-block-harmful-content)
 
-- [Detect protected material](/copilot/microsoft-365/microsoft-365-copilot-privacy)
+- [Detect protected material](../microsoft-365-copilot-privacy.md#does-copilot-provide-protected-material-detection)
 
 In SharePoint Advanced Management, you get the following foundational AI security controls:
 
