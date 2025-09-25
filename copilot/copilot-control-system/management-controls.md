@@ -7,12 +7,12 @@ manager: dansimp
 ms.reviewer: bensum
 ms.service: microsoft-365-copilot
 ms.topic: solution-overview
-ms.date: 08/14/2025
+ms.date: 09/24/2025
 ---
 
 # Management controls in Copilot Control System
 
-Copilot Control System management controls help you decide how to deploy your Microsoft 365 Copilot licenses and agents to fit your organization's unique needs. You can find Copilot and agent management controls mainly in the [Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview), [Power Platform admin center](/power-platform/admin/), and [Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
+Copilot Control System management controls help you decide how to deploy and customize your Microsoft 365 Copilot licenses and agents to fit your organization's unique needs. You can find Copilot and agent management controls mainly in the [Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview), [Power Platform admin center](/power-platform/admin/), and [Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
 
 :::image type="content" source="media/management-controls.png" alt-text="A diagram of the Copilot Control System framework highlighting the Management Controls pillar.":::
 
@@ -31,7 +31,7 @@ The management controls pillar of the Copilot Control System focuses on the foll
 
 ## Licensing and metering
 
-To ensure compliance with policies and usage limits, manage Microsoft 365 Copilot license assignment. You can also monitor message capacity for both prepaid and pay-as-you-go consumption.
+To manage the costs associated with deploying Copilot, your organization needs control over the deployment and usage of Microsoft 365 Copilot services. This capability includes controls for the use of per-user, per-month licenses and pay-as-you-go services. These pay-as-you-go services include license management, policies, and usage limits. You can also monitor message capacity for both prepaid and pay-as-you-go consumption.
 
 ### Copilot and Copilot chat in the Microsoft 365 admin center
 
@@ -54,11 +54,11 @@ For more information, see [Manage Copilot Studio messages and capacity](/power-p
 
 ## Agent lifecycle
 
-The system provides visibility into the status, governance, and lifecycle of agents. It lets you review agent details, approve, block, and manage usage. You can also control environmental routing, groups, and rules that support organizational policies.
+Copilot Control System provides visibility into the status, governance, and lifecycle of agents and connectors. It lets you manage Copilot agents and connectors from initial deployment to ongoing governance and eventual retirement. It outlines processes for managing and controlling connectors, establishing rules for agent sharing and coauthoring, configuring Data Loss Prevention (DLP) policies to restrict publishing, and defining lifecycle approval workflows. When you manage the use of agents, you help your organization maintain security, compliance, and operational efficiency throughout the entire agent lifecycle.
 
-### Manage connectors and actions
+### Manage connectors
 
-- **Enable or block specific connectors and actions** in the Microsoft 365 admin center. You can control which plugins like Copilot Studio and Power Automate are available to users. For more information, see [Deploy and enable actions in Copilot Studio](/microsoft-copilot-studio/copilot-plugins-enable-admin).
+- **Enable or block specific connectors** in the Microsoft 365 admin center. You can control which Microsoft Copilot connectors are available to users.
 
 - **Review connector access permissions** to ensure they align with your organization's visibility model. For more information, see [Review and manage access permissions in Microsoft Copilot connectors](/microsoftsearch/manage-access-permissions).
 
@@ -72,7 +72,7 @@ The system provides visibility into the status, governance, and lifecycle of age
 
 ### Disable publish by blocking certain channels
 
-- **Use Data Loss Prevention (DLP) policies** to block publishing agents through Copilot Studio supported channels. For more information, see [Configure data loss prevention policies for agents](/microsoft-copilot-studio/admin-data-loss-prevention).
+- **Use Data Loss Prevention (DLP) policies** in Copilot Studio to block publishing agents through Copilot Studio supported channels. For more information, see [Configure data loss prevention policies for agents](/microsoft-copilot-studio/admin-data-loss-prevention).
 
 ### Define a lifecycle process to approve agents for production
 
@@ -80,13 +80,7 @@ The system provides visibility into the status, governance, and lifecycle of age
 
 ### Manage agent capabilities, data sources, and custom actions
 
-- **Extend agent capabilities** with the following tools:
-  - Code interpreter
-  - Image generator
-  - Connectors
-  - Knowledge sources like SharePoint, OneDrive, and web search
-
-  For more information, see [Add knowledge sources to your declarative agent](/microsoft-365-copilot/extensibility/knowledge-sources).
+- **Extend agent capabilities** with code interpreter, image generator, connectors, and knowledge sources. Some knowledge sources include SharePoint, OneDrive, and web search. For more information, see [Add knowledge sources to your declarative agent](/microsoft-365-copilot/extensibility/knowledge-sources).
 
 - **Use standard, premium, or custom connectors** to integrate external services and APIs. For more information, see [Use connectors in Copilot Studio](/microsoft-copilot-studio/advanced-connectors).
 
@@ -105,6 +99,8 @@ Beyond the management controls already discussed in this article, use the **Copi
 - Use the **Search** node to manage Copilot Search. You can specify organization-specific acronyms and websites that appear in search results. For more information, see [Microsoft 365 Copilot Search admin experience](../microsoft-365-copilot-search-admin-experience.md).
 
 - Use the **Settings** node to manage everything related to Copilot. You can access many of the controls previously mentioned in this article through shortcuts in this node. For more information on the other settings that are available, see [Manage Microsoft 365 Copilot scenarios in the Microsoft 365 admin center](../microsoft-365-copilot-page.md).
+
+- Enable your users to more quickly access Copilot on Windows and in Microsoft 365 apps by pinning those experiences. For more information, see [Pin Microsoft 365 Copilot app to the Windows Taskbar](/copilot/microsoft-365/pin-copilot-taskbar) and [Pin Microsoft 365 Copilot Chat in the Microsoft 365 apps](/copilot/microsoft-365/pin-copilot-chat-navbar).
 
 ## Related content
 

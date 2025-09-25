@@ -7,12 +7,19 @@ manager: dansimp
 ms.reviewer: bensum
 ms.service: microsoft-365-copilot
 ms.topic: solution-overview
-ms.date: 08/14/2025
+ms.date: 09/24/2025
 ---
 
 # Copilot Control System overview
 
-The Copilot Control System is a framework of integrated controls and capabilities for Copilot and agents. Use it to help secure data, manage Copilot and agent experiences, and measure and analyze adoption and impact across your organization. It provides a governance structure for the use of Microsoft 365 Copilot, Copilot Chat, Microsoft Copilot Studio, and agents in your enterprise.
+The Copilot Control System is a framework of integrated controls and capabilities for Microsoft 365 Copilot and agents. Use it to help secure data that Copilot and agents create or reference, manage Copilot and agent experiences, and measure and analyze adoption and impact across your organization.
+
+It provides a governance structure for the use of:
+
+- Microsoft 365 Copilot
+- Copilot Chat
+- Microsoft 365 prebuilt agents
+- Agents your organization creates in Microsoft Copilot Studio and publish to Microsoft 365 channels
 
 :::image type="content" source="media/copilot-control-system-overview.png" alt-text="A diagram of the Copilot Control System framework showing the three pillars.":::
 
@@ -23,75 +30,57 @@ The Copilot Control System consists of three main pillars:
 - Measurement and reporting
 
 > [!TIP]
-> As a framework, Copilot Control System is a conceptual model for how to structure your organization's approach to AI. These articles provide an overview and key points for each pillar, which then link out to supporting content with more detailed information and implementation instructions.
-
-## Prerequisites
-
-> *If this section is needed, make Prerequisites your first H2 in the article. Use clear and unambiguous language and use an unordered list format.*
-
-> Link out to upcoming minimum requirements articles for Copilot Chat, M365 Copilot, and agents.
+> These articles provide an overview and key points for each pillar, which then link out to supporting content with more detailed information and implementation instructions.
 
 ## Key capabilities
 
-The following table outlines the key capabilities of each pillar of the Copilot Control System. It also includes the primary components that you use to support each pillar.
+## Security and governance
 
-| Pillar | Capabilities | Components |
-|---------|---------|---------|
-| [Security and governance](security-governance.md) | - Data security<br>- AI security<br>- Compliance and privacy | - SharePoint Advanced Management<br>- Microsoft Purview<br>- Microsoft Defender for Cloud Apps |
-| [Management controls](management-controls.md) | - Licensing and metering<br>- Agent lifecycle<br>- Customization | - Microsoft 365 admin center<br>- Power Platform admin Center<br>- Copilot Studio |
-| [Measurement and reporting](measurement-reporting.md) | - Readiness and adoption<br>- Productivity impact<br>- Business value and return on investment (ROI) | - Copilot Analytics in Microsoft Viva<br>- Microsoft 365 admin center<br>- Power Platform admin Center |
+When you implement Copilot and agents, you might face new and amplified risks related to data security, compliance, and governance. This security and governance framework helps you mitigate these issues.
 
-## Process overview
+The security and governance pillar of the Copilot Control System focuses on the following key capabilities:
 
-> *Required: Process overview (H2)*
->
-> *Use an H2 section to introduce the steps that are needed to get going with the solution. Use H3s to describe steps to set up/configure the solution.*
->
-> Do we include this? Do we include links? Do we move each main step to the top of the pillar articles with links to subsections? 🤔
+- Data security
+- AI security
+- Compliance and privacy
 
-### Step 1: Security and governance actions
+For more information, see [Security and governance](security-governance.md).
 
-1. Prepare and secure your data.
-    1. Use SharePoint Advanced Management to reduce potential oversharing.
-    1. Implement data protection with Microsoft Purview.
-1. Protect your organization against AI-based attacks.
-    1. Understand the protections built-in to Copilot.
-    1. Use Microsoft Defender for Cloud Apps to detect suspicious behaviors.
-1. Create compliance plans.
-    1. Understand the compliance controls built-in to Copilot.
-    1. Use Purview to audit activity.
-    1. Create data retention policies in Purview.
+## Management controls
 
-For more information, see [Security & governance in Copilot Control System](security-governance.md).
+Copilot Control System management controls help you decide how to deploy your Microsoft 365 Copilot licenses and agents to fit your organization's unique needs. You can find Copilot and agent management controls mainly in the Microsoft 365 admin center, Power Platform admin center, and Copilot Studio.
 
-### Step 2: Deploy and manage Copilot controls
+The management controls pillar of the Copilot Control System focuses on the following key capabilities:
 
-1. Develop and implement your licensing plan.
-    1. Use the Microsoft 365 admin center to assign licenses.
-    1. Meter license usage.
-    1. Configure pay-as-you-go billing.
-1. Manage agents for your organization.
-    1. Use the Microsoft 365 admin center to review agent details: approve, block, and manage usage.
-    1. Review agent consumption.
+- Licensing and metering
+- Agent lifecycle
+- Customization
 
-For more information, see [Management controls in Copilot Control System](management-controls.md).
+For more information, see [Management controls](management-controls.md).
 
-### Step 3: Understand adoption and business impact
+## Measurement and reporting
 
-1. 
+Copilot Control System measurement and reporting capabilities help you understand adoption and business impact. These capabilities primarily come together as part of Copilot Analytics.
 
-For more information, see [Measurement & reporting in Copilot Control System](measurement-reporting.md).
+The measurement and reporting pillar of the Copilot Control System focuses on the following key capabilities:
+
+- Readiness and adoption
+- Productivity impact
+- Business value and return on investment (ROI)
+
+For more information, see [Measurement and reporting](measurement-reporting.md).
 
 ## End user guidance and support
 
-[Microsoft Support](https://support.microsoft.com/copilot-skilling) offers many resources to help you get your entire organization on board and help users adopt the new processes. You'll find short videos, articles specific to each Microsoft 365 app, AI prompting information, and other training resources.
+[Microsoft Support](https://support.microsoft.com/copilot-skilling) offers many resources to help you get your entire organization on board and help users adopt these processes. You'll find short videos, articles specific to each Microsoft 365 app, AI prompting information, and other training resources.
 
 For more information, see [Microsoft 365 Copilot help & learning](https://support.microsoft.com/copilot-skilling).
 
 ## Related content
 
-- [Security and governance](security-governance.md)
-- [Management controls](management-controls.md)
-- [Measurement and reporting](measurement-reporting.md)
+- Copilot Control System pillars:
+  - [Security and governance](security-governance.md)
+  - [Management controls](management-controls.md)
+  - [Measurement and reporting](measurement-reporting.md)
 - [Copilot Control System - Microsoft Adoption](https://adoption.microsoft.com/copilot/control-system/)
 - [Transparency note for Microsoft 365 Copilot](../microsoft-365-copilot-transparency-note.md)

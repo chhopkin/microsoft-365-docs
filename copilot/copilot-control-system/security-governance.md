@@ -7,23 +7,23 @@ manager: dansimp
 ms.reviewer: bensum
 ms.service: microsoft-365-copilot
 ms.topic: solution-overview
-ms.date: 08/14/2025
+ms.date: 09/24/2025
 ---
 
 # Security and governance in Copilot Control System
 
-When you implement AI, you face challenges related to data security, compliance, and specific risks associated with AI applications. The Copilot Control System security and governance framework helps you mitigate these issues in Microsoft 365 Copilot, Copilot Chat, Copilot Studio, and agents.
+When you implement Copilot and agents, you might face new and amplified risks related to data security, compliance, and governance. This security and governance framework helps you mitigate these issues in the following components:
 
-To enhance AI responses while controlling access to AI applications, you also need to:
-
-- Audit AI interactions
-- Adhere to regulatory requirements
-- Manage the use of web search data
+- Microsoft 365 Copilot
+- Copilot Chat
+- Microsoft 365 prebuilt agents
+- Agents created in Microsoft Copilot Studio and published to Microsoft 365 channels
 
 This article refers to *foundational* and *optimized* controls. In general, those terms refer to the following products and services:
 
-- The Microsoft 365 admin center provides many *foundational* controls for security and governance.
-- When you use [Microsoft Purview](/purview/ai-microsoft-purview) and [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps), they provide further *optimized* controls.
+- **Foundational**: controls for security and governance in the Microsoft 365 admin center, SharePoint Advanced Management, and Microsoft Purview with an A3/E3/G3 license.
+
+- **Optimized**: controls in Microsoft Purview and Microsoft Defender for Cloud Apps with an A5/E5/G5 license.
 
 :::image type="content" source="media/security-governance.png" alt-text="A diagram of the Copilot Control System framework highlighting the Security and Governance pillar.":::
 
@@ -42,51 +42,129 @@ The security and governance pillar of the Copilot Control System focuses on the 
 
 ## Data security
 
-[SharePoint Advanced Management](/sharepoint/advanced-management) is a foundational component for managing your organization's data. For example:
+First and foremost, safeguard your organization's information. Depending on your current licensing, use Microsoft Purview and SharePoint Advanced Management to assess oversharing risks. You can also use Microsoft Purview for policy recommendations and to take corrective actions. These actions help you to be confident that sensitive data remains protected, and access is limited to only those users who need it, including with Copilot and agents.
 
-- Use the SharePoint admin center to [initiate site access reviews for data access governance reports](/sharepoint/site-access-review).
+### Foundational data security controls
 
-- Use SharePoint Advanced Management built-in site governance tools to identify and reduce potential oversharing with [Data access governance reports for SharePoint sites](/sharepoint/data-access-governance-reports).
+In SharePoint Advanced Management and Microsoft Purview with an A3/E3/G3 license, you get the following foundational data security controls:
 
-- Protect Copilot responses and created documents with automatic inheritance of data classification.
+- Identify potentially overshared data across all of Microsoft 365.
 
-[Microsoft Purview](/purview/ai-microsoft-purview) provides an optimized experience by adding greater visibility and control. For example:
+  - [Data access governance reports for SharePoint sites](/sharepoint/data-access-governance-reports) let you identify overshared data for sites only.
 
-- Use Microsoft Purview to mitigate and manage the risks associated with AI usage, and implement protection and governance controls.
+  - Microsoft Purview [Data Security Posture Management (DSPM) for AI data risk assessments](/purview/ai-m365-copilot) let you identify overshared data for files and sites.
 
-  - Manage data and apply encryption with [Purview sensitivity labels](/purview/encryption-sensitivity-labels).
+- Remove organization-wide site access as needed.
 
-  - To exclude Copilot from processing specific files, use [Microsoft Purview Data Loss Prevention (DLP) policy locations](/purview/dlp-microsoft365-copilot-location-learn-about).
+  - Use SharePoint to manually configure this access or automate the configuration with Windows PowerShell. You don't need SharePoint Advanced Management for this control. For more information, see [Restrict SharePoint site access with Microsoft 365 Groups and Microsoft Entra security groups](/sharepoint/restricted-access-control).
 
-  - To restrict or block a user if the system detects a pattern of risky behavior, use [Microsoft Purview Insider Risk Management policy templates](/purview/insider-risk-management-policy-templates).
+  - Use Purview information protection site sensitivity labels. For more information, see [Use sensitivity labels with Microsoft Teams, Microsoft 365 Groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites).
+
+- Improve Copilot and agent responses by archiving or deleting unneeded content.
+
+  - [Manage inactive SharePoint sites using site lifecycle management](/sharepoint/site-lifecycle-management).
+
+  - Use [Purview Data Lifecycle Management](/purview/retention-policies-sharepoint) to identify and delete files you don't need.
+
+In Microsoft Purview with an A3/E3/G3 license, you get the following foundational data security controls:
+
+- Get notifications when new oversharing occurs with options for remediation. For more information, see [Purview Data Loss Prevention](/purview/dlp-learn-about-dlp).
+
+- Secure sensitive data through file level access controls. For more information, see [Apply encryption using Purview Information Protection sensitivity labels](/purview/encryption-sensitivity-labels).
+
+- View reports of sensitive data and unprotected files referenced in Copilot and agent interactions. For more information, see the reports in [Purview Data Security Posture Management (DSPM) for AI](/purview/ai-m365-copilot).
+
+- Use [Purview Information Protection sensitivity labels](/purview/sensitivity-labels) for the following controls:
+
+  - Detect when content contains sensitive data and ask the user to *manually* apply protections.
+
+  - Protect files even if a user moves or downloads them.
+
+### Optimized data security controls
+
+In Microsoft Purview with an A5/E5/G5 license, you get the following optimized data security controls:
+
+- Use [Purview data security posture management (DSPM) for AI](/purview/dspm-for-ai) for the following controls:
+
+  - Create oversharing assessments targeted to specific Microsoft 365 locations.
+
+  - Receive and act on policy suggestions to mitigate your specific oversharing risks.
+
+- To detect when content contains sensitive data and *automatically* apply protections, use [Purview information protection sensitivity labels](/purview/apply-sensitivity-label-automatically).
+
+- Use [Purview insider risk management](/purview/insider-risk-management) for the following controls:
+
+- Get alerted to risky user actions that deviate from their usual pattern of behavior. For more information, see [Insider Risk Management policy templates](/purview/insider-risk-management-policy-templates).
+
+- Correlate and sequence risk alerts to identify high severity risk patterns for a user. For more information, see [Insider Risk Management policies for sequence detection](/purview/insider-risk-management-policies).
+
+- Automatically add a user to more strict security policies based on their risk patterns. For more information, see [Adaptive protection for insider risk management](/purview/insider-risk-management-adaptive-protection).
 
 ## AI security
 
-Copilot already includes built-in protections against AI-based attacks, which include, but aren't limited to, the following protections:
+You also need to safeguard AI-powered tools and their associated data against evolving threats. The Copilot Control System provides controls to monitor, detect, and respond to AI-related risks. For example, oversharing of sensitive information, anomalous user behavior, and misuse of generative AI capabilities. Use these controls to ensure that AI integrations remain secure, compliant, and resilient against both internal and external threats.
 
-- [Block prompt injection attacks](../microsoft-365-copilot-privacy.md#does-copilot-block-prompt-injections-jailbreak-attacks)
-- [Block harmful content](../microsoft-365-copilot-privacy.md#how-does-copilot-block-harmful-content)
-- [Detect protected material](../microsoft-365-copilot-privacy.md#does-copilot-provide-protected-material-detection)
+### Foundational AI security controls
 
-Microsoft also provides foundational controls in Microsoft Entra to restrict which AI apps your users can access. For more information, see [Restrict a Microsoft Entra app to a set of users](/entra/identity-platform/howto-restrict-your-app-to-a-set-of-users).
+Copilot already includes built-in protections against AI-based attacks. These protections include, but aren't limited to, the following protections:
+
+- [Block prompt injection attacks](/copilot/microsoft-365/microsoft-365-copilot-privacy)
+
+- [Block harmful content](/copilot/microsoft-365/microsoft-365-copilot-privacy)
+
+- [Detect protected material](/copilot/microsoft-365/microsoft-365-copilot-privacy)
+
+In SharePoint Advanced Management, you get the following foundational AI security controls:
+
+- To restrict user, Copilot, and agent access to risky sites while remediating risks, use [SharePoint restricted content discovery](/sharepoint/restricted-content-discovery).
+
+In Microsoft Purview with an A3/E3/G3 license, you get the following foundational AI security controls:
+
+- To view prompt and response text and referenced files, search and export with [Purview eDiscovery](/purview/edisc).
+
+- For Copilot and agent responses and documents created by Copilot and agents to inherit sensitivity labels and protections, use [Purview Information Protection sensitivity labels](/purview/ai-m365-copilot).
+
+### Optimized AI security controls
+
+In Microsoft Purview with an A5/E5/G5 license, you get the following optimized AI security controls:
+
+- To prevent Copilot and agents from processing certain sensitive files and from using them in responses, use [Purview Data Loss Prevention for Microsoft 365 Copilot and agents](/purview/dlp-microsoft365-copilot-location-learn-about).
+
+- To get alerted to risky AI use, such as an attempted prompt injection attack or use of sensitive data, use [Purview Insider Risk Management](/purview/insider-risk-management-policy-templates).
+
+- To view prompt and response text, any web queries used during grounding, and referenced files use activity explorer in [Purview Data Security Posture Management for AI](/purview/dspm-for-ai-considerations).
 
 [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps) provides further optimized controls. These controls can help you detect suspicious interactions with Copilot. For example, is Copilot accessing sensitive data from a risky IP address. If necessary, Defender also provides highly detailed alerts to support investigations.
 
 ## Compliance and privacy
 
-Copilot provides foundational controls and visibility over web-grounded search. For more information, see [Data, privacy, and security for web search in Microsoft 365 Copilot and Microsoft 365 Copilot Chat](../manage-public-web-access.md).
+The third aspect of security and governance in the Copilot Control System is to ensure that you can monitor, audit, and manage how Copilot and agent interactions comply with regulatory and internal standards. Use Microsoft Purview to provide comprehensive oversight of Copilot activities. With these controls, you can protect sensitive information, maintain privacy, and demonstrate regulatory compliance when you deploy and use Microsoft 365 Copilot.
 
-Purview has both foundational and optimized controls to support your organization's compliance needs.
+### Foundational compliance and privacy controls
 
-- Purview *foundational* controls:
-  - To investigate user activity, [search the audit log](/purview/audit-search).
-  - Enforce [retention policies](/purview/retention-policies-copilot).
-  - Respond to litigation holds.
-  - Support defensible [eDiscovery](/purview/edisc) of AI interactions.
+In Microsoft Purview with an A3/E3/G3 license, you get the following foundational compliance and privacy controls:
 
-- Purview *optimized* controls:
-  - Provide alerts and [investigative tools for potential compliance and ethical violations](/purview/communication-compliance).
-  - Compliance templates to help you adhere to applicable regulations.
+- To audit Copilot and agent interactions, access detailed log information with [Purview Audit for Copilot and AI applications](/purview/audit-copilot).
+
+- To enforce retention and deletion policies for the following features, use [Purview Data Lifecycle Management](/purview/data-lifecycle-management):
+
+  - Microsoft 365 Copilot and agent interactions
+
+  - Microsoft Teams meeting recordings and transcripts
+
+- Use [Purview eDiscovery](/purview/edisc) for the following controls:
+
+  - Include a user's Copilot and agent prompts and responses in a legal hold. For more information, see [Holds and hold policies](/purview/edisc-features-components).
+
+  - Search for litigation or an investigation and include content that Copilot and agents generate.
+
+### Optimized compliance and privacy controls
+
+In Microsoft Purview with an A5/E5/G5 license, you get the following optimized compliance and privacy controls:
+
+- To receive an alert if a possible compliance or ethical violation occurs and then start an investigation, use [Purview communication compliance](/purview/communication-compliance).
+
+- To assess and track adherence to regulatory frameworks, use [Purview Compliance Manager](/purview/compliance-manager).
 
 ## Zero Trust
 
