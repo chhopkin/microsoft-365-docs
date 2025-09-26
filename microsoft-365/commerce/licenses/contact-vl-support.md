@@ -136,12 +136,12 @@ Use the information in the following tables to find the support number for your 
 |Luxembourg |8002 4248 (Toll Free) |08:00-17:00 Monday to Friday |French, German |
 |Netherlands |0800 0221871 (Toll Free) |08:30 - 18:00 Monday to Friday |English |
 |Norway |800 14956 (Toll Free) |08:30 - 17:00 Monday to Friday |English |
-|Poland |00 800 112 46 99 (Toll Free) |08:30 - 18:00 Monday to Friday |Polish |
+|Poland |00 800 112 46 99 (Toll Free) |08:30 - 18:00 Monday to Friday |English|
 |Portugal |800 849101 (Toll Free) |09:00 - 18:00 Monday to Friday |Portuguese |
 |Spain |900 994910 (Toll Free) |09:00 - 18:00 Monday to Friday |Spanish |
 |Sweden |020 797079 (Toll Free) |08:30 - 17:00 Monday to Friday |English |
 |Switzerland |0800 563564 (Toll Free) |08:00-17:00 Monday to Friday |French, German, Italian |
-|Türkiye |8503902777 |09:00 - 18:00 Monday to Friday |Turkish |
+|Türkiye |8503902777 |09:00 - 18:00 Monday to Friday |English|
 |United Kingdom |0800 9179016 (Toll Free) |08:00 - 18:00 Monday to Friday |English |
 
 ### Middle East and Africa
@@ -149,7 +149,7 @@ Use the information in the following tables to find the support number for your 
 |Country/Region |Toll Numbers |Hour of Operation |Languages Supported |
 |---------|---------|---------|---------|
 |All locations |International tolls to Germany might apply.<br/>+49 8924445143 (English)<br/>+49 8924445246 (French) |09:00 - 18:00 Monday to Friday |English, French |
-|Israel |180 9454040 (Toll Free) |08:00 - 18:00 Sunday to Thursday |Hebrew |
+|Israel |180 9454040 (Toll Free) |08:00 - 18:00 Sunday to Thursday |English|
 |South Africa |27800202725 |10:00 - 19:00 Monday to Friday |English |
 
 ### Americas
