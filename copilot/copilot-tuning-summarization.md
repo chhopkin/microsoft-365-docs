@@ -2,7 +2,7 @@
 title: Configure Copilot Tuning for document summarization
 author: mkbond007
 ms.author: mabond
-manager: dansimp
+manager: scotv
 ms.audience: ITPro
 ms.reviewer: robertode
 ms.date: 06/17/2025

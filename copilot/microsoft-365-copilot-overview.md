@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: efrene
 author: Efrene
 ms.update-cycle: 180-days
-manager: dansimp
+manager: scotv
 ms.date: 08/27/2025
 audience: Admin
 ms.reviewer: mandia

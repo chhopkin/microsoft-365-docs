@@ -4,7 +4,7 @@ description: This article describes some of the most common issues with the Micr
 author: kwekuako
 ms.author: kwekua
 ms.collection: operations-pod
-manager: dansimp
+manager: scotv
 ms.date: 06/17/2025
 audience: Admin
 ms.topic: troubleshooting-general

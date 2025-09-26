@@ -3,7 +3,7 @@ title: Configure Copilot Tuning for document generation
 author: kwekuako
 ms.author: kwekua
 ms.collection: operations-pod
-manager: dansimp
+manager: scotv
 ms.audience: ITPro
 ms.reviewer: jwolk
 ms.service: microsoft-365-copilot
