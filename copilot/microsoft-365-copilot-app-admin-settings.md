@@ -5,7 +5,7 @@ description: Learn how to configure Microsoft 365 Copilot app settings, includin
 author: aczechowski
 ms.author: aaroncz
 ms.reviewer: libbymc
-manager: dansimp
+manager: scotv
 ms.date: 09/16/2025
 ms.update-cycle: 180-days
 ms.topic: overview

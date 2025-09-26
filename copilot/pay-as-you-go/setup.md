@@ -3,7 +3,7 @@ title: Set up Microsoft 365 Copilot pay-as-you-go for IT admins
 description: Enterprise and company IT administrators can use the Microsoft 365 admin center to set up the Microsoft 365 Copilot pay-as-you-go feature. Get step-by-step instructions on setting up a billing policy, connecting the billing policy to the pay-as-you-go Copilot service, and removing pay-as-you-go.
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.update-cycle: 180-days
 ms.reviewer: nishanair
 audience: Admin
