@@ -86,15 +86,17 @@ To adopt an MX target in mx.microsoft, do the following steps:
 
    - **The existing MX record for your domain points to a non-Microsoft service or device**: At the non-Microsoft service, change the smart host value that relays mail from the service to Microsoft 365 to the **DnssecMxValue** value (for example, `contosotest-com.o-v1.mx.microsoft`).
 
-4. Use the **Inbound SMTP Email** test in the **Microsoft Remote Connectivity Analyzer** at <https://testconnectivity.microsoft.com/tests/O365InboundSmtp/input> to verify the IRR-related MX record is working.
+1. Use the **Inbound SMTP Email** test in the **Microsoft Remote Connectivity Analyzer** at <https://testconnectivity.microsoft.com/tests/O365InboundSmtp/input> to verify the IRR-related MX record is working.
 
-   > [!TIP]
+      > [!TIP]
    > You might have to retry the test, depending on DNS caching.
 
-   Successful completion of the test looks like this:
+      Successful completion of the test looks like this:
 
-   :::image type="content" source="../media/connectivity-test-results.png" alt-text="Screenshot that shows the results of the Connectivity Test process." lightbox="../media/connectivity-test-results.png":::
-
+   ![User's image](media/configure-multi-geo-in-region-routing-in-preview/image.png)
+   
+   
+   
 5. Change the **Priority** values of the MX records for your domain:
    - **The existing MX record from Step 1**: Change the **Priority** value to 30.
    - **The IRR MX record from Step 3 (ends with mx.microsoft)**:  Change **Priority** value to **0** (highest priority).
