@@ -23,4 +23,5 @@ Responsible AI FAQs are part of a broader effort to put our AI principles into p
 
 Microsoft 365 Copilot contains a growing list of AI-driven features. To learn about the capabilities and impact of specific features, select an article in the list.
 
+- [FAQ for Copilot Tuning in Microsoft 365](copilot-tuning-responsible-ai-faq.md)
 - [FAQ for Flow Builder in Microsoft 365 Copilot](flow-builder-responsible-ai-faq.md)
