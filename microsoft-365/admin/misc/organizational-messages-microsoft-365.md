@@ -376,6 +376,9 @@ For urgent messages, after your message has been scheduled by the Organizational
 
 > [!NOTE]
 > For Windows spotlight messages, users who select a message on the Windows lock screen won't see it again for 12 months. Users who do not select the message may see it multiple times.
+> 
+> [!NOTE]
+> For Teams Teaching Popover messages, messages are triggered after the user ends a meeting. There may be a survey screen asking for feedback after the meeting ends and the message will pop up at the bottom right of the main window. Messages will not show up if the window is minimized. Message will stick and remain there unless some user action is taken by either clicking on the primary click button or the other "Got It" button.
 
 ### My team made other organizational messages within Intune, Adoption Score, Usage reports, and others. How do they work with this?
 
@@ -495,9 +498,9 @@ fr-CA will fall back to fr-FR, and users with all fr language locales will recei
 lv_LV will fall back to en-US, and users with all en languages locales will receive the message.
 
 > [!NOTE]
->
 > - *Locale of the custom message writer selected*: Display language set in the Microsoft 365 admin center (MyAccount).
-> - *Locale of the message receiver selected*: First supported language listed under "Preferred Languages" in the user's Windows Settings menu. This is determined by the operating system on the user's device.
+- *Locale of the message receiver selected*: First supported language listed under "Preferred Languages" in the user's Windows Settings menu. This is determined by the operating system on the user's device.
+
 
 ### Does Organizational Messages support government environments, such as GCC, GCCH, etc.?
 
