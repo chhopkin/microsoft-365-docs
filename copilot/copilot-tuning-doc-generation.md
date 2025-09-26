@@ -31,6 +31,8 @@ Some example use cases include:
 - Procurement – Create draft purchase orders using previous purchase orders and information about new purchases.
 - Documentation – Draft new product or feature docs based on existing documentation templates and information about new products or features.
 
+[!INCLUDE [agent-builder-mcs-lite](../microsoft-365/includes/agent-builder-mcs-lite.md)]
+
 ## Prerequisites
 
 - You must have permission to use Copilot Tuning in Copilot Studio. <!-- TODO: Link to permission doc here if it exists -->
@@ -120,5 +122,5 @@ When the model generates results that meet your quality standards, you can publi
 
 - [Microsoft 365 Copilot Tuning overview (preview)](copilot-tuning-overview.md)
 - [Microsoft 365 Copilot Tuning FAQ](copilot-tuning-faq.yml)
-- [Create declarative agents with Copilot Studio agent builder and Microsoft 365 Copilot Tuning models](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-tuned-models).
+- [Create declarative agents with Copilot Studio and Microsoft 365 Copilot Tuning models](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-tuned-models).
 - [Troubleshooting document generation models](copilot-tuning-troubleshooting-doc-generation.md).
