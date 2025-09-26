@@ -376,7 +376,7 @@ For urgent messages, after your message has been scheduled by the Organizational
 
 > [!NOTE]
 > For Windows spotlight messages, users who select a message on the Windows lock screen won't see it again for 12 months. Users who do not select the message may see it multiple times.
-> 
+
 > [!NOTE]
 > For Teams Teaching Popover messages, messages are triggered after the user ends a meeting. There may be a survey screen asking for feedback after the meeting ends and the message will pop up at the bottom right of the main window. Messages will not show up if the window is minimized. Message will stick and remain there unless some user action is taken by either clicking on the primary click button or the other "Got It" button.
 
