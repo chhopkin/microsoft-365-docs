@@ -5,7 +5,7 @@ author: kwekuako
 ms.author: kwekua
 ms.collection: operations-pod
 ms.service: microsoft-365-copilot
-manager: dansimp
+manager: scotv
 ms.topic: article
 ms.date: 05/29/2025
 ---

@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: efrene
 author: Efrene
 ms.update-cycle: 180-days
-manager: dansimp
+manager: scotv
 ms.date: 08/27/2025
 audience: Admin
 ms.reviewer: mandia
@@ -32,12 +32,22 @@ appliesto:
 > - The **Try GPT-5** button will appear in Copilot Chat, whether users do or don't have a Microsoft 365 Copilot license.
 > - This model update doesn't change your [security, privacy, or compliance settings](/copilot/microsoft-365/manage-public-web-access).
 >
-> GPT-5 is not yet available in [Microsoft 365 Copilot GCC](https://adoption.microsoft.com/en-us/copilot/gcc/).
-> 
+> GPT-5 is not yet available in [Microsoft 365 Copilot GCC](https://adoption.microsoft.com/copilot/gcc/).
+>
 > For more information, see the following articles:
 >
 > - [Microsoft 365 Blog: Available today -- GPT-5 in Microsoft 365 Copilot](https://www.microsoft.com/en-us/microsoft-365/blog/2025/08/07/available-today-gpt-5-in-microsoft-365-copilot/)
 > - [Understanding foundation model changes in Microsoft 365 Copilot](https://techcommunity.microsoft.com/blog/microsoft_365blog/understanding-foundation-model-changes-in-microsoft-365-copilot/4440322)
+
+> [!NOTE]
+> Microsoft 365 Copilot is adding Anthropic's Claude AI models as an optional supporting LLM. User's can try Claude with their Copilot prompts by selecting Try Claude button in the Microsoft 365 Copilot app.
+>
+> Claude is not yet available in [Microsoft 365 Copilot GCC](https://adoption.microsoft.com/copilot/gcc/).
+>
+> For more information, see the following articles:
+>
+> - [Connect to Anthropic's AI models](connect-to-ai-models.md)
+> - [Use Claude with Researcher in Microsoft 365 Copilot](https://go.microsoft.com/fwlink/?linkid=2335703)
 
 **Microsoft 365 Copilot is an AI-powered tool that helps with your work tasks**.
 
@@ -55,7 +65,7 @@ You can also [create and use agents](/microsoft-365-copilot/extensibility) to cu
 
 This article is for IT admins. It describes the different components that Microsoft 365 Copilot uses and the Copilot features in the Microsoft 365 apps. To learn more about the architecture and how Copilot works, see [Microsoft 365 Copilot architecture and how it works](microsoft-365-copilot-architecture.md).
 
-This article applies to:
+This article applies to: 
 
 - Microsoft 365 Copilot
 

@@ -9,7 +9,7 @@ author: chrisda
 manager: deniseb
 audience: Admin
 ms.topic: overview
-ms.date: 08/14/2025
+ms.date: 09/23/2025
 ms.service: microsoft-365-business-security
 ms.localizationpriority: medium
 ms.collection:
@@ -34,11 +34,15 @@ For more information about Microsoft 365 for business, see [What is Microsoft 36
 > [!TIP]
 > Microsoft 365 Business Premium includes Microsoft Defender for Business. For information about what's new in Microsoft Defender for Business, see [What's new in Microsoft Defender for Business](/defender-business/mdb-whats-new).
 
+## September 2025
+
+- You can now add the Microsoft Defender Suite for Business Premium to your subscription. This add-on replaces the former Microsoft 365 E5 Security add-on.
+
 ## March 2025
 
 - You can now add Microsoft 365 E5 Security to your Microsoft 365 Business Premium subscription. Microsoft 365 E5 Security up levels your security capabilities with more protection for your organization's identities, devices, email, files, and apps. For more information, see the following resources:
   - [Tech Community Blog: Microsoft 365 E5 Security is now available as an add-on to Microsoft 365 Business Premium](https://aka.ms/BusinessPremiumPlusE5SecurityBlog)
-  - [Add Microsoft 365 E5 Security to your Microsoft 365 Business Premium subscription](m365bp-add-m365e5s.md)
+  - [Add Microsoft 365 E5 Security to your Microsoft 365 Business Premium subscription](add-defender-suite-business-premium.md)
 
 ## July 2024
 

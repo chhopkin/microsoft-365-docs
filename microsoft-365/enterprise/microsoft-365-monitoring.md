@@ -68,8 +68,6 @@ Service-specific monitoring is also enable for the following Microsoft services.
 
 - [Exchange Online](microsoft-365-exchange-monitoring.md)
 
-- [Microsoft 365 Apps](microsoft-365-apps-monitoring.md)
-
 - [Microsoft Teams](microsoft-365-teams-monitoring.md)
 
 ## Send us feedback
