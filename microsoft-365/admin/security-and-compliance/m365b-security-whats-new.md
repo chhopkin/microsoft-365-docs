@@ -42,7 +42,7 @@ For more information about Microsoft 365 for business, see [What is Microsoft 36
 
 - You can now add Microsoft 365 E5 Security to your Microsoft 365 Business Premium subscription. Microsoft 365 E5 Security up levels your security capabilities with more protection for your organization's identities, devices, email, files, and apps. For more information, see the following resources:
   - [Tech Community Blog: Microsoft 365 E5 Security is now available as an add-on to Microsoft 365 Business Premium](https://aka.ms/BusinessPremiumPlusE5SecurityBlog)
-  - [Add Microsoft 365 E5 Security to your Microsoft 365 Business Premium subscription](m365bp-add-m365e5s.md)
+  - [Add Microsoft 365 E5 Security to your Microsoft 365 Business Premium subscription](add-defender-suite-business-premium.md)
 
 ## July 2024
 
