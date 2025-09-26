@@ -278,6 +278,8 @@ items:
           items: 
             - name: Microsoft 365 Multi-Geo
               href: microsoft-365-multi-geo.md
+            - name: Microsoft 365 Multi-Geo Commitments
+              href: microsoft-365-multi-geo-commitments.md
             - name: Plan
               items: 
                 - name: Plan for multi-geo
