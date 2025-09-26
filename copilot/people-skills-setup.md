@@ -4,7 +4,7 @@ description: how you can set up People Skills for the first time in your organiz
 author: kwekuako
 ms.author: kwekua
 ms.collection: operations-pod
-manager: dansimp
+manager: scotv
 ms.service: microsoft-365-copilot
 ms.topic: article
 ms.date: 05/29/2025
