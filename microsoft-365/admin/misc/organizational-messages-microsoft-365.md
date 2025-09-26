@@ -69,9 +69,9 @@ Before working with organizational messages, make sure your team satisfies the f
 
   - [Organizational Messages Writer](/azure/active-directory/roles/permissions-reference#organizational-messages-writer)
 
-- **Approvers** Anyone in your organization who is designated a responsible party for approving customized messages must have one of these following admin roles assigned to them within Microsoft 365 admin center:
+- **Approvers** Anyone in your organization who is a designated responsible party for approving customized messages must have one of these following admin roles assigned to them within Microsoft 365 admin center:
 
-  - [Organizational Messages Approver](/entra/identity/role-based-access-control/permissions-reference#organizational-messages-approver)
+- [Organizational Messages Approver](/entra/identity/role-based-access-control/permissions-reference#organizational-messages-approver)
 
 - **Message recipients** Anyone in your organization who might receive messages from your authors must have access to the Microsoft products to which the messages are configured to be delivered. (End users aren't required to have any Microsoft Entra roles to receive organizational messages.)
 
@@ -489,13 +489,13 @@ For example, If the Organizational Messages Writer (admin) sets their Microsoft 
 
 Locale fallback:
 
-If the Organizational Messages Writer (admin) locale is outside of the supported list above, the created message will fall back to the corresponding locale with the same language (if applicable). If there is no corresponding locale with the same language, then the created message will fall back to en-US
+If the Organizational Messages Writer (admin) locale is outside of the supported list above, the created message falls back to the corresponding locale with the same language (if applicable). If there is no corresponding locale with the same language, then the created message falls back to en-US
 
 Fallback examples:
 
-fr-CA will fall back to fr-FR, and users with all fr language locales will receive the message.
+fr-CA falls back to fr-FR, and users with all fr language locales will receive the message.
 
-lv_LV will fall back to en-US, and users with all en languages locales will receive the message.
+lv_LV falls back to en-US, and users with all en languages locales will receive the message.
 
 > [!NOTE]
 > - *Locale of the custom message writer selected*: Display language set in the Microsoft 365 admin center (MyAccount).
