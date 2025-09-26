@@ -35,6 +35,9 @@ As an admin, you can pin the Microsoft 365 Copilot app to the Windows taskbar of
 
 - To configure Copilot taskbar pinning in the Microsoft 365 admin center, you need to be assigned the **Intune Administrator** role.
 
+  > [!IMPORTANT]
+  > Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
+
 - To configure this setting in the Microsoft 365 admin center, your tenant must have at least one active Intune license.
 
   > [!TIP]
