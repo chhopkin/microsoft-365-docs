@@ -4,7 +4,7 @@ description: Learn how to modify and import or export custom skills.
 author: kwekuako
 ms.author: kwekua
 ms.collection: operations-pod
-manager: dansimp
+manager: scotv
 ms.service: microsoft-365-copilot
 ms.topic: article
 ms.date: 05/29/2025
