@@ -34,11 +34,12 @@ You can pin Microsoft 365 Copilot Chat in Microsoft 365 apps across web, desktop
 
 ## Before you begin
 
-:::image type="content" source="media/pin-copilot-microsoft-365-apps2.png" alt-text="Screenshot of Microsoft 365 admin center showing selected checkbox for Pin Copilot Chat in Microsoft 365 apps setting." lightbox="media/pin-copilot-microsoft-365-apps2.png":::
+To configure the Copilot Chat pinning setting in the Microsoft 365 admin center, you need to be assigned the [**AI administrator**](/entra/identity/role-based-access-control/permissions-reference) role.
 
-The following role can access the pinning setting in the Microsoft 365 admin center:
+> [!IMPORTANT]
+> Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
-- [AI administrator](/entra/identity/role-based-access-control/permissions-reference)
+## Open the Copilot settings page
 
 To get to this setting, go to the [Copilot settings page](https://admin.microsoft.com/Adminportal/Home?ref=/copilot/settings/:/CopilotSettings/PinCopilot), or:
 
@@ -48,10 +49,9 @@ To get to this setting, go to the [Copilot settings page](https://admin.microsof
 
 Continue to the next section for a description of each option in this setting.
 
-> [!NOTE]
-> Only users who authenticate with a Microsoft Entra account can have Copilot Chat pinned to their navigation bar.
-
 ## Pinning options
+
+:::image type="content" source="media/pin-copilot-microsoft-365-apps2.png" alt-text="Screenshot of Microsoft 365 admin center showing selected checkbox for Pin Copilot Chat in Microsoft 365 apps setting." lightbox="media/pin-copilot-microsoft-365-apps2.png":::
 
 Copilot Chat is pinned by default to the navigation bar of the Microsoft 365 apps and the Microsoft 365 Copilot app. This behavior applies for most users eligible for Copilot Chat across web, mobile, and desktop.
 
@@ -70,7 +70,7 @@ To change the pinning settings for Copilot Chat, select one of the following opt
 
 You can make changes to Copilot Chat pinning settings at any time. Changes take up to 48 hours to go into effect.
 
-## Pin the Copilot app on the Windows taskbar
+### Pin the Copilot app on the Windows taskbar
 
 You can pin the Microsoft 365 Copilot app to the Windows taskbar of managed devices.
 
@@ -111,6 +111,9 @@ For large organizations with complex needs, set up the pinning policy to apply t
 ## User experience
 
 Unlicensed Copilot Chat users can choose to pin or unpin Copilot Chat. Users can also adjust the pinning settings within their application settings. These choices are specific to Microsoft Teams, Outlook, and the Microsoft 365 Copilot app.
+
+> [!NOTE]
+> Only users who authenticate with a Microsoft Entra account can have Copilot Chat pinned to their navigation bar.
 
 ## Pin Copilot Chat in Microsoft Teams through the Teams admin center
 
