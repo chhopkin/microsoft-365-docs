@@ -3,14 +3,14 @@
 # For more information, see https://learn.microsoft.com/en-us/help/platform/learn-editor-add-metadata
 # For valid values of ms.service, ms.prod, and ms.topic, see https://learn.microsoft.com/en-us/help/platform/metadata-taxonomies
 
-title:       # Add a title for the browser tab
-description: # Add a meaningful description for search results
+title: Configure Multi-Geo In-Region Routing (In Preview)
+description: This article describes the process of configuring Multi-Geo In-Region Routing (IRR).
 author:      Ian-MSFT-2019 # GitHub alias
 ms.author:   iamcdo # Microsoft alias
-ms.service:  # Add the ms.service or ms.prod value
-# ms.prod:   # To use ms.prod, uncomment it and delete ms.service
-ms.topic:    # Add the ms.topic value
+ms.service: microsoft-365-enterprise
+ms.topic: how-to
 ms.date:     09/26/2025
+ms.subservice: advanced-data-residency
 ---
 
 # Configure Multi-Geo In-Region Routing (In Preview)
