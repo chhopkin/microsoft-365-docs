@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: aaroncz
 author: aczechowski
-manager: dansimp
+manager: scotv
 ms.reviewer: christin,vmirapur
 ms.update-cycle: 180-days
 ms.date: 08/05/2025

@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: kwekua
 author: kwekuako
-manager: dansimp
+manager: scotv
 ms.update-cycle: 180-days
 ms.date: 09/16/2025
 audience: Admin
