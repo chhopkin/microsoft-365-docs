@@ -72,15 +72,15 @@ Customers that utilize Microsoft Purview eDiscovery Standard or Premium should r
 
 Whether you are a CSP partner managing your customer’s Microsoft 365 subscriptions or an Enterprise Agreement customer managing your own subscriptions, you can follow these steps to get started with _Multi-Geo_:
 
-1. Ensure that you purchase _Multi-Geo_ for at least 5% of the total eligible users in your Microsoft 365 subscription. Remember that you will need a license for each user you want to host in a _Satellite Geography_ location.
+1. Ensure that you purchase _Multi-Geo_ for at least 5% of the total eligible users in your Microsoft 365 subscription. Remember that you'll need a license for each user you want to host in a _Satellite Geography_ location.
 
-2. Before you can start using _Microsoft 365 Multi-Geo_, Microsoft needs to configure your _Tenant_ for _Multi-Geo_ support. This one-time automatic configuration process is triggered after you order the _Multi-Geo Capabilities_ in Microsoft 365 and the licenses show up in your _Tenant_. You will receive service-specific notifications in the [Microsoft 365 message center](https://support.office.com/article/38FB3333-BFCC-4340-A37B-DEDA509C2093) once the _Tenant_ has completed the configuration process for each service, and then you may begin configuring and using your _Microsoft 365 Multi-Geo Capabilities_. The time required to configure a _Tenant_ for _Multi-Geo_ support varies from _Tenant_ to _Tenant_, but most _Tenants_ finish within a month after receipt of the feature licenses. Larger or more complex _Tenants_ may require more time to complete the configuration process.
+2. Before you can start using _Microsoft 365 Multi-Geo_, Microsoft needs to configure your _Tenant_ for _Multi-Geo_ support. This one-time automatic configuration process is triggered after you order the _Multi-Geo Capabilities_ in Microsoft 365 and the licenses show up in your _Tenant_. You'll receive service-specific notifications in the [Microsoft 365 message center](https://support.office.com/article/38FB3333-BFCC-4340-A37B-DEDA509C2093) once the _Tenant_ has completed the configuration process for each service, and then you may begin configuring and using your _Microsoft 365 Multi-Geo Capabilities_. The time required to configure a _Tenant_ for _Multi-Geo_ support varies from _Tenant_ to _Tenant_, but most _Tenants_ finish within a month after receipt of the feature licenses. Larger or more complex _Tenants_ may require more time to complete the configuration process.
 
 3. Read [Plan your multi-geo environment](plan-for-multi-geo.md).
 
 4. Learn about [administering a multi-geo environment](administering-a-multi-geo-environment.md) and [how your users will experience the environment](multi-geo-user-experience.md).
 
-5. When you are ready to set up Microsoft 365 Multi-Geo, [configure your tenant for multi-geo](multi-geo-tenant-configuration.md).
+5. When you're ready to set up Microsoft 365 Multi-Geo, [configure your tenant for multi-geo](multi-geo-tenant-configuration.md).
 
 6. [Set up search](configure-search-for-multi-geo.md).
   
