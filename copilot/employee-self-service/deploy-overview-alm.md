@@ -3,7 +3,7 @@ title: Employee Self-Service agent deployment overview
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: dansimp
+manager: scotv
 ms.reviewer: semani
 ms.date: 7/3/2025
 audience: Admin

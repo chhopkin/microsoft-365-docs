@@ -3,7 +3,7 @@ title: Integrate ServiceNow HRSD and ITSM with your Employee Self-Service deploy
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: dansimp
+manager: scotv
 ms.reviewer: semani
 ms.date: 07/15/2025
 audience: Admin

@@ -3,7 +3,7 @@ title: Integrate ServiceNow with your Employee Self-Service deployment
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: dansimp
+manager: scotv
 ms.reviewer: semani
 ms.date: 07/03/2025
 audience: Admin
