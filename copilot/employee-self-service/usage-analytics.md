@@ -5,12 +5,11 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: scotv
 ms.reviewer: semani
-ms.date: 7/3/2025
+ms.date: 09/29/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
-robots: NOINDEX, NOFOLLOW
 ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn how to access usage analytics for the Employee Self-Service agent.
