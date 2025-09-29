@@ -3,16 +3,15 @@ title: Customize the Employee Self-Service agent
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: scotv
+manager: dansimp
 ms.reviewer: semani
-ms.date: 7/3/2025
+ms.date: 09/29/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
-robots: NOINDEX, NOFOLLOW
 description: Learn about the customization stage in the deployment process for the Employee Self-Service agent.
 appliesto:
 - ✅ Microsoft 365 Copilot
@@ -21,7 +20,7 @@ appliesto:
 # Customize the Employee Self-Service agent
 
 >[!NOTE]
->The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
+>The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
 Customization is how you make the Employee Self-Service (ESS) agent work in the best way to suit your organization's needs.
 
