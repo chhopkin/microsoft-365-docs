@@ -30,7 +30,7 @@ Add image here^^^
 
 This document outlines the minimum technical and licensing requirements for using Microsoft 365 Copilot Chat in your organization. It additionally includes considerations admins need to be aware of, such as security, management, and resources to help train your users.
 
-For information on minimum requirements for the Microsoft 365 Copilot add-on license, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](/copilot/microsoft-365/microsoft-365-copilot-min-reqs).
+For information on minimum requirements for the Microsoft 365 Copilot add-on license, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](https://review.learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-min-reqs?branch=kwekua-copilot-min-reqs).
 
 ## Licensing requirements
 Before your users can use Microsoft Copilot Chat, they must have one of the following subscriptions or plans: 
@@ -81,13 +81,25 @@ For more information about recommended browsers, see [Which browsers work with M
 Microsoft 365 users can access Copilot Chat from:
 
 - Web: Go to [m365copilot.com](https://m365copilot.com/)
-- App: Download the Microsoft 365 Copilot app from the Microsoft Store.
 - Browser: Copilot in Microsoft Edge 
   - Users can access Copilot Chat through the Copilot icon in the Edge browser UI when they're signed in with their Entra account.
   - Users can [modify this permission](/copilot/manage#manage--chat-in-edge) by going to **Microsoft Edge > Settings > Sidebar > Copilot**, and then turning on or off the **Allow Microsoft to access page content** toggle. 
 - Microsoft 365 apps 
-  - In Word, Excel, OneNote, Outlook, and PowerPoint, Copilot Chat is automatically pinned in the toolbar.
-  - For more details, see [Use Copilot Chat in Microsoft 365 apps](https://support.microsoft.com/topic/use-copilot-chat-in-microsoft-365-apps-676db5e8-9568-4bdb-bf0b-e207e29e056b).
+  - Microsoft 365 Copilot app (web, Windows, Mac, mobile)
+  - Outlook (web, Windows, Mac, mobile)
+    - Full chat app and side pane
+  - Word (web, Windows, Mac, mobile)
+    - Side pane only
+  - PowerPoint (web, Windows, Mac, mobile)
+    - Side pane only
+  - Excel (web, Windows, Mac)
+    - Side pane only
+  - OneNote (web, Windows, Mac)
+    - Side pane only
+  - Teams (web, Windows, Mac, mobile)
+    - Full chat app and side pane
+  
+  For more details, see [Use Copilot Chat in Microsoft 365 apps](https://support.microsoft.com/topic/use-copilot-chat-in-microsoft-365-apps-676db5e8-9568-4bdb-bf0b-e207e29e056b).
 
 ## Security and Trust
 
@@ -104,9 +116,8 @@ Admins do not need to do any additional configuration in regards to security whe
 
 An [agent in Copilot Chat](/copilot/agents) is an AI assistant that can perform tasks, automate workflows, or operate independently to help you get work done. Agents vary in complexity — from simple helpers that retrieve information to advanced ones that act on your behalf.
 
-Agents you create in Copilot Chat are billed based on metered consumption.  
+Microsoft 365 Copilot Chat has agents that can be used at no additional cost as well as agents that are billed based on metered consumption. 
 
-For more detailed information, see “Deploy Microsoft 365 Copilot Agents”.  
 
 ## Train your users
 Copilot Chat is available to users in many of the key Microsoft 365 apps in which they do their work. Admins can help them to understand how to use Copilot Chat to assist them with work tasks by pointing them to the following resources:
@@ -128,6 +139,7 @@ Microsoft 365 admins can manage Copilot Chat in the admin center through the Cop
 - Manage whether users can generate images with Copilot Chat.
 - Control how users can create and use agents.
 - Manage web search capabilities by using the Allow web search in Copilot policy.
+- [Remove access to Copilot Chat](/copilot/manage#remove-access-to--chat)
 
 
 ## Need more? Add a Microsoft 365 Copilot license
