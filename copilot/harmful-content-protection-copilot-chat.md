@@ -84,7 +84,7 @@ Once harmful content protection is disabled in a conversation in Copilot Chat, i
 When the policy takes effect, users have the **Harmful content protection** toggle in Copilot Chat. [Learn more about the user experience](https://support.microsoft.com/en-us/topic/605db862-b859-4ec3-9327-d405cc164690).
 
 > [!NOTE]
-> Harmful content protection settings apply only to text responses. Default content filters remain in place for images and agents, even if harmful content protection is disabled.
+> Harmful content protection settings apply only to text responses. Default content filters remain in place for images and agents, even if harmful content protection is disabled in a Copilot Chat conversation.
 
 ## Best practices and important points
 
