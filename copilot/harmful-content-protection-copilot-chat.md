@@ -5,7 +5,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 ms.reviewer: nsiu
-ms.date: 09/24/2025
+ms.date: 09/29/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: article
@@ -35,12 +35,16 @@ When a harmful content protection policy is applied, users can adjust their harm
 
 :::image type="content" source="media/harmful-content-protection-copilot-chat/copilot-chat-more-menu.png" alt-text="Screenshot showing the More menu in Microsoft 365 Copilot Chat." lightbox="media/harmful-content-protection-copilot-chat/copilot-chat-more-menu.png":::
 
-- By default, the **Harmful content protection** setting is enabled at the beginning of each conversation. 
+By default, the **Harmful content protection** setting is enabled at the beginning of each conversation. 
+
 - When this setting is *enabled*, harmful content is blocked in Copilot Chat. 
 - When this setting is *disabled*, the user can query on harmful content within the context of that conversation. In this case, the user might see sensitive or potentially offensive content related to their queries.
-- Once harmful content protection is disabled in a conversation in Copilot Chat, it can't be re-enabled until a new conversation is started. 
-- Regardless of whether harmful content protection is enabled or disabled, [Responsible AI governance](https://www.microsoft.com/en-us/ai/principles-and-approach), including prompt injection defense, copyright safeguards, and image protections continue to be enforced.
-- When you configure harmful content protection settings, your policy doesn't affect images or agents. Harmful content protection settings apply only to text responses. Default content filters remain in place for images and agents, even when users disable harmful content protection in a Copilot Chat conversation.
+
+Once harmful content protection is disabled in a conversation in Copilot Chat, it can't be re-enabled until a new conversation is started. 
+
+Regardless of whether harmful content protection is enabled or disabled, [Responsible AI governance](https://www.microsoft.com/en-us/ai/principles-and-approach), including prompt injection defense, copyright safeguards, and image protections continue to be enforced.
+
+When you configure harmful content protection settings, your policy doesn't affect images or agents. Harmful content protection settings apply only to text responses. Default content filters remain in place for images and agents, even when users disable harmful content protection in a Copilot Chat conversation.
 
 ## How to configure harmful content protection settings
 
