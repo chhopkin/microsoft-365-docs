@@ -7,6 +7,7 @@ title: Configure Multi-Geo In-Region Routing (In Preview)
 description: This article describes the process of configuring Multi-Geo In-Region Routing (IRR).
 author:      Ian-MSFT-2019 # GitHub alias
 ms.author:   iamcdo # Microsoft alias
+manager: mfxiong 
 ms.service: microsoft-365-enterprise
 ms.topic: how-to
 ms.date:     09/26/2025
