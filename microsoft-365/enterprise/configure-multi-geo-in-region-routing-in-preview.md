@@ -15,8 +15,6 @@ ms.subservice: advanced-data-residency
 
 # Configure Multi-Geo In-Region Routing (In Preview)
 
-# Configure Multi-Geo In-Region Routing (In Preview)
-
 This article describes the process of configuring Multi-Geo In-Region Routing (IRR).
 
 ## Overview
