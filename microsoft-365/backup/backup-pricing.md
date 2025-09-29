@@ -112,7 +112,7 @@ You can get the sizes of live sites and first-stage recycle bin in the tenant (o
 Get-SPOSite
 ```
 
-Learn more about the *Get-SPOSite* cmdlet - [*Get-SPOSite* cmdlet](/powershell/module/sharepoint-online/get-sposite) and the  [SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
+Learn more about the *Get-SPOSite* cmdlet - [*Get-SPOSite* cmdlet](/powershell/module/microsoft.online.sharepoint.powershell/get-sposite) and the  [SharePoint Online Management Shell](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online).
 
 You can get the sizes of the second-stage recycle bin by running the following PowerShell cmdlet:
 

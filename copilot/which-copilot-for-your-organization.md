@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: efrene
 author: Efrene
-manager: dansimp
+manager: scotv
 ms.date: 05/01/2025
 ms.update-cycle: 180-days
 ms.reviewer: 
@@ -114,7 +114,7 @@ To learn more, see:
 
 - [Microsoft 365 Copilot overview](microsoft-365-copilot-overview.md)
 - [Microsoft 365 Copilot architecture and how it works](microsoft-365-copilot-architecture.md)
-- [Copilot Prompt Gallery](https://copilot.cloud.microsoft/prompts)
+- [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
 - [Microsoft 365 Copilot plans](https://www.microsoft.com/microsoft-365/copilot)
 - [Add apps to Microsoft Intune](/mem/intune/apps/apps-add) and [assign apps to groups](/mem/intune/apps/apps-deploy)
 

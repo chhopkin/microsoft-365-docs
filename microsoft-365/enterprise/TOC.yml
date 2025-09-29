@@ -186,8 +186,6 @@ items:
                   href: microsoft-365-mrs-source-delays-service-alerts.md
                 - name: Service advisories for OAB size limits
                   href: microsoft-365-oab-size-limit-service-advisory.md
-            - name: Microsoft 365 Apps monitoring
-              href: microsoft-365-apps-monitoring.md
             - name: Microsoft Entra monitoring
               href: microsoft-entra-monitoring.md
             - name: Microsoft 365 Teams monitoring
@@ -318,7 +316,7 @@ items:
               href: m365-dr-workload-spo.md
             - name: Microsoft Teams
               href: m365-dr-workload-teams.md
-            - name: Microsoft 365 Copilot
+            - name: Microsoft 365 Copilot and Copilot Chat
               href: m365-dr-workload-copilot.md
             - name: Microsoft Defender for Office P1
               href: m365-dr-workload-mdo-p1.md

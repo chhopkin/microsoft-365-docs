@@ -3,8 +3,8 @@ title: "Microsoft 365 admin center SharePoint site usage reports"
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 04/01/2025
 audience: Admin
 ms.topic: article

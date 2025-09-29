@@ -31,7 +31,7 @@ The following services are included in ADR. For more information, see:
 - [Exchange Online](m365-dr-workload-exo.md)
 - [SharePoint and OneDrive](m365-dr-workload-spo.md)
 - [Microsoft Teams](m365-dr-workload-teams.md)
-- [Microsoft 365 Copilot](m365-dr-workload-copilot.md)
+- [Microsoft 365 Copilot and Microsoft 365 Copilot Chat](m365-dr-workload-copilot.md)
 - [Microsoft Defender for Office P1 and Exchange Online Protection](m365-dr-workload-mdo-p1.md)
 - [Microsoft 365 web apps (formerly "Office for the Web")](m365-dr-workload-office-for-web.md)
 - [Viva Connections](m365-dr-workload-viva-connections.md)
@@ -52,7 +52,7 @@ The following services are included in ADR. For more information, see:
 
 The Advanced Data Residency ("ADR") add-on is intended for Microsoft 365 enterprise customers who have comprehensive data residency requirements. To be eligible to purchase ADR, customers must meet the following prerequisites:
 
-- The _Tenant Default Geography_ must be one of the countries or regions included in the _Local Region Geography_: Australia, Brazil, Canada, Chile, France, Germany, India, Indonesia, Israel, Italy, Japan, Malaysia, Mexico, New Zealand, Norway, Poland, Qatar, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, United Arab Emirates, and United Kingdom.
+- The _Tenant Default Geography_ must be one of the countries or regions included in the _Local Region Geography_: Australia, Austria, Brazil, Canada, Chile, France, Germany, India, Indonesia, Israel, Italy, Japan, Malaysia, Mexico, New Zealand, Norway, Poland, Qatar, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, United Arab Emirates, and United Kingdom.
 - Customers must have licenses for one or more of the following products:
   - Microsoft 365 F1, F3, E3, or E5 (including SKUs without Microsoft Teams)
   - Office 365 F3, E1, E3, or E5 (including SKUs without Microsoft Teams)
@@ -132,7 +132,7 @@ The "Data location" section in the Microsoft 365 admin center displays the most 
 
 Microsoft adheres to the [Microsoft Online Services Service Level Agreement (SLA)](https://go.microsoft.com/fwlink/p/?LinkId=523897) for service availability and uses reasonable efforts to complete an Advanced Data Residency add-on customer data migration within 12 months from the time the Tenant Global Admin selects the option to initiate migration. However, large, complex customers, and situations outside of Microsoft's control, may require more time for migration to complete.
 
-Data moves are a back-end service operation with minimal impact to a customer's operations. For information related to specific services, Tenant Global Admins can refer to the "Migration" sections in the following Service Data Residency Capabilities pages: [Exchange Online](m365-dr-workload-exo.md#migration), [SharePoint and OneDrive](m365-dr-workload-spo.md#migration-with-advanced-data-residency), [Microsoft Teams](m365-dr-workload-teams.md#migration), [Microsoft 365 Copilot](m365-dr-workload-copilot.md#migration-and-user-experience), [Microsoft Defender for Office P1](m365-dr-workload-mdo-p1.md#migration), [Microsoft 365 web apps (formerly known as "Office for the Web"](m365-dr-workload-office-for-web.md#migration), [Viva Connections](m365-dr-workload-viva-connections.md#migration), [Microsoft Purview](m365-dr-workload-purview.md#migration), and [Other Services](m365-dr-workload-other.md).
+Data moves are a back-end service operation with minimal impact to a customer's operations. For information related to specific services, Tenant Global Admins can refer to the "Migration" sections in the following Service Data Residency Capabilities pages: [Exchange Online](m365-dr-workload-exo.md#migration), [SharePoint and OneDrive](m365-dr-workload-spo.md#migration-with-advanced-data-residency), [Microsoft Teams](m365-dr-workload-teams.md#migration), [Microsoft 365 Copilot and Microsoft 365 Copilot Chat](m365-dr-workload-copilot.md#migration-and-user-experience), [Microsoft Defender for Office P1](m365-dr-workload-mdo-p1.md#migration), [Microsoft 365 web apps (formerly known as "Office for the Web"](m365-dr-workload-office-for-web.md#migration), [Viva Connections](m365-dr-workload-viva-connections.md#migration), [Microsoft Purview](m365-dr-workload-purview.md#migration), and [Other Services](m365-dr-workload-other.md).
 
 ### During and After your Migration
 

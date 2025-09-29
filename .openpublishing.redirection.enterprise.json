@@ -1449,6 +1449,11 @@
       "source_path": "microsoft-365/enterprise/microsoft-365-entra-monitoring.md",
       "redirect_url": "/microsoft-365/enterprise/microsoft-entra-monitoring",
       "redirect_document_id": true
+   },
+   {
+      "source_path": "microsoft-365/enterprise/microsoft-365-apps-monitoring.md",
+      "redirect_url": "/microsoft-365/enterprise/microsoft-365-monitoring",
+      "redirect_document_id": true
    }
   ]
 }

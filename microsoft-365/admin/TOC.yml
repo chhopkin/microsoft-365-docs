@@ -275,7 +275,9 @@ items:
             - name: Manage shared agents
               href: manage/manage-shared-agents.md
             - name: Manage pinning of agents
-              href: manage/manage-pinning-agents.md  
+              href: manage/manage-pinning-agents.md
+            - name: Manage agent permissions
+              href: manage/manage-agents-permissions.md  
             - name: Manage embedded knowledge agents
               href: manage/manage-embedded-knowledge-agents.md
             - name: Microsoft Graph connectors for Microsoft Search
@@ -300,8 +302,8 @@ items:
               href: activity-reports/microsoft-365-copilot-search-usage.md
             - name: Agent usage
               href: activity-reports/microsoft-365-copilot-agents-new.md           
-            - name: Message consumption
-              href: activity-reports/message-consumption.md              
+            - name: Microsoft 365 Copilot credits
+              href: activity-reports/microsoft-365-copilot-credits.md              
             - name: Dynamics 365 Customer Voice activity
               href: activity-reports/forms-pro-activity-ww.md
             - name: Email activity
@@ -474,50 +476,78 @@ items:
       href: ../commerce/index.yml
     - name: Secure your organization
       items: 
-        - name: Multi-factor authentication for Microsoft 365
-          href: security-and-compliance/multi-factor-authentication-microsoft-365.md
-        - name: Set up multi-factor authentication
-          href: security-and-compliance/set-up-multi-factor-authentication.md
-        - name: Manage and monitor priority accounts
-          href: setup/priority-accounts.md
-        - name: Increase threat protection for Microsoft 365 for business
-          href: security-and-compliance/increase-threat-protection.md
-        - name: Turn on Idle session timeout
-          href: manage/idle-session-timeout-web-apps.md
-        - name: A guide to GDPR compliance
-          href: security-and-compliance/gdpr-compliance.md
-    - name: Manage devices and app data
-      items:
-        - name: Device and app data protection methods
-          href: basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md
-        - name: Manage user consent to apps
-          href: misc/user-consent.md
-        - name: Basic Mobility and Security
+        - name: Microsoft 365 for business security overview
+          href: security-and-compliance/m365b-security-overview.md
+        - name: What's new in security in Microsoft 365 for business
+          href: security-and-compliance/m365b-security-whats-new.md
+        - name: Microsoft 365 Business Premium security - frequently asked questions
+          href: security-and-compliance/m365bp-security-faq.yml
+        - name: Get started
           items:
+          - name: Microsoft 365 for business security best practices
+            href: security-and-compliance/m365b-security-best-practices.md
+          - name: Set up information protection in Microsoft 365 Business Premium
+            href: security-and-compliance/m365bp-information-protection.md
+          - name: Why should I choose Microsoft 365 Business Premium?
+            href: security-and-compliance/m365bp-security-benefits.md
+          - name: Monitor Microsoft 365 Business Premium and Defender for Business
+            href: security-and-compliance/m365bp-security-monitor.md
+          - name: Add Microsoft Defender Suite for Business Premium to your subscription
+            href: security-and-compliance/add-defender-suite-business-premium.md
+          - name: Secure Microsoft 365 Copilot for small businesses
+            href: security-and-compliance/m365b-copilot-security.md
+          - name: GDPR simplified - A guide for your small business
+            href: security-and-compliance/gdpr-compliance.md
+        - name: Account security
+          items:
+            - name: Multi-factor authentication in Microsoft 365
+              href: security-and-compliance/multi-factor-authentication-microsoft-365.md
+            - name: Set up multi-factor authentication
+              href: security-and-compliance/set-up-multi-factor-authentication.md
+            - name: Admin account security in Microsoft 365 for business
+              href: security-and-compliance/m365b-account-security-admins.md
+            - name: Manage and monitor priority accounts
+              href: security-and-compliance/priority-accounts.md
+        - name: Email & Collaboration security
+          items:
+            - name: Email and collaboration security in Microsoft 365 for business
+              href: security-and-compliance/m365b-email-collaboration-security.md
+            - name: Protect users against phishing and other attacks in Microsoft 365 for business
+              href: security-and-compliance/m365b-users-phishing-spam-malware.md
+        - name: Device security
+          items:
+          - name: Device protection in Microsoft 365 Business Premium
+            items:
+            - name: Microsoft Intune and Microsoft Defender for Business
+              href: security-and-compliance/m365bp-devices-protection.md
+            - name: Device management and application management in Microsoft 365 Business Premium
+              href: security-and-compliance/m365bp-devices-enrollment.md
+            - name: Device groups and Microsoft Intune categories in Microsoft 365 Business Premium
+              href: security-and-compliance/m365bp-devices-groups-categories.md
+          - name: Basic Mobility and Security
+            items:
             - name: Overview of Basic Mobility and Security
-              href: basic-mobility-security/overview.md
-            - name: Compare Basic Mobility and Security and Intune
-              href: basic-mobility-security/choose-between-basic-mobility-and-security-and-intune.md
-            - name: Capabilities of Basic Mobility and Security
-              href: basic-mobility-security/capabilities.md  
+              href: security-and-compliance/m365b-devices-basic-mobility-security-overview.md
             - name: Set up Basic Mobility and Security
-              href: basic-mobility-security/set-up.md
-            - name: Create device security policies
-              href: basic-mobility-security/create-device-security-policies.md
-            - name: Create an APNs certificate for iOS devices
-              href: basic-mobility-security/create-an-apns-certificate-for-ios-devices.md
-            - name: Manage device access settings
-              href: basic-mobility-security/manage-device-access-settings.md
-            - name: Manage enrolled devices
-              href: basic-mobility-security/manage-enrolled-devices.md
-            - name: Enroll your mobile device
-              href: basic-mobility-security/enroll-your-mobile-device.md
-            - name: Frequently asked questions
-              href: basic-mobility-security/frequently-asked-questions.yml
-            - name: Wipe mobile devices
-              href: basic-mobility-security/wipe-mobile-device.md
-            - name: Turn off Basic Mobility and Security
-              href: basic-mobility-security/turn-off.md
+              href: security-and-compliance/m365b-devices-basic-mobility-security-set-up.md
+            - name: Configure policies in Basic Mobility and Security
+              href: security-and-compliance/m365b-devices-basic-mobility-security-policies-configure.md
+            - name: Enroll devices in Basic Mobility and Security
+              href: security-and-compliance/m365b-devices-basic-mobility-security-enroll-devices.md
+            - name: View device details in Basic Mobility and Security
+              href: security-and-compliance/m365b-devices-basic-mobility-security-view-device-details.md
+            - name: Wipe devices in Basic Mobility and Security
+              href: security-and-compliance/m365b-devices-basic-mobility-security-wipe-devices.md
+            - name: Turn off Basic Mobility and Security enforcement
+              href: security-and-compliance/m365b-devices-basic-mobility-security-turn-off.md
+          - name: Use Windows Autopilot to set up or reset devices
+            href: /autopilot/overview?toc=/microsoft-365/admin/security-and-compliance/toc.json&bc=/microsoft-365/admin/security-and-compliance/breadcrumb/toc.json
+          - name: Manage Microsoft 365 installation options for devices
+            href: /DeployOffice/manage-software-download-settings-office-365?toc=/microsoft-365/admin/security-and-compliance/toc.json&bc=/microsoft-365/admin/security-and-compliance/breadcrumb/toc.json
+          - name: Manage user consent to apps
+            href: misc/user-consent.md
+          - name: Turn on Idle session timeout
+            href: manage/idle-session-timeout-web-apps.md
     - name: Switch from Google Workspace to M365
       items:
         - name: Overview
