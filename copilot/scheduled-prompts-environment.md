@@ -2,7 +2,7 @@
 title: "Microsoft 365 environment for Scheduled Prompts"
 ms.author: aaroncz
 author: aczechowski
-manager: dansimp
+manager: scotv
 ms.date: 06/02/2025
 ms.update-cycle: 180-days
 audience: Admin
