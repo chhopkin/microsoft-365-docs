@@ -54,7 +54,7 @@ The following are the high-level steps to configure a custom document generation
 > - [Select security groups](#review-copilot-tuning-acl-analysis)
 > - [Label training data](#label-training-data)
 > - [Train the model and evaluate results](#train-and-evaluate-results)
-> - [Optional- Prepare a mapping file for evaluations](#optional---prepare-a-mapping-file) - identify pairings of original files and final draft files in the training data
+> - [Optional - Prepare a mapping file for evaluations](#optional---prepare-a-mapping-file) - identify pairings of original files and final draft files in the training data
 > - [Publish the model](#publish-the-model)
 
 
@@ -103,7 +103,7 @@ If the results don't meet your expectations, you can go to the previous steps in
 
 ### Optional - Prepare a mapping file
 
-If you'd like to run evaluations with a mapping file, you can create one and re-run training and evaluations as described in the section above. For the mapping file, your knowledge source should have more than 20 example pairs of original files and corresponding final (draft) files. In this step, you prepare a CSV file that provides more than 20 examples of original files to final (draft) documents. 
+If you'd like to run evaluations with a mapping file, you can create one and re-run training and evaluations as described in the section above. Your knowledge source should have more than 20 example pairs of original files and their corresponding final (draft) files. In this step, you prepare a CSV file that lists these pairs, mapping each original file to its final (draft) document.
 
 Create a file named **mapping.csv** and store it in the root directory of your knowledge source. This file should have two columns:
 
