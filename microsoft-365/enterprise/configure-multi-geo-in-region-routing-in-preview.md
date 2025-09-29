@@ -114,14 +114,14 @@ After you complete the [Prerequisites](#prerequisites) and the steps in [Adopt a
 
 1. [Connect to Exchange Online PowerShell](administering-exchange-online-multi-geo.md#connect-directly-to-a-geo-location-using-exchange-online-powershell) using an admin account.
 
-1. Execute the following command:
+2. Execute the following command:
 
 
 ```powershell
 Set-OrganizationConfig  -InRegionRoutingEnabled $true
 ```
 
-1. **Wait 30 minutes for the change in Step 2 to propagate**, then execute the following command:
+3. **Wait 30 minutes for the change in Step 2 to propagate**, then execute the following command:
 
       ```powershell
    Set-AcceptedDomain -Identity <Domain> -MailFlowRegion <PreferredDataLocation>
@@ -130,15 +130,13 @@ Set-OrganizationConfig  -InRegionRoutingEnabled $true
    - \<Domain\> is the accepted domain.
    - \<PreferredDataLocation\> is a valid three-letter code specified in [Microsoft 365 Multi-Geo availability](microsoft-365-multi-geo.md#microsoft-365-multi-geo-availability).
 
-      For example:
-
+    For example:
       ```powershell
-   Set-AcceptedDomain -Identity contosotest.com -MailFlowRegion GBR
+     Set-AcceptedDomain -Identity contosotest.com -MailFlowRegion GBR
    ```
+   For detailed syntax and parameter information, see [Set-AcceptedDomain](/powershell/module/exchange/set-accepteddomain).
 
-      For detailed syntax and parameter information, see [Set-AcceptedDomain](/powershell/module/exchange/set-accepteddomain).
-
-3. Wait 30 minutes after enabling IRR to allow previously cached DNS records to expire and updated routing information to propagate. Then, send an email to recipients in the domain to verify whether mail flow is working as expected.
+4. Wait 30 minutes after enabling IRR to allow previously cached DNS records to expire and updated routing information to propagate. Then, send an email to recipients in the domain to verify whether mail flow is working as expected.
 
 Errors that you might encounter are described in the next section.
 
