@@ -17,7 +17,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 As a Microsoft 365 admin, you want to protect and secure your business environment.
 
-Baseline Security Mode helps you:
+Baseline security mode helps you:
 
 - Protect business data.
 - Prevent business disruption.
@@ -106,13 +106,18 @@ Before you disable EWS, make sure that you meet these requirements to avoid disr
 > [!NOTE]
 > These statements and build requirements are Win32 only.
 
-#### Effect of Baseline Security Mode settings on cross-tenant features
+#### Effect of baseline security mode settings on cross-tenant features
 
-Currently, the following features don't work when Baseline Security Mode settings are enabled:
+Currently, the following features don't work when baseline security mode settings are enabled:
 
 - Calendar sharing and Free/Busy (cross-tenant/cloud).
 - MailTips (cross-tenant/cloud).
 - User photo and profile (cross-tenant/cloud).
+
+#### Impact of baseline security mode on hybrid deployments
+
+- Turn off EWS access only after your hybrid Exchange setup supports REST APIs. This change helps reduce legacy app usage and lowers the risk of data exposure. See [Exchange Server Security Changes for Hybrid Deployments](https://techcommunity.microsoft.com/blog/exchange/exchange-server-security-changes-for-hybrid-deployments/4396833).
+- Server-side sync between Dynamics on-premises and Exchange Online will no longer work with this setting. To keep using sync features, move to [Dynamics 365 Online](/dynamics365/customerengagement/on-premises/admin/connect-dynamics-365-on-premises-exchange-online).
 
 ### Identity settings
 

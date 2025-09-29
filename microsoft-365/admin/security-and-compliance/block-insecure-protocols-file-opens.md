@@ -20,7 +20,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 Hypertext Transfer Protocol (HTTP) and File Transfer Protocol (FTP) are outdated protocols that can expose sensitive data because they transmit information in plain text. Blocking file opens using these protocols helps prevent attackers from intercepting credentials or other confidential data during file access.
 
-When this setting is turned on, users will be prevented from opening files from locations that use HTTP or FTP. Users will not be able to override this configuration in **Trust Center**. This helps enforce secure data transmission practices and reduces exposure to man-in-the-middle attacks. If you need to revert to the default behavior, you can turn off this setting directly in the Microsoft 365 admin center.
+When this setting is turned on, users will be prevented from opening files from locations that use HTTP or FTP. Users will not be able to override this configuration in **Trust Center**. This helps enforce secure data transmission practices and reduces exposure to adversary-in-the-middle attacks. If you need to revert to the default behavior, you can turn off this setting directly in the Microsoft 365 admin center.
 
 ## Turn off setting in the Microsoft 365 admin center
 
