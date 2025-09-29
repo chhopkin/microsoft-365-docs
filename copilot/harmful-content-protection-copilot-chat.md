@@ -28,6 +28,7 @@ Microsoft is rolling out the ability to adjust harmful content protection settin
 
 > [!IMPORTANT]
 > Core responsible AI protections, such as prompt injection defense, copyright safeguards, and image protections are always enforced and can't be disabled.
+>    
 > When you configure harmful content protection settings, your policy doesn't affect images or agents. Harmful content protection settings apply only to text responses. Default content filters remain in place for images and agents, even when users disable harmful content protection in a Copilot Chat conversation.
 
 ## How harmful content protection settings work
