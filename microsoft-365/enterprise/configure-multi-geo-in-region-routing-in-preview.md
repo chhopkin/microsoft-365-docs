@@ -108,7 +108,7 @@ To adopt an MX target in mx.microsoft, do the following steps:
 
 ## Enable In-Region Routing (IRR)
 
-After you complete the [Prerequisites](#prerequisites) and the steps in [Adopt an MX target](#adopt-an-mx-target), do the following steps to enable IRR for the domain:
+After you complete the [Prerequisites](#prerequisites) and the steps in Adopt an MX target, do the following steps to enable IRR for the domain:
 
 1. [Connect to Exchange Online PowerShell](administering-exchange-online-multi-geo.md#connect-directly-to-a-geo-location-using-exchange-online-powershell) using an admin account.
 
