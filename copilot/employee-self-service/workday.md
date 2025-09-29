@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: dansimp
+manager: scotv
 ms.reviewer: semani
 ms.date: 07/3/2025
 ms.update-cycle: 180-days

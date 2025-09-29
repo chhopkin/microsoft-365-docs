@@ -3,7 +3,7 @@ title: Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat
 description: Learn how to use prepaid capacity packs for Copilot Studio to pay for Microsoft 365 Copilot Chat usage.
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.update-cycle: 180-days
 ms.reviewer: issahn, clalissayi
 audience: Admin

@@ -3,7 +3,7 @@ title: Known issues and limitations for the Employee Self-Service agent
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: dansimp
+manager: scotv
 ms.reviewer: semani
 ms.date: 7/21/2025
 audience: Admin

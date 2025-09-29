@@ -3,9 +3,9 @@ title: Our commitment to responsible AI
 description: Learn more about the data privacy control resources and information.
 author: kwekuako
 ms.author: kwekua
-manager: dansimp
+manager: scotv
 ms.topic: article
-ms.date: 05/29/2025
+ms.date: 09/25/2025
 ms.service: microsoft-365-copilot
 ms.collection: 
 - trust-pod
