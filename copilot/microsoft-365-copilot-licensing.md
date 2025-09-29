@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: aaroncz
 author: aczechowski
-manager: dansimp
+manager: scotv
 ms.date: 05/20/2025
 ms.update-cycle: 180-days
 audience: Admin
@@ -153,4 +153,4 @@ For more information, see:
 
 - [Microsoft 365 Copilot adoption guide and overview for IT admins](microsoft-365-copilot-reports-for-admins.md)
 - [Which Copilot is right for my organization?](which-copilot-for-your-organization.md)
-- [Start using Copilot in your Microsoft 365 apps](https://copilot.cloud.microsoft/prompts)
+- [Start using Copilot in your Microsoft 365 apps](https://m365.cloud.microsoft/copilot-prompts)

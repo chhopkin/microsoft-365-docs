@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: efrene
 author: Efrene
 ms.update-cycle: 180-days
-manager: dansimp
+manager: scotv
 ms.date: 08/27/2025
 audience: Admin
 ms.reviewer: mandia
@@ -32,12 +32,22 @@ appliesto:
 > - The **Try GPT-5** button will appear in Copilot Chat, whether users do or don't have a Microsoft 365 Copilot license.
 > - This model update doesn't change your [security, privacy, or compliance settings](/copilot/microsoft-365/manage-public-web-access).
 >
-> GPT-5 is not yet available in [Microsoft 365 Copilot GCC](https://adoption.microsoft.com/en-us/copilot/gcc/).
-> 
+> GPT-5 is not yet available in [Microsoft 365 Copilot GCC](https://adoption.microsoft.com/copilot/gcc/).
+>
 > For more information, see the following articles:
 >
 > - [Microsoft 365 Blog: Available today -- GPT-5 in Microsoft 365 Copilot](https://www.microsoft.com/en-us/microsoft-365/blog/2025/08/07/available-today-gpt-5-in-microsoft-365-copilot/)
 > - [Understanding foundation model changes in Microsoft 365 Copilot](https://techcommunity.microsoft.com/blog/microsoft_365blog/understanding-foundation-model-changes-in-microsoft-365-copilot/4440322)
+
+> [!NOTE]
+> Microsoft 365 Copilot is adding Anthropic's Claude AI models as an optional supporting LLM. User's can try Claude with their Copilot prompts by selecting Try Claude button in the Microsoft 365 Copilot app.
+>
+> Claude is not yet available in [Microsoft 365 Copilot GCC](https://adoption.microsoft.com/copilot/gcc/).
+>
+> For more information, see the following articles:
+>
+> - [Connect to Anthropic's AI models](connect-to-ai-models.md)
+> - [Use Claude with Researcher in Microsoft 365 Copilot](https://go.microsoft.com/fwlink/?linkid=2335703)
 
 **Microsoft 365 Copilot is an AI-powered tool that helps with your work tasks**.
 
@@ -55,13 +65,13 @@ You can also [create and use agents](/microsoft-365-copilot/extensibility) to cu
 
 This article is for IT admins. It describes the different components that Microsoft 365 Copilot uses and the Copilot features in the Microsoft 365 apps. To learn more about the architecture and how Copilot works, see [Microsoft 365 Copilot architecture and how it works](microsoft-365-copilot-architecture.md).
 
-This article applies to:
+This article applies to: 
 
 - Microsoft 365 Copilot
 
 > [!TIP]
 > - Home users might automatically get Microsoft Copilot, which is the free consumer version. To learn more, see [How can Copilot help you?](https://www.microsoft.com/microsoft-copilot/for-individuals) and [Welcome to Copilot on Windows](https://support.microsoft.com/windows/welcome-to-copilot-on-windows-675708af-8c16-4675-afeb-85a5a476ccb0).
-> - Get sample prompts at the [Copilot Prompt Gallery](https://copilot.cloud.microsoft/prompts) and training at the [Microsoft 365 Copilot Skilling Center](https://adoption.microsoft.com/copilot/skilling-center/).
+> - Get sample prompts at the [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts) and training at the [Microsoft 365 Copilot Skilling Center](https://adoption.microsoft.com/copilot/skilling-center/).
 > - Learn more about data privacy at [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
 
 ## The technical details
@@ -130,7 +140,7 @@ To learn more, see [Semantic indexing for Microsoft 365 Copilot](/microsoftsearc
 Microsoft 365 productivity apps (like Word, Excel, PowerPoint, Outlook, Teams, and Loop) work with Copilot to support users in the context of their work.
 
 > [!TIP]
-> To learn how users can use Copilot within Microsoft 365 apps, including sample prompts, see [Copilot Prompt Gallery](https://copilot.cloud.microsoft/prompts).
+> To learn how users can use Copilot within Microsoft 365 apps, including sample prompts, see [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts).
 
 Some of these features include:
 
@@ -183,5 +193,5 @@ More resources:
 
 - [Get licensing info](microsoft-365-copilot-licensing.md) and [set up Microsoft 365 Copilot](microsoft-365-copilot-setup.md).
 - Learn about [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
-- Get [sample prompts at the Copilot Prompt Gallery](https://copilot.cloud.microsoft/prompts) and [training at the Microsoft 365 Copilot Skilling Center](https://adoption.microsoft.com/copilot/skilling-center/).
+- Get [sample prompts at the Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts) and [training at the Microsoft 365 Copilot Skilling Center](https://adoption.microsoft.com/copilot/skilling-center/).
 - Stay up to date on the latest Copilot features, changes, and announcements using the [Message center](/microsoft-365/admin/manage/message-center) in the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/MessageCenter).
