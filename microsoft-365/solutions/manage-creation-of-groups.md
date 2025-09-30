@@ -2,7 +2,7 @@
 title: Manage who can create Microsoft 365 Groups
 f1.keywords: NOCSH
 ms.reviewer: rahulnayak
-ms.date: 03/13/2025
+ms.date: 09/30/2025
 author: officedocspr5
 ms.author: odocspr
 manager: jtremper
@@ -45,18 +45,23 @@ When you limit who can create a group, it affects all services that rely on grou
 - Power BI (classic)
 - Project for the web / Roadmap
 
-The steps in this article can't prevent members of certain roles from creating Groups. Microsoft 365 global admins can create groups via the Microsoft 365 admin center, Planner, Exchange, and SharePoint, but not other locations such as Teams. Other roles can create Microsoft 365 Groups via limited means:
+The steps in this article can't prevent members of certain roles from creating Groups. Microsoft 365 global admins can create groups via the Microsoft 365 admin center, Planner, Exchange, and SharePoint, but not other locations such as Teams. Other roles can create Microsoft 365 Groups via limited means, as summarized in the following table:
 
-- Exchange Administrator: Exchange admin center, Microsoft Entra ID
-- Partner Tier 1 Support: Microsoft 365 admin center, Exchange admin center, Microsoft Entra ID
-- Partner Tier 2 Support: Microsoft 365 admin center, Exchange admin center, Microsoft Entra ID
-- Directory Writers: Microsoft Entra ID
-- Groups Administrator: Microsoft Entra ID
-- SharePoint Administrator: SharePoint admin center, Microsoft Entra ID
-- Teams Service Administrator: Teams admin center, Microsoft Entra ID
-- User Administrator: Microsoft 365 admin center, Microsoft Entra ID
+| Role | Locations where they can create groups |
+|--|--|
+| Exchange Administrator | Exchange admin center<br/>Microsoft Entra ID |
+| Partner Tier 1 Support | Microsoft 365 admin center<br/>Exchange admin center<br/>Microsoft Entra ID |
+| Partner Tier 2 Support | Microsoft 365 admin center<br/>Exchange admin center<br/>Microsoft Entra ID |
+| Directory Writers | Microsoft Entra ID |
+| Groups Administrator | Microsoft Entra ID |
+| SharePoint Administrator | SharePoint admin center<br/>Microsoft Entra ID |
+| Teams Service Administrator | Teams admin center<br/>Microsoft Entra ID |
+| User Administrator | Microsoft 365 admin center<br/> Microsoft Entra ID |
 
 If you're a member of one of these roles, you can create Microsoft 365 Groups for restricted users, and then assign the user as the owner of the group.
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## Licensing requirements
 
@@ -121,17 +126,17 @@ $settingsObjectID = (Get-MgBetaDirectorySetting | Where-object -Property Display
 if(!$settingsObjectID)
 {
     $params = @{
-	  templateId = "62375ab9-6b52-47ed-826b-58e47e0e304b"
-	  values = @(
-		    @{
-			       name = "EnableMSStandardBlockedWords"
-			       value = $true
-		     }
-	 	     )
-	     }
-	
+      templateId = "62375ab9-6b52-47ed-826b-58e47e0e304b"
+      values = @(
+            @{
+                   name = "EnableMSStandardBlockedWords"
+                   value = $true
+             }
+              )
+         }
+    
     New-MgBetaDirectorySetting -BodyParameter $params
-	
+    
     $settingsObjectID = (Get-MgBetaDirectorySetting | Where-object -Property Displayname -Value "Group.Unified" -EQ).Id
 }
 
@@ -139,17 +144,17 @@ if(!$settingsObjectID)
 $groupId = (Get-MgBetaGroup -all | Where-object {$_.displayname -eq $GroupName}).Id
 
 $params = @{
-	templateId = "62375ab9-6b52-47ed-826b-58e47e0e304b"
-	values = @(
-		@{
-			name = "EnableGroupCreation"
-			value = $AllowGroupCreation
-		}
-		@{
-			name = "GroupCreationAllowedGroupId"
-			value = $groupId
-		}
-	)
+    templateId = "62375ab9-6b52-47ed-826b-58e47e0e304b"
+    values = @(
+        @{
+            name = "EnableGroupCreation"
+            value = $AllowGroupCreation
+        }
+        @{
+            name = "GroupCreationAllowedGroupId"
+            value = $groupId
+        }
+    )
 }
 
 Update-MgBetaDirectorySetting -DirectorySettingId $settingsObjectID -BodyParameter $params
