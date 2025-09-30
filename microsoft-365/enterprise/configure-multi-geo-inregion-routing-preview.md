@@ -26,7 +26,7 @@ This article describes the steps to configure accepted domains for IRR.
 
 ## Prerequisites
 
-- Before enabling Multi-Geo In-Region Routing, ensure that any certificate and/or IP address used in Connectors for mail sent from your on-premises infrastructure to Exchange Online is not also used for sending emails from your on-premises environment to external organizations over the Internet.  Using the same certificate or IP for both scenarios can cause issues with email attribution if you enable In-Region Routing, specifically when the recipient organization is hosted on Exchange Online. Outbound Internet mail from your on-premises environment must use a different certificate and/or IP address than those referenced in any of your Connectors from your on-premises infrastructure to Exchange Online.
+- Before enabling Multi-Geo In-Region Routing, ensure that any certificate and/or IP address used in Connectors for mail sent from your on-premises infrastructure to Exchange Online is not also used for sending emails from your on-premises environment to external organizations over the Internet. Using the same certificate or IP for both scenarios can cause issues with email attribution if you enable In-Region Routing, specifically when the recipient organization is hosted on Exchange Online. Outbound Internet mail from your on-premises environment must use a different certificate and/or IP address than those referenced in any of your Connectors from your on-premises infrastructure to Exchange Online.
 
 - Domains that use IRR must be visible in the Exchange admin center (EAC) as accepted domains. For more information configuring accepted domains, see [Manage accepted domains in Exchange Online](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
@@ -137,17 +137,21 @@ Set-OrganizationConfig  -InRegionRoutingEnabled $true
 
 4. Wait 30 minutes after enabling IRR to allow previously cached DNS records to expire and updated routing information to propagate. Then, send an email to recipients in the domain to verify whether mail flow is working as expected.
 
-Errors that you might encounter are described in the next section.
-
 ### Potential errors
 
 This section describes the types of error messages that are displayed if the mail flow isn't working as expected as a result of an IRR configuration failure.
 
-#### Wrong region error
-
 > 451 4.4.62 Mail sent to the wrong Office 365 region. ATTR35. For more information go to <https://go.microsoft.com/fwlink/p/?linkid=865268>.
 
 You get this SMTP error when mail is delivered to the wrong Microsoft 365 endpoint. If your organization is enabled for multi-geo and IRR, you shouldn't get this error if mail is delivered to a geo location [configured in your Exchange Online organization](administering-exchange-online-multi-geo.md#view-the-available-geo-locations-that-are-configured-in-your-exchange-online-organization).
+
+> 550 5.7.64 TenantAttribution; Relay Access Denied 
+ 
+You get this SMTP error when mail is attempted to be relayed through Microsoft 365 to a domain not hosted on Microsoft 365.
+
+> 550 4.4.4 Mail received as unauthenticated, incoming to a recipient domain configured in a hosted tenant which has no mail-enabled subscriptions. ATTR5
+ 
+You get this SMTP error when mail is sent to a domain hosted on Microsoft 365 but the tenant does not have a valid subscription to receive email.
 
 #### System errors
 
