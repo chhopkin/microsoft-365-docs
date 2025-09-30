@@ -163,7 +163,7 @@ Terms to know:
 **Requirement to use:** None.
 
 1. After message disclaimer (blank). Add message or delete it if you don't want the disclaimer to appear.
-1. Official source badge - no configuration required. You can use this setting in its default state.
+1. Official source badge - no configuration required. Use in the default state.
 
 |Step |Action |Expected result |
 |-----|-------|----------------|
