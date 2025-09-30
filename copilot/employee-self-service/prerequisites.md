@@ -34,8 +34,6 @@ The ESS Agent is built on top of Microsoft 365 Copilot. Users need the following
 |Users                         |Microsoft Teams |[Manage user access to Microsoft Teams](/microsoftteams/user-access) |
 |Environment admins and makers |Copilot Studio  |[Copilot Studio licensing and subscriptions](/microsoft-copilot-studio/requirements-licensing-subscriptions) |
 
-*Premium licenses are required for some third-party connectors.
-
 ## Set up Copilot Studio capacity
 
 The ESS agent uses agent flows. You need to set up the Copilot Studio capacity. [Learn about Copilot Studio capacity](/microsoft-copilot-studio/requirements-messages-management).

@@ -155,20 +155,22 @@ Terms to know:
 
 **Default:** On
 
+**Topic JTBD:** Redirect User Context retrieval topics and attributes from other data sources to improve response relevancy.
+
 **Maker JTBD:** Maker needs to add redirection of the User Context retrieval topics from different ESS agent ISV packages. Or, if Makers configure other Topics to retrieve User Context attributes from other systems, then they should also be added as Topic redirections in this Topic.
 
 **Maker - What to customize:** </br>
 **Requirement to use:** None.
 
 1. After message disclaimer (blank). Add message or delete it if you don't want the disclaimer to appear.
-1. Official source badge - no configuration required. You can use this setting in its default state.
+1. Official source badge - no configuration required. Use in its default state.
 
 |Step |Action |Expected result |
 |-----|-------|----------------|
 |1    |Open the ESS agent in Copilot Studio. |ESS agent available to customize. |
 |2    |Navigate to **Topics** to see the list of Topics. |Shows Custom Topics. |
 |3    |Select **[Admin] User Context - Setup**. |Opens custom topic in the design canvas. |
-|4    |Add a redirect to another Topic where it sets the user context, such as one from an ISV. |Maker able to add a custom disclaimer message. |
+|4    |Add a redirect to another Topic where it sets the user context, such as one from an ISV. |Maker able to set user context. |
 |5    | Save the changes. |Your changes are saved. |
 
 #### [System] Response Preparation
@@ -188,7 +190,7 @@ Terms to know:
 **Requirement to use:** None.
 
 1. After message disclaimer (blank). Add message or delete it if you don't want the disclaimer to appear.
-1. Official source badge - no configuration required. You can use this setting in its default state. |
+1. Official source badge - no configuration required. Use in its default state.
 
 |Step |Action |Expected result |
 |-----|-------|----------------|
