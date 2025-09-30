@@ -20,7 +20,7 @@ ms.custom:
 description: Learn about the security features available in Microsoft 365 for business.
 ms.service: microsoft-365-business-security
 adobe-target:
-ms.date: 09/24/2025
+ms.date: 09/30/2025
 appliesto:
   - ✅ <a href="https://www.microsoft.com/microsoft-365/business/microsoft-365-business-basic" target="_blank">Microsoft 365 Business Basic</a>
   - ✅ <a href="https://www.microsoft.com/microsoft-365/business/microsoft-365-business-standard" target="_blank">Microsoft 365 Business Standard</a>
@@ -70,7 +70,7 @@ These security categories are described in the following sections and are summar
 
 Watch this short video for more information:
 
-> [!VIDEO https://youtu.be/QJVHNfvzXrc]
+<iframe width="1039" height="584" src="https://www.youtube.com/embed/QJVHNfvzXrc" title="Get started with security settings" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Account security
 
