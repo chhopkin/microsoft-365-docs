@@ -5,12 +5,11 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: scotv
 ms.reviewer: semani
-ms.date: 7/3/2025
+ms.date: 09/29/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
-robots: NOINDEX, NOFOLLOW
 ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn about the last step in the deployment process for the Employee Self-Service agent.
@@ -21,7 +20,7 @@ appliesto:
 # Publish the Employee Self-Service agent to your organization
 
 >[!NOTE]
->The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
+>The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
 Publishing the Employee Self-Service (ESS) agent makes it available to your users. Currently, the ESS agent supports publishing to Copilot Business Chat.
 

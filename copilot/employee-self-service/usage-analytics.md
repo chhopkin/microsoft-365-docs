@@ -5,12 +5,11 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: scotv
 ms.reviewer: semani
-ms.date: 7/3/2025
+ms.date: 09/29/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
-robots: NOINDEX, NOFOLLOW
 ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn how to access usage analytics for the Employee Self-Service agent.
@@ -41,6 +40,8 @@ Feedback about Copilot is collected from Copilot experiences, such as when selec
 >If using Copilot for work or school, the IT admin can turn off feedback. If the thumb options don't appear next to Copilot responses or if selecting a thumb doesn't open the feedback pane, your organization's IT admin may have turned off feedback.
 
 You can view feedback in the [Microsoft feedback portal](https://feedbackportal.microsoft.com/feedback). To view feedback submitted to Microsoft, select **My feedback** and sign in. If using Copilot at work or school, your IT admin might not allow use of the feedback portal.
+
+Administrators can view end-user feedback in the **Product feedback** page in the Microsoft admin center (MAC) under the **Health** section.
 
 ## Auditing and logging
 
