@@ -110,9 +110,8 @@ Before you disable EWS, make sure that you meet these requirements to avoid disr
 
 Currently, the following features don't work when baseline security mode settings are enabled:
 
-- Calendar sharing and Free/Busy (cross-tenant/cloud).
-- MailTips (cross-tenant/cloud).
-- User photo and profile (cross-tenant/cloud).
+- Calendar sharing and Free/Busy (cross-tenant/cloud)
+- MailTips (cross-tenant/cloud)
 
 #### Impact of baseline security mode on hybrid deployments
 
