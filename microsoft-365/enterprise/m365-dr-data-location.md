@@ -1,15 +1,15 @@
 ---
 title: Learn More about The Data Location Card
 description: Learn More about The Data Location Card
-ms.author: scotv
+ms.author: v-fahasen
 author: fhasen-msft
-manager: bpardi
+manager: Justin.Giammona
 ms.service: microsoft-365-enterprise
 ms.subservice: advanced-data-residency
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.date: 02/24/2025
+ms.date: 08/04/2025
 ms.reviewer: fahasen
 ms.custom:
 - it-pro
