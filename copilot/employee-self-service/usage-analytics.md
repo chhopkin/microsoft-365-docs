@@ -41,6 +41,8 @@ Feedback about Copilot is collected from Copilot experiences, such as when selec
 
 You can view feedback in the [Microsoft feedback portal](https://feedbackportal.microsoft.com/feedback). To view feedback submitted to Microsoft, select **My feedback** and sign in. If using Copilot at work or school, your IT admin might not allow use of the feedback portal.
 
+Administrators can view end-user feedback in the **Product feedback** page in the Microsoft admin center (MAC) under the **Health** section.
+
 ## Auditing and logging
 
 The ESS agent is built on Copilot and Power Platform. You can use auditing capabilities from these platforms to log and monitor usage.
