@@ -170,7 +170,7 @@ Terms to know:
 |1    |Open the ESS agent in Copilot Studio. |ESS agent available to customize. |
 |2    |Navigate to **Topics** to see the list of Topics. |Shows Custom Topics. |
 |3    |Select **[Admin] User Context - Setup**. |Opens custom topic in the design canvas. |
-|4    |Add a redirect to another Topic where it sets the user context, such as one from an ISV. |Maker able to add a custom disclaimer message. |
+|4    |Add a redirect to another Topic where it sets the user context, such as one from an ISV. |Maker able to set user context. |
 |5    | Save the changes. |Your changes are saved. |
 
 #### [System] Response Preparation
