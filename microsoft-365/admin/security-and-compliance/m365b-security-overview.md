@@ -68,9 +68,10 @@ These security categories are described in the following sections and are summar
 |&nbsp;&nbsp;Microsoft Defender for Business|||✔|
 |&nbsp;&nbsp;Microsoft Defender Suite for Business Premium|||Purchased separately<br/>(includes Defender for Endpoint Plan 2)|
 
+<!---
 Watch this short video for more information:
 
-<iframe width="850" height="478" src="https://www.youtube.com/embed/QJVHNfvzXrc" title="Get started with security settings" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="850" height="478" src="https://www.youtube.com/embed/QJVHNfvzXrc" title="Get started with security settings" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>--->
 
 ## Account security
 
