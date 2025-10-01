@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 09/17/2025
+ms.date: 10/01/2025
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-business
@@ -33,7 +33,7 @@ description: "Learn about admin roles, such as the global admin role, or the ser
 
 > Check out [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) on YouTube.
 
-Your Microsoft 365 or Office 365 subscription comes with a set of administrator roles that you can assign to users in your organization in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>. Each administrator role maps to common business functions and gives people in your organization permissions to do specific tasks in the admin centers.
+Your Microsoft 365 or Office 365 subscription comes with a set of administrator roles that you can assign to users in your organization in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339). Each administrator role maps to common business functions and gives people in your organization permissions to do specific tasks in the admin centers.
 
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions, and that you limit the number of users who have administrative permissions. 
@@ -45,16 +45,18 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=09f25c9c-6c0b-4e0d-85c6-acd0964d39d9]
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com) and sign in. If you can access the Microsoft 365 admin center, you're an administrator, and you can proceed to the next step.
+
 2. In the left navigation pane, select **Users** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">**Active users**</a>.
+
 3. Select the user account for the person who you want to make an administrator. The user's details appear in the right dialog box.
 
 ## Before you begin
 
 The <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a> lets you manage Microsoft Entra roles and Microsoft Intune roles. However, these roles are a subset of the roles available in the Microsoft Entra admin center and the Microsoft Intune admin center.
 
-- For the full list of detailed Microsoft Entra role descriptions you can manage in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, check out Administrator role permissions in [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference).
+- For the full list of detailed Microsoft Entra role descriptions you can manage in the Microsoft 365 admin center, check out Administrator role permissions in [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference).
 
-- For the full list of detailed Intune role descriptions you can manage in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, check out [Role-based access control (RBAC) with Microsoft Intune](/mem/intune/fundamentals/role-based-access-control).
+- For the full list of detailed Intune role descriptions you can manage in the Microsoft 365 admin center, check out [Role-based access control (RBAC) with Microsoft Intune](/mem/intune/fundamentals/role-based-access-control).
 
 For more information on assigning roles in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, see [Assign admin roles](assign-admin-roles.md).
 
