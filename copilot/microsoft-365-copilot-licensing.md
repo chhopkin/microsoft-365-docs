@@ -31,6 +31,10 @@ As part of your [Microsoft 365 Copilot adoption](microsoft-365-copilot-enablemen
 
 Microsoft 365 Copilot is available as an [add-on plan](https://www.microsoft.com/microsoft-365/microsoft-copilot) with one of the licensing prerequisites listed in this article. The [Microsoft 365 Copilot service description guide](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot) is also a good resource.
 
+Highlights of key Microsoft 365 Copilot differences are shown in the following image:
+
+:::image type="content" source="media/microsoft-365-copilot-license-comparison.png" alt-text="Illustrates key capability differences between Copilot offered in Microsoft 365 licensing and the dedicatd Microsoft 365 Copilot add on license." lightbox="media/microsoft-365-copilot-license-comparison.png":::
+
 Use the information in this article to determine if your organization has the correct Microsoft 365 subscription plan to add Microsoft 365 Copilot. If you or your account doesn't have the right plan, you can purchase a new plan or possibly upgrade your existing plan.
 
 To learn more, see:
