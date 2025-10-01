@@ -117,15 +117,15 @@ The following table lists administrator roles and information about who should b
 |Power Platform administrator |   Assign the Power Platform admin role to users who need to do the following tasks: <br> &bull; Manage all admin features for Power Apps, Power Automate, Power BI, Microsoft Fabric, and Microsoft Purview Data Loss Prevention<br> &bull; Create and manage service requests<br> &bull; Monitor service health  |
 |Reports reader |   Assign the Reports reader role to users who need to do the following tasks: <br> &bull; View usage data and the activity reports in the Microsoft 365 admin center<br> &bull; Get access to the Power BI adoption content pack<br> &bull; Get access to sign-in reports and activity in Microsoft Entra ID<br> &bull; View data returned by Microsoft Graph reporting API|
 |Search administrator |  Assign the Search admin role to users who need to create and manage search result content and define query settings for improved search results within the organization. The Search admin manages the Microsoft search configuration and can perform all the content-management tasks that a Search editor can.|
-|Service Support administrator   |   Assign the Service Support admin role as an additional role to administrators or users who need to do the following in addition to their usual admin role: <br> &bull; Open and manage service requests<br> &bull; View and share message center posts<br> &bull; Monitor service health   |
+|Service Support administrator   |   Assign the Service Support admin role as another role to administrators or users who need to do the following tasks in addition to their usual admin role: <br> &bull; Open and manage service requests<br> &bull; View and share message center posts<br> &bull; Monitor service health   |
 |SharePoint administrator    |   Assign the SharePoint admin role to users who need to access and manage the SharePoint Online admin center. <br><br>SharePoint administrators can also: <br> &bull; Create and delete sites<br> &bull; Manage site collections and global SharePoint settings   |
 |Teams administrator    |   Assign the Teams administrator role to users who need to access and manage the Teams admin center. <br><br>Teams administrator can also: <br> &bull; Manage meetings<br> &bull; Manage conference bridges<br> &bull; Manage all org-wide settings, including federation, teams upgrade, and teams client settings   |
-|User administrator     |    Assign the User admin role to users who need to do the following for all users: <br> &bull; Add users and groups<br> &bull; Assign licenses<br> &bull; Manage most users properties<br> &bull; Create and manage user views<br> &bull; Update password expiration policies<br> &bull; Manage service requests<br> &bull; Monitor service health <br><br>  The user admin can also do the following actions for users who aren't administrators and for users assigned the following roles: Directory reader, Guest inviter, Helpdesk admin, Message center reader, Reports reader: <br> &bull; Manage usernames<br> &bull; Delete and restore users<br> &bull; Reset passwords<br> &bull; Force users to sign out<br> &bull; Update (FIDO) device keys   |
+|User administrator     |    Assign the User admin role to users who need to do the following tasks for all users: <br> &bull; Add users and groups<br> &bull; Assign licenses<br> &bull; Manage most users properties<br> &bull; Create and manage user views<br> &bull; Update password expiration policies<br> &bull; Manage service requests<br> &bull; Monitor service health <br><br>  The user admin can also do the following actions for users who aren't administrators and for users assigned the following roles: Directory reader, Guest inviter, Helpdesk admin, Message center reader, Reports reader: <br> &bull; Manage usernames<br> &bull; Delete and restore users<br> &bull; Reset passwords<br> &bull; Force users to sign out<br> &bull; Update (FIDO) device keys   |
 |User Experience Success Manager     |    Assign the User Experience Success Manager role to users who need to access Experience Insights, Adoption Score, and the Message Center in the Microsoft 365 admin center. This role includes the permissions of the Usage Summary Reports Reader role.    |
 
 ## Permissions based on administrator roles and Group type in the Microsoft 365 admin center
 
-|Administrator Role | M365 Groups   | Security Groups  | Distribution Groups   | Mail Enabled Security Groups   |
+|Administrator Role | Microsoft 365 Groups   | Security Groups  | Distribution Groups   | Mail Enabled Security Groups   |
 | --- | --- | --- | --- | --- |
 | Global administrator  | Create, Read, Update, Delete  | Create, Read, Update, Delete | Create, Read, Update, Delete | Create, Read, Update, Delete |
 | Global reader  | Read | Read  | Read | Read |
@@ -140,7 +140,7 @@ The following table lists administrator roles and information about who should b
 
 ## Delegated administration for Microsoft Partners
 
-If you're working with a Microsoft partner, you can assign them admin roles. They, in turn, can assign users in your company, or their company, admin roles. You may want to assign admin roles to partners if they're setting up and managing your online organization for you.
+If you're working with a Microsoft partner, you can assign them admin roles. They, in turn, can assign users in your company, or their company, admin roles. You might want to assign admin roles to partners if they're setting up and managing your online organization for you.
   
 A partner can assign these roles:
   
