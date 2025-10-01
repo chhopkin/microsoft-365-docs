@@ -28,7 +28,7 @@ appliesto:
 
 Copilot is Microsoft's AI-powered virtual assistant. It uses large language models (LLMs) to answer your questions using a prompt and response interaction.
 
-There are different Copilots available. In the scope of Microsoft 365, two variants of Copilot are offered, based on licensing. Highlights of key Copilot differences are shown in the following image:
+There are different Copilots available. In the scope of Microsoft 365, two variants of Copilot are offered, based on licensing. Highlights of key Microsoft 365 Copilot differences are shown in the following image:
 
 :::image type="content" source="media/microsoft-365-copilot-license-comparison.png" alt-text="Illustrates key capability differences between Copilot offered in Microsoft 365 licensing and the dedicatd Microsoft 365 Copilot add on license." lightbox="media/microsoft-365-copilot-license-comparison.png":::
 
