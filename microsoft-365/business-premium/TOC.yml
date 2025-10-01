@@ -11,8 +11,8 @@ items:
       href: /microsoft-365/admin/security-and-compliance/m365b-security-best-practices
     - name: Trial user guide - Microsoft 365 Business Premium
       href: m365bp-trial-playbook-microsoft-business-premium.md
-    - name: Add Microsoft 365 E5 Security to your subscription
-      href: /microsoft-365/admin/security-and-compliance/m365bp-add-m365e5s?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
+    - name: Add Microsoft Defender Suite for Business Premium to your subscription
+      href: /microsoft-365/admin/security-and-compliance/add-defender-suite-business-premium?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
     - name: Resources for partners
       href: /defender-business/mdb-partners?toc=/microsoft-365/business-premium/toc.json&bc=/microsoft-365/business-premium/breadcrumb/toc.json
 - name: Step 1- Sign in and set up

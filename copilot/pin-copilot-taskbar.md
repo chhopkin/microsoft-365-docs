@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: aaroncz
 author: aczechowski
-manager: dansimp
+manager: scotv
 ms.reviewer: christin,vmirapur
 ms.update-cycle: 180-days
 ms.date: 08/05/2025
@@ -29,11 +29,14 @@ ms.collection:
 As an admin, you can pin the Microsoft 365 Copilot app to the Windows taskbar of managed devices. This behavior gives users quick access to the Microsoft 365 Copilot app, which includes Copilot Chat, Search, Agents, and more, if these capabilities are already available to them. If your organization uses Microsoft Intune, use the Microsoft 365 admin center to automatically pin the app on all Windows 10 and Windows 11 Intune-managed devices with the Copilot app installed. This single toggle simplifies the pinning process instead of manually creating and deploying a Start layout policy. The setting is off by default.
 
 > [!NOTE]
-> The information in this article is specific to the Microsoft 365 Copilot app and the Windows taskbar. You can also [pin the Copilot Chat experience in the Microsoft 365 apps](pin-copilot-chat-navbar.md) in Microsoft 365 apps. The **Microsoft 365 Copilot app** is a standalone application that provides access to Chat, Search, Agents (if enabled), Notebooks, and Create. **Copilot Chat** is an integrated chat experience available within Microsoft 365 apps. To understand the difference between the Copilot app and Copilot Chat, see [Decide which Copilot is right for you](which-copilot-for-your-organization.md).
+> The information in this article is specific to the Microsoft 365 Copilot app and the Windows taskbar. You can also [pin the Copilot Chat experience in the Microsoft 365 apps](pin-copilot-chat-navbar.md). The **Microsoft 365 Copilot app** is a standalone application that provides access to Chat, Search, Agents (if enabled), Notebooks, and Create. **Copilot Chat** is an integrated chat experience available within Microsoft 365 apps. To understand the difference between the Copilot app and Copilot Chat, see [Decide which Copilot is right for you](which-copilot-for-your-organization.md).
 
 ## Prerequisites
 
 - To configure Copilot taskbar pinning in the Microsoft 365 admin center, you need to be assigned the **Intune Administrator** role.
+
+  > [!IMPORTANT]
+  > Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 - To configure this setting in the Microsoft 365 admin center, your tenant must have at least one active Intune license.
 
