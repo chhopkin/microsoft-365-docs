@@ -22,7 +22,7 @@ description: "SharePoint Cross-tenant migration feature FAQs"
 ## Premigration FAQs
 
 **Question:** Can a SharePoint account have any content in the **target tenant** before migration?</br>
-**Answer:** No. The tool doesn't support Merge functionality with existing content. The user being migrated must not have a pre-existing SharePoint on the target tenant.
+**Answer:** No. The tool doesn't support Merge functionality with existing content. The user being migrated must not have a preexisting SharePoint on the target tenant.
 
 **Question:** Can users be precreated on the target tenant?</br>
 **Answer:** Yes, all Users/Groups that are identified for migration should be precreated on the target tenant and appropriate licenses assigned before staring any migrations. Also:
