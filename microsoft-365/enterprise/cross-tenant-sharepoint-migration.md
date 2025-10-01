@@ -32,12 +32,12 @@ Up to 4,000 SharePoint accounts can be scheduled for migration in advance at a g
 
 ## How to participate
 
-The **Cross-Tenant User Content Migration** feature and licenses are currently only available to Enterprise Agreement customers.
+The **Cross-Tenant Shared Data Migration** feature and licenses are currently only available to Enterprise Agreement customers.
 
-If you're an Enterprise Agreement customer purchasing Cross-Tenant User Content Migration licenses, and you want to evaluate Cross-Tenant SharePoint migration to improve your migration experience:
+If you're an Enterprise Agreement customer purchasing Cross-Tenant Shared Data Migration licenses, and you want to evaluate Cross-Tenant SharePoint migration to improve your migration experience:
 
 - Contact your Microsoft account team.
-- [**Learn more at Cross-Tenant User Content Migration Licensing**](/microsoft-365/enterprise/cross-tenant-mailbox-migration).
+- [**Learn more at Cross-Tenant Shared Data Content Migration Licensing**](/microsoft-365/enterprise/cross-tenant-sharepoint-migration).
 - Licenses are offered on a per 100 GB of data moved basis.
 
 >[!Note]
@@ -88,7 +88,7 @@ You can migrate sites directly into individual satellite geo instances as needed
 - The identity mapping file must be uploaded to every target instance.
 - When you migrate in multi-geo environments, each source instance is subject to the 4000 queue size limit regardless of the number of target tenants.
 - Establishing multiple trusts allows you to move sites directly into a geo instance of choice.
-- If a site is migrated to an incorrect instance, you can't use Cross Tenant User Migration to move it between instances of the same tenant.
+- If a site is migrated to an incorrect instance, you can't use Cross Tenant Shared Data Migration to move it between instances of the same tenant.
 
 Use the appropriate multi geo commands to move the site between geo instance of the same tenant.
 - To move OneDrive sites between instances, see [Move a OneDrive site.](/microsoft-365/enterprise/m365-dr-workload-spo).
@@ -166,9 +166,9 @@ You can schedule SharePoint site migrations in advance but consider the followin
 
 ## Get started
 
-- **Step 1:** [Connect to the source and the target tenants](cross-tenant-onedrive-migration-step1.md).  
-- **Step 2:** [Establish trust between the source and the target tenant](cross-tenant-onedrive-migration-step2.md)
-- **Step 3:** [Verify trust is established](cross-tenant-onedrive-migration-step3.md)
+- **Step 1:** [Connect to the source and the target tenants](cross-tenant-sharepoint-migration-step1.md).  
+- **Step 2:** [Establish trust between the source and the target tenant](cross-tenant-sharepoint-migration-step2.md)
+- **Step 3:** [Verify trust is established](cross-tenant-sharepoint-migration-step3.md)
 - **Step 4:** [Precreate users and groups](cross-tenant-sharepoint-migration-step4.md)  
 - **Step 5:** [Prepare identity mapping](cross-tenant-sharepoint-migration-step5.md)
 - **Step 6:** [Start a Cross-tenant SharePoint migration](cross-tenant-sharepoint-migration-step6.md)
