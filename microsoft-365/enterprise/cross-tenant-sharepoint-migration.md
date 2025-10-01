@@ -132,7 +132,7 @@ Web parts that reference content in other SharePoint Sites and/or other Microsof
 
 ### Sensitivity labels
 
-Labels associated with migrated files may not display correctly in M365 user experiences. In addition, any protection or policy associated with the original label won't be present after migration. To apply protection or policy, the recommendation is to remove labels from files before migration, and reapply new labels as appropriate after migration.
+Labels associated with migrated files may not display correctly in Microsoft 365 user experiences. In addition, any protection or policy associated with the original label won't be present after migration. To apply protection or policy, the recommendation is to remove labels from files before migration, and reapply new labels as appropriate after migration.
 
 #### Sensitivity Labels with User-Defined Permissions
 
