@@ -28,7 +28,7 @@ description: "SharePoint Cross-tenant migration feature FAQs"
 **Answer:** Yes, all Users/Groups that are identified for migration should be precreated on the target tenant and appropriate licenses assigned before staring any migrations. Also:
 
 - SharePoint site creation should be restricted in the target tenant to prevent users creating SharePoint sites.
-- If a SharePoint site already exists for the user on the target tenant the migration fails.
+- The migration fails if a SharePoint site already exists for the user on the target tenant.
 - You can't overwrite an existing site.
 - SharePoint sites should NOT be created before OR during a migration.
 
@@ -57,7 +57,7 @@ description: "SharePoint Cross-tenant migration feature FAQs"
 **Answer:** After the SharePoint cross-tenant migration, existing shared links for files that were migrated automatically redirect to the new target location.
 
 **Question:** How are shared files handled?</br>
-Selecting a sharing link to the old location redirects to the new location. The original/source tenant is deprovisioned or can be removed by the admin site-by-site basis.
+Selecting a sharing link to the old location redirects to the new location. The original/source tenant is deprovisioned or the admin can remove it on a site-by-site basis.
 
 **Question:** Do external Shared Files still work?</br>
 **Answer:**  As part of the migration process, Admins must precreate the appropriate users on the destination tenant, including guest/external users,  and provide the tool with an "Identity Map." The identify map tells us how to adjust file/site ownership and permissions.
