@@ -14,12 +14,9 @@ ms.collection:
 - M365-collaboration
 - m365initiative-migratetom365
 search.appverid: MET150
-description: "Learn about the Cross-tenant SharePoint migration solution to migrate your SharePoint sites from tenant to tenant, currently in preview."
+description: "Learn about the Cross-tenant SharePoint migration solution to migrate your SharePoint sites from tenant to tenant."
 ---
 # Cross-tenant SharePoint migration
-
-<!-- >[!Note]
->Cross-Tenant SharePoint migration is currently in a private preview stage of development. As an unfinished project, any information or availability is subject to change at any time. Support for private-preview customers is handled via email. Cross-Tenant SharePoint migration is covered by //the preview terms of the [Microsoft Universal License Terms for Online Services](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all).-->
 
 SharePoint sites can now be moved from one tenant to another using the Cross-tenant SharePoint migration feature.
 
