@@ -92,7 +92,7 @@ To adopt an MX target in mx.microsoft, do the following steps:
 
       Successful completion of the test looks like this:
 
-   ![User's image](media/configure-multi-geo-in-region-routing-in-preview/image.png)
+   ![User's image](media/configure-multi-geo-in-region-routing-in-preview/connectivity-test-successful-output.png)
    
    
    
