@@ -51,7 +51,7 @@ description: "SharePoint Cross-tenant migration feature FAQs"
 ## Post-migration FAQs
 
 **Question:** What happens to permissions on SharePoint content?</br>
-**Answer:** Users with permissions to SharePoint content continues to have access to their content upon completion on the new target tenant. if those users/groups were included as part of the Identity Map and mapped accordingly.
+**Answer:** Users with permissions to SharePoint content continue to have access to their content upon completion on the new target tenant. if those users/groups were included as part of the Identity Map and mapped accordingly.
 
 **Question:** What happens to sharing links?</br>
 **Answer:** After the SharePoint cross-tenant migration, existing shared links for files that were migrated automatically redirect to the new target location.
