@@ -1,9 +1,9 @@
 ---
-title: SharePoint site Cross-tenant SharePoint migration Step 6 (preview)
+title: SharePoint site Cross-tenant SharePoint migration Step 6
 ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
-ms.date: 10/13/2023
+ms.date: 10/01/2025
 recommendations: true
 audience: ITPro
 ms.topic: how-to
@@ -16,10 +16,7 @@ ms.collection:
 search.appverid: MET150
 description: "Step 6 of the SharePoint site Cross-tenant migration feature"
 ---
-# Step 6: Start a SharePoint site cross-tenant migration (preview)
-
-> [!NOTE]
-> Cross-Tenant SharePoint migration is currently in a private preview stage of development. As an unfinished project, any information or availability is subject to change at any time. Support for private-preview customers will be handled via email. Cross-Tenant SharePoint migration is covered by the preview terms of the [Microsoft Universal License Terms for Online Services](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all).
+# Step 6: Start a SharePoint site cross-tenant migration
 
 This is Step 6 in a solution designed to complete a Cross-tenant SharePoint migration. To learn more, see [Cross-tenant SharePoint migration overview](cross-tenant-SharePoint-migration.md).
 
