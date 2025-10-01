@@ -1,5 +1,5 @@
 ---
-title: Cross-tenant SharePoint site migration overview (preview)
+title: Cross-tenant SharePoint site migration overview
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
