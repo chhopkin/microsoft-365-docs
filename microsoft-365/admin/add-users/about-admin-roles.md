@@ -64,7 +64,7 @@ For more information on assigning roles in the <a href="https://go.microsoft.com
 
 Because administrators have access to sensitive data and files, we recommend that you follow these guidelines to keep your organization's data more secure.
 
-| Recommendation   | Why is this important? |
+| Recommendation   | Why it's important |
 | :------------------- | :------------------- |
 | Have as few global administrators as possible  | Global Administrators have almost unlimited access to your organization's settings and most of its data. We recommend you limit the number of Global Administrators as much as possible. A Global Administrator may inadvertently lock their account and require a password reset. Either another Global Administrator or a Privileged Authentication Administrator can reset a Global Administrator's password. Therefore, we recommend you have at least a Privileged Authentication administrator in the event a Global Administrator is locked out of their account. |
 | Assign the *least permissive* role    | Assigning the *least permissive* role means giving administrators only the access they need to get the job done. For example, if you want someone to reset employee passwords you shouldn't assign the unlimited global administrator role; instead, you should assign a limited administrator role, like Password Administrator or Helpdesk Administrator.  |
