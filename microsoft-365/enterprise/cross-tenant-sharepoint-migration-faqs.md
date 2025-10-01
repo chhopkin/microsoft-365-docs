@@ -3,7 +3,7 @@ title: SharePoint Cross-tenant SharePoint migration FAQs
 ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
-ms.date: 10/13/2023
+ms.date: 10/01/2025
 recommendations: true
 audience: ITPro
 ms.topic: faq
