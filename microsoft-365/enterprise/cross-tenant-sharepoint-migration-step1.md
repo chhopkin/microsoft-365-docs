@@ -1,9 +1,9 @@
 ---
-title: SharePoint Cross-tenant SharePoint migration Step 1 (preview)
+title: SharePoint Cross-tenant SharePoint migration Step 1
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 08/15/2025
+ms.date: 10/01/2025
 recommendations: true
 audience: ITPro
 ms.topic: how-to
@@ -17,9 +17,6 @@ search.appverid: MET150
 description: "Step 1 of the SharePoint Cross-tenant migration feature"
 ---
 # Step 1: Connect to the source and target tenants (SharePoint)
-
-<!-- >[!Note]
->Cross-Tenant SharePoint migration is currently in a private preview stage of development. As an unfinished project, any information or availability is subject to change at any time. Support for private-preview customers will be handled via email. Cross-Tenant SharePoint migration is covered by //the preview terms of the [Microsoft Universal License Terms for Online Services](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all).-->
 
 This article is Step 1 in a solution designed to complete a **Cross-tenant SharePoint migration**. To learn more, see [Cross-tenant SharePoint migration overview](cross-tenant-SharePoint-migration.md).
 
