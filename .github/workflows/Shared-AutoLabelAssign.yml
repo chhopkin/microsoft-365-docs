@@ -19,11 +19,18 @@ on:
             AutoAssignUsers:
                 required: true
                 type: string 
+            AutoAssignReviewers:
+                required: true
+                type: string
             AutoLabel:
                 required: true
                 type: string 
         secrets:
             AccessToken:
+                required: true
+            PrivateKey:
+                required: true
+            ClientId:
                 required: true
 
 jobs:
@@ -32,12 +39,23 @@ jobs:
       if: github.repository_owner == 'MicrosoftDocs'
       runs-on: ubuntu-latest
       steps:
+
+        - name: Create App Token
+          id: app-token
+          uses: actions/create-github-app-token@v1
+          with:
+              app-id:      ${{ secrets.ClientId }}
+              private-key: ${{ secrets.PrivateKey }}
+              owner: ${{ github.repository_owner }}
+
         - name: Script
           shell: pwsh
           env: 
             PayloadJson: ${{ inputs.PayloadJson }}
             AccessToken: ${{ secrets.AccessToken }}
+            AppGitHubAccessToken: ${{ steps.app-token.outputs.token }}
             AutoAssignUsers: ${{ inputs.AutoAssignUsers }}
+            AutoAssignReviewers: ${{ inputs.AutoAssignReviewers }}
             AutoLabel: ${{ inputs.AutoLabel }}
             ExcludedUserList: ${{ inputs.ExcludedUserList }}
             ExcludedBranchList: ${{ inputs.ExcludedBranchList }}
@@ -46,6 +64,7 @@ jobs:
             $RepoRoot = $env:RUNNER_WORKSPACE
             $GitHubData = $env:PayloadJson | ConvertFrom-Json -Depth 50
             $AccessToken = $env:AccessToken
+            $GitHubApiUrl = "https://api.github.com/repos/MicrosoftDocs/"
 
             $GitRequestEvent = $GitHubData.event_name
             $DefaultBranch = $GitHubData.event.repository.default_branch
@@ -57,17 +76,25 @@ jobs:
             $RepoLabelUrl = $GitHubData.event.repository.labels_url
             $PrFileListUrl = "$($GitHubData.event.pull_request.url)/files"
             $IssueUrl = $GitHubData.event.pull_request.issue_url
+            $PrUrl = $GitHubData.event.pull_request.url
+            $PrCreator = $GitHubData.event.pull_request.user.login
 
             $AutoAssignUsers = [bool][int]$env:AutoAssignUsers  # If it works, it works!
-            $AutoLabel = [bool][int]$env:AutoLabel              # Ditto
+            $AutoAssignReviewers = [bool][int]$env:AutoAssignReviewers  # Ditto
+            $AutoLabel = [bool][int]$env:AutoLabel              # Ditto ditto
             $ExcludedUserList = $env:ExcludedUserList | ConvertFrom-Json
             $ExcludedBranchList = $env:ExcludedBranchList | ConvertFrom-Json
-
+            $AppGitHubAccessToken = $env:AppGitHubAccessToken
 
             # Set GitHub REST API headers
             $GitHubHeaders = @{}
             $GitHubHeaders.Add("Authorization","token $AccessToken")
-            $GitHubHeaders.Add("User-Agent", "dstrome")
+            $GitHubHeaders.Add("User-Agent", "OfficeDocs")
+
+            # Create github HTTP authentication header using GitHub app installation token
+            $AppGitHubAccessHeaders = @{}
+            $AppGitHubAccessHeaders.Add("Authorization","token $($AppGitHubAccessToken)")
+            $AppGitHubAccessHeaders.Add("User-Agent", "OfficeDocs")
 
             # Regex for string matches
             $AuthorRegex = "(?m)^(author:\s{0,3})([\w|\-]{1,39})"
@@ -80,14 +107,15 @@ jobs:
             $LabelColor = "BFDADC"
             $LabelDescription = ""
 
+            $ServiceToGitHubUserMapRepo = "officedocs-pr"
+            $ServiceToGitHubUserMapFilePath = "/contents/.github/workflows/resources/service-subservice-to-github-user-map.csv"
+            $ServiceToGitHubUserMapRef = $DefaultBranch
+            $ServiceToGitHubUserMapUrl = $GitHubApiUrl + $ServiceToGitHubUserMapRepo + $ServiceToGitHubUserMapFilePath + "?ref=$ServiceToGitHubUserMapRef"
+
             # Set repo variables
             $RepoUrl = $GitHubData.event.repository.url
 
             Write-Host "Repository URL: $RepoUrl"
-
-            #$data = Invoke-RestMethod -Uri $RepoUrl -Headers $GitHubHeaders
-
-
 
             #####################
             #####################
@@ -172,7 +200,7 @@ jobs:
                         $Tier = $Null 
                     }         
 
-                    # Add results of above tests to an utput object. Each property contains the results of the associated tests from above.
+                    # Add results of above tests to an output object. Each property contains the results of the associated tests from above.
                     $FileData = @{
                         Service     = $Service
                         SubService  = $SubService
@@ -478,6 +506,260 @@ jobs:
 
             #####################
             #####################
+            # Set-PrReviewer
+
+            Function Set-PrReviewer {
+
+              param(
+
+                  $PrUrl,
+                  $GitHubReviewers
+
+              )
+
+              # Ensure ExcludedUserList is always an array (handles $null and single string)
+              $ExcludedUserList = @($ExcludedUserList)
+
+              $UsersToReview = @()
+
+              ForEach ($User in $GitHubReviewers) {
+                  If ($User -eq $PrCreator) {
+                      Write-Host "Excluding $User — PR creator."
+                      Continue
+                  }
+
+                  If ($ExcludedUserList -and ($ExcludedUserList -contains $User)) {
+                      Write-Host "Excluding $User — in exclusion list."
+                      Continue
+                  }
+
+                  If (-not ($UsersToReview -contains $User)) {
+                      Write-Host "Adding $User to reviewer list."
+                      $UsersToReview += $User
+                  }
+              }
+
+              # Construct JSON statement that will be sent to GitHub as the body of the web request. GitHub expects an array regardless of whether it's a single value or multiple.
+              # Convert array to JSON
+              $Body = @{}
+              $Body.Add("reviewers", @($UsersToReview))
+              $Body = $Body | ConvertTo-Json 
+
+              $ReviewerUrl = "$PrUrl/requested_reviewers"
+              
+              # Try to submit the request to GitHub API to apply they label to the issue or pull request
+              Try {
+
+                  Write-Host "Setting accounts $UsersToReview on URL $ReviewerUrl."
+
+                  $Result = Invoke-RestMethod -Uri $ReviewerUrl -Body $Body -Headers $GitHubHeaders  -Method POST
+
+              } Catch {
+
+                  Write-Host "ERROR: Failed assign GitHub accounts on URL $ReviewerUrl. Error: $_."
+                  
+
+              }
+
+            }
+
+            #####################
+            #####################
+            # Get-ServiceGitHubAccountMappingTable
+
+            Function Get-ServiceGitHubAccountMappingTable {
+            
+                Try {
+
+                    Write-Host "Getting service/subservice to GitHub user mapping from $ServiceToGitHubUserMapUrl"
+
+                    $GitHubMappingTableData = Invoke-RestMethod -Uri $ServiceToGitHubUserMapUrl -Headers $AppGitHubAccessHeaders
+                    $GitHubMappingTable = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($GitHubMappingTableData.content));
+
+                } Catch {
+
+                    Write-Host "Failed to get service/subservice to GitHub user mapping from $ServiceToGitHubUserMapUrl"
+
+                    $GitHubMappingTable = $Null
+
+                }
+
+                Return $GitHubMappingTable
+
+            
+            }
+
+            #####################
+            #####################
+            # Expand-ServiceSubServiceRows
+
+            Function Expand-ServiceSubServiceRows {
+                [CmdletBinding()]
+                Param(
+                    [Parameter(Mandatory = $true)]
+                    [String]$CsvContent
+                )
+                
+                # Parse the CSV content
+                $CsvData = $CsvContent | ConvertFrom-Csv
+                
+                # Initialize array to hold expanded rows
+                $ExpandedRows = @()
+                
+                ForEach ($Row in $CsvData) {
+                    # Get the services and subservices, handling null/empty values
+                    $Services = If ([String]::IsNullOrWhiteSpace($Row.Service)) { @('') } 
+                            Else { $Row.Service -split ';' | ForEach-Object { $_.Trim() } }
+                    
+                    $SubServices = If ([String]::IsNullOrWhiteSpace($Row.SubService)) { @('') } 
+                                Else { $Row.SubService -split ';' | ForEach-Object { $_.Trim() } }
+                    
+                    # Create a new row for each combination of service and subservice
+                    ForEach ($Service in $Services) {
+                        ForEach ($SubService in $SubServices) {
+                            $NewRow = [PSCustomObject]@{
+                                Product = $Row.Product
+                                Service = $Service
+                                SubService = $SubService
+                                ContentLeadGitHubAccounts = $Row.ContentLeadGitHubAccounts
+                            }
+                            $ExpandedRows += $NewRow
+                        }
+                    }
+                }
+                
+                Return $ExpandedRows
+            }
+
+            #####################
+            #####################
+            # Get-ContentLeadAccounts
+
+            Function Get-ContentLeadAccounts {
+                [CmdletBinding()]
+                Param(
+                    [Parameter(Mandatory = $true)]
+                    [string]$Service,
+                    
+                    [Parameter(Mandatory = $false)]
+                    [string]$SubService,
+                    
+                    [Parameter(Mandatory = $true)]
+                    [array]$DataArray
+                )
+                
+                    
+                $AccountsList = @()
+
+                Write-Host "Article service: $Service"
+                Write-Host "Article subservice: $SubService"
+                
+                # Filter data based on Service match
+                $ServiceMatches = $DataArray | Where-Object { $_.service -eq $Service }
+
+                Write-Host "Service matches:"
+                $ServiceMatches | ForEach-Object { Write-Host $_ }
+                
+                If ($ServiceMatches) {
+
+                    Write-Host "Service found"
+
+                    # Check for exact match scenarios
+                    If ($SubService) {
+
+                        Write-Host "Subservice provided"
+
+                        # SubService provided - look for exact match
+                        $ExactMatch = $ServiceMatches | Where-Object { $_.subservice -eq $SubService }
+                        
+                        If ($ExactMatch) {
+
+                            Write-Host "SubService found"
+
+                            # Found exact match with SubService
+                            $AccountsList += $ExactMatch.contentleadgithubaccounts
+                        }
+                        Else {
+
+                            Write-Host "Subservice not found"
+
+                            # No exact SubService match found
+                            # Check if there are any subservices defined for this service
+                            $HasSubServices = $ServiceMatches | Where-Object { 
+                                ![string]::IsNullOrWhiteSpace($_.subservice) 
+                            }
+                            
+                            If ($HasSubServices) {
+
+                                Write-Host "Service has subservices. Returning all accounts for all subservices."
+
+                                # Multiple subservices exist, return all accounts for this service's subservices
+                                $AccountsList += $HasSubServices.contentleadgithubaccounts
+                            }
+                        }
+                    }
+                    Else {
+                        # No SubService provided - look for exact match with empty/null SubService
+                        $ExactMatch = $ServiceMatches | Where-Object { 
+                            [string]::IsNullOrWhiteSpace($_.subservice) 
+                        }
+                        
+                        If ($ExactMatch) {
+
+                            Write-Host "Service with no subservice row found"
+
+                            # Found exact match without SubService
+                            $AccountsList += $ExactMatch.contentleadgithubaccounts
+                        }
+                        Else {
+
+                            Write-Host "Service with no subservice row not found"
+
+                            # No exact match without SubService
+                            # Check if there are multiple subservices for this service
+                            $HasSubServices = $ServiceMatches | Where-Object { 
+                                ![string]::IsNullOrWhiteSpace($_.subservice) 
+                            }
+                            
+                            If ($HasSubServices.Count -gt 1) {
+
+                                Write-Host "Service has subservices. Returning all accounts for all subservices."
+
+                                # Multiple subservices exist, return all accounts
+                                $AccountsList += $HasSubServices.contentleadgithubaccounts
+                            }
+                        }
+                    }
+                }
+
+                Write-Host "Found accounts"
+                $AccountsList | ForEach-Object { Write-Host $_ }
+    
+                # Process the accounts list
+                $AllAccounts = @()
+                
+                ForEach ($AccountString In $AccountsList) {
+                    If (![string]::IsNullOrWhiteSpace($AccountString)) {
+                        # Remove leading semicolon if present
+                        $CleanedString = $AccountString.TrimStart(';')
+                        
+                        # Split by semicolon and add to array
+                        $Accounts = $CleanedString -split ';' | Where-Object { 
+                            ![string]::IsNullOrWhiteSpace($_) 
+                        }
+                        
+                        $AllAccounts += $Accounts
+                    }
+                }
+                
+                # Return deduplicated array
+                Return $AllAccounts | Select-Object -Unique
+                
+            }
+
+
+            #####################
+            #####################
             # Main
 
             Write-Host "Repo: $GitHubRepoName"
@@ -572,6 +854,31 @@ jobs:
                         # Auto user assignment can be disabled on repos using the $DataTableName table.
                         If ($AutoAssignUsers -eq $True) {
 
+                            # Get the service/subservice to GitHub account map
+                            $ServiceToAccountMap = Get-ServiceGitHubAccountMappingTable
+                            $ExpandedServiceSubServiceRows = Expand-ServiceSubServiceRows -CsvContent $ServiceToAccountMap
+
+                            $ReviewerArray = @()
+
+                            ForEach ($File in $FileMetadataArray) {
+                            
+                                $FileReviewers = $Null
+
+                                $FileReviewers = Get-ContentLeadAccounts -DataArray $ExpandedServiceSubServiceRows -Service $File.Service -SubService $File.SubService
+
+                                If ($FileReviewers -ne $Null) {
+                                
+                                    $ReviewerArray += $FileReviewers
+                                
+                                }
+                            
+                            }
+
+                            $ReviewerArray = $ReviewerArray | Select-Object -Unique
+
+                            Set-PrReviewer -PrUrl $PrUrl -GitHubReviewers $ReviewerArray
+                            
+
                             # Don't add assignments to PRs in excluded branches listed in $ExcludedBranchList
                             If (!$ExcludedBranchList.Contains($TargetBranch)) {
 
@@ -584,6 +891,8 @@ jobs:
                                     Write-Host "Error setting PR assignee. GitHub may return an `"Unprocessable entity (422)`" error periodically. This can be ignored. Error: $($Error[0])"
                                 
                                 }
+
+
 
                             } Else {
 
