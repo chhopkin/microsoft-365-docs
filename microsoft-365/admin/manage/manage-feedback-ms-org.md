@@ -73,7 +73,7 @@ When the following policies are set to **Not Configured**, it has the same effec
 |:-----|:-----|:-----|
 |Allow users to access feedback portal|Manage user access to the feedback portal where users can follow up on their feedback and participate in community feedback.|
 |Allow users to submit feedback to Microsoft|Controls feedback entry points across applications.|
-|Allow users to receive and respond to in-product surveys from Microsoft|Controls survey prompts within product.|
+|Allow users to receive and respond to in-product surveys from Microsoft|Controls whether surveys appear within product.|
 |Allow users to include screenshots and attachments when they submit feedback to Microsoft|Allows users to choose relevant files, screen recordings, and screenshots to help Microsoft better understand and troubleshoot their feedback.|
 |Allow Microsoft to follow up on feedback submitted by users|Determines if user can share contact info with feedback/survey for follow-up by Microsoft. Also allows users to get notified of feedback status changes. Users can manage communications settings in the feedback portal.|
 |Allow users to include log files and content samples when feedback is submitted to Microsoft|Allows users to include Microsoft generated files such as additional log files and content samples when relevant to feedback they're submitting. Examples may include Microsoft 365 Copilot prompt and response interactions.|
