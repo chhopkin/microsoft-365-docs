@@ -1,5 +1,5 @@
 ---
-title: Cross-tenant SharePoint site migration overview (preview)
+title: Cross-tenant SharePoint site migration overview
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
@@ -14,7 +14,7 @@ ms.collection:
 - M365-collaboration
 - m365initiative-migratetom365
 search.appverid: MET150
-description: "Learn about the Cross-tenant SharePoint migration solution to migrate your SharePoint sites from tenant to tenant, currently in preview."
+description: "Learn about the Cross-tenant SharePoint migration solution to migrate your SharePoint sites from tenant to tenant."
 ---
 # Cross-tenant SharePoint migration
 
@@ -129,7 +129,7 @@ Web parts that reference content in other SharePoint Sites and/or other Microsof
 
 ### Sensitivity labels
 
-Labels associated with migrated files may not display correctly in M365 user experiences. In addition, any protection or policy associated with the original label won't be present after migration. To apply protection or policy, the recommendation is to remove labels from files before migration, and reapply new labels as appropriate after migration.
+Labels associated with migrated files may not display correctly in Microsoft 365 user experiences. In addition, any protection or policy associated with the original label won't be present after migration. To apply protection or policy, the recommendation is to remove labels from files before migration, and reapply new labels as appropriate after migration.
 
 #### Sensitivity Labels with User-Defined Permissions
 
