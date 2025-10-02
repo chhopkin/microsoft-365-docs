@@ -77,6 +77,8 @@ jobs:
             $PrFileListUrl = "$($GitHubData.event.pull_request.url)/files"
             $IssueUrl = $GitHubData.event.pull_request.issue_url
             $PrUrl = $GitHubData.event.pull_request.url
+            $CommentsUrl = $GitHubData.event.pull_request.comments_url
+
             $PrCreator = $GitHubData.event.pull_request.user.login
 
             $AutoAssignUsers = [bool][int]$env:AutoAssignUsers  # If it works, it works!
@@ -109,8 +111,14 @@ jobs:
 
             $ServiceToGitHubUserMapRepo = "officedocs-pr"
             $ServiceToGitHubUserMapFilePath = "/contents/.github/workflows/resources/service-subservice-to-github-user-map.csv"
-            $ServiceToGitHubUserMapRef = $DefaultBranch
+            $ServiceToGitHubUserMapRef = "reviewer-test"
             $ServiceToGitHubUserMapUrl = $GitHubApiUrl + $ServiceToGitHubUserMapRepo + $ServiceToGitHubUserMapFilePath + "?ref=$ServiceToGitHubUserMapRef"
+
+            $WorkflowsResourcePath = "https://api.github.com/repos/MicrosoftDocs/microsoft-365-docs/contents/.github/workflows/resources"
+            $WorkflowsRef = "workflows-test"
+
+            # URL of the org team to check. We're using the "everyone" team in MicrosoftDocs. 
+            $OrgTeamUrl = "https://api.github.com/orgs/microsoftdocs/teams/everyone/memberships/"
 
             # Set repo variables
             $RepoUrl = $GitHubData.event.repository.url
@@ -757,6 +765,156 @@ jobs:
                 
             }
 
+            #####################
+            #####################
+            # Get-PrMessage
+
+            Function Get-PrMessage {
+
+                [cmdletbinding()]
+                Param(
+                    [Parameter(Mandatory=$True)]
+                    $PrMessageName
+                )
+
+                $PrMessageFile = "$WorkflowsResourcePath/$PrMessageName.md?ref=$WorkflowsRef"
+
+                Try {
+
+                    Write-Host "Getting PR message from $PrMessageFile"
+
+                    $PrMessageData = Invoke-RestMethod -Uri $PrMessageFile -Headers $GitHubHeaders
+                    $PrMessage = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($PrMessageData.content));
+
+                } Catch {
+
+                    Write-Host "Failed to get PR message $PrMessageName"
+
+                    $PrMessage = $Null
+
+                }
+
+                Return $PrMessage
+
+            }
+
+            #####################
+            #####################
+            # Set-PrConversationMessage
+
+            Function Set-PrConversationMessage {
+
+                [cmdletbinding()]
+                Param(
+                    [Parameter(Mandatory=$True)]
+                    $Message
+                )
+
+                $BodyHash = @{}
+                $BodyHash.body = $Message
+                $BodyJson = $BodyHash | ConvertTo-Json
+
+                If (($Message -ne $Null) -and ($Message -ne "")) {
+
+                    Try {
+
+                        Write-Host "Posting message to PR conversation to $CommentsUrl."
+                        $Result = Invoke-WebRequest -UseBasicParsing -Uri $CommentsUrl -Body $BodyJson -Headers $GitHubHeaders -Method POST -ErrorAction Stop
+                    
+                    } Catch {
+
+                        Write-Host "ERROR: Failed to post message to PR conversation. $($Error[0])"
+
+                    }
+
+                } Else {
+
+                    Write-Host "Message is null or empty. Not posting to PR conversation."
+
+                }
+
+            }
+
+            #####################
+            #####################
+            # Add-AtPrefix
+
+            Function Add-AtPrefix {
+                [CmdletBinding()]
+                Param(
+                    [Parameter(Mandatory = $true)]
+                    [string[]]$GitHubReviewers,
+                    
+                    [Parameter(Mandatory = $false)]
+                    [string]$Separator = " "
+                )
+                
+                $PrefixedStrings = @()
+
+                ForEach ($Reviewer In $GitHubReviewers) {
+                    $PrefixedStrings += "@$Reviewer"
+                }
+
+                Return ($PrefixedStrings -join $Separator)
+
+            }
+
+            #####################
+            #####################
+            # Test-OrgMembership
+
+            Function Test-OrgMembership {
+            
+                [CmdletBinding()]
+                Param(
+                    [Parameter(Mandatory = $true)]
+                    [string[]]$GitHubReviewers
+                )
+
+                $ReviewerHashTable = @{}
+
+                ForEach ($Reviewer in $GitHubReviewers) {
+
+                    Write-Host "Checking to see if $Reviewer is a member of the MicrosoftDocs `"everyone`" team."
+
+                    # Create the member URL to check
+                    $ReviewerTeamUrl = $OrgTeamUrl + $Reviewer
+
+                    Try {
+
+                        # Check to see if the reviewer is a member of the MicrosoftDocs "everyone" team
+                        $TeamResult = Invoke-RestMethod -Uri $ReviewerTeamUrl -Headers $AppGitHubAccessHeaders -ErrorAction Stop
+
+                        If ($TeamResult.state -eq "active") {
+
+                            Write-Host "$Reviewer is an active member of the MicrosoftDocs `"everyone`" team."
+
+                            $ReviewerHashTable.Add($Reviewer, $True)
+
+                        } Else {
+                        
+                            Write-Host "$Reviewer isn't an active member of the MicrosoftDocs `"everyone`" team."
+
+                            $ReviewerHashTable.Add($Reviewer, $False)
+
+                        
+                        }
+
+                    } Catch {
+
+                        Write-Host "ERROR: Failed to look up membership info for $Reviewer. Error: $_"
+                    
+                        # If the call fails, set to false to avoid breaking add reviewer call later in workflow.
+                        $ReviewerHashTable.Add($Reviewer, $False)
+
+                    }
+
+                }
+
+                Return $ReviewerHashTable
+            
+            
+            }
 
             #####################
             #####################
@@ -876,8 +1034,24 @@ jobs:
 
                             $ReviewerArray = $ReviewerArray | Select-Object -Unique
 
-                            Set-PrReviewer -PrUrl $PrUrl -GitHubReviewers $ReviewerArray
+                            $TestedReviewerAccounts = Test-OrgMembership -GitHubReviewers $ReviewerArray
+                            $ValidatedReviewerAccounts = $TestedReviewerAccounts.keys | Where-Object { $TestedReviewerAccounts[$_] }
+                            $AtMentionedGitHubAccounts = Add-AtPrefix -GitHubReviewers $ValidatedReviewerAccounts
+
+                            $ReviewerMessage = $AtMentionedGitHubAccounts + $(Get-PrMessage "AutoLabelAssign-ContentLeadReviewNotice")
+
+                            If ($ValidatedReviewerAccounts.Length -gt 0) {
+
+                                Set-PrReviewer -PrUrl $PrUrl -GitHubReviewers $ValidatedReviewerAccounts
+
+                                Set-PrConversationMessage -Message $ReviewerMessage
+
+                            } Else {
+                             
+                                Write-Host "ERROR: No valid reviewers to assign."
+                                Write-Host $TestedReviewerAccounts
                             
+                            }
 
                             # Don't add assignments to PRs in excluded branches listed in $ExcludedBranchList
                             If (!$ExcludedBranchList.Contains($TargetBranch)) {
