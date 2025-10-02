@@ -43,6 +43,9 @@ Use the following steps to identify and enable direct connectivity for attendee 
 > [!NOTE]
 > Using this solution, there might be service elements that don't resolve to the IP addresses provided and thus traverse the VPN, but the bulk of high-volume traffic like streaming data should. There might be other elements outside the scope of Live Events/Stream which get caught by this offload, but these should be limited as they must meet both the FQDN _and_ the IP match before going direct.
 
+> [!NOTE]
+> While Ultra-Low Latency (ULL) does not necessitate special VPN requirements, we still recommend you implement these considerations given that an event may fall back to standard streaming protocols which require these settings. Ultra-Low Latency (ULL) Network configuration requirements are covered in [Microsoft 365 URLs and IP address ranges](urls-and-ip-address-ranges.md).
+
 > [!IMPORTANT]
 >We recommend you weigh the risk of sending more traffic that bypasses the VPN over the performance gain for Teams Events.
 
