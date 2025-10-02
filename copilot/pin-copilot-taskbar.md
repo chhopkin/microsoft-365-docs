@@ -1,5 +1,5 @@
 ---
-title: Pin Microsoft 365 Copilot app to the Windows Taskbar
+title: Pin Microsoft 365 Copilot and its companion apps to the Windows taskbar
 description: "Learn how to improve the use of Microsoft 365 Copilot across your organization by pinning the Copilot app to the Windows taskbar."
 f1.keywords:
 - NOCSH
@@ -24,9 +24,9 @@ ms.collection:
 - operations-pod
 ---
 
-# Pin Microsoft 365 Copilot app to the Windows taskbar
+# Pin Microsoft 365 Copilot and its companion apps to the Windows taskbar
 
-As an admin, you can pin the Microsoft 365 Copilot app to the Windows taskbar of managed devices. This behavior gives users quick access to the Microsoft 365 Copilot app, which includes Copilot Chat, Search, Agents, and more, if these capabilities are already available to them. If your organization uses Microsoft Intune, use the Microsoft 365 admin center to automatically pin the app on all Windows 10 and Windows 11 Intune-managed devices with the Copilot app installed. This single toggle simplifies the pinning process instead of manually creating and deploying a Start layout policy. The setting is off by default.
+As an admin, you can pin the Microsoft 365 Copilot app together with selected companion apps to the Windows 11 taskbar on Intune-managed devices. This provides users with quick access to Copilot features such as Chat, Search, and Agents, while the companion apps enable everyday tasks like finding people, accessing files, and checking calendar events. You can configure this behavior in the Microsoft 365 admin center to automatically pin the apps on all eligible Windows 11 Intune-managed devices where they are installed. The setting is off by default.
 
 > [!NOTE]
 > The information in this article is specific to the Microsoft 365 Copilot app and the Windows taskbar. You can also [pin the Copilot Chat experience in the Microsoft 365 apps](pin-copilot-chat-navbar.md). The **Microsoft 365 Copilot app** is a standalone application that provides access to Chat, Search, Agents (if enabled), Notebooks, and Create. **Copilot Chat** is an integrated chat experience available within Microsoft 365 apps. To understand the difference between the Copilot app and Copilot Chat, see [Decide which Copilot is right for you](which-copilot-for-your-organization.md).
