@@ -3,14 +3,14 @@ title: Overview and Definitions
 description: Learn about Data Residency feature Overview and Definitions
 ms.author: v-fahasen
 author: fhasen-msft
-manager: v-nihmi
+manager: Justin.Giammona
 ms.service: microsoft-365-enterprise
 ms.subservice: advanced-data-residency
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.date: 02/24/2025
-ms.reviewer: deanw
+ms.date: 08/05/2025
+ms.reviewer: jugiammo
 ms.custom:
 - it-pro
 ms.localizationpriority: medium
