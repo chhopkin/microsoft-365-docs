@@ -46,6 +46,7 @@ Use the following steps to identify and enable direct connectivity for attendee 
 > [!NOTE]
 > While Ultra Low Latency (ULL) does not necessitate special VPN requirements, we recommend you configure your network regardless given that an event may fall back to standard streaming protocols which may require these changes. All network configuration requirements should be covered in the general M365 Teams guidance in [Microsoft 365 URLs and IP address ranges](https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges).
 
+
 > [!IMPORTANT]
 >We recommend you weigh the risk of sending more traffic that bypasses the VPN over the performance gain for Teams Events.
 
