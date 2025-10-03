@@ -68,6 +68,7 @@ jobs:
 
             $GitRequestEvent = $GitHubData.event_name
             $DefaultBranch = $GitHubData.event.repository.default_branch
+            $PrCreator = $GitHubData.event.pull_request.user.login
             $TargetBranch = $GitHubData.event.pull_request.base.ref
             $GitHubState = $GitHubData.event.pull_request.state
             $GitHubAction = $GithubData.event.action
@@ -79,10 +80,7 @@ jobs:
             $IssueUrl = $GitHubData.event.pull_request.issue_url
             $PrUrl = $GitHubData.event.pull_request.url
             $CommentsUrl = $GitHubData.event.pull_request.comments_url
-            $UserPermissionUrl = $GitHubData.event.repository.collaborators_url.Replace("{/collaborator}", "/$GitHubSender/permission" )
-
-
-            $PrCreator = $GitHubData.event.pull_request.user.login
+            $UserPermissionUrl = $GitHubData.event.repository.collaborators_url.Replace("{/collaborator}", "/$PrCreator/permission" )
 
             $AutoAssignUsers = [bool][int]$env:AutoAssignUsers  # If it works, it works!
             $AutoAssignReviewers = [bool][int]$env:AutoAssignReviewers  # Ditto
