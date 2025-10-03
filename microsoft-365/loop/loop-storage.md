@@ -34,7 +34,7 @@ appliesto:
 
 Loop content is stored in SharePoint, OneDrive, and [SharePoint Embedded](/sharepoint/dev/embedded/concepts/admin-exp/consuming-tenant-admin/cta), allowing familiar management within existing file management workflows. Where the content was originally created determines its storage location:
 
-|Content content originally created in|Content stored in SharePoint Embedded|Content stored in SharePoint Site|Content stored in User's OneDrive|Lifetime Management|
+|Content originally created in|Content stored in SharePoint Embedded|Content stored in SharePoint Site|Content stored in User's OneDrive|Lifetime Management|
 |-----|-----|-----|-----|-----|
 |Loop app, My workspace *|✔️in user-owned container|||user account|
 |Loop app, shared workspace|✔️in shared container|||workspace owners|
