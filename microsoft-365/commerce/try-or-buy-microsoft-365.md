@@ -170,7 +170,7 @@ When you add a subscription through the <a href="https://go.microsoft.com/fwlink
    - If you're using the **Simplified view**, select **Billing**, then select **Add more products**.
    - If you're using the **Dashboard view**, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Purchase services</a> page. For some customers, the page is named **Marketplace**.
 2. Find the plan that you want to try, and select **Details**.
-3. On the next page, enter the number of licenses that you want to buy when the trail ends, then select **Start free trial**.
+3. On the next page, enter the number of licenses that you want to buy when the trial ends, then select **Start free trial**.
     > [!NOTE]
     > All trial subscriptions include 25 free licenses for the duration of the trial period.
 4. Choose to receive a text or a call, enter your phone number, then choose **Text me** or **Call me**.
