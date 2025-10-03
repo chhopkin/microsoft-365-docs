@@ -86,6 +86,10 @@ items:
           href: billing-and-payments/understand-your-invoice.md
         - name: Pay for your subscription
           href: billing-and-payments/pay-for-your-subscription.md
+        - name: Understand billing and dunning policies
+          href: billing-and-payments/billing-dunning-policies.md
+        - name: Pay by wire transfer
+          href: billing-and-payments/pay-by-wire-transfer.md
         - name: Manage payment methods
           href: billing-and-payments/manage-payment-methods.md
         - name: Manage billing across multiple tenants
@@ -96,6 +100,8 @@ items:
           href: billing-and-payments/manage-billing-notifications.md
         - name: Understand billing accounts
           href: manage-billing-accounts.md
+        - name: Keep your billing account active
+          href: keep-billing-accounts-active.md
         - name: Manage billing profiles
           href: billing-and-payments/manage-billing-profiles.md
         - name: Change your billing addresses
