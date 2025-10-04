@@ -1,5 +1,5 @@
 
-You've been added as a reviewer to this pull request because you're a Content Lead for the product area or feature covered by one or more of the articles in this PR.
+You've been added as a reviewer to this pull request because you're [listed](https://aka.ms/getaxonomy) as a Content Lead for the product area or feature covered by one or more articles in this PR.
 
 Before this PR can be merged, a Content Lead needs to add the **Sign off** label to it. Before you sign off a PR, confirm the following:
 
@@ -20,4 +20,4 @@ the PR to the submitter with required changes. After they've completed those cha
 
 When the PR passes PubOps review, they'll merge the PR. If the PR is merged into the **main** branch, changes will go live within the next couple hours.
 
-If you have questions about this process or need help, post a message to https://aka.ms/tcphelp.
+If you think you were incorrectly added as a reviewer, have questions about this process, or need help signing off on this PR, post a message to https://aka.ms/tcphelp.
