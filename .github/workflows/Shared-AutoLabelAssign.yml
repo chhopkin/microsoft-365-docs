@@ -919,6 +919,48 @@ jobs:
 
             #####################
             #####################
+            # Compare-PRIndividualReviewers
+
+            Function Compare-PRIndividualReviewers {
+
+                [CmdletBinding()]
+                [OutputType([bool])]
+                Param(
+                    [Parameter(Mandatory = $true)]
+                    [string[]]$GitHubReviewers
+
+                )
+
+                Try {
+
+                    # Get PR details from GitHub API
+                    $PrData = Invoke-RestMethod -Uri $PrUrl -Headers $GitHubHeaders -Method Get
+
+                    # Extract individual reviewer usernames (user objects in requested_reviewers)
+                    $CurrentReviewers = @()
+
+                    If ($PrData.requested_reviewers) {
+
+                        $CurrentReviewers = $PrData.requested_reviewers | ForEach-Object { $_.login }
+
+                    }
+
+                    # Compare arrays - check if any expected accounts are missing from individual reviewers
+                    $MissingAccounts = $GitHubReviewers | Where-Object { $_ -notin $CurrentReviewers }
+
+                    Return ($MissingAccounts.Count -gt 0)
+
+                } Catch {
+
+                    Write-Error "Failed to retrieve or compare PR reviewers: $_"
+                    Return $false
+
+                }
+
+            }
+
+            #####################
+            #####################
             # Main
 
             Write-Host "Repo: $GitHubRepoName"
@@ -1046,24 +1088,39 @@ jobs:
 
                                     $ReviewerArray = $ReviewerArray | Select-Object -Unique
 
+                                    Write-Host "Checking org membership."
+
                                     $TestedReviewerAccounts = Test-OrgMembership -GitHubReviewers $ReviewerArray
                                     $ValidatedReviewerAccounts = $TestedReviewerAccounts.keys | Where-Object { $TestedReviewerAccounts[$_] }
-                                    $AtMentionedGitHubAccounts = Add-AtPrefix -GitHubReviewers $ValidatedReviewerAccounts
 
-                                    $ReviewerMessage = $AtMentionedGitHubAccounts + $(Get-PrMessage "AutoLabelAssign-ContentLeadReviewNotice")
+                                    $AtMentionedGitHubAccounts = Add-AtPrefix -GitHubReviewers $ValidatedReviewerAccounts
 
                                     If ($ValidatedReviewerAccounts.Length -gt 0) {
 
-                                        Set-PrReviewer -PrUrl $PrUrl -GitHubReviewers $ValidatedReviewerAccounts
+                                        $MissingReviewers = Compare-PRIndividualReviewers -GitHubReviewers $ValidatedReviewerAccounts
 
-                                        Set-PrConversationMessage -Message $ReviewerMessage
+                                        If ($MissingReviewers) {
+                                        
+                                            Write-Host "Additional reviewers found. Setting reviewers and posting PR comment."
+
+                                            $ReviewerMessage = $AtMentionedGitHubAccounts + $(Get-PrMessage "AutoLabelAssign-ContentLeadReviewNotice")
+
+                                            Set-PrReviewer -PrUrl $PrUrl -GitHubReviewers $ValidatedReviewerAccounts
+                                            Set-PrConversationMessage -Message $ReviewerMessage
+
+                                        } Else {
+                                         
+                                            Write-Host "No additional reviewers to add. Not setting reviewers or posting PR comment."
+
+                                        }
 
                                     } Else {
                                     
-                                        Write-Host "ERROR: No valid reviewers to assign."
+                                        Write-Host "No valid reviewers to assign."
                                         Write-Host $TestedReviewerAccounts
                                     
                                     }
+
 
                                 } Else {
                                 
