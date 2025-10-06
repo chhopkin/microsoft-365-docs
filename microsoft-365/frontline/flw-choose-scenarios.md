@@ -102,10 +102,6 @@ Drive operational efficiency by digitizing paper-based processes and automating 
 
 Use Microsoft Bookings to schedule, manage, and host appointments with clients and customers. You can integrate Forms with your appointments to get the right information about your customers, or as part of your customer support experience to learn what your customers need.
 
-<!--Watch the following video for an overview of the virtual appointments experience in Teams:
-
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=fde6e589-e329-4737-8c2b-67dfe1315e35]-->
-
 More information: [Appointments with Microsoft Teams](virtual-appointments.md)
 
 ## More scenarios and solutions with the digital ecosystem
