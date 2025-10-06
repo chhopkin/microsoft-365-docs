@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: dansimp
 author: dansimp
-manager: dansimp
+manager: scotv
 ms.date: 08/21/2025
 ms.update-cycle: 180-days
 audience: Admin
