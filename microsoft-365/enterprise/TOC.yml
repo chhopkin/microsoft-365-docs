@@ -292,6 +292,9 @@ items:
               items: 
                 - name: Configure multi-geo
                   href: multi-geo-tenant-configuration.md
+                - name: Configure Multi-Geo In-Region Routing (In Preview)
+                  href: configure-multi-geo-inregion-routing-preview.md
+                  displayName: Configure Multi-Geo In-Region Routing (In Preview)
                 - name: Configure preferred data location
                   href: /azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation?toc=/microsoft-365/Enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
                 - name: Configure search
