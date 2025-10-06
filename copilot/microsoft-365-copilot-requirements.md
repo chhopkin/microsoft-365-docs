@@ -112,7 +112,7 @@ Baseline network configuration customers should:
 - Allow the [worldwide Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
 - Allow traffic to the following domains:
 
-  - `copilot.microsoft.com`, `*.copilot.microsoft.com`
+  - `m365.cloud.microsoft`, `*.m365.cloud.microsoft`
   - `*.bing.com`, `*.bingapis.com`
 
   These network endpoints (domains) allow some Copilot scenarios to enable richer integrations, like Copilot experiences for the Web.
