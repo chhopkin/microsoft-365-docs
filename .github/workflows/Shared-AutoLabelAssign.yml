@@ -145,14 +145,16 @@ jobs:
 
                   # Initialize variables.
                   $FileData = @{}
+                  $FileName = $File.filename
                   $MetadataFound = $False
+
                   # Check to see whether current file is markdown or YAML. Those are the only files we care about. Ignore the rest.
-                  $IsContentFile = ($File.filename.EndsWith(".md") -or $File.filename.EndsWith(".yml")) -and !$File.filename.ToLower().Contains("/toc.")
+                  $IsContentFile = ($FileName.EndsWith(".md") -or $FileName.EndsWith(".yml")) -and !$FileName.ToLower().Contains("/toc.")
 
                   # Only process content files.
                   If ($IsContentFile) {
 
-                    Write-Host "Processing file $($File.filename)."
+                    Write-Host "Processing file $FileName."
 
                     # Retrieve file contents from GitHub. File contents is returned in Base 64 so after contents is retrieved, convert from Base 64 to plain text.
                     $FileContentsBase64 =  Invoke-RestMethod -Method GET -Uri $File.contents_url -Headers $GitHubHeaders 
@@ -217,11 +219,12 @@ jobs:
                         Technology  = $Technology
                         Tier        = $Tier
                         Author      = $Author
+                        FileName    = $FileName
                     }
 
                     # If any metadata or author data was found, add it to the $FileArray output array.
                     If ($MetadataFound) {
-                        Write-Host "Metadata or author data found on $($File.filename). Adding to output array."
+                        Write-Host "Metadata or author data found on $FileName. Adding to output array."
                         $FileArray += $FileData
                     }
                   }
@@ -253,6 +256,7 @@ jobs:
                   If ($File.Technology -ne $Null)  {$MetadataArray += "$($File.Technology)/tech"}
                   If ($File.Tier -ne $Null)        {$MetadataArray += $File.Tier.SubString(0,1).ToUpper() + $File.Tier.SubString(1).ToLower()}
                   If ($File.Author -ne $Null)      {$AuthorArray += $File.Author}
+
 
               }
 
@@ -1073,14 +1077,22 @@ jobs:
                                     $ReviewerArray = @()
 
                                     ForEach ($File in $FileMetadataArray) {
-                                    
-                                        $FileReviewers = $Null
 
-                                        $FileReviewers = Get-ContentLeadAccounts -DataArray $ExpandedServiceSubServiceRows -Service $File.Service -SubService $File.SubService
+                                        If ($File.Service -ne $Null) {
 
-                                        If ($FileReviewers -ne $Null) {
-                                        
-                                            $ReviewerArray += $FileReviewers
+                                            $FileReviewers = $Null
+
+                                            $FileReviewers = Get-ContentLeadAccounts -DataArray $ExpandedServiceSubServiceRows -Service $File.Service -SubService $File.SubService
+
+                                            If ($FileReviewers -ne $Null) {
+                                            
+                                                $ReviewerArray += $FileReviewers
+                                            
+                                            }
+
+                                        } Else {
+                                         
+                                            Write-Host "No service found for file $($File.FileName)."
                                         
                                         }
                                     
@@ -1088,37 +1100,45 @@ jobs:
 
                                     $ReviewerArray = $ReviewerArray | Select-Object -Unique
 
-                                    Write-Host "Checking org membership."
+                                    If ($ReviewerArray.Count -gt 0) {
 
-                                    $TestedReviewerAccounts = Test-OrgMembership -GitHubReviewers $ReviewerArray
-                                    $ValidatedReviewerAccounts = $TestedReviewerAccounts.keys | Where-Object { $TestedReviewerAccounts[$_] }
+                                        Write-Host "Checking org membership."
 
-                                    $AtMentionedGitHubAccounts = Add-AtPrefix -GitHubReviewers $ValidatedReviewerAccounts
+                                        $TestedReviewerAccounts = Test-OrgMembership -GitHubReviewers $ReviewerArray
+                                        $ValidatedReviewerAccounts = $TestedReviewerAccounts.keys | Where-Object { $TestedReviewerAccounts[$_] }
 
-                                    If ($ValidatedReviewerAccounts.Length -gt 0) {
+                                        $AtMentionedGitHubAccounts = Add-AtPrefix -GitHubReviewers $ValidatedReviewerAccounts
 
-                                        $MissingReviewers = Compare-PRIndividualReviewers -GitHubReviewers $ValidatedReviewerAccounts
+                                        If ($ValidatedReviewerAccounts.Length -gt 0) {
 
-                                        If ($MissingReviewers) {
-                                        
-                                            Write-Host "Additional reviewers found. Setting reviewers and posting PR comment."
+                                            $MissingReviewers = Compare-PRIndividualReviewers -GitHubReviewers $ValidatedReviewerAccounts
 
-                                            $ReviewerMessage = $AtMentionedGitHubAccounts + $(Get-PrMessage "AutoLabelAssign-ContentLeadReviewNotice")
+                                            If ($MissingReviewers) {
+                                            
+                                                Write-Host "Additional reviewers found. Setting reviewers and posting PR comment."
 
-                                            Set-PrReviewer -PrUrl $PrUrl -GitHubReviewers $ValidatedReviewerAccounts
-                                            Set-PrConversationMessage -Message $ReviewerMessage
+                                                $ReviewerMessage = $AtMentionedGitHubAccounts + $(Get-PrMessage "AutoLabelAssign-ContentLeadReviewNotice")
+
+                                                Set-PrReviewer -PrUrl $PrUrl -GitHubReviewers $ValidatedReviewerAccounts
+                                                Set-PrConversationMessage -Message $ReviewerMessage
+
+                                             } Else {
+                                         
+                                                 Write-Host "No additional reviewers to add. Not setting reviewers or posting PR comment."
+
+                                             }
 
                                         } Else {
-                                         
-                                            Write-Host "No additional reviewers to add. Not setting reviewers or posting PR comment."
-
+                                                                                
+                                            Write-Host "No valid reviewers to assign."
+                                            Write-Host $TestedReviewerAccounts
+                                        
                                         }
 
                                     } Else {
-                                    
-                                        Write-Host "No valid reviewers to assign."
-                                        Write-Host $TestedReviewerAccounts
-                                    
+                                     
+                                        Write-Host "No reviewers matched any services or subservices in PR articles."
+ 
                                     }
 
 
