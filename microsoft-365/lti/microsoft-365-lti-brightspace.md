@@ -4,7 +4,7 @@ description: Learn how to deploy the Microsoft 365 Learning Tool Interoperabilit
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
-ms.date: 08/01/2025
+ms.date: 10/06/2025
 audience: admin
 ms.topic: how-to
 ms.service: microsoft-365-education
@@ -66,7 +66,8 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
     | **Target Link URI** | Copy the **Target Link URL** value from the Microsoft registration. |
 
 1. Check the following **Extensions** options, and add the following **Substitution Parameters** to the registration:
-  :::image type="content" source="./media/brightspace-extensions-2.png" alt-text="Screenshot of Brightspace extensions." border="true":::
+
+    :::image type="content" source="./media/brightspace-extensions-2.png" alt-text="Screenshot of Brightspace extensions." border="true":::
 
 1. Select the **Register** button.
 
@@ -85,7 +86,8 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
     :::image type="content" source="./media/brightspace-security-settings.png" alt-text="Screenshot of security settings." border="true":::
 
 1. In Configuration Settings, select **Grades created by LTI will be included in Final Grade** and **Auto Create Grade Items**. Make sure that **Open as External Resource** is **not** checked.
-    :::image type="content" source="./media/brightspace-configuration-settings.png" alt-text="Screenshot of configuration settings." border="true":::
+
+   :::image type="content" source="./media/brightspace-configuration-settings.png" alt-text="Screenshot of configuration settings." border="true":::
 
 1. Select **Add Org Units**. Select the orgs you wish to deploy to, or the **root org** or **all** units to deploy the app for all orgs by searching for the Organization name and selecting **All Descendants**
 
