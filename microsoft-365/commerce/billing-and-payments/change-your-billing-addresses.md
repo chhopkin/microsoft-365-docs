@@ -27,7 +27,7 @@ ms.custom:
 - campaignIDs-batch2
 search.appverid: MET150
 description: "Learn how to change your billing address for Microsoft 365 for business."
-ms.date: 04/01/2025
+ms.date: 09/29/2025
 ---
 
 # Change the billing addresses for your Microsoft business subscription
