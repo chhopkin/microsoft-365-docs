@@ -3,7 +3,7 @@ title: Configure Copilot Tuning for document generation
 author: kwekuako
 ms.author: kwekua
 ms.collection: operations-pod
-manager: dansimp
+manager: scotv
 ms.audience: ITPro
 ms.reviewer: jwolk
 ms.service: microsoft-365-copilot
@@ -31,6 +31,8 @@ Some example use cases include:
 - Procurement – Create draft purchase orders using previous purchase orders and information about new purchases.
 - Documentation – Draft new product or feature docs based on existing documentation templates and information about new products or features.
 
+[!INCLUDE [agent-builder-mcs-lite](../microsoft-365/includes/agent-builder-mcs-lite.md)]
+
 ## Prerequisites
 
 - You must have permission to use Copilot Tuning in Copilot Studio. <!-- TODO: Link to permission doc here if it exists -->
@@ -48,26 +50,13 @@ The following are the high-level steps to configure a custom document generation
 
 > [!div class="checklist"]
 >
-> - [Prepare a mapping file](#prepare-a-mapping-file) to identify pairings of original files and final draft files in the training data
 > - [Customize the model](#customize-the-model)
 > - [Select security groups](#review-copilot-tuning-acl-analysis)
 > - [Label training data](#label-training-data)
 > - [Train the model and evaluate results](#train-and-evaluate-results)
+> - [Optional - Prepare a mapping file for evaluations](#optional---prepare-a-mapping-file) - identify pairings of original files and final draft files in the training data
 > - [Publish the model](#publish-the-model)
 
-### Prepare a mapping file
-
-Your knowledge source should have more than 20 example pairs of original files and corresponding final (draft) files. In this step, you prepare a CSV file that provides more than 20 examples of original files to final (draft) documents. Copilot Tuning uses these examples to fine-tune the generation logic, helping the model learn how your organization typically edits or adapts documents.
-
-Create a file named **mapping.csv** and store it in the root directory of your knowledge source. This file should have two columns:
-
-- The first column is named `precedent` and contains the path to an original file in the data source.
-- The second column is named `target` and contains the path to the final draft file in the data source that was created using the original file as a basis.
-
-```CSV
-precedent,target
-"https://contoso.sharepoint.com/sites/ProductSpecs/Shared%20Documents/Mark-8-FAQ.docx", "https://contoso.sharepoint.com/sites/ProductSpecs/Shared%20Documents/mark-8-faq.md"
-```
 
 ### Customize the model
 
@@ -112,6 +101,20 @@ Based on the size of your dataset, the fine-tuning step might take up to 24 hour
 
 If the results don't meet your expectations, you can go to the previous steps in the flow to add more data sources, adjust the model instructions, or provide more samples in your mapping file. Retrain the model until document generation results meet expectations.
 
+### Optional - Prepare a mapping file
+
+If you'd like to run evaluations with a mapping file, you can create one and re-run training and evaluations as described in the section above. Your knowledge source should have more than 20 example pairs of original files and their corresponding final (draft) files. In this step, you prepare a CSV file that lists these pairs, mapping each original file to its final (draft) document.
+
+Create a file named **mapping.csv** and store it in the root directory of your knowledge source. This file should have two columns:
+
+- The first column is named `precedent` and contains the path to an original file in the data source.
+- The second column is named `target` and contains the path to the final draft file in the data source that was created using the original file as a basis.
+
+```CSV
+precedent,target
+"https://contoso.sharepoint.com/sites/ProductSpecs/Shared%20Documents/Mark-8-FAQ.docx", "https://contoso.sharepoint.com/sites/ProductSpecs/Shared%20Documents/mark-8-faq.md"
+```
+
 ### Publish the model
 
 When the model generates results that meet your quality standards, you can publish the model through the Copilot Tuning interface. Publish the model by selecting the **Publish model** button. The model is deployed to an isolated and secured environment. It's only accessible to the security groups or users that were selected during model customization.
@@ -120,5 +123,5 @@ When the model generates results that meet your quality standards, you can publi
 
 - [Microsoft 365 Copilot Tuning overview (preview)](copilot-tuning-overview.md)
 - [Microsoft 365 Copilot Tuning FAQ](copilot-tuning-faq.yml)
-- [Create declarative agents with Copilot Studio agent builder and Microsoft 365 Copilot Tuning models](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-tuned-models).
+- [Create declarative agents with Copilot Studio and Microsoft 365 Copilot Tuning models](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-tuned-models).
 - [Troubleshooting document generation models](copilot-tuning-troubleshooting-doc-generation.md).

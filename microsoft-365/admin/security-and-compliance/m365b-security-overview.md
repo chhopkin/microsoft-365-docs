@@ -20,7 +20,7 @@ ms.custom:
 description: Learn about the security features available in Microsoft 365 for business.
 ms.service: microsoft-365-business-security
 adobe-target:
-ms.date: 08/14/2025
+ms.date: 09/30/2025
 appliesto:
   - ✅ <a href="https://www.microsoft.com/microsoft-365/business/microsoft-365-business-basic" target="_blank">Microsoft 365 Business Basic</a>
   - ✅ <a href="https://www.microsoft.com/microsoft-365/business/microsoft-365-business-standard" target="_blank">Microsoft 365 Business Standard</a>
@@ -57,24 +57,25 @@ These security categories are described in the following sections and are summar
 |---|:---:|:---:|:---:|
 |**Account security**||||
 |&nbsp;&nbsp;Microsoft Entra ID|Free|Free|Plan 1|
-|&nbsp;&nbsp;Microsoft 365 E5 Security|||Purchased separately<br/>(includes Microsoft Entra ID P2)|
+|&nbsp;&nbsp;Microsoft Defender Suite for Business Premium|||Purchased separately<br/>(includes Microsoft Entra ID P2)|
 |**Email and collaboration security**||||
 |&nbsp;&nbsp;Default email protections for cloud mailboxes|✔|✔|✔|
 |&nbsp;&nbsp;Microsoft Defender for Office 365|||Plan 1|
-|&nbsp;&nbsp;Microsoft 365 E5 Security|||Purchased separately<br/>(includes Defender for Office 365 Plan 2)|
+|&nbsp;&nbsp;Microsoft Defender Suite for Business Premium|||Purchased separately<br/>(includes Defender for Office 365 Plan 2)|
 |**Device security**||||
 |&nbsp;&nbsp;Basic Mobility and Security|✔|✔|✔|
 |&nbsp;&nbsp;Microsoft Intune|||Plan 1|
 |&nbsp;&nbsp;Microsoft Defender for Business|||✔|
-|&nbsp;&nbsp;Microsoft 365 E5 Security|||Purchased separately<br/>(includes Defender for Endpoint Plan 2)|
+|&nbsp;&nbsp;Microsoft Defender Suite for Business Premium|||Purchased separately<br/>(includes Defender for Endpoint Plan 2)|
 
+<!---
 Watch this short video for more information:
 
-> [!VIDEO https://youtu.be/QJVHNfvzXrc]
+<iframe width="850" height="478" src="https://www.youtube.com/embed/QJVHNfvzXrc" title="Get started with security settings" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>--->
 
 ## Account security
 
-All subscriptions in Microsoft 365 for business include Microsoft Entra ID Free, which includes the feature named _security defaults_. Because security defaults is on by default, multifactor authentication (MFA) is also on by default in Microsoft 365 for business organizations.
+All subscriptions in Microsoft 365 for business include Microsoft Entra ID Free, which includes the feature named _security defaults_. Because security defaults is on by default, multifactor authentication (MFA) is enabled by default in Microsoft 365 for business organizations.
 
 Business Premium also includes Microsoft Entra ID P1, which includes the feature named _Conditional Access_. Conditional Access uses granular policies based on Zero Trust architecture to give users access to resources. If your organization requires increased or complex security settings, you can use Conditional Access policies instead of security defaults.
 
@@ -135,14 +136,14 @@ For more information, see [Overview of Basic Mobility and Security for Microsoft
   - [Device groups and Microsoft Intune categories in Microsoft 365 Business Premium](m365bp-devices-groups-categories.md)
   - [Device and application protection in Microsoft 365 Business Premium](m365bp-devices-protection.md).
 
-- **Ability to add Microsoft 365 E5 Security**: If you choose to buy this extra subscription, you get the following upgraded features:
+- **Ability to add Microsoft Defender Suite for Business Premium**: If you choose to buy this extra subscription, you get the following upgraded features:
   - [Microsoft Entra ID P2](/entra/fundamentals/licensing)
   - [Microsoft Defender for Identity](/defender-for-identity/what-is)
   - [Microsoft Defender for Endpoint Plan 2](/defender-endpoint/microsoft-defender-endpoint)
   - [Microsoft Defender for Office 365 Plan 2](/defender-office-365/mdo-about#defender-for-office-365-plan-1-vs-plan-2-cheat-sheet)
   - [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps)
 
-  For more information, see [Add Microsoft 365 E5 Security to your Microsoft 365 Business Premium subscription](m365bp-add-m365e5s.md).
+  For more information, see [Add Microsoft Defender Suite for Business Premium to your Microsoft 365 Business Premium subscription](add-defender-suite-business-premium.md).
 
 ## See also
 

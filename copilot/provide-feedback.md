@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: danbrown
 author: DHB-MSFT
-manager: dansimp
+manager: scotv
 ms.date: 11/01/2024
 ms.update-cycle: 180-days
 audience: Admin

@@ -2,7 +2,7 @@
 title: "Copilot Search admin experience"
 author: Efrene
 ms.author: efrene
-manager: dansimp
+manager: scotv
 ms.date: 06/05/2025
 ms.topic: overview
 ms.service: microsoft-365-copilot

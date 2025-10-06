@@ -3,7 +3,7 @@ title: Manage privacy and sharing controls in People Skills
 description: Learn how to set privacy and skill sharing controls for users, groups, or the entire tenant to meet your organization's needs and comply with local or business requirements.
 author: kwekuako
 ms.author: kwekua
-manager: dansimp
+manager: scotv
 ms.service: microsoft-365-copilot
 ms.collection: 
 - trust-pod

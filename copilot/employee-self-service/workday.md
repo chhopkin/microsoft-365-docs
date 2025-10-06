@@ -6,7 +6,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 07/3/2025
+ms.date: 09/29/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
@@ -16,14 +16,13 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 ms.custom: ess-agent
-robots: NOINDEX, NOFOLLOW
 description: "Learn about integrating Workday in the deployment process for the Employee Self-Service agent."
 ---
 
 # Integrate Workday with your Employee Self-Service deployment
 
 >[!NOTE]
->The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
+>The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
 >[!IMPORTANT]
 >You need to complete the steps to deploy the Employee Self-Service (ESS) agent before you can configure this supplemental extension pack.
@@ -74,12 +73,6 @@ You need to configure these systems with allowlists for the source IP addresses 
 [Learn about Managed connectors outbound IP addresses](/connectors/common/outbound-ip-addresses#power-platform).
 
 For Workday integration, the ESS agent uses the RaaS (Reports as a service) endpoint with SOAP exchange. You must work with InfoSec to allowlist the ESS agent to communicate with this endpoint. If any more data security requirements need to be met, especially for SOAP exchange, work with your security specialists to increase the security for data in transit.
-
-## Set up SSO for Workday with Microsoft Entra
-
-You don't need to do this step if SSO is already established for Workday with Microsoft Entra.
-
-[See the comprehensive guidance on setting up SSO integration with Workday](/entra/identity/saas-apps/workday-tutorial).
 
 ## Configure and prepare Workday reports
 
@@ -203,14 +196,14 @@ Security configuration to support ESS Copilot features for full-time employees a
 
 1. Security configuration for Integration System Security Group (ISSG).
     1. Search for the ISSG created in Task 3.
-    1. Using the **Related actions** option, select **Maintain Domain Permissions for Security Group** under the **Security Group** option.
-1. Confirm whether or not the **Integration Build** domain security policy is added.
-1. If the **Integration Build** domain security policy isn't set, you need to add it.
+    2. Using the **Related actions** option, select **Maintain Domain Permissions for Security Group** under the **Security Group** option.
+2. Confirm whether or not the **Integration Build** domain security policy is added.
+3. If the **Integration Build** domain security policy isn't set, you need to add it.
     1. in the search textbox for this page, search for **integration build** and filter for **security**.
-    1. Select the **Integration Build** domain security policy from the search results.
-    1. Select the ellipsis (…) menu, then select **Domain** > **Edit Security Policy Permissions**.
-    1. Add **ISSG_Generic_COPILOT** to **Integration Permissions**.
-    1. Run **Activate Pending Security Policy Changes**.
+    2. Select the **Integration Build** domain security policy from the search results.
+    3. Select the ellipsis (…) menu, then select **Domain** > **Edit Security Policy Permissions**.
+    4. Add **ISSG_Generic_COPILOT** to **Integration Permissions**.
+    5. Run **Activate Pending Security Policy Changes**.
 
 ### Task 8 Create Reports
 

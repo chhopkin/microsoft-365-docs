@@ -4,7 +4,7 @@ description: Dive into Microsoft 365 Copilot reporting tools, including Viva Ins
 #customer intent: As an IT admin, I want to understand the reporting options for Microsoft 365 Copilot so that I can monitor usage, performance, and compliance effectively.
 author: aczechowski
 ms.author: aaroncz
-manager: dansimp
+manager: scotv
 ms.reviewer: alejanl, camillepack
 ms.date: 09/16/2025
 ms.update-cycle: 180-days
