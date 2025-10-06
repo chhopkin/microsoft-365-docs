@@ -66,7 +66,8 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
     | **Target Link URI** | Copy the **Target Link URL** value from the Microsoft registration. |
 
 1. Check the following **Extensions** options, and add the following **Substitution Parameters** to the registration:
-  :::image type="content" source="./media/brightspace-extensions-2.png" alt-text="Screenshot of Brightspace extensions." border="true":::
+
+    :::image type="content" source="./media/brightspace-extensions-2.png" alt-text="Screenshot of Brightspace extensions." border="true":::
 
 1. Select the **Register** button.
 
