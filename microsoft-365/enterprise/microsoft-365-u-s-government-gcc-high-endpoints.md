@@ -1,9 +1,9 @@
 ---
 title: "Microsoft 365 U.S. Government GCC High endpoints"
-ms.author: siviv
-author: VargheseSivi
+ms.author: kvice
+author: kelleyvice-msft
 manager: scotv
-ms.date: 04/30/2025
+ms.date: 08/29/2025
 audience: ITPro
 ms.topic: article
 ms.service: microsoft-365-enterprise
@@ -30,7 +30,7 @@ hideEdit: true
 
 Microsoft 365 requires connectivity to the Internet. The following endpoints should be reachable for customers using Microsoft 365 U.S. Government GCC High plans only.
   
- **Microsoft 365 endpoints:** [Worldwide (including GCC)](urls-and-ip-address-ranges.md) \| [Microsoft 365 operated by 21 Vianet](urls-and-ip-address-ranges-21vianet.md) \| [Microsoft 365 U.S. Government DoD](microsoft-365-u-s-government-dod-endpoints.md) \| *Microsoft 365 U.S. Government GCC High* \| [Microsoft 365 France](urls-ip-address-ranges-france.md) \| [Microsoft 365 Germany](urls-ip-address-ranges-germany.md) \|
+ **Microsoft 365 endpoints:** [Worldwide (including GCC)](urls-and-ip-address-ranges.md) \| [Microsoft 365 operated by 21 Vianet](urls-and-ip-address-ranges-21vianet.md) \| [Microsoft 365 U.S. Government DoD](microsoft-365-u-s-government-dod-endpoints.md) \| *Microsoft 365 U.S. Government GCC High*
 
 <br>
 
@@ -38,12 +38,12 @@ Microsoft 365 requires connectivity to the Internet. The following endpoints sho
 
 |Notes|Download|
 |---|---|
-|**Last updated:** 04/30/2025 - ![RSS.](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Change Log subscription](https://endpoints.office.com/version/USGOVGCCHigh?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**Download:** the full list in [JSON format](https://endpoints.office.com/endpoints/USGOVGCCHigh?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|
-|
+|**Last updated:** 08/29/2025 - ![RSS.](../media/5dc6bb29-25db-4f44-9580-77c735492c4b.png) [Change Log subscription](https://endpoints.office.com/version/USGOVGCCHigh?allversions=true&format=rss&clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|**Download:** the full list in [JSON format](https://endpoints.office.com/endpoints/USGOVGCCHigh?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7)|
+
 
  Start with [Managing Microsoft 365 endpoints](managing-office-365-endpoints.md) to understand our recommendations for managing network connectivity using this data. Endpoints data is updated as needed at the beginning of each month. New IP Addresses and URLs are published 30 days in advance of being active. This lets customers who don't yet have automated updates to complete their processes before new connectivity is required. Endpoints might also be updated during the month if needed to address support escalations, security incidents, or other immediate operational requirements. The data shown on this page is all generated from the REST-based web services. If you're using a script or a network device to access this data, you should go to the [Web service](microsoft-365-ip-web-service.md) directly.
 
-Endpoint data below lists requirements for connectivity from a user's machine to Microsoft 365. It doesn't include network connections from Microsoft into a customer network, sometimes called hybrid or inbound network connections.
+Endpoint data below lists requirements for connectivity from a user’s machine to Microsoft 365. It doesn't include network connections from Microsoft into a customer network, sometimes called hybrid or inbound network connections.
 
 The Microsoft 365 suite is broken down into four major service areas representing the three primary workloads and a set of common resources. These service areas might be used to associate traffic flows with a particular application, however given that features often consume endpoints across multiple workloads, these service areas can't effectively be used to restrict access.
 

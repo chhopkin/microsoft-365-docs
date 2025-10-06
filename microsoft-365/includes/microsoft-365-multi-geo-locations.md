@@ -1,7 +1,7 @@
 ---
-ms.date: 04/01/2024
+ms.date: 09/26/2025
 ---
-|  Microsoft 365 Region                                                               |  PreferredDataLocation (PDL) Value
+|  Microsoft 365 Geography                                                            |  PreferredDataLocation (PDL) Value
 |:------------------------------------------------------------------------------------|:-------|
 |South Korea, Japan, Singapore, Malaysia, Hong Kong Special Administrative Region     |APC
 |Australia                                                                            |AUS

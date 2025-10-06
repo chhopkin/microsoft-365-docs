@@ -16,7 +16,7 @@ ms.collection:
 - trust-pod
 hideEdit: true
 ms.update-cycle: 180-days
-ms.date: 08/22/2025
+ms.date: 09/05/2025
 ms.custom: [copilot-learning-hub]
 ---
 
@@ -191,6 +191,10 @@ Yes, Microsoft 365 Copilot provides detection for protected materials, which inc
 ### Does Copilot block prompt injections (jailbreak attacks)?
 
 Jailbreak attacks are prompts designed to bypass Copilot's safeguards or induce non-compliant behavior. Microsoft 365 Copilot helps mitigate these attacks by using proprietary jailbreak and cross-prompt injection attack (XPIA) classifiers. These classifiers analyze inputs to the Copilot service and help block high-risk prompts prior to model execution.
+
+### What happens when foundation model changes occur?
+
+The AI models that power Microsoft 365 Copilot are regularly updated and enhanced. Model updates bring performance improvements, more advanced reasoning, and expanded capabilities, but they don't change your security, privacy, or compliance settings. For more information, see [Microsoft 365 Blog: Understanding foundation model changes in Microsoft 365 Copilot](https://techcommunity.microsoft.com/blog/microsoft_365blog/understanding-foundation-model-changes-in-microsoft-365-copilot/4440322).
 
 ### Committed to responsible AI
 

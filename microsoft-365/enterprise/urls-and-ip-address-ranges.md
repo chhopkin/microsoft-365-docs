@@ -1,7 +1,7 @@
 ---
 title: "Microsoft 365 URLs and IP address ranges"
-ms.author: siviv
-author: VargheseSivi
+ms.author: kvice
+author: kelleyvice-msft
 manager: scotv
 ms.date: 07/31/2025
 audience: Admin
@@ -33,7 +33,7 @@ hideEdit: true
 
 Microsoft 365 requires connectivity to the Internet. The endpoints in this article should be reachable for customers using Microsoft 365 plans, including Government Community Cloud (GCC).
   
-*Microsoft 365 Worldwide (+GCC)* \| [Microsoft 365 operated by 21 Vianet](urls-and-ip-address-ranges-21vianet.md) \| [Microsoft 365 U.S. Government DoD](microsoft-365-u-s-government-dod-endpoints.md) \| [Microsoft 365 U.S. Government GCC High](microsoft-365-u-s-government-gcc-high-endpoints.md) \| [Microsoft 365 France](urls-ip-address-ranges-france.md) \| [Microsoft 365 Germany](urls-ip-address-ranges-germany.md) \|
+*Microsoft 365 Worldwide (+GCC)* \| [Microsoft 365 operated by 21 Vianet](urls-and-ip-address-ranges-21vianet.md) \| [Microsoft 365 U.S. Government DoD](microsoft-365-u-s-government-dod-endpoints.md) \| [Microsoft 365 U.S. Government GCC High](microsoft-365-u-s-government-gcc-high-endpoints.md) \|
 
 |Notes|Download|Use|
 |---|---|---|

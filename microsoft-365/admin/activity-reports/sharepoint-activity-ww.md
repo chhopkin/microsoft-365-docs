@@ -3,8 +3,8 @@ title: "Microsoft 365 admin center SharePoint activity reports"
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 03/29/2024
 audience: Admin
 ms.topic: article

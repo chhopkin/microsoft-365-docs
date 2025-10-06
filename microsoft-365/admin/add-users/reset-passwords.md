@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 04/02/2025
+ms.date: 09/17/2025
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -49,6 +49,9 @@ This article explains how to reset passwords for yourself and for your users whe
 This article is for people who set password expiration policy for a business, school, or nonprofit. To complete these steps, you need to sign in with your Microsoft 365 admin account. [Overview in the Microsoft 365 admin center](../admin-overview/admin-center-overview.md).
 
 You must be a [password administrator](about-admin-roles.md) to perform these steps.
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. To learn more, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## Watch: Reset a business password for a user
 
@@ -151,12 +154,5 @@ Check out this great blog post by Vasil Michev, Microsoft MVP: [Force password c
     ```
 
 > [!NOTE]
-> The userPrincipalName must be in the Internet-style sign-in format where the user name is followed by the at sign (@) and a domain name. For example: user@contoso.com.
+> The userPrincipalName must be in the Internet-style sign-in format where the user name is followed by the at sign (@) and a domain name. For example: `user@contoso.com`.
 
-## Related content
-  
-[Let users reset their own passwords](../add-users/let-users-reset-passwords.md) (article)\
-[Reset passwords](../add-users/reset-passwords.md) (article)\
-[Set an individual user's password to never expire](set-password-to-never-expire.md) (article)\
-[Set the password expiration policy for your organization](../manage/set-password-expiration-policy.md) (article)\
-[Microsoft 365 for business training videos](../../business-video/index.yml) (link page)

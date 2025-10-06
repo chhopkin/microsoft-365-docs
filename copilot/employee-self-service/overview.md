@@ -3,14 +3,13 @@ title: Overview of the Employee Self-Service agent
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: dansimp
+manager: scotv
 ms.reviewer: semani
-ms.date: 7/3/2025
+ms.date: 07/29/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
-robots: NOINDEX, NOFOLLOW
 ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn about the Employee Self-Service agent and the steps you need to follow to deploy it to your organization.
@@ -21,7 +20,7 @@ appliesto:
 # Overview of the Employee Self-Service agent
 
 >[!NOTE]
->The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
+>The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
 The Employee Self-Service (ESS) agent answer policy-related questions, assist with IT help, and simplify HR tasks to help your employees. The agent makes it easier to:
 
@@ -33,14 +32,14 @@ The Employee Self-Service (ESS) agent answer policy-related questions, assist wi
 
 |Version  |Changes |
 |---------|--------|
+|1.0.0.58 |Supported the UserContext flow among ESS Core package and ISV packages. </br>The UserContext setup is the same as the existing way of adding ISV-specific user context topics as redirected topics in the topic [Setup User Context](sapsuccessfactors.md#setup-user-context). |
+|1.0.0.59 |Internal naming standards fix. |
+|1.0.0.60 |Added default starter prompts. |
+|1.0.0.61 |No functional changes. |
+|1.0.0.62 |ESS package name changed to Employee Self-Service Agent. |
 |1.0.0.64 |Hard agent handoff base template without context passing (Topic is disabled by default). |
-|1.0.0.66 |Internal licensing validation |
-|1.0.0.62 |ESS package name to Employee Self-Service Agent |
-|1.0.0.61 |No functional changes |
-|1.0.0.60 |Added default starter prompts |
-|1.0.0.59 |Internal naming standards fix |
-|1.0.0.58 |Supported back the UserContext flow among ESS Core package and ISV packages.</br> The UserContext setup is the same as existing way of adding ISV specific user context topics as redirected topics in the topic "[Admin] - User Context - Setup" |
-|1.0.0.71 |  |
+|1.0.0.71 |Minor bug fixes. |
+|1.0.0.72 |Bug fixes for the Large Multimodal Model (LMM) capacity error message. |
 
 ## Get started with the Employee Self-Service agent
 
@@ -73,7 +72,7 @@ The ESS Agent involves multiple roles across different service areas. Operators 
 
 The **Admin** works in the Microsoft admin center to assign roles.
 
-The **Maker** works in Microsoft Copilot Studio to configure the agent. The maker sets up user context, knowledge sources (including M365 data and ISV connectors), topics, and ISV packages. All of this information goes through orchestration to reach the end user.
+The **Maker** works in Microsoft Copilot Studio to configure the agent. The maker sets up user context, knowledge sources (including Microsoft 365 data and ISV connectors), topics, and ISV packages. All of this information goes through orchestration to reach the end user.
 
 The **End user** accesses the Employee Self-Service agent in Microsoft 365 Chat or through Microsoft Teams.
 
