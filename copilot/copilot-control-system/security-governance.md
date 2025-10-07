@@ -60,23 +60,23 @@ In SharePoint Advanced Management and Microsoft Purview with an A3/E3/G3 license
 
   - Use SharePoint to manually configure this access or automate the configuration with Windows PowerShell. You don't need SharePoint Advanced Management for this control. For more information, see [Restrict SharePoint site access with Microsoft 365 Groups and Microsoft Entra security groups](/sharepoint/restricted-access-control).
 
-  - Use Purview information protection site sensitivity labels. For more information, see [Use sensitivity labels with Microsoft Teams, Microsoft 365 Groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites).
+  - Use Microsoft Purview information protection site sensitivity labels. For more information, see [Use sensitivity labels with Microsoft Teams, Microsoft 365 Groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites).
 
 - Improve Copilot and agent responses by archiving or deleting unneeded content.
 
   - [Manage inactive SharePoint sites using site lifecycle management](/sharepoint/site-lifecycle-management).
 
-  - Use [Purview Data Lifecycle Management](/purview/retention-policies-sharepoint) to identify and delete files you don't need.
+  - Use [Microsoft Purview Data Lifecycle Management](/purview/retention-policies-sharepoint) to identify and delete files you don't need.
 
 In Microsoft Purview with an A3/E3/G3 license, you get the following foundational data security controls:
 
-- Get notifications when new oversharing occurs with options for remediation. For more information, see [Purview Data Loss Prevention](/purview/dlp-learn-about-dlp).
+- Get notifications when new oversharing occurs with options for remediation. For more information, see [Microsoft Purview Data Loss Prevention](/purview/dlp-learn-about-dlp).
 
-- Secure sensitive data through file level access controls. For more information, see [Apply encryption using Purview Information Protection sensitivity labels](/purview/encryption-sensitivity-labels).
+- Secure sensitive data through file level access controls. For more information, see [Apply encryption using Microsoft Purview Information Protection sensitivity labels](/purview/encryption-sensitivity-labels).
 
-- View reports of sensitive data and unprotected files referenced in Copilot and agent interactions. For more information, see the reports in [Purview Data Security Posture Management (DSPM) for AI](/purview/ai-m365-copilot).
+- View reports of sensitive data and unprotected files referenced in Copilot and agent interactions. For more information, see the reports in [Microsoft Purview Data Security Posture Management (DSPM) for AI](/purview/ai-m365-copilot).
 
-- Use [Purview Information Protection sensitivity labels](/purview/sensitivity-labels) for the following controls:
+- Use [Microsoft Purview Information Protection sensitivity labels](/purview/sensitivity-labels) for the following controls:
 
   - Detect when content contains sensitive data and ask the user to *manually* apply protections.
 
@@ -86,15 +86,15 @@ In Microsoft Purview with an A3/E3/G3 license, you get the following foundationa
 
 In Microsoft Purview with an A5/E5/G5 license, you get the following optimized data security controls:
 
-- Use [Purview data security posture management (DSPM) for AI](/purview/dspm-for-ai) for the following controls:
+- Use [Microsoft Purview data security posture management (DSPM) for AI](/purview/dspm-for-ai) for the following controls:
 
-  - Create oversharing assessments targeted to specific Microsoft 365 locations.
+  - Create data risk assessments targeted to specific Microsoft 365 locations, such as SharePoint sites and OneDrive.
 
   - Receive and act on policy suggestions to mitigate your specific oversharing risks.
 
-- To detect when content contains sensitive data and *automatically* apply protections, use [Purview information protection sensitivity labels](/purview/apply-sensitivity-label-automatically).
+- To detect when content contains sensitive data and *automatically* apply protections, use [Microsoft Purview information protection sensitivity labels](/purview/apply-sensitivity-label-automatically).
 
-- Use [Purview insider risk management](/purview/insider-risk-management) for the following controls:
+- Use [Microsoft Purview insider risk management](/purview/insider-risk-management) for the following controls:
 
 - Get alerted to risky user actions that deviate from their usual pattern of behavior. For more information, see [Insider Risk Management policy templates](/purview/insider-risk-management-policy-templates).
 
@@ -122,21 +122,19 @@ In SharePoint Advanced Management, you get the following foundational AI securit
 
 In Microsoft Purview with an A3/E3/G3 license, you get the following foundational AI security controls:
 
-- To view prompt and response text and referenced files, search and export with [Purview eDiscovery](/purview/edisc).
+- To view prompt and response text and referenced files, search and export with [Microsoft Purview eDiscovery](/purview/edisc).
 
-- For Copilot and agent responses and documents created by Copilot and agents to inherit sensitivity labels and protections, use [Purview Information Protection sensitivity labels](/purview/ai-m365-copilot).
+- For Copilot and agent responses and documents created by Copilot and agents to inherit sensitivity labels and protections, use [Microsoft Purview Information Protection sensitivity labels](/purview/ai-m365-copilot).
 
 ### Optimized AI security controls
 
 In Microsoft Purview with an A5/E5/G5 license, you get the following optimized AI security controls:
 
-- To prevent Copilot and agents from processing certain sensitive files and from using them in responses, use [Purview Data Loss Prevention for Microsoft 365 Copilot and agents](/purview/dlp-microsoft365-copilot-location-learn-about).
+- To prevent Copilot and agents from processing certain sensitive files and from using them in responses, use [Microsoft Purview Data Loss Prevention for Microsoft 365 Copilot and agents](/purview/dlp-microsoft365-copilot-location-learn-about).
 
-- To get alerted to risky AI use, such as an attempted prompt injection attack or use of sensitive data, use [Purview Insider Risk Management](/purview/insider-risk-management-policy-templates).
+- To get alerted to risky AI use, such as an attempted prompt injection attack or use of sensitive data, use [Microsoft Purview Insider Risk Management](/purview/insider-risk-management-policy-templates).
 
-- To view prompt and response text, any web queries used during grounding, and referenced files use activity explorer in [Purview Data Security Posture Management for AI](/purview/dspm-for-ai-considerations).
-
-[Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps) provides further optimized controls. These controls can help you detect suspicious interactions with Copilot. For example, is Copilot accessing sensitive data from a risky IP address. If necessary, Defender also provides highly detailed alerts to support investigations.
+- To view prompt and response text, any web queries used during grounding, and referenced files use activity explorer in [Microsoft Purview Data Security Posture Management for AI](/purview/dspm-for-ai-considerations).
 
 ## Compliance and privacy
 
@@ -146,15 +144,15 @@ The third aspect of security and governance in the Copilot Control System is to 
 
 In Microsoft Purview with an A3/E3/G3 license, you get the following foundational compliance and privacy controls:
 
-- To audit Copilot and agent interactions, access detailed log information with [Purview Audit for Copilot and AI applications](/purview/audit-copilot).
+- To audit Copilot and agent interactions, access detailed log information with [Microsoft Purview Audit for Copilot and AI applications](/purview/audit-copilot).
 
-- To enforce retention and deletion policies for the following features, use [Purview Data Lifecycle Management](/purview/data-lifecycle-management):
+- To enforce retention and deletion policies for the following features, use [Microsoft Purview Data Lifecycle Management](/purview/data-lifecycle-management):
 
   - Microsoft 365 Copilot and agent interactions
 
   - Microsoft Teams meeting recordings and transcripts
 
-- Use [Purview eDiscovery](/purview/edisc) for the following controls:
+- Use [Microsoft Purview eDiscovery](/purview/edisc) for the following controls:
 
   - Include a user's Copilot and agent prompts and responses in a legal hold. For more information, see [Holds and hold policies](/purview/edisc-features-components).
 
@@ -164,9 +162,9 @@ In Microsoft Purview with an A3/E3/G3 license, you get the following foundationa
 
 In Microsoft Purview with an A5/E5/G5 license, you get the following optimized compliance and privacy controls:
 
-- To receive an alert if a possible compliance or ethical violation occurs and then start an investigation, use [Purview communication compliance](/purview/communication-compliance).
+- To receive an alert if a possible compliance or ethical violation occurs and then start an investigation, use [Microsoft Purview communication compliance](/purview/communication-compliance).
 
-- To assess and track adherence to regulatory frameworks, use [Purview Compliance Manager](/purview/compliance-manager).
+- To assess and track adherence to regulatory frameworks, use [Microsoft Purview Compliance Manager](/purview/compliance-manager).
 
 ## Zero Trust
 
