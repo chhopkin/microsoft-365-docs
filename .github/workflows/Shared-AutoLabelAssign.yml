@@ -112,11 +112,11 @@ jobs:
 
             $ServiceToGitHubUserMapRepo = "officedocs-pr"
             $ServiceToGitHubUserMapFilePath = "/contents/.github/workflows/resources/service-subservice-to-github-user-map.csv"
-            $ServiceToGitHubUserMapRef = "reviewer-test"
+            $ServiceToGitHubUserMapRef = "main"
             $ServiceToGitHubUserMapUrl = $GitHubApiUrl + $ServiceToGitHubUserMapRepo + $ServiceToGitHubUserMapFilePath + "?ref=$ServiceToGitHubUserMapRef"
 
             $WorkflowsResourcePath = "https://api.github.com/repos/MicrosoftDocs/microsoft-365-docs/contents/.github/workflows/resources"
-            $WorkflowsRef = "workflows-test"
+            $WorkflowsRef = "workflows-prod"
 
             # URL of the org team to check. We're using the "everyone" team in MicrosoftDocs. 
             $OrgTeamUrl = "https://api.github.com/orgs/microsoftdocs/teams/everyone/memberships/"
@@ -1197,4 +1197,5 @@ jobs:
              
                 Write-Host "Event action not ready_for_review, opened, reopened, or synchronize."
             
+
             } # PR event and action check
