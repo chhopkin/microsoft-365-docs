@@ -90,7 +90,7 @@ If the user previously pinned the app to their taskbar, this policy doesn't chan
 - Windows 11, version 24H2 with [KB5058499][KB-24]
 - Windows 11, version 23H2 with [KB5058502][KB-23]
 
-    - **Do not pin Copilot and its companion apps to the Windows taskbar (default)**
+  - **Do not pin Copilot and its companion apps to the Windows taskbar (default)**
 
         This is the default setting: managed policy does not pin Microsoft 365 Copilot or companion apps to the Windows taskbar. Users may still pin these apps manually. You can change these settings at any time. Changes take up to 48 hours to apply on devices and might require a restart. 
 
