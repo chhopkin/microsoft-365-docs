@@ -3,6 +3,7 @@ title: "Microsoft 365 admin center Microsoft 365 Copilot usage"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: kols
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
