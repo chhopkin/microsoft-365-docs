@@ -28,16 +28,16 @@ ms.collection:
 
 As an admin, you can pin the Microsoft 365 Copilot app together with selected companion apps to the Windows 11 taskbar on Intune-managed devices. This provides users with quick access to Copilot features such as Chat, Search, and Agents. In addition, these lightweight companion apps provide quick access to files, people, and your calendar directly from the Windows 11 taskbar.​​​​​​​ You can configure this behavior in the Microsoft 365 admin center to automatically pin the apps on all eligible Windows 11 Intune-managed devices where they are installed. The setting is off by default. Follow the steps to download, install and configure the companion apps.
 
-## Step 1: Download and install companion apps
-
-Companion apps aren’t installed by default. You can download them here: .
-
 ## Before you begin
 
 To configure Copilot taskbar pinning in the Microsoft 365 admin center, you need to be assigned the Intune Administrator role.  
 
 > [!IMPORTANT]
 > Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you cannot use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](../microsoft-365/admin/add-users/about-admin-roles.md).
+
+## Step 1: Download and install companion apps
+
+Companion apps aren’t installed by default. You can download them here: .
 
 The companion apps suite includes:
 
@@ -54,7 +54,7 @@ For more information, see [Get started with Microsoft 365 companions](https://su
 
 The **Microsoft 365 Copilot app** is a standalone application that provides access to Chat, Search, Agents (if enabled), Notebooks, and Create. **Copilot Chat** is an integrated chat experience available within Microsoft 365 apps. To understand the difference between the Copilot app and Copilot Chat, see [Decide which Copilot is right for you](which-copilot-for-your-organization.md).
 
-1. Install the Microsoft 365 Copilot app before you configure this policy. For more information, see the [Microsoft 365 Copilot adoption guide](microsoft-365-copilot-enablement-resources.md) and overview for IT admins and [Add Microsoft Store apps to Microsoft Intune](/intune/intune-service/apps/store-apps-microsoft). If the app isn't installed, this setting has no effect.
+1. Install the Microsoft 365 Copilot app before you configure this policy. For more information, see the [Microsoft 365 Copilot adoption guide and overview for IT admins](microsoft-365-copilot-enablement-resources.md) and [Add Microsoft Store apps to Microsoft Intune](/intune/intune-service/apps/store-apps-microsoft). If the app isn't installed, this setting has no effect.
 2. Companion apps must be installed via the Microsoft 365 companion apps installer.
     1. Service dependencies for companions: Exchange Online + SharePoint (OneDrive) Online required Teams optional for certain features.  
 3. Windows versions to respect user unpin preference (optional):
@@ -98,8 +98,8 @@ You can change these settings at any time. Changes take up to 48 hours to apply 
 
 ## Announce the companion apps
 
-Before deploying the companion apps, it's recommended to send a notification to your organization about the companion apps deployment.  
-  
+Before deploying the companion apps, it's recommended to send a notification to your organization about the companion apps deployment.
+
 Join the [Ask a question - Microsoft Q&A](/answers/questions/ask/) to connect with other users, ask questions, and share insights.  
 
 With the companion apps on their taskbar, user can enjoy:
