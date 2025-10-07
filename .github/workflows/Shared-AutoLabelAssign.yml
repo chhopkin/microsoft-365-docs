@@ -1056,103 +1056,115 @@ jobs:
 
                         }
 
-                        # Auto user assignment can be disabled on repos using the $DataTableName table.
+                        # Auto user assignment can be disabled on repos in the calling workflow.
                         If ($AutoAssignUsers -eq $True) {
 
-                            # There's a short window between PR open and when Draft is set by the TierManagement workflow where PR reviewers could be added.
-                            # This If statement prevents that from happening.
-                            If (($GitHubAction -ne "opened") -and ($IsPrDraft -eq $False)) {
+                            ###################################### Auto reviewer assignment ######################################
 
-                                # Get permission level of user who created the comment. Need to use .role_name instead of .permission because .permission provides only legacy values. 
-                                # .role_name provides legacy plus triage, maintain, and custom roles like write-elevated.
-                                $UserPermission = $(Invoke-RestMethod -Method GET -Headers $GitHubHeaders -Uri $UserPermissionUrl).role_name
+                            If ($AutoAssignReviewers -eq $True) {
+                            
+                                # There's a short window between PR open and when Draft is set by the TierManagement workflow where PR reviewers could be added.
+                                # This If statement prevents that from happening.
+                                If (($GitHubAction -ne "opened") -and ($IsPrDraft -eq $False)) {
 
-                                # Only add reviewers if the submitter can't sign off on their own PR.
-                                If ($UserPermission -eq "read") {
+                                    # Get permission level of user who created the comment. Need to use .role_name instead of .permission because .permission provides only legacy values. 
+                                    # .role_name provides legacy plus triage, maintain, and custom roles like write-elevated.
+                                    $UserPermission = $(Invoke-RestMethod -Method GET -Headers $GitHubHeaders -Uri $UserPermissionUrl).role_name
 
-                                    # Get the service/subservice to GitHub account map
-                                    $ServiceToAccountMap = Get-ServiceGitHubAccountMappingTable
-                                    $ExpandedServiceSubServiceRows = Expand-ServiceSubServiceRows -CsvContent $ServiceToAccountMap
+                                    # Only add reviewers if the submitter can't sign off on their own PR.
+                                    If ($UserPermission -eq "read") {
 
-                                    $ReviewerArray = @()
+                                        # Get the service/subservice to GitHub account map
+                                        $ServiceToAccountMap = Get-ServiceGitHubAccountMappingTable
+                                        $ExpandedServiceSubServiceRows = Expand-ServiceSubServiceRows -CsvContent $ServiceToAccountMap
 
-                                    ForEach ($File in $FileMetadataArray) {
+                                        $ReviewerArray = @()
 
-                                        If ($File.Service -ne $Null) {
+                                        ForEach ($File in $FileMetadataArray) {
 
-                                            $FileReviewers = $Null
+                                            If ($File.Service -ne $Null) {
 
-                                            $FileReviewers = Get-ContentLeadAccounts -DataArray $ExpandedServiceSubServiceRows -Service $File.Service -SubService $File.SubService
+                                                $FileReviewers = $Null
 
-                                            If ($FileReviewers -ne $Null) {
+                                                $FileReviewers = Get-ContentLeadAccounts -DataArray $ExpandedServiceSubServiceRows -Service $File.Service -SubService $File.SubService
+
+                                                If ($FileReviewers -ne $Null) {
+                                                
+                                                    $ReviewerArray += $FileReviewers
+                                                
+                                                }
+
+                                            } Else {
                                             
-                                                $ReviewerArray += $FileReviewers
+                                                Write-Host "No service found for file $($File.FileName)."
+                                            
+                                            }
+                                        
+                                        }
+
+                                        $ReviewerArray = $ReviewerArray | Select-Object -Unique
+
+                                        If ($ReviewerArray.Count -gt 0) {
+
+                                            Write-Host "Checking org membership."
+
+                                            $TestedReviewerAccounts = Test-OrgMembership -GitHubReviewers $ReviewerArray
+                                            $ValidatedReviewerAccounts = $TestedReviewerAccounts.keys | Where-Object { $TestedReviewerAccounts[$_] }
+
+                                            $AtMentionedGitHubAccounts = Add-AtPrefix -GitHubReviewers $ValidatedReviewerAccounts
+
+                                            If ($ValidatedReviewerAccounts.Length -gt 0) {
+
+                                                $MissingReviewers = Compare-PRIndividualReviewers -GitHubReviewers $ValidatedReviewerAccounts
+
+                                                If ($MissingReviewers) {
+                                                
+                                                    Write-Host "Additional reviewers found. Setting reviewers and posting PR comment."
+
+                                                    $ReviewerMessage = $AtMentionedGitHubAccounts + $(Get-PrMessage "AutoLabelAssign-ContentLeadReviewNotice")
+
+                                                    Set-PrReviewer -PrUrl $PrUrl -GitHubReviewers $ValidatedReviewerAccounts
+                                                    Set-PrConversationMessage -Message $ReviewerMessage
+
+                                                } Else {
+                                            
+                                                    Write-Host "No additional reviewers to add. Not setting reviewers or posting PR comment."
+
+                                                }
+
+                                            } Else {
+                                                                                    
+                                                Write-Host "No valid reviewers to assign."
+                                                Write-Host $TestedReviewerAccounts
                                             
                                             }
 
                                         } Else {
-                                         
-                                            Write-Host "No service found for file $($File.FileName)."
                                         
+                                            Write-Host "No reviewers matched any services or subservices in PR articles."
+    
                                         }
+
+
+                                    } Else {
+                                    
+                                        Write-Host "Not adding reviewer because submitter can sign off PR. User permission: $UserPermission."
                                     
                                     }
 
-                                    $ReviewerArray = $ReviewerArray | Select-Object -Unique
-
-                                    If ($ReviewerArray.Count -gt 0) {
-
-                                        Write-Host "Checking org membership."
-
-                                        $TestedReviewerAccounts = Test-OrgMembership -GitHubReviewers $ReviewerArray
-                                        $ValidatedReviewerAccounts = $TestedReviewerAccounts.keys | Where-Object { $TestedReviewerAccounts[$_] }
-
-                                        $AtMentionedGitHubAccounts = Add-AtPrefix -GitHubReviewers $ValidatedReviewerAccounts
-
-                                        If ($ValidatedReviewerAccounts.Length -gt 0) {
-
-                                            $MissingReviewers = Compare-PRIndividualReviewers -GitHubReviewers $ValidatedReviewerAccounts
-
-                                            If ($MissingReviewers) {
-                                            
-                                                Write-Host "Additional reviewers found. Setting reviewers and posting PR comment."
-
-                                                $ReviewerMessage = $AtMentionedGitHubAccounts + $(Get-PrMessage "AutoLabelAssign-ContentLeadReviewNotice")
-
-                                                Set-PrReviewer -PrUrl $PrUrl -GitHubReviewers $ValidatedReviewerAccounts
-                                                Set-PrConversationMessage -Message $ReviewerMessage
-
-                                             } Else {
-                                         
-                                                 Write-Host "No additional reviewers to add. Not setting reviewers or posting PR comment."
-
-                                             }
-
-                                        } Else {
-                                                                                
-                                            Write-Host "No valid reviewers to assign."
-                                            Write-Host $TestedReviewerAccounts
-                                        
-                                        }
-
-                                    } Else {
-                                     
-                                        Write-Host "No reviewers matched any services or subservices in PR articles."
- 
-                                    }
-
-
                                 } Else {
                                 
-                                    Write-Host "Not adding reviewer because submitter can sign off PR. User permission: $UserPermission."
+                                    Write-Host "Not adding PR reviewers. PR action: $GitHubAction. Draft state: $IsPrDraft."
                                 
                                 }
 
                             } Else {
                              
-                                Write-Host "Not adding PR reviewers. PR action: $GitHubAction. Draft state: $IsPrDraft."
+                                Write-Host "Auto reviewer assignment disabled."
                             
                             }
+
+                            ###################################### Auto user assignment ######################################
 
                             # Don't add assignments to PRs in excluded branches listed in $ExcludedBranchList
                             If (!$ExcludedBranchList.Contains($TargetBranch)) {
