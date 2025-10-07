@@ -85,7 +85,7 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
   
     :::image type="content" source="./media/brightspace-security-settings.png" alt-text="Screenshot of security settings." border="true":::
 
-1. In Configuration Settings, select **Grades created by LTI will be included in Final Grade** and **Auto Create Grade Items**. Make sure that **Open as External Resource** is **not** checked.
+1. In Configuration Settings, select **Grades created by LTI will be included in Final Grade**. Make sure that **Open as External Resource** is **not** checked.
 
    :::image type="content" source="./media/brightspace-configuration-settings.png" alt-text="Screenshot of configuration settings." border="true":::
 
