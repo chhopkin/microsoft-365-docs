@@ -23,7 +23,7 @@ search.appverid:
 - MST160
 - MET150
 - MOE150
-ms.date: 10/10/2025
+ms.date: 10/08/2025
 description: "Learn how to get the Microsoft 365 Copilot usage report and gain insights into the Microsoft 365 Copilot activity in your organization."
 ---
 
@@ -43,15 +43,15 @@ In the Microsoft 365 Copilot usage report, which is in continuous enhancement, y
 
 You can use this report to see the usage of Microsoft 365 Copilot in your organization.
 
-At the top, you can filter by different periods. The Microsoft 365 Copilot report can be viewed over the last 7 days, 30 days, 90 days, or 180 days.
+At the top, you can filter by different timeframes. The Microsoft 365 Copilot report can be viewed over the last 7 days, 30 days, 90 days, or 180 days.
 
 You can view several numbers for Microsoft 365 Copilot usage, which highlight the enablement number and the adoption of the enablement:
 
 :::image type="content" alt-text="Screenshot showing Microsoft 365 Copilot usage summary information." source="../../media/copilot-usage-hero.png" lightbox="../../media/copilot-usage-hero.png":::
 
-**Enabled Users** shows the total number of unique users in your organization with Microsoft 365 Copilot licenses over the selected time period.
+**Enabled Users** shows the total number of unique users in your organization with Microsoft 365 Copilot licenses over the selected timeframe.
 
-**Active Users** shows the total number of enabled users in your organization who tried a user-initiated Microsoft 365 Copilot feature, in one or more apps in Microsoft 365 over the selected time period.
+**Active Users** shows the total number of enabled users in your organization who tried a user-initiated Microsoft 365 Copilot feature, in one or more apps in Microsoft 365 over the selected timeframe.
 
 **Active users rate** shows you the number of active users in your organization divided by the number of enabled users.
 
@@ -64,7 +64,7 @@ In **Recommendations**, the recommended action card highlights [Microsoft Copilo
 
 **Total prompts submitted** shows you the total number of prompts users sent to Microsoft 365 Copilot Chat during the selected time frame.
 
-**Average prompts submitted per user** represents the mean number of prompts each active user sent to Microsoft 365 Copilot Chat during the selected period.
+**Average prompts submitted per user** represents the mean number of prompts each active user sent to Microsoft 365 Copilot Chat during the selected timeframe.
 
 In the **Adoption** section, **Adoption by app** shows enabled users and active users of Copilot in Microsoft 365 apps.
 
@@ -94,7 +94,7 @@ In the **Prompts submitted** section, **Summary view** shows the total number of
 
 :::image type="content" source="../../media/m365-copilot-chat-adoption.png" alt-text="Screenshot showing the business chat usage chart in the Microsoft 365 Copilot usage report." lightbox="../../media/m365-copilot-chat-adoption.png":::
 
-**Agent adoption** shows active users of agents in Microsoft 365 Copilot for the selected period. As described earlier, only usage of agents that have been created by your org including both admin-approved agents and agents shared by users in your org.
+**Agent adoption** shows active users of agents in Microsoft 365 Copilot for the selected period. Only usage of agents created by your org, including both admin-approved agents and agents shared by users in your org, are included in this chart.
 
 **Summary view** shows the total number of agent users in Microsoft 365 Copilot over the selected time frame.
 
@@ -172,18 +172,18 @@ To ensure data quality, we perform daily data validation checks for the past thr
 | Copilot Chat (web) prompts submitted | The total number of prompts submitted by this user to Copilot Chat (web) during the selected timeframe. |
 | Active Days | The total number of days the user submitted prompts to Microsoft 365 Copilot Chat within the selected timeframe. |
 | Last activity date (UTC (Universal Time Code)) | The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Teams, Outlook,  m365.cloud.microsoft/chat, Microsoft Edge, the Microsoft 365 Copilot (app), Word, Excel, PowerPoint, or OneNote. This date remains fixed even if the timeframe of the report is changed.  |
-| Last activity date of Teams Copilot (UTC)      | The latest date the user had activity in Microsoft Teams Copilot, including any of the intentional activities, regardless of the selected time period of past 7/30/90/180 days.                                |
-| Last activity date of Word Copilot (UTC)       | The latest date the user had activity in Word Copilot, including any of the intentional activities, regardless of the selected time period of past 7/30/90/180 days.                                            |
-| Last activity date of Excel Copilot (UTC)      | The latest date the user had activity in Excel Copilot, including any of the intentional activities, regardless of the selected time period of past 7/30/90/180 days.                                        |
-| Last activity date of PowerPoint Copilot (UTC)  | The latest date the user had activity in PowerPoint Copilot, including any of the intentional activities, regardless of the selected time period of past 7/30/90/180 days.                                   |
-| Last activity date of Outlook Copilot (UTC)    | The latest date the user had activity in Outlook Copilot, including any of the intentional activities, regardless of the selected time period of past 7/30/90/180 days.                                       |
-| Last activity date of OneNote Copilot (UTC)    | The latest date the user had activity in OneNote Copilot, including any of the intentional activities, regardless of the selected time period of past 7/30/90/180 days.                                       |
-| Last activity date of Loop Copilot (UTC)       | The latest date the user had activity in Loop Copilot, including any of the intentional activities, regardless of the selected time period of past 7/30/90/180 days.                                          |
-| Last activity date of Copilot Chat (work) (UTC)        | The latest date the user had activity in Copilot Chat (work), including any of the intentional activities, regardless of the selected time period of past 7/30/90/180 days.                                         |
-| Last activity date of Copilot Chat (web) (UTC)        | The latest date the user had activity in Copilot Chat (web), including any of the intentional activities, regardless of the selected time period of past 7/30/90/180 days.                    |
-| Last activity date of Microsoft 365 App (UTC)       | The latest date the user had activity in Copilot Chat in entry point Microsoft 365 App, including any of the intentional activities, regardless of the selected time period of past 7/30/90/180 days.                 |
-| Last activity date of Microsoft Edge (UTC)     | The latest date the user had activity in Copilot Chat in entry point Microsoft Edge, including any of the intentional activities, regardless of the selected time period of past 7/30/90/180 days.         |
-| Last activity date of any agent (UTC)   | The latest date the user had activity with an agent built by your org, regardless of the selected time period of past 7/30/90/180 days.      |
+| Last activity date of Teams Copilot (UTC)      | The latest date the user had activity in Microsoft Teams Copilot, including any of the intentional activities, regardless of the selected timeframe of past 7/30/90/180 days.                                |
+| Last activity date of Word Copilot (UTC)       | The latest date the user had activity in Word Copilot, including any of the intentional activities, regardless of the selected timeframe of past 7/30/90/180 days.                                            |
+| Last activity date of Excel Copilot (UTC)      | The latest date the user had activity in Excel Copilot, including any of the intentional activities, regardless of the selected timeframe of past 7/30/90/180 days.                                        |
+| Last activity date of PowerPoint Copilot (UTC)  | The latest date the user had activity in PowerPoint Copilot, including any of the intentional activities, regardless of the selected timeframe of past 7/30/90/180 days.                                   |
+| Last activity date of Outlook Copilot (UTC)    | The latest date the user had activity in Outlook Copilot, including any of the intentional activities, regardless of the selected timeframe of past 7/30/90/180 days.                                       |
+| Last activity date of OneNote Copilot (UTC)    | The latest date the user had activity in OneNote Copilot, including any of the intentional activities, regardless of the selected timeframe of past 7/30/90/180 days.                                       |
+| Last activity date of Loop Copilot (UTC)       | The latest date the user had activity in Loop Copilot, including any of the intentional activities, regardless of the selected timeframe of past 7/30/90/180 days.                                          |
+| Last activity date of Copilot Chat (work) (UTC)        | The latest date the user had activity in Copilot Chat (work), including any of the intentional activities, regardless of the selected timeframe of past 7/30/90/180 days.                                         |
+| Last activity date of Copilot Chat (web) (UTC)        | The latest date the user had activity in Copilot Chat (web), including any of the intentional activities, regardless of the selected timeframe of past 7/30/90/180 days.                    |
+| Last activity date of Microsoft 365 App (UTC)       | The latest date the user had activity in Copilot Chat in entry point Microsoft 365 App, including any of the intentional activities, regardless of the selected timeframe of past 7/30/90/180 days.                 |
+| Last activity date of Microsoft Edge (UTC)     | The latest date the user had activity in Copilot Chat in entry point Microsoft Edge, including any of the intentional activities, regardless of the selected timeframe of past 7/30/90/180 days.         |
+| Last activity date of any agent (UTC)   | The latest date the user had activity with an agent built by your org, regardless of the selected timeframe of past 7/30/90/180 days.      |
 
 ## Display user-specific data
 
