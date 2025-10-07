@@ -3,8 +3,8 @@ title: "Microsoft Adoption Score - Privacy"
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-author: denisebmsft
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 09/18/2020
 audience: Admin
 ms.topic: article
@@ -18,7 +18,8 @@ ms.collection:
 - Adm_O365
 - trust-pod
 - operations-pod
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- GAUpdates
 search.appverid:
 - MET150
 - MOE150

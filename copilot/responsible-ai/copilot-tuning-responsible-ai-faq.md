@@ -1,10 +1,10 @@
 ---
-title: Responsible AI FAQ for Microsoft 365 Copilot Tuning
+title: FAQ for Copilot Tuning
 f1.keywords:
 ms.author: kwekua
 author: kwekuako
 manager: dansimp
-ms.date: 06/17/2025
+ms.date: 09/24/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: faq
@@ -18,15 +18,15 @@ ms.collection:
 description: Get answers to frequently asked questions about responsible AI and Microsoft 365 Copilot Tuning
 ---
 
-# Responsible AI FAQ for Microsoft 365 Copilot Tuning
+# FAQ for Copilot Tuning
 
 <!-- cSpell:ignore calvind emrek emrekiciman pretrained -->
 
-This FAQ article helps answer questions about the responsible use of AI in [Microsoft 365 Copilot Tuning](copilot-tuning-overview.md).
+This FAQ article helps answer questions about the responsible use of AI in [Microsoft 365 Copilot Tuning](../copilot-tuning-overview.md).
 
-[!INCLUDE [copilot-tuning-preview](includes/copilot-tuning-preview.md)]
+[!INCLUDE [copilot-tuning-preview](../includes/copilot-tuning-preview.md)]
 
-## What is Microsoft 365 Copilot Tuning?
+## What is Copilot Tuning?
 
 Copilot Tuning is a service that enhances the customization of Microsoft 365 Copilot and agents by fine-tuning models on tenant-specific data. With the capabilities provided by Copilot Tuning, organizations can use their proprietary data to improve the relevance and accuracy of AI-generated outputs. This fine-tuning ensures that the models understand and adhere to the unique terminology, workflows, and business processes of the organization.
 
@@ -79,8 +79,8 @@ After using Copilot Tuning to create a task-specific, organization-specific agen
 
 ## Related content
 
-- [Transparency Note for Microsoft 365 Copilot](microsoft-365-copilot-transparency-note.md)
-- [Microsoft 365 Copilot Tuning overview (preview)](copilot-tuning-overview.md)
+- [Transparency Note for Microsoft 365 Copilot](../microsoft-365-copilot-transparency-note.md)
+- [Microsoft 365 Copilot Tuning overview (preview)](../copilot-tuning-overview.md)
 - [Microsoft AI principles](https://www.microsoft.com/ai/responsible-ai)
 - [Microsoft responsible AI resources](https://www.microsoft.com/ai/responsible-ai-resources)
 - [Microsoft Azure learning courses on responsible AI](/ai)

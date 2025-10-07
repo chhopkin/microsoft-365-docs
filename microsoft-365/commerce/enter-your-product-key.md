@@ -5,8 +5,8 @@ f1.keywords:
 - aka.ms/smbsetup
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
-ms.reviewer: drjones, jobailey
+manager: scotv
+ms.reviewer: padeshmukh
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business

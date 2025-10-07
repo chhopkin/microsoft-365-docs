@@ -275,7 +275,9 @@ items:
             - name: Manage shared agents
               href: manage/manage-shared-agents.md
             - name: Manage pinning of agents
-              href: manage/manage-pinning-agents.md  
+              href: manage/manage-pinning-agents.md
+            - name: Manage agent permissions
+              href: manage/manage-agents-permissions.md  
             - name: Manage embedded knowledge agents
               href: manage/manage-embedded-knowledge-agents.md
             - name: Microsoft Graph connectors for Microsoft Search
@@ -478,6 +480,8 @@ items:
           href: security-and-compliance/m365b-security-overview.md
         - name: What's new in security in Microsoft 365 for business
           href: security-and-compliance/m365b-security-whats-new.md
+        - name: Microsoft 365 Business Premium security - frequently asked questions
+          href: security-and-compliance/m365bp-security-faq.yml
         - name: Get started
           items:
           - name: Microsoft 365 for business security best practices
@@ -488,8 +492,8 @@ items:
             href: security-and-compliance/m365bp-security-benefits.md
           - name: Monitor Microsoft 365 Business Premium and Defender for Business
             href: security-and-compliance/m365bp-security-monitor.md
-          - name: Add Microsoft 365 E5 Security to Microsoft 365 Business Premium
-            href: security-and-compliance/m365bp-add-m365e5s.md
+          - name: Add Microsoft Defender Suite for Business Premium to your subscription
+            href: security-and-compliance/add-defender-suite-business-premium.md
           - name: Secure Microsoft 365 Copilot for small businesses
             href: security-and-compliance/m365b-copilot-security.md
           - name: GDPR simplified - A guide for your small business
