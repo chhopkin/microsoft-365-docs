@@ -81,9 +81,7 @@ For additional, detailed information about the LLMs provided to Microsoft by Ope
 |Microsoft Graph Connectors|Microsoft Graph Connectors enable connections to external data sources, including up to 500 items per Microsoft 365 Copilot license. |
 |Microsoft Purview|Microsoft Purview is a solution that helps organizations manage and protect their data. It provides a unified platform for data governance, information protection, risk management, and compliance. Customers can extend Microsoft Purview capabilities provided by customers’ Microsoft subscriptions (for example, Microsoft 365 E3 or E5 subscriptions) to Microsoft 365 Copilot data and interactions.|
 | Microsoft 365 Copilot Tuning | Microsoft 365 Copilot Tuning allows organizations to fine-tune large language models (LLMs) by using their own tenant data. These models can be used to perform domain-specific tasks based on the organization's unique knowledge.<br/><br/>For more information, see [Responsible AI FAQ for Microsoft 365 Copilot Tuning](responsible-ai/copilot-tuning-responsible-ai-faq.md). |
-|Microsoft Copilot Studio|Microsoft Copilot Studio provides a guided graphical experience to design, test, and deploy agents that support both deterministic and non-deterministic workflows. These agents can operate alongside users or autonomously. For more information, see [Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext).|
-|Microsoft Copilot Studio agent builder|Microsoft Copilot Studio agent builder enables users to create prompt-and-response agents for internal enterprise use. Using natural language, users can define agent goals and instructions without needing to write any code. For more information, see [Overview of Copilot Studio agent builder](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder).|
-
+|Microsoft Copilot Studio|Microsoft Copilot Studio is a powerful platform for building secure, scalable, and intelligent agents that work across Microsoft 365 and line-of-business systems. Copilot Studio offers two ways to build AI agents: a lite experience (integrated into the Microsoft 365 Copilot app) and a full experience (a standalone Copilot Studio application). For more information, see [Choose the right Copilot Studio experience](/microsoft-365-copilot/extensibility/copilot-studio-experience).|
 
 ### System Behavior
 
@@ -117,7 +115,7 @@ Microsoft 365 Copilot doesn't require web content or organizational data to prov
 
 ### Extensibility & customization
 
-Makers can build agents using the Copilot Studio agent builder experience available in Microsoft 365 Copilot Chat. They can either describe what the agent should do or configure it through an intuitive experience. These agents allow you to define specific instructions and knowledge that shape how Copilot behaves in your business scenarios. Because they run on the same orchestrator, foundation models, and trusted AI services as Microsoft 365 Copilot, they offer a consistent and secure way to enhance collaboration, streamline workflows, and boost productivity across your organization.
+Makers can build agents using the Copilot Studio lite experience available in Microsoft 365 Copilot Chat. They can either describe what the agent should do or configure it through an intuitive experience. These agents allow you to define specific instructions and knowledge that shape how Copilot behaves in your business scenarios. Because they run on the same orchestrator, foundation models, and trusted AI services as Microsoft 365 Copilot, they offer a consistent and secure way to enhance collaboration, streamline workflows, and boost productivity across your organization.
 
 For more complex workflows, makers can use Microsoft Copilot Studio, which provides a rich graphical environment to design, test, and deploy autonomous agents that can take action on their behalf. For developers, the [Microsoft 365 Agents SDK](/microsoft-365/agents-sdk/) provides the tools to build agents that integrate deeply with Microsoft 365 apps and services.
 
@@ -241,7 +239,7 @@ Microsoft provides tools like the Microsoft Copilot Dashboard for Microsoft 365 
 ## Learn more about agents
 
 - [Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext)
-- [Overview of Copilot Studio agent builder](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder)
+- [Use Copilot Studio to build declarative agents](/microsoft-365-copilot/extensibility/copilot-studio-lite)
 - [Declarative agents for Microsoft 365 Copilot overview](/microsoft-365-copilot/extensibility/overview-declarative-agent)
 - [Create and deploy an agent with Microsoft 365 Agents SDK](/microsoft-365-copilot/extensibility/create-deploy-agents-sdk)
 
