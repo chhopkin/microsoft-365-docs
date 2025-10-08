@@ -3,7 +3,7 @@ title: "Sharing your shared booking page"
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 05/23/2024
+ms.date: 04/10/2025
 audience: Admin
 ms.topic: article
 ms.service: bookings
@@ -12,6 +12,7 @@ ms.collection:
 - Tier1
 - scotvorg
 - essentials-manage
+- operations-pod
 description: "Learn how to share the Microsoft Bookings shared booking page with clients or customers."
 ---
 

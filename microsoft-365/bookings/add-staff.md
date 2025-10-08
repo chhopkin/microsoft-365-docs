@@ -3,7 +3,7 @@ title: "Add team members to Bookings"
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 07/11/2024
+ms.date: 04/10/2025
 audience: Admin
 ms.topic: how-to
 ms.service: bookings
@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 ms.collection:
 - scotvorg
 - essentials-manage
+- operations-pod
 description: "Use this page to create your staff list and to manage staff member details such as name, phone number, and email address."
 ---
 
@@ -26,7 +27,7 @@ Although Bookings is a feature of Microsoft 365, not all of your staff members a
 
 ## Watch: Add your staff to Bookings
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWuVka]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=4e73854b-cf44-4121-8e3a-59f4fe51080d]
 
 ## Steps
 
@@ -34,20 +35,20 @@ Although Bookings is a feature of Microsoft 365, not all of your staff members a
 
 2. Go to staff option in left pane and select **Staff**, and then **Add new staff**.
 
-3. When adding staff from within your organization, type their name in the search field and select them when they appear in the drop-down menu. The other fields will automatically populate.
+3. When adding staff from within your organization, type their name in the search field and select them when they appear in the drop-down menu. The other fields automatically populate.
 
     > [!NOTE]
     > To add staff from outside of your organization, manually fill in their email and other information. Staff from outside your tenant will not be able to share free/busy information with Bookings.
 
 4. For each staff member, select a role: Team member, Scheduler, Viewer, or Guest. To learn more about staff roles, see [Understanding staff roles](staff-roles.md).
 
-5. Select **Notify all staff via email when a booking assigned to them is created or changed** to enable staff emails. The following is an example email:
+5. Select **Notify all staff via email when a booking assigned to them is created or changed** to enable staff emails. The following email shows an example:
 
     :::image type="content" source="media/bookings-notify-all-email.jpg" alt-text="A notification email from Bookings.":::
 
 6. Select **Events on Microsoft 365 calendar affect availability** if you want the free/busy information from staff members’ calendars to impact availability for booking services through Bookings.
 
-    For example, if a staff member has a team meeting or a personal appointment scheduled for 3pm on a Wednesday, Bookings will show that staff member as unavailable to be booked in that time slot. That time will appear as busy or tentative in the Bookings Page view, as shown in the below example.
+    For example, if a staff member has a team meeting or a personal appointment scheduled for 3pm on a Wednesday, Bookings shows that staff member as unavailable to be booked in that time slot. That time appears as busy or tentative in the Bookings Page view, as shown in the image below.
 
     :::image type="content" source="media/bookings-busy-tentative-view-2.png" alt-text="A view of a Bookings Page." lightbox="media/bookings-busy-tentative-view-2.png":::
 

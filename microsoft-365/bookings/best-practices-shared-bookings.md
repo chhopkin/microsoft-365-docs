@@ -5,13 +5,13 @@ author: kwekuako
 manager: scotv
 ms.date: 07/24/2024
 audience: Admin
-ms.topic: article
+ms.topic: best-practice
 ms.service: bookings
 ms.localizationpriority: medium
 ms.collection:
 - Tier1
 - scotvorg
-- essentials-manage
+- operations-pod
 description: "Understand and implement best practices for using Shared Booking features."
 ---
 

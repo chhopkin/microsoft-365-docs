@@ -4,11 +4,12 @@ ms.author: camillepack
 author: pritikar
 manager: scotv
 ms.date: 05/29/2024  
-ms.topic: article
+ms.topic: how-to
 ms.service: bookings
 ms.localizationpriority: medium
 ms.collection:
 - scotvorg
+- operations-pod
 ms.custom: QuickDraft  
 ms.reviewer: kwekua  
 search.appverid: MET150  

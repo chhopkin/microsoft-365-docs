@@ -10,7 +10,7 @@ ms.service: bookings
 ms.localizationpriority: medium
 ms.collection:
 - scotvorg
-- essentials-manage
+- operations-pod
 description: "Learn how staff can accept membership when they're added to a Shared Booking page."
 ---
 

@@ -5,7 +5,7 @@ author: kelleyvice-msft
 ms.author: kvice
 manager: scotv
 ms.date: 07/29/2024
-ms.topic: conceptual 
+ms.topic: article
 f1.keywords:
 - NOCSH
 ms.service: microsoft-365-enterprise
@@ -43,7 +43,7 @@ This is built into Microsoft 365 and helps you secure and manage your users' mob
 
 ## Choose between the two options
 
-To help you better assess which device management option is best for you, see [Choose between Basic Mobility Security and Intune](/microsoft-365/admin/basic-mobility-security/choose-between-basic-mobility-and-security-and-intune).
+To help you better assess which device management option is best for you, see [Comparison of Basic Mobility Security and Microsoft Intune](/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-overview#comparison-of-basic-mobility-and-security-and-microsoft-intune).
 
 Based on your assessment, get started managing your devices with:
 

@@ -5,17 +5,18 @@ f1.keywords:
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
-ms.reviewer: sinakassaw, nicholak
+ms.reviewer: rabhange
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-acquisition
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier1
 - scotvorg
 - M365-subscription-management
 - Adm_o365
+- operations-pod
 ms.custom:
 - commerce_licensing
 - okr_SMB
@@ -25,9 +26,10 @@ ms.custom:
 - adminvideo
 - admindeeplinkMAC
 - GAUpdates
+- campaignIDs-batch1
 search.appverid: MET150
 description: "Learn how to buy more licenses or reduce the number of licenses for your business subscription in the Microsoft 365 admin center."
-ms.date: 02/22/2024
+ms.date: 07/08/2025
 ---
 
 # Buy or remove licenses for a Microsoft business subscription
@@ -56,7 +58,7 @@ If you have an MCA billing account type, you can buy more licenses for your subs
 
 Check out this video and others on our [YouTube channel](https://go.microsoft.com/fwlink/p/?linkid=2198206).
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4KWvE]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=39da2c83-25e7-4f70-a725-e92ad7059253]
 
 If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2197659) on YouTube.
 
@@ -79,7 +81,7 @@ If you buy licenses in the middle of your billing period, you have seven days fr
 
 Check out this video and others on our [YouTube channel](https://go.microsoft.com/fwlink/p/?linkid=2276120).
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4L53r]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=b7957f79-ac06-4f8e-a2d4-e39f864c9001]
 
 If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2197659) on YouTube.
 

@@ -5,18 +5,19 @@ f1.keywords:
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
-ms.reviewer: emmasheridan, nicholak
+ms.reviewer: patyc
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-acquisition
 ms.localizationpriority: medium
-ms.collection: 
+ms.collection:
 - Tier1
 - scotvorg
-- highpri 
+- highpri
 - M365-subscription-management
 - Adm_O365
+- operations-pod
 ms.custom:
 - commerce_subscriptions
 - VSBFY23
@@ -25,9 +26,10 @@ ms.custom:
 - AdminTemplateSet
 - admindeeplinkMAC
 - GAUpdates
-search.appverid: MET150 
+- campaignIDs-batch1
+search.appverid: MET150
 description: "Learn how to manage your subscription renewal for a Microsoft business subscription by turning recurring billing off or on."
-ms.date: 07/22/2024
+ms.date: 07/30/2025
 ---
 
 # Manage recurring billing in the Microsoft 365 admin center
@@ -54,6 +56,9 @@ If you prepaid for your subscription with a product key, your subscription expir
 When you turn off recurring billing for a subscription, it isn’t canceled. The subscription remains active until it expires. You can view the expiration date on the <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page in the admin center.  If you want to keep the subscription active, you must pay the bill manually.
 
 To learn how to cancel a subscription immediately, see [Cancel your Microsoft business subscription](cancel-your-subscription.md).
+
+> [!IMPORTANT]
+> Turning off recurring billing cancels any existing scheduled changes you have for a subscription. 
 
 ## Change the recurring billing setting
 
