@@ -37,7 +37,7 @@ Check out the step-by-step outline below to find out how to access this new capa
 
    - Install below required components:
 
-     - [Azure account with an active subscription](https://azure.microsoft.com/free/?utm_source=campaign&utm_campaign=python-dev-center&mktingSource=environment-setup) if you don't have a subscription
+     - [Azure account with an active subscription](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn) if you don't have a subscription
      - [Python 2.7+ or 3.6+](https://www.python.org/downloads)
      - [Azure Command-Line Interface (CLI)](/cli/azure/install-azure-cli)
 
@@ -99,7 +99,7 @@ Check below links to learn more details about the SDK & API.
 
 **Azure Subscription**:
 
-- [Azure account with an active subscription](https://azure.microsoft.com/free/?utm_source=campaign&utm_campaign=python-dev-center&mktingSource=environment-setup)
+- [Azure account with an active subscription](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn)
 
 **Python SDK**:
 
