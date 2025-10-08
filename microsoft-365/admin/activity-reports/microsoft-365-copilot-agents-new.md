@@ -166,13 +166,13 @@ You can switch between Summary view and Trend view.
 
 ## FAQ
 
+### Why don't I see the export button in the details table anymore? 
+
+We temporarily removed the export button from tables in the Details section and we expect to restore the export functionality soon.
+
 ### What is the difference between the agent report and [Agent usage in Microsoft 365 Copilot](/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents) and which should I use?  
 
 The new Agent usage report gives a broader view than the one in Microsoft 365 Copilot. While the original report only includes agents built by your organization or users (using Agent Builder) and only for licensed Copilot users, the new report includes usage by both licensed and unlicensed users and covers all agent creators—including Microsoft and Microsoft partners as well including line level details at per-user, per-agent and per-user and agent level. Over time, this new report will replace the current Agent usage report in Microsoft 365 Copilot.
-
-### Why don't I see the export button in the details table anymore? 
-
-The export button was temporarily removed from the details table to address performance observed during large data exports. We're actively working on improvements and plan to restore export functionality soon.
 
 ### Why does this report only show past 7 and 30 days, while other usage reports also show past 90 and 180 days?
 
