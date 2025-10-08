@@ -33,7 +33,7 @@ Check out the step-by-step outline below to find out how to access this new capa
 
 ## A step-by-step example of Test Base account creation by using Python SDK
 
-1. Pre-requisites:
+1. Prerequisites:
 
    - Install below required components:
 
