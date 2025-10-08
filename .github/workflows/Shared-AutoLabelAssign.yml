@@ -36,7 +36,7 @@ on:
 jobs:
     build:
       name: Run Script
-      if: github.repository_owner == 'MicrosoftDocs'
+      if: github.repository_owner == 'MicrosoftDocs' && contains(github.event.repository.topics, 'build')
       runs-on: ubuntu-latest
       steps:
 
@@ -1209,5 +1209,6 @@ jobs:
              
                 Write-Host "Event action not ready_for_review, opened, reopened, or synchronize."
             
+
 
             } # PR event and action check
