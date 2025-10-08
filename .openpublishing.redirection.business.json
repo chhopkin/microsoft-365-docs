@@ -1001,7 +1001,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path":"microsoft-365/m365bp-protect-against-malware-cyberthreats.md",
+      "source_path":"microsoft-365/business-premium/m365bp-protect-against-malware-cyberthreats.md",
       "redirect_url":"/microsoft-365/admin/security-and-compliance/m365b-email-collaboration-security",
       "redirect_document_id": false
     },
@@ -1081,8 +1081,13 @@
       "redirect_document_id": false
     },
     {
-      "source_path":"why-choose-microsoft-365-business-premium.mdd",
+      "source_path":"why-choose-microsoft-365-business-premium.md",
       "redirect_url":"/microsoft-365/admin/security-and-compliance/m365bp-security-benefits",
+      "redirect_document_id": false
+    },
+    {
+      "source_path":"microsoft-365/admin/security-and-compliance/m365bp-add-m365e5s.md",
+      "redirect_url":"/microsoft-365/admin/security-and-compliance/add-defender-suite-business-premium",
       "redirect_document_id": false
     }
   ]

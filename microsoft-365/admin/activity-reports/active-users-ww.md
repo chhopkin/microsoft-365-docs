@@ -1,8 +1,8 @@
 ---
 title: "Assess the Microsoft 365 Active Users report"
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 01/09/2024
 audience: Admin
 ms.topic: overview

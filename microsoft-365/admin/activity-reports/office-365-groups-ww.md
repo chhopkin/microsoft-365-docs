@@ -16,8 +16,8 @@ ms.collection:
 - Adm_NonTOC
 - operations-pod
 ms.custom:
-- AdminSurgePortfolio
 - AdminTemplateSet
+- GAUpdates
 search.appverid:
 - BCS160
 - MET150
@@ -54,6 +54,8 @@ The **groups** report can be viewed for trends over the last 7 days, 30 days, 90
 ### GroupID hidden by default
 
 When you export the report data, you will by default not be able to view the **GroupID** variable in the Excel .csv file that you download. If you want to view GroupID information and all other identifiable information in Microsoft 365 usage reports, you can use choose to  [show user details in reports](../../admin/activity-reports/activity-reports.md#show-user-group-or-site-details-in-the-reports) through the organizational settings in the Microsoft 365 admin center.  You must be a global administrator to make these changes.
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 The following are definitions of the metrics available in the report table.
 
