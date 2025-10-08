@@ -113,7 +113,7 @@ The data is encrypted while it's stored and isn't used to train Azure OpenAI Ser
 
 Microsoft 365 Copilot doesn't require web content or organizational data to provide a response, but that information can help improve the quality, accuracy, and relevance of its response. When responding without web or organizational data, Microsoft 365 Copilot relies only on its LLMs to understand prompts and generate responses. The process involves parsing the input, leveraging the model's internal knowledge base, and refining the response to ensure it's contextually appropriate.
 
-### Extensibility & customization
+### Extensibility and customization
 
 You can build agents using the Copilot Studio lite experience, which is integrated into the [Microsoft 365 Copilot app](https://www.microsoft365.com/copilot). You can either describe what the agent should do or configure it through an intuitive experience. These agents allow you to define specific instructions and knowledge that shape how Copilot behaves in your business scenarios. Because they run on the same orchestrator, foundation models, and trusted AI services as Microsoft 365 Copilot, they offer a consistent and secure way to enhance collaboration, streamline workflows, and boost productivity across your organization.
 
@@ -125,7 +125,7 @@ For more information, see [Choose the right Copilot Studio experience](/microsof
 
 Microsoft 365 Copilot is a general-purpose service, designed to assist with a wide variety of everyday tasks across any organization by connecting with work data and integrating with the apps customers use every day. For example:
 
-- **Chat and conversation interaction & creation**: Users can interact with Microsoft 365 Copilot Chat and generate responses drawn from trusted documents such as internal company documentation or tech support documentation.
+- **Chat and conversation interaction and creation**: Users can interact with Microsoft 365 Copilot Chat and generate responses drawn from trusted documents such as internal company documentation or tech support documentation.
 
 - **Search**: Users can search trusted source documents such as internal company documentation.
 
@@ -221,13 +221,13 @@ Our approach to mapping, measuring and managing risks will continue to evolve as
 
 ## Evaluating and integrating Microsoft 365 Copilot for your organization
 
-### Deployment & adoption optimization
+### Deployment and adoption optimization
 
 Microsoft provides tools like the Microsoft Copilot Dashboard for Microsoft 365 customers and reports in the Microsoft 365 admin center. These tools are designed to help organizations measure usage, adoption, and the impact of Microsoft 365 Copilot. For example:
 
 - **Microsoft 365 Copilot usage report** enables administrators to view a summary of how users’ adoption, retention, and engagement are with Microsoft 365 Copilot. For more information, see [Microsoft 365 Copilot usage](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage).
 
-- **Adoption Score** offers administrators insights into how their organization works with Microsoft 365 Copilot. It provides a score on a 100-point scale, a dashboard view of adoption data & trends, and a tool for creating user surveys to gather feedback.
+- **Adoption Score** offers administrators insights into how their organization works with Microsoft 365 Copilot. It provides a score on a 100-point scale, a dashboard view of adoption data and trends, and a tool for creating user surveys to gather feedback.
 
 - **The Experience Insights (preview) dashboard** shows data across usage to give a fuller view of an organization's experience with Microsoft 365 including insights into training, apps and services data, and user feedback.
 
