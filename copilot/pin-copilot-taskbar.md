@@ -82,8 +82,9 @@ To configure this setting in the Microsoft 365 admin center, you need to be assi
         :::image type="content" source="media/pin-copilot-taskbar/pin-copilot-taskbar.png" alt-text="Screenshot that shows the Windows taskbar with the Microsoft 365 Copilot app pinned to the far right.":::
 
 If the user previously pinned the app to their taskbar, this policy doesn't change their configuration. The user can manually unpin the app from the taskbar. Their preference is respected during future policy refreshes on the following versions of Windows 11 or later:
-    1. Windows 11, version 24H2 with [KB5058499][KB-24]
-    1. Windows 11, version 23H2 with [KB5058502][KB-23]
+
+1. Windows 11, version 24H2 with [KB5058499][KB-24]
+1. Windows 11, version 23H2 with [KB5058502][KB-23]
 
 - **Do not pin Copilot and its companion apps to the Windows taskbar (default)**
 
