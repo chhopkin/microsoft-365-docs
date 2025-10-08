@@ -166,9 +166,9 @@ You can switch between Summary view and Trend view.
 
 ## FAQ
 
-### Why don't I see the export button in the details table anymore? 
+### Why don't I see the **Export** button in the details table anymore? 
 
-We temporarily removed the export button from tables in the Details section and we expect to restore the export functionality soon.
+We temporarily removed the **Export** button from tables in the Details section and we expect to restore the export functionality soon.
 
 ### What is the difference between the agent report and [Agent usage in Microsoft 365 Copilot](/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents) and which should I use?  
 
