@@ -32,7 +32,7 @@ ms.custom:
 - GAUpdates
 search.appverid: MET150, GEA150
 description: "Learn how to find your invoice or billing statement for a Microsoft business subscription in the Microsoft 365 admin center."
-ms.date: 04/08/2025
+ms.date: 10/07/2025
 ---
 
 # View your invoice in the Microsoft 365 admin center
