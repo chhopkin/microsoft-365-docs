@@ -133,7 +133,7 @@ When you review and implement the recommended network configurations, consider a
 
 Microsoft plans to consolidate Copilot experiences for Microsoft 365 under the `*.cloud.microsoft` domain. And, Copilot network requirements and associated required customer network configurations can be further simplified.
 
-To learn more, see [Unified cloud.microsoft domain for Microsoft 365 apps](/microsoft-365/enterprise/cloud-microsoft-domain).
+For more information, see [Unified cloud.microsoft domain for Microsoft 365 apps](/microsoft-365/enterprise/cloud-microsoft-domain).
 
 ## Related content
 
