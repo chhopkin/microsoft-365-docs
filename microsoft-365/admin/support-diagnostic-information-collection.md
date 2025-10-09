@@ -3,7 +3,7 @@ title: "Understanding Microsoft 365 case creation and diagnostic data access"
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 09/16/2025
+ms.date: 10/09/2025
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -19,13 +19,13 @@ description: "Learn about the diagnostic data Microsoft 365 Support engineers ac
 # Understanding Microsoft 365 case creation and diagnostic data access
 
 > [!IMPORTANT]
-> New security enhancements are rolling out for advanced diagnostics. These enhancements provide you with greater control, transparency, and peace of mind regarding support-related activities within your tenant. Look for the the Message Center post, "Security enhancements related to Microsoft Support processes." Also see the section, [What happens when cross-tenant access is granted to Microsoft Support?](#what-happens-when-cross-tenant-access-is-granted-to-microsoft-support) (in this article).
+> Microsoft is improving your visibility into how Microsoft gets access to your data during the support request lifecycle. See the section, [What happens when cross-tenant access is granted to Microsoft Support?](#what-happens-when-cross-tenant-access-is-granted-to-microsoft-support) (in this article).
 
 The purpose of this article is to inform Microsoft 365 customers about the type of information that Microsoft Support engineers may collect and use in order to resolve a support case.
 
 ## Consent for diagnostic information
 
-When a user contacts [Microsoft Support](get-help-support.md), consent is implied that Microsoft will be granted the needed access to support your issue. When a user selects **Contact Me**, cross-tenant access initiates in your organization's tenant. This access allows Microsoft Support to collect diagnostic information that helps with troubleshooting and resolving issues.
+When a user contacts [Microsoft Support](get-help-support.md), consent is implied that Microsoft will be granted the access that's needed to support your issue. When a user selects **Contact Me**, cross-tenant access initiates in your organization's tenant. This access allows Microsoft Support to collect diagnostic information that helps with troubleshooting and resolving issues.
 
 ## What happens when cross-tenant access is granted to Microsoft Support?
 
