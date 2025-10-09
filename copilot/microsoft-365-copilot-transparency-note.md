@@ -115,7 +115,7 @@ Microsoft 365 Copilot doesn't require web content or organizational data to prov
 
 ### Extensibility and customization
 
-You can build agents using the Copilot Studio lite experience, which is integrated into the [Microsoft 365 Copilot app](https://www.microsoft365.com/copilot). You can either describe what the agent should do or configure it through an intuitive experience. These agents allow you to define specific instructions and knowledge that shape how Copilot behaves in your business scenarios. Because they run on the same orchestrator, foundation models, and trusted AI services as Microsoft 365 Copilot, they offer a consistent and secure way to enhance collaboration, streamline workflows, and boost productivity across your organization.
+You can build agents using the Copilot Studio lite experience, which is integrated into the Microsoft 365 Copilot app. You can either describe what the agent should do or configure it through an intuitive experience. These agents allow you to define specific instructions and knowledge that shape how Copilot behaves in your business scenarios. Because they run on the same orchestrator, foundation models, and trusted AI services as Microsoft 365 Copilot, they offer a consistent and secure way to enhance collaboration, streamline workflows, and boost productivity across your organization.
 
 For more complex workflows, you can use the Copilot Studio full experience, which provides a rich graphical environment to design, test, and deploy autonomous agents that can take action on their behalf. For developers, the [Microsoft 365 Agents SDK](/microsoft-365/agents-sdk/) provides the tools to build agents that integrate deeply with Microsoft 365 apps and services.
 
