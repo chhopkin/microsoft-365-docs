@@ -1,23 +1,22 @@
 ---
-title: "Copilot Control System Security and Governance"
-description: "Learn how to implement data security, AI security, and compliance controls using the Copilot Control System framework for Microsoft 365 Copilot and agents."
+title: Copilot Control System Security and Governance
+description: Learn how to implement data security, AI security, and compliance controls using the Copilot Control System framework for Microsoft 365 Copilot and agents.
 #customer intent: As an IT admin, I want to implement security and governance controls for Microsoft 365 Copilot, so that I can mitigate risks related to data security, compliance, and governance.
 author: aczechowski
 ms.author: aaroncz
 manager: dansimp
-ms.reviewer: bensum
+ms.reviewer: bensum,sophieke,ericatoelle
 ms.service: microsoft-365-copilot
 ms.topic: solution-overview
-ms.date: 09/24/2025
+ms.date: 10/09/2025
 ---
-
 
 # Copilot Control System security and governance
 
-When you implement Copilot and agents, you might face new and amplified risks related to data security, compliance, and governance. This security and governance framework helps you mitigate these issues in the following components:
+When you implement Microsoft 365 Copilot and agents, you might face new and amplified risks related to security, compliance, privacy, and governance. This security and governance framework helps you mitigate these issues in the following components:
 
 - Microsoft 365 Copilot
-- Copilot Chat
+- Microsoft 365 Copilot Chat
 - Microsoft 365 prebuilt agents
 - Agents created in Microsoft Copilot Studio and published to Microsoft 365 channels
 
@@ -46,25 +45,27 @@ The security and governance pillar of the Copilot Control System focuses on the 
 
 First and foremost, safeguard your organization's information. Depending on your current licensing, use Microsoft Purview and SharePoint Advanced Management to assess oversharing risks. You can also use Microsoft Purview for policy recommendations and to take corrective actions. These actions help you to be confident that sensitive data remains protected, and access is limited to only those users who need it, including with Copilot and agents.
 
-### Foundational data security controls
+### Foundational data security and governance controls
 
-In SharePoint Advanced Management and Microsoft Purview with an A3/E3/G3 license, you get the following foundational data security controls:
+In SharePoint Advanced Management and Microsoft Purview with an A3/E3/G3 license, you get the following foundational data security and governance controls:
 
-- Identify potentially overshared data across all of Microsoft 365.
+- Identify potentially overshared data across all of Microsoft 365. Routinely run the following reports:
 
-  - [Data access governance reports for SharePoint sites](/sharepoint/data-access-governance-reports) let you identify overshared data for sites only.
+  - [Data access governance reports for SharePoint sites](/sharepoint/data-access-governance-reports) let you identify overshared data for sites. You can also send a site access review to owners of overshared sites.
 
   - Microsoft Purview [Data Security Posture Management (DSPM) for AI data risk assessments](/purview/ai-m365-copilot) let you identify overshared data for files and sites.
 
 - Remove organization-wide site access as needed.
 
-  - Use SharePoint to manually configure this access or automate the configuration with Windows PowerShell. You don't need SharePoint Advanced Management for this control. For more information, see [Restrict SharePoint site access with Microsoft 365 Groups and Microsoft Entra security groups](/sharepoint/restricted-access-control).
+  - Use SharePoint to manually configure this access or automate the configuration with Windows PowerShell. For more information, see [Restrict SharePoint site access with Microsoft 365 Groups and Microsoft Entra security groups](/sharepoint/restricted-access-control).
 
-  - Use Microsoft Purview information protection site sensitivity labels. For more information, see [Use sensitivity labels with Microsoft Teams, Microsoft 365 Groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites).
+  - To restrict user, Copilot, and agent access to overshared sites while remediating risks, use [SharePoint restricted content discovery](/sharepoint/restricted-content-discovery) or [SharePoint restricted access control](/sharepoint/restricted-access-control).
+
+  - Use Microsoft Purview Information Protection site sensitivity labels. For more information, see [Use sensitivity labels with Microsoft Teams, Microsoft 365 Groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites).
 
 - Improve Copilot and agent responses by archiving or deleting unneeded content.
 
-  - [Manage inactive SharePoint sites using site lifecycle management](/sharepoint/site-lifecycle-management).
+  - To identify and manage inactive or ownerless SharePoint sites, and then archive or delete them, use [SharePoint site lifecycle management](/sharepoint/site-lifecycle-management).
 
   - Use [Microsoft Purview Data Lifecycle Management](/purview/retention-policies-sharepoint) to identify and delete files you don't need.
 
@@ -92,9 +93,9 @@ In Microsoft Purview with an A5/E5/G5 license, you get the following optimized d
 
   - Receive and act on policy suggestions to mitigate your specific oversharing risks.
 
-- To detect when content contains sensitive data and *automatically* apply protections, use [Microsoft Purview information protection sensitivity labels](/purview/apply-sensitivity-label-automatically).
+- To detect when content contains sensitive data and *automatically* apply protections, use [Microsoft Purview Information Protection sensitivity labels](/purview/apply-sensitivity-label-automatically).
 
-- Use [Microsoft Purview insider risk management](/purview/insider-risk-management) for the following controls:
+- Use [Microsoft Purview Insider Risk Management](/purview/insider-risk-management) for the following controls:
 
 - Get alerted to risky user actions that deviate from their usual pattern of behavior. For more information, see [Insider Risk Management policy templates](/purview/insider-risk-management-policy-templates).
 
@@ -116,10 +117,6 @@ Copilot already includes built-in protections against AI-based attacks. These pr
 
 - [Detect protected material](../microsoft-365-copilot-privacy.md#does-copilot-provide-protected-material-detection)
 
-In SharePoint Advanced Management, you get the following foundational AI security controls:
-
-- To restrict user, Copilot, and agent access to risky sites while remediating risks, use [SharePoint restricted content discovery](/sharepoint/restricted-content-discovery).
-
 In Microsoft Purview with an A3/E3/G3 license, you get the following foundational AI security controls:
 
 - To view prompt and response text and referenced files, search and export with [Microsoft Purview eDiscovery](/purview/edisc).
@@ -134,11 +131,13 @@ In Microsoft Purview with an A5/E5/G5 license, you get the following optimized A
 
 - To get alerted to risky AI use, such as an attempted prompt injection attack or use of sensitive data, use [Microsoft Purview Insider Risk Management](/purview/insider-risk-management-policy-templates).
 
+- To block high risk users from accessing sensitive content using Copilot and agents, use [Adaptive protection for insider risk management](/purview/insider-risk-management-adaptive-protection).
+
 - To view prompt and response text, any web queries used during grounding, and referenced files use activity explorer in [Microsoft Purview Data Security Posture Management for AI](/purview/dspm-for-ai-considerations).
 
 ## Compliance and privacy
 
-The third aspect of security and governance in the Copilot Control System is to ensure that you can monitor, audit, and manage how Copilot and agent interactions comply with regulatory and internal standards. Use Microsoft Purview to provide comprehensive oversight of Copilot activities. With these controls, you can protect sensitive information, maintain privacy, and demonstrate regulatory compliance when you deploy and use Microsoft 365 Copilot.
+The third aspect of security and governance in the Copilot Control System is to ensure that you can monitor, audit, and manage how Copilot and agent interactions comply with regulatory and internal standards. Use Microsoft Purview to provide comprehensive oversight of Copilot activities. With these controls, you can protect sensitive information, maintain privacy, and demonstrate regulatory compliance when you deploy and use Microsoft 365 Copilot and agents.
 
 ### Foundational compliance and privacy controls
 
@@ -162,7 +161,7 @@ In Microsoft Purview with an A3/E3/G3 license, you get the following foundationa
 
 In Microsoft Purview with an A5/E5/G5 license, you get the following optimized compliance and privacy controls:
 
-- To receive an alert if a possible compliance or ethical violation occurs and then start an investigation, use [Microsoft Purview communication compliance](/purview/communication-compliance).
+- To receive an alert if a possible compliance or ethical violation occurs and then start an investigation, use [Microsoft Purview Communication Compliance](/purview/communication-compliance).
 
 - To assess and track adherence to regulatory frameworks, use [Microsoft Purview Compliance Manager](/purview/compliance-manager).
 
