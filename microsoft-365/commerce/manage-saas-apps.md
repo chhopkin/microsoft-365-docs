@@ -32,7 +32,7 @@ ms.date: 07/08/2025
 You can manage licenses and billing for third-party apps in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
 
 > [!IMPORTANT]
-> As of April 1, 2023, we no longer accept checks as a payment method for subscriptions paid by invoice.
+> As of April 1, 2023, we no longer accept checks as a payment method for subscriptions paid by wire transfer.
 
 ## Before you begin
 
