@@ -18,10 +18,7 @@ description: "Learn about the diagnostic data Microsoft 365 Support engineers ac
 
 # Understanding Microsoft 365 case creation and diagnostic data access
 
-> [!IMPORTANT]
-> Microsoft is improving your visibility into how Microsoft gets access to your data during the support request lifecycle. 
-
-The purpose of this article is to inform Microsoft 365 customers about the type of information that Microsoft Support engineers might collect and use in order to resolve a support case.
+This article describes consent that's granted to Microsoft when a support case is opened, the types of data that can be accessed and for how long, and how support activities are logged.
 
 ## Consent for diagnostic information
 
@@ -67,6 +64,8 @@ The following table summarizes entries you can expect to see:
 | A support case is created and access is granted | Cross-tenant access entries in these categories: <br/>- `Policy`<br/>- `CrossTenantAccessSettings`<br/>- `DelegatedAdminServiceProviderConstraints` |
 | Microsoft Support accesses data | EXAMPLES NEEDED |
 | Access is removed when support requests are closed | EXAMPLES NEEDED |
+
+## Learn more about audit logs
 
 See the following resources for more information about the audit logs:
 
