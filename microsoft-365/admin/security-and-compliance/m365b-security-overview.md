@@ -20,7 +20,7 @@ ms.custom:
 description: Learn about the security features available in Microsoft 365 for business.
 ms.service: microsoft-365-business-security
 adobe-target:
-ms.date: 09/23/2025
+ms.date: 09/30/2025
 appliesto:
   - ✅ <a href="https://www.microsoft.com/microsoft-365/business/microsoft-365-business-basic" target="_blank">Microsoft 365 Business Basic</a>
   - ✅ <a href="https://www.microsoft.com/microsoft-365/business/microsoft-365-business-standard" target="_blank">Microsoft 365 Business Standard</a>
@@ -68,13 +68,14 @@ These security categories are described in the following sections and are summar
 |&nbsp;&nbsp;Microsoft Defender for Business|||✔|
 |&nbsp;&nbsp;Microsoft Defender Suite for Business Premium|||Purchased separately<br/>(includes Defender for Endpoint Plan 2)|
 
+<!---
 Watch this short video for more information:
 
-> [!VIDEO https://youtu.be/QJVHNfvzXrc]
+<iframe width="850" height="478" src="https://www.youtube.com/embed/QJVHNfvzXrc" title="Get started with security settings" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>--->
 
 ## Account security
 
-All subscriptions in Microsoft 365 for business include Microsoft Entra ID Free, which includes the feature named _security defaults_. Because security defaults is on by default, multifactor authentication (MFA) is also on by default in Microsoft 365 for business organizations.
+All subscriptions in Microsoft 365 for business include Microsoft Entra ID Free, which includes the feature named _security defaults_. Because security defaults is on by default, multifactor authentication (MFA) is enabled by default in Microsoft 365 for business organizations.
 
 Business Premium also includes Microsoft Entra ID P1, which includes the feature named _Conditional Access_. Conditional Access uses granular policies based on Zero Trust architecture to give users access to resources. If your organization requires increased or complex security settings, you can use Conditional Access policies instead of security defaults.
 

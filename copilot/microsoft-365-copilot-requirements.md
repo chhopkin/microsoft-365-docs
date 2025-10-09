@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: kwekua
 author: kwekuako
-manager: dansimp
+manager: scotv
 ms.date: 05/20/2025
 ms.update-cycle: 180-days
 audience: Admin
@@ -110,21 +110,12 @@ Baseline network configuration customers should:
 ✅ **Network endpoint requirements**:
 
 - Allow the [worldwide Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
-- Allow traffic to the following domains:
-
-  - `copilot.microsoft.com`, `*.copilot.microsoft.com`
-  - `*.bing.com`, `*.bingapis.com`
-
-  These network endpoints (domains) allow some Copilot scenarios to enable richer integrations, like Copilot experiences for the Web.
-
-- Allow the [Copilot Chat network requirements](/copilot/manage#network-requirements).
 
 ✅ **WebSockets (WSS) protocol requirements**:
 
 Verify that your network supports full WSS connectivity from user devices running Microsoft 365 applications to the following domains:
 
 - Microsoft 365 Copilot enterprise experiences: `*.cloud.microsoft`, `*.office.com`
-- Other Copilot experiences, including consumer: `*.bing.com`, `copilot.microsoft.com`, `*.copilot.microsoft.com`
 
 Several Copilot integrations rely on WebSockets (WSS) to deliver a streamlined user experience. Some customer networks might not be configured to handle WSS connections properly, which can result in Copilot application failures. Typical network configurations that affect WSS include:
 
@@ -142,7 +133,7 @@ When you review and implement the recommended network configurations, consider a
 
 Microsoft plans to consolidate Copilot experiences for Microsoft 365 under the `*.cloud.microsoft` domain. And, Copilot network requirements and associated required customer network configurations can be further simplified.
 
-To learn more, see [Unified cloud.microsoft domain for Microsoft 365 apps](/microsoft-365/enterprise/cloud-microsoft-domain).
+For more information, see [Unified cloud.microsoft domain for Microsoft 365 apps](/microsoft-365/enterprise/cloud-microsoft-domain).
 
 ## Related content
 

@@ -3,14 +3,13 @@ title: Integrate ServiceNow with your Employee Self-Service deployment
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: dansimp
+manager: scotv
 ms.reviewer: semani
-ms.date: 07/03/2025
+ms.date: 09/29/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
-robots: NOINDEX, NOFOLLOW
 ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn about integrating ServiceNow in the deployment process for the Employee Self-Service agent using Microsoft 365 Copilot Connector.
@@ -21,7 +20,7 @@ appliesto:
 # Integrate ServiceNow with your Employee Self-Service deployment
 
 >[!NOTE]
->The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
+>The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
 >[!IMPORTANT]
 >You need to complete the steps to deploy the Employee Self-Service (ESS) agent before you can configure this supplemental extension pack.
