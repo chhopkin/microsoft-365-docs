@@ -3,7 +3,7 @@ title: SharePoint Cross-tenant SharePoint migration Step 5
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 08/15/2025
+ms.date: 10/01/2025
 recommendations: true
 audience: ITPro
 ms.topic: how-to
@@ -170,7 +170,7 @@ To look at the mapping entries in the identity mapping file for a particular use
 **Example:**
 
 ```powershell
-get-spoTenantIdentityMappingUser -Field SourceUserKey -Value usera@Contoso.onmicrosoft.com
+Get-SPOTenantIdentityMappingUser -Field SourceUserKey -Value usera@Contoso.onmicrosoft.com
 ```
 
 ## Verify cross-tenant compatibility status
