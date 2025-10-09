@@ -219,7 +219,7 @@ To block or unblock an agent, follow these steps:
 1. Select **Block** or **Unblock**.
 1. Decide whether to block or unblock the agent for everyone.
 
-Blocking or unblocking an agent affects its availability and functionality in Copilot and other host products, such as Outlook, Teams, or Microsoft 365.
+Blocking or unblocking an agent created using Copilot Studio (lite) and Copilot Studio (full) affects its availability and functionality in M365 Copilot and other host products, such as Outlook, Teams, or Microsoft 365. However, blocking an agent created with SharePoint will only impact its availability in M365 Copilot Chat.
 
 > [!NOTE]
 > For the [Researcher](https://support.microsoft.com/topic/e63ab760-f3de-4c47-ae87-dad601b0e9c4) and [Analyst](https://support.microsoft.com/topic/ff505b9c-a06c-4be9-b855-69d89b1d25d2) agents, the **Edit users** panel is disabled. To manage their availability, you must block the agent for the entire tenant by using the **Block** action in the admin center.
