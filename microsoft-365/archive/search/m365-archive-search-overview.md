@@ -7,6 +7,7 @@ title:       Overview of searching for content in Microsoft 365 Archive
 description: Learn about how end-users can search for archived content
 author:      trent-green # GitHub alias
 ms.author:   trgreen # Microsoft alias
+manager: brgussin
 ms.service:  microsoft-365-archive
 ms.topic:    how-to
 ms.date:     09/17/2025
