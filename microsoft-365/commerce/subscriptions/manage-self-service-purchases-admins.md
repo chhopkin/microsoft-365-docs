@@ -27,7 +27,7 @@ ms.custom:
 search.appverid:
 - MET150
 description: "Learn how admins can use the Microsoft 365 admin center to manage self-service purchases and trials made by users in their organization."
-ms.date: 01/06/2025
+ms.date: 10/08/2025
 ---
 
 # Manage self-service purchases and trials (for admins)
