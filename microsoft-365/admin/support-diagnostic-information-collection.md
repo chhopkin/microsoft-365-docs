@@ -19,13 +19,13 @@ description: "Learn about the diagnostic data Microsoft 365 Support engineers ac
 # Understanding Microsoft 365 case creation and diagnostic data access
 
 > [!IMPORTANT]
-> Microsoft is improving your visibility into how Microsoft gets access to your data during the support request lifecycle. See the section, [What happens when cross-tenant access is granted to Microsoft Support?](#what-happens-when-cross-tenant-access-is-granted-to-microsoft-support) in this article.
+> Microsoft is improving your visibility into how Microsoft gets access to your data during the support request lifecycle. 
 
 The purpose of this article is to inform Microsoft 365 customers about the type of information that Microsoft Support engineers might collect and use in order to resolve a support case.
 
 ## Consent for diagnostic information
 
-When a user contacts [Microsoft Support](get-help-support.md), consent is implied that Microsoft is granted access to basic tenant information that's needed to support your issue. When a user selects **Contact Me**, cross-tenant access initiates in your organization's tenant. This access allows Microsoft Support to collect diagnostic information that helps with troubleshooting and resolving issues.
+When a user contacts [Microsoft Support](get-help-support.md), consent is implied that Microsoft will be granted access to the basic tenant information that's needed to support your issue. When a user selects **Contact Me**, cross-tenant access initiates in your organization's tenant. This access allows Microsoft Support to collect diagnostic information that helps with troubleshooting and resolving issues.
 
 ## What happens when cross-tenant access is granted to Microsoft Support?
 
@@ -34,12 +34,12 @@ When a user creates a support request, cross-tenant access is granted to Microso
 Here are some important points to keep in mind:
 
 - Microsoft Support engineers can access only the specific resources needed for diagnostics and troubleshooting. 
-- When a user creates a support request, that user's level of access doesn't change. For example, if the user has a non-privileged role, their general restrictions don't change because of the support request.
+- When a user creates a support request, that user's level of access doesn't change. For example, if the user has a nonprivileged role, their general restrictions don't change because of the support request.
 - All actions are logged in the Microsoft Entra Audit logs. (See the section, [Where is support activity on a customer tenant logged?](#where-is-support-activity-on-a-customer-tenant-logged) (in this article).)
 
 ## How long does Microsoft have this access?
 
-Access is removed automatically when your support request is closed. If your request is still open, access is removed 30 days from the date of request creation, and you will be prompted to provide access again. If you have multiple requests open, the access expires 30 days from the date of creation of the latest request.
+Access is removed automatically when your support request is closed. If your request is still open, access is removed 30 days from the date of request creation, and you'll be prompted to provide access again. If you have multiple requests open, the access expires 30 days from the date of creation of the latest request.
 
 Depending on the nature of your support request, the data that Microsoft can access would belong under one or more of the following categories:
 
