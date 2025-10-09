@@ -22,7 +22,7 @@ This article describes consent that's granted to Microsoft when a support case i
 
 ## Consent for diagnostic information
 
-When a user contacts [Microsoft Support](get-help-support.md), consent is implied that Microsoft will be granted access to the basic tenant information that's needed to support your issue. When a user selects **Contact Me**, cross-tenant access initiates in your organization's tenant. This access allows Microsoft Support to collect diagnostic information that helps with troubleshooting and resolving issues.
+When a user contacts [Microsoft Support](get-help-support.md), consent is implied that Microsoft will be granted access to limited tenant information that's needed to support your issue. When a user selects **Contact Me**, cross-tenant access initiates in your organization's tenant. This access allows Microsoft Support to collect diagnostic information that helps with troubleshooting and resolving issues.
 
 ## What happens when cross-tenant access is granted to Microsoft Support?
 
