@@ -110,21 +110,12 @@ Baseline network configuration customers should:
 ✅ **Network endpoint requirements**:
 
 - Allow the [worldwide Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
-- Allow traffic to the following domains:
-
-  - `m365.cloud.microsoft`, `*.m365.cloud.microsoft`
-  - `*.bing.com`, `*.bingapis.com`
-
-  These network endpoints (domains) allow some Copilot scenarios to enable richer integrations, like Copilot experiences for the Web.
-
-- Allow the [Copilot Chat network requirements](/copilot/manage#network-requirements).
 
 ✅ **WebSockets (WSS) protocol requirements**:
 
 Verify that your network supports full WSS connectivity from user devices running Microsoft 365 applications to the following domains:
 
 - Microsoft 365 Copilot enterprise experiences: `*.cloud.microsoft`, `*.office.com`
-- Other Copilot experiences, including consumer: `*.bing.com`, `copilot.microsoft.com`, `*.copilot.microsoft.com`
 
 Several Copilot integrations rely on WebSockets (WSS) to deliver a streamlined user experience. Some customer networks might not be configured to handle WSS connections properly, which can result in Copilot application failures. Typical network configurations that affect WSS include:
 
