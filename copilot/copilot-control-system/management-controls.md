@@ -1,14 +1,14 @@
 ---
-title: "Copilot Control System Management Controls"
-description: "Learn how to use the Copilot Control System framework to manage licensing, agent lifecycle, and customize management controls for Microsoft 365 Copilot and agents."
+title: Copilot Control System Management Controls
+description: Learn how to use the Copilot Control System framework to manage licensing, agent lifecycle, and customize management controls for Microsoft 365 Copilot and agents.
 #customer intent: As an IT admin, I want to manage Microsoft 365 Copilot licenses, agents, and usage so that I can control costs and ensure efficient deployment.
 author: aczechowski
 ms.author: aaroncz
 manager: dansimp
-ms.reviewer: bensum
+ms.reviewer: bensum,samerbaroudi
 ms.service: microsoft-365-copilot
 ms.topic: solution-overview
-ms.date: 09/24/2025
+ms.date: 10/09/2025
 ---
 
 
