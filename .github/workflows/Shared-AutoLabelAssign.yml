@@ -1150,7 +1150,7 @@ jobs:
 
                             ###################################### Auto reviewer assignment ######################################
 
-                            If ($AutoAssignReviewers -eq $True) {
+                            If (($AutoAssignReviewers -eq $True) -and ($PrCreator -notlike "*\[bot\]*")) {
                             
                                 # There's a short window between PR open and when Draft is set by the TierManagement workflow where PR reviewers could be added.
                                 # This If statement prevents that from happening.
@@ -1161,7 +1161,7 @@ jobs:
                                     $UserPermission = $(Invoke-RestMethod -Method GET -Headers $GitHubHeaders -Uri $UserPermissionUrl).role_name
 
                                     # Only add reviewers if the submitter can't sign off on their own PR.
-                                    If ($UserPermission -eq "read") {
+                                    If (($UserPermission -eq "read") -or ($UserPermission -eq "") -or ($UserPermission -eq $Null)) {
 
                                         # Get the service/subservice to GitHub account map
                                         $ServiceToAccountMap = Get-ServiceGitHubAccountMappingTable
@@ -1233,7 +1233,7 @@ jobs:
                                             
                                                     Write-Host "No additional reviewers to add. Not setting reviewers or posting PR comment."
 
-                                                    $LoggingData.ReviewStatus = "ReviewerAddSkipped"
+                                                    $LoggingData.ReviewStatus = "NoAdditionalReviewers"
                                                     $LoggingData.ReviewDetails = "No additional reviewers to add."
 
                                                 }
@@ -1243,7 +1243,7 @@ jobs:
                                                 Write-Host "No valid reviewers to assign."
                                                 Write-Host $TestedReviewerAccounts
 
-                                                $LoggingData.ReviewStatus = "ReviewerAddSkipped"
+                                                $LoggingData.ReviewStatus = "NoValidReviewers"
                                                 $LoggingData.ReviewDetails = "No valid reviewers to assign."
                                             
                                             }
@@ -1252,7 +1252,7 @@ jobs:
                                         
                                             Write-Host "No reviewers matched any services or subservices in PR articles."
 
-                                            $LoggingData.ReviewStatus = "ReviewerAddSkipped"
+                                            $LoggingData.ReviewStatus = "NoMatchedSvcSubSvc"
                                             $LoggingData.ReviewDetails = "No reviewers matched any services or subservices."
                                         
     
@@ -1263,7 +1263,7 @@ jobs:
                                     
                                         Write-Host "Not adding reviewer because submitter can sign off PR. User permission: $UserPermission."
 
-                                        $LoggingData.ReviewStatus = "ReviewerAddSkipped"
+                                        $LoggingData.ReviewStatus = "NotReadOnly"
                                         $LoggingData.ReviewDetails = "Not adding reviewer because submitter can sign off PR. User permission: $UserPermission."                             
                                     
                                     }
@@ -1272,8 +1272,8 @@ jobs:
                                 
                                     Write-Host "Not adding PR reviewers. PR action: $GitHubAction. Draft state: $IsPrDraft."
 
-                                    $LoggingData.ReviewStatus = "ReviewerAddSkipped"
-                                    $LoggingData.ReviewDetails = "Not adding reviewers because PR is draft."       
+                                    $LoggingData.ReviewStatus = "PrDraftOrOpened"
+                                    $LoggingData.ReviewDetails = "Not adding reviewers because PR is draft or just opened."       
                                 
                                 }
 
@@ -1285,7 +1285,7 @@ jobs:
 
                             } Else {
                              
-                                Write-Host "Auto reviewer assignment disabled."
+                                Write-Host "Auto reviewer assignment disabled or PR creator is bot account. Assignment enabled: $AutoAssignReviewers. PR creator: $PrCreator."
                             
                             }
 
