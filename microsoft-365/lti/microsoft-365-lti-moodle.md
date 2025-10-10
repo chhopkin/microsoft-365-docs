@@ -1,5 +1,5 @@
 ---
-title: Deploy the Microsoft 365 LTI® app in Moodle
+title: Deploy the Microsoft 365 LTI&reg; app in Moodle
 description: Learn how to deploy the Microsoft 365 Learning Tool Interoperability (LTI) app in Moodle.
 author: jennplatt
 ms.author: avering
@@ -17,16 +17,16 @@ ms.collection:
 ms.localizationpriority: medium
 ---
 
-# Deploy the Microsoft 365 LTI® app in Moodle™
+# Deploy the Microsoft 365 LTI&reg; app in Moodle&trade;
 
-This guide provides steps for deploying the Microsoft 365 Learning Tool Interoperability® (LTI) app in Moodle.
+This guide provides steps for deploying the Microsoft 365 Learning Tool Interoperability&reg; (LTI) app in Moodle.
 
 :::image type="content" source="./media/moodle.png" alt-text="Screenshot of Moodle." border="true":::
 
 For an overview of the Microsoft 365 LTI integration for learning management systems (LMS), see [Integrating Microsoft products with your Learning Management System](/microsoft-365/lti/).
 
 > [!IMPORTANT]
-> The person who deploys this integration should be a **Site Administrator role in Moodle**. A person in your organization who is a **Microsoft 365 Global Administrator** is also needed to help complete the configuration of the app before first time use.
+> The person who deploys this integration should be a **Site Administrator role in Moodle**. A person in your organization who is a **Microsoft 365 Global Administrator** is also needed to help complete the configuration of the app before first time use. [Learn more about administrator roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 By installing and using the Microsoft Education LTI app, educators and students can transmit grades to the LMS where the terms of use and privacy policy of that application apply.
 
@@ -60,32 +60,32 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
 1. Select **Configure a tool manually** and enter the values listed in the table:
 
-    | **Field in Moodle** | **Value** |
-    |---|---|
-    | **Tool name** | Microsoft 365 LTI |
-    | **Tool URL** | Copy the Target Link URL value from the Microsoft registration |
-    | **LTI version** | LTI 1.3 |
-    | **Initiate login URL** | Copy the Open ID connection URL value from the Microsoft registration |
-    | **Redirection URIs** | Copy the Redirect URL value from the Microsoft registration |
-    | **Custom Parameters** | t=$ResourceLink.title<br>csid=$CourseSection.sourcedId<br>usid=$Person.sourcedId |
-    | **Content Selection URL** | `https://lti.edu.cloud.microsoft/tool?launchType=courseAssignmentsUpload` |
-    | **Secure icon URL** | `https://res.cdn.office.net/onedrivelti/public/favicon-32x32.png` |
+   | **Field in Moodle** | **Value** |
+   |---|---|
+   | **Tool name** | Microsoft 365 LTI |
+   | **Tool URL** | Copy the Target Link URL value from the Microsoft registration |
+   | **LTI version** | LTI 1.3 |
+   | **Initiate login URL** | Copy the Open ID connection URL value from the Microsoft registration |
+   | **Redirection URIs** | Copy the Redirect URL value from the Microsoft registration |
+   | **Custom Parameters** | t=$ResourceLink.title<br>csid=$CourseSection.sourcedId<br>usid=$Person.sourcedId |
+   | **Content Selection URL** | `https://lti.edu.cloud.microsoft/tool?launchType=courseAssignmentsUpload` |
+   | **Secure icon URL** | `https://res.cdn.office.net/onedrivelti/public/favicon-32x32.png` |
 
 1. Check the **Supports Deep Linking (Content-Item Message)** box.
 
 1. Set the Services and Privacy configurations as follows:
 
-    | **Field in Moodle** |  **Value**      |
-    |---------------------|-----------------|
-    | IMS LTI Assignment and Grade Services  | Use this service for grade sync and column management  |
-    | IMS LTI Names and Roles Provisioning   | Use this service to retrieve members’ information as per privacy settings |
-    | Share launcher’s name with tool        | Always  |
-    | Share launcher’s email with tool       | Always  |
-    | Accept grades from the tool            | Always  |
+   | **Field in Moodle** |  **Value**      |
+   |---------------------|-----------------|
+   | IMS LTI Assignment and Grade Services  | Use this service for grade sync and column management  |
+   | IMS LTI Names and Roles Provisioning   | Use this service to retrieve members' information as per privacy settings |
+   | Share launcher's name with tool        | Always  |
+   | Share launcher's email with tool       | Always  |
+   | Accept grades from the tool            | Always  |
 
-    Your final selections should look like this:
+   Your final selections should look like this:
 
-    :::image type="content" source="./media/moodle-services.png" alt-text="Screenshot of Moodle Services." border="true" lightbox="./media/moodle-services.png":::
+   :::image type="content" source="./media/moodle-services.png" alt-text="Screenshot of Moodle Services." border="true" lightbox="./media/moodle-services.png":::
 
 1. Check the **Force SSL** box.
 
@@ -97,14 +97,14 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
 1. On the **Microsoft registration portal** tab, select **Next** to navigate to LMS provided registration keys. Enter the values listed in the table:
 
-    | **Field in Microsoft registration portal** | **Value** |
-    |---|---|
-    | **Issuer ID URL** | Copy the Platform ID value from Moodle tool configuration details. |
-    | **Client ID** | Copy the Client ID value from Moodle tool configuration details. |
-    | **Keyset URL** | Copy the Public keyset URL value from Moodle tool configuration details. |
-    | **Platform authentication URL** | Copy the Authentication request URL value from Moodle tool configuration details. |
-    | **Deployment ID** | Copy the Deployment ID value from Moodle tool configuration details. |
-    | **Access token URL** | Copy the Access token URL value from Moodle tool configuration details. |
+   | **Field in Microsoft registration portal** | **Value** |
+   |---|---|
+   | **Issuer ID URL** | Copy the Platform ID value from Moodle tool configuration details. |
+   | **Client ID** | Copy the Client ID value from Moodle tool configuration details. |
+   | **Keyset URL** | Copy the Public keyset URL value from Moodle tool configuration details. |
+   | **Platform authentication URL** | Copy the Authentication request URL value from Moodle tool configuration details. |
+   | **Deployment ID** | Copy the Deployment ID value from Moodle tool configuration details. |
+   | **Access token URL** | Copy the Access token URL value from Moodle tool configuration details. |
 
 1. Select **Next** in the **Microsoft registration portal** tab.
 
@@ -167,7 +167,6 @@ Learn more about Microsoft 365 LTI application scenarios for Instructors and Stu
 ## Browser settings
 
 - Cookies should be allowed for Microsoft apps.
-
 - Popups shouldn't be blocked for Microsoft apps.
 
 If you receive an error message regarding cookies being blocked, check your browser's address bar for an icon to allow third-party cookies and popups. If this issue persists, review your settings related to cookies and popups to make sure they're allowed for this app.
@@ -180,4 +179,4 @@ If you receive an error message regarding cookies being blocked, check your brow
 
 :::image type="content" source="./media/help-and-feedback.png" alt-text="Screenshot of link to send feedback for Microsoft 365 LTI." border="true":::
 
-Learning Tools Interoperability® (LTI®) is a trademark of the 1EdTech Consortium, Inc. (**[**1edtech.org**](https://1edtech.org)**).
+Learning Tools Interoperability&reg; (LTI&reg;) is a trademark of the 1EdTech Consortium, Inc. (**[**1edtech.org**](https://1edtech.org)**).
