@@ -68,7 +68,7 @@ Select **Skill inferencing by AI** under **Settings** to see details about t
 
 When inferencing is enabled, users receive AI-generated skills relevant to their role. When skills AI inferencing is turned off, no AI computation is processed for that user. The user can still create a skill profile by manually searching to add skills from your taxonomy. They can also confirm any imported skills that an admin in your organization adds for them.
 
-Create an access control policy if you need to disable skill suggestions for specific users, groups, or your entire tenant. For more information on how to create and manage policies, see [control access to features](/viva/feature-access-management) and [Add-VivaModuleFeaturePolicy PowerShell command details](https://learn.microsoft.com/powershell/module/exchangepowershell/add-vivamodulefeaturepolicy) 
+Create an access control policy if you need to disable skill suggestions for specific users, groups, or your entire tenant. For more information on how to create and manage policies, see [control access to features](/viva/feature-access-management) and [Add-VivaModuleFeaturePolicy PowerShell command details](/powershell/module/exchangepowershell/add-vivamodulefeaturepolicy) 
 
 > [!NOTE]
 > Policies for People Skills can only be created in PowerShell at this time. You can't create or manage policies through the interface in Admin center.
