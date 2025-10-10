@@ -1,10 +1,10 @@
 ---
 title: Manage generative AI apps for your organization
 f1.keywords: NOCSH
-ms.author: georgerozo
+ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.reviewer: georgerozo
+ms.reviewer: 
 ms.date: 10/10/2025
 ms.update-cycle: 180-days
 audience: Admin
@@ -22,5 +22,5 @@ appliesto:
 
 # Manage generative AI apps for your organization
 
-As people embrace and incorporate generative AI apps, including Microsoft 365 Copilot and non-Microsoft AI apps, into daily work, it's important for your security team to be able to discover, monitor, and manage those apps. 
+As people embrace and incorporate generative AI apps, including Microsoft 365 Copilot and non-Microsoft AI apps, into daily work, it's important for your security team to be able to discover, monitor, and manage those apps. Using 
 
