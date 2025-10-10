@@ -109,7 +109,7 @@ The three settings moving to the Cloud Policy service are:
 - Let users with access to Office Scripts share their scripts with others in the organization
 - Let users with access to Office Scripts run their scripts with Power Automate
 
-You only need to take action if you've changed these settings from their default. The default value for the settings is enabled. If you haven't changed the settings, then no action is required. If you've customized any of the settings, then you need to configure their equivalent in the Microsoft 365 Cloud Policy service before October 20, 2025. If you don't configure the settings by then, then all three will be set to the default value of enabled. For an overview of how to manage policies using the Cloud Policy service, see [Overview of Cloud Policy service for Microsoft 365](https://learn.microsoft.com/microsoft-365-apps/admin-center/overview-cloud-policy).
+You only need to take action if you've changed these settings from their default. The default value for the settings is enabled. If you haven't changed the settings, then no action is required. If you've customized any of the settings, then you need to configure their equivalent in the Microsoft 365 Cloud Policy service before October 20, 2025. If you don't configure the settings by then, then all three will be set to the default value of enabled. For an overview of how to manage policies using the Cloud Policy service, see [Overview of Cloud Policy service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy).
 
 ## Next steps
 
