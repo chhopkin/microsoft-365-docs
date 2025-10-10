@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 08/19/2025
+ms.date: 10/09/2025
 audience: Admin
 ms.reviewer: mandia
 ms.topic: overview
@@ -22,22 +22,30 @@ appliesto:
 
 # How Researcher works in Microsoft 365 Copilot
 
-## Overview
+## General functionality
 
 | Questions | Answers |
 |---------|---------|
-| **What is Researcher in Microsoft 365 Copilot?** | Researcher is a Copilot agent designed to help users explore, summarize, and extract insights from enterprise data. It supports natural language queries and provides citations to source content, enabling users to build knowledge quickly and confidently.|
-| **What are the key capabilities of Researcher in Microsoft 365 Copilot?** | <ul><li>Summarizes documents, emails, chats, and meeting transcripts</li><li>Answers questions using enterprise content</li><li>Provides citations and links to source material</li><li> Supports follow-up questions and iterative exploration</li></ul> |
+| **What is Researcher Agent and how is it different from Copilot chat?** | Researcher is designed for deep, multi-step research tasks, unlike standard Copilot chat which handles quick Q&A.|
+| **Does Researcher Agent use the Archive Mailbox/Folder?** | Yes, archived emails are included as backfill when primary inbox lacks sufficient data. |
+| **Does Researcher provide citations for its answers** | Yes, building trust through source citations is a core design principle. |
+| **Is Researcher available in Sovereign Clouds** | To be released soon. |
+| **Can Researcher fetch data from Graph Connectors?** | Yes, and future updates will allow connector configuration. |
+| **How does Researcher interact with enterprise and web data?** | It uses Microsoft Graph, connectors, and Bing index for recent web data. |
+| **Can we restrict which websites or web content the Researcher agent can pull information from (aside from disabling web search entirely)?** | No. There isn’t a granular setting to block or allow specific websites. The only admin control over web content is the global _web search toggle_. If web search is enabled, Researcher will use Bing to search the web generally; if web search is disabled at the tenant level, Researcher will not use any web data. |
+| **Is the Researcher agent available on mobile devices (iOS and Android)?** | Yes, it is available on iOS and Android in the Copilot mobile app. |
 
-## Security and privacy
+## Administration and controls
 
 | Questions | Answers |
 |---------|---------|
-| **Is Researcher auto-on for tenants?** | Yes, Researcher is enabled by default for eligible tenants. Admins can manage access through policy controls and licensing configurations.|
-| **How does Researcher handle data in transit and at rest?** | Researcher adheres to Microsoft's enterprise-grade security standards. Data is encrypted in transit and at rest, and processed within the tenant boundary unless explicitly configured otherwise. |
-| **What are the European Union data boundary (EUDB) and multi-geo implications?** | Researcher respects EUDB configurations and multi-geo policies. Data residency is maintained according to tenant settings, and processing is localized where applicable.|
-| **Does Researcher log activity for eDiscovery?** | Yes. Researcher interactions are logged and discoverable through Microsoft Purview eDiscovery tools, subject to tenant configuration.|
-| **How does Researcher interact with DLP and sensitivity labels?** | Researcher honors Microsoft Purview Data Loss Prevention (DLP) policies and sensitivity labels. It does not surface content that violates configured policies or access controls.|
+| **How can administrators disable the Researcher Agent?** | <ul><li>Disable Researcher Agent for all users in the tenant</li><li>Disable all Copilot agents (including Researcher) for specific users by turning off Copilot Extensibility</li></ul>
+
+>
+> [!NOTE] Researcher Agent cannot be selectively blocked for an individual user or group. See [Manage Microsoft 365 Copilot agents in the Microsoft 365 admin center](../microsoft-365/admin/manage/manage-copilot-agents-integrated-apps.md) |
+| **How can users disable Researcher?** | |
+| **If the Researcher agent is automatically enabled (and even pre-pinned) for users, can an individual user remove or hide it?** | No. Researcher is a core part of the Microsoft 365 Copilot experience and users cannot independently remove or unpin it. In Microsoft’s internal deployment, it is pre-installed and pinned for all users, and external tenants see it auto-enabled in the Copilot app’s agent list. |
+| **Is there any report or dashboard available for admins to track the usage of the Researcher (and Analyst) agent in their tenant?** | Not yet. As of now, Microsoft hasn’t provided a specific usage reporting tool for Copilot agents like Researcher and Analyst. |
 
 ## Functionality and architecture
 
