@@ -53,8 +53,6 @@ In SharePoint Advanced Management and Microsoft Purview with an A3/E3/G3 license
 
   - [Data access governance reports for SharePoint sites](/sharepoint/data-access-governance-reports) let you identify overshared data for sites. You can also send a site access review to owners of overshared sites.
 
-  - Microsoft Purview [Data Security Posture Management (DSPM) for AI data risk assessments](/purview/ai-m365-copilot) let you identify overshared data for files and sites.
-
 - Remove organization-wide site access as needed.
 
   - Use SharePoint to manually configure this access or automate the configuration with Windows PowerShell. For more information, see [Restrict SharePoint site access with Microsoft 365 Groups and Microsoft Entra security groups](/sharepoint/restricted-access-control).
