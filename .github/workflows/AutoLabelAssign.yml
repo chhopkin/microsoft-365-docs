@@ -15,7 +15,7 @@ jobs:
     download-payload:
         name: Download and extract payload artifact
         if: github.repository_owner == 'MicrosoftDocs'
-        uses: MicrosoftDocs/microsoft-365-docs/.github/workflows/Shared-ExtractPayload.yml@workflows-test
+        uses: MicrosoftDocs/microsoft-365-docs/.github/workflows/Shared-ExtractPayload.yml@workflows-prod
         with:
             WorkflowId: ${{ github.event.workflow_run.id }}
             OrgRepo: ${{ github.repository }}
@@ -26,7 +26,7 @@ jobs:
         name: Run assign and label
         if: github.repository_owner == 'MicrosoftDocs'
         needs: [download-payload]
-        uses: MicrosoftDocs/microsoft-365-docs/.github/workflows/Shared-AutoLabelAssign.yml@workflows-test
+        uses: MicrosoftDocs/microsoft-365-docs/.github/workflows/Shared-AutoLabelAssign.yml@workflows-prod
         with:
             PayloadJson: ${{ needs.download-payload.outputs.WorkflowPayload }}
             AutoAssignUsers: 1
