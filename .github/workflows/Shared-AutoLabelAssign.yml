@@ -62,6 +62,10 @@ jobs:
           run: |
             # Get runspace info
             $RepoRoot = $env:RUNNER_WORKSPACE
+            $RepoName = $env:GITHUB_REPOSITORY
+            $WorkflowName = $env:GITHUB_WORKFLOW -replace '[\\/:*?"<>|\s]', '_'
+            $WorkflowRunId = $env:GITHUB_RUN_ID
+            $WorkflowRunAttempt = $env:GITHUB_RUN_ATTEMPT
             $GitHubData = $env:PayloadJson | ConvertFrom-Json -Depth 50
             $AccessToken = $env:AccessToken
             $GitHubApiUrl = "https://api.github.com/repos/MicrosoftDocs/"
@@ -71,7 +75,8 @@ jobs:
             $PrCreator = $GitHubData.event.pull_request.user.login
             $TargetBranch = $GitHubData.event.pull_request.base.ref
             $GitHubState = $GitHubData.event.pull_request.state
-            $GitHubAction = $GithubData.event.action
+            $GitHubAction = $GitHubData.event.action
+            $PrNumber = $GitHubData.event.pull_request.number
             $IsPrDraft = $GitHubData.event.pull_request.draft
             $GitHubSender = $GitHubData.event.sender.login
             $GitHubRepoName = $GitHubData.event.repository.name
@@ -79,6 +84,7 @@ jobs:
             $PrFileListUrl = "$($GitHubData.event.pull_request.url)/files"
             $IssueUrl = $GitHubData.event.pull_request.issue_url
             $PrUrl = $GitHubData.event.pull_request.url
+            $PrHtmlUrl = $GitHubData.event.pull_request.html_url
             $CommentsUrl = $GitHubData.event.pull_request.comments_url
             $UserPermissionUrl = $GitHubData.event.repository.collaborators_url.Replace("{/collaborator}", "/$PrCreator/permission" )
 
@@ -110,11 +116,41 @@ jobs:
             $LabelColor = "BFDADC"
             $LabelDescription = ""
 
+            # Central workflow logging parameters
+            $LoggingRepoName = "officedocs-pr"
+            $LoggingBranch = "logging"
+            $LoggingRootDir = ".github/workflow-logs"
+            $Year = Get-Date -Format yyyy
+            $Month = Get-Date -Format MM
+            $LoggingFilePath = "$LoggingRootDir/$RepoName/$Year/$Month/PR$PrNumber/workflow-runs/$WorkflowName/${WorkflowRunId}_${WorkflowRunAttempt}.csv"
+            
+            $LoggingData = [pscustomobject][ordered]@{
+                RepoName                = $RepoName
+                PrNumber                = $PrNumber
+                PrUrl                   = $PrHtmlUrl
+                PrCreator               = $PrCreator
+                WorkflowSender          = $GitHubSender
+                PrIsDraft               = $IsPrDraft
+                InitialReviewerList     = $Null
+                ValidatedReviewerList   = $Null
+                ReviewStatus            = $Null
+                ReviewDetails           = $Null
+                ServiceSubService       = $Null
+                PrEvent                 = $GitRequestEvent
+                PrAction                = $GitHubAction
+                PrState                 = $GitHubState
+                WorkflowName            = $WorkflowName
+                WorkflowRunId           = $WorkflowRunId
+                TimeStamp               = (Get-Date).ToString("o")
+            }
+
+            # Path to GE Taxonomy service/subservice to Content Lead GitHub account mapping file.
             $ServiceToGitHubUserMapRepo = "officedocs-pr"
             $ServiceToGitHubUserMapFilePath = "/contents/.github/workflows/resources/service-subservice-to-github-user-map.csv"
             $ServiceToGitHubUserMapRef = "main"
             $ServiceToGitHubUserMapUrl = $GitHubApiUrl + $ServiceToGitHubUserMapRepo + $ServiceToGitHubUserMapFilePath + "?ref=$ServiceToGitHubUserMapRef"
 
+            # Path to central workflow resources location.
             $WorkflowsResourcePath = "https://api.github.com/repos/MicrosoftDocs/microsoft-365-docs/contents/.github/workflows/resources"
             $WorkflowsRef = "workflows-prod"
 
@@ -965,6 +1001,59 @@ jobs:
 
             #####################
             #####################
+            # Send-WorkflowLog
+
+            Function Send-WorkflowLog {
+                [CmdletBinding()]
+                Param(
+
+                    [Parameter(Mandatory=$true)]
+                    [PSCustomObject[]]$LogData
+
+                )
+                
+                
+                # Convert to CSV
+                $CsvContent = $LogData | ConvertTo-Csv -NoTypeInformation | Out-String
+                $Base64Content = [Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($CsvContent))
+                
+                $FileUrl = "https://api.github.com/repos/MicrosoftDocs/$LoggingRepoName/contents/$LoggingFilePath"
+                
+                Try {
+                    $ExistingFile = Invoke-RestMethod -Uri $FileUrl -Headers $AppGitHubAccessHeaders -Method Get -StatusCodeVariable StatusCode
+                    $Sha = $ExistingFile.sha
+                } Catch {
+                    $Sha = $null
+                }
+                
+                # Create or update file
+                $Body = @{
+                    message = "Log from $RepoName workflow $WorkflowName (run $WorkflowRunId)"
+                    content = $Base64Content
+                    branch = $LoggingBranch
+                }
+                
+                If ($Sha) {
+                    $Body.sha = $Sha
+                }
+                
+                Try {
+                
+                    $Response = Invoke-RestMethod -Uri $FileUrl -Headers $AppGitHubAccessHeaders -Method Put -Body ($Body | ConvertTo-Json)
+
+                } Catch {
+                 
+                    Write-Host "ERROR: Failed to post workflow log."
+                
+                }
+                
+                Write-Host "Log pushed to $LoggingFilePath"
+                Return $Response
+            }
+
+
+            #####################
+            #####################
             # Main
 
             Write-Host "Repo: $GitHubRepoName"
@@ -1079,6 +1168,7 @@ jobs:
                                         $ExpandedServiceSubServiceRows = Expand-ServiceSubServiceRows -CsvContent $ServiceToAccountMap
 
                                         $ReviewerArray = @()
+                                        $ServiceSubServiceArray = @() # Used in logging
 
                                         ForEach ($File in $FileMetadataArray) {
 
@@ -1087,6 +1177,8 @@ jobs:
                                                 $FileReviewers = $Null
 
                                                 $FileReviewers = Get-ContentLeadAccounts -DataArray $ExpandedServiceSubServiceRows -Service $File.Service -SubService $File.SubService
+
+                                                $ServiceSubServiceArray += "$($File.Service)\$($File.Subservice)"
 
                                                 If ($FileReviewers -ne $Null) {
                                                 
@@ -1123,12 +1215,26 @@ jobs:
 
                                                     $ReviewerMessage = $AtMentionedGitHubAccounts + $(Get-PrMessage "AutoLabelAssign-ContentLeadReviewNotice")
 
-                                                    Set-PrReviewer -PrUrl $PrUrl -GitHubReviewers $ValidatedReviewerAccounts
-                                                    Set-PrConversationMessage -Message $ReviewerMessage
+                                                    Try {
+
+                                                        Set-PrReviewer -PrUrl $PrUrl -GitHubReviewers $ValidatedReviewerAccounts
+                                                        Set-PrConversationMessage -Message $ReviewerMessage
+
+                                                        $LoggingData.ReviewStatus = "ReviewerAddSuccess"
+                                                    
+                                                    } Catch {
+                                                     
+                                                        $LoggingData.ReviewStatus = "ReviewerAddFailed"
+                                                        $LoggingData.ReviewDetails = $_
+                                                    
+                                                    }
 
                                                 } Else {
                                             
                                                     Write-Host "No additional reviewers to add. Not setting reviewers or posting PR comment."
+
+                                                    $LoggingData.ReviewStatus = "ReviewerAddSkipped"
+                                                    $LoggingData.ReviewDetails = "No additional reviewers to add."
 
                                                 }
 
@@ -1136,12 +1242,19 @@ jobs:
                                                                                     
                                                 Write-Host "No valid reviewers to assign."
                                                 Write-Host $TestedReviewerAccounts
+
+                                                $LoggingData.ReviewStatus = "ReviewerAddSkipped"
+                                                $LoggingData.ReviewDetails = "No valid reviewers to assign."
                                             
                                             }
 
                                         } Else {
                                         
                                             Write-Host "No reviewers matched any services or subservices in PR articles."
+
+                                            $LoggingData.ReviewStatus = "ReviewerAddSkipped"
+                                            $LoggingData.ReviewDetails = "No reviewers matched any services or subservices."
+                                        
     
                                         }
 
@@ -1149,14 +1262,26 @@ jobs:
                                     } Else {
                                     
                                         Write-Host "Not adding reviewer because submitter can sign off PR. User permission: $UserPermission."
+
+                                        $LoggingData.ReviewStatus = "ReviewerAddSkipped"
+                                        $LoggingData.ReviewDetails = "Not adding reviewer because submitter can sign off PR. User permission: $UserPermission."                             
                                     
                                     }
 
                                 } Else {
                                 
                                     Write-Host "Not adding PR reviewers. PR action: $GitHubAction. Draft state: $IsPrDraft."
+
+                                    $LoggingData.ReviewStatus = "ReviewerAddSkipped"
+                                    $LoggingData.ReviewDetails = "Not adding reviewers because PR is draft."       
                                 
                                 }
+
+                                $LoggingData.ServiceSubService = $($ServiceSubServiceArray | Select-Object -Unique) -Join ";"
+                                $LoggingData.InitialReviewerList = $ReviewerArray -Join ";"
+                                $Loggingdata.ValidatedReviewerList = $ValidatedReviewerAccounts -Join ";"
+
+                                Send-WorkflowLog -LogData $LoggingData
 
                             } Else {
                              
