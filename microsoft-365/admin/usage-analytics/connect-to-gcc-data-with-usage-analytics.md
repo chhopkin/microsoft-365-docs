@@ -33,7 +33,7 @@ description: "Learn how to connect to data in your Microsoft 365 Government Comm
 Use the following procedures to connect to your data with the Microsoft 365 Usage Analytics report in a Microsoft 365 Government Community Cloud (GCC) tenant.
 
 > [!NOTE]
-> These instructions are specifically for Microsoft 365 GCC tenants and are not applicate to GCC HIgh and DOD.
+> These instructions are specifically for Microsoft 365 GCC tenants and aren't applicate to GCC High and DOD.
 
 ## Before you begin
 
@@ -54,33 +54,33 @@ To initially configure Microsoft 365 Usage Analytics:
 
     ![Make your tenant data available.](../../media/usage-analytics/make-data-available.png)
 
-    This starts a process to make your organizations data accessible for this report, and you'll see a message stating that **We’re getting your data ready for Microsoft 365 usage analytics**. This process can take 24 hours to complete.
+    This starts a process to make your organizations data accessible for this report, and you might see a message that states **We’re getting your data ready for Microsoft 365 usage analytics**. This process can take 24 hours to complete.
 
-4. When your organizations data is ready, refreshing the page shows a message stating that your data is now available, and provides your **tenant ID** number. You'll need to use the tenant ID in a later step when you attempt to connect to your tenant data.
+4. When your organizations data is ready, refreshing the page shows a message stating that your data is now available, and provides your **tenant ID** number. You must use the tenant ID in a later step when you attempt to connect to your tenant data.
 
     ![Tenant ID.](../../media/usage-analytics/tenant-id-gcc.png)
 
     > [!IMPORTANT]
-    > When your data is available, do not select **Go to Power BI**, which will take you to the Power BI Marketplace.  The template app for this report required by GCC tenants is not available in the Power BI Marketplace.  
+    > When your data is available, don't select **Go to Power BI**, which takes you to the Power BI Marketplace. The template app for this report required by GCC tenants isn't available in the Power BI Marketplace.  
 
 ## Step 2: Download the Power BI template, connect to your data, and publish the report
 
 Microsoft 365 GCC users can download and use the Microsoft 365 Usage Analytics report template file to connect to their data. You would need Power BI Desktop to open and use the template file.
 
  > [!NOTE]
- > Currently, a template app for the Microsoft 365 Usage Analytics report is not available for GCC tenants in the Power BI Marketplace.  
+ > Currently, a template app for the Microsoft 365 Usage Analytics report isn't available for GCC tenants in the Power BI Marketplace.  
 
 1. After downloading the [Power BI template](https://download.microsoft.com/download/7/8/2/782ba8a7-8d89-4958-a315-dab04c3b620c/Microsoft%20365%20Usage%20Analytics.pbit), open it using Power BI Desktop.
 2. When prompted for a **TenantID**, enter the tenant ID you received when you prepared your organization’s data for this report in step 1. Then select **Load**. It can take several minutes for your data to load.
 
     ![Enter tenant ID.](../../media/usage-analytics/add-tenant-id.png)
 
-3. When loading completes, your report is displayed, and you'll see an executive summary of your data.
+3. When loading completes, your report is displayed, and you see an executive summary of your data.
 
     ![Executive Summary.](../../media/usage-analytics/exec-summary.png)
 
 4. Save your changes to the report. 
-5. Select **Publish** in the Power BI Desktop menu to publish the report to the Power BI Online service where it can be viewed. This requires either a Power BI Pro license or Power BI Premium capacity. As part of the [publish process](/power-bi/create-reports/desktop-upload-desktop-files#to-publish-a-power-bi-desktop-dataset-and-reports), you'll need to select a destination to publish to an available workspace in the Power BI Online Service.
+5. Select **Publish** in the Power BI Desktop menu to publish the report to the Power BI Online service where it can be viewed. This requires either a Power BI Pro license or Power BI Premium capacity. As part of the [publish process](/power-bi/create-reports/desktop-upload-desktop-files#to-publish-a-power-bi-desktop-dataset-and-reports), you must select a destination to publish to an available workspace in the Power BI Online Service.
 
 ## Related content
 
