@@ -48,7 +48,7 @@ Security defaults is a set of unmodifiable policies in all Microsoft 365 organiz
 Security defaults include the following security features:
 
 - Require all users and admins to register for Microsoft Entra multifactor authentication (MFA) using the [Microsoft Authenticator app](/entra/identity/authentication/concept-authentication-authenticator-app) or any non-Microsoft authentication app that supports [OATH TOTP](/entra/identity/authentication/concept-authentication-oath-tokens#oath-software-tokens).
-- Require MFA for admin accounts at every sign in.
+- Require MFA for administrator accounts at every sign in.
 - Require MFA for users when necessary (for example, on new devices).
 - Block legacy authentication protocols (for example, POP3 and IMAP4 in old email clients).
 - Require MFA for users and admins accessing Azure Resource Manager services (for example, the Microsoft Azure portal).
@@ -61,19 +61,19 @@ To configure security defaults, see [Manage security defaults](set-up-multi-fact
 
 ## Conditional Access policies
 
-In addition to security defaults, Conditional Access policies are available in organizations with Microsoft Entra ID P1 or P2. For example:
+As an alternative to using security defaults, Conditional Access policies are available for organizations who have Microsoft Entra ID P1 or P2. Examples include:
 
 - Microsoft 365 Business Premium (Microsoft Entra ID P1)
 - Microsoft 365 E3 (Microsoft Entra ID P1)
 - Microsoft 365 E5 (Microsoft Entra ID P2)
 - An add-on subscription
 
-  > [!TIP]
-  > Organizations with Microsoft Entra ID P2 also have access to Microsoft Entra ID Protection. You can create a Conditional Access policy to [require multifactor authentication for elevated sign-in risk](/entra/identity/conditional-access/policy-risk-based-sign-in). For more information, see [What is Microsoft Entra ID Protection?](/entra/id-protection/overview-identity-protection).
+> [!TIP]
+> Organizations with Microsoft Entra ID P2 also have access to Microsoft Entra ID Protection. You can create a Conditional Access policy to [require multifactor authentication for elevated sign-in risk](/entra/identity/conditional-access/policy-risk-based-sign-in). For more information, see [What is Microsoft Entra ID Protection?](/entra/id-protection/overview-identity-protection).
 
 You create Conditional Access policies that react to sign-in events before a user is granted access to an application or service. If your organization has complex security requirements or you need granular control over security policies, you can use Conditional Access policies instead of security defaults.
 
-> [!TIP]
+> [!IMPORTANT]
 > Organizations can use security defaults or Conditional Access policies, but not both at the same time. Conditional Access policies require security defaults to be turned off, so it's important to recreate the policies from security defaults in Conditional Access policies as a baseline for all users.
 
 For more information about Conditional Access policies, see [What is Conditional Access?](/entra/identity/conditional-access/overview).
@@ -84,9 +84,12 @@ To configure Conditional Access policies, see [Manage Conditional Access policie
 
 ## Legacy per-user MFA (not recommended)
 
-If you can't use security defaults or Conditional Access for business reasons, last option is legacy MFA for individual Microsoft Entra ID accounts in all Microsoft 365 organizations via Microsoft Entra ID Free. We strongly recommend MFA for accounts with administrator roles, especially the Global Administrator role.
+If you can't use security defaults or Conditional Access for business reasons, your last option is using legacy MFA for individual Microsoft Entra ID accounts. This option is avialable with the Microsoft Entra ID Free plan. We strongly recommend MFA for accounts with administrator roles, especially the Global Administrator role.
 
 For configuration instructions, see [Enable per-user Microsoft Entra multifactor authentication to secure sign-in events](/entra/identity/authentication/howto-mfa-userstates).
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## Comparing MFA methods
 
