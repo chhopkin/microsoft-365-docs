@@ -43,7 +43,7 @@ To initially configure Microsoft 365 Usage Analytics:
   
 [!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
-- You must have the [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) application to use the template file.
+- You must have the [Power BI Desktop](https://powerbi.microsoft.com/desktop/) application to use the template file.
 - You must have a [Power BI Pro license](https://go.microsoft.com/fwlink/p/?linkid=845347) or Premium capacity to publish and view the report.
 
 ## Step 1: Make your organization’s data available for the Microsoft 365 Usage Analytics report
