@@ -29,28 +29,22 @@ Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft
 But what about non-Microsoft AI apps? 
 
 Using capabilities in [Microsoft Entra](/entra/fundamentals/what-is-entra), [Microsoft Purview](/purview/purview), [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps), and [Microsoft Defender XDR](/defender-xdr/microsoft-365-defender), your security team can enable people in your organization to use generative AI apps more securely, including Microsoft and non-Microsoft AI apps.
-<!---work in progress
-## Quick reference table: AI app risk mitigation and Microsoft solutions
-
-| Risk of unmanaged AI apps | Recommended controls | Microsoft solutions |
-|--|--|--|
-| Data leakage and intellecutal property (IP) exposure | Discover unscanctioned AI apps <br/><br/>Apply DLP policies | [Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps) <br/><br/>[Purview DLP](/purview/dlp-learn-about-dlp) |
-| Compliance vioiations | Monitor AI interactions<br/><br/>Log prompts and outputs<br/><br/>Enforce governance | Purview Audit & eDiscovery <br/><br/>Compliance Manager |
-| Prompt injection and model abuse | Apply Zero Trust principles<br/><br/>Restrict permissions | Microsoft Entra Conditional Access<br/><br/> Defender for Cloud Apps |
-| Shadow AI and blind spots | Continuous discovery<br/><br/>Block risky apps | Defender for Cloud Apps App Governance<br/><br/>Purview DSPM for AI |
-| Untracked AI agent identities | Identity lifecycle management<br/><br/>Multifactor authentication (MFA) and Just-in-Time (JIT) access | Microsoft Entra ID Governance<br/><br/>Azure AI Foundry |
-| Incident response gaps | Real-time alerts<br/><br/>Anomaly detection | Microsoft Sentinel<br/><br/>Defender for Cloud Apps |
---->
 
 ## Before you begin
 
-PREREQS
+- [Pilot and deploy Microsoft Defender XDR](/defender-xdr/pilot-deploy-overview), which includes these components:
+   - [Microsoft Defender for Identity](/defender-xdr/pilot-deploy-defender-identity)
+   - [Microsoft Defender for Office 365](/defender-xdr/pilot-deploy-defender-office-365)
+   - [Microsoft Defender for Endpoint](/defender-xdr/pilot-deploy-defender-endpoint)
+   - [Microsoft Defender for Cloud Apps](/defender-xdr/pilot-deploy-defender-cloud-apps)
 
-Defender for Cloud Apps
-
-Purview
-
-Nice to have: Defender for Endpoint
+- Configure Purview. See the [Microsoft Purview deployment models](/purview/deploymentmodels/depmod-overview), which include:
+   - [Secure by default](/purview/deploymentmodels/depmod-securebydefault-intro)
+   - [Address internal oversharing concerns for Microsoft 365 Copilot deployment](https://aka.ms/Copilot/OversharingBlueprintLearn)
+   - [Prevent data leak to shadow AI with Microsoft](/purview/deploymentmodels/depmod-data-leak-shadow-ai-intro)
+   - [Lightweight guide to mitigate data leakage](https://aka.ms/Purview_LightweightGuide_PDF)
+   - [Secure agents in Microsoft 365 with Purview](https://aka.ms/PurviewDeploymentModels/SecureAgents-pdf)
+   - [Purview Data Security Posture Management](https://aka.ms/DSPMBlueprintPDF)
 
 ## Discover generative AI apps that are in use in your organization
 
@@ -63,6 +57,17 @@ PROCEDURE
 ## Block specific generative AI apps
 
 PROCEDURE
+
+## Quick reference table: AI app risk mitigation and Microsoft solutions
+
+| Risk of unmanaged AI apps | Recommended controls | Microsoft solutions |
+|--|--|--|
+| Data leakage and intellecutal property (IP) exposure | Discover unscanctioned AI apps <br/><br/>Apply DLP policies | [Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps) <br/><br/>[Purview DLP](/purview/dlp-learn-about-dlp) |
+| Compliance vioiations | Monitor AI interactions<br/><br/>Log prompts and outputs<br/><br/>Enforce governance | [Purview Data Security Posture Management for AI](/purview/dspm-for-ai?tabs=m365) |
+| Prompt injection and model abuse | Apply Zero Trust principles<br/><br/>Restrict permissions | Microsoft Entra Conditional Access<br/><br/> Defender for Cloud Apps |
+| Shadow AI and blind spots | Continuous discovery<br/><br/>Block risky apps | Defender for Cloud Apps App Governance<br/><br/>[Purview DSPM for AI](/purview/dspm-for-ai?tabs=m365) |
+| Untracked AI agent identities | Identity lifecycle management<br/><br/>Multifactor authentication (MFA) and Just-in-Time (JIT) access | Microsoft Entra ID Governance<br/><br/>Azure AI Foundry |
+| Incident response gaps | Real-time alerts<br/><br/>Anomaly detection | Microsoft Sentinel<br/><br/>Defender for Cloud Apps |
 
 ## See also
 
