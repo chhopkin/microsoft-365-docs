@@ -22,7 +22,11 @@ appliesto:
 
 # Manage generative AI apps for your organization
 
-As people embrace and incorporate generative AI apps, including Microsoft 365 Copilot and non-Microsoft AI apps, into daily work, it's important for your security team to be able to discover, monitor, and manage those apps. Using capabilities in [Microsoft Purview](/purview/purview) together with [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps), your security team can manage the generative AI apps that people are using in your organization. That way, you can enable people to use generative AI apps more securely.
+As people embrace and incorporate [generative AI apps](/ai/playbook/technology-guidance/generative-ai/), such as Microsoft 365 Copilot and non-Microsoft AI apps into daily work, it's important for your security team to be able to manage those apps. Discovering, monitoring, and managing AI apps is essential to prevent data leaks, maintain compliance, enforce governance, and uphold trust in enterprise AI adoption.
+
+
+
+Using capabilities in [Microsoft Purview](/purview/purview) together with [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps), your security team can manage the generative AI apps that people are using in your organization. That way, you can enable people to use generative AI apps more securely.
 
 ## Before you begin
 
