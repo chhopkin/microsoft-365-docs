@@ -22,12 +22,15 @@ appliesto:
 
 # Manage generative AI apps for your organization
 
-As people embrace and incorporate [generative AI apps](/ai/playbook/technology-guidance/generative-ai/), such as Microsoft 365 Copilot and non-Microsoft AI apps into daily work, it's important for your security team to be able to manage those apps. Discovering, monitoring, and managing AI apps is essential to prevent data leaks, maintain compliance, enforce governance, and uphold trust in enterprise AI adoption.
+As people embrace and incorporate [generative AI apps](/ai/playbook/technology-guidance/generative-ai/), such as Microsoft 365 Copilot and non-Microsoft AI apps into daily work, it's important for your organization's security team to be able to manage those apps. Discovering, monitoring, and managing AI apps is essential to prevent data leaks, maintain compliance, enforce governance, and uphold trust in enterprise AI adoption.
 
-Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level (see [What Microsoft does to secure Microsoft 365 Copilot](microsoft-365-copilot-ai-security.md#what-microsoft-does-to-secure-microsoft-365-copilot)). But what about non-Microsoft AI apps? Using capabilities in [Microsoft Entra](/entra/fundamentals/what-is-entra), [Microsoft Purview](/purview/purview), [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps), and [Microsoft Defender XDR](/defender-xdr/microsoft-365-defender), your security team can enable people in your organization to use generative AI apps more securely.
+Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level (see [What Microsoft does to secure Microsoft 365 Copilot](microsoft-365-copilot-ai-security.md#what-microsoft-does-to-secure-microsoft-365-copilot)). 
+
+But what about non-Microsoft AI apps? 
+
+Using capabilities in [Microsoft Entra](/entra/fundamentals/what-is-entra), [Microsoft Purview](/purview/purview), [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps), and [Microsoft Defender XDR](/defender-xdr/microsoft-365-defender), your security team can enable people in your organization to use generative AI apps more securely.
 
 ## Quick reference table: AI app risk mitigation and Microsoft solutions
-
 
 | Risk of unmanaged AI apps | Recommended controls | Microsoft solutions |
 |--|--|--|
@@ -37,7 +40,6 @@ Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft
 | Shadow AI and blind spots | Continuous discovery<br/><br/>Block risky apps | Defender for Cloud Apps App Governance<br/><br/>Purview DSPM for AI |
 | Untracked AI agent identities | Identity lifecycle management<br/><br/>Multifactor authentication (MFA) and Just-in-Time (JIT) access | Microsoft Entra ID Governance<br/><br/>Azure AI Foundry |
 | Incident response gaps | Real-time alerts<br/><br/>Anomaly detection | Microsoft Sentinel<br/><br/>Defender for Cloud Apps |
-
 
 ## Before you begin
 
