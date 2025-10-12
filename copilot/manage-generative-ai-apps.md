@@ -32,13 +32,13 @@ Using capabilities in [Microsoft Entra](/entra/fundamentals/what-is-entra), [Mic
 
 ## Before you begin
 
-- [Pilot and deploy Microsoft Defender XDR](/defender-xdr/pilot-deploy-overview), which includes these components:
+- **[Pilot and deploy Microsoft Defender XDR](/defender-xdr/pilot-deploy-overview)**, which includes these components:
    - [Microsoft Defender for Identity](/defender-xdr/pilot-deploy-defender-identity)
    - [Microsoft Defender for Office 365](/defender-xdr/pilot-deploy-defender-office-365)
    - [Microsoft Defender for Endpoint](/defender-xdr/pilot-deploy-defender-endpoint)
    - [Microsoft Defender for Cloud Apps](/defender-xdr/pilot-deploy-defender-cloud-apps)
 
-- Configure Purview. See the [Microsoft Purview deployment models](/purview/deploymentmodels/depmod-overview), which include:
+- **Configure Purview**. See the [Microsoft Purview deployment models](/purview/deploymentmodels/depmod-overview), which include:
    - [Secure by default](/purview/deploymentmodels/depmod-securebydefault-intro)
    - [Address internal oversharing concerns for Microsoft 365 Copilot deployment](https://aka.ms/Copilot/OversharingBlueprintLearn)
    - [Prevent data leak to shadow AI with Microsoft](/purview/deploymentmodels/depmod-data-leak-shadow-ai-intro)
