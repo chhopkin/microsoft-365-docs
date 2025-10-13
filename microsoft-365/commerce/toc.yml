@@ -84,8 +84,10 @@ items:
           href: billing-and-payments/understand-your-invoice2.md
         - name: Understand your invoice (MCA)
           href: billing-and-payments/understand-your-invoice.md
-        - name: Pay for your subscription
+        - name: Pay your invoice with a credit card or billing profile
           href: billing-and-payments/pay-for-your-subscription.md
+        - name: Pay your invoice with a wire transfer
+          href: billing-and-payments/pay-by-wire-transfer.md
         - name: Understand billing and dunning policies
           href: billing-and-payments/billing-dunning-policies.md
         - name: Pay by wire transfer
