@@ -66,7 +66,7 @@ If recurring billing is turned off for a subscription that is paid for by a bill
 
 ## Pay now and partial payments
 
-If you have a Microsoft Customer Agreement (MCA) billing account type, partial payment is available in the Microsoft 365 admin center for customers who experience a payment failure during the one-time payment **Pay now** flow. If you accrue usage higher than your credit card limit, you can use the following self-serve process to split the invoice amount across multiple credit cards.
+If you have an MCA billing account type, partial payment is available in the Microsoft 365 admin center for customers who experience a payment failure during the one-time payment **Pay now** flow. If you accrue usage higher than your credit card limit, you can use the following self-serve process to split the invoice amount across multiple credit cards.
 
 A minimum payment has a minimum value that you can pay, and varies by country/region.
 
