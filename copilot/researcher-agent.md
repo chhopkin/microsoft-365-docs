@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 08/19/2025
+ms.date: 10/13/2025
 audience: Admin
 ms.reviewer: mandia
 ms.topic: overview
@@ -35,19 +35,3 @@ Researcher's architecture is built on the Microsoft 365 Copilot platform, levera
 - **Integrated tools and connectors**- Researcher can tap into various data sources and tools as it works on your query. It has access to your Microsoft 365 "Work" data (emails, Teams chats, OneDrive/SharePoint files, meeting transcripts, etc.) through Microsoft Graph, and it can perform enterprise searches across all that content.
 
 - **Connected Sub-Agents**- A unique aspect of Researcher is its ability to delegate subtasks to other Copilot agents. It treats certain domain-specific agents as "specialist helpers." For example, if your question involves sales data, Researcher can invoke the Sales Insights agent (which knows how to fetch CRM data from Dynamics 365) and incorporate that input into the answer. Similarly, it could call a Power BI agent to get a chart or a summary of a report.
-
-## LLM calls
-
-Researcher's ability to produce such detailed outputs is powered by making multiple calls to the Large Language Model (LLM) in a structured way, rather than a single Q&A turn. When you use Researcher, you're effectively engaging a more prolonged dialog between the system and the AI model on the backend.
-
-## Model switching
-
-"Model switching" refers to Copilot's ability to route a query to different underlying AI models depending on the nature of the request. The Researcher agent is a prime example of model switching in action. Researcher's queries are handled by a specialized AI model that isn't used for every Copilot prompt. This is an explicit model switch implemented to balance quality and efficiency. Easy questions use the default model; tough research questions use the heavy-duty model.
-
-## Connectors
-
-A big advantage of Researcher is that it can draw on far more than just your Office documents or Bing web results. It can utilize Microsoft Graph Connectors to access a wide range of enterprise information, as well as other external data sources.
-
-## Methods of integrating with Connectors
-
-Given the power of connectors, organizations will want to integrate their important data sources so Researcher (and other Copilot features) can use them.
