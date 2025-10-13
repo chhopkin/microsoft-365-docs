@@ -4,7 +4,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 07/10/2025
+ms.date: 10/07/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -51,7 +51,7 @@ For more information, see [Manage agents for Microsoft 365 Copilot in the Micros
 
 ### User-installed agents
 
-Users can install agents that are available in Agent Store based on the policies set by their tenant administrators. Users can also install their own custom-built agents. For example, these custom-built agents could be built with Agent Builder, SharePoint or Microsoft Copilot Studio, to augment Microsoft 365 Copilot. These agents are used by individuals, and optionally shareable within the user’s organization.
+Users can install agents that are available in Agent Store based on the policies set by their tenant administrators. Users can also install their own custom-built agents. For example, these custom-built agents could be built with Microsoft SharePoint, Microsoft Copilot Studio (lite), or Microsoft Copilot Studio (full), to augment Microsoft 365 Copilot. These agents are used by individuals, and optionally shareable within the user’s organization.
 
 Organizations can govern these agents in the Copilot Control System section of the Microsoft 365 admin center. Administrators have a full set of lifecycle management tools for these agents. Microsoft offers granular controls that enable administrators to install and block agents. Additionally, administrators can remove shared and custom agents for some or all of the users in their tenant.
 
@@ -64,5 +64,5 @@ Some agents built by Microsoft, including Researcher and Analyst, are governed b
 - [Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps)
 - [Agent Store in Microsoft 365 Copilot](https://devblogs.microsoft.com/microsoft365dev/introducing-the-agent-store-build-publish-and-discover-agents-in-microsoft-365-copilot/)
 - [Agents for Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agents-overview)
-- [Build agents with Copilot Studio agent builder](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build)
+- [Build agents with Copilot Studio](/microsoft-365-copilot/extensibility/copilot-studio-lite-build)
 - [Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio)
