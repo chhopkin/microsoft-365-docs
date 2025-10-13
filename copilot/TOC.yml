@@ -3,16 +3,6 @@ items:
   href: index.yml
 - name: Copilot release notes
   href: release-notes.md
-- name: Copilot Control System
-  items:
-  - name: Copilot Control System overview
-    href: copilot-control-system/overview.md
-  - name: Security and governance
-    href: copilot-control-system/security-governance.md
-  - name: Management controls
-    href: copilot-control-system/management-controls.md
-  - name: Measurement and reporting
-    href: copilot-control-system/measurement-reporting.md
 - name: Get started with Microsoft 365 Copilot
   items:
   - name: What is Microsoft 365 Copilot?
@@ -191,6 +181,129 @@ items:
     href: /microsoft-365-copilot/extensibility/?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
   - name: Install agents in Microsoft 365 Copilot
     href: copilot-agent-install.md
+
+  - name: Microsoft 365 Copilot Agent Framework
+    items:
+    - name: Overview
+      href: agent-framework/agent-framework-overview.md
+    - name: Prerequisites
+      href: agent-framework/agent-prerequisites.md
+    - name: Microsoft 365 Copilot agents blueprint
+      href: agent-framework/m365-agents-blueprint.md
+    - name: Microsoft 365 Copilot agents starting guide
+      href: agent-framework/m365-agents-admin-guide.md            
+    - name: Choose a Copilot Studio experience
+      href: agent-framework/agent-copilot-studio-experience.md
+    - name: Manage agent access and availability policies
+      items:
+      - name: Agent access settings
+        href: agent-framework/agent-policies/agent-access-settings.md
+        items:
+        - name: Set agent availability
+          href: agent-framework/agent-policies/agent-set-availability.md
+        - name: Deploy agents
+          href: agent-framework/agent-policies/agent-deploy-agents.md
+        - name: Choose available agent types
+          href: agent-framework/agent-policies/agent-choose-type-availability.md
+      - name: Agent sharing and publishing settings
+        href: agent-framework/agent-policies/agent-share-publish.md
+        items:
+        - name: Sideload agents for personal use
+          href: agent-framework/agent-policies/agent-sideload.md
+        - name: Share agents with others
+          href: agent-framework/agent-policies/agent-share.md
+        - name: Submit agents to your organization
+          href: agent-framework/agent-policies/agent-submit-org.md
+        - name: Submit agents to the marketplace
+          href: agent-framework/agent-policies/agent-submit-marketplace.md
+    - name: Manage agent inventory and lifecycle
+      href: agent-framework/agent-lifecycle/agent-inventory-lifecycle.md
+      items:
+      - name: View agent inventory
+        href: agent-framework/agent-lifecycle/agent-view-inventory.md
+      - name: Pin agents
+        href: agent-framework/agent-lifecycle/agent-pin-agents.md
+      - name: Upload custom agents
+        href: agent-framework/agent-lifecycle/agent-upload-agents.md
+      - name: Manage shared agents
+        href: agent-framework/agent-lifecycle/agent-manage-shared.md
+    - name: Manage Copilot Studio agents
+      href: agent-framework/agent-lifecycle/agent-copilot-studio-agents.md
+      items:
+      - name: Manage Copilot Studio requested agents
+        href: agent-framework/agent-lifecycle/agent-copilot-studio-requested.md
+      - name: Manage Copilot Studio agent settings
+        href: agent-framework/agent-lifecycle/agent-copilot-studio-settings.md
+    - name: Manage Copilot Connectors
+      href: agent-framework/agent-lifecycle/agent-copilot-connectors.md
+    - name: Assign and deploy agents
+      items:
+      - name: Set availability of agents
+        href: agent-framework/agent-lifecycle/agent-availability.md
+      - name: Deploying agents
+        href: agent-framework/agent-lifecycle/agent-deploy.md
+    - name: Create M365 Copilot agents
+      items:
+      - name: Copilot development environments
+        href: agent-framework/agent-create/copilot-development-environments.md
+        items:
+        - name: Microsoft SharePoint
+          href: agent-framework/agent-create/copilot-sharepoint.md
+        - name: Copilot Studio (lite)
+          href: agent-framework/agent-create/copilot-studio-lite.md
+        - name: Copilot Studio (full)
+          href: agent-framework/agent-create/copilot-studio-lite.md
+        - name: M365 Agents Toolkit
+          href: agent-framework/agent-create/m365-agents-toolkit.md          
+    - name: Control M365 Copilot agent data access
+      items:
+      - name: Agent security, compliance, and governance overview
+        href: agent-framework/agent-data-access/agent-security-overview.md
+      - name: Control agent access to third-party systems
+        href: agent-framework/agent-data-access/agent-security-access.md
+      - name: Control oversharing organization data
+        href: agent-framework/agent-data-access/agent-security-control-oversharing.md
+      - name: Auditing and reporting for Copilot agents
+        href: agent-framework/agent-data-access/agent-audit-reporting.md
+      - name: Data security for Copilot agents
+        href: agent-framework/agent-data-access/agent-data-security.md
+        items:
+        - name: Protect information and data
+          href: agent-framework/agent-data-access/agent-data-labels.md
+        - name: Data Loss Protection capabilities for Copilot
+          href: agent-framework/agent-data-access/agent-data-dlp.md
+      - name: Data compliance for Copilot agents
+        href: agent-framework/agent-data-access/agent-data-compliance.md
+        items:
+        - name: Purview communication compliance
+          href: agent-framework/agent-data-access/agent-data-compliance-manager.md
+        - name: Communication compliance policy
+          href: agent-framework/agent-data-access/agent-data-communication.md
+        - name: Search Copilot and agent data
+          href: agent-framework/agent-data-access/agent-data-search.md
+        - name: Retention policy support for Copilot
+          href: agent-framework/agent-data-access/agent-data-retention.md          
+    - name: Manage Copilot agent usage billing
+      href: agent-framework/agent-usage-billing/agent-usage-overview.md
+      items:
+      - name: Understand usage billing M365 licensed users
+        href: agent-framework/agent-usage-billing/agent-m365-licensed-user.md
+      - name: Setup pay-as-you-go billing for Copilot agents
+        href: agent-framework/agent-usage-billing/agent-usage-payg-setup.md
+        items:
+        - name: Microsoft 365 Copilot pay-as-you-go settings
+          href: agent-framework/agent-usage-billing/agent-usage-m365-copilot-settings.md
+        - name: Copilot Studio billing settings
+          href: agent-framework/agent-usage-billing/agent-usage-cs-settings.md
+        - name: Copilot Studio billing rates for agent activity
+          href: agent-framework/agent-usage-billing/agent-usage-cs-rates.md
+        - name: Manage M365 Copilot agent billing sessions and capacity
+          href: agent-framework/agent-usage-billing/agent-usage-session-capacity.md
+      - name: Copilot Studio agent consumption estimator
+        href: agent-framework/agent-usage-billing/agent-usage-cs-estimator.md
+      - name: M365 Copilot reports
+        href: agent-framework/agent-usage-billing/agent-usage-cs-reports.md        
+
   - name: Microsoft 365 Copilot Tuning (preview)
     items:
     - name: Overview
