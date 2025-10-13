@@ -16,7 +16,7 @@ ms.collection:
 - scotvorg
 - highpri
 - M365-subscription-management
-s- Adm_O365
+- Adm_O365
 - operations-pod
 search.appverid: MET150
 ms.custom:
