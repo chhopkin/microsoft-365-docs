@@ -36,6 +36,6 @@ Researcher's architecture is built on the Microsoft 365 Copilot platform, levera
 
 - **Connected Sub-Agents**- A unique aspect of Researcher is its ability to delegate subtasks to other Copilot agents. It treats certain domain-specific agents as "specialist helpers." For example, if your question involves sales data, Researcher can invoke the Sales Insights agent (which knows how to fetch CRM data from Dynamics 365) and incorporate that input into the answer. Similarly, it could call a Power BI agent to get a chart or a summary of a report.
 
-- ## Related content
+## Related content
 
 - [Microsoft 365 Copilot Researcher FAQ's](faq-researcher.md)
