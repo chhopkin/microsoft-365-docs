@@ -152,9 +152,9 @@ Refunds are treated as a regular charge and are refunded to your bank account.
 
 ## Related content
 
-[Pay your invoice by using a wire transfer](pay-by-wire-transfer.md) (article) <br/>
-[Manage payment methods for Microsoft business accounts](manage-payment-methods.md) (article) <br/>
-[Manage recurring billing in the Microsoft 365 admin center](../subscriptions/renew-your-subscription.md) (article) <br/>
-[View your invoice in the Microsoft 365 admin center](view-your-bill-or-invoice.md) (article) <br/>
-[Understand your invoice for your Microsoft MCA billing account](understand-your-invoice.md) (article) <br/>
+[Pay your invoice by using a wire transfer](pay-by-wire-transfer.md) (article)<br/>
+[Manage payment methods for Microsoft business accounts](manage-payment-methods.md) (article)<br/>
+[Manage recurring billing in the Microsoft 365 admin center](../subscriptions/renew-your-subscription.md) (article)<br/>
+[View your invoice in the Microsoft 365 admin center](view-your-bill-or-invoice.md) (article)<br/>
+[Understand your invoice for your Microsoft MCA billing account](understand-your-invoice.md) (article)<br/>
 [Understand your invoice for your Microsoft MOSA billing account](understand-your-invoice2.md) (article)
