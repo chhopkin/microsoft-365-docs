@@ -36,7 +36,7 @@ ms.date: 10/13/2025
 
 Check out all of our small business content on [Small business help & learning](https://go.microsoft.com/fwlink/?linkid=2224585).
 
-Microsoft accepts credit cards and debit cards as payment methods for the business products and services that you buy from us. How these payment methods are applied depends on the type of billing account that you have with us. For example, if you have a Microsoft Customer Agreement (MCA) billing account, you pay your invoice with a billing profile backed with a credit card or debit card. If you have a Microsoft Online Subscription Agreement (MOSA), you pay your bill directly with a credit or debit card.
+Microsoft accepts credit cards and debit cards as payment methods for the business products and services that you buy from us. How these payment methods are applied depends on the type of billing account that you have with us. For example, if you have a Microsoft Customer Agreement (MCA) billing account, you pay your invoice with a billing profile backed with a credit card or debit card. If you have a Microsoft Online Subscription Agreement (MOSA), you pay your invoice directly with a credit or debit card.
 
 This article discusses paying your invoice with a credit or debit card. In some cases, you can use a wire transfer to pay your invoice. For information, see [Pay your Microsoft business invoice by wire transfer | Microsoft Learn](pay-by-wire-transfer.md).
 
