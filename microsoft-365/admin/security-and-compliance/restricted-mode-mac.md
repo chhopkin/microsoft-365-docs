@@ -50,7 +50,7 @@ You must be the appropriate admin for the feature area. For more information, se
 
 ## Available Baseline Security Mode settings
 
-### Microsoft 365 apps settings
+### Block out of date file formats
 
 This section outlines the options available within Microsoft 365 Apps to apply Baseline Security Mode settings in the Microsoft 365 admin center.
 
@@ -71,7 +71,7 @@ You must be a member of the [Office Apps administrator role](/entra/identity/rol
 |Block insecure protocols for file opens|When users open files from locations using insecure protocols like HTTP or FTP, sensitive data can be exposed because these protocols transmit information in plain text. Blocking these protocols helps prevent attackers from intercepting credentials or other confidential data during file access. When you enable this setting, users are prevented from opening files from locations that use HTTP or FTP. This helps enforce secure data transmission practices and reduces exposure to man-in-the-middle attacks. <br/><br/> For more information, see [Block insecure protocols for file opens](block-insecure-protocols-file-opens.md).|
 |Block FrontPage Remote Procedure Call (FPRPC) protocol for file opens|FrontPage Remote Procedure Call (FPRPC) is an outdated protocol that was used for remote web page authoring. While no longer widely used, attackers can still exploit FPRPC to execute arbitrary commands or compromise a system through specially crafted files or network traffic. FPRPC is now blocked by default in Microsoft 365 apps in favor of HTTPS. Enabling this setting ensures users in your environment can't override the default configuration. <br/><br/> For more information, see [Block FrontPage Server Extensions Remote Procedure Call (FPRPC) for file opens in Microsoft 365](block-server-extensions-protocol-file-opens.md).|
 
-### OneDrive and SharePoint settings
+### Block insecure authentication and custom scripts
 
 This section outlines the options available within OneDrive and SharePoint to turn off Baseline Security Mode settings in the Microsoft 365 admin center.
 
@@ -84,7 +84,7 @@ You must be a member of the [SharePoint administrator role](/sharepoint/sharepoi
 |Don't allow new custom scripts in SharePoint sites|Custom scripts are used to modify SharePoint site behaviors. When you allow users to run custom script, you can no longer enforce governance, scope the capabilities of inserted code, block specific parts of code, or block all deployed custom code. This setting permanently removes the ability to add new custom scripts in OneDrive and SharePoint sites. Instead of allowing custom script, we recommend using the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overview). <br/><br/> For more information, see [Allow or prevent custom script](/sharepoint/allow-or-prevent-custom-script).|
 |Disable Access to Microsoft Store for SharePoint|Users can install certain applications from the Microsoft Store. Sometimes, this capability can go against organizational policies and can increase governance costs. This setting removes the ability for end users to install applications directly from the Microsoft Store. <br/><br/> For more information, see [Configure settings for the SharePoint store](/sharepoint/configure-sharepoint-store-settings)|
 
-### Exchange settings
+### Disable organization wide access to Exchange web services
 
 This section outlines the options available within Exchange to turn off Baseline Security Mode settings in the Exchange admin center.
 
@@ -118,7 +118,7 @@ Currently, the following features don't work when baseline security mode setting
 - Turn off EWS access only after your hybrid Exchange setup supports REST APIs. This change helps reduce legacy app usage and lowers the risk of data exposure. See [Exchange Server Security Changes for Hybrid Deployments](https://techcommunity.microsoft.com/blog/exchange/exchange-server-security-changes-for-hybrid-deployments/4396833).
 - Server-side sync between Dynamics on-premises and Exchange Online will no longer work with this setting. To keep using sync features, move to [Dynamics 365 Online](/dynamics365/customerengagement/on-premises/admin/connect-dynamics-365-on-premises-exchange-online).
 
-### Identity settings
+### Protect admin and user access
 
 This section outlines the options available within Identity to turn off Baseline Security Mode settings in the Microsoft 365 admin center.
 
@@ -129,7 +129,7 @@ This section outlines the options available within Identity to turn off Baseline
 |Block addition of new password credentials to apps|To increase security, we recommend that organizations block the addition of password credentials on their applications. Passwords are one of the weakest methods of service authentication and are vulnerable to compromise by bad actors. Switching to a more secure method improves security and reduces management overhead. <br/><br/> You must be a member of the [Security administrator](/entra/identity/role-based-access-control/permissions-reference), [Application administrator](/entra/identity/role-based-access-control/permissions-reference), or the [Cloud Application administrator](/entra/identity/role-based-access-control/permissions-reference) roles to perform this task.|
 |Restrict end-user consent to Microsoft 365 certified and single tenant apps with low risk permissions|Update your Microsoft Entra user consent settings to restrict users to grant access to applications created in your tenant or from the [Microsoft 365 certified list](/microsoft-365-app-certification/saas/saas-apps). Microsoft works with our Microsoft 365 developer partners to provide this information so organizations can expedite and inform decisions about apps and add-ins their users can use. <br/><br/> For more information, see [Configure how users consent to applications](/entra/identity/enterprise-apps/configure-user-consent?pivots=portal) <br/><br/> You must be a member of the [Security administrator](/entra/identity/role-based-access-control/permissions-reference) or the [Privileged role administrator](/entra/identity/role-based-access-control/permissions-reference) roles to perform this task.|
 
-### Teams devices settings
+### Restrict resource account and room device access
 
 This section outlines the options available within Teams to turn off Baseline Security Mode settings in the Microsoft 365 admin center.
 
