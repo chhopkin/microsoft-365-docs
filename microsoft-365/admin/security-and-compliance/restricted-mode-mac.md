@@ -98,10 +98,10 @@ You must be a member of the [Exchange online administrator role](../add-users/ab
 
 Before you disable EWS, make sure that you meet these requirements to avoid disruption of web add-ins. Consider the channel within your organization:
 
-- **Current Channel (CC)**: Build 16.0.19127 or later.
-- **Monthly Enterprise Channel (MEC)**: Build 16.0.19127 or later (October 2025).
-- **Semi Annual Channel (SAC)**: Build 16.0.19127 or later (January 2026).
-- **Teams panels**: Teams app version 1449/1.0.97.2025086303 or later.
+- **Current Channel (CC)**: currently available.
+- **Monthly Enterprise Channel (MEC)**: October 2025.
+- **Semi Annual Channel (SAC)**: January 2026.
+- **Teams panels**: update your devices Teams app version to 1449/1.0.97.2025120101, which was shipped in September 2025.
 
 > [!NOTE]
 > These statements and build requirements are Win32 only.
