@@ -3,7 +3,7 @@ title: "Understanding Microsoft 365 case creation and diagnostic data access"
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 10/09/2025
+ms.date: 10/14/2025
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -57,13 +57,11 @@ Microsoft retains diagnostic data for up to 28 days after it is collected. After
 
 Activity performed on a customer tenant is available under Microsoft Entra audit logs. Audit log entries are associated with the Microsoft Support tenant (`Office365ConciergeSupport.onmicrosoft.com` with tenant ID `b4c546a4-7dac-46a6-a7dd-ed822a11efd3`).
 
-The following table summarizes entries you can expect to see:
+Look for entries in these categories:
 
-| Event | Audit log entry |
-|--|--|
-| A support case is created and access is granted | Cross-tenant access entries in these categories: <br/>- `Policy`<br/>- `CrossTenantAccessSettings`<br/>- `DelegatedAdminServiceProviderConstraints` |
-| Microsoft Support accesses data | EXAMPLES NEEDED |
-| Access is removed when support requests are closed | EXAMPLES NEEDED |
+- `Policy`
+- `CrossTenantAccessSettings`
+- `DelegatedAdminServiceProviderConstraints`
 
 ## Learn more about audit logs
 
