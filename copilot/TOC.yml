@@ -188,8 +188,8 @@ items:
       href: agent-framework/agent-framework-overview.md
     - name: Prerequisites
       href: agent-framework/agent-prerequisites.md
-    - name: Microsoft 365 Copilot agents blueprint
-      href: agent-framework/m365-agents-blueprint.md
+    - name: Microsoft 365 Copilot agents checklist
+      href: agent-framework/m365-agents-checklist.md
     - name: Microsoft 365 Copilot agents starting guide
       href: agent-framework/m365-agents-admin-guide.md            
     - name: Choose a Copilot Studio experience
