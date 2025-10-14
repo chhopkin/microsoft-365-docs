@@ -27,7 +27,7 @@ ms.custom:
 - GAUpdates
 - campaignIDs-batch2
 description: "Learn about tax information for Microsoft 365 billing and payments, including how to update your address and tax status."
-ms.date: 03/30/2025
+ms.date: 09/29/2025
 ---
 
 # Tax information for Microsoft 365 for business products and services

@@ -1,8 +1,8 @@
 ---
 title: "Microsoft 365 admin center groups reports"
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 01/30/2024
 audience: Admin
 ms.topic: article
