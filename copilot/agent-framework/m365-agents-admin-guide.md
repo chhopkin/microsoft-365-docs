@@ -39,7 +39,7 @@ Organizations typically deploy a combination of Microsoft 365 Copilot Chat and M
 
 Microsoft 365 Copilot Chat is available at no additional cost for all Microsoft Entra account users with a Microsoft 365 or Office 365 subscription. Members of your organization can use agents that are available at no additional cost from the Agent Store. You, as the administrator of your organization, would also need to enable these agents. If your organization requires agents that incorporate your organization’s data, you can provide access to [agents](/copilot/agents) that are billed based on metered consumption. For more information about Microsoft 365 Copilot Chat, see [Requirements and considerations for Microsoft 365 Copilot Chat admins]().
 
-Microsoft 365 Copilot, which includes Microsoft 365 Copilot Chat, requires a Microsoft 365 [Business](/microsoft-365/business/with-copilot-plans-and-pricing) or [Enterprise](/microsoft-365/enterprise/microsoft365-plans-and-pricing) plan. It includes AI-powered chat grounded in both web-based and work-based data, as well as the capabilities of Microsoft 365 Copilot Chat. In addition, Microsoft 365 Copilot unlocks embedded Copilot features in Word, Excel, Outlook, and Teams. Additionally, your organization can use [custom agents](/microsoft-365-copilot/extensibility/overview-custom-engine-agent). For more information about deploying Microsoft 365 Copilot, including setting up a Microsoft 365 Copilot rollout plan, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](/copilot/microsoft-365/microsoft-365-copilot-min-reqs?branch=kwekua-copilot-min-reqs).
+Microsoft 365 Copilot, which includes Microsoft 365 Copilot Chat, requires a Microsoft 365 [Business](https://www.microsoft.com/microsoft-365/business/with-copilot-plans-and-pricing) or [Enterprise](https://www.microsoft.com/microsoft-365/enterprise/microsoft365-plans-and-pricing) plan. It includes AI-powered chat grounded in both web-based and work-based data, as well as the capabilities of Microsoft 365 Copilot Chat. In addition, Microsoft 365 Copilot unlocks embedded Copilot features in Word, Excel, Outlook, and Teams. Additionally, your organization can use [custom agents](/microsoft-365-copilot/extensibility/overview-custom-engine-agent). For more information about deploying Microsoft 365 Copilot, including setting up a Microsoft 365 Copilot rollout plan, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization]().
 
 Each Copilot option offers different capabilities. For a list of these capabilities, see [Agent capabilities for Microsoft 365 users](/microsoft-365-copilot/extensibility/prerequisites#agent-capabilities-for-microsoft-365-users).
 
@@ -61,7 +61,7 @@ To best understand your overall Copilot deployment, you must understand the opti
 
 #### Option 1 – Agents with Microsoft 365 Copilot Chat (no usage billing)
 
-Microsoft 365 Copilot Chat is included in your Microsoft 365 subscription at no additional charge for all [Microsoft Entra](/entra/fundamentals/what-is-entra) account users with a Microsoft 365 subscription. It provides access to public web-based Copilot Chat. This option also provides access to [declarative agents](/microsoft-365-copilot/extensibility/overview-declarative-agent), grounded in instructions and public websites, at no additional cost. These agents are available in the [Agent Store in Microsoft 365 Copilot](/microsoft365dev/introducing-the-agent-store-build-publish-and-discover-agents-in-microsoft-365-copilot/) based on your organization’s store settings for Teams and Microsoft 365 apps. This option is ideal for occasional users of Copilot and agents.
+Microsoft 365 Copilot Chat is included in your Microsoft 365 subscription at no additional charge for all [Microsoft Entra](/entra/fundamentals/what-is-entra) account users with a Microsoft 365 subscription. It provides access to public web-based Copilot Chat. This option also provides access to [declarative agents](/microsoft-365-copilot/extensibility/overview-declarative-agent), grounded in instructions and public websites, at no additional cost. These agents are available in the [Agent Store in Microsoft 365 Copilot](https://devblogs.microsoft.com/microsoft365dev/introducing-the-agent-store-build-publish-and-discover-agents-in-microsoft-365-copilot) based on your organization’s store settings for Teams and Microsoft 365 apps. This option is ideal for occasional users of Copilot and agents.
 
 #### Option 2 – Agents with Microsoft 365 Copilot Chat (usage billing)
 
@@ -74,13 +74,13 @@ This option gives you and your organization a method to understand your organiza
 Microsoft 365 Copilot offers chat grounded in both web-based and work-based data, as well as the capabilities of Microsoft 365 Copilot Chat. In addition, Microsoft 365 Copilot unlocks embedded Copilot features in Word, Excel, Outlook, and Teams. Also, with your Microsoft 365 Copilot license, your organization can use [custom agents](/microsoft-365-copilot/extensibility/overview-custom-engine-agent). Microsoft 365 Copilot allows you to create, deploy, use, and share agents to extend Microsoft 365 Copilot capabilities. This includes all agents from simple prompt-based agents to more advanced, autonomous agents. Additionally, when you purchase a license for Microsoft 365 Copilot, your organization has access to use additional capabilities, such as [Researcher](https://go.microsoft.com/fwlink/?linkid=2329838) and [Analyst](https://go.microsoft.com/fwlink/?linkid=2329729).
 
 > [!NOTE]
-> To purchase Microsoft 365 Copilot, your organization must have a qualifying [Microsoft 365 plan for enterprise or business](/copilot/microsoft-365/microsoft-365-copilot-licensing#microsoft-365-copilot-license). Microsoft 365 Copilot is available as an [add-on plan](/microsoft-365/copilot#plans). Your organization can choose which license best meets your organization’s requirements. If your organization’s account doesn't have the right plan, you can purchase a new plan or potentially [upgrade your existing plan](/microsoft-365/commerce/subscriptions/upgrade-to-different-plan?view=o365-worldwide).
+> To purchase Microsoft 365 Copilot, your organization must have a qualifying [Microsoft 365 plan for enterprise or business](/copilot/microsoft-365/microsoft-365-copilot-licensing#microsoft-365-copilot-license). Microsoft 365 Copilot is available as an [add-on plan](https://www.microsoft.com/microsoft-365-copilot#plans). Your organization can choose which license best meets your organization’s requirements. If your organization’s account doesn't have the right plan, you can purchase a new plan or potentially [upgrade your existing plan](/microsoft-365/commerce/subscriptions/upgrade-to-different-plan).
 
 ## View available agents
 
 By default, Microsoft and Microsoft partners provide ready-to-use agents that you can quickly integrate and deploy when Microsoft 365 Copilot Chat and Microsoft 365 Copilot. In addition, you can integrate and deploy agents created by members of your organization.
 
-When using a Microsoft 365 subscription, you have agents available with your Microsoft 365 apps, such as Word and Excel. You can also view agents directly in the Microsoft 365 Copilot app.
+When using a Microsoft 365 subscription, you have agents available with your Microsoft 365 apps, such as Word and Excel. You can also view agents directly in the Microsoft 365 Copilot app. For more information, see [Welcome to the Microsoft 365 Copilot app](https://support.microsoft.com/topic/welcome-to-the-microsoft-365-copilot-app-092599f1-5917-4bd6-bd59-58af628bbc39).
 
 ✅ **Task: Understand how to view agents in Microsoft 365 Copilot and Microsoft Teams.**
 
@@ -170,7 +170,7 @@ Microsoft Copilot Studio (full) empowers low-code developers (“makers”) to b
 > [!NOTE]
 > Microsoft Copilot Studio is part of the Power Platform product set. Using the [Power Platform admin center](/power-platform/admin/admin-documentation?tabs=new), admins can manage agent development settings and agent governance controls for Custom Engine Agents for your organization. For related information, see [Track, manage, and scale Copilot adoption in the Power Platform](/power-platform/admin/copilot/copilot-hub?tabs=new) and [Key Copilot configuration settings](/microsoft-copilot-studio/guidance/sec-gov-config-settings).
 
-For more information, see [Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio), [Copilot Studio documentation](/microsoft-copilot-studio/), and [Microsoft Copilot Studio](/microsoft-copilot/microsoft-copilot-studio).
+For more information, see [Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio), [Copilot Studio documentation](/microsoft-copilot-studio/), and [Microsoft Copilot Studio](https://www.microsoft.com/microsoft-copilot/microsoft-copilot-studio).
 
 ### Microsoft 365 Agents Toolkit
 
@@ -211,7 +211,7 @@ Confirm your admin permissions:
 > [!NOTE]
 > To view the assigned members of the different roles in your tenant, you can select **Roles** > **Role assignments** > *select the role* > **Assigned**.
 
-For more information about roles, see [admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
+For more information about roles, see [admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ### Settings for all agents
 
@@ -246,7 +246,7 @@ To view and confirm agent access settings for your organization:
 
 5. Select **Save** to update your Copilot agent settings for your tenant.
 
-For more information, see [Enable or disable Copilot extensibility](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#enable-or-disable-copilot-extensibility).
+For more information, see [Enable or disable Copilot extensibility](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#enable-or-disable-copilot-extensibility).
 
 ### Agent sharing and publishing settings
 
@@ -315,7 +315,7 @@ Whether an agent can be published to an organizational catalog depends on how th
 
 To publish your agent, you can submit it to the Microsoft Teams Store inside Microsoft Teams. Apps published to the Teams Store are automatically listed on the [Microsoft Commercial Marketplace](https://appsource.microsoft.com/). 
 
-:::image type="content"  source="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/appsource.png" alt-text="Screenshot Microsoft AppSource."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/appsource.png":::
+:::image type="content"  source="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-appsource.png" alt-text="Screenshot Microsoft AppSource."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-appsource.png":::
 
 Use the [Microsoft 365 Agents Toolkit](https://aka.ms/M365AgentsToolkit) suite of tools to create your agent. Your agent must meet responsible AI (RAI) principles, provide a valued end user experience, and meet enterprise needs. RAI involves transparency, accountability, reliability, and safety. A valued experience provides an agent that is functionally productive and includes a quality end-user experience. Enterprise needs meets the admin trust bar, as well as an overall goal for productivity and collaboration. 
 
@@ -360,7 +360,7 @@ Microsoft 365 Copilot includes agents pinned by Microsoft, admins, and users. Mi
 
 :::image type="content"  source="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-pinned.png" alt-text="Screenshot of agents within M365 Copilot."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-pinned.png":::
 
-To set, view, or manage pinned agents for your organization, see [Manage Pinning of Agents](/microsoft-365/admin/manage/manage-pinning-agents?view=o365-worldwide).
+To set, view, or manage pinned agents for your organization, see [Manage Pinning of Agents](/microsoft-365/admin/manage/manage-pinning-agents).
 
 ### Upload custom agents
 
@@ -396,7 +396,7 @@ To manage, assign, and publish the agent, see [Assign and deploy agents](#assign
 
 As an admin, you can manage the lifecycle of each agent available in your tenant by using actions. These agent actions include publishing, deploying, removing, and blocking. In addition, you can assign agents and deploy agents as separate actions. You can also manage the agents that members of your organization request to publish to your organizational catalog.
 
-✅ **Task: Manage agents for your organization in Microsoft 365 admin center. Specifically, [publish](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#publish-agents), [deploy](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#deploy-agents), [remove](/icrosoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#remove-agents), or [block](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#block-or-unblock-agents) individual agents for users and groups at your organization. Consider the potential for oversharing agent access based on agent details and capabilities.**
+✅ **Task: Manage agents for your organization in Microsoft 365 admin center. Specifically, [publish](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#publish-agents), [deploy](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#deploy-agents), [remove](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#remove-agents), or [block](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#block-or-unblock-agents) individual agents for users and groups at your organization. Consider the potential for oversharing agent access based on agent details and capabilities.**
 
 ### Understand agent installation
 
@@ -418,7 +418,7 @@ Members of your organization can use Copilot Studio to create and publish agents
 
 When members of your organization publish an agent to your organization using the Microsoft Teams and Microsoft 365 Copilot channel, the agent becomes available as a requested agent in the Copilot Control System in Microsoft 365 admin center. You can then approve the agent to make the agent available to users or groups within your organization. Once the agent has been reviewed and published from the Copilot Control System in Microsoft 365 admin center, you can show it in the Teams app store so users can find and install it.
 
-For more information, see [Connect and configure an agent for Teams and Microsoft 365](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams), [Manage requested agents](#manage-requested-agents), and [Publish agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#publish-agents).
+For more information, see [Connect and configure an agent for Teams and Microsoft 365](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams), [Manage requested agents](#manage-requested-agents), and [Publish agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#publish-agents).
 
 ### Review available agents
 
@@ -500,11 +500,11 @@ Use the following steps to deploy an individual agent:
 
 You can remove an agent from the inventory for your organization. This action is applicable only for first-party or external agents. The agent can be readded to your inventory by acquiring it from the store.
 
-When you remove an agent, it will no longer be available in Copilot or other host products, such as Teams or Outlook. For more information, see [Remove agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#remove-agents).
+When you remove an agent, it will no longer be available in Copilot or other host products, such as Teams or Outlook. For more information, see [Remove agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#remove-agents).
 
 ### Block agents
 
-Blocking an agent prevents any users in the tenant from accessing the agent. This action ensures that the agent can't be used by anyone in the organization. For more information, see [Block or unblock agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide#block-or-unblock-agents).
+Blocking an agent prevents any users in the tenant from accessing the agent. This action ensures that the agent can't be used by anyone in the organization. For more information, see [Block or unblock agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#block-or-unblock-agents).
 
 ### Manage requested agents
 
@@ -588,5 +588,5 @@ To better understand aspects of data protection related to M365 Copilot, such as
 ## Related content
 
 - [Microsoft 365 Copilot adoption guide](/copilot/microsoft-365/microsoft-365-copilot-enablement-resources)
-- [AI Adoption Score](/microsoft-365/admin/adoption/adoption-score?view=o365-worldwide)
-- [Microsoft 365 Copilot agent usage reports](/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents?view=o365-worldwide)
+- [AI Adoption Score](/microsoft-365/admin/adoption/adoption-score)
+- [Microsoft 365 Copilot agent usage reports](/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents)
