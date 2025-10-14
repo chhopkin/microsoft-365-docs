@@ -22,7 +22,7 @@ searchScope:
 appliesto: 
   - Microsoft Teams
   - Microsoft 365 for frontline workers
-ms.date: 01/25/2024
+ms.date: 10/06/2025
 ---
 
 # Provide initial and ongoing training to help onboard your frontline workers
