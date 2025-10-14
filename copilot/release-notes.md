@@ -7,7 +7,7 @@ ms.author: kwekua
 author: kwekuako
 manager: scotv
 ms.update-cycle: 180-days
-ms.date: 10/13/2025
+ms.date: 10/14/2025
 audience: Admin
 ms.reviewer: briandesouza
 ms.topic: get-started
@@ -32,8 +32,8 @@ This page lists the latest features and improvements for Microsoft 365 Copilot. 
 ## [All features](#tab/all)
 <!--- All features regardless of platform go here  -->
 <!-- 81574,102200,101036,100353,99396,101413,100885,100884,99941,101259 -->
-## October 13, 2025
-Updates released between September 16, 2025, and October 13, 2025.
+## October 14, 2025
+Updates released between September 16, 2025, and October 14, 2025.
 ### Copilot extensibility
 - **Context-aware search ranking** [Windows, Web]
 
@@ -47,7 +47,7 @@ Updates released between September 16, 2025, and October 13, 2025.
 - **Historical Data Upload Support in Organizational Data in Microsoft 365** [Web]
 
   Enhance your data management by uploading historical HR data manually via CSV files. If the historical option is selected, admins can assign an effective date for precise processing by apps like Viva Insights. This ensures consistent and accurate data across Microsoft 365 and Viva apps.
- <a href="viva/import-orgdata#step-5--make-retroactive-updates-to-existing-data" target="_blank">Learn more.</a>
+ <a href="/viva/import-orgdata#step-5--make-retroactive-updates-to-existing-data" target="_blank">Learn more.</a>
 - **Manage table list views with security roles** [Web]
 
   Enhance security and streamline operations by managing table list views according to specific security roles. This feature empowers administrators with increased control and customization over data access.
@@ -3062,8 +3062,8 @@ Updates released between December 18, 2024, and January 7, 2025.
 ## [Windows](#tab/win)
 <!--- All features that have 'Windows' tag  -->
 <!-- 100353,100885,100884 -->
-## October 13, 2025
-Updates released between September 16, 2025, and October 13, 2025.
+## October 14, 2025
+Updates released between September 16, 2025, and October 14, 2025.
 ### Copilot extensibility
 - **Context-aware search ranking** [Windows, Web]
 
@@ -4615,8 +4615,8 @@ Updates released between December 18, 2024, and January 7, 2025.
 ## [Web](#tab/web)
 <!--- All features that have 'Web' tag  -->
 <!-- 102200,101036,100353,99396,101413,100885,100884,99941,101259 -->
-## October 13, 2025
-Updates released between September 16, 2025, and October 13, 2025.
+## October 14, 2025
+Updates released between September 16, 2025, and October 14, 2025.
 ### Copilot extensibility
 - **Context-aware search ranking** [Windows, Web]
 
@@ -4630,7 +4630,7 @@ Updates released between September 16, 2025, and October 13, 2025.
 - **Historical Data Upload Support in Organizational Data in Microsoft 365** [Web]
 
   Enhance your data management by uploading historical HR data manually via CSV files. If the historical option is selected, admins can assign an effective date for precise processing by apps like Viva Insights. This ensures consistent and accurate data across Microsoft 365 and Viva apps.
- <a href="viva/import-orgdata#step-5--make-retroactive-updates-to-existing-data" target="_blank">Learn more.</a>
+ <a href="/viva/import-orgdata#step-5--make-retroactive-updates-to-existing-data" target="_blank">Learn more.</a>
 - **Manage table list views with security roles** [Web]
 
   Enhance security and streamline operations by managing table list views according to specific security roles. This feature empowers administrators with increased control and customization over data access.
@@ -7859,8 +7859,8 @@ Updates released between December 18, 2024, and January 7, 2025.
 ## [Mac](#tab/mac)
 
 <!-- 100885,100884 -->
-## October 13, 2025
-Updates released between September 16, 2025, and October 13, 2025.
+## October 14, 2025
+Updates released between September 16, 2025, and October 14, 2025.
 ### Microsoft 365 Copilot Chat
 - **Create new images using reference uploads** [Windows, Mac, Web]
 
@@ -8747,3 +8747,4 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
