@@ -3,6 +3,16 @@ items:
   href: index.yml
 - name: Copilot release notes
   href: release-notes.md
+- name: Copilot Control System
+  items:
+  - name: Copilot Control System overview
+    href: copilot-control-system/overview.md
+  - name: Security and governance
+    href: copilot-control-system/security-governance.md
+  - name: Management controls
+    href: copilot-control-system/management-controls.md
+  - name: Measurement and reporting
+    href: copilot-control-system/measurement-reporting.md
 - name: Get started with Microsoft 365 Copilot
   items:
   - name: What is Microsoft 365 Copilot?
