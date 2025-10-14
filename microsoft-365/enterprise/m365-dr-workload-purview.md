@@ -3,14 +3,14 @@ title: Data Residency for Microsoft Purview
 description: Data Residency for Microsoft Purview
 ms.author: v-fahasen
 author: fhasen-msft
-manager: v-nihmi
+manager: Justin.Giammona
 ms.service: microsoft-365-enterprise
 ms.subservice: advanced-data-residency
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.date: 12/09/2024
-ms.reviewer: deanw
+ms.date: 10/07/2025
+ms.reviewer: jugiammo
 ms.custom:
 - it-pro
 ms.localizationpriority: medium
@@ -21,13 +21,13 @@ ms.collection:
 
 # Data Residency support for Microsoft Purview
 
-This article lists the Data Residency commitments (available with the Advanced Data Residency add-on) for supported Microsoft Purview services and solutions.
+This article lists the Data Residency commitments (available with the _Advanced Data Residency_ add-on) for supported Microsoft Purview services and solutions.
 
 The required conditions for the related commitments for the following services are:
 
-1. _Tenant_ has a sign-up country/region included in _Local Region Geography_ or _Expanded Local Region Geography_.
-1. _Tenant_ has a valid Advanced Data Residency subscription for all users in the _Tenant_.
-1. The Purview service Customer Data is provisioned in _Local Region Geography_ or _Expanded Local Region Geography_.
+1. _Tenant_ has a sign-up country/region included in _Local Region Geography_ or _Future Local Region Geography_.
+1. _Tenant_ has a valid _Advanced Data Residency_ subscription for all users in the _Tenant_.
+1. The Purview service Customer Data is provisioned in _Local Region Geography_ or _Future Local Region Geography_.
 
 ## Migration
 
@@ -35,11 +35,11 @@ Customer Data supporting Purview services is closely aligned with the Exchange O
 
 ## How can I determine Customer Data location?
 
-We are in the process of updating the actual data location in _Tenant_ Admin Center. When this change is complete you will be able to see the actual data location, for committed data, by navigating to Admin->Settings->Org Settings->Organization Profile->Data Location. Until that change is visible, you can view the Exchange Online data location information in order to understand where your committed data is stored for this service.
+We are in the process of updating the data location for supported Purview services in the Microsoft 365 admin center. When this change is complete, you will be able to see the _Current Geography_ and _Committed Geography_ location for committed Purview services data within the _Data Location Card_ by navigating to **Admin** > **Settings** > **Org settings** > **Organization profile** > **Data location**. Until that change is visible, you can view the Exchange Online data location information in order to understand where your committed data is stored for this service.
 
 ## Advanced Data Residency Eligible Services
 
-###### **Table 1: Eligible Microsoft Purview Services for Advanced Data Residency**
+###### **Table 1: Eligible Microsoft Purview Services for _Advanced Data Residency_**
 
 | Solution Area | Services | Components |
 |:-----|:-----|:----- |
@@ -51,13 +51,13 @@ We are in the process of updating the actual data location in _Tenant_ Admin Cen
 | Risk & Compliance |Data Lifecycle Management (DLM) |See [Data Lifecycle Management (DLM)](m365-dr-commitments.md#data-lifecycle-management-dlm) for specific commitments.|
 
 > [!NOTE]
-> The Microsoft Purview services list mentioned above includes all services covered as part of the Advanced Data Residency commitment as of November 2024. Additional Microsoft Purview services are not currently supported.
+> The Microsoft Purview services list mentioned above includes all services covered as part of the _Advanced Data Residency_ commitment as of November 2024. Additional Microsoft Purview services are not currently supported.
 
 ### Data Security - Data Loss Prevention (DLP)
 
 #### Summary
 
-ADR applies to the following services within Purview Information Protection, Data Loss Prevention (DLP):
+_ADR_ applies to the following services within Purview Information Protection, Data Loss Prevention (DLP):
 
 - Office 365 Data Loss Prevention (DLP) for emails and files
 - DLP for Teams chat
@@ -102,7 +102,7 @@ Refer to the [ADR Commitments page](m365-dr-commitments.md#information-barriers)
 
 #### Summary
 
-ADR applies to the following services within Purview Information Protection:
+_ADR_ applies to the following services within Purview Information Protection:
 
 #### Office Message Encryption (OME):
 
@@ -172,7 +172,7 @@ Refer to the [ADR Commitments page](m365-dr-commitments.md#audit-premium) for th
 
 #### Summary
 
-ADR applies to the following services within Purview Data lifecycle management:
+_ADR_ applies to the following services within Purview Data lifecycle management:
 
 #### Data Retention:
 
