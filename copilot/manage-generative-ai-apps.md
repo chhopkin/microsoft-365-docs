@@ -60,7 +60,7 @@ PROCEDURE
 
 ## Quick reference table: AI app risk mitigation and Microsoft solutions
 
-| Risk of unmanaged AI apps | Recommendations controls |
+| Risk of unmanaged AI apps | Recommendations  |
 |--|--|--|
 | Data leakage and intellecutal property (IP) exposure | Discover unscanctioned AI apps using [Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps)<br/><br/>Apply DLP policies using [Purview DLP](/purview/dlp-learn-about-dlp) |
 | Compliance vioiations | Using [Purview Data Security Posture Management for AI](/purview/dspm-for-ai?tabs=m365): <br/>- Monitor AI interactions<br/>- Log prompts and outputs<br/>-Enforce governance |
