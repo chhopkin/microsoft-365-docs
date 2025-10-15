@@ -74,6 +74,22 @@ You need to configure these systems with allowlists for the source IP addresses 
 
 For Workday integration, the ESS agent uses the RaaS (Reports as a service) endpoint with SOAP exchange. You must work with InfoSec to allowlist the ESS agent to communicate with this endpoint. If any more data security requirements need to be met, especially for SOAP exchange, work with your security specialists to increase the security for data in transit.
 
+## Set up SSO for Workday with Entra
+
+> [!NOTE]
+> You can ignore this step if SSO is already established for Workday with Entra.
+
+Refer to this documentation to set up SSO for Workday with Entra: [Microsoft Entra single sign-on (SSO) integration with Workday](/entra/identity/saas-apps/workday-tutorial).
+
+### Set up the Workday SOAP Connector in Entra
+
+1. Open [https://portal.azure.com](https://portal.azure.com).
+1. Navigate to **App registrations**.
+1. Locate the application created for the Workday SSO setup.
+1. Go to **Manage** > **Expose an API**.
+1. Under **Authorized client applications**, add the following Workday connector app ID:
+  - `4e4707ca-5f53-46a6-a819-f7765446e6f`
+
 ## Configure and prepare Workday reports
 
 The following configuration and preparation tasks need to be done in Workday by a Workday Administrator:
@@ -188,9 +204,12 @@ After Domain addition, run the following task to finalize the Domain policy chan
 
 Security configuration to support ESS Copilot features for full-time employees and managers:
 
-|Security Domain                    |Security Groups to be added in Security Domain |Integration Permissions: Put Access |Get Access|
-|-----------------------------------|-----------------------------------------------|------------------------------------|----------|
-|Worker Data: Public Worker Reports |1. Employee As Self</br> 2. Manager            |No                                  |Yes       |
+|Security domain                        |Security groups to be added in security domain |Integration permissions: Put access |Integration permissions: Get access|
+|---------------------------------------|-----------------------------------------------|------------------------------------|----|
+|Worker data: Public worker reports     |1. Employee as self </br>2. Manager            |No                                  |Yes |
+|Persona data: Home contact information |1. Employee as self                            |No                                  |Yes |
+|Person data: Work contact information  |1. Employee as self </br>2. Manager            |No                                  |Yes |
+|BP: Home contact change                |1. Employee as self                            |No                                  |Yes |
 
 ### Task 7 – Add ISSG_Generic_COPILOT to Integration Permissions
 
@@ -292,10 +311,17 @@ Workday report configuration provides the SOAP base URL.
 1. Select **Objects** > **Employee Self-Service Template Configuration** > **HRWorkdayHCMEmployeeGetContext**.
 1. Update the value with the correct name in the **Value** section.
 
-> [!NOTE]
-> The ESS agent uses a new Workday connector, which isn't the same as the one published in the Power Platform connectors list (Workday HCM - Connectors). The current connector used in the agent is Workday SOAP. Plan for any DLP policies to allowlist this connector in the environment where the agent is being deployed and tested.
-
 #### Step 4: Configure connections
+
+> [!IMPORTANT]
+> - There are a few active issues on the configuration page:
+>   - When a user configures one connection, all connections may appear to be connected.
+>   - Despite this, ensure that you create separate connections for each reference.
+> - Sometimes, after creating all connections, the **Next** button may not appear:
+>   - If this happens, close and reopen the installation to restart the process.
+> - Make sure to create the connections in the requested order:
+>   - If the **Next** button doesn't appear, it's easier to select the connections in the same order they were created.
+>   - Otherwise, references may be mistakenly mapped to each other.
 
 During the Workday Extension Pack installation process, you're prompted for the following connection configurations:
 
@@ -585,6 +611,42 @@ The Employee Self-Service agent Workday extension pack contains the following To
 #### Enable or disable topics and use cases
 
 You can toggle Topics on or off in the **Enabled** column.
+
+#### Custom attribute mapping
+
+By default, ESS Agent uses the Unique Principal Name (UPN) of the logged-in user as user credentials to be authenticated in Workday. If Workday isn't set up to use the UPN of the current logged-in user, and if another value, like Employee ID, was set up as a login username for Workday, then a custom attribute mapping configuration is needed for ESS Agent.
+
+|Example scenarios          |Unique Principal Name (UPN) in Intra |Login username in Workday |
+|---------------------------|-------------------------------------|--------------------------|
+|Default                    |alex.wilbur@contoso.com              |alex.wilbur@contoso.com   |
+|UPN > Employee ID          |alex.wilbur@contoso.com              |123456                    |
+|UPN > Name + initial sufix |alex.wilbur@contoso.com              |alexw                     |
+
+For custom attribute mapping, the **Workday Set User Context** needs to be updated:
+
+1. Edit: **Workday [System]** - **1: Set User Context**.
+2. Add a node between **Trigger** and **Call Workday Context Flow**.
+3. Select the plus (**+**) symbol > **Tool** > **Connector** > **Get My Profile (V2)**.
+4. Place the connector in between. XXX THIS MAKES NO SENSE.
+5. Edit **Call Workday context flow** to make use of the parameters from **Get My Profile connector**.
+6. The following example shows the default formula which is using the **UPN** value for Workday context. This value needs to be changed to the custom attribute being fetched from Entra:
+
+```vbscript
+"{""params""}:[{""key"":""{UPN}"",""value"":""" & Global.
+ESS_UserContext_UPN & ""},{""key"":""
+{As_Of_Effective_Date}"",
+```
+
+7. This is the example after editing:
+
+```vbscript
+"{""params"":[{""key"":{UPN}"",""value"":""" & 
+Topic_MyProfile_V2.mailNickname & """}, {""key"":""
+{As_Of_Effective_Date"",
+```
+
+8. In this example, mailNickName from MyProfile_V2, according to what is the primary identifier in customer environment, customers can pick the attribute. XXX I can't make sense of this.
+9. If the custom attribute isn't shown in MyProfile_V2, edit the **Get My Profile (v2)** object and add the required entra property in the inputs list as a comma-seprated field.
 
 ## Errors
 
