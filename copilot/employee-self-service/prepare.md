@@ -5,12 +5,11 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: scotv
 ms.reviewer: semani
-ms.date: 7/3/2025
+ms.date: 09/29/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
-robots: NOINDEX, NOFOLLOW
 ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn about the first stage in the deployment process for the Employee Self-Service agent.
@@ -21,7 +20,7 @@ appliesto:
 # Prepare to deploy the Employee Self-Service agent
 
 > [!NOTE]
-> The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
+> The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
 Preparation is the first step to deploying the Employee Self-Service (ESS) agent. You need to meet the [prerequisites](prerequisites.md). The following roles are required to prepare the agent for deployment.
 

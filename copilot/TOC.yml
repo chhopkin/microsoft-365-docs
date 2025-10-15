@@ -3,6 +3,16 @@ items:
   href: index.yml
 - name: Copilot release notes
   href: release-notes.md
+- name: Copilot Control System
+  items:
+  - name: Copilot Control System overview
+    href: copilot-control-system/overview.md
+  - name: Security and governance
+    href: copilot-control-system/security-governance.md
+  - name: Management controls
+    href: copilot-control-system/management-controls.md
+  - name: Measurement and reporting
+    href: copilot-control-system/measurement-reporting.md
 - name: Get started with Microsoft 365 Copilot
   items:
   - name: What is Microsoft 365 Copilot?
@@ -142,7 +152,7 @@ items:
   - name: Teams Rooms and Copilot overview
     href: /microsoftteams/rooms/copilot-admin-mtr?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fmicrosoft-365-copilot%2Fbreadcrumb%2Ftoc.json
   - name: Manage Copilot access for B2B members within multitenant organizations (MTO) in Teams
-    href: /microsoftteams/copilot-teams-multitenant-organization?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fmicrosoft-365-copilot%2Fbreadcrumb%2Ftoc.json
+    href: /microsoftteams/copilot-mto?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fmicrosoft-365-copilot%2Fbreadcrumb%2Ftoc.json
 - name: Microsoft 365 Copilot in Microsoft Viva
   items:
   - name: Introduction to Microsoft 365 Copilot in Viva
@@ -165,12 +175,16 @@ items:
     href: manage-public-web-access.md
   - name: Security for Microsoft 365 Copilot
     href: microsoft-365-copilot-ai-security.md
+  - name: Manage harmful content protection settings for Microsoft 356 Copilot Chat
+    href: harmful-content-protection-copilot-chat.md  
   - name: Apply principles of Zero Trust to Microsoft 365 Copilot
     href: /security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
   - name: Enterprise data protection
     href: enterprise-data-protection.md
   - name: Transparency Note
     href: microsoft-365-copilot-transparency-note.md
+  - name: Flow Builder privacy and data subject request (DSR) FAQ
+    href: flow-builder-privacy-data-subject-request-faq.md
 - name: Extensibility and building agents
   items:
   - name: Extend Microsoft 365 Copilot
@@ -209,8 +223,6 @@ items:
         href: copilot-tuning-troubleshooting-guardrails.md
       - name: Microsoft 365 admin center
         href: copilot-tuning-troubleshooting-mac.md
-    - name: Responsible AI FAQ
-      href: copilot-tuning-responsible-ai-faq.md
 - name: Service description and training for Microsoft 365 Copilot
   items:
   - name: Service description
@@ -221,3 +233,12 @@ items:
     href: https://m365.cloud.microsoft/copilot-prompts
   - name: Submit Copilot feedback to Microsoft
     href: provide-feedback.md
+- name: Responsible AI
+  items:
+  - name: Overview
+    href: responsible-ai/responsible-ai-overview.md
+  - name: FAQ for Copilot Tuning
+    href: responsible-ai/copilot-tuning-responsible-ai-faq.md
+  - name: FAQ for Flow Builder
+    href: responsible-ai/flow-builder-responsible-ai-faq.md
+
