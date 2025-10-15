@@ -70,7 +70,7 @@ Here are the components of Microsoft Entra application proxy.
 
 :::image type="content" source="../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-application-proxy.png" alt-text="Components of Microsoft Entra application proxy." lightbox="../media/empower-people-to-work-remotely-remote-access/empower-people-to-work-remotely-remote-access-application-proxy.png":::
 
-For more information, see this [overview of Microsoft Entra application proxy](/azure/active-directory/manage-apps/application-proxy).
+For more information, see this [overview of Microsoft Entra application proxy](/entra/identity/app-proxy/).
 
 > [!NOTE]
 > Microsoft Entra application proxy is not included with a Microsoft 365 subscription. You must pay for usage with a separate Azure subscription.
