@@ -92,7 +92,7 @@ MTO-specific Teams functionality requires an MTO to be set up. [External access]
 
 Old chats aren't merged when a user is converted from a guest to a member. The user still sees the chat thread with B2B members, however, sending new chat messages in that thread is blocked. All search entry points will redirect the user to chat with home tenant ID of the user from broader MTO group and chats going forward won't fragment.
 
-### Can MTO users create Teams and invite guests on other tenants? 
+### Can MTO users create teams and invite guests on other tenants?
 
 MTO users can create teams and invite guests from other tenants. 
 
