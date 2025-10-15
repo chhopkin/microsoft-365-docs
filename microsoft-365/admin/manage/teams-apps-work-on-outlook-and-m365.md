@@ -43,6 +43,8 @@ The following sections tell you more about the management tools available for th
 
 The following controls on the integrated apps portal in the Microsoft 365 Admin Center are only available to Global Admins. Check your credentials before you proceed.
 
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
+
 ## Controls for managing Teams apps that work on Outlook and the Microsoft 365 Copilot application
 
 As an admin, you can manage Teams apps that work on Outlook and the Microsoft 365 Copilot application in your organization as follows:

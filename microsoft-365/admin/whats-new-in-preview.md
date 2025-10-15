@@ -52,6 +52,8 @@ And if you'd like to know what's new with other Microsoft cloud services, check 
 - [Microsoft 365 updates](/OfficeUpdates/)
 - [How to check Windows release health](/windows/deployment/update/check-release-health)
 
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
+
 ## June 2025
 
 ### Copilot Search admin experience

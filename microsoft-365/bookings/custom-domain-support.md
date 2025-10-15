@@ -27,8 +27,9 @@ You can also configure a domain for specific users. When users with the custom O
 
 To use these features, you'll need to run commands using Exchange Online PowerShell with Global admin access. For more information on running Exchange Online cmdlets, see [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps&preserve-view=true).
 
->[!NOTE]
-> This change will not impact shared booking pages that have already been created. Only new shared booking pages will be created using the configured domain.
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
+
+This change will not impact shared booking pages that have already been created. Only new shared booking pages will be created using the configured domain.
 
 ## Specify default domain for entire organization
 
