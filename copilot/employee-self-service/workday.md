@@ -231,7 +231,7 @@ Security configuration to support ESS Copilot features for full-time employees a
 
 ## Install the Workday Extension Pack for ESS agent
 
-The ESS agent is designed to have separate extension packs for each third-party ISV. You need to install these extension packs before starting any configurations or customizations.
+The ESS agent is designed to have separate extension packs for each third-party ISV. You need to install the extension packs before starting any configurations or customizations.
 
 The following steps are required to install and enable the Workday Extension Pack:
 
