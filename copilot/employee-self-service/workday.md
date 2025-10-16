@@ -627,8 +627,8 @@ For custom attribute mapping, the **Workday Set User Context** needs to be updat
 1. Edit: **Workday [System]** - **1: Set User Context**.
 2. Add a node between **Trigger** and **Call Workday Context Flow**.
 3. Select the plus (**+**) symbol > **Tool** > **Connector** > **Get My Profile (V2)**.
-4. Place the connector in between. XXX THIS MAKES NO SENSE.
-5. Edit **Call Workday context flow** to make use of the parameters from **Get My Profile connector**.
+4. Ensure **Get my profile(v2)** sits between the **Trigger** and **Call Workday** context flow.
+5. Edit the **Call Workday** context flow to make use of the parameters from **Get My Profile connector**.
 6. The following example shows the default formula which is using the **UPN** value for Workday context. This value needs to be changed to the custom attribute being fetched from Entra:
 
 ```vbscript
@@ -645,8 +645,9 @@ Topic_MyProfile_V2.mailNickname & """}, {""key"":""
 {As_Of_Effective_Date"",
 ```
 
-8. In this example, mailNickName from MyProfile_V2, according to what is the primary identifier in customer environment, customers can pick the attribute. XXX I can't make sense of this.
-9. If the custom attribute isn't shown in MyProfile_V2, edit the **Get My Profile (v2)** object and add the required entra property in the inputs list as a comma-seprated field.
+8. In this example, mailNickName is the primary user identifier being used as the login username in Workday. That's why this attribute's chosen from My Profile_V2.
+9. By default, MyProfile_V2 exposes standard attributes such as displayName, mailNickname, mail, and a few other attributes. To view the complete list of attributes available, navigate to **Office 365 Users** > **Outputs** > **MyProfile_V2** > **View Data Type**. This displays a YAML object containing the list of entra properties available in copilot studio.
+    1. If the custom attribute isn't shown in MyProfile_V2, edit the **Get My Profile (v2)** object and add the required entra property in the inputs list as a comma-seprated field.
 
 ## Errors
 
