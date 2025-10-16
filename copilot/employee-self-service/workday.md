@@ -94,15 +94,15 @@ Refer to this documentation to set up SSO for Workday with Entra: [Microsoft Ent
 
 The following configuration and preparation tasks need to be done in Workday by a Workday Administrator:
 
-1. [Create X.509 public key](#task-1:-create-the-x509-public-key)
-1. [Edit tenant setup- security](#task-2:-edit-tenant-setup---security)
-1. [Create Generic User, Integration System User, and Security Group](#task-3:-create-generic-users-and-integration-system-user)
-1. [Manage authentication policies](#task-4:-manage-authentication-policies)
-1. [Register API client](#task-5:-register-api-client)
-1. [Security configuration](#task-6:-security-configuration)
+1. [Create the X.509 public key](#task-1-create-the-x509-public-key)
+1. [Edit tenant setup - security](#task-2-edit-tenant-setup---security)
+1. [Create Generic Users and Integration System User](#task-3-create-generic-users-and-integration-system-user)
+1. [Manage authentication policies](#task-4-manage-authentication-policies)
+1. [Register API Client](#task-5-register-api-client)
+1. [Security configuration](#task-6-security-configuration)
 1. [Activate Pending Security Policy Changes](#task-7-activate-pending-security-policy-changes)
-1. [Add ISSG_Generic_COPILOT to Integration Permissions](#task-8:-add-issg_generic_copilot-to-integration-permissions)
-1. [Create reports](#task-9:-create-reports)
+1. [Add ISSG_Generic_COPILOT to Integration Permissions](#task-8-add-issg_generic_copilot-to-integration-permissions)
+1. [Create Reports](#task-9-create-reports)
 
 > [!NOTE]
 > Skip tasks 1 and 2 if Workday & Entra SSO are already set up.
