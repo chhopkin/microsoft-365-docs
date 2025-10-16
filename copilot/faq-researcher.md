@@ -24,16 +24,32 @@ appliesto:
 
 ## General functionality
 
-| Questions | Answers |
-|---------|---------|
-| **What is Researcher Agent and how is it different from Copilot chat?** | Researcher is designed for deep, multi-step research tasks, unlike standard Copilot chat which handles quick Q&A.|
-| **Does Researcher Agent use the Archive Mailbox/Folder?** | Yes, archived emails are included as backfill when primary inbox lacks sufficient data. |
-| **Does Researcher provide citations for its answers** | Yes, building trust through source citations is a core design principle. |
-| **Is Researcher available in Sovereign Clouds** | To be released soon. |
-| **Can Researcher fetch data from Graph Connectors?** | Yes, and future updates will allow connector configuration. |
-| **How does Researcher interact with enterprise and web data?** | It uses Microsoft Graph, connectors, and Bing index for recent web data. |
-| **Can we restrict which websites or web content the Researcher agent can pull information from (aside from disabling web search entirely)?** | No. There isn’t a granular setting to block or allow specific websites. The only admin control over web content is the global _web search toggle_. If web search is enabled, Researcher will use Bing to search the web generally; if web search is disabled at the tenant level, Researcher will not use any web data. |
-| **Is the Researcher agent available on mobile devices (iOS and Android)?** | Yes, it is available on iOS and Android in the Copilot mobile app. |
+```yaml
+general_functionality:
+  - question: "What is Researcher Agent and how is it different from Copilot chat?"
+    answer: "Researcher is designed for deep, multi-step research tasks, unlike standard Copilot chat which handles quick Q&A."
+  
+  - question: "Does Researcher Agent use the Archive Mailbox/Folder?"
+    answer: "Yes, archived emails are included as backfill when primary inbox lacks sufficient data."
+  
+  - question: "Does Researcher provide citations for its answers"
+    answer: "Yes, building trust through source citations is a core design principle."
+  
+  - question: "Is Researcher available in Sovereign Clouds"
+    answer: "To be released soon."
+  
+  - question: "Can Researcher fetch data from Graph Connectors?"
+    answer: "Yes, and future updates will allow connector configuration."
+  
+  - question: "How does Researcher interact with enterprise and web data?"
+    answer: "It uses Microsoft Graph, connectors, and Bing index for recent web data."
+  
+  - question: "Can we restrict which websites or web content the Researcher agent can pull information from (aside from disabling web search entirely)?"
+    answer: "No. There isn't a granular setting to block or allow specific websites. The only admin control over web content is the global _web search toggle_. If web search is enabled, Researcher will use Bing to search the web generally; if web search is disabled at the tenant level, Researcher will not use any web data."
+  
+  - question: "Is the Researcher agent available on mobile devices (iOS and Android)?"
+    answer: "Yes, it is available on iOS and Android in the Copilot mobile app."
+```
 
 ## Administration and controls
 
