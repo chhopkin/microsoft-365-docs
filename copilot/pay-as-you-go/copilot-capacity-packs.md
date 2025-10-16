@@ -5,7 +5,7 @@ author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
 ms.update-cycle: 180-days
-ms.reviewer: issahn, clalissayi
+ms.reviewer: kkannampully, ronild
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-copilot
@@ -15,7 +15,7 @@ ms.collection:
 - essentials-overview
 appliesto:
 - ✅ Microsoft 365 Copilot
-ms.date: 09/18/2025
+ms.date: 10/15/2025
 ---
 
 # Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat
