@@ -1,28 +1,29 @@
 ---
-title: Deploy the Microsoft 365 LTI® app in Brightspace by D2L
+title: Deploy the Microsoft 365 LTI&reg; app in Brightspace by D2L
 description: Learn how to deploy the Microsoft 365 Learning Tool Interoperability (LTI) app in Brightspace by D2L.
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
-ms.date: 08/01/2025
+ms.date: 10/10/2025
 audience: admin
 ms.topic: how-to
-ms.service: msteams
-ms.subservice: teams-education
+ms.service: microsoft-365-education
 ms.collection: 
 - M365-modern-desktop
 - m365initiative-edu
 - tier2
+- m365-education
+- all-education
 ms.localizationpriority: medium
 ---
-# Deploy the Microsoft 365 LTI® app in Brightspace by D2L
+# Deploy the Microsoft 365 LTI&reg; app in Brightspace by D2L
 
-This guide provides steps for deploying the Microsoft 365 Learning Tool Interoperability® (LTI) app in Brightspace.
+This guide provides steps for deploying the Microsoft 365 Learning Tool Interoperability&reg; (LTI) app in Brightspace.
 
   :::image type="content" source="./media/brightspace.png" alt-text="Screenshot of Brightspace." border="true":::
 
 > [!IMPORTANT]
-> The person who deploys this integration should be an Administrator role in the learning management system (LMS). A person in your organization who is a Microsoft 365 Global Administrator is also needed to help complete the configuration of the app before first time use.
+> The person who deploys this integration should be an Administrator role in the learning management system (LMS). A person in your organization who is a Microsoft 365 Global Administrator is also needed to help complete the configuration of the app before first time use. [Learn more about administrator roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 >
 > By installing and using the Microsoft Education LTI app, educators and students can transmit grades to the LMS where the terms of use and privacy policy of that application apply.
 
@@ -42,7 +43,7 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
 1. Select **Microsoft 365 LTI** and then select **Next**.
 
-1. Enter a friendly **Registration** name (for example: "Microsoft 365 for Brightspace") and select **D2L/Brightspace** as the LMS platform (during Preview, ‘Other' can be selected). Select **Next**.
+1. Enter a friendly **Registration** name (for example: "Microsoft 365 for Brightspace") and select **D2L/Brightspace** as the LMS platform (during Preview, 'Other' can be selected). Select **Next**.
 
 1. You're given a list of keys that need to be added to a registration you'll do in Brightspace. Copy these names and values; they're needed to complete the next few steps.
 
@@ -65,7 +66,8 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
     | **Target Link URI** | Copy the **Target Link URL** value from the Microsoft registration. |
 
 1. Check the following **Extensions** options, and add the following **Substitution Parameters** to the registration:
-  :::image type="content" source="./media/brightspace-extensions-2.png" alt-text="Screenshot of Brightspace extensions." border="true":::
+
+    :::image type="content" source="./media/brightspace-extensions-2.png" alt-text="Screenshot of Brightspace extensions." border="true":::
 
 1. Select the **Register** button.
 
@@ -83,8 +85,9 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
   
     :::image type="content" source="./media/brightspace-security-settings.png" alt-text="Screenshot of security settings." border="true":::
 
-1. In Configuration Settings, select **Grades created by LTI will be included in Final Grade** and **Auto Create Grade Items**. Make sure that **Open as External Resource** is **not** checked.
-    :::image type="content" source="./media/brightspace-configuration-settings.png" alt-text="Screenshot of configuration settings." border="true":::
+1. In Configuration Settings, select **Grades created by LTI will be included in Final Grade**. Make sure that **Open as External Resource** is **not** checked.
+
+   :::image type="content" source="./media/brightspace-configuration-settings.png" alt-text="Screenshot of configuration settings." border="true":::
 
 1. Select **Add Org Units**. Select the orgs you wish to deploy to, or the **root org** or **all** units to deploy the app for all orgs by searching for the Organization name and selecting **All Descendants**
 
@@ -267,4 +270,4 @@ If you receive an error message regarding cookies being blocked, check your brow
 
 :::image type="content" source="./media/help-and-feedback.png" alt-text="Screenshot of link to send feedback for Microsoft 365 LTI." border="true":::
 
-Learning Tools Interoperability® (LTI®) is a trademark of the 1EdTech Consortium, Inc. (**[**1edtech.org**](https://1edtech.org)**)
+Learning Tools Interoperability&reg; (LTI&reg;) is a trademark of the 1EdTech Consortium, Inc. (**[**1edtech.org**](https://1edtech.org)**)

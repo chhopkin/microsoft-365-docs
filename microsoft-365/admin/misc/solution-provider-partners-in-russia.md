@@ -13,6 +13,7 @@ ms.localizationpriority: medium
 ms.collection:
 - Adm_O365
 - Adm_NonTOC
+- operations-pod
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - MET150

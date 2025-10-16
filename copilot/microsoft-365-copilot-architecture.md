@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: efrene
 author: Efrene
-manager: dansimp
+manager: scotv
 ms.date: 01/28/2025
 ms.update-cycle: 180-days
 audience: Admin
@@ -17,6 +17,7 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 - essentials-overview
+- operations-pod
 description: Learn how Microsoft 365 Copilot works within the service boundary of your Microsoft 365 tenant. And, how it uses Microsoft Graph to get your organization data based on user permissions. Copilot also honors Conditional Access and multifactor authentication (MFA).
 ms.custom: [copilot-learning-hub]
 appliesto:

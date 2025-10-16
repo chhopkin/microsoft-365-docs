@@ -2,9 +2,9 @@
 title: "Set up Microsoft 365 Copilot and assign licenses"
 f1.keywords:
 - NOCSH
-ms.author: aaroncz
-author: aczechowski
-manager: dansimp
+author: kwekuako
+ms.author: kwekua
+manager: scotv
 ms.date: 05/20/2025
 ms.update-cycle: 180-days
 audience: Admin
@@ -16,6 +16,7 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 - essentials-get-started
+- operations-pod
 description: Learn how IT administrators can prepare their organization for Microsoft 365 Copilot. Admin cans assign licenses, optimize SharePoint search, give enough access, prevent oversharing, use sensitivity labels, create a pilot group, and more.
 appliesto:
 - ✅ Microsoft 365 Copilot

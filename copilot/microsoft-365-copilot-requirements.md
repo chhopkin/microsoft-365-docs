@@ -2,9 +2,9 @@
 title: App and network requirements for Microsoft 365 Copilot admins
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
-manager: dansimp
+ms.author: efrene
+author: efrene
+manager: scotv
 ms.date: 05/20/2025
 ms.update-cycle: 180-days
 audience: Admin
@@ -15,6 +15,7 @@ ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 description: Enterprise and company IT admins can learn about the Microsoft 365 app and network requirements for Microsoft 365 Copilot. Admins must configure features in popular apps, like OneDrive, Teams, Loop, and Whiteboard that allow Copilot. Allow the network and endpoint URLs for Microsoft 365 Copilot to work properly in your network solution. Check your app privacy settings and run the Office Feature Updates task.
 ms.custom: [copilot-learning-hub]
 appliesto:
@@ -109,21 +110,12 @@ Baseline network configuration customers should:
 ✅ **Network endpoint requirements**:
 
 - Allow the [worldwide Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
-- Allow traffic to the following domains:
-
-  - `copilot.microsoft.com`, `*.copilot.microsoft.com`
-  - `*.bing.com`, `*.bingapis.com`
-
-  These network endpoints (domains) allow some Copilot scenarios to enable richer integrations, like Copilot experiences for the Web.
-
-- Allow the [Copilot Chat network requirements](/copilot/manage#network-requirements).
 
 ✅ **WebSockets (WSS) protocol requirements**:
 
 Verify that your network supports full WSS connectivity from user devices running Microsoft 365 applications to the following domains:
 
 - Microsoft 365 Copilot enterprise experiences: `*.cloud.microsoft`, `*.office.com`
-- Other Copilot experiences, including consumer: `*.bing.com`, `copilot.microsoft.com`, `*.copilot.microsoft.com`
 
 Several Copilot integrations rely on WebSockets (WSS) to deliver a streamlined user experience. Some customer networks might not be configured to handle WSS connections properly, which can result in Copilot application failures. Typical network configurations that affect WSS include:
 
@@ -141,11 +133,11 @@ When you review and implement the recommended network configurations, consider a
 
 Microsoft plans to consolidate Copilot experiences for Microsoft 365 under the `*.cloud.microsoft` domain. And, Copilot network requirements and associated required customer network configurations can be further simplified.
 
-To learn more, see [Unified cloud.microsoft domain for Microsoft 365 apps](/microsoft-365/enterprise/cloud-microsoft-domain).
+For more information, see [Unified cloud.microsoft domain for Microsoft 365 apps](/microsoft-365/enterprise/cloud-microsoft-domain).
 
 ## Related content
 
 - [Microsoft 365 Copilot setup guide in the Microsoft admin center](https://admin.microsoft.com/Adminportal/Home?Q=learndocs#/modernonboarding/microsoft365copilotsetupguide)
-- [Copilot Prompt Gallery](https://copilot.cloud.microsoft/prompts)
+- [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
 - [Microsoft 365 Copilot - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/microsoft-365-copilot/ct-p/Microsoft365Copilot)
 - [Microsoft 365 Copilot adoption guide and overview for IT admins](microsoft-365-copilot-reports-for-admins.md)

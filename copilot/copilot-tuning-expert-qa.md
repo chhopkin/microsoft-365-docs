@@ -1,10 +1,12 @@
 ---
 title: Configure Copilot Tuning for expert Q&A
-author: kwekuako
-ms.author: kwekua
-manager: dansimp
+ms.author: lauragra
+author: lauragra
+manager: calvind
+ms.collection: operations-pod
 ms.reviewer: jwolk
 ms.date: 07/16/2025
+ms.service: microsoft-365-copilot
 ms.topic: how-to
 ms.localizationpriority: medium
 description: Learn how to use Copilot Tuning to build an AI model for expert question & answer (Q&A).

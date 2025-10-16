@@ -2,9 +2,9 @@
 title: "Navigate and utilize the reports in Microsoft 365 usage analytics"
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
+ms.author: efrene
 author: efrene
-manager: dansimp
+manager: scotv
 ms.date: 02/19/2020
 audience: Admin
 ms.topic: article
@@ -16,6 +16,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+- operations-pod
 ms.custom: AdminSurgePortfolio
 search.appverid:
 - BCS160

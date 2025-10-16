@@ -16,6 +16,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+- operations-pod
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -48,7 +49,7 @@ When you convert a user's mailbox to a shared mailbox, all of the existing email
 
 - To put an In-Place Hold or a Litigation Hold on a shared mailbox, you must assign an Exchange Online Plan 2 license *or* an Exchange Online Plan 1 license and an Exchange Online Archiving add-on license to the shared mailbox.
 
-## Convert a private mailbox to a shared maailbox
+## Convert a private mailbox to a shared mailbox
 
 1. In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.
 
@@ -102,4 +103,4 @@ For more info about converting a user mailbox to a shared mailbox in an Exchange
 
 [About shared mailboxes](about-shared-mailboxes.md) (article)\
 [Create a shared mailbox](create-a-shared-mailbox.md) (article)\
-[Configure a shared mailbox](configure-a-shared-mailbox.md) (article)\
+[Configure a shared mailbox](configure-a-shared-mailbox.md) (article)

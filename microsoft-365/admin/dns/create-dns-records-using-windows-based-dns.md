@@ -18,6 +18,7 @@ ms.collection:
 - Adm_O365
 - Adm_NonTOC
 - Adm_O365_Setup
+- operations-pod
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet

@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: dansimp
+manager: scotv
 ms.date: 05/12/2025
 audience: Admin
 ms.topic: overview
@@ -15,9 +15,11 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+- operations-pod
 ms.custom:
 - adminvideo
 - AdminTemplateSet
+- GAUpdates
 search.appverid:
 - MET150
 - MOE150
@@ -62,7 +64,9 @@ Check out this and other videos on our [YouTube channel](https://go.microsoft.co
 
 People who have the following permissions can see the reports:
 
-- Global admins: We recommend that only a few people in your company have this role. It reduces the risk to your business.
+- Global admins
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 - Exchange admins
 
@@ -94,7 +98,8 @@ Depending on your subscription, here are the available reports in all environmen
 |[Microsoft browser usage](browser-usage-report.md)|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>1</sup>|
 |[Microsoft 365 Copilot readiness report](microsoft-365-copilot-readiness.md)|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
 |[Microsoft 365 Copilot usage report](microsoft-365-copilot-usage.md)|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
-|[Microsoft Copilot usage report](microsoft-copilot-usage.md)|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
+|[Microsoft 365 Copilot Chat usage report](microsoft-copilot-usage.md)|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
+|[Copilot Search usage report](microsoft-365-copilot-search-usage.md)|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>2</sup>|
 |[Email activity](email-activity-ww.md)|Yes|Yes|Yes|Yes|Yes|
 |[Email apps usage](email-apps-usage-ww.md)|Yes|Yes|Yes|Yes|Yes|
 |[Mailbox usage](mailbox-usage.md)|Yes|Yes|Yes|Yes|Yes|

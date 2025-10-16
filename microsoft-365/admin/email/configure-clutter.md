@@ -16,6 +16,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+- operations-pod
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -30,7 +31,7 @@ Check out [Using PowerShell with Exchange Online](/powershell/exchange/exchange-
   
 ## Turn Clutter on using Exchange PowerShell
 
-You can enable Clutter manually for a mailbox by running the [Set-Clutter](/powershell/module/exchange/set-clutter) cmdlet. You can also view Clutter settings for mailboxes in your organization by running the [Get-Clutter](/powershell/module/exchange/get-clutter) cmdlet.
+You can enable Clutter manually for a mailbox by running the [Set-Clutter](/powershell/module/exchangepowershell/set-clutter) cmdlet. You can also view Clutter settings for mailboxes in your organization by running the [Get-Clutter](/powershell/module/exchangepowershell/get-clutter) cmdlet.
   
 Turn on Clutter for a single user named Allie Bellew:
 
@@ -38,13 +39,13 @@ Turn on Clutter for a single user named Allie Bellew:
 
 ## Turn Clutter off using Exchange PowerShell
 
-You can disable Clutter manually for a mailbox by running the [Set-Clutter](/powershell/module/exchange/set-clutter) cmdlet. You can also view **Clutter** settings for mailboxes in your organization by running the [Get-Clutter](/powershell/module/exchange/get-clutter) cmdlet.
+You can disable Clutter manually for a mailbox by running the [Set-Clutter](/powershell/module/exchangepowershell/set-clutter) cmdlet. You can also view **Clutter** settings for mailboxes in your organization by running the [Get-Clutter](/powershell/module/exchangepowershell/get-clutter) cmdlet.
   
 Turn off Clutter for a single user named Allie Bellew:
 
 `Set-Clutter -Identity "Allie Bellew" -Enable $false`
 
-If you use PowerShell to bulk create your users, then you need to run [Set-Clutter](/powershell/module/exchange/set-clutter) against each user's mailbox to manage Clutter.
+If you use PowerShell to bulk create your users, then you need to run [Set-Clutter](/powershell/module/exchangepowershell/set-clutter) against each user's mailbox to manage Clutter.
   
 ## When does the Clutter On/Off switch appear to users in Outlook on the web?
 

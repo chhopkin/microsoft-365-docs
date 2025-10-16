@@ -5,8 +5,8 @@ metadata:
   - NOCSH
   author: cmcatee-MSFT
   ms.author: cmcatee
-  manager: dansimp
-  ms.reviewer: nicholak
+  manager: scotv
+  ms.reviewer: padeshmukh
   audience: Admin
   ms.topic: faq
   ms.service: microsoft-365-business
@@ -16,6 +16,7 @@ metadata:
   - Tier1
   - scotvorg
   - M365-subscription-management
+  - operations-pod
   ms.custom: 
   - commerce_ssp
   - AdminSurgePortfolio
@@ -120,7 +121,10 @@ sections:
           Global and billing admins can see subscriptions bought through self-service purchase in **Billing** > **Your products** in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>. They can filter the products list to only show the subscriptions purchased through central procurement, or to include subscriptions bought through self-service purchase.
           
           Admins can see the product, purchaser name, subscription purchased, expiry date, order history, the purchase price, and assigned users.
-          
+
+          > [!IMPORTANT]
+          > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About administrator roles in the Microsoft 365 admin center](../../admin/add-users/about-admin-roles.md).
+
   - name: Support and training
     questions:
       - question: |

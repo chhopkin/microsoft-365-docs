@@ -16,6 +16,7 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
+- operations-pod
 ms.custom:
 - commerce_subscriptions
 - AdminTemplateSet
@@ -23,7 +24,7 @@ ms.custom:
 search.appverid: MET150
 ROBOTS: NOIINDEX, NOFOLLOW
 description: "Learn about end-of-sale products in the Microsoft 365 admin center."
-ms.date: 05/02/2025
+ms.date: 10/02/2025
 ---
 
 # Understand end-of-sale products in the Microsoft 365 admin center

@@ -5,14 +5,13 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 7/3/2025
+ms.date: 09/29/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
-robots: NOINDEX, NOFOLLOW
 description: Learn about the customization stage in the deployment process for the Employee Self-Service agent.
 appliesto:
 - ✅ Microsoft 365 Copilot
@@ -21,7 +20,7 @@ appliesto:
 # Customize the Employee Self-Service agent
 
 >[!NOTE]
->The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
+>The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
 Customization is how you make the Employee Self-Service (ESS) agent work in the best way to suit your organization's needs.
 
@@ -127,7 +126,7 @@ Tips on writing this disclaimer:
 
 The Employee Self-Service agent comes with several out-of-the-box Topics to get you started. The maker can customize each of these topics. These topics can be tested before publishing them to the broader set of users. These customizations reflect in all surfaces where the agent is published.
 
-The following Topics are available in the current package version 1.0.0.69:
+The following Topics are available in the current package version:
 
 |Topic |Type |Trigger |Enabled (default) |When to use |
 |------|-----|--------|------------------|------------|
@@ -156,20 +155,22 @@ Terms to know:
 
 **Default:** On
 
+**Topic JTBD:** Redirect User Context retrieval topics and attributes from other data sources to improve response relevancy.
+
 **Maker JTBD:** Maker needs to add redirection of the User Context retrieval topics from different ESS agent ISV packages. Or, if Makers configure other Topics to retrieve User Context attributes from other systems, then they should also be added as Topic redirections in this Topic.
 
 **Maker - What to customize:** </br>
 **Requirement to use:** None.
 
 1. After message disclaimer (blank). Add message or delete it if you don't want the disclaimer to appear.
-1. Official source badge - no configuration required. You can use this setting in its default state.
+1. Official source badge - no configuration required. Use in its default state.
 
 |Step |Action |Expected result |
 |-----|-------|----------------|
 |1    |Open the ESS agent in Copilot Studio. |ESS agent available to customize. |
 |2    |Navigate to **Topics** to see the list of Topics. |Shows Custom Topics. |
 |3    |Select **[Admin] User Context - Setup**. |Opens custom topic in the design canvas. |
-|4    |Add a redirect to another Topic where it sets the user context, such as one from an ISV. |Maker able to add a custom disclaimer message. |
+|4    |Add a redirect to another Topic where it sets the user context, such as one from an ISV. |Maker able to set user context. |
 |5    | Save the changes. |Your changes are saved. |
 
 #### [System] Response Preparation
@@ -189,7 +190,7 @@ Terms to know:
 **Requirement to use:** None.
 
 1. After message disclaimer (blank). Add message or delete it if you don't want the disclaimer to appear.
-1. Official source badge - no configuration required. You can use this setting in its default state. |
+1. Official source badge - no configuration required. Use in its default state.
 
 |Step |Action |Expected result |
 |-----|-------|----------------|

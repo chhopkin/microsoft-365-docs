@@ -16,13 +16,14 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
+- operations-pod
 search.appverid: MET150
 description: "Learn about information specifically for Microsoft 365 for business in Italy."
 ms.custom:
 - commerce_billing
 - admindeeplinkMAC
 monikerRange: o365-worldwide
-ms.date: 03/30/2025
+ms.date: 09/29/2025
 ---
 
 # Billing information for Microsoft 365 for business in Italy

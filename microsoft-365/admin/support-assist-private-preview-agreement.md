@@ -14,6 +14,7 @@ ms.collection:
 - Adm_O365
 - scotvorg
 - must-keep
+- operations-pod
 ms.custom:
 - asset-status-exempt-cela
 feedback_system: None

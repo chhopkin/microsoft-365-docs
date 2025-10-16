@@ -16,6 +16,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
+- operations-pod
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -31,6 +32,8 @@ If you turn this setting on, those apps will ask users for permission to access 
 A user can give access only to apps they own that access their Microsoft 365 information. They can't give an app access to any other user's information.
 
 ## Turning user consent on or off
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 Contact your Global Administrator to edit the user consent policy in the Microsoft Entra portal by following the steps in [Configure how users consent to applications](/entra/identity/enterprise-apps/configure-user-consent).
 

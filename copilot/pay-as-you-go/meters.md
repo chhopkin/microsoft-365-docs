@@ -1,12 +1,10 @@
 ---
 title: Meters for Microsoft 365 Copilot pay-as-you-go for IT admins
-description: Enterprise and company IT administrators can learn about the meters for the pay-as-you-go service for Microsoft 365 Copilot, including Copilot Chat.
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
-ms.date: 06/16/2025
-ms.update-cycle: 180-days
+manager: scotv
 ms.reviewer: nishanair
+ms.update-cycle: 180-days
 audience: Admin
 ms.topic: get-started
 ms.service: microsoft-365-copilot
@@ -15,9 +13,12 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 - essentials-overview
+- operations-pod
 ms.custom: [copilot-learning-hub]
 appliesto:
 - ✅ Microsoft 365 Copilot
+description: Enterprise and company IT administrators can learn about the meters for the pay-as-you-go service for Microsoft 365 Copilot, including Copilot Chat.
+ms.date: 10/09/2025
 ---
 
 # Meters for Microsoft 365 Copilot pay-as-you-go for IT admins

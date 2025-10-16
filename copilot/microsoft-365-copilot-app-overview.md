@@ -1,9 +1,9 @@
 ---
 title: What is the Microsoft 365 Copilot app for IT admins?
 description: Enterprise and company IT admins can use the Microsoft 365 Copilot app to help users be more productive at work or school. The app is available as a website and an app that can be installed on Windows, Android, and iOS devices. Learn more about the app's benefits and compare the features available with a Microsoft 365 subscription and a Microsoft 365 Copilot license.
-author: MandiOhlinger
+author: efrene
 ms.author: efrene
-manager: dansimp
+manager: scotv
 ms.date: 05/19/2025
 ms.update-cycle: 180-days
 ms.topic: overview
@@ -14,6 +14,7 @@ ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 ms.custom: 
 ms.reviewer: libbymc
 search.appverid: MET150

@@ -1,8 +1,8 @@
 ---
 title: "Microsoft 365 admin center Microsoft 365 Copilot readiness"
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 12/13/2024
 ms.update-cycle: 180-days
 audience: Admin
@@ -17,7 +17,9 @@ ms.collection:
 - Adm_NonTOC
 - m365copilot
 - magic-ai-copilot
-ms.custom: AdminSurgePortfolio
+- operations-pod
+ms.custom:
+- GAUpdates
 search.appverid:
 - BCS160
 - MST160
@@ -101,6 +103,8 @@ The "Suggested candidate for Copilot" column in the Microsoft 365 Copilot Readin
 ## Make the user-specific data anonymous
 
 To make the data in the Microsoft 365 Copilot report anonymous, you must be a global administrator. This will hide identifiable information (using MD5 hashes) such as display name, email, and Microsoft Entra Object ID in report and their export.
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 1. In Microsoft 365 admin center, go to the **Settings** \> **Org Settings**, and under **Services** tab, choose **Reports**.
 

@@ -12,6 +12,7 @@ ms.subservice: m365-commerce-volume-licensing
 ms.collection:
 - Tier1
 - scotvorg
+- operations-pod
 ms.custom:
 - commerce_vl
 - AdminTemplateSet
@@ -35,6 +36,8 @@ Microsoft Open Value and Open Value Subscription offer the ability to add online
 
 - You must have a volume licensing (VL) role to access the VL pages in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
 - You must have the Global Administrator role on the organization's online services tenant to activate online service activation (OSA) keys.
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 ## Activate services from the online service activation email
 

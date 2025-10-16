@@ -4,25 +4,26 @@ description: Learn how to deploy the Microsoft 365 Learning Tool Interoperabilit
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
-ms.date: 07/21/2025
+ms.date: 08/21/2025
 audience: admin
 ms.topic: how-to
-ms.service: msteams
-ms.subservice: teams-education
+ms.service: microsoft-365-education
 ms.collection: 
 - M365-modern-desktop
 - m365initiative-edu
 - tier2
+- m365-education
+- all-education
 ms.localizationpriority: medium
 ---
-# Deploy the Microsoft 365 LTI® app in PowerSchool Schoology Learning
+# Deploy the Microsoft 365 LTI&reg; app in PowerSchool Schoology Learning
 
-This guide provides steps for deploying the Microsoft 365 Learning Tool Interoperability® (LTI®) app in Schoology.
+This guide provides steps for deploying the Microsoft 365 Learning Tool Interoperability&reg; (LTI&reg;) app in Schoology.
 
 :::image type="content" source="./media/schoology.png" alt-text="Screenshot of Schoology." border="true":::
 
 > [!IMPORTANT]
-> The person who deploys this integration should be an Administrator role in the learning management system (LMS). A person in your organization who is a Microsoft 365 Global Administrator is also needed to help complete the configuration of the app before first time use.
+> The person who deploys this integration should be an Administrator role in the learning management system (LMS). A person in your organization who is a Microsoft 365 Global Administrator is also needed to help complete the configuration of the app before first time use. [Learn more about administrator roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 By installing and using the Microsoft Education LTI app, educators and students can transmit grades to the LMS where the terms of use and privacy policy of that application apply.
 
@@ -34,7 +35,7 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
 ## One-time setup by an LMS administrator
 
-1. Access the **Teams Assignments** app in the **Schoology** [**App Center**](https://app.schoology.com/apps) by copying this direct link into a browser: `https://_\<apps>_.schoology.com/apps/profile/7876809197` and replacing the _\<apps>_ portion of the URL with your organizations custom subdomain (for example: districtXYZ.schoology.com/apps/profile/7876809197). Then browse the app store profile.
+1. Access the **Microsoft Education** app in the **Schoology** [**App Center**](https://app.schoology.com/apps) by copying this direct link into a browser: `https://<apps>.schoology.com/apps/profile/7876809197` and replacing the `<apps>` portion of the URL with your organization's custom subdomain (for example: districtXYZ.schoology.com/apps/profile/7876809197). Then browse the app store profile.
 
 1. Select **Login** in the upper right to log into your Schoology Learning instance as an administrator with access to install and configure the app.
 
@@ -44,14 +45,14 @@ To fully integrate with your LMS environment and perform tasks on behalf of user
 
 1. When asked if this app should be installed for your entire organization or just for you, select **Add to Organization**, and you're redirected to the **Organization Apps** page to complete the configuration.
 
-1. From the [**Organization Apps list**](https://app.schoology.com/apps/school_apps), locate the **Teams Assignments** app and select the **Install/Remove** button.
+1. From the [**Organization Apps list**](https://app.schoology.com/apps/school_apps), locate the **Microsoft Education** app and select the **Install/Remove** button.
 
-1. To install the app for all courses, choose the **All Courses** checkbox and the **Course Admins Only** checkbox.
+1. To install the app for all courses, choose the **All Courses** checkbox.
 
 > [!NOTE]
 > If you choose not to install the app for all courses, then Course Admins must install the app for themselves by either:
 >
-> - Selecting the **Install Your App(s)** link at the bottom of the course left rail navigation menu, and then selecting the **Teams Assignments** app to install.
+> - Selecting the **Install Your App(s)** link at the bottom of the course left rail navigation menu, and then selecting the **Microsoft Education** app to install.
 > - Going to the [**Organization Apps list**](https://app.schoology.com/apps/school_apps), selecting the **Install/Remove** button, and choosing the courses in which to install the app.
 
 ## First-time Configuration by an LMS Administrator
@@ -67,7 +68,7 @@ You must launch the app for the first time as a user with the **System Admin** r
 On first access, users must sign in using their Microsoft 365 (Microsoft Entra) account.
 
 Learn more about Microsoft 365 LTI application scenarios for Instructors and Students
-<!-- -->
+
 ## Browser settings
 
 - Cookies should be allowed for Microsoft apps.
@@ -84,4 +85,4 @@ If you receive an error message regarding cookies being blocked, check your brow
 
 :::image type="content" source="./media/help-and-feedback.png" alt-text="Screenshot of link to send feedback for Microsoft 365 LTI." border="true":::
 
-Learning Tools Interoperability® (LTI®) is a trademark of the 1EdTech Consortium, Inc. (**[**1edtech.org**](https://1edtech.org)**).
+Learning Tools Interoperability&reg; (LTI&reg;) is a trademark of the 1EdTech Consortium, Inc. (**[**1edtech.org**](https://1edtech.org)**).

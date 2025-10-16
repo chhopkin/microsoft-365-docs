@@ -3,7 +3,8 @@ title: Manage custom skills
 description: Learn how to modify and import or export custom skills.
 author: kwekuako
 ms.author: kwekua
-manager: dansimp
+ms.collection: operations-pod
+manager: scotv
 ms.service: microsoft-365-copilot
 ms.topic: article
 ms.date: 05/29/2025
@@ -29,7 +30,12 @@ Follow these steps to either import your custom skills library for the first tim
 
 2. Select **Download library template** and **Download mapping template.**
 
-3. Open the template files you downloaded. Follow the steps mentioned in [Custom skills files](/viva/skills/skills-get-started) to create your skills library and for mapping files.
+3. Open the template files you downloaded. Follow the steps mentioned in the template file to curate your custom skills library.
+
+   > [!IMPORTANT]
+   > **Limits:** Custom skills library needs to contain at least 20, but not more than 5000 custom skills. The property values for **Name.en_US** has a max string length of 50 characters, and **Description.en_US** has a max string length of 200 characters.
+   >
+   > Currently, only the English language **en_US** Name and Description properties are supported for custom skills.
 
 4. Paste the file paths for both files into the **Skills library file path** and **Skill mapping file path** fields.
 

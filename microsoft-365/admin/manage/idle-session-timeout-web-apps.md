@@ -14,13 +14,12 @@ ms.collection:
 - Tier3
 - scotvorg
 - Adm_TOC
+- operations-pod
 description: "Set how long user's session lasts in Microsoft 365 before they're timed out."
 ---
 
 # Idle session timeout for Microsoft 365
 
-> [!IMPORTANT]
-> Idle session timeout isn't available for Microsoft 365 operated by 21Vianet.
 
 Use idle session timeout to configure a policy on how long users are inactive in your organization before they're signed out of Microsoft 365 web apps. This helps protect sensitive company data and adds another layer of security for end users who work on noncompany or shared devices.
 
@@ -50,6 +49,14 @@ When a user is inactive in Microsoft 365 web apps for the time period you chose,
 
 ## Details about idle session timeout
 
+- Idle session timeout is supported in:
+
+    - Worldwide
+ 
+    - US Government Clouds
+ 
+    - Microsoft 365 operated by 21Vianet
+
 - The following Microsoft 365 web apps are supported. More web apps will be added soon.
 
     - Outlook Web App
@@ -68,7 +75,9 @@ When a user is inactive in Microsoft 365 web apps for the time period you chose,
 
     - Microsoft 365 Defender Portal
 
-    - Microsoft Purview portal
+    - Microsoft Purview Portal
+ 
+    - Sharepoint Admin Center
     
 - Activity refers to any client-side user interaction happening in the context of the web app. For example, mouse clicks and keyboard presses.  
 
@@ -133,7 +142,9 @@ The following Microsoft 365 web apps are supported.
 
 - Microsoft 365 Defender Portal
 
-- Microsoft Purview portal
+- Microsoft Purview Portal
+
+- Sharepoint Admin Center
 
 If you're working on a different web app with the same account, the activity in that web app isn't applied to the idle session timeout.
 
