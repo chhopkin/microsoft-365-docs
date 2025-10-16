@@ -14,6 +14,7 @@ ms.collection:
 - magic-ai-copilot
 - must-keep
 - trust-pod
+- d-star
 hideEdit: true
 ms.update-cycle: 180-days
 ms.date: 09/05/2025

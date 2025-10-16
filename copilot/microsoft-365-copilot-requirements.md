@@ -2,8 +2,8 @@
 title: App and network requirements for Microsoft 365 Copilot admins
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: efrene
+author: efrene
 manager: scotv
 ms.date: 05/20/2025
 ms.update-cycle: 180-days
