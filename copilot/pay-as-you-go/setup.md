@@ -3,7 +3,7 @@ title: Set up Microsoft 365 Copilot pay-as-you-go for IT admins
 description: Enterprise and company IT administrators can use the Microsoft 365 admin center to set up the Microsoft 365 Copilot pay-as-you-go feature. Get step-by-step instructions on setting up a billing policy, connecting the billing policy to the pay-as-you-go Copilot service, and removing pay-as-you-go.
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.update-cycle: 180-days
 ms.reviewer: nishanair
 audience: Admin
@@ -55,7 +55,7 @@ To set up pay-as-you-go, you must have the following prerequisites:
 
 ## Add a billing policy
 
-To set up pay-as-you-go billing for Microsoft 365 Copilot, you must first add a billing policy in the Microsoft 365 admin center. You can create up to 10 billing policies for your tenant.
+To set up pay-as-you-go billing for Microsoft 365 Copilot, you must first add a billing policy in the Microsoft 365 admin center. You can create up to 50 billing policies for your tenant.
 
 1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to the **Copilot** > **Billing & usage** page.
 2. On the **Billing policies** tab, select **Add a billing policy**.
