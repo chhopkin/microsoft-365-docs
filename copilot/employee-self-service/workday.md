@@ -646,7 +646,7 @@ Topic_MyProfile_V2.mailNickname & """}, {""key"":""
 {As_Of_Effective_Date"",
 ```
 
-8. In this example, mailNickName is the primary user identifier being used as the login username in Workday, which is why this attribute's chosen from My Profile_V2.
+8. In this example, mailNickName is the primary user identifier being used as the login username in Workday, which is why you choose this attribute from My Profile_V2.
 9. By default, MyProfile_V2 exposes standard attributes such as displayName, mailNickname, mail, and a few other attributes. To view the complete list of attributes available, navigate to **Office 365 Users** > **Outputs** > **MyProfile_V2** > **View Data Type**. This entry displays a YAML object containing the list of entra properties available in Copilot Studio.
     1. If the custom attribute isn't shown in MyProfile_V2, edit the **Get My Profile (v2)** object and add the required entra property in the inputs list as a comma-separated field.
 
