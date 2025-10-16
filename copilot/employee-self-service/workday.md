@@ -543,7 +543,7 @@ This example is a full sample template:
 
 **RaaS Template Setup**
 
-If you need a new Template for an RaaS scenario other than context, the Template requires first-time setup to work.
+If you need a new Template for a RaaS scenario other than context, the Template requires first-time setup to work.
 
 Update the following fields in the < endpoint > node:
 
