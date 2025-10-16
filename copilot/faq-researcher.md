@@ -1,34 +1,23 @@
----
-title: Frequently asked questions related to Microsoft 365 copilot
-description: Frequently asked questions related to Microsoft 365 Copilot Researcher agent.
-f1.keywords:
-- NOCSH
-ms.author: vpattnaik
-author: vpattnai
-manager: dansimp
-ms.date: 10/13/2025
-audience: Admin
-ms.reviewer: mandia
-ms.topic: overview
-ms.service: microsoft-365-copilot
-ms.localizationpriority: medium
-ms.collection: 
-- m365copilot
-- trust-pod
-ms.custom: [copilot-learning-hub]
-appliesto:
-  - ✅ Microsoft 365 Copilot
----
+### YamlMime:FAQ
+metadata:
+  title: "Microsoft 365 Copilot Researcher Agent frequently asked questions"
+  description: "Microsoft 365 Copilot Researcher Agent FAQ."
+  author: vpattnai
+  ms.author: vpattnaik
+  ms.service: microsoft-365-copilot
+  ms.topic: faq
+  ms.date: 10/16/2025
 
-# How Researcher works in Microsoft 365 Copilot
+title: "Microsoft 365 Copilot Researcher Agent frequently asked questions"
+summary: Researcher is an advanced AI Copilot agent in Microsoft 365 designed to tackle complex, multi-step questions by acting as a deep research assistant.
 
-```yaml
 sections:
-  - name: General functionality
+
+- name: General functionality
     questions:
       - question: What is Researcher Agent and how is it different from Copilot chat?
         answer: Researcher is designed for deep, multi-step research tasks, unlike standard Copilot chat which handles quick Q&A.
-      
+
       - question: Does Researcher Agent use the Archive Mailbox/Folder?
         answer: Yes, archived emails are included as backfill when primary inbox lacks sufficient data.
       
@@ -49,67 +38,101 @@ sections:
       
       - question: Is the Researcher agent available on mobile devices (iOS and Android)?
         answer: Yes, it is available on iOS and Android in the Copilot mobile app.
-```
 
-## Administration and controls
+  - name: Administration and controls
+    questions:
+    - question: How can administrators disable the Researcher Agent?
+        answer: "Disable Researcher Agent for all users in the tenant or disable all Copilot agents (including Researcher) for specific users by turning off Copilot Extensibility. Researcher Agent cannot be selectively blocked for an individual user or group. See [Manage Microsoft 365 Copilot agents in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps)"
 
-| Questions | Answers |
-|---------|---------|
-| **How can administrators disable the Researcher Agent?** | <ul><li>Disable Researcher Agent for all users in the tenant</li><li>Disable all Copilot agents (including Researcher) for specific users by turning off Copilot Extensibility</li></ul>Researcher Agent cannot be selectively blocked for an individual user or group. See [Manage Microsoft 365 Copilot agents in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps) |
-| **How can users disable Researcher?** | Answer to be added |
-| **If the Researcher agent is automatically enabled (and even pre-pinned) for users, can an individual user remove or hide it?** | No. Researcher is a core part of the Microsoft 365 Copilot experience and users cannot independently remove or unpin it. In Microsoft’s internal deployment, it is pre-installed and pinned for all users, and external tenants see it auto-enabled in the Copilot app’s agent list. |
-| **Is there any report or dashboard available for admins to track the usage of the Researcher (and Analyst) agent in their tenant?** | Not yet. As of now, Microsoft hasn’t provided a specific usage reporting tool for Copilot agents like Researcher and Analyst. |
+      - question: How can users disable Researcher?
+        answer: Answer to be added
 
-## Web search integration
+      - question: If the Researcher agent is automatically enabled (and even pre-pinned) for users, can an individual user remove or hide it?
+        answer: No. Researcher is a core part of the Microsoft 365 Copilot experience and users cannot independently remove or unpin it. In Microsoft's internal deployment, it is pre-installed and pinned for all users, and external tenants see it auto-enabled in the Copilot app's agent list.
 
-| Questions | Answers |
-|---------|---------|
-| **Is Web Search a prerequisite for Researcher Agent?** | No, web search is not required, as users can scope their queries independently. However, the model was trained on web data available up to 2024. As a result, its responses reflect information from that period, consistent with its design parameters.|
-| **Will Researcher Agent adhere to the Admin Web Search toggle** | Yes. If web search is disabled at the tenant level, Researcher will not use web data. |
+      - question: Is there any report or dashboard available for admins to track the usage of the Researcher (and Analyst) agent in their tenant?
+        answer: Not yet. As of now, Microsoft hasn't provided a specific usage reporting tool for Copilot agents like Researcher and Analyst.
 
-## Data protection and privacy
+  - name: Web search integration
+    questions:
+    - question: Is Web Search a prerequisite for Researcher Agent?
+        answer: No, web search is not required, as users can scope their queries independently. However, the model was trained on web data available up to 2024. As a result, its responses reflect information from that period, consistent with its design parameters.
 
-| Questions | Answers |
-|---------|---------|
-| **What are the data protection policies of Researcher Agent?** | <ul><li>[Microsoft 365 Copilot Privacy](../copilot/microsoft-365-copilot-privacy.md)</li><li>[Microsoft Privacy Statement](https://www.microsoft.com/en-us/privacy/privacystatement?msockid=02283d33f3b26a153db42c6af7b26c18)</li></ul> |
-| **Does Researcher adhere to DLP Policies?** | Yes, we adhere to DLP policies and follow the same policies as M365 Copilot. |
-| **Does Researcher adhere to Responsible AI standards?** | Yes, it follows the same Responsible AI practices as M365 Copilot.|
-| **Is Researcher trained on tenant data?** | No. It can access work data but is not trained on tenant data; all data remains within the M365 boundary. |
-| **Does Researcher send file attachments or customer content to the Web or OpenAI?** | No, it complies with the M365 data boundary.|
-| **What are the data retention and privacy policies for content used or generated by Researcher?** | Researcher adheres to the same data handling and retention policies as Microsoft 365 Copilot.|
+      - question: Will Researcher Agent adhere to the Admin Web Search toggle
+        answer: Yes. If web search is disabled at the tenant level, Researcher will not use web data.
 
-## Usage limits
+  - name: Data protection and privacy
+    questions:
+    - question: What are the data protection policies of Researcher Agent?
+        answer: "See [Microsoft 365 Copilot Privacy](../copilot/microsoft-365-copilot-privacy.md) and [Microsoft Privacy Statement](https://www.microsoft.com/en-us/privacy/privacystatement?msockid=02283d33f3b26a153db42c6af7b26c18)"
 
-| Questions | Answers |
-|---------|---------|
-| **Are there any usage limits for the Researcher agent in Microsoft 365?** | A maximum of 25 queries per user per month. |
-| **Do users get throttled?** | Yes, if a user exceeds 100 requests in an hour. However, there is no throttling at the tenant level. |
+      - question: Does Researcher adhere to DLP Policies?
+        answer: Yes, we adhere to DLP policies and follow the same policies as M365 Copilot.
 
-## Security and compliance
+      - question: Does Researcher adhere to Responsible AI standards?
+        answer: Yes, it follows the same Responsible AI practices as M365 Copilot.
 
-| Questions | Answers |
-|---------|---------|
-| **What is the security posture for auto-on capabilities** | Researcher adheres to the same security practices as M365 Copilot.|
-| **How is data in transit handled?** | It is securely transmitted, following the same standards as Microsoft 365 Copilot. |
-| **Does Researcher adhere to the European Union (EU) boundary?** | Researcher does adhere to the EU and M365 boundaries. |
-| **Can administrators or compliance officers e-discover or review the prompts and outputs from the Researcher agent?** | By default, no. The content of Researcher sessions is not directly accessible to admins or compliance tools. Admins can see usage metrics (like how many times it’s used) but not the actual conversation content. The only exception is if a user explicitly submits feedback that includes the session data; such feedback might be stored. |
+      - question: Is Researcher trained on tenant data?
+        answer: No. It can access work data but is not trained on tenant data; all data remains within the M365 boundary.
 
-## Features and future enhancements
+      - question: Does Researcher send file attachments or customer content to the Web or OpenAI?
+        answer: No, it complies with the M365 data boundary.
 
-| Questions | Answers |
-|---------|---------|
-| **Can Researcher process images in input documents?** | No, Researcher cannot process images as input. |
-| **Can Researcher generate PowerPoints and PDFs?** | To be released soon. |
-| **Does Researcher Agent have memory?** | To be released soon. |
-| **How long does a typical Researcher response take?** | Researcher responses typically range from under 5 minutes for simple queries. Then 10 to 45 minutes for highly complex ones. |
-| **Can report length or detail be controlled in Researcher-generated reports?** | To be released soon.|
-| **Can Researcher have Agent-to-Agent conversations?** | To be released soon. |
-| **Can we customize or extend the Researcher agent’s behavior (for example, by using Copilot Studio to add our own prompts or connect it to additional data)?** | No – not at this time. The Researcher agent is a first-party Microsoft-built agent. Unlike custom agents you create yourself, you cannot modify Researcher’s predefined logic or content. |
+      - question: What are the data retention and privacy policies for content used or generated by Researcher?
+        answer: Researcher adheres to the same data handling and retention policies as Microsoft 365 Copilot.
 
-## Other common questions
+  - name: Usage limits
+    questions:
+    - question: Are there any usage limits for the Researcher agent in Microsoft 365?
+        answer: A maximum of 25 queries per user per month.
 
-| Questions | Answers |
-|---------|---------|
-| **Is Researcher suited for spreadsheet creation?** | Analyst is better suited for Excel tasks. |
-| **Does Researcher provide sources or citations?** | Yes, to ensure trust and transparency. |
-| **What are the data retention and privacy policies for content used or generated by Researcher?** | Researcher adheres to the same [data handling and retention policies](../copilot/microsoft-365-copilot-privacy.md) as Microsoft 365 Copilot.|
+      - question: Do users get throttled?
+        answer: Yes, if a user exceeds 100 requests in an hour. However, there is no throttling at the tenant level.
+
+  - name: Security and compliance
+    questions:
+    - question: What is the security posture for auto-on capabilities
+        answer: Researcher adheres to the same security practices as M365 Copilot.
+
+      - question: How is data in transit handled?
+        answer: It is securely transmitted, following the same standards as Microsoft 365 Copilot.
+
+      - question: Does Researcher adhere to the European Union (EU) boundary?
+        answer: Researcher does adhere to the EU and M365 boundaries.
+
+      - question: Can administrators or compliance officers e-discover or review the prompts and outputs from the Researcher agent?
+        answer: By default, no. The content of Researcher sessions is not directly accessible to admins or compliance tools. Admins can see usage metrics (like how many times it's used) but not the actual conversation content. The only exception is if a user explicitly submits feedback that includes the session data; such feedback might be stored.
+
+  - name: Features and future enhancements
+    questions:
+    - question: Can Researcher process images in input documents?
+        answer: No, Researcher cannot process images as input.
+
+    - question: Can Researcher generate PowerPoints and PDFs?
+        answer: To be released soon.
+
+    - question: Does Researcher Agent have memory?
+        answer: To be released soon.
+
+    - question: How long does a typical Researcher response take?
+        answer: Researcher responses typically range from under 5 minutes for simple queries. Then 10 to 45 minutes for highly complex ones.
+
+    - question: Can report length or detail be controlled in Researcher-generated reports?
+        answer: To be released soon.
+
+    - question: Can Researcher have Agent-to-Agent conversations?
+        answer: To be released soon.
+
+    - question: Can we customize or extend the Researcher agent's behavior (for example, by using Copilot Studio to add our own prompts or connect it to additional data)?
+        answer: No – not at this time. The Researcher agent is a first-party Microsoft-built agent. Unlike custom agents you create yourself, you cannot modify Researcher's predefined logic or content.
+
+  - name: Other common questions
+    questions:
+    - question: Is Researcher suited for spreadsheet creation?
+        answer: Analyst is better suited for Excel tasks.
+
+    - question: Does Researcher provide sources or citations?
+        answer: Yes, to ensure trust and transparency.
+
+    - question: What are the data retention and privacy policies for content used or generated by Researcher?
+        answer: Researcher adheres to the same [data handling and retention policies](../copilot/microsoft-365-copilot-privacy.md) as Microsoft 365 Copilot.
