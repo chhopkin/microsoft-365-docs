@@ -316,9 +316,9 @@ Workday report configuration provides the SOAP base URL.
 > [!IMPORTANT]
 > - There are a few active issues on the configuration page:
 >   - When a user configures one connection, all connections may appear to be connected.
->   - Despite this, ensure that you create separate connections for each reference.
+>   - Even if all connections appear to be connected, ensure you create separate connections for each reference.
 > - Sometimes, after creating all connections, the **Next** button may not appear:
->   - If this happens, close and reopen the installation to restart the process.
+>   - If the button doesn't appear, close and reopen the installation to restart the process.
 > - Make sure to create the connections in the requested order:
 >   - If the **Next** button doesn't appear, it's easier to select the connections in the same order they were created.
 >   - Otherwise, references may be mistakenly mapped to each other.
@@ -614,7 +614,7 @@ You can toggle Topics on or off in the **Enabled** column.
 
 #### Custom attribute mapping
 
-By default, ESS Agent uses the Unique Principal Name (UPN) of the logged-in user as user credentials to be authenticated in Workday. If Workday isn't set up to use the UPN of the current logged-in user, and if another value, such as Employee ID, was set up as a login username for Workday, then a custom attribute mapping configuration is needed for ESS Agent.
+By default, ESS Agent uses the Unique Principal Name (UPN) of the logged-in user as user credentials to be authenticated in Workday. A custom attribute mapping configuration is needed for ESS Agent if Workday's using another value, such as Employee ID, as the login username instead of the UPN of the current logged-in user.
 
 |Example scenarios           |Unique Principal Name (UPN) in Intra |Login username in Workday |
 |----------------------------|-------------------------------------|--------------------------|
