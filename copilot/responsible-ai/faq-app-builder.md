@@ -5,7 +5,7 @@ author: mduelae
 manager: tapanm
 ms.author: mkaur
 ms.reviewer: mkaur
-ms.date: 09/15/2025
+ms.date: 10/23/2025
 ms.topic: faq
 ms.service: microsoft-365-copilot
 ms.subservice: app-builder
