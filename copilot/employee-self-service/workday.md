@@ -615,7 +615,7 @@ You can toggle Topics on or off in the **Enabled** column.
 
 #### Custom attribute mapping
 
-By default, ESS Agent uses the Unique Principal Name (UPN) of the logged-in user as user credentials to be authenticated in Workday. A custom attribute mapping configuration is needed for ESS Agent if Workday's using another value, such as Employee ID, as the login username instead of the UPN of the current logged-in user.
+By default, ESS Agent uses the Unique Principal Name (UPN) of the logged-in user as user credentials to be authenticated in Workday. You need a custom attribute mapping configuration for ESS Agent if Workday's using another value, such as Employee ID, as the login username instead of the UPN of the current logged-in user.
 
 |Example scenarios           |Unique Principal Name (UPN) in Intra |Login username in Workday |
 |----------------------------|-------------------------------------|--------------------------|
@@ -630,7 +630,7 @@ For custom attribute mapping, the **Workday Set User Context** needs to be updat
 3. Select the plus (**+**) symbol > **Tool** > **Connector** > **Get My Profile (V2)**.
 4. Ensure **Get my profile(v2)** sits between the **Trigger** and **Call Workday** context flow.
 5. Edit the **Call Workday** context flow to make use of the parameters from **Get My Profile connector**.
-6. The following example shows the default formula which is using the **UPN** value for Workday context. This value needs to be changed to the custom attribute being fetched from Entra:
+6. The following example shows the default formula, which uses the **UPN** value for Workday context. This value needs to be changed to the custom attribute being fetched from Entra:
 
 ```vbscript
 "{""params""}:[{""key"":""{UPN}"",""value"":""" & Global.
@@ -646,8 +646,8 @@ Topic_MyProfile_V2.mailNickname & """}, {""key"":""
 {As_Of_Effective_Date"",
 ```
 
-8. In this example, mailNickName is the primary user identifier being used as the login username in Workday. That's why this attribute's chosen from My Profile_V2.
-9. By default, MyProfile_V2 exposes standard attributes such as displayName, mailNickname, mail, and a few other attributes. To view the complete list of attributes available, navigate to **Office 365 Users** > **Outputs** > **MyProfile_V2** > **View Data Type**. This displays a YAML object containing the list of entra properties available in Copilot Studio.
+8. In this example, mailNickName is the primary user identifier being used as the login username in Workday, which is why this attribute's chosen from My Profile_V2.
+9. By default, MyProfile_V2 exposes standard attributes such as displayName, mailNickname, mail, and a few other attributes. To view the complete list of attributes available, navigate to **Office 365 Users** > **Outputs** > **MyProfile_V2** > **View Data Type**. This entry displays a YAML object containing the list of entra properties available in Copilot Studio.
     1. If the custom attribute isn't shown in MyProfile_V2, edit the **Get My Profile (v2)** object and add the required entra property in the inputs list as a comma-separated field.
 
 ## Errors
