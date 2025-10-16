@@ -1,9 +1,9 @@
 ---
 title: "Troubleshoot Copilot Tuning document generation"
 f1.keywords:
-ms.author: kwekua
-author: kwekuako
-manager: scotv
+ms.author: lauragra
+author: lauragra
+manager: calvind
 ms.date: 06/17/2025
 ms.update-cycle: 180-days
 ms.topic: troubleshooting
