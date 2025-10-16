@@ -1,16 +1,12 @@
 ---
-# Required metadata
-# For more information, see https://learn.microsoft.com/en-us/help/platform/learn-editor-add-metadata
-# For valid values of ms.service, ms.prod, and ms.topic, see https://learn.microsoft.com/en-us/help/platform/metadata-taxonomies
-
 title: Deployment overview for the Microsoft 365 Copilot app
 description: Enterprise and company IT Admins can use this guide to manage the deployment of the Microsoft 365 Copilot app to devices in their organization.
-author:      jeffercMSFT # GitHub alias
-ms.author:   jefferc # Microsoft alias
+author:      efrene
+ms.author:   efrene
 ms.service: microsoft-365-copilot
 ms.topic: how-to
 ms.date:     09/05/2025
-manager: ameshm
+manager: scotv
 ---
 
 # Deployment overview for the Microsoft 365 Copilot app

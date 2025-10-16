@@ -2,8 +2,8 @@
 title: Enterprise brand manager policy setup for official brand kits
 f1.keywords:
 - NOCSH
-ms.author: aaroncz
-author: aczechowski
+ms.author: scotv
+author: scotv
 manager: scotv
 ms.date: 08/21/2025
 ms.update-cycle: 180-days
