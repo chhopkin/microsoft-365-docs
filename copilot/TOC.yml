@@ -142,7 +142,7 @@ items:
   - name: Teams Rooms and Copilot overview
     href: /microsoftteams/rooms/copilot-admin-mtr?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fmicrosoft-365-copilot%2Fbreadcrumb%2Ftoc.json
   - name: Manage Copilot access for B2B members within multitenant organizations (MTO) in Teams
-    href: /microsoftteams/copilot-teams-multitenant-organization?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fmicrosoft-365-copilot%2Fbreadcrumb%2Ftoc.json
+    href: /microsoftteams/copilot-mto?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fmicrosoft-365-copilot%2Fbreadcrumb%2Ftoc.json
 - name: Microsoft 365 Copilot in Microsoft Viva
   items:
   - name: Introduction to Microsoft 365 Copilot in Viva
@@ -188,8 +188,8 @@ items:
       href: agent-framework/agent-framework-overview.md
     - name: Prerequisites
       href: agent-framework/agent-prerequisites.md
-    - name: Microsoft 365 Copilot agents blueprint
-      href: agent-framework/m365-agents-blueprint.md
+    - name: Microsoft 365 Copilot agents checklist
+      href: agent-framework/m365-agents-checklist.md
     - name: Microsoft 365 Copilot agents starting guide
       href: agent-framework/m365-agents-admin-guide.md            
     - name: Choose a Copilot Studio experience

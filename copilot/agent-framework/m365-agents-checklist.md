@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Agents Blueprint
+title: Microsoft 365 Agents Checklist
 f1.keywords:
 ms.author: erikre
 author: ErikRe
@@ -16,7 +16,7 @@ ms.collection:
 description: Learn about Microsoft 365 Agents.
 ---
 
-# Microsoft 365 Agents Blueprint
+# Microsoft 365 Agents Checklist
 
 
 
