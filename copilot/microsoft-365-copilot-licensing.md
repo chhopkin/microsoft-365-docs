@@ -2,8 +2,8 @@
 title: "License options for Microsoft 365 Copilot"
 f1.keywords:
 - NOCSH
-ms.author: aaroncz
-author: aczechowski
+author: cmcatee-MSFT
+ms.author: cmcatee
 manager: scotv
 ms.date: 05/20/2025
 ms.update-cycle: 180-days
