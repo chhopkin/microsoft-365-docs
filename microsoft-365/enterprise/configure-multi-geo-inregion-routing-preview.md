@@ -120,14 +120,14 @@ After you complete the [Prerequisites](#prerequisites) and the steps in Adopt an
 3. **Wait 1 hour for the change in Step 2 to propagate**, then execute the following command:
 
     ```powershell
-       Set-AcceptedDomain -Identity {Domain} -MailFlowRegion {PreferredDataLocation}
+    Set-AcceptedDomain -Identity {Domain} -MailFlowRegion {PreferredDataLocation}
     ```
    - {Domain} is the accepted domain.
    - {PreferredDataLocation} is a valid three-letter code specified in [Microsoft 365 Multi-Geo availability](microsoft-365-multi-geo.md#microsoft-365-multi-geo-availability).
 
        For example:
         ```powershell
-             Set-AcceptedDomain -Identity contosotest.com -MailFlowRegion GBR
+        Set-AcceptedDomain -Identity contosotest.com -MailFlowRegion GBR
         ```
       For detailed syntax and parameter information, see [Set-AcceptedDomain](/powershell/module/exchange/set-accepteddomain).
 
