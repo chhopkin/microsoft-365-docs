@@ -1,9 +1,9 @@
 ---
 title: FAQ for Copilot Tuning
 f1.keywords:
-ms.author: kwekua
-author: kwekuako
-manager: dansimp
+ms.author: lauragra
+author: lauragra
+manager: calvind
 ms.date: 09/24/2025
 ms.update-cycle: 180-days
 audience: Admin
