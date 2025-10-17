@@ -29,7 +29,11 @@ Preparation is the first step to deploying the Employee Self-Service (ESS) agent
 |Global admin                                   |Assign the Power Platform Administrator role. |Microsoft admin center |
 |Power Platform Administrator                   |Assign the Environment Maker role. |Power Platform admin center |
 |Environment Maker                              |Create environments required for customizing and testing the ESS agent. |Power Platform admin center and Microsoft Copilot Studio |
-|InfoSec/IT Infrastructure/Change control board |Configure infrastructure requirements for third-party ISV integration. |Network firewall policies and single sign-on |
+|InfoSec/IT Infrastructure/Change control board |Configure infrastructure requirements for third-party external systems integration. |Network firewall policies and single sign-on |
+
+## Power Platform environment strategy for ESS
+
+ESS Agents are tailored to each vertical, such as HR or IT, and each agent comes with its own unique set of topics and connectors. While it may be necessary to use separate Power Platform environments for better governance, if you want to link these vertical-specific agents to a single, central agent, we advise you keep all the vertical agents within one Power Platform environment.
 
 ## Assign the Power Platform administrator role
 
@@ -56,7 +60,7 @@ Preparation is the first step to deploying the Employee Self-Service (ESS) agent
 > [!IMPORTANT]
 > Important: Familiarize yourself with the Power Platform subscription plans and billing policies for your tenant. We recommend you perform initial [capacity planning](prerequisites.md#capacity-planning) before enabling and configuring the ESS agent to make sure you don't incur additional billing.
 
-## Infrastructure setup for third-party ISV integration
+## Infrastructure setup for third-party external systems integration
 
 Most organizations secure their third-party HR systems and knowledge sources from external networks to protect sensitive information about employees, organizations, knowledge assets, and other data.
 
