@@ -1,10 +1,10 @@
 ---
 title: Overview of Copilot Pages, Copilot Notebooks, and Loop workspaces storage and permissions
-ms.author: jenz
-author: jenzamora
+ms.author: odocspr
+author: officedocspr5
 manager: jtremper
 audience: Admin
-ms.topic: article
+ms.topic: concept-article
 ms.service: loop
 ms.reviewer: michalbr, dancost
 ms.date: 07/02/2025

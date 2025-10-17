@@ -14,6 +14,7 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
+- operations-pod
 ms.custom:
 - AdminSurgePortfolio
 - okr_smb

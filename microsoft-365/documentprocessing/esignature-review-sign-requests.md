@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: jtremper
 ms.reviewer: amcdonnell
-ms.date: 08/01/2025
+ms.date: 09/10/2025
 audience: enabler
 ms.topic: how-to
 ms.service: microsoft-syntex
@@ -157,4 +157,6 @@ The signed document is stored in a provider specific folder within the SharePoin
 The file name of the signed document will be the original file name with the name of the provider, with "signed" and the date and time appended to it.
 
 > [!NOTE]
+> Starting September 2025 and rolling out through November 2025, signed documents will be automatically saved back to the original folder (the same location where the original document was stored when the e-signature request was initiated). This replaces the previously used dedicated file structure in which signed documents were stored in a separate, dedicated structure as described above.
+> 
 > A copy of the signed document won't be saved if the request is declined or canceled. Any other document uploaded via a provider outside of SharePoint while creating a request will also not be saved back to SharePoint. Only documents initiated from SharePoint are saved back to SharePoint.  

@@ -15,6 +15,7 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_TOC
+- operations-pod
 ms.custom:
 - AdminSurgePortfolio
 - admindeeplinkMAC

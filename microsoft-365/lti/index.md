@@ -9,12 +9,13 @@ last.review.date: 07/18/2025
 ms.date: 07/18/2025
 audience: admin
 ms.topic: concept-article
-ms.service: msteams
-ms.subservice: teams-education
+ms.service: microsoft-365-education
 search.appverid: 
 ms.collection: 
 - M365-modern-desktop
 - tier2
+- m365-education
+- all-education
 ms.localizationpriority: medium
 description: Learn about Learning Tools Interoperability (LTI) Microsoft apps, and how they help educators when integrating Microsoft apps into their Learning Management System (LMS).
 ---
@@ -42,7 +43,7 @@ Follow the guide that is relevant to your LMS. If there isn’t a guide specific
 - [Deploy the Microsoft 365 LTI® app in PowerSchool Schoology Learning](microsoft-365-lti-schoology.md)
 - [Deploy the Microsoft 365 LTI® app in Brightspace by D2L](microsoft-365-lti-brightspace.md)
 - [Deploy the Microsoft 365 LTI® app in Moodle™](microsoft-365-lti-moodle.md)
-- Deploy Microsoft 365 LTI in any LTI1 1.3 Advantage Platform
+- [Deploy Microsoft 365 LTI in any LTI1 1.3 Advantage Platform](microsoft-365-lti-other.md)
 <!-- -->
 
 ## Experiences that are part of the Microsoft 365 LTI

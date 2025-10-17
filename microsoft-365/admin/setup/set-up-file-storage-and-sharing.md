@@ -18,6 +18,7 @@ ms.collection:
 - Adm_O365
 - Adm_O365_Setup
 - SPO_Content
+- operations-pod
 ms.custom:
 - VSBFY23
 - IT_Networking

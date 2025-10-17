@@ -4,8 +4,8 @@ f1.keywords:
 - NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
-ms.reviewer: drjones, jobailey
+manager: scotv
+ms.reviewer: padeshmukh
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -19,6 +19,7 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - ContentEnagagementFY23
+- operations-pod
 ms.custom:
 - commerce_purchase
 - VSBFY23
@@ -40,7 +41,7 @@ Check out all of our small business content on [Small business help & learning](
 Microsoft 365 for business is a subscription service that lets you run your organization in the cloud while Microsoft takes care of the IT for you. We manage your devices, protect against real-world threats, and provide your organization with the latest in business software. You can sign up for a free trial subscription for Microsoft 365 Business Basic, Microsoft 365 Business Standard, Microsoft 365 Business Premium, Microsoft Defender for Business, or Microsoft 365 Apps for business and try it out for 30 days.
 
 > [!NOTE]
-> You must use a credit or debit card when you sign up for a free trial. At the end of your free trial period, your trial subscription is automatically converted to a paid subscription. Your card isn't billed until the trial period ends.
+> You must use a credit or debit card when you sign up for a free trial. At the end of your free trial period, your trial subscription is automatically converted to a paid subscription. Your card isn't billed until the trial period ends. Microsoft reserves the right to suspend access to its products and services if payment is not received after your one-month free trial ends. Storage for trials will be limited.
 
 ## Need help with choosing a plan?
 
@@ -169,7 +170,7 @@ When you add a subscription through the <a href="https://go.microsoft.com/fwlink
    - If you're using the **Simplified view**, select **Billing**, then select **Add more products**.
    - If you're using the **Dashboard view**, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Purchase services</a> page. For some customers, the page is named **Marketplace**.
 2. Find the plan that you want to try, and select **Details**.
-3. On the next page, enter the number of licenses that you want to buy when the trail ends, then select **Start free trial**.
+3. On the next page, enter the number of licenses that you want to buy when the trial ends, then select **Start free trial**.
     > [!NOTE]
     > All trial subscriptions include 25 free licenses for the duration of the trial period.
 4. Choose to receive a text or a call, enter your phone number, then choose **Text me** or **Call me**.
@@ -221,7 +222,6 @@ If you have a new account and are setting up your first subscription, you can us
 
 - [Set up Microsoft 365 Business Basic](../admin/setup/setup-business-basic.md)
 - [Set up Microsoft 365 Business Standard](../admin/setup/setup-business-standard.md)
-- [Set up Microsoft 365 Business Premium](../business-premium/m365bp-overview.md)
 - [Set up Microsoft Defender for Business](../security/defender-business/mdb-setup-configuration.md)
 - [Set up Microsoft 365 Apps for business](../admin/setup/setup-apps-for-business.md)
 

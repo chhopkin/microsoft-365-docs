@@ -1,21 +1,21 @@
 ---
 title: Microsoft 365 Copilot app settings for IT admins
-description: The Microsoft 365 Copilot app has features and settings that Enterprise and organization admins can configure. Admins can turn on search, pin Microsoft 365 Copilot Chat, allow or block agents, allow pages and notices, and map the Copilot key to the Microsoft 365 Copilot app.
-author: aczechowski
-ms.author: aaroncz
-manager: dansimp
-ms.date: 07/15/2025
+description: Learn how to configure Microsoft 365 Copilot app settings, including enabling search, managing agents, and customizing navigation for your organization.
+#customer intent: As an Microsoft 365 Copilot administrator, I want to configure settings for the Copilot app.
+author: kwekuako
+ms.author: kwekua
+ms.reviewer: libbymc
+manager: scotv
+ms.date: 09/16/2025
 ms.update-cycle: 180-days
 ms.topic: overview
 ms.service: microsoft-365-copilot
-ms.subservice: 
-ms.localizationpriority: medium
 ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
+- operations-pod
 ms.custom: 
-ms.reviewer: libbymc
 search.appverid: MET150
 f1.keywords:
 audience: Admin
@@ -24,16 +24,12 @@ appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
+
 # Microsoft 365 Copilot app features that admins can control
 
-The [Microsoft 365 Copilot app](microsoft-365-copilot-app-overview.md) is an everyday AI productivity app for work or school.
+The [Microsoft 365 Copilot app](microsoft-365-copilot-app-overview.md) is an everyday AI productivity app for work or school. IT administrators configure Microsoft 365 Copilot app settings to customize the experience for their organization. It includes settings and features for pinning Microsoft 365 Copilot Chat, allowing or blocking agents, and more.
 
-The app includes some settings and features that IT admins can configure, including pinning Microsoft 365 Copilot Chat, allowing or blocking agents, and more.
-
-This article:
-
-- Lists and describes the different settings that affect the Microsoft 365 Copilot app.
-- Provides article links that have more information about configuring the feature.
+This article lists and describes the different settings that affect the Microsoft 365 Copilot app. Follow the provided links for more information about how to configure each feature.
 
 This article applies to:
 
@@ -41,16 +37,14 @@ This article applies to:
 
 ## Prerequisites
 
-To use the features in this article, you need the following role-based access control (RBAC) roles:
+To use the features in this article, you need the **Office Apps admin** role-based access control (RBAC) role. This role can create the cloud policies for the Microsoft 365 Copilot app.
 
-- **Global Administrator** - This role can configure the Microsoft 365 admin center features.
-- **Office Apps admin** - This role can create the Cloud policies for the Microsoft 365 Copilot app.
-
-To learn more, see [Admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
+> [!IMPORTANT]
+> Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## Settings that configure the app experience
 
-When users open the Microsoft 365 Copilot app, there's a navigation bar. You can show or hide some features on the navigation bar, depending on your license.
+When users open the Microsoft 365 Copilot app, they see a navigation bar. You can show or hide some features on the navigation bar, depending on your license.
 
 :::image type="content" source="media/microsoft-365-copilot-app-admin-settings/microsoft-365-copilot-app-left-navigation.png" alt-text="Screen shot that shows the Microsoft 365 Copilot app left navigation and its features for users with a Microsoft 365 Copilot license.":::
 

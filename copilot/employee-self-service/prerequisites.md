@@ -3,14 +3,13 @@ title: Prerequisites to deploy the Employee Self-Service agent
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: dansimp
+manager: scotv
 ms.reviewer: semani
-ms.date: 7/3/2025
+ms.date: 09/29/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
-robots: NOINDEX, NOFOLLOW
 ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn about the prerequisites you need to meet before deploying the Employee Self-Service agent.
@@ -21,7 +20,7 @@ appliesto:
 # Prerequisites to deploy the Employee Self-Service agent
 
 >[!NOTE]
->The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
+>The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
 You need to confirm the following prerequisites are met before deploying the Employee Self-Service agent (ESS) to your organization.
 
@@ -31,12 +30,9 @@ The ESS Agent is built on top of Microsoft 365 Copilot. Users need the following
 
 |Role                          |Workload/tools |Licensing and access |
 |------------------------------|---------------|---------------------|
-|Users                         |Microsoft 365 Copilot |[Microsoft 365 Copilot](../microsoft-365-copilot-licensing.md)       |
-|Users                         |Microsoft Power Platform* |[Licensing overview for Power Platform](/power-platform/admin/pricing-billing-skus) </br>[Request limits and allocations](/power-platform/admin/api-request-limits-allocations)|
+|Users                         |Microsoft 365 Copilot |[Microsoft 365 Copilot](../microsoft-365-copilot-licensing.md) |
 |Users                         |Microsoft Teams |[Manage user access to Microsoft Teams](/microsoftteams/user-access) |
 |Environment admins and makers |Copilot Studio  |[Copilot Studio licensing and subscriptions](/microsoft-copilot-studio/requirements-licensing-subscriptions) |
-
-*Premium licenses are required for some third-party connectors.
 
 ## Set up Copilot Studio capacity
 

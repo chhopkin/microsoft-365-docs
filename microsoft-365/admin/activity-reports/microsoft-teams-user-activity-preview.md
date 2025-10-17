@@ -1,8 +1,8 @@
 ---
 title: "Microsoft 365 admin center Teams user activity reports"
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 08/21/2023
 audience: Admin
 ms.topic: article
@@ -14,7 +14,9 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_NonTOC
-ms.custom: AdminSurgePortfolio
+- operations-pod
+ms.custom:
+- GAUpdates
 search.appverid:
 - BCS160
 - MST160
@@ -47,12 +49,12 @@ You can also export the report data into an Excel .csv file by selecting the **E
 
 The **Microsoft Teams user activity** report can be viewed for trends over the last 7 days, 30 days, 90 days, or 180 days. However, if you select a particular day in the report, the table shows data for up to 28 days from the current date (not the date the report was generated).
 
-To ensure data quality, we perform daily data validation checks for the past three days and will be filling any gaps detected. You may notice differences in historical data during the process.
+To ensure data quality, we perform daily data validation checks for the past three days and will fill any gaps detected. You might notice differences in historical data during the process.
 
 |Metric|Mapped metric in Export|Definition|
 |:-----|:-----|:-----|
 |User name  <br/> |User Principal Name|The email address of the user. You can display the actual email address or make this field anonymous.   <br/> |
-|Tenant name  <br/> |Tenant Display Name|The name of an internal or external tenant where a user belongs.   <br/> <br/> If a user belongs to an external tenant, corresponding data metrics (for example, post messages, reply messages,  etc.) are calculated based on their interactions in shared channels of the admin’s tenant. Interactions done by the user in their own tenant (outside of shared channels of the given tenant) are not considered for the admin usage report of given tenant.  |
+|Tenant name  <br/> |Tenant Display Name|The name of an internal or external tenant where a user belongs.   <br/> <br/> If a user belongs to an external tenant, corresponding data metrics (for example, post messages, reply messages,  etc.) are calculated based on their interactions in shared channels of the admin’s tenant. Interactions done by the user in their own tenant (outside of shared channels of the given tenant) aren't considered for the admin usage report of given tenant.  |
 |Is external   <br/> |Is External|Indicates if the user is an external user or not.   <br/> |
 |Shared channel tenant names   <br/> |Shared Channel Tenant Display Names|The names of internal or external tenants of shared channels where the user participated.   <br/> |
 |Channel messages   <br/> |Team Chat Message Count|The number of unique messages that the user posted in a team chat during the specified time period. This includes original posts and replies.   <br/> |
@@ -72,7 +74,7 @@ To ensure data quality, we perform daily data validation checks for the past thr
 |Meetings participated scheduled one-time  <br/> |Scheduled One-time Meetings Attended Count|The number of the one-time scheduled meetings a user participated in during the specified time period.  <br/> |
 |Meetings participated scheduled recurring  <br/> |Scheduled Recurring Meetings Attended Count|The number of the recurring meetings a user participated in during the specified time period.  <br/> |
 |Is licensed  <br/> |Is Licensed|Selected if the user is licensed to use Teams. <br/>|
-|Other activity  <br/>|Has Other Action|The User is active but has performed other activities than exposed action types offered in the report (sending or replying to channel messages and chat messages, scheduling or participating in 1:1 calls and meetings). Examples actions are when a user changes the Teams status or the Teams status message or opens a Channel Message post but does not reply.  <br/>|
+|Other activity  <br/>|Has Other Action|The User is active but has performed other activities than exposed action types offered in the report (sending or replying to channel messages and chat messages, scheduling or participating in 1:1 calls and meetings). Examples actions are when a user changes the Teams status or the Teams status message or opens a Channel Message post but doesn't reply.  <br/>|
 |Audio Duration| - |The sum of the audio duration of a user used during the specified time period and formatted by ISO 8601 - Wikipedia |
 |Video Duration| - |The sum of the video duration of a user used during the specified time period and formatted by ISO 8601 - Wikipedia |
 |Screen Share Duration| - |The sum of the screen share duration of a user used during the specified time period and formatted by ISO 8601 - Wikipedia |
@@ -85,7 +87,9 @@ To ensure data quality, we perform daily data validation checks for the past thr
 
 ## Make the user-specific data anonymous
 
-To make the data in Teams user activity report anonymous, you have to be a global administrator. This will hide identifiable information (using MD5 hashes) such as display name, email, and Microsoft Entra Object ID in report and their export.
+To make the data in Teams user activity report anonymous, you have to be a global administrator. This hides identifiable information (using MD5 hashes) such as display name, email, and Microsoft Entra Object ID in report and their export.
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 1. In Microsoft 365 admin center, go to the **Settings** > **Org Settings**, and under **Services** tab, choose **Reports**.
 

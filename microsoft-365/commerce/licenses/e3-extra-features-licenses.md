@@ -4,8 +4,8 @@ f1.keywords:
 - NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
-ms.reviewer: nicholak
+manager: scotv
+ms.reviewer: rabhange
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -15,6 +15,7 @@ ms.collection:
 - Tier1
 - scotvorg
 - Adm_o365
+- operations-pod
 ms.custom:
 - commerce_licensing
 - original owners paprud, marketing

@@ -2,9 +2,9 @@
 title: "Enable Microsoft 365 usage analytics"
 f1.keywords:
 - CSH
-ms.author: cmcatee
-author: cmcatee-MSFT
-manager: dansimp
+ms.author: efrene
+author: efrene
+manager: scotv
 ms.date: 09/16/2024
 audience: Admin
 ms.topic: how-to
@@ -15,6 +15,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+- operations-pod
 ms.custom:
 - AdminTemplateSet
 - admindeeplinkMAC
@@ -48,6 +49,8 @@ To share your data, both you and the people who you share the data with need a P
 ## Enable the template app
 
 To enable the template app, you have to be a **Global administrator**.
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 For more information, see [about admin roles](../add-users/about-admin-roles.md).
 

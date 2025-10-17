@@ -3,7 +3,8 @@ title: Set up People Skills
 description: how you can set up People Skills for the first time in your organization
 author: kwekuako
 ms.author: kwekua
-manager: dansimp
+ms.collection: operations-pod
+manager: scotv
 ms.service: microsoft-365-copilot
 ms.topic: article
 ms.date: 05/29/2025
@@ -12,9 +13,6 @@ ms.date: 05/29/2025
 # Set up People Skills
 
 This section walks you through setting up People Skills for the first time in your organization. After initial setup is complete, admins can edit their skill library or share settings using the steps in the [Manage your skills library](people-skills-manage-skills-library.md) page.
-
-Here is a video walkthrough of the People Skills setup and various admin options available:
-> [!VIDEO 8f204269-407e-4684-88cd-656d864f3569]
  
 
 ## Admin roles required for setup
@@ -30,7 +28,7 @@ For more information, see [assigning roles](/entra/identity/role-based-access-c
 
 Most organizations can quickly set up skills using our out-of-the-box People Skills library of over 16,000+ skills. If you prefer to curate your own library by importing custom skills, refer to the next section [Advanced setup](#advanced-setup-using-custom-skills-library).
 
-1. Go to the Copilot page in the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **People Skills in Microsoft 365 Copilot**. Alternatively, you can find People Skills page under **Settings** > **Viva** > **Data Management**.
+1. Go to the Copilot page in the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/copilot/overview) and select **Settings** > **Data access** and then **People Skills in Microsoft 365 Copilot**. Alternatively, you can find People Skills page under **Settings** > **Viva** > **Data Management**.
 
    :::image type="content" source="media/people-skills-inferencing/quick-setup-with-out-of-the-box-library.png" alt-text="Screenshot displaying the People Skills in Microsoft 365 Copilot option in the Copilot page." lightbox="media/people-skills-inferencing/quick-setup-with-out-of-the-box-library.png":::
 

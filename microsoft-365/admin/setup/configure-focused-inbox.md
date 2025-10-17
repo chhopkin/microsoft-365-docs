@@ -16,6 +16,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+- operations-pod
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -134,7 +135,7 @@ This example turns Focused Inbox **Off** for Tim Matthews in the Contoso organiz
 > [!IMPORTANT]
 > In this example, both "X-MS-Exchange-Organization-BypassFocusedInbox" and "true" are case sensitive.
 > Also, Focused Inbox will honor the X-header that bypasses Clutter, so if you use this setting in Clutter, it will be used in Focused Inbox. 
-> For detailed syntax and parameter information, see [New-TransportRule](/powershell/module/exchange/new-transportrule).
+> For detailed syntax and parameter information, see [New-TransportRule](/powershell/module/exchangepowershell/new-transportrule).
 
 ### How do you know this worked?
 

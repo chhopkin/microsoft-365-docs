@@ -5,8 +5,8 @@ f1.keywords:
 - aka.ms/smbsetup
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
-ms.reviewer: drjones, jobailey
+manager: scotv
+ms.reviewer: padeshmukh
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -18,6 +18,7 @@ ms.collection:
 - highpri 
 - M365-subscription-management 
 - Adm_O365
+- operations-pod
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 ms.custom: 

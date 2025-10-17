@@ -3,7 +3,8 @@ title: Overview of People Skills
 description: People Skills is an AI-powered service that creates personalized skill profiles for users, integrating with Microsoft 365 tools to enhance skills-based experiences.
 author: kwekuako
 ms.author: kwekua
-manager: dansimp
+ms.collection: operations-pod
+manager: scotv
 ms.service: microsoft-365-copilot
 ms.topic: overview
 ms.date: 07/18/2025

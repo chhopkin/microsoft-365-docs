@@ -2,13 +2,14 @@
 title: "Manage Microsoft 365 Copilot Search"
 author: Efrene
 ms.author: efrene
-manager: dansimp
+manager: scotv
 ms.date: 06/05/2025
 ms.topic: overview
 ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 ms.collection:
 - CopilotSearch
+- operations-pod
 ms.custom: QuickDraft
 ms.reviewer: kwekua
 audience: admin

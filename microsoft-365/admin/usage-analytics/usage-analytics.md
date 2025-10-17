@@ -2,9 +2,9 @@
 title: "About Microsoft 365 usage analytics"
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
-manager: dansimp
+ms.author: efrene
+author: efrene
+manager: scotv
 ms.date: 09/16/2024
 audience: Admin
 ms.topic: concept-article
@@ -15,6 +15,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
+- operations-pod
 ms.custom:
 - AdminTemplateSet
 search.appverid:

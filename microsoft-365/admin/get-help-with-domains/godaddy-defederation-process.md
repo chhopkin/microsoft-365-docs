@@ -16,6 +16,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_O365_Setup
+- operations-pod
 ms.custom: QuickDraft
 ms.reviewer: amtro
 search.appverid: MET150

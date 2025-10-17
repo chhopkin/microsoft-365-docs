@@ -1,13 +1,15 @@
 ---
 title: Use Microsoft Teams Assignments with LTI 1.3 Advantage compliant LMS
 description: Learn how to integrate and use the Teams Assignments LTI app with any LTI 1.3 Advantage compliant LMS or virtual learning environment (VLE).
-author: DaniEASmith
-ms.author: danismith
-manager: mimast
+author: jennplatt
+ms.author: avering
+manager: michal.gideoni
 ms.date: 03/20/2025
 ms.topic: how-to
-ms.service: msteams
-ms.subservice: teams-education
+ms.service: microsoft-365-education
+ms.collection:
+- m365-education
+- all-education
 ---
 
 # Use Microsoft Teams Assignments with any LTI 1.3® Advantage compliant LMS/VLE
