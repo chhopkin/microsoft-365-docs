@@ -87,10 +87,10 @@ To adopt an MX target in mx.microsoft, do the following steps:
 
 1. Use the **Inbound SMTP Email** test in the **Microsoft Remote Connectivity Analyzer** at <https://testconnectivity.microsoft.com/tests/O365InboundSmtp/input> to verify the IRR-related MX record is working.
 
-      > [!TIP]
+         > [!TIP]
    > You might have to retry the test, depending on DNS caching.
 
-      Successful completion of the test looks like this:
+         Successful completion of the test looks like this:
 
    ![User's image](media/configure-multi-geo-in-region-routing-in-preview/connectivity-test-successful-output.png)
    
@@ -120,20 +120,20 @@ After you complete the [Prerequisites](#prerequisites) and the steps in Adopt an
 Set-OrganizationConfig  -InRegionRoutingEnabled $true
 ```
 
-3. **Wait 30 minutes for the change in Step 2 to propagate**, then execute the following command:
+1. **Wait 1 hour for the change in Step 2 to propagate**, then execute the following command:
 
-      ```powershell
+         ```powershell
    Set-AcceptedDomain -Identity <Domain> -MailFlowRegion <PreferredDataLocation>
    ```
 
    - \<Domain\> is the accepted domain.
    - \<PreferredDataLocation\> is a valid three-letter code specified in [Microsoft 365 Multi-Geo availability](microsoft-365-multi-geo.md#microsoft-365-multi-geo-availability).
 
-    For example:
-      ```powershell
+       For example:
+         ```powershell
      Set-AcceptedDomain -Identity contosotest.com -MailFlowRegion GBR
    ```
-   For detailed syntax and parameter information, see [Set-AcceptedDomain](/powershell/module/exchange/set-accepteddomain).
+      For detailed syntax and parameter information, see [Set-AcceptedDomain](/powershell/module/exchange/set-accepteddomain).
 
 4. Wait 30 minutes after enabling IRR to allow previously cached DNS records to expire and updated routing information to propagate. Then, send an email to recipients in the domain to verify whether mail flow is working as expected.
 
