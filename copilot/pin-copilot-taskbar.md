@@ -39,7 +39,7 @@ To configure Copilot taskbar pinning in the Microsoft 365 admin center, you need
 
 ## Step 1: Download and install companion apps
 
-Companion apps aren't installed by default. You can download them here: [Download Microsoft 365 companion apps](https://aka.ms/setup-90562c73-b3e8-413d-bc0c-a58075c7ac72).
+Companion apps aren't installed by default. You can download them here: [Download Microsoft 365 companion apps](https://go.microsoft.com/fwlink/?linkid=2295923).
 
 The companion apps suite includes:
 
