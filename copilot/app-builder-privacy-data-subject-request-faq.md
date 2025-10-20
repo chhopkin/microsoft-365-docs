@@ -1,6 +1,6 @@
 ---
 title: App Builder privacy and data subject request (DSR) FAQ
-description: Frequently asked questions about Flow Builder's privacy and data subject request (DSR) processes.
+description: Frequently asked questions about App Builder's privacy and data subject request (DSR) processes.
 author: anuitz
 ms.author: anuitz
 manager: tapanm
