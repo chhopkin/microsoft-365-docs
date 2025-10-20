@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 10/08/2025
+ms.date: 10/14/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -61,7 +61,7 @@ You can manage several types of agents in Microsoft 365 Copilot, each serving di
 - **First-party agents**: Developed by Microsoft and integrated with Microsoft 365 services.
 - **External agents**: Created by external developers or vendors. You can control their availability and permissions.
 - **Frontier agents**: Experimental or advanced agents that use new capabilities or integrations. These might be in early stages of development or testing and could require more oversight or limited rollout.
-- **Flow Builder agent**: A type of Frontier agent developed by Microsoft that can be managed as part of Microsoft 365 Copilot. Flows created in Copilot are saved to the default environment (unless [environment routing](/power-platform/admin/default-environment-routing?tabs=new#turn-on-environment-routing-in-the-admin-center) is enabled). You can also manage flows using the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+- **Flow Builder agent**: A type of Frontier agent developed by Microsoft that can be managed as part of Microsoft 365 Copilot. Flows created in Copilot are saved to the default environment (unless [environment routing](/power-platform/admin/default-environment-routing?tabs=new#turn-on-environment-routing-in-the-admin-center) is enabled for Copilot Studio). You can also manage flows using the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 
 ## Get started
 
@@ -219,7 +219,7 @@ To block or unblock an agent, follow these steps:
 1. Select **Block** or **Unblock**.
 1. Decide whether to block or unblock the agent for everyone.
 
-Blocking or unblocking an agent affects its availability and functionality in Copilot and other host products, such as Outlook, Teams, or Microsoft 365.
+Blocking or unblocking an agent created using Copilot Studio (lite) and Copilot Studio (full) affects its availability and functionality in M365 Copilot and other host products, such as Outlook, Teams, or Microsoft 365. However, blocking an agent created with SharePoint will only impact its availability in M365 Copilot Chat.
 
 > [!NOTE]
 > For the [Researcher](https://support.microsoft.com/topic/e63ab760-f3de-4c47-ae87-dad601b0e9c4) and [Analyst](https://support.microsoft.com/topic/ff505b9c-a06c-4be9-b855-69d89b1d25d2) agents, the **Edit users** panel is disabled. To manage their availability, you must block the agent for the entire tenant by using the **Block** action in the admin center.

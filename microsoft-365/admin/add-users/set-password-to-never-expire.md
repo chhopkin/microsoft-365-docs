@@ -39,6 +39,9 @@ This article explains how to set a password for an individual user to not expire
 
 This article is for people who set password expiration policy for a business, school, or nonprofit. You must be a [global admin or password administrator](about-admin-roles.md) to perform these steps.
 
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
+
 You can use the Microsoft cloud service [Microsoft Graph PowerShell](/powershell/microsoftgraph/overview) to:
 
 - Find users whose passwords never expire.

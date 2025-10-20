@@ -54,4 +54,4 @@ To avoid service interruptions and asset deletions due to unpaid invoices, we re
 
 ## Related content
 
-[Payment options for Microsoft business subscriptions](pay-for-your-subscription.md) (article)
+[Pay your Microsoft business invoice by using a credit or debit card](pay-for-your-subscription.md) (article)

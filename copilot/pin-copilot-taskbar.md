@@ -3,9 +3,10 @@ title: Pin Microsoft 365 Copilot and its companion apps to the Windows taskbar
 description: "Learn how to improve the use of Microsoft 365 Copilot across your organization by pinning the Copilot app to the Windows taskbar."
 f1.keywords:
 - NOCSH
-ms.author: aaroncz
-author: aczechowski
+author: kwekuako
+ms.author: kwekua
 manager: scotv
+
 ms.reviewer: christin,vmirapur
 ms.update-cycle: 180-days
 ms.date: 08/05/2025

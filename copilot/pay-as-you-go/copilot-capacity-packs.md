@@ -5,7 +5,7 @@ author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
 ms.update-cycle: 180-days
-ms.reviewer: issahn, clalissayi
+ms.reviewer: kkannampully, ronild
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-copilot
@@ -15,7 +15,7 @@ ms.collection:
 - essentials-overview
 appliesto:
 - ✅ Microsoft 365 Copilot
-ms.date: 09/18/2025
+ms.date: 10/15/2025
 ---
 
 # Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat
@@ -27,7 +27,7 @@ By default, Copilot Chat uses [pay-as-you-go billing](overview.md). With a capac
 > [!NOTE]
 > You must enable pay-as-you-go billing before you can use a capacity pack for Copilot Chat. When you enable pay-as-you-go billing first, your Copilot Chat environment is linked to an Azure subscription to pay for any overages and provisions the environment for capacity usage.
 
-This article explains how global administrators can use Copilot Studio capacity packs in the Microsoft 365 admin center for Microsoft 365 Copilot Chat. This article also covers the end-to-end process, including buying a capacity pack, setting up pay-as-you-go billing, allocating capacity in the Power Platform Admin Center, and monitoring usage.
+This article explains how global administrators can use Copilot Studio capacity packs in the Microsoft 365 admin center for Microsoft 365 Copilot Chat and SharePoint agents. This article also covers the end-to-end process, including buying a capacity pack, setting up pay-as-you-go billing, allocating capacity in the Power Platform Admin Center, and monitoring usage.
 
 ## Before you begin
 
@@ -47,7 +47,7 @@ With pay-as-you-go billing, you pay per credit for any usage beyond the prepaid 
 
 A major benefit of the integration between prepaid capacity packs and pay-as-you-go billing is seamless continuity when your prepaid capacity is exhausted. This continuity is handled in the following ways:
 
-- **Automatic switch to pay-as-you-go billing:** When consumption exceeds the allocated prepaid credits in the capacity pack, Copilot Chat automatically switches to pay-as-you-go billing for extra credits. There's no service interruption and users can continue using Copilot Chat as usual.
+- **Automatic switch to pay-as-you-go billing:** When consumption exceeds the allocated prepaid credits in the capacity pack, Copilot Chat and SharePoint agents automatically switch to pay-as-you-go billing for extra credits. There's no service interruption and users can continue using Copilot Chat and SharePoint agents as usual.
 - **Billing for overages:** Any credits used beyond your prepaid allotment incur pay-as-you-go billing charges to the connected Azure subscription. These charges  appear on your next Azure invoice. For information about billing rates for Copilot Credits, see [Billing rates and management - Microsoft Copilot Studio | Microsoft Learn](/microsoft-copilot-studio/requirements-messages-management).
 - **Replenishment:** Copilot Studio capacity packs are subscription products. At the start of every monthly billing period, your 25,000 credits are replenished. You must have pay-as-you-go billing active as a safety net each month to cover any excess usage. Alternatively, you can top up with more capacity packs.
 
@@ -76,9 +76,9 @@ Next, set up pay-as-you-go billing for Copilot Chat in the Microsoft 365 admin c
 > - If you haven't connected an Azure billing policy, you must do so now. Follow the steps for "Add a billing policy" in [Set up Microsoft 365 Copilot pay-as-you-go for IT admins](setup.md).
 
 1. In the admin center, go to the **Copilot** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2330674" target="_blank">Billing & usage</a> page.
-2. Select the **Pay-as-you-go services** tab, then select **Microsoft 365 Copilot Chat**.
-3. Find the **Billing policy name** to bill for any overage, then switch the **Connection status** toggle to **Connected**. If you have multiple Azure subscriptions or billing policies, select the one that you want to use for Copilot Chat.
-4. If your tenant has a Copilot Studio capacity pack, you see a checkbox for **Apply available Microsoft Copilot Studio credit capacity to Microsoft 365 Copilot Chat**. Select the checkbox to indicate that you want to use your prepaid credit capacity for Copilot Chat.
+2. Select the **Pay-as-you-go services** tab, then select **Microsoft 365 Copilot Chat** or **SharePoint agent**.
+3. Find the **Billing policy name** to bill for any overage, then switch the **Connection status** toggle to **Connected**. If you have multiple Azure subscriptions or billing policies, select the one that you want to use for your service.
+4. If your tenant has a Copilot Studio capacity pack, you see a checkbox for **Apply available Microsoft Copilot Studio credit capacity to Microsoft 365 Copilot Chat**. Select the checkbox to indicate that you want to use your prepaid credit capacity for the selected service.
 5. Select **Save**.
 
 If a Microsoft 365 Copilot Chat environment doesn't already exist in Power Platform, the system creates one for you when you enable the capacity pack option. This environment is where your capacity pack is applied for Copilot Chat usage.
