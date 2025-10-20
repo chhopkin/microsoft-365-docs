@@ -76,6 +76,8 @@ Users can submit thumbs-up or thumbs-down ratings and optional comments.
 Here are some important points about feedback collection. Feedback data:
 
 - Isn't used to train foundation models
+- Isn't linked to individual identities
+- Doesn't include content samples
 - Can be enabled or disabled by administrators at the tenant level
 
 Feedback collection settings apply consistently across all Flow Builder surfaces. If Flow Builder is embedded in an iframe or accessed through other Microsoft 365 interfaces, feedback controls configured at the tenant level apply to both entry points.
