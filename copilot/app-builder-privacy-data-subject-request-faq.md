@@ -54,6 +54,10 @@ App Builder respects tenant-level settings configured in the Microsoft 365 admin
 
 To learn more about managing Copilot agents and tenant settings, see [Manage Copilot Agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide&preserve-view=true).
 
+## Where is the data for App Builder apps stored?
+
+App Builder saves data either in the app or in SharePoint lists. You manage those lists in the app’s SharePoint site, which you can administer from the SharePoint admin center. The site behaves like any site you create directly in SharePoint. For more information, see [Manage sites in the SharePoint admin center](/sharepoint/manage-sites-in-new-admin-center).
+
 
 ## What connectors are supported?
 
