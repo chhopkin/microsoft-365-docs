@@ -185,6 +185,8 @@ items:
     href: microsoft-365-copilot-transparency-note.md
   - name: Flow Builder privacy and data subject request (DSR) FAQ
     href: flow-builder-privacy-data-subject-request-faq.md
+  - name: App Builder privacy and data subject request (DSR) FAQ
+    href: app-builder-privacy-data-subject-request-faq.md
 - name: Extensibility and building agents
   items:
   - name: Extend Microsoft 365 Copilot
