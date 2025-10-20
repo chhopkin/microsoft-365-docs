@@ -179,7 +179,7 @@ There are a couple of ways to get the Experience insights dashboard page:
 
 - If you’re a member of the Reports reader role or the User Experience success manager roles, once you sign into the admin center, you’ll automatically go to the Experience insights (preview) dashboard page. You can switch back to the admin center Dashboard view by selecting that option in the top right.
 
-    :::image type="content" source="../media/exp-insights-dashboard2.png" alt-text="Screenshot: How to get to the insights dashboard":::
+    :::image type="content" alt-text="Screenshot: How to get to the insights dashboard" source="../media/exp-insights-dashboard2.png" lightbox="../media/exp-insights-dashboard2.png":::
 
 For more information, see [Microsoft 365 Experience insights dashboard](misc/experience-insights-dashboard.md).
 
