@@ -17,7 +17,7 @@ metadata:
   ms.custom: intro-hub-or-landing
   author: samanro #Required; your GitHub user alias, with correct capitalization.
   ms.author: samanro #Required; microsoft alias of author; optional team alias.
-  ms.date: 07/25/2023 #Required; mm/dd/yyyy format.
+  ms.date: 10/20/2025 #Required; mm/dd/yyyy format.
   ms.localizationpriority: high
 
 # highlightedContent section (optional)
@@ -38,8 +38,8 @@ highlightedContent:
       itemType: learn
       url: /training/m365/
     # Card
-    - title: Get your small business started with Microsoft 365
-      itemType: quickstart
+    - title: Videos to get your small business started with Microsoft 365
+      itemType: video
       url: business-video/index.yml
     # Card
     - title: Set up your infrastructure for hybrid work
