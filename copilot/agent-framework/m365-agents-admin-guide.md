@@ -443,8 +443,8 @@ You can assign and unassign individual agents to users and groups within your or
 
 There are two different actions that involve assigning agents to members of your organization:
 
-- Available to: Allows you to select members of your organization that can find and install an agent.
-- Deployed to: Allows you to deploy an agent to members of your organization, or just yourself.
+- **Available to**: Allows you to select members of your organization that can find and install an agent.
+- **Deployed to**: Allows you to deploy an agent to members of your organization, or just yourself.
 
 > [!NOTE]
 > Before you assign an agent to users or groups, review the agent’s capabilities, knowledge, and actions. Also, consider the agent’s security and compliance. For more information, see [Review available agents](#review-available-agents).

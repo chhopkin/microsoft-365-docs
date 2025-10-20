@@ -19,5 +19,6 @@ description: Choose your Copilot Studio experience t build Microsoft 365 Copilot
 # Choose your Copilot Studio Experience to build Microsoft 365 Copilot agents
 
 
+## Licensing requirements
 
-
+## Governance principles
