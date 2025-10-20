@@ -65,8 +65,6 @@ Users can submit thumbs-up or thumbs-down ratings and optional comments.
 Here are some important points about feedback collection. Feedback data:
 
 - Isn't used to train foundation models
-- Isn't linked to individual identities
-- Doesn't include content samples
 - Can be enabled or disabled by administrators at the tenant level
 
 User feedback is managed alongside other Microsoft Copilot user feedback, see more:
