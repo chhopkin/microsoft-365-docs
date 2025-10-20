@@ -39,7 +39,7 @@ The integrated apps portal displays a list of apps that can be accessed by users
 
 The portal can be accessed via the Microsoft 365 Admin Center. Select **Settings**, and then choose **Integrated apps**.
 
-![Integrated Apps home](../../media/new-int-apps.png)
+:::image type="content" alt-text="Integrated Apps home" source="../../media/new-int-apps.png" lightbox="../../media/new-int-apps.png":::
 
 ## Who can access the integrated apps portal
 
@@ -51,14 +51,15 @@ The integrated apps portal is available to world-wide customers only and can be 
 - Exchange administrator
 - Azure Application Admins
 
-> [!NOTE]
-> This feature is not available in sovereign and government clouds.
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
+
+This feature is not available in sovereign and government clouds.
 
 To learn more about these roles, see [Microsoft Entra built-in roles - Microsoft Entra|Microsoft Learn](/azure/active-directory/roles/permissions-reference#all-roles).
 
 ## User and group assignments
 
-Apps, agents, and add-ins in the portal can be made be deployed for specific groups, including most groups supported by Microsoft Entra ID. These are Microsoft 365 groups, distribution lists, and security groups. Assignments must be made to top-level groups (that is, groups without parent groups) only. Apps cannot be deployed for specific nested groups (that is, groups that have parent groups). To know more, read the documentation on [Assign users and groups to application](/azure/active-directory/manage-apps/assign-user-or-group-access-portal?pivots=portal).
+Apps, agents, and add-ins in the portal can be deployed for specific groups, including most groups supported by Microsoft Entra ID. These are Microsoft 365 groups, distribution lists, and security groups. Assignments must be made to top-level groups (that is, groups without parent groups) only. Apps cannot be deployed for specific nested groups (that is, groups that have parent groups). To know more, read the documentation on [Assign users and groups to application](/azure/active-directory/manage-apps/assign-user-or-group-access-portal?pivots=portal).
 
 > [!NOTE]
 > The following are currently not supported:
@@ -88,9 +89,9 @@ As an admin, the following app, agent, and add-in types can be managed from the 
 
 |Type|Supported Host Products (any or all)|What can admins control on integrated apps portal?|Which admins can access the controls on integrated apps portal?|Other admin centers & related actions|
 |---|---|---|---|---|
-|Add-in|Outlook<br/><br/><br/> Word, Excel, PowerPoint|[Deploy/Edit deployed users/Remove deployment](/microsoft-365/admin/manage/office-addins#deploy-your-office-add-ins)|Exchange Admin<br/><br/> Global Admin | Exchange Admin Center for default role assignment policy.<br/><br/>  Microsoft 365 Admin Center > Org Settings for Office Store setting|
+|Add-in|Outlook<br/><br/><br/> Word, Excel, PowerPoint|[Deploy/Edit deployed users/Remove deployment](/microsoft-365/admin/manage/office-addins#deploy-your-office-add-ins)|Exchange Admin<br/><br/> | Exchange Admin Center for default role assignment policy.<br/><br/>  Microsoft 365 Admin Center > Org Settings for Office Store setting|
 |SPFx app|SharePoint|[Deploy/Remove deployment](/microsoft-365/admin/manage/office-addins#deploy-your-office-add-ins)|Global Admin|SharePoint Admin Center|
-|Web app|N/A|[Deploy/Edit deployed users](/microsoft-365/admin/manage/office-addins#deploy-your-office-add-ins) |Global Admin<br/><br/>Azure Application Admin|Microsoft Entra admin center|
+|Web app|N/A|[Deploy/Edit deployed users](/microsoft-365/admin/manage/office-addins#deploy-your-office-add-ins) |Azure Application Admin|Microsoft Entra admin center|
 |Teams app that uses the unified manifest for Microsoft 365 (formerly Teams manifest) version less than 1.13|Teams|[Block & Unblock](/microsoft-365/admin/manage/teams-apps-work-only-on-teams)|Global Admin|Go to Teams admin center for default tenant setting, deployment, and managing availability|
 |Teams app that uses the unified manifest for Microsoft 365 (formerly Teams manifest) version equal to or greater than 1.13|Outlook<br/><br/> Microsoft 365 App<br/><br/> Teams| [Deploy/Edit deployed users/Remove deployment](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365#deploy-a-teams-app-that-works-on-outlook-and-the-microsoft-365-app-via-the-integrated-apps-portal)<br/><br/> [Block & Unblock](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365#manage-how-users-can-install-teams-apps-on-outlook-and-the-microsoft-365-app) <br/><br/> [Manage availability>Edit users](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365#how-to-manage-the-availability-of-an-app-in-your-organization)<br/><br/> [Default setting for tenant](/microsoft-365/admin/manage/teams-apps-work-on-outlook-and-m365#customize-default-settings-for-teams-apps-that-work-on-outlook-and-the-microsoft-365-app)|Azure Application Admin|Go to Teams admin center to manage how this app shows up in Teams for users in your organization.|
 
@@ -115,7 +116,7 @@ You can access this information in the following ways:
 
 - For publicly available store apps, links to Terms of Use, Privacy Policy, and Support are available on [AppSource](https://appsource.microsoft.com). Search for an application and navigate to its **Details + Support** tab for the links.
 
-   :::image type="content" source="../../media/app-support-legal-info.png" alt-text="Screenshot to show how to find app support information on AppSource website.":::
+   :::image type="content" alt-text="Screenshot to show how to find app support information on AppSource website." source="../../media/app-support-legal-info.png" lightbox="../../media/app-support-legal-info.png":::
 
 - For a custom app, contact the app developer who initiated the request to upload the custom app. For Copilot agents submitted via Microsoft Copilot Studio, Microsoft 365 Agents Toolkit, or any other source, requester's contact details are available in the app details pane in `Requested Apps` tab.
 
