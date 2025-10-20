@@ -265,7 +265,7 @@ You can access key metadata for Copilot agents in **Agents** > **Agent inventory
 
 ### Agent overview tab
 
-The **Overview** tab for a selected agent provides the complete description of the agent. This description is the description the maker provided when creating the agent, also this description follows the pattern provied in the Agent Store experience. In addition, the **Overview** tab provides key information, such as the following items:
+The **Overview** tab for a selected agent provides the complete description of the agent. This description is the description the maker provided when the agent was created. It follows the pattern provided in the Agent Store experience. In addition, the **Overview** tab provides key information, such as the following items:
 
 - Availability
 - Publisher
