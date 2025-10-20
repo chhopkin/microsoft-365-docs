@@ -79,6 +79,8 @@ Use a domain name you already own whether you're using it for a website address 
 
 You must be a global admin to perform these steps.
 
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
+
 ::: moniker range="o365-worldwide"
 
 1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
