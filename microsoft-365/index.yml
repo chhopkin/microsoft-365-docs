@@ -15,8 +15,8 @@ metadata:
     - EngageScoreNov2022
     - contentengagementFY23
   ms.custom: intro-hub-or-landing
-  author: samanro #Required; your GitHub user alias, with correct capitalization.
-  ms.author: samanro #Required; microsoft alias of author; optional team alias.
+  author: kwekuako #Required; your GitHub user alias, with correct capitalization.
+  ms.author: kwekua #Required; microsoft alias of author; optional team alias.
   ms.date: 10/20/2025 #Required; mm/dd/yyyy format.
   ms.localizationpriority: high
 
@@ -38,7 +38,7 @@ highlightedContent:
       itemType: learn
       url: /training/m365/
     # Card
-    - title: Videos to get your small business started with Microsoft 365
+    - title: Get your small business started with Microsoft 365
       itemType: video
       url: business-video/index.yml
     # Card
