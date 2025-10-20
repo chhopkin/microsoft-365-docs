@@ -43,8 +43,10 @@ Administrators can manage App Builder in the Microsoft 365 admin center under **
 
 - Enable or disable the agent
 - Assign, block, or remove access
-- Control visibility using **Allow users access to agents**.
+- Control visibility using **Allow users access to agents**
+
 App Builder respects tenant-level settings configured in the Microsoft 365 admin center and Power Platform Admin Center. These settings determine:
+
 - Whether App Builder is enabled
 - Whether feedback collection is allowed
 - Whether analytics and telemetry are collected
