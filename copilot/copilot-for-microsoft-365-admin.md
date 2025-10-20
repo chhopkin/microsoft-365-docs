@@ -2,8 +2,8 @@
 title: "Copilot in Microsoft 365 admin centers"
 f1.keywords:
 - NOCSH
-ms.author: aaroncz
-author: aczechowski
+author: kwekuako
+ms.author: kwekua
 manager: scotv
 ms.date: 05/01/2025
 ms.update-cycle: 180-days
