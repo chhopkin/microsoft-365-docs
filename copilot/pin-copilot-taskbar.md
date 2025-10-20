@@ -38,7 +38,7 @@ To configure Copilot taskbar pinning in the Microsoft 365 admin center, you need
 
 ## Step 1: Download and install companion apps
 
-Companion apps aren’t installed by default. You can download them here: [Download Microsoft 365 companion apps](https://aka.ms/setup-90562c73-b3e8-413d-bc0c-a58075c7ac72).
+Companion apps aren't installed by default. You can download them here: [Download Microsoft 365 companion apps](https://aka.ms/setup-90562c73-b3e8-413d-bc0c-a58075c7ac72).
 
 The companion apps suite includes:
 
@@ -78,7 +78,7 @@ To configure this setting in the Microsoft 365 admin center, you need to be assi
 
     - **Pin Microsoft 365 Copilot and its companion apps to the Windows taskbar (recommended)**
 
-        Select this option to automatically pin the Microsoft 365 Copilot app and the companion apps to the Windows taskbar. When you enable this setting, this Copilot and companion apps appear to the right of other apps that are already pinned on the taskbar. The user isn't notified when this action is applied on the device. You have the option to remove the companion apps from getting pinned to the Windows taskbar by expanding the “Customize” arrow and uncheck “Pin the Microsoft 365 companion apps to the Windows taskbar” checkbox.  The options to pin only the companion apps and not Microsoft 365 Copilot app is not available.
+        Select this option to automatically pin the Microsoft 365 Copilot app and the companion apps to the Windows taskbar. When you enable this setting, this Copilot and companion apps appear to the right of other apps that are already pinned on the taskbar. The user isn't notified when this action is applied on the device. You have the option to remove the companion apps from getting pinned to the Windows taskbar by expanding the "Customize" arrow and uncheck "Pin the Microsoft 365 companion apps to the Windows taskbar" checkbox.  The options to pin only the companion apps and not Microsoft 365 Copilot app is not available.
 
         :::image type="content" source="media/pin-copilot-taskbar/companion-apps.png" alt-text="Screenshot that shows the Windows taskbar with the Microsoft 365 Copilot app and companion apps pinned.":::
 
@@ -101,7 +101,7 @@ Join the [Ask a question - Microsoft Q&A](/answers/questions/ask/) to connect wi
 
 With the companion apps on their taskbar, user can enjoy:
 
-- **Instant access**: users can quickly find people, files, and calendar events—right from the Windows taskbar, without switching apps or losing context.
+- **Instant access**: users can quickly find people, files, and calendar events right from the Windows taskbar, without switching apps or losing context.
 - **Streamlined workflows**: Pinning these apps makes it easier to collaborate, join meetings, and locate important files, saving time throughout the day.
 - **Personalization**: Users can choose which apps to keep on their taskbar, pin favorites, and customize their experience.  
 
