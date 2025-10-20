@@ -4,8 +4,8 @@ description: Learn how to inventory scheduled prompts in Microsoft 365 Copilot u
 #customer intent: As an admin, I want to inventory scheduled prompts in my organization so that I can manage them efficiently.
 f1.keywords:
 - NOCSH
-ms.author: aaroncz
-author: aczechowski
+ms.author: scotv
+author: scotv
 manager: scotv
 ms.date: 09/16/2025
 ms.update-cycle: 180-days
