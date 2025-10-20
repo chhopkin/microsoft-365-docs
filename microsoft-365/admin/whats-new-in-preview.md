@@ -52,7 +52,8 @@ And if you'd like to know what's new with other Microsoft cloud services, check 
 - [Microsoft 365 updates](/OfficeUpdates/)
 - [How to check Windows release health](/windows/deployment/update/check-release-health)
 
-[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
+> [!IMPORTANT]
+> Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you cannot use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](add-users/about-admin-roles.md).
 
 ## June 2025
 
