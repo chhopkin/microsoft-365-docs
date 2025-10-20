@@ -39,7 +39,7 @@ The integrated apps portal displays a list of apps that can be accessed by users
 
 The portal can be accessed via the Microsoft 365 Admin Center. Select **Settings**, and then choose **Integrated apps**.
 
-![Integrated Apps home](../../media/new-int-apps.png)
+:::image type="content" alt-text="Integrated Apps home" source="../../media/new-int-apps.png" lightbox="../../media/new-int-apps.png":::
 
 ## Who can access the integrated apps portal
 
