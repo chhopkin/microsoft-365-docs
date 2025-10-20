@@ -4,8 +4,8 @@ description: Discover Microsoft 365 Copilot license plans and integration option
 #customer intent: As an IT admin, I want to understand the licensing options for Microsoft 365 Copilot so that I can determine the best plan for my organization.
 f1.keywords:
 - NOCSH
-ms.author: aaroncz
-author: aczechowski
+author: cmcatee-MSFT
+ms.author: cmcatee
 manager: scotv
 ms.date: 10/07/2025
 ms.update-cycle: 180-days

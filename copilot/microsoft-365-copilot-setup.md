@@ -4,8 +4,8 @@ description: Learn how to set up Microsoft 365 Copilot for your organization. As
 #customer intent: As an IT admin, I want to set up Microsoft 365 Copilot and assign licenses so that my organization can start using its features effectively.
 f1.keywords:
 - NOCSH
-ms.author: aaroncz
-author: aczechowski
+author: kwekuako
+ms.author: kwekua
 manager: scotv
 ms.date: 10/14/2025
 ms.update-cycle: 180-days

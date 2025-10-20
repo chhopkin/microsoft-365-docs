@@ -3,8 +3,8 @@ title: Manage Microsoft 365 Copilot Scenarios
 description: Learn about Microsoft 365 Copilot scenarios and settings that you can configure using the Copilot Control System in the Microsoft 365 admin center.
 f1.keywords:
 - NOCSH
-ms.author: aaroncz
-author: aczechowski
+author: kwekuako
+ms.author: kwekua
 manager: scotv
 ms.reviewer: elvaf
 ms.date: 10/15/2025
