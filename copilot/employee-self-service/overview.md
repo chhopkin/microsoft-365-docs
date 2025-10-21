@@ -22,7 +22,7 @@ appliesto:
 >[!NOTE]
 >The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
-The Employee Self-Service (ESS) agent answer policy-related questions, assist with IT help, and simplify HR tasks to help your employees. The agent makes it easier to:
+The Employee Self-Service (ESS) agent answers policy-related questions, assists with IT help, and simplifies HR tasks to help your employees. The agent makes it easier to:
 
 - Retrieve the right information at the right time in the flow of work. Users can access the agent in the environments they already work, including Teams and Microsoft 365 Copilot Chat.
 - Take action on essential HR and IT tasks without navigating to multiple tools and workspaces. ESS can even help run diagnostics on Microsoft 365 products and services.
