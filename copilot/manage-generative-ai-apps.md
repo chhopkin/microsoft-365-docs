@@ -26,7 +26,7 @@ As people embrace and incorporate [generative AI apps](/ai/playbook/technology-g
 
 But what about non-Microsoft AI apps? 
 
-Using capabilities in [Microsoft Defender XDR](/defender-xdr/microsoft-365-defender), including Microsoft Defender for Cloud Apps and Microsoft Defender for Endpoint, your security team can enable people in your organization to use generative AI apps more securely, including Microsoft and non-Microsoft AI apps.
+Using capabilities in [Microsoft Defender XDR](/defender-xdr/microsoft-365-defender), which includes Microsoft Defender for Cloud Apps and Microsoft Defender for Endpoint, your security team can enable people in your organization to use generative AI apps more securely, including Microsoft and non-Microsoft AI apps.
 
 Discovering, monitoring, and managing AI apps is essential to prevent data leaks, maintain compliance, enforce governance, and uphold trust in enterprise AI adoption.
 
@@ -65,7 +65,8 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
 
 ## Set up a policy to create an alert for new generative AI apps
 
-Before you begin, review the [prerequisites](/defender-cloud-apps/governance-discovery#prerequisites).
+> [!NOTE]
+> Before you begin, review the [prerequisites](/defender-cloud-apps/governance-discovery#prerequisites).
 
 1. Go to the [Microsoft Defender portal](https://security.microsoft.com) and sign in.
 
