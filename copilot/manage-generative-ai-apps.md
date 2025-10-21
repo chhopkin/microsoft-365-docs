@@ -106,7 +106,18 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
    - In the **Apps matching all fo the following** section, specify **Category equals Generative AI** and **Tag equals Unsanctioned**.
    - In the **Apply to** list, select **All continuous reports**.
 
+   For more information about creating custom policies, see [Custom policies](/defender-cloud-apps/app-governance-app-policies-create#custom-policies).
+
 4. Finish configuring your policy, and save your changes.
+
+On the Define Policy Actions page, select Disable app if you want app governance to disable the app when an alert based on this policy is generated, and then select Next. Use caution when applying actions because a policy may affect users and legitimate app use.
+
+On the Define Policy Status page, select one of these options:
+
+Audit mode: Policies are evaluated but configured actions won't occur. Audit mode policies appear with the status of Audit in the list of policies. You should use Audit mode for testing a new policy.
+Active: Policies are evaluated and configured actions will occur.
+Inactive: Policies aren't evaluated and configured actions won't occur.
+Carefully review all parameters of your custom policy. Select Submit when you're satisfied. You can also go back and change settings by selecting Edit beneath any of the settings.
 
 ## Quick reference table: AI app risk mitigation and Microsoft solutions
 
