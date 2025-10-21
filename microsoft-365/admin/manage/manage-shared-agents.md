@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 09/04/2025
+ms.date: 10/19/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -121,5 +121,8 @@ The exported file includes comprehensive information about each shared agent, su
 - Description
 - Status
 - Version
+- Knowledge
+- Data sources
+- Actions
 
-With this information, you can efficiently manage and review the shared agents within your organization, ensuring compliance and optimizing resource allocation.
+With this information, you can efficiently manage and review the shared agents within your organization, helping to ensure both compliance and governance, as well as resource optimization and allocation. In addition, these metadata fields provide increased capability for bulk management of the agents used within your organization.
