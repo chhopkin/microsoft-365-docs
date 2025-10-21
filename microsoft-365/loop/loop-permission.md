@@ -1,5 +1,5 @@
 ---
-title: Overview of Copilot Pages, Copilot Notebooks, and Loop workspaces storage and permissions
+title: Overview of Loop components and Loop workspaces permissions
 ms.author: odocspr
 author: officedocspr5
 manager: jtremper
@@ -15,7 +15,7 @@ ms.collection:
 - M365-collaboration
 - essentials-compliance
 - magic-ai-copilot
-description: Learn about Copilot Pages, Copilot Notebooks, and Loop workspaces storage and permissions in the Microsoft 365 ecosystem.
+description: Learn about Loop components and Loop workspaces permissions in the Microsoft 365 ecosystem.
 f1.keywords:
 - CSH
 ms.custom: 
