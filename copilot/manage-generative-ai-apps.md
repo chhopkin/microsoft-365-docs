@@ -52,7 +52,9 @@ Discovering, monitoring, and managing AI apps is essential to prevent data leaks
 
 2. In the navigation pane, expand **Cloud apps**, and then select **Cloud app catalog**.
 
-3. 
+3. In the **Category** filter, select **Generative AI**. 
+
+4. Review the list of apps, along with their risk scores. For more information, see [Find your cloud app and calculate risk scores](/defender-cloud-apps/risk-score).
 
 ## Set up a policy to create an alert for new generative AI apps
 
