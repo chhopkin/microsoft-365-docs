@@ -78,7 +78,7 @@
       {
          "source_path":"microsoft-365/frontline/deploy-shifts-at-scale.md",
          "redirect_url":"/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams", 
-         "redirect_document_id":true
+         "redirect_document_id":false
       }
    ]
 }
