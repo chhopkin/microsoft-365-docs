@@ -3,6 +3,16 @@ items:
   href: index.yml
 - name: Copilot release notes
   href: release-notes.md
+- name: Copilot Control System
+  items:
+  - name: Copilot Control System overview
+    href: copilot-control-system/overview.md
+  - name: Security and governance
+    href: copilot-control-system/security-governance.md
+  - name: Management controls
+    href: copilot-control-system/management-controls.md
+  - name: Measurement and reporting
+    href: copilot-control-system/measurement-reporting.md
 - name: Get started with Microsoft 365 Copilot
   items:
   - name: What is Microsoft 365 Copilot?
@@ -142,7 +152,7 @@ items:
   - name: Teams Rooms and Copilot overview
     href: /microsoftteams/rooms/copilot-admin-mtr?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fmicrosoft-365-copilot%2Fbreadcrumb%2Ftoc.json
   - name: Manage Copilot access for B2B members within multitenant organizations (MTO) in Teams
-    href: /microsoftteams/copilot-teams-multitenant-organization?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fmicrosoft-365-copilot%2Fbreadcrumb%2Ftoc.json
+    href: /microsoftteams/copilot-mto?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fmicrosoft-365-copilot%2Fbreadcrumb%2Ftoc.json
 - name: Microsoft 365 Copilot in Microsoft Viva
   items:
   - name: Introduction to Microsoft 365 Copilot in Viva
