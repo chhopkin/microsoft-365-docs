@@ -4,8 +4,8 @@ description: "Learn how to pin Microsoft 365 Copilot Chat in Microsoft 365 apps 
 #customer intent: As an IT admin, I want to pin Microsoft 365 Copilot Chat in Microsoft 365 apps so that users can easily access the secure and compliant generative AI solution.
 f1.keywords:
 - NOCSH
-ms.author: aaroncz
-author: aczechowski
+author: kwekuako
+ms.author: kwekua
 manager: scotv
 ms.date: 09/26/2025
 ms.update-cycle: 180-days
