@@ -18,7 +18,7 @@ description: Learn how to develop Microsoft 365 agents using Copilot Studio (lit
 
 # Development Microsoft 365 agents using Copilot Studio (lite)
 
-Using Copilot Studio (lite) in Microsoft 365 Copilot Chat and SharePoint, members of your organization (end users) can create declarative agents. This out-of-the-box solution works with your existing data and can be made available to end users at your organization. End users can query organization knowledge contained in SharePoint sites, folders, and files, as well as search general web content. Data can also be made available using Microsoft Graph connectors.
+When you create an agent using Copilot Studio (lite) in either the Microsoft 365 Copilot app or SharePoint, members of your organization (end users) can create declarative agents. This out-of-the-box solution works with your existing data and can be made available to end users at your organization. End users can query organization knowledge contained in SharePoint sites, folders, and files, as well as search general web content. Data can also be made available using Microsoft Graph connectors.
 
 Copilot Studio (lite) is available through Microsoft 365 Copilot Chat if your organization’s tenant has enabled pay-as-you-go for Copilot Studio, or if your organization has a Microsoft 365 Copilot license.
 
@@ -32,6 +32,4 @@ To get started quickly, view the following step-by-step walkthrough video:
 > End users can get started quickly using templates included with Copilot Studio (lite). These templates apply design guidelines and industry best practices. For more information, see [Copilot Studio agent templates](/microsoft-365-copilot/extensibility/agent-builder-templates).
 
 For more information, see [Build agents with Copilot Studio (lite)](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
-
-
 

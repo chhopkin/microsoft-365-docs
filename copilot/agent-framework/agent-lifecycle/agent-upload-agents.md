@@ -25,7 +25,7 @@ To upload an agent, the agent must be contained in a ZIP packet file. The ZIP fi
 Your Copilot agent ZIP file can be downloaded from Copilot Studio by selecting **Agents** > *the name of your agent* > **Channels**. Select the channel you use to publish, such as **Teams and Microsoft 365 Copilot**. Select **Availability options** > **Download .zip**.
 
 > [!NOTE]
-> The ZIP packet file (.zip) can also be used to share agents. For more information, see [Sideload agents for personal use](#sideload-agents-for-personal-use).
+> The ZIP packet file (.zip) can also be used to share agents. For more information, see [Sideload agents for personal use](../agent-policies/agent-sideload.md).
 
 To upload an agent as a ZIP packet file to the Microsoft 365 admin center:
 
@@ -44,7 +44,7 @@ To upload an agent as a ZIP packet file to the Microsoft 365 admin center:
 
 :::image type="content"  source="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-deploy-new.png" alt-text="Screenshot of deploying a new agent within M365 the Copilot Control System."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-deploy-new.png":::
 
-To manage, assign, and publish the agent, see [Assign and deploy agents](#assign-and-deploy-agents).
+To manage, assign, and publish the agent, see [Assign and deploy agents](../agent-policies/agent-deploy-agents.md).
 
 
 

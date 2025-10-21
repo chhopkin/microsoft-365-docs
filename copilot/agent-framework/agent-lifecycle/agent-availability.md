@@ -26,7 +26,7 @@ There are two different actions that involve assigning agents to members of your
 - **Deployed to**: Allows you to deploy an agent to members of your organization, or just yourself.
 
 > [!NOTE]
-> Before you assign an agent to users or groups, review the agent’s capabilities, knowledge, and actions. Also, consider the agent’s security and compliance. For more information, see [Review available agents](#review-available-agents).
+> Before you assign an agent to users or groups, review the agent’s capabilities, knowledge, and actions. Also, consider the agent’s security and compliance. For more information, see [Review available agents](../m365-agents-admin-guide.md#review-available-agents).
 
 To view details about an individual agent:
 

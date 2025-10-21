@@ -32,7 +32,7 @@ Use the following steps to view pending agent requests and act on those requests
     Confirm the capabilities, data sources, and custom actions that the agent can invoke.
 4. Next to the name of the agent, select the action to **Publish** or **Reject** the agent.
 
-For more information publishing requested agents, see [Publish agents](#publish-agents).
+For more information publishing requested agents, see [Publish agents](/microsoft-365-copilot/extensibility/publish).
 
 ### Publish requested agents
 
