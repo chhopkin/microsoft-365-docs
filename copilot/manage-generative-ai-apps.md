@@ -48,6 +48,8 @@ Discovering, monitoring, and managing AI apps is essential to prevent data leaks
 
 ## Discover generative AI apps that are in use in your organization
 
+Use the Microsoft Defender portal to see a list of AI apps your organization is using. Defender for Cloud Apps includes a catalog of apps with security and compliance risk scores.
+
 1. Go to the [Microsoft Defender portal](https://security.microsoft.com) and sign in.
 
 2. In the navigation pane, expand **Cloud apps**, and then select **Cloud app catalog**.
