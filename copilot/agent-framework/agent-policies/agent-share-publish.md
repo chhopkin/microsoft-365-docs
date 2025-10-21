@@ -18,6 +18,13 @@ description: Understand how to share and publish Microsoft Copilot agents.
 
 # Understand how to share and publish Microsoft Copilot agents
 
+There are several methods end users, makers, and developers can use to distribute agents for M365 Copilot. The methods largely depend on the type of agent they create and the environment they use to create the agent. For details about agent types and environments, see [Create agents](../agent-create/copilot-development-environments.md).
 
+The most common distribution methods for agents are the following:
 
+- [Sideload for personal use at your organization](agent-sideload.md)
+- [Share with others at your organization](agent-share.md)
+- [Publish to your organizational catalog](agent-submit-org.md)
+- [Submit to Microsoft Commercial Marketplace](agent-submit-marketplace.md)
 
+For more information about publishing agents, see [Publish agents for Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/publish).
