@@ -26,7 +26,7 @@ As people embrace and incorporate [generative AI apps](/ai/playbook/technology-g
 
 But what about non-Microsoft AI apps? 
 
-Using capabilities in [Microsoft Entra](/entra/fundamentals/what-is-entra), [Microsoft Purview](/purview/purview), [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps), and [Microsoft Defender XDR](/defender-xdr/microsoft-365-defender), your security team can enable people in your organization to use generative AI apps more securely, including Microsoft and non-Microsoft AI apps.
+Using capabilities in [Microsoft Defender XDR](/defender-xdr/microsoft-365-defender), including Microsoft Defender for Cloud Apps and Microsoft Defender for Endpoint, your security team can enable people in your organization to use generative AI apps more securely, including Microsoft and non-Microsoft AI apps.
 
 Discovering, monitoring, and managing AI apps is essential to prevent data leaks, maintain compliance, enforce governance, and uphold trust in enterprise AI adoption.
 
