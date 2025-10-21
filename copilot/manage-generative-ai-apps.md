@@ -61,25 +61,52 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
 
 3. In the **Category** filter, select **Generative AI**. 
 
-4. Review the list of apps, along with their risk scores. Make a note of the apps you might want to monitor or block. See [Find your cloud app and calculate risk scores](/defender-cloud-apps/risk-score).
+4. Review the list of apps, along with their risk scores. Make a note of the apps you might want to monitor or block. For more information about risk scores, see [Find your cloud app and calculate risk scores](/defender-cloud-apps/risk-score).
 
 ## Set up a policy to create an alert for new generative AI apps
 
 > [!NOTE]
 > Before you begin, review the [prerequisites](/defender-cloud-apps/governance-discovery#prerequisites).
 
-1. In the [Microsoft Defender portal](https://security.microsoft.com), in the navigation pane, select **Cloud apps** > **Cloud discovery**.
+1. In the [Microsoft Defender portal](https://security.microsoft.com), in the navigation pane, select **Cloud apps** > **App governance**.
 
-2. On the **Discovered apps** tab, in the **Category** filter, select **Generative AI**.
+2. Select the **Policies** tab, and then select **Microsoft 365**.
 
-3. In the list of results, select an AI app that you want to block. At the end of its row, select the three dots, and then select **Unsantioned**. This action adds an *Unsanctioned* tag that enables you to monitor the app.
+3. Create a new policy using the **Custom** category, and specify the following settings:
 
-> [!IMPORTANT]
-> If you're using Defender for Endpoint, as soon as an app is marked as unsanctioned, it's automatically blocked across onboarded devices. However, your security team can specify whether to warn and educate users instead of blocking apps. See [Educate users when accessing risky apps](/defender-cloud-apps/mde-govern#educate-users-when-accessing-risky-apps).
+   - For **Policy template**, choose **No template**.
+   - For **Policy name**, type a name like *New Generative AI Apps*.
+   - For **Policy severity**, select the level 2 option.
+   - Provide a description, like *Generate an alert when a a new Generative AI app is used*.
+   - In the **Apps matching all of the following** section, specify **Category equals Generative AI**.
+   - In the **Apply to** list, select **All continuous reports**.
+
+4. Finish configuring your policy, and save your changes. 
 
 ## Block specific generative AI apps
 
-PROCEDURE
+1. In the [Microsoft Defender portal](https://security.microsoft.com), in the navigation pane, select **Cloud apps** > **Cloud discovery**. 
+
+2. On the **Discovered apps** tab, in the **Category** filter, select **Generative AI**.
+
+3. In the list of results, select an AI app that you want to block. At the end of its row, select the three dots, and then select **Unsanctioned**. This action adds an *Unsanctioned* tag that enables you to monitor the app.
+
+   > [!IMPORTANT]
+   > If you're using Defender for Endpoint, as soon as an app is marked as unsanctioned, it's automatically blocked across onboarded devices. However, your security team can specify whether to warn and educate users instead of blocking apps. See [Educate users when accessing risky apps](/defender-cloud-apps/mde-govern#educate-users-when-accessing-risky-apps).
+
+4. In the navigation pane, select **Cloud apps** > **App governance**.
+
+5. Select the **Policies** tab, and then select **Microsoft 365**.
+
+6. Create a new policy using the **Custom** category, and specify the following settings:
+
+   - For **Policy template**, choose **No template**.
+   - For **Policy name**, type a name like *Unsanctioned AI Apps*.
+   - Provide a description, like *Block unsanctioned AI apps*.
+   - In the **Apps matching all fo the following** section, specify **Category equals Generative AI** and **Tag equals Unsanctioned**.
+   - In the **Apply to** list, select **All continuous reports**.
+
+4. Finish configuring your policy, and save your changes.
 
 ## Quick reference table: AI app risk mitigation and Microsoft solutions
 
