@@ -37,6 +37,15 @@ IT admins can manage SharePoint Embedded containers like they manage SharePoint 
 
 IT admins can use SharePoint Admin Center and PowerShell to find ownerless tenant-owned Loop workspaces. For more information, see [Consuming Tenant Admin](/sharepoint/dev/embedded/concepts/admin-exp/cta), and [Get-SPO Container](/powershell/module/microsoft.online.sharepoint.powershell/get-spocontainer). The Loop Application IDs are listed [in this article](#manage-sharepoint-embedded-containers-for-copilot-notebooks-copilot-pages-or-loop-workspaces).
 
+## Administering roles and membership for tenant-owned workspaces
+
+Tenant-owned Loop workspaces created on or after April 2025: Manage Owners and Editors (shown as Members in the SharePoint admin center). Writer and Reader roles are not used.
+
+Tenant-owned Loop workspaces created before April 2025: A legacy roster still controls membership. It is being deprecated. Until fully retired:
+
+- Owners and Editors can manage membership in the Loop app.
+- SharePoint admin center changes apply only to newer (post–April 2025) workspaces.
+
 ## Listing all the user-owned containers
 
 To get a list of all of user-owned containers in your organization, regardless of the container name, update the following sample PowerShell to your needs:
