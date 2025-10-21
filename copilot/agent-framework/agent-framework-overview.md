@@ -37,6 +37,8 @@ Microsoft’s comprehensive security posture for AI includes:
 > [!NOTE]
 > You can also use [Microsoft Purview](/purview/ai-m365-copilot), which provides tools to help you discover, secure, and govern your data for use in Microsoft 365 Copilot, Microsoft 365 Copilot Chat, and agents published to Microsoft 365. In addition, Purview can help discover, protect, and govern the interactions (prompts and responses) with these AI apps.
 
+## Zero Trust
+
 To prepare your Microsoft 365 environment for Copilot and Copilot agents, you should apply the principles of Zero Trust to your tenant. The seven layers of protection encompassing [Zero Trust](/security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json#whats-in-this-article) are the following:
 
 1. Data protection
@@ -54,6 +56,7 @@ For more information about preparing your M365 environment, see [Zero Trust](/se
 Copilot agents follow the Responsible AI (RAI) requirements included with Microsoft 365. Microsoft is committed to ensuring that our AI systems are guided by our [AI principles](https://www.microsoft.com/ai/principles-and-approach/) and [Responsible AI Standard](https://www.microsoft.com/ai/responsible-ai). These principles include empowering our customers to use these systems effectively and in line with their intended uses. Our approach to responsible AI is continually evolving to address emerging issues proactively.
 
 RAI principles include the following principles:
+
 - Accountability
 - Transparency
 - Fairness

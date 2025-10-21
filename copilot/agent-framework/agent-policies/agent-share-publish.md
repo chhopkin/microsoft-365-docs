@@ -22,9 +22,9 @@ There are several methods end users, makers, and developers can use to distribut
 
 The most common distribution methods for agents are the following:
 
-- [Sideload for personal use at your organization](/agent-sideload.md)
-- [Share with others at your organization](/agent-share.md)
-- [Publish to your organizational catalog](/agent-submit-org.md)
-- [Submit to Microsoft Commercial Marketplace](/agent-submit-marketplace.md)
+- [Sideload for personal use at your organization](../agent-sideload.md)
+- [Share with others at your organization](../agent-share.md)
+- [Publish to your organizational catalog](../agent-submit-org.md)
+- [Submit to Microsoft Commercial Marketplace](../agent-submit-marketplace.md)
 
 For more information about publishing agents, see [Publish agents for Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/publish).
