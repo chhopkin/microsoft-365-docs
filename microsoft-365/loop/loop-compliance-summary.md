@@ -34,7 +34,7 @@ As a Compliance Manager or IT administrator, it's crucial to stay up-to-date on 
 
 ## Foundations
 
-- **[Admin Toggle](loop-admin-configuration.md)** exist to turn on or off creation of Loop components, pages, and workspaces. When an IT admins switches Loop component creation on or off in the Microsoft 365 ecosystem, this switch also controls rendering as a hyperlink vs. a live and interactive experience.
+- **[Admin Toggle](loop-admin-configuration.md)** exist to turn on or off creation of Loop components, pages, and workspaces. When an IT admin switches Loop component creation on or off in the Microsoft 365 ecosystem, this switch also controls rendering as a hyperlink vs. a live and interactive experience.
   - If you enable Loop components in the Microsoft 365 ecosystem via the primary toggle, there are secondary toggles to turn on or off Loop components in Outlook or Teams chats and channels. There's also a secondary toggle to turn on or off Loop components for collaborative meeting notes.
 
 - **GDPR** data subject requests can be serviced as part of the [Microsoft Purview portal](/compliance/regulatory/gdpr-data-subject-requests#data-subject-request-admin-tools) and [Purview eDiscovery workflows](/purview/ediscovery).
@@ -83,7 +83,7 @@ As a Compliance Manager or IT administrator, it's crucial to stay up-to-date on 
 
 - **Version History** [export in Purview](/purview/ediscovery-export-search-results#step-1-prepare-search-results-for-export) or via [Graph API](/graph/api/driveitem-get-content-format) is available. Loop workspace content stored in SharePoint Embedded (See [storage](loop-storage.md) for more information), version history is configured to save 50 versions and no admin setting is available to change this configuration. Loop files in OneDrive or SharePoint follow the same file versioning settings as other files.
 
-- **Audit** logs exist for all events. They're retained, can be exported, and can be streamed to third party tools. For more information, see [Purview](cpcn-loop-purview-management.md#searching-the-audit-logs)
+- **Audit** logs exist for all events. They're retained, can be exported, and can be streamed to third party tools. For more information, see [Purview](cpcn-loop-purview-management.md#searching-the-audit-logs).
 
 ## eDiscovery
 
