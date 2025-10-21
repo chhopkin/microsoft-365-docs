@@ -94,7 +94,7 @@ Other than these two exceptions, you can expect the site to be unchanged.
 
 ## Change the archive status of a site via PowerShell
 
-You can archive and reactivate sites by using the PowerShell cmdlet [**Set-SPOSiteArchiveState**](/powershell/module/sharepoint-online/set-spositearchivestate?view=sharepoint-ps&preserve-view=true).
+You can archive and reactivate sites by using the PowerShell cmdlet [**Set-SPOSiteArchiveState**](/powershell/module/microsoft.online.sharepoint.powershell/set-spositearchivestate).
 
 ## Change the archive status of a site via Graph API
 

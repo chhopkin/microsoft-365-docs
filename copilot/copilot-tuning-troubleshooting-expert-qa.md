@@ -1,10 +1,9 @@
 ---
 title: Troubleshoot issues with the Copilot Tuning expert Q&A model
 description: This article describes some of the most common issues with the Microsoft 365 Copilot Tuning expert Q&A task fine-tuning and how to troubleshoot them.
-author: kwekuako
-ms.author: kwekua
-ms.collection: operations-pod
-manager: dansimp
+ms.author: lauragra
+author: lauragra
+manager: calvind
 ms.date: 06/17/2025
 audience: Admin
 ms.topic: troubleshooting-general
@@ -16,6 +15,8 @@ recommendations: false
 
 # Troubleshoot issues with the Copilot Tuning Expert Q&A model
 
+[!INCLUDE [agent-builder-mcs-lite](../microsoft-365/includes/agent-builder-mcs-lite.md)]
+
 This article describes some of the most common issues with the Microsoft 365 Copilot Tuning expert Q&A task fine-tuning and how to troubleshoot them.
 
 [!INCLUDE [copilot-tuning-preview](includes/copilot-tuning-preview.md)]
@@ -26,7 +27,7 @@ An access or permission denied error usually means your account doesn't have the
 
 ## I created a fine-tuned Q&A model, but it isn't showing up when I try to add it to my Copilot agent
 
-If your newly trained model isn't listed in the selection dropdown when you configure your declarative agent, you might have a permissions issue. The model is associated with a security group or access policy, and your account might not be included. Make sure that the security group used during the model creation includes your account (or the account of the person building the agent). You might need to ask your IT admin to add you to that group or recreate the model with a group that you are part of. When your permissions are fixed, the fine-tuned model should appear for selection.
+If your newly trained model isn't listed in the selection dropdown when you configure your declarative agent, you might have a permissions issue. The model is associated with a security group or access policy, and your account might not be included. Make sure that the security group used during the model creation includes your account (or the account of the person building the agent). You might need to ask your IT admin to add you to that group or recreate the model with a group that you are part of. When your permissions are fixed, the fine-tuned model should appear for selection. 
 
 ## When I click "Prepare data for training," no labeling interface or data appears
 
@@ -76,7 +77,7 @@ If you've done the above and the model's answers are still incorrect or incohere
 This is a known behavior. The fine-tuned model might perform well in the isolated evaluation, but the deployed agent's behavior can differ if the agent configuration doesn't fully carry over the model's nuances. In particular, the agent might need additional instructions to use the model effectively. To resolve this:
 
 1. Compare evaluation vs. agent outputs - Identify what's missing or different. For example, maybe the evaluation answers had a friendly, empathetic tone that you liked, but the agent's answers feel more generic or terse.
-2. Adjust the agent's instructions - In the agent builder, add or refine the system instructions or prompts for the agent. Reinforce the qualities you want that you saw in the evaluation stage. For example, add the instructions "Respond in an empathetic tone," or "Include the detailed steps if available.".
+2. Adjust the agent's instructions - In the Copilot Studio lite experience, add or refine the system instructions or prompts for the agent. Reinforce the qualities you want that you saw in the evaluation stage. For example, add the instructions "Respond in an empathetic tone," or "Include the detailed steps if available.".
 3. Test again - After you update the instructions, test the agent with the same questions. The answers should align more closely with the fine-tuned model's expected behavior. This iterative tuning of the agent is sometimes necessary to get the best results. The fine-tuned model provides the knowledge, and the agent's instructions shape how that knowledge is expressed.
 
 ## The answers from my Q&A agent are still not what I expected

@@ -4,8 +4,8 @@ f1.keywords:
 - CSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
-ms.reviewer: lishepar, jobailey
+manager: scotv
+ms.reviewer: drjones, jobailey
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -182,10 +182,11 @@ If a payment method is attached to any subscriptions or billing profiles, you mu
 
 ## Related content
 
-[Payment options for your Microsoft business subscription](pay-for-your-subscription.md) (article) <br/>
+[Pay your Microsoft business invoice by using a credit or debit card](pay-for-your-subscription.md) (article)<br/>
+[Pay your invoice by using a wire transfer](pay-by-wire-transfer.md) (article)<br/>
 [View your invoice in the Microsoft 365 admin center](view-your-bill-or-invoice.md) (article)<br/>
 [Manage your Microsoft business billing profiles](manage-billing-profiles.md) (article)<br/>
 [Change your billing frequency](change-payment-frequency.md) (article)<br/>
 [Upgrade or change to a different Microsoft 365 for business plan](../subscriptions/upgrade-to-different-plan.md) (article)<br/>
-[Cancel your subscription in the Microsoft 365 admin center](../subscriptions/cancel-your-subscription.md) (article) <br/>
+[Cancel your subscription in the Microsoft 365 admin center](../subscriptions/cancel-your-subscription.md) (article)<br/>
 [Get support for Microsoft 365 for business](../../admin/get-help-support.md) (article)

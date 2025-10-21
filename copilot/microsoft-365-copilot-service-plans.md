@@ -3,8 +3,8 @@ title: Microsoft 365 Copilot service plan diagnostic tool and service plans
 description: Enterprise and company IT admins can use the Run Tests Copilot Service Plan Diagnostic to see the service plans assigned to a user's email address or user principal name (UPN). See a list of official service plan names and their associated Copilot service.
 f1.keywords:
 - NOCSH
-ms.author: aaroncz
-author: aczechowski
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 07/15/2025
 ms.update-cycle: 180-days

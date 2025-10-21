@@ -95,7 +95,7 @@ For Outlook, your users must be using one of the following:
 
 Microsoft Exchange stores the add-in manifests within your organization's tenant. The admin deploying add-ins and the users receiving those add-ins must be on a version of Exchange Online that supports OAuth authentication.
 
-Check with your organization's Exchange admin to find out which configuration is in use. OAuth connectivity per user can be verified by using the [Test-OAuthConnectivity](/powershell/module/exchange/test-oauthconnectivity) PowerShell cmdlet.
+Check with your organization's Exchange admin to find out which configuration is in use. OAuth connectivity per user can be verified by using the [Test-OAuthConnectivity](/powershell/module/exchangepowershell/test-oauthconnectivity) PowerShell cmdlet.
 
 ### Exchange Online user role requirements
 
@@ -111,11 +111,13 @@ Use the classic Exchange admin center (EAC) to assign permissions to users. The 
 > [!NOTE]
 > These roles are selected by default.
 
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
+
 For more information, see [Manage role groups in Exchange Online](/exchange/permissions-exo/role-groups). For a detailed description of the different roles, see [Role assignment policies in Exchange Online](/exchange/permissions-exo/role-assignment-policies).
 
 ### Admin requirements
 
-In order to deploy an add-in via centralized deployment, you need to be either a Global admin or an Exchange admin in the organization.
+In order to deploy an add-in via centralized deployment, you need to be an Exchange admin in the organization.
 
 > [!NOTE]
 > An Exchange admin can deploy an add-in if the **Application Administrator** role is added or if the **App Registrations** property is set to true in Microsoft Entra admin center as shown in the following image:
@@ -149,6 +151,8 @@ Using the Centralized Deployment Compatibility Checker, you can verify whether t
 
    > [!NOTE]
    > Depending on the number of users in your tenant, the checker could complete in minutes or hours.
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 When the tool finishes running, it produces an output file in comma-separated (.csv) format. The file is saved to **the current working directory** by default. The output file contains the following information:
 

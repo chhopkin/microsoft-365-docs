@@ -186,8 +186,6 @@ items:
                   href: microsoft-365-mrs-source-delays-service-alerts.md
                 - name: Service advisories for OAB size limits
                   href: microsoft-365-oab-size-limit-service-advisory.md
-            - name: Microsoft 365 Apps monitoring
-              href: microsoft-365-apps-monitoring.md
             - name: Microsoft Entra monitoring
               href: microsoft-entra-monitoring.md
             - name: Microsoft 365 Teams monitoring
@@ -280,6 +278,8 @@ items:
           items: 
             - name: Microsoft 365 Multi-Geo
               href: microsoft-365-multi-geo.md
+            - name: Microsoft 365 Multi-Geo Commitments
+              href: microsoft-365-multi-geo-commitments.md
             - name: Plan
               items: 
                 - name: Plan for multi-geo
@@ -292,6 +292,9 @@ items:
               items: 
                 - name: Configure multi-geo
                   href: multi-geo-tenant-configuration.md
+                - name: Configure Multi-Geo In-Region Routing (In Preview)
+                  href: configure-multi-geo-inregion-routing-preview.md
+                  displayName: Configure Multi-Geo In-Region Routing (In Preview)
                 - name: Configure preferred data location
                   href: /azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation?toc=/microsoft-365/Enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
                 - name: Configure search
@@ -318,7 +321,7 @@ items:
               href: m365-dr-workload-spo.md
             - name: Microsoft Teams
               href: m365-dr-workload-teams.md
-            - name: Microsoft 365 Copilot
+            - name: Microsoft 365 Copilot and Copilot Chat
               href: m365-dr-workload-copilot.md
             - name: Microsoft Defender for Office P1
               href: m365-dr-workload-mdo-p1.md
