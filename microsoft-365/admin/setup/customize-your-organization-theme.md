@@ -117,6 +117,8 @@ The default theme will continue to be shown to all employees. Adding a new group
 
 Only global admins can customize company themes. Global readers have read-only access.
 
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
+
 ### How many different themes can I set up for my organization?  
 
 Up to five themes can be created. A default theme and four group themes.  
