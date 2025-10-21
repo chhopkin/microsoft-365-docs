@@ -130,7 +130,7 @@ The setting has three options:
 > [!NOTE]
 > When you disable extensibility, users can't see the Microsoft pinned Visual Creator agent or the entry point for Copilot Studio (lite) in Copilot Chat. After you disable extensibility in the tenant, it can take up to 24 hours for agents to disappear for users and for Copilot Studio (lite) and Visual Creator to disappear.
 
-###  Disable Copilot Access 
+###  Disable Copilot access 
 
 You can remove users from the Microsoft 365 Copilot sign-in page or restrict their access through the [Microsoft 365 Admin Center](https://admin.microsoft.com/).
 
