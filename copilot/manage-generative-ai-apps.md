@@ -81,7 +81,13 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
    - In the **Apps matching all of the following** section, specify **Category equals Generative AI**.
    - In the **Apply to** list, select **All continuous reports**.
 
-4. Finish configuring your policy, and save your changes. 
+   For more information about creating custom policies, see [Custom policies](/defender-cloud-apps/app-governance-app-policies-create#custom-policies).
+
+4. When you're done specifying the conditions, select **Save**, and then select **Next**.
+
+5. On the **Define Policy Status** page, select **Audit mode**. With this mode, policies are evaluated but configured actions don't occur. Audit mode policies appear with the status of *Audit* in the list of policies. You should use Audit mode for testing a new policy.
+
+6. Carefully review all parameters of your custom policy. Select **Submit** when you're satisfied. You can also go back and change settings by selecting **Edit** beneath any of the settings.
 
 ## Block specific generative AI apps
 
@@ -103,22 +109,24 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
    - For **Policy template**, choose **No template**.
    - For **Policy name**, type a name like *Unsanctioned AI Apps*.
    - Provide a description, like *Block unsanctioned AI apps*.
-   - In the **Apps matching all fo the following** section, specify **Category equals Generative AI** and **Tag equals Unsanctioned**.
+   - In the **Apps matching all of the following** section, specify a condition, such as **Category equals Generative AI** and **Tag equals Unsanctioned**.
    - In the **Apply to** list, select **All continuous reports**.
 
    For more information about creating custom policies, see [Custom policies](/defender-cloud-apps/app-governance-app-policies-create#custom-policies).
 
-4. Finish configuring your policy, and save your changes.
+7. When you're done specifying the conditions, select **Save**, and then select **Next**.
 
-On the Define Policy Actions page, select Disable app if you want app governance to disable the app when an alert based on this policy is generated, and then select Next. Use caution when applying actions because a policy may affect users and legitimate app use.
+8. On the **Define Policy Actions** page, select **Disable app** if you want app governance to disable the app when an alert based on this policy is generated, and then select **Next**. Use caution when applying actions because a policy may affect users and legitimate app use.
 
-On the Define Policy Status page, select one of these options:
+9. On the **Define Policy Status** page, select an option, such as **Active**. You can chooe from these options:
 
-Audit mode: Policies are evaluated but configured actions won't occur. Audit mode policies appear with the status of Audit in the list of policies. You should use Audit mode for testing a new policy.
-Active: Policies are evaluated and configured actions will occur.
-Inactive: Policies aren't evaluated and configured actions won't occur.
-Carefully review all parameters of your custom policy. Select Submit when you're satisfied. You can also go back and change settings by selecting Edit beneath any of the settings.
+   - **Audit mode**: Policies are evaluated but configured actions don't occur. Audit mode policies appear with the status of *Audit* in the list of policies. You should use Audit mode for testing a new policy.
+   - **Active**: Policies are evaluated and configured actions will occur.
+   - **Inactive**: Policies aren't evaluated and configured actions won't occur.
 
+10. Carefully review all parameters of your custom policy. Select **Submit** when you're satisfied. You can also go back and change settings by selecting **Edit** beneath any of the settings.
+
+<!---
 ## Quick reference table: AI app risk mitigation and Microsoft solutions
 
 | Risk of unmanaged AI apps | Recommendations  |
@@ -129,6 +137,8 @@ Carefully review all parameters of your custom policy. Select Submit when you're
 | Shadow AI and blind spots | Using Defender for Cloud Apps and [Purview DSPM for AI](/purview/dspm-for-ai?tabs=m365): <br/>- Continuous discovery<br/>- Block risky apps |
 | Untracked AI agent identities | Using Microsoft Entra ID Governance, set up  Multifactor authentication (MFA) and Just-in-Time (JIT) access |
 | Incident response gaps | Using Defender XDR and Defender for Cloud Apps: <br/>- Real-time alerts<br/>- Anomaly detection |
+
+--->
 
 ## See also
 
