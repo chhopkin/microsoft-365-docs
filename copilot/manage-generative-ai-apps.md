@@ -61,18 +61,21 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
 
 3. In the **Category** filter, select **Generative AI**. 
 
-4. Review the list of apps, along with their risk scores. For more information, see [Find your cloud app and calculate risk scores](/defender-cloud-apps/risk-score).
+4. Review the list of apps, along with their risk scores. Make a note of the apps you might want to monitor or block. See [Find your cloud app and calculate risk scores](/defender-cloud-apps/risk-score).
 
 ## Set up a policy to create an alert for new generative AI apps
 
 > [!NOTE]
 > Before you begin, review the [prerequisites](/defender-cloud-apps/governance-discovery#prerequisites).
 
-1. Go to the [Microsoft Defender portal](https://security.microsoft.com) and sign in.
+1. In the [Microsoft Defender portal](https://security.microsoft.com), in the navigation pane, select **Cloud apps** > **Cloud discovery**.
 
-2. In the navigation pane, select **Cloud apps** > **Cloud discovery**.
+2. On the **Discovered apps** tab, in the **Category** filter, select **Generative AI**.
 
-3. 
+3. In the list of results, select an AI app that you want to block. At the end of its row, select the three dots, and then select **Unsantioned**. This action adds an *Unsanctioned* tag that enables you to monitor the app.
+
+> [!IMPORTANT]
+> If you're using Defender for Endpoint, as soon as an app is marked as unsanctioned, it's automatically blocked across onboarded devices. However, you can specify whether to warn and educate users instead of blocking apps. See [Educate users when accessing risky apps](/defender-cloud-apps/mde-govern#educate-users-when-accessing-risky-apps).
 
 ## Block specific generative AI apps
 
