@@ -32,6 +32,10 @@ Discovering, monitoring, and managing AI apps is essential to prevent data leaks
 
 ## Before you begin
 
+- **Make sure you have appropriate permissions** assigned to perform the tasks in this article.
+   - See [Microsoft 365 and Microsoft Entra roles with access to Defender for Cloud Apps](/defender-cloud-apps/manage-admins#microsoft-365-and-microsoft-entra-roles-with-access-to-defender-for-cloud-apps)
+
+
 - **[Set up Microsoft Defender XDR](/defender-xdr/pilot-deploy-overview)**, which includes these components:
    - [Microsoft Defender for Identity](/defender-xdr/pilot-deploy-defender-identity)
    - [Microsoft Defender for Office 365](/defender-xdr/pilot-deploy-defender-office-365)
@@ -45,6 +49,7 @@ Discovering, monitoring, and managing AI apps is essential to prevent data leaks
    - [Lightweight guide to mitigate data leakage](https://aka.ms/Purview_LightweightGuide_PDF)
    - [Secure agents in Microsoft 365 with Purview](https://aka.ms/PurviewDeploymentModels/SecureAgents-pdf)
    - [Purview Data Security Posture Management](https://aka.ms/DSPMBlueprintPDF)
+
 
 ## Discover generative AI apps that are in use in your organization
 
