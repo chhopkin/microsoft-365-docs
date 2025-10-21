@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 10/19/2025
+ms.date: 10/21/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -252,7 +252,7 @@ The **Supported in** filter allows you to select which Copilot experience and M3
 
 ### Created in filter
 
-The **Created in** filter allows you to select agents based on the tool that was used to create the agents. You can filter the agent list based on **Copilot Studio (lite)**, **SharePoint**, or **Copilot Studio (full)**.
+The **Created in** filter allows you to select agents based on the tool that was used to create the agents, such as **Copilot Studio (lite)**, **SharePoint**, and **Copilot Studio (full)**.
 
 ## Agent metadata in admin center
 
