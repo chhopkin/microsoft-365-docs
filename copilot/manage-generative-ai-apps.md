@@ -77,7 +77,7 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
    - For **Policy template**, choose **No template**.
    - For **Policy name**, type a name like *New Generative AI Apps*.
    - For **Policy severity**, select the level 2 option.
-   - Provide a description, like *Generate an alert when a a new Generative AI app is used*.
+   - Provide a description, like *Generate an alert when a new Generative AI app is used*.
    - In the **Apps matching all of the following** section, specify **Category equals Generative AI**.
    - In the **Apply to** list, select **All continuous reports**.
 
@@ -118,10 +118,10 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
 
 8. On the **Define Policy Actions** page, select **Disable app** if you want app governance to disable the app when an alert based on this policy is generated, and then select **Next**. Use caution when applying actions because a policy may affect users and legitimate app use.
 
-9. On the **Define Policy Status** page, select an option, such as **Active**. You can chooe from these options:
+9. On the **Define Policy Status** page, select an option, such as **Active**. You can choose from these options:
 
    - **Audit mode**: Policies are evaluated but configured actions don't occur. Audit mode policies appear with the status of *Audit* in the list of policies. You should use Audit mode for testing a new policy.
-   - **Active**: Policies are evaluated and configured actions will occur.
+   - **Active**: Policies are evaluated and configured actions occur.
    - **Inactive**: Policies aren't evaluated and configured actions won't occur.
 
 10. Carefully review all parameters of your custom policy. Select **Submit** when you're satisfied. You can also go back and change settings by selecting **Edit** beneath any of the settings.
@@ -137,10 +137,9 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
 | Shadow AI and blind spots | Using Defender for Cloud Apps and [Purview DSPM for AI](/purview/dspm-for-ai?tabs=m365): <br/>- Continuous discovery<br/>- Block risky apps |
 | Untracked AI agent identities | Using Microsoft Entra ID Governance, set up  Multifactor authentication (MFA) and Just-in-Time (JIT) access |
 | Incident response gaps | Using Defender XDR and Defender for Cloud Apps: <br/>- Real-time alerts<br/>- Anomaly detection |
-
 --->
 
 ## See also
 
-- [Tech Community blog: Discover, monitor and protect the use of Generative AI apps](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/discover-monitor-and-protect-the-use-of-generative-ai-apps/3999228)
+- [Tech Community blog: Discover, monitor, and protect the use of Generative AI apps](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/discover-monitor-and-protect-the-use-of-generative-ai-apps/3999228)
 
