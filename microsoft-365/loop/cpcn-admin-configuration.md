@@ -93,10 +93,10 @@ In case you create a new policy configuration or change the configuration for an
 
 ## Related topics
 
-- [Data Integrations Admin Settings](loop-data-integrations-configuration.md)
 - [Summary of Compliance, Lifecycle, Governance](cpcn-compliance-summary.md)
 - [Requirements](cpcn-loop-requirements.md)
 - [Storage](cpcn-storage.md)
-- [Permissions](cpcn-loop-permission.md)
+- [Permissions](cpcn-permission.md)
 - [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md)
 - [Overview of Loop components in Microsoft 365](loop-components-teams.md)
+- [Data Integrations Admin Settings](loop-data-integrations-configuration.md)

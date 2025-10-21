@@ -81,13 +81,8 @@ potential future examples
 
 ## Related articles
 
-- [Summary of Compliance, Lifecycle, Governance](cpcn-compliance-summary.md)
-- [Configuration Requirements](cpcn-loop-requirements.md)
-- [Copilot Pages and Notebooks Storage](cpcn-storage.md)
-- [Permissions](cpcn-loop-permission.md)
-- [Copilot Pages and Notebooks Admin toggles](cpcn-admin-configuration.md)
+- [Summary of Compliance, Lifecycle, Governance - Copilot Pages and Copilot Notebooks](cpcn-compliance-summary.md)
+- [Summary of Compliance, Lifecycle, Governance - Loop components and Loop workspace](loop-compliance-summary.md)
 - [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md)
-- [Loop Storage](cpcn-storage.md)
-- [Loop Admin toggles](loop-admin-configuration.md)
-- [UX examples for admin toggle states](loop-ux-examples.md)
-- [Overview of Loop components in Microsoft 365](loop-components-teams.md)
+- [Copilot Pages and Notebooks Storage](cpcn-storage.md)
+- [Loop Storage](loop-storage.md)

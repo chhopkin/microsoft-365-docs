@@ -6,8 +6,8 @@ manager: jtremper
 audience: Admin
 ms.topic: concept-article
 ms.service: loop
-ms.reviewer: michalbr, dancost
-ms.date: 07/02/2025
+ms.reviewer: michalbr, brmeersm, derekliddell, dancost
+ms.date: 10/21/2025
 ms.update-cycle: 180-days
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -25,23 +25,22 @@ appliesto:
 - Microsoft Teams
 ---
 
-# Overview of Copilot Pages, Copilot Notebooks, and Loop workspaces permissions
+# Overview of Loop workspaces and Loop components permissions
 
 ## Content permissions mechanism
 
-Copilot Pages, Copilot Notebooks, and Loop workspace are stored in [SharePoint Embedded](/sharepoint/dev/embedded/concepts/admin-exp/consuming-tenant-admin/cta) containers.
+Loop workspaces are stored in [SharePoint Embedded](/sharepoint/dev/embedded/concepts/admin-exp/consuming-tenant-admin/cta) containers. Refer to [Loop Storage](loop-storage.md) for more details.
 
 ### Sharing Mechanism
 
-- **Workspace Sharing**: ONLY applies to shared Loop workspaces: Invites users to the entire workspace by adding owners and members to the SharePoint Embedded container, and sends an email invite. All members have access and *editing* permissions to all the Loop pages in that workspace.
-  - **Copilot Notebooks** cannot yet be shared, only individual pages within them can be shared.
-- **Page Sharing**: Grants access to a specific page (not the whole workspace) with options for edit or read-only access. The user can choose to use a company share link or people-specific share link, based on your organizational sharing settings.
+- **Page and Component Sharing**: Grants access to a specific page (not the whole workspace) with options for edit or read-only access. The user can choose to use a company share link or people-specific share link, based on your organizational sharing settings.
+- **Workspace Sharing**: Invites users to the entire workspace by adding owners and members to the SharePoint Embedded container, and sends an email invite. All members have access and *editing* permissions to all the Loop pages in that workspace.
 
   :::image type="content" source="media/share-workspace-in-loop.png" alt-text="Screenshot showing the Share workspace option in Loop":::
 
 ## Guest/External sharing
 
-You can share individual Copilot Pages, entire Loop workspaces, or individual Loop pages and Loop components with external users (guests) if your organization allows it. You can't share the entire Copilot Pages container, any Copilot Notebook, or My workspace in Loop.
+You can share individual Copilot Pages, entire Loop workspaces, or individual Loop pages and Loop components with external users (guests) if your organization allows it. You can't share the entire My workspace in Loop.
 
 ### Guest sharing requirements
 
@@ -67,7 +66,7 @@ When a guest accesses the Loop workspace, page, or component from the link from 
 
 ### More sharing controls
 
-If you would like to disable guest sharing of Copilot Pages, Copilot Pages within Copilot Notebooks, or Loop workspaces independently of your organization-level OneDrive and SharePoint sharing setting, see [application external sharing override](/sharepoint/dev/embedded/concepts/app-concepts/sharing-and-perm#application-external-sharing-override) and the Loop OwningApplicationID `a187e399-0c36-4b98-8f04-1edc167a0996`. All of these sharing settings are controlled by the Loop OwningApplicationId.
+If you would like to disable guest sharing of Loop workspaces independently of your organization-level OneDrive and SharePoint sharing setting, see [application external sharing override](/sharepoint/dev/embedded/concepts/app-concepts/sharing-and-perm#application-external-sharing-override) and the Loop OwningApplicationID `a187e399-0c36-4b98-8f04-1edc167a0996`. All of these sharing settings are controlled by the Loop OwningApplicationId.
 
 Unlike SharePoint sites, there's no admin setting to configure guest sharing of specific Loop workspaces. Direct users toward [sensitivity labeling](/purview/sensitivity-labels-loop) for per-workspace external sharing configuration. Admin's can also [configure sensitivity labels](/sharepoint/dev/embedded/concepts/security-and-compliance#security-features) on containers.
 
@@ -87,14 +86,11 @@ Microsoft 365 group-owned Loop workspaces, which are [created within a Teams cha
 
 ## Related topics
 
-- [Copilot Pages and Notebooks, Summary of Compliance, Lifecycle, Governance](cpcn-compliance-summary.md)
-- [Configuration Requirements](cpcn-loop-requirements.md)
-- [Copilot Pages and Notebooks Storage](cpcn-storage.md)
-- [Copilot Pages and Notebooks Admin toggles](cpcn-admin-configuration.md)
+- [Copilot Pages and Copilot Notebooks permissions](cpcn-permission.md)
 - [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md)
 - [Purview and SharePoint Embedded containers](cpcn-loop-purview-management.md)
 - [Loop, Summary of Compliance, Lifecycle, Governance](cpcn-compliance-summary.md)
-- [Loop Storage](cpcn-storage.md)
+- [Loop Storage](loop-storage.md)
 - [Loop Admin toggles](loop-admin-configuration.md)
 - [UX examples for admin toggle states](loop-ux-examples.md)
 - [Overview of Loop components in Microsoft 365](loop-components-teams.md)
