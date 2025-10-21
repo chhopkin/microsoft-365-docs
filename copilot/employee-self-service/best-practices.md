@@ -1,5 +1,5 @@
 ---
-title: Prepare to deploy the Employee Self-Service agent
+title: Best practices for deploying the Employee Self-Service agent
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
