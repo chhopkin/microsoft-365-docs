@@ -164,7 +164,7 @@ To use Copilot, users sign into the app with their work or school account and th
 >
 > - For education customers, the Copilot license is listed under **Microsoft 365 A3 Extra Features for faculty** or **Microsoft 365 A5 Extra Features for faculty**.
 
-You can also manage licenses from the Copilot page in the Microsoft 365 admin center. For more information, see [Reports and licenses in the Microsoft 365 admin center](microsoft-365-copilot-page.md#reports-and-licenses).
+You can also manage licenses from the Copilot page in the Microsoft 365 admin center. For more information, see [Microsoft 365 reports in the admin center](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage).
 
 For more information, see [Assign Microsoft 365 licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
