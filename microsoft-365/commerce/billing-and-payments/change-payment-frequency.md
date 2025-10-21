@@ -4,8 +4,8 @@ f1.keywords:
 - NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
-ms.reviewer: emmasheridan, nicholak
+manager: scotv
+ms.reviewer: patyc
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -67,6 +67,7 @@ When you buy a Microsoft 365 for business subscription, you select a billing fre
 
 ## Related content
 
-[View your invoice in the Microsoft 365 admin center](view-your-bill-or-invoice.md) (article)\
-[Payment options for your Microsoft business subscription](pay-for-your-subscription.md) (article)\
+[View your invoice in the Microsoft 365 admin center](view-your-bill-or-invoice.md) (article)<br/>
+[Pay your invoice by using a wire transfer](pay-by-wire-transfer.md) (article)<br/>
+[Pay your Microsoft business invoice by using a credit or debit card](pay-for-your-subscription.md) (article)<br/>
 [Change the billing addresses for your Microsoft business subscription](change-your-billing-addresses.md) (article)

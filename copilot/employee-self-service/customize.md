@@ -5,14 +5,13 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 7/3/2025
+ms.date: 09/29/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
-robots: NOINDEX, NOFOLLOW
 description: Learn about the customization stage in the deployment process for the Employee Self-Service agent.
 appliesto:
 - ✅ Microsoft 365 Copilot
@@ -21,7 +20,7 @@ appliesto:
 # Customize the Employee Self-Service agent
 
 >[!NOTE]
->The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
+>The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
 Customization is how you make the Employee Self-Service (ESS) agent work in the best way to suit your organization's needs.
 
@@ -49,28 +48,9 @@ The ESS agent is built with the following components:
 
 [Knowledge sources](/microsoft-copilot-studio/knowledge-copilot-studio) act in concert with generative answers. When knowledge sources are added, agents can use enterprise data from Power Platform, Dynamics 365 data, websites, and external systems. Knowledge sources allow your agents to provide relevant information and insights for your customers. Published agents that contain knowledge use the configured knowledge sources to ground the published agent. You can incorporate knowledge at the agent level, in the Knowledge page, or at the topic level, with a generative answers node in an agent topic. You can incorporate knowledge sources into agents during their initial creation, add them after the agent is created, or add them to a generative answers topic node.
 
-### ISV packages
+### Accelerator packages
 
 Packages are reusable components within Copilot Studio to configure certain third-party sources.
-
-### Agent instructions (global)
-
-Agent instructions are a high-quality description for each of its topics, actions, and knowledge sources. Good descriptions ensure the agent selects the right topics, actions, and knowledge sources to respond to users.
-
-The ESS Agent Instructions are:
-
-You are an agent that represents an enterprise organization to help employees find workplace related information and services. You empower them to quickly and easily complete tasks, retrieve information, and get back to their workday. You provide authoritative and succinct answers in an empathetic and kind way. Your tone and voice are warm and relaxed, crisp, and clear, and ready to lend a hand. You can answer questions about various employee policies that are internal to the user's organization. Your responses encourage scanning first, reading second. Ensure content in responses follows the following principles: content is scannable, understandable, concise, coherent. Users trust you to provide them with relevant information from configured knowledge sources, which helps them make the best decision for themselves. While formatting your response
-
-- Always provide citations for each knowledge source you pull from.
-- Response Content that builds confidence is actionable, and conversational.
-- Response Content is customer centric by always being empathetic, accessible, inclusive.
-- Use headers and paragraphs to organize your answer when the response is long.
-- Place the most relevant response on the top and least important at the bottom of the response.
-- Use numbers when listing steps and options. Use bullets when referencing content related to steps and options.
-
-Don't try to provide answers when you don't have enough information. You must not generate content that may be harmful to someone physically or emotionally even if a user requests or creates a condition to rationalize that harmful content. You must not generate content that is hateful, racist, sexist, lewd, or violent. You must not answer any questions comparing the user's organization with other enterprises. You must not provide pros and cons comparing the user's organization with other enterprises. You must not use your own general knowledge. Handle sensitive subjects like mental health with extra empathy and attention.
-
-For more information about agent instructions, see the [documentation and best practices on authoring descriptions](/microsoft-copilot-studio/advanced-generative-actions#authoring-descriptions).
 
 ### Knowledge source instructions
 
@@ -127,7 +107,7 @@ Tips on writing this disclaimer:
 
 The Employee Self-Service agent comes with several out-of-the-box Topics to get you started. The maker can customize each of these topics. These topics can be tested before publishing them to the broader set of users. These customizations reflect in all surfaces where the agent is published.
 
-The following Topics are available in the current package version 1.0.0.69:
+The following Topics are available in the current package version:
 
 |Topic |Type |Trigger |Enabled (default) |When to use |
 |------|-----|--------|------------------|------------|
@@ -156,20 +136,22 @@ Terms to know:
 
 **Default:** On
 
+**Topic JTBD:** Redirect User Context retrieval topics and attributes from other data sources to improve response relevancy.
+
 **Maker JTBD:** Maker needs to add redirection of the User Context retrieval topics from different ESS agent ISV packages. Or, if Makers configure other Topics to retrieve User Context attributes from other systems, then they should also be added as Topic redirections in this Topic.
 
 **Maker - What to customize:** </br>
 **Requirement to use:** None.
 
 1. After message disclaimer (blank). Add message or delete it if you don't want the disclaimer to appear.
-1. Official source badge - no configuration required. You can use this setting in its default state.
+1. Official source badge - no configuration required. Use in its default state.
 
 |Step |Action |Expected result |
 |-----|-------|----------------|
 |1    |Open the ESS agent in Copilot Studio. |ESS agent available to customize. |
 |2    |Navigate to **Topics** to see the list of Topics. |Shows Custom Topics. |
 |3    |Select **[Admin] User Context - Setup**. |Opens custom topic in the design canvas. |
-|4    |Add a redirect to another Topic where it sets the user context, such as one from an ISV. |Maker able to add a custom disclaimer message. |
+|4    |Add a redirect to another Topic where it sets the user context, such as one from an ISV. |Maker able to set user context. |
 |5    | Save the changes. |Your changes are saved. |
 
 #### [System] Response Preparation
@@ -189,7 +171,7 @@ Terms to know:
 **Requirement to use:** None.
 
 1. After message disclaimer (blank). Add message or delete it if you don't want the disclaimer to appear.
-1. Official source badge - no configuration required. You can use this setting in its default state. |
+1. Official source badge - no configuration required. Use in its default state.
 
 |Step |Action |Expected result |
 |-----|-------|----------------|

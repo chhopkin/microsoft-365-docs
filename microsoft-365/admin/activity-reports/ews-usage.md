@@ -1,8 +1,8 @@
 ---
 title: "Microsoft 365 Reports in the admin center – EWS usage"
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 03/18/2025
 audience: Admin
 ms.topic: concept-article

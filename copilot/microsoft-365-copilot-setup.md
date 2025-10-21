@@ -2,9 +2,9 @@
 title: "Set up Microsoft 365 Copilot and assign licenses"
 f1.keywords:
 - NOCSH
-ms.author: aaroncz
-author: aczechowski
-manager: dansimp
+author: kwekuako
+ms.author: kwekua
+manager: scotv
 ms.date: 05/20/2025
 ms.update-cycle: 180-days
 audience: Admin

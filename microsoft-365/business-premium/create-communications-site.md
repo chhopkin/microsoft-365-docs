@@ -73,4 +73,4 @@ If you don't see the **+ Create** site link, self-service site creation might no
 
 ## Next step
 
-[Protect managed devices](m365bp-protect-managed-devices.md) for your organization.
+[Protect managed devices](/microsoft-365/admin/security-and-compliance/m365bp-devices-enrollment) for your organization.

@@ -3,14 +3,13 @@ title: Prepare to deploy the Employee Self-Service agent
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: dansimp
+manager: scotv
 ms.reviewer: semani
-ms.date: 7/3/2025
+ms.date: 09/29/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
-robots: NOINDEX, NOFOLLOW
 ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn about the first stage in the deployment process for the Employee Self-Service agent.
@@ -21,7 +20,7 @@ appliesto:
 # Prepare to deploy the Employee Self-Service agent
 
 > [!NOTE]
-> The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
+> The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
 Preparation is the first step to deploying the Employee Self-Service (ESS) agent. You need to meet the [prerequisites](prerequisites.md). The following roles are required to prepare the agent for deployment.
 
@@ -30,7 +29,11 @@ Preparation is the first step to deploying the Employee Self-Service (ESS) agent
 |Global admin                                   |Assign the Power Platform Administrator role. |Microsoft admin center |
 |Power Platform Administrator                   |Assign the Environment Maker role. |Power Platform admin center |
 |Environment Maker                              |Create environments required for customizing and testing the ESS agent. |Power Platform admin center and Microsoft Copilot Studio |
-|InfoSec/IT Infrastructure/Change control board |Configure infrastructure requirements for third-party ISV integration. |Network firewall policies and single sign-on |
+|InfoSec/IT Infrastructure/Change control board |Configure infrastructure requirements for external systems integration. |Network firewall policies and single sign-on |
+
+## Power Platform environment strategy for ESS
+
+ESS Agents are tailored to each vertical, such as HR or IT, and each agent comes with its own unique set of topics and connectors. While it may be necessary to use separate Power Platform environments for better governance, if you want to link these vertical-specific agents to a single, central agent, we advise you keep all the vertical agents within one Power Platform environment.
 
 ## Assign the Power Platform administrator role
 
@@ -39,17 +42,16 @@ Preparation is the first step to deploying the Employee Self-Service (ESS) agent
 1. In the **Microsoft Entra ID** section, find the **Power Platform Administrator** role.
 1. Add identified users in the **Assigned** section.
 
-## Set up your Power Platform environment and assign the Environment Maker role
+## Set up your Power Platform environment
 
-1. Sign into the [Power Platform admin center](https://admin.powerplatform.microsoft.com) as a Power Platform administrator.
-1. Create a new environment, or install the ESS agent on an existing environment.
-1. Select **+New** in the ribbon to create a new environment. Configure the following features:
-    1. **Make this environment a Managed Environment**: Enable or disable based on your governance.
-    1. **Get new features early**: Not required.
-    1. Add a **Dataverse data store**.
-1. Under **Access**, select **Security roles**.
-1. From the list of security roles, select **Environment Maker**. Choose **Members** in the top ribbon.
-1. Select **Add people** in the ribbon to add the designated person who can configure and publish the ESS agent. This person is typically the agent owner in your organization.
+- To learn more about managed environments, refer to this [Power Platform article](/power-platform/admin/managed-environment-overview) about managed environments.
+- To learn more about creating a new Power Platform, refer to this [Power Platform article](/power-platform/admin/create-environment?tabs=new) about environment creation.
+- To create an environment with a Dataverse database, refer to these [Power Platform instructions](/power-platform/admin/create-environment?tabs=new%22%20\l%20%22create-an-environment-with-a-database).
+
+## Assign the Environment Maker role
+
+- To assign a security role to a user, refer to these [Power Platform instructions](/power-platform/admin/assign-security-roles?tabs=new).
+- To understand the role-permissions model, refer to these [Power Platform instructions](/power-platform/admin/security-roles-privileges?tabs=new).
 
 > [!NOTE]
 > Environment Makers can't install new agents. Only the environment administrators can install new agents.
@@ -57,7 +59,10 @@ Preparation is the first step to deploying the Employee Self-Service (ESS) agent
 > [!IMPORTANT]
 > Important: Familiarize yourself with the Power Platform subscription plans and billing policies for your tenant. We recommend you perform initial [capacity planning](prerequisites.md#capacity-planning) before enabling and configuring the ESS agent to make sure you don't incur additional billing.
 
-## Infrastructure setup for third-party ISV integration
+> [!CAUTION]
+> Environments created with the Dataverse Database have the **System Administrator** role. This role has full permission to customize or administer the environment, including creating, modifying, and assigning security roles. This role can view all data in the environment. This built-in role can't be modified.
+
+## Infrastructure setup for external systems integration
 
 Most organizations secure their third-party HR systems and knowledge sources from external networks to protect sensitive information about employees, organizations, knowledge assets, and other data.
 

@@ -4,7 +4,7 @@ description: The People Skills inference engine uses Microsoft 365 profile and a
 author: kwekuako
 ms.author: kwekua
 ms.collection: operations-pod
-manager: dansimp
+manager: scotv
 ms.service: microsoft-365-copilot
 ms.topic: article
 ms.date: 05/29/2025

@@ -40,6 +40,8 @@ You can't transfer a Microsoft 365 domain to another registrar for 60 days after
 
 Sign in as a global administrator, follow these steps to get a code at Microsoft 365, and then go to the other domain registrar website to transfer your domain name to the new registrar.
 
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
+
 ## Transfer a domain
 
 1. In the admin center, go to **Settings** \> **Domains**.

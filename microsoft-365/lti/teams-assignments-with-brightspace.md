@@ -1,13 +1,15 @@
 ---
 title: Integrate Teams Assignments with Brightspace
 description: Integrate and use the Microsoft Teams Assignments learning tool interoperability (LTI) app with Desire2Learn Brightspace.
-author: officedocspr5
-ms.author: odocspr
+author: jennplatt
+ms.author: avering
 manager: mimast
 ms.date: 02/10/2025
 ms.topic: article
-ms.service: msteams
-ms.subservice: teams-education
+ms.service: microsoft-365-education
+ms.collection:
+- m365-education
+- all-education
 ---
 
 # Use Teams Assignments LTI with Desire2Learn Brightspace
