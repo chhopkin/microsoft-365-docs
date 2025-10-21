@@ -75,7 +75,7 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
 3. In the list of results, select an AI app that you want to block. At the end of its row, select the three dots, and then select **Unsantioned**. This action adds an *Unsanctioned* tag that enables you to monitor the app.
 
 > [!IMPORTANT]
-> If you're using Defender for Endpoint, as soon as an app is marked as unsanctioned, it's automatically blocked across onboarded devices. However, you can specify whether to warn and educate users instead of blocking apps. See [Educate users when accessing risky apps](/defender-cloud-apps/mde-govern#educate-users-when-accessing-risky-apps).
+> If you're using Defender for Endpoint, as soon as an app is marked as unsanctioned, it's automatically blocked across onboarded devices. However, your security team can specify whether to warn and educate users instead of blocking apps. See [Educate users when accessing risky apps](/defender-cloud-apps/mde-govern#educate-users-when-accessing-risky-apps).
 
 ## Block specific generative AI apps
 
