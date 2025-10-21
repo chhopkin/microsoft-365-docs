@@ -67,9 +67,11 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
 
 Before you begin, review the [prerequisites](/defender-cloud-apps/governance-discovery#prerequisites).
 
-1. In the Microsoft Defender portal, select Cloud apps > Cloud discovery.
+1. Go to the [Microsoft Defender portal](https://security.microsoft.com) and sign in.
 
-2. 
+2. In the navigation pane, select **Cloud apps** > **Cloud discovery**.
+
+3. 
 
 ## Block specific generative AI apps
 
