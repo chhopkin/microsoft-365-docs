@@ -1,5 +1,5 @@
 ---
-title: Learn about managing Copilot Studio agents
+title: Manage Copilot Studio (full) agents
 f1.keywords:
 ms.author: erikre
 author: ErikRe
@@ -13,10 +13,10 @@ ms.localizationpriority: medium
 ms.collection:
 - m365copilot
 - magic-ai-copilot
-description: Learn about managing Copilot Studio agents.
+description: Manage Copilot Studio (full) agents.
 ---
 
-# Learn about managing Copilot Studio agents
+# Manage Copilot Studio (full) agents
 
 
 

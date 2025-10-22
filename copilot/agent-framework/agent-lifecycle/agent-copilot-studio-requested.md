@@ -20,6 +20,9 @@ description: Learn how to manage requested Copilot Studio agents.
 
 Your organization can use Copilot Studio to create more advanced agents. These agents can be published to different channels within your organization, such as Microsoft 365 Copilot and Microsoft Teams. When an agent is published from Copilot Studio, the agent will be displayed in the **Requested agents** tab in the Microsoft 365 admin center.
 
+**Applies to**:<br>
+- Copilot Studio (full)
+
 ## Requested agents pending review
 
 When an agent is submitted for admin approval, all metadata about an agent’s definition is provided in Microsoft 365 admin center. Select the **Details** tab for the agent to better understand the agent’s capabilities, data sources, and custom actions before allowing the agent to be published to your organization.

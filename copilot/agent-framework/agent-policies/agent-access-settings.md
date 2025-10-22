@@ -16,14 +16,11 @@ ms.collection:
 description: Learn about Microsoft 365 Copilot agent access settings.
 ---
 
-# Agent access settings for Microsoft 365 Copilot agents
+# Access settings for Microsoft 365 Copilot agents
 
 Not every user in your organization may need access to agents. Therefore, you can specifically control how members of your organization can access and install agents. As the administrator, you should use discretion when managing individual agent’s distribution and costs.
 
-## Control if users are allowed to create declarative agents
-
-
-## Choose who can access agents
+## Choose agent access and availability
 
 To view and confirm agent access settings for your organization:
 
@@ -39,6 +36,3 @@ To view and confirm agent access settings for your organization:
 5. Select **Save** to update your Copilot agent settings for your tenant.
 
 For more information, see [Enable or disable Copilot extensibility](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#enable-or-disable-copilot-extensibility).
-
-
- 
