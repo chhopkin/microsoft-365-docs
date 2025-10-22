@@ -212,26 +212,30 @@ items:
     - name: Manage agent inventory and lifecycle
       href: agent-framework/agent-lifecycle/agent-inventory-lifecycle.md
       items:
+      - name: Manage Copilot Studio (lite) agents
+        href: agent-framework/agent-lifecycle/agent-copilot-studio-lite.md
+        items:
+        - name: Manage shared agents
+          href: agent-framework/agent-lifecycle/agent-manage-shared.md
+      - name: Manage Copilot Studio (full) agents
+        href: agent-framework/agent-lifecycle/agent-copilot-studio-full.md
+        items:
+        - name: Manage requested agents
+          href: agent-framework/agent-lifecycle/agent-copilot-studio-requested.md
+        - name: Upload custom agents
+          href: agent-framework/agent-lifecycle/agent-upload-agents.md
+        - name: Manage agent settings
+          href: agent-framework/agent-lifecycle/agent-copilot-studio-settings.md
       - name: Pin agents
         href: agent-framework/agent-lifecycle/agent-pin-agents.md
-      - name: Upload custom agents
-        href: agent-framework/agent-lifecycle/agent-upload-agents.md
-      - name: Manage shared agents
-        href: agent-framework/agent-lifecycle/agent-manage-shared.md
-      - name: Manage Copilot Studio (full) agents
-        href: agent-framework/agent-lifecycle/agent-copilot-studio-agents.md
-        items:
-        - name: Manage Copilot Studio requested agents
-          href: agent-framework/agent-lifecycle/agent-copilot-studio-requested.md
-        - name: Manage Copilot Studio (full) agent settings
-          href: agent-framework/agent-lifecycle/agent-copilot-studio-settings.md
       - name: Manage Copilot Connectors
         href: agent-framework/agent-lifecycle/agent-copilot-connectors.md
-      - name: Assign and deploy agents
+      - name: Assign and deploy an agent
+        href: agent-framework/agent-lifecycle/agent-assign-deploy.md      
         items:
-        - name: Set availability of agents
+        - name: Set availability of an agent
           href: agent-framework/agent-lifecycle/agent-availability.md
-        - name: Deploying agents
+        - name: Deploy an agent
           href: agent-framework/agent-lifecycle/agent-deploy.md
     - name: Create M365 Copilot agents
       href: agent-framework/agent-create/copilot-development-environments.md
