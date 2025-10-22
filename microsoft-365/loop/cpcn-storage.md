@@ -78,7 +78,7 @@ Copilot Pages + Copilot Notebooks container has a maximum size of 25 TB. This li
 
 - [Summary of Compliance, Lifecycle, Governance](cpcn-compliance-summary.md)
 - [Requirements](cpcn-loop-requirements.md)
-- [Permissions](cpcn-loop-permission.md)
+- [Permissions](cpcn-permission.md)
 - [Admin toggles](cpcn-admin-configuration.md)
 - [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md)
 - [Purview and SharePoint Embedded containers](cpcn-loop-purview-management.md)
