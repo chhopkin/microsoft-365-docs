@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: ruihu
 author: maggierui
 manager: dansimp
-ms.date: 09/09/2025
+ms.date: 10/21/2025
 ms.update-cycle: 180-days
 audience: Admin
 customer-intent: As an IT professional, I want to understand how Microsoft 365 Copilot works with data protection, oversharing controls, and auditing features in Microsoft 365.
