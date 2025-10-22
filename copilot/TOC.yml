@@ -198,13 +198,6 @@ items:
       items:
       - name: Agent access settings
         href: agent-framework/agent-policies/agent-access-settings.md
-        items:
-        - name: Set agent availability
-          href: agent-framework/agent-policies/agent-set-availability.md
-        - name: Deploy agents
-          href: agent-framework/agent-policies/agent-deploy-agents.md
-        - name: Choose available agent types
-          href: agent-framework/agent-policies/agent-choose-type-availability.md
       - name: Agent sharing and publishing settings
         href: agent-framework/agent-policies/agent-share-publish.md
         items:
