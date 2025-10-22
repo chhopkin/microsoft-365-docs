@@ -62,7 +62,7 @@ The following table describes log entries that are created.
 | Activity | Log entries |
 |--|--|
 | Access is granted when a support case is created | Two entries: <br/>- One showing the creation of a cross-tenant access policy; and <br/>- One showing the creation of a role assignment |
-| A support engineer signs in to investigate and troubleshoot an issue | Sign-in log entry |
+| A support engineer signs in to investigate and troubleshoot an issue | One sign-in log entry for each time a support engineer signs in |
 | Access is removed | Two entries: <br/>- One showing the removal of the cross-tenant access policy; and <br/>- One showing the removal of the role assignment |
 
 Look for entries in these categories:
