@@ -37,17 +37,11 @@ Discovering, monitoring, and managing AI apps is essential to prevent data leaks
    - See [Microsoft Purview permissions](/purview/purview-permissions#microsoft-purview-permissions)
 
 - **[Set up Microsoft Defender XDR](/defender-xdr/pilot-deploy-overview)**, which includes these components:
-   - [Microsoft Defender for Identity](/defender-xdr/pilot-deploy-defender-identity)
-   - [Microsoft Defender for Office 365](/defender-xdr/pilot-deploy-defender-office-365)
-   - [Microsoft Defender for Endpoint](/defender-xdr/pilot-deploy-defender-endpoint)
    - [Microsoft Defender for Cloud Apps](/defender-xdr/pilot-deploy-defender-cloud-apps)
+   - [Microsoft Defender for Endpoint](/defender-xdr/pilot-deploy-defender-endpoint)
 
 - **Configure Purview**. Select one or more of the [Microsoft Purview deployment models](/purview/deploymentmodels/depmod-overview), which include:
    - [Secure by default](/purview/deploymentmodels/depmod-securebydefault-intro)
-   - [Address internal oversharing concerns for Microsoft 365 Copilot deployment](https://aka.ms/Copilot/OversharingBlueprintLearn)
-   - [Prevent data leak to shadow AI with Microsoft](/purview/deploymentmodels/depmod-data-leak-shadow-ai-intro)
-   - [Lightweight guide to mitigate data leakage](https://aka.ms/Purview_LightweightGuide_PDF)
-   - [Secure agents in Microsoft 365 with Purview](https://aka.ms/PurviewDeploymentModels/SecureAgents-pdf)
    - [Purview Data Security Posture Management](https://aka.ms/DSPMBlueprintPDF)
 
 
@@ -64,6 +58,10 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
 3. In the **Category** filter, select **Generative AI**. 
 
 4. Review the list of apps, along with their risk scores. Make a note of the apps you might want to monitor or block. For more information about risk scores, see [Find your cloud app and calculate risk scores](/defender-cloud-apps/risk-score).
+
+### Use Purview DSPM for AI for AI discovery
+
+PROCEDURE
 
 ## Set up a policy to create an alert for new generative AI apps
 
@@ -92,6 +90,8 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
 5. On the **Define Policy Status** page, select **Audit mode**. With this mode, policies are evaluated but configured actions don't occur. Audit mode policies appear with the status of *Audit* in the list of policies. You should use Audit mode for testing a new policy.
 
 6. Carefully review all parameters of your custom policy. Select **Submit** when you're satisfied. You can also go back and change settings by selecting **Edit** beneath any of the settings.
+
+### Create
 
 ## Block specific generative AI apps
 
