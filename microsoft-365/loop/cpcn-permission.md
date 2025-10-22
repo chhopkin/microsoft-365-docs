@@ -37,13 +37,13 @@ Copilot Pages and Copilot Notebooks are stored in [SharePoint Embedded](/sharepo
 - **Page Sharing**: Grants access to a specific page (not the whole notebook) with options for edit or read-only access. The user can choose to use a company share link or people-specific share link, based on your organizational sharing settings.
 
   :::image type="content" source="media/cpcn-share-page.png" alt-text="Screenshot showing the Share button in the upper corner of a Copilot Page":::
-  The Share button is in the upper corner of a Copilot Page.
+  The Share button in the upper corner of a Copilot Page.
 
   :::image type="content" source="media/cpcn-share-link.png" alt-text="Screenshot showing the Sharing Link copied to clipboard dialog with Settings option":::
-  The share link is provided after choosing the type of link in the previous screen.
+  After choosing Page or Component in the Share button (previous screen), The share link is copied to the clipboard, and sharing Settings are available.
 
   :::image type="content" source="media/cpcn-share-settings.png" alt-text="Screenshot showing the Share settings available for the Copilot Page permissions":::
-  The share link permissions can be configured by choosing Settings in the previous screen.
+  The share link settings and permissions configuration, just like all other files in SharePoint or OneDrive.
 
 ## Guest/External sharing
 
