@@ -5,7 +5,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 ms.reviewer: 
-ms.date: 10/21/2025
+ms.date: 10/22/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: article
@@ -26,7 +26,7 @@ As people embrace and incorporate [generative AI apps](/ai/playbook/technology-g
 
 But what about non-Microsoft AI apps? 
 
-Using capabilities in [Microsoft Defender XDR](/defender-xdr/microsoft-365-defender), which includes Microsoft Defender for Cloud Apps and Microsoft Defender for Endpoint, your security team can enable people in your organization to use generative AI apps more securely, including Microsoft and non-Microsoft AI apps.
+Using capabilities in [Microsoft Defender XDR](/defender-xdr/microsoft-365-defender), which includes Microsoft Defender for Cloud Apps and Microsoft Defender for Endpoint, and [Microsoft Purview](/purview/purview), your security team can enable people in your organization to use generative AI apps more securely, including Microsoft and non-Microsoft AI apps.
 
 Discovering, monitoring, and managing AI apps is essential to prevent data leaks, maintain compliance, enforce governance, and uphold trust in enterprise AI adoption.
 
@@ -42,7 +42,6 @@ Discovering, monitoring, and managing AI apps is essential to prevent data leaks
    - [Microsoft Defender for Endpoint](/defender-xdr/pilot-deploy-defender-endpoint)
    - [Microsoft Defender for Cloud Apps](/defender-xdr/pilot-deploy-defender-cloud-apps)
 
-<!---
 - **Configure Purview**. Select one or more of the [Microsoft Purview deployment models](/purview/deploymentmodels/depmod-overview), which include:
    - [Secure by default](/purview/deploymentmodels/depmod-securebydefault-intro)
    - [Address internal oversharing concerns for Microsoft 365 Copilot deployment](https://aka.ms/Copilot/OversharingBlueprintLearn)
@@ -50,7 +49,8 @@ Discovering, monitoring, and managing AI apps is essential to prevent data leaks
    - [Lightweight guide to mitigate data leakage](https://aka.ms/Purview_LightweightGuide_PDF)
    - [Secure agents in Microsoft 365 with Purview](https://aka.ms/PurviewDeploymentModels/SecureAgents-pdf)
    - [Purview Data Security Posture Management](https://aka.ms/DSPMBlueprintPDF)
---->
+
+
 ## Discover generative AI apps that are in use in your organization
 
 Use the Microsoft Defender portal to see a list of AI apps your organization is using. Defender for Cloud Apps provides a catalog of apps with security and compliance risk scores.
