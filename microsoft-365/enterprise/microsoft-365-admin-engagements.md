@@ -21,12 +21,12 @@ ai-usage: ai-assisted
 
 The Engagements pivot in Enhanced engagements offers a centralized overview of all customer-specific engagements with Microsoft. This section allows users to request and track engineering-led escalations, post-incident analyses, Business Process Awareness (BPAs), and Customer Advisory Board (CAB) discussions. Each engagement type provides detailed insights, status updates, and filtering options to help manage support efficiently.
 
-## Service requests
+## Engineering Escalations
 
-The Service requests view under Enhanced engagements provides visibility into all engineering-level support escalations raised for your tenant. These include cases submitted directly by your organization through the _Escalate to Engineering_ feature, as well as issues elevated by Microsoft Support when advanced troubleshooting is required.
+The Engineering Escalations view under Enhanced Engagements provides visibility into all engineering-level support escalations raised for your tenant. These include cases submitted directly by your organization through the _Escalate to Engineering_ feature, as well as issues elevated by Microsoft Support when advanced troubleshooting is required.
 This view helps monitor escalation activity, review trends, and gain insights into how issues are distributed across products, severity levels, and sources.
 
-### Overview of Service requests
+### Overview of Engineering Escalations
 
 At the top of the page, several visual summaries provide quick insights into your tenant’s escalation activity:
 
@@ -65,9 +65,9 @@ You can:
 > [!TIP]
 > Combine filters and charts to spot recurring escalation trends or identify products that require the most attention.
 
-### Benefits of service requests
+### Benefits of Engineering Escalations
 
-The Service requests view helps your organization:
+The Engineering Escalations view helps your organization:
 
 - Maintain visibility into engineering-level escalations.
 - Understand patterns across products and severity levels.
