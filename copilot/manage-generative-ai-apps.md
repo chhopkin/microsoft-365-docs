@@ -28,7 +28,7 @@ But what about non-Microsoft AI apps?
 
 Using capabilities in [Microsoft Defender XDR](/defender-xdr/microsoft-365-defender), which includes Microsoft Defender for Cloud Apps and Microsoft Defender for Endpoint, and [Microsoft Purview](/purview/purview), your security team can enable people in your organization to use generative AI apps more securely, including Microsoft and non-Microsoft AI apps.
 
-Discovering, monitoring, and managing AI apps is essential to prevent data leaks, maintain compliance, enforce governance, and uphold trust in enterprise AI adoption.
+Discovering, monitoring, and managing AI apps is essential to prevent data leaks, maintain compliance, enforce governance, and uphold trust in enterprise AI adoption. This article describes how to perform these tasks using Defender for Cloud Apps and Purview.
 
 ## Before you begin
 
@@ -53,6 +53,8 @@ Discovering, monitoring, and managing AI apps is essential to prevent data leaks
 
 ## Discover generative AI apps that are in use in your organization
 
+### Use the Defender for Cloud Apps cloud app catalog
+
 Use the Microsoft Defender portal to see a list of AI apps your organization is using. Defender for Cloud Apps provides a catalog of apps with security and compliance risk scores.
 
 1. Go to the [Microsoft Defender portal](https://security.microsoft.com) and sign in.
@@ -64,6 +66,8 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
 4. Review the list of apps, along with their risk scores. Make a note of the apps you might want to monitor or block. For more information about risk scores, see [Find your cloud app and calculate risk scores](/defender-cloud-apps/risk-score).
 
 ## Set up a policy to create an alert for new generative AI apps
+
+### Create an app governance policy in Defender for Cloud Apps
 
 > [!NOTE]
 > Before you begin, review the [prerequisites](/defender-cloud-apps/governance-discovery#prerequisites).
@@ -90,6 +94,8 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
 6. Carefully review all parameters of your custom policy. Select **Submit** when you're satisfied. You can also go back and change settings by selecting **Edit** beneath any of the settings.
 
 ## Block specific generative AI apps
+
+### Use Defender for Cloud Apps to block specific AI apps
 
 1. In the [Microsoft Defender portal](https://security.microsoft.com), in the navigation pane, select **Cloud apps** > **Cloud discovery**. 
 
