@@ -36,7 +36,7 @@ Here are some important points to keep in mind:
 
 ## How long does Microsoft have this access?
 
-Access is removed automatically when your support request is closed. If your request is still open, access is removed 30 days from the date of request creation, and you'll be prompted to provide access again. If you have multiple requests open, the access expires 30 days from the date of creation of the latest request.
+Access is removed automatically when your support case is closed. If your case is not closed 30 days after the request is created, access will be removed, and you'll be prompted to provide access again. If you have multiple cases open, access expires 30 days after the latest support request was created.
 
 Depending on the nature of your support request, the data that Microsoft can access would belong under one or more of the following categories:
 
@@ -55,7 +55,15 @@ Microsoft retains diagnostic data for up to 28 days after it is collected. After
 
 ## Where is support activity on a customer tenant logged?
 
-Activity performed on a customer tenant is available under Microsoft Entra audit logs. Audit log entries are associated with the Microsoft Support tenant (`Office365ConciergeSupport.onmicrosoft.com` with tenant ID `b4c546a4-7dac-46a6-a7dd-ed822a11efd3`).
+Activity performed on a customer tenant is available under Microsoft Entra audit logs. 
+
+The following table describes log entries that are created.
+
+| Activity | Log entries |
+|--|--|
+| Access is granted when a support case is created | Two entries: <br/>- One showing the creation of a cross-tenant access policy; and <br/>- One showing the creation of a role assignment |
+| A support engineer signs in to investigate and troubleshoot an issue | Sign-in log entry |
+| Access is removed | Two entries: <br/>- One showing the removal of the cross-tenant access policy; and <br/>- One showing the removal of the role assignment |
 
 Look for entries in these categories:
 
