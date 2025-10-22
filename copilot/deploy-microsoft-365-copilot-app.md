@@ -19,7 +19,7 @@ The app is available as a [web app](https://m365.cloud.microsoft/), as a desktop
 
 For organizations that disable access to the Windows Store, the installer can be directly accessed from the Microsoft 365 Content Delivery Network (CDN).
 
-To install new Outlook on a single computer with many users, follow these steps:
+To install on a single computer with many users, follow these steps:
 
 1. Download the [.exe installer](https://go.microsoft.com/fwlink/?linkid=2325486).
 2. Launch PowerShell 7 as an administrator: Right-click the PowerShell icon and choose Run as Administrator.
