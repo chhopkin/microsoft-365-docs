@@ -33,7 +33,7 @@ Copilot Pages and Copilot Notebooks are stored in [SharePoint Embedded](/sharepo
 
 ### Sharing Mechanism
 
-- **Copilot Notebooks** cannot yet be shared, only individual pages within them can be shared.
+- **Copilot Notebooks** can't yet be shared. Only individual pages within them can be shared.
 - **Page Sharing**: Grants access to a specific page (not the whole notebook) with options for edit or read-only access. The user can choose to use a company share link or people-specific share link, based on your organizational sharing settings.
 
   :::image type="content" source="media/cpcn-share-page.png" alt-text="Screenshot showing the Share button in the upper right corner of a Copilot Page":::
@@ -47,13 +47,13 @@ Copilot Pages and Copilot Notebooks are stored in [SharePoint Embedded](/sharepo
 
 ## Guest/External sharing
 
-External users (guests) cannot access shared Copilot Pages directly via link. Copilot Notebooks do not support external sharing.
+External users (guests) can't access shared Copilot Pages directly via link. Copilot Notebooks don't support external sharing.
 
 **Workaround for external access:** If an external user manually adds a Copilot Page sharing link to their Loop workspace and cross-tenant guest access is configured, they can access the page within the Loop workspace experience.
 
 To disable guest sharing for Loop, see [Loop Permissions](loop-permission.md).
 
-## Related topics
+## Related articles
 
 - [Loop workspaces and Loop components permissions](loop-permission.md)
 - [Copilot Pages and Notebooks Storage](cpcn-storage.md)

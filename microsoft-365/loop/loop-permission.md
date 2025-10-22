@@ -29,7 +29,7 @@ appliesto:
 
 ## Content permissions mechanism
 
-Loop workspaces are stored in [SharePoint Embedded](/sharepoint/dev/embedded/concepts/admin-exp/consuming-tenant-admin/cta) containers. Refer to [Loop Storage](loop-storage.md) for more details.
+Loop workspaces are stored in [SharePoint Embedded](/sharepoint/dev/embedded/concepts/admin-exp/consuming-tenant-admin/cta) containers. For more information, see [Loop Storage](loop-storage.md).
 
 ### Sharing Mechanism
 
@@ -66,11 +66,11 @@ When a guest accesses the Loop workspace, page, or component from the link from 
 
 ### More sharing controls
 
-If you would like to disable guest sharing of Loop workspaces independently of your organization-level OneDrive and SharePoint sharing setting, see [application external sharing override](/sharepoint/dev/embedded/concepts/app-concepts/sharing-and-perm#application-external-sharing-override) and the Loop OwningApplicationID `a187e399-0c36-4b98-8f04-1edc167a0996`. All of these sharing settings are controlled by the Loop OwningApplicationId.
+If you would like to disable guest sharing of Loop workspaces independently of your organization-level OneDrive and SharePoint sharing setting, see [application external sharing override](/sharepoint/dev/embedded/concepts/app-concepts/sharing-and-perm#application-external-sharing-override) and use the Loop OwningApplicationID `a187e399-0c36-4b98-8f04-1edc167a0996`, as this will enable you to control external sharing settings for all SharePoint Embedded containers of type = Loop.
 
 Unlike SharePoint sites, there's no admin setting to configure guest sharing of specific Loop workspaces. Direct users toward [sensitivity labeling](/purview/sensitivity-labels-loop) for per-workspace external sharing configuration. Admin's can also [configure sensitivity labels](/sharepoint/dev/embedded/concepts/security-and-compliance#security-features) on containers.
 
-## Workspace membership and Microsoft 365 groups
+## Workspace membership and Microsoft 365 Groups
 
 This section applies to shared workspaces. It doesn't apply to Copilot Pages, Copilot Notebooks, or My workspace, which are personal, have only one member, and aren't shared.
 

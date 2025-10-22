@@ -31,7 +31,7 @@ All SharePoint Embedded containers are targeted using the "All SharePoint Sites"
 
 ## Retrieving the Container URL for Purview
 
-If you need to specify an the Copilot Pages and Copilot Notebooks container, or a specific Loop workspace container for a retention policy or another compliance feature, specify the workspace as you would a SharePoint site, by its URL. To locate this URL:
+If you need to specify the Copilot Pages and Copilot Notebooks container, or a specific Loop workspace container for a retention policy or another compliance feature, specify the workspace as you would a SharePoint site, by its URL. To locate this URL:
 
 1. Sign in to the SharePoint admin center with the [SharePoint Embedded administrator role](/sharepoint/dev/embedded/concepts/admin-exp/adminrole)
 1. Navigate to **Containers** > **Active containers** or **Deleted containers** where you can view the details of a selected Loop workspace or Copilot Pages and Copilot Notebooks container
