@@ -240,20 +240,20 @@ Blocking or unblocking an agent created using Copilot Studio (lite) and Copilot 
 
 ## Agent inventory
 
-In Microsoft 365 admin center you can view your organization’s available agents and where members of your organization can find each agent based on supported functionality. The agent inventory is provided as a list. When you have several agents in your inventory, you can narrow the list based on different filters. Common filters include, **Type**, **Availability**, **Supported in**, and **Created in**.
+In Microsoft 365 admin center, you can view your organization’s available agents and where members of your organization can find each agent based on supported functionality. The agent inventory is provided as a list. When you have several agents in your inventory, you can narrow the list based on different filters. Common filters include, **Type**, **Availability**, **Supported in**, and **Created in**.
 
 ### Type filter
 
-The **Type** filter allows you to view agents based on the their creation method. The following list provides the different **Type** options:
+The **Type** filter allows you to view agents based on their creation method. The following list provides the different **Type** options:
 
 - **Custom** - Agents created by members of your organization using **Copilot Studio (full)**.
 - **Shared** - Agents created by members of your organization using **Copilot Studio (lite)**.
 - **Microsoft** - Agents created by Microsoft.
-- **External** - Agents create by agent provides that are external to your organization and Microsoft.
+- **External** - Agents created by agent provides that are external to your organization and Microsoft.
 
 ### Availability filter
 
-The **Availablity** filter shows which specific agents are avialable to members of your organization. The following list provides the different **Availability** options:
+The **Availability** filter shows which specific agents are available to members of your organization. The following list provides the different **Availability** options:
 
 - **Some users** - Agents that are specifically available to only selected users or groups at your organization.
 - **No users** - Agents that are unavailable to all users at your organization are listed.
@@ -304,7 +304,7 @@ The **Details** tab provides metadata about the agent, including details such as
 
 :::image type="content" source="../../media/agents/details.png" alt-text="Screenshot showing the Details tab for an agent." lightbox="../../media/agents/details.png":::
 
-### Agent security & complicance tab
+### Agent security & Compliance tab
 
 The **Security & compliance** tab provides certification information about the agent. You can view key details about the following areas:
 
