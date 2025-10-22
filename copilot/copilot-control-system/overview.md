@@ -2,9 +2,9 @@
 title: Copilot Control System Overview
 description: Learn about the Copilot Control System framework to secure, manage, and measure Microsoft 365 Copilot, Copilot Chat, Copilot Studio, and agents in your organization.
 #customer intent: As an IT admin, I want to understand the Copilot Control System framework so that I can secure, manage, and measure Microsoft 365 Copilot and agents in my organization.
-author: aczechowski
-ms.author: aaroncz
-manager: dansimp
+author: mestew
+ms.author: mstewart
+manager: scotv
 ms.reviewer: bensum
 ms.service: microsoft-365-copilot
 ms.topic: solution-overview

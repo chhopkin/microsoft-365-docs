@@ -190,10 +190,10 @@ items:
       href: agent-framework/agent-prerequisites.md
     - name: Microsoft 365 Copilot agents checklist
       href: agent-framework/m365-agents-checklist.md
-    - name: Microsoft 365 Copilot agents starting guide
+    - name: Microsoft 365 Copilot agents admin guide
       href: agent-framework/m365-agents-admin-guide.md            
     - name: Choose a Copilot Studio experience
-      href: agent-framework/agent-copilot-studio-experience.md
+      href: /microsoft-365-copilot/extensibility/copilot-studio-experience?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
     - name: Manage agent access and availability policies
       items:
       - name: Agent access settings
@@ -227,34 +227,32 @@ items:
         href: agent-framework/agent-lifecycle/agent-upload-agents.md
       - name: Manage shared agents
         href: agent-framework/agent-lifecycle/agent-manage-shared.md
-    - name: Manage Copilot Studio agents
-      href: agent-framework/agent-lifecycle/agent-copilot-studio-agents.md
-      items:
-      - name: Manage Copilot Studio requested agents
-        href: agent-framework/agent-lifecycle/agent-copilot-studio-requested.md
-      - name: Manage Copilot Studio agent settings
-        href: agent-framework/agent-lifecycle/agent-copilot-studio-settings.md
-    - name: Manage Copilot Connectors
-      href: agent-framework/agent-lifecycle/agent-copilot-connectors.md
-    - name: Assign and deploy agents
-      items:
-      - name: Set availability of agents
-        href: agent-framework/agent-lifecycle/agent-availability.md
-      - name: Deploying agents
-        href: agent-framework/agent-lifecycle/agent-deploy.md
-    - name: Create M365 Copilot agents
-      items:
-      - name: Copilot development environments
-        href: agent-framework/agent-create/copilot-development-environments.md
+      - name: Manage Copilot Studio (full) agents
+        href: agent-framework/agent-lifecycle/agent-copilot-studio-agents.md
         items:
-        - name: Microsoft SharePoint
-          href: agent-framework/agent-create/copilot-sharepoint.md
-        - name: Copilot Studio (lite)
-          href: agent-framework/agent-create/copilot-studio-lite.md
-        - name: Copilot Studio (full)
-          href: agent-framework/agent-create/copilot-studio-lite.md
-        - name: M365 Agents Toolkit
-          href: agent-framework/agent-create/m365-agents-toolkit.md          
+        - name: Manage Copilot Studio requested agents
+          href: agent-framework/agent-lifecycle/agent-copilot-studio-requested.md
+        - name: Manage Copilot Studio (full) agent settings
+          href: agent-framework/agent-lifecycle/agent-copilot-studio-settings.md
+      - name: Manage Copilot Connectors
+        href: agent-framework/agent-lifecycle/agent-copilot-connectors.md
+      - name: Assign and deploy agents
+        items:
+        - name: Set availability of agents
+          href: agent-framework/agent-lifecycle/agent-availability.md
+        - name: Deploying agents
+          href: agent-framework/agent-lifecycle/agent-deploy.md
+    - name: Create M365 Copilot agents
+      href: agent-framework/agent-create/copilot-development-environments.md
+      items:
+      - name: Microsoft SharePoint
+        href: agent-framework/agent-create/copilot-sharepoint.md
+      - name: Copilot Studio (lite)
+        href: agent-framework/agent-create/copilot-studio-lite.md
+      - name: Copilot Studio (full)
+        href: agent-framework/agent-create/copilot-studio-lite.md
+      - name: M365 Agents Toolkit
+        href: agent-framework/agent-create/m365-agents-toolkit.md          
     - name: Control M365 Copilot agent data access
       items:
       - name: Agent security, compliance, and governance overview
