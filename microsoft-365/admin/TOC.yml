@@ -586,13 +586,13 @@ items:
       href: microsoft-365-admin-enhanced-engagements.md
       items:
         - name: Overview of Enhanced Engagements
-          href: ../admin/enhanced-engagements/microsoft-365-admin-overview-enhanced-engagements.md
+          href: ../enterprise/microsoft-365-admin-overview-enhanced-engagements.md
         - name: Engagements portal in Enhanced Engagements
-          href: ../admin/enhanced-engagements/microsoft-365-admin-engagements.md
+          href: ../enterprise/microsoft-365-admin-engagements.md
         - name: Diagnostics portal in Enhanced Engagements
-          href: ../admin/enhanced-engagements/microsoft-365-admin-diagnostics.md
+          href: ../enterprise/microsoft-365-admin-diagnostics.md
         - name: Design Change Requests (DCR) in Enhanced Engagements
-          href: ../admin/enhanced-engagements/microsoft-365-admin-enhanced-engagements-faq.md
+          href: ../enterprise/microsoft-365-admin-enhanced-engagements-faq.md
     - name: Troubleshoot
       href: /office/troubleshoot/  
     - name: Contact support
