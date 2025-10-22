@@ -212,8 +212,6 @@ items:
     - name: Manage agent inventory and lifecycle
       href: agent-framework/agent-lifecycle/agent-inventory-lifecycle.md
       items:
-      - name: View agent inventory
-        href: agent-framework/agent-lifecycle/agent-view-inventory.md
       - name: Pin agents
         href: agent-framework/agent-lifecycle/agent-pin-agents.md
       - name: Upload custom agents
