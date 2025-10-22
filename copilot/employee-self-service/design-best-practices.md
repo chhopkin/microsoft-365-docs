@@ -22,223 +22,105 @@ appliesto:
 >[!NOTE]
 >The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
-The Employee Self-Service (ESS) agent is a template in Microsoft Copilot Studio that can be infinitely customized to assist users in your organization with HR and IT tasks. Use guidance here to learn more about how to craft high-quality responses using a mix of techniques to fit your business needs.
-
-In this article:
--	Learn more about the elements of a good response and how responses are formed.
--	Get help thinking more about crafting the agent's personality and voice.
--	Explore prompt engineering considerations and techniques.
--	See how you can test your agent to establish benchmarks for certain scenarios.
+The Employee Self-Service (ESS) agent is a template in Microsoft Copilot Studio that can be infinitely customized to assist users in your organization with HR and IT tasks. Use guidance here to learn more about how to craft high-quality responses using a mix of techniques to fit your ideal response.
 
 ## About response quality
 
 A great response is **accurate, actionable, and engaging** to ensure we earn trust, provide useful responses, and help the user take the next step using self-service tools. ESS requires a blend of design elements, agent instructions, and conversational design techniques to craft great responses.
 
-To build trust with users and make ESS a reliable resource:
-
--	Responses need to be engaging using personalized data, balanced formatting, and natural language
--	Responses need to be accurate by using instructions for intent matching and using UI certain elements 
--	Responses need to be actionable by reliably mobilizing users to the best next step or resource
-
 ## How responses are formed
 
-Responses are a combination of **instructions, knowledge, and UI elements** built on top of the Copilot language model. Knowledge and data ensure factual accuracy, instructions refine how responses are structured and communicated, and UI elements enhance usability and trust—together shaping responses.
+Responses are a combination of **instructions, knowledge, topics, data from connectors, and UI elements**. ESS responses combine these elements to deliver accurate, actionable, and trustworthy experiences. This approach solves common challenges like ambiguous intent, inconsistent tone, and static answers by ensuring structured guidance, personalized context, and interactive components that move tasks forward.
 
-Response quality relies on a handful of factors like the design elements provided by the platform, and conversational design decisions made by the maker:
+## Instructions: Define voice, behaviors, and reasoning
 
--	Responses need instructions for the entire agent, for certain workflows, and for verbatim responses to ensure the right formatting, voice, and decision-making is prioritized.
--	Responses need certain UI elements like disclaimers, references, and Adaptive Cards that help the user build trust and complete tasks.
--	Responses need knowledge and data to return accurate and personalized responses that are complete, actionable, and useful based on the original intent.
+Instructions act as a blueprint for tone, structure, and decision-making across workflows, preventing fragmented user experiences. Instructions specify clear role definitions and handoff rules to prevent agents from giving redundant or conflicting answers.
+
+- **Global agent instructions on the overview page**: Apply to the entire agent to maintain consistent tone, style, and decision-making.
+- **Workflow-level instructions and triggers in topics**: [Guide specific scenarios](/microsoft-copilot-studio/nlu-generative-answers-prompt-modification) or tasks, ensuring responses follow the right logic and conversational flow.
+- **Advanced knowledge instructions**: Provide detailed guidance on how to use or prioritize knowledge sources (for example, specify which user context variables to prioritize).
+- **Channel description for Teams and M365 Copilot**: Give instruction on intent recognition between domains and similar scenarios. [Channel instruction](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams) ensures accurate intent routing, consistent user experience across domain agents, and drives actionable responses for a multi-domain deployment.
+
+### Knowledge and data: Ensure accuracy and personalization 
+
+[Knowledge](/microsoft-copilot-studio/knowledge-add-existing-copilot) and data connectors eliminate guesswork, ensuring answers are factually correct and personalized to the user's role, organization, and intent.
+
+- **Knowledge sources**: Your enterprise content from SharePoint or other knowledge bases like ServiceNow.
+- **Data connectors**: Pull real-time, contextual data from content management systems and connectors like Workday, ServiceNow, or SAP to personalize responses. [Learn more](/microsoft-365-copilot/extensibility/overview-copilot-connector) about Copilot connectors.
+
+XXX IS THIS THE BEST LINK?
+
+### UI Elements and actions: Build trust and enable action
+
+UI elements like Adaptive cards, inline actions, and references turn static responses into interactive workflows.
+
+- **Disclaimers and badges**: Increase transparency and compliance.
+- **Adaptive cards and rich components**: Allow users to act directly within the conversation (for example, approve requests, order a new device, file an HR ticket).
+- **Actions**: Uses trigger integrated actions, like creating tasks, updating records, or generating content, directly from chat, so they can complete work without switching apps.
 
 ## About writing instructions for your ESS agent
 
-Often referred to as a meta prompt or system prompts, instructions guide the agent with context, examples, and other information relevant to a specific use case.
-Instructions inform the agent's behavior, drive response quality, and can impact agent performance.
-
-There are different kinds of instructions that work together to form responses:
-
-1. **Agent instructions (global)**: These instructions drive the behavior across conversations and shape the agent's personality. Agent instructions can be added on the **Overview** tab.
-
-2. **Knowledge source instructions**: Clarify how each source should be used. Custom instructions for knowledge sources are important because they help the agent understand how to interpret and apply the information accurately when generating answers. Custom instructions make responses relevant, trustworthy, and aligned with the user's intent.
-
-3. **Topic trigger phrases and instructions**: Fine-tune how the agent detects user intent and delivers task-focused responses.
-
-A topic contains one or more conversation nodes that define more structured conversational paths. Each node performs an action, such as sending a message or asking a question. A topic is triggered using a specified set of trigger phrases, keywords, and questions that a user is likely to use for specific intents. A topic can be customized using tools, actions, and variables.
-
-4. **Channel description**: Give instruction on intent recognition between domains and similar scenarios. Channel instruction ensures accurate intent routing, consistent user experience across domain agents, and drives actionable responses for a multi-domain deployment.
-
-### How to write effective channel instructions:
-
-1. **Be explicit about agent roles, scope, and handoffs**: Clearly define the domain of each subagent and when to delegate a query. This definition improves routing accuracy and prevents redundant or ambiguous responses.
-2. **Provide guidance for ambiguous cross-domain queries**: Provide examples on where intents may be ambiguous, how they can be navigated, and the fallback plan to move the task forward.
-3. **Emphasize how to behave when uncertain**: Instruct the agent to ask clarifying questions when intent is unclear or could span domains.
-
-## Using instructions and system prompts to craft conversations
-
-These prompts are behind-the-scenes instructions that shape how the agent responds to users in real time. Think of system prompts as the bridge between your business goals and the user experience. Use them to encode your values, protect users, and shape trustworthy, useful interactions.
-
-### Getting started
-
 When you're designing global system prompts for an AI agent, especially one deployed across various domains, languages, and use cases, it's crucial to define clear, consistent instructions. These instructions should shape the agent's behavior, tone, boundaries, and adaptability. These prompts act as the backbone of how the agent interprets and responds across all interactions.
 
-Start by thinking through:
+To begin with:
 
--	Start with a clear identity statement.
-  *Example: "You're a friendly, knowledgeable workplace assistant. You explain things simply and clearly, like a helpful teammate."*
--	Use behavioral examples.
-  *Do: Give concise answers in 2–3 sentences. Don't: Use jargon or long-winded explanations.*
--	Incorporate metaphors or analogies.
-  *"Speak like a trusted coworker, not a technical manual."*
--	Add adaptive instructions.
-  *"Use a more direct tone during troubleshooting. Be warmer and more supportive when helping with HR questions."*
+- Start with a clear identity statement. Example: "*I'm a friendly, knowledgeable workplace assistant. I explain things simply and clearly, like a helpful teammate.*"
+- Use behavioral examples. Do: Give concise answers in 2–3 sentences. Don't: Use jargon or long-winded explanations.
+- Incorporate metaphors or analogies. "*Speak like a trusted representative, not a technical manual.*"
+- Add adaptive instructions. "*Use a more direct tone during troubleshooting. Be warmer and more supportive when helping with HR questions.*"
+- Plan to reference variables in instructions. "*Prioritize information and entities mentioned in `userprofile`.*"
 
-## Developing agent personality to define content strategy
+### Developing agent personality to define content strategy 
 
 An agent's role and identity shape every interaction it has with users. When well-defined, the agent feels purposeful, trustworthy, and aligned with your product or service. When vague or inconsistent, it can create confusion, damage credibility, and lead to misaligned responses. Users need to understand who they're talking to, why that agent exists, and what they can expect from the conversation.
 
 This context is especially critical in enterprise and productivity settings, where users rely on agents to act with clarity, accuracy, and consistency. A strong sense of role and identity reduces ambiguity for both the user and the underlying model.
 
-### Persona definition and context
+### Persona definition and context 
 
-When supporting sensitive areas like HR and IT, it's especially important that the agent reflects the company's tone of professionalism and respects user privacy. The agent should provide help that feels dependable and grounded in internal policies.
-Start by establishing a clear role that helps shape how the agent communicates and interacts with users. Then, align the agent's personality with the expectations of the intended audience.
+When supporting sensitive areas like HR and IT, it's especially important that the agent reflects the organization's professional yet approachable tone. Match the agent's communication style to how your organization speaks with employees in internal documentation, help centers, and service desks.
 
-When developing the agent's personality and writing system prompts, make sure to:
+1. **Choose 3–5 key attributes**: Define a small set of core traits that capture the agent's personality. These attributes should reflect your organization's internal culture, and the expectations employees have when seeking help with HR or IT topics.
+1. . **Document with examples**: Pair each personality trait with example triggers and phrases to help the LLM map user intent with conversational context.
+1. **Adapt for context**: Maintain a consistent core personality but allow tone to flex slightly based on task type. For instance, you may decide IT troubleshooting calls for a more direct tone, while HR topics require a bit more empathy and care.
 
-1. Define the agent's role and persona: Position the agent as a knowledgeable and supportive digital assistant designed to help employees navigate internal tools and services. It should feel like an extension of your organization's service team—not a chatbot trying to act human. Give it a tone that's professional, friendly, and efficient, matching your company's internal communications culture.
-2. Ensure alignment with brand voice and tone: Match the agent's communication style to how your organization speaks with employees in internal documentation, help centers, and service desks. Whether your tone is warm and conversational or more direct and businesslike, the agent should feel consistent with the rest of the employee experience. Include sample responses in the prompt to guide tone and phrasing.
+#### Tangible examples
 
-### Tips to define personality attributes
+Give the agent tangible examples of how the agent sounds for specific scenarios:
 
-1.	Use clear frameworks: Ground your agent's personality in frameworks like brand archetypes (for example, The Guide, The Caregiver) or voice-and-tone sliders (for example, formal ↔ informal, serious ↔ playful). Keep it simple, actionable, and easy for writers and developers to apply.
-2.	Choose 3–5 key attributes: Define a small set of core traits that capture the agent's personality. These attributes should reflect your organization's internal culture, and the expectations employees have when seeking help with HR or IT topics.
-3.	Avoid extreme traits: The ESS agent should be helpful and approachable without becoming too informal or emotionally reactive. For example:
-  -	Friendly but not overly casual. Uses warm, respectful language without slang or jokes.
-  -	Professional but not robotic. Sounds polished and efficient, while still conversational.
-  -	Empathetic but not overbearing. Acknowledges frustrations without getting too personal.
-  -	Confident but not arrogant. Provides answers clearly, with humility and precision
-4.	Document with examples: Pair each personality trait with example phrases or microcopy that show how it should come across in real responses. This work helps maintain consistency across writers, prompts, and updates.
-5.	Adapt for context: Maintain a consistent core personality but allow tone to flex slightly based on task type. For instance, IT troubleshooting may call for a more direct tone, while HR topics may require a bit more empathy and care.
+- **Adapt to emotion type**: Grief/Loss: "I'm so sorry for your loss. Let's handle this with care."
+- **Stress/Anxiety/Overwhelm**: Normalize, break steps down, set timelines. Performance Anxiety (for example, promotion concerns): Reassure effort, note many feel this way, provide clarity and next steps.
+- **Frustration/Confusion** (for example, because of denied leave or form overload): Validate emotion, explain simply, simplify process.
+- **Urgency/Crisis**: Recognize urgency, prioritize fastest fix.
+  - Do: Rotate empathetic phrases ("This sounds challenging," "I get why this is frustrating"), then transition ("Here's how we can tackle this step by step"). Provide guidance, resources, and escalation if needed.
+  - Don't: Provide counseling, medical/legal advice, or overpromise certain outcomes.
 
-When you're designing an AI agent for internal workplace support across domains like HR, IT, facilities, finance, and more, you want personality traits that are universally professional, adaptable to different task types, and supportive without being too casual.
+### Write instructions that influence response structure
 
-- Approachable: Encourages employees to ask questions without hesitation.
-- Professional: Maintains a respectful and polished tone suited for enterprise environments.
-- Reliable: Reinforces trust that the agent is a dependable source of accurate, up-to-date information.
-- Clear: Helps reduce friction by providing straightforward, jargon-free answers.
-- Empathetic: Acknowledges user frustration or confusion, especially for sensitive topics like benefits, leave, or tech issues.
-- Efficient: Prioritizes getting to the point and solving the task quickly. 
-- Supportive: Feels like a helpful partner, particularly when guiding users through multi-step processes, or policy-heavy areas.
-- Respectful: Important for HR-related topics that may involve privacy, identity, or personal context
-- Calm: Maintains composure during error handling or escalation, setting the tone for resolution
-- Knowledgeable: Reinforces the idea that authoritative internal sources back the agent and it knows its domain well.
+Writing clear instructions that shape the agent's response format is essential for ensuring readability and comprehension for specific kinds of answers. Copilot Studio allows Markdown in the instruction field, which isn't just for looks. It helps the AI parse your intent.
 
-The following statements can help you define the persona:
+- Use headings, lists, and emphasis to structure the instructions.
+- Use # Headings to label sections like "Objective", "Steps", "Guidelines".
+- Use bullet points (-) for unordered lists (general rules, multiple options) and numbered lists (1. 2. 3.) for ordered sequences.
+- Use backticks to denote tool or system names (CRM Database, SalesReport), so they stand out clearly.
+- Bold critical keywords or whole lines if something is extremely important (for example, "Always verify customer identity before proceeding.").
+- Keep different topics in separate paragraphs or list items. If providing example dialogues, set them apart (for instance, start a new section or use a block quote) to avoid mixing them with actual rules.
 
--	**Helpful and trustworthy**: The agent is designed to be a reliable first stop for employees seeking answers about HR, tech support, and more. It draws only from authoritative, org-managed sources, ensuring responses are grounded in official org guidance.
--	**Friendly and efficient**: It aims to simplify the employee experience with quick, personalized responses - whether you're asking about your cost center, setting up a device, or finding a café near the office. It's like a knowledgeable workplace specialist who's always available to help you navigate life at work.
--	**First-line support for employee needs**: The agent serves as a go-to resource for employees seeking quick, reliable answers about HR policies, Helpdesk tech support, and campus services. The agent should reduce friction in accessing internal information and services.
--	**Streamlined access to authoritative information**: Unlike general-purpose Copilot tools, this agent only draws from official, org-managed sources from the organization's knowledge base. This scope ensures that responses are grounded in accurate, policy-aligned content.
--	**Personalized and location-aware assistance**: This agent tailors responses based on the employee's company code and location, helping users navigate region-specific services like dining options in specific regions or badge replacement procedures.
--	**Task facilitation and escalation**: The agent can initiate actions like opening an AskHR case, listing existing HR or IT Helpdesk tickets, or transferring users to live support when needed by bridging the gap between self-service and human assistance.
+### Define non-standard words or acronyms
 
-Give the agent tangible examples of how the agent sounds:
+If your instructions mention internal jargon, product names, or acronyms that aren't universally known, define them in the instructions. For example: "CRM = Customer Relationship Management (our client database)." This ensures the AI doesn't misunderstand these terms and can even explain them to a user if needed. It's common to add a "Glossary" or "Definitions" section at the end of instructions for this purpose. This is particularly useful if the agent's domain is specific (legal terms, medical terms, company codenames, and so on).
 
-Do say:
-- "Let's build on your strengths."
-- "Here's an insight based on your recent feedback."
-- "Would you like to explore ways to grow in this area?"
+### Define boundaries and fallback plans.
 
-Don't say:
-- "You're doing this task wrong."
-- "I can't help with that work."
-- "Your performance is below average."
-
-### Voice and tone guidelines
-
-Define how the agent speaks and adapts based on context. Developing voice and tone guidance for agent instructions is essential because it ensures that the agent communicates consistently, appropriately, and effectively across various user scenarios.
-
-- **Establishes trust and credibility**: Voice and tone set the emotional and professional tone of the interaction. Inconsistent or mismatched tone (for example, too casual in a sensitive HR context) can confuse or alienate users. Clear guidance helps the agent sound conversational yet dependable.
-- **Supports brand coherence**: Your agent is part of your organization's digital identity. Defining voice and tone ensures the agent reflects your brand values and aligns with how your company communicates across other channels (like internal comms or other employee experiences).
-- **Improves clarity and comprehension**: Tone affects how easy and comfortable the guidance feels, especially under stress (for example, technical or HR issues).
-
-Considerations to help you define voice and tone:
-
--	When giving positive feedback: Confident and celebratory ("You're making great progress in your communication skills.").
--	When surfacing a challenge: Encouraging and constructive ("You're made strong progress. Let's look at a few ways to improve your presentation impact.").
--	When asked for help: Respectful and helpful ("Here's something we can try together...").
--	Adapt tone for different contexts (for example, apology vs. instruction).
--	Consider localization: tone norms differ by culture/language.
-
-Voice & tone prompt examples:
-
--	**Be clear and concise**: Use simple, direct language that is easy to understand. Avoid jargon, technical terms, or unnecessary complexity.
--	**Sound natural and human**: Speak in a conversational, approachable tone. Use contractions where appropriate and avoid robotic or overly formal phrasing.
--	**Prioritize the user's needs**: Focus on delivering useful, relevant, and actionable information. Structure content logically and remove anything that doesn't add value.
--	**Be warm but not overly casual**: Strike a balance between friendly and professional. Avoid slang, humor that may not translate well, or excessive enthusiasm.
--	**Be inclusive and respectful**: Use language that is welcoming to all users, avoiding assumptions about identity, ability, or background.
-
-## Write instructions that influence response structure and quality
-
-Writing clear instructions that shape the agent's response format is essential for ensuring readability and comprehension, especially in the workplace where users need quick, actionable answers. 
-
-1. Be explicit about the output format.
-
-If you don't explicitly instruct the agent, it defaults to general-purpose formatting, which might not be as engaging or understandable. To ensure users get quick, clear answers, specify exactly how the response should be structured like when to use bullets, steps, summaries, and character limits.
+When crafting system prompts, you're guiding how the agent behaves in different contexts and not just what it says. Clear instructions help the agent respond responsibly, stay within scope, and build user trust. [Learn more](/microsoft-copilot-studio/authoring-system-fallback-topic) about the system fallback topic.
 
 Examples:
 
--	Use a numbered list to describe steps that need to be completed in sequential order. 
--	Only use tables when the numbered list is longer than six items or when the information is easier to understand in a table.
--	Add a one-sentence tip at the end of summaries for the best results.
--	Keep summaries around 2-3 sentences long.
--	Avoid technical jargon and define all acronyms when using them for the first time.
--	Avoid using emojis and other symbols to express emotion.
--	Reinforce key takeaways, not just raw information by structuring information in a way that people can easily grasp and retain the most relevant insights.
--	Always use clear source attribution when possible like when summarizing a claim or statistic, briefly reference the source like "According to the company's Q1 report..."
+- Don't speculate or make up responses when unsure. Say you don't know and suggest a next step or escalation path.
+- For sensitive topics (for example, complaints or personal conflict), don't offer advice. Recommend contacting HR or another trusted internal support.
+- Only call the Inventory API if the product ID is provided; if not, politely ask the user for the product ID instead of guessing.
 
-2. Provide examples of what to do and what to avoid.
-
-Guide the agent by pairing clear instructions with positive examples (what to do) and negative examples (what to avoid).
-
-Examples:
-
-Format answers as short, scannable summaries in plain language.
-
-Do:
-- Summarize in 2–3 simple sentences
-- Use bullets to list key details
-- Stick to the most common workplace terms
-Don't:
-- Use technical jargon
-- Write long paragraphs
-- Add unnecessary explanation
-
-Use the following example when users ask for HR policies, summarize key points in a list, like this example:
-
--	Topic
--	What you need to know
--	Who to contact for help
-
-3. Define boundaries and fallback plans.
-
-When crafting system prompts, you're guiding how the agent behaves in different contexts and not just what it says. Clear instructions help the agent respond responsibly, stay within scope, and build user trust. Use this guidance to shape behavior across key areas like:
-
--	Handling unsupported requests gracefully, with deflection or escalation.
--	Following compliance rules (for example, no legal or medical advice).
--	Managing sensitive topics and preventing risky actions.
--	Using conversation context wisely—summarizing, clarifying, or continuing.
--	Escalating or falling back when unsure or out of scope.
--	Being transparent about sources, uncertainty, or AI-generated content.
--	Adapting responses based on user role, urgency, or metadata.
-
-Examples:
-
--	If a request is outside your scope, reply courteously. Explain what you can help with and redirect to a different support channel or known resource.
--	Don't speculate or make up responses when unsure. Say you don't know and suggest a next step or escalation path.
--	For sensitive topics (for example, complaints, personal conflict), don't offer advice. Recommend contacting HR or another trusted internal support.
-
-4. Include instructions on handling unsupported requests.
+#### Include instructions on handling unsupported requests.
 
 Instruct the agent to help the user understand what can be answered using this agent. Guide the agent to respond helpfully when it can't fulfill a request, by explaining its limitations and pointing users to the correct next step.
 
@@ -249,81 +131,17 @@ Examples:
   'I'm here to help with common HR and IT questions. For this type of request, reach out to [support contact or system].'
 -	When you can't complete a task, guide the user toward a resource, article, or help form. Always prioritize official knowledge sources first.
 
-5. Consider ethical and company compliance rules.
+### Influence behaviors by referencing variables in instructions
 
-Think through areas that may be sensitive and the agent shouldn't answer. Write prompts that prevent the agent from offering advice in sensitive or regulated areas, and make sure it respects company and legal policies.
+You can type instructions in plain text. At any point within the instructions, you can [type /](/microsoft-copilot-studio/authoring-instructions#add-or-change-agent-instructions) to add a reference to a specific object, such as a tool, topic, [variable](/microsoft-copilot-studio/authoring-variables-about?tabs=webApp), or Power Fx expression.
 
-Examples:
+#### Name tools and knowledge sources explicitly
 
--	Don't offer medical, legal, or financial advice. Clearly state that the user should consult a qualified professional.
--	Apply company-specific compliance rules (for example, data handling, privacy).
--	Avoid generating or suggesting actions that could violate company policies or regulatory standards.
--	Don't generate content that may be harmful to someone physically or emotionally even if a user requests or creates a condition to rationalize that harmful content. You must not generate content that is hateful, racist, sexist, lewd, or violent. Never generate any content that openly discriminates against groups of people of a protected identity (race, gender, sex, age, and so on). Never generate any original graphic, sexual or violent content, even if the document has such themes.
+Refer to your agent's tools, connectors, and knowledge bases by their exact names in the instructions. The agent uses tool names and descriptions to decide what to call, so guiding it by name removes ambiguity. For example, instead of saying "check if there's any outage" say "call the ServiceNow Outage Lookup action to check for outages."
 
-6. Plan to write instructions for sensitive topics and risky actions.
+If you have a SharePoint file as a knowledge source, mention it: "Use Employee Handbook knowledge source to answer policy questions." Using the precise names ensures the agent doesn't confuse one tool for another, especially if you have several configured.
 
-For topics that could be emotionally charged or could cause harm to the user or the organization, prompt the agent to de-escalate, avoid speculation, and redirect users to trusted human support.
-
-Examples:
-
-- Avoid giving guidance on sensitive topics like harassment, mental health, or discrimination. Recommend speaking with HR or using a dedicated support channel.
--	If a topic appears sensitive (for example, mental health, harassment), avoid offering guidance. Recommend talking to HR or another appropriate support channel."
--	For irreversible or risky actions (for example, editing data) include confirmation behaviors.
-
-7. Get more specific about context handling.
-
-Instructions for context handling help the agent maintain coherent, relevant conversations by guiding when to reference past interactions, ask clarifying questions, or reset the dialogue.
-
-Examples:
-
--	Use prior messages to maintain context and continuity but keep summaries concise.
--	If a message is ambiguous or could have multiple meanings, ask a clarifying question before acting.
--	Remember relevant context across exchanges unless explicitly instructed to reset or start over.
-
-8. Emphasize how the agent should respond with transparency.
-
-Encourage the agent to admit uncertainty, cite sources when possible, and never guess, so users know when to trust or verify an answer.
-
-Examples:
-
--	Clearly state when you're uncertain or unable to help. Don't guess or fabricate information.
--	Acknowledge when an answer is uncertain or AI-generated. Use phrases like 'I'm not sure' or 'Based on available information…'
--	When unable to complete a request, suggest contacting a person or using a known support resource.
--	Include links or reference sources, when possible, especially for HR, IT, or policy-related topics.
--	Accuracy first – Summarize key points accurately, ensuring no distortion or misrepresentation of facts. To prevent misinformation, always fact-check against the original source.
--	Balanced and neutral framing – Maintain objectivity. Avoid biased phrasing that could lead to misinterpretation or influence opinions.
--	Safety and sensitivity – Avoid sensationalism. Don't exaggerate, use alarmist language, or include unverified claims.
-
-9. Specify how responses should adapt depending on user information.
-
-Instruct the agent to adjust tone, length, and detail, based on user role, urgency, or context to make responses more relevant and effective.
-
-Examples:
-
--	Tailor responses based on user roles (for example, manager versus new hire). For example, use concise, high-level summaries for managers and provide more detailed steps or guidance for new employees.
--	Adapt based on scenario type (for example, urgent request versus casual question).
--	Personalize answers based on known user context like their role, location, preferences, or usage history when available and appropriate.
-
-### Specific prompt writing techniques 
-
-#### In-context learning (ICL)
-
-In-context learning (ICL), also known as few-shot learning, refers to an LLM's ability to learn from a few examples or scenarios provided within the prompt. This approach allows the AI to grasp and perform new tasks quickly by understanding the context and applying it to similar situations.
-
-When to use this method:
--	Establish tone: Always respond with a friendly, confident tone. Example: Sure thing! I've got you covered.
--	Clarify boundaries: Don't give legal advice. If asked, refer to responsible AI responses.
--	Teach content style: Use the following example to mirror the style of a product update: [Insert example post].
-
-#### Chain-of-thought (CoT) prompting
-
-Chain-of-thought (CoT) prompting is about leading the AI through a step-by-step reasoning process to solve a problem or answer a question. This approach mirrors human problem-solving, where each step builds on the previous one. It helps the AI break down the task into logical sequences that leads to improved response.
-
-When to use this method:
-
--	To increase accuracy: For tasks that require logic or multi-step reasoning.
--	To improve completeness: Help prevent "shortcut" answers based on pattern-matching alone.
--	To build trust: Especially helpful for steps that need to be in a specific order or for policy questions.
+Slight differences in naming can affect results, so use the tool's exact name as configured. This practice ties into the earlier point: instructions must be grounded in what you've actually added to the agent. If the agent has numerous tools, naming the right one in context is even more helpful to avoid mistakes.
 
 ## Create a test plan to measure the quality of your ESS agent's responses
 
@@ -339,10 +157,6 @@ Response quality principles:
 - **Useful**: It helps the user act by moving the user forward.
 - **Exceptional**: It's exceptional. The response is more helpful than websites or chat tools.
 
-### How UI elements, knowledge, data, and topics reinforce response quality
-
-Different elements like formatting, personalized responses, authoritative sources, and clear calls to action work together to support response quality metrics. The more these elements are used effectively, the more accurate, complete, relevant, useful, and exceptional the response becomes.
-
 ### How to approach establishing benchmarks 
 
 Testing response quality and setting clear benchmarks help teams identify what's working well and where improvements are needed. Over time, this testing leads to more accurate, helpful, and personalized conversations that build trust and deliver better results for users. Each response can be scored from 1 (poor) to 5 (exceptional) across each category. Total score per response = 5 (poor) to 25 (exceptional).
@@ -355,16 +169,24 @@ Use benchmark scores to understand how well the agent is meeting user expectatio
 2. Vary the input styles: Try different prompt formats for the same intent:
   -	Keywords: "benefits enrollment"
   -	Phrases: "enroll in health insurance"
-  -	Full questions: "How do I sign up for 2025 benefits?"
-The agent should respond well to all or ask for clarification when needed.
-4. Test across scenarios and roles: If your deployment serves multiple departments or regions, test prompts from each area. A response that's relevant to IT might not make sense for HR, or vice versa.
-5. Always test edge cases: Responses should gracefully handle:
+  -	Full questions: "How do I sign up for 2025 benefits?" The agent should respond well to all or ask for clarification when needed.
+3. Test across scenarios and roles: If your deployment serves multiple departments or regions, test prompts from each area. A response that's relevant to IT might not make sense for HR, or vice versa.
+4. Always test edge cases: Responses should gracefully handle:
   -	Unclear or vague inputs
   -	Topics outside the current scope
   -	System errors or unavailable data
+  - Sensitive topics
+
+## How to troubleshoot common issues
+
+### Fix issues with citations
+
+Add these instructions to help reinforce consistent use of citations to knowledge sources for each response:
+
+WHEN GENERATING A SUMMARY ALWAYS MAINTAIN ALL CITATIONS.
+
+**Preserve all tags in the format [^x_y^] exactly as they appear, including those from tool outputs and search_result.** Don't alter, add, or remove any tags. x and y may be one or more digits (for example, [^17_1^], [^539_12^]). These tags serve as citations and must be retained in the final response.
 
 ## More design resources
 
-- Watch: Videos on how to use Copilot Studio
-- More prompt engineering frameworks
-- Browse system prompts from other models
+[Learn more](/microsoft-copilot-studio/authoring-instructions) about writing instructions in Copilot Studio.
