@@ -36,7 +36,7 @@ Here are some important points to keep in mind:
 
 ## How long does Microsoft have this access?
 
-Access is removed automatically when your support case is closed. If your case is not closed 30 days after the request is created, access will be removed, and you'll be prompted to provide access again. If you have multiple cases open, access expires 30 days after the latest support request was created.
+Access is removed automatically when your support case is closed. If your case isn't closed 30 days after the request is created, access will be removed, and you'll be prompted to provide access again. If you have multiple cases open, access expires 30 days after the latest support request was created.
 
 Depending on the nature of your support request, the data that Microsoft can access would belong under one or more of the following categories:
 
@@ -51,7 +51,7 @@ Depending on the nature of your support request, the data that Microsoft can acc
 
 ## How long is diagnostic data retained in Microsoft systems?
 
-Microsoft retains diagnostic data for up to 28 days after it is collected. After this period, the data is deleted.
+Microsoft retains diagnostic data for up to 28 days after it's collected. After this period, the data is deleted.
 
 ## Where is support activity on a customer tenant logged?
 
