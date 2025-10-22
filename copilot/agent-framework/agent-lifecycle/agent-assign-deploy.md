@@ -25,24 +25,24 @@ As an admin, you can manage the lifecycle of each agent available in your tenant
 There are specific Copilot agents that are preinstalled by Microsoft, however most agents are available to install by either the members of your organization, or by admins with appropriate rights.
 
 #### Microsoft installed agents 
-Certain Microsoft agents, such as Researcher and Analyst, are preinstalled and pinned to the light on the right within Microsoft 365 Copilot. [Pinned agents](#pin-agents) ensure that those agents are visible and accessible to members of your organization. In addition, you can control how these agents are [managed](#manage-agent-lifecycle), [assigned](#assign-agents), and [deployed](#deploy-agents) by using the Copilot Control System in Microsoft 365 admin center. For related information, see [Microsoft-installed agents and features](/copilot/microsoft-365/copilot-agent-install#microsoft-installed-agents-and-features).
+Certain Microsoft agents, such as Researcher and Analyst, are preinstalled and pinned to the light on the right within Microsoft 365 Copilot. [Pinned agents](agent-pin-agents.md) ensure that those agents are visible and accessible to members of your organization. In addition, you can control how these agents are [managed](agent-inventory-lifecycle.md), [assigned](assign-availability.md), and [deployed](agent-deploy.md) by using the Copilot Control System in Microsoft 365 admin center. For related information, see [Microsoft-installed agents and features](/copilot/microsoft-365/copilot-agent-install#microsoft-installed-agents-and-features).
 
 #### Admin installed agents 
 You, as the administrator, have control over the lifecycle management of the agents you make available at your organization. You can install agents by using the Copilot Control System in Microsoft 365 admin center. You can upload custom agents, assign existing agents, and deploy agents as well. You can also prevent oversharing by removing and blocking agents that are unneeded by your organization. For related information, see [Admin-installed agents](/copilot/microsoft-365/copilot-agent-install#admin-installed-agents).
 
 #### User installed agents
-Members of your organization can install agents from the [Agent Store](https://devblogs.microsoft.com/microsoft365dev/introducing-the-agent-store-build-publish-and-discover-agents-in-microsoft-365-copilot/). Given the tools and capability, they can also create agents using Copilot Studio, Copilot Studio (lite), and SharePoint. For related information, see [User-installed agents](/copilot/microsoft-365/copilot-agent-install#user-installed-agents), and [Agent sharing and publishing settings](#agent-sharing-and-publishing-settings).
+Members of your organization can install agents from the [Agent Store](https://devblogs.microsoft.com/microsoft365dev/introducing-the-agent-store-build-publish-and-discover-agents-in-microsoft-365-copilot/). Given the tools and capability, they can also create agents using Copilot Studio, Copilot Studio (lite), and SharePoint. For related information, see [User-installed agents](/copilot/microsoft-365/copilot-agent-install#user-installed-agents), and [Agent sharing and publishing settings](../agent-policies/agent-share-publish.md).
 
 #### Publish agents
 Members of your organization can use Copilot Studio to create and publish agents. They can publish agents to multiple channels, such as live websites, mobile apps, Microsoft 365 Copilot or messaging platforms like Teams and Facebook.
 
 When members of your organization publish an agent to your organization using the Microsoft Teams and Microsoft 365 Copilot channel, the agent becomes available as a requested agent in the Copilot Control System in Microsoft 365 admin center. You can then approve the agent to make the agent available to users or groups within your organization. Once the agent has been reviewed and published from the Copilot Control System in Microsoft 365 admin center, you can show it in the Teams app store so users can find and install it.
 
-For more information, see [Connect and configure an agent for Teams and Microsoft 365](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams), [Manage requested agents](#manage-requested-agents), and [Publish agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#publish-agents).
+For more information, see [Connect and configure an agent for Teams and Microsoft 365](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams), [Manage requested agents](agent-copilot-studio-requested.md), and [Publish agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#publish-agents).
 
 ### Review available agents
 
-Agents are listed in the [Agent inventory](#agent-inventory). The Agent inventory allows you to view a variety of details about each agent. For example, you can view the availability of an agent, view which apps the agent is supported in within your organization, and view the publisher of the agent. When you select an individual agent from the agent list, you can view and set additional details. For more information, see [Agent inventory](#agent-inventory).
+Agents are listed in the [Agent inventory](agent-inventory-lifecycle.md). The Agent inventory allows you to view a variety of details about each agent. For example, you can view the availability of an agent, view which apps the agent is supported in within your organization, and view the publisher of the agent. When you select an individual agent from the agent list, you can view and set additional details. For more information, see [Agent inventory](agent-inventory-lifecycle.md).
 
 To view details about an individual agent:
 
