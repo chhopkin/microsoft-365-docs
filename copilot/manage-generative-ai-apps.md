@@ -34,7 +34,7 @@ Discovering, monitoring, and managing AI apps is essential to prevent data leaks
 
 - **Make sure you have appropriate permissions assigned** to perform the tasks in this article.
    - See [Microsoft 365 and Microsoft Entra roles with access to Defender for Cloud Apps](/defender-cloud-apps/manage-admins#microsoft-365-and-microsoft-entra-roles-with-access-to-defender-for-cloud-apps)
-
+   - See [Microsoft Purview permissions](/purview/purview-permissions#microsoft-purview-permissions)
 
 - **[Set up Microsoft Defender XDR](/defender-xdr/pilot-deploy-overview)**, which includes these components:
    - [Microsoft Defender for Identity](/defender-xdr/pilot-deploy-defender-identity)
@@ -125,19 +125,6 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
    - **Inactive**: Policies aren't evaluated and configured actions won't occur.
 
 10. Carefully review all parameters of your custom policy. Select **Submit** when you're satisfied. You can also go back and change settings by selecting **Edit** beneath any of the settings.
-
-<!---
-## Quick reference table: AI app risk mitigation and Microsoft solutions
-
-| Risk of unmanaged AI apps | Recommendations  |
-|--|--|--|
-| Data leakage and intellecutal property (IP) exposure | Discover unscanctioned AI apps using [Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps)<br/><br/>Apply DLP policies using [Purview DLP](/purview/dlp-learn-about-dlp) |
-| Compliance violations | Using [Purview Data Security Posture Management for AI](/purview/dspm-for-ai?tabs=m365): <br/>- Monitor AI interactions<br/>- Log prompts and outputs<br/>-Enforce governance |
-| Prompt injection and model abuse | Apply Zero Trust principles |
-| Shadow AI and blind spots | Using Defender for Cloud Apps and [Purview DSPM for AI](/purview/dspm-for-ai?tabs=m365): <br/>- Continuous discovery<br/>- Block risky apps |
-| Untracked AI agent identities | Using Microsoft Entra ID Governance, set up  Multifactor authentication (MFA) and Just-in-Time (JIT) access |
-| Incident response gaps | Using Defender XDR and Defender for Cloud Apps: <br/>- Real-time alerts<br/>- Anomaly detection |
---->
 
 ## See also
 
