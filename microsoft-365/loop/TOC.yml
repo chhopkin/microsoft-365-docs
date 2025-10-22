@@ -7,6 +7,8 @@ items:
       href: cpcn-admin-configuration.md
     - name: Storage
       href: cpcn-storage.md
+    - name: Permissions
+      href: cpcn-permission.md
 - name: Common References
   items:
     - name: Requirements
@@ -15,8 +17,6 @@ items:
       href: cpcn-loop-spe-management.md
     - name: Purview management
       href: cpcn-loop-purview-management.md
-    - name: Permissions
-      href: cpcn-loop-permission.md
 - name: Microsoft Loop
   items:
     - name: Summary compliance capabilities
@@ -27,6 +27,8 @@ items:
       href: loop-ux-examples.md
     - name: Storage
       href: loop-storage.md
+    - name: Permissions
+      href: loop-permission.md
     - name: Data integrations
       href: loop-data-integrations-configuration.md
     - name: Overview Loop components in Microsoft 365
