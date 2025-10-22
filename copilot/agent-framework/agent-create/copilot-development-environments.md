@@ -16,7 +16,7 @@ ms.collection:
 description: Learn about development environment for Microsoft 365 agents.
 ---
 
-# Development environments for Microsoft 365 agents
+# Create Microsoft 365 agents
 
 As an admin, you can configure and deploy out-of-the-box agents without having to create and publish a new agent. However, when your organization needs to customize Copilot functionality, such extending Copilot’s knowledge, automate workflows, or deliver tailored user experiences, users, and developers at your organization can build agents that you can manage and deploy. 
 
