@@ -107,13 +107,13 @@ Use the following settings to manage agents for Copilot:
   - View all pending requests
   - Act on requests (for example, Publish pending, Update pending)
 
-### Enable or disable Copilot extensibility
+### Manage access to Copilot agents
 
 :::image type="content" source="../../media/agents/enable.png" alt-text="Screenshot showing the option to enable agents for all users in the organization." lightbox="../../media/agents/enable.png":::
 
-You can enable or disable Copilot extensibility for your organization by using a setting to control who can access agents in your organization.
+You can manage access to Copilot agents for your organization by using a setting to control who can access agents in your organization.
 
-To enable or disable Copilot extensibility, follow these steps:
+To manage access to Copilot agents, follow these steps:
 
 1. Go to **Copilot** > **Settings** in the Microsoft 365 admin center.
 1. Select **Agents**.
@@ -129,6 +129,20 @@ The setting has three options:
 
 > [!NOTE]
 > When you disable extensibility, users can't see the Microsoft pinned Visual Creator agent or the entry point for Copilot Studio (lite) in Copilot Chat. After you disable extensibility in the tenant, it can take up to 24 hours for agents to disappear for users and for Copilot Studio (lite) and Visual Creator to disappear.
+
+###  Disable Copilot access 
+
+You can remove users from the Microsoft 365 Copilot sign-in page or restrict their access through the [Microsoft 365 Admin Center](https://admin.microsoft.com/).
+
+After logging-in to the Admin Center,
+
+1. Navigate to **Settings** > **Organization Settings** > **Services** > **Copilot**
+
+1. Use the **Integrated Apps** section to: 
+
+  - Unassign Copilot licenses
+  - Block the Copilot app from launching on web, desktop, or mobile
+  - Disable Copilot Chat pinning 
 
 ### Manage how users install agents
 
