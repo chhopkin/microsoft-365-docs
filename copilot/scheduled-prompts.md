@@ -4,8 +4,8 @@ description: Discover how to manage scheduled prompts in Microsoft 365 Copilot, 
 #customer intent: As an admin, I want to manage scheduled prompts for Microsoft 365 Copilot so that I can control their availability and ensure compliance with organizational policies.
 f1.keywords:
 - NOCSH
-ms.author: aaroncz
-author: aczechowski
+ms.author: scotv
+author: scotv
 manager: scotv
 ms.date: 09/16/2025
 ms.update-cycle: 180-days

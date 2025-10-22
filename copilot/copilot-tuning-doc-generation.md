@@ -1,9 +1,9 @@
 ---
 title: Configure Copilot Tuning for document generation
-author: kwekuako
-ms.author: kwekua
+ms.author: lauragra
+author: lauragra
+manager: calvind
 ms.collection: operations-pod
-manager: scotv
 ms.audience: ITPro
 ms.reviewer: jwolk
 ms.service: microsoft-365-copilot

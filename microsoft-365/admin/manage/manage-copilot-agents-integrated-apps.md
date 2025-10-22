@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 10/08/2025
+ms.date: 10/21/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -61,7 +61,7 @@ You can manage several types of agents in Microsoft 365 Copilot, each serving di
 - **First-party agents**: Developed by Microsoft and integrated with Microsoft 365 services.
 - **External agents**: Created by external developers or vendors. You can control their availability and permissions.
 - **Frontier agents**: Experimental or advanced agents that use new capabilities or integrations. These might be in early stages of development or testing and could require more oversight or limited rollout.
-- **Flow Builder agent**: A type of Frontier agent developed by Microsoft that can be managed as part of Microsoft 365 Copilot. Flows created in Copilot are saved to the default environment (unless [environment routing](/power-platform/admin/default-environment-routing?tabs=new#turn-on-environment-routing-in-the-admin-center) is enabled). You can also manage flows using the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+- **Flow Builder agent**: A type of Frontier agent developed by Microsoft that can be managed as part of Microsoft 365 Copilot. Flows created in Copilot are saved to the default environment (unless [environment routing](/power-platform/admin/default-environment-routing?tabs=new#turn-on-environment-routing-in-the-admin-center) is enabled for Copilot Studio). You can also manage flows using the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 
 ## Get started
 
@@ -107,13 +107,13 @@ Use the following settings to manage agents for Copilot:
   - View all pending requests
   - Act on requests (for example, Publish pending, Update pending)
 
-### Enable or disable Copilot extensibility
+### Manage access to Copilot agents
 
 :::image type="content" source="../../media/agents/enable.png" alt-text="Screenshot showing the option to enable agents for all users in the organization." lightbox="../../media/agents/enable.png":::
 
-You can enable or disable Copilot extensibility for your organization by using a setting to control who can access agents in your organization.
+You can manage access to Copilot agents for your organization by using a setting to control who can access agents in your organization.
 
-To enable or disable Copilot extensibility, follow these steps:
+To manage access to Copilot agents, follow these steps:
 
 1. Go to **Copilot** > **Settings** in the Microsoft 365 admin center.
 1. Select **Agents**.
@@ -129,6 +129,20 @@ The setting has three options:
 
 > [!NOTE]
 > When you disable extensibility, users can't see the Microsoft pinned Visual Creator agent or the entry point for Copilot Studio (lite) in Copilot Chat. After you disable extensibility in the tenant, it can take up to 24 hours for agents to disappear for users and for Copilot Studio (lite) and Visual Creator to disappear.
+
+###  Disable Copilot access 
+
+You can remove users from the Microsoft 365 Copilot sign-in page or restrict their access through the [Microsoft 365 Admin Center](https://admin.microsoft.com/).
+
+After logging-in to the Admin Center,
+
+1. Navigate to **Settings** > **Organization Settings** > **Services** > **Copilot**
+
+1. Use the **Integrated Apps** section to: 
+
+  - Unassign Copilot licenses
+  - Block the Copilot app from launching on web, desktop, or mobile
+  - Disable Copilot Chat pinning 
 
 ### Manage how users install agents
 
@@ -224,13 +238,80 @@ Blocking or unblocking an agent created using Copilot Studio (lite) and Copilot 
 > [!NOTE]
 > For the [Researcher](https://support.microsoft.com/topic/e63ab760-f3de-4c47-ae87-dad601b0e9c4) and [Analyst](https://support.microsoft.com/topic/ff505b9c-a06c-4be9-b855-69d89b1d25d2) agents, the **Edit users** panel is disabled. To manage their availability, you must block the agent for the entire tenant by using the **Block** action in the admin center.
 
+## Agent inventory
+
+In Microsoft 365 admin center you can view your organization’s available agents and where members of your organization can find each agent based on supported functionality. The agent inventory is provided as a list. When you have several agents in your inventory, you can narrow the list based on different filters. Common filters include, **Type**, **Availability**, **Supported in**, and **Created in**.
+
+### Type filter
+
+The **Type** filter allows you to view agents based on the their creation method. The following list provides the different **Type** options:
+
+- **Custom** - Agents created by members of your organization using **Copilot Studio (full)**.
+- **Shared** - Agents created by members of your organization using **Copilot Studio (lite)**.
+- **Microsoft** - Agents created by Microsoft.
+- **External** - Agents create by agent provides that are external to your organization and Microsoft.
+
+### Availability filter
+
+The **Availablity** filter shows which specific agents are avialable to members of your organization. The following list provides the different **Availability** options:
+
+- **Some users** - Agents that are specifically available to only selected users or groups at your organization.
+- **No users** - Agents that are unavailable to all users at your organization are listed.
+- **All users** - Agents that are available to all users at your organization are listed.
+- **Blocked** - Agents that have been blocked for all users at your organization.
+
+### Supported in filter
+
+The **Supported in** filter allows you to select which Copilot experience and M365 app the agent is available.
+
+### Created in filter
+
+The **Created in** filter allows you to select agents based on the tool that was used to create the agents, such as **Copilot Studio (lite)**, **SharePoint**, and **Copilot Studio (full)**.
+
 ## Agent metadata in admin center
 
-:::image type="content" source="../../media/agents/details.png" alt-text="Screenshot showing the details tab for an agent." lightbox="../../media/agents/details.png":::
+You can access key metadata for Copilot agents in **Agents** > **Agent inventory**. When you select an agent, you can view the following tabs:
 
-You can access key metadata for Copilot agents in **Agents** > **Agent inventory**. When you select an agent, the metadata is available in the **Details** tab.
+- Overview
+- Users
+- Details
+- Security & compliance
 
-The metadata includes details such as the agent's capabilities, data sources, and custom actions. Example data sources include OneDrive and SharePoint files and sites, or Graph connectors. Metadata is only for custom agents, which are designed to perform specific tasks based on predefined rules and configurations.
+### Agent overview tab
+
+The **Overview** tab for a selected agent provides the complete description of the agent. This description is the description the maker provided when the agent was created. It follows the pattern provided in the Agent Store experience. In addition, the **Overview** tab provides key information, such as the following items:
+
+- Availability
+- Publisher
+- Deployment
+- Agent type
+- Supported in
+- Created in
+- Last updated
+- Owner
+- Sensitivity
+- Version
+
+:::image type="content" source="../../media/agents/overview-tab.png" alt-text="Screenshot showing the Overview tab for an agent." lightbox="../../media/agents/overview-tab.png":::
+
+### Agent users tab
+
+The **Users** tab allows you to set the assigned users that the agent has been **Deployed to** and **Assigned to**.
+
+### Agent details tab
+
+The **Details** tab provides metadata about the agent, including details such as the agent's capabilities, data sources, and custom actions. Example data sources include OneDrive and SharePoint files and sites, or Graph connectors. Metadata is only for custom agents, which are designed to perform specific tasks based on predefined rules and configurations.
+
+:::image type="content" source="../../media/agents/details.png" alt-text="Screenshot showing the Details tab for an agent." lightbox="../../media/agents/details.png":::
+
+### Agent security & complicance tab
+
+The **Security & compliance** tab provides certification information about the agent. You can view key details about the following areas:
+
+- Compliance
+- Operational security
+- Data security and privacy
+- Identity
 
 ## View and consent to permissions and data access
 
