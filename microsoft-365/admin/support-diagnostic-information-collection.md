@@ -22,17 +22,17 @@ This article describes consent that's granted to Microsoft when a support case i
 
 ## Consent for diagnostic information
 
-When a user contacts [Microsoft Support](get-help-support.md), consent is implied that Microsoft will be granted access to limited tenant information that's needed to support your issue. When a user selects **Contact Me**, cross-tenant access initiates in your organization's tenant. This access allows Microsoft Support to collect diagnostic information that helps with troubleshooting and resolving issues.
+When a user contacts [Microsoft Support](get-help-support.md), consent is implied that Microsoft will be granted access to limited tenant information that's needed to support your issue. When a user selects **Contact Me**, cross-tenant access is initiated in your organization's tenant. This access allows Microsoft Support to collect diagnostic information that helps with troubleshooting and resolving issues.
 
 ## What happens when cross-tenant access is granted to Microsoft Support?
 
-When a user creates a support request, cross-tenant access is granted to Microsoft Support. That access is time bound and uses least-privileged access, in accordance with [Zero Trust principals](/security/zero-trust/zero-trust-overview). 
+When a user creates a support request, cross-tenant access is granted to Microsoft Support. That access is time bound and uses least-privileged access, in accordance with [Zero Trust principles](/security/zero-trust/zero-trust-overview). 
 
 Here are some important points to keep in mind:
 
 - Microsoft Support engineers can access only the specific resources needed for diagnostics and troubleshooting. 
 - When a user creates a support request, that user's level of access doesn't change. For example, if the user has a nonprivileged role, their general restrictions don't change because of the support request.
-- All actions are logged in the Microsoft Entra Audit logs. (See the section, [Where is support activity on a customer tenant logged?](#where-is-support-activity-on-a-customer-tenant-logged) (in this article).)
+- All support activity is logged in the Microsoft Entra audit and sign-in logs. (See the section, [Where is support activity on a customer tenant logged?](#where-is-support-activity-on-a-customer-tenant-logged) (in this article).)
 
 ## How long does Microsoft have this access?
 
