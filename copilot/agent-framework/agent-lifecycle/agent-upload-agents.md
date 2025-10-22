@@ -44,7 +44,4 @@ To upload an agent as a ZIP packet file to the Microsoft 365 admin center:
 
 :::image type="content"  source="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-deploy-new.png" alt-text="Screenshot of deploying a new agent within M365 the Copilot Control System."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-deploy-new.png":::
 
-To manage, assign, and publish the agent, see [Assign and deploy agents](../agent-policies/agent-deploy-agents.md).
-
-
-
+To manage, assign, and publish the agent, see [Assign and deploy agents](agent-deploy.md).
