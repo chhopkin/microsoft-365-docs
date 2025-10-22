@@ -41,8 +41,8 @@ The current limitations of Microsoft 365 App Builder include:
 - The agent may have difficulty with complex design requirements.  
 - Apps can only connect to data in Microsoft Lists and do CRUD operations.
 - You can't manually edit the generated code.
-- M3Microsoft 36565 App Builder supports images, context like people, tags, meetings, and documents such as Word, PowerPoint, and Excel to add meaningful detail to the input.
-- M36Microsoft 3655 App Builder is available only in English.
+- Microsoft 365 App Builder supports images, context like people, tags, meetings, and documents such as Word, PowerPoint, and Excel to add meaningful detail to the input.
+- Microsoft 365 App Builder is available only in English.
 
 Users can minimize the impact of these limitations by giving clear descriptions of straightforward problems and testing the app thoroughly before sharing it with others.
 
