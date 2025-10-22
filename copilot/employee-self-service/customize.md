@@ -363,6 +363,58 @@ You can prevent this outcome by adding more context in each of the data retrieva
 
 - What is my company code?
 
+## Customize the appearance of the Employee Self-Service agent
+
+Add branding elements and content to an instance of Employee Self-Service (ESS) in the Microsoft 365 Admin Center (MAC). Add a custom name for the agent, upload a logo, decide the categories and starter prompts, and select the accent colors.
+
+- Visual details appear in M365 Copilot, in Microsoft Teams, on the agent's landing page, and when the agent is @mentioned elsewhere.
+- Cobranding is optional, and an agent name, logo, and accent colors are provided by default in the agent manifest.
+- Only people with admin permissions can access this feature.
+- The agent’s name, logo, and description can be edited in Copilot Studio.
+
+### Navigate to Employee Self-Service in the M365 admin center
+
+1. Navigate to the M365 admin center.
+1. From the Copilot dropdown, select **Settings**.
+1. Select **Employee Self-Service**.
+
+### Add an existing ESS agent
+
+Get started by picking a primary ESS agent to add categories, suggested prompts, and accent colors to reflect your organization’s brand.
+
+1. Select Add an agent.
+1. Search for an existing ESS agent that’s already been created in Copilot Studio. Only primary agents like the HR template or the IT template can be added. You can add up to 10 agents. Select **Add agent** when the right agent has been identified.
+
+### Download and complete the CSV file
+
+1. Go to the **Suggested prompts** tab and select **Download the CSV file** using the link in the description to add prompt categories, prompt titles, and starter prompts.
+
+> [!NOTE]
+> - The following limits and rules apply:
+>   - Add up to 10 unique categories (like HR, IT, and so on).
+>   - Each category name has a 35-character limit.
+>   - Add up to 12 titles and starter prompts for each category.
+>   - The title for each starter prompt must be unique and has a 128-charcter limit.
+>   - Starter prompts don’t need to be unique and have a 4000-character limit.
+
+2. When the CSV is completed, select **Upload CSV**. The system validates the CSV file upon upload. If an error occurs, a status message below the upload button shows you what changes to make.
+3. Categories and prompts display in the **Settings** pane when the upload completes. Select **Save** when you're done.
+
+### Select accent colors
+
+Go to the Accent colors tab to add colors to be used for buttons, links, chat bubbles, and loading indicators. By default, an accent color is provided for light theme and dark theme. Add a HEX value to choose a custom accent, by entering a value or selecting the color and choosing from the swatch picker.
+
+Check your organization's brand guidance to ensure color contrast and accessibility meet the standard for your audience. We recommend color guidance at a 4.5:1 contrast ratio so most people can experience it as intended. When colors don't meet this ratio, some visual elements aren't seen by users.
+
+> [!NOTE]
+> If hex values don’t meet the standard color contrast ratio, an error message displays but you aren't blocked from using that HEX value.
+
+### Export the agent's manifest as a CSV
+
+After you’re done making changes, select **Export as CSV**. The agent manifest exports as a CSV file and uploads into Microsoft Integrated Apps to make the changes available to others. Repeat this process to make changes to the agent’s starter prompts and accent colors.
+
+For more information, see [Microsoft Accessibility guidelines](https://fluent2.microsoft.design/accessibility) and [Teams app icons](/microsoftteams/platform/concepts/build-and-test/apps-package#app-icons).
+
 ## Configure knowledge sources
 
 Within Copilot Studio, knowledge sources act in concert with generative answers. When you add knowledge sources, agents can use enterprise data from Power Platform, Dynamics 365 data, websites, and external systems. Knowledge sources allow your agents to provide relevant information and insights for your customers.
