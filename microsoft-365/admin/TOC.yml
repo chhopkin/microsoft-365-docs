@@ -582,16 +582,16 @@ items:
           href: https://support.microsoft.com/office/943507a9-8583-4c58-b5d2-8ec8265e04e5
         - name: Join a Teams meeting with guest users
           href: https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508
-    - name: Enhanced Engagements portal
+    - name: What is Enhanced Engagements?
       href: ../enterprise/microsoft-365-admin-enhanced-engagements.md
       items:
-        - name: Overview of Enhanced Engagements
+        - name: Overview
           href: ../enterprise/microsoft-365-admin-overview-enhanced-engagements.md
-        - name: Engagements portal in Enhanced Engagements
+        - name: Engagements
           href: ../enterprise/microsoft-365-admin-engagements.md
-        - name: Diagnostics portal in Enhanced Engagements
+        - name: Diagnostics
           href: ../enterprise/microsoft-365-admin-diagnostics.md
-        - name: Design Change Requests (DCR) in Enhanced Engagements
+        - name: Design Change Requests (DCR)
           href: ../enterprise/microsoft-365-admin-design-change-requests.md
     - name: Troubleshoot
       href: /office/troubleshoot/  
