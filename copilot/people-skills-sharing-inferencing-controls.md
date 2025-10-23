@@ -56,11 +56,26 @@ We offer three levels of controls to control skill visibility. Each of these con
 
 The following sections will walk you through on how to set up each of the controls in detail, and the expected functionality when they're enabled or disabled.
 
-## Manage skills data sharing with Viva Insights
 
-When checked, skills data is passed on to Viva Insights. Skills in Viva Insights allows organizations and leaders to discover skills within their workforce and assess skill distribution across groups. Learn more about [People Skills in Viva Insights](/viva/insights/advanced/analyst/templates/skills-landscape).
+## People Skills Controls to Feature Access Policies Overview
 
-You can stop skills data from being shared with Viva Insights by unchecking this setting.
+The four features for People Skills described above map to the below, and are all available to be set the **tenant**, **group**, and **user** scopes.
+
+| ModuleId | FeatureId | Policy Modes | Parent Feature | 
+| --- | ---- | ------ | ---- |
+| PeopleSkills |  SkillsInferencing | HardDisable, SoftDisable, SoftEnable | None
+| PeopleSkills |  SkillsProfileVisibility |  SoftDisable, SoftEnable | None
+| PeopleSkills |  ShowAISkills |  HardDisable, SoftDisable, SoftEnable | SkillsProfileVisibility
+| PeopleSkills |  ShowOrgAddedSkills |  HardDisable, SoftDisable, SoftEnable | SkillsProfileVisibility
+
+
+The Policy Modes supported for each feature map to the following PowerShell commands.
+
+- **HardDisable**: Is controlled by setting the PowerShell property **-IsFeatureEnabled $false**. 
+
+- **SoftDisable**: Is controlled by setting the PowerShell properties **-IsFeatureEnabled $true -IsUserControlEnabled $true -IsUserOptedInByDefault $false**
+
+- **SoftEnable**: Is controlled by setting the PowerShell properties **-IsFeatureEnabled $true -IsUserControlEnabled $true -IsUserOptedInByDefault $true**
 
 ## Manage skills AI inferencing
 
@@ -220,3 +235,9 @@ You have the following options for creating an access control policy in PowerShe
   > 
   > For more details on PowerShell syntax, refer to **[our Feature Access Management documentation](/viva/manage-access-policies)**.
   
+
+## Manage skills data sharing with Viva Insights
+
+When checked, skills data is passed on to Viva Insights. Skills in Viva Insights allows organizations and leaders to discover skills within their workforce and assess skill distribution across groups. Learn more about [People Skills in Viva Insights](/viva/insights/advanced/analyst/templates/skills-landscape).
+
+You can stop skills data from being shared with Viva Insights by unchecking this setting.
