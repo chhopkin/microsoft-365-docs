@@ -18,7 +18,10 @@ description: Learn how to control oversharing organization data
 
 # Control oversharing of organization data that Copilot agents can access
 
-To help ensure that the data agents access is appropriate, it should be safeguarded to prevent oversharing. Preventing oversharing data helps ensure that sensitive data remains protected, and access is limited to only those users who need it, including Copilot agents. Using a combination of [Microsoft Purview Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai) and [SharePoint Advanced Management](/sharepoint/advanced-management) assists you with controlling oversharing.
+To help ensure that the data agents access is appropriate, it should be safeguarded to prevent oversharing. Preventing oversharing data helps ensure that sensitive data remains protected, and access is limited to only those users who need it, including Copilot agents. The following combination assists you with controlling oversharing:
+- [Microsoft Purview Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai)
+- [SharePoint Advanced Management](/sharepoint/advanced-management)
+- [Deployment blueprint](#recommended-approach-to-address-oversharing-concerns-for-microsoft-365-copilot-deployments) to address oversharing concerns in Microsoft 365 Copilot
 
 > [!NOTE]
 > This article describes features from multiple products. Some features described in this article might not be available depending on which Microsoft 365 subscription you have. For more information, see the [Microsoft 365 licensing guide](https://www.microsoft.com/licensing/product-licensing/microsoft-365) and review the product's licensing requirements documentation.
