@@ -56,9 +56,9 @@ DSPM for AI provides your security and compliance team to discover AI activity, 
    - Data Loss Prevention (DLP) rules matched during user interactions with a generative AI site
    - Sensitive information types were found in user interactions with a generative AI site
 
-   For more information, see [Activity explorer events](/purview/dspm-for-ai-considerations#activity-explorer-events) and [Audit logs for COpilot and AI applications](/purview/audit-copilot).
+   For more information, see [Activity explorer events](/purview/dspm-for-ai-considerations#activity-explorer-events) and [Audit logs for Copilot and AI applications](/purview/audit-copilot).
 
-3. Configure DLP policies for the Microsoft Edge browser and [block other browsers](/deployedge/microsoft-edge-management-service-customizations#block-other-browsers). This action prevents users from accessing unmanaged AI apps in unprotected browsers. For more informnation, see [Activate your DLP policy in Microsoft Edge](/deployedge/microsoft-edge-dlp-purview-configuration).
+3. Configure DLP policies for the Microsoft Edge browser and [block other browsers](/deployedge/microsoft-edge-management-service-customizations#block-other-browsers). This action prevents users from accessing unmanaged AI apps in unprotected browsers. For more information, see [Activate your DLP policy in Microsoft Edge](/deployedge/microsoft-edge-dlp-purview-configuration).
 
 ## Use Defender for Cloud Apps to discover, monitor, or block generative AI apps
 
@@ -100,7 +100,7 @@ You can use the Microsoft Defender portal to see a list of AI apps your organiza
 
 6. Carefully review all parameters of your custom policy. Select **Submit** when you're satisfied. You can also go back and change settings by selecting **Edit** beneath any of the settings.
 
-### Cerate a policy in Defender for Cloud Apps to block specific AI apps
+### Create a policy in Defender for Cloud Apps to block specific AI apps
 
 1. In the [Microsoft Defender portal](https://security.microsoft.com), in the navigation pane, select **Cloud apps** > **Cloud discovery**. 
 
