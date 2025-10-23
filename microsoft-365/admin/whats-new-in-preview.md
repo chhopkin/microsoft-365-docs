@@ -52,6 +52,9 @@ And if you'd like to know what's new with other Microsoft cloud services, check 
 - [Microsoft 365 updates](/OfficeUpdates/)
 - [How to check Windows release health](/windows/deployment/update/check-release-health)
 
+> [!IMPORTANT]
+> Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you cannot use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](add-users/about-admin-roles.md).
+
 ## June 2025
 
 ### Copilot Search admin experience
@@ -176,7 +179,7 @@ There are a couple of ways to get the Experience insights dashboard page:
 
 - If you’re a member of the Reports reader role or the User Experience success manager roles, once you sign into the admin center, you’ll automatically go to the Experience insights (preview) dashboard page. You can switch back to the admin center Dashboard view by selecting that option in the top right.
 
-    :::image type="content" source="../media/exp-insights-dashboard2.png" alt-text="Screenshot: How to get to the insights dashboard":::
+    :::image type="content" alt-text="Screenshot: How to get to the insights dashboard" source="../media/exp-insights-dashboard2.png" lightbox="../media/exp-insights-dashboard2.png":::
 
 For more information, see [Microsoft 365 Experience insights dashboard](misc/experience-insights-dashboard.md).
 
@@ -316,7 +319,7 @@ With the sentiment feature on the NPS survey insights dashboard you'll be able t
 
 Three sentiments are available:
 
-:::image type="content" source="../media/sentiment-examples.png" alt-text="Screenshot: Sentiment examples and descriptions. The sentiments available are positive, negative, and other. Each sentiment includes a description and an example. The description of positive is comments that contain satisfactory emotions or experiences. The example is I love how Word lets me check my grammar while drafting my documents." lightbox="../media/sentiment-examples.png":::
+:::image type="content" source="../media/sentiment-examples.png" alt-text="Screenshot: Sentiment examples and descriptions. The sentiments available are positive, negative, and other. Each sentiment includes a description and an example. The description of positive is comments that contain satisfactory emotions or experiences. The example is I love how Word lets me check my grammar while drafting my documents.":::
 
 To provide you with a better experience using the NPS survey insight dashboard, we suggest checking the following items:
 
@@ -341,7 +344,7 @@ With our new separate page of search results, you can explore a more comprehensi
 
 Previously, you could only tag priority accounts by searching for them using the person's name, e-mail address or job title. With this update, you can now search for people to add to priority accounts in a distribution list. This allows you to bulk add people in an efficient way and reduces the time needed to tag individual people in your organization.
 
-:::image type="content" source="../media/search-by-distribution-list-priority-accounts.png" alt-text="This screenshot shows the interface in which users can search for priority accounts to add using a distribution list." lightbox="../media/search-by-distribution-list-priority-accounts.png":::
+:::image type="content" source="../media/search-by-distribution-list-priority-accounts.png" alt-text="This screenshot shows the interface in which users can search for priority accounts to add using a distribution list.":::
 
 - You can tag up to 50 users from a distribution list as priority accounts in a single action.
 
