@@ -214,14 +214,12 @@ You should also review the configuration of your [ConditionalAccessPolicy](/powe
 
 ### Admin
 
-- [Data Integrations Admin Settings](loop-data-integrations-configuration.md)
-- [Summary of Compliance, Lifecycle, Governance](loop-compliance-summary.md)
-- [Requirements](cpcn-loop-requirements.md)
-- [Storage](loop-storage.md)
-- [Permissions](cpcn-loop-permission.md)
 - [UX examples for admin toggle states](loop-ux-examples.md)
+- [Storage](loop-storage.md)
+- [Permissions](loop-permission.md)
 - [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md)
 - [Purview and SharePoint Embedded containers](cpcn-loop-purview-management.md)
+- [Data Integrations Admin Settings](loop-data-integrations-configuration.md)
 
 ### End-User Experience
 
