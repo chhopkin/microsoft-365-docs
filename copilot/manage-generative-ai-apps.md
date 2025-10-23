@@ -44,9 +44,23 @@ Discovering, monitoring, and managing AI apps is essential to prevent data leaks
    - [Secure by default](/purview/deploymentmodels/depmod-securebydefault-intro)
    - [Purview Data Security Posture Management](https://aka.ms/DSPMBlueprintPDF)
 
-## Discover generative AI apps that are in use in your organization
+## Use DSPM for AI to discover and manage AI apps
 
-### Use the Defender for Cloud Apps cloud app catalog
+### Use Purview DSPM for AI app discovery
+
+PROCEDURE NEEDED
+
+### Create an AI app alert policy in Purview
+
+PROCEDURE NEEDED
+
+### Block specific AI apps using Purview
+
+PROCEDURE NEEDED
+
+## Use Defender for Cloud Apps to discover, monitor, or block AI apps
+
+### Use the Defender for Cloud Apps cloud app catalog to discover AI apps
 
 Use the Microsoft Defender portal to see a list of AI apps your organization is using. Defender for Cloud Apps provides a catalog of apps with security and compliance risk scores.
 
@@ -58,13 +72,7 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
 
 4. Review the list of apps, along with their risk scores. Make a note of the apps you might want to monitor or block. For more information about risk scores, see [Find your cloud app and calculate risk scores](/defender-cloud-apps/risk-score).
 
-### Use Purview DSPM for AI app discovery
-
-PROCEDURE NEEDED
-
-## Set up a policy to create an alert for new generative AI apps
-
-### Create an app governance policy in Defender for Cloud Apps
+### Create a policy in Defender for Cloud Apps to monitor AI apps
 
 > [!NOTE]
 > Before you begin, review the [prerequisites](/defender-cloud-apps/governance-discovery#prerequisites).
@@ -90,13 +98,7 @@ PROCEDURE NEEDED
 
 6. Carefully review all parameters of your custom policy. Select **Submit** when you're satisfied. You can also go back and change settings by selecting **Edit** beneath any of the settings.
 
-### Create an AI app alert policy in Purview
-
-PROCEDURE NEEDED
-
-## Block specific generative AI apps
-
-### Use Defender for Cloud Apps to block specific AI apps
+### Cerate a policy in Defender for Cloud Apps to block specific AI apps
 
 1. In the [Microsoft Defender portal](https://security.microsoft.com), in the navigation pane, select **Cloud apps** > **Cloud discovery**. 
 
@@ -132,10 +134,6 @@ PROCEDURE NEEDED
    - **Inactive**: Policies aren't evaluated and configured actions don't occur.
 
 10. Carefully review all parameters of your custom policy. Select **Submit** when you're satisfied. You can also go back and change settings by selecting **Edit** beneath any of the settings.
-
-### Block specific AI apps using Purview
-
-PROCEDURE NEEDED
 
 ## See also
 
