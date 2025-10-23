@@ -59,7 +59,7 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
 
 4. Review the list of apps, along with their risk scores. Make a note of the apps you might want to monitor or block. For more information about risk scores, see [Find your cloud app and calculate risk scores](/defender-cloud-apps/risk-score).
 
-### Use Purview DSPM for AI for AI discovery
+### Use Purview DSPM for AI for AI app discovery
 
 PROCEDURE
 
@@ -91,7 +91,9 @@ PROCEDURE
 
 6. Carefully review all parameters of your custom policy. Select **Submit** when you're satisfied. You can also go back and change settings by selecting **Edit** beneath any of the settings.
 
-### Create
+### Create an AI app alert policy in Purview
+
+PROCEDURE
 
 ## Block specific generative AI apps
 
@@ -132,7 +134,12 @@ PROCEDURE
 
 10. Carefully review all parameters of your custom policy. Select **Submit** when you're satisfied. You can also go back and change settings by selecting **Edit** beneath any of the settings.
 
+### Block specific AI apps using Purview
+
+PROCEDURE
+
 ## See also
 
+- [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview)
 - [Tech Community blog: Discover, monitor, and protect the use of Generative AI apps](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/discover-monitor-and-protect-the-use-of-generative-ai-apps/3999228)
 
