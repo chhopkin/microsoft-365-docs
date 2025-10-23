@@ -1,5 +1,5 @@
 ---
-title: Deploy agents for Microsoft 365 Copilot
+title: Manage Copilot Studio (lite) agents
 f1.keywords:
 ms.author: erikre
 author: ErikRe
@@ -13,10 +13,10 @@ ms.localizationpriority: medium
 ms.collection:
 - m365copilot
 - magic-ai-copilot
-description: Learn how to deploy agents for Microsoft 365 Copilot.
+description: Learn about managing Copilot Studio agents.
 ---
 
-# Deploy agents for Microsoft 365 Copilot
+# Manage Copilot Studio (lite) agents
 
 
 
