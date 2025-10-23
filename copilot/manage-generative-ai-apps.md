@@ -44,7 +44,7 @@ Discovering, monitoring, and managing AI apps is essential to prevent data leaks
    - [Microsoft Defender for Cloud Apps](/defender-xdr/pilot-deploy-defender-cloud-apps)
    - [Microsoft Defender for Endpoint](/defender-xdr/pilot-deploy-defender-endpoint)
 
-## Use DSPM for AI to discover and manage AI apps
+## Use DSPM for AI to discover and manage AI app usage
 
 DSPM for AI provides your security and compliance team to discover AI activity, protect data in AI prompts, and govern data handling. [Learn more about DSPM for AI](/purview/dspm-for-ai?tabs=m365).
 
