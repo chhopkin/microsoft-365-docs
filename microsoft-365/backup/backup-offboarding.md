@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: jtremper
 audience: admin
-ms.reviewer: sreelakshmi
+ms.reviewer: diksha
 ms.date: 08/09/2025
 ms.topic: article
 ms.service: microsoft-365-backup
@@ -33,9 +33,14 @@ If you want to delete backups of specific sites, mailboxes, or users to comply w
 
 Here's the steps you can follow:
 
-1. Get the **protection unit-id** for the site, user, or mailbox you would like to offboard using the [List driveProtectionUnits PowerShell cmdlet](/graph/api/backuprestoreroot-list-driveprotectionunits).
-2. To initiate the offboarding progress, use the [protectionUnitBase: offboard PowerShell cmdlet](/graph/api/protectionunitbase-offboard) .
-3. If you want to cancel the offboarding within the 90-day grace period, use the [protectionUnitBase: cancelOffboard PowerShell cmdlet](/graph/api/protectionunitbase-canceloffboard).
+1. Get the **protection unit-id** for the SharePoint sites, OneDrive accounts, or Exchange mailboxes you would like to offboard using the following cmdlets: <br>
+
+   For Sites - [List Site ProtectionUnits PowerShell cmdlet](/graph/api/backuprestoreroot-list-siteprotectionunits?view=graph-rest-beta&tabs=powershell) <br>
+   For OneDrive Accounts - [List Drive ProtectionUnits PowerShell cmdlet](/graph/api/backuprestoreroot-list-driveprotectionunits?view=graph-rest-beta&tabs=powershell)<br>
+   For Exchange Mailboxes - [List Mailbox ProtectionUnits PowerShell cmdlet](/graph/api/backuprestoreroot-list-mailboxprotectionunits?view=graph-rest-beta&tabs=powershell)
+   
+3. To initiate the offboarding progress, use the [protectionUnitBase: offboard PowerShell cmdlet](/graph/api/protectionunitbase-offboard?view=graph-rest-beta&tabs=powershell)
+4. If you want to cancel the offboarding within the 90-day grace period, use the [protectionUnitBase: cancelOffboard PowerShell cmdlet](/graph/api/protectionunitbase-canceloffboard?view=graph-rest-beta&tabs=powershell)
 
 ## Offboarding recovery undo period
 
