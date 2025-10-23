@@ -41,7 +41,7 @@ Copilot Library's visibility logic uses the following to determine Copilot Libra
     - If both Image Creation and Page Creation are disabled in OCPS (Office Cloud Policy Service), Copilot Library is hidden.
     - If only Image Creation is disabled, the Images tab in Copilot Library is hidden. If only Page Creation is disabled, the Pages tab in Copilot Library is hidden.
 
-For more information about the Page creation admin setting, see [Manage Copilot Pages and Copilot Notebooks in your organization](/microsoft-365/loop/cpcn-admin-configuration.md).
+For more information about the Page creation admin setting, see [Manage Copilot Pages and Copilot Notebooks in your organization](/microsoft-365/loop/cpcn-admin-configuration).
 
 ## Supported file formats
 
