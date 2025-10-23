@@ -26,7 +26,7 @@ As people embrace and incorporate [generative AI apps](/ai/playbook/technology-g
 
 But what about non-Microsoft AI apps? 
 
-Using capabilities in [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps) (part of Microsoft Defender XDR) and [Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai?tabs=m365) (part of Microsoft Purview), your security team can enable people in your organization to use generative AI apps more securely, including both Microsoft and non-Microsoft AI apps.
+Using capabilities in [Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai?tabs=m365) (part of Microsoft Purview) and/or [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps) (part of Microsoft Defender XDR), your security team can enable people in your organization to use generative AI apps more securely, including both Microsoft and non-Microsoft AI apps.
 
 Discovering, monitoring, and managing AI apps is essential to prevent data leaks, maintain compliance, enforce governance, and uphold trust in enterprise AI adoption. This article describes how to perform these tasks using DSPM for AI and Defender for Cloud Apps.
 
@@ -36,11 +36,11 @@ Discovering, monitoring, and managing AI apps is essential to prevent data leaks
    - See [Microsoft Purview permissions](/purview/purview-permissions#microsoft-purview-permissions)
    - See [Microsoft 365 and Microsoft Entra roles with access to Defender for Cloud Apps](/defender-cloud-apps/manage-admins#microsoft-365-and-microsoft-entra-roles-with-access-to-defender-for-cloud-apps)
 
-- **Configure Purview**. Select one or more of the [Microsoft Purview deployment models](/purview/deploymentmodels/depmod-overview), which include:
+- **If you're using DSPM for AI, configure Purview**. Select one or more of the [Microsoft Purview deployment models](/purview/deploymentmodels/depmod-overview), which include:
    - [Secure by default](/purview/deploymentmodels/depmod-securebydefault-intro)
    - [Purview Data Security Posture Management](https://aka.ms/DSPMBlueprintPDF)
 
-- **[Set up Microsoft Defender XDR](/defender-xdr/pilot-deploy-overview)**, which includes these components:
+- **If you're using Defender for Cloud Apps, [set up Microsoft Defender XDR](/defender-xdr/pilot-deploy-overview)**, which includes these components:
    - [Microsoft Defender for Cloud Apps](/defender-xdr/pilot-deploy-defender-cloud-apps)
    - [Microsoft Defender for Endpoint](/defender-xdr/pilot-deploy-defender-endpoint)
 
