@@ -9,7 +9,7 @@ ms.subservice: advanced-data-residency
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.date: 08/05/2025
+ms.date: 10/13/2025
 ms.reviewer: jugiammo
 ms.custom:
 - it-pro
@@ -45,13 +45,13 @@ In order to promote clarity in the capability descriptions on data residency fun
 |Legacy Move Program |This program, which is no longer active, was offered to _Tenants_ who had a valid _Default Geography_ which allowed the _Tenant_ to migrate existing data at rest into a _Local Region Geography_. |
 |Local Region Geography |Australia, Austria, Brazil, Canada, Chile, France, Germany, India, Indonesia, Israel, Italy, Japan, Malaysia, Mexico, New Zealand, Norway, Poland, Qatar, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, United Arab Emirates, United Kingdom |
 |Macro Region Geography |Macro Region Geography 1 – Europe, Macro Region Geography 2 – Asia Pacific, Macro Region Geography 3 – Americas, Macro Region Geography 4 – European Union/EFTA |
-|Macro Region Geography 1 – Europe |Data centers in Austria, Finland, France, Germany, Ireland, Italy, Netherlands, Poland, Spain, Sweden <br/> <br/> **Note:** For _Tenants_ with a _Default Geography_ of Israel, data can be stored in Macro Region Geography 1 – Europe or additional data centers located in their _Default Geography_ (i.e., Israel). <br/> <br/> **Note:** This term is referenced as “Europe” on the _Data Location Card_. |
-|Macro Region Geography 2 – Asia Pacific |Data centers in Australia, Hong Kong Special Administrative Region, Indonesia, Japan, Malaysia, New Zealand, Singapore, South Korea <br/> <br/> **Note:** For _Tenants_ with a _Default Geography_ of Taiwan, data can be stored in _Macro Region Geography 2 – Asia Pacific_ or additional data centers located in their _Default Geography_ (i.e., Taiwan). |
+|Macro Region Geography 1 – Europe |Data centers in Austria, Finland, France, Germany, Ireland, Italy, Netherlands, Poland, Spain, Sweden <br/> <br/> **Note:** This term is referenced as “Europe” on the _Data Location Card_. |
+|Macro Region Geography 2 – Asia Pacific |Data centers in Australia, Hong Kong Special Administrative Region, Indonesia, Japan, Malaysia, New Zealand, Singapore, South Korea |
 |Macro Region Geography 3 – Americas |Data centers in Brazil, Canada, Chile, Mexico, and the United States (USA) <br/> <br/> **Note:** This term is referenced as “Americas” on the _Data Location Card_. |
 |Macro Region Geography 4 – European Union/EFTA |Data centers in Austria, Finland, France, Germany, Ireland, Italy, Netherlands, Poland, Spain, Sweden, Norway, and Switzerland. <br/> <br/> **Note:** This term is referenced as “European Union/EFTA” on the _Data Location Card_. |
 |Microsoft Entra ID |Microsoft Entra ID is the new name for [Azure Active Directory](/entra/fundamentals/new-name). |
 |Microsoft 365 admin center Data Location |To see the _Primary Provisioned Geography_ for Exchange Online, SharePoint, OneDrive, and Microsoft Teams, refer to the Microsoft 365 admin center by navigating to **Admin > Settings > Org settings > Organization profile > Data location**. |
-|Microsoft 365 Core Services |Exchange Online, SharePoint and OneDrive, Microsoft Teams, Microsoft 365 Copilot |
+|Microsoft 365 Core Services |Exchange Online, SharePoint and OneDrive, Microsoft Teams, Microsoft 365 Copilot and Copilot Chat |
 |Microsoft 365 Expanded Services |Microsoft Defender for Office P1 and Exchange Online Protection, Microsoft 365 web apps (formerly known as "Office for the Web"), Viva Connections, Microsoft Purview* |
 |Microsoft 365 Multi-Geo Capabilities |_Microsoft 365 Multi-Geo Capabilities_ allows a single _Tenant_ to store customer data-at-rest across multiple geographies rather than be limited to the single _Primary Provisioned Geography_. See the _[Multi-Geo](microsoft-365-multi-geo.md)_ page for more detail. |
 |Microsoft 365 Service provisioning country mapping |Refer to [data maps](https://aka.ms/datamaps) to learn where a given service provisions specified customer data, based on the _Tenant Default Geography._ |
