@@ -95,7 +95,7 @@ items:
     href: copilot-prompt-gallery-export-prompts.md
   - name: Scheduled prompts
     items:
-    - name: Scheduled prompts
+    - name: Manage scheduled prompts
       href: scheduled-prompts.md
     - name: Microsoft 365 environment for scheduled prompts
       href: scheduled-prompts-environment.md
