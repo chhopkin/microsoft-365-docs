@@ -46,23 +46,23 @@ Discovering, monitoring, and managing AI apps is essential to prevent data leaks
 
 ## Use DSPM for AI to discover and manage AI apps
 
-DSPM for AI provides your security and compliance team to discover AI activity, protect data in AI prompts, and govern data handling and storage. [Learn more about DSPM for AI](/purview/dspm-for-ai?tabs=m365).
+DSPM for AI provides your security and compliance team to discover AI activity, protect data in AI prompts, and govern data handling. [Learn more about DSPM for AI](/purview/dspm-for-ai?tabs=m365).
 
-### Use Purview DSPM for AI app discovery
+1. Create or activate Purview policies. DSPM for AI includes default policies that you can activate. See [One-click policies from Data Security Posture Management for AI](/purview/dspm-for-ai-considerations#one-click-policies-from-data-security-posture-management-for-ai).
 
-PROCEDURE NEEDED
+2. After your policies are deployed, you can view generative AI events in the activity explorer and in audit logs. Examples of such events include:
 
-### Create an AI app alert policy in Purview
+   - User interactions with a generative AI site
+   - Data Loss Prevention (DLP) rules matched during user interactions with a generative AI site
+   - Sensitive information types were found in user interactions with a generative AI site
 
-PROCEDURE NEEDED
+   For more information, see [Activity explorer events](/purview/dspm-for-ai-considerations#activity-explorer-events) and [Audit logs for COpilot and AI applications](/purview/audit-copilot).
 
-### Block specific AI apps using Purview
+3. Configure DLP policies for the Microsoft Edge browser and [block other browsers](/deployedge/microsoft-edge-management-service-customizations#block-other-browsers). This action prevents users from accessing unmanaged AI apps in unprotected browsers. For more informnation, see [Activate your DLP policy in Microsoft Edge](/deployedge/microsoft-edge-dlp-purview-configuration).
 
-PROCEDURE NEEDED
+## Use Defender for Cloud Apps to discover, monitor, or block generative AI apps
 
-## Use Defender for Cloud Apps to discover, monitor, or block AI apps
-
-### Use the Defender for Cloud Apps cloud app catalog to discover AI apps
+### Use the cloud app catalog to discover AI apps
 
 You can use the Microsoft Defender portal to see a list of AI apps your organization is using. Defender for Cloud Apps provides a catalog of apps with security and compliance risk scores.
 
@@ -140,5 +140,6 @@ You can use the Microsoft Defender portal to see a list of AI apps your organiza
 ## See also
 
 - [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview)
+- [App governance in Microsoft Defender for Cloud Apps](/defender-cloud-apps/app-governance-manage-app-governance)
 - [Tech Community blog: Discover, monitor, and protect the use of Generative AI apps](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/discover-monitor-and-protect-the-use-of-generative-ai-apps/3999228)
 
