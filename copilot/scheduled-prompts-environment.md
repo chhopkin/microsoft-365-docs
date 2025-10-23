@@ -95,3 +95,9 @@ No. Power Platform governs this environment with a fixed DLP policy. Tenant or e
 ### Can users create custom apps, flows, or bots in this environment?
 
 No. Power Platform blocks the creation of all apps, flows, and connections by default. It only permits runtime operations by Microsoft-owned apps.
+
+## Related content
+
+- [Manage scheduled prompts for Microsoft 365 Copilot](scheduled-prompts.md)
+
+- [Inventory for scheduled prompts](scheduled-prompts-inventory.md)

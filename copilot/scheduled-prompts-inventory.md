@@ -392,3 +392,9 @@ To export the list to a CSV file, start with either of the previous options to [
     ```powershell
     .\Clear-CopilotActions.ps1 -EnvironmentId abc123-a100-xyz000-12345 -UserId abc123-a100-xyz000-12345
     ```
+
+## Related content
+
+- [Manage scheduled prompts for Microsoft 365 Copilot](scheduled-prompts.md)
+
+- [Microsoft 365 environment for scheduled prompts](scheduled-prompts-environment.md)
