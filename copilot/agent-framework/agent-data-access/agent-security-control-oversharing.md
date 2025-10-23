@@ -33,7 +33,7 @@ Use the [data risk assessments](/purview/dspm-for-ai?tabs=m365#data-assessments)
 - Protect sensitive data from oversharing
 - Monitor, remediate, and automate protections to reduce emerging risks
 
-:::image type="content" source="10687243-dspm-overview-copilot.png" alt-text="DSPM overview page for Microsoft 365 Copilot":::
+:::image type="content" source="./media/10687243-dspm-overview-copilot.png" alt-text="DSPM overview page for Microsoft 365 Copilot":::
 
 ## Control oversharing with SharePoint Advanced Management
 
@@ -45,7 +45,7 @@ Controlling oversharing is vital for ensuring that Copilot agents only access ap
 
 Reducing content sprawl and managing content lifecycle are important for overall SharePoint governance and they contribute to making controlling oversharing easier. For more information, see, [Get ready for Microsoft 365 Copilot with SharePoint Advanced Management](/sharepoint/get-ready-copilot-sharepoint-advanced-management).
 
-:::image type="content" source="10687243-sam-feature-list.png" alt-text="SharePoint Advanced Management feature list":::
+:::image type="content" source="./media/10687243-sam-feature-list.png" alt-text="SharePoint Advanced Management feature list":::
 
 ## Recommended approach to address oversharing concerns for Microsoft 365 Copilot deployments
 
