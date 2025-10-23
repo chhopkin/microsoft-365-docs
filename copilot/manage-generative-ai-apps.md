@@ -74,7 +74,7 @@ You can use the Microsoft Defender portal to see a list of AI apps your organiza
 
 4. Review the list of apps, along with their risk scores. Make a note of the apps you might want to monitor or block. For more information about risk scores, see [Find your cloud app and calculate risk scores](/defender-cloud-apps/risk-score).
 
-### Create a policy in Defender for Cloud Apps to monitor AI apps
+### Create a policy to monitor AI apps
 
 > [!NOTE]
 > Before you begin, review the [prerequisites](/defender-cloud-apps/governance-discovery#prerequisites).
@@ -100,7 +100,7 @@ You can use the Microsoft Defender portal to see a list of AI apps your organiza
 
 6. Carefully review all parameters of your custom policy. Select **Submit** when you're satisfied. You can also go back and change settings by selecting **Edit** beneath any of the settings.
 
-### Create a policy in Defender for Cloud Apps to block specific AI apps
+### Create a policy to block specific AI apps
 
 1. In the [Microsoft Defender portal](https://security.microsoft.com), in the navigation pane, select **Cloud apps** > **Cloud discovery**. 
 
