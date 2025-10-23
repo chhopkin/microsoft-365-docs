@@ -1,5 +1,5 @@
 ---
-title: Copilot Library
+title: Microsoft 365 Copilot Library
 description: This article details how to use Copilot Library to view and manage images and
 ms.date: 10/27/2025
 ms.service: microsoft-365-copilot
