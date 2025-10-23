@@ -58,7 +58,7 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
 
 4. Review the list of apps, along with their risk scores. Make a note of the apps you might want to monitor or block. For more information about risk scores, see [Find your cloud app and calculate risk scores](/defender-cloud-apps/risk-score).
 
-### Use Purview DSPM for AI for AI app discovery
+### Use Purview DSPM for AI app discovery
 
 PROCEDURE NEEDED
 
@@ -129,7 +129,7 @@ PROCEDURE NEEDED
 
    - **Audit mode**: Policies are evaluated but configured actions don't occur. Audit mode policies appear with the status of *Audit* in the list of policies. You should use Audit mode for testing a new policy.
    - **Active**: Policies are evaluated and configured actions occur.
-   - **Inactive**: Policies aren't evaluated and configured actions won't occur.
+   - **Inactive**: Policies aren't evaluated and configured actions don't occur.
 
 10. Carefully review all parameters of your custom policy. Select **Submit** when you're satisfied. You can also go back and change settings by selecting **Edit** beneath any of the settings.
 
