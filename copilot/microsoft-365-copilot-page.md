@@ -30,6 +30,11 @@ When Microsoft 365 Copilot is available in a tenant, you can configure some Copi
 The following video is an overview of managing Microsoft 365 Copilot for your organization. It's 1 minute and 45 seconds long.
 
 > [!VIDEO 4ad48e80-9329-41fd-8d63-0b443281ec92]
+manage, ccs, agents, billing, settings
+
+Then watch the following video to see the different Microsoft 365 Copilot settings and configuration options in the Microsoft 365 admin center. It's 2 minutes and 39 seconds long.
+
+> [!VIDEO 28be8725-2d69-4d93-a07d-8324c5083c46]
 
 This article is for IT administrators and lists some of the Copilot scenarios that you can control in the Microsoft 365 admin center.
 
