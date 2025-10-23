@@ -61,7 +61,7 @@ Use the Microsoft Defender portal to see a list of AI apps your organization is 
 
 ### Use Purview DSPM for AI for AI app discovery
 
-PROCEDURE
+PROCEDURE NEEDED
 
 ## Set up a policy to create an alert for new generative AI apps
 
@@ -93,7 +93,7 @@ PROCEDURE
 
 ### Create an AI app alert policy in Purview
 
-PROCEDURE
+PROCEDURE NEEDED
 
 ## Block specific generative AI apps
 
@@ -136,7 +136,7 @@ PROCEDURE
 
 ### Block specific AI apps using Purview
 
-PROCEDURE
+PROCEDURE NEEDED
 
 ## See also
 
