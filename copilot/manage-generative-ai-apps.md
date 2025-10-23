@@ -46,6 +46,7 @@ Discovering, monitoring, and managing AI apps is essential to prevent data leaks
 
 ## Use DSPM for AI to discover and manage AI apps
 
+DSPM for AI provides your security and compliance team to discover AI activity, protect data in AI prompts, and govern data handling and storage. [Learn more about DSPM for AI](/purview/dspm-for-ai?tabs=m365).
 
 ### Use Purview DSPM for AI app discovery
 
