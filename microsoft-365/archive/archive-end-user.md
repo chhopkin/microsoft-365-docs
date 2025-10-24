@@ -18,11 +18,22 @@ description: Learn about end-user features for archived sites in Microsoft 365 A
 
 # End user experience in Microsoft 365 Archive
 
-End users aren't able to access or search for any content that has been archived. Whenever users try to access archived content, they see a message stating that the site has been archived.
+End users aren't able to directly access any content that has been archived. Whenever users try to access archived content, they will either see a message stating that the site has been archived or the file has been archived.  If the file has been archived, then any user with read access can reactivate the file to regain full access.  Reactivation can take up to 24 hours to complete. 
+
+#### File archive experience
+
+End-users who encounter archived files can reactivate the file by navigating to the file in the SharePoint site or OneDrive account where the file is hosted.  The user can reactivate by simply selecting the file and clicking the 'reactivate' button. 
+
+![Reactivate_file](media/archive-end-user/reactivate-file.png)
+
+> [!NOTE]
+>For some Microsoft 365 applications there isn't a clear indicator that a file has been archived. Navigating to the underlying SharePoint site or OneDrive account is the most reliable way to validate a file's archive status and reactivate it.
+
+#### Site archive experience
 
 ![Screenshot of the Site is archived message end users receive when they try to access content that has been archived.](../media/m365-archive/site-is-archived-message.png)
 
-In Microsoft 365 Archive, admins have an option to set a custom URL where the user requests for reactivation can be directed to. This can take users to any URL you choose, such as a form, a ticketing system, or other location accessible via a URL. Once configured, users will see a **Request to reactivate** button when they encounter archived content.
+In Microsoft 365 Archive for sites, admins have an option to set a custom URL where the user requests for reactivation can be directed to. This can take users to any URL you choose, such as a form, a ticketing system, or other location accessible via a URL. Once configured, users will see a **Request to reactivate** button when they encounter archived content.
 
 This custom URL can be set via a flag (``-ArchiveRedirectUrl``) in the Set-SPOTenant PowerShell cmdlet starting in version 16.0.23408.12000.
 
