@@ -16,6 +16,7 @@ ms.collection:
 - trust-pod
 - magic-ai-copilot
 description: Learn how Microsoft 365 Copilot integrates AI to enhance productivity while maintaining robust security and compliance measures.
+customer-intent: As an administrator or business decision maker, I want to understand the security measures Microsoft has implemented for Microsoft 365 Copilot so that I can ensure my organization's data is protected while leveraging AI capabilities.
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---
