@@ -30,7 +30,7 @@ Follow these instructions to configure admin settings for Researcher Agent with 
 
 :::image type="content" source="../../media/agents/microsoft-admin-control-agents-page.png" alt-text="Screenshot showing the Microsoft Admin Controls Agents page." lightbox="../../media/agents/microsoft-admin-control-agents-page.png":::
 
-2. Select Researcher and check if there is an additional tab for **Computer use**. If you do not see the following, reach out to Microsoft support.
+2. Select **Researcher** and check if there is an additional tab for **Computer use**. If you do not see the following, reach out to Microsoft support.
 
 :::image type="content" source="../../media/agents/computer-use-researcher-agent.png" alt-text="Screenshot showing the option to allow Researcher to access work data." lightbox="../../media/agents/computer-use-researcher-agent.png":::
 
@@ -46,34 +46,34 @@ Follow these instructions to configure admin settings for Researcher Agent with 
 
 :::image type="content" source="../../media/agents/computer-use-disabled.png" alt-text="Screenshot showing the Computer use option disabled in Researcher Agent." lightbox="../../media/agents/computer-use-disabled.png":::
 
-b. For users that have it disabled, the **Computer Use** option will appear grayed out.
+    b. For users that have it disabled, the **Computer Use** option will appear grayed out.
 
 > [!NOTE]
 > (Private Preview)- The experience won't be enabled for users until you notify that admin settings are complete.
 
 4. **Configure Work access for Researcher with Computer use**
 
-a. This allows users to toggle on **Work** in the Sources menu, allowing Researcher to leverage a user's work content, for example, emails, chats, files, with Computer Use.
-b. When enabled by admins, users must still manually toggle on Work access.
-c. When disabled, the **Work** source will appear grayed out and not selectable.
+    a. This allows users to toggle on **Work** in the Sources menu, allowing Researcher to leverage a user's work content, for example, emails, chats, files, with Computer Use.
+    b. When enabled by admins, users must still manually toggle on Work access.
+    c. When disabled, the **Work** source will appear grayed out and not selectable.
 
 :::image type="content" source="../../media/agents/work-toggle-enabled.png" alt-text="Screenshot showing the Work option enabled in Researcher Agent." lightbox="../../media/agents/work-toggle-enabled.png":::
 :::image type="content" source="../../media/agents/work-toggle-disabled.png" alt-text="Screenshot showing the Work option disabled in Researcher Agent." lightbox="../../media/agents/work-toggle-disabled.png":::
 
 5. **Select which websites are allowed for Computer use**
 
-a. There are 3 options for configuring websites the virtual device can access-
+    a. There are 3 options for configuring websites the virtual device can access-
 
-i. All websites
-ii. Allow specific URLs or domains only
-iii. Exclude specific URLs or domains
+        i. All websites
+        ii. Allow specific URLs or domains only
+        iii. Exclude specific URLs or domains
 
-b. You can allow "All websites", block some with the "Exclude specified" option, or only allow certain sites with the "Allow specified" option.
+    b. You can allow "All websites", block some with the "Exclude specified" option, or only allow certain sites with the "Allow specified" option.
 
 6. After completing the set up, contact the Researcher Agent team to enable the experience.
 
-Contact the Researcher Agent team or your CAPE contact to let us know you are ready for your tenant to be enabled using your admin settings.
+Contact the Researcher Agent team or your CAPE contact to let us know you are ready for your tenant to be enabled using admin settings.
 
 :::image type="content" source="../../media/agents/computer-use-active-option.png" alt-text="Screenshot showing the computer use option active in Researcher Agent." lightbox="../../media/agents/computer-use-active-option.png":::
 
-It will take 24 hours for the **Computer use** option to appear in Researcher agent for the specific users listed in your admin settings. After Researcher for Computer use has been enabled for your tenant, you can continue to make changes to and update the admin settings.
+It takes 24 hours for the **Computer use** option to appear in Researcher agent for the specific users listed in admin settings. After Researcher for Computer use has been enabled for your tenant, you can continue to make changes to and update the admin settings.
