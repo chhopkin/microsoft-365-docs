@@ -57,4 +57,3 @@ This report is used for retrieving the required user context attributes from Wor
 |Business Object |Group Column Heading XML Alias |
 |----------------|-------------------------------|
 |Worker          |Worker_group                   |
-
