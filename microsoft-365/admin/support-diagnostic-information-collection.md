@@ -3,7 +3,7 @@ title: "Understanding Microsoft 365 case creation and data access"
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 10/22/2025
+ms.date: 10/24/2025
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -59,13 +59,13 @@ Activity performed on a customer tenant is available under Microsoft Entra audit
 
 The following table describes log entries that are created.
 
-| Activity | Log entries |
+| Scenario | Audit log entries |
 |--|--|
-| Access is granted when a support case is created | Two entries: <br/>- One showing the creation of a cross-tenant access policy; and <br/>- One showing the creation of a role assignment |
-| A support engineer signs in to investigate and troubleshoot an issue | One sign-in log entry for each time a support engineer signs in |
+| A support case is created and cross-tenant access is granted | Two entries: <br/>- One showing the creation of a cross-tenant access policy; and <br/>- One showing the creation of a role assignment |
+| A support engineer signs in to investigate and troubleshoot an issue | One entry ach time a support engineer signs in |
 | Access is removed | Two entries: <br/>- One showing the removal of the cross-tenant access policy; and <br/>- One showing the removal of the role assignment |
 
-Look for entries in these categories:
+Audit log entries are listed in these categories:
 
 - `Policy`
 - `CrossTenantAccessSettings`
