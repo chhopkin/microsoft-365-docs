@@ -6,7 +6,7 @@ metadata:
   ms.author: vpattnaik
   ms.service: microsoft-365-copilot
   ms.topic: faq
-  ms.date: 10/16/2025
+  ms.date: 10/23/2025
 
 title: "Microsoft 365 Copilot Researcher Agent frequently asked questions"
 summary: Researcher is an advanced AI Copilot agent in Microsoft 365 designed to tackle complex, multi-step questions by acting as a deep research assistant.
@@ -25,11 +25,13 @@ sections:
       - question: "Can Researcher fetch data from Graph Connectors?"
         answer: "Yes, and future updates will allow connector configuration."
       - question: "How does Researcher interact with enterprise and web data?"
-        answer: "It uses Microsoft Graph, connectors, and Bing index for recent web data."
+        answer: "Researcher uses Microsoft Graph, connectors, and Bing index for recent web data."
       - question: "Can we restrict which websites or web content the Researcher agent can pull information from (aside from disabling web search entirely)?"
         answer: "No. There isn't a granular setting to block or allow specific websites. The only admin control over web content is the global _web search toggle_. If web search is enabled, Researcher will use Bing to search the web generally; if web search is disabled at the tenant level, Researcher will not use any web data."
       - question: "Is the Researcher agent available on mobile devices (iOS and Android)?"
         answer: "Yes, it is available on iOS and Android in the Copilot mobile app."
+      - question: "Can I enable Claude in Researcher?"
+        answer: "Yes, Learn more about enabling [Claude in Researcher](connect-to-ai-models.md)."
 
   - name: Administration and controls
     questions:

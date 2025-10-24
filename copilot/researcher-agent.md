@@ -6,9 +6,9 @@ f1.keywords:
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 10/13/2025
+ms.date: 10/23/2025
 audience: Admin
-ms.reviewer: mandia
+ms.reviewer: dansimp
 ms.topic: overview
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
@@ -38,4 +38,4 @@ Researcher's architecture is built on the Microsoft 365 Copilot platform, levera
 
 ## Related content
 
-- [Microsoft 365 Copilot Researcher FAQ's](faq-researcher.md)
+- [Microsoft 365 Copilot Researcher FAQ's](faq-researcher.yml)
