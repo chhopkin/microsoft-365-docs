@@ -58,7 +58,7 @@ The blueprint provides:
 
   Learn how to use the features included in your Microsoft 365 E3 subscription to prepare your data for Microsoft 365 Copilot.
 
-- [E5 customers – prepare your data for Copilot](microsoft-365-copilot-e5-guide.md)
+- [Microsoft 365 E5 customers – prepare your data for Copilot](microsoft-365-copilot-e5-guide.md)
 
   Learn how to use the features included in your Microsoft 365 E5 subscription to prepare your data for Microsoft 365 Copilot.
 
