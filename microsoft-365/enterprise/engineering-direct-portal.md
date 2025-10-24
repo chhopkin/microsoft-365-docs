@@ -52,7 +52,7 @@ Once in the portal, you'll see the **Overview** page. This page contains several
 - **Insights: Key Metrics**: This tile lists both your engineering escalations and those escalations that have been resolved for the last six months. An issue is considered an 'engineering escalation' once it has been raised to and assigned to a Microsoft Engineering team member (either through our support organization, or through your usage of the "Escalate to Engineering" feature).
   - Total escalations include open or closed tickets
   - Active escalations include only those tickets that are open
-- **Customer Advisory Board (CAB)**: The CAB tile will list the last and next CAB events as well as the last and next community calls. This is informational only; registrations and calendar blockers will continue to be provided separately through existing process channels.
+- **Customer Advisory Board (CAB)**: The CAB tile will list the last and next CAB events as well as the last and next community calls. This is informational only; registrations and calendar blockers continue to be provided separately through existing process channels.
 - **Insights: Escalation Trend Per Week by Status**: A monthly view of escalations by open and closed for the last six months. This is a focused view of all reactive issues, filtered by all issues that have a Microsoft engineering element.
 - **Request A Feature**: Allows you to submit feedback or a request to the Engineering Direct Portal team. Feedback can be both related to the portal itself and its functionality, and any broader engineering features you would like to see in Engineering Direct. Feature requests submitted via this method are visible to users in your private **MyFeedback** section of the feedback portal.
 
@@ -276,7 +276,7 @@ This diagnostic is split into multiple sections that detail steps to remediate t
 
 #### Steps and Output
 
-1. Force Sign Out - First, it is important to force a user to sign out of all sessions:
+1. Force Sign Out - First, it's important to force a user to sign out of all sessions:
 
     1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/homepage).
 
@@ -395,7 +395,7 @@ This diagnostic tool assists administrators in identifying and resolving issues 
 
 #### Running the Diagnostic 
 
-The diagnostic requires the affected user’s organizational email address. With a simple selection of the ‘Troubleshoot’ option, the tool starts analyzing the configuration, with results available in approximately 30 seconds. 
+The diagnostic requires the affected user's organizational email address. With a simple selection of the 'Troubleshoot' option, the tool starts analyzing the configuration, with results available in approximately 30 seconds. 
 
 #### Interpreting Diagnostic Results 
 
@@ -403,7 +403,7 @@ The diagnostic performs a series of configuration checks related to Teams Phone 
 
 #### Investigating Further 
 
-If the troubleshooting process does not resolve the PSTN calling issue, administrators are advised to contact Microsoft Support for more specialized assistance.  
+If the troubleshooting process doesn't resolve the PSTN calling issue, administrators are advised to contact Microsoft Support for more specialized assistance.  
 
 ## (Private preview) Design Change Requests Page (DCR)
  
@@ -416,10 +416,10 @@ This page contains:
 4.  **Request Create Date** – Date the case was opened. The portal will only show cases that have been opened in the last 12 months.
 5.  **Escalation Status** – Status of the request. The status types that are shown are:
     - **Engineering Review** – These items are still being reviewed by Microsoft and no decisions have been made.
-    - **Under consideration** – These items have been added to a list of change that we will consider for upcoming release cycles, but Microsoft has not committed to doing these changes.
+    - **Under consideration** – These items have been added to a list of change that we will consider for upcoming release cycles, but Microsoft hasn't committed to doing these changes.
     - **Under development** – These are items that Microsoft has accepted and are being developed. Time may vary depending on how long development takes.
     - **Completed** – Requests that Microsoft has completed or closed.
-    - **Rejected** – These items were not accepted.
+    - **Rejected** – These items weren't accepted.
 6.  **Request Closed Date** – Date the case was completed.
 7.  **Product** – Product that the request was opened for.
 
