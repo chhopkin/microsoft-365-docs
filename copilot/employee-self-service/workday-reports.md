@@ -1,5 +1,5 @@
 ---
-title: Create reports for your Workday integration
+title: Creating reports for your Workday integration
 f1.keywords:
 - NOCSH
 ms.author: heidip
@@ -12,7 +12,7 @@ ms.topic: how-to
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.custom: ess-agent
-description: "Learn how to create the reports for your Workday integration with the Employee Self-Service agent."
+description: "Learn how to create reports for your Workday integration with the Employee Self-Service agent."
 ---
 
 # Create reports for your Workday integration
