@@ -405,7 +405,7 @@ The diagnostic performs a series of configuration checks related to Teams Phone 
 
 If the troubleshooting process does not resolve the PSTN calling issue, administrators are advised to contact Microsoft Support for more specialized assistance.  
 
-## Design Change Requests Page (DCR)
+## (Private preview) Design Change Requests Page (DCR)
  
 The **Design Change Requests** page provides a high-level view of requests from customers to modify or enhance a product or feature or to introduce new capabilities. In this tab you will find a high-level report on the DCRs for your tenant, complete with useful metrics and graphs. This report is only inclusive of requests for products that are covered by the Engineering Direct offer. DCRs raised for other products will not be included.
  
@@ -422,6 +422,10 @@ This page contains:
     - **Rejected** – These items were not accepted.
 6.  **Request Closed Date** – Date the case was completed.
 7.  **Product** – Product that the request was opened for.
+
+
+> [!NOTE]
+> This feature is currently available in private preview. To participate, contact your Advanced Cloud Engineer (ACE).
 
 ![Engineering Direct Portal DCR Overview](..\media\eng-direct-portal\eng-direct-portal-dcr-overview.png)
 
