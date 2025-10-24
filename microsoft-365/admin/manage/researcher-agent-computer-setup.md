@@ -51,16 +51,18 @@ Follow these instructions to configure admin settings for Researcher Agent with 
 > [!NOTE]
 > (Private Preview)- The experience won't be enabled for users until you notify that admin settings are complete.
 
-4. **Configure Work access for Researcher with Computer use**
+4. Configure Work access for Researcher with Computer use
 
     a. This allows users to toggle on **Work** in the Sources menu, allowing Researcher to leverage a user's work content, for example, emails, chats, files, with Computer Use.
+    
     b. When enabled by admins, users must still manually toggle on Work access.
+    
     c. When disabled, the **Work** source will appear grayed out and not selectable.
 
 :::image type="content" source="../../media/agents/work-toggle-enabled.png" alt-text="Screenshot showing the Work option enabled in Researcher Agent." lightbox="../../media/agents/work-toggle-enabled.png":::
 :::image type="content" source="../../media/agents/work-toggle-disabled.png" alt-text="Screenshot showing the Work option disabled in Researcher Agent." lightbox="../../media/agents/work-toggle-disabled.png":::
 
-5. **Select which websites are allowed for Computer use**
+5. Select which websites are allowed for Computer use
 
     a. There are 3 options for configuring websites the virtual device can access-
 
