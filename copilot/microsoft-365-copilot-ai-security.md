@@ -5,10 +5,10 @@ ms.author: georgerozo
 author: denisebmsft
 manager: dansimp
 ms.reviewer: georgerozo
-ms.date: 09/04/2025
+ms.date: 10/24/2025
 ms.update-cycle: 180-days
 audience: Admin
-ms.topic: article
+ms.topic: concept-article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.collection: 
