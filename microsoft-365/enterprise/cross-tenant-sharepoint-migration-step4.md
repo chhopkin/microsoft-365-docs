@@ -74,6 +74,12 @@ These commands send a request to the tenant with whom you want to establish trus
    ```powershell
    New-UnifiedGroup -DisplayName <TargetGroupDisplayName> -Alias <TargetGroupAlias> -AccessType <Private|Public> 
    ```
+By default, a SharePoint site is automatically provisioned when a Microsoft 365 group is created. Use this option to override the default behavior so that the site is provisioned on demand.
+
+```powershell
+New-MgBetaGroup -DisplayName 'Test Group' -MailEnabled:$False -MailNickName 'testgroup' -SecurityEnabled -ResourceBehaviorOptions “ProvisionSiteOnDemand”
+```
+
 
 > [!Important]
 > Microsoft 365 Groups connected to SharePoint sites **MUST be precreated using this method**. Precreating Microsoft 365 groups using any other methods will cause SharePoint site migrations to fail.

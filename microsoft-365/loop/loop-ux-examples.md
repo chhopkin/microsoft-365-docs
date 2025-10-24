@@ -69,7 +69,7 @@ Refer to [Loop components in Teams and Outlook](#loop-components-in-teams-and-ou
 
 ### Loop components in the Loop app, Loop workspace creation Disabled
 
-In this scenario, workspace creation is not enabled for the user at any point. As a result, no workspaces appear, including the "My workspace" personal workspace, and users can't create new workspaces. The Loop component viewer/editor remains available, so users can open and interact with Loop components created in other Microsoft 365 apps such as Teams or Outlook.
+In this scenario, workspace creation isn't enabled for the user at any point. As a result, no workspaces appear, including the "My workspace" personal workspace, and users can't create new workspaces. The Loop component viewer/editor remains available, so users can open and interact with Loop components created in other Microsoft 365 apps such as Teams or Outlook.
 
 :::image type="content" source="media/loop-component-editor.png" alt-text="Screenshot showing the Loop component editor and viewer for a Loop component, with workspace creation turned off by the administrator":::
 *Loop component viewer/editor enabling full screen interaction with a Loop component*<br><br>
@@ -86,14 +86,14 @@ In this scenario, workspace creation was initially enabled for the user, allowin
 :::image type="content" source="media/loop-app-workspace-create-disabled-with-content.png" alt-text="Screenshot showing the Loop app Create menu clicked, with workspace creation turned off by the administrator, and previously created content visible.":::
 *Loop app Create menu opened, displaying existing content while workspace creation is disabled by the administrator*<br><br>
 
-## Related topics
+## Related articles
 
 ### Admin
 
 - [Summary of Compliance, Lifecycle, Governance](loop-compliance-summary.md)
 - [Requirements](cpcn-loop-requirements.md)
 - [Storage](loop-storage.md)
-- [Permissions](cpcn-loop-permission.md)
+- [Permissions](loop-permission.md)
 - [Admin toggles](loop-admin-configuration.md)
 - [Data Integrations Admin Settings](loop-data-integrations-configuration.md)
 
