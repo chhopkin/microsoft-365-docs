@@ -197,7 +197,7 @@ items:
     - name: Manage agent access and availability policies
       items:
       - name: Agent access settings
-        href: /microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#manage-access-to-copilot-agents?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json        
+        href: /microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json#manage-access-to-copilot-agents        
       - name: Agent sharing and publishing settings
         href: agent-framework/agent-policies/agent-share-publish.md
         items:
