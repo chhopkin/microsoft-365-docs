@@ -36,17 +36,17 @@ Follow these instructions to configure admin settings for Researcher Agent with 
 
 3. Customize users that have access to Researcher with Computer use.
 
-a. There are 3 options for configuring who has access to the experience-
+    a. There are 3 options for configuring who has access to the experience-
 
-i. Allow for all users in your organization
-ii. Allow for specific users or groups only
-iii. No users in your organization
+        i. Allow for all users in your organization
+        ii. Allow for specific users or groups only
+        iii. No users in your organization
 
 :::image type="content" source="../../media/agents/computer-use-enabled.png" alt-text="Screenshot showing the Computer use option enabled in Researcher Agent." lightbox="../../media/agents/computer-use-enabled.png":::
 
 :::image type="content" source="../../media/agents/computer-use-disabled.png" alt-text="Screenshot showing the Computer use option disabled in Researcher Agent." lightbox="../../media/agents/computer-use-disabled.png":::
 
-b. For users that have it disabled, the **Computer Use** option will appear greyed out.
+b. For users that have it disabled, the **Computer Use** option will appear grayed out.
 
 > [!NOTE]
 > (Private Preview)- The experience won't be enabled for users until you notify that admin settings are complete.
