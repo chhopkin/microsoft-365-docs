@@ -171,7 +171,7 @@ If you need to disable sharing for specific users, groups, or your entire tenant
 
 You have the following options for creating an access control policy in PowerShell to manage the visibility of AI-generated skill:  
 
-- **Enable sharing of AI-generated skills (Default):**: When visibility is enabled, AI-generated skills are shared across Microsoft 365. Users have the option to turn it off for themselves in their settings. Users can also manage how they can share AI-generated skills for themselves in the Microsoft 365 profile editor on the Data and privacy tab.
+- **Enable sharing of AI-generated skills (Default):** When visibility is enabled, AI-generated skills are shared across Microsoft 365. Users have the option to turn it off for themselves in their settings. Users can also manage how they can share AI-generated skills for themselves in the Microsoft 365 profile editor on the Data and privacy tab.
 
 - **Keep the default sharing off for AI-generated skills**: Users in this access policy will be "opted-out," and their AI-generated skills won't be shared across Microsoft 365. Users have the option to turn it on for themselves in their skill settings.
 
