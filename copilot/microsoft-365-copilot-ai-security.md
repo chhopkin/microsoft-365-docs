@@ -134,7 +134,7 @@ For more information about using Purview with Microsoft 365 Copilot, see [Micros
 
 #### Policy integration and enforcement
 
-Microsoft 365 Copilot is part of Microsoft's enterprise compliance program and benefits from a range of certifications and assessments. These include (but aren't limited to):
+Microsoft 365 Copilot is part of Microsoft's enterprise compliance program and benefits from a range of certifications and assessments. These standards include (but aren't limited to):
 
 - FedRAMP
 - HiTrust
