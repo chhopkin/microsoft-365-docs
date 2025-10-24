@@ -45,8 +45,8 @@ To ensure that SharePoint permissions are retained as part of the migration, a m
 >[!Note]
 >Note: If these users are also having their OneDrive migrated, make sure that these new users don't attempt to sign-in to their new target OneDrive until their corresponding OneDrive migration is complete.
 
-- All users whose SharePoint accounts are migrating to the target tenant must be assigned the appropriate SharePoint license.
-- Any users who remain in the source tenant but need access to resources migrating to the target tenant should have new guest identities created for them in the target tenant.
+- Users whose SharePoint accounts are migrating to the target tenant must be assigned the appropriate SharePoint license.
+- Users who remain in the source tenant but need access to resources migrating to the target tenant should have new guest identities created for them in the target tenant.
 - Precreated users must be added as members of any appropriate security groups or unified groups before the SharePoint migration begins. 
 - If the user or group name already exists in the target tenant, create a user or group with a different name and make a note of it for the next step.
 - We recommend that SharePoint site creations are restricted in the target tenant to prevent users from creating SharePoint sites.
@@ -79,7 +79,7 @@ To ensure that SharePoint permissions are retained as part of the migration, a m
     ```
 
 > [!NOTE] 
->Microsoft 365 Groups connected to SharePoint sites MUST be pre-created using this method. Pre-creating Microsoft 365 groups using any other methods >will cause SharePoint site migrations to fail. Capture the group ObjectID to add to the mapping file._
+>Microsoft 365 Groups connected to SharePoint sites MUST be precreated using this method. Precreating Microsoft 365 groups using any other methods >will cause SharePoint site migrations to fail. Capture the group ObjectID to add to the mapping file._
 
 
 > [!Important]
@@ -90,13 +90,13 @@ To ensure that SharePoint permissions are retained as part of the migration, a m
 
 ## For tenants with Multi-Geo
 
-When creating M365 group objects, we recommend you assign the group to the geo instance the site's to be migrated to at the time of creation. The "MailboxRegion" is used to set the residency of the group object.
+When creating Microsoft 365 group objects, we recommend you assign the group to the geo instance the site's to be migrated to at the time of creation. The "MailboxRegion" is used to set the residency of the group object.
 
 ```PowerShell
 New-mgBetaGroup -GroupTypes Unified -MailNickname <Group Alias> -DisplayName "Group Name" -ResourceBehaviorOptions "ProvisionSiteOnDemand" -MailEnabled:$False -SecurityEnabled -PreferredDataLocation <EUR,GBR,CAN...> 
 ```
 >[!NOTE] 
->The **-PreferredDataLocation** used **only** in multi-geo scenarios to set the PDL for the M365 Group to ensure the PDL aligns of the new group aligns with the proper data location.
+>The **-PreferredDataLocation** used **only** in multi-geo scenarios to set the PDL for the Microsoft 365 Group to ensure the PDL aligns of the new group aligns with the proper data location.
 
 >[!NOTE]
 >If the group site is outside the default instance, the MailboxRegion (PDL) must be set.
