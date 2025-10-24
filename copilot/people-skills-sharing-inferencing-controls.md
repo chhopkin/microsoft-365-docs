@@ -73,9 +73,9 @@ The Policy Modes supported for each feature map to the following PowerShell comm
 
 - **HardDisable**: The feature is disabled, users do not have the ability to opt-in or opt-out. This is controlled by setting the PowerShell property **-IsFeatureEnabled $false**. 
 
-- **SoftDisable**: The user is opted-out by default. This is controlled by setting the PowerShell properties **-IsFeatureEnabled $true -IsUserControlEnabled $true -IsUserOptedInByDefault $false**
+- **SoftDisable**: The user is opted-out by default. This is controlled by setting the PowerShell properties **-IsFeatureEnabled $true -IsUserControlEnabled $true -IsUserOptedInByDefault $false**. 
 
-- **SoftEnable**: The user is opted-in by default. This is controlled by setting the PowerShell properties **-IsFeatureEnabled $true -IsUserControlEnabled $true -IsUserOptedInByDefault $true**
+- **SoftEnable**: The user is opted-in by default. This is controlled by setting the PowerShell properties **-IsFeatureEnabled $true -IsUserControlEnabled $true -IsUserOptedInByDefault $true**.
 
 > [!IMPORTANT]
 > Make sure you have Exchange PowerShell version 3.8.0 or later if you plan to SoftDisable or SoftEnable, as property IsUserOptedInByDefault is only available on the newer module versions.
