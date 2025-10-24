@@ -79,7 +79,7 @@ To configure this setting in the Microsoft 365 admin center, you need to be assi
 
     - **Pin Microsoft 365 Copilot and its companion apps to the Windows taskbar (recommended)**
 
-        :::image type="content" source="media/pin-comp-apps.png" alt-text="Screenshot that shows the toggle to pin Microsoft 365 Copilot and the companion apps to the taskbar.":::
+        :::image type="content" source="media/pin-copilot-taskbar/pin-comp-apps.png" alt-text="Screenshot that shows the toggle to pin Microsoft 365 Copilot and the companion apps to the taskbar.":::
 
         Select this option to automatically pin the Microsoft 365 Copilot app and the companion apps to the Windows taskbar. When you enable this setting, this Copilot and companion apps appear to the right of other apps that are already pinned on the taskbar. The user isn't notified when this action is applied on the device. You have the option to remove the companion apps from getting pinned to the Windows taskbar by expanding the "Customize" arrow and uncheck "Pin the Microsoft 365 companion apps to the Windows taskbar" checkbox.  The options to pin only the companion apps and not Microsoft 365 Copilot app is not available.
 
