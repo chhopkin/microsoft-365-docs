@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 10/21/2025
+ms.date: 10/24/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -62,6 +62,7 @@ You can manage several types of agents in Microsoft 365 Copilot, each serving di
 - **External agents**: Created by external developers or vendors. You can control their availability and permissions.
 - **Frontier agents**: Experimental or advanced agents that use new capabilities or integrations. These might be in early stages of development or testing and could require more oversight or limited rollout.
 - **Flow Builder agent**: A type of Frontier agent developed by Microsoft that can be managed as part of Microsoft 365 Copilot. Flows created in Copilot are saved to the default environment (unless [environment routing](/power-platform/admin/default-environment-routing?tabs=new#turn-on-environment-routing-in-the-admin-center) is enabled for Copilot Studio). You can also manage flows using the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+- **Sharing control for Agent builder agents**: After creating an agent in Copilot Studio (lite), users today get an option to share with "Anyone in the organization" or specific user groups. This feature allows admins to control the "Anyone in the organization" sharing option. Admins can disable it for all users, no users, or a selected group. Users can still share with specific users and groups.
 
 ## Get started
 
