@@ -41,7 +41,7 @@ sections:
 
       - question: Is there a limit to how many Microsoft 365 Business Premium licenses I can have?
         answer: |
-          Yes. Business Premium is designed for small to medium-sized businesses with low to medium IT complexity requirements. You can purchase up to 300 Business Premium licenses for an organization.
+          Yes. Business Premium is designed for small to medium-sized businesses with low to medium IT complexity requirements. You can purchase up to 300 seats total across all of our Business family of plans (Business Basic, Business Standard, Business Premium). 
           
           You can also mix and  match other cloud subscriptions (for example, Microsoft Defender for Endpoint or another Microsoft 365 Enterprise subscription).
 
