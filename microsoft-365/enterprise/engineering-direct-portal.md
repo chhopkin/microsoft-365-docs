@@ -137,7 +137,7 @@ The **Visual Mail Flow Tree** is an interactive display showing the stages an em
 
 #### Investigating Further
 
-Select a tree node to view a flyout with other details, including recipients processed and node-specific properties for troubleshooting mail flow issues. The flyout contains other details for you to review and investigate. It contains a common “Recipients” property to show which recipients this node processed, and more node-specific properties that vary between nodes to help better troubleshoot mail flow issues.
+Select a tree node to view a flyout with other details, including recipients processed and node-specific properties for troubleshooting mail flow issues. The flyout contains other details for you to review and investigate. It contains a common "Recipients" property to show which recipients this node processed, and more node-specific properties that vary between nodes to help better troubleshoot mail flow issues.
 
 > [!TIP]
 > Emails sent to many recipients or large groups will take a longer time to query or could time out. Querying emails with fewer recipients could improve your experience.
@@ -266,7 +266,7 @@ Follow the following steps to enable and customize Auto Archive settings based o
 
 ### Remediate a Compromised Account
 
-If you or your user suspects an account has been accessed by someone who shouldn’t have access, it may be compromised. The **Remediate a Compromised Account** diagnostic will help you check different aspects of the affected mailbox and guide you through the steps to recover the account. Please use this diagnostic if you or your user notice any signs that one of your user's accounts may have been compromised.
+If you or your user suspects an account has been accessed by someone who shouldn’t have access, it may be compromised. The **Remediate a Compromised Account** diagnostic will help you check different aspects of the affected mailbox and guide you through the steps to recover the account. Use this diagnostic if you or your user notice any signs that one of your user's accounts may have been compromised.
 
 This diagnostic is split into multiple sections that detail steps to remediate the account. Each step lists the actions required or links to an article that can be explained in more detail. Furthermore, there will be additional account details for each step, such as when the user last reset the password, what MFA is enabled on the account, and which IP addresses have accessed the mailbox.
 
@@ -336,9 +336,9 @@ The audit log summary provides a comprehensive overview or count of the activiti
 
 - Search the number of days prior to the current date (max 30 days)
 
-  - If you enter 10, the diagnostic will review the log for up to 10 days prior to the current date
+  - If you enter 10, the diagnostic will review the log for up to 10 days prior to the current date.
   
-  - If left blank, the diagnostic will run with the value of 7 days 
+  - If left blank, the diagnostic will run with the value of 7 days. 
   
 #### Outputs 
 
@@ -360,7 +360,7 @@ These settings at the organization-level are evaluated to check for misconfigura
 | -------- | -------- | -------- |
 |External collaboration setting’s guest invite setting 	|Microsoft Entra Admin Center |"No one in this organization can invite guest users including admins (most restrictive)"  "Only users assigned to specific admin roles can invite guests" |
 |M365 group guest settings 	|Microsoft Admin Center |Either one or both settings are turned off:   "Let group owners add people outside your organization to Microsoft 365 Groups as guests"  "Let guest group members access group content" |
-|SharePoint External Sharing settings |SharePoint Admin Center |"Only people in your organization" Existing guests only" |
+|SharePoint External Sharing settings |SharePoint Admin Center |"Only people in your organization" "Existing guests only" |
 |Guest Access setting |Teams Admin Center |Off |
 
 #### User-level Setup 
@@ -371,19 +371,19 @@ If a guest user is supplied as an input, the diagnostic verifies their account p
 
 In addition, this diagnostic also displays some settings that could affect your guest access experience. These settings are not evaluated for misconfiguration.  
 
-1. External collaboration’s collaboration restriction setting and guest user access restriction setting in Microsoft Entra Admin Center 
+1. External collaboration's collaboration restriction setting and guest user access restriction setting in Microsoft Entra Admin Center. 
 
     ![Guest user access restriction setting and collaboration restriction setting](../media/eng-direct-portal/eng-direct-portal-additional-settings-1.png)
 
-1. Guest feature settings in Teams Admin Center 
+1. Guest feature settings in Teams Admin Center. 
 
     ![Guest feature settings](../media/eng-direct-portal/eng-direct-portal-additional-settings-2.png)   
 
-1. Teams guest permissions in Teams app  
+1. Teams guest permissions in Teams app.  
 
     ![Teams guest permissions in Teams app](../media/eng-direct-portal/eng-direct-portal-additional-settings-3.png) 
 
-We aim for this diagnostic to resolve your guest access issues and provide a seamless guest experience in Teams. If problems persist, please reach out to Microsoft support for assistance. 
+We aim for this diagnostic to resolve your guest access issues and provide a seamless guest experience in Teams. If problems persist, reach out to Microsoft support for assistance. 
 
 ### Teams PSTN Calling Diagnostic
 
