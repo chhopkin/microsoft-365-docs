@@ -22,7 +22,7 @@ End users aren't able to directly access any content that has been archived. Whe
 
 #### File archive experience
 
-End-users who encounter archived files can reactivate the file by navigating to the file in the SharePoint site or OneDrive account where the file is hosted.  The user can reactivate by simply selecting the file and clicking the 'reactivate' button. 
+End-users who encounter archived files can reactivate the file by navigating to the file in the SharePoint site or OneDrive account where the file is hosted.  The user can reactivate by simply selecting the file and clicking the 'reactivate' button. Reactivation can take up to 24 hours to complete.
 
 ![Reactivate_file](media/archive-end-user/reactivate-file.png)
 
