@@ -22,7 +22,7 @@ appliesto:
 
 # Researcher Agent with Computer use set up
 
-## Configure your admin settings for Researcher Agent with Computer use
+## Configure admin settings for Researcher Agent with Computer use
 
 Follow these instructions to configure admin settings for Researcher Agent with **Computer use** by following the setup instructions. After setup is complete, contact support to enable the experience for your tenant. The experience will follow the admin settings you've configured.
 
@@ -49,7 +49,7 @@ iii. No users in your organization
 b. For users that have it disabled, the **Computer Use** option will appear greyed out.
 
 > [!NOTE]
-> (For Private Preview)- the experience will still not be enabled for users until you let us know that you have completed setting your admin settings.
+> (Private Preview)- The experience won't be enabled for users until you notify that admin settings are complete.
 
 4. **Configure Work access for Researcher with Computer use**
 
@@ -70,7 +70,7 @@ iii. Exclude specific URLs or domains
 
 b. You can allow "All websites", block some with the "Exclude specified" option, or only allow certain sites with the "Allow specified" option.
 
-6. Once you're done, let us know so we can enable the experience.
+6. After completing the set up, contact the Researcher Agent team to enable the experience.
 
 Contact the Researcher Agent team or your CAPE contact to let us know you are ready for your tenant to be enabled using your admin settings.
 
