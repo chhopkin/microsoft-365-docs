@@ -43,7 +43,7 @@ To ensure that SharePoint permissions are retained as part of the migration, a m
 - All users who are migrating to the target tenant must have new user identities created for them in the target tenant.
 
 >[!Note]
->Note: If these users are also having their OneDrive migrated, make sure that these new users don't attempt to sign-in to their new target OneDrive until their corresponding OneDrive migration is complete.
+>Note: If these users are also having their OneDrive migrated, make sure that these new users don't attempt to sign-in to their new target OneDrive until their corresponding OneDrive migration is complete.
 
 - All users whose SharePoint accounts are migrating to the target tenant must be assigned the appropriate SharePoint license.
 - Any users who remain in the source tenant but need access to resources migrating to the target tenant should have new guest identities created for them in the target tenant.
@@ -62,15 +62,15 @@ To ensure that SharePoint permissions are retained as part of the migration, a m
     Install-Module Microsoft.Graph.Beta -Repository PSGallery -Force
     ```
 
-[Install the Microsoft Graph PowerShell SDK](https://learn.microsoft.com/en-us/powershell/microsoftgraph/installation?view=graph-powershell-1.0)
+[Install the Microsoft Graph PowerShell SDK](https://learn.microsoft.com/powershell/microsoftgraph/installation)
 
-2. Sign in to the Microsoft Graph Management Shell as a Microsoft 365 Global admin. Enter the password for target tenant when prompted.
+2. Sign in to the Microsoft Graph Management Shell as an Microsoft 365 admin. Enter the password for target tenant when prompted.
 
     ```PowerShell
     Connect-MgGraph -Scopes "User.ReadWrite.All"
     ```
 
-[Get started with the Microsoft Graph PowerShell SDK](https://learn.microsoft.com/en-us/powershell/microsoftgraph/get-started?view=graph-powershell-1.0)
+[Get started with the Microsoft Graph PowerShell SDK](https://learn.microsoft.com/powershell/microsoftgraph/get-started)
 
 3. Create the appropriate Microsoft 365 groups, where AccessType matches the access type of the corresponding Microsoft 365 group on the source tenant.
 
