@@ -43,6 +43,8 @@ The following sections tell you more about the management tools available for th
 
 The following controls on the integrated apps portal in the Microsoft 365 Admin Center are only available to Global Admins. Check your credentials before you proceed.
 
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
+
 ## Controls for managing Teams apps that work on Outlook and the Microsoft 365 Copilot application
 
 As an admin, you can manage Teams apps that work on Outlook and the Microsoft 365 Copilot application in your organization as follows:
@@ -51,7 +53,7 @@ As an admin, you can manage Teams apps that work on Outlook and the Microsoft 36
 2. Manage how users can install and use these apps on Outlook and the Microsoft 365 Copilot application.
 3. Upload custom apps for your organization.
 
-## Deploy a Teams app that works on Outlook and the Microsoft 365 Copilot application via the the integrated apps portal
+## Deploy a Teams app that works on Outlook and the Microsoft 365 Copilot application via the integrated apps portal
 
 As an admin, you can now deploy these apps on Outlook, and the Microsoft 365 Copilot application to a specific set of users, the entire organization, or just to yourself from the integrated apps portal on Microsoft 365 admin center. Deploying an app means that it is preinstalled for the selected users on the applicable hosts of the app.
 

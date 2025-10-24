@@ -46,8 +46,6 @@ items:
       items: 
       - name: Set up targeted communications
         href: set-up-targeted-communications.md 
-      - name: Deploy Shifts at scale
-        href: deploy-shifts-at-scale.md
     - name: Configure Teams settings for frontline workers
       items: 
       - name: Tailor Teams apps for your frontline workers
