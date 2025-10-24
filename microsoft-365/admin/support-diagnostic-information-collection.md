@@ -59,17 +59,11 @@ Activity performed on a customer tenant is available under Microsoft Entra audit
 
 The following table describes log entries that are created.
 
-| Scenario | Audit log entries |
+| Scenario | Audit log details |
 |--|--|
-| A support case is created and cross-tenant access is granted | Two entries: <br/>- One showing the creation of a cross-tenant access policy; and <br/>- One showing the creation of a role assignment |
-| A support engineer signs in to investigate and troubleshoot an issue | One entry ach time a support engineer signs in |
-| Access is removed | Two entries: <br/>- One showing the removal of the cross-tenant access policy; and <br/>- One showing the removal of the role assignment |
-
-Audit log entries are listed in these categories:
-
-- `Policy`
-- `CrossTenantAccessSettings`
-- `DelegatedAdminServiceProviderConstraints`
+| A support case is created and cross-tenant access is granted | **Activity type**: Add a partner to cross-tenant access setting<br/>**Category**: `CrossTenantAccessSettings`<br/>**Initiated by (actor)**: <br/>- **Type**: Application <br/>- **Display Name**: `EntraGDAP`<br/><br/>**Activity Type**: Adding allowed assignable roles<br/>**Category**: `DelegatedAdminServiceProviderConstraints`<br/>**Initiated by (actor)**: <br/>- **Type**: Application <br/>- **Display Name**: `EntraGDAP`<br/><br/>**Activity Type**: Update a partner cross-tenant access setting<br/>**Category**: `CrossTenantAccessSettings`<br/>**Initiated by (actor)**: <br/>- **Type**: Application <br/>- **Display Name**: `EntraGDAP` |
+| A support engineer signs in to investigate and troubleshoot an issue | An entry each time a support engineer signs in <br/>Audit log of diagnostics that involve operations<br/><br/>**Initiated by (actor)**:<br/>- **Type**: Application<br/>- **Display Name**: `AssistAPI`  |
+| Access is removed | **Activity type**: Deleting allowed assignable roles<br/>**Category**: `DelegatedAdminServiceProviderConstraints` **Initiated by (actor)**: <br/>- **Type**: Application <br/>- **Display Name**: `EntraGDAP`<br/><br/>**Activity type**: Delete partner specific cross-tenant access setting<br/>**Category**: `CrossTenantAccessSettings`<br/>**Initiated by (actor)**: <br/>- **Type**: Application <br/>- **Display Name**: `EntraGDAP` |
 
 ## Learn more about audit logs
 
