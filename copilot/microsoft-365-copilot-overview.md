@@ -7,7 +7,7 @@ ms.author: efrene
 author: Efrene
 ms.update-cycle: 180-days
 manager: scotv
-ms.date: 08/27/2025
+ms.date: 10/22/2025
 audience: Admin
 ms.reviewer: mandia
 ms.topic: overview
@@ -40,7 +40,7 @@ appliesto:
 > - [Understanding foundation model changes in Microsoft 365 Copilot](https://techcommunity.microsoft.com/blog/microsoft_365blog/understanding-foundation-model-changes-in-microsoft-365-copilot/4440322)
 
 > [!NOTE]
-> Microsoft 365 Copilot is adding Anthropic's Claude AI models as an optional supporting LLM. User's can try Claude with their Copilot prompts by selecting Try Claude button in the Microsoft 365 Copilot app.
+> Microsoft 365 Copilot is adding Anthropic's Claude AI models as an optional supporting LLM. Users can try Claude with their Copilot prompts by selecting the **Try Claude** button in the Microsoft 365 Copilot app.
 >
 > Claude is not yet available in [Microsoft 365 Copilot GCC](https://adoption.microsoft.com/copilot/gcc/).
 >
