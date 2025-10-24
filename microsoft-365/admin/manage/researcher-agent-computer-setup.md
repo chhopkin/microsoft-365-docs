@@ -38,9 +38,9 @@ Follow these instructions to configure admin settings for Researcher Agent with 
 
     a. There are 3 options for configuring who has access to the experience-
 
-        i. Allow for all users in your organization
-        ii. Allow for specific users or groups only
-        iii. No users in your organization
+    - Allow for all users in your organization
+    - Allow for specific users or groups only
+    - No users in your organization
 
 :::image type="content" source="../../media/agents/computer-use-enabled.png" alt-text="Screenshot showing the Computer use option enabled in Researcher Agent." lightbox="../../media/agents/computer-use-enabled.png":::
 
@@ -66,9 +66,9 @@ Follow these instructions to configure admin settings for Researcher Agent with 
 
     a. There are 3 options for configuring websites the virtual device can access-
 
-        i. All websites
-        ii. Allow specific URLs or domains only
-        iii. Exclude specific URLs or domains
+    - All websites
+    - Allow specific URLs or domains only
+    - Exclude specific URLs or domains
 
     b. You can allow "All websites", block some with the "Exclude specified" option, or only allow certain sites with the "Allow specified" option.
 
