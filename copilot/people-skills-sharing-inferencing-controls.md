@@ -71,11 +71,11 @@ The four features for People Skills described above map to the below, and are al
 
 The Policy Modes supported for each feature map to the following PowerShell commands.
 
-- **HardDisable**: Is controlled by setting the PowerShell property **-IsFeatureEnabled $false**. 
+- **HardDisable**: The feature is disabled, users do not have the ability to opt-in or opt-out. This is controlled by setting the PowerShell property **-IsFeatureEnabled $false**. 
 
-- **SoftDisable**: Is controlled by setting the PowerShell properties **-IsFeatureEnabled $true -IsUserControlEnabled $true -IsUserOptedInByDefault $false**
+- **SoftDisable**: The user is opted-out by default. This is controlled by setting the PowerShell properties **-IsFeatureEnabled $true -IsUserControlEnabled $true -IsUserOptedInByDefault $false**
 
-- **SoftEnable**: Is controlled by setting the PowerShell properties **-IsFeatureEnabled $true -IsUserControlEnabled $true -IsUserOptedInByDefault $true**
+- **SoftEnable**: The user is opted-in by default. This is controlled by setting the PowerShell properties **-IsFeatureEnabled $true -IsUserControlEnabled $true -IsUserOptedInByDefault $true**
 
 ## Manage skills AI inferencing
 
