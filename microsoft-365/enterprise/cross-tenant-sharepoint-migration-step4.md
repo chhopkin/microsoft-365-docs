@@ -64,7 +64,7 @@ To ensure that SharePoint permissions are retained as part of the migration, a m
 
 [Install the Microsoft Graph PowerShell SDK](/powershell/microsoftgraph/installation)
 
-2. Sign in to the Microsoft Graph Management Shell as an Microsoft 365 admin. Enter the password for target tenant when prompted.
+2. Sign in to the Microsoft Graph Management Shell as an Microsoft 365 admin with rights to make changes with graph. Enter the password for target tenant when prompted.
 
     ```PowerShell
     Connect-MgGraph -Scopes "User.ReadWrite.All"
