@@ -77,6 +77,9 @@ The Policy Modes supported for each feature map to the following PowerShell comm
 
 - **SoftEnable**: The user is opted-in by default. This is controlled by setting the PowerShell properties **-IsFeatureEnabled $true -IsUserControlEnabled $true -IsUserOptedInByDefault $true**
 
+> [!IMPORTANT]
+> Make sure you have Exchange PowerShell version 3.8.0 or later if you plan to SoftDisable or SoftEnable, as property IsUserOptedInByDefault is only available on the newer module versions.
+
 ## Manage skills AI inferencing
 
 Select **Skill inferencing by AI** under **Settings** to see details about the AI inferencing settings. People Skills provides access controls using [Feature Access Management](/viva/feature-access-management) to ensure you comply with user privacy and local regulations.
