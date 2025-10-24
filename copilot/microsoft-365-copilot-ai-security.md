@@ -1,7 +1,7 @@
 ---
 title: Security for Microsoft 365 Copilot
 f1.keywords: NOCSH
-ms.author: georgerozo
+ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 ms.reviewer: georgerozo
