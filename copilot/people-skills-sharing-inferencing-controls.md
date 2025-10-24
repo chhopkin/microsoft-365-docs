@@ -59,7 +59,7 @@ The following sections will walk you through on how to set up each of the contro
 
 ## People Skills Controls to Feature Access Policies Overview
 
-The four features for People Skills described above map to the below, and are all available to be set the **tenant**, **group**, and **user** scopes.
+The four features for People Skills described above map to the below, and are all available to be set for the **tenant**, **group**, and **user** scopes.
 
 | ModuleId | FeatureId | Policy Modes | Parent Feature | 
 | --- | ---- | ------ | ---- |
