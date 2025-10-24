@@ -55,15 +55,13 @@ Microsoft retains diagnostic data for up to 28 days after it's collected. After 
 
 ## Where is support activity on a customer tenant logged?
 
-Activity performed on a customer tenant is available under Microsoft Entra audit logs. 
-
-The following table describes log entries that are created.
+Activity performed on a customer tenant is available under Microsoft Entra audit logs. The following table describes log entries that are created.
 
 | Scenario | Audit log details |
 |--|--|
-| A support case is created and cross-tenant access is granted | **Activity type**: Add a partner to cross-tenant access setting<br/>**Category**: `CrossTenantAccessSettings`<br/>**Initiated by (actor)**: <br/>- **Type**: Application <br/>- **Display Name**: `EntraGDAP`<br/><br/>**Activity Type**: Adding allowed assignable roles<br/>**Category**: `DelegatedAdminServiceProviderConstraints`<br/>**Initiated by (actor)**: <br/>- **Type**: Application <br/>- **Display Name**: `EntraGDAP`<br/><br/>**Activity Type**: Update a partner cross-tenant access setting<br/>**Category**: `CrossTenantAccessSettings`<br/>**Initiated by (actor)**: <br/>- **Type**: Application <br/>- **Display Name**: `EntraGDAP` |
-| A support engineer signs in to investigate and troubleshoot an issue | An entry each time a support engineer signs in <br/>Audit log of diagnostics that involve operations<br/><br/>**Initiated by (actor)**:<br/>- **Type**: Application<br/>- **Display Name**: `AssistAPI`  |
-| Access is removed | **Activity type**: Deleting allowed assignable roles<br/>**Category**: `DelegatedAdminServiceProviderConstraints` **Initiated by (actor)**: <br/>- **Type**: Application <br/>- **Display Name**: `EntraGDAP`<br/><br/>**Activity type**: Delete partner specific cross-tenant access setting<br/>**Category**: `CrossTenantAccessSettings`<br/>**Initiated by (actor)**: <br/>- **Type**: Application <br/>- **Display Name**: `EntraGDAP` |
+| A support case is created and cross-tenant access is granted | **Activity type**: Add a partner to cross-tenant access setting<br/>**Category**: `CrossTenantAccessSettings`<br/>**Initiated by (actor)**: <br/>- **Type**: `Application` <br/>- **Display Name**: `EntraGDAP`<br/><br/>**Activity Type**: Adding allowed assignable roles<br/>**Category**: `DelegatedAdminServiceProviderConstraints`<br/>**Initiated by (actor)**: <br/>- **Type**: Application <br/>- **Display Name**: `EntraGDAP`<br/><br/>**Activity Type**: Update a partner cross-tenant access setting<br/>**Category**: `CrossTenantAccessSettings`<br/>**Initiated by (actor)**: <br/>- **Type**: `Application` <br/>- **Display Name**: `EntraGDAP` |
+| A support engineer signs in to investigate and troubleshoot an issue | An entry each time: <br/>- A support engineer signs in <br/>- Diagnostics that involve operations are run<br/><br/>**Initiated by (actor)**:<br/>- **Type**: `Application`<br/>- **Display Name**: `AssistAPI`  |
+| Access is removed | **Activity type**: Delete allowed assignable roles<br/>**Category**: `DelegatedAdminServiceProviderConstraints` **Initiated by (actor)**: <br/>- **Type**: `Application` <br/>- **Display Name**: `EntraGDAP`<br/><br/>**Activity type**: Delete partner specific cross-tenant access setting<br/>**Category**: `CrossTenantAccessSettings`<br/>**Initiated by (actor)**: <br/>- **Type**: `Application` <br/>- **Display Name**: `EntraGDAP` |
 
 ## Learn more about audit logs
 
