@@ -18,7 +18,7 @@ description: Learn how to submit Microsoft 365 Copilot agents to the Microsoft C
 
 # Submit Microsoft 365 Copilot agents to the Microsoft Commercial Marketplace
 
-To publish your agent, you can submit it to the Microsoft Teams Store inside Microsoft Teams. Apps published to the Teams Store are automatically listed on the [Microsoft Commercial Marketplace](https://appsource.microsoft.com/). 
+The Microsoft commercial marketplace is a platform that enables customers to discover, purchase, and deploy cutting-edge cloud solutions and services tailored to drive their business outcomes.
 
 :::image type="content"  source="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-appsource.png" alt-text="Screenshot Microsoft AppSource."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-appsource.png":::
 
@@ -27,6 +27,6 @@ Use the [Microsoft 365 Agents Toolkit](https://aka.ms/M365AgentsToolkit) suite o
 > [!NOTE]
 > Only declarative and custom agents built with the [Microsoft 365 Agents Toolkit](https://aka.ms/M365AgentsToolkit) suite of tools can be submitted to Microsoft Commercial Marketplace. 
 
-For more information about submitting your agent to the Microsoft Commercial Marketplace, see [Publish your app to the Teams Store](/microsoftteams/platform/concepts/deploy-and-publish/appsource/publish).
+For more information about submitting your agent to the Microsoft Commercial Marketplace, see [Publish your app to the Teams Store](/microsoftteams/platform/concepts/deploy-and-publish/appsource/publish) and [Publish agents for Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/publish).
 
 

@@ -31,5 +31,5 @@ To enable sideloading for your organization:
 2. Select **Teams apps** > **Setup policies** > **Global (Org-wide default)**.
 3. Enable sideloading by setting **Upload custom apps** to **On**.
 
-Once you have enabled sideloading for your organization, members of your organization can upload the agent zip file. For more information, see [Deploy agents via ZIP package](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-publish#deploy-agents-via-zip-package).
+Once you have enabled sideloading for your organization, members of your organization can upload agent zip files. For more information, see [Deploy agents via ZIP package](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-publish#deploy-agents-via-zip-package).
 

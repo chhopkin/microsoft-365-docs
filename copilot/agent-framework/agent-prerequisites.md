@@ -51,4 +51,4 @@ Confirm your admin permissions:
 > [!NOTE]
 > To view the assigned members of the different roles in your tenant, you can select **Roles** > **Role assignments** > *select the role* > **Assigned**.
 
-For more information about roles, see [admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
+For more information about roles, see [admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles) and [Understanding Permissions](/microsoft-365/admin/manage/manage-agents-permissions).
