@@ -106,7 +106,16 @@ Use the following settings to manage agents for Copilot:
 - **Requested agents**: Review user-submitted agent requests. You can:
   - View all pending requests
   - Act on requests (for example, Publish pending, Update pending)
-- **Sharing control for Agent builder agents**: After creating an agent in Copilot Studio (lite), users today get an option to share with "Anyone in the organization" or specific user groups. This feature allows admins to control the "Anyone in the organization" sharing option. Admins can disable it for all users, no users, or a selected group. Users can still share with specific users and groups.
+
+### Sharing control for Agent builder agents
+
+After creating an agent in Copilot Studio (lite), users today get an option to share with "Anyone in the organization" or specific user groups.
+
+:::image type="content" source="../../media/agents/copilot-studio-share-feature.png" alt-text="Screenshot showing the option option to share with anyone in the organization or specific user groups." lightbox="../../media/agents/copilot-studio-share-feature.png":::
+
+This feature allows admins to control the "Anyone in the organization" sharing option. Admins can disable it for all users, no users, or a selected group. Users can still share with specific users and groups.
+
+:::image type="content" source="../../media/agents/copilot-studio-share-specific-group.png" alt-text="Screenshot showing the the control to disable the anyone in the organization option for all, none, some users." lightbox="../../media/agents/copilot-studio-share-specific-group.png":::
 
 ### Manage access to Copilot agents
 
