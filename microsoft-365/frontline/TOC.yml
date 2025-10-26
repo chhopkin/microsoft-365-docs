@@ -30,6 +30,11 @@ items:
       items: 
       - name: Set up Microsoft 365 and related services
         href: flw-setup-microsoft-365.md
+      - name: Start a pilot for your frontline workers
+        href: startafrontlinepilot.md
+        displayName: chat, chats, channel, channels, team, teams, shift, shifts,
+          walkie-talkie, planner, task, tasks, community, communities, viva, engage,
+          dashboard, home
       - name: Choosing between dynamic and static frontline teams
         href: frontline-team-options.md
       - name: Deploy frontline teams with flexible membership
