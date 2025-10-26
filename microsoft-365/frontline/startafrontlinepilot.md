@@ -55,9 +55,12 @@ What training and orientation information you need to provide to users before, d
 
 ![L1 - Frontline Hub](media/startafrontlinepilot/l1---frontline-hub.jpg)
 
-2. When you click __Start a pilot__, you enter the pilot setup wizard where you are first asked to select the capabilities you would like to include in your pilot. Based on your selections, the apps under the “You will get” list are pinned on the Teams app bar for your tailored pilot experience. “Available apps” lists apps that are not pinned unless you select them. To learn more about specific capabilities, click on the app you would like to learn more about on the “You will get” or “Available Apps” lists. After completing this wizard, you can continue to configure, modify, and pin more apps to your pilot.
+1. When you click __Start a pilot__, you enter the pilot setup wizard where you are first asked to select the capabilities you would like to include in your pilot. Based on your selections, the apps under the “You will get” list are pinned on the Teams app bar for your tailored pilot experience. “Available apps” lists apps that are not pinned unless you select them. To learn more about specific capabilities, click on the app you would like to learn more about on the “You will get” or “Available Apps” lists. After completing this wizard, you can continue to configure, modify, and pin more apps to your pilot.
 
-__IMPORTANT:__ All members of a pilot have access to Chat and become part of a team. You can add more Channels to the pilot team after completing this wizard. ![Pilot_Select capabilities (3)](media/startafrontlinepilot/pilot-select-capabilities-(3).jpg)
+> [!IMPORTANT]
+> All members of a pilot have access to Chat and become part of a team. You can add more Channels to the pilot team after completing this wizard. 
+
+![Pilot_Select capabilities (3)](media/startafrontlinepilot/pilot-select-capabilities-(3).jpg)
 
 3. Next, add users to the pilot by clicking __Add members__ or __Add__ on the table. For best results, we recommend adding frontline workers who work on the same team to truly assess which capabilities work best for collaboration.
 
@@ -79,7 +82,8 @@ __IMPORTANT:__ All members of a pilot have access to Chat and become part of a t
 
 View, manage, and start new pilots in the Manage frontline teams tab. Now that you have initiated the pilot, managing your pilot allows you to add purpose-built channels to your pilot team, set up your preferred app pinning policy, configure apps like Connections - Home or Engage Communities, and more.
 
-__IMPORTANT:__ You can start up to 5 pilots. Once you hit this limit, you must delete a pilot to start a new one.
+> [!IMPORTANT]
+> You can start up to 5 pilots. Once you hit this limit, you must delete a pilot to start a new one.
 
 ![Manage Frontline Teams_Pilots (1)](media/startafrontlinepilot/manage-frontline-teams-pilots-(1).jpg)
 
@@ -133,7 +137,8 @@ By default, your frontline workers see a “General” channel which cannot be d
 
 - To delete a channel, click on the channel and click __Delete__ at the top of the table.
 
-__IMPORTANT:__ Admins can only add standard channels to the pilot in the Teams admin center. Owners of the pilot can add standard, private, and shared channels through the Teams client. On the Teams admin center, admins only see the standard channels they create.
+> [!IMPORTANT]
+> Admins can only add standard channels to the pilot in the Teams admin center. Owners of the pilot can add standard, private, and shared channels through the Teams client. On the Teams admin center, admins only see the standard channels they create.
 
 ![Deployment](media/startafrontlinepilot/deployment2.jpg)
 
@@ -183,8 +188,9 @@ Measure adoption of the capabilities you selected for your pilot in the **Usage 
 
 Here, you see a bar graph of the total number of active users using Chat, Channels, and Walkie Talkie across all your pilots during your specified date range. On the table below, you see the number of active Chat users, active Teams users, total chat messages, total channel posts, and active Walkie Talkie users per pilot.
 
-**Note:** Usage data for Shifts, Tasks, Engage Communities, Connections Home, will be coming soon to this dashboard.
-
+> [!NOTE]
+>  Usage data for Shifts, Tasks, Engage Communities, Connections Home, will be coming soon to this dashboard.
+> 
 ![Usage insights_Admin docs_10.21](media/startafrontlinepilot/usage-insights-admin-docs-10.21.jpg)
 
 To help boost adoption, learn more about [enabling your frontline workers with Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/frontline-workers/).
