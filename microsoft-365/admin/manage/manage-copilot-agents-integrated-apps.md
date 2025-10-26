@@ -114,8 +114,6 @@ You can control how members of your organization access and install agents.
 > [!NOTE]
 > As the administrator, you should use discretion when managing individual agent’s distribution and costs.
 
-:::image type="content" source="../../media/agents/enable.png" alt-text="Screenshot showing the option to enable agents for all users in the organization." lightbox="../../media/agents/enable.png":::
-
 To manage access to Copilot agents, follow these steps:
 
 1. Open the Copilot Control System within [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
@@ -125,20 +123,20 @@ To manage access to Copilot agents, follow these steps:
 
 1. Select who can access agents within your organization.
 
-  The setting has three options:
+    The setting has three options:
     
-  - **All users**: This option is the default. It means that all users in the organization can access agents, subject to the existing app policies and user assignments.
-  - **No users**: This option means that no users in the organization can access agents, and the external agents are disabled in the agents flyout. This option also hides agents from the list of Available and Deployed apps on the Agents page.
-  - **Specific users/groups**: This option lets you select specific users or groups in your organization to have access to agents. While some users in your organization might have permissions to install and use *apps* from the **Available apps** and **Deployed apps** lists, only the users or groups you select in this setting can use *agents*.
+    - **All users**: This option is the default. It means that all users in the organization can access agents, subject to the existing app policies and user assignments.
+    - **No users**: This option means that no users in the organization can access agents, and the external agents are disabled in the agents flyout. This option also hides agents from the list of Available and Deployed apps on the Agents page.
+    - **Specific users/groups**: This option lets you select specific users or groups in your organization to have access to agents. While some users in your organization might have permissions to install and use *apps* from the **Available apps** and **Deployed apps** lists, only the users or groups you select in this setting can use *agents*.
 
-1. Choose which type of apps and agents are available to members of your tenant. You can choose apps and agents created by Microsoft, external publishers, and your organization. 
+1. Choose which type of apps and agents are available to members of your tenant. You can choose apps and agents created by Microsoft, external publishers, and your organization.
 
     > [!IMPORTANT]
     > Data processed by non-Microsoft services isn't subject to Microsoft agreements. Review the terms provided by third party agent publishers to make sure that you're familiar the agent’s data handling and privacy practices. In addition, consult your internal policies before allowing access.
 
 1. Select **Save** to update your Copilot agent settings for your tenant.
 
-###  Disable Copilot access
+### Disable Copilot access
 
 You can remove users from the Microsoft 365 Copilot sign-in page or restrict their access through the [Microsoft 365 Admin Center](https://admin.microsoft.com/).
 
