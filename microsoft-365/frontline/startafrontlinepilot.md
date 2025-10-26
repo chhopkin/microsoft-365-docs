@@ -200,11 +200,11 @@ __Q: What happens if a user is in 2 pilots with 2 different app policies?__ 
 
 __A:__ We do not recommend including a user or owner in multiple pilots. However, the user receives the app configuration of the pilot with the most recently updated configurations.
 
-__Q: What happens if the team owner adds a member or owner to the team from the Teams client? __
+__Q: What happens if the team owner adds a member or owner to the team from the Teams client?__
 
 __A:__ The user or owners added will adopt the pilot configuration. As an admin, you can see all added members and owners if you click on the pilot and click on the Members tab.
 
-__Q: Why if my pilot user or owner does not see the capabilities I selected in my pilot? __
+__Q: Why if my pilot user or owner does not see the capabilities I selected in my pilot?__
 
 __A:__ There are a few possible reasons.  
 
