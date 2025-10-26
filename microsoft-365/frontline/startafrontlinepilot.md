@@ -24,30 +24,20 @@ Over time, you can pin and configure more apps, change the order of pinned apps,
 ## Why start a pilot?
 
 Before you commit to a full rollout of Microsoft Teams for your entire frontline workforce, it's a good idea to try it out first with a small set of people in your organization. Starting with a pilot program first can help:
-
-Test Microsoft Teams features.
-
-Validate user readiness.
-
-Identify and mitigate issues.
-
-Ensure a successful, organization-wide rollout.
+- Test Microsoft Teams features.
+- Validate user readiness.
+- Identify and mitigate issues.
+- Ensure a successful, organization-wide rollout.
 
 For example, a pilot can help you determine:
-
-Whether the scenarios you identified match the business needs of your organization.
-
-What elements need to be modified or further customized for your organization.
-
-What training and orientation information you need to provide to users before, during, and after they start working with these new tools.
-
+- Whether the scenarios you identified match the business needs of your organization.
+- What elements need to be modified or further customized for your organization.
+- What training and orientation information you need to provide to users before, during, and after they start working with these new tools.
 ## Before you begin
 
 1. Ensure you are a Teams Admin or Global admin to have access to this tool in the Teams admin center.
-
-1. Determine which features you want to enable for your frontline workers.
-
-1. Define a set of users who you would like to start a pilot with. For best results, we recommend starting with a group of frontline workers and managers who work on the same team so you can truly assess which capabilities work best for frontline collaboration.
+2. Determine which features you want to enable for your frontline workers.
+3. Define a set of users who you would like to start a pilot with. For best results, we recommend starting with a group of frontline workers and managers who work on the same team so you can truly assess which capabilities work best for frontline collaboration.
 
 ## How it works 
 
@@ -55,7 +45,7 @@ What training and orientation information you need to provide to users before, d
 
 ![L1 - Frontline Hub](media/startafrontlinepilot/l1---frontline-hub.jpg)
 
-1. When you click __Start a pilot__, you enter the pilot setup wizard where you are first asked to select the capabilities you would like to include in your pilot. Based on your selections, the apps under the “You will get” list are pinned on the Teams app bar for your tailored pilot experience. “Available apps” lists apps that are not pinned unless you select them. To learn more about specific capabilities, click on the app you would like to learn more about on the “You will get” or “Available Apps” lists. After completing this wizard, you can continue to configure, modify, and pin more apps to your pilot.
+2. When you click __Start a pilot__, you enter the pilot setup wizard where you are first asked to select the capabilities you would like to include in your pilot. Based on your selections, the apps under the “You will get” list are pinned on the Teams app bar for your tailored pilot experience. “Available apps” lists apps that are not pinned unless you select them. To learn more about specific capabilities, click on the app you would like to learn more about on the “You will get” or “Available Apps” lists. After completing this wizard, you can continue to configure, modify, and pin more apps to your pilot.
 
 > [!IMPORTANT]
 > All members of a pilot have access to Chat and become part of a team. You can add more Channels to the pilot team after completing this wizard. 
