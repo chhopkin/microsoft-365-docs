@@ -1,9 +1,9 @@
 ---
 title: Networking up (to the cloud)—One architect's viewpoint
 description: Learn how to optimize your network for cloud connectivity by avoiding the most common pitfalls.
-ms.author: bcarter
-author: brendacarter
-manager: bcarter
+author: dansimp
+ms.author: dansimp
+manager: dansimp
 ms.date: 06/03/2020
 ms.audience: ITPro
 ms.topic: article

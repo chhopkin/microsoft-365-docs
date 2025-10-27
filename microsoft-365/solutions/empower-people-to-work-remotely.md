@@ -2,8 +2,8 @@
 title: "Set up your infrastructure for hybrid work with Microsoft 365"
 f1.keywords:
 - NOCSH
-author: brendacarter
-ms.author: bcarter
+author: dansimp
+ms.author: dansimp
 manager: dansimp
 ms.date: 04/22/2024
 audience: ITPro
@@ -25,7 +25,7 @@ description: Step through the layers of infrastructure so your hybrid workers ca
 
 # Set up your infrastructure for hybrid work with Microsoft 365
 
-To secure and optimize your worker’s productivity and collaboration, you need to allow on-site and remote workers to access your organization's on-premises and cloud-based information, tools, and resources easily and securely. This solution steps through the deployment of key layers of infrastructure that empower your workers to do their best work, wherever they are.
+To secure and optimize your worker's productivity and collaboration, you need to allow on-site and remote workers to access your organization's on-premises and cloud-based information, tools, and resources easily and securely. This solution steps through the deployment of key layers of infrastructure that empower your workers to do their best work, wherever they are.
 
 Hybrid workers can work on-site or remotely in a combination of locations. Allowing workers to work away from a traditional office is important for many organizations to:
 
@@ -79,7 +79,7 @@ To enable the capabilities of Microsoft 365 for your hybrid workers, use these M
 |MFA enforced with risk-based Conditional Access|Require MFA based on the risk of the user sign-in with Microsoft Entra ID Protection.|Microsoft 365 E5 or E3 with Microsoft Entra ID P2 licenses|
 |Self-Service Password Reset (SSPR)|Allow your users to reset or unlock their passwords or accounts.|Microsoft 365 E3 or E5|
 |Microsoft Entra application proxy|Provide secure remote access for web-based applications hosted on intranet servers.|Requires separate paid Azure subscription|
-|Azure Point-to-Site VPN|Create a secure connection from a remote worker’s device to your intranet through an Azure virtual network.|Requires separate paid Azure subscription|
+|Azure Point-to-Site VPN|Create a secure connection from a remote worker's device to your intranet through an Azure virtual network.|Requires separate paid Azure subscription|
 |Windows 365|Support remote workers who can only use their personal and unmanaged devices with Windows 365 Cloud PCs.|Requires separate paid Azure subscription|
 |Remote Desktop |Allow employees to connect into Windows-based computers on your intranet.|Microsoft 365 E3 or E5|
 |Remote Desktop Services Gateway|Encrypt communications and prevent the RDS hosts from being directly exposed to the Internet.|Requires separate Windows Server licenses|

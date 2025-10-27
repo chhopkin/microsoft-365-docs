@@ -1,7 +1,7 @@
 ---
 title: "Key compliance and security considerations for US banking and capital markets"
-ms.author: bcarter
-author: brendacarter
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: 11/13/2023
 audience: ITPro
