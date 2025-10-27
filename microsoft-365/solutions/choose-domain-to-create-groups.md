@@ -47,7 +47,7 @@ The following two scenarios explain how you would accomplish this configuration.
   
 ### Scenario 1
 
-The following example shows you how to provision all Microsoft 365 groups in your organization in the groups.contoso.com domain.
+The following example shows you how to provision all Microsoft 365 groups in your organization in the `groups.contoso.com` domain.
   
 ```
 New-EmailAddressPolicy -Name Groups -IncludeUnifiedGroupRecipients -EnabledEmailAddressTemplates "SMTP:@groups.contoso.com" -Priority 1
@@ -75,7 +75,7 @@ Let's say you want to control what subdomains Microsoft 365 groups are created i
   New-EmailAddressPolicy -Name OtherGroups -IncludeUnifiedGroupRecipients -EnabledPrimarySMTPAddressTemplate "SMTP:@groups.contoso.com" -Priority 3
   ```
 > [!NOTE]
-> This scenario does not work when the MX record points to third-party spam filtering.
+> This scenario doesn't work when the MX record points to third-party spam filtering.
  
 ## Change email address policies
 
