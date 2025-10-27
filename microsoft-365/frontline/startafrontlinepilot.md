@@ -47,14 +47,14 @@ For example, a pilot can help you determine:
 
 ![Frontline Hub](media/startafrontlinepilot/frontline-hub.jpg)
 
-1. Select the capabilities to include in your pilot. Apps under “You will get” are pinned to the Teams app bar; apps under “Available apps” are not pinned unless selected. Click on an app under either list to learn more about what the capability offers. After you complete the wizard, you can configure and pin additional apps.
+2. Select the capabilities to include in your pilot. Apps under “You will get” are pinned to the Teams app bar; apps under “Available apps” are not pinned unless selected. Click on an app under either list to learn more about what the capability offers. After you complete the wizard, you can configure and pin additional apps.
 
 > [!IMPORTANT]
 > All members of a pilot have access to Chat and are added to a team. You can add channels to the pilot team after you complete the wizard.
 
 ![Pilot Select Capabilities](media/startafrontlinepilot/pilot-select-capabilities.jpg)
 
-1. Add users by clicking __Add members__ or __Add__. For best results, include frontline workers and their managers who work on the same team.
+3. Add users by clicking __Add members__ or __Add__. For best results, include frontline workers and their managers who work on the same team.
 
 ![Pilot Add People](media/startafrontlinepilot/pilot-add-people.png)
 
@@ -62,11 +62,11 @@ For example, a pilot can help you determine:
 
 5. Add user(s) who should be owner(s) of your pilot. We recommend you include frontline managers, department heads, or any other senior staff as owners. Learn more about what [permissions are granted to Owners](https://support.microsoft.com/en-us/office/team-owner-member-and-guest-capabilities-in-microsoft-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
 
-1. Select __Deploy__ to launch the pilot. deployment can take up to 30 minutes.
+6. Select __Deploy__ to launch the pilot. deployment can take up to 30 minutes.
 
 ![Pilot Add pilot details](media/startafrontlinepilot/pilot-add-pilot-details.png)
 
-1. Share the download link or QR code to your pilot members and owners. After they sign in, users see the pilot experience with your pinned apps. Communicate the pilot goals and provide devices and training as needed.
+7. Share the download link or QR code to your pilot members and owners. After they sign in, users see the pilot experience with your pinned apps. Communicate the pilot goals and provide devices and training as needed.
 
 ![Pilot Summary](media/startafrontlinepilot/pilot-summary.jpg)
 
@@ -211,7 +211,7 @@ __A:__ Possible causes and fixes:
 
 1. Direct user app setup policy assignment takes precedence over a group policy. **Fix:** Remove the direct user assignment. 
 
-1. Group policy ranking changed. **Fix:** On the app setup page, ensure the pilot group policy has a rank of **1**.
+2. Group policy ranking changed. **Fix:** On the app setup page, ensure the pilot group policy has a rank of **1**.
 
 __Q: What happens if a pilot user unpins an app which was pinned by the admin?__
 
