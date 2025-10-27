@@ -1,8 +1,8 @@
 ---
 title: Step 2. Optimal networking for your Microsoft 365 for enterprise tenants
-ms.author: kvice
-author: kelleyvice-msft
-manager: scotv
+ms.author: dansimp
+author: dansimp
+manager: dansimp
 ms.date: 03/24/2025
 audience: ITPro
 ms.topic: how-to
