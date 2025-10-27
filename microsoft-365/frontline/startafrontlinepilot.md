@@ -52,7 +52,7 @@ For example, a pilot can help you determine:
 > [!IMPORTANT]
 > All members of a pilot have access to Chat and are added to a team. You can add channels to the pilot team after you complete the wizard.
 
-    ![Pilot Select Capabilities](media/startafrontlinepilot/pilot-select-capabilities.jpg)
+![Pilot Select Capabilities](media/startafrontlinepilot/pilot-select-capabilities.jpg)
 
 3. Add users by clicking __Add members__ or __Add__. For best results, include frontline workers and their managers who work on the same team.
 
