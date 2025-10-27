@@ -1,4 +1,6 @@
 items:
+- name: Introduction to Employee Self-Service agent
+  href: ess-introduction.md
 - name: Overview of the Employee Self-Service agent
   href: overview.md
 - name: Deploy the Employee Self-Service agent
