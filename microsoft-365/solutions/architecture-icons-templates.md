@@ -6,7 +6,7 @@ author: samanro
 manager: bcarter
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: medium
 ms.custom: 
 f1.keywords: NOCSH
