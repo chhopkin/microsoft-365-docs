@@ -93,14 +93,14 @@ items:
     href: connect-to-ai-models.md    
   - name: Multiple account access for work and school documents
     href: multiple-account-access.md
-  - name: Manage prompts
+  - name: Export prompts from Copilot Prompt Gallery
+    href: copilot-prompt-gallery-export-prompts.md
+  - name: Scheduled prompts
     items:
-    - name: Scheduled prompts
+    - name: Manage scheduled prompts
       href: scheduled-prompts.md
     - name: Microsoft 365 environment for scheduled prompts
       href: scheduled-prompts-environment.md
-    - name: Export prompts from Copilot Prompt Gallery
-      href: copilot-prompt-gallery-export-prompts.md
     - name: Inventory scheduled prompts
       href: scheduled-prompts-inventory.md
   - name: People Skills
