@@ -1,9 +1,9 @@
 ---
 title: Microsoft 365 Enterprise architecture design principles
 description: "Learn about Microsoft 365 Enterprise architecture design principles from experts in identity, cybersecurity, and networking."
-ms.author: samanro
-author: samanro
-manager: bcarter
+ms.author: dansimp
+author: dansimp    
+manager: dansimp
 ms.audience: ITPro
 ms.topic: article
 ms.service: m365-planning
