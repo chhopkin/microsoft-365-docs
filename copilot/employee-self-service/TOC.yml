@@ -32,6 +32,22 @@ items:
       items:
         - name: Workday reports
           href: workday-reports.md
+        - name: Workday user context reports
+          href: workday-reports-user-context.md
+        - name: Workday sort reports
+          href: workday-reports-context-sort.md
+        - name: Workday filter reports
+          href: workday-reports-context-filter.md
+        - name: Workday supfilter reports
+          href: workday-reports-context-subfilter.md
+        - name: Workday prompts reports
+          href: workday-reports-context-prompts.md
+        - name: Workday output reports
+          href: workday-reports-context-output.md
+        - name: Workday share reports
+          href: workday-reports-context-share.md
+        - name: Workday advanced reports
+          href: workday-reports-context-advanced.md
 - name: Usage analytics for the Employee Self-Service agent
   href: usage-analytics.md
 - name: Known issues and limitations
