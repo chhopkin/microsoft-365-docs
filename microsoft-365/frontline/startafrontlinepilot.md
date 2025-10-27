@@ -60,7 +60,7 @@ For example, a pilot can help you determine:
 
 4. Give your pilot a name and an optional description.
 
-5. Add user(s) who should be owner(s) of your pilot. We recommend you include frontline managers, department heads, or any other senior staff as owners. Learn more about what [permissions are granted to Owners](https://support.microsoft.com/en-us/office/team-owner-member-and-guest-capabilities-in-microsoft-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
+5. Add user(s) who should be owner(s) of your pilot. We recommend you include frontline managers, department heads, or any other senior staff as owners. Learn more about what [permissions are granted to Owners](https://support.microsoft.com/office/team-owner-member-and-guest-capabilities-in-microsoft-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
 
 6. Select __Deploy__ to launch the pilot. deployment can take up to 30 minutes.
 
