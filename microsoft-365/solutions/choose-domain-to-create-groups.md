@@ -32,18 +32,18 @@ Before you can run the PowerShell cmdlets, download and install a module that le
 
 ## Example scenarios
 
-Let's say your business's main domain is `Contoso.com`. But your organization's default accepted domain is `service.contoso.com`. This means groups are created in `service.contoso.com` (for example, `jimsteam@service.contoso.com`).
+Let's say your business's main domain is `Contoso.com`. But your organization's default accepted domain is `service.contoso.com`. This means that groups are created in `service.contoso.com` (for example, `jimsteam@service.contoso.com`).
   
-Let's say you also have sub-domains configured in your organization. You want groups to be created in these domains, too:
+Let's say you also have subdomains configured in your organization. You want groups to be created in these domains, too:
 
 - `students.contoso.com` for students
 
 - `faculty.contoso.com` for faculty members
 
-The following two scenarios explain how you would accomplish this.
+The following two scenarios explain how you would accomplish this configuration.
 
 > [!NOTE]
-> When you have multiple EAPs, they are evaluated in the order of priority. A value of 1 means the highest priority. Once an EAP matches, no further EAP is evaluated and addresses that gets stamped on the group are as per the matched EAP. > If no EAPs match the specified criteria, then the group gets provisioned in the organization's default accepted domain. Check out [Manage accepted domains in Exchange Online](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) for details on how to add an accepted domain.
+> When you have multiple EAPs, they're evaluated in the order of priority. A value of 1 means the highest priority. Once an EAP matches, no further EAP is evaluated and addresses that gets stamped on the group are as per the matched EAP. > If no EAPs match the specified criteria, then the group gets provisioned in the organization's default accepted domain. Check out [Manage accepted domains in Exchange Online](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) for details on how to add an accepted domain.
   
 ### Scenario 1
 
@@ -55,21 +55,21 @@ New-EmailAddressPolicy -Name Groups -IncludeUnifiedGroupRecipients -EnabledEmail
 
 ### Scenario 2
 
-Let's say you want to control what sub-domains Microsoft 365 groups are created in. You want:
-  
-- Groups created by students (users which have **Department** set to **Students**) in the students.groups.contoso.com domain. Use this command:
-    
+Let's say you want to control what subdomains Microsoft 365 groups are created in. You want:
+
+- Groups created by students (users who have **Department** set to **Students**) in the `students.groups.contoso.com` domain. Use this command:
+
   ```
   New-EmailAddressPolicy -Name StudentsGroups -IncludeUnifiedGroupRecipients -EnabledEmailAddressTemplates "SMTP:@students.groups.contoso.com","smtp:@groups.contoso.com" -ManagedByFilter {Department -eq 'Students'} -Priority 1
   ```
 
-- Groups created by faculty members (users which have **Department** set to **Faculty or email address contains faculty.contoso.com)**) in the faculty.groups.contoso.com domain. Use this command:
+- Groups created by faculty members (users who have **Department** set to **Faculty** or email address contains `faculty.contoso.com`) in the `faculty.groups.contoso.com` domain. Use this command:
     
   ```
   New-EmailAddressPolicy -Name FacultyGroups -IncludeUnifiedGroupRecipients -EnabledEmailAddressTemplates "SMTP:@faculty.groups.contoso.com","smtp:@groups.contoso.com" -ManagedByFilter {Department -eq 'Faculty' -or EmailAddresses -like "*faculty.contoso.com*"} -Priority 2
   ```
 
-- Groups created by anyone else are created in the groups.contoso.com domain. Use this command:
+- Groups created by anyone else are created in the `groups.contoso.com` domain. Use this command:
     
   ```
   New-EmailAddressPolicy -Name OtherGroups -IncludeUnifiedGroupRecipients -EnabledPrimarySMTPAddressTemplate "SMTP:@groups.contoso.com" -Priority 3
@@ -79,7 +79,7 @@ Let's say you want to control what sub-domains Microsoft 365 groups are created 
  
 ## Change email address policies
 
-To change the priority or email address templates for an existing EAP, use the Set-EmailAddressPolicy cmdlet.
+To change the priority or email address templates for an existing EAP, use the `Set-EmailAddressPolicy` cmdlet.
   
 ```
 Set-EmailAddressPolicy -Name StudentsGroups -EnabledEmailAddressTemplates "SMTP:@students.groups.contoso.com","smtp:@groups.contoso.com", "smtp:@students.contoso.com"
@@ -89,7 +89,7 @@ Changing an EAP has no impact on the groups that have already been provisioned.
   
 ## Delete email address policies
 
-To delete an EAP, use the Remove-EmailAddressPolicy cmdlet.
+To delete an EAP, use the `Remove-EmailAddressPolicy` cmdlet.
   
 ```
 Remove-EmailAddressPolicy -Identity StudentsGroups
