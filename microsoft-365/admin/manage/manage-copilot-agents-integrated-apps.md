@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 10/21/2025
+ms.date: 10/24/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -109,32 +109,41 @@ Use the following settings to manage agents for Copilot:
 
 ### Manage access to Copilot agents
 
-:::image type="content" source="../../media/agents/enable.png" alt-text="Screenshot showing the option to enable agents for all users in the organization." lightbox="../../media/agents/enable.png":::
+You can control how members of your organization access and install agents.
 
-You can manage access to Copilot agents for your organization by using a setting to control who can access agents in your organization.
+> [!NOTE]
+> As the administrator, you should use discretion when managing individual agent’s distribution and costs.
 
 To manage access to Copilot agents, follow these steps:
 
-1. Go to **Copilot** > **Settings** in the Microsoft 365 admin center.
-1. Select **Agents**.
-1. Choose your preferred setting.
+1. Open the Copilot Control System within [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
+1. Select **Copilot** > **Settings** > **Data access** > **Agents** to manage your organization’s agents.
 
-The setting has three options:
+    :::image type="content" source="../../media/agents/enable.png" alt-text="Screenshot showing the option to enable agents for all users in the organization." lightbox="../../media/agents/enable.png":::
 
-- **All users**: This option is the default. It means that all users in the organization can access agents, subject to the existing app policies and user assignments.
+1. Select who can access agents within your organization.
 
-- **No users**: This option means that no users in the organization can access agents, and the external agents are disabled in the agents flyout. This option also hides agents from the list of Available and Deployed apps on the Agents page.
+    The setting has three options:
+    
+    - **All users**: This option is the default. It means that all users in the organization can access agents, subject to the existing app policies and user assignments.
+    - **No users**: This option means that no users in the organization can access agents, and the external agents are disabled in the agents flyout. This option also hides agents from the list of Available and Deployed apps on the Agents page.
+    - **Specific users/groups**: This option lets you select specific users or groups in your organization to have access to agents. While some users in your organization might have permissions to install and use *apps* from the **Available apps** and **Deployed apps** lists, only the users or groups you select in this setting can use *agents*.
 
-- **Specific users/groups**: This option lets you select specific users or groups in your organization to have access to agents. While some users in your organization might have permissions to install and use *apps* from the **Available apps** and **Deployed apps** lists, only the users or groups you select in this setting can use *agents*.
+1. Choose which type of apps and agents are available to members of your tenant. You can choose apps and agents created by Microsoft, external publishers, and your organization.
+
+    > [!IMPORTANT]
+    > Data processed by non-Microsoft services isn't subject to Microsoft agreements. Review the terms provided by third party agent publishers to make sure that you're familiar the agent’s data handling and privacy practices. In addition, consult your internal policies before allowing access.
+
+1. Select **Save** to update your Copilot agent settings for your tenant.
+
+### Disable Copilot access
+
+You can remove users from the Microsoft 365 Copilot sign-in page or restrict their access through the [Microsoft 365 Admin Center](https://admin.microsoft.com/).
 
 > [!NOTE]
 > When you disable extensibility, users can't see the Microsoft pinned Visual Creator agent or the entry point for Copilot Studio (lite) in Copilot Chat. After you disable extensibility in the tenant, it can take up to 24 hours for agents to disappear for users and for Copilot Studio (lite) and Visual Creator to disappear.
 
-###  Disable Copilot access 
-
-You can remove users from the Microsoft 365 Copilot sign-in page or restrict their access through the [Microsoft 365 Admin Center](https://admin.microsoft.com/).
-
-After logging-in to the Admin Center,
+After logging-in to [Microsoft 365 admin center](https://admin.microsoft.com/),
 
 1. Navigate to **Settings** > **Organization Settings** > **Services** > **Copilot**
 
@@ -170,6 +179,9 @@ The following list describes the actions you can take to manage an agent for you
 
 The Microsoft 365 admin center publishing process for agents submitted through Copilot Studio ensures governance and quality of custom applications. It also reduces manual work by automating the submission of manifests, freeing developers and admins from tedious tasks. The simplified approval process reduces the time it takes for you to approve apps, making it easier for you to manage custom applications in the Microsoft 365 admin center.
 
+> [!NOTE]
+> Declarative agents built with SharePoint or Copilot Studio (lite) can’t be published to an organization catalog.
+
 The publishing process involves the following steps:
 
 1. Developers create and test agents in Copilot Studio, which provides a user-friendly interface for inputting the parameters and data for the applications.
@@ -189,6 +201,8 @@ The publishing process involves the following steps:
     :::image type="content" source="../../media/agents/publish.png" alt-text="Screenshot showing the pop-up window to publish an agent." lightbox="../../media/agents/publish.png":::
 
 1. If the developer publishes an update to an existing application, the update is available for approval and follows the same workflow as a new application. It shows in the **Pending approval** list with the status **Update pending**. Until you approve the update, the previous version of the application remains available to the users.
+
+For related information, see [Publish agents for Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/publish) and [Share and manage agents](/microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent).
 
 ### Deploy agents
 
