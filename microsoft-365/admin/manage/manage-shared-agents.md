@@ -52,7 +52,7 @@ To block or unblock shared agents in your organization, sign in with one of the 
 
 ## Methods to share an agent
 
-Members of your organization can share agents they create with others in your organization. However, the methods to share an agent depend on how the agent was created.
+Members of your organization can share agents they create with others in your organization. However, the methods to share an agent depend on how the agent was created. The shared agents listed in the agent inventory in the M365 admin center are shared from Copilot Studio (lite). However, the tool your organization's users, makers, and developers use to create an agent will allow different methods of sharing.
 
 The following table provides the different methods that can be used to share an agent:
 
@@ -60,7 +60,7 @@ The following table provides the different methods that can be used to share an 
 |---|---|
 | Share agents from SharePoint | Members of your organization can share declarative agents they created in SharePoint. These agents can only be shared in Microsoft Teams.  |
 | Share agents from Copilot Studio (lite) | Members of your organization can share declarative agents they created in Copilot Studio (lite). These agents can be shared in Microsoft Teams and the Microsoft Copilot app. |
-| Share Copilot agents and custom engine agents from Copilot Studio (full) | Members of your organization can share Copilot agents and custom engine agents they create in Copilot Studio (full). These agents can only be shared with a limited group at your organization. Sharing agents from Copilot Studio (full) is used for collaborative testing purposes. When the agent maker is ready, they can publish these agents for admin approval. This allows these agents to reach a wider internal audience from the organization catalog. |
+| Share Copilot agents and custom engine agents from Copilot Studio (full) | Members of your organization can share Copilot agents and custom engine agents they create in Copilot Studio (full). These agents can only be shared with a limited group at your organization. Sharing agents from Copilot Studio (full) is used for collaborative testing purposes. When the agent maker is ready, they can publish these agents for admin approval. The admin can see a list of requested angents in the M365 admin center and choose to **Publish** to your organizational catalog or **Reject** the agent. This method allows these agents to reach a wider internal audience when published to the organization catalog. |
 | Share agents created with Microsoft 365 Agents Toolkit | You can share and collaborate with members of your organization from your development environment. For more information, see [Publish your Microsoft Teams app](/microsoftteams/platform/concepts/deploy-and-publish/apps-publish-overview). |
 
 ## Block a shared agent
