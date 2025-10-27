@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: 05/01/2020
 audience: ITPro
 ms.topic: how-to
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: high
 ms.collection: 
 - highpri

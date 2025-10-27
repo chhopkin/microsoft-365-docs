@@ -7,7 +7,7 @@ ms.author: odocspr
 manager: jtremper
 audience: Admin
 ms.topic: article
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: medium
 ms.collection: 
 - highpri

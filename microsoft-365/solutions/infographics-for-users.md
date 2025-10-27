@@ -6,7 +6,7 @@ author: samanro
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.date: 09/22/2022
 ms.localizationpriority: medium
 ms.collection: 
