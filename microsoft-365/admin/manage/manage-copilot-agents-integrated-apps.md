@@ -254,9 +254,25 @@ Blocking or unblocking an agent created using Copilot Studio (lite) and Copilot 
 
 ## Agent inventory
 
-In Microsoft 365 admin center you can view your organization’s available agents and where members of your organization can find each agent based on supported functionality. The agent inventory is provided as a list. When you have several agents in your inventory, you can narrow the list based on different filters. Common filters include, **Type**, **Availability**, **Supported in**, and **Created in**.
+You can manage your organization’s available agents in the Copilot Control System (CCS) within [Microsoft 365 admin center](https://admin.microsoft.com/). The CCS allows you to configure agent settings, including the individual agents that you can manage and deploy to members of your organization. Also, you can determine where members of your organization can find each agent based on supported functionality. The agent inventory is provided as a list.
+
+Use the following steps to view your organization’s agent inventory:
+
+1. Open [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
+2. Select **Copilot** > **Agents**.
+3. Filter your agent inventory:
+    1. Next to **Filters**, select **Availability** > **All users**.
+    Note the **Support in** column to recognize where the agent can be used by members of your organization.
+    Clear all filters after reviewing the list.
+    2. Below Agent inventory, select Missing an owner.
+    Consider removing agents that no longer have an owner.
+    Clear all filters after reviewing the list.
+    3. Next to Filters, select Availability > No users.
+    Note which agents aren't available to members of your organization. Consider specifically deploying agents that your organization requires and blocking unneeded agents.
 
 ### Type filter
+
+When you have several agents in your inventory, you can narrow the list based on different filters. Common filters include, **Type**, **Availability**, **Supported in**, and **Created in**.
 
 The **Type** filter allows you to view agents based on the their creation method. The following list provides the different **Type** options:
 

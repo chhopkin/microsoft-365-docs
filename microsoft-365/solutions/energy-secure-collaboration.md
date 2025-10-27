@@ -1,7 +1,7 @@
 ---
 title: "Key Compliance and Security Considerations for the Energy Industry"
-ms.author: bcarter
-author: brendacarter
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: 1/26/2024
 audience: ITPro
@@ -11,7 +11,7 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 - M365-security-compliance
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: high
 description: Microsoft 365 helps energy organizations move to a modern collaboration platform, while helping keep data and systems secure and compliant with regulations.
 ms.custom: seo-marvel-jun2020
