@@ -1,7 +1,7 @@
 ---
 title: "Key Compliance and Security Considerations for the Energy Industry"
-ms.author: bcarter
-author: brendacarter
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: 1/26/2024
 audience: ITPro

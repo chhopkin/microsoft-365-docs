@@ -1,9 +1,9 @@
 ---
 title: Microsoft 365 infographics for users
 description: "Help users in your organization learn how to use Microsoft 365 and Microsoft Teams with these infographics."
-ms.author: samanro
-author: samanro
-manager: pamgreen
+author: dansimp
+ms.author: dansimp
+manager: dansimp
 audience: ITPro
 ms.topic: article
 ms.service: m365-planning
