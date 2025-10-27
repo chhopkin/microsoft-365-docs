@@ -1,6 +1,6 @@
 ---
 title: "Key compliance and security considerations for US banking and capital markets"
-ms.author: la
+ms.author: laurawi
 author: laurawi
 manager: laurawi
 ms.date: 11/13/2023
