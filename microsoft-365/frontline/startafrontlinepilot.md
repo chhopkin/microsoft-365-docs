@@ -45,18 +45,18 @@ For example, a pilot can help you determine:
 
 1. Go to the Teams admin center > Frontline management > **Frontline hub**, then select **Start a pilot** under Suggested actions.  Alternatively, choose __Start a new deployment__ on the top right corner and select __Start a pilot__.
 
-![Frontline Hub](media/startafrontlinepilot/frontline-hub.jpg)
+    ![Frontline Hub](media/startafrontlinepilot/frontline-hub.jpg)
 
 2. Select the capabilities to include in your pilot. Apps under “You will get” are pinned to the Teams app bar; apps under “Available apps” are not pinned unless selected. Click on an app under either list to learn more about what the capability offers. After you complete the wizard, you can configure and pin additional apps.
 
 > [!IMPORTANT]
 > All members of a pilot have access to Chat and are added to a team. You can add channels to the pilot team after you complete the wizard.
 
-![Pilot Select Capabilities](media/startafrontlinepilot/pilot-select-capabilities.jpg)
+    ![Pilot Select Capabilities](media/startafrontlinepilot/pilot-select-capabilities.jpg)
 
 3. Add users by clicking __Add members__ or __Add__. For best results, include frontline workers and their managers who work on the same team.
 
-![Pilot Add People](media/startafrontlinepilot/pilot-add-people.png)
+    ![Pilot Add People](media/startafrontlinepilot/pilot-add-people.png)
 
 4. Give your pilot a name and an optional description.
 
@@ -64,11 +64,11 @@ For example, a pilot can help you determine:
 
 6. Select __Deploy__ to launch the pilot. deployment can take up to 30 minutes.
 
-![Pilot Add pilot details](media/startafrontlinepilot/pilot-add-pilot-details.png)
+    ![Pilot Add pilot details](media/startafrontlinepilot/pilot-add-pilot-details.png)
 
 7. Share the download link or QR code to your pilot members and owners. After they sign in, users see the pilot experience with your pinned apps. Communicate the pilot goals and provide devices and training as needed.
 
-![Pilot Summary](media/startafrontlinepilot/pilot-summary.jpg)
+    ![Pilot Summary](media/startafrontlinepilot/pilot-summary.jpg)
 
 ## Manage your pilot 
 
