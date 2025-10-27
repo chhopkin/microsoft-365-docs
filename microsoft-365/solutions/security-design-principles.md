@@ -7,7 +7,7 @@ manager: bcarter
 ms.date: 05/01/2020
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: medium
 ms.collection:
 - highpri 

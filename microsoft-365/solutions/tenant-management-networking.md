@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 03/24/2025
 audience: ITPro
 ms.topic: how-to
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: medium
 ms.collection: 
 - highpri
