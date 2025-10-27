@@ -26,20 +26,20 @@ description: "Learn to choose the domain to use when creating Microsoft 365 grou
 
 Some organizations use separate email domains to segment different parts of their businesses. You can specify which domain should be used when your users create Microsoft 365 groups.
   
-If your organization needs users to create their groups in domains other than the default accepted domain of your business, you can allow this by configuring email address policies (EAPs) using PowerShell.
+If your organization needs users to create their groups in domains other than the default accepted domain of your business, you can allow this configuration by setting up email address policies (EAPs) using PowerShell.
 
-Before you can run the PowerShell cmdlets, download and install a module that will let you talk to your organization. Check out [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
+Before you can run the PowerShell cmdlets, download and install a module that lets you talk to your organization. Check out [Connect to Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell).
 
 ## Example scenarios
 
-Let's say your business's main domain is Contoso.com. But your organization's default accepted domain is service.contoso.com. This means groups will be created in service.contoso.com (for example, jimsteam@service.contoso.com).
+Let's say your business's main domain is `Contoso.com`. But your organization's default accepted domain is `service.contoso.com`. This means groups are created in `service.contoso.com` (for example, `jimsteam@service.contoso.com`).
   
 Let's say you also have sub-domains configured in your organization. You want groups to be created in these domains, too:
-  
-- students.contoso.com for students
-    
-- faculty.contoso.com for faculty members
-    
+
+- `students.contoso.com` for students
+
+- `faculty.contoso.com` for faculty members
+
 The following two scenarios explain how you would accomplish this.
 
 > [!NOTE]
