@@ -23,6 +23,6 @@ If you can't confirm the changes in this pull request are correct, click **Close
 
 ### Need help?
 
-If you need help, post a message to https://aka.ms/askanadmin.
+If you need help, post a message to [Trusted Content > General](https://teams.microsoft.com/l/channel/19%3A0rVEQfEKaFLYpOAxHoDvnc62RJNe1tKQ2gRFYLrm5kc1%40thread.tacv2/General?groupId=42b99b14-8a2d-4fe4-ae7e-76cfe6221f4a&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47).
 
 <sup>\*</sup> You must have write or triage access to this repo to add labels.
