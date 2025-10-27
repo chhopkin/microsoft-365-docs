@@ -1,9 +1,9 @@
 ---
 title: Microsoft 365 architecture diagram templates and icons
 description: "Create Microsoft 365 architecture diagrams in Visio with these icons, stencils, and templates."
-ms.author: samanro
-author: samanro
-manager: bcarter
+ms.author: dansimp
+author: dansimp
+manager: dansimp
 ms.audience: ITPro
 ms.topic: article
 ms.service: m365-planning
