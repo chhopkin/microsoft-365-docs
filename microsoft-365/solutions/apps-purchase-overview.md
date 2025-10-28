@@ -7,7 +7,7 @@ audience: ITPro
 ms.topic: article
 ms.date: 04/21/2025
 description: Understand how to purchase apps for Intune.
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: high
 ms.collection:
 - highpri
