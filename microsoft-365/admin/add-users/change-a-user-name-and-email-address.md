@@ -32,11 +32,13 @@ description: "Learn how you can change a user's email address and display name."
 
 Check out [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) on YouTube.
 
-As the admin of a Microsoft 365 organization, you might need to change someone's email address and display name if, for example, they get married and their family name changes.
+If you're Microsoft 365 admin for your organization, you might need to change someone's email address and display name if, for example, they get married and their family name changes.
 
 ## Before you begin
 
-You must be a [user administrator](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide#commonly-used-microsoft-365-admin-center-roles&preserve-view=true).
+You must have an appropriate role, such as [user administrator](/microsoft-365/admin/add-users/about-admin-roles#commonly-used-microsoft-365-admin-center-roles) to perform the tasks described in this article.
+
+
 
 ## Watch: Change a user's email address, display name or email alias
 
