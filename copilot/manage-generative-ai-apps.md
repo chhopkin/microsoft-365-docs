@@ -28,6 +28,11 @@ But what about non-Microsoft AI apps?
 
 Using capabilities in [Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai?tabs=m365) (part of Microsoft Purview) and/or [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps) (part of Microsoft Defender XDR), your security team can enable people in your organization to use generative AI apps more securely, including both Microsoft and non-Microsoft AI apps.
 
+This article describes how to:
+
+- [Use DSPM for AI to discover and manage AI app usage](#use-dspm-for-ai-to-discover-and-manage-ai-app-usage); and 
+- [Use Defender for Cloud Apps to discover, monitor, or block generative AI apps](#use-defender-for-cloud-apps-to-discover-monitor-or-block-generative-ai-apps)
+
 Discovering, monitoring, and managing AI apps is essential to prevent data leaks, maintain compliance, enforce governance, and uphold trust in enterprise AI adoption. This article describes how to perform these tasks using DSPM for AI and Defender for Cloud Apps.
 
 ## Before you begin
