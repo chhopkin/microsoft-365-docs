@@ -42,7 +42,7 @@ After you've saved and accessed all the former employee's user data, you can del
 
 3. Under the user's name, select **Delete user**. Choose the options you want for this user, and then select **Delete user**. If you've already given another user access to this user's email and OneDrive, you don't have to do it again here.
 
-When you delete a user, the account becomes inactive for approximately 30 days. You've until then to restore the account before it's permanently deleted.
+When you delete a user, the account becomes inactive for approximately 30 days. You have until then to restore the account before it's permanently deleted.
 
 ## Watch: Delete a former employee's user account
 
@@ -80,7 +80,7 @@ The above operations can be done in three places:
 
 **Fastest**: Use the Exchange admin center (use PowerShell) or Microsoft Entra admin center. In an on-premises environment, it can take several hours to sync the change through Microsoft Entra Connect.
   
-**Fastest for a user with presence on-premises and in the Exchange Datacenter**: Terminate the session using Microsoft Entra admin center/Exchange admin center AND make the change in the on-premises environment as well. Otherwise, the change in Microsoft Entra admin center/Exchange admin center will be overwritten by Microsoft Entra Connect.
+**Fastest for a user with presence on-premises and in the Exchange Datacenter**: Terminate the session using Microsoft Entra admin center/Exchange admin center AND make the change in the on-premises environment as well. Otherwise, the change in Microsoft Entra admin center/Exchange admin center is overwritten by Microsoft Entra Connect.
   
 ## Related content
 
