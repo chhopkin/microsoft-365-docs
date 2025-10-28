@@ -67,6 +67,8 @@ DSPM for AI provides your security and compliance team to discover AI activity, 
 
 ## Use Defender for Cloud Apps to discover, monitor, or block generative AI apps
 
+With Defender for Cloud Apps, you can discover, monitor, or block generative AI apps in your organization, as described in the following sections.
+
 ### Use the cloud app catalog to discover AI apps
 
 You can use the Microsoft Defender portal to see a list of AI apps your organization is using. Defender for Cloud Apps provides a catalog of apps with security and compliance risk scores.
