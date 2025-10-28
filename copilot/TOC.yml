@@ -3,6 +3,16 @@ items:
   href: index.yml
 - name: Copilot release notes
   href: release-notes.md
+- name: Copilot Control System
+  items:
+  - name: Copilot Control System overview
+    href: copilot-control-system/overview.md
+  - name: Security and governance
+    href: copilot-control-system/security-governance.md
+  - name: Management controls
+    href: copilot-control-system/management-controls.md
+  - name: Measurement and reporting
+    href: copilot-control-system/measurement-reporting.md
 - name: Get started with Microsoft 365 Copilot
   items:
   - name: What is Microsoft 365 Copilot?
@@ -30,6 +40,8 @@ items:
       href: microsoft-365-copilot-e5-guide.md
   - name: Blueprint to prevent oversharing
     href: microsoft-365-copilot-blueprint-oversharing.md
+  - name: Copilot Library
+    href: copilot-library.md
 - name: Deploy and enable Microsoft 365 Copilot
   items:
   - name: Adoption guide and overview
@@ -81,14 +93,14 @@ items:
     href: connect-to-ai-models.md    
   - name: Multiple account access for work and school documents
     href: multiple-account-access.md
-  - name: Manage prompts
+  - name: Export prompts from Copilot Prompt Gallery
+    href: copilot-prompt-gallery-export-prompts.md
+  - name: Scheduled prompts
     items:
-    - name: Scheduled prompts
+    - name: Manage scheduled prompts
       href: scheduled-prompts.md
     - name: Microsoft 365 environment for scheduled prompts
       href: scheduled-prompts-environment.md
-    - name: Export prompts from Copilot Prompt Gallery
-      href: copilot-prompt-gallery-export-prompts.md
     - name: Inventory scheduled prompts
       href: scheduled-prompts-inventory.md
   - name: People Skills
@@ -142,7 +154,7 @@ items:
   - name: Teams Rooms and Copilot overview
     href: /microsoftteams/rooms/copilot-admin-mtr?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fmicrosoft-365-copilot%2Fbreadcrumb%2Ftoc.json
   - name: Manage Copilot access for B2B members within multitenant organizations (MTO) in Teams
-    href: /microsoftteams/copilot-teams-multitenant-organization?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fmicrosoft-365-copilot%2Fbreadcrumb%2Ftoc.json
+    href: /microsoftteams/copilot-mto?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fmicrosoft-365-copilot%2Fbreadcrumb%2Ftoc.json
 - name: Microsoft 365 Copilot in Microsoft Viva
   items:
   - name: Introduction to Microsoft 365 Copilot in Viva
@@ -173,8 +185,10 @@ items:
     href: enterprise-data-protection.md
   - name: Transparency Note
     href: microsoft-365-copilot-transparency-note.md
-  - name: Flow Builder privacy and data subject request (DSR) FAQ
+  - name: Workflows agent privacy and data subject request (DSR) FAQ
     href: flow-builder-privacy-data-subject-request-faq.md
+  - name: App Builder privacy and data subject request (DSR) FAQ
+    href: app-builder-privacy-data-subject-request-faq.md
 - name: Extensibility and building agents
   items:
   - name: Extend Microsoft 365 Copilot
@@ -229,6 +243,8 @@ items:
     href: responsible-ai/responsible-ai-overview.md
   - name: FAQ for Copilot Tuning
     href: responsible-ai/copilot-tuning-responsible-ai-faq.md
-  - name: FAQ for Flow Builder
+  - name: FAQ for Workflows agent
     href: responsible-ai/flow-builder-responsible-ai-faq.md
+  - name: FAQ for App Builder
+    href: responsible-ai/faq-app-builder.md
 

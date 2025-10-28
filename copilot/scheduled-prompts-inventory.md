@@ -4,10 +4,10 @@ description: Learn how to inventory scheduled prompts in Microsoft 365 Copilot u
 #customer intent: As an admin, I want to inventory scheduled prompts in my organization so that I can manage them efficiently.
 f1.keywords:
 - NOCSH
-ms.author: aaroncz
-author: aczechowski
+ms.author: scotv
+author: scotv
 manager: scotv
-ms.date: 09/16/2025
+ms.date: 10/23/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
@@ -21,13 +21,13 @@ ms.collection:
 
 # Inventory for scheduled prompts
 
-Use PowerShell to inventory scheduled prompts created in your Microsoft 365 Copilot organization. These instructions help you connect to an admin account and efficiently view, list, or delete scheduled prompts.
+Use PowerShell to inventory scheduled prompts that users create in your Microsoft 365 Copilot organization. These instructions help you connect to an admin account and efficiently view, list, or delete scheduled prompts.
 
 ## Prerequisites
 
-To take inventory of scheduled prompts created by users in your organization, you need the following prerequisites:
+To take inventory of scheduled prompts that users create in your organization, you need the following prerequisites:
 
-- Assign the **Power Platform Administrator** role to your user in the Azure portal for the tenant on which you want to do operations.
+- Assign the **Power Platform Administrator** role to your user in the Azure portal for the tenant on which you want to perform operations.
 - Use [PowerShell v7.0](/powershell/scripting/install/installing-powershell) or later.
 - Install the `Az.Accounts` and `Microsoft.PowerApps.Administration.PowerShell` modules. For more information, see [Install-Module](/powershell/module/powershellget/install-module).
 - Store and run all scripts in the same folder.
@@ -66,7 +66,7 @@ Before you run any of the following PowerShell commands, sign in to your adminis
     Get-EntraUser -UserId 'user@domain.com'
     ```
 
-    Use the appropriate user ID, for example `user@domain.com`. Note the `Id` value in the output, which indicates the user's ID.
+    Use the appropriate user ID, such as `user@domain.com`. Note the `Id` value in the output, which indicates the user's ID.
 
 ## Save PowerShell scripts
 
@@ -335,13 +335,13 @@ Process {
 
 ## List Copilot scheduled prompts
 
-You can run a script in different ways to list scheduled prompts created in your tenant.
+You can run a script in different ways to list scheduled prompts you created in your tenant.
 
 ### Get a list of Copilot scheduled prompts for the whole tenant
 
-1. To get the `EnvironmentId`, use the **Get-AdminPowerAppEnvironment** cmdlet as described in [General operations](#general-operations).
+1. Use the **Get-AdminPowerAppEnvironment** cmdlet to get the `EnvironmentId`. For more information, see [General operations](#general-operations).
 
-1. Run the [`Get-CopilotActions.ps1`](#get-copilotactionsps1) script and specify your `EnvironmentId`. If prompted, connect with the admin account. For example:
+1. Run the [`Get-CopilotActions.ps1`](#get-copilotactionsps1) script and specify your `EnvironmentId`. If prompted, sign in with the admin account. For example:
 
     ```powershell
     .\Get-CopilotActions.ps1 -EnvironmentId abc123-a100-xyz000-12345
@@ -351,9 +351,9 @@ You can run a script in different ways to list scheduled prompts created in your
 
 ### Get a list of Copilot scheduled prompts for a single user
 
-1. To get the `EnvironmentId` and `UserId`, use the **Get-AdminPowerAppEnvironment** and **Get-EntraUser** cmdlets as described in [General operations](#general-operations).
+1. Use the **Get-AdminPowerAppEnvironment** and **Get-EntraUser** cmdlets to get the `EnvironmentId` and `UserId`. For more information, see [General operations](#general-operations).
 
-1. Run the [`Get-CopilotActions.ps1`](#get-copilotactionsps1) script with your `EnvironmentId` and `UserId`. If prompted, connect with the admin account. For example:
+1. Run the [`Get-CopilotActions.ps1`](#get-copilotactionsps1) script with your `EnvironmentId` and `UserId`. If prompted, sign in with the admin account. For example:
 
     ```powershell
     .\Get-CopilotActions.ps1 -EnvironmentId abc123-a100-xyz000-12345 -UserId abc123-a100-xyz000-12345
@@ -375,9 +375,9 @@ To export the list to a CSV file, start with either of the previous options to [
 
 1. Use one of the previous options to [get a list of scheduled prompts](#list-copilot-scheduled-prompts). In the output, note the `DataverseId` of the scheduled prompt you want to delete.
 
-1. To get the `EnvironmentId`, use the **Get-AdminPowerAppEnvironment** cmdlet as described in [General operations](#general-operations).
+1. Use the **Get-AdminPowerAppEnvironment** cmdlet to get the `EnvironmentId`. For more information, see [General operations](#general-operations).
 
-1. Run the [`Remove-CopilotActions.ps1`](#remove-copilotactionsps1) script with the appropriate `EnvironmentId` and `DataverseId` values. If prompted, connect with the admin account. For example:
+1. Run the [`Remove-CopilotActions.ps1`](#remove-copilotactionsps1) script with the appropriate `EnvironmentId` and `DataverseId` values. If prompted, sign in with the admin account. For example:
 
     ```powershell
     .\Remove-CopilotAction.ps1 -EnvironmentId abc123-a100-xyz000-12345 -DataverseId abc123-a100-xyz000-12345
@@ -387,8 +387,14 @@ To export the list to a CSV file, start with either of the previous options to [
 
 1. Get the `EnvironmentId` and `UserId` values as described in [General operations](#general-operations).
 
-1. Run the [`Clear-CopilotActions.ps1`](#clear-copilotactionsps1) script with the appropriate `EnvironmentId` and `UserId` values. If prompted, connect with the admin account. For example:
+1. Run the [`Clear-CopilotActions.ps1`](#clear-copilotactionsps1) script with the appropriate `EnvironmentId` and `UserId` values. If prompted, sign in with the admin account. For example:
 
     ```powershell
     .\Clear-CopilotActions.ps1 -EnvironmentId abc123-a100-xyz000-12345 -UserId abc123-a100-xyz000-12345
     ```
+
+## Related content
+
+- [Manage scheduled prompts for Microsoft 365 Copilot](scheduled-prompts.md)
+
+- [Microsoft 365 environment for scheduled prompts](scheduled-prompts-environment.md)

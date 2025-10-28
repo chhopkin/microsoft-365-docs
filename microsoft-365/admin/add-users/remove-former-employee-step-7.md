@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 01/06/2025
+ms.date: 10/28/2025
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -33,12 +33,16 @@ After you've saved and accessed all the former employee's user data, you can del
 
 > [!IMPORTANT]
 > Don't delete the account if you've set up email forwarding or converted it to a shared mailbox. Both need the account to anchor the forwarding or shared mailbox.
+> 
+> You must have appropriate permissions through a role, such as [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator) to perform the tasks in this article. 
 
-1. In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.
+1. In the Microsoft 365 admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.
+
 2. Select the name of the employee that you want to delete.
+
 3. Under the user's name, select **Delete user**. Choose the options you want for this user, and then select **Delete user**. If you've already given another user access to this user's email and OneDrive, you don't have to do it again here.
 
-When you delete a user, the account becomes inactive for approximately 30 days. You've until then to restore the account before it's permanently deleted.
+When you delete a user, the account becomes inactive for approximately 30 days. You have until then to restore the account before it's permanently deleted.
 
 ## Watch: Delete a former employee's user account
 
@@ -76,7 +80,7 @@ The above operations can be done in three places:
 
 **Fastest**: Use the Exchange admin center (use PowerShell) or Microsoft Entra admin center. In an on-premises environment, it can take several hours to sync the change through Microsoft Entra Connect.
   
-**Fastest for a user with presence on-premises and in the Exchange Datacenter**: Terminate the session using Microsoft Entra admin center/Exchange admin center AND make the change in the on-premises environment as well. Otherwise, the change in Microsoft Entra admin center/Exchange admin center will be overwritten by Microsoft Entra Connect.
+**Fastest for a user with presence on-premises and in the Exchange Datacenter**: Terminate the session using Microsoft Entra admin center/Exchange admin center AND make the change in the on-premises environment as well. Otherwise, the change in Microsoft Entra admin center/Exchange admin center is overwritten by Microsoft Entra Connect.
   
 ## Related content
 

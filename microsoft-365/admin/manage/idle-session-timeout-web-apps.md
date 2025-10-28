@@ -20,8 +20,6 @@ description: "Set how long user's session lasts in Microsoft 365 before they're 
 
 # Idle session timeout for Microsoft 365
 
-> [!IMPORTANT]
-> Idle session timeout isn't available for Microsoft 365 operated by 21Vianet.
 
 Use idle session timeout to configure a policy on how long users are inactive in your organization before they're signed out of Microsoft 365 web apps. This helps protect sensitive company data and adds another layer of security for end users who work on noncompany or shared devices.
 
@@ -33,6 +31,8 @@ When a user reaches the set idle timeout session, they get a notification that t
 ## Turn on Idle session timeout
 
 You must be a member of the Security admin, Application admin, or Cloud Application admin roles to see the idle session timeout setting. The Global admin role is required for initial activation of Idle Session Timeout. All other noted roles can deactivate and/or modify timeout duration settings.
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 1. In the Microsoft 365 admin center, select **Org Settings** **->**  [Security & privacy](https://go.microsoft.com/fwlink/p/?linkid=2072756) tab and select **Idle session timeout**.
 
@@ -50,6 +50,14 @@ When a user is inactive in Microsoft 365 web apps for the time period you chose,
 :::image type="content" source="../../media/idle-session-timeout.png" lightbox="../../media/idle-session-timeout.png" alt-text="Screenshot: Prompt letting you know that your session is about to expire. Select Stay signed in so you don't get signed out of Microsoft 365 web apps":::
 
 ## Details about idle session timeout
+
+- Idle session timeout is supported in:
+
+    - Worldwide
+ 
+    - US Government Clouds
+ 
+    - Microsoft 365 operated by 21Vianet
 
 - The following Microsoft 365 web apps are supported. More web apps will be added soon.
 
@@ -69,7 +77,9 @@ When a user is inactive in Microsoft 365 web apps for the time period you chose,
 
     - Microsoft 365 Defender Portal
 
-    - Microsoft Purview portal
+    - Microsoft Purview Portal
+ 
+    - Sharepoint Admin Center
     
 - Activity refers to any client-side user interaction happening in the context of the web app. For example, mouse clicks and keyboard presses.  
 
@@ -134,7 +144,9 @@ The following Microsoft 365 web apps are supported.
 
 - Microsoft 365 Defender Portal
 
-- Microsoft Purview portal
+- Microsoft Purview Portal
+
+- Sharepoint Admin Center
 
 If you're working on a different web app with the same account, the activity in that web app isn't applied to the idle session timeout.
 

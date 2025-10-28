@@ -50,17 +50,35 @@ We offer three levels of controls to control skill visibility. Each of these con
 - **(Child control) Visibility of imported skills:** User skills from third-party applications can be imported by your organization. Skills from these apps might need to be confirmed by users before they're shown in experiences as skills. A user might need to confirm these skills, similar to AI-generated skills. These skills can only be shown if the skills profile (parent) is also set to visible. Separate controls for both admins and for users to share skills, even if the user's profile is set to visible.
 
 > [!IMPORTANT]
-> When multiple policies apply to the same user, the most specific policy takes precedence. User-specific policies override group policies, which override organization-wide policies.
+> When multiple policies apply to the same user, the [most restrictive policy takes precedence](/viva/feature-access-management#which-policy-takes-precedence). User/Group policies override organization-wide policies.
 >
 > **Example:** If you create two policies - one that disables a feature for everyone in your organization, and another that enables the feature for people in a specific group - the feature will be enabled for group members because the group policy takes precedence over the organization-wide policy.
 
 The following sections will walk you through on how to set up each of the controls in detail, and the expected functionality when they're enabled or disabled.
 
-## Manage skills data sharing with Viva Insights
 
-When checked, skills data is passed on to Viva Insights. Skills in Viva Insights allows organizations and leaders to discover skills within their workforce and assess skill distribution across groups. Learn more about [People Skills in Viva Insights](/viva/insights/advanced/analyst/templates/skills-landscape).
+## People Skills Controls to Feature Access Policies Overview
 
-You can stop skills data from being shared with Viva Insights by unchecking this setting.
+The four features for People Skills described above map to the below, and are all available to be set for the **tenant**, **group**, and **user** scopes.
+
+| ModuleId | FeatureId | Policy Modes | Parent Feature | 
+| --- | ---- | ------ | ---- |
+| PeopleSkills |  SkillsInferencing | HardDisable, SoftDisable, SoftEnable | None
+| PeopleSkills |  SkillsProfileVisibility |  SoftDisable, SoftEnable | None
+| PeopleSkills |  ShowAISkills |  HardDisable, SoftDisable, SoftEnable | SkillsProfileVisibility
+| PeopleSkills |  ShowOrgAddedSkills |  HardDisable, SoftDisable, SoftEnable | SkillsProfileVisibility
+
+
+The Policy Modes supported for each feature map to the following PowerShell commands.
+
+- **HardDisable**: The feature is disabled, users do not have the ability to opt-in or opt-out. This is controlled by setting the PowerShell property **-IsFeatureEnabled $false**. 
+
+- **SoftDisable**: The user is opted-out by default. This is controlled by setting the PowerShell properties **-IsFeatureEnabled $true -IsUserControlEnabled $true -IsUserOptedInByDefault $false**. 
+
+- **SoftEnable**: The user is opted-in by default. This is controlled by setting the PowerShell properties **-IsFeatureEnabled $true -IsUserControlEnabled $true -IsUserOptedInByDefault $true**.
+
+> [!IMPORTANT]
+> Make sure you have Exchange PowerShell version 3.8.0 or later if you plan to SoftDisable or SoftEnable, as property IsUserOptedInByDefault is only available on the newer module versions.
 
 ## Manage skills AI inferencing
 
@@ -68,7 +86,7 @@ Select **Skill inferencing by AI** under **Settings** to see details about t
 
 When inferencing is enabled, users receive AI-generated skills relevant to their role. When skills AI inferencing is turned off, no AI computation is processed for that user. The user can still create a skill profile by manually searching to add skills from your taxonomy. They can also confirm any imported skills that an admin in your organization adds for them.
 
-Create an access control policy if you need to disable skill suggestions for specific users, groups, or your entire tenant. For more information on how to create and manage policies, see [control access to features](/viva/feature-access-management). 
+Create an access control policy if you need to disable skill suggestions for specific users, groups, or your entire tenant. For more information on how to create and manage policies, see [control access to features](/viva/feature-access-management) and [Add-VivaModuleFeaturePolicy PowerShell command details](/powershell/module/exchangepowershell/add-vivamodulefeaturepolicy) 
 
 > [!NOTE]
 > Policies for People Skills can only be created in PowerShell at this time. You can't create or manage policies through the interface in Admin center.
@@ -84,6 +102,9 @@ You have the following options for creating an access control policy in PowerShe
   ```powershell
   Add-VivaModuleFeaturePolicy -ModuleId PeopleSkills -FeatureId SkillsInferencing -Name SoftDisable -IsFeatureEnabled $true -IsUserControlEnabled $true -IsUserOptedInByDefault $false -Everyone
   ```
+
+  > [!IMPORTANT]
+  > The Feature Access Policy name values have to be unique, so make sure you are editing **-Name** in the PowerShell commands to names descriptive to your policy.
    
 - **Completely disable skills inferencing:** With this policy, skills inferencing is disabled for your tenant and users can't opt in to receiving skill inferencing suggestions.
 
@@ -150,7 +171,7 @@ If you need to disable sharing for specific users, groups, or your entire tenant
 
 You have the following options for creating an access control policy in PowerShell to manage the visibility of AI-generated skill:  
 
-- **Enable sharing of AI-generated skills (Default):**: When visibility is enabled, AI-generated skills are shared across Microsoft 365. Users have the option to turn it off for themselves in their settings. Users can also manage how they can share AI-generated skills for themselves in the Microsoft 365 profile editor on the Data and privacy tab.
+- **Enable sharing of AI-generated skills (Default):** When visibility is enabled, AI-generated skills are shared across Microsoft 365. Users have the option to turn it off for themselves in their settings. Users can also manage how they can share AI-generated skills for themselves in the Microsoft 365 profile editor on the Data and privacy tab.
 
 - **Keep the default sharing off for AI-generated skills**: Users in this access policy will be "opted-out," and their AI-generated skills won't be shared across Microsoft 365. Users have the option to turn it on for themselves in their skill settings.
 
@@ -217,3 +238,9 @@ You have the following options for creating an access control policy in PowerShe
   > 
   > For more details on PowerShell syntax, refer to **[our Feature Access Management documentation](/viva/manage-access-policies)**.
   
+
+## Manage skills data sharing with Viva Insights
+
+When checked, skills data is passed on to Viva Insights. Skills in Viva Insights allows organizations and leaders to discover skills within their workforce and assess skill distribution across groups. Learn more about [People Skills in Viva Insights](/viva/insights/advanced/analyst/templates/skills-landscape).
+
+You can stop skills data from being shared with Viva Insights by unchecking this setting.
