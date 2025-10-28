@@ -18,7 +18,7 @@ sections:
         answer: "Researcher is designed for deep, multi-step research tasks, unlike standard Copilot chat which handles quick Q&A."
       - question: "Does Researcher Agent use the Archive Mailbox/Folder?"
         answer: "Yes, archived emails are included as backfill when primary inbox lacks sufficient data."
-      - question: "•	Does Researcher Agent support multiple languages?"
+      - question: "Does Researcher Agent support multiple languages?"
         answer: "Yes, it supports over thirty languages, the same as Microsoft 365 Copilot."
       - question: "Does Researcher provide citations for its answers?"
         answer: "Yes, building trust through source citations is a core design principle."
