@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 10/24/2025
+ms.date: 10/28/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -61,7 +61,9 @@ You can manage several types of agents in Microsoft 365 Copilot, each serving di
 - **First-party agents**: Developed by Microsoft and integrated with Microsoft 365 services.
 - **External agents**: Created by external developers or vendors. You can control their availability and permissions.
 - **Frontier agents**: Experimental or advanced agents that use new capabilities or integrations. These might be in early stages of development or testing and could require more oversight or limited rollout.
-- **Flow Builder agent**: A type of Frontier agent developed by Microsoft that can be managed as part of Microsoft 365 Copilot. Flows created in Copilot are saved to the default environment (unless [environment routing](/power-platform/admin/default-environment-routing?tabs=new#turn-on-environment-routing-in-the-admin-center) is enabled for Copilot Studio). You can also manage flows using the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+- **Flow Builder agent**: A type of Frontier agent developed by Microsoft that can be managed as part of Microsoft 365 Copilot. Flows created in Copilot are saved to the default environment (unless [environment routing](/power-platform/admin/default-environment-routing#turn-on-environment-routing-in-the-admin-center) is enabled for Copilot Studio). You can also manage flows using the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+- **App Builder agent**: A type of Frontier agent developed by Microsoft that can be managed as part of Microsoft 365 Copilot. You can also manage App Builder using [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+- **Workflows agent**: A type of Frontier agent developed by Microsoft that can be managed as part of Microsoft 365 Copilot. Flows created in Copilot are saved to the default environment (unless [environment routing](/power-platform/admin/default-environment-routing?tabs=new#turn-on-environment-routing-in-the-admin-center) is enabled for Copilot Studio). You can also manage flows using the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 
 ## Get started
 
@@ -136,7 +138,17 @@ To manage access to Copilot agents, follow these steps:
 
 1. Select **Save** to update your Copilot agent settings for your tenant.
 
-### Disable Copilot access
+### Sharing control for Agent builder agents
+
+After creating an agent in Copilot Studio (lite), users today get an option to share with "Anyone in the organization" or specific user groups.
+
+:::image type="content" source="../../media/agents/copilot-studio-share-feature.png" alt-text="Screenshot showing the option to share with anyone in the organization or specific user groups." lightbox="../../media/agents/copilot-studio-share-feature.png":::
+
+This feature allows admins to control the "Anyone in the organization" sharing option. Admins can disable it for all users, no users, or a selected group. Users can still share with specific users and groups.
+
+:::image type="content" source="../../media/agents/copilot-studio-share-specific-group.png" alt-text="Screenshot showing the control to disable the anyone in the organization option for all, none, some users." lightbox="../../media/agents/copilot-studio-share-specific-group.png":::
+
+###  Disable Copilot access 
 
 You can remove users from the Microsoft 365 Copilot sign-in page or restrict their access through the [Microsoft 365 Admin Center](https://admin.microsoft.com/).
 
@@ -274,16 +286,16 @@ Use the following steps to view your organization’s agent inventory:
 
 When you have several agents in your inventory, you can narrow the list based on different filters. Common filters include, **Type**, **Availability**, **Supported in**, and **Created in**.
 
-The **Type** filter allows you to view agents based on the their creation method. The following list provides the different **Type** options:
+The **Type** filter allows you to view agents based on their creation method. The following list provides the different **Type** options:
 
 - **Custom** - Agents created by members of your organization using **Copilot Studio (full)**.
 - **Shared** - Agents created by members of your organization using **Copilot Studio (lite)**.
 - **Microsoft** - Agents created by Microsoft.
-- **External** - Agents create by agent provides that are external to your organization and Microsoft.
+- **External** - Agents created by agent provides that are external to your organization and Microsoft.
 
 ### Availability filter
 
-The **Availablity** filter shows which specific agents are avialable to members of your organization. The following list provides the different **Availability** options:
+The **Availability** filter shows which specific agents are available to members of your organization. The following list provides the different **Availability** options:
 
 - **Some users** - Agents that are specifically available to only selected users or groups at your organization.
 - **No users** - Agents that are unavailable to all users at your organization are listed.
@@ -334,7 +346,7 @@ The **Details** tab provides metadata about the agent, including details such as
 
 :::image type="content" source="../../media/agents/details.png" alt-text="Screenshot showing the Details tab for an agent." lightbox="../../media/agents/details.png":::
 
-### Agent security & complicance tab
+### Agent security & compliance tab
 
 The **Security & compliance** tab provides certification information about the agent. You can view key details about the following areas:
 
