@@ -31,10 +31,15 @@ description: "Follow the steps in this article to access a former employee's One
 # Step 5 - Give another employee access to OneDrive and Outlook data
 
 When an employee leaves your organization, you'll want to access their OneDrive and Outlook data, back it up, and choose whether to give it to another employee.
+
+> [!NOTE]
+> You must have appropriate permissions through a role, such as [Microsoft 365 Backup Administrator](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-backup-administrator) or [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator) to perform the tasks in this article. 
   
 ## Access a former user's OneDrive documents
 
 If you remove a user's license but don't delete the account, you can give yourself access to the content in the user's OneDrive. If you delete the user's account, you have 30 days by default to access the former user's OneDrive data. [Learn how to set the OneDrive retention for deleted users](/onedrive/set-retention). If you don't [restore a user account](/office365/admin/add-users/restore-user) within this time, their OneDrive content is deleted.
+
+## Preserve a former user's OneDrive files
 
 To preserve a former user's OneDrive files, first give yourself access to their OneDrive, and then move the files you want to keep.
 
@@ -50,6 +55,8 @@ To preserve a former user's OneDrive files, first give yourself access to their 
 > - You can move or copy up to 500 MB of files and folders at a time.<br/>
 > - When you move or copy documents that have version history, only the latest version is moved.
 > - Administrative options for an active user under the OneDrive tab in the Microsoft 365 admin center are currently not supported for multi-geo tenants.
+
+## Grant access to a former user's OneDrive files to another user
 
 You can also grant access to another user to access a former employee's OneDrive.
 
@@ -75,7 +82,7 @@ You can also grant access to another user to access a former employee's OneDrive
 
 10. The user will now be able to access the former employee's OneDrive using the OneDrive URL. 
 
-### Revoke admin access to a user's OneDrive
+## Revoke admin access to a user's OneDrive
 
 You can give yourself access to the content in a user's OneDrive, but you may want to remove your access when you no longer need it.
 
