@@ -60,7 +60,7 @@ Sign into the [Microsoft 365 Copilot app](https://m365.cloud.microsoft/chat/?tit
 
 Open Researcher in Microsoft 365 Copilot, ask your question, and let it gather insights from trusted sources. Receive a clear report with key findings and next steps to act on.
 
-:::image type="content" source="../../copilot/media/researcher-agent-workflow.png" alt-text="Screenshot showing the Microsoft 365 Researcher Agent workflow." lightbox="../../copilot/media/researcher-agent-workflow.png":::
+:::image type="content" source="media/researcher-agent-workflow.png" alt-text="Screenshot showing the Microsoft 365 Researcher Agent workflow." lightbox="media/researcher-agent-workflow.png":::
 
 ## How to get the best results from Researcher Agent?
 
