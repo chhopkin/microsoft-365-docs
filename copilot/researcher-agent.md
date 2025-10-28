@@ -62,14 +62,11 @@ Open Researcher in Microsoft 365 Copilot, ask your question, and let it gather i
 
 ## How to get the best results from Researcher Agent?
 
-- **Be specific in your prompt**
-Clear and detailed questions lead to more focused and reliable results.
+- **Be specific in your prompt** - Clear and detailed questions lead to more focused and reliable results.
 
-- **Define your search scope**
-Decide whether you want data from workplace resources, the web, or both. This helps create a more targeted and relevant report.
+- **Define your search scope** - Decide whether you want data from workplace resources, the web, or both. This helps create a more targeted and relevant report.
 
-- **Engage with clarifying questions**
-Researcher may ask clarifying questions to guide the output and keep you involved. This phase is important to help you steer the research and ensure the final report meets your needs.
+- **Engage with clarifying questions** - Researcher Agent may ask clarifying questions to guide the output and keep you involved. This phase is important to help you steer the research and ensure the final report meets your needs.
 
 ## Related content
 
