@@ -1,6 +1,6 @@
 ---
-title: What is Researcher agent in Microsoft 365 Copilot?
-description: Researcher is an advanced AI assistant in Microsoft 365 Copilot that iteratively gathers enterprise and web data to deliver comprehensive, source-backed answers.
+title: What is Researcher Agent in Microsoft 365 Copilot?
+description: Researcher is an intelligent AI assistant in Microsoft 365 Copilot that gathers enterprise and web data to deliver comprehensive, source-backed answers.
 f1.keywords:
 - NOCSH
 ms.author: vpattnaik
@@ -24,12 +24,12 @@ appliesto:
 
 ## Overview of Researcher Agent
 
-Researcher Agent is your intelligent assistant inside Microsoft 365 Copilot- built to tackle complex, multistep research, and deliver a thorough, source-cited report to help you make decisions faster. It draws from the web and, at work, from the files, emails, meetings, and chats you have access to.
+Researcher Agent is an intelligent assistant within Microsoft 365 Copilot, designed to handle complex, multi-step research tasks. It delivers comprehensive, source-cited reports to help you make informed decisions faster. Researcher draws insights from both the web and your work content - including files, emails, meetings, and chats you have access to.
 
 ## How Researcher Agent differs from the standard Copilot experience?
 
 Researcher Agent is designed for deeper reasoning of your tasks. It excels at tackling complex tasks that require thoughtful analysis. By taking longer processing time, Researcher agent delivers a more comprehensive, insightful response
-The standard Copilot experience helps with a broad range of everyday tasks across Microsoft 365 apps. It's optimized for speed and efficiency and is great for quicker tasks like summarizing emails or drafting short replies.
+The standard Copilot experience helps with a broad range of everyday tasks across Microsoft 365 apps. The agent is optimized for speed and efficiency and is great for quicker tasks like summarizing emails or drafting short replies.
 
 | Use this when you... | Choose |
 |---------|---------|
@@ -48,9 +48,9 @@ These distinctions are by design. Researcher Agent deliberately spends more time
 
 ## What does the final Researcher Agent response look like?
 
-- **Visuals, charts, and graphs** to make content easier to understand
-- **Organized sections** that help you present findings clearly
-- **Cited sources** so you can trust the information
+- **Visuals, charts, and graphs** to make content easier to understand.
+- **Organized sections** that help you present findings clearly.
+- **Cited sources** so you can trust the information.
 
 ## Where can you find Researcher Agent?
 
@@ -75,4 +75,4 @@ Researcher may ask clarifying questions to guide the output and keep you involve
 
 ## Related content
 
-- [Microsoft 365 Copilot Researcher FAQ's](faq-researcher.yml)
+- [Microsoft 365 Copilot Researcher FAQs](faq-researcher.yml)
