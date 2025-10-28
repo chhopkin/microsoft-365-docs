@@ -1,10 +1,10 @@
 ---
 title: Customize Microsoft 365 Copilot with Copilot Tuning
-description: Get an overview of the process to create a fine-tuned model with Copilot Tuning to customize Microsoft 365 Copilot for your organization..
+description: Get an overview of the process to create a fine-tuned model with Copilot Tuning to customize Microsoft 365 Copilot for your organization.
 author: lauragra
 ms.author: lauragra
 manager: calvind
-ms.date: 06/17/2025
+ms.date: 10/27/2025
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
@@ -30,13 +30,13 @@ Using Copilot Tuning to create fine-tuned AI models for your organization involv
 - **Reinforcement learning** helps your model to adopt your organization's style, tone, and preferences to further optimize Copilot responses.
 
 > [!NOTE]
-> The models that you tune are private. Your data is not used to train general models for other tenants. All processing of your data is done in a tenant that only authorized users have access to, and specific individuals, typically administrators, have control over the training process.
+> The models that you tune are private. Your data isn't used to train general models for other tenants. All processing of your data is done in a tenant that only authorized users have access to, and specific individuals, typically administrators, have control over the training process.
 
 ### Domain-specific adaptation
 
 Domain-specific adaptation occurs after your corpora is ingested. This adaptation involves processing the organization's content from its original format into a plain text format with one statement per line. This format ensures that the AI model doesn't have references to the original data.
 
-During domain-specific adaptation, models are pre-trained with a large corpus of unlabeled data from your organization to provide domain knowledge to your tenant's LLM. Unlike supervised fine-tuning, which involves teaching the model to give precise and accurate answers, domain-specific adaptation trains the model to be aware of the types of data within your organization and respond appropriately.
+During domain-specific adaptation, models are pretrained with a large corpus of unlabeled data from your organization to provide domain knowledge to your tenant's LLM. Unlike supervised fine-tuning, which involves teaching the model to give precise and accurate answers, domain-specific adaptation trains the model to be aware of the types of data within your organization and respond appropriately.
 
 Domain adaptation enriches the model's understanding of your business domain to help Copilot understand the type of work you do. This enables Copilot to retrieve relevant knowledge quickly, rather than learning or taking multiple steps to retrieve a model during prompt engineering.
 
@@ -44,7 +44,7 @@ Client-side prompt engineering can further improve the results. By combining int
 
 ### Supervised fine-tuning
 
-Supervised fine-tuning is a technique used to adapt a pre-trained model to specific tasks or organizational requirements by training it on labeled input-output pairs. This process helps the model learn to produce responses that align with your organization's preferred formats, tone, and compliance needs. Supervised fine-tuning:
+Supervised fine-tuning is a technique used to adapt a pretrained model to specific tasks or organizational requirements by training it on labeled input-output pairs. This process helps the model learn to produce responses that align with your organization's preferred formats, tone, and compliance needs. Supervised fine-tuning:
 
 - Teaches structure and tone - Models learn how to respond in ways that reflect your organization's voice.
 - Improves task accuracy - By training on high-quality examples, the model becomes more reliable for enterprise use cases.
@@ -70,13 +70,13 @@ Supervised fine-tuning can help a model to produce structured outputs that align
 
 **Prompt:** What security protections should be applied to this document?
 
-**Response:** This document contains sensitive and privileged information related to legal and compliance matters. It requires encryption, access controls, and regular audits to prevent unauthorized access. Any changes to access controls must be approved by senior management.
+**Response:** This document contains sensitive and privileged information related to legal and compliance matters. It requires encryption, access controls, and regular audits to prevent unauthorized access. Senior management must approve any changes to access controls.
 
 Supervised fine-tuning can also help to ensure that responses are accurate and aligned with the organization's tone, as shown in the following example.
 
 **Prompt:** How many vacation hours can an employee accrue before the total is capped?
 
-**Response:** The maximum vacation balance is capped at 200 hours. Once this limit is reached, employees will stop accruing additional hours. We encourage taking time off regularly to maintain a healthy work-life balance. For more details, contact your supervisor or HR.
+**Response:** The maximum vacation balance is capped at 200 hours. Once this limit is reached, employees stop accruing more hours. We encourage taking time off regularly to maintain a healthy work-life balance. For more details, contact your supervisor or HR.
 
 ### Reinforcement learning
 
