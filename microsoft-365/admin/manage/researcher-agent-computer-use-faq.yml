@@ -42,7 +42,7 @@ sections:
           The added layer helps protect against XPIA or Jailbreak attacks that can be driven through web page navigation."
       - question: "How is Researcher agent in Microsoft 365 Copilot evaluated?"
         answer: "Researcher agent in Microsoft 365 Copilot was evaluated through extensive manual and automation testing on top of Microsoft internal usage and public data. More evaluation was performed over custom datasets for offensive and malicious prompts (user questions) and responses."
-      - question: "10)	What should I do if I see inaccurate, harmful, or inappropriate content?"
+      - question: "What should I do if I see inaccurate, harmful, or inappropriate content?"
         answer: "Copilot includes filters to block offensive language in the prompts and to avoid synthesizing suggestions in sensitive contexts. We continue to work on improving the filter system to more intelligently detect and remove offensive outputs. If you see offensive outputs, kindly submit feedback in using the thumbs-up/thumbs-down icons so that we can improve our safeguards. Microsoft takes this challenge very seriously and we are committed to addressing it."
       
 

@@ -78,6 +78,6 @@ Follow these instructions to configure admin settings for Researcher agent with 
 
 ### Learn more about Researcher with Computer Use
 
-- [Overview of Research with Computer use](https://support.microsoft.com/en-us/topic/1f274537-6648-46e8-8264-052a49b92af4?preview=true)
-- [How Researcher with Computer use works](https://support.microsoft.com/en-us/topic/36f92600-62c7-47e6-bb31-95f8c81038fc?preview=true)
-- [Frequently asked questions]()
+- [Overview of Research with Computer use](https://support.microsoft.com/en-us/topic/1f274537-6648-46e8-8264-052a49b92af4)
+- [How Researcher with Computer use works](https://support.microsoft.com/en-us/topic/36f92600-62c7-47e6-bb31-95f8c81038fc)
+- [Frequently asked questions](researcher-agent-computer-use-faq.yml)
