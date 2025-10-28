@@ -19,7 +19,7 @@ appliesto:
 
 # Employee Self-Service
 
-The Employee Self-Service (ESS) Agent is designed as a unified, AI-powered interface for handling employee requests and automating routine tasks within enterprise environments. Built on Copilot Studio, the ESS Agent streamlines access to HR, IT, and operational systems, reducing manual intervention and improving process efficiency.
+The Employee Self-Service (ESS) Agent is designed as a unified, customer-facing, AI-powered interface for handling employee requests and automating routine tasks within enterprise environments. Built on Copilot Studio, ESS Agent is intended to be customized by you. Once it's customized for your organization's needs, the ESS Agent streamlines access to HR, IT, and operational systems, reducing manual intervention and improving process efficiency.
 
 ## Technical Architecture
 
