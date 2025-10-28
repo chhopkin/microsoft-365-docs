@@ -283,4 +283,4 @@ A CSP can buy an offer in the Partner Center in their customer's currency so tha
 
 ## Related content
 
-[Manage your Microsoft business billing profiles](billing-and-payments/manage-billing-profiles.md) (article)\
+[Manage your Microsoft business billing profiles](billing-and-payments/manage-billing-profiles.md) (article)
