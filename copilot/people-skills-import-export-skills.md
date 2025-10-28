@@ -6,7 +6,7 @@ ms.author: kwekua
 ms.collection: operations-pod
 manager: scotv
 ms.service: microsoft-365-copilot
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/29/2025
 ---
 
@@ -44,11 +44,11 @@ Admins can export a user's confirmed skills by using the Profile endpoint in the
 
 ## Export **Custom** or **Default** Skills Library
 
-1.  Go to the Microsoft Admin Center > [Manage Skills](https://admin.cloud.microsoft/?#/viva/manage-skills). 
+1. Go to the Microsoft Admin Center > [Manage Skills](https://admin.cloud.microsoft/?#/viva/manage-skills).
 2. Select **Export library**
 3. Select to either export a Custom, Default or both libraries
 
-Exporting libraries can be useful if you would like to source control your library in an external tool. 
+Exporting libraries can be useful if you would like to source control your library in an external tool.
 
 > [!NOTE]
 > Only **People Skills - Advanced** Service Plan customers will be able export the **Default** Skills library.
@@ -56,4 +56,4 @@ Exporting libraries can be useful if you would like to source control your libra
 > You must have already imported a **Custom** Skills library to be able to export it.
 
 ## Import **Custom** Skills Library
-See the [step by step guide.](./people-skills-manage-custom-skill.md)
+See the [step by step guide.](./people-skills-manage-custom-skill.md).
