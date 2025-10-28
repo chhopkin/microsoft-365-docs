@@ -1,12 +1,12 @@
 ---
 title: Microsoft 365 solutions for the healthcare industry
 description: Learn about solution and architecture resources for the healthcare industry using Microsoft 365
-ms.author: samanro
-author: samanro
-manager: bcarter
+author: dansimp
+ms.author: dansimp
+manager: dansimp
 ms.audience: ITPro
 ms.topic: solution-overview
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: medium
 ms.collection:
 - highpri 
@@ -42,7 +42,7 @@ Learn how you can use Microsoft 365, Dynamics 365, and Azure to digitize, modern
 
 ## Videos you can share with your team
 
-**St. Luke’s Hospital uses Microsoft 365 to reimagine care for patients**
+**St. Luke's Hospital uses Microsoft 365 to reimagine care for patients**
 <br>
 
 > [!VIDEO https://www.youtube.com/embed/-jcBjy88n4s]
