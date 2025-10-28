@@ -4,8 +4,8 @@ ms.author: lauragra
 author: lauragra
 manager: calvind
 ms.collection: operations-pod
-ms.reviewer: jwolk
-ms.date: 07/16/2025
+ms.reviewer: riyazp
+ms.date: 10/27/2025
 ms.service: microsoft-365-copilot
 ms.topic: how-to
 ms.localizationpriority: medium
@@ -41,9 +41,9 @@ The model supports various document formats, with the following specific limitat
 
 Before you start, make sure that you have the following prerequisites in place:
 
-1. You must have domain-specific content or documentation, such as legal playbooks, HR guidelines, technical documentation, policy manuals, or departmental procedures, that the model can use to answer questions. The content set that you use to train the model must consist of more than 20 files.
-2. Configure the model agent with a Microsoft Entra ID security group or distribution list and create your own Entra ID groups to be added to the model.
-3. Identify where your content is stored in SharePoint.
+- You must have domain-specific content or documentation, such as legal playbooks, HR guidelines, technical documentation, policy manuals, or departmental procedures, that the model can use to answer questions. The content set that you use to train the model must consist of more than 20 files.
+- Configure the model agent with a Microsoft Entra ID security group or distribution list and create your own Entra ID groups to be added to the model.
+- Identify where your content is stored in SharePoint.
 
 ## Set up an expert Q&A model
 
@@ -54,12 +54,12 @@ Set up an **Expert Q&A model** using the Copilot Tuning model maker in Microsoft
 To set up an Expert Q&A model:
 
 1. In Copilot Studio, select **Create a new model**, and provide the model name and description.
-1. Click **Add knowledge** to add the sources your model is trained on.
+1. Choose **Add knowledge** to add the sources your model is trained on.
 1. Choose permissions. Copilot Studio checks the permissions for the selected content to ensure the security group or groups have appropriate access. Any inaccessible content isn't used during the training process.
 1. Select the task type.
 1. Continue to **Model instructions** to customize the behavior of your agent, like its tone, how it responds, and its primary objective. These instructions help shape how the model responds to users, so be clear and specific. For example, for legal content, you might ask for concise, professional replies.
-1. Click **Prepare labeling data**. Your model is now available in the Copilot Tuning dashboard.
-Once your model starts processing the knowledge sources, you'll receive an email notification within 24 hours confirming that your model is ready for training.
+1. Choose **Prepare labeling data**. Your model is now available in the Copilot Tuning dashboard.
+After your model starts processing the knowledge sources, you receive an email notification within 24 hours confirming that your model is ready for training.
 
 ## Related content
 
