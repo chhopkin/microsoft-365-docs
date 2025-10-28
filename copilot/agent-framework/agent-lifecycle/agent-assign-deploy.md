@@ -16,7 +16,7 @@ ms.collection:
 description: Learn how to deploy agents for Microsoft 365 Copilot.
 ---
 
-# Deploy agents for Microsoft 365 Copilot
+# Assign and deploy agents for Microsoft 365 Copilot
 
 As an admin, you can manage the lifecycle of each agent available in your tenant by using actions. These agent actions include publishing, deploying, removing, and blocking. In addition, you can assign agents and deploy agents as separate actions. You can also manage the agents that members of your organization request to publish to your organizational catalog.
 
