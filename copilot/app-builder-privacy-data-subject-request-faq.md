@@ -83,5 +83,5 @@ Yes. Organizations can use Microsoft 365 audit logs and Power Platform analytics
 
 ## Related articles
 
-- [Get started with App Builder in Microsoft 365 Copilot]( https://support.microsoft.com/topic/a50c7eb7-ed36-45b5-baa4-b24e70f3b550)
+- [Get started with App Builder in Microsoft 365 Copilot](https://support.microsoft.com/topic/build-apps-with-microsoft-365-copilot-a50c7eb7-ed36-45b5-baa4-b24e70f3b550)
 
