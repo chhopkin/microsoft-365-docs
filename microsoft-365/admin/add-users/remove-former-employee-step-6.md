@@ -29,7 +29,7 @@ description: "You can remove a former employee's Microsoft 365 license, and then
 
 # Step 6 - Remove and delete the Microsoft 365 license from a former employee
 
-If you don't want to pay for a license after someone leaves your organization, you need to remove their Microsoft 365 license and then delete it from your subscription. You can assign a license to another user if you don't delete it. Before you remove a license you _must_ remove all holds for the user. For more information about holds, see [Remove an In-Place Hold in Exchange Online](/exchange/security-and-compliance/create-or-remove-in-place-holds).
+If you don't want to pay for a license after someone leaves your organization, you need to remove their Microsoft 365 license and then delete it from your subscription. You can assign a license to another user if you don't delete it. Before you remove a license, you _must_ remove all holds for the user. For more information about holds, see [Remove an In-Place Hold in Exchange Online](/exchange/security-and-compliance/create-or-remove-in-place-holds).
 
 If the mailbox needs to be accessed by authorized people who have been granted eDiscovery permissions for compliance or legal reasons, it must be assigned an Exchange Online Plan 2 license (or an Exchange Online Plan 1 license with an Exchange Online Archiving add-on license) so that a hold can be applied to the mailbox before it's deleted. After the user account is deleted, any Exchange Online license associated with the user account will be available to assign to a new user.
   
@@ -44,7 +44,7 @@ When you remove the license, all that user's data is held for 30 days. You can [
 
 2. Select the name of the employee that you want to block, and then select the **Licenses and Apps** tab.
 
-3. Clear the check boxes for the license(s) you want to remove, and then select **Save changes**.
+3. Clear the check boxes for the licenses you want to remove, and then select **Save changes**.
 
 ## Reduce the number of licenses
 
@@ -60,7 +60,7 @@ To reduce the number of licenses you're paying for until you hire another person
 
 5. Select **Save**.
 
-When you [add another person](add-users.md) to your business, you'll be prompted to buy a license at the same time, with just one step!
+When you [add another person](add-users.md) to your business, you are prompted to buy a license at the same time, with just one step!
 
 For more information about managing user licenses for Microsoft 365 for business, see [Assign licenses to users in Microsoft 365 for business](../manage/assign-licenses-to-users.md), and [Assign or unassign licenses for users in the Microsoft 365 admin center](../manage/assign-licenses-to-users.md).
   
@@ -68,7 +68,7 @@ For more information about managing user licenses for Microsoft 365 for business
 
 When you remove a user's license from Microsoft 365, the PSTN calling number associated with the user will be released. You can assign it to another user.
   
-If the user belongs to a queue group, they will no longer be a viable target of the call queue agents. So, we recommend also removing the user from the groups associated with the call queue.
+If the user belongs to a queue group, they're no longer a viable target of the call queue agents. So, we recommend also removing the user from the groups associated with the call queue.
 
 ## Set up call forwarding to people in your organization
 
