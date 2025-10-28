@@ -35,20 +35,29 @@ If the mailbox needs to be accessed by authorized people who have been granted e
   
 When you remove the license, all that user's data is held for 30 days. You can [access](get-access-to-and-back-up-a-former-user-s-data.md) the data, or [restore](restore-user.md) the account if the user comes back. After 30 days, all the user's data (except for documents stored on SharePoint Online) is permanently deleted from Microsoft 365 and can't be recovered.
 
+> [!NOTE]
+> You must have appropriate permissions through a role, such as [License Administrator](/entra/identity/role-based-access-control/permissions-reference#license-administrator) or [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator) to perform the tasks in this article. 
+
 ## Remove licenses
 
-1. In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.
+1. In the Microsoft 365 admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.
+
 2. Select the name of the employee that you want to block, and then select the **Licenses and Apps** tab.
+
 3. Clear the check boxes for the license(s) you want to remove, and then select **Save changes**.
 
-### Reduce the number of licenses
+## Reduce the number of licenses
 
 To reduce the number of licenses you're paying for until you hire another person, do the following steps:
 
-1. In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.
+1. In the Microsoft 365 admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.
+
 2. Select the subscription from which you want to remove licenses.
+
 3. On the subscription page, select **Remove licenses**.
+
 4. In the **Remove licenses** pane, under New quantity, in the **Total licenses** box, enter the total number of licenses that you want for this subscription. For example, if you have 25 licenses and you want to remove one of them, enter 24.
+
 5. Select **Save**.
 
 When you [add another person](add-users.md) to your business, you'll be prompted to buy a license at the same time, with just one step!
