@@ -10,7 +10,7 @@ ms.update-cycle: 180-days
 ms.date: 10/15/2025
 audience: Admin
 ms.reviewer: briandesouza
-ms.topic: get-started
+ms.topic: release-notes
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.collection:
