@@ -4,7 +4,7 @@ f1.keywords:
 ms.author: lauragra
 author: lauragra
 manager: calvind
-ms.date: 07/17/2025
+ms.date: 10/27/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: troubleshooting
@@ -43,7 +43,7 @@ If a model is deleted, it can't be recovered. Make sure you have the correct per
 
 If the training data is insufficient, you get an error message. Make sure you have enough training data after filtering.
 
-## While completing the configuration, I get an error message
+## During the configuration, I get an error message
 
 If you see an error message during the configuration, retry the process after some time. It might be due to service outages or other temporary issues.
 
@@ -64,6 +64,3 @@ If the selected security groups don't have access to the required knowledge sour
 - [Copilot Tuning admin guide](copilot-tuning-admin-guide.md)
 - [Microsoft 365 Copilot Tuning overview (preview)](copilot-tuning-overview.md)
 - [Copilot Tuning FAQ](copilot-tuning-faq.yml)
-
-
-
