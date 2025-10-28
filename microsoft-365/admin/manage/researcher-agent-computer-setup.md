@@ -42,13 +42,13 @@ Follow these instructions to configure admin settings for Researcher Agent with 
 
 3. Customize users that have access to Researcher with Computer use.
 
-a. There are three options for configuring who has access to the experience-
+        a. There are three options for configuring who has access to the experience-
 
-    - Allow all users in your organization
-    - Allow specific users or groups only
-    - No users in your organization
+        - Allow all users in your organization
+        - Allow specific users or groups only
+        - No users in your organization
 
-b. For users that have it disabled, the **Computer Use** option will appear grayed out.
+        b. For users that have it disabled, the **Computer Use** option will appear grayed out.
 
 :::image type="content" source="../../media/agents/computer-use-enabled.png" alt-text="Screenshot showing the Computer use option enabled in Researcher Agent." lightbox="../../media/agents/computer-use-enabled.png":::
 
@@ -63,6 +63,7 @@ b. For users that have it disabled, the **Computer Use** option will appear gray
     c. When disabled, the **Work** source will appear grayed out and not selectable.
 
 :::image type="content" source="../../media/agents/work-toggle-enabled.png" alt-text="Screenshot showing the Work option enabled in Researcher Agent." lightbox="../../media/agents/work-toggle-enabled.png":::
+
 :::image type="content" source="../../media/agents/work-toggle-disabled.png" alt-text="Screenshot showing the Work option disabled in Researcher Agent." lightbox="../../media/agents/work-toggle-disabled.png":::
 
 5. Select which websites are allowed for Computer use
@@ -78,7 +79,5 @@ b. For users that have it disabled, the **Computer Use** option will appear gray
 6. After completing the set up, contact the Researcher Agent team to enable the experience.
 
 Contact the Researcher Agent team or your CAPE contact to let us know you're ready for your tenant to be enabled using admin settings.
-
-
 
 It takes 24 hours for the **Computer use** option to appear in Researcher agent for the specific users listed in admin settings. After Researcher for Computer use has been enabled for your tenant, you can continue to make changes to and update the admin settings.
