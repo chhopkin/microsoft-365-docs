@@ -61,6 +61,8 @@ You can manage several types of agents in Microsoft 365 Copilot, each serving di
 - **First-party agents**: Developed by Microsoft and integrated with Microsoft 365 services.
 - **External agents**: Created by external developers or vendors. You can control their availability and permissions.
 - **Frontier agents**: Experimental or advanced agents that use new capabilities or integrations. These might be in early stages of development or testing and could require more oversight or limited rollout.
+- **Flow Builder agent**: A type of Frontier agent developed by Microsoft that can be managed as part of Microsoft 365 Copilot. Flows created in Copilot are saved to the default environment (unless [environment routing](/power-platform/admin/default-environment-routing#turn-on-environment-routing-in-the-admin-center) is enabled for Copilot Studio). You can also manage flows using the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+- **App Builder agent**: A type of Frontier agent developed by Microsoft that can be managed as part of Microsoft 365 Copilot. You can also manage App Builder using [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 - **Workflows agent**: A type of Frontier agent developed by Microsoft that can be managed as part of Microsoft 365 Copilot. Flows created in Copilot are saved to the default environment (unless [environment routing](/power-platform/admin/default-environment-routing?tabs=new#turn-on-environment-routing-in-the-admin-center) is enabled for Copilot Studio). You can also manage flows using the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 
 ## Get started
