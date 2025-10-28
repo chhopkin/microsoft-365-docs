@@ -53,9 +53,9 @@ Discovering, monitoring, and managing AI apps is essential to prevent data leaks
 
 DSPM for AI provides your security and compliance team to discover AI activity, protect data in AI prompts, and govern data handling. [Learn more about DSPM for AI](/purview/dspm-for-ai?tabs=m365).
 
-1. Create or activate Purview policies. DSPM for AI includes default policies that you can activate. See [One-click policies from Data Security Posture Management for AI](/purview/dspm-for-ai-considerations#one-click-policies-from-data-security-posture-management-for-ai).
+1. **Create or activate Purview policies**. DSPM for AI includes default policies that you can activate. See [One-click policies from Data Security Posture Management for AI](/purview/dspm-for-ai-considerations#one-click-policies-from-data-security-posture-management-for-ai).
 
-2. After your policies are deployed, you can view generative AI events in the activity explorer and in audit logs. Examples of such events include:
+2. **After your policies are deployed, you can view generative AI events in the activity explorer and in audit logs**. Examples of such events include:
 
    - User interactions with a generative AI site
    - Data Loss Prevention (DLP) rules matched during user interactions with a generative AI site
@@ -63,7 +63,7 @@ DSPM for AI provides your security and compliance team to discover AI activity, 
 
    For more information, see [Activity explorer events](/purview/dspm-for-ai-considerations#activity-explorer-events) and [Audit logs for Copilot and AI applications](/purview/audit-copilot).
 
-3. Configure DLP policies for the Microsoft Edge browser and [block other browsers](/deployedge/microsoft-edge-management-service-customizations#block-other-browsers). This action prevents users from accessing unmanaged AI apps in unprotected browsers. For more information, see [Activate your DLP policy in Microsoft Edge](/deployedge/microsoft-edge-dlp-purview-configuration).
+3. **Configure DLP policies for the Microsoft Edge browser** and [block other browsers](/deployedge/microsoft-edge-management-service-customizations#block-other-browsers). This action prevents users from accessing unmanaged AI apps in unprotected browsers. For more information, see [Activate your DLP policy in Microsoft Edge](/deployedge/microsoft-edge-dlp-purview-configuration).
 
 ## Use Defender for Cloud Apps to discover, monitor, or block generative AI apps
 
