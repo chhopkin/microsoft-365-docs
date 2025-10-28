@@ -136,7 +136,17 @@ To manage access to Copilot agents, follow these steps:
 
 1. Select **Save** to update your Copilot agent settings for your tenant.
 
-### Disable Copilot access
+### Sharing control for Agent builder agents
+
+After creating an agent in Copilot Studio (lite), users today get an option to share with "Anyone in the organization" or specific user groups.
+
+:::image type="content" source="../../media/agents/copilot-studio-share-feature.png" alt-text="Screenshot showing the option to share with anyone in the organization or specific user groups." lightbox="../../media/agents/copilot-studio-share-feature.png":::
+
+This feature allows admins to control the "Anyone in the organization" sharing option. Admins can disable it for all users, no users, or a selected group. Users can still share with specific users and groups.
+
+:::image type="content" source="../../media/agents/copilot-studio-share-specific-group.png" alt-text="Screenshot showing the control to disable the anyone in the organization option for all, none, some users." lightbox="../../media/agents/copilot-studio-share-specific-group.png":::
+
+###  Disable Copilot access 
 
 You can remove users from the Microsoft 365 Copilot sign-in page or restrict their access through the [Microsoft 365 Admin Center](https://admin.microsoft.com/).
 
@@ -274,7 +284,7 @@ Use the following steps to view your organization’s agent inventory:
 
 When you have several agents in your inventory, you can narrow the list based on different filters. Common filters include, **Type**, **Availability**, **Supported in**, and **Created in**.
 
-The **Type** filter allows you to view agents based on the their creation method. The following list provides the different **Type** options:
+The **Type** filter allows you to view agents based on their creation method. The following list provides the different **Type** options:
 
 - **Custom** - Agents created by members of your organization using **Copilot Studio (full)**.
 - **Shared** - Agents created by members of your organization using **Copilot Studio (lite)**.
@@ -283,7 +293,7 @@ The **Type** filter allows you to view agents based on the their creation method
 
 ### Availability filter
 
-The **Availablity** filter shows which specific agents are avialable to members of your organization. The following list provides the different **Availability** options:
+The **Availability** filter shows which specific agents are available to members of your organization. The following list provides the different **Availability** options:
 
 - **Some users** - Agents that are specifically available to only selected users or groups at your organization.
 - **No users** - Agents that are unavailable to all users at your organization are listed.
@@ -334,7 +344,7 @@ The **Details** tab provides metadata about the agent, including details such as
 
 :::image type="content" source="../../media/agents/details.png" alt-text="Screenshot showing the Details tab for an agent." lightbox="../../media/agents/details.png":::
 
-### Agent security & complicance tab
+### Agent security & compliance tab
 
 The **Security & compliance** tab provides certification information about the agent. You can view key details about the following areas:
 
