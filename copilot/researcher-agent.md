@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 10/23/2025
+ms.date: 10/28/2025
 audience: Admin
 ms.reviewer: dansimp
 ms.topic: overview
@@ -20,21 +20,58 @@ appliesto:
   - ✅ Microsoft 365 Copilot
 ---
 
-# Researcher Agent overview and usage
+# Get started with Researcher Agent in Microsoft 365 Copilot
 
-Researcher is an advanced AI Copilot agent in Microsoft 365 designed to tackle complex, multi-step questions by acting as a deep research assistant. Unlike a standard Copilot chat which responds almost instantly in one step, Researcher engages in an iterative reasoning process - asking clarifying questions, searching through enterprise data and web sources, invoking other specialized agents if needed, and finally producing a detailed, source-backed report-style answer.
+## Overview of Researcher Agent
 
-## Architecture
+Researcher Agent is your intelligent assistant inside Microsoft 365 Copilot- built to tackle complex, multistep research, and deliver a thorough, source-cited report to help you make decisions faster. It draws from the web and, at work, from the files, emails, meetings, and chats you have access to.
 
-Researcher's architecture is built on the Microsoft 365 Copilot platform, leveraging a multi-tier agent orchestration model. In simple terms, Researcher is a Copilot chat agent with a specialized workflow: it interprets your question, plans a research strategy, uses various tools to gather information, and then generates a detailed answer. Several components work together behind the scenes:
+## How Researcher Agent differs from the standard Copilot experience?
 
-- **Copilot Orchestrator**- The Copilot service hosts and manages the Researcher agent. It maintains the conversation state and coordinates function calls (like searches or invoking sub-agents) on behalf of the AI. This orchestrator enables Researcher to perform complex sequences of actions rather than just answering immediately.
+Researcher Agent is designed for deeper reasoning of your tasks. It excels at tackling complex tasks that require thoughtful analysis. By taking longer processing time, Researcher agent delivers a more comprehensive, insightful response
+The standard Copilot experience helps with a broad range of everyday tasks across Microsoft 365 apps. It's optimized for speed and efficiency and is great for quicker tasks like summarizing emails or drafting short replies.
 
-- **Advanced Reasoning LLM**- Instead of the regular chat model, Researcher uses a dedicated large Language Model optimized for reasoning. This model is fine-tuned to support lengthy, multi-step thought processes.
+| Use this when you... | Choose |
+|---------|---------|
+| **Need a quick summary, a short reply, or lightweight brainstorming** | Standard Copilot chat |
+| **Need deeper reasoning, solving problems across multiple sources (web + your work), and a report you can share** | Researcher Agent |
+| **Want citations and a clean structure (headings, bullets, visuals) that help you present or decide** | Researcher Agent |
+| **Have a back and forth task, but not heavy analysis** | Standard Copilot chat |
 
-- **Integrated tools and connectors**- Researcher can tap into various data sources and tools as it works on your query. It has access to your Microsoft 365 "Work" data (emails, Teams chats, OneDrive/SharePoint files, meeting transcripts, etc.) through Microsoft Graph, and it can perform enterprise searches across all that content.
+These distinctions are by design. Researcher Agent deliberately spends more time retrieving and analyzing to write a more in-depth analysis.
 
-- **Connected Sub-Agents**- A unique aspect of Researcher is its ability to delegate subtasks to other Copilot agents. It treats certain domain-specific agents as "specialist helpers." For example, if your question involves sales data, Researcher can invoke the Sales Insights agent (which knows how to fetch CRM data from Dynamics 365) and incorporate that input into the answer. Similarly, it could call a Power BI agent to get a chart or a summary of a report.
+## Why use Researcher Agent?
+
+- **Saves you hours**: It pulls from your work content and the web and composes a structured, reasoned response.
+- **Trust building**: It shows sources and organizes findings so you can verify and share with confidence.
+- **Fits how you work**: It’s right inside Microsoft 365 Copilot; at work, it respects the same permissions, policies, and compliance you already rely on.
+
+## What does the final Researcher Agent response look like?
+
+- **Visuals, charts, and graphs** to make content easier to understand
+- **Organized sections** that help you present findings clearly
+- **Cited sources** so you can trust the information
+
+## Where can you find Researcher Agent?
+
+Sign into the [Microsoft 365 Copilot app](https://m365.cloud.microsoft/chat/?titleId=P_552e6eda-fc18-7fb9-0ef6-1bf2de3393e4). You can find **Researcher** under **Agents** in Chat.
+
+## How do you use Researcher Agent?
+
+Open Researcher in Microsoft 365 Copilot, ask your question, and let it gather insights from trusted sources. Receive a clear report with key findings and next steps to act on.
+
+:::image type="content" source="../../copilot/media/researcher-agent-workflow.png" alt-text="Screenshot showing the Microsoft 365 Researcher Agent workflow." lightbox="../../copilot/media/researcher-agent-workflow.png":::
+
+## How to get the best results from Researcher Agent?
+
+**Be specific in your prompt**
+Clear and detailed questions lead to more focused and reliable results.
+
+**Define your search scope**
+Decide whether you want data from workplace resources, the web, or both. This helps create a more targeted and relevant report.
+
+**Engage with clarifying questions**
+Researcher may ask clarifying questions to guide the output and keep you involved. This phase is important to help you steer the research and ensure the final report meets your needs.
 
 ## Related content
 
