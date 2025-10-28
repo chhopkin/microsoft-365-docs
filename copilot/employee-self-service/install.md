@@ -41,24 +41,26 @@ After completing the required steps in the [preparation](prepare.md) stage, you 
 ## Set up a preferred solution
 
 1. Set up a preferred solution before performing any customizations, as the default solution contains all the core components of Dataverse, which can't be exported or imported into another environment.
-1. Based on the application lifecycle management guidelines, create a new unmanaged solution in the Dev. environment so the customizations can be performed and exported as managed solution to a Test/UAT/PROD environment.
-1. Select **Solutions** in the left navigation pane.
+1. Based on the application lifecycle management guidelines, create a *new unmanaged solution* in the Dev environment so the customizations can be performed and exported as managed solution to a Test/UAT/PROD environment.
+1. Select the elipsis (**...**) in the left navigation pane and then select the **Solutions** option from the pop-out menu.
 1. Select **+New solution** and fill in the required information.
+    1. Display name
+    1. Name
+    1. Publisher
+    1. Version
 1. Provide publisher information. Make sure to provide the prefix value, which is used to create objects for this solution prefixed with the given string. For example, if your prefix is "contoso," a new object might be named "contoso_Object".
-1. Select **Create** to finish creating the solution.
+1. Select the **Create** button to finish creating the solution.
 1. Select **Back to solutions** in the left navigation pane.
 1. Select the ellipsis (**...**) and choose **Set preferred solution** for the new solution that you created.
 
 > [!NOTE]
-> If you intend to create both the HR and IT agents, you need to repeat this process.
+> If you intend to create both the HR and IT agents, you need to repeat this process. You must install agents one at a time.
 
 ## Install the ESS agent
 
 1. Go to the Copilot Studio home page.
 1. Select **Create** in the navigation pane. This action should show the **Employee Self-Service** agent on the **Explore agents** page. If you created both an *Employee HR Self-Service agent and an **Employee IT Self-Service agent, you should see them both.
 1. Select the Employee Self-Service agent and choose **Install** in the popup.
-
-XXX If both are selected can they both be installed at the same time?
 
 The ESS agent is now installed in your selected Power Platform environment with a preferred solution that can be exported and imported into another environment.
 
