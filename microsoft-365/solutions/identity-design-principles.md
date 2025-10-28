@@ -1,13 +1,13 @@
 ---
 title: To identity and beyond—One architect's viewpoint
 description: Learn about top design strategies for Microsoft Enterprise architecture from Alex Shteynberg, Technical Principal Architect at Microsoft.
-ms.author: bcarter
-author: brendacarter
-manager: bcarter
+author: dansimp
+ms.author: dansimp
+manager: dansimp
 ms.date: 1/24/2024
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: medium
 ms.collection:
 - highpri

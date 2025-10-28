@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 10/19/2025
+ms.date: 10/27/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -52,7 +52,7 @@ To block or unblock shared agents in your organization, sign in with one of the 
 
 ## Methods to share an agent
 
-Members of your organization can share agents they create with others in your organization. However, the methods to share an agent depend on how the agent was created.
+Members of your organization can share agents they create with others in your organization. However, the methods to share an agent depend on how the agent was created. The shared agents listed in the agent inventory in the M365 admin center are shared from Copilot Studio (lite). However, the tool your organization's users, makers, and developers use to create an agent will allow different methods of sharing.
 
 The following table provides the different methods that can be used to share an agent:
 
@@ -60,7 +60,7 @@ The following table provides the different methods that can be used to share an 
 |---|---|
 | Share agents from SharePoint | Members of your organization can share declarative agents they created in SharePoint. These agents can only be shared in Microsoft Teams.  |
 | Share agents from Copilot Studio (lite) | Members of your organization can share declarative agents they created in Copilot Studio (lite). These agents can be shared in Microsoft Teams and the Microsoft Copilot app. |
-| Share Copilot agents and custom engine agents from Copilot Studio (full) | Members of your organization can share Copilot agents and custom engine agents they create in Copilot Studio (full). These agents can only be shared with a limited group at your organization. Sharing agents from Copilot Studio (full) is used for collaborative testing purposes. When the agent maker is ready, they can publish these agents for admin approval. This allows these agents to reach a wider internal audience from the organization catalog. |
+| Share Copilot agents and custom engine agents from Copilot Studio (full) | Members of your organization can share Copilot agents and custom engine agents they create in Copilot Studio (full). These agents can only be shared with a limited group at your organization. Sharing agents from Copilot Studio (full) is used for collaborative testing purposes. When the agent maker is ready, they can publish these agents for admin approval. The admin can see a list of requested angents in the M365 admin center and choose to **Publish** to your organizational catalog or **Reject** the agent. This method allows these agents to reach a wider internal audience when published to the organization catalog. |
 | Share agents created with Microsoft 365 Agents Toolkit | You can share and collaborate with members of your organization from your development environment. For more information, see [Publish your Microsoft Teams app](/microsoftteams/platform/concepts/deploy-and-publish/apps-publish-overview). |
 
 ## Block a shared agent
@@ -117,6 +117,19 @@ To help administrators manage these scenarios, the Microsoft 365 Admin Center no
 1. Locate the **Missing an Owner** tab.
 1. Select the tab to filter **Agent inventory**.
 1. Review the list of ownerless agents and take appropriate actions such as blocking or deleting the agent.
+
+## Reassign ownership of shared agents
+
+ IT administrators can reassign ownership of shared agents created in *Copilot Studio Lite* via the **Microsoft 365 Admin Center > Agents**. The reassignment requires the new owner to have a Copilot license.
+
+### Steps to reassign ownership
+
+1. In the admin center, go to **Copilot** > **Agents**.
+2. Locate and select the shared agent you want to reassign. For example, Contoso GPT.
+3. Select **Assign new owner** and choose a new owner from your organization. You can only reassign agents to users with a Copilot license.
+
+The new owner gains full **Edit** and **Delete** permissions, along with access to any files uploaded by the previous owner. The previous owner loses all access, including **Read** rights.
+When an agent created in **Agent Builder** is reassigned, the new owner will see the agent listed under their account in My Agents.
 
 ## Export to Excel
 

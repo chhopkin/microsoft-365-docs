@@ -136,7 +136,17 @@ To manage access to Copilot agents, follow these steps:
 
 1. Select **Save** to update your Copilot agent settings for your tenant.
 
-### Disable Copilot access
+### Sharing control for Agent builder agents
+
+After creating an agent in Copilot Studio (lite), users today get an option to share with "Anyone in the organization" or specific user groups.
+
+:::image type="content" source="../../media/agents/copilot-studio-share-feature.png" alt-text="Screenshot showing the option to share with anyone in the organization or specific user groups." lightbox="../../media/agents/copilot-studio-share-feature.png":::
+
+This feature allows admins to control the "Anyone in the organization" sharing option. Admins can disable it for all users, no users, or a selected group. Users can still share with specific users and groups.
+
+:::image type="content" source="../../media/agents/copilot-studio-share-specific-group.png" alt-text="Screenshot showing the control to disable the anyone in the organization option for all, none, some users." lightbox="../../media/agents/copilot-studio-share-specific-group.png":::
+
+###  Disable Copilot access 
 
 You can remove users from the Microsoft 365 Copilot sign-in page or restrict their access through the [Microsoft 365 Admin Center](https://admin.microsoft.com/).
 
@@ -254,11 +264,27 @@ Blocking or unblocking an agent created using Copilot Studio (lite) and Copilot 
 
 ## Agent inventory
 
-In Microsoft 365 admin center you can view your organization’s available agents and where members of your organization can find each agent based on supported functionality. The agent inventory is provided as a list. When you have several agents in your inventory, you can narrow the list based on different filters. Common filters include, **Type**, **Availability**, **Supported in**, and **Created in**.
+You can manage your organization’s available agents in the Copilot Control System (CCS) within [Microsoft 365 admin center](https://admin.microsoft.com/). The CCS allows you to configure agent settings, including the individual agents that you can manage and deploy to members of your organization. Also, you can determine where members of your organization can find each agent based on supported functionality. The agent inventory is provided as a list.
+
+Use the following steps to view your organization’s agent inventory:
+
+1. Open [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
+2. Select **Copilot** > **Agents**.
+3. Filter your agent inventory:
+    1. Next to **Filters**, select **Availability** > **All users**.
+    Note the **Support in** column to recognize where the agent can be used by members of your organization.
+    Clear all filters after reviewing the list.
+    2. Below Agent inventory, select Missing an owner.
+    Consider removing agents that no longer have an owner.
+    Clear all filters after reviewing the list.
+    3. Next to Filters, select Availability > No users.
+    Note which agents aren't available to members of your organization. Consider specifically deploying agents that your organization requires and blocking unneeded agents.
 
 ### Type filter
 
-The **Type** filter allows you to view agents based on the their creation method. The following list provides the different **Type** options:
+When you have several agents in your inventory, you can narrow the list based on different filters. Common filters include, **Type**, **Availability**, **Supported in**, and **Created in**.
+
+The **Type** filter allows you to view agents based on their creation method. The following list provides the different **Type** options:
 
 - **Custom** - Agents created by members of your organization using **Copilot Studio (full)**.
 - **Shared** - Agents created by members of your organization using **Copilot Studio (lite)**.
@@ -267,7 +293,7 @@ The **Type** filter allows you to view agents based on the their creation method
 
 ### Availability filter
 
-The **Availablity** filter shows which specific agents are avialable to members of your organization. The following list provides the different **Availability** options:
+The **Availability** filter shows which specific agents are available to members of your organization. The following list provides the different **Availability** options:
 
 - **Some users** - Agents that are specifically available to only selected users or groups at your organization.
 - **No users** - Agents that are unavailable to all users at your organization are listed.
@@ -318,7 +344,7 @@ The **Details** tab provides metadata about the agent, including details such as
 
 :::image type="content" source="../../media/agents/details.png" alt-text="Screenshot showing the Details tab for an agent." lightbox="../../media/agents/details.png":::
 
-### Agent security & complicance tab
+### Agent security & compliance tab
 
 The **Security & compliance** tab provides certification information about the agent. You can view key details about the following areas:
 
