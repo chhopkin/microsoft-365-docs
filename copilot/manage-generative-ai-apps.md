@@ -41,11 +41,11 @@ Discovering, monitoring, and managing AI apps is essential to prevent data leaks
    - See [Microsoft Purview permissions](/purview/purview-permissions#microsoft-purview-permissions)
    - See [Microsoft 365 and Microsoft Entra roles with access to Defender for Cloud Apps](/defender-cloud-apps/manage-admins#microsoft-365-and-microsoft-entra-roles-with-access-to-defender-for-cloud-apps)
 
-- **If you're using DSPM for AI, configure Purview**. Select one or more of the [Microsoft Purview deployment models](/purview/deploymentmodels/depmod-overview), which include:
+- **If you want to use DSPM for AI, configure Purview**. Select one or more of the [Microsoft Purview deployment models](/purview/deploymentmodels/depmod-overview), which include:
    - [Secure by default](/purview/deploymentmodels/depmod-securebydefault-intro)
    - [Purview Data Security Posture Management](https://aka.ms/DSPMBlueprintPDF)
 
-- **If you're using Defender for Cloud Apps, [set up Microsoft Defender XDR](/defender-xdr/pilot-deploy-overview)**, which includes these components:
+- **If you want to use Defender for Cloud Apps, [set up Microsoft Defender XDR](/defender-xdr/pilot-deploy-overview)**, which includes these components:
    - [Microsoft Defender for Cloud Apps](/defender-xdr/pilot-deploy-defender-cloud-apps)
    - [Microsoft Defender for Endpoint](/defender-xdr/pilot-deploy-defender-endpoint)
 
