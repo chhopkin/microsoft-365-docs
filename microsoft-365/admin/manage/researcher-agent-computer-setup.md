@@ -20,17 +20,17 @@ appliesto:
   - ✅ Microsoft 365 Copilot
 ---
 
-# Researcher Agent with Computer use set up
+# Researcher Agent with Computer Use set up
 
 ## Overview
 
-Researcher with Computer use is a powerful extension that builds on the capabilities of the Researcher agent. With Computer use, Researcher agent can securely interact with public, gated, and interactive web content through virtual computer-enabling users to uncover deeper insights, take action, and generate richer reports grounded in both their work data and the web. For more details, see [Use Researcher with Computer use in Microsoft 365 Copilot]().
+Researcher with Computer Use is a powerful extension that builds on the capabilities of the Researcher agent. With Computer Use, Researcher agent can securely interact with public, gated, and interactive web content through virtual computer-enabling users to uncover deeper insights, take action, and generate richer reports grounded in both their work data and the web. For more details, see [Use Researcher with Computer use in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/1f274537-6648-46e8-8264-052a49b92af4?preview=true).
 
-:::image type="content" source="../../media/agents/computer-use-active-option.png" alt-text="Screenshot showing the computer use option active in Researcher Agent." lightbox="../../media/agents/computer-use-active-option.png":::
+:::image type="content" source="../../media/agents/computer-use-active-option.png" alt-text="Screenshot showing the computer use option active in Researcher agent." lightbox="../../media/agents/computer-use-active-option.png":::
 
-## Configure admin settings for Researcher Agent with Computer use
+## Configure admin settings for Researcher agent with Computer Use
 
-Follow these instructions to configure admin settings for Researcher Agent with **Computer use** by following the setup instructions. After setup is complete, contact us to enable the experience for your tenant. The experience will follow the admin settings you've configured.
+Follow these instructions to configure admin settings for Researcher agent with **Computer Use** by following the setup instructions. After setup is complete, contact us to enable the experience for your tenant. The experience will follow the admin settings you've configured.
 
 1. Navigate to [Microsoft Admin Controls (MAC) Agents](https://admin.cloud.microsoft/?#/copilot/agents) page.
 
@@ -40,7 +40,7 @@ Follow these instructions to configure admin settings for Researcher Agent with 
 
 :::image type="content" source="../../media/agents/computer-use-researcher-agent.png" alt-text="Screenshot showing the option to allow Researcher to access work data." lightbox="../../media/agents/computer-use-researcher-agent.png":::
 
-3. Customize users that have access to Researcher with Computer use.
+3. Customize users that have access to Researcher with Computer Use.
 
     a. There are three options for configuring who has access to the experience-
 
@@ -50,11 +50,11 @@ Follow these instructions to configure admin settings for Researcher Agent with 
 
     b. For users that have it disabled, the **Computer Use** option will appear grayed out.
 
-:::image type="content" source="../../media/agents/computer-use-enabled.png" alt-text="Screenshot showing the Computer use option enabled in Researcher Agent." lightbox="../../media/agents/computer-use-enabled.png":::
+:::image type="content" source="../../media/agents/computer-use-enabled.png" alt-text="Screenshot showing the Computer Use option enabled in Researcher Agent." lightbox="../../media/agents/computer-use-enabled.png":::
 
-:::image type="content" source="../../media/agents/computer-use-disabled.png" alt-text="Screenshot showing the Computer use option disabled in Researcher Agent." lightbox="../../media/agents/computer-use-disabled.png":::
+:::image type="content" source="../../media/agents/computer-use-disabled.png" alt-text="Screenshot showing the Computer Use option disabled in Researcher Agent." lightbox="../../media/agents/computer-use-disabled.png":::
 
-4. Configure **Work access** for Researcher with Computer use
+4. Configure **Work access** for Researcher with Computer Use
 
     a. The work option allows users to toggle on **Work** in the Sources menu, allowing Researcher agent to leverage a user's work content, for example, emails, chats, files, with Computer Use.
     
@@ -62,11 +62,11 @@ Follow these instructions to configure admin settings for Researcher Agent with 
     
     c. When disabled, the **Work** source will appear grayed out and not selectable.
 
-:::image type="content" source="../../media/agents/work-toggle-enabled.png" alt-text="Screenshot showing the Work option enabled in Researcher Agent." lightbox="../../media/agents/work-toggle-enabled.png":::
+:::image type="content" source="../../media/agents/work-toggle-enabled.png" alt-text="Screenshot showing the Work option enabled in Researcher agent." lightbox="../../media/agents/work-toggle-enabled.png":::
 
-:::image type="content" source="../../media/agents/work-toggle-disabled.png" alt-text="Screenshot showing the Work option disabled in Researcher Agent." lightbox="../../media/agents/work-toggle-disabled.png":::
+:::image type="content" source="../../media/agents/work-toggle-disabled.png" alt-text="Screenshot showing the Work option disabled in Researcher agent." lightbox="../../media/agents/work-toggle-disabled.png":::
 
-5. Select which websites are allowed for Computer use
+5. Select which websites are allowed for Computer Use
 
     a. There are three options for configuring websites the virtual device can access-
 
@@ -76,8 +76,8 @@ Follow these instructions to configure admin settings for Researcher Agent with 
 
     b. You can allow "All websites", block some with the "Exclude specified" option, or only allow certain sites with the "Allow specified" option.
 
-### Learn more about Researcher with Computer use
+### Learn more about Researcher with Computer Use
 
-- [Overview of Research with Computer use]()
-- [How Researcher with Computer use works]()
+- [Overview of Research with Computer use](https://support.microsoft.com/en-us/topic/1f274537-6648-46e8-8264-052a49b92af4?preview=true)
+- [How Researcher with Computer use works](https://support.microsoft.com/en-us/topic/36f92600-62c7-47e6-bb31-95f8c81038fc?preview=true)
 - [Frequently asked questions]()
