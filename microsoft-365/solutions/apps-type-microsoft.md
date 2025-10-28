@@ -7,7 +7,7 @@ audience: ITPro
 ms.topic: concept-article
 ms.date: 04/21/2025
 description: Understand Microsoft apps as they apply to a managed environment.
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: high
 ms.collection:
 - highpri
