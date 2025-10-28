@@ -56,4 +56,4 @@ Exporting libraries can be useful if you would like to source control your libra
 > You must have already imported a **Custom** Skills library to be able to export it.
 
 ## Import **Custom** Skills Library
-See the [step by step guide.](./people-skills-manage-custom-skill.md).
+See the [step by step guide.](./people-skills-manage-custom-skill.md)
