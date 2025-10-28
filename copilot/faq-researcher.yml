@@ -6,7 +6,7 @@ metadata:
   ms.author: vpattnaik
   ms.service: microsoft-365-copilot
   ms.topic: faq
-  ms.date: 10/23/2025
+  ms.date: 10/28/2025
 
 title: "Microsoft 365 Copilot Researcher Agent frequently asked questions"
 summary: Researcher is an advanced AI Copilot agent in Microsoft 365 designed to tackle complex, multi-step questions by acting as a deep research assistant.
@@ -105,6 +105,6 @@ sections:
 
   - name: Other common questions
     questions:
-      - question: "Is Researcher suited for spreadsheet creation?"
-        answer: "Analyst is better suited for Excel tasks."
+      - question: "Is Researcher Agent suited for spreadsheet creation?"
+        answer: "Analyst is better suited for Microsoft Excel related tasks."
 
