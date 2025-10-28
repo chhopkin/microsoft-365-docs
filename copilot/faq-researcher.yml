@@ -33,7 +33,7 @@ sections:
       - question: "Is the Researcher Agent available on mobile devices (iOS and Android)?"
         answer: "Yes, it is available on iOS and Android in the Copilot mobile app."
       - question: "Can I enable Claude in Researcher Agent?"
-        answer: "Yes, Learn more about enabling [Claude in Researcher](connect-to-ai-models.md)."
+        answer: "Yes. Learn more about enabling [Claude in Researcher Agent](connect-to-ai-models.md)."
 
   - name: Administration and controls
     questions:
