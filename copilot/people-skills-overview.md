@@ -7,7 +7,7 @@ ms.collection: operations-pod
 manager: scotv
 ms.service: microsoft-365-copilot
 ms.topic: overview
-ms.date: 07/18/2025
+ms.date: 10/21/2025
 ---
 
 # Overview of People Skills

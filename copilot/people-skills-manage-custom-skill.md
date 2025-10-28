@@ -6,7 +6,7 @@ ms.author: kwekua
 ms.collection: operations-pod
 manager: scotv
 ms.service: microsoft-365-copilot
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/29/2025
 ---
 
@@ -14,7 +14,7 @@ ms.date: 05/29/2025
 
 If you didn't import custom skills as a part of your initial setup, you can add it later by following the steps mentioned in this article. You can also delete or export custom skills.
 
-## View your custom skills 
+## View your custom skills
 
 If custom skills were imported during initial setup, follow these steps to view them:
 
