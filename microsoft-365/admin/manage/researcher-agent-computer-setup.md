@@ -24,7 +24,7 @@ appliesto:
 
 ## Overview
 
-Researcher with Computer use is a powerful extension that builds on the capabilities of the Researcher agent. With Computer use, Researcher agent can securely interact with public, gated, and interactive web content through virtual computer-enabling users to uncover deeper insights, take action, and generate richer reports grounded in both their work data and the web.
+Researcher with Computer use is a powerful extension that builds on the capabilities of the Researcher agent. With Computer use, Researcher agent can securely interact with public, gated, and interactive web content through virtual computer-enabling users to uncover deeper insights, take action, and generate richer reports grounded in both their work data and the web. Learn more
 
 :::image type="content" source="../../media/agents/computer-use-active-option.png" alt-text="Screenshot showing the computer use option active in Researcher Agent." lightbox="../../media/agents/computer-use-active-option.png":::
 
@@ -56,7 +56,7 @@ Follow these instructions to configure admin settings for Researcher Agent with 
 
 4. Configure **Work access** for Researcher with Computer use
 
-    a. The work option allows users to toggle on **Work** in the Sources menu, allowing Researcher to leverage a user's work content, for example, emails, chats, files, with Computer Use.
+    a. The work option allows users to toggle on **Work** in the Sources menu, allowing Researcher agent to leverage a user's work content, for example, emails, chats, files, with Computer Use.
     
     b. When enabled by admins, users must still manually toggle on Work access.
     
@@ -76,8 +76,8 @@ Follow these instructions to configure admin settings for Researcher Agent with 
 
     b. You can allow "All websites", block some with the "Exclude specified" option, or only allow certain sites with the "Allow specified" option.
 
-6. After completing the set up, contact the Researcher Agent team to enable the experience.
+### Learn more about Researcher with Computer use
 
-Contact the Researcher Agent team or your CAPE contact to let us know you're ready for your tenant to be enabled using admin settings.
-
-It takes 24 hours for the **Computer use** option to appear in Researcher agent for the specific users listed in admin settings. After Researcher for Computer use has been enabled for your tenant, you can continue to make changes to and update the admin settings.
+- Overview of Research with Computer use
+- How Researcher with Computer use works
+- Frequently asked questions
