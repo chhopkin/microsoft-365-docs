@@ -56,7 +56,7 @@ sections:
   - name: Data protection and privacy
     questions:
       - question: "What are the data protection policies of Researcher agent?"
-        answer: "Researcher agent adheres to the following data protection policies. See [Microsoft 365 Copilot Privacy](../copilot/microsoft-365-copilot-privacy.md) and [Microsoft Privacy Statement](https://www.microsoft.com/en-us/privacy/privacystatement?msockid=02283d33f3b26a153db42c6af7b26c18)"
+        answer: "Researcher agent adheres to the following data protection policies. See [Microsoft 365 Copilot Privacy](../copilot/microsoft-365-copilot-privacy.md) and [Microsoft Privacy Statement](https://www.microsoft.com/privacy/privacystatement?msockid=02283d33f3b26a153db42c6af7b26c18)"
       - question: "Does Researcher agent adhere to DLP Policies?"
         answer: "Yes, Researcher agent adheres to DLP policies and follows the same policies as Microsoft 365 Copilot."
       - question: "Does Researcher agent adhere to Responsible AI standards?"
