@@ -3,13 +3,13 @@ title: Data Residency for Other Microsoft 365 Services
 description: Learn about Data Residency for Other Microsoft 365 Services
 ms.author: v-fahasen
 author: fhasen-msft
-manager: v-nihmi
+manager: Justin.Giammona
 ms.service: microsoft-365-enterprise
 ms.subservice: advanced-data-residency
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.reviewer: deanw
+ms.reviewer: jugiammo
 ms.date: 02/20/2025
 ms.custom:
 - it-pro
