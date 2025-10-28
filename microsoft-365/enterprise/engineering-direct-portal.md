@@ -42,7 +42,7 @@ The Engineering Direct Portal is located under **Support** within the Microsoft 
 1. Select **Support**.
 1. Select **Engineering Direct** to enter the portal.
 
-![Accessing the engineering direct portal](../media/eng-direct-portal/eng-direct-portal-launch.png)
+   ![Accessing the engineering direct portal](../media/eng-direct-portal/eng-direct-portal-launch.png)
 
 ## Overview Page
 
@@ -52,11 +52,11 @@ Once in the portal, you'll see the **Overview** page. This page contains several
 - **Insights: Key Metrics**: This tile lists both your engineering escalations and those escalations that have been resolved for the last six months. An issue is considered an 'engineering escalation' once it has been raised to and assigned to a Microsoft Engineering team member (either through our support organization, or through your usage of the "Escalate to Engineering" feature).
   - Total escalations include open or closed tickets
   - Active escalations include only those tickets that are open
-- **Customer Advisory Board (CAB)**: The CAB tile will list the last and next CAB events as well as the last and next community calls. This is informational only; registrations and calendar blockers will continue to be provided separately through existing process channels.
+- **Customer Advisory Board (CAB)**: The CAB tile will list the last and next CAB events as well as the last and next community calls. This is informational only; registrations and calendar blockers continue to be provided separately through existing process channels.
 - **Insights: Escalation Trend Per Week by Status**: A monthly view of escalations by open and closed for the last six months. This is a focused view of all reactive issues, filtered by all issues that have a Microsoft engineering element.
 - **Request A Feature**: Allows you to submit feedback or a request to the Engineering Direct Portal team. Feedback can be both related to the portal itself and its functionality, and any broader engineering features you would like to see in Engineering Direct. Feature requests submitted via this method are visible to users in your private **MyFeedback** section of the feedback portal.
 
-![Engineering direct portal overview page](../media/eng-direct-portal/eng-direct-portal-overview.png)
+  ![Engineering direct portal overview page](../media/eng-direct-portal/eng-direct-portal-overview.png)
 
 ## Insights Page
 
@@ -79,7 +79,7 @@ The **Insights** page provides detailed metrics, visuals, and lists on both your
     - **Escalate to Engineering – true or false** - represents whether the customer raised the issue directly to engineering
     - **Product** – service product
 
-![Engineering direct portal insights page](../media/eng-direct-portal/eng-direct-portal-insights.png)
+   ![Engineering direct portal insights page](../media/eng-direct-portal/eng-direct-portal-insights.png)
 
 ## Diagnostics Page
 
@@ -137,7 +137,7 @@ The **Visual Mail Flow Tree** is an interactive display showing the stages an em
 
 #### Investigating Further
 
-Select a tree node to view a flyout with other details, including recipients processed and node-specific properties for troubleshooting mail flow issues. The flyout contains other details for you to review and investigate. It contains a common “Recipients” property to show which recipients this node processed, and more node-specific properties that vary between nodes to help better troubleshoot mail flow issues.
+Select a tree node to view a flyout with other details, including recipients processed and node-specific properties for troubleshooting mail flow issues. The flyout contains other details for you to review and investigate. It contains a common "Recipients" property to show which recipients this node processed, and more node-specific properties that vary between nodes to help better troubleshoot mail flow issues.
 
 > [!TIP]
 > Emails sent to many recipients or large groups will take a longer time to query or could time out. Querying emails with fewer recipients could improve your experience.
@@ -170,12 +170,12 @@ This diagnostic tool is particularly useful in the following scenarios:
 
   Navigate to Microsoft Admin Center: 
 
-    - Sign in to the Microsoft Admin Center. 
-    - Go to the Diagnostics section. 
+    1. Sign in to the Microsoft Admin Center. 
+    1. Go to the Diagnostics section. 
 
   Select Validate DKIM Signing Configuration: 
 
-    - Choose the Validate DKIM Signing Configuration tool from the list of available diagnostics. 
+    1. Choose the Validate DKIM Signing Configuration tool from the list of available diagnostics. 
 
 - **Step 2: Input Required Information**
 
@@ -266,7 +266,7 @@ Follow the following steps to enable and customize Auto Archive settings based o
 
 ### Remediate a Compromised Account
 
-If you or your user suspects an account has been accessed by someone who shouldn’t have access, it may be compromised. The **Remediate a Compromised Account** diagnostic will help you check different aspects of the affected mailbox and guide you through the steps to recover the account. Please use this diagnostic if you or your user notice any signs that one of your user's accounts may have been compromised.
+If you or your user suspects an account has been accessed by someone who shouldn’t have access, it may be compromised. The **Remediate a Compromised Account** diagnostic will help you check different aspects of the affected mailbox and guide you through the steps to recover the account. Use this diagnostic if you or your user notice any signs that one of your user's accounts may have been compromised.
 
 This diagnostic is split into multiple sections that detail steps to remediate the account. Each step lists the actions required or links to an article that can be explained in more detail. Furthermore, there will be additional account details for each step, such as when the user last reset the password, what MFA is enabled on the account, and which IP addresses have accessed the mailbox.
 
@@ -276,15 +276,15 @@ This diagnostic is split into multiple sections that detail steps to remediate t
 
 #### Steps and Output
 
-1. Force Sign Out - First, it is important to force a user to sign out of all sessions:
+1. Force Sign Out - First, it's important to force a user to sign out of all sessions:
 
-    - Go to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/homepage).
+    1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/homepage).
 
-    - Navigate to _Users > Active users_.
+    1. Navigate to _Users > Active users_.
 
-    - Click on the desired user.
+    1. Click on the desired user.
 
-    - On the Account Tab, under _Sign-out_, select _Sign out of all sessions_.
+    1. On the Account Tab, under _Sign-out_, select _Sign out of all sessions_.
 
 2. Reset Password - [Reset the password.](/microsoft-365/admin/add-users/reset-passwords) Don't send the new password to the user through email, because the attacker may still have access to the mailbox. Be sure to use a strong and unique password: upper and lowercase letters, at least one number, and at least one special character.
 
@@ -336,9 +336,9 @@ The audit log summary provides a comprehensive overview or count of the activiti
 
 - Search the number of days prior to the current date (max 30 days)
 
-  - If you enter 10, the diagnostic will review the log for up to 10 days prior to the current date
+  - If you enter 10, the diagnostic will review the log for up to 10 days prior to the current date.
   
-  - If left blank, the diagnostic will run with the value of 7 days 
+  - If left blank, the diagnostic will run with the value of 7 days. 
   
 #### Outputs 
 
@@ -360,7 +360,7 @@ These settings at the organization-level are evaluated to check for misconfigura
 | -------- | -------- | -------- |
 |External collaboration setting’s guest invite setting 	|Microsoft Entra Admin Center |"No one in this organization can invite guest users including admins (most restrictive)"  "Only users assigned to specific admin roles can invite guests" |
 |M365 group guest settings 	|Microsoft Admin Center |Either one or both settings are turned off:   "Let group owners add people outside your organization to Microsoft 365 Groups as guests"  "Let guest group members access group content" |
-|SharePoint External Sharing settings |SharePoint Admin Center |"Only people in your organization" Existing guests only" |
+|SharePoint External Sharing settings |SharePoint Admin Center |"Only people in your organization" "Existing guests only" |
 |Guest Access setting |Teams Admin Center |Off |
 
 #### User-level Setup 
@@ -371,19 +371,19 @@ If a guest user is supplied as an input, the diagnostic verifies their account p
 
 In addition, this diagnostic also displays some settings that could affect your guest access experience. These settings are not evaluated for misconfiguration.  
 
-1. External collaboration’s collaboration restriction setting and guest user access restriction setting in Microsoft Entra Admin Center 
+1. External collaboration's collaboration restriction setting and guest user access restriction setting in Microsoft Entra Admin Center. 
 
     ![Guest user access restriction setting and collaboration restriction setting](../media/eng-direct-portal/eng-direct-portal-additional-settings-1.png)
 
-1. Guest feature settings in Teams Admin Center 
+1. Guest feature settings in Teams Admin Center. 
 
     ![Guest feature settings](../media/eng-direct-portal/eng-direct-portal-additional-settings-2.png)   
 
-1. Teams guest permissions in Teams app  
+1. Teams guest permissions in Teams app.  
 
     ![Teams guest permissions in Teams app](../media/eng-direct-portal/eng-direct-portal-additional-settings-3.png) 
 
-We aim for this diagnostic to resolve your guest access issues and provide a seamless guest experience in Teams. If problems persist, please reach out to Microsoft support for assistance. 
+We aim for this diagnostic to resolve your guest access issues and provide a seamless guest experience in Teams. If problems persist, reach out to Microsoft support for assistance. 
 
 ### Teams PSTN Calling Diagnostic
 
@@ -395,7 +395,7 @@ This diagnostic tool assists administrators in identifying and resolving issues 
 
 #### Running the Diagnostic 
 
-The diagnostic requires the affected user’s organizational email address. With a simple selection of the ‘Troubleshoot’ option, the tool starts analyzing the configuration, with results available in approximately 30 seconds. 
+The diagnostic requires the affected user's organizational email address. With a simple selection of the 'Troubleshoot' option, the tool starts analyzing the configuration, with results available in approximately 30 seconds. 
 
 #### Interpreting Diagnostic Results 
 
@@ -403,7 +403,31 @@ The diagnostic performs a series of configuration checks related to Teams Phone 
 
 #### Investigating Further 
 
-If the troubleshooting process does not resolve the PSTN calling issue, administrators are advised to contact Microsoft Support for more specialized assistance.  
+If the troubleshooting process doesn't resolve the PSTN calling issue, administrators are advised to contact Microsoft Support for more specialized assistance.  
+
+## (Private preview) Design Change Requests Page (DCR)
+ 
+The **Design Change Requests** page provides a high-level view of requests from customers to modify or enhance a product or feature or to introduce new capabilities. In this tab you will find a high-level report on the DCRs for your tenant, complete with useful metrics and graphs. This report is only inclusive of requests for products that are covered by the Engineering Direct offer. DCRs raised for other products will not be included.
+ 
+This page contains:
+1.  **Request Number** – Support case that was opened for the DCR Request
+2.  **Request Title** – Title of the support case raised.
+3.  **Customer Contact** – Who opened the case.
+4.  **Request Create Date** – Date the case was opened. The portal will only show cases that have been opened in the last 12 months.
+5.  **Escalation Status** – Status of the request. The status types that are shown are:
+    - **Engineering Review** – These items are still being reviewed by Microsoft and no decisions have been made.
+    - **Under consideration** – These items have been added to a list of change that we will consider for upcoming release cycles, but Microsoft hasn't committed to doing these changes.
+    - **Under development** – These are items that Microsoft has accepted and are being developed. Time may vary depending on how long development takes.
+    - **Completed** – Requests that Microsoft has completed or closed.
+    - **Rejected** – These items weren't accepted.
+6.  **Request Closed Date** – Date the case was completed.
+7.  **Product** – Product that the request was opened for.
+
+
+> [!NOTE]
+> This feature is currently available in private preview. To participate, contact your Advanced Cloud Engineer (ACE).
+
+![Engineering Direct Portal DCR Overview](..\media\eng-direct-portal\eng-direct-portal-dcr-overview.png)
 
 ## More information
 
