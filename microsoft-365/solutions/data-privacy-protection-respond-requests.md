@@ -8,7 +8,7 @@ manager: laurawi
 ms.date: 01/15/2025
 audience: ITPro
 ms.topic: solution-overview
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: medium
 ms.collection:
 - highpri

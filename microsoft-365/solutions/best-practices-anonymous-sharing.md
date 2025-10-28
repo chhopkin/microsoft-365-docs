@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 01/03/2024
 audience: ITPro
 ms.topic: best-practice
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.collection: 
 - highpri
 - Tier1
