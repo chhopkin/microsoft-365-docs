@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 09/17/2025
+ms.date: 10/28/2025
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -36,7 +36,7 @@ When a user leaves your organization and you need to immediately prevent their a
 
 ## Prerequisites
 
-To complete this action for standard users, you need to have the User Administrator or Helpdesk Administrator role.
+To complete this action for standard users, you must have an appropriate role aasigned, such as User Administrator or Helpdesk Administrator role.
 
 To sign out other administrators, you need to be a Global Administrator.
 
