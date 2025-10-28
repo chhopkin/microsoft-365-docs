@@ -94,7 +94,7 @@ You must activate third-party apps before you can assign them to users. The apps
 You can change the number of licenses owned by your organization.
 
 > [!NOTE]
-> Changing the number of licenses that you own only applies to apps bought with seat-based pricing.
+> Changing the number of licenses that you own only applies to apps bought with user-based pricing.
 
 1. In the admin center, go to the **Billing** > **Your products** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2125823" target="_blank">Apps</a> page.
 2. Find and select the app you want to manage.
@@ -130,7 +130,7 @@ You can cancel a software-as-a-service app from the app page.
 
 Customers can buy commercial marketplace offerings in 141 geographies as defined by the customer's billing address. Transactions can be completed in 17 currencies. The following table lists each supported geographic location, its [ISO 3166 two-digit alpha code](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes), and the assigned currency.
 
-A CSP can buy an offer in the Partner Center in their customer's currency so that they can bill them in that same currency. For additional information on this, refer to [these FAQs](https://partner.microsoft.com/resources/detail/eu-efta-change-of-partner-billing-currency-faq-pdf).
+A CSP can buy an offer in the Partner Center in their customer's currency so that they can bill them in that same currency. For more information, see [these FAQs](https://partner.microsoft.com/resources/detail/eu-efta-change-of-partner-billing-currency-faq-pdf).
 
 |   Country/Region Name               |   ISO-2   |   Currency</br>(All offer types)  |    Currency</br>(Consulting service offers only)    |
 |-------------------------------------|-----------|--------------|---------------------------------------------|
