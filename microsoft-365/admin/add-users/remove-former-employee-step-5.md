@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 09/30/2024
+ms.date: 10/28/2025
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -30,7 +30,7 @@ description: "Follow the steps in this article to access a former employee's One
 
 # Step 5 - Give another employee access to OneDrive and Outlook data
 
-When an employee leaves your organization, you'll want to access their OneDrive and Outlook data, back it up, and choose whether to give it to another employee.
+When an employee leaves your organization, you want to access their OneDrive and Outlook data, back it up, and choose whether to give it to another employee.
 
 > [!NOTE]
 > You must have appropriate permissions through a role, such as [Microsoft 365 Backup Administrator](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-backup-administrator) or [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator) to perform the tasks in this article. 
@@ -78,9 +78,7 @@ You can also grant access to another user to access a former employee's OneDrive
 
 8. Right-click the user, and then choose **Manage site collection owners**.
 
-9. Add the user to **Site collection administrators** and select **OK**.
-
-10. The user will now be able to access the former employee's OneDrive using the OneDrive URL. 
+9. Add the user to **Site collection administrators** and select **OK**. The user can now access the former employee's OneDrive using their OneDrive URL. 
 
 ## Revoke admin access to a user's OneDrive
 
