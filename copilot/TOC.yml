@@ -185,8 +185,10 @@ items:
     href: enterprise-data-protection.md
   - name: Transparency Note
     href: microsoft-365-copilot-transparency-note.md
-  - name: Flow Builder privacy and data subject request (DSR) FAQ
+  - name: Workflows agent privacy and data subject request (DSR) FAQ
     href: flow-builder-privacy-data-subject-request-faq.md
+  - name: App Builder privacy and data subject request (DSR) FAQ
+    href: app-builder-privacy-data-subject-request-faq.md
 - name: Extensibility and building agents
   items:
   - name: Extend Microsoft 365 Copilot
@@ -241,6 +243,8 @@ items:
     href: responsible-ai/responsible-ai-overview.md
   - name: FAQ for Copilot Tuning
     href: responsible-ai/copilot-tuning-responsible-ai-faq.md
-  - name: FAQ for Flow Builder
+  - name: FAQ for Workflows agent
     href: responsible-ai/flow-builder-responsible-ai-faq.md
+  - name: FAQ for App Builder
+    href: responsible-ai/faq-app-builder.md
 

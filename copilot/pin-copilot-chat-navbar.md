@@ -59,7 +59,7 @@ To change the pinning settings for Copilot Chat, select one of the following opt
 
 - **Pin Copilot Chat in Microsoft 365 apps (recommended)**: Copilot Chat is automatically pinned for all users. Users aren't prompted. This option is the default.
 
-- **Do not pin Copilot Chat in Microsoft 365 apps**: Copilot Chat isn't automatically pinned to the navigation bar. Copilot Chat also no longer appears in the app launcher. This restriction doesn't apply to Teams, Outlook, or the Microsoft 365 Copilot app.
+- **Do not pin Copilot Chat in Microsoft 365 apps**: If you choose this option, Copilot Chat won't be available by default for users in the Microsoft 365 Copilot app, Teams and Outlook. Users can still visit their app store and add Copilot themselves.
 
     If you previously selected **Do not pin Copilot to the navigation bar** in the Microsoft 365 admin center and unchecked **Allow users to be asked whether they want to pin it**, your setting configuration is now **Do not pin** and users still don't have Copilot Chat pinned. Also, if you switch the setting to **Do not pin Copilot Chat in Microsoft 365 apps**, Copilot honors that choice.
 

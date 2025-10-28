@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 04/02/2025
+ms.date: 10/28/2025
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -32,22 +32,30 @@ description: "Learn how you can change a user's email address and display name."
 
 Check out [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) on YouTube.
 
-As the admin of a Microsoft 365 organization, you might need to change someone's email address and display name if, for example, they get married and their family name changes.
+If you're Microsoft 365 admin for your organization, you might need to change someone's email address and display name if, for example, they get married and their family name changes.
+
+If you're a user, and you want to update your information in Microsoft 365, you might need your administrator to make changes for you. 
+
+This article describes how administrators can update a user's name and email address in Microsoft 365.
 
 ## Before you begin
 
-You must be a [user administrator](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide#commonly-used-microsoft-365-admin-center-roles&preserve-view=true).
+You must have an appropriate role, such as [user administrator](/microsoft-365/admin/add-users/about-admin-roles#commonly-used-microsoft-365-admin-center-roles) to perform the tasks described in this article.
 
-## Watch: Change a user's email address, display name or email alias
+## Watch: Change a user's email address, display name, or email alias
 
 Check out this video and others on our [YouTube channel](https://go.microsoft.com/fwlink/?linkid=2198016).
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=7b58656a-67db-457a-aa90-5c93334d4d28]
 
 1. In the Microsoft 365 admin center, select **Users** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">**Active users**</a>.
+
 1. Select the user from the list of active users.
+
 1. Select **Manage username and email**.
+
 1. Select the edit icon next to the username you want to change.
+
 1. Change the display name, and select **Done**.
 
 If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](../../business-video/index.yml).
@@ -173,7 +181,7 @@ Update-MgUser -UserId anne.wallace@contoso.com -UserPrincipalName anne.jones@con
 ```
 
 > [!TIP]
-> This changes the person's **userPrincipalName** attribute and has no bearing on their Microsoft Online Email Routing Address (MOERA) email address. It is best practice, however, to have the person's logon UPN match their primary SMTP address.
+> This changes the person's **userPrincipalName** attribute and has no bearing on their Microsoft Online Email Routing Address (MOERA) email address. It's a best practice, however, to have the person's sign-in UPN match their primary SMTP address.
 
 ## Related content
 
