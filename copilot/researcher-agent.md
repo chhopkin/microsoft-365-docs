@@ -26,7 +26,7 @@ Researcher agent is an intelligent assistant within Microsoft 365 Copilot, desig
 
 ## How Researcher agent differs from the standard Copilot experience?
 
-Researcher agent is designed for deeper reasoning of your tasks. It excels at tackling complex tasks that require thoughtful analysis. By taking longer processing time, Researcher agent delivers a more comprehensive, insightful response
+Researcher agent is designed for deeper reasoning of your tasks. It excels at tackling complex tasks that require thoughtful analysis. By taking longer processing time, Researcher agent delivers a more comprehensive, insightful response.
 The standard Copilot experience helps with a broad range of everyday tasks across Microsoft 365 apps. The agent is optimized for speed and efficiency and is great for quicker tasks like summarizing emails or drafting short replies.
 
 | Use this when you... | Choose |
