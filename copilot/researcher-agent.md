@@ -22,8 +22,6 @@ appliesto:
 
 # Get started with Researcher Agent in Microsoft 365 Copilot
 
-## Overview of Researcher Agent
-
 Researcher Agent is an intelligent assistant within Microsoft 365 Copilot, designed to handle complex, multi-step research tasks. It delivers comprehensive, source-cited reports to help you make informed decisions faster. Researcher draws insights from both the web and your work content - including files, emails, meetings, and chats you have access to.
 
 ## How Researcher Agent differs from the standard Copilot experience?
@@ -33,10 +31,10 @@ The standard Copilot experience helps with a broad range of everyday tasks acros
 
 | Use this when you... | Choose |
 |---------|---------|
-| **Need a quick summary, a short reply, or lightweight brainstorming** | Standard Copilot chat |
-| **Need deeper reasoning, solving problems across multiple sources (web + your work), and a report you can share** | Researcher Agent |
-| **Want citations and a clean structure (headings, bullets, visuals) that help you present or decide** | Researcher Agent |
-| **Have a back and forth task, but not heavy analysis** | Standard Copilot chat |
+| **Need a quick summary, a short reply, or lightweight brainstorming** | **Standard Copilot chat** |
+| **Need deeper reasoning, solving problems across multiple sources (web + your work), and a report you can share** | **Researcher Agent** |
+| **Want citations and a clean structure (headings, bullets, visuals) that help you present or decide** | **Researcher Agent** |
+| **Have a back and forth task, but not heavy analysis** | **Standard Copilot chat** |
 
 These distinctions are by design. Researcher Agent deliberately spends more time retrieving and analyzing to write a more in-depth analysis.
 
@@ -64,13 +62,13 @@ Open Researcher in Microsoft 365 Copilot, ask your question, and let it gather i
 
 ## How to get the best results from Researcher Agent?
 
-**Be specific in your prompt**
+- **Be specific in your prompt**
 Clear and detailed questions lead to more focused and reliable results.
 
-**Define your search scope**
+- **Define your search scope**
 Decide whether you want data from workplace resources, the web, or both. This helps create a more targeted and relevant report.
 
-**Engage with clarifying questions**
+- **Engage with clarifying questions**
 Researcher may ask clarifying questions to guide the output and keep you involved. This phase is important to help you steer the research and ensure the final report meets your needs.
 
 ## Related content
