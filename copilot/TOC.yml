@@ -40,6 +40,8 @@ items:
       href: microsoft-365-copilot-e5-guide.md
   - name: Blueprint to prevent oversharing
     href: microsoft-365-copilot-blueprint-oversharing.md
+  - name: Copilot Library
+    href: copilot-library.md
 - name: Deploy and enable Microsoft 365 Copilot
   items:
   - name: Adoption guide and overview
