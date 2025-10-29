@@ -35,10 +35,7 @@ sections:
       - question: "Does Computer Use with Researcher follow the same security, compliance, privacy, and Responsible AI practices as Researcher agent?"
         answer: "Yes, Researcher with Computer Use follows all the security, privacy, compliance and Responsible AI policies. Additionally, we have implemented RAI checks for Computer use to further safeguard the use."
       - question: "How does the network proxy work with the safety classifiers?"
-        answer: "Researcher's safety stack now goes beyond queries and tool outputs. Every network operation in the Sandbox Environment is inspected by an enhanced classifier designed to:
-          - Check domain safety - ensure outbound web access is secure.
-          - Validate relevance - confirm the network request aligns with the user's query.
-          - Analyze content type - distinguish between image, binary data and text.
+        answer: "Researcher's safety stack now goes beyond queries and tool outputs. Every network operation in the sandbox environment is inspected by an enhanced classifier designed to:<br/><ul>li>Check domain safety - ensure outbound web access is secure.</li><li>Validate relevance - confirm the network request aligns with the user's query.</li><li>Analyze content type - distinguish between image, binary data and text.</li></ul><br/>
           The added layer helps protect against XPIA or Jailbreak attacks that can be driven through web page navigation."
       - question: "How is Researcher agent in Microsoft 365 Copilot evaluated?"
         answer: "Researcher agent in Microsoft 365 Copilot was evaluated through extensive manual and automation testing on top of Microsoft internal usage and public data. More evaluation was performed over custom datasets for offensive and malicious prompts (user questions) and responses."
