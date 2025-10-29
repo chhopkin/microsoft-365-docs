@@ -87,13 +87,9 @@ You can use the Microsoft Defender portal to see a list of AI apps your organiza
 ### Create a policy to monitor AI apps
 
 > [!NOTE]
-> Before you begin, review the [prerequisites](/defender-cloud-apps/governance-discovery#prerequisites).
+> Before you begin, review the [prerequisites](/defender-cloud-apps/governance-discovery#prerequisites) and see [Control cloud apps with policies](/defender-cloud-apps/governance-discovery#control-cloud-apps-with-policies).
 
-1. In the [Microsoft Defender portal](https://security.microsoft.com), in the navigation pane, select **Cloud apps** > **App governance**.
-
-2. Select the **Policies** tab, and then select **Microsoft 365**.
-
-3. Create a new policy using the **Custom** category, and specify the following settings:
+1. Create a new policy using the **Custom** category, and specify the following settings:
 
    - For **Policy template**, choose **No template**.
    - For **Policy name**, type a name like *New Generative AI Apps*.
@@ -104,13 +100,18 @@ You can use the Microsoft Defender portal to see a list of AI apps your organiza
 
    For more information about creating custom policies, see [Custom policies](/defender-cloud-apps/app-governance-app-policies-create#custom-policies).
 
-4. When you're done specifying the conditions, select **Save**, and then select **Next**.
+2. When you're done specifying the conditions, select **Save**, and then select **Next**.
 
-5. On the **Define Policy Status** page, select **Audit mode**. With this mode, policies are evaluated but configured actions don't occur. Audit mode policies appear with the status of *Audit* in the list of policies. You should use Audit mode for testing a new policy.
+3. On the **Define Policy Status** page, select **Audit mode**. With this mode, policies are evaluated but configured actions don't occur. Audit mode policies appear with the status of *Audit* in the list of policies. You should use Audit mode for testing a new policy.
 
-6. Carefully review all parameters of your custom policy. Select **Submit** when you're satisfied. You can also go back and change settings by selecting **Edit** beneath any of the settings.
+4. Carefully review all parameters of your custom policy. Select **Submit** when you're satisfied. You can also go back and change settings by selecting **Edit** beneath any of the settings.
 
 ### Create a policy to block specific AI apps
+
+> [!NOTE]
+> Before you begin, see the following articles:
+> - [Control cloud apps with policies](/defender-cloud-apps/governance-discovery#control-cloud-apps-with-policies)
+> - [Create app governance policies](/defender-cloud-apps/app-governance-app-policies-create#custom-policies)
 
 1. In the [Microsoft Defender portal](https://security.microsoft.com), in the navigation pane, select **Cloud apps** > **Cloud discovery**. 
 
@@ -119,7 +120,7 @@ You can use the Microsoft Defender portal to see a list of AI apps your organiza
 3. In the list of results, select an AI app that you want to block. At the end of its row, select the three dots, and then select **Unsanctioned**. This action adds an *Unsanctioned* tag that enables you to monitor the app.
 
    > [!IMPORTANT]
-   > If you're using Defender for Endpoint, as soon as an app is marked as unsanctioned, it's automatically blocked across onboarded devices. However, your security team can specify whether to warn and educate users instead of blocking apps. See [Educate users when accessing risky apps](/defender-cloud-apps/mde-govern#educate-users-when-accessing-risky-apps).
+   > As soon as an app is marked as unsanctioned, it's automatically blocked across devices that are onboarded to Defender for Endpoint. However, your security team can specify whether to warn and educate users instead of blocking apps. See [Educate users when accessing risky apps](/defender-cloud-apps/mde-govern#educate-users-when-accessing-risky-apps).
 
 4. In the navigation pane, select **Cloud apps** > **App governance**.
 
