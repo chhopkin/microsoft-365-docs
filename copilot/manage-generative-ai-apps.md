@@ -124,9 +124,7 @@ You can use the Microsoft Defender portal to see a list of AI apps your organiza
 
 4. In the navigation pane, select **Cloud apps** > **App governance**.
 
-5. Select the **Policies** tab, and then select **Microsoft 365**.
-
-6. Create a new policy using the **Custom** category, and specify the following settings:
+5. Select the **Policies** tab, and then create a new [custom policy](/defender-cloud-apps/app-governance-app-policies-create#custom-policies), specifying the following settings:
 
    - For **Policy template**, choose **No template**.
    - For **Policy name**, type a name like *Unsanctioned AI Apps*.
@@ -134,19 +132,17 @@ You can use the Microsoft Defender portal to see a list of AI apps your organiza
    - In the **Apps matching all of the following** section, specify a condition, such as **Category equals Generative AI** and **Tag equals Unsanctioned**.
    - In the **Apply to** list, select **All continuous reports**.
 
-   For more information about creating custom policies, see [Custom policies](/defender-cloud-apps/app-governance-app-policies-create#custom-policies).
+6. When you're done specifying the conditions, select **Save**, and then select **Next**.
 
-7. When you're done specifying the conditions, select **Save**, and then select **Next**.
+7. On the **Define Policy Actions** page, select **Disable app** if you want app governance to disable the app when an alert based on this policy is generated, and then select **Next**. Use caution when applying actions because a policy may affect users and legitimate app use.
 
-8. On the **Define Policy Actions** page, select **Disable app** if you want app governance to disable the app when an alert based on this policy is generated, and then select **Next**. Use caution when applying actions because a policy may affect users and legitimate app use.
-
-9. On the **Define Policy Status** page, select an option, such as **Active**. You can choose from these options:
+8. On the **Define Policy Status** page, select an option, such as **Active**. You can choose from these options:
 
    - **Audit mode**: Policies are evaluated but configured actions don't occur. Audit mode policies appear with the status of *Audit* in the list of policies. You should use Audit mode for testing a new policy.
    - **Active**: Policies are evaluated and configured actions occur.
    - **Inactive**: Policies aren't evaluated and configured actions don't occur.
 
-10. Carefully review all parameters of your custom policy. Select **Submit** when you're satisfied. You can also go back and change settings by selecting **Edit** beneath any of the settings.
+9. Carefully review all parameters of your custom policy. Select **Submit** when you're satisfied. You can also go back and change settings by selecting **Edit** beneath any of the settings.
 
 ## See also
 
