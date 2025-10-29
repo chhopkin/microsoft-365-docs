@@ -46,7 +46,7 @@ Discovering, monitoring, and managing AI apps is essential to prevent data leaks
    - [Purview Data Security Posture Management](https://aka.ms/DSPMBlueprintPDF)
 
 - **To use Defender for Cloud Apps, [set up Microsoft Defender XDR](/defender-xdr/pilot-deploy-overview)**, including these components:
-   - [Microsoft Defender for Cloud Apps](/defender-xdr/pilot-deploy-defender-cloud-apps) for discovering, monoitoring, and blocking specific AI applications
+   - [Microsoft Defender for Cloud Apps](/defender-xdr/pilot-deploy-defender-cloud-apps) for discovering, monitoring, and blocking specific AI applications
    - [Microsoft Defender for Endpoint](/defender-xdr/pilot-deploy-defender-endpoint) for preventing unsanctioned AI apps from running on onboarded devices
 
 ## Use DSPM for AI to discover and manage AI app usage
@@ -89,22 +89,14 @@ You can use the Microsoft Defender portal to see a list of AI apps your organiza
 > [!NOTE]
 > Before you begin, review the [prerequisites](/defender-cloud-apps/governance-discovery#prerequisites) and see [Control cloud apps with policies](/defender-cloud-apps/governance-discovery#control-cloud-apps-with-policies).
 
-1. Create a new policy using the **Custom** category, and specify the following settings:
+Create a new [custom policy](/defender-cloud-apps/app-governance-app-policies-create#custom-policies), specifying the following settings:
 
-   - For **Policy template**, choose **No template**.
-   - For **Policy name**, type a name like *New Generative AI Apps*.
-   - For **Policy severity**, select the level 2 option.
-   - Provide a description, like *Generate an alert when a new Generative AI app is used*.
-   - In the **Apps matching all of the following** section, specify **Category equals Generative AI**.
-   - In the **Apply to** list, select **All continuous reports**.
-
-   For more information about creating custom policies, see [Custom policies](/defender-cloud-apps/app-governance-app-policies-create#custom-policies).
-
-2. When you're done specifying the conditions, select **Save**, and then select **Next**.
-
-3. On the **Define Policy Status** page, select **Audit mode**. With this mode, policies are evaluated but configured actions don't occur. Audit mode policies appear with the status of *Audit* in the list of policies. You should use Audit mode for testing a new policy.
-
-4. Carefully review all parameters of your custom policy. Select **Submit** when you're satisfied. You can also go back and change settings by selecting **Edit** beneath any of the settings.
+- For **Policy template**, choose **No template**.
+- For **Policy name**, type a name like *New Generative AI Apps*.
+- For **Policy severity**, select the level 2 option.
+- Provide a description, like *Generate an alert when a new Generative AI app is used*.
+- In the **Apps matching all of the following** section, specify **Category equals Generative AI**.
+- In the **Apply to** list, select **All continuous reports**.
 
 ### Create a policy to block specific AI apps
 
@@ -131,18 +123,6 @@ You can use the Microsoft Defender portal to see a list of AI apps your organiza
    - Provide a description, like *Block unsanctioned AI apps*.
    - In the **Apps matching all of the following** section, specify a condition, such as **Category equals Generative AI** and **Tag equals Unsanctioned**.
    - In the **Apply to** list, select **All continuous reports**.
-
-6. When you're done specifying the conditions, select **Save**, and then select **Next**.
-
-7. On the **Define Policy Actions** page, select **Disable app** if you want app governance to disable the app when an alert based on this policy is generated, and then select **Next**. Use caution when applying actions because a policy may affect users and legitimate app use.
-
-8. On the **Define Policy Status** page, select an option, such as **Active**. You can choose from these options:
-
-   - **Audit mode**: Policies are evaluated but configured actions don't occur. Audit mode policies appear with the status of *Audit* in the list of policies. You should use Audit mode for testing a new policy.
-   - **Active**: Policies are evaluated and configured actions occur.
-   - **Inactive**: Policies aren't evaluated and configured actions don't occur.
-
-9. Carefully review all parameters of your custom policy. Select **Submit** when you're satisfied. You can also go back and change settings by selecting **Edit** beneath any of the settings.
 
 ## See also
 
