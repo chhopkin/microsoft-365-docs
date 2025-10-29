@@ -166,15 +166,24 @@ This permission is required to gather details regarding the multitenant organiza
 
   - [MultiTenantOrganization.Read.All](/graph/permissions-reference#multitenantorganizationreadall)
 
-## Manage Outlook external tag removal for MTO members (Private Preview)
-
-> [!NOTE]
-> Remove external tag is currently available in private preview and may not be visible in all tenants or Microsoft 365 experiences.
->
+## Manage Outlook external tag removal for MTO members
 
 If a tenant has enabled external tags in Outlook to help users identify content from external tenants, MTO group admins can now choose to suppress these tags for members of the multitenant organization. This setting allows for a more seamless collaboration experience and admins can enable this setting in the MAC MTO portal. 
 
 ![Screenshot that shows suppression of Outlook external tag for MTO members.](media/manage-multitenant-org-settings/edit-external-tag-setting.png)
 
 If the tenant hasn't enabled external tags in Outlook, checking the **External tag suppression** option will automatically create a remote domain for the partner tenant and mark it as internal (i.e., IsInternal = true), but it won't have effect in end user experience.  In this case, external tags aren't displayed to members in MTO. 
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using least-privileged accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
+To suppress Outlook external tag for tenants in your MTO:
+
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/) as a global administrator.
+1. Expand **Settings** and select **Org settings**.
+1. On the **Organization profile** tab, select **Multitenant collaboration**.
+1. Select **Manage settings**.
+1. Select **Edit external tag settings** under **External tag**.
+1. Select **Suppress Outlook external tag for MTO members**.
+1. Select **Save changes**.
 
