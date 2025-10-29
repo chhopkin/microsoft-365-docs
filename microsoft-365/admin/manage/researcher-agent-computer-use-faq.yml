@@ -17,14 +17,14 @@ sections:
       - question: "How can I use Computer use with Researcher agent in Microsoft 365 Copilot?"
         answer: "Researcher Agent now provides “Computer Use” option for any prompt. Select the option to use Computer Use. Your admin must allow access to the feature before you can use Computer Use with Researcher."
       - question: "How does Computer Use operate in the virtual machine?"
-        answer: "When Computer Use is triggered, a sandbox environment dedicated to the conversation is created. This environment follows strict browser and network policies set by Microsoft. It is completely isolated from both the intranet and the user’s device. Administrators can customize the sandbox by adding specific domains to allow or deny lists. Commands from the Researcher agent are sent securely. The sandbox environment does not persist for long-term use and is ephemeral.  It can only access the web with enforced policies, and no user credentials are stored or transferred in or out of the Sandbox. The virtual machine runs on Windows 365 and hosts containers running Linux."
+        answer: "When Computer Use is triggered, a sandbox environment dedicated to the conversation is created. This environment follows strict browser and network policies set by Microsoft. It is completely isolated from both the intranet and the user's device. Administrators can customize the sandbox by adding specific domains to allow or deny lists. Commands from the Researcher agent are sent securely. The sandbox environment does not persist for long-term use and is ephemeral.  It can only access the web with enforced policies, and no user credentials are stored or transferred in or out of the Sandbox. The virtual machine runs on Windows 365 and hosts containers running Linux."
 
   - name: Admin controls
     questions:
       - question: "Is Researcher Agent compliant for enterprise organizations?"
         answer: "Yes. Researcher is designed with enterprise security in mind. It operates within the Microsoft 365 data boundary and follows the same enterprise grade compliance and governance standards as Microsoft 365. Additionally, we admin will have granular controls over the feature more details [here](researcher-agent-computer-use-faq.md)."
       - question: "What controls do we have for admin control?"
-        answer: "Admins can manage Computer use settings, including enabling or disabling the feature, access to gated content, and configuring compliance policies. For details, see [Overview of Researcher with Computer Use](researcher-agent-computer-use-overview.md)."
+        answer: "Admins can manage Computer use settings, including enabling or disabling the feature, access to gated content, and configuring compliance policies. For details, see Overview of Researcher with Computer Use."
       - question: "Can an admin or user restrict Computer Use with Researcher to certain people only (for example a pilot group)?"
         answer: "Yes- admins can limit Computer Use with Researcher to specific users or groups from the Microsoft 365 admin center."
 
