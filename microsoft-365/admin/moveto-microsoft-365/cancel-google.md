@@ -2,8 +2,8 @@
 title: "Cancel Google Workspace (and keep your domain)"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: heidip
+author: MicrosoftHeidi
 manager: dansimp
 ms.date: 10/31/2023
 audience: Admin
