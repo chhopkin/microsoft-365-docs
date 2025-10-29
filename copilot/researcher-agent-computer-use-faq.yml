@@ -24,7 +24,7 @@ sections:
       - question: "Is Researcher agent compliant for enterprise organizations?"
         answer: "Yes. Researcher is designed with enterprise security in mind. It operates within the Microsoft 365 data boundary and follows the same enterprise grade compliance and governance standards as Microsoft 365. Additionally, admins will have granular controls over the feature. For more details [FAQs] (researcher-agent-computer-use-faq.yml)."
       - question: "What controls do we have for admin control?"
-        answer: "Admins can manage Computer Use settings, including enabling or disabling the feature, access to gated content, and configuring compliance policies. For details, see Overview of Researcher with Computer Use."
+        answer: "Admins can manage Computer Use settings, including enabling or disabling the feature, access to gated content, and configuring compliance policies. For details, see [Overview of Researcher with Computer Use](https://support.microsoft.com/en-us/topic/1f274537-6648-46e8-8264-052a49b92af4)."
       - question: "Can an admin or user restrict Computer Use with Researcher to certain people only (for example a pilot group)?"
         answer: "Yes- admins can limit Computer Use with Researcher to specific users or groups from the Microsoft 365 admin center."
 
