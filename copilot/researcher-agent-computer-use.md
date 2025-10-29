@@ -68,11 +68,10 @@ Follow these instructions to configure admin settings for Researcher agent with 
 
 5. Select which websites are allowed for Computer Use.
 
-    a. There are three options for configuring websites the virtual device can access:
-
-        - All websites
-        - Allow specific URLs or domains only
-        - Exclude specific URLs or domains
+    a. There are three options for configuring websites the virtual device can access:<br>
+    - All websites<br>
+    - Allow specific URLs or domains only<br>
+    - Exclude specific URLs or domains
 
     b. You can allow "All websites", block some with the "Exclude specified" option, or only allow certain sites with the "Allow specified" option.
 
