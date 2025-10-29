@@ -71,10 +71,7 @@ With Defender for Cloud Apps, you can discover, monitor, or block generative AI 
 
 ### Use the cloud app catalog to discover AI apps
 
-You can use the Microsoft Defender portal to see a list of AI apps your organization is using. Defender for Cloud Apps provides a catalog of apps with security and compliance risk scores.
-
-> [!NOTE]
-> Before you begin, see [Cloud app discovery overview](/defender-cloud-apps/set-up-cloud-discovery).
+You can use the Microsoft Defender portal to see a list of AI apps your organization is using. Defender for Cloud Apps provides a catalog of apps with security and compliance risk scores. See [Cloud app discovery overview](/defender-cloud-apps/set-up-cloud-discovery).
 
 1. Go to the [Microsoft Defender portal](https://security.microsoft.com) and sign in.
 
@@ -86,8 +83,7 @@ You can use the Microsoft Defender portal to see a list of AI apps your organiza
 
 ### Create a policy to monitor AI apps
 
-> [!NOTE]
-> Before you begin, review the [prerequisites](/defender-cloud-apps/governance-discovery#prerequisites) and see [Control cloud apps with policies](/defender-cloud-apps/governance-discovery#control-cloud-apps-with-policies).
+Make sure to review the [prerequisites](/defender-cloud-apps/governance-discovery#prerequisites). Also see [Control cloud apps with policies](/defender-cloud-apps/governance-discovery#control-cloud-apps-with-policies).
 
 Create a new [custom policy](/defender-cloud-apps/app-governance-app-policies-create#custom-policies), specifying the following settings:
 
@@ -100,10 +96,7 @@ Create a new [custom policy](/defender-cloud-apps/app-governance-app-policies-cr
 
 ### Create a policy to block specific AI apps
 
-> [!NOTE]
-> Before you begin, see the following articles:
-> - [Control cloud apps with policies](/defender-cloud-apps/governance-discovery#control-cloud-apps-with-policies)
-> - [Create app governance policies](/defender-cloud-apps/app-governance-app-policies-create#custom-policies)
+Make sure to review the articles [Control cloud apps with policies](/defender-cloud-apps/governance-discovery#control-cloud-apps-with-policies) and [Create app governance policies](/defender-cloud-apps/app-governance-app-policies-create#custom-policies).
 
 1. In the [Microsoft Defender portal](https://security.microsoft.com), in the navigation pane, select **Cloud apps** > **Cloud discovery**. 
 
