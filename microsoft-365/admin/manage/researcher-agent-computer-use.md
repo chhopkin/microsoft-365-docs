@@ -1,6 +1,6 @@
 ---
-title: Researcher Agent with computer use setup in Microsoft 365 Copilot
-description: The following instructions help you configure the admin settings for Researcher Agent computer use in Microsoft 365 copilot.
+title: Researcher agent with Computer Use setup in Microsoft 365 Copilot
+description: The following instructions help you configure the admin settings for Researcher agent Computer Use in Microsoft 365 copilot.
 f1.keywords:
 - NOCSH
 ms.author: vpattnaik

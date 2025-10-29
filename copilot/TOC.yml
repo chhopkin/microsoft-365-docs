@@ -164,7 +164,7 @@ items:
   - name: Overview of Microsoft 365 Researcher agent
     href: researcher-agent.md
   - name: (Private preview) Manage Computer Use in Researcher agent
-    href: manage/researcher-agent-computer-setup.md
+    href: manage/researcher-agent-computer-use.md
 - name: Frequently asked questions
   items:
   - name: Microsoft 365 Copilot Researcher agent FAQ
