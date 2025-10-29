@@ -2,9 +2,9 @@
 title: Secure Microsoft 365 Copilot for small businesses
 description: "Learn how to secure Microsoft 365 Copilot for business in Microsoft 365 Business Basic, Microsoft 365 Business Standard, and Microsoft 365 Business Premium."
 search.appverid: MET150
-ms.author: chrisda
-author: chrisda
-manager: deniseb
+ms.author: vpattnaik
+author: vpattnai
+manager: dansimp
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-business-security
