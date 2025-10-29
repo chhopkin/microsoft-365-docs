@@ -24,7 +24,7 @@ appliesto:
 
 ## Overview
 
-Researcher with Computer Use is a powerful extension that builds on the capabilities of the Researcher agent. With Computer Use, Researcher agent can securely interact with public, gated, and interactive web content through virtual computer-enabling users to uncover deeper insights, take action, and generate richer reports grounded in both their work data and the web. For more details, see Use Researcher with Computer use in Microsoft 365 Copilot.
+Researcher with Computer Use is a powerful extension that builds on the capabilities of the Researcher agent. With Computer Use, Researcher agent can securely interact with public, gated, and interactive web content through virtual computer-enabling users to uncover deeper insights, take action, and generate richer reports grounded in both their work data and the web. For more details, see [Use Researcher with Computer use in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/1f274537-6648-46e8-8264-052a49b92af4).
 
 :::image type="content" source="../../media/agents/computer-use-active-option.png" alt-text="Screenshot showing the computer use option active in Researcher agent." lightbox="../../media/agents/computer-use-active-option.png":::
 
@@ -78,6 +78,6 @@ Follow these instructions to configure admin settings for Researcher agent with 
 
 ### Learn more about Researcher with Computer Use
 
-- Overview of Research with Computer use
-- How Researcher with Computer use works
+- [Overview of Research with Computer use](https://support.microsoft.com/en-us/topic/1f274537-6648-46e8-8264-052a49b92af4)
+- [How Researcher with Computer use works](https://support.microsoft.com/en-us/topic/36f92600-62c7-47e6-bb31-95f8c81038fc)
 - [Frequently asked questions](researcher-agent-computer-use-faq.yml)
