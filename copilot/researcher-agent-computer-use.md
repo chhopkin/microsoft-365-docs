@@ -26,7 +26,7 @@ appliesto:
 
 Researcher with Computer Use is a powerful extension that builds on the capabilities of the Researcher agent. With Computer Use, Researcher agent can securely interact with public, gated, and interactive web content through virtual computer-enabling users to uncover deeper insights, take action, and generate richer reports grounded in both their work data and the web. For more details, see [Use Researcher with Computer use in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/1f274537-6648-46e8-8264-052a49b92af4).
 
-:::image type="content" source="../../media/agents/computer-use-active-option.png" alt-text="Screenshot showing the computer use option active in Researcher agent." lightbox="../../media/agents/computer-use-active-option.png":::
+:::image type="content" source="media/computer-use-active-option.png" alt-text="Screenshot showing the computer use option active in Researcher agent." lightbox="media/computer-use-active-option.png":::
 
 ## Configure admin settings for Researcher agent with Computer Use
 
@@ -34,11 +34,11 @@ Follow these instructions to configure admin settings for Researcher agent with 
 
 1. Navigate to [Microsoft Admin Controls (MAC) Agents](https://admin.cloud.microsoft/?#/copilot/agents) page.
 
-:::image type="content" source="../../media/agents/microsoft-admin-control-agents-page.png" alt-text="Screenshot showing the Microsoft Admin Controls Agents page." lightbox="../../media/agents/microsoft-admin-control-agents-page.png":::
+:::image type="content" source="media/microsoft-admin-control-agents-page.png" alt-text="Screenshot showing the Microsoft Admin Controls Agents page." lightbox="media/microsoft-admin-control-agents-page.png":::
 
 2. In the left navigation pane, select **Researcher** under **Agents**, and check if there's another tab for **Computer use**.
 
-:::image type="content" source="../../media/agents/computer-use-researcher-agent.png" alt-text="Screenshot showing the option to allow Researcher to access work data." lightbox="../../media/agents/computer-use-researcher-agent.png":::
+:::image type="content" source="media/computer-use-researcher-agent.png" alt-text="Screenshot showing the option to allow Researcher to access work data." lightbox="media/computer-use-researcher-agent.png":::
 
 3. Customize users that have access to Researcher with Computer Use.
 
@@ -50,9 +50,9 @@ Follow these instructions to configure admin settings for Researcher agent with 
 
     b. For users that have it disabled, the **Computer Use** option will appear grayed out.
 
-:::image type="content" source="../../media/agents/computer-use-enabled.png" alt-text="Screenshot showing the Computer Use option enabled in Researcher Agent." lightbox="../../media/agents/computer-use-enabled.png":::
+:::image type="content" source="media/computer-use-enabled.png" alt-text="Screenshot showing the Computer Use option enabled in Researcher Agent." lightbox="media/computer-use-enabled.png":::
 
-:::image type="content" source="../../media/agents/computer-use-disabled.png" alt-text="Screenshot showing the Computer Use option disabled in Researcher Agent." lightbox="../../media/agents/computer-use-disabled.png":::
+:::image type="content" source="media/computer-use-disabled.png" alt-text="Screenshot showing the Computer Use option disabled in Researcher Agent." lightbox="media/computer-use-disabled.png":::
 
 4. Configure **Work access** for Researcher with Computer Use
 
@@ -62,9 +62,9 @@ Follow these instructions to configure admin settings for Researcher agent with 
     
     c. When disabled, the **Work** source will appear grayed out and not selectable.
 
-:::image type="content" source="../../media/agents/work-toggle-enabled.png" alt-text="Screenshot showing the Work option enabled in Researcher agent." lightbox="../../media/agents/work-toggle-enabled.png":::
+:::image type="content" source="media/work-toggle-enabled.png" alt-text="Screenshot showing the Work option enabled in Researcher agent." lightbox="media/work-toggle-enabled.png":::
 
-:::image type="content" source="../../media/agents/work-toggle-disabled.png" alt-text="Screenshot showing the Work option disabled in Researcher agent." lightbox="../../media/agents/work-toggle-disabled.png":::
+:::image type="content" source="media/work-toggle-disabled.png" alt-text="Screenshot showing the Work option disabled in Researcher agent." lightbox="media/work-toggle-disabled.png":::
 
 5. Select which websites are allowed for Computer Use
 
