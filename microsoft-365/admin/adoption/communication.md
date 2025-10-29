@@ -3,8 +3,8 @@ title: "Microsoft Adoption Score - Communication"
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 09/18/2020
 audience: Admin
 ms.topic: article

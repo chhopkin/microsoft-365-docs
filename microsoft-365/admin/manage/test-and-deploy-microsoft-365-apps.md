@@ -2,8 +2,8 @@
 title: "Get started with the integrated apps portal"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 08/26/2025
 audience: Admin

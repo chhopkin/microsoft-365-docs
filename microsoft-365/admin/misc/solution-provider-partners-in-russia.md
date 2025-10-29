@@ -2,8 +2,8 @@
 title: "Microsoft Cloud Solution Provider Partners in Russia"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 10/22/2025
 audience: Admin

@@ -2,9 +2,9 @@
 title: "Set up information protection capabilities"
 f1.keywords:
 - NOCSH
-ms.author: chrisda
-author: chrisda
-manager: deniseb
+ms.author: vpattnaik
+author: vpattnai
+manager: dansimp
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business-security
