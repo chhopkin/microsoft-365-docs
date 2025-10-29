@@ -17,7 +17,7 @@ ms.collection:
 description: Use the frontline usage report on the Manage frontline teams page of the Teams admin center to get an overview of active users in Teams for each of your frontline locations. 
   - Microsoft Teams
   - Microsoft 365 for frontline workers
-ms.date: 06/10/2024
+ms.date: 10/28/2025
 ---
 # Microsoft Teams frontline usage report
 
@@ -47,6 +47,9 @@ You must be a Global Administrator to turn on this setting.
 
 1. In the Microsoft 365 admin center, go to **Settings** > **Org Settings**, and then on the **Services** tab, choose **Reports**.
 1. Select the **Display concealed user, group, and site names in all reports** check box, and then choose **Save**.
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## The frontline usage report
 

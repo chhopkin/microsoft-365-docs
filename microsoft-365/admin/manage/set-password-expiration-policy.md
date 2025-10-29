@@ -2,8 +2,8 @@
 title: "Set the password expiration policy for your organization"
 f1.keywords:
 - CSH
-ms.author: kwekua
-author: kwekuako
+ms.author: deniseb
+author: deniseb
 manager: dansimp
 ms.date: 05/29/2024
 audience: Admin
