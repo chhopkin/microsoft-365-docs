@@ -2,9 +2,9 @@
 title: "Why choose Microsoft 365 Business Premium? Productivity and security"
 f1.keywords:
 - NOCSH
-ms.author: chrisda
-author: chrisda
-manager: deniseb
+ms.author: vpattnaik
+author: vpattnai
+manager: dansimp
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business-security

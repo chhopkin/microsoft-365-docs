@@ -2,8 +2,8 @@
 title: "Change your email address to use your custom domain"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 04/23/2025
 audience: Admin

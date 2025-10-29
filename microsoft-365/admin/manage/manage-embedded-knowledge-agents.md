@@ -2,8 +2,8 @@
 title: Manage agents with embedded file content as a knowledge source
 description: Learn how to manage agents with embedded file content in the Microsoft 365 admin center, including file uploads, SharePoint containers, and sensitivity labels.
 #customer intent: As an admin, I want to understand how to manage agents with embedded file content in the Microsoft 365 admin center so that I can ensure proper functionality and compliance.
-ms.author: aaroncz
-author: aczechowski
+ms.author: erikre
+author: erikre
 manager: dansimp
 ms.date: 09/19/2025
 ms.update-cycle: 180-days
