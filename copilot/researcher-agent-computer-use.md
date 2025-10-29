@@ -34,11 +34,11 @@ Follow these instructions to configure admin settings for Researcher agent with 
 
 1. Navigate to [Microsoft Admin Controls (MAC) Agents](https://admin.cloud.microsoft/?#/copilot/agents) page.
 
-:::image type="content" source="media/microsoft-admin-control-agents-page.png" alt-text="Screenshot showing the Microsoft Admin Controls Agents page." lightbox="media/microsoft-admin-control-agents-page.png":::
+    :::image type="content" source="media/microsoft-admin-control-agents-page.png" alt-text="Screenshot showing the Microsoft Admin Controls Agents page." lightbox="media/microsoft-admin-control-agents-page.png":::
 
 2. In the left navigation pane, select **Researcher** under **Agents**, and check if there's another tab for **Computer use**.
 
-:::image type="content" source="media/computer-use-researcher-agent.png" alt-text="Screenshot showing the option to allow Researcher to access work data." lightbox="media/computer-use-researcher-agent.png":::
+   :::image type="content" source="media/computer-use-researcher-agent.png" alt-text="Screenshot showing the option to allow Researcher to access work data." lightbox="media/computer-use-researcher-agent.png":::
 
 3. Customize users that have access to Researcher with Computer Use.
 
@@ -50,9 +50,9 @@ Follow these instructions to configure admin settings for Researcher agent with 
 
     b. For users that have it disabled, the **Computer Use** option will appear grayed out.
 
-:::image type="content" source="media/computer-use-enabled.png" alt-text="Screenshot showing the Computer Use option enabled in Researcher Agent." lightbox="media/computer-use-enabled.png":::
+    :::image type="content" source="media/computer-use-enabled.png" alt-text="Screenshot showing the Computer Use option enabled in Researcher Agent." lightbox="media/computer-use-enabled.png":::
 
-:::image type="content" source="media/computer-use-disabled.png" alt-text="Screenshot showing the Computer Use option disabled in Researcher Agent." lightbox="media/computer-use-disabled.png":::
+    :::image type="content" source="media/computer-use-disabled.png" alt-text="Screenshot showing the Computer Use option disabled in Researcher Agent." lightbox="media/computer-use-disabled.png":::
 
 4. Configure **Work access** for Researcher with Computer Use
 
@@ -62,17 +62,17 @@ Follow these instructions to configure admin settings for Researcher agent with 
     
     c. When disabled, the **Work** source will appear grayed out and not selectable.
 
-:::image type="content" source="media/work-toggle-enabled.png" alt-text="Screenshot showing the Work option enabled in Researcher agent." lightbox="media/work-toggle-enabled.png":::
+    :::image type="content" source="media/work-toggle-enabled.png" alt-text="Screenshot showing the Work option enabled in Researcher agent." lightbox="media/work-toggle-enabled.png":::
 
-:::image type="content" source="media/work-toggle-disabled.png" alt-text="Screenshot showing the Work option disabled in Researcher agent." lightbox="media/work-toggle-disabled.png":::
+    :::image type="content" source="media/work-toggle-disabled.png" alt-text="Screenshot showing the Work option disabled in Researcher agent." lightbox="media/work-toggle-disabled.png":::
 
-5. Select which websites are allowed for Computer Use
+5. Select which websites are allowed for Computer Use.
 
-    a. There are three options for configuring websites the virtual device can access-
+    a. There are three options for configuring websites the virtual device can access:
 
-    - All websites
-    - Allow specific URLs or domains only
-    - Exclude specific URLs or domains
+        - All websites
+        - Allow specific URLs or domains only
+        - Exclude specific URLs or domains
 
     b. You can allow "All websites", block some with the "Exclude specified" option, or only allow certain sites with the "Allow specified" option.
 
