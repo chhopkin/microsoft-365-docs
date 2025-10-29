@@ -444,15 +444,7 @@ You can incorporate knowledge sources into agents during initial creation, after
 
 #### SharePoint knowledge filtering
 
-At times you need to filter knowledge content from SharePoint personalized to the employee. This filtering is based on some of their profile attributes such as "country/region/location", "project code", "department", and more.
-
-The ESS Agent using SharePoint knowledge source relies on search index and metadata to identify the profile attributes applied while performing the search query. So, to apply the knowledge filters a Keyword Query Language (KQL) should be updated in the configuration.
-
-The KQL for SharePoint Search recognizes profile attributes mapped to content metadata as "managed properties". SharePoint/Search Administrators manage these managed properties. The exact managed property should be identified and used in the KQL.
-
-For example, to retrieve the knowledge content based on an employee's "company code", this profile attribute should be available during the runtime to substitute it in the KQL query. If the managed property for this profile attribute is "RefinableString100", then the following KQL query should be added under **Advanced settings** of the SharePoint knowledge source, where the profile attribute value is set in the variable "ESS_UserContext_Company_Code":
-
-additionalSearchTerms: (NOT HIDEFROMSEARCH:1) AND (RefinableString100:All OR RefinableString100:{Global.ESS_UserContext_Company_Code})
+For information on SharePoint knowledge filtering, see [SharePoint Advanced Filtering (CPS) How-To](ess-sharepoint-filtering.md).
 
 ## Customize Starter prompts
 
