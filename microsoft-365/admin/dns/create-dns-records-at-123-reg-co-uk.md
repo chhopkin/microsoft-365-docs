@@ -2,8 +2,8 @@
 title: "Connect your DNS records at 123-reg.co.uk to Microsoft 365"
 f1.keywords:
 - CSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 03/18/2025
 audience: Admin
