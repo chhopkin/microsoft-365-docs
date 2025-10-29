@@ -170,7 +170,7 @@ items:
   - name: Microsoft 365 Copilot Researcher agent FAQ
     href: faq-researcher.yml
   - name: Microsoft 365 Copilot Researcher with Computer Use FAQ
-    href: researcher-agent-computer-use-faq.yml    
+    href: researcher-agent-computer-use-faq.yml
 - name: Maximize the value of Microsoft 365 Copilot
   items:
   - name: Reports and insights
