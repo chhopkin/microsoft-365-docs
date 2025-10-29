@@ -26,7 +26,7 @@ As people embrace and incorporate [generative AI apps](/ai/playbook/technology-g
 
 But what about non-Microsoft AI apps? 
 
-Using capabilities in [Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai?tabs=m365) (part of Microsoft Purview) and/or [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps) (part of Microsoft Defender XDR), your security team can enable people in your organization to use generative AI apps more securely, including both Microsoft and non-Microsoft AI apps.
+Using capabilities in [Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai?tabs=m365) (part of Microsoft Purview) and/or [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps) (part of Microsoft Defender), your security team can empower people in your organization to use generative AI apps more securely, including both Microsoft and non-Microsoft AI apps.
 
 This article describes how to:
 
@@ -41,13 +41,13 @@ Discovering, monitoring, and managing AI apps is essential to prevent data leaks
    - See [Microsoft Purview permissions](/purview/purview-permissions#microsoft-purview-permissions)
    - See [Microsoft 365 and Microsoft Entra roles with access to Defender for Cloud Apps](/defender-cloud-apps/manage-admins#microsoft-365-and-microsoft-entra-roles-with-access-to-defender-for-cloud-apps)
 
-- **If you want to use DSPM for AI, configure Purview**. Select one or more of the [Microsoft Purview deployment models](/purview/deploymentmodels/depmod-overview), which include:
+- **To use DSPM for AI, configure Purview**. Select one or more of the [Microsoft Purview deployment models](/purview/deploymentmodels/depmod-overview), which include:
    - [Secure by default](/purview/deploymentmodels/depmod-securebydefault-intro)
    - [Purview Data Security Posture Management](https://aka.ms/DSPMBlueprintPDF)
 
-- **If you want to use Defender for Cloud Apps, [set up Microsoft Defender XDR](/defender-xdr/pilot-deploy-overview)**, which includes these components:
-   - [Microsoft Defender for Cloud Apps](/defender-xdr/pilot-deploy-defender-cloud-apps)
-   - [Microsoft Defender for Endpoint](/defender-xdr/pilot-deploy-defender-endpoint)
+- **To use Defender for Cloud Apps, [set up Microsoft Defender XDR](/defender-xdr/pilot-deploy-overview)**, including these components:
+   - [Microsoft Defender for Cloud Apps](/defender-xdr/pilot-deploy-defender-cloud-apps) for discovering, monoitoring, and blocking specific AI applications
+   - [Microsoft Defender for Endpoint](/defender-xdr/pilot-deploy-defender-endpoint) for preventing unsanctioned AI apps from running on onboarded devices
 
 ## Use DSPM for AI to discover and manage AI app usage
 
@@ -67,11 +67,14 @@ DSPM for AI provides your security and compliance team to discover AI activity, 
 
 ## Use Defender for Cloud Apps to discover, monitor, or block generative AI apps
 
-With Defender for Cloud Apps, you can discover, monitor, or block generative AI apps in your organization, as described in the following sections.
+With Defender for Cloud Apps, you can discover, monitor, or block generative AI applications in your organization, as described in the following sections.
 
 ### Use the cloud app catalog to discover AI apps
 
 You can use the Microsoft Defender portal to see a list of AI apps your organization is using. Defender for Cloud Apps provides a catalog of apps with security and compliance risk scores.
+
+> [!NOTE]
+> Before you begin, see [Cloud app discovery overview](/defender-cloud-apps/set-up-cloud-discovery).
 
 1. Go to the [Microsoft Defender portal](https://security.microsoft.com) and sign in.
 
