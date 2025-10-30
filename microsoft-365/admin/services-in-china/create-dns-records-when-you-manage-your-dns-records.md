@@ -2,8 +2,8 @@
 title: "Create DNS records for Microsoft 365 when you manage your DNS records"
 f1.keywords:
 - CSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 08/28/2024
 audience: Admin
