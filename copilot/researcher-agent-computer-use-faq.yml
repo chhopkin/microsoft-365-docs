@@ -21,7 +21,7 @@ sections:
   - name: Admin controls
     questions:
       - question: "What controls do we have for administrators?"
-        answer: "Admins can manage Computer Use settings, including enabling or disabling the feature, access to work content, and configuring allowed sites. For details, see [Researcher Agent with Computer Use setup](researcher-agent-computer-use.md)."
+        answer: "Admins can manage Computer Use settings, including enabling or disabling the feature, access to work content, and configuring allowed sites. For details, see [Researcher Agent with Computer Use admin configuration](researcher-agent-computer-use.md)."
       - question: "Can an admin or user restrict Computer Use with Researcher to certain people only (for example a pilot group)?"
         answer: "Yes- admins can limit Computer Use with Researcher to specific users or groups from the Microsoft 365 admin center."
 
