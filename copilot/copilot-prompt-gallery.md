@@ -1,11 +1,11 @@
 ---
-title: "Understand Copilot Prompt Gallery"
+title: "Understand Prompt Gallery in Copilot"
 f1.keywords:
 - NOCSH
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 10/29/2025
+ms.date: 10/30/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
@@ -26,7 +26,7 @@ As an admin, you can support Prompt Gallery adoption and success within your org
 
 ## Overview
 
-:::image type="content" source="media/prompt-gallery-overview.png" alt-text="Screenshot showing the prompts available to try in Copilot Prompt Gallery." lightbox="media/prompt-gallery-overview.png":::
+:::image type="content" source="media/copilot-prompt-gallery-overview.png" alt-text="Screenshot showing the prompts available to try in Copilot Prompt Gallery." lightbox="media/copilot-prompt-gallery-overview.png":::
 
 Prompt Gallery is a comprehensive catalog of Copilot prompts created by Microsoft that highlight key scenarios and capabilities of Microsoft Copilot, designed to help users become proficient in using Copilot to accomplish their tasks.
 
@@ -38,7 +38,7 @@ For more information about how your users can use Copilot Prompt Gallery, see [L
 
 Prompt Gallery processes and manages data in a structured manner to ensure compliance and security. The following are key data flows and compliance considerations:
 
-:::image type="content" source="media/prompt-gallery-copilot-architecture.png" alt-text="Diagram showing the data flow for Prompt Gallery in the Copilot app." lightbox="media/copilot-prompt-gallery-diagram.png":::
+:::image type="content" source="media/prompt-gallery-copilot-architecture.png" alt-text="Diagram showing the data flow for Prompt Gallery in the Copilot app." lightbox="media/prompt-gallery-copilot-architecture.png":::
 
 1. Authenticated users can access Prompt Gallery from Microsoft 365 Copilot or Copilot Chat (including within Microsoft Word). For users that aren't authenticated, they can see sample prompts online at [Copilot Prompts](https://m365.cloud.microsoft/copilot-prompts), but they must authenticate to try any of them in Copilot.
 1. Prompt Gallery accesses Microsoft-authored Copilot prompts from the public catalog.

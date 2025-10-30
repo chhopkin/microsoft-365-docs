@@ -171,7 +171,7 @@ items:
   items:
   - name: Reports and insights
     href: microsoft-365-copilot-reports-for-admins.md
-  - name: Copilot Prompt Gallery
+  - name: Prompt Gallery
     href: copilot-prompt-gallery.md
   - name: Service plan diagnostic tool
     href: microsoft-365-copilot-service-plans.md
