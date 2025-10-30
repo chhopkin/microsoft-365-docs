@@ -12,39 +12,39 @@ ms.service: microsoft-365-copilot
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
-description: An overview guide for deploying the Employee Self-Service (ESS) agent.
+description: An overview guide for deploying the Employee Self-Service agent.
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# Employee Self-Service (ESS) Agent Quick-Start Setup Guide
+# Employee Self-Service agent quick-start setup guide
 
-This article has a checklist to help you set up and deploy the ESS Agent in Copilot Studio quickly to start seeing value right away. Begin with the essentials for a fast launch and have the flexibility to expand into more advanced scenarios later.
+This article has a checklist to help you set up and deploy the Employee Self-Service agent in Copilot Studio quickly to start seeing value right away. Begin with the essentials for a fast launch and have the flexibility to expand into more advanced scenarios later.
 
 ## Overview of deployment steps
 
-|Step |Focus                      |Time          |Goal                            |
-|-----|---------------------------|--------------|--------------------------------|
-|1    |Power Platform environment |15-30 minutes |Create the workspace.           |
-|2    |Install ESS template       |10 minutes    |Prepare the base agent.         |
-|3    |Brand your agent           |15 minutes    |Employee trust.                 |
-|4    |Add knowledge source       |30 minutes    |Instant value.                  |
-|5    |Customize topics           |30 minutes    |Provide relevant answers.       |
-|6    |Refine instructions        |15 minutes    |Have a consistent tone.         |
-|7    |Add micro agent            |20 minutes    |Expand reach.                   |
-|8    |Test and publish           |20 minutes    |Go live.                        |
-|9    |Grow over time             |Ongoing       |Continually refine and improve. |
+|Step |Focus                                        |Time          |Goal                            |
+|-----|---------------------------------------------|--------------|--------------------------------|
+|1    |Power Platform environment                   |15-30 minutes |Create the workspace.           |
+|2    |Install Employee Self-Service agent template |10 minutes    |Prepare the base agent.         |
+|3    |Brand your agent                             |15 minutes    |Employee trust.                 |
+|4    |Add knowledge source                         |30 minutes    |Instant value.                  |
+|5    |Customize topics                             |30 minutes    |Provide relevant answers.       |
+|6    |Refine instructions                          |15 minutes    |Have a consistent tone.         |
+|7    |Add agent                                    |20 minutes    |Expand reach.                   |
+|8    |Test and publish                             |20 minutes    |Go live.                        |
+|9    |Grow over time                               |Ongoing       |Continually refine and improve. |
 
 ## Step 1: Set up your Power Platform environment
 
-**What you're doing**: Creating the workspace your ESS Agent lives in and securely connect it to your organization's data and systems.
+**What you're doing**: Creating the workspace your Employee Self-Service agent lives in and securely connect it to your organization's data and systems.
 
 **Why this step matters**: Each Power Platform environment acts as a secure sandbox, keeping your configurations isolated, compliant, and easy to manage.
 
 ### Deployment steps checklist 
 
 - Create or confirm your Power Platform environment.
-- Verify you have Maker and Admin permissions. XXX WHAT ADMIN PERMISSIONS
+- [Verify](prepare.md) you have Maker and Admin permissions.
 - Ensure Dataverse is enabled.
 - Confirm you can access Copilot Studio in this environment.
 
@@ -57,17 +57,17 @@ This article has a checklist to help you set up and deploy the ESS Agent in Copi
 |[Design your Copilot Studio production environment strategy](/microsoft-copilot-studio/guidance/project-design-production-environment-strategy) |Information on shared versus dedicated environments and design considerations. |
 |[Governance and Security best practices](/microsoft-copilot-studio/guidance/sec-gov-phase2) |Environment isolation, ALM, DLP policies, and so on. |
 
-## Step 2: Install the ESS Agent Template 
+## Step 2: Install the Employee Self-Service agent template 
 
-**What you're doing**: Deploying the out-of-box ESS Agent template that comes preconfigured with HR and IT scenarios.
+**What you're doing**: Deploying either the Employee Self-Service HR or IT agent with the template that comes preconfigured with HR or IT scenarios, respectively. With multi-agent preview, customers have the flexibility to configure both Employee Self-Service agent HR and IT agents in the same environment. Customers can also start with a single vertical agent (HR or IT) and migrate their existing configuration to a multi-agent architecture later.
 
-**Why this step matters**: Installation gives you a working foundation with no custom build needed. It also ensures your setup follows best practices for employee service delivery.
+**Why this step matters**: Installation gives you a working foundation which ensures your setup follows best practices for employee service delivery.
 
 ### Installation checklist
 
-- In Copilot Studio, go to **Template**, select **Create**, and pick which version of the Employee Self-Service Agent you want to start with: HR, IT, or both if you want to cover multiple areas.
+- In Copilot Studio, go to **Template**, select **Create**, and pick which version of the Employee Self-Service Agent you want to start with: HR or IT.
 - Name your agent (for example, "Ask HR" or "IT Help Desk").
-- Confirm successful installation in your environment.
+- Confirm successful installation in your environment. In Copilot Studio, select **Agents** to confirm the newly created agent is listed.
 
 ### Installation documentation
 
@@ -97,7 +97,7 @@ This article has a checklist to help you set up and deploy the ESS Agent in Copi
 
 ## Step 4: Add your first knowledge source
 
-**What you're doing**: Connecting your ESS Agent to an internal knowledge base (for example, SharePoint or OneDrive).
+**What you're doing**: Connecting your Employee Self-Service agent to an internal knowledge base (for example, SharePoint or OneDrive).
 
 **Why this step matters**: Starting with knowledge-retrieval scenarios delivers quick value. Employees can immediately ask policy or process questions and get the answers they need.
 
@@ -121,7 +121,7 @@ This article has a checklist to help you set up and deploy the ESS Agent in Copi
 
 ### Customizing topics checklist
 
-- Review prebuilt topics in the ESS template.
+- Review prebuilt topics in the Employee Self-Service agent template.
 - Rename or edit content to fit your organization's language.
 - Add 3–5 custom topics for your top employee needs.
 
@@ -140,7 +140,7 @@ This article has a checklist to help you set up and deploy the ESS Agent in Copi
 
 ### Refining agent instructions checklist
 
-- Review the system message ("You're the ESS Agent for...").
+- Review the system message ("You're the Employee Self-Service agent for...").
 - Define fallback or escalation behaviors.
 - Save and publish your updates.
 
@@ -151,28 +151,23 @@ This article has a checklist to help you set up and deploy the ESS Agent in Copi
 |[Copilot Studio Agent Builder (**Configure Describe** tab)](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build) |Shows where you edit instructions, system messages, and how they sync. |
 |[Orchestrate agent behavior with generative AI](/microsoft-copilot-studio/advanced-generative-actions) |Gives context on how instructions influence topic selection and fallback logic. |
 
-## Step 7: Add a micro-agent for handoff (Optional for a unified entry point)
+## Step 7: Add another agent for handoff (Optional for a unified entry point)
 
-XXX IS IT Micro Agent (caps for licensed element), micro agent, or micro-agent?
+**What you're doing**: Linking your Employee Self-Service agent to another agent (like Workday or ServiceNow) to complete tasks.
 
-**What you're doing**: Linking your ESS Agent to another specialized micro-agent (like Workday or ServiceNow) to complete tasks.
+**Why this step matters**: Handoffs expand what your Employee Self-Service agent can do without rebuilding workflows. For example, "view my leave balance" can seamlessly hand off to the Workday agent.
 
-**Why this step matters**: Handoffs expand what your ESS Agent can do without rebuilding workflows. For example, "update my address" can seamlessly hand off to the Workday agent.
+### Agent checklist
 
-### Micro-agent checklist
-
-- Identify a system where a micro-agent already exists.
-- Add it as a sub-agent handoff in Copilot Studio.
+- Identify a system where an agent already exists.
+- Add it as another agent handoff in the **Agents** tab of the Employee Self-Service agent in Copilot Studio.
 - Test the handoff flow end-to-end.
 
-### Micro-agent documentation
+### Agent documentation
 
-XXX WHY IS THIS LIST THE SAME LIST AS STEP 6?
-
-|Article  |Purpose  |
-|---------|---------|
-|[Copilot Studio Agent Builder (**Configure Describe** tab)](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build) |Shows where you edit instructions, system messages, and how they sync. |
-|[Orchestrate agent behavior with generative AI](/microsoft-copilot-studio/advanced-generative-actions) |Gives context on how instructions influence topic selection and fallback logic. |
+|Article                                                                  |Purpose                                            |
+|-------------------------------------------------------------------------|---------------------------------------------------|
+|[Add other agents](/microsoft-copilot-studio/authoring-add-other-agents) |Information about adding agents in Copilot Studio. |
 
 ## Step 8: Test and publish
 
@@ -199,7 +194,7 @@ XXX WHY IS THIS LIST THE SAME LIST AS STEP 6?
 
 **What you're doing**: Building on your foundation as your confidence and needs evolve.
 
-**Why this step matters**: The ESS Agent grows with your organization. You can gradually enable advanced features and integrations.
+**Why this step matters**: The Employee Self-Service agent grows with your organization. You can gradually enable advanced features and integrations.
 
 ### Ideas for later
 
