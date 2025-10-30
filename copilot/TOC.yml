@@ -167,8 +167,7 @@ items:
     href: researcher-agent.md
   - name: Microsoft 365 Copilot Researcher agent FAQ
     href: faq-researcher.yml
-- name: Microsoft 365 Copilot Researcher agent with Computer Use
-  items:
+    items:
   - name: Microsoft 365 Copilot Researcher agent with Computer Use
     href: researcher-agent-computer-use.md
   - name: Microsoft 365 Copilot Researcher agent with Computer Use FAQ
