@@ -1,9 +1,9 @@
 ---
 title: "Turn off Basic Mobility and Security enforcement"
 f1.keywords: NOCSH
-ms.author: chrisda
-author: chrisda
-manager: orspodek
+ms.author: vpattnaik
+author: vpattnai
+manager: dansimp
 ms.date: 08/14/2025
 audience: Admin
 ms.topic: how-to

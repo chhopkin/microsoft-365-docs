@@ -4,7 +4,7 @@ f1.keywords:
 ms.author: lauragra
 author: lauragra
 manager: calvind
-ms.date: 06/17/2025
+ms.date: 10/27/2025
 ms.update-cycle: 180-days
 ms.topic: troubleshooting
 ms.service: microsoft-365-copilot
@@ -24,15 +24,15 @@ This article describes some of the most common issues with Microsoft 365 Copilot
 
 ## System crashed, froze, or became unresponsive
 
-Contact Microsoft support or your IT administrator—this is a technical problem that the user can't fix.
+Contact Microsoft support or your IT administrator—this issue is a technical problem that the user can't fix.
 
 ## I get an error message when processing guardrails
 
 If it's an AI model error (for example, Language Model API error), retry the analysis. If the error persists, retry and if that fails, contact Microsoft support or your IT administrator.
 
-## Guardrails are not flagging critical errors
+## Guardrails aren't flagging critical errors
 
-Broaden the criteria in the guardrails rules. Add additional rules for key issues.
+Broaden the criteria in the guardrails rules. Add more rules for key issues.
 
 ## Guardrails are flagging false positives
 

@@ -2,8 +2,8 @@
 title: "Stay on top of changes"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: mabond
+author: mkbond007
 manager: dansimp
 ms.date: 01/06/2025
 audience: Admin
