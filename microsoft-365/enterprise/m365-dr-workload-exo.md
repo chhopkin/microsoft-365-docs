@@ -3,14 +3,14 @@ title: Data Residency for Exchange Online
 description: Learn about Data Residency for Exchange Online
 ms.author: v-fahasen
 author: fhasen-msft
-manager: v-nihmi
+manager: Justin.Giammona
 ms.service: microsoft-365-enterprise
 ms.subservice: advanced-data-residency
 ms.topic: article
 f1.keywords:
 - NOCSH
 ms.date: 12/10/2024
-ms.reviewer: deanw, brianday
+ms.reviewer: jugiammo
 ms.custom:
  - it-pro
  - has-azure-ad-ps-ref

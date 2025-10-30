@@ -11,7 +11,8 @@ manager: mfxiong
 ms.service: microsoft-365-enterprise
 ms.topic: how-to
 ms.date:     09/26/2025
-ms.subservice: advanced-data-residency
+ms.subservice: multi-geo-capabilities
+ms.reviewer: jugiammo
 ---
 
 # Configure Multi-Geo In-Region Routing (In Preview)
@@ -87,15 +88,13 @@ To adopt an MX target in mx.microsoft, do the following steps:
 
 1. Use the **Inbound SMTP Email** test in the **Microsoft Remote Connectivity Analyzer** at <https://testconnectivity.microsoft.com/tests/O365InboundSmtp/input> to verify the IRR-related MX record is working.
 
-      > [!TIP]
+   > [!TIP]
    > You might have to retry the test, depending on DNS caching.
 
       Successful completion of the test looks like this:
 
-   ![User's image](media/configure-multi-geo-in-region-routing-in-preview/connectivity-test-successful-output.png)
-   
-   
-   
+      ![User's image](media/configure-multi-geo-in-region-routing-in-preview/connectivity-test-successful-output.png)
+    
 5. Change the **Priority** values of the MX records for your domain:
    - **The existing MX record from Step 1**: Change the **Priority** value to 30.
    - **The IRR MX record from Step 3 (ends with mx.microsoft)**:  Change **Priority** value to **0** (highest priority).
@@ -115,25 +114,23 @@ After you complete the [Prerequisites](#prerequisites) and the steps in Adopt an
 
 2. Execute the following command:
 
+    ```powershell
+    Set-OrganizationConfig  -InRegionRoutingEnabled $true
+    ```
 
-```powershell
-Set-OrganizationConfig  -InRegionRoutingEnabled $true
-```
+3. **Wait 1 hour for the change in Step 2 to propagate**, then execute the following command:
 
-3. **Wait 30 minutes for the change in Step 2 to propagate**, then execute the following command:
+    ```powershell
+    Set-AcceptedDomain -Identity {Domain} -MailFlowRegion {PreferredDataLocation}
+    ```
+   - {Domain} is the accepted domain.
+   - {PreferredDataLocation} is a valid three-letter code specified in [Microsoft 365 Multi-Geo availability](microsoft-365-multi-geo.md#microsoft-365-multi-geo-availability).
 
-      ```powershell
-   Set-AcceptedDomain -Identity <Domain> -MailFlowRegion <PreferredDataLocation>
-   ```
-
-   - \<Domain\> is the accepted domain.
-   - \<PreferredDataLocation\> is a valid three-letter code specified in [Microsoft 365 Multi-Geo availability](microsoft-365-multi-geo.md#microsoft-365-multi-geo-availability).
-
-    For example:
-      ```powershell
-     Set-AcceptedDomain -Identity contosotest.com -MailFlowRegion GBR
-   ```
-   For detailed syntax and parameter information, see [Set-AcceptedDomain](/powershell/module/exchange/set-accepteddomain).
+       For example:
+        ```powershell
+        Set-AcceptedDomain -Identity contosotest.com -MailFlowRegion GBR
+        ```
+      For detailed syntax and parameter information, see [Set-AcceptedDomain](/powershell/module/exchange/set-accepteddomain).
 
 4. Wait 30 minutes after enabling IRR to allow previously cached DNS records to expire and updated routing information to propagate. Then, send an email to recipients in the domain to verify whether mail flow is working as expected.
 

@@ -70,6 +70,12 @@ Employee Self-Service (ESS) is evaluated with manual red teaming with prompts cu
 
 ESS relies on Microsoft Copilot Studio for processing of user queries. Microsoft Copilot Studio limitations inherently apply for Employee Self-Service as well. Refer to the Copilot Studio documentation for the protections in place for responsible AI.
 
+## How does the emotional intelligence topic work?
+
+Each ESS template includes the emotional intelligence (EQ) topic is included in each ESS template, which is called **Seek emotional intelligence**. This topic is designed to enhance conversations in ESS by making responses more empathetic, context-aware, and relevant for diverse audiences. This feature works by analyzing conversational context and tailoring replies to reflect emotional intelligence. The feature ensures users feel understood and valued in every interaction. The EQ topic is fully customizable and can be turned off entirely.
+
+This topic isn't a replacement for human care or decision-making. It enhances responses to be supportive in tone, while maintaining factual accuracy and appropriate boundaries. Empathetic phrasing is used to make guidance clearer and more human, not to simulate emotional relationships. This topic doesn't infer mental health conditions, store emotional states, or use this information to profile users.
+
 ## What operational factors and settings allow for effective and responsible use of Employee Self-Service?
 
 Employee Self-Service (ESS) provides authoritative responses based on the knowledge sources added and the ISV packages configured. To provide users with authoritative responses, add appropriate knowledge sources, or configure ISV packages.

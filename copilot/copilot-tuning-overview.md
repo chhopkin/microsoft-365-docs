@@ -4,7 +4,7 @@ f1.keywords:
 ms.author: lauragra
 author: lauragra
 manager: calvind
-ms.date: 05/20/2025
+ms.date: 10/27/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: overview
@@ -20,7 +20,7 @@ description: "Learn how to use Microsoft 365 Copilot Tuning to create task-speci
 
 Microsoft 365 Copilot Tuning allows organizations to fine-tune large language models (LLMs) by using their own tenant data. These fine-tuned models power [agents](/microsoft-365-copilot/extensibility/overview-declarative-agent) that can perform domain-specific tasks based on the organization's unique knowledge. All training and AI processing happens within your Microsoft 365 tenant, so your data remains secure and governed by your existing compliance controls. The result is an AI assistant that behaves like an expert team member, providing tailored assistance in line with your organization's content and rules.
 
-This article explains how organizations can use Copilot Tuning to create task-specific fine-tuned LLMs, how users can build agents on these fine-tuned models, and how IT administrators can govern the feature.
+This article explains how organizations can use Copilot Tuning to create task-specific fine-tuned LLMs. It covers how users can build agents on these fine-tuned models, and how IT administrators can govern the feature.
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=7b2cdaf2-fb86-421d-9932-8a2b02cbdbc5]
 
@@ -36,7 +36,7 @@ Copilot Tuning provides the following key capabilities and benefits:
 
 - **Domain-specific agents** - Build specialized Copilot agents based on the fine-tuned models that are tailored to business tasks. You can create agents for scenarios like expert Q&A, proposal generation, or report summarization that behave like an expert in that domain. The agent produces results with the appropriate tone, vocabulary, and level of detail for the organization.
 
-- **More intuitive insights and automation** - Encoding your organization's business know-how into Copilot enables analysis and content creation tuned to your organization. Tasks that might take days of manual effort (searching documents, compiling data, writing drafts) can be done in minutes by the agent. This allows your analysts and subject-matter experts to focus on higher-value work while Copilot handles routine or information-heavy tasks.
+- **More intuitive insights and automation** - Encoding your organization's business know-how into Copilot enables analysis and content creation tuned to your organization. Tasks that might take days of manual effort (searching documents, compiling data, writing drafts) are completed in minutes by the agent. This automation allows your analysts and subject-matter experts to focus on higher-value work while Copilot handles routine or information-heavy tasks.
 
 - **Integration with data sources** - Copilot Tuning can use the rich content already in your Microsoft 365 ecosystem. You select knowledge sources; the model then learns from this tenant data to ensure that the agent's responses are grounded in the organization's information. Because Copilot is integrated with Microsoft Graph, the agent can also reason over live enterprise data, giving you a powerful tool to query and summarize up-to-date information from Microsoft 365.
 
@@ -60,7 +60,7 @@ Apply the following best practices to tune the LLM:
 
     For tasks like document generation or summarization, provide high-quality input/output pairs to help the model learn structure, tone, and content expectations.
 
-- **Define clear instructions and constraints** - When configuring the model in Copilot Studio, you can input instructions for the agent's tone and behavior. Provide clear guidelines; for example, "Use a professional and friendly tone" or "Only use information from official 2023 policy manual." You can also supply starter prompts or example questions to steer the model's responses. These help the agent understand context and style.
+- **Define clear instructions and constraints** - When configuring the model in Copilot Studio, you can input instructions for the agent's tone and behavior. Provide clear guidelines; for example, "Use a professional and friendly tone" or "Only use information from official 2023 policy manual." You can also supply starter prompts or example questions to steer the model's responses. These instructions help the agent understand context and style.
 
 - **Use preview and evaluation tools** - Copilot Tuning includes evaluation steps. After your model is trained, test it with sample queries or tasks. Copilot Studio allows you to compare test results against baseline answers. Review the outputs to ensure that they meet your expectations for accuracy and tone. If they don't, refine your training data or instructions and retrain.
 
@@ -104,18 +104,18 @@ Copilot Tuning provides tenant-wide settings, security, and governance features 
 
 The following key admin features are available for Copilot Tuning:
 
-- **Access control** - AI admins can enable Copilot Tuning for their organization or for a specific subset of users. For example, an admin might enable Copilot Tuning only for the R&D and Legal departments, and designate certain users in those teams to create fine-tuned models and specialized agents. After a model is trained and deployed, the AI admin controls who has access to the trained model.
+- **Access control** - AI admins can enable Copilot Tuning for their organization or for a specific subset of users. For example, an admin might enable Copilot Tuning only for the R&D and Legal departments, and designate certain users in those teams to create fine-tuned models and specialized agents. After a model is trained and deployed, the AI admin controls access to the trained model.
 
 - **Microsoft 365 admin center governance** - Admins can monitor fine-tuning projects and agents via the Copilot management section in the Microsoft 365 admin center. They can view which custom models are deployed and delete a model if it becomes obsolete.
 
 - **Security and compliance** - Copilot Tuning is built with enterprise-grade security. Model training occurs in a tenant-isolated environment, and the resulting model inherits the access permissions of the underlying data. No customer data is transmitted to external services during training; the fine-tuning happens within the secure cloud associated with your tenant.
 
-    Copilot Tuning excludes any files that the security group or groups applied to the model don't have permissions to access. It also suggests security groups to add to its training data to maximize its knowledge. This provides an extra layer of security for the model.
+    Copilot Tuning excludes any files that the security group or groups applied to the model don't have permissions to access. It also suggests security groups to add to its training data to maximize its knowledge. This feature provides an extra layer of security for the model.
 
     > [!NOTE]
     > When you fine-tune a model, the model weights are adjusted based on the training data. Changes to access permissions on the training data aren't automatically applied to the model; AI admins need to update the permissions on the model in the Microsoft 365 admin center.
 
-    Any Microsoft Graph data returned in Copilot responses also honors document permissions; responses won't include information a user doesn't have access to.
+    Any Microsoft Graph data returned in Copilot responses also honors document permissions; responses don't include information a user doesn't have access to.
 
 - **Deployment and monitoring** - When a model is fine-tuned and deployed, builders can use it in  an agent and share the agent with users in the organization who have access to the model. Admins can control who has access to the agent via security groups, and can monitor agent usage via Copilot usage analytics dashboards.
 
@@ -123,21 +123,21 @@ The following key admin features are available for Copilot Tuning:
 
 The AI administrator is responsible for ensuring that your use of this product complies with all applicable data protection, privacy, and intellectual property laws. This includes meeting your obligations as a Data Controller under regulations such as the GDPR or CCPA.
 
-### Data Controller Obligations
+### Data controller obligations
 
-- You are responsible for how data is collected, stored, and used within your tenant environment.
+- You're responsible for how data is collected, stored, and used within your tenant environment.
 - You must ensure that your data practices meet legal requirements for transparency, consent, access, and deletion.
-- You are responsible for verifying the accuracy, appropriateness, and compliance of any outputs generated from this system before using them. May require reviewing with the subject matter experts.
+- You're responsible for verifying the accuracy, appropriateness, and compliance of any outputs generated from this system before using them. Might require reviewing with the subject matter experts.
 
-### Copyright and Model Training
+### Copyright and model training
 
 - If you choose to train a custom model using your own data, you must ensure that you have the appropriate rights or licenses for any copyrighted materials included in the training set.
-- Copyright protection will not apply to models trained using unauthorized copyrighted content. You assume full responsibility for any such use.
+- Copyright protection won't apply to models trained using unauthorized copyrighted content. You assume full responsibility for any such use.
 
-### Data Deletion
+### Data deletion
 
-- If a user whose data has been used in training a model submits a valid deletion request under GDPR (or similar regulations), you will be required to retrain the model.
-- When you fine-tune a model, the model weights are adjusted based on the training data. You have the option to delete the fine-tuned model at any time.
+- If a user whose data is used in training a model submits a valid deletion request under GDPR (or similar regulations), you're be required to retrain the model.
+- When you fine-tune a model, the model weights are adjusted based on the training data. You can delete the fine-tuned model at any time.
 
 ## Related content
 

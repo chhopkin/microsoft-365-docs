@@ -1,14 +1,12 @@
 ---
-title: Get your data ready for Microsoft 365 Copilot with E3 + SAM licenses
+title: Get your data ready for Microsoft 365 Copilot with E3
 description: Get started with M365 Copilot. The E3 deployment for Microsoft 365 Copilot uses a E3 license, SharePoint Advanced Management, and Microsoft Purview. These services help your organization get ready for Copilot. This IT admin guide helps you prevent oversharing, declutter data sources, and monitor site changes. Get your organization and data ready for Copilot by following the steps in this article.
 f1.keywords:
 - NOCSH
 manager: dansimp
 ms.author: ruihu
 author: maggierui
-
-ms.date: 9/9/2025
-
+ms.date: 10/21/2025
 ms.update-cycle: 180-days
 ms.reviewer: cabailey, ruihu
 audience: Admin
@@ -21,7 +19,6 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 - essentials-overview
-- trust-pod
 ms.custom: [copilot-learning-hub]
 appliesto:
 - ✅ Microsoft 365 Copilot
@@ -43,13 +40,13 @@ Use this article to get started with Microsoft 365 Copilot in your organization.
 This article applies to:
 
 - Microsoft 365 Copilot
-- Microsoft SharePoint Premium - SharePoint Advanced Management (SAM)
+- Microsoft SharePoint Advanced Management (SAM)
 - Microsoft Purview
 
 > [!NOTE]
 > - If you have an E5 license, then see [Microsoft 365 Copilot admin guide for E5 licenses](microsoft-365-copilot-e5-guide.md). For a comparison of the features in the licenses, see [Compare Microsoft 365 Copilot license feature overview](microsoft-365-copilot-license-feature-overview.md).
 >
-> - Beginning in early 2025, Microsoft SharePoint Premium - SharePoint Advanced Management (SAM) is included with your Microsoft 365 Copilot license. To learn more about SAM licensing, see [Microsoft SharePoint Premium - SharePoint Advanced Management](/sharepoint/advanced-management#licensing).
+> - Beginning in early 2025, Microsoft SharePoint Advanced Management (SAM) is included with your Microsoft 365 Copilot license. To learn more about SAM licensing, see [Microsoft SharePoint Advanced Management](/sharepoint/advanced-management#licensing).
 
 ## Before you begin
 
@@ -63,9 +60,7 @@ This article applies to:
 
     For a list of the features and services you get with your license, see [Microsoft 365, Office 365, Enterprise Mobility + Security, and Windows 11 Subscriptions](https://aka.ms/M365EnterprisePlans).
 
-  - **[Microsoft SharePoint Premium - SharePoint Advanced Management](/sharepoint/advanced-management#licensing)**
-
-
+  - **[SharePoint Advanced Management](/sharepoint/advanced-management#licensing)**
 
   - **[Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)**
 
