@@ -2,8 +2,8 @@
 title: "Update your admin phone number and email address"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: deniseb
+author: deniseb
 manager: dansimp
 ms.date: 10/02/2024
 audience: Admin
