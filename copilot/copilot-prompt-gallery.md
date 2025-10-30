@@ -20,7 +20,7 @@ description: "Learn about the Copilot Prompt Gallery and how your users can use 
 
 # Understand Prompt Gallery in Copilot
 
-Microsoft Prompt Gallery in Copilot is a resource of Microsoft-created prompts, videos, and articles that help your users understand and use Microsoft Copilot effectively. Prompt Gallery is available within the Microsoft Copilot app.
+Microsoft Prompt Gallery in Copilot is a resource of Microsoft-created prompts, videos, and articles that help your users understand and use Microsoft Copilot effectively. Prompt Gallery is available within Microsoft 365 Copilot or Copilot Chat.
 
 As an admin, you can support Prompt Gallery adoption and success within your organization. This article covers Prompt Gallery architecture, data flows, security, and privacy.
 
