@@ -79,4 +79,4 @@ Follow these instructions to configure admin settings for Researcher agent with 
 
 - [Introducing Researcher with Computer Use in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/1f274537-6648-46e8-8264-052a49b92af4)
 - [Getting started: Researcher with Computer Use](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-researcher-with-computer-use-in-microsoft-365-copilot/4464766)
-- [Researcher with Computer Use FAQs(researcher-agent-computer-use-faq.yml)
+- [Researcher with Computer Use FAQs](researcher-agent-computer-use-faq.yml)
