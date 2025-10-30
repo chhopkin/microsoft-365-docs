@@ -30,7 +30,7 @@ Researcher with Computer Use is a powerful extension that builds on the capabili
 
 ## Configure admin settings for Researcher agent with Computer Use
 
-Follow these instructions to configure admin settings for Researcher agent with **Computer Use** by following the setup instructions. After setup is complete, contact us to enable the experience for your tenant. The experience will follow the admin settings you've configured.
+Follow these instructions to configure admin settings for Researcher agent with **Computer Use** by following the setup instructions.
 
 1. Navigate to [Microsoft Admin Controls (MAC) Agents](https://admin.cloud.microsoft/?#/copilot/agents) page.
 
