@@ -22,15 +22,15 @@ appliesto:
 >[!NOTE]
 >The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
-The Employee Self-Service (ESS) agent is a template in Microsoft Copilot Studio that can be infinitely customized to assist users in your organization with HR and IT tasks. Use guidance here to learn more about how to craft high-quality responses using a mix of techniques to fit your ideal response.
+The Employee Self-Service agent is a template in Microsoft Copilot Studio that can be infinitely customized to assist users in your organization with HR and IT tasks. Use guidance here to learn more about how to craft high-quality responses using a mix of techniques to fit your ideal response.
 
 ## About response quality
 
-A great response is **accurate, actionable, and engaging** to ensure we earn trust, provide useful responses, and help the user take the next step using self-service tools. ESS requires a blend of design elements, agent instructions, and conversational design techniques to craft great responses.
+A great response is **accurate, actionable, and engaging** to ensure we earn trust, provide useful responses, and help the user take the next step using self-service tools. The Employee Self-Service agent requires a blend of design elements, agent instructions, and conversational design techniques to craft great responses.
 
 ## How responses are formed
 
-Responses are a combination of **instructions, knowledge, topics, data from connectors, and UI elements**. ESS responses combine these elements to deliver accurate, actionable, and trustworthy experiences. This approach solves common challenges like ambiguous intent, inconsistent tone, and static answers by ensuring structured guidance, personalized context, and interactive components that move tasks forward.
+Responses are a combination of **instructions, knowledge, topics, data from connectors, and UI elements**. Employee Self-Service agent responses combine these elements to deliver accurate, actionable, and trustworthy experiences. This approach solves common challenges like ambiguous intent, inconsistent tone, and static answers by ensuring structured guidance, personalized context, and interactive components that move tasks forward.
 
 ## Instructions: Define voice, behaviors, and reasoning
 
@@ -58,7 +58,7 @@ UI elements like Adaptive cards, inline actions, and references turn static resp
 - **Adaptive cards and rich components**: Allow users to act directly within the conversation (for example, approve requests, order a new device, file an HR ticket).
 - **Actions**: Uses trigger integrated actions, like creating tasks, updating records, or generating content, directly from chat, so they can complete work without switching apps.
 
-## About writing instructions for your ESS agent
+## About writing instructions for your Employee Self-Service agent
 
 When you're designing global system prompts for an AI agent, especially one deployed across various domains, languages, and use cases, it's crucial to define clear, consistent instructions. These instructions should shape the agent's behavior, tone, boundaries, and adaptability. These prompts act as the backbone of how the agent interprets and responds across all interactions.
 
@@ -143,7 +143,7 @@ If you have a SharePoint file as a knowledge source, mention it: "Use Employee H
 
 Slight differences in naming can affect results, so use the tool's exact name as configured. This practice ties into the earlier point: instructions must be grounded in what you've actually added to the agent. If the agent has numerous tools, naming the right one in context is even more helpful to avoid mistakes.
 
-## Create a test plan to measure the quality of your ESS agent's responses
+## Create a test plan to measure the quality of your Employee Self-Service agent's responses
 
 This testing guide helps you evaluate the quality of your customized agent experience using standard quality frameworks. Whether your agent supports HR, IT, or other employee experience scenarios, this guide provides a consistent way to assess the helpfulness and trustworthiness of responses.
 

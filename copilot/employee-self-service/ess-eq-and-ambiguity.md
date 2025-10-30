@@ -19,7 +19,7 @@ appliesto:
 
 # How emotional intelligence works in Employee Self-Service
 
-The emotional intelligence (EQ) topic is included in each ESS template and is called **Seek emotional intelligence**. This topic is designed to enhance conversations in ESS by making responses more empathetic, context-aware, and relevant for diverse audiences. This topic:
+The emotional intelligence (EQ) topic is included in each Employee Self-Service agent template and is called **Seek emotional intelligence**. This topic is designed to enhance conversations in Employee Self-Service agent by making responses more empathetic, context-aware, and relevant for diverse audiences. This topic:
 
 - Detects emotional context in employee prompts (for example, stress, grief, frustration, uncertainty).
 - Responds with empathy—validating the emotion and building trust.
@@ -59,7 +59,7 @@ Always test sensitive subjects or prompts that should be handled with care befor
 
 ## The ambiguity topic
 
-The ambiguous topic is included as a custom topic in each ESS template as **Seek clarification to avoid ambiguous answers**. This topic ensures the agent responds to unclear or multi-meaning prompts by asking for more details, which improves response accuracy and builds user trust. This topic:
+The ambiguous topic is included as a custom topic in each Employee Self-Service agent template as **Seek clarification to avoid ambiguous answers**. This topic ensures the agent responds to unclear or multi-meaning prompts by asking for more details, which improves response accuracy and builds user trust. This topic:
 
 - Detects ambiguous context in employee prompts (for example, "Find balance," "Tell me about leave," "Update my info").
 - Prompts for clarification. The agent rephrases what it understood and asks targeted follow-up questions before acting.

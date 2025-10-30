@@ -19,60 +19,42 @@ appliesto:
 
 # Extending Employee Self-Service Copilot Agent
 
-The Employee Self-Service (ESS) Copilot Agent allows employees to get their queries answered from admin-configured knowledge sources, HCM and IT systems. ESS, along with accelerator packages for connecting external systems, unleashes a powerful set of ready-to-use Topics that cover common HR & IT scenarios.
+The Employee Self-Service agent allows employees to get their queries answered from admin-configured knowledge sources, HCM and IT systems. Employee Self-Service agent, along with accelerator packages for connecting external systems, unleashes a powerful set of ready-to-use Topics that cover common HR and IT scenarios.
 
-However, every organization has unique processes and policies where each vertical owners may want to include a few other self-serve scenarios as part of ESS, such as:
+However, every organization has unique processes and policies where each vertical owners may want to include a few other self-serve scenarios as part of Employee Self-Service agent, such as:
 
 - Apply for leave or request for leave balance using Copilot.
 - View job details for their direct reports.
 - Move or transfer an employee.
 
-ESS is built with the core principles of extensibility. These principles allow each business vertical owners to enhance the out-of-the-box Topics with their own additional custom Topics. This article explains the steps to extend ESS by explaining how ESS works from first principles and walking through all the different ways you can build upon and extend ESS to fit your organization's needs.
+Employee Self-Service agent is built with the core principles of extensibility. These principles allow each business vertical owners to enhance the out-of-the-box Topics with their own additional custom Topics. This article explains the steps to extend ESS by explaining how Employee Self-Service agent works from first principles and walking through all the different ways you can build upon and extend Employee Self-Service agent to fit your organization's needs.
 
 Who this is for:
 
 - Business vertical owners such as HR and IT who need to deliver employee services.
 - Application integration or service owners who manage the business vertical systems like Workday, SAP SuccessFactors, ServiceNow, and so on.
-- Agent makers who configure and customize ESS Agent.
+- Agent makers who configure and customize Employee Self-Service agent.
 
-## Understand ESS
+## Understand Employee Self-Service agent
 
 XXX WE CAN'T JUST CONTINUE TO DEFINE ESS IN EVERY ARTICLE. YES, IT'S NEW TODAY, BUT THAT WON'T BE THE CASE FOREVER.
 
-ESS is a Copilot Studio custom agent that offers a flexible, extensible starting point for automating business support services.  Understanding ESS at a fundamental level empowers both business & technology stakeholders to:
+Employee Self-Service agent is a Copilot Studio custom agent that offers a flexible, extensible starting point for automating business support services.  Understanding Employee Self-Service agent at a fundamental level empowers both business & technology stakeholders to:
 
 - Customize the agent's behavior and responses.
 - Integrate with your own systems and data sources.
-- Extend ESS to support new scenarios as your organization evolves.
+- Extend Employee Self-Service agent to support new scenarios as your organization evolves.
 
-## ESS Architecture: The Building Blocks
+## Employee Self-Service agent architecture: the building blocks
 
-1. **The ESS Agent**: At its core, ESS is a conversational agent built on Microsoft 365 Copilot and Copilot Studio. It acts as the interface between employees and organization's knowledge, workflows, and systems.
-1. **Topic**: ESS comes with prebuilt "accelerator packages" from Workday, ServiceNow, and SAP SuccessFactors for common HR and IT scenarios (like checking PTO balance or submitting an IT ticket). These topics define how the agent understands and responds to user requests.
-1. **Connectors and Actions**: Connectors allow ESS to interact with external systems (for example, Workday, ServiceNow, SAP SuccessFactors). Actions inside topics are the building blocks that let the agent retrieve data, trigger workflows, or update records.
-1. **Knowledge Sources**: ESS can pull information from knowledge sources such as SharePoint, ServiceNow KBs, Workday KBs, internal wikis, or other knowledge bases to answer employee questions. ESS Agent is continuously being evolved to keep up at par with the industry requirements and trends.
+1. **The Employee Self-Service agent**: At its core, the Employee Self-Service agent is a conversational agent built on Microsoft 365 Copilot and Copilot Studio. It acts as the interface between employees and organization's knowledge, workflows, and systems.
+1. **Topic**: Employee Self-Service agent comes with prebuilt "accelerator packages" from Workday, ServiceNow, and SAP SuccessFactors for common HR and IT scenarios (like checking PTO balance or submitting an IT ticket). These topics define how the agent understands and responds to user requests.
+1. **Connectors and Actions**: Connectors allow the Employee Self-Service agent to interact with external systems (for example, Workday, ServiceNow, SAP SuccessFactors). Actions inside topics are the building blocks that let the agent retrieve data, trigger workflows, or update records.
+1. **Knowledge Sources**: The Employee Self-Service agent can pull information from knowledge sources such as SharePoint, ServiceNow KBs, Workday KBs, internal wikis, or other knowledge bases to answer employee questions. The Employee Self-Service agent is continuously being evolved to keep up at par with the industry requirements and trends.
 
-### 1. The ESS agent
+## Extendable parts of the Employee Self-Service agent
 
-At its core, ESS is a conversational agent built on Microsoft 365 Copilot and Copilot Studio. It acts as the interface between employees and organization's knowledge, workflows, and systems.
-
-### 2. Topic
-
-XXX THE TEXT IS STILL VERY PACKAGE. CALLING THESE PACKAGS TOPICS FEELS SHOEHORNED.
-
-ESS comes with prebuilt "accelerator packages" from Workday, ServiceNow, and SAP SuccessFactors for common HR and IT scenarios (like checking PTO balance or submitting an IT ticket). These topics define how the agent understands and responds to user requests.
-
-### 3. Connectors and Actions
-
-Connectors allow ESS to interact with external systems (such as Workday, ServiceNow, SAP SuccessFactors). Actions inside topics are the building blocks that let the agent retrieve data, trigger workflows, or update records.
-
-### 4. Knowledge Sources
-
-ESS can pull information from knowledge sources such as SharePoint, ServiceNow KBs, Workday KBs, internal wikis, or other knowledge bases to answer employee questions. ESS Agent is continuously being evolved to keep up at par with the industry requirements & trends.
-
-## Extendable parts of ESS
-
-ESS is designed for extensibility at every layer:
+The Employee Self-Service agent is designed for extensibility at every layer:
 
 |Component          |What you can extend or customize                                                                 |
 |-------------------|-------------------------------------------------------------------------------------------------|
@@ -82,11 +64,11 @@ ESS is designed for extensibility at every layer:
 |Agent response     |Adjust how the agent responds, handles sensitive queries, or routes requests.                    |
 |UI/Chat experience |Customize prompts, escalation flows, and disclaimers.                                            |
 
-## How ESS works
+## How the Employee Self-Service agent works
 
 XXX WHY SO MARKETING? AND WHY IS THIS HERE? WHY NOT THE INTRO OR OVERVIEW TOPICS?
 
-## Ways to customize and extend ESS XXX THIS IS AWFUL. APART FROM STEP 1 THAT LINKS OUT TO COGENT INFO, THIS ISN'T TECHNICALLY HELPFUL AT ALL.
+## Ways to customize and extend the Employee Self-Service agent XXX THIS IS AWFUL. APART FROM STEP 1 THAT LINKS OUT TO COGENT INFO, THIS ISN'T TECHNICALLY HELPFUL AT ALL.
 
 ### 1. Create custom topics
 
@@ -98,12 +80,12 @@ Learn more in the [sample scenario Topics library](https://github.com/microsoft/
 
 ### 2. Add or update knowledge sources
 
-- Point ESS to new SharePoint sites, policy documents, SNOW KB articles, or FAQs.
+- Point the Employee Self-Service agent to new SharePoint sites, policy documents, SNOW KB articles, or FAQs.
 - Use filters to ensure employees get role- and region-specific answers.
 
 ### 3. Customize agent behavior
 
-- Adjust how ESS handles sensitive queries, such as payroll or medical leave.
+- Adjust how the Employee Self-Service agent handles sensitive queries, such as payroll or medical leave.
 - Set up escalation paths for complex or confidential requests.
 
 ### Test and validate
@@ -126,7 +108,7 @@ You'll know you're ready to move on when:
 
 ## Extensibility in Action: Example Use Cases
 
-Here are some example use cases for extending ESS that aren't part of the out of box template packages:
+Here are some example use cases for extending the Employee Self-Service agent that aren't part of the out of box template packages:
 
 - HR: Add a topic for "Requesting a visa letter" that triggers a custom workflow.
 - IT: Integrate with your asset management system to automate device requests.

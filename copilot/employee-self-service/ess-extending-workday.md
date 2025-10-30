@@ -19,9 +19,9 @@ appliesto:
 
 # Extending Employee Self-Service Copilot Agent
 
-The Employee Self-Service (ESS) Copilot Agent allows employees to get their queries answered from admin-configured knowledge sources, HCM and IT systems. ESS, along with accelerator packages for connecting external systems, unleashes a powerful set of ready-to-use Topics that cover common HR & IT scenarios.
+The Employee Self-Service agent allows employees to get their queries answered from admin-configured knowledge sources, HCM and IT systems. The Employee Self-Service agent, along with accelerator packages for connecting external systems, unleashes a powerful set of ready-to-use Topics that cover common HR & IT scenarios.
 
-However, every organization has unique processes and policies where each vertical owners may want to include a few other self-serve scenarios as part of ESS, such as:
+However, every organization has unique processes and policies where each vertical owners may want to include a few other self-serve scenarios as part of the Employee Self-Service agent, such as:
 
 - Apply for leave or request for leave balance using Copilot.
 - View job details for their direct reports.
@@ -29,23 +29,23 @@ However, every organization has unique processes and policies where each vertica
 
 XXX IS TOPICS BRANDED AND THEREFORE TO BE CAPITALIZED, OR LOW-CAPS? I AM LOW-CAPS HERE BECAUSE YOU'VE DONE BOTH.
 
-To support these needs, ESS is designed to be extensible, so custom Topics can be created to work seamlessly alongside with out-of-the-box (OOB) topics. This article explains the steps to extend ESS by adding new topics tailored to your organization.
+To support these needs, the Employee Self-Service agent is designed to be extensible, so custom Topics can be created to work seamlessly alongside with out-of-the-box (OOB) topics. This article explains the steps to extend the Employee Self-Service agent by adding new topics tailored to your organization.
 
 > [!NOTE]
-> This article is for Copilot Studio makers looking to extend ESS with custom topics for Workday.
+> This article is for Copilot Studio makers looking to extend the Employee Self-Service agent with custom topics for Workday.
 
 ## Prerequisites
 
-Before extending the Employee Self-Service (ESS) Copilot Agent with custom topics in your Workday integration, make sure:
+Before extending the Employee Self-Service agent with custom topics in your Workday integration, make sure:
 
-- ESS agent's installed in Copilot Studio.
-- ESS Workday package is installed and configured in Copilot Studio. Follow [these steps](workday.md) to complete the integration between ESS & Workday  official guidance.
+- The Employee Self-Service agent's installed in Copilot Studio.
+- The Employee Self-Service agent's Workday package is installed and configured in Copilot Studio. Follow [these steps](workday.md) to complete the integration between the Employee Self-Service agent and Workday's official guidance.
 - Maker access to a sandbox or pre-production environment in Copilot Studio.
 - Admin access to Workday to configure additional permissions if required.
 
 ## Fundamentals
 
-Extending ESS with Workday requires an understanding of two key building blocks: topics and template configurations. Together, these building blocks define how conversational scenarios are designed and how they interact with Workday services.
+Extending the Employee Self-Service agent with Workday requires an understanding of two key building blocks: topics and template configurations. Together, these building blocks define how conversational scenarios are designed and how they interact with Workday services.
 
 ### Topics
 
@@ -58,13 +58,13 @@ In Copilot Studio, a topic represents the workflow of a conversation. M365 Copil
 
 ### Template configurations
 
-When adding new Workday scenarios to the ESS Agent, it needs to know the format of the request, its inputs and outputs, and all the options available in the corresponding Workday operation. Templates are used to define that.
+When adding new Workday scenarios to the Employee Self-Service agent, it needs to know the format of the request, its inputs and outputs, and all the options available in the corresponding Workday operation. Templates are used to define that.
 
 [Learn more](workday.md#template-structure-overview) about template configurations.
 
 ## Templates included in the solution
 
-ESS comes with a set of [pre-built template configurations](workday.md#templates-included-in-the-solution) that help employees find answers to common Workday scenarios. Reviewing these configurations can help you understand the structure and guide you when authoring your own.
+The Employee Self-Service agent comes with a set of [pre-built template configurations](workday.md#templates-included-in-the-solution) that help employees find answers to common Workday scenarios. Reviewing these configurations can help you understand the structure and guide you when authoring your own.
 
 1. Navigate to your environment in Copilot studio: `https://copilotstudio.microsoft.com/`
 1. Select **Solutions** on the left navigation panel.
@@ -76,20 +76,20 @@ ESS comes with a set of [pre-built template configurations](workday.md#templates
 
 ## Sample scenario: Applying for time off
 
-Let's walk through a practical example. In this section, we extend the Workday setup to allow employees to apply for leave through the ESS Copilot agent.
+Let's walk through a practical example. In this section, we extend the Workday setup to allow employees to apply for leave through the Employee Self-Service agent.
 
 This process involves 3 steps:
 
-1. **Create ESS template configuration**: Define the request and response mapping for the Workday service, save it in your Copilot environment, and validate its correctness.
+1. **Create the Employee Self-Service agent's template configuration**: Define the request and response mapping for the Workday service, save it in your Copilot environment, and validate its correctness.
 1. **Create a new topic**: Build a Copilot topic that uses the template configuration to apply leave on behalf of the employee.
-1. **Workday permissions**: Assign all the required permissions to employee account in Workday to enable ESS Agent to apply for leave on their behalf.
+1. **Workday permissions**: Assign all the required permissions to employee account in Workday to enable the Employee Self-Service agent to apply for leave on their behalf.
 
-### Create ESS template configuration
+### Create the Employee Self-Service agent's template configuration
 
-Before diving into the detailed steps for creating your own ESS template configuration, explore the ready-to-use [sample scenarios](workday.md#templates-included-in-the-solution) provided by Microsoft. These samples cover common employee and manager use cases, such as applying for leave, viewing vacation balances, and so on.
+Before diving into the detailed steps for creating your own Employee Self-Service agent template configuration, explore the ready-to-use [sample scenarios](workday.md#templates-included-in-the-solution) provided by Microsoft. These samples cover common employee and manager use cases, such as applying for leave, viewing vacation balances, and so on.
 
 1. Go to the Copilot Studio Samples repository and copy the [template for requesting time off](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Workday/EmployeeScenarios/WorkdayEmployeeRequestTimeOff/msdyn_HRWorkdayAbsenceEnterTimeOff_EnterTimeOffInfo.xml).
-1. Save the new template into ESS Template Configurations.
+1. Save the new template into the Employee Self-Service template configurations.
     1. Go to **Copilot studio** and navigate to **Solutions** > **Default Solution**.
     2. Search and Select **Employee Self Service Template Configuration** from the left side navigation pane.
     3. Go to **New** > **More** > **Other** > **Employee Self Service Template Configuration**.
@@ -137,7 +137,7 @@ You can follow the steps in the next section to create your own templates using 
     1. Download the sample request and response format files from the documentation.
         1. Sample Request: Enter_Time_Off_Request.xml
         1. Sample Response: Time_Off_Event_Response.xml
-1. Download existing ESS template files from the Copilot solution as a reference for the new scenario to be generated.
+1. Download the existing Employee Self-Service agent template files from the Copilot solution as a reference for the new scenario to be generated.
     1. Follow the steps mentioned above and select **HRWorkdayHCMEmployeeUpdatePersonalEmail**.
     1. Copy the contents of the XML in a file named, **sample_configuration_template.xml**.
 1. Use M365 Copilot to generate the XML Templates.
@@ -167,7 +167,7 @@ Generate a single, complete XML file based on these instructions and the attache
 ```
 
 5. We use the generated XML in the topic definition in later steps.
-1. Follow the same steps as before to save your template into ESS Agent. XXX AS BEFORE WHAT? LET'S REFERENCE THE SECTION HERE.
+1. Follow the same steps as before to save your template into the Employee Self-Service agent. XXX AS BEFORE WHAT? LET'S REFERENCE THE SECTION HERE.
 
 ### Create a new topic
 
@@ -188,7 +188,7 @@ Generate a single, complete XML file based on these instructions and the attache
            *"Your time off request has been submitted for 2026-02-1 & 8 hours. Reason: Paid Leave, Comment: Personal Leave""
         1. This might fail with an unauthorized error, as we need to allow employees to request leave on Workday using a SOAP request. We can implement and check this as the last step of the process. XXX AGAIN, THIS MEANS NONE OF THIS IS HELPFUL.
 
-Next learn how you can generate the topic definition ourselves instead of relying on the provided samples. Feel free to skip these for now and jump to Workday Permissions directly, refer to these instructions when you want to add your own scenarios into ESS Agent.
+Next learn how you can generate the topic definition ourselves instead of relying on the provided samples. Feel free to skip these for now and jump to Workday Permissions directly, refer to these instructions when you want to add your own scenarios into the Employee Self-Service agent.
 
 XXX THIS IS VERY PROBLEMATIC, CONTENT-WISE. WHY ARE WE PUTTING THIS IN THE ARTICLE AND TELLING PEOPLE TO SKIP IT. PROBLEMATIC.
 
