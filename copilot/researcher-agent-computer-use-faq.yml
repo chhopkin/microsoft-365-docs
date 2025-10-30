@@ -39,6 +39,6 @@ sections:
       - question: "How is Researcher agent in Microsoft 365 Copilot evaluated?"
         answer: "Researcher agent in Microsoft 365 Copilot was evaluated using extensive manual and automated testing, in addition to Microsoft's internal usage and public data. Further evaluation was conducted using custom datasets for offensive and malicious prompts (user questions) and responses."
       - question: "What should I do if I see inaccurate, harmful, or inappropriate content?"
-        answer: "Copilot includes filters to block offensive language in the prompts and to avoid synthesizing suggestions in sensitive contexts. We continue to work on improving the filter system to more intelligently detect and remove offensive outputs. If you see offensive outputs, kindly submit feedback using the thumbs-up/thumbs-down icons so that we can improve our safeguards. Microsoft takes this challenge seriously and we're committed to addressing it."
+        answer: "Copilot includes filters to block offensive language in the prompts and to avoid synthesizing suggestions in sensitive contexts. We continue to work on improving the filter system to more intelligently detect and remove offensive outputs. If you see offensive outputs, kindly submit feedback using the thumbs-up/thumbs-down icons so that we can improve our safeguards. Microsoft takes this feedback seriously and we're committed to addressing it."
       
 
