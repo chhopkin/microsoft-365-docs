@@ -2,8 +2,8 @@
 title: "ICANN verification of contact information"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 08/28/2024
 audience: Admin
