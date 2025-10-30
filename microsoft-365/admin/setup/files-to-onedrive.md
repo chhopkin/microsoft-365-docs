@@ -2,8 +2,8 @@
 title: "Move your files to OneDrive"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: heidip
+author: MicrosoftHeidi
 manager: dansimp
 ms.date: 12/15/2023
 audience: Admin
