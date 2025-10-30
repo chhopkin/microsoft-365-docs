@@ -2,8 +2,8 @@
 title: "Buy a domain name"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 03/18/2025
 audience: Admin
