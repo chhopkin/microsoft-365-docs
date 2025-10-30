@@ -3,25 +3,24 @@ title: Design guidance and best practices
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: scotv
+manager: dansimp
 ms.reviewer: semani
-ms.date: 7/3/2025
+ms.date: 09/29/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
-robots: NOINDEX, NOFOLLOW
 ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn how to craft agent instructions for the Employee Self-Service agent that align with your organization's needs.
 appliesto:
-- ✅ Microsoft 365 Copilot
+  - ✅ Microsoft 365 Copilot
 ---
 
 # How to craft agent instructions for high-quality responses in Employee Self-Service
 
 >[!NOTE]
->The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
+>The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
 The Employee Self-Service (ESS) agent is a template in Microsoft Copilot Studio that can be infinitely customized to assist users in your organization with HR and IT tasks. Use guidance here to learn more about how to craft high-quality responses using a mix of techniques to fit your business needs.
 
@@ -349,7 +348,7 @@ Different elements like formatting, personalized responses, authoritative source
 Testing response quality and setting clear benchmarks help teams identify what's working well and where improvements are needed. Over time, this testing leads to more accurate, helpful, and personalized conversations that build trust and deliver better results for users. Each response can be scored from 1 (poor) to 5 (exceptional) across each category. Total score per response = 5 (poor) to 25 (exceptional).
 
 Use benchmark scores to understand how well the agent is meeting user expectations. A score of around 15 means the response is good because it's functional, accurate, and meets the basic need. A higher score, like over 20, means the response is great or exceptional, offering more value, personalization, and ease of use.
-
+  
 ### Tips for benchmark testing
 
 1. Track quality using consistent prompts: Retest them after updates to knowledge sources, instructions, or workflows to compare improvements.

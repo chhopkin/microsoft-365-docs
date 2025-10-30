@@ -3,15 +3,15 @@ title: Data Residency for Microsoft 365 Copilot and Copilot Chat
 description: Learn about data residency for Microsoft 365 Copilot and Copilot Chat.
 ms.author: v-fahasen
 author: fhasen-msft
-manager: v-nihmi
+manager: Justin.Giammona
 ms.service: microsoft-365-enterprise
 ms.subservice: advanced-data-residency
 ms.topic: concept-article
 f1.keywords:
 - NOCSH
-ms.date: 02/20/2025
+ms.date: 09/01/2025
 ms.update-cycle: 180-days
-ms.reviewer: deanw
+ms.reviewer: jugiammo
 ms.custom:
 - it-pro
 ms.localizationpriority: medium

@@ -46,8 +46,6 @@ items:
       items: 
       - name: Set up targeted communications
         href: set-up-targeted-communications.md 
-      - name: Deploy Shifts at scale
-        href: deploy-shifts-at-scale.md
     - name: Configure Teams settings for frontline workers
       items: 
       - name: Tailor Teams apps for your frontline workers
@@ -84,8 +82,6 @@ items:
       href: shifts-frontline-manager-worker-roles.md
     - name: Manage Shifts permissions for frontline managers
       href: manage-shifts-permissions-frontline-managers.md
-    - name: Set up open shifts across locations
-      href: set-up-open-shifts-across-locations.md 
     - name: Shifts data FAQ
       href: /microsoftteams/expand-teams-across-your-org/shifts/shifts-data-faq?bc=/microsoft-365/frontline/breadcrumb/toc.json&toc=/microsoft-365/frontline/toc.json
     - name: Workforce management integrations

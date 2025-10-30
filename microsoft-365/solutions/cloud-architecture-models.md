@@ -1,12 +1,12 @@
 ---
 title: Microsoft cloud architecture models - enterprise resource planning
 description: "Learn about Microsoft cloud services like Azure and Office 365 with these architecture diagrams and illustrations."
-ms.author: samanro
-author: samanro
-manager: bcarter
+ms.author: dansimp
+author: dansimp
+manager: dansimp
 ms.audience: ITPro
 ms.topic: article
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: medium
 ms.collection: 
 - highpri

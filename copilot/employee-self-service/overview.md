@@ -5,12 +5,11 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: scotv
 ms.reviewer: semani
-ms.date: 7/3/2025
+ms.date: 07/29/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
-robots: NOINDEX, NOFOLLOW
 ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn about the Employee Self-Service agent and the steps you need to follow to deploy it to your organization.
@@ -21,7 +20,7 @@ appliesto:
 # Overview of the Employee Self-Service agent
 
 >[!NOTE]
->The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
+>The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
 The Employee Self-Service (ESS) agent answer policy-related questions, assist with IT help, and simplify HR tasks to help your employees. The agent makes it easier to:
 

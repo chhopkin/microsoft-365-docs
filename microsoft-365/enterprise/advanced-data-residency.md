@@ -2,9 +2,9 @@
 title: "Advanced data residency in Microsoft 365"
 ms.author: v-fahasen
 author: fhasen-msft
-manager: v-nihmi
-ms.reviewer: deanw
-ms.date: 02/24/2025
+manager: Justin.Giammona
+ms.reviewer: jugiammo
+ms.date: 08/05/2025
 audience: ITPro
 ms.topic: overview
 ms.service: microsoft-365-enterprise
