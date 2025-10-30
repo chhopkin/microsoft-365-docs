@@ -19,13 +19,13 @@ appliesto:
 
 # SharePoint Advanced Filtering (CPS) How-To
 
-When employees ask Employee Self-Service (ESS) questions like "What is my holiday policy?", the system sometimes shows policies for multiple countries (for example, US, India, France) instead of just the one that applies to the employee. This happens because ESS retrieves all matching SharePoint documents but doesn't apply user-specific filters (like country, region, or company code) during the search.
+When employees ask Employee Self-Service agent questions like "What is my holiday policy?", the system sometimes shows policies for multiple countries (for example, US, India, France) instead of just the one that applies to the employee. This happens because ESS retrieves all matching SharePoint documents but doesn't apply user-specific filters (like country, region, or company code) during the search.
 
-We can personalize results by telling ESS to only return SharePoint documents that match the employee's profile, such as their location or company code.
+We can personalize results by telling the Employee Self-Service agent to only return SharePoint documents that match the employee's profile, such as their location or company code.
 
 This works in two parts: 
 
-1. ESS collects user information, like location, and stores it as a variable.
+1. The Employee Self-Service agent collects user information, like location, and stores it as a variable.
 1. SharePoint Knowledge Sources are updated to use that variable when searching, so results are filtered to what's relevant.
 
 XXX WHY ARE KNOWLEDGE SOURCES CAPITALIZED? ARE THEY BRANDED TERMS? IS THIS THE KS THAT WE NEED DEFINED?
@@ -43,7 +43,7 @@ XXX WHY ARE KNOWLEDGE SOURCES CAPITALIZED? ARE THEY BRANDED TERMS? IS THIS THE K
 
 ### Capture the user contect in the agent (Copilot Studio)
 
-1. In your ESS solution, open **Admin** > **User Context** > **Setup**.
+1. In your Employee Self-Service agent solution, open **Admin** > **User Context** > **Setup**.
 2. Make sure this topic runs before any retrieval topics (keep/enable the redirect pattern).
 3. Fetch attributes and set global variables, such as:
     1. Global.ESS_UserContext_Company_Code

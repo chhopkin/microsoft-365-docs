@@ -21,7 +21,7 @@ appliesto:
 
 XXX DO NOT PUBLISH AS-IS.
 
-This article provides a comprehensive guide to configuring OAuth authentication for ESS Workday package.
+This article provides a comprehensive guide to configuring OAuth authentication for the Employee Self-Service agent Workday package.
 
 ## Prerequisites
 
@@ -85,7 +85,7 @@ XXX DO NOT PUBLISH THIS ARTICLE WITH THIS SECTION IN IT.
 
 ## Limitations
 
-SSO isn't supported by Oauth 2.0. New users need to create a connection explicitly to use ESS.
+SSO isn't supported by Oauth 2.0. New users need to create a connection explicitly to use the Employee Self-Service agent.
 XXX WHAT DOES EXPLICITLY MEAN HERE?
 
 We've added this section to give you a support option for your existing OAuth 2.0 until your connector changes are published. Don't use once OAuth 2.0 with APIM is published:

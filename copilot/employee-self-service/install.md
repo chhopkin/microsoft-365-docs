@@ -22,7 +22,7 @@ appliesto:
 > [!NOTE]
 > The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
-After completing the required steps in the [preparation](prepare.md) stage, you can install either or both the following Employee Self-Service (ESS) agents in a specific Power Platform environment:
+After completing the required steps in the [preparation](prepare.md) stage, you can install either or both the following Employee Self-Service agent templates in a specific Power Platform environment:
 
 - Employee Self-Service HR agent
 - Employee Self-Service IT agent
@@ -56,13 +56,13 @@ After completing the required steps in the [preparation](prepare.md) stage, you 
 > [!NOTE]
 > If you intend to create both the HR and IT agents, you need to repeat this process. You must install agents one at a time.
 
-## Install the ESS agent
+## Install the Employee Self-Service agent
 
 1. Go to the Copilot Studio home page.
 1. Select **Create** in the navigation pane. This action should show the **Employee Self-Service** agent on the **Explore agents** page. If you created both an *Employee HR Self-Service agent and an **Employee IT Self-Service agent, you should see them both.
 1. Select the Employee Self-Service agent and choose **Install** in the popup.
 
-The ESS agent is now installed in your selected Power Platform environment with a preferred solution that can be exported and imported into another environment.
+The Employee Self-Service agent is now installed in your selected Power Platform environment with a preferred solution that can be exported and imported into another environment.
 
 ## Installation checklist
 
