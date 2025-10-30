@@ -88,7 +88,7 @@ Make sure to review the [prerequisites](/defender-cloud-apps/governance-discover
 Create a new [custom policy](/defender-cloud-apps/app-governance-app-policies-create#custom-policies), specifying the following settings:
 
 - For **Policy template**, choose **No template**.
-- For **Policy name**, type a name like *New Generative AI Apps*.
+- For **Policy name**, type a name, like *New Generative AI Apps*.
 - For **Policy severity**, select the level 2 option.
 - Provide a description, like *Generate an alert when a new Generative AI app is used*.
 - In the **Apps matching all of the following** section, specify **Category equals Generative AI**.
@@ -105,14 +105,14 @@ Make sure to review the articles [Control cloud apps with policies](/defender-cl
 3. In the list of results, select an AI app that you want to block. At the end of its row, select the three dots, and then select **Unsanctioned**. This action adds an *Unsanctioned* tag that enables you to monitor the app.
 
    > [!IMPORTANT]
-   > As soon as an app is marked as unsanctioned, it's automatically blocked across devices that are onboarded to Defender for Endpoint. However, your security team can specify whether to warn and educate users instead of blocking apps. See [Educate users when accessing risky apps](/defender-cloud-apps/mde-govern#educate-users-when-accessing-risky-apps).
+   > When an app is marked as unsanctioned, it's automatically blocked across devices that are onboarded to Defender for Endpoint. However, your security team can specify whether to warn and educate users instead of blocking apps. See [Educate users when accessing risky apps](/defender-cloud-apps/mde-govern#educate-users-when-accessing-risky-apps).
 
 4. In the navigation pane, select **Cloud apps** > **App governance**.
 
 5. Select the **Policies** tab, and then create a new [custom policy](/defender-cloud-apps/app-governance-app-policies-create#custom-policies), specifying the following settings:
 
    - For **Policy template**, choose **No template**.
-   - For **Policy name**, type a name like *Unsanctioned AI Apps*.
+   - For **Policy name**, type a name, like *Unsanctioned AI Apps*.
    - Provide a description, like *Block unsanctioned AI apps*.
    - In the **Apps matching all of the following** section, specify a condition, such as **Category equals Generative AI** and **Tag equals Unsanctioned**.
    - In the **Apply to** list, select **All continuous reports**.
