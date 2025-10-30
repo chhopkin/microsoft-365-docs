@@ -100,7 +100,7 @@ For example, the following exports Reed Smiths's saved prompts in Copilot Prompt
 Export- PromptsUserContent -UserAadIdOrPrincipalName reedsmith@contoso.com -ExportDirectory C:\PromptsExportReedSmith -PromptType saved
 ```
 
-2. When prompted to authenticate, sign in with an account that's assigned to the Global Admin role, not as the user you want to export.
+2. When prompted to authenticate, sign in with an account assigned to the Global Admin role, not as the user you want to export.
 3. After the PowerShell cmdlet runs successfully, go to your export location to view your exported files.
 
 ## Export prompts shared with a specific team
@@ -125,7 +125,7 @@ Export- PromptsGroupContent -M365TeamsGroupId d0efcad2-6744-0de6-0624-ea467d4293
 > [!TIP]
 > To find the ID of the team, go to **Teams** > **Manage teams** in the [Teams admin center](https://admin.teams.microsoft.com/).
 
-2. When prompted to authenticate, sign in with an account that's assigned to the Global Admin role.
+2. When prompted to authenticate, sign in with an account assigned to the Global Admin role.
 3. After the PowerShell cmdlet runs successfully, go to your export location to view your exported files.
 
 ## Properties contained in the export file and their descriptions
