@@ -22,7 +22,14 @@ description: "Learn about the Copilot Prompt Gallery and how your users can use 
 
 Microsoft Prompt Gallery in Copilot is a resource of Microsoft-created prompts, videos, and articles that help your users understand and use Microsoft Copilot effectively. Prompt Gallery is available within Microsoft 365 Copilot or Copilot Chat.
 
-As an admin, you can support Prompt Gallery adoption and success within your organization. This article covers Prompt Gallery architecture, data flows, security, and privacy.
+As an admin, you can use analytics and reporting tools to track usage and engagement with Prompt Gallery content, including the following:
+
+- The saved, liked, and shared prompts of a specific user.
+- The prompts shared with a specific team.
+
+For information on how you can export this data, see [Export prompts that users saved, liked, or shared in Prompt Gallery](copilot-prompt-gallery-export-prompts.md).
+
+This article covers Prompt Gallery architecture, data flows, security, and privacy.
 
 ## Overview
 
@@ -40,7 +47,7 @@ Prompt Gallery processes and manages data in a structured manner to ensure compl
 
 :::image type="content" source="media/prompt-gallery-copilot-architecture.png" alt-text="Diagram showing the data flow for Prompt Gallery in the Copilot app." lightbox="media/prompt-gallery-copilot-architecture.png":::
 
-1. Authenticated users can access Prompt Gallery from Microsoft 365 Copilot or Copilot Chat (including within Microsoft Word). For users that aren't authenticated, they can see sample prompts online at [Copilot Prompts](https://m365.cloud.microsoft/copilot-prompts), but they must authenticate to try any of them in Copilot.
+1. Authenticated users can access Prompt Gallery from Microsoft 365 Copilot or Copilot Chat (including within Microsoft Word). For users that aren't authenticated, they can only see Microsoft-authored prompts online at [Copilot Prompts](https://m365.cloud.microsoft/copilot-prompts), but they must authenticate to try any of them in Copilot.
 1. Prompt Gallery accesses Microsoft-authored Copilot prompts from the public catalog.
 1. Prompt Gallery also accesses user-created Copilot prompts from user, group, and tenant collections in the Microsoft 365 Substrate data store.
 
@@ -48,6 +55,7 @@ The Copilot prompts are stored in collections within the Substrate Data Store, w
 
 ## Related content
 
+- [Export prompts that users saved, liked, or shared in Copilot Prompt Gallery](copilot-prompt-gallery-export-prompts.md)
 - [Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts)
 - [Microsoft Copilot help & learning](https://support.microsoft.com/copilot-skilling)
 - [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md)
