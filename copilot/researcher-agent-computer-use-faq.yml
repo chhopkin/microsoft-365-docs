@@ -28,7 +28,7 @@ sections:
   - name: Privacy and security
     questions:
       - question: "Is Researcher agent compliant for enterprise organizations?"
-        answer: "Yes. Researcher is designed with enterprise security in mind. It operates within the Microsoft 365 data boundary and follows the same enterprise grade compliance and governance standards as Microsoft 365. Additionally, admins will have granular controls over the feature. For more details see [Researcher Agent with Computer Use setup](researcher-agent-computer-use.md)."
+        answer: "Yes. Researcher is designed with enterprise security in mind. It operates within the Microsoft 365 data boundary and follows the same enterprise grade compliance and governance standards as Microsoft 365. Additionally, admins will have granular controls over the feature. For more details see [Researcher Agent with Computer Use admin configuration](researcher-agent-computer-use.md)."
       - question: "When are the screenshots taken?"
         answer: "Screenshots of the virtual machine are only taken when the  model in control needs  helps with navigation, reading content or tool access. Screenshots aren't taken when the user is in control for critical or sensitive action like authentication, confirming captcha, and so on, Users can access them in the conversation history in the Chain of Thought. Users can delete the conversation history to delete all the data associated with that conversation including the screenshots."
       - question: "Does Computer Use with Researcher follow the same security, compliance, privacy, and Responsible AI practices as Researcher agent?"
