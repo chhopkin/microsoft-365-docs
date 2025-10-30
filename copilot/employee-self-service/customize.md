@@ -448,7 +448,7 @@ For information on SharePoint knowledge filtering, see [SharePoint Advanced Filt
 
 ## Customize Starter prompts
 
-**Starter prompts** help you roll out the ESS agent efficiently to your organization. With starter prompts, users already have a few ready-to-go prompts to use. Creating starter prompts helps your organization decrease the time to value.
+**Starter prompts** help you roll out the Employee Self-Service agent efficiently to your organization. With starter prompts, users already have a few ready-to-go prompts to use. Creating starter prompts helps your organization decrease the time to value.
 
 >[!TIP]
 >Identify the most asked questions by your users to form the base of your starter prompts. Identifying the most accurate answers to these questions helps build trust with your users.
