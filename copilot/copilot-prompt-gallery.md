@@ -28,7 +28,7 @@ As an admin, you can support Prompt Gallery adoption and success within your org
 
 :::image type="content" source="media/copilot-prompt-gallery-overview.png" alt-text="Screenshot showing the prompts available to try in Copilot Prompt Gallery." lightbox="media/copilot-prompt-gallery-overview.png":::
 
-Prompt Gallery is a comprehensive catalog of Copilot prompts created by Microsoft that highlight key scenarios and capabilities of Microsoft Copilot, designed to help users become proficient in using Copilot to accomplish their tasks.
+Prompt Gallery is a comprehensive catalog of Copilot prompts created by Microsoft that highlights key scenarios and capabilities of Microsoft Copilot, designed to help users become proficient in using Copilot to accomplish their tasks.
 
 Copilot prompts can also be saved and shared across teams using Prompt Gallery to promote consistency and collaboration. Each prompt within Prompt Gallery includes tips for personalization and extension, allowing users to tailor experiences to organizational needs.
 
