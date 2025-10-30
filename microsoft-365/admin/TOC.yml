@@ -413,7 +413,7 @@ items:
             - name: SaaS Linked Apps
               href: manage/saas-linked-apps.md
             - name: Manage agents for Copilot
-              href: manage/manage-copilot-agents-integrated-apps.md
+              href: manage/manage-copilot-agents-integrated-apps.md 
          - name: Centralized deployment of add-ins
            items:
             - name: Requirements for centralized deployment of add-ins
