@@ -1,6 +1,6 @@
 ---
-title: Researcher agent with Computer Use setup in Microsoft 365 Copilot
-description: The following instructions help you configure the admin settings for Researcher agent Computer Use in Microsoft 365 copilot.
+title: Researcher with Computer Use admin configuration
+description: The following instructions help you configure the admin settings for the Researcher agent with Computer Use in Microsoft 365 Copilot.
 f1.keywords:
 - NOCSH
 ms.author: vpattnaik
@@ -24,7 +24,7 @@ appliesto:
 
 ## Overview
 
-Researcher with Computer Use is a powerful extension that builds on the capabilities of the Researcher agent. With Computer Use, Researcher agent can securely interact with public, gated, and interactive web content through virtual computer-enabling users to uncover deeper insights, take action, and generate richer reports grounded in both their work data and the web. For more details, see [Use Researcher with Computer use in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/1f274537-6648-46e8-8264-052a49b92af4).
+Researcher with Computer Use is a powerful extension that builds on the capabilities of the Researcher agent. With Computer Use, Researcher agent can securely interact with public, gated, and interactive web content through virtual computer-enabling users to uncover deeper insights, take action, and generate richer reports grounded in both their work data and the web. For more details, see [Use Researcher with Computer use in Microsoft 365 Copilot](https://support.microsoft.com/topic/1f274537-6648-46e8-8264-052a49b92af4).
 
 :::image type="content" source="media/computer-use-active-option.png" alt-text="Screenshot showing the computer use option active in Researcher agent." lightbox="media/computer-use-active-option.png":::
 
@@ -77,6 +77,6 @@ Follow these instructions to configure admin settings for Researcher agent with 
 
 ### Learn more about Researcher with Computer Use
 
-- [Introducing Researcher with Computer Use in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/1f274537-6648-46e8-8264-052a49b92af4)
-- [Getting started: Researcher with Computer Use](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-researcher-with-computer-use-in-microsoft-365-copilot/4464766)
+- [Introducing Researcher with Computer Use in Microsoft 365 Copilot](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-researcher-with-computer-use-in-microsoft-365-copilot/4464766)
+- [Get started using Researcher with Computer Use](https://support.microsoft.com/topic/1f274537-6648-46e8-8264-052a49b92af4)
 - [Frequently asked questions for Researcher with Computer Use](researcher-agent-computer-use-faq.yml)
