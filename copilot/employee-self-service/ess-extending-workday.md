@@ -1,5 +1,5 @@
 ---
-title: Extending Employee Self-Service Copilot Agents
+title: Extending Employee Self-Service Copilot Agents with Workday
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
@@ -17,7 +17,7 @@ appliesto:
   - ✅ Microsoft 365 Copilot
 ---
 
-# Extending Employee Self-Service Copilot Agent
+# Extending Employee Self-Service Copilot Agent with Workday
 
 The Employee Self-Service agent allows employees to get their queries answered from admin-configured knowledge sources, HCM and IT systems. The Employee Self-Service agent, along with accelerator packages for connecting external systems, unleashes a powerful set of ready-to-use Topics that cover common HR & IT scenarios.
 
