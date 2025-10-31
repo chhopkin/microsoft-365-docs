@@ -23,9 +23,9 @@ appliesto:
 >The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
 >[!IMPORTANT]
->You need to complete the steps to deploy the Employee Self-Service (ESS) agent before you can configure this supplemental extension pack.
+>You need to complete the steps to deploy the Employee Self-Service agent before you can configure this supplemental extension pack.
 
-This document elaborates on the process of setting up ServiceNow Live Agent. This process requires major configuration in ServiceNow Instance and also making a few configurations in ESS Agent. This document assumes the person doing configuration has a good understanding of the ServiceNow PDI ecosystem.
+This document elaborates on the process of setting up ServiceNow Live Agent. This process requires major configuration in ServiceNow Instance and also making a few configurations in the Employee Self-Service agent. This document assumes the person doing configuration has a good understanding of the ServiceNow PDI ecosystem.
 
 ## Prerequisites
 
@@ -47,7 +47,7 @@ Sign into ServiceNow PDI as an admin.
 
 ### Step 2: Table creation
 
-Search for **System definition** and select the **Tables** under it. Label: ESS Copilot Summary.
+Search for **System definition** and select the **Tables** under it. Label: ESS Copilot Summary. XXX IS THIS ACCURATE?
 
 |Field name             |Type       |Size |Reference table |
 |-----------------------|-----------|-----|----------------|
@@ -151,7 +151,7 @@ Search for **Conversation interfaces** and choose **Virtual Agent** > **Designer
 
 ![Screenshot of the created flow.](media/snow-live-4.png)
 
-### Step 4: Get the ServiceNow Live Agent URL to the ESS agent
+### Step 4: Get the ServiceNow Live Agent URL to the Employee Self-Service agent
 
 The following example is the format for the URL:
 
@@ -161,22 +161,22 @@ Base-url: the base URL of the ServiceNow PDI
 
 topic-id: To get the Topic ID, search for "sys_cs_topic.list." Locate the flow that you created. Select the name and copy "sysId."
 
-#### Changes on the ESS agent
+#### Changes on the Employee Self-Service agent
 
 1. Install the ServiceNow Live Agent ISV package.
 1. If there wasn't an option to enter the ServiceNow Live Agent URL, visit the solutions page to see **One environment variable needs to be updated.** Select that message and enter the URL.
 1. Enable topic ServiceNow Live Agent IT Escalate.
 
-## Validate the integration of ESS and ServiceNow
+## Validate the integration of the Employee Self-Service agent and ServiceNow
 
 This flow operates on the expectation that the user used to sign into CPS is already created in ServiceNow PDI.
 
-1. Open the ESS agent and go to the **Test** window.
+1. Open the Employee Self-Service agent and go to the **Test** window.
 1. Type **Talk to Live Agent** then select **Chat now.**
 1. The summary review box appears. You can modify the message as required.
 1. Select **Submit**.
 1. The **Issue summary submitted** message shows with a **Start chat** link.
-![Screenshot of the validation flow in the ESS agent.](media/snow-live-5.png)
+![Screenshot of the validation flow in the Employee Self-Service agent.](media/snow-live-5.png)
 1. Select **Start chat.** In the new tab that opens, sign in with your ServiceNow credentials.
 1. You should see the summary shown in step 4.
 

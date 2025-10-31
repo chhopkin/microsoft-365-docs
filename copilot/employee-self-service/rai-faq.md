@@ -24,16 +24,16 @@ appliesto:
 
 ## What is Employee Self-Service?
 
-Employee Self-Service Agent (ESS) is a new set of capabilities to answer policy related questions and simplify HR and IT related tasks for faster resolution helping to improve the employee experience. The agent makes it easy for employees to:
+The Employee Self-Service agent is a new set of capabilities to answer policy related questions and simplify HR and IT related tasks for faster resolution helping to improve the employee experience. The agent makes it easy for employees to:
 
 - Retrieve the right information at the right time.
 - Take actions on essential HR and IT tasks-in line without navigating to multiple tools and workspaces, including help and running diagnostics on Microsoft 365 products and services.
 
-And while the ESS Agent is ready to go on day one, admins can further customize the agent with out-of-the-box preconfigured no-code templates for key workflows, and connectors to third-party HR or IT systems in Copilot Studio for faster Time-To-Value (TTV).
+And while the Employee Self-Service agent is ready to go on day one, admins can further customize the agent with out-of-the-box preconfigured no-code templates for key workflows, and connectors to third-party HR or IT systems in Copilot Studio for faster Time-To-Value (TTV).
 
 ## What can Employee Self-Service do?
 
-Employee Self-Service Agent (ESS) within Microsoft 365 Copilot streamlines HR and IT tasks, providing faster resolutions and a more intuitive user experience. Key capabilities include retrieving and taking actions on HR and IT related tasks like:
+The Employee Self-Service agent within Microsoft 365 Copilot streamlines HR and IT tasks, providing faster resolutions and a more intuitive user experience. Key capabilities include retrieving and taking actions on HR and IT related tasks like:
 
 - Benefits
 - Starting a leave of absence
@@ -44,7 +44,7 @@ These features empower employees to efficiently manage their tasks, enhancing th
 
 ## What are Employee Self-Service’s intended uses?
 
-Employee Self-Service (ESS) is designed to streamline and expedite various HR and IT tasks, providing faster resolutions and a more intuitive user experience. Its primary uses include:
+The Employee Self-Service agent is designed to streamline and expedite various HR and IT tasks, providing faster resolutions and a more intuitive user experience. Its primary uses include:
 
 - Retrieving and taking actions on HR and IT related queries.
 - Providing quick personalized responses to employee questions
@@ -53,7 +53,7 @@ Employee Self-Service (ESS) is designed to streamline and expedite various HR an
 
 ## How was Employee Self-Service evaluated? What metrics are used to measure performance?
 
-ESS provides a topic out-of-box, which is disabled by default. This topic tries to identify queries related to:
+The Employee Self-Service agent provides a topic out-of-box, which is disabled by default. This topic tries to identify queries related to:
 
 - Discrimination
 - Harassment
@@ -64,25 +64,25 @@ ESS provides a topic out-of-box, which is disabled by default. This topic tries 
 
 It responds with a predetermined response, ensuring that the LLM doesn't generate incorrect information for such queries. Your organization can define your own predetermined verbatim responses, update the topic as required, or disable the topic as required.
 
-Employee Self-Service (ESS) is evaluated with manual red teaming with prompts customized for the scenarios. Microsoft evaluated more than 200 prompts for discrimination, harassment, abuse, and other sensitive use cases with zero defects identified (with default ESS configuration and enabling the sensitive topic).
+The Employee Self-Service agent is evaluated with manual red teaming with prompts customized for the scenarios. Microsoft evaluated more than 200 prompts for discrimination, harassment, abuse, and other sensitive use cases with zero defects identified (with default Employee Self-Service agent configuration and enabling the sensitive topic).
 
 ## What are the limitations of Employee Self-Service? How can users minimize the impact of Employee Self-Service’s limitations when using the system?
 
-ESS relies on Microsoft Copilot Studio for processing of user queries. Microsoft Copilot Studio limitations inherently apply for Employee Self-Service as well. Refer to the Copilot Studio documentation for the protections in place for responsible AI.
+The Employee Self-Service agent relies on Microsoft Copilot Studio for processing of user queries. Microsoft Copilot Studio limitations inherently apply for Employee Self-Service as well. Refer to the Copilot Studio documentation for the protections in place for responsible AI.
 
 ## How does the emotional intelligence topic work?
 
-Each ESS template includes the emotional intelligence (EQ) topic is included in each ESS template, which is called **Seek emotional intelligence**. This topic is designed to enhance conversations in ESS by making responses more empathetic, context-aware, and relevant for diverse audiences. This feature works by analyzing conversational context and tailoring replies to reflect emotional intelligence. The feature ensures users feel understood and valued in every interaction. The EQ topic is fully customizable and can be turned off entirely.
+Each Employee Self-Service agent template includes the emotional intelligence (EQ) topic is included in each Employee Self-Service agent template, which is called **Seek emotional intelligence**. This topic is designed to enhance conversations in the Employee Self-Service agent by making responses more empathetic, context-aware, and relevant for diverse audiences. This feature works by analyzing conversational context and tailoring replies to reflect emotional intelligence. The feature ensures users feel understood and valued in every interaction. The EQ topic is fully customizable and can be turned off entirely.
 
 This topic isn't a replacement for human care or decision-making. It enhances responses to be supportive in tone, while maintaining factual accuracy and appropriate boundaries. Empathetic phrasing is used to make guidance clearer and more human, not to simulate emotional relationships. This topic doesn't infer mental health conditions, store emotional states, or use this information to profile users.
 
 ## What operational factors and settings allow for effective and responsible use of Employee Self-Service?
 
-Employee Self-Service (ESS) provides authoritative responses based on the knowledge sources added and the ISV packages configured. To provide users with authoritative responses, add appropriate knowledge sources, or configure ISV packages.
+The Employee Self-Service agent provides authoritative responses based on the knowledge sources added and the ISV packages configured. To provide users with authoritative responses, add appropriate knowledge sources, or configure ISV packages.
 
 ## How do I provide feedback on Employee Self-Service?
 
-To provide feedback on the Employee Self-Service (ESS) Agent, you can use the thumbs up or thumbs down buttons at the bottom of your Microsoft 365 Copilot results.
+To provide feedback on the Employee Self-Service agent, you can use the thumbs up or thumbs down buttons at the bottom of your Microsoft 365 Copilot results.
 
 ## Does the data retrieved from 3P ISVs pass through Copilot RAI?
 

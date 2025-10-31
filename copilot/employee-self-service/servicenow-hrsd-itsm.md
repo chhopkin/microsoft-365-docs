@@ -23,13 +23,13 @@ appliesto:
 > The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
 > [!IMPORTANT]
-> You need to complete the steps to deploy the Employee Self-Service (ESS) agent before you can configure this supplemental extension pack.
+> You need to complete the steps to deploy the Employee Self-Service agent before you can configure this supplemental extension pack.
 
-The Employee Self-Service agent is built on Copilot and uses AI to provide relevant information to employees and take actions on their HR data. If your organization uses a human resource management system, the ESS agent requires access to that system to function most effectively.
+The Employee Self-Service agent is built on Copilot and uses AI to provide relevant information to employees and take actions on their HR data. If your organization uses a human resource management system, the Employee Self-Service agent requires access to that system to function most effectively.
 
 ## Functional synopsis
 
-ESS Agent acts as a front-end for consuming information from ServiceNow HRSD and ITSM using the Power Platform connector. The following items are the capabilities enabled for this integration:
+The Employee Self-Service agent acts as a front-end for consuming information from ServiceNow HRSD and ITSM using the Power Platform connector. The following items are the capabilities enabled for this integration:
 
 - Create an HR case
 - Get case details
@@ -43,9 +43,9 @@ ESS Agent acts as a front-end for consuming information from ServiceNow HRSD and
 
 ## Technical synopsis
 
-:::image type="content" source="media/agent-service-now-integration.png" alt-text="Diagram the high-level components comprising overall solution for ESS agent and ServiceNow HRSD integration." lightbox="media/agent-service-now-integration.png":::
+:::image type="content" source="media/agent-service-now-integration.png" alt-text="Diagram the high-level components comprising overall solution for the Employee Self-Service agent and ServiceNow HRSD integration." lightbox="media/agent-service-now-integration.png":::
 
-The previous diagram outlines the high-level components comprising overall solution for ESS agent and ServiceNow HRSD integration. There are different activities to be performed as a part of initial deployment and for an ongoing operation. As the solution involves multiple technologies, it's better to spend some time initially in understanding the various components. When you're ready, you can bring in the right stakeholders to set up an environment to deploy and test ESS Agent.
+The previous diagram outlines the high-level components comprising overall solution for the Employee Self-Service agent and ServiceNow HRSD integration. There are different activities to be performed as a part of initial deployment and for an ongoing operation. As the solution involves multiple technologies, it's better to spend some time initially in understanding the various components. When you're ready, you can bring in the right stakeholders to set up an environment to deploy and test the Employee Self-Service agent.
 
 ## Known issues and limitations
 
@@ -58,11 +58,11 @@ For detailed documentation about the connector, see [ServiceNow - Connectors](/c
 
 ## Prerequisites
 
-- ServiceNow HRSD / ITSM instance
-- Microsoft 365 Tenant
-- ESS Agent is installed
+- ServiceNow HRSD/ITSM instance
+- Microsoft 365 tenant
+- The Employee Self-Service agent is installed
 
-Refer to the ESS Agent deployment guide for installation of the agent and subscription requirements required for the ESS Agent itself.
+Refer to the Employee Self-Service agent [deployment guide](deploy-overview-alm.md) for installation of the agent and subscription requirements required for the Employee Self-Service agent.
 
 ### Deployment role requirements
 
@@ -71,7 +71,7 @@ Refer to the ESS Agent deployment guide for installation of the agent and subscr
 |**ServiceNow Administrator**                          |A user who can perform administrative tasks |Create a service account and assign a role to provide read access to specific table records |ServiceNow |
 |**ServiceNow Security Administrator**                 |A user who can configure OAuth |Create OAuth Application Registry – *if using OAuth for ServiceNow connector* |ServiceNow |
 |**Application Developer** (*minimum privileged role*) |A user who can register an application |Create an App registration - *if using Microsoft Entra OAuth for ServiceNow connector* |Microsoft 365 admin center |
-|**Environment Maker**                                 |A user who can customize ESS Agent |Configure and Customize the ESS Agent |Microsoft Copilot Studio |
+|**Environment Maker**                                 |A user who can customize Employee Self-Service agent |Configure and customize the Employee Self-Service agent |Microsoft Copilot Studio |
 
 ## ServiceNow configuration
 
@@ -119,8 +119,8 @@ This flow completes the Microsoft Entra piece of configuration.
 
 #### Task 2: Register OIDC provider in ServiceNow
 
-1. Sign in to the ServiceNow instance that needs to be integrated with ESS Agent.
-2. Elevate access permissions using **Elevate role**. Refer to the section **Error! Reference source not found.** – only the first part and not the tasks.
+1. Sign in to the ServiceNow instance that needs to be integrated with the Employee Self-Service agent.
+2. Elevate access permissions using **Elevate role**. Refer to the section **Error! Reference source not found.** - only the first part and not the tasks.
 3. Select **All** in the top navigation bar.
 4. Search for "OAuth" in the search box within dropdown navigation menu.
 5. Select **System OAuth à Application Registry** from the search results (if you don't see this option, you don't have sufficient privileges).
@@ -130,7 +130,7 @@ This flow completes the Microsoft Entra piece of configuration.
 
    |Configuration |Description |
    |--------------|------------|
-   |Name |a meaningful name to identify that this OIDC provider was created for ESS Agent |
+   |Name |a meaningful name to identify that this OIDC provider was created for the Employee Self-Service agent |
    |Client ID |The client ID of Microsoft Entra Application created in Task 1 above |
    |Client secret |This value isn't used; can be any value |
    |OAuth OIDC provider configuration |Add a new OIDC provider configuration by selecting the search icon and choosing **New** in the search popup. Fill in the fields as follows:</br> **OIDC Provider:** A name that represents the Microsoft Entra tenant from task 1 above.</br> **OIDC Metadata URL:** `login.microsoftonline.com/<tenant ID>/.well-known/openid-configuration`</br> Replace < tenant ID > with the Microsoft Entra tenant ID from task 1 above.</br> **OIDC Configuration Cache Life Span:** 120</br> **Application:** Global</br> **User Claim:** oid</br> **User Field:** User ID</br> **Enable JTI claim verification:** disabled</br> Select **Submit** and update the OIDC Entity form. |
@@ -168,7 +168,7 @@ In task 2, you update the user claim to upn or any other custom claim property f
 
 ### Using OAuth2 authentication - Create an OAuth Application Registry
 
-1. Sign in to the ServiceNow instance that needs to be integrated with ESS Agent.
+1. Sign in to the ServiceNow instance that needs to be integrated with the Employee Self-Service agent.
 2. Elevate access permissions using **Elevate role**.
 3. Select **All** in the top navigation bar.
 4. Search for **OAuth** in the search box within dropdown navigation menu.
@@ -179,7 +179,7 @@ In task 2, you update the user claim to upn or any other custom claim property f
 
    | Configuration | Description |
    |---------|---------|
-   | **Name** | a meaningful name to identify that this application registry is created for ESS Agent |
+   | **Name** | a meaningful name to identify that this application registry is created for the Employee Self-Service agent |
    | **Client ID** | autogenerated code <br><div class="alert">**Note**</br>This value is used in Microsoft 365 Copilot Connector configuration, if no Advanced Scripting is used. |
    | **Client Secret** | leave it blank to automatically generate a string <br><div class="alert">**Note**</br>This value is used in Microsoft 365 Copilot Connector configuration, if no Advanced Scripting is used. |
    | **Redirect URL** | a required callback URL that the authorization server redirects to </br>For Microsoft 365 Enterprise:</br>`https://gcs.office.com/v1.0/admin/oauth/callback`</br>For Microsoft 365 Government:</br>`https://gcsgcc.office.com/v1.0/admin/oauth/callback` Refer to the note after this table for more information.|
@@ -204,20 +204,20 @@ In task 2, you update the user claim to upn or any other custom claim property f
 
 ### Install ServiceNow HRSD extension pack
 
-ESS Agent is designed to have separate extension packs for third-party ISVs like ServiceNow. As a result, these extension packs must be installed first before starting any configurations or customizations.
+The Employee Self-Service agent is designed to have separate extension packs for third-party ISVs like ServiceNow. As a result, these extension packs must be installed first before starting any configurations or customizations.
 
 The following steps are required to install and enable the ServiceNow HRSD extension pack:
 
 1. **Entitlement**:
 
-   Work with your ESS Agent private preview product managers for the entitlement process. Once the entitlement process is complete for your tenant, the ServiceNow HRSD extension pack shows up under "Customize" section of ESS Agent.
+   Work with your Employee Self-Service agent private preview product managers for the entitlement process. Once the entitlement process is complete for your tenant, the ServiceNow HRSD extension pack shows up under "Customize" section of the Employee Self-Service agent.
 
    > [!NOTE]
    > "Entitlement" process is a preview workaround until the extension pack installation is streamlined in Microsoft Copilot Studio.
 
-2. **Open the ESS Agent in Copilot Studio**:
+2. **Open the Employee Self-Service agent in Copilot Studio**:
 
-   1. Open the ESS Agent in Copilot Studio.
+   1. Open the Employee Self-Service agent in Copilot Studio.
    2. Navigate to **Settings**.   
    3. Select **Customize** from the left navigation under **Settings**.
    4. Select **Employee Self-Service Agent in Microsoft 365 Copilot – ServiceNow HR Service Delivery** and select **Install**.
@@ -237,19 +237,19 @@ The following steps are required to install and enable the ServiceNow HRSD exten
 
 ### Install ServiceNow ITSM extension pack
 
-ESS Agent is designed to have separate extension packs for each third party ISVs like ServiceNow, and so on. As a result, these extension packs must be installed before starting any configurations or customizations.
+The Employee Self-Service agent is designed to have separate extension packs for each third party ISVs like ServiceNow, and so on. As a result, these extension packs must be installed before starting any configurations or customizations.
 
 These steps are required to install and enable the ServiceNow HRSD extension pack:
 
 1. **Entitlement**:
 
-   Work with your ESS Agent private preview product managers for the entitlement process. Once the entitlement process is complete for your tenant, the ServiceNow HRSD extension pack shows up under "Customize" section of ESS Agent.
+   Work with your Employee Self-Service agent private preview product managers for the entitlement process. Once the entitlement process is complete for your tenant, the ServiceNow HRSD extension pack shows up under "Customize" section of the Employee Self-Service agent.
 
    > [!NOTE]
    > "Entitlement" process is a preview workaround until the extension pack installation is streamlined in Microsoft Copilot Studio.
 
 2. **Install the extension**:
-   1. Open the ESS Agent in Copilot Studio.   
+   1. Open the Employee Self-Service agent in Copilot Studio.   
    2. Navigate to **Settings**.   
    3. Select **Customize** from the left navigation under **Settings**.
    4. Select **Employee Self-Service Agent in Microsoft 365 Copilot – ServiceNow IT Service Management** and select **Install**.
@@ -322,7 +322,7 @@ For any required modifications to the backend ServiceNow Incident APIs, the temp
 
 To access the template configurations:
 
-1. Navigate to the overview tab within the ESS Agent and scroll down to the ***Customize*** tab.
+1. Navigate to the overview tab within the Employee Self-Service agent and scroll down to the ***Customize*** tab.
 2. Select the installed customization titled ***Employee Self Service IT Helpdesk ServiceNow ITSM***.
 3. This action redirects you to the installed customization details page, where you can view all the Topics and Flows included in the customization package. Additionally, there's a ***Configuration*** option at the top with a manage button.
 4. By selecting the manage button, you're directed to the Dataverse Template Configurations table, which lists all available template configurations.
@@ -358,7 +358,7 @@ Post-Private Preview, users can add attachments to the ticket, letting them prov
 
 These JSON configurations are intended for the ServiceNow APIs within the backend. These configurations facilitate the linkage between input and output variables from and to the bot. Each scenario has a corresponding JSON configuration, enabling extension pack users to adjust the parameters utilized in the APIs without altering anything in the backend workflows. The way the backend interacts with bot topics regarding input and output variables is defined within these configurations.
 
-The template configurations reside within a custom Dataverse table, created through the ESS base package upon installation in an environment. Extension packs contribute extra rows to this table, each containing a stringified JSON configuration for a specific scenario. These configurations are retrieved at runtime using the Dataverse connectors within Power Automate flows.
+The template configurations reside within a custom Dataverse table, created through the Employee Self-Service agent base package upon installation in an environment. Extension packs contribute extra rows to this table, each containing a stringified JSON configuration for a specific scenario. These configurations are retrieved at runtime using the Dataverse connectors within Power Automate flows.
 
 ### Understanding configurations naming
 
