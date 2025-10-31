@@ -1,9 +1,10 @@
 ---
 title: "Export prompts that users saved, liked, or shared in Copilot Prompt Gallery"
-description: "Provides admins the steps to take to export prompts that users saved, liked, or shared in Copilot Prompt Gallery"
+description: "Provides admins the steps to export prompts that users saved, liked, or shared in Copilot Prompt Gallery."
 ms.author: mabond
 author: mkbond007
 manager: dansimp
+ms.reviewer: viveksh
 ms.date: 10/31/2025
 audience: Admin
 ms.topic: how-to
@@ -83,7 +84,7 @@ Before you can export prompts that users saved, liked, or shared in Copilot Prom
 
 ## Export the saved, liked, and shared prompts of a specific user
 
-1. From Windows PowerShell, use the `Export- PromptsUserContent` cmdlet to export the saved, liked, or shared prompts of a specific user from Copilot Prompt Gallery.
+1. From Windows PowerShell, use the `Export-PromptsUserContent` cmdlet to export the saved, liked, or shared prompts of a specific user from Copilot Prompt Gallery.
 
    ```powershell
    Export-PromptsUserContent -UserAadIdOrPrincipalName <Entra ID or UPN of user> -ExportDirectory <output location> -PromptType <type of prompt>
@@ -98,7 +99,7 @@ Before you can export prompts that users saved, liked, or shared in Copilot Prom
 For example, the following exports Reed Smiths's saved prompts in Copilot Prompt Gallery using their UPN and downloads the export files to the location C:\PromptsExportReedSmith.
 
 ```powershell
-Export- PromptsUserContent -UserAadIdOrPrincipalName reedsmith@contoso.com -ExportDirectory C:\PromptsExportReedSmith -PromptType saved
+Export-PromptsUserContent -UserAadIdOrPrincipalName reedsmith@contoso.com -ExportDirectory C:\PromptsExportReedSmith -PromptType saved
 ```
 
 2. When prompted to authenticate, sign in with an account assigned to the Global Admin role, not as the user you want to export.
@@ -120,7 +121,7 @@ Export-PromptsGroupContent -M365TeamsGroupId <team ID> -ExportDirectory <output 
 For example, the following exports the prompts shared in Copilot Prompt Gallery to the team with an ID of "d0efcad2-6744-0de6-0624-ea467d4293af" and downloads the export files to the location C:\PromptsExportReedSmith.
 
 ```powershell
-Export- PromptsGroupContent -M365TeamsGroupId d0efcad2-6744-0de6-0624-ea467d4293af -ExportDirectory C:\PromptsExportReedSmith
+Export-PromptsGroupContent -M365TeamsGroupId d0efcad2-6744-0de6-0624-ea467d4293af -ExportDirectory C:\PromptsExportReedSmith
 ```
 
 > [!TIP]
