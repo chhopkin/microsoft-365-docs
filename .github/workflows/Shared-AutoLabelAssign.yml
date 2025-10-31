@@ -56,7 +56,7 @@ jobs:
                     "sc-dstrome",
                     "garycentric",
                     "garymoore-sc",
-                    "serdarsoysal"
+                    "serdarsoysal",
                     "cx-ktsuji",
                     "dawntanner",
                     "pamgreen-msft",
@@ -83,7 +83,7 @@ jobs:
             $WorkflowRunAttempt = $env:GITHUB_RUN_ATTEMPT
             $GitHubData = $env:PayloadJson | ConvertFrom-Json -Depth 50
             $AccessToken = $env:AccessToken
-            $GlobalExcludedReviewerList = $env:GlobalExcludedReviewerList
+            $GlobalExcludedReviewerList = $env:GlobalExcludedReviewerList | ConvertFrom-Json
             $GitHubApiUrl = "https://api.github.com/repos/MicrosoftDocs/"
 
             $GitRequestEvent = $GitHubData.event_name
