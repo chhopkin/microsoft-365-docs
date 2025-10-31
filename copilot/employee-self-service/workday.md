@@ -25,15 +25,15 @@ description: "Learn about integrating Workday in the deployment process for the 
 >The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
 >[!IMPORTANT]
->You need to complete the steps to deploy the Employee Self-Service (ESS) agent before you can configure this supplemental extension pack.
+>You need to complete the steps to deploy the Employee Self-Service agent before you can configure this supplemental extension pack.
 
-The Employee Self-Service agent is built on Copilot and uses AI to provide relevant information to employees and take actions on their HR data. If your organization uses a human resource management system, the ESS agent requires access to that system to function most effectively.
+The Employee Self-Service agent is built on Copilot and uses AI to provide relevant information to employees and take actions on their HR data. If your organization uses a human resource management system, the Employee Self-Service agent requires access to that system to function most effectively.
 
 ## Technical synopsis
 
-[![Infographic that describes the components of the ESS agent and Workday integration.](../media/ess/workday-1.png)](../media/ess/workday-1.png#lightbox)
+[![Infographic that describes the components of the Employee Self-Service agent and Workday integration.](../media/ess/workday-1.png)](../media/ess/workday-1.png#lightbox)
 
-This diagram outlines the high-level components that make up the overall solution for ESS agent and Workday integration. Different roles need to perform various activities for both initial deployment and ongoing operation. As this solution involves multiple platforms, we recommend you read through the documentation and understand the process before beginning integration. A first step is to identify stakeholders to set up an environment to [deploy the ESS agent](deploy-overview-alm.md).
+This diagram outlines the high-level components that make up the overall solution for the Employee Self-Service agent and Workday integration. Different roles need to perform various activities for both initial deployment and ongoing operation. As this solution involves multiple platforms, we recommend you read through the documentation and understand the process before beginning integration. A first step is to identify stakeholders to set up an environment to [deploy the Employee Self-Service agent](deploy-overview-alm.md).
 
 >[!NOTE]
 >Workday integration is currently configured to get only Employee details and doesn't work for External staff or Non-Employees.
@@ -49,7 +49,7 @@ You also need to meet the [prerequisites to deploy the Employee Self-Service age
 
 ### Set up Copilot Studio capacity
 
-We recommend you set up Copilot Studio capacity to monitor capacity usage of the ESS agent over time. [Learn more about the deployment process for the ESS agent.](deploy-overview-alm.md)
+We recommend you set up Copilot Studio capacity to monitor capacity usage of the Employee Self-Service agent over time. [Learn more about the deployment process for the Employee Self-Service agent.](deploy-overview-alm.md)
 
 ## Deployment role requirements
 
@@ -57,22 +57,22 @@ We recommend you set up Copilot Studio capacity to monitor capacity usage of the
 |-----|------------|---------------------|-------------------|
 |Workday administrator |User who can perform administrative tasks |1. Create X509 public key </br>2. Edit tenant setup - security </br>3. Create Integration System User </br>4. Create security group </br>5. Manage authentication policies </br>6. Register API client </br>7. Security domain permission changes </br>8. Create reports |Workday |
 |Application administrator **or** Cloud application administrator **or** application owner** |User who can configure SSO integration with Workday |1. Adding workday from gallery </br>2. Configure Microsoft Entra SSO </br>3. Configure Workday </br>4. Test SSO |Microsoft Entra</br> Workday |
-|Environment Maker |User who can customize the ESS agent |1. Install and configure Workday extension pack </br>2. Manage Workday Topics</br> 3. Set up user context |Microsoft Copilot Studio |
+|Environment Maker |User who can customize the Employee Self-Service agent |1. Install and configure Workday extension pack </br>2. Manage Workday Topics</br> 3. Set up user context |Microsoft Copilot Studio |
 |InfoSec/ IT Infrastructure/ Change control board |User committee responsible for security infrastructure changes |Configure IT platform services such as network and firewall rules |Network firewall policies |
 
 ## Infrastructure setup for third-party ISV integration
 
 Most enterprise organizations secure their HR management systems and knowledge sources from external networks, as it's critical to protect sensitive information about employees, organizations, knowledge assets, and more.
 
-When you integrate these enterprise systems into the ESS agent, it becomes a more reliable source for providing information to your users. In order to integrate these systems, you need to make them accessible to the Power Platform environment where the ESS agents are hosted.
+When you integrate these enterprise systems into the Employee Self-Service agent, it becomes a more reliable source for providing information to your users. In order to integrate these systems, you need to make them accessible to the Power Platform environment where the Employee Self-Service agent is hosted.
 
-You need to configure these systems with allowlists for the source IP addresses from which the ESS agent is hosted and executed, such as the Power Platform environment. See the following documentation for information on retrieving the list of IP address ranges to configure in the network environment:
+You need to configure these systems with allowlists for the source IP addresses from which the Employee Self-Service agent is hosted and executed, such as the Power Platform environment. See the following documentation for information on retrieving the list of IP address ranges to configure in the network environment:
 
 [Learn about overall Power Platform URLs and IP address ranges.](/power-platform/admin/online-requirements).
 
 [Learn about Managed connectors outbound IP addresses](/connectors/common/outbound-ip-addresses#power-platform).
 
-For Workday integration, the ESS agent uses the RaaS (Reports as a service) endpoint with SOAP exchange. You must work with InfoSec to allowlist the ESS agent to communicate with this endpoint. If any more data security requirements need to be met, especially for SOAP exchange, work with your security specialists to increase the security for data in transit.
+For Workday integration, the Employee Self-Service agent uses the RaaS (Reports as a service) endpoint with SOAP exchange. You must work with InfoSec to allowlist the Employee Self-Service agent to communicate with this endpoint. If any more data security requirements need to be met, especially for SOAP exchange, work with your security specialists to increase the security for data in transit.
 
 ## Set up SSO for Workday with Entra
 
@@ -162,16 +162,16 @@ Edit the authentication policy for the Workday tenant. If there are no authentic
 
 ### Task 5: Register API Client
 
-This task is required to invoke Workday APIs from an external system such as the ESS agent.
+This task is required to invoke Workday APIs from an external system such as the Employee Self-Service agent.
 
 **Scope (Functional Areas)** shown in the screenshot is just an example. Your configuration might need different Functional areas depending on the Workday APIs that you plan to use. If the required Functional area isn't available in the list, then set **Include Workday Owned Scope** to **Yes**.
 
-The Client ID and the endpoints autogenerated after the client is created must be shared securely with Microsoft Entra Administrators for Microsoft Entra configuration for ESS Copilot.
+The Client ID and the endpoints autogenerated after the client is created must be shared securely with Microsoft Entra Administrators for Microsoft Entra configuration for the Employee Self-Service agent.
 
 [![Screenshot of the Scope(Functional areas).](../media/ess/workday-3.png)](../media/ess/workday-3.png#lightbox)
 
 > [!NOTE]
-> Confirm the API clients are set up with the required scopes for the operations supported by the ESS Agent.
+> Confirm the API clients are set up with the required scopes for the operations supported by the Employee Self-Service sgent.
 
 ### Task 6: Security configuration
 
@@ -203,7 +203,7 @@ After Domain addition, run the following task to finalize the Domain policy chan
 
 ### Task 7: Activate Pending Security Policy Changes
 
-Security configuration to support ESS Copilot features for full-time employees and managers:
+Security configuration to support Employee Self-Service agent features for full-time employees and managers:
 
 |Security domain                        |Security groups to be added in security domain |Integration permissions: Put access |Integration permissions: Get access|
 |---------------------------------------|-----------------------------------------------|------------------------------------|----|
@@ -229,22 +229,22 @@ Security configuration to support ESS Copilot features for full-time employees a
 
 [Learn how to create the reports you need for Workday integration](workday-reports.md).
 
-## Install the Workday Extension Pack for ESS agent
+## Install the Workday Extension Pack for the Employee Self-Service agent
 
-The ESS agent is designed to have separate extension packs for each third-party ISV. You need to install the extension packs before starting any configurations or customizations.
+The Employee Self-Service agent is designed to have separate extension packs for each third-party ISV. You need to install the extension packs before starting any configurations or customizations.
 
 The following steps are required to install and enable the Workday Extension Pack:
 
 #### Step 1: Entitlement
 
-Work with your ESS agent preview product managers for the entitlement process. Once the entitlement process is complete for your tenant, the Workday Extension Pack appears in the **Customize** section of your ESS agent.
+Work with your Employee Self-Service agent preview product managers for the entitlement process. Once the entitlement process is complete for your tenant, the Workday Extension Pack appears in the **Customize** section of your Employee Self-Service agent.
 
 #### Step 2: Install the extension
 
 >[!NOTE]
 >The entitlement process is a workaround until the extension pack installation is streamlined in Microsoft Copilot Studio.
 
-1. Open the ESS agent in Copilot Studio.
+1. Open the Employee Self-Service agent in Copilot Studio.
 1. Navigate to **Settings**.
 1. Select **Customize** from the left navigation.
 1. Select **Workday** and choose **Install**.
@@ -356,13 +356,13 @@ All the user accounts mentioned in the table under "Expected connection user acc
 
 #### Step 7: Add a Topic redirect to Workday System Get User Context
 
-1. Open the ESS agent in Copilot Studio.
+1. Open the Employee Self-Service agent in Copilot Studio.
 1. Navigate to the Topic **[Admin] - User Context - Setup**
 1. Add a Topic redirect as shown in the screenshot.
 
 ![Screenshot of the flow to add a Topic redirect](../media/ess/workday-6.png)
 
-## ESS agent customizations for Workday integration
+## Employee Self-Service agent customizations for Workday integration
 
 Use **Templates** to complete the customizations required for Workday integration. Templates are XML objects that define connection information and data extraction information. Here, you use Templates to retrieve information from Workday.
 
@@ -379,7 +379,7 @@ You need the following permissions to retrieve Template data from Dataverse:
 
 The following Templates and their associated Copilot Topics are listed here:
 
-|Workday Template name |ESS agent associated Topic |
+|Workday Template name |The Employee Self-Service agent associated Topic |
 |----------------------|---------------------------|
 |HRWorkdayHCMEmployeeGetBaseCompensation |Workday Get BaseCompensation |
 |HRWorkdayHCMEmployeeGetCompanyCode |Workday Get CompanyCode |
@@ -433,7 +433,7 @@ The templates are split into two key components: *scenario* and *requestTemplate
 
 #### Scenario
 
-The scenario object is an XML object used to drive specific customer scenarios in the ESS agent flows. The scenario XML node contains a **name** attribute that describes the scenario from a high-level perspective. Inside the scenario object, there are **apiRequests** and **labels**.
+The scenario object is an XML object used to drive specific customer scenarios in the Employee Self-Service agent flows. The scenario XML node contains a **name** attribute that describes the scenario from a high-level perspective. Inside the scenario object, there are **apiRequests** and **labels**.
 
 **apiRequest**
 
@@ -615,7 +615,7 @@ You can toggle Topics on or off in the **Enabled** column.
 
 #### Custom attribute mapping
 
-By default, ESS Agent uses the Unique Principal Name (UPN) of the logged-in user as user credentials to be authenticated in Workday. You need a custom attribute mapping configuration for ESS Agent if Workday's using another value, such as Employee ID, as the login username instead of the UPN of the current logged-in user.
+By default, the Employee Self-Service agent uses the Unique Principal Name (UPN) of the logged-in user as user credentials to be authenticated in Workday. You need a custom attribute mapping configuration for the Employee Self-Service agent if Workday's using another value, such as Employee ID, as the login username instead of the UPN of the current logged-in user.
 
 |Example scenarios           |Unique Principal Name (UPN) in Intra |Login username in Workday |
 |----------------------------|-------------------------------------|--------------------------|

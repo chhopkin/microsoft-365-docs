@@ -12,7 +12,7 @@ ms.topic: how-to
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.custom: ess-agent
-description: "Learn about the user context custom report - SUB-FILTER for your Workday integration with the Employee Self-Service (ESS) agent."
+description: "Learn about the user context custom report - SUB-FILTER for your Workday integration with the Employee Self-Service agent."
 ---
 
 # Workday User Context Custom Report - SUB-FILTER

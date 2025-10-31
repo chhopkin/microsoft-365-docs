@@ -22,7 +22,7 @@ appliesto:
 >[!NOTE]
 >The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
 
-You can use different interfaces to monitor ESS agent usage depending on the role in your organization in charge of monitoring analytics.
+You can use different interfaces to monitor Employee Self-Service agent usage depending on the role in your organization in charge of monitoring analytics.
 
 As an application or agent owner with the Environment Maker role, you can navigate to the **Analytics** tab to view analytics in Copilot Studio.
 
@@ -45,7 +45,7 @@ Administrators can view end-user feedback in the **Product feedback** page in th
 
 ## Auditing and logging
 
-The ESS agent is built on Copilot and Power Platform. You can use auditing capabilities from these platforms to log and monitor usage.
+The Employee Self-Service agent is built on Copilot and Power Platform. You can use auditing capabilities from these platforms to log and monitor usage.
 
 ### Audit with Microsoft Purview
 

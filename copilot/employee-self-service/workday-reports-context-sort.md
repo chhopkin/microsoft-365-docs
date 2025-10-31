@@ -1,5 +1,5 @@
 ---
-title: Create reports for your Workday integration
+title: User context custom report - SORT for Workday integration
 f1.keywords:
 - NOCSH
 ms.author: heidip
@@ -12,7 +12,7 @@ ms.topic: how-to
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.custom: ess-agent
-description: "Learn how to create the reports for your Workday integration with the Employee Self-Service agent."
+description: "Learn about the user context custom report - SORT report for your Workday integration with the Employee Self-Service agent."
 ---
 
 # Workday User Context Custom Report - SORT
