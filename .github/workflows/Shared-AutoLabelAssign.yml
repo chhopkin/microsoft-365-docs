@@ -51,6 +51,20 @@ jobs:
         - name: Script
           shell: pwsh
           env: 
+            GlobalExcludedReviewerList:  '[
+                    "dstrome",
+                    "sc-dstrome",
+                    "garycentric",
+                    "garymoore-sc",
+                    "serdarsoysal"
+                    "cx-ktsuji",
+                    "dawntanner",
+                    "pamgreen-msft",
+                    "pebaum",
+                    "SerdarSoysal",
+                    "vinaypamnani-msft"
+                ]'
+
             PayloadJson: ${{ inputs.PayloadJson }}
             AccessToken: ${{ secrets.AccessToken }}
             AppGitHubAccessToken: ${{ steps.app-token.outputs.token }}
@@ -59,6 +73,7 @@ jobs:
             AutoLabel: ${{ inputs.AutoLabel }}
             ExcludedUserList: ${{ inputs.ExcludedUserList }}
             ExcludedBranchList: ${{ inputs.ExcludedBranchList }}
+
           run: |
             # Get runspace info
             $RepoRoot = $env:RUNNER_WORKSPACE
@@ -68,6 +83,7 @@ jobs:
             $WorkflowRunAttempt = $env:GITHUB_RUN_ATTEMPT
             $GitHubData = $env:PayloadJson | ConvertFrom-Json -Depth 50
             $AccessToken = $env:AccessToken
+            $GlobalExcludedReviewerList = $env:GlobalExcludedReviewerList
             $GitHubApiUrl = "https://api.github.com/repos/MicrosoftDocs/"
 
             $GitRequestEvent = $GitHubData.event_name
@@ -144,18 +160,15 @@ jobs:
                 TimeStamp               = (Get-Date).ToString("o")
             }
 
-            # Path to GE Taxonomy service/subservice to Content Lead GitHub account mapping file.
-            $ServiceToGitHubUserMapRepo = "officedocs-pr"
-            $ServiceToGitHubUserMapFilePath = "/contents/.github/workflows/resources/service-subservice-to-github-user-map.csv"
-            $ServiceToGitHubUserMapRef = "main"
-            $ServiceToGitHubUserMapUrl = $GitHubApiUrl + $ServiceToGitHubUserMapRepo + $ServiceToGitHubUserMapFilePath + "?ref=$ServiceToGitHubUserMapRef"
+            # Path to GE Taxonomy service/subservice to Content Lead GitHub team mapping file.
+            $ServiceToGitHubTeamMapRepo = "officedocs-pr"
+            $ServiceToGitHubTeamMapFilePath = "/contents/.github/workflows/resources/service-subservice-to-github-team-map.csv"
+            $ServiceToGitHubTeamMapRef = "main"
+            $ServiceToGitHubTeamMapUrl = $GitHubApiUrl + $ServiceToGitHubTeamMapRepo + $ServiceToGitHubTeamMapFilePath + "?ref=$ServiceToGitHubTeamMapRef"
 
             # Path to central workflow resources location.
             $WorkflowsResourcePath = "https://api.github.com/repos/MicrosoftDocs/microsoft-365-docs/contents/.github/workflows/resources"
             $WorkflowsRef = "workflows-prod"
-
-            # URL of the org team to check. We're using the "everyone" team in MicrosoftDocs. 
-            $OrgTeamUrl = "https://api.github.com/orgs/microsoftdocs/teams/everyone/memberships/"
 
             # Set repo variables
             $RepoUrl = $GitHubData.event.repository.url
@@ -614,20 +627,20 @@ jobs:
 
             #####################
             #####################
-            # Get-ServiceGitHubAccountMappingTable
+            # Get-ServiceGitHubTeamMappingTable
 
-            Function Get-ServiceGitHubAccountMappingTable {
+            Function Get-ServiceGitHubTeamMappingTable {
             
                 Try {
 
-                    Write-Host "Getting service/subservice to GitHub user mapping from $ServiceToGitHubUserMapUrl"
+                    Write-Host "Getting service/subservice to GitHub team mapping from $ServiceToGitHubTeamMapUrl"
 
-                    $GitHubMappingTableData = Invoke-RestMethod -Uri $ServiceToGitHubUserMapUrl -Headers $AppGitHubAccessHeaders
+                    $GitHubMappingTableData = Invoke-RestMethod -Uri $ServiceToGitHubTeamMapUrl -Headers $AppGitHubAccessHeaders
                     $GitHubMappingTable = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($GitHubMappingTableData.content));
 
                 } Catch {
 
-                    Write-Host "Failed to get service/subservice to GitHub user mapping from $ServiceToGitHubUserMapUrl"
+                    Write-Host "Failed to get service/subservice to GitHub user mapping from $ServiceToGitHubTeamMapUrl"
 
                     $GitHubMappingTable = $Null
 
@@ -670,7 +683,7 @@ jobs:
                                 Product = $Row.Product
                                 Service = $Service
                                 SubService = $SubService
-                                ContentLeadGitHubAccounts = $Row.ContentLeadGitHubAccounts
+                                GitHubTeam = $Row.GitHubTeam
                             }
                             $ExpandedRows += $NewRow
                         }
@@ -682,9 +695,9 @@ jobs:
 
             #####################
             #####################
-            # Get-ContentLeadAccounts
+            # Get-GitHubReviewerTeams
 
-            Function Get-ContentLeadAccounts {
+            Function Get-GitHubReviewerTeams {
                 [CmdletBinding()]
                 Param(
                     [Parameter(Mandatory = $true)]
@@ -698,7 +711,7 @@ jobs:
                 )
                 
                     
-                $AccountsList = @()
+                $GitHubTeam = @()
 
                 Write-Host "Article service: $Service"
                 Write-Host "Article subservice: $SubService"
@@ -726,7 +739,7 @@ jobs:
                             Write-Host "SubService found"
 
                             # Found exact match with SubService
-                            $AccountsList += $ExactMatch.contentleadgithubaccounts
+                            $GitHubTeam += $ExactMatch.GitHubTeam
                         }
                         Else {
 
@@ -740,10 +753,10 @@ jobs:
                             
                             If ($HasSubServices) {
 
-                                Write-Host "Service has subservices. Returning all accounts for all subservices."
+                                Write-Host "Service has subservices. Returning all teams for all subservices."
 
-                                # Multiple subservices exist, return all accounts for this service's subservices
-                                $AccountsList += $HasSubServices.contentleadgithubaccounts
+                                # Multiple subservices exist, return all teams for this service's subservices
+                                $GitHubTeam += $HasSubServices.GitHubTeam
                             }
                         }
                     }
@@ -758,7 +771,7 @@ jobs:
                             Write-Host "Service with no subservice row found"
 
                             # Found exact match without SubService
-                            $AccountsList += $ExactMatch.contentleadgithubaccounts
+                            $GitHubTeam += $ExactMatch.GitHubTeam
                         }
                         Else {
 
@@ -772,37 +785,37 @@ jobs:
                             
                             If ($HasSubServices.Count -gt 1) {
 
-                                Write-Host "Service has subservices. Returning all accounts for all subservices."
+                                Write-Host "Service has subservices. Returning all teams for all subservices."
 
-                                # Multiple subservices exist, return all accounts
-                                $AccountsList += $HasSubServices.contentleadgithubaccounts
+                                # Multiple subservices exist, return all teams
+                                $GitHubTeam += $HasSubServices.GitHubTeam
                             }
                         }
                     }
                 }
 
-                Write-Host "Found accounts"
-                $AccountsList | ForEach-Object { Write-Host $_ }
+                Write-Host "Found teams"
+                $GitHubTeam | ForEach-Object { Write-Host $_ }
     
-                # Process the accounts list
-                $AllAccounts = @()
+                # Process the teams list
+                $AllTeams = @()
                 
-                ForEach ($AccountString In $AccountsList) {
-                    If (![string]::IsNullOrWhiteSpace($AccountString)) {
+                ForEach ($TeamString In $GitHubTeam) {
+                    If (![string]::IsNullOrWhiteSpace($TeamString)) {
                         # Remove leading semicolon if present
-                        $CleanedString = $AccountString.TrimStart(';')
+                        $CleanedString = $TeamString.TrimStart(';')
                         
                         # Split by semicolon and add to array
-                        $Accounts = $CleanedString -split ';' | Where-Object { 
+                        $Teams = $CleanedString -split ';' | Where-Object { 
                             ![string]::IsNullOrWhiteSpace($_) 
                         }
                         
-                        $AllAccounts += $Accounts
+                        $AllTeams += $Teams
                     }
                 }
                 
                 # Return deduplicated array
-                Return $AllAccounts | Select-Object -Unique
+                Return $AllTeams | Select-Object -Unique
                 
             }
 
@@ -902,58 +915,53 @@ jobs:
 
             #####################
             #####################
-            # Test-OrgMembership
+            # Get-TeamMembership
 
-            Function Test-OrgMembership {
+            Function Get-TeamMembership {
             
                 [CmdletBinding()]
                 Param(
                     [Parameter(Mandatory = $true)]
-                    [string[]]$GitHubReviewers
+                    [string[]]$ReviewerTeams
                 )
 
-                $ReviewerHashTable = @{}
+                $ReviewerList = @()
 
-                ForEach ($Reviewer in $GitHubReviewers) {
-
-                    Write-Host "Checking to see if $Reviewer is a member of the MicrosoftDocs `"everyone`" team."
-
-                    # Create the member URL to check
-                    $ReviewerTeamUrl = $OrgTeamUrl + $Reviewer
+                ForEach ($Team in $ReviewerTeams) {
+                
+                    $ReviewerTeamUrl = "https://api.github.com/orgs/MicrosoftDocs/teams/$Team/members?per_page=100"
 
                     Try {
 
-                        # Check to see if the reviewer is a member of the MicrosoftDocs "everyone" team
-                        $TeamResult = Invoke-RestMethod -Uri $ReviewerTeamUrl -Headers $AppGitHubAccessHeaders -ErrorAction Stop
+                        Write-Host "Getting membership information for $Team."
 
-                        If ($TeamResult.state -eq "active") {
+                        $TeamResult = Invoke-RestMethod -Uri $ReviewerTeamUrl -Headers $AppGitHubAccessHeaders -FollowRelLink -ErrorAction Stop
 
-                            Write-Host "$Reviewer is an active member of the MicrosoftDocs `"everyone`" team."
-
-                            $ReviewerHashTable.Add($Reviewer, $True)
-
-                        } Else {
+                        ForEach ($Page in $TeamResult) {
                         
-                            Write-Host "$Reviewer isn't an active member of the MicrosoftDocs `"everyone`" team."
-
-                            $ReviewerHashTable.Add($Reviewer, $False)
-
+                            ForEach ($Member in $Page) {
+                            
+                                If ($GlobalExcludedReviewerList -notcontains $Member.login) {
+                                
+                                    $ReviewerList += $Member.login
+                                
+                                }
+                            
+                            }
                         
                         }
-
-                    } Catch {
-
-                        Write-Host "ERROR: Failed to look up membership info for $Reviewer. Error: $_"
                     
-                        # If the call fails, set to false to avoid breaking add reviewer call later in workflow.
-                        $ReviewerHashTable.Add($Reviewer, $False)
-
+                    } Catch {
+                     
+                        Write-Host "ERROR: Failed to look up membership info for $Team. Error: $_"
+                    
                     }
-
+                
                 }
+                
+                Write-Host "Reviewers found: $($ReviewerList | Sort-Object -Unique)"
 
-                Return $ReviewerHashTable
-            
+                Return $ReviewerList | Sort-Object -Unique
             
             }
 
@@ -1164,25 +1172,25 @@ jobs:
                                     If (($UserPermission -eq "read") -or ($UserPermission -eq "") -or ($UserPermission -eq $Null)) {
 
                                         # Get the service/subservice to GitHub account map
-                                        $ServiceToAccountMap = Get-ServiceGitHubAccountMappingTable
-                                        $ExpandedServiceSubServiceRows = Expand-ServiceSubServiceRows -CsvContent $ServiceToAccountMap
+                                        $ServiceToTeamMap = Get-ServiceGitHubTeamMappingTable
+                                        $ExpandedServiceSubServiceRows = Expand-ServiceSubServiceRows -CsvContent $ServiceToTeamMap
 
-                                        $ReviewerArray = @()
+                                        $ReviewerTeamArray = @()
                                         $ServiceSubServiceArray = @() # Used in logging
 
                                         ForEach ($File in $FileMetadataArray) {
 
                                             If ($File.Service -ne $Null) {
 
-                                                $FileReviewers = $Null
+                                                $ReviewerTeams = $Null
 
-                                                $FileReviewers = Get-ContentLeadAccounts -DataArray $ExpandedServiceSubServiceRows -Service $File.Service -SubService $File.SubService
+                                                $ReviewerTeams = Get-GitHubReviewerTeams -DataArray $ExpandedServiceSubServiceRows -Service $File.Service -SubService $File.SubService
 
                                                 $ServiceSubServiceArray += "$($File.Service)\$($File.Subservice)"
 
-                                                If ($FileReviewers -ne $Null) {
+                                                If ($ReviewerTeams -ne $Null) {
                                                 
-                                                    $ReviewerArray += $FileReviewers
+                                                    $ReviewerTeamArray += $ReviewerTeams
                                                 
                                                 }
 
@@ -1194,20 +1202,17 @@ jobs:
                                         
                                         }
 
-                                        $ReviewerArray = $ReviewerArray | Select-Object -Unique
+                                        $ReviewerTeamArray = $ReviewerTeamArray | Select-Object -Unique
 
-                                        If ($ReviewerArray.Count -gt 0) {
+                                        If ($ReviewerTeamArray.Count -gt 0) {
 
-                                            Write-Host "Checking org membership."
+                                            $ReviewerAccounts = Get-TeamMembership -ReviewerTeams $ReviewerTeamArray
 
-                                            $TestedReviewerAccounts = Test-OrgMembership -GitHubReviewers $ReviewerArray
-                                            $ValidatedReviewerAccounts = $TestedReviewerAccounts.keys | Where-Object { $TestedReviewerAccounts[$_] }
+                                            $AtMentionedGitHubAccounts = Add-AtPrefix -GitHubReviewers $ReviewerAccounts
 
-                                            $AtMentionedGitHubAccounts = Add-AtPrefix -GitHubReviewers $ValidatedReviewerAccounts
+                                            If ($ReviewerAccounts.Length -gt 0) {
 
-                                            If ($ValidatedReviewerAccounts.Length -gt 0) {
-
-                                                $MissingReviewers = Compare-PRIndividualReviewers -GitHubReviewers $ValidatedReviewerAccounts
+                                                $MissingReviewers = Compare-PRIndividualReviewers -GitHubReviewers $ReviewerAccounts
 
                                                 If ($MissingReviewers) {
                                                 
@@ -1217,7 +1222,7 @@ jobs:
 
                                                     Try {
 
-                                                        Set-PrReviewer -PrUrl $PrUrl -GitHubReviewers $ValidatedReviewerAccounts
+                                                        Set-PrReviewer -PrUrl $PrUrl -GitHubReviewers $ReviewerAccounts
                                                         Set-PrConversationMessage -Message $ReviewerMessage
 
                                                         $LoggingData.ReviewStatus = "ReviewerAddSuccess"
@@ -1278,8 +1283,8 @@ jobs:
                                 }
 
                                 $LoggingData.ServiceSubService = $($ServiceSubServiceArray | Select-Object -Unique) -Join ";"
-                                $LoggingData.InitialReviewerList = $ReviewerArray -Join ";"
-                                $Loggingdata.ValidatedReviewerList = $ValidatedReviewerAccounts -Join ";"
+                                $LoggingData.InitialReviewerList = $ReviewerTeamArray -Join ";"
+                                $Loggingdata.ValidatedReviewerList = $ReviewerAccounts -Join ";"
 
                                 Send-WorkflowLog -LogData $LoggingData
 
@@ -1303,8 +1308,6 @@ jobs:
                                     Write-Host "Error setting PR assignee. GitHub may return an `"Unprocessable entity (422)`" error periodically. This can be ignored. Error: $($Error[0])"
                                 
                                 }
-
-
 
                             } Else {
 
@@ -1334,6 +1337,4 @@ jobs:
              
                 Write-Host "Event action not ready_for_review, opened, reopened, or synchronize."
             
-
-
             } # PR event and action check
