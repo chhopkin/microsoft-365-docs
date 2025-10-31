@@ -255,59 +255,56 @@ items:
           href: copilot-agent-install.md        
     - name: Create M365 Copilot agents
       items:
-      - name: Agents overview
+      - name: Create agents overview
         href: /microsoft-365-copilot/extensibility/agents-overview?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
       - name: Choose a Copilot Studio experience
         href: /microsoft-365-copilot/extensibility/copilot-studio-experience?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json         
-      - name: Developement environment considerations
+      - name: Developement environment setup
         href: /microsoft-365-copilot/extensibility/prerequisites?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json   
-      - name: Create declarative agents
-        href: /microsoft-365-copilot/extensibility/overview-declarative-agent?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json  
-      - name: Create Custom engine agents
-        href: /microsoft-365-copilot/extensibility/overview-custom-engine-agent?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json  
-      - name: Development environments
+      - name: Declarative agents
         items:
+        - name: Create declarative agents
+          href: /microsoft-365-copilot/extensibility/overview-declarative-agent?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
         - name: Declarative agent tools
-          href: /microsoft-365-copilot/extensibility/declarative-agent-tool-comparison?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json  
+          href: /microsoft-365-copilot/extensibility/declarative-agent-tool-comparison?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json        
+      - name: Create custom engine agents
+        href: /microsoft-365-copilot/extensibility/overview-custom-engine-agent?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json  
+      - name: Agent development tools
+        items:
         - name: Create agents using SharePoint
           href: https://support.microsoft.com/office/create-a-sharepoint-agent-d16c6ca1-a8e3-4096-af49-67e1cfdddd42?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json 
         - name: Copilot Studio (lite)
           items:
-          - name: Create agents using Copilot Studio (lite)
+          - name: Copilot Studio (lite) agents overview
             href: /microsoft-365-copilot/extensibility/copilot-studio-lite?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
-            items:
-            - name: Share and manage agents
-              href: /microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json#share-the-agent
-            - name: Download agent ZIP file and provide to admin
-              href: /microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json#deploy-an-agent-via-zip-package
-            - name: Copilot Studio (lite) creation process
-              href: /microsoft-365-copilot/extensibility/copilot-studio-lite-build?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
-            - name: Add knowledge sources to an agent
-              href: /microsoft-365-copilot/extensibility/copilot-studio-lite-build?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json#add-knowledge-sources
-            - name: Add capabilities to an agent
-              href: /microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json#add-capabilities
+          - name: Build Copilot Studio (lite) agents
+            href: /microsoft-365-copilot/extensibility/copilot-studio-lite-build?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+          - name: Share and manage agents
+            href: /microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json#share-the-agent
+          - name: Provide agent ZIP file to admin
+            href: /microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json#deploy-an-agent-via-zip-package
+          - name: Add knowledge sources to an agent
+            href: /microsoft-365-copilot/extensibility/copilot-studio-lite-build?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json#add-knowledge-sources
+          - name: Add capabilities to an agent
+            href: /microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json#add-capabilities
         - name: Copilot Studio (full)
           items:
-          - name: Agents for Microsoft 365 Copilot
-            href: /microsoft-365-copilot/extensibility/agents-overview?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
           - name: Create agents using Copilot Studio (full)
+            href: /microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+          - name: Understand ALM when building agents
+            href: /power-platform/alm?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+          - name: Agent components
             items:
-            - name: Overview
-              href: /microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
-            - name: Understand ALM when building agents
-              href: /power-platform/alm?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
-            - name: Agent components
-              items:
-              - name: Add knowledge sources
-                href: /microsoft-copilot-studio/knowledge-copilot-studio?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
-              - name: Add tools
-                href: /microsoft-copilot-studio/advanced-plugin-actions?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
-              - name: Add other agents
-                href: /microsoft-copilot-studio/authoring-add-other-agents?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
-              - name: Add topics
-                href: /microsoft-copilot-studio/authoring-create-edit-topics?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
-              - name: Add triggers
-                href: /microsoft-copilot-studio/authoring-triggers-about?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+            - name: Add knowledge sources
+              href: /microsoft-copilot-studio/knowledge-copilot-studio?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+            - name: Add tools
+              href: /microsoft-copilot-studio/advanced-plugin-actions?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+            - name: Add other agents
+              href: /microsoft-copilot-studio/authoring-add-other-agents?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+            - name: Add topics
+              href: /microsoft-copilot-studio/authoring-create-edit-topics?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+            - name: Add triggers
+              href: /microsoft-copilot-studio/authoring-triggers-about?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
         - name: Create agents using M365 Agents Toolkit
           href: /microsoft-365/developer/overview-m365-agents-toolkit?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json 
     - name: Control M365 Copilot agent data access
