@@ -74,5 +74,27 @@ Based on your company security policies you may need to download additional apps
    
 1.  You require MFA to access Teams and the web is experience is being access on a device that requires MFA
 
-   1. Follow the screens to setup MFA with the Authenticator app in the wizard
+1. Follow the screens to setup MFA with the Authenticator app in the wizard
+
+#### App protection policies and/or app configuration policies
+
+1. If your company uses app protection and/or app configuration policies with Microsoft Teams the you might need company portal on your device.  
+
+   1. If you have an iOS device you will not see this step
    
+   1. If you have an Android device you will see this screen to download company portal
+   
+#### Download Microsoft Teams
+
+1. Next you will see the screen to download Microsoft Teams. Scan the QR code with your mobile phone to download Microsoft Teams and sign in.
+
+# Troubleshooting
+
+- If QR code doesn’t work, manually search for each app on your phone in the app store.
+
+# FAQ
+
+Q: What if I’m required to enroll my devices to access Teams on my personal device?
+
+A: The wizard will not guide you through enrollment process. Please follow the steps on your mobile phone.
+
