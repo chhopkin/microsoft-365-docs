@@ -30,13 +30,13 @@ items:
       items: 
       - name: Set up Microsoft 365 and related services
         href: flw-setup-microsoft-365.md
+      - name: Setup frontline teams on personal devices
+        href: ./setup-frontline-teams-on-personal-devices/setup-frontline-teams-on-personal-devices.md
+        displayName: BYOD, frontline, FLW, personal devices, BYOD
       - name: Choosing between dynamic and static frontline teams
         href: frontline-team-options.md
       - name: Deploy frontline teams with flexible membership
         href: deploy-flexible-membership-teams-at-scale.md
-      - name: Setup frontline teams on personal devices
-        href: ./setup-frontline-teams-on-personal-devices/setup-frontline-teams-on-personal-devices.md
-        displayName: BYOD, frontline, FLW, personal devices, BYOD
       - name: Link your existing frontline teams
         href: link-your-existing-frontline-teams-to-be-managed-with-flexible-membership.md
       - name: Deploy frontline static teams at scale with PowerShell
