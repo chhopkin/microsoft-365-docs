@@ -144,8 +144,8 @@ The file name is prefixed with "User" and the Microsoft Entra ID of the user fol
 | Prompt.Title                                        | Title of the prompt given by user while saving or sharing the prompt.        |
 | Prompt.PromptText                                   | Prompt text                                                                  |
 | Prompt.Products                                     | A list containing the product in which user saved or shared the prompt.      |
-| Prompt.IsFavorite                                   | Boolean (true or false) indicating that a user has saved or liked the prompt.|
-| Prompt.UserActivity.Favorite.IsFavorite             | Boolean (true or false) indicating that a user has saved or liked the prompt.|
+| Prompt.IsFavorite                                   | Boolean (true or false) indicating that a user saved or liked the prompt.|
+| Prompt.UserActivity.Favorite.IsFavorite             | Boolean (true or false) indicating that a user saved or liked the prompt.|
 | Prompt.UserActivity.Favorite.ActivityDateTimeInUtc  | Time when user saved or liked the prompt.                                    |
 | Prompt.CreatedTime                                  | Time when the user saved the prompt.                                         |
 | Prompt.SharedTime                                   | Time when the user shared the prompt                                         |
