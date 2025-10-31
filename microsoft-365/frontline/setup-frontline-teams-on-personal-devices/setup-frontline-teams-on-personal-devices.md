@@ -38,3 +38,41 @@ Make sure you have:
 
 - Your mobile phone
 
+# Step 1: Start Onboarding
+
+1. On the desktop kiosk or back-office PC, open a web browser and go to aka.ms/getfrontlineteams
+
+1. Choose your device
+
+1. Sign in with your work credentials
+
+1. Reset your default password if prompted.
+
+# Step 2: Download Required Apps
+
+Based on your company security policies you may need to download additional apps like Microsoft authenticator and/or company portal. Below we will cover the different scenarios you may encounter:
+
+#### Multifactor authentication (MFA)
+
+1. You don’t require MFA to access Teams.  
+
+   1. MFA setup is skipped
+   
+1. You require MFA to access Teams and you already have an MFA method setup. 
+
+   1. MFA setup is skipped
+   
+1. You require MFA to access Teams and the web is experience is being accessed from a device that doesn’t require MFA
+
+   1. Scan the QR code with your mobile phone to download the Authenticator app
+   
+   1. Open the app and allow notifications
+   
+   1. Sign withy our work account and complete setup
+   
+   1. Come back and select next
+   
+1.  You require MFA to access Teams and the web is experience is being access on a device that requires MFA
+
+   1. Follow the screens to setup MFA with the Authenticator app in the wizard
+   
