@@ -26,12 +26,6 @@ items:
     - name: E3 and E5 license feature comparison list
       displayName: e3 vs e5
       href: microsoft-365-copilot-license-feature-overview.md
-    - name: E3 implementation guide
-      displayName: get started
-      href: microsoft-365-copilot-e3-guide.md
-    - name: E5 implementation guide
-      displayName: get started
-      href: microsoft-365-copilot-e5-guide.md
   - name: Billing
     items:
     - name: Pay-as-you-go overview
@@ -50,12 +44,8 @@ items:
       href: microsoft-365-copilot-requirements.md
     - name: Adoption guide and overview
       href: microsoft-365-copilot-enablement-resources.md
-    - name: Deploy Microsoft 365 Copilot app
-      href: deploy-microsoft-365-copilot-app.md
     - name: Overview and availability
       href: microsoft-365-copilot-app-overview.md
-    - name: Admin settings
-      href: microsoft-365-copilot-app-admin-settings.md
     - name: Copilot in Microsoft 365 admin centers
       href: copilot-for-microsoft-365-admin.md
     - name: Multiple account access to Copilot for work and school documents
@@ -128,6 +118,12 @@ items:
     items:
     - name: Security and governance
       href: copilot-control-system/security-governance.md
+    - name: E3 implementation guide
+      displayName: get started
+      href: microsoft-365-copilot-e3-guide.md
+    - name: E5 implementation guide
+      displayName: get started
+      href: microsoft-365-copilot-e5-guide.md
     - name: Management controls
       href: copilot-control-system/management-controls.md
     - name: Measurement and reporting
@@ -138,12 +134,12 @@ items:
       href: pay-as-you-go/setup.md
     - name: Meters for pay-as-you-go
       href: pay-as-you-go/meters.md
-    - name: View costs and billing for pay-as-you-go
-      href: pay-as-you-go/view-cost.md
     - name: Use prepaid capacity packs
       href: pay-as-you-go/copilot-capacity-packs.md
   - name: Enabling Copilot User Experiences
     items:
+    - name: Deploy Microsoft 365 Copilot app
+      href: deploy-microsoft-365-copilot-app.md
     - name: Manage Microsoft 365 Copilot scenarios
       href: microsoft-365-copilot-page.md
     - name: Set up Copilot and assign licenses
@@ -156,6 +152,8 @@ items:
       href: pin-copilot-taskbar.md
     - name: Pin Copilot Chat to the navigation bar
       href: pin-copilot-chat-navbar.md
+    - name: Admin settings
+      href: microsoft-365-copilot-app-admin-settings.md
   - name: People Skills
     items:
     - name: Setup People Skills
@@ -196,6 +194,10 @@ items:
       href: people-skills-manage-ai-restricted-skills.md
     - name: People Skills import and export
       href: people-skills-import-export-skills.md
+  - name: Billing
+    items:
+    - name: View costs and billing for pay-as-you-go
+      href: pay-as-you-go/view-cost.md
 - name: Improve
   items:
   - name: Release notes
