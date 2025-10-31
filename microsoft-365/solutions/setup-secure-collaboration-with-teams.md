@@ -6,7 +6,7 @@ manager: pamgreen
 ms.date: 12/04/2023
 ms.audience: ITPro
 ms.topic: solution-overview
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: medium
 ms.collection:
 - highpri

@@ -43,10 +43,10 @@ To ensure that SharePoint permissions are retained as part of the migration, a m
 - All users who are migrating to the target tenant must have new user identities created for them in the target tenant.
 
 >[!Note]
->Note: If these users are also having their OneDrive migrated, make sure that these new users don't attempt to sign-in to their new target OneDrive until their corresponding OneDrive migration is complete.
+>Note: If these users are also having their OneDrive migrated, make sure that these new users don't attempt to sign-in to their new target OneDrive until their corresponding OneDrive migration is complete.
 
-- All users whose SharePoint accounts are migrating to the target tenant must be assigned the appropriate SharePoint license.
-- Any users who remain in the source tenant but need access to resources migrating to the target tenant should have new guest identities created for them in the target tenant.
+- Users whose SharePoint accounts are migrating to the target tenant must be assigned the appropriate SharePoint license.
+- Users who remain in the source tenant but need access to resources migrating to the target tenant should have new guest identities created for them in the target tenant.
 - Precreated users must be added as members of any appropriate security groups or unified groups before the SharePoint migration begins. 
 - If the user or group name already exists in the target tenant, create a user or group with a different name and make a note of it for the next step.
 - We recommend that SharePoint site creations are restricted in the target tenant to prevent users from creating SharePoint sites.
@@ -56,24 +56,31 @@ To ensure that SharePoint permissions are retained as part of the migration, a m
 
 ## Precreate Microsoft 365 groups connect to SharePoint sites
 
-Microsoft 365 groups connected to SharePoint sites must be precreated using the [Exchange Online management shell](/powershell/exchange/connect-to-exchange-online-powershell)
+1. Install the beta module of Microsoft Graph.
 
-These commands send a request to the tenant with whom you want to establish trust.
+    ```PowerShell
+    Install-Module Microsoft.Graph.Beta -Repository PSGallery -Force
+    ```
 
-1. Sign in to the Exchange Online Management Shell as an Exchange Online Admin or Microsoft 365 Global admin. Enter the password for target tenant when prompted.
+[Install the Microsoft Graph PowerShell SDK](/powershell/microsoftgraph/installation)
 
-   > [!IMPORTANT]
-   > Microsoft recommends that you use roles with the fewest permissions. This usage helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+2. Sign in to the Microsoft Graph Management Shell as an Microsoft 365 admin with rights to make changes with graph. Enter the password for target tenant when prompted.
 
-   ```powershell
-   Connect-ExchangeOnline –UserPrincipalName <UserPrincipalName>
-   ```
+    ```PowerShell
+    Connect-MgGraph -Scopes "User.ReadWrite.All"
+    ```
 
-2. Create the appropriate Microsoft 365 groups, where *AccessType* matches the access type of the corresponding Microsoft 365 group on the source tenant.
+[Get started with the Microsoft Graph PowerShell SDK](/powershell/microsoftgraph/get-started)
 
-   ```powershell
-   New-UnifiedGroup -DisplayName <TargetGroupDisplayName> -Alias <TargetGroupAlias> -AccessType <Private|Public> 
-   ```
+3. Create the appropriate Microsoft 365 groups, where AccessType matches the access type of the corresponding Microsoft 365 group on the source tenant.
+
+    ```PowerShell
+    New-mgBetaGroup -GroupTypes Unified -MailNickname <Group Alias> -DisplayName "Group Name" -ResourceBehaviorOptions "ProvisionSiteOnDemand" -MailEnabled:$False -SecurityEnabled
+    ```
+
+> [!NOTE] 
+>Microsoft 365 Groups connected to SharePoint sites MUST be precreated using this method. Precreating Microsoft 365 groups using any other methods >will cause SharePoint site migrations to fail. Capture the group ObjectID to add to the mapping file._
+
 
 > [!Important]
 > Microsoft 365 Groups connected to SharePoint sites **MUST be precreated using this method**. Precreating Microsoft 365 groups using any other methods will cause SharePoint site migrations to fail.
@@ -83,11 +90,14 @@ These commands send a request to the tenant with whom you want to establish trus
 
 ## For tenants with Multi-Geo
 
-When creating M365 group objects, we recommend you assign the group to the geo instance the site's to be migrated to at the time of creation. The "MailboxRegion" is used to set the residency of the group object.
+When creating Microsoft 365 group objects, we recommend you assign the group to the geo instance the site's to be migrated to at the time of creation. The "MailboxRegion" is used to set the residency of the group object.
 
-   ```powershell
-   New-UnifiedGroup -DisplayName MultiGeoEUR -Alias "MultiGeoEUR" -AccessType Public -MailboxRegion EUR
-   ```
+```PowerShell
+New-mgBetaGroup -GroupTypes Unified -MailNickname <Group Alias> -DisplayName "Group Name" -ResourceBehaviorOptions "ProvisionSiteOnDemand" -MailEnabled:$False -SecurityEnabled -PreferredDataLocation <EUR,GBR,CAN...> 
+```
+>[!NOTE] 
+>The **-PreferredDataLocation** used **only** in multi-geo scenarios to set the PDL for the Microsoft 365 Group to ensure the PDL aligns of the new group aligns with the proper data location.
+
 >[!NOTE]
 >If the group site is outside the default instance, the MailboxRegion (PDL) must be set.
 >For more information, see [Create a Microsoft 365 Group with a specific preferred data location](/microsoft-365/enterprise/multi-geo-add-group-with-pdl).

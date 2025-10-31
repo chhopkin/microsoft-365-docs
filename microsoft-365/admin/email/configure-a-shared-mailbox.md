@@ -2,8 +2,8 @@
 title: "Configure shared mailbox settings"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 09/30/2024
 audience: Admin

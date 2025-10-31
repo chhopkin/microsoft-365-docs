@@ -160,13 +160,14 @@ Use this option to change the payment method used to pay for subscriptions and s
 3. On the billing account details page, select the **Billing profiles** tab.
 4. Select a billing profile name to view its details page.
 5. In the **Invoice and billing notifications** section, under **Payment method**, select **Replace**. This opens the **Replace payment method** panel.
-6. The **Use an existing payment method** drop-down list contains the payment methods that you own. Select an alternate payment method to use for the billing profile. If the account is approved to pay with a wire transfer, you can select the wire transfer account from the drop-down list and use it as the default payment method. For information about the wire transfer approval process, see [Paying by Wire Transfer](/microsoft-365/commerce/billing-and-payments/pay-for-your-subscription#paying-by-wire-transfer).
+6. The **Use an existing payment method** drop-down list contains the payment methods that you own. Select an alternate payment method to use for the billing profile. If the account is approved to pay with a wire transfer, you can select the wire transfer account from the drop-down list and use it as the default payment method. For information about the wire transfer approval process, see [Pay your invoice by using a wire transfer](pay-by-wire-transfer.md).
 7. Select **Save**.
 
 You can also add a new payment method by using the **Add payment method** link under the **New payment method** drop down.
 
 ## Related content
 
-[Understand billing accounts](../manage-billing-accounts.md) (article) \
-[Payment options for Microsoft business subscriptions](pay-for-your-subscription.md) (article)\
+[Understand billing accounts](../manage-billing-accounts.md) (article)<br/>
+[Pay your Microsoft business invoice by using a credit or debit card](pay-for-your-subscription.md) (article)<br/>
+[Pay your invoice by using a wire transfer](pay-by-wire-transfer.md) (article)<br/>
 [Manage payment methods](manage-payment-methods.md) (article)

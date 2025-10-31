@@ -2,9 +2,9 @@
 title: "Get the latest version of Microsoft 365 usage analytics"
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
+ms.author: efrene
 author: efrene
-manager: dansimp
+manager: scotv
 ms.date: 02/19/2020
 audience: Admin
 ms.topic: article

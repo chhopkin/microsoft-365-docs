@@ -3,7 +3,7 @@ title: "Support Assist Private Preview Agreement"
 f1.keywords: NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: dansimp
+manager: scotv
 ms.reviewer: rabhange
 audience: Admin
 ms.topic: legal

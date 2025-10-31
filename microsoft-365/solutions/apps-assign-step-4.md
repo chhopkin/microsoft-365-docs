@@ -7,7 +7,7 @@ audience: ITPro
 ms.topic: troubleshooting-general
 ms.date: 04/21/2025
 description: Step 4. Troubleshoot app deployment issues.
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: high
 ms.collection:
 - highpri

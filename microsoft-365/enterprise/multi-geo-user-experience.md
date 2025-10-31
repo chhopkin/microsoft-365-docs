@@ -1,14 +1,14 @@
 ---
 title: "User experience in a multi-geo environment"
-ms.reviewer:
+ms.reviewer: jugiammo
 ms.date: 02/14/2025
 ms.author: v-fahasen
 author: fhasen-msft
-manager: v-nihmi
+manager: Justin.Giammona
 audience: ITPro
 ms.topic: article
 ms.service: microsoft-365-enterprise
-ms.subservice: multi-tenant
+ms.subservice: multi-geo-capabilities
 ms.collection:
 - SPO_Content
 - Strat_SP_gtc
