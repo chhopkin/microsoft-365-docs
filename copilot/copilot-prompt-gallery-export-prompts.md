@@ -4,7 +4,9 @@ description: "Provides admins the steps to take to export prompts that users sav
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.topic: concept-article
+ms.date: 10/31/2025
+audience: Admin
+ms.topic: how-to
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.collection: 
@@ -13,7 +15,6 @@ ms.collection:
 - magic-ai-copilot
 - must-keep
 hideEdit: true
-ms.date: 04/16/2025
 ms.update-cycle: 180-days
 ---
 
