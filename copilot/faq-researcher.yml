@@ -6,7 +6,7 @@ metadata:
   ms.author: vpattnaik
   ms.service: microsoft-365-copilot
   ms.topic: faq
-  ms.date: 10/28/2025
+  ms.date: 10/31/2025
 
 title: "Microsoft 365 Copilot Researcher agent frequently asked questions"
 summary: Researcher is an advanced AI Copilot agent in Microsoft 365 designed to tackle complex, multi-step questions by acting as a deep research assistant.
@@ -72,8 +72,6 @@ sections:
     questions:
       - question: "Are there any usage limits for Researcher agent in Microsoft 365?"
         answer: "A maximum of 25 queries per user per month."
-      - question: "Do users get throttled?"
-        answer: "Yes, if a user exceeds 100 requests in an hour. However, there's no throttling at the tenant level."
 
   - name: Security and compliance
     questions:
