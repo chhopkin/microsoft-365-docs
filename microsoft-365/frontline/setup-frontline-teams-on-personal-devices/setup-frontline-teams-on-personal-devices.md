@@ -12,7 +12,7 @@ ms.topic: article
 ms.date:     10/31/2025
 ---
 
-# Setup frontline teams on personal devices
+# Setup frontline teams on personal devices (BYOD)
 
 #### Note feature is currently in public preview. For updates please refer to the roadmap.
 
@@ -42,6 +42,8 @@ Make sure you have:
 
 1. On the desktop kiosk or back-office PC, open a web browser and go to aka.ms/getfrontlineteams
 
+   ![screenshotgetstartedpage](media/setup-frontline-teams-on-personal-devices/screenshotgetstartedpage.png)
+   
 1. Choose your device
 
 1. Sign in with your work credentials
