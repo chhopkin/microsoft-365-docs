@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: kwekua
 author: kwekuako
-manager: dansimp
+manager: scotv
 ms.date: 10/08/2018
 audience: Admin
 ms.topic: install-set-up-deploy

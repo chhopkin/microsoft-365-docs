@@ -15,7 +15,7 @@ jobs:
     download-payload:
         name: Download and extract payload artifact
         if: github.repository_owner == 'MicrosoftDocs'
-        uses: MicrosoftDocs/microsoft-365-docs/.github/workflows/Shared-ExtractPayload.yml@workflows-test
+        uses: MicrosoftDocs/microsoft-365-docs/.github/workflows/Shared-ExtractPayload.yml@workflows-prod
         with:
             WorkflowId: ${{ github.event.workflow_run.id }}
             OrgRepo: ${{ github.repository }}
@@ -37,4 +37,5 @@ jobs:
         secrets:
             AccessToken: ${{ secrets.GITHUB_TOKEN }}
             PrivateKey: ${{ secrets.M365_APP_PRIVATE_KEY }}
+
             ClientId: ${{ secrets.M365_APP_CLIENT_ID }}

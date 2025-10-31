@@ -2,8 +2,8 @@
 title: "Microsoft 365 data locations"
 ms.author: v-fahasen
 author: fhasen-msft
-manager: v-nihmi
-ms.reviewer: deanw
+manager: Justin.Giammona
+ms.reviewer: jugiammo
 ms.date: 02/24/2025
 audience: ITPro
 ms.topic: article

@@ -108,9 +108,8 @@ As a Compliance Manager or IT administrator, it's crucial to stay up-to-date on 
 
 ## Related articles
 
-- [Requirements](cpcn-loop-requirements.md)
 - [Storage](cpcn-storage.md)
-- [Permissions](cpcn-loop-permission.md)
+- [Permissions](cpcn-permission.md)
 - [Admin toggles](cpcn-admin-configuration.md)
 - [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md)
 - [Purview and SharePoint Embedded containers](cpcn-loop-purview-management.md)

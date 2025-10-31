@@ -3,14 +3,14 @@ title: Data Residency for Office for the Web
 description: Data Residency for Office for the Web
 ms.author: v-fahasen
 author: fhasen-msft
-manager: v-nihmi
+manager: Justin.Giammona
 ms.service: microsoft-365-enterprise
 ms.subservice: advanced-data-residency
 ms.topic: article
 f1.keywords:
 - NOCSH
 ms.date: 02/11/2025
-ms.reviewer: deanw
+ms.reviewer: jugiammo
 ms.custom:
 - it-pro
 ms.localizationpriority: medium

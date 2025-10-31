@@ -10,7 +10,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.date: 08/04/2025
-ms.reviewer: fahasen
+ms.reviewer: jugiammo
 ms.custom:
 - it-pro
 ms.localizationpriority: medium

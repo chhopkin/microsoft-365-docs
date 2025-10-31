@@ -7,7 +7,7 @@ audience: ITPro
 ms.topic: concept-article
 ms.date: 04/21/2025
 description: Understand the app types that are available for managed environments.
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: high
 ms.collection:
 - highpri
