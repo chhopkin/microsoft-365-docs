@@ -2,9 +2,9 @@
 title: Copilot Control System Measurement and Reporting
 description: Measure Microsoft 365 Copilot adoption, productivity impact, and ROI with Copilot Control System and Copilot Analytics reporting tools. Track usage trends and organizational value.
 #customer intent: As an IT admin, I want to measure the adoption of Microsoft 365 Copilot so that I can track usage trends and manage license assignments effectively.
-author: aczechowski
-ms.author: aaroncz
-manager: dansimp
+author: mestew
+ms.author: mstewart
+manager: scotv
 ms.reviewer: bensum,mikewalsh
 ms.service: microsoft-365-copilot
 ms.topic: solution-overview

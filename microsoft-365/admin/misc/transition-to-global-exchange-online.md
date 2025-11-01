@@ -2,8 +2,8 @@
 title: "Update your MX records to transition to the global Exchange Online service"
 f1.keywords:
 - CSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 05/01/2020
 audience: Admin

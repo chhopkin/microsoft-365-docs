@@ -1,14 +1,14 @@
 ---
 title: "Add or remove a geo administrator"
-ms.reviewer: anfra
+ms.reviewer: anfra, jugiammo
 ms.date: 06/19/2025
-ms.author: kvice
-author: kelleyvice-msft
-manager: scotv
+ms.author: v-fahasen
+author: fhasen-msft
+manager: Justin.Giammona
 audience: ITPro
 ms.topic: article
 ms.service: microsoft-365-enterprise
-ms.subservice: administration
+ms.subservice: multi-geo-capabilities
 ms.collection: 
 - SPO_Content
 - must-keep

@@ -2,13 +2,13 @@
 title: "Step 3: Deploy security and compliance for hybrid workers"
 f1.keywords:
 - NOCSH
-author: brendacarter
-ms.author: bcarter
+author: dansimp
+ms.author: dansimp
 manager: dansimp
 ms.date: 06/10/2020
 audience: ITPro
 ms.topic: how-to
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: high
 ms.collection:
 - highpri
@@ -48,7 +48,7 @@ Protect your applications and data with these security features of Microsoft 365
 |---|---|---|
 |Microsoft Defender for Office 365|Protect your Microsoft 365 apps and data—such as email messages, Office documents, and collaboration tools—from attack. <p> Microsoft Defender for Office 365 collects and analyzes signals from your apps for detection, investigation, and remediation of security risks and safeguards your organization against malicious threats posed by email messages, links (URLs), and collaboration tools. It also provides automated tenant configuration assessment and configuration tooling for standard and strict security postures.|Microsoft 365 E3 or E5|
 |Malware protection|Microsoft Defender Antivirus and Device Guard provides device-based malware protection. <p> SharePoint Online automatically scans file uploads for known malware. <p> The default email protections for all organizations with cloud mailboxes secures email.|Microsoft 365 E3 or E5|
-|Microsoft Defender for Endpoint|Protect your organization’s devices from cyber threats and data breaches and detect, investigate, and respond to advanced threats.|Microsoft 365 E5|
+|Microsoft Defender for Endpoint|Protect your organization's devices from cyber threats and data breaches and detect, investigate, and respond to advanced threats.|Microsoft 365 E5|
 |Defender for Cloud Apps|Protect your cloud-based services—both Microsoft 365 and other SaaS apps—from attack.|Microsoft 365 E5 or individual Defender for Cloud Apps licenses|
 |Microsoft Entra ID Protection|Automate detection and remediation of identity-based risks. <p>Create risk-based Conditional Access policies to require multi-factor authentication (MFA) for risky sign-ins.|Microsoft 365 E5 or E3 with Microsoft Entra ID P2 licenses|
 ||||

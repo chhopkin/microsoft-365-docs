@@ -1,12 +1,12 @@
 ---
 title: Microsoft 365 solutions for the financial services industry
 description: Learn about solution and architecture resources for the financial services industry using Microsoft 365
-ms.author: samanro
-author: samanro
-manager: bcarter
+author: dansimp
+ms.author: dansimp
+manager: dansimp
 ms.audience: ITPro
 ms.topic: solution-overview
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: medium
 ms.collection: 
 - highpri

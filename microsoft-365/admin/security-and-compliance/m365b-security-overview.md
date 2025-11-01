@@ -1,8 +1,8 @@
 ---
 title: Microsoft 365 for business security overview
-ms.author: chrisda
-author: chrisda
-manager: deniseb
+ms.author: vpattnaik
+author: vpattnai
+manager: dansimp
 audience: Admin
 ms.topic: conceptual
 ms.localizationpriority: high

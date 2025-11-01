@@ -3,14 +3,14 @@ title: Data Residency for Microsoft Defender for Office P1
 description: Learn about Data Residency for Microsoft Defender for Office P1
 ms.author: v-fahasen
 author: fhasen-msft
-manager: v-nihmi
+manager: Justin.Giammona
 ms.service: microsoft-365-enterprise
 ms.subservice: advanced-data-residency
 ms.topic: article
 f1.keywords:
 - NOCSH
 ms.date: 02/11/2025
-ms.reviewer: deanw
+ms.reviewer: jugiammo
 ms.custom:
 - it-pro
 ms.localizationpriority: medium
