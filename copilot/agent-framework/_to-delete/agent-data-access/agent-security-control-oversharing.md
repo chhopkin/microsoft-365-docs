@@ -21,7 +21,7 @@ description: Learn how to control oversharing organization data
 Data should be safeguarded to prevent oversharing. Preventing oversharing data helps ensure that sensitive data remains protected, and access is limited to only those users who need it, including Copilot agents. The following combination assists you with controlling oversharing:
 - [Microsoft Purview Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai)
 - [SharePoint Advanced Management](/sharepoint/advanced-management)
-- [Deployment blueprint](#recommended-approach-to-address-oversharing-concerns-for-microsoft-365-copilot-deployments) to address oversharing concerns in Microsoft 365 Copilot
+- Deployment blueprint
 
 > [!NOTE]
 > This article describes features from multiple products. Some features described in this article might not be available depending on which Microsoft 365 subscription you have. For more information, see the [Microsoft 365 licensing guide](https://www.microsoft.com/licensing/product-licensing/microsoft-365) and review the product's licensing requirements documentation.
@@ -36,7 +36,7 @@ Use the [data risk assessments](/purview/dspm-for-ai?tabs=m365#data-assessments)
 - Protect sensitive data from oversharing
 - Monitor, remediate, and automate protections to reduce emerging risks
 
-:::image type="content" source="./media/10687243-dspm-overview-copilot.png" alt-text="DSPM overview page for Microsoft 365 Copilot":::
+
 
 ## Control oversharing with SharePoint Advanced Management
 
@@ -48,7 +48,7 @@ Controlling oversharing is vital for ensuring that Copilot agents only access ap
 
 Reducing content sprawl and managing content lifecycle are important for overall SharePoint governance and they contribute to making controlling oversharing easier. For more information, see, [Get ready for Microsoft 365 Copilot with SharePoint Advanced Management](/sharepoint/get-ready-copilot-sharepoint-advanced-management).
 
-:::image type="content" source="./media/10687243-sam-feature-list.png" alt-text="SharePoint Advanced Management feature list":::
+
 
 ## Recommended approach to address oversharing concerns for Microsoft 365 Copilot deployments
 
@@ -56,7 +56,5 @@ To effectively address oversharing of data that Copilot agents can access, use t
 
 **Download the blueprint and documentation**:
 
-| Deployment model | Description |
-|---|---|
-| [![Address oversharing concerns in Microsoft 365 Copilot](../../media/microsoft-365-copilot-blueprint-oversharing/blueprint-oversharing-copilot.png)](https://aka.ms/Copilot/OversharingBlueprintPDF) | Use this deployment model to assist organizations in identifying and mitigating oversharing risks. <br/><br/>**This model includes**<br/><ul><li>Blueprint with high level activities and presentation [PDF](https://aka.ms/Copilot/OversharingBlueprintPDF) \| [PowerPoint](https://aka.ms/Copilot/OversharingBlueprintPPT)</li></ul> |
+
 
