@@ -408,7 +408,6 @@ items:
             href: /microsoft-copilot-studio/admin-logging-copilot-studio?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
           - name: Data Security Posture Management (DSPM) for AI
             href: /purview/dspm-for-ai?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json     
- 
     - name: Manage Copilot agent usage billing
       href: agent-framework/agent-usage-billing/agent-usage-overview.md
       items:
