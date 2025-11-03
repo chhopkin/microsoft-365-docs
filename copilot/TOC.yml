@@ -206,8 +206,10 @@ items:
       href: agent-framework/agent-framework-overview.md
     - name: Prerequisites
       href: agent-framework/agent-prerequisites.md
+    - name: Microsoft 365 Copilot agents blueprint
+      href: agent-framework/m365-agents-blueprint.md
     - name: Microsoft 365 Copilot agents checklist
-      href: agent-framework/m365-agents-checklist.md
+      href: agent-framework/m365-agents-checklist.md      
     - name: Microsoft 365 Copilot agents admin guide
       href: agent-framework/m365-agents-admin-guide.md            
     - name: Manage agent access and availability policies
@@ -411,23 +413,34 @@ items:
     - name: Manage Copilot agent usage billing
       href: agent-framework/agent-usage-billing/agent-usage-overview.md
       items:
-      - name: Understand usage billing M365 licensed users
-        href: agent-framework/agent-usage-billing/agent-m365-licensed-user.md
-      - name: Setup pay-as-you-go billing for Copilot agents
-        href: agent-framework/agent-usage-billing/agent-usage-payg-setup.md
+      - name: Understand Copilot licensing
         items:
-        - name: Microsoft 365 Copilot pay-as-you-go settings
-          href: agent-framework/agent-usage-billing/agent-usage-m365-copilot-settings.md
-        - name: Copilot Studio billing settings
-          href: agent-framework/agent-usage-billing/agent-usage-cs-settings.md
-        - name: Copilot Studio billing rates for agent activity
-          href: agent-framework/agent-usage-billing/agent-usage-cs-rates.md
-        - name: Manage M365 Copilot agent billing sessions and capacity
-          href: agent-framework/agent-usage-billing/agent-usage-session-capacity.md
+        - name: Microsoft 365 Copilot license options
+          href: /copilot/microsoft-365/microsoft-365-copilot-licensing?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
+        - name: Copilot Studio license options
+          href: /microsoft-copilot-studio/billing-licensing?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
+      - name: Understand Microsoft 365 Copilot pay-as-you-go plan
+        href: /copilot/microsoft-365/pay-as-you-go/overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
+        items:
+        - name: Set up pay-as-you-go for Microsoft 365 Copilot services
+          href: /copilot/microsoft-365/pay-as-you-go/setup?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
+        - name: Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot
+          href: /copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
+        - name: View costs and billing for Microsoft 365 Copilot pay-as-you-go
+          href: /copilot/microsoft-365/pay-as-you-go/view-cost?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
+      - name: Understant Copilot Studio billing rates and management
+        href: /microsoft-copilot-studio/requirements-messages-management?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
+        items:
+        - name: Set up Copilot Studio pay-as-you-go consumptive meter
+          href: /microsoft-copilot-studio/requirements-messages-management?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json#set-up-pay-as-you-go-consumptive-meter
+        - name: View Copilot Credit consumption
+          href: /microsoft-copilot-studio/requirements-messages-management?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json#view-copilot-credit-consumption
+        - name: Understand Copilot Credit event scenarios
+          href: /microsoft-copilot-studio/requirements-messages-management?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json#copilot-credits-and-events-scenarios
       - name: Copilot Studio agent consumption estimator
-        href: agent-framework/agent-usage-billing/agent-usage-cs-estimator.md
-      - name: M365 Copilot reports
-        href: agent-framework/agent-usage-billing/agent-usage-cs-reports.md        
+        href: https://microsoft.github.io/copilot-studio-estimator?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
+      - name: Microsoft 365 Copilot agent usage reports
+        href: /microsoft-365/admin/activity-reports/microsoft-365-copilot-agents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json      
 
   - name: Microsoft 365 Copilot Tuning (preview)
     items:
