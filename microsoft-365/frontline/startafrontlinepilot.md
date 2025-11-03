@@ -74,7 +74,7 @@ For example, a pilot can help you determine:
 
 7. Share the download link or QR code to your pilot members and owners. After they sign in, users see the pilot experience with your pinned apps. Communicate the pilot goals and provide devices and training as needed.
 
-![Screenshot of pilot summary page.](media/startafrontlinepilot/pilot-select-capabilities.jpg)
+![Screenshot of pilot summary page.](media/startafrontlinepilot/pilot-summary.jpg)
 
 ## Manage your pilot 
 
@@ -83,7 +83,7 @@ Go to Manage frontline teams to view, manage, or start pilots. Now that you hav
 > [!IMPORTANT]
 > You can start up to 5 pilots. To start a new pilot after you reach this limit, delete an existing pilot.
 
-![Screenshot of Manage frontline teams page to view all pilots.](media/startafrontlinepilot/pilot-select-capabilities.jpg)
+![Screenshot of Manage frontline teams page to view all pilots.](media/startafrontlinepilot/manage-frontline-teams-pilots.jpg)
 
 Click the **Refresh** icon in the table header to update deployment status for your most recent pilots.
 
@@ -113,7 +113,7 @@ Pilot status can be Active, In progress, or Failed.
 
 - **Failed:** Select **Retry** on the banner to restart deployment.
 
-![Screenshot of retry button.](media/startafrontlinepilot/pilot-select-capabilities.jpg)
+![Screenshot of retry button.](media/startafrontlinepilot/deployment-error.jpg)
 
 #### Manage Membership
 
@@ -123,7 +123,7 @@ The Members tab lists all pilot members and owners.
 
 - Remove a member or owner by selecting the user and choosing **Remove**.
 
-![Screenshot of page to manage membership in the pilot.](media/startafrontlinepilot/pilot-select-capabilities.jpg)
+![Screenshot of page to manage membership in the pilot.](media/startafrontlinepilot/manage-membership.jpg)
 
 #### Manage channels 
 
@@ -138,19 +138,19 @@ By default, frontline workers see a General channel that can’t be deleted.
 > [!IMPORTANT]
 > Admins can add only standard channels to the pilot in the Teams admin center. Pilot owners can add standard, private, and shared channels in the Teams client. In the Teams admin center, admins see only the standard channels they create.
 
-![Screenshot of page to manage channels in the pilot.](media/startafrontlinepilot/pilot-select-capabilities.jpg)
+![Screenshot of page to manage channels in the pilot.](media/startafrontlinepilot/manage-channels.jpg)
 
 #### Manage Connections
 
 Select **Set up and manage Viva Connections** to set up the Connections Home dashboard for pilot members.
 
-![Screenshot of page to manage Viva Connections in the pilot.](media/startafrontlinepilot/pilot-select-capabilities.jpg)
+![Screenshot of page to manage Viva Connections in the pilot.](media/startafrontlinepilot/manage-connectionss.jpg)
 
 #### Manage Viva Engage
 
 Select **Set up and manage Viva Engage** to set up Communities for pilot members.
 
-![Screenshot of page to manage Viva Engage in the pilot.](media/startafrontlinepilot/pilot-select-capabilities.jpg)
+![Screenshot of page to manage Viva Engage in the pilot.](media/startafrontlinepilot/manage-viva-engage.jpg)
 
 #### Manage Apps
 
@@ -160,7 +160,7 @@ Reorder pinned apps by dragging the **= icon**, or by selecting an app and choos
 
 - Unpin an app by selecting it and choosing **Remove**.
 
-![Screenshot of page to manage apps in the pilot.](media/startafrontlinepilot/pilot-select-capabilities.jpg)
+![Screenshot of page to manage apps in the pilot.](media/startafrontlinepilot/manage-apps.jpg)
 
 ## Measuring pilot success
 
@@ -187,7 +187,7 @@ The report shows a bar graph of active users for Chat, Channels, and Walkie Talk
 > [!NOTE]
 > Usage data for Shifts, Tasks, Engage Communities, and Connections Home will be available soon.
 
-![Screenshot of page to view frontline usage metrics.](media/startafrontlinepilot/pilot-select-capabilities.jpg)
+![Screenshot of page to view frontline usage metrics.](media/startafrontlinepilot/measure-usage.jpg)
 
 To help boost adoption, learn more about [enabling your frontline workers with Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/frontline-workers/).
 
