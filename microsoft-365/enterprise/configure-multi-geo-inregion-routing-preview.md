@@ -11,7 +11,8 @@ manager: mfxiong
 ms.service: microsoft-365-enterprise
 ms.topic: how-to
 ms.date:     09/26/2025
-ms.subservice: advanced-data-residency
+ms.subservice: multi-geo-capabilities
+ms.reviewer: jugiammo
 ---
 
 # Configure Multi-Geo In-Region Routing (In Preview)

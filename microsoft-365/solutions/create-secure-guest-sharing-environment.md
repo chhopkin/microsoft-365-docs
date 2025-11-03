@@ -6,7 +6,7 @@ manager: jtremper
 ms.date: 05/30/2024
 audience: ITPro
 ms.topic: solution-overview
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.collection: 
 - highpri
 - Tier1

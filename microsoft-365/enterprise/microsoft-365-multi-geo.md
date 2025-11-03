@@ -1,14 +1,14 @@
 ---
 title: "Microsoft 365 Multi-Geo"
-ms.reviewer:
+ms.reviewer: jugiammo
 ms.date: 09/26/2025
 ms.author: v-fahasen
 author: fhasen-msft
-manager: v-nihmi
+manager: Justin.Giammona
 audience: ITPro
 ms.topic: article
 ms.service: microsoft-365-enterprise
-ms.subservice: multi-tenant
+ms.subservice: multi-geo-capabilities
 ms.custom: seo-marvel-apr2020
 ms.collection: 
 - Strat_SP_gtc
