@@ -38,13 +38,13 @@ Terms to know:
 **PROD** - Production
 
 1. Go to the **Solutions** page in Copilot Studio.
-1. Select the ellipsis (**...**) and choose **Export Solution** for the preferred solution that you set when preparing environments.
-1. Before you export the solution, it needs to be published or deployed using the Azure DevOps CI/CD pipelines. This article covers the manual publishing option. See [the Power Platform documentation](/power-platform/alm/pipelines) to understand the Azure DevOps CI/CD pipeline deployment.
-1. Select **Publish** to publish all customizations.
-1. Select **Next** to export the solution.
-1. Specify the version number. We recommend you export as **Managed** if the solution deploys to another nondev environment.
-1. You can see the export status on the **Solutions** page. The status banner updates when the export completes.
-1. Select **Download** to download the exported solution and save it in a preferred folder.
+2. Select the ellipsis (**...**) and choose **Export Solution** for the preferred solution that you set when preparing environments.
+3. Before you export the solution, it needs to be published or deployed using the Azure DevOps CI/CD pipelines. This article covers the manual publishing option. See [the Power Platform documentation](/power-platform/alm/pipelines) to understand the Azure DevOps CI/CD pipeline deployment.
+4. Select **Publish** to publish all customizations.
+5. Select **Next** to export the solution.
+6. Specify the version number. We recommend you export as **Managed** if the solution deploys to another nondev environment.
+7. You can see the export status on the **Solutions** page. The status banner updates when the export completes.
+8. Select **Download** to download the exported solution and save it in a preferred folder.
 
 >[!IMPORTANT]
 >[No edits are allowed in the downloaded package, as they cause the upload to fail.]
@@ -74,7 +74,7 @@ If your organization needs to use a different identity provider than Microsoft E
 - Token exchange URL (required for single sign-on)
 - Tenant ID
 
-## Publish the ESS agent
+## Publish the Employee Self-Service agent
 
 >[!NOTE]
 >If your organization's Teams app deployment has its own application lifecycle management/ DevOps process in place for deploying and testing new apps, you can side-load apps into the Teams app store using the **Download.zip** option. Consult your organization's Teams app deployment policies and work with your Teams administrators.
