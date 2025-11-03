@@ -1,5 +1,5 @@
 ---
-title: Best practices for SharePoint knowledge sources in Employee Self-Service
+title: Optimization for SharePoint knowledge sources in Employee Self-Service
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
