@@ -74,3 +74,11 @@ Consider which Employee Self-Service agent template is right for your organizati
 - **Security**: The solution adheres to enterprise-grade security standards, including identity federation, least-privilege access, and encrypted storage. Compliance with regulatory frameworks (for example., GDPR, HIPAA) is supported through built-in auditing and data retention policies.
 
 By consolidating employee self-service tasks within a secure, extensible, and scalable architecture, the Employee Self-Service agent and Copilot Studio deliver operational efficiencies and integration flexibility tailored for enterprise IT environments.
+
+## Structure of the Employee Self-Service agent
+
+The Employee Self-Service agent consists of three main parts: the agent itself, domain topic packages, and Power Platform connectors and actions.
+
+[![Infographic showing the structure of the Employee Self-Service agent.](../media/ess/structure-big.png)](../media/ess/structure-big.png#lightbox)
+
+[Learn more about how Copilot architecture works](../microsoft-365-copilot-architecture.md)
