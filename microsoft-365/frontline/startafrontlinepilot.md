@@ -144,7 +144,7 @@ By default, frontline workers see a General channel that can’t be deleted.
 
 Select **Set up and manage Viva Connections** to set up the Connections Home dashboard for pilot members.
 
-![Screenshot of page to manage Viva Connections in the pilot.](media/startafrontlinepilot/manage-connectionss.jpg)
+![Screenshot of page to manage Viva Connections in the pilot.](media/startafrontlinepilot/manage-connections.jpg)
 
 #### Manage Viva Engage
 
