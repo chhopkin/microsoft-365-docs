@@ -7,16 +7,6 @@ items:
       href: microsoft-365-copilot-overview.md
     - name: Service description
       href: /office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
-  - name: Responsible AI
-    items:
-    - name: Overview
-      href: responsible-ai/responsible-ai-overview.md
-    - name: FAQ for Copilot Tuning
-      href: responsible-ai/copilot-tuning-responsible-ai-faq.md
-    - name: FAQ for Flow Builder
-      href: responsible-ai/flow-builder-responsible-ai-faq.md
-    - name: People skills data and AI guidelines
-      href: people-skills-data-and-ai-guidelines.md
   - name: Licensing
     items:
     - name: Which Copilot is right for me?
@@ -30,6 +20,26 @@ items:
     items:
     - name: Pay-as-you-go overview
       href: pay-as-you-go/overview.md
+  - name: Privacy, Security, and Governance
+    items:
+    - name: Overview
+      href: responsible-ai/responsible-ai-overview.md
+    - name: Data, privacy, and security for Microsoft 365 Copilot
+      href: microsoft-365-copilot-privacy.md
+    - name: Data, privacy, and security for web search in Microsoft 365 Copilot and Microsoft 365 Copilot Chat
+      href: manage-public-web-access.md
+    - name: Security for Microsoft 365 Copilot
+      href: microsoft-365-copilot-ai-security.md
+    - name: Manage harmful content protection settings for Microsoft 356 Copilot Chat
+      href: harmful-content-protection-copilot-chat.md  
+    - name: Apply principles of Zero Trust to Microsoft 365 Copilot
+      href: /security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+    - name: Enterprise data protection
+      href: enterprise-data-protection.md
+    - name: Transparency Note
+      href: microsoft-365-copilot-transparency-note.md
+    - name: Flow Builder privacy and data subject request (DSR) FAQ
+      href: flow-builder-privacy-data-subject-request-faq.md
   - name: Implementation Readiness
     items:
     - name: Architecture & how Copilot works
@@ -50,27 +60,17 @@ items:
       href: copilot-for-microsoft-365-admin.md
     - name: Multiple account access to Copilot for work and school documents
       href: multiple-account-access.md
-  - name: Privacy, Security, and Governance
-    items:
-    - name: Data, privacy, and security for Microsoft 365 Copilot
-      href: microsoft-365-copilot-privacy.md
-    - name: Data, privacy, and security for web search in Microsoft 365 Copilot and Microsoft 365 Copilot Chat
-      href: manage-public-web-access.md
-    - name: Security for Microsoft 365 Copilot
-      href: microsoft-365-copilot-ai-security.md
-    - name: Manage harmful content protection settings for Microsoft 356 Copilot Chat
-      href: harmful-content-protection-copilot-chat.md  
-    - name: Apply principles of Zero Trust to Microsoft 365 Copilot
-      href: /security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
-    - name: Enterprise data protection
-      href: enterprise-data-protection.md
-    - name: Transparency Note
-      href: microsoft-365-copilot-transparency-note.md
-    - name: Flow Builder privacy and data subject request (DSR) FAQ
-      href: flow-builder-privacy-data-subject-request-faq.md
 
 - name: Implement
   items:
+  - name: Usage Based Billing
+    items:
+    - name: Set up pay-as-you-go
+      href: pay-as-you-go/setup.md
+    - name: Meters for pay-as-you-go
+      href: pay-as-you-go/meters.md
+    - name: Use prepaid capacity packs
+      href: pay-as-you-go/copilot-capacity-packs.md
   - name: Copilot Control System
     items:
     - name: Security and governance
@@ -85,14 +85,6 @@ items:
       href: copilot-control-system/management-controls.md
     - name: Measurement and reporting
       href: copilot-control-system/measurement-reporting.md
-  - name: Usage Based Billing
-    items:
-    - name: Set up pay-as-you-go
-      href: pay-as-you-go/setup.md
-    - name: Meters for pay-as-you-go
-      href: pay-as-you-go/meters.md
-    - name: Use prepaid capacity packs
-      href: pay-as-you-go/copilot-capacity-packs.md
   - name: Enabling Copilot User Experiences
     items:
     - name: Deploy Microsoft 365 Copilot app
@@ -116,17 +108,13 @@ items:
   items:
   - name: Welcome email for users
     href: microsoft-365-copilot-enable-users.md
-  - name: Copilot Chat
-    href: https://m365.cloud.microsoft/chat
-  - name: Submit Copilot feedback to Microsoft
-    href: provide-feedback.md
+
 - name: Manage
   items:
   - name: Service plan diagnostic tool
     href: microsoft-365-copilot-service-plans.md
   - name: Reports and insights
     href: microsoft-365-copilot-reports-for-admins.md
-
   - name: Copilot Prompts
     items:
     - name: Manage scheduled prompts
@@ -143,6 +131,8 @@ items:
     items:
     - name: People Skills overview
       href: people-skills-overview.md
+    - name: People skills data and AI guidelines
+      href: people-skills-data-and-ai-guidelines.md
     - name: AI inference engine
       href: people-skills-ai-inferencing.md
     - name: Privacy and sharing controls
@@ -195,6 +185,8 @@ items:
       href: copilot-tuning-troubleshooting-expert-qa.md
     - name: Summarization
       href: copilot-tuning-summarization.md
+    - name: FAQ for Copilot Tuning
+      href: responsible-ai/copilot-tuning-responsible-ai-faq.md
     - name: Troubleshooting Guardrails
       href: copilot-tuning-troubleshooting-guardrails.md
   - name: Copilot Library
@@ -205,6 +197,8 @@ items:
     items:
     - name: Install agents in Microsoft 365 Copilot
       href: copilot-agent-install.md
+    - name: FAQ for Flow Builder
+      href: responsible-ai/flow-builder-responsible-ai-faq.md
     - name: Overview of Microsoft Search connectors for Microsoft 365 Copilot
       href: /microsoftsearch/connectors-overview?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
   - name: Billing
@@ -216,6 +210,8 @@ items:
   items:
   - name: Release notes
     href: release-notes.md
+  - name: Submit Copilot feedback to Microsoft
+    href: provide-feedback.md
   - name: Advanced features/capabilities
     items:
     - name: Connect to Anthropic's AI models
