@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 10/28/2025
+ms.date: 11/03/2025
 audience: Admin
 ms.reviewer: dansimp
 ms.topic: overview
@@ -23,6 +23,8 @@ appliesto:
 # Get started with Researcher agent in Microsoft 365 Copilot
 
 Researcher agent is an intelligent assistant within Microsoft 365 Copilot, designed to handle complex, multi-step research tasks. It delivers comprehensive, source-cited reports to help you make informed decisions faster. Researcher draws insights from both the web and your work content - including files, emails, meetings, and chats you have access to.
+
+> [!VIDEO 61c23970-6a94-499f-ae2e-ab459c20f8c9]
 
 ## How Researcher agent differs from the standard Copilot experience?
 
