@@ -22,7 +22,7 @@ As an admin, it's essential to ensure that your organization is using the correc
 
 ## Minimum version requirements
 
-The recommended minimum version for Baseline Security Mode functionality in Microsoft 365 for Windows is version 2508. Earlier versions do not support sending telemetry signals from Office clients to the Microsoft 365 admin center to display simulation mode data.
+The recommended minimum version for Baseline Security Mode functionality in Microsoft 365 for Windows is version 2510. Earlier versions do not support sending telemetry signals from Office clients to the Microsoft 365 admin center to display simulation mode data.
 
 ### Baseline Security Mode settings and minimum required versions
 
@@ -33,10 +33,10 @@ The recommended minimum version for Baseline Security Mode functionality in Micr
 |Block ActiveX controls in the Microsoft 365 apps | Available in all currently supported versions of Microsoft 365 for Windows |
 | Block OLE Graph and OrgChart objects  | 2503  |
 | Block Dynamic Data Exchange (DDE) server launches in Excel | Available in all currently supported versions of Microsoft 365 for Windows |
-| Block Microsoft Publisher | 2504 |
+| Block Microsoft Publisher | 2510 |
 | Block Basic authentication prompts | Available in all currently supported versions of Microsoft 365 for Windows |
-| Block insecure protocols for file opens | 2507 |
-| Block FPRPC protocol for file opens | 2507 |
+| Block insecure protocols for file opens | 2510 |
+| Block FPRPC protocol for file opens | 2510 |
 
 ###### Footnote 1
 

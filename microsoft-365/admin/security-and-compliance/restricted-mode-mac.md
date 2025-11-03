@@ -57,7 +57,7 @@ This section outlines the options available within Microsoft 365 Apps to apply B
 You must be a member of the [Office Apps administrator role](/entra/identity/role-based-access-control/permissions-reference) to perform these tasks.
 
 > [!NOTE]
-> The version number for Microsoft 365 apps client support for Baseline Security Mode settings is 2508. For more information, see [Minimum Version Requirements for Baseline Security Mode](minimum-version-numbers-office.md).
+> The version number for Microsoft 365 apps client support for Baseline Security Mode settings is 2510. For more information, see [Minimum Version Requirements for Baseline Security Mode](minimum-version-numbers-office.md).
 
 |Setting|More information|
 |---|---|
