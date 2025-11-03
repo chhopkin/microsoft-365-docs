@@ -1,10 +1,13 @@
 ---
 title: "Export prompts that users saved, liked, or shared in Copilot Prompt Gallery"
-description: "Provides admins the steps to take to export prompts that users saved, liked, or shared in Copilot Prompt Gallery"
+description: "Provides admins the steps to export prompts that users saved, liked, or shared in Copilot Prompt Gallery."
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.topic: concept-article
+ms.reviewer: viveksh
+ms.date: 10/31/2025
+audience: Admin
+ms.topic: how-to
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.collection: 
@@ -13,7 +16,6 @@ ms.collection:
 - magic-ai-copilot
 - must-keep
 hideEdit: true
-ms.date: 04/16/2025
 ms.update-cycle: 180-days
 ---
 
@@ -82,7 +84,7 @@ Before you can export prompts that users saved, liked, or shared in Copilot Prom
 
 ## Export the saved, liked, and shared prompts of a specific user
 
-1. From Windows PowerShell, use the `Export- PromptsUserContent` cmdlet to export the saved, liked, or shared prompts of a specific user from Copilot Prompt Gallery.
+1. From Windows PowerShell, use the `Export-PromptsUserContent` cmdlet to export the saved, liked, or shared prompts of a specific user from Copilot Prompt Gallery.
 
    ```powershell
    Export-PromptsUserContent -UserAadIdOrPrincipalName <Entra ID or UPN of user> -ExportDirectory <output location> -PromptType <type of prompt>
@@ -97,7 +99,7 @@ Before you can export prompts that users saved, liked, or shared in Copilot Prom
 For example, the following exports Reed Smiths's saved prompts in Copilot Prompt Gallery using their UPN and downloads the export files to the location C:\PromptsExportReedSmith.
 
 ```powershell
-Export- PromptsUserContent -UserAadIdOrPrincipalName reedsmith@contoso.com -ExportDirectory C:\PromptsExportReedSmith -PromptType saved
+Export-PromptsUserContent -UserAadIdOrPrincipalName reedsmith@contoso.com -ExportDirectory C:\PromptsExportReedSmith -PromptType saved
 ```
 
 2. When prompted to authenticate, sign in with an account assigned to the Global Admin role, not as the user you want to export.
@@ -119,7 +121,7 @@ Export-PromptsGroupContent -M365TeamsGroupId <team ID> -ExportDirectory <output 
 For example, the following exports the prompts shared in Copilot Prompt Gallery to the team with an ID of "d0efcad2-6744-0de6-0624-ea467d4293af" and downloads the export files to the location C:\PromptsExportReedSmith.
 
 ```powershell
-Export- PromptsGroupContent -M365TeamsGroupId d0efcad2-6744-0de6-0624-ea467d4293af -ExportDirectory C:\PromptsExportReedSmith
+Export-PromptsGroupContent -M365TeamsGroupId d0efcad2-6744-0de6-0624-ea467d4293af -ExportDirectory C:\PromptsExportReedSmith
 ```
 
 > [!TIP]
@@ -142,8 +144,8 @@ The file name is prefixed with "User" and the Microsoft Entra ID of the user fol
 | Prompt.Title                                        | Title of the prompt given by user while saving or sharing the prompt.        |
 | Prompt.PromptText                                   | Prompt text                                                                  |
 | Prompt.Products                                     | A list containing the product in which user saved or shared the prompt.      |
-| Prompt.IsFavorite                                   | Boolean (true or false) indicating that a user has saved or liked the prompt.|
-| Prompt.UserActivity.Favorite.IsFavorite             | Boolean (true or false) indicating that a user has saved or liked the prompt.|
+| Prompt.IsFavorite                                   | Boolean (true or false) indicating that a user saved or liked the prompt.|
+| Prompt.UserActivity.Favorite.IsFavorite             | Boolean (true or false) indicating that a user saved or liked the prompt.|
 | Prompt.UserActivity.Favorite.ActivityDateTimeInUtc  | Time when user saved or liked the prompt.                                    |
 | Prompt.CreatedTime                                  | Time when the user saved the prompt.                                         |
 | Prompt.SharedTime                                   | Time when the user shared the prompt                                         |
