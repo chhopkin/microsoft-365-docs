@@ -29,6 +29,8 @@ items:
       href: publish.md
     - name: Design best practices for the Employee Self-Service agent
       href: design-best-practices.md
+    - name: Sharepoint filtering
+      href: ess-sharepoint-filtering.md
 - name: Integrate third-party systems with the Employee Self-Service agent
   items:
     - name: SAP SuccessFactors
