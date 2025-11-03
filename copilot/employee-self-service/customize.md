@@ -214,7 +214,7 @@ In the Maker experience in Copilot Studio, the **Official Source** badge doesn't
 
 **Maker JTBD:**
 
-The Employee Self-Service agent template is "Consulting with a professional is the best way to get assistance with this request. Please contact a representative for further support." Action: ends conversation.
+The Employee Self-Service agent starter is "Consulting with a professional is the best way to get assistance with this request. Please contact a representative for further support." Action: ends conversation.
 
 The triggers are:
 
@@ -269,13 +269,13 @@ Enable the Topic if your organization wants to use it. Update the trigger phrase
 **Maker JTBD:** Configure each error. You can also add a call to action.
 
 - **OpenAIratelimit reached** triggered when the LLM is at capacity.
-- **Employee Self-Service agent template** We're working on increasing the capacity for usage. Please wait for a couple of minutes before retrying the Employee Self-Service agent. We regret the inconvenience.
+- **Employee Self-Service agent starter** We're working on increasing the capacity for usage. Please wait for a couple of minutes before retrying the Employee Self-Service agent. We regret the inconvenience.
 - **ContentFiltered** triggered the same as RAI questions. You can set what you want instead of the generic RAI.
   - **Generic message:** I'm really sorry that you're feeling this way, but I'm not able to help. It's important to talk to a mental health professional or someone you trust about what you're going through.
-  - **Employee Self-Service agent template:** Sorry, I can't chat about this. Start a fresh one by selecting **New chat**.
-  - **Employee Self-Service agent template:** Consulting with a professional is the best way to get assistance with this request. Please contact a representative for further support.
+  - **Employee Self-Service agent starter:** Sorry, I can't chat about this. Start a fresh one by selecting **New chat**.
+  - **Employee Self-Service agent starter:** Consulting with a professional is the best way to get assistance with this request. Please contact a representative for further support.
 - **Topicvarshowdebuginfo:** Gives the conversation ID and time to help an engineer debug.
-  - **Employee Self-Service agent template:** Users see the conversation ID and time.
+  - **Employee Self-Service agent starter:** Users see the conversation ID and time.
 
 **Maker- What to customize:** </br>
 **Requirement to use:** None </br>

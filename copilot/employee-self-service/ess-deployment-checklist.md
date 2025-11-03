@@ -23,17 +23,17 @@ This article has a checklist to help you set up and deploy the Employee Self-Ser
 
 ## Overview of deployment steps
 
-|Step |Focus                                        |Time          |Goal                            |
-|-----|---------------------------------------------|--------------|--------------------------------|
-|1    |Power Platform environment                   |15-30 minutes |Create the workspace.           |
-|2    |Install Employee Self-Service agent template |10 minutes    |Prepare the base agent.         |
-|3    |Brand your agent                             |15 minutes    |Employee trust.                 |
-|4    |Add knowledge source                         |30 minutes    |Instant value.                  |
-|5    |Customize topics                             |30 minutes    |Provide relevant answers.       |
-|6    |Refine instructions                          |15 minutes    |Have a consistent tone.         |
-|7    |Add agent                                    |20 minutes    |Expand reach.                   |
-|8    |Test and publish                             |20 minutes    |Go live.                        |
-|9    |Grow over time                               |Ongoing       |Continually refine and improve. |
+|Step |Focus                                       |Time          |Goal                            |
+|-----|--------------------------------------------|--------------|--------------------------------|
+|1    |Power Platform environment                  |15-30 minutes |Create the workspace.           |
+|2    |Install Employee Self-Service agent starter |10 minutes    |Prepare the base agent.         |
+|3    |Brand your agent                            |15 minutes    |Employee trust.                 |
+|4    |Add knowledge source                        |30 minutes    |Instant value.                  |
+|5    |Customize topics                            |30 minutes    |Provide relevant answers.       |
+|6    |Refine instructions                         |15 minutes    |Have a consistent tone.         |
+|7    |Add agent                                   |20 minutes    |Expand reach.                   |
+|8    |Test and publish                            |20 minutes    |Go live.                        |
+|9    |Grow over time                              |Ongoing       |Continually refine and improve. |
 
 ## Step 1: Set up your Power Platform environment
 
@@ -57,7 +57,7 @@ This article has a checklist to help you set up and deploy the Employee Self-Ser
 |[Design your Copilot Studio production environment strategy](/microsoft-copilot-studio/guidance/project-design-production-environment-strategy) |Information on shared versus dedicated environments and design considerations. |
 |[Governance and Security best practices](/microsoft-copilot-studio/guidance/sec-gov-phase2) |Environment isolation, ALM, DLP policies, and so on. |
 
-## Step 2: Install the Employee Self-Service agent template 
+## Step 2: Install the Employee Self-Service agent starter
 
 **What you're doing**: Customers should begin by deploying either the Employee Self-Service HR agent or the Employee Self-Servicde IT agent with the out-of-the-box Employee Self-Service template that comes preconfigured with HR or IT scenarios, respectively. With the upcoming multi-agent preview, customers have the flexibility to configure both Employee Self-Service HR and IT agents within the same environment. If customers start with a single vertical agent (HR or IT), they can migrate their existing configuration to the multi-agent architecture later.
 
@@ -65,7 +65,7 @@ This article has a checklist to help you set up and deploy the Employee Self-Ser
 
 ### Installation checklist
 
-- In Copilot Studio, select **Create** > **Managed Agent Template**, and pick which version of the Employee Self-Service Agent you want to start with: **HR** or **IT**.
+- In Copilot Studio, select **Create** > **Managed Agents**, and pick which version of the Employee Self-Service Agent you want to start with: **HR** or **IT**.
 - Name your agent (for example, "Ask HR" or "IT Help Desk").
 - Confirm successful installation in your environment. In Copilot Studio, select **Agents** to confirm the newly created agent is listed.
 
