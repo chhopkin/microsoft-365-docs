@@ -41,9 +41,9 @@ items:
       items:
         - name: Integrating Workday
           href: workday.md
+        - name: Workday reports
+          href: workday-reports.md
           items:
-            - name: Workday reports
-              href: workday-reports.md
             - name: Workday user context reports
               href: workday-reports-user-context.md
             - name: Workday sort reports
