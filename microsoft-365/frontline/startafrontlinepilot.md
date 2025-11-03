@@ -6,8 +6,8 @@
 title:       Start a pilot for your frontline workers
 description: Start simple and explore the value Microsoft Teams can offer your frontline workers by quickly launching a pilot from the Teams admin center.
 author:      arnavgupta49
+manager:     tulsik
 ms.author:   arnavgupta
-ms.manager:  tulsik
 ms.service:  microsoft-365-frontline
 ms.topic:    install-set-up-deploy
 ms.date:     10/26/2025
