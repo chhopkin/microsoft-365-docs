@@ -1,5 +1,5 @@
 ---
-title: A quickstart guide for deploying the Employee Self-Service agent
+title: A checklist for deploying the Employee Self-Service agent
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
