@@ -59,20 +59,20 @@ This article has a checklist to help you set up and deploy the Employee Self-Ser
 
 ## Step 2: Install the Employee Self-Service agent template 
 
-**What you're doing**: Deploying either the Employee Self-Service HR or IT agent with the template that comes preconfigured with HR or IT scenarios, respectively. With multi-agent preview, customers have the flexibility to configure both Employee Self-Service agent HR and IT agents in the same environment. Customers can also start with a single vertical agent (HR or IT) and migrate their existing configuration to a multi-agent architecture later.
+**What you're doing**: Customers should begin by deploying either the Employee Self-Service HR agent or the Employee Self-Servicde IT agent with the out-of-the-box Employee Self-Service template that comes preconfigured with HR or IT scenarios, respectively. With the upcoming multi-agent preview, customers have the flexibility to configure both Employee Self-Service HR and IT agents within the same environment. If customers start with a single vertical agent (HR or IT), they can migrate their existing configuration to the multi-agent architecture later.
 
-**Why this step matters**: Installation gives you a working foundation which ensures your setup follows best practices for employee service delivery.
+**Why this step matters**: Installation gives you a working foundation that ensures your setup follows best practices for employee service delivery.
 
 ### Installation checklist
 
-- In Copilot Studio, go to **Template**, select **Create**, and pick which version of the Employee Self-Service Agent you want to start with: HR or IT.
+- In Copilot Studio, select **Create** > **Managed Agent Template**, and pick which version of the Employee Self-Service Agent you want to start with: **HR** or **IT**.
 - Name your agent (for example, "Ask HR" or "IT Help Desk").
 - Confirm successful installation in your environment. In Copilot Studio, select **Agents** to confirm the newly created agent is listed.
 
 ### Installation documentation
 
-|Article                             |Purpose                        |
-|------------------------------------|-------------------------------|
+|Article                                           |Purpose                        |
+|--------------------------------------------------|-------------------------------|
 |[Install Employee Self-Service Agent](install.md) |Covers the installation steps. |
 
 ## Step 3: Brand and personalize your agent
