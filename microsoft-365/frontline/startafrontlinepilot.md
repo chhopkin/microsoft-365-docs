@@ -68,7 +68,7 @@ For example, a pilot can help you determine:
 6. Select __Deploy__ to launch the pilot. Deployment can take up to 30 minutes. Pinned apps can take up to 24 hours to reflect on the Teams client for your pilot members and owners.
 
 > [!IMPORTANT]
-> Owners added to the pilot after pilot creation will not receive the pinned apps.
+> Owners added to the pilot after pilot creation will not see the pinned apps based on the pilot configuration.
 
 ![Screenshot of step to add name and owners of the pilot.](media/startafrontlinepilot/pilot-add-pilot-details.png)
 
