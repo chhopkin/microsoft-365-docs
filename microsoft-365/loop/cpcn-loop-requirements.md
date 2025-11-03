@@ -61,18 +61,13 @@ To utilize all features, including at mentions and Loop workspace sharing, it's 
 
 ### Admin
 
-- [Copilot Pages and Notebooks, Summary of Compliance, Lifecycle, Governance](cpcn-compliance-summary.md)
-- [Copilot Pages and Notebooks Storage](cpcn-storage.md)
-- [Permissions](cpcn-loop-permission.md)
+- [Loop access via Microsoft 365 subscriptions](https://support.microsoft.com/office/loop-access-via-microsoft-365-subscriptions-92915461-4b14-49a4-9cd4-d1c259292afa)
 - [Copilot Pages and Notebooks Admin toggles](cpcn-admin-configuration.md)
+- [Loop Admin toggles](loop-admin-configuration.md)
+- [UX examples for admin toggle states](loop-ux-examples.md)
 - [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md)
 - [Purview and SharePoint Embedded containers](cpcn-loop-purview-management.md)
-- [Loop Summary of Compliance, Lifecycle, Governance](cpcn-compliance-summary.md)
-- [Loop Storage](cpcn-storage.md)
-- [Loop Admin toggles](loop-admin-configuration.md)
 - [Data Integrations Admin Settings](loop-data-integrations-configuration.md)
-- [UX examples for admin toggle states](loop-ux-examples.md)
-- [Loop access via Microsoft 365 subscriptions](https://support.microsoft.com/office/loop-access-via-microsoft-365-subscriptions-92915461-4b14-49a4-9cd4-d1c259292afa)
 
 ### End-User Experience
 

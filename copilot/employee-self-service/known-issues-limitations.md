@@ -3,14 +3,13 @@ title: Known issues and limitations for the Employee Self-Service agent
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: dansimp
+manager: scotv
 ms.reviewer: semani
-ms.date: 7/21/2025
+ms.date: 09/29/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
-robots: NOINDEX, NOFOLLOW
 ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn about the known issues and limitations affecting the ESS (Employee Self-Service) agent and the workarounds you can employ.
@@ -21,7 +20,7 @@ appliesto:
 # Known issues and limitations for the Employee Self-Service agent
 
 >[!NOTE]
->The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
+>The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
 As you consider previewing the Employee Self-Service (ESS) Agent, we want to provide a clear view of known limitations—along with workarounds and roadmap visibility—to help you plan effectively and set the right expectations with your stakeholders.
 

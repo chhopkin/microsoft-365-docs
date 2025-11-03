@@ -2,10 +2,10 @@
 title: Microsoft 365 Copilot app settings for IT admins
 description: Learn how to configure Microsoft 365 Copilot app settings, including enabling search, managing agents, and customizing navigation for your organization.
 #customer intent: As an Microsoft 365 Copilot administrator, I want to configure settings for the Copilot app.
-author: aczechowski
-ms.author: aaroncz
+author: kwekuako
+ms.author: kwekua
 ms.reviewer: libbymc
-manager: dansimp
+manager: scotv
 ms.date: 09/16/2025
 ms.update-cycle: 180-days
 ms.topic: overview

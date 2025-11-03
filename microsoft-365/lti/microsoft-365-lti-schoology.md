@@ -16,14 +16,14 @@ ms.collection:
 - all-education
 ms.localizationpriority: medium
 ---
-# Deploy the Microsoft 365 LTI® app in PowerSchool Schoology Learning
+# Deploy the Microsoft 365 LTI&reg; app in PowerSchool Schoology Learning
 
-This guide provides steps for deploying the Microsoft 365 Learning Tool Interoperability® (LTI®) app in Schoology.
+This guide provides steps for deploying the Microsoft 365 Learning Tool Interoperability&reg; (LTI&reg;) app in Schoology.
 
 :::image type="content" source="./media/schoology.png" alt-text="Screenshot of Schoology." border="true":::
 
 > [!IMPORTANT]
-> The person who deploys this integration should be an Administrator role in the learning management system (LMS). A person in your organization who is a Microsoft 365 Global Administrator is also needed to help complete the configuration of the app before first time use.
+> The person who deploys this integration should be an Administrator role in the learning management system (LMS). A person in your organization who is a Microsoft 365 Global Administrator is also needed to help complete the configuration of the app before first time use. [Learn more about administrator roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 By installing and using the Microsoft Education LTI app, educators and students can transmit grades to the LMS where the terms of use and privacy policy of that application apply.
 
@@ -68,7 +68,7 @@ You must launch the app for the first time as a user with the **System Admin** r
 On first access, users must sign in using their Microsoft 365 (Microsoft Entra) account.
 
 Learn more about Microsoft 365 LTI application scenarios for Instructors and Students
-<!-- -->
+
 ## Browser settings
 
 - Cookies should be allowed for Microsoft apps.
@@ -85,4 +85,4 @@ If you receive an error message regarding cookies being blocked, check your brow
 
 :::image type="content" source="./media/help-and-feedback.png" alt-text="Screenshot of link to send feedback for Microsoft 365 LTI." border="true":::
 
-Learning Tools Interoperability® (LTI®) is a trademark of the 1EdTech Consortium, Inc. (**[**1edtech.org**](https://1edtech.org)**).
+Learning Tools Interoperability&reg; (LTI&reg;) is a trademark of the 1EdTech Consortium, Inc. (**[**1edtech.org**](https://1edtech.org)**).

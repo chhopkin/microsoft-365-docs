@@ -47,8 +47,10 @@ landingContent:
         links:
           - text: Introducing the new Microsoft billing experience
             url: billing-experience-overview.md
-          - text: Payment options for your subscription
+          - text: Pay your invoice with a credit card or billing profile
             url: billing-and-payments/pay-for-your-subscription.md
+          - text: Pay your invoice with a wire transfer
+            url: billing-and-payments/pay-by-wire-transfer.md
       - linkListType: video
         links:
           - text: Understand your bill or invoice

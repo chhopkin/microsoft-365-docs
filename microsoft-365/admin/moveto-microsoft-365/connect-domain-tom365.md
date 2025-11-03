@@ -2,8 +2,8 @@
 title: "Connect your domain to Microsoft 365"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: heidip
+author: MicrosoftHeidi
 manager: dansimp
 ms.date: 01/07/2021
 audience: Admin

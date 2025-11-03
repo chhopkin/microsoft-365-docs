@@ -2,8 +2,8 @@
 title: "Connect your domain to Microsoft 365"
 f1.keywords:
 - CSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 08/01/2024
 audience: Admin

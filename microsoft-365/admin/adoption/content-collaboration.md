@@ -3,8 +3,8 @@ title: "Microsoft Adoption Score - Content collaboration"
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 02/13/2024
 audience: Admin
 ms.topic: how-to

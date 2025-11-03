@@ -3,14 +3,13 @@ title: Install the Employee Self-Service agent
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: dansimp
+manager: scotv
 ms.reviewer: semani
-ms.date: 7/3/2025
+ms.date: 09/29/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
-robots: NOINDEX, NOFOLLOW
 ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn about the installation stage in the deployment process for the Employee Self-Service agent.
@@ -21,7 +20,7 @@ appliesto:
 # Install the Employee Self-Service agent
 
 > [!NOTE]
-> The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
+> The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
 After completing the required steps in the [preparation](prepare.md) stage, you can install the Employee Self-Service (ESS) agent in a specific Power Platform environment.
 

@@ -3,14 +3,13 @@ title: Responsible AI FAQ for the Employee Self-Service agent
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: dansimp
+manager: scotv
 ms.reviewer: semani
-ms.date: 7/3/2025
+ms.date: 09/29/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
-robots: NOINDEX, NOFOLLOW
 ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn how the Employee Self-Service agent uses AI.
@@ -21,7 +20,7 @@ appliesto:
 # Responsible AI FAQ for the Employee Self-Service agent
 
 > [!NOTE]
-> The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
+> The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
 ## What is Employee Self-Service?
 
@@ -70,6 +69,12 @@ Employee Self-Service (ESS) is evaluated with manual red teaming with prompts cu
 ## What are the limitations of Employee Self-Service? How can users minimize the impact of Employee Self-Service’s limitations when using the system?
 
 ESS relies on Microsoft Copilot Studio for processing of user queries. Microsoft Copilot Studio limitations inherently apply for Employee Self-Service as well. Refer to the Copilot Studio documentation for the protections in place for responsible AI.
+
+## How does the emotional intelligence topic work?
+
+Each ESS template includes the emotional intelligence (EQ) topic is included in each ESS template, which is called **Seek emotional intelligence**. This topic is designed to enhance conversations in ESS by making responses more empathetic, context-aware, and relevant for diverse audiences. This feature works by analyzing conversational context and tailoring replies to reflect emotional intelligence. The feature ensures users feel understood and valued in every interaction. The EQ topic is fully customizable and can be turned off entirely.
+
+This topic isn't a replacement for human care or decision-making. It enhances responses to be supportive in tone, while maintaining factual accuracy and appropriate boundaries. Empathetic phrasing is used to make guidance clearer and more human, not to simulate emotional relationships. This topic doesn't infer mental health conditions, store emotional states, or use this information to profile users.
 
 ## What operational factors and settings allow for effective and responsible use of Employee Self-Service?
 

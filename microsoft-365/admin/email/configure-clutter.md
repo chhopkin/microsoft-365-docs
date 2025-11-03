@@ -2,8 +2,8 @@
 title: "Configure Clutter for your organization"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 01/06/2025
 audience: Admin
