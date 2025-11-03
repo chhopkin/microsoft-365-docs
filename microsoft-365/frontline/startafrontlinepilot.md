@@ -7,6 +7,7 @@ title:       Start a pilot for your frontline workers
 description: Start simple and explore the value Microsoft Teams can offer your frontline workers by quickly launching a pilot from the Teams admin center.
 author:      arnavgupta49
 ms.author:   arnavgupta
+ms.manager:  tulsik
 ms.service:  microsoft-365-frontline
 ms.topic:    install-set-up-deploy
 ms.date:     10/26/2025
@@ -191,7 +192,7 @@ The report shows a bar graph of active users for Chat, Channels, and Walkie Talk
 
 To help boost adoption, learn more about [enabling your frontline workers with Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/frontline-workers/).
 
-When you are ready to deploy this experience to the rest of your frontline workers, [deploy frontline teams with flexible membership](/microsoft-365/frontline/deploy-flexible-membership-teams-at-scale?view=o365-worldwide).
+When you are ready to deploy this experience to the rest of your frontline workers, [deploy frontline teams with flexible membership](/microsoft-365/frontline/deploy-flexible-membership-teams-at-scale).
 
 ## Frequently Asked Questions
 
