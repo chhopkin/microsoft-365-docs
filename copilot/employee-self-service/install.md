@@ -22,7 +22,7 @@ appliesto:
 > [!NOTE]
 > The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
 
-After completing the required steps in the [preparation](prepare.md) stage, you can install either or both the following Employee Self-Service agent templates in a specific Power Platform environment:
+After completing the required steps in the [preparation](prepare.md) stage, you can install either or both the following Employee Self-Service agent starters in a specific Power Platform environment:
 
 - Employee Self-Service HR agent
 - Employee Self-Service IT agent

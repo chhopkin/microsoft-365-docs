@@ -66,7 +66,7 @@ The Employee Self-Service agent is designed for extensibility at every layer:
 
 ## How the Employee Self-Service agent works
 
-XXX WHY SO MARKETING? AND WHY IS THIS HERE? WHY NOT THE INTRO OR OVERVIEW TOPICS?
+XXX WHY SO MARKETING? AND WHY IS THIS HERE? WHY NOT THE INTRO OR OVERVIEW TOPICS? STILL NEEDS ADDRESSING 3 NOV.
 
 ## Ways to customize and extend the Employee Self-Service agent XXX THIS IS AWFUL. APART FROM STEP 1 THAT LINKS OUT TO COGENT INFO, THIS ISN'T TECHNICALLY HELPFUL AT ALL.
 
