@@ -17,16 +17,16 @@ items:
       items:
         - name: Customize the Employee Self-Service agent
           href: customize.md
+        - name: Design best practices for the Employee Self-Service agent
+          href: design-best-practices.md
+        - name: Sharepoint filtering
+          href: ess-sharepoint-filtering.md
         - name: Emotional intelligence and ambiguity
           href: ess-eq-and-ambiguity.md
         - name: Optimizing SharePoint knowledge sources
           href: ess-optimization-sharepoint.md
     - name: Publish the Employee Self-Service agent
       href: publish.md
-    - name: Design best practices for the Employee Self-Service agent
-      href: design-best-practices.md
-    - name: Sharepoint filtering
-      href: ess-sharepoint-filtering.md
 - name: Integrate third-party systems with the Employee Self-Service agent
   items:
     - name: SAP SuccessFactors
