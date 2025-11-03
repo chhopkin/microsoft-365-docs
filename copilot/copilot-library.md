@@ -72,7 +72,7 @@ Copilot Library is available in the Microsoft 365 Copilot app on web, Windows de
 
 No, Copilot Library doesn’t require any additional storage; Copilot Library is simply a view to find pages and images you created.
 
-### Where can I learn more about privacy with Copilot?
+### Where can I learn more about my data in Copilot Library and privacy with Copilot?
 
 Copilot and Microsoft 365 are built on Microsoft's comprehensive approach to security, compliance, and privacy.
 
