@@ -15,8 +15,14 @@ items:
       href: prepare.md
     - name: Install the Employee Self-Service agent
       href: install.md
-    - name: Customize the Employee Self-Service agent
-      href: customize.md
+    - name: Customization
+      items:
+        - name: Customize the Employee Self-Service agent
+          href: customize.md
+        - name: Emotional intelligence and ambiguity
+          href: ess-eq-and-ambiguity.md
+        - name: SharePoint knowledge sources
+          href: ess-best-practices-sharepoint.md
     - name: Publish the Employee Self-Service agent
       href: publish.md
     - name: Design best practices for the Employee Self-Service agent
