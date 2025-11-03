@@ -411,7 +411,6 @@ items:
           - name: Data Security Posture Management (DSPM) for AI
             href: /purview/dspm-for-ai?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json     
     - name: Manage Copilot agent usage billing
-      href: agent-framework/agent-usage-billing/agent-usage-overview.md
       items:
       - name: Understand Copilot licensing
         items:
@@ -435,12 +434,12 @@ items:
           href: /microsoft-copilot-studio/requirements-messages-management?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json#set-up-pay-as-you-go-consumptive-meter
         - name: View Copilot Credit consumption
           href: /microsoft-copilot-studio/requirements-messages-management?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json#view-copilot-credit-consumption
+        - name: Copilot Studio agent consumption estimator
+          href: https://microsoft.github.io/copilot-studio-estimator?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
         - name: Understand Copilot Credit event scenarios
           href: /microsoft-copilot-studio/requirements-messages-management?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json#copilot-credits-and-events-scenarios
-      - name: Copilot Studio agent consumption estimator
-        href: https://microsoft.github.io/copilot-studio-estimator?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
       - name: Microsoft 365 Copilot agent usage reports
-        href: /microsoft-365/admin/activity-reports/microsoft-365-copilot-agents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json      
+        href: agent-framework/agent-usage-billing/agent-usage-cs-reports.md  
 
   - name: Microsoft 365 Copilot Tuning (preview)
     items:
