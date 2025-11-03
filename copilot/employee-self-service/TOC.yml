@@ -37,7 +37,7 @@ items:
       href: servicenow-hrsd-itsm.md
     - name: ServiceNow Live agent
       href: servicenow-live-agent.md
-    - name: Workday
+    - name: Integrating Workday
       href: workday.md
       items:
         - name: Workday reports
