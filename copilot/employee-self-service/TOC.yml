@@ -38,22 +38,22 @@ items:
         - name: Workday reports
           href: workday-reports.md
           items:
-            - name: Workday user context reports
-              href: workday-reports-user-context.md
-            - name: Workday sort reports
-              href: workday-reports-context-sort.md
-            - name: Workday filter reports
-              href: workday-reports-context-filter.md
-            - name: Workday supfilter reports
-              href: workday-reports-context-subfilter.md
-            - name: Workday prompts reports
-              href: workday-reports-context-prompts.md
-            - name: Workday output reports
-              href: workday-reports-context-output.md
-            - name: Workday share reports
-              href: workday-reports-context-share.md
-            - name: Workday advanced reports
-              href: workday-reports-context-advanced.md
+            - name: Workday user context
+              href: workday-user-context-support-configuration.md
+            - name: Workday user context sort
+              href: workday-sort-support-configuration.md
+            - name: Workday user context filter
+              href: workday-filter-support-configuration.md
+            - name: Workday user context supfilter
+              href: workday-subfilter-support-configuration.md
+            - name: Workday user context prompts
+              href: workday-prompts-support-configuration.md
+            - name: Workday user context output
+              href: workday-output-support-configuration.md
+            - name: Workday user context share
+              href: workday-share-support-configuration.md
+            - name: Workday user context advanced
+              href: workday-advanced-support-configuration.md
     - name: ServiceNow
       href: servicenow.md
       items:
