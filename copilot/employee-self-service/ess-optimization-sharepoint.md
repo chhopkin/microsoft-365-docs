@@ -1,5 +1,5 @@
 ---
-title: Optimization for SharePoint knowledge sources in Employee Self-Service
+title: Optimizating SharePoint content for Employee Self-Service agents
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
@@ -17,7 +17,7 @@ appliesto:
   - ✅ Microsoft 365 Copilot
 ---
 
-# Best practices for SharePoint knowledge sources in Employee Self-Service agent
+# Optimizing SharePoint content for Employee Self-Service agents
 
 Copilot Studio grounds responses in your organization's authoritative knowledge sources and data using [configured knowledge sources](/microsoft-copilot-studio/knowledge-copilot-studio), returning only what each user's authorized to see. Simple information architecture, clear document structure, detailed metadata, and well-governed access translates into higher quality, citation-backed answers.
 
