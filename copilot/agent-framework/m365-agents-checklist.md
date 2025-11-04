@@ -22,10 +22,10 @@ This checklist is intended to assist admins with the successful deployment of Co
 
 Required administrators for the engagement:
 
-1. Microsoft 365 admin access [Setup Copilot Agent and Connectors settings] 
-2. Power Platform admin [Setup Copilot Studio policies and settings]
-3. M365 Search admin [M365 Graph Connector Configurations] 
-4. Azure admin [Azure Subscription Configurations] 
+1. Microsoft 365 admin access: [Setup Copilot Agent and Connectors settings]()
+2. Power Platform admin: [Setup Copilot Studio policies and settings]()
+3. M365 Search admin: [M365 Graph Connector Configurations]() 
+4. Azure admin: [Azure Subscription Configurations]() 
 
 Deployment phases:
 
