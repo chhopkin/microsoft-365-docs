@@ -24,7 +24,7 @@ The Employee Self-Service agent for Workday requires a few user context attribut
 
 For SOAP API set, the following custom report should be created and exposed as a web service (Reports as a Service) to retrieve these attributes:
 
-1. **Create calculated fields**
+## Create calculated fields
 
 The following calculated fields should be created at the report level (see definition in the next section) and not as global calculated fields to avoid any accidental notifications by admins:
 
@@ -33,7 +33,7 @@ The following calculated fields should be created at the report level (see defin
 - Worker Type
 - CF LRV Sup Org Ref ID
 
-**Abbreviations in the table**
+## Abbreviations in the table
 
 CLRV= Calculation Lookup related value
 

@@ -1,5 +1,5 @@
 ---
-title: User context custom report - SHARE for Workday integration
+title: User context advanced support configuration for Workday integration with Employee Self-Service agent
 f1.keywords:
 - NOCSH
 ms.author: heidip
@@ -12,12 +12,14 @@ ms.topic: how-to
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.custom: ess-agent
-description: "Learn about the user context custom report - SHARE for your Workday integration with the Employee Self-Service agent."
+description: "Learn about the user context share support configuration for your Workday integration with the Employee Self-Service agent."
 ---
 
-# Workday User Context Custom Report - SHARE
+# User context share support configuration for Workday integration with Employee Self-Service agent
 
-**View Custom Report: WD User Context**
+This support configuration is used for retrieving the required user context **share** attributes from Workday. Refer to this table to create a custom report following this table for different configuration sections in the Workday custom report.
+
+## View Custom Report: WD User Context
 
 |Report Name                                       |WD User Context      |
 |--------------------------------------------------|---------------------|

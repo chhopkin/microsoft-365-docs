@@ -1,5 +1,5 @@
 ---
-title: User context custom report - ADVANCED for Workday integration
+title: User context advanced support configuration for Workday integration with Employee Self-Service agent
 f1.keywords:
 - NOCSH
 ms.author: heidip
@@ -12,10 +12,12 @@ ms.topic: how-to
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.custom: ess-agent
-description: "Learn about the user context custom report - ADVANCED for your Workday integration with the Employee Self-Service (ESS) agent."
+description: "Learn about advanced support configuration for your Workday integration with the Employee Self-Service agent."
 ---
 
-# Workday User Context Custom Report - ADVANCED
+# User context advanced support configuration for Workday integration with Employee Self-Service agent
+
+This support configuration is used for retrieving the required user context **advanced** attributes from Workday. Refer to this table to create a custom report following this table for different configuration sections in the Workday custom report.
 
 |Report Name                             |WD User Context                        |
 |----------------------------------------|---------------------------------------|

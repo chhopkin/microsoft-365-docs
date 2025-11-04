@@ -1,5 +1,5 @@
 ---
-title: User context custom report - PROMPTS for Workday integration
+title: User context prompts support configuration for Workday integration with Employee Self-Service agent
 f1.keywords:
 - NOCSH
 ms.author: heidip
@@ -12,10 +12,12 @@ ms.topic: how-to
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.custom: ess-agent
-description: "Learn about the user context custom report - PROMPTS for your Workday integration with the Employee Self-Service agent."
+description: "Learn about the user context prompts support configuration for your Workday integration with the Employee Self-Service agent."
 ---
 
-# Workday User Context Custom Report - PROMPTS
+# User context prompts support configuration for Workday integration with Employee Self-Service agent
+
+This support configuration is used for retrieving the required user context **context prompts** attributes from Workday. Refer to these tables to create a custom report following these tables for different configuration sections in the Workday custom report.
 
 |Report Name                        |WD User Context              |
 |-----------------------------------|-----------------------------|
@@ -38,7 +40,7 @@ description: "Learn about the user context custom report - PROMPTS for your Work
 |Entry date                         |Use date and time at runtime |
 |Display prompt values in subtitle  |Yes                          |
 
-**Prompt Defaults**
+## Prompt Defaults
 
 |Field |Prompt qualifier |Label for prompt |label for prompt XML alias |Default type |Default value |Required |Don't prompt at runtime |Don't include in subtitle |
 |------|-----------------|-----------------|---------------------------|-------------|--------------|---------|---------------|-----------------------------------|

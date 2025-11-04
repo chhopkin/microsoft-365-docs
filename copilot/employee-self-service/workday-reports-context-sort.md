@@ -1,5 +1,5 @@
 ---
-title: User context custom report - SORT for Workday integration
+title: User context advanced support configuration for Workday integration with Employee Self-Service agent
 f1.keywords:
 - NOCSH
 ms.author: heidip
@@ -12,12 +12,14 @@ ms.topic: how-to
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.custom: ess-agent
-description: "Learn about the user context custom report - SORT report for your Workday integration with the Employee Self-Service agent."
+description: "Learn about the user context sort support configuration for your Workday integration with the Employee Self-Service agent."
 ---
 
-# Workday User Context Custom Report - SORT
+# User context sort support configuration for Workday integration with Employee Self-Service agent
 
-**View Custom Report: WD User Context**
+This support configuration is used for retrieving the required user context **sort** support attributes from Workday. Refer to these tables to create a custom report following these tables for different configuration sections in the Workday custom report.
+
+## View Custom Report: WD User Context
 
 |Report Name                                        |WD User Context       |
 |---------------------------------------------------|----------------------|
@@ -36,7 +38,7 @@ description: "Learn about the user context custom report - SORT report for your 
 |**Sort and Group**                                 |                      |
 |Sort by first accessible column (see next section) |                      |
 
-**Columns**
+## Columns
 
 |Field |Sort Direction |Display Headers |Summarize Detail Rows |Display Subtotals |Group Name Override |
 |------|---------------|----------------|----------------------|------------------|--------------------|

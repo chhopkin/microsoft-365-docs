@@ -1,5 +1,5 @@
 ---
-title: User context custom report - FILTER for Workday integration
+title: User context filter support configuration for Workday integration with Employree Self-Service agent
 f1.keywords:
 - NOCSH
 ms.author: heidip
@@ -12,12 +12,20 @@ ms.topic: how-to
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.custom: ess-agent
-description: "Learn about the user context custom report - FILTER for your Workday integration with the Employee Self-Service agent."
+description: "Learn about filter support configuration for your Workday integration with the Employee Self-Service agent."
 ---
 
-# Workday User Context Custom Report - FILTER
+# User context filter support configuration for Workday integration with Employee Self-Service agent
 
-**View Custom Report: WD User Context**
+This support configuration is used for retrieving the required user context **filter** attributes from Workday. Refer to these tables to create a custom report following these tables for different configuration sections in the Workday custom report.
+
+## Abbreviation in the filter condition table
+
+|Field name |Business object |CLRV Lookup field |CLRV Related business object |CLRV return value |Additional Category |Additional authorized usage |
+|CF – LRV Worker Type        |Workday Account |Worker                     |Worker  |Worker Type  |              |              |
+
+
+## View Custom Report: WD User Context
 
 |Report Name                  |WD User Context      |
 |-----------------------------|---------------------|
@@ -34,7 +42,7 @@ description: "Learn about the user context custom report - FILTER for your Workd
 |**Filter**                   |                     |
 |**Filter on instances**      |                     |
 
-**Filter conditions for filtering on instances**
+## Filter conditions for filtering on instances
 
 |And/Or |( |Fieled |Operator |Comparison Type |Comparison Value | ) |Indexed |
 |-------|--|-----|-----------|----------------|-----------------|---|---------|
