@@ -38,7 +38,7 @@ The following calculated fields should be created at the report level (see defin
 - [Workday User Context Custom Report](workday-user-context-support-config.md)
 - [Workday User Context Custom Report - SORT](workday-sort-support-config.md)
 - [Workday User Context Custom Report - FILTER](workday-filter-support-config.md)
-- [Workday User Context Custom Report - SUB-FILTER](workday-subfilter-support-config.md)
+- [Workday User Context Custom Report - SUB-FILTER](workday-sub-filter-support-config.md)
 - [Workday User Context Custom Report - PROMPTS](workday-prompts-support-config.md)
 - [Workday User Context Custom Report - OUTPUT](workday-output-support-config.md)
 - [Workday User Context Custom Report - SHARE](workday-share-support-config.md)

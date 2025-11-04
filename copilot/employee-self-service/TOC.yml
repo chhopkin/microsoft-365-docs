@@ -45,7 +45,7 @@ items:
             - name: Filter
               href: workday-filter-support-config.md
             - name: Sub-filter
-              href: workday-subfilter-support-config.md
+              href: workday-sub-filter-support-config.md
             - name: Prompts
               href: workday-prompts-support-config.md
             - name: Output
