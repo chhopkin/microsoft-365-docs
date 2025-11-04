@@ -19,7 +19,7 @@ appliesto:
 
 # SharePoint Advanced Filtering (CPS) How-To
 
-When employees ask questions like "What is my holiday policy?", the Employee Self-Service agent sometimes shows policies for multiple countries (for example, US, India, France) instead of just the one that applies to the employee. This happens because ESS retrieves all matching SharePoint documents but doesn't apply user-specific filters (like country/region or company code) during the search.
+When employees ask questions like "What is my holiday policy?", the Employee Self-Service agent sometimes shows policies for multiple countries/regions (for example, US, India, France) instead of just the one that applies to the employee. This happens because ESS retrieves all matching SharePoint documents but doesn't apply user-specific filters (like country/region or company code) during the search.
 
 We can personalize results by telling the Employee Self-Service agent to only return SharePoint documents that match the employee's profile, such as their location or company code.
 
