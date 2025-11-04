@@ -6,6 +6,7 @@
 title:       Start a pilot for your frontline workers
 description: Start simple and explore the value Microsoft Teams can offer your frontline workers by quickly launching a pilot from the Teams admin center.
 author:      arnavgupta49
+manager:     tulsik
 ms.author:   arnavgupta
 ms.service:  microsoft-365-frontline
 ms.topic:    install-set-up-deploy
@@ -15,6 +16,9 @@ ms.date:     10/26/2025
 # Start a pilot for your frontline workers 
 
 ## Overview 
+
+> [!Note]
+> This feature is coming to public preview. To get early access, [join the private preview](https://forms.office.com/r/Q0xhM3KUBG).
 
 Start simple and validate the value Microsoft Teams can offer your frontline workers by quickly launching a pilot from the Teams admin center. Pilots allow you to pin and configure Teams capabilities for a subset of users before rolling out to your broader frontline workforce. Capabilities include Chat, Channels, Shifts, Tasks (Planner), Walkie Talkie, Connections – Home and Engage Communities.
 
@@ -62,7 +66,10 @@ For example, a pilot can help you determine:
 
 5. Add user(s) who should be owner(s) of your pilot. We recommend you include frontline managers, department heads, or any other senior staff as owners. Learn more about what [permissions are granted to Owners](https://support.microsoft.com/office/team-owner-member-and-guest-capabilities-in-microsoft-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
 
-6. Select __Deploy__ to launch the pilot. deployment can take up to 30 minutes.
+6. Select __Deploy__ to launch the pilot. Deployment can take up to 30 minutes. Pinned apps can take up to 24 hours to reflect on the Teams client for your pilot members and owners.
+
+> [!IMPORTANT]
+> Owners added to the pilot after pilot creation will not see the pinned apps based on the pilot configuration.
 
 ![Screenshot of step to add name and owners of the pilot.](media/startafrontlinepilot/pilot-add-pilot-details.png)
 
@@ -185,7 +192,7 @@ The report shows a bar graph of active users for Chat, Channels, and Walkie Talk
 
 To help boost adoption, learn more about [enabling your frontline workers with Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/frontline-workers/).
 
-When you are ready to deploy this experience to the rest of your frontline workers, [deploy frontline teams with flexible membership](/microsoft-365/frontline/deploy-flexible-membership-teams-at-scale?view=o365-worldwide).
+When you are ready to deploy this experience to the rest of your frontline workers, [deploy frontline teams with flexible membership](/microsoft-365/frontline/deploy-flexible-membership-teams-at-scale).
 
 ## Frequently Asked Questions
 
@@ -199,7 +206,7 @@ __A:__ When you create a pilot, members and owners are added to a group that rec
 
 __Q: What happens if a user is in two pilots with two different app policies?__ 
 
-__A:__ We don’t recommend adding a user to multiple pilots. A user receives the app configuration from the pilot with the most recently updated settings.
+__A:__ We don’t recommend adding a user to multiple pilots. A user receives the app configuration from the most recently created pilot.
 
 __Q: What happens if the team owner adds a member or owner to the team from the Teams client?__
 
