@@ -27,7 +27,7 @@ items:
           href: ess-optimization-sharepoint.md
     - name: Publish Employee Self-Service agent
       href: publish.md
-- name: Integrate third-party systems
+- name: Integrate external systems
   items:
     - name: SAP SuccessFactors
       href: sapsuccessfactors.md
@@ -54,7 +54,7 @@ items:
               href: workday-share-support-config.md
             - name: Advanced
               href: workday-advanced-support-config.md
-    - name: ServiceNow
+    - name: Integrating ServiceNow
       href: servicenow.md
       items:
         - name: ServiceNow HRSD and ITSM
