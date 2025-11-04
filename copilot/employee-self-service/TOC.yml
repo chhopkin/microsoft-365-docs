@@ -22,7 +22,7 @@ items:
         - name: Sharepoint filtering
           href: sharepoint-filtering.md
         - name: Emotional intelligence and ambiguity
-          href: emotional-quotient-and-ambiguity.md
+          href: emotional-quotient-ambiguity.md
         - name: Optimize SharePoint knowledge sources
           href: optimization-sharepoint.md
     - name: Publish Employee Self-Service agent
