@@ -133,6 +133,24 @@ Examples:
 
 You can type instructions in plain text. At any point within the instructions, you can [type /](/microsoft-copilot-studio/authoring-instructions#add-or-change-agent-instructions) to add a reference to a specific object, such as a tool, topic, [variable](/microsoft-copilot-studio/authoring-variables-about?tabs=webApp), or Power Fx expression.
 
+#### Add user context variables to map intent to users' data
+
+To deliver personalized responses, the Employee Self-Service agent needs to understand both user intent and context. For example, the same question may require different answers for employees in Germany versus India because policies vary by region. To enable this, we've created a dedicated topic called User Context - Setup that defines variables representing key user attributes like level, country, and role. Once this topic is set up, you can reference these variables in your agent instructions to ensure responses are tailored to your organization's context.
+
+User context variables allow your Employee Self-Service agent to personalize responses by using attributes like name, job title, and country. These variables are created either as system variables (such as System.User.DisplayName) or global variables (such as Global.ESS_UserContext_Country_Code) that persist across topics.
+
+To add them to your instructions, open the **Variable Properties** pane and set the scope to Global. For integration with Microsoft Entra or other content systems, use environment variables to securely pass user attributes into your agent. When customizing instructions, reference these variables to tailor responses and ensure they align with your configured topics and data sources.
+
+##### How to edit variables
+
+1. In the topic's menu bar, select **Variables**. This opens the **Variables** pane, which lists all variables associated with that topic.
+2. From the **Variables** pane, select the variable you want to edit. This opens the **Variable Properties** pane.
+3. In the **Variable Properties** pane, you can:
+  - Change the variable's name.
+  - Track its usage.
+  - Convert it to a global variable (**Note**: once global, it can't be reverted to topic-level).
+  - Configure whether it can accept values from or share values with other topics.
+
 #### Name tools and knowledge sources explicitly
 
 Refer to your agent's tools, connectors, and knowledge bases by their exact names in the instructions. The agent uses tool names and descriptions to decide what to call, so guiding it by name removes ambiguity. For example, instead of saying "check if there's any outage" say "call the ServiceNow Outage Lookup action to check for outages."
