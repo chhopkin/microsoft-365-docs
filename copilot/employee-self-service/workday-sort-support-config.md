@@ -6,7 +6,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: scotv
 ms.reviewer: semani
-ms.date: 09/29/2025
+ms.date: 11/05/2025
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-copilot

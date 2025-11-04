@@ -3,9 +3,9 @@ title: Prepare to deploy the Employee Self-Service agent
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: scotv
+manager: dansimp
 ms.reviewer: semani
-ms.date: 09/29/2025
+ms.date: 11/05/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -33,7 +33,7 @@ Preparation is the first step to deploying the Employee Self-Service agent. You 
 
 ## Power Platform environment strategy for the Employee Self-Service agent
 
-The Employee Self-Service agent templates are tailored to each vertical, such as HR or IT, and each template comes with its own unique set of topics and connectors. While it may be necessary to use separate Power Platform environments for better governance, if you want to link these vertical-specific agent templates to a single, central agent, we advise you keep all the vertical agent templates within one Power Platform environment.
+The Employee Self-Service agent starters are tailored to each vertical, such as HR or IT, and each starter comes with its own unique set of topics and connectors. While it may be necessary to use separate Power Platform environments for better governance, if you want to link these vertical-specific agent starters to a single, central agent, we advise you keep all the vertical agent starters within one Power Platform environment.
 
 ## Assign the Power Platform administrator role
 

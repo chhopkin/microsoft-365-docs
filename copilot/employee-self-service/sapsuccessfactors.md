@@ -3,9 +3,9 @@ title: Integrate SAP SuccessFactors with your Employee Self-Service deployment
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: scotv
+manager: dansimp
 ms.reviewer: semani
-ms.date: 09/29/2025
+ms.date: 11/05/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot

@@ -3,9 +3,9 @@ title: Responsible AI FAQ for the Employee Self-Service agent
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: scotv
+manager: dansimp
 ms.reviewer: semani
-ms.date: 09/29/2025
+ms.date: 11/05/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -84,7 +84,7 @@ The Employee Self-Service agent provides authoritative responses based on the kn
 
 To provide feedback on the Employee Self-Service agent, you can use the thumbs up or thumbs down buttons at the bottom of your Microsoft 365 Copilot results.
 
-## Does the data retrieved from 3P external system solutions pass through Copilot RAI?
+## Does the data retrieved from third-party external system solutions pass through Copilot RAI?
 
 If the external system solution data is returned directly, such as inserting values like employee numbers into predefined starters without modification, it bypasses Copilot RAI. However, if the data is processed using a large language model (LLM) to generate a summarized or narrative response, such as explaining the meaning of a specific policy along with its value, then it goes through the summarization node. This action triggers Copilot RAI. This approach is also used for content like knowledge base articles, where the system may either return the article as-is or synthesize a concise summary using LLMs. In short, Copilot RAI is engaged only when LLM-based summarization or transformation of external system solution data is involved.
 

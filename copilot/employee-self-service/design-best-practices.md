@@ -5,7 +5,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 09/29/2025
+ms.date: 11/05/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -47,8 +47,6 @@ Instructions act as a blueprint for tone, structure, and decision-making across 
 
 - **Knowledge sources**: Your enterprise content from SharePoint or other knowledge bases like ServiceNow.
 - **Data connectors**: Pull real-time, contextual data from content management systems and connectors like Workday, ServiceNow, or SAP to personalize responses. [Learn more](/microsoft-365-copilot/extensibility/overview-copilot-connector) about Copilot connectors.
-
-XXX IS THIS THE BEST LINK?
 
 ### UI Elements and actions: Build trust and enable action
 

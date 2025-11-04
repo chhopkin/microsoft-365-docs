@@ -6,7 +6,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 10/29/2025
+ms.date: 11/05/2025
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-copilot
@@ -73,5 +73,5 @@ This report takes **Username** as an input and returns the following responses:
 - Mgr_Sup_Org_Id
 
 >[!NOTE]
->The ownership of this custom report should be transferred to the generic user "ISU_WQL_COPILOT" that you created in task 3.
+>The ownership of this custom report should be transferred to the generic user "ISU_WQL_COPILOT" that you created in task 3 in .
 >This report is configured to get only employee details and doesn't return external staff or nonemployees.

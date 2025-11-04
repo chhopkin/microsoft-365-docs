@@ -6,7 +6,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: scotv
 ms.reviewer: semani
-ms.date: 10/29/2025
+ms.date: 11/05/2025
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-copilot
@@ -33,24 +33,13 @@ The following calculated fields should be created at the report level (see defin
 - Worker Type
 - CF LRV Sup Org Ref ID
 
-## Abbreviations in the table
-
-CLRV= Calculation Lookup related value
-
-|Field name |Business object |CLRV Lookup field |CLRV Related business object |CLRV return value |Additional Category |Additional authorized usage |
-|----------------------------|----------------|---------------------------|--------|-------------|--------------|--------------|
-|CF – ISO 2 Country Code LRV |Worker          |Location Address - Country/Region |Country/Region |Alpha-2 Code |Uncategorized |Default areas |
-|CF – EE Level LRV |Worker |Supervisory Organization - Primary Position |Supervisory Organization |Organization on Level from Top |Uncategorized |Default Areas |
-|CF – LRV Worker Type        |Workday Account |Worker                     |Worker  |Worker Type  |              |              |
-|CF LRV Sup Org Ref ID       |Worker |Manager's Default Supervisory Organization |Supervisory Organization |Reference ID |  |  |
-
 ## List of reports
 
-- [Workday User Context Custom Report](workday-reports-user-context.md)
-- [Workday User Context Custom Report - SORT](workday-reports-context-sort.md)
-- [Workday User Context Custom Report - FILTER](workday-reports-context-filter.md)
-- [Workday User Context Custom Report - SUB-FILTER](workday-reports-context-subfilter.md)
-- [Workday User Context Custom Report - PROMPTS](workday-reports-context-prompts.md)
-- [Workday User Context Custom Report - OUTPUT](workday-reports-context-output.md)
-- [Workday User Context Custom Report - SHARE](workday-reports-context-share.md)
-- [Workday User Context Custom Report - ADVANCED](workday-reports-context-advanced.md)
+- [Workday User Context Custom Report](workday-user-context-support-config.md)
+- [Workday User Context Custom Report - SORT](workday-sort-support-config.md)
+- [Workday User Context Custom Report - FILTER](workday-filter-support-config.md)
+- [Workday User Context Custom Report - SUB-FILTER](workday-subfilter-support-config.md)
+- [Workday User Context Custom Report - PROMPTS](workday-prompts-support-config.md)
+- [Workday User Context Custom Report - OUTPUT](workday-output-support-config.md)
+- [Workday User Context Custom Report - SHARE](workday-share-support-config.md)
+- [Workday User Context Custom Report - ADVANCED](workday-advanced-support-config.md)

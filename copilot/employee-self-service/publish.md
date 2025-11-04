@@ -3,9 +3,9 @@ title: Publish the Employee Self-Service agent to your organization
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: scotv
+manager: dansimp
 ms.reviewer: semani
-ms.date: 09/29/2025
+ms.date: 11/05/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -52,7 +52,7 @@ Terms to know:
 9. Choose the desired Power Platform environment to deploy and test this exported solution.
 10. Ensure all the dependencies required for customization are already available in the target environment. If the dependencies aren't available, imports fail. The following dependencies need to be installed in the desired environment:
     1. The Employee Self-Service agent
-    1. Any third-party ISV packages used in customization
+    1. Any third-party external system solution packages used in customization
 11. Select **Solutions** options from the left navigation pane within the Power Platform environment you selected.
 12. Select the **Import Solution** option to import the file you downloaded in step 9.
 13. Select the downloaded file using the **Browse** button in the right pane.
