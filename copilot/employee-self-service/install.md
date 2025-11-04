@@ -1,5 +1,5 @@
 ---
-title: Install a Employee Self-Service agent
+title: Install the Employee Self-Service agent
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
@@ -17,7 +17,7 @@ appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# Install a Employee Self-Service agent
+# Install the Employee Self-Service agent
 
 > [!NOTE]
 > The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
