@@ -39,7 +39,7 @@ This works in two parts:
     1. If you just changed mappings, Reindex the library or site and allow time for crawl.
 1. Identify where you'll source the user attribute at runtime, like Workday, SuccessFactors, Graph, or a custom API.
 
-### Capture the user contect in the agent (Copilot Studio)
+### Capture the user context in the agent (Copilot Studio)
 
 1. In your Employee Self-Service agent solution, open **Admin** > **User Context** > **Setup**.
 2. Make sure this topic runs before any retrieval topics (keep/enable the redirect pattern).
@@ -92,5 +92,3 @@ For **each** SharePoint knowledge source that must respect filtering:
    > All is a useful fallback value when content is intentionally global or applicable to everyone.
 
 3. Save and publish.
-
-XXX THERE IS A VALIDATE SECTION WITH ALMOST NOTHING IN IT.

@@ -31,12 +31,6 @@ items:
   items:
     - name: SAP SuccessFactors
       href: sapsuccessfactors.md
-    - name: ServiceNow
-      href: servicenow.md
-    - name: ServiceNow HRSD and ITSM
-      href: servicenow-hrsd-itsm.md
-    - name: ServiceNow Live agent
-      href: servicenow-live-agent.md
     - name: Workday
       items:
         - name: Integrating Workday
@@ -60,6 +54,13 @@ items:
               href: workday-reports-context-share.md
             - name: Workday advanced reports
               href: workday-reports-context-advanced.md
+    - name: ServiceNow
+      href: servicenow.md
+      items:
+        - name: ServiceNow HRSD and ITSM
+          href: servicenow-hrsd-itsm.md
+        - name: ServiceNow Live agent
+          href: servicenow-live-agent.md
 - name: Usage analytics for the Employee Self-Service agent
   href: usage-analytics.md
 - name: Known issues and limitations
