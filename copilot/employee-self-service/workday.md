@@ -21,13 +21,12 @@ description: "Learn about integrating Workday in the deployment process for the 
 
 # Integrate Workday with your Employee Self-Service deployment
 
->[!NOTE]
->The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
-
 >[!IMPORTANT]
 >You need to complete the steps to deploy the Employee Self-Service agent before you can configure this supplemental extension pack.
 
-The Employee Self-Service agent is built on Copilot and uses AI to provide relevant information to employees and take actions on their HR data. If your organization uses a human resource management system, the Employee Self-Service agent requires access to that system to function most effectively.
+The Employee Self-Service agent is built on Copilot and uses AI to provide relevant information to employees and take actions on their HR data.
+
+If your organization uses a human resource management system, the Employee Self-Service agent requires access to that system to function most effectively. This article guides you through the process required to integrate ESS Agent with Workday. 
 
 ## Technical synopsis
 
@@ -66,7 +65,7 @@ Most enterprise organizations secure their HR management systems and knowledge s
 
 When you integrate these enterprise systems into the Employee Self-Service agent, it becomes a more reliable source for providing information to your users. In order to integrate these systems, you need to make them accessible to the Power Platform environment where the Employee Self-Service agent is hosted.
 
-You need to configure these systems with allowlists for the source IP addresses from which the Employee Self-Service agent is hosted and executed, such as the Power Platform environment. See the following documentation for information on retrieving the list of IP address ranges to configure in the network environment:
+You need to configure these systems with allow lists for the source IP addresses from which the Employee Self-Service agent is hosted and executed, such as the Power Platform environment. See the following documentation for information on retrieving the list of IP address ranges to configure in the network environment:
 
 [Learn about overall Power Platform URLs and IP address ranges.](/power-platform/admin/online-requirements).
 
@@ -93,6 +92,9 @@ Refer to this documentation to set up SSO for Workday with Entra: [Microsoft Ent
 ## Configure and prepare Workday reports
 
 The following configuration and preparation tasks need to be done in Workday by a Workday Administrator:
+
+> [!NOTE]
+> Skip tasks 1 and 2 if the setup for Workday and the Entra SSO is complete.
 
 1. [Create the X.509 public key](#task-1-create-the-x509-public-key)
 1. [Edit tenant setup - security](#task-2-edit-tenant-setup---security)
