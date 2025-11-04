@@ -22,8 +22,8 @@ This support configuration is used for retrieving the required user context **fi
 ## Abbreviation in the filter condition table
 
 |Field name |Business object |CLRV Lookup field |CLRV Related business object |CLRV return value |Additional Category |Additional authorized usage |
-|CF – LRV Worker Type        |Workday Account |Worker                     |Worker  |Worker Type  |              |              |
-
+|--|--|--|--|--|--|--|
+|CF – LRV Worker Type |Workday Account |Worker |Worker |Worker Type    | | |
 
 ## View Custom Report: WD User Context
 
