@@ -444,7 +444,7 @@ You can incorporate knowledge sources into agents during initial creation, after
 
 #### SharePoint knowledge filtering
 
-For information on SharePoint knowledge filtering, see [SharePoint Advanced Filtering (CPS) How-To](ess-sharepoint-filtering.md).
+For information on SharePoint knowledge filtering, see [SharePoint Advanced Filtering (CPS) How-To](sharepoint-filtering.md).
 
 ## Customize Starter prompts
 
