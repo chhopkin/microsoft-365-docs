@@ -47,7 +47,7 @@ Sign into ServiceNow PDI as an admin.
 
 ### Step 2: Table creation
 
-Search for **System definition** and select the **Tables** under it. Label: ESS Copilot Summary. XXX IS THIS ACCURATE?
+Search for **System definition** and select the **Tables** under it. Label: **ESS Copilot Summary**.
 
 |Field name             |Type       |Size |Reference table |
 |-----------------------|-----------|-----|----------------|
