@@ -316,17 +316,17 @@ The following Topics are available from the ServiceNow ITSM extension pack:
 |**ServiceNow ITSM Update Ticket** | This topic gets the *sysID* and other necessary input required for the update call. Also validates if the user has necessary permission to update that ticket. |
 |**ServiceNow ITSM Get Ticket Updates** |This topic retrieves the latest update of IT support tickets for the user. It fetches the list of tickets and then provides the update related to the latest one. |
 
-### Modify template configurations
+### Modify agent starter configurations
 
-For any required modifications to the backend ServiceNow Incident APIs, the template configurations for each scenario can be adjusted in coordination with updates to the frontend topics.
+For any required modifications to the backend ServiceNow Incident APIs, the starter configurations for each scenario can be adjusted in coordination with updates to the frontend topics.
 
-To access the template configurations:
+To access the starter configurations:
 
 1. Navigate to the overview tab within the Employee Self-Service agent and scroll down to the ***Customize*** tab.
 2. Select the installed customization titled ***Employee Self Service IT Helpdesk ServiceNow ITSM***.
 3. This action redirects you to the installed customization details page, where you can view all the Topics and Flows included in the customization package. Additionally, there's a ***Configuration*** option at the top with a manage button.
-4. By selecting the manage button, you're directed to the Dataverse Template Configurations table, which lists all available template configurations.
-5. Select the specific scenario template configuration. It opens the actual value in the Dynamics 365 webpage in a new tab, which can edit the JSON as needed and save your changes.
+4. By selecting the **Manage** button, you're directed to the Dataverse Template Configurations table, which lists all available starter configurations.
+5. Select the specific scenario starter configuration. It opens the actual value in the Dynamics 365 webpage in a new tab, which can edit the JSON as needed and save your changes.
 
 ### Capabilities for the ServiceNow extension pack
 
@@ -354,15 +354,15 @@ The Update Ticket feature allows users to modify existing helpdesk tickets by ad
 
 Post-Private Preview, users can add attachments to the ticket, letting them provide more context for easier resolution.
 
-### ServiceNow ITSM template configurations
+### ServiceNow ITSM starter configurations
 
 These JSON configurations are intended for the ServiceNow APIs within the backend. These configurations facilitate the linkage between input and output variables from and to the bot. Each scenario has a corresponding JSON configuration, enabling extension pack users to adjust the parameters utilized in the APIs without altering anything in the backend workflows. The way the backend interacts with bot topics regarding input and output variables is defined within these configurations.
 
-The template configurations reside within a custom Dataverse table, created through the Employee Self-Service agent base package upon installation in an environment. Extension packs contribute extra rows to this table, each containing a stringified JSON configuration for a specific scenario. These configurations are retrieved at runtime using the Dataverse connectors within Power Automate flows.
+The starter configurations reside within a custom Dataverse table, created through the Employee Self-Service agent base package upon installation in an environment. Extension packs contribute extra rows to this table, each containing a stringified JSON configuration for a specific scenario. These configurations are retrieved at runtime using the Dataverse connectors within Power Automate flows.
 
 ### Understanding configurations naming
 
-- **Scenario**: The name of the scenario used as the identifier of the operation. This item is the primary key for the template configuration and shouldn't be changed.
+- **Scenario**: The name of the scenario used as the identifier of the operation. This item is the primary key for the starter configuration and shouldn't be changed.
 - **FilterCriteria**: This criterion is used to filter the ServiceNow table by applying the "Operator" on a specific "FieldName". "VariableName" refers to the name of the variable passed from the bot topics containing the actual value. If this variable isn't mandatory, the bot author may choose not to send it.
 - **SortCriteria**: Used to sort the list of records from a ServiceNow Table on "FieldName" by "Operator".
 - **Limit**: Maximum number of records to return.

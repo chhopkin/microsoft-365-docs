@@ -12,7 +12,7 @@ ms.service: microsoft-365-copilot
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
-description: Learn what Employee Self-Service Agent is, what the HR and IT templates are, and why your organization should use them.
+description: Learn what Employee Self-Service Agent is, what the HR and IT starters are, and why your organization should use them.
 appliesto:
   - ✅ Microsoft 365 Copilot
 ---
@@ -48,9 +48,9 @@ Data security and compliance are enforced through:
 ## Core features
 
 - **End User Capabilities**: The Employee Self-Service agent enables users to execute tasks such as querying HR policies, initiating IT support tickets, and updating personal information through conversational interfaces. All interactions are logged for auditability.
-  - **Employee Self-Service agent templates are separate to focus on domains - HR and IT**. Each template offers slightly different functionality to focus on the core jobs to be done of the domain and can be infinitely customized and extended.
-    - **HR template**: Empowers employees to self-serve HR needs by delivering clear, policy-based answers and guidance. Core features include easy navigation of benefits, policy lookups, and access to organizational resources. The agent maintains an empathetic, professional tone and enforces boundaries by escalating complex or sensitive requests (such as legal or personnel decisions) to HR specialists.
-    - **IT template**: Enables employees to resolve IT issues efficiently through step-by-step troubleshooting and automated support flows. Key features include guided device setup, secure account management, and instant access to IT resources. The agent prioritizes clarity and patience, automatically escalates time-sensitive or security-related concerns, and ensures safe practices to protect data and systems.
+  - **Employee Self-Service agent starters are separate to focus on domains - HR and IT**. Employee Self-Service agent starters are beginning points to help you get started with a specific agent path, based on your organization's needs. Each starter offers slightly different functionality to focus on the core jobs to be done of the domain and can be infinitely customized and extended.
+    - **HR starter**: Empowers employees to self-serve HR needs by delivering clear, policy-based answers and guidance. Core features include easy navigation of benefits, policy lookups, and access to organizational resources. The agent maintains an empathetic, professional tone and enforces boundaries by escalating complex or sensitive requests (such as legal or personnel decisions) to HR specialists.
+    - **IT starter**: Enables employees to resolve IT issues efficiently through step-by-step troubleshooting and automated support flows. Key features include guided device setup, secure account management, and instant access to IT resources. The agent prioritizes clarity and patience, automatically escalates time-sensitive or security-related concerns, and ensures safe practices to protect data and systems.
 - **Handoff Mechanism**: The agent includes a configurable handoff feature, allowing seamless escalation to specialized first-party agents or human operators within predefined workflows. This is implemented using session context management and secure credential delegation.
 - **Telemetry and Insights**: Integrated telemetry provides granular analytics on agent interactions, task completion rates, and user satisfaction. Data is available through Power Platform dashboards and can be exported for further analysis.
 
@@ -58,7 +58,7 @@ Data security and compliance are enforced through:
 
 Copilot Studio and Power Platform provide extensive customization options, including low-code and pro-code development environments. Organizations can modify agent behavior, extend dialog flows, and integrate additional data sources using Power Automate, custom APIs, and Azure Logic Apps. The platform supports scaling across regions and business units, with centralized management and version control for agent configurations. 
 
-Each template comes with default content and accelerators to get you started like:
+Each starter comes with default content and accelerators to get you started like:
 
 - Agent name, logo, and description.
 - Instructions that help shape agent personality and behaviors.
@@ -67,10 +67,10 @@ Each template comes with default content and accelerators to get you started lik
 
 ## Implementation considerations
 
-Consider which Employee Self-Service agent template is right for your organization to start with – HR or IT. Both Employee Self-Service agent templates can be deployed into a single Employee Self-Service agent experience, but you must deploy them one at a time. [Learn more](customize.md) about how to get started customizing the Employee Self-Service agent, where you can review common roles and responsibilities, basic building blocks of the Employee Self-Service agent, and more.
+Consider which Employee Self-Service agent starter is right for your organization to start with – HR or IT. Both Employee Self-Service agent starter can be deployed into a single Employee Self-Service agent experience, but you must deploy them one at a time. [Learn more](customize.md) about how to get started customizing the Employee Self-Service agent, where you can review common roles and responsibilities, basic building blocks of the Employee Self-Service agent, and more.
 
 - **Deployment**: The Employee Self-Service agent can be provisioned in sandbox or production environments through the Power Platform Admin Center. Deployment pipelines support continuous integration and delivery, with environment isolation for testing and validation.
-- **Configuration**: Initial setup involves defining integration endpoints, mapping user roles, and configuring dialog flows. Templates and accelerators are available to expedite common scenarios.
+- **Configuration**: Initial setup involves defining integration endpoints, mapping user roles, and configuring dialog flows. Starters and accelerators are available to expedite common scenarios.
 - **Security**: The solution adheres to enterprise-grade security standards, including identity federation, least-privilege access, and encrypted storage. Compliance with regulatory frameworks (for example., GDPR, HIPAA) is supported through built-in auditing and data retention policies.
 
 By consolidating employee self-service tasks within a secure, extensible, and scalable architecture, the Employee Self-Service agent and Copilot Studio deliver operational efficiencies and integration flexibility tailored for enterprise IT environments.

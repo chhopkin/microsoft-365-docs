@@ -29,7 +29,7 @@ The Employee Self-Service agent is a new set of capabilities to answer policy re
 - Retrieve the right information at the right time.
 - Take actions on essential HR and IT tasks-in line without navigating to multiple tools and workspaces, including help and running diagnostics on Microsoft 365 products and services.
 
-And while the Employee Self-Service agent is ready to go on day one, admins can further customize the agent with out-of-the-box preconfigured no-code templates for key workflows, and connectors to third-party HR or IT systems in Copilot Studio for faster Time-To-Value (TTV).
+And while the Employee Self-Service agent is ready to go on day one, admins can further customize the agent with out-of-the-box preconfigured no-code starters for key workflows, and connectors to third-party HR or IT systems in Copilot Studio for faster Time-To-Value (TTV).
 
 ## What can Employee Self-Service do?
 
@@ -72,7 +72,7 @@ The Employee Self-Service agent relies on Microsoft Copilot Studio for processin
 
 ## How does the emotional intelligence topic work?
 
-Each Employee Self-Service agent template includes the emotional intelligence (EQ) topic is included in each Employee Self-Service agent template, which is called **Seek emotional intelligence**. This topic is designed to enhance conversations in the Employee Self-Service agent by making responses more empathetic, context-aware, and relevant for diverse audiences. This feature works by analyzing conversational context and tailoring replies to reflect emotional intelligence. The feature ensures users feel understood and valued in every interaction. The EQ topic is fully customizable and can be turned off entirely.
+Each Employee Self-Service agent starter includes the emotional intelligence (EQ) topic is included in each Employee Self-Service agent starter, which is called **Seek emotional intelligence**. This topic is designed to enhance conversations in the Employee Self-Service agent by making responses more empathetic, context-aware, and relevant for diverse audiences. This feature works by analyzing conversational context and tailoring replies to reflect emotional intelligence. The feature ensures users feel understood and valued in every interaction. The EQ topic is fully customizable and can be turned off entirely.
 
 This topic isn't a replacement for human care or decision-making. It enhances responses to be supportive in tone, while maintaining factual accuracy and appropriate boundaries. Empathetic phrasing is used to make guidance clearer and more human, not to simulate emotional relationships. This topic doesn't infer mental health conditions, store emotional states, or use this information to profile users.
 
@@ -86,7 +86,7 @@ To provide feedback on the Employee Self-Service agent, you can use the thumbs u
 
 ## Does the data retrieved from 3P ISVs pass through Copilot RAI?
 
-If the ISV data is returned directly, such as inserting values like employee numbers into predefined templates without modification, it bypasses Copilot RAI. However, if the data is processed using a large language model (LLM) to generate a summarized or narrative response, such as explaining the meaning of a specific policy along with its value, then it goes through the summarization node. This action triggers Copilot RAI. This approach is also used for content like knowledge base articles, where the system may either return the article as-is or synthesize a concise summary using LLMs. In short, Copilot RAI is engaged only when LLM-based summarization or transformation of ISV data is involved.
+If the ISV data is returned directly, such as inserting values like employee numbers into predefined starters without modification, it bypasses Copilot RAI. However, if the data is processed using a large language model (LLM) to generate a summarized or narrative response, such as explaining the meaning of a specific policy along with its value, then it goes through the summarization node. This action triggers Copilot RAI. This approach is also used for content like knowledge base articles, where the system may either return the article as-is or synthesize a concise summary using LLMs. In short, Copilot RAI is engaged only when LLM-based summarization or transformation of ISV data is involved.
 
 ## What are plugins and how does Employee Self-Service use them?
 

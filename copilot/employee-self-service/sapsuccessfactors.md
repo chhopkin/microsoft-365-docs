@@ -226,7 +226,7 @@ These steps are required to install and enable the SuccessFactors extension pack
 
 ### Set up SuccessFactors extension pack for the Employee Self-Service agent
 
-The SuccessFactors extension pack requires few initial setups for the agent flows and templates. The following sections walk you through the process for configuring the required components.
+The SuccessFactors extension pack requires few initial setups for the agent flows and agent starters. The following sections walk you through the process for configuring the required components.
 
 ### Setup User Context
 
@@ -257,11 +257,11 @@ This step is required to set the user context for the Employee Self-Service agen
    > The highlighted section in the code transforms username from the logged in user's principal name to SAP SuccessFactors user ID. Use this information based on your environment setup between Microsoft Entra and SAP SuccessFactors. Currently the agent supports only User Principal Name (UPN) as a key identifier, if there are other attributes to be used as key identifier then a custom logic should be implemented to get the correct username for SAP SuccessFactors.
 6. Select **Save** for changes.
 
-### Set up Templates
+### Set up Agent starters
 
-The Employee Self-Service agent comes with few predefined templates that are being used for each topic. These templates are shipped with the default data attribute paths, if there are custom entities and paths being used in SAP SuccessFactors, then these templates must be customized to match the SAP SuccessFactors entities.
+The Employee Self-Service agent comes with few predefined starters that are being used for each topic. These agent starters are shipped with the default data attribute paths, if there are custom entities and paths being used in SAP SuccessFactors, then these starters must be customized to match the SAP SuccessFactors entities.
 
-To set up templates, follow these steps:
+To set up starters, follow these steps:
 
 1. Open The Employee Self-Service agent in Copilot Studio.
 2. Select **Settings** in the top right corner of agent ribbon.
@@ -269,7 +269,7 @@ To set up templates, follow these steps:
 4. Select **Employee Self Service HR SuccessFactors** extension pack.
 5. Select **Open** from the dialog popup.
 6. Select **Manage** in the Configuration section.
-7. All the template configurations available are listed in the Power Apps, so select each of the "Get" templates to configure the right entities and paths. The following code is an example of the "Get" configuration template:
+7. All the starter configurations available are listed in the Power Apps, so select each of the "Get" starters to configure the right entities and paths. The following code is an example of the "Get" configuration starter:
 
    ```json
    { 
@@ -308,13 +308,13 @@ To set up templates, follow these steps:
     }
    ```
 
-The highlighted **filter** parameter keys must match with what is expected in the Template configuration. In the following example, *personIdExternalVal* would be used as a key to insert *Global.ESS.UserContext.Employee_Id* into the filter expression.
+The highlighted **filter** parameter keys must match with what is expected in the starter configuration. In the following example, *personIdExternalVal* would be used as a key to insert *Global.ESS.UserContext.Employee_Id* into the filter expression.
 
 **Example format used in Topic:**
 
 _`"{""personIdExternalVal"": """ & Global.ESS_UserContext_Employee_Id & """,""userIdVal"": """ & Global.ESS_UserContext_User_Id & """}"`
 
-**Snippet of the template configuration:**
+**Snippet of the starter configuration:**
 
 ```json
 {
@@ -436,8 +436,8 @@ The "Get Employee ID" and "Get Service Anniversary" topics are exceptions to thi
 
 Authorization for all the topics is as follows:
 
-- Authorization is done using the *permissionsMetadata* part of the Template configuration. The *permissionsMetadata* and *User ID* are used to create the query string for OData connector in *SuccessFactors Check User Permissions* flow.
-- You should include *permissionMetadata* or *rolePermission* in the Template config file, as there's no other authorization check if both of those fields are missing.
+- Authorization is done using the *permissionsMetadata* part of the starter configuration. The *permissionsMetadata* and *User ID* are used to create the query string for OData connector in *SuccessFactors Check User Permissions* flow.
+- You should include *permissionMetadata* or *rolePermission* in the starter config file, as there's no other authorization check if both of those fields are missing.
 
 ### Get Base Compensation
 
