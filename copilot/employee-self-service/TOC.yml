@@ -1,6 +1,6 @@
 items:
 - name: Introduction to Employee Self-Service agent
-  href: ess-introduction.md
+  href: introduction.md
 - name: Deploy the Employee Self-Service agent
   items:
     - name: Deployment overview
@@ -8,7 +8,7 @@ items:
     - name: Prerequisites
       href: prerequisites.md
     - name: Deployment checklist
-      href: ess-deployment-checklist.md
+      href: deployment-checklist.md
     - name: Prepare for deployment
       href: prepare.md
     - name: Install Employee Self-Service agent
@@ -20,11 +20,11 @@ items:
         - name: Craft agent instructions
           href: design-best-practices.md
         - name: Sharepoint filtering
-          href: ess-sharepoint-filtering.md
+          href: sharepoint-filtering.md
         - name: Emotional intelligence and ambiguity
-          href: ess-eq-and-ambiguity.md
+          href: emotional-quotient-and-ambiguity.md
         - name: Optimize SharePoint knowledge sources
-          href: ess-optimization-sharepoint.md
+          href: optimization-sharepoint.md
     - name: Publish Employee Self-Service agent
       href: publish.md
 - name: Integrate external systems
