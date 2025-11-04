@@ -46,7 +46,7 @@ The Employee Self-Service agent is built with the following components:
 
 ### Knowledge sources
 
-[Knowledge sources](/microsoft-copilot-studio/knowledge-copilot-studio) act in concert with generative answers. When knowledge sources are added, agents can use enterprise data from Power Platform, Dynamics 365 data, websites, and external systems. Knowledge sources allow your agents to provide relevant information and insights for your customers. Published agents that contain knowledge use the configured knowledge sources to ground the published agent. You can incorporate knowledge at the agent level, in the Knowledge page, or at the topic level, with a generative answers node in an agent topic. You can incorporate knowledge sources into agents during their initial creation, add them after the agent is created, or add them to a generative answers topic node.
+[Knowledge sources](/microsoft-copilot-studio/knowledge-copilot-studio) act in concert with generative answers. When knowledge sources are added, agents can use enterprise data from Power Platform, Dynamics 365 data, websites, and external systems. Knowledge sources allow your agents to provide relevant information and insights for your customers. Published agents that contain knowledge use the configured knowledge sources to ground the published agent. You can incorporate knowledge at the agent level, in the **Knowledge** page, or at the topic level, with a generative answers node in an agent topic. You can incorporate knowledge sources into agents during their initial creation, add them after the agent is created, or add them to a generative answers topic node.
 
 ### Accelerator packages
 
@@ -419,7 +419,7 @@ For more information, see [Microsoft Accessibility guidelines](https://fluent2.m
 
 Within Copilot Studio, knowledge sources act in concert with generative answers. When you add knowledge sources, agents can use enterprise data from Power Platform, Dynamics 365 data, websites, and external systems. Knowledge sources allow your agents to provide relevant information and insights for your customers.
 
-Published agents that contain knowledge use the configured knowledge sources to ground the published agent. Knowledge can be incorporated at the agent level, in the Knowledge page, or at the topic level with a generative answers node in an agent topic.
+Published agents that contain knowledge use the configured knowledge sources to ground the published agent. Knowledge can be incorporated at the agent level, in the **Knowledge** page, or at the topic level with a generative answers node in an agent topic.
 
 You can incorporate knowledge sources into agents during initial creation, after the agent is created, or in a generative answers topic node.
 
@@ -437,7 +437,7 @@ You can incorporate knowledge sources into agents during initial creation, after
 
 1. Open the **Employee Self-Service** agent in Copilot Studio.
 1. Select **Knowledge** in the top navigation bar.
-1. Select **+Add knowledge** and choose **SharePoint** from the Add knowledge pane.
+1. Select **+Add knowledge** and choose **SharePoint** from the **Add knowledge** pane.
 1. You can choose to add a set of files from SharePoint or add a site. If you add a site, all the files in the site are used as a knowledge source.
 1. Provide a meaningful name and description, then choose **Add**.
 1. The site or set of files you chose appear in your **Knowledge** page.

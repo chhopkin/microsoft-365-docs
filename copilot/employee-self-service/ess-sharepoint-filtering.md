@@ -26,9 +26,7 @@ We can personalize results by telling the Employee Self-Service agent to only re
 This works in two parts: 
 
 1. The Employee Self-Service agent collects user information, like location, and stores it as a variable.
-1. SharePoint Knowledge Sources are updated to use that variable when searching, so results are filtered to what's relevant.
-
-XXX WHY ARE KNOWLEDGE SOURCES CAPITALIZED? ARE THEY BRANDED TERMS? IS THIS THE KS THAT WE NEED DEFINED?
+1. SharePoint knowledge sources are updated to use that variable when searching, so results are filtered to what's relevant.
 
 ## Step-by-step configuration
 
@@ -56,11 +54,10 @@ XXX WHY ARE KNOWLEDGE SOURCES CAPITALIZED? ARE THEY BRANDED TERMS? IS THIS THE K
 
 For **each** SharePoint knowledge source that must respect filtering:
 
-1. Open the **knowledge source** > **Advanced settings**. XXX WHERE ARE WE OPENING THIS? IS IT A FORMAL THING? IS IT CALLED KS HERE
+1. Open the **Knowledge source** > **Advanced settings**.
 1. In **Additional search** terms, add KQL that references your **managed property** and **global variable**.
 
    **Examples**
-   XXX I CAN'T SPECIFY KQL IN GITHUB AT THIS TIME AND SO AM LEAVING BLANK
 
    - **Company code**
 

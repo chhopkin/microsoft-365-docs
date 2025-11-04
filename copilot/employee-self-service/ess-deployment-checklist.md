@@ -99,7 +99,7 @@ This article has a checklist to help you set up and deploy the Employee Self-Ser
 
 **What you're doing**: Connecting your Employee Self-Service agent to an internal knowledge base (for example, SharePoint or OneDrive).
 
-**Why this step matters**: Starting with knowledge-retrieval scenarios delivers quick value. Employees can immediately ask policy or process questions and get the answers they need.
+**Why this step matters**: Starting with knowledge retrieval scenarios delivers quick value. Employees can immediately ask policy or process questions and get the answers they need.
 
 ### Knowledge source checklist
 

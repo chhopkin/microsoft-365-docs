@@ -68,7 +68,7 @@ You can refer to the Employee Self-Service agent deployment guide for subscripti
 
 ### Infra set up for third-part external system solution integration
 
-Most enterprise organizations secure their third-party HCMs/Knowledge Sources from external networks, as the line of business must protect sensitive information about employees, organizations, knowledge assets, and so on.
+Most enterprise organizations secure their third-party knowledge sources from external networks, as the line of business must protect sensitive information about employees, organizations, knowledge assets, and so on.
 
 When you need to integrate these enterprise systems into the Employee Self-Service agent to use it as a source for providing relevant information to the end users, these systems should be accessible to the Power Platform environment hosting the Employee Self-Service agent.
 

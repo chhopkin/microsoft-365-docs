@@ -36,7 +36,7 @@ The Employee Self-Service agent acts as a front-end for consuming information fr
    - How to create a new VPN connection?
    - How do I apply for leave? 
 - Use Semantic search in the Employee Self-Service agent to enable employees to find relevant content based on keywords, personal preferences, and social connections.
-- Employees can search for knowledge-based articles in the Employee Self-Service agent after it's indexed and visible to all users or restricted with user criteria permissions.
+- Employees can search for knowledge base articles in the Employee Self-Service agent after it's indexed and visible to all users or restricted with user criteria permissions.
 
 ## Technical synopsis
 
@@ -58,7 +58,7 @@ For information on subscription requirements required for the Employee Self-Serv
 
 The current version of ServiceNow Knowledge Microsoft 365 Copilot Connector is a prerelease version and have the following limitations:
 
-- If both Knowledge base and Knowledge article level permissions are defined, then only article-level permissions are honored (no support for hierarchical permissions). If you have a requirement to support hierarchical permissions, work with your Microsoft product or program manager for further support.
+- If both knowledge base and knowledge article level permissions are defined, then only article-level permissions are honored (no support for hierarchical permissions). If you have a requirement to support hierarchical permissions, work with your Microsoft product or program manager for further support.
 - Attachments aren't indexed.
 
 ### Deployment role requirements
