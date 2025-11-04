@@ -135,9 +135,9 @@ You can type instructions in plain text. At any point within the instructions, y
 
 #### Add user context variables to map intent to users' data
 
-To deliver personalized responses, the Employee Self-Service agent needs to understand both user intent and context. For example, the same question may require different answers for employees in Germany versus India because policies vary by region. To enable this, we've created a dedicated topic called User Context - Setup that defines variables representing key user attributes like level, country, and role. Once this topic is set up, you can reference these variables in your agent instructions to ensure responses are tailored to your organization's context.
+To deliver personalized responses, the Employee Self-Service agent needs to understand both user intent and context. For example, the same question may require different answers for employees in Germany versus India because policies vary by region. To enable this, we've created a dedicated topic called User Context - Setup that defines variables representing key user attributes like level, country/region, and role. Once this topic is set up, you can reference these variables in your agent instructions to ensure responses are tailored to your organization's context.
 
-User context variables allow your Employee Self-Service agent to personalize responses by using attributes like name, job title, and country. These variables are created either as system variables (such as System.User.DisplayName) or global variables (such as Global.ESS_UserContext_Country_Code) that persist across topics.
+User context variables allow your Employee Self-Service agent to personalize responses by using attributes like name, job title, and country/region. These variables are created either as system variables (such as System.User.DisplayName) or global variables (such as Global.ESS_UserContext_Country_Code) that persist across topics.
 
 To add them to your instructions, open the **Variable Properties** pane and set the scope to Global. For integration with Microsoft Entra or other content systems, use environment variables to securely pass user attributes into your agent. When customizing instructions, reference these variables to tailor responses and ensure they align with your configured topics and data sources.
 
