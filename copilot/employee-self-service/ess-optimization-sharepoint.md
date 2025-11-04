@@ -47,7 +47,7 @@ Start with a pilot by limiting Copilot Studio to well-governed, low-risk sites b
 
 - Confirm each site has an assigned site owner.
 - Trim legacy sharing.
-- Enforce multifactor authentication (MFA).
+- [Enforce multifactor authentication](../../microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication.md) (MFA).
 
 ### Audit external connectors
 
@@ -63,7 +63,7 @@ Agent makers and users can see the highest sensitivity label applied to sources 
 
 Make it obvious where official content is located and how to navigate it. Well-structured information architecture (IA) reduces ambiguity and improves information retrieval so Employee Self-Service agent can more easily identify the right sources in which to ground its responses.
 
-- If you haven't already, model your SharePoint sites and hubs on user mental models. Plan top level (global), hub, and local navigation and consider how to align IA to common tasks, roles, and regions.
+- If you haven't already, model your SharePoint sites and hubs on user [mental models](/sharepoint/information-architecture-modern-experience). Plan top level (global), hub, and local navigation and consider how to align IA to common tasks, roles, and regions.
 - Prioritize search and findability by using clear, action-oriented labels in navigation, for page titles, and meta data just like you would to improve search.
 - Use content types consistently by defaulting to reusable content types (for example, policy, procedures, troubleshooting steps, FAQ) to standardize fields like owner, effective date, and region.
 
@@ -212,3 +212,12 @@ Steps:
 1. (**Optional**) Share a QR code.
     1. Select **Share** > **Share QR Code** to generate a scannable code.
     1. A pop-up will appear with the QR code you can download or share.
+
+### Use lists for clarity, not dense paragraphs or tables 
+
+The Employee Self-Service Agent can't find content in accordion webparts that use the **list-based** option. Use the **on-page** version instead.
+
+## Resources
+
+- [Add a SharePoint site, hub, or page as a knowledge source in Copilot Studio](https://microsoft.github.io/TechExcel-Designing-your-own-copilot-using-copilot-studio/docs/Ex05/0502.html)
+- [Copilot Studio web app limits for SharePoint](/microsoft-copilot-studio/requirements-quotas#copilot-studio-web-app-sharepoint-limits)
