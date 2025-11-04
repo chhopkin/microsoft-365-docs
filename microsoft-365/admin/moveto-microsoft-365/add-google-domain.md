@@ -2,8 +2,8 @@
 title: "Add your Google Workspace domain"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: heidip
+author: MicrosoftHeidi
 manager: dansimp
 ms.date: 08/29/2024
 audience: Admin
