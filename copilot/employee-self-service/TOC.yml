@@ -3,7 +3,7 @@ items:
   href: ess-introduction.md
 - name: Deploy the Employee Self-Service agent
   items:
-    - name: Overview of the deployment process
+    - name: Deployment overview
       href: deploy-overview-alm.md
     - name: Prerequisites
       href: prerequisites.md
@@ -11,23 +11,23 @@ items:
       href: ess-deployment-checklist.md
     - name: Prepare for deployment
       href: prepare.md
-    - name: Install the Employee Self-Service agent
+    - name: Install Employee Self-Service agent
       href: install.md
     - name: Customization
       items:
-        - name: Customize the Employee Self-Service agent
+        - name: Customize Employee Self-Service agent
           href: customize.md
-        - name: Design best practices for the Employee Self-Service agent
+        - name: Craft agent instructions
           href: design-best-practices.md
         - name: Sharepoint filtering
           href: ess-sharepoint-filtering.md
         - name: Emotional intelligence and ambiguity
           href: ess-eq-and-ambiguity.md
-        - name: Optimizing SharePoint knowledge sources
+        - name: Optimize SharePoint knowledge sources
           href: ess-optimization-sharepoint.md
-    - name: Publish the Employee Self-Service agent
+    - name: Publish Employee Self-Service agent
       href: publish.md
-- name: Integrate third-party systems with the Employee Self-Service agent
+- name: Integrate third-party systems
   items:
     - name: SAP SuccessFactors
       href: sapsuccessfactors.md
@@ -38,21 +38,21 @@ items:
         - name: Workday reports
           href: workday-reports.md
           items:
-            - name: Workday user context
+            - name: User context
               href: workday-user-context-support-config.md
-            - name: Workday user context sort
+            - name: Sort
               href: workday-sort-support-config.md
-            - name: Workday user context filter
+            - name: Filter
               href: workday-filter-support-config.md
-            - name: Workday user context supfilter
+            - name: Sub-filter
               href: workday-subfilter-support-config.md
-            - name: Workday user context prompts
+            - name: Prompts
               href: workday-prompts-support-config.md
-            - name: Workday user context output
+            - name: Output
               href: workday-output-support-configur.md
-            - name: Workday user context share
+            - name: Share
               href: workday-share-support-config.md
-            - name: Workday user context advanced
+            - name: Advanced
               href: workday-advanced-support-config.md
     - name: ServiceNow
       href: servicenow.md
