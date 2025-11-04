@@ -163,7 +163,7 @@ topic-id: To get the Topic ID, search for "sys_cs_topic.list." Locate the flow t
 
 #### Changes on the Employee Self-Service agent
 
-1. Install the ServiceNow Live Agent ISV package.
+1. Install the ServiceNow Live Agent external system solution package.
 1. If there wasn't an option to enter the ServiceNow Live Agent URL, visit the solutions page to see **One environment variable needs to be updated.** Select that message and enter the URL.
 1. Enable topic ServiceNow Live Agent IT Escalate.
 

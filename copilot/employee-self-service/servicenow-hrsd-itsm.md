@@ -204,7 +204,7 @@ In task 2, you update the user claim to upn or any other custom claim property f
 
 ### Install ServiceNow HRSD extension pack
 
-The Employee Self-Service agent is designed to have separate extension packs for third-party ISVs like ServiceNow. As a result, these extension packs must be installed first before starting any configurations or customizations.
+The Employee Self-Service agent is designed to have separate extension packs for third-party external system solutions like ServiceNow. As a result, these extension packs must be installed first before starting any configurations or customizations.
 
 The following steps are required to install and enable the ServiceNow HRSD extension pack:
 
@@ -237,7 +237,7 @@ The following steps are required to install and enable the ServiceNow HRSD exten
 
 ### Install ServiceNow ITSM extension pack
 
-The Employee Self-Service agent is designed to have separate extension packs for each third party ISVs like ServiceNow, and so on. As a result, these extension packs must be installed before starting any configurations or customizations.
+The Employee Self-Service agent is designed to have separate extension packs for each third party external system solutions like ServiceNow, and so on. As a result, these extension packs must be installed before starting any configurations or customizations.
 
 These steps are required to install and enable the ServiceNow HRSD extension pack:
 

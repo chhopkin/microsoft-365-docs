@@ -60,7 +60,7 @@ We recommend you set up Copilot Studio capacity to monitor capacity usage of the
 |Environment Maker |User who can customize the Employee Self-Service agent |1. Install and configure Workday extension pack </br>2. Manage Workday Topics</br> 3. Set up user context |Microsoft Copilot Studio |
 |InfoSec/ IT Infrastructure/ Change control board |User committee responsible for security infrastructure changes |Configure IT platform services such as network and firewall rules |Network firewall policies |
 
-## Infrastructure setup for third-party ISV integration
+## Infrastructure setup for third-party external system solution integration
 
 Most enterprise organizations secure their HR management systems and knowledge sources from external networks, as it's critical to protect sensitive information about employees, organizations, knowledge assets, and more.
 
@@ -231,7 +231,7 @@ Security configuration to support Employee Self-Service agent features for full-
 
 ## Install the Workday Extension Pack for the Employee Self-Service agent
 
-The Employee Self-Service agent is designed to have separate extension packs for each third-party ISV. You need to install the extension packs before starting any configurations or customizations.
+The Employee Self-Service agent is designed to have separate extension packs for each third-party external system solution. You need to install the extension packs before starting any configurations or customizations.
 
 The following steps are required to install and enable the Workday Extension Pack:
 

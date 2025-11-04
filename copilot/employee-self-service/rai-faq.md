@@ -78,24 +78,24 @@ This topic isn't a replacement for human care or decision-making. It enhances re
 
 ## What operational factors and settings allow for effective and responsible use of Employee Self-Service?
 
-The Employee Self-Service agent provides authoritative responses based on the knowledge sources added and the ISV packages configured. To provide users with authoritative responses, add appropriate knowledge sources, or configure ISV packages.
+The Employee Self-Service agent provides authoritative responses based on the knowledge sources added and the external system solution packages configured. To provide users with authoritative responses, add appropriate knowledge sources, or configure external system solution packages.
 
 ## How do I provide feedback on Employee Self-Service?
 
 To provide feedback on the Employee Self-Service agent, you can use the thumbs up or thumbs down buttons at the bottom of your Microsoft 365 Copilot results.
 
-## Does the data retrieved from 3P ISVs pass through Copilot RAI?
+## Does the data retrieved from 3P external system solutions pass through Copilot RAI?
 
-If the ISV data is returned directly, such as inserting values like employee numbers into predefined starters without modification, it bypasses Copilot RAI. However, if the data is processed using a large language model (LLM) to generate a summarized or narrative response, such as explaining the meaning of a specific policy along with its value, then it goes through the summarization node. This action triggers Copilot RAI. This approach is also used for content like knowledge base articles, where the system may either return the article as-is or synthesize a concise summary using LLMs. In short, Copilot RAI is engaged only when LLM-based summarization or transformation of ISV data is involved.
+If the external system solution data is returned directly, such as inserting values like employee numbers into predefined starters without modification, it bypasses Copilot RAI. However, if the data is processed using a large language model (LLM) to generate a summarized or narrative response, such as explaining the meaning of a specific policy along with its value, then it goes through the summarization node. This action triggers Copilot RAI. This approach is also used for content like knowledge base articles, where the system may either return the article as-is or synthesize a concise summary using LLMs. In short, Copilot RAI is engaged only when LLM-based summarization or transformation of external system solution data is involved.
 
 ## What are plugins and how does Employee Self-Service use them?
 
-Employee Self-Service provides out-of-box topics and ISV packages (HR and IT connectors in the customize tab) to be used as per your business requirements. These topics can be customized as per your requirements, and you can also add your own topics.
+Employee Self-Service provides out-of-box topics and external system solution packages (HR and IT connectors in the customize tab) to be used as per your business requirements. These topics can be customized as per your requirements, and you can also add your own topics.
 
 ## What data can Employee Self-Service provide to plugins? What permissions do Employee Self-Service plugins have?
 
-Employee Self-Service doesn't provide any specific data until the point Power Platform admin configures a knowledge source, or ISV packages. For adding SharePoint as a knowledge source, SharePoint permissions apply by default. For an ISV package, it depends on the permissions granted by the tenant and the permissions the users have for the ISV tools.
+Employee Self-Service doesn't provide any specific data until the point Power Platform admin configures a knowledge source, or external system solution packages. For adding SharePoint as a knowledge source, SharePoint permissions apply by default. For an external system solution package, it depends on the permissions granted by the tenant and the permissions the users have for the external system solution tools.
 
 ## What kinds of issues may arise when using Employee Self-Service enabled with plugins?
 
-Connection failures to connected knowledge source or ISV package may lead to access error respectively. To mitigate such errors, connection to knowledge source or ISV package needs to be verified and corrected.
+Connection failures to connected knowledge source or external system solution package may lead to access error respectively. To mitigate such errors, connection to knowledge source or external system solution package needs to be verified and corrected.

@@ -53,7 +53,7 @@ The Employee Self-Service agent performs LLM compute for the following scenarios
 Use the following sample benchmarks to understand capacity planning for Employee Self-Service agent deployment:
 
 >[!IMPORTANT]
->These samples are for reference only. Each deployment of the Employee Self-Service agent varies within the number of flows, actions, and more depending on the level of customization, including use of third-party ISV packages.
+>These samples are for reference only. Each deployment of the Employee Self-Service agent varies within the number of flows, actions, and more depending on the level of customization, including use of third-party external system solution packages.
 
 #### Sample 1: Last 28 days (28d)
 
@@ -131,8 +131,8 @@ The ESS Agent includes several different technical components and configuration 
 |Global admin |User who has permissions to configure and delegate other roles |Assign user roles |Microsoft admin center |
 |Power Platform administrator |User who has power to configure Power Platform environments and assign roles within Power Platform |- Create environments </br> - Assign user roles </br> - Install the Employee Self-Service agent |- Power Platform </br> - Microsoft Copilot Studio |
 |Power Platform maker |User who has permission to make changes in a specific Power Platform environment. We recommend you have the agent owner for this agent perform this role. |Configure the Employee Self-Service agent |- Power Platform </br> - Microsoft Copilot Studio |
-|ISV administrators |Users who manage third-party solutions |Provide configuration inputs for ISV applications |ISV application's administration and configuration interface |
-|Information security |Infrastructure team who manages and controls enterprise application security policies |- Allowlist inbound requests for ISV endpoints </br>- Manage single sign-on configurations |- Network firewall policies </br>- Single sign-on applications |
+|External system solution administrators |Users who manage third-party solutions |Provide configuration inputs for external system solution applications |External system solution application's administration and configuration interface |
+|Information security |Infrastructure team who manages and controls enterprise application security policies |- Allowlist inbound requests for external system solution endpoints </br>- Manage single sign-on configurations |- Network firewall policies </br>- Single sign-on applications |
 |Change control board |Team that manages changes in an organization relating to deploying an enterprise application |- Approve technical architecture </br> - Approve data security, compliance, and governance policies </br> - Approve responsible AI policies |N/A |
 
 [Learn more about role-based security roles for Power Platform](/power-platform/admin/database-security)

@@ -66,15 +66,15 @@ You can refer to the Employee Self-Service agent deployment guide for subscripti
 |**Environment Maker** |User customizing the Employee Self-Service agent. |1. Install and configure SAP SF extension pack. <br>2. Manage SAP SF topics. <br>3. Setup User Context. |Microsoft Copilot Studio |
 |**InfoSec/IT Infra/Change Control Board** |User committee responsible for security infrastructure changes. |Configure IT platform services such as network and firewall rules. |Network firewall policies |
 
-### Infra set up for 3P ISV integration
+### Infra set up for third-part external system solution integration
 
-Most enterprise organizations secure their 3P HCMs/Knowledge Sources from external networks, as the line of business must protect sensitive information about employees, organizations, knowledge assets, and so on.
+Most enterprise organizations secure their third-party HCMs/Knowledge Sources from external networks, as the line of business must protect sensitive information about employees, organizations, knowledge assets, and so on.
 
 When you need to integrate these enterprise systems into the Employee Self-Service agent to use it as a source for providing relevant information to the end users, these systems should be accessible to the Power Platform environment hosting the Employee Self-Service agent.
 
 These systems must be configured with allowlists for the source IP addresses from where the Employee Self-Service agent is hosted and executed, that is, Power Platform environment. For more information, see [Power Platform URLs and IP address ranges - Power Platform](/power-platform/admin/online-requirements).
 
-For more information on 3P ISV connectors, see [Managed connectors outbound IP addresses](/connectors/common/outbound-ip-addresses#power-platform).
+For more information on third-party external system solution connectors, see [Managed connectors outbound IP addresses](/connectors/common/outbound-ip-addresses#power-platform).
 
 For SAP SuccessFactors (SF) integration, as the Employee Self-Service agent uses OData v2.0, you need to work with InfoSec to allowlist Power Platform connectors to communicate with this endpoint. If any extra data security requirements need to be met, especially for OData exchange, work with your security specialists to harden the security for data in-transit.
 
@@ -192,7 +192,7 @@ For more information on setting up SSO for SAP SuccessFactors with Microsoft Ent
 
 ### Install SuccessFactors extension pack for the Employee Self-Service agent
 
-The Employee Self-Service agent is designed to have separate extension packs for each third party ISV, like SuccessFactors. Hence, these extension packs must be installed before starting any configurations or customizations.
+The Employee Self-Service agent is designed to have separate extension packs for each third party external system solution, like SuccessFactors. As a result, these extension packs must be installed before starting any configurations or customizations.
 
 These steps are required to install and enable the SuccessFactors extension pack:
 

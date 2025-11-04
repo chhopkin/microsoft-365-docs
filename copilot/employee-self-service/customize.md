@@ -27,7 +27,7 @@ Customization is how you make the Employee Self-Service agent work in the best w
 |Role |Activities to perform |Configuration area |
 |-----|----------------------|-------------------|
 |Environment Maker </br>Owner of the Employee Self-Service agent |- Set up user context </br>- Customize the Employee Self-Service agent |Microsoft Copilot Studio |
-|ISV Administrators </br>Service owners of specific applications |Provide configuration inputs such as URLs, OAUTH tokens, and more |ISV configuration |
+|External system solution Administrators </br>Service owners of specific applications |Provide configuration inputs such as URLs, OAUTH tokens, and more |External system solution configuration |
 |HR </br>IT </br>Legal </br>Privacy |-Identify knowledge sources </br>-Provide frequent queries </Identify sensitive queries> | N/A |
 
 ## Understanding components
@@ -111,7 +111,7 @@ The following Topics are available in the current package version:
 
 |Topic |Type |Trigger |Enabled (default) |When to use |
 |------|-----|--------|------------------|------------|
-|[Admin] - User Context - Setup |Topic |On redirect |On |Set user context for retrieval topics from different sources including ISV extension packs. Topics is required. |
+|[Admin] - User Context - Setup |Topic |On redirect |On |Set user context for retrieval topics from different sources including external system solution extension packs. Topics is required. |
 |[Example] - Crafted Response |Topic |By agent |Off |Display a verbatim message that includes an **Official Answer** for more control over certain situations. |
 |[Example] - Sensitive Topics |Topic |By agent |Off |Edit responses for sensitive topics to help users navigate potentially harmful conversations. |
 |[System] - Log Telemetry Event |Topic |On redirect |On |Log events and other details for internal debugging and agent management purposes. |
@@ -138,7 +138,7 @@ Terms to know:
 
 **Topic JTBD:** Redirect User Context retrieval topics and attributes from other data sources to improve response relevancy.
 
-**Maker JTBD:** Maker needs to add redirection of the User Context retrieval topics from different Employee Self-Service agent ISV packages. Or, if Makers configure other Topics to retrieve User Context attributes from other systems, then they should also be added as Topic redirections in this Topic.
+**Maker JTBD:** Maker needs to add redirection of the User Context retrieval topics from different Employee Self-Service agent external system solution packages. Or, if Makers configure other Topics to retrieve User Context attributes from other systems, then they should also be added as Topic redirections in this Topic.
 
 **Maker - What to customize:** </br>
 **Requirement to use:** None.
@@ -151,7 +151,7 @@ Terms to know:
 |1    |Open the Employee Self-Service agent in Copilot Studio. |Employee Self-Service agent available to customize. |
 |2    |Navigate to **Topics** to see the list of Topics. |Shows Custom Topics. |
 |3    |Select **[Admin] User Context - Setup**. |Opens custom topic in the design canvas. |
-|4    |Add a redirect to another Topic where it sets the user context, such as one from an ISV. |Maker able to set user context. |
+|4    |Add a redirect to another Topic where it sets the user context, such as one from an external system solution. |Maker able to set user context. |
 |5    | Save the changes. |Your changes are saved. |
 
 #### [System] Response Preparation
@@ -285,7 +285,7 @@ Edit the default template for each error message that you want to change to a cu
 
 **Default:** On
 
-**Topic JTBD:** View telemetry in Application Insights to help the Maker with debugging tickets for any event. Example: A user gets an error from an ISV when trying to create a ticket.
+**Topic JTBD:** View telemetry in Application Insights to help the Maker with debugging tickets for any event. Example: A user gets an error from an external system solution when trying to create a ticket.
 
 **Maker JTBD:** Install App Insights and configure the event and redirect message.
 

@@ -27,7 +27,7 @@ There are several steps necessary to deploy the Employee Self-Service agent. Ref
 |Role                         |Development environment |Production environment |
 |-----------------------------|------------------------|-----------------------|
 |Power Platform administrator |- Create environment for development and testing. </br>- Create a preferred custom solution. |Create an environment for production rollout. |
-|Copilot Studio maker         |- Install the Employee Self-Service agent. </br>- Install ISV extension packs and set up connectors. </br>- Customize and test. </br>- Export as a managed solution. |-Install the Employee Self-Service agent. </br>- Import customization solution. </br>- Test. </br>- Publish. |
+|Copilot Studio maker         |- Install the Employee Self-Service agent. </br>- Install external system solution extension packs and set up connectors. </br>- Customize and test. </br>- Export as a managed solution. |-Install the Employee Self-Service agent. </br>- Import customization solution. </br>- Test. </br>- Publish. |
 
 ## Deployment stages
 
@@ -36,13 +36,13 @@ There are four stages in deploying the Employee Self-Service agent.
 1. Prepare:
     1. Set up roles.
     1. Set up your environment.
-    1. Infra, set up for third-party ISV integration.
+    1. Infra, set up for third-party external system solution integration.
 2. Install:
     1. Install the Employee Self-Service agent.
-    1. Install third-party ISV packages.
+    1. Install third-party external system solution packages.
 3. Customize:
     1. Configure the core Employee Self-Service agent.
-    1. Provide third-party ISV configurations.
+    1. Provide third-party external system solution configurations.
     1. Identify knowledge sources.
     1. Provide frequent queries.
     1. Identify sensitive queries.
@@ -88,10 +88,10 @@ Every organization has their own ALM process to deploy and test enterprise appli
 The Employee Self-Service agent has three distinct persona experiences:
 
 1. Administrator: Prepare the tenant to deploy, configure, and operate the Employee Self-Service agent with the correct roles assigned to identified administrators.
-1. Environment maker: Install, configure, and publish the agent, including third-party ISV packages.
+1. Environment maker: Install, configure, and publish the agent, including third-party external system solution packages.
 1. User: Consume the Employee Self-Service agent within Microsoft Teams or Microsoft 365 Copilot chat. Users' data is harnessed from Microsoft 365 Graph.
 
-These experiences are within the boundary of a single tenant, whereas the environment maker's experience installing and publishing the agent can vary among different environments within Power Platform. We recommend you establish ALM environments, such as Developer, Test, and Production, for publishing and testing the Employee Self-Service agent. Each of the third-party ISV applications can also be connected to the respective environments if each application has their own ALM instances (such as Developer, Test, and Production).
+These experiences are within the boundary of a single tenant, whereas the environment maker's experience installing and publishing the agent can vary among different environments within Power Platform. We recommend you establish ALM environments, such as Developer, Test, and Production, for publishing and testing the Employee Self-Service agent. Each of the third-party external system solution applications can also be connected to the respective environments if each application has their own ALM instances (such as Developer, Test, and Production).
 
 > [!NOTE]
 > We recommend you have end users using a live production tenant to make use of recent and meaningful user-object interactions in Microsoft Graph.
