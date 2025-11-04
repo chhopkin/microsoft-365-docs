@@ -1,5 +1,5 @@
 ---
-title: How to do advanced filtering in SharePoint for Employee Self-Service
+title: Use SharePoint advanced for knowledge Employee Self-Service
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
@@ -19,7 +19,7 @@ appliesto:
 
 # SharePoint Advanced Filtering (CPS) How-To
 
-When employees ask Employee Self-Service agent questions like "What is my holiday policy?", the system sometimes shows policies for multiple countries (for example, US, India, France) instead of just the one that applies to the employee. This happens because ESS retrieves all matching SharePoint documents but doesn't apply user-specific filters (like country, region, or company code) during the search.
+When employees ask questions like "What is my holiday policy?", the Employee Self-Service agent sometimes shows policies for multiple countries (for example, US, India, France) instead of just the one that applies to the employee. This happens because ESS retrieves all matching SharePoint documents but doesn't apply user-specific filters (like country/region or company code) during the search.
 
 We can personalize results by telling the Employee Self-Service agent to only return SharePoint documents that match the employee's profile, such as their location or company code.
 
@@ -32,7 +32,7 @@ This works in two parts:
 
 ### Prerequisites
 
-1. Decide the attributes to filter on (some examples include Company_Code, Country, Location, Department).
+1. Decide the attributes to filter on (some examples include Company_Code, Country/Region, Location, Department).
 1. Verify SharePoint metadata exists on the target content (site columns filled on pages/docs).
 1. Find the managed property that maps to that column: **SharePoint Admin Center** > **More features** > **Search** > Manage Search Schema.
     1. Confirm the property you'll use (such as RefinableString100) is Searchable/Queryable/Refinable.
