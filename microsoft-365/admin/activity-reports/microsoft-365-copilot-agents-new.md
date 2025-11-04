@@ -3,7 +3,6 @@ title: "Microsoft 365 reports in the admin center – Agent usage"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.date: 08/26/2025
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-copilot
@@ -24,20 +23,18 @@ search.appverid:
 - MOE150
 description: "Learn about agent usage in your Microsoft 365 environment and gain insights into the activity in your organization."
 ROBOTS: NOINDEX, NOFOLLOW
+ms.date: 11/11/2025
 ---
 
 # Microsoft 365 reports in the admin center – Agent usage
 
-The Agent usage report helps you track how agents are being used in Microsoft 365 Copilot Chat and Microsoft 365 apps –Word, Excel, and PowerPoint. You can see which agents (built by your org, Microsoft and Microsoft Partners) are being used by both licensed and unlicensed Microsoft 365 Copilot users.
+The Agent usage report helps you track how agents are being used in Microsoft 365 Copilot Chat and Microsoft 365 apps –Word, Excel, and PowerPoint. You can see which agents (built by your org, Microsoft and Microsoft Partners) are being used by both licensed and unlicensed Microsoft 365 Copilot users across Declarative, SharePoint and Custom engine agents.
 
 You can view usage within an hour from when users interact with agents, and the report includes key metrics such as:
 
 - Total active users and agents
 - Summary and daily time series
 - Active usage per user, per agent and per agent-user pair
-
-> [!NOTE]
-> Currently, this report only includes declarative agents. Usage data for SharePoint agents and custom engine agents will be available in a future update.
 
 [!INCLUDE [agent-builder-mcs-lite](../../includes/agent-builder-mcs-lite.md)]
 
@@ -54,7 +51,7 @@ You can use this report to see the usage of Microsoft 365 Copilot agents in your
 At the top of the report, you can filter by different periods. The agent report can be viewed over the last 7 days, 30 days.
 
 > [!NOTE]
-> The data in the Agent usage preview report is available starting August 19, 2025.
+> The data for declarative agents in Agent usage preview report is available as of August 19, 2025. For SharePoint agents and Custom engine agents, it's available as of November 7, 2025.
 
 :::image type="content" source="../../media/agent-filters-and-metrics.png" alt-text="Screenshot showing the active agents metrics for Microsoft 365 Copilot.":::
 
@@ -64,7 +61,7 @@ At the top of the report, you can filter by different periods. The agent report 
 
 **Active users (unlicensed)** shows you how many unique users in your org, who did not have a Microsoft 365 Copilot license and used agents in Microsoft 365 Copilot Chat during the selected time period.  
 
-**Total active agents** shows you how many unique apps with a declarative agent element in that app with at least one active user over the selected time period (see [Declarative agents FAQ](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps)). This includes agents that have been created by your org including both admin approved and shared by users in your org are included, Microsoft built agents and agents built by Microsoft partners.
+**Total active agents** shows you how many unique apps with an agent element in that app with at least one active user over the selected time period. This includes agents that have been created by your org including both admin approved and shared by users in your org are included, Microsoft built agents and agents built by Microsoft partners.
 
 End-users interact with agents in two ways: either by at-mentioning the agent in a chat experience or by selecting the agent from the left-side panel in Microsoft 365 Copilot Chat or from the hamburger menu on the top left corner in Microsoft 365 Copilot in Word, Excel or PowerPoint. An active user of an agent is a user who sends a prompt request to an agent and receives a response.
 
@@ -205,3 +202,11 @@ By default, the Username and Display name in the usage report is anonymized. Glo
 
 1. In the Microsoft 365 admin center, go to **Settings > Org Settings**, and under the **Services** tab, select **Reports**.
 2. Select **Reports**, and un-check **Display Concealed user, group, and site names in all reports** to view the Username and Displayname. Then select **Save**. To conceal the Username and Display name, simply check the setting, and save your changes.
+
+### Are SharePoint agents used in Teams included in the usage report?
+
+No. SharePoint agents used in Teams aren't currently included in the usage metrics in the report. For more information, see [Share an agent from SharePoint in Teams - Microsoft Support](https://support.microsoft.com/en-us/office/share-an-agent-from-sharepoint-in-teams-6dcbf7b5-8c13-44e5-a68a-dbd71fb76ad3).
+
+### Why is the Total active users smaller than the sum of unlicensed plus licensed user counts for my organization?
+
+This can happen if a user's Microsoft 365 Copilot license changed during the selected time period. For example, the user was assigned a Copilot license and later had it removed within that same period.
