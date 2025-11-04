@@ -61,7 +61,7 @@ items:
           href: servicenow-hrsd-itsm.md
         - name: ServiceNow Live agent
           href: servicenow-live-agent.md
-- name: Usage analytics for the Employee Self-Service agent
+- name: Usage analytics, feedback, audits, logging
   href: usage-analytics.md
 - name: Known issues and limitations
   href: known-issues-limitations.md
