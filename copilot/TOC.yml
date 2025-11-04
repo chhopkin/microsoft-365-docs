@@ -198,7 +198,7 @@ items:
       - name: App Builder agent
         items:
         - name: Overview of App Builder
-          href: responsible-ai/app-builder-agent.md
+          href: responsible-ai/faq-app-builder.md
         - name: App Builder privacy and data subject request (DSR) FAQ
           href: app-builder-privacy-data-subject-request-faq.md
       - name: Workflows agent
