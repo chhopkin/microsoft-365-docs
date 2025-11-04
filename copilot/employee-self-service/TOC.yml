@@ -49,7 +49,7 @@ items:
             - name: Prompts
               href: workday-prompts-support-config.md
             - name: Output
-              href: workday-output-support-configur.md
+              href: workday-output-support-config.md
             - name: Share
               href: workday-share-support-config.md
             - name: Advanced
