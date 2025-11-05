@@ -217,7 +217,7 @@ For more information about roles, see [admin roles in the Microsoft 365 admin ce
 
 In the Copilot Control System within Microsoft 365 admin center, you can manage the following overall Copilot settings:
 
-- User access to Copilot in different products and services
+- User access to Copilot in different products or services where controls are available
 - Copilot data access when securely retrieving and handling information
 - Copilot actions pertaining to available functionality and use
 - Additional settings about how Copilot can be used
