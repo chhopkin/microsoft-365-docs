@@ -163,12 +163,6 @@ Perform tasks 1 and 2 from the previous section, [Microsoft Entra ID OAuth using
 - In task 1, add the application using the ServiceNow connector to the permission scope with Client ID = `c26b24aa-7874-4e06-ad55-7d06b1f79b63`.
 - In task 2, update the user claim to UPN or any other custom claim property from the token in ServiceNow. The user field should match the ServiceNow system user table field containing the UPN or user ID.
 
-### Share connection parameters
-
-The ServiceNow connections are configured by the agent maker which need to be shared with all users so that the users are not prompted for authentication the first time the agent is being used with a ServiceNow connection.
-
-Follow the steps in the [Create and manage connections](/microsoft-copilot-studio/authoring-connections#share-connection-parameters-for-on-behalf-of-obo-authentication) article to share connection parameters for On-Behalf-Of (OBO) authentication.
-
 ### OAuth2 authentication - Create an OAuth Application Registry
 
 1. Sign in to the ServiceNow instance that needs to be integrated with the Employee Self-Service agent.
@@ -195,6 +189,12 @@ Follow the steps in the [Create and manage connections](/microsoft-copilot-studi
    | **Client Type** | Integration as a Service |
 
 9. Select **Submit** or **Update** button to save the changes.
+
+### Share connection parameters
+
+The ServiceNow connections are configured by the agent maker which need to be shared with all users so that the users are not prompted for authentication the first time the agent is being used with a ServiceNow connection.
+
+Follow the steps in the [Create and manage connections](/microsoft-copilot-studio/authoring-connections#share-connection-parameters-for-on-behalf-of-obo-authentication) article to share connection parameters for On-Behalf-Of (OBO) authentication.
 
 ### Connector preparation
 
