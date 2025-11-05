@@ -120,7 +120,7 @@ The following Topics are available in the current package version:
 |[Example] - Sensitive Topics |Topic |By agent |Off |Edit responses for sensitive topics to help users navigate potentially harmful conversations. |
 |[System] - Log Telemetry Event |Topic |On redirect |On |Log events and other details for internal debugging and agent management purposes. |
 |[System] - On Error |System Topic |On error |On |Edit general error messages for common scenarios to improve engagement and task completion. |
-|[System] - Reset Conversation |Topic |Activity received |Off |Conversation cache times out to help improve engagement. |
+|[System] - Reset Conversation |Topic |Activity received |Off |Times out User context cache to help fetch the latest user context data. |
 |[System] - Response Preparation |Topic |On generated response |On |Add an official source badge with a custom disclaimer message for authoritative responses. </br>Known issue: This badge shows only in Copilot chat and can't be tested in Copilot Studio. |
 |[System] - User Context - Init variables |Topic |On redirect |On |Improve performance by updating and caching user context attributes to default values. </br>*No customizations available*. |
 |[System] - User Context - Validate |Topic |Activity received |On |User context attributes refreshed. </br>*No customizations available*. |
@@ -307,8 +307,10 @@ Customization is optional.
 
 **Topic JTBD:** Enables first-party connector that provides Microsoft 365 IT self help for employees.
 
->[!NOTE]
->This Topic is turned off by default so that your organization can use its own specific knowledge base for employee self help. Even if this Topic is enabled, it triggers only unknown intents. This design means that a query doesn't match the configured knowledge sources and/or other custom Topics in the agent.
+> [!NOTE]
+> This topic is only available in the IT template.
+> 
+> This Topic is turned off by default so that your organization can use its own specific knowledge base for employee self help. Even if this Topic is enabled, it triggers only unknown intents. This design means that a query doesn't match the configured knowledge sources and/or other custom Topics in the agent.
 
 **Maker JTBD:** Enable or disable based on organizational needs.
 
@@ -427,9 +429,6 @@ Published agents that contain knowledge use the configured knowledge sources to 
 You can incorporate knowledge sources into agents during initial creation, after the agent is created, or in a generative answers topic node.
 
 [Learn more about knowledge sources and supported types in Copilot Studio.](/microsoft-copilot-studio/knowledge-copilot-studio)
-
->[!NOTE]
->The Employee Self-Service agent currently only has agent-level knowledge sources and no Topic-level knowledge sources included.
 
 >[!TIP]
 >There's an **Official source** option within Copilot Studio. We recommend you *not* use this option when configuring Employee Self-Service agent knowledge sources. The Employee Self-Service agent applies the official source badge as part of response preparation. Enabling this option in Copilot Studio doesn't have any effect in the Employee Self-Service agent.
