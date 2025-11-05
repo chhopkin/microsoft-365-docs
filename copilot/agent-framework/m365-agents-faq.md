@@ -40,3 +40,13 @@ Extensibility options include using Copilot out of the box (OOTB), agents, conne
 | Connectors | Prebuilt Graph connectors catalog to index external systems (e.g., GitHub, Slack, Zendesk) into Microsoft Graph for grounding in Copilot and agents | Build your own<br/><br/>Create custom Graph connectors and Power Platform connectors<br/><br/>Makers can attach these as Copilot connectors to agents for knowledge and actions | Fabric AI skills + connector governance<br/><br/>Curate an org catalog<br/><br/>Manage usage in the Microsoft 365 admin center<br/><br/>Combine real-time actions with indexed knowledge in agent designs |
 | Notebooks | Copilot Notebooks as a first-party space inside Copilot for structured problem-solving alongside Chat<br/><br/>Part of the unified experience with Chat, Agents, and Create | Use Notebooks to compose multi-step prompts, attach/ground with org content, and hand off to agents you (or your team) created to perform steps<br/><br/>Keeps context continuity | Pair Notebooks with advanced agents (e.g., Researcher/Analyst style reasoning) to orchestrate deeper investigations and repeatable workflows across data/connectors |
 
+### Who can create, build, and share Copilot extensibility options?
+
+The following table summarizes what users, makers, developers, and administrators can do across extensibility options.
+
+| Extensibility option | Who Can Create | Who Can Build (Customize) | Who Can Share |
+|--|--|--|--|
+| Copilot (OOTB) | End users with a Microsoft 365 Copilot license (no extra steps required) | Not applicable (OOTB Copilot is prebuilt; customization happens via agents or connectors) | End users can share Copilot outputs (documents, chats) using standard Microsoft 365 sharing permissions; governed by existing Microsoft 365 policies |
+| Agents | End users: Create declarative agents in Copilot Studio (lite) or SharePoint if enabled by tenant settings (requires Copilot license or Pay-as-you-go subscription)<br/><br/>Makers: Use Copilot Studio (lite or full) for low-code agents<br/><br/>Developers: Use Copilot Studio SDK or Agents Toolkit for pro-code agents | Makers and developers can add actions, connectors, and advanced logic in Copilot Studio or via  Microsoft 365 Agents Toolkit | 
+Members of your organization can sideload agents, share agents, and publish agents. Additionally, developers can submit agents to the marketplace. These capabilities are governed by tenant policies and admin controls in Microsoft 365 admin center | 
+
