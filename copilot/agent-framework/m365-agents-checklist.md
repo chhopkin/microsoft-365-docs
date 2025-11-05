@@ -51,10 +51,9 @@ As an admin, you can configure and deploy out-of-the-box agents without having t
 
 | Step  | Task  | Description  | Administrator  |
 |---|---|---|---|
-| 1  | [Choose the right Copilot Studio experience](/microsoft-365-copilot/extensibility/copilot-studio-experience)  | <ul><li>[Create SharePoint agents](https://support.microsoft.com/office/create-a-sharepoint-agent-d16c6ca1-a8e3-4096-af49-67e1cfdddd42)</li><li>[Use Copilot Studio (lite) to create declarative agents](/microsoft-365-copilot/extensibility/copilot-studio-lite)</li>
-<li>[Use Copilot Studio (full) to create agents](/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext)</li><li>[Use Microsoft 365 Agents Toolkit to create agents](/microsoft-365/developer/overview-m365-agents-toolkit?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json)</li>  |  |
+| 1  | [Choose the right Copilot Studio experience](/microsoft-365-copilot/extensibility/copilot-studio-experience)  | <ul><li>[Create SharePoint agents](https://support.microsoft.com/office/create-a-sharepoint-agent-d16c6ca1-a8e3-4096-af49-67e1cfdddd42)</li><li>[Use Copilot Studio (lite) to create declarative agents](/microsoft-365-copilot/extensibility/copilot-studio-lite)</li><li>[Use Copilot Studio (full) to create agents](/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext)</li><li>[Use Microsoft 365 Agents Toolkit to create agents](/microsoft-365/developer/overview-m365-agents-toolkit?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json)</li></ul>  |  |
 | 2  | [Plan your agent](/microsoft-365-copilot/extensibility/planning-guide)  | Define your objectives, technical requirements, costs, RAI considerations, and development approach. |  |
-| 3  | [Consider licensing and cost options]/microsoft-365-copilot/extensibility/cost-considerations()  | Before you create an agent, consider the associcated licensing and consumption costs.  |  |
+| 3  | [Consider licensing and cost options](/microsoft-365-copilot/extensibility/cost-considerations)  | Before you create an agent, consider the associcated licensing and consumption costs.  |  |
 | 4  | [Set up your development environment](/microsoft-365-copilot/extensibility/prerequisites)  | If you creating a custom agent, consider how you will set up your development environment.  |  |
 
 ## Create agents in Copilot Studio (lite)
