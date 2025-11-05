@@ -93,11 +93,11 @@ The following governance options are available for Copilot agents:
 
 Yes. Reports are available to help administrators monitor licenses, agents, and deployments. Custom reports can also be created. See [Copilot Control System measurement and reporting](/copilot/microsoft-365/copilot-control-system/security-governance).
 
-## Can administrators control data sources used by Copilot, agents, connectors, and notebooks?
+## Can administrators control data sources used by Copilot agents and connectors?
 
-Yes, administrators can control data sources that are used. Administrators can also control Copilot features, sharing, block/unblock agents, and more. In general, here are resources administrators can use: 
+Yes, administrators can control data sources that are used. Administrators can also control Copilot features, sharing, block/unblock agents, and more.
 
-- Administrators use Copilot Control System for agents and Power Platform Admin Center for connectors
+- Administrators can use Copilot Control System for agents and Power Platform Admin Center for connectors
 - Microsoft Purview provides unified audit and compliance across all extensibility options
 - Inventory and lifecycle controls help manage shared or ownerless agents
 
