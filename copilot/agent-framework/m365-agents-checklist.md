@@ -18,7 +18,7 @@ description: Learn about Microsoft 365 Agents.
 
 # Microsoft 365 agents deployment checklist
 
-This checklist is intended to assist admins with the successful deployment of Copilot agent governance. It is structured in a checklist format, providing a comprehensive guide for a streamlined setup process.
+This checklist is intended to assist admins with the successful deployment of Copilot agent governance. This checklisdt provides a comprehensive guide to help you understand, set up, manage, and deploy agents.
 
 **Required administrators for the engagement**:
 
@@ -53,12 +53,12 @@ As an admin, you can configure and deploy out-of-the-box agents without having t
 |---|---|---|---|
 | 1  | [Choose the right Copilot Studio experience](/microsoft-365-copilot/extensibility/copilot-studio-experience)  | Agent development tools:<ul><li>[Create SharePoint agents](https://support.microsoft.com/office/create-a-sharepoint-agent-d16c6ca1-a8e3-4096-af49-67e1cfdddd42)</li><li>[Use Copilot Studio (lite) to create declarative agents](/microsoft-365-copilot/extensibility/copilot-studio-lite)</li><li>[Use Copilot Studio (full) to create agents](/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext)</li><li>[Use Microsoft 365 Agents Toolkit to create agents](/microsoft-365/developer/overview-m365-agents-toolkit?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json)</li></ul>  |  |
 | 2  | [Plan your agent](/microsoft-365-copilot/extensibility/planning-guide)  | Define your objectives, technical requirements, costs, RAI considerations, and development approach. |  |
-| 3  | [Consider licensing and cost options](/microsoft-365-copilot/extensibility/cost-considerations)  | Before you create an agent, consider the associcated licensing and consumption costs.  |  |
-| 4  | [Set up your development environment](/microsoft-365-copilot/extensibility/prerequisites)  | If you creating a custom agent, consider how you will set up your development environment.  |  |
+| 3  | [Consider licensing and cost options](/microsoft-365-copilot/extensibility/cost-considerations)  | Before you create an agent, consider the associated licensing and consumption costs.  |  |
+| 4  | [Set up your development environment](/microsoft-365-copilot/extensibility/prerequisites)  | If you creating a custom agent, consider how you set up your development environment.  |  |
 
 ## Create agents in Copilot Studio (lite)
 
-Using Copilot Studio (lite), members of your organization can create declarative agents that they can share across your organization. For more information, see [Create agents in Copilot Studio (lite)](/microsoft-365-copilot/extensibility/agents-overview).
+Members of your organization can create declarative agents that they can share across your organization using Copilot Studio (lite). For more information, see [Create agents in Copilot Studio (lite)](/microsoft-365-copilot/extensibility/agents-overview).
 
 | Step  | Task  | Description  | Administrator  |
 |---|---|---|---|
@@ -94,5 +94,5 @@ When you need to provide powerful AI assistants that retrieve real-time insights
 | 6  | [Add triggers](/microsoft-copilot-studio/authoring-triggers-about)  | Event triggers allow your agent to act autonomously in response to the defined event occurring.  |  |
 | 7  | [Publish an agent](/microsoft-copilot-studio/publication-fundamentals-publish-channels)  | You can publish agents to engage with your customers on multiple platforms or channels, such as live websites, mobile apps, Microsoft 365 Copilot or messaging platforms like Teams and Facebook.  |  |
 
-## Manage M365 Copilot agent inventory and lifecycle
+## Manage Microsoft 365 Copilot agent inventory and lifecycle
 
