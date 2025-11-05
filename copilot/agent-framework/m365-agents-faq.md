@@ -50,7 +50,7 @@ For more information, see [Manage access to Copilot agents](/microsoft-365/admin
 
 ## What tools do I need to create, build, implement, and use Copilot agents?
 
-Depending on whether you are using out-of-the-box capabilities, declarative agents, or custom agents, different tools are available.
+Depending on what you want to do, Copilot agent tools are available, as summarized in the following table:
 
 | Scenario | Tool |
 |--|--|
