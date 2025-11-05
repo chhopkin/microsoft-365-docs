@@ -115,12 +115,15 @@ You need to follow the publishing steps again if any of these steps fail.
 
 ## Uninstall the Employee Self-Service agent
 
-Follow these steps if you need to delete the Employee Self-Service agent:
+### Core Employee Self-Service agent
+
+Follow these steps if you need to uninstall and delete the Employee Self-Service agent:
 
 1. Sign in to Copilot Studio.
 1. Select the environment where the Employee Self-Service agent is installed and needs to be uninstalled.
 1. Select **Agents** from the left navigation.
-1. Select **Employee Self Service**.
+1. Select the respective vertical agent installed for Employee Self-Service agent.
+1. Delete all the dependencies, such as knowledge source configuration and other customizations applied, before deleting the solution itself. Otherwise the solution can't be deleted. [Learn more](/power-platform/alm/removing-dependencies) about removing dependencies in Power Platform.
 1. In the Employee Self-Service agent page, select the ellipsis (**...**) in the upper right pane next to **Test**.
 1. Select the **Delete** option from the dropdown.
 1. A popup window appears directing you to Power Apps Solutions.
@@ -128,3 +131,27 @@ Follow these steps if you need to delete the Employee Self-Service agent:
 1. Identify the **Preferred solution** that you set up during the [installation](install.md) stage for saving customizations in the agent.
 1. In the solutions page, select the vertical ellipsis in the context menu and choose **Delete**.
 1. Choose **Delete** in the confirmation dialog.
+
+### External systems integration packages
+
+1. Open **Solutions**.
+    1. Select the ellipsis (**...**) in the left pane of Copilot Studio.
+    1. Select **Solutions**.
+1. Locate the **Managed external systems integrated packages** option.
+    1. Select the **Managed** tab to find the packages you need to uninstall.
+1. **Initiate uninstallation**
+    1. Select the ellipsis (**...**) associated with the external system integration solution.
+    1. Select **Uninstall** to start the uninstallation process.
+1. Check for **uninstallation errors**.
+    1. If the uninstallation fails, a failure message appears at the top of the screen.
+    1. Expand the error message to see the detailed reason for the failure.
+1. **Identify dependencies**.
+    1. The error message may indicate that dependencies vary from environment variables to bot components that need to be delinked before the external systems integration solution can be deleted.
+1. Access **external systems integration package details**.
+    1. Select the external systems integration package to open its detailed view.
+1. View **Environmental Variable Dependencies**
+    1. Select **Environmental variables** within the external systems integration packages.
+    1. Select **View dependencies** for each variable.
+1. **Remove dependencies**
+    1. Identify the variables with dependencies and remove these dependencies.
+    1. Once all dependencies are removed, retry the uninstallation.

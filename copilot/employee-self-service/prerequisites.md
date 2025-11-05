@@ -35,9 +35,34 @@ The Employee Self-Service agent is built on top of Microsoft 365 Copilot. Users 
 
 ## Set up Copilot Studio capacity
 
-The Employee Self-Service agent uses agent flows. You need to set up the Copilot Studio capacity. [Learn about Copilot Studio capacity](/microsoft-copilot-studio/requirements-messages-management).
+The Employee Self-Service agent uses agent flows. You need to set up the Copilot Studio capacity. [Learn about Copilot Studio capacity](/microsoft-copilot-studio/requirements-messages-management?tabs=new#prepaid-capacity).
 
-### Capacity planning
+When there are users with no Microsoft 365 Copilot Chat licenses required to consume the Employee Self-Serve agent, an alternative option is to purchase Microsoft Copilot Studio prepaid message capacity.
+
+## Configure Pay-As-You-Go (PayG) in the Power Platform Administration Center (PPAC)
+
+> [!NOTE]
+> The [Power Platform documentation](/power-platform/admin/pay-as-you-go-set-up?tabs=new) has detailed configuration steps.
+
+To configure a Power Platform environment for the Employee Self-Service agent when there are PayG users using the agent:
+
+- Create a billing plan in PPAC.
+- Link an Azure subscription and resource group.
+- Select the target environment.
+- Choose Copilot Studio for the product.
+
+> [!NOTE]
+> When setting up PayG, this step is critical because Copilot Studio must be chosen as a product. This step isn't covered in the PPAC.
+
+Users who don't have Microsoft 365 Copilot Chat licenses can consume the Employee Self-Service agent once when PayG is configured for the environment where the agent's deployed, provided the agent's deployed for those users by tenant administrators in the Microsoft 365 admin center (MAC).
+
+### Set up prepaid messages
+
+See the [Power Platform documentation](/power-platform/admin/manage-copilot-studio-messages-capacity) for detailed steps in setting up prepaid messages.
+
+When there are users with no Microsoft 365 Copilot Chat licenses required to consume ESS Agent, another alternative option is to purchase Microsoft Copilot Studio pre-paid message capacity. 
+
+## Capacity planning
 
 The Employee Self-Service agent operates on Copilot, requiring Copilot licenses. Users without assigned licenses are automatically billed on a Pay-as-you-go basis. [Learn how to set up your consumption meter](/power-platform/admin/pay-as-you-go-overview).
 
