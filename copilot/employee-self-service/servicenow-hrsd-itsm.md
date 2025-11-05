@@ -169,6 +169,8 @@ The ServiceNow connections are configured by the agent maker which need to be sh
 
 Follow the steps in the [Create and manage connections](/microsoft-copilot-studio/authoring-connections#share-connection-parameters-for-on-behalf-of-obo-authentication) article to share connection parameters for On-Behalf-Of (OBO) authentication.
 
+### OAuth2 authentication - Create an OAuth Application Registry
+
 1. Sign in to the ServiceNow instance that needs to be integrated with the Employee Self-Service agent.
 2. Elevate access permissions using **Elevate role**.
 3. Select **All** in the top navigation bar.
