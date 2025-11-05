@@ -96,11 +96,11 @@ The following matrix provides an overview of the various external systems integr
 
 |Scenarios |Agent component |SharePoint |Microsoft Self-Help |ServiceNow |Workday |SAP SuccessFactor |
 |----------|----------------|-----------|--------------------|-----------|--------|------------------|
-|HR |Knowledge sources |- Enterprise content access </br>- Advanced filtering </br>- Seamless integration |NA |Copilot Connector supports: </br>- Indexing </br>- Hierarchical permissions and scripting </br>- Ticketing content |NA |NA |
-|HR |Power platform connectors |NA |NA |HR ticketing </br>- Read </br>- Create |Employee profile access </br>- Read </br>- Write |Employee profile access </br>- Read </br>- Write |
+|HR |Knowledge sources |- Enterprise content access </br>- Advanced filtering </br>- Seamless integration |Not available |Copilot Connector supports: </br>- Indexing </br>- Hierarchical permissions and scripting </br>- Ticketing content |Not available |Not available |
+|HR |Power platform connectors |Not available |Not available |HR ticketing </br>- Read </br>- Create |Employee profile access </br>- Read </br>- Write |Employee profile access </br>- Read </br>- Write |
 |IT |Knowledge sources |- Enterprise content access </br>- Advanced filtering </br>- Seamless integration |- Microsoft 365 troubleshooting </br>- Generative orchestration </br>- Enterprise-specific customization |Copilot Connector supports: </br>- Indexing </br>- Hierarchical permissions and scripting </br>- Ticketing content | | |
-|IT |Power platform connectors |NA |NA |IT ticketing </br>- Read </br>- Create |NA |NA |
-|IT |Handoff |NA |NA |Handoff to: </br>- Now Assist </br>- Live Agent | | |
+|IT |Power platform connectors |Not available |Not available |IT ticketing </br>- Read </br>- Create |Not available |Not available |
+|IT |Handoff |Not available |Not available |Handoff to: </br>- Now Assist </br>- Live Agent | | |
 
 - [Learn more](sapsuccessfactors.md#employee-read-scenarios--configuration) about SAP SuccessFactors pre-configured scenarios.
 - [Learn more](workday.md#topics) about Workday pre-configured scenarios.
