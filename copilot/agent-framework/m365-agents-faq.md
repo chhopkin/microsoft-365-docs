@@ -100,5 +100,20 @@ Yes, administrators can control data sources that are used. Administrators can a
 - Inventory and lifecycle controls help manage shared or ownerless agents
 
 For more information, see the following resources:
+
 - [Manage Microsoft 365 Copilot agents and integrated apps](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps)
 - [Manage Microsoft 365 Copilot connectors](/microsoft-365/admin/manage/manage-copilot-connectors)
+
+## Does an agent provide access to data, or is data access governed by the organization's internal RBAC model?  
+
+Agents run under an identity, whether it's the user's identity or a managed identity (or service principal) associated with the agent for autonomous tasks. Data access is enforced by organizational security. An agent can use APIs or connectors according to existing permissions assigned. 
+Role-Based Access Control (RBAC) is part of the enforcement model. Administrators can restrict agent creatin and usage in the Copilot Control System and enforce RBAC policies across environments.
+For more information, see Copilot Control System security and governance.
+
+## What should administrators do with respect to implementing controls, based on the extensibility option selected?
+
+In general, administrators should take the following actions:
+
+- Use the Copilot Control System for centralized governance, security, and measurement
+- Use Purview DSPM for AI to identify and mitigate oversharing and insider risks
+- Configure integrated apps settings for extensibility enablement and granular controls
