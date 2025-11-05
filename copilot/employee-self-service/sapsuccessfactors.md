@@ -63,7 +63,7 @@ You can refer to the Employee Self-Service agent deployment guide for subscripti
 |**Environment Maker** |User customizing the Employee Self-Service agent. |1. Install and configure SAP SF extension pack. <br>2. Manage SAP SF topics. <br>3. Setup User Context. |Microsoft Copilot Studio |
 |**InfoSec/IT Infra/Change Control Board** |User committee responsible for security infrastructure changes. |Configure IT platform services such as network and firewall rules. |Network firewall policies |
 
-### Infra set up for third-part external system solution integration
+### Infrastructure setup for external system solution integration
 
 Most enterprise organizations secure their third-party knowledge sources from external networks, as the line of business must protect sensitive information about employees, organizations, knowledge assets, and so on.
 
