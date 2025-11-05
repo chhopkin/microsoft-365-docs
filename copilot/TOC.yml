@@ -219,7 +219,7 @@ items:
       - name: Microsoft 365 Copilot agents admin guide
         href: agent-framework/m365-agents-admin-guide.md
       - name: Microsoft 365 Copilot agent FAQ
-      href: agent-framework/m365-agents-faq.md                   
+        href: agent-framework/m365-agents-faq.md                   
     - name: Manage agent access and availability policies
       items:
       - name: Agent access settings
