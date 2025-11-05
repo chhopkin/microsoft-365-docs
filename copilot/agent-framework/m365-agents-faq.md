@@ -114,7 +114,7 @@ Role-based access control (RBAC) is part of the enforcement model. Administrator
 
 For more information, see [Copilot Control System security and governance](/copilot/microsoft-365/copilot-control-system/security-governance).
 
-## What should administrators do with respect to implementing controls, based on the extensibility option selected?
+## What should administrators do with respect to implementing controls for agents?
 
 In general, administrators should take the following actions:
 
