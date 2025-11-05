@@ -239,6 +239,7 @@ The following steps are required to install and enable the ServiceNow HRSD exten
       | **Resource URI**         | The client ID of the Entra organization created in Task 1 of [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate) |
 
    8. Use the following parameters to complete the configuration for **OAuth2**:
+
       | Feature                  | Description |
       |--------------------------|-------------|
       | **Authentication Type**  | OAuth2      |
@@ -290,6 +291,7 @@ These steps are required to install and enable the ServiceNow HRSD extension pac
       | **Resource URI**         | The client ID of the Entra organization created in Task 1 of [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate) |
 
    8. Use the following parameters to complete the configuration for **OAuth2**:
+
       | Feature                  | Description |
       |--------------------------|-------------|
       | **Authentication Type**  | OAuth2      |
