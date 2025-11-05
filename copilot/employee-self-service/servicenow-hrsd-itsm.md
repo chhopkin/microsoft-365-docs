@@ -19,9 +19,6 @@ appliesto:
 
 # Integrate ServiceNow HRSD and ITSM with your Employee Self-Service deployment
 
-> [!NOTE]
-> The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
-
 > [!IMPORTANT]
 > You need to complete the steps to deploy the Employee Self-Service agent before you can configure this supplemental extension pack.
 
@@ -45,7 +42,7 @@ The Employee Self-Service agent acts as a front-end for consuming information fr
 
 :::image type="content" source="media/agent-service-now-integration.png" alt-text="Diagram the high-level components comprising overall solution for the Employee Self-Service agent and ServiceNow HRSD integration." lightbox="media/agent-service-now-integration.png":::
 
-The previous diagram outlines the high-level components comprising overall solution for the Employee Self-Service agent and ServiceNow HRSD integration. There are different activities to be performed as a part of initial deployment and for an ongoing operation. As the solution involves multiple technologies, it's better to spend some time initially in understanding the various components. When you're ready, you can bring in the right stakeholders to set up an environment to deploy and test the Employee Self-Service agent.
+This diagram outlines the high-level components comprising overall solution for the Employee Self-Service agent and ServiceNow HRSD integration. There are different activities to be performed as a part of initial deployment and for an ongoing operation. As the solution involves multiple technologies, it's better to spend some time initially in understanding the various components. When you're ready, you can bring in the right stakeholders to set up an environment to deploy and test the Employee Self-Service agent.
 
 ## Known issues and limitations
 
@@ -58,9 +55,10 @@ For detailed documentation about the connector, see [ServiceNow - Connectors](/c
 
 ## Prerequisites
 
-- ServiceNow HRSD/ITSM instance
-- Microsoft 365 tenant
-- The Employee Self-Service agent is installed
+- Have a ServiceNow HRSD/ITSM instance
+- Have a Microsoft 365 tenant
+- Install the Employee Self-Service agent
+- Install the HRMS plugin
 
 Refer to the Employee Self-Service agent [deployment guide](deploy-overview-alm.md) for installation of the agent and subscription requirements required for the Employee Self-Service agent.
 
@@ -109,11 +107,11 @@ This authentication uses app tokens, allowing a registered Microsoft Entra ID ap
 5. Choose **Register** to complete the creation of the new app registration.
 6. Select **Token configuration** then **Add optional claim** for adding claims setting.
 7. Select **Token type** as **Access** and choose the following claims:
-   - *aud* - for audience validation
-   - *email* - addressable email for user
-   - *upn* - an identifier for the user
+   - *Aud* - for audience validation
+   - *Email* - addressable email for user
+   - *UPN* - an identifier for the user
 8. Select **Add** to complete adding the claims.
-9. If it's the first time OpenId Connect being setup using claims like email, upn, there's a confirmation screen to turn on the Microsoft Graph permissions. If you see the confirmation, check the box, and then select **Add**.
+9. If it's the first time OpenId Connect being setup using claims like email, UPN, there's a confirmation screen to turn on the Microsoft Graph permissions. If you see the confirmation, check the box, and then select **Add**.
 
 This flow completes the Microsoft Entra piece of configuration.
 
@@ -160,19 +158,22 @@ In this task, you add a user to the Application created in task 3, earlier in th
 
 The user-token based authentication where the end user can sign into Microsoft Entra ID using the ServiceNow connector, and get an access token with scope for the ServiceNow representative Microsoft Entra ID app.
 
-Perform tasks 1 and 2 from the previous sections for Microsoft Entra ID OAuth using Certificate.
+Perform tasks 1 and 2 from the previous section, [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate).
 
-In task 1, you add the application using the ServiceNow connector to the permission scope with Client ID = `c26b24aa-7874-4e06-ad55-7d06b1f79b63`.
+- In task 1, add the application using the ServiceNow connector to the permission scope with Client ID = `c26b24aa-7874-4e06-ad55-7d06b1f79b63`.
+- In task 2, update the user claim to UPN or any other custom claim property from the token in ServiceNow. The user field should match the ServiceNow system user table field containing the UPN or user ID.
 
-In task 2, you update the user claim to upn or any other custom claim property from the token in ServiceNow. The user field should match the ServiceNow system user table field containing the upn or user ID.
+### Share connection parameters
 
-### Using OAuth2 authentication - Create an OAuth Application Registry
+The ServiceNow connections are configured by the agent maker which need to be shared with all users so that the users are not prompted for authentication the first time the agent is being used with a ServiceNow connection.
+
+Follow the steps in the Create and manage connections article to share connection parameters for On-Behalf-Of (OBO) authentication.
 
 1. Sign in to the ServiceNow instance that needs to be integrated with the Employee Self-Service agent.
 2. Elevate access permissions using **Elevate role**.
 3. Select **All** in the top navigation bar.
 4. Search for **OAuth** in the search box within dropdown navigation menu.
-5. Select **System OAuth → Application Registry** from the search results (if you don't see this option, you don't have sufficient privileges).
+5. Select **System OAuth > Application Registry** from the search results (if you don't see this option, you don't have sufficient privileges).
 6. Select **New** button in the top right corner of the configuration section pane.
 7. Select **Create an OAuth API endpoint for external clients**.
 8. Fill in the following information for the new application registry:
@@ -191,16 +192,11 @@ In task 2, you update the user claim to upn or any other custom claim property f
    | **Accessible from** | All application scopes |
    | **Client Type** | Integration as a Service |
 
-   > [!NOTE]
-   > For the Redirect URL, use the actual callback URL from the sign-in popup window during connection configuration by following these steps:
-   >    
-   > 1. When the URL redirection fails with the error **Invalid redirect_uri**, copy complete URL from the authorization popup window and paste it into an app, such as Notepad.
-   >     
-   > 2. Extract the `redirect_uri parameter`. Here's an example: `redirect_uri=https%3a%2f%2ftip1-shared.consent.azure-apim.net%2fredirect`.
-   > 
-   > 3. After decoding the URL, by replacing `%3a` with `:` and `%2f` with `/`, update the Redirect URL field.
-
 9. Select **Submit** or **Update** button to save the changes.
+
+### Connector preparation
+
+With improvements in the ServiceNow integration, the connector objects should be cleaned up before reinstallation or update to the ServiceNow packages. This cleanup is needed because of platform changes for both Power Platform and Copilot Studio.
 
 ### Install ServiceNow HRSD extension pack
 
@@ -215,25 +211,44 @@ The following steps are required to install and enable the ServiceNow HRSD exten
    > [!NOTE]
    > "Entitlement" process is a preview workaround until the extension pack installation is streamlined in Microsoft Copilot Studio.
 
-2. **Open the Employee Self-Service agent in Copilot Studio**:
+2. **Install the extension**:
 
    1. Open the Employee Self-Service agent in Copilot Studio.
    2. Navigate to **Settings**.   
    3. Select **Customize** from the left navigation under **Settings**.
    4. Select **Employee Self-Service Agent in Microsoft 365 Copilot – ServiceNow HR Service Delivery** and select **Install**.
    5. When prompted, update the connections as described by selecting " ..." or **sign in** buttons on the right hand side for ServiceNow connection.
-   6. Use the following parameters to complete the configuration (**if using OAuth2**):
+   6. Use the following parameters to complete the configuration (**for Microsoft Entra ID using Certificate**):
 
-      | Feature                 | Description |
-      |-------------------------|-------------|
-      | **Authentication Type** | Use Oauth2 |
-      | **Instance Name**       | The instance name used to identify the ServiceNow Site URl <br>For example:</br>**contoso** – *don't use the full url or domain name like contoso.service-now.com* |
-      | **Client Id**           | Client ID created in Task 1 |
-      | **Client Secret**       | Client ID created in Task 1 |
+      | Feature                  | Description |
+      |--------------------------|-------------|
+      | **Authentication Type**  | Microsoft Entra ID OAuth using Certificate |
+      | **Instance Name**        | The instance name used to identify the ServiceNow Site URL <br>For example:</br>**contoso** – *don't use the full url or domain name, like contoso.service-now.com* |
+      | **Tenant ID**            | The tenant ID of the Microsoft Entra tenant |
+      | **Client ID**            | The client ID created in Task 3 of [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate) |
+      | **Resource URI**         | The client ID of the Entra organization created in Task 1 of [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate) |
+      | **Client Secret**        | The .pfx file of the certificate created in Task 3 of [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate) |
+      | **Certificate password** | The password of the .pfx file |
 
-   7. ServiceNow asks for sign-in again. Use the same account used previously for ServiceNow configuration.
-   8. Confirm the consent by selecting **Allow**.
-   9. The **Microsoft Dataverse** connection is the user account that should be automatically signed in, if not, select **Sign in**.
+   7. Use the following parameters to complete the configuration for **Microsoft Entra ID User Login**:
+
+      | Feature                  | Description |
+      |--------------------------|-------------|
+      | **Authentication Type**  | Microsoft Entra ID user login |
+      | **Instance Name**        | The instance name used to identify the ServiceNow Site URL <br>For example:</br>**contoso** – *don't use the full url or domain name, like contoso.service-now.com* |
+      | **Resource URI**         | The client ID of the Entra organization created in Task 1 of [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate) |
+
+   8. Use the following parameters to complete the configuration for **OAuth2**:
+      | Feature                  | Description |
+      |--------------------------|-------------|
+      | **Authentication Type**  | OAuth2      |
+      | **Instance Name**        | The instance name used to identify the ServiceNow Site URL <br>For example:</br>**contoso** – *don't use the full url or domain name, like contoso.service-now.com* |
+      | **Client ID**            | Client ID created in Task 1 |
+      | **Client Secret**        | Client secret created in Task 1 |
+
+   9. ServiceNow asks for sign-in again. Use the same account for ServiceNow configutation as you supplied in the previous steps.
+   10. Confirm the consent by selecting **Allow**.
+   11. The **Microsoft Dataverse** connection is the user account that should be automatically signed in, if not, select **Sign in**.
 
 ### Install ServiceNow ITSM extension pack
 
@@ -254,17 +269,36 @@ These steps are required to install and enable the ServiceNow HRSD extension pac
    3. Select **Customize** from the left navigation under **Settings**.
    4. Select **Employee Self-Service Agent in Microsoft 365 Copilot – ServiceNow IT Service Management** and select **Install**.
    5. When prompted, update the connections as described by selecting " ..." or **sign in** buttons on the right hand side for ServiceNow connection.
-   6. Use the following parameters to complete the configuration (if using OAuth2):
+   6. Use the following parameters to complete the configuration for **Microsoft Entra ID using Certificate**:
 
       | Feature | Description |
       |---------|---------|
       | **Authentication Type** | Use Oauth2 |
       | **Instance Name** | The instance name used to identify the ServiceNow Site URl <br>For example:</br>**contoso** – *don't use the full url or domain name like contoso.service-now.com* |
-      | **Client Id** | Client ID created in Task 1 |
-      | **Client Secret** | Client ID created in Task 1 |
+      | **Tenant Type**   | Tenant ID of the Microsoft Entra tenant |
+      | **Client Id** | Client ID created in Task 3 of [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate) |
+      | **Resource URI** | Client ID created in Task 1 of [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate) </br>(Application (client) ID) – not application URI |
+      | **Client certificate secret** | The .pfx file created in Task 3 of [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate) |
+      | **Certificate password**  | The password of the .pfx file |
 
-   7. ServiceNow asks for sign-in again. Use the same account used previously for ServiceNow configuration.
-   8. Confirm the consent by selecting **Allow**.
+   7. Use the following parameters to complete the configuration for **Microsoft Entra ID User Login**:
+
+      | Feature                  | Description |
+      |--------------------------|-------------|
+      | **Authentication Type**  | Microsoft Entra ID user login |
+      | **Instance Name**        | The instance name used to identify the ServiceNow Site URL <br>For example:</br>**contoso** – *don't use the full url or domain name, like contoso.service-now.com* |
+      | **Resource URI**         | The client ID of the Entra organization created in Task 1 of [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate) |
+
+   8. Use the following parameters to complete the configuration for **OAuth2**:
+      | Feature                  | Description |
+      |--------------------------|-------------|
+      | **Authentication Type**  | OAuth2      |
+      | **Instance Name**        | The instance name used to identify the ServiceNow Site URL <br>For example:</br>**contoso** – *don't use the full url or domain name, like contoso.service-now.com* |
+      | **Client ID**            | Client ID created in Task 1 |
+      | **Client Secret**        | Client secret created in Task 1 |
+
+   9. ServiceNow asks for sign-in again. Use the same account used previously for ServiceNow configuration.
+   10. Confirm the consent by selecting **Allow**.
 
 ## ServiceNow - HRSD
 

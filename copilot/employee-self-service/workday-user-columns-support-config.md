@@ -1,5 +1,5 @@
 ---
-title: User context custom support configuration for Workday integration with Employee Self-Service agent
+title: User columns custom support configuration for Workday integration with Employee Self-Service agent
 f1.keywords:
 - NOCSH
 ms.author: heidip
@@ -12,12 +12,12 @@ ms.topic: how-to
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.custom: ess-agent
-description: "Learn about the user context custom support configuration for your Workday integration with the Employee Self-Service agent."
+description: "Learn about the user columns custom support configuration for your Workday integration with the Employee Self-Service agent."
 ---
 
-# Workday User Context custom support configuration with Employee Self-Service agent
+# Workday User columns custom support configuration with Employee Self-Service agent
 
-This support configuration is used for retrieving the required user context attributes from Workday. Refer to these tables to create a custom report following these tables for different configuration sections in the Workday custom report.
+This support configuration is used for retrieving the required user columns attributes from Workday. Refer to these tables to create a custom report following these tables for different configuration sections in the Workday custom report.
 
 ## Abbreviations in some tables
 
