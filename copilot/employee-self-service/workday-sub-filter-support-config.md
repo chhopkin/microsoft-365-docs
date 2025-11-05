@@ -15,7 +15,7 @@ ms.custom: ess-agent
 description: "Learn about the user context sub-filter support configuration for your Workday integration with the Employee Self-Service agent."
 ---
 
-# User context sub-filter support configuration for Workday integration with Employee Self-Service agent
+# Sub-filter
 
 This support configuration is used for retrieving the required **sub-filter** attributes from Workday. Refer to this table to create a custom report following this table for different configuration sections in the Workday custom report.
 

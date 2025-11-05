@@ -38,8 +38,8 @@ items:
         - name: Workday reports
           href: workday-reports.md
           items:
-            - name: User columns
-              href: workday-user-columns-support-config.md
+            - name: Columns
+              href: workday-columns-support-config.md
             - name: Sort
               href: workday-sort-support-config.md
             - name: Filter

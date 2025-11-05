@@ -338,7 +338,7 @@ During the Workday Extension Pack installation process, you're prompted for the 
 
 All the user accounts mentioned in the table under "Expected connection user account" should be available in Entra for SSO and use the respective accounts in UPN format (example: `ISSG_WQL_COPILOT@contoso.com`). Ensure that each connection is explicitly set up with its own account even though the connection status turned green after the first connection setup.
 
-#### Step 5: Update the environment variables
+#### Step 5: Environment variables
 
 1. After you install the Workday extension, select **Solutions** in the left navigation in Copilot Studio.
 1. A banner on the solutions page prompts you to fill in the environment variables.
@@ -346,10 +346,9 @@ All the user accounts mentioned in the table under "Expected connection user acc
 
 |Environment variable                     |Description |
 |-----------------------------------------|------------|
-|WorkdayWebsiteRedirectMessage            |The message shown to users in success/failure scenarios for update email/phone number actions |
-|EmployeeContextRequestAccountName        |Should contain the account that has access to the RaaS report. Reference from connection table: ISUAccount |
-|EmployeeContextRequestReportName         |The name of the report that contains the required information reference from connection table: ReportName |
-|EmployeeContextRequestReportInstanceName |The instance name that the report belongs to reference from connection table: Report Instance |
+|EmployeeContextRequestAccountName        |To be manually updated. Should contain the account that has access to the RaaS report. |
+|EmployeeContextRequestReportName         |Should be auto-populated with a default value. Contains the name of the report, which defaults to WD User Context. |
+|EmployeeContextRequestReportInstanceName |Should be auto-populated with a default value. Contains the instance name that the report belongs to, which defaults to Report2 |
 
 #### Step 6: Confirm the Workday flows are turned on
 
@@ -388,22 +387,14 @@ The following Templates and their associated Copilot Topics are listed here:
 |HRWorkdayHCMEmployeeGetCompanyCode |Workday Get CompanyCode |
 |HRWorkdayHCMEmployeeGetSalaryRange |Workday Get CompensationRatio |
 |HRWorkdayHCMEmployeeGetCostCenter |Workday Get CostCenter |
-|HRWorkdayHCMEmployeeGetJobTaxonomy |Workday Get JobFunction |
 |HRWorkdayHCMEmployeeGetServiceAnniversary |Workday Get ServiceAnniversary |
-|HRWorkdayHCMManagerDirectCompanyCode |Workday Get MyDirects CompanyCode |
-|HRWorkdayHCMManagerDirectCostCenter |Workday Get MyDirects CostCenter |
-|HRWorkdayHCMManagerDirectJobTaxonomy |Workday Get MyDirects JobFunction |
-|HRWorkdayHCMManagerDirectServiceAnniversary |Workday Get MyDirects ServiceAnniversary |
 |HRWorkdayHCMEmployeeGetContext |Workday System Get UserContext |
 |HRWorkdayHCMEmployeeGetEmploymentInfo</br> HRWorkdayHCMEmployeeGetReferenceData |Employee Get EmploymentInformation |
-|HRWorkdayHCMEmployeeGetHomeContactInformation</br> HRWorkdayHCMEmployeeGetWorkContactInformation</br> HRWorkdayHCMEmployeeGetWorkAddress |Employee Get ContactInformation |
 |HRWorkdayHCMEmployeeGetEmergencyContactInfo</br> HRWorkdayHCMEmployeeGetReferenceData |Workday Get EmergencyContact |
-|HRWorkdayHCMEmployeeGetGovernmentIds</br> HRWorkdayHCMEmployeeGetReferenceData |Workday Get GovernmentIDs |
 |HRWorkdayHCMEmployeeGetNationalIds</br> HRWorkdayHCMEmployeeGetReferenceData |Workday Get NationalIDs |
 |HRWorkdayHCMEmployeeGetPassports</br> HRWorkdayHCMEmployeeGetReferenceData |Workday Get Passports |
 |HRWorkdayHCMEmployeeGetVisas</br> HRWorkdayHCMEmployeeGetReferenceData |Workday Get Visas |
 |HRWorkdayHCMEmployeeGetLanguageInformation</br> HRWorkdayHCMEmployeeGetReferenceData |Workday Get LanguageInformation |
-|HRWorkdayHCMEmployeeGetEducation</br> HRWorkdayHCMEmployeeGetReferenceData |Workday Get Education |
 |HRWorkdayHCMEmployeeGetCertifications</br> HRWorkdayHCMEmployeeGetReferenceData |Workday Get Certifications |
 |HRWorkdayHCMEmployeeGetPersonalEmail</br> HRWorkdayHCMEmployeeAddPersonalEmail</br> HRWorkdayHCMEmployeeUpdatePrimaryAndSecondaryEmail |Workday Update Email |
 |HRWorkdayHCMEmployeeGetPhoneNumber</br> HRWorkdayHCMEmployeeAddPhoneNumber</br> HRWorkdayHCMEmployeeUpdatePhoneNumber</br> HRWorkdayHCMEmployeeUpdatePrimaryAndSecondaryPhoneNumber</br> HRWorkdayHCMEmployeeGetReferenceData |Workday Update PhoneNumber |
@@ -569,7 +560,7 @@ Update the following fields in the < endpoint > node:
 
 The Employee Self-Service agent Workday extension pack contains the following Topics:
 
-**User Topics**
+**Employee Topics**
 
 |Topic                             |Description |
 |----------------------------------|------------|
@@ -578,29 +569,16 @@ The Employee Self-Service agent Workday extension pack contains the following To
 |Workday Get CostCenter            |Retrieves cost center code and cost center name for the employee making the request |
 |Workday Get EmployeeID            |Retrieves Employee ID for the employee making the request. This data is retrieved from User Context |
 |Workday Get ServiceAnniversary    |Calculates the service anniversary for the employee making the request |
-|Workday Get JobFunction           |Retrieves job title, business title, job profile name, and job family for the employee making the request |
 |Workday Get CompensationRatio     |Calculates the compensation ratio for the employee making the request using their annual compensation and the midpoint compensation for their role |
 |Workday Get Certifications        |Retrieves certifications for the employee making the request. |
-|Workday Get ContactInformation    |Retrieves contact information for the employee making the request. |
-|Workday Get Education             |Retrieves education details for the employee making the request. |
 |Workday Get EmergencyContact      |Retrieves emergency contact details for the employee making the request. |
 |Workday Get EmploymentInformation |Retrieves all the employment information for the employee making the request. |
-|Workday Get GovernmentIDs         |Retrieves government identifiers for the employee making the request. |
 |Workday Get LanguageInformation   |Retrieves language details for the employee making the request. |
 |Workday Get NationalIDs           |Retrieves national identifier details for the employee making the request. |
 |Workday Get Passports             |Retrieves passport details for the employee making the request. |
 |Workday Get Visas                 |Retrieves visa details for the employee making the request. |
 |Employee Writes Email             |For employees to update their personal email address. |
 |Employee Writes PhoneNumber       |For employees to update their personal phone number |
-
-**Manager Topics**
-
-|Topic                                    |Description |
-|-----------------------------------------|------------|
-|Workday Get MyDirects CompanyCode        |Retrieves company code information for all direct reports of the employee making the request. |
-|Workday Get MyDirects CostCenter         |Retrieves cost center information for all direct reports of the employee making the request. |
-|Workday Get MyDirects JobFunction        |Retrieves job title, business title, job profile name, and job family for all direct reports of the employee making the request. |
-|Workday Get MyDirects ServiceAnniversary |Calculates the service anniversary for the employee making the request. |
 
 **System Topics**
 

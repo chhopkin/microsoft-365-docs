@@ -15,7 +15,7 @@ ms.custom: ess-agent
 description: "Learn about filter support configuration for your Workday integration with the Employee Self-Service agent."
 ---
 
-# User context filter support configuration for Workday integration with Employee Self-Service agent
+# Filter
 
 This support configuration is used for retrieving the required user context **filter** attributes from Workday. Refer to these tables to create a custom report following these tables for different configuration sections in the Workday custom report.
 
