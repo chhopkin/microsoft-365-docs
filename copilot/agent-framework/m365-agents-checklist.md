@@ -86,11 +86,13 @@ When you need to provide powerful AI assistants that retrieve real-time insights
 
 | Step  | Task  | Description  | Administrator |
 |---|---|---|---|
-| 1  | [Understand how to extend Microsoft 365 Copilot with agents](/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext)  | Learn how to create and configure a custom Agent.  |  |
+| 1  | [Understand how to extend Microsoft 365 Copilot with agents](/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext)  | Learn how to create and configure a custom agent using Copilot Studio (full).  |  |
 | 2  | [Add knowledge sources](/microsoft-copilot-studio/knowledge-copilot-studio)  | Knowledge sources allow your agents to provide relevant information and insights for your customers.  |  |
 | 3  | [Add tools](/microsoft-copilot-studio/advanced-plugin-actions)  | Tools expand the functionality of your agent, allowing it to perform various actions in response to user requests or autonomous triggers. |  |
 | 4  | [Add other agents](/microsoft-copilot-studio/authoring-add-other-agents)  | Copilot Studio lets you enhance your agents by connecting them to other agents, allowing them to hand off user interactions or respond to autonomous triggers. |  |
 | 5  | [Add topics](/microsoft-copilot-studio/authoring-create-edit-topics)  | A topic defines how an agent conversation progresses.  |  |
 | 6  | [Add triggers](/microsoft-copilot-studio/authoring-triggers-about)  | Event triggers allow your agent to act autonomously in response to the defined event occurring.  |  |
 | 7  | [Publish an agent](/microsoft-copilot-studio/publication-fundamentals-publish-channels)  | You can publish agents to engage with your customers on multiple platforms or channels, such as live websites, mobile apps, Microsoft 365 Copilot or messaging platforms like Teams and Facebook.  |  |
+
+## Manage M365 Copilot agent inventory and lifecycle
 
