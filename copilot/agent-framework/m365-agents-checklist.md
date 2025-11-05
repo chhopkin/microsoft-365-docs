@@ -47,14 +47,15 @@ Agent policies refer to the tenant settings you can make as an administrator in 
 
 ## Choose the right Copilot Studio experience
 
-As an admin, you can configure and deploy out-of-the-box agents without having to create and publish a new agent. However, when your organization needs to customize Copilot functionality, members of your organization can create agents. Understand the different types of agents that can be created, shared, and deployed at your organization based on the method your organization uses to create agents. For more information, see [Choose the right Copilot Studio experience](/microsoft-365-copilot/extensibility/copilot-studio-experience).
+As an admin, you can configure and deploy out-of-the-box agents without having to create and publish a new agent. However, when your organization needs to customize Copilot functionality, members of your organization can create agents. Understand the different types of agents that can be created, shared, and deployed at your organization based on the method your organization uses to create agents. 
 
 | Step  | Task  | Description  | Administrator  |
 |---|---|---|---|
-| 1  | [Create SharePoint agents](https://support.microsoft.com/office/create-a-sharepoint-agent-d16c6ca1-a8e3-4096-af49-67e1cfdddd42)  | Agents created with Microsoft SharePoint provide a simple option to query content from specific sites, folders, or files within Microsoft SharePoint or Microsoft Teams.|  |
-| 2  | [Use Copilot Studio (lite) to create declarative agents](/microsoft-365-copilot/extensibility/copilot-studio-lite)  | Members of your organization can create declarative agents using Microsoft Copilot Studio (lite) in the Microsoft 365 Copilot app. |  |
-| 3  | [Use Copilot Studio (full) to create agents](/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext)  | Microsoft Copilot Studio (full) empowers low-code developers (“makers”) to build declarative agents or custom engine agents.  |  |
-| 4  | [Use Microsoft 365 Agents Toolkit to create agents](/microsoft-365/developer/overview-m365-agents-toolkit?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json)  | The Microsoft 365 Agents Toolkit is a suite of tools that developers within your organization can use to build enterprise-ready agents and apps.  |  |
+| 1  | [Choose the right Copilot Studio experience](/microsoft-365-copilot/extensibility/copilot-studio-experience)  | <ul><li>[Create SharePoint agents](https://support.microsoft.com/office/create-a-sharepoint-agent-d16c6ca1-a8e3-4096-af49-67e1cfdddd42)</li><li>[Use Copilot Studio (lite) to create declarative agents](/microsoft-365-copilot/extensibility/copilot-studio-lite)</li>
+<li>[Use Copilot Studio (full) to create agents](/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext)</li><li>[Use Microsoft 365 Agents Toolkit to create agents](/microsoft-365/developer/overview-m365-agents-toolkit?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json)</li>  |  |
+| 2  | [Plan your agent](/microsoft-365-copilot/extensibility/planning-guide)  | Define your objectives, technical requirements, costs, RAI considerations, and development approach. |  |
+| 3  | [Consider licensing and cost options]/microsoft-365-copilot/extensibility/cost-considerations()  | Before you create an agent, consider the associcated licensing and consumption costs.  |  |
+| 4  | [Set up your development environment](/microsoft-365-copilot/extensibility/prerequisites)  | If you creating a custom agent, consider how you will set up your development environment.  |  |
 
 ## Create agents in Copilot Studio (lite)
 
