@@ -47,6 +47,7 @@ To help decide which type of agent to build, see [Choose what type of agent to b
 People in your organization can also [sideload agents](/copilot/microsoft-365/agent-framework/agent-policies/agent-sideload), [share agents](/microsoft-365/admin/manage/manage-shared-agents), and [publish agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#publish-agents), according to tenant policies and admin controls that are configured in the Microsoft 365 admin center. 
 
 For more information, see [Manage access to Copilot agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#manage-access-to-copilot-agents).
+<!---
 
 ## For my specific use cases, how do I know which Copilot extensibility option to use?
 
@@ -62,6 +63,7 @@ The following table summarizes use cases and Copilot extensibility options.
 | External system integration, such as using data from APIs, databases, or internal tools | Custom agent/connector |
 | Data enrichment or transformation, such as pulling, transforming, or combining data from multiple sources | Connector/notebook |
 | Advanced analytics/visualization, such as custom calculations, dashboards, or visualizations | Notebook |
+--->
 
 ## What tools do I need to create, build, implement, and use Copilot agents?
 
