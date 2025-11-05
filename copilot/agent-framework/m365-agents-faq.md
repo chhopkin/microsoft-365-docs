@@ -106,7 +106,7 @@ For more information, see the following resources:
 - [Manage Microsoft 365 Copilot agents and integrated apps](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps)
 - [Microsoft 365 Copilot connectors overview](/microsoft-365-copilot/extensibility/overview-copilot-connector)
 
-## Does an agent provide access to data, or is data access governed by the organization's internal RBAC model?  
+## How does an agent access data?  
 
 Agents run under an identity, whether it's the user's identity or a managed identity (or service principal) associated with the agent for autonomous tasks. Data access is enforced by organizational security. An agent can use APIs or connectors according to existing permissions assigned. 
 
