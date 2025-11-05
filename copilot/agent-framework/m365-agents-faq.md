@@ -74,7 +74,7 @@ For all extensibility options, your organization has the following governance to
 
 ## Based on specific use cases, how do I know which option to use?
 
-The following table summarizes use cases and options.
+The following table summarizes use cases and Copilot extensibility options.
 
 | Use case | Option |
 |--|--|
@@ -107,7 +107,9 @@ For more information, see the following resources:
 ## Does an agent provide access to data, or is data access governed by the organization's internal RBAC model?  
 
 Agents run under an identity, whether it's the user's identity or a managed identity (or service principal) associated with the agent for autonomous tasks. Data access is enforced by organizational security. An agent can use APIs or connectors according to existing permissions assigned. 
+
 Role-Based Access Control (RBAC) is part of the enforcement model. Administrators can restrict agent creatin and usage in the Copilot Control System and enforce RBAC policies across environments.
+
 For more information, see Copilot Control System security and governance.
 
 ## What should administrators do with respect to implementing controls, based on the extensibility option selected?
