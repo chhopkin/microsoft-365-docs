@@ -23,7 +23,7 @@ The Employee Self-Service agent is designed as a unified, customer-facing, AI-po
 
 ## Technical Architecture
 
-The Employee Self-Service agent operates as a custom agent within **Copilot Studio**, leveraging **Microsoft's AI infrastructure** and **Power Platform**. The agent is constructed on a modular architecture, enabling integration with enterprise data sources using RESTful APIs, connectors, and secure authentication mechanisms (for example, OAuth 2.0, Azure AD). The solution supports multitenant deployments and is adaptable to on-premises, hybrid, or fully cloud-based environments, depending on organizational requirements.
+The Employee Self-Service agent operates as a custom agent within **Copilot Studio**, using **Microsoft's AI infrastructure** and **Power Platform**. The agent is constructed on a modular architecture. This design enables integration with enterprise data sources using RESTful APIs, connectors, and secure authentication mechanisms like OAuth 2.0 and Azure AD. The solution supports multitenant deployments and is adaptable to on-premises, hybrid, or fully cloud-based environments, depending on organizational requirements.
 
 ## Integration Capabilities
 
@@ -45,7 +45,7 @@ Data security and compliance are enforced through:
   - **Employee Self-Service agent starters are separate to focus on domains - HR and IT**. Employee Self-Service agent starters are beginning points to help you get started with a specific agent path, based on your organization's needs. Each starter offers slightly different functionality to focus on the core jobs to be done of the domain and is extensible.
     - **HR agent starter**: Empowers employees to self-serve HR needs by delivering clear, policy-based answers and guidance. This template delivers capabilities, including easy navigation of benefits, policy lookups, and access to organizational resources. The agent maintains an empathetic, professional tone and enforces boundaries by escalating complex or sensitive requests (such as legal or personnel decisions) to HR specialists.
     - **IT agent starter**: Enables employees to resolve IT issues efficiently through step-by-step troubleshooting and automated support flows. Key features include guided device setup, secure account management, and instant access to IT resources. The agent prioritizes clarity and patience, and ensures safe practices to protect data and systems.
-- **Handoff template**: This agent template includes a configurable handoff feature, allowing seamless escalation to specialized first-party agents or human operators within predefined workflows. This is implemented using session context management and secure credential delegation.
+- **Handoff template**: This agent template includes a configurable handoff feature, allowing seamless escalation to specialized first-party agents or human operators within predefined workflows. This feature is implemented using session context management and secure credential delegation.
 - **Telemetry and Insights**: Integrated telemetry provides granular analytics on agent interactions, task completion rates, and user satisfaction.
 
 ## Customization, scalability, and extensibility
@@ -68,7 +68,7 @@ The agent ships with a few solution accelerators to integrate with external syst
 
 In addition to the shipped solution accelerators, the agent is extensible within Copilot Studio by adding components to support additional business scenarios.
 
-[Learn more](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent) about Copilot Studio samples and adding additional scenarios.
+[Learn more](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent) about Copilot Studio samples and adding more scenarios.
 
 ## Implementation considerations
 
