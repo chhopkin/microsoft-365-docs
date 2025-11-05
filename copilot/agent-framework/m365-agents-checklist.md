@@ -47,12 +47,23 @@ Agent policies refer to the tenant settings you can make as an administrator in 
 
 ## Choose the right Copilot Studio experience
 
-As an admin, you can configure and deploy out-of-the-box agents without having to create and publish a new agent. However, when your organization needs to customize Copilot functionality, members of your organization can create agents. Understand the different types of agents that can be created, shared, and deployed at your organization based on the method your organization uses to create agents.
+As an admin, you can configure and deploy out-of-the-box agents without having to create and publish a new agent. However, when your organization needs to customize Copilot functionality, members of your organization can create agents. Understand the different types of agents that can be created, shared, and deployed at your organization based on the method your organization uses to create agents. For more information, see [Choose the right Copilot Studio experience](/microsoft-365-copilot/extensibility/copilot-studio-experience).
 
 | Step  | Task  | Description  | Administrator  |
 |---|---|---|---|
-| 1  | Create SharePoint agents  | For more information, see [Create a SharePoint agent](https://support.microsoft.com/en-us/office/create-a-sharepoint-agent-d16c6ca1-a8e3-4096-af49-67e1cfdddd42?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json).  |  |
-| 2  | Use Copilot Studio (lite) to create declarative agents  | For more information, see [Use Copilot Studio to build declarative agents](https://learn.microsoft.com//microsoft-365-copilot/extensibility/copilot-studio-lite).  |  |
-| 3  | Use Copilot Studio (full) to create agents  | For more information, see [Extend Microsoft 365 Copilot with agents](https://learn.microsoft.com/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext).  |  |
+| 1  | Create SharePoint agents  | For more information, see [Create a SharePoint agent](/office/create-a-sharepoint-agent-d16c6ca1-a8e3-4096-af49-67e1cfdddd42?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json).  |  |
+| 2  | Use Copilot Studio (lite) to create declarative agents  | For more information, see [Use Copilot Studio to build declarative agents](/microsoft-365-copilot/extensibility/copilot-studio-lite).  |  |
+| 3  | Use Copilot Studio (full) to create agents  | For more information, see [Extend Microsoft 365 Copilot with agents](/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext).  |  |
 | 4  | Use Microsoft 365 Agents Toolkit to create agents  | For more information, see [Microsoft 365 Agents Toolkit](/microsoft-365/developer/overview-m365-agents-toolkit?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json).  |  |
 
+## Create agents in Copilot Studio (lite)
+
+Using Copilot Studio (lite), members of your organization can create declarative agents that they can share across your organization. For more information, see [Create agents in Copilot Studio (lite)](/microsoft-365-copilot/extensibility/agents-overview).
+
+| Step  | Task  | Description  | Administrator  |
+|---|---|---|---|
+| 1  | Share and manage agents  | End users can share and manag agents they create using Copilot Studio (lite). For more information, see [Share and manage agents](/microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent).  |  |
+| 2  | Download agent ZIP file and provide to admin  | Copilot Studio (lite) provides an option to download a Zip file for manual deployment. For more information, see [Deploy an agent via ZIP package](/microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent#deploy-an-agent-via-zip-package).  |  |
+| 3  | Understand Copilot Studio (lite) creation process  | Quickly build declarative agents using natural language or by configuring the agent. For more information, see [Build agents with Copilot Studio](/microsoft-365-copilot/extensibility/copilot-studio-lite-build)  |  |
+| 4  | Add knowledge sources to an agent  | Copilot Studio (lite) allows end users to configure knowledge sources for the agent to reference. For more information, see [Add knowledge sources](/microsoft-365-copilot/extensibility/copilot-studio-lite-build#add-knowledge-sources).  |  |
+| 5  | Add capabilities to an agent  | Copilot Studio (lite) allows end users to add and configure capabilities, such as the Code interpreter and Image generator. For more information, see [Add capabilities](/microsoft-365-copilot/extensibility/copilot-studio-lite-build#add-capabilities).  |  |
