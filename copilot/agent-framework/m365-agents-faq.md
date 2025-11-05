@@ -39,7 +39,7 @@ To help decide which type of agent to build, see [Choose what type of agent to b
 
 ## Who can create, build, and share Copilot agents?
 
-- **End users** can create declarative agents in Copilot Studio (lite) or SharePoint if enabled by tenant settings (requires Copilot license or subscription)
+- **Users** can create declarative agents in Copilot Studio (lite) or SharePoint if enabled by tenant settings (requires Copilot license or subscription)
 - **Makers** can use Copilot Studio (lite or full) for low-code agents
 - **Developers** can use Copilot Studio SDK or Agents Toolkit for pro-code agents. Developers can also [submit agents to the marketplace](/copilot/microsoft-365/agent-framework/agent-policies/agent-submit-marketplace)
 - Both Makers and Developers can add actions, connectors, and advanced logic in Copilot Studio or via the Microsoft 365 Agents Toolkit
@@ -50,15 +50,10 @@ For more information, see [Manage access to Copilot agents](/microsoft-365/admin
 
 ## What tools do I need to create, build, implement, and use Copilot agents?
 
-The following table summarizes tools that users, makers, developers, and admins can use with Copilot, agents, connectors, notebooks, and supporting tools.
-
-| Extensibility option | Users | Makers | Developers | Admins |
-|--|--|--|--|--|
-| Copilot (OOTB) | Use Copilot in Microsoft 365 apps (Word, Excel, PowerPoint, Outlook, Teams) | N/A | N/A | Enable Copilot in Microsoft 365 Admin Center<br/><br/>Manage tenant settings |
-| Agents <br/>(Declarative or custom) | Interact with agents in Copilot Chat <br/><br/>Build low-code declarative agents in Copilot Studio (lite) | Build low-code agents in Copilot Studio (full)<br/><br/>Add actions/connectors | Create pro-code agents using Teams Toolkit or Agents SDK | Control agent creation/sharing in Admin Center<br/><br/>Apply governance policies |
-| Connectors | Use connectors indirectly via Copilot | Create custom connectors in Power Platform or Copilot Studio | Build advanced connectors via Graph Connector APIs or REST/OpenAPI | Approve connectors<br/><br/>Enforce DLP and compliance in Power Platform Admin Center |
-| Notebooks | Create and use Copilot Notebooks for structured workflows | Pair notebooks with agents/connectors for orchestration | Extend notebooks with advanced logic and integrations | Manage sharing and compliance via Microsoft 365 Admin Center |
-| Supporting Tools | Access Copilot features in apps | Use Copilot Studio or Power Platform for extensibility | Use the Teams Toolkit, Azure AI Studio, or SDKs for advanced builds | Govern extensibility with Microsoft Purview, Copilot Control System, and Admin Centers |
+- **Users** can use Copilot and in Microsoft 365 apps (Word, Excel, PowerPoint, Outlook, Teams), and interact with declarative agents in Copilot Chat. Users can also build low-code declarative agents in Copilot Studio (lite).
+- **Makers** can use Copilot Studio to build low-code agents. Makers can also add actions and connectors.
+- **Developers** can use the Teams Toolkit or Agents SDK to create pro-code agents.
+- **Administrators** can control agent creation and sharing in the Admin Center, and apply governance policies.
 
 Make sure to review the following resources:
 
