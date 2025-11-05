@@ -19,15 +19,15 @@ appliesto:
 
 # Employee Self-Service
 
-The Employee Self-Service agent is designed as a unified, customer-facing, AI-powered interface for handling employee requests and automating routine tasks within enterprise environments. Built on Copilot Studio, the Employee Self-Service agent is intended to be customized by you. Once it's customized for your organization's needs, the Employee Self-Service agent streamlines access to HR, IT, and operational systems, reducing manual intervention and improving process efficiency.
+The Employee Self-Service agent is designed as a unified, customer-facing, AI-powered interface for handling employee requests and automating routine tasks within enterprise environments. The Employee Self-Service agent, built on Copilot Studio, is intended to be customized by you. Once customized for your organization's needs, the Employee Self-Service agent streamlines access to HR, IT, and operational systems, reducing manual intervention and improving process efficiency.
 
 ## Technical Architecture
 
-The Employee Self-Service agent operates as a custom agent within **Copilot Studio**, leveraging **Microsoft's AI infrastructure** and **Power Platform**. The agent is constructed on a modular architecture, enabling integration with enterprise data sources using RESTful APIs, connectors, and secure authentication mechanisms (for example, OAuth 2.0, Azure AD). The solution supports multi-tenant deployments and is adaptable to on-premises, hybrid, or fully cloud-based environments, depending on organizational requirements.
+The Employee Self-Service agent operates as a custom agent within **Copilot Studio**, leveraging **Microsoft's AI infrastructure** and **Power Platform**. The agent is constructed on a modular architecture, enabling integration with enterprise data sources using RESTful APIs, connectors, and secure authentication mechanisms (for example, OAuth 2.0, Azure AD). The solution supports multitenant deployments and is adaptable to on-premises, hybrid, or fully cloud-based environments, depending on organizational requirements.
 
 ## Integration Capabilities
 
-Integration with existing enterprise systems is achieved through a library of pre-built and custom connectors available in **Copilot Studio** and **Power Platform**. These connectors facilitate data exchange with:
+Integration with existing enterprise systems is achieved through a library of prebuilt and custom connectors available in **Copilot Studio** and **Power Platform**. These connectors facilitate data exchange with:
 
 - HRIS
 - ITSM
@@ -48,7 +48,7 @@ Data security and compliance are enforced through:
 - **Handoff template**: This agent template includes a configurable handoff feature, allowing seamless escalation to specialized first-party agents or human operators within predefined workflows. This is implemented using session context management and secure credential delegation.
 - **Telemetry and Insights**: Integrated telemetry provides granular analytics on agent interactions, task completion rates, and user satisfaction.
 
-## Customization, scaleability, and extensibility
+## Customization, scalability, and extensibility
 
 Copilot Studio and Power Platform provide extensive customization options, including low-code and pro-code development environments. Organizations can modify agent behavior, extend dialog flows, and integrate additional data sources. The platform supports scaling across regions and business units, with centralized management and version control for agent configurations.
 
@@ -72,13 +72,13 @@ In addition to the shipped solution accelerators, the agent is extensible within
 
 ## Implementation considerations
 
-Consider which Employee Self-Service agent starter is right for your organization to start with – HR or IT. Both Employee Self-Service agent starter can be deployed into a single Employee Self-Service agent experience, but you must deploy them one at a time. [Learn more](customize.md) about how to get started customizing the Employee Self-Service agent, where you can review common roles and responsibilities, basic building blocks of the Employee Self-Service agent, and more.
+Consider which Employee Self-Service agent starter is right for your organization to start with – HR or IT. Both Employee Self-Service agent starter can be deployed into a single Employee Self-Service agent experience, but you must deploy them one at a time. [Learn more](customize.md) about how to get started customizing the Employee Self-Service agent, common roles and responsibilities, and basic agent building blocks.
 
 - **Deployment**: The Employee Self-Service agent can be provisioned in sandbox or production environments through the Power Platform Admin Center. Deployment pipelines support continuous integration and delivery, with environment isolation for testing and validation.
 - **Configuration**: Initial setup involves defining integration endpoints, mapping user roles, and configuring dialog flows. Starters and accelerators are available to expedite common scenarios.
 - **Security**: The solution adheres to enterprise-grade security standards, including identity federation, least-privilege access, and encrypted storage. Compliance with regulatory frameworks (for example., GDPR, HIPAA) is supported through built-in auditing and data retention policies.
 
-By consolidating employee self-service tasks within a secure, extensible, and scalable architecture, the Employee Self-Service agent and Copilot Studio deliver operational efficiencies and integration flexibility tailored for enterprise IT environments.
+The Employee Self-Service agent and Copilot Studio consolidate employee self-service tasks within a secure, extensible, and scalable architecture. This consolidation delivers operational efficiencies and integration flexibility tailored for enterprise IT environments.
 
 ## Structure of the Employee Self-Service agent
 
