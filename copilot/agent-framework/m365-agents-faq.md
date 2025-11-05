@@ -54,10 +54,10 @@ Depending on whether you are using out-of-the-box capabilities, declarative agen
 
 | Scenario | Tool |
 |--|--|
-| Use out-of-the-box Copilot capabilities | **Copilot** in Microsoft 365 apps (Word, Excel, PowerPoint, Outlook, Teams) |
-| Build low-code declarative agents | **Copilot Studio (lite or full)** |
-| Build pro-code declarative or custom agents | **Teams Toolkit** or **Microsoft 365 Agents SDK** |
-| Administer and govern agents | **Microsoft 365 Admin Center** and **Copilot Control System** |
+| Use out-of-the-box Copilot capabilities | Copilot in Microsoft 365 apps (Word, Excel, PowerPoint, Outlook, Teams) |
+| Build low-code declarative agents | Copilot Studio (lite or full) |
+| Build pro-code declarative or custom agents | Teams Toolkit or Microsoft 365 Agents SDK |
+| Administer and govern agents | Microsoft 365 Admin Center and Copilot Control System |
 
 Make sure to review the following resources:
 
