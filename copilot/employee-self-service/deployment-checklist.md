@@ -107,7 +107,7 @@ This article has a checklist to help you set up and deploy the Employee Self-Ser
 - Start with HR or IT FAQs (for example, "How do I update my benefits?").
 - Test responses in Copilot Studio's test bot.
 
-### Knowledge source ocumentation
+### Knowledge source Documentation
 
 |Article                                           |Purpose                         |
 |--------------------------------------------------|--------------------------------|
