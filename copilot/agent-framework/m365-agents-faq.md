@@ -58,11 +58,11 @@ The following table summarizes tools that users, makers, developers, and admins 
 
 | Extensibility option | Users | Makers | Developers | Admins |
 |--|--|--|--|--|
-| Copilot (OOTB) | Use Copilot in Microsoft 365 apps (Word, Excel, PowerPoint, Outlook, Teams) | N/A | N/A | Enable Copilot in Microsoft 365 Admin Center; manage tenant settings |
-| Agents <br/>(declarative or custom) | Interact with agents in Copilot Chat <br/><br/>Build low-code declarative agents in Copilot Studio (lite) | Build low-code agents in Copilot Studio (full); add actions/connectors | Create pro-code agents using Teams Toolkit or Agents SDK | Control agent creation/sharing in Admin Center; apply governance policies |
-| Connectors | Use connectors indirectly via Copilot | Create custom connectors in Power Platform or Copilot Studio | Build advanced connectors via Graph Connector APIs or REST/OpenAPI | Approve connectors; enforce DLP and compliance in Power Platform Admin Center |
+| Copilot (OOTB) | Use Copilot in Microsoft 365 apps (Word, Excel, PowerPoint, Outlook, Teams) | N/A | N/A | Enable Copilot in Microsoft 365 Admin Center<br/><br/>Manage tenant settings |
+| Agents <br/>(declarative or custom) | Interact with agents in Copilot Chat <br/><br/>Build low-code declarative agents in Copilot Studio (lite) | Build low-code agents in Copilot Studio (full)<br/><br/>Add actions/connectors | Create pro-code agents using Teams Toolkit or Agents SDK | Control agent creation/sharing in Admin Center<br/><br/>Apply governance policies |
+| Connectors | Use connectors indirectly via Copilot | Create custom connectors in Power Platform or Copilot Studio | Build advanced connectors via Graph Connector APIs or REST/OpenAPI | Approve connectors<br/><br/>Enforce DLP and compliance in Power Platform Admin Center |
 | Notebooks | Create and use Copilot Notebooks for structured workflows | Pair notebooks with agents/connectors for orchestration | Extend notebooks with advanced logic and integrations | Manage sharing and compliance via Microsoft 365 Admin Center |
-| Supporting Tools | Access Copilot features in apps | Use Copilot Studio, Power Platform for extensibility | Use Teams Toolkit, Azure AI Studio, SDKs for advanced builds | Govern extensibility with Microsoft Purview, Copilot Control System, and Admin Centers |
+| Supporting Tools | Access Copilot features in apps | Use Copilot Studio or Power Platform for extensibility | Use the Teams Toolkit, Azure AI Studio, or SDKs for advanced builds | Govern extensibility with Microsoft Purview, Copilot Control System, and Admin Centers |
 
 ### What governance or controls does each extensibility option have?
 
