@@ -71,10 +71,10 @@ Depending on what you want to do, Copilot agent tools are available, as summariz
 
 | Scenario | Tool |
 |--|--|
-| Use out-of-the-box Copilot capabilities | Copilot in Microsoft 365 apps (Word, Excel, PowerPoint, Outlook, Teams) |
-| Build low-code declarative agents | Copilot Studio (lite or full) |
-| Build pro-code declarative or custom agents | Teams Toolkit or Microsoft 365 Agents SDK |
-| Administer and govern agents | Microsoft 365 Admin Center and Copilot Control System |
+| Use out-of-the-box Copilot capabilities | **Copilot in Microsoft 365 apps** (Word, Excel, PowerPoint, Outlook, Teams) |
+| Build low-code declarative agents | **Copilot Studio** (lite or full) |
+| Build pro-code declarative or custom agents | **Teams Toolkit** or **Microsoft 365 Agents SDK** |
+| Administer and govern agents | **Microsoft 365 Admin Center** and **Copilot Control System** |
 
 Make sure to review the following resources:
 
@@ -97,8 +97,8 @@ Yes. Reports are available to help administrators monitor licenses, agents, and 
 
 Yes, administrators can control data sources that are used. Administrators can also configure Copilot features, specify sharing permissions, block or unblock agents, and more.
 
-- Administrators can use Copilot Control System for agents and Power Platform Admin Center for connectors
-- Microsoft Purview provides unified audit and compliance across all extensibility options
+- Administrators can use **Copilot Control System** for agents and **Power Platform Admin Center** for connectors
+- **Microsoft Purview** provides unified audit and compliance across all extensibility options
 - Inventory and lifecycle controls help manage shared or ownerless agents
 
 For more information, see the following resources:
