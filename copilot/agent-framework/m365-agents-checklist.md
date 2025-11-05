@@ -84,7 +84,7 @@ Application lifecycle management (ALM) is the lifecycle management of applicatio
 
 When you need to provide powerful AI assistants that retrieve real-time insights and act on behalf of users, as well as create specialized workflows, you can use Copilot Studio to create custom agents.
 
-| Step  | Task  | Description  |  |
+| Step  | Task  | Description  | Administrator |
 |---|---|---|---|
 | 1  | [Understand how to extend Microsoft 365 Copilot with agents](/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext)  | Learn how to create and configure a custom Agent.  |  |
 | 2  | [Add knowledge sources](/microsoft-copilot-studio/knowledge-copilot-studio)  | Knowledge sources allow your agents to provide relevant information and insights for your customers.  |  |
