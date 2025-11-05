@@ -18,9 +18,7 @@ description: Get answers to frequently asked questions about Microsoft 365 agent
 
 # Microsoft 365 agents FAQ
 
-## Getting started – Foundation 
-
-### Do I need an agent or a connector? How do I get started?
+## Do I need an agent or a connector? How do I get started?
 
 Whether you need an agent or a connector depends on your business needs. Copilot agents support specialized workflows and experiences, whereas connectors help add knowledge to Microsoft 365 intelligence experiences, including Copilot.
 
@@ -30,7 +28,7 @@ Whether you need an agent or a connector depends on your business needs. Copilot
 
 To get started, [review our planning guide](/microsoft-365-copilot/extensibility/planning-guide), which can help you define your business need, and determine whether you need an agent or a connector. 
 
-### What extensibility options are available for Copilot Agents?
+## What extensibility options are available for Copilot Agents?
 
 Extensibility options include using Copilot out of the box (OOTB), agents, connectors, and Notebooks. The following table summarizes these options, including prebuilt, custom, and advanced scenarios. 
 
@@ -41,7 +39,7 @@ Extensibility options include using Copilot out of the box (OOTB), agents, conne
 | Connectors | Prebuilt Graph connectors catalog to index external systems (for example, GitHub, Slack, Zendesk) into Microsoft Graph for grounding in Copilot and agents | Build your own<br/><br/>Create custom Graph connectors and Power Platform connectors<br/><br/>Makers can attach these as Copilot connectors to agents for knowledge and actions | Fabric AI skills and connector governance<br/><br/>Curate an org catalog<br/><br/>Manage usage in the Microsoft 365 admin center<br/><br/>Combine real-time actions with indexed knowledge in agent designs |
 | Notebooks | Copilot Notebooks as a first-party space inside Copilot for structured problem-solving alongside Chat<br/><br/>Part of the unified experience with Chat, Agents, and Create | Use Notebooks to compose multi-step prompts, attach/ground with org content, and hand off to agents you (or your team) created to perform steps<br/><br/>Keeps context continuity | Pair Notebooks with advanced agents (for example, Researcher/Analyst style reasoning) to orchestrate deeper investigations and repeatable workflows across data connectors |
 
-### Who can create, build, and share Copilot extensibility options?
+## Who can create, build, and share Copilot extensibility options?
 
 The following table summarizes what users, makers, developers, and administrators can do across extensibility options.
 
@@ -52,7 +50,7 @@ The following table summarizes what users, makers, developers, and administrator
 | Connectors | Admins/Makers: Create custom connectors in Power Platform or Graph API; requires appropriate environment roles and DLP compliance | Developers can build advanced connectors and integrate with external APIs; subject to security reviews for enterprise use | Sharing connectors is controlled by Power Platform environment policies and admin governance (Managed Environments, DLP) |
 | Notebooks  | Any user with access to Microsoft 365 Copilot can create and use notebooks for structured workflows; no extra license beyond Copilot | Advanced orchestration possible when paired with agents and connectors; typically by makers or developers | Sharing follows standard Microsoft 365 file-sharing permissions (OneDrive/SharePoint) |
 
-### What tools do I need to create, build, implement, and use Copilot extensibility options?
+## What tools do I need to create, build, implement, and use Copilot extensibility options?
 
 The following table summarizes tools that users, makers, developers, and admins can use with Copilot, agents, connectors, notebooks, and supporting tools.
 
@@ -69,7 +67,7 @@ Make sure to review the following resources:
 - [Microsoft 365 Copilot agents admin guide](/copilot/microsoft-365/agent-framework/m365-agents-admin-guide)
 - [Planning guide for Copilot extensibility options](/microsoft-365-copilot/extensibility/planning-guide)
 
-### What governance or controls does each extensibility option have?
+## What governance or controls does each extensibility option have?
 
 For all extensibility options, your organization has the following governance tools available:
 
@@ -86,7 +84,7 @@ The following table summarizes governance and control features for extensibility
 | Connectors | Approve or block connectors in the [Power Platform Admin Center](/power-platform/admin/admin-documentation?tabs=new) <br/><br/>Apply DLP policies to restrict connector usage <br/><br/> Roll out connectors to specific audiences for staged deployment <br/><br/>Compliance auditing via Purview <br/><br/> Data remains within tenant boundaries and honors identity-based access | [Microsoft 365 Copilot connectors overview](/microsoft-365-copilot/extensibility/overview-copilot-connector)<br/><br/> [Copilot Control System management controls](/copilot/microsoft-365/copilot-control-system/management-controls)<br/><br/>[Data stored about user interactions with Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-privacy#data-stored-about-user-interactions-with-microsoft-365-copilot) |
 | Notebooks | Admin toggle to enable/disable Copilot Notebooks <br/><br/>Sharing governed by Microsoft 365 permissions (Loop component model) <br/><br/>Lifecycle aligned with Microsoft 365 compliance posture <br/><br/>Security boundary consistent with tenant controls | [Admin policies for Copilot Pages and Copilot Notebooks](/microsoft-365/loop/cpcn-admin-configuration) <br/><br/>[Summary of governance, lifecycle, and compliance capabilities for Copilot Pages and Copilot Notebooks](/microsoft-365/loop/cpcn-compliance-summary) |
 
-### Based on my use cases, how do I know which accessibility option to implement?
+## Based on my use cases, how do I know which accessibility option to implement?
 
 The following table summarizes use cases, extensibility options, and compliance & governance controls.
 
@@ -101,4 +99,12 @@ The following table summarizes use cases, extensibility options, and compliance 
 | Data enrichment or transformation, such as pulling, transforming, or combining data from multiple sources | | Connector/notebook | Data lineage<br/><br/>Transformation logs<br/><br/>Connector governance |
 | Advanced analytics/visualization, such as custom calculations, dashboards, or visualizations | Notebook | Workspace access controls<br/><br/>Notebook versioning<br/><br/>Data masking<br/><br/>Audit logs |
 
+## Who can create, share, or use agents, and other extensibility options?
 
+The following table summarizes types of users, what they can do, and apps/tools they can use:
+
+| User type | Tasks |
+|--|--|
+| End users who have a Microsoft 365 Copilot license  | Use Copilot to summarize, analyze, or create content <br/><br/>Create declarative agents in Copilot Studio (lite) or SharePoint (if enabled for the organization)<br/><br/>Share Copilot outputs, such as documents or chats, according to Microsoft 365 policies<br/><br/>Create and use notebooks for structured workflows |
+| Makers who have access to Copilot Studio and an appropriate role assigned | Tasks users can perform, plus these:<br/><br/>Use Copilot Studio (lite or full) to create low-code agents<br/><br/>Add actions, connectors, and advanced logic in Copilot Studio or the Microsoft 365 Agents Toolkit<br/><br/>Create custom connectors in Power Platform or Graph API (requires appropriate roles and DLP compliance) |
+| Developers who have access to the Copilot Studio SDK or the Microsoft 365 Agents Toolkit, and an appropriate role assigned | Tasks users and makers can perform, plus these:<br/><br/>Use the Copilot Studio SDK or the Microsoft 365 Agents Toolkit to develop custom agents<br/><br/>Build advanced connectors and integrate with external APIs (subject to security reviews for enterprise usage)<br/><br/>Pair agents and connectors in notebooks, shared according to Microsoft 365 file sharing permissions for OneDrive and SharePoint<br/><br/>Submit agents to the marketplace (according to Microsoft 365 administrator controls and tenant policies) |
