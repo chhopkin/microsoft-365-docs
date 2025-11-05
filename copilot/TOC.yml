@@ -6,7 +6,7 @@ items:
     - name: What is Microsoft 365 Copilot?
       href: microsoft-365-copilot-overview.md
     - name: Microsoft 365 Copilot Chat overview 
-      href: https://learn.microsoft.com/copilot/overview/
+      href: https://learn.microsoft.com/copilot/overview/?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
     - name: Overview and availability
       href: microsoft-365-copilot-app-overview.md
     - name: Admin settings
@@ -14,7 +14,7 @@ items:
     - name: Service description
       href: /office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
     - name: Microsoft 365 Copilot FAQ
-      href: https://learn.microsoft.com/copilot/faq/
+      href: https://learn.microsoft.com/copilot/faq/?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
   - name: Licensing
     items:
     - name: Which Copilot is right for me?
@@ -51,9 +51,9 @@ items:
     - name: Transparency Note
       href: microsoft-365-copilot-transparency-note.md
     - name: Privacy and protections
-      href: https://learn.microsoft.com/copilot/privacy-and-protections
+      href: https://learn.microsoft.com/copilot/privacy-and-protections?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
     - name: Copilot in Edge
-      href: https://learn.microsoft.com/copilot/edge
+      href: https://learn.microsoft.com/copilot/edge?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
   - name: Implementation Readiness
     items:
     - name: Architecture & how Copilot works
@@ -114,20 +114,20 @@ items:
   - name: Welcome email for users
     href: microsoft-365-copilot-enable-users.md
   - name: Adoption
-    href: https://learn.microsoft.com/copilot/tutorials/learn-microsoft-copilot/01-overview
+    href: https://learn.microsoft.com/copilot/tutorials/learn-microsoft-copilot/01-overview?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
   - name: Technical leaders
-    href: https://learn.microsoft.com/copilot/tutorials/learn-microsoft-copilot/02-copilot-technical-leaders
+    href: https://learn.microsoft.com/copilot/tutorials/learn-microsoft-copilot/02-copilot-technical-leaders?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
   - name: scenarios
-    href: https://learn.microsoft.com/copilot/tutorials/learn-microsoft-copilot/03-copilot-scenarios
+    href: https://learn.microsoft.com/copilot/tutorials/learn-microsoft-copilot/03-copilot-scenarios?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
   - name: Students
-    href: https://learn.microsoft.com/copilot/tutorials/learn-microsoft-copilot/04-copilot-students
+    href: https://learn.microsoft.com/copilot/tutorials/learn-microsoft-copilot/04-copilot-students?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
 
 - name: Manage
   items:
   - name: Manage Microsoft 365 Copilot scenarios
     href: microsoft-365-copilot-page.md
   - name: Manage Copilot Chat
-    href: https://learn.microsoft.com/copilot/manage
+    href: https://learn.microsoft.com/copilot/manage?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
   - name: Microsoft 365 Copilot Features
     items:
     - name: Copilot Prompts
@@ -215,7 +215,7 @@ items:
     - name: Install agents in Microsoft 365 Copilot
       href: copilot-agent-install.md
     - name: Manage agents for Copilot
-      href: /microsoft-365/admin/manage/manage-copilot-agents?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+      href: /microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
     - name: Manage shared agents
       href: /microsoft-365/admin/manage/manage-shared-agents?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
     - name: Manage pinning of agents
@@ -223,7 +223,7 @@ items:
     - name: Manage agent permissions
       href: /microsoft-365/admin/manage/manage-agents-permissions?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
     - name: Manage embedded knowledge agents
-      href: microsoft-365/admin/manage/manage-embedded-knowledge-agents?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+      href: /microsoft-365/admin/manage/manage-embedded-knowledge-agents?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
     - name: Microsoft Search and Microsoft 365 Copilot connectors
       href: /microsoftsearch/connectors-overview?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
     - name: App Builder agent
