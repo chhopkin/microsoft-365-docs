@@ -36,7 +36,7 @@ There are four stages in deploying the Employee Self-Service agent.
     1. Infra, set up for third-party external system solution integration.
 2. Install:
     1. Install the Employee Self-Service agent.
-    1. Install third-party external system solution packages.
+    1. Install accelerator packages to connect with other systems.
 3. Customize:
     1. Configure the core Employee Self-Service agent.
     1. Provide third-party external system solution configurations.

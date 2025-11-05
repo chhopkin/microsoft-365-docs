@@ -31,6 +31,7 @@ The Employee Self-Service agent is built on top of Microsoft 365 Copilot. Users 
 |Users                         |Microsoft Teams |[Manage user access to Microsoft Teams](/microsoftteams/user-access) |
 |Environment admins and makers |Copilot Studio  |[Copilot Studio licensing and subscriptions](/microsoft-copilot-studio/requirements-licensing-subscriptions) |
 |Environment admins and makers |Microsoft 365 Copilot |[Microsoft 365 Copilot](../microsoft-365-copilot-licensing.md) |
+|Environment admins and makers |Teams          |[Manage user access to Microsoft Teams](/microsoftteams/user-access) |
 
 ## Set up Copilot Studio capacity
 
@@ -119,6 +120,9 @@ Steps breakdown:
 >[!NOTE]
 >The average price per user without a Microsoft 365 Copilot license is 15 cents per query.
 
+> [!IMPORTANT]
+> The above samples are only for reference. Each deployment of the Employee Self-Service agent varies with the number of flows, actions, and so on, depending on the level of customizations applied in the accelerator packages used to connect to other systems.
+
 ## Required roles
 
 The ESS Agent includes several different technical components and configuration areas, which require different Microsoft 365 roles for deployment. We recommend you use the least privileged role possible to perform each necessary activity. For roles with elevated privileges, use just-in-time access.
@@ -128,8 +132,8 @@ The ESS Agent includes several different technical components and configuration 
 |Global admin |User who has permissions to configure and delegate other roles |Assign user roles |Microsoft admin center |
 |Power Platform administrator |User who has power to configure Power Platform environments and assign roles within Power Platform |- Create environments </br> - Assign user roles </br> - Install the Employee Self-Service agent |- Power Platform </br> - Microsoft Copilot Studio |
 |Power Platform maker |User who has permission to make changes in a specific Power Platform environment. We recommend you have the agent owner for this agent perform this role. |Configure the Employee Self-Service agent |- Power Platform </br> - Microsoft Copilot Studio |
-|External system solution administrators |Users who manage third-party solutions |Provide configuration inputs for external system solution applications |External system solution application's administration and configuration interface |
-|Information security |Infrastructure team who manages and controls enterprise application security policies |- Allowlist inbound requests for external system solution endpoints </br>- Manage single sign-on configurations |- Network firewall policies </br>- Single sign-on applications |
+|External system administrators |Users who manage third-party solutions |Provide configuration inputs for external systems to be integrated with Employee Self-Service agents. |Administration and configuration interface |
+|Information security |Infrastructure team who manages and controls enterprise application security policies |- Allowlist inbound requests for external system endpoints </br>- Manage single sign-on configurations |- Network firewall policies </br>- Single sign-on applications |
 |Change control board |Team that manages changes in an organization relating to deploying an enterprise application |- Approve technical architecture </br> - Approve data security, compliance, and governance policies </br> - Approve responsible AI policies |N/A |
 
 [Learn more about role-based security roles for Power Platform](/power-platform/admin/database-security)
