@@ -50,10 +50,14 @@ For more information, see [Manage access to Copilot agents](/microsoft-365/admin
 
 ## What tools do I need to create, build, implement, and use Copilot agents?
 
-- **Users** can use Copilot and in Microsoft 365 apps (Word, Excel, PowerPoint, Outlook, Teams), and interact with declarative agents in Copilot Chat. Users can also build low-code declarative agents in Copilot Studio (lite).
-- **Makers** can use Copilot Studio to build low-code agents. Makers can also add actions and connectors.
-- **Developers** can use the Teams Toolkit or Agents SDK to create pro-code agents.
-- **Administrators** can control agent creation and sharing in the Admin Center, and apply governance policies.
+Depending on whether you are using out-of-the-box capabilities, declarative agents, or custom agents, different tools are available.
+
+| Scenario | Tool |
+|--|--|
+| Use out-of-the-box Copilot capabilities | **Copilot** in Microsoft 365 apps (Word, Excel, PowerPoint, Outlook, Teams) |
+| Build low-code declarative agents | **Copilot Studio (lite or full)** |
+| Build pro-code declarative or custom agents | **Teams Toolkit** or **Microsoft 365 Agents SDK** |
+| Administer and govern agents | **Microsoft 365 Admin Center** and **Copilot Control System** |
 
 Make sure to review the following resources:
 
@@ -68,7 +72,7 @@ For all extensibility options, your organization has the following governance to
 - [Microsoft Purview](/purview/ai-microsoft-purview): Compliance, audit, and eDiscovery across all extensibility options
 - Admin Centers: [Microsoft 365 Admin Center](/microsoft-365/admin/admin-overview/admin-center-overview) and [Power Platform Admin Center](/microsoft-365/admin/admin-overview/admin-center-overview) for configuration and enforcement.
 
-## Based on my use cases, how do I know which option to use?
+## Based on specific use cases, how do I know which option to use?
 
 The following table summarizes use cases and options.
 
@@ -94,3 +98,7 @@ Yes, administrators can control data sources that are used. Administrators can a
 - Administrators use Copilot Control System for agents and Power Platform Admin Center for connectors
 - Microsoft Purview provides unified audit and compliance across all extensibility options
 - Inventory and lifecycle controls help manage shared or ownerless agents
+
+For more information, see the following resources:
+- [Manage Microsoft 365 Copilot agents and integrated apps](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps)
+- [Manage Microsoft 365 Copilot connectors](/microsoft-365/admin/manage/manage-copilot-connectors)
