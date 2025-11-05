@@ -16,37 +16,43 @@ ms.collection:
 description: Learn about Microsoft 365 Agents.
 ---
 
-# Microsoft 365 Agents Checklist
+# Microsoft 365 agents deployment checklist
 
 This checklist is intended to assist admins with the successful deployment of Copilot agent governance. It's structured in a checklist format, providing a comprehensive guide for a streamlined setup process.
 
-Required administrators for the engagement:
+**Required administrators for the engagement**:
 
 1. **Microsoft 365 admin** - Setup Copilot agent and connectors settings.
 2. **Microsoft Power Platform admin** - Setup Copilot Studio policies and settings.
 3. **Microsoft 365 Search admin** - Setup Microsoft 365 Graph connector configurations. 
 4. **Microsoft Azure admin** - Setup Azure subscription configurations. 
 
-Deployment phases:
+**Deployment phases**:
 
   :::image type="content" source="/copilot/microsoft-365/agent-framework/media/m365-agents-checklist/agent-deployment-phases.png" alt-text="Diagram of the Copilot agent deployment phases."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-checklist/agent-deployment-phases.png":::
   
-
-Downloadable resources:
+**Downloadable resources**:
 
 - [Visual Checklist and deployment mind map](m365-agents-visual-map.md)
 - [Microsoft 365 Copilot agents blueprint](m365-agents-blue-print.md)
 
-## Deployment checklist
+## Manage Microsoft 365 Copilot agent access and availability policies
 
-### Control user access to agents using administrative controls
+Agent policies refer to the tenant settings you can make as an administrator in the Copilot Control System within Microsoft 365 admin center. Agent policies relate to the available settings for all agents in your tenant. 
 
-| Step  | Task  | Owner  | Status  |
+| Step  | Task  | Description  | Administrator  |
 |---|---|---|---|
-| 1  | **Choose the right Copilot Studio experience**  | Copilot Administrator<br>SharePoint administrator<br>Copilot Studio Administrator  |  |
-| 2  | **Control access to Copilot agents**<br>Admins can enable/disable copilot extensibility by setting who can access to agents. Following roles applies to manage agents: AI Admin, Global Admin and Global Readers can manage Agents in Microsoft 365 admin center.<p>Choose whether:<ul><li>**All users**: [*Default*] meaning all users in the organization can access agent, subject to the existing app policies and user assignments.</li><li>**No users**: No users in the organization can access agents, and external agents are disabled in the agents flyout. This option also hides agents from the list of available and deployed apps.</li><li>**Specific users/groups**: Admins can specify users or groups in their organization to have access to agents.<p>For more information, see Manage access to Copilot agents.  | Copilot Administrator<br>Microsoft 365 Administrator  |  |
-| 3  | **Manage how users can install agents**<p>M365 admins can assign or unassign agents to specific users/groups using the same available controls to other apps.<p>Choose whether:<ul><li>**No users in the organization can install**: No users in the organization can install and use this app.</li><li>**All users in the organization can install**: All users in the organization can install and use this app.</li><li>**Specific users/group can install**: Only selected users in your organization can install and use this app.</li></ul><p>For more information, see Manage Microsoft 365 Copilot Agents - Microsoft 365 admin \| Microsoft Learn.  | Copilot Administrator  Microsoft 365 Administrator  |  |
-| 4  | **Allow users to access third party apps in your tenant**<p>For more information, see Manage Microsoft 365 Copilot Agents - Microsoft 365 admin \| Microsoft Learn.  |  |  |
-| 5  | **Let users access Microsoft apps in your tenant**<p>Choose which types of apps and agents are available to users:<ul><li>Allow apps and agents created by Microsoft.</li><li>Allow apps and agents created by external publishers.</li></ul><p>For more information, see Manage Microsoft 365 Copilot Agents - Microsoft 365 admin \| Microsoft Learn.  |  |  |
+| 1  | [Manage access to M365 Copilot agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide&branch=release-agent-framework&toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json#manage-access-to-copilot-agents)  | Control how your users interact with agents:<ul><li>Choose who can access agents</li><li>Choose which type of apps and agents users are allowed to install</li></ul>  |  |
+| 2  | [Share and publish M365 Copilot agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?view=o365-worldwide)  | Agent sharing methods:<ul><li>[Sideload agents for personal use](/copilot/microsoft-365/agent-framework/agent-policies/agent-sideload?view=o365-worldwide)</li><li>[Shared agent with others](/microsoft-365/admin/manage/manage-shared-agents?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide)</li><li>[Publish custom agents to your organization](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide#publish-agents)</li><li>[Submit agents to the marketplace](/copilot/microsoft-365/agent-framework/agent-policies/agent-submit-marketplace?view=o365-worldwide)</li></ul>  |  |
 
-### Create, manage, and view agents in Copilot Studio (lite) and Copilot Studio (full) experience
+## Choose the right Copilot Studio experience
+
+As an admin, you can configure and deploy out-of-the-box agents without having to create and publish a new agent. However, when your organization needs to customize Copilot functionality, members of your organization can create agents. Understand the different types of agents that can be created, shared, and deployed at your organization based on the method your organization uses to create agents.
+
+| Step  | Task  | Description  | Administrator  |
+|---|---|---|---|
+| 1  | SharePoint agent  | For more information, see [Create a SharePoint agent](https://support.microsoft.com/en-us/office/create-a-sharepoint-agent-d16c6ca1-a8e3-4096-af49-67e1cfdddd42?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json).  |  |
+| 2  | Copilot Studio (lite)  | For more information, see [Use Copilot Studio to build declarative agents](https://learn.microsoft.com//microsoft-365-copilot/extensibility/copilot-studio-lite).  |  |
+| 3  | Copilot Studio (full)  | For more information, see [Extend Microsoft 365 Copilot with agents](https://learn.microsoft.com/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext).  |  |
+| 4  | Microsoft 365 Agents Toolkit  | For more information, see [Microsoft 365 Agents Toolkit](https://review.learn.microsoft.com/microsoft-365/developer/overview-m365-agents-toolkit?branch=main&branchFallbackFrom=release-agent-framework&toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json).  |  |
+
