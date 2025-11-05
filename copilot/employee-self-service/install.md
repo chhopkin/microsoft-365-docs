@@ -56,8 +56,8 @@ After completing the required steps in the [preparation](prepare.md) stage, you 
 ## Install the Employee Self-Service agent
 
 1. Go to the Copilot Studio home page.
-1. Select **Create** in the navigation pane. This action should show the **Employee Self-Service** agent on the **Explore agents** page. If you created both an *Employee HR Self-Service agent and an **Employee IT Self-Service agent, you should see them both.
-1. Select the Employee Self-Service agent and choose **Install** in the popup.
+1. Select **Create** in the navigation pane. You should see an **Employee Self-Service HR** agent and an **Employee Self-Service IT** agent.
+1. Select the Employee Self-Service agent you wish to create, and choose **Install** in the popup.
 
 The Employee Self-Service agent is now installed in your selected Power Platform environment with a preferred solution that can be exported and imported into another environment.
 
