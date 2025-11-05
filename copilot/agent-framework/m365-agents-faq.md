@@ -70,7 +70,7 @@ The following table summarizes tools that users, makers, developers, and admins 
 For all extensibility options, your organization has the following governance tools available:
 
 - [Copilot Control System](/copilot/microsoft-365/copilot-control-system/overview): Unified dashboard for managing Copilot and agents
-- Microsoft Purview: Compliance, audit, and eDiscovery across all extensibility options
-- Admin Centers: Microsoft 365 Admin Center and Power Platform Admin Center for configuration and enforcement.
+- [Microsoft Purview](/purview/ai-microsoft-purview): Compliance, audit, and eDiscovery across all extensibility options
+- Admin Centers: [Microsoft 365 Admin Center](/microsoft-365/admin/admin-overview/admin-center-overview) and [Power Platform Admin Center](/microsoft-365/admin/admin-overview/admin-center-overview) for configuration and enforcement.
 
 The following table summarizes governance and control features for extensibility options:
