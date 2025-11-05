@@ -95,7 +95,7 @@ Yes. Reports are available to help administrators monitor licenses, agents, and 
 
 ## Can administrators control data sources used by Copilot agents and connectors?
 
-Yes, administrators can control data sources that are used. Administrators can also control Copilot features, sharing, block/unblock agents, and more.
+Yes, administrators can control data sources that are used. Administrators can also configure Copilot features, specify sharing permissions, block or unblock agents, and more.
 
 - Administrators can use Copilot Control System for agents and Power Platform Admin Center for connectors
 - Microsoft Purview provides unified audit and compliance across all extensibility options
