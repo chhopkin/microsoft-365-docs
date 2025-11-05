@@ -1,5 +1,5 @@
 ---
-title: Optimizating SharePoint content for Employee Self-Service agents
+title: Optimizing SharePoint content for Employee Self-Service agents
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
@@ -19,7 +19,7 @@ appliesto:
 
 # Optimizing SharePoint content for Employee Self-Service agents
 
-Copilot Studio grounds responses in your organization's authoritative knowledge sources and data using [configured knowledge sources](/microsoft-copilot-studio/knowledge-copilot-studio), returning only what each user's authorized to see. Simple information architecture, clear document structure, detailed metadata, and well-governed access translates into higher quality, citation-backed answers.
+Copilot Studio grounds responses in your organization's authoritative knowledge sources and data using [configured knowledge sources](/microsoft-copilot-studio/knowledge-copilot-studio), returning only what each user's authorized to see. Simple information architecture, clear document structure, detailed metadata, and well-governed access translate into higher quality, citation-backed answers.
 
 Preparing SharePoint content for Copilot Studio and Employee Self-Service agent prevents oversharing, and gives employees fast, cited answers to common questions without leaving the agent they're already using.
 
@@ -64,7 +64,7 @@ Agent makers and users can see the highest sensitivity label applied to sources 
 Make it obvious where official content is located and how to navigate it. Well-structured information architecture (IA) reduces ambiguity and improves information retrieval so Employee Self-Service agent can more easily identify the right sources in which to ground its responses.
 
 - If you haven't already, model your SharePoint sites and hubs on user [mental models](/sharepoint/information-architecture-modern-experience). Plan top level (global), hub, and local navigation and consider how to align IA to common tasks, roles, and regions.
-- Prioritize search and findability by using clear, action-oriented labels in navigation, for page titles, and meta data just like you would to improve search.
+- Prioritize search and findability by using clear, action-oriented labels in navigation, for page titles, and meta data just like you would act to improve search.
 - Use content types consistently by defaulting to reusable content types (for example, policy, procedures, troubleshooting steps, FAQ) to standardize fields like owner, effective date, and region.
 
 ### Use metadata, managed properties, and taxonomies with intent
@@ -76,14 +76,14 @@ This configuration reduces the risk of surfacing outdated or off-topic content a
 - Managed metadata: Create term sets for country/region, region, job function, document type, and more that can be used as [variables in Copilot Studio](/microsoft-copilot-studio/authoring-variables?tabs=webApp).
 - Map metadata to managed properties: Always map important [site columns](https://support.microsoft.com/office/create-a-managed-metadata-column-8fad9e35-a618-4400-b3c7-46f02785d27f) to [managed properties](/sharepoint/crawled-and-managed-properties-overview) in the [SharePoint Search Schema](/sharepoint/manage-search-schema).
 
-**Example**: Suppose you have a "Country/Region" column in your HR policies library. By mapping this to a managed property (like RefinableString100), This helps Employee Self-Service agent answer, "What is my parental leave policy in Germany?" with the correct, country/region-specific document, rather than a generic or irrelevant answer.
+**Example**: Suppose you have a "Country/Region" column in your HR policies library. When you map this column to a managed property (like RefinableString100), This helps Employee Self-Service agent answer, "What is my parental leave policy in Germany?" with the correct, country/region-specific document, rather than a generic or irrelevant answer.
 
 ### Manage the content lifecycle so answers stay current
 
 When your SharePoint content is governed with clear versioning, retention, and review policies, you empower everyone to find the right answer. This helps boost accuracy, since Employee Self-Service agent and other AI tools ground their responses in current, authoritative sources.
 
 1. **Enable versioning** in [document libraries](/microsoft-365/community/versioning-basics-best-practices). This keeps a history of changes and ensures only the latest approved version is visible to end users. Consider requiring approval for published versions. **Example**: Drafts remain hidden until approved.
-1. **Apply retention and expiry policies** to documents to ensure documents are retained for the required period and can be automatically deleted or reviewed when outdated. Example: HR policies auto-expire after 1 year unless renewed. Set up [retention labels to help manage the content lifecycle](/purview/auto-apply-retention-labels-scenario).
+1. **Apply retention and expiry policies** to documents to ensure documents are retained for the required period and can be automatically deleted or reviewed when outdated. Example: HR policies autoexpire after one year unless renewed. Set up [retention labels to help manage the content lifecycle](/purview/auto-apply-retention-labels-scenario).
 1. **Archive or delete** duplicated or outdated content to ensure only one authoritative copy exists in the published library. Example: Use metadata to mark "current," "archived," or "superseded" status.
 1. **Automate these tasks** with Power Automate flows to notify owners when a document is due for review or when a new version is published and set up automate archiving or status changes based on review dates or retention label triggers.
 1. **Regularly audit and review** content using periodic audits of libraries to ensure only current documents are published and use SharePoint views and reports to identify outdated or duplicate content.
@@ -133,7 +133,7 @@ Submit a VPN access request through support. Approval is typically granted withi
 
 [Heading 3] Security requirements
 
-You must have multi-factor authentication (MFA) enabled and your device must meet minimum security standards (for example, antivirus, OS updates).
+You must have multifactor authentication (MFA) enabled and your device must meet minimum security standards (for example, antivirus, OS updates).
 
 [Heading 3] Special cases/exceptions
 
@@ -195,7 +195,7 @@ Tools not listed in the Tech Hub aren't supported. Use of these tools must be ap
 
 ### Include action steps and hyperlinks
 
-Hyperlinks allow both users and LLMs to quickly access referenced resources, official documentation, or related tools. Hyperlinks provide context, and highlights calls to action, helping LLMs understand the flow and dependencies between tasks. This leads to more precise, context-aware answers. Ensure links are descriptive (for example, "Download Company Portal app") for clarity and accessibility.
+Hyperlinks allow both users and LLMs to quickly access referenced resources, official documentation, or related tools. Hyperlinks provide context, and highlight calls to action, helping LLMs understand the flow and dependencies between tasks. This leads to more precise, context-aware answers. Ensure links are descriptive (for example, "Download Company Portal app") for clarity and accessibility.
 
 #### Content example for instructions on using a tool:
 
@@ -205,7 +205,7 @@ Steps:
 
 1. Open the Link manager and sign in with your corporate credentials.
 1. Find the link you want to share. You can use the search bar or filters.
-1. Copy the URL in one two ways:
+1. Copy the URL in one of two ways:
     - Select the checkbox next to the link, then select **Share** > **Share URL** from the dropdown.
     - Select the **Copy** icon next to the **Vanity Name** field to copy the URL to your clipboard.
 1. Share the link by pasting the copied URL into an email, Teams message, or browser.
@@ -220,4 +220,5 @@ The Employee Self-Service Agent can't find content in accordion webparts that us
 ## Resources
 
 - [Add a SharePoint site, hub, or page as a knowledge source in Copilot Studio](https://microsoft.github.io/TechExcel-Designing-your-own-copilot-using-copilot-studio/docs/Ex05/0502.html)
+
 - [Copilot Studio web app limits for SharePoint](/microsoft-copilot-studio/requirements-quotas#copilot-studio-web-app-sharepoint-limits)
