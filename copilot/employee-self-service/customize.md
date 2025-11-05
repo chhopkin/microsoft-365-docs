@@ -19,7 +19,13 @@ appliesto:
 
 # Customize the Employee Self-Service agent
 
-Customization is how you make the Employee Self-Service agent work in the best way to suit your organization's needs.
+The Employee Self-Service agent is customizable in Microsoft Copilot Studio, where Makers can use a variety of tools, topics, authoritative knowledge sources, and Microsoft-built connectors to external systems, like Workday, SAP, and ServiceNow:
+
+- Start by learning more about roles and responsibilities.
+- Then, review the basic building blocks that make up the Employee Self-Service agent.
+- Next, see your options for customizing the look and certain content end-users will see.
+- Then, learn about adding knowledge sources.
+- Finally, review topics that are included in the ESS package by default and decide how to customize details for the need of your organization.
 
 |Role |Activities to perform |Configuration area |
 |-----|----------------------|-------------------|
@@ -29,33 +35,27 @@ Customization is how you make the Employee Self-Service agent work in the best w
 
 ## Understanding components
 
-The agent owner who manages the Employee Self-Service agent going forward must have a thorough understanding of its architecture before continuing with configuring the Employee Self-Service agent.
-
-The Employee Self-Service agent is built with the following components:
+To craft seamless employee experiences with an Employee Self-Service agent, begin by developing an understanding of its architecture. Together, these components enable agents to deliver natural conversations, extend functionality, and provide accurate, contextual information. The Employee Self-Service agent is built on five key elements:
 
 ### Topics
 
-[Topics](/microsoft-copilot-studio/guidance/topics-overview) are core building blocks of an agent, which are seen as the agent competencies; they define how a conversational dialog plays out. Topics are discrete conversation paths that, when used together, allow for users to have a conversation that feels natural and flows appropriately.
+Topics can be used in a variety of ways, from crafting a verbatim response for sensitive topics to managing when to display an adaptive card or how a fallback path is defined. The Employee Self-Service agent template comes with a set of pre-defined and fully configurable topics to help get you started and you can then create your own, leveraging the full capability of Copilot Studio and our grown list of sample topics for ESS. [Learn more](/microsoft-copilot-studio/guidance/topics-overview) about Topics.
 
 ### Actions
 
-[Actions](/microsoft-copilot-studio/advanced-plugin-actions) extend agent capabilities. Agents use Actions to respond to users. The agent can respond automatically using [generative orchestration](/microsoft-copilot-studio/advanced-generative-actions), or can call actions explicitly from within a topic.
+Also called tools, actions expand the functionality of your agent, allowing it to perform various actions in response to user requests or autonomous triggers. Actions extend the agent's capabilities by enabling responses through generative orchestration or by calling specific actions within a topic. [Learn more](/microsoft-copilot-studio/advanced-plugin-actions) about actions.
 
 ### Knowledge sources
 
-[Knowledge sources](/microsoft-copilot-studio/knowledge-copilot-studio) act in concert with generative answers. When knowledge sources are added, agents can use enterprise data from Power Platform, Dynamics 365 data, websites, and external systems. Knowledge sources allow your agents to provide relevant information and insights for your customers. Published agents that contain knowledge use the configured knowledge sources to ground the published agent. You can incorporate knowledge at the agent level, in the **Knowledge** page, or at the topic level, with a generative answers node in an agent topic. You can incorporate knowledge sources into agents during their initial creation, add them after the agent is created, or add them to a generative answers topic node.
+Knowledge sources allow your agents to provide relevant information and insights from authoritative sources like SharePoint or ServiceNow. You can incorporate knowledge for the agent and for the agent as whole or configure more focused knowledge sources for specific intents using a Topic with a Generative Answer Node. [Learn more](/microsoft-copilot-studio/knowledge-copilot-studio) about knowledge sources.
 
-### Accelerator packages
+### External system solution accelerator connectors
 
-Packages are reusable components within Copilot Studio to configure certain third-party sources.
+Connectors are external systems that help accelerate integrations and other components with services like ServiceNow, Workday, and more.
 
-### Knowledge source instructions
+### Instructions
 
-Clarify how each source should be used. Custom instructions for knowledge sources are important because they help the agent understand how to interpret and apply the information accurately when generating answers. Custom instructions mean responses are relevant, trustworthy, and aligned with the user's intent. [Learn more about knowledge sources](/microsoft-copilot-studio/knowledge-copilot-studio).
-
-### Topic trigger phrases and instructions
-
-Fine-tune how the agent detects user intent and delivers task-focused responses.
+LLM experiences can be shaped using natural language to use system prompt techniques that influence Employee Self-Service agent reasoning and behaviors. Instructions can be applied to the overall agent, to knowledge sources, to topics, and when publishing to Teams and Microsoft 365 Copilot. In addition, you can include dynamic variables (for example, specific user profile attributes) to further direct and ground the agent for more personalized responses.[Learn more](/microsoft-copilot-studio/knowledge-copilot-studio) about knowledge sources.
 
 ## Response quality
 
