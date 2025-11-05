@@ -30,7 +30,7 @@ The following calculated fields should be created at the report level (see defin
 - Worker Type
 - CF LRV Sup Org Ref ID
 
-## List of reports
+## Next steps for sections of report configurations
 
 - [Workday User Columns Custom Report](workday-user-columns-support-config.md)
 - [Workday User Context Custom Report - SORT](workday-sort-support-config.md)
