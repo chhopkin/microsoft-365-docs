@@ -83,23 +83,7 @@ The following table summarizes use cases, extensibility options, and compliance 
 | Data enrichment or transformation, such as pulling, transforming, or combining data from multiple sources | Connector/notebook | Data lineage<br/><br/>Transformation logs<br/><br/>Connector governance |
 | Advanced analytics/visualization, such as custom calculations, dashboards, or visualizations | Notebook | Workspace access controls<br/><br/>Notebook versioning<br/><br/>Data masking<br/><br/>Audit logs |
 
-## Who can create, share, or use agents, and other extensibility options?
-
-The following table summarizes types of users, what they can do, and apps/tools they can use:
-
-| User type | Tasks |
-|--|--|
-| End users who have a Microsoft 365 Copilot license  | Use Copilot to summarize, analyze, or create content <br/><br/>Create declarative agents in Copilot Studio (lite) or SharePoint (if enabled for the organization)<br/><br/>Share Copilot outputs, such as documents or chats, according to Microsoft 365 policies<br/><br/>Create and use notebooks for structured workflows |
-| Makers who have access to Copilot Studio and an appropriate role assigned | Tasks users can perform, plus these:<br/><br/>Use Copilot Studio (lite or full) to create low-code agents<br/><br/>Add actions, connectors, and advanced logic in Copilot Studio or the Microsoft 365 Agents Toolkit<br/><br/>Create custom connectors in Power Platform or Graph API (requires appropriate roles and DLP compliance) |
-| Developers who have access to the Copilot Studio SDK or the Microsoft 365 Agents Toolkit, and an appropriate role assigned | Tasks users and makers can perform, plus these:<br/><br/>Use the Copilot Studio SDK or the Microsoft 365 Agents Toolkit to develop custom agents<br/><br/>Build advanced connectors and integrate with external APIs (subject to security reviews for enterprise usage)<br/><br/>Pair agents and connectors in notebooks, shared according to Microsoft 365 file sharing permissions for OneDrive and SharePoint<br/><br/>Submit agents to the marketplace (according to Microsoft 365 administrator controls and tenant policies) |
-
-Administrators can manage who can create and share agents. See the following articles:
-
-- [Manage Microsoft 365 Copilot agents in the Microsoft 365 admin center](https://review.learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide&branch=main#manage-access-to-copilot-agents)
-- [Who can create, build, and share Copilot extensibility options?](#who-can-create-build-and-share-copilot-extensibility-options) (in this article)
-- [Copilot Control System management controls](https://learn.microsoft.com/en-us/copilot/microsoft-365/copilot-control-system/management-controls)
-
-## Can administrators see who does what? 
+## Can administrators monitor Copilot agent usage? 
 
 Yes. Reports are available to help administrators monitor licenses, agents, and deployments. Custom reports can also be created. See Copilot Control System measurement and reporting.
 
