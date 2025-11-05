@@ -81,7 +81,7 @@ Make sure to review the following resources:
 
 ## What governance or controls are available for agents?
 
-Your organization has the following governance options:
+The following governance options are available for Copilot agents:
 
 - [Copilot Control System](/copilot/microsoft-365/copilot-control-system/overview): Unified dashboard for managing Copilot and agents
 - [Microsoft Purview](/purview/ai-microsoft-purview): Compliance, audit, and eDiscovery across all extensibility options
