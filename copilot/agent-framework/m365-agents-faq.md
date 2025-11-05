@@ -22,9 +22,9 @@ description: Get answers to frequently asked questions about Microsoft 365 agent
 
 Whether you need an agent or a connector depends on your business needs. Copilot agents support specialized workflows and experiences, whereas connectors help add knowledge to Microsoft 365 intelligence experiences, including Copilot.
 
-- Copilot agents extend the functionality of Copilot by acting as specialized AI assistants tailored to specific domains or use cases. You can use agents to extend Copilot's knowledge, automate workflows, and deliver tailored user experiences in Microsoft Teams, Outlook, SharePoint, or custom apps. You can create a declarative agent using Copilot's AI infrastructure, model, and orchestrator. Or, for complex workflows or specific language models, you can create a custom agent. For more information, see [Agents for Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agents-overview).
+- **Copilot agents** extend the functionality of Copilot by acting as specialized AI assistants tailored to specific domains or use cases. You can use agents to extend Copilot's knowledge, automate workflows, and deliver tailored user experiences in Microsoft Teams, Outlook, SharePoint, or custom apps. You can create a declarative agent using Copilot's AI infrastructure, model, and orchestrator. Or, for complex workflows or specific language models, you can create a custom agent. For more information, see [Agents for Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agents-overview).
 
-- Copilot connectors enable you to ingest data, such as unstructured, line-of-business data, into the Microsoft Graph so that Copilot can reason over that data alongside other data. There are more than 100 prebuilt Copilot connectors available, and the Connectors API can be used to create custom connectors. For more information, see [Microsoft 365 Copilot Connectors](/microsoft-365-copilot/extensibility/overview-copilot-connector).
+- **Copilot connectors** enable you to ingest data, such as unstructured, line-of-business data, into the Microsoft Graph so that Copilot can reason over that data alongside other data. There are more than 100 prebuilt Copilot connectors available, and the Connectors API can be used to create custom connectors. For more information, see [Microsoft 365 Copilot Connectors](/microsoft-365-copilot/extensibility/overview-copilot-connector).
 
 To get started, [review our planning guide](/microsoft-365-copilot/extensibility/planning-guide), which can help you define your business need, and determine whether you need an agent or a connector. 
 
@@ -96,7 +96,7 @@ The following table summarizes use cases, extensibility options, and compliance 
 | Workflow automation, such as structured tasks, approvals, or integrations | Custom agent | Workflow approval logs<br/><br/>RBAC<br/><br/>API permissions<br/><br/>Audit trails |
 | Role-specific guidance, such as tailored responses by user role or context | Custom agent | RBAC<br/><br/>User context logging<br/><br/>Privacy review |
 | External system integration, such as using data from APIs, databases, or internal tools | Custom agent/connector | API authentication<br/><br/>Consent<br/><br/>Connector certification<br/><br/>Data boundary enforcement |
-| Data enrichment or transformation, such as pulling, transforming, or combining data from multiple sources | | Connector/notebook | Data lineage<br/><br/>Transformation logs<br/><br/>Connector governance |
+| Data enrichment or transformation, such as pulling, transforming, or combining data from multiple sources | Connector/notebook | Data lineage<br/><br/>Transformation logs<br/><br/>Connector governance |
 | Advanced analytics/visualization, such as custom calculations, dashboards, or visualizations | Notebook | Workspace access controls<br/><br/>Notebook versioning<br/><br/>Data masking<br/><br/>Audit logs |
 
 ## Who can create, share, or use agents, and other extensibility options?
