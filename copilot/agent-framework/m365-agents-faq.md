@@ -85,9 +85,9 @@ Make sure to review the following resources:
 
 The following governance options are available for Copilot agents:
 
-- [Copilot Control System](/copilot/microsoft-365/copilot-control-system/overview): Unified dashboard for managing Copilot and agents
-- [Microsoft Purview](/purview/ai-microsoft-purview): Compliance, audit, and eDiscovery across all extensibility options
-- Admin Centers: [Microsoft 365 Admin Center](/microsoft-365/admin/admin-overview/admin-center-overview) and [Power Platform Admin Center](/microsoft-365/admin/admin-overview/admin-center-overview) for configuration and enforcement.
+- **[Copilot Control System](/copilot/microsoft-365/copilot-control-system/overview)**: Unified dashboard for managing Copilot and agents
+- **[Microsoft Purview](/purview/ai-microsoft-purview)**: Compliance, audit, and eDiscovery across all extensibility options
+- **Admin Centers**: [Microsoft 365 Admin Center](/microsoft-365/admin/admin-overview/admin-center-overview) and [Power Platform Admin Center](/microsoft-365/admin/admin-overview/admin-center-overview) for configuration and enforcement.
 
 ## Can administrators monitor Copilot agent usage? 
 
