@@ -19,9 +19,6 @@ appliesto:
 
 # Integrate ServiceNow Live Agent with your Employee Self-Service deployment
 
->[!NOTE]
->The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
-
 >[!IMPORTANT]
 >You need to complete the steps to deploy the Employee Self-Service agent before you can configure this supplemental extension pack.
 

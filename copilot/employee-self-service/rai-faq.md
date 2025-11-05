@@ -19,9 +19,6 @@ appliesto:
 
 # Responsible AI FAQ for the Employee Self-Service agent
 
-> [!NOTE]
-> The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
-
 ## What is Employee Self-Service?
 
 The Employee Self-Service agent is a new set of capabilities to answer policy related questions and simplify HR and IT related tasks for faster resolution helping to improve the employee experience. The agent makes it easy for employees to:

@@ -19,9 +19,6 @@ appliesto:
 
 # Customize the Employee Self-Service agent
 
->[!NOTE]
->The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
-
 Customization is how you make the Employee Self-Service agent work in the best way to suit your organization's needs.
 
 |Role |Activities to perform |Configuration area |

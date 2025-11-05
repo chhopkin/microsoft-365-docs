@@ -19,9 +19,6 @@ appliesto:
 
 # Employee Self-Service agent deployment overview
 
->[!NOTE]
->The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
-
 There are several steps necessary to deploy the Employee Self-Service agent. Refer to the table for an overview of the deployment process.
 
 |Role                         |Development environment |Production environment |

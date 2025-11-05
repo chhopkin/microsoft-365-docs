@@ -380,13 +380,13 @@ The Get Ticket List feature lets users retrieve a history of user tickets. This 
 
 #### Create Ticket
 
-Provides user the ability to create a ticket for IT helpdesk support. Post-Private Preview, users can add attachments to the ticket, letting them provide more context for easier resolution.
+Provides user the ability to create a ticket for IT helpdesk support. Users can add attachments to the ticket, letting them provide more context for easier resolution.
 
 #### Update Ticket
 
 The Update Ticket feature allows users to modify existing helpdesk tickets by adding comments and attributes. This functionality is crucial for maintaining clear and concise communication between users and support agents, ultimately enhancing the resolution process.
 
-Post-Private Preview, users can add attachments to the ticket, letting them provide more context for easier resolution.
+Users can now add attachments to the ticket, letting them provide more context for easier resolution.
 
 ### ServiceNow ITSM starter configurations
 

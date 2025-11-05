@@ -19,9 +19,6 @@ appliesto:
 
 # Prerequisites to deploy the Employee Self-Service agent
 
->[!NOTE]
->The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
-
 You need to confirm the following prerequisites are met before deploying the Employee Self-Service agent to your organization.
 
 ## Licensing

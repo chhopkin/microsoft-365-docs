@@ -19,9 +19,6 @@ appliesto:
 
 # Publish the Employee Self-Service agent to your organization
 
->[!NOTE]
->The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
-
 Publishing the Employee Self-Service agent makes it available to your users. Currently, the Employee Self-Service agent supports publishing to Copilot Business Chat.
 
 |Role |Activities to perform |Configuration area |
@@ -123,7 +120,7 @@ Follow these steps if you need to delete the Employee Self-Service agent:
 1. Sign in to Copilot Studio.
 1. Select the environment where the Employee Self-Service agent is installed and needs to be uninstalled.
 1. Select **Agents** from the left navigation.
-1. Select **Employee Self Service (Preview)**.
+1. Select **Employee Self Service**.
 1. In the Employee Self-Service agent page, select the ellipsis (**...**) in the upper right pane next to **Test**.
 1. Select the **Delete** option from the dropdown.
 1. A popup window appears directing you to Power Apps Solutions.

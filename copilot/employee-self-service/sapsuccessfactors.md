@@ -19,9 +19,6 @@ appliesto:
 
 # Integrate SAP SuccessFactors with your Employee Self-Service deployment
 
-> [!NOTE]
-> The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
-
 > [!IMPORTANT]
 > You need to complete the steps to deploy the Employee Self-Service agent before you can configure this supplemental extension pack.
 
@@ -280,12 +277,10 @@ To set up starters, follow these steps:
    "filter": "personIdExternal eq '{personIdExternalVal}' and userId eq 
    '{userIdVal}'",//Filter Expression to filter data more on this format
    SAP integration for the Employee Self-Service agent 
-   NDA Private Preview Customers ONLY 
    Microsoft Corporation © 
    Deployment Guide v0.1 
    Page 13 of 44 
    SAP integration for the Employee Self-Service agent Deployment Guide v0.1 Page 14 of 44 
-   NDA Private Preview Customers ONLY 
    Microsoft Corporation © 
        "requestEntities": [  //Request entites an array of object that should be queried 
    from root entity 
