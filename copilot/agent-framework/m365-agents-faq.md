@@ -74,3 +74,27 @@ For all extensibility options, your organization has the following governance to
 - Admin Centers: [Microsoft 365 Admin Center](/microsoft-365/admin/admin-overview/admin-center-overview) and [Power Platform Admin Center](/microsoft-365/admin/admin-overview/admin-center-overview) for configuration and enforcement.
 
 The following table summarizes governance and control features for extensibility options:
+
+| Extensibility Option | Governance & Control Features | Resources to learn more |
+|--|--|--|
+| Copilot (Out-of-the-Box) | - Enable/disable Copilot features in Microsoft 365 Admin Center <br/>- Apply Conditional Access, DLP policies, and compliance settings via Purview<br/>- Built-in Microsoft 365 security boundary and identity-based access controls<br/>- Prompt safety mechanisms (SafeLinks, classifiers, grounding constraints) | [Set up Microsoft 365 Copilot and assign licenses](/copilot/microsoft-365/microsoft-365-copilot-setup)<br/><br/>[Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview)<br/><br/>[Security for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-ai-security) |
+
+Agents
+(declarative or custom)    *    Copilot Control System for lifecycle management, permissions, and telemetry
+*    Admin review and approval of agent actions before publishing
+*    Block/unblock agents in Copilot Chat via Copilot Control System dashboard
+*    Usage telemetry and operational insights in Admin Center
+*    Responsible AI checks and audit trails in Purview    Copilot Control System overview
+
+Copilot Control System management controls
+
+
+Connectors    Approve or block connectors in Power Platform Admin Center
+Apply DLP policies to restrict connector usage
+Rollout connectors to specific audiences for staged deployment
+- Compliance auditing via Purview
+- Data remains within tenant boundaries and honors identity-based access    
+Notebooks    - Admin toggle to enable/disable Copilot Notebooks
+- Sharing governed by Microsoft 365 permissions (Loop component model)
+- Lifecycle aligned with Microsoft 365 compliance posture
+- Security boundary consistent with tenant controls    
