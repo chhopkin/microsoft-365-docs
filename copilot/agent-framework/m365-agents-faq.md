@@ -33,7 +33,7 @@ To get started, [review our planning guide](/microsoft-365-copilot/extensibility
 There are two main types of Copilot agents you can create: 
 
 - **[Declarative agents](/microsoft-365-copilot/extensibility/agents-overview#declarative-agents)**, which use Copilot's AI infrastructure, model, and orchestrator. These agents are built using low-code tools like Copilot Studio (lite) or pro-code tools like Visual Studio, Visual Studio Code, and the Microsoft 365 Agents Toolkit. Declarative agents run in Microsoft 365 Copilot and Microsoft 365 apps like Teams, Outlook, and SharePoint.
-- **[Custom engine agents](/microsoft-365-copilot/extensibility/agents-overview#custom-engine-agents)**, which are fully customized AI assistants. These agents require additional hosting outside of Microsoft 365, and are typically built using  low-code Copilot Studio or pro-code tools like Visual Studio, Visual Studio Code, and Agents Toolkit, using languages such as .NET, Python, and JavaScript, and frameworks like Semantic Kernel or LangChain.
+- **[Custom engine agents](/microsoft-365-copilot/extensibility/agents-overview#custom-engine-agents)**, which are fully customized AI assistants. These agents require hosting outside of Microsoft 365, and are typically built using low-code Copilot Studio or pro-code tools like Visual Studio, Visual Studio Code, and Agents Toolkit, using languages such as .NET, Python, and JavaScript, and frameworks like Semantic Kernel or LangChain.
 
 To help decide which type of agent to build, see [Choose what type of agent to build](/microsoft-365-copilot/extensibility/agents-overview#choose-what-type-of-agent-to-build).
 
@@ -108,7 +108,7 @@ For more information, see the following resources:
 
 Agents run under an identity, whether it's the user's identity or a managed identity (or service principal) associated with the agent for autonomous tasks. Data access is enforced by organizational security. An agent can use APIs or connectors according to existing permissions assigned. 
 
-Role-Based Access Control (RBAC) is part of the enforcement model. Administrators can restrict agent creatin and usage in the Copilot Control System and enforce RBAC policies across environments.
+Role-based access control (RBAC) is part of the enforcement model. Administrators can restrict agent creation and usage in the Copilot Control System and enforce RBAC policies across environments.
 
 For more information, see [Copilot Control System security and governance](/copilot/microsoft-365/copilot-control-system/security-governance).
 
