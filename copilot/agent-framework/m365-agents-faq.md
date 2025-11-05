@@ -69,7 +69,6 @@ Make sure to review the following resources:
 - [Microsoft 365 Copilot agents admin guide](/copilot/microsoft-365/agent-framework/m365-agents-admin-guide)
 - [Planning guide for Copilot extensibility options](/microsoft-365-copilot/extensibility/planning-guide)
 
-
 ### What governance or controls does each extensibility option have?
 
 For all extensibility options, your organization has the following governance tools available:
@@ -86,3 +85,20 @@ The following table summarizes governance and control features for extensibility
 | Agents<br/>(Declarative or custom) | Copilot Control System for lifecycle management, permissions, and telemetry <br/><br/>Admin review and approval of agent actions before publishing <br/><br/>Block/unblock agents in Copilot Chat via Copilot Control System dashboard <br/><br/>Usage telemetry and operational insights in Admin Center <br/><br/>Responsible AI checks and audit trails in Purview | [Manage access to Copilot agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#manage-access-to-copilot-agents)<br/><br/>[Copilot Control System management controls](/copilot/microsoft-365/copilot-control-system/management-controls) |
 | Connectors | Approve or block connectors in the [Power Platform Admin Center](/power-platform/admin/admin-documentation?tabs=new) <br/><br/>Apply DLP policies to restrict connector usage <br/><br/> Roll out connectors to specific audiences for staged deployment <br/><br/>Compliance auditing via Purview <br/><br/> Data remains within tenant boundaries and honors identity-based access | [Microsoft 365 Copilot connectors overview](/microsoft-365-copilot/extensibility/overview-copilot-connector)<br/><br/> [Copilot Control System management controls](/copilot/microsoft-365/copilot-control-system/management-controls)<br/><br/>[Data stored about user interactions with Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-privacy#data-stored-about-user-interactions-with-microsoft-365-copilot) |
 | Notebooks | Admin toggle to enable/disable Copilot Notebooks <br/><br/>Sharing governed by Microsoft 365 permissions (Loop component model) <br/><br/>Lifecycle aligned with Microsoft 365 compliance posture <br/><br/>Security boundary consistent with tenant controls | [Admin policies for Copilot Pages and Copilot Notebooks](/microsoft-365/loop/cpcn-admin-configuration) <br/><br/>[Summary of governance, lifecycle, and compliance capabilities for Copilot Pages and Copilot Notebooks](/microsoft-365/loop/cpcn-compliance-summary) |
+
+### Based on my use cases, how do I know which accessibility option to implement?
+
+The following table summarizes use cases, extensibility options, and compliance & governance controls.
+
+| Use case | Option | Compliance & governance controls |
+|--|--|--|
+| Simple retrieval, such as asking questions based on uploaded documents or links | Copilot | Data residency<br/><br/>DLP<br/><br/>Audit logs<br/><br/>Copilot admin controls |
+| Comparative analysis, such as comparing features, language, or terms across documents | Copilot | Data residency<br/><br/>DLP<br/><br/>Audit logs<br/><br/>Copilot admin controls |
+| Multistep reasoning, such as log chains, decision trees, or conditional flows | Custom agent | Custom logging<br/><br/>RBAC<br/><br/>Code review<br/><br/>Azure Policy<br/><br/>Agent-specific DLP |
+| Workflow automation, such as structured tasks, approvals, or integrations | Custom agent | Workflow approval logs<br/><br/>RBAC<br/><br/>API permissions<br/><br/>Audit trails |
+| Role-specific guidance, such as tailored responses by user role or context | Custom agent | RBAC<br/><br/>User context logging<br/><br/>Privacy review |
+| External system integration, such as using data from APIs, databases, or internal tools | Custom agent/connector | API authentication<br/><br/>Consent<br/><br/>Connector certification<br/><br/>Data boundary enforcement |
+| Data enrichment or transformation, such as pulling, transforming, or combining data from multiple sources | | Connector/notebook | Data lineage<br/><br/>Transformation logs<br/><br/>Connector governance |
+| Advanced analytics/visualization, such as custom calculations, dashboards, or visualizations | Notebook | Workspace access controls<br/><br/>Notebook versioning<br/><br/>Data masking<br/><br/>Audit logs |
+
+
