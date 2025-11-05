@@ -65,3 +65,12 @@ The following table summarizes tools that users, makers, developers, and admins 
 | Notebooks | Create and use Copilot Notebooks for structured workflows | Pair notebooks with agents/connectors for orchestration | Extend notebooks with advanced logic and integrations | Manage sharing and compliance via Microsoft 365 Admin Center |
 | Supporting Tools | Access Copilot features in apps | Use Copilot Studio, Power Platform for extensibility | Use Teams Toolkit, Azure AI Studio, SDKs for advanced builds | Govern extensibility with Microsoft Purview, Copilot Control System, and Admin Centers |
 
+### What governance or controls does each extensibility option have?
+
+For all extensibility options, your organization has the following governance tools available:
+
+- Copilot Control System: Unified dashboard for managing Copilot and agents
+- Microsoft Purview: Compliance, audit, and eDiscovery across all extensibility options
+- Admin Centers: Microsoft 365 Admin Center and Power Platform Admin Center for configuration and enforcement.
+
+The following table summarizes governance and control features for extensibility options:
