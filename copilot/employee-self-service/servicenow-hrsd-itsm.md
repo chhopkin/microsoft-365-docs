@@ -167,7 +167,7 @@ Perform tasks 1 and 2 from the previous section, [Microsoft Entra ID OAuth using
 
 The ServiceNow connections are configured by the agent maker which need to be shared with all users so that the users are not prompted for authentication the first time the agent is being used with a ServiceNow connection.
 
-Follow the steps in the Create and manage connections article to share connection parameters for On-Behalf-Of (OBO) authentication.
+Follow the steps in the [Create and manage connections](/microsoft-copilot-studio/authoring-connections#share-connection-parameters-for-on-behalf-of-obo-authentication) article to share connection parameters for On-Behalf-Of (OBO) authentication.
 
 1. Sign in to the ServiceNow instance that needs to be integrated with the Employee Self-Service agent.
 2. Elevate access permissions using **Elevate role**.
