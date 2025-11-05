@@ -76,7 +76,7 @@ Consider which Employee Self-Service agent starter is right for your organizatio
 
 - **Deployment**: The Employee Self-Service agent can be provisioned in sandbox or production environments through the Power Platform Admin Center. Deployment pipelines support continuous integration and delivery, with environment isolation for testing and validation.
 - **Configuration**: Initial setup involves defining integration endpoints, mapping user roles, and configuring dialog flows. Starters and accelerators are available to expedite common scenarios.
-- **Security**: The solution adheres to enterprise-grade security standards, including identity federation, least-privilege access, and encrypted storage. Compliance with regulatory frameworks (for example., GDPR, HIPAA) is supported through built-in auditing and data retention policies.
+- **Security**: The solution adheres to enterprise-grade security standards, including identity federation, least-privilege access, and encrypted storage. Compliance with regulatory frameworks like GDPR and HIPAA is supported through built-in auditing and data retention policies.
 
 The Employee Self-Service agent and Copilot Studio consolidate employee self-service tasks within a secure, extensible, and scalable architecture. This consolidation delivers operational efficiencies and integration flexibility tailored for enterprise IT environments.
 
