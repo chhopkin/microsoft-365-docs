@@ -6,7 +6,7 @@ items:
     - name: What is Microsoft 365 Copilot?
       href: microsoft-365-copilot-overview.md
     - name: Microsoft 365 Copilot Chat overview 
-      href: /copilot/overview.md
+      href: /copilot-pr/copilot/overview/
     - name: Overview and availability
       href: microsoft-365-copilot-app-overview.md
     - name: Admin settings
@@ -14,7 +14,7 @@ items:
     - name: Service description
       href: /office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
     - name: Microsoft 365 Copilot FAQ
-      href: /copilot/faq.md
+      href: /copilot-pr/copilot/faq/
   - name: Licensing
     items:
     - name: Which Copilot is right for me?
