@@ -114,3 +114,15 @@ Administrators can manage who can create and share agents. See the following art
 - [Manage Microsoft 365 Copilot agents in the Microsoft 365 admin center](https://review.learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide&branch=main#manage-access-to-copilot-agents)
 - [Who can create, build, and share Copilot extensibility options?](#who-can-create-build-and-share-copilot-extensibility-options) (in this article)
 - [Copilot Control System management controls](https://learn.microsoft.com/en-us/copilot/microsoft-365/copilot-control-system/management-controls)
+
+## Can administrators see who does what? 
+
+Yes. Reports are available to help administrators monitor licenses, agents, and deployments. Custom reports can also be created. See Copilot Control System measurement and reporting.
+
+## Can administrators control data sources used by Copilot, agents, connectors, and notebooks? What can administrators regulate?
+
+Yes, administrators can control data sources that are used. Administrators can also control Copilot features, sharing, block/unblock agents, and more. In general, here are resources administrators can use: 
+
+- Administrators use Copilot Control System for agents and Power Platform Admin Center for connectors
+- Microsoft Purview provides unified audit and compliance across all extensibility options
+- Inventory and lifecycle controls help manage shared or ownerless agents
