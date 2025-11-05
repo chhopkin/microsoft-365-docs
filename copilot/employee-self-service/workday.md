@@ -86,8 +86,7 @@ Refer to this documentation to set up SSO for Workday with Entra: [Microsoft Ent
 1. Navigate to **App registrations**.
 1. Locate the application created for the Workday SSO setup.
 1. Go to **Manage** > **Expose an API**.
-1. Under **Authorized client applications**, add the following Workday connector app ID:
-  - `4e4707ca-5f53-46a6-a819-f7765446e6f`
+1. Under **Authorized client applications**, add the following Workday connector app ID: `4e4707ca-5f53-46a6-a819-f7765446e6`
 
 ## Configure and prepare Workday reports
 
