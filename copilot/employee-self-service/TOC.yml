@@ -1,6 +1,6 @@
 items:
 - name: Introduction to Employee Self-Service agent
-  href: introduction.md
+  href: overview.md
 - name: Deploy the Employee Self-Service agent
   items:
     - name: Deployment overview
