@@ -102,7 +102,7 @@ Yes, administrators can control data sources that are used. Administrators can a
 For more information, see the following resources:
 
 - [Manage Microsoft 365 Copilot agents and integrated apps](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps)
-- [Manage Microsoft 365 Copilot connectors](/microsoft-365/admin/manage/manage-copilot-connectors)
+- [Microsoft 365 Copilot connectors overview](/microsoft-365-copilot/extensibility/overview-copilot-connector)
 
 ## Does an agent provide access to data, or is data access governed by the organization's internal RBAC model?  
 
