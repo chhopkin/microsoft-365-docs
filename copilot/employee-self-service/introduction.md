@@ -87,3 +87,22 @@ The Employee Self-Service agent consists of three main parts: the agent itself, 
 [![Infographic showing the structure of the Employee Self-Service agent.](../media/ess/structure-big.png)](../media/ess/structure-big.png#lightbox)
 
 [Learn more about how Copilot architecture works](../microsoft-365-copilot-architecture.md)
+
+## Overview of external systems integration capabilities
+
+The Employee Self-Service agent integrates with a few external systems. These systems can be used as for knowledge retrieval scenarios, read/write workflows, and hand-off to other agents or support channels.
+
+The following matrix provides an overview of the various external systems integration capabilities:
+
+|Scenarios |Agent component |SharePoint |Microsoft Self-Help |ServiceNow |Workday |SAP SuccessFactor |
+|----------|----------------|-----------|--------------------|-----------|--------|------------------|
+|HR |Knowledge sources |- Enterprise content access </br>- Advanced filtering </br>- Seamless integration |NA |Copilot Connector supports: </br>- Indexing </br>- Hierarchical permissions and scripting </br>- Ticketing content |NA |NA |
+|HR |Power platform connectors |NA |NA |HR ticketing </br>- Read </br>- Create |Employee profile access </br>- Read </br>- Write |Employee profile access </br>- Read </br>- Write |
+|IT |Knowledge sources |- Enterprise content access </br>- Advanced filtering </br>- Seamless integration |- Microsoft 365 troubleshooting </br>- Generative orchestration </br>- Enterprise-specific customization |Copilot Connector supports: </br>- Indexing </br>- Hierarchical permissions and scripting </br>- Ticketing content | | |
+|IT |Power platform connectors |NA |NA |IT ticketing </br>- Read </br>- Create |NA |NA |
+|IT |Handoff |NA |NA |Handoff to: </br>- Now Assist </br>- Live Agent | | |
+
+- [Learn more](sapsuccessfactors.md#employee-read-scenarios--configuration) about SAP SuccessFactors pre-configured scenarios.
+- [Learn more](workday.md#topics) about Workday pre-configured scenarios.
+- [Learn more](servicenow-hrsd-itsm.md#topics) about ServiceNow HR pre-configured scenarios.
+- [Learn more](servicenow-hrsd-itsm.md#topics-1) about ServiceNow IT pre-configured scenarios.
