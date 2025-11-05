@@ -30,27 +30,25 @@ To get started, [review our planning guide](/microsoft-365-copilot/extensibility
 
 ## What extensibility options are available for Copilot Agents?
 
-Extensibility options include using Copilot out of the box (OOTB), agents, connectors, and Notebooks. The following table summarizes these options, including prebuilt, custom, and advanced scenarios. 
+There are two main types of Copilot agents you can create: 
 
-| Extensibility option | Prebuilt | Customized | Advanced |
-|--|--|--|--|
-| Copilot (OOTB) | Unified Copilot experience in Microsoft 365 Apps with reasoning over your work graph and citations<br/><br/>Works with admin-approved data/controls by default | Extend Copilot with agents that add knowledge (instructions and grounding) and skills (actions) surfaced directly in Copilot Chat/Teams<br/><br/>Enable via admin | Enterprise-grade controls and visibility (usage, inventory) plus expanded admin and Graph APIs (inventory/details) for app/agent governance across hosts |
-| Agents <br/>(Declarative or custom) | SharePoint and other Microsoft quick-start agents that connect to site libraries to answer team questions and automate simple workflows<br/><br/>Discoverable in the Copilot experience. | Declarative or custom agents built in Copilot Studio or Teams Toolkit with instructions, knowledge sources, and actions (plugins/Power Platform connectors)<br/><br/>Publish to run inside Copilot | Autonomous & multi-agent patterns<br/><br/>Agent-to-agent collaboration<br/><br/>Computer Use (vision to operate apps)<br/><br/>Voice agents<br/><br/>Enterprise governance and admin manageability | 
-| Connectors | Prebuilt Graph connectors catalog to index external systems (for example, GitHub, Slack, Zendesk) into Microsoft Graph for grounding in Copilot and agents | Build your own<br/><br/>Create custom Graph connectors and Power Platform connectors<br/><br/>Makers can attach these as Copilot connectors to agents for knowledge and actions | Fabric AI skills and connector governance<br/><br/>Curate an org catalog<br/><br/>Manage usage in the Microsoft 365 admin center<br/><br/>Combine real-time actions with indexed knowledge in agent designs |
-| Notebooks | Copilot Notebooks as a first-party space inside Copilot for structured problem-solving alongside Chat<br/><br/>Part of the unified experience with Chat, Agents, and Create | Use Notebooks to compose multi-step prompts, attach/ground with org content, and hand off to agents you (or your team) created to perform steps<br/><br/>Keeps context continuity | Pair Notebooks with advanced agents (for example, Researcher/Analyst style reasoning) to orchestrate deeper investigations and repeatable workflows across data connectors |
+- [Declarative agents](/microsoft-365-copilot/extensibility/agents-overview#declarative-agents), which use Copilot's AI infrastructure, model, and orchestrator. These agents are built using low-code tools like Copilot Studio (lite) or pro-code tools like Visual Studio, Visual Studio Code, and the Microsoft 365 Agents Toolkit. Declarative agents run in Microsoft 365 Copilot and Microsoft 365 apps like Teams, Outlook, and SharePoint.
+- [Custom engine agents](/microsoft-365-copilot/extensibility/agents-overview#custom-engine-agents), which are fully customized AI assistants. These agents require additional hosting outside of Microsoft 365, and are typically built using  low-code Copilot Studio or pro-code tools like Visual Studio, Visual Studio Code, and Agents Toolkit, using languages such as .NET, Python, and JavaScript, and frameworks like Semantic Kernel or LangChain.
 
-## Who can create, build, and share Copilot extensibility options?
+To help decide which type of agent to build, see [Choose what type of agent to build](/microsoft-365-copilot/extensibility/agents-overview#choose-what-type-of-agent-to-build).
 
-The following table summarizes what users, makers, developers, and administrators can do across extensibility options.
+## Who can create, build, and share Copilot agents?
 
-| Extensibility option | Who Can Create | Who Can Build (Customize) | Who Can Share |
-|--|--|--|--|
-| Copilot (OOTB) | End users with a Microsoft 365 Copilot license (no extra steps required) | Not applicable (OOTB Copilot is prebuilt; customization happens via agents or connectors) | End users can share Copilot outputs (documents, chats) using standard Microsoft 365 sharing permissions; governed by existing Microsoft 365 policies |
-| Agents | End users: Create declarative agents in Copilot Studio (lite) or SharePoint if enabled by tenant settings (requires Copilot license or subscription)<br/><br/>Makers: Use Copilot Studio (lite or full) for low-code agents<br/><br/>Developers: Use Copilot Studio SDK or Agents Toolkit for pro-code agents | Makers and developers can add actions, connectors, and advanced logic in Copilot Studio or via the Microsoft 365 Agents Toolkit | Members of your organization can [sideload agents](/copilot/microsoft-365/agent-framework/agent-policies/agent-sideload), [share agents](/microsoft-365/admin/manage/manage-shared-agents), and [publish agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#publish-agents). <br/><br/>Developers can [submit agents to the marketplace](/copilot/microsoft-365/agent-framework/agent-policies/agent-submit-marketplace). <br/><br/>These capabilities are governed by tenant policies and admin controls in Microsoft 365 admin center | 
-| Connectors | Admins/Makers: Create custom connectors in Power Platform or Graph API; requires appropriate environment roles and DLP compliance | Developers can build advanced connectors and integrate with external APIs; subject to security reviews for enterprise use | Sharing connectors is controlled by Power Platform environment policies and admin governance (Managed Environments, DLP) |
-| Notebooks  | Any user with access to Microsoft 365 Copilot can create and use notebooks for structured workflows; no extra license beyond Copilot | Advanced orchestration possible when paired with agents and connectors; typically by makers or developers | Sharing follows standard Microsoft 365 file-sharing permissions (OneDrive/SharePoint) |
+- **End users** can create declarative agents in Copilot Studio (lite) or SharePoint if enabled by tenant settings (requires Copilot license or subscription)
+- **Makers** can use Copilot Studio (lite or full) for low-code agents
+- **Developers** can use Copilot Studio SDK or Agents Toolkit for pro-code agents. Developers can also [submit agents to the marketplace](/copilot/microsoft-365/agent-framework/agent-policies/agent-submit-marketplace)
+- Both Makers and Developers can add actions, connectors, and advanced logic in Copilot Studio or via the Microsoft 365 Agents Toolkit
 
-## What tools do I need to create, build, implement, and use Copilot extensibility options?
+Also, people in your organization can [sideload agents](/copilot/microsoft-365/agent-framework/agent-policies/agent-sideload), [share agents](/microsoft-365/admin/manage/manage-shared-agents), and [publish agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#publish-agents), according to tenant policies and admin controls that are configured in the Microsoft 365 admin center. 
+
+For more information, see [Manage access to Copilot agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#manage-access-to-copilot-agents).
+
+## What tools do I need to create, build, implement, and use Copilot agents?
 
 The following table summarizes tools that users, makers, developers, and admins can use with Copilot, agents, connectors, notebooks, and supporting tools.
 
