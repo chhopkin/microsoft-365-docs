@@ -202,7 +202,7 @@ In the Maker experience in Copilot Studio, the **Official Source** badge doesn't
 |1    |Open the Employee Self-Service agent in Copilot Studio. |Employee Self-Service agent available to customize. |
 |2    |Navigate to **Topics** to see the list of Topics. |Shows Custom Topics. |
 |3    |Select **[Example] - Crafted Response**. |Opens custom Topic in the design canvas. |
-|4    |Select the first node **Triggered by agent (preview)**. |Topic node expands to show the description of what the Topic does. |
+|4    |Select the first node **Triggered by agent**. |Topic node expands to show the description of what the Topic does. |
 |5    |Customize the Topic description to include specific keywords that the agent shouldn't respond to and instead redirected elsewhere. |Topic description updates. |
 |6    |Select the second node **Set Official Answer Response**. |Topic node expands to show the value that can be customized. |
 |7    |Customize the **To value** field with a message. This message displays for your chosen queries instead of generated AI output. |Topic value updates. |
@@ -250,7 +250,7 @@ Enable the Topic if your organization wants to use it. Update the trigger phrase
 |1 |Open the Employee Self-Service agent in Copilot Studio. |Employee Self-Service agent available to customize. |
 |2 |Navigate to **Topics** to see the list of Topics. |Shows Custom Topics. |
 |3 |Select **[Example] - Sensitive Topics**. |Topic opens in the design canvas. |
-|4 |Select the first node **Triggered by agent (preview)**. |Topic node expands to show the description of what the Topic does. |
+|4 |Select the first node **Triggered by agent**. |Topic node expands to show the description of what the Topic does. |
 |5 |Customize the Topic description to include specific keywords that the agent shouldn't be respond to and instead redirect elsewhere. |Topic description updates. |
 |6 |Select the second node **Message**. |Topic node expands to show the value that can be customized. |
 |7 |Customize the **Text** field with a message that displays when the agent returns an official answer rather than AI-generated output. |Topic value updates. |
