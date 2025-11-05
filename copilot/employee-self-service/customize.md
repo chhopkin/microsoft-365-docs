@@ -65,51 +65,58 @@ A great response is accurate, actionable, and engaging to ensure we earn trust, 
 - Responses need to be **accurate** by using instructions for intent matching and using certain UI elements.
 - Responses need to be **actionable** by reliably mobilizing users to the best next step or resource.
 
-## Branding
+## Customize the look and content
 
-You can brand the Employee Self-Service agent based on your branding guidelines. The following branding elements are available:
+Optionally, you can brand the Employee Self-Service agent based on your branding guidelines. By default, the product is called Employee Self-Service agent, and includes an icon that looks like an office badge.
 
-- Name
-- Description
-- Logo
-- Instructions
+The following branding and content elements are seen by end-users and can be customized:
+
+|Element                           |Customization                |Next steps |
+|----------------------------------|-----------------------------|-----------|
+|Agent name                        |Copilot Studio overview page |Keep the original name or choose a name that aligns with your organization's brand and audience. |
+|Agent logo                        |Copilot Studio overview page |Use the default logo (a company badge) or add a logo that aligns with your brand. |
+|Agent short and long descriptions |Copilot Studio channels page |Consider a tagline and one-sentence description to be used to help users understand how Employee Self-Service agent can help them when they add the agent for the first time. |
+|Accent colors                     |Microsoft 365 admin center   |Choose a color for light and dark themes to create a more branded appearance. |
+|Starter prompts                   |Copilot Studio overview page or the Microsoft 365 admin center if you also want to add categories |Help end-users understand how to engage with the Employee Self-Service agent by adding up to twelve starter prompts. |
+|Categories for starter prompts    |Microsoft 365 admin center   |Add distinct categories for up to twelve prompts per category. This is especially helpful when you're using more than one Employee Self-Service admin template. |
+|Disclaimer message                |Copilot Studio channels page and topic |Add a general disclaimer on the agent's landing page or add a disclaimer that displays after certain responses. |
+|Agent (global) instructions       |Copilot Studio overview page |Draft instructions that help shape your agent's personality, behavior for edge cases, and guidance on how to use user context. |
 
 You can customize most of these elements in Copilot Studio by selecting the **Edit** button in the **Overview** section of the agent.
 
-To customize the logo, go to your **Settings** page in Copilot Studio and select **Agent details.**.
+> [!NOTE]
+> Providing a custom name to the agent shows the provided name for end-users in the Copilot chat interface. Most other admin-related interfaces, such as analytics dashboards in Copilot Studio, Copilot Analytics under Viva Insights, Microsoft Admin Center, Power Platform Admin Center, and other billing reports for metered consumption, display the agent's name:
+> 
+> - Employee Self-Service HR
+> - Employee Self-Service IT
 
-## Add a disclaimer to the landing page
+### Customizing logo
 
-Employee Self-Service supports two types of configurable disclaimers in Copilot Studio:
+ESS Agent logo customization involves multiple stages, as follows:
 
-1. A landing page disclaimer that is seen first, and explains the company's privacy statement.
-2. A topic-level disclaimer for specific kinds of responses in conversations.
+- **Maker experience**: Only within Copilot Studio. Makers should be able to upload a custom logo and test the appearance within Copilot Studio.
+- **End-user experience**: In the Microsoft 365 Copilot chat channel. [Learn more](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams#customize-the-appearance-of-an-agent-for-teams-and-microsoft-365-copilot) about customizing the appearance of an agent for Microsoft 365 Copilot.
 
-The landing page disclaimer is configured once for the agent and is meant to bring awareness to the organization's data and privacy policies.
+## Customize agent instructions
 
-To add a landing page disclaimer:
+Instructions act as a blueprint for tone, structure, and decision-making across workflows, preventing fragmented user experiences. Instructions specify clear role definitions and handoff rules to prevent agents from giving redundant or conflicting answers. Use instructions to:
 
-1. Go to the Microsoft Admin Center.
-2. Select an Employee Self-Service agent instance and go to the **Customize** tab.
-3. Write a custom message and preview it. Once you're satisfied, turn the toggle to **On**.
+- Develop voice and tone as appropriate for your organization.
+- Map specific steps for user context variables, topics, and other entities.
+- Define boundaries, fallback plans, and more.
 
-Tips on writing this disclaimer:
-
-- We recommend you keep disclaimers under 150 characters.
-- Legal alignment: Ensure it aligns with your organization's legal, privacy, and compliance requirements, especially when handling sensitive domains like HR or legal.
-- Company voice: Match the disclaimer's tone to your company's voice using natural language.
-- Link to more information: Optionally, include a link to more detailed terms, policies, or support channels.
+[Learn more](design-best-practices.md) about how instructions work for the agent, knowledge sources, and topics.
 
 ## Customize Topics
 
-The Employee Self-Service agent comes with several out-of-the-box Topics to get you started. The maker can customize each of these topics. These topics can be tested before publishing them to the broader set of users. These customizations reflect in all surfaces where the agent is published.
+The Employee Self-Service agent comes with several out-of-the-box topics to get you started. The maker can customize each of these topics. These topics can be tested before publishing them to the broader set of users. [Learn more](/microsoft-copilot-studio/authoring-system-topics?tabs=webApp) about topics in Copilot Studio.
 
 The following Topics are available in the current package version:
 
 |Topic |Type |Trigger |Enabled (default) |When to use |
 |------|-----|--------|------------------|------------|
-|[Admin] - User Context - Setup |Topic |On redirect |On |Set user context for retrieval topics from different sources including external system solution extension packs. Topics is required. |
-|[Example] - Crafted Response |Topic |By agent |Off |Display a verbatim message that includes an **Official Answer** for more control over certain situations. |
+|[Admin] - User Context - Setup |Topic |On redirect |On |Set user context for retrieval topics from different sources including external system solution extension packs, like Workday, SAP SF, and so on. **Required**. |
+|[Example] - Crafted Response |Topic |By agent |Off |Display a verbatim message that includes an **Official Answer** badge for more control over certain situations. |
 |[Example] - Sensitive Topics |Topic |By agent |Off |Edit responses for sensitive topics to help users navigate potentially harmful conversations. |
 |[System] - Log Telemetry Event |Topic |On redirect |On |Log events and other details for internal debugging and agent management purposes. |
 |[System] - On Error |System Topic |On error |On |Edit general error messages for common scenarios to improve engagement and task completion. |
@@ -119,7 +126,6 @@ The following Topics are available in the current package version:
 |[System] - User Context - Validate |Topic |Activity received |On |User context attributes refreshed. </br>*No customizations available*. |
 |Agent handoff - [Scenario name] |Topic |By agent |Off |Handing off to another live agent without passing context. |
 |Conversation Start |System Topic |On conversation start |On |Initializes the user context attributes with default values. The maker can customize the welcome message. |
-|Microsoft Self Help |System Topic |Unknown topic |Off | |
 
 ### Customize the Topics as an Environment Maker
 
