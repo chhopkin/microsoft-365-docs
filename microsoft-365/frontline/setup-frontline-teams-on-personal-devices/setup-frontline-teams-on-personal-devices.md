@@ -100,3 +100,7 @@ Q: What if I’m required to enroll my devices to access Teams on my personal de
 
 A: The wizard will not guide you through enrollment process. Please follow the steps on your mobile phone.
 
+Q: Can I go backwards in the wizard?
+
+A: It's recommended you progress forward in the wizard. You may encounter an error by trying to navigate backwards.
+
