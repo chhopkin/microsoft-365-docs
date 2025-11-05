@@ -68,20 +68,20 @@ For all extensibility options, your organization has the following governance to
 - [Microsoft Purview](/purview/ai-microsoft-purview): Compliance, audit, and eDiscovery across all extensibility options
 - Admin Centers: [Microsoft 365 Admin Center](/microsoft-365/admin/admin-overview/admin-center-overview) and [Power Platform Admin Center](/microsoft-365/admin/admin-overview/admin-center-overview) for configuration and enforcement.
 
-## Based on my use cases, how do I know which accessibility option to implement?
+## Based on my use cases, how do I know which option to use?
 
-The following table summarizes use cases, extensibility options, and compliance & governance controls.
+The following table summarizes use cases and options.
 
-| Use case | Option | Compliance & governance controls |
-|--|--|--|
-| Simple retrieval, such as asking questions based on uploaded documents or links | Copilot | Data residency<br/><br/>DLP<br/><br/>Audit logs<br/><br/>Copilot admin controls |
-| Comparative analysis, such as comparing features, language, or terms across documents | Copilot | Data residency<br/><br/>DLP<br/><br/>Audit logs<br/><br/>Copilot admin controls |
-| Multistep reasoning, such as log chains, decision trees, or conditional flows | Custom agent | Custom logging<br/><br/>RBAC<br/><br/>Code review<br/><br/>Azure Policy<br/><br/>Agent-specific DLP |
-| Workflow automation, such as structured tasks, approvals, or integrations | Custom agent | Workflow approval logs<br/><br/>RBAC<br/><br/>API permissions<br/><br/>Audit trails |
-| Role-specific guidance, such as tailored responses by user role or context | Custom agent | RBAC<br/><br/>User context logging<br/><br/>Privacy review |
-| External system integration, such as using data from APIs, databases, or internal tools | Custom agent/connector | API authentication<br/><br/>Consent<br/><br/>Connector certification<br/><br/>Data boundary enforcement |
-| Data enrichment or transformation, such as pulling, transforming, or combining data from multiple sources | Connector/notebook | Data lineage<br/><br/>Transformation logs<br/><br/>Connector governance |
-| Advanced analytics/visualization, such as custom calculations, dashboards, or visualizations | Notebook | Workspace access controls<br/><br/>Notebook versioning<br/><br/>Data masking<br/><br/>Audit logs |
+| Use case | Option |
+|--|--|
+| Simple retrieval, such as asking questions based on uploaded documents or links | Copilot |
+| Comparative analysis, such as comparing features, language, or terms across documents | Copilot |
+| Multistep reasoning, such as log chains, decision trees, or conditional flows | Custom agent |
+| Workflow automation, such as structured tasks, approvals, or integrations | Custom agent |
+| Role-specific guidance, such as tailored responses by user role or context | Custom agent |
+| External system integration, such as using data from APIs, databases, or internal tools | Custom agent/connector |
+| Data enrichment or transformation, such as pulling, transforming, or combining data from multiple sources | Connector/notebook |
+| Advanced analytics/visualization, such as custom calculations, dashboards, or visualizations | Notebook |
 
 ## Can administrators monitor Copilot agent usage? 
 
