@@ -358,7 +358,7 @@ items:
         - name: Configure a Communication Compliance policy to detect generative AI interactions 
           href: /purview/communication-compliance-copilot?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
         - name: Retention policy support for Copilot
-          href: /purview/communication-compliance-overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json           
+          href: /purview/retention?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json           
         - name: Search Copilot and agent data
           items: 
           - name: eDiscovery
