@@ -64,9 +64,9 @@ Make sure to review the following resources:
 - [Microsoft 365 Copilot agents admin guide](/copilot/microsoft-365/agent-framework/m365-agents-admin-guide)
 - [Planning guide for Copilot extensibility options](/microsoft-365-copilot/extensibility/planning-guide)
 
-## What governance or controls are available?
+## What governance or controls are available for agents?
 
-For all extensibility options, your organization has the following governance tools available:
+Your organization has the following governance options:
 
 - [Copilot Control System](/copilot/microsoft-365/copilot-control-system/overview): Unified dashboard for managing Copilot and agents
 - [Microsoft Purview](/purview/ai-microsoft-purview): Compliance, audit, and eDiscovery across all extensibility options
@@ -89,7 +89,7 @@ The following table summarizes use cases and Copilot extensibility options.
 
 ## Can administrators monitor Copilot agent usage? 
 
-Yes. Reports are available to help administrators monitor licenses, agents, and deployments. Custom reports can also be created. See Copilot Control System measurement and reporting.
+Yes. Reports are available to help administrators monitor licenses, agents, and deployments. Custom reports can also be created. See [Copilot Control System measurement and reporting](/copilot/microsoft-365/copilot-control-system/security-governance).
 
 ## Can administrators control data sources used by Copilot, agents, connectors, and notebooks? What can administrators regulate?
 
