@@ -28,7 +28,7 @@ Whether you need an agent or a connector depends on your business needs. Copilot
 
 To get started, [review our planning guide](/microsoft-365-copilot/extensibility/planning-guide), which can help you define your business need, and determine whether you need an agent or a connector. 
 
-## What options are available for Copilot Agents?
+## What kinds of Copilot agents are available?
 
 There are two main types of Copilot agents you can create: 
 
