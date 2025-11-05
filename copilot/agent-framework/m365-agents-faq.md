@@ -48,6 +48,21 @@ People in your organization can also [sideload agents](/copilot/microsoft-365/ag
 
 For more information, see [Manage access to Copilot agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#manage-access-to-copilot-agents).
 
+## For my specific use cases, how do I know which Copilot extensibility option to use?
+
+The following table summarizes use cases and Copilot extensibility options.
+
+| Use case | Option |
+|--|--|
+| Simple retrieval, such as asking questions based on uploaded documents or links | Copilot |
+| Comparative analysis, such as comparing features, language, or terms across documents | Copilot |
+| Multistep reasoning, such as log chains, decision trees, or conditional flows | Custom agent |
+| Workflow automation, such as structured tasks, approvals, or integrations | Custom agent |
+| Role-specific guidance, such as tailored responses by user role or context | Custom agent |
+| External system integration, such as using data from APIs, databases, or internal tools | Custom agent/connector |
+| Data enrichment or transformation, such as pulling, transforming, or combining data from multiple sources | Connector/notebook |
+| Advanced analytics/visualization, such as custom calculations, dashboards, or visualizations | Notebook |
+
 ## What tools do I need to create, build, implement, and use Copilot agents?
 
 Depending on what you want to do, Copilot agent tools are available, as summarized in the following table:
@@ -72,21 +87,6 @@ Your organization has the following governance options:
 - [Microsoft Purview](/purview/ai-microsoft-purview): Compliance, audit, and eDiscovery across all extensibility options
 - Admin Centers: [Microsoft 365 Admin Center](/microsoft-365/admin/admin-overview/admin-center-overview) and [Power Platform Admin Center](/microsoft-365/admin/admin-overview/admin-center-overview) for configuration and enforcement.
 
-## Based on specific use cases, how do I know which option to use?
-
-The following table summarizes use cases and Copilot extensibility options.
-
-| Use case | Option |
-|--|--|
-| Simple retrieval, such as asking questions based on uploaded documents or links | Copilot |
-| Comparative analysis, such as comparing features, language, or terms across documents | Copilot |
-| Multistep reasoning, such as log chains, decision trees, or conditional flows | Custom agent |
-| Workflow automation, such as structured tasks, approvals, or integrations | Custom agent |
-| Role-specific guidance, such as tailored responses by user role or context | Custom agent |
-| External system integration, such as using data from APIs, databases, or internal tools | Custom agent/connector |
-| Data enrichment or transformation, such as pulling, transforming, or combining data from multiple sources | Connector/notebook |
-| Advanced analytics/visualization, such as custom calculations, dashboards, or visualizations | Notebook |
-
 ## Can administrators monitor Copilot agent usage? 
 
 Yes. Reports are available to help administrators monitor licenses, agents, and deployments. Custom reports can also be created. See [Copilot Control System measurement and reporting](/copilot/microsoft-365/copilot-control-system/security-governance).
@@ -110,12 +110,14 @@ Agents run under an identity, whether it's the user's identity or a managed iden
 
 Role-Based Access Control (RBAC) is part of the enforcement model. Administrators can restrict agent creatin and usage in the Copilot Control System and enforce RBAC policies across environments.
 
-For more information, see Copilot Control System security and governance.
+For more information, see [Copilot Control System security and governance](/copilot/microsoft-365/copilot-control-system/security-governance).
 
 ## What should administrators do with respect to implementing controls, based on the extensibility option selected?
 
 In general, administrators should take the following actions:
 
-- Use the Copilot Control System for centralized governance, security, and measurement
-- Use Purview DSPM for AI to identify and mitigate oversharing and insider risks
-- Configure integrated apps settings for extensibility enablement and granular controls
+- Use the [Copilot Control System](/copilot/microsoft-365/copilot-control-system/overview) for centralized governance, security, and measurement
+- Use [Purview DSPM for AI](/purview/dspm-for-ai?tabs=m365) to identify and mitigate oversharing and insider risks
+- Configure [integrated apps settings](/copilot/microsoft-365/microsoft-365-copilot-app-admin-settings) for extensibility enablement and granular controls
+
+For more information, see [Microsoft 365 Copilot agents admin guide](/copilot/microsoft-365/agent-framework/m365-agents-admin-guide).
