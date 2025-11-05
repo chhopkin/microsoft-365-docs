@@ -3,9 +3,9 @@ title: Prerequisites to deploy the Employee Self-Service agent
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: scotv
+manager: dansimp
 ms.reviewer: semani
-ms.date: 09/29/2025
+ms.date: 11/05/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -19,14 +19,11 @@ appliesto:
 
 # Prerequisites to deploy the Employee Self-Service agent
 
->[!NOTE]
->The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
-
-You need to confirm the following prerequisites are met before deploying the Employee Self-Service agent (ESS) to your organization.
+You need to confirm the following prerequisites are met before deploying the Employee Self-Service agent to your organization.
 
 ## Licensing
 
-The ESS Agent is built on top of Microsoft 365 Copilot. Users need the following licenses depending on the tools they use at work.
+The Employee Self-Service agent is built on top of Microsoft 365 Copilot. Users need the following licenses depending on the tools they use at work.
 
 |Role                          |Workload/tools |Licensing and access |
 |------------------------------|---------------|---------------------|
@@ -34,26 +31,52 @@ The ESS Agent is built on top of Microsoft 365 Copilot. Users need the following
 |Users                         |Microsoft Teams |[Manage user access to Microsoft Teams](/microsoftteams/user-access) |
 |Environment admins and makers |Copilot Studio  |[Copilot Studio licensing and subscriptions](/microsoft-copilot-studio/requirements-licensing-subscriptions) |
 |Environment admins and makers |Microsoft 365 Copilot |[Microsoft 365 Copilot](../microsoft-365-copilot-licensing.md) |
+|Environment admins and makers |Teams          |[Manage user access to Microsoft Teams](/microsoftteams/user-access) |
 
 ## Set up Copilot Studio capacity
 
-The ESS agent uses agent flows. You need to set up the Copilot Studio capacity. [Learn about Copilot Studio capacity](/microsoft-copilot-studio/requirements-messages-management).
+The Employee Self-Service agent uses agent flows. You need to set up the Copilot Studio capacity. [Learn about Copilot Studio capacity](/microsoft-copilot-studio/requirements-messages-management?tabs=new#prepaid-capacity).
 
-### Capacity planning
+When there are users with no Microsoft 365 Copilot Chat licenses required to consume the Employee Self-Serve agent, an alternative option is to purchase Microsoft Copilot Studio prepaid message capacity.
 
-The ESS Agent operates on Copilot, requiring Copilot licenses. Users without assigned licenses are automatically billed on a Pay-as-you-go basis. [Learn how to set up your consumption meter](/power-platform/admin/pay-as-you-go-overview).
+## Configure Pay-As-You-Go (PayG) in the Power Platform Administration Center (PPAC)
 
-Users without Copilot licenses consume the ESS Agent, it requires proactive capacity planning to make sure the consumption cost is optimized for this usage. A basic guideline to follow is that any messages generated from LLM output incur more cost for users in the Pay-as-you-go plan.
+> [!NOTE]
+> The [Power Platform documentation](/power-platform/admin/pay-as-you-go-set-up?tabs=new) has detailed configuration steps.
 
-The ESS agent performs LLM compute for the following scenarios in addition to the included Topics:
+To configure a Power Platform environment for the Employee Self-Service agent when there are PayG users using the agent:
+
+- Create a billing plan in PPAC.
+- Link an Azure subscription and resource group.
+- Select the target environment.
+- Choose Copilot Studio for the product.
+
+> [!NOTE]
+> When setting up PayG, this step is critical because Copilot Studio must be chosen as a product. This step isn't covered in the PPAC.
+
+Users who don't have Microsoft 365 Copilot Chat licenses can consume the Employee Self-Service agent once when PayG is configured for the environment where the agent's deployed, provided the agent's deployed for those users by tenant administrators in the Microsoft 365 admin center (MAC).
+
+### Set up prepaid messages
+
+See the [Power Platform documentation](/power-platform/admin/manage-copilot-studio-messages-capacity) for detailed steps in setting up prepaid messages.
+
+When there are users with no Microsoft 365 Copilot Chat licenses required to consume ESS Agent, another alternative option is to purchase Microsoft Copilot Studio pre-paid message capacity. 
+
+## Capacity planning
+
+The Employee Self-Service agent operates on Copilot, requiring Copilot licenses. Users without assigned licenses are automatically billed on a Pay-as-you-go basis. [Learn how to set up your consumption meter](/power-platform/admin/pay-as-you-go-overview).
+
+Users without Copilot licenses consume the Employee Self-Service agent, it requires proactive capacity planning to make sure the consumption cost is optimized for this usage. A basic guideline to follow is that any messages generated from LLM output incur more cost for users in the Pay-as-you-go plan.
+
+The Employee Self-Service agent performs LLM compute for the following scenarios in addition to the included Topics:
 
 - Enabling Microsoft 365 Self-Help incurs LLM compute for determining the type of user query.
 - Live agent hand-off package invokes LLM compute for summarizing the chat history and handing off to the live agent.
 
-Use the following sample benchmarks to understand capacity planning for ESS agent deployment:
+Use the following sample benchmarks to understand capacity planning for Employee Self-Service agent deployment:
 
 >[!IMPORTANT]
->These samples are for reference only. Each deployment of the ESS agent varies within the number of flows, actions, and more depending on the level of customization, including use of third-party ISV packages.
+>These samples are for reference only. Each deployment of the Employee Self-Service agent varies within the number of flows, actions, and more depending on the level of customization, including use of third-party external system solution packages.
 
 #### Sample 1: Last 28 days (28d)
 
@@ -122,6 +145,9 @@ Steps breakdown:
 >[!NOTE]
 >The average price per user without a Microsoft 365 Copilot license is 15 cents per query.
 
+> [!IMPORTANT]
+> The above samples are only for reference. Each deployment of the Employee Self-Service agent varies with the number of flows, actions, and so on, depending on the level of customizations applied in the accelerator packages used to connect to other systems.
+
 ## Required roles
 
 The ESS Agent includes several different technical components and configuration areas, which require different Microsoft 365 roles for deployment. We recommend you use the least privileged role possible to perform each necessary activity. For roles with elevated privileges, use just-in-time access.
@@ -129,10 +155,10 @@ The ESS Agent includes several different technical components and configuration 
 |Role |Description |Activities performed |Configuration areas |
 |-----|------------|---------------------|--------------------|
 |Global admin |User who has permissions to configure and delegate other roles |Assign user roles |Microsoft admin center |
-|Power Platform administrator |User who has power to configure Power Platform environments and assign roles within Power Platform |- Create environments </br> - Assign user roles </br> - Install ESS agent |- Power Platform </br> - Microsoft Copilot Studio |
-|Power Platform maker |User who has permission to make changes in a specific Power Platform environment. We recommend you have the agent owner for this agent perform this role. |Configure ESS agent |- Power Platform </br> - Microsoft Copilot Studio |
-|ISV administrators |Users who manage third-party solutions |Provide configuration inputs for ISV applications |ISV application's administration and configuration interface |
-|Information security |Infrastructure team who manages and controls enterprise application security policies |- Allowlist inbound requests for ISV endpoints </br>- Manage single sign-on configurations |- Network firewall policies </br>- Single sign-on applications |
+|Power Platform administrator |User who has power to configure Power Platform environments and assign roles within Power Platform |- Create environments </br> - Assign user roles </br> - Install the Employee Self-Service agent |- Power Platform </br> - Microsoft Copilot Studio |
+|Power Platform maker |User who has permission to make changes in a specific Power Platform environment. We recommend you have the agent owner for this agent perform this role. |Configure the Employee Self-Service agent |- Power Platform </br> - Microsoft Copilot Studio |
+|External system administrators |Users who manage third-party solutions |Provide configuration inputs for external systems to be integrated with Employee Self-Service agents. |Administration and configuration interface |
+|Information security |Infrastructure team who manages and controls enterprise application security policies |- Allowlist inbound requests for external system endpoints </br>- Manage single sign-on configurations |- Network firewall policies </br>- Single sign-on applications |
 |Change control board |Team that manages changes in an organization relating to deploying an enterprise application |- Approve technical architecture </br> - Approve data security, compliance, and governance policies </br> - Approve responsible AI policies |N/A |
 
 [Learn more about role-based security roles for Power Platform](/power-platform/admin/database-security)
