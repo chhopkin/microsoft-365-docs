@@ -372,14 +372,14 @@ You can prevent this outcome by adding more context in each of the data retrieva
 
 Add branding elements and content to an instance of Employee Self-Service agent in the Microsoft 365 Admin Center (MAC). Add a custom name for the agent, upload a logo, decide the categories and starter prompts, and select the accent colors.
 
-- Visual details appear in M365 Copilot, in Microsoft Teams, on the agent's landing page, and when the agent is @mentioned elsewhere.
+- Visual details appear in Microsoft 365 Copilot, in Microsoft Teams, on the agent's landing page, and when the agent is @mentioned elsewhere.
 - Cobranding is optional, and an agent name, logo, and accent colors are provided by default in the agent manifest.
 - Only people with admin permissions can access this feature.
 - The agent’s name, logo, and description can be edited in Copilot Studio.
 
-### Navigate to Employee Self-Service in the M365 admin center
+### Navigate to Employee Self-Service in the Microsoft 365 admin center
 
-1. Navigate to the M365 admin center.
+1. Navigate to the Microsoft 365 admin center.
 1. From the Copilot dropdown, select **Settings**.
 1. Select **Employee Self-Service**.
 
