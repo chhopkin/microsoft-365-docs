@@ -30,7 +30,7 @@ items:
       href: pay-as-you-go/overview.md
     - name: Meters for pay-as-you-go
       href: pay-as-you-go/meters.md
-  - name: Privacy, Security, and Governance
+  - name: Data, Privacy, and Security
     items:
     - name: Overview
       href: responsible-ai/responsible-ai-overview.md
