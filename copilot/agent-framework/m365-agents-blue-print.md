@@ -18,7 +18,7 @@ description: View the Microsoft 365 Copilot agents blueprint.
 
 # Enable agents in Microsoft 365 Copilot deployment blueprint
 
-This deployment blueprint helps you enable agents in [Microsoft 365 Copilot](microsoft-365-copilot-overview.md) at scale, while ensuring data security and governance, managing access and costs, and measuring adoption and impact.
+This deployment blueprint helps you enable agents in [Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-overview) at scale, while ensuring data security and governance, managing access and costs, and measuring adoption and impact.
 
 The primary challenges when enabling Microsoft 365 Copilot agents include the following:
 - **Security and governance concerns** - Your organization can to address oversharing, data protection, and compliance risks by implementing robust security and governance controls to safely enable agents in M365 Copilot.
@@ -45,20 +45,14 @@ The blueprint provides these phases for each of the following areas:
 
 | Deployment model | Description |
 |---|---|
-| [![Enable agents in Microsoft 365 Copilot](/copilot/microsoft-365/agent-framework/media/m365-agents-blue-print/m365-agents-blue-print.png)](https://aka.ms/Copilot/OversharingBlueprintPDF) | Use this deployment model to assist organizations with agent security, governance, management controls, measurement, and reporting. <br/><br/>**This model includes**<br/><ul><li>Blueprint with high level activities and presentation [PDF](https://aka.ms/Copilot/OversharingBlueprintPDF) \| [PowerPoint](https://aka.ms/Copilot/OversharingBlueprintPPT)</li></ul> |
+| [![Enable agents in Microsoft 365 Copilot](/copilot/microsoft-365/agent-framework/media/m365-agents-blue-print/m365-agents-blue-print.png)](https://aka.ms/Copilot/OversharingBlueprintPDF) | Use this deployment model to assist organizations with agent security, governance, management controls, measurement, and reporting. <br/><br/>**This model includes**<br/><ul><li>Blueprint with high level activities and presentation [PDF]() \| [PowerPoint]()</li></ul> |
 
 ### Documentation resources
 
-- [Microsoft 365 E3 customers – prepare your data for Copilot](microsoft-365-copilot-e3-guide.md)
+- [Governance and security best practices overview](/microsoft-copilot-studio/guidance/sec-gov-intro)
 
-  Learn how to use the features included in your Microsoft 365 E3 subscription to prepare your data for Microsoft 365 Copilot.
-
-- [Microsoft 365 E5 customers – prepare your data for Copilot](microsoft-365-copilot-e5-guide.md)
-
-  Learn how to use the features included in your Microsoft 365 E5 subscription to prepare your data for Microsoft 365 Copilot.
+- [Manage Microsoft 365 Copilot agents in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps)
 
 ## Related content
 
 - [Microsoft Purview blueprint: Secure by default](/purview/deploymentmodels/depmod-securebydefault-intro)
-
-
