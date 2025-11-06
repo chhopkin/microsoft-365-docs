@@ -255,7 +255,6 @@ Your custom view is now included in the custom filters set.
 1. On the **Custom filter** pane:
 
     - To change the filter: edit the conditions, then select **Save**.
-
     - To delete the filter: select the ellipsis (`...`), then select **Delete**.
 
 ## Next steps
@@ -264,7 +263,7 @@ Your custom view is now included in the custom filters set.
 
 2. Use your normal process for communicating new passwords. 
 
-3. Share the [quickstart guide](https://support.microsoft.com/office/7f34c318-e772-46a5-8c0a-ab86661542d1) with your new users to get started. Examples:
+3. Share the [quickstart guide](https://support.microsoft.com/office/7f34c318-e772-46a5-8c0a-ab86661542d1) and other resources with your new users to get started. Examples:
 
    - [Download and install or reinstall Microsoft 365 or Office 2021 on a PC or Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
    - [Set up Microsoft 365 apps and email on a mobile device](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)
