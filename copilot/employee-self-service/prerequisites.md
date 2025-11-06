@@ -148,6 +148,22 @@ Steps breakdown:
 > [!IMPORTANT]
 > The above samples are only for reference. Each deployment of the Employee Self-Service agent varies with the number of flows, actions, and so on, depending on the level of customizations applied in the accelerator packages used to connect to other systems.
 
+## Identity, Authentication and Single Sign-on (SSO)
+
+The Employee Self-Service agent is built on Copilot Studio, which is part of Microsoft 365 stack. Microsoft 365 relies primarily on Entra ID as an Identity Provider (IdP), which means the Employee Self-Service agent also relies on Entra for user authentication.
+
+There are organizations with multiple Identity Providers (IdPs) such as Okta, Ping, and so on, for managing user authentication. We expect you to have your identity store federated with Entra. We also expect that the other external systems, such as Workday, SAP SuccessFactors, and so on, that you intend to integrate with the Employee Self-Service agent may also use other IdPs for user authentication.
+
+We recommend configuring Single Sign-On (SSO) in Entra, as the Employee Self-Service agent trusts Entra for authentication.
+
+The following table lists the various authentication methods in the order of preference for the agent:
+
+|Identity provider (IdP) |Workday |SAP SuccessFactors |ServiceNow |
+|------------------------|--------|-------------------|-----------|
+|Entra |1. [Entra ID](/connectors/workdaysoap/#microsoft-entra-id-integrated) </br>2. [Microsoft Entra ID integrated with API Management](/connectors/workdaysoap/#microsoft-entra-id-integrated-with-api-management) |1. [Microsoft Entra ID using SuccessFactor (Preview)](/connectors/sapodata/#microsoft-entra-id-using-successfactors-preview) </br>2. [Microsoft Entra ID integrated (with APIM)](/connectors/sapodata/#microsoft-entra-id-integrated-with-apim) |[Microsoft Entra ID user login](/connectors/service-now/#microsoft-entra-id-user-login) |
+|Entra federated with a cloud-based third-party IdP |1. [Entra ID](/connectors/workdaysoap/#microsoft-entra-id-integrated) </br>2. [Microsoft Entra ID integrated with API Management](/connectors/workdaysoap/#microsoft-entra-id-integrated-with-api-management) |1. [Microsoft Entra ID using SuccessFactor (Preview)](/connectors/sapodata/#microsoft-entra-id-using-successfactors-preview) </br>2. [Microsoft Entra ID integrated (with APIM)](/connectors/sapodata/#microsoft-entra-id-integrated-with-apim) |[Microsoft Entra ID user login](/connectors/service-now/#microsoft-entra-id-user-login) |
+|Entra NOT federated with any third-party IdP |1. [OAuth2.0](/connectors/workdaysoap/#microsoft-entra-id-integrated-with-api-management) </br>2. [Basic](/connectors/workdaysoap/#basic) |1. [Basic](/connectors/workdaysoap/#basic) |1. [OAuth2.0](/connectors/workdaysoap/#microsoft-entra-id-integrated-with-api-management) </br>2. [Basic](/connectors/workdaysoap/#basic) |
+
 ## Required roles
 
 The ESS Agent includes several different technical components and configuration areas, which require different Microsoft 365 roles for deployment. We recommend you use the least privileged role possible to perform each necessary activity. For roles with elevated privileges, use just-in-time access.
