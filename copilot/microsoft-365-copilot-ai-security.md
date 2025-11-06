@@ -163,5 +163,5 @@ Download and review our scenario-based deployment models, presentations, and gui
 
 ## See also
 
-- [Frequently asked questions about Copilot Chat](/copilot/chat/faq)
+- [Frequently asked questions about Copilot Chat](/copilot/faq)
 - [Help for end users: Get started with Microsoft 365 Copilot Chat](https://support.microsoft.com/en-us/topic/get-started-with-microsoft-365-copilot-chat-5b00a52d-7296-48ee-b938-b95b7209f737)
