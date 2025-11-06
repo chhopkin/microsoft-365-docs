@@ -388,7 +388,7 @@ Add branding elements and content to an instance of Employee Self-Service agent 
 Get started by picking a primary Employee Self-Service agent to add categories, suggested prompts, and accent colors to reflect your organization's brand.
 
 1. Select Add an agent.
-1. Search for a previously-created Employee Self-Service agent in Copilot Studio. Only primary agents like the HR template or the IT template can be added. You can add up to 10 agents. Select **Add agent** when you identify the right agent.
+1. Search for a previously created Employee Self-Service agent in Copilot Studio. Only primary agents like the HR template or the IT template can be added. You can add up to 10 agents. Select **Add agent** when you identify the right agent.
 
 ### Download and complete the CSV file
 
