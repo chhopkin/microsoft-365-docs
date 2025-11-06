@@ -260,7 +260,14 @@ Your custom view is now included in the custom filters set.
 
 ## Next steps
 
-When you add a user, Microsoft sends an email notification. The email contains the person's user ID and password so they can sign in to Microsoft 365. Use your normal process for communicating new passwords. Share the [quickstart guide](https://support.microsoft.com/office/7f34c318-e772-46a5-8c0a-ab86661542d1) with your new users to get started. For example, how to [Download and install or reinstall Microsoft 365 or Office 2021 on a PC or Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658) and how to [Set up Microsoft 365 apps and email on a mobile device](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f).
+1. When you add a user, Microsoft sends an email notification. The email contains the person's user ID and password so they can sign in to Microsoft 365. 
+
+2. Use your normal process for communicating new passwords. 
+
+3. Share the [quickstart guide](https://support.microsoft.com/office/7f34c318-e772-46a5-8c0a-ab86661542d1) with your new users to get started. Examples:
+
+   - [Download and install or reinstall Microsoft 365 or Office 2021 on a PC or Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
+   - [Set up Microsoft 365 apps and email on a mobile device](https://support.microsoft.com/office/7dabb6cb-0046-40b6-81fe-767e0b1f014f)
 
 ## Related content
 
