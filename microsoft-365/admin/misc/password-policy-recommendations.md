@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 04/02/2025
+ms.date: 11/06/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -40,7 +40,6 @@ For more information about Microsoft 365 passwords, see:
 
 [Reset passwords](../add-users/reset-passwords.md) (article)
 
-[Set an individual user's password to never expire](../add-users/set-password-to-never-expire.md) (article)
 
 [Let users reset their own passwords](../add-users/let-users-reset-passwords.md) (article)
 
@@ -153,6 +152,5 @@ Want to know more about managing passwords? Here's some recommended reading:
 ## Related content
 
 [Reset passwords](../add-users/reset-passwords.md) (article)\
-[Set an individual user's password to never expire](../add-users/set-password-to-never-expire.md) (article)\
 [Let users reset their own passwords](../add-users/let-users-reset-passwords.md) (article)\
 [Resend a user's password - Admin Help](../add-users/resend-user-password.md) (article)
