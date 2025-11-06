@@ -35,11 +35,13 @@ ms.date: 11/06/2025
 
 Each person in your organization needs a user account before they can sign in and access [Microsoft 365 for business](https://www.microsoft.com/microsoft-365/business). This article describes how to add users one at a time, or add multiple users at once. 
 
+If you need help adding users, [Get support for Microsoft 365 for business](../get-help-support.md).
+
 ## Before you begin
 
 Make sure that licenses are purchased for users. For more information, see [Buy or remove licenses for a Microsoft business subscription](/microsoft-365/commerce/licenses/buy-licenses).
 
-You must be a license or user admin to add users and assign licenses. For more information, see [About admin roles](../../admin/add-users/about-admin-roles.md).
+You must be a license or user administrator to add users and assign licenses. For more information, see [About admin roles](../../admin/add-users/about-admin-roles.md).
 
 > [!IMPORTANT]
 > Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
@@ -55,7 +57,7 @@ The following video shows how to add a user in Microsoft 365. It's one minute an
 
 ::: moniker range="o365-worldwide"
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft).
+Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft).
 
 ::: moniker-end
 
@@ -198,7 +200,7 @@ You can select these **Other conditions**:
 
 ::: moniker range="o365-worldwide"
 
-1. In the admin center, go to **Users** \> **[Active users](https://admin.cloud.microsoft/?#/users)**.
+In the Microsoft 365 admin center, go to **Users** \> **[Active users](https://admin.cloud.microsoft/?#/users)**.
 
 ::: moniker-end
 
@@ -218,7 +220,7 @@ Your custom view is now included in the custom filters set.
 
 ::: moniker range="o365-worldwide"
 
-1. In the admin center, go to **Users** \> **[Active users](https://admin.cloud.microsoft/?#/users)**.
+In the Microsoft 365 admin center, go to **Users** \> **[Active users](https://admin.cloud.microsoft/?#/users)**.
 
 ::: moniker-end
 
