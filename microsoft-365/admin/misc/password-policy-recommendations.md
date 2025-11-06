@@ -61,11 +61,15 @@ Here's some password guidance for users in your organization. Make sure to let y
   
 - Don't use a password that is the same or similar to one you use on any other websites
 - Don't use a single word, for example, `password`, or a commonly used phrase like `Iloveyou`
-- Make passwords hard to guess, even by people who know a lot about you, such as the names and birthdays of your friends and family, your favorite bands, and phrases you like to use
+- Set passwords that are hard to guess, even by people who know a lot about you. Examples include using names and birthdays of your friends and family, your favorite bands, and phrases you like to use
   
 ### Ban common passwords
 
-The most important password requirement you should put on your users when creating passwords is to ban the use of common passwords to reduce your organization's susceptibility to brute force password attacks. Common user passwords include: **abcdefg**, **password**, **monkey**.
+The most important password requirement you should put on your users when creating passwords is to ban the use of common passwords to reduce your organization's susceptibility to brute force password attacks. Common user passwords include: 
+
+- `abcdefg`
+- `password`
+- `monkey`
   
 ### Educate users to not reuse organization passwords anywhere else
 
