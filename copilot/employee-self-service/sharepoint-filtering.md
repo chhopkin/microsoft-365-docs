@@ -1,5 +1,5 @@
 ---
-title: Use SharePoint advanced for knowledge Employee Self-Service
+title: Use SharePoint advanced filtering for Employee Self-Service agents
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
@@ -12,18 +12,18 @@ ms.service: microsoft-365-copilot
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
-description: Learn how to do advanced filering in SharePoint for Employee Self-Service agents that align with your organization's needs.
+description: Learn how to do advanced filtering in SharePoint for Employee Self-Service agents that align with your organization's needs.
 appliesto:
   - ✅ Microsoft 365 Copilot
 ---
 
 # SharePoint Advanced Filtering (CPS) How-To
 
-When employees ask questions like "What is my holiday policy?", the Employee Self-Service agent sometimes shows policies for multiple countries/regions (for example, US, India, France) instead of just the one that applies to the employee. This happens because ESS retrieves all matching SharePoint documents but doesn't apply user-specific filters (like country/region or company code) during the search.
+When employees ask questions like "What is my holiday policy?", the Employee Self-Service agent sometimes shows policies for multiple countries/regions (for example, US, India, France) instead of just the one that applies to the employee. This situation happens because ESS retrieves all matching SharePoint documents but doesn't apply user-specific filters (like country/region or company code) during the search.
 
 We can personalize results by telling the Employee Self-Service agent to only return SharePoint documents that match the employee's profile, such as their location or company code.
 
-This works in two parts: 
+This personalization works in two parts:
 
 1. The Employee Self-Service agent collects user information, like location, and stores it as a variable.
 1. SharePoint knowledge sources are updated to use that variable when searching, so results are filtered to what's relevant.
@@ -35,9 +35,9 @@ This works in two parts:
 1. Decide the attributes to filter on (some examples include Company_Code, Country/Region, Location, Department).
 1. Verify SharePoint metadata exists on the target content (site columns filled on pages/docs).
 1. Find the managed property that maps to that column: **SharePoint Admin Center** > **More features** > **Search** > Manage Search Schema.
-    1. Confirm the property you'll use (such as RefinableString100) is Searchable/Queryable/Refinable.
+    1. Confirm the property you want to use (such as RefinableString100) is Searchable/Queryable/Refinable.
     1. If you just changed mappings, Reindex the library or site and allow time for crawl.
-1. Identify where you'll source the user attribute at runtime, like Workday, SuccessFactors, Graph, or a custom API.
+1. Identify where you intend to source your user attribute at runtime, like Workday, SuccessFactors, Graph, or a custom API.
 
 ### Capture the user context in the agent (Copilot Studio)
 
