@@ -28,7 +28,7 @@ ms.custom:
 - business_assist
 search.appverid:
 - MET150
-ms.date: 09/17/2025
+ms.date: 11/06/2025
 ---
 
 
@@ -42,6 +42,8 @@ Each person in your organization needs a user account before they can sign in an
 > Check out [Microsoft 365 small business help](https://www.youtube.com/channel/UCBcPPMQmVe5O3on4v5VKrYA) on YouTube.
 
 ## Before you begin
+
+Make sure that licenses are purchased for users. For more information, see [Buy or remove licenses for a Microsoft business subscription](/microsoft-365/commerce/licenses/buy-licenses).
 
 You must be a license or user admin to add users and assign licenses. For more information, see [About admin roles](../../admin/add-users/about-admin-roles.md).
 
