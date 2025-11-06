@@ -172,12 +172,8 @@ items:
              href: add-users/reset-passwords.md
            - name: Let users reset passwords
              href: add-users/let-users-reset-passwords.md
-           - name: Set passwords to never expire
-             href: add-users/set-password-to-never-expire.md
            - name: Password policy recommendations
              href: misc/password-policy-recommendations.md
-           - name: Turn off strong passwords
-             href: add-users/strong-password.md
            - name: Set the password expiration policy
              href: manage/set-password-expiration-policy.md
     - name: Manage email and calendars
