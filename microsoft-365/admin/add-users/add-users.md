@@ -31,10 +31,9 @@ search.appverid:
 ms.date: 11/06/2025
 ---
 
-
 # Add users and assign licenses in Microsoft 365
 
-Each person in your organization needs a user account before they can sign in and access [Microsoft 365 for business](https://www.microsoft.com/microsoft-365/business). The easiest way to add user accounts is to add them one at a time in the [Microsoft 365 admin center](https://admin.microsoft.com). After you complete this step, your users have Microsoft 365 licenses, sign-in credentials, and Microsoft 365 mailboxes.
+Each person in your organization needs a user account before they can sign in and access [Microsoft 365 for business](https://www.microsoft.com/microsoft-365/business). This article describes how to add users one at a time, or add multiple users at once. 
 
 ## Before you begin
 
@@ -56,13 +55,13 @@ The following video shows how to add a user in Microsoft 365. It's one minute an
 
 ::: moniker range="o365-worldwide"
 
-Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft).
+1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft).
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-Sign in to the [Microsoft 365 admin center](https://portal.partner.microsoftonline.cn).
+1. Sign in to the [Microsoft 365 admin center](https://portal.partner.microsoftonline.cn).
 
 ::: moniker-end
 
