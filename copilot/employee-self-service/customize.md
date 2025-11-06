@@ -19,11 +19,11 @@ appliesto:
 
 # Customize the Employee Self-Service agent
 
-The Employee Self-Service agent is customizable in Microsoft Copilot Studio, where Makers can use a variety of tools, topics, authoritative knowledge sources, and Microsoft-built connectors to external systems, like Workday, SAP, and ServiceNow:
+The Employee Self-Service agent is customizable in Microsoft Copilot Studio, where Makers can use various tools, topics, authoritative knowledge sources, and Microsoft-built connectors to external systems, like Workday, SAP, and ServiceNow:
 
 - Start by learning more about roles and responsibilities.
 - Then, review the basic building blocks that make up the Employee Self-Service agent.
-- Next, see your options for customizing the look and certain content end-users will see.
+- Next, see your options for customizing the look and certain content end-users see.
 - Then, learn about adding knowledge sources.
 - Finally, review topics that are included in the ESS package by default and decide how to customize details for the need of your organization.
 
@@ -39,7 +39,7 @@ To craft seamless employee experiences with an Employee Self-Service agent, begi
 
 ### Topics
 
-Topics can be used in a variety of ways, from crafting a verbatim response for sensitive topics to managing when to display an adaptive card or how a fallback path is defined. The Employee Self-Service agent template comes with a set of pre-defined and fully configurable topics to help get you started and you can then create your own, leveraging the full capability of Copilot Studio and our grown list of sample topics for ESS. [Learn more](/microsoft-copilot-studio/guidance/topics-overview) about Topics.
+Topics can be used in various ways, from crafting a verbatim response for sensitive topics, to managing when to display an adaptive card, or how a fallback path is defined. The Employee Self-Service agent template comes with a set of predefined and fully configurable topics to help get you started. You can then create your own, using the full capability of Copilot Studio and our grown list of sample topics for ESS. [Learn more](/microsoft-copilot-studio/guidance/topics-overview) about Topics.
 
 ### Actions
 
@@ -69,7 +69,7 @@ A great response is accurate, actionable, and engaging to ensure we earn trust, 
 
 Optionally, you can brand the Employee Self-Service agent based on your branding guidelines. By default, the product is called Employee Self-Service agent, and includes an icon that looks like an office badge.
 
-The following branding and content elements are seen by end-users and can be customized:
+End-users see the following customizable branding and content elements:
 
 |Element                           |Customization                |Next steps |
 |----------------------------------|-----------------------------|-----------|
@@ -77,8 +77,8 @@ The following branding and content elements are seen by end-users and can be cus
 |Agent logo                        |Copilot Studio overview page |Use the default logo (a company badge) or add a logo that aligns with your brand. |
 |Agent short and long descriptions |Copilot Studio channels page |Consider a tagline and one-sentence description to be used to help users understand how Employee Self-Service agent can help them when they add the agent for the first time. |
 |Accent colors                     |Microsoft 365 admin center   |Choose a color for light and dark themes to create a more branded appearance. |
-|Starter prompts                   |Copilot Studio overview page or the Microsoft 365 admin center if you also want to add categories |Help end-users understand how to engage with the Employee Self-Service agent by adding up to twelve starter prompts. |
-|Categories for starter prompts    |Microsoft 365 admin center   |Add distinct categories for up to twelve prompts per category. This is especially helpful when you're using more than one Employee Self-Service admin template. |
+|Starter prompts                   |Copilot Studio overview page or the Microsoft 365 admin center if you also want to add categories |Help end-users understand how to engage with the Employee Self-Service agent by adding up to 12 starter prompts. |
+|Categories for starter prompts    |Microsoft 365 admin center   |Add distinct categories for up to 12 prompts per category. Especially helpful when you're using more than one Employee Self-Service admin template. |
 |Disclaimer message                |Copilot Studio channels page and topic |Add a general disclaimer on the agent's landing page or add a disclaimer that displays after certain responses. |
 |Agent (global) instructions       |Copilot Studio overview page |Draft instructions that help shape your agent's personality, behavior for edge cases, and guidance on how to use user context. |
 
@@ -375,7 +375,7 @@ Add branding elements and content to an instance of Employee Self-Service agent 
 - Visual details appear in Microsoft 365 Copilot, in Microsoft Teams, on the agent's landing page, and when the agent is @mentioned elsewhere.
 - Cobranding is optional, and an agent name, logo, and accent colors are provided by default in the agent manifest.
 - Only people with admin permissions can access this feature.
-- The agent’s name, logo, and description can be edited in Copilot Studio.
+- The agent's name, logo, and description can be edited in Copilot Studio.
 
 ### Navigate to Employee Self-Service in the Microsoft 365 admin center
 
@@ -385,10 +385,10 @@ Add branding elements and content to an instance of Employee Self-Service agent 
 
 ### Add an existing Employee Self-Service agent
 
-Get started by picking a primary Employee Self-Service agent to add categories, suggested prompts, and accent colors to reflect your organization’s brand.
+Get started by picking a primary Employee Self-Service agent to add categories, suggested prompts, and accent colors to reflect your organization's brand.
 
 1. Select Add an agent.
-1. Search for an existing Employee Self-Service agent that’s already been created in Copilot Studio. Only primary agents like the HR template or the IT template can be added. You can add up to 10 agents. Select **Add agent** when the right agent has been identified.
+1. Search for an previously created Employee Self-Service agent in Copilot Studio. Only primary agents like the HR template or the IT template can be added. You can add up to 10 agents. Select **Add agent** when you identify the right agent.
 
 ### Download and complete the CSV file
 
@@ -400,7 +400,7 @@ Get started by picking a primary Employee Self-Service agent to add categories, 
 >   - Each category name has a 35-character limit.
 >   - Add up to 12 titles and starter prompts for each category.
 >   - The title for each starter prompt must be unique and has a 128-charcter limit.
->   - Starter prompts don’t need to be unique and have a 4000-character limit.
+>   - Starter prompts don't need to be unique and have a 4000-character limit.
 
 2. When the CSV is completed, select **Upload CSV**. The system validates the CSV file upon upload. If an error occurs, a status message below the upload button shows you what changes to make.
 3. Categories and prompts display in the **Settings** pane when the upload completes. Select **Save** when you're done.
@@ -409,14 +409,14 @@ Get started by picking a primary Employee Self-Service agent to add categories, 
 
 Go to the Accent colors tab to add colors to be used for buttons, links, chat bubbles, and loading indicators. By default, an accent color is provided for light theme and dark theme. Add a HEX value to choose a custom accent, by entering a value or selecting the color and choosing from the swatch picker.
 
-Check your organization's brand guidance to ensure color contrast and accessibility meet the standard for your audience. We recommend color guidance at a 4.5:1 contrast ratio so most people can experience it as intended. When colors don't meet this ratio, some visual elements aren't seen by users.
+Check your organization's brand guidance to ensure color contrast and accessibility meet the standard for your audience. We recommend color guidance at a 4.5:1 contrast ratio so most people can experience it as intended. When colors don't meet this ratio, users don't see some visual elements.
 
 > [!NOTE]
-> If hex values don’t meet the standard color contrast ratio, an error message displays but you aren't blocked from using that HEX value.
+> If hex values don't meet the standard color contrast ratio, an error message displays but you aren't blocked from using that HEX value.
 
 ### Export the agent's manifest as a CSV
 
-After you’re done making changes, select **Export as CSV**. The agent manifest exports as a CSV file and uploads into Microsoft Integrated Apps to make the changes available to others. Repeat this process to make changes to the agent’s starter prompts and accent colors.
+After you're done making changes, select **Export as CSV**. The agent manifest exports as a CSV file and uploads into Microsoft Integrated Apps to make the changes available to others. Repeat this process to make changes to the agent's starter prompts and accent colors.
 
 For more information, see [Microsoft Accessibility guidelines](https://fluent2.microsoft.design/accessibility) and [Teams app icons](/microsoftteams/platform/concepts/build-and-test/apps-package#app-icons).
 
