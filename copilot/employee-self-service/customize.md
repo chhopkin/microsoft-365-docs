@@ -428,10 +428,13 @@ Published agents that contain knowledge use the configured knowledge sources to 
 
 You can incorporate knowledge sources into agents during initial creation, after the agent is created, or in a generative answers topic node.
 
-[Learn more about knowledge sources and supported types in Copilot Studio.](/microsoft-copilot-studio/knowledge-copilot-studio)
+[Learn more](/microsoft-copilot-studio/knowledge-copilot-studio) about knowledge sources and supported types in Copilot Studio.
 
->[!TIP]
->There's an **Official source** option within Copilot Studio. We recommend you *not* use this option when configuring Employee Self-Service agent knowledge sources. The Employee Self-Service agent applies the official source badge as part of response preparation. Enabling this option in Copilot Studio doesn't have any effect in the Employee Self-Service agent.
+> [!NOTE]
+> The Employee Self-Service agent currently only has agent-level knowledge sources and no Topic-level knowledge sources included.
+
+> [!TIP]
+> The Employee Self-Service agent applies the official source badge as part of the response preparation topic.
 
 ### Configure SharePoint as a knowledge source
 
