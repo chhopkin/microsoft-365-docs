@@ -55,51 +55,13 @@ The primary goal of a more secure password system is password diversity. You wan
 - Enforce registration for [multifactor authentication](../security-and-compliance/set-up-multi-factor-authentication.md)
 - Enable risk based multifactor authentication challenges
 
-### Password guidance for your users
+## Password guidance for users
 
 Here's some password guidance for users in your organization. Make sure to let your users know about these recommendations and enforce the recommended password policies at the organizational level.
   
 - Don't use a password that is the same or similar to one you use on any other websites
-- Don't use a single word, for example, **password**, or a commonly used phrase like **Iloveyou**
+- Don't use a single word, for example, `password`, or a commonly used phrase like `Iloveyou`
 - Make passwords hard to guess, even by people who know a lot about you, such as the names and birthdays of your friends and family, your favorite bands, and phrases you like to use
-
-## Some common approaches and their negative impacts
-
-They're some of the most commonly used password management practices, but research warns us about their negative impacts.
-  
-### Password expiration requirements for users
-
-Password expiration requirements do more harm than good, as they make users select predictable passwords, composed of sequential words and numbers that are closely related to each other. In these cases, the next password can be predicted based on the previous password. Password expiration requirements offer no containment benefits because cybercriminals almost always use credentials as soon as they compromise them.
-  
-### Minimum password length requirements
-
-To encourage users to think about a unique password, we recommend keeping a reasonable eight-character minimum length requirement.
-  
-### Requiring the use of multiple character sets
-
-Password complexity requirements reduce key space and cause users to act in predictable ways, doing more harm than good. Most systems enforce some level of password complexity requirements. For example, passwords need characters from all three of the following categories:
-  
-- uppercase characters
-- lowercase characters
-- nonalphanumeric characters
-
-Most people use similar patterns, like using:
-
-- A capital letter in the first position
-- A symbol in the last position
-- Numbers in the last two positions
-
-Cybercriminals are aware about such patterns, so they run their dictionary attacks using the most common substitutions, such as:
-
-- `$` for `s`
-- `@` for `a,`
-- `1` for `l` 
-
-Forcing your users to choose a combination of upper, lower, digits, special characters has a negative effect. Some complexity requirements even prevent users from using secure and memorable passwords, and force them into coming up with less secure and less memorable passwords.
-  
-## Successful Patterns
-
-In contrast, here are some recommendations in encouraging password diversity.
   
 ### Ban common passwords
 
@@ -109,16 +71,16 @@ The most important password requirement you should put on your users when creati
 
 One of the most important messages to get across to users in your organization is to not reuse their organization password anywhere else. The use of organization passwords in external websites greatly increases the likelihood that cybercriminals can compromise these passwords.
   
-### Enforce Multi-Factor Authentication registration
+### Enforce multifactor authentication registration
 
 Make sure your users update contact and security information, like an alternate email address, phone number, or a device registered for push notifications, so they can respond to security challenges and be notified of security events. Updated contact and security information helps users verify their identity if they ever forget their password, or if someone else tries to take over their account. It also provides an out of band notification channel for security events such as login attempts or changed passwords. 
   
-To learn more, see [Set up multi-factor authentication](../security-and-compliance/set-up-multi-factor-authentication.md).
-  
-### Enable risk based multi-factor authentication
+To learn more, see [Set up multifactor authentication](../security-and-compliance/set-up-multi-factor-authentication.md).
 
-Risk-based multi-factor authentication ensures that when our system detects suspicious activity, it can challenge the user to ensure that they're the legitimate account owner.
-  
+### Enable risk based multifactor authentication
+
+Risk-based multifactor authentication ensures that when our system detects suspicious activity, it can challenge the user to ensure that they're the legitimate account owner.
+
 ## Related content
 
 - [Reset passwords](../add-users/reset-passwords.md)
