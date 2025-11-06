@@ -33,9 +33,9 @@ ms.date: 11/06/2025
 
 # Add users and assign licenses in Microsoft 365
 
-Each person in your organization needs a user account before they can sign in and access [Microsoft 365 for business](https://www.microsoft.com/microsoft-365/business). This article describes how to add users one at a time, or add multiple users at once. 
+Each person in your organization needs a user account before they can sign in and access [Microsoft 365 for business](https://www.microsoft.com/microsoft-365/business). This article describes how to add users one at a time, or adds multiple users at once. 
 
-If you need help adding users, [Get support for Microsoft 365 for business](../get-help-support.md).
+If you need help with adding users, [Get support for Microsoft 365 for business](../get-help-support.md).
 
 ## Before you begin
 
@@ -122,7 +122,7 @@ The following video shows how to add multiple users in Microsoft 365. It's one m
 
    1. Download either the blank CSV file or file that includes example user information. 
 
-   2. Open and edit the CSV file, and fill in vaues for user name and display name for each user you want to add. For example, `bob@contoso.com, Bob Kelly`. Don't change the column headings or the order of columns. 
+   2. Open and edit the CSV file, and fill in values for user name and display name for each user you want to add. For example, `bob@contoso.com, Bob Kelly`. Don't change the column headings or the order of columns. 
    
    3. When you're done entering the users' information in your spreadsheet, save it in CSV format. 
 
@@ -184,9 +184,9 @@ You can select these **Other conditions**:
 
 - **Synchronized users only**: Select this option to show all users who are synced with the local Active Directory. This filter works whether you activate the users or not.
 - **Users with errors**: Select this option to show users who might have provisioning errors.
-- **Unlicensed users**: Select this option to find all the users who aren't assigned a license. The results for this view can also include users who have an Exchange mailbox but don't have a license. To track those users specifically, use the filter **Unlicensed users with Exchange mailboxes or archives**. The results for this view can also include users who have an Exchange archve, but don't have a license.
+- **Unlicensed users**: Select this option to find all the users who aren't assigned a license. The results for this view can also include users who have an Exchange mailbox but don't have a license. To track those users specifically, use the filter **Unlicensed users with Exchange mailboxes or archives**. The results for this view can also include users who have an Exchange archive, but don't have a license.
 
-- **Unlicensed users with Exchange mailboxes or archives**: Select this option to show user accounts that you created in Exchange Online and assigned an Exchange mailbox, but didn't assign a Microsoft 365 license. The results of this filter include users who have or who were assigned an Exchange archive.
+- **Unlicensed users with Exchange mailboxes or archives**: Select this option to show user accounts that you created in Exchange Online and who were assigned an Exchange mailbox, but didn't get a Microsoft 365 license. The results of this filter include users who have or who were assigned an Exchange archive.
 
   > [!NOTE]
   > The **Unlicensed users with Exchange mailboxes** filter works when:
@@ -230,10 +230,7 @@ In the Microsoft 365 admin center, go to **Users** \> **[Active users](https://a
 
 ::: moniker-end
 
-1. On **Active users**, select **Filter set**, select **Custom filters set**, and switch to the filter you want to change.
-
-    > [!TIP]
-    > You can only edit custom filters.
+1. On **Active users**, select **Filter set**, select **Custom filters set**, and switch to the filter you want to change. You can only edit custom filters.
 
 1. Select **Filter set** again, then select **Edit filter**.
 
