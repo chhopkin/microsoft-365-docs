@@ -32,11 +32,11 @@ The following calculated fields should be created at the report level (see defin
 
 ## Next steps for sections of report configurations
 
-- [Workday Columns Custom Report](workday-columns-support-config.md)
-- [Workday User Context Custom Report - SORT](workday-sort-support-config.md)
-- [Workday User Context Custom Report - FILTER](workday-filter-support-config.md)
-- [Workday User Context Custom Report - SUB-FILTER](workday-sub-filter-support-config.md)
-- [Workday User Context Custom Report - PROMPTS](workday-prompts-support-config.md)
-- [Workday User Context Custom Report - OUTPUT](workday-output-support-config.md)
-- [Workday User Context Custom Report - SHARE](workday-share-support-config.md)
-- [Workday User Context Custom Report - ADVANCED](workday-advanced-support-config.md)
+- [Columns](workday-columns-support-config.md)
+- [Sort](workday-sort-support-config.md)
+- [Filter](workday-filter-support-config.md)
+- [Sub-filter](workday-sub-filter-support-config.md)
+- [Prompts](workday-prompts-support-config.md)
+- [Output](workday-output-support-config.md)
+- [Share](workday-share-support-config.md)
+- [Advanced](workday-advanced-support-config.md)
