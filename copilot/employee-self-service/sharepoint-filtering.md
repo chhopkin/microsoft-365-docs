@@ -1,5 +1,5 @@
 ---
-title: Use SharePoint advanced for knowledge Employee Self-Service
+title: Use SharePoint advanced filtering for Employee Self-Service agents
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi

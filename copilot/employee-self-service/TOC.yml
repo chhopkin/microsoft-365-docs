@@ -19,7 +19,7 @@ items:
           href: customize.md
         - name: Craft agent instructions
           href: design-best-practices.md
-        - name: Sharepoint filtering
+        - name: Sharepoint advanced filtering
           href: sharepoint-filtering.md
         - name: Emotional intelligence and ambiguity
           href: emotional-quotient-ambiguity.md
