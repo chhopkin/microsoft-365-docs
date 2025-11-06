@@ -48,12 +48,12 @@ Good password practices fall into a few broad categories:
 
 The primary goal of a more secure password system is password diversity. You want your password policy to contain lots of different and hard to guess passwords. Here are a few recommendations for keeping your organization as secure as possible.
 
-- Maintain a fourteen-character minimum length requirement
+- Maintain a 14-character minimum length requirement
 - Don't require character composition requirements. For example, \*&amp;(^%$
 - Ban common passwords, to keep the most vulnerable passwords out of your system
 - Educate your users to not reuse their organization passwords for nonwork related purposes
-- Enforce registration for [multi-factor authentication](../security-and-compliance/set-up-multi-factor-authentication.md)
-- Enable risk based multi-factor authentication challenges
+- Enforce registration for [multifactor authentication](../security-and-compliance/set-up-multi-factor-authentication.md)
+- Enable risk based multifactor authentication challenges
 
 ### Password guidance for your users
 
@@ -81,9 +81,21 @@ Password complexity requirements reduce key space and cause users to act in pred
   
 - uppercase characters
 - lowercase characters
-- non-alphanumeric characters
+- nonalphanumeric characters
 
-Most people use similar patterns. For example, a capital letter in the first position, a symbol in the last, and a number in the last 2. Cyber criminals are aware about such patterns, so they run their dictionary attacks using the most common substitutions, "$" for "s", "@" for "a," "1" for "l". Forcing your users to choose a combination of upper, lower, digits, special characters has a negative effect. Some complexity requirements even prevent users from using secure and memorable passwords, and force them into coming up with less secure and less memorable passwords.
+Most people use similar patterns, like using:
+
+- A capital letter in the first position
+- A symbol in the last position
+- Numbers in the last two positions
+
+Cybercriminals are aware about such patterns, so they run their dictionary attacks using the most common substitutions, such as:
+
+- `$` for `s`
+- `@` for `a,`
+- `1` for `l` 
+
+Forcing your users to choose a combination of upper, lower, digits, special characters has a negative effect. Some complexity requirements even prevent users from using secure and memorable passwords, and force them into coming up with less secure and less memorable passwords.
   
 ## Successful Patterns
 
