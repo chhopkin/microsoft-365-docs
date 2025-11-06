@@ -57,7 +57,7 @@ Make sure you have:
 
 # Step 2: Download Required Apps
 
-Based on your company security policies you may need to download additional apps like Microsoft authenticator and/or company portal. Below we will cover the different scenarios you may encounter:
+You may need to download additional apps such as Microsoft authenticator and/or company portal based on your company security policies. Below we will cover the different scenarios you may encounter:
 
 #### Multifactor authentication (MFA)
 
@@ -119,9 +119,9 @@ Based on your company security policies you may need to download additional apps
 
 # FAQ
 
-Q: What if I’m required to enroll my devices to access Teams on my personal device?
+Q: Will this feature help me enroll my device in Intune?
 
-A: The wizard will not guide you through enrollment process. Please follow the steps on your mobile phone.
+A: The scope of this feature will not guide you through device enrollment process. Please follow the steps on your mobile phone.
 
 Q: Can I go backwards in the wizard?
 
