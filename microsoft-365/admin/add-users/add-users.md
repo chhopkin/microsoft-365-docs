@@ -36,11 +36,6 @@ ms.date: 11/06/2025
 
 Each person in your organization needs a user account before they can sign in and access [Microsoft 365 for business](https://www.microsoft.com/microsoft-365/business). The easiest way to add user accounts is to add them one at a time in the [Microsoft 365 admin center](https://admin.microsoft.com). After you complete this step, your users have Microsoft 365 licenses, sign-in credentials, and Microsoft 365 mailboxes.
 
-> [!TIP]
-> Check out all of our small business content on [Small business help & learning](https://support.microsoft.com/smallbusiness?ocid=SMCNavtoSMBHub).
->
-> Check out [Microsoft 365 small business help](https://www.youtube.com/channel/UCBcPPMQmVe5O3on4v5VKrYA) on YouTube.
-
 ## Before you begin
 
 Make sure that licenses are purchased for users. For more information, see [Buy or remove licenses for a Microsoft business subscription](/microsoft-365/commerce/licenses/buy-licenses).
@@ -273,3 +268,5 @@ When you add a user, Microsoft sends an email notification. The email contains t
 - [Restore a user in Microsoft 365](restore-user.md)
 - [Assign licenses to users](../manage/assign-licenses-to-users.md)
 - [Delete a user from your organization](delete-a-user.md)
+- [Small business help & learning](https://support.microsoft.com/smallbusiness?ocid=SMCNavtoSMBHub)
+- [Microsoft 365 small business help](https://www.youtube.com/channel/UCBcPPMQmVe5O3on4v5VKrYA) (YouTube)
