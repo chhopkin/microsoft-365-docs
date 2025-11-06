@@ -23,7 +23,7 @@ ms.custom:
 - campaignIDs-batch2
 search.appverid: MET150
 description: "Learn how to use multi-tenant billing relationships to share billing accounts across tenants in the Microsoft 365 admin center."
-ms.date: 05/05/2025
+ms.date: 11/04/2025
 ---
 
 # Manage billing across multiple tenants in the Microsoft 365 admin center
