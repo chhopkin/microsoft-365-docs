@@ -39,7 +39,7 @@ To craft seamless employee experiences with an Employee Self-Service agent, begi
 
 ### Topics
 
-Topics can be used in various ways, from crafting a verbatim response for sensitive topics, to managing when to display an adaptive card, or how a fallback path is defined. The Employee Self-Service agent template comes with a set of predefined and fully configurable topics to help get you started. You can then create your own, using the full capability of Copilot Studio and our grown list of sample topics for ESS. [Learn more](/microsoft-copilot-studio/guidance/topics-overview) about Topics.
+You can use Topics in various ways, from crafting a verbatim response for sensitive topics, to managing when to display an adaptive card, or how a fallback path is defined. The Employee Self-Service agent template comes with a set of predefined and fully configurable topics to help get you started. You can then create your own, using the full capability of Copilot Studio and our grown list of sample topics for ESS. [Learn more](/microsoft-copilot-studio/guidance/topics-overview) about Topics.
 
 ### Actions
 
