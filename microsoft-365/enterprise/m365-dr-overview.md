@@ -232,7 +232,7 @@ Review our [definitions for different types of customer data](https://go.microso
 
 <details><summary>Select to expand</summary>
 
-Microsoft doesn't disclose the exact addresses of its data centers. We established this policy to help secure our data center facilities. However, we do list city locations. See Table 5 in the [Durable Commitments on Data Location by Data Center Location](m365-dr-overview.md#durable-commitments-on-data-location-by-data-center-location) on the Overview and Definitions page to learn more.
+Microsoft doesn't disclose the exact addresses of its data centers. We established this policy to help secure our data center facilities. However, we do list city locations. See [Table 4: Durable Commitments on Data Location by Data Center Location](m365-dr-overview.md#table-4-durable-commitments-on-data-location-by-data-center-location) on the Overview and Definitions page to learn more.
 
 </details>
 
