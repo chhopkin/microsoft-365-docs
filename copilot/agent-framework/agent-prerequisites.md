@@ -44,11 +44,35 @@ When considering administrator permissions, we recommend you use the least privi
 Confirm your admin permissions:
 
 1. Open Microsoft 365 admin center in your browser.
-2. Select Users > Active users.
+2. Select **Users** > **Active users**.
 3. Find and select your user name.
-4. Under Roles, you’ll find your access role.
+4. Under **Roles**, you’ll find your access role.
 
 > [!NOTE]
 > To view the assigned members of the different roles in your tenant, you can select **Roles** > **Role assignments** > *select the role* > **Assigned**.
 
 For more information about roles, see [admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles) and [Understanding Permissions](/microsoft-365/admin/manage/manage-agents-permissions).
+
+### Service admin roles
+
+To help you administer environments and settings for the Microsoft Power Platform, you can assign users to manage the service at the tenant level without having to assign a role that provides access to other services within the tenant.
+
+The Power Platform related service admin roles that you can assign to provide a high level of admin management are the following:
+
+- Dynamics 365 administrator
+- Power Platform administrator
+
+For more information, see [Use service admin roles to manage your tenant](/power-platform/admin/use-service-admin-role-manage-tenant). 
+
+## Control Access to Sensitive Roles with Privileged Identity Management
+
+To enhance security and compliance, organizations can use [Microsoft Entra Privileged Identity Management](/entra/id-governance/privileged-identity-management/pim-configure) (PIM) to require approval workflows before granting access to highly sensitive roles, such as AI Administrator or Search Administrator.
+
+With PIM, you can do the following:
+
+- Configure just-in-time (JIT) activation for highly sensitive roles.
+- Require multi-step approval from designated approvers related to these highly sensitive roles.
+- Enforce [Multi-Factor Authentication](/entra/identity/authentication/concept-mfa-howitworks) (MFA) and conditional access policies during activation.
+- Audit and review role assignments to maintain least privilege principles.
+
+PIM ensures that access to critical AI and search-related administrative functions is tightly controlled and monitored. For more information, see [Microsoft Entra Privileged Identity Management](/entra/id-governance/privileged-identity-management/pim-configure).
