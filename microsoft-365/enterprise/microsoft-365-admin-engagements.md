@@ -1,5 +1,5 @@
 ---
-title: "Engagements tab in the Microsoft 365 Admin Center Enhanced engagements section"
+title: "Engagements in the Microsoft 365 Admin Center Enhanced engagements section"
 f1.keywords:
 - NOCSH
 ms.author: vpattnaik
