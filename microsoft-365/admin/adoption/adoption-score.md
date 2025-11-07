@@ -3,8 +3,8 @@ title: "Microsoft Adoption Score"
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 12/14/2023
 audience: Admin
 ms.topic: article

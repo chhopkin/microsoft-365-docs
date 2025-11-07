@@ -4,9 +4,9 @@ description: Learn about new security features and capabilities in Microsoft 365
 search.appverid:
 - MET150
 - BCS160
-ms.author: chrisda
-author: chrisda
-manager: deniseb
+ms.author: vpattnaik
+author: vpattnai
+manager: dansimp
 audience: Admin
 ms.topic: overview
 ms.date: 09/24/2025

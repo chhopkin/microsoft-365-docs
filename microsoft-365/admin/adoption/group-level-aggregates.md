@@ -3,8 +3,8 @@ title: "Group Level Aggregates in Adoption Score"
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 11/11/2022
 audience: Admin
 ms.topic: how-to

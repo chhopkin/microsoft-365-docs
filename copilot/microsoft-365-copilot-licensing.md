@@ -22,7 +22,6 @@ appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-
 # License options for Microsoft 365 Copilot
 
 [Microsoft 365 Copilot](microsoft-365-copilot-overview.md) is an AI-powered productivity tool that helps users with everyday tasks.
@@ -107,9 +106,9 @@ To add Microsoft 365 Copilot to your Microsoft 365 subscription, you need one of
 - **Other plans:**
   - Microsoft Clipchamp
 
-### Licenses for education faculty and higher education students aged 18 and older
+### Education licenses
 
-To get the following plans, use Enrollment for Education Solutions (EES) or a Cloud Solution Provider (CSP). For more information on EES, download the [Enrollment for Education Solutions volume licensing guide](https://download.microsoft.com/download/F/6/6/F6611596-992F-498A-A8EE-B0B39A6A4D0A/Enrollment_for_Education_Solutions_Licensing_Guide.pdf) PDF from the Microsoft Download Center.
+An academic offering of Microsoft 365 Copilot is available for faculty, staff, and students aged 13 and older. To get the following plans, use Enrollment for Education Solutions (EES) or a Cloud Solution Provider (CSP). For more information on EES, download the [Enrollment for Education Solutions volume licensing guide](https://download.microsoft.com/download/F/6/6/F6611596-992F-498A-A8EE-B0B39A6A4D0A/Enrollment_for_Education_Solutions_Licensing_Guide.pdf) PDF from the Microsoft Download Center.
 
 - Microsoft 365 A1
 - Microsoft 365 A3
