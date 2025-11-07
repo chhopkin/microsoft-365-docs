@@ -1,5 +1,5 @@
 ---
-title: "Design change requests tab in the Microsoft 365 Admin Center Enhanced engagements section"
+title: "Design change requests tab in the Microsoft 365 Admin Enhanced engagements section"
 f1.keywords:
 - NOCSH
 ms.author: vpattnaik
@@ -18,7 +18,7 @@ description: The Design Change Requests page provides a high-level report on the
 
 # Design Change Requests (DCR)
 
-The Design Change Requests page provides a high-level view of requests from customers to modify or enhance a product or feature or to introduce new capabilities. In this section you will find a high-level report on the DCRs for your tenant, complete with useful metrics and graphs. This report is only inclusive of requests for products that are covered by the Engineering Direct offer. DCRs raised for other products will not be included.
+The Design Change Requests page provides a high-level view of requests from customers to modify or enhance a product or feature or to introduce new capabilities. In this section you'll find a high-level report on the DCRs for your tenant, complete with useful metrics and graphs. This report is only inclusive of requests for products that are covered by the Engineering Direct offer. DCRs raised for other products won't be included.
 
 This page contains:
 
@@ -27,11 +27,11 @@ This page contains:
 3. **Customer Contact** – Who opened the case.
 4. **Request Create Date** – Date the case was opened. The portal will only show cases that have been opened in the last 12 months.
 5. **Escalation Status** – Status of the request. The status types that are shown are:
-6. **Engineering Review** – These items are still being reviewed by Microsoft and no decisions have been made.
-7. **Under consideration** – These items have been added to a list of change that we will consider for upcoming release cycles, but Microsoft has not committed to doing these changes.
-8. **Under development** – These are items that Microsoft has accepted and are being developed. Time may vary depending on how long development takes.
+6. **Engineering Review** – Requests are still being reviewed by Microsoft and no decisions have been made.
+7. **Under consideration** – Requests have been added to a list of change that we'll consider for upcoming release cycles, but Microsoft hasn't committed to doing these changes.
+8. **Under development** – Requests that Microsoft has accepted and are being developed. Time may vary depending on how long development takes.
 9. **Completed** – Requests that Microsoft has completed or closed.
-10. **Rejected** – These items were not accepted.
+10. **Rejected** – Requests weren't accepted.
 11. **Request Closed Date** – Date the case was completed.
 12. **Product** – Product that the request was opened for.
 
@@ -41,4 +41,4 @@ This page contains:
 
 As we roll out new features, your experience might change.
 
-If you would like to get help or have questions, reach out to [edfeedback@microsoft.com](mailto:edfeedback@microsoft.com) or use the feedback mechanism within the Engineering Direct Portal page. If you're encountering any technical issues, open a support ticket via your normal support channel.
+If there's any issues or questions, reach out to [edfeedback@microsoft.com](mailto:edfeedback@microsoft.com) or use the feedback mechanism within the Enhanced Engagements Portal page. If you encounter any technical issues, open a support ticket through Microsoft support.
