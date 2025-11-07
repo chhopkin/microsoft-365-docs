@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 10/22/2025
+ms.date: 11/07/2025
 audience: Admin
 ms.reviewer: dansimp
 ms.topic: article
@@ -13,10 +13,10 @@ ms.service: microsoft-365-enterprise
 ms.localizationpriority: medium
 ms.collection: 
 - m365admin
-description: Enhanced engagements in the Microsoft 365 admin center provides enhanced engineering experience to office engineering direct customers.
+description: Enhanced engagement in the Microsoft 365 admin center provides enhanced engineering experience to office engineering direct customers.
 ---
 
-# Enhanced engagements portal in the Microsoft 365 Admin center
+# Enhanced engagements portal in the Microsoft 365 admin center
 
 The Enhanced Engagements portal within the Microsoft 365 admin center is designed to provide Office Engineering Direct (OED) customers with an enhanced engineering experience. This article provides an overview of the portal's features, how to access it, and its functionality.
 
