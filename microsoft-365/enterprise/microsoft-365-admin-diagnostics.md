@@ -93,7 +93,7 @@ The Validate DKIM Signing Configuration tool is used to:
 
 ### Scenarios for usage
 
-This diagnostic tool is particularly useful in the following scenarios:
+This diagnostic tool is useful in the following scenarios:
 
 - **Initial Setup:** After configuring DKIM for a new domain, use the tool to verify that the setup is complete and correct.
 - **Troubleshooting:** If emails from your domain are being marked as spam or aren't passing DKIM validation, use the tool to diagnose potential configuration issues.
@@ -165,10 +165,10 @@ Follow the following steps to enable and customize Auto Archive settings based o
 ### For Outlook Desktop
 
 1. Launch the Outlook application on your computer.
-1. Click on the **File** tab located in the top left corner of the window.
+1. Select **File** tab located in the top-left corner of the window.
 1. From the menu that appears, select **Options**.
-1. In the Outlook Options window, click on **Advanced** found in the left sidebar.
-1. Under the "AutoArchive" section, click on **AutoArchive Settings**.
+1. In the Outlook Options window, select **Advanced** found in the left sidebar.
+1. Under the "AutoArchive" section, select **AutoArchive Settings**.
 1. Configure AutoArchive:
 
     - Run AutoArchive every X days: Check this box and set the frequency for how often you want Auto Archive to run.
@@ -183,15 +183,15 @@ Follow the following steps to enable and customize Auto Archive settings based o
 
 1. Set Archive Folder: Specify the folder where you want archived items to be stored.
 
-1. After making your selections, click **OK** to save your settings. Click **OK** again to exit the Options window.
+1. After making your selections, select **OK** to save your settings. Select **OK** again to exit the Options window.
 
 ### For Outlook on the Web (OWA)
 
 1. Navigate to your Outlook on the web and sign in with your credentials.
 
-1. Click on the gear icon in the top right corner to open the settings menu.
+1. Select the gear icon in the top-right corner to open the settings menu.
 
-1. At the bottom of the settings panel, click on **View all Outlook settings**.
+1. At the bottom of the settings panel, select **View all Outlook settings**.
 
 1. In the settings window, select **Mail**, then go to **Cleanup**.
 
@@ -201,7 +201,7 @@ Follow the following steps to enable and customize Auto Archive settings based o
 
 ## Remediate a Compromised Account
 
-If you or your user suspects an account has been accessed by someone who shouldn’t have access, it may be compromised. The **Remediate a Compromised Account** diagnostic will help you check different aspects of the affected mailbox and guide you through the steps to recover the account. Please use this diagnostic if you or your user notice any signs that one of your user's accounts may have been compromised.
+If you or your user suspects an account has been accessed by someone who shouldn’t have access, it may be compromised. The **Remediate a Compromised Account** diagnostic will help you check different aspects of the affected mailbox and guide you through the steps to recover the account.Use this diagnostic if you or your user notice any signs that one of your user's accounts may have been compromised.
 
 This diagnostic is split into multiple sections that detail steps to remediate the account. Each step lists the actions required or links to an article that can be explained in more detail. Furthermore, there will be additional account details for each step, such as when the user last reset the password, what MFA is enabled on the account, and which IP addresses have accessed the mailbox.
 
@@ -211,13 +211,13 @@ This diagnostic is split into multiple sections that detail steps to remediate t
 
 ### Steps and Output
 
-1. Force Sign Out - First, it is important to force a user to sign out of all sessions:
+1. Force Sign Out - First, it's important to force a user to sign out of all sessions:
 
     - Go to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/homepage).
 
     - Navigate to _Users > Active users_.
 
-    - Click on the desired user.
+    - Select the desired user.
 
     - On the Account Tab, under _Sign-out_, select _Sign out of all sessions_.
 

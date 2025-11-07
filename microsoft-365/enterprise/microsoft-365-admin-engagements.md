@@ -23,7 +23,7 @@ The Engagements pivot in Enhanced engagements offers a centralized overview of a
 
 ## Engineering Escalations
 
-The Engineering Escalations view under Enhanced Engagements provides visibility into all engineering-level support escalations raised for your tenant. These include cases submitted directly by your organization through the _Escalate to Engineering_ feature, as well as issues elevated by Microsoft Support when advanced troubleshooting is required.
+The Engineering Escalations view under Enhanced Engagements provides visibility into all engineering-level support escalations raised for your tenant. These include cases submitted directly by your organization through the _Escalate to Engineering_ feature, and issues elevated by Microsoft Support when advanced troubleshooting is required.
 This view helps monitor escalation activity, review trends, and gain insights into how issues are distributed across products, severity levels, and sources.
 
 ### Overview of Engineering Escalations
@@ -59,7 +59,7 @@ You can:
 | **Ticket** | The unique escalation identifier.|
 | **Severity** | Indicates the escalation’s priority (for example, _A_, _B_, _C_, or _1_).|
 | **Escalation date** | When the escalation was created.|
-| **Status** | The current state of the escalation (_Open_, _Closed_, _In Progress_).. |
+| **Status** | The current state of the escalation (_Open_, _Closed_, _In Progress_). |
 | **Escalation source** | Identifies whether the escalation originated from your organization or from Microsoft Support.|
 
 > [!TIP]
@@ -144,7 +144,7 @@ The **Active BPAs by Workload** chart provides a quick visual summary of ongoing
 
 ## Customer Advisory Board (CAB)
 
-The Customer Advisory Board offers you a prioritized voice into the evolution of Microsoft 365 through a variety of virtual and in-person engagements with engineering, designed to facilitate roadmap discussions and feedback loops into all in-scope product teams.
+The Customer Advisory Board offers you a prioritized voice into the evolution of Microsoft 365 through various virtual and in-person engagements with engineering, designed to facilitate roadmap discussions and feedback loops into all in-scope product teams.
 
 <image>
 
@@ -157,8 +157,8 @@ The CAB overview section provides quick access to recent and upcoming engagement
 - **Last completed community call** – Displays the most recent virtual community call and provides a feedback link.
 - **Upcoming community call** – Highlights the next scheduled community call.
 
-If a CAB event or call hasn’t been scheduled yet, the corresponding date and details will not be displayed. These fields automatically update once new schedule information becomes available.
-If a CAB event or call hasn’t been scheduled yet, the corresponding date and details will not be displayed. These fields automatically update once new schedule information becomes available.
+If a CAB event or call hasn’t been scheduled yet, the corresponding date and details won't be displayed. These fields automatically update once new schedule information becomes available.
+If a CAB event or call hasn’t been scheduled yet, the corresponding date and details won't be displayed. These fields automatically update once new schedule information becomes available.
 
 > [!NOTE]
 > CAB event and call details are refreshed periodically. When no upcoming events are listed, it means the schedule is still being finalized and will appear once available.
@@ -206,7 +206,7 @@ To submit a post-incident analysis request:
 1. Go to the **Incident Analysis** page and navigate to the Incident Analysis section under **Engagements**.
 2. Select **Create a new request**. A flyout menu will open, showing a list of eligible incidents that can be selected for post-incident analysis.
 3. Select a case. In the flyout menu, choose an incident by selecting the ticket number from the available list.
-4. Review case details after selecting an incident where you will also see additional details related to the ticket. Follow the prompts to complete your analysis request.
+4. Review case details after selecting an incident where you'll also see additional details related to the ticket. Follow the prompts to complete your analysis request.
 5. Submit your request. Once you've reviewed the information, submit your post-incident analysis request.
 
 <image>
@@ -220,7 +220,7 @@ The OIA Overview section provides a snapshot of the current state of your post-i
 
 ### Active OIAs by Workload
 
-This section breaks down your active post-incident analysis request5s by workload type:
+This section breaks down your active post-incident analysis requests by workload type:
 
 - **Exchange**: The number of active analysis requests related to Exchange incidents.
 - **SharePoint**: The number of active analysis requests related to SharePoint incidents.
