@@ -1,4 +1,6 @@
 items:
+- name: Microsoft 365 Copilot Hub
+  href: index.yml
 - name: Plan
   items:
   - name: Overview
