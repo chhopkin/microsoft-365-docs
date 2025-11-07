@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Copilot Agent Framework Overview
+title: Microsoft 365 Copilot Agent Management Essentials
 f1.keywords:
 ms.author: erikre
 author: ErikRe
@@ -13,10 +13,10 @@ ms.localizationpriority: medium
 ms.collection:
 - m365copilot
 - magic-ai-copilot
-description: Learn about Microsoft 365 Copilot agent framework.
+description: Learn about the Microsoft 365 Copilot Agent Management Essentials.
 ---
 
-# Microsoft 365 Copilot Agent Framework Overview
+# Microsoft 365 Copilot Agent Management Essentials overview
 
 Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level, grounded in enterprise security, privacy, and compliance standards. Each aspect of this foundation forms a safer digital ecosystem for you and your organization to confidently adopt AI features and tools.
 
