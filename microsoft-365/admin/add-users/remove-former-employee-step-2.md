@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 11/14/2024
+ms.date: 10/28/2025
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -29,19 +29,22 @@ description: "Once you've blocked a user from being able to log into your organi
 
 # Step 2 - Save the contents of a former employee's mailbox
 
-In this step, place a Litigation Hold or In-place Hold on the user or export their Outlook data to a .pst file.
+In this step, you can place a Litigation Hold or In-place Hold on the user or export their Outlook data to a .pst file.
+
+> [!NOTE]
+> You must have appropriate permissions through a role, such as [Microsoft 365 Backup Administrator](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-backup-administrator) or [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator) to perform the tasks in this article. 
 
 ## Place hold or export user's data to a .pst file
 
 Once you've blocked a user from being able to log into your organization you can save the contents of their mailbox. There are two ways you can save the contents of the former employee's mailbox.
   
-1. Place a Litigation Hold or In-Place Hold on the mailbox before the deleting the user account. This is much more complicated than the second option but worth doing if: your Enterprise plan includes archiving and legal hold, litigation is a possibility, and you have a technically strong IT department.
+1. Place a Litigation Hold or In-Place Hold on the mailbox before the deleting the user account. This is much more complicated than the second option, but is worth doing if: your Enterprise plan includes archiving and legal hold, litigation is a possibility, and you have a technically strong IT department.
 
-    After you convert the mailbox to an "inactive mailbox," administrators, compliance officers, or records managers can use In-Place eDiscovery tools in Exchange Online to access and search the contents.
+   After you convert the mailbox to an "inactive mailbox," administrators, compliance officers, or records managers can use In-Place eDiscovery tools in Exchange Online to access and search the contents.
 
-    Inactive mailboxes can't receive email and aren't displayed in your organization's shared address book or other lists.
+   Inactive mailboxes can't receive email and aren't displayed in your organization's shared address book or other lists.
 
-    To learn how to place a hold on a mailbox, see [Manage inactive mailboxes in Exchange Online](../../compliance/create-and-manage-inactive-mailboxes.md).
+   To learn how to place a hold on a mailbox, see [Manage inactive mailboxes in Exchange Online](../../compliance/create-and-manage-inactive-mailboxes.md).
 
     **OR**
 

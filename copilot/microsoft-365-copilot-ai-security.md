@@ -1,14 +1,14 @@
 ---
 title: Security for Microsoft 365 Copilot
 f1.keywords: NOCSH
-ms.author: georgerozo
+ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 ms.reviewer: georgerozo
-ms.date: 09/04/2025
+ms.date: 11/06/2025
 ms.update-cycle: 180-days
 audience: Admin
-ms.topic: article
+ms.topic: concept-article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.collection: 
@@ -16,6 +16,7 @@ ms.collection:
 - trust-pod
 - magic-ai-copilot
 description: Learn how Microsoft 365 Copilot integrates AI to enhance productivity while maintaining robust security and compliance measures.
+customer-intent: As an administrator or business decision maker, I want to understand the security measures Microsoft has implemented for Microsoft 365 Copilot so that I can ensure my organization's data is protected while leveraging AI capabilities.
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---
@@ -134,7 +135,7 @@ For more information about using Purview with Microsoft 365 Copilot, see [Micros
 
 #### Policy integration and enforcement
 
-Microsoft 365 Copilot is part of Microsoft's enterprise compliance program and benefits from a range of certifications and assessments. These include (but aren't limited to):
+Microsoft 365 Copilot is part of Microsoft's enterprise compliance program and benefits from a range of certifications and assessments. These standards include (but aren't limited to):
 
 - FedRAMP
 - HiTrust
@@ -159,3 +160,8 @@ Microsoft Purview provides tools to help you secure and govern your data for use
 - [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview)
 
 Download and review our scenario-based deployment models, presentations, and guides. These resources describe how to rapidly implement a secure-by-default configuration, address oversharing concerns, and prevent data leak to shadow AI. See [Notes from engineering: Microsoft Purview deployment models](https://aka.ms/PurviewBlueprints).
+
+## See also
+
+- [Frequently asked questions about Copilot Chat](/copilot/faq)
+- [Help for end users: Get started with Microsoft 365 Copilot Chat](https://support.microsoft.com/en-us/topic/get-started-with-microsoft-365-copilot-chat-5b00a52d-7296-48ee-b938-b95b7209f737)

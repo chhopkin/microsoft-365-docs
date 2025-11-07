@@ -2,8 +2,8 @@
 title: "Add a domain to Microsoft 365"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 08/11/2024
 audience: Admin

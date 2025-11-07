@@ -2,13 +2,13 @@
 title: "Step 6: Train your workers and address usage feedback"
 f1.keywords:
 - NOCSH
-author: brendacarter
-ms.author: bcarter
+author: dansimp
+ms.author: dansimp
 manager: dansimp
 ms.date: 05/01/2020
 audience: ITPro
 ms.topic: how-to
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: high
 ms.collection: 
 - highpri

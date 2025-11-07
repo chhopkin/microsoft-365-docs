@@ -7,7 +7,7 @@ ms.reviewer: jasonlewis
 ms.date: 12/13/2023
 audience: ITPro
 ms.topic: article
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.collection:
 - highpri
 - Tier1

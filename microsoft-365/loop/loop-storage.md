@@ -115,7 +115,7 @@ See [Storage](#storage). When content is stored in OneDrive, if that user leaves
 
 - [Summary of Compliance, Lifecycle, Governance](loop-compliance-summary.md)
 - [Requirements](cpcn-loop-requirements.md)
-- [Permissions](cpcn-loop-permission.md)
+- [Permissions](loop-permission.md)
 - [Admin toggles](loop-admin-configuration.md)
 - [UX examples for admin toggle states](loop-ux-examples.md)
 - [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md)
