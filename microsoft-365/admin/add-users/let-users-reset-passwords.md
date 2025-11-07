@@ -68,5 +68,4 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 ## Related content
 
 [Set the password expiration policy for your organization](../manage/set-password-expiration-policy.md) (article)\
-[Set an individual user's password to never expire](set-password-to-never-expire.md) (article)\
 [Microsoft 365 Business training videos](../../business-video/index.yml) (link page)

@@ -2,13 +2,13 @@
 title: "Step 5. Deploy hybrid worker productivity apps and services"
 f1.keywords:
 - NOCSH
-author: brendacarter
-ms.author: bcarter
+author: dansimp
+ms.author: dansimp
 manager: dansimp
 ms.date: 05/01/2020
 audience: ITPro
 ms.topic: how-to
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: high
 ms.collection: 
 - highpri
@@ -34,7 +34,7 @@ To be productive, people need to communicate and collaborate with one another. T
 
 ## Exchange email and manage calendars, contacts, and tasks with Exchange Online and Outlook
 
-With Outlook, hybrid workers can stay connected and organized with email, calendars, contacts, tasks, and more—together in one place. Outlook helps you stay on track and prioritize your day based on what’s relevant to you. Outlook enables you to share attachments right from OneDrive, plan and join Teams meetings, view and share calendars, and provide delegate permissions to others. Knowing what’s coming up next across both work and personal commitments and what needs attention can help hybrid workers focus on what matters. Outlook provides helpful ways for hybrid workers to manage their time and to find what they need easily, including files, people in the organization, and more. 
+With Outlook, hybrid workers can stay connected and organized with email, calendars, contacts, tasks, and more—together in one place. Outlook helps you stay on track and prioritize your day based on what's relevant to you. Outlook enables you to share attachments right from OneDrive, plan and join Teams meetings, view and share calendars, and provide delegate permissions to others. Knowing what's coming up next across both work and personal commitments and what needs attention can help hybrid workers focus on what matters. Outlook provides helpful ways for hybrid workers to manage their time and to find what they need easily, including files, people in the organization, and more. 
 
 See [this article](../security/office-365-security/zero-trust-identity-device-access-policies-exchange.md) for the recommended identity and device access policies to protect organizational email and email clients that support modern authentication and Conditional Access.
 
