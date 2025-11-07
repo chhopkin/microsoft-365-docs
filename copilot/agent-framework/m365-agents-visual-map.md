@@ -18,7 +18,7 @@ description: View the Microsoft 365 Copilot agents governance visual checklist.
 
 # Microsoft 365 Copilot agents governance visual checklist
 
-To help understand the structure and flow of the [Microsoft 365 Copilot Agent Framework checklist](m365-agents-checklist.md), you can view the visual checklist. This mind map provides a graphical representation of the key concepts and actions outlined in the checklist, making it easier to understand relationships between sections and navigate the framework at a glance.
+To help understand the structure and flow of the [Microsoft 365 Copilot Agent Management Essentials checklist](m365-agents-checklist.md), you can view the visual checklist. This mind map provides a graphical representation of the key concepts and actions outlined in the checklist, making it easier to understand relationships between sections and navigate the framework at a glance.
 
 Each branch of the mind map corresponds to a major heading in the checklist, with subbranches breaking down detailed steps, considerations, and best practices. By presenting the content visually, the mind map serves as a quick reference tool for planning, implementing, and validating Copilot agents within your organization.
 
