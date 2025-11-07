@@ -5,7 +5,8 @@ f1.keywords:
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 10/30/2025
+ms.reviewer: kavyamanocha, romill
+ms.date: 10/31/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
@@ -35,9 +36,9 @@ This article covers Prompt Gallery architecture, data flows, security, and priva
 
 :::image type="content" source="media/copilot-prompt-gallery-overview.png" alt-text="Screenshot showing the prompts available to try in Copilot Prompt Gallery." lightbox="media/copilot-prompt-gallery-overview.png":::
 
-Prompt Gallery is a comprehensive catalog of Copilot prompts created by Microsoft that highlights key scenarios and capabilities of Microsoft Copilot, designed to help users become proficient in using Copilot to accomplish their tasks.
+Prompt Gallery is a comprehensive catalog of Copilot prompts that highlights key scenarios and capabilities of Microsoft Copilot, designed to help users become proficient in using Copilot to accomplish their tasks. The Prompt Gallery contains Microsoft-curated prompts (under **Suggested**), as well as prompts created and saved by users (under **Your Prompts**), by organization (under **From Your Organization**), and by team (under **Teams**).
 
-Copilot prompts can also be saved and shared across teams using Prompt Gallery to promote consistency and collaboration. Each prompt within Prompt Gallery includes tips for personalization and extension, allowing users to tailor experiences to organizational needs.
+Copilot prompts can be saved and shared across teams using Prompt Gallery to promote consistency and collaboration. Each prompt within Prompt Gallery includes tips for personalization and extension, allowing users to tailor experiences to organizational needs.
 
 For more information about how your users can use Copilot Prompt Gallery, see [Learn about Copilot prompts](https://support.microsoft.com/topic/f6c3b467-f07c-4db1-ae54-ffac96184dd5) and [Sharing prompts with your team](https://support.microsoft.com/topic/2fa7a228-8645-4dc4-beec-d75d6d0bc752).
 
