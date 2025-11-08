@@ -3,7 +3,7 @@ title: Set up  and manage Opal in Microsoft 365 Copilot
 description: The following instructions help you to set up and manage Opal in Microsoft 365 Copilot.
 f1.keywords:
 - NOCSH
-ms.author: vpattnaik
+ms.author: smbhardwaj
 author: smitib17
 manager: scotvidican
 ms.date: 11/07/2025
