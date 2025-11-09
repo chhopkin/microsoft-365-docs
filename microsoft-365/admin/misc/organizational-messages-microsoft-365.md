@@ -275,7 +275,7 @@ If you or your team would like to work with your tenant’s message performance 
 
 ## Advanced features
 
-Advanced features are experiences in Organizational Messages that are restricted to tenants and users which meet the following requirements:
+Advanced features are experiences in Organizational messages in the Microsoft 365 admin center that are restricted to tenants and users which meet the following requirements:
 
 ### Tenant - accessing advanced features when creating messages
 
