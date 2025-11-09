@@ -275,7 +275,7 @@ If you or your team would like to work with your tenant’s message performance 
 
 ## Advanced features
 
-Starting with general availability, organizational messages also introduce the concept of ‘advanced’ features. These experiences are ones within the Organizational messages Microsoft 365 admin center, which have tenant and end user requirements as follows:
+Advanced features are experiences in Organizational Messages that are restricted to tenants and users which meet the following requirements:
 
 ### Tenant - accessing advanced features when creating messages
 
@@ -295,13 +295,9 @@ End users within a tenant are eligible to receive messages created using advance
 
 ### Current advanced features
 
-For general availability, the advanced features in Organizational messages in Microsoft 365 admin center include:
+The advanced features in Organizational messages in Microsoft 365 admin center include:
 
 1. Fully customized message creation
-
-> [!NOTE]
-> In general availability, message authors whose tenant satisfies advanced feature requirements are able to Edit a templatized message within the message creation flow.
-
 2. Advanced targeting – group level aggregates (Department, Location, Company)
 
 ## Setting tenant policies
