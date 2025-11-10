@@ -21,12 +21,12 @@ description: Learn about the Microsoft 365 Copilot Agent Management Essentials.
 The guidance provided within this set of content has been designed to help you view, manage, create, protect, and understand all aspects of Microsoft 365 Coplot agents.
 
 Key aspects of this content include the following:
-- [Prerequisites](/agent-prerequisites.md) - Understand licensing requirements, admin permissions, and access controls.
-- [Blueprint](/m365-agents-blue-print.md) - Understand how to enable Microsoft 365 Copilot at scale.
-- [Checklist](/m365-agents-checklist.md) - Understand how to successfully implement and deploy Copilot agent governance.
-- [Visual Guide](/m365-agents-visual-map.md) - Follow the guided management paths and links to better understand Copilot agents.
-- [Admin Guide](/m365-agents-admin-guide.md) - Understand where to start when working with Microsoft 365 Copilot agents.
-- [FAQ](/m365-agents-faq.md) - Answers to common questions about Microsoft 365 Copilot agents.
+- [Prerequisites](agent-prerequisites.md) - Understand licensing requirements, admin permissions, and access controls.
+- [Blueprint](m365-agents-blue-print.md) - Understand how to enable Microsoft 365 Copilot at scale.
+- [Checklist](m365-agents-checklist.md) - Understand how to successfully implement and deploy Copilot agent governance.
+- [Visual Guide](m365-agents-visual-map.md) - Follow the guided management paths and links to better understand Copilot agents.
+- [Admin Guide](m365-agents-admin-guide.md) - Understand where to start when working with Microsoft 365 Copilot agents.
+- [FAQ](m365-agents-faq.md) - Answers to common questions about Microsoft 365 Copilot agents.
 
 Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level, grounded in enterprise security, privacy, and compliance standards. Each aspect of this foundation forms a safer digital ecosystem for you and your organization to confidently adopt AI features and tools.
 
