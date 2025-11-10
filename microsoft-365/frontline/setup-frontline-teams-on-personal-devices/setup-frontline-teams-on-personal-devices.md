@@ -19,13 +19,13 @@ ms.date:     10/31/2025
 
 # Overview
 
-The frontline Teams onboarding experience helps your frontline workers set up Teams on their personal device. This onboarding experience is available on the web with intended use on desktop kiosk or shared PC on site. The steps in the wizard will update dynamically based on the security policies defined in your organization. If your policies change over time, the wizard will adapt to those changes.
+The frontline Teams onboarding experience helps frontline workers set up Teams on their personal devices. This onboarding experience is available on the web and is intended for use on a desktop kiosk or shared PC at your work site. The steps in the wizard update dynamically based on the security policies defined in your organization. If your policies change over time, the wizard adapts automatically.
 
 # Scenarios supported
 
-- You want to setup Microsoft Teams on a personal device. Devices supported include Android and iOS.
+- You want to set up Microsoft Teams on a personal device. Supported devices include Android and iOS.
 
-- MFA is enforced to access Teams on a personal device. Note we are optimizing for setup of Authenticator push notifications as the primary MFA method.
+- MFA is required to access Teams on a personal device. The wizard optimizes for setting up Authenticator push notifications as the primary MFA method.
 
 - App protection or configuration policies are enforced to access Teams on a personal device.
 
@@ -33,9 +33,9 @@ The frontline Teams onboarding experience helps your frontline workers set up Te
 
 Make sure you have:
 
-- Your work username and password.
+- Your work username and password
 
-- Access to a desktop kiosk or shared PC.
+- Access to a desktop kiosk or shared PC
 
 - Your mobile phone
 
@@ -57,7 +57,7 @@ Make sure you have:
 
 # Step 2: Download Required Apps
 
-You may need to download additional apps such as Microsoft authenticator and/or company portal based on your company security policies. Below we will cover the different scenarios you may encounter:
+You may need to download additional apps such as Microsoft Authenticator and/or Company Portal based on your organization’s security policies. Below are the scenarios you may encounter:
 
 #### Multifactor authentication (MFA)
 
@@ -83,47 +83,50 @@ You may need to download additional apps such as Microsoft authenticator and/or 
       
 1. You require MFA to access Teams and the web is experience is being access on a device that requires MFA
 
-   1. Follow the screens to setup MFA with the Authenticator app in the wizard
-      
-      ![keep-account-secure](media/setup-frontline-teams-on-personal-devices/keep-account-secure.png)
-      
-      ![install-authenticator](media/setup-frontline-teams-on-personal-devices/install-authenticator.png)
-      
-      ![setup-account-in-app](media/setup-frontline-teams-on-personal-devices/setup-account-in-app.png)
-      
-      ![scan-authenticator-qr-code](media/setup-frontline-teams-on-personal-devices/scan-authenticator-qr-code.png)
-      
-      ![lets-try-it-out](media/setup-frontline-teams-on-personal-devices/lets-try-it-out.png)
-      
-      ![authenticator-added](media/setup-frontline-teams-on-personal-devices/authenticator-added.png)
-      
+   1. Follow the on-screen steps to set up MFA with the Authenticator app in the setup experience.
+   
+            ![keep-account-secure](media/setup-frontline-teams-on-personal-devices/keep-account-secure.png)
+
+            ![install-authenticator](media/setup-frontline-teams-on-personal-devices/install-authenticator.png)
+
+            ![setup-account-in-app](media/setup-frontline-teams-on-personal-devices/setup-account-in-app.png)
+
+            ![scan-authenticator-qr-code](media/setup-frontline-teams-on-personal-devices/scan-authenticator-qr-code.png)
+
+            ![lets-try-it-out](media/setup-frontline-teams-on-personal-devices/lets-try-it-out.png)
+
+            ![authenticator-added](media/setup-frontline-teams-on-personal-devices/authenticator-added.png)
+
 #### App protection policies and/or app configuration policies
 
-1. If your company uses app protection and/or app configuration policies with Microsoft Teams the you might need company portal on your device.  
+1. If your organization uses app protection and/or app configuration policies with Microsoft Teams, you might need the Company Portal app on your device.
 
-   1. If you have an iOS device you will not see this step
+   1. If you have an iOS device, you won’t see this step.
+      
+   1. If you have an Android device, you’ll see a screen to download Company Portal.
    
-   1. If you have an Android device you will see this screen to download company portal
-      
-      ![get-company-portal-app](media/setup-frontline-teams-on-personal-devices/get-company-portal-app.png)
-      
+            ![get-company-portal-app](media/setup-frontline-teams-on-personal-devices/get-company-portal-app.png)
+
 #### Download Microsoft Teams
 
-1. Next you will see the screen to download Microsoft Teams. Scan the QR code with your mobile phone to download Microsoft Teams and sign in. Click done when finished. 
+Next, you’ll see a screen to download Microsoft Teams.
+
+- Scan the QR code with your mobile phone to download Microsoft Teams.
+
+- Sign in and click Done when finished.
 
 ![get-teams-app](media/setup-frontline-teams-on-personal-devices/get-teams-app.png)
 
 # Troubleshooting
 
-- If QR code doesn’t work, manually search for each app on your phone in the app store.
+- If the QR code doesn’t work, manually search for each app in your device’s app store.
 
 # FAQ
 
 Q: Will this feature help me enroll my device in Intune?
 
-A: The scope of this feature will not guide you through device enrollment process. Please follow the steps on your mobile phone.
+A: No. This feature doesn’t guide you through the device enrollment process. Please follow the steps on your mobile phone.
 
-Q: Can I go backwards in the wizard?
+Q: Can I go backward in the setup experience?
 
-A: It's recommended you progress forward in the wizard. You may encounter an error by trying to navigate backwards.
-
+A: It’s recommended to move forward in the setup experience. Navigating backward may cause errors.
