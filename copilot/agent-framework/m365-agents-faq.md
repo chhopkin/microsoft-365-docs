@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 agents FAQ
+title: Microsoft 365 Copilot agents FAQ
 f1.keywords:
 ms.author: erikre
 author: ErikRe
@@ -13,10 +13,10 @@ ms.localizationpriority: medium
 ms.collection:
 - m365copilot
 - magic-ai-copilot
-description: Get answers to frequently asked questions about Microsoft 365 agents governance.
+description: Get answers to frequently asked questions about Microsoft 365 Copilot agents governance.
 ---
 
-# Microsoft 365 agents FAQ
+# Microsoft 365 Copilot agents FAQ
 
 ## Do I need an agent or a connector? How do I get started?
 
