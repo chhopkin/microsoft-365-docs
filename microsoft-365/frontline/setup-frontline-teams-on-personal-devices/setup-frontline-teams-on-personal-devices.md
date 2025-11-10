@@ -10,6 +10,7 @@ ms.author:   aaglick # Microsoft alias
 ms.service: microsoft-365-frontline
 ms.topic: article
 ms.date:     10/31/2025
+manager: viseshag
 ---
 
 # Set up frontline teams on personal devices
