@@ -29,7 +29,7 @@ The frontline Teams onboarding experience helps frontline workers set up Teams o
 
 - App protection or configuration policies are enforced to access Teams on a personal device.
 
-## Before You Begin
+## Before you Begin
 
 Make sure you have:
 
@@ -39,7 +39,7 @@ Make sure you have:
 
 - Your mobile phone
 
-## Step 1: Start Onboarding
+## Step 1: start onboarding
 
 On the desktop kiosk or back-office PC, open a web browser and go to aka.ms/getfrontlineteams
 
@@ -55,7 +55,7 @@ Sign in with your work credentials
 
 Reset your default password if prompted.
 
-## Step 2: Download Required Apps
+## Step 2: download required apps
 
 You may need to download additional apps such as Microsoft Authenticator and/or Company Portal based on your organization’s security policies. Below are the scenarios you may encounter:
 
