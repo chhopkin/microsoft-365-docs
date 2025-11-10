@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: scotv
+manager: dansimp
 ms.reviewer: aasthatiwari, atuldubey
 audience: Admin
 ms.topic: how-to
@@ -13,13 +13,14 @@ ms.subservice: m365-commerce-volume-licensing
 ms.collection:
 - Tier1
 - scotvorg
+- operations-pod
 ms.custom:
 - commerce_vl
 - AdminTemplateSet
 search.appverid: MET150
 ms.localizationpriority: medium
 description: "Learn how to find and get detailed information about your volume licensing contracts in the Microsoft 365 admin center."
-ms.date: 11/10/2025
+ms.date: 05/30/2025
 ---
 
 # View volume licensing contracts in the Microsoft 365 admin center
@@ -33,7 +34,7 @@ If you're a named volume licensing (VL) contact or have a VL role, you can view 
 
 To see the VL **Contracts** page you must meet either of the following requirements:
 
-- If you're not an Enterprise Agreement (EA) or Enterprise subscription (EU) customer, you must be a named contact (sometimes referred to as "legal participant") on the VL agreement at the time of contract creation. If you're an EA or EU customer, you must be a named Notices and Online Administrator Contact (NTC) or an Online Service Manager (OSM) on the VL agreement at the time of contract creation.
+- You're a named contact (sometimes referred to as "legal participant") on the VL agreement at the time of contract creation.
 - You were assigned a VL role in the Microsoft 365 admin center.
 
 > [!IMPORTANT]
