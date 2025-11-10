@@ -18,7 +18,7 @@ ms.custom:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: "Learn how to manage volume licensing user roles in the Microsoft 365 admin center."
-ms.date: 11/10/2025
+ms.date: 11/13/2025
 ---
 
 # Manage volume licensing user roles

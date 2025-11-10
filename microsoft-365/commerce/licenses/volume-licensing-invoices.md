@@ -21,7 +21,7 @@ ms.custom:
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to access your non-Azure volume licensing invoices in the Microsoft 365 admin center."
-ms.date: 11/10/2025
+ms.date: 11/13/2025
 ---
 
 # Microsoft volume licensing invoices

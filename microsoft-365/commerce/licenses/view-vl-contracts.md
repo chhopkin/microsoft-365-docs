@@ -19,7 +19,7 @@ ms.custom:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: "Learn how to find and get detailed information about your volume licensing contracts in the Microsoft 365 admin center."
-ms.date: 11/10/2025
+ms.date: 11/13/2025
 ---
 
 # View volume licensing contracts in the Microsoft 365 admin center

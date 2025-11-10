@@ -18,7 +18,7 @@ ms.custom:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: "Learn how to sign in to the Microsoft 365 admin center for volume licensing products."
-ms.date: 11/10/2025
+ms.date: 11/13/2025
 ---
 
 # Sign in to the Microsoft 365 admin center (volume licensing)  
