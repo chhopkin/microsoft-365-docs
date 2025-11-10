@@ -14,7 +14,7 @@ items:
     - name: Service description
       href: /office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
     - name: Microsoft 365 Copilot Chat FAQ
-      href: https://learn.microsoft.com/copilot/faq/?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+      href: /copilot-pr/copilot/faq/?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
   - name: Licensing
     items:
     - name: Which Copilot is right for me?
