@@ -1,121 +1,164 @@
 items:
-- name: Microsoft 365 Copilot documentation
+- name: Microsoft 365 Copilot Hub
   href: index.yml
-- name: Copilot release notes
-  href: release-notes.md
-- name: Copilot Control System
+- name: Plan
   items:
-  - name: Copilot Control System overview
-    href: copilot-control-system/overview.md
-  - name: Security and governance
-    href: copilot-control-system/security-governance.md
-  - name: Management controls
-    href: copilot-control-system/management-controls.md
-  - name: Measurement and reporting
-    href: copilot-control-system/measurement-reporting.md
-- name: Get started with Microsoft 365 Copilot
-  items:
-  - name: What is Microsoft 365 Copilot?
-    href: microsoft-365-copilot-overview.md
-  - name: Architecture and data protection diagrams
+  - name: Overview
     items:
-    - name: Architecture & how Copilot works
-      href: microsoft-365-copilot-architecture.md
-    - name: Data protection and auditing
-      href: microsoft-365-copilot-architecture-data-protection-auditing.md
-  - name: Which Copilot is right for me?
-    href: which-copilot-for-your-organization.md
-  - name: Get your data ready for Microsoft 365 Copilot
+    - name: What is Microsoft 365 Copilot?
+      href: microsoft-365-copilot-overview.md
+    - name: Microsoft 365 Copilot Chat overview 
+      href: https://learn.microsoft.com/copilot/overview/?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+    - name: Microsoft 365 Copilot app
+      href: microsoft-365-copilot-app-overview.md
+    - name: Service description
+      href: /office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+    - name: Microsoft 365 Copilot Chat FAQ
+      href: https://learn.microsoft.com/copilot/faq/?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+  - name: Licensing
     items:
+    - name: Which Copilot is right for me?
+      href: which-copilot-for-your-organization.md
     - name: License options
       href: microsoft-365-copilot-licensing.md
     - name: E3 and E5 license feature comparison list
       displayName: e3 vs e5
       href: microsoft-365-copilot-license-feature-overview.md
+  - name: Billing
+    items:
+    - name: Pay-as-you-go overview
+      href: pay-as-you-go/overview.md
+    - name: Meters for pay-as-you-go
+      href: pay-as-you-go/meters.md
+  - name: Data, Privacy, and Security
+    items:
+    - name: Overview
+      href: responsible-ai/responsible-ai-overview.md
+    - name: Data, privacy, and security for Microsoft 365 Copilot
+      href: microsoft-365-copilot-privacy.md
+    - name: Data protection and auditing
+      href: microsoft-365-copilot-architecture-data-protection-auditing.md
+    - name: Data, privacy, and security for web search in Microsoft 365 Copilot and Microsoft 365 Copilot Chat
+      href: manage-public-web-access.md
+    - name: Security for Microsoft 365 Copilot
+      href: microsoft-365-copilot-ai-security.md
+    - name: Manage harmful content protection settings for Microsoft 356 Copilot Chat
+      href: harmful-content-protection-copilot-chat.md  
+    - name: Manage generative AI apps for your organization
+      href: manage-generative-ai-apps.md
+    - name: Apply principles of Zero Trust to Microsoft 365 Copilot
+      href: /security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+    - name: Enterprise data protection
+      href: enterprise-data-protection.md
+    - name: Transparency Note
+      href: microsoft-365-copilot-transparency-note.md
+    - name: Privacy and protections
+      href: https://learn.microsoft.com/copilot/privacy-and-protections?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+    - name: Copilot in Edge
+      href: https://learn.microsoft.com/copilot/edge?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+  - name: Implementation Readiness
+    items:
+    - name: Architecture & how Copilot works
+      href: microsoft-365-copilot-architecture.md
+    - name: Microsoft 365 Copilot Admin settings
+      href: microsoft-365-copilot-app-admin-settings.md
+    - name: App and network requirements
+      href: microsoft-365-copilot-requirements.md
+    - name: Copilot Control System overview
+      href: copilot-control-system/overview.md
+    - name: Blueprint to prevent oversharing
+      href: microsoft-365-copilot-blueprint-oversharing.md
+    - name: Multiple account access to Copilot for work and school documents
+      href: multiple-account-access.md
+    - name: Copilot in Microsoft 365 admin centers
+      href: copilot-for-microsoft-365-admin.md
+
+- name: Implement
+  items:
+  - name: Usage Based Billing
+    items:
+    - name: Set up pay-as-you-go
+      href: pay-as-you-go/setup.md
+    - name: Use prepaid capacity packs
+      href: pay-as-you-go/copilot-capacity-packs.md
+  - name: Copilot Control System
+    items:
+    - name: Security and governance
+      href: copilot-control-system/security-governance.md
     - name: E3 implementation guide
       displayName: get started
       href: microsoft-365-copilot-e3-guide.md
     - name: E5 implementation guide
       displayName: get started
       href: microsoft-365-copilot-e5-guide.md
-  - name: Blueprint to prevent oversharing
-    href: microsoft-365-copilot-blueprint-oversharing.md
-  - name: Copilot Library
-    href: copilot-library.md
-- name: Deploy and enable Microsoft 365 Copilot
-  items:
-  - name: Adoption guide and overview
-    href: microsoft-365-copilot-enablement-resources.md
-  - name: Deploy Microsoft 365 Copilot app
-    href: deploy-microsoft-365-copilot-app.md
-  - name: License options
-    href: microsoft-365-copilot-licensing.md
-  - name: App and network requirements
-    href: microsoft-365-copilot-requirements.md
-  - name: Set up Copilot and assign licenses
-    href: microsoft-365-copilot-setup.md
-  - name: Welcome email for users
-    href: microsoft-365-copilot-enable-users.md
-
-- name: Pay-as-you-go for Microsoft 365 Copilot
-  items:
-  - name: Pay-as-you-go overview
-    href: pay-as-you-go/overview.md
-  - name: Set up pay-as-you-go
-    href: pay-as-you-go/setup.md
-  - name: Meters for pay-as-you-go
-    href: pay-as-you-go/meters.md
-  - name: View costs and billing for pay-as-you-go
-    href: pay-as-you-go/view-cost.md
-  - name: Use prepaid capacity packs
-    href: pay-as-you-go/copilot-capacity-packs.md
-- name: Manage Microsoft 365 Copilot
-  items:
-  - name: Manage Microsoft 365 Copilot scenarios
-    href: microsoft-365-copilot-page.md
-  - name: Set up the Microsoft 365 Copilot app
+    - name: Management controls
+      href: copilot-control-system/management-controls.md
+    - name: Measurement and reporting
+      href: copilot-control-system/measurement-reporting.md
+  - name: Enabling Copilot User Experiences
     items:
-    - name: Overview and availability
-      href: microsoft-365-copilot-app-overview.md
-    - name: Admin settings
-      href: microsoft-365-copilot-app-admin-settings.md
+    - name: Deploy Microsoft 365 Copilot app
+      href: deploy-microsoft-365-copilot-app.md
+    - name: Set up Copilot and assign licenses
+      href: microsoft-365-copilot-setup.md
     - name: Set up Organizational Asset Library
       href: enterprise-brand-manager.md
     - name: Set up an organizational asset library in the Microsoft 365 Copilot app
       href: enterprise-brand-manager-policy.md
-  - name: Pin the Copilot app to the Windows taskbar
-    href: pin-copilot-taskbar.md
-  - name: Pin Copilot Chat to the navigation bar
-    href: pin-copilot-chat-navbar.md
-  - name: Copilot in Microsoft 365 admin centers
-    href: copilot-for-microsoft-365-admin.md
-  - name: Connect to Anthropic's AI models
-    href: connect-to-ai-models.md    
-  - name: Multiple account access for work and school documents
-    href: multiple-account-access.md
-  - name: Export prompts from Copilot Prompt Gallery
-    href: copilot-prompt-gallery-export-prompts.md
-  - name: Scheduled prompts
+    - name: Pin the Copilot app to the Windows taskbar
+      href: pin-copilot-taskbar.md
+    - name: Pin Copilot Chat to the navigation bar
+      href: pin-copilot-chat-navbar.md
+
+
+- name: Adopt
+  items:
+  - name: Adoption guide and overview
+    href: microsoft-365-copilot-enablement-resources.md
+  - name: Welcome email for users
+    href: microsoft-365-copilot-enable-users.md
+  - name: Adoption
+    href: https://learn.microsoft.com/copilot/tutorials/learn-microsoft-copilot/01-overview?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+  - name: Technical leaders
+    href: https://learn.microsoft.com/copilot/tutorials/learn-microsoft-copilot/02-copilot-technical-leaders?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+  - name: scenarios
+    href: https://learn.microsoft.com/copilot/tutorials/learn-microsoft-copilot/03-copilot-scenarios?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+  - name: Students
+    href: https://learn.microsoft.com/copilot/tutorials/learn-microsoft-copilot/04-copilot-students?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+
+- name: Manage
+  items:
+  - name: Manage Microsoft 365 Copilot scenarios
+    href: microsoft-365-copilot-page.md
+  - name: Manage Copilot Chat
+    href: https://learn.microsoft.com/copilot/manage?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+  - name: Microsoft 365 Copilot Features
     items:
-    - name: Manage scheduled prompts
-      href: scheduled-prompts.md
-    - name: Microsoft 365 environment for scheduled prompts
-      href: scheduled-prompts-environment.md
-    - name: Inventory scheduled prompts
-      href: scheduled-prompts-inventory.md
-  - name: People Skills
-    items:
-    - name: People Skills overview
-      href: people-skills-overview.md
-    - name: AI inference engine
-      href: people-skills-ai-inferencing.md
-    - name: Setup People Skills
-      href: people-skills-setup.md
-    - name: Privacy and sharing controls
-      href: people-skills-sharing-inferencing-controls.md
-    - name: Manage People Skills library
+    - name: Copilot Prompts
       items:
-      - name: Manage People Skills
+      - name: Manage scheduled prompts
+        href: scheduled-prompts.md
+      - name: Microsoft 365 environment for scheduled prompts
+        href: scheduled-prompts-environment.md
+      - name: Copilot Prompt Gallery
+        href: copilot-prompt-gallery.md
+      - name: Export prompts from Copilot Prompt Gallery
+        href: copilot-prompt-gallery-export-prompts.md
+      - name: Inventory scheduled prompts
+        href: scheduled-prompts-inventory.md
+    - name: People Skills
+      items:
+      - name: People Skills overview
+        href: people-skills-overview.md
+      - name: People skills data and AI guidelines
+        href: people-skills-data-and-ai-guidelines.md
+      - name: AI inference engine
+        href: people-skills-ai-inferencing.md
+      - name: Privacy and sharing controls
+        href: people-skills-sharing-inferencing-controls.md
+      - name: Setup People Skills
+        href: people-skills-setup.md
+      - name: Manage People Skills library
         href: people-skills-manage-skills-library.md
       - name: Manage custom skills
         href: people-skills-manage-custom-skill.md
@@ -123,142 +166,106 @@ items:
         href: people-skills-manage-ai-restricted-skills.md
       - name: People Skills import and export
         href: people-skills-import-export-skills.md
-    - name: People skills data and AI guidelines
-      href: people-skills-data-and-ai-guidelines.md
-- name: Microsoft 365 Copilot Search
-  items:
-  - name: Overview of Microsoft 365 Copilot Search
-    href: microsoft-365-copilot-search.md
-  - name: Manage Microsoft 365 Copilot Search
-    href: microsoft-365-copilot-search-manage.md
-  - name: Microsoft 365 Copilot Search admin experience
-    href: microsoft-365-copilot-search-admin-experience.md
-  - name: Microsoft 365 Copilot Search FAQ
-    href: microsoft-365-copilot-search-faq.yml
-  - name: Connect organizational asset library to Microsoft 365 Copilot Search
-    href: microsoft-365-copilot-search-image-tagging-integration.md    
-- name: Microsoft 365 Copilot in Microsoft Teams
-  items:
-  - name: Overview of AI in Microsoft Teams
-    href: /microsoftteams/copilot-ai-agents-overview?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
-  - name: Set up a Channel Agent in Microsoft Teams
-    href: /microsoftteams/set-up-channel-agent-teams?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
-  - name: Set up Facilitator in Microsoft Teams
-    href: /microsoftteams/facilitator-teams?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
-  - name: Manage Copilot for Microsoft Teams meetings and events
-    href: /microsoftteams/copilot-teams-transcription?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fmicrosoft-365-copilot%2Fbreadcrumb%2Ftoc.json
-  - name: Manage Copilot in Teams calls
-    href: /microsoftteams/copilot-teams-calling-transcription?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fmicrosoft-365-copilot%2Fbreadcrumb%2Ftoc.json
-  - name: Manage Microsoft 365 Copilot for Teams phones
-    href: /microsoftteams/phones/copilot-teams-phones?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fmicrosoft-365-copilot%2Fbreadcrumb%2Ftoc.json
-  - name: Teams Rooms and Copilot overview
-    href: /microsoftteams/rooms/copilot-admin-mtr?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fmicrosoft-365-copilot%2Fbreadcrumb%2Ftoc.json
-  - name: Manage Copilot access for B2B members within multitenant organizations (MTO) in Teams
-    href: /microsoftteams/copilot-mto?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fmicrosoft-365-copilot%2Fbreadcrumb%2Ftoc.json
-- name: Microsoft 365 Copilot in Microsoft Viva
-  items:
-  - name: Introduction to Microsoft 365 Copilot in Viva
-    href: /viva/copilot/viva-copilot-overview?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
-  - name: Manage access to Microsoft 365 Copilot in Viva
-    href: /viva/copilot/copilot-access-management?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
-- name: Microsoft 365 Copilot Researcher agent
-  items:   
-  - name: Overview of Microsoft 365 Researcher agent
-    href: researcher-agent.md
-  - name: Microsoft 365 Copilot Researcher agent FAQ
-    href: faq-researcher.yml
-  - name: Researcher Agent with Computer Use
-    items:
-      - name: Microsoft 365 Copilot Researcher agent with Computer Use
-        href: researcher-agent-computer-use.md
-      - name: Microsoft 365 Copilot Researcher agent with Computer Use FAQ
-        href: researcher-agent-computer-use-faq.yml
-- name: Maximize the value of Microsoft 365 Copilot
-  items:
-  - name: Reports and insights
-    href: microsoft-365-copilot-reports-for-admins.md
-  - name: Copilot Prompt Gallery
-    href: copilot-prompt-gallery.md
-  - name: Service plan diagnostic tool
-    href: microsoft-365-copilot-service-plans.md
-- name: "Trust: Data, Privacy, and Security"
-  items:
-  - name: Data, privacy, and security for Microsoft 365 Copilot
-    href: microsoft-365-copilot-privacy.md
-  - name: Data, privacy, and security for web search in Microsoft 365 Copilot and Microsoft 365 Copilot Chat
-    href: manage-public-web-access.md
-  - name: Security for Microsoft 365 Copilot
-    href: microsoft-365-copilot-ai-security.md
-  - name: Manage harmful content protection settings for Microsoft 356 Copilot Chat
-    href: harmful-content-protection-copilot-chat.md  
-  - name: Manage generative AI apps for your organization
-    href: manage-generative-ai-apps.md
-  - name: Apply principles of Zero Trust to Microsoft 365 Copilot
-    href: /security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
-  - name: Enterprise data protection
-    href: enterprise-data-protection.md
-  - name: Transparency Note
-    href: microsoft-365-copilot-transparency-note.md
-  - name: Workflows agent privacy and data subject request (DSR) FAQ
-    href: flow-builder-privacy-data-subject-request-faq.md
-  - name: App Builder privacy and data subject request (DSR) FAQ
-    href: app-builder-privacy-data-subject-request-faq.md
-- name: Extensibility and building agents
-  items:
-  - name: Extend Microsoft 365 Copilot
-    href: /microsoft-365-copilot/extensibility/?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
-  - name: Install agents in Microsoft 365 Copilot
-    href: copilot-agent-install.md
-  - name: Microsoft 365 Copilot Tuning (preview)
-    items:
-    - name: Overview
-      href: copilot-tuning-overview.md
-    - name: Tuning process
-      href: copilot-tuning-process.md
-    - name: FAQ
-      href: copilot-tuning-faq.yml
-    - name: Admin guide
-      href: copilot-tuning-admin-guide.md
-    - name: Knowledge selection
-      href: copilot-tuning-knowledge-selection.md
-    - name: Fine-tune models
-      href: /microsoft-copilot-studio/microsoft-copilot-fine-tune-model?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
-    - name: Task-specific guides
+    - name: Copilot Search
       items:
-      - name: Document generation
-        href: copilot-tuning-doc-generation.md
-      - name: Expert Q&A
-        href: copilot-tuning-expert-qa.md
-      - name: Summarization
-        href: copilot-tuning-summarization.md
-    - name: Troubleshooting
+      - name: Overview of Microsoft 365 Copilot Search
+        href: microsoft-365-copilot-search.md
+      - name: Microsoft 365 Copilot Search admin experience
+        href: microsoft-365-copilot-search-admin-experience.md
+      - name: Manage Microsoft 365 Copilot Search
+        href: microsoft-365-copilot-search-manage.md
+      - name: Microsoft 365 Copilot Search FAQ
+        href: microsoft-365-copilot-search-faq.yml
+      - name: Connect organizational asset library to Microsoft 365 Copilot Search
+        href: microsoft-365-copilot-search-image-tagging-integration.md
+    - name: Copilot Tuning (preview)
       items:
-      - name: Document generation
-        href: copilot-tuning-troubleshooting-doc-generation.md
-      - name: Expert Q&A
-        href: copilot-tuning-troubleshooting-expert-qa.md
-      - name: Guardrails
-        href: copilot-tuning-troubleshooting-guardrails.md
+      - name: Overview
+        href: copilot-tuning-overview.md
+      - name: Tuning process
+        href: copilot-tuning-process.md
+      - name: FAQ
+        href: copilot-tuning-faq.yml
+      - name: Knowledge selection
+        href: copilot-tuning-knowledge-selection.md
+      - name: Admin guide
+        href: copilot-tuning-admin-guide.md
       - name: Microsoft 365 admin center
         href: copilot-tuning-troubleshooting-mac.md
-- name: Service description and training for Microsoft 365 Copilot
+      - name: Fine-tune models
+        href: /microsoft-copilot-studio/microsoft-copilot-fine-tune-model?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+      - name: Document generation
+        href: copilot-tuning-doc-generation.md
+      - name: Troubleshooting Document generation
+        href: copilot-tuning-troubleshooting-doc-generation.md
+      - name: Expert Q&A
+        href: copilot-tuning-expert-qa.md
+      - name: Troubleshooting Expert Q&A
+        href: copilot-tuning-troubleshooting-expert-qa.md
+      - name: Summarization
+        href: copilot-tuning-summarization.md
+      - name: FAQ for Copilot Tuning
+        href: responsible-ai/copilot-tuning-responsible-ai-faq.md
+      - name: Troubleshooting Guardrails
+        href: copilot-tuning-troubleshooting-guardrails.md
+    - name: Copilot Library
+      items:
+      - name: Overview of Copilot Library
+        href: copilot-library.md
+  - name: Agents and Connectors
+    items:
+    - name: Agents in Copilot Chat
+      href: https://learn.microsoft.com/copilot/agents?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+    - name: Install agents in Microsoft 365 Copilot
+      href: copilot-agent-install.md
+    - name: Manage agents for Copilot
+      href: /microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+    - name: Manage shared agents
+      href: /microsoft-365/admin/manage/manage-shared-agents?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+    - name: Manage pinning of agents
+      href: /microsoft-365/admin/manage/manage-pinning-agents?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+    - name: Manage agent permissions
+      href: /microsoft-365/admin/manage/manage-agents-permissions?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+    - name: Manage embedded knowledge agents
+      href: /microsoft-365/admin/manage/manage-embedded-knowledge-agents?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+    - name: Microsoft Search and Microsoft 365 Copilot connectors
+      href: /microsoftsearch/connectors-overview?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+    - name: App Builder agent
+      items:
+      - name: Overview of App Builder
+        href: responsible-ai/faq-app-builder.md
+      - name: App Builder privacy and data subject request (DSR) FAQ
+        href: app-builder-privacy-data-subject-request-faq.md
+    - name: Workflows agent
+      items:
+      - name: Overview of Workflows
+        href: responsible-ai/flow-builder-responsible-ai-faq.md
+      - name: Workflows privacy and data subject request (DSR) FAQ
+        href: flow-builder-privacy-data-subject-request-faq.md
+    - name: Researcher agent
+      items:   
+      - name: Overview of Researcher agent
+        href: researcher-agent.md
+      - name: Researcher agent FAQ
+        href: faq-researcher.yml
+      - name: Researcher Agent with Computer Use
+        items:
+          - name: Researcher agent with Computer Use
+            href: researcher-agent-computer-use.md
+          - name: Researcher agent with Computer Use FAQ
+            href: researcher-agent-computer-use-faq.yml
+  - name: Service plan diagnostic tool
+    href: microsoft-365-copilot-service-plans.md
+  - name: Reports and insights
+    href: microsoft-365-copilot-reports-for-admins.md
+  - name: View costs and billing for pay-as-you-go
+    href: pay-as-you-go/view-cost.md
+
+- name: Improve
   items:
-  - name: Service description
-    href: /office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
-  - name: Technical training
-    href: /training/paths/prepare-your-organization-microsoft-365-copilot/
-  - name: "Copilot: End user resources"
-    href: https://m365.cloud.microsoft/copilot-prompts
+  - name: Release notes
+    href: release-notes.md
   - name: Submit Copilot feedback to Microsoft
     href: provide-feedback.md
-- name: Responsible AI
-  items:
-  - name: Overview
-    href: responsible-ai/responsible-ai-overview.md
-  - name: FAQ for Copilot Tuning
-    href: responsible-ai/copilot-tuning-responsible-ai-faq.md
-  - name: FAQ for Workflows agent
-    href: responsible-ai/flow-builder-responsible-ai-faq.md
-  - name: FAQ for App Builder
-    href: responsible-ai/faq-app-builder.md
-
+  - name: Connect to Anthropic's AI models
+    href: connect-to-ai-models.md   
