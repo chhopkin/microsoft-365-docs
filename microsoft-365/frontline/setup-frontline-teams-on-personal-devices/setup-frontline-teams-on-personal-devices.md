@@ -17,11 +17,11 @@ ms.date:     10/31/2025
 > [!NOTE]
 > This feature is currently in public preview. For updates, please refer to the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?id=523213). 
 
-# Overview
+## Overview
 
 The frontline Teams onboarding experience helps frontline workers set up Teams on their personal devices. This onboarding experience is available on the web and is intended for use on a desktop kiosk or shared PC at your work site. The steps in the wizard update dynamically based on the security policies defined in your organization. If your policies change over time, the wizard adapts automatically.
 
-# Scenarios supported
+## Scenarios supported
 
 - You want to set up Microsoft Teams on a personal device. Supported devices include Android and iOS.
 
@@ -29,7 +29,7 @@ The frontline Teams onboarding experience helps frontline workers set up Teams o
 
 - App protection or configuration policies are enforced to access Teams on a personal device.
 
-# Before You Begin
+## Before You Begin
 
 Make sure you have:
 
@@ -39,7 +39,7 @@ Make sure you have:
 
 - Your mobile phone
 
-# Step 1: Start Onboarding
+## Step 1: Start Onboarding
 
 On the desktop kiosk or back-office PC, open a web browser and go to aka.ms/getfrontlineteams
 
@@ -55,7 +55,7 @@ Sign in with your work credentials
 
 Reset your default password if prompted.
 
-# Step 2: Download Required Apps
+## Step 2: Download Required Apps
 
 You may need to download additional apps such as Microsoft Authenticator and/or Company Portal based on your organization’s security policies. Below are the scenarios you may encounter:
 
@@ -121,11 +121,11 @@ Next, you’ll see a screen to download Microsoft Teams.
 
 
 
-# Troubleshooting
+## Troubleshooting
 
 - If the QR code doesn’t work, manually search for each app in your device’s app store.
 
-# FAQ
+## FAQ
 
 Q: Will this feature help me enroll my device in Intune?
 
