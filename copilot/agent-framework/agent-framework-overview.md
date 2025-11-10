@@ -4,7 +4,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 10/08/2025
+ms.date: 11/10/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -17,6 +17,16 @@ description: Learn about the Microsoft 365 Copilot Agent Management Essentials.
 ---
 
 # Microsoft 365 Copilot Agent Management Essentials overview
+
+The guidance provided within this set of content has been designed to help you view, manage, create, protect, and understand all aspects of Microsoft 365 Coplot agents.
+
+Key aspects of this content include the following:
+- [Prerequisites](/agent-prerequisites.md) - Understand licensing requirements, admin permissions, and access controls.
+- [Blueprint](/m365-agents-blue-print.md) - Understand how to enable Microsoft 365 Copilot at scale.
+- [Checklist](/m365-agents-checklist.md) - Understand how to successfully implement and deploy Copilot agent governance.
+- [Visual Guide](/m365-agents-visual-map.md) - Follow the guided management paths and links to better understand Copilot agents.
+- [Admin Guide](/m365-agents-admin-guide.md) - Understand where to start when working with Microsoft 365 Copilot agents.
+- [FAQ](/m365-agents-faq.md) - Answers to common questions about Microsoft 365 Copilot agents.
 
 Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level, grounded in enterprise security, privacy, and compliance standards. Each aspect of this foundation forms a safer digital ecosystem for you and your organization to confidently adopt AI features and tools.
 
@@ -49,7 +59,7 @@ To prepare your Microsoft 365 environment for Copilot and Copilot agents, you sh
 6. Secure collaboration with Teams
 7. User permissions to data
 
-For more information about preparing your M365 environment, see [Zero Trust](/security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json#whats-in-this-article).
+For more information about preparing your Microsoft 365 environment, see [Zero Trust](/security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json#whats-in-this-article).
 
 ## RAI
 
@@ -73,9 +83,9 @@ Microsoft 365 Copilot works with different Microsoft services to help you protec
 In addition, Microsoft provides SharePoint Advance Management and Microsoft Purview to address oversharing. SharePoint Advance Management provides SharePoint site management and content governance capabilities. Microsoft Purview provides security, compliance, and governance across data and files.
 
 > [!NOTE]
-> M365 Copilot uses the access rights of the end user to determine the data that can be presented to the end user.  
+> Microsoft 365 Copilot uses the access rights of the end user to determine the data that can be presented to the end user.  
 
-To better understand aspects of data protection related to M365 Copilot, such as sensitivity labels, encryption, oversharing, and data auditing, see the following resources:
+To better understand aspects of data protection related to Microsoft 365 Copilot, such as sensitivity labels, encryption, oversharing, and data auditing, see the following resources:
 - [How data is protected and audited in Microsoft 365 and Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing)
 - [Enterprise data protection in Microsoft 365 Copilot and Microsoft 365 Copilot Chat](/copilot/microsoft-365/enterprise-data-protection)
 - [Considerations to manage Microsoft 365 Copilot and Channel Agent in Teams for security and compliance](/purview/ai-m365-copilot-considerations)
