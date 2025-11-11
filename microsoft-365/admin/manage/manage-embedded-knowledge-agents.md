@@ -5,7 +5,7 @@ description: Learn how to manage agents with embedded file content in the Micros
 ms.author: erikre
 author: erikre
 manager: dansimp
-ms.date: 09/19/2025
+ms.date: 11/10/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article

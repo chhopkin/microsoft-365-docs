@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: smbhardwaj
 author: smritib17
 manager: dansimp
-ms.date: 09/10/2025
+ms.date: 11/10/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
@@ -111,7 +111,7 @@ Pinning agents is a feature that enables administrators to preselect and pin age
 ### Choose the scope of pinning
 
 1. You can choose the scope for the agent that you want to pin.
-  
+
    - **Everyone (All Users):** Pin the agent for all users that the agent is deployed to in the tenant.
    - **Specific Groups or Users:** Pin for one or more groups or individual accounts.
 
