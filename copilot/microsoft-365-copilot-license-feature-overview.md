@@ -101,6 +101,7 @@ For more information, see the following articles:
 For more information, see the following articles:
 
 - [What is Microsoft Security Copilot?](/copilot/security/microsoft-security-copilot)
+- [Security Copilot use cases and roles](/copilot/security/use-case-role-overview)
 
 ## Next step
 
