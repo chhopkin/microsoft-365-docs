@@ -7,7 +7,7 @@ f1.keywords:
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
-ms.date: 10/07/2025
+ms.date: 11/11/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: get-started
@@ -159,3 +159,5 @@ For more information, see the following articles:
 - [Microsoft 365 Copilot adoption guide and overview for IT admins](microsoft-365-copilot-enablement-resources.md)
 
 - [Which Copilot is right for my organization?](which-copilot-for-your-organization.md)
+
+- [Understand Security Copilot in Microsoft 365 E5](https://aka.ms/scpinclusioninfo) 
