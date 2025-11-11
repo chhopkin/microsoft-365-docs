@@ -13,7 +13,7 @@ ms.date:     10/31/2025
 manager: viseshag
 ---
 
-# Set up frontline teams on personal devices
+# Set up frontline Teams on personal devices
 
 > [!NOTE]
 > This feature is currently in public preview. For updates, please refer to the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?id=523213). 
