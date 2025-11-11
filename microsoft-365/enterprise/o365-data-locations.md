@@ -4,7 +4,7 @@ ms.author: v-fahasen
 author: fhasen-msft
 manager: Justin.Giammona
 ms.reviewer: jugiammo
-ms.date: 11/10/2025
+ms.date: 11/11/2025
 audience: ITPro
 ms.topic: article
 ms.service: microsoft-365-enterprise
@@ -38,7 +38,7 @@ Select the link for each of the Microsoft 365 service(s) to understand the curre
 
 - Exchange Online [Data Location](m365-dr-workload-exo.md#how-can-i-determine-customer-data-location)
 - Microsoft 365 Copilot [Data Location](m365-dr-workload-copilot.md#how-can-i-determine-customer-data-location)
-- Microsoft 365 web apps (formerly “Office for the Web”) [Data Location](m365-dr-workload-office-for-web.md#how-can-i-determine-customer-data-location)
+- Microsoft 365 web apps (formerly "Office for the Web") [Data Location](m365-dr-workload-office-for-web.md#how-can-i-determine-customer-data-location)
 - Microsoft Defender for Office (MDO P1) [Data Location](m365-dr-workload-mdo-p1.md#how-can-i-determine-customer-data-location)
 - Microsoft Purview (select services)  [Data Location](m365-dr-workload-purview.md#how-can-i-determine-customer-data-location)
 
