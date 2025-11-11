@@ -4,7 +4,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 10/08/2025
+ms.date: 11/11/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ms.collection:
 - m365copilot
 - magic-ai-copilot
-description: View the Microsoft 365 Copilot agents governance visual guide.
+description: View the Microsoft 365 Copilot agents visual guide.
 ---
 
 # Microsoft 365 Copilot agents visual guide
@@ -22,10 +22,10 @@ To help understand the structure and flow of the [Microsoft 365 Copilot Agent Ma
 
 Each branch of the mind map corresponds to a major heading in the checklist, with subbranches breaking down detailed steps, considerations, and best practices. By presenting the content visually, the mind map serves as a quick reference tool for planning, implementing, and validating Copilot agents within your organization.
 
-An image of the relevant portion of the mind map is included in each section of this article. However, to view the entire mind map and access the related links, download the visual guide PDF file.
+An image of the relevant portion of the mind map is included in each section of this article. However, to view the entire mind map and access the related links, download the Microsoft 365 Copilot agents visual guide PDF.
 
 **Download**:
-[Microsoft 365 Copilot agents visual guide PDF]()
+[Microsoft 365 Copilot agents visual guide PDF](https://aka.ms/AgentVisualGuide)
 
 ## Manage Microsoft 365 Copilot agent access and availability policies
 
@@ -58,3 +58,9 @@ An image of the relevant portion of the mind map is included in each section of 
 ## Manage pay-as-you-go billing and Copilot Capacity Pack
 
 :::image type="content" source="/copilot/microsoft-365/agent-framework/media/m365-agents-visual-map/visual-map-08.png" alt-text="The Copilot agents visual guide - Manage pay-as-you-go billing and Copilot Capacity Pack."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-visual-map/visual-map-08.png":::
+
+## Related content
+
+- [Microsoft 365 Copilot agents visual guide PDF](https://aka.ms/AgentVisualGuide)
+- [M365 Copilot agents deployment blueprint](m365-agents-blue-print.md)
+- [M365 Copilot agents deployment checklist](m365-agents-checklist.md)
