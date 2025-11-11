@@ -528,6 +528,8 @@ No, the organizational messages creation flow will automatically disable authori
 
 - Message analytics are not yet available for Email. They are coming soon during the Public Preview.
 
+- Known Issue: During the Public Preview, Email Images may not render fully in Classic Outlook. Images render normally in "New" Outlook, Web Outlook, Mobile Outlook.
+
 - Action Segments during the Private Preview are limited to the 2 provided segments: Inactive Copilot Users and Inactive Copilot Users in Teams
 
 - Action Segments cannot be used together with Email messages during the Public Preview. Action Segments are currently limited to the existing surfaces of Windows Spotlight, Task Bar, Notification Center, and Teams Popover.
