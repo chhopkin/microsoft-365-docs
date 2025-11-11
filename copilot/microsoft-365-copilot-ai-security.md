@@ -161,6 +161,12 @@ Microsoft Purview provides tools to help you secure and govern your data for use
 
 Download and review our scenario-based deployment models, presentations, and guides. These resources describe how to rapidly implement a secure-by-default configuration, address oversharing concerns, and prevent data leak to shadow AI. See [Notes from engineering: Microsoft Purview deployment models](https://aka.ms/PurviewBlueprints).
 
+## Microsoft Security Copilot and Microsoft 365 E3
+
+It's easier than ever to make agentic AI a part of your daily workflows. And, you can use Microsoft Security Copilot to manage agents. Security Copilot is an AI-powered security solution that provides real-time assistance in threat detection, incident response, and risk assessment. Security Copilot is now included in Microsoft 365 E5. 
+
+For more information, see [Understand Security Copilot in Microsoft 365 E5](https://aka.ms/scpinclusioninfo).
+
 ## See also
 
 - [Frequently asked questions about Copilot Chat](/copilot/faq)
