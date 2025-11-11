@@ -100,6 +100,7 @@ For more information, see the following articles:
 
 For more information, see the following articles:
 
+- [Understand Security Copilot in Microsoft 365 E5](https://aka.ms/scpinclusioninfo)
 - [What is Microsoft Security Copilot?](/copilot/security/microsoft-security-copilot)
 - [Security Copilot use cases and roles](/copilot/security/use-case-role-overview)
 
