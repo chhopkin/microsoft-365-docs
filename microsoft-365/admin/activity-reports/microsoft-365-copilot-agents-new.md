@@ -51,7 +51,7 @@ You can use this report to see the usage of Microsoft 365 Copilot agents in your
 At the top of the report, you can filter by different periods. The agent report can be viewed over the last 7 days, 30 days.
 
 > [!NOTE]
-> The data for declarative agents in Agent usage preview report is available as of August 19, 2025. For SharePoint agents and Custom engine agents, it's available as of November 7, 2025.
+> The data for declarative agents in Agent usage preview report is available as of August 19, 2025. For SharePoint agents and Custom engine agents, it's available as of November 11, 2025.
 
 :::image type="content" source="../../media/agent-filters-and-metrics.png" alt-text="Screenshot showing the active agents metrics for Microsoft 365 Copilot.":::
 
