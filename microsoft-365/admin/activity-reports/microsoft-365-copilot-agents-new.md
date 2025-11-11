@@ -205,7 +205,7 @@ By default, the Username and Display name in the usage report is anonymized. Glo
 
 ### Are SharePoint agents used in Teams included in the usage report?
 
-No. SharePoint agents used in Teams aren't currently included in the usage metrics in the report. For more information, see [Share an agent from SharePoint in Teams - Microsoft Support](https://support.microsoft.com/en-us/office/share-an-agent-from-sharepoint-in-teams-6dcbf7b5-8c13-44e5-a68a-dbd71fb76ad3).
+No. SharePoint agents used in Teams aren't currently included in the usage metrics in the report. For more information, see [Share an agent from SharePoint in Teams - Microsoft Support](https://support.microsoft.com/office/share-an-agent-from-sharepoint-in-teams-6dcbf7b5-8c13-44e5-a68a-dbd71fb76ad3).
 
 ### Why are the Total active users smaller than the sum of unlicensed plus licensed user counts for my organization?
 
