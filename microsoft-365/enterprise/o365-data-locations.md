@@ -32,7 +32,7 @@ This article explains data residency commitments for Microsoft 365 services and 
 > [!NOTE]
 > _Tenants_ in certain _Local Region Geographies_ have access to **[Advanced Data Residency](advanced-data-residency.md)** which provides additional data residency commitments for certain in scope services. These _Local Region Geographies_ are Australia, Austria, Brazil, Canada, Chile, France, Germany, India, Indonesia, Israel, Italy, Japan, Malaysia, Mexico, New Zealand, Norway, Poland, Qatar, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, United Arab Emirates, and United Kingdom.
 
-Select the link for each of the Microsoft 365 service(s) to understand the current data residency and data residency commitments.
+Select the link for each of the Microsoft 365 services to understand the current data residency and data residency commitments.
 
 ## ADR Eligible Microsoft 365 Services:
 
@@ -66,7 +66,7 @@ Select the link for each of the Microsoft 365 service(s) to understand the curre
 - Stream [Data Location](m365-dr-workload-other.md#stream)
 - Viva Engage [Data Location](m365-dr-workload-other.md#viva-engage)
 - Viva Glint [Data Location](m365-dr-workload-other.md#viva-glint)
-- Viva Goals [Data Location](m365-dr-workload-other.md#viva-goals) [Will be retired on 2025-12-31]
+- Viva Goals [Data Location](m365-dr-workload-other.md#viva-goals) [Will be retired on December 31, 2025]
 - Viva Insights – Advanced, Manager, and leader [Data Location](m365-dr-workload-other.md#viva-insights--advanced-mgr-leader)
 - Viva Insights – Personal [Data Location](m365-dr-workload-other.md#viva-insights--personal)
 - Viva Learning [Data Location](m365-dr-workload-other.md#viva-learning)
