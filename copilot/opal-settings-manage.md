@@ -22,6 +22,9 @@ appliesto:
 
 # Get started with Opal in Microsoft 365 Copilot
 
+> [!IMPORTANT]
+> Opal is in preview and subject to change. For more information about the Frontier program, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
+
 Opal is an enterprise automation experience under the Frontier program in Microsoft 365 Copilot. Opal uses advanced Computer-Using Agents (CUA) to automate and simplify routine complex, multi-step tasks that often take up valuable time for enterprise users.
 
 Common use cases include:  
