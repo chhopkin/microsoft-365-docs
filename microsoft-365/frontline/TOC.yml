@@ -30,7 +30,7 @@ items:
       items: 
       - name: Set up Microsoft 365 and related services
         href: flw-setup-microsoft-365.md
-      - name: Set up frontline teams on personal devices
+      - name: Set up frontline Teams on personal devices
         href: flw-setup-frontline-personal-devices.md
       - name: Choosing between dynamic and static frontline teams
         href: frontline-team-options.md
