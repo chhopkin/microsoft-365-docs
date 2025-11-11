@@ -41,7 +41,14 @@ This article gives you information about the Baseline Security Mode settings tha
 
 ## Before you begin
 
-You must be the appropriate admin for the feature area. For more information, see [About admin roles in the Microsoft 365 admin center](../add-users/about-admin-roles.md).
+You must be the appropriate admin for the feature area. For more information, see [Microsoft Entra built-in roles](/entra/identity/role-based-access-control/permissions-reference).
+
+Sign in with a user who is a member of one of the following roles:
+
+- [Office Apps administrator role](/entra/identity/role-based-access-control/permissions-reference)
+- [SharePoint administrator role](/sharepoint/sharepoint-admin-role)
+- [Exchange online administrator role](../add-users/about-exchange-online-admin-role.md)
+- [Teams administrator role](/entra/identity/role-based-access-control/permissions-reference)
 
 ## How to get to Baseline Security Mode settings
 
