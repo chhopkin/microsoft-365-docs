@@ -68,8 +68,6 @@ There are three ways to plan for and deploy the products, features, and componen
 
    Start with the [Networking roadmap](networking-roadmap-microsoft-365.md) to build out or verify your existing infrastructure and productivity workloads.
 
-For an example of how a fictional but representative multinational organization has deployed Microsoft 365 for enterprise, see the [Contoso Corporation case study](contoso-overview.md).
-
 ## Additional Microsoft 365 products
 
 - [Microsoft 365 Business Premium](/microsoft-365/business/)
