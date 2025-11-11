@@ -52,11 +52,11 @@ Opal isn't available by default. Admins with Global Admin or Intune Admin roles 
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center] (/microsoft-365/admin/add-users/about-admin-roles).
 
-1. Navigate to the Microsoft 365 admin center.
+1. Navigate to the [Microsoft 365 admin center](https://admin.microsoft.com).
 
-2. Go to Copilot and then Settings.
+2. Go to **Copilot** and then **Settings**.
 
-3. Locate the user access setting titled Opal (Frontier).
+3. Locate the user access setting titled **Opal (Frontier)**.
 
 4. Select the group of users who should have access to Opal.
 
@@ -64,22 +64,22 @@ After you enable Opal in the Microsoft 365 admin center, more setup is required 
 
 1. **Initial Setup**
 
-  - Complete the initial setup steps by getting your tenant ready for Opal.
-  - This setup process creates a device group, device policy and assigns the policy to your group. These resources can be found in Intune and they apply to the Cloud PCs created by Opal. Don't delete or adjust these resources. **Any changes made to these resources may cause the Opal app to not function as expected or break entirely.**
+    - Complete the initial setup steps by getting your tenant ready for Opal.
+    - This setup process creates a device group, device policy and assigns the policy to your group. These resources can be found in Intune and they apply to the Cloud PCs created by Opal. Don't delete or adjust these resources. **Any changes made to these resources may cause the Opal app to not function as expected or break entirely.**
 
 2. **Cloud PC Setup**
 
-  - Create the group of Cloud PCs needed for Opal. Choose the number of Cloud PCs and the region they should be provisioned in. You can come back to this page at any time to make edits to the group of Cloud PCs.
-  - Manage the website **Allow list** for the Cloud PCs. By default, everything is blocked.
+    - Create the group of Cloud PCs needed for Opal. Choose the number of Cloud PCs and the region they should be provisioned in. You can come back to this page at any time to make edits to the group of Cloud PCs.
+    - Manage the website **Allow list** for the Cloud PCs. By default, everything is blocked.
 
 3. **Custom Instructions**
 
-  - Write instructions for Opal. Opal remembers the instructions for every job in your organization. Include information such as your organization name, preferred websites, and so on.
+    - Write instructions for Opal. Opal remembers the instructions for every job in your organization. Include information such as your organization name, preferred websites, and so on.
 
 4. **Prompt starters**
 
-  - Configure Prompt starters for the Opal home page. Everyone in your organization sees these Prompt starters; they help users understand the types of jobs that Opal can accomplish.
-  - These Prompt starters are tied to the website **Allow list** from step #1.
+    - Configure Prompt starters for the Opal home page. Everyone in your organization sees these Prompt starters; they help users understand the types of jobs that Opal can accomplish.
+    - These Prompt starters are tied to the website **Allow list** from step #1.
 
 ## Accessing Opal
 
