@@ -218,7 +218,7 @@ This option is a direct shortcut to the Security Copilot portal. You don't confi
 
 Security Copilot is now included in Microsoft 365 E5. With Security Copilot, it's easier than ever to make agentic AI a part of your daily workflows.
 
-For more information, see [Microsoft Security Copilot](/copilot/security).
+For more information, see [Understand Security Copilot in Microsoft 365 E5](https://aka.ms/scpinclusioninfo).
 
 ### Pin Microsoft 365 Copilot app to the Windows taskbar
 
