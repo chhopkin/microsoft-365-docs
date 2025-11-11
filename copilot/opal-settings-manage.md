@@ -4,7 +4,7 @@ description: The following instructions help you to set up and manage Opal in Mi
 f1.keywords:
 - NOCSH
 ms.author: smbhardwaj
-author: smitib17
+author: smritib17
 manager: scotvidican
 ms.date: 11/07/2025
 audience: Admin
@@ -35,7 +35,7 @@ Common use cases include:
 
 - Onboarding a new employee onto multiple platforms
 
-Opal helps users' complete jobs with CUA on a secure, Entra-joined, and Intune-enrolled [Windows 365 for Agents Cloud PC](https://learn.microsoft.com/windows-365/overview). The agent operates within a Microsoft Edge browser, and users can supervise the agent to complete the job, intervening when necessary.
+Opal helps users' complete jobs with CUA on a secure, Entra-joined, and Intune-enrolled [Windows 365 for Agents Cloud PC](/windows-365/overview). The agent operates within a Microsoft Edge browser, and users can supervise the agent to complete the job, intervening when necessary.
 
 This article provides guidance for administrators on how to set up and manage Opal.
 
