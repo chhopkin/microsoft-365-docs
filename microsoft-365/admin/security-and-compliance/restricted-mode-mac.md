@@ -1,5 +1,5 @@
 ---
-title: "Baseline Security Mode settings"
+title: "Baseline security mode settings in the Microsoft 365 admin center"
 ms.author: kwekua
 author: kwekuako
 manager: scotv
@@ -13,7 +13,7 @@ description: "Learn about Baseline Security Mode settings that help protect and 
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Baseline Security Mode settings in the Microsoft 365 admin center
+# Baseline security mode settings in the Microsoft 365 admin center
 
 As a Microsoft 365 admin, you want to protect and secure your business environment.
 
@@ -52,7 +52,7 @@ You must be the appropriate admin for the feature area. For more information, se
 
 ### Block out of date file formats
 
-This section outlines the options available within Microsoft 365 Apps to apply Baseline Security Mode settings in the Microsoft 365 admin center.
+This section outlines the options available within Microsoft 365 Apps to apply Baseline security mode settings in the Microsoft 365 admin center.
 
 You must be a member of the [Office Apps administrator role](/entra/identity/role-based-access-control/permissions-reference) to perform these tasks.
 
@@ -73,7 +73,7 @@ You must be a member of the [Office Apps administrator role](/entra/identity/rol
 
 ### Block insecure authentication and custom scripts
 
-This section outlines the options available within OneDrive and SharePoint to turn off Baseline Security Mode settings in the Microsoft 365 admin center.
+This section outlines the options available within OneDrive and SharePoint to turn off Baseline security mode settings in the Microsoft 365 admin center.
 
 You must be a member of the [SharePoint administrator role](/sharepoint/sharepoint-admin-role) to perform these tasks.
 
@@ -120,7 +120,7 @@ Currently, the following features don't work when baseline security mode setting
 
 ### Protect admin and user access
 
-This section outlines the options available within Identity to turn off Baseline Security Mode settings in the Microsoft 365 admin center.
+This section outlines the options available within Identity to turn off Baseline security mode settings in the Microsoft 365 admin center.
 
 |Setting|More information|
 |---|---|
@@ -131,7 +131,7 @@ This section outlines the options available within Identity to turn off Baseline
 
 ### Restrict resource account and room device access
 
-This section outlines the options available within Teams to turn off Baseline Security Mode settings in the Microsoft 365 admin center.
+This section outlines the options available within Teams to turn off Baseline security mode settings in the Microsoft 365 admin center.
 
 You must be a member of the [Teams administrator role](/entra/identity/role-based-access-control/permissions-reference) to perform these tasks.
 
