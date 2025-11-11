@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: kvice
 author: kelleyvice-msft
 manager: scotv
-ms.date: 09/12/2024
+ms.date: 11/11/2025
 audience: ITPro
 ms.topic: overview
 ms.service: microsoft-365-enterprise
@@ -36,7 +36,7 @@ Microsoft 365 for enterprise consists of:
 |---|---|
 |Local apps and cloud-based apps and productivity services|Includes both Microsoft 365 Apps for enterprise, the latest Office apps for your PC and Mac (such as Word, Excel, PowerPoint, Outlook, and others), and a full suite of online services for email, file storage and collaboration, meetings, and more.|
 |Windows 11 Enterprise|Meets the needs of both large and midsize organizations. It's the most productive and secure version of Windows for users. For IT professionals, it also provides comprehensive deployment, device, and app management.|
-|Device management and advanced security services|Includes Microsoft Intune, which is a cloud-based enterprise mobility management service that helps enable your workforce to be productive while protecting your organization data.|
+|Device management and advanced security services|Includes Microsoft Intune, which is a cloud-based enterprise mobility management service that helps enable your workforce to be productive while protecting your organization data. Also includes Microsoft Defender for Endpoint, which provides advanced threat protection and endpoint security. You also get antispam & antimalware protection for your email content. |
 
 ## Plans
 
@@ -48,16 +48,9 @@ Microsoft 365 for enterprise is available in three plans.
 |E5|Access the Microsoft 365 latest products and features. These include Defender for Office 365, security tools, and collaboration tools. This plan includes all E3 capabilities, plus advanced security, voice, and data analysis tools.|
 |F3|Connect with your first-line workers through purpose-built tools and resources that they can use to help them do their best work.|
 
-If you have Microsoft 365 E3, you can also get these add-ons:
+If you have Microsoft 365 E3, you can also get add-ons, such as the Microsoft Defender Suite and the Microsoft Purview Suite to enhance your security and compliance capabilities.
 
-- Identity & Threat Protection
-- Information Protection & Compliance
-- [Microsoft 365 E5 Compliance](https://www.microsoft.com/microsoft-365/business/e5-compliance)
-- Microsoft 365 E5 Insider Risk
-
-Microsoft 365 E3 users can use these add-ons to take advantage of some of the additional features Microsoft 365 E5 includes.
-
-For more information, see [Features and capabilities for each plan](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans).
+For more information, see [Find the best Microsoft 365 plan for your organization](https://www.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-plans-and-pricing#plans).
 
 ## Transition your entire organization
 
@@ -101,7 +94,7 @@ For an example of how a fictional but representative multinational organization 
 
 ## Best together with Surface and the Edge browser
 
-Optimize your user’s integrated and secure productivity with the best-together combination of Microsoft 365 for enterprise, Microsoft Surface devices, and the Microsoft Edge browser. This cross-product integration provides:
+Optimize your user's integrated and secure productivity with the best-together combination of Microsoft 365 for enterprise, Microsoft Surface devices, and the Microsoft Edge browser. This cross-product integration provides:
 
 - A common identity and sign-in security infrastructure.
 - Integrated local and cloud apps for search, collaboration, productivity, and compliance.

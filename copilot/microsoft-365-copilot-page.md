@@ -212,11 +212,11 @@ For more information, see the following articles:
 
 ✅ Shortcut to Microsoft Security Copilot
 
-In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Copilot** > **Settings** > **User access** > **Microsoft Security Copilot**.
+Go to [Security Copilot](https://securitycopilot.microsoft.com/) and sign in. Then select **Get started**.
 
 This option is a direct shortcut to the Security Copilot portal. You don't configure this scenario in the Microsoft 365 admin center.
 
- Security Copilot is now included in Microsoft 365 E5.
+Security Copilot is now included in Microsoft 365 E5. With Security Copilot, it's easier than ever to make agentic AI a part of your daily workflows.
 
 For more information, see [Microsoft Security Copilot](/copilot/security).
 
