@@ -74,7 +74,7 @@ Select the link for each of the Microsoft 365 services to understand the current
 - Whiteboard [Data Location](m365-dr-workload-other.md#whiteboard)
 - Yammer [Data Location](m365-dr-workload-other.md#viva-engage)
 
-For more information on data location for non-Microsoft 365 Services, refer to the following service documentation pages:
+For more information on data location for non-Microsoft 365 Services, see the following service documentation pages:
 
 - [Data Residency in Azure](https://azure.microsoft.com/explore/global-infrastructure/data-residency/?msockid=17b6c7f9a50068231a1fd4dea4ba694a)
 - [Microsoft Dynamics 365 and Power Platform data residency documentation](/dynamics365/get-started/availability)
