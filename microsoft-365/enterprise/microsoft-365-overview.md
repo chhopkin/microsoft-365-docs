@@ -94,4 +94,4 @@ To learn more about Microsoft 365 and work toward a Microsoft 365 certification,
 
 [Microsoft 365 Productivity Library](https://www.microsoft.com/microsoft-365/success/)
 
-[Microsoft Security Copilot](/copilot/security/microsoft-security-copilot) (now included with Microsoft 365 E5)
+[Understand Security Copilot in Microsoft 365 E5](https://aka.ms/scpinclusioninfo)
