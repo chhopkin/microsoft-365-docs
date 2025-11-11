@@ -8,7 +8,7 @@ author: kwekuako
 ms.author: kwekua
 manager: scotv
 ms.reviewer: elvaf
-ms.date: 10/20/2025
+ms.date: 11/11/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
@@ -216,7 +216,7 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Copil
 
 This option is a direct shortcut to the Security Copilot portal. You don't configure this scenario in the Microsoft 365 admin center.
 
-Security Copilot is a separate product and license from Microsoft 365 Copilot. If it's available in your tenant, you can use this link to go to Security Copilot.
+ Security Copilot is now included in Microsoft 365 E5.
 
 For more information, see [Microsoft Security Copilot](/copilot/security).
 
