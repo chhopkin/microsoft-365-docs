@@ -171,6 +171,12 @@
         "exclude": [
         ]
       },
+      "filename-incomplete": {
+        "exclude": [
+          "**/*.md",
+          "**.*.yml"
+        ]
+      },
       "sensitive-language-ma": {
         "exclude": [
         ]
