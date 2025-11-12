@@ -4,7 +4,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 10/08/2025
+ms.date: 11/11/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -33,8 +33,8 @@ This checklist is intended to assist admins with the successful deployment of Co
   
 **Downloadable resources**:
 
-- [Microsoft 365 Copilot agents blueprint](m365-agents-blue-print.md)
-- [Microsoft 365 Copilot agents visual guide](m365-agents-visual-map.md)
+- [Microsoft 365 Copilot agents blueprint](m365-agents-blueprint.md)
+- [Microsoft 365 Copilot agents visual guide](m365-agents-visual-guide.md)
 
 ## Manage Microsoft 365 Copilot agent access and availability policies
 

@@ -62,5 +62,5 @@ An image of the relevant portion of the mind map is included in each section of 
 ## Related content
 
 - [Microsoft 365 Copilot agents visual guide PDF](https://aka.ms/AgentVisualGuide)
-- [M365 Copilot agents deployment blueprint](m365-agents-blue-print.md)
+- [M365 Copilot agents deployment blueprint](m365-agents-blueprint.md)
 - [M365 Copilot agents deployment checklist](m365-agents-checklist.md)

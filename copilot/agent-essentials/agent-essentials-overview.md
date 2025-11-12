@@ -22,9 +22,9 @@ The guidance provided within this set of content has been designed to help you v
 
 Key aspects of this content include the following:
 - [Prerequisites](agent-prerequisites.md) - Understand licensing requirements, admin permissions, and access controls.
-- [Blueprint](m365-agents-blue-print.md) - Understand how to enable Microsoft 365 Copilot at scale.
+- [Blueprint](m365-agents-blueprint.md) - Understand how to enable Microsoft 365 Copilot at scale.
 - [Checklist](m365-agents-checklist.md) - Understand how to successfully implement and deploy Copilot agent governance.
-- [Visual Guide](m365-agents-visual-map.md) - Follow the guided management paths and links to better understand Copilot agents.
+- [Visual Guide](m365-agents-visual-guide.md) - Follow the guided management paths and links to better understand Copilot agents.
 - [Admin Guide](m365-agents-admin-guide.md) - Understand where to start when working with Microsoft 365 Copilot agents.
 - [FAQ](m365-agents-faq.md) - Answers to common questions about Microsoft 365 Copilot agents.
 
