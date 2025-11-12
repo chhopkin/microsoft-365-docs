@@ -20,7 +20,7 @@ ms.collection:
 
 ## Does Copilot personalization and memory require additional licensing?  
 
-No, Copilot memory is available to Copilot Chat users with and without a Microsoft 365 Copilot license. For more information, see [Which Copilot is right for me or my organization?](../copilot/microsoft-365/which-copilot-for-your-organization.md).
+No, Copilot memory is available to Copilot Chat users with and without a Microsoft 365 Copilot license. For more information, see [Which Copilot is right for me or my organization?](/copilot/microsoft-365/which-copilot-for-your-organization).
 
 ## How can tenant administrators manage Copilot memory?
 
@@ -34,7 +34,7 @@ No action is required to turn on Copilot memory; you only need to turn off Copil
 
 Memories, which include saved memories, details inferred from chat history and custom instructions, are stored in the user's Exchange mailbox in a hidden folder. Thus, memories follow the same security and compliance policies as other mailbox data, such as [Customer Lockbox](/purview/customer-lockbox-requests) and [encryption at rest](/purview/encryption).
 
-For more information on Copilot data, privacy and security in Copilot personalization and memory, see [Data, Privacy, and Security for Microsoft 365 Copilot](../copilot/microsoft-365/microsoft-365-copilot-privacy.md).
+For more information on Copilot data, privacy and security in Copilot personalization and memory, see [Data, Privacy, and Security for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-privacy).
 
 ## How long is memory in Microsoft 365 Copilot retained?
 
@@ -58,7 +58,7 @@ Retention policies and retention labels configured in Purview by organization ad
 
 ### How can tenant admins respond to Data Subject Requests related to Copilot memory?
 
-Admins can use eDiscovery and Microsoft Graph Explorer to search, export, and delete users' memory data. For more information, see [Search for and delete AI application data in eDiscovery](/purview/edisc-search-copilot-dataSearch) and search for `<IPM.Contact>`.
+Admins can use eDiscovery and Microsoft Graph Explorer to search, export, and delete users' memory data. For more information, see [Search for and delete AI application data in eDiscovery](/purview/edisc-search-copilot-data) and search for `<IPM.Contact>`.
 
 > [!NOTE]
 > The user's contacts also have item class `<IPM.Contact>`. If you export all items in this item class `<IPM.Contact>` for a user, their Copilot memory is located in the `<'CopilotMemory'>` folder.
