@@ -5,7 +5,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 11/05/2025
+ms.date: 11/12/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -58,6 +58,12 @@ The Employee Self-Service agent starters are tailored to each vertical, such as 
 
 > [!CAUTION]
 > Environments created with the Dataverse Database have the **System Administrator** role. This role has full permission to customize or administer the environment, including creating, modifying, and assigning security roles. This role can view all data in the environment. This built-in role can't be modified.
+
+## Allow the external systems connector within Power Platform
+
+Most enterprise organizations have Data Loss Prevention (DLP) policies setup for maintaining security and compliance within their Power Platform ecosystem. The connectors that need to be used with the Employee Self-Service agent must be allowed within Power Platform for the connector to be available for customization.
+
+Work with your enterprise information security and/or Power Platform administrators to allow list the connectors to be used with the Employee Self-Service agent.
 
 ## Infrastructure setup for external systems integration
 
