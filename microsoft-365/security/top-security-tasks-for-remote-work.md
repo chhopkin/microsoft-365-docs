@@ -2,8 +2,8 @@
 title: "Top 12 tasks for security teams to support working from home"
 f1.keywords:
 - CSH
-ms.author: bcarter
-author: brendacarter
+ms.author: scottfrancis
+author: sfrancis206
 manager: dansimp
 audience: Admin
 ms.topic: tutorial
@@ -15,7 +15,6 @@ ms.collection:
 - m365-security
 - remotework
 - tier2
-- trust-pod
 ms.custom: admindeeplinkDEFENDER
 description: "Protect your business email and data from cyber threats, including ransomware, phishing, and malicious attachments."
 ms.date: 9/18/2023
