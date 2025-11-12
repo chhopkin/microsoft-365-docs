@@ -204,6 +204,38 @@ The publishing process consists of the following steps:
     >
     > Developers can update the existing apps to work with Microsoft 365 Copilot. If an admin preapproves or preinstalls the updated app, it updates for the assigned users and starts working with Copilot. If a developer updates a previously blocked app to work with Microsoft 365 Copilot, and then the admins make the app available to the users, the app also works with Copilot.
 
+### Activate agents
+
+A governance step for new agents: when a user requests an agent to be activated to create instances, it requires IT admin approval before they can create instances. Admins can review the agent's details (Description, owner, data and tools,  etc.) and then approve the request and activate or reject it. On activating, admins can also scope its audience (specific users/groups or everyone), ensuring controlled rollouts.
+
+The Microsoft 365 admin center activation process for agents ensures governance, security, and quality of custom applications.
+
+#### Overview of the activation process
+
+The activation process consists of the following steps:
+
+1. View pending activation request: In the Requests tab, you can view all submitted agents that are pending activation request. This list displays: Agent name, Publisher name, Host products, Status, Date requested. New submissions appear with the status of allow activation.
+
+1. Review submission details: Select a pending agent to view more details and metadata, including Agent description and capabilities, connected data sources and tools. These details help admins make informed decisions about activating or rejecting an agent.
+
+1. Start with the request tab: When ready, select Request tab to open the request wizard.
+
+1. Select users: Choose the users for whom you want to accept and approve of activating the agent. Activating an agent makes it available for the selected audience to install and create instances.
+
+1. Activation Wizard: After you accept the activation request, the wizard opens where you can select users. You can include the original requesters and add security groups that will have access to create instances from the agent.
+
+1. Apply Template: To strengthen governance and security for agents, you can apply a template that includes predefined policies.
+
+    - Default Template: Microsoft provides an inbuilt template with essential security and compliance controls from Entra, Purview, and SharePoint. Default template automatically assigns the Agent 365 license to minimize manual license management.
+
+    - Custom Template: If you need additional governance beyond the default, create a custom template and apply extra policies such as Restrict External Content sharing to meet your organization's requirements.
+
+1. Review permissions and grant admin consent: Review the permissions requested by the agent and grant admin consent if appropriate. Permissions allow the agent to access relevant data or perform actions on behalf of users. To learn more, see Permissions section.
+
+1. Review and complete activation: Review all configurations and select Finish to activate the agent.
+
+Once activated, the agent becomes available for creating instances in the Teams App Store, and the requester is notified. For future user additions, the process is simplified: the admin only needs to approve or reject requests, leveraging existing templates without repeating the full activation steps.
+
 ### Deploy agents
 
 :::image type="content" source="../../media/agents/deploy.png" alt-text="Screenshot showing the configuration screen to deploy an agent." lightbox="../../media/agents/deploy.png":::
@@ -466,6 +498,52 @@ This deletion process is irreversible. Once you delete an agent, it might take u
 >
 > - If you created the agent by using Copilot Studio (lite) or the Microsoft 365 Agents Toolkit, you can delete it from the Microsoft 365 admin center.
 > - If you created the agent from Copilot Studio (full), you can manage and delete it from the Power Platform admin center.
+
+## Managing agent instances in Microsoft 365 admin center
+
+Once an admin activates an agent, requestor can create instances of that agent. The Microsoft 365 admin center provides a centralized view for managing these instances:
+
+- Agent Inventory Page - Navigate to Agents > Agent Inventory to see how many instances have been created from a specific agent.
+
+- Agent Details Flyout - Selecting an agent opens a flyout panel displaying the total count of instances associated with that agent in the Overview tab.
+
+- See Instance Details - Selecting See Details brings up a detailed list of all instances created under that agent. From this screen, admins can:
+
+  - Manage individual instances - Access and update settings for each instance.
+  - Review security and compliance status - Ensure every instance meets organizational standards.
+  - Apply and customize licenses - Assign licenses and configure options at the instance level.
+
+This streamlined experience helps admins maintain control, compliance, and flexibility across all agent instances.
+
+### Block agent instances
+
+You can block or unblock agent instances for the entire organization using the same controls available for any other app in the Microsoft 365 admin center. Blocking an instance stops it and any actions it is performing.
+
+To block or unblock an agent:
+
+1. In the admin center, go to Agents > All Agents.
+1. Select an agent from the list.
+1. A panel will open; under Overview tab you will see Instance availability.
+1. Click See details to see all instances created by that agent. From here, admins can manage individual instances.
+1. Select an instance and choose Block.
+
+To restore functionality, the admin can Unblock the instance at any time.
+
+### Delete agent instances
+
+Admins can delete an instance from the Microsoft 365 admin center when it is no longer needed.
+
+1. In the left navigation pane, select Agents > All agents.
+1. Choose the agent that owns the instance you want to delete.
+1. A panel will open; under Overview tab you will see Instance availability.
+1. Click See details to see all instances created by that agent.
+1. Select the instance you want to delete, then click Delete.
+1. Confirm the deletion when prompted.
+1. Notify the Hiring Manager of Deletion.
+1. Provide access to Instance's OneDrive and Outlook data for 30 days (about 4 and a half weeks).
+1. Remove or reassign Microsoft 365 licenses tied to the instance.
+1. After 30 days, all instance accounts and data are permanently deleted. Audit logs are kept.
+1. Once deleted, the instance will no longer appear in the list.
 
 ### Ownerless shared agent management
 
