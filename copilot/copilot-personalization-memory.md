@@ -44,7 +44,7 @@ If the Enhanced personalization control is turned off at the admin-level, or if 
 
 ### Saved memories
 
-Saved memories are retained until the end-user explicitly **deletes the saved memory in in Settings > Personalization**. Deleting a chat doesn't delete saved memories that were generated from that chat. If the Enhanced personalization control is turned off at the admin-level, or if the Saved memories control is turned off at the end-user level, Copilot is stopped from applying saved memories to the chat, but doesn't remove saved memories. For more information on how to delete saved memories, see **[Manage Copilot memory in Microsoft 365 Copilot](https://support.microsoft.com/topic/b3231eae-9e60-4b3c-ac58-81fddbe56279)** and **[Get started with personalizing what Microsoft 365 Copilot remembers](https://support.microsoft.com/topic/cba7b79a-c46f-4ca7-b46e-2fa22c563f90)**
+Saved memories are retained until the end-user explicitly **deletes the saved memory in Settings > Personalization**. Deleting a chat doesn't delete saved memories that were generated from that chat. If the Enhanced personalization control is turned off at the admin-level, or if the Saved memories control is turned off at the end-user level, Copilot is stopped from applying saved memories to the chat, but doesn't remove saved memories. For more information on how to delete saved memories, see **[Manage Copilot memory in Microsoft 365 Copilot](https://support.microsoft.com/topic/b3231eae-9e60-4b3c-ac58-81fddbe56279)** and **[Get started with personalizing what Microsoft 365 Copilot remembers](https://support.microsoft.com/topic/cba7b79a-c46f-4ca7-b46e-2fa22c563f90)**
 
 ### Chat history
 
@@ -64,7 +64,7 @@ Admins can use eDiscovery and Microsoft Graph Explorer to search, export, and de
 > The user's contacts also have item class `<IPM.Contact>`. If you export all items in this item class `<IPM.Contact>` for a user, their Copilot memory is located in the `<'CopilotMemory'>` folder.
 
 - For Copilot memory, you need to search the item class `<IPM.Contact>`.
-- Saved memories and inferred memories from your chat history are discoverable using eDisovery and Microsoft Graph Explorer.
+- Saved memories and inferred memories from your chat history are discoverable using eDiscovery and Microsoft Graph Explorer.
 - Custom instructions aren't accessible, but can manually be exported by the user through **Settings > Personalization**.
 
 ### Can an admin discover and delete users' memories?
