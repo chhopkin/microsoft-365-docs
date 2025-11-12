@@ -3,7 +3,7 @@ title: "Turn off Personal Bookings page"
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 07/30/2024
+ms.date: 11/12/2025
 audience: Admin
 ms.topic: how-to
 ms.service: bookings
