@@ -34,7 +34,7 @@ This checklist is intended to assist admins with the successful deployment of Co
 **Downloadable resources**:
 
 - [Microsoft 365 Copilot agents blueprint](m365-agents-blueprint.md)
-- [Microsoft 365 Copilot agents visual guide](m365-agents-visual-guide.md)
+- [Microsoft 365 Copilot agents visual guide](m365-agents-guide-map.md)
 
 ## Manage Microsoft 365 Copilot agent access and availability policies
 
