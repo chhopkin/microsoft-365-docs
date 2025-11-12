@@ -65,7 +65,7 @@ Most enterprise organizations secure their HR management systems and knowledge s
 
 When you integrate these enterprise systems into the Employee Self-Service agent, it becomes a more reliable source for providing information to your users. In order to integrate these systems, you need to make them accessible to the Power Platform environment where the Employee Self-Service agent is hosted.
 
-You need to configure these systems with allow lists for the source IP addresses from which the Employee Self-Service agent is hosted and executed, such as the Power Platform environment. See the following documentation for information on retrieving the list of IP address ranges to configure in the network environment:
+You need to configure these systems with allowlists for the source IP addresses from which the Employee Self-Service agent is hosted and executed, such as the Power Platform environment. See the following documentation for information on retrieving the list of IP address ranges to configure in the network environment:
 
 [Learn about overall Power Platform URLs and IP address ranges.](/power-platform/admin/online-requirements).
 
@@ -653,12 +653,12 @@ The following error codes may be returned from the Invoke Workday API flow. By d
 
 - When users encounter "Error code: 400 – Sorry, something went wrong. Please try again or make a new request".
     1. Open Power Automate.
-        1. In **Copilot Studio**, select the elipsis (**...**) in the left navigation bar.
+        1. In **Copilot Studio**, select the ellipsis (**...**) in the left navigation bar.
         1. Select **Power Automate** from the list.
     1. Verify environment alignment.
         1. Make sure the Power Platform environment is the same as the Copilot Studio environment.
     1. Access solutions.
-        1. Select the elipsis (**...**) in the left navigation bar again.
+        1. Select the ellipsis (**...**) in the left navigation bar again.
         1. Select **Solutions**.
         1. Find the **Workday** solution in the list of available solutions.
     1. Open Cloud Flows.
