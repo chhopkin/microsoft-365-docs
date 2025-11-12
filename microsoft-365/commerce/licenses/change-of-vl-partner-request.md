@@ -25,7 +25,7 @@ ms.date: 11/13/2025
 
 As of November 2025, Enterprise volume licensing (VL) customers can initiate a Change of Channel Partner (COCP) request in the Microsoft 365 admin center and Azure portal. This change lets you directly initiate the COCP request process instead of reaching out to Partners.
 
-After you initiate a COCP request, Microsoft sends the partner a notification to accept or decline the request. After the partner accepts the request, you receive a notification of the acceptance and the effective start date for the new partner.
+After you initiate a COCP request, Microsoft sends the partner a notification to accept or decline the request. After the partner accepts the request, you receive a notification of the acceptance and the effective start date for the new partner relationship.
 
 ## Before you begin
 
@@ -48,7 +48,7 @@ To initiate a COCP request, you need the following pieces of information from th
 1. The new partner PCN number.
 2. The email address of the partner Notification Contact.
 
-As the VL Administrator, when you start a COCP request, you're asked to provide the email address of a partner Notification Contact from your new partner organization. This person becomes your main point of contact for future communication about your VL agreement.
+As the VL Administrator, when you start a COCP request, you must provide the email address of a partner Notification Contact from your new partner organization. This person becomes your main point of contact for future communication about your VL agreement.
 
 If you don't have this information, you can enter any email address for the partner Notification Contact to proceed. However, if the email address you provide isn't verified by Microsoft, your new partner can't receive automatic notifications about the COCP request. Contact your new partner directly and let them know that you started the COCP request process.
 
