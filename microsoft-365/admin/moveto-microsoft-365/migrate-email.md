@@ -44,7 +44,7 @@ You can use the batch migration tool in the Exchange admin center to migrate ema
 
 - Keep both environments active.
 - Migrate groups of email users to Microsoft 365 over time.
-- Close your Google Workspace environment when you have completed moving your business.
+- Close your Google Workspace environment when you're done moving your business.
 
 ## Recommendations for migrating from Google Workspace
 
