@@ -645,3 +645,47 @@ The following error codes may be returned from the Invoke Workday API flow. By d
 |executeGenericSOAPFailure |The call to the Workday SOAP API using the generic user authentication failed. |
 |executeContextSOAPFailure |executeContextSOAPFailure.                                                     |
 |extractManagerDataFailure |The call to extract data failed.                                               |
+
+## Troubleshooting guide
+
+- Entra Authentication fails.
+  - Refer to the [Set up SSO for Workday with Entra](#set-up-sso-for-workday-with-entra) section.
+
+- When users encounter "Error code: 400 – Sorry, something went wrong. Please try again or make a new request".
+    1. Open Power Automate.
+        1. In **Copilot Studio**, select the elipsis (**...**) in the left navigation bar.
+        1. Select **Power Automate** from the list.
+    1. Verify environment alignment.
+        1. Make sure the Power Platform environment is the same as the Copilot Studio environment.
+    1. Access solutions.
+        1. Select the elipsis (**...**) in the left navigation bar again.
+        1. Select **Solutions**.
+        1. Find the **Workday** solution in the list of available solutions.
+    1. Open Cloud Flows.
+        1. Within the Workday solution, select **Cloud Flows**.
+    1. Identify the relevant flow.
+        1. If the issue is related to a missing greeting message, select **Workday Get User Context**.
+        1. For all other cases, select **Workday**.
+    1. Review recent runs.
+        1. A list of recent runs appears.
+        1. Select the latest failed run to review the failure details.
+    1. Analyze error details.
+        1. The flow view opens automatically.
+        1. Select the failed action to see detailed error information and determine the cause of the failure.
+
+- Get My Salary/Get my job profile queries are failing.
+  - Verify Workday Connection in ESS Agent following the steps below:
+      1. Go to ESS Agent and select **Settings** on the top right of the screen.
+      1. Go to **Connection Settings**.
+      1. Check the status of the **Workday Connection**.
+      1. For Workday, select **Manage** > **Submit** to confirm the connection is established.
+      1. If the connection isn't established, reestablish it.
+
+> [!NOTE]
+> If queries such as "Get My Salary" or "Get My Job Profile" fail, reestablish the connection.
+
+- Greetings don't appear in the Employee Self-Service agent. You may see <masked-username> in a greeting instead of the appropriate name, as an example.
+  - Verify your RAAS report configuration.
+
+- Queries fail for **What is my hire date/What is my address/What is my contact information**.
+  - Recheck the permissions from [Task 6: Security configuration](#task-6-security-configuration).
