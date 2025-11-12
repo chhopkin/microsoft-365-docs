@@ -48,6 +48,16 @@ To view your volume licenses and access software downloads and VL keys, you must
 > [!NOTE]
 > Users who access both public clouds and GCC High clouds must have a separate ID for the GCC High Microsoft 365 admin center. If you're an EA or EU customer, any user with an Entra ID on a different cloud than the contract loses access to the contract. Users with an Entra ID on the same cloud as the contract continue to have uninterrupted access.
 
+You can only access the VL contracts that are on the same cloud as your Entra ID. If you access VL contracts with Government Community Cloud High (GCC High) or US Department of Defence cloud (DoD) licenses, you must use the Entra ID in those clouds to access VL pages in the Microsoft 365 admin center.
+
+Public and GCC users can’t access VL contracts with GCC High or DoD cloud licenses. Similarly, GCC High or DoD users can’t access VL contracts with public or GCC cloud licenses.
+
+For example, Sarah from Contoso wants to manage VL licenses from both the public cloud and the GCC High cloud across multiple VL contracts. Sarah must have a separate Entra ID for both the public and GCC High clouds to manage VL licenses from each cloud. If she doesn't have an Entra ID for either cloud, then she must contact the respective Entra tenant admins or [Sign up for a new Microsoft Entra ID](#sign-up-for-a-new-microsoft-entra-id).
+
+An Online Administrator of VL contracts from the public cloud can assign roles only to Sarah's public cloud Entra ID, while a GCC High cloud VL admin can assign roles exclusively to GCC High cloud Entra IDs.
+
+To manage public cloud VL Contracts, Sarah must go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">public cloud instance of the Microsoft 365 admin center</a>. To manage GCC High cloud VL Contracts, she must go to the <a href="https://portal.office365.us/adminportal/home"target="_blank">GCC High cloud instance of the Microsoft 365 admin center</a>.
+
 ### If you're registering a volume license agreement for the first time (non-EA and EU customers only)
 
 The first time that you register a VL agreement, use the following steps:
