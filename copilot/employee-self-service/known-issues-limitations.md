@@ -23,7 +23,7 @@ As you consider using the Employee Self-Service (ESS) Agent, we want to provide 
 
 This guide includes:
 
-- Current Platform Constraints: Some features, like multi-vertical/domain support, mobile readiness, and multi-language experiences, are still in progress and will be addressed in future roadmap releases.  
+- Current Platform Constraints: Some features, like mobile readiness and multi-language experiences, are still in-progress and will be addressed in future roadmap releases.
 - Connector Considerations: Third-party integrations require setup effort and technical expertise across stakeholders in your tenant. Details in later sections.
 - Publishing & Deployment Nuances: ESS might not immediately appear in Teams or Copilot after publishing, and extra steps might be needed to make it visible and accessible to users.
 - User Experience Gaps: Customizations like tone configuration, welcome messages ("Hello" topics), and sensitivity label recognition aren't fully supported yet but have guidance or planned support underway.
