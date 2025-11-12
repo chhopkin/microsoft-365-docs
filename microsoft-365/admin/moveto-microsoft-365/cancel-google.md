@@ -38,7 +38,7 @@ Check out all of our small business content on [Small business help & learning](
 1. In the **Subscriptions** list, choose your G Suite subscription, select **More**, select **Cancel subscription**, and on the next page select **Cancel subscription** again to confirm.
 
     > [!IMPORTANT]
-    > your subscription is cancelled immediately and you can't undo this action.
+    > your subscription is canceled immediately and you can't undo this action.
 
     :::image type="content" source="../../media/cancelgoogleworspace.png" alt-text="Screen shot of the Google Admin Billing page.":::
 
