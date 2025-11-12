@@ -29,7 +29,7 @@ This checklist is intended to assist admins with the successful deployment of Co
 
 **Deployment phases**:
 
-  :::image type="content" source="/copilot/microsoft-365/agent-framework/media/m365-agents-checklist/agent-deployment-phases.png" alt-text="Diagram of the Copilot agent deployment phases."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-checklist/agent-deployment-phases.png":::
+  :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-checklist/agent-deployment-phases.png" alt-text="Diagram of the Copilot agent deployment phases."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-checklist/agent-deployment-phases.png":::
   
 **Downloadable resources**:
 

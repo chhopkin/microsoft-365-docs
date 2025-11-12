@@ -95,7 +95,7 @@ To view prebuilt agents in Microsoft 365 Copilot Chat:
 
 In the **Agent Store** you can view the agents available to you. You can view agents built by Microsoft, those built by your organization, as well as those that are popular within your organization.
 
-:::image type="content" source="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-store-explore.png" alt-text="Screenshot of exploring the Agent Store in Microsoft 365 Copilot."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-store-explore.png":::
+:::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-store-explore.png" alt-text="Screenshot of exploring the Agent Store in Microsoft 365 Copilot."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-store-explore.png":::
 
 > [!NOTE]
 > If members of your organization don’t see any options to view agents, and their work or school account has a qualifying Microsoft 365 subscription, there may be no agents that have been deployed to your tenant. Additionally, all or some of the Copilot features may have been turned off, or Copilot might not be available in your market.
@@ -107,7 +107,7 @@ To view prebuilt agents in Microsoft Teams:
 1. Open the Microsoft Teams app and select **Copilot**.
 2. Select **All agents** to view the **Agent Store**.
 
-:::image type="content"  source="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-store-all.png" alt-text="Screenshot of all agents in the Agent Store in Microsoft 365 Copilot."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-store-all.png":::
+:::image type="content"  source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-store-all.png" alt-text="Screenshot of all agents in the Agent Store in Microsoft 365 Copilot."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-store-all.png":::
 
 ## Create agents
 
@@ -237,7 +237,7 @@ To view and confirm agent access settings for your organization:
 
 1. Open Copilot Control System in Microsoft 365 admin center in your browser.
 2. Select **Copilot** > **Settings** > **Data access** > **Agents** to manage your organization’s agents.
-    :::image type="content"  source="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-access.png" alt-text="Screenshot of agent access settings inside the Copilot Control System."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-access.png":::
+    :::image type="content"  source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-access.png" alt-text="Screenshot of agent access settings inside the Copilot Control System."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-access.png":::
 3. Select who can access agents within your organization. You can choose to select **All users**, **No users**, or **Specific users/groups**. If you select users or groups, a list of available users and groups that have been added to your tenant is displayed.
 4. Choose which type of apps and agents are available to members of your tenant. You can choose apps and agents created by Microsoft, external publishers, and your organization. 
 
@@ -315,7 +315,7 @@ Whether an agent can be published to an organizational catalog depends on how th
 
 To publish your agent, you can submit it to the Microsoft Teams Store inside Microsoft Teams. Apps published to the Teams Store are automatically listed on the [Microsoft Commercial Marketplace](https://appsource.microsoft.com/). 
 
-:::image type="content"  source="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-appsource.png" alt-text="Screenshot Microsoft AppSource."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-appsource.png":::
+:::image type="content"  source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-appsource.png" alt-text="Screenshot Microsoft AppSource."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-appsource.png":::
 
 Use the [Microsoft 365 Agents Toolkit](https://aka.ms/M365AgentsToolkit) suite of tools to create your agent. Your agent must meet responsible AI (RAI) principles, provide a valued end user experience, and meet enterprise needs. RAI involves transparency, accountability, reliability, and safety. A valued experience provides an agent that is functionally productive and includes a quality end-user experience. Enterprise needs meets the admin trust bar, as well as an overall goal for productivity and collaboration. 
 
@@ -358,7 +358,7 @@ As an administrator, you can choose to pin a deployed agent to the **Agents** li
 
 Microsoft 365 Copilot includes agents pinned by Microsoft, admins, and users. Microsoft pinned agents are specific agents that are pinned by default for all users. Admin pinned agents are pinned by you or your organization by using the Copilot Control System in Microsoft 365 admin center. User pinned agents are pinned by individual users in their own Microsoft 365 Copilot Chat or Microsoft 365 Copilot experience.
 
-:::image type="content"  source="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-pinned.png" alt-text="Screenshot of agents within M365 Copilot."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-pinned.png":::
+:::image type="content"  source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png" alt-text="Screenshot of agents within M365 Copilot."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png":::
 
 To set, view, or manage pinned agents for your organization, see [Manage Pinning of Agents](/microsoft-365/admin/manage/manage-pinning-agents).
 
@@ -388,7 +388,7 @@ To upload an agent as a ZIP packet file to the Microsoft 365 admin center:
 6. Review the agent’s permissions and capabilities. Then, select **Next**.
 7. Select Finish deployment to review and finish the agent’s deployment.
 
-:::image type="content"  source="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-deploy-new.png" alt-text="Screenshot of deploying a new agent within M365 the Copilot Control System."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-deploy-new.png":::
+:::image type="content"  source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-deploy-new.png" alt-text="Screenshot of deploying a new agent within M365 the Copilot Control System."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-deploy-new.png":::
 
 To manage, assign, and publish the agent, see [Assign and deploy agents](#assign-and-deploy-agents).
 
@@ -430,7 +430,7 @@ To view details about an individual agent:
 2. Select **Copilot** > **Agents**.
     You’ll see the **Agent inventory** tab is selected.
    
-    :::image type="content" source="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-inventory.png" alt-text="Screenshot of your agent inventory in Microsoft 365 admin center."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-inventory.png":::
+    :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-inventory.png" alt-text="Screenshot of your agent inventory in Microsoft 365 admin center."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-inventory.png":::
 
 3. Select an agent from the list.
 4. Review the agent’s details, security, and compliance before to help determine whether an agent should be assigned to or available to users within your organization.
@@ -464,7 +464,7 @@ To view details about an individual agent:
     c. Specific users/groups
 6. Confirm who in your organization can install the agent by selecting **Available to**.
  
-   :::image type="content" source="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-assign-available.png" alt-text="Screenshot of the 'Available to' setting for an agent in Microsoft 365 admin center."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-assign-available.png":::
+   :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-assign-available.png" alt-text="Screenshot of the 'Available to' setting for an agent in Microsoft 365 admin center."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-assign-available.png":::
 
 7. Select **Update**.
 
@@ -494,7 +494,7 @@ Use the following steps to deploy an individual agent:
 9. Review the deployment, then select **Finish deployment**.
 10. When the deployment is complete, select **Done**.
 
-   :::image type="content" source="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-deployment-complete.png" alt-text="Screenshot of a completed agent deployment within Microsoft 365 admin center."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-deployment-complete.png":::
+   :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-deployment-complete.png" alt-text="Screenshot of a completed agent deployment within Microsoft 365 admin center."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-deployment-complete.png":::
 
 ### Remove agents
 

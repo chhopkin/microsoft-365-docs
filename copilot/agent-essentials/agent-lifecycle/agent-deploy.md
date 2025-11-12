@@ -40,7 +40,7 @@ Use the following steps to deploy an individual agent:
 9. Review the deployment, then select **Finish deployment**.
 10. When the deployment is complete, select **Done**.
 
-   :::image type="content" source="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-deployment-complete.png" alt-text="Screenshot of a completed agent deployment within Microsoft 365 admin center."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-deployment-complete.png":::
+   :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-deployment-complete.png" alt-text="Screenshot of a completed agent deployment within Microsoft 365 admin center."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-deployment-complete.png":::
 
 
 

@@ -29,35 +29,35 @@ An image of the relevant portion of the mind map is included in each section of 
 
 ## Manage Microsoft 365 Copilot agent access and availability policies
 
-:::image type="content" source="/copilot/microsoft-365/agent-framework/media/m365-agents-visual-map/visual-map-01.png" alt-text="The Copilot agents visual guide - Manage Microsoft 365 Copilot agent access and availability policies."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-visual-map/visual-map-01.png":::
+:::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-01.png" alt-text="The Copilot agents visual guide - Manage Microsoft 365 Copilot agent access and availability policies."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-01.png":::
 
 ## Choose the right Copilot Studio experience
 
-:::image type="content" source="/copilot/microsoft-365/agent-framework/media/m365-agents-visual-map/visual-map-02.png" alt-text="The Copilot agents visual guide - Choose the right Copilot Studio experience."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-visual-map/visual-map-02.png":::
+:::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-02.png" alt-text="The Copilot agents visual guide - Choose the right Copilot Studio experience."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-02.png":::
 
 ## Create agents in Copilot Studio (lite)
 
-:::image type="content" source="/copilot/microsoft-365/agent-framework/media/m365-agents-visual-map/visual-map-03.png" alt-text="The Copilot agents visual guide - Create agents in Copilot Studio (lite)."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-visual-map/visual-map-03.png":::
+:::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-03.png" alt-text="The Copilot agents visual guide - Create agents in Copilot Studio (lite)."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-03.png":::
 
 ## Understand application lifecycle management with Copilot Studio (full)
 
-:::image type="content" source="/copilot/microsoft-365/agent-framework/media/m365-agents-visual-map/visual-map-04.png" alt-text="The Copilot agents visual guide - Understand application lifecycle management with Copilot Studio (full)."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-visual-map/visual-map-04.png":::
+:::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-04.png" alt-text="The Copilot agents visual guide - Understand application lifecycle management with Copilot Studio (full)."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-04.png":::
 
 ## Create agents in Copilot Studio (full)
 
-:::image type="content" source="/copilot/microsoft-365/agent-framework/media/m365-agents-visual-map/visual-map-05.png" alt-text="The Copilot agents visual guide - Create agents in Copilot Studio (full)."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-visual-map/visual-map-05.png":::
+:::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-05.png" alt-text="The Copilot agents visual guide - Create agents in Copilot Studio (full)."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-05.png":::
 
 ## Manage Microsoft 365 Copilot agent inventory and lifecycle
 
-:::image type="content" source="/copilot/microsoft-365/agent-framework/media/m365-agents-visual-map/visual-map-06.png" alt-text="The Copilot agents visual guide - Manage Microsoft 365 Copilot agent inventory and lifecycle."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-visual-map/visual-map-06.png":::
+:::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-06.png" alt-text="The Copilot agents visual guide - Manage Microsoft 365 Copilot agent inventory and lifecycle."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-06.png":::
 
 ## Manage Data Access - Data security, compliance, and governance
 
-:::image type="content" source="/copilot/microsoft-365/agent-framework/media/m365-agents-visual-map/visual-map-07.png" alt-text="The Copilot agents visual guide - Manage Data Access - Data security, compliance, and governance."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-visual-map/visual-map-07.png":::
+:::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-07.png" alt-text="The Copilot agents visual guide - Manage Data Access - Data security, compliance, and governance."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-07.png":::
 
 ## Manage pay-as-you-go billing and Copilot Capacity Pack
 
-:::image type="content" source="/copilot/microsoft-365/agent-framework/media/m365-agents-visual-map/visual-map-08.png" alt-text="The Copilot agents visual guide - Manage pay-as-you-go billing and Copilot Capacity Pack."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-visual-map/visual-map-08.png":::
+:::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-08.png" alt-text="The Copilot agents visual guide - Manage pay-as-you-go billing and Copilot Capacity Pack."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-08.png":::
 
 ## Related content
 
