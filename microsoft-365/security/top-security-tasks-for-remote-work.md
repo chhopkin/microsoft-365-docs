@@ -2,8 +2,8 @@
 title: "Top 12 tasks for security teams to support working from home"
 f1.keywords:
 - CSH
-ms.author: bcarter
-author: brendacarter
+ms.author: scottfrancis
+author: sfrancis206
 manager: dansimp
 audience: Admin
 ms.topic: tutorial
