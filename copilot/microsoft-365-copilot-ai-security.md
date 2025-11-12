@@ -9,7 +9,7 @@ ms.date: 11/06/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
-ms.service: microsoft-365-copilot
+microsoft-365-security
 ms.localizationpriority: medium
 ms.collection: 
 - m365copilot
