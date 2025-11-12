@@ -346,8 +346,8 @@ The user accounts mentioned in the table under "Expected connection user account
 |Environment variable                     |Description |
 |-----------------------------------------|------------|
 |EmployeeContextRequestAccountName        |To be manually updated. Should contain the account that has access to the RaaS report. |
-|EmployeeContextRequestReportName         |Should be auto-populated with a default value. Contains the name of the report, which defaults to WD User Context. |
-|EmployeeContextRequestReportInstanceName |Should be auto-populated with a default value. Contains the instance name that the report belongs to, which defaults to Report2 |
+|EmployeeContextRequestReportName         |Should be autopopulated with a default value. Contains the name of the report, which defaults to WD User Context. |
+|EmployeeContextRequestReportInstanceName |Should be autopopulated with a default value. Contains the instance name that the report belongs to, which defaults to Report2 |
 
 #### Step 6: Confirm the Workday flows are turned on
 
