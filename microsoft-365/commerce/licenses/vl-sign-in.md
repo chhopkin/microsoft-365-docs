@@ -56,7 +56,7 @@ For example, Sarah from Contoso wants to manage VL licenses from both the public
 
 An Online Administrator of VL contracts from the public cloud can assign roles only to Sarah's public cloud Entra ID, while a GCC High cloud VL admin can assign roles exclusively to GCC High cloud Entra IDs.
 
-To manage public cloud VL Contracts, Sarah must go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">public cloud instance of the Microsoft 365 admin center</a>. To manage GCC High cloud VL Contracts, she must go to the <a href="https://portal.office365.us/adminportal/home"target="_blank">GCC High cloud instance of the Microsoft 365 admin center</a>.
+To manage public cloud VL Contracts, Sarah must go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">public cloud instance of the Microsoft 365 admin center</a>. To manage GCC High cloud VL Contracts, she must go to the <a href="https://portal.office365.us/adminportal/home" target="_blank">GCC High cloud instance of the Microsoft 365 admin center</a>.
 
 ### If you're registering a volume license agreement for the first time (non-EA and EU customers only)
 
