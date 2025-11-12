@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: smbhardwaj
 author: smritib17
 manager: scotvidican
-ms.date: 11/07/2025
+ms.date: 11/12/2025
 audience: Admin
 ms.reviewer: valerieyoung
 ms.topic: overview
@@ -23,7 +23,7 @@ appliesto:
 # Get started with Opal in Microsoft 365 Copilot
 
 > [!IMPORTANT]
-> Opal is in preview and subject to change. For more information about the Frontier program, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
+> Opal is currently only available in the Frontier early access program for eligible Microsoft 365 plans. Frontier includes early access to experimental features, which means features may change as Microsoft improves them. Early Frontier features are initially available in English for U.S.-based subscribers. Availability will expand over time. For more information about the Frontier program, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
 
 Opal is an enterprise automation experience under the Frontier program in Microsoft 365 Copilot. Opal uses advanced Computer-Using Agents (CUA) to automate and simplify routine complex, multi-step tasks that often take up valuable time for enterprise users.
 
@@ -35,7 +35,7 @@ Common use cases include:
 
 - Onboarding a new employee onto multiple platforms
 
-Opal helps users' complete jobs with CUA on a secure, Entra-joined, and Intune-enrolled [Windows 365 for Agents Cloud PC](/windows-365/overview). The agent operates within a Microsoft Edge browser, and users can supervise the agent to complete the job, intervening when necessary.
+Opal helps users complete jobs with CUA on a secure, Entra-joined, and Intune-enrolled [Windows 365 for Agents Cloud PC](/windows-365/overview). The agent operates within a Microsoft Edge browser, and users can supervise the agent to complete the job, intervening when necessary.
 
 This article provides guidance for administrators on how to set up and manage Opal.
 
@@ -50,7 +50,7 @@ This article provides guidance for administrators on how to set up and manage Op
 Opal isn't available by default. Admins with Global Admin or Intune Admin roles need to complete the following steps to enable and configure Opal.  
 
 > [!IMPORTANT]
-> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center] (/microsoft-365/admin/add-users/about-admin-roles).
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center] (../admin/add-users/about-admin-roles.md).
 
 1. Navigate to the [Microsoft 365 admin center](https://admin.microsoft.com).
 
@@ -78,8 +78,8 @@ After you enable Opal in the Microsoft 365 admin center, more setup is required 
 
 4. **Prompt starters**
 
-    - Configure Prompt starters for the Opal home page. Everyone in your organization sees these Prompt starters; they help users understand the types of jobs that Opal can accomplish.
-    - These Prompt starters are tied to the website **Allow list** from step #1.
+    - Configure starters for the Opal home page. Everyone in your organization sees these starters; they help users understand the types of jobs that Opal can accomplish.
+    - These starters are tied to the website **Allow list** from step #1.
 
 ## Accessing Opal
 
@@ -89,6 +89,6 @@ For more information, see the article here: [Get started with Opal in Microsoft 
 
 ## Managing Opal
 
-Admins can use the Opal Admin Portal to manage the Cloud PC Pool, update the website allowlist, and update instructions. Microsoft recommends setting up prompt starters for users in your organization, so they can get started from the Opal home page easily.
+Admins can use the Opal Admin Portal to manage the Cloud PC Pool, update the website allowlist, and update instructions. Microsoft recommends setting up Prompt starters for users in your organization, so they can get started from the Opal home page easily.
 
 

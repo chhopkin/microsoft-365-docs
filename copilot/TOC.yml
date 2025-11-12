@@ -244,7 +244,7 @@ items:
         href: flow-builder-privacy-data-subject-request-faq.md
     - name: Opal (Frontier) in Microsoft 365
       items:   
-      - name: Setting up and managing Opal in Microsoft 365 
+      - name: Setting up and managing Opal 
         href: opal-settings-manage.md
       - name: Opal (Frontier) FAQ
         href: faq-opal.yml    
