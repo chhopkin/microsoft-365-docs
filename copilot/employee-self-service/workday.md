@@ -684,7 +684,7 @@ The following error codes may be returned from the Invoke Workday API flow. By d
 > [!NOTE]
 > If queries such as "Get My Salary" or "Get My Job Profile" fail, reestablish the connection.
 
-- Greetings don't appear in the Employee Self-Service agent. You may see <masked-username> in a greeting instead of the appropriate name, as an example.
+- Greetings don't appear in the Employee Self-Service agent. You may see `<masked-username>` in a greeting instead of the appropriate name, as an example.
   - Verify your RAAS report configuration.
 
 - Queries fail for **What is my hire date/What is my address/What is my contact information**.
