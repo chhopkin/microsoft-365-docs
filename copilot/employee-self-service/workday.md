@@ -674,7 +674,7 @@ The following error codes may be returned from the Invoke Workday API flow. By d
         1. Select the failed action to see detailed error information and determine the cause of the failure.
 
 - Get My Salary/Get my job profile queries are failing.
-  - Verify Workday Connection in ESS Agent following the steps below:
+  - Verify Workday Connection in ESS Agent following these steps:
       1. Go to ESS Agent and select **Settings** on the top right of the screen.
       1. Go to **Connection Settings**.
       1. Check the status of the **Workday Connection**.
