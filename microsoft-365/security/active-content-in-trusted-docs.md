@@ -8,11 +8,10 @@ manager: deniseb
 audience: Admin
 ms.topic: tutorial
 ms.localizationpriority: medium
-ms.service: microsoft-365-security
+microsoft-365-security
 ms.collection:
 - M365-security-compliance
 - tier3
-- trust-pod
 search.appverid:
 - MET150
 ROBOTS: NOINDEX,NOFOLOW
