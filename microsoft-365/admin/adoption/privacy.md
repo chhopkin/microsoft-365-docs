@@ -2,8 +2,8 @@
 title: "Microsoft Adoption Score - Privacy"
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
+author: efrene
+ms.author: efrene
 manager: scotv
 ms.date: 09/18/2020
 audience: Admin
