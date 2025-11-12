@@ -125,3 +125,8 @@ If your COCP request has a status of **In progress**, you can cancel the request
 3. On the **Contracts** page, find the Licensing ID. Select the three dots (**More actions**), then select **Track changes**.
 4. On the **Track changes** page, select the License IDs for which you want to cancel the COCP request, then select **Cancel request**.
 5. In the **Are you sure you would like to cancel this request?** panel, enter a reason for the cancellation, then select **Submit**.
+
+## Related content
+
+[Sign in to the Microsoft 365 admin center (volume licensing)](vl-sign-in.md) (article)<br/>
+[Contact volume licensing support](contact-vl-support.md) (article)
