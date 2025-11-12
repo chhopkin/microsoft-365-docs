@@ -32,9 +32,7 @@ description: "Learn how to migrate email, contacts, and calendar from Google Wor
 # Migrate business email and calendar from Google Workspace
 
 > [!NOTE]
-> The videos and content in this article are meant to give customers a high-level overview of the process of how to use an automated batch migration in the Exchange admin center to migrate your users email, contacts, and calendars from Google Workspace.
->
-> Please refer to the resource links provided in this article for additional detailed information needed to use the batch migration tool successfully.
+> The videos and content in this article are meant to give customers a high-level overview of the process of how to use an automated batch migration in the Exchange admin center to migrate your users email, contacts, and calendars from Google Workspace. Use the links to resources for more detailed information.
 
 ## Overview of the using an automated batch migration to migrate from Google Workspace
 
@@ -45,19 +43,23 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 You can use the batch migration tool in the Exchange admin center to migrate email, contacts, and calendars from Google Workspace to Microsoft 365. With it, you can:
 
 1. Keep both environments active.
+
 1. Migrate groups of email users to Microsoft 365 over time.
+
 1. And then close your Google Workspace environment when you have completed moving your business.
 
-An *automated* batch migration does some of the migration tasks for you, so it is recommended over the *manual* batch migration.
+## Recommendations for migrating from Google Workspace
 
-For more detailed information, see [Perform a Google Workspace migration to Microsoft 365](/exchange/mailbox-migration/perform-g-suite-migration).
+- An *automated* batch migration does some of the migration tasks for you, so it is recommended over the *manual* batch migration. 
 
-> [!NOTE]
-> You can also migrate your email from Google Workspace to Microsoft 365 through an [IMAP migration](/exchange/mailbox-migration/migrating-imap-mailboxes/migrate-g-suite-mailboxes). You should compare methods to determine which is more suitable for migrating your email.
+   For more detailed information, see [Perform a Google Workspace migration to Microsoft 365](/exchange/mailbox-migration/perform-g-suite-migration).
 
-It is recommended that you [get help from Microsoft](/microsoft-365/admin/get-help-support) or from a [partner](https://appsource.microsoft.com/en-us/marketplace/partner-dir) when planning to migrate with either of the above methods.
+   > [!NOTE]
+   > You can also migrate your email from Google Workspace to Microsoft 365 through an [IMAP migration](/exchange/mailbox-migration/migrating-imap-mailboxes/migrate-g-suite-mailboxes). You should compare methods to determine which is more suitable for migrating your email.
 
-If you are a VSB (very small business) where you have a small number of users, you should migrate your email using a different method, such as [importing to Outlook through a PST file](https://support.microsoft.com/office/import-gmail-to-outlook-20fdb8f2-fed8-4b14-baf0-bf04b9c44bf7).
+- It is recommended that you [get help from Microsoft](/microsoft-365/admin/get-help-support) or from a [partner](https://appsource.microsoft.com/en-us/marketplace/partner-dir) when planning to migrate with either of the above methods.
+
+- If you are a VSB (very small business) where you have a small number of users, you should migrate your email using a different method, such as [importing to Outlook through a PST file](https://support.microsoft.com/office/import-gmail-to-outlook-20fdb8f2-fed8-4b14-baf0-bf04b9c44bf7).
 
 ## Prerequisites for automated batch migration from Google Workspace
 
