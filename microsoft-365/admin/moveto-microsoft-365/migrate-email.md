@@ -48,16 +48,14 @@ You can use the batch migration tool in the Exchange admin center to migrate ema
 
 ## Recommendations for migrating from Google Workspace
 
-- An *automated* batch migration does some of the migration tasks for you, so it is recommended over the *manual* batch migration. 
-
-   For more detailed information, see [Perform a Google Workspace migration to Microsoft 365](/exchange/mailbox-migration/perform-g-suite-migration).
+- An *automated* batch migration does some of the migration tasks for you, so it's recommended over the *manual* batch migration. For more detailed information, see [Perform a Google Workspace migration to Microsoft 365](/exchange/mailbox-migration/perform-g-suite-migration).
 
    > [!NOTE]
    > You can also migrate your email from Google Workspace to Microsoft 365 through an [IMAP migration](/exchange/mailbox-migration/migrating-imap-mailboxes/migrate-g-suite-mailboxes). You should compare methods to determine which is more suitable for migrating your email.
 
-- It is recommended that you [get help from Microsoft](/microsoft-365/admin/get-help-support) or from a [partner](https://appsource.microsoft.com/en-us/marketplace/partner-dir) when planning to migrate with either of the above methods.
+- It's recommended that you [get help from Microsoft](/microsoft-365/admin/get-help-support) or from a [partner](https://appsource.microsoft.com/en-us/marketplace/partner-dir) when planning to migrate with either of the above methods.
 
-- If you are a VSB (very small business) where you have a small number of users, you should migrate your email using a different method, such as [importing to Outlook through a PST file](https://support.microsoft.com/office/import-gmail-to-outlook-20fdb8f2-fed8-4b14-baf0-bf04b9c44bf7).
+- If you're a VSB (very small business) where you have a few users, you should migrate your email using a different method, such as [importing to Outlook through a PST file](https://support.microsoft.com/office/import-gmail-to-outlook-20fdb8f2-fed8-4b14-baf0-bf04b9c44bf7).
 
 ## Prerequisites for automated batch migration from Google Workspace
 
@@ -65,13 +63,13 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=76322de7-b15d-4ca4-824d-e6c5d7c59c2c]
 
-To successfully use the automated batch migration tool, it is important to correctly complete all of the prerequisite tasks. For more detailed information, see [Google Workspace migration prerequisites](/exchange/mailbox-migration/google-workspace-migration-prerequisites).
+To successfully use the automated batch migration tool, it's important to correctly complete all of the prerequisite tasks. For more detailed information, see [Google Workspace migration prerequisites](/exchange/mailbox-migration/google-workspace-migration-prerequisites).
 
 These tasks include:
 
-- Creating a subdomain to correctly route email to users who have been migrated to Microsoft 365.
-- Creating a subdomain to correctly route email from users you have migrated to Microsoft 365 back to users in your Google Workspace environment.
-- Adding all mail user accounts to Microsoft 365 for users you are migrating.
+- Creating a subdomain to correctly route email to users who were migrated to Microsoft 365.
+- Creating a subdomain to correctly route email from users you migrated to Microsoft 365 back to users who are in your Google Workspace environment.
+- Adding all mail user accounts to Microsoft 365 for users you're migrating.
 - Verifying that the Google migration admin account has the correct permissions.
 
 > [!NOTE]
