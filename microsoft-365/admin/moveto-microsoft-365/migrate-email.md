@@ -73,11 +73,11 @@ These tasks include:
 - Verifying that the Google migration admin account has the correct permissions.
 
 > [!NOTE]
-> Completing the prerequisite tasks may require you to log into your domain hosts to create subdomains and update your DNS records. If you are not comfortable doing this, you should look for assistance with this.
+> Completing the prerequisite tasks may require you to log into your domain hosts to create subdomains and update your DNS records. If you aren't comfortable doing this, you should look for assistance with this.
 
 ### Create a subdomain for email going to Microsoft 365
 
-1. Return to the **Google Workspace admin** console.
+1. Go to the **Google Workspace admin** console.
 
 2. Select **Add a domain**.
 
@@ -95,7 +95,7 @@ These tasks include:
 
 8. To connect the domain, select **Continue**.
 
-9. Select **Add DNS records**. Depending on your domain host provider, Microsoft 365 will try to update your DNS records for the domain.
+9. Select **Add DNS records**. Depending on your domain host provider, Microsoft 365 tries to update your DNS records for the domain.
 
 10. When complete, select **Done**.
 
@@ -109,18 +109,18 @@ These tasks include:
 
 1. Select **User alias domain**, select **Add domain and start verification**, and then select **Continue**. Follow the instructions to verify domain ownership.
 
-### Provision mail user accounts for users you are migrating
+### Provision mail user accounts for users you're migrating
 
 1. In the Exchange admin center, select **Contacts**, then **Add a mail user**.
 
-1. On the **Set up basic information** page, enter the information about the user you want to migrate, such as Name, display name, etc..  
+1. On the **Set up basic information** page, enter the information about the user you want to migrate, such as Name, display name, etc.  
 
-   - For **External email address** use the domain domain you created for mail routing to Google Workspace (for example, *gsuite.contoso.com*).
-   - For **Domain**, select the primary domain you are using.
+   - For **External email address** use the domain you created for mail routing to Google Workspace (for example, *gsuite.contoso.com*).
+   - For **Domain**, select the primary domain you're using.
 
-1. Select **Next**, and repeat this process for each user you are migrating.
+1. Select **Next**, and repeat this process for each user you're migrating.
 
-### Add proxy email addresses for users you are migrating
+### Add proxy email addresses for users you're migrating
 
 In this procedure, you add a proxy email address for each user for routing email to their Microsoft 365 routing domain.
 
@@ -150,15 +150,15 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=86b7d49a-83dc-43fe-8416-0fc5d1ad6804]
 
-After successfully completing all the prerequisites, you can now use the batch migration tool to migrate your users from Google Workspace to Microsoft 365. Here is a summary of the required steps. For more detailed information, see [Perform an automated Google Workspace migration to Microsoft 365](/exchange/mailbox-migration/automated-migration-neweac). 
+After successfully completing all the prerequisites, you can now use the batch migration tool to migrate your users from Google Workspace to Microsoft 365. Here's a summary of the required steps. For more detailed information, see [Perform an automated Google Workspace migration to Microsoft 365](/exchange/mailbox-migration/automated-migration-neweac). 
 
 1. In the Exchange admin center, select **Migration**.
 
 1. On the **Migration batches** page, select **Add migration batch**.
 
-1. Give the migration batch a unique name, and from the **Select the mailbox migration path** menu, select **Migration to Exchange Online**.  Then select **Next**.
+1. Give the migration batch a unique name, and from the **Select the mailbox migration path** menu, select **Migration to Exchange Online**. Then select **Next**.
 
-1. For the **Migration type**, select **Google Workspace (Gmail) migration**.  Then select **Next**.
+1. For the **Migration type**, select **Google Workspace (Gmail) migration**. Then select **Next**.
 
 1. On the **Prerequisites for Google Workspace migration** page, select **Start**. 
 
@@ -166,7 +166,7 @@ After successfully completing all the prerequisites, you can now use the batch m
 
 1. On the **EAC Migration wants access to your Google Account** page, select **Continue**. 
 
-1. EAC Migration will then do four required tasks in Google Workspace that are needed for migration. 
+1. EAC Migration involves four required tasks in Google Workspace that are needed for migration. 
 
 1. When all four tasks have been complete, take note of the **ClientID** and **Scope** values. Then select **Link**.
 
@@ -180,9 +180,9 @@ After successfully completing all the prerequisites, you can now use the batch m
 
 1. Enter a unique **Migration endpoint name**, and use the default values for **Maximum concurrent migrations** and **Maximum concurrent incremental syncs**, then select **Next**.
 
-1. On the **Gmail migration configuration** page, enter the email address of the Google admin account you are using to perform the migration.
+1. On the **Gmail migration configuration** page, enter the email address of the Google admin account you're using to perform the migration.
 
-1. Select **Import JSON** and then browse to the location where the JSON key file was created and downloaded to your local computer. This was done during the automated tasks configuration part of the migration (step 8) and should be found in your local **Downloads** folder. Select the file, select **Open**, and then **Next**.
+1. Select **Import JSON** and then browse to the location where the JSON key file was created and downloaded to your local computer. The JSON key file was created during the automated tasks configuration part of the migration (step 8) and should be found in your local **Downloads** folder. Select the file, select **Open**, and then **Next**.
 
 1. Create a CSV file with a list of the mailboxes you want to migrate. Make sure the file follows this format: 
 
