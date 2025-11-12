@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: 08/14/2025
 audience: Admin
 ms.topic: concept-article
-ms.service: microsoft-365-business
+ms.service: microsoft-365-security
 ms.localizationpriority: high
 ms.collection:
 - highpri
