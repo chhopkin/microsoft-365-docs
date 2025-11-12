@@ -166,6 +166,12 @@ items:
         href: people-skills-manage-ai-restricted-skills.md
       - name: People Skills import and export
         href: people-skills-import-export-skills.md
+    - name: Opal (Frontier) in Microsoft 365
+      items:   
+      - name: Setting up and managing Opal 
+        href: opal-settings-manage.md
+      - name: Opal (Frontier) FAQ
+        href: faq-opal.yml
     - name: Copilot Search
       items:
       - name: Overview of Microsoft 365 Copilot Search
@@ -241,13 +247,7 @@ items:
       - name: Overview of Workflows
         href: responsible-ai/flow-builder-responsible-ai-faq.md
       - name: Workflows privacy and data subject request (DSR) FAQ
-        href: flow-builder-privacy-data-subject-request-faq.md
-    - name: Opal (Frontier) in Microsoft 365
-      items:   
-      - name: Setting up and managing Opal 
-        href: opal-settings-manage.md
-      - name: Opal (Frontier) FAQ
-        href: faq-opal.yml    
+        href: flow-builder-privacy-data-subject-request-faq.md    
     - name: Researcher agent
       items:   
       - name: Overview of Researcher agent
