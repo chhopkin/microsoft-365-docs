@@ -30,7 +30,7 @@ Preparation is the first step to deploying the Employee Self-Service agent. You 
 
 ## Power Platform environment strategy for the Employee Self-Service agent
 
-The Employee Self-Service agent starters are tailored to each vertical, such as HR or IT, and each starter comes with its own unique set of topics and connectors. While it may be necessary to use separate Power Platform environments for better governance, if you want to link these vertical-specific agent starters to a single, central agent, we advise you keep all the vertical agent starters within one Power Platform environment.
+The Employee Self-Service agent starters are tailored to each vertical, such as HR or IT, and each starter comes with its own unique set of topics and connectors. While it may be necessary to use separate Power Platform environments for better governance, if you want to link these vertical-specific agent starters to a single, central agent, we advise you to keep all the vertical agent starters within one Power Platform environment.
 
 ## Assign the Power Platform administrator role
 
