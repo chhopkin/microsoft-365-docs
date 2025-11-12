@@ -63,7 +63,7 @@ The Employee Self-Service agent starters are tailored to each vertical, such as 
 
 Most enterprise organizations have Data Loss Prevention (DLP) policies setup for maintaining security and compliance within their Power Platform ecosystem. The connectors that need to be used with the Employee Self-Service agent must be allowed within Power Platform for the connector to be available for customization.
 
-Work with your enterprise information security and/or Power Platform administrators to allow list the connectors to be used with the Employee Self-Service agent.
+Work with your enterprise information security and/or Power Platform administrators to allowlist the connectors to be used with the Employee Self-Service agent.
 
 ## Infrastructure setup for external systems integration
 
