@@ -5,7 +5,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 11/05/2025
+ms.date: 11/12/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -54,7 +54,7 @@ Applies to:
 |Third-party Independent Software Vendors |Only supports User Principal Name (UPN) based user mapping for third party integrations |Support for non-UPN based mapping is under evaluation and targeting for post-July 2025 |Work with the third party provider to have UPN based user-mapping for integrations |
 |Third-party Independent Software Vendors |Only supports single sign-on with User Principal Name (UPN) mapping for Microsoft Entra |Support for non-UPN based SSO is under evaluation and targeting for post-July 2025 |Work with the third party provider to have UPN based user-mapping for integrations |
 |Third-party Independent Software Vendors |The Employee Self-Service agent currently provides a limited set of prebuilt starters for both read and write scenarios. Other read/write use cases can be implemented through custom configuration in Copilot Studio, which might involve creating custom topics and integrating with APIs - requiring technical expertise | By design – there are no current plans to expand this set in the product roadmap | Collaborate with your Copilot Studio maker and technical teams to configure and extend the agent to support other read/write scenarios through custom development |
-|Third-Party Identity Providers & Single Sign-on |Third-party identity providers (IdPs) and third-party single sign-on (SSO) aren't currently supported. |We're currently evaluating the feasibility of including this information in a future roadmap. |None currently. |
+|Third-Party Identity Providers and Single Sign-on |Third-party identity providers (IdPs) and single sign-on (SSO) aren't fully evaluated for each of the configuration topologies. |We intend to address each configuration topology as they're reported. |Reach out to Microsoft support by submitting a support case when you encountered issues with third-party IdPs and/or SSO, so the product group can evaluate it. |
 |Publishing |After you publish, it might take up to 48 hours for the Employee Self-Service agent to appear in Microsoft 365 Copilot. |By design - there are no plans to include it in the future roadmap. |To skip the wait, download the manifest in Copilot Studio and upload it manually to Integrated Apps in Microsoft 365 Admin Center. [Step-by-step guide](publish.md#workaround-if-publishing-takes-more-than-48-hours). |
 |Publishing |The agent doesn't automatically appear in Teams or Copilot after publishing. |By design - there are no plans to include it in the future roadmap. |Make sure the app is approved in Integrated Apps and assigned to the correct security group. For detailed instructions, refer to the publishing steps outlined in the deployment documentation. |
 |Publishing |The agent currently functions only in the Copilot chat channel. The Teams app has open issues. |A fix is coming with roadmap updates. |As in Copilot Studio, both the Copilot chat and Teams channel are available as one option. Employee Self-Service agent is published to both channels, but the users use the agent only in Copilot chat and don't deploy the agent in Teams in Copilot Agent publishing options under the Microsoft admin center. |
