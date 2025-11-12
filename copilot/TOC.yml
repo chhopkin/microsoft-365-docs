@@ -213,7 +213,7 @@ items:
       - name: M365 Copilot agents deployment checklist
         href: agent-essentials/m365-agents-checklist.md  
       - name: M365 Copilot agents visual guide
-        href: agent-essentials/m365-agents-guided-map.md 
+        href: agent-essentials/m365-agents-visual-map.md 
       - name: M365 Copilot agents admin guide
         href: agent-essentials/m365-agents-admin-guide.md
       - name: M365 Copilot agents FAQ
