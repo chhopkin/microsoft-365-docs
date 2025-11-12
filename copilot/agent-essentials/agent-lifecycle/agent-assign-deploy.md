@@ -50,7 +50,7 @@ To view details about an individual agent:
 2. Select **Copilot** > **Agents**.
     You’ll see the **Agent inventory** tab is selected.
    
-    :::image type="content" source="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-inventory.png" alt-text="Screenshot of your agent inventory in Microsoft 365 admin center."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-admin-guide/agent-inventory.png":::
+    :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-inventory.png" alt-text="Screenshot of your agent inventory in Microsoft 365 admin center."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-inventory.png":::
 
 3. Select an agent from the list.
 4. Review the agent’s details, security, and compliance before to help determine whether an agent should be assigned to or available to users within your organization.

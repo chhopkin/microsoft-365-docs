@@ -42,13 +42,13 @@ The blueprint provides these phases for each of the following areas:
 - Management controls
 - Measurement and reporting
 
-:::image type="content" source="/copilot/microsoft-365/agent-framework/media/m365-agents-blue-print/m365-agents-blue-print.png" alt-text="Diagram that shows the agent deployment blueprint for Microsoft 365 Copilot." lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-blue-print/m365-agents-blue-print.png":::
+:::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-blue-print/m365-agents-blue-print.png" alt-text="Diagram that shows the agent deployment blueprint for Microsoft 365 Copilot." lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-blue-print/m365-agents-blue-print.png":::
 
 ## Download the blueprint and documentation
 
 | Deployment model | Description |
 |---|---|
-| [![Enable agents in Microsoft 365 Copilot](/copilot/microsoft-365/agent-framework/media/m365-agents-blue-print/m365-agents-blue-print.png)](https://aka.ms/Copilot/OversharingBlueprintPDF) | Use this deployment model to assist organizations with agent security, governance, management controls, measurement, and reporting. <br/><br/>**This model includes**<br/><ul><li>Blueprint with high level activities and presentation [PDF](https://aka.ms/AgentsDeployBlueprintPDF) \| [PowerPoint](https://aka.ms/AgentsDeployBlueprintPPT)</li></ul> |
+| [![Enable agents in Microsoft 365 Copilot](/copilot/microsoft-365/agent-essentials/media/m365-agents-blue-print/m365-agents-blue-print.png)](https://aka.ms/Copilot/OversharingBlueprintPDF) | Use this deployment model to assist organizations with agent security, governance, management controls, measurement, and reporting. <br/><br/>**This model includes**<br/><ul><li>Blueprint with high level activities and presentation [PDF](https://aka.ms/AgentsDeployBlueprintPDF) \| [PowerPoint](https://aka.ms/AgentsDeployBlueprintPPT)</li></ul> |
 
 ### Documentation resources
 

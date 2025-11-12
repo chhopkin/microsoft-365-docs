@@ -4,7 +4,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 10/08/2025
+ms.date: 11/11/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -29,11 +29,11 @@ This checklist is intended to assist admins with the successful deployment of Co
 
 **Deployment phases**:
 
-  :::image type="content" source="/copilot/microsoft-365/agent-framework/media/m365-agents-checklist/agent-deployment-phases.png" alt-text="Diagram of the Copilot agent deployment phases."  lightbox="/copilot/microsoft-365/agent-framework/media/m365-agents-checklist/agent-deployment-phases.png":::
+  :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-checklist/agent-deployment-phases.png" alt-text="Diagram of the Copilot agent deployment phases."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-checklist/agent-deployment-phases.png":::
   
 **Downloadable resources**:
 
-- [Microsoft 365 Copilot agents blueprint](m365-agents-blue-print.md)
+- [Microsoft 365 Copilot agents blueprint](m365-agents-blueprint.md)
 - [Microsoft 365 Copilot agents visual guide](m365-agents-visual-map.md)
 
 ## Manage Microsoft 365 Copilot agent access and availability policies
@@ -43,7 +43,7 @@ Agent policies refer to the tenant settings you can make as an administrator in 
 | Step  | Task  | Description  | Administrator  |
 |---|---|---|---|
 | 1  | [Manage access to Microsoft 365 Copilot agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json#manage-access-to-copilot-agents)  | Control how your users interact with agents:<ul><li>Choose who can access agents</li><li>Choose which type of agents users are allowed to install</li></ul>  | Copilot administrator, SharePoint administrator, Copilot Studio administrator |
-| 2  | [Share and publish Microsoft 365 Copilot agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps)  | Agent sharing methods:<ul><li>[Sideload agents for personal use](/copilot/microsoft-365/agent-framework/agent-policies/agent-sideload)</li><li>[Shared agent with others](/microsoft-365/admin/manage/manage-shared-agents?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json)</li><li>[Publish custom agents to your organization](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json#publish-agents)</li><li>[Submit agents to the marketplace](/copilot/microsoft-365/agent-framework/agent-policies/agent-submit-marketplace)</li></ul>  | Copilot administrator, SharePoint administrator, Copilot Studio administrator |
+| 2  | [Share and publish Microsoft 365 Copilot agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps)  | Agent sharing methods:<ul><li>[Sideload agents for personal use](/copilot/microsoft-365/agent-essentials/agent-policies/agent-sideload)</li><li>[Shared agent with others](/microsoft-365/admin/manage/manage-shared-agents?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json)</li><li>[Publish custom agents to your organization](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json#publish-agents)</li><li>[Submit agents to the marketplace](/copilot/microsoft-365/agent-essentials/agent-policies/agent-submit-marketplace)</li></ul>  | Copilot administrator, SharePoint administrator, Copilot Studio administrator |
 
 ## Choose the right Copilot Studio experience
 
@@ -100,9 +100,9 @@ You can manage your organization’s available agents in the Copilot Control Sys
 
 | Step  | Task  | Description  | Administrator  |
 |---|---|---|---|
-| 1  | [Setup Role-Based Access Control (RBAC) to manage Agents in M365](/microsoft-365/admin/manage/manage-agents-permissions)  | Understand types of [admin permissions](/copilot/microsoft-365/agent-framework/agent-prerequisites) to consider related to Copilot agents.  | Copilot administrator, Microsoft 365 administrator |
+| 1  | [Setup Role-Based Access Control (RBAC) to manage Agents in M365](/microsoft-365/admin/manage/manage-agents-permissions)  | Understand types of [admin permissions](/copilot/microsoft-365/agent-essentials/agent-prerequisites) to consider related to Copilot agents.  | Copilot administrator, Microsoft 365 administrator |
 | 2  | [Manage agent inventory for declarative agents created with Copilot Studio (lite)](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps)  | You can manage your organization’s available agents in the Copilot Control System (CCS) within Microsoft 365 admin center.<p>Actions include:<ul><li>[Manage shared agent](/microsoft-365/admin/manage/manage-shared-agents)</li><li>[Pin agents](/microsoft-365/admin/manage/manage-pinning-agents)</li></ul>  | Copilot administrator, Microsoft 365 administrator |
-| 3  | Manage agent inventory for declarative and custom agents created with Copilot Studio (full)  | Your organization can manage agents created with Copilot Studio.<p>Action include:<ul><li>[Manage requested agents](/copilot/microsoft-365/agent-framework/agent-lifecycle/agent-copilot-studio-requested)</li><li>[Upload custom agents](/copilot/microsoft-365/agent-framework/agent-lifecycle/agent-upload-agents)</li><li>[Manage agent inventory](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#agent-inventory)</li></ul>  | AI administrator, Global admininistrator, Global reader (view-only, no edit) |
+| 3  | Manage agent inventory for declarative and custom agents created with Copilot Studio (full)  | Your organization can manage agents created with Copilot Studio.<p>Action include:<ul><li>[Manage requested agents](/copilot/microsoft-365/agent-essentials/agent-lifecycle/agent-copilot-studio-requested)</li><li>[Upload custom agents](/copilot/microsoft-365/agent-essentials/agent-lifecycle/agent-upload-agents)</li><li>[Manage agent inventory](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#agent-inventory)</li></ul>  | AI administrator, Global admininistrator, Global reader (view-only, no edit) |
 | 4  | [Manage Copilot connectors](/microsoft-365-copilot/extensibility/overview-copilot-connector)  | Microsoft 365 Copilot connectors provide a platform for you to ingest your unstructured, line-of-business data into Microsoft Graph, so that Microsoft 365 Copilot can reason over the entirety of your enterprise content.<p>Additional information:<ul><li>[Copilot connectors requirements](/microsoft-365-copilot/extensibility/overview-copilot-connector#requirements-for-copilot-connectors)</li><li>[Configure Copilot connectors ](/microsoft-365-copilot/extensibility/overview-copilot-connector#configuring-your-custom-copilot-connector-for-microsoft-365-copilot)</li></ul>  | Copilot administrator, Microsoft 365 administrator |
 | 5  | Assign and deploy an agent  | For more information, see [Manage agent inventory](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#agent-inventory).  | Copilot administrator, Microsoft 365 administrator |
 

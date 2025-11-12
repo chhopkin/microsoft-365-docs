@@ -40,10 +40,10 @@ To help decide which type of agent to build, see [Choose what type of agent to b
 
 - **Users** can create declarative agents in Copilot Studio (lite) or SharePoint if enabled by tenant settings (requires Copilot license or subscription)
 - **Makers** can use Copilot Studio (lite or full) for low-code agents
-- **Developers** can use Copilot Studio SDK or Agents Toolkit for pro-code agents. Developers can also [submit agents to the marketplace](/copilot/microsoft-365/agent-framework/agent-policies/agent-submit-marketplace)
+- **Developers** can use Copilot Studio SDK or Agents Toolkit for pro-code agents. Developers can also [submit agents to the marketplace](/copilot/microsoft-365/agent-essentials/agent-policies/agent-submit-marketplace)
 - Both **Makers** and **Developers** can add actions, connectors, and advanced logic in Copilot Studio or via the Microsoft 365 Agents Toolkit
 
-People in your organization can also [sideload agents](/copilot/microsoft-365/agent-framework/agent-policies/agent-sideload), [share agents](/microsoft-365/admin/manage/manage-shared-agents), and [publish agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#publish-agents), according to tenant policies and admin controls that are configured in the Microsoft 365 admin center. 
+People in your organization can also [sideload agents](/copilot/microsoft-365/agent-essentials/agent-policies/agent-sideload), [share agents](/microsoft-365/admin/manage/manage-shared-agents), and [publish agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#publish-agents), according to tenant policies and admin controls that are configured in the Microsoft 365 admin center. 
 
 For more information, see [Manage access to Copilot agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#manage-access-to-copilot-agents).
 <!---
@@ -77,7 +77,7 @@ Depending on what you want to do, Copilot agent tools are available, as summariz
 
 Make sure to review the following resources:
 
-- [Microsoft 365 Copilot agents admin guide](/copilot/microsoft-365/agent-framework/m365-agents-admin-guide)
+- [Microsoft 365 Copilot agents admin guide](/copilot/microsoft-365/agent-essentials/m365-agents-admin-guide)
 - [Planning guide for Copilot extensibility options](/microsoft-365-copilot/extensibility/planning-guide)
 
 ## What governance or controls are available for agents?
@@ -121,4 +121,4 @@ In general, administrators should take the following actions:
 - Use [Purview DSPM for AI](/purview/dspm-for-ai?tabs=m365) to identify and mitigate oversharing and insider risks
 - Configure [integrated apps settings](/copilot/microsoft-365/microsoft-365-copilot-app-admin-settings) for extensibility enablement and granular controls
 
-For more information, see [Microsoft 365 Copilot agents admin guide](/copilot/microsoft-365/agent-framework/m365-agents-admin-guide).
+For more information, see [Microsoft 365 Copilot agents admin guide](/copilot/microsoft-365/agent-essentials/m365-agents-admin-guide).
