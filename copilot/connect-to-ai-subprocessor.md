@@ -31,7 +31,7 @@ As a sub-processor for Copilot experiences, Anthropic will operate under Microso
 
 Anthropic models will be enabled by default for many organizations, allowing users to choose from multiple AI models within their Microsoft 365 Copilot experiences. This update supports Microsoft's commitment to offering a choice between leading AI models while maintaining enterprise-grade security and compliance.
 
-Your users can elect to use Anthropic's AI models in Microsoft 365 Copilot, Researcher, and Copilot Studio. For more information, see TBD. Anthropic’s AI models can help people in your organization with some of the following:
+Your users can elect to use Anthropic's AI models in Microsoft 365 Copilot, Researcher, and Copilot Studio. For more information, see **TBD**. Anthropic’s AI models can help people in your organization with some of the following:
 
 - Summarize complex information
 - Answer questions using source material
