@@ -9,7 +9,7 @@ ms.subservice: advanced-data-residency
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.date: 08/05/2025
+ms.date: 11/12/2025
 ms.reviewer: jugiammo
 ms.custom:
 - it-pro
@@ -39,6 +39,7 @@ _Microsoft Privacy and Security Product Terms_ included with Microsoft's Cloud P
 |OneDrive for Business |Always Included |
 |Microsoft Teams |Added November 1, 2022 |
 |Microsoft 365 Copilot |Added March 1, 2024 |
+|Microsoft 365 Copilot Chat |Added September 1, 2025 |
 
 The language at time of writing this article is:
 
@@ -62,6 +63,7 @@ For more data residency capabilities, refer to the [_Multi-Geo_ service](microso
 |OneDrive for Business |Always Included |
 |Microsoft Teams |Added November 1, 2022 |
 |Microsoft 365 Copilot |Added March 1, 2024 |
+|Microsoft 365 Copilot Chat |Added September 1, 2025 |
 
 The language at the time of writing this article is:
 
