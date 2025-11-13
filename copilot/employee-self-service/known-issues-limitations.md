@@ -5,7 +5,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 11/12/2025
+ms.date: 11/13/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -34,17 +34,6 @@ Our goal is to be transparent, help you avoid surprises, and guide you toward qu
 Assess if this agent is a fit for your organization by viewing the whole list of known issues and limitations.
 
 ## Full list of known issues and limitations
-
-Applies to:
-
-|Package                     |Version    |
-|----------------------------|-----------|
-|Employee Self-Service agent |1.0.0.70   |
-|ServiceNow HR               |v1.1.06    |
-|Workday                     |v1.0.0.109 |
-|SAP SuccessFactors          |v1.0.0.43  |
-|ServiceNow LiveAgent        |v.1.0.0.0  |
-|ServiceNow IT               |v1.0.0.37  |
 
 |Area |Limitation |Planned fix |Workaround / guidance |
 |-----|-----------|------------|----------------------|
