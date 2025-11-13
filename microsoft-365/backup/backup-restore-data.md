@@ -52,8 +52,12 @@ Select the **OneDrive**, **SharePoint**, or **Exchange** tab for steps to restor
 
 # [OneDrive](#tab/onedrive)
 
+### Option 1: Full OneDrive account restore
+
 > [!NOTE]
 > We recommend choosing an express restore point for full account or site restores, as it provides the fastest restore experience. Express restore is currently only relevant for SharePoint and OneDrive.
+
+
 
 Follow these steps to restore data backed up for OneDrive.
 
@@ -100,6 +104,9 @@ Follow these steps to restore data backed up for OneDrive.
 9. On the **Review and Finish** page, review and finish all your choices. If everything looks as you want it, select **Restore OneDrive accounts**.
 
     ![Screenshot showing the Review and finish page for OneDrive.](../media/m365-backup/backup-onedrive-review-finish.png)
+
+### Option 2: Selected content only
+
 
 # [SharePoint](#tab/sharepoint)
 
