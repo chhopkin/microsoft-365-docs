@@ -78,7 +78,7 @@ The Engineering Escalations view helps your organization:
 
 The Business Project Awareness (BPA) feature in the Engineering Direct portal enables organizations to notify Microsoft about upcoming business activities or infrastructure changes that might impact their Microsoft 365 services. During these periods, Microsoft’s Service Engineering team provides elevated monitoring and proactive engagement to help identify and mitigate potential risks.
 
-<image>
+:::image type="content" source="../enterprise/media/enhanced-engagements/business-project-awareness.png" alt-text="Screenshot of business project awareness feature in enhanced engagements portal." lightbox="../enterprise/media/enhanced-engagements/business-project-awareness.png":::
 
 Examples of qualifying projects include:
 
