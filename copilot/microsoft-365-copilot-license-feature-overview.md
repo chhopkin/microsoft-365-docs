@@ -7,7 +7,7 @@ f1.keywords:
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
-ms.date: 11/11/2025
+ms.date: 11/13/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.reviewer: emilyblundo, sophieke
@@ -53,7 +53,7 @@ For more information on these features, see [Copilot Control System security and
 
 > [!NOTE]
 > As of early 2025, SharePoint Advanced Management is included with your Microsoft 365 Copilot license.
-> As of November 2025, Security Copilot is included with your Microsoft 365 E5 licenses.
+> In the coming months, Security Copilot will be included with your Microsoft 365 E5 licenses.
 
 ### Microsoft Purview features
 
