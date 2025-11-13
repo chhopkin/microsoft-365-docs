@@ -5,7 +5,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 11/05/2025
+ms.date: 11/12/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -223,7 +223,7 @@ These steps are required to install and enable the SuccessFactors extension pack
 
 ### Set up SuccessFactors extension pack for the Employee Self-Service agent
 
-The SuccessFactors extension pack requires few initial setups for the agent flows and agent starters. The following sections walk you through the process for configuring the required components.
+The SuccessFactors extension pack requires few initial setups for the agent flows and templates. The following sections walk you through the process for configuring the required components.
 
 ### Setup User Context
 
@@ -254,11 +254,11 @@ This step is required to set the user context for the Employee Self-Service agen
    > The highlighted section in the code transforms username from the logged in user's principal name to SAP SuccessFactors user ID. Use this information based on your environment setup between Microsoft Entra and SAP SuccessFactors. Currently the agent supports only User Principal Name (UPN) as a key identifier, if there are other attributes to be used as key identifier then a custom logic should be implemented to get the correct username for SAP SuccessFactors.
 6. Select **Save** for changes.
 
-### Set up Agent starters
+### Set up templates
 
-The Employee Self-Service agent comes with few predefined starters that are being used for each topic. These agent starters are shipped with the default data attribute paths, if there are custom entities and paths being used in SAP SuccessFactors, then these starters must be customized to match the SAP SuccessFactors entities.
+The Employee Self-Service agent comes with few predefined template that are being used for each topic. These templates are shipped with the default data attribute paths, if there are custom entities and paths being used in SAP SuccessFactors, then these templates must be customized to match the SAP SuccessFactors entities.
 
-To set up starters, follow these steps:
+To set up templates, follow these steps:
 
 1. Open The Employee Self-Service agent in Copilot Studio.
 2. Select **Settings** in the top right corner of agent ribbon.
@@ -266,7 +266,7 @@ To set up starters, follow these steps:
 4. Select **Employee Self Service HR SuccessFactors** extension pack.
 5. Select **Open** from the dialog popup.
 6. Select **Manage** in the Configuration section.
-7. All the starter configurations available are listed in the Power Apps, so select each of the "Get" starters to configure the right entities and paths. The following code is an example of the "Get" configuration starter:
+7. All the starter configurations available are listed in the Power Apps, so select each of the "Get" templates to configure the right entities and paths. The following code is an example of the "Get" configuration starter:
 
    ```json
    { 
