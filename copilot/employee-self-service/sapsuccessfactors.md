@@ -276,12 +276,6 @@ To set up templates, follow these steps:
    "rootEntity": "EmpEmployment",//Entity to be queried 
    "filter": "personIdExternal eq '{personIdExternalVal}' and userId eq 
    '{userIdVal}'",//Filter Expression to filter data more on this format
-   SAP integration for the Employee Self-Service agent 
-   Microsoft Corporation © 
-   Deployment Guide v0.1 
-   Page 13 of 44 
-   SAP integration for the Employee Self-Service agent Deployment Guide v0.1 Page 14 of 44 
-   Microsoft Corporation © 
        "requestEntities": [  //Request entites an array of object that should be queried 
    from root entity 
            { 
