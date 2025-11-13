@@ -136,7 +136,7 @@ Each BPA entry includes key details:
 
 By clicking the project title, a flyout would be shown form right side of the portal, which would allow you to view BPA request details (for example, project details).
 
-![Screenshot of Test business project awareness (BPA) overload](../media/enhanced-engagements/test-bpa-project.png)
+![Screenshot of Test business project awareness (BPA) overload](../enterprise/media/enhanced-engagements/test-bpa-project.png)
 
 ### Active BPAs by workload
 
