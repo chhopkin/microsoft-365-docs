@@ -39,7 +39,10 @@ jobs:
       if: github.repository_owner == 'MicrosoftDocs' && contains(github.event.repository.topics, 'build')
       runs-on: ubuntu-latest
       steps:
-
+        - name: Check out repo
+          id: checkout-repo
+          uses: actions/checkout@v4
+        
         - name: Create App Token
           id: app-token
           uses: actions/create-github-app-token@v1
@@ -76,7 +79,7 @@ jobs:
 
           run: |
             # Get runspace info
-            $RepoRoot = $env:RUNNER_WORKSPACE
+            $RepoRoot = $env:GITHUB_WORKSPACE
             $RepoName = $env:GITHUB_REPOSITORY
             $WorkflowName = $env:GITHUB_WORKFLOW -replace '[\\/:*?"<>|\s]', '_'
             $WorkflowRunId = $env:GITHUB_RUN_ID
@@ -177,6 +180,129 @@ jobs:
 
             #####################
             #####################
+            # Convert-DocFxMetadataPatternToRegex
+
+            Function Convert-DocFxMetadataPatternToRegex {
+                Param (
+                    [string]$Pattern
+                )
+
+                $Clean = ($Pattern -replace '\\', '/') -replace '^\./', ''
+                $Regex = [Regex]::Escape($Clean) -replace '/\\\*\\\*/', '/(?:[^/]+/)*' `
+                                                 -replace '/\\\*\\\*$', '/.*' `
+                                                 -replace '\\\*\\\*', '.*' `
+                                                 -replace '\\\*', '[^/]*' `
+                                                 -replace '\\\?', '[^/]'
+
+                # Both absolute (starts with /) and relative patterns should anchor to repo root
+                Return $Clean.StartsWith('/') ? "^$($Regex.TrimStart('/'))$" : "^$Regex$"
+
+            }
+
+            #####################
+            #####################
+            # Get-DocFxFileMetadataFromPattern
+
+                Function Get-DocFxFileMetadataFromPattern {
+
+                    [CmdletBinding()]
+                    Param (
+                        [object]$PatternTable,
+
+                        [Parameter(Mandatory = $true)]
+                        [string]$FilePath
+                    )
+
+                    If ($PatternTable -ne $Null) {
+                    
+                        If ($PatternTable -isnot [hashtable]) {
+
+                            $Ordered = [ordered]@{}
+                            $PatternTable.PSObject.Properties | ForEach-Object { $Ordered[$_.Name] = $_.Value }
+                            $PatternTable = $Ordered
+
+                        }
+
+                        $NormPath = ($FilePath -replace '\\', '/') -replace '^\./', ''
+
+                        Foreach ($Pattern in $PatternTable.Keys) {
+
+                            If ($NormPath -match (Convert-DocFxMetadataPatternToRegex -Pattern $Pattern)) {
+
+                                Return $PatternTable[$Pattern]
+
+                            }
+
+                        }
+
+                    } Else {
+
+                        Write-Host "No data for specified attribute found in DocFx fileMetadata config."
+
+                    }
+
+                    Return $null
+
+                }
+
+            #####################
+            #####################
+            # Get-DocFxConfig
+            
+            Function Get-DocFxConfig {
+    
+                [CmdletBinding()]
+                Param (
+                    [Parameter(Mandatory = $true)]
+                    [string]$FilePath
+                )
+
+                If (-not $RepoRoot) {
+
+                    Throw 'Repository root could not be determined.'
+
+                }
+
+                $FullPath = (Resolve-Path -LiteralPath $FilePath -ErrorAction Stop).Path
+                $RepoRoot = (Resolve-Path -LiteralPath $RepoRoot -ErrorAction Stop).Path.TrimEnd([IO.Path]::DirectorySeparatorChar, [IO.Path]::AltDirectorySeparatorChar)
+
+                # Confirm the file is inside the repo
+                If (-not $FullPath.StartsWith($RepoRoot, [StringComparison]::OrdinalIgnoreCase)) {
+
+                    Throw 'FilePath is not located underneath the repository root.'
+
+                }
+
+                # Walk up the tree 
+                $CurrentDir = Split-Path -Path $FullPath -Parent
+
+                While ($CurrentDir) {
+
+                    $Candidate = Join-Path -Path $CurrentDir -ChildPath 'docfx.json'
+
+                    If (Test-Path -LiteralPath $Candidate -PathType Leaf) {
+                        
+                        Write-Host "Getting DocFx config from $Candidate"
+
+                        Return (Get-Content -LiteralPath $Candidate -Raw) | ConvertFrom-Json -AsHashtable
+                    }
+
+                    If ($CurrentDir.TrimEnd([IO.Path]::DirectorySeparatorChar, [IO.Path]::AltDirectorySeparatorChar) -eq $RepoRoot) {
+
+                        Break
+
+                    }
+
+                    # Get the parent of the current folder
+                    $CurrentDir = Split-Path -Path $CurrentDir -Parent
+
+                }
+
+                Return $null
+            }
+
+            #####################
+            #####################
             # Get-FileMetadata
 
             Function Get-FileMetadata {
@@ -209,32 +335,130 @@ jobs:
                     $FileContentsBase64 =  Invoke-RestMethod -Method GET -Uri $File.contents_url -Headers $GitHubHeaders 
                     $FileContents = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($FileContentsBase64.content))
 
-                    # Check to see if the file contents contains a string that matches the $AuthorRegex regex pattern. If yes, add value to $Author, if not assign $Null.
+                    # Retrieve DocFx configuration that applies to current file. Retrieving for each file is inefficient but most PRs only have a few files in them. 
+                    # Pre-processing to be more efficient could actually use more cycles.
+                    $DocFxConfig = Get-DocFxConfig -FilePath $FileName
+
+                    # Check to see if the file contents contains a string that matches the $AuthorRegex regex pattern. If yes, add value to $Author, check
+                    # fileMetadata and globalMetadata in that order in DocFx. If there's a match in either of those, return value. If not, return null.
                     If ($FileContents -match $AuthorRegex) {    
+
                         $Author = $Matches[2]
                         $MetadataFound = $True 
+
                         Write-Host "Found author $Author."
+
                     } Else { 
-                        $Author = $Null 
+
+                        Write-Host "Author not found in article. Checking DocFx fileMetadata for $FileName."
+
+                        $Author = Get-DocFxFileMetadataFromPattern -PatternTable $DocFxConfig.build.fileMetadata.author -FilePath $FileName
+
+                        If ($Author -ne $Null) {
+
+                            Write-Host "Author $Author found in DocFx fileMetadata."
+                            $MetadataFound = $True 
+
+                        } Else {
+                                                 
+                            $Author = $DocFxConfig.build.globalMetadata.author
+
+                            If ($Author -ne $Null) {
+                            
+                                Write-Host "Author $Author found in DocFx globalMetadata."
+                                $MetadataFound = $True 
+                            
+                            } Else {
+                         
+                                Write-Host "Author not found in DocFx globalMetadata. Returning null."
+                                $Author = $Null
+
+                            }
+                        
+                        }
+
                     }
 
-                    # Check to see if file contents contains a string that matches the $ServiceRegex regex pattern. If yes, add value to $Service. Then check SubService regex pattern. 
-                    # If value isn't matched, assign $Null and don't check SubService.
-                    If ($FileContents -match $ServiceRegex)    { 
+                    # Check to see if file contents contains a string that matches the $ServiceRegex regex pattern. If yes, add value to $Service, check
+                    # fileMetadata and globalMetadata in that order in DocFx. If there's a match in either of those, return value. If not, return null. 
+                    
+                    If ($FileContents -match $ServiceRegex) { 
+
                           $Service = $Matches[2] 
                           $MetadataFound = $True
+
                           Write-Host "Found service $Service."
-                          If ($FileContents -match $SubServiceRegex) 
-                              { 
-                                $SubService = $Matches[2] 
-                                $MetadataFound = $True
-                                Write-Host "Found sub service $SubService."
-                              } Else { 
-                                $SubService = $Null 
-                              }     
+                          
                     } Else { 
-                        $Service = $Null 
+
+                        Write-Host "Service not found in article. Checking DocFx fileMetadata for $FileName."
+
+                        $Service = Get-DocFxFileMetadataFromPattern -PatternTable $DocFxConfig.build.fileMetadata.'ms.service' -FilePath $FileName
+
+                        If ($Service -ne $Null) {
+
+                            Write-Host "Service $Service found in DocFx fileMetadata."
+                            $MetadataFound = $True 
+
+
+                        } Else {
+                                                 
+                            $Service = $DocFxConfig.build.globalMetadata.'ms.service'
+
+                            If ($Service -ne $Null) {
+                            
+                                Write-Host "Service $Service found in DocFx globalMetadata."
+                                $MetadataFound = $True
+                            
+                            } Else {
+                         
+                                Write-Host "Service not found in DocFx globalMetadata. Returning null."
+                                $Service = $Null
+
+                            }
+                        
+                        }
+
                     }
+
+                    # Check to see if file contents contains a string that matches the $SubServiceRegex regex pattern. If yes, add value to $SubService, check
+                    # fileMetadata and globalMetadata in that order in DocFx. If there's a match in either of those, return value. If not, return null. 
+                    If ($FileContents -match $SubServiceRegex) { 
+
+                        $SubService = $Matches[2] 
+                        $MetadataFound = $True
+
+                        Write-Host "Found sub service $SubService."
+
+                    } Else { 
+
+                        Write-Host "SubService not found in article. Checking DocFx fileMetadata for $FileName."
+
+                        $SubService = Get-DocFxFileMetadataFromPattern -PatternTable $DocFxConfig.build.fileMetadata.'ms.subservice' -FilePath $FileName
+
+                        If ($SubService -ne $Null) {
+
+                            Write-Host "SubService $SubService found in DocFx fileMetadata."
+
+                        } Else {
+                                                 
+                            $SubService = $DocFxConfig.build.globalMetadata.'ms.subservice'
+
+                            If ($SubService -ne $Null) {
+                            
+                                Write-Host "SubService $SubService found in DocFx globalMetadata."
+                            
+                            } Else {
+                         
+                                Write-Host "SubService not found in DocFx globalMetadata. Returning null."
+                                $SubService = $Null
+
+                            }
+                        
+                        }
+
+                    }     
+
                     # Check to see if file contents contains a string that matches the $ProdRegex regex pattern. If yes, add value to $Product. Then check TechnologyRegex regex pattern. 
                     # If value isn't matched, assign $Null and don't check Technology.
                     If ($FileContents -match $ProdRegex) { 
@@ -1060,6 +1284,7 @@ jobs:
             }
 
 
+
             #####################
             #####################
             # Main
@@ -1338,3 +1563,4 @@ jobs:
                 Write-Host "Event action not ready_for_review, opened, reopened, or synchronize."
             
             } # PR event and action check
+
