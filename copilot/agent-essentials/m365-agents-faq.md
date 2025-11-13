@@ -36,7 +36,10 @@ There are two main types of Copilot agents you can create:
 - **[Declarative agents](/microsoft-365-copilot/extensibility/agents-overview#declarative-agents)**, which use Copilot's AI infrastructure, model, and orchestrator. These agents are built using low-code tools like Copilot Studio (lite) or pro-code tools like Visual Studio, Visual Studio Code, and the Microsoft 365 Agents Toolkit. Declarative agents run in Microsoft 365 Copilot and Microsoft 365 apps like Teams, Outlook, and SharePoint.
 - **[Custom engine agents](/microsoft-365-copilot/extensibility/agents-overview#custom-engine-agents)**, which are fully customized AI assistants. These agents require hosting outside of Microsoft 365, and are typically built using low-code Copilot Studio or pro-code tools like Visual Studio, Visual Studio Code, and Agents Toolkit, using languages such as .NET, Python, and JavaScript, and frameworks like Semantic Kernel or LangChain.
 
-To help decide which type of agent to build, see [Choose what type of agent to build](/microsoft-365-copilot/extensibility/agents-overview#choose-what-type-of-agent-to-build).
+To help decide which type of agent to build, see the following articles:
+
+- [Choose what type of agent to build](/microsoft-365-copilot/extensibility/agents-overview#choose-what-type-of-agent-to-build)
+- [Understand available agent options](m365-agents-admin-guide.md#understand-available-agent-options)
 
 ## Who can create, build, and share Copilot agents?
 
@@ -47,7 +50,11 @@ To help decide which type of agent to build, see [Choose what type of agent to b
 
 People in your organization can also [sideload agents](/copilot/microsoft-365/agent-essentials/agent-policies/agent-sideload), [share agents](/microsoft-365/admin/manage/manage-shared-agents), and [publish agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#publish-agents), according to tenant policies and admin controls that are configured in the Microsoft 365 admin center. 
 
-For more information, see [Manage access to Copilot agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#manage-access-to-copilot-agents).
+For more information, see the following articles:
+
+- [Microsoft 365 Copilot agents admin guide](m365-agents-admin-guide.md)
+- [Manage access to Copilot agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#manage-access-to-copilot-agents).
+
 <!---
 
 ## For my specific use cases, how do I know which Copilot extensibility option to use?
@@ -90,6 +97,8 @@ The following governance options are available for Copilot agents:
 - **[Microsoft Purview](/purview/ai-microsoft-purview)**: Compliance, audit, and eDiscovery across all extensibility options
 - **Admin Centers**: [Microsoft 365 Admin Center](/microsoft-365/admin/admin-overview/admin-center-overview) and [Power Platform Admin Center](/microsoft-365/admin/admin-overview/admin-center-overview) for configuration and enforcement.
 
+See [Understand agent security, privacy, and compliance](m365-agents-admin-guide.md#understand-agent-security-privacy-and-compliance).
+
 ## Can administrators monitor Copilot agent usage? 
 
 Yes. Reports are available to help administrators monitor licenses, agents, and deployments. Custom reports can also be created. See [Copilot Control System measurement and reporting](/copilot/microsoft-365/copilot-control-system/security-governance).
@@ -113,7 +122,7 @@ Agents run under an identity, whether it's the user's identity or a managed iden
 
 Role-based access control (RBAC) is part of the enforcement model. Administrators can restrict agent creation and usage in the Copilot Control System and enforce RBAC policies across environments.
 
-For more information, see [Copilot Control System security and governance](/copilot/microsoft-365/copilot-control-system/security-governance).
+For more information, see [Copilot Control System security and governance](/copilot/microsoft-365/copilot-control-system/security-governance) and [Understand agent security, privacy, and compliance](m365-agents-admin-guide.md#understand-agent-security-privacy-and-compliance).
 
 ## What controls should administrators implement for Copilot agents?
 
