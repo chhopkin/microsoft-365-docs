@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.reviewer: aasthatiwari, atuldubey
 audience: Admin
 ms.topic: article
@@ -14,7 +14,6 @@ ms.localizationpriority: medium
 ms.collection:
 - Tier1
 - scotvorg
-- operations-pod
 ms.custom:
 - commerce_vl
 - AdminTemplateSet
@@ -22,7 +21,7 @@ ms.custom:
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to access your non-Azure volume licensing invoices in the Microsoft 365 admin center."
-ms.date: 05/30/2025
+ms.date: 11/13/2025
 ---
 
 # Microsoft volume licensing invoices
@@ -200,6 +199,9 @@ There are several reasons that you might not see an invoice:
 The Invoice Reader VL role is automatically assigned in the admin center to the **Bill To Contact** named in the agreement contract submitted by your Microsoft partner or seller at the time of contract creation.
 
 The Invoice Reader role can't be assigned or removed by another VL Administrator. To change the contact Bill To requires your Microsoft partner or seller to complete a Change of Contact Information Request to update the legal participants, or contacts. Contact your Microsoft partner or seller for more information.
+
+> [!NOTE]
+> If you're an Enterprise Agreement (EA) or Enterprise subscription (EU) customer, the Invoice Reader VL role is assigned by the VL Administrator of the agreement in the Microsoft 365 admin center.
 
 ### How often and when am I billed?
 
