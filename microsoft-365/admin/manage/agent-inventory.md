@@ -131,6 +131,58 @@ For more information, see [Sensitivity labels for agent embedded content](/micro
 
 ### Agent details
 
+#### Researcher with Computer Use admin configuration
+
+> [!IMPORTANT]
+>
+> **Researcher with Computer Use** is only for Frontier tenants.
+
+For **Researcher with Computer Use** onboarding instructions, see the following short video:
+
+> [!VIDEO https://youtu.be/N3vLF9mnd8w]
+
+**Researcher with Computer Use** is a powerful extension that builds on the capabilities of the Researcher agent. With Computer Use, Researcher agent can securely interact with public, gated, and interactive web content through virtual computer-enabling users to uncover deeper insights, take action, and generate richer reports grounded in both their work data and the web. For more information, see [Use Researcher with Computer use in Microsoft 365 Copilot](?).
+
+##### Configure admin settings for Researcher agent with Computer Use
+
+To configure admin settings for **Researcher agent with Computer Use**, follow these steps:
+
+1. Navigate to **Microsoft Admin Controls (MAC) Agents** page.
+
+1. In the left navigation pane, select **Researcher under Agents**, and check if there's another tab for **Computer Use**.
+
+1. Customize users that have access to **Researcher with Computer Use**.
+
+   - There are three options for configuring who has access to the experience-
+
+     1. Allow all users in your organization.
+     1. Allow specific users or groups only.
+     1, No users in your organization.
+
+   - For users that have it disabled, the **Computer Use** option will appear grayed out.
+
+1. Configure Work access for **Researcher with Computer Use**:
+
+    - The work option allows users to toggle on **Work in the Sources** menu, allowing Researcher agent to leverage a user's work content with Computer Use. For example, emails, chats, and files.
+    - When enabled by admins, users must still manually toggle on Work access.
+    - When disabled, the Work source will appear grayed out and not selectable.
+
+1. Select which websites are allowed for **Computer Use**:
+
+   - There are three options for configuring websites the virtual device can access:
+
+     1. All websites.
+     1. Allow specific URLs or domains only.
+     1. Exclude specific URLs or domains.
+
+   - You can allow **All websites**, block some with the **Exclude specified** option, or only allow certain sites with the **Allow specified** option.
+
+##### Learn more about Researcher with Computer Use
+
+- [Introducing Researcher with Computer Use in Microsoft 365 Copilot](?).
+- [Get started using Researcher with Computer Use](?).
+- [Frequently asked questions for Researcher with Computer Use](?).
+
 #### Agent metadata in the Microsoft 365 admin center
 
 :::image type="content" source="../../media/agents/details.png" alt-text="Screenshot showing the details tab for an agent." lightbox="../../media/agents/details.png":::
@@ -629,17 +681,14 @@ With this information, you can efficiently manage and review the shared agents w
 
 Inventory data is also available programmatically through Graph APIs enabling scalable and programmatic control over agent management. Now in private preview, the new microsoft Graph API endpoints allow administrators to automate bulk agent management, streamline onboarding, and integrate governance into existing workflows across agents in Microsoft 365.  Beyond manual UX-driven agent management, the Graph API helps you accelerate agent management, maintain security and compliance, and ensure agents are available to the right users at the right time.
 
-1. Get all agents in your inventory
-1. Get details of a particular agent in your inventory.
+- Get all agents in your inventory - With the [GET packages API](https://graph.microsoft.com/beta/copilot/admin/catalog/packages), administrators can retrieve a comprehensive list of all agents in their tenant, filter by type, host, or last update date time, support compliance and reporting needs.
 
-With the [GET packages API](https://graph.microsoft.com/beta/copilot/admin/catalog/packages), administrators can retrieve a comprehensive list of all agents in their tenant, filter by type, host, or last update date time, support compliance and reporting needs.
+- Get details of a particular agent in your inventory - The [GET package details API](https://graph.microsoft.com/beta/copilot/admin/catalog/packages/{id}) provides rich metadata for any agent, including deployment:
 
-The [GET package details API](https://graph.microsoft.com/beta/copilot/admin/catalog/packages/{id}) provides rich metadata for any agent, including deployment:
+  - **Status**.
+  - **Supported hosts**.
+  - **Creator information**.
+  - **Sensitivity labels**.
+  - **Properties from manifest for declarative agent or custom engine agent**.
 
-- **Status**.
-- **Supported hosts**.
-- **Creator information**.
-- **Sensitivity labels**.
-- **Properties from manifest for declarative agent or custom engine agent**.
-
-This metadata makes it easier to audit, manage, and optimize agent management.
+    This metadata makes it easier to audit, manage, and optimize agent management.
