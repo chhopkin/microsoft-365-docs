@@ -2,8 +2,8 @@
 title: "Microsoft Adoption Score - Microsoft 365 apps health"
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
+author: efrene
+ms.author: efrene
 manager: scotv
 ms.date: 08/10/2020
 audience: Admin
