@@ -28,6 +28,8 @@ Key aspects of this content include the following topics:
 - [Admin Guide](m365-agents-admin-guide.md) - Understand where to start when working with Microsoft 365 Copilot agents.
 - [FAQ](m365-agents-faq.md) - Answers to common questions about Microsoft 365 Copilot agents.
 
+## Understand agent security, privacy, and compliance
+
 Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level, grounded in enterprise security, privacy, and compliance standards. Each aspect of this foundation forms a safer digital ecosystem for you and your organization to confidently adopt AI features and tools.
 
 Copilot agents use this foundation as part of Copilot's AI [infrastructure](/copilot/microsoft-365/microsoft-365-copilot-architecture), [model](/microsoft-copilot-studio/nlu-gpt-overview), and [orchestrator](/microsoft-365-copilot/extensibility/orchestrator), which means Copilot agents adhere to the security, privacy, and compliance that is provided by Microsoft 365 Copilot. 
