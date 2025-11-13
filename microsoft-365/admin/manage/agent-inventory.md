@@ -219,7 +219,7 @@ Administrators in the Microsoft 365 admin center can take several actions to con
 
 ### Publish agents
 
-A governance step for new agents: when a user publishes an agent, it requires IT admin approval before becoming available tenant-wide. Administrators can review the agent's details (Description, owner, data and tools, etc.) and then publish or reject it. On publishing, administrators can also scope its audience (specific users/groups or everyone), ensuring a controlled rollout.
+A governance step for new agents: when a user publishes an agent, it requires AI admin approval before becoming available tenant-wide. Administrators can review the agent's details (Description, owner, data and tools, etc.) and then publish or reject it. On publishing, administrators can also scope its audience (specific users/groups or everyone), ensuring a controlled rollout.
 
 The Microsoft 365 admin center publishing process for agents submitted through Copilot Studio ensures governance, security, and quality of custom applications.
 
@@ -241,7 +241,12 @@ The publishing process consists of the following steps:
 
     New submissions appear with the status of pending review.
 
-1. **Review submission details** - Select a pending agent to view more details and metadata, including Agent description and capabilities, connected data sources, and tools. These details help administrators make informed decisions about publishing or rejecting an agent.
+1. **Review submission details** - Select a pending agent to view more details and metadata including:
+
+   - **Agent description and capabilities**.
+   - **Connected data sources and tools**.
+
+    These details help administrators make informed decisions about publishing or rejecting an agent.
 
 1. **Start the publishing wizard** - When ready, select **Start publishing** to open the publishing wizard.
 
@@ -279,7 +284,6 @@ The activation process consists of the following steps:
 
     - **Agent name**.
     - **Publisher name**.
-    - **Host products**.
     - **Status**.
     - **Date requested**.
 
@@ -288,8 +292,7 @@ The activation process consists of the following steps:
 1. **Review submission details** - Select a pending agent to view more details and metadata, including:
 
    - **Agent description and capabilities**.
-   - **Connected data sources**.
-   - **Tools**.
+   - **Connected data sources and tools**.
 
     These details help administrators make informed decisions about activating or rejecting an agent.
 
@@ -310,6 +313,19 @@ The activation process consists of the following steps:
 1. **Review and complete activation** - Review all configurations and select **Finish** to activate the agent.
 
 Once activated, the agent becomes available for creating instances in the Teams App Store, and the requester is notified. For future user additions, the process is simplified. The administrator only needs to approve or reject requests, leveraging existing templates without repeating the full activation steps.
+
+| Service Name | Policy Name | Description of Policy | More Information |
+| --- | --- | --- | --- |
+| Microsoft Entra | Identity Protection  | Detect agent identity threats by flagging anomalous activities involving agents. | [What is Microsoft Entra ID Protection?](/entra/id-protection/overview-identity-protection) |
+| Microsoft Entra | Network visibility | Enable network visibility to agent access to external resources. |  |
+| Microsoft Entra | Lifecycle management for agents | Govern Microsoft Entra Agent IDs at scale with lifecycle policies. | [Automate identity lifecycle management with Microsoft Entra ID Governance](/entra/id-governance/scenarios/automate-identity-lifecycle) |
+| Sharepoint | Restrict external sharing of sites and its content | Provides capability to allow or restrict specific agents from sharing content in SharePoint sites and OneDrive with external users and guests. | [What is SharePoint Advanced Management?](/sharepoint/advanced-management) |
+| Sharepoint | Access Control for Sites and OneDrive | Allows admin to specify agents and users allowed to access a given site. | [Restrict SharePoint site access with Microsoft 365 groups and Microsoft Entra security groups](/SharePoint/restricted-access-control) |
+| Sharepoint | Agent access insights | Provides insights on content and sites permissioned to users. | [Data access governance reports for SharePoint and OneDrive sites](/sharepoint/data-access-governance-reports) |
+| Sharepoint | Content Permissions Insights | Provides insights on agents accessing SharePoint and OneDrive sites. |  |
+| Purview | Purview Audit Enabled | Audit trails log all activities and provide clear observability. | [Use Microsoft Purview to manage data security & compliance for Microsoft Agent 365](/purview/ai-agent-365) |
+| Purview | Know Your Data Policy | Data security controls safeguard against sensitive data leaks and oversharing. | [Use Microsoft Purview to manage data security & compliance for Microsoft Agent 365](/purview/ai-agent-365) |
+| Purview | Purview AI compliance assessment | Continuous monitoring evaluates agents for compliance gaps and identifies areas needing attention. | [Use Microsoft Purview to manage data security & compliance for Microsoft Agent 365](/purview/ai-agent-365) |
 
 ### Deploy agents
 
@@ -612,7 +628,7 @@ To block or unblock an agent:
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), go to **Agents** > **All Agents**.
 1. Select an agent from the list.
-1. A panel opens. Under the **Overview** tab, **Instance** availability is displayed.
+1. A panel opens. Under the **Overview** tab, **Instance availability** is displayed.
 1. Select **See details** to see all instances created by that agent. From here, administrators can manage individual instances.
 1. Select an instance and choose **Block**.
 
@@ -624,7 +640,7 @@ Administrators can delete an instance from the Microsoft 365 admin center when i
 
 1. In the left navigation pane, select **Agents** > **All agents**.
 1. Choose the agent that owns the instance you want to delete.
-1. A panel opens. Under the **Overview** tab, **Instance** availability is displayed.
+1. A panel opens. Under the **Overview** tab, **Instance availability** is displayed.
 1. Select **See details** to see all instances created by that agent.
 1. Select the instance you want to delete, then select **Delete**.
 1. Confirm the deletion when prompted.
