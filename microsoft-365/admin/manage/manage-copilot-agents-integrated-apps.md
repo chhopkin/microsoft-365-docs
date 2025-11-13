@@ -38,7 +38,7 @@ search.appverid:
 > - This article is intended for IT administrators.
 > - The capability is enabled by default in all Microsoft 365 Copilot licensed tenants.
 
-Microsoft 365 Copilot combines the power of large language models with your data and apps in Microsoft 365 to capture natural language commands to produce content and analyze data. It enables access to and use of other apps, such as Jira, [Dynamics 365](/microsoft-365-copilot/extensibility/overview-business-applications), or Bing Web Search.
+Microsoft 365 Copilot combines the power of large language models with your data and apps in Microsoft 365. It captures natural language commands to produce content and analyze data. It enables access to and use of other apps, such as Jira, [Dynamics 365](/microsoft-365-copilot/extensibility/overview-business-applications), or Bing Web Search.
 
 You can manage agents for Copilot by using the Agent Control System in the [Microsoft 365 admin center](https://admin.microsoft.com/). You can enable, disable, assign, block, or remove agents for your organization, and manage Copilot capabilities.
 
@@ -54,7 +54,7 @@ The hub Copilot experience shows the list of agents that are available and deplo
 
 You can manage several types of agents in Microsoft 365 Copilot, each serving different purposes:
 
-- **Published by your organization**: Built with predefined instructions and actions. These agents follow structured logic and are best for predictable, rule-based tasks. Before becoming available to users, these agents go through an admin approval and publishing process to ensure compliance and readiness.
+- **Published by your organization**: Built with predefined instructions and actions. These agents follow structured logic and are best for predictable, rule-based tasks. Before agents become available to users, these agents go through an admin approval and publishing process to ensure compliance and readiness.
 
 - **Shared by creator**: Shared agents are custom versions of Microsoft 365 Copilot that combine instructions, knowledge, and skills to perform specific tasks or scenarios. Creators can create and share these agents through multiple channels, such as Copilot Studio (full), Copilot Studio (lite), and more. Shared agents enhance the functionality of Copilot by adding search capabilities, custom actions, connectors, and APIs. For more information, see [Share agents with other users](/microsoft-copilot-studio/admin-share-bots).
 
@@ -66,7 +66,7 @@ For your users, shared agents are available through Copilot on different surface
 
 - **External partner agents**: Created by external developers or vendors. You can control their availability and permissions.
 
-- **Frontier agents**: Experimental or advanced agents that use new capabilities or integrations. These might be in early stages of development or testing and could require more oversight or limited rollout.
+- **Frontier agents**: Experimental or advanced agents that use new capabilities or integrations. These agents might be in early stages of development or testing and could require more oversight or limited rollout.
 
   - **Flow Builder agent**: A type of Frontier agent developed by Microsoft that can be managed as part of Microsoft 365 Copilot. Flows created in Copilot are saved to the default environment unless [environment routing](/power-platform/admin/default-environment-routing#turn-on-environment-routing-in-the-admin-center) is enabled for Copilot Studio. You can also manage flows using the [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 

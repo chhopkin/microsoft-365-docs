@@ -40,7 +40,7 @@ The Agent Inventory page in the [Microsoft 365 admin center](https://admin.micro
 Agent Inventory lists all agents integrated with Microsoft 365 Copilot, including:
 
 - **Microsoft agents** - Built and maintained by Microsoft.
-- **External partner-built agents** - Provided by trusted third-party developers.
+- **External partner-built agents** - Provided by trusted non-Microsoft developers.
 - **Shared by creator** - Agents created and shared by individual users or developers in your organization.
 - **Published by your org** - Custom agents approved and published by your organization for broader use.
 
@@ -141,7 +141,7 @@ For **Researcher with Computer Use** onboarding instructions, see the following 
 
 > [!VIDEO https://www.youtube.com/embed/N3vLF9mnd8w?si=XJaYnCQYNy_CeuFc]
 
-**Researcher with Computer Use** is a powerful extension that builds on the capabilities of the Researcher agent. With Computer Use, Researcher agent can securely interact with public, gated, and interactive web content through virtual computer-enabling users to uncover deeper insights, take action, and generate richer reports grounded in both their work data and the web. For more information, see [Use Researcher with Computer use in Microsoft 365 Copilot](?).
+**Researcher with Computer Use** is a powerful extension that builds on the capabilities of the Researcher agent. With Computer Use, Researcher agent can securely interact with public, gated, and interactive web content through virtual computer-enabling users. It can then uncover deeper insights, take action, and generate richer reports grounded in both their work data and the web. For more information, see [Use Researcher with Computer use in Microsoft 365 Copilot](?).
 
 ##### Configure admin settings for Researcher agent with Computer Use
 
@@ -153,19 +153,19 @@ To configure admin settings for **Researcher agent with Computer Use**, follow t
 
 1. Customize users that have access to **Researcher with Computer Use**.
 
-   - There are three options for configuring who has access to the experience-
+   - There are three options for configuring who has access to the experience:
 
      1. Allow all users in your organization.
      1. Allow specific users or groups only.
-     1, No users in your organization.
+     1. No users in your organization.
 
-   - For users that have it disabled, the **Computer Use** option will appear grayed out.
+   - For users that have this option disabled, the **Computer Use** option is greyed out.
 
 1. Configure Work access for **Researcher with Computer Use**:
 
     - The work option allows users to toggle on **Work in the Sources** menu, allowing Researcher agent to leverage a user's work content with Computer Use. For example, emails, chats, and files.
     - When enabled by admins, users must still manually toggle on Work access.
-    - When disabled, the Work source will appear grayed out and not selectable.
+    - When disabled, the Work source appears greyed out and isn't selectable.
 
 1. Select which websites are allowed for **Computer Use**:
 
@@ -193,7 +193,7 @@ The metadata includes details such as the agent's capabilities, data sources, an
 
 ## Admin Actions to Manage Agents
 
-Administrators in the Microsoft 365 admin center can take several actions to control the lifecycle, availability, and compliance of agents in their organization. These controls enable administrators to determine which agents are visible, who can access them, and how they are managed across the tenant.
+Administrators in the Microsoft 365 admin center can take several actions to control the lifecycle, availability, and compliance of agents in their organization. These controls enable administrators to determine which agents are visible, who can access them, and how they're managed across the tenant.
 
 ### Available Actions
 
@@ -219,7 +219,7 @@ Administrators in the Microsoft 365 admin center can take several actions to con
 
 ### Publish agents
 
-A governance step for new agents: when a user publishes an agent, it requires IT admin approval before becoming available tenant-wide. Administrators can review the agent's details (Description, owner, data and tools,  etc.) and then publish or reject it. On publishing, administrators can also scope its audience (specific users/groups or everyone), ensuring a controlled rollout.
+A governance step for new agents: when a user publishes an agent, it requires IT admin approval before becoming available tenant-wide. Administrators can review the agent's details (Description, owner, data and tools, etc.) and then publish or reject it. On publishing, administrators can also scope its audience (specific users/groups or everyone), ensuring a controlled rollout.
 
 The Microsoft 365 admin center publishing process for agents submitted through Copilot Studio ensures governance, security, and quality of custom applications.
 
@@ -245,13 +245,13 @@ The publishing process consists of the following steps:
 
 1. **Start the publishing wizard** - When ready, select **Start publishing** to open the publishing wizard.
 
-1. **Select users or groups** - Choose the users or groups for whom the agent will be published. Publishing makes the agent available for installation to the selected audience.
+1. **Select users or groups** - Choose the users or groups that the agent should be published to. Publishing makes the agent available for installation to the selected audience.
 
 1. **(Optional) Pre-install or deploy** - Optionally, you can pre-install (deploy) the agent for the same set of users or for a specific subset of users.
 
 1. **Apply Template** - To strengthen governance and security for agents, you can apply a template that includes predefined policies:
 
-    - **Default Template** - Microsoft provides an out of box template with essential security and compliance controls from Entra, Purview, and SharePoint.
+    - **Default Template** - Microsoft provides an out of box template with essential security and compliance controls from Microsoft Entra, Purview, and SharePoint.
 
     - **Custom Template** - If you need additional governance beyond the default, create a custom template and apply extra policies such as **Entra Access Package** to meet your organization's requirements.
 
@@ -297,7 +297,7 @@ The activation process consists of the following steps:
 
 1. **Select users** - Choose the users for whom you want to accept and approve of activating the agent. Activating an agent makes it available for the selected audience to install and create instances.
 
-1. **Activation Wizard** - After you accept the activation request, the wizard opens where you can select users. You can include the original requesters and add security groups that will have access to create instances from the agent.
+1. **Activation Wizard** - After you accept the activation request, the wizard opens where you can select users. You can include the original requesters and add security groups that have access to create instances from the agent.
 
 1. **Apply Template** - To strengthen governance and security for agents, you can apply a template that includes predefined policies.
 
@@ -354,7 +354,7 @@ Key features of Application Permissions:
 | --- | ---|
 | **Group.Read.All** | Read all groups in the organization. |
 | **TeamsActivity.Send** | Send a teamwork activity to any user. |
-| **RoleManagement.Read.Directory**| Read all directory RBAC settings. |
+| **RoleManagement.Read.Directory**| Read all directory role-based access control (RBAC) settings. |
 | **User.Read.All** | Read all users' full profiles. |
 | **Team.ReadBasic.All** | Get a list of all teams in the organization. |
 
@@ -378,7 +378,7 @@ Delegated permissions are typically used for applications where the agent needs 
 | --- | --- |
 | **User.ReadBasic.All** | Read all users' basic profiles. |
 | **TeamsActivity.Send** | Send a teamwork activity to any user. |
-| **RoleManagement.Read.Directory** | Read all directory RBAC settings. |
+| **RoleManagement.Read.Directory** | Read all directory role-based access control (RBAC) settings. |
 | **User.Read.All** | Read all users' full profiles. |
 | **Team.ReadBasic.All** | Get a list of all teams. |
 
@@ -400,11 +400,11 @@ You can find the details of all types of permissions in the **Permissions** tab 
 
 > [!NOTE]
 >
-> After pinning an Agent, it may take up to six hours for end-users to see it pinned.
+> After an Agent is pinned, it might take up to six hours for end-users to see it pinned.
 
 This article explains how administrators can pin, unpin, or manage agents for everyone or specific groups using Microsoft 365 admin center. It also covers related actions like ranking the list of pinned agents and editing the scope of pinned agents.
 
-Pinning agents is a feature that enables administrators to preselect and pin agents for end-users using Microsoft 365 Copilot. The administrator pins the agent to ensure that it is automatically listed in the end user's Copilot interface without requiring any user action. The agent is now readily accessible to the user in the Copilot interface.
+Pinning agents is a feature that enables administrators to preselect and pin agents for end-users using Microsoft 365 Copilot. The administrator pins the agent to ensure that the agent is automatically listed in the end user's Copilot interface without requiring any user action. The agent is now readily accessible to the user in the Copilot interface.
 
 #### Prerequisites
 
@@ -426,7 +426,7 @@ Pinning agents is a feature that enables administrators to preselect and pin age
 
 #### Microsoft-pinned agents
 
-- These are agents that Microsoft pins by default for all users.
+- These agents are agents that Microsoft pins by default for all users.
 - Ensures essential or high-value agents, like core Copilot features, are always visible.
 - End users can't unpin these agents. They're fixed in the pinned list.
 
@@ -454,7 +454,7 @@ Pinning agents is a feature that enables administrators to preselect and pin age
 - Administrators can pin up to three agents in Microsoft 365 admin center for end-users using Microsoft 365 Copilot in the organization.
 - Administrators can choose to pin an agent for all users in the tenant or for specific users/groups. For example:
   - Pin **Sales Coach** agent only for the sales department.
-  - Pin **HR Q&A** agent for all employees.
+  - Pin **HR Q&A** agent for all users.
 - The end-user can't unpin the Administrator-pinned and Microsoft-pinned agents.
 
 #### How to pin agents
@@ -463,7 +463,7 @@ Pinning agents is a feature that enables administrators to preselect and pin age
 
 1. In the **Agents** page, select the **Manage pinned agents** icon.
 
-    :::image type="content" source="../../media/manage-pinning-agents/manage-pinned-agents.png" alt-text="Screenshot showing the Agents page in the can't." lightbox="../../media/manage-pinning-agents/manage-pinned-agents.png":::
+    :::image type="content" source="../../media/manage-pinning-agents/manage-pinned-agents.png" alt-text="Screenshot showing the Agents page in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/manage-pinned-agents.png":::
 
 #### View Microsoft-pinned agents and administrator-pinned agents
 
@@ -549,7 +549,7 @@ To block or unblock an agent, follow these steps:
 1. Select **Block** or **Unblock**.
 1. Decide whether to block or unblock the agent for everyone.
 
-Blocking or unblocking an agent created using Copilot Studio (lite) and Copilot Studio (full) affects its availability and functionality in M365 Copilot and other host products, such as Outlook, Teams, or Microsoft 365. However, blocking an agent created with SharePoint will only impact its availability in M365 Copilot Chat.
+Blocking or unblocking an agent created using Copilot Studio (lite) and Copilot Studio (full) affects its availability and functionality in Microsoft 365 Copilot. It also availability and functionality in other host products, such as Outlook, Teams, or Microsoft 365. However, blocking an agent created with SharePoint only impacts its availability in Microsoft 365 Copilot Chat.
 
 > [!NOTE]
 >
@@ -592,7 +592,7 @@ This deletion process is irreversible. Once you delete an agent, it might take u
 
 Once an admin activates an agent, requestor can create instances of that agent. The Microsoft 365 admin center provides a centralized view for managing these instances:
 
-- **Agent Inventory Page** - Navigate to **Agents** > **Agent Inventory** to see how many instances have been created from a specific agent.
+- **Agent Inventory Page** - Navigate to **Agents** > **Agent Inventory** to see how many instances are created for a specific agent.
 
 - **Agent Details Flyout** - Selecting an agent opens a flyout panel displaying the total count of instances associated with that agent in the **Overview** tab.
 
@@ -606,13 +606,13 @@ This streamlined experience helps administrators maintain control, compliance, a
 
 ### Block agent instances
 
-You can block or unblock agent instances for the entire organization using the same controls available for any other app in the Microsoft 365 admin center. Blocking an instance stops it and any actions it is performing.
+You can block or unblock agent instances for the entire organization using the same controls available for any other app in the Microsoft 365 admin center. Blocking an instance stops it and any actions it's performing.
 
 To block or unblock an agent:
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), go to **Agents** > **All Agents**.
 1. Select an agent from the list.
-1. A panel will open. Under the **Overview** tab, you will see **Instance** availability.
+1. A panel opens. Under the **Overview** tab, **Instance** availability is displayed.
 1. Select **See details** to see all instances created by that agent. From here, administrators can manage individual instances.
 1. Select an instance and choose **Block**.
 
@@ -620,11 +620,11 @@ To restore functionality, the administrator can **Unblock** the instance at any 
 
 ### Delete agent instances
 
-Administrators can delete an instance from the Microsoft 365 admin center when it is no longer needed.
+Administrators can delete an instance from the Microsoft 365 admin center when it's no longer needed.
 
 1. In the left navigation pane, select **Agents** > **All agents**.
 1. Choose the agent that owns the instance you want to delete.
-1. A panel will open; under Overview tab you will see Instance availability.
+1. A panel opens. Under the **Overview** tab, **Instance** availability is displayed.
 1. Select **See details** to see all instances created by that agent.
 1. Select the instance you want to delete, then select **Delete**.
 1. Confirm the deletion when prompted.
@@ -632,7 +632,7 @@ Administrators can delete an instance from the Microsoft 365 admin center when i
 1. Provide access to Instance's OneDrive and Outlook data for 30 days (about 4 and a half weeks).
 1. Remove or reassign Microsoft 365 licenses tied to the instance.
 1. After 30 days, all instance accounts and data are permanently deleted. Audit logs are kept.
-1. Once deleted, the instance will no longer appear in the list.
+1. Once deleted, the instance no longer appears in the list.
 
 ### Ownerless shared agent management
 
@@ -667,28 +667,32 @@ Export the list of shared agents to an Excel file. This feature is essential for
 
 The exported file includes comprehensive information about each shared agent, such as:
 
-- **Name**.
-- **Host products**.
-- **Created date**.
-- **Developer user id**.
-- **Description**.
-- **Status**.
-- **Version**.
+- Name.
+- Host products.
+- Created date.
+- Developer user ID.
+- Description.
+- Status.
+- Version.
 
 With this information, you can efficiently manage and review the shared agents within your organization, ensuring compliance and optimizing resource allocation.
 
 ## Programmatic access to agent inventory
 
-Inventory data is also available programmatically through Graph APIs enabling scalable and programmatic control over agent management. Now in private preview, the new microsoft Graph API endpoints allow administrators to automate bulk agent management, streamline onboarding, and integrate governance into existing workflows across agents in Microsoft 365.  Beyond manual UX-driven agent management, the Graph API helps you accelerate agent management, maintain security and compliance, and ensure agents are available to the right users at the right time.
+Inventory data is also available programmatically through Graph APIs enabling scalable and programmatic control over agent management. Now in preview, the new Microsoft Graph API endpoints allow administrators to automate bulk agent management, streamline onboarding, and integrate governance into existing workflows across agents in Microsoft 365. Beyond manual UX-driven agent management, the Graph API helps you accelerate agent management, maintain security and compliance, and ensure agents are available to the right users at the right time.
 
-- Get all agents in your inventory - With the [GET packages API](https://graph.microsoft.com/beta/copilot/admin/catalog/packages), administrators can retrieve a comprehensive list of all agents in their tenant, filter by type, host, or last update date time, support compliance and reporting needs.
+- **Get all agents in your inventory** - With the [GET packages API](https://graph.microsoft.com/beta/copilot/admin/catalog/packages), administrators can retrieve a comprehensive list of all agents in their tenant to support compliance and reporting needs. Filter Agents by:
 
-- Get details of a particular agent in your inventory - The [GET package details API](https://graph.microsoft.com/beta/copilot/admin/catalog/packages/{id}) provides rich metadata for any agent, including deployment:
+  - Type.
+  - Host.
+  - Last update date time.
 
-  - **Status**.
-  - **Supported hosts**.
-  - **Creator information**.
-  - **Sensitivity labels**.
-  - **Properties from manifest for declarative agent or custom engine agent**.
+- **Get details of a particular agent in your inventory** - The [GET package details API](https://graph.microsoft.com/beta/copilot/admin/catalog/packages/{id}) provides rich metadata for any agent, including the following deployment information:
+
+  - Status.
+  - Supported hosts.
+  - Creator information.
+  - Sensitivity labels.
+  - Properties from manifest for declarative agent or custom engine agent.
 
     This metadata makes it easier to audit, manage, and optimize agent management.

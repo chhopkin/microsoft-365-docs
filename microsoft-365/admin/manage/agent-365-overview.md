@@ -55,20 +55,20 @@ You can view Overview by going to **Agents** > **Overview**, or by using **AI ho
 
 A high-level summary of the most critical indicators of agent adoption and impact. These metrics give admins an immediate sense of scale, engagement, and business value.
 
-- **Agent Inventory** - The total count of all agents available in your organization's catalogue, including Microsoft-built, partner-built, and custom (LOB) agents. This reflects the breadth of automation capabilities deployed across your tenant. You can directly select the **Explore All agents** > **Inventory** to go through your inventory in detail.
+- **Agent Inventory** - The total count of all agents available in your organization's catalog, including Microsoft-built, partner-built, and custom (LOB) agents. This agent inventory reflects the breadth of automation capabilities deployed across your tenant. You can directly select the **Explore All agents** > **Inventory** to go through your inventory in detail.
 
-- **Active Users** - The number of unique users who have interacted with at least one agent within last 30 days. A user is considered "active" if they have initiated at least one interaction with any agent in the time frame, regardless of how many agents they have interacted with.
+- **Active Users** - The number of unique users who interacted with at least one agent within last 30 days. A user is considered "active" if they initiated at least one interaction with any agent in the time frame, regardless of how many agents they interacted with.
 
-- **Time Saved with Agents** - The estimated cumulative hours saved by employees through agent-assisted tasks, based on modeled productivity gains. Demonstrates ROI and business impact.
+- **Time Saved with Agents** - The estimated cumulative hours saved by users through agent-assisted tasks, based on modeled productivity gains. Demonstrates return on investment (ROI) and business impact.
 
 ## Agent Analytics
 
 Detailed insights into how agents are distributed and used, helping admins understand adoption patterns and optimize resources.
 
-- **Agents by Publishers** - Breakdown of all agents in your inventory by their source of publisher (who created and shared it). There are two categories in this:
+- **Agents by Publishers** - Breakdown of all agents in your inventory by their source of publisher (who created and shared it). There are two categories:
 
-  - It can be **Created by your organization** - shared by creator, used only by creator, published by your organization, etc.
-  - It can be **Created by external partners**.
+  - **Created by your organization** - shared by creator, used only by creator, published by your organization, etc.
+  - **Created by external partners**.
 
 - **Agents by Platforms** - Shows which creation platforms are most used for building agents. For example:
 
@@ -82,9 +82,9 @@ Detailed insights into how agents are distributed and used, helping admins under
 
 Actionable governance cards that surface urgent tasks for admins to maintain compliance and improve adoption.
 
-- **Pending Requests for Agents** - The total number of agent requests awaiting admin approval within last 30 days. Lists oldest 3 pending requests prioritized by oldest first. The card also displays the delta badge next to the key metric to highlight week-over-week change in the total requests.
+- **Pending Requests for Agents** - The total number of agent requests awaiting admin approval within last 30 days. Lists oldest three pending requests prioritized by oldest first. The card also displays the delta badge next to the key metric to highlight week-over-week change in the total requests.
 
-    To take immediate action you can directly select the **Manage requests** button on the card.  Navigates to the **Agent Inventory** > **Requests** tab. This tab lists all pending agent requests submitted by users within organization.
+    To take immediate action, you can directly select the **Manage requests** button on the card. Navigates to the **Agent Inventory** > **Requests** tab. This tab lists all pending agent requests submitted by users within organization.
 
 - **Ownerless Agents** - Total Agents without an assigned owner, still pending owner assignment.
 
