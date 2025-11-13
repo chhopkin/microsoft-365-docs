@@ -54,7 +54,7 @@ items:
       href: microsoft-365-copilot-transparency-note.md
     - name: Privacy and protections
       href: /copilot/privacy-and-protections?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
-    - name: Copilot in Edge
+    - name: Copilot in Microsoft Edge
       href: /copilot/edge?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
   - name: Implementation Readiness
     items:
@@ -273,7 +273,7 @@ items:
           href: /microsoft-365-copilot/extensibility/agents-overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
         - name: Choose a Copilot Studio experience
           href: /microsoft-365-copilot/extensibility/copilot-studio-experience?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json         
-        - name: Developement environment setup
+        - name: Development environment setup
           href: /microsoft-365-copilot/extensibility/prerequisites?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json   
         - name: Declarative agents
           items:
@@ -345,7 +345,7 @@ items:
             href: /microsoft-copilot-studio/admin-logging-copilot-studio?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
           - name: Use Microsoft Purview Data Security Posture Management (DSPM) for AI
             href: /purview/dspm-for-ai?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json        
-          - name: Configure Microsoft Sentinel to injest the audit logs
+          - name: Configure Microsoft Sentinel to ingest the audit logs
             href: /azure/sentinel/relate-alerts-to-incidents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
         - name: Manage data security
           items:
@@ -355,7 +355,7 @@ items:
             href: /purview/dlp-learn-about-dlp?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
           - name: Audit using Microsoft Purview Data Security Posture Management (DSPM) for AI
             href: /purview/dspm-for-ai?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json          
-        - name: Manage data complinace
+        - name: Manage data compliance
           items:
           - name: Compliance Manager
             href: /purview/compliance-manager?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
