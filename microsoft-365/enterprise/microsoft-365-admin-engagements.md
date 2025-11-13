@@ -136,7 +136,7 @@ Each BPA entry includes key details:
 
 By clicking the project title, a flyout would be shown form right side of the portal, which would allow you to view BPA request details (for example, project details).
 
-![Screenshot of Test business project awareness (BPA) overload](../enterprise/media/enhanced-engagements/test-bpa-project.png)
+:::image type="content" source="../enterprise/media/enhanced-engagements/test-bpa-project.png" alt-text="Screenshot of Test business project awareness (BPA) overload." lightbox="../enterprise/media/enhanced-engagements/test-bpa-project.png":::
 
 ### Active BPAs by workload
 
@@ -146,7 +146,7 @@ The **Active BPAs by Workload** chart provides a quick visual summary of ongoing
 
 The Customer Advisory Board offers you a prioritized voice into the evolution of Microsoft 365 through various virtual and in-person engagements with engineering, designed to facilitate roadmap discussions and feedback loops into all in-scope product teams.
 
-<image>
+:::image type="content" source="../enterprise/media/enhanced-engagements/customer-advisory-board.png" alt-text="Screenshot of customer advisory board in enhanced engagements portal." lightbox="../enterprise/media/enhanced-engagements/customer-advisory-board.png":::
 
 ### CAB overview
 
@@ -199,7 +199,7 @@ The Customer Advisory Board program allows you to:
 
 The Incident Analysis page in Enhanced engagements allows you to request post-incident analysis for closed incidents. You can submit a request for incidents that have been resolved in the last 30 days. In addition, you can view insights into your current incident analysis requests, including their status, and see a report of all past requests.
 
-<image>
+:::image type="content" source="../enterprise/media/enhanced-engagements/incident-analysis.png" alt-text="Screenshot of incident analysis in enhanced engagements portal." lightbox="../enterprise/media/enhanced-engagements/incident-analysis.png":::
 
 To submit a post-incident analysis request:
 
@@ -209,7 +209,7 @@ To submit a post-incident analysis request:
 4. Review case details after selecting an incident where you'll also see additional details related to the ticket. Follow the prompts to complete your analysis request.
 5. Submit your request. Once you've reviewed the information, submit your post-incident analysis request.
 
-<image>
+:::image type="content" source="../enterprise/media/enhanced-engagements/post-incident-analysis.png" alt-text="Screenshot of post incident analysis in enhanced engagements portal." lightbox="../enterprise/media/enhanced-engagements/post-incident-analysis.png":::
 
 ### OIA Overview
 
