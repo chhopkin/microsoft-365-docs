@@ -5,7 +5,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 11/12/2025
+ms.date: 11/13/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -28,7 +28,6 @@ This guide includes:
 - Publishing & Deployment Nuances: ESS might not immediately appear in Teams or Copilot after publishing, and extra steps might be needed to make it visible and accessible to users.
 - User Experience Gaps: Customizations like tone configuration, welcome messages ("Hello" topics), and sensitivity label recognition aren't fully supported yet but have guidance or planned support underway.
 - Content Handling Limits: Semantic indexing has limits (~200 pages), and certain content formats (for example, link-only pages or Graph Connector content) might lead to reduced response quality.
-- Licensing and Flow Execution: Only prepackaged Agent Flows are included in ESS. Custom flows might incur per-execution costs when supported post-July 2025.
 
 Our goal is to be transparent, help you avoid surprises, and guide you toward quick wins using supported configurations and best practices.
 
@@ -36,29 +35,16 @@ Assess if this agent is a fit for your organization by viewing the whole list of
 
 ## Full list of known issues and limitations
 
-Applies to:
-
-|Package                     |Version    |
-|----------------------------|-----------|
-|Employee Self-Service agent |1.0.0.70   |
-|ServiceNow HR               |v1.1.06    |
-|Workday                     |v1.0.0.109 |
-|SAP SuccessFactors          |v1.0.0.43  |
-|ServiceNow LiveAgent        |v.1.0.0.0  |
-|ServiceNow IT               |v1.0.0.37  |
-
 |Area |Limitation |Planned fix |Workaround / guidance |
 |-----|-----------|------------|----------------------|
-|Third-party Independent Software Vendors |Power Platform connectors can't be used with on-premises gateway connections at this time. |There are no plans to include this functionality in the future roadmap. |If needed, consider moving your key content to a cloud platform like SharePoint or ServiceNow. |
-|Third-party Independent Software Vendors |Third-party connector setup (like Workday, ServiceNow, or SuccessFactors) takes time and typically needs someone with deep technical expertise. |By design - there are no plans to include it in the future roadmap. |To work around this behavior, carefully follow the setup documentation and involve someone with subject matter expertise in configuring third-party systems. Alternatively, consider starting with SharePoint as your initial knowledge source. You can add external system solution connectors once your IT team has the necessary expertise and capacity to manage the integration effectively. |
-|Third-party Independent Software Vendors |Only supports User Principal Name (UPN) based user mapping for third party integrations |Support for non-UPN based mapping is under evaluation and targeting for post-July 2025 |Work with the third party provider to have UPN based user-mapping for integrations |
-|Third-party Independent Software Vendors |Only supports single sign-on with User Principal Name (UPN) mapping for Microsoft Entra |Support for non-UPN based SSO is under evaluation and targeting for post-July 2025 |Work with the third party provider to have UPN based user-mapping for integrations |
+|External systems integration |Power Platform connectors can't be used with on-premises gateway connections at this time. |There are no plans to include this functionality in the future roadmap. |If needed, consider moving your key content to a cloud platform like SharePoint or ServiceNow. |
+|External systems integration |Third-party connector setup (like Workday, ServiceNow, or SuccessFactors) takes time and typically needs someone with deep technical expertise. |By design - there are no plans to include it in the future roadmap. |To work around this behavior, carefully follow the setup documentation and involve someone with subject matter expertise in configuring third-party systems. Alternatively, consider starting with SharePoint as your initial knowledge source. You can add external system solution connectors once your IT team has the necessary expertise and capacity to manage the integration effectively. |
 |Third-Party Identity Providers and Single Sign-on |Third-party identity providers (IdPs) and single sign-on (SSO) aren't fully evaluated for each of the configuration topologies. |We intend to address each configuration topology as they're reported. |Reach out to Microsoft support by submitting a support case when you encountered issues with third-party IdPs and/or SSO, so the product group can evaluate it. |
 |Publishing |After you publish, it might take up to 48 hours for the Employee Self-Service agent to appear in Microsoft 365 Copilot. |By design - there are no plans to include it in the future roadmap. |To skip the wait, download the manifest in Copilot Studio and upload it manually to Integrated Apps in Microsoft 365 Admin Center. [Step-by-step guide](publish.md#workaround-if-publishing-takes-more-than-48-hours). |
 |Publishing |The agent doesn't automatically appear in Teams or Copilot after publishing. |By design - there are no plans to include it in the future roadmap. |Make sure the app is approved in Integrated Apps and assigned to the correct security group. For detailed instructions, refer to the publishing steps outlined in the deployment documentation. |
 |Publishing |The agent currently functions only in the Copilot chat channel. The Teams app has open issues. |A fix is coming with roadmap updates. |As in Copilot Studio, both the Copilot chat and Teams channel are available as one option. Employee Self-Service agent is published to both channels. Users use the agent only in Copilot chat and don't deploy the agent in Teams in Copilot Agent publishing options, under the Microsoft admin center. |
 |Publishing |Autoupdate for the Employee Self-Service agent and any external systems accelerator packages isn't supported. |A fix is coming with roadmap updates. |Makers are required to manually update both the ESS Agent core package and any associated external systems accelerator packages. |
-|User Experience |The Employee Self-Service agent isn't supported yet on mobile devices. |Support for both mobile access is planned for release in the second half of CY2025. |You can currently access the Employee Self-Service agent through the Microsoft 365 app on Android and iOS. However, some of the custom experience elements—like the official source badge, disclaimer, and certain visual features might not display as expected yet. We're actively working to improve how they appear on mobile phones. |
+|User Experience |The Employee Self-Service agent isn't supported yet on mobile devices. |Support for both mobile access is planned for release in 2026. |You can currently access the Employee Self-Service agent through the Microsoft 365 app on Android and iOS. However, some of the custom experience elements—like the official source badge, disclaimer, and certain visual features might not display as expected yet. We're actively working to improve how they appear on mobile phones. |
 |User experience |You don't see the 'official source' badge when testing in Copilot Studio. |By design - there are no plans to include it in the future roadmap. |To see it live, publish the agent and try it in Microsoft 365 Copilot. |
 |User experience |The "Hello" topic isn't available by default and must be manually created and published as part of your Employee Self-Service agent setup. Without it, users might not receive a welcome message or clear guidance when they first interact with the agent. To ensure a smooth user experience, we recommend adding a custom "Hello" topic that introduces the agent, sets expectations, and explains what it can help with. |By design - there are no plans to include it in the future roadmap. |To ensure users have a smooth first interaction, create a custom topic that acts as your "Hello" or welcome message. You can name it something like "Welcome" or "Getting Started," and use trigger phrases such as "Hi", "Hello", or "Start". In the message, briefly explain what the Employee Self-Service agent can help with and how to ask questions. Publishing this custom topic replicates the behavior of a typical "Hello" experience and helps guide users from the start. |
 |User experience |Agent names have length constraints, such as 42 characters maximum. |No plans – dependent on Copilot Studio. |Follow corporate naming conventions for agents that aren't long. |
