@@ -225,15 +225,15 @@ items:
     - name: App Builder agent
       items:
       - name: Overview of App Builder
-        href: responsible-ai/faq-app-builder.md
-      - name: App Builder privacy and data subject request (DSR) FAQ
         href: app-builder-privacy-data-subject-request-faq.md
+      - name: App Builder privacy and data subject request (DSR) FAQ
+        href: responsible-ai/faq-app-builder.md
     - name: Workflows agent
       items:
       - name: Overview of Workflows
-        href: responsible-ai/flow-builder-responsible-ai-faq.md
-      - name: Workflows privacy and data subject request (DSR) FAQ
         href: flow-builder-privacy-data-subject-request-faq.md
+      - name: Workflows privacy and data subject request (DSR) FAQ
+        href: responsible-ai/flow-builder-responsible-ai-faq.md
     - name: Researcher agent
       items:   
       - name: Overview of Researcher agent
