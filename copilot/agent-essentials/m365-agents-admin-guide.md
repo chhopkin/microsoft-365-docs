@@ -20,7 +20,7 @@ description: Learn about administering and deploying Microsoft 365 Copilot agent
 
 When you add [Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-overview) to your qualifying Microsoft 365 for business subscription, you provide generative AI capabilities to your organization. With these capabilities, you help enhance your organization’s productivity, improve accuracy, and provide personalized assistance.
 
-In addition to the generative AI capabilities provided by Microsoft 365 (Microsoft 365) Copilot, you can extend your AI implementation to include agents. Agents allow you to customize your Copilot experience. You can connect agents to your organization’s knowledge and data sources to help members of your organization answer questions, automate tasks, and run business processes. These AI-driven agents can perform various tasks, working alongside you to offer suggestions, automate repetitive tasks, and provide insights to help you and your organization make more informed decisions.
+In addition to the generative AI capabilities provided by Microsoft 365 Copilot, you can extend your AI implementation to include agents. Agents allow you to customize your Copilot experience. You can connect agents to your organization’s knowledge and data sources to help members of your organization answer questions, automate tasks, and run business processes. These AI-driven agents can perform various tasks, working alongside you to offer suggestions, automate repetitive tasks, and provide insights to help you and your organization make more informed decisions.
 
 This guide:
 - Helps you determine which Copilot agent capabilities your organization needs
@@ -234,7 +234,7 @@ In the Copilot Control System within Microsoft 365 admin center, you can manage 
 - Copilot actions pertaining to available functionality and use
 - Additional settings about how Copilot can be used
 
-For M365 Copilot agents, you can specifically control how members of your organization can create and use agents.
+For Microsoft 365 Copilot agents, you can specifically control how members of your organization can create and use agents.
 
 > [!TIP]
 > The Microsoft 365 admin center provides Microsoft 365 Copilot [deployment guides and assistance](https://admin.microsoft.com/adminportal/home?Q=ADG#/setupguidance). Consider following the extensibility guide, see [Get started with Microsoft 365 Copilot extensibility](https://admin.microsoft.com/adminportal/home?Q=ADG#/modernonboarding/copilotextensibility).
@@ -262,7 +262,7 @@ For more information, see [Enable or disable Copilot extensibility](/microsoft-3
 
 ### Agent sharing and publishing settings
 
-There are several methods end users, makers, and developers can use to distribute agents for M365 Copilot. The methods largely depend on the type of agent they create and the environment they use to create the agent. For details about agent types and environments, see [Create agents](#create-agents).
+There are several methods end users, makers, and developers can use to distribute agents for Microsoft 365 Copilot. The methods largely depend on the type of agent they create and the environment they use to create the agent. For details about agent types and environments, see [Create agents](#create-agents).
 
 ✅ **Task: Understand the availability and benefits of the different methods to distribute agents both internally to your organization and externally.**
 
@@ -277,7 +277,7 @@ For more information about publishing agents, see [Publish agents for Microsoft 
 
 #### Sideload agents for personal use
 
-Members of your organization can build and share agents within your organization without publishing them to the organizational catalog or marketplace. This approach to deploying agents is called sideloading. You can determine whether your organization allows members of your organization to upload an agent, or custom app package, in the Teams app. Uploading the agent via Teams, will allow the agent to be used within Teams and within the M365 Copilot app.
+Members of your organization can build and share agents within your organization without publishing them to the organizational catalog or marketplace. This approach to deploying agents is called sideloading. You can determine whether your organization allows members of your organization to upload an agent, or custom app package, in the Teams app. Uploading the agent via Teams, will allow the agent to be used within Teams and within the Microsoft 365 Copilot app.
 
 > [!NOTE]
 > Declarative agents built with SharePoint can’t be sideloaded.
@@ -338,7 +338,7 @@ For more information about submitting your agent to the Microsoft Commercial Mar
 
 ## Manage agent lifecycle
 
-You can manage agents for M365 Copilot Chat and M365 Copilot in the Copilot Control System (CCS) within [Microsoft 365 admin center](https://admin.microsoft.com/). The CCS allows you to configure settings for M365 Copilot, including the agents that you can manage and deploy to members of your organization.
+You can manage agents for Microsoft 365 Copilot Chat and Microsoft 365 Copilot in the Copilot Control System (CCS) within [Microsoft 365 admin center](https://admin.microsoft.com/). The CCS allows you to configure settings for Microsoft 365 Copilot, including the agents that you can manage and deploy to members of your organization.
 
 ✅ **Task: Consider following a deployment plan based on tiers or levels, where your organization rolls out agent capability based on stages and confirms expected availability for each rollout group.**
 
@@ -370,7 +370,7 @@ As an administrator, you can choose to pin a deployed agent to the **Agents** li
 
 Microsoft 365 Copilot includes agents pinned by Microsoft, admins, and users. Microsoft pinned agents are specific agents that are pinned by default for all users. Admin pinned agents are pinned by you or your organization by using the Copilot Control System in Microsoft 365 admin center. User pinned agents are pinned by individual users in their own Microsoft 365 Copilot Chat or Microsoft 365 Copilot experience.
 
-:::image type="content"  source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png" alt-text="Screenshot of agents within M365 Copilot."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png":::
+:::image type="content"  source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png" alt-text="Screenshot of agents within Microsoft 365 Copilot."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-pinned.png":::
 
 To set, view, or manage pinned agents for your organization, see [Manage Pinning of Agents](/microsoft-365/admin/manage/manage-pinning-agents).
 
@@ -400,7 +400,7 @@ To upload an agent as a ZIP packet file to the Microsoft 365 admin center:
 6. Review the agent’s permissions and capabilities. Then, select **Next**.
 7. Select Finish deployment to review and finish the agent’s deployment.
 
-:::image type="content"  source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-deploy-new.png" alt-text="Screenshot of deploying a new agent within M365 the Copilot Control System."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-deploy-new.png":::
+:::image type="content"  source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-deploy-new.png" alt-text="Screenshot of deploying a new agent within Microsoft 365 the Copilot Control System."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-deploy-new.png":::
 
 To manage, assign, and publish the agent, see [Assign and deploy agents](#assign-and-deploy-agents).
 
@@ -426,7 +426,7 @@ Members of your organization can install agents from the [Agent Store](https://d
 #### Publish agents
 Members of your organization can use Copilot Studio to create and publish agents. They can publish agents to multiple channels, such as live websites, mobile apps, Microsoft 365 Copilot or messaging platforms like Teams and Facebook.
 
-✅ **Task: If members of your organization have created an agent using Copilot Studio, they can publish the agent to your organization with your help. Check for the requested agent in Copilot Control System in Microsoft 365 admin center. Publish or reject the agent from being made available to your organization.**
+✅ **Task: If members of your organization have created an agent using Copilot Studio (full), they can publish the agent to your organization with your help. Check for the requested agent in Copilot Control System in Microsoft 365 admin center. Publish or reject the agent from being made available to your organization.**
 
 When members of your organization publish an agent to your organization using the Microsoft Teams and Microsoft 365 Copilot channel, the agent becomes available as a requested agent in the Copilot Control System in Microsoft 365 admin center. You can then approve the agent to make the agent available to users or groups within your organization. Once the agent has been reviewed and published from the Copilot Control System in Microsoft 365 admin center, you can show it in the Teams app store so users can find and install it.
 
@@ -540,62 +540,12 @@ For more information publishing requested agents, see [Publish agents](#publish-
 
 Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level, grounded in enterprise security, privacy, and compliance standards. Each aspect of this foundation forms a safer digital ecosystem for you and your organization to confidently adopt AI features and tools.
 
-Copilot agents use this foundation as part of Copilot's AI [infrastructure](/copilot/microsoft-365/microsoft-365-copilot-architecture), [model](/microsoft-copilot-studio/nlu-gpt-overview), and [orchestrator](/microsoft-365-copilot/extensibility/orchestrator), which means Copilot agents adhere to the security, privacy, and compliance that is provided by Microsoft 365 Copilot. 
-
-> [!NOTE]
-> Your organization’s data is maintained within the Microsoft 365 service boundary within your tenant. For more information, see [Microsoft 365 Copilot architecture and how it works](/copilot/microsoft-365/microsoft-365-copilot-architecture).
-
-Copilot and Copilot agents only accesses data that an [individual user is authorized to access](/copilot/microsoft-365/microsoft-365-copilot-architecture#user-access-and-data-privacy) and doesn't access data that the user doesn't have permission to access. In addition, Copilot and Copilot agents honors [Conditional Access policies and multifactor authentication (MFA) based on Microsoft Entra ID](/copilot/microsoft-365/microsoft-365-copilot-architecture#copilot-honors-conditional-access-and-mfa).
-
-When you integrate your business workflows as agents for Copilot, your internal data stays within your agent. That data doesn't flow out of [Microsoft Graph](/graph/overview) and it isn't used to train Microsoft 365 Copilot [LLMs](https://azure.microsoft.com/resources/cloud-computing-dictionary/what-are-large-language-models-llms). Copilot does, however, generate a search query to send to your agent on the user's behalf based on their prompt and conversation history with Copilot and data the user has access to in Microsoft 365. 
-
-Microsoft’s comprehensive security posture for AI includes:
-- [Secure engineering and development practices](/copilot/microsoft-365/microsoft-365-copilot-ai-security#secure-engineering-and-development-practices)
-- [Threat intelligence and risk mitigation](/copilot/microsoft-365/microsoft-365-copilot-ai-security#threat-intelligence-and-risk-mitigation)
-- [Privacy and compliance by design](/copilot/microsoft-365/microsoft-365-copilot-ai-security#privacy-and-compliance-by-design)
-
-> [!NOTE]
-> You can also use [Microsoft Purview](/purview/ai-m365-copilot), which provides tools to help you discover, secure, and govern your data for use in Microsoft 365 Copilot, Microsoft 365 Copilot Chat, and agents published to Microsoft 365. In addition, Purview can help discover, protect, and govern the interactions (prompts and responses) with these AI apps.
-
-To prepare your Microsoft 365 environment for Copilot and Copilot agents, you should apply the principles of Zero Trust to your tenant. The seven layers of protection encompassing [Zero Trust](/security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json#whats-in-this-article) are the following:
-
-1. Data protection
-2. Identity and access
-3. App protection
-4. Device management and protection
-5. Threat protection
-6. Secure collaboration with Teams
-7. User permissions to data
-
-For more information about preparing your M365 environment, see [Zero Trust](/security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json#whats-in-this-article).
-
-### RAI
-
-Copilot agents follow the Responsible AI (RAI) requirements included with Microsoft 365. Microsoft is committed to ensuring that our AI systems are guided by our [AI principles](https://www.microsoft.com/ai/principles-and-approach/) and [Responsible AI Standard](https://www.microsoft.com/ai/responsible-ai). These principles include empowering our customers to use these systems effectively and in line with their intended uses. Our approach to responsible AI is continually evolving to address emerging issues proactively.
-
-RAI principles include the following principles:
-- Accountability
-- Transparency
-- Fairness
-- Reliability and safety
-- Privacy and security
-- Inclusiveness
-
-For more information, see [Responsible AI FAQ for Microsoft Copilot in Azure](/azure/copilot/responsible-ai-faq).
-
-### Protect organizational data
-
-Microsoft 365 Copilot works with different Microsoft services to help you protect your organization’s data. When you’re ready to deploy Copilot agents within your organization, you should consider Microsoft’s recommended approach to address oversharing concerns. This approach provides the pilot, deploy, and operate phases to consider when deploying Copilot and Copilot agents. Each phase consists of activities, outcomes, and expected effort needed. For more information, see [Address oversharing concerns in Microsoft 365 Copilot deployment blueprint](/copilot/microsoft-365/microsoft-365-copilot-blueprint-oversharing).
-
-In addition, Microsoft provides SharePoint Advance Management and Microsoft Purview to address oversharing. SharePoint Advance Management provides SharePoint site management and content governance capabilities. Microsoft Purview provides security, compliance, and governance across data and files.
-
-> [!NOTE]
-> M365 Copilot uses the access rights of the end user to determine the data that can be presented to the end user.  
-
-To better understand aspects of data protection related to M365 Copilot, such as sensitivity labels, encryption, oversharing, and data auditing, see the following resources:
-- [How data is protected and audited in Microsoft 365 and Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing)
-- [Enterprise data protection in Microsoft 365 Copilot and Microsoft 365 Copilot Chat](/copilot/microsoft-365/enterprise-data-protection)
-- [Considerations to manage Microsoft 365 Copilot and Channel Agent in Teams for security and compliance](/purview/ai-m365-copilot-considerations)
+For more information, see the following resources:
+- [Microsoft 365 Copilot Agent Management Essentials](agent-essentials-overview.md)
+- [Zero Trust](/security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json#whats-in-this-article).
+- [Responsible AI Standard](https://www.microsoft.com/ai/responsible-ai). These principles include empowering our customers to use these systems effectively and in line with their intended uses. 
+- [Protect organizational data](agent-essentials-overview.md#protect-organizational-data).
+- [Understand agent governance](#understand-agent-governance)
 
 ## Related content
 
