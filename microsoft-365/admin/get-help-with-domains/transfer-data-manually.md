@@ -2,8 +2,8 @@
 title: "Transfer data manually between two accounts"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 02/18/2020
 audience: Admin

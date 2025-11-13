@@ -2,9 +2,9 @@
 title: "How to sign up for a Microsoft 365 for business plan - Admin Help"
 f1.keywords:
 - NOCSH
-author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.reviewer: jkinma, ramagane
 audience: Admin
 ms.topic: how-to
@@ -35,7 +35,7 @@ search.appverid:
 - MET150
 ROBOTS: NOINDEX
 description: "Learn how to choose a Microsoft 365 for business plan, sign up, and set up your subscription."
-ms.date: 05/02/2025
+ms.date: 11/04/2025
 ---
 
 # How to sign up for a Microsoft 365 for business plan - Admin Help
