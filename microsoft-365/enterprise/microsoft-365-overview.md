@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: scotv
 author: scotvidican
 manager: scotv
-ms.date: 11/11/2025
+ms.date: 11/13/2025
 audience: ITPro
 ms.topic: overview
 ms.service: microsoft-365-enterprise
@@ -45,7 +45,7 @@ Microsoft 365 for enterprise is available in three plans.
 |Plan name|Capabilities|
 |---|---|
 |E3|Access the Microsoft 365 core products and features to securely enhance workplace productivity and drive innovation.|
-|E5|Access the Microsoft 365 latest products and features. These include Defender Suite, Purview Suite, and more. This plan includes all E3 capabilities, plus advanced security, voice, and data analysis tools.|
+|E5|Access the Microsoft 365 latest products and features. These include Defender Suite, Purview Suite, and more. This plan includes all E3 capabilities, plus advanced security, voice, and data analysis tools. In the coming months, Security Copilot will be included in Microsoft 365 E5. See [Understand Security Copilot in Microsoft 365 E5](https://aka.ms/scpinclusioninfo).|
 |F3|Connect with your first-line workers through purpose-built tools and resources that they can use to help them do their best work.|
 
 If you have Microsoft 365 E3, you can also get add-ons, such as the Microsoft Defender Suite and the Microsoft Purview Suite to enhance your security and compliance capabilities.
@@ -56,31 +56,19 @@ For more information, see [Find the best Microsoft 365 plan for your organizatio
 
 There are three ways to plan for and deploy the products, features, and components of Microsoft 365 for enterprise:
 
-- In partnership with FastTrack
+- **In partnership with FastTrack**. With FastTrack, Microsoft engineers help you move to the cloud at your own pace. See [FastTrack for Microsoft 365](https://fasttrack.microsoft.com/microsoft365).
 
-   With FastTrack, Microsoft engineers help you move to the cloud at your own pace. See [FastTrack for Microsoft 365](https://fasttrack.microsoft.com/microsoft365).
+- With the help of Microsoft Consulting Services or a [Microsoft partner](https://partner.microsoft.com/). Consultants can analyze your current infrastructure and help you develop a plan to incorporate all the software and services of Microsoft 365 for enterprise.
 
-- With the help of Microsoft Consulting Services or a [Microsoft partner](https://partner.microsoft.com/)
-
-   Consultants can analyze your current infrastructure and help you develop a plan to incorporate all the software and services of Microsoft 365 for enterprise.
-
-- Do it yourself
-
-   Start with the [Networking roadmap](networking-roadmap-microsoft-365.md) to build out or verify your existing infrastructure and productivity workloads.
+- **Do it yourself**. Start with the [Networking roadmap](networking-roadmap-microsoft-365.md) to build out or verify your existing infrastructure and productivity workloads.
 
 ## Additional Microsoft 365 products
 
-- [Microsoft 365 Business Premium](/microsoft-365/business/)
+- **[Microsoft 365 Business Premium](/microsoft-365/business/)**: Bring together the best-in-class productivity and collaboration capabilities with device management and security solutions to safeguard business data for small and midsize businesses.
 
-  Bring together the best-in-class productivity and collaboration capabilities with device management and security solutions to safeguard business data for small and midsize businesses.
+- **[Microsoft 365 Education](/education)**: Empower educators to unlock creativity, promote teamwork, and provide a simple and safe experience in a single, affordable solution built for education.
 
-- [Microsoft 365 Education](/education)
-
-  Empower educators to unlock creativity, promote teamwork, and provide a simple and safe experience in a single, affordable solution built for education.
-
-- [Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government)
-
-  Empower United States public sector employees to work together, securely.
+- **[Microsoft 365 Government](https://www.microsoft.com/microsoft-365/government)**: Empower United States public sector employees to work together, securely.
 
 ## Microsoft 365 training
 
