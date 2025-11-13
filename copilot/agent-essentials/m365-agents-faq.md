@@ -4,7 +4,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 11/12/2025
+ms.date: 11/13/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -25,7 +25,7 @@ Whether you need an agent or a connector depends on your business needs. Copilot
 - **Copilot agents** extend the functionality of Copilot by acting as specialized AI assistants tailored to specific domains or use cases. You can use agents to extend Copilot's knowledge, automate workflows, and deliver tailored user experiences in Microsoft Teams, Outlook, SharePoint, or custom apps. You can create a declarative agent using Copilot's AI infrastructure, model, and orchestrator. Or, for complex workflows or specific language models, you can create a custom agent. For more information, see [Agents for Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agents-overview).
 - **Copilot connectors** enable you to ingest data, such as unstructured, line-of-business data, into the Microsoft Graph so that Copilot can reason over that data alongside other data. There are more than 100 prebuilt Copilot connectors available, and the Connectors API can be used to create custom connectors. For more information, see [Microsoft 365 Copilot Connectors](/microsoft-365-copilot/extensibility/overview-copilot-connector).
 
-To get started, [review our planning guide](/microsoft-365-copilot/extensibility/planning-guide), which can help you define your business need, and determine whether you need an agent or a connector. 
+To get started, [review our planning guide](/microsoft-365-copilot/extensibility/planning-guide), which can help you define your business need, and determine whether you need an agent or a connector. Also see [Understand available agent options](m365-agents-admin-guide.md#understand-available-agent-options).
 
 ## What kinds of Copilot agents are available?
 
@@ -34,7 +34,10 @@ There are two main types of Copilot agents you can create:
 - **[Declarative agents](/microsoft-365-copilot/extensibility/agents-overview#declarative-agents)**, which use Copilot's AI infrastructure, model, and orchestrator. These agents are built using low-code tools like Copilot Studio (lite) or pro-code tools like Visual Studio, Visual Studio Code, and the Microsoft 365 Agents Toolkit. Declarative agents run in Microsoft 365 Copilot and Microsoft 365 apps like Teams, Outlook, and SharePoint.
 - **[Custom engine agents](/microsoft-365-copilot/extensibility/agents-overview#custom-engine-agents)**, which are fully customized AI assistants. These agents require hosting outside of Microsoft 365, and are typically built using low-code Copilot Studio or pro-code tools like Visual Studio, Visual Studio Code, and Agents Toolkit, using languages such as .NET, Python, and JavaScript, and frameworks like Semantic Kernel or LangChain.
 
-To help decide which type of agent to build, see [Choose what type of agent to build](/microsoft-365-copilot/extensibility/agents-overview#choose-what-type-of-agent-to-build).
+For more information, see the following articles:
+
+- [Choose what type of agent to build](/microsoft-365-copilot/extensibility/agents-overview#choose-what-type-of-agent-to-build)
+- [Understand available agent options](m365-agents-admin-guide.md#understand-available-agent-options)
 
 ## Who can create, build, and share Copilot agents?
 
@@ -45,24 +48,10 @@ To help decide which type of agent to build, see [Choose what type of agent to b
 
 People in your organization can also [sideload agents](/copilot/microsoft-365/agent-essentials/agent-policies/agent-sideload), [share agents](/microsoft-365/admin/manage/manage-shared-agents), and [publish agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#publish-agents), according to tenant policies and admin controls that are configured in the Microsoft 365 admin center. 
 
-For more information, see [Manage access to Copilot agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#manage-access-to-copilot-agents).
-<!---
+For more information, see the following articles:
 
-## For my specific use cases, how do I know which Copilot extensibility option to use?
-
-The following table summarizes use cases and Copilot extensibility options.
-
-| Use case | Option |
-|--|--|
-| Simple retrieval, such as asking questions based on uploaded documents or links | Copilot |
-| Comparative analysis, such as comparing features, language, or terms across documents | Copilot |
-| Multistep reasoning, such as log chains, decision trees, or conditional flows | Custom agent |
-| Workflow automation, such as structured tasks, approvals, or integrations | Custom agent |
-| Role-specific guidance, such as tailored responses by user role or context | Custom agent |
-| External system integration, such as using data from APIs, databases, or internal tools | Custom agent/connector |
-| Data enrichment or transformation, such as pulling, transforming, or combining data from multiple sources | Connector/notebook |
-| Advanced analytics/visualization, such as custom calculations, dashboards, or visualizations | Notebook |
---->
+- [Microsoft 365 Copilot agents admin guide](m365-agents-admin-guide.md)
+- [Manage access to Copilot agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#manage-access-to-copilot-agents)
 
 ## What tools do I need to create, build, implement, and use Copilot agents?
 
@@ -88,6 +77,8 @@ The following governance options are available for Copilot agents:
 - **[Microsoft Purview](/purview/ai-microsoft-purview)**: Compliance, audit, and eDiscovery across all extensibility options
 - **Admin Centers**: [Microsoft 365 Admin Center](/microsoft-365/admin/admin-overview/admin-center-overview) and [Power Platform Admin Center](/microsoft-365/admin/admin-overview/admin-center-overview) for configuration and enforcement.
 
+See [Understand agent security, privacy, and compliance](m365-agents-admin-guide.md#understand-agent-security-privacy-and-compliance).
+
 ## Can administrators monitor Copilot agent usage? 
 
 Yes. Reports are available to help administrators monitor licenses, agents, and deployments. Custom reports can also be created. See [Copilot Control System measurement and reporting](/copilot/microsoft-365/copilot-control-system/security-governance).
@@ -111,7 +102,10 @@ Agents run under an identity, whether it's the user's identity or a managed iden
 
 Role-based access control (RBAC) is part of the enforcement model. Administrators can restrict agent creation and usage in the Copilot Control System and enforce RBAC policies across environments.
 
-For more information, see [Copilot Control System security and governance](/copilot/microsoft-365/copilot-control-system/security-governance).
+For more information, see the following articles:
+
+- [Copilot Control System security and governance](/copilot/microsoft-365/copilot-control-system/security-governance)
+- [Understand agent security, privacy, and compliance](m365-agents-admin-guide.md#understand-agent-security-privacy-and-compliance)
 
 ## What controls should administrators implement for Copilot agents?
 
@@ -122,3 +116,10 @@ In general, administrators should take the following actions:
 - Configure [integrated apps settings](/copilot/microsoft-365/microsoft-365-copilot-app-admin-settings) for extensibility enablement and granular controls
 
 For more information, see [Microsoft 365 Copilot agents admin guide](/copilot/microsoft-365/agent-essentials/m365-agents-admin-guide).
+
+## Additional resources
+
+- [Microsoft 365 Copilot agents admin guide](/copilot/microsoft-365/agent-essentials/m365-agents-admin-guide)
+- [Microsoft 365 Copilot agents deployment blueprint](m365-agents-blueprint.md)
+- [Microsoft 365 agents deployment checklist](m365-agents-checklist.md)
+- [Microsoft 365 Copilot agents visual guide](m365-agents-visual-map.md)
