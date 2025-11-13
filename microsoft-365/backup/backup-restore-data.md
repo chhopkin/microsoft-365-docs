@@ -129,7 +129,7 @@ Use this option to perform a restore of only selected files and folders from a O
    > [!NOTE]
    > You can only restore files and folders selected from a single folder in the hierarchy. Browsing to other folders will clear your selected items.
    
-1. Once you have selected your desired files and folders, click Next to move to the review step before restoring.
+1. Once you have selected your desired files and folders, click **Next** to move to the review step before restoring.
 1. On the **Review and Finish** page, review and finish all your choices. If everything looks as you want it, select **Start restoration**.
 
 # [SharePoint](#tab/sharepoint)
