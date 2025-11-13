@@ -108,8 +108,20 @@ Follow these steps to restore data backed up for OneDrive.
 ### Option 2: Selected content only (preview)
 
 
-Use this option to perform a restore of only selected files and folders from a OneDrive account restore point. 
+Use this option to perform a restore of only selected files and folders from a OneDrive account restore point. In the Microsoft 365 admin center, on the **Microsoft 365 Backup** page, in the **OneDrive** section, select **Restore**.  In this flow, the **Restore specific files or folders** option gives M365 Backup admins the capability to restore a subset of the account's files and folders from a specific restore point. 
 
+![Granular restore step selection](media/backup-restore-data/granular-restore-step-selection.png)
+
+1. Start by selecting the protected OneDrive account you wish to restore from the list of backed up OneDrive accounts and then select **Next**.
+
+1. On the next page, select the date from which you want to restore files and folders. If no restore point is available for the selected date, you will be prompted to confirm selection of the nearest restore point. 
+
+1. In the **Content** section, you may be prompted to select the subsite and document library you wish to browse. If there are multiple document libraries to choose from, then you can utilize the **Search** box to identify the desired document library.
+
+1. In the **Select files & folders** section, you will be able to traverse the folder hierarchy until you reach the folder from which you wish to restore. Clicking on the folder's title will enter that folder, while checking the checkbox will select it for restore.  
+
+   ![GR selection step](media/backup-restore-data/gr-selection-step.png)
+   
 # [SharePoint](#tab/sharepoint)
 
 > [!NOTE]
