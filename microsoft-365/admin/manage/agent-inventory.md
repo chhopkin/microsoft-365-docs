@@ -139,7 +139,7 @@ For more information, see [Sensitivity labels for agent embedded content](/micro
 
 For **Researcher with Computer Use** onboarding instructions, see the following short video:
 
-> [!VIDEO https://youtu.be/N3vLF9mnd8w]
+> [!VIDEO https://www.youtube.com/embed/N3vLF9mnd8w?si=XJaYnCQYNy_CeuFc]
 
 **Researcher with Computer Use** is a powerful extension that builds on the capabilities of the Researcher agent. With Computer Use, Researcher agent can securely interact with public, gated, and interactive web content through virtual computer-enabling users to uncover deeper insights, take action, and generate richer reports grounded in both their work data and the web. For more information, see [Use Researcher with Computer use in Microsoft 365 Copilot](?).
 
