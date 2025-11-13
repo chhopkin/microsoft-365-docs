@@ -105,8 +105,10 @@ Follow these steps to restore data backed up for OneDrive.
 
     ![Screenshot showing the Review and finish page for OneDrive.](../media/m365-backup/backup-onedrive-review-finish.png)
 
-### Option 2: Selected content only
+### Option 2: Selected content only (preview)
 
+
+Use this option to perform a restore of only selected files and folders from a OneDrive account restore point. 
 
 # [SharePoint](#tab/sharepoint)
 
