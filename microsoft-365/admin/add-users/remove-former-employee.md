@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: 10/28/2025
 audience: Admin
 ms.topic: solution-overview
-ms.service: microsoft-365-business
+ms.service: microsoft-365-security
 ms.localizationpriority: medium
 ms.collection:
 - Tier1
@@ -18,7 +18,6 @@ ms.collection:
 - Adm_TOC
 - SPO_Content
 - m365solution-overview
-- trust-pod
 ms.custom:
 - has-azure-ad-ps-ref
 - azure-ad-ref-level-one-done
