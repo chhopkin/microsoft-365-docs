@@ -262,6 +262,9 @@ Currently, the Workday connector in Power Platform supports three types of authe
 
 In this article, you learn how to set up the **Microsoft Entra ID Integrated** authentication method. You need to complete the SSO configuration in order to do this setup.
 
+> [!NOTE]
+> We recommend using Microsoft Entra ID Integrated. With this method, users benefit from automatic connection establishment using SSO, and token refresh occurs seamlessly. Use Basic authentication only for testing purposes, as it doesn't support SSO.
+
 When you install the Workday connector, the first step is to set up connections using the form. Fill out the following fields:
 
 **Microsoft Entra resource URL (Application ID URI)**
