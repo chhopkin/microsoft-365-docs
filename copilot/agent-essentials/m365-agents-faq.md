@@ -36,7 +36,7 @@ There are two main types of Copilot agents you can create:
 - **[Declarative agents](/microsoft-365-copilot/extensibility/agents-overview#declarative-agents)**, which use Copilot's AI infrastructure, model, and orchestrator. These agents are built using low-code tools like Copilot Studio (lite) or pro-code tools like Visual Studio, Visual Studio Code, and the Microsoft 365 Agents Toolkit. Declarative agents run in Microsoft 365 Copilot and Microsoft 365 apps like Teams, Outlook, and SharePoint.
 - **[Custom engine agents](/microsoft-365-copilot/extensibility/agents-overview#custom-engine-agents)**, which are fully customized AI assistants. These agents require hosting outside of Microsoft 365, and are typically built using low-code Copilot Studio or pro-code tools like Visual Studio, Visual Studio Code, and Agents Toolkit, using languages such as .NET, Python, and JavaScript, and frameworks like Semantic Kernel or LangChain.
 
-To help decide which type of agent to build, see the following articles:
+For more information, see the following articles:
 
 - [Choose what type of agent to build](/microsoft-365-copilot/extensibility/agents-overview#choose-what-type-of-agent-to-build)
 - [Understand available agent options](m365-agents-admin-guide.md#understand-available-agent-options)
