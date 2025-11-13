@@ -134,6 +134,7 @@ Use this option to perform a restore of only selected files and folders from a p
 
 # [SharePoint](#tab/sharepoint)
 
+### Option 1: Full SharePoint site restore
 > [!NOTE]
 > We recommend choosing an express restore point for full account or site restores, as it provides the fastest restore experience. Express restore is currently only relevant for SharePoint and OneDrive.
 
