@@ -37,9 +37,14 @@ This guide:
 
 Organizations typically deploy a combination of Microsoft 365 Copilot Chat and Microsoft 365 Copilot. Before you get started, it's important to understand the differences between these two offerings when it comes to deploying and using agents.
 
-Microsoft 365 Copilot Chat is available at no additional cost for all Microsoft Entra account users with a Microsoft 365 or Office 365 subscription. Members of your organization can use agents that are available at no additional cost from the Agent Store. You, as the administrator of your organization, would also need to enable these agents. If your organization requires agents that incorporate your organization’s data, you can provide access to [agents](/copilot/agents) that are billed based on metered consumption. For more information about Microsoft 365 Copilot Chat, see [Requirements and considerations for Microsoft 365 Copilot Chat admins]().
+Microsoft 365 Copilot Chat is available at no additional cost for all Microsoft Entra account users with a Microsoft 365 or Office 365 subscription. Members of your organization can use agents that are available at no additional cost from the Agent Store. You, as the administrator of your organization, would also need to enable these agents. If your organization requires agents that incorporate your organization’s data, you can provide access to [agents](/copilot/agents) that are billed based on metered consumption.
 
-Microsoft 365 Copilot, which includes Microsoft 365 Copilot Chat, requires a Microsoft 365 [Business](https://www.microsoft.com/microsoft-365/business/with-copilot-plans-and-pricing) or [Enterprise](https://www.microsoft.com/microsoft-365/enterprise/microsoft365-plans-and-pricing) plan. It includes AI-powered chat grounded in both web-based and work-based data, as well as the capabilities of Microsoft 365 Copilot Chat. In addition, Microsoft 365 Copilot unlocks embedded Copilot features in Word, Excel, Outlook, and Teams. Additionally, your organization can use [custom agents](/microsoft-365-copilot/extensibility/overview-custom-engine-agent). For more information about deploying Microsoft 365 Copilot, including setting up a Microsoft 365 Copilot rollout plan, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization]().
+<!-- For more information about Microsoft 365 Copilot Chat, see [Requirements and considerations for Microsoft 365 Copilot Chat admins](). -->
+
+Microsoft 365 Copilot, which includes Microsoft 365 Copilot Chat, requires a Microsoft 365 [Business](https://www.microsoft.com/microsoft-365/business/with-copilot-plans-and-pricing) or [Enterprise](https://www.microsoft.com/microsoft-365/enterprise/microsoft365-plans-and-pricing) plan. It includes AI-powered chat grounded in both web-based and work-based data, as well as the capabilities of Microsoft 365 Copilot Chat. In addition, Microsoft 365 Copilot unlocks embedded Copilot features in Word, Excel, Outlook, and Teams. Additionally, your organization can use [custom agents](/microsoft-365-copilot/extensibility/overview-custom-engine-agent). 
+
+<!--
+For more information about deploying Microsoft 365 Copilot, including setting up a Microsoft 365 Copilot rollout plan, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](). -->
 
 Each Copilot option offers different capabilities. For a list of these capabilities, see [Agent capabilities for Microsoft 365 users](/microsoft-365-copilot/extensibility/prerequisites#agent-capabilities-for-microsoft-365-users).
 
@@ -180,14 +185,21 @@ For more information about developing agents, see [Microsoft 365 Agents Toolkit]
 
 ## Set agent policies
 
-Agent policies refer to the tenant settings you can make as an administrator in the Copilot Control System within Microsoft 365 admin center. Agent policies relate to the available settings for all agents in your tenant. Additionally, these policies include agent access, agent sharing, and agent publishing settings. You must have appropriate [admin permissions]() to access Copilot agent settings for your tenant. Setting agent policies, [managing agent inventory](), [assigning and deploying agents]() to members of your organization all fall under Copilot [agent governance]().  
+Agent policies refer to the tenant settings you can make as an administrator in the Copilot Control System within Microsoft 365 admin center. Agent policies relate to the available settings for all agents in your tenant. Additionally, these policies include agent access, agent sharing, and agent publishing settings. You must have appropriate [admin permissions](#admin-permissions) to access Copilot agent settings for your tenant. Setting [agent policies](#set-agent-policies), [managing agent inventory](#manage-agent-lifecycle), and [assigning and deploying agents](#assign-and-deploy-agents) to members of your organization all fall under Copilot [agent governance](#understand-agent-governance).  
 
 > [!NOTE]
 > In addition to the agent settings available in Microsoft 365 admin center, there are specific settings for agent created with Copilot Studio in the [Power Platform admin center](/power-platform/admin/admin-documentation?tabs=new). 
 
 ### Understand agent governance
 
-Copilot agent governance refers to managing agents across your organization using policies, settings, and actions. You can create policies to [globally maintain appropriate access to agents](), and use administration settings and controls to approve, publish, deploy, remove, and block agents for your organization. By effectively managing Copilot agents, you can help protect and secure the agents and data that your organization uses in a responsible and compliant approach.
+Copilot agent governance refers to managing agents across your organization using policies, settings, and actions. You can create policies to globally maintain appropriate access to agents, and use administration settings and controls to approve, publish, deploy, remove, and block agents for your organization. By effectively managing Copilot agents, you can help protect and secure the agents and data that your organization uses in a responsible and compliant approach.
+
+For more information related to agent governance, see the following resources:
+- [Microsoft 365 Copilot agents deployment blueprint](m365-agents-blueprint.md)
+- [Microsoft 365 Copilot agents visual guide](m365-agents-visual-map.md)
+- [Microsoft 365 agents deployment checklist](m365-agents-checklist.md)
+- [What governance or controls are available for agents?](m365-agents-faq.md#what-governance-or-controls-are-available-for-agents)
+- [Governance and security best practices overview](/microsoft-copilot-studio/guidance/sec-gov-intro)
 
 ### Admin permissions
 
