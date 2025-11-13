@@ -118,3 +118,10 @@ In general, administrators should take the following actions:
 - Configure [integrated apps settings](/copilot/microsoft-365/microsoft-365-copilot-app-admin-settings) for extensibility enablement and granular controls
 
 For more information, see [Microsoft 365 Copilot agents admin guide](/copilot/microsoft-365/agent-essentials/m365-agents-admin-guide).
+
+## Additional resources
+
+- [Microsoft 365 Copilot agents admin guide](/copilot/microsoft-365/agent-essentials/m365-agents-admin-guide)
+- [Microsoft 365 Copilot agents deployment blueprint](m365-agents-blueprint.md)
+- [Microsoft 365 agents deployment checklist](m365-agents-checklist.md)
+- [Microsoft 365 Copilot agents visual guide](m365-agents-visual-map.md)
