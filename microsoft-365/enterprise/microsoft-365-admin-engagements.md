@@ -91,7 +91,7 @@ Examples of qualifying projects include:
 
 If you're planning a significant business event, you can submit a BPA request to inform Microsoft’s Service Engineering team in advance.
 
-<image>
+:::image type="content" source="../enterprise/media/enhanced-engagements/bpa-intake-form.png" alt-text="Screenshot of business project awareness intake form in enhanced engagements portal." lightbox="../enterprise/media/enhanced-engagements/bpa-intake-form.png":::
 
 1. In the **Enhanced engagements** section, go to **Engagements** > **BPAs**.
 2. Select **Submit new BPA**.
