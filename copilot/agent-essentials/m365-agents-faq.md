@@ -55,24 +55,6 @@ For more information, see the following articles:
 - [Microsoft 365 Copilot agents admin guide](m365-agents-admin-guide.md)
 - [Manage access to Copilot agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#manage-access-to-copilot-agents).
 
-<!---
-
-## For my specific use cases, how do I know which Copilot extensibility option to use?
-
-The following table summarizes use cases and Copilot extensibility options.
-
-| Use case | Option |
-|--|--|
-| Simple retrieval, such as asking questions based on uploaded documents or links | Copilot |
-| Comparative analysis, such as comparing features, language, or terms across documents | Copilot |
-| Multistep reasoning, such as log chains, decision trees, or conditional flows | Custom agent |
-| Workflow automation, such as structured tasks, approvals, or integrations | Custom agent |
-| Role-specific guidance, such as tailored responses by user role or context | Custom agent |
-| External system integration, such as using data from APIs, databases, or internal tools | Custom agent/connector |
-| Data enrichment or transformation, such as pulling, transforming, or combining data from multiple sources | Connector/notebook |
-| Advanced analytics/visualization, such as custom calculations, dashboards, or visualizations | Notebook |
---->
-
 ## What tools do I need to create, build, implement, and use Copilot agents?
 
 Depending on what you want to do, Copilot agent tools are available, as summarized in the following table:
