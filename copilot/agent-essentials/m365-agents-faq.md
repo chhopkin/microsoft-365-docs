@@ -104,7 +104,10 @@ Agents run under an identity, whether it's the user's identity or a managed iden
 
 Role-based access control (RBAC) is part of the enforcement model. Administrators can restrict agent creation and usage in the Copilot Control System and enforce RBAC policies across environments.
 
-For more information, see [Copilot Control System security and governance](/copilot/microsoft-365/copilot-control-system/security-governance) and [Understand agent security, privacy, and compliance](m365-agents-admin-guide.md#understand-agent-security-privacy-and-compliance).
+For more information, see the following articles:
+
+- [Copilot Control System security and governance](/copilot/microsoft-365/copilot-control-system/security-governance)
+- [Understand agent security, privacy, and compliance](m365-agents-admin-guide.md#understand-agent-security-privacy-and-compliance)
 
 ## What controls should administrators implement for Copilot agents?
 
