@@ -53,7 +53,7 @@ People in your organization can also [sideload agents](/copilot/microsoft-365/ag
 For more information, see the following articles:
 
 - [Microsoft 365 Copilot agents admin guide](m365-agents-admin-guide.md)
-- [Manage access to Copilot agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#manage-access-to-copilot-agents).
+- [Manage access to Copilot agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#manage-access-to-copilot-agents)
 
 ## What tools do I need to create, build, implement, and use Copilot agents?
 
