@@ -41,7 +41,7 @@ The Employee Self-Service agent acts as a front-end for consuming information fr
 
 :::image type="content" source="media/agent-and-success-factors-integration.png" alt-text="Diagram of the high-level components comprising overall solution for the Employee Self-Service agent and SuccessFactors integration." lightbox="media/agent-and-success-factors-integration.png":::
 
-The diagram outlines the high-level components comprising overall solution for the Employee Self-Service agent and SuccessFactors integration. There are different activities to be performed as part of initial deployment and for an ongoing operation. As the solution involves multiple technologies, you should spend some time initially understanding the various components and bring in the right stakeholders to set up an environment to deploy and test the Employee Self-Service agent.
+The diagram outlines the high-level components comprising overall solution for the Employee Self-Service agent and SuccessFactors integration. There are different activities to be performed as part of initial deployment and for an ongoing operation. As the solution involves multiple technologies, you should spend some time initially understanding the various components. Bring in the right stakeholders to set up an environment to deploy and test the Employee Self-Service agent.
 
 > [!NOTE]
 > SuccessFactors integration is currently based on OData V2.0, but the latest supported version is V4.0. Microsoft Entra ID using SuccessFactors is still a prerelease version and is subject to change.
@@ -256,7 +256,7 @@ This step is required to set the user context for the Employee Self-Service agen
 
 ### Set up templates
 
-The Employee Self-Service agent comes with few predefined template that are being used for each topic. These templates are shipped with the default data attribute paths, if there are custom entities and paths being used in SAP SuccessFactors, then these templates must be customized to match the SAP SuccessFactors entities.
+The Employee Self-Service agent comes with a few predefined templates used for each topic. These templates are shipped with the default data attribute paths, if there are custom entities and paths being used in SAP SuccessFactors, then these templates must be customized to match the SAP SuccessFactors entities.
 
 To set up templates, follow these steps:
 
@@ -362,7 +362,7 @@ check for in role id
 1. Setting a variable with the filter parameters, which in this case is the alias of the user the context is retrieved for.
 2. Next split into parallel calls to reduce time:
     1. The left side retrieves the user context config in the first Dataverse call. The second Dataverse call retrieves the filter and request entities, which we query for in the OData connector at the end. After the left side is complete, the flow retrieves all the requested entities from the config for the user.
-    2. The right side retrieves the config to check if user *isManager* in the first Dataverse call. The second Dataverse call flow retrieves the filter and request entities to query for. With that config, the flow queries for directs under the user and retrieves necessary information such as in this case *userId* of directs.
+    2. The right side retrieves the config to check if user *isManager* in the first Dataverse call. The second Dataverse call flow retrieves the filter and request entities to query for. With that config, the flow queries for the user's direct reports and retrieves necessary information such as in this case *userId* of directs.
 3. If the SF call for user data doesn't return anything, we terminate the flow and respond to copilot user not found.
 4. We split into parallel calls to check if the user has multiple records on the left.
 5. The left side checks if there are multiple records and then runs a child flow that gets the active user ID and updates the context. Then the flow makes an OData call to get the user's roles by their user ID.
@@ -398,7 +398,7 @@ check for in role id
 
     :::image type="content" source="media/agent-authentication-flow-variable.png" alt-text="Diagram that shows Query SF OData Metadata entity." lightbox="media/agent-authentication-flow-variable.png":::
 
-8. Lastly it returns three variables, such as *labelResponse*, *modelResponse*, and *isSucceeded*.
+8. Finally, it returns three variables, such as *labelResponse*, *modelResponse*, and *isSucceeded*.
 
 ## Employee Read scenarios – configuration
 
