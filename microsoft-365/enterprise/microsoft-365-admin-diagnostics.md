@@ -44,7 +44,7 @@ Some common situations where Visual Mail Flow can be useful:
 - Identifying mail flow rules applied to an email and their actions
 - Identifying Data Loss Prevention rules applied to an email and their actions
 
-### Input Requirements
+### Input requirements
 
 To use Visual Mail Flow, you need either the email's Message ID *or* the Network Message ID. You can locate either the message ID or the network message ID by opening the email in question, go to **File** -> **Properties** -> **Internet headers**. You can parse through the headers to find either the message ID or network ID. Alternatively, you can copy/paste the entire internet header box and use a tool like [Message Header Analyzer](https://mha.azurewebsites.net/) to parse this information for you.
 
@@ -146,7 +146,7 @@ This diagnostic tool is useful in the following scenarios:
     - Description: DKIM signing configuration is correctly created and enabled with accurate DNS entries.
     - Action Required: No further action is required. Your DKIM configuration is properly set up, and your emails should be authenticated correctly by recipient systems.
 
-### Troubleshooting and Support
+### Troubleshooting and support
 
 If you encounter issues with the Validate DKIM Signing Configuration tool or need further assistance, consider the following steps: 
 
@@ -156,13 +156,13 @@ If you encounter issues with the Validate DKIM Signing Configuration tool or nee
 
 By using the Validate DKIM Signing Configuration tool effectively, you can ensure that your email authentication is robust and that your messages are protected from spoofing and tampering.
 
-## Auto Archive Detection
+## Auto archive detection
 
 Auto Archive Detection helps manage your mailbox by automatically archiving or deleting old items. This feature can be configured differently in Outlook Desktop and Outlook on the Web (OWA). Editing Auto Archive settings in Outlook can help you effectively manage your mailbox, keeping it organized and free of clutter. Whether you're using Outlook Desktop or Outlook on the Web, the steps provided will guide you through the process of configuring Auto Archive to suit your needs.
 
 Follow the following steps to enable and customize Auto Archive settings based on your version of Outlook.
 
-### For Outlook Desktop
+### For Outlook desktop
 
 1. Launch the Outlook application on your computer.
 1. Select **File** tab located in the top-left corner of the window.
@@ -199,7 +199,7 @@ Follow the following steps to enable and customize Auto Archive settings based o
 
 1. Save your changes to apply the new settings.
 
-## Remediate a Compromised Account
+## Remediate a compromised account
 
 If you or your user suspects an account has been accessed by someone who shouldn’t have access, it may be compromised. The **Remediate a Compromised Account** diagnostic will help you check different aspects of the affected mailbox and guide you through the steps to recover the account.Use this diagnostic if you or your user notice any signs that one of your user's accounts may have been compromised.
 
@@ -209,7 +209,7 @@ This diagnostic is split into multiple sections that detail steps to remediate t
 
 - Email Address of Compromised Account
 
-### Steps and Output
+### Steps and output
 
 1. Force Sign Out - First, it's important to force a user to sign out of all sessions:
 
@@ -263,7 +263,7 @@ This diagnostic is split into multiple sections that detail steps to remediate t
 
 If the user still shows signs of being compromised, reach out to Microsoft Support for further help.
 
-## Audit Log Summary
+## Audit log summary
 
 The audit log summary provides a comprehensive overview or count of the activities tracked within your tenant’s audit log. This diagnostic tool is useful for reviewing admin actions, identifying unusual administrative activity, or investigating potential rogue administrators. 
 
@@ -283,11 +283,11 @@ The output is split into two sections:
 
 1. Full User List – All users, along with a list of their activities and corresponding counts, will be displayed here in alphabetical order. Actions performed by apps will be grouped together. 
 
-## Issues with Guest Access in Teams
+## Issues with guest access in Teams
 
 The Microsoft Teams Guest Access Diagnostic is designed to resolve issues that might prevent guests from joining a team. It covers potential problems related to inviting guests, accessing team content, and using certain guest features. Since guest settings are controlled both at the organizational and team levels, the diagnostic identifies any misconfigurations that could affect guest access. It consolidates all these issues into a single report, where each misconfiguration is accompanied by administrative guidance. Moreover, it reviews how guest user accounts are provisioned and accepts optional inputs at the organization, team, and user levels, allowing you to tailor the output to your needs.
 
-### Org-level settings  
+### Organization-level settings
 
 These settings at the organization-level are evaluated to check for misconfiguration.  
 
@@ -298,11 +298,11 @@ These settings at the organization-level are evaluated to check for misconfigura
 |SharePoint External Sharing settings |SharePoint Admin Center |"Only people in your organization" Existing guests only" |
 |Guest Access setting |Teams Admin Center |Off |
 
-### User-level Setup
+### User-level setup
 
 If a guest user is supplied as an input, the diagnostic verifies their account provisioning in both Entra and Teams. Furthermore, if a Teams team is also provided, it checks whether that guest is a member of the specified team.
 
-### Additional Settings
+### Additional settings
 
 In addition, this diagnostic also displays some settings that could affect your guest access experience. These settings are not evaluated for misconfiguration.  
 
@@ -332,11 +332,11 @@ This diagnostic tool assists administrators in identifying and resolving issues 
 
 The diagnostic requires the affected user’s organizational email address. With a simple selection of the ‘Troubleshoot’ option, the tool starts analyzing the configuration, with results available in approximately 30 seconds. 
 
-### Interpreting Diagnostic Results
+### Interpreting Diagnostic results
 
 The diagnostic performs a series of configuration checks related to Teams Phone settings, with a particular focus on verifying whether the user has been assigned a domestic or international Calling Plan license. This verification is key in determining if the user can successfully make or receive PSTN calls outside the organization. By highlighting any discrepancies or license issues, the diagnostic assists administrators in pinpointing problems that might cause call failures or connectivity issues. 
 
-### Investigating Further
+### Investigating further
 
 If the troubleshooting process does not resolve the PSTN calling issue, administrators are advised to contact Microsoft Support for more specialized assistance.
 
