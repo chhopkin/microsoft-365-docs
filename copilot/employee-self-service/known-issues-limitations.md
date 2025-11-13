@@ -28,7 +28,6 @@ This guide includes:
 - Publishing & Deployment Nuances: ESS might not immediately appear in Teams or Copilot after publishing, and extra steps might be needed to make it visible and accessible to users.
 - User Experience Gaps: Customizations like tone configuration, welcome messages ("Hello" topics), and sensitivity label recognition aren't fully supported yet but have guidance or planned support underway.
 - Content Handling Limits: Semantic indexing has limits (~200 pages), and certain content formats (for example, link-only pages or Graph Connector content) might lead to reduced response quality.
-- Licensing and Flow Execution: Only prepackaged Agent Flows are included in ESS. Custom flows might incur per-execution costs when supported post-July 2025.
 
 Our goal is to be transparent, help you avoid surprises, and guide you toward quick wins using supported configurations and best practices.
 
