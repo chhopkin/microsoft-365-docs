@@ -4,7 +4,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 11/12/2025
+ms.date: 11/13/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -26,6 +26,8 @@ Whether you need an agent or a connector depends on your business needs. Copilot
 - **Copilot connectors** enable you to ingest data, such as unstructured, line-of-business data, into the Microsoft Graph so that Copilot can reason over that data alongside other data. There are more than 100 prebuilt Copilot connectors available, and the Connectors API can be used to create custom connectors. For more information, see [Microsoft 365 Copilot Connectors](/microsoft-365-copilot/extensibility/overview-copilot-connector).
 
 To get started, [review our planning guide](/microsoft-365-copilot/extensibility/planning-guide), which can help you define your business need, and determine whether you need an agent or a connector. 
+
+Also see [Understand available agent options](m365-agents-admin-guide.md#understand-available-agent-options).
 
 ## What kinds of Copilot agents are available?
 
