@@ -49,7 +49,9 @@ sections:
 
       - question: Can I combine Microsoft 365 Business Premium with other Microsoft subscription offerings?
         answer: |
-          Yes. You can combine Business Premium subscriptions with plans and add-ons from Azure, Dynamics 365, Enterprise Mobility + Security, and Office 365. You can also purchase seats across all of our Business family of plans (Business Basic, Business Standard, Business Premium), provided the total seat count does not exceed 300 seats in total.
+          Yes. You can combine Business Premium subscriptions with plans and add-ons from Azure, Dynamics 365, Enterprise Mobility + Security, and Office 365. 
+          
+          You can also purchase seats across all of our Business family of plans (Business Basic, Business Standard, Business Premium), provided the total seat count does not exceed 300 seats in total.
 
       - question: Is everyone in my organization required to have a Microsoft 365 Business Premium subscription?
         answer: |
