@@ -55,7 +55,7 @@ The following table shows the relationship between VL roles in the retired Volum
 | Product keys reader             | Product Keys         | Can view contracts and contract keys, manage activation and redemption of online services, and view keys on the **Products and services** page. |
 | Benefits reader                 | Software Assurance Manager | Can view contracts and manage Workplace Discount Software Assurance entitlements. |
 | Online services manager         | Online Services Manager    | Can view contracts and orders, reserve online services, manage activation and redemption of online services, and manage subscriptions on the **Billing** > **Licenses** page. |
-| Invoice Reader                  | N/A                        | Can view contracts, the list of invoices, and can download invoices.<br/><br/>This role is automatically assigned to the person listed on the licensing contact as the **Bill To** contract and can’t be assigned to the VL admin. |
+| Invoice Reader                  | N/A                        | Can view contracts, the list of invoices, and can download invoices.<br/><br/>This role is automatically assigned to the person listed on the licensing contact as the **Bill To** contract and can’t be assigned to the VL admin.<br/><br/>If you're an EA or EU customer, the Invoice Reader role isn't assigned to the **Bill To** contact. The VL Administrator can view the invoices or assign the Invoice Reader role to any user. |
 
 ## Understand the volume licensing administrator role
 
@@ -80,11 +80,13 @@ If you no longer want to be a VL Administrator, you must first assign the VL Adm
 
 **For EA and EU customers only:** If you're named as a Notice contact for a contract, you receive an email regarding permission for the admin center.
 
-### Change the Primary or Notice contact information on the licensing contract
+### Change the Primary or Notice Contact information on the licensing contract
 
 If you want to change who is named on a VL contract with a role such as Primary Contact or Notice Contact, contact your Microsoft partner or seller to process a Change of Contact Information Request to update the License IDs that list you with this role.
 
 Updating the Notices Contact information on active VL contracts helps ensure that any Microsoft or partner communications are received.
+
+If you're an EA or EU customer, when you update the Notice Contact, you don’t get the VL Administrator role, and must ask an existing VL Administrator on the agreement to add you. If there are no active VL Administrators on the agreement, you must submit a change in contact information request via your partner. Next, [contact volume licensing support](contact-vl-support.md) to submit a support request confirming the agreement (License ID) and the Entra ID that you want to use to access the agreement in the Microsoft 365 admin center.
 
 > [!NOTE]
 > You don't have to continually update legal participant roles on VL contracts that are no longer active. After there's at least one active VL Administrator for each License ID, the licenses remain accessible to your organization, and you can add or remove administrators.  
