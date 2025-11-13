@@ -5,11 +5,11 @@ ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 ms.reviewer: georgerozo
-ms.date: 11/06/2025
+ms.date: 11/12/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
-ms.service: microsoft-365-copilot
+ms.service: microsoft-365-security
 ms.localizationpriority: medium
 ms.collection: 
 - m365copilot
@@ -164,4 +164,5 @@ Download and review our scenario-based deployment models, presentations, and gui
 ## See also
 
 - [Frequently asked questions about Copilot Chat](/copilot/faq)
+- [Copilot-generated files: Where they're stored](/copilot/privacy-and-protections#generating-files)
 - [Help for end users: Get started with Microsoft 365 Copilot Chat](https://support.microsoft.com/en-us/topic/get-started-with-microsoft-365-copilot-chat-5b00a52d-7296-48ee-b938-b95b7209f737)
