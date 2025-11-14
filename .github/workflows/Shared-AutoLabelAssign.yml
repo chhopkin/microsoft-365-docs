@@ -43,9 +43,7 @@ jobs:
           id: checkout-repo
           uses: actions/checkout@v4
           with:
-            repository: ${{ fromJson(inputs.PayloadJson).event.pull_request.head.repo.full_name }}
-            ref: ${{ fromJson(inputs.PayloadJson).event.pull_request.head.ref }}
-            fetch-depth: 0
+            ref: ${{ fromJson(inputs.PayloadJson).event.pull_request.head.sha }}
         
         - name: Create App Token
           id: app-token
