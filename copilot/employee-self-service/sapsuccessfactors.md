@@ -224,9 +224,25 @@ These steps are required to install and enable the SuccessFactors extension pack
 > [!NOTE]
 > SAP SF OData connector uses maker connection, which is the SF API user credentials, in all flows to establish connection.
 
+### Set up Environment Variables
+
+This section contains the environment variables for the SAP SuccessFactors instance you're integrating, based on your organization's operational policies.
+
+The following table shows the list of variables and the purpose of each variable to be customized based on your organization's needs. We recommend you work with an SAP SuccessFactors subject matter expert to better understand the operational model.
+
+|Environmental variable                    |Description |
+|------------------------------------------|------------|
+|SuccessFactors_EC_Link                    |Variable stores the link which gets used when update Topic is successful so the user can go on to Employee Central (EC) in SuccessFactors to check their updates. </br>The default value is `https://hcm41.sapsf.com/sf/start/` </BR>The default value needs to be changed to your organization's EC link. |
+|SuccessFactors_EC_DisplayName             |Variable stores the name to show the user for EC link. </br>The default value is **Employee Central**. |
+|SuccessFactors_RaceAndEthnicity_Countries |Variable stores the countries that support the race and ethnicity Topic. </br>The data type is Array. </br>The default value is ["USA","GBR"] </br> This variable is used in the Topic to validate the user is part of the country list using UserContext_Country_Code. |
+|SuccessFactors_VeteranInfo_Countries      |Variable stores the countries that support the veteran info Topic. </br>The data type is Array. </br>The default value is ["USA","GBR"]. </br>This variable is used in the Topic to validate the user is part of the country list using UserContext_Country_Code. |
+|SuccessFactors_CostCenterSupport_Link     |Variable stores the link used in the write cost center Topic as a support link when the user fails to input a valid cost center. |
+
+Learn more about [using environment variables in Power Platform solutions](/power-apps/maker/data-platform/environmentvariables#enter-new-values-while-importing-solutions) when following the steps to enter values for the environment variables while you're importing solutions.
+
 ### Set up SuccessFactors extension pack for the Employee Self-Service agent
 
-The SuccessFactors extension pack requires few initial setups for the agent flows and templates. The following sections walk you through the process for configuring the required components.
+The SuccessFactors extension pack requires some initial setup for the agent flows and templates. The following sections walk you through the process for configuring the required components.
 
 ### Setup User Context
 
