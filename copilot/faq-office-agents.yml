@@ -9,7 +9,7 @@ metadata:
   ms.date: 11/12/2025
 
 title: "Frequently asked questions about Word, Excel, and PowerPoint agents (Frontier)"
-summary: Microsoft 365 is expanding its integration with Anthropic's Claude AI within Copilot, allowing users to create Word, Excel, and PowerPoint files using advanced AI-driven creation agents.
+summary: Microsoft 365 is expanding its integration with reasoning models within Copilot, allowing users to create Word, Excel, and PowerPoint files using advanced AI-driven creation agents.
 
 sections:
   - name: General functionality
@@ -17,15 +17,19 @@ sections:
       
       
       - question: "How do I enable or disable Claude for our organization?"
-        answer: "Navigate to **Copilot > Settings > AI providers** section in **Microsoft 365 admin center**."
-      
+        answer: " Go to Microsoft 365 admin center and navigate to **Copilot > Settings > AI providers**. From there, you can manage Claude integration settings."
       
       - question: "What protections exist for my data when using Claude?"
-        answer: "When using Claude, information is transmitted to Anthropic, including zero data retention by Anthropic. Your prompts and content aren't stored or reused for model training. Additionally, Microsoft's privacy controls apply up to the point of transfer"
-      
+        answer: "When Claude is used, Microsoft handles the data transfer securely. Key protections include:
+        
+         - Zero data retention by Anthropic: Prompts and content are not stored or reused for model training.
+        
+         - Microsoft privacy controls: These apply up to the point of transfer to Anthropic.
+        
+         - Access restrictions: Only data you are authorized to view is included, and sensitivity labels are respected."
       
       - question: "Does using Claude cost extra?"
-        answer: "There's currently no extra cost for Claude usage beyond the Microsoft 365 Copilot license. Customers are informed with ample notice if there are any changes."
+        answer: "No. Claude usage is included with your Microsoft 365 Copilot license. If pricing changes in the future, customers will receive advance notice."
       
       
       - question: "Where can I find documentation?"

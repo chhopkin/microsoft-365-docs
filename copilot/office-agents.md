@@ -1,6 +1,6 @@
 ---
-title: Create Word, Excel, and PowerPoint files with Claude in Copilot (Frontier)
-description: Create Word, Excel, and PowerPoint files with Claude in Copilot (Frontier).
+title: Create Word, Excel, and PowerPoint files with reasoning models in Copilot (Frontier)
+description: Create Word, Excel, and PowerPoint files with reasoning models in Copilot (Frontier).
 f1.keywords:
 - NOCSH
 ms.author: smbhardwaj
@@ -25,19 +25,27 @@ appliesto:
 > [!IMPORTANT]
 > Word, Excel, and PowerPoint (Frontier) agents in Microsoft 365 Copilot is currently only available in the Frontier early access program for eligible Microsoft 365 plans. Frontier includes early access to experimental features, which means features may change as Microsoft improves them. Early Frontier features are initially available in English for U.S.-based subscribers. Availability will expand over time. For more information about the Frontier program, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
 
-Microsoft 365 is expanding its integration with Anthropic's Claude AI within Copilot, allowing users to create Word, Excel, and PowerPoint files using advanced AI-driven creation agents.
+Microsoft 365 is expanding its integration with reasoning models within Copilot, allowing users to create Word, Excel, and PowerPoint files using advanced AI-driven creation agents.
 
 ## Before you begin
 
 To use Word, Excel, and PowerPoint Agents, you require a Microsoft 365 Copilot license with Frontier features enabled. Additionally, Administrators should be opted in to the Frontier program.
 
-## Admin Enablement  
+## Admin enablement and controls  
 
-A global administrator must enable Claude models in the Microsoft 365 admin center, agreeing to Anthropic's terms for users to access creation agents.
+A global administrator must enable the reasoning models in the Microsoft 365 admin center, agreeing to the model's terms for users to access creation agents.
 
-### Connect to Anthropic in the Microsoft 365 admin center
+Administrators, after enabling, can disable access to reasoning models at any time. If your organization decides to stop using the reasoning model, you can block the provider via the admin center, which removes the option for users.
+
+If the reasoning model's usage is blocked, users are prevented from using the new Word, Excel, and PowerPoint Agents.
+
+### Connect to reasoning models in the Microsoft 365 admin center
 
 For detailed steps on how to connect to Anthropic's AI models, see [Connect to Anthropic's AI models](connect-to-ai-models.md#connect-to-anthropic-in-the-microsoft-365-admin-center).
+
+### Disable connection to reasoning models
+
+For detailed steps on how to disable the connection to Anthropic's AI models, see [Connect to Anthropic's AI models](connect-to-ai-models.md#disable-connection-to-anthropic).
 
 ## Data Privacy and Security
 
@@ -47,27 +55,13 @@ For detailed steps on how to connect to Anthropic's AI models, see [Connect to A
 
 ## Enterprise Data
 
-Word, Excel, and PowerPoint Agents support implicit enterprise grounding for users with a Copilot license. Implicit enterprise data grounding means that these Agents can use your organization's data (files emails, meetings, sites you have access to) through Microsoft Graph, like other Copilot experiences.  
-
-With respect to our Claude integration, this access is controlled by Microsoft. Microsoft conducts the search and passes relevant context to Claude, ensuring that only data the user has access to is provided; sensitivity labels are respected, and so on.
-
-All generated documents are saved to the user's OneDrive. This process ensures the final content resides within your tenant's environment for proper governance.
+Word, Excel, and PowerPoint Agents can access organizational data for users with a Copilot license. These Agents use Microsoft Graph to retrieve information from files, emails, meetings, and sites that you personally have permission to access, similar to other Copilot experiences.
+When integrating with reasoning models, Microsoft ensures secure handling of data. All searches are performed by Microsoft, and only the relevant context is shared with the reasoning model. This means the data provided is limited to what you are authorized to view, with sensitivity labels and compliance policies fully respected.
+Generated content is stored securely in OneDrive. All documents created by these Agents are saved within your organization's tenant, maintaining governance and compliance standards.
 
 ## User awareness and consent
 
-Users receive clear notice before first use, informing them that data is being processed by Claude with a link to detailed data handling information.
-
-The Copilot interface displays a clear notice to users before they first send data to Claude. The notice informs users that Anthropic's Claude will process their request and includes a **Learn more** link to a support article for details on data handling.
-
-## Admin Controls
-
-Administrators, after enabling, can disable access to Anthropic models at any time. If your organization decides to stop using Claude, you can block the provider via the admin center, which removes the option for users.
-
-If Claude usage is blocked, users are prevented from using the new Word, Excel, and PowerPoint Agents.  
-
-## Disable connection to Anthropic
-
-For detailed steps on how to disable the connection to Anthropic's AI models, see [Connect to Anthropic's AI models](connect-to-ai-models.md#disable-connection-to-anthropic).
+The Word, Excel, and PowerPoint agent interface displays a clear notice to users before they first send data to the reasoning model. The notice informs users that the reasoning model will process their request and includes a **Learn more** link to a support article for details on data handling.
 
 ## Limitations and support
 
