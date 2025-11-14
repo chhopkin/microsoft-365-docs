@@ -8,13 +8,13 @@ items:
     - name: What is Microsoft 365 Copilot?
       href: microsoft-365-copilot-overview.md
     - name: Microsoft 365 Copilot Chat overview 
-      href: /copilot/overview/?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+      href: /copilot/overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     - name: Microsoft 365 Copilot app
       href: microsoft-365-copilot-app-overview.md
     - name: Service description
-      href: /office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+      href: /office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     - name: Microsoft 365 Copilot Chat FAQ
-      href: /copilot/faq/?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+      href: /copilot/faq?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
   - name: Licensing
     items:
     - name: Which Copilot is right for me?
@@ -47,15 +47,15 @@ items:
     - name: Manage generative AI apps for your organization
       href: manage-generative-ai-apps.md
     - name: Apply principles of Zero Trust to Microsoft 365 Copilot
-      href: /security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+      href: /security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     - name: Enterprise data protection
       href: enterprise-data-protection.md
     - name: Transparency Note
       href: microsoft-365-copilot-transparency-note.md
     - name: Privacy and protections
-      href: /copilot/privacy-and-protections?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+      href: /copilot/privacy-and-protections?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     - name: Copilot in Edge
-      href: /copilot/edge?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+      href: /copilot/edge?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
   - name: Implementation Readiness
     items:
     - name: Architecture & how Copilot works
@@ -85,16 +85,16 @@ items:
     items:
     - name: Security and governance
       href: copilot-control-system/security-governance.md
+    - name: Management controls
+      href: copilot-control-system/management-controls.md
+    - name: Measurement and reporting
+      href: copilot-control-system/measurement-reporting.md
     - name: E3 implementation guide
       displayName: get started
       href: microsoft-365-copilot-e3-guide.md
     - name: E5 implementation guide
       displayName: get started
-      href: microsoft-365-copilot-e5-guide.md
-    - name: Management controls
-      href: copilot-control-system/management-controls.md
-    - name: Measurement and reporting
-      href: copilot-control-system/measurement-reporting.md
+      href: microsoft-365-copilot-e5-guide.md      
   - name: Enabling Copilot User Experiences
     items:
     - name: Deploy Microsoft 365 Copilot app
@@ -123,7 +123,7 @@ items:
   - name: Manage Microsoft 365 Copilot scenarios
     href: microsoft-365-copilot-page.md
   - name: Manage Copilot Chat
-    href: /copilot/manage?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+    href: /copilot/manage?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
   - name: Microsoft 365 Copilot Features
     items:
     - name: Copilot Prompts
@@ -185,7 +185,7 @@ items:
       - name: Microsoft 365 admin center
         href: copilot-tuning-troubleshooting-mac.md
       - name: Fine-tune models
-        href: /microsoft-copilot-studio/microsoft-copilot-fine-tune-model?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+        href: /microsoft-copilot-studio/microsoft-copilot-fine-tune-model?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
       - name: Document generation
         href: copilot-tuning-doc-generation.md
       - name: Troubleshooting Document generation
@@ -207,33 +207,33 @@ items:
   - name: Agents and Connectors
     items:
     - name: Agents in Copilot Chat
-      href: /copilot/agents?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+      href: /copilot/agents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     - name: Install agents in Microsoft 365 Copilot
       href: copilot-agent-install.md
     - name: Manage agents for Copilot
-      href: /microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+      href: /microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     - name: Manage shared agents
-      href: /microsoft-365/admin/manage/manage-shared-agents?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+      href: /microsoft-365/admin/manage/manage-shared-agents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     - name: Manage pinning of agents
-      href: /microsoft-365/admin/manage/manage-pinning-agents?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+      href: /microsoft-365/admin/manage/manage-pinning-agents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     - name: Manage agent permissions
-      href: /microsoft-365/admin/manage/manage-agents-permissions?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+      href: /microsoft-365/admin/manage/manage-agents-permissions?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     - name: Manage embedded knowledge agents
-      href: /microsoft-365/admin/manage/manage-embedded-knowledge-agents?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+      href: /microsoft-365/admin/manage/manage-embedded-knowledge-agents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     - name: Microsoft Search and Microsoft 365 Copilot connectors
-      href: /microsoftsearch/connectors-overview?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json
+      href: /microsoftsearch/connectors-overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     - name: App Builder agent
       items:
       - name: Overview of App Builder
-        href: responsible-ai/faq-app-builder.md
-      - name: App Builder privacy and data subject request (DSR) FAQ
         href: app-builder-privacy-data-subject-request-faq.md
+      - name: App Builder privacy and data subject request (DSR) FAQ
+        href: responsible-ai/faq-app-builder.md
     - name: Workflows agent
       items:
       - name: Overview of Workflows
-        href: responsible-ai/flow-builder-responsible-ai-faq.md
-      - name: Workflows privacy and data subject request (DSR) FAQ
         href: flow-builder-privacy-data-subject-request-faq.md
+      - name: Workflows privacy and data subject request (DSR) FAQ
+        href: responsible-ai/flow-builder-responsible-ai-faq.md
     - name: Researcher agent
       items:   
       - name: Overview of Researcher agent
