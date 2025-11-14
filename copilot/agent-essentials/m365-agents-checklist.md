@@ -25,7 +25,7 @@ This checklist is intended to assist admins with the successful deployment of Co
 - **Microsoft 365 admin** - Setup Copilot agent and connectors settings.
 - **Microsoft Power Platform admin** - Setup Copilot Studio policies and settings.
 - **Microsoft 365 Search admin** - Setup Microsoft 365 Graph connector configurations. 
-- **Microsoft Azure admin** - Setup Azure subscription configurations. 
+- **Microsoft Azure admin** - Setup Azure subscription configurations.
 
 **Deployment phases**:
 
