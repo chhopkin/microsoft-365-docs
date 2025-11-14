@@ -24,6 +24,9 @@ As part of restoring data from backup, admin needs to choose a *restore point* m
 
 Currently, you can restore OneDrive accounts, SharePoint sites, and Exchange mailbox content from specific prior points in time from the backups.
 
+> [!IMPORTANT]
+> Granular restore is available in preview for SharePoint sites and OneDrive accounts. In addition to being able to restore the entire site or account, Microsoft 365 Backup admins can now restore files and folders by browsing and searching a restore point within protected sites and accounts. 
+
 </br>
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=c9a4ced2-7ce3-4bc9-b42f-876b05497e1b]
