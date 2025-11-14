@@ -401,21 +401,6 @@ If users encounter an issue and can't send Copilot feedback logs to Microsoft, y
 
 For more information, see [Submit admin-initiated Copilot feedback from the Microsoft 365 admin center](provide-feedback.md).
 
-## Copilot overview
-
-### Security dashboard
-
-✅ Review the dashboard in the Microsoft 365 admin center
-
-In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Copilot** > **Overview** > **Security**.
-
-Microsoft 365 Copilot includes built-in security controls from [Microsoft Purview](/purview/ai-m365-copilot). The Copilot security dashboard provides additional insights and controls to help you:
-
-- Prevent data leaks with a [data loss prevention (DLP) policy](/purview/dlp-microsoft365-copilot-location-learn-about)
-- Manage data oversharing
-- Strengthen data compliance
-
-
 ## Related articles
 
 - [Copilot Control System overview](copilot-control-system/overview.md)
