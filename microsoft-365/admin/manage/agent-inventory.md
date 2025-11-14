@@ -141,7 +141,7 @@ For **Researcher with Computer Use** onboarding instructions, see the following 
 
 > [!VIDEO https://www.youtube.com/embed/N3vLF9mnd8w?si=XJaYnCQYNy_CeuFc]
 
-**Researcher with Computer Use** is a powerful extension that builds on the capabilities of the Researcher agent. With Computer Use, Researcher agent can securely interact with public, gated, and interactive web content through virtual computer-enabling users. It can then uncover deeper insights, take action, and generate richer reports grounded in both their work data and the web. For more information, see [Use Researcher with Computer use in Microsoft 365 Copilot](?).
+**Researcher with Computer Use** is a powerful extension that builds on the capabilities of the Researcher agent. With Computer Use, Researcher agent can securely interact with public, gated, and interactive web content through virtual computer-enabling users. It can then uncover deeper insights, take action, and generate richer reports grounded in both their work data and the web. For more information, see [Use Researcher with Computer use in Microsoft 365 Copilot](https://support.microsoft.com/topic/1f274537-6648-46e8-8264-052a49b92af4).
 
 ##### Configure admin settings for Researcher agent with Computer Use
 
@@ -179,9 +179,9 @@ To configure admin settings for **Researcher agent with Computer Use**, follow t
 
 ##### Learn more about Researcher with Computer Use
 
-- [Introducing Researcher with Computer Use in Microsoft 365 Copilot](?).
-- [Get started using Researcher with Computer Use](?).
-- [Frequently asked questions for Researcher with Computer Use](?).
+- [Introducing Researcher with Computer Use in Microsoft 365 Copilot](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-researcher-with-computer-use-in-microsoft-365-copilot/4464766).
+- [Get started using Researcher with Computer Use](https://support.microsoft.com/topic/get-started-using-researcher-with-computer-use-in-microsoft-365-copilot-frontier-1f274537-6648-46e8-8264-052a49b92af4).
+- [Frequently asked questions for Researcher with Computer Use](/copilot/microsoft-365/researcher-agent-computer-use-faq).
 
 #### Agent metadata in the Microsoft 365 admin center
 
@@ -214,6 +214,8 @@ Administrators in the Microsoft 365 admin center can take several actions to con
 - **Approve Updates** - Review and approve new versions or changes to existing agents before they're deployed.
 
 - **Manage Ownerless Agents** - Identify agents without an active owner and take action to block or remove them.
+
+- **Reassign** - Assign a new owner to agents which are ownerless or active.
 
 - **Export Inventory** - Download the full list of agents for reporting, audit, or compliance purposes.
 
