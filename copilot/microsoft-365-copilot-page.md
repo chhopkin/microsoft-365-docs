@@ -415,7 +415,6 @@ Microsoft 365 Copilot includes built-in security controls from [Microsoft Purvie
 - Manage data oversharing
 - Strengthen data compliance
 
-To view the **Security** section, you need the [Global Reader](/entra/identity/role-based-access-control/permissions-reference#global-reader) role. To make changes the [AI administrator](/entra/identity/role-based-access-control/permissions-reference#ai-administrator) role is required.
 
 ## Related articles
 
