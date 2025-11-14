@@ -8,7 +8,7 @@ author: kwekuako
 ms.author: kwekua
 manager: scotv
 ms.reviewer: elvaf
-ms.date: 10/20/2025
+ms.date: 11/20/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
@@ -400,6 +400,22 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Copil
 If users encounter an issue and can't send Copilot feedback logs to Microsoft, you can submit feedback logs on their behalf. The data includes prompts and generated responses, relevant content samples, and log files. When you use this scenario to send feedback logs, it temporarily overrides any user level feedback policy.
 
 For more information, see [Submit admin-initiated Copilot feedback from the Microsoft 365 admin center](provide-feedback.md).
+
+## Copilot overview
+
+### Security dashboard
+
+✅ Review the dashboard in the Microsoft 365 admin center
+
+In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Copilot** > **Overview** > **Security**.
+
+Microsoft 365 Copilot includes built-in security controls from [Microsoft Purview](/purview/purview). The Copilot security dashboard provides additional insights and controls to help you:
+
+- Prevent data leaks with a [data loss prevention (DLP) policy](/purview/dlp-microsoft365-copilot-location-learn-about)
+- Manage data oversharing
+- Strengthen data compliance
+
+To view the **Security** section, you need the [Global Reader](/entra/identity/role-based-access-control/permissions-reference#global-reader) role. To make changes the [AI administrator](/entra/identity/role-based-access-control/permissions-reference#ai-administrator) role is required.
 
 ## Related articles
 
