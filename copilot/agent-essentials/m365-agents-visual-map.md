@@ -78,5 +78,5 @@ The Microsoft 365 Copilot pay-as-you-go plan offers a flexible and cost-effectiv
 ## Related content
 
 - [Microsoft 365 Copilot agents visual guide PDF](https://aka.ms/AgentVisualGuide)
-- [M365 Copilot agents deployment blueprint](m365-agents-blueprint.md)
-- [M365 Copilot agents deployment checklist](m365-agents-checklist.md)
+- [Microsoft 365 Copilot agents deployment blueprint](m365-agents-blueprint.md)
+- [Microsoft 365 Copilot agents deployment checklist](m365-agents-checklist.md)
