@@ -29,33 +29,49 @@ An image of the relevant portion of the mind map is included in each section of 
 
 ## Manage Microsoft 365 Copilot agent access and availability policies
 
+Agent policies refer to the tenant settings you can make as an administrator in the Copilot Control System within Microsoft 365 admin center. Choose how you manage access to agents, as well as share and publish agents. For more information, see [Microsoft 365 agents deployment checklist](m365-agents-checklist.md#manage-microsoft-365-copilot-agent-access-and-availability-policies).
+
 :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-01.png" alt-text="The Copilot agents visual guide - Manage Microsoft 365 Copilot agent access and availability policies."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-01.png":::
 
 ## Choose the right Copilot Studio experience
+
+Members of your organization can create agents using different methods that allow different capabilities. For more information, see [Microsoft 365 agents deployment checklist](m365-agents-checklist.md#choose-the-right-copilot-studio-experience).
 
 :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-02.png" alt-text="The Copilot agents visual guide - Choose the right Copilot Studio experience."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-02.png":::
 
 ## Create agents in Copilot Studio (lite)
 
+Members of your organization can create declarative agents that they can share across your organization using Copilot Studio (lite). For more information, see [Microsoft 365 agents deployment checklist](m365-agents-checklist.md#create-agents-in-copilot-studio-lite).
+
 :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-03.png" alt-text="The Copilot agents visual guide - Create agents in Copilot Studio (lite)."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-03.png":::
 
 ## Understand application lifecycle management with Copilot Studio (full)
+
+Application lifecycle management (ALM) is the lifecycle management of applications and agents, which includes governance development and maintenance. For more information, see [Microsoft 365 agents deployment checklist](m365-agents-checklist.md#understand-application-lifecycle-management-with-copilot-studio-full).
 
 :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-04.png" alt-text="The Copilot agents visual guide - Understand application lifecycle management with Copilot Studio (full)."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-04.png":::
 
 ## Create agents in Copilot Studio (full)
 
+When you need to provide powerful AI assistants that retrieve real-time insights and act on behalf of users, as well as create specialized workflows, you can use Copilot Studio to create custom agents. For more information, see [Microsoft 365 agents deployment checklist](m365-agents-checklist.md#create-agents-in-copilot-studio-full).
+
 :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-05.png" alt-text="The Copilot agents visual guide - Create agents in Copilot Studio (full)."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-05.png":::
 
 ## Manage Microsoft 365 Copilot agent inventory and lifecycle
+
+You can manage your organization’s available agents in the Copilot Control System (CCS) within Microsoft 365 admin center. For more information, see [Microsoft 365 agents deployment checklist](m365-agents-checklist.md#manage-microsoft-365-copilot-agent-inventory-and-lifecycle).
 
 :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-06.png" alt-text="The Copilot agents visual guide - Manage Microsoft 365 Copilot agent inventory and lifecycle."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-06.png":::
 
 ## Manage Data Access - Data security, compliance, and governance
 
+Effective governance and security are essential for managing Copilot agents across your enterprise. For more information, see [Microsoft 365 agents deployment checklist](m365-agents-checklist.md#manage-data-access---data-security-compliance-and-governance).
+
 :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-07.png" alt-text="The Copilot agents visual guide - Manage Data Access - Data security, compliance, and governance."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-07.png":::
 
 ## Manage pay-as-you-go billing and Copilot Capacity Pack
+
+The Microsoft 365 Copilot pay-as-you-go plan offers a flexible and cost-effective way for organizations to access Copilot services. For more information, see [Microsoft 365 agents deployment checklist](m365-agents-checklist.md#manage-pay-as-you-go-billing-and-copilot-capacity-pack).
 
 :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-08.png" alt-text="The Copilot agents visual guide - Manage pay-as-you-go billing and Copilot Capacity Pack."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-08.png":::
 
