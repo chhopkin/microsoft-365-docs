@@ -60,6 +60,8 @@ Select the **OneDrive**, **SharePoint**, or **Exchange** tab for steps to restor
 > [!NOTE]
 > We recommend choosing an express restore point for full account or site restores, as it provides the fastest restore experience. Express restore is currently only relevant for SharePoint and OneDrive.
 
+> [!NOTE]
+> For granular file and folder restore, go to option #2 below
 
 
 Follow these steps to restore data backed up for OneDrive.
@@ -125,7 +127,7 @@ Use this option to perform a restore of only selected files and folders from a p
 
    ![GR selection step](media/backup-restore-data/gr-selection-step.png)
    
-   You can also utilize the Search box, from the top of the document library only, to search for a file or folder.
+   The search bar, which is visible only when you are at the root of the document library, can be used to find any matching files or folders within that document library.
    
    ![GR Search](media/backup-restore-data/gr-search.png)
    
@@ -140,6 +142,9 @@ Use this option to perform a restore of only selected files and folders from a p
 ### Option 1: Full SharePoint site restore
 > [!NOTE]
 > We recommend choosing an express restore point for full account or site restores, as it provides the fastest restore experience. Express restore is currently only relevant for SharePoint and OneDrive.
+
+> [!NOTE]
+> For granular file and folder restore, go to option #2 below
 
 Follow these steps to restore data backed up for SharePoint.
 
@@ -202,7 +207,8 @@ Use this option to perform a restore of only selected files and folders from a p
 4. In the **Select files & folders** section, you will be able to traverse the folder hierarchy until you reach the folder from which you wish to restore. Clicking on the folder's title will enter that folder, while checking the checkbox will select it for restore.
 
    ![GR selection step](media/backup-restore-data/gr-selection-step.png)
-   **You can also utilize the Search box, from the top of the document library only, to search for a file or folder.**
+   
+   The search bar, which is visible only when you are at the root of the document library, can be used to find any matching files or folders within that document library.
    ![GR Search](media/backup-restore-data/gr-search.png)
 
 
