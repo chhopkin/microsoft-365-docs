@@ -22,6 +22,9 @@ appliesto:
 > [!IMPORTANT]
 > You need to complete the steps to deploy the Employee Self-Service agent before you can configure this supplemental extension pack.
 
+> [!NOTE]
+> [Learn more](/power-platform/sap/connect/entra-id-using-successfactors) about setting up Microsoft Entra ID using SuccessFactors.
+
 The Employee Self-Service agent is built on Copilot and uses AI to provide relevant information to employees and take actions on their HR data. If your organization uses a human resource management system, the Employee Self-Service agent requires access to that system to function most effectively.
 
 ## Functional synopsis
