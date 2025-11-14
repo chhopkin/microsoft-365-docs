@@ -4,7 +4,7 @@ description: Block Basic authentication in Microsoft 365 apps
 author: kwekuako
 ms.author: kwekua  
 manager: dansimp
-ms.date: 06/24/2025  
+ms.date: 11/13/2025  
 ms.topic: how-to
 ms.service: microsoft-365-admin  
 ms.localizationpriority: medium
@@ -19,7 +19,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 Basic authentication is an outdated authentication method that transmits user credentials in a way that can easily be intercepted and stolen. Blocking Basic authentication helps protect users from credential theft, especially during phishing attacks or when accessing services over insecure networks. Because of these security risks, Basic authentication is now blocked by default in Microsoft 365 apps.
 
-When users attempt to open files on servers that only use Basic authentication, they see a message indicating that the file has been blocked because it uses a sign-in method that might be insecure.
+When users attempt to open files on servers that only use Basic authentication, they see a message indicating that the file has been blocked because it uses a sign-in method that might be insecure. 
 
 When this setting is turned on, users in your environment won't be able to override the default configuration using Trust Center.
 
