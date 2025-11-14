@@ -115,7 +115,7 @@ Follow these steps to restore data backed up for OneDrive.
 
 Use this option to perform a restore of only selected files and folders from a protected OneDrive account's restore point. In the Microsoft 365 admin center, on the **Microsoft 365 Backup** page, in the **OneDrive** section, select **Restore**.  In this flow, the **Restore specific files or folders** option gives M365 Backup admins the capability to restore a subset of the account's files and folders from a specific restore point. 
 
-![Granular restore step selection](media/backup-restore-data/granular-restore-step-selection.png)
+![Screenshot that shows the granular restore step selection.](media/backup-restore-data/granular-restore-step-selection.png)
 
 1. Start by selecting the protected OneDrive account you wish to restore from the list of backed up OneDrive accounts and then select **Next**.
 
@@ -125,11 +125,11 @@ Use this option to perform a restore of only selected files and folders from a p
 
 4. In the **Select files & folders** section, you will be able to traverse the folder hierarchy until you reach the folder from which you wish to restore. Clicking on the folder's title will enter that folder, while checking the checkbox will select it for restore.  
 
-   ![GR selection step](media/backup-restore-data/gr-selection-step.png)
+   ![Screenshot that shows the GR selection step.](media/backup-restore-data/gr-selection-step.png)
    
    The search bar, which is visible only when you are at the root of the document library, can be used to find any matching files or folders within that document library.
    
-   ![GR Search](media/backup-restore-data/gr-search.png)
+   ![Screenshot that shows the GR search step.](media/backup-restore-data/gr-search.png)
    
    > [!NOTE]
    > You can only restore files and folders selected from a single folder in the hierarchy. Browsing to other folders will clear your selected items.
@@ -196,7 +196,7 @@ Follow these steps to restore data backed up for SharePoint.
 
 Use this option to perform a restore of only selected files and folders from a protected SharePoint site's restore point. In the Microsoft 365 admin center, on the **Microsoft 365 Backup** page, in the **SharePoint** section, select **Restore**. In this flow, the **Restore specific files or folders** option gives M365 Backup admins the capability to restore a subset of the site's files and folders from a specific restore point.
 
-![Granular restore step selection](media/backup-restore-data/granular-restore-step-selection.png)
+![Screenshot that shows the granular restore step selection.](media/backup-restore-data/granular-restore-step-selection.png)
 
 1. Start by selecting the protected SharePoint site you wish to restore from the list of backed up SharePoint sites and then select **Next**.
 
@@ -206,10 +206,10 @@ Use this option to perform a restore of only selected files and folders from a p
 
 4. In the **Select files & folders** section, you will be able to traverse the folder hierarchy until you reach the folder from which you wish to restore. Clicking on the folder's title will enter that folder, while checking the checkbox will select it for restore.
 
-   ![GR selection step](media/backup-restore-data/gr-selection-step.png)
+   ![Screenshot that shows the GR selection step.](media/backup-restore-data/gr-selection-step.png)
    
    The search bar, which is visible only when you are at the root of the document library, can be used to find any matching files or folders within that document library.
-   ![GR Search](media/backup-restore-data/gr-search.png)
+   ![Screenshot that shows the GR search step.](media/backup-restore-data/gr-search.png)
 
 
 
