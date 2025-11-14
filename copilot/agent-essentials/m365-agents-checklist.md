@@ -54,7 +54,7 @@ As an admin, you can configure and deploy out-of-the-box agents without having t
 | 1  | [Choose the right Copilot Studio experience](/microsoft-365-copilot/extensibility/copilot-studio-experience)  | Agent development tools:<ul><li>[Create SharePoint agents](https://support.microsoft.com/office/create-a-sharepoint-agent-d16c6ca1-a8e3-4096-af49-67e1cfdddd42)</li><li>[Use Copilot Studio (lite) to create declarative agents](/microsoft-365-copilot/extensibility/copilot-studio-lite)</li><li>[Use Copilot Studio (full) to create agents](/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext)</li><li>[Use Microsoft 365 Agents Toolkit to create agents](/microsoft-365/developer/overview-m365-agents-toolkit?toc=%2Fcopilot%2Fmicrosoft-365%2Ftoc.json&bc=%2Fcopilot%2Fmicrosoft-365%2Fbreadcrumb%2Ftoc.json)</li></ul>  | Copilot administrator, SharePoint administrator, Copilot Studio administrator |
 | 2  | [Plan your agent](/microsoft-365-copilot/extensibility/planning-guide)  | Define your objectives, technical requirements, costs, RAI considerations, and development approach. |  |
 | 3  | [Consider licensing and cost options](/microsoft-365-copilot/extensibility/cost-considerations)  | Before you create an agent, consider the associated licensing and consumption costs.  |  |
-| 4  | [Set up your development environment](/microsoft-365-copilot/extensibility/prerequisites)  | If you creating a custom agent, consider how you set up your development environment.  | Copilot administrator, SharePoint administrator, Copilot Studio administrator |
+| 4  | [Set up your development environment](/microsoft-365-copilot/extensibility/prerequisites)  | If your creating a custom agent, consider how you set up your development environment.  | Copilot administrator, SharePoint administrator, Copilot Studio administrator, Teams Administrator |
 
 ## Create agents in Copilot Studio (lite)
 
@@ -74,11 +74,11 @@ Application lifecycle management (ALM) is the lifecycle management of applicatio
 
 | Step  | Task  | Description  | Administrator  |
 |---|---|---|---|
-| 1  | [Plan your environment strategy for your agent]( /power-platform/alm/environment-strategy-alm)  | Understand environment principles related to ALM.  |  |
-| 2  | [Understand solution concepts related to your agent]( /power-platform/alm/solution-concepts-alm)  | Understand solution concepts related to ALM.  |  |
-| 3  | Consider agent related change management and versioning  | Understand agent related version control, changelog, and rollback procedures for agent deployments.  |  |
-| 4  | [Understand key concepts for Copilot Studio security and governance](/microsoft-copilot-studio/security-and-governance)  | Understand security and governance controls and processes.  |  |
-| 5  | [Understand key Copilot Studio configuration settings](/microsoft-copilot-studio/guidance/sec-gov-config-settings)  |  Review tenant-level, environment-level, and agent-level settings in Copilot Studio.  |  |
+| 1  | [Plan your environment strategy for your agent]( /power-platform/alm/environment-strategy-alm)  | Understand environment principles related to ALM.  | Microsoft Power Platform admin |
+| 2  | [Understand solution concepts related to your agent]( /power-platform/alm/solution-concepts-alm)  | Understand solution concepts related to ALM.  | Microsoft Power Platform admin |
+| 3  | Consider agent related change management and versioning  | Understand agent related version control, changelog, and rollback procedures for agent deployments.  | Microsoft Power Platform admin |
+| 4  | [Understand key concepts for Copilot Studio security and governance](/microsoft-copilot-studio/security-and-governance)  | Understand security and governance controls and processes.  | Microsoft Power Platform admin |
+| 5  | [Understand key Copilot Studio configuration settings](/microsoft-copilot-studio/guidance/sec-gov-config-settings)  |  Review tenant-level, environment-level, and agent-level settings in Copilot Studio.  | Microsoft Power Platform admin |
 
 ## Create agents in Copilot Studio (full)
 
