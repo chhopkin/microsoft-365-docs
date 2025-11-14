@@ -61,7 +61,7 @@ Select the **OneDrive**, **SharePoint**, or **Exchange** tab for steps to restor
 > We recommend choosing an express restore point for full account or site restores, as it provides the fastest restore experience. Express restore is currently only relevant for SharePoint and OneDrive.
 
 > [!NOTE]
-> For granular file and folder restore, go to option #2 below
+> For granular file and folder restore, go to **Option 2: Selected content only** below
 
 
 Follow these steps to restore data backed up for OneDrive.
@@ -144,7 +144,7 @@ Use this option to perform a restore of only selected files and folders from a p
 > We recommend choosing an express restore point for full account or site restores, as it provides the fastest restore experience. Express restore is currently only relevant for SharePoint and OneDrive.
 
 > [!NOTE]
-> For granular file and folder restore, go to option #2 below
+> For granular file and folder restore, go to **Option 2: Selected content only** below
 
 Follow these steps to restore data backed up for SharePoint.
 
