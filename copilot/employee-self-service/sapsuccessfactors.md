@@ -232,7 +232,7 @@ The following table shows the list of variables and the purpose of each variable
 
 |Environmental variable                    |Description |
 |------------------------------------------|------------|
-|SuccessFactors_EC_Link                    |Variable stores the link which gets used when update Topic is successful so the user can go on to Employee Central (EC) in SuccessFactors to check their updates. </br>The default value is `https://hcm41.sapsf.com/sf/start/` </BR>The default value needs to be changed to your organization's EC link. |
+|SuccessFactors_EC_Link                    |Variable stores the link, which gets used when update Topic is successful so the user can go on to Employee Central (EC) in SuccessFactors to check their updates. </br>The default value is `https://hcm41.sapsf.com/sf/start/` </BR>The default value needs to be changed to your organization's EC link. |
 |SuccessFactors_EC_DisplayName             |Variable stores the name to show the user for EC link. </br>The default value is **Employee Central**. |
 |SuccessFactors_RaceAndEthnicity_Countries |Variable stores the countries that support the race and ethnicity Topic. </br>The data type is Array. </br>The default value is ["USA","GBR"] </br> This variable is used in the Topic to validate the user is part of the country list using UserContext_Country_Code. |
 |SuccessFactors_VeteranInfo_Countries      |Variable stores the countries that support the veteran info Topic. </br>The data type is Array. </br>The default value is ["USA","GBR"]. </br>This variable is used in the Topic to validate the user is part of the country list using UserContext_Country_Code. |
