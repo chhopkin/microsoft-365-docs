@@ -161,6 +161,16 @@ Microsoft Purview provides tools to help you secure and govern your data for use
 
 Download and review our scenario-based deployment models, presentations, and guides. These resources describe how to rapidly implement a secure-by-default configuration, address oversharing concerns, and prevent data leak to shadow AI. See [Notes from engineering: Microsoft Purview deployment models](https://aka.ms/PurviewBlueprints).
 
+### Security dashboard
+
+Microsoft 365 Copilot includes built-in security controls from [Microsoft Purview](/purview/ai-m365-copilot). The Copilot security dashboard provides additional insights and controls to help you:
+
+- Prevent data leaks with a [data loss prevention (DLP) policy](/purview/dlp-microsoft365-copilot-location-learn-about)
+- Manage data oversharing
+- Strengthen data compliance
+
+To view the dashboard in the [Microsoft 365 admin center](https://admin.microsoft.com), select **Copilot** > **Overview** > **Security**. To display the **Security** section, you need the [Global Reader](/entra/identity/role-based-access-control/permissions-reference#global-reader) role. To make changes the [AI administrator](/entra/identity/role-based-access-control/permissions-reference#ai-administrator) role is required.
+
 ## See also
 
 - [Frequently asked questions about Copilot Chat](/copilot/faq)

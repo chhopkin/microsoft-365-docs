@@ -409,7 +409,7 @@ For more information, see [Submit admin-initiated Copilot feedback from the Micr
 
 In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Copilot** > **Overview** > **Security**.
 
-Microsoft 365 Copilot includes built-in security controls from [Microsoft Purview](/purview/purview). The Copilot security dashboard provides additional insights and controls to help you:
+Microsoft 365 Copilot includes built-in security controls from [Microsoft Purview](/purview/ai-m365-copilot). The Copilot security dashboard provides additional insights and controls to help you:
 
 - Prevent data leaks with a [data loss prevention (DLP) policy](/purview/dlp-microsoft365-copilot-location-learn-about)
 - Manage data oversharing
