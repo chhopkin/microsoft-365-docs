@@ -402,8 +402,6 @@ check for in role id
 
 ## Employee Read scenarios – configuration
 
-The topics shipped with the Employee Self-Service agent preview are limited only for "Read" scenarios. The "Update" scenarios aren't supported yet, even thought they're available for the current version of agent.
-
 Each of the Read topic has its own prompts, configurations, and so on, but the actual execution of SAP SuccessFactors is encapsulated in the **SuccessFactors System Get Common Execution** topic expecting the following inputs:
 
 - **Filter parameters**: Generally passing *Employee ID* and *User ID* for filtering query for Employee Read topics.
