@@ -446,9 +446,9 @@ items:
       - name: Word, Excel and PowerPoint agents (Frontier) in Microsoft 365
         items:   
         - name: Setting up and managing agents
-          href: office-agents.md
+          href: wordexcelppt-agents.md
         - name: Word, Excel, and PowerPoint agents FAQ
-          href: faq-office-agents.yml        
+          href: faq-wordexcelppt-agents.yml        
   - name: Service plan diagnostic tool
     href: microsoft-365-copilot-service-plans.md
   - name: Reports and insights
