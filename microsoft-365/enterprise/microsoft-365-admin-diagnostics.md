@@ -20,7 +20,7 @@ description: The diagnostics pivot in Enhanced engagements hosts diagnostic tool
 
 The Diagnostics page hosts diagnostic tools for self-service issue resolution within your environment.
 
-![Enhanced engagements portal diagnostics page](../media/eng-direct-portal/eng-direct-portal-diagnostics.png)
+:::image type="content" source="../media/eng-direct-portal/eng-direct-portal-diagnostics.png" alt-text="Screenshot of Enhanced engagements portal diagnostics page." lightbox="../media/eng-direct-portal/eng-direct-portal-diagnostics.png":::
 
 In this section:
 
