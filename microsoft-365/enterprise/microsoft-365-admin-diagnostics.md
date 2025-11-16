@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 11/07/2025
+ms.date: 11/17/2025
 audience: Admin
 ms.reviewer: dansimp
 ms.topic: article
@@ -27,10 +27,8 @@ In this section:
 - [Visual Mail Flow](#visual-mail-flow)
 - [Validate DKIM Signing Configuration](#validate-dkim-signing-configuration)
 - [Auto Archive Detection](#auto-archive-detection)
-- [Remediate a Compromised Account](#remediate-a-compromised-account)
 - [Audit Log Summary](#audit-log-summary)
 - [Issues with Guest Access in Teams](#issues-with-guest-access-in-teams)
-- [Teams PSTN Calling Diagnostic](#teams-pstn-calling-diagnostic)
 
 ## Visual Mail Flow
 
@@ -199,70 +197,6 @@ Follow the following steps to enable and customize Auto Archive settings based o
 
 1. Save your changes to apply the new settings.
 
-## Remediate a compromised account
-
-If you or your user suspects an account has been accessed by someone who shouldn’t have access, it may be compromised. The **Remediate a Compromised Account** diagnostic will help you check different aspects of the affected mailbox and guide you through the steps to recover the account.Use this diagnostic if you or your user notice any signs that one of your user's accounts may have been compromised.
-
-This diagnostic is split into multiple sections that detail steps to remediate the account. Each step lists the actions required or links to an article that can be explained in more detail. Furthermore, there will be additional account details for each step, such as when the user last reset the password, what MFA is enabled on the account, and which IP addresses have accessed the mailbox.
-
-**Inputs**
-
-- Email Address of Compromised Account
-
-### Steps and output
-
-1. Force Sign Out - First, it's important to force a user to sign out of all sessions:
-
-    - Go to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/homepage).
-
-    - Navigate to _Users > Active users_.
-
-    - Select the desired user.
-
-    - On the Account Tab, under _Sign-out_, select _Sign out of all sessions_.
-
-2. Reset Password - [Reset the password.](/microsoft-365/admin/add-users/reset-passwords) Don't send the new password to the user through email, because the attacker may still have access to the mailbox. Be sure to use a strong and unique password: upper and lowercase letters, at least one number, and at least one special character.
-
-    - The last time a user reset the password will be displayed.
-
-3. Enable multifactor authentication - [Multi-Factor Authentication (MFA)](/entra/identity/authentication/concept-mfa-howitworks) is crucial for enhancing security and protecting user accounts. [Enable MFA](/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication).
-
-    - A list of types of MFA enabled on the user will be displayed.
-
-4. Block Suspicious IP Addresses - Blocking suspicious or harmful IP addresses is an essential cybersecurity measure. [Review the IP Addresses that have activity on this account and block any that are suspicious](/defender-office-365/tenant-allow-block-list-urls-configure).
-
-    - A list of IP addresses that performed actions on the account will be displayed.
-
-5. Remove Account from Administrative Roles - To ensure that the attacker can't perform administrative actions, [remove compromised account from any administrative roles](/microsoft-365/admin/add-users/assign-admin-roles?WT.mc_id=365AdminCSH_SupportCentral). You can restore the user's membership once the account is secured.
-
-6. Enable Mailbox Logging - Mailbox logging is the capability of capturing and analyzing audit logs related to security, compliance, and other activities within Microsoft 365 or Office 365. [Enable mailbox logging.](/purview/audit-log-enable-disable?tabs=microsoft-purview-portal)
-
-    - The status of logging on the mailbox will be shown (Enabled or Disabled).
-
-7. Remove Unusual Mailbox Delegates - A mailbox delegate is someone you authorize to manage your email and calendar on your behalf. Displayed below are all the delegates that aren't the mailbox owner. [Delete any unknown users.](/exchange/recipients-in-exchange-online/manage-permissions-for-recipients)
-
-    - Users who have delegate permission will be displayed with the fields `user (email)`, `isinherited`, and `access rights`.
-
-8. Remove Unusual Inbox Rules - Inbox rules are often used by attackers to forward emails to themselves. [Check if there are any unusual rules and delete them.](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)
-
-    - The inbox rules registered on the mailbox will be displayed with the identity, name, description, `forwardto` address, and enabled status.
-
-9. Remove Unusual SMTP Forwarding - Simple Mail Transfer Protocol (SMTP) is the protocol responsible for sending emails from the sender's email client to the email server. [Check if there is SMTP forwarding.](/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes)
-
-    - SMTP forwarding registered on the mailbox will be displayed.
-
-10. Remove Unusual Accepted Domains - An accepted domain in a mailbox allows users in a domain to send and receive mail. [Delete any unusual domains.](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)
-
-    - Accepted domains registered on the tenant will be displayed.
-
-11. Remove Unusual Inbound and Outbound Connectors - Inbound connectors manage email traffic coming into your organization, while outbound connectors control the flow of emails leaving your organization. [Check if there are any unusual connectors and delete them.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail)
-
-    - Connectors registered on the tenant will be displayed.
-
-**Further Steps**
-
-If the user still shows signs of being compromised, reach out to Microsoft Support for further help.
-
 ## Audit log summary
 
 The audit log summary provides a comprehensive overview or count of the activities tracked within your tenant’s audit log. This diagnostic tool is useful for reviewing admin actions, identifying unusual administrative activity, or investigating potential rogue administrators. 
@@ -319,26 +253,6 @@ In addition, this diagnostic also displays some settings that could affect your 
     ![Teams guest permissions in Teams app](../media/eng-direct-portal/eng-direct-portal-additional-settings-3.png) 
 
 We aim for this diagnostic to resolve your guest access issues and provide a seamless guest experience in Teams. If problems persist, please reach out to Microsoft support for assistance.
-
-## Teams PSTN Calling Diagnostic
-
-Microsoft Teams Phone uses the Public Switched Telephone Network (PSTN) when a user places an external call outside of their organization. The PSTN is essential for connecting Teams with traditional telephone networks, and its functionality is critical for organizations relying on Teams for comprehensive communication, both domestically and internationally.  
-
-To place external calls, users have several PSTN connectivity options available under Microsoft Teams (more here: [Microsoft Teams add-on licenses - Microsoft Teams | Microsoft Learn](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)). One prevalent option is the Calling Plan, which accommodates both domestic and international PSTN calling. Understanding these PSTN connections is crucial because any issues can directly impact an organization's communication capabilities, potentially hindering business operations and external engagement. 
-
-This diagnostic tool assists administrators in identifying and resolving issues with PSTN calling through the Calling Plan feature in Teams. This comprehensive diagnostic process ensures that both the technical configuration and licensing prerequisites for PSTN connectivity via Microsoft Teams are thoroughly evaluated, helping organizations maintain reliable external communication. 
-
-### Running the Diagnostic
-
-The diagnostic requires the affected user’s organizational email address. With a simple selection of the ‘Troubleshoot’ option, the tool starts analyzing the configuration, with results available in approximately 30 seconds. 
-
-### Interpreting Diagnostic results
-
-The diagnostic performs a series of configuration checks related to Teams Phone settings, with a particular focus on verifying whether the user has been assigned a domestic or international Calling Plan license. This verification is key in determining if the user can successfully make or receive PSTN calls outside the organization. By highlighting any discrepancies or license issues, the diagnostic assists administrators in pinpointing problems that might cause call failures or connectivity issues. 
-
-### Investigating further
-
-If the troubleshooting process does not resolve the PSTN calling issue, administrators are advised to contact Microsoft Support for more specialized assistance.
 
 ## Related content
 
