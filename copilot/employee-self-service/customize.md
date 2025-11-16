@@ -49,9 +49,9 @@ Also called tools, actions expand the functionality of your agent, allowing it t
 
 Knowledge sources allow your agents to provide relevant information and insights from authoritative sources like SharePoint or ServiceNow. You can incorporate knowledge for the agent and for the agent as whole or configure more focused knowledge sources for specific intents using a Topic with a Generative Answer Node. [Learn more](/microsoft-copilot-studio/knowledge-copilot-studio) about knowledge sources.
 
-### External system solution accelerator connectors
+### External system solution accelerator packages
 
-Connectors are external systems that help accelerate integrations and other components with services like ServiceNow, Workday, and more.
+Solution accelerator packages come with a few components, like connectors, topics, and template configurations. They're ready to integrate with external systems like Workday, ServiceNow, and more.
 
 ### Instructions
 
