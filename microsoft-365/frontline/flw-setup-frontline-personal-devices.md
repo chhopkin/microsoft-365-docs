@@ -47,11 +47,11 @@ Make sure you have:
 
 On the desktop kiosk or back-office PC, open a web browser and go to aka.ms/getfrontlineteams. 
 
-![illustrates user interface for the setup guide landing page](media/setup-frontline-teams-on-personal-devices/get-started.png)
+![Screenshot shows the user interface for the setup guide landing page.](media/setup-frontline-teams-on-personal-devices/get-started.png)
 
 Choose the device type that you are onboarding. 
 
-![illistrates user interface to select Android or iOS device](media/setup-frontline-teams-on-personal-devices/choose-device.png)
+![Screenshot shows the user interface where you can select the Android or iOS device.](media/setup-frontline-teams-on-personal-devices/choose-device.png)
 
 
 
@@ -65,7 +65,7 @@ You may need to download additional apps such as Microsoft Authenticator and/or 
 
 #### Multifactor authentication (MFA)
 
-1. You don’t require MFA to access Teams.  
+1. You don't require MFA to access Teams.  
 
    1. The MFA setup is skipped.
       
@@ -73,9 +73,9 @@ You may need to download additional apps such as Microsoft Authenticator and/or 
 
 1. The MFA setup is skipped. 
 
-   You require MFA to access Teams and the web is experience is being accessed from a device that doesn’t require MFA.
+   You require MFA to access Teams and the web is experience is being accessed from a device that doesn't require MFA.
    
-      ![illustrates a QR code to download the Microsoft Authenticator app](media/setup-frontline-teams-on-personal-devices/get-authenticator.png)
+      ![Screenshot shows a QR code to download the Microsoft Authenticator app.](media/setup-frontline-teams-on-personal-devices/get-authenticator.png)
 
    1. Scan the QR code with your mobile phone to download the Microsoft Authenticator app.
       
@@ -89,55 +89,55 @@ You may need to download additional apps such as Microsoft Authenticator and/or 
 
    1. Follow the on-screen steps to set up MFA with the Microsoft Authenticator app in the setup experience.
    
-      ![Illustrates a message that extra steps are needed to keep account secure](media/setup-frontline-teams-on-personal-devices/keep-account-secure.png)
+      ![Screeshot of a message that extra steps are needed to keep the account secure.](media/setup-frontline-teams-on-personal-devices/keep-account-secure.png)
       
-      ![Illustrates the steps needed to download the Microsoft Authenticator app](media/setup-frontline-teams-on-personal-devices/download-authenticator.png)
+      ![Screenshot displays the steps required to download the Microsoft Authenticator app.](media/setup-frontline-teams-on-personal-devices/download-authenticator.png)
       
-      ![Illustrates the next step to setup Microsoft Authenticator](media/setup-frontline-teams-on-personal-devices/setup-authenticator.png)
+      ![Screenshot of the next step to set up Microsoft Authenticator.](media/setup-frontline-teams-on-personal-devices/setup-authenticator.png)
       
-      ![Illustrates a QR code to register Microsoft Authenticator multifactor authentication on a mobile phone](media/setup-frontline-teams-on-personal-devices/register-authenticator.png)
+      ![Screenshot of a QR code to register Microsoft Authenticator multifactor authentication on a mobile phone.](media/setup-frontline-teams-on-personal-devices/register-authenticator.png)
       
-      ![Illustrates the experience of trying Microsoft Authenticator push notifications](media/setup-frontline-teams-on-personal-devices/try-authenticator.png)
+      ![Screenshot shows the experience of trying Microsoft Authenticator push notifications.](media/setup-frontline-teams-on-personal-devices/try-authenticator.png)
       
-      ![Illustrates to the user that Microsoft Authenticator is now setup](media/setup-frontline-teams-on-personal-devices/authenticator-added.png)
+      ![Screenshot indicates that Microsoft Authenticator is now set up.](media/setup-frontline-teams-on-personal-devices/authenticator-added.png)
       
       
       
 #### App protection policies and/or app configuration policies
 
-If your organization uses app protection polices, app configuration policies, and/or conditional access policies with Microsoft Teams, you might need the Company Portal app on your device.
+If your organization uses app protection policies, app configuration policies, and/or conditional access policies with Microsoft Teams, you might need the Company Portal app on your device.
 
-- If you have an iOS device, you won’t see this step.
+- If you have an iOS device, you won't see this step.
 
-- If you have an Android device, you’ll see a screen to download Company Portal.  
+- If you have an Android device, you'll see a screen to download Company Portal.  
 
-1. 1. ![Illustrates a QR code and steps to download the Company Portal app](media/setup-frontline-teams-on-personal-devices/get-company-portal.png)
+   ![Screenshot displays a QR code along with instructions for downloading the Company Portal app.](media/setup-frontline-teams-on-personal-devices/get-company-portal.png)
    
 #### Download Microsoft Teams
 
-Next, you’ll see a screen to download Microsoft Teams.
+Next, you'll see a screen to download Microsoft Teams.
 
 - Scan the QR code with your mobile phone to download Microsoft Teams.
 
-- Sign in and click Done when finished.
+- Sign in and click **Done** when finished.
 
 - Sign out when prompted
 
 - Close the browser
 
-![Illustrates a QR code to download Microsoft teams and instructions to sign in](media/setup-frontline-teams-on-personal-devices/get-teams.png)
+  ![Screenshot shows a QR code for downloading Microsoft Teams and includes sign-in instructions.](media/setup-frontline-teams-on-personal-devices/get-teams.png)
 
 
 
 ## Troubleshooting
 
-- If the QR code doesn’t work, manually search for each app in your device’s app store.
+- If the QR code doesn’t work, manually search for each app in your devices app store.
 
 ## FAQ
 
 Q: Will this feature help me enroll my device in Intune?
 
-A: No. This feature doesn’t guide you through the device enrollment process. Please follow the steps on your mobile phone.
+A: No. This feature doesn't guide you through the device enrollment process. Please follow the steps on your mobile phone.
 
 Q: Can I go backward in the setup experience?
 
