@@ -143,15 +143,23 @@ For **Researcher with Computer Use** onboarding instructions, see the following 
 
 **Researcher with Computer Use** is a powerful extension that builds on the capabilities of the Researcher agent. With Computer Use, Researcher agent can securely interact with public, gated, and interactive web content through virtual computer-enabling users. It can then uncover deeper insights, take action, and generate richer reports grounded in both their work data and the web. For more information, see [Use Researcher with Computer use in Microsoft 365 Copilot](https://support.microsoft.com/topic/1f274537-6648-46e8-8264-052a49b92af4).
 
+:::image type="content" source="../../media/agents/researcher.png" alt-text="Screenshot showing Researcher with Computer Use." lightbox="../../media/agents/get-started.png":::
+
 ##### Configure admin settings for Researcher agent with Computer Use
 
 To configure admin settings for **Researcher agent with Computer Use**, follow these steps:
 
 1. Navigate to **Microsoft Admin Controls (MAC) Agents** page.
 
+
+
 1. In the left navigation pane, select **Researcher under Agents**, and check if there's another tab for **Computer Use**.
 
+    :::image type="content" source="../../media/agents/researcher-step-1.png" alt-text="Screenshot showing the Agents page in the Microsoft 365 admin center." lightbox="../../media/knowledge-agent-idea.png":::
+
 1. Customize users that have access to **Researcher with Computer Use**.
+
+    :::image type="content" source="../../media/agents/researcher-step-2.png" alt-text="Screenshot showing the Researcher for Computer Use page." lightbox="../../media/knowledge-agent-idea.png":::
 
    - There are three options for configuring who has access to the experience:
 
@@ -159,13 +167,19 @@ To configure admin settings for **Researcher agent with Computer Use**, follow t
      1. Allow specific users or groups only.
      1. No users in your organization.
 
+        :::image type="content" source="../../media/agents/researcher-step-3a.png" alt-text="Screenshot showing the Computer Use option." lightbox="../../media/knowledge-agent-idea.png":::
+
    - For users that have this option disabled, the **Computer Use** option is greyed out.
+
+    :::image type="content" source="../../media/agents/researcher-step-3b.png" alt-text="Screenshot showing the Computer Use option greyed out." lightbox="../../media/knowledge-agent-idea.png":::
 
 1. Configure Work access for **Researcher with Computer Use**:
 
-    - The work option allows users to toggle on **Work in the Sources** menu, allowing Researcher agent to leverage a user's work content with Computer Use. For example, emails, chats, and files.
+    - The **Work** option allows users to toggle on **Work in the Sources** menu, allowing Researcher agent to leverage a user's work content with Computer Use. For example, emails, chats, and files.
     - When enabled by admins, users must still manually toggle on Work access.
-    - When disabled, the Work source appears greyed out and isn't selectable.
+        :::image type="content" source="../../media/agents/researcher-step-4a.png" alt-text="Screenshot showing the Work option." lightbox="../../media/knowledge-agent-idea.png":::
+    - When disabled, the **Work** source appears greyed out and isn't selectable.
+        :::image type="content" source="../../media/agents/researcher-step-4b.png" alt-text="Screenshot showing the Work option greyed out." lightbox="../../media/knowledge-agent-idea.png":::
 
 1. Select which websites are allowed for **Computer Use**:
 
@@ -481,7 +495,7 @@ Pinning agents is a feature that enables administrators to preselect and pin age
 
 1. In the **Agents** page, select the **Manage pinned agents** icon.
 
-    :::image type="content" source="../../media/manage-pinning-agents/manage-pinned-agents.png" alt-text="Screenshot showing the Agents page in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/manage-pinned-agents.png":::
+    :::image type="content" source="../../media/manage-pinning-agents/manage-pinned-agents.png" alt-text="Screenshot showing the Manage pinned agents setting in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/manage-pinned-agents.png":::
 
 #### View Microsoft-pinned agents and administrator-pinned agents
 

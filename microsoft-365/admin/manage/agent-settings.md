@@ -49,6 +49,8 @@ The **Agent settings** page includes the following configuration options:
 
 These settings allow you to customize agent behavior, control access, and maintain compliance with enterprise standards.
 
+:::image type="content" source="../../media/agents/agent-settings.png" alt-text="Screenshot showing the Agent settings page in the Microsoft 365 admin center." lightbox="../../media/knowledge-agent-idea.png":::
+
 ## Detailed settings
 
 ### Allowed agent types
@@ -60,6 +62,8 @@ These settings allow you to customize agent behavior, control access, and mainta
 - **Allow apps and agents built by your organization** - Enables users to install custom agents developed within your tenant.
 
 - **Allow apps and agents built by external publishers** - Enables users to install third-party agents built by external developers.
+
+:::image type="content" source="../../media/agents/allowed-agent-types.png" alt-text="Screenshot of Allowed agent types." lightbox="../../media/knowledge-agent-idea.png":::
 
 > [!TIP]
 >
@@ -79,6 +83,8 @@ Options include:
 
 Only agents built with **Copilot Studio Lite** are governed by sharing control.
 
+:::image type="content" source="../../media/agents/sharing.png" alt-text="Screenshot of Shared settings." lightbox="../../media/knowledge-agent-idea.png":::
+
 ### Templates
 
 To strengthen governance and security for agents, a template can be applied that includes predefined policies.
@@ -97,12 +103,16 @@ To create custom template, follow these steps:
 
 1. Select **Agents** > **Settings** > **Template** > **Add New Template**.
 
+    :::image type="content" source="../../media/agents/user-access.png" alt-text="Screenshot of User access page." lightbox="../../media/knowledge-agent-idea.png":::
+
 1. Select the agent that will use the template:
 
    - Agent that allows instances.
    - Agent with no instances.
    - Provide the template name.
    - Provide description for the template.
+
+:::image type="content" source="../../media/agents/details-page.png" alt-text="Screenshot of Details page." lightbox="../../media/knowledge-agent-idea.png":::
 
 1. Select the **Next** button and then choose any custom policies you want to add to the template. Microsoft's built-in default policies appears preselected and locked. Since the default policies are locked, they can't be edited. You can add additional policies as needed to meet your organization's requirements.
 

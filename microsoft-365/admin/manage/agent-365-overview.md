@@ -93,3 +93,5 @@ Actionable governance cards that surface urgent tasks for admins to maintain com
 - **Ownerless Agents** - Total Agents without an assigned owner, still pending owner assignment.
 
     You can directly select the **Assign Owner** button. The **Assign Owner** button goes to the **Agent Inventory** > **Ownerless Agents** filter, showing agents without an assigned owner.
+
+:::image type="content" source="../../media/agents/agent-365-overview.png" alt-text="Screenshot showing the Agent 365 overview page in the Microsoft 365 admin center." lightbox="../../media/agents/get-started.png":::
