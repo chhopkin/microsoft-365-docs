@@ -270,10 +270,12 @@ items:
               href: manage/manage-copilot-agents-integrated-apps.md
             - name: Agent 365 overview in the Microsoft 365 admin center
               href: manage/agent-365-overview.md
-            - name: Agent Inventory
+            - name: Agent inventory
               href: manage/agent-inventory.md
-            - name: Agent Settings
+            - name: Agent settings
               href: manage/agent-settings.md
+            - name: Manage agent instances
+              href: manage/manage-agent-instances.md
             - name: Microsoft Graph connectors for Microsoft Search
               href: /microsoftsearch/connectors-overview
          - name: Monitor Microsoft 365 activity by using reports
