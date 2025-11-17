@@ -1,7 +1,7 @@
 ---
-title: Agent Inventory page in the Microsoft 365 admin center
-description: Agent Inventory page in the Microsoft 365 admin center.
-#customer intent: As an IT admin, I want to manage agents for Microsoft 365 Copilot so that I can control their availability and functionality within my organization.
+title: Agent Registry page in the Microsoft 365 admin center
+description: Agent Registry page in the Microsoft 365 admin center.
+#customer intent:
 f1.keywords:
 - NOCSH
 ms.author: frankroj
@@ -31,20 +31,20 @@ search.appverid:
 - MOE150
 ---
 
-# Agent Inventory in the Microsoft 365 admin center
+# Agent Registry in the Microsoft 365 admin center
 
-The Agent Inventory page in the [Microsoft 365 admin center](https://admin.microsoft.com/) provides a centralized view of all agents available in your organization. This section helps administrators monitor, manage, and govern agents effectively.
+The Agent Registry page in the [Microsoft 365 admin center](https://admin.microsoft.com/) provides a centralized view of all agents available in your organization. This section helps administrators monitor, manage, and govern agents effectively.
 
-## Inventory overview and types of agents
+## Agent Registry overview and types of agents
 
-Agent Inventory lists all agents integrated with Microsoft 365 Copilot, including:
+Agent Registry lists all agents integrated with Microsoft 365 Copilot, including:
 
 - **Microsoft agents** - Built and maintained by Microsoft.
 - **External partner-built agents** - Provided by trusted non-Microsoft developers.
 - **Shared by creator** - Agents created and shared by individual users or developers in your organization.
 - **Published by your org** - Custom agents approved and published by your organization for broader use.
 
-## Inventory list
+## Agent Registry list
 
 ### Manage agents with embedded file content as a knowledge source
 
@@ -351,7 +351,7 @@ You can deploy agents across the whole organization or for specific users or gro
 
 To deploy an agent, follow these steps:
 
-1. From the Agent inventory, filter the list by **Availability**.
+1. From the Agent Registry, filter the list by **Availability**.
 1. Select an agent from the list that isn't deployed.
 1. Select **Deploy**.
 1. Decide whether to deploy the agents for everyone or specific users or groups.
@@ -620,7 +620,50 @@ This deletion process is irreversible. Once you delete an agent, it might take u
 > - If you created the agent by using Copilot Studio (lite) or the Microsoft 365 Agents Toolkit, you can delete it from the Microsoft 365 admin center.
 > - If you created the agent from Copilot Studio (full), you can manage and delete it from the Power Platform admin center.
 
-## Programmatic access to agent inventory
+## Ownerless shared agent management
+
+Shared agents might become ownerless when the user who created them is deleted from the organization.
+
+To help administrators manage these scenarios, the Microsoft 365 admin center now enables you to identify and manage ownerless shared agents. The dashboard displays the total count of such agents, a one-click filter to quickly isolate them, and real-time updates that reflect user deletions. With these features, administrators can efficiently review and address ownership gaps by blocking or deleting affected agents.
+
+:::image type="content" source="../../media/agents/ownerless-shared-agents.png" alt-text="Screenshot showing ownerless shared agents." lightbox="../../media/agents/unblock.png":::
+
+### Key features
+
+- **Ownerless agent count** - Administrators can now view the total number of agents without a valid owner directly from the dashboard. For example, the dashboard shows 20 ownerless agents indicating that users who left the organization created these agents.
+
+- **One-click filter** - Selecting the dashboard pane instantly filters the agent inventory to display only shared agents missing an owner. This feature allows for quick triage and action.
+
+- **Real-time updates** - The ownerless agent count automatically updates when a user is hard deleted from the organization. This feature ensures that the dashboard reflects the current state without requiring manual refreshes.
+
+### Steps to view and manage ownerless shared agents
+
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), go to **Copilot** > **Agents**.
+1. Locate the **Missing an Owner** tab.
+1. Select the tab to filter **Agent inventory**.
+1. Review the list of ownerless agents and take appropriate actions such as blocking or deleting the agent.
+
+## Export to Excel
+
+Export the list of shared agents to an Excel file. This feature is essential for detailed analysis and reporting.
+
+> [!NOTE]
+>
+> If the export process reaches one minute, the exported file includes only the data up to that point.
+
+The exported file includes comprehensive information about each shared agent, such as:
+
+- Name.
+- Host products.
+- Created date.
+- Developer user ID.
+- Description.
+- Status.
+- Version.
+
+With this information, you can efficiently manage and review the shared agents within your organization, ensuring compliance and optimizing resource allocation.
+
+## Programmatic access to Agent Registry
 
 Inventory data is also available programmatically through Graph APIs enabling scalable and programmatic control over agent management. Now in preview, the new Microsoft Graph API endpoints allow administrators to automate bulk agent management, streamline onboarding, and integrate governance into existing workflows across agents in Microsoft 365. Beyond manual UX-driven agent management, the Graph API helps you accelerate agent management, maintain security and compliance, and ensure agents are available to the right users at the right time.
 
