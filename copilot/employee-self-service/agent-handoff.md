@@ -21,7 +21,7 @@ appliesto:
 
 Agent handoff allows the Employee Self-Service agent to delegate user queries to other specialized agents within the system. When a user prompt falls outside the Employee Self-Service agent's primary scope, but can be better handled by another agent in Microsoft 365 Copilot, agent handoff transfers the conversation to the appropriate agent.
 
-These agents can include a line of business (LOB) agent published by the tenant from Microsoft 365 Copilot, Copilot Studio, or Azure Foundry, or a third-party agent available in M365 Copilot agent store, like Workday, Now Assist, or SAP Joule.
+These agents can include a line of business (LOB) agent published by the tenant from Microsoft 365 Copilot, Copilot Studio, or Azure Foundry, or a third-party agent available in the Microsoft 365 Copilot agent store, like Workday, Now Assist, or SAP Joule.
 
 To enhance this, Employee Self-Service agent now supports contextual handoff, which passes both the conversation history and the user's original prompt to the target agent. This forwarding avoids a disconnected experience where users would have to repeat their query, providing a smooth transition and maintaining continuity.
 
@@ -43,7 +43,7 @@ You need the GPT ID for Step 3 of [How to use the Sample Template:](#how-to-use-
     1. Ensure that the **Fetch/XHR** filter's selected to capture API calls.
 3. **Filter Requests**
     1.  In the search bar within the Network tab, enter **getGPTList**.
-    1. This filters the network requests to only show the relevant API calls that return the list of configured agents.
+    1. This search filters the network requests to only show the relevant API calls that return the list of configured agents.
 4. Inspect the response.
     1. Select any of the filtered getGPTList requests.
     1. Open the **Response** tab to view the JSON payload containing all agents configured in your environment.
@@ -69,7 +69,7 @@ By following these steps, you can build and deploy custom routing logic to any a
 
 ## Handoff Accelerators
 
-The Employee Self-Service agent solution comes with a set of preconfigured handoff topics that are designed to work with common enterprise systems. These serve as ready-to-use templates for routing queries to the correct specialized agent.
+The Employee Self-Service agent solution comes with a set of preconfigured handoff topics that are designed to work with common enterprise systems. These topics serve as ready-to-use templates for routing queries to the correct specialized agent.
 
 The available out-of-the-box handoff topics include:
 
