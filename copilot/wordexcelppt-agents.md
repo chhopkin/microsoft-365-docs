@@ -1,12 +1,12 @@
 ---
-title: Create Word, Excel, and PowerPoint files with Agents in Microsoft 365 Copilot (Frontier)
-description: Create Word, Excel, and PowerPoint files with Agents in Microsoft 365 Copilot (Frontier).
+title: Create files with Word, Excel, and PowerPoint Agents (Frontier) in Microsoft 365 Copilot
+description: Create files with Word, Excel, and PowerPoint Agents (Frontier) in Microsoft 365 Copilot.
 f1.keywords:
 - NOCSH
 ms.author: smbhardwaj
 author: smritib17
 manager: scotvidican
-ms.date: 11/14/2025
+ms.date: 11/17/2025
 audience: Admin
 ms.reviewer: HollyPollock
 ms.topic: overview
@@ -20,10 +20,10 @@ appliesto:
   - ✅ Microsoft 365 Copilot
 ---
 
-# Get started with Word, Excel, and PowerPoint (Frontier) Agents in Microsoft 365 Copilot
+# Get started with Word, Excel, and PowerPoint Agents (Frontier) in Microsoft 365 Copilot
 
 > [!IMPORTANT]
-> Word, Excel, and PowerPoint (Frontier) Agents in Microsoft 365 Copilot is currently only available in the Frontier early access program for eligible Microsoft 365 plans. Frontier includes early access to experimental features, which means features may change as Microsoft improves them. Early Frontier features are initially available in English for U.S.-based subscribers. Availability will expand over time. For more information about the Frontier program, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
+> Word, Excel, and PowerPoint Agents (Frontier) in Microsoft 365 Copilot is currently only available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/) with a Microsoft 365 Copilot subscription. Frontier includes early access to experimental features, which means features may change as Microsoft improves them. [Learn about Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
 
 Microsoft 365 is expanding its integration with reasoning models within Copilot, allowing users to create Word, Excel, and PowerPoint files using advanced AI-driven creation agents.
 
@@ -72,3 +72,4 @@ Feedback mechanisms exist for reporting inaccuracies or inappropriate content; s
 - [Connect to Anthropic's AI models](connect-to-ai-models.md)
 - [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7)
 - [Support article](https://support.microsoft.com/topic/76691f5e-bb19-4029-a34d-33a00e0a0c4f)
+- [Word, Excel and PowerPoint Agents FAQ](faq-wordexcelppt-agents.yml)
