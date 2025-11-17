@@ -37,7 +37,7 @@ items:
       items:
         - name: Integrating Workday
           href: workday.md
-        - name: Deployment extensibility - Workday
+        - name: Extensibility
           href: workday-extensibility.md
         - name: Workday reports
           href: workday-reports.md
