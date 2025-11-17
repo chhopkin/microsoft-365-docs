@@ -102,7 +102,7 @@ If you're planning a significant business event, you can submit a BPA request to
 - Products (for example, Exchange, SharePoint, Teams)
 - Primary contact information
 
-4. Review your information and select Submit.
+4. Review your information and select **Submit**.
 
 Once submitted, your request will appear in the BPA overview table with its current status.
 
