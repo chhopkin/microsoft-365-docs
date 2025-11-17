@@ -40,7 +40,7 @@ You need the GPT ID for Step 3 of [How to use the Sample Template:](#how-to-use-
     1. Select **F12** (or select and hold, and select **Inspect** from the context menu) to open the Developer Tools.
 2. **Go to the Network tab**
     1. Navigate to the **Network** tab in Developer Tools.
-    1. Ensure that the **Fetch/XHR** filter's selected to capture API calls.
+    1. Ensure that you select the **Fetch/XHR** filter to capture API calls.
 3. **Filter Requests**
     1.  In the search bar within the Network tab, enter **getGPTList**.
     1. This search filters the network requests to only show the relevant API calls that return the list of configured agents.
