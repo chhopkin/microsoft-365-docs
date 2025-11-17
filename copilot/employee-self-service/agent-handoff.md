@@ -83,6 +83,4 @@ By default, all these topics are **disabled**. You must manually configure and e
 
 ## Handoff in action
 
-XXX YOUTUBE VIDEO LINK NEEDED
-
-XXX WE ARE NOT DOING A SCREENSHOT SECTION. THIS IS NOT SEARCHABLE. I NEED STEPS.
+Check out [this video](https://www.youtube.com/watch?v=UzAOD6DreA0&list=PLR9nK3mnD-OUov7JnGBoy_u3TwSrIT1Ln&index=2) to see an example of the Employee Self-Service agent handoff.
