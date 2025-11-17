@@ -15,7 +15,7 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 ms.custom: ess-agent
-description: "Learn about extending the Employee Self-Service agent to Workday."
+description: "Learn about extending the Employee Self-Service agent to Workday, including two scenario walkthroughs."
 ---
 
 # Employee Self-Service agent extensibility – Workday
