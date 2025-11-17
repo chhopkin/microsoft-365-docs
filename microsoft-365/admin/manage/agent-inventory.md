@@ -167,19 +167,19 @@ To configure admin settings for **Researcher agent with Computer Use**, follow t
      1. Allow specific users or groups only.
      1. No users in your organization.
 
-        :::image type="content" source="../../media/agents/researcher-step-3a.png" alt-text="Screenshot showing the Computer Use option." lightbox="../../media/knowledge-agent-idea.png":::
+        :::image type="content" source="../../media/agents/researcher-step-3-a.png" alt-text="Screenshot showing the Computer Use option." lightbox="../../media/knowledge-agent-idea.png":::
 
    - For users that have this option disabled, the **Computer Use** option is greyed out.
 
-    :::image type="content" source="../../media/agents/researcher-step-3b.png" alt-text="Screenshot showing the Computer Use option greyed out." lightbox="../../media/knowledge-agent-idea.png":::
+    :::image type="content" source="../../media/agents/researcher-step-3-b.png" alt-text="Screenshot showing the Computer Use option greyed out." lightbox="../../media/knowledge-agent-idea.png":::
 
 1. Configure Work access for **Researcher with Computer Use**:
 
     - The **Work** option allows users to toggle on **Work in the Sources** menu, allowing Researcher agent to leverage a user's work content with Computer Use. For example, emails, chats, and files.
     - When enabled by admins, users must still manually toggle on Work access.
-        :::image type="content" source="../../media/agents/researcher-step-4a.png" alt-text="Screenshot showing the Work option." lightbox="../../media/knowledge-agent-idea.png":::
+        :::image type="content" source="../../media/agents/researcher-step-4-a.png" alt-text="Screenshot showing the Work option." lightbox="../../media/knowledge-agent-idea.png":::
     - When disabled, the **Work** source appears greyed out and isn't selectable.
-        :::image type="content" source="../../media/agents/researcher-step-4b.png" alt-text="Screenshot showing the Work option greyed out." lightbox="../../media/knowledge-agent-idea.png":::
+        :::image type="content" source="../../media/agents/researcher-step-4-b.png" alt-text="Screenshot showing the Work option greyed out." lightbox="../../media/knowledge-agent-idea.png":::
 
 1. Select which websites are allowed for **Computer Use**:
 
