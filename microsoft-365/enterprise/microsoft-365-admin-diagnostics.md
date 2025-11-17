@@ -66,7 +66,7 @@ The Visual Mail Flow diagnostic result includes:
 
 The **Visual Mail Flow Tree** is an interactive display showing the stages an email went through, with the ability to zoom, drag, and view detailed node information. By examining the tree, you can gain a detailed understanding of how Exchange Online processed the email. In some cases, you might notice that the tree node is split into multiple child nodes. This is due to Exchange Online's bifurcation feature, which separates recipients into multiple sets to process them separately during mail flow.
 
-![Engineering direct portal visual mail flow page](../media/eng-direct-portal/eng-direct-portal-visual-mail-flow.png)
+:::image type="content" source="../media/eng-direct-portal/eng-direct-portal-visual-mail-flow.png" alt-text="Screenshot of enhanced engagements portal visual mail flow page." lightbox="../media/eng-direct-portal/eng-direct-portal-visual-mail-flow.png":::
 
 ### Investigating further
 
@@ -165,19 +165,19 @@ Follow the following steps to enable and customize Auto Archive settings based o
 1. Launch the Outlook application on your computer.
 1. Select **File** tab located in the top-left corner of the window.
 1. From the menu that appears, select **Options**.
-1. In the Outlook Options window, select **Advanced** found in the left sidebar.
-1. Under the "AutoArchive" section, select **AutoArchive Settings**.
+1. In the Outlook Options window, select **Advanced** located in the left sidebar.
+1. Under the **AutoArchive** section, select **AutoArchive Settings**.
 1. Configure AutoArchive:
 
-    - Run AutoArchive every X days: Check this box and set the frequency for how often you want Auto Archive to run.
-    - Prompt before AutoArchive runs: If you wish to receive a reminder before Auto Archive runs, check this option.
-    - Delete expired items: Check this box if you want to permanently delete old items.
+    - **Run AutoArchive every X days**: Check this box and set the frequency for how often you want Auto Archive to run.
+    - **Prompt before AutoArchive runs**: If you wish to receive a reminder before Auto Archive runs, check this option.
+    - **Delete expired items**: Check this box if you want to permanently delete old items.
 
-1. Choose Actions: Decide what actions you want Auto Archive to take:
+1. Select **Actions**: Decide what actions you want Auto Archive to take:
 
-    - Move items to the archive folder: Archives items in a designated folder.
-    - Permanently delete old items: Removes items without archiving.
-    - Archive items older than a specific number of months: Specify the age of items to be archived.
+    - **Move items to the archive folder**: Archives items in a designated folder.
+    - **Permanently delete old items**: Removes items without archiving.
+    - **Archive items older than a specific number of months**: Specify the age of items to be archived.
 
 1. Set Archive Folder: Specify the folder where you want archived items to be stored.
 
@@ -199,7 +199,7 @@ Follow the following steps to enable and customize Auto Archive settings based o
 
 ## Audit log summary
 
-The audit log summary provides a comprehensive overview or count of the activities tracked within your tenant’s audit log. This diagnostic tool is useful for reviewing admin actions, identifying unusual administrative activity, or investigating potential rogue administrators. 
+The audit log summary provides a comprehensive overview or count of the activities tracked within your tenant’s audit log. This diagnostic tool is useful for reviewing admin actions, identifying unusual administrative activity, or investigating potential rogue administrators.
 
 ### Inputs
 
@@ -207,15 +207,15 @@ The audit log summary provides a comprehensive overview or count of the activiti
 
   - If you enter 10, the diagnostic will review the log for up to 10 days prior to the current date
   
-  - If left blank, the diagnostic will run with the value of 7 days 
+  - If left blank, the diagnostic will run with the value of seven days
   
 ### Outputs
 
 The output is split into two sections:
 
-1. Users with High Activity – Users who have performed a specific action at a much higher rate than the average user will be listed here, along with the count of each action they have taken. 
+1. **Users with High Activity** – Users who have performed a specific action at a much higher rate than the average user will be listed here, along with the count of each action they have taken.
 
-1. Full User List – All users, along with a list of their activities and corresponding counts, will be displayed here in alphabetical order. Actions performed by apps will be grouped together. 
+1. **Full User List** – All users, along with a list of their activities and corresponding counts, will be displayed here in alphabetical order. Actions performed by apps will be grouped together.
 
 ## Issues with guest access in Teams
 
@@ -240,17 +240,17 @@ If a guest user is supplied as an input, the diagnostic verifies their account p
 
 In addition, this diagnostic also displays some settings that could affect your guest access experience. These settings are not evaluated for misconfiguration.  
 
-1. External collaboration’s collaboration restriction setting and guest user access restriction setting in Microsoft Entra Admin Center
+1. External collaboration’s collaboration restriction setting and guest user access restriction setting in Microsoft Entra Admin Center.
 
     ![Guest user access restriction setting and collaboration restriction setting](../media/eng-direct-portal/eng-direct-portal-additional-settings-1.png)
 
-1. Guest feature settings in Teams Admin Center 
+1. Guest feature settings in Teams Admin Center
 
-    ![Guest feature settings](../media/eng-direct-portal/eng-direct-portal-additional-settings-2.png)   
+    ![Guest feature settings](../media/eng-direct-portal/eng-direct-portal-additional-settings-2.png)
 
 1. Teams guest permissions in Teams app  
 
-    ![Teams guest permissions in Teams app](../media/eng-direct-portal/eng-direct-portal-additional-settings-3.png) 
+    ![Teams guest permissions in Teams app](../media/eng-direct-portal/eng-direct-portal-additional-settings-3.png)
 
 We aim for this diagnostic to resolve your guest access issues and provide a seamless guest experience in Teams. If problems persist, please reach out to Microsoft support for assistance.
 
