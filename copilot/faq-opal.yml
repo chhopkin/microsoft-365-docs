@@ -15,7 +15,7 @@ sections:
   - name: General functionality
     questions:
       - question: "Why does my user see the message 'You don't have access'?"
-        answer: "Verify if the user is part of the correct security group that you have included in the Microsoft 365 admin center setting. The owner of the security group must also be in the security group."
+        answer: "Verify if the user is part of the correct security group included in the Microsoft 365 admin center setting. The owner of the security group must also be in the security group."
       
       
       - question: "Why is Opal's browser saying a website is blocked?"
@@ -23,21 +23,21 @@ sections:
 
           - Verify if the website is included in this section **Opal Admin Portal** -> **Cloud PC Setup** -> **Manage Access**.
           
-          - Format the URL pattern using [this](https://go.microsoft.com/fwlink/?linkid=2095322) as reference .  
+          - Format the URL pattern using [this reference](https://go.microsoft.com/fwlink/?linkid=2095322).  
           
           - Verify that the URL is correct; some authentication URLs follow different patterns than expected."
       
       
       - question: "Why can't users connect to the Cloud PC?"
-        answer: "Make sure your users have turned on pop-ups using the browser settings. Sometimes, an authentication window pops up and is required before the Cloud PC can connect."
+        answer: "Make sure your users turn on pop-ups using the browser settings. Sometimes, an authentication window pops up and is required before the Cloud PC can connect."
       
       
       - question: "Why are my users frequently unable to start sessions? Why do my users see the error NoMachinesAvailable?"
-        answer: "During setup, you created a group of Cloud PCs for Opal. A Cloud PC is checked out each time someone uses Opal, then refreshed and put back into the pool once that job is completed. It takes a while for the Cloud PC to be re-created (anywhere from 20 minutes to 1 hour). If you are frequently running into errors, consider increasing the number of Cloud PCs in the pool."
+        answer: "During setup, you created a group of Cloud PCs for Opal. A Cloud PC is checked out each time someone uses Opal, then refreshed and put back into the pool once that job is completed. It takes a while for the Cloud PC to be re-created (anywhere from 20 minutes to 1 hour). If you're frequently running into errors, consider increasing the number of Cloud PCs in the pool."
       
       
       - question: "Why do my users see a black screen when they open a Cloud PC?"
-        answer: "Your organization may have Windows Autopilot, or Enrollment Status Page, turned on for all devices. There is a known issue where this feature blocks Opal devices. Follow the steps described here to create a filter for Opal Cloud PCs and disable Windows Autopilot for those devices. [Create a filter for your Cloud PCs](/windows-365/enterprise/create-filter)"
+        answer: "Your organization might have Windows Autopilot, or Enrollment Status Page, turned on for all devices. There's a known issue where this feature blocks Opal devices. Follow the steps described here to create a filter for Opal Cloud PCs and disable Windows Autopilot for those devices. [Create a filter for your Cloud PCs](/windows-365/enterprise/create-filter)"
       
 
 
