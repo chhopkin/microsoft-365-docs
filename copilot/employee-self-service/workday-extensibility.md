@@ -114,7 +114,7 @@ The following table shows the list of scenarios that the open-source samples ava
 
 1. Download the template configuration from the [open-source sample](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Workday/EmployeeScenarios/WorkdayEmployeeRequestTimeOff/msdyn_HRWorkdayAbsenceEnterTimeOff_EnterTimeOffInfo.xml).
 2. Save the new template into the agent's template configurations:
-    1. Open the Employee Self-Service agent in Copilot studio.
+    1. Open the Employee Self-Service agent in Copilot Studio.
     1. Navigate to **Solutions** > **Default**. Select **All** if Workday isn't visible.
     3. Select **New** > **More** > **Other** > **Employee Self-Service Template Configuration** to add a new agen'ts template configuration.
     4. In the **New Employee Self-Service Template Configuration** form, complete the following fields:
@@ -249,7 +249,7 @@ This approach relies on the Copilot-generated definitions. You need some prompt 
 #### Copilot-generated functions: Create a new topic
 
 1. Copy one of the existing topic definitions to use as a reference in the Copilot chat prompt.
-    1. Open the Employee Self-Service agent in Copilot studio.
+    1. Open the Employee Self-Service agent in Copilot Studio.
     2. Navigate to the **Topics** tab.
     3. Search for **Workday Update Email** and open it.
     4. Select **More** on the top right corner and select **Open code editor**.
