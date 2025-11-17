@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 11/17/2025
+ms.date: 11/16/2025
 audience: Admin
 ms.reviewer: dansimp
 ms.topic: article
@@ -75,7 +75,7 @@ Select a tree node to view a flyout with other details, including recipients pro
 > [!TIP]
 > Emails sent to many recipients or large groups will take a longer time to query or could time out. Querying emails with fewer recipients could improve your experience.
 
-![Engineering direct portal visual mail flow item page](../media/eng-direct-portal/eng-direct-portal-visual-mail-flow-item.png)
+:::image type="content" source="../media/eng-direct-portal/eng-direct-portal-visual-mail-flow-item.png" alt-text="Screenshot of enhanced engagements portal visual mail flow item page." lightbox="../media/eng-direct-portal/eng-direct-portal-visual-mail-flow-item.png":::
 
 If Visual Mail Flow can’t help you resolve the issue, contact Microsoft Support for further help.
 
@@ -136,20 +136,20 @@ This diagnostic tool is useful in the following scenarios:
 
   **Slide 3: Created but Not Enabled**
 
-    - Description: DKIM signing configuration for the domain has been created but not yet enabled. 
+    - Description: DKIM signing configuration for the domain has been created but not yet enabled.
     - Action Required: Enable DKIM signing for the domain. Follow the steps in the [Set up DKIM to sign mail from your Microsoft 365 domain](/defender-office-365/email-authentication-dkim-configure) article to enable and validate the configuration.
 
   **Slide 4: Properly Created and Correct DNS Entries Enabled**
 
     - Description: DKIM signing configuration is correctly created and enabled with accurate DNS entries.
-    - Action Required: No further action is required. Your DKIM configuration is properly set up, and your emails should be authenticated correctly by recipient systems.
+    - Action Required: No further action is required. Your DKIM configuration is properly set up, and your emails are authenticated correctly by recipient systems.
 
 ### Troubleshooting and support
 
-If you encounter issues with the Validate DKIM Signing Configuration tool or need further assistance, consider the following steps: 
+If you encounter issues with the Validate DKIM Signing Configuration tool or need further assistance, consider the following steps:
 
-- The diagnostic output includes specific details about configuration errors. Use these details to pinpoint and correct issues. 
-- Refer to the [Set up DKIM to sign mail from your Microsoft 365 domain](/defender-office-365/email-authentication-dkim-configure) article for comprehensive guidance on DKIM configuration. 
+- The diagnostic output includes specific details about configuration errors. Use these details to pinpoint and correct issues.
+- Refer to the [Set up DKIM to sign mail from your Microsoft 365 domain](/defender-office-365/email-authentication-dkim-configure) article for comprehensive guidance on DKIM configuration.
 - If issues persist, contact Microsoft support for further assistance.
 
 By using the Validate DKIM Signing Configuration tool effectively, you can ensure that your email authentication is robust and that your messages are protected from spoofing and tampering.
@@ -219,13 +219,13 @@ The output is split into two sections:
 
 ## Issues with guest access in Teams
 
-The Microsoft Teams Guest Access Diagnostic is designed to resolve issues that might prevent guests from joining a team. It covers potential problems related to inviting guests, accessing team content, and using certain guest features. Since guest settings are controlled both at the organizational and team levels, the diagnostic identifies any misconfigurations that could affect guest access. It consolidates all these issues into a single report, where each misconfiguration is accompanied by administrative guidance. Moreover, it reviews how guest user accounts are provisioned and accepts optional inputs at the organization, team, and user levels, allowing you to tailor the output to your needs.
+The Microsoft Teams Guest Access Diagnostic is designed to resolve issues that might prevent guests from joining a team. It covers potential problems related to inviting guests, accessing Teams content, and using certain guest features. Since guest settings are controlled both at the organizational and team levels, the diagnostic identifies any misconfigurations that could affect guest access. It consolidates all these issues into a single report, where each misconfiguration is accompanied by administrative guidance. Moreover, it reviews how guest user accounts are provisioned and accepts optional inputs at the organization, team, and user levels, allowing you to tailor the output to your needs.
 
 ### Organization-level settings
 
 These settings at the organization-level are evaluated to check for misconfiguration.  
 
-|Setting|Where it is located|Setting values considered “misconfigured”|
+|Setting|Where it's located|Setting values considered “misconfigured”|
 | -------- | -------- | -------- |
 |External collaboration setting’s guest invite setting 	|Microsoft Entra Admin Center |"No one in this organization can invite guest users including admins (most restrictive)"  "Only users assigned to specific admin roles can invite guests" |
 |M365 group guest settings 	|Microsoft Admin Center |Either one or both settings are turned off:   "Let group owners add people outside your organization to Microsoft 365 Groups as guests"  "Let guest group members access group content" |
@@ -238,21 +238,21 @@ If a guest user is supplied as an input, the diagnostic verifies their account p
 
 ### Additional settings
 
-In addition, this diagnostic also displays some settings that could affect your guest access experience. These settings are not evaluated for misconfiguration.  
+In addition, this diagnostic also displays some settings that could affect your guest access experience. These settings aren't evaluated for misconfiguration.  
 
 1. External collaboration’s collaboration restriction setting and guest user access restriction setting in Microsoft Entra Admin Center.
 
-    ![Guest user access restriction setting and collaboration restriction setting](../media/eng-direct-portal/eng-direct-portal-additional-settings-1.png)
+    :::image type="content" source="../media/eng-direct-portal/eng-direct-portal-additional-settings-1.png" alt-text="Screenshot of Guest user access restriction setting and collaboration restriction setting." lightbox="../media/eng-direct-portal/eng-direct-portal-additional-settings-1.png":::
 
 1. Guest feature settings in Teams Admin Center
 
-    ![Guest feature settings](../media/eng-direct-portal/eng-direct-portal-additional-settings-2.png)
+    :::image type="content" source="../media/eng-direct-portal/eng-direct-portal-additional-settings-2.png" alt-text="Screenshot of Guest feature settings" lightbox="../media/eng-direct-portal/eng-direct-portal-additional-settings-2.png":::
 
 1. Teams guest permissions in Teams app  
 
-    ![Teams guest permissions in Teams app](../media/eng-direct-portal/eng-direct-portal-additional-settings-3.png)
+    :::image type="content" source="../media/eng-direct-portal/eng-direct-portal-additional-settings-3.png" alt-text="Screenshot of Teams guest permissions in Teams app" lightbox="../media/eng-direct-portal/eng-direct-portal-additional-settings-3.png":::
 
-We aim for this diagnostic to resolve your guest access issues and provide a seamless guest experience in Teams. If problems persist, please reach out to Microsoft support for assistance.
+We aim for this diagnostic to resolve your guest access issues and provide a seamless guest experience in Teams. If problems persist, reach out to Microsoft support for assistance.
 
 ## Related content
 
