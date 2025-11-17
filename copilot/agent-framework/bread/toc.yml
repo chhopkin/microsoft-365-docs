@@ -99,4 +99,11 @@ items:
   items:
   - name: Microsoft 365 Copilot
     tocHref:  /office365/servicedescriptions/
-    topicHref: /copilot/microsoft-365/index                                              
+    topicHref: /copilot/microsoft-365/index      
+- name: Microsoft 365
+  tocHref:  /microsoft-365/
+  topicHref: /microsoft-365/index
+  items:
+  - name: Microsoft 365 Copilot
+    tocHref:  /copilot/
+    topicHref: /copilot/microsoft-365/index
