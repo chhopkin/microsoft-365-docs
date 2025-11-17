@@ -46,7 +46,7 @@ You can manage agents for Copilot by using the Agent Control System in the [Micr
 
 Agents enhance the functionality of Copilot by adding search capabilities, custom actions, connectors, and APIs. Agents are custom versions of Microsoft 365 Copilot that combine instructions, knowledge, and skills to perform specific tasks or scenarios. For more information, see [Get started with agents for Microsoft 365 Copilot](https://support.microsoft.com/topic/169469d7-328d-4d37-9090-bfc2058a39bd).
 
-However, before users can access these agents, the agents must undergo a streamlined process of submission and approval. To learn more, see [Publish agents](agent-inventory.md#publish-agents).
+However, before users can access these agents, the agents must undergo a streamlined process of submission and approval. To learn more, see [Publish agents](agent-registry.md#publish-agents).
 
 The hub Copilot experience shows the list of agents that are available and deployed for the user. Users can toggle it on or off to restrict access of Copilot to any specific agents during the interaction. Users can also add or remove agents in their Copilot experience by right-clicking on the agents and selecting the appropriate option. Users can only access the agents that the admin allows and that they install or are assigned to.
 
@@ -92,3 +92,10 @@ You can manage agents in the [Microsoft 365 admin center](https://admin.microsof
 - View available, deployed, or blocked agents.
 - Configure agent availability and access.
 - Perform actions such as publishing, deploying, blocking, or removing agents.
+
+## Related articles
+
+- [Agent 365 Overview in the Microsoft 365 admin center](agent-365-overview.md).
+- [Agent Registry in the Microsoft 365 admin center](agent-registry.md).
+- [Agent Settings in Microsoft 365 admin center](agent-settings.md).
+  - [Manage agent instances in Microsoft 365 admin center](manage-agent-instances.md).

@@ -1,6 +1,6 @@
 ---
-title: Manage agent instances in Microsoft 365 Admin Center
-description: Manage agent instances in Microsoft 365 Admin Center.
+title: Manage agent instances in Microsoft 365 admin center
+description: Manage agent instances in Microsoft 365 admin center.
 #customer intent: As an IT admin, I want to manage agents for Microsoft 365 Copilot so that I can control their availability and functionality within my organization.
 f1.keywords:
 - NOCSH
@@ -35,7 +35,7 @@ search.appverid:
 
 Once an admin activates an agent, requestor can create instances of that agent. The Microsoft 365 admin center provides a centralized view for managing these instances:
 
-- **Agent Inventory Page** - Navigate to **Agents** > **Agent Inventory** to see how many instances are created for a specific agent.
+- **Agent Registry Page** - Navigate to **Agents** > **Agent Registry** to see how many instances are created for a specific agent.
 
 - **Agent Details Flyout** - Selecting an agent opens a flyout panel displaying the total count of instances associated with that agent in the **Overview** tab.
 
@@ -54,9 +54,13 @@ You can block or unblock agent instances for the entire organization using the s
 To block or unblock an agent:
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), go to **Agents** > **All Agents**.
+
 1. Select an agent from the list.
+
 1. A panel opens. Under the **Overview** tab, **Instance availability** is displayed.
+
 1. Select **See details** to see all instances created by that agent. From here, administrators can manage individual instances.
+
 1. Select an instance and choose **Block**.
 
 To restore functionality, the administrator can **Unblock** the instance at any time.
@@ -66,13 +70,23 @@ To restore functionality, the administrator can **Unblock** the instance at any 
 Administrators can delete an instance from the Microsoft 365 admin center when it's no longer needed.
 
 1. In the left navigation pane, select **Agents** > **All agents**.
+
 1. Choose the agent that owns the instance you want to delete.
+
 1. A panel opens. Under the **Overview** tab, **Instance availability** is displayed.
+
 1. Select **See details** to see all instances created by that agent.
+
 1. Select the instance you want to delete, then select **Delete**.
+
 1. Confirm the deletion when prompted.
+
 1. Notify the Hiring Manager of Deletion.
+
 1. Provide access to Instance's OneDrive and Outlook data for 30 days (about 4 and a half weeks).
+
 1. Remove or reassign Microsoft 365 licenses tied to the instance.
+
 1. After 30 days, all instance accounts and data are permanently deleted. Audit logs are kept.
+
 1. Once deleted, the instance no longer appears in the list.

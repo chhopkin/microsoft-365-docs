@@ -1,6 +1,6 @@
 ---
-title: Agent settings in Microsoft 365 admin center
-description: Agent settings in Microsoft 365 admin center.
+title: Agent Settings in Microsoft 365 admin center
+description: Agent Settings in Microsoft 365 admin center.
 #customer intent: As an IT admin, I want to manage agents for Microsoft 365 Copilot so that I can control their availability and functionality within my organization.
 f1.keywords:
 - NOCSH
@@ -142,7 +142,7 @@ To manage access to Copilot agents, follow these steps:
 
     - **No users** - This option means that no users in the organization can access agents.
 
-    - **Specific users/groups** - This option lets you select specific users or groups in your organization to have access to agents. While some users in your organization might have permission to install and use agents from the **Agent inventory** list, only the users or groups you select in this setting can use agents.
+    - **Specific users/groups** - This option lets you select specific users or groups in your organization to have access to agents. While some users in your organization might have permission to install and use agents from the **Agent Registry** list, only the users or groups you select in this setting can use agents.
 
     > [!IMPORTANT]
     >

@@ -1,6 +1,6 @@
 ---
-title: Agent Registry page in the Microsoft 365 admin center
-description: Agent Registry page in the Microsoft 365 admin center.
+title: Agent Registry in the Microsoft 365 admin center
+description: Agent Registry in the Microsoft 365 admin center.
 #customer intent:
 f1.keywords:
 - NOCSH
