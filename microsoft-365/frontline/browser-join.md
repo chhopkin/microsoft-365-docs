@@ -28,7 +28,7 @@ description: Learn about the join experience for Teams Appointments on browsers.
 appliesto: 
   - Microsoft Teams
   - Microsoft 365 for frontline workers
-ms.date: 02/06/2024
+ms.date: 11/13/2025
 ---
 
 # Manage the join experience for Teams appointments on browsers
@@ -115,6 +115,6 @@ If you've configured any of these features in your organization, attendees won't
 
 ## Related articles
 
-- [Virtual Appointments with Teams](virtual-appointments.md)
+- [Appointments with Teams](virtual-appointments.md)
 - [Microsoft Bookings](/microsoft-365/bookings/bookings-overview)
 - [Teams Premium licensing](/microsoftteams/teams-add-on-licensing/licensing-enhance-teams)
