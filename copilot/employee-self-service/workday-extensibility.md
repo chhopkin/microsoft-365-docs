@@ -110,7 +110,7 @@ The following table shows the list of scenarios that the open-source samples ava
 |Manager - Directs job taxonomy |WorkdayManagersdirect-Jobtaxanomy |Returns job taxonomy (job title, business title, job profile, job family) for the manager's direct reports. Output is produced as a nested markdown list |Show me my team's job title. |[View on GitHub](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/Workday/ManagerScenarios/WorkdayManagersdirect-Jobtaxanomy) |
 |Manager - Directs service anniversary |WorkdayManagerServiceAnniversary |Returns upcoming service anniversaries for a manager's direct reports. The topic returns a markdown table with Employee Name, Hire Date, Upcoming Service Anniversary Date, and Upcoming Milestone |When are the service anniversaries of all directs? |[View on GitHub](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/Workday/ManagerScenarios/WorkdayManagerServiceAnniversary) |
 
-#### Open-source examples: Create template configuration
+#### Open-source samples: Create template configuration
 
 1. Download the template configuration from the [open-source sample](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Workday/EmployeeScenarios/WorkdayEmployeeRequestTimeOff/msdyn_HRWorkdayAbsenceEnterTimeOff_EnterTimeOffInfo.xml).
 2. Save the new template into the agent's template configurations:
@@ -127,7 +127,7 @@ The following table shows the list of scenarios that the open-source samples ava
 
     5. Select **Save** and **Close**.
 
-#### Open-source examples: Create a new topic
+#### Open-source samples: Create a new topic
 
 1. Download the template configuration from the [open-source sample](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Workday/EmployeeScenarios/WorkdayEmployeeRequestTimeOff/topic.yaml).
 1. Open the downloaded file in a preferred editor.
@@ -149,7 +149,7 @@ The following table shows the list of scenarios that the open-source samples ava
 1. Change the topic Name from **Untitled** to **Request Time Off**, or any desired name.
 1. Select **Save**.
 
-#### Open-source examples: Configure Workday permissions
+#### Open-source samples: Configure Workday permissions
 
 The example scenario **Applying Time Off** requires each employee to have access to request time off in Workday via the SOAP API.
 
@@ -162,7 +162,7 @@ The following permissions should be applied for this example scenario following 
 > [!NOTE]
 > Because every organization may have their own security and governance for their Workday implementation, we recommend you consult with a Workday implementation and integration subject matter expert.
 
-#### Open-source examples: Test the newly added scenario
+#### Open-source samples: Test the newly added scenario
 
 Follow these steps to test the newly added scenario:
 
