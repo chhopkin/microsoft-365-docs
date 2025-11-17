@@ -110,7 +110,7 @@ The following table shows the list of scenarios that the open-source samples ava
 |Manager - Directs job taxonomy |WorkdayManagersdirect-Jobtaxanomy |Returns job taxonomy (job title, business title, job profile, job family) for the manager's direct reports. Output is produced as a nested markdown list |Show me my team's job title. |[View on GitHub](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/Workday/ManagerScenarios/WorkdayManagersdirect-Jobtaxanomy) |
 |Manager - Directs service anniversary |WorkdayManagerServiceAnniversary |Returns upcoming service anniversaries for a manager's direct reports. The topic returns a markdown table with Employee Name, Hire Date, Upcoming Service Anniversary Date, and Upcoming Milestone |When are the service anniversaries of all directs? |[View on GitHub](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/Workday/ManagerScenarios/WorkdayManagerServiceAnniversary) |
 
-#### Create template configuration from open-source samples
+#### Open-source examples: Create template configuration
 
 1. Download the template configuration from the [open-source sample](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Workday/EmployeeScenarios/WorkdayEmployeeRequestTimeOff/msdyn_HRWorkdayAbsenceEnterTimeOff_EnterTimeOffInfo.xml).
 2. Save the new template into the agent's template configurations:
@@ -127,7 +127,7 @@ The following table shows the list of scenarios that the open-source samples ava
 
     5. Select **Save** and **Close**.
 
-#### Create a new topic from open-source samples
+#### Open-source examples: Create a new topic
 
 1. Download the template configuration from the [open-source sample](https://github.com/microsoft/CopilotStudioSamples/blob/main/EmployeeSelfServiceAgent/Workday/EmployeeScenarios/WorkdayEmployeeRequestTimeOff/topic.yaml).
 1. Open the downloaded file in a preferred editor.
@@ -149,7 +149,7 @@ The following table shows the list of scenarios that the open-source samples ava
 1. Change the topic Name from **Untitled** to **Request Time Off**, or any desired name.
 1. Select **Save**.
 
-#### Configure Workday permissions from open-source samples
+#### Open-source examples: Configure Workday permissions
 
 The example scenario **Applying Time Off** requires each employee to have access to request time off in Workday via the SOAP API.
 
@@ -162,7 +162,7 @@ The following permissions should be applied for this example scenario following 
 > [!NOTE]
 > Because every organization may have their own security and governance for their Workday implementation, we recommend you consult with a Workday implementation and integration subject matter expert.
 
-#### Test the newly added scenario from open-source examples
+#### Open-source examples: Test the newly added scenario
 
 Follow these steps to test the newly added scenario:
 
@@ -182,7 +182,7 @@ This approach relies on the Copilot-generated definitions. You need some prompt 
 > [!NOTE]
 > Copilot-generated definitions may not be always accurate and meet the integration specifications to use **as is** in this example walkthrough. The application integrators and developers must work together to ensure that the generated definitions meet the requirements. This approach must be used only as a starter for generating base definition/configuration files. You need to adjust it to meet the actual integration requirements.
 
-#### Create template definitions from Copilot-generated functions
+#### Copilot-generated functions: Create template definitions
 
 1. Find the right service and operations to be consumed for the additional scenario to be extended for the agent.
 2. Workday services directory can be found [here](https://community.workday.com/sites/default/files/file-hosting/productionapi/index.html).
@@ -246,7 +246,7 @@ This approach relies on the Copilot-generated definitions. You need some prompt 
       |Unique name |1. Open the template configuration downloaded from open source in Step 1 using a preferred editor. </br>2. Search for the xml element **<requestTemplate>**, copy the value of the **name** attribute, and paste it into the **Unique Name** field. |msdyn_HRWorkdayAbsenceEnterTimeOff_EnterTimeOffInfo |
       |Value       |Copy the contents of entire template configuration and paste it into the **Value** field |Sample template configuration contents |
 
-#### Create a new topic from Copilot-generated functions
+#### Copilot-generated functions: Create a new topic
 
 1. Copy one of the existing topic definitions to use as a reference in the Copilot chat prompt.
     1. Open the Employee Self-Service agent in Copilot studio.
@@ -301,7 +301,7 @@ This approach relies on the Copilot-generated definitions. You need some prompt 
 11. Change the topic name from **Untitled** to **Request Time Off**, or any name you choose.
 12. Select **Save**.
 
-#### Configure workday permissions from Copilot-generated functions
+#### Copilot-generated functions: Configure workday permissions
 
 The example scenario **Applying Time Off** requires each employee to have access to request time off in Workday via the SOAP API.
 
@@ -314,7 +314,7 @@ The following permissions should be applied for this example scenario following 
 > [!NOTE]
 > Because every organization may have their own security and governance for their Workday implementation, we recommend you consult with a Workday implementation and integration subject matter expert.
 
-#### Test the newly added scenario from Copilot-generated functions
+#### Copilot-generated functions: Test the newly added scenario
 
 Follow these steps to test the newly added scenario:
 
