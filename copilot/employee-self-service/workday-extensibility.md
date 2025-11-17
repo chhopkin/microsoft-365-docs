@@ -29,7 +29,7 @@ However, every organization has unique processes and policies where the business
 - View job details for their direct reports.
 - Move or transfer employees.
 
-To support these needs, the agent is designed to be extensible, so custom topics can be created to work seamlessly alongside with out-of-the-box (OOB) topics. As the customizations can vary from different ranges of complexity, the customization covered in this article is categorized as "pro-code", which is the most complex in the band as it requires application integration knowledge with other external systems, in this case, Workday.
+To support these needs, the agent is designed to be extensible, so custom topics can be created to work seamlessly alongside with out-of-the-box (OOB) topics. As the customizations can vary from different ranges of complexity, the customization covered in this article is categorized as "pro-code." Pro-code is the most complex in the band as it requires application integration knowledge with other external systems, like Workday.
 
 This article explains the steps to extend the agent by adding new topics tailored to your organization with two different approaches as follows:
 
@@ -68,7 +68,7 @@ Collectively, these components define how conversational scenarios are designed 
 The following process is common for agent's extensibility for additional scenarios with Workday:
 
 1. **Create template configuration**: Define the request and response mapping for the Workday service, save it in your Copilot environment, and validate its correctness.
-1. **Create a new topic**: Build a Copilot topic that uses the template configuration to apply leave on behalf of the employee.
+1. **Create a new topic**: Build a Copilot topic that uses the template configuration to apply for leave on behalf of the employee.
 1. **Workday permissions**: Assign all the required permissions to employees in Workday to enable the agent to apply for leave on their behalf.
 
 ## Example Scenario - Applying for time Off
@@ -94,8 +94,7 @@ Use these steps to find the templates, which are used throughout this article.
 
 Open-source samples are sourced from the developer community. These samples are built for the most common scenarios, which can be reused be people implementation team as needed.
 
-The following table shows the list of scenarios that the open-source samples available for Workday can be used for with regard to agent extensibility. An example, **Applying Time Off**, is used:
-
+The following table shows the list of scenarios that the open-source samples available for Workday can be used for regarding agent extensibility. An example, **Applying Time Off**, is used:
 
 |Scenario |Name |Description |Sample trigger |Source |
 |---------|-----|------------|---------------|-------|
@@ -145,7 +144,7 @@ The following table shows the list of scenarios that the open-source samples ava
     1. Return to the code editor in Copilot Studio.
     1. Search for Input.ChoiceSet in the code editor.
     1. Navigate to the choices node, which indicates a drop-down UI control to list all the Time Off Types.
-    1. Replace each sub-node with the **Title** attribute that displays the Time Off Type and **Value** attribute from Time Off Type ID(s) copied in step C.
+    1. Replace each subnode with the **Title** attribute that displays the Time Off Type and **Value** attribute from Time Off Type ID(s) copied in step C.
 1. Change the topic Name from **Untitled** to **Request Time Off**, or any desired name.
 1. Select **Save**.
 
@@ -170,7 +169,7 @@ Follow these steps to test the newly added scenario:
 1. Navigate to the **Topics** tab and open the topic you made in [Open-source samples: Create a new topic](#open-source-samples-create-a-new-topic).
 1. Select the **Test** button in top right corner of Copilot Studio to open the test chat window:
   - Test prompt:
-    - Apply time off for November 5th with the reason: Going on vacation.
+    - Apply time off for November 5 with the reason: Going on vacation.
   - The Adaptive Card appears with the configured list of Time Off Types.
   - Complete the form with required information and submit the form.
   - A successful leave application submission should be displayed.
@@ -254,7 +253,7 @@ This approach relies on the Copilot-generated definitions. You need some prompt 
     3. Search for **Workday Update Email** and open it.
     4. Select **More** on the top right corner and select **Open code editor**.
     5. Copy the contents from the code editor and save it in a text file with a desired name. For this example, we use sample_topic.yaml.
-2. Rename both the extensions for the template configuration (xml) from previous section and topic definition (yaml) from the previous steo to .txt.
+2. Rename both the extensions for the template configuration (xml) from previous section and topic definition (yaml) from the previous step to .txt.
 3. Use Microsoft 365 Copilot chat, preferably with GPT 5, to generate the topic definition.
     1. Attach the existing topic definition file saved in the previous step to the chat window.
     2. Attach the template configuration file from the [Copilot-generated functions: Create a new topic](#copilot-generated-functions-create-a-new-topic) section.
@@ -287,7 +286,7 @@ This approach relies on the Copilot-generated definitions. You need some prompt 
 6. Open the Employee Self-Service agent in Copilot Studio.
 7. Navigate to the *Topics** tab and create a new topic.
     1. Select the **+** (plus) > **From blank**.
-    2. On top right corner select **More** > **Open code editor**.
+    2. On the top right corner, select **More** > **Open code editor**.
 8. Paste the copied topic definition from step 3 into the code editor.
 9. In this example scenario, "Applying Time off", you need to list the type of Time off values setup in Workday when the agent is interacting with an employee.
 10. Adjust the "Time_Off_Type_Id" in the topic definition.
@@ -296,8 +295,8 @@ This approach relies on the Copilot-generated definitions. You need some prompt 
     3. Export the report to a worksheet so the **Time Off Type ID** can be copied.
     4. Return to the code editor in Copilot Studio.
     5. Search for **Input.ChoiceSet** in the code editor.
-    6. Navigate to the **choices** node, which lists all the Time Off Types in a drop-down UI control.
-    7. Replace each sub-node with the **Title** attribute that displays the Time Off Type and the **Value** attribute from the Time Off Type IDs copied in the third step.
+    6. Navigate to the **choices** node, which lists the Time Off Types in a drop-down UI control.
+    7. Replace each subnode with the **Title** attribute that displays the Time Off Type and the **Value** attribute from the Time Off Type IDs copied in the third step.
 11. Change the topic name from **Untitled** to **Request Time Off**, or any name you choose.
 12. Select **Save**.
 
@@ -305,7 +304,7 @@ This approach relies on the Copilot-generated definitions. You need some prompt 
 
 The example scenario **Applying Time Off** requires each employee to have access to request time off in Workday via the SOAP API.
 
-The following permissions should be applied for this example scenario following the steps mentioned above in Configure Workday to support additional scenarios:
+The following permissions should be applied for this example scenario following the steps mentioned previously in [Configure Workday to support additional scenarios](#configure-workday-to-support-additional-scenarios):
 
 |Security domain |Security groups to be added in the security domain |Integration permissions: Put access |Integration permissions: Get access |
 |---------------------|-----------------|----|----|
