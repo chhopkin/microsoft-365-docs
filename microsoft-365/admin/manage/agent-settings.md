@@ -112,7 +112,7 @@ To create custom template, follow these steps:
    - Provide the template name.
    - Provide description for the template.
 
-:::image type="content" source="../../media/agents/details-page.png" alt-text="Screenshot of Details page." lightbox="../../media/knowledge-agent-idea.png":::
+    :::image type="content" source="../../media/agents/details-page.png" alt-text="Screenshot of Details page." lightbox="../../media/knowledge-agent-idea.png":::
 
 1. Select the **Next** button and then choose any custom policies you want to add to the template. Microsoft's built-in default policies appears preselected and locked. Since the default policies are locked, they can't be edited. You can add additional policies as needed to meet your organization's requirements.
 

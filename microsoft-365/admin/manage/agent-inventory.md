@@ -171,7 +171,7 @@ To configure admin settings for **Researcher agent with Computer Use**, follow t
 
    - For users that have this option disabled, the **Computer Use** option is greyed out.
 
-    :::image type="content" source="../../media/agents/researcher-step-3-b.png" alt-text="Screenshot showing the Computer Use option greyed out." lightbox="../../media/knowledge-agent-idea.png":::
+        :::image type="content" source="../../media/agents/researcher-step-3-b.png" alt-text="Screenshot showing the Computer Use option greyed out." lightbox="../../media/knowledge-agent-idea.png":::
 
 1. Configure Work access for **Researcher with Computer Use**:
 
