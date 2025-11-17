@@ -1,12 +1,12 @@
 ---
-title: Set up  and manage Opal in Microsoft 365 Copilot
+title: Setting up and Managing Project Opal (Frontier)
 description: The following instructions help you to set up and manage Opal in Microsoft 365 Copilot.
 f1.keywords:
 - NOCSH
 ms.author: smbhardwaj
 author: smritib17
 manager: scotvidican
-ms.date: 11/12/2025
+ms.date: 11/17/2025
 audience: Admin
 ms.reviewer: valerieyoung
 ms.topic: overview
@@ -47,7 +47,7 @@ This article provides guidance for administrators on how to set up and manage Op
 
 ## Setting Up Opal
 
-Opal isn't available by default. Admins with Global Admin or Intune Admin roles need to complete the following steps to enable and configure Opal.  
+Opal isn't available by default. A Global administrator needs to complete the following steps to enable and configure Opal.  
 
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center](../admin/add-users/about-admin-roles.md).

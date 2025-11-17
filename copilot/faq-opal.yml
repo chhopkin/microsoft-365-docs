@@ -6,7 +6,7 @@ metadata:
   ms.author: smbhardwaj
   ms.service: microsoft-365-copilot
   ms.topic: faq
-  ms.date: 11/12/2025
+  ms.date: 11/17/2025
 
 title: "Frequently asked questions about Opal (Frontier) in Microsoft 365 Copilot"
 summary: Opal is an enterprise automation experience under the Frontier program in Microsoft 365 Copilot.
@@ -23,7 +23,7 @@ sections:
 
           - Verify if the website is included in this section **Opal Admin Portal** -> **Cloud PC Setup** -> **Manage Access**.
           
-          - Format the URL pattern using this as reference https://go.microsoft.com/fwlink/?linkid=2095322.  
+          - Format the URL pattern using [this](https://go.microsoft.com/fwlink/?linkid=2095322) as reference .  
           
           - Verify that the URL is correct; some authentication URLs follow different patterns than expected."
       
@@ -33,7 +33,7 @@ sections:
       
       
       - question: "Why do users have to give consent every time they start a Cloud PC session?"
-        answer: "For security purposes, users must consent when connecting to a new session host. If you, as the admin, would like to disable that, you can follow the steps here to turn on single sign-on.[Configure single sign-on for Azure Virtual Desktop using Microsoft Entra ID - Azure Virtual Desktop](/azure/virtual-desktop/configure-single-sign-on)"
+        answer: "For security purposes, users must consent when connecting to a new session host. If you, as the admin, would like to disable that, you can follow the steps here to turn on single sign-on. [Configure single sign-on for Azure Virtual Desktop using Microsoft Entra ID - Azure Virtual Desktop](/azure/virtual-desktop/configure-single-sign-on)"
       
       
       - question: "Why are my users frequently unable to start sessions? Why do my users see the error NoMachinesAvailable?"
