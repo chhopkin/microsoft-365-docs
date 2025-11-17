@@ -50,7 +50,7 @@ This article provides guidance for administrators on how to set up and manage Op
 Opal isn't available by default. A Global administrator needs to complete the following steps to enable and configure Opal.  
 
 > [!IMPORTANT]
-> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center](../microsoft-365/admin/add-users/about-admin-roles.md).
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 1. Navigate to the [Microsoft 365 admin center](https://admin.microsoft.com).
 
