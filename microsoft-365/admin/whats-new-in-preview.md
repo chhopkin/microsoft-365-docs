@@ -57,16 +57,16 @@ And if you'd like to know what's new with other Microsoft cloud services, check 
 
 ## November 2025
 
-The **Engineering direct** portal is now renamed to **[Enhanced Engagements](/microsoft-365//enterprise/microsoft-365-admin-overview-enhanced-engagements)**.
+The **Engineering direct** portal is now renamed to **[Enhanced Engagements](/microsoft-365/enterprise/microsoft-365-admin-overview-enhanced-engagements)**.
 
 Inside **Engagements** there are four new options:
 
     - Service requests is now Engineering escalations
-    - Business Process Awareness (BPA's)
+    - Business Process Awareness (BPAs)
     - Customer Advisory Board (CAB)
     - Incident Analysis
 
-- (Preview) **History** tab is now renamed to **[Design change requests (DCR)](/microsoft-365//enterprise/microsoft-365-admin-design-change-requests)**.
+- (Preview) **History** tab is now renamed to **[Design change requests (DCR)](/microsoft-365/enterprise/microsoft-365-admin-design-change-requests)**.
 
 ## June 2025
 
