@@ -19,7 +19,7 @@ appliesto:
 
 # Agent Handoff for Employee Self-Service agent
 
-Agent handoff is allows the Employee Self-Service agent to delegate user queries to other specialized agents within the system. When a user prompt falls outside the Employee Self-Service agent's primary scope, but can be better handled by another agent in Microsoft 365 Copilot, agent handoff transfers the conversation to the appropriate agent.
+Agent handoff allows the Employee Self-Service agent to delegate user queries to other specialized agents within the system. When a user prompt falls outside the Employee Self-Service agent's primary scope, but can be better handled by another agent in Microsoft 365 Copilot, agent handoff transfers the conversation to the appropriate agent.
 
 These agents can include a line of business (LOB) agent published by the tenant from Microsoft 365 Copilot, Copilot Studio, or Azure Foundry, or a third-party agent available in M365 Copilot agent store, like Workday, Now Assist, or SAP Joule.
 
