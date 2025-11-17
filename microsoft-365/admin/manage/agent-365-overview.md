@@ -55,7 +55,7 @@ You can view Overview by going to **Agents** > **Overview**, or by using **AI ho
 
 A high-level summary of the most critical indicators of agent adoption and impact. These metrics give admins an immediate sense of scale, engagement, and business value.
 
-- **Agent Registry** - The total count of all agents available in your organization's catalog, including Microsoft-built, partner-built, and custom (LOB) agents. This Agent Registry reflects the breadth of automation capabilities deployed across your tenant. You can directly select the **Explore All agents** > **Inventory** to go through your inventory in detail.
+- **Agent Registry** - The total count of all agents available in your organization's catalog, including Microsoft-built, partner-built, and custom (LOB) agents. This Agent Registry reflects the breadth of automation capabilities deployed across your tenant. You can directly select the **Explore All agents** > **Registry** to go through your inventory in detail.
 
 - **Active Users** - The number of unique users who interacted with at least one agent within last 30 days.
 
@@ -93,5 +93,3 @@ Actionable governance cards that surface urgent tasks for admins to maintain com
 - **Ownerless Agents** - Total Agents without an assigned owner, still pending owner assignment.
 
     You can directly select the **Assign Owner** button. The **Assign Owner** button goes to the **Agent Registry** > **Ownerless Agents** filter, showing agents without an assigned owner.
-
-:::image type="content" source="../../media/agents/agent-365-overview.png" alt-text="Screenshot showing the Agent 365 overview page in the Microsoft 365 admin center." lightbox="../../media/agents/get-started.png":::

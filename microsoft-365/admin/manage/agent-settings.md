@@ -103,7 +103,7 @@ To create custom template, follow these steps:
 
 1. Select **Agents** > **Settings** > **Template** > **Add New Template**.
 
-    :::image type="content" source="../../media/agents/user-access.png" alt-text="Screenshot of User access page." lightbox="../../media/knowledge-agent-idea.png":::
+
 
 1. Select the agent that will use the template:
 
@@ -147,5 +147,7 @@ To manage access to Copilot agents, follow these steps:
     > [!IMPORTANT]
     >
     > Data processed by non-Microsoft services isn't subject to Microsoft agreements. Review the terms provided by non-Microsoft agent publishers to make sure that you're familiar the agent's data handling and privacy practices. In addition, consult your internal policies before allowing access.
+
+    :::image type="content" source="../../media/agents/user-access.png" alt-text="Screenshot of User access page." lightbox="../../media/knowledge-agent-idea.png":::
 
 1. Select **Save** to update your Copilot agent settings for your tenant.

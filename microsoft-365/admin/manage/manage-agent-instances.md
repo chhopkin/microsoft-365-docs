@@ -31,7 +31,7 @@ search.appverid:
 - MOE150
 ---
 
-# Manage agent instances in Microsoft 365 Admin Center
+# Manage agent instances in Microsoft 365 admin center
 
 Once an admin activates an agent, requestor can create instances of that agent. The Microsoft 365 admin center provides a centralized view for managing these instances:
 

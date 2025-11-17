@@ -48,7 +48,7 @@ Agent Registry lists all agents integrated with Microsoft 365 Copilot, including
 
 ### Manage agents with embedded file content as a knowledge source
 
-Agent creators can use [Copilot Studio (lite)](/microsoft-365-copilot/extensibility/copilot-studio-lite-build) to upload files for the agent to use as knowledge. Copilot stores the uploaded files in tenant-owned [SharePoint Embedded](/sharepoint/dev/embedded/overview) containers. It then embeds the file content as knowledge for the agent to use in responses. For more information about how to build agents, see [Build agents with Copilot Studio (lite)](/microsoft-365-copilot/extensibility/copilot-studio-lite-knowledge#embedded-file-content).
+Agent creators can use [Microsoft Copilot Agent Builder](/microsoft-365-copilot/extensibility/copilot-studio-lite-build) to upload files for the agent to use as knowledge. Copilot stores the uploaded files in tenant-owned [SharePoint Embedded](/sharepoint/dev/embedded/overview) containers. It then embeds the file content as knowledge for the agent to use in responses. For more information about how to build agents, see [Build agents with Microsoft Copilot Agent Builder](/microsoft-365-copilot/extensibility/copilot-studio-lite-knowledge#embedded-file-content).
 
 This article explains how to handle embedded files, how you can manage agents and containers, and what to expect with sensitivity labels and deletion workflows.
 
@@ -114,7 +114,7 @@ The service applies sensitivity labels to the embedded content in the agent base
 
 - The service only applies sensitivity labels if:
 
-  - You create the agent using Copilot Studio (lite).
+  - You create the agent using Microsoft Copilot Agent Builder.
   - The agent includes embedded files.
 
 You can view the sensitivity label for each agent in the **Overview** tab of the Microsoft 365 admin center.
@@ -581,7 +581,7 @@ To block or unblock an agent, follow these steps:
 1. Select **Block** or **Unblock**.
 1. Decide whether to block or unblock the agent for everyone.
 
-Blocking or unblocking an agent created using Copilot Studio (lite) and Copilot Studio (full) affects its availability and functionality in Microsoft 365 Copilot. It also availability and functionality in other host products, such as Outlook, Teams, or Microsoft 365. However, blocking an agent created with SharePoint only impacts its availability in Microsoft 365 Copilot Chat.
+Blocking or unblocking an agent created using Microsoft Copilot Agent Builder and Microsoft Copilot Studio affects its availability and functionality in Microsoft 365 Copilot. It also availability and functionality in other host products, such as Outlook, Teams, or Microsoft 365. However, blocking an agent created with SharePoint only impacts its availability in Microsoft 365 Copilot Chat.
 
 > [!NOTE]
 >
@@ -617,8 +617,8 @@ This deletion process is irreversible. Once you delete an agent, it might take u
 >
 > The deletion workflow differs slightly depending on how you created the agent:
 >
-> - If you created the agent by using Copilot Studio (lite) or the Microsoft 365 Agents Toolkit, you can delete it from the Microsoft 365 admin center.
-> - If you created the agent from Copilot Studio (full), you can manage and delete it from the Power Platform admin center.
+> - If you created the agent by using Microsoft Copilot Agent Builder or the Microsoft 365 Agents Toolkit, you can delete it from the Microsoft 365 admin center.
+> - If you created the agent from Microsoft Copilot Studio, you can manage and delete it from the Power Platform admin center.
 
 ## Ownerless shared agent management
 
