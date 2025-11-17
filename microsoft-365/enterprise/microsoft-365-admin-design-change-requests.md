@@ -16,7 +16,7 @@ ms.collection:
 description: The Design Change Requests page provides a high-level report on the design change requests for your tenant with metrics and graphs.
 ---
 
-# Design Change Requests (DCR)(private preview)
+# Design Change Requests (private preview)
 
 The Design Change Requests page provides a high-level view of requests from customers to modify or enhance a product or feature or to introduce new capabilities. In this section you'll find a high-level report on the DCRs for your tenant, complete with useful metrics and graphs. This report is only inclusive of requests for products that are covered by the Engineering Direct offer. DCRs raised for other products won't be included.
 
