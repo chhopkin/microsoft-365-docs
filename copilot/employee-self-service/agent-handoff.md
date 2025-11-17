@@ -25,7 +25,7 @@ These agents can include a line of business (LOB) agent published by the tenant 
 
 To enhance this, Employee Self-Service agent now supports contextual handoff, which passes both the conversation history and the user's original prompt to the target agent. This forwarding avoids a disconnected experience where users would have to repeat their query, providing a smooth transition and maintaining continuity.
 
-This functionality is achieved through a @mention capability within the Employee Self-Service agent, which recommends and invokes the appropriate specialized agent. This design ensures employees receive the most accurate and context-aware responses all inside Employee Self-Service without needing to know which agent to talk to or navigate to other agents to get their queries answered. Agent handoff creates a unified and context-aware conversational experience that improves employee satisfaction.
+This functionality is achieved through a @mention capability within the Employee Self-Service agent, which recommends and invokes the appropriate specialized agent. This design ensures employees receive the most accurate and context-aware responses all inside Employee Self-Service. Employees don't need to know which agent to talk to or navigate to other agents to get their queries answered. Agent handoff creates a unified and context-aware conversational experience that improves employee satisfaction.
 
 ## Creating Custom handoff Topics with the Sample Template
 
