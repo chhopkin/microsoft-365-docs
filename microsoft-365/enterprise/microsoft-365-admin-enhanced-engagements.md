@@ -38,7 +38,7 @@ The Enhanced Engagements portal is located under **Support** within the Microsof
 1. Select **Support**.
 1. Select **Enhanced Engagements** to enter the portal.
 
-![Accessing the enhanced engagements portal](../media/eng-direct-portal/eng-direct-portal-launch.png)
+:::image type="content" source="../enterprise/media/enhanced-engagements/enhanced-engagements-portal-launch.png" alt-text="Screenshot showing launch location of enhanced engagements portal." lightbox="../enterprise/media/enhanced-engagements/enhanced-engagements-portal-launch.png":::
 
 ## Related content
 
