@@ -122,7 +122,7 @@ The following table shows the list of scenarios that the open-source samples ava
       |Field       |Instructions  |Example value  |
       |------------|---------|---------|
       |Name        |Provide a more appropriate value for the template configuration. |WorkdayEmployeeRequestTimeOff |
-      |Unique name |1. Open the template configuration downloaded from open source in Step 1 using a preferred editor. </br>2. Search for the xml element **<requestTemplate>**, copy the value of the **name** attribute, and paste it into the **Unique Name** field. |msdyn_HRWorkdayAbsenceEnterTimeOff_EnterTimeOffInfo |
+      |Unique name |1. Open the template configuration downloaded from open source in Step 1 using a preferred editor. </br>2. Search for the xml element `<requestTemplate>`, copy the value of the **name** attribute, and paste it into the **Unique Name** field. |msdyn_HRWorkdayAbsenceEnterTimeOff_EnterTimeOffInfo |
       |Value       |Copy the contents of entire template configuration and paste it into the **Value** field |Sample template configuration contents |
 
     5. Select **Save** and **Close**.
@@ -167,7 +167,7 @@ The following permissions should be applied for this example scenario following 
 Follow these steps to test the newly added scenario:
 
 1. Open the Employee Self-Service agent in Copilot Studio.
-1. Navigate to the **Topics** tab and open the topic you made in [Create a new topic from open source samples](#create-a-new-topic-from-open-source-samples).
+1. Navigate to the **Topics** tab and open the topic you made in [Open-source samples: Create a new topic](#open-source-samples-create-a-new-topic).
 1. Select the **Test** button in top right corner of Copilot Studio to open the test chat window:
   - Test prompt:
     - Apply time off for November 5th with the reason: Going on vacation.
@@ -243,7 +243,7 @@ This approach relies on the Copilot-generated definitions. You need some prompt 
       |Field       |Instructions  |Example value  |
       |------------|---------|---------|
       |Name        |Provide a more appropriate value for the template configuration. |WorkdayEmployeeRequestTimeOff |
-      |Unique name |1. Open the template configuration downloaded from open source in Step 1 using a preferred editor. </br>2. Search for the xml element **<requestTemplate>**, copy the value of the **name** attribute, and paste it into the **Unique Name** field. |msdyn_HRWorkdayAbsenceEnterTimeOff_EnterTimeOffInfo |
+      |Unique name |1. Open the template configuration downloaded from open source in Step 1 using a preferred editor. </br>2. Search for the xml element `<requestTemplate>`, copy the value of the **name** attribute, and paste it into the **Unique Name** field. |msdyn_HRWorkdayAbsenceEnterTimeOff_EnterTimeOffInfo |
       |Value       |Copy the contents of entire template configuration and paste it into the **Value** field |Sample template configuration contents |
 
 #### Copilot-generated functions: Create a new topic
@@ -257,7 +257,7 @@ This approach relies on the Copilot-generated definitions. You need some prompt 
 2. Rename both the extensions for the template configuration (xml) from previous section and topic definition (yaml) from the previous steo to .txt.
 3. Use Microsoft 365 Copilot chat, preferably with GPT 5, to generate the topic definition.
     1. Attach the existing topic definition file saved in the previous step to the chat window.
-    2. Attach the template configuration file from the [Create template definitions from Copilot-generated functions](#create-template-definitions-from-copilot-generated-functions) section.
+    2. Attach the template configuration file from the [Copilot-generated functions: Create a new topic](#copilot-generated-functions-create-a-new-topic) section.
     3. Use the following prompt to generate a topic definition for applying leave. Adjust the generated file to meet the scenario requirements.
 
       ```
@@ -319,7 +319,7 @@ The following permissions should be applied for this example scenario following 
 Follow these steps to test the newly added scenario:
 
 1. Open the Employee Self-Service agent in Copilot Studio.
-1. Navigate to the **Topics** tab and open the topic you made in [Create a new topic from open source samples](#create-a-new-topic-from-open-source-samples).
+1. Navigate to the **Topics** tab and open the topic you made in [Open-source samples: Create a new topic](#open-source-samples-create-a-new-topic).
 1. Select the **Test** button in top right corner of Copilot Studio to open the test chat window:
   - Test prompt:
     - Apply time off for November 5th with the reason: Going on vacation.
