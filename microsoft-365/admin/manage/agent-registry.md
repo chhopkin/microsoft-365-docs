@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 11/12/2025
+ms.date: 11/18/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -48,7 +48,7 @@ Agent Registry lists all agents integrated with Microsoft 365 Copilot, including
 
 ### Manage agents with embedded file content as a knowledge source
 
-Agent creators can use [Microsoft Copilot Agent Builder](/microsoft-365-copilot/extensibility/copilot-studio-lite-build) to upload files for the agent to use as knowledge. Copilot stores the uploaded files in tenant-owned [SharePoint Embedded](/sharepoint/dev/embedded/overview) containers. It then embeds the file content as knowledge for the agent to use in responses. For more information about how to build agents, see [Build agents with Microsoft Copilot Agent Builder](/microsoft-365-copilot/extensibility/copilot-studio-lite-knowledge#embedded-file-content).
+Agent creators can use [Microsoft 365 Copilot Agent Builder](/microsoft-365-copilot/extensibility/copilot-studio-lite-build) to upload files for the agent to use as knowledge. Copilot stores the uploaded files in tenant-owned [SharePoint Embedded](/sharepoint/dev/embedded/overview) containers. It then embeds the file content as knowledge for the agent to use in responses. For more information about how to build agents, see [Build agents with Microsoft 365 Copilot Agent Builder](/microsoft-365-copilot/extensibility/copilot-studio-lite-knowledge#embedded-file-content).
 
 This article explains how to handle embedded files, how you can manage agents and containers, and what to expect with sensitivity labels and deletion workflows.
 
@@ -114,7 +114,7 @@ The service applies sensitivity labels to the embedded content in the agent base
 
 - The service only applies sensitivity labels if:
 
-  - You create the agent using Microsoft Copilot Agent Builder.
+  - You create the agent using Microsoft 365 Copilot Agent Builder.
   - The agent includes embedded files.
 
 You can view the sensitivity label for each agent in the **Overview** tab of the Microsoft 365 admin center.
@@ -151,11 +151,7 @@ To configure admin settings for **Researcher agent with Computer Use**, follow t
 
 1. Navigate to **Microsoft Admin Controls (MAC) Agents** page.
 
-
-
 1. In the left navigation pane, select **Researcher under Agents**, and check if there's another tab for **Computer Use**.
-
-    :::image type="content" source="../../media/agents/researcher-step-1.png" alt-text="Screenshot showing the Agents page in the Microsoft 365 admin center." lightbox="../../media/knowledge-agent-idea.png":::
 
 1. Customize users that have access to **Researcher with Computer Use**.
 
@@ -199,17 +195,17 @@ To configure admin settings for **Researcher agent with Computer Use**, follow t
 
 #### Agent metadata in the Microsoft 365 admin center
 
-:::image type="content" source="../../media/agents/details.png" alt-text="Screenshot showing the details tab for an agent." lightbox="../../media/agents/details.png":::
+:::image type="content" source="../../media/agents/career-coach.png" alt-text="Screenshot showing the Career Coach for an agent." lightbox="../../media/agents/details.png":::
 
 You can access key metadata for Copilot agents in **Agents** > **All Agents**. When you select an agent, the metadata is available in the **Details** tab.
 
 The metadata includes details such as the agent's capabilities, data sources, and custom actions. Example data sources include OneDrive and SharePoint files and sites, or Graph connectors. Metadata is only for custom agents, which are designed to perform specific tasks based on predefined rules and configurations.
 
-## Admin Actions to Manage Agents
+## Admin actions to manage agents
 
 Administrators in the Microsoft 365 admin center can take several actions to control the lifecycle, availability, and compliance of agents in their organization. These controls enable administrators to determine which agents are visible, who can access them, and how they're managed across the tenant.
 
-### Available Actions
+### Available actions
 
 - **Publish** - Make an agent available for installation to specific users or groups.
 
@@ -581,7 +577,7 @@ To block or unblock an agent, follow these steps:
 1. Select **Block** or **Unblock**.
 1. Decide whether to block or unblock the agent for everyone.
 
-Blocking or unblocking an agent created using Microsoft Copilot Agent Builder and Microsoft Copilot Studio affects its availability and functionality in Microsoft 365 Copilot. It also availability and functionality in other host products, such as Outlook, Teams, or Microsoft 365. However, blocking an agent created with SharePoint only impacts its availability in Microsoft 365 Copilot Chat.
+Blocking or unblocking an agent created using Microsoft 365 Copilot Agent Builder and Microsoft Copilot Studio affects its availability and functionality in Microsoft 365 Copilot. It also availability and functionality in other host products, such as Outlook, Teams, or Microsoft 365. However, blocking an agent created with SharePoint only impacts its availability in Microsoft 365 Copilot Chat.
 
 > [!NOTE]
 >
@@ -617,7 +613,7 @@ This deletion process is irreversible. Once you delete an agent, it might take u
 >
 > The deletion workflow differs slightly depending on how you created the agent:
 >
-> - If you created the agent by using Microsoft Copilot Agent Builder or the Microsoft 365 Agents Toolkit, you can delete it from the Microsoft 365 admin center.
+> - If you created the agent by using Microsoft 365 Copilot Agent Builder or the Microsoft 365 Agents Toolkit, you can delete it from the Microsoft 365 admin center.
 > - If you created the agent from Microsoft Copilot Studio, you can manage and delete it from the Power Platform admin center.
 
 ## Ownerless shared agent management

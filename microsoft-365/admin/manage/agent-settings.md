@@ -1,13 +1,13 @@
 ---
 title: Agent Settings in Microsoft 365 admin center
 description: Agent Settings in Microsoft 365 admin center.
-#customer intent: As an IT admin, I want to manage agents for Microsoft 365 Copilot so that I can control their availability and functionality within my organization.
+#customer intent:
 f1.keywords:
 - NOCSH
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 11/12/2025
+ms.date: 11/18/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
