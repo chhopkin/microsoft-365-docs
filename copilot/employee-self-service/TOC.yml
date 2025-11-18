@@ -27,6 +27,8 @@ items:
           href: optimization-sharepoint.md
     - name: Publish Employee Self-Service agent
       href: publish.md
+    - name: Agent handoff
+      href: agent-handoff.md
 - name: Integrate external systems
   items:
     - name: SAP SuccessFactors
@@ -35,6 +37,8 @@ items:
       items:
         - name: Integrating Workday
           href: workday.md
+        - name: Extensibility
+          href: workday-extensibility.md
         - name: Workday reports
           href: workday-reports.md
           items:
