@@ -19,7 +19,7 @@ ms.custom:
 - GAUpdates
 appliesto:
 - ✅ Microsoft 365 Copilot
-ms.date: 11/14/2025
+ms.date: 11/18/2025
 ---
 
 # Set up pay-as-you-go for Microsoft 365 Copilot services for IT admins
@@ -40,7 +40,7 @@ To set up pay-as-you-go, you must have the following prerequisites:
 - Azure subscription and resource group:
   - You must have an owner or contributor Azure role to an [Azure subscription](/azure/cloud-adoption-framework/ready/azure-best-practices/initial-subscriptions) to set up the pay-as-you-go service.
   - You must have an owner or contributor Azure role to an Azure resource group linked to the same Azure subscription to set up the pay-as-you-go service.
-  - Admins can create Azure subscriptions and resource groups from within the billing policy creation process in the Microsoft 365 admin center, without the need to visit the Azure portal.
+  - Admins can [create Azure subscriptions and resource groups](#create-azure-subscriptions-and-resource-groups) from within the billing policy creation process in the Microsoft 365 admin center, without the need to visit the Azure portal.
 
   To learn more, see [Use the Azure portal and Azure Resource Manager to Manage Resource Groups](/azure/azure-resource-manager/management/manage-resource-groups-portal).
 
