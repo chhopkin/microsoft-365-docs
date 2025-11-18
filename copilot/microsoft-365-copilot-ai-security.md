@@ -5,7 +5,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 ms.reviewer: georgerozo
-ms.date: 11/12/2025
+ms.date: 11/18/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -161,6 +161,10 @@ Microsoft Purview provides tools to help you secure and govern your data for use
 
 Download and review our scenario-based deployment models, presentations, and guides. These resources describe how to rapidly implement a secure-by-default configuration, address oversharing concerns, and prevent data leak to shadow AI. See [Notes from engineering: Microsoft Purview deployment models](https://aka.ms/PurviewBlueprints).
 
+> [!NOTE]
+> Security Copilot is an AI-powered security solution that provides real-time assistance in threat detection, incident response, and risk assessment. In the coming months, Security Copilot will be included in Microsoft 365 E5. As you make agentic AI a part of your daily workflows, you can use Security Copilot to manage agents and security across your organization. [Learn about Security Copilot inclusion in Microsoft 365 E5 subscription](/copilot/security/security-copilot-inclusion).
+
+
 ### Security dashboard
 
 Microsoft 365 Copilot includes built-in security controls from [Microsoft Purview](/purview/ai-m365-copilot). The Copilot security dashboard provides additional insights and controls to help you:
@@ -170,6 +174,7 @@ Microsoft 365 Copilot includes built-in security controls from [Microsoft Purvie
 - Strengthen data compliance
 
 To view the dashboard in the [Microsoft 365 admin center](https://admin.microsoft.com), select **Copilot** > **Overview** > **Security**. To display the **Security** section, you need the [Global Reader](/entra/identity/role-based-access-control/permissions-reference#global-reader) role. To make changes the [AI administrator](/entra/identity/role-based-access-control/permissions-reference#ai-administrator) role is required.
+
 
 ## See also
 
