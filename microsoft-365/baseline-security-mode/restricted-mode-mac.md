@@ -13,7 +13,7 @@ description: "Learn about Baseline Security Mode settings that help protect and 
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Baseline security mode settings in the Microsoft 365 admin center
+# Baseline security mode settings in the Microsoft 365 admin center - Admim help
 
 As a Microsoft 365 admin, you want to protect and secure your business environment.
 
