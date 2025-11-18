@@ -7,7 +7,7 @@ f1.keywords:
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
-ms.date: 11/13/2025
+ms.date: 11/18/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.reviewer: emilyblundo, sophieke
@@ -100,7 +100,7 @@ For more information, see the following articles:
 
 For more information, see the following articles:
 
-- [Understand Security Copilot in Microsoft 365 E5](https://aka.ms/scpinclusioninfo)
+- [Learn about Security Copilot inclusion in Microsoft 365 E5 subscription](/copilot/security/security-copilot-inclusion)
 - [What is Microsoft Security Copilot?](/copilot/security/microsoft-security-copilot)
 - [Security Copilot use cases and roles](/copilot/security/use-case-role-overview)
 
