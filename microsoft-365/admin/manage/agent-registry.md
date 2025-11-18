@@ -326,26 +326,26 @@ The activation process consists of the following steps:
 
 1. **Review and complete activation** - Review all configurations and select **Finish** to activate the agent.
 
-Once activated, the agent becomes available for creating instances in the Teams App Store, and the requester is notified. For future user additions, the process is simplified. The administrator only needs to approve or reject requests, leveraging existing templates without repeating the full activation steps.
+    Once activated, the agent becomes available for creating instances in the Teams App Store, and the requester is notified. For future user additions, the process is simplified. The administrator only needs to approve or reject requests, leveraging existing templates without repeating the full activation steps.
 
 | Service Name | Policy Name | Description of Policy | More Information |
 | --- | --- | --- | --- |
 | Microsoft Entra | Identity Protection  | Detect agent identity threats by flagging anomalous activities involving agents. | [What is Microsoft Entra ID Protection?](/entra/id-protection/overview-identity-protection) |
-| Microsoft Entra | Network visibility | Enable network visibility to agent access to external resources. | [https://aka.ms/gsa4mcsdocs](https://aka.ms/gsa4mcsdocs) |
+| Microsoft Entra | Network visibility | Enable network visibility to agent access to external resources. | [Learn about Secure Web And AI Gateway for Microsoft Copilot Studio agents](/entra/global-secure-access/concept-secure-web-ai-gateway-agents) |
 | Microsoft Entra | Lifecycle management for agents | Govern Microsoft Entra Agent IDs at scale with lifecycle policies. | [Automate identity lifecycle management with Microsoft Entra ID Governance](/entra/id-governance/scenarios/automate-identity-lifecycle) |
 | Sharepoint | Restrict external sharing of sites and its content | Provides capability to allow or restrict specific agents from sharing content in SharePoint sites and OneDrive with external users and guests. | [What is SharePoint Advanced Management?](/sharepoint/advanced-management) |
 | Sharepoint | Access Control for Sites and OneDrive | Allows admin to specify agents and users allowed to access a given site. | [Restrict SharePoint site access with Microsoft 365 groups and Microsoft Entra security groups](/SharePoint/restricted-access-control) |
 | Sharepoint | Agent access insights | Provides insights on content and sites permissioned to users. | [Data access governance reports for SharePoint and OneDrive sites](/sharepoint/data-access-governance-reports) |
-| Sharepoint | Content Permissions Insights | Provides insights on agents accessing SharePoint and OneDrive sites. |  |
+| Sharepoint | Content Permissions Insights | Provides insights on agents accessing SharePoint and OneDrive sites. | [https://aka.ms/agentaccessinsights](https://aka.ms/agentaccessinsights) |
 | Purview | Purview Audit Enabled | Audit trails log all activities and provide clear observability. | [Use Microsoft Purview to manage data security & compliance for Microsoft Agent 365](/purview/ai-agent-365) |
 | Purview | Know Your Data Policy | Data security controls safeguard against sensitive data leaks and oversharing. | [Use Microsoft Purview to manage data security & compliance for Microsoft Agent 365](/purview/ai-agent-365) |
 | Purview | Purview AI compliance assessment | Continuous monitoring evaluates agents for compliance gaps and identifies areas needing attention. | [Use Microsoft Purview to manage data security & compliance for Microsoft Agent 365](/purview/ai-agent-365) |
 
 ### Deploy agents
 
-:::image type="content" source="../../media/agents/deploy.png" alt-text="Screenshot showing the configuration screen to deploy an agent." lightbox="../../media/agents/deploy.png":::
-
 You can deploy agents across the whole organization or for specific users or groups by using the same gestures and controls that work for any other app in the Microsoft 365 admin center.
+
+:::image type="content" source="../../media/agents/deploy.png" alt-text="Screenshot showing the configuration screen to deploy an agent." lightbox="../../media/agents/deploy.png":::
 
 To deploy an agent, follow these steps:
 
@@ -398,7 +398,7 @@ Delegated permissions are typically used for applications where the agent needs 
 
 - **User context required** - The agent performs actions with the signed-in user's permission.
 
-- **Granular access** = These permissions are typically more restricted, limiting access to only the user's data.
+- **Granular access** - These permissions are typically more restricted, limiting access to only the user's data.
 
 - **User consent might be required** - Depending on the permissions, users might need to grant consent for the application to act on their behalf.
 
