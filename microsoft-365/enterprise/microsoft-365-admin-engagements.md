@@ -17,7 +17,7 @@ description: The Engagements pivot in Enhanced engagements offers a centralized 
 ai-usage: ai-assisted  
 ---
 
-# Engagements
+# Engagements in Enhanced Engagements
 
 The Engagements pivot in Enhanced engagements offers a centralized overview of all customer-specific engagements with Microsoft. This section allows users to request and track engineering-led escalations, post-incident analyses, Business Process Awareness (BPAs), and Customer Advisory Board (CAB) discussions. Each engagement type provides detailed insights, status updates, and filtering options to help manage support efficiently.
 

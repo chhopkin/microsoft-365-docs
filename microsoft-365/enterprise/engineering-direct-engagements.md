@@ -1,5 +1,5 @@
 ---
-title: "Engagements in the Microsoft 365 Admin Center Enhanced engagements section"
+title: "Engagements in the Microsoft 365 Admin Center Engineering Direct section"
 f1.keywords:
 - NOCSH
 ms.author: vpattnaik
@@ -17,7 +17,7 @@ description: The Engagements pivot in Engineering direct offers a centralized ov
 ai-usage: ai-assisted  
 ---
 
-# Engagements
+# Engagements in Engineering Direct
 
 The Engagements pivot in Engineering direct offers a centralized overview of all customer-specific engagements with Microsoft. This section allows users to request and track engineering-led escalations, post-incident analyses, Business Process Awareness (BPAs), and Customer Advisory Board (CAB) discussions. Each engagement type provides detailed insights, status updates, and filtering options to help manage support efficiently.
 

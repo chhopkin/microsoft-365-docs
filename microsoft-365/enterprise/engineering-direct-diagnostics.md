@@ -16,7 +16,7 @@ ms.collection:
 description: The diagnostics pivot in Engineering Direct hosts diagnostic tools for self-service issue resolution within your environment.
 ---
 
-# Diagnostics
+# Diagnostics in Engineering Direct
 
 The Diagnostics page hosts diagnostic tools for self-service issue resolution within your environment.
 
