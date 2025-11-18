@@ -35,7 +35,7 @@ search.appverid:
 
 > [!IMPORTANT]
 >
-> This feature is only available for Frontier tenants.
+> This feature is in the process of rolling out and might not be available in your region yet.
 
 The **Connected Agents** tab for Researcher allows administrators to link additional agents that can provide information and answers when users interact with Researcher. This helps extend Researcher's capabilities by leveraging other agents within your organization.
 
@@ -54,6 +54,8 @@ Connected agents are other Copilot-enabled agents that can share data or insight
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), navigate to **Agents** > **All agents**.
 
 1. Select **Researcher** and then go to the **Connected Agents** tab.
+
+    :::image type="content" source="../../media/agents/connect-agent.png" alt-text="Screenshot showing how to connect an agent with Researcher in the Microsoft 365 admin center." lightbox="../../media/agents/connect-agent.png":::
 
 1. Select **+ Connect agents**.
 
