@@ -5,7 +5,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 ms.reviewer: georgerozo
-ms.date: 11/13/2025
+ms.date: 11/18/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
