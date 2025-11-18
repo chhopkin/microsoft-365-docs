@@ -36,6 +36,8 @@ items:
       href: block-dynamic-data-exchange-server-launches-excel.md
     - name: Block Microsoft Publisher
       href: block-microsoft-publisher.md
+    - name: Minimum versions for Baseline security mode settings in Office
+      href: minimum-version-numbers-office.md
   - name: Room devices
     items:
     - name: Only allow compliant devices to sign in
