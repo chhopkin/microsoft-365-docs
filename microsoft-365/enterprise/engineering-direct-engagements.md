@@ -41,6 +41,74 @@ At the top of the page, several visual summaries provide quick insights into you
 > [!NOTE]
 > These insights update automatically as new escalations are raised or resolved.
 
+## Business Project Awareness (BPAs)
+
+The Business Project Awareness (BPA) feature in the Engineering Direct portal enables organizations to notify Microsoft about upcoming business activities or infrastructure changes that might impact their Microsoft 365 services. During these periods, Microsoft’s Service Engineering team provides elevated monitoring and proactive engagement to help identify and mitigate potential risks.
+
+:::image type="content" source="../enterprise/media/enhanced-engagements/business-project-awareness.png" alt-text="Screenshot of business project awareness feature in enhanced engagements portal." lightbox="../enterprise/media/enhanced-engagements/business-project-awareness.png":::
+
+Examples of qualifying projects include:
+
+- Major datacenter or network changes
+- Mergers, acquisitions, or divestitures
+- Large-scale product launches or migrations
+- Tenant rebranding or restructuring
+
+### Submit a new BPA request
+
+If you're planning a significant business event, you can submit a BPA request to inform Microsoft’s Service Engineering team in advance.
+
+:::image type="content" source="../enterprise/media/enhanced-engagements/bpa-intake-form.png" alt-text="Screenshot of business project awareness intake form in enhanced engagements portal." lightbox="../enterprise/media/enhanced-engagements/bpa-intake-form.png":::
+
+1. In the **Enhanced engagements** section, go to **Engagements** > **BPAs**.
+2. Select **Submit new BPA**.
+3. Enter the required details about your planned activity, including:
+
+- Project title and Project details
+- Start and end dates
+- Products (for example, Exchange, SharePoint, Teams)
+- Primary contact information
+
+4. Review your information and select **Submit**.
+
+Once submitted, your request will appear in the BPA overview table with its current status.
+
+### BPA overview
+
+The **BPA overview** section provides a summary of all BPA requests submitted for your tenant.
+
+It includes:
+
+- **Total BPAs** and **Active BPAs**
+- **Active BPAs by workload** (Exchange, SharePoint, Teams)
+- A searchable and filterable list of BPA requests
+
+You can:
+
+- **Filter** BPAs by status or workload
+- **Export** BPA data for reporting or tracking
+- **Refresh** the view to see the latest submissions
+
+Each BPA entry includes key details:
+
+| Column | Description |
+|---------|---------|
+| **Project title** | Name of the submitted business activity |
+| **Ticket ID** | Unique identifier for the BPA request |
+| **Start/ End date** | Duration of the planned event|
+| **Product** | Microsoft 365 workload impacted |
+| **Created by** | Person who submitted the BPA |
+| **Contact** | Primary contact for follow-up |
+| **Status** | Current state of the request (for example, _Submitted_, _In review_, _Closed_) |
+
+By clicking the project title, a flyout would be shown form right side of the portal, which would allow you to view BPA request details (for example, project details).
+
+:::image type="content" source="../enterprise/media/enhanced-engagements/test-bpa-project.png" alt-text="Screenshot of Test business project awareness (BPA) overload." lightbox="../enterprise/media/enhanced-engagements/test-bpa-project.png":::
+
+### Active BPAs by workload
+
+The **Active BPAs by Workload** chart provides a quick visual summary of ongoing BPA engagements by product area. This helps you identify which workloads currently have active awareness requests and plan accordingly.
+
 ### Escalation report
 
 Below the overview section, the Escalation report provides a detailed, filterable table of all active and historical escalations for your tenant. You can use this table to review case progress, assigned severity, and escalation sources.
@@ -126,6 +194,22 @@ The Customer Advisory Board program allows you to:
 - Preview and provide feedback on Microsoft 365 roadmap plans.
 - Network with peers across industries facing similar challenges.
 - Influence future product and service enhancements.
+
+## Incident analysis
+
+The Incident Analysis page in Enhanced engagements allows you to request post-incident analysis for closed incidents. You can submit a request for incidents that have been resolved in the last 30 days. In addition, you can view insights into your current incident analysis requests, including their status, and see a report of all past requests.
+
+:::image type="content" source="../enterprise/media/enhanced-engagements/incident-analysis.png" alt-text="Screenshot of incident analysis in engineering direct portal." lightbox="../enterprise/media/enhanced-engagements/incident-analysis.png":::
+
+To submit a post-incident analysis request:
+
+1. Go to the **Incident Analysis** page and navigate to the Incident Analysis section under **Engagements**.
+2. Select **Create a new request**. A flyout menu will open, showing a list of eligible incidents that can be selected for post-incident analysis.
+3. Select a case. In the flyout menu, choose an incident by selecting the ticket number from the available list.
+4. Review case details after selecting an incident where you'll also see additional details related to the ticket. Follow the prompts to complete your analysis request.
+5. Submit your request. Once you've reviewed the information, submit your post-incident analysis request.
+
+:::image type="content" source="../enterprise/media/enhanced-engagements/post-incident-analysis.png" alt-text="Screenshot of post incident analysis in engineering direct portal." lightbox="../enterprise/media/enhanced-engagements/post-incident-analysis.png":::
 
 ### OIA Overview
 
