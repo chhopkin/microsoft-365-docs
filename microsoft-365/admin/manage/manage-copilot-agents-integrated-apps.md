@@ -56,7 +56,7 @@ You can manage several types of agents in Microsoft 365 Copilot, each serving di
 
 - **Published by your organization**: Built with predefined instructions and actions. These agents follow structured logic and are best for predictable, rule-based tasks. Before agents become available to users, these agents go through an admin approval and publishing process to ensure compliance and readiness.
 
-- **Shared by creator**: Shared agents are custom versions of Microsoft 365 Copilot that combine instructions, knowledge, and skills to perform specific tasks or scenarios. Creators can create and share these agents through multiple channels, such as Microsoft Copilot Studio, Microsoft 365 Copilot Agent Builder, and more. Shared agents enhance the functionality of Copilot by adding search capabilities, custom actions, connectors, and APIs. For more information, see [Share agents with other users](/microsoft-copilot-studio/admin-share-bots).
+- **Shared by creator**: Shared agents are custom versions of Microsoft 365 Copilot that combine instructions, knowledge, and skills to perform specific tasks or scenarios. Creators can create and share these agents through multiple channels, such as Microsoft 365 Copilot Studio, Microsoft 365 Copilot Agent Builder, and more. Shared agents enhance the functionality of Copilot by adding search capabilities, custom actions, connectors, and APIs. For more information, see [Share agents with other users](/microsoft-copilot-studio/admin-share-bots).
 
     As an admin, you can view shared agents on the **Agents** page in the Microsoft 365 admin center. You can see a list of all shared agents, including details such as the agent's name, creator, creation date, host products, and availability status. You can search for specific agents and manage their lifecycle, including blocking agents that are deemed unsafe or noncompliant.
 
@@ -99,3 +99,6 @@ You can manage agents in the [Microsoft 365 admin center](https://admin.microsof
 - [Agent Registry in the Microsoft 365 admin center](agent-registry.md).
 - [Agent Settings in Microsoft 365 admin center](agent-settings.md).
   - [Manage agent instances in Microsoft 365 admin center](manage-agent-instances.md).
+- [Manage Tools for Agent 365 in the Microsoft 365 admin center](manage-tools-for-agent.md)
+- [Manage Connected Agents for Researcher in the Microsoft 365 admin center](manage-connected-agents-for researcher.md).
+

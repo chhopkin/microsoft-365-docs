@@ -577,7 +577,7 @@ To block or unblock an agent, follow these steps:
 1. Select **Block** or **Unblock**.
 1. Decide whether to block or unblock the agent for everyone.
 
-Blocking or unblocking an agent created using Microsoft 365 Copilot Agent Builder and Microsoft Copilot Studio affects its availability and functionality in Microsoft 365 Copilot. It also availability and functionality in other host products, such as Outlook, Teams, or Microsoft 365. However, blocking an agent created with SharePoint only impacts its availability in Microsoft 365 Copilot Chat.
+Blocking or unblocking an agent created using Microsoft 365 Copilot Agent Builder and Microsoft 365 Copilot Studio affects its availability and functionality in Microsoft 365 Copilot. It also availability and functionality in other host products, such as Outlook, Teams, or Microsoft 365. However, blocking an agent created with SharePoint only impacts its availability in Microsoft 365 Copilot Chat.
 
 > [!NOTE]
 >
@@ -614,7 +614,7 @@ This deletion process is irreversible. Once you delete an agent, it might take u
 > The deletion workflow differs slightly depending on how you created the agent:
 >
 > - If you created the agent by using Microsoft 365 Copilot Agent Builder or the Microsoft 365 Agents Toolkit, you can delete it from the Microsoft 365 admin center.
-> - If you created the agent from Microsoft Copilot Studio, you can manage and delete it from the Power Platform admin center.
+> - If you created the agent from Microsoft 365 Copilot Studio, you can manage and delete it from the Power Platform admin center.
 
 ## Ownerless shared agent management
 
