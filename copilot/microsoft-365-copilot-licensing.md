@@ -7,7 +7,6 @@ f1.keywords:
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
-ms.date: 10/07/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: get-started
@@ -17,9 +16,9 @@ ms.collection:
 - scotvorg
 - m365copilot
 - magic-ai-copilot
-- operations-pod
 appliesto:
 - ✅ Microsoft 365 Copilot
+ms.date: 11/14/2025
 ---
 
 # License options for Microsoft 365 Copilot
@@ -51,7 +50,7 @@ For more information, see the following resources:
 > [!TIP]
 > To learn more about Microsoft 365 Copilot, see [Microsoft 365 Copilot overview](microsoft-365-copilot-overview.md) and [Microsoft 365 Copilot architecture and how it works](microsoft-365-copilot-architecture.md).
 
-## Microsoft 365 Copilot license
+## Microsoft 365 Copilot licenses
 
 To add Microsoft 365 Copilot to your Microsoft 365 subscription, you need one of the following Microsoft 365 subscription plans. You can get the Copilot license as an add-on.
 
@@ -105,6 +104,48 @@ To add Microsoft 365 Copilot to your Microsoft 365 subscription, you need one of
 
 - **Other plans:**
   - Microsoft Clipchamp
+
+### US Government licenses
+
+Microsoft 365 Copilot is available for customers in Government Community Cloud (GCC) and Department of Defense (DoD) cloud environments as an add-on to the following plans:
+
+- **Microsoft 365 Plans**
+
+  - Microsoft 365 G3
+  - Microsoft 365 G5
+  - Microsoft 365 F1
+
+- **Office 365 Plans**
+
+  - Office 365 G1
+  - Office 365 G3
+  - Office 365 G5
+  - Office 365 F3
+
+- **Exchange Plans**
+
+  - Exchange Plan 1
+  - Exchange Plan 2
+  - Exchange Kiosk
+
+- **SharePoint plans**
+
+  - SharePoint Plan 1
+  - SharePoint Plan 2
+
+- **OneDrive for Business plans**
+
+  - OneDrive for Business Plan 1
+  - OneDrive for Business Plan 2
+
+- **Project plans**
+
+  - Project Online Essentials
+
+- **Visio plans**
+
+  - Visio Plan 1
+  - Visio Plan 2
 
 ### Education licenses
 
