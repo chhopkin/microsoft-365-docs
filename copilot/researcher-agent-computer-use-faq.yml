@@ -6,7 +6,7 @@ metadata:
   ms.author: vpattnaik
   ms.service: microsoft-365-copilot
   ms.topic: faq
-  ms.date: 10/30/2025
+  ms.date: 11/18/2025
 
 title: "Researcher with Computer Use frequently asked questions"
 
@@ -16,7 +16,7 @@ sections:
       - question: "How can I use Computer use with Researcher agent in Microsoft 365 Copilot?"
         answer: "Researcher agent now provides “Computer Use” option for any prompt. Select the option to use Computer Use. Your admin must allow access to the feature before you can use Computer Use with Researcher. For more details see [Overview of Researcher with Computer Use](https://support.microsoft.com/en-us/topic/1f274537-6648-46e8-8264-052a49b92af4)."
       - question: "How does Computer Use operate in the virtual machine?"
-        answer: "When Computer Use is triggered, a sandbox environment dedicated to the conversation is created. This environment follows strict browser and network policies set by Microsoft. It's isolated from both the intranet and the user's device. Administrators can customize the sandbox by adding specific domains to allow or blocklists. Commands from the Researcher agent are sent securely. The sandbox environment doesn't persist for long-term use and is ephemeral.  It can only access the web with enforced policies, and no user credentials are stored or transferred in or out of the Sandbox. The virtual machine runs on Windows 365 and hosts containers running Linux."
+        answer: "When Computer Use is triggered, a sandbox environment dedicated to the conversation is created. This environment follows strict browser and network policies set by Microsoft. It's isolated from both the intranet and the user's device. Administrators can customize the sandbox by adding specific domains to allow or blocklists. Commands from the Researcher agent are sent securely. The sandbox environment doesn't persist for long-term use and is ephemeral.  It can only access the web with enforced policies, and no user credentials are stored or transferred in or out of the Sandbox. The virtual machine runs on [Windows 365 for Agents](/windows-365/agents/introduction-windows-365-for-agents) and hosts containers running Linux."
 
   - name: Admin controls
     questions:
