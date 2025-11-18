@@ -57,7 +57,7 @@ For detailed steps on how to disable the connection to Anthropic's AI models, se
 
 Word, and PowerPoint Agents can access organizational data for users with a Copilot license. These agents use Microsoft Graph to retrieve information from files, emails, meetings, and sites that you personally have permission to access, similar to other Copilot experiences.
 
-When integrating with reasoning models, Microsoft ensures secure handling of data. All searches are performed by Microsoft, and only the relevant context is shared with the reasoning model. This means the data provided is limited to what you are authorized to view, with sensitivity labels and compliance policies fully respected.
+Microsoft ensures secure handling of data, when integrating with reasoning models. Microsoft performs all searches, and only relevant context is shared with the reasoning model. So the data provided is limited to what you are authorized to view, with sensitivity labels and compliance policies fully respected.
 
 Generated content is stored securely in OneDrive. All documents created by these agents are saved within your organization's tenant, maintaining governance and compliance standards.
 
@@ -72,4 +72,4 @@ Feedback mechanisms exist for reporting inaccuracies or inappropriate content; s
 - [Connect to Anthropic's AI models](connect-to-ai-models.md)
 - [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7)
 - [Support article](https://support.microsoft.com/topic/76691f5e-bb19-4029-a34d-33a00e0a0c4f)
-- [Word, Excel and PowerPoint Agents FAQ](faq-wordexcelppt-agents.yml)
+- [Word, Excel, and PowerPoint Agents FAQ](faq-wordexcelppt-agents.yml)
