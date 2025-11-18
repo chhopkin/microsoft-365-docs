@@ -501,8 +501,6 @@ Pinning agents is a feature that enables administrators to preselect and pin age
 
 1. Select **Pin agents** to pin new agents.
 
-    :::image type="content" source="../../media/manage-pinning-agents/pin-agents.png" alt-text="Screenshot showing the Pin agents button in the Microsoft 365 admin center." lightbox="../../media/manage-pinning-agents/pin-agents.png":::
-
 #### Locate the agent to pin
 
 1. From the list of agents, find the agent you want to pin. You can search from the list to find a specific agent by name.
@@ -606,8 +604,6 @@ You can delete agents directly from the Microsoft 365 admin center. When you del
 1. Microsoft 365 removes the agent from the inventory.
 1. It deletes all associated files.
 1. It deletes the underlying SharePoint Embedded container.
-
-:::image type="content" source="../../media/knowledge-agent-delete.png" alt-text="Screenshot showing the pop-up window that appears when deleting an agent." lightbox="../../media/knowledge-agent-delete.png":::
 
 This deletion process is irreversible. Once you delete an agent, it might take up to 24 hours for the deletion to propagate to all users who had access to the agent. During this time, users might still see the agent listed, but they can't interact with it.
 
