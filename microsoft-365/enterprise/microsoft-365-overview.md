@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: scotv
 author: scotvidican
 manager: scotv
-ms.date: 11/13/2025
+ms.date: 11/18/2025
 audience: ITPro
 ms.topic: overview
 ms.service: microsoft-365-enterprise
@@ -45,7 +45,7 @@ Microsoft 365 for enterprise is available in three plans.
 |Plan name|Capabilities|
 |---|---|
 |E3|Access the Microsoft 365 core products and features to securely enhance workplace productivity and drive innovation.|
-|E5|Access the Microsoft 365 latest products and features. These include Defender Suite, Purview Suite, and more. This plan includes all E3 capabilities, plus advanced security, voice, and data analysis tools. In the coming months, Security Copilot will be included in Microsoft 365 E5. See [Understand Security Copilot in Microsoft 365 E5](https://aka.ms/scpinclusioninfo).|
+|E5|Access the Microsoft 365 latest products and features. These include Defender Suite, Purview Suite, and more. This plan includes all E3 capabilities, plus advanced security, voice, and data analysis tools. In the coming months, Security Copilot will be included in Microsoft 365 E5. See [Learn about Security Copilot inclusion in Microsoft 365 E5 subscription](/copilot/security/security-copilot-inclusion).|
 |F3|Connect with your first-line workers through purpose-built tools and resources that they can use to help them do their best work.|
 
 If you have Microsoft 365 E3, you can also get add-ons, such as the Microsoft Defender Suite and the Microsoft Purview Suite to enhance your security and compliance capabilities.
@@ -82,4 +82,4 @@ To learn more about Microsoft 365 and work toward a Microsoft 365 certification,
 
 [Microsoft 365 Productivity Library](https://www.microsoft.com/microsoft-365/success/)
 
-[Understand Security Copilot in Microsoft 365 E5](https://aka.ms/scpinclusioninfo)
+[Learn about Security Copilot inclusion in Microsoft 365 E5 subscription](/copilot/security/security-copilot-inclusion)

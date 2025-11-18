@@ -201,4 +201,4 @@ For more information, see the following articles:
 
 - [Which Copilot is right for my organization?](which-copilot-for-your-organization.md)
 
-- [Understand Security Copilot in Microsoft 365 E5](https://aka.ms/scpinclusioninfo) 
+- [Learn about Security Copilot inclusion in Microsoft 365 E5 subscription](/copilot/security/security-copilot-inclusion)
