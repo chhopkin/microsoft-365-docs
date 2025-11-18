@@ -114,5 +114,7 @@ The next step is to start using the features in your license:
 ## Related content
 
 - [Copilot Control System overview](copilot-control-system/overview.md)
+
 - [Microsoft 365 Copilot licensing](microsoft-365-copilot-licensing.md)
+
 - [Microsoft 365 Copilot resources on Microsoft Adoption](https://adoption.microsoft.com/copilot)
