@@ -3,7 +3,7 @@ title: "Minimum versions for Baseline Security Mode mode in Office"
 description: Learn about minimum version numbers for Baseline Security Mode settings
 author: kwekuako 
 ms.author: kwekua  
-manager:  dansimp
+manager:  scotv
 ms.date: 08/13/2025  
 ms.topic: overview
 ms.service: microsoft-365-admin  
@@ -18,7 +18,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Minimum versions for Baseline Security Mode settings in Office
 
-As an admin, it's essential to ensure that your organization is using the correct version of Microsoft 365 apps to fully leverage Baseline Security Mode functionality. Baseline Security Mode settings in Office apps are implemented using Cloud Policy settings. This article provides information on the minimum version requirements for Baseline Security Mode functionality in Microsoft 365 for Windows. For more information, see [Baseline Security Mode settings](restricted-mode-mac.md).
+As an admin, it's essential to ensure that your organization is using the correct version of Microsoft 365 apps to fully leverage Baseline Security Mode functionality. Baseline Security Mode settings in Office apps are implemented using Cloud Policy settings. This article provides information on the minimum version requirements for Baseline security mode settings functionality in Microsoft 365 for Windows. For more information, see [Baseline security mode settings](baseline-security-mode-settings.md).
 
 ## Minimum version requirements
 
@@ -44,7 +44,7 @@ All currently supported versions of Microsoft 365 for Windows support opening le
 
 ## Office Cloud Policy service
 
-The [Baseline Security Mode settings](restricted-mode-mac.md) topic has details on which Cloud Policy settings support the Baseline Security Mode setting. Individual Cloud Policy settings can be used to modify Baseline Security Mode behavior. For example, allowing files in a specific old legacy format to bypass Protected View while continuing to open all other old legacy format files in Protected View, without turning off the entire Baseline Security Mode policy.
+The [Baseline security mode settings](baseline-security-mode-settings.md) topic has details on which Cloud Policy settings support the Baseline Security Mode setting. Individual Cloud Policy settings can be used to modify Baseline Security Mode behavior. For example, allowing files in a specific old legacy format to bypass Protected View while continuing to open all other old legacy format files in Protected View, without turning off the entire Baseline Security Mode policy.
 
 > [!NOTE]
 > IIf you are managing Microsoft 365 apps using the Group Policy Editor, it is strongly recommended that you migrate to Cloud Policy service. When a policy is configured in both Group Policy and Cloud Policy, the Cloud Policy configuration will take precedence.
