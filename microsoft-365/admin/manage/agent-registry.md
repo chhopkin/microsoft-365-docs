@@ -326,7 +326,7 @@ The activation process consists of the following steps:
 
 1. **Review and complete activation** - Review all configurations and select **Finish** to activate the agent.
 
-Once activated, the agent becomes available for creating instances in the Teams App Store, and the requester is notified. For future user additions, the process is simplified. The administrator only needs to approve or reject requests, leveraging existing templates without repeating the full activation steps.
+    Once activated, the agent becomes available for creating instances in the Teams App Store, and the requester is notified. For future user additions, the process is simplified. The administrator only needs to approve or reject requests, leveraging existing templates without repeating the full activation steps.
 
 | Service Name | Policy Name | Description of Policy | More Information |
 | --- | --- | --- | --- |
@@ -336,7 +336,7 @@ Once activated, the agent becomes available for creating instances in the Teams 
 | Sharepoint | Restrict external sharing of sites and its content | Provides capability to allow or restrict specific agents from sharing content in SharePoint sites and OneDrive with external users and guests. | [What is SharePoint Advanced Management?](/sharepoint/advanced-management) |
 | Sharepoint | Access Control for Sites and OneDrive | Allows admin to specify agents and users allowed to access a given site. | [Restrict SharePoint site access with Microsoft 365 groups and Microsoft Entra security groups](/SharePoint/restricted-access-control) |
 | Sharepoint | Agent access insights | Provides insights on content and sites permissioned to users. | [Data access governance reports for SharePoint and OneDrive sites](/sharepoint/data-access-governance-reports) |
-| Sharepoint | Content Permissions Insights | Provides insights on agents accessing SharePoint and OneDrive sites. | [[https://aka.ms/agentaccessinsights](https://aka.ms/agentaccessinsights) |
+| Sharepoint | Content Permissions Insights | Provides insights on agents accessing SharePoint and OneDrive sites. | [https://aka.ms/agentaccessinsights](https://aka.ms/agentaccessinsights) |
 | Purview | Purview Audit Enabled | Audit trails log all activities and provide clear observability. | [Use Microsoft Purview to manage data security & compliance for Microsoft Agent 365](/purview/ai-agent-365) |
 | Purview | Know Your Data Policy | Data security controls safeguard against sensitive data leaks and oversharing. | [Use Microsoft Purview to manage data security & compliance for Microsoft Agent 365](/purview/ai-agent-365) |
 | Purview | Purview AI compliance assessment | Continuous monitoring evaluates agents for compliance gaps and identifies areas needing attention. | [Use Microsoft Purview to manage data security & compliance for Microsoft Agent 365](/purview/ai-agent-365) |
@@ -398,7 +398,7 @@ Delegated permissions are typically used for applications where the agent needs 
 
 - **User context required** - The agent performs actions with the signed-in user's permission.
 
-- **Granular access** = These permissions are typically more restricted, limiting access to only the user's data.
+- **Granular access** - These permissions are typically more restricted, limiting access to only the user's data.
 
 - **User consent might be required** - Depending on the permissions, users might need to grant consent for the application to act on their behalf.
 
