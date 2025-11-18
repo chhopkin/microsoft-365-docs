@@ -40,7 +40,7 @@ search.appverid:
 
 Microsoft 365 Copilot combines the power of large language models with your data and apps in Microsoft 365. It captures natural language commands to produce content and analyze data. It enables access to and use of other apps, such as Jira, [Dynamics 365](/microsoft-365-copilot/extensibility/overview-business-applications), or Bing Web Search.
 
-You can manage agents for Copilot by using the Agent Control System in the [Microsoft 365 admin center](https://admin.microsoft.com/). You can enable, disable, assign, block, or remove agents for your organization, and manage Copilot capabilities.
+You can manage agents for Copilot by using the [Microsoft 365 admin center](https://admin.microsoft.com/). You can enable, disable, assign, block, or remove agents for your organization, and manage Copilot capabilities.
 
 ## Overview
 
@@ -99,5 +99,5 @@ You can manage agents in the [Microsoft 365 admin center](https://admin.microsof
 - [Agent Registry in the Microsoft 365 admin center](agent-registry.md).
 - [Agent Settings in Microsoft 365 admin center](agent-settings.md).
   - [Manage agent instances in Microsoft 365 admin center](manage-agent-instances.md).
+  - [Manage Connected Agents for Researcher in the Microsoft 365 admin center](manage-connected-agents-for-researcher.md).
 - [Manage Tools for Agent 365 in the Microsoft 365 admin center](manage-tools-for-agent.md)
-- [Manage Connected Agents for Researcher in the Microsoft 365 admin center](manage-connected-agents-for-researcher.md).
