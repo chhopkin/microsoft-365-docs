@@ -16,10 +16,11 @@ sections:
     questions:
       
       
-      - question: "What are Word Agent, Excel Agent, and PowerPoint Agents? "
+      - question: "What are Word Agent, Excel Agent, and PowerPoint Agents?"
         
         answer: "
          - These are dedicated Word, Excel, and PowerPoint creation agents powered by reasoning models. They can be accessed via the Microsoft 365 Copilot Chat app. They specialize in generating Office documents based on a conversation with the user. These Agents can create documents based on information from the Web, or they can reference files the user has access to in the user's enterprise graph. The user may also directly provide relevant files by uploading them as part of their conversation with the Agents.
+         
          - These Agents can create documents based on information from the Web, or they can reference files the user has access to in the user's enterprise graph. The user may also directly provide relevant files by uploading them as part of their conversation with the Agents."
       
       - question: "What can Word Agent, Excel Agent, and PowerPoint Agents do?"
@@ -58,11 +59,7 @@ sections:
 
       - question: "What operational factors and settings allow for effective and responsible use of Word Agent, Excel Agent, and PowerPoint Agent? "
 
-        answer: "Word Agent, Excel Agent, and PowerPoint Agent Mode in Excel have been reviewed by our Responsible AI (RAI) team. We follow RAI principles and have implemented:
-
-         - Responsible AI handling pipeline to mitigate the risks like harmful, inappropriate content.
-         
-         - In product user feedback with which users can report offensive content back to Microsoft." 
+        answer: "The Word, Excel, and PowerPoint Agents have built-in safety measures to mitigate harmful and inappropriate content. The agents also provide the ability for users to report offensive content back to Microsoft." 
 
       - question: "How do I provide feedback on Word Agent, Excel Agent, and PowerPoint Agent?"
         
