@@ -60,7 +60,7 @@ It's recommended that you run the Baseline security mode settings in this way:
 
     :::image type="content" source="../../media/bsm-overview-page.png" alt-text="Screenshot: Overview image of Baseline security mode settings page with 3 setting recommendations: Authentication, Files, Room devices":::
 
-### Authentication
+## Authentication
 
 This section outlines the options available to block insecure authentication methods in the Microsoft 365 admin center.
 
