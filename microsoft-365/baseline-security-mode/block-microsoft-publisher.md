@@ -17,6 +17,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Block Microsoft Publisher
 
+As a Microsoft 365 admin, you want to protect and secure your business environment. **Baseline security mode** helps you protect and secure your organization.
+
 Publisher has a large attack surface and won't be included in Microsoft 365 starting in October 2026. Blocking Publisher now reduces security risk and aligns with Microsoft’s support strategy.
 
 When you enable this setting, Microsoft Publisher won't launch. When users try to launch Publisher, they get an error message “Publisher could not start because of a security policy set by your organization.”

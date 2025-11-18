@@ -17,6 +17,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Open ancient legacy formats in Protected View and disallow editing
 
+As a Microsoft 365 admin, you want to protect and secure your business environment. **Baseline security mode** helps you protect and secure your organization.
+
 Ancient legacy file formats in Microsoft 365 apps are vulnerable to memory corruption-related security issues. To mitigate these risks, administrators can configure settings to open these outdated formats in **Protected View** with editing disabled. This approach prevents potential exploits while still allowing users to view the content without risk.
 
 When this setting is turned on, ancient legacy file formats will open in Protected View and users will be unable to edit them, even if saved in a trusted location. Users can save files to a modern file format, but they will be blocked from saving in legacy formats. In Excel, new external workbook links referencing ancient legacy formats will return a #BLOCKED error, and existing links will display the last successfully refreshed values but will no longer refresh.

@@ -17,6 +17,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Block Dynamic Data Exchange (DDE) server launches in Excel
 
+As a Microsoft 365 admin, you want to protect and secure your business environment. **Baseline security mode** helps you protect and secure your organization.
+
 Dynamic Data Exchange (DDE) allows Excel to pull data from external sources in real time. However, if the source is malicious, it can send harmful code to Excel and potentially compromise the system without requiring macros or other active content. Attackers have used this technique in targeted phishing attacks to execute arbitrary commands. Blocking DDE server launches reduces this risk.  
 
 When you enable this setting, Excel will block DDE server launches, helping prevent malicious external sources from injecting harmful code into spreadsheets.

@@ -18,6 +18,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # How to Block FrontPage Server Extensions Remote Procedure Call (FPRPC) for file opens in Microsoft 365 apps
 
+As a Microsoft 365 admin, you want to protect and secure your business environment. **Baseline security mode** helps you protect and secure your organization.
+
 FrontPage Server Extensions Remote Procedure Call (FPRPC) is an outdated protocol that poses security risks. It can be exploited by attackers to execute arbitrary commands or compromise systems through specially crafted files or network traffic. Due to these risks, Microsoft 365 apps block file opens using FPRPC by default. When FPRPC is blocked, the app will attempt to open the file using HTTPS instead.
 
 When this setting is turned on, users in your environment won’t be able to override the default configuration using Trust Center.

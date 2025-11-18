@@ -18,6 +18,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Block ActiveX controls in Microsoft 365 apps
 
+As a Microsoft 365 admin, you want to protect and secure your business environment. **Baseline security mode** helps you protect and secure your organization.
+
 ActiveX controls are small programs used to add interactive features to Microsoft 365 documents and web pages. Due to their history of security vulnerabilities, ActiveX controls are highly susceptible to exploitation by malicious actors. These controls can be used to run harmful code, install malware, or take control of a system when users open compromised files or visit unsafe websites. Consequently, ActiveX is now blocked by default in Microsoft 365 apps.
 
 When this setting is turned on, users in your environment won’t be able to override the default configuration using **Trust Center**.

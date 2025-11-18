@@ -16,6 +16,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Block OLE Graph and OrgChart objects
 
+As a Microsoft 365 admin, you want to protect and secure your business environment. **Baseline security mode** helps you protect and secure your organization.
+
 Although rarely used today, OLE Graph and OrgChart objects in Microsoft 365 files are legacy features that attackers often exploit to run malicious code when a document is opened.
 
 When you enable this setting, Microsoft 365 apps will block loading OLE Graph and OrgChart objects to protect users from known exploitation techniques.
