@@ -36,7 +36,7 @@ To get started, go to [organizational messages in the Microsoft 365 admin center
 > As of November 18, 2025 Organizational Messages now includes two powerful new capabilities available in Public Preview. <br><br>
 > **Email Messages**: Admins can now deliver premade templatized messages by email, joining existing surfaces like Windows Spotlight, Task Bar, Notification Center, and Teams Popovers. For the initial Public Preview, there are 8 premade email templates available: 2 welcome messages for *Welcome to Copilot*, and *Welcome to Copilot Chat*, plus 6 templates from the *Great M365 Copilot Journey* that highlight features and best practices to help drive Copilot onboarding and adoption.<br><br>
 > **Action Segments**: Admins can now target organizational messages based on usage behaviors. For the Public Preview there are 2 pre-defined Action Segments available for Copilot usage: *Inactive Copilot Users* and *Inactive Copilot Users in Teams*.<br><br>
-> See [Release Notes for Public Preview of Email and Action Segments](#release-notes-for-public-preview-of-email-and-action-segments) for more information.<br><br>
+> For more information about this topic, see [Release Notes for Public Preview of Email and Action Segments](#release-notes-for-public-preview-of-email-and-action-segments).<br><br>
 > As we roll out the Public Preview for these features throughout November 2025, we’re excited to see how they will enhance communication and help drive Copilot adoption within your organization. We’re committed to continuously improving these capabilities based on your feedback and usage. 
 
 ## What can I do with organizational messages?
