@@ -283,7 +283,7 @@ items:
             - name: Manage Tools for Agent 365 in the Microsoft 365 admin center
               href: manage/manage-tools-for-agent.md
             - name: Manage Connected Agents for researcher.md
-              href: manage/manage-connected-agents-for researcher.md
+              href: manage/manage-connected-agents-for-researcher.md
             - name: Microsoft Graph connectors for Microsoft Search
               href: /microsoftsearch/connectors-overview
          - name: Monitor Microsoft 365 activity by using reports

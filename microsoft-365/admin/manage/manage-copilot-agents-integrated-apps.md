@@ -100,5 +100,4 @@ You can manage agents in the [Microsoft 365 admin center](https://admin.microsof
 - [Agent Settings in Microsoft 365 admin center](agent-settings.md).
   - [Manage agent instances in Microsoft 365 admin center](manage-agent-instances.md).
 - [Manage Tools for Agent 365 in the Microsoft 365 admin center](manage-tools-for-agent.md)
-- [Manage Connected Agents for Researcher in the Microsoft 365 admin center](manage-connected-agents-for researcher.md).
-
+- [Manage Connected Agents for Researcher in the Microsoft 365 admin center](manage-connected-agents-for-researcher.md).
