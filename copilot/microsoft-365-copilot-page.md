@@ -8,7 +8,7 @@ author: kwekuako
 ms.author: kwekua
 manager: scotv
 ms.reviewer: elvaf
-ms.date: 11/13/2025
+ms.date: 11/18/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
@@ -216,7 +216,7 @@ This option is a direct shortcut to the Security Copilot portal. You don't confi
 
 In the coming months, Security Copilot will be included in Microsoft 365 E5. With Security Copilot, it's easier than ever to make agentic AI a part of your daily workflows.
 
-For more information, see [Understand Security Copilot in Microsoft 365 E5](https://aka.ms/scpinclusioninfo).
+[Learn about Security Copilot inclusion in Microsoft 365 E5 subscription](/copilot/security/security-copilot-inclusion).
 
 ### Pin Microsoft 365 Copilot app to the Windows taskbar
 
