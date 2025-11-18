@@ -237,6 +237,8 @@ The Microsoft 365 admin center publishing process for agents submitted through C
 
 It also reduces manual work by automating the submission and review of manifests, freeing developers, and administrators from repetitive tasks. The streamlined approval workflow makes it faster and easier for administrators to review, approve, and manage custom agents in the Microsoft 365 admin center.
 
+:::image type="content" source="../../media/agents/publish-agent.png" alt-text="Screenshot showing publish agent to selected users." lightbox="../../media/agents/publish-agent.png":::
+
 #### Overview of the publishing process
 
 The publishing process consists of the following steps:
