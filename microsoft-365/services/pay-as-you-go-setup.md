@@ -15,15 +15,13 @@ ms.localizationpriority:  medium
 description: Learn how to set up or disconnect billing for pay-as-you-go services for document processing, Microsoft 365 Archive, and Microsoft 365 Backup.
 ---
 
-# Set up or disconnect pay-as-you-go billing for document processing and storage services
+# Set up or disconnect pay-as-you-go billing in Org Settings
 
 This article explains how to set up or disconnect pay-as-you-go billing for the following services:
 
-- Document processing for Micrsoft 365
+- Document processing for Microsoft 365
 
 - Microsoft 365 Archive
-
-- Microsoft 365 Backup
 
 ## Prerequisites
 
