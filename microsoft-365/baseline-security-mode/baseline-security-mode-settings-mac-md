@@ -51,7 +51,9 @@ It's recommended that you run the Baseline security mode settings in this way:
 
 - Run impact reports for each of the Baseline security mode settings.
 - If the setting displays zero impacts, its safe for you to turn on that setting.
-- If critical dependencies exist, you can hold of on turning on the setting and plan to address those dependencies before making the changes permanent. This intuitive, phased approach ensures a smooth transition to secure-by-default configurations.
+- If critical dependencies exist, you can hold of on turning on the setting and plan to address those dependencies before making the changes permanent.
+
+This phased approach ensures a smooth transition to secure-by-default configurations.
 
 ## How to get to Baseline Security Mode settings
 
@@ -132,7 +134,7 @@ Currently, the following features don't work when baseline security mode setting
 |---|---|
 |Block insecure protocols for file opens|When users open files from locations using insecure protocols like HTTP or FTP, sensitive data can be exposed because these protocols transmit information in plain text. Blocking these protocols helps prevent attackers from intercepting credentials or other confidential data during file access. When you enable this setting, users are prevented from opening files from locations that use HTTP or FTP. This helps enforce secure data transmission practices and reduces exposure to man-in-the-middle attacks. <br/><br/> For more information, see [Block insecure protocols for file opens](block-insecure-protocols-file-opens.md).|
 
-### Block FPRPC protocol for file opens
+### Block FrontPage Remote Procedure Call (FPRPC) protocol for file opens
 
 |Setting|More information|
 |---|---|

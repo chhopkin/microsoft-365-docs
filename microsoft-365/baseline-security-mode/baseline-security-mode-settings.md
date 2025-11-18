@@ -1,5 +1,5 @@
 ---
-title: "Baseline security mode settings in the Microsoft 365 admin center"
+title: "Baseline security mode settings"
 ms.author: kwekua
 author: kwekuako
 manager: scotv
@@ -12,7 +12,7 @@ ms.collection: RestrictedMode
 description: "Learn about Baseline security mode settings that help protect and secure your organization from external threats."
 ---
 
-# Baseline security mode settings in the Microsoft 365 admin center
+# Baseline security mode settings
 
 As a Microsoft 365 admin, you want to protect and secure your business environment.
 
