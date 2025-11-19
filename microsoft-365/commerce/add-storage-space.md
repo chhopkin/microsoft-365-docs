@@ -85,7 +85,7 @@ You can buy the Office 365 Extra File Storage add-on in the Microsoft 365 admin 
     - If you’re using the **Simplified view**, select **Billing**.
     - If you’re using the **Dashboard view**, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.
 2. Select the subscription that you want to buy an add-on for.
-3. On the subscription details page, in the **Add-ons** section, select **Find more add-ons in Purchase services**.
+3. On the subscription details page, in the **Add-ons** section, select **Find more add-ons in Marketplace**.
 4. Find the Office 365 Extra File Storage add-on, and then select **Details**.
 5. From the drop-down list; select the subscription to connect with the add-on; and then select **Connect to subscription**.
 6. On the **Checkout** page, enter the quantity that you want to buy and then select **Place order**.
