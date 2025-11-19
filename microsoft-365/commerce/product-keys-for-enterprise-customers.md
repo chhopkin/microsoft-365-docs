@@ -3,7 +3,7 @@ title: "Understand product keys for Microsoft Customer Agreement for Enterprise 
 f1.keywords: NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.reviewer: deevsharma, nikotha
 audience: Admin
 ms.topic: concept-article

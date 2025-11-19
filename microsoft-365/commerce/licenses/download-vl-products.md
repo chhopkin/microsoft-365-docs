@@ -2,7 +2,7 @@
 title: "Download volume licensing products"
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.reviewer: aasthatiwari, atuldubey
 audience: Admin
 ms.topic: concept-article
