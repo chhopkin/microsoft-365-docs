@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 11/18/2025
+ms.date: 11/19/2025
 audience: Admin
 ms.reviewer: dansimp
 ms.topic: article
@@ -38,7 +38,7 @@ The Engineering Direct portal is located under **Support** within the Microsoft 
 1. Select **Support**.
 1. Select **Engineering Direct** to enter the portal.
 
-<**Need new image with engg direct written in the screenshot**>
+:::image type="content" source="../enterprise/media/enhanced-engagements/engineering-direct-landing-page.png" alt-text="Screenshot of landing page in engineering direct portal." lightbox="../enterprise/media/enhanced-engagements/engineering-direct-landing-page.png":::
 
 ## Related content
 

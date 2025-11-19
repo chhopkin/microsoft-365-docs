@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 11/17/2025
+ms.date: 11/19/2025
 audience: Admin
 ms.reviewer: dansimp
 ms.topic: article
@@ -20,6 +20,8 @@ ai-usage: ai-assisted
 # Engagements in Enhanced Engagements
 
 The Engagements pivot in Enhanced engagements offers a centralized overview of all customer-specific engagements with Microsoft. This section allows users to request and track engineering-led escalations, post-incident analyses, Business Process Awareness (BPAs), and Customer Advisory Board (CAB) discussions. Each engagement type provides detailed insights, status updates, and filtering options to help manage support efficiently.
+
+:::image type="content" source="../enterprise/media/enhanced-engagements/enhanced-engagements-mcs.png" alt-text="Screenshot of engagemnts landing page in enhanced engagements portal." lightbox="../enterprise/media/enhanced-engagements/enhanced-engagements-mcs.png":::
 
 ## Engineering Escalations
 
