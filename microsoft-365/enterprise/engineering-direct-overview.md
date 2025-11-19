@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 11/18/2025
+ms.date: 11/19/2025
 audience: Admin
 ms.reviewer: dansimp
 ms.topic: article
@@ -28,7 +28,7 @@ Once in the portal, you'll see the **Overview** page. This page contains several
 - **Insights: Escalation Trend Per Week by Status**: A monthly view of escalations by open and closed for the last six months. This is a focused view of all reactive issues, filtered by all issues that have a Microsoft engineering element.
 - **Request A Feature**: Allows you to submit feedback or a request to the Engineering Direct Portal team. Feedback can be both related to the portal itself and its functionality, and any broader engineering features you would like to see in Engineering Direct. Feature requests submitted through this method are visible to users in the **MyFeedback** section of the feedback portal.
 
-<**Need new image with engg direct written in the screenshot**>
+:::image type="content" source="../enterprise/media/enhanced-engagements/engineering-direct-landing-page.png" alt-text="Screenshot showing landing page of engineering direct portal." lightbox="../enterprise/media/enhanced-engagements/engineering-direct-landing-page.png":::
 
 ## Related content
 
