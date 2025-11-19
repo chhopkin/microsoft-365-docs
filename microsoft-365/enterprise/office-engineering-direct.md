@@ -18,7 +18,7 @@ description: Engineering direct in the Microsoft 365 admin center provides enhan
 
 # Engineering Direct portal in the Microsoft 365 admin center
 
-The Engineering Direct portal within the Microsoft 365 admin center is designed to provide Mission Critical Services (MCS) customers with an enhanced engineering experience. This article provides an overview of the portal's features, how to access it, and its functionality.
+The Engineering Direct portal within the Microsoft 365 admin center is designed to provide Office Engineering Direct (OED) customers with an enhanced engineering experience. This article provides an overview of the portal's features, how to access it, and its functionality.
 
 The Engineering Direct portal capabilities include:
 

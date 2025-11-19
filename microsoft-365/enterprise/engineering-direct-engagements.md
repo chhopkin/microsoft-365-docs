@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 11/18/2025
+ms.date: 11/19/2025
 audience: Admin
 ms.reviewer: dansimp
 ms.topic: article
@@ -211,14 +211,14 @@ To submit a post-incident analysis request:
 
 :::image type="content" source="../enterprise/media/enhanced-engagements/post-incident-analysis.png" alt-text="Screenshot of post incident analysis in engineering direct portal." lightbox="../enterprise/media/enhanced-engagements/post-incident-analysis.png":::
 
-### OIA Overview
+### Incident Analysis overview
 
-The OIA Overview section provides a snapshot of the current state of your post-incident analysis requests:
+The Incident Analysis (IA) Overview section provides a snapshot of the current state of your post-incident analysis requests:
 
-- **Total OIAs**: Displays the total number of open post-incident analysis requests.
-- **Active OIAs**: Shows the number of active requests that are being worked on.
+- **Total IAs**: Displays the total number of open post-incident analysis requests.
+- **Active IAs**: Shows the number of active requests that are being worked on.
 
-### Active OIAs by Workload
+### Active IAs by workload
 
 This section breaks down your active post-incident analysis requests by workload type:
 

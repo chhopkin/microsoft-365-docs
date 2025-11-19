@@ -19,7 +19,7 @@ ai-usage: ai-assisted
 
 # Engagements in Enhanced Engagements
 
-The Engagements pivot in Enhanced engagements offers a centralized overview of all customer-specific engagements with Microsoft. This section allows users to request and track engineering-led escalations, post-incident analyses, Business Process Awareness (BPAs), and Customer Advisory Board (CAB) discussions. Each engagement type provides detailed insights, status updates, and filtering options to help manage support efficiently.
+The Engagements pivot in Enhanced engagements offers a centralized overview of all customer-specific engagements with Microsoft. This section allows users to request and track engineering-led escalations, post-incident analyses, and Customer Advisory Board (CAB) discussions. Each engagement type provides detailed insights, status updates, and filtering options to help manage support efficiently.
 
 :::image type="content" source="../enterprise/media/enhanced-engagements/enhanced-engagements-mcs.png" alt-text="Screenshot of engagemnts landing page in enhanced engagements portal." lightbox="../enterprise/media/enhanced-engagements/enhanced-engagements-mcs.png":::
 
@@ -129,43 +129,6 @@ The Customer Advisory Board program allows you to:
 - Network with peers across industries facing similar challenges.
 - Influence future product and service enhancements.
 
-### OIA Overview
+## Related content
 
-The OIA Overview section provides a snapshot of the current state of your post-incident analysis requests:
-
-- **Total OIAs**: Displays the total number of open post-incident analysis requests.
-- **Active OIAs**: Shows the number of active requests that are being worked on.
-
-### Active OIAs by Workload
-
-This section breaks down your active post-incident analysis requests by workload type:
-
-- **Exchange**: The number of active analysis requests related to Exchange incidents.
-- **SharePoint**: The number of active analysis requests related to SharePoint incidents.
-- **Teams**: The number of active analysis requests related to Teams incidents.
-
-### Incident analysis filters
-
-You can refine your view of the incident analysis requests by using the following filters:
-
-- **Status**: Filter by the current status of the request (for example, _Submitted_, _Completed_).
-- **Created By**: Filter by the user who created the request.
-- **Product**: Filter by the product associated with the incident (for example, _Exchange_, _SharePoint_, _Teams_).
-
-### Request Report
-
-The **Request Report** section displays a table with all the post-incident analysis requests that have been submitted. For each request, you can see the following details:
-
-- **Ticket #**: The unique identifier for the incident.
-- **Case Title**: The title of the incident request.
-- **Status**: The current status of the request (for example, _Submitted_, _Completed_).
-- **Created By**: The user who created the request.
-- **Date Created**: The date when the request was created.
-- **Product**: The product associated with the incident (for example, _Exchange_, _SharePoint_, _Teams_).
-
-### Navigation and Pagination
-
-The request report is displayed in a paginated table format. You can navigate through the pages of requests by using the pagination controls at the bottom of the table:
-
-- **Next** and **Previous** arrows allow you to move between pages.
-- The **Items per page** selector lets you adjust how many requests are displayed on each page.
+- [Diagnostics pivot in Enhanced Engagements portal](microsoft-365-admin-diagnostics.md)
