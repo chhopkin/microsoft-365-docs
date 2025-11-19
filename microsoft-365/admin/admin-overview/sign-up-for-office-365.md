@@ -33,7 +33,7 @@ ms.custom:
 - intro-get-started
 search.appverid:
 - MET150
-ROBOTS: NOINDEX
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to choose a Microsoft 365 for business plan, sign up, and set up your subscription."
 ms.date: 11/04/2025
 ---

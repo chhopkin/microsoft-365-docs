@@ -1,11 +1,11 @@
 ---
-title: "Diagnostics tab in the Microsoft 365 Admin Center Enhanced engagements section"
+title: "Diagnostics tab in the Microsoft 365 Admin Center Engineering Direct section"
 f1.keywords:
 - NOCSH
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 11/16/2025
+ms.date: 11/18/2025
 audience: Admin
 ms.reviewer: dansimp
 ms.topic: article
@@ -13,14 +13,14 @@ ms.service: microsoft-365-enterprise
 ms.localizationpriority: medium
 ms.collection: 
 - m365admin
-description: The diagnostics pivot in Enhanced engagements hosts diagnostic tools for self-service issue resolution within your environment.
+description: The diagnostics pivot in Engineering Direct hosts diagnostic tools for self-service issue resolution within your environment.
 ---
 
-# Diagnostics in Enhanced Engagements
+# Diagnostics in Engineering Direct
 
 The Diagnostics page hosts diagnostic tools for self-service issue resolution within your environment.
 
-:::image type="content" source="../enterprise/media/enhanced-engagements/enhanced-engagements-diagnostics.png" alt-text="Screenshot of diagnostics page in enhanced engagements portal." lightbox="../enterprise/media/enhanced-engagements/enhanced-engagements-diagnostics.png":::
+:::image type="content" source="../enterprise/media/enhanced-engagements/enhanced-engagements-diagnostics.png" alt-text="Screenshot of diagnostics page in engineering direct portal." lightbox="../enterprise/media/enhanced-engagements/enhanced-engagements-diagnostics.png":::
 
 In this section:
 
@@ -66,7 +66,7 @@ The Visual Mail Flow diagnostic result includes:
 
 The **Visual Mail Flow Tree** is an interactive display showing the stages an email went through, with the ability to zoom, drag, and view detailed node information. By examining the tree, you can gain a detailed understanding of how Exchange Online processed the email. In some cases, you might notice that the tree node is split into multiple child nodes. This is due to Exchange Online's bifurcation feature, which separates recipients into multiple sets to process them separately during mail flow.
 
-:::image type="content" source="../media/eng-direct-portal/eng-direct-portal-visual-mail-flow.png" alt-text="Screenshot of enhanced engagements portal visual mail flow page." lightbox="../media/eng-direct-portal/eng-direct-portal-visual-mail-flow.png":::
+:::image type="content" source="../media/eng-direct-portal/eng-direct-portal-visual-mail-flow.png" alt-text="Screenshot of engineering direct portal visual mail flow page." lightbox="../media/eng-direct-portal/eng-direct-portal-visual-mail-flow.png":::
 
 ### Investigating further
 
@@ -75,7 +75,7 @@ Select a tree node to view a flyout with other details, including recipients pro
 > [!TIP]
 > Emails sent to many recipients or large groups will take a longer time to query or could time out. Querying emails with fewer recipients could improve your experience.
 
-:::image type="content" source="../media/eng-direct-portal/eng-direct-portal-visual-mail-flow-item.png" alt-text="Screenshot of enhanced engagements portal visual mail flow item page." lightbox="../media/eng-direct-portal/eng-direct-portal-visual-mail-flow-item.png":::
+:::image type="content" source="../media/eng-direct-portal/eng-direct-portal-visual-mail-flow-item.png" alt-text="Screenshot of engineering direct portal visual mail flow item page." lightbox="../media/eng-direct-portal/eng-direct-portal-visual-mail-flow-item.png":::
 
 If Visual Mail Flow can’t help you resolve the issue, contact Microsoft Support for further help.
 
