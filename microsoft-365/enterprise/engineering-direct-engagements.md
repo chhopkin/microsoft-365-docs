@@ -41,6 +41,39 @@ At the top of the page, several visual summaries provide quick insights into you
 > [!NOTE]
 > These insights update automatically as new escalations are raised or resolved.
 
+### Engineering Escalations report
+
+Below the overview section, the engineering escalations report provides a detailed, filterable table of all active and historical escalations for your tenant. You can use this table to review case progress, assigned severity, and escalation sources.
+
+You can:
+
+- **Search** by title, ticket number, or keywords.
+- **Filter** by status, product, severity, or escalation source.
+- **Refresh** the data to view the most recent updates.
+- **Export** the results for reporting or analysis.
+
+| Column | Description |
+|---------|---------|
+| **Title** | The name or brief summary of the escalation.|
+| **Created by** | The user who initiated the escalation. |
+| **Ticket** | The unique escalation identifier.|
+| **Severity** | Indicates the escalation's priority (for example, _A_, _B_, _C_, or _1_).|
+| **Escalation date** | When the escalation was created.|
+| **Status** | The current state of the escalation(_Open_, _Closed_, _In Progress_). |
+| **Escalation source** | Identifies whether the escalation originated from your organization or from Microsoft Support.|
+
+> [!TIP]
+> Combine filters and charts to spot recurring service request trends or identify products that require the most attention.
+
+### Benefits of Engineering Escalations
+
+The Engineering Escalations view helps your organization:
+
+- Maintain visibility into engineering-level escalation
+- Understand patterns across products and severity levels.
+- Identify and manage high-impact issues efficiently.
+- Improve collaboration with Microsoft support and engineering teams.
+
 ## Business Project Awareness (BPAs)
 
 The Business Project Awareness (BPA) feature in the Engineering Direct portal enables organizations to notify Microsoft about upcoming business activities or infrastructure changes that might impact their Microsoft 365 services. During these periods, Microsoft’s Service Engineering team provides elevated monitoring and proactive engagement to help identify and mitigate potential risks.
