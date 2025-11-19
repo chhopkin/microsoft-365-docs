@@ -30,6 +30,10 @@ items:
       items: 
       - name: Set up Microsoft 365 and related services
         href: flw-setup-microsoft-365.md
+      - name: Set up frontline Teams on personal devices
+        href: flw-setup-frontline-personal-devices.md
+      - name: Start a pilot for your frontline workers
+        href: startafrontlinepilot.md
       - name: Choosing between dynamic and static frontline teams
         href: frontline-team-options.md
       - name: Deploy frontline teams with flexible membership
@@ -46,8 +50,6 @@ items:
       items: 
       - name: Set up targeted communications
         href: set-up-targeted-communications.md 
-      - name: Deploy Shifts at scale
-        href: deploy-shifts-at-scale.md
     - name: Configure Teams settings for frontline workers
       items: 
       - name: Tailor Teams apps for your frontline workers

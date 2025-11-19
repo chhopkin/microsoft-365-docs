@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: kwekua
 author: kwekuako
-manager: dansimp
+manager: scotv
 ms.date: 11/18/2024
 audience: Admin
 ms.topic: article
@@ -30,8 +30,14 @@ As an admin, you can now connect with your organization through customized messa
 
 To get started, go to [organizational messages in the Microsoft 365 admin center](https://aka.ms/organizationalmessagesportal).
 
->[!NOTE]
-> As of November 19, 2024, Organizational Messages in the Microsoft 365 admin center is now in general availability.
+
+
+> [!Note]
+> As of November 18, 2025 Organizational Messages now includes two powerful new capabilities available in Public Preview. <br><br>
+> **Email Messages**: Admins can now deliver premade templatized messages by email, joining existing surfaces like Windows Spotlight, Task Bar, Notification Center, and Teams Popovers. For the initial Public Preview, there are 8 premade email templates available: 2 welcome messages for *Welcome to Copilot*, and *Welcome to Copilot Chat*, plus 6 templates from the *Great M365 Copilot Journey* that highlight features and best practices to help drive Copilot onboarding and adoption.<br><br>
+> **Action Segments**: Admins can now target organizational messages based on usage behaviors. For the Public Preview there are 2 pre-defined Action Segments available for Copilot usage: *Inactive Copilot Users* and *Inactive Copilot Users in Teams*.<br><br>
+> For more information about this topic, see [Release Notes for Public Preview of Email and Action Segments](#release-notes-for-public-preview-of-email-and-action-segments).<br><br>
+> As we roll out the Public Preview for these features throughout November 2025, we’re excited to see how they will enhance communication and help drive Copilot adoption within your organization. We’re committed to continuously improving these capabilities based on your feedback and usage. 
 
 ## What can I do with organizational messages?
 
@@ -83,9 +89,6 @@ To ensure users can communicate with organizational messages, the following endp
 
 - fd.api.orgmsg.microsoft.com
 - ris.prod.api.personalization.ideas.microsoft.com
-
-> [!IMPORTANT]
-> During our preview period, Organizational messages preview experiences weren't restricted based on the licenses held by participating tenants, authors, approvers, or message recipients. However, now that the product is in general availability, some organizational messages experiences are restricted to particular Microsoft licenses. To learn more, see [Advanced features](#advanced-features).
 
 ## Get started
 
@@ -275,7 +278,7 @@ If you or your team would like to work with your tenant’s message performance 
 
 ## Advanced features
 
-Starting with general availability, organizational messages also introduce the concept of ‘advanced’ features. These experiences are ones within the Organizational messages Microsoft 365 admin center, which have tenant and end user requirements as follows:
+Advanced features are experiences in Organizational messages in the Microsoft 365 admin center that are restricted to tenants and users which meet the following requirements:
 
 ### Tenant - accessing advanced features when creating messages
 
@@ -295,13 +298,9 @@ End users within a tenant are eligible to receive messages created using advance
 
 ### Current advanced features
 
-For general availability, the advanced features in Organizational messages in Microsoft 365 admin center include:
+The advanced features in Organizational messages in Microsoft 365 admin center include:
 
 1. Fully customized message creation
-
-> [!NOTE]
-> In general availability, message authors whose tenant satisfies advanced feature requirements are able to Edit a templatized message within the message creation flow.
-
 2. Advanced targeting – group level aggregates (Department, Location, Company)
 
 ## Setting tenant policies
@@ -376,9 +375,6 @@ For urgent messages, after your message has been scheduled by the Organizational
 
 > [!NOTE]
 > For Windows spotlight messages, users who select a message on the Windows lock screen won't see it again for 12 months. Users who do not select the message may see it multiple times.
-
-> [!NOTE]
-> For Teams Teaching Popover messages, messages are triggered after the user ends a meeting. There may be a survey screen asking for feedback after the meeting ends and the message will pop up at the bottom right of the main window. Messages will not show up if the window is minimized. Message will stick and remain there unless some user action is taken by either clicking on the primary click button or the other "Got It" button.
 
 ### My team made other organizational messages within Intune, Adoption Score, Usage reports, and others. How do they work with this?
 
@@ -525,3 +521,16 @@ After your admins enable all of the policies described in the previous section o
 ### If my organization only has an Office 365 E3 or E5 license, should I expect to be able to create fully customized messages on Windows locations, like Notifications area or Taskbar? Likewise, if my organization only has a Windows E3 or E5 license, should I expect to be able to create fully customized messages on the Teams location?
 
 No, the organizational messages creation flow will automatically disable authoring experiences that your tenant can't access based on the license requirements listed in the [Advanced features](#advanced-features) section. However, your organization might be able to create premade messages without such E3 or E5 licenses. For example, your team will not be able to create a fully customized message on Windows locations if your organization doesn't have at least a Windows E3 or E5 license or a Microsoft 365 E3 or E5 license. Similarly, your team won't be able to create a fully customized message on the Teams location if your organization doesn't have at least an Office 365 E3 or E5 license or a Microsoft 365 E3 or E5 license.
+
+## Release Notes for Public Preview of Email and Action Segments
+
+- Email functionality during the Public Preview is limited to the 8 provided premade templates and in English only. The Email templates are not customizable.
+
+- Message analytics are not yet available for Email. They are coming soon during the Public Preview.
+
+- Known Issue: During the Public Preview, Email Images may not render fully in Classic Outlook. Images render normally in "New" Outlook, Web Outlook, Mobile Outlook.
+
+- Action Segments cannot be used together with Email messages during the Public Preview. Action Segments are available for the existing surfaces of Windows Spotlight, Task Bar, Notification Center, and Teams Popover.
+
+- Action Segments during the Private Preview are limited to the 2 provided segments: *Inactive Copilot Users* and *Inactive Copilot Users in Teams*
+

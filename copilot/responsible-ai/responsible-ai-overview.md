@@ -13,6 +13,7 @@ ms.custom:
   - transparency-note
 ---
 
+
 # FAQ about using AI responsibly in Microsoft 365 Copilot
 
 An AI system includes not only the technology, but also the people who use it, the people affected by it, and the environment in which it's deployed. Microsoft Responsible AI FAQs are intended to help you understand how AI technology works, the choices system owners and users can make that influence system performance and behavior, and the importance of thinking about the whole system, including the technology, the people, and the environment. You can use Responsible AI FAQs to better understand specific AI systems and features that Microsoft develops.
@@ -25,3 +26,5 @@ Microsoft 365 Copilot contains a growing list of AI-driven features. To learn ab
 
 - [FAQ for Copilot Tuning in Microsoft 365](copilot-tuning-responsible-ai-faq.md)
 - [FAQ for Flow Builder in Microsoft 365 Copilot](flow-builder-responsible-ai-faq.md)
+- [FAQ for App Builder in Microsoft 365 Copilot](faq-app-builder.md)
+

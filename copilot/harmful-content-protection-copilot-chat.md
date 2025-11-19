@@ -5,15 +5,14 @@ ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 ms.reviewer: nsiu
-ms.date: 09/29/2025
+ms.date: 10/23/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: article
-ms.service: microsoft-365-copilot
+ms.service: microsoft-365-security
 ms.localizationpriority: medium
 ms.collection: 
 - m365copilot
-- trust-pod
 - magic-ai-copilot
 description: Learn how to set up a policy that enables users to disable harmful content protection in Microsoft 365 Copilot Chat as appropriate.
 appliesto:
@@ -27,7 +26,7 @@ Microsoft 365 Copilot uses content filtering to protect users from harmful conte
 Microsoft is rolling out the ability to adjust harmful content protection settings so that Copilot Chat can respond to queries about harmful content when it's fit for purpose.
 
 > [!IMPORTANT]
-> Core responsible AI protections, such as prompt injection defense, copyright safeguards, and image protections are always enforced and can't be disabled. 
+> Core responsible AI protections, such as prompt injection defense, copyright safeguards, biosecurity, and image protections are always enforced and can't be disabled. 
 > 
 > When you configure an `Adjust responsible AI protections for Microsoft 365 Copilot` policy, your policy doesn't affect images or agents. Default content filters remain in place for images and agents, even when users disable harmful content protection in a Copilot Chat conversation. Disabling harmful content protection applies only to text responses.  
 

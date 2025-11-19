@@ -1,8 +1,8 @@
 ---
 title: Microsoft 365 for business security overview
-ms.author: chrisda
-author: chrisda
-manager: deniseb
+ms.author: vpattnaik
+author: vpattnai
+manager: dansimp
 audience: Admin
 ms.topic: conceptual
 ms.localizationpriority: high
@@ -18,7 +18,7 @@ ms.collection:
   - trust-pod
 ms.custom:
 description: Learn about the security features available in Microsoft 365 for business.
-ms.service: microsoft-365-business-security
+ms.service: microsoft-365-security
 adobe-target:
 ms.date: 09/30/2025
 appliesto:

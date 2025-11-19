@@ -1,6 +1,6 @@
 ---
-title: Flow Builder privacy and data subject request (DSR) FAQ
-description: Frequently asked questions about Flow Builder's privacy and data subject request (DSR) processes.
+title: Workflows agent privacy and data subject request (DSR) FAQ
+description: Frequently asked questions about Workflows agent's privacy and data subject request (DSR) processes.
 author: sbasi19
 ms.author: ralinga
 manager: dansimp
@@ -11,17 +11,17 @@ ms.reviewer: cyanderson
 ms.update-cycle: 180-days
 ---
 
-# Flow Builder privacy and data subject request (DSR) FAQ
+# Workflows agent privacy and data subject request (DSR) FAQ
 
-Flow Builder is a Microsoft 365 Copilot agent that helps users create automation flows using natural language. This FAQ explains how Flow Builder works, how it handles data, and what controls are available to users and administrators.
+Workflows agent is a Microsoft 365 Copilot agent that helps users create automation flows using natural language. This FAQ explains how Workflows agent works, how it handles data, and what controls are available to users and administrators.
 
-## What is Flow Builder?
+## What is Workflows agent?
 
-Flow Builder is a Copilot agent that enables users to automate tasks by describing them in natural language. It generates flows using supported Microsoft connectors and displays them directly in the Microsoft 365 Copilot experience.
+Workflows agent is a Copilot agent that enables users to automate tasks by describing them in natural language. It generates flows using supported Microsoft connectors and displays them directly in the Microsoft 365 Copilot experience.
 
 ## How are flows stored, exported, or deleted?
 
-Flows created with Flow Builder are stored in the user's Power Platform environment. These flows are visible within the Flow Builder agent interface in Microsoft 365 Copilot but aren't surfaced in Power Automate.
+Flows created with Workflows agent are stored in the user's Power Platform environment. These flows are visible within the Workflows agent agent interface in Microsoft 365 Copilot but aren't surfaced in Power Automate.
 
 Users can export or delete flows using standard Power Platform tools. Flows are subject to Microsoft’s Data Subject Request (DSR) processes.
 
@@ -33,23 +33,23 @@ Here are some resources about DSR requests:
 
 ## Is conversation history stored or exportable?
 
-No. Flow Builder doesn't retain conversation history. All interactions are processed in real time and aren't stored in Microsoft 365 Copilot conversation history or backend services.
+No. Workflows agent doesn't retain conversation history. All interactions are processed in real time and aren't stored in Microsoft 365 Copilot conversation history or backend services.
 
 Because no chat history is stored, there's no conversational data to export or delete under DSR.
 
 To learn more about how Microsoft 365 Copilot handles data, see [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
 
-## How is Flow Builder managed by administrators?
+## How is Workflows agent managed by administrators?
 
-Administrators can manage Flow Builder in the Microsoft 365 admin center under **Copilot > Agents**. Available controls include:
+Administrators can manage Workflows agent in the Microsoft 365 admin center under **Copilot > Agents**. Available controls include:
 
 - Enable or disable the agent
 - Assign, block, or remove access
 - Control visibility using “Allow users access to agents”
 
-Flow Builder respects tenant-level settings configured in the Microsoft 365 admin center and Power Platform Admin Center (PPAC). These settings determine:
+Workflows agent respects tenant-level settings configured in the Microsoft 365 admin center and Power Platform Admin Center (PPAC). These settings determine:
 
-- Whether Flow Builder is enabled
+- Whether Workflows agent is enabled
 - Whether feedback collection is allowed
 - Whether analytics and telemetry are collected
 - Which Copilot features are available to users
@@ -58,7 +58,7 @@ To learn more about managing Copilot agents and tenant settings, see [Manage Cop
 
 ## What connectors are supported?
 
-Flow Builder currently supports the following connectors:
+Workflows agent currently supports the following connectors:
 
 - Recurrence
 - Outlook
@@ -80,7 +80,7 @@ Here are some important points about feedback collection. Feedback data:
 - Doesn't include content samples
 - Can be enabled or disabled by administrators at the tenant level
 
-Feedback collection settings apply consistently across all Flow Builder surfaces. If Flow Builder is embedded in an iframe or accessed through other Microsoft 365 interfaces, feedback controls configured at the tenant level apply to both entry points.
+Feedback collection settings apply consistently across all Workflows agent surfaces. If Workflows agent is embedded in an iframe or accessed through other Microsoft 365 interfaces, feedback controls configured at the tenant level apply to both entry points.
 
 Here's some additional information about feedback collection:
 
@@ -89,7 +89,7 @@ Here's some additional information about feedback collection:
 
 ## Can usage be audited?
 
-Yes. Organizations can use Microsoft 365 audit logs and Power Platform analytics to monitor usage of Flow Builder.
+Yes. Organizations can use Microsoft 365 audit logs and Power Platform analytics to monitor usage of Workflows agent.
 
 ## Related articles
 

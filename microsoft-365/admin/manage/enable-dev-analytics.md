@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: kwekua
 author: kwekuako
-manager: dansimp
+manager: scotv
 ms.date: 04/14/2025
 audience: Admin
 ms.topic: how-to
