@@ -201,7 +201,7 @@ items:
         - name: Cross-tenant mailbox migration
           href: cross-tenant-mailbox-migration.md
         - href: Cross-tenant multitenant migration
-          name: cross-tenant-multitenant-migration.md 
+          name: cross-tenant-multitenant-migration.md
         - name: Cross-tenant identity mapping
           href: cross-tenant-identity-mapping.md
 
