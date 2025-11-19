@@ -2,10 +2,10 @@
 title: "Use Cost management in the Microsoft 365 admin center"
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.reviewer: jkinma, ramagane
 audience: Admin
-ms.topic: article
+ms.topic: how-to
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-management
 ms.localizationpriority: medium
@@ -15,7 +15,6 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-- operations-pod
 ms.custom:
 - commerce_billing
 - AdminTemplateSet
