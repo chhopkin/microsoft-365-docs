@@ -16,7 +16,7 @@ ms.collection:
 - trust-pod
 hideEdit: true
 ms.update-cycle: 180-days
-ms.date: 10/23/2025
+ms.date: 11/18/2025
 
 ---
 
@@ -72,7 +72,7 @@ For additional, detailed information about the LLMs provided to Microsoft by Ope
 |Microsoft 365 Copilot in Microsoft Stream|Microsoft 365 Copilot in Microsoft Stream helps get information from any video with a transcript. Microsoft 365 Copilot in Stream can provide a summary of the video, answer specific questions, quickly jump to specific topics or points of discussion, and identify calls to action. <br/><br/> For more information, see [Frequently asked questions about Copilot in Stream](https://support.microsoft.com/topic/20ef6f0e-10f8-47aa-8bb7-697db7445fae).  |
 |Microsoft 365 Copilot in Whiteboard|Microsoft 365 Copilot in Whiteboard helps kickstart the ideation process to generate, categorize, and summarize ideas. <br/><br/> For more information, see [Frequently Asked Questions about Copilot in Whiteboard](https://support.microsoft.com/topic/cbe05878-d68d-4d9d-83c1-5b47d6b76792).  |
 |Microsoft 365 Copilot in OneNote|Microsoft 365 Copilot in OneNote enables users to draft plans, generate ideas, create lists, and organize information to help them find what they need in the OneNote app.<br/><br/> For more information, see [Frequently asked questions about Copilot in OneNote](https://support.microsoft.com/office/2d9136e0-132a-4d4c-ab0e-39cf3ed914cc).  |
-|Microsoft 365 Copilot Chat|Microsoft 365 Copilot Chat (previously named Business Chat) combines the power of Large Language Models with the Internet, work content and context, and other apps, to help users draft content, catch up on what’s missed, and get answers to questions via prompts.  |
+|Microsoft 365 Copilot Chat|Microsoft 365 Copilot Chat (previously named Business Chat) combines the power of Large Language Models with the Internet, work content and context, and other apps, to help users draft content, catch up on what’s missed, and get answers to questions via prompts. <br/><br/> For more information, see [Frequently asked questions about Microsoft 365 Copilot Chat](https://support.microsoft.com/office/500fc65e-9973-4e42-9cf4-bdefb0eb04ce). |
 |Microsoft 365 Copilot in SharePoint rich text editor|Microsoft 365 Copilot in Microsoft SharePoint rich text editor simplifies content creation on SharePoint pages and posts. With Copilot, you can rewrite text, adjust the tone, condense information, and elaborate ideas. <br/><br/> For more information, see [Frequently asked questions about Copilot in SharePoint](https://support.microsoft.com/office/eb1b7668-3d98-4a93-98ef-f0c6dfc694f0#faq-copilot-rte).|
 |Microsoft 365 Copilot in OneDrive|Microsoft 365 Copilot in OneDrive is an innovative AI-powered assistant designed to help you interact with your documents by extracting information, comparing the key differences, summarizing files and generating insights. <br/><br/> For more information, see [Frequently asked questions about Copilot in OneDrive](https://support.microsoft.com/office/1bd55d10-7c46-417c-ab3d-e9c7be346947). |
 |Microsoft 365 Copilot glance cards|Glance cards offer a quick preview of work entities, such as documents, to help assess relevance or recall. They're accessed by hovering over files in the Search tab of the [Microsoft 365 Copilot app](https://m365.cloud.microsoft/).|
@@ -250,4 +250,4 @@ Microsoft provides tools like the Microsoft Copilot Dashboard for Microsoft 365 
 - [Microsoft AI principles](https://www.microsoft.com/ai/responsible-ai)
 - [Microsoft responsible AI resources](https://www.microsoft.com/ai/tools-practices)
 - [Microsoft Azure Learning courses on responsible AI](/ai/)
-- [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf)
+- [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2025.pdf)

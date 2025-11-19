@@ -5,7 +5,7 @@ f1.keywords:
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: dansimp
-ms.reviewer: schyevan, ramagane
+ms.reviewer: smithk, ramagane
 audience: Admin
 ms.topic: end-user-help
 ms.service: microsoft-365-business
@@ -23,7 +23,7 @@ ms.custom:
 search.appverid:
 - MET150
 description: "Users can learn how to manage their self-service purchases in the Microsoft 365 admin center."
-ms.date: 04/15/2025
+ms.date: 11/09/2025
 ---
 
 # Manage self-service purchases and trials (for users)

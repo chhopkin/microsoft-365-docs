@@ -7,7 +7,7 @@ f1.keywords:
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
-ms.date: 10/23/2025
+ms.date: 11/18/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.reviewer: emilyblundo, sophieke
@@ -34,23 +34,26 @@ The Microsoft 365 E3 and E5 licenses offer different features that help you get 
 - Help prevent oversharing
 - Declutter data sources  
 - Identify and label sensitive data in your Microsoft 365 app files
+- Enable your security team to implement agentic AI workflows securely
 
 This article helps you understand the features available to your organization based on [your license](microsoft-365-copilot-licensing.md). If your organization is not yet licensed, this article can also help you decide. Choose which license is right for you based on the features your organization wants and needs.
 
 This article applies to:
 
 - Microsoft 365 Copilot
-- Microsoft SharePoint Advanced Management
 - Microsoft Purview
+- Microsoft SharePoint Advanced Management
+- Microsoft Security Copilot
 
 ## Microsoft 365 E3 vs E5 license features for Copilot
 
-The following tables list some of the features that can help get your data ready for Copilot. These features affect Copilot results and can help you manage Copilot interactions.
+The following sections list some of the features that can help get your data ready for Copilot. These features affect Copilot results and can help you manage Copilot interactions.
 
 For more information on these features, see [Copilot Control System security and governance](copilot-control-system/security-governance.md).
 
 > [!NOTE]
 > As of early 2025, SharePoint Advanced Management is included with your Microsoft 365 Copilot license.
+> In the coming months, Security Copilot will be included with your Microsoft 365 E5 licenses.
 
 ### Microsoft Purview features
 
@@ -67,7 +70,6 @@ For more information on these features, see [Copilot Control System security and
 For more information, see the following articles:
 
 - [Learn about Microsoft Purview](/purview/purview)
-
 - [Microsoft Purview service description](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-purview-service-description)
 
 ### SharePoint Advanced Management features
@@ -84,8 +86,23 @@ For more information, see the following articles:
 For more information, see the following articles:
 
 - [SharePoint Advanced Management overview](/sharepoint/advanced-management)
-
 - [Microsoft SharePoint Advanced Management licensing](/sharepoint/advanced-management#licensing)
+
+### Security Copilot features
+
+| Feature | Microsoft 365 E3 | Microsoft 365 E5 |
+|--|--|--|
+| Implement secure agentic AI workflows | | ✅  |
+| Understand risks and manage security posture of the organization | | ✅  |
+| Investigate and remediate threats | | ✅  |
+| Define and manage security policies | | ✅  |
+| Develop reports for stakeholders | | ✅  |
+
+For more information, see the following articles:
+
+- [Learn about Security Copilot inclusion in Microsoft 365 E5 subscription](/copilot/security/security-copilot-inclusion)
+- [What is Microsoft Security Copilot?](/copilot/security/microsoft-security-copilot)
+- [Security Copilot use cases and roles](/copilot/security/use-case-role-overview)
 
 ## Next step
 

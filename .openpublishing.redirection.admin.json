@@ -1685,7 +1685,7 @@
        "redirect_url": "/microsoft-365/admin/get-help-with-domains/change-nameservers-at-any-domain-registrar",
        "redirect_document_id": false
      },
-     { 
+     {
        "source_path": "microsoft-365/admin/dns/create-dns-records-at-1-1-internet.md",
        "redirect_url": "/microsoft-365/admin/dns/create-dns-records-at-ionos-com",
        "redirect_document_id": true
@@ -2318,6 +2318,31 @@
     {
       "source_path": "microsoft-365/admin/misc/azure-ad-setup-guides.md",
       "redirect_url": "/entra/fundamentals/entra-admin-center#explore-the-microsoft-entra-admin-center",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "microsoft-365/admin/add-users/set-password-to-never-expire.md",
+      "redirect_url": "/microsoft-365/admin/misc/password-policy-recommendations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "microsoft-365/admin/manage/manage-shared-agents.md",
+      "redirect_url": "/microsoft-365/admin/manage/agent-registry#ownerless-shared-agent-management",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "microsoft-365/admin/manage/manage-pinning-agents.md",
+      "redirect_url": "/microsoft-365/admin/manage/agent-registry#manage-pinning-of-agents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "microsoft-365/admin/manage/manage-agents-permissions.md",
+      "redirect_url": "/microsoft-365/admin/manage/agent-registry#understanding-permissions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "microsoft-365/admin/manage/manage-embedded-knowledge-agents.md",
+      "redirect_url": "/microsoft-365/admin/manage/agent-registry#manage-agents-with-embedded-file-content-as-a-knowledge-source",
       "redirect_document_id": false
     }
   ]
