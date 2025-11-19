@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.reviewer: mijeffer, nicholak
 audience: Admin
 ms.topic: concept-article
@@ -22,7 +22,7 @@ ms.custom:
 - AdminTemplateSet
 - campaignIDs-batch2
 search.appverid: MET150
-ROBOTS: NOIINDEX, NOFOLLOW
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn about end-of-sale products in the Microsoft 365 admin center."
 ms.date: 10/02/2025
 ---

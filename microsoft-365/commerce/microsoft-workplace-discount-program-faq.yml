@@ -3,7 +3,7 @@ metadata:
   title: "Microsoft Workplace Discount Program FAQ"
   author: cmcatee-MSFT
   ms.author: cmcatee
-  manager: dansimp
+  manager: scotv
   ms.reviewer: mijeffer, nicholak
   audience: Admin
   ms.topic: faq
@@ -22,7 +22,7 @@ metadata:
   - AdminSurgePortfolio
   - campaignIDs-batch2
   search.appverid: MET150
-  ROBOTS: NOINDEX NOFOLLOW
+  ROBOTS: NOINDEX, NOFOLLOW
   description: "Frequently-asked questions (FAQ) about the Microsoft Workplace Discount Program."
   ms.date: 10/03/2025
 title: Microsoft Workplace Discount Program frequently-asked questions (FAQ)

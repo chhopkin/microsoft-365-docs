@@ -23,7 +23,7 @@ ms.custom:
 - AdminSurgePortfolio
 - GAUpdates
 search.appverid: MET150
-ROBOTS: NOINDEX
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to resolve the issues that you face when you enter your product key for Microsoft 365 for business."
 ms.date: 08/04/2025
 ---
