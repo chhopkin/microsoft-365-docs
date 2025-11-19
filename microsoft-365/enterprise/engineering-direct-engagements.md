@@ -21,22 +21,12 @@ ai-usage: ai-assisted
 
 The Engagements pivot in Engineering direct offers a centralized overview of all customer-specific engagements with Microsoft. This section allows users to request and track engineering-led escalations, post-incident analyses, Business Process Awareness (BPAs), and Customer Advisory Board (CAB) discussions. Each engagement type provides detailed insights, status updates, and filtering options to help manage support efficiently.
 
-## Service Requests
+## Engineering Escalations
 
-The Service Requests view under Engagements provides visibility into all service requests raised for your tenant. This view helps monitor escalation activity, review trends, and gain insights into how issues are distributed across products, severity levels, and sources. You can also use the Nudge feature to gain additional traction from Microsoft.
+The Engineering Escalations view under Engineering Direct provides visibility into all engineering-level support escalations raised for your tenant. These include cases submitted directly by your organization through the _Escalate to Engineering_ feature, and issues elevated by Microsoft Support when advanced troubleshooting is required.
+This view helps monitor escalation activity, review trends, and gain insights into how issues are distributed across products, severity levels, and sources.
 
-**Nudge**: This option allows you to request additional support for an active service request when urgency, clarity, or escalation is needed. Use it when the issue affects business operations, impacting key users, requires more attention, or the current progress isn't meeting expectations.
- 
-To submit a request, follow these steps:
-
-1. Select a reason using one of the available radio button options.
-2. Provide additional context in the description text box to help us understand the urgency, impact, or scenario.
-3. Attach any supporting files (optional) to help clarify the request (screenshots, logs, documentation).
-4. Choose a primary point of contact who Microsoft can follow up with for additional details or alignment.
-5. Once complete, select **Submit** to send the request to our support team for review.
-6. Once submitted, the request will be reviewed, and our team will contact you using the email you provide assistance with the issue.
-
-### Overview of Service Requests
+### Overview of Engineering Escalations
 
 At the top of the page, several visual summaries provide quick insights into your tenant’s escalation activity:
 
@@ -50,39 +40,6 @@ At the top of the page, several visual summaries provide quick insights into you
 
 > [!NOTE]
 > These insights update automatically as new escalations are raised or resolved.
-
-### Service Request report
-
-Below the overview section, the service request report provides a detailed, filterable table of all active and historical escalations for your tenant. You can use this table to review case progress, assigned severity, and escalation sources.
-
-You can:
-
-- **Search** by title, ticket number, or keywords.
-- **Filter** by status, product, severity, or escalation source.
-- **Refresh** the data to view the most recent updates.
-- **Export** the results for reporting or analysis.
-
-| Column | Description |
-|---------|---------|
-| **Title** | The name or brief summary of the service request.|
-| **Created by** | The user who initiated the service request. |
-| **Ticket** | The unique service request identifier.|
-| **Severity** | Indicates the service request's priority (for example, _A_, _B_, _C_, or _1_).|
-| **Escalation date** | When the service request was created.|
-| **Status** | The current state of the service request (_Open_, _Closed_, _In Progress_). |
-| **Escalation source** | Identifies whether the service request originated from your organization or from Microsoft Support.|
-
-> [!TIP]
-> Combine filters and charts to spot recurring service request trends or identify products that require the most attention.
-
-### Benefits of Service Requests
-
-The Service Requests view helps your organization:
-
-- Maintain visibility into engineering-level service requests.
-- Understand patterns across products and severity levels.
-- Identify and manage high-impact issues efficiently.
-- Improve collaboration with Microsoft support and engineering teams.
 
 ## Business Project Awareness (BPAs)
 
