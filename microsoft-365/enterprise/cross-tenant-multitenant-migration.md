@@ -5,7 +5,7 @@ ms.author: heidip
 manager: dansimp
 ms.reviewer:
 ms.topic: overview
-ms.date: 10/01/2025
+ms.date: 11/20/2025
 ms.service: microsoft-365-enterprise
 ms.localizationpriority: high
 description: "Preparing a multitenant Microsoft 365 environment for migration."
@@ -80,6 +80,8 @@ Defining the migration scope is a crucial step that determines the users and gro
 
 There are existing organizational relationships established as part of your MTO setup. These relationships need to be updated to allow the migration of data and to specify which users are in-scope for migration.
 
+For example: `Set-OrganizationRelationship -Identity "MTO-OrgRel-ae2b6c6c-818a-4420-9830-c6083e37495e" -DomainNames "kingdomshu.onmicrosoft.com","ae2b6c6c-818a-4420-9830-c6083e37495e`
+
 **Source tenant**
 
 Update your organization relationship with a scope:
@@ -141,22 +143,6 @@ After mapping identities, you must write mailbox attributes from the source tena
   - `New-CtimWriteRequest -SourceTenantGuid <GUID>`
 
 This command writes attributes (ExchangeGuid, ArchiveGuid, X500 proxy addresses, and so on) from the mapped source mailbox user to the target MailUser object.
-
-### For hybrid (DirSynced) mailuser objects
-
-1. Download the mapping file containing required attribute data:
-  `Download-CtimCopiedIdentities -SourceTenantGuid <GUID> -FilePath <path>`
-2. Connect to your on-premises environment (using Exchange Server Management Shell).
-3. Write attributes on-premises:
-  `Write-CtimIdentitiesInOnPremises -IdentitiesCsvFilepath <path> -ProgressOutputCsvFilePath <path>`
-
-These steps update MailUser attributes in your on-premises AD.
-
-4. Sync changes to Microsoft 365:
-    1. Wait for Microsoft Entra Connect (Azure AD Connect) to synchronize changes to the cloud.
-    1. You can manually trigger a sync for faster results.
-5. Verify attributes are correctly written:
-  `Verify-CtimWrittenAttributes -SourceTenantGuid <GUID>`
 
 ### Validation
 
