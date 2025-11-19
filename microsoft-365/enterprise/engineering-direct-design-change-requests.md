@@ -1,5 +1,5 @@
 ---
-title: "Design change requests tab in the Microsoft 365 Admin Enhanced engagements section"
+title: "Design change requests tab in the Microsoft 365 Admin Engineering Direct section"
 f1.keywords:
 - NOCSH
 ms.author: vpattnaik
@@ -13,12 +13,12 @@ ms.service: microsoft-365-enterprise
 ms.localizationpriority: medium
 ms.collection: 
 - m365admin
-description: The Design Change Requests page provides a high-level report on the design change requests for your tenant with metrics and graphs.
+description: The Design Change Requests in engineering direct page provides a high-level report on the design change requests for your tenant with metrics and graphs.
 ---
 
-# Design Change Requests in Enhanced Engagements (private preview)
+# Design Change Requests in Engineering Direct (private preview)
 
-The Design Change Requests page provides a high-level view of requests from customers to modify or enhance a product or feature or to introduce new capabilities. In this section you'll find a high-level report on the DCRs for your tenant, complete with useful metrics and graphs. This report is only inclusive of requests for products that are covered by the Mission Critical Services (MCS) offer. DCRs raised for other products won't be included.
+The Design Change Requests page provides a high-level view of requests from customers to modify or enhance a product or feature or to introduce new capabilities. In this section you'll find a high-level report on the DCRs for your tenant, complete with useful metrics and graphs. This report is only inclusive of requests for products that are covered by the Engineering Direct offer. DCRs raised for other products won't be included.
 
 This page contains:
 
@@ -35,10 +35,10 @@ This page contains:
 11. **Request Closed Date** – Date the case was completed.
 12. **Product** – Product that the request was opened for.
 
-:::image type="content" source="../enterprise/media/enhanced-engagements/design-change-requests.png" alt-text="Screenshot of design change requests in enhanced engagements portal." lightbox="../enterprise/media/enhanced-engagements/design-change-requests.png":::
+:::image type="content" source="../enterprise/media/enhanced-engagements/design-change-requests.png" alt-text="Screenshot of design change requests in engineering direct portal." lightbox="../enterprise/media/enhanced-engagements/design-change-requests.png":::
 
 ## More information
 
 As we roll out new features, your experience might change.
 
-If there's any issues or questions, reach out to [edfeedback@microsoft.com](mailto:edfeedback@microsoft.com) or use the feedback mechanism within the Enhanced Engagements Portal page. If you encounter any technical issues, open a support ticket through Microsoft support.
+If there's any issues or questions, reach out to [edfeedback@microsoft.com](mailto:edfeedback@microsoft.com) or use the feedback mechanism within the Engineering Direct portal page. If you encounter any technical issues, open a support ticket through Microsoft support.
