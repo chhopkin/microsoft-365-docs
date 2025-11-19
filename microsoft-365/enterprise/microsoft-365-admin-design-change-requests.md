@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 11/16/2025
+ms.date: 11/19/2025
 audience: Admin
 ms.reviewer: dansimp
 ms.topic: article
@@ -27,11 +27,11 @@ This page contains:
 3. **Customer Contact** – Who opened the case.
 4. **Request Create Date** – Date the case was opened. The portal will only show cases that have been opened in the last 12 months.
 5. **Escalation Status** – Status of the request. The status types that are shown are:
-6. **Engineering Review** – Requests are still being reviewed by Microsoft and no decisions have been made.
-7. **Under consideration** – Requests have been added to a list of change that we'll consider for upcoming release cycles, but Microsoft hasn't committed to doing these changes.
-8. **Under development** – Requests that Microsoft has accepted and are being developed. Time might vary depending on how long development takes.
-9. **Completed** – Requests that Microsoft has completed or closed.
-10. **Rejected** – Requests weren't accepted.
+    - **Engineering Review** – Requests are still being reviewed by Microsoft and no decisions have been made.
+    - **Under consideration** – Requests have been added to a list of change that we'll consider for upcoming release cycles, but Microsoft hasn't committed to doing these changes.
+    - **Under development** – Requests that Microsoft has accepted and are being developed. Time might vary depending on how long development takes.
+    - **Completed** – Requests that Microsoft has completed or closed.
+    - **Rejected** – Requests weren't accepted.
 11. **Request Closed Date** – Date the case was completed.
 12. **Product** – Product that the request was opened for.
 
