@@ -38,6 +38,8 @@ To submit a request, follow these steps:
 5. Once complete, select **Submit** to send the request to our support team for review.
 6. Once submitted, the request will be reviewed, and our team will contact you using the email you provide assistance with the issue.
 
+:::image type="content" source="../enterprise/media/enhanced-engagements/nudge-enhanced-engagements.png" alt-text="Screenshot of nudge feedback form in enhanced engagements portal." lightbox="../enterprise/media/enhanced-engagements/nudge-enhanced-engagements.png":::
+
 ### Overview of Service Requests
 
 At the top of the page, several visual summaries provide quick insights into your tenant’s escalation activity:
