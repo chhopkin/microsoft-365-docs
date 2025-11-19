@@ -25,7 +25,7 @@ ms.custom:
 - campaignIDs-batch2
 search.appverid: MET150
 description: "Learn about the proposal workflow used when you buy Microsoft business products and services. Discover how to review and approve proposals."
-ROBOTS: NOINDEX
+ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 10/08/2025
 ---
 

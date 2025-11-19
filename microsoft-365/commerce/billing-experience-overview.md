@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.reviewer: jkinma, ramagane
 audience: Admin
 ms.topic: overview
@@ -17,7 +17,6 @@ ms.collection:
 - highpri
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_billing
 - VSBFY23
@@ -25,7 +24,7 @@ ms.custom:
 - campaignIDs-batch1
 - campaignIDs-batch2
 search.appverid: MET150
-ROBOTS: NOINDEX NOFOLLOW
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn about the new billing experience for business subscription in the Microsoft 365 admin center."
 ms.date: 11/10/2025
 ---
