@@ -57,11 +57,7 @@ A high-level summary of the most critical indicators of agent adoption and impac
 
 - **Agent Registry** - The total count of all agents available in your organization's catalog, including Microsoft-built, partner-built, and custom (LOB) agents. This Agent Registry reflects the breadth of automation capabilities deployed across your tenant. You can directly select the **Explore All agents** > **Registry** to go through your inventory in detail.
 
-- **Active Users** - The number of unique users who interacted with at least one agent within last 30 days.
-
-    > [!NOTE]
-    >
-    > If a user interacts with at least once with at least one agent in the last 30 days, then they're considered as an active user.
+- **Active Users** - The number of unique users who interacted with at least one agent within last 30 days. If a user interacts with at least once with at least one agent in the last 30 days, then they're considered as an active user.
 
 - **Time Saved with Agents** - The estimated cumulative hours saved by users through agent-assisted tasks, based on modeled productivity gains. Demonstrates return on investment (ROI) and business impact.
 

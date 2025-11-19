@@ -336,10 +336,10 @@ The activation process consists of the following steps:
 | Sharepoint | Restrict external sharing of sites and its content | Provides capability to allow or restrict specific agents from sharing content in SharePoint sites and OneDrive with external users and guests. | [What is SharePoint Advanced Management?](/sharepoint/advanced-management) |
 | Sharepoint | Access Control for Sites and OneDrive | Allows admin to specify agents and users allowed to access a given site. | [Restrict SharePoint site access with Microsoft 365 groups and Microsoft Entra security groups](/SharePoint/restricted-access-control) |
 | Sharepoint | Agent access insights | Provides insights on content and sites permissioned to users. | [Data access governance reports for SharePoint and OneDrive sites](/sharepoint/data-access-governance-reports) |
-| Sharepoint | Content Permissions Insights | Provides insights on agents accessing SharePoint and OneDrive sites. | [https://aka.ms/agentaccessinsights](https://aka.ms/agentaccessinsights) |
-| Purview | Purview Audit Enabled | Audit trails log all activities and provide clear observability. | [Use Microsoft Purview to manage data security & compliance for Microsoft Agent 365](/purview/ai-agent-365) |
-| Purview | Know Your Data Policy | Data security controls safeguard against sensitive data leaks and oversharing. | [Use Microsoft Purview to manage data security & compliance for Microsoft Agent 365](/purview/ai-agent-365) |
-| Purview | Purview AI compliance assessment | Continuous monitoring evaluates agents for compliance gaps and identifies areas needing attention. | [Use Microsoft Purview to manage data security & compliance for Microsoft Agent 365](/purview/ai-agent-365) |
+| Sharepoint | Content Permissions Insights | Provides insights on agents accessing SharePoint and OneDrive sites. | [Monitor agent access to SharePoint and OneDrive](/SharePoint/insights-on-agent-access) |
+| Purview | Purview Audit Enabled | Audit trails log all activities and provide clear observability. | [Data security](/microsoft-agent-365/admin/data-security) |
+| Purview | Know Your Data Policy | Data security controls safeguard against sensitive data leaks and oversharing. | [Data security](/microsoft-agent-365/admin/data-security) |
+| Purview | Purview AI compliance assessment | Continuous monitoring evaluates agents for compliance gaps and identifies areas needing attention. | [Data security](/microsoft-agent-365/admin/data-security) |
 
 ### Deploy agents
 
