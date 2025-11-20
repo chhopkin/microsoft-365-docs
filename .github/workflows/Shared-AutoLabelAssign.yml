@@ -127,7 +127,7 @@ jobs:
             $AppGitHubAccessHeaders.Add("User-Agent", "OfficeDocs")
 
             # Regex for string matches
-            $AuthorRegex = "(?m)^(author:\s{0,3})([\w|\-]{1,39})"
+            $AuthorRegex = "(?m)^(author:\s{0,3})([\w-]{1,39})(?=\s*(?:#|$))"
             $ServiceRegex = "(ms\.service:\s{0,3})([\w|\-|\.]{1,60})"
             $SubServiceRegex = "(ms\.subservice:\s{0,3})([\w|\-|\.]{1,60})"
             $TechnologyRegex = "(ms\.technology:\s{0,3})([\w|\-|\.]{1,60})"
@@ -265,41 +265,63 @@ jobs:
 
                 }
 
-                $FullPath = (Resolve-Path -LiteralPath $FilePath -ErrorAction Stop).Path
-                $RepoRoot = (Resolve-Path -LiteralPath $RepoRoot -ErrorAction Stop).Path.TrimEnd([IO.Path]::DirectorySeparatorChar, [IO.Path]::AltDirectorySeparatorChar)
+                Try {
 
-                # Confirm the file is inside the repo
-                If (-not $FullPath.StartsWith($RepoRoot, [StringComparison]::OrdinalIgnoreCase)) {
+                    $FullPath = (Resolve-Path -LiteralPath $FilePath -ErrorAction Stop).Path
+                    $RepoRoot = (Resolve-Path -LiteralPath $RepoRoot -ErrorAction Stop).Path.TrimEnd([IO.Path]::DirectorySeparatorChar, [IO.Path]::AltDirectorySeparatorChar)
 
-                    Throw 'FilePath is not located underneath the repository root.'
+                    $FileResolved = $True
 
-                }
-
-                # Walk up the tree 
-                $CurrentDir = Split-Path -Path $FullPath -Parent
-
-                While ($CurrentDir) {
-
-                    $Candidate = Join-Path -Path $CurrentDir -ChildPath 'docfx.json'
-
-                    If (Test-Path -LiteralPath $Candidate -PathType Leaf) {
-                        
-                        Write-Host "Getting DocFx config from $Candidate"
-
-                        Return (Get-Content -LiteralPath $Candidate -Raw) | ConvertFrom-Json -AsHashtable
-                    }
-
-                    If ($CurrentDir.TrimEnd([IO.Path]::DirectorySeparatorChar, [IO.Path]::AltDirectorySeparatorChar) -eq $RepoRoot) {
-
-                        Break
-
-                    }
-
-                    # Get the parent of the current folder
-                    $CurrentDir = Split-Path -Path $CurrentDir -Parent
+                } Catch {
+                 
+                    Write-Host "Unable to resolve $FilePath. File may have been deleted."
+                    $FileResolved = $False
 
                 }
 
+                If ($FileResolved) {
+
+                    # Confirm the file is inside the repo
+                    If (-not $FullPath.StartsWith($RepoRoot, [StringComparison]::OrdinalIgnoreCase)) {
+
+                        Throw 'FilePath is not located underneath the repository root.'
+
+                    }
+
+                    # Walk up the tree 
+                    $CurrentDir = Split-Path -Path $FullPath -Parent
+
+                    While ($CurrentDir) {
+
+                        $Candidate = Join-Path -Path $CurrentDir -ChildPath 'docfx.json'
+
+                        If (Test-Path -LiteralPath $Candidate -PathType Leaf) {
+                            
+                            Write-Host "Getting DocFx config from $Candidate"
+
+                            Return (Get-Content -LiteralPath $Candidate -Raw) | ConvertFrom-Json -AsHashtable
+                        }
+
+                        If ($CurrentDir.TrimEnd([IO.Path]::DirectorySeparatorChar, [IO.Path]::AltDirectorySeparatorChar) -eq $RepoRoot) {
+
+                            Break
+
+                        }
+
+                        # Get the parent of the current folder
+                        $CurrentDir = Split-Path -Path $CurrentDir -Parent
+
+                    }
+
+                }
+
+                If ($FileResolved) {
+                
+                    Write-Host "ERROR: File path $FullPath and repo root $RepoRoot were resolved but no docfx.json file was found."
+                
+                }
+
+                # Only reached if $FilePath isn't resolved or if While loop falls through without finding docfx.json.
                 Return $null
             }
 
@@ -341,16 +363,17 @@ jobs:
                     # Pre-processing to be more efficient could actually use more cycles.
                     $DocFxConfig = Get-DocFxConfig -FilePath $FileName
 
-                    # Check to see if the file contents contains a string that matches the $AuthorRegex regex pattern. If yes, add value to $Author, check
-                    # fileMetadata and globalMetadata in that order in DocFx. If there's a match in either of those, return value. If not, return null.
+                    # Check to see if the file contents contains a string that matches the $AuthorRegex regex pattern. If yes, add value to $Author. If not, check
+                    # fileMetadata and globalMetadata in that order in DocFx. If there's a match in either of those, return value. If not, or if DocFx couldn't be
+                    # found, return null.
                     If ($FileContents -match $AuthorRegex) {    
 
                         $Author = $Matches[2]
                         $MetadataFound = $True 
 
-                        Write-Host "Found author $Author."
+                        Write-Host "Found author $Author in file."
 
-                    } Else { 
+                    } ElseIf ($DocFxConfig -ne $Null) { 
 
                         Write-Host "Author not found in article. Checking DocFx fileMetadata for $FileName."
 
@@ -379,19 +402,25 @@ jobs:
                         
                         }
 
+                    } Else {
+                     
+                        Write-Host "WARNING: Unable to retrieve author information from article file and unable to retrieve from docfx.json because it couldn't be found. This is expected if file was deleted."
+                        $Author = $Null
+                    
                     }
 
-                    # Check to see if file contents contains a string that matches the $ServiceRegex regex pattern. If yes, add value to $Service, check
-                    # fileMetadata and globalMetadata in that order in DocFx. If there's a match in either of those, return value. If not, return null. 
+                    # Check to see if file contents contains a string that matches the $ServiceRegex regex pattern. If yes, add value to $Service. If not, check
+                    # fileMetadata and globalMetadata in that order in DocFx. If there's a match in either of those, return value. If not, or if DocFx couldn't be
+                    # found, return null. 
                     
                     If ($FileContents -match $ServiceRegex) { 
 
                           $Service = $Matches[2] 
                           $MetadataFound = $True
 
-                          Write-Host "Found service $Service."
+                          Write-Host "Found service $Service in file."
                           
-                    } Else { 
+                    } ElseIf ($DocFxConfig -ne $Null) { 
 
                         Write-Host "Service not found in article. Checking DocFx fileMetadata for $FileName."
 
@@ -421,18 +450,24 @@ jobs:
                         
                         }
 
+                    } Else {
+                     
+                        Write-Host "WARNING: Unable to retrieve service information from article file and unable to retrieve from docfx.json because it couldn't be found. This is expected if file was deleted."
+                        $Service = $Null
+                    
                     }
 
-                    # Check to see if file contents contains a string that matches the $SubServiceRegex regex pattern. If yes, add value to $SubService, check
-                    # fileMetadata and globalMetadata in that order in DocFx. If there's a match in either of those, return value. If not, return null. 
+                    # Check to see if file contents contains a string that matches the $SubServiceRegex regex pattern. If yes, add value to $SubService. If not, check
+                    # fileMetadata and globalMetadata in that order in DocFx. If there's a match in either of those, return value. If not, or if DocFx couldn't be
+                    # found, return null. 
                     If ($FileContents -match $SubServiceRegex) { 
 
                         $SubService = $Matches[2] 
                         $MetadataFound = $True
 
-                        Write-Host "Found sub service $SubService."
+                        Write-Host "Found sub service $SubService in file."
 
-                    } Else { 
+                    } ElseIf ($DocFxConfig -ne $Null) { 
 
                         Write-Host "SubService not found in article. Checking DocFx fileMetadata for $FileName."
 
@@ -459,7 +494,12 @@ jobs:
                         
                         }
 
-                    }     
+                    } Else {
+                     
+                        Write-Host "WARNING: Unable to retrieve subservice information from article file and unable to retrieve from docfx.json because it couldn't be found. This is expected if file was deleted."
+                        $SubService = $Null
+                    
+                    }
 
                     # Check to see if file contents contains a string that matches the $ProdRegex regex pattern. If yes, add value to $Product. Then check TechnologyRegex regex pattern. 
                     # If value isn't matched, assign $Null and don't check Technology.
@@ -1185,7 +1225,7 @@ jobs:
                 
                 }
                 
-                Write-Host "Reviewers found: $($ReviewerList | Sort-Object -Unique)"
+                Write-Host "Reviewers found in teams: $($ReviewerList | Sort-Object -Unique)"
 
                 Return $ReviewerList | Sort-Object -Unique
             
@@ -1292,6 +1332,7 @@ jobs:
             # Main
 
             Write-Host "Repo: $GitHubRepoName"
+            Write-Host "PR number: $PrNumber"
             Write-Host "Sender: $GitHubSender"
             Write-Host "Request event: $GitRequestEvent"
             Write-Host "GitHub action: $GitHubAction"
@@ -1299,6 +1340,7 @@ jobs:
             Write-Host "Default branch: $DefaultBranch"
             Write-Host "Target branch: $TargetBranch"
             Write-Host "PR files URL: $PrFileListUrl"
+            Write-Host "PR HTML URL: $PrHtmlUrl"
 
             Write-Host "Auto assign users on $GitHubRepoName`: $AutoAssignUsers"
             Write-Host "Auto label on $GitHubRepoName`: $AutoLabel"
@@ -1394,7 +1436,7 @@ jobs:
                                     # Get permission level of user who created the comment. Need to use .role_name instead of .permission because .permission provides only legacy values. 
                                     # .role_name provides legacy plus triage, maintain, and custom roles like write-elevated.
                                     $UserPermission = $(Invoke-RestMethod -Method GET -Headers $GitHubHeaders -Uri $UserPermissionUrl).role_name
-
+                                    $UserPermission = "read"
                                     # Only add reviewers if the submitter can't sign off on their own PR.
                                     If (($UserPermission -eq "read") -or ($UserPermission -eq "") -or ($UserPermission -eq $Null)) {
 
@@ -1435,9 +1477,9 @@ jobs:
 
                                             $ReviewerAccounts = Get-TeamMembership -ReviewerTeams $ReviewerTeamArray
 
-                                            $AtMentionedGitHubAccounts = Add-AtPrefix -GitHubReviewers $ReviewerAccounts
-
                                             If ($ReviewerAccounts.Length -gt 0) {
+
+                                                $AtMentionedGitHubAccounts = Add-AtPrefix -GitHubReviewers $ReviewerAccounts
 
                                                 $MissingReviewers = Compare-PRIndividualReviewers -GitHubReviewers $ReviewerAccounts
 
