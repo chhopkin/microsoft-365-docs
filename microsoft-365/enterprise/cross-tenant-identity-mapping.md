@@ -4,9 +4,10 @@ description: How to map identities across Microsoft 365 organizations when prepa
 author: MicrosoftHeidi
 ms.author: heidip
 manager: dansimp
-ms.topic: overview
-ms.date: 07/18/2022
 ms.service: microsoft-365-enterprise
+ms.subservice: multi-tenant
+ms.topic: upgrade-and-migration-article
+ms.date: 07/18/2022
 ms.custom: template-overview
 ---
 
