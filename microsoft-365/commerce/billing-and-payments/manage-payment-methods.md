@@ -16,7 +16,6 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_billing
 - TopSMBIssues
@@ -29,6 +28,7 @@ ms.custom:
 - admindeeplinkMAC
 - GAUpdates
 - campaignIDs-batch1
+service.tree.id: 3b35c9b8-bf14-4e4a-bc0d-21055e56b28c
 search.appverid: MET150
 description: "Learn how to manage your payment methods for Microsoft business products or services in the Microsoft 365 admin center."
 ms.date: 08/14/2025

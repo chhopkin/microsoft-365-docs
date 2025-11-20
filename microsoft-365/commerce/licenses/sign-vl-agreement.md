@@ -12,10 +12,10 @@ ms.subservice: m365-commerce-volume-licensing
 ms.collection:
 - Tier1
 - scotvorg
-- operations-pod
 ms.custom:
 - commerce_vl
 - AdminTemplateSet
+service.tree.id: e6e1ea2a-04a0-4f78-bc75-7d45c90eee39
 search.appverid: MET150
 ms.localizationpriority: medium
 description: "Learn how to sign your volume licensing agreement."
