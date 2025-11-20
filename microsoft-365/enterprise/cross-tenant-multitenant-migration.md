@@ -13,11 +13,11 @@ description: "Preparing a multitenant Microsoft 365 environment for migration."
 
 # Introduction
 
-This article is designed for tenant administrators who have already established a Multi-Tenant Organization (MTO) and are preparing for identity and data migration from one MTO member to another. It outlines the steps to move from MTO-based collaboration to full migration readiness, ensuring secure access, minimal disruption, and compliance.
+This article is designed for tenant administrators with an established Multitenant Organization (MTO) who are preparing for identity and data migration from one MTO member to another. It outlines the steps to move from MTO-based collaboration to full migration readiness, ensuring secure access, minimal disruption, and compliance.
 
 **Scenario Example**: Contoso and Fabrikam have an existing MTO for Day 1 collaboration. Fabrikam users are synced into Contoso's tenant as B2B (business to business) external members, enabling seamless collaboration. Now, Contoso plans to migrate user data from Fabrikam to its own tenant. This article walks through the steps to convert Fabrikam identities into migration-ready internal mail users for a smooth transition.
 
-## Day 1 Collaboration in Multi-Tenant Organization (MTO)
+## Day 1 Collaboration in Multitenant Organization (MTO)
 
 MTO enables immediate cross-tenant collaboration without changing user credentials.
 
@@ -146,7 +146,7 @@ This command writes attributes (ExchangeGuid, ArchiveGuid, X500 proxy addresses,
 
 ### Validation
 
-- Confirm all objects have a “Complete” status in CTIM (Cross-tenant identity mapping) before starting mailbox migration:
+- Confirm all objects have a **Complete** status in CTIM (Cross-tenant identity mapping) before starting mailbox migration:
   - `Get-CtimRequest -RequestId <ID>`
   - `Get-CtimReport -SourceTenantGuid <GUID> -RequestId <ID>`
 
@@ -160,13 +160,13 @@ ExchangeGuid, ArchiveGuid (if applicable), and X500 proxy addresses are populate
 
 ## Migration application setup
 
-- Create migration application in the target tenant.
-- Run cmdlet to call Graph or operate in Entra admin center.
-- Copy migration application ID and secret.
-- Grant migration application in source tenant.
-- Visit admin consent URL and grant access.
+- Create the migration application in the target tenant.
+- Run the cmdlet to call Graph or operate in the Microsoft Entra admin center.
+- Copy the migration application ID and secret.
+- Grant the migration application permissions in the source tenant.
+- Visit the admin consent URL and grant access.
 
-### Register the application in Microsoft Entra: (target tenant)
+### Register the application in Microsoft Entra: (Target tenant)
 
 1. Go to the Microsoft Entra admin center.
 1. In the left-hand menu, go to **Entra ID**.
@@ -218,7 +218,7 @@ Prerequisites:
 
 - Migration application’s client ID and client secret (generated in Microsoft Entra in the target tenant).
 - Source tenant ID (the tenant you're migrating mailboxes from).
-- Appropriate permissions in Exchange Online (target tenant).
+- Appropriate permissions in Exchange Online (Target tenant).
 
 **Connect to ExchangeOnline PowerShell**
 
@@ -243,7 +243,7 @@ New-MigrationEndpoint -RemoteServer outlook.office.com `
 
 - RemoteServer: Always use outlook.office.com for Exchange Online migrations.
 - RemoteTenant: The tenant ID of the source tenant.
-- Credentials: The PSCredential object created above.
+- Credentials: The previously-created PSCredential object.
 - ApplicationId: The migration application’s client ID.
 
 4. Validate the migration endpoint:
@@ -261,18 +261,18 @@ Ensure the endpoint status is **Active** and the configuration matches your migr
 
 ## User Conversion to Internal Member
 
-After preparing for migration, you must convert B2B external users (guests) in the target tenant to internal member users. This step is required to allow migrated external users to have the correct permissions and access as internal members in the destination tenant.
+After preparing for migration, you must convert B2B guests (external users) in the target tenant to internal member users. This step is required to allow migrated guests to have the correct permissions and access as internal members in the destination tenant.
 
 ### Option 1: Microsoft Entra Admin Center (Recommended for Small Batches)
 
 1. Visit the [https://entra.microsoft.com/](https://entra.microsoft.com/) website and sign in with an admin account in the **target tenant**.
-1. Search for each B2B external user who is subject to migration.
+1. Search for each B2B guest who's subject to migration.
 1. For each user, select the option to convert to internal member (this option is available in the user’s profile if they're a B2B guest).
 1. Repeat for all users you plan to migrate.
 
 ### Option 2: Microsoft Graph API (Recommended for Bulk Operations)
 
-- You can automate the conversion using the Microsoft Graph API (beta version).
+- You can automate the conversion using the Microsoft Graph API (preview version).
 - Refer to the official documentation for details and examples: [Convert an external user to an internal user](/graph/api/user-convertexternaltointernalmemberuser).
 - This method is ideal for large migrations or automation via scripts.
 
