@@ -3,7 +3,7 @@ title: "Manage License Reservations for volume licensing"
 f1.keywords: NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: dansimp
+manager: scotv
 ms.reviewer: aasthatiwari, atuldubey
 audience: Admin
 ms.topic: how-to

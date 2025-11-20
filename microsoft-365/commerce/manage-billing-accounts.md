@@ -4,7 +4,7 @@ f1.keywords:
 - MACBillingBillingAccountsOverview
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.reviewer: jkinma, ramagane
 audience: Admin
 ms.topic: how-to

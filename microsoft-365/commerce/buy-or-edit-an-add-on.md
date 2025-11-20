@@ -63,7 +63,7 @@ When you look for an add-on to buy, the list only includes add-ons that are avai
 5. If the add-on must be connected with one of your subscriptions, select a subscription from the drop-down list, then select **Connect to subscription**, and go to step 7.
 6. Enter the quantity that you want to buy, select a billing frequency, and then select **Buy**.
 7. On the **Checkout** page, review your order. You can select a payment method or add a new one.
-8. Select **Place order**.
+8. Select **Place order**. 
 
 ## Manage an add-on
 
