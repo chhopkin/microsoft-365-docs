@@ -23,45 +23,47 @@ description: "Learn about how to connect your organization to Anthropic's AI mod
 
 # Integrate and manage Anthropic's AI Models in Microsoft 365 Copilot
 
-Microsoft has transitioned Anthropic from an Independent Data Processor (IDP) to a sub-processor for Microsoft 365 Copilot. This change ensures that Copilot experiences using Anthropic models now include Microsoft's contractual commitments, data protection standards, and compliance with Microsoft's privacy requirements. As an administrator, you need to understand how to manage and integrate these models for your organization.
+Microsoft has transitioned Anthropic from an Independent Data Processor (IDP) to a subprocessor for Copilot. This change means Copilot experiences that use Anthropic models now include Microsoft contractual commitments, data protection standards, and compliance with Microsoft’s privacy requirements.
 
-## Overview of Anthropic integration
+As a subprocessor, Anthropic will operate under Microsoft’s direction and contractual safeguards. This includes coverage under the the [Microsoft Data Protection Addendum (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?lang=18&msockid=344e0e6ad66c6b3e19441848d7416abd) and and [Product Terms](https://www.microsoft.com/licensing/terms?msockid=344e0e6ad66c6b3e19441848d7416abd) with Microsoft remaining accountable for Anthropic’s compliance under our contractual commitments. In addition, use of Anthropic models in Microsoft 365 Copilot falls under our Enterprise Data Protection.
 
-As a sub-processor for Copilot experiences, Anthropic will operate under Microsoft's direction and contractual safeguards, including coverage under the [Microsoft Data Protection Addendum (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?lang=18&msockid=344e0e6ad66c6b3e19441848d7416abd) and [Online Services Terms](https://www.microsoft.com/licensing/terms?msockid=344e0e6ad66c6b3e19441848d7416abd). Microsoft remains accountable for Anthropic's compliance under these commitments. Additionally, the use of Anthropic models in Microsoft 365 Copilot falls under our [Enterprise Data Protection standards](http://aka.ms/EDPLearn).
+For more information about subprocessor data access, see [Microsoft Data Access Management](https://www.microsoft.com/trust-center/privacy/data-access). To see a list of Microsoft subprocessors, see [Service Trust Portal](https://servicetrust.microsoft.com/DocumentPage/7a132d00-29c2-4d26-b0f5-486923c41223).
 
-Anthropic models will be enabled by default for many organizations, allowing users to choose from multiple AI models within their Microsoft 365 Copilot experiences. This update supports Microsoft's commitment to offering a choice between leading AI models while maintaining enterprise-grade security and compliance.
+Microsoft will enable Anthropic models by default for many organizations. This update gives users in your organization the ability to choose from multiple AI models in their Microsoft 365 Copilot experiences. This affirms Microsoft’s commitment to offering choice between leading AI models while maintaining enterprise-grade security and compliance.
 
-Your users can elect to use Anthropic's AI models in Microsoft 365 Copilot, Researcher, and Copilot Studio. For more information, see **TBD**. Anthropic’s AI models can help people in your organization with some of the following:
+> [!IMPORTANT]
+> Anthropic models deployed in Microsoft 365 Copilot, Researcher, and Copilot Studio are currently excluded from EU Data Boundary and in-country processing commitments. Learn more about how Anthropic models work with Microsoft 365 Copilot here: (link to new page for Anthropic – draft copy here). Customers within the European Union data boundary and customers in the UK will have Anthropic models disabled by default. Anthropic’s models are not supported in Government clouds (GCC, GCC High, DoD).
+
+Your users can elect to use Anthropic's AI models in Microsoft 365 Copilot, with [Researcher](https://support.microsoft.com/topic/use-claude-with-researcher-in-microsoft-365-copilot-23e2503b-d73e-4abb-902d-b9814205a38a), [Agent mode in Excel](https://support.microsoft.com/office/agent-mode-in-excel-frontier-a2fd6fe4-97ac-416b-b89a-22f4d1357c7a) and [Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/authoring-select-external-response-model). Anthropic’s AI models can help people in your organization with some of the following:
 
 - Summarize complex information
 - Answer questions using source material
 - Synthesize across multiple sources
 - Generate ideas, draft, and edit content
 
-## Before you begin
-
-Before users in your organization can use Anthropic in the Microsoft 365 Copilot app and in Microsoft Copilot Studio, they need to be assigned a [Microsoft 365 Copilot license](../microsoft-365/admin/manage/assign-licenses-to-users.md).
-Note: Anthropic’s models are not supported in Government clouds (GCC, GCC High, DoD).
-
-> [!NOTE]
-> Anthropic's models are not supported in Government clouds (GCC, GCC High, DoD).
-
 ## Manage Anthropic's model settings in the Microsoft 365 admin center
 
-You don't need to take any action as the administrator. Anthropic models will be available by default in certain regions for Microsoft 365 Copilot, Researcher, and Copilot Studio. Your organization will no longer need to opt-in to Anthropic's Commercial Terms of Service to use Anthropic models in the Microsoft 365 Copilot experiences.
+Microsoft is making Anthropic models will be available by default in certain regions for Microsoft 365 Copilot. Your organization will no longer be required to opt-in to Anthropic’s Commercial Terms of Service to use Anthropic models in Microsoft 365 Copilot eExperiences.
 
-In the Microsoft 365 Copilot (web, desktop, and mobile), UI indicators will show when Anthropic and Claude models are in use. In Copilot Studio, makers must select the model during agent creation.
+In the Microsoft 365 Copilot (web, desktop, and mobile), UI indicators will show when Anthropic and Claude models are in use. In Copilot Studio, makers must select the model during agent creation. In Agent mode for Excel and Researcher, users can select Try Claude.
 
-## Unsupported regions
+## Before you begin
 
-Support for Anthropic's models is not available in all regions. For these regions, the toggle will appear but remain off:
+Before users in your organization can use Anthropic in Microsoft 365 Copilot and in Microsoft Copilot Studio, they need to be assigned a [Microsoft 365 Copilot license](../microsoft-365/admin/manage/assign-licenses-to-users.md).
 
-- Organizations in the European Union (EU), the European Free Trade Association (EFTA), or the United Kingdom (UK)
+## Opt-in regions and entities
+
+In some regions, Anthropic’s models are not available by default. For these regions and entities, the toggle will appear but remain **Off**.  These regions include:
+
+- The European Union (EU), the European Free Trade Association (EFTA), the United Kingdom (UK).
+
+Some organizations can't access Anthropic models. These include:
+
 - Organizations with Microsoft Education subscriptions
-- Customers in regions where local processing commitments apply (e.g., the United Arab Emirates)
-- Any custom exclusion list provided by Microsoft legal and compliance teams
+- Sovereign cloud customers
+- Government entities/customers
 
-## Opt-in to Anthropic's models
+## Opt-in to use Anthropic's models
 
 If your organization is in a region that doesn't support Anthropic as a sub-processor by default, you can choose to opt-in so Anthropic's models are available for your organization.
 
@@ -77,7 +79,7 @@ Once enabled in the Microsoft 365 admin center, additional admin controls are av
 
 ## Disable connection to Anthropic's models
 
-Your organization can opt-out to restrict Anthropic models in the Microsoft admin center through \[DATE\]. After \[DATE\], Anthropic models will be available by default. You must be a member of the global administrator role to perform this task. For more information, see [About admin roles](https://learn.microsoft.com) and [Global administrator](/entra/identity/role-based-access-control/permissions-reference)
+Your organization can opt-out to restrict Anthropic models in the Microsoft admin center through **\[DATE\]**. After **\[DATE\]**, Anthropic models will be available by default. You must be a member of the global administrator role to perform this task. For more information, see [About admin roles](https://learn.microsoft.com) and [Global administrator](/entra/identity/role-based-access-control/permissions-reference)
 
 1. Go to the Microsoft 365 admin center and select **Copilot** -\> **Settings**.
 2. On the **Data access** page, select **AI providers of other external large language models as a sub-processor**.
@@ -87,4 +89,4 @@ Once you disconnect Anthropic, users won't have the option to use Anthropic's AI
 
 ## Anthropic as an independent processor
 
-[Anthropic as an independent processor](connect-to-ai-models.md) will be deprecated and replaced by the Anthropic as a sub-processor functionality. For more information, see **TBD**.
+Anthropic as an [independent data processor (IDP)](connect-to-ai-models.md) will be deprecated and replaced by the Anthropic as a sub-processor functionality. Effective January 7th, 2026, the pre-existing toggle for enabling Anthropic models via IDP will be deprecated. The new default-on setting will override prior selections, subject to [country and region exclusions](#opt-in-regions-and-entities).
