@@ -3,7 +3,7 @@ title: "Activate online services in volume licensing"
 f1.keywords: NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.reviewer: aasthatiwari, atuldubey
 audience: Admin
 ms.topic: how-to

@@ -16,7 +16,7 @@ ms.collection:
 - trust-pod
 hideEdit: true
 ms.update-cycle: 180-days
-ms.date: 11/11/2025
+ms.date: 11/18/2025
 
 ---
 
@@ -250,4 +250,4 @@ Microsoft provides tools like the Microsoft Copilot Dashboard for Microsoft 365 
 - [Microsoft AI principles](https://www.microsoft.com/ai/responsible-ai)
 - [Microsoft responsible AI resources](https://www.microsoft.com/ai/tools-practices)
 - [Microsoft Azure Learning courses on responsible AI](/ai/)
-- [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf)
+- [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2025.pdf)

@@ -15,9 +15,9 @@ items:
     - name: Block basic authentication
       href: block-basic-authentication.md
     - name: Block insecure protocols for file opens
-      href: /microsoft-365/admin/security-and-compliance/block-insecure-protocols-file-opens
+      href: block-insecure-protocols-file-opens.md
     - name: Block FrontPage Remote Procedure Call protocol for file opens
-      href: /microsoft-365/admin/security-and-compliance/block-server-extensions-protocol-file-opens
+      href: block-server-extensions-protocol-file-opens.md
     - name: Allow or prevent custom script
       href: /sharepoint/allow-or-prevent-custom-script
     - name: Disable Access to Microsoft Store

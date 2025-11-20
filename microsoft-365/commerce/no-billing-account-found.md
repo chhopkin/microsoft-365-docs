@@ -3,7 +3,7 @@ title: No billing account found for buying products
 f1.keywords: CSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.reviewer: jkinma, ramagane
 audience: Admin
 ms.topic: how-to
@@ -15,7 +15,6 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_billing
 - AdminSurgePortfolio
