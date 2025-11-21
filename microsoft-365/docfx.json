@@ -177,6 +177,12 @@
           "**.*.yml"
         ]
       },
+      "image-name-incomplete": {
+        "exclude": [
+          "**/*.md",
+          "**.*.yml"
+        ]
+      },
       "sensitive-language-ma": {
         "exclude": [
         ]
