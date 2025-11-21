@@ -12,8 +12,6 @@ items:
     items:
     - name: Overview
       href: flw-deploy-overview.md
-    - name: Start with a pilot deployment
-      href: flw-pilot.md
     - name: Set up and manage frontline devices
       items:
       - name: Frontline device management overview
