@@ -87,6 +87,9 @@ Your organization can opt-out to restrict Anthropic models in the Microsoft admi
 
 Once you disconnect Anthropic, users won't have the option to use Anthropic's AI models. After completing the steps to disconnect Anthropic, it may take several hours for the service to be fully disabled for your users.
 
-## Anthropic as an independent processor
+## Anthropic as an independent processor transition
 
-Anthropic as an [independent data processor (IDP)](connect-to-ai-models.md) will be deprecated and replaced by the Anthropic as a sub-processor functionality. Effective January 7th, 2026, the pre-existing toggle for enabling Anthropic models via IDP will be deprecated. The new default-on setting will override prior selections, subject to [country and region exclusions](#opt-in-regions-and-entities).
+Anthropic as an [independent data processor (IDP)](connect-to-ai-models.md) will be deprecated and replaced by Anthropic as a sub-processor functionality.
+
+- Effective December 8, 2025, the new admin toggle for Anthropic models will appear in the Microsoft admin center, enabled by default [Some customer and region exclusions apply](#opt-in-regions-and-entities).
+- Effective January 7, 2026, Anthropic becomes a Microsoft subprocessor. The independent data processor (IDP) toggle is deprecated. If you opted in to the IDP and you're in a default off country you will need to opt in to the new subprocessor toggle.
