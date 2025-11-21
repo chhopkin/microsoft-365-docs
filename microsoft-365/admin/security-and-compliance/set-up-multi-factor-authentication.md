@@ -197,7 +197,7 @@ Before you create custom Conditional Access policies, create your emergency acce
 >
 > For more information about user exclusions in Conditional Access policies, see [User exclusions](/entra/identity/conditional-access/plan-conditional-access#user-exclusions).
 
-### Step 4: Create mew Conditional Access policies
+### Step 4: Create new Conditional Access policies
 
 Now you can create Conditional Access policies that meet your business needs. For more information, see [Plan a Conditional Access deployment](/entra/identity/conditional-access/plan-conditional-access).
 
