@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 11/18/2025
+ms.date: 11/21/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -318,7 +318,7 @@ The activation process consists of the following steps:
 
 1. **Apply Template** - To strengthen governance and security for agents, you can apply a template that includes predefined policies.
 
-    - **Default Template** - Microsoft provides an out of box template with essential security and compliance controls from **Microsoft Entra**, **Purview**, and **SharePoint**. Default template automatically assigns the Agent 365 license to minimize manual license management.
+    - **Default Template** - Microsoft provides an out of box template with essential security and compliance controls from **Microsoft Entra**, **Purview**, and **SharePoint**. Default template automatically assigns the Agent 365 license to minimize manual license management. For more information, see [Default template automatic license assignment](#default-template-automatic-license-assignment).
 
     - **Custom Template** - If you need additional governance beyond the default, create a custom template and apply extra policies such as **Restrict External Content sharing** to meet your organization's requirements.
 
@@ -340,6 +340,15 @@ The activation process consists of the following steps:
 | Purview | Purview Audit Enabled | Audit trails log all activities and provide clear observability. | [Data security](/microsoft-agent-365/admin/data-security) |
 | Purview | Know Your Data Policy | Data security controls safeguard against sensitive data leaks and oversharing. | [Data security](/microsoft-agent-365/admin/data-security) |
 | Purview | Purview AI compliance assessment | Continuous monitoring evaluates agents for compliance gaps and identifies areas needing attention. | [Data security](/microsoft-agent-365/admin/data-security) |
+
+##### Default template automatic license assignment
+
+The default template automatically assigns the Agent 365 license during activation. This automatic license assignment eliminates manual license management and ensures that every hired agent instance is properly licensed before becoming operational. Key benefits include:
+
+- **Faster Onboarding** - No need for administrators to manually allocate licenses for each instance.
+- **Compliance Assurance** - Prevents unlicensed usage and maintains entitlement integrity.
+- **Scalable Management** - Supports large-scale deployments without increasing administrative overhead.
+
 
 ### Deploy agents
 
