@@ -14,7 +14,7 @@ ms.collection:
 - Tier1
 - M365-subscription-management 
 - Adm_O365
-- operations-pod
+service.tree.id: a72adf8-965e-43e2-93a2-ac605308ee05
 search.appverid: MET150
 ms.custom: 
 - commerce_purchase

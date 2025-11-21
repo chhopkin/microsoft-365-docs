@@ -21,6 +21,7 @@ ms.custom:
 - AdminTemplateSet
 - admindeeplinkMAC
 - GAUpdates
+service.tree.id: 95459a4b-434c-4f83-879b-aa5f509fc7fa
 search.appverid: MET150
 description: "Learn how to assign yourself or others the billing account roles needed to buy and edit products in the Microsoft 365 admin center."
 ms.date: 11/04/2025
