@@ -15,6 +15,7 @@ ms.collection:
 ms.custom:
 - commerce_vl
 - AdminTemplateSet
+service.tree.id: e6e1ea2a-04a0-4f78-bc75-7d45c90eee39
 search.appverid: MET150
 ms.localizationpriority: medium
 description: "Learn how to manage volume licensing user roles in the Microsoft 365 admin center."
@@ -49,7 +50,7 @@ The following table shows the relationship between VL roles in the retired Volum
 
 | Microsoft 365 admin center role | (Retired) VLSC role | Allowable actions         |
 |---------------------------------|---------------------|---------------------------|
-| Administrator                   | Administrator       | Can assign, edit, and remove VL user permissions. Can perform all actions granted to other VL roles, except for viewing invoices. |
+| Administrator                   | Administrator       | Can assign, edit, and remove VL user permissions. Can perform all actions granted to other VL roles, except for viewing invoices.<br/><br/>If you're an EA or EU customer, the Administrator can view invoices. |
 | License position reader         | Licensing Info Viewer | Can view contract details, orders, and contract keys, and create license summaries. |
 | Product download manager        | Download             | Can view contracts and download licensed Microsoft software products. |
 | Product keys reader             | Product Keys         | Can view contracts and contract keys, manage activation and redemption of online services, and view keys on the **Products and services** page. |

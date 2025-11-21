@@ -1,8 +1,8 @@
 ---
 title: "Step 5. Verify and monitor app protection"
-ms.author: erikre
-author: erikre
-manager: dougeby
+ms.author: nwhite
+author: nicholasswhite
+manager: laurawi
 audience: ITPro
 ms.topic: how-to
 ms.date: 04/21/2025
