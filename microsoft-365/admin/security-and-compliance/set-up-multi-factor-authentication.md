@@ -52,7 +52,7 @@ For information about the different options for MFA in Microsoft 365, see [Multi
     > [!IMPORTANT]
     > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
-- To use security defaults or Conditional Access, you need to turn off legacy per-user MFA for users in your organization. It's probably not turned on for any users in organizations created after 2019. For instructions, see [Enable per-user Microsoft Entra multifactor authentication to secure sign-in events](/entra/identity/authentication/howto-mfa-userstates).
+- To use security defaults or Conditional Access, you need to turn off legacy per-user MFA for users in your organization. If your organization's subscription was started after 2019, legacy per-user MFA is most likely not enabled. For more information, see [Enable per-user Microsoft Entra multifactor authentication to secure sign-in events](/entra/identity/authentication/howto-mfa-userstates).
 
 - **Advanced**: If you have non-Microsoft directory services with Active Directory Federation Services (AD FS) (configured before July 2019), set up the Azure MFA Server. For more information, see [Advanced scenarios with Microsoft Entra multifactor authentication and non-Microsoft VPN solutions](/previous-versions/entra/identity/authentication/howto-mfaserver-nps-vpn).
 
@@ -62,9 +62,9 @@ For information about the different options for MFA in Microsoft 365, see [Multi
 
 ## Manage security defaults
 
-Microsoft 365 organizations created after October 2019 have security defaults turned on by default. To see or change the current status of security defaults in your organization, do the following steps:
+Microsoft 365 tenants created after October 2019 have security defaults turned on by default. To see or change the current status of security defaults in your organization, follow these steps:
 
-1. In the Microsoft Entra admin center at <https://entra.microsoft.com>, go to **Identity** \> **Overview**. Or, to go directly to the overview page, use <https://entra.microsoft.com/#view/Microsoft_AAD_IAM/TenantOverview.ReactView>.
+1. In the [Microsoft Entra admin center](https://entra.microsoft.com), go to **Identity** \> **Overview**. Or, to go directly to the overview page, use <https://entra.microsoft.com/#view/Microsoft_AAD_IAM/TenantOverview.ReactView>.
 
 2. On the overview page, select the **Properties** tab, and the go to the **Security defaults** section at the bottom of the tab.
 
@@ -246,7 +246,7 @@ For instructions, see [Enable per-user Microsoft Entra multifactor authenticatio
   - [What is multifactor authentication](https://support.microsoft.com/topic/what-is-multifactor-authentication-e5e39437-121c-be60-d123-eda06bddf661)
   - [Sign-in after registration](https://support.microsoft.com/account-billing/sign-in-to-your-work-or-school-account-using-two-step-verification-c7293464-ef5e-4705-a24b-c4a3ec0d6cf9)
   - [Change how you do additional verification](https://support.microsoft.com/topic/change-how-you-do-additional-verification-956ec8d0-7081-4518-a701-f8414cc20831)
-  - [Set up your Microsoft 365 sign-in for multi-factor authentication](https://support.microsoft.com/office/set-up-your-microsoft-365-sign-in-for-multi-factor-authentication-ace1d096-61e5-449b-a875-58eb3d74de14) and the following video:
+  - [Set up your Microsoft 365 sign-in for multifactor authentication](https://support.microsoft.com/office/set-up-your-microsoft-365-sign-in-for-multi-factor-authentication-ace1d096-61e5-449b-a875-58eb3d74de14) and the following video:
 
      > [!VIDEO https://learn-video.azurefd.net/vod/player?id=eb0acd2a-edf5-4c1d-8e72-e3254bc7dc12]
 
