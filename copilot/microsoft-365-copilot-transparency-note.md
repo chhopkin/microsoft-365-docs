@@ -16,7 +16,7 @@ ms.collection:
 - trust-pod
 hideEdit: true
 ms.update-cycle: 180-days
-ms.date: 11/18/2025
+ms.date: 11/20/2025
 
 ---
 
@@ -82,6 +82,7 @@ For additional, detailed information about the LLMs provided to Microsoft by Ope
 |Microsoft Purview|Microsoft Purview is a solution that helps organizations manage and protect their data. It provides a unified platform for data governance, information protection, risk management, and compliance. Customers can extend Microsoft Purview capabilities provided by customers’ Microsoft subscriptions (for example, Microsoft 365 E3 or E5 subscriptions) to Microsoft 365 Copilot data and interactions.|
 | Microsoft 365 Copilot Tuning | Microsoft 365 Copilot Tuning allows organizations to fine-tune large language models (LLMs) by using their own tenant data. These models can be used to perform domain-specific tasks based on the organization's unique knowledge.<br/><br/>For more information, see [Responsible AI FAQ for Microsoft 365 Copilot Tuning](responsible-ai/copilot-tuning-responsible-ai-faq.md). |
 |Microsoft Copilot Studio|Microsoft Copilot Studio is a powerful platform for building secure, scalable, and intelligent agents that work across Microsoft 365 and line-of-business systems. Copilot Studio offers two ways to build AI agents: a lite experience (integrated into the Microsoft 365 Copilot app) and a full experience (a standalone Copilot Studio application). <br/><br/> For more information, see [Choose the right Copilot Studio experience](/microsoft-365-copilot/extensibility/copilot-studio-experience).|
+|Microsoft 365 Copilot with computer-using agent|Microsoft 365 Copilot with computer-using agent allows you to automate browser or desktop tasks so that your prompts can make use of more of your content and context. Because the agent can perform tasks on your behalf, there can be an increased risk to system security or privacy. To help mitigate this risk, the agent has multiple safeguards, including model-driven safety checks over content and actions as well as tenant admin controls that enable or disable the computer-using agent and restrict which internet sites and domains the agent can access. We recommend that you apply these controls and monitor usage of the agent.|
 
 ### System Behavior
 
