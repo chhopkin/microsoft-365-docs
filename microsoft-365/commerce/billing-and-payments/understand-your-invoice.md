@@ -55,7 +55,7 @@ Each new subscription purchase receives the first invoice the next day and is bi
 Changes you make to an existing subscription appear on the monthly invoice around the beginning of the following month.
 
 > [!NOTE]
-> We're updating how we bill for mid-term subscription changes to improve clarity and efficiency. When the update is available in your country/region, changes you make to an existing subscription will be billed the day after the change. See the <a href="https://go.microsoft.com/fwlink/?linkid=2340188" target="_blank">Message center</a> for more details.
+> We updated how we bill for mid-term subscription changes to improve clarity and efficiency. After the update is available in your country/region, changes you make to an existing subscription are billed the day after the change. For more infotmation, see the <a href="https://go.microsoft.com/fwlink/?linkid=2340188" target="_blank">Message center</a> in the Microsoft 365 admin center.
 
 If you acquire multiple new subscriptions on different days within a month (excluding additions to current subscriptions), you receive separate invoices for each.
 
