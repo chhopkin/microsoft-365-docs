@@ -87,7 +87,7 @@ Your organization can opt-out to restrict Anthropic models in the Microsoft admi
 
 Once you disconnect Anthropic, users won't have the option to use Anthropic's AI models. After completing the steps to disconnect Anthropic, it may take several hours for the service to be fully disabled for your users.
 
-## Anthropic as an independent processor transition
+## Anthropic as an independent processor deprecation
 
 Anthropic as an [independent data processor (IDP)](connect-to-ai-models.md) will be deprecated and replaced by Anthropic as a sub-processor functionality.
 
