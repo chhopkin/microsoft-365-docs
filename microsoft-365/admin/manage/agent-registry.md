@@ -286,7 +286,7 @@ The publishing process consists of the following steps:
 
 ### Activate agents
 
-A governance step for new agents: when a user requests an agent to be activated to create instances, it requires IT admin approval before they can create instances. Administrators can review the agent's details (Description, owner, data and tools,  etc.) and then approve the request and activate or reject it. On activating, administrators can also scope its audience (specific users/groups or everyone), ensuring a controlled rollout.
+A governance step for new agents: when a user requests an agent to be activated to create instances, it requires AI admin approval before they can create instances. Administrators can review the agent's details (Description, owner, data and tools,  etc.) and then approve the request and activate or reject it. On activating, administrators can also scope its audience (specific users/groups or everyone), ensuring a controlled rollout.
 
 The Microsoft 365 admin center activation process for agents ensures governance, security, and quality of custom applications.
 
