@@ -68,6 +68,7 @@ sections:
       Copilot Business and bundled products are available through the following bundles:
         -	Annual Commitment / Annual Billing (A/A)
         -	Annual Commitment / Monthly Billing (A/M)
+        
       Microsoft 365 Business and the associated bundles aren't available on Monthly Commitment / Monthly Billing (M/M)
   - question: |
       Can my customer upgrade mid-term to one of the Microsoft 365 Copilot bundles mid-term? For example, Microsoft 365 Business Basic to Microsoft 365 Business Standard + Copilot Business. 
