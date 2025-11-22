@@ -23,8 +23,9 @@ Autofill columns is a pay-as-you-go service that is set up in the Microsoft 365 
 
 > [!NOTE]
 > **Autofill columns is included as part of Knowledge Agent (preview) in SharePoint.**  
-> Knowledge Agent is a built-in SharePoint capability designed to help your organization prepare content for AI and is included with the Microsoft 365 Copilot license.  
-> During the **preview**, tenants with eligible Copilot licenses can use Autofill columns without a separate Syntex pay-as-you-go setup.  
+> Tenants who have enabled Knowledge Agent can use Autofill columns as part of this preview experience. 
+> Knowledge Agent is a built-in SharePoint capability designed to help your organization prepare content for AI and is included with the Microsoft 365 Copilot license.
+> During the **preview**, Autofill columns are visible only to users with an eligible Microsoft 365 Copilot license and do not require a separate Syntex pay-as-you-go setup. 
 > For more information, see [Get started with Knowledge Agent (preview)](/sharepoint/knowledge-agent-get-started).
 
 ## Prerequisites
