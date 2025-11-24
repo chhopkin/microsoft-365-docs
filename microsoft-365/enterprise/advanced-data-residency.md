@@ -113,7 +113,7 @@ After receiving the _Advanced Data Residency_ licenses, the Tenant Global Admin 
 
 The following screenshot is an example of the Microsoft 365 admin center _Data Location Card_ view that an _ADR_ customer can expect to see before opting for migration to their _Local Region Geography_.
 
-:::image type="content" alt-text="Screenshot of Microsoft 365 Admin Center Data location View." source="media\data-residency\m365-dlc-mac-view-0725.png" lightbox="media\data-residency\m365-dlc-mac-view-0725.png":::
+:::image type="content" alt-text="Screenshot of Microsoft 365 Admin Center Data location View." source="media\data-residency\m365-dlc-mac-view-1125.png" lightbox="media\data-residency\m365-dlc-mac-view-1125.png":::
 
 > [!NOTE]
 > The data migration process described in the sections below won't initiate until the Tenant Global Admin completes this task.

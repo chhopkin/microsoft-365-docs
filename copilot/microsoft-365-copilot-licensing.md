@@ -18,7 +18,7 @@ ms.collection:
 - magic-ai-copilot
 appliesto:
 - ✅ Microsoft 365 Copilot
-ms.date: 11/14/2025
+ms.date: 11/17/2025
 ---
 
 # License options for Microsoft 365 Copilot
@@ -200,3 +200,5 @@ For more information, see the following articles:
 - [Microsoft 365 Copilot adoption guide and overview for IT admins](microsoft-365-copilot-enablement-resources.md)
 
 - [Which Copilot is right for my organization?](which-copilot-for-your-organization.md)
+
+- [Learn about Security Copilot inclusion in Microsoft 365 E5 subscription](/copilot/security/security-copilot-inclusion)
