@@ -102,7 +102,7 @@ Ensure you have the following roles:
 
 ### Step 2: Disconnect billing policies 
 
-1. Under **Billing Policies**, disconnect pay-as-you-go billing under Connection status column. 
+1. Under **Billing Policies**, disconnect by turning off the toggle. 
 
 1. Click save. 
 
