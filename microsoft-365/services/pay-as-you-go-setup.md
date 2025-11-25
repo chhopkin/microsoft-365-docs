@@ -12,9 +12,9 @@ ms.localizationpriority:  medium
 description: Learn how to set up or disconnect billing for pay-as-you-go services for document processing and Microsoft 365 Archive
 ---
 
-# Set up or disconnect pay-as-you-go billing in Org Settings
+# Set up or disconnect pay-as-you-go billing in Setup node
 
-This article explains how to set up or disconnect pay-as-you-go billing for the following services in Org Settings:
+This article explains how to set up or disconnect pay-as-you-go billing for the following services in Setup node:
 
 - Document processing for Microsoft 365
 
