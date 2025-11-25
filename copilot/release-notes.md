@@ -396,7 +396,8 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Learn:** 
 
-  [Export to Excel](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry?view=o365-worldwide#export-to-excel)
+  <a href="https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry?view=o365-worldwide#export-to-excel">Export to Excel</a>
+---
   
 - **Support Message Extensions as Declarative Agents on Mobile** [Android, iOS]
 
@@ -430,14 +431,16 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Learn:** 
   
-  [Message Extension as Agent for Copilot - Teams | Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry?view=o365-worldwide#export-to-excel)
+  <a href="https://learn.microsoft.com/en-us/microsoftteams/platform/messaging-extensions/build-bot-based-agent?tabs=visual-studio-code">Extend bot-based message extension as agent for Microsoft 365 Copilot</a>
+---
 
 
 - **Unified permissions management for agents** [Windows, Web]
 
   View detailed permissions for each Copilot agent in one place—including app dependencies, delegated permissions, and associated risks. Admins can grant consent directly, simplifying governance and deployment.
 
-  **Roadmap ID:** [502617](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617)
+  **Roadmap ID:**  <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617">502617</a>
+
 
   **Details:**
 
@@ -467,7 +470,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Additional Resources:**
 
-  [Agent Registry in the Microsoft 365 admin center](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry?view=o365-worldwide)
+  <a href="https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry?view=o365-worldwide">Agent Registry in the Microsoft 365 admin center</a>
   
   ### Microsoft 365 Copilot Studio
 - **Control org-wide agent sharing from one place** [Web]
