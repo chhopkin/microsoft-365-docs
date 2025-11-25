@@ -256,7 +256,7 @@ Updates released between November 12, 2025, and November 24, 2025.
 
   Speak to Copilot naturally on mobile or desktop to prepare for meetings,brainstorm ideas, or catch up on work—hands-free and grounded in work data.
 
-  Roadmap ID: <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138">481138</a>
+  Roadmap ID: [481138](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667)
 
   **Details:**
 
@@ -289,7 +289,8 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Additional Resources:**
 
-  <a href="https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea?preview=true" target="_blank">Get started with voice features in Microsoft 365 Copilot</a>
+  [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea)
+
   
   
 ### Microsoft 365 Copilot extensibility
@@ -325,17 +326,14 @@ Voice   removes friction, letting you work where typing isn't practical.
   
   **Additional Resources:**
 
-  <a href="https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/overview-custom-engine-agent">Custom engine agents for Microsoft 365 overview</a>
+  [Custom engine agents for Microsoft 365 overview](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/overview-custom-engine-agent)
 
----
 - **Enhanced search in Agent Store for easier discovery** [Windows, Web]
 
 
   Finding the right agents in the Copilot Agent Store just got faster and smarter. Enjoy a streamlined search experience with typeahead suggestions and a clean results page—making it simple to locate exactly what you need without wasted time.  
  
-  **Roadmap ID:** 
-<a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617">502617</a>
-
+  **Roadmap ID:** [502617](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617)
 
     **Details:**  
       
@@ -367,7 +365,8 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   Inventory exports now include richer metadata like capabilities, data sources, and creator details—empowering better auditing and lifecycle control.  
 
-  **Roadmap ID:**  <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502878">502878</a>
+  **Roadmap ID:** [502878](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502878)
+
     
     **Details:**  
 
