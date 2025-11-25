@@ -8,11 +8,8 @@ ms.date: 09/18/2025
 audience: admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
-ms.subservice:
-search.appverid: 
-ms.collection: 
 ms.localizationpriority:  medium
-description: Learn how to set up or disconnect billing for pay-as-you-go services for document processing, Microsoft 365 Archive, and Microsoft 365 Backup.
+description: Learn how to set up or disconnect billing for pay-as-you-go services for document processing and Microsoft 365 Archive
 ---
 
 # Set up or disconnect pay-as-you-go billing in Org Settings
