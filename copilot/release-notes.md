@@ -683,7 +683,8 @@ Updates released between October 28, 2025, and November 12, 2025.
   Copilot Analytics users can now view metrics about their Copilot Chat (Web) usage in Teams and Outlook. These updates enable users to better understand both active usage and action counts in Teams and Outlook and will be available in the Copilot Dashboard, as well as with additional query support. [Learn more](/viva/insights/advanced/reference/metrics).
 
 <!-- 100870,100746,100738,100650,84890,79005,77679,100633,97654,103495,104883,100921,82093,104956,104954,96976 -->
-## October 28, 2025
+## October 15 to 28, 2025
+
 Updates released between October 15, 2025, and October 28, 2025.
 
 ### Copilot extensibility
@@ -694,6 +695,7 @@ Updates released between October 15, 2025, and October 28, 2025.
 - **Static tab for custom agents in Teams meetings** [Windows, Web]
 
   Developers can now add static tabs in their custom engine agents using Teams Toolkit, enhancing experiences during meetings and calls.
+
 ### Microsoft 365 Copilot
 - **Private previews in shared page edits** [Web]
 
@@ -4081,7 +4083,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 ## [Windows](#tab/win)
 <!--- All features that have 'Windows' tag  -->
 <!-- 96890,101634,101246,98572,101655,101641,96886 -->
-## November 24, 2025
+## November 12 - 24, 2025
 Updates released between November 12, 2025, and November 24, 2025.
 ### Microsoft 365 admin center
 
@@ -4383,7 +4385,7 @@ Updates released between October 28, 2025, and November 12, 2025.
 
 
 <!-- 84890,77679,104883,100921,96976 -->
-## October 28, 2025
+## October 15 - 28, 2025
 Updates released between October 15, 2025, and October 28, 2025.
 ### Copilot extensibility
 - **Static tab for custom agents in Teams meetings** [Windows, Web]
@@ -6003,7 +6005,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 ## [Web](#tab/web)
 <!--- All features that have 'Web' tag  -->
 <!-- 96890,101634,101246,98572,105501,101655,101648,101641,101111,100599,96886,101360 -->
-## November 24, 2025
+## November 12 to November 24, 2025
 Updates released between November 12, 2025, and November 24, 2025.
 ### Microsoft 365 admin center
 - **Reassign agent ownership with full control** [Windows, Web]
@@ -6548,7 +6550,7 @@ Updates released between October 28, 2025, and November 12, 2025.
 
 <!-- 100870,100650,84890,100633,97654,103495,104883,100921,82093,104956,104954,96976 -->
 
-## October 28, 2025
+## October 15 to 28, 2025
 
 Updates released between October 15, 2025, and October 28, 2025.
 
@@ -8839,7 +8841,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 ## [Android](#tab/androidos)
 
 <!-- 96890,98572,100743,100742 -->
-## November 24, 2025
+## November 24, 2025 updates
 Updates released between November 12, 2025, and November 24, 2025.
 ### Microsoft 365 Copilot Chat
 - **Access shared mailboxes in Copilot Chat** [Android, Windows, iOS, Mac, Web]
@@ -9014,7 +9016,7 @@ Updates released between October 28, 2025, and November 12, 2025.
   **Personal:** Helps you stay on top of your schedule and commitments without manually checking each calendar invite.
 
 <!-- 100746 -->
-## October 28, 2025
+## October 28, 2025 updates
 Updates released between October 15, 2025, and October 28, 2025.
 ### Copilot extensibility
 - **@mention capability for mainline Copilot Chat** [Android, iOS]
@@ -9454,7 +9456,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 ## [iOS](#tab/appleios)
 
 <!-- 96890,98572,100743,100742 -->
-## November 24, 2025
+## Updates for November 24, 2025
 Updates released between November 12, 2025, and November 24, 2025.
 ### Microsoft 365 Copilot Chat
 - **Access shared mailboxes in Copilot Chat** [Android, Windows, iOS, Mac, Web]
@@ -9601,7 +9603,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
 <!-- 100746,97654,103495 -->
 
-## October 28, 2025
+## Updates of October 28, 2025
 
 Updates released between October 15, 2025, and October 28, 2025.
 
@@ -10336,7 +10338,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 ## [Mac](#tab/mac)
 
 <!-- 96890,101246,98572,101737 -->
-## November 24, 2025
+## November 12 and November 24, 2025
 Updates released between November 12, 2025, and November 24, 2025.
 ### Microsoft 365 admin center
 - **Monitor Copilot usage with Capacity Packs** [Mac]
@@ -10506,7 +10508,7 @@ Updates released between October 28, 2025, and November 12, 2025.
  [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
 
 <!-- 79005,77679,97654,103495,100921 -->
-## October 28, 2025
+## October 15 and October 28, 2025 updates
 Updates released between October 15, 2025, and October 28, 2025.
 ### PowerPoint
 - **Copilot now offers an on-canvas experience for generating speaker notes** [Mac, Web, iOS]
