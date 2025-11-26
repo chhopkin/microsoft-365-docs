@@ -1830,57 +1830,60 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 - **Locate your Copilot Pages in Copilot Chat navigation pane** [Windows, Web]
 
-  For quick access to your Copilot Pages, find all page artifacts created across your apps/modules in one place underneath the Chat section in the Microsoft 365 Copilot app.
- [Learn more](https://techcommunity.microsoft.com/blog/nonprofittechies/introduction-to-microsoft-copilot-pages/4421413).
+  For quick access to your Copilot Pages, find all page artifacts created across your apps/modules in one place underneath the Chat section in the Microsoft 365 Copilot app. [Learn more](https://techcommunity.microsoft.com/blog/nonprofittechies/introduction-to-microsoft-copilot-pages/4421413).
+  .
 - **Play back responses as audio** [Windows, Web]
 
-  Listen to Copilot's replies with a built-in read aloud feature—ideal for multitasking or when you need to review content hands-free.
- [Learn more](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=475967).
+  Listen to Copilot's replies with a built-in read aloud feature—ideal for multitasking or when you need to review content hands-free. [Learn more](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=475967).
+
 - **Scheduled prompts** [Windows, Mac, Web, Teams]
 
-  Plan ahead by scheduling essential prompts for repeated tasks in Copilot chat. Create a productive routine that helps you stay organized and efficient.
- [Learn more](/copilot/microsoft-365/scheduled-prompts).
+  Plan ahead by scheduling essential prompts for repeated tasks in Copilot chat. Create a productive routine that helps you stay organized and efficient.  [Learn more](/copilot/microsoft-365/scheduled-prompts).
+
 ### Microsoft Clipchamp
+
 - **Clipchamp Copilot video creator** [Windows, Web]
 
-  Create a video draft on any topic by providing a prompt. Clipchamp will generate a script, source stock footage and music, add AI voice-over, text overlays, and transitions—giving you a ready-to-edit project you can export to OneDrive.
- [Learn more](https://support.microsoft.com/topic/how-to-create-video-with-copilot-7586329a-64e0-4ae9-9444-0da5b1c2b848).
+  Create a video draft on any topic by providing a prompt. Clipchamp will generate a script, source stock footage and music, add AI voice-over, text overlays, and transitions—giving you a ready-to-edit project you can export to OneDrive. [Learn more](https://support.microsoft.com/topic/how-to-create-video-with-copilot-7586329a-64e0-4ae9-9444-0da5b1c2b848).
+
 ### Microsoft Loop
+
 - **Rich artifacts in Copilot Pages** [Web]
 
-  You can now create rich artifacts, including interactive charts, tables, complex diagrams, and code created with Copilot from enterprise or web data. Artifacts can be added to Pages to further edit and refine with Copilot. They are interactive and stay in sync across Microsoft 365 when shared for collaborative work.
- [Learn more](https://support.microsoft.com/topic/turn-raw-data-into-dynamic-visuals-with-microsoft-365-copilot-pages-8a88637e-87f7-4099-b1c3-1472c2ba625c).
+  You can now create rich artifacts, including interactive charts, tables, complex diagrams, and code created with Copilot from enterprise or web data. Artifacts can be added to Pages to further edit and refine with Copilot. They are interactive and stay in sync across Microsoft 365 when shared for collaborative work. [Learn more](https://support.microsoft.com/topic/turn-raw-data-into-dynamic-visuals-with-microsoft-365-copilot-pages-8a88637e-87f7-4099-b1c3-1472c2ba625c).
+
 ### Outlook
 - **Content language is the default summarize language** [Mac]
 
-  When summarizing Copilot will try to identify the language of the email and summarize in that language.
- [Learn more](https://support.microsoft.com/office/frequently-asked-questions-about-copilot-in-outlook-07420c70-099e-4552-8522-7d426712917b?storagetype=live).
+  When summarizing Copilot will try to identify the language of the email and summarize in that language. [Learn more](https://support.microsoft.com/office/frequently-asked-questions-about-copilot-in-outlook-07420c70-099e-4552-8522-7d426712917b?storagetype=live).
+
 ### PowerPoint
+
 - **Create a PowerPoint slide from a file or prompt** [Web, Windows, Mac]
 
-  Creating impactful slides can be challenging and time-consuming. Copilot helps you quickly turn your ideas and files into a fully designed slide with content ready to edit and refine, making the presentation creation and refinement process more personalized and efficient.
- [Learn more](https://support.microsoft.com/topic/add-a-slide-from-a-file-with-copilot-in-powerpoint-9034b581-38df-46be-a725-986cbbd4b5d4).
+  Creating impactful slides can be challenging and time-consuming. Copilot helps you quickly turn your ideas and files into a fully designed slide with content ready to edit and refine, making the presentation creation and refinement process more personalized and efficient. [Learn more](https://support.microsoft.com/topic/add-a-slide-from-a-file-with-copilot-in-powerpoint-9034b581-38df-46be-a725-986cbbd4b5d4).
+
 - **Designer is now part of Copilot, enhanced with new template and slide suggestions** [Mac, Windows, Web]
 
-  Enjoy familiar Designer slide layouts and presentation template suggestions in a vertical gallery. Copilot now brings you enhanced suggestions to quickly build impactful presentations.
- [Learn more](https://support.microsoft.com/office/create-professional-slide-layouts-with-designer-53c77d7b-dc40-45c2-b684-81415eac0617).
+  Enjoy familiar Designer slide layouts and presentation template suggestions in a vertical gallery. Copilot now brings you enhanced suggestions to quickly build impactful presentations. [Learn more](https://support.microsoft.com/office/create-professional-slide-layouts-with-designer-53c77d7b-dc40-45c2-b684-81415eac0617).
+
 - **Easily select a template while you create a new PowerPoint presentation with Copilot** [Mac, Web, Windows]
 
-  When creating a new presentation with Copilot in PowerPoint, choose a template from your organization's collection for on-brand presentations, or select from Microsoft's handpicked templates, ensuring the new presentation is built as per your chosen template.
- [Learn more](https://support.microsoft.com/topic/keep-your-presentation-on-brand-with-copilot-046c23d5-012e-49e0-8579-fe49302959fc).
+  When creating a new presentation with Copilot in PowerPoint, choose a template from your organization's collection for on-brand presentations, or select from Microsoft's handpicked templates, ensuring the new presentation is built as per your chosen template. [Learn more](https://support.microsoft.com/topic/keep-your-presentation-on-brand-with-copilot-046c23d5-012e-49e0-8579-fe49302959fc).
+
 - **Reference a PDF file when creating a presentation with Microsoft 365 Copilot** [Mac, Windows, Web]
 
-  You can now reference a PDF file when you create a presentation with Copilot within the PowerPoint application.
- [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
+  You can now reference a PDF file when you create a presentation with Copilot within the PowerPoint application. [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
+
 ### Teams
+
 - **Copilot generated summaries for call transfers on Teams phone devices** [Android]
 
-  Copilot generated summary provides an overview of the details and outcomes of transferred calls. It includes information such as the caller's details, the reason for the transfer, and the final resolution.
- [Learn more](https://support.microsoft.com/office/get-started-with-copilot-in-microsoft-teams-phone-97c55ffb-1499-4b0a-8caa-980ebb4b697b).
+  Copilot generated summary provides an overview of the details and outcomes of transferred calls. It includes information such as the caller's details, the reason for the transfer, and the final resolution. [Learn more](https://support.microsoft.com/office/get-started-with-copilot-in-microsoft-teams-phone-97c55ffb-1499-4b0a-8caa-980ebb4b697b).
+
 - **Speaker recognition and attribution in Teams Rooms on Android** [Android]
 
-  Enhance your meetings with real-time speaker recognition and transcript attribution in Teams Rooms on Android. This feature identifies voices through cloud-enabled intelligent speakers and lets you securely enroll voices via Teams Settings—note that a Teams Rooms Pro license is required.
- [Learn more](/microsoftteams/rooms/voice-recognition?branch=main&branchFallbackFrom=pr-en-us-14676).
+  Enhance your meetings with real-time speaker recognition and transcript attribution in Teams Rooms on Android. This feature identifies voices through cloud-enabled intelligent speakers and lets you securely enroll voices via Teams Settings—note that a Teams Rooms Pro license is required. [Learn more](/microsoftteams/rooms/voice-recognition?branch=main&branchFallbackFrom=pr-en-us-14676).
 
 
 <!-- 83163,93511,99006,97583,75354,97166,95275,99896,99890,99009,97921,97647,97603,97372,97288,96951,96241,96065,84642,84119,81005,80339,77194,72079,97492,80341 -->
