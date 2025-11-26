@@ -587,8 +587,7 @@ When building a presentation with Copilot, you can now pull in content from Loop
 
     **Learn:**
     
-    <a href="https://review.learn.microsoft.com/en-us/SharePoint/copilot-skills-sharepoint-admin-centers?branch=pr-en-us-8059">Copilot skills in SharePoint admin centers</a>
-
+    [Copilot skills in SharePoint admin centers](/sharepoint/sharepoint-copilot-best-practices)
 
 <!-- 101643,100829,100490,103496,101683,100910,100875,100679,100896,98419,95902,83819 -->
 ## November 12, 2025
