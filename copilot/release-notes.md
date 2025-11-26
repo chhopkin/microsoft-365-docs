@@ -214,8 +214,11 @@ Updates released between November 12, 2025, and November 24, 2025.
  
   **Additional Resources:**
 
-  <a href="https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6" target="_blank"> Use Copilot in shared mailboxes and delegate mailboxes</a>
+  [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
+
+
 ---
+
 - **Find files faster with improved Copilot Chat filters** [Windows, Web]
 
   
