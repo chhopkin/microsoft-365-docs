@@ -914,18 +914,19 @@ Updates released between September 3, 2025, and September 16, 2025.
   Simplify collaboration with Agents with support for agent viral links on M365 Copilot app on Mobile, enhancing accessibility and engagement.
 
 ### Copilot Studio
-- **Analyze ROI of autonomous agents in Analytics tab** [Web]
 
-  Use Microsoft Copilot Studio ROI Analytics to define and calculate time or money saved for successful autonomous agent runs, enhancing decision-making efficiency.
- <a href="/microsoft-copilot-studio/analytics-cost-savings" target="_blank">Learn more.</a>
-- **Enhanced search and navigation in Copilot Studio** [Web]
+- **Analyze ROI of autonomous agents in Analytics tab** [Web]  
 
-  Boost productivity with streamlined search capabilities, allowing quick access to and navigation of elements within your agent.
- <a href="/microsoft-copilot-studio/authoring-search-within-agent" target="_blank">Learn more.</a>
-- **Use managed  agents as a starting point for Copilot creation** [Web]
+  Use Microsoft Copilot Studio ROI Analytics to define and calculate time or money saved for successful autonomous agent runs, enhancing decision-making efficiency. [Learn more](/microsoft-copilot-studio/analytics-cost-savings)
 
-  Managed agents in Microsoft Copilot Studio serve as a starting point, allowing makers to leverage industry best practices and design guidelines to ensure a consistent and professional agent experience. Managed agents can be discovered, created, and analyzed by template developers for use by agent makers in your organization. With managed agents, you can quickly set up an agent so you can spend more time customizing your agent's logic and functionality. This streamlined approach not only speeds up the development process but also helps organizations quickly adapt to changing business requirements and improve overall operational efficiency.
- <a href="/microsoft-copilot-studio/authoring-install-agent" target="_blank">Learn more.</a>
+- **Enhanced search and navigation in Copilot Studio** [Web]  
+
+  Boost productivity with streamlined search capabilities, allowing quick access to and navigation of elements within your agent. [Learn more](/microsoft-copilot-studio/authoring-search-within-agent)
+
+- **Use managed agents as a starting point for Copilot creation** [Web]  
+
+  Managed agents in Microsoft Copilot Studio serve as a starting point, allowing makers to leverage industry best practices and design guidelines to ensure a consistent and professional agent experience. Managed agents can be discovered, created, and analyzed by template developers for use by agent makers in your organization. With managed agents, you can quickly set up an agent so you can spend more time customizing your agent's logic and functionality. This streamlined approach not only speeds up the development process but also helps organizations quickly adapt to changing business requirements and improve overall operational efficiency. [Learn more](/microsoft-copilot-studio/authoring-install-agent)
+
 ### Microsoft 365 admin center
 - **Admins can easily manage orphaned agents with comprehensive lifecycle functionality** [Windows, Web]
 
