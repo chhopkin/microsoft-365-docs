@@ -18,7 +18,7 @@ This article explains how to set up or disconnect pay-as-you-go billing for the 
 
 - Copilot 
 
-- Microsoft 365 Backup
+- Microsoft 365 Backup (GCC and new Backup customers. Existing backup customers continue in Set up node). 
 
 ## Prerequisites
 
@@ -102,7 +102,7 @@ Ensure you have the following roles:
 
 ### Step 2: Disconnect billing policies 
 
-1. Under **Billing Policies**, disconnect by turning off the toggle. 
+1. Under **Billing Policies**, disconnect by turning toggle off. 
 
 1. Click save. 
 
