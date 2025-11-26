@@ -8975,13 +8975,17 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Learn:** 
   
-  [Learn more](/microsoftteams/platform/messaging-extensions/build-bot-based-agent?tabs=visual-studio-code">Extend bot-based message extension as agent for Microsoft 365 Copilot</a>
+  [Extend bot-based message extension as agent for Microsoft 365 Copilot](/microsoftteams/platform/messaging-extensions/build-bot-based-agent?tabs=visual-studio-code)
 
 <!-- 100829 -->
 ## November 12, 2025
+
 Updates released between October 28, 2025, and November 12, 2025.
+
 ### Microsoft 365 Copilot Chat
+
 **RSVP status-based meeting search in Copilot Chat** [Android, Windows, Web]                          
+
 **Roadmap:** [Learn more](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499429"  target="_blank">499429</a> 
   
   Quickly find meetings based on RSVP status—either your own or others'. This feature helps you stay organized by surfacing RSVP details for upcoming events, so you can track commitments and follow up with attendees.
