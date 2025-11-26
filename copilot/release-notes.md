@@ -677,10 +677,10 @@ Updates released between October 28, 2025, and November 12, 2025.
   When you use Copilot to generate a presentation from an existing one, it now creates a separate file—keeping your original content safe for future use. Perfect for creating tailored decks without starting from scratch. [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
 
 ### Viva Insights
+
 - **Copilot Chat (Web) in Teams & Outlook metrics** [Windows, Web]
 
-  Copilot Analytics users can now view metrics about their Copilot Chat (Web) usage in Teams and Outlook. These updates enable users to better understand both active usage and action counts in Teams and Outlook and will be available in the Copilot Dashboard, as well as with additional query support.
- <a href="/viva/insights/advanced/reference/metrics" target="_blank">Learn more.</a>
+  Copilot Analytics users can now view metrics about their Copilot Chat (Web) usage in Teams and Outlook. These updates enable users to better understand both active usage and action counts in Teams and Outlook and will be available in the Copilot Dashboard, as well as with additional query support. [Learn more](/viva/insights/advanced/reference/metrics).
 
 
 <!-- 100870,100746,100738,100650,84890,79005,77679,100633,97654,103495,104883,100921,82093,104956,104954,96976 -->
