@@ -436,7 +436,6 @@ Voice   removes friction, letting you work where typing isn't practical.
 
 ---
 
-
 - **Unified permissions management for agents** [Windows, Web]
 
   View detailed permissions for each Copilot agent in one place—including app dependencies, delegated permissions, and associated risks. Admins can grant consent directly, simplifying governance and deployment.
@@ -2768,7 +2767,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
 - **Introducing Microsoft 365 Copilot Chat** [Windows, Web, Android, iOS]  
 
-  Microsoft 365 Copilot Chat—secure AI chat powered by GPT-4o with agents accessible right in chat, and IT controls including enterprise data protection and agent management. Copilot Chat serves as a powerful new on-ramp for everyone in your organization to build an AI habit. And it is included with your Microsoft 365 subscription. Get started with Copilot Chat with the updated [Learn more](https://www.m365copilot.com/" target="_blank">Microsoft 365 Copilot app</a> (formerly Microsoft 365 app). [Learn more](https://www.microsoft.com/microsoft-365/blog/2025/01/15/copilot-for-all-introducing-microsoft-365-copilot-chat).
+  Microsoft 365 Copilot Chat—secure AI chat powered by GPT-4o with agents accessible right in chat, and IT controls including enterprise data protection and agent management. Copilot Chat serves as a powerful new on-ramp for everyone in your organization to build an AI habit. And it is included with your Microsoft 365 subscription. Get started with Copilot Chat with the updated [Microsoft 365 Copilot app](https://www.m365copilot.com) (formerly Microsoft 365 app). [Learn more](https://www.microsoft.com/microsoft-365/blog/2025/01/15/copilot-for-all-introducing-microsoft-365-copilot-chat).
 
 - **Updated Copilot Chat responses UI** [Windows]  
 
