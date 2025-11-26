@@ -440,8 +440,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   View detailed permissions for each Copilot agent in one place—including app dependencies, delegated permissions, and associated risks. Admins can grant consent directly, simplifying governance and deployment.
 
-  **Roadmap ID:**  <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617">502617</a>
-
+  **Roadmap ID:** [502617](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617)
 
   **Details:**
 
@@ -471,11 +470,11 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Additional Resources:**
 
-  <a href="https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry?view=o365-worldwide">Agent Registry in the Microsoft 365 admin center</a>
+  [Agent Registry in the Microsoft 365 admin center](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry?view=o365-worldwide)
   
   ### Microsoft 365 Copilot Studio
-- **Control org-wide agent sharing from one place** [Web]
 
+- **Control org-wide agent sharing from one place** [Web]
 
   Admins now have granular control over whether agents built in Agent Builder can be shared with links that work for anyone in the organization, ensuring policies are followed.
 
@@ -501,9 +500,9 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Additional Resources:** 
 
-  **Learn:** <a href="https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-settings?view=o365-worldwide#sharing">Sharing</a>
+  **Learn:** [Sharing](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-settings?view=o365-worldwide#sharing)
 
-    **Learn:** <a href="https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent#share-an-agent"> Share an agent</a>
+    **Learn:** [Share and manage agents built with the Copilot Studio lite experience | Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry?view=o365-worldwide#share-an-agent)
 
   **Demo:** <a href="https://microsoft-my.sharepoint-df.com/personal/sophieroy_microsoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsophieroy%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings%2FDemo%20Admin%20control%20for%20org%2Dwide%20agent%20sharing%20links%2D20250926%5F155245%2DMeeting%20Recording%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea632fb0d%2D5e4c%2D4501%2D92a6%2D1c16c4381542&ct=1764029038871&or=Teams%2DHL&ga=1&gaS=47&isDarkMode=true">Admin control for org-wide agent sharing links</a>
 
