@@ -10374,14 +10374,13 @@ Updates released between November 12, 2025, and November 24, 2025.
 
 ---  
 ### Microsoft 365 Copilot Chat
+
 - **Access shared mailboxes in Copilot Chat** [Android, Windows, iOS, Mac, Web]
 
   Copilot Chat now connects to shared mailboxes, so team-based conversations are more informed and collaborative.  
 
   **Roadmap ID:** [488797](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
   
- 
-
   **Details:**  
 
   **What changed:** Users with shared mailbox permissions can ground Copilot responses in shared mail content, just like their own emails.  
@@ -10406,13 +10405,14 @@ Updates released between November 12, 2025, and November 24, 2025.
  
   **Additional Resources:**
 
-  [Learn more](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6" target="_blank"> Use Copilot in shared mailboxes and delegate mailboxes</a>
+  [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
+
 ---
 - **Talk to Copilot with voice for faster hands-free work** [Android, Windows, iOS, Mac, Web]
 
   Speak to Copilot naturally on mobile or desktop to prepare for meetings,brainstorm ideas, or catch up on work—hands-free and grounded in work data.
 
-  Roadmap ID: [Learn more](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138">481138</a>
+  Roadmap ID: [481138](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
 
   **Details:**
 
