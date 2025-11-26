@@ -928,34 +928,43 @@ Updates released between September 3, 2025, and September 16, 2025.
   Managed agents in Microsoft Copilot Studio serve as a starting point, allowing makers to leverage industry best practices and design guidelines to ensure a consistent and professional agent experience. Managed agents can be discovered, created, and analyzed by template developers for use by agent makers in your organization. With managed agents, you can quickly set up an agent so you can spend more time customizing your agent's logic and functionality. This streamlined approach not only speeds up the development process but also helps organizations quickly adapt to changing business requirements and improve overall operational efficiency. [Learn more](/microsoft-copilot-studio/authoring-install-agent)
 
 ### Microsoft 365 admin center
+
 - **Admins can easily manage orphaned agents with comprehensive lifecycle functionality** [Windows, Web]
 
   Admins can effectively manage the lifecycle of ownerless agents. They can easily filter, identify, block, or delete agents that are no longer associated with an owner, ensuring a streamlined and efficient workflow.
+
 - **Copilot Search management under Copilot Control Systems** [Web]
 
-  Enable administrators to configure, customize, and measure Copilot Search across their organization. This feature provides centralized tools to manage search connectors, tailor search experiences to organizational needs, and gain actionable insights into adoption, usage patterns, and content engagement. Designed to enhance productivity and maximize the value of Microsoft 365 Copilot, it supports both setup and ongoing optimization of enterprise search experiences.
- <a href="/copilot/microsoft-365/microsoft-365-copilot-search-admin-experience" target="_blank">Learn more.</a>
+  Enable administrators to configure, customize, and measure Copilot Search across their organization. This feature provides centralized tools to manage search connectors, tailor search experiences to organizational needs, and gain actionable insights into adoption, usage patterns, and content engagement. Designed to enhance productivity and maximize the value of Microsoft 365 Copilot, it supports both setup and ongoing optimization of enterprise search experiences. [Learn more](/copilot/microsoft-365/microsoft-365-copilot-search-admin-experience)
+
 ### Microsoft 365 Copilot app
+
 - **Configure format, style, and durations of an audio overview in Copilot Notebooks** [Web]
 
-  Choose between a podcast-style format with dual voices or a single voice narration, and customize the style and duration. This gives you more control over how your Notebook is brought to life in audio form.
- <a href="https://support.microsoft.com/topic/get-an-audio-overview-of-your-notebook-with-microsoft-365-copilot-notebooks-a22df989-b9cd-47fb-abac-e888d8f10cd9" target="_blank">Learn more.</a>
+  Choose between a podcast-style format with dual voices or a single voice narration, and customize the style and duration. This gives you more control over how your Notebook is brought to life in audio form.  
+  [Learn more](https://support.microsoft.com/topic/get-an-audio-overview-of-your-notebook-with-microsoft-365-copilot-notebooks-a22df989-b9cd-47fb-abac-e888d8f10cd9)
+
 - **Copilot Search for Premium SKU commercial users** [Android]
 
   Copilot Search allows you to search across files, people, 1P and 3P content (e.g. Figma, ServiceNow tickets). You get Copilot answers for Natural Language Search queries.
+
 - **Direct access to Copilot Chat in Microsoft 365 app** [Android, iOS]
 
   Microsoft 365 Copilot mobile app is removing bottom tabs and will open directly on Chat for eligible users, making it simpler and easier to chat with Copilot.
+
 - **Filter past conversations in Copilot Chat** [Web]
 
   We're introducing a chat history filtering capability that empowers users to tailor their view of past conversations. This feature enables users to scope their chat history to a more relevant, workflow-aligned view, helping them quickly surface the chats that matters most. This enhancement is designed to support better context recall.
+
 - **Microsoft 365 Copilot Search** [Android, Windows, iOS, Web]
 
-  Copilot Search is the intelligent search experience within the Microsoft 365 Copilot app, designed to deliver fast, secure, and context-aware results across your organization's data. It enables users to search across emails, files, chats, meetings, and even third-party platforms like Salesforce, Jira, and Confluence using natural language queries.
- <a href="/copilot/microsoft-365/microsoft-365-copilot-search" target="_blank">Learn more.</a>
+  Copilot Search is the intelligent search experience within the Microsoft 365 Copilot app, designed to deliver fast, secure, and context-aware results across your organization's data. It enables users to search across emails, files, chats, meetings, and even third-party platforms like Salesforce, Jira, and Confluence using natural language queries.  
+  [Learn more](/copilot/microsoft-365/microsoft-365-copilot-search)
+
 - **Unified Conversations (Chat History) List** [Web]
 
   We've made it easier to find what you need. Users now see a single, streamlined list of all your conversations. No more switching between tabs or wondering where to look for specific conversations. Just select a conversation and you'll pick up in the same context and mode as where you left off.
+
 ### OneNote
 - **Create and use Copilot Notebooks in OneNote** [Windows]
 
