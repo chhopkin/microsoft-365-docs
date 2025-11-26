@@ -6539,11 +6539,14 @@ Updates released between October 28, 2025, and November 12, 2025.
 
   Copilot Analytics users can now view metrics about their Copilot Chat (Web) usage in Teams and Outlook. These updates enable users to better understand both active usage and action counts in Teams and Outlook and will be available in the Copilot Dashboard, as well as with additional query support. [Learn more](/viva/insights/advanced/reference/metrics).
 
-
 <!-- 100870,100650,84890,100633,97654,103495,104883,100921,82093,104956,104954,96976 -->
+
 ## October 28, 2025
+
 Updates released between October 15, 2025, and October 28, 2025.
+
 ### Copilot extensibility
+
 - **Static tab for custom agents in Teams meetings** [Windows, Web]
 
   Developers can now add static tabs in their custom engine agents using Teams Toolkit, enhancing experiences during meetings and calls.
@@ -6551,39 +6554,47 @@ Updates released between October 15, 2025, and October 28, 2025.
 - **Private previews in shared page edits** [Web]
 
   After edits in shared pages, view suggestions as private previews to refine and finalize content before public application.
+
 ### Microsoft 365 Copilot Chat
+
 - **Focus mode in Teams** [Web]
 
   Enhance your concentration with Focus Mode in Teams, which hides unnecessary UI elements and provides alerts when launching the full app from chat.
+
 - **Stay informed with email alerts for scheduled prompts",** [Web]
 
-  Get notified when your scheduled Copilot prompts finish running. Email notifications ensure you never miss results and can act on insights right away—no need to keep checking manually.
- [Learn more](/power-platform/admin/recurring-copilot-prompts).
+  Get notified when your scheduled Copilot prompts finish running. Email notifications ensure you never miss results and can act on insights right away—no need to keep checking manually. [Learn more](/power-platform/admin/recurring-copilot-prompts).
+
 ### Microsoft Planner
+
 - **Copilot faster with new Planner button** [Web]
 
-  A new floating action button (FAB) gives you quick, one-click access to the Project Manager Agent, making it easy to launch Copilot or start a chat without losing your place in your plan.
- [Learn more](https://techcommunity.microsoft.com/blog/plannerblog/what%E2%80%99s-new-in-microsoft-planner-%E2%80%93-august-2025/4449301).
+  A new floating action button (FAB) gives you quick, one-click access to the Project Manager Agent, making it easy to launch Copilot or start a chat without losing your place in your plan. [Learn more](https://techcommunity.microsoft.com/blog/plannerblog/what%E2%80%99s-new-in-microsoft-planner-%E2%80%93-august-2025/4449301).
+
 - **Get a project manager agent in all premium plans",** [Windows, Web]
 
   The project manager agent is now included in all premium Planner plans. It helps you move work forward by creating plans from goals, executing tasks, and acting on feedback—all with less manual effort.
+
 - **Get task recommendations grounded in real-time web data** [Web]
 
   Copilot's Project Manager Agent now includes web-grounded responses with source links, ensuring task updates and recommendations are timely, credible, and actionable.
+
 ### Outlook
+
 - **Expanded coverage and Improvements to Preparing for Meetings with Copilot** [Windows, Web]
 
-  Preparing for meetings can be time and effort-intensive. New enhancements to Copilot's meeting preparation experience help streamline the process. Directly within the Outlook meeting event form, Copilot can now proactively generate key insights to help you prepare for specific meetings. Copilot also suggests additional ways that it can help you prepare, from finding the pre-reads to learning more about the meeting's intended outcome. User can then continue the conversation via chat, and get answers to additional questions that are top-of-mind. In addition, Copilot now supports all meeting types – including 1:1 meetings – via the meeting preparation experience.
- [Learn more](https://support.microsoft.com/topic/prepare-for-your-meeting-with-copilot-f23326fc-7721-45f1-875e-23e77aaf3d89).
+  Preparing for meetings can be time and effort-intensive. New enhancements to Copilot's meeting preparation experience help streamline the process. Directly within the Outlook meeting event form, Copilot can now proactively generate key insights to help you prepare for specific meetings. Copilot also suggests additional ways that it can help you prepare, from finding the pre-reads to learning more about the meeting's intended outcome. User can then continue the conversation via chat, and get answers to additional questions that are top-of-mind. In addition, Copilot now supports all meeting types – including 1:1 meetings – via the meeting preparation experience. [Learn more](https://support.microsoft.com/topic/prepare-for-your-meeting-with-copilot-f23326fc-7721-45f1-875e-23e77aaf3d89).
+
 ### PowerPoint
+
 - **Copilot now offers an on-canvas experience for generating speaker notes** [Mac, Web, iOS]
 
-  Now, Copilot in PowerPoint offers an on-canvas experience to generate speaker notes in place of the previous chat experience
- [Learn more](https://support.microsoft.com/topic/add-speaker-notes-to-your-presentations-using-copilot-7139266b-8a1d-4056-8e30-4edcc4d80873).
+  Now, Copilot in PowerPoint offers an on-canvas experience to generate speaker notes in place of the previous chat experience. [Learn more](https://support.microsoft.com/topic/add-speaker-notes-to-your-presentations-using-copilot-7139266b-8a1d-4056-8e30-4edcc4d80873).
+
 - **PPT Copilot now offers an on-canvas experience for translating presentation** [Mac, Web, iOS]
 
-  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation
- [Learn more](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.).
+  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation. [Learn more](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.).
+
 ### Teams
 - **Teams chats in ContextIQ** [Web]
 
