@@ -761,33 +761,42 @@ Updates released between October 15, 2025, and October 28, 2025.
 
 <!-- 81574,102200,101036,100353,99396,101413,100885,100884,99941,101259 -->
 ## October 15, 2025
+
 Updates released between September 30, 2025, and October 15, 2025.
+
 ### Copilot extensibility
+
 - **Context-aware search ranking** [Windows, Web]
 
-  Search now delivers more personalized results by using user context and engagement signals, enhanced by the Microsoft 365 Copilot extension. This ensures that search results are intuitive and relevant.
- <a href="/microsoftsearch/crossover-browser" target="_blank">Learn more.</a>
+Search now delivers more personalized results by using user context and engagement signals, enhanced by the Microsoft 365 Copilot extension. This ensures that search results are intuitive and relevant.  
+[Learn more.](/microsoftsearch/crossover-browser)
+
 ### Microsoft 365 admin center
 - **Harmful content protection toggle** [Web]
 
-  Admins can now control how users interact with harmful content protection settings in Microsoft 365 Copilot Chat. This is crucial for specialized roles like legal or investigative teams that may need exposure to sensitive content.
- <a href="/copilot/microsoft-365/harmful-content-protection-copilot-chat" target="_blank">Learn more.</a>
+  Admins can now control how users interact with harmful content protection settings in Microsoft 365 Copilot Chat. This is crucial for specialized roles like legal or investigative teams that may need exposure to sensitive content.  
+  [Learn more.](/copilot/microsoft-365/harmful-content-protection-copilot-chat)
+
 - **Historical Data Upload Support in Organizational Data in Microsoft 365** [Web]
 
-  Enhance your data management by uploading historical HR data manually via CSV files. If the historical option is selected, admins can assign an effective date for precise processing by apps like Viva Insights. This ensures consistent and accurate data across Microsoft 365 and Viva apps.
- <a href="/viva/import-orgdata#step-5--make-retroactive-updates-to-existing-data" target="_blank">Learn more.</a>
+  Enhance your data management by uploading historical HR data manually via CSV files. If the historical option is selected, admins can assign an effective date for precise processing by apps like Viva Insights. This ensures consistent and accurate data across Microsoft 365 and Viva apps.  
+  [Learn more.](/viva/import-orgdata#step-5--make-retroactive-updates-to-existing-data)
+
 - **Manage table list views with security roles** [Web]
 
-  Enhance security and streamline operations by managing table list views according to specific security roles. This feature empowers administrators with increased control and customization over data access.
- <a href="/power-apps/maker/model-driven-apps/manage-view-access" target="_blank">Learn more.</a>
+  Enhance security and streamline operations by managing table list views according to specific security roles. This feature empowers administrators with increased control and customization over data access.  
+  [Learn more.](/power-apps/maker/model-driven-apps/manage-view-access)
+
 - **Prepurchase capacity packs for chat** [Web]
 
-  Admins can apply pre-purchased message capacity packs to Microsoft 365 Copilot Chat and other agent scenarios before incurring pay-as-you-go charges, optimizing budget management.
- <a href="/copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs" target="_blank">Learn more.</a>
+  Admins can apply pre-purchased message capacity packs to Microsoft 365 Copilot Chat and other agent scenarios before incurring pay-as-you-go charges, optimizing budget management.  
+  [Learn more.](/copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs)
+
 ### Microsoft 365 Copilot Chat
 - **Create new images using reference uploads** [Windows, Mac, Web]
 
   Enhance image creation by uploading reference images in Copilot Chat, using them as creative foundations for new visuals.
+
 - **Image generation with multiple aspect ratios** [Windows, Mac, Web]
 
   Generate images in various aspect ratios to suit any need, from social media to presentations, with landscape, portrait, and square options in Copilot Chat.
