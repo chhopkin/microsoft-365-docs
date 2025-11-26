@@ -10368,10 +10368,9 @@ Updates released between November 12, 2025, and November 24, 2025.
     **Additional Resources:**
   
     **Learn:** 
-    [Learn more](/microsoftteams/copilot-teams-transcription" target="_blank"></a>
+    [Learn more](/microsoftteams/copilot-teams-transcription)
 
-    
-  [Learn more](/copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs" target="_blank"> Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat and SharePoint agents</a>
+    [Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat and SharePoint agents](/copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs)
 
 ---  
 ### Microsoft 365 Copilot Chat
@@ -10379,7 +10378,7 @@ Updates released between November 12, 2025, and November 24, 2025.
 
   Copilot Chat now connects to shared mailboxes, so team-based conversations are more informed and collaborative.  
 
-  **Roadmap ID:**  [Learn more](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797">488797</a>
+  **Roadmap ID:** [488797](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
   
  
 
