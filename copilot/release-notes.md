@@ -590,7 +590,7 @@ When building a presentation with Copilot, you can now pull in content from Loop
     [Copilot skills in SharePoint admin centers](/sharepoint/sharepoint-copilot-best-practices)
 
 <!-- 101643,100829,100490,103496,101683,100910,100875,100679,100896,98419,95902,83819 -->
-## November 12, 2025
+## October 28 to November 12, 2025
 
 Updates released between October 28, 2025, and November 12, 2025.
 
@@ -4337,7 +4337,7 @@ When building a presentation with Copilot, you can now pull in content from Loop
 
 
 <!-- 100829,103496,100910,100875,100679 -->
-## November 12, 2025
+## October 28 - November 12, 2025
 Updates released between October 28, 2025, and November 12, 2025.
 ### Excel
 - **Build and analyze surveys with ease using Surveys Agent** [Windows, Mac, Web]
