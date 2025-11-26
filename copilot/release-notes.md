@@ -6632,89 +6632,106 @@ Updates released between September 30, 2025, and October 15, 2025.
 
 - **Prepurchase capacity packs for chat** [Web]
 
-  Admins can apply pre-purchased message capacity packs to Microsoft 365 Copilot Chat and other agent scenarios before incurring pay-as-you-go charges, optimizing budget management.
- [Learn more](/copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs).
+  Admins can apply pre-purchased message capacity packs to Microsoft 365 Copilot Chat and other agent scenarios before incurring pay-as-you-go charges, optimizing budget management. [Learn more](/copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs).
+
 ### Microsoft 365 Copilot Chat
+
 - **Create new images using reference uploads** [Windows, Mac, Web]
 
   Enhance image creation by uploading reference images in Copilot Chat, using them as creative foundations for new visuals.
 - **Image generation with multiple aspect ratios** [Windows, Mac, Web]
 
   Generate images in various aspect ratios to suit any need, from social media to presentations, with landscape, portrait, and square options in Copilot Chat.
+
 - **Inline citations and references in side pane** [Web]
 
   Improve clarity and transparency by replacing numeric citations with source-based citation pills. Access all sources, both cited and uncited, directly in the side pane for a better credibility assessment and exploration.
+
 ### Microsoft Loop
+
 - **New file extension for Copilot pages** [Web]
 
-  Introducing ".page", a new extension for Copilot pages that supports admin toggles, sensitivity labels, and compliance features just like ".loop".
- [Learn more](https://support.microsoft.com/topic/get-started-with-microsoft-365-copilot-pages-6674bd51-9ff5-42c4-9256-44d9428a726f).
+  Introducing ".page", a new extension for Copilot pages that supports admin toggles, sensitivity labels, and compliance features just like ".loop". [Learn more](https://support.microsoft.com/topic/get-started-with-microsoft-365-copilot-pages-6674bd51-9ff5-42c4-9256-44d9428a726f).
 
 
 <!-- 98125,99202,97403/2/1,96887,101440,101071,100986,100267,84459,100886 -->
 ## September 30, 2025
+
 Updates released between September 16, 2025, and September 30, 2025.
+
 ### Copilot extensibility
+
 - **Enable ISV discovery through connector catalog** [Web]
 
   Discover Independent Software Vendor (ISV) built copilot connectors seamlessly through the connector catalog in the admin center, enhancing integration and functionality across your enterprise applications.
+
 - **Pin agents for tenant-wide visibility** [Web]
 
-  Admins can now pin Copilot agents for all users or specific groups within their tenant, ensuring greater accessibility and relevance of popular agents for user tasks.
- [Learn more](/microsoft-365/admin/manage/manage-pinning-agents).
+  Admins can now pin Copilot agents for all users or specific groups within their tenant, ensuring greater accessibility and relevance of popular agents for user tasks. [Learn more](/microsoft-365/admin/manage/manage-pinning-agents).
+
 ### Microsoft 365 admin center
+
 - **Usage reports for Copilot search** [Android, Windows, iOS, Mac, Web]
 
-  Administrators gain insights into organizational adoption of Copilot search with new usage reports. Track total search queries, assess trends, and analyze user activity to drive effective adoption strategies.
- [Learn more](/microsoft-365/admin/activity-reports/microsoft-365-copilot-search-usage).
+  Administrators gain insights into organizational adoption of Copilot search with new usage reports. Track total search queries, assess trends, and analyze user activity to drive effective adoption strategies. [Learn more](/microsoft-365/admin/activity-reports/microsoft-365-copilot-search-usage).
+
 ### Microsoft 365 Copilot Chat
+
 - **Copilot Chat now understands attached files like Word, Excel, PowerPoint, PDF, Text, JSON, and XML.** [Android, Windows, iOS, Mac, Web]
 
   Users can gather insights not only from the email content but also from attached files, enabling comprehensive context understanding.
+
 - **Copilot Chat summarization in Microsoft Edge context menu** [Web]
 
-  Unpack web pages and ask questions swiftly with a new Copilot Chat summarization option in the Edge context menu for efficient browsing.
- [Learn more](https://support.microsoft.com/topic/using-microsoft-copilot-in-edge-at-work-012b3674-bab8-4f99-8585-c961dac68642).
+  Unpack web pages and ask questions swiftly with a new Copilot Chat summarization option in the Edge context menu for efficient browsing. [Learn more](https://support.microsoft.com/topic/using-microsoft-copilot-in-edge-at-work-012b3674-bab8-4f99-8585-c961dac68642).
+
 - **Easily select meeting series in Copilot Chat** [Windows, Web]
 
   Effortlessly choose meeting series and related instances directly from the Context IQ (CIQ) menu to include in your Copilot Chat prompts.
+
 - **Support for analyzing images in uploaded files** [Windows, Web]
 
   Analyze embedded images within PDF, DOCX, and PPTX files uploaded to Copilot. Ask Copilot to interpret image content, such as "analyze the image on page 4," and receive insights based on the visual data.
+
 - **Upload multiple images for creative prompts** [Android, iOS, Web]
 
   Now upload multiple images into Copilot Chat prompts at once to enhance creative reasoning and generate new content with varied inspiration.
+
 ### PowerPoint
+
 - **Copilot generates the new presentation in a new file when starting from an existing presentation** [Web]
 
-  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation.
- [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
+  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation. [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
+
 - **Seamlessly add topics with Copilot** [Mac, Web, Windows]
 
-  Enhance your presentations by adding new topics with slides via Copilot, ensuring consistency in look and feel with existing content.
- [Learn more](https://support.microsoft.com/topic/add-topics-to-your-existing-powerpoint-presentation-with-copilot-7439e3d7-5b7f-4886-8d01-5e7f285fd99b?preview=true).
-
+  Enhance your presentations by adding new topics with slides via Copilot, ensuring consistency in look and feel with existing content. [Learn more](https://support.microsoft.com/topic/add-topics-to-your-existing-powerpoint-presentation-with-copilot-7439e3d7-5b7f-4886-8d01-5e7f285fd99b?preview=true).
 
 <!-- 96283,84126,100345,100071,101685,100911,100600,100364,100272,100215,100162,97770,96984 -->
+
 ## September 16, 2025
+
 Updates released between September 3, 2025, and September 16, 2025.
+
 ### Copilot extensibility
+
 - **Improve Response accuracy when handling large files in File Upload/CIQ.** [Windows, Web]
 
   Experience improved summaries and increased accuracy when querying long documents and PDFs. Copilot efficiently distills information, helping you extract insights and answer questions faster.
+
 - **ServiceNow Connectors custom URL configuration** [Windows, Web]
 
-  Enhance ServiceNow Connectors with customizable URLs for articles, tickets, and catalog items, tailored to organizational preferences.
- [Learn more](/microsoftsearch/configure-connector#customize-values-for-certain-schema-properties).
+  Enhance ServiceNow Connectors with customizable URLs for articles, tickets, and catalog items, tailored to organizational preferences. [Learn more](/microsoftsearch/configure-connector#customize-values-for-certain-schema-properties).
+
 ### Copilot Studio
 - **Analyze ROI of autonomous agents in Analytics tab** [Web]
 
-  Use Microsoft Copilot Studio ROI Analytics to define and calculate time or money saved for successful autonomous agent runs, enhancing decision-making efficiency.
- [Learn more](/microsoft-copilot-studio/analytics-cost-savings).
+  Use Microsoft Copilot Studio ROI Analytics to define and calculate time or money saved for successful autonomous agent runs, enhancing decision-making efficiency. [Learn more](/microsoft-copilot-studio/analytics-cost-savings).
+
 - **Enhanced search and navigation in Copilot Studio** [Web]
 
-  Boost productivity with streamlined search capabilities, allowing quick access to and navigation of elements within your agent.
- [Learn more](/microsoft-copilot-studio/authoring-search-within-agent).
+  Boost productivity with streamlined search capabilities, allowing quick access to and navigation of elements within your agent. [Learn more](/microsoft-copilot-studio/authoring-search-within-agent).
+
 - **Use managed  agents as a starting point for Copilot creation** [Web]
 
   Managed agents in Microsoft Copilot Studio serve as a starting point, allowing makers to leverage industry best practices and design guidelines to ensure a consistent and professional agent experience. Managed agents can be discovered, created, and analyzed by template developers for use by agent makers in your organization. With managed agents, you can quickly set up an agent so you can spend more time customizing your agent's logic and functionality. This streamlined approach not only speeds up the development process but also helps organizations quickly adapt to changing business requirements and improve overall operational efficiency.
