@@ -9857,7 +9857,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
 - **Introducing Microsoft 365 Copilot Chat** [Windows, Web, Android, iOS]  
 
-  Microsoft 365 Copilot Chat—secure AI chat powered by GPT-4o with agents accessible right in chat, and IT controls including enterprise data protection and agent management. Copilot Chat serves as a powerful new on-ramp for everyone in your organization to build an AI habit. And it is included with your Microsoft 365 subscription. Get started with Copilot Chat with the updated [Learn more](https://www.m365copilot.com" target="_blank">Microsoft 365 Copilot app</a> (formerly Microsoft 365 app). [Learn more](https://www.microsoft.com/microsoft-365/blog/2025/01/15/copilot-for-all-introducing-microsoft-365-copilot-chat).
+  Microsoft 365 Copilot Chat—secure AI chat powered by GPT-4o with agents accessible right in chat, and IT controls including enterprise data protection and agent management. Copilot Chat serves as a powerful new on-ramp for everyone in your organization to build an AI habit. And it is included with your Microsoft 365 subscription. Get started with Copilot Chat with the updated [Microsoft 365 Copilot app](https://www.m365copilot.com) (formerly Microsoft 365 app). [Learn more](https://www.microsoft.com/microsoft-365/blog/2025/01/15/copilot-for-all-introducing-microsoft-365-copilot-chat).
 
 - **Use Pages in compliant Copilot web chat** [Android, Windows, iOS, Mac, Web]  
 
@@ -10336,8 +10336,7 @@ Updates released between November 12, 2025, and November 24, 2025.
 
   Prepay for Copilot message consumption with Capacity Packs and track usage easily—reducing unexpected billing surprises.  
 
-    Roadmap ID:  [Learn more](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=503145">503145</a>
-
+    Roadmap ID: [503145](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=503145)
 
     **Details:**  
 
