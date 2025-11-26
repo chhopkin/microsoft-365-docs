@@ -188,7 +188,7 @@ Updates released between November 12, 2025, and November 24, 2025.
 
   Copilot Chat now connects to shared mailboxes, so team-based conversations are more informed and collaborative.  
 
-  **Roadmap ID:** [488797](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
+  **Roadmap ID:** [488797](/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
 
   **Details:**  
 
@@ -6140,7 +6140,7 @@ Updates released between November 12, 2025, and November 24, 2025.
  
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
  
-  - Tell Copilot: *"List all the emails around <topic> from < mailbox@domain.com > mailbox ."*
+  - Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox ."*
 
   **Why this matters:**  
 
@@ -6460,11 +6460,11 @@ When building a presentation with Copilot, you can now pull in content from Loop
 
     **Learn:**
     
-    [Copilot skills in SharePoint admin centers](learn.microsoft.com/en-us/SharePoint/copilot-skills-sharepoint-admin-centers)
+    [Copilot skills in SharePoint admin centers](/SharePoint/copilot-skills-sharepoint-admin-centers)
 
 <!-- 101643,100829,100490,103496,101683,100910,100875,100679,100896,98419,95902,83819 -->
 
-## November 12, 2025
+## November 12, 2025 — Release Overview
 
 Updates released between October 28, 2025, and November 12, 2025.
 
@@ -6789,7 +6789,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 
 
 <!-- 82180,96228,82089,82088,98075,96025 96022 96024,84758,82090,81702,94127,100601,98669,100218,100352,95279,95274,80609,100337,98691 -->
-## August 19 and September 3, 2025
+## August 19 and September 3, 2025 — Release Overview
 
 Updates released between August 19, 2025, and September 3, 2025.
 
@@ -7220,7 +7220,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 
 
 <!-- 98006,96078,95296,95230,83646,97565,95267,76606,97885,97810,97309,97034,95904,95903,79335,96243,84996,97832,98196,97305,95679,96368 -->
-## Updates between June 10 and June 24, 2025
+## Release summary between June 10 and June 24, 2025
 Updates released between June 10, 2025, and June 24, 2025.
 ### Copilot extensibility
 - **Admins can manage Copilot extensibility under Copilot tab in Microsoft 365 admin center** [Windows, Web]
@@ -8868,7 +8868,7 @@ Updates released between November 12, 2025, and November 24, 2025.
  
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
  
-  - Tell Copilot: *"List all the emails around <topic> from < mailbox@domain.com > mailbox ."*
+  - Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox ."*
 
   **Why this matters:**  
 
@@ -8995,7 +8995,7 @@ Voice   removes friction, letting you work where typing isn't practical.
   [Extend bot-based message extension as agent for Microsoft 365 Copilot](/microsoftteams/platform/messaging-extensions/build-bot-based-agent?tabs=visual-studio-code)
 
 <!-- 100829 -->
-## November 12, 2025
+## November 12, 2025 — Highlights 
 
 Updates released between October 28, 2025, and November 12, 2025.
 
@@ -9484,7 +9484,7 @@ Updates released between November 12, 2025, and November 24, 2025.
  
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
  
-  - Tell Copilot: *"List all the emails around <topic> from < mailbox@domain.com > mailbox ."*
+  - Tell Copilot: *"List all the emails around  `topic` from < mailbox@domain.com > mailbox ."*
 
   **Why this matters:**  
 
@@ -10410,7 +10410,7 @@ Updates released between November 12, 2025, and November 24, 2025.
  
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
  
-  - Tell Copilot: *"List all the emails around <topic> from < mailbox@domain.com > mailbox ."*
+  - Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox ."*
 
   **Why this matters:**  
 
@@ -10500,7 +10500,7 @@ When building a presentation with Copilot, you can now pull in content from Loop
   Save time by reusing the content you already co-created, in just one step.
 
 <!-- 103496,100875,100679 -->
-## November 12, 2025
+## November 12, 2025 — Release Summary
 Updates released between October 28, 2025, and November 12, 2025.
 ### Excel
 - **Build and analyze surveys with ease using Surveys Agent** [Windows, Mac, Web]
@@ -11452,6 +11452,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
