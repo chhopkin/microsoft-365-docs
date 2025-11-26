@@ -723,31 +723,36 @@ Updates released between October 15, 2025, and October 28, 2025.
 ### Outlook
 - **Expanded coverage and Improvements to Preparing for Meetings with Copilot** [Windows, Web]
 
-  Preparing for meetings can be time and effort-intensive. New enhancements to Copilot's meeting preparation experience help streamline the process. Directly within the Outlook meeting event form, Copilot can now proactively generate key insights to help you prepare for specific meetings. Copilot also suggests additional ways that it can help you prepare, from finding the pre-reads to learning more about the meeting's intended outcome. User can then continue the conversation via chat, and get answers to additional questions that are top-of-mind. In addition, Copilot now supports all meeting types – including 1:1 meetings – via the meeting preparation experience.
- <a href="https://support.microsoft.com/topic/prepare-for-your-meeting-with-copilot-f23326fc-7721-45f1-875e-23e77aaf3d89" target="_blank">Learn more.</a>
+  Preparing for meetings can be time and effort-intensive. New enhancements to Copilot's meeting preparation experience help streamline the process. Directly within the Outlook meeting event form, Copilot can now proactively generate key insights to help you prepare for specific meetings. Copilot also suggests additional ways that it can help you prepare, from finding the pre-reads to learning more about the meeting's intended outcome. User can then continue the conversation via chat, and get answers to additional questions that are top-of-mind. In addition, Copilot now supports all meeting types – including 1:1 meetings – via the meeting preparation experience. [Learn more](https://support.microsoft.com/topic/prepare-for-your-meeting-with-copilot-f23326fc-7721-45f1-875e-23e77aaf3d89).
+
 ### PowerPoint
+
 - **Copilot now offers an on-canvas experience for generating speaker notes** [Mac, Web, iOS]
 
-  Now, Copilot in PowerPoint offers an on-canvas experience to generate speaker notes in place of the previous chat experience
- <a href="https://support.microsoft.com/topic/add-speaker-notes-to-your-presentations-using-copilot-7139266b-8a1d-4056-8e30-4edcc4d80873" target="_blank">Learn more.</a>
+  Now, Copilot in PowerPoint offers an on-canvas experience to generate speaker notes in place of the previous chat experience. [Learn more](https://support.microsoft.com/topic/add-speaker-notes-to-your-presentations-using-copilot-7139266b-8a1d-4056-8e30-4edcc4d80873).
+
 - **PPT Copilot now offers an on-canvas experience for translating presentation** [Mac, Web, iOS]
 
-  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation
- <a href="https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity." target="_blank">Learn more.</a>
+  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation  
+  [Learn more.](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.)
+
 ### Teams
 - **Teams chats in ContextIQ** [Web]
 
-  Enhance Copilot Chat prompts by searching and selecting Teams chats within ContextIQ, streamlining your workflow and improving context accuracy.
- <a href="https://support.microsoft.com/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-and-copilot-chat-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0" target="_blank">Learn more.</a>
+  Enhance Copilot Chat prompts by searching and selecting Teams chats within ContextIQ, streamlining your workflow and improving context accuracy.  
+  [Learn more.](https://support.microsoft.com/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-and-copilot-chat-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0)
+
 - **Use Copilot in a call without recording or transcribing** [Windows, Mac]
 
-  Now, users can benefit from Copilot during live Teams calls with sensitive conversations where a persistent record is not desired. When the admin enables this option, users can initiate Copilot without transcription or recording simply through clicking the Copilot button in the header menu, so they can use important Copilot administrative tasks such as capturing key points, task owners, and next steps, enabling participants to stay focused on the content of the call.
- <a href="/microsoftteams/copilot-teams-calling-transcription#only-during-the-call" target="_blank">Learn more.</a>
+  Now, users can benefit from Copilot during live Teams calls with sensitive conversations where a persistent record is not desired. When the admin enables this option, users can initiate Copilot without transcription or recording simply through clicking the Copilot button in the header menu, so they can use important Copilot administrative tasks such as capturing key points, task owners, and next steps, enabling participants to stay focused on the content of the call.  
+  [Learn more.](/microsoftteams/copilot-teams-calling-transcription#only-during-the-call)
+
 ### Viva Insights
+
 - **Weekly user insights in Copilot Studio agent reports",** [Windows, Mac, Web]
 
-  Copilot Studio reports now include weekly active user counts and provide aggregated data on a weekly basis for consistency across reporting. These updates make it easier to track engagement trends for planning and adoption.",
- <a href="/viva/insights/advanced/analyst/templates/copilot-studio-agents" target="_blank">Learn more.</a>
+  Copilot Studio reports now include weekly active user counts and provide aggregated data on a weekly basis for consistency across reporting. These updates make it easier to track engagement trends for planning and adoption. [Learn more](/viva/insights/advanced/analyst/templates/copilot-studio-agents).
+
 ### Word
 - **Instantly get helpful options from Copilot** [Mac]
 
