@@ -3866,7 +3866,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Easily turn plain text or lists into clear, organized tables for better readability and effortless data handling.
 
-## December, 2023
+## December, 2023 — What’s New
 
 ### Microsoft 365 admin center
 
@@ -5419,7 +5419,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Create more detailed drafts by writing prompts over 2,000 characters and referencing files totaling up to 75,000 words. [Learn more](https://support.microsoft.com/topic/66de2ffd-deb2-4f0c-8984-098316104389).
 
-## October, 2024
+## October, 2024 — Release Overview
 
 ### Microsoft 365 Copilot
 
@@ -5738,7 +5738,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Users can copy-paste a link of a supported file into the Draft with Copilot UI as a reference, instead of searching for it in the file reference menu.
 
-## April, 2024
+## April, 2024 — Release Overview
 
 ### Microsoft 365 Copilot Chat
 
@@ -5848,7 +5848,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot combines AI with your Outlook data to help you craft better emails, offering suggestions on tone and message effectiveness.
 
-## January, 2024
+## January, 2024 — Release Summary
 
 ### Excel
 
@@ -5862,7 +5862,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Easily turn plain text or lists into clear, organized tables for better readability and effortless data handling.
 
-## November, 2023
+## Updates for November, 2023
 
 ### Microsoft 365 Copilot Chat
 
@@ -8018,7 +8018,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Enhance your learning experience with a wider range of external content in Copilot Academy, including links to Copilot Prompt Gallery. [Learn more](/viva/learning/academy-copilot).
 
-## December 17, 2024
+## December 17, 2024 — Release Overview
 
 ### Microsoft 365 Copilot
 
@@ -8056,7 +8056,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Now you can add an image to your chat with Copilot. You can ask questions about the image, extract text, get a description of a chart, translate information, or generate alt text. This helps you stay in the flow of work while getting necessary information to continue working on your document.
 
-## November, 2024
+## November, 2024 — Release Overview
 
 ### Microsoft 365 Copilot Chat
 
@@ -8146,7 +8146,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Create more detailed drafts by writing prompts over 2,000 characters and referencing files totaling up to 75,000 words. [Learn more](https://support.microsoft.com/topic/66de2ffd-deb2-4f0c-8984-098316104389).
 
-## October, 2024
+## October, 2024 — What’s New
 
 ### Microsoft 365 Copilot Chat
 
@@ -8198,7 +8198,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   On blank documents, Copilot in Word offers one-click example prompts to help you get started quickly.
 
-## September, 2024
+## September, 2024 — Release Overview
 
 ### Microsoft 365 Copilot Chat
 
@@ -8285,7 +8285,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Expand your drafting capabilities by referencing up to 10 items—such as files, emails, and meetings—when using Copilot in Word. [Learn more](https://support.microsoft.com/topic/272ac2c1-c5f7-49c9-8a42-2a8a87846fa0).
 
-## August, 2024
+## August, 2024 — Release Overview
 
 ### Microsoft 365 Copilot
 
@@ -8343,7 +8343,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   View trendlines of key productivity metrics over 6 months and estimate the financial value of Copilot-assisted hours. [Learn more](/viva/insights/advanced/analyst/templates/microsoft-365-copilot-impact).
 
-## July, 2024
+## July, 2024 — Release Overview
 
 ### Microsoft 365 Copilot Chat
 
@@ -8413,7 +8413,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot in Word can now summarize longer documents, with the upper limit increased to about four times more words (approx. 80k words). Get comprehensive overviews of lengthy content.
 
-## June, 2024
+## June, 2024 — Release Overview
 
 ### Excel
 
@@ -8461,7 +8461,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Enhance your documents with AI-generated images using the new integration of Microsoft Designer in Copilot Chat. Also search for stock images and brand assets to bring your content to life seamlessly.
 
-## May, 2024
+## May, 2024 — Release Overview
 
 ### Microsoft 365 Copilot Chat
 
@@ -8507,7 +8507,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Use Draft with Copilot in Word with the on-canvas Copilot menu when a user selects text, a list, or a table, which generates new content from Copilot and provides a richer, more interactive experience.
 
-## April, 2024
+## April, 2024 — What’s New
 
 ### Microsoft 365 Copilot Chat
 
@@ -8613,7 +8613,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Users can copy-paste a link of a supported file into the Draft with Copilot UI as a reference, instead of searching for it in the file reference menu.
 
-## March, 2024
+## March, 2024 — Release Overview
 
 ### Microsoft 365 Copilot Chat
 
@@ -8639,7 +8639,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Include an AI-generated document summary when sharing Word documents. Recipients get a rich preview, aiding quicker understanding and collaboration.
 
-## February, 2024
+## February, 2024 — Release Overview
 
 ### Forms
 
@@ -8647,7 +8647,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Use natural language to describe the form you need, and Copilot will generate it for you. Copilot can also help you customize your form with a theme or apply response settings, to help drive engagement from your audience.
 
-## January, 2024
+## January, 2024  — Release Overview
 
 ### Excel
 
@@ -8662,7 +8662,7 @@ Updates released between December 18, 2024, and January 7, 2025.
   Communication Compliance is introducing a new template dedicated to analyzing all Microsoft 365 Copilot  prompts and responses, to help ensure content prohibited by customers' policies, such as harassing or threatening language, isn't being used Microsoft 365 interfaces. This scales Communication Compliance's reach, consistent with Microsoft 365's expanding interfaces. In addition, administrators are also able to select Copilot chats as a checked location in the policy creation wizard for any new or existing policies. This empowers administrators to fine-tune their management strategy precisely to their organization's needs, with a focus on user privacy protection. Whether it's setting specific conditions or deploying trainable classifiers, this feature provides flexibility and adaptability in compliance management, ensuring your organization's communications remain secure, compliant, and respectful of user privacy.
 
 
-## December, 2023
+## December, 2023 — Feature Additions
 
 ### Microsoft 365 admin center
 
@@ -8670,7 +8670,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Easily assess your organization's technical eligibility, license assignment, and active usage of Microsoft 365 Copilot. Understand which apps drive engagement, monitor trends over time, and use these insights to guide licensing and adoption strategy decisions. [Learn more](/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness).
 
-## November, 2023
+## Updates released in November, 2023
 
 ### Microsoft 365 Copilot Chat
 
@@ -9254,7 +9254,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Gain visibility into prompts submitted through Microsoft 365 Copilot Chat (web) and enterprise data-protected Copilot scenarios. [Learn more](/viva/insights/advanced/reference/metrics#microsoft-365-copilot-metrics).
 
-## December 17, 2024
+## December 17, 2024 — What’s New
 
 ### Viva Pulse
 
@@ -9262,7 +9262,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Use new templates to measure employee sentiment and assess your organization's Copilot adoption—all within your Viva Pulse subscription.
 
-## November, 2024
+## November, 2024 — What’s New
 
 ### Microsoft 365 Copilot Chat
 
@@ -9276,7 +9276,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   You can now turn Copilot off in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
 
-## October, 2024
+## October, 2024 — Feature Additions
 
 ### Microsoft 365 Copilot
 
@@ -9296,7 +9296,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Select specific parts of your drafted email and ask Copilot in new Outlook to rewrite it or provide more information to rewrite it. Provide detailed instructions or adjust the tone and length to suit your needs.
 
-## September, 2024
+## September, 2024 — What’s New
 
 ### Microsoft 365 Copilot Chat
 
@@ -9310,7 +9310,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Improve your email writing with Coaching by Copilot in new Outlook. Request a full rewrite based on Copilot's feedback or apply the suggestions with a single click. [Learn more](https://support.microsoft.com/topic/91a3cd56-1586-4a31-85c7-2eb8cdb02405).
 
-## August, 2024
+## August, 2024 — What’s New
 
 ### Microsoft 365 Copilot
 
@@ -9341,7 +9341,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   View trendlines of key productivity metrics over 6 months and estimate the financial value of Copilot-assisted hours. [Learn more](/viva/insights/advanced/analyst/templates/microsoft-365-copilot-impact).
 
-## July, 2024
+## July, 2024 — What’s New
 
 ### Viva Insights
 
@@ -9349,7 +9349,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   The Microsoft Copilot Dashboard available to all Microsoft 365 Copilot customers at no extra cost. Access it via the Viva Insights app to monitor Copilot adoption and impact. [Learn more](/viva/insights/org-team-insights/copilot-dashboard).
 
-## June, 2024
+## June, 2024 — What’s New
 
 ### Microsoft Teams
 
@@ -9361,7 +9361,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Introducing new meeting settings that allow you to control who can access recordings, transcripts, and prompt Copilot. Enhance your meeting security and privacy with these granular controls.
 
-## May, 2024
+## May, 2024 — What’s New
 
 ### Microsoft Teams
 
@@ -9377,7 +9377,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Access the power of Microsoft 365 Copilot Chat directly within Outlook  on the web and the new Outlook for Windows. Access Microsoft 365 Copilot Chat through the left app bar.
 
-## April, 2024
+## April, 2024 — Feature Additions
 
 ### Microsoft 365 Copilot Chat
 
@@ -9397,7 +9397,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   When you ask follow-up questions in chats or channels, Copilot now has context from past interactions to provide more accurate answers.
 
-## March, 2024
+## March, 2024 — What’s New
 
 ### Microsoft 365 Copilot Chat
 
@@ -9418,7 +9418,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 
 
-## November, 2023
+## November, 2023 — Release Overview
 
 ### Microsoft Teams
 
@@ -9922,7 +9922,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Use new templates to measure employee sentiment and assess your organization's Copilot adoption—all within your Viva Pulse subscription.
 
-## November, 2024
+## November, 2024 — Feature Additions
 
 ### Microsoft 365 Copilot Chat
 
@@ -9942,7 +9942,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   You can now turn Copilot off in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
 
-## October, 2024
+## October, 2024 — Documentation Updates
 
 ### Microsoft 365 Copilot
 
@@ -9968,7 +9968,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Adding new Microsoft 365 Copilot Chat prompts submitted through Teams metric to Copilot dashboard and Viva Insights Advanced insights.
 
-## September, 2024
+## September, 2024 — Feature Additions
 
 ### Microsoft 365 Copilot Chat
 
@@ -9994,7 +9994,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Expand your drafting capabilities by referencing up to 10 items—such as files, emails, and meetings—when using Copilot in Word. [Learn more](https://support.microsoft.com/topic/272ac2c1-c5f7-49c9-8a42-2a8a87846fa0).
 
-## August, 2024
+## August, 2024 — Feature Additions
 
 ### Microsoft 365 Copilot
 
@@ -10059,7 +10059,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot generates summaries of files that you can view in the file browser of the Microsoft 365 mobile app, helping you understand content without opening the file.
 
-## July, 2024
+## July, 2024 — Feature Additions
 
 ### Excel
 
@@ -10105,7 +10105,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot in Word can now summarize longer documents, with the upper limit increased to about four times more words (approx. 80k words). Get comprehensive overviews of lengthy content.
 
-## June, 2024
+## June, 2024 — Feature Additions
 
 ### Excel
 
@@ -10147,7 +10147,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Easily turn plain text or lists into clear, organized tables for better readability and effortless data handling.
 
-## May, 2024
+## May, 2024 — Feature Additions
 
 ### Microsoft Teams
 
@@ -10161,7 +10161,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Access the power of Microsoft 365 Copilot Chat directly within Outlook  on the web and the new Outlook for Windows. Access Microsoft 365 Copilot Chat through the left app bar.
 
-## April, 2024
+## April, 2024 — Documentation Updates
 
 ### Microsoft 365 Copilot Chat
 
@@ -10191,7 +10191,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   When you ask follow-up questions in chats or channels, Copilot now has context from past interactions to provide more accurate answers.
 
-## March, 2024
+## March, 2024 — Feature Additions
 
 ### Microsoft 365 Copilot Chat
 
@@ -10217,7 +10217,7 @@ Updates released between December 18, 2024, and January 7, 2025.
   We have improved the Copilot user interface with new date dividers for chats, channels, and meeting Copilot.
 
 
-## February, 2024
+## February, 2024 — What’s New
 
 ### Word
 
@@ -10225,7 +10225,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Ask via chat to summarize your document, highlighting key points for quick understanding and review.
 
-## January, 2024
+## January, 2024 — What’s New
 
 ### Excel
 
@@ -10239,7 +10239,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Ask specific questions about your document or request additional details to enhance your content, making your writing process more efficient.
 
-## November, 2023
+## November, 2023 — What’s New
 
 ### Excel
 
@@ -10967,7 +10967,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Gain visibility into prompts submitted through Microsoft 365 Copilot Chat (web) and enterprise data-protected Copilot scenarios. [Learn more](/viva/insights/advanced/reference/metrics#microsoft-365-copilot-metrics).
 
-## December 17, 2024
+## December 17, 2024 — Feature Additions
 
 ### OneNote
 
@@ -10981,7 +10981,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Use new templates to measure employee sentiment and assess your organization's Copilot adoption—all within your Viva Pulse subscription.
 
-## November, 2024
+## November, 2024 — Documentation Updates
 
 ### Microsoft 365 Copilot Chat
 
@@ -11013,7 +11013,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Create more detailed drafts by writing prompts over 2,000 characters and referencing files totaling up to 75,000 words. [Learn more](https://support.microsoft.com/topic/66de2ffd-deb2-4f0c-8984-098316104389).
 
-## October, 2024
+## October, 2024 — Release Summary
 
 ### Microsoft 365 Copilot
 
@@ -11049,7 +11049,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Expand your drafting capabilities by referencing up to 10 items—such as files, emails, and meetings—when using Copilot in Word. [Learn more](https://support.microsoft.com/topic/272ac2c1-c5f7-49c9-8a42-2a8a87846fa0).
 
-## September, 2024
+## September, 2024 — Documentation Updates
 
 ### Excel
 
@@ -11102,7 +11102,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot in Word now offers more options when you paste text. Reword content, transform it into tables or lists, and more, making it easier to format and organize your documents efficiently.
 
-## August, 2024
+## August, 2024 — Documentation Updates
 
 ### Excel
 
@@ -11149,7 +11149,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   View trendlines of key productivity metrics over 6 months and estimate the financial value of Copilot-assisted hours. [Learn more](/viva/insights/advanced/analyst/templates/microsoft-365-copilot-impact).
 
-## July, 2024
+## July, 2024 — Documentation Updates
 
 ### Excel
 
@@ -11203,7 +11203,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot in Word can now summarize longer documents, with the upper limit increased to about four times more words (approx. 80k words). Get comprehensive overviews of lengthy content.
 
-## June, 2024
+## June, 2024 — Documentation Updates
 
 ### Excel
 
@@ -11245,7 +11245,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Use Draft with Copilot in Word with the on-canvas Copilot menu when a user selects text, a list, or a table, which generates new content from Copilot and provides a richer, more interactive experience.
 
-## May, 2024
+## May, 2024 — Documentation Updates
 
 ### Microsoft Teams
 
@@ -11259,7 +11259,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Users can copy-paste a link of a supported file into the Draft with Copilot UI as a reference, instead of searching for it in the file reference menu.
 
-## April, 2024
+## April, 2024 — Release Summary
 
 ### Excel
 
@@ -11289,7 +11289,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Draft with Copilot now allows you to reference files encrypted with sensitivity labels, ensuring secure document creation.
 
-## March, 2024
+## March, 2024 — Documentation Updates
 
 ### Microsoft 365 Copilot Chat
 
@@ -11319,7 +11319,7 @@ Updates released between December 18, 2024, and January 7, 2025.
   We have improved the Copilot user interface with new date dividers for chats, channels, and meeting Copilot.
 
 
-## February, 2024
+## February, 2024  — Feature Additions
 
 ### Microsoft Teams
 
@@ -11327,7 +11327,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   When you open Copilot in a group chat, it will remain open even as you navigate between different chats, saving you time.
 
-## January, 2024
+## January, 2024 — Feature Additions
 
 ### Excel
 
@@ -11335,7 +11335,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot in Excel now remembers the context of your chats, allowing for follow-up questions and clarifications for a smoother experience.
 
-## December, 2023
+## December, 2023 — Release Overview
 
 ### Word
 
@@ -11343,7 +11343,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Easily turn plain text or lists into clear, organized tables for better readability and effortless data handling. [Learn more](https://support.microsoft.com/topic/923d9763-f896-4da7-8a3f-5b12c3bfc475).
 
-## November, 2023
+## November, 2023 — Documentation Updates
 
 ### Microsoft 365 Copilot Chat
 
@@ -11452,3 +11452,5 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
+
