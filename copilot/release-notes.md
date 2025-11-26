@@ -6492,7 +6492,7 @@ Updates released between October 28, 2025, and November 12, 2025.
 
 - **RSVP status-based meeting search in Copilot Chat** [Android, Windows, Web]                          
 
-**Roadmap:** [Learn more](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499429"  target="_blank">499429</a> 
+**Roadmap:** [499429](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499429)
   
   Quickly find meetings based on RSVP status—either your own or others'. This feature helps you stay organized by surfacing RSVP details for upcoming events, so you can track commitments and follow up with attendees.
 
@@ -6511,29 +6511,33 @@ Updates released between October 28, 2025, and November 12, 2025.
   **Business:** Improves meeting management and accountability by enabling quick visibility into attendee responses, reducing missed follow-ups.
 
   **Personal:** Helps you stay on top of your schedule and commitments without manually checking each calendar invite.
+
 - **Updated UI for the Copilot Chat Navigation Pane in Teams** [Web]
 
   The navigation pane has been repositioned from the right side to the left, offering a more intuitive layout. Despite the shift, it continues to host agents and conversation history, ensuring continuity in user experience. This redesign introduces new features, including access to the "All Conversations" page, which provides a comprehensive view of chat history. The change aims to enhance usability and streamline navigation within Copilot Chat.
+
 ### Microsoft 365 Copilot Studio
 - **Upload up to 1000 files for SharePoint and OneDrive training** [Web]
 
-  Makers can now upload up to 1000 documents per agent when building custom Copilot experiences—five times the previous limit—making it easier to create well-informed, specialized solutions.
- [Learn more](/power-platform/release-plan/2025wave1/microsoft-copilot-studio/use-up-1000-files-per-agent-sharepoint-onedrive-uploads).
+  Makers can now upload up to 1000 documents per agent when building custom Copilot experiences—five times the previous limit—making it easier to create well-informed, specialized solutions. [Learn more](/power-platform/release-plan/2025wave1/microsoft-copilot-studio/use-up-1000-files-per-agent-sharepoint-onedrive-uploads).
+
 ### Outlook
+
 - **Intelligent Draft Agenda with Copilot** [Web]
 
-  Meetings are more successful with agendas. They align everyone on meeting goals, get the right people to attend, and keep discussions focused, leading to more productive and effective work. With Intelligent Draft Agenda, Copilot helps you create agendas for your meetings and streamlines your workday.   When creating or editing an event in Calendar, Copilot will propose an agenda, ready for you to review, edit, and send as part of your meeting invite.
- [Learn more](https://support.microsoft.com/topic/31a44dfa-62bb-4751-82c4-14327a26759f?preview=true).
+  Meetings are more successful with agendas. They align everyone on meeting goals, get the right people to attend, and keep discussions focused, leading to more productive and effective work. With Intelligent Draft Agenda, Copilot helps you create agendas for your meetings and streamlines your workday.   When creating or editing an event in Calendar, Copilot will propose an agenda, ready for you to review, edit, and send as part of your meeting invite. [Learn more](https://support.microsoft.com/topic/31a44dfa-62bb-4751-82c4-14327a26759f?preview=true).
+
 ### PowerPoint
+
 - **Create new presentations without overwriting your original** [Windows, Mac, Web]
 
-  When you use Copilot to generate a presentation from an existing one, it now creates a separate file—keeping your original content safe for future use. Perfect for creating tailored decks without starting from scratch.
- [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
+  When you use Copilot to generate a presentation from an existing one, it now creates a separate file—keeping your original content safe for future use. Perfect for creating tailored decks without starting from scratch. [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
+
 ### Viva Insights
+
 - **Copilot Chat (Web) in Teams & Outlook metrics** [Windows, Web]
 
-  Copilot Analytics users can now view metrics about their Copilot Chat (Web) usage in Teams and Outlook. These updates enable users to better understand both active usage and action counts in Teams and Outlook and will be available in the Copilot Dashboard, as well as with additional query support.
- [Learn more](/viva/insights/advanced/reference/metrics).
+  Copilot Analytics users can now view metrics about their Copilot Chat (Web) usage in Teams and Outlook. These updates enable users to better understand both active usage and action counts in Teams and Outlook and will be available in the Copilot Dashboard, as well as with additional query support. [Learn more](/viva/insights/advanced/reference/metrics).
 
 
 <!-- 100870,100650,84890,100633,97654,103495,104883,100921,82093,104956,104954,96976 -->
