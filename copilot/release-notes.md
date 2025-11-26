@@ -9528,7 +9528,6 @@ Voice   removes friction, letting you work where typing isn't practical.
 ### Microsoft 365 Copilot extensibility
 - **Access Custom engine Agents on Microsoft 365 Copilot chat on mobile** [Android, iOS]
 
-
   You can now interact with your organization's custom engine agents directly from your mobile device (iOS and Android), making Copilot even more adaptable to your workflows on the go. Whether you're away from your desk or managing tasks during a commute, your tailored business logic and automations are always at your fingertips. 
 
   **Details:** 
@@ -9557,7 +9556,7 @@ Voice   removes friction, letting you work where typing isn't practical.
   
   **Additional Resources:**
 
-  [Learn more](/microsoft-365-copilot/extensibility/overview-custom-engine-agent">Custom engine agents for Microsoft 365 overview</a>
+  [Custom engine agents for Microsoft 365 overview](/microsoft-365-copilot/extensibility/overview-custom-engine-agent)
 
 - **Support Message Extensions as Declarative Agents on Mobile** [Android, iOS]
 
