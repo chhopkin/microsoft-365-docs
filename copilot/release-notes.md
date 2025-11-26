@@ -602,8 +602,9 @@ Updates released between October 28, 2025, and November 12, 2025.
 
   This flexibility can lead to more efficient processes and reduced manual effort. Secondly, Custom Engine Agents can integrate seamlessly with existing Office functionalities, providing a cohesive and unified user experience. This integration ensures that users can leverage the full power of Office applications while benefiting from the specialized capabilities of their custom agents.
 
-  Additionally, these agents can help in automating repetitive tasks, improving accuracy, and freeing up time for more strategic activities. Overall, the support for Custom Engine Agents within Office applications empowers users to optimize their work environment, drive innovation, and achieve higher levels of productivity.
- <a href="/microsoft-365-copilot/extensibility/agents-overview#custom-engine-agents" target="_blank">Learn more.</a>
+  Additionally, these agents can help in automating repetitive tasks, improving accuracy, and freeing up time for more strategic activities. Overall, the support for Custom Engine Agents within Office applications empowers users to optimize their work environment, drive innovation, and achieve higher levels of productivity. [Learn more](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/agents-overview#custom-engine-agents).
+
+
 ### Copilot Studio
 - **Quarantine and block unsecured agents** [Web]
 
