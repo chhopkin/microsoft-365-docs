@@ -4,7 +4,7 @@ f1.keywords: CSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.reviewer: mijeffer, nicholak
+ms.reviewer: mijeffer, jobailey
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -20,6 +20,7 @@ ms.custom:
 - AdminTemplateSet
 - admindeeplinkMAC
 - campaignIDs-batch1
+service.tree.id: 84a24b9c-ce0c-4b4b-b837-45bc5ee4bef0
 search.appverid: MET150
 robots: NOINDEX, NOFOLLOW
 description: "Learn about cloud subscriptions and how to view them in the Microsoft 365 admin center."
