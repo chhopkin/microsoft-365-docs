@@ -289,12 +289,12 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Additional Resources:**
 
-  <a href="https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea?preview=true" target="_blank">Get started with voice features in Microsoft 365 Copilot</a>
+  [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea?preview=true)
   
   
 ### Microsoft 365 Copilot extensibility
-- **Access Custom engine Agents on Microsoft 365 Copilot chat on mobile** [Android, iOS]
 
+- **Access Custom engine Agents on Microsoft 365 Copilot chat on mobile** [Android, iOS]
 
   You can now interact with your organization's custom engine agents directly from your mobile device (iOS and Android), making Copilot even more adaptable to your workflows on the go. Whether you're away from your desk or managing tasks during a commute, your tailored business logic and automations are always at your fingertips. 
 
