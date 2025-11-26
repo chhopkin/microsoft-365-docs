@@ -666,15 +666,16 @@ Updates released between October 28, 2025, and November 12, 2025.
   Makers can now upload up to 1000 documents per agent when building custom Copilot experiences—five times the previous limit—making it easier to create well-informed, specialized solutions. [Learn more](/power-platform/release-plan/2025wave1/microsoft-copilot-studio/use-up-1000-files-per-agent-sharepoint-onedrive-uploads).
 
 ### Outlook
+
 - **Intelligent Draft Agenda with Copilot** [Web]
 
-  Meetings are more successful with agendas. They align everyone on meeting goals, get the right people to attend, and keep discussions focused, leading to more productive and effective work. With Intelligent Draft Agenda, Copilot helps you create agendas for your meetings and streamlines your workday.   When creating or editing an event in Calendar, Copilot will propose an agenda, ready for you to review, edit, and send as part of your meeting invite.
- <a href="https://support.microsoft.com/topic/31a44dfa-62bb-4751-82c4-14327a26759f?preview=true" target="_blank">Learn more.</a>
+  Meetings are more successful with agendas. They align everyone on meeting goals, get the right people to attend, and keep discussions focused, leading to more productive and effective work. With Intelligent Draft Agenda, Copilot helps you create agendas for your meetings and streamlines your workday.   When creating or editing an event in Calendar, Copilot will propose an agenda, ready for you to review, edit, and send as part of your meeting invite. [Learn more](https://support.microsoft.com/topic/31a44dfa-62bb-4751-82c4-14327a26759f).
+
 ### PowerPoint
 - **Create new presentations without overwriting your original** [Windows, Mac, Web]
 
-  When you use Copilot to generate a presentation from an existing one, it now creates a separate file—keeping your original content safe for future use. Perfect for creating tailored decks without starting from scratch.
- <a href="https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d" target="_blank">Learn more.</a>
+  When you use Copilot to generate a presentation from an existing one, it now creates a separate file—keeping your original content safe for future use. Perfect for creating tailored decks without starting from scratch. [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
+
 ### Viva Insights
 - **Copilot Chat (Web) in Teams & Outlook metrics** [Windows, Web]
 
