@@ -683,7 +683,7 @@ Updates released between October 28, 2025, and November 12, 2025.
   Copilot Analytics users can now view metrics about their Copilot Chat (Web) usage in Teams and Outlook. These updates enable users to better understand both active usage and action counts in Teams and Outlook and will be available in the Copilot Dashboard, as well as with additional query support. [Learn more](/viva/insights/advanced/reference/metrics).
 
 <!-- 100870,100746,100738,100650,84890,79005,77679,100633,97654,103495,104883,100921,82093,104956,104954,96976 -->
-## October 15 to 28, 2025
+## October 15 to 28, 2025 updates
 
 Updates released between October 15, 2025, and October 28, 2025.
 
@@ -762,7 +762,7 @@ Updates released between October 15, 2025, and October 28, 2025.
 
 
 <!-- 81574,102200,101036,100353,99396,101413,100885,100884,99941,101259 -->
-## October 15, 2025
+## Updates between September 30 and October 15, 2025 
 
 Updates released between September 30, 2025, and October 15, 2025.
 
@@ -820,7 +820,7 @@ Search now delivers more personalized results by using user context and engageme
 
 
 <!-- 98125,100748,99202,97403/2/1,96887,96775,101440,101071,100986,100267,84459,82746,80915,100886 -->
-## September 30, 2025
+## September 30, 2025 updates
 
 Updates released between September 16, 2025, and September 30, 2025.
 
@@ -999,7 +999,8 @@ Updates released between September 3, 2025, and September 16, 2025.
   Simplify your editing process with Copilot's one-click solution. Apply all grammar and spelling corrections instantly while retaining the option to review and undo changes you don't want to keep. [Learn more](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/fix-spelling-and-grammar-faster-with-microsoft-365-copilot-in-word-for-the-web/4450625)
 
 <!-- 82180,96228,82089,82088,98075,97530,100667,100665,99809,84151,96025 96022 96024,84758,82090,81702,98039,94127,100601,98669,100218,100352,95279,95274,80609,100337,98691,100740,98789,100666 -->
-## September 3, 2025
+## Updates between August 19 and September 3, 2025
+
 Updates released between August 19, 2025, and September 3, 2025.
 
 ### Copilot extensibility
@@ -1155,7 +1156,7 @@ Updates released between August 19, 2025, and September 3, 2025.
 
 <!-- 93961,99157,98926,95488,84938,100213,100212,98074,97934,97897,97886,97224,96778,96777,96772,95300,95298,95266,84994,84451,84450,84448,79004,100760,100604,100521,100216,75985,99367,99129,98828,98824,95538,83349 -->
 
-## August 19, 2025
+## Updates of August 19, 2025
 
 Updates released between August 5, 2025, and August 19, 2025.
 
@@ -1327,7 +1328,7 @@ Updates released between August 5, 2025, and August 19, 2025.
   Rewrite, get writing suggestions, and more with just one click.
 <!-- 84976,94586,83228,97391,98372,95029,64023,99774,97856,95297,100348,100344,100339,100338,100350,99397,99368,98331,97241,96111,95253,84428,79743,78252,78115,78114,78099,84472 -->
 
-## August 5, 2025
+## Updates between July 22 and August 5, 2025
 
 Updates released between July 22, 2025, and August 5, 2025.
 
@@ -4413,7 +4414,7 @@ Updates released between October 15, 2025, and October 28, 2025.
 
 
 <!-- 100353,100885,100884 -->
-## October 15, 2025
+## October 15, 2025 updates
 Updates released between September 30, 2025, and October 15, 2025.
 ### Copilot extensibility
 - **Context-aware search ranking** [Windows, Web]
@@ -4430,7 +4431,7 @@ Updates released between September 30, 2025, and October 15, 2025.
 
 
 <!-- 97403/2/1,96887,101071,100986,100267,80915 -->
-## September 30, 2025
+## Updates between September 16 to September 30, 2025
 Updates released between September 16, 2025, and September 30, 2025.
 ### Microsoft 365 admin center
 - **Usage reports for Copilot search** [Android, Windows, iOS, Mac, Web]
@@ -4460,7 +4461,7 @@ Updates released between September 16, 2025, and September 30, 2025.
 
 <!-- 100345,84276,100364,97770,96984 -->
 
-## September 16, 2025
+## Updates of September 16, 2025
 
 Updates released between September 3, 2025, and September 16, 2025.
 
@@ -4493,7 +4494,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 
 
 <!-- 82180,99809,84151,96025 96022 96024,98039,100352,95279,95274,100337 -->
-## September 3, 2025
+## August 19 - September 3, 2025 
 Updates released between August 19, 2025, and September 3, 2025.
 ### Copilot extensibility
 - **Add advanced scripting support for ServiceNow catalog** [Windows, Web]
@@ -4538,7 +4539,7 @@ Updates released between August 19, 2025, and September 3, 2025.
 
 
 <!-- 95488,84938,97934,97897,97224,95300,95298,95266,100604,75985,99367 -->
-## August 19, 2025
+## August 19, 2025 updates
 Updates released between August 5, 2025, and August 19, 2025.
 ### Copilot extensibility
 - **Craft actions using API chaining with low code** [Windows, Web]
@@ -4589,7 +4590,7 @@ Updates released between August 5, 2025, and August 19, 2025.
 
 
 <!-- 84976,94586,83228,95029,64023,99774,100348,100344,100339,100338,99368,98331,97241,79743,84472 -->
-## August 5, 2025
+## July 22 - August 5, 2025
 Updates released between July 22, 2025, and August 5, 2025.
 ### Copilot extensibility
 - **Enhance Copilot Studio lite experience with full screen mode** [Windows, Mac, Web]
@@ -6550,7 +6551,7 @@ Updates released between October 28, 2025, and November 12, 2025.
 
 <!-- 100870,100650,84890,100633,97654,103495,104883,100921,82093,104956,104954,96976 -->
 
-## October 15 to 28, 2025
+## Updates from October 15 to 28, 2025
 
 Updates released between October 15, 2025, and October 28, 2025.
 
@@ -6617,7 +6618,7 @@ Updates released between October 15, 2025, and October 28, 2025.
 
 <!-- 102200,101036,100353,99396,101413,100885,100884,99941,101259 -->
 
-## October 15, 2025
+## September 30 to October 15, 2025 updates
 
 Updates released between September 30, 2025, and October 15, 2025.
 
@@ -6664,7 +6665,7 @@ Updates released between September 30, 2025, and October 15, 2025.
 
 
 <!-- 98125,99202,97403/2/1,96887,101440,101071,100986,100267,84459,100886 -->
-## September 30, 2025
+## Updates between September 16 and September 30, 2025
 
 Updates released between September 16, 2025, and September 30, 2025.
 
@@ -6718,7 +6719,7 @@ Updates released between September 16, 2025, and September 30, 2025.
 
 <!-- 96283,84126,100345,100071,101685,100911,100600,100364,100272,100215,100162,97770,96984 -->
 
-## September 16, 2025
+## September 16, 2025 updates
 
 Updates released between September 3, 2025, and September 16, 2025.
 
@@ -6782,7 +6783,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 
 
 <!-- 82180,96228,82089,82088,98075,96025 96022 96024,84758,82090,81702,94127,100601,98669,100218,100352,95279,95274,80609,100337,98691 -->
-## September 3, 2025
+## August 19 and September 3, 2025
 
 Updates released between August 19, 2025, and September 3, 2025.
 
@@ -6880,7 +6881,7 @@ Updates released between August 19, 2025, and September 3, 2025.
   When Copilot generates drafts based on a selection of text, Copilot retains the formatting of the selected text and allows users to apply new formatting, like bold, underline, italic, and more.
 
 <!-- 93961,99157,98926,95488,84938,100213,100212,98074,97934,97897,97886,97224,95300,95298,95266,79004,100604,100521,100216,99367,98828,98824,95538,83349 -->
-## August 19, 2025
+## Updates of August 19, 2025
 Updates released between August 5, 2025, and August 19, 2025.
 ### Copilot extensibility
 - **Craft actions using API chaining with low code** [Windows, Web]
@@ -6986,7 +6987,7 @@ Updates released between August 5, 2025, and August 19, 2025.
 
 
 <!-- 84976,94586,83228,98372,99774,97856,100348,100344,100339,100338,99397,99368,96111,78252 -->
-## August 5, 2025
+## Updates from July 22 to August 5, 2025
 Updates released between July 22, 2025, and August 5, 2025.
 ### Copilot extensibility
 - **Admin pre-approval for trusted declarative agents** [Web]
@@ -9024,7 +9025,7 @@ Updates released between October 15, 2025, and October 28, 2025.
   Use @mention in Copilot Chat to direct interactions to specific agents, ensuring focused and relevant responses from Copilot.
 
 <!-- 100748,100986,100267,100886 -->
-## September 30, 2025
+## September 16 and September 30, 2025
 Updates released between September 16, 2025, and September 30, 2025.
 ### Copilot extensibility
 - **Agents support for Copilot Chat and pay-as-you-go on Microsoft 365 Copilot Mobile** [Android, iOS]
@@ -9044,7 +9045,7 @@ Updates released between September 16, 2025, and September 30, 2025.
   Now upload multiple images into Copilot Chat prompts at once to enhance creative reasoning and generate new content with varied inspiration.
 
 <!-- 100803,100741,100728,97770,96630 -->
-## September 16, 2025
+## Updates between September 3 and September 16, 2025
 Updates released between September 3, 2025, and September 16, 2025.
 ### Copilot extensibility
 - **Mobile support for Analyst agent on Android and iOS** [iOS, Android]
@@ -9066,7 +9067,8 @@ Updates released between September 3, 2025, and September 16, 2025.
  [Learn more](/copilot/microsoft-365/microsoft-365-copilot-search).
 
 <!-- 98075,97530,100740 -->
-## September 3, 2025
+## August 19 and September 3, 2025
+
 Updates released between August 19, 2025, and September 3, 2025.
 ### Microsoft 365 Copilot app
 - **Enrich agents with Store integration on mobile** [Android, iOS]
@@ -9083,7 +9085,7 @@ Updates released between August 19, 2025, and September 3, 2025.
  [Learn more](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-copilot-memory-a-more-productive-and-personalized-ai-for-the-way-you/4432059).
 
 <!-- 95488,97897,99129 -->
-## August 19, 2025
+## August 5 to 19, 2025 updates
 Updates released between August 5, 2025, and August 19, 2025.
 ### Microsoft 365 Copilot app
 - **Expanded language options with Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
@@ -9624,7 +9626,7 @@ Updates released between October 15, 2025, and October 28, 2025.
   Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation. [Learn more](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.).
 
 <!-- 100748,100986,100267,100886 -->
-## September 30, 2025
+## Updates of September 30, 2025
 
 Updates released between September 16, 2025, and September 30, 2025.
 
@@ -9650,7 +9652,7 @@ Updates released between September 16, 2025, and September 30, 2025.
   Now upload multiple images into Copilot Chat prompts at once to enhance creative reasoning and generate new content with varied inspiration.
 
 <!-- 100803,100741,100728,99818,97770 -->
-## September 16, 2025
+## September 3 to 16, 2025
 Updates released between September 3, 2025, and September 16, 2025.
 ### Copilot extensibility
 - **Mobile support for Analyst agent on Android and iOS** [iOS, Android]
@@ -9674,7 +9676,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 
 <!-- 98075,97530,100740 -->
 
-## September 3, 2025
+## August 19 - September 3, 2025
 
 Updates released between August 19, 2025, and September 3, 2025.
 
@@ -9692,7 +9694,7 @@ Updates released between August 19, 2025, and September 3, 2025.
   Copilot Memory leverages insights inferred from conversations between the user and Copilot, along with data from the Microsoft Graph and custom instructions to provide personalized help for tasks. Users have full control and can view, manage, disable or clear memory at any time. [Learn more](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-copilot-memory-a-more-productive-and-personalized-ai-for-the-way-you/4432059).
 
 <!-- 95488,97897,99129 -->
-## August 19, 2025
+## August 5 and August 19, 2025
 Updates released between August 5, 2025, and August 19, 2025.
 ### Microsoft 365 Copilot app
 - **Expanded language options with Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
@@ -10535,7 +10537,7 @@ Updates released between October 15, 2025, and October 28, 2025.
   The Copilot icon in your document margin gives you a variety of actions you can take on your selected text. One click lets you rewrite, get writing suggestions, and more
 
 <!-- 100885,100884 -->
-## October 15, 2025
+## September 30 - October 15, 2025
 Updates released between September 30, 2025, and October 15, 2025.
 ### Microsoft 365 Copilot Chat
 - **Create new images using reference uploads** [Windows, Mac, Web]
@@ -10546,7 +10548,7 @@ Updates released between September 30, 2025, and October 15, 2025.
   Generate images in various aspect ratios to suit any need, from social media to presentations, with landscape, portrait, and square options in Copilot Chat.
 
 <!-- 97403/2/1,100986,100267 -->
-## September 30, 2025
+## September 16-30, 2025
 Updates released between September 16, 2025, and September 30, 2025.
 ### Microsoft 365 admin center
 - **Usage reports for Copilot search** [Android, Windows, iOS, Mac, Web]
@@ -10565,6 +10567,7 @@ Updates released between September 16, 2025, and September 30, 2025.
 
 <!-- 96025 96022 96024 -->
 ## September 3, 2025
+
 Updates released between August 19, 2025, and September 3, 2025.
 ### PowerPoint
 - **Excel data when building a presentation** [Web, Mac, Windows]
@@ -10573,7 +10576,7 @@ Updates released between August 19, 2025, and September 3, 2025.
  [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
 
 <!-- 95488,97897 -->
-## August 19, 2025
+## Updates between August 5 and August 19, 2025
 Updates released between August 5, 2025, and August 19, 2025.
 ### Microsoft 365 Copilot app
 - **Expanded language options with Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
