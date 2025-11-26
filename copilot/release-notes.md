@@ -966,88 +966,111 @@ Updates released between September 3, 2025, and September 16, 2025.
   We've made it easier to find what you need. Users now see a single, streamlined list of all your conversations. No more switching between tabs or wondering where to look for specific conversations. Just select a conversation and you'll pick up in the same context and mode as where you left off.
 
 ### OneNote
+
 - **Create and use Copilot Notebooks in OneNote** [Windows]
 
-  Bring together your notes, Word documents, Excel files, PowerPoint decks, Copilot chats and more into Copilot Notebooks in OneNote to organize and reason over your content.
- <a href="https://support.microsoft.com/topic/introducing-microsoft-365-copilot-notebooks-in-onenote-c91a851a-77d6-4b70-a898-8aaf718a95df" target="_blank">Learn more.</a>
+  Bring together your notes, Word documents, Excel files, PowerPoint decks, Copilot chats and more into Copilot Notebooks in OneNote to organize and reason over your content. [Learn more](https://support.microsoft.com/topic/introducing-microsoft-365-copilot-notebooks-in-onenote-c91a851a-77d6-4b70-a898-8aaf718a95df)
+
 ### Outlook
+
 - **Schedule meetings effortlessly from email threads** [iOS]
 
-  Use Copilot to quickly schedule meetings by analyzing email threads, crafting invitations, and including attendees—all with ease.
- <a href="https://support.microsoft.com/office/create-a-meeting-and-agenda-with-copilot-in-outlook-31a44dfa-62bb-4751-82c4-14327a26759f">Learn more.</a>
+  Use Copilot to quickly schedule meetings by analyzing email threads, crafting invitations, and including attendees—all with ease. [Learn more](https://support.microsoft.com/office/create-a-meeting-and-agenda-with-copilot-in-outlook-31a44dfa-62bb-4751-82c4-14327a26759f)
+
 ### PowerPoint
+
 - **Copilot Chat creates and enhances presentation content and design** [Web]
 
-  Develop comprehensive presentations with depth in content, narrative, and structure, using Copilot's assistance for a polished and compelling delivery.
- <a href="/copilot/overview" target="_blank">Learn more.</a>
+  Develop comprehensive presentations with depth in content, narrative, and structure, using Copilot's assistance for a polished and compelling delivery.  
+  [Learn more](/copilot/overview)
+
 ### Viva Insights
-- **Unlock team skills insights with AI-powered reports** 
+
+- **Unlock team skills insights with AI-powered reports**
 
   With Microsoft 365 Copilot in Viva Insights, leaders can unlock powerful skills insights for their teams—driven by People Skills data. Copilot enables leaders to explore their organization's skill distribution, identify individuals with specific capabilities, and generate dynamic visual reports to support strategic decision-making.
+
 ### Word
+
 - **Fix spelling and grammar all at once with Copilot** [Web]
 
-  Simplify your editing process with Copilot's one-click solution. Apply all grammar and spelling corrections instantly while retaining the option to review and undo changes you don't want to keep.
- <a href="https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/fix-spelling-and-grammar-faster-with-microsoft-365-copilot-in-word-for-the-web/4450625" target="_blank">Learn more.</a>
-
+  Simplify your editing process with Copilot's one-click solution. Apply all grammar and spelling corrections instantly while retaining the option to review and undo changes you don't want to keep. [Learn more](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/fix-spelling-and-grammar-faster-with-microsoft-365-copilot-in-word-for-the-web/4450625)
 
 <!-- 82180,96228,82089,82088,98075,97530,100667,100665,99809,84151,96025 96022 96024,84758,82090,81702,98039,94127,100601,98669,100218,100352,95279,95274,80609,100337,98691,100740,98789,100666 -->
 ## September 3, 2025
 Updates released between August 19, 2025, and September 3, 2025.
+
 ### Copilot extensibility
+
 - **Add advanced scripting support for ServiceNow catalog** [Windows, Web]
 
-  Use advanced scripting for user permissions with the ServiceNow Catalog Graph Connector, allowing more customized and secure experiences.
- <a href="/microsoftsearch/servicenow-catalog-advanced-flow" target="_blank">Learn more.</a>
-- **Create agents from Teams meeting transcripts** 
+  Use advanced scripting for user permissions with the ServiceNow Catalog Graph Connector, allowing more customized and secure experiences.  
+  [Learn more](/microsoftsearch/servicenow-catalog-advanced-flow)
 
-  Turn meeting discussions into smart assistants by using Copilot extensibility to create agents directly from Teams transcripts." -> "Turn meeting discussions into smart assistants by using Copilot extensibility to create agents directly from Teams transcripts and calendar information
- <a href="/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-knowledge" target="_blank">Learn more.</a>
+- **Create agents from Teams meeting transcripts**
+
+  Turn meeting discussions into smart assistants by using Copilot extensibility to create agents directly from Teams transcripts and calendar information.  
+  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-knowledge)
+
 - **Get clear sync statuses and error insights** [Windows, Web]
 
-  View actionable user sync and ingestion statuses across all states in Microsoft Admin Center to simplify troubleshooting.
- <a href="/microsoftsearch/connector-view-details" target="_blank">Learn more.</a>
+  View actionable user sync and ingestion statuses across all states in Microsoft Admin Center to simplify troubleshooting.  
+  [Learn more](/microsoftsearch/connector-view-details)
+
 - **Ground Copilot responses on specific content subsets** [Windows, Web]
 
-  Increase precision with Copilot extensibility by using subsets of data connections, ensuring responses are based on the most relevant information.
- <a href="/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-knowledge?branch=main&branchFallbackFrom=pr-en-us-1060" target="_blank">Learn more.</a>
+  Increase precision with Copilot extensibility by using subsets of data connections, ensuring responses are based on the most relevant information.  
+  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-knowledge?branch=main&branchFallbackFrom=pr-en-us-1060)
+
 - **Integrate SharePoint files in Copilot Studio lite experience for smarter agents**
 
-  Enrich your agents with comprehensive knowledge by adding extensive SharePoint files into Copilot Studio's lite experience, enabling more intelligent and context-aware interactions.
- <a href="/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-knowledge#scope-copilot-connector-data-sources" target="_blank">Learn more.</a>
+  Enrich your agents with comprehensive knowledge by adding extensive SharePoint files into Copilot Studio's lite experience, enabling more intelligent and context-aware interactions.  
+  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-knowledge#scope-copilot-connector-data-sources)
+
 - **Search and browse connector catalog with ease** [Windows, Web]
 
-  Admins can now quickly find connectors across categories and functions in the Copilot extensibility catalogâ&euro;"making integrations simpler than ever.
- <a href="/microsoftsearch/connector-view-details" target="_blank">Learn more.</a>
+  Admins can now quickly find connectors across categories and functions in the Copilot extensibility catalog—making integrations simpler than ever.  
+  [Learn more](/microsoftsearch/connector-view-details)
+
 - **Use enterprise data for smarter agents in Copilot Studio lite experience**
 
-  Enhance agent accuracy by integrating diverse enterprise data sources like ServiceNow tickets or Google Workspace files into Copilot's Copilot Studio lite experience.
- <a href="/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-knowledge#scope-copilot-connector-data-sources" target="_blank">Learn more.</a>
+  Enhance agent accuracy by integrating diverse enterprise data sources like ServiceNow tickets or Google Workspace files into Copilot's Copilot Studio lite experience.  
+  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-knowledge#scope-copilot-connector-data-sources)
+
 ### Copilot Studio
+
 - **Discover and install Copilot Studio agents from Dataverse** [Web]
 
-  Easily find and install Microsoft-built agents in Copilot Studio using the integrated Power Platform catalog, reducing governance and setup complexities.
- <a href="/microsoft-copilot-studio/authoring-install-agent" target="_blank">Learn more.</a>
+  Easily find and install Microsoft-built agents in Copilot Studio using the integrated Power Platform catalog, reducing governance and setup complexities.  
+  [Learn more](/microsoft-copilot-studio/authoring-install-agent)
+
 ### Excel
+
 - **Copilot-generated formula in one step** [Windows]
 
-  Just tell Copilot what you need, and it creates the formula and places it directly into the selected cell—quick and easy.
- <a href="https://support.microsoft.com/topic/generate-single-cell-formulas-with-copilot-in-excel-2d0201f3-0c3f-41b8-b0b0-07da3ad8fb29" target="_blank">Learn more.</a>
+  Just tell Copilot what you need, and it creates the formula and places it directly into the selected cell—quick and easy.  
+  [Learn more](https://support.microsoft.com/topic/generate-single-cell-formulas-with-copilot-in-excel-2d0201f3-0c3f-41b8-b0b0-07da3ad8fb29)
+
 - **Copilot-generated single cell formula in one step** [Windows]
 
-  Copilot can generate a complete formula based on your prompt and place it directly into the selected cell—quick and easy.
- <a href="https://support.microsoft.com/topic/generate-single-cell-formulas-with-copilot-in-excel-2d0201f3-0c3f-41b8-b0b0-07da3ad8fb29" target="_blank">Learn more.</a>
+  Copilot can generate a complete formula based on your prompt and place it directly into the selected cell—quick and easy.  
+  [Learn more](https://support.microsoft.com/topic/generate-single-cell-formulas-with-copilot-in-excel-2d0201f3-0c3f-41b8-b0b0-07da3ad8fb29)
+
 ### Microsoft 365 Copilot app
+
 - **Enrich agents with Store integration on mobile** [Android, iOS]
 
   Access and enhance agents through the Agent Store on mobile, making it easier to deploy and manage new capabilities on the go.
+
 - **Save an audio overview from Copilot Notebooks to OneDrive** [Web]
 
-  Save the audio overview that you have generated within a Copilot Notebook to OneDrive so you can download or share with others.
- <a href="https://support.microsoft.com/topic/get-an-audio-overview-of-your-notebook-with-microsoft-365-copilot-notebooks-a22df989-b9cd-47fb-abac-e888d8f10cd9?preview=true" target="_blank">Learn more.</a>
+  Save the audio overview that you have generated within a Copilot Notebook to OneDrive so you can download or share with others.  
+  [Learn more](https://support.microsoft.com/topic/get-an-audio-overview-of-your-notebook-with-microsoft-365-copilot-notebooks-a22df989-b9cd-47fb-abac-e888d8f10cd9?preview=true)
+
 - **Use Copilot in PDFs on mobile** [Android, iOS]
 
   Eligible users can now leverage Copilot within PDF files in the Microsoft 365 mobile app. Easily ask questions, gather summaries, and extract key insights from your PDFs for more efficient content understanding on the go.
+
 ### Microsoft 365 Copilot Chat
 - **Graph Connectors in CIQ** [Web]
 
