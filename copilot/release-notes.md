@@ -1743,84 +1743,91 @@ Updates released between June 10, 2025, and June 24, 2025.
 - **Build agents faster with built in Office skills** [Windows, Web]
 
   Empower your agent building by consuming built-in Office skills like Q&A on documents and PowerPoint summaries. This feature speeds up integrations, reduces the need for custom solutions, and delivers context-aware insights for a smarter agent experience.
+
 - **Build custom engine agents with Copilot Studio**
 
-  Use Copilot Studio to create, test, and update custom engine agents that run seamlessly in Microsoft 365 Copilot Chat and Teams, streamlining your development and deployment process.
- [Learn more](/microsoft-365-copilot/extensibility/overview-custom-engine-agent).
+  Use Copilot Studio to create, test, and update custom engine agents that run seamlessly in Microsoft 365 Copilot Chat and Teams, streamlining your development and deployment process. [Learn more](/microsoft-365-copilot/extensibility/overview-custom-engine-agent).
 - **Declarative agents can read the current document in WXP** [Windows, Web]
 
-  Improve your workflow with agents that dynamically interact with open documents. Receive real-time suggestions, automate edits, and extract key data to streamline reviews and boost productivity.
- [Learn more](https://adaptivecards.microsoft.com/?topic=Action.InsertImage).
+  Improve your workflow with agents that dynamically interact with open documents. Receive real-time suggestions, automate edits, and extract key data to streamline reviews and boost productivity. [Learn more](https://adaptivecards.microsoft.com/?topic=Action.InsertImage).
+
 - **Developers can use Copilot Studio to create declarative agents that include Teams Channel as knowledge**
 
   Developers can use Copilot Studio to create declarative agents that include Teams Channel as knowledge.
+
 - **Developers can use Teams Toolkit to create declarative agents that include Teams Channel as knowledge**
 
   Developers can use Teams Toolkit to create declarative agents that include Teams Channel as knowledge.
+
 - **Discover, acquire, and manage agents through in-app store** [Windows, Web]
 
-  Users can now easily discover, acquire, and manage Copilot agents directly within their Word and PowerPoint documents through a unified in-app store. This streamlined experience simplifies adding new capabilities—and Excel support is coming soon.
- [Learn more](https://devblogs.microsoft.com/microsoft365dev/office-addins-at-build-2025/#modernized-store-for-office-add-ins-and-copilot-agents).
+  Users can now easily discover, acquire, and manage Copilot agents directly within their Word and PowerPoint documents through a unified in-app store. This streamlined experience simplifies adding new capabilities—and Excel support is coming soon. [Learn more](https://devblogs.microsoft.com/microsoft365dev/office-addins-at-build-2025/#modernized-store-for-office-add-ins-and-copilot-agents).
+
 - **Manage custom Copilot agents in Agent Center** [Windows, Web]
 
-  Organize, store, and update your declarative Copilot agents in one place. Agent Center lets developers register in-context actions, fine-tune prompts, and test behavior faster—so IT admins can roll out reliable, task-specific Copilot experiences at scale.
- [Learn more](https://devblogs.microsoft.com/microsoft365dev/introducing-the-agent-store-build-publish-and-discover-agents-in-microsoft-365-copilot/).
+  Organize, store, and update your declarative Copilot agents in one place. Agent Center lets developers register in-context actions, fine-tune prompts, and test behavior faster—so IT admins can roll out reliable, task-specific Copilot experiences at scale. [Learn more](https://devblogs.microsoft.com/microsoft365dev/introducing-the-agent-store-build-publish-and-discover-agents-in-microsoft-365-copilot/).
+
 - **Microsoft 365 Agents Toolkit uses Kiota as the API plugin generation tool**
 
-  The Microsoft 365 Agents Toolkit now generate API plugins using Kiota. This unlocks new scenarios in the Agents Toolkit like searching our repository of public APIs, visually selecting the main integration endpoints and improving the maintainability of existing plugins by adding new endpoints as the developer continue evolving their agents.
- [Learn more](https://github.com/OfficeDev/microsoft-365-agents-toolkit/blob/dev/packages/vscode-extension/CHANGELOG.md#600---may-19-2025).
+  The Microsoft 365 Agents Toolkit now generate API plugins using Kiota. This unlocks new scenarios in the Agents Toolkit like searching our repository of public APIs, visually selecting the main integration endpoints and improving the maintainability of existing plugins by adding new endpoints as the developer continue evolving their agents. [Learn more](https://github.com/OfficeDev/microsoft-365-agents-toolkit/blob/dev/packages/vscode-extension/CHANGELOG.md#600---may-19-2025).
+
 - **Non-citation links remain visible in custom actions** [Windows, Web]
 
-  Links returned from your custom actions are no longer redacted when they aren't part of a citation, letting users follow the full URL for easier validation and deeper exploration.
- [Learn more](https://techcommunity.microsoft.com/blog/microsoftdefenderforoffice365blog/safelinks-protection-for-links-generated-by-m365-copilot-chat-and-office-apps/4396828).
+  Links returned from your custom actions are no longer redacted when they aren't part of a citation, letting users follow the full URL for easier validation and deeper exploration. [Learn more](https://techcommunity.microsoft.com/blog/microsoftdefenderforoffice365blog/safelinks-protection-for-links-generated-by-m365-copilot-chat-and-office-apps/4396828).
+
 ### Copilot Studio
+
 - **Add custom Copilot Studio agents to Microsoft 365** [Web]
 
-  Publish your Copilot Studio agent to the Microsoft 365 channel in one click, then roll it out to yourself, a pilot group, or your whole org. Messages, quick replies, adaptive cards, and multi-turn chat work instantly, while Power Platform analytics and governance keep everything secure and measurable.
- [Learn more](/microsoft-365-copilot/extensibility/publish).
+  Publish your Copilot Studio agent to the Microsoft 365 channel in one click, then roll it out to yourself, a pilot group, or your whole org. Messages, quick replies, adaptive cards, and multi-turn chat work instantly, while Power Platform analytics and governance keep everything secure and measurable. [Learn more](/microsoft-365-copilot/extensibility/publish).
+
 - **Automate repetitive tasks with agent flows** [Web]
 
-  Build agent flows in Copilot Studio using natural language to automate workflows with AI-powered actions. Makers can build intelligent, scalable, and flexible automations for tasks ranging from intelligent summarization to advanced approvals - and get fast, consistent results.
- [Learn more](/microsoft-copilot-studio/flows-overview).
+  Build agent flows in Copilot Studio using natural language to automate workflows with AI-powered actions. Makers can build intelligent, scalable, and flexible automations for tasks ranging from intelligent summarization to advanced approvals - and get fast, consistent results. [Learn more](/microsoft-copilot-studio/flows-overview).
+
 - **C2 image upload and Q&A** [Web]
 
-  Allow your Microsoft Copilot Studio agent to analyze images that users upload during conversations with the agent. This feature enhances visual content collaboration with intelligent insights for everyday tasks.
- [Learn more](/microsoft-copilot-studio/image-input-analysis).
+  Allow your Microsoft Copilot Studio agent to analyze images that users upload during conversations with the agent. This feature enhances visual content collaboration with intelligent insights for everyday tasks. [Learn more](/microsoft-copilot-studio/image-input-analysis).
+
 - **Quarantine compromised agent to boost security**
 
-  Give IT admins a critical tool to isolate potentially compromised agents, reducing risk and protecting your network without disrupting daily operations.
- [Learn more](/rest/api/power-platform/powervirtualagents/bots/set-bot-as-quarantined?branch=lane-adminsdk-AprMay2025).
+  Give IT admins a critical tool to isolate potentially compromised agents, reducing risk and protecting your network without disrupting daily operations. [Learn more](/rest/api/power-platform/powervirtualagents/bots/set-bot-as-quarantined?branch=lane-adminsdk-AprMay2025).
 ### Excel
+
 - **Use Copilot with any table in the workbook, referring by natural language** [iOS, Web, Mac, Windows]
 
-  Copilot uses the context of your prompt to pick what selection of data to answer about and reason over, including tables in other sheets.
- [Learn more](https://techcommunity.microsoft.com/blog/excelblog/smarter-context-awareness-for-copilot-in-excel/4424939).
+  Copilot uses the context of your prompt to pick what selection of data to answer about and reason over, including tables in other sheets. [Learn more](https://techcommunity.microsoft.com/blog/excelblog/smarter-context-awareness-for-copilot-in-excel/4424939).
+
 ### Microsoft 365 Copilot app
+
 - **Copilot Notebooks** [Web]
 
-  Copilot Notebook in the Microsoft 365 Copilot app streamlines your workflow by integrating notebook functionality directly into the app.
- [Learn more](https://support.microsoft.com/topic/get-started-with-microsoft-365-copilot-notebooks-0775e693-11c6-4d80-8aba-fcc81a737a06).
+  Copilot Notebook in the Microsoft 365 Copilot app streamlines your workflow by integrating notebook functionality directly into the app. [Learn more](https://support.microsoft.com/topic/get-started-with-microsoft-365-copilot-notebooks-0775e693-11c6-4d80-8aba-fcc81a737a06).
+
 - **Upload phone images to Copilot in Office apps** [Windows]
 
-  Snap a photo on your phone and send it straight to Copilot in Word, PowerPoint, Excel, or OneNote to generate content, extract text, or get design ideas—no cables or transfers needed.
- [Learn more](https://techcommunity.microsoft.com/blog/microsoft365insiderblog/upload-a-phone-image-to-microsoft-365-copilot/4398121).
+  Snap a photo on your phone and send it straight to Copilot in Word, PowerPoint, Excel, or OneNote to generate content, extract text, or get design ideas—no cables or transfers needed. [Learn more](https://techcommunity.microsoft.com/blog/microsoft365insiderblog/upload-a-phone-image-to-microsoft-365-copilot/4398121).
+
 - **Use Copilot suggested prompts for recommended entities** [Windows, Mac, Web]
 
-  Empower your work with a $30 Copilot license by clicking on curated prompts within recommended entities. Uncover key insights on demand—helping you boost productivity in everyday tasks.
- [Learn more](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/getting-the-most-from-the-copilot-prompt-gallery/4383106).
+  Empower your work with a $30 Copilot license by clicking on curated prompts within recommended entities. Uncover key insights on demand—helping you boost productivity in everyday tasks. [Learn more](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/getting-the-most-from-the-copilot-prompt-gallery/4383106).
+
 ### Microsoft 365 Copilot
+
 - **Copilot Prompt Gallery – share prompts with a Teams team** [Windows, Web]
 
-  Share custom prompts with members of a Microsoft Teams team directly from Copilot Prompt Gallery, allowing colleagues to easily discover and reuse them in Copilot Chat.
- [Learn more](https://support.microsoft.com/topic/sharing-prompts-with-a-team-2fa7a228-8645-4dc4-beec-d75d6d0bc752).
+  Share custom prompts with members of a Microsoft Teams team directly from Copilot Prompt Gallery, allowing colleagues to easily discover and reuse them in Copilot Chat. [Learn more](https://support.microsoft.com/topic/sharing-prompts-with-a-team-2fa7a228-8645-4dc4-beec-d75d6d0bc752).
+
 ### Microsoft 365 Copilot Chat
+
 - **Catch up on Task related emails through Microsoft 365 Copilot Chat.** [Windows]
 
   Users can use Microsoft 365 Copilot Chat to prioritize emails that require immediate attention, address urgent tasks, or contain action items or questions. Timely identification of such emails will help users complete these tasks efficiently or plan their work effectively.
+
 - **Find any past Copilot conversation instantly** [Web]
 
-  Search your Copilot Chat history by keyword to revisit decisions, copy answers, or resume a discussion without endless scrolling.
- [Learn more](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=388371).
+  Search your Copilot Chat history by keyword to revisit decisions, copy answers, or resume a discussion without endless scrolling. [Learn more](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=388371).
+
 - **Locate your Copilot Pages in Copilot Chat navigation pane** [Windows, Web]
 
   For quick access to your Copilot Pages, find all page artifacts created across your apps/modules in one place underneath the Chat section in the Microsoft 365 Copilot app.
