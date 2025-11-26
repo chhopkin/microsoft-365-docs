@@ -4298,9 +4298,12 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Additional Resources:**
 
-  [Learn more](/microsoft-365/admin/manage/agent-registry?view=o365-worldwide">Agent Registry in the Microsoft 365 admin center</a>
+  [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry)
+
 ---
+
 ### Microsoft 365 PowerPoint
+
 - **Reference Loop or Page in presentations** [Mac, Windows, Web]
 
 When building a presentation with Copilot, you can now pull in content from Loop components or pages for fully integrated and up-to-date slides.  
