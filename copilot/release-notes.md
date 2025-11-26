@@ -542,12 +542,12 @@ When building a presentation with Copilot, you can now pull in content from Loop
   Save time by reusing the content you already co-created, in just one step.
 
 ### Microsoft 365 SharePoint
+
 -  **Copilot skills for smarter SharePoint administration** [Web]
 
-  
     Use Copilot to get step-by-step guidance for admin tasks and advanced site searches based on multiple criteria—all from the SharePoint Admin Center.  
 
-    **Roadmap ID:**  <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501455">501455</a>
+    **Roadmap ID:** [501455](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501455)
 
     **Details:**  
 
@@ -555,9 +555,9 @@ When building a presentation with Copilot, you can now pull in content from Loop
 
       Added two major skills:  
 
-      * Guided task instructions (e.g., fixing over-permissioned sites)  
+      - Guided task instructions (e.g., fixing over-permissioned sites)  
       
-      * Multi-criteria search for sites (e.g., inactive + shared externally)  
+      - Multi-criteria search for sites (e.g., inactive + shared externally)  
 
     **Why:** 
 
@@ -592,8 +592,11 @@ When building a presentation with Copilot, you can now pull in content from Loop
 
 <!-- 101643,100829,100490,103496,101683,100910,100875,100679,100896,98419,95902,83819 -->
 ## November 12, 2025
+
 Updates released between October 28, 2025, and November 12, 2025.
+
 ### Copilot extensibility
+
 - **Custom Agents can be used from inside of Office Applications** [Web]
 
   Certainly! Supporting Custom Engine Agents inside Office applications offers numerous advantages that significantly enhance user experience and productivity. Firstly, it allows for highly tailored automation and customization, enabling users to create and deploy agents that cater specifically to their unique workflows and business needs.
