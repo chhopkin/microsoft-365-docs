@@ -9616,20 +9616,26 @@ Updates released between October 15, 2025, and October 28, 2025.
 
 <!-- 100748,100986,100267,100886 -->
 ## September 30, 2025
+
 Updates released between September 16, 2025, and September 30, 2025.
+
 ### Copilot extensibility
+
 - **Agents support for Copilot Chat and pay-as-you-go on Microsoft 365 Copilot Mobile** [Android, iOS]
 
   Agents support for pay-as-you-go and Copilot chat users in now supported on the Microsoft 365 Copilot mobile app for easy usage.
 ### Microsoft 365 admin center
+
 - **Usage reports for Copilot search** [Android, Windows, iOS, Mac, Web]
 
-  Administrators gain insights into organizational adoption of Copilot search with new usage reports. Track total search queries, assess trends, and analyze user activity to drive effective adoption strategies.
- [Learn more](/microsoft-365/admin/activity-reports/microsoft-365-copilot-search-usage).
+  Administrators gain insights into organizational adoption of Copilot search with new usage reports. Track total search queries, assess trends, and analyze user activity to drive effective adoption strategies. [Learn more](/microsoft-365/admin/activity-reports/microsoft-365-copilot-search-usage).
+
 ### Microsoft 365 Copilot Chat
+
 - **Copilot Chat now understands attached files like Word, Excel, PowerPoint, PDF, Text, JSON, and XML.** [Android, Windows, iOS, Mac, Web]
 
   Users can gather insights not only from the email content but also from attached files, enabling comprehensive context understanding.
+
 - **Upload multiple images for creative prompts** [Android, iOS, Web]
 
   Now upload multiple images into Copilot Chat prompts at once to enhance creative reasoning and generate new content with varied inspiration.
