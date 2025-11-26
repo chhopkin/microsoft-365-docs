@@ -2397,7 +2397,7 @@ Updates released between April 2, 2025, and April 16, 2025.
  [Learn more](https://techcommunity.microsoft.com/blog/spblog/create-pages-with-copilot-in-sharepoint/4394588).
 
 
-## Updates for April 2, 2025 - What’s New
+## April 2, 2025 - What’s New
 
 Updates released between March 20, 2025, and April 2, 2025.
 ### Copilot Studio
@@ -2763,7 +2763,7 @@ Updates released between January 24, 2025, and February 4, 2025.
 
   Add .txt files as sources with Copilot in Word, streamlining your process when working with text-based research or background content.
 
-## January 23, 2025
+## January 23, 2025 - Release Overview
 
 Updates released between January 8, 2025, and January 23, 2025.
 ### Forms
@@ -5049,7 +5049,7 @@ Updates released between April 16, 2025, and April 29, 2025.
 
 
 <!-- 95249,84156,76195,73845,95264,96345,84526 -->
-## April 16, 2025
+## April 16, 2025 - Highlights
 Updates released between April 2, 2025, and April 16, 2025.
 ### Excel
 - **Access Copilot on-grid in Windows** [Windows]
@@ -5234,7 +5234,7 @@ Updates released between January 24, 2025, and February 4, 2025.
 
   Add .txt files as sources with Copilot in Word, streamlining your process when working with text-based research or background content.
 
-## January 23, 2025
+## January 23, 2025 - What’s New
 
 Updates released between January 8, 2025, and January 23, 2025.
 ### Microsoft 365 Copilot Chat
@@ -7654,7 +7654,7 @@ Updates released between April 2, 2025, and April 16, 2025.
 
 
 <!-- 83343,95770,97325,96069,95072,95842,97326,96239,81548,72729,84823,93924,97327 -->
-## Updates for April 2, 2025 - Release Overview
+## April 2, 2025 - Release Overview
 Updates released between March 20, 2025, and April 2, 2025.
 ### Copilot Studio
 - **Enhanced SharePoint URL support in Copilot Studio** [Web]
@@ -7916,7 +7916,7 @@ Updates released between January 24, 2025, and February 4, 2025.
 
   Add .txt files as sources with Copilot in Word, streamlining your process when working with text-based research or background content.
 
-## January 23, 2025
+## January 23, 2025 - Feature Additions
 
 Updates released between January 8, 2025, and January 23, 2025.
 ### Forms
@@ -9219,7 +9219,7 @@ Updates released between January 24, 2025, and February 4, 2025.
 
 <!--- All features that have 'Android' tag  -->
 
-## January 23, 2025
+## January 23, 2025 - Documentation Updates
 
 Updates released between January 8, 2025, and January 23, 2025.
 
@@ -9868,7 +9868,7 @@ Updates released between January 24, 2025, and February 4, 2025.
   Quickly produce paragraphs or entire sections for your documents, whether you're creating a brand-new file or adding to existing text. [Learn more](https://support.microsoft.com/office/draft-and-add-content-with-copilot-in-word-069c91f0-9e42-4c9a-bbce-fddf5d581541).
 
 
-## January 23, 2025
+## January 23, 2025 - Monthly updates
 
 Updates released between January 8, 2025, and January 23, 2025.
 
@@ -10918,7 +10918,7 @@ Updates released between January 24, 2025, and February 4, 2025.
   Add .txt files as sources with Copilot in Word, streamlining your process when working with text-based research or background content.
 
 
-## January 23, 2025
+## January 23, 2025 - Release Summary
 
 Updates released between January 8, 2025, and January 23, 2025.
 
