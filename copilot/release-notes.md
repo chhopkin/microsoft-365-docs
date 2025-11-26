@@ -2931,7 +2931,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Enhance your learning experience with a wider range of external content in Copilot Academy, including links to Copilot Prompt Gallery. [Learn more](/viva/learning/academy-copilot).
 
-## December 17, 2024
+## December 17, 2024 - Monthly updates
 
 ### Microsoft 365 Copilot
 
@@ -5329,7 +5329,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Gain visibility into prompts submitted through Microsoft 365 Copilot Chat (web) and enterprise data-protected Copilot scenarios. [Learn more](/viva/insights/advanced/reference/metrics#microsoft-365-copilot-metrics).
 
-## December 17, 2024
+## December 17, 2024 - Introduced in this Update
 
 ### Microsoft 365 Copilot
 
@@ -7916,7 +7916,7 @@ Updates released between January 24, 2025, and February 4, 2025.
 
   Add .txt files as sources with Copilot in Word, streamlining your process when working with text-based research or background content.
 
-## January 23, 2025 — Release Overview
+## January 23, 2025 — Highlights
 
 Updates released between January 8, 2025, and January 23, 2025.
 ### Forms
@@ -9219,7 +9219,7 @@ Updates released between January 24, 2025, and February 4, 2025.
 
 <!--- All features that have 'Android' tag  -->
 
-## January 23, 2025 — What’s New
+## January 23, 2025 — Monthly Updates
 
 Updates released between January 8, 2025, and January 23, 2025.
 
