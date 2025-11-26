@@ -1649,25 +1649,27 @@ Updates released between June 24, 2025, and July 8, 2025.
 - **Discover, acquire, and manage agents through in-app store in Word and PowerPoint** [Windows, Web]
 
   With Copilot extensibility, users can discover, acquire, and manage agents through the unified store. We are excited to introduce the Microsoft 365 unified store to Office documents, enabling users to discover, acquire, and manage agents directly within the in-app store for Word and PowerPoint, with Excel support coming soon. [Learn more](https://devblogs.microsoft.com/microsoft365dev/office-addins-at-build-2025/#modernized-store-for-office-add-ins-and-copilot-agents).
-  
+
 - **Ground agents in Outlook email**
 
-  Makers can now build custom agents that read and reason over Outlook messages, delivering answers that reflect the latest decisions and context stored in your inbox—no data migration or retraining needed.
- <a href="/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build" target="_blank">Learn more.</a>
+  Makers can now build custom agents that read and reason over Outlook messages, delivering answers that reflect the latest decisions and context stored in your inbox—no data migration or retraining needed. [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
+
 - **Publish Microsoft Copilot Studio agents to Microsoft 365 Copilot**
 
-  Organizations can now publish, manage, and use agents built with Copilot Studio directly within the Microsoft 365 Copilot app—across both web and desktop—and in Microsoft Teams, bringing intelligent assistance into the flow of everyday work.
- <a href="/microsoft-365-copilot/extensibility/overview-custom-engine-agent?toc=%2Fmicrosoftteams%2Fplatform%2Ftoc.json&bc=%2Fmicrosoftteams%2Fplatform%2Fbreadcrumb%2Ftoc.json" target="_blank">Learn more.</a>
+  Organizations can now publish, manage, and use agents built with Copilot Studio directly within the Microsoft 365 Copilot app—across both web and desktop—and in Microsoft Teams, bringing intelligent assistance into the flow of everyday work. [Learn more](/microsoft-365-copilot/extensibility/overview-custom-engine-agent).
+
 ### Copilot Studio
+
 - **See performance metrics for every knowledge source** [Web]
 
-  Review usage frequency, answer rate, and error rate for each knowledge source to spot high-value content and quickly fix low-performing links, keeping your agents accurate and helpful.
- <a href="/power-platform/release-plan/2025wave2/microsoft-copilot-studio/analyze-action-usage-agents" target="_blank">Learn more.</a>
+  Review usage frequency, answer rate, and error rate for each knowledge source to spot high-value content and quickly fix low-performing links, keeping your agents accurate and helpful. [Learn more](/power-platform/release-plan/2025wave2/microsoft-copilot-studio/analyze-action-usage-agents).
+
 ### Excel
+
 - **Copilot in Excel with Python | Reasoning Model Integration (Think Deeper)** [Mac, Windows, Web]
 
-  While performing advanced analysis with Copilot in Excel with Python, users can choose the "Think Deeper" mode to get a more elaborate and detailed plan, followed by automatic execution to generate Python code, results, and explanations. This improves performance on complex asks by leveraging the power of the latest AI reasoning models.
- <a href="https://support.microsoft.com/office/364e4ae9-9343-4d56-952a-5f62b0f70db6" target="_blank">Learn more.</a>
+  While performing advanced analysis with Copilot in Excel with Python, users can choose the "Think Deeper" mode to get a more elaborate and detailed plan, followed by automatic execution to generate Python code, results, and explanations. This improves performance on complex asks by leveraging the power of the latest AI reasoning models. [Learn more](https://support.microsoft.com/office/364e4ae9-9343-4d56-952a-5f62b0f70db6).
+
 ### Microsoft 365 Admin Center
 - **Metadata for Shared agent management in Microsoft 365 admin center** [Web]
 
