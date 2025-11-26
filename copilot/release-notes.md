@@ -6284,8 +6284,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   View detailed permissions for each Copilot agent in one place—including app dependencies, delegated permissions, and associated risks. Admins can grant consent directly, simplifying governance and deployment.
 
-  **Roadmap ID:**  [Learn more](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617">502617</a>
-
+  **Roadmap ID:** [502617](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617)
 
   **Details:**
 
@@ -6315,11 +6314,12 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Additional Resources:**
 
-  [Learn more](/microsoft-365/admin/manage/agent-registry?view=o365-worldwide">Agent Registry in the Microsoft 365 admin center</a>
+  [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry)
+
 ---
 ### Microsoft 365 Copilot Studio
-- **Control org-wide agent sharing from one place** [Web]
 
+- **Control org-wide agent sharing from one place** [Web]
 
   Admins now have granular control over whether agents built in Agent Builder can be shared with links that work for anyone in the organization, ensuring policies are followed.
 
@@ -6345,7 +6345,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Additional Resources:** 
 
-  **Learn:** [Learn more](/microsoft-365/admin/manage/agent-settings?view=o365-worldwide#sharing">Sharing</a>
+    **Learn:** [Sharing](/microsoft-365/admin/manage/agent-settings#sharing)
 
     **Learn:** [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent#share-an-agent"> Share an agent</a>
 
