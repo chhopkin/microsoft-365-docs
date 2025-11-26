@@ -200,7 +200,7 @@ Updates released between November 12, 2025, and November 24, 2025.
  
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
  
-  - Tell Copilot: *"List all the emails around <topic> from < mailbox@domain.com > mailbox ."*
+  - Tell Copilot: *"List all the emails around (topic) from  (mailbox@domain.com) > mailbox ."*
 
   **Why this matters:**  
 
