@@ -6363,7 +6363,6 @@ When building a presentation with Copilot, you can now pull in content from Loop
 
   **Roadmap ID:** [500864](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500864)
 
-
   **Details:**  
 
   **What changed:** 
@@ -6387,17 +6386,21 @@ When building a presentation with Copilot, you can now pull in content from Loop
    **Personal Impact:** 
 
   Save time by reusing the content you already co-created, in just one step.
-**Details:**  
-- **What changed:** Copilot for PowerPoint supports referencing Loop components and pages across PC, Mac, and web.  
-- **Why:** Ensures your presentations reflect the latest collaborative content without manual copy-paste.  
-**Try This:**  
-- Ask Copilot: *"Create a status update deck using the project details from our Loop page."*  
-**Why this matters:**  
-- **Business Impact:** Align updates across teams without tedious content migration.  
-- **Personal Impact:** Save time by reusing the content you already co-created, in just one step.
-### Microsoft 365 SharePoint
--  **Copilot skills for smarter SharePoint administration** [Web]
 
+  **Details:**  
+  - **What changed:** Copilot for PowerPoint supports referencing Loop components and pages across PC, Mac, and web.  
+  - **Why:** Ensures your presentations reflect the latest collaborative content without manual copy-paste.  
+  
+  **Try This:**  
+  - Ask Copilot: *"Create a status update deck using the project details from our Loop page."*  
+
+  **Why this matters:**  
+  - **Business Impact:** Align updates across teams without tedious content migration.  
+  - **Personal Impact:** Save time by reusing the content you already co-created, in just one step.
+
+### Microsoft 365 SharePoint
+
+-  **Copilot skills for smarter SharePoint administration** [Web]
   
     Use Copilot to get step-by-step guidance for admin tasks and advanced site searches based on multiple criteria—all from the SharePoint Admin Center.  
 
