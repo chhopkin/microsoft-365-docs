@@ -6212,14 +6212,12 @@ Voice   removes friction, letting you work where typing isn't practical.
   
   ---
 ### Microsoft 365 Copilot extensibility
-- **Enhanced search in Agent Store for easier discovery** [Windows, Web]
 
+- **Enhanced search in Agent Store for easier discovery** [Windows, Web]
 
   Finding the right agents in the Copilot Agent Store just got faster and smarter. Enjoy a streamlined search experience with typeahead suggestions and a clean results page—making it simple to locate exactly what you need without wasted time.  
  
-  **Roadmap ID:** 
-[Learn more](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617">502617</a>
-
+  **Roadmap ID:** [502617](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617)
 
     **Details:**  
       
@@ -6250,7 +6248,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   Inventory exports now include richer metadata like capabilities, data sources, and creator details—empowering better auditing and lifecycle control.  
 
-  **Roadmap ID:**  [Learn more](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502878">502878</a>
+  **Roadmap ID:** [502878](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502878)
     
     **Details:**  
 
