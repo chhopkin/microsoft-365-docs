@@ -365,7 +365,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   Inventory exports now include richer metadata like capabilities, data sources, and creator details—empowering better auditing and lifecycle control.  
 
-  **Roadmap ID:**  <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502878">502878</a>
+  **Roadmap ID:** [502878](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502878)
     
     **Details:**  
 
