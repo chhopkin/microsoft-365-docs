@@ -1617,36 +1617,39 @@ Updates released between July 8, 2025, and July 22, 2025.
 <!-- 84996,84872,95244,83178,77803,78628,96771,99373,99334,97490,95294,97932,97885,97801,94703,93106,79744,97959,95285,95282,95281,64005 -->
 
 ## July 8, 2025
+
 Updates released between June 24, 2025, and July 8, 2025.
+
 ### Copilot extensibility
+
 - **Ability to use the Graph connector selector when using Teams Toolkit**
 
-  Developers using Teams Toolkit to author declarative agents can select specific Graph connectors to improve their knowledge grounding.
- <a href="https://github.com/OfficeDev/microsoft-365-agents-toolkit/blob/dev/packages/vscode-extension/CHANGELOG.md#new-features" target="_blank">Learn more.</a>
+  Developers using Teams Toolkit to author declarative agents can select specific Graph connectors to improve their knowledge grounding. [Learn more](https://github.com/OfficeDev/microsoft-365-agents-toolkit/blob/dev/packages/vscode-extension/CHANGELOG.md#new-features)
+
 - **Add Dataverse as knowledge in Copilot** [Web, Windows]
 
-  Users can now include Dataverse as a knowledge source in Copilot, enabling more comprehensive responses and insights.
- <a href="/microsoft-365-copilot/extensibility/build-declarative-agents?tabs=ttk&tutorial-step=1" target="_blank">Learn more.</a>
+  Users can now include Dataverse as a knowledge source in Copilot, enabling more comprehensive responses and insights. [Learn more](/microsoft-365-copilot/extensibility/build-declarative-agents?tabs=ttk&tutorial-step=1).
+
 - **Audit and eDiscovery for Copilot actions and declarative agents** [Windows, Web]
 
-  View detailed audit logs and eDiscovery records for Copilot actions and declarative agents in Microsoft Purview to simplify compliance and investigation workflows.
- <a href="/purview/audit-copilot" target="_blank">Learn more.</a>
+  View detailed audit logs and eDiscovery records for Copilot actions and declarative agents in Microsoft Purview to simplify compliance and investigation workflows. [Learn more](/purview/audit-copilot).
+
 - **Automatic project scaffolding in Teams Toolkit for building Graph connectors**
 
-  Developers can now leverage an automatic project scaffolding for Graph connector applications within the Teams Toolkit, allowing for the generation of a full production-ready Graph connector application from just an API description file, significantly reducing setup time and complexity.
- <a href="/microsoft-365-copilot/extensibility/build-your-first-connector" target="_blank">Learn more.</a>
+  Developers can now leverage an automatic project scaffolding for Graph connector applications within the Teams Toolkit, allowing for the generation of a full production-ready Graph connector application from just an API description file, significantly reducing setup time and complexity. [Learn more](/microsoft-365-copilot/extensibility/build-your-first-connector).
+
 - **Deploy Copilot agents for easy discovery** [Windows, Web]
 
-  Deploy Copilot agents in the store for user discovery directly from your apps. Users can get new agents, open the store, install, and use them seamlessly within App Chat.
- <a href="/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?" target="_blank">Learn more.</a>
+  Deploy Copilot agents in the store for user discovery directly from your apps. Users can get new agents, open the store, install, and use them seamlessly within App Chat. [Learn more](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?).
+
 - **Developers can use TypeSpec as an authoring experience**
 
-  Developers can use TypeSpec as an authoring experience for declarative agents and API plugins in Teams Toolkit.
- <a href="/microsoft-365-copilot/extensibility/build-declarative-agents-typespec" target="_blank">Learn more.</a>
+  Developers can use TypeSpec as an authoring experience for declarative agents and API plugins in Teams Toolkit. [Learn more](/microsoft-365-copilot/extensibility/build-declarative-agents-typespec).
+
 - **Discover, acquire, and manage agents through in-app store in Word and PowerPoint** [Windows, Web]
 
-  With Copilot extensibility, users can discover, acquire, and manage agents through the unified store. We are excited to introduce the Microsoft 365 unified store to Office documents, enabling users to discover, acquire, and manage agents directly within the in-app store for Word and PowerPoint, with Excel support coming soon.
- <a href="https://devblogs.microsoft.com/microsoft365dev/office-addins-at-build-2025/#modernized-store-for-office-add-ins-and-copilot-agents" target="_blank">Learn more.</a>
+  With Copilot extensibility, users can discover, acquire, and manage agents through the unified store. We are excited to introduce the Microsoft 365 unified store to Office documents, enabling users to discover, acquire, and manage agents directly within the in-app store for Word and PowerPoint, with Excel support coming soon. [Learn more](https://devblogs.microsoft.com/microsoft365dev/office-addins-at-build-2025/#modernized-store-for-office-add-ins-and-copilot-agents).
+  
 - **Ground agents in Outlook email**
 
   Makers can now build custom agents that read and reason over Outlook messages, delivering answers that reflect the latest decisions and context stored in your inbox—no data migration or retraining needed.
