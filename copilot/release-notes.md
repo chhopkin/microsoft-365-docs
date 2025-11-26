@@ -6145,7 +6145,7 @@ Updates released between November 12, 2025, and November 24, 2025.
   
   Use new file type and people refiners in Copilot Chat to quickly get to the right file without sifting through results.  
 
-  **Roadmap ID:** [Learn more](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=481136">481136 </a>
+  **Roadmap ID:** [481136](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=481136)
 
   **Details:**  
  
@@ -6175,7 +6175,7 @@ Updates released between November 12, 2025, and November 24, 2025.
 
   Speak to Copilot naturally on mobile or desktop to prepare for meetings,brainstorm ideas, or catch up on work—hands-free and grounded in work data.
 
-  Roadmap ID: [Learn more](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138">481138</a>
+  Roadmap ID: [481138](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
 
   **Details:**
 
@@ -6208,7 +6208,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Additional Resources:**
 
-  [Learn more](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea?preview=true" target="_blank">Get started with voice features in Microsoft 365 Copilot</a>
+  [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea?preview=true)
   
   ---
 ### Microsoft 365 Copilot extensibility
