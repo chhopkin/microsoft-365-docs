@@ -803,16 +803,18 @@ Search now delivers more personalized results by using user context and engageme
 - **Inline citations and references in side pane** [Web]
 
   Improve clarity and transparency by replacing numeric citations with source-based citation pills. Access all sources, both cited and uncited, directly in the side pane for a better credibility assessment and exploration.
+
 ### Microsoft Loop
+
 - **New file extension for Copilot pages** [Web]
 
-  Introducing ".page", a new extension for Copilot pages that supports admin toggles, sensitivity labels, and compliance features just like ".loop".
- <a href="https://support.microsoft.com/topic/get-started-with-microsoft-365-copilot-pages-6674bd51-9ff5-42c4-9256-44d9428a726f" target="_blank">Learn more.</a>
+  Introducing ".page", a new extension for Copilot pages that supports admin toggles, sensitivity labels, and compliance features just like ".loop". [Learn more.](https://support.microsoft.com/topic/get-started-with-microsoft-365-copilot-pages-6674bd51-9ff5-42c4-9256-44d9428a726f)
+
 ### Viva Learning
 - **Providing users with notifications about Copilot Academy in Teams**
 
-  If a user has a Microsoft 365 Copilot license, they will receive notifications in Teams about the Copilot Academy through Viva Learning. This helps users stay informed about Copilot Academy enhancements with monthly reminders.
- <a href="/viva/learning/academy-copilot" target="_blank">Learn more.</a>
+  If a user has a Microsoft 365 Copilot license, they will receive notifications in Teams about the Copilot Academy through Viva Learning. This helps users stay informed about Copilot Academy enhancements with monthly reminders.  
+  [Learn more.](/viva/learning/academy-copilot)
 
 
 <!-- 98125,100748,99202,97403/2/1,96887,96775,101440,101071,100986,100267,84459,82746,80915,100886 -->
