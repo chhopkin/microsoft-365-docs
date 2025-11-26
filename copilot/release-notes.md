@@ -1671,19 +1671,21 @@ Updates released between June 24, 2025, and July 8, 2025.
   While performing advanced analysis with Copilot in Excel with Python, users can choose the "Think Deeper" mode to get a more elaborate and detailed plan, followed by automatic execution to generate Python code, results, and explanations. This improves performance on complex asks by leveraging the power of the latest AI reasoning models. [Learn more](https://support.microsoft.com/office/364e4ae9-9343-4d56-952a-5f62b0f70db6).
 
 ### Microsoft 365 Admin Center
+
 - **Metadata for Shared agent management in Microsoft 365 admin center** [Web]
 
-  IT admins can view metadata for Shared agents in Microsoft 365 admin center similar to metadata information for line of business applications built by customer organization. It provides IT admins the opportunity to explore all data besides honoring UX filters for a seamless user experience.
- <a href="/microsoft-365/admin/manage/manage-shared-agents" target="_blank">Learn more.</a>
+  IT admins can view metadata for Shared agents in Microsoft 365 admin center similar to metadata information for line of business applications built by customer organization. It provides IT admins the opportunity to explore all data besides honoring UX filters for a seamless user experience. [Learn more](/microsoft-365/admin/manage/manage-shared-agents).
+
 ### Microsoft 365 Copilot app
+
 - **Create in the Microsoft 365 Copilot app** [Windows, Web]
 
-  The creative hub for AI led artifact generation capabilities.
- <a href="https://support.microsoft.com/topic/get-started-with-microsoft-365-copilot-create-6e0c616d-69fb-42f2-a4cb-c59e006ec4f5" target="_blank">Learn more.</a>
+  The creative hub for AI led artifact generation capabilities. [Learn more](https://support.microsoft.com/topic/get-started-with-microsoft-365-copilot-create-6e0c616d-69fb-42f2-a4cb-c59e006ec4f5).
+
 - **Updated UI for Microsoft 365 Copilot App** [Windows, Web]
 
-  The Microsoft 365 Copilot app is your starting place for AI at work, offering quick access to secure AI chat, search, files, and content creation in one seamless app.
- <a href="https://www.microsoft.com/en-us/microsoft-365/blog/2025/04/23/microsoft-365-copilot-built-for-the-era-of-human-agent-collaboration/" target="_blank">Learn more.</a>
+  The Microsoft 365 Copilot app is your starting place for AI at work, offering quick access to secure AI chat, search, files, and content creation in one seamless app. [Learn more](https://www.microsoft.com/en-us/microsoft-365/blog/2025/04/23/microsoft-365-copilot-built-for-the-era-of-human-agent-collaboration).
+
 ### Microsoft 365 Copilot Chat
 - **Locate your Copilot Pages in Microsoft 365 Copilot Chat navigation pane** [Windows, Web]
 
