@@ -1733,7 +1733,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 
 <!-- 84447,98006,96078,95296,95230,83646,81354,97565,95267,76606,97885,97810,97309,97034,95597,94574,94070,83213,99889,95904,95903,79335,96243,84996,97832,97496,98196,97305,95679,95290,96368,84987,84440 -->
 
-## June 24, 2025
+## June 24, 2025 updates
 
 Updates released between June 10, 2025, and June 24, 2025.
 
@@ -1890,7 +1890,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 
 <!-- 83163,93511,99006,97583,75354,97166,95275,99896,99890,99009,97921,97647,97603,97372,97288,96951,96241,96065,84642,84119,81005,80339,77194,72079,97492,80341 -->
-## June 10, 2025
+## June 10, 2025 updates
 
 Updates released between May 29, 2025, and June 10, 2025.
 
@@ -2030,7 +2030,7 @@ Updates released between May 29, 2025, and June 10, 2025.
 
 <!-- 84861,96546,96718,97369,97368,95365,95364,94668,96235,96064,97319,97318,99424,97439,95187,97261,96531,97084,96912,95901,95897,94435,84445,84435,81914,95901 -->
 
-## May 29, 2025
+## Updates of May 29, 2025
 
 Updates released between May 13, 2025, and May 29, 2025.
 
@@ -4768,7 +4768,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 
 
 <!-- 98006,95296,83646,81354,97565,95267,97885,97034,83213,99889,95904,95903,79335,84996,97832,98196,97305,95679,96368 -->
-## June 24, 2025
+## Updates of June 24, 2025
 Updates released between June 10, 2025, and June 24, 2025.
 ### Copilot extensibility
 - **Admins can manage Copilot extensibility under Copilot tab in Microsoft 365 admin center** [Windows, Web]
@@ -4854,7 +4854,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 
 <!-- 97166,95275,99896,99890,99009,97921,97372,97288,96951,81005,80339,77194,72079 -->
-## June 10, 2025
+## Updates of June 10, 2025
 Updates released between May 29, 2025, and June 10, 2025.
 ### Copilot extensibility
 - **One-click setup for all connectors** [Windows, Web]
@@ -4911,7 +4911,7 @@ Updates released between May 29, 2025, and June 10, 2025.
 
 
 <!-- 84861,96546,96718,97368,94668,95187,97261,96531,96912,95901,95897,81914,95901 -->
-## May 29, 2025
+## Updates between May 13 and May 29, 2025
 Updates released between May 13, 2025, and May 29, 2025.
 ### Copilot extensibility
 - **Insert images in adaptive cards for richer interactions** [Windows, Web]
@@ -7214,7 +7214,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 
 
 <!-- 98006,96078,95296,95230,83646,97565,95267,76606,97885,97810,97309,97034,95904,95903,79335,96243,84996,97832,98196,97305,95679,96368 -->
-## June 24, 2025
+## Updates between June 10 and June 24, 2025
 Updates released between June 10, 2025, and June 24, 2025.
 ### Copilot extensibility
 - **Admins can manage Copilot extensibility under Copilot tab in Microsoft 365 admin center** [Windows, Web]
@@ -7315,7 +7315,8 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 
 <!-- 83163,93511,99006,75354,97166,95275,99009,97921,97603,97372,97288,96951,96241,96065,72079,97492 -->
-## June 10, 2025
+## Updates between May 29 and June 10, 2025
+
 Updates released between May 29, 2025, and June 10, 2025.
 ### Copilot extensibility
 - **One-click setup for all connectors** [Windows, Web]
@@ -9112,7 +9113,7 @@ Updates released between June 24, 2025, and July 8, 2025.
  [Learn more](https://techcommunity.microsoft.com/blog/viva_connections_blog/introducing-enterprise-news-reader-in-viva-connections/4383832).
 
 <!-- 95597,94574 -->
-## June 24, 2025
+## June 10 - 24, 2025
 Updates released between June 10, 2025, and June 24, 2025.
 ### Teams
 - **Copilot generated summaries for call transfers on Teams phone devices** [Android]
@@ -9125,7 +9126,7 @@ Updates released between June 10, 2025, and June 24, 2025.
  [Learn more](/microsoftteams/rooms/voice-recognition?branch=main&branchFallbackFrom=pr-en-us-14676).
 
 <!-- 97288,96951,72079 -->
-## June 10, 2025
+## May 29 - June 10, 2025
 Updates released between May 29, 2025, and June 10, 2025.
 ### Outlook
 - **Custom Instructions for draft with Copilot** [Android, Windows, iOS, Mac, Web]
@@ -9721,7 +9722,7 @@ Updates released between June 24, 2025, and July 8, 2025.
  [Learn more](https://techcommunity.microsoft.com/blog/viva_connections_blog/introducing-enterprise-news-reader-in-viva-connections/4383832).
 
 <!-- 98006 -->
-## June 24, 2025
+## Updates between June 10 and June 24, 2025
 Updates released between June 10, 2025, and June 24, 2025.
 ### Excel
 - **Use Copilot with any table in the workbook, referring by natural language** [iOS, Web, Mac, Windows]
@@ -9730,7 +9731,7 @@ Updates released between June 10, 2025, and June 24, 2025.
  [Learn more](https://techcommunity.microsoft.com/blog/excelblog/smarter-context-awareness-for-copilot-in-excel/4424939).
 
 <!-- 97647,97288,96951,84642,72079 -->
-## June 10, 2025
+## Updates of June 10, 2025
 Updates released between May 29, 2025, and June 10, 2025.
 ### Microsoft Loop
 - **Copilot Pages module on Microsoft 365 Copilot mobile app** [iOS]
@@ -10745,7 +10746,7 @@ Updates released between May 29, 2025, and June 10, 2025.
   Writing a prompt to draft content based on your selection no longer expands your selection to the entire paragraph, table, or list. You can prompt based on a single sentence or item.
 
 <!-- 96718,99424,97439 -->
-## May 29, 2025
+## May 13 - 29, 2025
 Updates released between May 13, 2025, and May 29, 2025.
 ### Excel
 - **Visual outline confirms Copilot's data range** [Mac]
