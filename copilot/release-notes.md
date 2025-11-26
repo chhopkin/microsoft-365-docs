@@ -6035,12 +6035,12 @@ Updates released between November 12, 2025, and November 24, 2025.
    **Learn:** 
    
    [Reassign an agent's owner with PowerShell](/power-platform/release-plan/2025wave2/microsoft-copilot-studio/reassign-agents-owner-powershell)
-   
+
 - **Restrict org-wide agent sharing for better governance** [Web]
 
   Manage who can create org-wide sharing links for Copilot Studio agents to maintain tighter organizational control.  
 
-  **Roadmap ID:** [Learn more](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=500376">500376</a>
+  **Roadmap ID:** [500376](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=500376)
 
   **Details:**  
  
@@ -6072,7 +6072,7 @@ Updates released between November 12, 2025, and November 24, 2025.
 
   Personalize the content and tone of audio summaries from your Copilot notebooks by using natural language input.  
 
-    **Roadmap ID:** [Learn more](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499150">499150</a>
+    **Roadmap ID:** [499150](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499150)
 
     **Details:**  
 
