@@ -712,8 +712,8 @@ Updates released between October 15, 2025, and October 28, 2025.
 
 - **Copilot faster with new Planner button** [Web]
 
-  A new floating action button (FAB) gives you quick, one-click access to the Project Manager Agent, making it easy to launch Copilot or start a chat without losing your place in your plan.
- <a href="https://techcommunity.microsoft.com/blog/plannerblog/what%E2%80%99s-new-in-microsoft-planner-%E2%80%93-august-2025/4449301" target="_blank">Learn more.</a>
+  A new floating action button (FAB) gives you quick, one-click access to the Project Manager Agent, making it easy to launch Copilot or start a chat without losing your place in your plan. [Learn more](https://techcommunity.microsoft.com/blog/plannerblog/what%E2%80%99s-new-in-microsoft-planner-%E2%80%93-august-2025/4449301).
+
 - **Get a project manager agent in all premium plans",** [Windows, Web]
 
   The project manager agent is now included in all premium Planner plans. It helps you move work forward by creating plans from goals, executing tasks, and acting on feedback—all with less manual effort.
