@@ -179,10 +179,11 @@ Updates released between November 12, 2025, and November 24, 2025.
   
     **Learn:** 
     
-    <a href="https://support.microsoft.com/topic/get-an-audio-overview-of-your-notebook-with-microsoft-365-copilot-notebooks-a22df989-b9cd-47fb-abac-e888d8f10cd9" target="_blank">Get an audio overview of your notebook with Microsoft 365 Copilot Notebooks</a>
+    [Get an audio overview of your notebook with Microsoft 365 Copilot Notebooks](https://support.microsoft.com/topic/get-an-audio-overview-of-your-notebook-with-microsoft-365-copilot-notebooks-a22df989-b9cd-47fb-abac-e888d8f10cd9)
 
 
 ### Microsoft 365 Copilot Chat
+
 - **Access shared mailboxes in Copilot Chat** [Android, Windows, iOS, Mac, Web]
 
   Copilot Chat now connects to shared mailboxes, so team-based conversations are more informed and collaborative.  
