@@ -626,9 +626,11 @@ Updates released between October 28, 2025, and November 12, 2025.
 - **New Enhancements in Organizational Data Ingestion in Microsoft 365** [Web]
 
   Experience a powerful upgrade with new attribute access and mapping, connectors, and a dedicated admin role. Streamline data ingestion from multiple sources to Viva Insights and Glint, simplifying data management and enhancing workflow efficiency.
+
 ### Microsoft 365 Copilot Chat
+
 - **RSVP status-based meeting search in Copilot Chat** [Android, Windows, Web]                          
-**Roadmap:** <a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499429"  target="_blank">499429</a> 
+**Roadmap:** [499429](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499429) 
   
   Quickly find meetings based on RSVP status—either your own or others'. This feature helps you stay organized by surfacing RSVP details for upcoming events, so you can track commitments and follow up with attendees.
 
@@ -656,11 +658,13 @@ Updates released between October 28, 2025, and November 12, 2025.
 - **Updated UI for the Copilot Chat Navigation Pane in Teams** [Web]
 
   The navigation pane has been repositioned from the right side to the left, offering a more intuitive layout. Despite the shift, it continues to host agents and conversation history, ensuring continuity in user experience. This redesign introduces new features, including access to the "All Conversations" page, which provides a comprehensive view of chat history. The change aims to enhance usability and streamline navigation within Copilot Chat.
+
 ### Microsoft 365 Copilot Studio
+
 - **Upload up to 1000 files for SharePoint and OneDrive training** [Web]
 
-  Makers can now upload up to 1000 documents per agent when building custom Copilot experiences—five times the previous limit—making it easier to create well-informed, specialized solutions.
- <a href="/power-platform/release-plan/2025wave1/microsoft-copilot-studio/use-up-1000-files-per-agent-sharepoint-onedrive-uploads" target="_blank">Learn more.</a>
+  Makers can now upload up to 1000 documents per agent when building custom Copilot experiences—five times the previous limit—making it easier to create well-informed, specialized solutions. [Learn more](/power-platform/release-plan/2025wave1/microsoft-copilot-studio/use-up-1000-files-per-agent-sharepoint-onedrive-uploads).
+
 ### Outlook
 - **Intelligent Draft Agenda with Copilot** [Web]
 
