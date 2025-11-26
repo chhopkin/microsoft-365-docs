@@ -6404,7 +6404,7 @@ When building a presentation with Copilot, you can now pull in content from Loop
   
     Use Copilot to get step-by-step guidance for admin tasks and advanced site searches based on multiple criteria—all from the SharePoint Admin Center.  
 
-    **Roadmap ID:**  [Learn more](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501455">501455</a>
+    **Roadmap ID:** [501455](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501455)
 
     **Details:**  
 
@@ -6444,7 +6444,7 @@ When building a presentation with Copilot, you can now pull in content from Loop
 
     **Learn:**
     
-    [Learn more](https://review.learn.microsoft.com/en-us/SharePoint/copilot-skills-sharepoint-admin-centers?branch=pr-en-us-8059">Copilot skills in SharePoint admin centers</a>
+    [Copilot skills in SharePoint admin centers](learn.microsoft.com/en-us/SharePoint/copilot-skills-sharepoint-admin-centers)
 
 <!-- 101643,100829,100490,103496,101683,100910,100875,100679,100896,98419,95902,83819 -->
 ## November 12, 2025
