@@ -4090,9 +4090,7 @@ Updates released between November 12, 2025, and November 24, 2025.
 
   Admins can now transfer ownership of shared agents, granting the new owner full edit and delete permissions and revoking all access from the previous owner.  
 
-  **Roadmap ID:**
-[Learn more](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=502867">502867</a>
-
+  **Roadmap ID:** [502867](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=502867)
 
   **Details:**  
 
