@@ -6034,7 +6034,8 @@ Updates released between November 12, 2025, and November 24, 2025.
 
    **Learn:** 
    
-   [Learn more](/power-platform/release-plan/2025wave2/microsoft-copilot-studio/reassign-agents-owner-powershell" target="_blank"> Reassign an agent's owner with PowerShell</a>
+   [Reassign an agent's owner with PowerShell](/power-platform/release-plan/2025wave2/microsoft-copilot-studio/reassign-agents-owner-powershell)
+   
 - **Restrict org-wide agent sharing for better governance** [Web]
 
   Manage who can create org-wide sharing links for Copilot Studio agents to maintain tighter organizational control.  
