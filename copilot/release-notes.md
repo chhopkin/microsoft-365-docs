@@ -4133,7 +4133,6 @@ Updates released between November 12, 2025, and November 24, 2025.
 
   **Roadmap ID:**  [488797](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
   
- 
 
   **Details:**  
 
@@ -4159,7 +4158,7 @@ Updates released between November 12, 2025, and November 24, 2025.
  
   **Additional Resources:**
 
-  [Learn more](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6" target="_blank"> Use Copilot in shared mailboxes and delegate mailboxes</a>
+  [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
 
 - **Find files faster with improved Copilot Chat filters** [Windows, Web]
 
