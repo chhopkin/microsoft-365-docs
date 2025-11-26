@@ -509,15 +509,13 @@ Voice   removes friction, letting you work where typing isn't practical.
   **Blog:** [Manage and govern at scale](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/whats-new-in-copilot-studio-october-2025/#manage-and-govern-at-scale)
 
 
-
-
 ### Microsoft 365 PowerPoint
+
 - **Reference Loop or Page in presentations** [Mac, Windows, Web]
 
 When building a presentation with Copilot, you can now pull in content from Loop components or pages for fully integrated and up-to-date slides.  
 
-  **Roadmap ID:**  <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500864">500864</a>
-
+  **Roadmap ID:**  [500864](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500864)
 
   **Details:**  
 
