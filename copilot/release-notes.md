@@ -1687,21 +1687,24 @@ Updates released between June 24, 2025, and July 8, 2025.
   The Microsoft 365 Copilot app is your starting place for AI at work, offering quick access to secure AI chat, search, files, and content creation in one seamless app. [Learn more](https://www.microsoft.com/en-us/microsoft-365/blog/2025/04/23/microsoft-365-copilot-built-for-the-era-of-human-agent-collaboration).
 
 ### Microsoft 365 Copilot Chat
+
 - **Locate your Copilot Pages in Microsoft 365 Copilot Chat navigation pane** [Windows, Web]
 
-  For quick access to your Copilot Pages, find all page artifacts created across your apps/modules in one place underneath the Chat section in the Microsoft 365 Copilot app.
- <a href="https://techcommunity.microsoft.com/blog/nonprofittechies/introduction-to-microsoft-copilot-pages/4421413" target="_blank">Learn more.</a>
+  For quick access to your Copilot Pages, find all page artifacts created across your apps/modules in one place underneath the Chat section in the Microsoft 365 Copilot app. [Learn more](https://techcommunity.microsoft.com/blog/nonprofittechies/introduction-to-microsoft-copilot-pages/4421413).
+
 ### Microsoft Purview compliance portal
+
 - **Data assessments in Microsoft Purview AI Hub** [Web]
 
-  Create targeted assessments, review sensitivity and access for key locations, and take remediation actions to reduce oversharing risks—all from one dashboard.
- <a href="/purview/dspm-for-ai" target="_blank">Learn more.</a>
+  Create targeted assessments, review sensitivity and access for key locations, and take remediation actions to reduce oversharing risks—all from one dashboard. [Learn more](/purview/dspm-for-ai).
+
 ### OneNote
 - **Copilot Chat on OneNote for web and in Teams** [Web]
 
-  User can enjoy  the power of Microsoft Copilot to OneNote for web and in Teams.
- <a href="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/increase-your-productivity-with-copilot-on-onenote-web-and-onenote-in-teams/4374756" target="_blank">Learn more.</a>
+  User can enjoy  the power of Microsoft Copilot to OneNote for web and in Teams. [Learn more](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/increase-your-productivity-with-copilot-on-onenote-web-and-onenote-in-teams/4374756).
+
 ### Teams
+
 - **Copilot in Meetings will suggest follow up questions to ask it** [Windows, Mac]
 
   When Copilot in Teams Meetings responds to a prompt, it will also suggest follow up prompts to ask Copilot that builds on the prior response. These questions will generally be based on the response it gave prior, and could be related to honing in on a particular topic, asking for more details, or even reformatting the content into a table if appropriate.
