@@ -4151,7 +4151,7 @@ Updates released between November 12, 2025, and November 24, 2025.
  
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
  
-  - Tell Copilot: *"List all the emails around <topic> from < mailbox@domain.com > mailbox ."*
+  - Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox ."*
 
   **Why this matters:**  
 
@@ -4860,7 +4860,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 
 <!-- 97166,95275,99896,99890,99009,97921,97372,97288,96951,81005,80339,77194,72079 -->
-## Updates of June 10, 2025
+##  Release overview of June 10, 2025
 Updates released between May 29, 2025, and June 10, 2025.
 ### Copilot extensibility
 - **One-click setup for all connectors** [Windows, Web]
@@ -5355,7 +5355,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Now you can add an image to your chat with Copilot. You can ask questions about the image, extract text, get a description of a chart, translate information, or generate alt text. This helps you stay in the flow of work while getting necessary information to continue working on your document.
 
-## November, 2024
+## November, 2024 — Release Summary
 
 ### Microsoft 365 Copilot Chat
 
@@ -5490,7 +5490,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Expand your drafting capabilities by referencing up to 10 items—such as files, emails, and meetings—when using Copilot in Word. [Learn more](https://support.microsoft.com/topic/272ac2c1-c5f7-49c9-8a42-2a8a87846fa0).
 
-## September, 2024
+## September, 2024 — Release Summary
 
 ### Microsoft 365 Copilot Chat
 
@@ -5536,7 +5536,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot in Word now offers more options when you paste text. Reword content, transform it into tables or lists, and more, making it easier to format and organize your documents efficiently.
 
-## August, 2024
+## August, 2024 — Release Summary
 
 ### Microsoft 365 Copilot
 
@@ -5595,7 +5595,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   View trendlines of key productivity metrics over 6 months and estimate the financial value of Copilot-assisted hours. [Learn more](/viva/insights/advanced/analyst/templates/microsoft-365-copilot-impact).
 
-## July, 2024
+## July, 2024 — Release Summary
 
 ### Excel
 
@@ -5641,7 +5641,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot in Word can now summarize longer documents, with the upper limit increased to about four times more words (approx. 80k words). Get comprehensive overviews of lengthy content.
 
-## June, 2024
+## June, 2024 — Release Summary
 
 ### Microsoft 365 Copilot Chat
 
@@ -5705,7 +5705,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Use Draft with Copilot in Word with the on-canvas Copilot menu when a user selects text, a list, or a table, which generates new content from Copilot and provides a richer, more interactive experience.
 
-## May, 2024
+## May, 2024 — Highlights 
 
 ### Microsoft 365 Copilot Chat
 
@@ -5804,7 +5804,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Draft with Copilot now allows you to reference files encrypted with sensitivity labels, ensuring secure document creation.
 
-## March, 2024
+## March, 2024 — Highlights
 
 ### Microsoft 365 Copilot Chat
 
@@ -5834,7 +5834,7 @@ Updates released between December 18, 2024, and January 7, 2025.
   We have improved the Copilot user interface with new date dividers for chats, channels, and meeting Copilot.
 
 
-## February, 2024
+## February, 2024 — Highlights
 
 ### Microsoft Teams
 
@@ -9683,7 +9683,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 
 <!-- 98075,97530,100740 -->
 
-## August 19 - September 3, 2025
+## August 19 - September 3, 2025 — Release Overview
 
 Updates released between August 19, 2025, and September 3, 2025.
 
@@ -9737,7 +9737,7 @@ Updates released between June 10, 2025, and June 24, 2025.
  [Learn more](https://techcommunity.microsoft.com/blog/excelblog/smarter-context-awareness-for-copilot-in-excel/4424939).
 
 <!-- 97647,97288,96951,84642,72079 -->
-## Updates of June 10, 2025
+## Release summary of June 10, 2025
 Updates released between May 29, 2025, and June 10, 2025.
 ### Microsoft Loop
 - **Copilot Pages module on Microsoft 365 Copilot mobile app** [iOS]
@@ -11452,6 +11452,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
