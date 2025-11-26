@@ -682,11 +682,12 @@ Updates released between October 28, 2025, and November 12, 2025.
 
   Copilot Analytics users can now view metrics about their Copilot Chat (Web) usage in Teams and Outlook. These updates enable users to better understand both active usage and action counts in Teams and Outlook and will be available in the Copilot Dashboard, as well as with additional query support. [Learn more](/viva/insights/advanced/reference/metrics).
 
-
 <!-- 100870,100746,100738,100650,84890,79005,77679,100633,97654,103495,104883,100921,82093,104956,104954,96976 -->
 ## October 28, 2025
 Updates released between October 15, 2025, and October 28, 2025.
+
 ### Copilot extensibility
+
 - **@mention capability for mainline Copilot Chat** [Android, iOS]
 
   Use @mention in Copilot Chat to direct interactions to specific agents, ensuring focused and relevant responses from Copilot.
@@ -706,9 +707,9 @@ Updates released between October 15, 2025, and October 28, 2025.
   Easily transition from the side pane in Microsoft 365 apps to the full Copilot app with a dedicated button, simplifying access to advanced features.
 - **Stay informed with email alerts for scheduled prompts",** [Web]
 
-  Get notified when your scheduled Copilot prompts finish running. Email notifications ensure you never miss results and can act on insights right away—no need to keep checking manually.
- <a href="/power-platform/admin/recurring-copilot-prompts" target="_blank">Learn more.</a>
+  Get notified when your scheduled Copilot prompts finish running. Email notifications ensure you never miss results and can act on insights right away—no need to keep checking manually. [Learn more](/power-platform/admin/recurring-copilot-prompts).
 ### Microsoft Planner
+
 - **Copilot faster with new Planner button** [Web]
 
   A new floating action button (FAB) gives you quick, one-click access to the Project Manager Agent, making it easy to launch Copilot or start a chat without losing your place in your plan.
