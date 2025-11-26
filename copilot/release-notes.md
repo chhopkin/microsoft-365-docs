@@ -819,8 +819,11 @@ Search now delivers more personalized results by using user context and engageme
 
 <!-- 98125,100748,99202,97403/2/1,96887,96775,101440,101071,100986,100267,84459,82746,80915,100886 -->
 ## September 30, 2025
+
 Updates released between September 16, 2025, and September 30, 2025.
+
 ### Copilot extensibility
+
 - **Agents support for Copilot Chat and pay-as-you-go on Microsoft 365 Copilot Mobile** [Android, iOS]
 
   Agents support for pay-as-you-go and Copilot chat users in now supported on the Microsoft 365 Copilot mobile app for easy usage.
@@ -829,24 +832,28 @@ Updates released between September 16, 2025, and September 30, 2025.
   Discover Independent Software Vendor (ISV) built copilot connectors seamlessly through the connector catalog in the admin center, enhancing integration and functionality across your enterprise applications.
 - **Pin agents for tenant-wide visibility** [Web]
 
-  Admins can now pin Copilot agents for all users or specific groups within their tenant, ensuring greater accessibility and relevance of popular agents for user tasks.
- <a href="/microsoft-365/admin/manage/manage-pinning-agents" target="_blank">Learn more.</a>
+  Admins can now pin Copilot agents for all users or specific groups within their tenant, ensuring greater accessibility and relevance of popular agents for user tasks. [Learn more.](/microsoft-365/admin/manage/manage-pinning-agents)
+
 - **Prompt grounding from specific sources** 
 
   Users can ground the prompt to a specific content/data source directly from Microsoft 365 Copilot chat using CIQ Peek menu (/).
+
 ### Microsoft 365 admin center
+
 - **Usage reports for Copilot search** [Android, Windows, iOS, Mac, Web]
 
-  Administrators gain insights into organizational adoption of Copilot search with new usage reports. Track total search queries, assess trends, and analyze user activity to drive effective adoption strategies.
- <a href="/microsoft-365/admin/activity-reports/microsoft-365-copilot-search-usage" target="_blank">Learn more.</a>
+  Administrators gain insights into organizational adoption of Copilot search with new usage reports. Track total search queries, assess trends, and analyze user activity to drive effective adoption strategies. [Learn more.](/microsoft-365/admin/activity-reports/microsoft-365-copilot-search-usage)
+
 ### Microsoft 365 Copilot Chat
+
 - **Copilot Chat now understands attached files like Word, Excel, PowerPoint, PDF, Text, JSON, and XML.** [Android, Windows, iOS, Mac, Web]
 
   Users can gather insights not only from the email content but also from attached files, enabling comprehensive context understanding.
+
 - **Copilot Chat summarization in Microsoft Edge context menu** [Web]
 
-  Unpack web pages and ask questions swiftly with a new Copilot Chat summarization option in the Edge context menu for efficient browsing.
- <a href="https://support.microsoft.com/topic/using-microsoft-copilot-in-edge-at-work-012b3674-bab8-4f99-8585-c961dac68642" target="_blank">Learn more.</a>
+  Unpack web pages and ask questions swiftly with a new Copilot Chat summarization option in the Edge context menu for efficient browsing. [Learn more.](https://support.microsoft.com/topic/using-microsoft-copilot-in-edge-at-work-012b3674-bab8-4f99-8585-c961dac68642)
+
 - **Easily select meeting series in Copilot Chat** [Windows, Web]
 
   Effortlessly choose meeting series and related instances directly from the Context IQ (CIQ) menu to include in your Copilot Chat prompts.
@@ -856,47 +863,56 @@ Updates released between September 16, 2025, and September 30, 2025.
 - **Upload multiple images for creative prompts** [Android, iOS, Web]
 
   Now upload multiple images into Copilot Chat prompts at once to enhance creative reasoning and generate new content with varied inspiration.
+
 ### Outlook
+
 - **Highlight and rewrite email drafts with Copilot** [Windows]
 
   In classic Outlook for Windows, select parts of your email draft and use Copilot to rewrite with precision. Modify tone and length according to your needs, optimizing communication.
+
 ### PowerPoint
 - **Copilot generates the new presentation in a new file when starting from an existing presentation** [Web]
 
-  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation.
- <a href="https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d" target="_blank">Learn more.</a>
+  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation. [Learn more.](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d)
+
 - **Seamlessly add topics with Copilot** [Mac, Web, Windows]
 
-  Enhance your presentations by adding new topics with slides via Copilot, ensuring consistency in look and feel with existing content.
- <a href="https://support.microsoft.com/topic/add-topics-to-your-existing-powerpoint-presentation-with-copilot-7439e3d7-5b7f-4886-8d01-5e7f285fd99b?preview=true" target="_blank">Learn more.</a>
+  Enhance your presentations by adding new topics with slides via Copilot, ensuring consistency in look and feel with existing content. [Learn more.](https://support.microsoft.com/topic/add-topics-to-your-existing-powerpoint-presentation-with-copilot-7439e3d7-5b7f-4886-8d01-5e7f285fd99b?preview=true)
+
 ### SharePoint
-- **AI-driven site content and policy comparison** 
 
-  Use AI to compare site contents and policies, identifying similar files and differing settings. This empowers admins to apply consistent policies across similar sites, enhancing security and governance.
- <a href="/sharepoint/site-policy-comparison" target="_blank">Learn more.</a>
+- **AI-driven site content and policy comparison**
 
+  Use AI to compare site contents and policies, identifying similar files and differing settings. This empowers admins to apply consistent policies across similar sites, enhancing security and governance. [Learn more.](/sharepoint/site-policy-comparison)
 
 <!-- 96283,84126,100345,82865,84276,100071,101685,100911,100803,100741,100728,100600,100364,100272,100215,100162,99818,97770,96984,96774,96630 -->
 ## September 16, 2025
+
 Updates released between September 3, 2025, and September 16, 2025.
+
 ### Copilot extensibility
+
 - **Improve Response accuracy when handling large files in File Upload/CIQ.** [Windows, Web]
 
   Experience improved summaries and increased accuracy when querying long documents and PDFs. Copilot efficiently distills information, helping you extract insights and answer questions faster.
-- **Makers can scope agents on subset of connections** 
 
-  Makers can reuse or build agents using  connections by using only a subset of the ingested content to get more granular control on agent data.
- <a href="/microsoft-365-copilot/extensibility/copilot-studio-lite-knowledge?branch=main&branchFallbackFrom=pr-en-us-1060" target="_blank">Learn more.</a>
+- **Makers can scope agents on subset of connections**
+
+  Makers can reuse or build agents using connections by using only a subset of the ingested content to get more granular control on agent data. [Learn more.](/microsoft-365-copilot/extensibility/copilot-studio-lite-knowledge?branch=main&branchFallbackFrom=pr-en-us-1060)
+
 - **Mobile support for Analyst agent on Android and iOS** [iOS, Android]
 
   Access and utilize the Analyst agent on iOS and Android devices using the Microsoft 365 Copilot app, ensuring seamless mobile insights and analysis.
+
 - **ServiceNow Connectors custom URL configuration** [Windows, Web]
 
-  Enhance ServiceNow Connectors with customizable URLs for articles, tickets, and catalog items, tailored to organizational preferences.
- <a href="/microsoftsearch/configure-connector#customize-values-for-certain-schema-properties" target="_blank">Learn more.</a>
+  Enhance ServiceNow Connectors with customizable URLs for articles, tickets, and catalog items, tailored to organizational preferences.  
+  [Learn more.](/microsoftsearch/configure-connector#customize-values-for-certain-schema-properties)
+
 - **Viral link sharing on M365 Copilot Mobile (Android and iOS)** [Android, iOS]
 
   Simplify collaboration with Agents with support for agent viral links on M365 Copilot app on Mobile, enhancing accessibility and engagement.
+
 ### Copilot Studio
 - **Analyze ROI of autonomous agents in Analytics tab** [Web]
 
