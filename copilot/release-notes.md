@@ -9590,24 +9590,29 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Learn:** 
   
-  [Learn more](/microsoftteams/platform/messaging-extensions/build-bot-based-agent?tabs=visual-studio-code">Extend bot-based message extension as agent for Microsoft 365 Copilot</a>
+  [Extend bot-based message extension as agent for Microsoft 365 Copilot](/microsoftteams/platform/messaging-extensions/build-bot-based-agent?tabs=visual-studio-code)
 
 <!-- 100746,97654,103495 -->
+
 ## October 28, 2025
+
 Updates released between October 15, 2025, and October 28, 2025.
+
 ### Copilot extensibility
+
 - **@mention capability for mainline Copilot Chat** [Android, iOS]
 
   Use @mention in Copilot Chat to direct interactions to specific agents, ensuring focused and relevant responses from Copilot.
+
 ### PowerPoint
+
 - **Copilot now offers an on-canvas experience for generating speaker notes** [Mac, Web, iOS]
 
-  Now, Copilot in PowerPoint offers an on-canvas experience to generate speaker notes in place of the previous chat experience
- [Learn more](https://support.microsoft.com/topic/add-speaker-notes-to-your-presentations-using-copilot-7139266b-8a1d-4056-8e30-4edcc4d80873).
+  Now, Copilot in PowerPoint offers an on-canvas experience to generate speaker notes in place of the previous chat experience. [Learn more](https://support.microsoft.com/topic/add-speaker-notes-to-your-presentations-using-copilot-7139266b-8a1d-4056-8e30-4edcc4d80873).
+
 - **PPT Copilot now offers an on-canvas experience for translating presentation** [Mac, Web, iOS]
 
-  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation
- [Learn more](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.).
+  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation. [Learn more](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.).
 
 <!-- 100748,100986,100267,100886 -->
 ## September 30, 2025
