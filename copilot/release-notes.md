@@ -188,7 +188,7 @@ Updates released between November 12, 2025, and November 24, 2025.
 
   Copilot Chat now connects to shared mailboxes, so team-based conversations are more informed and collaborative.  
 
-  **Roadmap ID:** [488797](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
+  **Roadmap ID:** [488797](/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
 
   **Details:**  
 
@@ -683,7 +683,8 @@ Updates released between October 28, 2025, and November 12, 2025.
   Copilot Analytics users can now view metrics about their Copilot Chat (Web) usage in Teams and Outlook. These updates enable users to better understand both active usage and action counts in Teams and Outlook and will be available in the Copilot Dashboard, as well as with additional query support. [Learn more](/viva/insights/advanced/reference/metrics).
 
 <!-- 100870,100746,100738,100650,84890,79005,77679,100633,97654,103495,104883,100921,82093,104956,104954,96976 -->
-## October 28, 2025
+## October 15 to 28, 2025 updates
+
 Updates released between October 15, 2025, and October 28, 2025.
 
 ### Copilot extensibility
@@ -694,6 +695,7 @@ Updates released between October 15, 2025, and October 28, 2025.
 - **Static tab for custom agents in Teams meetings** [Windows, Web]
 
   Developers can now add static tabs in their custom engine agents using Teams Toolkit, enhancing experiences during meetings and calls.
+
 ### Microsoft 365 Copilot
 - **Private previews in shared page edits** [Web]
 
@@ -760,7 +762,7 @@ Updates released between October 15, 2025, and October 28, 2025.
 
 
 <!-- 81574,102200,101036,100353,99396,101413,100885,100884,99941,101259 -->
-## October 15, 2025
+## Updates between September 30 and October 15, 2025 
 
 Updates released between September 30, 2025, and October 15, 2025.
 
@@ -818,7 +820,7 @@ Search now delivers more personalized results by using user context and engageme
 
 
 <!-- 98125,100748,99202,97403/2/1,96887,96775,101440,101071,100986,100267,84459,82746,80915,100886 -->
-## September 30, 2025
+## September 30, 2025 updates
 
 Updates released between September 16, 2025, and September 30, 2025.
 
@@ -997,7 +999,8 @@ Updates released between September 3, 2025, and September 16, 2025.
   Simplify your editing process with Copilot's one-click solution. Apply all grammar and spelling corrections instantly while retaining the option to review and undo changes you don't want to keep. [Learn more](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/fix-spelling-and-grammar-faster-with-microsoft-365-copilot-in-word-for-the-web/4450625)
 
 <!-- 82180,96228,82089,82088,98075,97530,100667,100665,99809,84151,96025 96022 96024,84758,82090,81702,98039,94127,100601,98669,100218,100352,95279,95274,80609,100337,98691,100740,98789,100666 -->
-## September 3, 2025
+## Updates between August 19 and September 3, 2025
+
 Updates released between August 19, 2025, and September 3, 2025.
 
 ### Copilot extensibility
@@ -1153,7 +1156,7 @@ Updates released between August 19, 2025, and September 3, 2025.
 
 <!-- 93961,99157,98926,95488,84938,100213,100212,98074,97934,97897,97886,97224,96778,96777,96772,95300,95298,95266,84994,84451,84450,84448,79004,100760,100604,100521,100216,75985,99367,99129,98828,98824,95538,83349 -->
 
-## August 19, 2025
+## August 19, 2025 - Feature Additions
 
 Updates released between August 5, 2025, and August 19, 2025.
 
@@ -1325,7 +1328,7 @@ Updates released between August 5, 2025, and August 19, 2025.
   Rewrite, get writing suggestions, and more with just one click.
 <!-- 84976,94586,83228,97391,98372,95029,64023,99774,97856,95297,100348,100344,100339,100338,100350,99397,99368,98331,97241,96111,95253,84428,79743,78252,78115,78114,78099,84472 -->
 
-## August 5, 2025
+## Updates between July 22 and August 5, 2025
 
 Updates released between July 22, 2025, and August 5, 2025.
 
@@ -1479,7 +1482,7 @@ Updates released between July 22, 2025, and August 5, 2025.
 
 <!-- 95840,98124,78170,73064,95241,97367,100044,97230,95268,95263,100351,99775,99156,98362,97883,95681,95248,95192,93065,83328,80346,74714,98515,98840 -->
 
-## July 22, 2025
+## July 22, 2025 - Introduced in this update
 
 Updates released between July 8, 2025, and July 22, 2025.
 
@@ -1616,7 +1619,7 @@ Updates released between July 8, 2025, and July 22, 2025.
   Easily work with extensive documents by typing a forward slash (/) or selecting the attach icon to choose a document up to 3,000 pages long. This becomes the basis of the content you're requesting from Copilot, making it seamless to generate content from detailed sources. [Learn more.](https://support.microsoft.com/topic/keep-it-short-and-sweet-a-guide-on-the-length-of-documents-that-you-provide-to-copilot-66de2ffd-deb2-4f0c-8984-098316104389)
 <!-- 84996,84872,95244,83178,77803,78628,96771,99373,99334,97490,95294,97932,97885,97801,94703,93106,79744,97959,95285,95282,95281,64005 -->
 
-## July 8, 2025
+## July 8, 2025 - Release Overview
 
 Updates released between June 24, 2025, and July 8, 2025.
 
@@ -1730,7 +1733,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 
 <!-- 84447,98006,96078,95296,95230,83646,81354,97565,95267,76606,97885,97810,97309,97034,95597,94574,94070,83213,99889,95904,95903,79335,96243,84996,97832,97496,98196,97305,95679,95290,96368,84987,84440 -->
 
-## June 24, 2025
+## June 24, 2025 updates
 
 Updates released between June 10, 2025, and June 24, 2025.
 
@@ -1887,7 +1890,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 
 <!-- 83163,93511,99006,97583,75354,97166,95275,99896,99890,99009,97921,97647,97603,97372,97288,96951,96241,96065,84642,84119,81005,80339,77194,72079,97492,80341 -->
-## June 10, 2025
+## June 10, 2025 updates
 
 Updates released between May 29, 2025, and June 10, 2025.
 
@@ -2027,7 +2030,7 @@ Updates released between May 29, 2025, and June 10, 2025.
 
 <!-- 84861,96546,96718,97369,97368,95365,95364,94668,96235,96064,97319,97318,99424,97439,95187,97261,96531,97084,96912,95901,95897,94435,84445,84435,81914,95901 -->
 
-## May 29, 2025
+## Updates of May 29, 2025
 
 Updates released between May 13, 2025, and May 29, 2025.
 
@@ -2140,7 +2143,8 @@ Updates released between May 13, 2025, and May 29, 2025.
 
 
 <!-- 84071,75164,96970,94471,93054,97570,83243,96611,99154,96312,98521,98109,97225,96829,96255,96244,94126,93931,93064,93062,84439,83241,95055,72529,99153 -->
-## May 13, 2025
+## Updates of May 13, 2025
+
 Updates released between April 29, 2025, and May 13, 2025.
 ### Copilot Studio
 - **Deeper visibility into agent runs**
@@ -2250,6 +2254,7 @@ Updates released between April 29, 2025, and May 13, 2025.
 
 <!-- 81919,84441,95810,96545,96544,78144,73690,82869,77902,94411,98033,97295,96404,97414,83947,81916,96508,96512 -->
 ## April 29, 2025
+
 Updates released between April 16, 2025, and April 29, 2025.
 ### Excel
 - **Ask Copilot to extract insights from inserted images** [Windows]
@@ -2332,9 +2337,12 @@ Updates released between April 16, 2025, and April 29, 2025.
 
 
 <!-- 95249,84156,76195,73845,97889,95286,95264,96345,84526,83221,83405 -->
-## April 16, 2025
+## April 16, 2025 - Release Overview
+
 Updates released between April 2, 2025, and April 16, 2025.
+
 ### Excel
+
 - **Access Copilot on-grid in Windows** [Windows]
 
   A Copilot icon appears right within your spreadsheet on Windows, giving you quick AI assistance as you work to keep your flow uninterrupted.
@@ -2389,7 +2397,8 @@ Updates released between April 2, 2025, and April 16, 2025.
  [Learn more](https://techcommunity.microsoft.com/blog/spblog/create-pages-with-copilot-in-sharepoint/4394588).
 
 
-## April 2, 2025
+## April 2, 2025 - What’s New
+
 Updates released between March 20, 2025, and April 2, 2025.
 ### Copilot Studio
 - **Enhanced SharePoint URL support in Copilot Studio** [Web]
@@ -2463,7 +2472,7 @@ Updates released between March 20, 2025, and April 2, 2025.
 
   Easily convert plain text into structured tables, helping you organize and present data more effectively in your daily work.
 
-## March 19, 2025
+## March 19, 2025 - Release Overview
 
 Updates released between March 5, 2025, and March 19, 2025.
 
@@ -2541,7 +2550,7 @@ Updates released between March 5, 2025, and March 19, 2025.
 
   Leverage detailed reports on permissioned user counts and sharing links to identify oversharing risks and make informed governance decisions. [Learn more](/sharepoint/data-access-governance-reports).
 
-## March 4, 2025
+## March 4, 2025 - Release Overview
 
 Updates released between February 20, 2025, and March 4, 2025. 
 
@@ -2601,7 +2610,7 @@ Updates released between February 20, 2025, and March 4, 2025.
 
   Convert grounded content from Word documents into dynamic slides with tables. Enhance your presentations with structured, data-driven visuals effortlessly.
 
-## February 19, 2025
+## February 19, 2025 - Release Overview
 
 Updates released between February 5, 2025, and February 19, 2025. 
 
@@ -2663,7 +2672,7 @@ Updates released between February 5, 2025, and February 19, 2025.
 
   Highlight text, start a chat with Copilot, and receive responses tailored to what you've selected. Get targeted writing assistance and refine your content in real time.
 
-## February 4, 2025
+## February 4, 2025 - Release Overview
 
 Updates released between January 24, 2025, and February 4, 2025. 
 
@@ -2754,7 +2763,7 @@ Updates released between January 24, 2025, and February 4, 2025.
 
   Add .txt files as sources with Copilot in Word, streamlining your process when working with text-based research or background content.
 
-## January 23, 2025
+## January 23, 2025 - Release Overview
 
 Updates released between January 8, 2025, and January 23, 2025.
 ### Forms
@@ -2863,7 +2872,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
   Hear Copilot's replies in the chat pane, letting you stay hands-free while reviewing your content.
 
-## January 7, 2025
+## January 7, 2025 — Release Overview
 
 Updates released between December 18, 2024, and January 7, 2025.
 ### Microsoft 365 Copilot
@@ -2922,7 +2931,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Enhance your learning experience with a wider range of external content in Copilot Academy, including links to Copilot Prompt Gallery. [Learn more](/viva/learning/academy-copilot).
 
-## December 17, 2024
+## December 17, 2024 - Monthly updates
 
 ### Microsoft 365 Copilot
 
@@ -3857,7 +3866,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Easily turn plain text or lists into clear, organized tables for better readability and effortless data handling.
 
-## December, 2023
+## December, 2023 — What’s New
 
 ### Microsoft 365 admin center
 
@@ -4081,7 +4090,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 ## [Windows](#tab/win)
 <!--- All features that have 'Windows' tag  -->
 <!-- 96890,101634,101246,98572,101655,101641,96886 -->
-## November 24, 2025
+## November 12 - 24, 2025
 Updates released between November 12, 2025, and November 24, 2025.
 ### Microsoft 365 admin center
 
@@ -4142,7 +4151,7 @@ Updates released between November 12, 2025, and November 24, 2025.
  
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
  
-  - Tell Copilot: *"List all the emails around <topic> from < mailbox@domain.com > mailbox ."*
+  - Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox ."*
 
   **Why this matters:**  
 
@@ -4383,7 +4392,7 @@ Updates released between October 28, 2025, and November 12, 2025.
 
 
 <!-- 84890,77679,104883,100921,96976 -->
-## October 28, 2025
+## October 15 - 28, 2025
 Updates released between October 15, 2025, and October 28, 2025.
 ### Copilot extensibility
 - **Static tab for custom agents in Teams meetings** [Windows, Web]
@@ -4411,7 +4420,7 @@ Updates released between October 15, 2025, and October 28, 2025.
 
 
 <!-- 100353,100885,100884 -->
-## October 15, 2025
+## October 15, 2025 updates
 Updates released between September 30, 2025, and October 15, 2025.
 ### Copilot extensibility
 - **Context-aware search ranking** [Windows, Web]
@@ -4428,7 +4437,7 @@ Updates released between September 30, 2025, and October 15, 2025.
 
 
 <!-- 97403/2/1,96887,101071,100986,100267,80915 -->
-## September 30, 2025
+## Updates between September 16 to September 30, 2025
 Updates released between September 16, 2025, and September 30, 2025.
 ### Microsoft 365 admin center
 - **Usage reports for Copilot search** [Android, Windows, iOS, Mac, Web]
@@ -4458,7 +4467,7 @@ Updates released between September 16, 2025, and September 30, 2025.
 
 <!-- 100345,84276,100364,97770,96984 -->
 
-## September 16, 2025
+## Updates of September 16, 2025
 
 Updates released between September 3, 2025, and September 16, 2025.
 
@@ -4491,7 +4500,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 
 
 <!-- 82180,99809,84151,96025 96022 96024,98039,100352,95279,95274,100337 -->
-## September 3, 2025
+## August 19 - September 3, 2025 
 Updates released between August 19, 2025, and September 3, 2025.
 ### Copilot extensibility
 - **Add advanced scripting support for ServiceNow catalog** [Windows, Web]
@@ -4536,7 +4545,7 @@ Updates released between August 19, 2025, and September 3, 2025.
 
 
 <!-- 95488,84938,97934,97897,97224,95300,95298,95266,100604,75985,99367 -->
-## August 19, 2025
+## August 19, 2025 updates
 Updates released between August 5, 2025, and August 19, 2025.
 ### Copilot extensibility
 - **Craft actions using API chaining with low code** [Windows, Web]
@@ -4587,7 +4596,7 @@ Updates released between August 5, 2025, and August 19, 2025.
 
 
 <!-- 84976,94586,83228,95029,64023,99774,100348,100344,100339,100338,99368,98331,97241,79743,84472 -->
-## August 5, 2025
+## July 22 - August 5, 2025
 Updates released between July 22, 2025, and August 5, 2025.
 ### Copilot extensibility
 - **Enhance Copilot Studio lite experience with full screen mode** [Windows, Mac, Web]
@@ -4654,7 +4663,7 @@ Updates released between July 22, 2025, and August 5, 2025.
 
 
 <!-- 98124,78170,100044,97230,95268,100351,99775,95681,95248,80346,98515,98840 -->
-## July 22, 2025
+## July 22, 2025 - Feature additions
 Updates released between July 8, 2025, and July 22, 2025.
 ### Copilot extensibility
 - **Hebrew support in Copilot Studio lite experience** [Windows, Web]
@@ -4709,7 +4718,7 @@ Updates released between July 8, 2025, and July 22, 2025.
 
 
 <!-- 84996,84872,95244,77803,99334,95294,97932,97885,97801,94703,64005 -->
-## July 8, 2025
+## July 8, 2025 - What’s New
 Updates released between June 24, 2025, and July 8, 2025.
 ### Copilot extensibility
 - **Add Dataverse as knowledge in Copilot** [Web, Windows]
@@ -4765,7 +4774,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 
 
 <!-- 98006,95296,83646,81354,97565,95267,97885,97034,83213,99889,95904,95903,79335,84996,97832,98196,97305,95679,96368 -->
-## June 24, 2025
+## Updates of June 24, 2025
 Updates released between June 10, 2025, and June 24, 2025.
 ### Copilot extensibility
 - **Admins can manage Copilot extensibility under Copilot tab in Microsoft 365 admin center** [Windows, Web]
@@ -4851,7 +4860,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 
 <!-- 97166,95275,99896,99890,99009,97921,97372,97288,96951,81005,80339,77194,72079 -->
-## June 10, 2025
+##  Release overview of June 10, 2025
 Updates released between May 29, 2025, and June 10, 2025.
 ### Copilot extensibility
 - **One-click setup for all connectors** [Windows, Web]
@@ -4908,7 +4917,7 @@ Updates released between May 29, 2025, and June 10, 2025.
 
 
 <!-- 84861,96546,96718,97368,94668,95187,97261,96531,96912,95901,95897,81914,95901 -->
-## May 29, 2025
+## Updates between May 13 and May 29, 2025
 Updates released between May 13, 2025, and May 29, 2025.
 ### Copilot extensibility
 - **Insert images in adaptive cards for richer interactions** [Windows, Web]
@@ -4962,7 +4971,7 @@ Updates released between May 13, 2025, and May 29, 2025.
 
 
 <!-- 96970,94471,97570,83243,96611,97225,96244 -->
-## May 13, 2025
+## May 13, 2025 updates
 Updates released between April 29, 2025, and May 13, 2025.
 ### Excel
 - **Advanced analysis with Python and Copilot** [Windows]
@@ -5000,7 +5009,7 @@ Updates released between April 29, 2025, and May 13, 2025.
   Tailor each document opening with your preferred summary style—select brief, standard, or detailed insights to match your workflow.
  [Learn more](https://support.microsoft.com/office/create-a-summary-of-your-document-with-copilot-in-word-79bb7a0a-3bf7-41fe-8c09-56f855b669bf).
 <!-- 81919,96545,96544,77902,97414,81916,96508,96512 -->
-## April 29, 2025
+## April 29, 2025 updates
 Updates released between April 16, 2025, and April 29, 2025.
 ### Excel
 - **Ask Copilot to extract insights from inserted images** [Windows]
@@ -5040,7 +5049,7 @@ Updates released between April 16, 2025, and April 29, 2025.
 
 
 <!-- 95249,84156,76195,73845,95264,96345,84526 -->
-## April 16, 2025
+## April 16, 2025 - Highlights
 Updates released between April 2, 2025, and April 16, 2025.
 ### Excel
 - **Access Copilot on-grid in Windows** [Windows]
@@ -5078,7 +5087,7 @@ Updates released between April 2, 2025, and April 16, 2025.
 
 
 <!-- 84823 -->
-## April 2, 2025
+## Updates between March 20 and April 2, 2025
 Updates released between March 20, 2025, and April 2, 2025.
 ### PowerPoint
 - **Translate your presentation** [Windows, Web, Mac]
@@ -5087,7 +5096,7 @@ Updates released between March 20, 2025, and April 2, 2025.
  [Learn more](https://support.microsoft.com/topic/translate-your-presentation-with-copilot-2c622fca-daaf-457c-bc74-f3496cf44a85).
 
 
-## March 19, 2025
+## March 19, 2025 - Feature Additions
 
 Updates released between March 5, 2025, and March 19, 2025.
 
@@ -5115,7 +5124,7 @@ Updates released between March 5, 2025, and March 19, 2025.
 
   Easily share custom prompts from the Copilot Prompt Gallery with your Microsoft Teams team. This streamlined sharing makes it simple for team members to discover and make the most of these prompts in their daily workflow. [Learn more](https://support.microsoft.com/topic/sharing-prompts-with-a-team-2fa7a228-8645-4dc4-beec-d75d6d0bc752?OCID=copilot_ongoingemail_feb25).
 
-## March 4, 2025
+## March 4, 2025 - What’s New
 
 Updates released between February 20, 2025, and March 4, 2025. 
 
@@ -5135,7 +5144,7 @@ Updates released between February 20, 2025, and March 4, 2025.
 
   Convert grounded content from Word documents into dynamic slides with tables. Enhance your presentations with structured, data-driven visuals effortlessly.
 
-## February 19, 2025
+## February 19, 2025 - What’s New
 
 Updates released between February 5, 2025, and February 19, 2025. 
 
@@ -5179,7 +5188,7 @@ Updates released between February 5, 2025, and February 19, 2025.
 
   Highlight text, start a chat with Copilot, and receive responses tailored to what you've selected. Get targeted writing assistance and refine your content in real time.
 
-## February 4, 2025
+## February 4, 2025 - What’s New
 
 Updates released between January 24, 2025, and February 4, 2025.
 
@@ -5225,7 +5234,7 @@ Updates released between January 24, 2025, and February 4, 2025.
 
   Add .txt files as sources with Copilot in Word, streamlining your process when working with text-based research or background content.
 
-## January 23, 2025
+## January 23, 2025 - What’s New
 
 Updates released between January 8, 2025, and January 23, 2025.
 ### Microsoft 365 Copilot Chat
@@ -5288,7 +5297,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
   Hear Copilot's replies in the chat pane, letting you stay hands-free while reviewing your content.
 
-## January 7, 2025
+## January 7, 2025 — What’s New
 
 Updates released between December 18, 2024, and January 7, 2025.
 
@@ -5320,7 +5329,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Gain visibility into prompts submitted through Microsoft 365 Copilot Chat (web) and enterprise data-protected Copilot scenarios. [Learn more](/viva/insights/advanced/reference/metrics#microsoft-365-copilot-metrics).
 
-## December 17, 2024
+## December 17, 2024 - Introduced in this Update
 
 ### Microsoft 365 Copilot
 
@@ -5346,7 +5355,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Now you can add an image to your chat with Copilot. You can ask questions about the image, extract text, get a description of a chart, translate information, or generate alt text. This helps you stay in the flow of work while getting necessary information to continue working on your document.
 
-## November, 2024
+## November, 2024 — Release Summary
 
 ### Microsoft 365 Copilot Chat
 
@@ -5410,7 +5419,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Create more detailed drafts by writing prompts over 2,000 characters and referencing files totaling up to 75,000 words. [Learn more](https://support.microsoft.com/topic/66de2ffd-deb2-4f0c-8984-098316104389).
 
-## October, 2024
+## October, 2024 — Release Overview
 
 ### Microsoft 365 Copilot
 
@@ -5481,7 +5490,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Expand your drafting capabilities by referencing up to 10 items—such as files, emails, and meetings—when using Copilot in Word. [Learn more](https://support.microsoft.com/topic/272ac2c1-c5f7-49c9-8a42-2a8a87846fa0).
 
-## September, 2024
+## September, 2024 — Release Summary
 
 ### Microsoft 365 Copilot Chat
 
@@ -5527,7 +5536,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot in Word now offers more options when you paste text. Reword content, transform it into tables or lists, and more, making it easier to format and organize your documents efficiently.
 
-## August, 2024
+## August, 2024 — Release Summary
 
 ### Microsoft 365 Copilot
 
@@ -5586,7 +5595,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   View trendlines of key productivity metrics over 6 months and estimate the financial value of Copilot-assisted hours. [Learn more](/viva/insights/advanced/analyst/templates/microsoft-365-copilot-impact).
 
-## July, 2024
+## July, 2024 — Release Summary
 
 ### Excel
 
@@ -5632,7 +5641,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot in Word can now summarize longer documents, with the upper limit increased to about four times more words (approx. 80k words). Get comprehensive overviews of lengthy content.
 
-## June, 2024
+## June, 2024 — Release Summary
 
 ### Microsoft 365 Copilot Chat
 
@@ -5696,7 +5705,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Use Draft with Copilot in Word with the on-canvas Copilot menu when a user selects text, a list, or a table, which generates new content from Copilot and provides a richer, more interactive experience.
 
-## May, 2024
+## May, 2024 — Highlights 
 
 ### Microsoft 365 Copilot Chat
 
@@ -5729,7 +5738,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Users can copy-paste a link of a supported file into the Draft with Copilot UI as a reference, instead of searching for it in the file reference menu.
 
-## April, 2024
+## April, 2024 — Release Overview
 
 ### Microsoft 365 Copilot Chat
 
@@ -5795,7 +5804,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Draft with Copilot now allows you to reference files encrypted with sensitivity labels, ensuring secure document creation.
 
-## March, 2024
+## March, 2024 — Highlights
 
 ### Microsoft 365 Copilot Chat
 
@@ -5825,7 +5834,7 @@ Updates released between December 18, 2024, and January 7, 2025.
   We have improved the Copilot user interface with new date dividers for chats, channels, and meeting Copilot.
 
 
-## February, 2024
+## February, 2024 — Highlights
 
 ### Microsoft Teams
 
@@ -5839,7 +5848,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot combines AI with your Outlook data to help you craft better emails, offering suggestions on tone and message effectiveness.
 
-## January, 2024
+## January, 2024 — Release Summary
 
 ### Excel
 
@@ -5853,7 +5862,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Easily turn plain text or lists into clear, organized tables for better readability and effortless data handling.
 
-## November, 2023
+## Updates for November, 2023
 
 ### Microsoft 365 Copilot Chat
 
@@ -6003,7 +6012,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 ## [Web](#tab/web)
 <!--- All features that have 'Web' tag  -->
 <!-- 96890,101634,101246,98572,105501,101655,101648,101641,101111,100599,96886,101360 -->
-## November 24, 2025
+## November 12 to November 24, 2025
 Updates released between November 12, 2025, and November 24, 2025.
 ### Microsoft 365 admin center
 - **Reassign agent ownership with full control** [Windows, Web]
@@ -6131,7 +6140,7 @@ Updates released between November 12, 2025, and November 24, 2025.
  
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
  
-  - Tell Copilot: *"List all the emails around <topic> from < mailbox@domain.com > mailbox ."*
+  - Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox ."*
 
   **Why this matters:**  
 
@@ -6451,11 +6460,11 @@ When building a presentation with Copilot, you can now pull in content from Loop
 
     **Learn:**
     
-    [Copilot skills in SharePoint admin centers](learn.microsoft.com/en-us/SharePoint/copilot-skills-sharepoint-admin-centers)
+    [Copilot skills in SharePoint admin centers](/SharePoint/copilot-skills-sharepoint-admin-centers)
 
 <!-- 101643,100829,100490,103496,101683,100910,100875,100679,100896,98419,95902,83819 -->
 
-## November 12, 2025
+## November 12, 2025 — Release Overview
 
 Updates released between October 28, 2025, and November 12, 2025.
 
@@ -6548,7 +6557,7 @@ Updates released between October 28, 2025, and November 12, 2025.
 
 <!-- 100870,100650,84890,100633,97654,103495,104883,100921,82093,104956,104954,96976 -->
 
-## October 28, 2025
+## Updates from October 15 to 28, 2025
 
 Updates released between October 15, 2025, and October 28, 2025.
 
@@ -6615,7 +6624,7 @@ Updates released between October 15, 2025, and October 28, 2025.
 
 <!-- 102200,101036,100353,99396,101413,100885,100884,99941,101259 -->
 
-## October 15, 2025
+## September 30 to October 15, 2025 updates
 
 Updates released between September 30, 2025, and October 15, 2025.
 
@@ -6662,7 +6671,7 @@ Updates released between September 30, 2025, and October 15, 2025.
 
 
 <!-- 98125,99202,97403/2/1,96887,101440,101071,100986,100267,84459,100886 -->
-## September 30, 2025
+## Updates between September 16 and September 30, 2025
 
 Updates released between September 16, 2025, and September 30, 2025.
 
@@ -6716,7 +6725,7 @@ Updates released between September 16, 2025, and September 30, 2025.
 
 <!-- 96283,84126,100345,100071,101685,100911,100600,100364,100272,100215,100162,97770,96984 -->
 
-## September 16, 2025
+## September 16, 2025 updates
 
 Updates released between September 3, 2025, and September 16, 2025.
 
@@ -6780,7 +6789,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 
 
 <!-- 82180,96228,82089,82088,98075,96025 96022 96024,84758,82090,81702,94127,100601,98669,100218,100352,95279,95274,80609,100337,98691 -->
-## September 3, 2025
+## August 19 and September 3, 2025 — Release Overview
 
 Updates released between August 19, 2025, and September 3, 2025.
 
@@ -6878,7 +6887,7 @@ Updates released between August 19, 2025, and September 3, 2025.
   When Copilot generates drafts based on a selection of text, Copilot retains the formatting of the selected text and allows users to apply new formatting, like bold, underline, italic, and more.
 
 <!-- 93961,99157,98926,95488,84938,100213,100212,98074,97934,97897,97886,97224,95300,95298,95266,79004,100604,100521,100216,99367,98828,98824,95538,83349 -->
-## August 19, 2025
+## Updates of August 19, 2025
 Updates released between August 5, 2025, and August 19, 2025.
 ### Copilot extensibility
 - **Craft actions using API chaining with low code** [Windows, Web]
@@ -6984,7 +6993,7 @@ Updates released between August 5, 2025, and August 19, 2025.
 
 
 <!-- 84976,94586,83228,98372,99774,97856,100348,100344,100339,100338,99397,99368,96111,78252 -->
-## August 5, 2025
+## Updates from July 22 to August 5, 2025
 Updates released between July 22, 2025, and August 5, 2025.
 ### Copilot extensibility
 - **Admin pre-approval for trusted declarative agents** [Web]
@@ -7050,7 +7059,7 @@ Updates released between July 22, 2025, and August 5, 2025.
 
 
 <!-- 95840,95241,97367,100044,97230,95268,95263,100351,99775,99156,98362,97883,95681,95248,95192,93065,83328,74714,98515 -->
-## July 22, 2025
+## July 22, 2025 - What's New
 Updates released between July 8, 2025, and July 22, 2025.
 ### Copilot extensibility
 - **Hebrew support in Copilot Studio lite experience** [Windows, Web]
@@ -7136,7 +7145,7 @@ You can now use the dictation button to input your prompts via speech, making in
 
 
 <!-- 84996,84872,95244,83178,77803,78628,99334,97490,95294,97932,97885,97801,94703,93106,97959 -->
-## July 8, 2025
+## July 8, 2025 - Feature Additions
 Updates released between June 24, 2025, and July 8, 2025.
 ### Copilot extensibility
 - **Add Dataverse as knowledge in Copilot** [Web, Windows]
@@ -7211,7 +7220,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 
 
 <!-- 98006,96078,95296,95230,83646,97565,95267,76606,97885,97810,97309,97034,95904,95903,79335,96243,84996,97832,98196,97305,95679,96368 -->
-## June 24, 2025
+## Release summary between June 10 and June 24, 2025
 Updates released between June 10, 2025, and June 24, 2025.
 ### Copilot extensibility
 - **Admins can manage Copilot extensibility under Copilot tab in Microsoft 365 admin center** [Windows, Web]
@@ -7312,7 +7321,8 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 
 <!-- 83163,93511,99006,75354,97166,95275,99009,97921,97603,97372,97288,96951,96241,96065,72079,97492 -->
-## June 10, 2025
+## Updates between May 29 and June 10, 2025
+
 Updates released between May 29, 2025, and June 10, 2025.
 ### Copilot extensibility
 - **One-click setup for all connectors** [Windows, Web]
@@ -7536,7 +7546,7 @@ Updates released between April 29, 2025, and May 13, 2025.
   Tailor each document opening with your preferred summary style—select brief, standard, or detailed insights to match your workflow.
  [Learn more](https://support.microsoft.com/office/create-a-summary-of-your-document-with-copilot-in-word-79bb7a0a-3bf7-41fe-8c09-56f855b669bf).
 <!-- 81919,96545,96544,73690,82869,77902,94411,98033,97295,96404,83947,96508,96512 -->
-## April 29, 2025
+## Updates of April 29, 2025
 Updates released between April 16, 2025, and April 29, 2025.
 ### Excel
 - **Formula Explain on grid entry points** [Web]
@@ -7600,7 +7610,7 @@ Updates released between April 16, 2025, and April 29, 2025.
 
 
 <!-- 95249,76195,73845,97889,95264,96345,83221,83405 -->
-## April 16, 2025
+## April 16, 2025 - What’s New
 Updates released between April 2, 2025, and April 16, 2025.
 ### Excel
 - **Graph grounded chat** [Windows, Mac, Web]
@@ -7644,7 +7654,7 @@ Updates released between April 2, 2025, and April 16, 2025.
 
 
 <!-- 83343,95770,97325,96069,95072,95842,97326,96239,81548,72729,84823,93924,97327 -->
-## April 2, 2025
+## April 2, 2025 - Release Overview
 Updates released between March 20, 2025, and April 2, 2025.
 ### Copilot Studio
 - **Enhanced SharePoint URL support in Copilot Studio** [Web]
@@ -7700,7 +7710,7 @@ Updates released between March 20, 2025, and April 2, 2025.
 
   The chat experience in Word is now simplified with access to attachments, images, and agents now accessed from a single plus-sign menu.
 
-## March 19, 2025
+## March 19, 2025 - Release summary
 Updates released between March 5, 2025, and March 19, 2025.
 
 ### Copilot Studio
@@ -7757,7 +7767,7 @@ Updates released between March 5, 2025, and March 19, 2025.
 
   Leverage detailed reports on permissioned user counts and sharing links to identify oversharing risks and make informed governance decisions. [Learn more](/sharepoint/data-access-governance-reports).
 
-## March 4, 2025
+## March 4, 2025 - Feature Additions
 
 Updates released between February 20, 2025, and March 4, 2025. 
 
@@ -7797,7 +7807,7 @@ Updates released between February 20, 2025, and March 4, 2025.
 
   Convert grounded content from Word documents into dynamic slides with tables. Enhance your presentations with structured, data-driven visuals effortlessly.
 
-## February 19, 2025
+## February 19, 2025 - Feature Additions
 
 Updates released between February 5, 2025, and February 19, 2025. 
 
@@ -7829,7 +7839,7 @@ Updates released between February 5, 2025, and February 19, 2025.
 
   Highlight text, start a chat with Copilot, and receive responses tailored to what you've selected. Get targeted writing assistance and refine your content in real time.
 
-## February 4, 2025
+## February 4, 2025 - Feature Additions
 
 Updates released between January 24, 2025, and February 4, 2025.
 
@@ -7906,7 +7916,7 @@ Updates released between January 24, 2025, and February 4, 2025.
 
   Add .txt files as sources with Copilot in Word, streamlining your process when working with text-based research or background content.
 
-## January 23, 2025
+## January 23, 2025 — Highlights
 
 Updates released between January 8, 2025, and January 23, 2025.
 ### Forms
@@ -7969,7 +7979,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
   Hear Copilot's replies in the chat pane, letting you stay hands-free while reviewing your content.
 
-## January 7, 2025
+## January 7, 2025 — Feature Additions
 
 Updates released between December 18, 2024, and January 7, 2025.
 ### Microsoft 365 admin center
@@ -8008,7 +8018,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Enhance your learning experience with a wider range of external content in Copilot Academy, including links to Copilot Prompt Gallery. [Learn more](/viva/learning/academy-copilot).
 
-## December 17, 2024
+## December 17, 2024 — Release Overview
 
 ### Microsoft 365 Copilot
 
@@ -8046,7 +8056,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Now you can add an image to your chat with Copilot. You can ask questions about the image, extract text, get a description of a chart, translate information, or generate alt text. This helps you stay in the flow of work while getting necessary information to continue working on your document.
 
-## November, 2024
+## November, 2024 — Release Overview
 
 ### Microsoft 365 Copilot Chat
 
@@ -8136,7 +8146,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Create more detailed drafts by writing prompts over 2,000 characters and referencing files totaling up to 75,000 words. [Learn more](https://support.microsoft.com/topic/66de2ffd-deb2-4f0c-8984-098316104389).
 
-## October, 2024
+## October, 2024 — What’s New
 
 ### Microsoft 365 Copilot Chat
 
@@ -8188,7 +8198,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   On blank documents, Copilot in Word offers one-click example prompts to help you get started quickly.
 
-## September, 2024
+## September, 2024 — Release Overview
 
 ### Microsoft 365 Copilot Chat
 
@@ -8275,7 +8285,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Expand your drafting capabilities by referencing up to 10 items—such as files, emails, and meetings—when using Copilot in Word. [Learn more](https://support.microsoft.com/topic/272ac2c1-c5f7-49c9-8a42-2a8a87846fa0).
 
-## August, 2024
+## August, 2024 — Release Overview
 
 ### Microsoft 365 Copilot
 
@@ -8333,7 +8343,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   View trendlines of key productivity metrics over 6 months and estimate the financial value of Copilot-assisted hours. [Learn more](/viva/insights/advanced/analyst/templates/microsoft-365-copilot-impact).
 
-## July, 2024
+## July, 2024 — Release Overview
 
 ### Microsoft 365 Copilot Chat
 
@@ -8403,7 +8413,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot in Word can now summarize longer documents, with the upper limit increased to about four times more words (approx. 80k words). Get comprehensive overviews of lengthy content.
 
-## June, 2024
+## June, 2024 — Release Overview
 
 ### Excel
 
@@ -8451,7 +8461,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Enhance your documents with AI-generated images using the new integration of Microsoft Designer in Copilot Chat. Also search for stock images and brand assets to bring your content to life seamlessly.
 
-## May, 2024
+## May, 2024 — Release Overview
 
 ### Microsoft 365 Copilot Chat
 
@@ -8497,7 +8507,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Use Draft with Copilot in Word with the on-canvas Copilot menu when a user selects text, a list, or a table, which generates new content from Copilot and provides a richer, more interactive experience.
 
-## April, 2024
+## April, 2024 — What’s New
 
 ### Microsoft 365 Copilot Chat
 
@@ -8603,7 +8613,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Users can copy-paste a link of a supported file into the Draft with Copilot UI as a reference, instead of searching for it in the file reference menu.
 
-## March, 2024
+## March, 2024 — Release Overview
 
 ### Microsoft 365 Copilot Chat
 
@@ -8629,7 +8639,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Include an AI-generated document summary when sharing Word documents. Recipients get a rich preview, aiding quicker understanding and collaboration.
 
-## February, 2024
+## February, 2024 — Release Overview
 
 ### Forms
 
@@ -8637,7 +8647,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Use natural language to describe the form you need, and Copilot will generate it for you. Copilot can also help you customize your form with a theme or apply response settings, to help drive engagement from your audience.
 
-## January, 2024
+## January, 2024  — Release Overview
 
 ### Excel
 
@@ -8652,7 +8662,7 @@ Updates released between December 18, 2024, and January 7, 2025.
   Communication Compliance is introducing a new template dedicated to analyzing all Microsoft 365 Copilot  prompts and responses, to help ensure content prohibited by customers' policies, such as harassing or threatening language, isn't being used Microsoft 365 interfaces. This scales Communication Compliance's reach, consistent with Microsoft 365's expanding interfaces. In addition, administrators are also able to select Copilot chats as a checked location in the policy creation wizard for any new or existing policies. This empowers administrators to fine-tune their management strategy precisely to their organization's needs, with a focus on user privacy protection. Whether it's setting specific conditions or deploying trainable classifiers, this feature provides flexibility and adaptability in compliance management, ensuring your organization's communications remain secure, compliant, and respectful of user privacy.
 
 
-## December, 2023
+## December, 2023 — Feature Additions
 
 ### Microsoft 365 admin center
 
@@ -8660,7 +8670,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Easily assess your organization's technical eligibility, license assignment, and active usage of Microsoft 365 Copilot. Understand which apps drive engagement, monitor trends over time, and use these insights to guide licensing and adoption strategy decisions. [Learn more](/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness).
 
-## November, 2023
+## Updates released in November, 2023
 
 ### Microsoft 365 Copilot Chat
 
@@ -8839,7 +8849,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 ## [Android](#tab/androidos)
 
 <!-- 96890,98572,100743,100742 -->
-## November 24, 2025
+## November 24, 2025 updates
 Updates released between November 12, 2025, and November 24, 2025.
 ### Microsoft 365 Copilot Chat
 - **Access shared mailboxes in Copilot Chat** [Android, Windows, iOS, Mac, Web]
@@ -8858,7 +8868,7 @@ Updates released between November 12, 2025, and November 24, 2025.
  
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
  
-  - Tell Copilot: *"List all the emails around <topic> from < mailbox@domain.com > mailbox ."*
+  - Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox ."*
 
   **Why this matters:**  
 
@@ -8985,7 +8995,7 @@ Voice   removes friction, letting you work where typing isn't practical.
   [Extend bot-based message extension as agent for Microsoft 365 Copilot](/microsoftteams/platform/messaging-extensions/build-bot-based-agent?tabs=visual-studio-code)
 
 <!-- 100829 -->
-## November 12, 2025
+## November 12, 2025 — Highlights 
 
 Updates released between October 28, 2025, and November 12, 2025.
 
@@ -9014,7 +9024,7 @@ Updates released between October 28, 2025, and November 12, 2025.
   **Personal:** Helps you stay on top of your schedule and commitments without manually checking each calendar invite.
 
 <!-- 100746 -->
-## October 28, 2025
+## October 28, 2025 updates
 Updates released between October 15, 2025, and October 28, 2025.
 ### Copilot extensibility
 - **@mention capability for mainline Copilot Chat** [Android, iOS]
@@ -9022,7 +9032,7 @@ Updates released between October 15, 2025, and October 28, 2025.
   Use @mention in Copilot Chat to direct interactions to specific agents, ensuring focused and relevant responses from Copilot.
 
 <!-- 100748,100986,100267,100886 -->
-## September 30, 2025
+## September 16 and September 30, 2025
 Updates released between September 16, 2025, and September 30, 2025.
 ### Copilot extensibility
 - **Agents support for Copilot Chat and pay-as-you-go on Microsoft 365 Copilot Mobile** [Android, iOS]
@@ -9042,7 +9052,7 @@ Updates released between September 16, 2025, and September 30, 2025.
   Now upload multiple images into Copilot Chat prompts at once to enhance creative reasoning and generate new content with varied inspiration.
 
 <!-- 100803,100741,100728,97770,96630 -->
-## September 16, 2025
+## Updates between September 3 and September 16, 2025
 Updates released between September 3, 2025, and September 16, 2025.
 ### Copilot extensibility
 - **Mobile support for Analyst agent on Android and iOS** [iOS, Android]
@@ -9064,7 +9074,8 @@ Updates released between September 3, 2025, and September 16, 2025.
  [Learn more](/copilot/microsoft-365/microsoft-365-copilot-search).
 
 <!-- 98075,97530,100740 -->
-## September 3, 2025
+## August 19 and September 3, 2025
+
 Updates released between August 19, 2025, and September 3, 2025.
 ### Microsoft 365 Copilot app
 - **Enrich agents with Store integration on mobile** [Android, iOS]
@@ -9081,7 +9092,7 @@ Updates released between August 19, 2025, and September 3, 2025.
  [Learn more](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-copilot-memory-a-more-productive-and-personalized-ai-for-the-way-you/4432059).
 
 <!-- 95488,97897,99129 -->
-## August 19, 2025
+## August 5 to 19, 2025 updates
 Updates released between August 5, 2025, and August 19, 2025.
 ### Microsoft 365 Copilot app
 - **Expanded language options with Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
@@ -9099,7 +9110,7 @@ Updates released between August 5, 2025, and August 19, 2025.
  [Learn more](https://support.microsoft.com/office/summarize-an-email-thread-with-copilot-in-outlook-a79873f2-396b-46dc-b852-7fe5947ab640#id0ebbj=new_outlook).
 
 <!-- 94703 -->
-## July 8, 2025
+## July 8, 2025 - Documentation Updates
 Updates released between June 24, 2025, and July 8, 2025.
 ### Viva Connections
 - **New News feature in Microsoft Teams** [Android, Windows, iOS, Web]
@@ -9108,7 +9119,7 @@ Updates released between June 24, 2025, and July 8, 2025.
  [Learn more](https://techcommunity.microsoft.com/blog/viva_connections_blog/introducing-enterprise-news-reader-in-viva-connections/4383832).
 
 <!-- 95597,94574 -->
-## June 24, 2025
+## June 10 - 24, 2025
 Updates released between June 10, 2025, and June 24, 2025.
 ### Teams
 - **Copilot generated summaries for call transfers on Teams phone devices** [Android]
@@ -9121,7 +9132,7 @@ Updates released between June 10, 2025, and June 24, 2025.
  [Learn more](/microsoftteams/rooms/voice-recognition?branch=main&branchFallbackFrom=pr-en-us-14676).
 
 <!-- 97288,96951,72079 -->
-## June 10, 2025
+## May 29 - June 10, 2025
 Updates released between May 29, 2025, and June 10, 2025.
 ### Outlook
 - **Custom Instructions for draft with Copilot** [Android, Windows, iOS, Mac, Web]
@@ -9137,21 +9148,21 @@ Updates released between May 29, 2025, and June 10, 2025.
   Intelligent meeting recap is now available in GCC High for impromptu calls and meetings, like those started from 'Meet now' and calls started from chat. You can easily browse the recording by speakers and topics, as well as access AI-generated notes, AI-generated tasks, and name mentions after the ad-hoc meeting ends. This capability is available for users with a Teams Premium or M365 Copilot license.
 
 <!-- 98521 -->
-## May 13, 2025
+## Updates between April 29 and May 13, 2025
 Updates released between April 29, 2025, and May 13, 2025.
 ### Microsoft 365 Copilot Chat
 - **Image generation in mobile Copilot chat** [Android, iOS]
 
   Create images using natural language to visualize concepts and ideas within the flow of work, directly in Copilot on Microsoft 365, Teams, and Outlook mobile apps.
 
-## April 2, 2025
+## April 2, 2025 updates
 Updates released between March 20, 2025, and April 2, 2025.
 ### Microsoft 365 Copilot Chat
 - **Ask questions about images with natural language** [Android, iOS, Web]
 
   Easily gain insights from images by asking natural language questions. Upload images for quick analysis using advanced vision models—helping you make sense of visual data across your apps.
 
-## March 19, 2025
+## March 19, 2025 - Monthly Updates
 Updates released between March 5, 2025, and March 19, 2025.
 ### Microsoft 365 Copilot app
 
@@ -9159,7 +9170,7 @@ Updates released between March 5, 2025, and March 19, 2025.
 
   Stay productive while on the go—use the Microsoft 365 mobile app to view, edit, or share Copilot-generated pages instantly. Collaborate with colleagues in real time, whether you're commuting or between meetings. [Learn more](https://support.microsoft.com/topic/introducing-microsoft-365-copilot-pages-6674bd51-9ff5-42c4-9256-44d9428a726f).
 
-## March 4, 2025
+## March 4, 2025 - Documentation Updates
 
 Updates released between February 20, 2025, and March 4, 2025. 
 
@@ -9169,7 +9180,7 @@ Updates released between February 20, 2025, and March 4, 2025.
 
   Leverage Copilot to search emails across both primary and archived mailboxes by appending 'from my archives' or 'also look for emails in my archives' in your prompts to quickly locate key messages.
 
-## February 19, 2025
+## February 19, 2025 - Release Summary
 
 Updates released between February 5, 2025, and February 19, 2025. 
 
@@ -9186,7 +9197,7 @@ Updates released between February 5, 2025, and February 19, 2025.
   Dive into usage frequency, compare top user groups, and track retention metrics—all in a single, comprehensive dashboard for actionable insights. [Learn more](/viva/insights/org-team-insights/copilot-dashboard#interpreting-the-data).
 
 
-## February 4, 2025
+## February 4, 2025 - Monthly Updates
 
 Updates released between January 24, 2025, and February 4, 2025.
 ### Microsoft 365 Copilot app
@@ -9208,7 +9219,7 @@ Updates released between January 24, 2025, and February 4, 2025.
 
 <!--- All features that have 'Android' tag  -->
 
-## January 23, 2025
+## January 23, 2025 — Monthly Updates
 
 Updates released between January 8, 2025, and January 23, 2025.
 
@@ -9222,7 +9233,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
   Admins gain control to turn off file uploads for Copilot Chat, helping maintain compliance when sharing sensitive content. 
 
-## January 7, 2025
+## January 7, 2025 — Documentation Updates
 
 Updates released between December 18, 2024, and January 7, 2025.
 ### Microsoft 365 Copilot
@@ -9243,7 +9254,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Gain visibility into prompts submitted through Microsoft 365 Copilot Chat (web) and enterprise data-protected Copilot scenarios. [Learn more](/viva/insights/advanced/reference/metrics#microsoft-365-copilot-metrics).
 
-## December 17, 2024
+## December 17, 2024 — What’s New
 
 ### Viva Pulse
 
@@ -9251,7 +9262,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Use new templates to measure employee sentiment and assess your organization's Copilot adoption—all within your Viva Pulse subscription.
 
-## November, 2024
+## November, 2024 — What’s New
 
 ### Microsoft 365 Copilot Chat
 
@@ -9265,7 +9276,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   You can now turn Copilot off in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
 
-## October, 2024
+## October, 2024 — Feature Additions
 
 ### Microsoft 365 Copilot
 
@@ -9285,7 +9296,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Select specific parts of your drafted email and ask Copilot in new Outlook to rewrite it or provide more information to rewrite it. Provide detailed instructions or adjust the tone and length to suit your needs.
 
-## September, 2024
+## September, 2024 — What’s New
 
 ### Microsoft 365 Copilot Chat
 
@@ -9299,7 +9310,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Improve your email writing with Coaching by Copilot in new Outlook. Request a full rewrite based on Copilot's feedback or apply the suggestions with a single click. [Learn more](https://support.microsoft.com/topic/91a3cd56-1586-4a31-85c7-2eb8cdb02405).
 
-## August, 2024
+## August, 2024 — What’s New
 
 ### Microsoft 365 Copilot
 
@@ -9330,7 +9341,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   View trendlines of key productivity metrics over 6 months and estimate the financial value of Copilot-assisted hours. [Learn more](/viva/insights/advanced/analyst/templates/microsoft-365-copilot-impact).
 
-## July, 2024
+## July, 2024 — What’s New
 
 ### Viva Insights
 
@@ -9338,7 +9349,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   The Microsoft Copilot Dashboard available to all Microsoft 365 Copilot customers at no extra cost. Access it via the Viva Insights app to monitor Copilot adoption and impact. [Learn more](/viva/insights/org-team-insights/copilot-dashboard).
 
-## June, 2024
+## June, 2024 — What’s New
 
 ### Microsoft Teams
 
@@ -9350,7 +9361,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Introducing new meeting settings that allow you to control who can access recordings, transcripts, and prompt Copilot. Enhance your meeting security and privacy with these granular controls.
 
-## May, 2024
+## May, 2024 — What’s New
 
 ### Microsoft Teams
 
@@ -9366,7 +9377,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Access the power of Microsoft 365 Copilot Chat directly within Outlook  on the web and the new Outlook for Windows. Access Microsoft 365 Copilot Chat through the left app bar.
 
-## April, 2024
+## April, 2024 — Feature Additions
 
 ### Microsoft 365 Copilot Chat
 
@@ -9386,7 +9397,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   When you ask follow-up questions in chats or channels, Copilot now has context from past interactions to provide more accurate answers.
 
-## March, 2024
+## March, 2024 — What’s New
 
 ### Microsoft 365 Copilot Chat
 
@@ -9407,7 +9418,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 
 
-## November, 2023
+## November, 2023 — Release Overview
 
 ### Microsoft Teams
 
@@ -9454,7 +9465,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 ## [iOS](#tab/appleios)
 
 <!-- 96890,98572,100743,100742 -->
-## November 24, 2025
+## Updates for November 24, 2025
 Updates released between November 12, 2025, and November 24, 2025.
 ### Microsoft 365 Copilot Chat
 - **Access shared mailboxes in Copilot Chat** [Android, Windows, iOS, Mac, Web]
@@ -9473,7 +9484,7 @@ Updates released between November 12, 2025, and November 24, 2025.
  
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
  
-  - Tell Copilot: *"List all the emails around <topic> from < mailbox@domain.com > mailbox ."*
+  - Tell Copilot: *"List all the emails around  `topic` from < mailbox@domain.com > mailbox ."*
 
   **Why this matters:**  
 
@@ -9601,7 +9612,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
 <!-- 100746,97654,103495 -->
 
-## October 28, 2025
+## Updates of October 28, 2025
 
 Updates released between October 15, 2025, and October 28, 2025.
 
@@ -9622,7 +9633,7 @@ Updates released between October 15, 2025, and October 28, 2025.
   Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation. [Learn more](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.).
 
 <!-- 100748,100986,100267,100886 -->
-## September 30, 2025
+## Updates of September 30, 2025
 
 Updates released between September 16, 2025, and September 30, 2025.
 
@@ -9648,7 +9659,7 @@ Updates released between September 16, 2025, and September 30, 2025.
   Now upload multiple images into Copilot Chat prompts at once to enhance creative reasoning and generate new content with varied inspiration.
 
 <!-- 100803,100741,100728,99818,97770 -->
-## September 16, 2025
+## September 3 to 16, 2025
 Updates released between September 3, 2025, and September 16, 2025.
 ### Copilot extensibility
 - **Mobile support for Analyst agent on Android and iOS** [iOS, Android]
@@ -9672,7 +9683,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 
 <!-- 98075,97530,100740 -->
 
-## September 3, 2025
+## August 19 - September 3, 2025 — Release Overview
 
 Updates released between August 19, 2025, and September 3, 2025.
 
@@ -9690,7 +9701,7 @@ Updates released between August 19, 2025, and September 3, 2025.
   Copilot Memory leverages insights inferred from conversations between the user and Copilot, along with data from the Microsoft Graph and custom instructions to provide personalized help for tasks. Users have full control and can view, manage, disable or clear memory at any time. [Learn more](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-copilot-memory-a-more-productive-and-personalized-ai-for-the-way-you/4432059).
 
 <!-- 95488,97897,99129 -->
-## August 19, 2025
+## August 5 and August 19, 2025
 Updates released between August 5, 2025, and August 19, 2025.
 ### Microsoft 365 Copilot app
 - **Expanded language options with Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
@@ -9708,7 +9719,7 @@ Updates released between August 5, 2025, and August 19, 2025.
  [Learn more](https://support.microsoft.com/office/summarize-an-email-thread-with-copilot-in-outlook-a79873f2-396b-46dc-b852-7fe5947ab640#id0ebbj=new_outlook).
 
 <!-- 94703 -->
-## July 8, 2025
+## July 8, 2025 - Release Summary
 Updates released between June 24, 2025, and July 8, 2025.
 ### Viva Connections
 - **New News feature in Microsoft Teams** [Android, Windows, iOS, Web]
@@ -9717,7 +9728,7 @@ Updates released between June 24, 2025, and July 8, 2025.
  [Learn more](https://techcommunity.microsoft.com/blog/viva_connections_blog/introducing-enterprise-news-reader-in-viva-connections/4383832).
 
 <!-- 98006 -->
-## June 24, 2025
+## Updates between June 10 and June 24, 2025
 Updates released between June 10, 2025, and June 24, 2025.
 ### Excel
 - **Use Copilot with any table in the workbook, referring by natural language** [iOS, Web, Mac, Windows]
@@ -9726,7 +9737,7 @@ Updates released between June 10, 2025, and June 24, 2025.
  [Learn more](https://techcommunity.microsoft.com/blog/excelblog/smarter-context-awareness-for-copilot-in-excel/4424939).
 
 <!-- 97647,97288,96951,84642,72079 -->
-## June 10, 2025
+## Release summary of June 10, 2025
 Updates released between May 29, 2025, and June 10, 2025.
 ### Microsoft Loop
 - **Copilot Pages module on Microsoft 365 Copilot mobile app** [iOS]
@@ -9751,7 +9762,7 @@ Updates released between May 29, 2025, and June 10, 2025.
   Intelligent meeting recap is now available in GCC High for impromptu calls and meetings, like those started from 'Meet now' and calls started from chat. You can easily browse the recording by speakers and topics, as well as access AI-generated notes, AI-generated tasks, and name mentions after the ad-hoc meeting ends. This capability is available for users with a Teams Premium or M365 Copilot license.
 
 <!-- 98521,97225 -->
-## May 13, 2025
+## April 29 to May 13, 2025
 Updates released between April 29, 2025, and May 13, 2025.
 ### Excel
 - **Ask Copilot about any part of your sheet** [Web, Mac, Windows, iOS]
@@ -9762,7 +9773,8 @@ Updates released between April 29, 2025, and May 13, 2025.
 
   Create images using natural language to visualize concepts and ideas within the flow of work, directly in Copilot on Microsoft 365, Teams, and Outlook mobile apps.
 
-## April 2, 2025
+## March 20 - April 2, 2025 updates
+
 Updates released between March 20, 2025, and April 2, 2025.
 ### Microsoft 365 Copilot Chat
 - **Ask questions about images with natural language** [Android, iOS, Web]
@@ -9779,7 +9791,7 @@ Updates released between March 20, 2025, and April 2, 2025.
 
   Easily convert plain text into structured tables, helping you organize and present data more effectively in your daily work.
 
-## March 19, 2025
+## March 19, 2025 - Introduced in this update
 
 Updates released between March 5, 2025, and March 19, 2025.
 ### Microsoft 365 Copilot app
@@ -9788,7 +9800,7 @@ Updates released between March 5, 2025, and March 19, 2025.
 
   Stay productive while on the go—use the Microsoft 365 mobile app to view, edit, or share Copilot-generated pages instantly. Collaborate with colleagues in real time, whether you're commuting or between meetings. [Learn more](https://support.microsoft.com/topic/introducing-microsoft-365-copilot-pages-6674bd51-9ff5-42c4-9256-44d9428a726f).
 
-## March 4, 2025
+## March 4, 2025 - Release Summary
 
 Updates released between February 20, 2025, and March 4, 2025. 
 
@@ -9804,7 +9816,7 @@ Updates released between February 20, 2025, and March 4, 2025.
 
   Stay productive no matter where you are. With mobile access to Copilot Pages, you can view, edit, and share content on the go, ensuring seamless collaboration with colleagues. [Learn more](https://support.microsoft.com/topic/introducing-microsoft-365-copilot-pages-6674bd51-9ff5-42c4-9256-44d9428a726f).
 
-## February 19, 2025
+## February 19, 2025 - Documentation updates
 
 Updates released between February 5, 2025, and February 19, 2025. 
 
@@ -9825,7 +9837,7 @@ Updates released between February 5, 2025, and February 19, 2025.
 
 <!--- All features that have 'iOS' tag  -->
 
-## February 4, 2025
+## February 4, 2025 - Introduced in this update
 
 Updates released between January 24, 2025, and February 4, 2025. 
 
@@ -9856,7 +9868,7 @@ Updates released between January 24, 2025, and February 4, 2025.
   Quickly produce paragraphs or entire sections for your documents, whether you're creating a brand-new file or adding to existing text. [Learn more](https://support.microsoft.com/office/draft-and-add-content-with-copilot-in-word-069c91f0-9e42-4c9a-bbce-fddf5d581541).
 
 
-## January 23, 2025
+## January 23, 2025 — Feature Additions
 
 Updates released between January 8, 2025, and January 23, 2025.
 
@@ -9876,7 +9888,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
   This adds seven new Copilot adoption metrics to the Copilot dashboard and Viva Insights Advanced insights. It also updates the "total actions taken" metric in the Copilot dashboard to include these new Copilot adoption metrics. [Learn more](https://techcommunity.microsoft.com/blog/viva_insights_blog/new-microsoft-copilot-analytics-features-now-available-%E2%80%93-novemberdecember-2024/4356206).
 
-## January 7, 2025
+## January 7, 2025 — Release Summary
 
 Updates released between December 18, 2024, and January 7, 2025.
 
@@ -9910,7 +9922,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Use new templates to measure employee sentiment and assess your organization's Copilot adoption—all within your Viva Pulse subscription.
 
-## November, 2024
+## November, 2024 — Feature Additions
 
 ### Microsoft 365 Copilot Chat
 
@@ -9930,7 +9942,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   You can now turn Copilot off in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
 
-## October, 2024
+## October, 2024 — Documentation Updates
 
 ### Microsoft 365 Copilot
 
@@ -9956,7 +9968,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Adding new Microsoft 365 Copilot Chat prompts submitted through Teams metric to Copilot dashboard and Viva Insights Advanced insights.
 
-## September, 2024
+## September, 2024 — Feature Additions
 
 ### Microsoft 365 Copilot Chat
 
@@ -9982,7 +9994,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Expand your drafting capabilities by referencing up to 10 items—such as files, emails, and meetings—when using Copilot in Word. [Learn more](https://support.microsoft.com/topic/272ac2c1-c5f7-49c9-8a42-2a8a87846fa0).
 
-## August, 2024
+## August, 2024 — Feature Additions
 
 ### Microsoft 365 Copilot
 
@@ -10047,7 +10059,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot generates summaries of files that you can view in the file browser of the Microsoft 365 mobile app, helping you understand content without opening the file.
 
-## July, 2024
+## July, 2024 — Feature Additions
 
 ### Excel
 
@@ -10093,7 +10105,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot in Word can now summarize longer documents, with the upper limit increased to about four times more words (approx. 80k words). Get comprehensive overviews of lengthy content.
 
-## June, 2024
+## June, 2024 — Feature Additions
 
 ### Excel
 
@@ -10135,7 +10147,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Easily turn plain text or lists into clear, organized tables for better readability and effortless data handling.
 
-## May, 2024
+## May, 2024 — Feature Additions
 
 ### Microsoft Teams
 
@@ -10149,7 +10161,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Access the power of Microsoft 365 Copilot Chat directly within Outlook  on the web and the new Outlook for Windows. Access Microsoft 365 Copilot Chat through the left app bar.
 
-## April, 2024
+## April, 2024 — Documentation Updates
 
 ### Microsoft 365 Copilot Chat
 
@@ -10179,7 +10191,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   When you ask follow-up questions in chats or channels, Copilot now has context from past interactions to provide more accurate answers.
 
-## March, 2024
+## March, 2024 — Feature Additions
 
 ### Microsoft 365 Copilot Chat
 
@@ -10205,7 +10217,7 @@ Updates released between December 18, 2024, and January 7, 2025.
   We have improved the Copilot user interface with new date dividers for chats, channels, and meeting Copilot.
 
 
-## February, 2024
+## February, 2024 — What’s New
 
 ### Word
 
@@ -10213,7 +10225,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Ask via chat to summarize your document, highlighting key points for quick understanding and review.
 
-## January, 2024
+## January, 2024 — What’s New
 
 ### Excel
 
@@ -10227,7 +10239,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Ask specific questions about your document or request additional details to enhance your content, making your writing process more efficient.
 
-## November, 2023
+## November, 2023 — What’s New
 
 ### Excel
 
@@ -10336,7 +10348,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 ## [Mac](#tab/mac)
 
 <!-- 96890,101246,98572,101737 -->
-## November 24, 2025
+## November 12 and November 24, 2025
 Updates released between November 12, 2025, and November 24, 2025.
 ### Microsoft 365 admin center
 - **Monitor Copilot usage with Capacity Packs** [Mac]
@@ -10398,7 +10410,7 @@ Updates released between November 12, 2025, and November 24, 2025.
  
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
  
-  - Tell Copilot: *"List all the emails around <topic> from < mailbox@domain.com > mailbox ."*
+  - Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox ."*
 
   **Why this matters:**  
 
@@ -10488,7 +10500,7 @@ When building a presentation with Copilot, you can now pull in content from Loop
   Save time by reusing the content you already co-created, in just one step.
 
 <!-- 103496,100875,100679 -->
-## November 12, 2025
+## November 12, 2025 — Release Summary
 Updates released between October 28, 2025, and November 12, 2025.
 ### Excel
 - **Build and analyze surveys with ease using Surveys Agent** [Windows, Mac, Web]
@@ -10506,7 +10518,7 @@ Updates released between October 28, 2025, and November 12, 2025.
  [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
 
 <!-- 79005,77679,97654,103495,100921 -->
-## October 28, 2025
+## October 15 and October 28, 2025 updates
 Updates released between October 15, 2025, and October 28, 2025.
 ### PowerPoint
 - **Copilot now offers an on-canvas experience for generating speaker notes** [Mac, Web, iOS]
@@ -10533,7 +10545,7 @@ Updates released between October 15, 2025, and October 28, 2025.
   The Copilot icon in your document margin gives you a variety of actions you can take on your selected text. One click lets you rewrite, get writing suggestions, and more
 
 <!-- 100885,100884 -->
-## October 15, 2025
+## September 30 - October 15, 2025
 Updates released between September 30, 2025, and October 15, 2025.
 ### Microsoft 365 Copilot Chat
 - **Create new images using reference uploads** [Windows, Mac, Web]
@@ -10544,7 +10556,7 @@ Updates released between September 30, 2025, and October 15, 2025.
   Generate images in various aspect ratios to suit any need, from social media to presentations, with landscape, portrait, and square options in Copilot Chat.
 
 <!-- 97403/2/1,100986,100267 -->
-## September 30, 2025
+## September 16-30, 2025
 Updates released between September 16, 2025, and September 30, 2025.
 ### Microsoft 365 admin center
 - **Usage reports for Copilot search** [Android, Windows, iOS, Mac, Web]
@@ -10563,6 +10575,7 @@ Updates released between September 16, 2025, and September 30, 2025.
 
 <!-- 96025 96022 96024 -->
 ## September 3, 2025
+
 Updates released between August 19, 2025, and September 3, 2025.
 ### PowerPoint
 - **Excel data when building a presentation** [Web, Mac, Windows]
@@ -10571,7 +10584,7 @@ Updates released between August 19, 2025, and September 3, 2025.
  [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
 
 <!-- 95488,97897 -->
-## August 19, 2025
+## Updates between August 5 and August 19, 2025
 Updates released between August 5, 2025, and August 19, 2025.
 ### Microsoft 365 Copilot app
 - **Expanded language options with Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
@@ -10617,7 +10630,7 @@ Updates released between July 22, 2025, and August 5, 2025.
  [Learn more](https://support.microsoft.com/topic/use-writing-suggestions-to-review-content-in-word-fa09c055-d623-4d20-954f-9b064a5a7c80).
 
 <!-- 98124,78170,100044,98515 -->
-## July 22, 2025
+## July 22, 2025 - Release Summary
 Updates released between July 8, 2025, and July 22, 2025.
 ### Microsoft 365 Copilot Chat
 - **Researcher available in GA** [Windows, Mac, Web]
@@ -10640,7 +10653,7 @@ Updates released between July 8, 2025, and July 22, 2025.
  [Learn more](https://www.microsoft.com/microsoft-365-life-hacks/everyday-ai/how-to-use-copilot-in-microsoft-word?msockid=2484525e9a9b66d4330b47329bb667c9).
 
 <!-- 77803,99334,79744,64005 -->
-## July 8, 2025
+## July 8, 2025 - Highlights
 Updates released between June 24, 2025, and July 8, 2025.
 ### Excel
 - **Copilot in Excel with Python | Reasoning Model Integration (Think Deeper)** [Mac, Windows, Web]
@@ -10740,7 +10753,7 @@ Updates released between May 29, 2025, and June 10, 2025.
   Writing a prompt to draft content based on your selection no longer expands your selection to the entire paragraph, table, or list. You can prompt based on a single sentence or item.
 
 <!-- 96718,99424,97439 -->
-## May 29, 2025
+## May 13 - 29, 2025
 Updates released between May 13, 2025, and May 29, 2025.
 ### Excel
 - **Visual outline confirms Copilot's data range** [Mac]
@@ -10757,7 +10770,7 @@ Updates released between May 13, 2025, and May 29, 2025.
   Add any image, chart, or diagram to your prompt and Copilot instantly extracts text, explains trends, suggests alt text, and surfaces quick insights—making documents more accessible and informative in seconds.
 
 <!-- 97225,93931,83241 -->
-## May 13, 2025
+## April 29, 2025 - May 13, 2025
 Updates released between April 29, 2025, and May 13, 2025.
 ### Excel
 - **Ask Copilot about any part of your sheet** [Web, Mac, Windows, iOS]
@@ -10779,7 +10792,7 @@ Updates released between April 29, 2025, and May 13, 2025.
   Tailor each document opening with your preferred summary style—select brief, standard, or detailed insights to match your workflow.
  [Learn more](https://support.microsoft.com/office/create-a-summary-of-your-document-with-copilot-in-word-79bb7a0a-3bf7-41fe-8c09-56f855b669bf).
 <!-- 78144,77902 -->
-## April 29, 2025
+## April 16 to April 29, 2025
 Updates released between April 16, 2025, and April 29, 2025.
 ### Outlook
 - **Chat with Copilot in Outlook for Mac** [Mac]
@@ -10792,7 +10805,7 @@ Updates released between April 16, 2025, and April 29, 2025.
   Selecting the Replace button lets you instantly replace your selected text with content that was generated in Draft with Copilot.
 
 <!-- 76195,73845 -->
-## April 16, 2025
+## Updates for April 2 - 16, 2025
 Updates released between April 2, 2025, and April 16, 2025.
 ### Excel
 - **Graph grounded chat** [Windows, Mac, Web]
@@ -10812,7 +10825,7 @@ Updates released between March 20, 2025, and April 2, 2025.
   Produce a translated copy of your entire presentation in about 40 languages while preserving your slide design and structure, making global collaboration effortless.
  [Learn more](https://support.microsoft.com/topic/translate-your-presentation-with-copilot-2c622fca-daaf-457c-bc74-f3496cf44a85).
 
-## March 19, 2025
+## March 19, 2025 - What’s New
 Updates released between March 5, 2025, and March 19, 2025.
 
 ### Microsoft 365 Copilot Chat
@@ -10821,7 +10834,7 @@ Updates released between March 5, 2025, and March 19, 2025.
 
   Get started in Copilot chat quickly with automatic prompt suggestions that enhance your productivity by providing relevant and context-aware prompts based on your previous interactions.
 
-## March 4, 2025
+## March 4, 2025 - Monthly updates
 
 Updates released between February 20, 2025, and March 4, 2025. 
 
@@ -10837,7 +10850,7 @@ Updates released between February 20, 2025, and March 4, 2025.
 
   Convert grounded content from Word documents into dynamic slides with tables. Enhance your presentations with structured, data-driven visuals effortlessly.
 
-## February 19, 2025
+## February 19, 2025 - Monthly Updates
 
 Updates released between February 5, 2025, and February 19, 2025. 
 
@@ -10869,7 +10882,7 @@ Updates released between February 5, 2025, and February 19, 2025.
 
 <!--- All features that have 'Mac' tag  -->
 
-## February 4, 2025
+## February 4, 2025 - Highlights
 
 Updates released between January 24, 2025, and February 4, 2025.
 ### Microsoft 365 Copilot Chat
@@ -10905,7 +10918,7 @@ Updates released between January 24, 2025, and February 4, 2025.
   Add .txt files as sources with Copilot in Word, streamlining your process when working with text-based research or background content.
 
 
-## January 23, 2025
+## January 23, 2025 — Documentation Updates
 
 Updates released between January 8, 2025, and January 23, 2025.
 
@@ -10941,7 +10954,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
   Hear Copilot's replies in the chat pane, letting you stay hands-free while reviewing your content.
 
-## January 7, 2025
+## January 7, 2025 — Highlights
 
 Updates released between December 18, 2024, and January 7, 2025.
 ### Viva Insights
@@ -10954,7 +10967,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Gain visibility into prompts submitted through Microsoft 365 Copilot Chat (web) and enterprise data-protected Copilot scenarios. [Learn more](/viva/insights/advanced/reference/metrics#microsoft-365-copilot-metrics).
 
-## December 17, 2024
+## December 17, 2024 — Feature Additions
 
 ### OneNote
 
@@ -10968,7 +10981,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Use new templates to measure employee sentiment and assess your organization's Copilot adoption—all within your Viva Pulse subscription.
 
-## November, 2024
+## November, 2024 — Documentation Updates
 
 ### Microsoft 365 Copilot Chat
 
@@ -11000,7 +11013,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Create more detailed drafts by writing prompts over 2,000 characters and referencing files totaling up to 75,000 words. [Learn more](https://support.microsoft.com/topic/66de2ffd-deb2-4f0c-8984-098316104389).
 
-## October, 2024
+## October, 2024 — Release Summary
 
 ### Microsoft 365 Copilot
 
@@ -11036,7 +11049,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Expand your drafting capabilities by referencing up to 10 items—such as files, emails, and meetings—when using Copilot in Word. [Learn more](https://support.microsoft.com/topic/272ac2c1-c5f7-49c9-8a42-2a8a87846fa0).
 
-## September, 2024
+## September, 2024 — Documentation Updates
 
 ### Excel
 
@@ -11089,7 +11102,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot in Word now offers more options when you paste text. Reword content, transform it into tables or lists, and more, making it easier to format and organize your documents efficiently.
 
-## August, 2024
+## August, 2024 — Documentation Updates
 
 ### Excel
 
@@ -11136,7 +11149,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   View trendlines of key productivity metrics over 6 months and estimate the financial value of Copilot-assisted hours. [Learn more](/viva/insights/advanced/analyst/templates/microsoft-365-copilot-impact).
 
-## July, 2024
+## July, 2024 — Documentation Updates
 
 ### Excel
 
@@ -11190,7 +11203,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot in Word can now summarize longer documents, with the upper limit increased to about four times more words (approx. 80k words). Get comprehensive overviews of lengthy content.
 
-## June, 2024
+## June, 2024 — Documentation Updates
 
 ### Excel
 
@@ -11232,7 +11245,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Use Draft with Copilot in Word with the on-canvas Copilot menu when a user selects text, a list, or a table, which generates new content from Copilot and provides a richer, more interactive experience.
 
-## May, 2024
+## May, 2024 — Documentation Updates
 
 ### Microsoft Teams
 
@@ -11246,7 +11259,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Users can copy-paste a link of a supported file into the Draft with Copilot UI as a reference, instead of searching for it in the file reference menu.
 
-## April, 2024
+## April, 2024 — Release Summary
 
 ### Excel
 
@@ -11276,7 +11289,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Draft with Copilot now allows you to reference files encrypted with sensitivity labels, ensuring secure document creation.
 
-## March, 2024
+## March, 2024 — Documentation Updates
 
 ### Microsoft 365 Copilot Chat
 
@@ -11306,7 +11319,7 @@ Updates released between December 18, 2024, and January 7, 2025.
   We have improved the Copilot user interface with new date dividers for chats, channels, and meeting Copilot.
 
 
-## February, 2024
+## February, 2024  — Feature Additions
 
 ### Microsoft Teams
 
@@ -11314,7 +11327,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   When you open Copilot in a group chat, it will remain open even as you navigate between different chats, saving you time.
 
-## January, 2024
+## January, 2024 — Feature Additions
 
 ### Excel
 
@@ -11322,7 +11335,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot in Excel now remembers the context of your chats, allowing for follow-up questions and clarifications for a smoother experience.
 
-## December, 2023
+## December, 2023 — Release Overview
 
 ### Word
 
@@ -11330,7 +11343,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Easily turn plain text or lists into clear, organized tables for better readability and effortless data handling. [Learn more](https://support.microsoft.com/topic/923d9763-f896-4da7-8a3f-5b12c3bfc475).
 
-## November, 2023
+## November, 2023 — Documentation Updates
 
 ### Microsoft 365 Copilot Chat
 
@@ -11439,3 +11452,8 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
+
+
+
+
