@@ -9661,13 +9661,16 @@ Updates released between September 3, 2025, and September 16, 2025.
 ### Outlook
 - **Schedule meetings effortlessly from email threads** [iOS]
 
-  Use Copilot to quickly schedule meetings by analyzing email threads, crafting invitations, and including attendees—all with ease.
- [Learn more](https://support.microsoft.com/office/create-a-meeting-and-agenda-with-copilot-in-outlook-31a44dfa-62bb-4751-82c4-14327a26759f">Learn more.</a>
+  Use Copilot to quickly schedule meetings by analyzing email threads, crafting invitations, and including attendees—all with ease. [Learn more](https://support.microsoft.com/office/create-a-meeting-and-agenda-with-copilot-in-outlook-31a44dfa-62bb-4751-82c4-14327a26759f)
 
 <!-- 98075,97530,100740 -->
+
 ## September 3, 2025
+
 Updates released between August 19, 2025, and September 3, 2025.
+
 ### Microsoft 365 Copilot app
+
 - **Enrich agents with Store integration on mobile** [Android, iOS]
 
   Access and enhance agents through the Agent Store on mobile, making it easier to deploy and manage new capabilities on the go.
@@ -9677,8 +9680,7 @@ Updates released between August 19, 2025, and September 3, 2025.
 ### Microsoft 365 Copilot Chat
 - **Personalize interactions with Copilot Memory** [Android, iOS, Web]
 
-  Copilot Memory leverages insights inferred from conversations between the user and Copilot, along with data from the Microsoft Graph and custom instructions to provide personalized help for tasks. Users have full control and can view, manage, disable or clear memory at any time.
- [Learn more](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-copilot-memory-a-more-productive-and-personalized-ai-for-the-way-you/4432059).
+  Copilot Memory leverages insights inferred from conversations between the user and Copilot, along with data from the Microsoft Graph and custom instructions to provide personalized help for tasks. Users have full control and can view, manage, disable or clear memory at any time. [Learn more](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-copilot-memory-a-more-productive-and-personalized-ai-for-the-way-you/4432059).
 
 <!-- 95488,97897,99129 -->
 ## August 19, 2025
@@ -9686,8 +9688,8 @@ Updates released between August 5, 2025, and August 19, 2025.
 ### Microsoft 365 Copilot app
 - **Expanded language options with Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
 
-  Microsoft 365 Copilot now supports six additional languages: Albanian, Filipino, Icelandic, Malay, Maltese, and Serbian (Cyrillic).
- [Learn more](https://support.microsoft.com/office/supported-languages-for-microsoft-365-copilot-94518d61-644b-4118-9492-617eea4801d8).
+  Microsoft 365 Copilot now supports six additional languages: Albanian, Filipino, Icelandic, Malay, Maltese, and Serbian (Cyrillic). [Learn more](https://support.microsoft.com/office/supported-languages-for-microsoft-365-copilot-94518d61-644b-4118-9492-617eea4801d8).
+
 ### Microsoft 365 Copilot Chat
 - **Advanced data analysis in Copilot Chat mobile apps** [Android, iOS]
 
