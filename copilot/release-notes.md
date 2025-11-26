@@ -8873,7 +8873,7 @@ Updates released between November 12, 2025, and November 24, 2025.
 
   Speak to Copilot naturally on mobile or desktop to prepare for meetings,brainstorm ideas, or catch up on work—hands-free and grounded in work data.
 
-  Roadmap ID: [Learn more](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138">481138</a>
+  Roadmap ID: [481138](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
 
   **Details:**
 
@@ -8906,7 +8906,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Additional Resources:**
 
-  [Learn more](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea?preview=true" target="_blank">Get started with voice features in Microsoft 365 Copilot</a>
+  [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea)
   
   ---
 ### Microsoft 365 Copilot extensibility
@@ -8941,7 +8941,7 @@ Voice   removes friction, letting you work where typing isn't practical.
   
   **Additional Resources:**
 
-  [Learn more](/microsoft-365-copilot/extensibility/overview-custom-engine-agent">Custom engine agents for Microsoft 365 overview</a>
+  [Custom engine agents for Microsoft 365 overview](/microsoft-365-copilot/extensibility/overview-custom-engine-agent)
 
 - **Support Message Extensions as Declarative Agents on Mobile** [Android, iOS]
 
