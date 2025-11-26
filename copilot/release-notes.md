@@ -7,7 +7,7 @@ ms.author: kwekua
 author: kwekuako
 manager: scotv
 ms.update-cycle: 180-days
-ms.date: 11/24/2025
+ms.date: 11/25/2025
 audience: Admin
 ms.reviewer: briandesouza
 ms.topic: release-notes
@@ -1072,70 +1072,84 @@ Updates released between August 19, 2025, and September 3, 2025.
   Eligible users can now leverage Copilot within PDF files in the Microsoft 365 mobile app. Easily ask questions, gather summaries, and extract key insights from your PDFs for more efficient content understanding on the go.
 
 ### Microsoft 365 Copilot Chat
+
 - **Graph Connectors in CIQ** [Web]
 
-  Ground your Copilot prompts in CIQ using data from your organization's Graph Connectors, so responses reflect your third-party content and deliver richer, more relevant insights.
- <a href="https://support.microsoft.com/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-and-copilot-chat-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0" target="_blank">Learn more.</a>
+  Ground your Copilot prompts in CIQ using data from your organization's Graph Connectors, so responses reflect your third-party content and deliver richer, more relevant insights.  
+  [Learn more.](https://support.microsoft.com/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-and-copilot-chat-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0)
+
 - **Ground prompts with SharePoint Sites** [Web]
 
   Users can scope their prompts in Copilot Chat by searching and selecting relevant SharePoint Sites, allowing more focused and relevant discussions.
+
 - **Personalize interactions with Copilot Memory** [Android, iOS, Web]
 
-  Copilot Memory leverages insights inferred from conversations between the user and Copilot, along with data from the Microsoft Graph and custom instructions to provide personalized help for tasks. Users have full control and can view, manage, disable or clear memory at any time.
- <a href="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-copilot-memory-a-more-productive-and-personalized-ai-for-the-way-you/4432059" target="_blank">Learn more.</a>
+  Copilot Memory leverages insights inferred from conversations between the user and Copilot, along with data from the Microsoft Graph and custom instructions to provide personalized help for tasks. Users have full control and can view, manage, disable or clear memory at any time.  
+  [Learn more.](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-copilot-memory-a-more-productive-and-personalized-ai-for-the-way-you/4432059)
+
 - **Use Copilot Chat to enhance Find on Page** [Web]
 
-  Quickly locate the right information by combining CTRL+F with Copilot Chat for smarter, context-aware search in Microsoft Edge for Business.
- <a href="https://support.microsoft.com/topic/using-microsoft-copilot-in-edge-at-work-012b3674-bab8-4f99-8585-c961dac68642" target="_blank">Learn more.</a>
+  Quickly locate the right information by combining CTRL+F with Copilot Chat for smarter, context-aware search in Microsoft Edge for Business.  
+  [Learn more.](https://support.microsoft.com/topic/using-microsoft-copilot-in-edge-at-work-012b3674-bab8-4f99-8585-c961dac68642)
+
 - **Utilize SharePoint and OneDrive folders in prompts** [Web]
 
-  Users can now incorporate SharePoint and OneDrive folders into their Copilot Chat  prompts via the "Attach cloud files" feature, refining content scoping capabilities.
-- **View web queries used by Copilot for greater transparency** [web, Windows]
+  Users can now incorporate SharePoint and OneDrive folders into their Copilot Chat prompts via the "Attach cloud files" feature, refining content scoping capabilities.
+
+- **View web queries used by Copilot for greater transparency** [Web, Windows]
 
   See the exact web queries Copilot sends in response to your prompts, along with the list of websites queried, enhancing your awareness and control over the information process.
+
 ### Microsoft Loop
+
 - **Turn Copilot Pages into Word documents** [Web]
 
   Move research and content collected in Copilot Pages into Word with one click, simplifying sharing and finalizing documents.
+
 ### Microsoft Purview compliance portal
+
 - **Data Loss Prevention to restrict Microsoft 365 Copilot processing on content with sensitivity labels** [Web]
 
-  This feature allows DLP policies to provide detection of sensitivity labels in enterprise grounding data and restrict access of the content in Microsoft 365 Copilot.
- <a href="/purview/dlp-microsoft365-copilot-location-learn-about" target="_blank">Learn more.</a>
-### OneDrive
+  This feature allows DLP policies to provide detection of sensitivity labels in enterprise grounding data and restrict access of the content in Microsoft 365 Copilot. [Learn more.](https://www.microsoft.com/purview/dlp-microsoft365-copilot-location-learn-about)
+
 - **Ask Copilot questions on Teams meeting recordings** [Web]
 
-  Select a Teams meeting recording in your OneDrive commercial account and ask Copilot to recap the meeting, highlight parts where you were mentioned, or recommend action items and next steps. This feature requires a Microsoft Copilot for Microsoft 365 license and will be available to commercial customers on OneDrive Web. This feature works only on Teams meeting recordings with a transcript.
- <a href="https://support.microsoft.com/office/get-started-with-copilot-in-onedrive-7fc81e10-e0cf-4da8-af2e-9876a2770e5d" target="_blank">Learn more.</a>
+  Select a Teams meeting recording in your OneDrive commercial account and ask Copilot to recap the meeting, highlight parts where you were mentioned, or recommend action items and next steps. This feature requires a Microsoft Copilot for Microsoft 365 license and will be available to commercial customers on OneDrive Web. This feature works only on Teams meeting recordings with a transcript.  
+  [Learn more.](https://support.microsoft.com/office/get-started-with-copilot-in-onedrive-7fc81e10-e0cf-4da8-af2e-9876a2770e5d)
+
 - **Catch up with hands-free audio overviews of your files** [Web]
 
-  Effortlessly stay informed using Copilot to generate audio overviews for key documents, prepping for meetings, or catching up on updates. Providing a quick, engaging way to absorb file content—hands-free
- <a href="https://support.microsoft.com/topic/get-an-audio-overview-of-your-notebook-with-microsoft-365-copilot-notebooks-a22df989-b9cd-47fb-abac-e888d8f10cd9" target="_blank">Learn more.</a>
+  Effortlessly stay informed using Copilot to generate audio overviews for key documents, prepping for meetings, or catching up on updates. Providing a quick, engaging way to absorb file content—hands-free. [Learn more.](https://support.microsoft.com/topic/get-an-audio-overview-of-your-notebook-with-microsoft-365-copilot-notebooks-a22df989-b9cd-47fb-abac-e888d8f10cd9)
+
 ### Outlook
+
 - **Copilot Chat Sidebar in Classic Outlook for Windows** [Windows]
 
-  A new sidebar for Copilot Chat is available in classic Outlook for Windows, letting you chat with Copilot in the context of the content you're reading or writing.
- <a href="/copilot/manage" target="_blank">Learn more.</a>
+  A new sidebar for Copilot Chat is available in classic Outlook for Windows, letting you chat with Copilot in the context of the content you're reading or writing. [Learn more.](https://www.microsoft.com/copilot/manage)
+
 ### PowerPoint
+
 - **Excel data when building a presentation** [Web, Mac, Windows]
 
-  You can now reference an Excel file when you create a presentation with Copilot within the PowerPoint application.
- <a href="https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d" target="_blank">Learn more.</a>
-### Teams
-- **Export Copilot interactions with new APIs** 
+  You can now reference an Excel file when you create a presentation with Copilot within the PowerPoint application. [Learn more.](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d)
 
-  Use Graph APIs to securely export Copilot prompts and responses for compliance and security applications, ensuring full visibility of AI activity.
- <a href="/microsoft-365-copilot/extensibility/api/ai-services/interaction-export/aiinteractionhistory-getallenterpriseinteractions?view=graph-rest-1.0&preserve-view=true&pivots=graph-v1" target="_blank">Learn more.</a>
+### Teams
+
+- **Export Copilot interactions with new APIs**
+
+  Use Graph APIs to securely export Copilot prompts and responses for compliance and security applications, ensuring full visibility of AI activity. [Learn more.](https://www.microsoft.com/microsoft-365-copilot/extensibility/api/ai-services/interaction-export/aiinteractionhistory-getallenterpriseinteractions?view=graph-rest-1.0&preserve-view=true&pivots=graph-v1)
+
 ### Viva Glint
+
 - **Enable Copilot for Company Admin role in Viva Glint** [Web]
 
-  Viva Glint admins can now turn on Copilot for Company Admins without creating custom rolesâ&euro;"simplifying Copilot access while maintaining permissions safeguards.
- <a href="/viva/glint/copilot/admin-enable#enable-copilot-for-company-admins" target="_blank">Learn more.</a>
+  Viva Glint admins can now turn on Copilot for Company Admins without creating custom roles—simplifying Copilot access while maintaining permissions safeguards. [Learn more.](https://www.microsoft.com/viva/glint/copilot/admin-enable#enable-copilot-for-company-admins)
+
 ### Word
+
 - **Preserve formatting when drafting from selected text** [Web]
 
   When Copilot generates drafts based on a selection of text, Copilot retains the formatting of the selected text and allows users to apply new formatting, like bold, underline, italic, and more.
-
 
 <!-- 93961,99157,98926,95488,84938,100213,100212,98074,97934,97897,97886,97224,96778,96777,96772,95300,95298,95266,84994,84451,84450,84448,79004,100760,100604,100521,100216,75985,99367,99129,98828,98824,95538,83349 -->
 ## August 19, 2025
