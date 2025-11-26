@@ -606,11 +606,13 @@ Updates released between October 28, 2025, and November 12, 2025.
 
 
 ### Copilot Studio
+
 - **Quarantine and block unsecured agents** [Web]
 
-  Improve security and compliance by using PowerShell to quarantine Copilot agents that don't meet policy requirements. This gives admins more control to prevent risks while investigating and resolving issues without disrupting business operations
- <a href="/microsoft-copilot-studio/admin-quarantine-api" target="_blank">Learn more.</a>
+  Improve security and compliance by using PowerShell to quarantine Copilot agents that don't meet policy requirements. This gives admins more control to prevent risks while investigating and resolving issues without disrupting business operations. [Learn more](https://learn.microsoft.com/en-us/microsoft-copilot-studio/admin-quarantine-api).
+
 ### Excel
+
 - **Build and analyze surveys with ease using Surveys Agent** [Windows, Mac, Web]
 
   Let Surveys Agent handle the heavy lifting—from writing questions to launching surveys and breaking down results. It's like having a professional researcher inside Copilot, helping you make quick, data-driven decisions.
