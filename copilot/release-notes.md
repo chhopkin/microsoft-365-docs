@@ -6596,38 +6596,40 @@ Updates released between October 15, 2025, and October 28, 2025.
   Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation. [Learn more](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.).
 
 ### Teams
+
 - **Teams chats in ContextIQ** [Web]
 
-  Enhance Copilot Chat prompts by searching and selecting Teams chats within ContextIQ, streamlining your workflow and improving context accuracy.
- [Learn more](https://support.microsoft.com/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-and-copilot-chat-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0).
+  Enhance Copilot Chat prompts by searching and selecting Teams chats within ContextIQ, streamlining your workflow and improving context accuracy. [Learn more](https://support.microsoft.com/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-and-copilot-chat-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0).
+
 ### Viva Insights
 - **Weekly user insights in Copilot Studio agent reports",** [Windows, Mac, Web]
 
-  Copilot Studio reports now include weekly active user counts and provide aggregated data on a weekly basis for consistency across reporting. These updates make it easier to track engagement trends for planning and adoption.",
- [Learn more](/viva/insights/advanced/analyst/templates/copilot-studio-agents).
-
+  Copilot Studio reports now include weekly active user counts and provide aggregated data on a weekly basis for consistency across reporting. These updates make it easier to track engagement trends for planning and adoption. [Learn more](/viva/insights/advanced/analyst/templates/copilot-studio-agents).
 
 <!-- 102200,101036,100353,99396,101413,100885,100884,99941,101259 -->
+
 ## October 15, 2025
+
 Updates released between September 30, 2025, and October 15, 2025.
+
 ### Copilot extensibility
 - **Context-aware search ranking** [Windows, Web]
 
-  Search now delivers more personalized results by using user context and engagement signals, enhanced by the Microsoft 365 Copilot extension. This ensures that search results are intuitive and relevant.
- [Learn more](/microsoftsearch/crossover-browser).
+  Search now delivers more personalized results by using user context and engagement signals, enhanced by the Microsoft 365 Copilot extension. This ensures that search results are intuitive and relevant. [Learn more](/microsoftsearch/crossover-browser).
+
 ### Microsoft 365 admin center
 - **Harmful content protection toggle** [Web]
 
-  Admins can now control how users interact with harmful content protection settings in Microsoft 365 Copilot Chat. This is crucial for specialized roles like legal or investigative teams that may need exposure to sensitive content.
- [Learn more](/copilot/microsoft-365/harmful-content-protection-copilot-chat).
+  Admins can now control how users interact with harmful content protection settings in Microsoft 365 Copilot Chat. This is crucial for specialized roles like legal or investigative teams that may need exposure to sensitive content. [Learn more](/copilot/microsoft-365/harmful-content-protection-copilot-chat).
+
 - **Historical Data Upload Support in Organizational Data in Microsoft 365** [Web]
 
-  Enhance your data management by uploading historical HR data manually via CSV files. If the historical option is selected, admins can assign an effective date for precise processing by apps like Viva Insights. This ensures consistent and accurate data across Microsoft 365 and Viva apps.
- [Learn more](/viva/import-orgdata#step-5--make-retroactive-updates-to-existing-data).
+  Enhance your data management by uploading historical HR data manually via CSV files. If the historical option is selected, admins can assign an effective date for precise processing by apps like Viva Insights. This ensures consistent and accurate data across Microsoft 365 and Viva apps. [Learn more](/viva/import-orgdata#step-5--make-retroactive-updates-to-existing-data).
+
 - **Manage table list views with security roles** [Web]
 
-  Enhance security and streamline operations by managing table list views according to specific security roles. This feature empowers administrators with increased control and customization over data access.
- [Learn more](/power-apps/maker/model-driven-apps/manage-view-access).
+  Enhance security and streamline operations by managing table list views according to specific security roles. This feature empowers administrators with increased control and customization over data access. [Learn more](/power-apps/maker/model-driven-apps/manage-view-access).
+
 - **Prepurchase capacity packs for chat** [Web]
 
   Admins can apply pre-purchased message capacity packs to Microsoft 365 Copilot Chat and other agent scenarios before incurring pay-as-you-go charges, optimizing budget management.
