@@ -6734,9 +6734,10 @@ Updates released between September 3, 2025, and September 16, 2025.
 
 - **Use managed  agents as a starting point for Copilot creation** [Web]
 
-  Managed agents in Microsoft Copilot Studio serve as a starting point, allowing makers to leverage industry best practices and design guidelines to ensure a consistent and professional agent experience. Managed agents can be discovered, created, and analyzed by template developers for use by agent makers in your organization. With managed agents, you can quickly set up an agent so you can spend more time customizing your agent's logic and functionality. This streamlined approach not only speeds up the development process but also helps organizations quickly adapt to changing business requirements and improve overall operational efficiency.
- [Learn more](/microsoft-copilot-studio/authoring-install-agent).
+  Managed agents in Microsoft Copilot Studio serve as a starting point, allowing makers to leverage industry best practices and design guidelines to ensure a consistent and professional agent experience. Managed agents can be discovered, created, and analyzed by template developers for use by agent makers in your organization. With managed agents, you can quickly set up an agent so you can spend more time customizing your agent's logic and functionality. This streamlined approach not only speeds up the development process but also helps organizations quickly adapt to changing business requirements and improve overall operational efficiency. [Learn more](/microsoft-copilot-studio/authoring-install-agent).
+
 ### Microsoft 365 admin center
+
 - **Admins can easily manage orphaned agents with comprehensive lifecycle functionality** [Windows, Web]
 
   Admins can effectively manage the lifecycle of ownerless agents. They can easily filter, identify, block, or delete agents that are no longer associated with an owner, ensuring a streamlined and efficient workflow.
@@ -6773,89 +6774,101 @@ Updates released between September 3, 2025, and September 16, 2025.
 
 <!-- 82180,96228,82089,82088,98075,96025 96022 96024,84758,82090,81702,94127,100601,98669,100218,100352,95279,95274,80609,100337,98691 -->
 ## September 3, 2025
+
 Updates released between August 19, 2025, and September 3, 2025.
+
 ### Copilot extensibility
+
 - **Add advanced scripting support for ServiceNow catalog** [Windows, Web]
 
-  Use advanced scripting for user permissions with the ServiceNow Catalog Graph Connector, allowing more customized and secure experiences.
- [Learn more](/microsoftsearch/servicenow-catalog-advanced-flow).
+  Use advanced scripting for user permissions with the ServiceNow Catalog Graph Connector, allowing more customized and secure experiences. [Learn more](/microsoftsearch/servicenow-catalog-advanced-flow).
+
 - **Get clear sync statuses and error insights** [Windows, Web]
 
-  View actionable user sync and ingestion statuses across all states in Microsoft Admin Center to simplify troubleshooting.
- [Learn more](/microsoftsearch/connector-view-details).
+  View actionable user sync and ingestion statuses across all states in Microsoft Admin Center to simplify troubleshooting. [Learn more](/microsoftsearch/connector-view-details).
+
 - **Ground Copilot responses on specific content subsets** [Windows, Web]
 
-  Increase precision with Copilot extensibility by using subsets of data connections, ensuring responses are based on the most relevant information.
- [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-knowledge?branch=main&branchFallbackFrom=pr-en-us-1060).
+  Increase precision with Copilot extensibility by using subsets of data connections, ensuring responses are based on the most relevant information. [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-knowledge?branch=main&branchFallbackFrom=pr-en-us-1060).
+
 - **Search and browse connector catalog with ease** [Windows, Web]
 
-  Admins can now quickly find connectors across categories and functions in the Copilot extensibility catalogâ&euro;"making integrations simpler than ever.
- [Learn more](/microsoftsearch/connector-view-details).
+  Admins can now quickly find connectors across categories and functions in the Copilot extensibility catalogâ&euro;"making integrations simpler than ever. [Learn more](/microsoftsearch/connector-view-details).
+
 ### Copilot Studio
+
 - **Discover and install Copilot Studio agents from Dataverse** [Web]
 
-  Easily find and install Microsoft-built agents in Copilot Studio using the integrated Power Platform catalog, reducing governance and setup complexities.
- [Learn more](/microsoft-copilot-studio/authoring-install-agent).
+  Easily find and install Microsoft-built agents in Copilot Studio using the integrated Power Platform catalog, reducing governance and setup complexities. [Learn more](/microsoft-copilot-studio/authoring-install-agent).
+
 ### Microsoft 365 Copilot app
+
 - **Save an audio overview from Copilot Notebooks to OneDrive** [Web]
 
-  Save the audio overview that you have generated within a Copilot Notebook to OneDrive so you can download or share with others.
- [Learn more](https://support.microsoft.com/topic/get-an-audio-overview-of-your-notebook-with-microsoft-365-copilot-notebooks-a22df989-b9cd-47fb-abac-e888d8f10cd9?preview=true).
+  Save the audio overview that you have generated within a Copilot Notebook to OneDrive so you can download or share with others. [Learn more](https://support.microsoft.com/topic/get-an-audio-overview-of-your-notebook-with-microsoft-365-copilot-notebooks-a22df989-b9cd-47fb-abac-e888d8f10cd9?preview=true).
+
 ### Microsoft 365 Copilot Chat
+
 - **Graph Connectors in CIQ** [Web]
 
-  Ground your Copilot prompts in CIQ using data from your organization's Graph Connectors, so responses reflect your third-party content and deliver richer, more relevant insights.
- [Learn more](https://support.microsoft.com/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-and-copilot-chat-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0).
+  Ground your Copilot prompts in CIQ using data from your organization's Graph Connectors, so responses reflect your third-party content and deliver richer, more relevant insights. [Learn more](https://support.microsoft.com/topic/using-context-iq-to-refer-to-specific-files-people-and-more-in-microsoft-365-copilot-and-copilot-chat-272ac2c1-c5f7-49c9-8a42-2a8a87846fa0).
+
 - **Ground prompts with SharePoint Sites** [Web]
 
   Users can scope their prompts in Copilot Chat by searching and selecting relevant SharePoint Sites, allowing more focused and relevant discussions.
+
 - **Personalize interactions with Copilot Memory** [Android, iOS, Web]
 
-  Copilot Memory leverages insights inferred from conversations between the user and Copilot, along with data from the Microsoft Graph and custom instructions to provide personalized help for tasks. Users have full control and can view, manage, disable or clear memory at any time.
- [Learn more](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-copilot-memory-a-more-productive-and-personalized-ai-for-the-way-you/4432059).
+  Copilot Memory leverages insights inferred from conversations between the user and Copilot, along with data from the Microsoft Graph and custom instructions to provide personalized help for tasks. Users have full control and can view, manage, disable or clear memory at any time. [Learn more](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-copilot-memory-a-more-productive-and-personalized-ai-for-the-way-you/4432059).
+
 - **Use Copilot Chat to enhance Find on Page** [Web]
 
-  Quickly locate the right information by combining CTRL+F with Copilot Chat for smarter, context-aware search in Microsoft Edge for Business.
- [Learn more](https://support.microsoft.com/topic/using-microsoft-copilot-in-edge-at-work-012b3674-bab8-4f99-8585-c961dac68642).
+  Quickly locate the right information by combining CTRL+F with Copilot Chat for smarter, context-aware search in Microsoft Edge for Business. [Learn more](https://support.microsoft.com/topic/using-microsoft-copilot-in-edge-at-work-012b3674-bab8-4f99-8585-c961dac68642).
+
 - **Utilize SharePoint and OneDrive folders in prompts** [Web]
 
   Users can now incorporate SharePoint and OneDrive folders into their Copilot Chat  prompts via the "Attach cloud files" feature, refining content scoping capabilities.
+
 - **View web queries used by Copilot for greater transparency** [web, Windows]
 
   See the exact web queries Copilot sends in response to your prompts, along with the list of websites queried, enhancing your awareness and control over the information process.
+
 ### Microsoft Loop
 - **Turn Copilot Pages into Word documents** [Web]
 
   Move research and content collected in Copilot Pages into Word with one click, simplifying sharing and finalizing documents.
+
 ### Microsoft Purview compliance portal
 - **Data Loss Prevention to restrict Microsoft 365 Copilot processing on content with sensitivity labels** [Web]
 
-  This feature allows DLP policies to provide detection of sensitivity labels in enterprise grounding data and restrict access of the content in Microsoft 365 Copilot.
- [Learn more](/purview/dlp-microsoft365-copilot-location-learn-about).
+  This feature allows DLP policies to provide detection of sensitivity labels in enterprise grounding data and restrict access of the content in Microsoft 365 Copilot. [Learn more](/purview/dlp-microsoft365-copilot-location-learn-about).
+
 ### OneDrive
 - **Ask Copilot questions on Teams meeting recordings** [Web]
 
-  Select a Teams meeting recording in your OneDrive commercial account and ask Copilot to recap the meeting, highlight parts where you were mentioned, or recommend action items and next steps. This feature requires a Microsoft Copilot for Microsoft 365 license and will be available to commercial customers on OneDrive Web. This feature works only on Teams meeting recordings with a transcript.
- [Learn more](https://support.microsoft.com/office/get-started-with-copilot-in-onedrive-7fc81e10-e0cf-4da8-af2e-9876a2770e5d).
+  Select a Teams meeting recording in your OneDrive commercial account and ask Copilot to recap the meeting, highlight parts where you were mentioned, or recommend action items and next steps. This feature requires a Microsoft Copilot for Microsoft 365 license and will be available to commercial customers on OneDrive Web. This feature works only on Teams meeting recordings with a transcript. [Learn more](https://support.microsoft.com/office/get-started-with-copilot-in-onedrive-7fc81e10-e0cf-4da8-af2e-9876a2770e5d).
+
 - **Catch up with hands-free audio overviews of your files** [Web]
 
-  Effortlessly stay informed using Copilot to generate audio overviews for key documents, prepping for meetings, or catching up on updates. Providing a quick, engaging way to absorb file content—hands-free
- [Learn more](https://support.microsoft.com/topic/get-an-audio-overview-of-your-notebook-with-microsoft-365-copilot-notebooks-a22df989-b9cd-47fb-abac-e888d8f10cd9).
+  Effortlessly stay informed using Copilot to generate audio overviews for key documents, prepping for meetings, or catching up on updates. Providing a quick, engaging way to absorb file content—hands-free. [Learn more](https://support.microsoft.com/topic/get-an-audio-overview-of-your-notebook-with-microsoft-365-copilot-notebooks-a22df989-b9cd-47fb-abac-e888d8f10cd9).
+
 ### PowerPoint
+
 - **Excel data when building a presentation** [Web, Mac, Windows]
 
-  You can now reference an Excel file when you create a presentation with Copilot within the PowerPoint application.
- [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
+  You can now reference an Excel file when you create a presentation with Copilot within the PowerPoint application. [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
+
 ### Viva Glint
+
 - **Enable Copilot for Company Admin role in Viva Glint** [Web]
 
-  Viva Glint admins can now turn on Copilot for Company Admins without creating custom rolesâ&euro;"simplifying Copilot access while maintaining permissions safeguards.
- [Learn more](/viva/glint/copilot/admin-enable#enable-copilot-for-company-admins).
+  Viva Glint admins can now turn on Copilot for Company Admins without creating custom rolesâ&euro;"simplifying Copilot access while maintaining permissions safeguards. [Learn more](/viva/glint/copilot/admin-enable#enable-copilot-for-company-admins).
+
 ### Word
+
 - **Preserve formatting when drafting from selected text** [Web]
 
   When Copilot generates drafts based on a selection of text, Copilot retains the formatting of the selected text and allows users to apply new formatting, like bold, underline, italic, and more.
-
 
 <!-- 93961,99157,98926,95488,84938,100213,100212,98074,97934,97897,97886,97224,95300,95298,95266,79004,100604,100521,100216,99367,98828,98824,95538,83349 -->
 ## August 19, 2025
