@@ -615,13 +615,14 @@ Updates released between October 28, 2025, and November 12, 2025.
 
 - **Build and analyze surveys with ease using Surveys Agent** [Windows, Mac, Web]
 
-  Let Surveys Agent handle the heavy lifting—from writing questions to launching surveys and breaking down results. It's like having a professional researcher inside Copilot, helping you make quick, data-driven decisions.
- <a href="https://aka.ms/SurveysAgentAvailable" target="_blank">Learn more.</a>
+  Let Surveys Agent handle the heavy lifting—from writing questions to launching surveys and breaking down results. It's like having a professional researcher inside Copilot, helping you make quick, data-driven decisions. [Learn more](https://aka.ms/SurveysAgentAvailable).
+
 ### Microsoft 365 admin center
+
 - **Block SharePoint agents from Agents and connectors page** [Web]
 
-  Administrators have the ability to oversee SharePoint agents as shared applications within the Agents & connectors section (formerly known as integrated apps) of the Microsoft 365 admin center. They can access a list of all shared SharePoint agents and have the option to block or unblock agents from being utilized on M365 Copilot.
- <a href="/sharepoint/manage-access-agents-in-sharepoint" target="_blank">Learn more.</a>
+  Administrators have the ability to oversee SharePoint agents as shared applications within the Agents & connectors section (formerly known as integrated apps) of the Microsoft 365 admin center. They can access a list of all shared SharePoint agents and have the option to block or unblock agents from being utilized on M365 Copilot. [Learn more.](https://learn.microsoft.com/en-us/sharepoint/manage-access-agents-in-sharepoint).
+
 - **New Enhancements in Organizational Data Ingestion in Microsoft 365** [Web]
 
   Experience a powerful upgrade with new attribute access and mapping, connectors, and a dedicated admin role. Streamline data ingestion from multiple sources to Viva Insights and Glint, simplifying data management and enhancing workflow efficiency.
