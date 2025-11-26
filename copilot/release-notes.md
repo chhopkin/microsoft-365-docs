@@ -143,12 +143,13 @@ Updates released between November 12, 2025, and November 24, 2025.
   Gives admins full confidence before rolling out custom agents at scale
 
 ### Microsoft 365 Copilot app
+
 - **Customize audio overviews for Copilot notebooks** [Web]
 
 
   Personalize the content and tone of audio summaries from your Copilot notebooks by using natural language input.  
 
-    **Roadmap ID:** <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499150">499150</a>
+    **Roadmap ID:** [499150](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499150)
 
     **Details:**  
 
