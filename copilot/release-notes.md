@@ -5283,6 +5283,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 ## January 7, 2025
 
 Updates released between December 18, 2024, and January 7, 2025.
+
 ### Microsoft 365 Copilot extensibility
 
 - **Include Code Interpreter in agents** [Windows, Web]  
