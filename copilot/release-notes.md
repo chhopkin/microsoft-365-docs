@@ -325,17 +325,15 @@ Voice   removes friction, letting you work where typing isn't practical.
   
   **Additional Resources:**
 
-  <a href="https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/overview-custom-engine-agent">Custom engine agents for Microsoft 365 overview</a>
+  [Custom engine agents for Microsoft 365 overview](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/overview-custom-engine-agent)
 
 ---
-- **Enhanced search in Agent Store for easier discovery** [Windows, Web]
 
+- **Enhanced search in Agent Store for easier discovery** [Windows, Web]
 
   Finding the right agents in the Copilot Agent Store just got faster and smarter. Enjoy a streamlined search experience with typeahead suggestions and a clean results page—making it simple to locate exactly what you need without wasted time.  
  
-  **Roadmap ID:** 
-<a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617">502617</a>
-
+  **Roadmap ID:** [502617](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617)
 
     **Details:**  
       
