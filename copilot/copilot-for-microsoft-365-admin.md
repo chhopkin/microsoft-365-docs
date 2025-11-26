@@ -33,7 +33,7 @@ It helps admins perform tasks across different Microsoft 365 services via a sing
 
 ## Before you begin
 
-All users with an admin role can use Copilot for Admins in the M365 admin centers, if the tenant has at least one paid Copilot license. For more information about admin roles, see [About administrator roles in the Microsoft 365 admin center](https://learn.microsoft.com/microsoft-365/admin/add-users/about-admin-roles) and [Microsoft Entra built-in roles](/entra/identity/role-based-access-control/permissions-reference)
+All users with an admin role can use Copilot for Admins in the M365 admin centers, if the tenant has at least one paid Copilot license. For more information about admin roles, see [About administrator roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles) and [Microsoft Entra built-in roles](/entra/identity/role-based-access-control/permissions-reference)
 
 To use it in Copilot Chat, users need to be a member of an admin role and also have a Copilot license assigned to that account or have PayGo setup. For more information about Copilot licensing, see [License options for Microsoft 365 Copilot](microsoft-365-copilot-licensing.md).
 
@@ -49,7 +49,7 @@ To use Copilot in Microsoft 365 admin centers, follow these steps:
 
 1. Sign in to [Microsoft 365 Copilot Chat](https://m365.cloud.microsoft/chat/)and select **Microsoft 365 Admin** agent in the left navigation pane.
 2. If you don’t find the agent in the left navigation pane, select **All agents**, search for **Microsoft 365 Admin** and select **Add**.
-3. You can also use the agent in any apps you use such as Word, Excel, Powerpoint.
+3. You can also use the agent in any apps you use such as Word, Excel, PowerPoint.
 
 ## Capabilities in Copilot for admins
 
