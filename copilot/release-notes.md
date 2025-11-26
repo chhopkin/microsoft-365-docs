@@ -2143,7 +2143,8 @@ Updates released between May 13, 2025, and May 29, 2025.
 
 
 <!-- 84071,75164,96970,94471,93054,97570,83243,96611,99154,96312,98521,98109,97225,96829,96255,96244,94126,93931,93064,93062,84439,83241,95055,72529,99153 -->
-## May 13, 2025
+## Updates of May 13, 2025
+
 Updates released between April 29, 2025, and May 13, 2025.
 ### Copilot Studio
 - **Deeper visibility into agent runs**
@@ -2253,6 +2254,7 @@ Updates released between April 29, 2025, and May 13, 2025.
 
 <!-- 81919,84441,95810,96545,96544,78144,73690,82869,77902,94411,98033,97295,96404,97414,83947,81916,96508,96512 -->
 ## April 29, 2025
+
 Updates released between April 16, 2025, and April 29, 2025.
 ### Excel
 - **Ask Copilot to extract insights from inserted images** [Windows]
@@ -2336,8 +2338,11 @@ Updates released between April 16, 2025, and April 29, 2025.
 
 <!-- 95249,84156,76195,73845,97889,95286,95264,96345,84526,83221,83405 -->
 ## April 16, 2025
+
 Updates released between April 2, 2025, and April 16, 2025.
+
 ### Excel
+
 - **Access Copilot on-grid in Windows** [Windows]
 
   A Copilot icon appears right within your spreadsheet on Windows, giving you quick AI assistance as you work to keep your flow uninterrupted.
@@ -2392,7 +2397,8 @@ Updates released between April 2, 2025, and April 16, 2025.
  [Learn more](https://techcommunity.microsoft.com/blog/spblog/create-pages-with-copilot-in-sharepoint/4394588).
 
 
-## April 2, 2025
+## Updates for April 2, 2025
+
 Updates released between March 20, 2025, and April 2, 2025.
 ### Copilot Studio
 - **Enhanced SharePoint URL support in Copilot Studio** [Web]
@@ -2466,7 +2472,7 @@ Updates released between March 20, 2025, and April 2, 2025.
 
   Easily convert plain text into structured tables, helping you organize and present data more effectively in your daily work.
 
-## March 19, 2025
+## Updates for March 19, 2025
 
 Updates released between March 5, 2025, and March 19, 2025.
 
@@ -4965,7 +4971,7 @@ Updates released between May 13, 2025, and May 29, 2025.
 
 
 <!-- 96970,94471,97570,83243,96611,97225,96244 -->
-## May 13, 2025
+## May 13, 2025 updates
 Updates released between April 29, 2025, and May 13, 2025.
 ### Excel
 - **Advanced analysis with Python and Copilot** [Windows]
@@ -5003,7 +5009,7 @@ Updates released between April 29, 2025, and May 13, 2025.
   Tailor each document opening with your preferred summary style—select brief, standard, or detailed insights to match your workflow.
  [Learn more](https://support.microsoft.com/office/create-a-summary-of-your-document-with-copilot-in-word-79bb7a0a-3bf7-41fe-8c09-56f855b669bf).
 <!-- 81919,96545,96544,77902,97414,81916,96508,96512 -->
-## April 29, 2025
+## April 29, 2025 updates
 Updates released between April 16, 2025, and April 29, 2025.
 ### Excel
 - **Ask Copilot to extract insights from inserted images** [Windows]
@@ -5043,7 +5049,7 @@ Updates released between April 16, 2025, and April 29, 2025.
 
 
 <!-- 95249,84156,76195,73845,95264,96345,84526 -->
-## April 16, 2025
+## Updates for April 2, 2025 and April 16, 2025
 Updates released between April 2, 2025, and April 16, 2025.
 ### Excel
 - **Access Copilot on-grid in Windows** [Windows]
@@ -5081,7 +5087,7 @@ Updates released between April 2, 2025, and April 16, 2025.
 
 
 <!-- 84823 -->
-## April 2, 2025
+## Updates between March 20 and April 2, 2025
 Updates released between March 20, 2025, and April 2, 2025.
 ### PowerPoint
 - **Translate your presentation** [Windows, Web, Mac]
@@ -5090,7 +5096,7 @@ Updates released between March 20, 2025, and April 2, 2025.
  [Learn more](https://support.microsoft.com/topic/translate-your-presentation-with-copilot-2c622fca-daaf-457c-bc74-f3496cf44a85).
 
 
-## March 19, 2025
+## March 19, 2025 updates
 
 Updates released between March 5, 2025, and March 19, 2025.
 
@@ -7540,7 +7546,7 @@ Updates released between April 29, 2025, and May 13, 2025.
   Tailor each document opening with your preferred summary style—select brief, standard, or detailed insights to match your workflow.
  [Learn more](https://support.microsoft.com/office/create-a-summary-of-your-document-with-copilot-in-word-79bb7a0a-3bf7-41fe-8c09-56f855b669bf).
 <!-- 81919,96545,96544,73690,82869,77902,94411,98033,97295,96404,83947,96508,96512 -->
-## April 29, 2025
+## Updates of April 29, 2025
 Updates released between April 16, 2025, and April 29, 2025.
 ### Excel
 - **Formula Explain on grid entry points** [Web]
@@ -7648,7 +7654,7 @@ Updates released between April 2, 2025, and April 16, 2025.
 
 
 <!-- 83343,95770,97325,96069,95072,95842,97326,96239,81548,72729,84823,93924,97327 -->
-## April 2, 2025
+## Updates for April 2, 2025
 Updates released between March 20, 2025, and April 2, 2025.
 ### Copilot Studio
 - **Enhanced SharePoint URL support in Copilot Studio** [Web]
@@ -7704,7 +7710,7 @@ Updates released between March 20, 2025, and April 2, 2025.
 
   The chat experience in Word is now simplified with access to attachments, images, and agents now accessed from a single plus-sign menu.
 
-## March 19, 2025
+## Updates for March 5 to March 19, 2025
 Updates released between March 5, 2025, and March 19, 2025.
 
 ### Copilot Studio
@@ -9142,14 +9148,14 @@ Updates released between May 29, 2025, and June 10, 2025.
   Intelligent meeting recap is now available in GCC High for impromptu calls and meetings, like those started from 'Meet now' and calls started from chat. You can easily browse the recording by speakers and topics, as well as access AI-generated notes, AI-generated tasks, and name mentions after the ad-hoc meeting ends. This capability is available for users with a Teams Premium or M365 Copilot license.
 
 <!-- 98521 -->
-## May 13, 2025
+## Updates between April 29 and May 13, 2025
 Updates released between April 29, 2025, and May 13, 2025.
 ### Microsoft 365 Copilot Chat
 - **Image generation in mobile Copilot chat** [Android, iOS]
 
   Create images using natural language to visualize concepts and ideas within the flow of work, directly in Copilot on Microsoft 365, Teams, and Outlook mobile apps.
 
-## April 2, 2025
+## April 2, 2025 updates
 Updates released between March 20, 2025, and April 2, 2025.
 ### Microsoft 365 Copilot Chat
 - **Ask questions about images with natural language** [Android, iOS, Web]
@@ -9756,7 +9762,7 @@ Updates released between May 29, 2025, and June 10, 2025.
   Intelligent meeting recap is now available in GCC High for impromptu calls and meetings, like those started from 'Meet now' and calls started from chat. You can easily browse the recording by speakers and topics, as well as access AI-generated notes, AI-generated tasks, and name mentions after the ad-hoc meeting ends. This capability is available for users with a Teams Premium or M365 Copilot license.
 
 <!-- 98521,97225 -->
-## May 13, 2025
+## April 29 to May 13, 2025
 Updates released between April 29, 2025, and May 13, 2025.
 ### Excel
 - **Ask Copilot about any part of your sheet** [Web, Mac, Windows, iOS]
@@ -9767,7 +9773,8 @@ Updates released between April 29, 2025, and May 13, 2025.
 
   Create images using natural language to visualize concepts and ideas within the flow of work, directly in Copilot on Microsoft 365, Teams, and Outlook mobile apps.
 
-## April 2, 2025
+## March 20 - April 2, 2025 updates
+
 Updates released between March 20, 2025, and April 2, 2025.
 ### Microsoft 365 Copilot Chat
 - **Ask questions about images with natural language** [Android, iOS, Web]
@@ -9784,7 +9791,7 @@ Updates released between March 20, 2025, and April 2, 2025.
 
   Easily convert plain text into structured tables, helping you organize and present data more effectively in your daily work.
 
-## March 19, 2025
+## March 5, 2025, and March 19, 2025
 
 Updates released between March 5, 2025, and March 19, 2025.
 ### Microsoft 365 Copilot app
@@ -10763,7 +10770,7 @@ Updates released between May 13, 2025, and May 29, 2025.
   Add any image, chart, or diagram to your prompt and Copilot instantly extracts text, explains trends, suggests alt text, and surfaces quick insights—making documents more accessible and informative in seconds.
 
 <!-- 97225,93931,83241 -->
-## May 13, 2025
+## April 29, 2025 - May 13, 2025
 Updates released between April 29, 2025, and May 13, 2025.
 ### Excel
 - **Ask Copilot about any part of your sheet** [Web, Mac, Windows, iOS]
@@ -10785,7 +10792,7 @@ Updates released between April 29, 2025, and May 13, 2025.
   Tailor each document opening with your preferred summary style—select brief, standard, or detailed insights to match your workflow.
  [Learn more](https://support.microsoft.com/office/create-a-summary-of-your-document-with-copilot-in-word-79bb7a0a-3bf7-41fe-8c09-56f855b669bf).
 <!-- 78144,77902 -->
-## April 29, 2025
+## April 16 to April 29, 2025
 Updates released between April 16, 2025, and April 29, 2025.
 ### Outlook
 - **Chat with Copilot in Outlook for Mac** [Mac]
@@ -10798,7 +10805,7 @@ Updates released between April 16, 2025, and April 29, 2025.
   Selecting the Replace button lets you instantly replace your selected text with content that was generated in Draft with Copilot.
 
 <!-- 76195,73845 -->
-## April 16, 2025
+## Updates for April 2 - 16, 2025
 Updates released between April 2, 2025, and April 16, 2025.
 ### Excel
 - **Graph grounded chat** [Windows, Mac, Web]
@@ -10818,7 +10825,7 @@ Updates released between March 20, 2025, and April 2, 2025.
   Produce a translated copy of your entire presentation in about 40 languages while preserving your slide design and structure, making global collaboration effortless.
  [Learn more](https://support.microsoft.com/topic/translate-your-presentation-with-copilot-2c622fca-daaf-457c-bc74-f3496cf44a85).
 
-## March 19, 2025
+## March 5, 2025 - March 19, 2025
 Updates released between March 5, 2025, and March 19, 2025.
 
 ### Microsoft 365 Copilot Chat
