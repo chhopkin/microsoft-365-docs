@@ -4163,7 +4163,7 @@ Updates released between November 12, 2025, and November 24, 2025.
   
   Use new file type and people refiners in Copilot Chat to quickly get to the right file without sifting through results.  
 
-  **Roadmap ID:** [Learn more](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=481136">481136 </a>
+  **Roadmap ID:** [481136](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=481136)
 
   **Details:**  
  
