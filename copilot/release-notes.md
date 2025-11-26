@@ -395,7 +395,9 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Learn:** 
 
-  <a href="https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry?view=o365-worldwide#export-to-excel">Export to Excel</a>
+  [Export to Excel](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry?view=o365-worldwide#export-to-excel)
+
+
 ---
   
 - **Support Message Extensions as Declarative Agents on Mobile** [Android, iOS]
