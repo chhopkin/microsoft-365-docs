@@ -2872,7 +2872,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
   Hear Copilot's replies in the chat pane, letting you stay hands-free while reviewing your content.
 
-## January 7, 2025
+## January 7, 2025 — Release Overview
 
 Updates released between December 18, 2024, and January 7, 2025.
 ### Microsoft 365 Copilot
@@ -5297,7 +5297,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
   Hear Copilot's replies in the chat pane, letting you stay hands-free while reviewing your content.
 
-## January 7, 2025
+## January 7, 2025 — What’s New
 
 Updates released between December 18, 2024, and January 7, 2025.
 
@@ -7916,7 +7916,7 @@ Updates released between January 24, 2025, and February 4, 2025.
 
   Add .txt files as sources with Copilot in Word, streamlining your process when working with text-based research or background content.
 
-## January 23, 2025 - Feature Additions
+## January 23, 2025 — Release Overview
 
 Updates released between January 8, 2025, and January 23, 2025.
 ### Forms
@@ -7979,7 +7979,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
   Hear Copilot's replies in the chat pane, letting you stay hands-free while reviewing your content.
 
-## January 7, 2025
+## January 7, 2025 — Feature Additions
 
 Updates released between December 18, 2024, and January 7, 2025.
 ### Microsoft 365 admin center
@@ -9219,7 +9219,7 @@ Updates released between January 24, 2025, and February 4, 2025.
 
 <!--- All features that have 'Android' tag  -->
 
-## January 23, 2025 - Documentation Updates
+## January 23, 2025 — What’s New
 
 Updates released between January 8, 2025, and January 23, 2025.
 
@@ -9233,7 +9233,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
   Admins gain control to turn off file uploads for Copilot Chat, helping maintain compliance when sharing sensitive content. 
 
-## January 7, 2025
+## January 7, 2025 — Documentation Updates
 
 Updates released between December 18, 2024, and January 7, 2025.
 ### Microsoft 365 Copilot
@@ -9868,7 +9868,7 @@ Updates released between January 24, 2025, and February 4, 2025.
   Quickly produce paragraphs or entire sections for your documents, whether you're creating a brand-new file or adding to existing text. [Learn more](https://support.microsoft.com/office/draft-and-add-content-with-copilot-in-word-069c91f0-9e42-4c9a-bbce-fddf5d581541).
 
 
-## January 23, 2025 - Monthly updates
+## January 23, 2025 — Feature Additions
 
 Updates released between January 8, 2025, and January 23, 2025.
 
@@ -9888,7 +9888,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
   This adds seven new Copilot adoption metrics to the Copilot dashboard and Viva Insights Advanced insights. It also updates the "total actions taken" metric in the Copilot dashboard to include these new Copilot adoption metrics. [Learn more](https://techcommunity.microsoft.com/blog/viva_insights_blog/new-microsoft-copilot-analytics-features-now-available-%E2%80%93-novemberdecember-2024/4356206).
 
-## January 7, 2025
+## January 7, 2025 — Release Summary
 
 Updates released between December 18, 2024, and January 7, 2025.
 
@@ -10918,7 +10918,7 @@ Updates released between January 24, 2025, and February 4, 2025.
   Add .txt files as sources with Copilot in Word, streamlining your process when working with text-based research or background content.
 
 
-## January 23, 2025 - Release Summary
+## January 23, 2025 — Documentation Updates
 
 Updates released between January 8, 2025, and January 23, 2025.
 
@@ -10954,7 +10954,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
   Hear Copilot's replies in the chat pane, letting you stay hands-free while reviewing your content.
 
-## January 7, 2025
+## January 7, 2025 — Highlights
 
 Updates released between December 18, 2024, and January 7, 2025.
 ### Viva Insights
@@ -11452,5 +11452,6 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
