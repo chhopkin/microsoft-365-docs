@@ -10445,7 +10445,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Additional Resources:**
 
-  [Learn more](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea?preview=true" target="_blank">Get started with voice features in Microsoft 365 Copilot</a>
+  [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea)
   
   ---
 ### Microsoft 365 PowerPoint
