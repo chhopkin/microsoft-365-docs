@@ -4457,8 +4457,11 @@ Updates released between September 16, 2025, and September 30, 2025.
 
 
 <!-- 100345,84276,100364,97770,96984 -->
+
 ## September 16, 2025
+
 Updates released between September 3, 2025, and September 16, 2025.
+
 ### Copilot extensibility
 - **Improve Response accuracy when handling large files in File Upload/CIQ.** [Windows, Web]
 
@@ -4467,15 +4470,19 @@ Updates released between September 3, 2025, and September 16, 2025.
 
   Enhance ServiceNow Connectors with customizable URLs for articles, tickets, and catalog items, tailored to organizational preferences.
  [Learn more](/microsoftsearch/configure-connector#customize-values-for-certain-schema-properties).
+
 ### Microsoft 365 admin center
+
 - **Admins can easily manage orphaned agents with comprehensive lifecycle functionality** [Windows, Web]
 
   Admins can effectively manage the lifecycle of ownerless agents. They can easily filter, identify, block, or delete agents that are no longer associated with an owner, ensuring a streamlined and efficient workflow.
+
 ### Microsoft 365 Copilot app
+
 - **Microsoft 365 Copilot Search** [Android, Windows, iOS, Web]
 
-  Copilot Search is the intelligent search experience within the Microsoft 365 Copilot app, designed to deliver fast, secure, and context-aware results across your organization's data. It enables users to search across emails, files, chats, meetings, and even third-party platforms like Salesforce, Jira, and Confluence using natural language queries.
- [Learn more](/copilot/microsoft-365/microsoft-365-copilot-search).
+  Copilot Search is the intelligent search experience within the Microsoft 365 Copilot app, designed to deliver fast, secure, and context-aware results across your organization's data. It enables users to search across emails, files, chats, meetings, and even third-party platforms like Salesforce, Jira, and Confluence using natural language queries. [Learn more](/copilot/microsoft-365/microsoft-365-copilot-search).
+
 ### OneNote
 - **Create and use Copilot Notebooks in OneNote** [Windows]
 
