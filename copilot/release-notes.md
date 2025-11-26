@@ -6447,40 +6447,51 @@ When building a presentation with Copilot, you can now pull in content from Loop
     [Copilot skills in SharePoint admin centers](learn.microsoft.com/en-us/SharePoint/copilot-skills-sharepoint-admin-centers)
 
 <!-- 101643,100829,100490,103496,101683,100910,100875,100679,100896,98419,95902,83819 -->
+
 ## November 12, 2025
+
 Updates released between October 28, 2025, and November 12, 2025.
+
 ### Copilot extensibility
+
 - **Custom Agents can be used from inside of Office Applications** [Web]
 
   Certainly! Supporting Custom Engine Agents inside Office applications offers numerous advantages that significantly enhance user experience and productivity. Firstly, it allows for highly tailored automation and customization, enabling users to create and deploy agents that cater specifically to their unique workflows and business needs.
 
   This flexibility can lead to more efficient processes and reduced manual effort. Secondly, Custom Engine Agents can integrate seamlessly with existing Office functionalities, providing a cohesive and unified user experience. This integration ensures that users can leverage the full power of Office applications while benefiting from the specialized capabilities of their custom agents.
 
-  Additionally, these agents can help in automating repetitive tasks, improving accuracy, and freeing up time for more strategic activities. Overall, the support for Custom Engine Agents within Office applications empowers users to optimize their work environment, drive innovation, and achieve higher levels of productivity.
- [Learn more](/microsoft-365-copilot/extensibility/agents-overview#custom-engine-agents).
+  Additionally, these agents can help in automating repetitive tasks, improving accuracy, and freeing up time for more strategic activities. Overall, the support for Custom Engine Agents within Office applications empowers users to optimize their work environment, drive innovation, and achieve higher levels of productivity. [Learn more](/microsoft-365-copilot/extensibility/agents-overview#custom-engine-agents).
+
 ### Copilot Studio
+
 - **Quarantine and block unsecured agents** [Web]
 
-  Improve security and compliance by using PowerShell to quarantine Copilot agents that don't meet policy requirements. This gives admins more control to prevent risks while investigating and resolving issues without disrupting business operations
- [Learn more](/microsoft-copilot-studio/admin-quarantine-api).
+  Improve security and compliance by using PowerShell to quarantine Copilot agents that don't meet policy requirements. This gives admins more control to prevent risks while investigating and resolving issues without disrupting business operations. [Learn more](/microsoft-copilot-studio/admin-quarantine-api).
+
 ### Excel
+
 - **Build and analyze surveys with ease using Surveys Agent** [Windows, Mac, Web]
 
-  Let Surveys Agent handle the heavy lifting—from writing questions to launching surveys and breaking down results. It's like having a professional researcher inside Copilot, helping you make quick, data-driven decisions.
- [Learn more](https://aka.ms/SurveysAgentAvailable).
+  Let Surveys Agent handle the heavy lifting—from writing questions to launching surveys and breaking down results. It's like having a professional researcher inside Copilot, helping you make quick, data-driven decisions. [Learn more](https://aka.ms/SurveysAgentAvailable).
+
 ### Microsoft 365 admin center
+
 - **Block SharePoint agents from Agents and connectors page** [Web]
 
-  Administrators have the ability to oversee SharePoint agents as shared applications within the Agents & connectors section (formerly known as integrated apps) of the Microsoft 365 admin center. They can access a list of all shared SharePoint agents and have the option to block or unblock agents from being utilized on M365 Copilot.
- [Learn more](/sharepoint/manage-access-agents-in-sharepoint).
+  Administrators have the ability to oversee SharePoint agents as shared applications within the Agents & connectors section (formerly known as integrated apps) of the Microsoft 365 admin center. They can access a list of all shared SharePoint agents and have the option to block or unblock agents from being utilized on M365 Copilot. [Learn more](/sharepoint/manage-access-agents-in-sharepoint).
+
 - **New Enhancements in Organizational Data Ingestion in Microsoft 365** [Web]
 
   Experience a powerful upgrade with new attribute access and mapping, connectors, and a dedicated admin role. Streamline data ingestion from multiple sources to Viva Insights and Glint, simplifying data management and enhancing workflow efficiency.
+
 ### Microsoft 365 Copilot Chat
+
 - **Iterate on images with multi-turn editing** [Windows, Mac, Web]
 
   Copilot Chat now makes visual creation more flexible and intuitive. Upload reference images, edit them step by step, and maintain consistency across versions—perfect for refining designs for presentations, social posts, or print.
+
 - **RSVP status-based meeting search in Copilot Chat** [Android, Windows, Web]                          
+
 **Roadmap:** [Learn more](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499429"  target="_blank">499429</a> 
   
   Quickly find meetings based on RSVP status—either your own or others'. This feature helps you stay organized by surfacing RSVP details for upcoming events, so you can track commitments and follow up with attendees.
