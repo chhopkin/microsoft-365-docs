@@ -6278,7 +6278,8 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Learn:** 
 
-  [Learn more](/microsoft-365/admin/manage/agent-registry?view=o365-worldwide#export-to-excel">Export to Excel</a>
+  [Export to Excel](/microsoft-365/admin/manage/agent-registry?view=o365-worldwide#export-to-excel)
+
 - **Unified permissions management for agents** [Windows, Web]
 
   View detailed permissions for each Copilot agent in one place—including app dependencies, delegated permissions, and associated risks. Admins can grant consent directly, simplifying governance and deployment.
