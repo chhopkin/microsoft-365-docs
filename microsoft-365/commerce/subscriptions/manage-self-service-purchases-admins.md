@@ -16,7 +16,6 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_ssp
 - AdminSurgePortfolio
@@ -24,8 +23,8 @@ ms.custom:
 - admindeeplinkMAC
 - GAUpdates
 - campaignIDs-batch1
-search.appverid:
-- MET150
+service.tree.id: 89d497da-847a-4f93-b7cd-1eb2bdc1d8a3
+search.appverid: MET150
 description: "Learn how admins can use the Microsoft 365 admin center to manage self-service purchases and trials made by users in their organization."
 ms.date: 10/08/2025
 ---

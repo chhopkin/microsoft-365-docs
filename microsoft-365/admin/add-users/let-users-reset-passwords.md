@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: 10/01/2024
 audience: Admin
 ms.topic: how-to
-ms.service: microsoft-365-business
+ms.service: microsoft-365-security
 ms.localizationpriority: medium
 ms.collection:
 - Tier1
@@ -17,7 +17,6 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-- trust-pod
 ms.custom:
 - VSBFY23
 - MSStore_Link
@@ -68,5 +67,4 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 ## Related content
 
 [Set the password expiration policy for your organization](../manage/set-password-expiration-policy.md) (article)\
-[Set an individual user's password to never expire](set-password-to-never-expire.md) (article)\
 [Microsoft 365 Business training videos](../../business-video/index.yml) (link page)

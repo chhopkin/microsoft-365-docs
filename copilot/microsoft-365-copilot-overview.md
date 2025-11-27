@@ -7,7 +7,7 @@ ms.author: efrene
 author: Efrene
 ms.update-cycle: 180-days
 manager: scotv
-ms.date: 10/22/2025
+ms.date: 11/07/2025
 audience: Admin
 ms.reviewer: mandia
 ms.topic: overview
@@ -25,19 +25,6 @@ appliesto:
 ---
 
 # Microsoft 365 Copilot overview
-
-> [!NOTE]
-> - Copilot Chat is in the process of transitioning to OpenAI's latest generative AI model, the GPT-5 model, as its primary supporting LLM. [Users can try GPT-5](https://support.microsoft.com/topic/12c8d9f8-db32-4f99-8ebe-d8d85879137f) with their Copilot prompts by selecting the **Try GPT-5** button at the top right in Copilot Chat.
-> - When using GPT-5 in Copilot Chat, Copilot chooses the best model, including GPT-5, to generate a response that has increased complexity, accuracy, and overall performance.
-> - The **Try GPT-5** button will appear in Copilot Chat, whether users do or don't have a Microsoft 365 Copilot license.
-> - This model update doesn't change your [security, privacy, or compliance settings](/copilot/microsoft-365/manage-public-web-access).
->
-> GPT-5 is not yet available in [Microsoft 365 Copilot GCC](https://adoption.microsoft.com/copilot/gcc/).
->
-> For more information, see the following articles:
->
-> - [Microsoft 365 Blog: Available today -- GPT-5 in Microsoft 365 Copilot](https://www.microsoft.com/en-us/microsoft-365/blog/2025/08/07/available-today-gpt-5-in-microsoft-365-copilot/)
-> - [Understanding foundation model changes in Microsoft 365 Copilot](https://techcommunity.microsoft.com/blog/microsoft_365blog/understanding-foundation-model-changes-in-microsoft-365-copilot/4440322)
 
 > [!NOTE]
 > Microsoft 365 Copilot is adding Anthropic's Claude AI models as an optional supporting LLM. Users can try Claude with their Copilot prompts by selecting the **Try Claude** button in the Microsoft 365 Copilot app.
@@ -195,3 +182,4 @@ More resources:
 - Learn about [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
 - Get [sample prompts at the Copilot Prompt Gallery](https://m365.cloud.microsoft/copilot-prompts) and [training at the Microsoft 365 Copilot Skilling Center](https://adoption.microsoft.com/copilot/skilling-center/).
 - Stay up to date on the latest Copilot features, changes, and announcements using the [Message center](/microsoft-365/admin/manage/message-center) in the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/MessageCenter).
+- [Understanding foundation model changes in Microsoft 365 Copilot](https://techcommunity.microsoft.com/blog/microsoft_365blog/understanding-foundation-model-changes-in-microsoft-365-copilot/4440322)
