@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 11/27/2025
+ms.date: 11/28/2025
 audience: Admin
 ms.reviewer: dansimp
 ms.topic: article
@@ -126,13 +126,15 @@ The CPA overview section provides a summary of all CPA requests submitted for yo
 
 It includes:
 
-- Total CPAs and Active CPAs
-- Active CPAs by workload (Exchange, SharePoint, Teams)
+- **Total CPAs** and **Active CPAs**
+- **Active CPAs by workload** (Exchange, SharePoint, Teams)
 - A searchable and filterable list of CPA requests
+
 You can:
-- Filter CPAs by status or workload
-- Export CPA data for reporting or tracking
-- Refresh the view to see the latest submissions
+
+- **Filter** CPAs by status or workload
+- **Export** CPA data for reporting or tracking
+- **Refresh** the view to see the latest submissions
 
 Each CPA entry includes key details:
 
@@ -152,7 +154,7 @@ By clicking the project title, a flyout would be shown form right side of the po
 
 ### Active CPAs by workload
 
-The Active CPAs by Workload chart provides a quick visual summary of ongoing CPA engagements by product area. This helps you identify which workloads currently have active awareness requests and plan accordingly.
+The **Active CPAs by Workload** chart provides a quick visual summary of ongoing CPA engagements by product area. This helps you identify which workloads currently have active awareness requests and plan accordingly.
 
 ## Customer Advisory Board (CAB)
 
