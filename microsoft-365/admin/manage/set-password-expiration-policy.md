@@ -49,7 +49,9 @@ You must be a [user administrator](../add-users/about-admin-roles.md) to perform
 
 To set user passwords to expire after a set amount of time, follow these steps:
 
-1. In the Microsoft 365 admin center, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">**Org Settings** page</a>. If you don't have an appropriate role assigned, you won't see the **Org Settings** option.
+1. In the Microsoft 365 admin center, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">**Org Settings** page</a>. 
+
+   If you don't have an appropriate role assigned, you won't see the **Org Settings** option. In this case, [Check admin roles in your organization](../add-users/assign-admin-roles.md#check-admin-roles-in-your-organization).
   
 2. In the **Security and Privacy** tab, on the **Password expiration policy** page, uncheck the box to change the password policy.
 
