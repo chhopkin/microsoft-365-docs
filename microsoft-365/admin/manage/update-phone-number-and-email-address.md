@@ -67,3 +67,8 @@ For answers to billing questions, see:
 [Remove a former employee](../add-users/remove-former-employee.md)
 
 [Access and back up a former user's data](../add-users/get-access-to-and-back-up-a-former-user-s-data.md)
+
+[Get support for Microsoft 365 for business](../get-help-support.md)
+
+[Manage user authentication methods for Microsoft Entra multifactor authentication](/entra/identity/authentication/howto-mfa-userdevicesettings)
+
