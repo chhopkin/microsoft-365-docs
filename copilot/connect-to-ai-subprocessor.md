@@ -1,5 +1,5 @@
 ---
-title: "Integrate and manage Anthropic's AI Models in Microsoft 365 Copilot"
+title: "Anthropic as a subprocessor for Microsoft 365 Copilot"
 ms.author: kwekua
 author: kwekuako
 ms.update-cycle: 180-days
@@ -21,7 +21,7 @@ appliesto:
 description: "Learn about how to connect your organization to Anthropic's AI models."
 ---
 
-# Integrate and manage Anthropic's AI Models in Microsoft 365 Copilot
+# Anthropic as a subprocessor for Microsoft 365 Copilot
 
 Microsoft is introducing a new offering with Anthropic AI models as part of Microsoft Online Services, delivering enterprise-grade commitments and safeguards to ensure secure and responsible use of Anthropic models within your organization.
 
