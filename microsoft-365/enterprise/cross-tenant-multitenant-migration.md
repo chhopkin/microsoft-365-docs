@@ -74,7 +74,7 @@ Defining the migration scope is a crucial step that determines the users and gro
 5. Reference the group in migration configuration. When configuring the migration, specify the group name as the *MailboxMovePublishedScope* in the organization relationship or migration tool.
 
 > [!NOTE]
-> You can also complete the migration scope process in the M365 Admin center.
+> You can also complete the migration scope process in the Microsoft 365 admin center.
 
 ## Organization relationship updates
 
