@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 11/18/2025
+ms.date: 11/21/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -81,7 +81,7 @@ Administrators can delete an instance from the Microsoft 365 admin center when i
 
 1. Confirm the deletion when prompted.
 
-1. Notify the Hiring Manager of Deletion.
+1. Notify the owner of Deletion.
 
 1. Provide access to Instance's OneDrive and Outlook data for 30 days (about 4 and a half weeks).
 

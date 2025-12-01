@@ -1,6 +1,6 @@
 ---
 title: "Microsoft 365 U.S. Government GCC High endpoints"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 10/30/2025

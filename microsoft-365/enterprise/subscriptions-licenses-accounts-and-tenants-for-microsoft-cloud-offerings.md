@@ -1,6 +1,6 @@
 ---
 title: "Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 07/22/2024

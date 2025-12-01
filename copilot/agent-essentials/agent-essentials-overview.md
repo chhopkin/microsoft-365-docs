@@ -18,7 +18,7 @@ description: Learn about the Microsoft 365 Copilot Agent Management Essentials.
 
 # Microsoft 365 Copilot Agent Management Essentials
 
-The guidance provided within this set of content has been designed to help you view, manage, create, protect, and understand all aspects of Microsoft 365 Coplot agents.
+The guidance provided within this set of content has been designed to help you view, manage, create, protect, and understand all aspects of Microsoft 365 Copilot agents.
 
 Key aspects of this content include the following topics:
 - [Prerequisites](agent-prerequisites.md) - Understand licensing requirements, admin permissions, and access controls.

@@ -2,7 +2,7 @@
 title: Manage multitenant org settings
 description: Details regarding multitenant org settings found in the Microsoft Admin Center
 author: kelleyvice-msft
-ms.author: kvice
+ms.author: scotv
 manager: scotv
 ms.reviewer: jakeost
 ms.service: microsoft-365-enterprise

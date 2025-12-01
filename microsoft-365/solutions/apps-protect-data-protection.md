@@ -1,8 +1,8 @@
 ---
 title: "Understand app data protection using Microsoft Intune"
-ms.author: erikre
-author: erikre
-manager: dougeby
+ms.author: nwhite
+author: nicholasswhite
+manager: laurawi
 audience: ITPro
 ms.topic: concept-article
 ms.date: 04/21/2025
