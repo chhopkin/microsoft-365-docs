@@ -15,9 +15,9 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_billing
+service.tree.id: 95459a4b-434c-4f83-879b-aa5f509fc7fa
 search.appverid: MET150
 description: "Learn how to keep your Microsoft business billing accounts active."
 ms.date: 09/15/2025

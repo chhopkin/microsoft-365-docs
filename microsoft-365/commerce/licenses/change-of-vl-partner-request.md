@@ -15,6 +15,7 @@ ms.collection:
 ms.custom:
 - commerce_vl
 - AdminTemplateSet
+service.tree.id: e6e1ea2a-04a0-4f78-bc75-7d45c90eee39
 search.appverid: MET150
 ms.localizationpriority: medium
 description: "Learn how to initiate a volume licensing Change of Channel Partner (COCP) request in the Microsoft 365 admin center."
