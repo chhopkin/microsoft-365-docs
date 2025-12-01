@@ -243,7 +243,7 @@ New-MigrationEndpoint -RemoteServer outlook.office.com `
 
 - RemoteServer: Always use outlook.office.com for Exchange Online migrations.
 - RemoteTenant: The tenant ID of the source tenant.
-- Credentials: The previously-created PSCredential object.
+- Credentials: The previously created PSCredential object.
 - ApplicationId: The migration application’s client ID.
 
 4. Validate the migration endpoint:
