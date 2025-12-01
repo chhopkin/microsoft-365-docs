@@ -30,7 +30,7 @@ This article explains how you, the admin, can change your business phone and ema
   
 If you're looking for how to change your company's profile information, such as company name and address, company phone number, and technical contact information, see [Change your organization's address, technical contact email, and other information](change-address-contact-and-more.md).
 
-For more information about changing user contact information or removing former employees, see [Related content](#related-content).
+For more information about changing user contact information or removing former users, see [Related content](#related-content).
   
 ## Update your phone number
   
@@ -64,7 +64,7 @@ For answers to billing questions, see:
 
 [Change a user name and email address](../add-users/change-a-user-name-and-email-address.md)
 
-[Remove a former employee](../add-users/remove-former-employee.md)
+[Remove a former user](../add-users/remove-former-employee.md)
 
 [Access and back up a former user's data](../add-users/get-access-to-and-back-up-a-former-user-s-data.md)
 
