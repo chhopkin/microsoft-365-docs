@@ -1113,7 +1113,7 @@ Updates released between August 19, 2025, and September 3, 2025.
 
 - **Data Loss Prevention to restrict Microsoft 365 Copilot processing on content with sensitivity labels** [Web]
 
-  This feature allows DLP policies to provide detection of sensitivity labels in enterprise grounding data and restrict access of the content in Microsoft 365 Copilot. [Learn more.](https://www.microsoft.com/purview/dlp-microsoft365-copilot-location-learn-about)
+  This feature allows DLP policies to provide detection of sensitivity labels in enterprise grounding data and restrict access of the content in Microsoft 365 Copilot. [Learn more.](/purview/dlp-microsoft365-copilot-location-learn-about)
 
 - **Ask Copilot questions on Teams meeting recordings** [Web]
 
@@ -1128,7 +1128,7 @@ Updates released between August 19, 2025, and September 3, 2025.
 
 - **Copilot Chat Sidebar in Classic Outlook for Windows** [Windows]
 
-  A new sidebar for Copilot Chat is available in classic Outlook for Windows, letting you chat with Copilot in the context of the content you're reading or writing. [Learn more.](https://www.microsoft.com/copilot/manage)
+  A new sidebar for Copilot Chat is available in classic Outlook for Windows, letting you chat with Copilot in the context of the content you're reading or writing. [Learn more.](/copilot/manage)
 
 ### PowerPoint
 
@@ -1140,13 +1140,13 @@ Updates released between August 19, 2025, and September 3, 2025.
 
 - **Export Copilot interactions with new APIs**
 
-  Use Graph APIs to securely export Copilot prompts and responses for compliance and security applications, ensuring full visibility of AI activity. [Learn more.](https://www.microsoft.com/microsoft-365-copilot/extensibility/api/ai-services/interaction-export/aiinteractionhistory-getallenterpriseinteractions?view=graph-rest-1.0&preserve-view=true&pivots=graph-v1)
+  Use Graph APIs to securely export Copilot prompts and responses for compliance and security applications, ensuring full visibility of AI activity. [Learn more.](/microsoft-365-copilot/extensibility/api/ai-services/interaction-export/aiinteractionhistory-getallenterpriseinteractions?pivots=graph-v1)
 
 ### Viva Glint
 
 - **Enable Copilot for Company Admin role in Viva Glint** [Web]
 
-  Viva Glint admins can now turn on Copilot for Company Admins without creating custom roles—simplifying Copilot access while maintaining permissions safeguards. [Learn more.](https://www.microsoft.com/viva/glint/copilot/admin-enable#enable-copilot-for-company-admins)
+  Viva Glint admins can now turn on Copilot for Company Admins without creating custom roles—simplifying Copilot access while maintaining permissions safeguards. [Learn more.](/viva/glint/copilot/admin-enable#enable-copilot-for-company-admins)
 
 ### Word
 
