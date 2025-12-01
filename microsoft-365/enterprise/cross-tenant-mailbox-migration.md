@@ -623,7 +623,7 @@ Cross-tenant migration only migrates mailbox data and nothing else. There are mu
 
 ### Can I have the same labels in the destination tenant as you had in the source tenant? Either as the only set of labels or an additional set of labels for the migrated users, depending on alignment between the organizations.\*\*
 
-Because cross-tenant migrations don't export labels and there's no way to share labels between tenants, you can only achieve this objective by recreating the labels in the destination tenant.
+Because cross-tenant migrations don't export labels and there's no way to share labels between tenants, recreating the labels in the destination tenant is the only way to achieve this objective.
 
 ### Do you support moving Microsoft 365 Groups?
 

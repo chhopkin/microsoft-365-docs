@@ -1,8 +1,8 @@
 ---
 title: "Step 4. Troubleshoot app deployment issues"
-ms.author: erikre
-author: erikre
-manager: dougeby
+ms.author: nwhite
+author: nicholasswhite
+manager: laurawi
 audience: ITPro
 ms.topic: troubleshooting-general
 ms.date: 04/21/2025

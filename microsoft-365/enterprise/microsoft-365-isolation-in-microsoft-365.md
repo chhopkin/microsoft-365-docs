@@ -1,6 +1,6 @@
 ---
 title: "Isolation and Access Control in Microsoft 365"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 05/17/2024
