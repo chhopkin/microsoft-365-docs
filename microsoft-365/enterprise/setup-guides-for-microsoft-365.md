@@ -1,6 +1,6 @@
 ---
 title: "Advanced deployment guides for Microsoft 365 and Office 365 products"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 10/07/2024
