@@ -1,6 +1,6 @@
 ---
 title: "URLs and IP address ranges for Microsoft 365 operated by 21Vianet"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 11/27/2025
