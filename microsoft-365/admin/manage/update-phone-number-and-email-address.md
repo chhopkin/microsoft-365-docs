@@ -26,11 +26,10 @@ description: "Update your administrator phone number and email address in the ad
 
 # Update your Microsoft 365 admin phone number and email address
 
-This article explains how you, the admin, can change your business phone and email address in Microsoft 365.
+This article describes how to update the phone number and email address for yourself or other users in Microsoft 365.
   
-If you're looking for how to change your company's profile information, such as company name and address, company phone number, and technical contact information, see [Change your organization's address, technical contact email, and other information](change-address-contact-and-more.md).
-
-For more information about changing user contact information or removing former users, see [Related content](#related-content).
+- If you're looking for information about how to change your company's name, address, phone number, or technical contact information, see [Change your organization's address, technical contact email, and other information](change-address-contact-and-more.md).
+- For more information about changing user contact information or removing former users, see [Related content](#related-content).
   
 ## Update your phone number
   
