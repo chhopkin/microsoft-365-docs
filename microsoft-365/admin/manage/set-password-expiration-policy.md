@@ -39,7 +39,7 @@ This article is for people who set password expiration policies for organization
 
 As a user administrator, you can make user passwords expire after a certain number of days, or set passwords to never expire. **By default, passwords are set to never expire for your organization**.
 
-To avoid security risks associated with users setting weak passwords or reusing old passwords, we recommend enabling [multi-factor authentication](../security-and-compliance/set-up-multi-factor-authentication.md). See [Password policy recommendations](../misc/password-policy-recommendations.md).
+To avoid security risks associated with users setting weak passwords or reusing old passwords, we recommend enabling [multifactor authentication](../security-and-compliance/set-up-multi-factor-authentication.md). See [Password policy recommendations](../misc/password-policy-recommendations.md).
 
 ## Before you begin
 
@@ -47,9 +47,9 @@ You must be a [user administrator](../add-users/about-admin-roles.md) to perform
 
 ## Set password expiration policy
 
-Follow the steps below if you want to set user passwords to expire after a specific amount of time.
+To set user passwords to expire after a set amount of time, follow these steps:
 
-1. In the Microsoft 365 admin center, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">**Org Settings** page</a>. Note that if you don't have an appropriate role assigned, you won't see the **Org Settings** option.
+1. In the Microsoft 365 admin center, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">**Org Settings** page</a>. If you don't have an appropriate role assigned, you won't see the **Org Settings** option.
   
 2. In the **Security and Privacy** tab, on the **Password expiration policy** page, uncheck the box to change the password policy.
 
@@ -60,7 +60,7 @@ Follow the steps below if you want to set user passwords to expire after a speci
   
 ## Important things you need to know about the password expiration feature
   
-People who only use the Outlook app won't be forced to reset their Microsoft 365 password until it expires in the cache. This can be several days after the actual expiration date. There's no workaround for this at the admin level.
+People who only use the Outlook app aren't forced to reset their Microsoft 365 password until it expires in the cache. This process can take days after the actual expiration date. There's no workaround for this configuration at the admin level.
 
 ## Prevent last password from being used again
 
@@ -72,7 +72,7 @@ In Microsoft Entra ID, the last password can't be used again when the user chang
 
 ## New and federated domains
 
-Password policies you choose is set for each managed domain in your organization. If you add a new domain or convert a domain from federated to managed, you need to re-enable the organization password policy to update all domains again, otherwise the new or converted domain keeps the default policy.
+Password policies are set for each managed domain in your organization. If you add a new domain or convert a domain from *federated* to *managed*, you need to re-enable the organization password policy to update all domains again; otherwise, the new or converted domain keeps the default policy.
 
 ## Synchronize user passwords hashes from an on-premises Active Directory to Microsoft Entra ID (Microsoft 365)
 
