@@ -264,7 +264,7 @@ Ensure the endpoint status is **Active** and the configuration matches your migr
 After preparing for migration, you must convert B2B guests (external users) in the target tenant to internal member users. This step is required to allow migrated guests to have the correct permissions and access as internal members in the destination tenant.
 
 > [!WARNING]
-> This conversion will break the MTO collaboration experience. If you need keep the MTO collaboration experience then you need to provision new user objects for migration.
+> This conversion breaks the MTO collaboration experience. If you need keep the MTO collaboration experience, you need to provision new user objects for migration.
 
 > [!IMPORTANT]
 > This conversion should be done when you're ready to start the migration.
