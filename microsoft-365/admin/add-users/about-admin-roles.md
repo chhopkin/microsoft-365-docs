@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 10/01/2025
+ms.date: 12/01/2025
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-security
@@ -32,10 +32,7 @@ description: "Learn about admin roles, such as the global admin role, or the ser
 
 > Check out [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) on YouTube.
 
-Your Microsoft 365 or Office 365 subscription comes with a set of administrator roles that you can assign to users in your organization in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339). Each administrator role maps to common business functions and gives people in your organization permissions to do specific tasks in the admin centers.
-
-> [!IMPORTANT]
-> Microsoft recommends that you use roles with the fewest permissions, and that you limit the number of users who have administrative permissions. 
+In order to perform tasks, such as adding users, assigning licenses, or configuring services, you must be assigned an administrator role. Your Microsoft 365 or Office 365 subscription comes with a set of administrator roles that can be assigned in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339). Each administrator role maps to common business functions and gives people in your organization permissions to do specific tasks in the admin centers. This article provides an overview of administrator roles, security guidelines to keep in mind, and links to related content.
 
 ## Watch: What is an admin?
 
@@ -54,10 +51,12 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 The <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a> lets you manage Microsoft Entra roles and Microsoft Intune roles. However, these roles are a subset of the roles available in the Microsoft Entra admin center and the Microsoft Intune admin center.
 
 - For the full list of detailed Microsoft Entra role descriptions you can manage in the Microsoft 365 admin center, check out Administrator role permissions in [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference).
-
 - For the full list of detailed Intune role descriptions you can manage in the Microsoft 365 admin center, check out [Role-based access control (RBAC) with Microsoft Intune](/mem/intune/fundamentals/role-based-access-control).
 
 For more information on assigning roles in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, see [Assign admin roles](assign-admin-roles.md).
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions, and that you limit the number of users who have administrative permissions. 
 
 ## Security guidelines for assigning roles
 
@@ -67,7 +66,7 @@ Because administrators have access to sensitive data and files, we recommend tha
 | :------------------- | :------------------- |
 | Have as few global administrators as possible  | Global Administrators have almost unlimited access to your organization's settings and most of its data. We recommend you limit the number of Global Administrators as much as possible. A Global Administrator could inadvertently lock their account and require a password reset. Either another Global Administrator or a Privileged Authentication Administrator can reset a Global Administrator's password. Therefore, we recommend you have at least a Privileged Authentication administrator in the event a Global Administrator is locked out of their account. |
 | Assign the *least permissive* role    | Assigning the *least permissive* role means giving administrators only the access they need to get the job done. For example, if you want someone to reset user passwords you shouldn't assign the unlimited global administrator role; instead, you should assign a limited administrator role, like Password Administrator or Helpdesk Administrator.  |
-| Require multifactor authentication (MFA) for administrators   |  It's a good idea to require MFA for all of your users, especially administrators. MFA makes users use a second method of identification to verify their identity. Administrators can have access to user data, such as their name, email address, location, and so on. If you require MFA, even if the administrator's password gets compromised, the password alone isn't sufficient to sign in without an additional method of identification.  <br><br>When you turn on MFA, the next time the user signs in, they'll need to provide an alternate email address and phone number for account recovery.  <br> [Set up multifactor authentication](../security-and-compliance/set-up-multi-factor-authentication.md)   |
+| Require multifactor authentication (MFA) for administrators   |  It's a good idea to require MFA for all of your users, especially administrators. MFA makes users use a second method of identification to verify their identity. Administrators can have access to user data, such as their name, email address, location, and so on. If you require MFA, even if the administrator's password gets compromised, the password alone isn't sufficient to sign in without another method of identification.  <br><br>When you turn on MFA, the next time the user signs in, they'll need to provide an alternate email address and phone number for account recovery.  <br> [Set up multifactor authentication](../security-and-compliance/set-up-multi-factor-authentication.md)   |
 
 If you get a message in the Microsoft 365 admin center that you don't have permissions to edit a setting or page, it's because you're assigned to a role that doesn't have that permission. In this case, take one of more of the following actions:
 
@@ -122,6 +121,8 @@ The following table lists administrator roles and information about who should b
 |User administrator     |    Assign the User admin role to users who need to do the following tasks for all users: <br> &bull; Add users and groups<br> &bull; Assign licenses<br> &bull; Manage most users properties<br> &bull; Create and manage user views<br> &bull; Update password expiration policies<br> &bull; Manage service requests<br> &bull; Monitor service health <br><br>  The user admin can also do the following actions for users who aren't administrators and for users assigned the following roles: Directory reader, Guest inviter, Helpdesk admin, Message center reader, Reports reader: <br> &bull; Manage usernames<br> &bull; Delete and restore users<br> &bull; Reset passwords<br> &bull; Force users to sign out<br> &bull; Update (FIDO) device keys   |
 |User Experience Success Manager     |    Assign the User Experience Success Manager role to users who need to access Experience Insights, Adoption Score, and the Message Center in the Microsoft 365 admin center. This role includes the permissions of the Usage Summary Reports Reader role.    |
 
+Also see [Check admin roles in your organization](/microsoft-365/admin/add-users/assign-admin-roles#check-admin-roles-in-your-organization).
+
 ## Permissions based on administrator roles and Group type in the Microsoft 365 admin center
 
 |Administrator Role | Microsoft 365 Groups   | Security Groups  | Distribution Groups   | Mail Enabled Security Groups   |
@@ -144,7 +145,6 @@ If you're working with a Microsoft partner, you can assign them admin roles. The
 A partner can assign these roles:
   
 - **Admin Agent** Privileges equivalent to a global admin, except for managing multifactor authentication through the Partner Center.
-
 - **Helpdesk Agent** Privileges equivalent to a helpdesk admin.
 
 Before the partner can assign these roles to users, you must add the partner as a delegated admin to your account. The partner has to be an authorized partner. The partner sends you an email to ask you if you want to give them permission to act as a delegated admin. For instructions, see [Authorize or remove partner relationships](../misc/add-partner.md).
@@ -162,6 +162,14 @@ For more information, see [Manage volume licensing user roles](../../commerce/li
 ## Related content
 
 [Assign admin roles](assign-admin-roles.md)
+
+[Check admin roles in your organization](/microsoft-365/admin/add-users/assign-admin-roles#check-admin-roles-in-your-organization)
+
+[Reset passwords in Microsoft 365 for business](reset-passwords.md)
+
+[Get support for Microsoft 365 for business](../get-help-support.md)
+
+[Manage user authentication methods for Microsoft Entra multifactor authentication](/entra/identity/authentication/howto-mfa-userdevicesettings)
 
 [Microsoft Entra roles in the Microsoft 365 admin center](azure-ad-roles-in-the-mac.md)
 
