@@ -18,7 +18,7 @@ ms.collection:
 - magic-ai-copilot
 appliesto:
 - ✅ Microsoft 365 Copilot
-ms.date: 11/14/2025
+ms.date: 12/01/2025
 ---
 
 # License options for Microsoft 365 Copilot
