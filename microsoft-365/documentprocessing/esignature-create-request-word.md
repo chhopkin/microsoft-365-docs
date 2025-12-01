@@ -85,7 +85,7 @@ Follow these steps to use eSignature for Microsoft Word.
 
 7. Repeat step 5 for all fields you want to be inserted into the document.
 
-    ![Screenshot of the Recipient panel to add more fields in Word.](../media/content-understanding/esignature-recipient-more-fields-word.png)
+      <img width="251" height="287" alt="esignature-recipient-more-fields-word1" src="https://github.com/user-attachments/assets/42924796-c021-4a5f-acb1-d2d90bc602fc" />
 
 8. Optionally, you can add a message to the recipient.
 
