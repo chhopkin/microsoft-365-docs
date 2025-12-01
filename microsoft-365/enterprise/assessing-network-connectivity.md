@@ -1,6 +1,6 @@
 ---
 title: "Assessing Microsoft 365 network connectivity"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 03/15/2024

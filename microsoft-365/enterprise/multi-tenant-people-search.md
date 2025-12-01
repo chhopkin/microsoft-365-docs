@@ -1,6 +1,6 @@
 ---
 title: "Microsoft 365 multitenant Organization People Search"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 09/30/2025

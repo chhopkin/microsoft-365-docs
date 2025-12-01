@@ -1,6 +1,6 @@
 ---
 title: "Hybrid Modern Authentication overview and prerequisites for use with on-premises Skype for Business and Exchange servers"
-ms.author: kvice
+ms.author: scotv
 ms.reviewer: smithre4
 author: kelleyvice-msft
 manager: scotv
