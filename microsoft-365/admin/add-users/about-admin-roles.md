@@ -165,6 +165,12 @@ For more information, see [Manage volume licensing user roles](../../commerce/li
 
 [Check admin roles in your organization](/microsoft-365/admin/add-users/assign-admin-roles#check-admin-roles-in-your-organization)
 
+[Reset passwords in Microsoft 365 for business](reset-passwords.md)
+
+[Get support for Microsoft 365 for business](../get-help-support.md)
+
+[Manage user authentication methods for Microsoft Entra multifactor authentication](/entra/identity/authentication/howto-mfa-userdevicesettings)
+
 [Microsoft Entra roles in the Microsoft 365 admin center](azure-ad-roles-in-the-mac.md)
 
 [Activity reports in the Microsoft 365 admin center](../activity-reports/activity-reports.md)
