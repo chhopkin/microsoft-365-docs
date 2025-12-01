@@ -5,7 +5,7 @@ ms.author: heidip
 manager: dansimp
 ms.reviewer:
 ms.topic: overview
-ms.date: 11/20/2025
+ms.date: 12/01/2025
 ms.service: microsoft-365-enterprise
 ms.localizationpriority: high
 description: "Preparing a multitenant Microsoft 365 environment for migration."
@@ -262,6 +262,12 @@ Ensure the endpoint status is **Active** and the configuration matches your migr
 ## User Conversion to Internal Member
 
 After preparing for migration, you must convert B2B guests (external users) in the target tenant to internal member users. This step is required to allow migrated guests to have the correct permissions and access as internal members in the destination tenant.
+
+> [!WARNING]
+> This conversion will break the MTO collaboration experience. If you need keep the MTO collaboration experience then you need to provision new user objects for migration.
+
+> [!IMPORTANT]
+> This conversion should be done when you're ready to start the migration.
 
 ### Option 1: Microsoft Entra Admin Center (Recommended for Small Batches)
 
