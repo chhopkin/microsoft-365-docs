@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 10/01/2025
+ms.date: 12/01/2025
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-security
@@ -32,10 +32,7 @@ description: "Learn about admin roles, such as the global admin role, or the ser
 
 > Check out [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) on YouTube.
 
-Your Microsoft 365 or Office 365 subscription comes with a set of administrator roles that you can assign to users in your organization in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339). Each administrator role maps to common business functions and gives people in your organization permissions to do specific tasks in the admin centers.
-
-> [!IMPORTANT]
-> Microsoft recommends that you use roles with the fewest permissions, and that you limit the number of users who have administrative permissions. 
+In order to perform tasks, such as adding users, assigning licenses, or configuring services, you must be assigned an administrator role. Your Microsoft 365 or Office 365 subscription comes with a set of administrator roles that can be assigned in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339). Each administrator role maps to common business functions and gives people in your organization permissions to do specific tasks in the admin centers. This article provides an overview of administrator roles and security guidelines to keep in mind.
 
 ## Watch: What is an admin?
 
@@ -58,6 +55,9 @@ The <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">
 - For the full list of detailed Intune role descriptions you can manage in the Microsoft 365 admin center, check out [Role-based access control (RBAC) with Microsoft Intune](/mem/intune/fundamentals/role-based-access-control).
 
 For more information on assigning roles in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, see [Assign admin roles](assign-admin-roles.md).
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions, and that you limit the number of users who have administrative permissions. 
 
 ## Security guidelines for assigning roles
 
@@ -162,6 +162,8 @@ For more information, see [Manage volume licensing user roles](../../commerce/li
 ## Related content
 
 [Assign admin roles](assign-admin-roles.md)
+
+[Check admin roles in your organization](/microsoft-365/admin/add-users/assign-admin-roles#check-admin-roles-in-your-organization)
 
 [Microsoft Entra roles in the Microsoft 365 admin center](azure-ad-roles-in-the-mac.md)
 
