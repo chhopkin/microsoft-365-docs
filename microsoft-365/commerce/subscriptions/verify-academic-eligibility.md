@@ -75,7 +75,7 @@ After your school's eligibility is verified, you can buy subscriptions at academ
 
 1. Go to the Microsoft 365 admin center.
     - If you're using the **Simplified view**, select the **Subscriptions** tab, then select **Add more products.**
-    - If you're using the **Dashboard view**, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Marketplaces</a> page.
+    - If you're using the **Dashboard view**, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Marketplace</a> page.
 2. To view academic offers, select the **Education** tab.
 
     > [!NOTE]
