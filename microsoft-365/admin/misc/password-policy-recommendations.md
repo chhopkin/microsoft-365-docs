@@ -50,7 +50,7 @@ The primary goal of a more secure password system is password diversity. You wan
 
 - Maintain a 14-character minimum length requirement. (Even though Microsoft 365 requires at least eight characters, for stronger security, we recommend a minimum of 14 characters.)
 - Don't use easy-to-guess passwords like `abcdefg` or `password`
-- Educate users to not reuse their organization passwords for non-work purposes
+- Educate users to not reuse their organization passwords for nonwork purposes
 - Enforce registration for [multifactor authentication](../security-and-compliance/set-up-multi-factor-authentication.md)
 - Enable risk-based multifactor authentication challenges
 
