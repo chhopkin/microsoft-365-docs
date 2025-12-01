@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: deniseb
 manager: dansimp
-ms.date: 10/02/2024
+ms.date: 12/01/2025
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -34,7 +34,7 @@ For more information about changing user contact information or removing former 
   
 ## Update your phone number
   
-1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
+1. Go to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) and sign in.
 
 2. Go to **Users** > **Active users**.
 
@@ -44,13 +44,15 @@ For more information about changing user contact information or removing former 
 
 ## Update your email address
   
-1. Browse to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
+1. Go to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) and sign in.
 
 2. Go to **Users** > **Active users**.
 
 3. Select your admin account and choose **Manage username and email** under **Username and email**.
 
 4. Update your email address and when you're finished, select **Save changes**.
+
+## Billing questions?
 
 For answers to billing questions, see:
   
@@ -60,6 +62,8 @@ For answers to billing questions, see:
 
 ## Related content
 
-[Change a user name and email address](../add-users/change-a-user-name-and-email-address.md) (video)\
-[Remove a former employee](../add-users/remove-former-employee.md) (video)\
-[Access and back up a former user's data](../add-users/get-access-to-and-back-up-a-former-user-s-data.md) (article)
+[Change a user name and email address](../add-users/change-a-user-name-and-email-address.md)
+
+[Remove a former employee](../add-users/remove-former-employee.md)
+
+[Access and back up a former user's data](../add-users/get-access-to-and-back-up-a-former-user-s-data.md)
