@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 11/06/2025
+ms.date: 12/01/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -48,12 +48,11 @@ Good password practices fall into a few broad categories:
 
 The primary goal of a more secure password system is password diversity. You want your password policy to contain lots of different and hard to guess passwords. Here are a few recommendations for keeping your organization as secure as possible.
 
-- Maintain a 14-character minimum length requirement
-- Don't require character composition requirements. For example, \*&amp;(^%$
-- Ban common passwords, to keep the most vulnerable passwords out of your system
-- Educate your users to not reuse their organization passwords for nonwork related purposes
+- Maintain a 14-character minimum length requirement. (Even though Microsoft 365 requires at least eight characters, for stronger security, we recommend a minimum of 14 characters.)
+- Don't use easy-to-guess passwords like `abcdefg` or `password`
+- Educate users to not reuse their organization passwords for non-work purposes
 - Enforce registration for [multifactor authentication](../security-and-compliance/set-up-multi-factor-authentication.md)
-- Enable risk based multifactor authentication challenges
+- Enable risk-based multifactor authentication challenges
 
 ## Password guidance for users
 
