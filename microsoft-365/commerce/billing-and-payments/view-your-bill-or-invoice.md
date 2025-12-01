@@ -17,7 +17,6 @@ ms.collection:
 - highpri
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_billing
 - VSBFY23
@@ -30,6 +29,7 @@ ms.custom:
 - adminvideo
 - admindeeplinkMAC
 - GAUpdates
+service.tree.id: 95459a4b-434c-4f83-879b-aa5f509fc7fa
 search.appverid: MET150, GEA150
 description: "Learn how to find your invoice or billing statement for a Microsoft business subscription in the Microsoft 365 admin center."
 ms.date: 10/07/2025
