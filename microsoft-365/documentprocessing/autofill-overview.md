@@ -52,8 +52,8 @@ Autofill columns can work alongside other docyment models. You can link various 
 
 - SharePoint subsites aren't currently supported. Autofill only works for document libraries located on top-level SharePoint sites. Libraries in subsites won't process successfully.
 
-      > [!NOTE]
-    > AI-generated content might be incorrect. Be sure to check the column results.
+> [!NOTE] 
+> AI-generated content might be incorrect. Be sure to check the column results.
 
 ## Responsible AI FAQs
 
