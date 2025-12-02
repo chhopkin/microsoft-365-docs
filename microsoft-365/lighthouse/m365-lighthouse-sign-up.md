@@ -45,10 +45,7 @@ Microsoft 365 Lighthouse is deployed in the partner tenant only&mdash;not in the
 
     1. Go to the Microsoft 365 admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> and sign in using your partner tenant credentials. 
 
-    2. In the left navigation pane, select **Billing** > **Purchase services** > **Microsoft 365**.
- 
-        > [!NOTE]
-        > Instead of **Billing**, some partners may need to go to **Marketplace** > **All products**, and then search for **Microsoft 365 Lighthouse**. 
+    2. In the left navigation pane, select **Marketplace** > **All products**, and then search for **Microsoft 365 Lighthouse**. 
    
     3. Under **Microsoft 365 Lighthouse**, select **Details**. 
 
