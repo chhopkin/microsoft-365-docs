@@ -3,7 +3,7 @@ title: "Contoso IT infrastructure and business needs"
 author: kelleyvice-msft
 f1.keywords:
 - NOCSH
-ms.author: kvice
+ms.author: scotv
 manager: scotv
 ms.date: 06/19/2025
 audience: ITPro
