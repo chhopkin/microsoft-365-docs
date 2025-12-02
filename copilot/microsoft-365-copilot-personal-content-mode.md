@@ -38,7 +38,7 @@ Unlike Restricted SharePoint Search, PCM doesn't use an allow list and does not 
 
 A setting in the Enterprise Service Plan provides users with PCM when the service plan is off. To make PCM available to individual users, an admin must update a Copilot-licensed user's individual service plan setting called *Microsoft Copilot with Graph-grounded chat*. This box is checked by default, allowing Copilot to reason over that user's entire M365 Graph. Unchecking this box, as depicted in this screenshot, creates the grounding restrictions associated with the Personal Content Mode:
 
-:::image type="content" source="media/pcm_service-plan-setting.png" alt-text="Screenshot that shows the Microsoft 365 Copilot Enterprise Service Plan setting for Personal Content Mode.":::
+:::image type="content" source="media/personal-content-mode_service-plan.png" alt-text="Screenshot that shows the Microsoft 365 Copilot Enterprise Service Plan setting for Personal Content Mode.":::
 
 ## FAQ
 
