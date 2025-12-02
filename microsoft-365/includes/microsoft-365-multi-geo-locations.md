@@ -34,4 +34,4 @@ ms.date: 12/02/2025
 | United States | NAM |
 
 > [!NOTE]
-> <sup>1</sup>To user a security filter for this region in eDiscovery, you must have a premuim features in eDiscovery enabled.
+> <sup>1</sup>To user a security filter for this region in eDiscovery, you must have premuim features in eDiscovery enabled.
