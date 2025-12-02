@@ -34,4 +34,4 @@ ms.date: 12/02/2025
 | United States | NAM |
 
 > [!NOTE]
-> <sup>1</sup>To user a security filter for this region in eDiscovery, you must have [premuim features in eDiscovery](/purview/edisc-settings-general) enabled.
+> <sup>1</sup>To use a security filter for this region in eDiscovery, you must have [premium features in eDiscovery](/purview/edisc-settings-general) enabled.
