@@ -17,7 +17,7 @@ sections:
 - name: General
   questions:
   - question: |
-     How does Microsoft define a small and medium-sized business (SMB) customer?
+     How does Microsoft define a small and medium-sized business customer?
     answer: |
      In the context of Copilot Business, SMB customers are defined as organizations with 300 or fewer users who hold a license for a Microsoft 365 Business Basic, Business Standard, or Business Premium plan.
   - question: |
