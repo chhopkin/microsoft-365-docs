@@ -1,3 +1,4 @@
+---
 title: Microsoft 365 Copilot Personal Content Mode
 description: Personal Content Mode (PCM) is a functionality that restricts the file content that Copilot can reason over.
 ROBOTS: NOINDEX, NOFOLLOW
