@@ -6,7 +6,7 @@ manager: vijay sharma
 ms.reviewer: julia-esp
 ms.date: 05/28/2025
 audience: admin
-ms.topic: conceptual
+ms.topic: article
 ms.service: microsoft-syntex
 ms.subservice: syntex-content-intelligence
 search.appverid: 

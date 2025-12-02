@@ -47,7 +47,7 @@ Start with a pilot by limiting Copilot Studio to well-governed, low-risk sites b
 
 - Confirm each site has an assigned site owner.
 - Trim legacy sharing.
-- [Enforce multifactor authentication](https://learn.microsoft.com/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication) (MFA).
+- [Enforce multifactor authentication](/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication) (MFA).
 
 ### Audit external connectors
 

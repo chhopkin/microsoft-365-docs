@@ -18,7 +18,7 @@ ms.collection:
 - magic-ai-copilot
 appliesto:
 - ✅ Microsoft 365 Copilot
-ms.date: 11/17/2025
+ms.date: 12/01/2025
 ---
 
 # License options for Microsoft 365 Copilot
@@ -53,6 +53,13 @@ For more information, see the following resources:
 ## Microsoft 365 Copilot licenses
 
 To add Microsoft 365 Copilot to your Microsoft 365 subscription, you need one of the following Microsoft 365 subscription plans. You can get the Copilot license as an add-on.
+
+### Microsoft 365 Copilot Business license
+
+- Microsoft 365 Business Basic
+- Microsoft 365 Business Standard
+- Microsoft 365 Business Premium
+- Microsoft 365 Apps for Business
 
 ### Business and enterprise licenses
 
