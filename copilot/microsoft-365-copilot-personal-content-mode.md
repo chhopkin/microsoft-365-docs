@@ -20,22 +20,38 @@ appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# Overview of Personal Content Mode
+# Personal Content Mode
 
-Personal Content Mode (PCM) is a functionality that restricts the file content that Copilot can reason over. In Personal Content Mode, the scope of Copilot's reasoning capabilities is limited to a user's personal graph. This restriction doesn't impact Search capabilities. The personal graph's scope is very similar to the boundaries defined by Restricted SharePoint Search, as explained at [Restricted SharePoint Search - SharePoint in Microsoft 365 | Microsoft Learn](/sharepoint/restricted-sharepoint-search#how-does-restricted-sharepoint-search-work). The personal graph is defined by the following file restrictions:
+## Overview
+
+Personal Content Mode (PCM) is a functionality that restricts the file content that Copilot can reason over. In Personal Content Mode, the scope of Copilot's reasoning capabilities is limited to a user's personal graph. This restriction doesn't impact Search capabilities. The personal graph's scope is similar to the boundaries defined by Restricted SharePoint Search, as explained at [Restricted SharePoint Search - SharePoint in Microsoft 365 | Microsoft Learn](/sharepoint/restricted-sharepoint-search#how-does-restricted-sharepoint-search-work). The following file restrictions constitute the personal graph:
 
 - Users' OneDrive files and files they have access to
 - Files from their frequently visited SharePoint sites
 - Files that were shared directly with them 
 - Files that the users viewed, edited, or created
 
-Unlike Restricted SharePoint Search, PCM does not use an allow list and does not limit users' ability to locate content with SharePoint Search. In Personal Content Mode, both Enterprise Search and custom Search applications continue to work without restrictions.
+Unlike Restricted SharePoint Search, PCM doesn't use an allow list and does not limit users' ability to locate content with SharePoint Search. In Personal Content Mode, both Enterprise Search and custom Search applications continue to work without restrictions.
 
-# Service Plan setting
+## Service Plan setting
 
-A setting in the Enterprise Service Plan provides users with PCM when the service plan is off. To make PCM available to individual users, an admin must update a Copilot-licensed user's individual service plan setting called *Microsoft Copilot with Graph-grounded chat* by unchecking the box associated with that plan, as depicted in the screenshot below. When this box is checked for a given user, Copilot will reason over that user's entire M365 Graph without PCM.
+A setting in the Enterprise Service Plan provides users with PCM when the service plan is off. To make PCM available to individual users, an admin must update a Copilot-licensed user's individual service plan setting called *Microsoft Copilot with Graph-grounded chat*. This box is checked by default, allowing Copilot to reason over that user's entire M365 Graph. Unchecking this box, as depicted in the screenshot below, creates the grounding restrictions associated with the Personal Content Mode. 
 
 :::image type="content" source="media/PCM_ServicePlanSetting.png" alt-text="Screenshot that shows the Microsoft 365 Copilot Enterprise Service Plan setting for Personal Content Mode.":::
 
-# FAQ
+## FAQ
 
+**What defines frequently visited SharePoint sites? Is this something that end users can influence?**
+We identify your most frequently visited SharePoint sites by looking at standard team sites (not personal sites) and ranking them based on how often you interact with them. The system considers factors like:
+- **Site type**: SharePoint sites, Teams sites, and Hub sites are included 
+- **Activity**: How often you access or use the site
+- **Recent visits**: When you last visited the site
+- **Top results**: The top 10 sites you use most often
+
+These criteria are what PCM uses to determine the most relevant content that Copilot can reason over. Users cannot influence these determinations, as this is a Microsoft-curated experience for each individual user.
+
+**How do agents work under PCM?**
+Agents honor PCM. This means that users cannot ground on any file content outside the PCM scope as defined above.
+
+**Are email attachments included in files that can be considered in PCM?**
+If the attachment is a classic file attachment and not a OneDrive/SPO link, Copilot can reason over it, whether you've opened it or not, because it gets indexed as part of the email. If the attachment is a cloud file link, Copilot only reasons over it if the user has accessed the document itself.
