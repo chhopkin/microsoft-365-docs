@@ -32,7 +32,7 @@ Personal Content Mode (PCM) is a functionality that restricts the file content t
 - Files that were shared directly with them 
 - Files that the users viewed, edited, or created
 
-Unlike Restricted SharePoint Search, PCM doesn't use an allow list and does not limit users' ability to locate content with SharePoint Search. In Personal Content Mode, both Enterprise Search and custom Search applications continue to work without restrictions.
+Unlike Restricted SharePoint Search, PCM doesn't use an allow list and doesn't limit users' ability to locate content with SharePoint Search. In Personal Content Mode, both Enterprise Search and custom Search applications continue to work without restrictions.
 
 ## Service Plan setting
 
