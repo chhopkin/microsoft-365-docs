@@ -25,7 +25,7 @@ description: "Learn about Anthropic as a subprocessor for Microsoft."
 
 Microsoft is introducing a new offering with Anthropic AI models as part of Microsoft Online Services, delivering enterprise-grade commitments and safeguards to ensure secure and responsible use of Anthropic models within your organization.
 
-To enable this change, Anthropic has onboarded as a Microsoft subprocessor. As part of this update, we are deprecating the previous option that allowed Microsoft admins to opt-in to use Anthropic models under Anthropic’s separate commercial terms and data processing agreement. This change simplifies the experience and strengthens compliance and security under Microsoft’s enterprise framework.
+To enable this change, Anthropic has onboarded as a Microsoft subprocessor. As part of this update, we are deprecating the previous option that allowed Microsoft admins to opt-in to use Anthropic models under Anthropic’s separate commercial terms and data processing agreement. This change simplifies the experience and strengthens compliance and security under Microsoft’s enterprise framework. 
 
 As a subprocessor, Anthropic will operate with Microsoft oversight through contractual safeguards and appropriate technical and organizational measures. The Microsoft [Product Terms](https://www.microsoft.com/licensing/terms?msockid=344e0e6ad66c6b3e19441848d7416abd) and [Microsoft Data Protection Addendum (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?lang=18&msockid=344e0e6ad66c6b3e19441848d7416abd) apply to use of Anthropic through Microsoft’s enterprise Online Services. It is also covered under our [Enterprise Data Protection](enterprise-data-protection.md). The Microsoft [Customer Copyright Commitment (CCC)](/azure/ai-foundry/responsible-ai/openai/customer-copyright-commitment) applies to Anthropic models used within products covered by the CCC’s, including Microsoft 365 Copilot and Copilot Studio.
 
@@ -56,8 +56,6 @@ If your organization is in a region that has Anthropic as a subprocessor set to 
 
 > [!NOTE]
 > If your organization is in the European Union (EU), the European Free Trade Association (EFTA), or the United Kingdom and previously opted in to use Anthropic models under Anthropic’s separate commercial terms and data processing agreement, you’ll need to opt in again. The toggle will be set to Off by default.
-
-After you connect, it may take a few hours for the connection to complete.
 
 Some features are only available when Anthropic models are enabled. If you turn off Anthropic as a subprocessor, certain features may no longer be accessible.
 
