@@ -25,7 +25,7 @@ appliesto:
 
 ## Overview
 
-Personal Content Mode (PCM) restricts the file content that Microsoft 365 Copilot can reason over. With PCM restrictions, Copilot is limited to reasoning over a user's Microsoft Graph work data (including emails, calendar, chats, approved third party data via connectors) within the boundaries defined by [Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search#how-does-restricted-sharepoint-search-work):
+Personal Content Mode (PCM) restricts the file content that Microsoft 365 Copilot can reason over. With PCM restrictions, Copilot is limited to reasoning over a user's Microsoft Graph work data (including emails, calendar, chats, approved third-party data via connectors) within the boundaries defined by [Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search#how-does-restricted-sharepoint-search-work):
 
 - Other OneDrive files and files the user has access to
 - Files from their frequently visited SharePoint sites
