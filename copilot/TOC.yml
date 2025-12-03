@@ -21,6 +21,8 @@ items:
       href: which-copilot-for-your-organization.md
     - name: License options
       href: microsoft-365-copilot-licensing.md
+    - name: Microsoft 365 Copilot Business FAQ
+      href: copilot-business-faq.yml
     - name: E3 and E5 license feature comparison list
       displayName: e3 vs e5
       href: microsoft-365-copilot-license-feature-overview.md
