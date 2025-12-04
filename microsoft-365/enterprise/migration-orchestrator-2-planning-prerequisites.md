@@ -22,7 +22,8 @@ This article covers both planning and prerequisites for Microsoft 365 migration 
 
 ## Best Practices for Running Migration
 
-W require all users migrating content must be mapped in the identity mapping system before any migration takes place. Without doing this, Teams chat and meeting migration end user experience can't add the correct users in every scenario.
+> [!IMPORTANT]
+> We require all users migrating content must be mapped in the identity mapping system before any migration takes place. Without doing this, Teams chat and meeting migration end user experience can't add the correct users in every scenario.
 
 You must follow specific ordering during the user creation and licensing. Users **must not have mailboxes or OneDrives provisioned on the target** before migration. The migration will fail. To prevent this, make sure you perform Identity Mapping, which stamps the Exchange GUID from each source user to each target user. This mapping prevents the provisioning of a mailbox before applying a license granting Exchange access to the user. You should also disable OneDrive creation for target users as soon as you create those users, to prevent a OneDrive from being provisioned. 
 
