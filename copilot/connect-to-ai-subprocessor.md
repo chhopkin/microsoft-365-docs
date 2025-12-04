@@ -82,4 +82,3 @@ The legacy Anthropic toggle to opt-in to Anthropic’s [separate commercial term
     - If you previously opted in to the legacy Anthropic toggle, and you’re in a region where the new toggle is set to OFF by default, you need to opt in to the new subprocessor toggle to use Anthropic’s models.
 
 ## Related topics
-
