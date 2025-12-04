@@ -54,21 +54,21 @@ For meetings whose last occurrence was more than 60 days before the time of migr
 
 ## Known issues and unsupported behaviors
 
-### General
+### General issues
 
 Editing the Identity Mapping file by rerunning Identity Mapping using the `Remove-CTIMData` cmdlet can be detrimental to user experience. Running `Remove-CTIMData` while a migration is running removes users whose mailboxes have finished migrating from Identity Mapping, which then affects their experience in Teams chats and meetings. It also affects any failed migrations you rerun in the future.
 
 If you need to edit Identity Mapping while any migration batches are running, don't use `Remove-CTIMData`. Instead, add any users you need by rerunning Identity Mapping without running `Remove-CTIMData`.
 
-### OneDrive
+### OneDrive issues
 
 [Learn more](../enterprise/cross-tenant-onedrive-migration-faqs.md) about known issues with OneDrive Migration.
 
-### Exchange
+### Exchange issues
 
 [Learn more](../enterprise/cross-tenant-mailbox-migration.md) about known issues with Exchange Mailbox Migration.
 
-### Teams chats
+### Teams chats issues
 
 1. Self-chats ("You") aren't migrated. These aren't available in the target tenant.
 2. Chat threads created by a user external to the source and target tenant aren't migrated or updated. Target users don't have access to these chat threads.
@@ -78,7 +78,7 @@ If you need to edit Identity Mapping while any migration batches are running, do
 6. Apps aren't migrated. This includes Polls.
 7. Forwarded/Scheduled messages aren't migrated. If a scheduled message was sent, it's migrated. If a scheduled message was scheduled, but not sent, it isn't migrated.
 
-## Meetings
+## Meetings issues
 
 1. Meeting recordings, meeting transcripts, and meeting recaps aren't migrated. Attendance reports, Apps, or Tags associated with meetings aren't migrated.
 2. The new meeting URL has the updated participants (target tenant user Ids), apart from distribution groups. Identity mapping doesn't provide distribution group mappings. This impacts scenarios where a participant belonging to a distribution list tries to join a meeting that has the setting 'Invite only users can join'.
