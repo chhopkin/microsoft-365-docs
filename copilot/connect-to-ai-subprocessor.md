@@ -55,7 +55,7 @@ If your organization is in a region that has Anthropic as a subprocessor set to 
 3. On the **AI providers operating as Microsoft subprocessors** page, under available subprocessors for your organization, select **Enable Anthropic as a Microsoft subprocessor subject to the above terms**.
 
 > [!NOTE]
-> If your organization is in the European Union (EU), the European Free Trade Association (EFTA), or the United Kingdom and previously opted in to use Anthropic models under Anthropic’s separate commercial terms and data processing agreement, you’ll need to opt in again. The toggle will be set to Off by default.
+> If your organization is in the European Union (EU), the European Free Trade Association (EFTA), or the United Kingdom and you previously opted in to use Anthropic models under Anthropic’s separate commercial terms and data processing agreement, you’ll need to opt in again. The toggle will be set to **Off** by default.
 
 Some features are only available when Anthropic models are enabled. If you turn off Anthropic as a subprocessor, certain features may no longer be accessible.
 
@@ -71,13 +71,13 @@ If your organization is in a region that has Anthropic as a subprocessor set to 
 2. On the **User access** page, select **AI providers operating as Microsoft subprocessors**.
 3. On the **AI providers operating as Microsoft subprocessors** page, under **Available subprocessors for your organization**, select **Disable Anthropic as a Microsoft subprocessor**.
 
-Once you disable Anthropic as an AI subprocessor, users won't have the option to use Anthropic's AI models. After completing the steps to disable Anthropic, it may take several hours for the service to be fully disabled for your users.
+Once you disable Anthropic as an AI subprocessor, users won't have the option to use Anthropic's AI models. You can choose to enable Anthropic models at a later date if desired.
 
 ## Deprecation of legacy Anthropic admin toggle
 
 The legacy Anthropic toggle to opt-in to Anthropic’s [separate commercial terms and data processing agreement](connect-to-ai-models.md) will be deprecated and replaced by this new Anthropic as a subprocessor admin toggle.
 
-- Dec 8, 2025: New admin toggle for Anthropic models will appear in the Microsoft 365 admin center, enabled by default. [Some customer and region exclusions apply](#opt-in-regions-and-entities).
+- Dec 8, 2025: New admin toggle for Anthropic models will appear in the Microsoft 365 admin center. For most commercial cloud customers, it will be enabled **On** by default. Customers in Europe and UK will be **Off** by default. [Some customer and region exclusions apply](#opt-in-regions-and-entities).
 - January 7, 2026: Anthropic as a Microsoft subprocessor becomes enabled in your organization. The legacy admin toggle to opt-in to Anthropic’s commercial terms and data processing agreement is deprecated.
     - If you previously opted in to the legacy Anthropic toggle, and you’re in a region where the new toggle is set to OFF by default, you need to opt in to the new subprocessor toggle to use Anthropic’s models.
 
