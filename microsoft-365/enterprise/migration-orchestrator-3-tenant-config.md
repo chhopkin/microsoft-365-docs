@@ -29,9 +29,9 @@ This article walks through all steps of preparing the tenants and users for a su
 - You need to communicate with your trusted partner organization (with whom you will be moving user content) to obtain their Microsoft 365 tenant ID. This tenant ID is used in the Organization Relationship DomainName field.
   - To obtain the tenant ID of a subscription, sign in to the Microsoft 365 admin center and go to [Active Directory > Properties](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties). Select the copy icon for the Tenant ID property to copy it to the clipboard.
 
-## Prepare the target tenant for Mailbox migration
+## Configuration steps to enable your tenants for cross-tenant mailbox migrations
 
-### Prepare the target tenant by creating the migration application and secret
+### Prepare the target (destination) tenant by creating the migration application and secret
 
 1. Sign in to your [Microsoft Entra admin center](https://portal.azure.com) with your target tenant administrator credentials.
 1. Select **Microsoft Entra ID**.
@@ -60,7 +60,7 @@ This article walks through all steps of preparing the tenants and users for a su
 
 Now that the migration application and secret are successfully created, the next step is to consent to the application.
 
-### Grant consent to the application on the target tenant
+### Grant consent to the application
 
 1. In the Microsoft Entra ID landing page, select **Enterprise applications** in the navigation pane.
 1. Find the migration app you created, select it, and then under **Security**, select **Permissions**.
@@ -81,7 +81,7 @@ Here's an example of the URL to provide to them:
 1. Connect to Exchange Online PowerShell in the target Exchange Online tenant.
 2. Create a new migration endpoint for Cross-tenant mailbox moves.
 
-You need the application ID of the mailbox migration app you just created and the password (value) you configured in [Prepare the target tenant by creating the migration application and secret](#prepare-the-target-tenant-by-creating-the-migration-application-and-secret). Depending on the Microsoft 365 cloud instance you use, your endpoint may be different. See the [Microsoft 365 endpoints](../enterprise/microsoft-365-endpoints.md) page, select the correct instance for your tenant, review the Exchange Online Optimize/Required address, and replace as appropriate.
+You need the application ID of the mailbox migration app you just created and the password (value) you configured in [Prepare the target (destination) tenant by creating the migration application and secret](#prepare-the-target-destination-tenant-by-creating-the-migration-application-and-secret). Depending on the Microsoft 365 cloud instance you use, your endpoint may be different. See the [Microsoft 365 endpoints](../enterprise/microsoft-365-endpoints.md) page, select the correct instance for your tenant, review the Exchange Online Optimize/Required address, and replace as appropriate.
 
 ```powershell
 # Enable customization if tenant is dehydrated
@@ -126,7 +126,7 @@ If ($null -eq $existingOrgRel)
     New-OrganizationRelationship "[name of the new organization relationship]" -Enabled:$true -MailboxMoveEnabled:$true -MailboxMoveCapability Inbound -DomainNames $sourceTenantId
 ```
 
-## Preparing the source tenant for mailbox migration
+## Prepare the source (current mailbox location) tenant by accepting the migration application and configuring the organization relationship
 
 ### Prepare the source tenant by accepting the migration application and configuring the organization relationship
 
