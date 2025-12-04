@@ -15,7 +15,7 @@ ms.collection:
 - must-keep
 - trust-pod
 hideEdit: true
-ms.date: 08/29/2025
+ms.date: 12/08/2025
 ms.update-cycle: 180-days
 ---
 
@@ -72,4 +72,4 @@ When you’re using agents in Microsoft 365 Copilot, check the privacy statement
 
 <sup>[2]</sup> Microsoft 365 Copilot and Microsoft 365 Copilot Chat support HIPAA compliance for properly configured implementations. HIPAA compliance doesn't apply to web search queries as they aren't covered by the DPA and Business Associate Agreement (BAA).
 
-<sup>[3]</sup> The EU Data Boundary doesn’t apply to web search queries.
+<sup>[3]</sup> The EU Data Boundary doesn’t apply to web search queries. In addition, Anthropic models are currently excluded from the EU Data Boundary and when applicable, in-country processing commitments. [Learn more about how Anthropic models work with Microsoft 365 Copilot.](connect-to-ai-subprocessor.md)
