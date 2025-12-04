@@ -5,7 +5,7 @@ f1.keywords:
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
-ms.reviewer: mijeffer, nicholak
+ms.reviewer: mijeffer, jobailey
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -20,6 +20,7 @@ ms.custom:
 - commerce_subscriptions
 - AdminTemplateSet
 - campaignIDs-batch2
+service.tree.id: 84a24b9c-ce0c-4b4b-b837-45bc5ee4bef0
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn about end-of-sale products in the Microsoft 365 admin center."

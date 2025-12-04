@@ -2,7 +2,7 @@
 title: Multitenant orgs FAQ
 description: Frequently asked questions regarding multitenant organizations
 author: kelleyvice-msft
-ms.author: kvice
+ms.author: scotv
 manager: scotv
 ms.service: microsoft-365-enterprise
 ms.topic: faq

@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 11/19/2025
+ms.date: 11/21/2025
 audience: Admin
 ms.reviewer: dansimp
 ms.topic: article
@@ -36,9 +36,9 @@ The Engineering Direct portal is located under **Support** within the Microsoft 
 
 1. Navigate to the Microsoft 365 admin center.
 1. Select **Support**.
-1. Select **Enhanced Engagements** to enter the portal.
+1. Select **Engineering Direct** to enter the portal.
 
-:::image type="content" source="../enterprise/media/enhanced-engagements/engineering-direct-landing-page.png" alt-text="Screenshot of landing page in engineering direct portal." lightbox="../enterprise/media/enhanced-engagements/engineering-direct-landing-page.png":::
+   :::image type="content" source="../enterprise/media/enhanced-engagements/engineering-direct-landing-page.png" alt-text="Screenshot of landing page in engineering direct portal." lightbox="../enterprise/media/enhanced-engagements/engineering-direct-landing-page.png":::
 
 ## Related content
 
