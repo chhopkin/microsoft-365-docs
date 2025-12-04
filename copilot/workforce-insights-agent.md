@@ -64,7 +64,7 @@ For information on responsible AI principles and usage, see the following articl
 
 1. Upload organizational data. For more information on best practices when using organizational data, see [Organizational Data in Microsoft 365](/viva/organizational-data).
 1. Understand data access policies and delegation.
-    1. [Use admin controls to manage access to Workforce Insights](bookmark://_Use_admin_controls)
+    1. [Use admin controls to manage access to Workforce Insights](#use-admin-controls-to-manage-access-to-the-workforce-insights-agent-in-your-organization)
     2. Manage delegation policies  
 1. Download the Workforce Insights agent from the Agent Store in Microsoft 365 Copilot.
 1. Set up People Skills.
