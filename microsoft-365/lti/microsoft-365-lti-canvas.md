@@ -4,7 +4,7 @@ description: Learn how to deploy the Microsoft 365 Learning Tool Interoperabilit
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
-ms.date: 07/10/2025
+ms.date: 12/10/2025
 audience: admin
 ms.topic: how-to
 ms.service: microsoft-365-education
