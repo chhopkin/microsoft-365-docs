@@ -23,7 +23,7 @@ description: "Learn about orchestrator for Microsoft 365, a tool that allows you
 
 ## What is tenant-to-tenant migration with orchestrator?
 
-Tenant-to-tenant migration using orchestrator in Microsoft 365 enables organizations to move users and workloads between separate Microsoft 365 tenants. This functionality supports scenarios such as mergers, acquisitions, divestitures, and internal reorganizations.
+Tenant-to-tenant migration using orchestrator in Microsoft 365 enables organizations to move user data and workloads between separate Microsoft 365 tenants. This functionality supports scenarios such as mergers, acquisitions, divestitures, and internal reorganizations.
 
 This article provides a high-level overview of the migration process, including architecture models, licensing requirements, key security and compliance considerations, and supported workloads.
 
@@ -46,6 +46,7 @@ Organizations can choose from several migration models depending on their busine
 To use tenant-to-tenant migration features, organizations must meet the following licensing requirements:
 
 - **Microsoft 365 E3/E5 or equivalent** licenses for source and target tenants.
+- **Cross-Tenant User Data Migration** licenses are required as an add-on for each user.
 - Additional licensing may be required for third-party tools or enhanced migration capabilities.
 
 ## Security and compliance considerations
@@ -65,7 +66,7 @@ Security and compliance are critical in tenant-to-tenant migration. Organization
 > [!IMPORTANT]
 > This migration moves **content**, not **identities**. Customers are responsible for correctly creating and configuring users, and the product moves the in-scope content from its source tenant location to its target tenant location. We designed this product with the end-user in mind. This migration is intended to minimize disruption to the end-user.
 
-This new product simplifies both an admin's role in migrating content cross-tenant and a user's experience when they migrate. If you intend to run the migration of multiple workloads (such as Exchange, chats, meetings, and OneDrive), we strongly suggest including all workloads for each user in the batch. Migrating Teams chats and Teams meetings without the mailbox (or at the same time of the mailbox migration) could result in unexpected user experiences that we didn't identify in our testing. The orchestrator was designed to intelligently migrate the workloads in an order that accounts for all dependencies and minimizes risk for migrations to fail.
+This new product simplifies both an admin's role in migrating content cross-tenant and a user's experience when they migrate. If you intend to run the migration of multiple workloads (such as Exchange, chats, meetings, and OneDrive), we strongly suggest including all workloads for each user in the batch. Migrating Teams chats and Teams meetings without the mailbox (or at the same time as the mailbox migration with another tool) may result in unexpected user experiences we didn't identify in our testing. The orchestrator was designed to intelligently migrate the workloads in an order that accounts for all dependencies and minimizes risk for migrations to fail.
 
 While customers can run migrations for the workloads they want, the Teams Meeting migration does depend on a successful mailbox migration. **Teams Meeting migration will fail without a successful mailbox migration**.
 
