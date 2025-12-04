@@ -196,7 +196,7 @@ The required setup steps for OneDrive Migration on both source and target are av
 > [!IMPORTANT]
 > These instructions must be run from both the source and the target tenant.
 
-1. Download the module onto your local machine. We send this to customers as a text document, which will need to be converted into a PSM1 file.
+1. Download [the module](https://download.microsoft.com/download/1ded7541-fa8d-48f7-90c4-fa8a15a6b62b/ConfigureOneDriveMigration.psm1) onto your local machine.
 2. Connect to Graph Powershell as a Global Administrator:
   `Connect-MgGraph`
 3. Import the module containing the configuration details:
@@ -231,7 +231,7 @@ The required setup steps for OneDrive Migration on both source and target are av
 > [!IMPORTANT]
 > These instructions must be run from both the source and the target tenant.
 
-1. Download the module onto your local machine. We send this to customers as a text document, which needs to be converted into a PSM1 file.
+1. Download [the module](https://download.microsoft.com/download/1ded7541-fa8d-48f7-90c4-fa8a15a6b62b/ConfigureOneDriveMigration.psm1) onto your local machine.
 2. Connect to Graph Powershell as a Global Administrator:
   `Connect-MgGraph`
 3. Import the module containing the configuration details:
@@ -261,7 +261,7 @@ The required setup steps for OneDrive Migration on both source and target are av
 
 1. Set the Execution Policy:
   `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`
-2. Download the module onto your local machine. We send this to customers as a text document, which needs to be converted into a PSM1 file.
+2. Download [the module](https://download.microsoft.com/download/1ded7541-fa8d-48f7-90c4-fa8a15a6b62b/ConfigureOneDriveMigration.psm1) onto your local machine.
 3. Connect to Graph Powershell as a Global Administrator:
   `Connect-MgGraph`
 4. Import the module containing the configuration details:
@@ -321,7 +321,7 @@ XXX COPY IN AFTER WE'VE FINALIZED IN SOURCE DOC.
 
 To prepare the target tenant for the Cross-Tenant Migration Service, follow these steps:
 
-1. Download the module onto your local machine. We send this to customers as a text document, which needs to be converted into a PSM1 file.
+1. Download [the module](https://download.microsoft.com/download/1ded7541-fa8d-48f7-90c4-fa8a15a6b62b/ConfigureOneDriveMigration.psm1) onto your local machine.
 2. Connect to Graph Powershell as a Global Administrator:
   `Connect-MgGraph`
 3. Import the module containing the configuration details:
