@@ -32,23 +32,23 @@ Target users can access and interact with all chat content in their Teams client
 - Conversations started by users external to the source and target tenant aren't migrated. Target users don't have access to these chats, but source users do.
 - Conversations started by users who left their tenant (source or target) or no longer have Teams licenses in that tenant. Applies for Private (one-to-one) and Group (one-to-many) threads.
 
-Source users can still see the chat threads in the source tenant. They can continue to use these if they're still a member of the chat. Any messages sent from the source after migration of a thread aren't migrated.
+Source users can still see the chat threads in the source tenant. They can continue to use these threads if they're still a member of the chat. Any messages sent from the source after migration of a thread aren't migrated.
 
 After the mailbox is migrated, users aren't able to see the calendar in the Teams client.
 
 Based on the order in which users are migrated, there are variable experiences on the individual chats. At each point in migration, a user maintains access to their chats. They may notice that they're added to or removed from an existing chat, that an entirely new chat is created, or that duplicate new chats are created.
 
-XXX THESE EXAMPLES DEPEND ON THE SCREENSHOTS. WE CAN'T USE EXAMPLES THAT DEPEND ON NON-ACCESSIBLE, NON-SEARCHABLE SCREENSHOTS.
+XXX THESE EXAMPLES DEPEND ON THE SCREENSHOTS. WE CAN'T USE EXAMPLES THAT DEPEND ON NONACCESSIBLE, NONSEARCHABLE SCREENSHOTS.
 
 ## Meetings
 
-Meetings are updated when the organizer migrates. At this point, the meeting URL is updated and all participants who are identity mapped have their source identities removed from the roster and their target identities added to the roster. Participants who haven't migrated can join the meeting depending on the tenant policies. Participants who haven't migrated don't have access to the new meeting chat until they join the meeting from its new join URL. Target users view, start, and join migrated meetings on the target tenant. Target users can view the meeting chat and continue to use it.
+Meetings are updated when the organizer migrates. At this point, the meeting URL updates and all participants who are identity mapped have their source identities removed from the roster and their target identities added to the roster. Participants who don't migrate can join the meeting depending on the tenant policies. Participants who don't migrate won't have access to the new meeting chat until they join the meeting from its new join URL. Target users view, start, and join migrated meetings on the target tenant. Target users can view the meeting chat and continue to use it.
 
-Meetings organized by a migrated user have updated URLs so they're hosted in the target tenant, meaning any users who exist within the target tenant can join the meeting without entering the meeting lobby or facing other obstacles.
+Meetings organized by a migrated user have updated URLs so they're hosted in the target tenant. This update means any users who exist within the target tenant can join the meeting without entering the meeting lobby or facing other obstacles.
 
-The participants list for migrated meetings is updated to replace migrating source identities with the target user identities. Non-migrating participants of a migrated meeting are able to join the meeting as guests (access level depends on tenant and meeting policy settings).
+The participants list for migrated meetings updates to replace migrating source identities with the target user identities. Nonmigrating participants of a migrated meeting are able to join the meeting as guests (access level depends on tenant and meeting policy settings).
 
-For meetings whose last occurrence was within the last 60 days at the time of migration, the meeting URL is updated. It shows on users' calendars, users can access the chat from the calendar, and chat messages are associated with the meeting directly as meeting chats.
+For meetings whose last occurrence was within the last 60 days at the time of migration, the meeting URL updates. It shows on users' calendars, users can access the chat from the calendar, and chat messages are associated with the meeting directly as meeting chats.
 
 For meetings whose last occurrence was more than 60 days before the time of migration, the meeting URL **isn't** updated, it shows on users' calendars, users **can't** access the chat from the calendar, and chat messages are migrated as a new group chat.
 
@@ -70,30 +70,30 @@ If you need to edit Identity Mapping while any migration batches are running, do
 
 ### Teams chats issues
 
-1. Self-chats ("You") aren't migrated. These aren't available in the target tenant.
-2. Chat threads created by a user external to the source and target tenant aren't migrated or updated. Target users don't have access to these chat threads.
+1. Self-chats ("You") aren't migrated. These self-chats aren't available in the target tenant.
+2. Chat threads created by a user external to the source and target tenant don't migrate or update. Target users don't have access to these chat threads.
 3. Chat threads created by a user who no longer exists and/or no longer has a Teams license on either tenant isn't migrated or updated. Target users don't have access to these chat threads.
 4. Reactions to chat messages aren't migrated. Target users don't see reactions sent before migration.
-5. Migrated threads that are still accessible on the source tenant. They aren't locked, but any new messages sent after migration aren't migrated to the target tenant.
-6. Apps aren't migrated. This includes Polls.
-7. Forwarded/Scheduled messages aren't migrated. If a scheduled message was sent, it's migrated. If a scheduled message was scheduled, but not sent, it isn't migrated.
+5. Migrated threads that are still accessible on the source tenant. They aren't locked, but any new messages sent after migration don't migrate to the target tenant.
+6. Apps aren't migrated, including Polls.
+7. Forwarded/Scheduled messages aren't migrated. If a scheduled message was sent, it migrates. If a scheduled message was scheduled, but not sent, it's not migrated.
 
 ## Meetings issues
 
 1. Meeting recordings, meeting transcripts, and meeting recaps aren't migrated. Attendance reports, Apps, or Tags associated with meetings aren't migrated.
-2. The new meeting URL has the updated participants (target tenant user Ids), apart from distribution groups. Identity mapping doesn't provide distribution group mappings. This impacts scenarios where a participant belonging to a distribution list tries to join a meeting that has the setting 'Invite only users can join'.
-3. Customers shouldn't remove the mail forwarding or delete source objects until after the tenant migration is completed. Since migration can happen in batches, any updates made to meetings that aren't migrated aren't forwarded to the migrated user mailbox if the mail forwarding isn't active.
+2. The new meeting URL has the updated participants (target tenant user IDs), apart from distribution groups. Identity mapping doesn't provide distribution group mappings. This exception impacts scenarios where a participant belonging to a distribution list tries to join a meeting that has the setting 'Invite only users can join'.
+3. Customers shouldn't remove the mail forwarding or delete source objects until after the tenant migration is completed. Since migration can happen in batches, any updates made to meetings that don't migrate won't forward to the migrated user mailbox if the mail forwarding isn't active.
 4. The same set of users can't be migrated again to a different target tenant if the source objects are deleted or email forwarding is disabled.
 5.Skype to Teams and Teams to Skype Migration for tenant-to-tenant scenarios are out of scope. Only Teams to Teams tenants are supported.
 6. Channel and Shared Channel meetings aren't migrated.
 7. Live Events, Webinar, Town halls, Virtual Appointments, Controlled-content meetings, Large Meetings, and other Custom template meetings aren't migrated. Meetings with more than 250 attendees aren't migrated.
-8. Cancelled meetings aren't migrated. Because they have invalid join blobs, the URLs aren't updated, and their chats aren't migrated.
+8. Canceled meetings aren't migrated. Because they have invalid join blobs, the URLs aren't updated, and their chats aren't migrated.
 9. Modified occurrences of recurring meetings aren't migrated. The modified occurrences still have the original URL after migration.
-10. Meetings with no Teams coordinates or meeting URLs aren't migrated (appointments).
+10. Meetings with no Teams coordinates or meeting URLs don't migrated (appointments).
 11. If the format of the meeting coordinates body or tags changed from the original, meetings might not migrate.
 12.	Meetings that are already in the target tenant aren't migrated. Their participant list isn't updated when those users move.
 13. Migration of meetings organized by resource mailboxes, such as room mailboxes or equipment mailboxes, is unsupported. These meetings don't have their URLs updated, nor their chats migrated. 
-14.	Locations, such as conference rooms, aren't edited during the migration. This means that the locations still point to an old room after the migration.
+14.	Locations, such as conference rooms, aren't edited during the migration. This circumstance means that the locations still point to an old room after the migration.
 15.	All RSVPs are reset during migration. Attendees who have already RSVP'd (accepted, declined, tentative) have to respond again.
 16.	Only meetings in the user's Default calendar migrate. Meetings hosted by other calendars created by the user are out of scope.
 17.	Meeting chats for meetings which haven't occurred in more than 60 days at the time of migration that contain a colon (**:**) in their titles have those colons replace by semicolons (**;**) in the new created group chat.
