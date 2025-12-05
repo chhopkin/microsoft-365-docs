@@ -42,7 +42,7 @@ You must have an appropriate role, such as [user administrator](/microsoft-365/a
 
 ## Watch: Change a user's email address, display name, or email alias
 
-Check out this video and others on our [YouTube channel](https://go.microsoft.com/fwlink/?linkid=2198016).
+Check out this video and others on our [YouTube channel](https://go.microsoft.com/fwlink/?linkid=2198016). If you found this video helpful, check out the [complete training series for small businesses and people who are new to Microsoft 365](../../business-video/index.yml).
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=7b58656a-67db-457a-aa90-5c93334d4d28]
 
@@ -55,8 +55,6 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 1. To change the user's display name, select **Manage contact information**. Select the edit icon, and then change the user's name or contact information. Select **Save changes**.
 
 1. Close the user's panel.
-
-If you found this video helpful, check out the [complete training series for small businesses and people who are new to Microsoft 365](../../business-video/index.yml).
 
 ## Change a user's email address
 
