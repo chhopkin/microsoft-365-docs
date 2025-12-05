@@ -20,13 +20,15 @@ description: "Discover the configuration requirements for Microsoft 365 migratio
 
 ## Prerequisites for source and target tenants
 
-This article walks through all steps of preparing the tenants and users for a successful migration. Here are some additional requirements that we won't provide explicit steps for:
+This article walks through all steps of preparing the tenants and users for a successful migration. Here are some additional requirements that we don't provide explicit steps for:
 
-- The source admin and target admin must each have Global administrator access on their respective tenant which is required to manage the setup and migration. XXX  GLOBAL ADMIN ONLY? WE HAVE LEAST PRIVILEGE MODE CONCERNS
+- The source admin and target admin must each have Global administrator access on their respective tenant, which is required to manage the setup and migration. XXX  GLOBAL ADMIN ONLY? WE HAVE LEAST PRIVILEGE MODE CONCERNS
 - At least one mail-enabled security group is required in the source tenant.
-  - These groups are used to scope the list of users whose content can move from source tenant to the target tenant and to inform the identity mapping service what users should be mapped.
+  - These groups are used to:
+    - Scope the list of users whose content can move from source tenant to the target tenant.
+    - Inform the identity mapping service what users should be mapped.
   - This scoping allows the source tenant administrator to restrict access to a specific set of users whose content needs to be moved, preventing unintended users from being migrated or their data accessed.
-- You need to communicate with your trusted partner organization (with whom you will be moving user content) to obtain their Microsoft 365 tenant ID. This tenant ID is used in the Organization Relationship DomainName field.
+- You need to communicate with your trusted partner organization (who helps you move user content) to obtain their Microsoft 365 tenant ID. This tenant ID is used in the Organization Relationship DomainName field.
   - To obtain the tenant ID of a subscription, sign in to the Microsoft 365 admin center and go to [Active Directory > Properties](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties). Select the copy icon for the Tenant ID property to copy it to the clipboard.
 
 ## Configuration steps to enable your tenants for cross-tenant mailbox migrations
@@ -56,7 +58,7 @@ This article walks through all steps of preparing the tenants and users for a su
 1. In the **Add a client secret** window, type a description, and then configure your expiration settings.
 
 > [!IMPORTANT]
-> The password (Value) is used when creating your migration endpoint. It's important that you copy this password to your clipboard and/or to a secure/secret password safe location. The secret creation stage is the **only time** during which you can see this password. If you do somehow lose it or need to reset it, you can sign back into the Azure portal, go to App registrations, find your migration app, select Secrets & certificates, and then create a new secret for your app.
+> The password (Value) is used when creating your migration endpoint. It's important that you copy this password to your clipboard and/or to a secure/secret password safe location. The secret creation stage is the **only time** during which you can see this password. If you do somehow lose it or need to reset it, you can sign back into the Azure portal, go to **App registrations**, find your migration app, select **Secrets & certificates**, and then create a new secret for your app.
 
 Now that the migration application and secret are successfully created, the next step is to consent to the application.
 
@@ -71,17 +73,17 @@ Now that the migration application and secret are successfully created, the next
 
 Here's an example of the URL to provide to them:
 
-`https://login.microsoftonline.com/<your partner's tenant name (source), EX: contoso.onmicrosoft.com>/adminconsent?client_id=<application_id_of_the_app_you_just_created>&redirect_uri=https://office.com`
+`https://login.microsoftonline.com/<your partner's tenant name (source), EX: contoso.onmicrosoft.com>/adminconsent?client_id=<application_id_of_the_app_you_created>&redirect_uri=https://office.com`
 
 > [!NOTE]
-> You need the application ID of the mailbox migration app you just created. You need to replace `<your tenant name, EX: contoso.onmicrosoft.com>` in the above example with your source tenant's correct onmicrosoft.com name. You also need to replace `<application_id_of_the_app_you_just_created>` with the application ID of the mailbox migration app you just created.
+> You need the application ID of the mailbox migration app you previously created. You need to replace `<your tenant name, EX: contoso.onmicrosoft.com>` in the above example with your source tenant's correct onmicrosoft.com name. You also need to replace `<application_id_of_the_app_you_just_created>` with the application ID of the mailbox migration app you previously created.
 
 ### Prepare the target tenant by creating the Exchange Online migration endpoint and organization relationship
 
 1. Connect to Exchange Online PowerShell in the target Exchange Online tenant.
 2. Create a new migration endpoint for Cross-tenant mailbox moves.
 
-You need the application ID of the mailbox migration app you just created and the password (value) you configured in [Prepare the target (destination) tenant by creating the migration application and secret](#prepare-the-target-destination-tenant-by-creating-the-migration-application-and-secret). Depending on the Microsoft 365 cloud instance you use, your endpoint may be different. See the [Microsoft 365 endpoints](../enterprise/microsoft-365-endpoints.md) page, select the correct instance for your tenant, review the Exchange Online Optimize/Required address, and replace as appropriate.
+You need the application ID of the mailbox migration app you previously created and the password (value) you configured in [Prepare the target (destination) tenant by creating the migration application and secret](#prepare-the-target-destination-tenant-by-creating-the-migration-application-and-secret). Depending on the Microsoft 365 cloud instance you use, your endpoint may be different. See the [Microsoft 365 endpoints](../enterprise/microsoft-365-endpoints.md) page, select the correct instance for your tenant, review the Exchange Online Optimize/Required address, and replace as appropriate.
 
 ```powershell
 # Enable customization if tenant is dehydrated
@@ -151,7 +153,7 @@ $appId="[application id of the mailbox migration app you consented to]"
 
 $scope="[name of a new mail enabled security group that will contain the list of users who are allowed to migrate]"
 
-# create a new distribution group (optional in the case that you have already created your security group)
+# create a new distribution group (optional if you already created your security group)
 
 New-DistributionGroup -Type Security -Name $scope
 
@@ -197,7 +199,7 @@ The required setup steps for OneDrive Migration on both source and target are av
 > These instructions must be run from both the source and the target tenant.
 
 1. Download [the module](https://download.microsoft.com/download/1ded7541-fa8d-48f7-90c4-fa8a15a6b62b/ConfigureOneDriveMigration.psm1) onto your local machine.
-2. Connect to Graph Powershell as a Global Administrator:
+2. Connect to Graph PowerShell as a Global Administrator:
   `Connect-MgGraph`
 3. Import the module containing the configuration details:
   `Import-Module <location>`
@@ -212,13 +214,13 @@ The required setup steps for OneDrive Migration on both source and target are av
 > These instructions must be run from both the source and the target tenant.
 
 1. Federated users must be allowed.
-    1. Install Microsoft Teams PowerShell, if it's not already installed: [Install Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-install).
+    1. Install Microsoft Teams PowerShell, if you didn't already install it: [Install Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-install).
     2. Connect to Microsoft Teams PowerShell:
       `Connect-MicrosoftTeams`
     3. Run the cmdlet:
       `Set-CsTenantFederationConfiguration -AllowFederatedUsers $True`
 2. If the tenant is a Trial tenant, it must also have **External Access** allowed.
-    1. Install Microsoft Teams PowerShell, if it's not already installed: [Install Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-install).
+    1. Install Microsoft Teams PowerShell, if you didn't already install it: [Install Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-install).
     2. Connect to Microsoft Teams PowerShell:
       `Connect-MicrosoftTeams`
     3. Run the cmdlet:
@@ -232,7 +234,7 @@ The required setup steps for OneDrive Migration on both source and target are av
 > These instructions must be run from both the source and the target tenant.
 
 1. Download [the module](https://download.microsoft.com/download/1ded7541-fa8d-48f7-90c4-fa8a15a6b62b/ConfigureOneDriveMigration.psm1) onto your local machine.
-2. Connect to Graph Powershell as a Global Administrator:
+2. Connect to Graph PowerShell as a Global Administrator:
   `Connect-MgGraph`
 3. Import the module containing the configuration details:
   `Import-Module <location>`
@@ -262,7 +264,7 @@ The required setup steps for OneDrive Migration on both source and target are av
 1. Set the Execution Policy:
   `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`
 2. Download [the module](https://download.microsoft.com/download/1ded7541-fa8d-48f7-90c4-fa8a15a6b62b/ConfigureOneDriveMigration.psm1) onto your local machine.
-3. Connect to Graph Powershell as a Global Administrator:
+3. Connect to Graph PowerShell as a Global Administrator:
   `Connect-MgGraph`
 4. Import the module containing the configuration details:
   `Import-Module <location>`
@@ -306,7 +308,7 @@ The required setup steps for OneDrive Migration on both source and target are av
 > [!IMPORTANT]
 > These instructions must be run from both the source and the target tenant.
 
-Running Identity Mapping is a required step for migrating user data. Cross-Tenant Identity Mapping (CTIM) is a tool that allows source users to be mapped one-to-one to target users. It edits the users' properties, so they have the correct properties to successfully migrate, and it maintains a mapping file to reference so that the data for the correct source users is migrated to the correct target users.
+Running Identity Mapping is a required step for migrating user data. Cross-Tenant Identity Mapping (CTIM) is a tool that allows source users to be mapped one-to-one to target users. It edits the users' properties, so they have the correct properties to successfully migrate. It also maintains a mapping file to reference so that the data for the correct source users is migrated to the correct target users.
 
 Additional information on Identity Mapping can be found in [Cross-Tenant Identity Mapping (preview)](cross-tenant-identity-mapping.md).
 
@@ -320,7 +322,7 @@ XXX COPY IN AFTER WE'VE FINALIZED IN SOURCE DOC.
 To prepare the target tenant for the Cross-Tenant Migration Service, follow these steps:
 
 1. Download [the module](https://download.microsoft.com/download/1ded7541-fa8d-48f7-90c4-fa8a15a6b62b/ConfigureOneDriveMigration.psm1) onto your local machine.
-2. Connect to Graph Powershell as a Global Administrator:
+2. Connect to Graph PowerShell as a Global Administrator:
   `Connect-MgGraph`
 3. Import the module containing the configuration details:
   `Import-Module <location>`
@@ -332,4 +334,4 @@ To prepare the target tenant for the Cross-Tenant Migration Service, follow thes
   `Install-Module Microsoft.Graph.Applications`
   `Grant-CTTMAppPermissions`
 
-You should receive output showing **CrossTenantMigration Prod AAD App** as an app with roles assigned, as well as other apps provisioned by this point. The IdentityMapping-Experimental-Internal.Read app role is granted to the CTMS application.
+You should receive output showing **CrossTenantMigration Prod AAD App** as an app with roles assigned and other apps provisioned by this point. The IdentityMapping-Experimental-Internal.Read app role is granted to the CTMS application.
