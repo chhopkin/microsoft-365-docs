@@ -40,13 +40,13 @@ Copilot Pages and Copilot Notebooks are stored in user-owned [SharePoint Embedde
   - If your notebook includes a Microsoft OneNote section or page, you’ll need to share the entire OneNote notebook so others can access that content. [Learn more about how to share a OneNote notebook.](https://support.microsoft.com/en-us/office/how-to-share-a-onenote-notebook-d4a74a14-44a3-411e-8fb5-06e73ddf047f)
 - **Page Sharing**: Grants access to a specific page (not the whole notebook) with options for edit or read-only access. The user can choose to use a company share link or people-specific share link, based on your organizational sharing settings.
 
-  :::image type="content" source="media/cpcn-share-page.png" alt-text="Screenshot showing the Share button in the upper corner of a Copilot Page":::
+  :::image type="content" source="media/cpcn-share-page.png" alt-text="Screenshot showing the Share button in the upper corner of a Copilot Page.":::
   The Share button in the upper corner of a Copilot Page.
 
-  :::image type="content" source="media/cpcn-share-link.png" alt-text="Screenshot showing the Sharing Link copied to clipboard dialog with Settings option":::
+  :::image type="content" source="media/cpcn-share-link.png" alt-text="Screenshot showing the Sharing Link copied to clipboard dialog with Settings option.":::
   After choosing Page or Component in the Share button (previous screen), The share link is copied to the clipboard, and sharing Settings are available.
 
-  :::image type="content" source="media/cpcn-share-settings.png" alt-text="Screenshot showing the Share settings available for the Copilot Page permissions":::
+  :::image type="content" source="media/cpcn-share-settings.png" alt-text="Screenshot showing the Share settings available for the Copilot Page permissions.":::
   The share link settings and permissions configuration, just like all other files in SharePoint or OneDrive.
 
 ## Guest/External sharing
