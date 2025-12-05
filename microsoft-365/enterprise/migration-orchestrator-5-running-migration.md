@@ -133,6 +133,13 @@ If the removal is unsuccessful, here are the possible responses:
 
   In the case of a removal being unsuccessful (other than in case of an invalid user state), the user continues belonging to the batch and is migrated.
 
+### Delete batch data
+
+This feature allows you to delete the data associated with a batch from the migration system. It deletes the data within 30 days of the request.
+
+> [!NOTE]
+> Deleting batch data affects future migrations that would be informed by the batch. We don't recommend deleting batch data until the entire migration completes.
+
 ## Common parameters
 
 There are a number of parameters that must be provided in a specific format for the migration input:
@@ -165,7 +172,7 @@ There are a number of parameters that must be provided in a specific format for 
 
 ### A: Submit a validation batch
 
-1. 1.	In a basic text editor, like Notepad, save the text in the following format as a .json file for the batch you want to submit. Ensure that you are pasting as plain text.
+1.	In a basic text editor, like Notepad, save the text in the following format as a .json file for the batch you want to submit. Make sure you paste as plain text.
 
 ```json
 {
