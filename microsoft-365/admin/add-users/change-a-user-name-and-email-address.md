@@ -35,6 +35,8 @@ If you're a Microsoft 365 admin for your organization, you might need to change 
 
 If you're a business user and you want to update your information in Microsoft 365, you might need your administrator to make changes for you. 
 
+If you're using a personal Microsoft account and you need to update your information, see [Get help with your Microsoft account](https://support.microsoft.com/en-us/account-billing/get-help-with-your-microsoft-account-ace6f3b3-e2d3-aeb1-6b96-d2e9e7e52133).
+
 This article describes how administrators can update a user's name and email address in Microsoft 365.
 
 ## Before you begin
