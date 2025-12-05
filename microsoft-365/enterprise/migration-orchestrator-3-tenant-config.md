@@ -285,23 +285,21 @@ The required setup steps for OneDrive Migration on both source and target are av
   `Set-CalendarRBACRoles`
   - Success: `RBAC role has been assigned to MMS App to allow Calendar Read Write Permissions.`
 11. If Microsoft.Graph.Authentication, Microsoft.Graph, ExchangeOnlineManagement aren't installed, you're prompted to do so.
-12.	It adds Service Principals for:
+12.	Grant-MMSAppPermissions adds Service Principals for:
     1. Cross Tenant Teams Migration app
     1. Meeting Migration Service app
     1. Identity Mapping Service app
-13.	It adds App Roles for:
+13.	Grant-MMSAppPermissions adds App Roles for:
     1. Cross Tenant Teams Migration app role from Cross Tenant Teams Migration app assigned to target Meeting Migration Service App
     1. Identity Mapping Service app role from Identity Mapping Service app to target Meeting Migration Service app
     1. CrossTenantMigrationAuthorization-Internal.Read
-14. It adds the Graph permissions for:
+14. Grant-MMSAppPermissions adds the Graph permissions for:
     1. Online.ReadWrite.All
     1. User.Read.All
     1. RoleManagement.Read.Directory
     1. Chat.ReadBasic.All
     1. Application.Read.All
 15. It also adds the Exchange Admin Directory Role and Application access policies to MMS Application.
-
-XXX WHAT IS 'IT' IN STEPS 12-15?
 
 ## Prepare both tenants for Identity Mapping
 
