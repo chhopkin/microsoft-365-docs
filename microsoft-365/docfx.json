@@ -171,6 +171,21 @@
         "exclude": [
         ]
       },
+      "filename-incomplete": {
+        "exclude": [
+          "**/*.md",
+          "**.*.yml"
+        ]
+      },
+      "image-name-incomplete": {
+        "exclude": [
+          "**/*.gif",
+          "**/*.jpeg",
+          "**/*.jpg",
+          "**/*.png",
+          "**/*.svg"
+        ]
+      },
       "sensitive-language-ma": {
         "exclude": [
         ]

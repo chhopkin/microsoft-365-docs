@@ -2,8 +2,8 @@
 title: "Configure email forwarding"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 07/01/2025
 audience: Admin

@@ -2,7 +2,7 @@
 title: Device management roadmap for Microsoft 365 
 keywords: Microsoft 365, Microsoft 365 for enterprise, Microsoft 365 documentation, mobile device management, Intune
 author: kelleyvice-msft 
-ms.author: kvice
+ms.author: scotv
 manager: scotv
 ms.date: 07/29/2024
 ms.topic: article

@@ -1,13 +1,13 @@
 ---
 title: "Turn off Basic Mobility and Security enforcement"
 f1.keywords: NOCSH
-ms.author: chrisda
-author: chrisda
-manager: orspodek
+ms.author: vpattnaik
+author: vpattnai
+manager: dansimp
 ms.date: 08/14/2025
 audience: Admin
 ms.topic: how-to
-ms.service: microsoft-365-basic-mobility-security
+ms.service: microsoft-365-security
 ms.localizationpriority: medium
 ms.collection:
 - Tier3

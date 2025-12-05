@@ -8,7 +8,7 @@ ms.author: odocspr
 manager: jtremper
 audience: Admin
 ms.topic: solution-overview
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: medium
 ms.custom:
   - has-azure-ad-ps-ref

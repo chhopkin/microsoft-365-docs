@@ -5,9 +5,9 @@ author: lauragra
 manager: calvind
 ms.collection: operations-pod
 ms.audience: ITPro
-ms.reviewer: jwolk
+ms.reviewer: riyazp
 ms.service: microsoft-365-copilot
-ms.date: 07/17/2025
+ms.date: 10/27/2025
 ms.topic: how-to
 ms.localizationpriority: medium
 description: Learn how to use Copilot Tuning to build an AI model for document generation based on organizational knowledge.
@@ -84,7 +84,7 @@ Based on the size of your dataset, this step might take up to 24 hours. Copilot 
 Preparing high-quality datasets for fine-tuning can be time-consuming and often requires multiple iterations and input from data scientists. Copilot Tuning simplifies this process by automatically identifying which of your provided document pairs are most effective for fine-tuning. This learning process is iterative, and at times, Copilot Tuning might send an email asking you to label files to improve its understanding of what constitutes a high-quality target. When you receive an email indicating that data is ready for labeling, follow these steps to complete the process.
 
 1. Open [Copilot Studio](https://copilotstudio.microsoft.com) in your browser. In the left-hand navigation bar, select the ellipses (**...**), and then select **Copilot Tuning**.
-1. Select the model that is ready for labeling to open the labeling form.
+1. Select the model that's ready for labeling to open the labeling form.
 1. The labeling form provides sample documents that Copilot Tuning identified as example final draft documents. Examine each document and label whether or not you think the document is a good example draft document. Once you label all of the documents, submit the labeling form.
 
 Copilot Tuning continues preparing the training data based on your input. Based on the size of your dataset, this step might take up to 24 hours. You can return to the Copilot Tuning landing page and see the status of your model configuration. Your model configuration might ask you to label more data, might be processing the data in your knowledge source, or it might be ready to fine-tune the model. Copilot Tuning sends you an email when it's ready for you to go to the next step in the model creation process.
@@ -103,7 +103,7 @@ If the results don't meet your expectations, you can go to the previous steps in
 
 ### Optional - Prepare a mapping file
 
-If you'd like to run evaluations with a mapping file, you can create one and re-run training and evaluations as described in the section above. Your knowledge source should have more than 20 example pairs of original files and their corresponding final (draft) files. In this step, you prepare a CSV file that lists these pairs, mapping each original file to its final (draft) document.
+If you'd like to run evaluations with a mapping file, you can create one and rerun training and evaluations as described in the previous section. Your knowledge source should have more than 20 example pairs of original files and their corresponding final (draft) files. In this step, you prepare a CSV file that lists these pairs, mapping each original file to its final (draft) document.
 
 Create a file named **mapping.csv** and store it in the root directory of your knowledge source. This file should have two columns:
 

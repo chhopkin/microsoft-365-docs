@@ -1,13 +1,13 @@
 ---
 title: "Purchase and add apps for Microsoft Intune"
-ms.author: erikre
-author: erikre
-manager: dougeby
+ms.author: nwhite
+author: nicholasswhite
+manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.date: 04/21/2025
 description: Purchase and add managed apps for your managed environment.
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: high
 ms.collection:
 - highpri

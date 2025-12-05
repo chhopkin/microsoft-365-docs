@@ -4,13 +4,13 @@ description: Get an overview of Microsoft Defender Suite for Business Premium an
 search.appverid:
 - MET150
 - BCS160
-ms.author: chrisda
-author: chrisda
-manager: deniseb
+ms.author: deniseb
+author: deniseb
+manager: dansimp
 audience: Admin
 ms.topic: article
 ms.date: 09/24/2025
-ms.service: microsoft-365-business-security
+ms.service: microsoft-365-security
 ms.localizationpriority: medium
 ms.collection:
 - tier2

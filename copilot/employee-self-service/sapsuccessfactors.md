@@ -3,9 +3,9 @@ title: Integrate SAP SuccessFactors with your Employee Self-Service deployment
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: scotv
+manager: dansimp
 ms.reviewer: semani
-ms.date: 09/29/2025
+ms.date: 11/13/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -19,17 +19,17 @@ appliesto:
 
 # Integrate SAP SuccessFactors with your Employee Self-Service deployment
 
-> [!NOTE]
-> The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
-
 > [!IMPORTANT]
-> You need to complete the steps to deploy the Employee Self-Service (ESS) agent before you can configure this supplemental extension pack.
+> You need to complete the steps to deploy the Employee Self-Service agent before you can configure this supplemental extension pack.
 
-The Employee Self-Service agent is built on Copilot and uses AI to provide relevant information to employees and take actions on their HR data. If your organization uses a human resource management system, the ESS agent requires access to that system to function most effectively.
+> [!NOTE]
+> [Learn more](/power-platform/sap/connect/entra-id-using-successfactors) about setting up Microsoft Entra ID using SuccessFactors.
+
+The Employee Self-Service agent is built on Copilot and uses AI to provide relevant information to employees and take actions on their HR data. If your organization uses a human resource management system, the Employee Self-Service agent requires access to that system to function most effectively.
 
 ## Functional synopsis
 
-The ESS agent acts as a front-end for consuming information from SAP SuccessFactors. The following items are the scenarios currently supported by ESS agent for SAP SuccessFactors integration:
+The Employee Self-Service agent acts as a front-end for consuming information from SAP SuccessFactors. The following items are the scenarios currently supported by the Employee Self-Service agent for SAP SuccessFactors integration:
 
 - [Get Base Compensation](#get-base-compensation)
 - [Get Company Code](#get-company-code)
@@ -42,9 +42,9 @@ The ESS agent acts as a front-end for consuming information from SAP SuccessFact
 
 ## Technical synopsis
 
-:::image type="content" source="media/agent-and-success-factors-integration.png" alt-text="Diagram of the high-level components comprising overall solution for ESS agent and SuccessFactors integration." lightbox="media/agent-and-success-factors-integration.png":::
+:::image type="content" source="media/agent-and-success-factors-integration.png" alt-text="Diagram of the high-level components comprising overall solution for the Employee Self-Service agent and SuccessFactors integration." lightbox="media/agent-and-success-factors-integration.png":::
 
-The diagram outlines the high-level components comprising overall solution for the ESS agent and SuccessFactors integration. There are different activities to be performed as part of initial deployment and for an ongoing operation. As the solution involves multiple technologies, you should spend some time initially understanding the various components and bring in the right stakeholders to set up an environment to deploy and test the ESS agent.
+The diagram outlines the high-level components comprising overall solution for the Employee Self-Service agent and SuccessFactors integration. There are different activities to be performed as part of initial deployment and for an ongoing operation. As the solution involves multiple technologies, you should spend some time initially understanding the various components. Bring in the right stakeholders to set up an environment to deploy and test the Employee Self-Service agent.
 
 > [!NOTE]
 > SuccessFactors integration is currently based on OData V2.0, but the latest supported version is V4.0. Microsoft Entra ID using SuccessFactors is still a prerelease version and is subject to change.
@@ -55,7 +55,7 @@ The diagram outlines the high-level components comprising overall solution for t
 - Admin access to SAP SuccessFactors (SF)
 - Admin access within the Azure portal
 
-You can refer to the ESS agent deployment guide for subscription requirements for the ESS agent.
+You can refer to the Employee Self-Service agent deployment guide for subscription requirements for the Employee Self-Service agent.
 
 ### Deployment role requirements
 
@@ -63,20 +63,20 @@ You can refer to the ESS agent deployment guide for subscription requirements fo
 |------------------|----------------|-------------------------|------------------------|
 |**SAP SF Administrator** |User performing administrative tasks. |1. Create an OAuth 2.0 client application in SuccessFactors.  <br>2. Upload the SAML certificate to OAuth 2.0 client application within SuccessFactors (SF). <br>3. Determine the API server where SF is hosted. <br>4. Confirm that maker account mapped in SAP SuccessFactors has OData API access. |SAP SuccessFactors |
 |**Application Administrator (or) Cloud Application Administrator (or) Application Owner** |User configuring single sign-on (SSO) integration. |1. Establish a Microsoft Enterprise application. <br>2. Configure SAML settings within the Enterprise application. <br>3. Obtain the Enterprise application's SAML certificate. <br>4. Establish trust. |Azure Admin portal |
-|**Environment Maker** |User customizing the ESS agent. |1. Install and configure SAP SF extension pack. <br>2. Manage SAP SF topics. <br>3. Setup User Context. |Microsoft Copilot Studio |
+|**Environment Maker** |User customizing the Employee Self-Service agent. |1. Install and configure SAP SF extension pack. <br>2. Manage SAP SF topics. <br>3. Setup User Context. |Microsoft Copilot Studio |
 |**InfoSec/IT Infra/Change Control Board** |User committee responsible for security infrastructure changes. |Configure IT platform services such as network and firewall rules. |Network firewall policies |
 
-### Infra set up for 3P ISV integration
+### Infrastructure setup for external system solution integration
 
-Most enterprise organizations secure their 3P HCMs/Knowledge Sources from external networks, as the line of business must protect sensitive information about employees, organizations, knowledge assets, and so on.
+Most enterprise organizations secure their third-party knowledge sources from external networks, as the line of business must protect sensitive information about employees, organizations, knowledge assets, and so on.
 
-When you need to integrate these enterprise systems into ESS agent to use it as a source for providing relevant information to the end users, these systems should be accessible to the Power Platform environment hosting these ESS agents.
+When you need to integrate these enterprise systems into the Employee Self-Service agent to use it as a source for providing relevant information to the end users, these systems should be accessible to the Power Platform environment hosting the Employee Self-Service agent.
 
-These systems must be configured with allowlists for the source IP addresses from where the ESS agent is hosted and executed, that is, Power Platform environment. For more information, see [Power Platform URLs and IP address ranges - Power Platform](/power-platform/admin/online-requirements).
+These systems must be configured with allowlists for the source IP addresses from where the Employee Self-Service agent is hosted and executed, that is, Power Platform environment. For more information, see [Power Platform URLs and IP address ranges - Power Platform](/power-platform/admin/online-requirements).
 
-For more information on 3P ISV connectors, see [Managed connectors outbound IP addresses](/connectors/common/outbound-ip-addresses#power-platform).
+For more information on third-party external system solution connectors, see [Managed connectors outbound IP addresses](/connectors/common/outbound-ip-addresses#power-platform).
 
-For SAP SuccessFactors (SF) integration, as the ESS agent uses OData v2.0, you need to work with InfoSec to allowlist Power Platform connectors to communicate with this endpoint. If any extra data security requirements need to be met, especially for OData exchange, work with your security specialists to harden the security for data in-transit.
+For SAP SuccessFactors (SF) integration, as the Employee Self-Service agent uses OData v2.0, you need to work with InfoSec to allowlist Power Platform connectors to communicate with this endpoint. If any extra data security requirements need to be met, especially for OData exchange, work with your security specialists to harden the security for data in-transit.
 
 ### Set up SSO for SAP SuccessFactors with Microsoft Entra
 
@@ -141,7 +141,7 @@ You can ignore this step if SSO is already established for SAP SuccessFactors wi
      > Choose the correct name identifier format based on the user mapping between Microsoft Entra and SAP SuccessFactors. For example, if "Employee ID" is used as a sign in user ID for SAP SuccessFactors, then the mapping of source attribute should be the correct attribute from Microsoft Entra. Since this identifier is just an Employee ID without any email format, the **Name identifier format** should be set as **Unspecified**.
 
 9. Download the **Certificate (Base64 format)** from this application. This information is required for completing the next step of creating an OAuth 2.0 client application in SuccessFactors. A certificate can be downloaded without completing the previous step. However, complete the OAuth 2.0 Client application setup in SuccessFactors to obtain the "api_key" required for the previous step.
-10. Assign users and groups. Add all the users and/or groups required to access SAP SF via the ESS agent under **Users and groups** section within Enterprise application's configuration for SAP SuccessFactors created in Microsoft Entra.
+10. Assign users and groups. Add all the users and/or groups required to access SAP SF via the Employee Self-Service agent under **Users and groups** section within Enterprise application's configuration for SAP SuccessFactors created in Microsoft Entra.
 
 ### Create an OAuth 2.0 client application in SuccessFactors
 
@@ -190,20 +190,20 @@ You can ignore this step if SSO is already established for SAP SuccessFactors wi
 
 For more information on setting up SSO for SAP SuccessFactors with Microsoft Entra, see [Set up Microsoft Entra ID using SuccessFactors](/power-platform/sap/connect/entra-id-using-successfactors).
 
-### Install SuccessFactors extension pack for ESS agent
+### Install SuccessFactors extension pack for the Employee Self-Service agent
 
-The ESS agent is designed to have separate extension packs for each third party ISV, like SuccessFactors. Hence, these extension packs must be installed before starting any configurations or customizations.
+The Employee Self-Service agent is designed to have separate extension packs for each third party external system solution, like SuccessFactors. As a result, these extension packs must be installed before starting any configurations or customizations.
 
 These steps are required to install and enable the SuccessFactors extension pack:
 
 1. **Entitlement**
-   Work with your ESS agent private preview product managers for the entitlement process. Once the entitlement process is complete for your tenant, the SuccessFactors extension pack shows up under **Customize** section of ESS agent.
+   Work with your Employee Self-Service agent private preview product managers for the entitlement process. Once the entitlement process is complete for your tenant, the SuccessFactors extension pack shows up under **Customize** section of the Employee Self-Service agent.
 
    > [!NOTE]
    > Entitlement process is a preview workaround until the extension pack installation is streamlined in Microsoft Copilot Studio.
 
 2. Install the extension.
-   1. Open the ESS agent in Copilot Studio.
+   1. Open the Employee Self-Service agent in Copilot Studio.
    2. Navigate to **Settings**.
    3. Select **Customize** from the left navigation under the Settings.
    4. Select **Employee Self Service HR SuccessFactors** and select **Install**.
@@ -224,15 +224,31 @@ These steps are required to install and enable the SuccessFactors extension pack
 > [!NOTE]
 > SAP SF OData connector uses maker connection, which is the SF API user credentials, in all flows to establish connection.
 
-### Set up SuccessFactors extension pack for ESS agent
+### Set up Environment Variables
 
-The SuccessFactors extension pack requires few initial setups for the agent flows and templates. The following sections walk you through the process for configuring the required components.
+This section contains the environment variables for the SAP SuccessFactors instance you're integrating, based on your organization's operational policies.
+
+The following table shows the list of variables and the purpose of each variable to be customized based on your organization's needs. We recommend you work with an SAP SuccessFactors subject matter expert to better understand the operational model.
+
+|Environmental variable                    |Description |
+|------------------------------------------|------------|
+|SuccessFactors_EC_Link                    |Variable stores the link, which gets used when update Topic is successful so the user can go on to Employee Central (EC) in SuccessFactors to check their updates. </br>The default value is `https://hcm41.sapsf.com/sf/start/` </BR>The default value needs to be changed to your organization's EC link. |
+|SuccessFactors_EC_DisplayName             |Variable stores the name to show the user for EC link. </br>The default value is **Employee Central**. |
+|SuccessFactors_RaceAndEthnicity_Countries |Variable stores the countries/regions that support the race and ethnicity Topic. </br>The data type is Array. </br>The default value is ["USA","GBR"] </br> This variable is used in the Topic to validate the user is part of the country/region list using UserContext_Country_Code. |
+|SuccessFactors_VeteranInfo_Countries      |Variable stores the countries/regions that support the veteran info Topic. </br>The data type is Array. </br>The default value is ["USA","GBR"]. </br>This variable is used in the Topic to validate the user is part of the country/region list using UserContext_Country_Code. |
+|SuccessFactors_CostCenterSupport_Link     |Variable stores the link used in the write cost center Topic as a support link when the user fails to input a valid cost center. |
+
+Learn more about [using environment variables in Power Platform solutions](/power-apps/maker/data-platform/environmentvariables#enter-new-values-while-importing-solutions) when following the steps to enter values for the environment variables while you're importing solutions.
+
+### Set up SuccessFactors extension pack for the Employee Self-Service agent
+
+The SuccessFactors extension pack requires some initial setup for the agent flows and templates. The following sections walk you through the process for configuring the required components.
 
 ### Setup User Context
 
-This step is required to set the user context for the ESS agent that primarily does the user mapping for Microsoft Entra and pass it on to SAP SuccessFactors.
+This step is required to set the user context for the Employee Self-Service agent that primarily does the user mapping for Microsoft Entra and pass it on to SAP SuccessFactors.
 
-1. Open the ESS agent in Copilot Studio.
+1. Open the Employee Self-Service agent in Copilot Studio.
 2. Go to **Topics**.
 3. Select **\[Admin\] – User Context – Setup**.
 4. In the canvas, select **...More** and select **</> Open code editor**
@@ -257,19 +273,19 @@ This step is required to set the user context for the ESS agent that primarily d
    > The highlighted section in the code transforms username from the logged in user's principal name to SAP SuccessFactors user ID. Use this information based on your environment setup between Microsoft Entra and SAP SuccessFactors. Currently the agent supports only User Principal Name (UPN) as a key identifier, if there are other attributes to be used as key identifier then a custom logic should be implemented to get the correct username for SAP SuccessFactors.
 6. Select **Save** for changes.
 
-### Set up Templates
+### Set up templates
 
-ESS agent comes with few predefined templates that are being used for each topic. These templates are shipped with the default data attribute paths, if there are custom entities and paths being used in SAP SuccessFactors, then these templates must be customized to match the SAP SuccessFactors entities.
+The Employee Self-Service agent comes with a few predefined templates used for each topic. These templates are shipped with the default data attribute paths, if there are custom entities and paths being used in SAP SuccessFactors, then these templates must be customized to match the SAP SuccessFactors entities.
 
 To set up templates, follow these steps:
 
-1. Open ESS agent in Copilot Studio.
+1. Open The Employee Self-Service agent in Copilot Studio.
 2. Select **Settings** in the top right corner of agent ribbon.
 3. Select **Customize** from the agent settings left navigation pane.
 4. Select **Employee Self Service HR SuccessFactors** extension pack.
 5. Select **Open** from the dialog popup.
 6. Select **Manage** in the Configuration section.
-7. All the template configurations available are listed in the Power Apps, so select each of the "Get" templates to configure the right entities and paths. The following code is an example of the "Get" configuration template:
+7. All the starter configurations available are listed in the Power Apps, so select each of the "Get" templates to configure the right entities and paths. The following code is an example of the "Get" configuration starter:
 
    ```json
    { 
@@ -279,14 +295,6 @@ To set up templates, follow these steps:
    "rootEntity": "EmpEmployment",//Entity to be queried 
    "filter": "personIdExternal eq '{personIdExternalVal}' and userId eq 
    '{userIdVal}'",//Filter Expression to filter data more on this format
-   SAP integration for ESS agent 
-   NDA Private Preview Customers ONLY 
-   Microsoft Corporation © 
-   Deployment Guide v0.1 
-   Page 13 of 44 
-   SAP integration for ESS agent Deployment Guide v0.1 Page 14 of 44 
-   NDA Private Preview Customers ONLY 
-   Microsoft Corporation © 
        "requestEntities": [  //Request entites an array of object that should be queried 
    from root entity 
            { 
@@ -308,13 +316,13 @@ To set up templates, follow these steps:
     }
    ```
 
-The highlighted **filter** parameter keys must match with what is expected in the Template configuration. In the following example, *personIdExternalVal* would be used as a key to insert *Global.ESS.UserContext.Employee_Id* into the filter expression.
+The highlighted **filter** parameter keys must match with what is expected in the starter configuration. In the following example, *personIdExternalVal* would be used as a key to insert *Global.ESS.UserContext.Employee_Id* into the filter expression.
 
 **Example format used in Topic:**
 
 _`"{""personIdExternalVal"": """ & Global.ESS_UserContext_Employee_Id & """,""userIdVal"": """ & Global.ESS_UserContext_User_Id & """}"`
 
-**Snippet of the template configuration:**
+**Snippet of the starter configuration:**
 
 ```json
 {
@@ -373,7 +381,7 @@ check for in role id
 1. Setting a variable with the filter parameters, which in this case is the alias of the user the context is retrieved for.
 2. Next split into parallel calls to reduce time:
     1. The left side retrieves the user context config in the first Dataverse call. The second Dataverse call retrieves the filter and request entities, which we query for in the OData connector at the end. After the left side is complete, the flow retrieves all the requested entities from the config for the user.
-    2. The right side retrieves the config to check if user *isManager* in the first Dataverse call. The second Dataverse call flow retrieves the filter and request entities to query for. With that config, the flow queries for directs under the user and retrieves necessary information such as in this case *userId* of directs.
+    2. The right side retrieves the config to check if user *isManager* in the first Dataverse call. The second Dataverse call flow retrieves the filter and request entities to query for. With that config, the flow queries for the user's direct reports and retrieves necessary information such as in this case *userId* of directs.
 3. If the SF call for user data doesn't return anything, we terminate the flow and respond to copilot user not found.
 4. We split into parallel calls to check if the user has multiple records on the left.
 5. The left side checks if there are multiple records and then runs a child flow that gets the active user ID and updates the context. Then the flow makes an OData call to get the user's roles by their user ID.
@@ -409,11 +417,9 @@ check for in role id
 
     :::image type="content" source="media/agent-authentication-flow-variable.png" alt-text="Diagram that shows Query SF OData Metadata entity." lightbox="media/agent-authentication-flow-variable.png":::
 
-8. Lastly it returns three variables, such as *labelResponse*, *modelResponse*, and *isSucceeded*.
+8. Finally, it returns three variables, such as *labelResponse*, *modelResponse*, and *isSucceeded*.
 
 ## Employee Read scenarios – configuration
-
-The topics shipped with the ESS agent preview are limited only for "Read" scenarios. The "Update" scenarios aren't supported yet, even thought they're available for the current version of agent.
 
 Each of the Read topic has its own prompts, configurations, and so on, but the actual execution of SAP SuccessFactors is encapsulated in the **SuccessFactors System Get Common Execution** topic expecting the following inputs:
 
@@ -436,8 +442,8 @@ The "Get Employee ID" and "Get Service Anniversary" topics are exceptions to thi
 
 Authorization for all the topics is as follows:
 
-- Authorization is done using the *permissionsMetadata* part of the Template configuration. The *permissionsMetadata* and *User ID* are used to create the query string for OData connector in *SuccessFactors Check User Permissions* flow.
-- You should include *permissionMetadata* or *rolePermission* in the Template config file, as there's no other authorization check if both of those fields are missing.
+- Authorization is done using the *permissionsMetadata* part of the starter configuration. The *permissionsMetadata* and *User ID* are used to create the query string for OData connector in *SuccessFactors Check User Permissions* flow.
+- You should include *permissionMetadata* or *rolePermission* in the starter config file, as there's no other authorization check if both of those fields are missing.
 
 ### Get Base Compensation
 

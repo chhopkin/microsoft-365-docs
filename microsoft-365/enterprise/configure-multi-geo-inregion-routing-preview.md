@@ -11,7 +11,8 @@ manager: mfxiong
 ms.service: microsoft-365-enterprise
 ms.topic: how-to
 ms.date:     09/26/2025
-ms.subservice: advanced-data-residency
+ms.subservice: multi-geo-capabilities
+ms.reviewer: jugiammo, v-fahasen
 ---
 
 # Configure Multi-Geo In-Region Routing (In Preview)
@@ -20,7 +21,7 @@ This article describes the process of configuring Multi-Geo In-Region Routing (I
 
 ## Overview
 
-Multi-Geo In-Region Routing (IRR) enables you to use recipient accepted domains to control inbound email routing to comply with regional data regulations. IRR ensures email is fully processed and stored within the recipient's Preferred Data Location (PDL), which enhances data sovereignty and compliance.
+Multi-Geo In-Region Routing (IRR) helps enable you to use recipient accepted domains to control inbound email routing.
 
 This article describes the steps to configure accepted domains for IRR.
 

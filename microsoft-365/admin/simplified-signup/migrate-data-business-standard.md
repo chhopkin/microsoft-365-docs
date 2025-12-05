@@ -2,8 +2,8 @@
 title: "Migrate data to my Microsoft 365 Business Standard subscription"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: heidip
+author: MicrosoftHeidi
 manager: dansimp
 ms.date: 01/06/2025
 audience: Admin

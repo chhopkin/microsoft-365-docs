@@ -1,6 +1,6 @@
 ---
 title: "Common VPN split tunneling scenarios for Microsoft 365"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 10/03/2024

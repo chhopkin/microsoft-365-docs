@@ -2,13 +2,13 @@
 metadata:
   title: Microsoft 365 Business Premium security - frequently asked questions
   description: Find answers to the most frequently asked questions about security in Microsoft 365 Business Premium, a solution designed for small, and medium sized businesses (SMB) up to 300 users.
-  author: chrisda
   f1.keywords:
   - NOCSH
-  ms.author: chrisda
-  manager: deniseb
+  ms.author: vpattnaik
+  author: vpattnai
+  manager: dansimp
   ms.topic: how-to
-  ms.service: microsoft-365-business-security
+  ms.service: microsoft-365-security
   ms.collection:
   - tier2
   - m365-security
