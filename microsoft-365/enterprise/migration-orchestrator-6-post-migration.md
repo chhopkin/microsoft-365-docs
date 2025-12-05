@@ -29,7 +29,7 @@ Post-migration steps for OneDrive are available in [Step 7 of our OneDrive docum
 - Use the **Remove-MMSAppPermissions** cmdlet to remove permissions for meeting migrations.
 - Use the **Remove-CtimServicePrincipal** cmdlet to remove permissions for identity mapping.
 - Use the **Revoke-CTTMAppPermissions** cmdlet to remove permissions for Teams Chat migrations.
-- Use the following to remove CTMS permissions and service principals. This action is only required on the target tenant:
+- Use the following to remove CTMS (cloud transport management service) permissions and service principals. This action is only required on the target tenant:
 
 ```powershell
 # Clean up CTMS Permissions
