@@ -88,7 +88,7 @@ The CTIM application runs within Microsoft 365 and requires permissions within y
 
 The roles added are:
 
-- Enable the Exchange Administrator RBAC role in Entra ID if it's not already enabled.
+- Enable the Exchange Administrator RBAC role in Entra ID if needed.
 - Grant the CTIM service principal the Exchange Administrator RBAC role in Entra ID.
 - Grant the CTIM service principal the Exchange.ManageAsApp API Permissions.
 
@@ -118,7 +118,7 @@ We require source users to be mapped to target users using the Identity Mapping 
 > [!NOTE]
 > Identity Mapping must be run before applying workload licenses (for example, E5) to target users. This action ensures that target users don't have a mailbox provisioned, and that they become MailUsers rather than Mailbox objects.
 
-There are five phases when using CTIM, and an additional step for hybrid target tenants.
+There are five phases when using CTIM, and an extra step for hybrid target tenants.
 
 CTIM workflow phases:
 
@@ -135,7 +135,7 @@ CTIM workflow phases:
 
 #### Phase 1: Scoping objects
 
-When creating your Organization Relationship, you defined one or more **Mail Enabled Security Group values** in the **MailboxMovePublishedScope** field. These are your "scopes" and hold the objects to be migrated to the Target tenant.
+When creating your Organization Relationship, you defined one or more **Mail Enabled Security Group values** in the **MailboxMovePublishedScope** field. These values are your "scopes" and hold the objects to be migrated to the Target tenant.
 
 You must also ensure no object is a member of more than one scope, or else you may risk overwriting information about the user.
 
@@ -248,11 +248,11 @@ An alternative approach to mapping source and target users is by using a CSV fil
 
 1. Download a CSV mapping file: `Download-CtimCopiedIdentities -SourceTenantGuid <GUID> -FilePath <path>`
 2. Edit the mapping file:
-    1. Populate the 'TargetExternalDirectoryObjectId' column, so each source tenant object is aligned with the correct MailUser object in the target tenant. This change is the only change needed to the file. Don't add additional columns or include additional information.
+    1. Populate the 'TargetExternalDirectoryObjectId' column, so each source tenant object is aligned with the correct MailUser object in the target tenant. This change is the only change needed to the file. Don't add more columns or include more information.
     1. This CSV file must use commas as the delimiter character. If your system uses semicolons, pipes, or any other delimiter character it fails when Upload-CtimMappingData tries to process the file. If you encounter errors when running Upload-CtimMappingData, open the file in a plain text editor and confirm commas are being used as the delimiter.
     1. The only changes you need to make in the file is populating TargetExternalDirectoryObjectId with the GUID of the MailUser object in the target tenant.
     1. If you don't want to map certain objects yet, for example, if the MailUser object isn't created for them yet, you may leave the TargetExternalDirectoryObjectId column empty. You can complete them later using the PrimarySMTPAddress matching method or the CSV method. Later steps may say "CompletedWithWarnings" if you leave objects with no value to map against.
-3. Upload the edited file: Once your edits complete you may upload the mapping file. Remember to close the file before attempting to upload it or else the file lock prevents uploading.
+3. Upload the edited file: Once your edits complete, you may upload the mapping file. Remember to close the file before attempting to upload it or else the file lock prevents uploading.
 
   `Upload-CtimMappingData -SourceTenantGuid <GUID> -MappingCsvFilePath <path>`
 
@@ -266,7 +266,7 @@ An alternative approach to mapping source and target users is by using a CSV fil
   > [!NOTE]
 > There's a -UseCsv switch you must use if you want to use a CSV file. Omitting this switch uses the PrimarySMTPAddress matching method of mapping.
 5. Confirm the mapping is complete:
-  You can use Get-CtimRequest with the RequestID to determine when the upload process is complete. You may use Get-CtimReport with the RequestID to look at additional details including any errors.
+  You can use Get-CtimRequest with the RequestID to determine when the upload process is complete. You may use Get-CtimReport with the RequestID to look at more details, including any errors.
 
   > [!TIP]
   > Use commas as delimiters in the CSV file.
