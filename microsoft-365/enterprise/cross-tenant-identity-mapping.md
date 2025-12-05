@@ -19,7 +19,7 @@ description: "How to map identities across Microsoft 365 organizations when prep
 
 # Cross-Tenant Identity Mapping (preview)
 
-Cross Tenant Identity Mapping (CTIM) is a Microsoft tool designed to simplify and automate the process of mapping user identities between source and target tenants, ensuring that data, permissions, and user experiences remain consistent throughout your migration journey. Running identity mapping is a required step for migrating user data. Cross-Tenant Identity Mapping allows source users to be mapped one-to-one to target users. It edits the users' properties, so they have the correct attributes to successfully migrate, and it maintains a mapping file to ensure that data for the correct source users is migrated to the correct target users.
+Cross Tenant Identity Mapping (CTIM) is a Microsoft tool designed to simplify and automate the process of mapping user identities between source and target tenants. This mapping ensures data, permissions, and user experiences remain consistent throughout your migration journey. Running identity mapping is a required step for migrating user data. Cross-Tenant Identity Mapping allows source users to be mapped one-to-one to target users. It edits the users' properties, so they have the correct attributes to successfully migrate, and maintains a mapping file to ensure that data for the correct source users migrates to the correct target users.
 
 > [!NOTE]
 > Use CTIM after creating target users and before migrating data to ensure accuracy and avoid manual errors.
@@ -81,11 +81,14 @@ Install-Module PowerShellGet -AllowClobber -Force
 
 ### Grant CTIM Application Permissions
 
-The CTIM application runs within Microsoft 365 and requires permissions within your tenant to be able to read or write proper information. This access may be revoked later when you are no longer using CTIM. These steps require the user running the command to have the Global Administrator role. The addition or removal of CTIM application permissions are the only time a Global Administrator role is required for the CTIM process.
+The CTIM application runs within Microsoft 365 and requires permissions within your tenant to be able to read or write proper information. This access may be revoked later when you're no longer using CTIM. These steps require the user running the command to have the Global Administrator role.
 
-The roles that are added are as follows:
+> [!NOTE]
+> The addition or removal of CTIM application permissions are the only times a Global Administrator role is required for the CTIM process.
 
-- Enable the Exchange Administrator RBAC role in Entra ID if it is not already enabled.
+The roles added are:
+
+- Enable the Exchange Administrator RBAC role in Entra ID if it's not already enabled.
 - Grant the CTIM service principal the Exchange Administrator RBAC role in Entra ID.
 - Grant the CTIM service principal the Exchange.ManageAsApp API Permissions.
 
@@ -113,7 +116,7 @@ If the command is successful, the output displays the following message:
 We require source users to be mapped to target users using the Identity Mapping solution.
 
 > [!NOTE]
-> Identity Mapping must be run before applying workload licenses (for example, E5) to target users. This action ensures that target users do not have a mailbox provisioned, and that they become MailUsers rather than Mailbox objects.
+> Identity Mapping must be run before applying workload licenses (for example, E5) to target users. This action ensures that target users don't have a mailbox provisioned, and that they become MailUsers rather than Mailbox objects.
 
 There are five phases when using CTIM, and an additional step for hybrid target tenants.
 
@@ -124,7 +127,7 @@ CTIM workflow phases:
 |Scoping                 |Define which users to be migrated.                                          |
 |Copying                 |Transfer user data from the source to the CTIM system in the target tenant. |
 |Mapping                 |Establish 1:1 relationship between source and target user objects.          |
-|Writing                 |Apply necessary attributes to target MailUser objects. </br>(Hybrid only) Confirm on-premises changes have synchronized to M365. |
+|Writing                 |Apply necessary attributes to target MailUser objects. </br>(Hybrid only) Confirm on-premises changes are synchronized to Microsoft 365. |
 |Remove CTIM permissions |(Optional) When CTIM is no longer needed, remove the service principal.     |
 
 > [!TIP]
@@ -159,7 +162,7 @@ The "SecurityGroupGuid" can be either the 'ExchangeObjectId' value or the 'Exter
 > Running a copy request for the same scope twice with -Overwrite resets previous mappings.
 
 > [!WARNING]
-> Running New-CtimCopyRequest for the same scope a second time with the same objects in it results in any previously completed mapping work being overwritten in the target tenant, if the Target tenant admin also uses the -Overwrite switch upon accepting the copy request. Make sure the Target tenant admin knows you're executing a copy request for the same scope of objects, and has saved a copy of the Mapping file prior to accepting the new copy request. Even if using the -Overwrite switch is being done on purpose, having a copy of the mapping file downloaded before using it is a good safety net to have.
+> Running New-CtimCopyRequest for the same scope a second time with the same objects in it results in any previously completed mapping work being overwritten in the target tenant, if the Target tenant admin also uses the -Overwrite switch when accepting the copy request. Make sure the Target tenant admin knows you're executing a copy request for the same scope of objects, and a copy of the Mapping file is saved, before accepting the new copy request. Even if using the -Overwrite switch is being done on purpose, having a copy of the mapping file downloaded before using it's a good safety net to have.
 > 
 > There's no way to recover the data if you use -Overwrite without saving a mapping file first, and you have to start over from the beginning.
 
@@ -179,7 +182,7 @@ Wait for the request to reach the **Completed** state before continuing to mappi
 If you need to start migrating another scope of users, run another copy request for the other scope.
 
 > [!IMPORTANT]
-> Starting with module version v0.0.1-Preview9500 or later, accepting a copy request for the same scope containing identities previously copied showz a FailureResult of "Skipped this identity because the job was running without an overwrite flag". Any new identities are copied as expected. If you do want to overwrite the previously copied identities, then you must use the -Overwrite switch with Accept-CtimCopyRequest. If you already accepted the request without the -Overwrite switch, the source tenant admin needs to run New-CtimCopyRequest again so you can accept a new request with the -Overwrite switch.
+> With module version v0.0.1-Preview9500 or later, accepting a copy request for the same scope containing identities previously copied showz a FailureResult of "Skipped this identity because the job was running without an overwrite flag". Any new identities are copied as expected. If you do want to overwrite the previously copied identities, then you must use the -Overwrite switch with Accept-CtimCopyRequest. If you already accepted the request without the -Overwrite switch, the source tenant admin needs to run New-CtimCopyRequest again so you can accept a new request with the -Overwrite switch.
 
 > [!NOTE]
 > The percentage complete doesn't move beyond 10% if you reject the request.
@@ -192,14 +195,14 @@ There are two ways to map source and target objects: PrimarySMTPAddress matching
 
 ##### Automated Mapping using PrimarySMTPaddress matching (Recommended):
 
-When you request the service to perform a mapping request, it searches the target tenant for MailUser objects with an email address matching a source user's PrimarySMTPAddress. We recommend you put the source users' PrimarySMTPAddress values in the ExternalEmailAddress attributes of the target tenant objects. If the system finds a match, it maps the two objects together. If it doesn't find a match, then the source object remains in an unmapped state. If you have objects with no match, then you may edit an existing MailUser or create a new one with the appropriate source user's PrimarySMTPAddress value stored in the target MailUser's ExternalEmailAddress attribute, then re-run the mapping process.
+When you request the service to perform a mapping request, it searches the target tenant for MailUser objects with an email address matching a source user's PrimarySMTPAddress. We recommend you put the source users' PrimarySMTPAddress values in the ExternalEmailAddress attributes of the target tenant objects. If the system finds a match, it maps the two objects together. If it doesn't find a match, then the source object remains in an unmapped state. If you have objects with no match, you may edit an existing MailUser or create a new one with the appropriate source user's PrimarySMTPAddress value stored in the target MailUser's ExternalEmailAddress attribute. Then run the mapping process again.
 
 > [!IMPORTANT]
 > CTIM now supports SharePoint Online (SPO) mapping for users ONLY.
 > 
 > SPO mapping is performed automatically during the existing CTIM process (specifically in the map step).
 > 
-> If SPO mapping fails, you see the error: "Failed to deliver identity to SPO. Please run New-CtimMapRequest again".
+> If SPO mapping fails, you see the error: "Failed to deliver identity to SPO. Run New-CtimMapRequest again".
 
 **Target tenant admin**
 
@@ -222,9 +225,9 @@ $report = Get-CtimReport -SourceTenantGuid <GUID> -RequestId <GUID>
   $report.Identities.Values
 ```
 
-Once all source user objects have a "Mapped" status you can move to writing attributes.
+Once all source user objects have a "Mapped" status, you can move to writing attributes.
 
-If you incorrectly mapped users and want to restart, or if you want to remove a user from identity mapping, you need to remove the data stored in the identity mapping system on both tenants and restart the mapping process, beginning with editing your security group and resending the object copy request.
+You may have incorrectly mapped users and want to restart, or you may want to remove a user from identity mapping. In either case, you need to remove the data stored in the identity mapping system on both tenants and restart the mapping process. You should begin by editing your security group and resending the object copy request:
 
 **Target Tenant Admin**:
 
@@ -235,7 +238,7 @@ If you incorrectly mapped users and want to restart, or if you want to remove a 
 `Remove-CtimData -TargetTenantGuid <TrgTenantGuid>`
 
 > [!NOTE]
-> If you remove a user who has already been mapped, the user's properties edited during the identity process aren't changed again. This behavior should not cause an issue with the migration.
+> If you remove a user who was mapped already, the user's properties edited during the identity process aren't changed again. This behavior shouldn't cause an issue with the migration.
 
 ##### Manual mapping (Optional)
 
@@ -248,8 +251,8 @@ An alternative approach to mapping source and target users is by using a CSV fil
     1. Populate the 'TargetExternalDirectoryObjectId' column, so each source tenant object is aligned with the correct MailUser object in the target tenant. This change is the only change needed to the file. Don't add additional columns or include additional information.
     1. This CSV file must use commas as the delimiter character. If your system uses semicolons, pipes, or any other delimiter character it fails when Upload-CtimMappingData tries to process the file. If you encounter errors when running Upload-CtimMappingData, open the file in a plain text editor and confirm commas are being used as the delimiter.
     1. The only changes you need to make in the file is populating TargetExternalDirectoryObjectId with the GUID of the MailUser object in the target tenant.
-    1. If you don't want to map certain objects yet, for example, if the the MailUser object isn't created for them yet, you may leave the TargetExternalDirectoryObjectId column empty and complete them later using the PrimarySMTPAddress matching method or the CSV method. Later steps may say "CompletedWithWarnings" if you leave objects with no value to map against.
-3. Upload the edited file: Once your edits are completed you may upload the mapping file. Remember to close the file before attempting to upload it or else the file lock prevents uploading.
+    1. If you don't want to map certain objects yet, for example, if the MailUser object isn't created for them yet, you may leave the TargetExternalDirectoryObjectId column empty. You can complete them later using the PrimarySMTPAddress matching method or the CSV method. Later steps may say "CompletedWithWarnings" if you leave objects with no value to map against.
+3. Upload the edited file: Once your edits complete you may upload the mapping file. Remember to close the file before attempting to upload it or else the file lock prevents uploading.
 
   `Upload-CtimMappingData -SourceTenantGuid <GUID> -MappingCsvFilePath <path>`
 
@@ -258,7 +261,7 @@ An alternative approach to mapping source and target users is by using a CSV fil
 
   `New-CtimMapRequest -SourceTenantGuid <GUID> -UseCsv`
 
-  If you didn't use the -AutoProgress switch with Upload-CtimMappingData, then you must manually execute a map request using the CSV file uploaded in the previous step. Confirm the CSV upload job has reached a **Completed** state before running the following command.
+  If you didn't use the -AutoProgress switch with Upload-CtimMappingData, then you must manually execute a map request using the CSV file uploaded in the previous step. Confirm the CSV upload job reaches a **Completed** state before running the following command.
 
   > [!NOTE]
 > There's a -UseCsv switch you must use if you want to use a CSV file. Omitting this switch uses the PrimarySMTPAddress matching method of mapping.
@@ -284,7 +287,7 @@ The CTIMwrite command writes the following attributes from the mapped source mai
 - ArchiveGuid
 - ExchangeGuid
 - LegacyExchangeDN
-- EmailAddresses (aka proxyAddresses)
+- EmailAddresses (also known as proxyAddresses)
 
 ##### For Cloud-only MailUser Objects
 
@@ -317,7 +320,7 @@ The CTIMwrite command writes the following attributes from the mapped source mai
   - `Get-CtimRequest -RequestId <ID>`
   - `Get-CtimReport -SourceTenantGuid <GUID> -RequestId <ID>`
 
-If there are no errors, you can use Download-CtimCopiedIdentities one last time to check if all objects now have a MigrationStatus value of **Completed**. If all your changes from on-premises aren't synchronized to EXO when the verify cmdlet is run, you may have to run the verify step a handful of times until all the changes have synchronized to EXO.
+If there are no errors, you can use Download-CtimCopiedIdentities one last time to check if all objects now have a MigrationStatus value of **Completed**. If all your changes from on-premises aren't synchronized to EXO when the verify cmdlet is run, you may have to run the verify step a handful of times until all the changes synchronize to EXO.
 
 #### Phase 5: Remove CTIM permissions
 
