@@ -76,6 +76,9 @@ Follow these steps to set up a backup policy for SharePoint sites using Microsof
 
     c. Under **Select sites individually**, you can search and select sites you want to add to a backup policy.
 
+    > [!NOTE]
+    > Some legacy SharePoint site templates are not supported by M365 Backup.  Please view the [FAQ page](/microsoft-365/backup/backup-faq) to learn more
+
 7. Select **Next** to move to the **Backup Settings** page, where you can provide a name for your policy.
 
 8. On the **Review SharePoint backup policy** page, review the information to make sure it's how you want it, and then select **Create policy** (or **Update policy** if it's an update).
