@@ -71,7 +71,7 @@ This new product simplifies both an admin's role in migrating content cross-tena
 While customers can run migrations for the workloads they want, the Teams Meeting migration does depend on a successful mailbox migration. **Teams Meeting migration will fail without a successful mailbox migration**.
 
 > [!NOTE]
-> If you intend to migrate OneDrives, there's a limit to how many OneDrive accounts can be scheduled to migrate at a time. This limit is shared between the OneDrive and SharePoint migrations. [Learn more](cross-tenant-onedrive-migration.md) about this limit.
+> If you intend to migrate OneDrive sites, there's a limit to how many OneDrive accounts can be scheduled to migrate at a time. This limit is shared between the OneDrive and SharePoint migrations. [Learn more](cross-tenant-onedrive-migration.md) about this limit.
 
 > [!IMPORTANT]
 > Identity Mapping is required, which means the specific user configuration supported by Identity Mapping is required. [Learn more](cross-tenant-identity-mapping.md) about Identity mapping.
@@ -90,7 +90,7 @@ All limitations listed on the public documentation for [mailbox migration](cross
 
 ### OneDrive scope
 
-The OneDrive content moves from the source to the target, leaving behind a redirect link on the source. Incremental and delta migration passes cannot be performed. All limitations listed in the [public documentation for OneDrive migration](cross-tenant-onedrive-migration.md) apply.
+The OneDrive content moves from the source to the target, leaving behind a redirect link on the source. Incremental and delta migration passes can't be performed. All limitations listed in the [public documentation for OneDrive migration](cross-tenant-onedrive-migration.md) apply.
 
 ### Teams chat and meeting scope
 
