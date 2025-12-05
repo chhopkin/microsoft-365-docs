@@ -30,7 +30,7 @@ This page lists the latest features and improvements for Microsoft 365 Copilot. 
 [!INCLUDE [agent-builder-mcs-lite](../microsoft-365/includes/agent-builder-mcs-lite.md)]
 
 ## [All features](#tab/all)
-<!--- All features regardless of platform go here  -->
+<!-- All features regardless of platform go here  -->
 <!-- 96890,101634,101246,98572,105501,101737,101655,101648,101641,101111,100743,100742,100599,96886,101360 -->
 ## November 24, 2025
 
@@ -4088,7 +4088,7 @@ Updates released between December 18, 2024, and January 7, 2025.
   Easily turn plain text or lists into clear, organized tables for better readability and effortless data handling. [Learn more](https://support.microsoft.com/topic/923d9763-f896-4da7-8a3f-5b12c3bfc475).
 
 ## [Windows](#tab/win)
-<!--- All features that have 'Windows' tag  -->
+<!-- All features that have 'Windows' tag  -->
 <!-- 96890,101634,101246,98572,101655,101641,96886 -->
 ## November 12 - 24, 2025
 Updates released between November 12, 2025, and November 24, 2025.
@@ -6010,7 +6010,7 @@ Updates released between December 18, 2024, and January 7, 2025.
   Use voice to dictate into the Copilot chat prompt field
 
 ## [Web](#tab/web)
-<!--- All features that have 'Web' tag  -->
+<!-- All features that have 'Web' tag  -->
 <!-- 96890,101634,101246,98572,105501,101655,101648,101641,101111,100599,96886,101360 -->
 ## November 12 to November 24, 2025
 Updates released between November 12, 2025, and November 24, 2025.
@@ -9217,7 +9217,7 @@ Updates released between January 24, 2025, and February 4, 2025.
   Copilot now references your local time zone when responding helping to avoid confusion and scheduling errors.
 
 
-<!--- All features that have 'Android' tag  -->
+<!-- All features that have 'Android' tag  -->
 
 ## January 23, 2025 — Monthly Updates
 
@@ -9820,7 +9820,7 @@ Updates released between February 20, 2025, and March 4, 2025.
 
 Updates released between February 5, 2025, and February 19, 2025. 
 
-<!--- All features that have 'iOS' tag  -->
+<!-- All features that have 'iOS' tag  -->
 
 
 ### Microsoft Teams
@@ -9835,7 +9835,7 @@ Updates released between February 5, 2025, and February 19, 2025.
 
   Dive into usage frequency, compare top user groups, and track retention metrics—all in a single, comprehensive dashboard for actionable insights. [Learn more](/viva/insights/org-team-insights/copilot-dashboard#interpreting-the-data).
 
-<!--- All features that have 'iOS' tag  -->
+<!-- All features that have 'iOS' tag  -->
 
 ## February 4, 2025 - Introduced in this update
 
@@ -10854,7 +10854,7 @@ Updates released between February 20, 2025, and March 4, 2025.
 
 Updates released between February 5, 2025, and February 19, 2025. 
 
-<!--- All features that have 'Mac' tag  -->
+<!-- All features that have 'Mac' tag  -->
 
 ### Microsoft Teams
 
@@ -10880,7 +10880,7 @@ Updates released between February 5, 2025, and February 19, 2025.
 
   Highlight text, start a chat with Copilot, and receive responses tailored to what you've selected. Get targeted writing assistance and refine your content in real time.
 
-<!--- All features that have 'Mac' tag  -->
+<!-- All features that have 'Mac' tag  -->
 
 ## February 4, 2025 - Highlights
 
