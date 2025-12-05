@@ -4,7 +4,7 @@ description: Learn how to deploy the Microsoft 365 Learning Tool Interoperabilit
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
-ms.date: 07/10/2025
+ms.date: 12/10/2025
 audience: admin
 ms.topic: how-to
 ms.service: microsoft-365-education
@@ -94,11 +94,13 @@ If you choose not to install the app for all courses as described in *Option 1: 
 
 You must launch the app for the first time as a user with the **Canvas Administrator** role to complete the configuration for your deployment and activate the tool. Users won't have access until you complete this step!
 
-1. As a Canvas Administrator, select the **Admin** icon on the left bar, and then select the name of the organizational account where the tool was deployed
+1. As a Canvas Administrator, select the **Admin** icon on the left bar, and then select the top-level account where the tool was deployed.
 
-1. Select the **Microsoft Education** link in the left side navigation to launch the admin setup experience.
+1. Select the **Settings** link in the left side navigation, and then select the **Apps** tab at the top to show the **External Apps** page. Select the **View App Configurations** button in the header to show the list of your deployed apps.
 
-    :::image type="content" source="./media/microsoft-education-navigation.png" alt-text="Screenshot of Microsoft Education in the navigation pane." border="true":::
+1. Locate the **Microsoft Education** app that you deployed in previous steps and select the Gear icon on the right to show the menu. Select the **Configure** option to show the Microsoft Education admin configuration dialog.
+
+    :::image type="content" source="./media/configure.png" alt-text="Screenshot of the Configure option in the Gear icon menu." border="true":::
 
 1. Continue with the [**Microsoft 365 LTI first-time configuration steps**](microsoft-365-lti-first-time-configuration.md) to complete the configuration for your organization.
 
