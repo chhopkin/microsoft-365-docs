@@ -68,6 +68,12 @@ If you haven't already added the source users into the mail-enabled security gro
 
 [Learn more](cross-tenant-identity-mapping.md) about Identity mapping.
 
+### OneDrive Identity Mapping for Permissions (Optional)
+
+If you want users (other than the users OneDrive belongs to) to have access to the files within a OneDrive as they did on the source, you can run Identity Mapping for OneDrive. This includes the mapping of migrating users (those who are Identity Mapped using the native solution) as well as guests and groups you wish to grant OneDrive content permissions to.
+
+For full support, we recommend mapping all migrating users as well as any guests or groups that should retain permissions. You can find instructions at [Step 5](cross-tenant-onedrive-migration-step5.md) of our OneDrive migration documentation. [Step 4](cross-tenant-onedrive-migration-step4.md) also includes information about guest and group requirements.
+
 ## User license requirements
 
 - Users on the source and target tenants must have a license with Exchange Online and Teams (E3 and E5 both include Exchange Online and Teams).
