@@ -18,9 +18,9 @@ description: "The steps to take after completing a migration with Microsoft 365 
 
 # Post-migration tasks and cleanup
 
-After the migration's complete, you should remove permissions and return the tenants to their original non-migration state. If you want to migrate again in the future, you need to restore all these permissions and settings.
+After the migration's complete, you should remove permissions and return the tenants to their original nonmigration state. If you want to migrate again in the future, you need to restore all these permissions and settings.
 
-Identity mapping data is stored until it's explicitly deleted.
+Identity mapping data is stored until you explicitly delete it.
 
 Post-migration steps for OneDrive are available in [Step 7 of our OneDrive documentation](/microsoft-365/enterprise/cross-tenant-onedrive-migration-step7).
 
@@ -29,7 +29,7 @@ Post-migration steps for OneDrive are available in [Step 7 of our OneDrive docum
 - Use the **Remove-MMSAppPermissions** cmdlet to remove permissions for meeting migrations.
 - Use the **Remove-CtimServicePrincipal** cmdlet to remove permissions for identity mapping.
 - Use the **Revoke-CTTMAppPermissions** cmdlet to remove permissions for Teams Chat migrations.
-- Use the following to remove CTMS permissions and service principals (This is only required on the target tenant):
+- Use the following to remove CTMS permissions and service principals. This action is only required on the target tenant:
 
 ```powershell
 # Clean up CTMS Permissions
@@ -48,7 +48,7 @@ Check which CTMS app you provisioned. The ctmsAppId is one of:
 - '506cf32b-5cbe-4ced-84c6-c7bde303f77c'
 - '6eda910c-74a9-491b-bda3-88692d503655'
 
-To remove the service principals and apps for the Teams Chats app and the Cross-Tenant Migration Service apps, go to the Microsoft 365 admin center and remove all permissions.
+Go to the Microsoft 365 admin center and remove all permissions, to remove the service principals and apps for the Teams Chats app and the Cross-Tenant Migration Service apps.
 
 ### User cleanup
 
