@@ -24,7 +24,7 @@ Preparing users is a necessary step for migration. The Cross-Tenant User Data Mi
 > The specific configuration of fields pertaining to a user is extremely important. The following steps must be taken in the outlined order. Otherwise, users could be incorrectly configured and require additional work to put them in a good state.
 
 > [!NOTE]
-> Target users can't have mailboxes or OneDrives provisioned before the migration takes place. This is a strict requirement. To properly configure the target users, **Identity Mapping** must be completed before assigning licenses to the users.
+> Target users can't have mailboxes or OneDrives provisioned before the migration takes place. This is a strict requirement. To properly configure the target users, **Identity Mapping** must be completed before assigning Exchange or OneDrive licenses to users.
 
 ## Create and prepare target user objects for migration
 
