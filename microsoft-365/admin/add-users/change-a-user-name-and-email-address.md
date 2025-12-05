@@ -50,11 +50,9 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 
 1. Select the user from the list of active users.
 
-1. Select **Manage username and email**.
+1. To change the user's email address or user name, select **Manage username and email**. Select the edit icon, and then change the user's name or email address. Select **Save changes**.
 
-1. Select the edit icon next to the username you want to change.
-
-1. Change the display name, and select **Done**.
+1. To change the user's display name, select **Manage contact information**. Select the edit icon, and then change the user's name or contact information. Select **Save changes**.
 
 If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](../../business-video/index.yml).
 
