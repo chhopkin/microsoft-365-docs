@@ -1,6 +1,6 @@
 ---
 title: "Special considerations for Teams events in VPN environments"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.reviewer: bryanyce

@@ -1,6 +1,6 @@
 ---
 title: Managing Microsoft 365 endpoints
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 01/08/2025
