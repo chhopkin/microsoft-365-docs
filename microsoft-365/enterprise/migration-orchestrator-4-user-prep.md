@@ -58,8 +58,6 @@ New-MailUser -PrimarySmtpAddress username@targettenant.com -MicrosoftOnlineServi
 New-MailUser -PrimarySmtpAddress username@targettenant.com -MicrosoftOnlineServicesID username@targettenant.com -ExternalEmailAddress username@sourcetenant.com -Name "First Last" -Password $Secure_String_Pwd
 ```
 
-There are examples in the [samples article](migration-orchestrator-9-samples.md) of correctly and incorrectly configured MailUser objects, as well as examples of the before and after results of CTIM on the objects.
-
 ### Add sources to the security group
 
 If you haven't already added the source users into the mail-enabled security group you created before, this must be done before Identity Mapping is complete. You can do it manually in the M365 Admin Portal, or in PowerShell using the following command:

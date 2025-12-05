@@ -48,19 +48,19 @@ The first step that takes place is the Validation stage. Throughout this step, a
 
 ### Mailbox syncing
 
-After all the checks pass for the three workloads (Chats, Meetings, and Mailboxes), Mailbox syncing begins. Mailbox syncing means that in the background, the user's mailbox data is being moved to the target tenant. The user is still able to fully use their mailbox on the source tenant at this time.
+After all the checks pass for the applicable workloads, Mailbox syncing begins. Mailbox syncing means that in the background, the user's mailbox data is being moved to the target tenant. The user is still able to fully use their mailbox on the source tenant at this time.
 
 ### Cutover
 
-After the time designated by the CompleteAfterDate passes, the mailboxes cutover to the target tenant. After this point, no cancellations can take place. Users are able to access their mailboxes from the target tenant. Mailboxes will not appear on the source tenant any longer.
+After the time designated by the CompleteAfterDate passes and the sync completes, the mailboxes cutover to the target tenant. After this point, no cancellations can take place. Users are able to access their mailboxes from the target tenant. Mailboxes will not appear on the source tenant any longer.
 
-### Chat and Meeting Migration
+### Teams and Onedrive migration
 
-After the mailbox is cutover, the migration of chats and meetings begins. Chats and meetings are migrated into the target tenant. Users may see changes to their source chats as users are added or removed, and the chats and meetings begin to appear in the target tenant.
+After the mailbox is cutover, the migration of Teams chats, Teams meetings, and OneDrives begins. Chats and meetings are migrated into the target tenant. Users may see changes to their source chats as users are added or removed, and chats and meetings begin to appear in the target tenant.
 
 ### Migration conclusion
 
-After the chats and meetings have migrated, the migration is complete. Users can use their target tenant accounts to use their mailboxes, chats, and meetings.
+After the Teams chats, Teams meetings, and OneDrives migrate, the migration is complete. Users can use their target tenant accounts to use their mailboxes, chats, meetings, and OneDrives.
 
 ## Understanding Migration Status and Errors
 
