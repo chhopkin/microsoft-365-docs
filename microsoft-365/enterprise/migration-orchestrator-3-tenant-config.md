@@ -268,7 +268,7 @@ The required setup steps for OneDrive Migration on both source and target are av
   `Connect-MgGraph`
 4. Import the module containing the configuration details:
   `Import-Module <location>`
-5. Install the dependencies for running MMS Script. You may have installed some of these dependencies in setup tasks for other workloads. You don't need to reinstall in that case.
+5. Install the dependencies for running MMS Script. If you installed some of these dependencies in setup tasks for other workloads, you don't need to reinstall now.
   `Install-Module Microsoft.Graph.Authentication`
   `Install-Module Microsoft.Graph.Applications`
   `Install-Module Microsoft.Graph.Identity.DirectoryManagement`
