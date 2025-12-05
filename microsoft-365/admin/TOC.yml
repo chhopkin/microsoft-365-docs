@@ -282,8 +282,6 @@ items:
               href: manage/manage-tools-for-agent.md
             - name: Agent Settings
               href: manage/agent-settings.md
-            - name: Manage Tools for Agent 365
-              href: manage/manage-tools-for-agent.md
             - name: Microsoft Graph connectors for Microsoft Search
               href: /microsoftsearch/connectors-overview
          - name: Monitor Microsoft 365 activity by using reports
@@ -586,16 +584,30 @@ items:
           href: https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508
     - name: Enhanced Engagements
       items:
-        - name: What is Enhanced Engagements?
-          href: ../enterprise/microsoft-365-admin-enhanced-engagements.md
-        - name: Overview
-          href: ../enterprise/microsoft-365-admin-overview-enhanced-engagements.md
-        - name: Engagements
-          href: ../enterprise/microsoft-365-admin-engagements.md
-        - name: Diagnostics
-          href: ../enterprise/microsoft-365-admin-diagnostics.md
-        - name: Design Change Requests (DCR)
-          href: ../enterprise/microsoft-365-admin-design-change-requests.md
+        - name: Office Engineering Direct (OED)
+          items:
+          - name: What is Engineering Direct?
+            href: ../enterprise/office-engineering-direct.md
+          - name: Overview
+            href: ../enterprise/engineering-direct-overview.md
+          - name: Engagements
+            href: ../enterprise/engineering-direct-engagements.md
+          - name: Diagnostics
+            href: ../enterprise/engineering-direct-diagnostics.md
+          - name: Design Change Requests (DCR)
+            href: ../enterprise/engineering-direct-design-change-requests.md
+        - name: Mission Critical Services (MCS)
+          items:
+          - name: What is Enhanced Engagements?
+            href: ../enterprise/microsoft-365-admin-enhanced-engagements.md
+          - name: Overview
+            href: ../enterprise/microsoft-365-admin-overview-enhanced-engagements.md
+          - name: Engagements
+            href: ../enterprise/microsoft-365-admin-engagements.md
+          - name: Diagnostics
+            href: ../enterprise/microsoft-365-admin-diagnostics.md
+          - name: Design Change Requests (DCR)
+            href: ../enterprise/microsoft-365-admin-design-change-requests.md
     - name: Troubleshoot
       href: /office/troubleshoot/
     - name: Contact support

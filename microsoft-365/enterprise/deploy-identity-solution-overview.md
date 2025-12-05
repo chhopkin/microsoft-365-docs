@@ -2,7 +2,7 @@
 title: "Deploy your identity infrastructure for Microsoft 365"
 f1.keywords:
 - NOCSH
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 02/13/2025

@@ -1,6 +1,6 @@
 ---
 title: "Prepare for directory synchronization to Microsoft 365"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 09/25/2024
