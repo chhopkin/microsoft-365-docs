@@ -51,7 +51,7 @@ XXX I FEEL THAT STATEMENT NEEDS CLARIFICATION. HAS CELA VETTED THIS? WHY ARE WE 
 
 ### Do you have any recommendations for batches?
 
-To ensure a smooth migration process, we recommend limiting the number of mailboxes per batch to 2,000 and submitting batches at least two weeks prior to the cut-over date. This will not impact end users during synchronization. For guidance on migrating quantities exceeding 50,000 mailboxes, please contact your account team for assistance.
+To ensure a smooth migration process, we recommend limiting the number of mailboxes per batch to 2,000 and submitting batches at least two weeks prior to the cut-over date. This will not impact end users during synchronization. For guidance on migrating quantities exceeding 50,000 mailboxes, contact your account team for assistance.
 
 If you're migrating OneDrive, be aware that there's a 4,000 limit between SharePoint and OneDrives that can be moved and queued to move at one time.
 
