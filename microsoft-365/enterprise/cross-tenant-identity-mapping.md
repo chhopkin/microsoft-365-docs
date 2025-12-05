@@ -19,7 +19,7 @@ description: "How to map identities across Microsoft 365 organizations when prep
 
 # Cross-Tenant Identity Mapping (preview)
 
-Cross Tenant Identity Mapping (CTIM) is a Microsoft tool designed to simplify and automate the process of mapping user identities between source and target tenants. This mapping ensures data, permissions, and user experiences remain consistent throughout your migration journey. Running identity mapping is a required step for migrating user data. Cross-Tenant Identity Mapping allows source users to be mapped one-to-one to target users. It edits the users' properties, so they have the correct attributes to successfully migrate, and maintains a mapping file to ensure that data for the correct source users migrates to the correct target users.
+Cross Tenant Identity Mapping (CTIM) is a Microsoft tool designed to simplify and automate the process of mapping user identities between source and target tenants. This mapping ensures data, permissions, and user experiences remain consistent throughout your migration journey. Running identity mapping is a required step for migrating user data. Cross-Tenant Identity Mapping allows source users to be mapped one-to-one to target users. It edits the users' properties, so they can successfully migrate with the correct attributes. It also maintains a mapping file to ensure that data for the correct source users migrates to the correct target users.
 
 > [!NOTE]
 > Use CTIM after creating target users and before migrating data to ensure accuracy and avoid manual errors.
