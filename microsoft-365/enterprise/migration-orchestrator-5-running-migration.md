@@ -117,7 +117,7 @@ If the removal is unsuccessful, here are the possible responses:
 
 1. The User ID provided in the request doesn't exist within the batch provided. This message likely means the admin provided an incorrect User ID and should check it again.
 
-  `"Cancelation not possible as no task found for given id <User ID> TraceId: <Trace ID>"`
+  `"Cancelation not possible as no task found for given ID <User ID> TraceId: <Trace ID>"`
 
 2. The batch ID or batch name can't be found in the tenant. This likely means the admin provided an incorrect batch ID or batch name in the cancelation request and should check it again.
 
@@ -146,10 +146,10 @@ There are many parameters that must be provided in a specific format for the mig
 
 - **displayName** - A batch name of your choosing to help you identify this specific batch.
 - **completeAfterDateTime** - The date that specifies the **earliest** acceptable time for the cutover of Exchange to begin. There is no user impact until this date passes **and** the Exchange sync is complete. This date can be updated later. The acceptable date and time formats are available on [Microsoft Learn](/dotnet/standard/base-types/standard-date-and-time-format-strings#table-of-format-specifiers).
-- **sourceTenantId** - The ID of the source tenant. This ID can be found in the Entra portal.
+- **sourceTenantId** - The ID of the source tenant. This ID can be found in the Microsoft Entra admin center.
 - **targetDeliveryDomain** - Your target tenant domain. Example: domain.onmicrosoft.com.
 - **sourceEndpoint** - The name of the endpoint created on the target tenant. You can find it using the `Get-MigrationEndpoint` command with the `-Name` parameter.
-- **resources** - A list of ExternalDirectoryObjectIds for the **target** users you're including in this batch. These resources are available in the Azure portal under the user as "**Object Id**" or through PowerShell.
+- **resources** - A list of ExternalDirectoryObjectIds for the **target** users you're including in this batch. These resources are available in the Azure portal under the user as "**Object ID**" or through PowerShell.
 - **resourceType** - Is always "**Users**" for all user content migrations.
 - workloads - A string with the list of workloads you intend to migrate. These strings should be formatted in a comma-delimited list. The proper strings are:
   - "**Exchange**"
@@ -331,6 +331,6 @@ The response is 409 if the cancelation isn't accepted. Migrations continue with 
 
 The crosstenantmigrationjobs BatchID is the request ID for the batch, and the users UserID is the target ExternalDirectoryObjectId for the user.
 
-If the removal is successful, you see a 202 Accepted request with the response: "Cancelation request for user id: `<XXXX-XXXXX-XXXXX-XXXX>` from batch: `<batch name or batch request ID>` was accepted."
+If the removal is successful, you see a 202 Accepted request with the response: "Cancelation request for user ID: `<XXXX-XXXXX-XXXXX-XXXX>` from batch: `<batch name or batch request ID>` was accepted."
 
 If a removal is unsuccessful (other than in an invalid user state), the user continues belonging to the batch and is migrated.
