@@ -74,7 +74,7 @@ You must be a [user administrator](/microsoft-365/admin/add-users/about-admin-ro
 
 1. Select the user's name. On the **Account** tab, select **Manage username and email**.
 
-1. In the first box, type the first part of the new email address. If you added your own domain to Microsoft 365, choose the domain for the new email alias by using the drop-down list. [Learn how to add a domain](../setup/add-domain.md).
+1. In the **Username**, edit the information. Then, make sure the correct domain is selected in the **Domains** box. If you need to add a domain, see [Add a domain to Microsoft 365](/microsoft-365/admin/setup/add-domain).
 
 1. Select **Done**.
 
@@ -98,7 +98,7 @@ You must be a [user administrator](/microsoft-365/admin/add-users/about-admin-ro
 
 1. Select the user's name. On the **Account** tab, select **Manage contact information**.
 
-1. Update the user's name and contact information.
+1. Update the user's name and contact information, including their display name.
 
 1. Select **Save changes**.
 
