@@ -29,6 +29,12 @@ description: "Learn about the governance, data lifecycle management, and complia
 
 As a Compliance Manager or IT administrator, it's crucial to stay up-to-date on the latest governance, data lifecycle, and compliance posture for the software solutions being used in your organization. This article details the capabilities available and not available yet for Copilot Pages and Copilot Notebooks.
 
+## SharePoint Embedded
+
+Copilot Pages and Copilot Notebooks content storage varies based on creation method. For detailed information about storage locations, see [storage](cpcn-storage.md). Content stored in SharePoint Embedded containers follows the [SharePoint Embedded security and compliance documentation](/sharepoint/dev/embedded/compliance/security-and-compliance).
+
+The sections below outline governance, lifecycle, and compliance capabilities applicable to all Copilot Pages and Copilot Notebooks storage types. Where capabilities vary by storage location—OneDrive, SharePoint sites, or SharePoint Embedded containers—specific details are provided.
+
 ## Foundations
 
 - An **[Admin Toggle](cpcn-admin-configuration.md)** exists to turn on or off creation of both Copilot Pages and Copilot Notebooks. If Loop components are enabled, Copilot Pages can be shared and used like a Loop component in all the applications that support Loop components.
