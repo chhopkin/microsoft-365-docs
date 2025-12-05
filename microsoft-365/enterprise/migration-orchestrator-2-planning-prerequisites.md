@@ -51,7 +51,7 @@ The Cross-Tenant Identity Mapping (CTIM) service stores data-at-rest in multiple
 
 The Cross-Tenant Identity Mapping service uses a REST endpoint and encrypts all traffic between the customer and the service endpoint. This endpoint resides within the URL and IP address ranges under the Microsoft 365 Common and Office Online section of the published Office 365 URLs and IP Addresses guidance. If you allow access to these documented URLs and IP address ranges, there should be no problem connecting to the endpoint.
 
-### On-Premises Exchange Organizations
+### On-premises Exchange Organizations
 
 > [!NOTE]
 > Target tenants only.
