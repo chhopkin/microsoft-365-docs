@@ -66,7 +66,7 @@ If you haven't already added the source users into the mail-enabled security gro
 
 ## Run Identity Mapping
 
-XXX CONSIDERATION FOR LATER.
+[Learn more](cross-tenant-identity-mapping.md) about Identity mapping.
 
 ## User license requirements
 
