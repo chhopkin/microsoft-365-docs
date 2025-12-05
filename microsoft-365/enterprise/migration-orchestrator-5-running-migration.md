@@ -324,6 +324,6 @@ The response is 409 if the cancellation isn't accepted. Migrations continue if t
 
 The crosstenantmigrationjobs BatchID is the request ID for the batch, and the users UserID is the target ExternalDirectoryObjectId for the user.
 
-If the removal is successful, you see a 202 Accepted request with the response: "Cancellation request for user id: <XXXX-XXXXX-XXXXX-XXXX> from batch: <batch name or batch request ID> was accepted."
+If the removal is successful, you see a 202 Accepted request with the response: "Cancellation request for user id: `<XXXX-XXXXX-XXXXX-XXXX>` from batch: `<batch name or batch request ID>` was accepted."
 
 If a removal is unsuccessful (other than in case of an invalid user state), the user continues belonging to the batch and is migrated.
