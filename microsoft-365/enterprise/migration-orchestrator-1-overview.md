@@ -70,9 +70,11 @@ This new product simplifies both an admin's role in migrating content cross-tena
 
 While customers can run migrations for the workloads they want, the Teams Meeting migration does depend on a successful mailbox migration. **Teams Meeting migration will fail without a successful mailbox migration**.
 
-If you intend to migrate OneDrives, please note that there's a limit to how many OneDrive accounts can be scheduled to migrate at a time. This limit is shared between the OneDrive and SharePoint migrations. [Learn more](cross-tenant-onedrive-migration.md) about this limit.
+> [!NOTE]
+> If you intend to migrate OneDrives, there's a limit to how many OneDrive accounts can be scheduled to migrate at a time. This limit is shared between the OneDrive and SharePoint migrations. [Learn more](cross-tenant-onedrive-migration.md) about this limit.
 
-It's also important to note that Identity Mapping is required, which means the specific user configuration supported by Identity Mapping is required.
+> [!IMPORTANT]
+> Identity Mapping is required, which means the specific user configuration supported by Identity Mapping is required. [Learn more](cross-tenant-identity-mapping.md) about Identity mapping.
 
 If you have a specific scenario that requires you to migrate workloads individually, reach out to our support alias to discuss options and potential risks.
 
