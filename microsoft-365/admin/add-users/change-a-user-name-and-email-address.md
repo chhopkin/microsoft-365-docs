@@ -29,15 +29,12 @@ description: "Learn how you can change a user's email address and display name."
 
 # Change a user name and email address
 
-Check out [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) on YouTube.
-
-If you're a Microsoft 365 admin for your organization, you might need to change someone's email address or display name if, for example, they change their name.
+This article describes how administrators can update a user's name and email address in Microsoft 365. If you're a Microsoft 365 admin for your organization, you might need to change someone's email address or display name if, for example, they change their name.
 
 If you're a business user and you want to update your information in Microsoft 365, you might need your administrator to make changes for you. 
 
 If you're using a personal Microsoft account and you need to update your information, see [Get help with your Microsoft account](https://support.microsoft.com/en-us/account-billing/get-help-with-your-microsoft-account-ace6f3b3-e2d3-aeb1-6b96-d2e9e7e52133).
 
-This article describes how administrators can update a user's name and email address in Microsoft 365.
 
 ## Before you begin
 
@@ -190,3 +187,5 @@ Update-MgUser -UserId anne.wallace@contoso.com -UserPrincipalName anne.jones@con
 [Admins: Reset a password for one or more users](reset-passwords.md)
 [Add another email address to a user](../email/add-another-email-alias-for-a-user.md)
 [Create a shared mailbox](../email/create-a-shared-mailbox.md)
+[Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) on YouTube.
+
