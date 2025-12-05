@@ -227,7 +227,7 @@ $report = Get-CtimReport -SourceTenantGuid <GUID> -RequestId <GUID>
 
 Once all source user objects have a "Mapped" status, you can move to writing attributes.
 
-You may have incorrectly mapped users and want to restart, or you may want to remove a user from identity mapping. In either case, you need to remove the data stored in the identity mapping system on both tenants and restart the mapping process. You should begin by editing your security group and resending the object copy request:
+You may want to restart because you have users who are incorrectly mapped, or you may want to remove a user from identity mapping. In either case, you need to remove the data stored in the identity mapping system on both tenants and restart the mapping process. You should begin by editing your security group and resending the object copy request:
 
 **Target Tenant Admin**:
 
