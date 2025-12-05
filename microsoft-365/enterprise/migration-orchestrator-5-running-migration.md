@@ -145,7 +145,7 @@ This feature allows you to delete the data associated with a batch from the migr
 There are many parameters that must be provided in a specific format for the migration input:
 
 - **displayName** - A batch name of your choosing to help you identify this specific batch.
-- **completeAfterDateTime** - The date that specifies the **earliest** acceptable time for the cutover of Exchange to begin. There is no user impact until this date passes **and** the Exchange sync is complete. This date can be updated later. The acceptable date and time formats are available on [Microsoft Learn](/dotnet/standard/base-types/standard-date-and-time-format-strings#table-of-format-specifiers).
+- **completeAfterDateTime** - The date that specifies the **earliest** acceptable time for the cutover of Exchange to begin. There's no user impact until this date passes **and** the Exchange sync is complete. This date can be updated later. The acceptable date and time formats are available on [Microsoft Learn](/dotnet/standard/base-types/standard-date-and-time-format-strings#table-of-format-specifiers).
 - **sourceTenantId** - The ID of the source tenant. This ID can be found in the Microsoft Entra admin center.
 - **targetDeliveryDomain** - Your target tenant domain. Example: domain.onmicrosoft.com.
 - **sourceEndpoint** - The name of the endpoint created on the target tenant. You can find it using the `Get-MigrationEndpoint` command with the `-Name` parameter.
@@ -209,7 +209,7 @@ To get the results of the validation, use the same GET requests as for a batch s
 
 ### B: Submit a migration batch
 
-1. In a basic text editor, like Notepad, save the text in the following format as a .json file for the batch you want to submit. Ensure that you are pasting as plain text.
+1. In a basic text editor, like Notepad, save the text in the following format as a .json file for the batch you want to submit. Ensure that you're pasting as plain text.
 
 ```json
 {
