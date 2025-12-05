@@ -109,7 +109,7 @@ This feature allows you to cancel a single user's migration by removing them fro
 
 If the removal is successful, you see a 202 Accepted request with the response:
 
-"Cancellation request for user id: <XXXX-XXXXX-XXXXX-XXXX> from batch: <batch name or batch request ID> was accepted."
+"Cancellation request for user id: `<XXXX-XXXXX-XXXXX-XXXX>` from batch: `<batch name or batch request ID>` was accepted."
 
 At this point, the user is removed from the batch, their migration is cancelled, and any mailbox syncing that took place is cancelled. The user can be added to a new batch. No other user within that batch is affected. The identity mapping isn't edited at all.
 
