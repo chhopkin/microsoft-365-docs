@@ -31,9 +31,9 @@ description: "Learn how you can change a user's email address and display name."
 
 Check out [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) on YouTube.
 
-If you're Microsoft 365 admin for your organization, you might need to change someone's email address and display name if, for example, they get married and their family name changes.
+If you're a Microsoft 365 admin for your organization, you might need to change someone's email address or display name if, for example, they change their name.
 
-If you're a user, and you want to update your information in Microsoft 365, you might need your administrator to make changes for you. 
+If you're a business user and you want to update your information in Microsoft 365, you might need your administrator to make changes for you. 
 
 This article describes how administrators can update a user's name and email address in Microsoft 365.
 
@@ -75,7 +75,7 @@ You must be a [user administrator](/microsoft-365/admin/add-users/about-admin-ro
 
 ::: moniker-end
 
-1. Select the user's name, and then on the **Account** tab select **Manage username and email**.
+1. Select the user's name. On the **Account** tab, select **Manage username and email**.
 
 1. In the first box, type the first part of the new email address. If you added your own domain to Microsoft 365, choose the domain for the new email alias by using the drop-down list. [Learn how to add a domain](../setup/add-domain.md).
 
@@ -100,7 +100,7 @@ You must be a [user administrator](/microsoft-365/admin/add-users/about-admin-ro
 
 ::: moniker-end
 
-1. Select the user's name, and then on the **Account** tab select **Manage contact information**.
+1. Select the user's name. On the **Account** tab, select **Manage contact information**.
 
 1. Update the user's name and contact information.
 
@@ -153,34 +153,34 @@ You must be an [Exchange administrator](about-exchange-online-admin-role.md).
 
    - If their password changed too, they're prompted to enter the new password on their mobile device, or it won't sync.
 
-A person's previous primary email address is retained as an extra email address. **We strongly recommend that you don't remove the old email address.**
+A person's previous primary email address is retained as an extra email address. **Don't remove the old email address.**
 
-Some people might continue to send email to the person's old email address and deleting it might result in NDR failures. Microsoft automatically routes it to the new one. Also, don't reuse old SMTP email addresses and apply them to new accounts. This can also cause NDR failures or delivery to an unintended mailbox.
+Some people might continue to send email to the person's old email address and deleting it might result in NDR failures. Microsoft automatically routes it to the new one. Also, don't reuse old SMTP email addresses and apply them to new accounts. This issue can also cause NDR failures or delivery to an unintended mailbox.
 
 ## Resolve error messages
 
 ### "A parameter cannot be found that matches parameter name 'EmailAddresses"
 
-If you get the error message " **A parameter cannot be found that matches parameter name 'EmailAddresses**" it means that it's taking a bit longer to finish setting up your tenant, or your custom domain if you recently added one. The setup process can take up to 4 hours to complete. Wait a while so the setup process has time to finish, and then try again. If the problem persists, call [support](../../business-video/get-help-support.md) and ask them to do a full sync for you.
+If you get the error message "A parameter cannot be found that matches parameter name 'EmailAddresses'", it means that it's taking a bit longer to finish setting up your tenant, or your custom domain if you recently added one. The setup process can take up to four hours. Wait a while so the setup process has time to finish, and then try again. If the problem persists, contact [support](../../business-video/get-help-support.md) and ask them to do a full sync for you.
 
 ### "We're sorry, the user couldn't be edited. Review the user information and try again"
 
-If you get the error message " **We're sorry, the user couldn't be edited. Review the user information and try again**." it means you aren't a member of the correct admin role and you don't have permissions to change the user name.
+If you get the error message "We're sorry, the user couldn't be edited. Review the user information and try again.", it means you aren't a member of the correct admin role and you don't have permissions to change the user name.
 
 ### What if the person's offline address book won't sync with the Global Address List?
 
 If they're using Exchange Online or if their account is linked with your organization's on-premises Exchange environment, you might see this error when you try to change a username and email address: "This user is synchronized with your local Active Directory. Some details can be edited only through your local Active Directory."
 
-This is due to the Microsoft Online Email Routing Address (MOERA). The MOERA is constructed from the person's  _userPrincipalName_ attribute in Active Directory and is automatically assigned to the cloud account during the initial sync and once created, it can't be modified or removed in Microsoft 365. Later, you can change the username in the Active Directory, but it doesn't change the MOERA and you might run into issues displaying the newly changed name in the Global Address List.
+This error is due to the Microsoft Online Email Routing Address (MOERA). The MOERA is constructed from the person's  _userPrincipalName_ attribute in Active Directory and is automatically assigned to the cloud account during the initial sync. Once created, you can't modify or remove it in Microsoft 365. Later, you can change the username in the Active Directory, but it doesn't change the MOERA and you might run into issues displaying the newly changed name in the Global Address List.
 
-To fix this, sign in to the [Microsoft Graph PowerShell](/powershell/microsoftgraph/overview) with your Microsoft 365 administrator credentials and use the following syntax:
+To fix this issue, sign in to the [Microsoft Graph PowerShell](/powershell/microsoftgraph/overview) with your Microsoft 365 administrator credentials and use the following syntax:
 
 ```powershell
 Update-MgUser -UserId anne.wallace@contoso.com -UserPrincipalName anne.jones@contoso.com
 ```
 
 > [!TIP]
-> This changes the person's **userPrincipalName** attribute and has no bearing on their Microsoft Online Email Routing Address (MOERA) email address. It's a best practice, however, to have the person's sign-in UPN match their primary SMTP address.
+> This change affects the person's **userPrincipalName** attribute and has no bearing on their Microsoft Online Email Routing Address (MOERA) email address. It's a best practice, however, to have the person's sign-in UPN match their primary SMTP address.
 
 ## Related content
 
