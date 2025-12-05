@@ -39,7 +39,7 @@ IT admins can use SharePoint Admin Center and PowerShell to find ownerless tenan
 
 ## Administering roles and membership for tenant-owned workspaces
 
-Tenant-owned Loop workspaces created on or after April 2025: Manage Owners and Editors (shown as Members in the SharePoint admin center). Writer and Reader roles are not used.
+Tenant-owned Loop workspaces created on or after April 2025: Manage Owners and Editors (shown as Managers in the SharePoint admin center). Writer and Reader roles are not used.
 
 Tenant-owned Loop workspaces created before April 2025: A legacy roster still controls membership. It is being deprecated. Until fully retired:
 
