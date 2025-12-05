@@ -44,7 +44,7 @@ The migration occurs at a user-level, meaning that if one user passes the valida
 
 ### Validation
 
-The first step that takes place is the Validation stage. Throughout this step, all necessary setup steps are validated. If any checks fail, then the migration fails. The administrator should then fix the failures and resubmit the migration. For a list of the prechecks, please consult the [Prerequisites](migration-orchestrator-2-planning-prerequisites.md) article. This step includes all the checks confirmed in Standalone Validation, but it's not going to return the full results for every check. It only returns the first failure it encounters.
+The first step that takes place is the Validation stage. Throughout this step, all necessary setup steps are validated. If any checks fail, then the migration fails. The administrator should then fix the failures and resubmit the migration. For a list of the prechecks, consult the [Prerequisites](migration-orchestrator-2-planning-prerequisites.md) article. This step includes all the checks confirmed in Standalone Validation, but it's not going to return the full results for every check. It only returns the first failure it encounters.
 
 ### Mailbox syncing
 
@@ -64,7 +64,7 @@ After the Teams chats, Teams meetings, and OneDrives migrate, the migration is c
 
 ## Understanding Migration Status and Errors
 
-For a breakdown of the meanings behind the statuses and errors, please consult the appendix. XXX REMINDER TO FIGURE OUT WHERE THIS IS
+For a breakdown of the meanings behind the statuses and errors, consult the appendix. XXX REMINDER TO FIGURE OUT WHERE THIS IS
 
 There's up to an hour-long delay between when updates are made to the group containing the authorized users for migration and when our system processes those changes. Allow for up to an hour to start the migration after changes are made to the group membership.
 
