@@ -75,7 +75,6 @@ Updates released between November 12, 2025, and November 24, 2025.
     [Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat and SharePoint agents](/copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs)
 
 
----  
 - **Reassign agent ownership with full control** [Windows, Web]
 
   Admins can now transfer ownership of shared agents, granting the new owner full edit and delete permissions and revoking all access from the previous owner.  
@@ -110,7 +109,6 @@ Updates released between November 12, 2025, and November 24, 2025.
 
    **Learn:** [Reassign an agent's owner with PowerShell](/power-platform/release-plan/2025wave2/microsoft-copilot-studio/reassign-agents-owner-powershell)
 
-   ---
 
 - **Restrict org-wide agent sharing for better governance** [Web]
 
@@ -217,8 +215,6 @@ Updates released between November 12, 2025, and November 24, 2025.
   [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
 
 
----
-
 - **Find files faster with improved Copilot Chat filters** [Windows, Web]
 
   
@@ -249,8 +245,6 @@ Updates released between November 12, 2025, and November 24, 2025.
   **Personal Impact:** 
   
   Less frustration—find what you need in seconds.
-
---- 
 
 - **Talk to Copilot with voice for faster hands-free work** [Android, Windows, iOS, Mac, Web]
 
@@ -327,8 +321,6 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   [Custom engine agents for Microsoft 365 overview](/microsoft-365-copilot/extensibility/overview-custom-engine-agent)
 
----
-
 - **Enhanced search in Agent Store for easier discovery** [Windows, Web]
 
   Finding the right agents in the Copilot Agent Store just got faster and smarter. Enjoy a streamlined search experience with typeahead suggestions and a clean results page—making it simple to locate exactly what you need without wasted time.  
@@ -360,7 +352,7 @@ Voice   removes friction, letting you work where typing isn't practical.
   **Personal Impact:** 
   
   Save time and reduce frustration with simple, intuitive search that helps you get back to meaningful work faster.
----
+
 - **Export detailed agent metadata for better governance** [Web]
 
   Inventory exports now include richer metadata like capabilities, data sources, and creator details—empowering better auditing and lifecycle control.  
@@ -397,8 +389,6 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   [Export to Excel](/microsoft-365/admin/manage/agent-registry?view=o365-worldwide#export-to-excel)
 
-
----
   
 - **Support Message Extensions as Declarative Agents on Mobile** [Android, iOS]
 
@@ -434,7 +424,6 @@ Voice   removes friction, letting you work where typing isn't practical.
   
   [Extend bot-based message extension as agent for Microsoft 365 Copilot](/microsoftteams/platform/messaging-extensions/build-bot-based-agent?tabs=visual-studio-code)
 
----
 
 - **Unified permissions management for agents** [Windows, Web]
 
@@ -4094,7 +4083,6 @@ Updates released between December 18, 2024, and January 7, 2025.
 Updates released between November 12, 2025, and November 24, 2025.
 ### Microsoft 365 admin center
 
----  
 - **Reassign agent ownership with full control** [Windows, Web]
 
   Admins can now transfer ownership of shared agents, granting the new owner full edit and delete permissions and revoking all access from the previous owner.  
@@ -4130,8 +4118,6 @@ Updates released between November 12, 2025, and November 24, 2025.
    **Learn:** 
    
    [Reassign an agent's owner with PowerShell](/power-platform/release-plan/2025wave2/microsoft-copilot-studio/reassign-agents-owner-powershell)
----
-
 
 ### Microsoft 365 Copilot Chat
 - **Access shared mailboxes in Copilot Chat** [Android, Windows, iOS, Mac, Web]
@@ -4197,7 +4183,7 @@ Updates released between November 12, 2025, and November 24, 2025.
   **Personal Impact:** 
   
   Less frustration—find what you need in seconds.
---- 
+
 - **Talk to Copilot with voice for faster hands-free work** [Android, Windows, iOS, Mac, Web]
 
   Speak to Copilot naturally on mobile or desktop to prepare for meetings,brainstorm ideas, or catch up on work—hands-free and grounded in work data.
@@ -4237,7 +4223,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea)
   
-  ---
+
 ### Microsoft 365 Copilot extensibility
 - **Enhanced search in Agent Store for easier discovery** [Windows, Web]
 
@@ -4309,7 +4295,6 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry)
 
----
 
 ### Microsoft 365 PowerPoint
 
@@ -6120,9 +6105,7 @@ Updates released between November 12, 2025, and November 24, 2025.
     
     [Get an audio overview of your notebook with Microsoft 365 Copilot Notebooks](https://support.microsoft.com/topic/get-an-audio-overview-of-your-notebook-with-microsoft-365-copilot-notebooks-a22df989-b9cd-47fb-abac-e888d8f10cd9)
 
----
 
----
 ### Microsoft 365 Copilot Chat
 - **Access shared mailboxes in Copilot Chat** [Android, Windows, iOS, Mac, Web]
 
@@ -6186,7 +6169,7 @@ Updates released between November 12, 2025, and November 24, 2025.
   **Personal Impact:** 
   
   Less frustration—find what you need in seconds.
---- 
+
 - **Talk to Copilot with voice for faster hands-free work** [Android, Windows, iOS, Mac, Web]
 
   Speak to Copilot naturally on mobile or desktop to prepare for meetings,brainstorm ideas, or catch up on work—hands-free and grounded in work data.
@@ -6226,7 +6209,6 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea?preview=true)
   
-  ---
 ### Microsoft 365 Copilot extensibility
 
 - **Enhanced search in Agent Store for easier discovery** [Windows, Web]
@@ -6332,7 +6314,6 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry)
 
----
 ### Microsoft 365 Copilot Studio
 
 - **Control org-wide agent sharing from one place** [Web]
@@ -6369,7 +6350,6 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Blog:** [Manage and govern at scale](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/whats-new-in-copilot-studio-october-2025/#manage-and-govern-at-scale)
 
----
 
 ### Microsoft 365 PowerPoint
 
@@ -8884,7 +8864,6 @@ Updates released between November 12, 2025, and November 24, 2025.
 
   [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
 
-  ---
 
 - **Talk to Copilot with voice for faster hands-free work** [Android, Windows, iOS, Mac, Web]
 
@@ -8925,7 +8904,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea)
   
-  ---
+
 ### Microsoft 365 Copilot extensibility
 - **Access Custom engine Agents on Microsoft 365 Copilot chat on mobile** [Android, iOS]
 
@@ -9500,7 +9479,6 @@ Updates released between November 12, 2025, and November 24, 2025.
 
   [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
 
----
 
 - **Talk to Copilot with voice for faster hands-free work** [Android, Windows, iOS, Mac, Web]
 
@@ -9540,8 +9518,7 @@ Voice   removes friction, letting you work where typing isn't practical.
   **Additional Resources:**
 
   [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea)
-  
-  ---
+
 
 ### Microsoft 365 Copilot extensibility
 - **Access Custom engine Agents on Microsoft 365 Copilot chat on mobile** [Android, iOS]
@@ -10391,7 +10368,7 @@ Updates released between November 12, 2025, and November 24, 2025.
 
     [Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat and SharePoint agents](/copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs)
 
----  
+
 ### Microsoft 365 Copilot Chat
 
 - **Access shared mailboxes in Copilot Chat** [Android, Windows, iOS, Mac, Web]
@@ -10426,7 +10403,7 @@ Updates released between November 12, 2025, and November 24, 2025.
 
   [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
 
----
+
 - **Talk to Copilot with voice for faster hands-free work** [Android, Windows, iOS, Mac, Web]
 
   Speak to Copilot naturally on mobile or desktop to prepare for meetings,brainstorm ideas, or catch up on work—hands-free and grounded in work data.
@@ -10466,7 +10443,6 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea)
   
-  ---
 
 ### Microsoft 365 PowerPoint
 - **Reference Loop or Page in presentations** [Mac, Windows, Web]
