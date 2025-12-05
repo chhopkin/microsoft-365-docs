@@ -161,7 +161,7 @@ There are a number of parameters that must be provided in a specific format for 
 ## Migrating using Powershell
 
 1. Open Microsoft PowerShell.
-2. Install the [Graph SDK](/powershell/microsoftgraph/?view=graph-powershell-beta):
+2. Install the [Graph SDK](/powershell/microsoftgraph/?view=graph-powershell-bet&preserve-view=truea):
   - `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
   - `Install-Module Microsoft.Graph`
 3. Sign in with target tenant global administrator credentials:
