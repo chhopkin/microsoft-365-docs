@@ -84,7 +84,7 @@ Install-Module PowerShellGet -AllowClobber -Force
 The CTIM application runs within Microsoft 365 and requires permissions within your tenant to be able to read or write proper information. This access may be revoked later when you're no longer using CTIM. These steps require the user running the command to have the Global Administrator role.
 
 > [!NOTE]
-> The addition or removal of CTIM application permissions are the only times a Global Administrator role is required for the CTIM process.
+> A Global Administrator role is only required for the CTIM process for the addition or remval of CTIM application permissions.
 
 The roles added are:
 
@@ -162,7 +162,7 @@ The "SecurityGroupGuid" can be either the 'ExchangeObjectId' value or the 'Exter
 > Running a copy request for the same scope twice with -Overwrite resets previous mappings.
 
 > [!WARNING]
-> Running New-CtimCopyRequest for the same scope a second time with the same objects in it results in any previously completed mapping work being overwritten in the target tenant, if the Target tenant admin also uses the -Overwrite switch when accepting the copy request. Make sure the Target tenant admin knows you're executing a copy request for the same scope of objects, and a copy of the Mapping file is saved, before accepting the new copy request. Even if using the -Overwrite switch is being done on purpose, having a copy of the mapping file downloaded before using it's a good safety net to have.
+> If the Target tenant admin uses the -Overwrite switch when accepting the copy request, running New-CtimCopyRequest for the same scope a second time with the same objects in it results in any previously completed mapping work being overwritten in the target tenant. Make sure the Target tenant admin knows you're executing a copy request for the same scope of objects, and a copy of the mapping file is saved, before accepting the new copy request. Even if using the -Overwrite switch is being done on purpose, having a copy of the mapping file downloaded before using it's a good safety net to have.
 > 
 > There's no way to recover the data if you use -Overwrite without saving a mapping file first, and you have to start over from the beginning.
 
@@ -182,7 +182,7 @@ Wait for the request to reach the **Completed** state before continuing to mappi
 If you need to start migrating another scope of users, run another copy request for the other scope.
 
 > [!IMPORTANT]
-> With module version v0.0.1-Preview9500 or later, accepting a copy request for the same scope containing identities previously copied showz a FailureResult of "Skipped this identity because the job was running without an overwrite flag". Any new identities are copied as expected. If you do want to overwrite the previously copied identities, then you must use the -Overwrite switch with Accept-CtimCopyRequest. If you already accepted the request without the -Overwrite switch, the source tenant admin needs to run New-CtimCopyRequest again so you can accept a new request with the -Overwrite switch.
+> With module version v0.0.1-Preview9500 or later, accepting a copy request for the same scope containing identities previously copied shows a FailureResult of "Skipped this identity because the job was running without an overwrite flag". Any new identities are copied as expected. If you do want to overwrite the previously copied identities, then you must use the -Overwrite switch with Accept-CtimCopyRequest. If you already accepted the request without the -Overwrite switch, the source tenant admin needs to run New-CtimCopyRequest again so you can accept a new request with the -Overwrite switch.
 
 > [!NOTE]
 > The percentage complete doesn't move beyond 10% if you reject the request.
