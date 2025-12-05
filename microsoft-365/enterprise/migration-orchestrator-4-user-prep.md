@@ -21,7 +21,7 @@ description: "Users need preparation before a cross-tenant migration. This artic
 Preparing users is a necessary step for migration. The Cross-Tenant User Data Migration product requires that source user objects and target user objects exist. The source users are users in the source tenant whose content is migrated. The target users are the destination users into which the content from the source is migrated. Users must be created properly and mapped before the migration can take place.
 
 > [!IMPORTANT]
-> You must keep the specific configuration of fields pertaining to a user in mind. There are no exceptions. The following steps must be taken in the outlined order. Otherwise, users could be incorrectly configured and require additional work to put them in a good state.
+> You must keep the specific configuration of fields pertaining to a user in mind. There are no exceptions. The following steps must be taken in the outlined order. Otherwise, users could be incorrectly configured and require extra work to put them in a good state.
 
 > [!NOTE]
 > Target users can't have mailboxes or OneDrive sites provisioned before the migration takes place. To properly configure the target users, **Identity Mapping** must be completed before assigning Exchange or OneDrive licenses to users.
@@ -41,7 +41,7 @@ A MailUser object (also known as Mail-Enabled User, or MEU) must exist in the ta
 
 These MailUser objects don't need all attributes populated before running Cross-Tenant Identity Mapping (CTIM). CTIM prepares the ExchangeGuid, ArchiveGuid, and copies all existing X500 addresses as a proxy address. It also creates a new X500 proxy address based on the user's current ExchangeLegacyDN in the source tenant.
 
-MailUser objects in the target tenant must not have email addresses from non-accepted domains in the PrimarySmtpAddress of EmailAddresses fields. This causes the process to fail on that user.
+MailUser objects in the target tenant must not have email addresses from nonaccepted domains in the PrimarySmtpAddress of EmailAddresses fields. This causes the process to fail on that user.
 
 Target MailUsers need to have the source user's PrimarySMTPAddress, preferably in the target MailUser's ExternalEmailAddress field.
 Here are examples of commands you may use to create a properly configured MailUser object:
@@ -70,7 +70,7 @@ If the source users aren't already added into the mail-enabled security group yo
 
 ### OneDrive Identity Mapping for Permissions (Optional)
 
-If you want users (other than the users OneDrive sites belong to) to have access to the files within a OneDrive as they did on the source, you can run Identity Mapping for OneDrive sites. This action includes the mapping of migrating users (those who are Identity Mapped using the native solution), guests, and groups you wish to grant OneDrive site content permissions to.
+If you want users (other than the users OneDrive sites belong to) to have access to the files within a OneDrive as they did on the source, you can run Identity Mapping for OneDrive sites. This action includes the mapping of migrating users (those users who are Identity Mapped using the native solution), guests, and groups you wish to grant OneDrive site content permissions to.
 
 For full support, we recommend mapping all migrating users, guests, or groups that should retain permissions. You can find instructions at [Step 5](cross-tenant-onedrive-migration-step5.md) of our OneDrive site migration documentation. [Step 4](cross-tenant-onedrive-migration-step4.md) also includes information about guest and group requirements.
 
@@ -79,7 +79,7 @@ For full support, we recommend mapping all migrating users, guests, or groups th
 - Users on the source and target tenants must have a license with Exchange Online and Teams (E3 and E5 both include Exchange Online and Teams).
 - Users on the target must not have an Exchange mailbox provisioned before migration. This causes the migration to fail.
 - To prevent issues, user licenses for Exchange Online and Teams must be assigned **after** identity mapping. Having an ExchangeGuid stamped from the source user object onto the target user object prevents a mailbox from being provisioned.
-- After identity mapping has completed successfully for the user, a license can be applied.
+- After identity mapping completes successfully for the user, a license can be applied.
 - You should [disable OneDrive site creation](/sharepoint/restricted-site-creation) for target users as soon as you create those users to prevent a OneDrive site from being provisioned.
 - Either the source or the target user needs a Cross-Tenant Data Migration license.
 - The assigning of a Teams license should assign the user a SIP domain. If you see issues relating to a user not having a SIP domain, you can assign one manually using [Set-CsUser](/powershell/module/microsoftteams/set-csuser?view=teams-ps&preserve-view=true). The tenant's SIP Domain can be found using [Get-CsOnlineSIPDomain](/powershell/module/microsoftteams/get-csonlinesipdomain?view=teams-ps).
