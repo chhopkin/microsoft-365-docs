@@ -30,7 +30,7 @@ Post-migration steps for OneDrive are available in [Step 7 of our OneDrive docum
 - Use the [Remove-MigrationEndpoint](/PowerShell/module/exchange/remove-migrationendpoint) cmdlet to remove existing migration endpoints for source or destination servers after the migration is complete.
 - Use the **Remove-MMSAppPermissions** cmdlet to remove permissions for meeting migrations.
 - Use the **Remove-CtimServicePrincipal** cmdlet to remove permissions for identity mapping.
-- Use the **Remove-CtimData -SourceTenantGuid <SourceTenantGuid>** cmdlet to remove stored identity mapping data.
+- Use the **Remove-CtimData -SourceTenantGuid `<SourceTenantGuid>`** cmdlet to remove stored identity mapping data.
 - Use the **Revoke-CTTMAppPermissions** cmdlet to remove permissions for Teams Chat migrations.
 - Use the following to remove CTMS permissions and service principals (This is only required on the target tenant):
 
