@@ -20,7 +20,7 @@ description: "Discover the configuration requirements for Microsoft 365 migratio
 
 ## Prerequisites for source and target tenants
 
-This article walks through all steps of preparing the tenants and users for a successful migration. Here are some additional requirements that we don't provide explicit steps for:
+This article walks through all steps of preparing the tenants and users for a successful migration. Here are some other requirements we don't provide explicit steps for:
 
 - The source admin and target admin must each have Global administrator access on their respective tenant, which is required to manage the setup and migration. XXX  GLOBAL ADMIN ONLY? WE HAVE LEAST PRIVILEGE MODE CONCERNS
 - At least one mail-enabled security group is required in the source tenant.
@@ -76,7 +76,7 @@ Here's an example of the URL to provide to them:
 `https://login.microsoftonline.com/<your partner's tenant name (source), EX: contoso.onmicrosoft.com>/adminconsent?client_id=<application_id_of_the_app_you_created>&redirect_uri=https://office.com`
 
 > [!NOTE]
-> You need the application ID of the mailbox migration app you previously created. You need to replace `<your tenant name, EX: contoso.onmicrosoft.com>` in the above example with your source tenant's correct onmicrosoft.com name. You also need to replace `<application_id_of_the_app_you_just_created>` with the application ID of the mailbox migration app you previously created.
+> You need the application ID of the mailbox migration app you previously created. You need to replace `<your tenant name, EX: contoso.onmicrosoft.com>` in the previous example with your source tenant's correct onmicrosoft.com name. You also need to replace `<application_id_of_the_app_you_just_created>` with the application ID of the mailbox migration app you previously created.
 
 ### Prepare the target tenant by creating the Exchange Online migration endpoint and organization relationship
 
@@ -268,7 +268,7 @@ The required setup steps for OneDrive Migration on both source and target are av
   `Connect-MgGraph`
 4. Import the module containing the configuration details:
   `Import-Module <location>`
-5. Install the dependencies for running MMS Script. Some of these may have already been installed in setup tasks for other workloads. You don't need to reinstall in that case.
+5. Install the dependencies for running MMS Script. You may have installed some of these dependencies in setup tasks for other workloads. You don't need to reinstall in that case.
   `Install-Module Microsoft.Graph.Authentication`
   `Install-Module Microsoft.Graph.Applications`
   `Install-Module Microsoft.Graph.Identity.DirectoryManagement`
@@ -310,7 +310,7 @@ The required setup steps for OneDrive Migration on both source and target are av
 
 Running Identity Mapping is a required step for migrating user data. Cross-Tenant Identity Mapping (CTIM) is a tool that allows source users to be mapped one-to-one to target users. It edits the users' properties, so they have the correct properties to successfully migrate. It also maintains a mapping file to reference so that the data for the correct source users is migrated to the correct target users.
 
-Additional information on Identity Mapping can be found in [Cross-Tenant Identity Mapping (preview)](cross-tenant-identity-mapping.md).
+[Learn more](cross-tenant-identity-mapping.md) about Identity Mapping.
 
 > [!IMPORTANT]
 > Use CTIM after creating target users and before migrating data to ensure accuracy and avoid manual errors.
