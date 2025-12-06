@@ -3,7 +3,7 @@ title: "Step 3: Protect your Microsoft 365 user accounts"
 f1.keywords:
 - NOCSH
 author: kelleyvice-msft
-ms.author: kvice
+ms.author: scotv
 manager: scotv
 ms.date: 10/22/2024
 audience: ITPro
