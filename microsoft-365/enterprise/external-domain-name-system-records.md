@@ -1,6 +1,6 @@
 ---
 title: "External Domain Name System records for Microsoft 365"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 10/24/2024
