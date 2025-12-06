@@ -42,7 +42,7 @@ XXX THESE EXAMPLES DEPEND ON THE SCREENSHOTS. WE CAN'T USE EXAMPLES THAT DEPEND 
 
 ## Meetings
 
-Meetings are updated when the organizer migrates. At this point, the meeting URL updates and all participants who are identity mapped have their source identities removed from the roster and their target identities added to the roster. Participants who don't migrate can join the meeting depending on the tenant policies. Participants who don't migrate won't have access to the new meeting chat until they join the meeting from its new join URL. Target users view, start, and join migrated meetings on the target tenant. Target users can view the meeting chat and continue to use it.
+Meetings are updated when the organizer migrates. At this point, the meeting URL updates and all participants who are identity mapped have their source identities removed from the roster and their target identities added to the roster. Participants who don't migrate can join the meeting depending on the tenant policies. Participants who don't migrate don't have access to the new meeting chat until they join the meeting from its new join URL. Target users view, start, and join migrated meetings on the target tenant. Target users can view the meeting chat and continue to use it.
 
 Meetings organized by a migrated user have updated URLs so they're hosted in the target tenant. This update means any users who exist within the target tenant can join the meeting without entering the meeting lobby or facing other obstacles.
 
@@ -82,7 +82,7 @@ If you need to edit Identity Mapping while any migration batches are running, do
 
 1. Meeting recordings, meeting transcripts, and meeting recaps aren't migrated. Attendance reports, Apps, or Tags associated with meetings aren't migrated.
 2. The new meeting URL has the updated participants (target tenant user IDs), apart from distribution groups. Identity mapping doesn't provide distribution group mappings. This exception impacts scenarios where a participant belonging to a distribution list tries to join a meeting that has the setting 'Invite only users can join'.
-3. Customers shouldn't remove the mail forwarding or delete source objects until after the tenant migration is completed. Since migration can happen in batches, any updates made to meetings that don't migrate won't forward to the migrated user mailbox if the mail forwarding isn't active.
+3. Customers shouldn't remove the mail forwarding or delete source objects until after the tenant migration is completed. Since migration can happen in batches, any updates made to meetings that don't migrate don't forward to the migrated user mailbox if the mail forwarding isn't active.
 4. The same set of users can't be migrated again to a different target tenant if the source objects are deleted or email forwarding is disabled.
 5.Skype to Teams and Teams to Skype Migration for tenant-to-tenant scenarios are out of scope. Only Teams to Teams tenants are supported.
 6. Channel and Shared Channel meetings aren't migrated.
