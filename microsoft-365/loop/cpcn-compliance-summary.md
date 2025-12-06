@@ -31,9 +31,7 @@ As a Compliance Manager or IT administrator, it's crucial to stay up-to-date on 
 
 ## SharePoint Embedded
 
-Copilot Pages and Copilot Notebooks content storage varies based on creation method. For detailed information about storage locations, see [storage](cpcn-storage.md). Content stored in SharePoint Embedded containers follows the [SharePoint Embedded security and compliance documentation](/sharepoint/dev/embedded/compliance/security-and-compliance).
-
-The sections below outline governance, lifecycle, and compliance capabilities applicable to all Copilot Pages and Copilot Notebooks storage types. Where capabilities vary by storage location—OneDrive, SharePoint sites, or SharePoint Embedded containers—specific details are provided.
+Copilot Pages and Copilot Notebooks content are stored in SharePoint Embedded. Content stored in SharePoint Embedded containers follows the [SharePoint Embedded security and compliance documentation](/sharepoint/dev/embedded/compliance/security-and-compliance). The sections below outline governance, lifecycle, and compliance capabilities applicable to all Copilot Pages and Copilot Notebooks storage types.
 
 ## Foundations
 
