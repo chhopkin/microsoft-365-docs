@@ -27,7 +27,7 @@ Microsoft is introducing a new offering with Anthropic AI models as part of Micr
 
 To enable this change, Anthropic has onboarded as a Microsoft subprocessor. As part of this update, we are deprecating the previous option that allowed Microsoft admins to opt-in to use Anthropic models under Anthropic’s separate commercial terms and data processing agreement. This change simplifies the experience and strengthens compliance and security under Microsoft’s enterprise framework. 
 
-As a subprocessor, Anthropic will operate with Microsoft oversight through contractual safeguards and appropriate technical and organizational measures. The Microsoft [Product Terms](https://www.microsoft.com/licensing/terms?msockid=344e0e6ad66c6b3e19441848d7416abd) and [Microsoft Data Protection Addendum (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?lang=18&msockid=344e0e6ad66c6b3e19441848d7416abd) apply to use of Anthropic through Microsoft’s enterprise Online Services. It is also covered under our [Enterprise Data Protection](enterprise-data-protection.md). The Microsoft [Customer Copyright Commitment (CCC)](/azure/ai-foundry/responsible-ai/openai/customer-copyright-commitment) applies to Anthropic models used within products covered by the CCC’s, including Microsoft 365 Copilot and Copilot Studio.
+As a subprocessor, Anthropic will operate with Microsoft oversight through contractual safeguards and appropriate technical and organizational measures. The Microsoft [Product Terms](https://www.microsoft.com/licensing/terms?msockid=344e0e6ad66c6b3e19441848d7416abd) and [Microsoft Data Protection Addendum (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?lang=18&msockid=344e0e6ad66c6b3e19441848d7416abd) apply to use of Anthropic models through Microsoft’s enterprise Online Services. Such use is also covered under our [Enterprise Data Protection](enterprise-data-protection.md). The Microsoft [Customer Copyright Commitment (CCC)](/azure/ai-foundry/responsible-ai/openai/customer-copyright-commitment) applies to Anthropic models used within products covered by the CCC’s, including Microsoft 365 Copilot and Copilot Studio.
 
 For more information about subprocessor data access, see [Microsoft Data Access Management](https://www.microsoft.com/trust-center/privacy/data-access). To see a list of Microsoft subprocessors, see [Service Trust Portal](https://servicetrust.microsoft.com/DocumentPage/7a132d00-29c2-4d26-b0f5-486923c41223).
 
@@ -44,7 +44,7 @@ Microsoft is making Anthropic models available by default in certain regions. In
 
 In some regions, Anthropic’s models are not available by default. For these regions, the toggle will appear but the default is set to **Off**. These regions include the [European Union (EU), the European Free Trade Association (EFTA)](/privacy/eudb/eu-data-boundary-learn), and the United Kingdom (UK).
 
-In addition, Anthropic models are not available in government clouds (GCC, GCC High, DoD) as there is no FedRAMP certification in place yet. They are also not yet available in other sovereign clouds. No toggle will be present for government or sovereign clouds.
+In addition, Anthropic models are not available in government clouds (GCC, GCC High, DoD) as there is no FedRAMP certification in place yet. They are also not available in other sovereign clouds. No toggle will be present for government or sovereign clouds.
 
 ## Opt-in to use Anthropic's models
 
