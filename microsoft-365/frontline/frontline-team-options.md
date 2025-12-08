@@ -29,7 +29,7 @@ Frontline teams are a collection of people, content, and tools within an organiz
 
 - You can choose a mix of flexible membership teams and static frontline teams for your organization.
 
-- You can convert static frontline teams to flexible membership teams in the Microsoft Entra admin center by using the [link your existing frontline teams feature](https://learn.microsoft.com/microsoft-365/frontline/link-your-existing-frontline-teams-to-be-managed-with-flexible-membership?view=o365-worldwide). 
+- You can convert static frontline teams to flexible membership teams in the Microsoft Entra admin center by using the [link your existing frontline teams feature](/microsoft-365/frontline/link-your-existing-frontline). 
 
 ## When should I choose flexible membership teams?
 
@@ -41,7 +41,7 @@ You should use flexible membership teams if:
 - You have Microsoft Entra attributes that can define who is a frontline worker and what locations they work in.
 - You want to simplify the process of creating a team for each frontline location, including support for creating new teams when a new location opens.
 
-[Learn more about deploying frontline teams with flexible membership from the Teams admin center](https://learn.microsoft.com/microsoft-365/frontline/deploy-flexible-membership-teams-at-scale?view=o365-worldwide).
+[Learn more about deploying frontline teams with flexible membership from the Teams admin center](/microsoft-365/frontline/deploy-flexible-membership-teams-at-scale).
 
 ## When should I choose static teams?
 
