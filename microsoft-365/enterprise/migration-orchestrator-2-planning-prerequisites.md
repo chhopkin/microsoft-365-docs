@@ -56,13 +56,13 @@ The Cross-Tenant Identity Mapping service uses a REST endpoint and encrypts all 
 > [!NOTE]
 > Target tenants only.
 
-If the target tenant is a hybrid tenant with directory sync enabled and syncing MailUser objects into the target tenant, then you must have access to a Microsoft supported PowerShell method of managing onpremises objects synchronized into Microsoft 365.
+If the target tenant is a hybrid tenant with directory sync enabled and syncing MailUser objects into the target tenant, then you must have access to a Microsoft supported PowerShell method of managing on-premises objects synchronized into Microsoft 365.
 
 An example of supported methods is any currently supported version of Exchange Server Management Shell, or the newer Exchange Server 2019 Management Tools. We don't support tenants using unsupported methods of managing and modifying on-premises objects. If all the MailUser objects you're working with in the target tenant are cloud-only objects not synchronized from on-premises, then you don't need a Microsoft-supported PowerShell method of managing on-premises objects synchronized into Microsoft 365.
 
 ### MailUser object examples
 
-XXX WE CAN'T HAVE INFORMATION IN SCREENSHOTS. NOT ACCESSIBLE. CAN'T BE SEARCHED. NO.
+For more information about MailUser object examples, see [Cross-tenant mailbox migration](https://learn.microsoft.com/en-us/microsoft-365/enterprise/cross-tenant-mailbox-migration?view=o365-worldwide#prerequisites-for-target-user-objects)
 
 ### Confirmation of Proper User Attributes
 
