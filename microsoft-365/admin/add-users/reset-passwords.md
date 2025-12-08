@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 09/17/2025
+ms.date: 12/08/2025
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-security
@@ -38,14 +38,14 @@ Check out all of our small business content on [Small business help & learning](
 
 Check out [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) on YouTube.
 
-This article explains how to reset passwords for yourself and for your users when you have a **Microsoft 365 for business subscription**. If you don't have a Microsoft 365 for business subscription try this article: [I forgot the username or password for the account I use with Microsoft 365.](https://support.microsoft.com/office/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp). You can also set up self-service password reset for your users so they can reset their own passwords. To learn more, see [Let users reset their own passwords](let-users-reset-passwords.md).
+This article explains how to reset passwords for yourself and other users in your organization when you have a **Microsoft 365 for business subscription** and you have an appropriate role assigned. You can also set up self-service password reset for your users so they can reset their own passwords. To learn more, see [Let users reset their own passwords](let-users-reset-passwords.md).
 
-> [!IMPORTANT]
-> To support increased security, as of August 30, 2024, Microsoft will remove the ability to send user account details and passwords in email from within the Microsoft 365 admin center. We recommend that you print the account information to a PDF file, then share it with your users in a secure manner.
+> [!NOTE]
+> If you don't have a Microsoft 365 for business subscription try this article: [I forgot the username or password for the account I use with Microsoft 365.](https://support.microsoft.com/office/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp). 
 
 ## Before you begin
 
-This article is for people who set password expiration policy for a business, school, or nonprofit. To complete these steps, you need to sign in with your Microsoft 365 admin account. [Overview in the Microsoft 365 admin center](../admin-overview/admin-center-overview.md).
+This article is for people who set password expiration policy for a business, school, or nonprofit. To complete these steps, sign in using your Microsoft 365 administrator account. [Overview in the Microsoft 365 admin center](../admin-overview/admin-center-overview.md).
 
 You must be a [password administrator](about-admin-roles.md) to perform these steps.
 
@@ -57,6 +57,9 @@ You must be a [password administrator](about-admin-roles.md) to perform these st
 Check out this video and others on our [YouTube channel](https://go.microsoft.com/fwlink/?linkid=2198204).
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=6abab91d-a375-496c-8a7e-f10bded3b389]
+
+If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](../../business-video/index.yml).
+
 ## Steps: Reset a business password for a user
 
 When a user requests a new password, you receive a password reset request in email. Follow these steps to reset the password.
@@ -69,11 +72,12 @@ When a user requests a new password, you receive a password reset request in ema
 
 4. Print the account details to a PDF file, store it in a secure location, then share the information with your users in a secure manner.
 
-If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](../../business-video/index.yml).
+> [!IMPORTANT]
+> To support increased security, as of August 30, 2024, Microsoft will remove the ability to send user account details and passwords in email from within the Microsoft 365 admin center. We recommend that you print the account information to a PDF file, then share it with your users in a secure manner.
 
 ## Let users reset their own passwords
 
-We strongly recommend that you set up self-service password reset. This way you don't have to manually reset passwords for your users. Less work for you! To learn how, see [Let users reset their own passwords in Microsoft 365](let-users-reset-passwords.md).
+Self-service password reset is more efficient and less work for your organization's administrators than manually resetting passwords for users. See [Let users reset their own passwords in Microsoft 365](let-users-reset-passwords.md).
 
 ## Resend user password
   
