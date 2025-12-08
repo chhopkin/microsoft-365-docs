@@ -282,6 +282,8 @@ items:
               href: manage/manage-tools-for-agent.md
             - name: Agent Settings
               href: manage/agent-settings.md
+            - name: Use Agent Map
+              href: manage/agent-map.md
             - name: Microsoft Graph connectors for Microsoft Search
               href: /microsoftsearch/connectors-overview
          - name: Monitor Microsoft 365 activity by using reports
