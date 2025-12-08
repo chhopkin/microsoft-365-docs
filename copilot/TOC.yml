@@ -100,7 +100,7 @@ items:
   - name: Enabling Copilot User Experiences
     items:
     - name: Anthropic as a subprocessor for Microsoft Online Services
-      href: connect-to-ai-models.md
+      href: connect-to-ai-subprocessor.md
     - name: Deploy Microsoft 365 Copilot app
       href: deploy-microsoft-365-copilot-app.md
     - name: Set up Copilot and assign licenses
