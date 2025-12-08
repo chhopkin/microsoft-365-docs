@@ -43,7 +43,7 @@ Microsoft 365 Copilot combines the power of large language models with your data
 You can manage agents for Copilot by using the [Microsoft 365 admin center](https://admin.microsoft.com/). You can enable, disable, assign, block, or remove agents for your organization, and manage Copilot capabilities.
 
 > [!NOTE]
-> Researcher and Analyst agents are part of the core default experience for Microsoft 365 Copilot licensed users. These agents will remain accessible in Microsoft 365 Copilot Chat via tools, even when Copilot agents are disabled for some or all users in Microsoft 365 admin center.
+> Researcher and Analyst agents are part of the core default experience for Microsoft 365 Copilot licensed users. These agents will remain accessible in Microsoft 365 Copilot Chat via tools, even when Copilot agents are disabled for some or all users in Microsoft 365 admin center. For related information, see [Agent settings in Microsoft 365 admin center](/microsoft-365/admin/manage/agent-settings).
 
 ## Overview
 
