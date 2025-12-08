@@ -7,7 +7,7 @@ manager: scotv
 ms.reviewer: jakeost
 ms.service: microsoft-365-enterprise
 ms.topic: how-to
-ms.date: 10/29/2025
+ms.date: 12/08/2025
 ms.subservice: multi-tenant
 ms.collection:
 - must-keep
@@ -121,10 +121,7 @@ To manage MTO user labels for tenants in your MTO:
    
 1. Select **Save changes**.
 
-## Manage multitenant org notifications (private preview)
-
-> [!NOTE]
-> This is currently only available for private preview.
+## Manage multitenant org notifications
 
 Admins can opt-in for MTO notifications to ensure they don’t miss any updates or changes to their MTO. Receive email notifications regarding any updates to the MTO such as: a new tenant joined the MTO, a tenant left the MTO, an MTO setting changed (user labels, owner/member role, MTO name), or user sync status changed (Must have full-mesh sync set up via M365 admin center). Email notifications are sent daily, as long as any updates were made to the MTO. No notification is sent if nothing has changed.
 
