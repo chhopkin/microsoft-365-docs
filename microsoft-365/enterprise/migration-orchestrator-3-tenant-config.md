@@ -22,7 +22,7 @@ description: "Discover the configuration requirements for Microsoft 365 migratio
 
 This article walks through all steps of preparing the tenants and users for a successful migration. Here are some other requirements we don't provide explicit steps for:
 
-- The source admin and target admin must each have Global administrator access on their respective tenant, which is required to manage the setup and migration. XXX  GLOBAL ADMIN ONLY? WE HAVE LEAST PRIVILEGE MODE CONCERNS
+- The source admin and target admin must each have Global administrator access on their respective tenant, which is required to manage the setup and migration. 
 - At least one mail-enabled security group is required in the source tenant.
   - These groups are used to:
     - Scope the list of users whose content can move from source tenant to the target tenant.
@@ -315,7 +315,7 @@ Running Identity Mapping is a required step for migrating user data. Cross-Tenan
 > [!IMPORTANT]
 > Use CTIM after creating target users and before migrating data to ensure accuracy and avoid manual errors.
 
-XXX COPY IN AFTER WE'VE FINALIZED IN SOURCE DOC.
+XXX COPY IN LOOP CONTENT AFTER WE'VE FINALIZED IN SOURCE DOC.
 
 ## Prepare the target tenant for Cross-Tenant Migration Service
 

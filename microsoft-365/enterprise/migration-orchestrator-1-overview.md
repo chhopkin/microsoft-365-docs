@@ -47,7 +47,6 @@ To use tenant-to-tenant migration features, organizations must meet the followin
 
 - **Microsoft 365 E3/E5 or equivalent** licenses for source and target tenants.
 - **Cross-Tenant User Data Migration** licenses are required as an add-on for each user.
-- Additional licensing may be required for third-party tools or enhanced migration capabilities.
 
 ## Security and compliance considerations
 

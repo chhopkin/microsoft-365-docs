@@ -85,7 +85,6 @@ To confirm the target user's attributes, run:
 
 `Get-MailUser AdeleV2 | fl Name,ExternalEmailAddress,EmailAddresses,PrimarySMTPAddress,ExchangeGuid`
 
-XXX I'VE CUT A SAMPLE HERE.
 
 ### Prevalidation checks
 
