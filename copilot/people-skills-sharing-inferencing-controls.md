@@ -12,16 +12,72 @@ ms.topic: how-to
 ms.date: 07/22/2025
 ---
 
-# Manage privacy and sharing controls in People Skills
+# Manage admin controls in People Skills
 
-As an admin, you can set privacy and skill sharing controls for users, groups, or the entire tenant. By using these controls, you can meet your organization's needs and comply with local or business requirements. These settings can also be used to selectively deploy People Skills to a small group of pilot users, while restricting functionality to the rest of your tenant. People Skills provides access controls using [Feature Access Management](/viva/feature-access-management).
+People Skills offers a variety of controls for Admin users to configure privacy settings, skill visibility, and access management within the Microsoft 365 Admin Center. By using these controls, you can meet your organization's needs and comply with local regulatory or business requirements. These settings can also be used to selectively deploy People Skills to a small group of pilot users, while restricting functionality to the rest of your tenant. People Skills provides access controls using [Feature Access Management](/viva/feature-access-management). By understanding these controls, you can deploy People Skills in a compliant, flexible manner—whether to your entire tenant, specific groups, or a small set of pilot users.
 
-To view your skills sharing and privacy settings, you can navigate to the People Skills setup page and select **Settings**. Access controls can be created before, during or after People Skills setup. 
+
+#### Example use-cases for when these controls may be valuable:
+
+- __Workers Council or Regional Compliance Requirements__
+
+  If your organization operates in a region with Workers Council requirements and needs to disable People Skills for users in that area (for example, users in Germany), you have several options for configuring compliance‑appropriate access controls. For example, you can use the **AI Inferencing control** to disable AI‑generated skill inferences while still allowing users to opt in if they choose. Alternatively, you can use the **People Skills user experiences control**, which fully disables all People Skills experiences for the selected user group; this higher-level control removes all People Skills user experiences for those users and is commonly used to meet regional compliance needs.
+  
+- __Piloting People Skills with a Test Group__
+
+  If you want to roll out People Skills gradually, you can enable it only for a small pilot group while keeping it turned off for the rest of your tenant. The __People Skills user experiences control__ lets you turn the experience on for the pilot group and off for everyone else.
+  
+- __Limiting Skill Visibility for Privacy or Data Boundaries__
+
+  If you need to restrict how widely Skills data is shared within your organization, you can adjust the default sharing behavior using the **Skills** __Profile Visibility Control__ to disable skill sharing. Individual users can still choose to opt in if they prefer.
+  
+- __Blocking AI from Automatically Adding Skills__
+
+  If you do not want AI to infer or add skills to users’ profiles, you can use the __AI Inferencing Control__ to fully disable AI-generated skills across the selected users.
+  
+## Overview of People Skills Admin Controls
+
+As an admin, you may manage People Skills through the following controls:
+
+
+| Feature Control| What it does|Access Settings|Default setting|Relationships to other controls|
+| -------- | -------- | -------- | -------- | -------- |
+|People Skills user experiences|Turns all People Skills user experiences on or off for selected users. |On (hard enable); or Off (hard disable) |On|This is a parent control to all other admin controls. If this is turned off, then all other controls will be turned off. |
+|Skills AI Inferencing|Determines whether AI can infer Skills for users and add them to their M365 profiles on their behalf.  |On, users can opt out (soft enable); or Off, users can opt in (soft disable); or Off (hard disable) |On, users can opt out (soft enabled) |This is a parent to the **Show AI Inferred Skills** control. This is a child to the **People Skills user experiences** control. |
+|Skills Profile Visibility |Controls whether any of a user's skills (AI-inferred, Confirmed, or Imported) are shown on the user's M365 Profile Card or shared with other M365 applications.|On, users can opt out (soft enable); or Off, users can opt in (soft disable); or Off (hard disable) |On, users can opt out (soft enabled) |This is a parent to the **Show AI Inferred Skills** control and the **Show Imported Skills** control. This is a child to the **People Skills user experiences** control. |
+|Show AI-Inferred skills|Controls whether AI-Inferred Skills are shown on the user's M365 Profile Card or shared with other M365 applications. |On, users can opt out (soft enable); Off, users can opt in (soft disable); or Off (hard disable) |On, users can opt out (soft enabled) |This is a child to the **Skills Profile Visibility** control, and the **People Skills user experiences** control. |
+|Show Imported Skills|Controls whether imported (also known as organization-added) skills are shown on the user's M365 Profile Card or shared with other M365 applications.|On, users can opt out (soft enable); Off, users can opt in (soft disable); or Off (hard disable) |On, users can opt out (soft enabled) |This is a child to the **Skills Profile Visibility** control, and the **People Skills user experiences** control.|
+
+All controls can be scoped at either the entire tenant level, to specific user groups, or to individual users. You configure these controls using [Feature access management](/viva/feature-access-management), available in:
+
+- Microsoft Admin Center, or
+
+- PowerShell
+
+Admins can set controls at any time: before, during, or after deployment.  To view your admin settings, you can navigate to the People Skills setup page and select **Settings**.
 
 > [!IMPORTANT]
-> Privacy controls detailed here can be used to set up access policies to meet Works Council requirements and to pilot People Skills with small groups. Admins can configure inferencing and visibility controls (individually or in combination) to restrict skills inferencing or skills sharing for users outside the pilot or in restricted regions. For more details on piloting People Skills, review our [deployment guide](https://aka.ms/peopleskills-deployment-guide).
+> Changes in Feature access management take up to 24 hours to complete, and end-to-end changes may take up to 72 hours to fully propagate across all experiences. 
 
-![Diagram showing the People Skills Deployment Guide v3.](media/people-skills-sharing-inferencing-controls/people-skills-deployment-guide-v3.png)
+#### **Key terminology**
+
+When managing these Admin Controls, please refer to the below table for important definitions of terms referenced throughout this page.  
+
+| Term| What it means|
+| -------- | -------- |
+|Hard disable| Feature is fully disabled (turned off) and users cannot opt in|
+| Soft disable|Feature is available but default off, and users may opt in |
+|Soft enable|Feature is available and default on, and users may opt out|
+|Parent control|A parent control determines the access settings of its child controls. When the parent it turned off, all child controls automatically inherit that setting and are also turned off. For example, the **People Skills user experiences** control is a parent for all other admin controls; if the People Skills user experiences is turned off, every related control beneath it is disabled as well. |
+|Child control|A child control are controls that sit beneath a parent feature and depend on the parent's access state. A child control can only be applied if its parent feature is turned on. When the parent is disabled, all associated child controls automatically became disabled (they inherit their parent's access setting). |
+
+See below visual diagram for an illustration of the relationships between the controls. 
+
+![User's image](media/people-skills-sharing-inferencing-controls/image1.png)
+
+## Managing the People Skills user experiences control
+
+
 
 ## Skills AI inferencing control overview
 
