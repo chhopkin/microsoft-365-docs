@@ -31,7 +31,7 @@ Most organizations can quickly set up skills using our out-of-the-box People Ski
 
    :::image type="content" source="media/people-skills-inferencing/quick-setup-with-out-of-the-box-library.png" alt-text="Screenshot displaying the People Skills in Microsoft 365 Copilot option in the Copilot page." lightbox="media/people-skills-inferencing/quick-setup-with-out-of-the-box-library.png":::
 
-2. Select **Being quick setup**.
+2. Select **Begin quick setup**.
 
 3. Choose the skills you want to use from the out-of-the-box library. 
    > [!TIP]
