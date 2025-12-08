@@ -19,7 +19,7 @@ description: "How to map identities across Microsoft 365 organizations when prep
 
 # Cross-Tenant Identity Mapping (preview)
 
-Cross Tenant Identity Mapping (CTIM) is a Microsoft tool designed to simplify and automate the process of mapping user identities between source and target tenants. This mapping ensures data, permissions, and user experiences remain consistent throughout your migration journey. Running identity mapping is a required step for migrating user data. Cross-Tenant Identity Mapping allows source users to be mapped one-to-one to target users. It edits the users' properties, so they can successfully migrate with the correct attributes. It also maintains a mapping file to ensure that data for the correct source users migrates to the correct target users.
+Cross Tenant Identity Mapping (CTIM) is a Microsoft tool designed to simplify and automate the process of mapping user identities between source and target tenants. This mapping ensures data, permissions, and user experiences remain consistent throughout your migration journey. Running identity mapping is a required step for migrating user data using the orchestrated method. This step is optional when using standalone cross-tenant mailbox migration. Cross-Tenant Identity Mapping allows source users to be mapped one-to-one to target users. It edits the users' properties, so they can successfully migrate with the correct attributes. It also maintains a mapping file to ensure that data for the correct source users migrates to the correct target users.
 
 > [!NOTE]
 > Use CTIM after creating target users and before migrating data to ensure accuracy and avoid manual errors.
@@ -196,13 +196,6 @@ There are two ways to map source and target objects: PrimarySMTPAddress matching
 ##### Automated Mapping using PrimarySMTPaddress matching (Recommended):
 
 When you request the service to perform a mapping request, it searches the target tenant for MailUser objects with an email address matching a source user's PrimarySMTPAddress. We recommend you put the source users' PrimarySMTPAddress values in the ExternalEmailAddress attributes of the target tenant objects. If the system finds a match, it maps the two objects together. If it doesn't find a match, then the source object remains in an unmapped state. If you have objects with no match, you may edit an existing MailUser or create a new one with the appropriate source user's PrimarySMTPAddress value stored in the target MailUser's ExternalEmailAddress attribute. Then run the mapping process again.
-
-> [!IMPORTANT]
-> CTIM now supports SharePoint Online (SPO) mapping for users ONLY.
-> 
-> SPO mapping is performed automatically during the existing CTIM process (specifically in the map step).
-> 
-> If SPO mapping fails, you see the error: "Failed to deliver identity to SPO. Run New-CtimMapRequest again".
 
 **Target tenant admin**
 
