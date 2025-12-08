@@ -53,7 +53,7 @@ You can change the settings confirmed during this setup [by Managing your skills
 
 Organizations can build their own custom skills library with a combination of skills from the out-of-the-box skills library and by importing your own custom skills.
 
-1. Got to the Copilot page in the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **People Skills in Microsoft 365 Copilot**. Alternatively, you can find People Skills page under **Settings** > **Viva** > **Data Management**.
+1. Go to the Copilot page in the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **People Skills in Microsoft 365 Copilot**. Alternatively, you can find People Skills page under **Settings** > **Viva** > **Data Management**.
 
 2. Under **Custom Setup**, select **Begin custom setup**. 
    :::image type="content" source="media/people-skills-inferencing/custom-setup-selection.png" alt-text="Screenshot of the People Skills in organization page that displays selection of custom setup." lightbox="media/people-skills-inferencing/custom-setup-selection.png":::
