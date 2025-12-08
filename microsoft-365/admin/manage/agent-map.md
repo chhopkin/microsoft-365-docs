@@ -9,7 +9,8 @@ ms.custom:
   - ai-gen-description
 ms.reviewer: sericks
 ms.author: jenniferge
-ms.manager: tapanm
+manager: tapanm
+ms.service: microsoft-365-copilot
 ---
 
 # Use Agent Map in the Microsoft 365 admin center
@@ -24,8 +25,7 @@ The Agent Map serves as an interactive interface for viewing, organizing, and ma
 
 - Identify clusters.
 - Review agent metrics.
-- Access detailed information for each agent.
-    Detailed information that can be access for each agent include:
+- Access detailed information for each agent. Detailed information that can be accessed for each agent include:
   - Publisher.
   - Type.
   - Platform.
