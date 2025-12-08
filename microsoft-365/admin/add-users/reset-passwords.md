@@ -81,7 +81,7 @@ Self-service password reset is more efficient and less work for your organizatio
 
 ## Resend user password
   
-1. In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to **Users** > **Active users**.
 
 2. On the **Active users** page, select the user and then select **Reset password**.
 
@@ -115,7 +115,7 @@ If you forgot your password and can't sign in:
 
 These steps work for a business with tens of users. If you have hundreds or thousands of users, see the next section on resetting passwords in bulk (maximum 40 users at a time).
   
-1. In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to **Users** > **Active users**.
 
 2. Select the option next to **Display name** to select everyone in your business. Then unselect yourself. You can't reset your own password at the same time you reset everyone else's password.
 
@@ -129,8 +129,6 @@ These steps work for a business with tens of users. If you have hundreds or thou
 
 Use PowerShell! Check out this post by Eyal Doron: [Managing passwords with PowerShell](https://go.microsoft.com/fwlink/?linkid=853696).
   
-<!-- Here's a related article: [Set the passwords for multiple user accounts](/office365/enterprise/powershell/manage-office-365-with-office-365-powershell). -->
-
 For overview information, see [Manage Microsoft 365 with PowerShell](../../enterprise/manage-microsoft-365-with-microsoft-365-powershell.md).
   
 ## Force a password change for all users in your business
