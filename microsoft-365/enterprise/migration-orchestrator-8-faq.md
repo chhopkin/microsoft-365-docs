@@ -18,6 +18,9 @@ description: "Frequently asked question about Microsoft 365's migration orchestr
 
 # FAQ and troubleshooting
 
+> [!IMPORTANT]
+> Tenant-to-tenant migration is currently available in preview. Features and availability may change before general availability (GA).
+
 ## Cancellation
 
 If you start a migration and realize that you need to cancel it, you need to cancel it before the CompleteAfterDate passes. If the CompleteAfterDate is past and the mailbox is cutover, then the user data migration completes automatically with Teams chats and meetings. Once the migration completes, it's possible to move the user data back to the source.

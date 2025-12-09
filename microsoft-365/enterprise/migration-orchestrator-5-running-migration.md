@@ -18,6 +18,9 @@ description: "The steps for running a migration using the Microsoft 365 migratio
 
 # Running the migration
 
+> [!IMPORTANT]
+> Tenant-to-tenant migration is currently available in preview. Features and availability may change before general availability (GA).
+
 The migration is run by creating a migration job in the form of a batch. Users are grouped together into a batch and submitted together. Migrations are managed through Graph APIs. These APIs can be run with PowerShell 5 or 7, or with [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer#mode=canary).
 
 ## Understanding validation
