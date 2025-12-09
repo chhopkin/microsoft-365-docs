@@ -70,7 +70,7 @@ After the Teams chats, Teams meetings, and OneDrive sites migrate, the migration
 
 ## Understanding Migration Status and Errors
 
-For a breakdown of the meanings behind the statuses and errors, consult the appendix. XXX REMINDER TO LINK THIS SECTION TO TROUBLESHOOTING
+For a breakdown of the meanings behind the statuses and errors, see [Batch migration description values](#batch-migration-description-values).
 
 There's up to an hour-long delay between when updates are made to the group containing the authorized users for migration and when our system processes those changes. Allow for up to an hour to start the migration after changes are made to the group membership.
 
@@ -84,8 +84,28 @@ There are two ways to submit a validation batch.
 #### Option 1: Define request body
 
 ```powershell
-body = '{...}'
-<the ... there is the same text that exists today in the JSON body on the page under Migrating using PowerShell under (A)>
+body = '{
+  "displayName": "xtmigration1",
+  "completeAfterDateTime": "2024-12-09T22:48:03.092Z",
+  "sourceTenantId": "XXXXX-XXXXX-XXXXXX-XXXXXX",
+  "exchangeSettings": {
+    "targetDeliveryDomain": "DOMAIN.onmicrosoft.com",
+    "sourceEndpoint": "sampleEndpointText"
+  },
+  "resources": [
+    "XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX",
+    "XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX",
+    "XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX"
+  ],
+  "resourceType": "Users",
+  "workloads": [
+    "Teams",
+    "Exchange",
+    "ODSP",
+"Meeting"
+  ]
+}'
+under (A)>
 (code) Test-MgBetaCrossTenantMigrationJob -BodyParameter $body 
 ```
 
@@ -103,8 +123,27 @@ There are two ways to submit a validation batch.
 #### Option 1: Define request body
 
 ```powershell
-$body = '{...}'
-<the ... there is the same text that exists today in the JSON body on the page under Migrating using PowerShell under (A)>
+$body = '{
+  "displayName": "xtmigration1",
+  "completeAfterDateTime": "2024-12-09T22:48:03.092Z",
+  "sourceTenantId": "XXXXX-XXXXX-XXXXXX-XXXXXX",
+  "exchangeSettings": {
+    "targetDeliveryDomain": "DOMAIN.onmicrosoft.com",
+    "sourceEndpoint": "sampleEndpointText"
+  },
+  "resources": [
+    "XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX",
+    "XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX",
+    "XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX"
+  ],
+  "resourceType": "Users",
+  "workloads": [
+    "Teams",
+    "Exchange",
+    "ODSP",
+"Meeting"
+  ]
+}'
 New-MgBetaCrossTenantMigrationJob -BodyParameter $body 
 ```
 
