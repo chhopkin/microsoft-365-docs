@@ -45,7 +45,9 @@ Updates released between November 25, 2025, and December 9, 2025.
 
   **What changed:**
   
-  With the upgraded AI Video Creator in Microsoft 365 Copilot, use these new capabilities: 
+  With the upgraded AI Video Creator in Microsoft 365 Copilot, use these new capabilities:
+
+
   -  Transcript-based editing for greater control. 
   -  Access to your assets from OneDrive to update stock media. 
   -  Natural-sounding voiceovers for more authentic narration. 
@@ -53,13 +55,12 @@ Updates released between November 25, 2025, and December 9, 2025.
   -  A redesigned, scene-based structure for streamlined storytelling. 
   -  A cleaner editing experience for faster, intuitive workflows. 
 
-  **Why:**
-Video is a powerful medium, but creating professional-quality content is often time-consuming and technically challenging. This update removes roadblocks, so teams create compelling videos in a fraction of the time, using assets and brand elements they already have. 
+  **Why:** Video is a powerful medium, but creating professional-quality content is often time-consuming and technically challenging. This update removes roadblocks, so teams create compelling videos in a fraction of the time, using assets and brand elements they already have. 
 
   **Try this:**
 
 
-  - In Microsoft 365 Copilot, select Create and upload a Word, PDF, or PowerPoint file to generate your first video draft.
+  - In Microsoft 365 Copilot, select Create and upload a Word, PDF, or PowerPoint file to generate your first video   draft.
   - Click on a sentence in the transcript to cut or move sections without timeline complexity. 
   - Add your official colors from Brand Kit, and swap generic visuals with your OneDrive media for a branded look.
 
@@ -140,7 +141,8 @@ Action.Execute now supports inline editing for adaptive cards.
   **Why:**
 Custom apps will allow for unblocked rapid iteration.  
 
-  **Try this:** 
+  **Try this:**
+
 
   - While building a card, adjust field labels and actions inline instead of exporting and re-importing.  
 
@@ -201,7 +203,7 @@ Teams supports multiple SharePoint agents in a single group chat or channel.
 Experience richer scenarios where multiple libraries or sites provide simultaneous insights.  
 
   **Try this:**
-  
+
 
   - In your project channel, add two different SharePoint agents to get instant answers about separate libraries.  
 
@@ -265,7 +267,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
     ****Why:**** Improves cost governance and simplifies budgeting for large-scale Copilot deployments.  
 
-  ****Try this:****  
+  **Try this:**
 
 
   -  In Microsoft 365 admin center, purchase a Capacity Pack and monitor allocations in Power Platform admin center. 
@@ -293,7 +295,7 @@ Updates released between November 12, 2025, and November 25, 2025.
  
   ****Why:**** Helps maintain governance when employees leave roles or teams without disrupting workflows.  
 
-  ****Try this:****  
+  **Try this:**
 
 
   -  From admin center, select a shared agent > choose **Reassign Owner** > confirm access update.  
@@ -321,7 +323,7 @@ Updates released between November 12, 2025, and November 25, 2025.
  
   ****Why:**** Prevents accidental overexposure of sensitive workflows while allowing flexibility for approved agents.  
 
-  ****Try this:****  
+  **Try this:**
 
 
   -  In admin center, update **Sharing Settings** to limit org-wide agent links to specific roles or groups.  
@@ -347,10 +349,10 @@ Updates released between November 12, 2025, and November 25, 2025.
 
     ****Why:**** Supports diverse use cases—like executive briefings or quick-learning sessions—without extra editing work.  
 
-    ****Try this:****  
+    **Try this:**
 
-    
-    -  Type: *"Create an upbeat 2-minute audio summary focused on key sales drivers."*  
+
+  -  Type: *"Create an upbeat 2-minute audio summary focused on key sales drivers."*  
 
     **Why this matters:**  
 
@@ -377,8 +379,8 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   ****Why:**** Eliminates context gaps in team workflows and improves shared visibility on projects.  
 
-  ****Try this:****  
- 
+  **Try this:**
+
 
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
  
@@ -408,7 +410,7 @@ Updates released between November 12, 2025, and November 25, 2025.
  
   ****Why:**** Cuts down time spent filtering manually, especially in large file repositories.  
 
-  ****Try this:****  
+  **Try this:**
 
 
   -  In chat, search: *"Quarterly report"* → Filter by **Excel** and collaborator name.  
@@ -431,7 +433,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   ****Why:**** Professionals need faster, more intuitive ways to engage with AI during their flow of work, especially when multitasking or on the move. Voice removes friction, letting you work where typing isn't practical.
 
-  ****Try this:****
+  **Try this:**
 
 
   -  Say: *"Confirm the agenda and attendee list for my next meeting"*.
@@ -463,8 +465,8 @@ Updates released between November 12, 2025, and November 25, 2025.
   
   ****Why:**** Teams need consistent, personalized Copilot functionality no matter where they work. Bringing extensibility to mobile ensures employees stay productive and connected—even when away from their primary workstation. 
   
-  ****Try this:**** 
- 
+  **Try this:**
+
 
   -  Open the Microsoft 365 mobile app, launch Copilot, and activate one of your custom engine agents. 
   - **Ask Copilot:** *"Run our expense approval workflow and update me on pending approvals."* 
@@ -490,7 +492,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
     ****Why:**** Customers need a quicker, more intuitive way to explore and find agents. By reducing friction in discovery, you can deploy and extend Copilot solutions with less effort and greater confidence.  
 
-    ****Try this:****  
+    **Try this:**
 
 
   -  Start typing an agent name in the search bar to see type ahead suggestions instantly.  
@@ -516,8 +518,9 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
     ****Why:**** Provides admins with transparency over how agents are built, what they access, and by whom.  
 
-    ****Try this:****  
-    
+    **Try this:**
+
+
   -  Start agent inventory and filter by **Created By** or **Data Sources** to review compliance.  
 
     **Why this matters:**  
@@ -541,10 +544,10 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
   ****Why:**** Workers increasingly use mobile as their primary device for timely communication and task management. Extending message-based workflows to mobile keeps teams efficient and responsive. 
 
-  ****Try this:**** 
-  
-    
-    -  In a Teams chat on your mobile app, use Copilot to insert a dynamic update from a connected app with a message extension. 
+  **Try this:**
+
+
+  -  In a Teams chat on your mobile app, use Copilot to insert a dynamic update from a connected app with a message extension. 
 
     -  **Ask Copilot:** *"Insert the latest sales figures into this conversation using our message extension agent."* 
 
@@ -571,7 +574,7 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
   ****Why:**** Helps admins ensure security and compliance while reducing friction in agent approval workflows.
 
-  ****Try this:****
+  **Try this:**
 
 
   -  Go to the Permissions tab in Microsoft 365 admin center to review and approve agent permissions.
@@ -600,7 +603,7 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
   ****Why:**** This strengthens governance, prevents agent sprawl, and supports safe adoption at scale.
 
-  ****Try this:****   
+  **Try this:**
 
 
   -  In Microsoft 365 admin center, go to Agents > Settings > Sharing and configure who can share agent links that work for anyone in the organization. 
@@ -636,7 +639,7 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
   ****Why:**** Ensures your presentations reflect the latest collaborative content without manual copy-paste.  
 
-  ****Try this:****  
+  **Try this:**
 
 
   -  **Ask Copilot:** *"Create a status update deck using the project details from our Loop page."*  
@@ -669,13 +672,12 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
     Improves efficiency and accuracy in managing large SharePoint environments.  
 
-    ****Try this:****
-   
+    **Try this:**
 
-    **Ask Copilot:** *"Find all inactive sites over 60 days shared externally."*  
 
-    **Prompt:** *"Show me steps to reduce permissions for over-shared sites."*  
-
+    -  **Ask Copilot:** *"Find all inactive sites over 60 days shared externally."*
+    -  **Prompt:** *"Show me steps to reduce permissions for over-shared sites."* 
+    
     **Why this matters:**  
 
     **Business Impact:** Reduces security risk and speeds workload management.  
@@ -4208,8 +4210,8 @@ Updates released between November 12, 2025, and November 25, 2025.
   
   Helps maintain governance when employees leave roles or teams without disrupting workflows.  
 
-  ****Try this:****
-  
+  **Try this:**
+
 
   -  From admin center, select a shared agent > choose **Reassign Owner** > confirm access update.  
 
@@ -4244,8 +4246,8 @@ Updates released between November 12, 2025, and November 25, 2025.
   ****Why:**** Eliminates context gaps in team workflows and improves shared visibility on projects.  
 
   **Try this:**
-  
- 
+
+
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
  
   - Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox ."*
@@ -4282,7 +4284,7 @@ Updates released between November 12, 2025, and November 25, 2025.
   Cuts down time spent filtering manually, especially in large file repositories.  
 
   **Try this:**
-  
+
 
   -  In chat, search: *"Quarterly report"* → Filter by **Excel** and collaborator name.  
 
@@ -4317,9 +4319,7 @@ Voice   removes friction, letting you work where typing isn't practical.
   
 
   -  Say: *"Confirm the agenda and attendee list for my next meeting"*.
-
   -  Try:  *"Create a quick list of next steps from my recent meeting notes."*
-
   -  Ask: *"Summarize this document in five key points."*
 
   **Why this Matters:**
@@ -4357,10 +4357,9 @@ Voice   removes friction, letting you work where typing isn't practical.
     Customers need a quicker, more intuitive way to explore and find agents. By reducing friction in discovery, you can deploy and extend Copilot solutions with less effort and greater confidence.  
 
     **Try this:**
-  
+
 
   -  Start typing an agent name in the search bar to see type ahead suggestions instantly.  
-    
   -  Use the new full results page for a complete view of matching agents.  
 
   **Why this matters:**  
@@ -4390,7 +4389,7 @@ Voice   removes friction, letting you work where typing isn't practical.
   Helps admins ensure security and compliance while reducing friction in agent approval workflows.
 
   **Try this:**
-  
+
 
   -  Go to the Permissions tab in Microsoft 365 admin center to review and approve agent permissions.
 
@@ -4432,7 +4431,7 @@ When building a presentation with Copilot, you can now pull in content from Loop
 
   **Try this:**  
   
-
+  
   -  **Ask Copilot:** *"Create a status update deck using the project details from our Loop page."*  
 
   **Why this matters:**  
@@ -6173,7 +6172,7 @@ You can see more available custom engine agents across key Microsoft 365 surface
 Power users and developers can experience reduced fragmentation and improved workflow consistency.
 
   **Try this:**
-  
+
 
   - In Outlook, activate a custom agent for summarizing incoming correspondence based on enterprise policies.
 
@@ -6193,11 +6192,10 @@ Power users and developers can experience reduced fragmentation and improved wor
 What changed:
 Enforce protections accurately with a richer visualization of security posture for agents.  
 
-  **Why:**
-Creators are empowered to manage compliance and proactively minimize risks.  
+  **Why:** Creators are empowered to manage compliance and proactively minimize risks.  
 
   **Try this:**
-  
+
 
   - In Copilot Studio, check the security summary for your agent and apply suggested actions to meet policy.  
 
@@ -6229,8 +6227,8 @@ Teams supports multiple SharePoint agents in a single group chat or channel.
 Experience richer scenarios where multiple libraries or sites provide simultaneous insights.  
 
   **Try this:**
-  
-  
+
+
   - In your project channel, add two different SharePoint agents to get instant answers about separate libraries.  
 
   **Why this matters:**
@@ -6296,7 +6294,7 @@ Updates released between November 12, 2025, and November 25, 2025.
   Helps maintain governance when employees leave roles or teams without disrupting workflows.  
 
   **Try this:**
-  
+
 
   -  From admin center, select a shared agent > choose **Reassign Owner** > confirm access update.  
 
@@ -6333,7 +6331,7 @@ Updates released between November 12, 2025, and November 25, 2025.
   Prevents accidental overexposure of sensitive workflows while allowing flexibility for approved agents.  
 
   **Try this:**
-  
+
 
   -  In admin center, update **Sharing Settings** to limit org-wide agent links to specific roles or groups.  
 
@@ -6366,19 +6364,15 @@ Updates released between November 12, 2025, and November 25, 2025.
     Supports diverse use cases—like executive briefings or quick-learning sessions—without extra editing work.  
 
     **Try this:**
-  
 
-    -  Type: *"Create an upbeat 2-minute audio summary focused on key sales drivers."*  
+
+  -  Type: *"Create an upbeat 2-minute audio summary focused on key sales drivers."*  
 
     **Why this matters:**  
 
-    **Business Impact:** 
-    
-    Enhances the value of notebooks for communication and leadership updates.  
+    **Business Impact:** Enhances the value of notebooks for communication and leadership updates.  
 
-    **Personal Impact:** 
-    
-    Saves time creating engaging summaries without additional tools.  
+    **Personal Impact:** Saves time creating engaging summaries without additional tools.  
 
     **Additional Resources:**
   
@@ -6401,21 +6395,16 @@ Updates released between November 12, 2025, and November 25, 2025.
   ****Why:**** Eliminates context gaps in team workflows and improves shared visibility on projects.  
 
   **Try this:**
-  
- 
+
+
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
- 
   - Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox ."*
 
   **Why this matters:**  
 
-  **Business Impact:** 
-  
-  Ensures customer responses or project updates aren't missed when responsibility spans multiple team members.  
+  **Business Impact:** Ensures customer responses or project updates aren't missed when responsibility spans multiple team members.  
 
-  **Personal Impact:** 
-  
-  Reduces copying and manual email checks across shared accounts—Copilot does it for you.
+  **Personal Impact:** Reduces copying and manual email checks across shared accounts—Copilot does it for you.
  
   **Additional Resources:**
 
@@ -6439,19 +6428,15 @@ Updates released between November 12, 2025, and November 25, 2025.
   Cuts down time spent filtering manually, especially in large file repositories.  
 
   **Try this:**
-  
+
 
   -  In chat, search: *"Quarterly report"* → Filter by **Excel** and collaborator name.  
 
   **Why this matters:**  
  
-  **Business Impact:** 
-  
-  Improves productivity and reduces meeting prep time.  
+  **Business Impact:** Improves productivity and reduces meeting prep time.  
  
-  **Personal Impact:** 
-  
-  Less frustration—find what you need in seconds.
+  **Personal Impact:** Less frustration—find what you need in seconds.
 
 - **Talk to Copilot with voice for faster hands-free work** [Android, Windows, iOS, Mac, Web]
 
@@ -6471,12 +6456,10 @@ Updates released between November 12, 2025, and November 25, 2025.
 Voice   removes friction, letting you work where typing isn't practical.
 
   **Try this:**
-  
+
 
   -  Say: *"Confirm the agenda and attendee list for my next meeting"*.
-
   -  Try:  *"Create a quick list of next steps from my recent meeting notes."*
-
   -  Ask: *"Summarize this document in five key points."*
 
   **Why this Matters:**
@@ -6512,7 +6495,7 @@ Voice   removes friction, letting you work where typing isn't practical.
     Customers need a quicker, more intuitive way to explore and find agents. By reducing friction in discovery, you can deploy and extend Copilot solutions with less effort and greater confidence.  
 
     **Try this:**
-  
+
 
   -  Start typing an agent name in the search bar to see type ahead suggestions instantly.  
     
@@ -6544,19 +6527,15 @@ Voice   removes friction, letting you work where typing isn't practical.
     Provides admins with transparency over how agents are built, what they access, and by whom.  
 
     **Try this:**
-  
-    
+
+
   -  Start agent inventory and filter by **Created By** or **Data Sources** to review compliance.  
 
     **Why this matters:**  
 
-    **Business Impact:** 
-    
-    Strengthens governance for AI usage across the organization.  
+    **Business Impact:** Strengthens governance for AI usage across the organization.  
 
-    **Personal Impact:** 
-    
-    Saves admins from chasing multiple tools for visibility—everything is in one export.
+    **Personal Impact:** Saves admins from chasing multiple tools for visibility—everything is in one export.
 
   **Additional Resources:**
 
@@ -6581,7 +6560,7 @@ Voice   removes friction, letting you work where typing isn't practical.
   Helps admins ensure security and compliance while reducing friction in agent approval workflows.
 
   **Try this:**
-  
+
 
   -  Go to the Permissions tab in Microsoft 365 admin center to review and approve agent permissions.
 
@@ -6589,13 +6568,9 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Why This Matters:**
 
-  **Business Impact:** 
-  
-  Strengthens compliance and governance while accelerating agent deployment.
+  **Business Impact:** Strengthens compliance and governance while accelerating agent deployment.
 
-  **Personal Impact:** 
-  
-  Simplifies decision-making for IT teams, saving hours of manual checks.
+  **Personal Impact:** Simplifies decision-making for IT teams, saving hours of manual checks.
 
   **Additional Resources:**
 
@@ -6614,19 +6589,15 @@ Voice   removes friction, letting you work where typing isn't practical.
   ****Why:**** This strengthens governance, prevents agent sprawl, and supports safe adoption at scale.
 
   **Try this:**
-   
+
 
   -  In Microsoft 365 admin center, go to Agents > Settings > Sharing and configure who can share agent links that work for anyone in the organization. 
 
   **Why this matters:**  
 
-  **Business Impact:** 
+  **Business Impact:** Strengthens governance, prevents oversharing, and supports compliance as agent adoption needs evolve.   
 
-  Strengthens governance, prevents oversharing, and supports compliance as agent adoption needs evolve.   
-
-  **Personal Impact:** 
-
-  Gives admins confidence and transparency when scaling adoption. Makers receive clear guidance on enforced admin sharing policies
+  **Personal Impact:** Gives admins confidence and transparency when scaling adoption. Makers receive clear guidance on enforced admin sharing policies
 
   **Additional Resources:** 
 
@@ -6659,25 +6630,21 @@ When building a presentation with Copilot, you can now pull in content from Loop
 
   **Try this:**  
   
-
+  
   -  **Ask Copilot:** *"Create a status update deck using the project details from our Loop page."*  
 
   **Why this matters:**  
 
-  **Business Impact:** 
+  **Business Impact:** Align updates across teams without tedious content migration.  
 
-  Align updates across teams without tedious content migration.  
-
-   **Personal Impact:** 
-
-  Save time by reusing the content you already co-created, in just one step.
+   **Personal Impact:** Save time by reusing the content you already co-created, in just one step.
 
   ****Details:****  
   - **What changed:** Copilot for PowerPoint supports referencing Loop components and pages across PC, Mac, and web.  
   - ****Why:**** Ensures your presentations reflect the latest collaborative content without manual copy-paste.  
   
   **Try this:**  
-
+  
   
   - **Ask Copilot:** *"Create a status update deck using the project details from our Loop page."*  
 
@@ -6708,21 +6675,16 @@ When building a presentation with Copilot, you can now pull in content from Loop
     Improves efficiency and accuracy in managing large SharePoint environments.  
 
     **Try this:**
-   
+
 
     **Ask Copilot:** *"Find all inactive sites over 60 days shared externally."*  
-
     **Prompt:** *"Show me steps to reduce permissions for over-shared sites."*  
 
     **Why this matters:**  
 
-    **Business Impact:** 
+    **Business Impact:** Reduces security risk and speeds workload management.  
 
-    Reduces security risk and speeds workload management.  
-
-    **Personal Impact:** 
-
-    Saves admins hours of navigating settings—answers are instant.  
+    **Personal Impact:** Saves admins hours of navigating settings—answers are instant.  
 
     **Additional Resources:**
 
@@ -9133,21 +9095,16 @@ Updates released between November 12, 2025, and November 25, 2025.
   ****Why:**** Eliminates context gaps in team workflows and improves shared visibility on projects.  
 
   **Try this:**
-  
- 
-  -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
- 
+
+
+  - Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
   - Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox ."*
 
   **Why this matters:**  
 
-  **Business Impact:** 
-  
-  Ensures customer responses or project updates aren't missed when responsibility spans multiple team members.  
+  **Business Impact:** Ensures customer responses or project updates aren't missed when responsibility spans multiple team members.  
 
-  **Personal Impact:** 
-  
-  Reduces copying and manual email checks across shared accounts—Copilot does it for you.
+  **Personal Impact:** Reduces copying and manual email checks across shared accounts—Copilot does it for you.
  
   **Additional Resources:**
 
@@ -9172,12 +9129,10 @@ Updates released between November 12, 2025, and November 25, 2025.
 Voice   removes friction, letting you work where typing isn't practical.
 
   **Try this:**
-  
+
 
   -  Say: *"Confirm the agenda and attendee list for my next meeting"*.
-
   -  Try:  *"Create a quick list of next steps from my recent meeting notes."*
-
   -  Ask: *"Summarize this document in five key points."*
 
   **Why this Matters:**
@@ -9207,8 +9162,8 @@ Voice   removes friction, letting you work where typing isn't practical.
   ****Why:**** Teams need consistent, personalized Copilot functionality no matter where they work. Bringing extensibility to mobile ensures employees stay productive and connected—even when away from their primary workstation. 
   
   **Try this:**
-  
- 
+
+
   -  Open the Microsoft 365 mobile app, launch Copilot, and activate one of your custom engine agents. 
   - **Ask Copilot:** *"Run our expense approval workflow and update me on pending approvals."* 
   
@@ -9236,19 +9191,18 @@ Voice   removes friction, letting you work where typing isn't practical.
   Workers increasingly use mobile as their primary device for timely communication and task management. Extending message-based workflows to mobile keeps teams efficient and responsive. 
 
   **Try this:**
-  
-  
-    -  In a Teams chat on your mobile app, use Copilot to insert a dynamic update from a connected app with a message extension. 
 
-    -  **Ask Copilot:***"Insert the latest sales figures into this conversation using our message extension agent."* 
+
+  -  In a Teams chat on your mobile app, use Copilot to insert a dynamic update from a connected app with a message extension.
+
+    
+  -  **Ask Copilot:***"Insert the latest sales figures into this conversation using our message extension agent."* 
 
   **Why this matters:** 
 
-  **Business Impact:** 
-  Maintain seamless workflows across devices, ensuring real-time communication and agility for distributed teams. 
+  **Business Impact:** Maintain seamless workflows across devices, ensuring real-time communication and agility for distributed teams. 
 
-  **Personal Impact:** 
-  Eliminate the frustration of being restricted to desktop for advanced actions—get the information and tools you need on the go. 
+  **Personal Impact:** Eliminate the frustration of being restricted to desktop for advanced actions—get the information and tools you need on the go. 
 
   **Additional Resources:**
 
@@ -9270,6 +9224,7 @@ Updates released between October 28, 2025, and November 12, 2025.
   Quickly find meetings based on RSVP status—either your own or others'. This feature helps you stay organized by surfacing RSVP details for upcoming events, so you can track commitments and follow up with attendees.
 
   **Try this:** 
+  
   
   Open Microsoft 365 Chat. Enter queries like:
 
@@ -9742,21 +9697,16 @@ Updates released between November 12, 2025, and November 25, 2025.
   ****Why:**** Eliminates context gaps in team workflows and improves shared visibility on projects.  
 
   **Try this:**
-  
- 
+
+
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
- 
   - Tell Copilot: *"List all the emails around  `topic` from < mailbox@domain.com > mailbox ."*
 
   **Why this matters:**  
 
-  **Business Impact:** 
-  
-  Ensures customer responses or project updates aren't missed when responsibility spans multiple team members.  
+  **Business Impact:** Ensures customer responses or project updates aren't missed when responsibility spans multiple team members.  
 
-  **Personal Impact:** 
-  
-  Reduces copying and manual email checks across shared accounts—Copilot does it for you.
+  **Personal Impact:** Reduces copying and manual email checks across shared accounts—Copilot does it for you.
  
   **Additional Resources:**
 
@@ -9781,23 +9731,17 @@ Updates released between November 12, 2025, and November 25, 2025.
 Voice   removes friction, letting you work where typing isn't practical.
 
   **Try this:**
-  
+
 
   -  Say: *"Confirm the agenda and attendee list for my next meeting"*.
-
   -  Try:  *"Create a quick list of next steps from my recent meeting notes."*
-
   -  Ask: *"Summarize this document in five key points."*
 
   **Why this Matters:**
 
-  **Business Impact:** 
-  
-  Voice drives productivity and inclusivity through natural interactions that increase engagement, accelerate task completion and reduce downtime.
+  **Business Impact:** Voice drives productivity and inclusivity through natural interactions that increase engagement, accelerate task completion and reduce downtime.
 
-  **Personal Impact:** 
-  
-  Work more comfortably and naturally while saving time, gaining efficiency and giving you the flexibility to use Copilot on the go or at your desk.
+  **Personal Impact:** Work more comfortably and naturally while saving time, gaining efficiency and giving you the flexibility to use Copilot on the go or at your desk.
 
   **Additional Resources:**
 
@@ -9816,8 +9760,8 @@ Voice   removes friction, letting you work where typing isn't practical.
   ****Why:**** Teams need consistent, personalized Copilot functionality no matter where they work. Bringing extensibility to mobile ensures employees stay productive and connected—even when away from their primary workstation. 
   
   **Try this:**
-  
- 
+
+
   -  Open the Microsoft 365 mobile app, launch Copilot, and activate one of your custom engine agents. 
   - **Ask Copilot:** *"Run our expense approval workflow and update me on pending approvals."* 
   
@@ -9845,19 +9789,16 @@ Voice   removes friction, letting you work where typing isn't practical.
   Workers increasingly use mobile as their primary device for timely communication and task management. Extending message-based workflows to mobile keeps teams efficient and responsive. 
 
   **Try this:**
-  
-  
-    -  In a Teams chat on your mobile app, use Copilot to insert a dynamic update from a connected app with a message extension. 
 
-    -  **Ask Copilot:** *"Insert the latest sales figures into this conversation using our message extension agent."* 
+
+  -  In a Teams chat on your mobile app, use Copilot to insert a dynamic update from a connected app with a message extension.
+  -  **Ask Copilot:** *"Insert the latest sales figures into this conversation using our message extension agent."* 
 
   **Why this matters:** 
 
-  **Business Impact:** 
-  Maintain seamless workflows across devices, ensuring real-time communication and agility for distributed teams. 
+  **Business Impact:** Maintain seamless workflows across devices, ensuring real-time communication and agility for distributed teams. 
 
-  **Personal Impact:** 
-  Eliminate the frustration of being restricted to desktop for advanced actions—get the information and tools you need on the go. 
+  **Personal Impact:** Eliminate the frustration of being restricted to desktop for advanced actions—get the information and tools you need on the go. 
 
   **Additional Resources:**
 
@@ -10622,20 +10563,16 @@ Updates released between November 12, 2025, and November 25, 2025.
     Improves cost governance and simplifies budgeting for large-scale Copilot deployments.  
 
   **Try this:**
-  
+
 
   -  In Microsoft 365 admin center, purchase a Capacity Pack and monitor allocations in Power Platform admin center. 
 
 
     **Why this matters:**  
 
-    **Business Impact:** 
-    
-    Predicts and controls Copilot spend with flexible prepaid options.  
+    **Business Impact:** Predicts and controls Copilot spend with flexible prepaid options.  
 
-    **Personal Impact:** 
-    
-    Gives admins peace of mind with transparent, upfront budgeting.  
+    **Personal Impact:** Gives admins peace of mind with transparent, upfront budgeting.  
 
     **Additional Resources:**
   
@@ -10660,21 +10597,16 @@ Updates released between November 12, 2025, and November 25, 2025.
   ****Why:**** Eliminates context gaps in team workflows and improves shared visibility on projects.  
 
   **Try this:**
-  
- 
+
+
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
- 
-  - Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox ."*
+  -  Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox ."*
 
   **Why this matters:**  
 
-  **Business Impact:** 
-  
-  Ensures customer responses or project updates aren't missed when responsibility spans multiple team members.  
+  **Business Impact:** Ensures customer responses or project updates aren't missed when responsibility spans multiple team members.  
 
-  **Personal Impact:** 
-  
-  Reduces copying and manual email checks across shared accounts—Copilot does it for you.
+  **Personal Impact:** Reduces copying and manual email checks across shared accounts—Copilot does it for you.
  
   **Additional Resources:**
 
@@ -10699,23 +10631,17 @@ Updates released between November 12, 2025, and November 25, 2025.
 Voice   removes friction, letting you work where typing isn't practical.
 
   **Try this:**
-  
+
 
   -  Say: *"Confirm the agenda and attendee list for my next meeting"*.
-
   -  Try:  *"Create a quick list of next steps from my recent meeting notes."*
-
   -  Ask: *"Summarize this document in five key points."*
 
   **Why this Matters:**
 
-  **Business Impact:** 
-  
-  Voice drives productivity and inclusivity through natural interactions that increase engagement, accelerate task completion and reduce downtime.
+  **Business Impact:** Voice drives productivity and inclusivity through natural interactions that increase engagement, accelerate task completion and reduce downtime.
 
-  **Personal Impact:** 
-  
-  Work more comfortably and naturally while saving time, gaining efficiency and giving you the flexibility to use Copilot on the go or at your desk.
+  **Personal Impact:** Work more comfortably and naturally while saving time, gaining efficiency and giving you the flexibility to use Copilot on the go or at your desk.
 
   **Additional Resources:**
 
@@ -10741,18 +10667,14 @@ When building a presentation with Copilot, you can now pull in content from Loop
 
   **Try this:**  
   
-
+  
   -  **Ask Copilot:** *"Create a status update deck using the project details from our Loop page."*  
 
   **Why this matters:**  
 
-  **Business Impact:** 
+  **Business Impact:** Align updates across teams without tedious content migration.  
 
-  Align updates across teams without tedious content migration.  
-
-   **Personal Impact:** 
-
-  Save time by reusing the content you already co-created, in just one step.
+   **Personal Impact:** Save time by reusing the content you already co-created, in just one step.
 
 <!-- 103496,100875,100679 -->
 ## November 12, 2025
@@ -11707,4 +11629,5 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
