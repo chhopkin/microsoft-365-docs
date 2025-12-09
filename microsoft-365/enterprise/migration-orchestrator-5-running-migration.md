@@ -40,7 +40,7 @@ Admins can review the list for any failures, fix any issues, and resubmit using 
 When you submit the migration, we do another check of all of the prerequisites, but we don't return a list of the failures per workload.
 
 > [!NOTE]
-> For a list of the different stages and descriptions of batch migration processing, see [Understanding validation](#understanding-validation).
+> For a list of the different stages and descriptions of batch migration processing, see [Batch migration description values](#batch-migration-description-values).
 
 ## Understanding the migration process
 
@@ -80,30 +80,76 @@ There's up to an hour-long delay between when updates are made to the group cont
 
 This feature allows you to submit a batch of users to validate that the prerequisites are met before submitting a migration. It does **not** actually submit the migration. It creates a batch that runs once in the validation context. Getting information about this batch via [Retrieve a specific batch](#retrieve-a-specific-batch) returns a full list of results on the checks it ran. Any failures need to be addressed in order for a successful migration later. Each batch you submit needs to have a unique name. Users can only belong to one active batch at one time.
 
+There are two ways to submit a validation batch.
+#### Option 1: Define request body
+
+```powershell
+body = '{...}'
+<the ... there is the same text that exists today in the JSON body on the page under Migrating using PowerShell under (A)>
+(code) Test-MgBetaCrossTenantMigrationJob -BodyParameter $body 
+```
+
+#### Option 2: Use parameters
+```powershell
+Test-MgBetaCrossTenantMigrationJob -DisplayName "xtmigration1" -CompleteAfterDateTime 2024-12-09T22:48:03.092Z -Resources @("XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX","XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX", "XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX") -ResourceType Users -SourceTenantId XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX -ExchangeSettings @{SourceEndpoint = "sampleEndpointText"; TargetDeliveryDomain = "DOMAIN.onmicrosoft.com"} 
+```
+
 ### Submit a batch for migration
 
 This feature allows you to submit a batch of users to begin their migration. We recommend running [Submit a batch for validation](#submit-a-batch-for-validation) first to confirm that all prerequisites are in-place. Each batch you submit needs to have a unique name. Users can only belong to one active batch at one time.
+
+
+There are two ways to submit a validation batch.
+#### Option 1: Define request body
+
+```powershell
+$body = '{...}'
+<the ... there is the same text that exists today in the JSON body on the page under Migrating using PowerShell under (A)>
+New-MgBetaCrossTenantMigrationJob -BodyParameter $body 
+```
+
+#### Option 2: Use parameters
+
+```powershell
+
+New-MgBetaCrossTenantMigrationJob -DisplayName "xtmigration1" -CompleteAfterDateTime 2024-12-09T22:48:03.092Z -Resources @("XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX","XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX", "XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX") -ResourceType Users -SourceTenantId XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX -ExchangeSettings @{SourceEndpoint = "sampleEndpointText"; TargetDeliveryDomain = "DOMAIN.onmicrosoft.com"} 
+```
 
 ### Retrieve all batches
 
 This feature allows you to see all submitted batches. You see both validation and migration batches. It shows active and past migrations.
 
+```powershell
+Get-MgBetaCrossTenantMigrationJob
+```
+By default, the 20 most recent results will appear. To access more, run the command with the parameter **-All**.
+
 ### Retrieve a specific batch
 
 This feature allows you to receive information about a specific batch and its properties.
+
+```powershell
+Get-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id>
+```
+By default, the 20 most recent results will appear. To access more, run the command with the parameter (code) **-All**.
 
 ### Retrieve user status within a specific batch
 
 This feature allows you to receive information about the users within a specific batch. You see the state for each of the workloads. This information includes:
 
-- Validation
-- Teams
-- Exchange
-- Meetings
+- Exchange 
+- Teams Chats
+- Teams Meetings
+- OneDrive
+
+```powershell
+Get-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> -CrossTenantMigrationTaskId  <ExternalDirectoryObjectIds for the target users> 
+```
+By default, the 20 most recent results will appear. To access more, run the command with the parameter **-All**.
 
 ### Update the complete after date for a specific batch
 
-This feature allows you to change the complete after date. Moving the date pushes the earliest date at which the cutovers for mailboxes occur and when the Teams chat and meetings migration begin.
+This feature allows you to change the complete after date. Moving the date pushes the earliest date at which the cutovers for mailboxes occur and when the Teams chat and meeting and OneDrive migration begins.
 
 ### Cancel a batch
 
@@ -112,6 +158,10 @@ This feature allows you to cancel an entire batch and all of its users' migratio
 ### Remove a user from a batch and cancel that user's migration
 
 This feature allows you to cancel a single user's migration by removing them from that batch. It needs to be run multiple times if multiple users need to be removed. The remaining users in the batch are unaffected. This state is only possible before the user's mailbox has cutover, at which point the user can't be removed.
+
+```powershell
+Stop-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> -CrossTenantMigrationTaskId  <ExternalDirectoryObjectIds for the target user> 
+```
 
 If the removal is successful, you see a 202 Accepted request with the response:
 
@@ -142,6 +192,11 @@ If the removal is unsuccessful, here are the possible responses:
 ### Delete batch data
 
 This feature allows you to delete the data associated with a batch from the migration system. It deletes the data within 30 days of the request.
+
+```powershell
+Remove-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> 
+```
+Only batches in a terminal state can be cancelled. Either cancel the batch, or wait for all users to reach a terminal state of Cancelled, Failed, or Completed.
 
 > [!NOTE]
 > Deleting batch data affects future migrations the batch would inform. We don't recommend deleting batch data until the entire migration completes.
@@ -174,9 +229,9 @@ There are many parameters that must be provided in a specific format for the mig
   - `Connect-Graph`
 4.	Confirm you're in the right tenant:
   - `Get-MgContext`
-5. 5.	For any further cmdlets, use this URL prefix: [https://graph.microsoft.com/beta/solutions/migrations/crossTenantMigrationJobs](https://graph.microsoft.com/beta/solutions/migrations/crossTenantMigrationJobs).
 
-### A: Submit a validation batch
+
+### A: Submit a validation batch 0o5c
 
 1.	In a basic text editor, like Notepad, save the text in the following format as a .json file for the batch you want to submit. Make sure you paste as plain text.
 
@@ -331,6 +386,13 @@ The response is 202 if the cancelation's accepted. The message reads "cancelatio
 
 The response is 409 if the cancelation isn't accepted. Migrations continue with this response.
 
+A batch can only be cancelled before the **Complete After Date** has passed. After this point, the migration will continue without cancellation.
+
+```powershell
+Stop-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> 
+```
+
+
 ### H: Remove a user from a batch
 
 `Invoke-MgGraphRequest -Method POST https://graph.microsoft.com/beta/solutions/migrations/crosstenantmigrationjobs/BatchID/users/UserID/cancel`
@@ -342,7 +404,7 @@ If the removal is successful, you see a 202 Accepted request with the response: 
 If a removal is unsuccessful (other than in an invalid user state), the user continues belonging to the batch and is migrated.
 
 
-## Understanding validation
+## Batch migration description values
 
 Use the following table to understand the validation and migration flows and status values:
 
