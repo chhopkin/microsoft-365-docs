@@ -18,6 +18,9 @@ description: "How individual users experience the results of using Microsoft 365
 
 # End-user experience
 
+> [!IMPORTANT]
+> Tenant-to-tenant migration is currently available in preview. Features and availability may change before general availability (GA).
+
 ## Exchange
 
 Target users can access and interact with all content that was in their mailbox in the source tenant. Users can, for instance, reply to emails that they received while the mailbox was in the source tenant via their target tenant user profile.

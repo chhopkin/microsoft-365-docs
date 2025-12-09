@@ -18,6 +18,9 @@ description: "Discover the configuration requirements for Microsoft 365 migratio
 
 # Configuring source and target tenants
 
+> [!IMPORTANT]
+> Tenant-to-tenant migration is currently available in preview. Features and availability may change before general availability (GA).
+
 ## Prerequisites for source and target tenants
 
 This article walks through all steps of preparing the tenants and users for a successful migration. Here are some other requirements we don't provide explicit steps for:

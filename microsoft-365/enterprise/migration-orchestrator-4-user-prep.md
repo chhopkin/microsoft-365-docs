@@ -18,6 +18,9 @@ description: "Users need preparation before a cross-tenant migration. This artic
 
 # Preparing users for migration
 
+> [!IMPORTANT]
+> Tenant-to-tenant migration is currently available in preview. Features and availability may change before general availability (GA).
+
 Preparing users is a necessary step for migration. The Cross-Tenant User Data Migration product requires that source user objects and target user objects exist. The source users are users in the source tenant whose content is migrated. The target users are the destination users into which the content from the source is migrated. Users must be created properly and mapped before the migration can take place.
 
 > [!IMPORTANT]

@@ -18,7 +18,10 @@ description: "A planning and prerequisites article for Microsoft 365 migration o
 
 # Planning and prerequisites
 
-This article covers both planning and prerequisites for Microsoft 365 migration orchestrator. 
+> [!IMPORTANT]
+> Tenant-to-tenant migration is currently available in preview. Features and availability may change before general availability (GA).
+
+This article covers both planning and prerequisites for Microsoft 365 migration orchestrator.
 
 ## Best Practices for Running Migration
 
