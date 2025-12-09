@@ -246,7 +246,7 @@ Below is some general guidance for creating policies:
 
 **For pilots**
 
-Use People Skills User Experiences control to disable the entire tenant and enable only for the pilot user group 
+- Use People Skills User Experiences control to disable the entire tenant and enable only for the pilot user group 
 
 - Maintain compliance through explicit opt in defaults.
 
