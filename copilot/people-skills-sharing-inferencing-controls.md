@@ -74,7 +74,7 @@ See below visual diagram for an illustration of the relationships between the co
 
 ![User's image](media/people-skills-sharing-inferencing-controls/image1.png)
 
-## Managing the People Skills user experiences control
+## Manage the People Skills user experiences control
 
 As an Admin, you can use the __People Skills user experiences__ control to turn off People Skills user experiences for your entire organization, user group subsets, or individual users. This is the highest-level parent control – it disables all People Skills user experiences entirely for selected users and will also override and replace the access settings of all other controls. 
 
