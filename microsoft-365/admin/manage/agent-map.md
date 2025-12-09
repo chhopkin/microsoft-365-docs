@@ -46,20 +46,19 @@ To access the Agent Map, sign in to the Microsoft 365 admin center and go to **A
 
 ### Clustering
 
-By default, the Agent Map clusters agents by platform, such as Copilot Studio Light, Microsoft Corporation, and others. This clustering helps you quickly see how agents are distributed across platforms. To identify the agent's platform, the Agent Map uses the **builderInfo** field on the agent.
+By default, the Agent Map clusters agents by platform, such as Copilot Studio (lite), Microsoft Corporation, and others. This clustering helps you quickly see how agents are distributed across platforms.
 
 The following clusters appear on the Agent Map:
 
-- Teams: 'TeamsToolKit'
-- Copilot Studio Lite: 'EmbeddedCopilotStudio'
-- Copilot Studio (full): 'CopilotStudio'
-- CopilotStudioFamily: 'CopilotStudioFamily'
-- SharePoint: 'SharePoint'
-- Others: null or any other value
+- Copilot Studio (lite)
+- Copilot Studio (full)
+- Microsoft 365 Agents Toolkit
+- Microsoft Corporation
+- Others
 
 ### Filtering agents
 
-You can filter the Agent Map by platform, publisher, and metrics such as blocked agents. Apply or remove filters to refine the visualization. For example, selecting **Copilot Studio Light** displays only those agents, while blocked agent filters show all agents with restricted status.
+You can filter the Agent Map by platform, publisher, and metrics such as blocked agents. Apply or remove filters to refine the visualization. For example, selecting **Copilot Studio (lite)** displays only those agents, while blocked agent filters show all agents with restricted status.
 
 ## Interface features
 
