@@ -4,7 +4,7 @@ ms.author: kwekua
 author: kwekuako
 ms.update-cycle: 180-days
 manager: scotv
-ms.date: 09/18/2025
+ms.date: 12/09/2025
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-copilot
