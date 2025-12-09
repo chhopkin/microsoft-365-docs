@@ -51,7 +51,7 @@ In addition, Anthropic models are not available in government clouds (GCC, GCC H
 If your organization is in a region that has Anthropic as a subprocessor set to **Off** by default, you can choose to opt-in so Anthropic's models are available for your organization. You must be a member of the global administrator role to perform this task. For more information, see [About admin roles](https://learn.microsoft.com) and [Global administrator](/entra/identity/role-based-access-control/permissions-reference).
 
 1. Go to the Microsoft 365 admin center and select **Copilot** -\> **Settings**.
-2. On the **User access** page, select **AI providers operating as Microsoft subprocessors**.
+2. On the **Data access** page, select **AI providers operating as Microsoft subprocessors**.
 3. On the **AI providers operating as Microsoft subprocessors** page, under **Available subprocessors for your organization**, select **Enable Anthropic as a Microsoft subprocessor subject to the above terms**.
 
 > [!NOTE]
