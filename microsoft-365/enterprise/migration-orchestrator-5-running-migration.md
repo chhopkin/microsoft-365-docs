@@ -36,6 +36,9 @@ Admins can review the list for any failures, fix any issues, and resubmit using 
 
 When you submit the migration, we do another check of all of the prerequisites, but we don't return a list of the failures per workload.
 
+> [!NOTE]
+> For a list of the different stages and descriptions of batch migration processing, see [Understanding validation](#understanding-validation).
+
 ## Understanding the migration process
 
 XXX NOTE THAT WE ABSOLUTELY CANNOT HAVE INFORMATION THAT EXISTS ONLY IN A DIAGRAM. IT IS NOT ACCESSIBLE. IT IS NOT SEARCHABLE. WE CAN DISCUSS IF IT'S SUPPLEMENTAL.
@@ -334,3 +337,23 @@ The crosstenantmigrationjobs BatchID is the request ID for the batch, and the us
 If the removal is successful, you see a 202 Accepted request with the response: "Cancelation request for user ID: `<XXXX-XXXXX-XXXXX-XXXX>` from batch: `<batch name or batch request ID>` was accepted."
 
 If a removal is unsuccessful (other than in an invalid user state), the user continues belonging to the batch and is migrated.
+
+
+## Understanding validation
+
+Use the following table to understand the validation and migration flows and status values:
+
+| Status | Description | Workloads |
+| --- | --- | --- |
+| Submitted/Approved/Processing  | The batch is submitted. | [Exchange] NotStarted <BR/> [Teams Chats] NotStarted <BR/> [Teams Meetings] NotStarted <BR/> [OneDrive] NotStarted <BR/> |
+| InProgress | The batch is in progress. This includes checking for prerequisites for all workloads as well as processing the sync for the mailboxes. Batches and user migrations can be cancelled throughout this phase. | [Exchange] Synced/Finalizing/Completed <BR/> [Teams Chats] Synced/InProgress <BR/> [Teams Meetings] Synced/InProgress <BR/> [OneDrive] Synced/InProgress <BR/> |
+| CuttingOver | The batch is cutting over. This means that the mailbox is cutting over or has cut over, and the chats, meetings, and OneDrives are migrating.  <BR/> No cancellations can happen at this point. | [Exchange] Synced/Finalizing/Completed <BR/> [Teams Chats] Synced/InProgress <BR/>[Teams Meetings] Synced/InProgress <BR/> [OneDrive] Synced/InProgress<BR/>|
+| Completed |  The batch is completed without any errors. | [Exchange] Completed <BR/> [Teams Chats] Completed <BR/> [Teams Meetings] Completed <BR/> [OneDrive] Completed <BR/> |
+| CompletedWithErrors  | The batch completed, but with errors. | [Exchange] Completed/Failed <BR/> [Teams Chats] Completed/Failed <BR/> [Teams Meetings] Completed/Failed <BR/> [OneDrive] Completed/Failed <BR/> |
+| Cancelled | The batch is cancelled. |  |
+| Failed | The batch failed.  |  |
+| PendingCancel | The batch is pending cancellation. |  |
+| PendingDelete | The batch is pending deletion. |  |
+| Deleted | The batch data is deleted. |  |
+
+
