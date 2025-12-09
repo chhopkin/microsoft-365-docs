@@ -32,7 +32,7 @@ The Agent Map serves as an interactive interface for viewing, organizing, and ma
   - Version.
   - Connectivity.
 
-This feature complements the **Registry** tab by offering a more visual and scalable solution for environments with large numbers of agents. The data reflected in Agent Map is the same data available in the **Registry** tab. When you create a new agent, it might take up to X for the agent to appear on the Agent Map.
+This feature complements the **Registry** tab by offering a more visual and scalable solution for environments with large numbers of agents. The data reflected in Agent Map is the same data available in the **Registry** tab.
 
 ## Who can access Agent Map?
 
