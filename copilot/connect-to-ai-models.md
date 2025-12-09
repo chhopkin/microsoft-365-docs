@@ -23,6 +23,9 @@ description: "Learn about how to connect your organization to Anthropic's AI mod
 
 # Connect to Anthropic's AI models
 
+> [!IMPORTANT]
+> Anthropic has onboarded as a Microsoft subprocessor and as part of this update, the previous option that allowed Microsoft tenant admins to opt-in to use Anthropic models under Anthropic’s separate commercial terms and data processing agreement will no longer be supported. **Starting on January 7, 2026**, this toggle will be deprecated. For more information on Anthropic as a subprocessor, see [Anthropic as a subprocessor for Microsoft Online Services](connect-to-ai-subprocessor.md).
+
 You can now optionally use Claude models by Anthropic within your Microsoft products. These models are hosted by Anthropic outside of Microsoft. You can elect to use Anthropic's AI models with the Researcher agent in Microsoft 365 Copilot and Copilot Studio. For more information, see [Use Claude with Researcher in Microsoft 365 Copilot](https://go.microsoft.com/fwlink/?linkid=2335703).
 
 Anthropic’s AI models can help people in your organization with some of the following:  
@@ -32,9 +35,8 @@ Anthropic’s AI models can help people in your organization with some of the fo
 - Synthesize across multiple sources
 - Idea generation, drafting and editing
 
-> [!IMPORTANT]
-> When your organization chooses to use an Anthropic model, your organization is choosing to share your data with Anthropic to power the features. This data is processed outside all Microsoft‑managed environments and audit controls, therefore Microsoft’s customer agreements, including the [Product Terms](https://www.microsoft.com/licensing/terms?msockid=344e0e6ad66c6b3e19441848d7416abd) and [Data Processing Addendum](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?lang=18&msockid=344e0e6ad66c6b3e19441848d7416abd) do not apply.
-> In addition, Microsoft’s data‑residency commitments, audit and compliance requirements, service level agreements, and Customer Copyright Commitment do not apply to your use of Anthropic services. Instead, use of Anthropic's services is governed by Anthropic’s [Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms) and Anthropic’s [Data Processing Addendum](https://www.anthropic.com/legal/data-processing-addendum).
+When your organization chooses to use an Anthropic model, your organization is choosing to share your data with Anthropic to power the features. This data is processed outside all Microsoft‑managed environments and audit controls, therefore Microsoft’s customer agreements, including the [Product Terms](https://www.microsoft.com/licensing/terms?msockid=344e0e6ad66c6b3e19441848d7416abd) and [Data Processing Addendum](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?lang=18&msockid=344e0e6ad66c6b3e19441848d7416abd) do not apply.
+In addition, Microsoft’s data‑residency commitments, audit and compliance requirements, service level agreements, and Customer Copyright Commitment do not apply to your use of Anthropic services. Instead, use of Anthropic's services is governed by Anthropic’s [Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms) and Anthropic’s [Data Processing Addendum](https://www.anthropic.com/legal/data-processing-addendum).
 
 ## Before you begin
 
