@@ -14,14 +14,13 @@ ms.date: 07/22/2025
 
 # Manage admin controls in People Skills
 
-People Skills offers a variety of controls for Admin users to configure privacy settings, skill visibility, and access management within the Microsoft 365 Admin Center. By using these controls, you can meet your organization's needs and comply with local regulatory or business requirements. These settings can also be used to selectively deploy People Skills to a small group of pilot users, while restricting functionality to the rest of your tenant. People Skills provides access controls using [Feature Access Management](/viva/feature-access-management). By understanding these controls, you can deploy People Skills in a compliant, flexible manner—whether to your entire tenant, specific groups, or a small set of pilot users.
-
+People Skills offers a variety of controls for Admin users to configure privacy settings, skill visibility, and access management within the Microsoft 365 Admin Center. By using these controls, you can meet your organization's needs and comply with local regulatory or business requirements. These settings can also be used to selectively deploy People Skills to a small group of pilot users, while restricting functionality to the rest of your tenant. People Skills provides access controls using [Feature access management](/viva/feature-access-management). By understanding these controls, you can deploy People Skills in a compliant, flexible manner—whether to your entire tenant, specific groups, or a small set of users.
 
 #### Example use-cases for when these controls may be valuable:
 
 - __Workers Council or Regional Compliance Requirements__
 
-  If your organization operates in a region with Workers Council requirements and needs to disable People Skills for users in that area (for example, users in Germany), you have several options for configuring compliance‑appropriate access controls. For example, you can use the **AI Inferencing control** to disable AI‑generated skill inferences while still allowing users to opt in if they choose. Alternatively, you can use the **People Skills user experiences control**, which fully disables all People Skills experiences for the selected user group; this higher-level control removes all People Skills user experiences for those users and is commonly used to meet regional compliance needs.
+  If your organization operates in a region with Workers Council requirements and needs to disable People Skills for users in that area (for example, users in Germany), you have several options for configuring compliance‑appropriate access controls. For example, you can use the **AI Inferencing control** to disable AI‑generated skill inferences while still allowing users to opt in if they choose. Alternatively, you can use the **People Skills user experiences control**, which fully disables all People Skills experiences for the selected user group; this higher-level control removes all People Skills user experiences for those users and may be used to meet regional compliance needs.
   
 - __Piloting People Skills with a Test Group__
 
@@ -59,7 +58,7 @@ Admins can set controls at any time: before, during, or after deployment.  To vi
 > [!IMPORTANT]
 > Changes in Feature access management take up to 24 hours to complete, and end-to-end changes may take up to 72 hours to fully propagate across all experiences. 
 
-#### **Key terminology**
+#### Key terminology
 
 When managing these Admin Controls, please refer to the below table for important definitions of terms referenced throughout this page.  
 
@@ -77,7 +76,7 @@ See below visual diagram for an illustration of the relationships between the co
 
 ## Managing the People Skills user experiences control
 
-As an Admin, you can use the __People Skills user experiences__ control to turn off People Skills user experiences for your entire organization, user group subsets, or individual users. This is the highest level-parent control – it disables all People Skills user experiences entirely for selected users and will also override and replace the access settings of all other controls. 
+As an Admin, you can use the __People Skills user experiences__ control to turn off People Skills user experiences for your entire organization, user group subsets, or individual users. This is the highest-level parent control – it disables all People Skills user experiences entirely for selected users and will also override and replace the access settings of all other controls. 
 
 #### What happens when People Skills user experiences are turned off?
 
@@ -94,12 +93,11 @@ Once People skills is turned off for a user, all People Skills user experiences 
 
 - Copilot experiences
 
-[Please click here for a list of all the surfaces where People Skills data will be impacted by this Admin Control](/copilot/microsoft-365/people-skills-overview). Additionally, no new skills data is collected and Admins cannot import custom skills for disabled users. Users can be re-enabled later but lost skills data is not restored.
-
+[Please click here for a list of all the applications where People Skills data will be impacted by this Admin Control](/copilot/microsoft-365/people-skills-overview). Additionally, no new skills data is collected, and Admins cannot import custom skills for disabled users. Users can be re-enabled later but lost skills data is not restored.
 
 #### Visibility behavior when some users are disabled
 
-When People Skills is disabled for some users but enabled for others, those disabled users may still be able to view or retrieve skills data from enabled users in certain experiences, such as Copilot or Microsoft 365 profile cards. This may occur when People Skills user experiences are turned off for a subset of users within your organization, and Skills Profile visibility (used to control skills   sharing) remains enabled for other users who have People Skills turned on. If the Admin would like to turn off skills visibility for users, [then learn more about how to control People Skills sharing and visibility here.](/copilot/microsoft-365/people-skills-sharing-inferencing-controls)
+When People Skills user experiences are disabled for some users but enabled for others, those disabled users may still be able to view or retrieve skills data from enabled users in certain experiences, such as Copilot or Microsoft 365 profile cards. This may occur when People Skills user experiences are turned off for a subset of users within your organization, and Skills Profile visibility (used to control skills sharing) remains enabled for other users who have People Skills turned on. If the Admin would like to turn off skills visibility for users, [then learn more about how to control People Skills sharing and visibility here.](/copilot/microsoft-365/people-skills-sharing-inferencing-controls)
 
 __Example:__
 
@@ -119,7 +117,7 @@ People Skills controls are configurable as features within [Feature access manag
 
 1.    [Go here to learn how to use this control directly in the M365 Admin Center via Feature access management](#_Manage_Admin_controls)
 
-2.    [Go here to learn how to use this control in PowerShell via Feature access management](#_Feature_access_management)
+2.    [Go here to learn how to use this control in PowerShell via Feature access management](#_Configuring_Admin_Controls_in_PowerShell)
 
 ## Manage the Skills AI inferencing control 
 
@@ -139,7 +137,7 @@ People Skills controls are configurable as features within [Feature access manag
 
 1.    [Go here to learn how to use this control directly in the M365 Admin Center via Feature access management](#_Manage_Admin_controls)
 
-2.    [Go here to learn how to use this control in PowerShell via Feature access management](#_Feature_access_management)
+2.    [Go here to learn how to use this control in PowerShell via Feature access management](#_Configuring_Admin_Controls_in_PowerShell)
 
 ## Manage the Skills profile visibility control 
 
@@ -163,7 +161,7 @@ People Skills controls are configurable as features within [Feature access manag
 
 1.    [Go here to learn how to use this control directly in the M365 Admin Center via Feature access management](#_Manage_Admin_controls)
 
-2.    [Go here to learn how to use this control in PowerShell via Feature access management](#_Feature_access_management)
+2.    [Go here to learn how to use this control in PowerShell via Feature access management](#_Configuring_Admin_Controls_in_PowerShell)
 
 ## Manage the Show AI-inferred Skills control
 
@@ -187,7 +185,7 @@ People Skills controls are configurable as features within [Feature access manag
 
 1.    [Go here to learn how to use this control directly in the M365 Admin Center via Feature access management](#_Manage_Admin_controls)
 
-2.    [Go here to learn how to use this control in PowerShell via Feature access management](#_Feature_access_management)
+2.    [Go here to learn how to use this control in PowerShell via Feature access management](#_Configuring_Admin_Controls_in_PowerShell)
 
 ## Manage the Show Imported Skills control
 
@@ -208,9 +206,9 @@ The below table summarizes what access settings are available to Admins to set f
 
 People Skills controls are configurable as features within [Feature access management](/viva/feature-access-management) either directly in the Microsoft 365 Admin Center or in PowerShell – select the following links to learn how to do this in either method you choose:
 
-1.    [Go here to learn how to use this control directly in the M365 Admin Center via Feature access management](/editor/MicrosoftDocs/microsoft-365-docs-pr/copilot%2Fpeople-skills-sharing-inferencing-controls.md/main/8ee66ed8-c769-b7b3-580c-4bb829890c56/?branch=main)
+1.    [Go here to learn how to use this control directly in the M365 Admin Center via Feature access management](#_Manage_Admin_controls)
 
-2.    [Go here to learn how to use this control in PowerShell via Feature access management](/editor/MicrosoftDocs/microsoft-365-docs-pr/copilot%2Fpeople-skills-sharing-inferencing-controls.md/main/8ee66ed8-c769-b7b3-580c-4bb829890c56/?branch=main)
+2.    [Go here to learn how to use this control in PowerShell via Feature access management](#_Configuring_Admin_Controls_in_PowerShell)
 
 ## Manage data sharing with Viva Insights
 
