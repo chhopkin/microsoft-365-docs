@@ -378,9 +378,7 @@ Below are some examples of PowerShell commands – these examples are not intend
 >   - `-UserIds "user1@contoso.com","user2@contoso.com"` (specific users)
 > - The Feature Access Policy name values have to be unique, so make sure you are editing __-Name__ in the PowerShell commands with names that are descriptive and unique to your policy
 
-### Example PowerShell Commands for Admin Controls
-
-In the below PowerShell command examples, we are using the Turn off People Skills user experiences Admin Control – the FeatureId for these examples is  __SkillsUserExperienceControl__ but please ensure that you use the correct FeatureID for your scenarios. For more details on PowerShell syntax, refer to __[our Feature Access Management documentation](/viva/manage-access-policies)__.
+In the below PowerShell command examples, we may be using different **FeatureId** examples than what may be relevant for your scenario. Please ensure that you use the correct **FeatureId** for your scenarios. For more details on PowerShell syntax, refer to [our Feature Access Management documentation](/viva/manage-access-policies).
 
 #### Command Examples for Skills AI Inferencing Control
 
@@ -411,18 +409,7 @@ Add-VivaModuleFeaturePolicy -ModuleId PeopleSkills -FeatureId SkillsProfileV
 
 ```
 
-**Note**
-
-In the PowerShell script, the **ModuleId** is *PeopleSkills*, and the **featureId** is *ShowAISkills*. Replace `-Everyone` with your desired scope:
-- `-Everyone` (entire organization)
-
-- `-GroupIds "group1@contoso.com","group2@contoso.com"` (specific groups)
-
-- `-UserIds "user1@contoso.com","user2@contoso.com"` (specific users)
-
-For more details on PowerShell syntax, refer to **[our Feature Access Management documentation](/viva/manage-access-policies)**.
-
-### Control visibility of AI-generated skills
+#### Command examples for Show AI-Inferred Skills control
 
 **Keep the default sharing off for AI-generated skills**: Users in this access policy will be "opted-out," and their AI-generated skills won't be shared across Microsoft 365. Users have the option to turn it on for themselves in their skill settings.
 
@@ -440,7 +427,7 @@ To create this policy, run the following PowerShell cmdlet:
 Add-VivaModuleFeaturePolicy -ModuleId PeopleSkills -FeatureId ShowAISkills -Name  HardDisable -IsFeatureEnabled $false -Everyone
 ```
 
-### Command examples for the Show Imported skills Control
+#### Command examples for the Show Imported skills Control
 
 **Keep imported skill sharing default off:** Users in this access policy will be "opted-out," and their third-party skills won't be shared across Microsoft 365. Users have the option to turn it on for themselves in their skill settings.
 
@@ -458,5 +445,82 @@ To create this policy, run the following PowerShell cmdlet:
 Add-VivaModuleFeaturePolicy -ModuleId PeopleSkills -FeatureId ShowOrgAddedSkills -Name HardDisable -IsFeatureEnabled $false -Everyone
   ```
   
-## 
+#### Command examples for People Skills user experiences control 
+
+**Disable People Skills user experiences for the entire tenant:**
+
+
+```powershell
+Add-VivaModuleFeaturePolicy -ModuleId PeopleSkills-FeatureId SkillsUserExperienceControl -Name DisableFeatureForAll -IsFeatureEnabled $false -Everyone
+```
+
+**Disable People Skills user experiences for the user groups:**
+
+
+```powershell
+Add-VivaModuleFeaturePolicy -ModuleId PeopleSkills -FeatureId SkillsUserExperienceControl -Name MultipleGroups -IsFeatureEnabled $false -GroupIds group1@contoso.com,group2@contoso.com,57680382-61a5-4378-85ad-f72095d4e9c3
+```
+
+**Disable People Skills user experiences for an individual user:**
+
+
+```powershell
+Add-VivaModuleFeaturePolicy -ModuleId PeopleSkills -FeatureId SkillsUserExperienceControl -Name MultipleUsers -IsFeatureEnabled $false -UserIds user1@contoso.com,user2@contoso.com
+```
+
+**Disable People Skills user experiences for users and groups in a single command:**
+
+
+```powershell
+Add-VivaModuleFeaturePolicy -ModuleId PeopleSkills -FeatureId SkillsUserExperienceControl -Name UsersAndGroups -IsFeatureEnabled $false -GroupIds group1@contoso.com,group2@contoso.com,57680382-61a5-4378-85ad-f72095d4e9c3 -UserIds user1@contoso.com,user2@contoso.com
+```
+
+**Update the name of a policy:**
+
+
+```powershell
+Update-VivaModuleFeaturePolicy -ModuleId PeopleSkills -FeatureId SkillsUserExperienceControl -PolicyId 3db38dfa-02a3-4039-b33a-42b0b3da029b1 -Name NewPolicyName -IsFeatureEnabled $false
+```
+
+**Update group members:**
+
+
+```powershell
+Update-VivaModuleFeaturePolicy -ModuleId PeopleSkills -FeatureId SkillsUserExperienceControl -PolicyId 3db38dfa-02a3-4039-b33a-42b0b3da029b -GroupIds group1@contoso.com,group2@contoso.com
+```
+
+**Update users:**
+
+
+```powershell
+Update-VivaModuleFeaturePolicy -ModuleId PeopleSkills -FeatureId SkillsUserExperienceControl -PolicyId 3db38dfa-02a3-4039-b33a-42b0b3da029b -UserIds user1@contoso.com,user2@contoso.com
+```
+
+**Delete policy:**
+
+
+```powershell
+Remove-VivaModuleFeaturePolicy -ModuleId PeopleSkills -FeatureId SkillsUserExperienceControl -PolicyId 3db38dfa-02a3-4039-b33a-42b0b3da029b
+```
+
+**Get policy details for People Skills user experiences admin control:**
+
+
+```powershell
+Get-VivaModuleFeaturePolicy -ModuleId PeopleSkills -FeatureId SkillsUserExperienceControl
+```
+
+**Get specified policy:**
+
+
+```powershell
+Get-VivaModuleFeaturePolicy -ModuleId PeopleSkills -FeatureId SkillsUserExperienceControl -PolicyId 3db38dfa-02a3-4039-b33a-42b0b3da029b
+```
+
+**Get policies for a specified user:** 
+
+
+```powershell
+Get-VivaModuleFeaturePolicy -ModuleId PeopleSkills -FeatureId SkillsUserExperienceControl -MemberIds user1@contoso.com
+```
 
