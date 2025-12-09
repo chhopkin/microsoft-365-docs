@@ -258,6 +258,8 @@ There are many parameters that must be provided in a specific format for the mig
 
 ## Migrating using PowerShell
 
+### Connect to PowerShell and Microsoft Graph
+
 1. Open Microsoft PowerShell.
 2. Install the [Graph SDK](/powershell/microsoftgraph/?view=graph-powershell-bet&preserve-view=truea):
   - `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
@@ -266,6 +268,39 @@ There are many parameters that must be provided in a specific format for the mig
   - `Connect-Graph`
 4.	Confirm you're in the right tenant:
   - `Get-MgContext`
+
+#### validate the batch
+
+Before submitting a batch for migration, validate that the batch and its users are correctly configured by running a validation task.
+
+See [Validate the batch](#validate-the-batch) for an available list of validation commands to run. 
+
+Get the detailed report of failures and mitigate those failures before retrying.
+
+```powershell
+Get-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> -CrossTenantMigrationTaskId  <ExternalDirectoryObjectIds for the target users> 
+```
+Monitor the batch using the monitoring commands
+
+```powershell
+Get-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id>
+(code) Get-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> -CrossTenantMigrationTaskId  <ExternalDirectoryObjectIds for the target users> 
+```
+
+#### Make any required changes
+
+If changes need to be made to the migration, like changing the Complete After Date, removing a user from a batch, or cancelling a migration, this can be done until a certain point in the migration, defined in the above sections. 
+
+#### After migration completes
+
+When the migration is completed, you can monitor the results of the batch and user statuses. If any migrations failed, examine the error code and message for any retry instructions. Once users reach a terminal status of 'Cancelled' or 'Failed', they can be added to a new batch to be retried.
+
+### Submit a migration batch
+
+Submit a batch for migration. <XXX insert same code under the commands available to run under the submit a migration batch.>
+
+Fix any failures for users with an invalid status when the batch status is ValidateFailed.
+When the validation shows no failures, move on to submit the batch for migration.
 
 
 ### A: Submit a validation batch 0o5c
