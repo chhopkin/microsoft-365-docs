@@ -1,5 +1,5 @@
 ---
-title: Manage admin controls in People Skills
+title: Manage Privacy and Sharing controls in People Skills
 description: Learn how to set privacy, access and skill sharing controls for users, groups, or the entire tenant to meet your organization's needs and comply with local or business requirements.
 author: kwekuako
 ms.author: kwekua
