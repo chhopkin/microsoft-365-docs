@@ -131,13 +131,6 @@ The below table summarizes what access settings are available to Admins to set f
 |Off, allow users to opt in |When AI inferencing is soft disabled, no AI-generated skills will be created for a user, unless the user decides to opt themselves in. Users may still manually search for, add, and confirm skills from your organization's skill library. Skills that a user has confirmed appear in a blue box with a checkmark on their M365 profiles. |
 |Off|When AI inferencing is hard disabled, then no AI-generated skills can be created. |
 
-**Instructions on how to use this control:**
-
-People Skills controls are configurable as features within [Feature access management](/viva/feature-access-management) either directly in the Microsoft 365 Admin Center or in PowerShell – select the following links to learn how to do this in either method you choose:
-
-1.    [Go here to learn how to use this control directly in the M365 Admin Center via Feature access management](#_Manage_Admin_controls)
-
-2.    [Go here to learn how to use this control in PowerShell via Feature access management](#_Configuring_Admin_Controls_in_PowerShell)
 
 ## Manage the Skills profile visibility control 
 
@@ -155,13 +148,7 @@ The below table summarizes what access settings are available to Admins to set f
 > [!Note]
 > We don't offer the option to hard disable **Skills Profile Visibility.** A user can always opt in to sharing their skills profile from their personal skills settings in Profile Editor. Admins can hard disable sharing of some skills such as AI-generated or imported skills (also referred to as organization added skills). 
 
-**Instructions on how to use this control:**
 
-People Skills controls are configurable as features within [Feature access management](/viva/feature-access-management) either directly in the Microsoft 365 Admin Center or in PowerShell – select the following links to learn how to do this in either method you choose:
-
-1.    [Go here to learn how to use this control directly in the M365 Admin Center via Feature access management](#_Manage_Admin_controls)
-
-2.    [Go here to learn how to use this control in PowerShell via Feature access management](#_Configuring_Admin_Controls_in_PowerShell)
 
 ## Manage the Show AI-inferred Skills control
 
@@ -173,19 +160,12 @@ The below table summarizes what access settings are available to Admins to set f
 | -------- | -------- |
 |On, allow users to opt out (default) |This means that Show AI-inferred Skills is soft enabled, and AI-generated skills are shown as visible to colleagues on a user's M365 Live Profile Card and shared with other M365 applications. Users will have the ability to opt themselves out of showing AI-inferred skills. |
 |Off, allow users to opt in |This means that Show AI-inferred Skills is soft disabled, and no AI-generated skills are shown as visible to colleagues on a user's M365 Live Profile Card nor are they shared with other M365 applications. |
-|Off|This means that Show AI Inferred skills is fully disabled and users are not able to opt in. |
+
 
 
 > [!NOTE]
 > These AI-Inferred skills are only shared if Skills Profile visibility is also enabled or shared. If Skills Profile Visibility is disabled, AI-inferred skills won't be shown to other users or shared with any Microsoft 365 experiences.
 
-**Instructions on how to use this control:**
-
-People Skills controls are configurable as features within [Feature access management](/viva/feature-access-management) either directly in the Microsoft 365 Admin Center or in PowerShell – select the following links to learn how to do this in either method you choose:
-
-1.    [Go here to learn how to use this control directly in the M365 Admin Center via Feature access management](#_Manage_Admin_controls)
-
-2.    [Go here to learn how to use this control in PowerShell via Feature access management](#_Configuring_Admin_Controls_in_PowerShell)
 
 ## Manage the Show Imported Skills control
 
@@ -197,18 +177,10 @@ The below table summarizes what access settings are available to Admins to set f
 | -------- | -------- |
 |On, allow users to opt out (default)|This means that any imported skills will be shown as visible to colleagues on a user's M365 Live Profile Card and shared with other M365 applications. Users will have the ability to opt themselves out of showing and sharing imported skills.|
 |Off, allow users to opt in|This means that any imported skills will not be visible to colleagues on a user's M365 Live Profile Card nor are they shared with other M365 applications.|
-|Off|This means that Show imported skills is fully disabled and users are not able to opt in.|
+
 
 > [!NOTE]
 > These imported skills are only shared if Skills Profile visibility is also enabled or shared. If Skills Profile Visibility is disabled, AI-inferred skills won't be shown to other users or shared with any Microsoft 365 experiences.
-
-**Instructions on how to use this control:**
-
-People Skills controls are configurable as features within [Feature access management](/viva/feature-access-management) either directly in the Microsoft 365 Admin Center or in PowerShell – select the following links to learn how to do this in either method you choose:
-
-1.    [Go here to learn how to use this control directly in the M365 Admin Center via Feature access management](#_Manage_Admin_controls)
-
-2.    [Go here to learn how to use this control in PowerShell via Feature access management](#_Configuring_Admin_Controls_in_PowerShell)
 
 ## Manage data sharing with Viva Insights
 
