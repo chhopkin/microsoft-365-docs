@@ -44,8 +44,6 @@ When you submit the migration, we do another check of all of the prerequisites, 
 
 ## Understanding the migration process
 
-XXX NOTE THAT WE ABSOLUTELY CANNOT HAVE INFORMATION THAT EXISTS ONLY IN A DIAGRAM. IT IS NOT ACCESSIBLE. IT IS NOT SEARCHABLE. WE CAN DISCUSS IF IT'S SUPPLEMENTAL.
-
 The migration occurs at a user-level, meaning that if one user passes the validation phase, their migration continues. If another user fails any validation check, their migration fails (and never actually begins). To migrate these failed users, create a new batch that includes the failed users, after correcting the validation failures. It retries the migration if there was a terminal failure.
 
 ### Validation
