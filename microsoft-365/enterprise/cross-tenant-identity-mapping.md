@@ -63,7 +63,7 @@ An example of supported methods is any currently supported version of Exchange S
 
 ### MailUser object examples
 
-For more information about MailUser object examples, see [Cross-tenant mailbox migration](/enterprise/cross-tenant-mailbox-migration#prerequisites-for-target-user-objects)
+For more information about MailUser object examples, see [Cross-tenant mailbox migration](cross-tenant-mailbox-migration#prerequisites-for-target-user-objects).
 
 ### Confirmation of Proper User Attributes
 
@@ -146,16 +146,15 @@ The roles added are:
 - Grant the CTIM service principal the Exchange Administrator RBAC role in Entra ID.
 - Grant the CTIM service principal the Exchange.ManageAsApp API Permissions.
 
-- Connect to Microsoft Graph as a Global Administrator:
+Do the following steps:
 
+1. Connect to Microsoft Graph as a Global Administrator:
   `Connect-MgGraph`
 
-- Import the CTIM module:
-
+2. Import the CTIM module:
   `Import-Module CrossTenantIdentityMapping`
 
-- Add the CTIM service principal
-
+3. Add the CTIM service principal:
   `Add-CtimServicePrincipal`
 
 If the command is successful, the output displays the following message:
@@ -347,24 +346,24 @@ The CTIMwrite command writes the following attributes from the mapped source mai
 
 1. Initiate the write request:
 
-  ```powershell
-  New-CtimWriteRequest -SourceTenantGuid <GUID>
-  ```
+    ```powershell
+    New-CtimWriteRequest -SourceTenantGuid <GUID>
+    ```
 
 ##### For Hybrid (DirSynced) MailUser Objects
 
 1. Download the mapping file containing required attribute data:
 
-  ```PowerShell
-  Download-CtimCopiedIdentities -SourceTenantGuid <GUID> -FilePath <path>
-  ```
+    ```PowerShell
+    Download-CtimCopiedIdentities -SourceTenantGuid <GUID> -FilePath <path>
+    ```
 
 2. Connect to your on-premises environment (using Exchange Server Management Shell).
 3. Write attributes on-premises:
-    
-  ```powershell
-  Write-CtimIdentitiesInOnPremises -IdentitiesCsvFilepath <path> -ProgressOutputCsvFilePath <path>
-  ```
+
+    ```powershell
+    Write-CtimIdentitiesInOnPremises -IdentitiesCsvFilepath <path> -ProgressOutputCsvFilePath <path>
+    ```
 
    This command updates MailUser attributes in the on-premises Active Directory (AD).
 
