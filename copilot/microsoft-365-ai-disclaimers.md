@@ -14,7 +14,7 @@ appliesto:
 ---
 
 
-# Turn on AI Disclaimers in Microsoft 365 Copilot
+# Turn on AI disclaimers in Microsoft 365 Copilot
 
 As the administrator of a Microsoft 365 organization, you can turn on Microsoft 365 Copilot AI disclaimer messages across supported applications. This helps your organization address regulatory requirements and build user trust by making it clear that AI-generated results may be inaccurate. When you turn on this feature, the disclaimer AI-generated content may be inaccurate is displayed in supported apps. An information icon provides a tooltip explaining the organization’s emphasis on accuracy, and admins can add a link to their internal AI policy or use the default Microsoft content.
 
