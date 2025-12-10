@@ -73,7 +73,9 @@ Updates released between November 25, 2025, and December 9, 2025.
   **Additional Resources:**
 
   **Support:**
- <a href="https://support.microsoft.com/topic/create-a-video-with-the-microsoft-365-copilot-app-4edd41f6-a7ad-47d5-9a55-3fd25622c9f8" target="_blank">Create a video with the Microsoft 365 Copilot app</a>
+
+  
+     <a href="https://support.microsoft.com/topic/create-a-video-with-the-microsoft-365-copilot-app-4edd41f6-a7ad-47d5-9a55-3fd25622c9f8" target="_blank">Create a video with the Microsoft 365 Copilot app</a>
 
 - **Get AI-powered summaries with search views**
 
@@ -155,7 +157,9 @@ Custom apps will allow for unblocked rapid iteration.
   **Additional Resources:**
 
   **Learn:**
- <a href="/microsoft-365-copilot/extensibility/adaptive-card-edits" target="_blank]">Allow inline editing of Adaptive Card responses</a>
+
+  
+   <a href="/microsoft-365-copilot/extensibility/adaptive-card-edits" target="_blank]">Allow inline editing of Adaptive Card responses</a>
 
 
 - **Better security insights help you build confidently** [Web]
@@ -184,7 +188,9 @@ Creators are empowered to manage compliance and proactively minimize risks.
   **Additional Resources:**
 
   **Learn:**
- <a href="/microsoft-copilot-studio/security-agent-runtime-view" target="_blank">Agent runtime protection status</a>
+
+  
+   <a href="/microsoft-copilot-studio/security-agent-runtime-view" target="_blank">Agent runtime protection status</a>
 
 ### Microsoft 365 SharePoint
 - **Add multiple SharePoint agents in one Teams conversation** [Web]
@@ -216,7 +222,9 @@ Experience richer scenarios where multiple libraries or sites provide simultaneo
   **Additional Resources:**
 
   **Support:**
- <a href="https://support.microsoft.com/office/share-an-agent-from-sharepoint-in-teams-6dcbf7b5-8c13-44e5-a68a-dbd71fb76ad3">Share an agent from SharePoint in Teams</a>
+
+  
+     <a href="https://support.microsoft.com/office/share-an-agent-from-sharepoint-in-teams-6dcbf7b5-8c13-44e5-a68a-dbd71fb76ad3">Share an agent from SharePoint in Teams</a>
 
 ### Viva Glint
 - **Multilingual support in Copilot for Viva Glint** [Web]
@@ -280,7 +288,10 @@ Updates released between November 12, 2025, and November 25, 2025.
 
     **Additional Resources:**
   
-    **Learn:**  [Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat and SharePoint agents](/copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs)
+    **Learn:**
+
+
+     [Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat and SharePoint agents](/copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs)
 
 
 - **Reassign agent ownership with full control** [Windows, Web]
@@ -308,7 +319,9 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   **Additional Resources:**
 
-   **Learn:**  [Reassign an agent's owner with PowerShell](/power-platform/release-plan/2025wave2/microsoft-copilot-studio/reassign-agents-owner-powershell)
+   **Learn:**
+
+    [Reassign an agent's owner with PowerShell](/power-platform/release-plan/2025wave2/microsoft-copilot-studio/reassign-agents-owner-powershell)
 
 
 - **Restrict org-wide agent sharing for better governance** [Web]
@@ -362,7 +375,10 @@ Updates released between November 12, 2025, and November 25, 2025.
 
     **Additional Resources:**
   
-    **Support:** [Get an audio overview of your notebook with Microsoft 365 Copilot Notebooks](https://support.microsoft.com/topic/get-an-audio-overview-of-your-notebook-with-microsoft-365-copilot-notebooks-a22df989-b9cd-47fb-abac-e888d8f10cd9)
+    **Support:**
+
+
+    [Get an audio overview of your notebook with Microsoft 365 Copilot Notebooks](https://support.microsoft.com/topic/get-an-audio-overview-of-your-notebook-with-microsoft-365-copilot-notebooks-a22df989-b9cd-47fb-abac-e888d8f10cd9)
 
 
 ### Microsoft 365 Copilot Chat
@@ -394,7 +410,10 @@ Updates released between November 12, 2025, and November 25, 2025.
  
   **Additional Resources:**
 
-  **Support:** [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
+  **Support:**
+
+
+    [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
 
 
 - **Find files faster with improved Copilot Chat filters** [Windows, Web]
@@ -450,7 +469,10 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   **Additional Resources:**
 
-  **Support:** [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea?preview=true)
+  **Support:**
+
+
+    [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea?preview=true)
   
   
 ### Microsoft 365 Copilot extensibility
@@ -478,7 +500,11 @@ Updates released between November 12, 2025, and November 25, 2025.
   **Personal Impact:** Enjoy the same customized Copilot experience wherever you work, saving time and reducing context-switching throughout your day. 
   
   **Additional Resources:**
-  **Learn:** [Custom engine agents for Microsoft 365 overview](/microsoft-365-copilot/extensibility/overview-custom-engine-agent)
+  
+  **Learn:**
+
+
+    [Custom engine agents for Microsoft 365 overview](/microsoft-365-copilot/extensibility/overview-custom-engine-agent)
 
 - **Enhanced search in Agent Store for easier discovery** [Windows, Web]
 
@@ -531,7 +557,10 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
   **Additional Resources:**
 
-  **Learn:** [Export to Excel](https://learn.microsoft.com/microsoft-365/admin/manage/agent-registry#export-to-excel)
+  **Learn:**
+
+
+    [Export to Excel](https://learn.microsoft.com/microsoft-365/admin/manage/agent-registry#export-to-excel)
 
   
 - **Support Message Extensions as Declarative Agents on Mobile** [Android, iOS]
@@ -559,7 +588,10 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
   **Additional Resources:**
 
-  **Learn:** [Extend bot-based message extension as agent for Microsoft 365 Copilot](/microsoftteams/platform/messaging-extensions/build-bot-based-agent?tabs=visual-studio-code)
+  **Learn:**
+
+
+  [Extend bot-based message extension as agent for Microsoft 365 Copilot](/microsoftteams/platform/messaging-extensions/build-bot-based-agent?tabs=visual-studio-code)
 
 
 - **Unified permissions management for agents** [Windows, Web]
@@ -590,6 +622,7 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
   **Additional Resources:**
 
   **Learn:**
+  
 
    [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry.md)
   
@@ -618,13 +651,25 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
   **Additional Resources:** 
 
-  **Learn:** [Sharing](https://learn.microsoft.com/microsoft-365/admin/manage/agent-settings#sharing)
+  **Learn:**
 
-  **Learn:** [Share and manage agents built with the Copilot Studio lite experience](/microsoft-365/admin/manage/agent-registry.md#share-an-agent)
 
-  **Demo:** [Admin control for org-wide agent sharing links](https://microsoft-my.sharepoint-df.com/personal/sophieroy_microsoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsophieroy%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings%2FDemo%20Admin%20control%20for%20org%2Dwide%20agent%20sharing%20links%2D20250926%5F155245%2DMeeting%20Recording%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea632fb0d%2D5e4c%2D4501%2D92a6%2D1c16c4381542&ct=1764029038871&or=Teams%2DHL&ga=1&gaS=47&isDarkMode=true)
+    [Sharing](https://learn.microsoft.com/microsoft-365/admin/manage/agent-settings#sharing)
 
-  **Blog:** [Manage and govern at scale](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/whats-new-in-copilot-studio-october-2025/#manage-and-govern-at-scale)
+  **Learn:**
+
+
+    [Share and manage agents built with the Copilot Studio lite experience](/microsoft-365/admin/manage/agent-registry.md#share-an-agent)
+
+  **Demo:**
+
+
+  [Admin control for org-wide agent sharing links](https://microsoft-my.sharepoint-df.com/personal/sophieroy_microsoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsophieroy%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings%2FDemo%20Admin%20control%20for%20org%2Dwide%20agent%20sharing%20links%2D20250926%5F155245%2DMeeting%20Recording%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea632fb0d%2D5e4c%2D4501%2D92a6%2D1c16c4381542&ct=1764029038871&or=Teams%2DHL&ga=1&gaS=47&isDarkMode=true)
+
+  **Blog:**
+
+
+  [Manage and govern at scale](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/whats-new-in-copilot-studio-october-2025/#manage-and-govern-at-scale)
 
 
 ### Microsoft 365 PowerPoint
@@ -688,7 +733,10 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
     **Additional Resources:**
 
-    **Learn:** [Copilot skills in SharePoint admin centers](/sharepoint/sharepoint-copilot-best-practices)
+    **Learn:**
+
+
+     [Copilot skills in SharePoint admin centers](/sharepoint/sharepoint-copilot-best-practices)
 
 <!-- 101643,100829,100490,103496,101683,100910,100875,100679,100896,98419,95902,83819 -->
 ## November 12, 2025
@@ -731,9 +779,10 @@ Updates released between October 28, 2025, and November 12, 2025.
 ### Microsoft 365 Copilot Chat
 
 - **RSVP status-based meeting search in Copilot Chat** [Android, Windows, Web]                          
-**Roadmap:** [499429](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499429) 
-  
+
   Quickly find meetings based on RSVP status—either your own or others'. This feature helps you stay organized by surfacing RSVP details for upcoming events, so you can track commitments and follow up with attendees.
+
+  **Roadmap:** [499429](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499429) 
 
   **Try this:**
   
@@ -4229,7 +4278,9 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   **Additional Resources:**
 
-   **Learn:** 
+   **Learn:**
+
+
    
    [Reassign an agent's owner with PowerShell](/power-platform/release-plan/2025wave2/microsoft-copilot-studio/reassign-agents-owner-powershell)
 
@@ -4458,7 +4509,8 @@ Updates released between October 28, 2025, and November 12, 2025.
   Let Surveys Agent handle the heavy lifting—from writing questions to launching surveys and breaking down results. It's like having a professional researcher inside Copilot, helping you make quick, data-driven decisions.
  [Learn more](https://aka.ms/SurveysAgentAvailable).
 ### Microsoft 365 Copilot Chat
-- **RSVP status-based meeting search in Copilot Chat** [Android, Windows, Web]    
+- **RSVP status-based meeting search in Copilot Chat** [Android, Windows, Web]
+  
 
 **Roadmap:** [499429](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499429)
   
@@ -6156,7 +6208,10 @@ Video is a powerful medium, but creating professional-quality content is often t
   **Additional Resources:**
 
   **Support:**
- <a href="https://support.microsoft.com/topic/create-a-video-with-the-microsoft-365-copilot-app-4edd41f6-a7ad-47d5-9a55-3fd25622c9f8" target="_blank">Create a video with the Microsoft 365 Copilot app</a>
+  
+
+  
+   <a href="https://support.microsoft.com/topic/create-a-video-with-the-microsoft-365-copilot-app-4edd41f6-a7ad-47d5-9a55-3fd25622c9f8" target="_blank">Create a video with the Microsoft 365 Copilot app</a>
  
 ### Microsoft 365 Copilot extensibility
 
@@ -6212,7 +6267,10 @@ Enforce protections accurately with a richer visualization of security posture f
   **Additional Resources:**
 
   **Learn:**
- <a href="/microsoft-copilot-studio/security-agent-runtime-view" target="_blank">Agent runtime protection status</a>
+
+
+  
+   <a href="/microsoft-copilot-studio/security-agent-runtime-view" target="_blank">Agent runtime protection status</a>
 
 ### Microsoft 365 SharePoint
 - **Add multiple SharePoint agents in one Teams conversation** [Web]
@@ -6244,7 +6302,9 @@ Experience richer scenarios where multiple libraries or sites provide simultaneo
   **Additional Resources:**
 
   **Support:**
- <a href="https://support.microsoft.com/office/share-an-agent-from-sharepoint-in-teams-6dcbf7b5-8c13-44e5-a68a-dbd71fb76ad3">Share an agent from SharePoint in Teams</a>
+
+  
+     <a href="https://support.microsoft.com/office/share-an-agent-from-sharepoint-in-teams-6dcbf7b5-8c13-44e5-a68a-dbd71fb76ad3">Share an agent from SharePoint in Teams</a>
 
 ### Viva Glint
 - **Multilingual support in Copilot for Viva Glint** [Web]
@@ -6314,9 +6374,11 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   **Additional Resources:**
 
-   **Learn:** 
+   **Learn:**
+
+
    
-   [Reassign an agent's owner with PowerShell](/power-platform/release-plan/2025wave2/microsoft-copilot-studio/reassign-agents-owner-powershell)
+     [Reassign an agent's owner with PowerShell](/power-platform/release-plan/2025wave2/microsoft-copilot-studio/reassign-agents-owner-powershell)
 
 - **Restrict org-wide agent sharing for better governance** [Web]
 
@@ -6380,7 +6442,9 @@ Updates released between November 12, 2025, and November 25, 2025.
 
     **Additional Resources:**
   
-    **Learn:** 
+    **Learn:**
+
+
     
     [Get an audio overview of your notebook with Microsoft 365 Copilot Notebooks](https://support.microsoft.com/topic/get-an-audio-overview-of-your-notebook-with-microsoft-365-copilot-notebooks-a22df989-b9cd-47fb-abac-e888d8f10cd9)
 
@@ -6543,9 +6607,10 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Additional Resources:**
 
-  **Learn:** 
+  **Learn:**
+  
 
-  [Export to Excel](/microsoft-365/admin/manage/agent-registry.md#export-to-excel)
+    [Export to Excel](/microsoft-365/admin/manage/agent-registry.md#export-to-excel)
 
 - **Unified permissions management for agents** [Windows, Web]
 
@@ -6607,13 +6672,24 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Additional Resources:** 
 
-  **Learn:** [Sharing](/microsoft-365/admin/manage/agent-settings.md#sharing)
+  **Learn:**
 
-  **Learn:** [Share an agent](/microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent.md#share-an-agent)
 
-  **Demo:** [Admin control for org-wide agent sharing links](https://microsoft-my.sharepoint-df.com/personal/sophieroy_microsoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsophieroy%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings%2FDemo%20Admin%20control%20for%20org%2Dwide%20agent%20sharing%20links%2D20250926%5F155245%2DMeeting%20Recording%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea632fb0d%2D5e4c%2D4501%2D92a6%2D1c16c4381542&ct=1764029038871&or=Teams%2DHL&ga=1&gaS=47&isDarkMode=true)
+    [Sharing](/microsoft-365/admin/manage/agent-settings.md#sharing)
 
-  **Blog:** [Manage and govern at scale](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/whats-new-in-copilot-studio-october-2025/#manage-and-govern-at-scale)
+
+  **Learn:**
+
+
+    [Share an agent](/microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent.md#share-an-agent)
+
+  **Demo:**
+
+    [Admin control for org-wide agent sharing links](https://microsoft-my.sharepoint-df.com/personal/sophieroy_microsoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsophieroy%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings%2FDemo%20Admin%20control%20for%20org%2Dwide%20agent%20sharing%20links%2D20250926%5F155245%2DMeeting%20Recording%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea632fb0d%2D5e4c%2D4501%2D92a6%2D1c16c4381542&ct=1764029038871&or=Teams%2DHL&ga=1&gaS=47&isDarkMode=true)
+
+  **Blog:**
+
+    [Manage and govern at scale](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/whats-new-in-copilot-studio-october-2025/#manage-and-govern-at-scale)
 
 
 ### Microsoft 365 PowerPoint
@@ -6696,7 +6772,8 @@ When building a presentation with Copilot, you can now pull in content from Loop
 
     **Learn:**
     
-    [Copilot skills in SharePoint admin centers](/SharePoint/copilot-skills-sharepoint-admin-centers)
+
+      [Copilot skills in SharePoint admin centers](/SharePoint/copilot-skills-sharepoint-admin-centers)
 
 <!-- 101643,100829,100490,103496,101683,100910,100875,100679,100896,98419,95902,83819 -->
 
@@ -6742,7 +6819,8 @@ Updates released between October 28, 2025, and November 12, 2025.
 
   Copilot Chat now makes visual creation more flexible and intuitive. Upload reference images, edit them step by step, and maintain consistency across versions—perfect for refining designs for presentations, social posts, or print.
 
-- **RSVP status-based meeting search in Copilot Chat** [Android, Windows, Web]                          
+- **RSVP status-based meeting search in Copilot Chat** [Android, Windows, Web]
+-                          
 
 **Roadmap:** [499429](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499429)
   
@@ -9181,7 +9259,12 @@ Voice   removes friction, letting you work where typing isn't practical.
   **Personal Impact:** Enjoy the same customized Copilot experience wherever you work, saving time and reducing context-switching throughout your day. 
   
   **Additional Resources:**
-  **Learn:** [Custom engine agents for Microsoft 365 overview](/microsoft-365-copilot/extensibility/overview-custom-engine-agent)
+
+
+  **Learn:**
+
+
+    [Custom engine agents for Microsoft 365 overview](/microsoft-365-copilot/extensibility/overview-custom-engine-agent)
 
 - **Support Message Extensions as Declarative Agents on Mobile** [Android, iOS]
 
@@ -9215,7 +9298,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Learn:** 
   
-  [Extend bot-based message extension as agent for Microsoft 365 Copilot](/microsoftteams/platform/messaging-extensions/build-bot-based-agent?tabs=visual-studio-code)
+    [Extend bot-based message extension as agent for Microsoft 365 Copilot](/microsoftteams/platform/messaging-extensions/build-bot-based-agent?tabs=visual-studio-code)
 
 <!-- 100829 -->
 ## November 12, 2025
@@ -9224,7 +9307,8 @@ Updates released between October 28, 2025, and November 12, 2025.
 
 ### Microsoft 365 Copilot Chat
 
-**RSVP status-based meeting search in Copilot Chat** [Android, Windows, Web]                          
+**RSVP status-based meeting search in Copilot Chat** [Android, Windows, Web]  
+
 
 **Roadmap:** [499429](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499429)
   
@@ -9779,7 +9863,10 @@ Voice   removes friction, letting you work where typing isn't practical.
   **Personal Impact:** Enjoy the same customized Copilot experience wherever you work, saving time and reducing context-switching throughout your day. 
   
   **Additional Resources:**
-  **Learn:** [Custom engine agents for Microsoft 365 overview](/microsoft-365-copilot/extensibility/overview-custom-engine-agent)
+  
+  **Learn:**
+
+    [Custom engine agents for Microsoft 365 overview](/microsoft-365-copilot/extensibility/overview-custom-engine-agent)
 
 - **Support Message Extensions as Declarative Agents on Mobile** [Android, iOS]
 
@@ -9811,7 +9898,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Learn:** 
   
-  [Extend bot-based message extension as agent for Microsoft 365 Copilot](/microsoftteams/platform/messaging-extensions/build-bot-based-agent?tabs=visual-studio-code)
+    [Extend bot-based message extension as agent for Microsoft 365 Copilot](/microsoftteams/platform/messaging-extensions/build-bot-based-agent?tabs=visual-studio-code)
 
 <!-- 100746,97654,103495 -->
 
@@ -10583,8 +10670,9 @@ Updates released between November 12, 2025, and November 25, 2025.
 
     **Additional Resources:**
   
-    **Learn:** 
-    [Learn more](/microsoftteams/copilot-teams-transcription)
+    **Learn:**
+  
+    [Manage Microsoft 365 Copilot in Teams meetings and events](/microsoftteams/copilot-teams-transcription)
 
     [Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat and SharePoint agents](/copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs)
 
@@ -11636,6 +11724,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
