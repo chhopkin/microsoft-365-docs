@@ -354,7 +354,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Personalize the content and tone of audio summaries from your Copilot notebooks by using natural language input.  
 
-    ****Roadmap ID:**** [499150](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499150)
+    ****Roadmap ID:**** [499150](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499150)
 
     ****Details:****  
 
@@ -502,7 +502,7 @@ Updates released between November 12, 2025, and November 25, 2025.
   **Additional Resources:**
   
   **Learn:**
-
+  
 
     [Custom engine agents for Microsoft 365 overview](/microsoft-365-copilot/extensibility/overview-custom-engine-agent)
 
@@ -510,7 +510,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Finding the right agents in the Copilot Agent Store just got faster and smarter. Enjoy a streamlined search experience with typeahead suggestions and a clean results page—making it simple to locate exactly what you need without wasted time.  
  
-  ****Roadmap ID:**** [502617](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617)
+  ****Roadmap ID:**** [502617](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502617)
 
     ****Details:****  
       
@@ -560,8 +560,9 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
   **Learn:**
 
 
-    [Export to Excel](https://learn.microsoft.com/microsoft-365/admin/manage/agent-registry#export-to-excel)
-
+    [Export to Excel](/microsoft-365/admin/manage/agent-registry#export-to-excel)
+  
+  
   
 - **Support Message Extensions as Declarative Agents on Mobile** [Android, iOS]
 
@@ -598,7 +599,7 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
   View detailed permissions for each Copilot agent in one place—including app dependencies, delegated permissions, and associated risks. Admins can grant consent directly, simplifying governance and deployment.
 
-  ****Roadmap ID:**** [502617](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617)
+  ****Roadmap ID:**** [502617](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502617)
 
   ****Details:****
 
@@ -1923,7 +1924,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 - **Microsoft 365 Agents Toolkit uses Kiota as the API plugin generation tool**
 
-  The Microsoft 365 Agents Toolkit now generate API plugins using Kiota. This unlocks new scenarios in the Agents Toolkit like searching our repository of public APIs, visually selecting the main integration endpoints and improving the maintainability of existing plugins by adding new endpoints as the developer continue evolving their agents. [Learn more](https://github.com/OfficeDev/microsoft-365-agents-toolkit/blob/dev/packages/vscode-extension/CHANGELOG.md#600---may-19-2025).
+  The Microsoft 365 Agents Toolkit now generate API plugins using Kiota. This unlocks new scenarios in the Agents Toolkit like searching our repository of public APIs, visually selecting the main integration endpoints and improving the maintainability of existing plugins by adding new endpoints as the developer continue evolving their agents.
 
 - **Non-citation links remain visible in custom actions** [Windows, Web]
 
@@ -6610,7 +6611,7 @@ Voice   removes friction, letting you work where typing isn't practical.
   **Learn:**
   
 
-    [Export to Excel](/microsoft-365/admin/manage/agent-registry.md#export-to-excel)
+    [Export to Excel](/microsoft-365/admin/manage/agent-registry#export-to-excel)
 
 - **Unified permissions management for agents** [Windows, Web]
 
@@ -11724,6 +11725,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
