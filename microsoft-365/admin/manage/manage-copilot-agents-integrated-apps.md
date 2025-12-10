@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 12/02/2025
+ms.date: 12/10/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -43,7 +43,7 @@ Microsoft 365 Copilot combines the power of large language models with your data
 You can manage agents for Copilot by using the [Microsoft 365 admin center](https://admin.microsoft.com/). You can enable, disable, assign, block, or remove agents for your organization, and manage Copilot capabilities.
 
 > [!NOTE]
-> Microsoft Agent 365 allows you to manage all your organization’s AI agents at scale, regardless of where these agents are built or acquired. For more information, see [Overview of Microsoft Agent 365](/microsoft-agent-365/overview) and [Microsoft Agent 365 documentation](/microsoft-agent-365/).
+> Microsoft Agent 365 is the control plane for AI agents, empowering your organization to confidently deploy, govern, and manage all your agents at scale, regardless of where these agents are built or acquired. For more information, see [Overview of Microsoft Agent 365](/microsoft-agent-365/overview) and [Microsoft Agent 365 documentation](/microsoft-agent-365/).
 
 ## Overview
 
