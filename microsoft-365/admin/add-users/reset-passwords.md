@@ -58,7 +58,7 @@ If you found this video helpful, check out the [complete training series for sma
 
 ## Steps: Reset a business password for a user
 
-When a user requests a new password, you receive a password reset request in email. Follow these steps to reset the password.
+When a user requests a new password, you receive a password reset request by email. Follow these steps to reset the password.
 
 1. In the Microsoft 365 admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.
 
@@ -66,7 +66,7 @@ When a user requests a new password, you receive a password reset request in ema
 
 3. Follow the instructions on the **Reset password** page to autogenerate a new password for the user or create one for them, and then select **Reset password**.  
 
-4. Print the account details to a PDF file, store it in a secure location, then share the information with your users in a secure manner.
+4. Print the account details to a PDF, store it in a secure location, and share them with your users securely.
 
 > [!IMPORTANT]
 > To support increased security, as of August 30, 2024, Microsoft will remove the ability to send user account details and passwords in email from within the Microsoft 365 admin center. We recommend that you print the account information to a PDF file, then share it with your users in a secure manner.
@@ -75,7 +75,7 @@ When a user requests a new password, you receive a password reset request in ema
 
 Self-service password reset is more efficient and less work for your organization's administrators than manually resetting passwords for users. See [Let users reset their own passwords in Microsoft 365](let-users-reset-passwords.md).
 
-## Resend user password
+## Resend a user's password
   
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to **Users** > **Active users**.
 
@@ -83,9 +83,9 @@ Self-service password reset is more efficient and less work for your organizatio
 
 3. Follow the instructions on the **Reset password** page to autogenerate a new password for the user or create one for them, and then select **Reset password**.  
 
-4. Print the account details to a PDF file, store it in a secure location, then share the information with your users in a secure manner.
+4. Print the account details to a PDF, store it in a secure location, and share them with your users securely.
 
-## Reset my admin password
+## Reset your admin password
 
 Use these steps if you forgot your password but you're able to sign in to Microsoft 365 because, for example, your password is saved in your browser:
 
@@ -95,7 +95,7 @@ Use these steps if you forgot your password but you're able to sign in to Micros
 
 3. Sign out: select your name in the upper right corner \> **Sign out**.
 
-4. Now sign in again: type your user name \> **Next** \> and then select **Forgot password**.
+4. Now sign in again: type your user name > **Next** > and then select **Forgot password**.
 
 5. Follow the steps in the wizard to reset your password. It uses your alternate contact info to verify you're the right person to reset your password.
 
@@ -105,9 +105,9 @@ If you forgot your password and can't sign in, take one of the following steps:
 
 - Ask your administrator to reset your password for you.
 - Make sure you've provided alternate contact information, including a mobile phone number.
-- Or, [call Microsoft Support](../../business-video/get-help-support.md).
+- Or [call Microsoft Support](../../business-video/get-help-support.md).
 
-## Reset all business passwords for up to 40 users at the same time
+## Reset passwords for up to 40 users at the same time
 
 These steps work for a business with tens of users. If you have hundreds or thousands of users, see the next section on resetting passwords in bulk (maximum 40 users at a time).
   
@@ -119,7 +119,7 @@ These steps work for a business with tens of users. If you have hundreds or thou
 
 4. Follow the instructions on the **Reset password** page, and select **Reset password**.  If you opted for autogenerating the passwords, the new temporary passwords are displayed.
 
-5. Print the account details to a PDF file, store it in a secure location, then share the information with your users in a secure manner.
+5. Print the account details to a PDF, store it in a secure location, and share it securely.
   
 ## Reset business passwords in bulk
 
@@ -136,23 +136,23 @@ Check out this great blog post by Vasil Michev, Microsoft MVP: [Force password c
 1. Connect to Microsoft Entra ID using [Microsoft Graph PowerShell](/powershell/microsoftgraph/get-started). You can explore other [authentication methods](/powershell/microsoftgraph/authentication-commands) too.
 
    ```powershell
-    Connect-MgGraph -Scopes "User.Read.All"
+   Connect-MgGraph -Scopes "User.Read.All"
    ```
 
 2. Using PowerShell, you can turn off strong password requirements for all users with the following command:
 
    ```powershell
-    Get-MgUser | ForEach { Update-MgUser –UserId $_.Id -PasswordPolicies "DisableStrongPassword" }
+   Get-MgUser | ForEach-Object { Update-MgUser -UserId $_.Id -PasswordPolicies "DisableStrongPassword" }
    ```
 
-3. You can turn **OFF** strong password requirements for specific users with this command:
+3. You can turn OFF strong password requirements for specific users with this command:
 
    ```powershell
-    Update-MgUser -UserId <UserPrincipalName> -PasswordPolicies "DisableStrongPassword"
+   Update-MgUser -UserId <UserPrincipalName> -PasswordPolicies "DisableStrongPassword"
    ```
 
 > [!NOTE]
-> The `userPrincipalName` must be in the Internet-style sign-in format where the user name is followed by the at sign (`@`) and a domain name. For example: `user@contoso.com`.
+> The `userPrincipalName` must be in the Internet-style sign-in format where the user name is followed by the at sign (@) and a domain name. For example: `user@contoso.com`.
 
 ## Related content
 
