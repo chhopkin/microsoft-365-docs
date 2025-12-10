@@ -41,7 +41,7 @@ The Cross-Tenant Identity Mapping (CTIM) service stores data-at-rest in multiple
 
 - Source Tenant reports: Stored within the source tenant's Exchange Online region.
 - Target Tenant reports: Stored within the target tenant's Exchange Online region.
-- Mapping file content: A temporary copy of the mapping file is stored within the European Union when uploaded. This copy is purged in 48 hours or less. 
+- Mapping file content: A temporary copy of the mapping file is stored within the European Union when uploaded. This copy is purged in 48 hours or less.
 - Service Logs redacted of all identifiable info: The European Union.
 - All other data-at-rest: Stored within the target tenant's Exchange Online region.
 
@@ -63,7 +63,7 @@ An example of supported methods is any currently supported version of Exchange S
 
 ### MailUser object examples
 
-For more information about MailUser object examples, see [Cross-tenant mailbox migration](https://learn.microsoft.com/en-us/microsoft-365/enterprise/cross-tenant-mailbox-migration?view=o365-worldwide#prerequisites-for-target-user-objects)
+For more information about MailUser object examples, see [Cross-tenant mailbox migration](enterprise/cross-tenant-mailbox-migration#prerequisites-for-target-user-objects)
 
 ### Confirmation of Proper User Attributes
 
@@ -76,15 +76,19 @@ The target MailUser must have these attributes from the source mailbox or assign
 4. UserPrincipalName: UPN aligns to the user's ***new*** identity or target company (for example, user@target.onmicrosoft.com).
 5. Primary SMTPAddress: Primary SMTP address aligns to the user's NEW company (for example, user@target.onmicrosoft.com).
 6. TargetAddress/ExternalEmailAddress: MailUser references the user's current mailbox hosted in source tenant (for example user@source.onmicrosoft.com). When this value is assigned, confirm you're also assigning PrimarySMTPAddress. Otherwise, this value sets the PrimarySMTPAddress, which causes move failures.
-7.	You can't add legacy SMTP proxy addresses from the source mailbox to the target MailUser. For example, you can't maintain source.com on the MEU in target.onmicrosoft.com tenant objects. Domains are associated with one Microsoft Entra ID or Exchange Online tenant only.
+7. You can't add legacy SMTP proxy addresses from the source mailbox to the target MailUser. For example, you can't maintain source.com on the MEU in target.onmicrosoft.com tenant objects. Domains are associated with one Microsoft Entra ID or Exchange Online tenant only.
 
 To confirm the source user's attributes, run:
 
-`Get-Mailbox <User Alias> | fl Name,ExchangeGuid`
+```powershell
+Get-Mailbox <User Alias> | fl Name,ExchangeGuid
+```
 
 To confirm the target user's attributes, run:
 
-`Get-MailUser AdeleV2 | fl Name,ExternalEmailAddress,EmailAddresses,PrimarySMTPAddress,ExchangeGuid`
+```powershell
+Get-MailUser AdeleV2 | fl Name,ExternalEmailAddress,EmailAddresses,PrimarySMTPAddress,ExchangeGuid
+```
 
 ## Overview of the CTIM Process
 
@@ -104,7 +108,7 @@ To confirm the target user's attributes, run:
 2. Install required PowerShell modules. Open PowerShell and run:
 
 ```powershell
-Install-Module ExchangeOnlineManagement
+  Install-Module ExchangeOnlineManagement
   Install-Module Microsoft.Graph
   Install-Module Microsoft.Graph.Beta
 ```
@@ -115,30 +119,29 @@ Download and install the most recent [Cross-Tenant Identity Mapping PowerShell m
 
 - Get the latest CTIM module:
 
-  `Install-Module CrossTenantIdentityMapping -AllowPrerelease`
+  ```powershell
+  Install-Module CrossTenantIdentityMapping -AllowPrerelease
+  ```
 
 - Use the -AllowPrerelease switch to install the preview version:
 
   > [!TIP]
-> If you see an error about the -AllowPrerelease switch, update PowerShellGet.
-
-  
-```powershell
-Install-Module PowerShellGet -AllowClobber -Force
-  Restart PowerShell
-```
+  > If you see an error about the -AllowPrerelease switch, update PowerShellGet.
+  >
+  > ```PowerShell
+  > Install-Module PowerShellGet -AllowClobber -Force Restart PowerShell
+  > ```
 
 > [!NOTE]
-> If you previously used the Identity Mapping service, you should update the module to make sure it's the most recent version.
+> If you previously used the Identity Mapping service, you should update the module with the following command to make sure it's the most recent version:
+> `Update-Module CrossTenantIdentityMapping -AllowPrerelease`
 
-`Update-Module CrossTenantIdentityMapping -AllowPrerelease`
-
-### Grant CTIM Application Permissions
+### Step 3: Grant CTIM Application Permissions
 
 The CTIM application runs within Microsoft 365 and requires permissions within your tenant to be able to read or write proper information. This access may be revoked later when you're no longer using CTIM. These steps require the user running the command to have the Global Administrator role.
 
 > [!NOTE]
-> A Global Administrator role is only required for the CTIM process for the addition or remval of CTIM application permissions.
+> A Global Administrator role is only required for the CTIM process for the addition or removal of CTIM application permissions.
 
 The roles added are:
 
@@ -165,7 +168,7 @@ If the command is successful, the output displays the following message:
 > [!NOTE]
 > We sometimes see a transient error saying the attempt failed. Typically, running the request a second time results in success.
 
-### Perform Identity Mapping
+## Perform Identity Mapping
 
 We require source users to be mapped to target users using the Identity Mapping solution.
 
@@ -187,17 +190,17 @@ CTIM workflow phases:
 > [!TIP]
 > You can run Get-MgContext to make sure you're connected to the proper tenant when running these commands.
 
-#### Phase 1: Scoping objects
+### Phase 1: Scoping objects
 
 When creating your Organization Relationship, you defined one or more **Mail Enabled Security Group values** in the **MailboxMovePublishedScope** field. These values are your "scopes" and hold the objects to be migrated to the Target tenant.
 
 You must also ensure no object is a member of more than one scope, or else you may risk overwriting information about the user.
 
-#### Phase 2: Copying objects 
+### Phase 2: Copying objects
 
 Once you scope the people to migrate, you must start a copy request. A copy request is sent to the Target tenant admin, who must accept or decline the request. After the Target tenant admin approves the request, each object's attributes is copied to the CTIM system and stored in the Target tenant.
 
-##### Source tenant admin:
+#### Source tenant admin
 
 1. Initiate a copy request:
 
@@ -207,7 +210,7 @@ The "SecurityGroupGuid" can be either the 'ExchangeObjectId' value or the 'Exter
 
 > [!TIP]
 > To get the Security Group Guid, you can run this command:
-> 
+>
 > `Get-DistributionGroup -Identity "Group Name" | fl ExchangeObjectId`
 
 2. Share the resulting RequestID with the target tenant admin.
@@ -217,10 +220,10 @@ The "SecurityGroupGuid" can be either the 'ExchangeObjectId' value or the 'Exter
 
 > [!WARNING]
 > If the Target tenant admin uses the -Overwrite switch when accepting the copy request, running New-CtimCopyRequest for the same scope a second time with the same objects in it results in any previously completed mapping work being overwritten in the target tenant. Make sure the Target tenant admin knows you're executing a copy request for the same scope of objects, and a copy of the mapping file is saved, before accepting the new copy request. Even if using the -Overwrite switch is being done on purpose, having a copy of the mapping file downloaded before using it's a good safety net to have.
-> 
+>
 > There's no way to recover the data if you use -Overwrite without saving a mapping file first, and you have to start over from the beginning.
 
-##### Target tenant admin:
+##### Target tenant admin
 
 After the source tenant admin creates a copy request, they must provide the target tenant admin with the RequestID so you as the Target tenant admin can accept the request.
 
@@ -241,13 +244,13 @@ If you need to start migrating another scope of users, run another copy request 
 > [!NOTE]
 > The percentage complete doesn't move beyond 10% if you reject the request.
 
-#### Phase 3: Mapping objects (target tenant)
+### Phase 3: Mapping objects (target tenant)
 
 Once the copy request is complete, the next step is mapping the source tenant objects to objects in your target tenant. This mapping establishes a 1:1 relationship between the source and target objects, so we can populate attributes on the target tenant object correctly.
 
 There are two ways to map source and target objects: PrimarySMTPAddress matching or a CSV Mapping File.
 
-##### Automated Mapping using PrimarySMTPaddress matching (Recommended):
+#### Automated Mapping using PrimarySMTPaddress matching (Recommended)
 
 When you request the service to perform a mapping request, it searches the target tenant for MailUser objects with an email address matching a source user's PrimarySMTPAddress. We recommend you put the source users' PrimarySMTPAddress values in the ExternalEmailAddress attributes of the target tenant objects. If the system finds a match, it maps the two objects together. If it doesn't find a match, then the source object remains in an unmapped state. If you have objects with no match, you may edit an existing MailUser or create a new one with the appropriate source user's PrimarySMTPAddress value stored in the target MailUser's ExternalEmailAddress attribute. Then run the mapping process again.
 
@@ -259,7 +262,7 @@ When you request the service to perform a mapping request, it searches the targe
 
   Wait until the job state is 'complete' to see the results.
 
-- Checking for errors: 
+- Checking for errors:
 
   If you have errors, you may want to use Get-CtimReport with the Source Tenant ID to look for any details on the errors encountered.
 
@@ -301,17 +304,21 @@ An alternative approach to mapping source and target users is by using a CSV fil
     1. If you don't want to map certain objects yet, for example, if the MailUser object isn't created for them yet, you may leave the TargetExternalDirectoryObjectId column empty. You can complete them later using the PrimarySMTPAddress matching method or the CSV method. Later steps may say "CompletedWithWarnings" if you leave objects with no value to map against.
 3. Upload the edited file: Once your edits complete, you may upload the mapping file. Remember to close the file before attempting to upload it or else the file lock prevents uploading.
 
-  `Upload-CtimMappingData -SourceTenantGuid <GUID> -MappingCsvFilePath <path>`
+  ```powershell
+  Upload-CtimMappingData -SourceTenantGuid <GUID> -MappingCsvFilePath <path>
+  ```
 
    **Optional**: In PowerShell module 0.0.1-Preview9252 or later, you can use the -AutoProgress switch with Upload-CtimMappingData to upload the data and then automatically perform a CSV file mapping request, bypassing the need to run New-CtimMapRequest on your own.
 4. Initiate mapping using CSV:
-
-  `New-CtimMapRequest -SourceTenantGuid <GUID> -UseCsv`
+  
+  ```powershell
+  New-CtimMapRequest -SourceTenantGuid <GUID> -UseCsv
+  ```
 
   If you didn't use the -AutoProgress switch with Upload-CtimMappingData, then you must manually execute a map request using the CSV file uploaded in the previous step. Confirm the CSV upload job reaches a **Completed** state before running the following command.
 
   > [!NOTE]
-> There's a -UseCsv switch you must use if you want to use a CSV file. Omitting this switch uses the PrimarySMTPAddress matching method of mapping.
+  > There's a -UseCsv switch you must use if you want to use a CSV file. Omitting this switch uses the PrimarySMTPAddress matching method of mapping.
 5. Confirm the mapping is complete:
   You can use Get-CtimRequest with the RequestID to determine when the upload process is complete. You may use Get-CtimReport with the RequestID to look at more details, including any errors.
 
@@ -339,18 +346,25 @@ The CTIMwrite command writes the following attributes from the mapped source mai
 ##### For Cloud-only MailUser Objects
 
 1. Initiate the write request:
-  `New-CtimWriteRequest -SourceTenantGuid <GUID>`
+
+  ```powershell
+  New-CtimWriteRequest -SourceTenantGuid <GUID>
+  ```
 
 ##### For Hybrid (DirSynced) MailUser Objects
 
 1. Download the mapping file containing required attribute data:
 
-  `Download-CtimCopiedIdentities -SourceTenantGuid <GUID> -FilePath <path>`
+  ```PowerShell
+  Download-CtimCopiedIdentities -SourceTenantGuid <GUID> -FilePath <path>
+  ```
 
 2. Connect to your on-premises environment (using Exchange Server Management Shell).
 3. Write attributes on-premises:
-
-  `Write-CtimIdentitiesInOnPremises -IdentitiesCsvFilepath <path> -ProgressOutputCsvFilePath <path>`
+    
+  ```powershell
+  Write-CtimIdentitiesInOnPremises -IdentitiesCsvFilepath <path> -ProgressOutputCsvFilePath <path>
+  ```
 
    This command updates MailUser attributes in the on-premises Active Directory (AD).
 
@@ -359,7 +373,9 @@ The CTIMwrite command writes the following attributes from the mapped source mai
     1. You may manually trigger a sync for faster results.
 5. Confirm attributes are correctly written:
 
-  `Verify-CtimWrittenAttributes -SourceTenantGuid <GUID>`
+    ```powershell
+    Verify-CtimWrittenAttributes -SourceTenantGuid <GUID>
+    ```
 
 ##### Validation
 
@@ -373,7 +389,9 @@ If there are no errors, you can use Download-CtimCopiedIdentities one last time 
 
 When CTIM is no longer needed, remove the service principal:
 
-`Remove-CtimServicePrincipal`
+```powershell
+Remove-CtimServicePrincipal
+```
 
 - **Before the Write process**: MailUser objects have no ExchangeGuid or X500 addresses—only SMTP addresses.
 - **After the Write process**: ExchangeGuid, ArchiveGuid (if applicable), and X500 proxy addresses are populated. All necessary attributes for migration and mail routing are present.
