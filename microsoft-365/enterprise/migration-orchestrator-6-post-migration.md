@@ -25,6 +25,8 @@ After the migration's complete, you should remove permissions and return the ten
 
 Identity mapping data is stored until you explicitly delete it.
 
+Use the **Remove-CtimData -SourceTenantGuid <SourceTenantGuid>** cmdlet to remove identity mapping data from the target tenant. Use the **Remove-CtimData -TargetTenantGuid <TargetTenantGuid>** cmdlet to remove identity mapping data from the source tenant.
+
 Post-migration steps for OneDrive are available in [Step 7 of our OneDrive documentation](/microsoft-365/enterprise/cross-tenant-onedrive-migration-step7).
 
 - Use the [Remove-OrganizationRelationship](/exchange/sharing/organization-relationships/remove-an-organization-relationship#use-exchange-online-PowerShell-to-remove-an-organization-relationship) cmdlet to remove existing organization relationships for source or destination servers after the migration is complete.
