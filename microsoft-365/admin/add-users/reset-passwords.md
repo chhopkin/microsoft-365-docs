@@ -159,3 +159,5 @@ Check out this great blog post by Vasil Michev, Microsoft MVP: [Force password c
 - [Small business help & learning](https://go.microsoft.com/fwlink/?linkid=2224585)
 - [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659)
 - [Assign admin roles in the Microsoft 365 admin center](assign-admin-roles.md)
+- [Set up mobile devices for Microsoft 365 for business users](../setup/set-up-mobile-devices.md)
+- [Install Microsoft 365 apps](../setup/install-applications.md)
