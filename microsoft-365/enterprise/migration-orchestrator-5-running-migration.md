@@ -72,6 +72,9 @@ For a breakdown of the meanings behind the statuses and errors, see [Batch migra
 
 There's up to an hour-long delay between when updates are made to the group containing the authorized users for migration and when our system processes those changes. Allow for up to an hour to start the migration after changes are made to the group membership.
 
+> [!NOTE]
+> For additional troubleshooting guidance, see [Resolve orchestrated migration errors](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors).
+
 ## Commands available to run
 
 ### Submit a batch for validation
@@ -297,7 +300,7 @@ When the migration is completed, you can monitor the results of the batch and us
 
 ### Submit a migration batch
 
-Submit a batch for migration. <XXX insert same code under the commands available to run under the submit a migration batch.>
+Submit a batch for migration by using the instructions provided in [B: Submit a migration batch](#b-submit-a-migration-batch)
 
 Fix any failures for users with an invalid status when the batch status is ValidateFailed.
 When the validation shows no failures, move on to submit the batch for migration.
