@@ -531,7 +531,7 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
   **Additional Resources:**
 
-  **Learn:** [Export to Excel](https://learn.microsoft.com/microsoft-365/admin/manage/agent-registry?view=o365-worldwide#export-to-excel)
+  **Learn:** [Export to Excel](https://learn.microsoft.com/microsoft-365/admin/manage/agent-registry#export-to-excel)
 
   
 - **Support Message Extensions as Declarative Agents on Mobile** [Android, iOS]
@@ -591,7 +591,7 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
   **Learn:**
 
-   [Agent Registry in the Microsoft 365 admin center](https://learn.microsoft.com/microsoft-365/admin/manage/agent-registry?view=o365-worldwide)
+   [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry.md)
   
 ### Microsoft 365 Copilot Studio
 
@@ -618,9 +618,9 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
   **Additional Resources:** 
 
-  **Learn:** [Sharing](https://learn.microsoft.com/microsoft-365/admin/manage/agent-settings?view=o365-worldwide#sharing)
+  **Learn:** [Sharing](https://learn.microsoft.com/microsoft-365/admin/manage/agent-settings#sharing)
 
-  **Learn:** [Share and manage agents built with the Copilot Studio lite experience](https://learn.microsoft.com/microsoft-365/admin/manage/agent-registry?view=o365-worldwide#share-an-agent)
+  **Learn:** [Share and manage agents built with the Copilot Studio lite experience](/microsoft-365/admin/manage/agent-registry.md#share-an-agent)
 
   **Demo:** [Admin control for org-wide agent sharing links](https://microsoft-my.sharepoint-df.com/personal/sophieroy_microsoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsophieroy%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings%2FDemo%20Admin%20control%20for%20org%2Dwide%20agent%20sharing%20links%2D20250926%5F155245%2DMeeting%20Recording%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea632fb0d%2D5e4c%2D4501%2D92a6%2D1c16c4381542&ct=1764029038871&or=Teams%2DHL&ga=1&gaS=47&isDarkMode=true)
 
@@ -1884,7 +1884,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 - **Add custom Copilot Studio agents to Microsoft 365** [Web]
 
-  Publish your Copilot Studio agent to the Microsoft 365 channel in one click, then roll it out to yourself, a pilot group, or your whole org. Messages, quick replies, adaptive cards, and multi-turn chat work instantly, while Power Platform analytics and governance keep everything secure and measurable. [Learn more](https://learn.microsoft.com/microsoft-365-copilot/extensibility/publish).
+  Publish your Copilot Studio agent to the Microsoft 365 channel in one click, then roll it out to yourself, a pilot group, or your whole org. Messages, quick replies, adaptive cards, and multi-turn chat work instantly, while Power Platform analytics and governance keep everything secure and measurable. [Learn more](/microsoft-365-copilot/extensibility/publish).
 
 - **Automate repetitive tasks with agent flows** [Web]
 
@@ -4411,7 +4411,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Learn**
 
-  [Agent Registry in the Microsoft 365 admin center](https://learn.microsoft.com/microsoft-365/admin/manage/agent-registry?view=o365-worldwide)
+  [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry.md)
 
 
 ### Microsoft 365 PowerPoint
@@ -6545,7 +6545,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Learn:** 
 
-  [Export to Excel](https://learn.microsoft.com/microsoft-365/admin/manage/agent-registry?view=o365-worldwide#export-to-excel)
+  [Export to Excel](/microsoft-365/admin/manage/agent-registry.md#export-to-excel)
 
 - **Unified permissions management for agents** [Windows, Web]
 
@@ -6580,7 +6580,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
    **Learn**
 
-  [Agent Registry in the Microsoft 365 admin center](https://learn.microsoft.com/microsoft-365/admin/manage/agent-registry?view=o365-worldwide)
+  [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry.md)
 
 ### Microsoft 365 Copilot Studio
 
@@ -6607,9 +6607,9 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Additional Resources:** 
 
-    **Learn:** [Sharing](https://learn.microsoft.com/microsoft-365/admin/manage/agent-settings#sharing)
+  **Learn:** [Sharing](/microsoft-365/admin/manage/agent-settings.md#sharing)
 
-    **Learn:** [Share an agent](https://learn.microsoft.com/microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent#share-an-agent)
+  **Learn:** [Share an agent](/microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent.md#share-an-agent)
 
   **Demo:** [Admin control for org-wide agent sharing links](https://microsoft-my.sharepoint-df.com/personal/sophieroy_microsoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsophieroy%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings%2FDemo%20Admin%20control%20for%20org%2Dwide%20agent%20sharing%20links%2D20250926%5F155245%2DMeeting%20Recording%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea632fb0d%2D5e4c%2D4501%2D92a6%2D1c16c4381542&ct=1764029038871&or=Teams%2DHL&ga=1&gaS=47&isDarkMode=true)
 
@@ -7487,7 +7487,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 - **Add custom Copilot Studio agents to Microsoft 365** [Web]
 
   Publish your Copilot Studio agent to the Microsoft 365 channel in one click, then roll it out to yourself, a pilot group, or your whole org. Messages, quick replies, adaptive cards, and multi-turn chat work instantly, while Power Platform analytics and governance keep everything secure and measurable.
- [Learn more](https://learn.microsoft.com/microsoft-365-copilot/extensibility/publish).
+[Learn more](/microsoft-365-copilot/extensibility/publish.md)
 
 - **Automate repetitive tasks with agent flows** [Web]
 
@@ -11636,6 +11636,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
