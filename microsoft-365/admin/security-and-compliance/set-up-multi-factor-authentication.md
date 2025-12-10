@@ -123,7 +123,7 @@ Switching from security defaults to Conditional Access policies requires the fol
 4. Create new Conditional Access policies.
 
 > [!TIP]
-> If security defaults is turned on, you can create new Conditional Access policies, but you can't turn them on. After you turn off security defaults, you can turn on Conditional Access policies.
+> If security defaults are turned on, you can create new Conditional Access policies, but you can't turn them on. After you turn off security defaults, you can turn on Conditional Access policies.
 
 ### Step 1: Turn off security defaults
 
@@ -217,7 +217,7 @@ Now you can create Conditional Access policies that meet your business needs. Fo
 
 ### Revert to security defaults from Conditional Access policies
 
-Security defaults is turned off when you're using Conditional Access policies. If one or more Conditional Access policies exist in any state (**Off**, **On**, or **Report only**), you can't turn on security defaults. You need to delete all existing Conditional Access policies before you can turn on security defaults.
+Security defaults are turned off when you're using Conditional Access policies. If one or more Conditional Access policies exist in any state (**Off**, **On**, or **Report only**), you can't turn on security defaults. You need to delete all existing Conditional Access policies before you can turn on security defaults.
 
 > [!CAUTION]
 > Before you delete any Conditional Access policies, be sure to record their settings.
