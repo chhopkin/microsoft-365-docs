@@ -1,6 +1,6 @@
 ---
 title: Turn on AI Disclaimers in Microsoft 365 Copilot
-description: Learn how to on AI Disclaimers in Microsoft 365 Copilot for you organization.
+description: Learn how to turn on AI Disclaimers in Microsoft 365 Copilot for your organization.
 author: kwekuako
 ms.author: kwekua
 ms.reviewer: 
@@ -18,7 +18,7 @@ appliesto:
 
 As the administrator of a Microsoft 365 organization, you can turn on Microsoft 365 Copilot AI disclaimer messages across supported applications. This helps your organization address regulatory requirements and build user trust by making it clear that AI-generated results may be inaccurate. When you turn on this feature, the disclaimer AI-generated content may be inaccurate is displayed in supported apps. An information icon provides a tooltip explaining the organization’s emphasis on accuracy, and admins can add a link to their internal AI policy or use the default Microsoft content.
 
-The AI disclaimer will appear in the following apps: Word, Excel, PowerPoint, Outlook, OneNote and the Microsoft 365 Copilot app. The AI disclaimer won’t appear in the following apps: SharePoint, OneDrive, Whiteboard, and Forms. This article provides requirements and step-by-step instructions for turning on the Copilot AI disclaimer in your organization.
+The AI disclaimer appears in the following apps: Word, Excel, PowerPoint, Outlook, OneNote,and the Microsoft 365 Copilot app. The AI disclaimer won’t appear in the following apps: SharePoint, OneDrive, Whiteboard, and Forms. This article provides requirements and step-by-step instructions for turning on the Copilot AI disclaimer in your organization.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ To turn on the Copilot AI disclaimer, you need to be assigned the AI Administrat
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to **Copilot** -> **Settings** -> **User access** -> **Copilot AI Disclaimer**.
 2. On the **Copilot AI disclaimer** page, select **Standard** or **Bold** to select the font for the disclaimer.
-3. Optional: Create a page with your organization’s internal AI policy and add the URL under Provide a web address that is available from the tooltip. Or leave this field blank if you want to keep the default Microsoft Copilot AI disclaimer.
+3. Optional: Create a page with your organization’s internal AI policy and add the URL under Provide a web address that's available from the tooltip. Or leave this field blank if you want to keep the default Microsoft Copilot AI disclaimer.
 4. Review the disclaimer and select **Save** to apply the setting.
 
 > [!NOTE]
