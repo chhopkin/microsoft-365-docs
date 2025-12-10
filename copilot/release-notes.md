@@ -656,12 +656,12 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
   **Learn:**
 
 
-    [Sharing](https://learn.microsoft.com/microsoft-365/admin/manage/agent-settings#sharing)
+    [Sharing](/microsoft-365/admin/manage/agent-settings#sharing)
 
   **Learn:**
 
 
-    [Share and manage agents built with the Copilot Studio lite experience](/microsoft-365/admin/manage/agent-registry.md#share-an-agent)
+    [Share and manage agents built with the Copilot Studio lite experience](/microsoft-365/admin/manage/agent-registry#share-an-agent)
 
   **Demo:**
 
@@ -7569,7 +7569,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 - **Add custom Copilot Studio agents to Microsoft 365** [Web]
 
   Publish your Copilot Studio agent to the Microsoft 365 channel in one click, then roll it out to yourself, a pilot group, or your whole org. Messages, quick replies, adaptive cards, and multi-turn chat work instantly, while Power Platform analytics and governance keep everything secure and measurable.
-[Learn more](/microsoft-365-copilot/extensibility/publish.md)
+[Learn more](/microsoft-365-copilot/extensibility/publish)
 
 - **Automate repetitive tasks with agent flows** [Web]
 
@@ -11728,6 +11728,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
