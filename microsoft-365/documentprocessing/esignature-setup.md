@@ -20,7 +20,7 @@ description: Learn how to set up the service and manage sites in eSignature.
 # Set up eSignature
 
 > [!NOTE]
-> The eSignature service is available in selected regions. If a tenant's location is a supported region, eSignature is available for that tenant. For multi-geo enabled tenants in supported regions, this service is available in the home geo only. The service rolls out to [other regions](esignature-overview.md#regional-availability) later this year.
+> For multi-geo enabled tenants, this service is available in the home geo only.
 
 This is a pay-as-you-go service that is set up in the Microsoft 365 admin center. Before you begin, determine whether this feature is appropriate for your needs by reading the [Before you begin section](esignature-overview.md#before-you-begin).
 
