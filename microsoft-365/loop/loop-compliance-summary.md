@@ -32,6 +32,12 @@ description: "Learn about the governance, data lifecycle management, and complia
 
 As a Compliance Manager or IT administrator, it's crucial to stay up-to-date on the latest governance, data lifecycle, and compliance posture for the software solutions being used in your organization. This article details the capabilities available and not available yet for [Microsoft Loop](https://www.microsoft.com/en-us/microsoft-loop).
 
+## SharePoint Embedded
+
+Loop content storage varies based on creation method. For detailed information about storage locations, see [storage](loop-storage.md). Content stored in SharePoint Embedded containers follows the [SharePoint Embedded security and compliance documentation](/sharepoint/dev/embedded/compliance/security-and-compliance).
+
+The sections below outline governance, lifecycle, and compliance capabilities applicable to all Loop storage types. Where capabilities vary by storage location—OneDrive, SharePoint sites, or SharePoint Embedded containers—specific details are provided.
+
 ## Foundations
 
 - **[Admin Toggle](loop-admin-configuration.md)** exist to turn on or off creation of Loop components, pages, and workspaces. When an IT admin switches Loop component creation on or off in the Microsoft 365 ecosystem, this switch also controls rendering as a hyperlink vs. a live and interactive experience.

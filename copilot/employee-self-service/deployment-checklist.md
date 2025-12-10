@@ -187,7 +187,7 @@ This article has a checklist to help you set up and deploy the Employee Self-Ser
 |Article  |Purpose  |
 |---------|---------|
 |[Use Copilot Studio Agent Builder to build agents](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build) |Includes how to test the agent in the builder/test pane. |
-|[Manage agents for Microsoft 365 Copilot](https://learn.microsoft.com/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps) |Explains how to publish, deploy, enable, or disable agents using the Microsoft 365 admin UI. |
+|[Manage agents for Microsoft 365 Copilot](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps) |Explains how to publish, deploy, enable, or disable agents using the Microsoft 365 admin UI. |
 |[Using agents in Microsoft 365 Copilot Chat](/copilot/agents) |Covers how agents show up in Copilot Chat, enabling and billing.|
 
 ## Step 9: Grow over time
