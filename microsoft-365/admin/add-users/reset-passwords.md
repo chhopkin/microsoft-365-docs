@@ -30,6 +30,7 @@ ms.custom:
 - adminvideo
 - has-azure-ad-ps-ref
 description: "Sign in with your Microsoft 365 admin account to reset passwords for users when you have a Microsoft 365 for business subscription."
+customer-intent: As an administrator, I need to know how to reset passwords for myself and other users.
 ---
 
 # Reset passwords in Microsoft 365 for business
