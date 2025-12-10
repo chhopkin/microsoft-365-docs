@@ -625,7 +625,8 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
   **Learn:**
   
 
-   [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry.md)
+   [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry)
+
   
 ### Microsoft 365 Copilot Studio
 
