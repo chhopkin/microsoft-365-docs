@@ -18,7 +18,7 @@ appliesto:
 
 As the administrator of a Microsoft 365 organization, you can turn on Microsoft 365 Copilot AI disclaimer messages across supported applications. This helps your organization address regulatory requirements and build user trust by making it clear that AI-generated results may be inaccurate. When you turn on this feature, the disclaimer AI-generated content may be inaccurate is displayed in supported apps. An information icon provides a tooltip explaining the organization’s emphasis on accuracy, and admins can add a link to their internal AI policy or use the default Microsoft content.
 
-The AI disclaimer appears in the following apps: Word, Excel, PowerPoint, Outlook, OneNote,and the Microsoft 365 Copilot app. The AI disclaimer won’t appear in the following apps: SharePoint, OneDrive, Whiteboard, and Forms. This article provides requirements and step-by-step instructions for turning on the Copilot AI disclaimer in your organization.
+The AI disclaimer appears in the following apps: Word, Excel, PowerPoint, Outlook, OneNote, and the Microsoft 365 Copilot app. The AI disclaimer won’t appear in the following apps: SharePoint, OneDrive, Whiteboard, and Forms. This article provides requirements and step-by-step instructions for turning on the Copilot AI disclaimer in your organization.
 
 ## Before you begin
 
