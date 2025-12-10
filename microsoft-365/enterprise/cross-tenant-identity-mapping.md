@@ -107,11 +107,11 @@ Get-MailUser AdeleV2 | fl Name,ExternalEmailAddress,EmailAddresses,PrimarySMTPAd
     2. Exchange Administrator or Microsoft Graph permissions are required for other steps.
 2. Install required PowerShell modules. Open PowerShell and run:
 
-```powershell
-  Install-Module ExchangeOnlineManagement
-  Install-Module Microsoft.Graph
-  Install-Module Microsoft.Graph.Beta
-```
+    ```powershell
+    Install-Module ExchangeOnlineManagement
+    Install-Module Microsoft.Graph
+    Install-Module Microsoft.Graph.Beta
+    ```
 
 ### Step 2: Download and Install the CTIM module
 
@@ -126,11 +126,8 @@ Download and install the most recent [Cross-Tenant Identity Mapping PowerShell m
 - Use the -AllowPrerelease switch to install the preview version:
 
   > [!TIP]
-  > If you see an error about the -AllowPrerelease switch, update PowerShellGet.
-  >
-  > ```PowerShell
-  > Install-Module PowerShellGet -AllowClobber -Force Restart PowerShell
-  > ```
+  > If you see an error about the -AllowPrerelease switch, update PowerShellGet using the following command:
+  > `Install-Module PowerShellGet -AllowClobber -Force Restart PowerShell`
 
 > [!NOTE]
 > If you previously used the Identity Mapping service, you should update the module with the following command to make sure it's the most recent version:
@@ -204,31 +201,33 @@ Once you scope the people to migrate, you must start a copy request. A copy requ
 
 1. Initiate a copy request:
 
-  `New-CtimCopyRequest -SecurityGroupGuid <GUID> -TargetTenantGuid <GUID>`
+    ```powershell
+    New-CtimCopyRequest -SecurityGroupGuid <GUID> -TargetTenantGuid <GUID>
+    ```
 
-The "SecurityGroupGuid" can be either the 'ExchangeObjectId' value or the 'ExternalDirectoryObjectid' value attribute of the group in the source tenant's MailboxMovePublishedScope. In the future we may change this value to only allow ExternalDirectoryObjectId, so we recommend using this value moving forward.
+    The "SecurityGroupGuid" can be either the 'ExchangeObjectId' value or the 'ExternalDirectoryObjectid' value attribute of the group in the source tenant's MailboxMovePublishedScope. In the future, we may change this value to only allow ExternalDirectoryObjectId, so we recommend using this value moving forward.
 
-> [!TIP]
-> To get the Security Group Guid, you can run this command:
->
-> `Get-DistributionGroup -Identity "Group Name" | fl ExchangeObjectId`
+    > [!TIP]
+    > To get the Security Group Guid, you can run this command:
+    >
+    > `Get-DistributionGroup -Identity "Group Name" | fl ExchangeObjectId`
 
 2. Share the resulting RequestID with the target tenant admin.
 
-> [!TIP]
-> Running a copy request for the same scope twice with -Overwrite resets previous mappings.
+    > [!TIP]
+    > Running a copy request for the same scope twice with -Overwrite resets previous mappings.
 
-> [!WARNING]
-> If the Target tenant admin uses the -Overwrite switch when accepting the copy request, running New-CtimCopyRequest for the same scope a second time with the same objects in it results in any previously completed mapping work being overwritten in the target tenant. Make sure the Target tenant admin knows you're executing a copy request for the same scope of objects, and a copy of the mapping file is saved, before accepting the new copy request. Even if using the -Overwrite switch is being done on purpose, having a copy of the mapping file downloaded before using it's a good safety net to have.
->
-> There's no way to recover the data if you use -Overwrite without saving a mapping file first, and you have to start over from the beginning.
+    > [!WARNING]
+    > If the Target tenant admin uses the -Overwrite switch when accepting the copy request, running New-CtimCopyRequest for the same scope a second time with the same objects in it results in any previously completed mapping work being overwritten in the target tenant. Make sure the Target tenant admin knows you're executing a copy request for the same scope of objects, and a copy of the mapping file is saved, before accepting the new copy request. Even if using the -Overwrite switch is being done on purpose, having a copy of the mapping file downloaded before using it's a good safety net to have.
+    >
+    > There's no way to recover the data if you use -Overwrite without saving a mapping file first, and you have to start over from the beginning.
 
 ##### Target tenant admin
 
 After the source tenant admin creates a copy request, they must provide the target tenant admin with the RequestID so you as the Target tenant admin can accept the request.
 
 3. Accept the copy request.
-    - . First, check if the request is ready to be accepted or rejected.
+    - First, check if the request is ready to be accepted or rejected.
       - Check request status: `Get-CtimRequest <RequestID>`
       - The PercentComplete is 10% as the percentage completion, based on finite steps in a multi-step process. If the **State** is **AwaitingTargetTenantApproval**, then you can accept the request.
     - Accept the request: `Accept-CtimCopyRequest -RequestID <RequestID> -SourceTenantGUID <GUID>`
@@ -270,10 +269,8 @@ When you request the service to perform a mapping request, it searches the targe
 
 - To get a full report of each user's state, use the following commands:
 
-```powershell
-$report = Get-CtimReport -SourceTenantGuid <GUID> -RequestId <GUID>
-  $report.Identities.Values
-```
+  `$report = Get-CtimReport -SourceTenantGuid <GUID> -RequestId <GUID>`
+  `$report.Identities.Values`
 
 Once all source user objects have a "Mapped" status, you can move to writing attributes.
 
@@ -296,34 +293,37 @@ If you successfully mapped all objects with the PrimarySMTPAddress matching opti
 
 An alternative approach to mapping source and target users is by using a CSV file. This file contains information about the objects in the source tenant. You can edit this file to map MailboxUsers in the source tenant with MailUser objects in the target tenant.
 
-1. Download a CSV mapping file: `Download-CtimCopiedIdentities -SourceTenantGuid <GUID> -FilePath <path>`
-2. Edit the mapping file:
+1. Download a CSV mapping file:
+  `Download-CtimCopiedIdentities -SourceTenantGuid <GUID> -FilePath <path>`
+1. Edit the mapping file:
     1. Populate the 'TargetExternalDirectoryObjectId' column, so each source tenant object is aligned with the correct MailUser object in the target tenant. This change is the only change needed to the file. Don't add more columns or include more information.
     1. This CSV file must use commas as the delimiter character. If your system uses semicolons, pipes, or any other delimiter character it fails when Upload-CtimMappingData tries to process the file. If you encounter errors when running Upload-CtimMappingData, open the file in a plain text editor and confirm commas are being used as the delimiter.
     1. The only changes you need to make in the file is populating TargetExternalDirectoryObjectId with the GUID of the MailUser object in the target tenant.
     1. If you don't want to map certain objects yet, for example, if the MailUser object isn't created for them yet, you may leave the TargetExternalDirectoryObjectId column empty. You can complete them later using the PrimarySMTPAddress matching method or the CSV method. Later steps may say "CompletedWithWarnings" if you leave objects with no value to map against.
-3. Upload the edited file: Once your edits complete, you may upload the mapping file. Remember to close the file before attempting to upload it or else the file lock prevents uploading.
+1. Upload the edited file: Once your edits complete, you may upload the mapping file. Remember to close the file before attempting to upload it or else the file lock prevents uploading.
 
-  ```powershell
-  Upload-CtimMappingData -SourceTenantGuid <GUID> -MappingCsvFilePath <path>
-  ```
+    ```powershell
+    Upload-CtimMappingData -SourceTenantGuid <GUID> -MappingCsvFilePath <path>
+    ```
 
-   **Optional**: In PowerShell module 0.0.1-Preview9252 or later, you can use the -AutoProgress switch with Upload-CtimMappingData to upload the data and then automatically perform a CSV file mapping request, bypassing the need to run New-CtimMapRequest on your own.
+    **Optional**: In PowerShell module 0.0.1-Preview9252 or later, you can use the -AutoProgress switch with Upload-CtimMappingData to upload the data and then automatically perform a CSV file mapping request, bypassing the need to run New-CtimMapRequest on your own.
+
 4. Initiate mapping using CSV:
   
-  ```powershell
-  New-CtimMapRequest -SourceTenantGuid <GUID> -UseCsv
-  ```
+    ```powershell
+    New-CtimMapRequest -SourceTenantGuid <GUID> -UseCsv
+    ```
 
-  If you didn't use the -AutoProgress switch with Upload-CtimMappingData, then you must manually execute a map request using the CSV file uploaded in the previous step. Confirm the CSV upload job reaches a **Completed** state before running the following command.
+    If you didn't use the -AutoProgress switch with Upload-CtimMappingData, then you must manually execute a map request using the CSV file uploaded in the previous step. Confirm the CSV upload job reaches a **Completed** state before running the following command.
 
-  > [!NOTE]
-  > There's a -UseCsv switch you must use if you want to use a CSV file. Omitting this switch uses the PrimarySMTPAddress matching method of mapping.
+    > [!NOTE]
+    > There's a -UseCsv switch you must use if you want to use a CSV file. Omitting this switch uses the PrimarySMTPAddress matching method of mapping.
+
 5. Confirm the mapping is complete:
-  You can use Get-CtimRequest with the RequestID to determine when the upload process is complete. You may use Get-CtimReport with the RequestID to look at more details, including any errors.
+    You can use Get-CtimRequest with the RequestID to determine when the upload process is complete. You may use Get-CtimReport with the RequestID to look at more details, including any errors.
 
-  > [!TIP]
-  > Use commas as delimiters in the CSV file.
+    > [!TIP]
+    > Use commas as delimiters in the CSV file.
 
 #### Phase 4: Writing attributes
 
