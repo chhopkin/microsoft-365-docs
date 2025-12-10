@@ -32,8 +32,8 @@ This page lists the latest features and improvements for Microsoft 365 Copilot. 
 ## [All features](#tab/all)
 <!--- All features regardless of platform go here  -->
 <!-- 97032,101872,101667,101293,101383,101349,102997 -->
-## December 9, 2025
-Updates released between November 25, 2025, and December 9, 2025.
+## December 10, 2025
+Updates released between November 25, 2025, and December 10, 2025.
 ### Microsoft 365 Copilot app
 - **Create polished videos faster with seamless editing and brand customization** [Web]
 
@@ -6170,8 +6170,8 @@ Updates released between December 18, 2024, and January 7, 2025.
 ## [Web](#tab/web)
 <!--- All features that have 'Web' tag  -->
 <!-- 97032,101872,101667,101293,101383,102997 -->
-## December 9, 2025
-Updates released between November 25, 2025, and December 9, 2025.
+## December 10, 2025
+Updates released between November 25, 2025, and December 10, 2025.
 ### Microsoft 365 Copilot app
 - **Create polished videos faster with seamless editing and brand customization** [Web]
 
@@ -11725,6 +11725,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
