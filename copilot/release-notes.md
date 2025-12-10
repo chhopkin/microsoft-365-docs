@@ -1947,7 +1947,8 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 - **Quarantine compromised agent to boost security**
 
-  Give IT admins a critical tool to isolate potentially compromised agents, reducing risk and protecting your network without disrupting daily operations. [Learn more](https://learn.microsoft.com/rest/api/power-platform/powervirtualagents/bots/set-bot-as-quarantined?branch=lane-adminsdk-AprMay2025).
+  Give IT admins a critical tool to isolate potentially compromised agents, reducing risk and protecting your network without disrupting daily operations.
+  
 ### Excel
 
 - **Use Copilot with any table in the workbook, referring by natural language** [iOS, Web, Mac, Windows]
@@ -4464,7 +4465,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Learn**
 
-  [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry.md)
+  [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry)
 
 
 ### Microsoft 365 PowerPoint
@@ -6552,7 +6553,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   Finding the right agents in the Copilot Agent Store just got faster and smarter. Enjoy a streamlined search experience with typeahead suggestions and a clean results page—making it simple to locate exactly what you need without wasted time.  
  
-  ****Roadmap ID:**** [502617](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617)
+  ****Roadmap ID:**** [502617](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502617)
 
     ****Details:****  
       
@@ -6647,7 +6648,8 @@ Voice   removes friction, letting you work where typing isn't practical.
 
    **Learn**
 
-  [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry.md)
+  [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry)
+  
 
 ### Microsoft 365 Copilot Studio
 
@@ -6677,13 +6679,13 @@ Voice   removes friction, letting you work where typing isn't practical.
   **Learn:**
 
 
-    [Sharing](/microsoft-365/admin/manage/agent-settings.md#sharing)
+    [Sharing](/microsoft-365/admin/manage/agent-settings#sharing)
 
 
   **Learn:**
 
 
-    [Share an agent](/microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent.md#share-an-agent)
+    [Share an agent](/microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent#share-an-agent)
 
   **Demo:**
 
@@ -11726,6 +11728,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
