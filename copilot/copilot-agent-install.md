@@ -66,3 +66,5 @@ Some agents built by Microsoft, including Researcher and Analyst, are governed b
 - [Agents for Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agents-overview)
 - [Build agents with Copilot Studio](/microsoft-365-copilot/extensibility/copilot-studio-lite-build)
 - [Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio)
+- [Overview of Microsoft Agent 365](/microsoft-agent-365/overview)
+- [Microsoft Agent 365 documentation](/microsoft-agent-365/)
