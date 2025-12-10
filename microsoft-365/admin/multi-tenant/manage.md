@@ -51,13 +51,14 @@ You need to be a Global Administrator to perform this task.
 
 ## View the All tenants page
 
-In the [Microsoft 365 admin center](https://admin.cloud.microsoft/?#/homepage), in the left nav, select **All tenants**.
+1. In the [Microsoft 365 admin center](https://admin.cloud.microsoft/?#/homepage), in the left nav, select **All tenants**.
 
-- On the **All tenants** page, you can:
-  - Assess service health
-  - Review license usage
-  - Search for or select the tenant you want to manage
-  - Pin your most often visited tenant to the top of the list.
+2. On the **All tenants** page, take one of the following steps:
+
+   - Assess service health
+   - Review license usage
+   - Search for or select the tenant you want to manage
+   - Pin your most often visited tenant to the top of the list.
 
 If you mark a tenant as a favorite, the list automatically expands the tenant. Then you can immediately view the status details.
 
