@@ -1,6 +1,6 @@
 ---
 title: Use Agent Map in the Microsoft 365 admin center
-ms.date: 12/08/2025
+ms.date: 12/10/2025
 description: The Agent Map is a feature within the Microsoft 365 admin center designed to provide IT administrators with an intuitive visualization of agents in their Microsoft account.
 author: sericks007
 ms.topic: concept-article
@@ -50,11 +50,11 @@ By default, the Agent Map clusters agents by platform, such as Copilot Studio (l
 
 The following clusters appear on the Agent Map:
 
-- Copilot Studio (lite)
-- Copilot Studio (full)
-- Microsoft 365 Agents Toolkit
-- Microsoft Corporation
-- Others
+- Copilot Studio (lite).
+- Copilot Studio (full).
+- Microsoft 365 Agents Toolkit.
+- Microsoft Corporation.
+- Others.
 
 ### Filtering agents
 
@@ -75,16 +75,16 @@ The map is designed for ease of use, particularly in large environments where li
 When you select an agent icon, you can see more details about the agent, including:
 
 - Details:
-  - Description
-  - Publisher
-  - Agent type
-  - Platform
-  - Last updated
-  - Version
-- Users
-- Data and tools
-- Security and compliance
-- Agent activity
+  - Description.
+  - Publisher.
+  - Agent type.
+  - Platform.
+  - Last updated.
+  - Version.
+- Users.
+- Data and tools.
+- Security and compliance.
+- Agent activity.
 
 ## Known issues
 
