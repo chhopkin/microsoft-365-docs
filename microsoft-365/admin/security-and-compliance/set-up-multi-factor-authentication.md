@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 11/20/2025
+ms.date: 12/10/2025
 audience: Admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-security
@@ -26,6 +26,7 @@ ms.custom:
 - adminvideo
 - business_assist
 description: "Learn how to set up multifactor authentication (also known as MFA, two-factor authentication, or 2FA) in your Microsoft 365 organization."
+customer-intent: As an administrator, I want to know about MFA and how to set it up.
 monikerRange: o365-worldwide
 ---
 
@@ -45,12 +46,13 @@ For information about the different options for MFA in Microsoft 365, see [Multi
 
 - You must have appropriate permissions assigned before you can do the procedures in this article. Here are some options:
 
-  - [Microsoft Entra permissions](/entra/identity/role-based-access-control/manage-roles-portal):
-    - _Turn on or turn off security defaults_: Membership in the **Global Administrator** or **Security Administrator** roles.
-    - _Create and manage Conditional Access policies_: Membership in the **Global Administrator** or **Conditional Access Administrator** roles.
+   - [Microsoft Entra permissions](/entra/identity/role-based-access-control/manage-roles-portal):
 
-    > [!IMPORTANT]
-    > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+      - Turn on or turn off security defaults: Membership in the **Global Administrator** or **Security Administrator** roles.
+      - Create and manage Conditional Access policies: Membership in the **Global Administrator** or **Conditional Access Administrator** roles.
+
+      > [!IMPORTANT]
+      > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 - To use security defaults or Conditional Access, you need to turn off legacy per-user MFA for users in your organization. If your organization's subscription was started after 2019, legacy per-user MFA is most likely not enabled. For more information, see [Enable per-user Microsoft Entra multifactor authentication to secure sign-in events](/entra/identity/authentication/howto-mfa-userstates).
 
@@ -64,7 +66,7 @@ For information about the different options for MFA in Microsoft 365, see [Multi
 
 Microsoft 365 tenants created after October 2019 have security defaults turned on by default. To see or change the current status of security defaults in your organization, follow these steps:
 
-1. In the [Microsoft Entra admin center](https://entra.microsoft.com), go to **Identity** \> **Overview**. Or, to go directly to the overview page, use <https://entra.microsoft.com/#view/Microsoft_AAD_IAM/TenantOverview.ReactView>.
+1. In the [Microsoft Entra admin center](https://entra.microsoft.com), go to **Identity** \> **Overview**. Or, to go directly to the [Microsoft Entra overview page](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/TenantOverview.ReactView).
 
 2. On the overview page, select the **Properties** tab, and the go to the **Security defaults** section at the bottom of the tab.
 
@@ -72,17 +74,17 @@ Microsoft 365 tenants created after October 2019 have security defaults turned o
 
    - **Security defaults is on**: The following text is shown and **Manage security defaults** is available:
 
-     > Your organization is protected by security defaults.
+      > Your organization is protected by security defaults.
 
    - **One or more Conditional Access policies exist in Microsoft Entra ID P1 or P2**: The following text is shown and **Manage security defaults** isn't available:
 
-     > Your organization is currently using Conditional Access policies which prevents you from enabling security defaults. You can use Conditional Access to configure custom policies that enable the same behavior provided by security defaults.
+      > Your organization is currently using Conditional Access policies which prevents you from enabling security defaults. You can use Conditional Access to configure custom policies that enable the same behavior provided by security defaults.
 
-     **Manage Conditional Access** takes you to the **Policies** page at <https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/PoliciesList.ReactView> to manage Conditional Access policies. To switch between security defaults and Conditional Access policies, see the [Revert to security defaults from Conditional Access policies](#revert-to-security-defaults-from-conditional-access-policies) section in this article.
+      **Manage Conditional Access** takes you to the [Policies page](https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/PoliciesList.ReactView) where you can manage Conditional Access policies. To switch between security defaults and Conditional Access policies, see the [Revert to security defaults from Conditional Access policies](#revert-to-security-defaults-from-conditional-access-policies) section in this article.
 
    - **Security defaults is off**: The following text is shown and **Manage security defaults** is available:
 
-     > Your organization is not protected by security defaults.
+      > Your organization is not protected by security defaults.
 
 3. If **Manage security defaults** is available, select it to turn on or turn off security defaults:
 
