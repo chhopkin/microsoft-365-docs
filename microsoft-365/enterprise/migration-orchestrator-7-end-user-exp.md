@@ -41,8 +41,6 @@ After the mailbox is migrated, users aren't able to see the calendar in the Team
 
 Based on the order in which users are migrated, there are variable experiences on the individual chats. At each point in migration, a user maintains access to their chats. They may notice that they're added to or removed from an existing chat, that an entirely new chat is created, or that duplicate new chats are created.
 
-XXX THESE EXAMPLES DEPEND ON THE SCREENSHOTS. WE CAN'T USE EXAMPLES THAT DEPEND ON NONACCESSIBLE, NONSEARCHABLE SCREENSHOTS.
-
 ## Meetings
 
 Meetings are updated when the organizer migrates. At this point, the meeting URL updates and all participants who are identity mapped have their source identities removed from the roster and their target identities added to the roster. Participants who don't migrate can join the meeting depending on the tenant policies. Participants who don't migrate don't have access to the new meeting chat until they join the meeting from its new join URL. Target users view, start, and join migrated meetings on the target tenant. Target users can view the meeting chat and continue to use it.
