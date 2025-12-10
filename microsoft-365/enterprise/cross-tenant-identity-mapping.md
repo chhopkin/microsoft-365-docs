@@ -63,7 +63,7 @@ An example of supported methods is any currently supported version of Exchange S
 
 ### MailUser object examples
 
-For more information about MailUser object examples, see [Cross-tenant mailbox migration](enterprise/cross-tenant-mailbox-migration#prerequisites-for-target-user-objects)
+For more information about MailUser object examples, see [Cross-tenant mailbox migration](/enterprise/cross-tenant-mailbox-migration#prerequisites-for-target-user-objects)
 
 ### Confirmation of Proper User Attributes
 
