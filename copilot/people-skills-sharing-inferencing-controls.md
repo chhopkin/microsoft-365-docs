@@ -217,19 +217,19 @@ Below is some general guidance for creating policies:
 
 **For global rollouts**
 
-Keep SoftEnable defaults where possible
+- Keep SoftEnable defaults where possible
 
-Use HardDisable where regulations forbid AI processing or skill sharing
+- Use HardDisable where regulations forbid AI processing or skill sharing
 
-Monitor data flows into Viva Insights
+- Monitor data flows into Viva Insights
 
 **For regulated regions / Workers Council environments**
 
-Use People Skills user experiences, inferencing and/or visibility policies to restrict specific groups
+- Use People Skills user experiences, inferencing and/or visibility policies to restrict specific groups
 
-Use SoftDisable or HardDisable strategically per requirement. 
+- Use SoftDisable or HardDisable strategically per requirement. 
 
-Validate user-level opt in rights and transparency.
+- Validate user-level opt in rights and transparency.
 
 ### Configuring Admin controls in M365 Admin Center interface
 
