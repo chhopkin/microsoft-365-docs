@@ -37,7 +37,7 @@ description: "Sign in with your Microsoft 365 admin account to reset passwords f
 This article explains how to reset passwords for yourself and other users in your organization when you have a **Microsoft 365 for business subscription** and you have an appropriate role assigned. You can also set up self-service password reset for your users so they can reset their own passwords. To learn more, see [Let users reset their own passwords](let-users-reset-passwords.md).
 
 > [!NOTE]
-> If you don't have a Microsoft 365 for business subscription try this article: [I forgot the username or password for the account I use with Microsoft 365.](https://support.microsoft.com/office/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp). 
+> If you don't have a Microsoft 365 for business subscription, try this article: [I forgot the username or password for the account I use with Microsoft 365.](https://support.microsoft.com/office/eba0b4a2-c0ae-472c-99f6-bc63ee2425a8?wt.mc_id=SCL_reset-passwords_AdmHlp). 
 
 ## Before you begin
 
