@@ -24,7 +24,7 @@ The AI disclaimer will appear in the following apps: Word, Excel, PowerPoint, Ou
 
 To turn on the Copilot AI disclaimer, you need to be assigned the AI Administrator role. For more information about the types of administrator roles, see [Microsoft Entra built-in roles](/entra/identity/role-based-access-control/permissions-reference).
 
-## Turn on Copilot AI disclaimers
+## Turn on Microsoft 365 Copilot AI disclaimers
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to **Copilot** -> **Settings** -> **User access** -> **Copilot AI Disclaimer**.
 2. On the **Copilot AI disclaimer** page, select **Standard** or **Bold** to select the font for the disclaimer.
