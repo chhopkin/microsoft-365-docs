@@ -34,10 +34,10 @@ Multitenant management in Microsoft 365 admin center offers a unified approach t
 
 ## Before you begin
 
-You need to be a global admin to perform this task.
+You need to be a Global Administrator to perform this task.
 
 > [!IMPORTANT]
-> Global administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
+> Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use another role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## Move between tenants
 
