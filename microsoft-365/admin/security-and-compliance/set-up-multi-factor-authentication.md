@@ -44,7 +44,7 @@ For information about the different options for MFA in Microsoft 365, see [Multi
 
 ## What do you need to know before you begin?
 
-- You must have appropriate permissions assigned before you can do the procedures in this article. Here are some options:
+- You must have appropriate permissions assigned before you can complete the procedures in this article. Here are some options:
 
    - [Microsoft Entra permissions](/entra/identity/role-based-access-control/manage-roles-portal):
 
@@ -54,9 +54,10 @@ For information about the different options for MFA in Microsoft 365, see [Multi
       > [!IMPORTANT]
       > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
-- To use security defaults or Conditional Access, you need to turn off legacy per-user MFA for users in your organization. If your organization's subscription was started after 2019, legacy per-user MFA is most likely not enabled. For more information, see [Enable per-user Microsoft Entra multifactor authentication to secure sign-in events](/entra/identity/authentication/howto-mfa-userstates).
+- To use security defaults or Conditional Access, you need to turn off legacy per-user MFA for users in your organization. If your organization's subscription was started after 2019, legacy per-user MFA is most likely not turned on. For more information, see [Enable per-user Microsoft Entra multifactor authentication to secure sign-in events](/entra/identity/authentication/howto-mfa-userstates).
 
-- **Advanced**: If you have non-Microsoft directory services with Active Directory Federation Services (AD FS) (configured before July 2019), set up the Azure MFA Server. For more information, see [Advanced scenarios with Microsoft Entra multifactor authentication and non-Microsoft VPN solutions](/previous-versions/entra/identity/authentication/howto-mfaserver-nps-vpn).
+> [!NOTE]
+> If you have non-Microsoft directory services with Active Directory Federation Services (AD FS) configured before July 2019, set up the Azure MFA Server. For more information, see [Advanced scenarios with Microsoft Entra multifactor authentication and non-Microsoft VPN solutions](/previous-versions/entra/identity/authentication/howto-mfaserver-nps-vpn).
 
 <a name='steps-turn-on-multifactor-authentication'></a>
 
@@ -64,7 +65,7 @@ For information about the different options for MFA in Microsoft 365, see [Multi
 
 ## Manage security defaults
 
-Microsoft 365 tenants created after October 2019 have security defaults turned on by default. To see or change the current status of security defaults in your organization, follow these steps:
+Microsoft 365 tenants created after October 2019 have security defaults turned on by default. To view or change the current status of security defaults in your organization, follow these steps:
 
 1. In the [Microsoft Entra admin center](https://entra.microsoft.com), go to **Identity** \> **Overview**. Or, to go directly to the [Microsoft Entra overview page](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/TenantOverview.ReactView).
 
@@ -88,7 +89,7 @@ Microsoft 365 tenants created after October 2019 have security defaults turned o
 
 3. If **Manage security defaults** is available, select it to turn on or turn off security defaults.
 
-   In the **Security defaults** flyout that opens, do one of the following steps:
+   In the **Security defaults** flyout that opens, do one of the following:
 
    - **Turn on security defaults**: In the **Security defaults** dropdown list, select **Enabled**, and then select **Save**.
    - **Turn off security defaults**: In the **Security defaults** dropdown list, select **Disabled**. In the **Reason for disabling** section, select **My organization is planning to use Conditional Access**.
