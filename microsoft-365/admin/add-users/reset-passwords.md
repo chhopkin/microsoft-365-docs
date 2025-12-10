@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 12/08/2025
+ms.date: 12/10/2025
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-security
@@ -33,10 +33,6 @@ description: "Sign in with your Microsoft 365 admin account to reset passwords f
 ---
 
 # Reset passwords in Microsoft 365 for business
-
-Check out all of our small business content on [Small business help & learning](https://go.microsoft.com/fwlink/?linkid=2224585).
-
-Check out [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) on YouTube.
 
 This article explains how to reset passwords for yourself and other users in your organization when you have a **Microsoft 365 for business subscription** and you have an appropriate role assigned. You can also set up self-service password reset for your users so they can reset their own passwords. To learn more, see [Let users reset their own passwords](let-users-reset-passwords.md).
 
@@ -103,15 +99,15 @@ Use these steps if you forgot your password but you're able to sign in to Micros
 
 5. Follow the steps in the wizard to reset your password. It uses your alternate contact info to verify you're the right person to reset your password.
 
-If you forgot your password and can't sign in:
+## Forgot your password?
 
-- Ask global admin in your business to reset your password for you.
+If you forgot your password and can't sign in, take one of the following steps:
 
+- Ask your administrator to reset your password for you.
 - Make sure you've provided alternate contact information, including a mobile phone number.
-
 - Or, [call Microsoft Support](../../business-video/get-help-support.md).
 
-## Reset all business passwords for everyone in your organization at the same time
+## Reset all business passwords for up to 40 users at the same time
 
 These steps work for a business with tens of users. If you have hundreds or thousands of users, see the next section on resetting passwords in bulk (maximum 40 users at a time).
   
@@ -139,21 +135,27 @@ Check out this great blog post by Vasil Michev, Microsoft MVP: [Force password c
 
 1. Connect to Microsoft Entra ID using [Microsoft Graph PowerShell](/powershell/microsoftgraph/get-started). You can explore other [authentication methods](/powershell/microsoftgraph/authentication-commands) too.
 
-    ```powershell
+   ```powershell
     Connect-MgGraph -Scopes "User.Read.All"
-    ```
+   ```
 
 2. Using PowerShell, you can turn off strong password requirements for all users with the following command:
 
-    ```powershell
+   ```powershell
     Get-MgUser | ForEach { Update-MgUser –UserId $_.Id -PasswordPolicies "DisableStrongPassword" }
+   ```
 
 3. You can turn **OFF** strong password requirements for specific users with this command:
 
-    ```powershell
+   ```powershell
     Update-MgUser -UserId <UserPrincipalName> -PasswordPolicies "DisableStrongPassword"
-    ```
+   ```
 
 > [!NOTE]
-> The userPrincipalName must be in the Internet-style sign-in format where the user name is followed by the at sign (@) and a domain name. For example: `user@contoso.com`.
+> The `userPrincipalName` must be in the Internet-style sign-in format where the user name is followed by the at sign (`@`) and a domain name. For example: `user@contoso.com`.
 
+## Related content
+
+- [Small business help & learning](https://go.microsoft.com/fwlink/?linkid=2224585)
+- [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659)
+- [Assign admin roles in the Microsoft 365 admin center](assign-admin-roles.md)
