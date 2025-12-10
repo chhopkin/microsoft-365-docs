@@ -86,15 +86,14 @@ Microsoft 365 tenants created after October 2019 have security defaults turned o
 
       > Your organization is not protected by security defaults.
 
-3. If **Manage security defaults** is available, select it to turn on or turn off security defaults:
+3. If **Manage security defaults** is available, select it to turn on or turn off security defaults.
 
    In the **Security defaults** flyout that opens, do one of the following steps:
 
    - **Turn on security defaults**: In the **Security defaults** dropdown list, select **Enabled**, and then select **Save**.
-
    - **Turn off security defaults**: In the **Security defaults** dropdown list, select **Disabled**. In the **Reason for disabling** section, select **My organization is planning to use Conditional Access**.
 
-     When you're finished in the **Security defaults** flyout, select **Save**
+   When you're finished in the **Security defaults** flyout, select **Save**
 
    > [!CAUTION]
    > Don't turn off security defaults unless you're switching to Conditional Access policies in Microsoft Entra ID P1 or P2.
@@ -138,15 +137,13 @@ The policies in security defaults are the Microsoft-recommended baseline for all
 The following templates in Conditional Access recreate the policies in security defaults:
 
 - [Require MFA for all users](/entra/identity/conditional-access/howto-conditional-access-policy-all-users-mfa)
-- [Require MFA for administrators](/entra/identity/conditional-access/policy-old-require-mfa-admin)<sup>\*</sup>
+- [Require MFA for administrators](/entra/identity/conditional-access/policy-old-require-mfa-admin) (To improve your security posture, see [Require phishing-resistant MFA for administrators](/entra/identity/conditional-access/policy-admin-phish-resistant-mfa))
 - [Block legacy authentication](/entra/identity/conditional-access/howto-conditional-access-policy-block-legacy)
 - [Require MFA for Azure management](/entra/identity/conditional-access/howto-conditional-access-policy-azure-management)
 
-<sup>\*</sup>You can improve your security posture by using [Require phishing-resistant MFA for administrators](/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) instead.
+To create Conditional Access policies using these templates, follow these steps:
 
-To create Conditional Access policies using these templates, do the following steps:
-
-1. In the Microsoft Entra admin center, go to the **Conditional Access | Policies** page at <https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies>.
+1. In the Microsoft Entra admin center, go to the [Conditional Access | Policies page](https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies).
 
 2. On the **Conditional Access | Policies** page, select :::image type="icon"source="../../media/m365-cc-sc-create-icon.png" border="false"::: **New policy from template**.
 
@@ -161,8 +158,8 @@ To create Conditional Access policies using these templates, do the following st
    
    - **Basics** section:
    
-     - **Policy name**: Accept the default name or customize it.
-     - **Policy state**: Select **On**
+      - **Policy name**: Accept the default name or customize it.
+      - **Policy state**: Select **On**
    
    - **Assignments** section: In the **Users and groups** section, notice the **Excluded users** value is **Current user** and you can't change it. Only [emergency access accounts](/entra/identity/role-based-access-control/security-emergency-access) should be excluded from MFA requirements. For more information, see the next step.
 
@@ -186,7 +183,7 @@ You might need to remove the current account exclusions and/or add emergency acc
 
 Before you create custom Conditional Access policies, create your emergency access accounts and then use the following steps to adjust the exclusions for MFA-related policies:
 
-1. On the **Conditional Access | Policies** page at <https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies>, select one of the MFA-related policies that you created in the previous step (for example, **Require multifactor authentication for Azure management**).
+1. On the [Conditional Access | Policies page](https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies), select one of the MFA-related policies that you created in the previous step (for example, **Require multifactor authentication for Azure management**).
 
 2. On the policy details page that opens, select **All users included and specific users excluded** in the **Assignments** \> **Users** section.
 
@@ -195,6 +192,7 @@ Before you create custom Conditional Access policies, create your emergency acce
 4. On the **Exclude** tab, the following settings are configured:
 
    - **Select the users and groups to exempt from the policy**: The value **Users and groups** is selected.
+   
    - **Select excluded users and groups**: The value **1 user** is shown, and the user account that was used to create the policy is shown.
    
       - To remove the current account from the excluded users list, select :::image type="icon"source="../../media/m365-cc-sc-more-actions-icon.png" border="false"::: \> :::image type="icon"source="../../media/m365-cc-sc-delete-icon.png" border="false"::: **Remove**.
@@ -225,7 +223,7 @@ Security defaults is turned off when you're using Conditional Access policies. I
 
 To delete Conditional Access policies, use the following steps:
 
-1. On the **Conditional Access | Policies** page at <https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies>, select the policy that you want to delete.
+1. On the [Conditional Access | Policies page](https://entra.microsoft.com/#view/Microsoft_AAD_ConditionalAccess/ConditionalAccessBlade/~/Policies), select the policy that you want to delete.
 
 2. In the details page that opens, select :::image type="icon"source="../../media/m365-cc-sc-delete-icon.png" border="false"::: **Delete** at the top of the page.
 
@@ -247,6 +245,7 @@ For instructions, see [Enable per-user Microsoft Entra multifactor authenticatio
 
   - [What is multifactor authentication](https://support.microsoft.com/topic/what-is-multifactor-authentication-e5e39437-121c-be60-d123-eda06bddf661)
   - [Sign-in after registration](https://support.microsoft.com/account-billing/sign-in-to-your-work-or-school-account-using-two-step-verification-c7293464-ef5e-4705-a24b-c4a3ec0d6cf9)
+  - If you can't sign in, see [How end users can perform account recovery in Microsoft Entra ID](/entra/identity/authentication/how-to-account-recovery-for-users)
   - [Change how you do additional verification](https://support.microsoft.com/topic/change-how-you-do-additional-verification-956ec8d0-7081-4518-a701-f8414cc20831)
   - [Set up your Microsoft 365 sign-in for multifactor authentication](https://support.microsoft.com/office/set-up-your-microsoft-365-sign-in-for-multi-factor-authentication-ace1d096-61e5-449b-a875-58eb3d74de14) and the following video:
 
@@ -256,6 +255,6 @@ For instructions, see [Enable per-user Microsoft Entra multifactor authenticatio
 
 - [Small business help & learning](https://go.microsoft.com/fwlink/p/?linkid=2224585)
 - [YouTube: Microsoft 365 small business help](https://go.microsoft.com/fwlink/p/?linkid=2197659)
-- [Set up multifactor authentication](set-up-multi-factor-authentication.md) (video)
-- [Turn on multifactor authentication for your phone](https://support.microsoft.com/office/ace1d096-61e5-449b-a875-58eb3d74de14) (article)
-- [Multifactor authentication for Microsoft 365](multi-factor-authentication-microsoft-365.md) (article)
+- [Set up multifactor authentication](set-up-multi-factor-authentication.md)
+- [Turn on multifactor authentication for your phone](https://support.microsoft.com/office/ace1d096-61e5-449b-a875-58eb3d74de14)
+- [Multifactor authentication for Microsoft 365](multi-factor-authentication-microsoft-365.md)
