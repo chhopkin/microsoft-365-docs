@@ -4,7 +4,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 11/12/2025
+ms.date: 12/02/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -27,6 +27,9 @@ Key aspects of this content include the following topics:
 - [Visual Guide](m365-agents-visual-map.md) - Follow the guided management paths and links to better understand Copilot agents.
 - [Admin Guide](m365-agents-admin-guide.md) - Understand where to start when working with Microsoft 365 Copilot agents.
 - [FAQ](m365-agents-faq.md) - Answers to common questions about Microsoft 365 Copilot agents.
+
+> [!NOTE]
+> Microsoft Agent 365 is the control plane for AI agents, empowering your organization to confidently deploy, govern, and manage all your agents at scale, regardless of where these agents are built or acquired. For more information, see [Overview of Microsoft Agent 365](/microsoft-agent-365/overview) and [Microsoft Agent 365 documentation](/microsoft-agent-365/).
 
 ## Understand agent security, privacy, and compliance
 
