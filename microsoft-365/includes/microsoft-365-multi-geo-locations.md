@@ -15,18 +15,18 @@ ms.date: 12/02/2025
 | India | IND |
 | Indonesia | IDN |
 | Israel | ISR |
-| Italy<sup>1</sup> | ITA |
+| Italy | ITA |
 | Japan | JPN |
 | Korea | KOR |
 | Malaysia | MYS |
 | Mexico | MEX |
-| New Zealand<sup>1</sup> | NZL |
+| New Zealand | NZL |
 | Norway | NOR |
 | Poland | POL |
 | Qatar | QAT |
 | South Africa | ZAF |
-| Spain<sup>1</sup> | ESP |
-| Sweden<sup>1</sup> | SWE |
+| Spain | ESP |
+| Sweden | SWE |
 | Switzerland | CHE |
 | Taiwan | TWN |
 | United Arab Emirates | ARE |
@@ -34,4 +34,4 @@ ms.date: 12/02/2025
 | United States | NAM |
 
 > [!NOTE]
-> <sup>1</sup>To use a security filter for this region in eDiscovery, you must have [premium features in eDiscovery](/purview/edisc-settings-general) enabled.
+> To use a security filter for Italy, New Zealand, Spain, or Sweden in eDiscovery, you must have [premium features in eDiscovery](/purview/edisc-settings-general) enabled.
