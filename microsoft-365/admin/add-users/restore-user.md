@@ -33,7 +33,7 @@ If you have questions about how long before a specific user account can no longe
   
 > [!TIP]
 > - Make sure licenses are available to assign to the account.
-> - If your business uses Active Directory, for instructions on restoring a user account, see [How to restore deleted user accounts in Microsoft 365, Azure, and Intune](/microsoft-365/troubleshoot/active-directory/restore-deleted-user-accounts).
+> - If your business uses Active Directory on premises, see [How to restore deleted user accounts in Microsoft 365, Azure, and Intune](/microsoft-365/troubleshoot/active-directory/restore-deleted-user-accounts).
 
 ## Restore one or more user accounts
 
