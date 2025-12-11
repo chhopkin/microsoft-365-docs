@@ -63,7 +63,28 @@ An example of supported methods is any currently supported version of Exchange S
 
 ### MailUser object examples
 
-For more information about MailUser object examples, see [Cross-tenant mailbox migration](cross-tenant-mailbox-migration#prerequisites-for-target-user-objects).
+See the following example of a incorrectly configured MailUser (also known as a Mail Enabled User or an MEU) in the target tenant:
+
+|Attribute | Value |
+| --- | --- | 
+| Name | Mikey MEU |
+| ExternalEmailAddress | SMTP:mikey@sourcetenant.com |
+| EmailAddresses | {smtp:mikey@targettenant.onmicrosoft.com, SMTP:mikey@sourcetenant.com} |
+| PrimarySmtpAddress | mikey@sourcetenant.com |
+
+Issues:
+
+- EmailAddresses field has a non-accepted domain address as primary SMTP
+- PrimarySmtpAddress field also has a non-accepted domain value
+
+To correct this MailUser, the example below fixes the PrimarySmtpAddress and Email Addresses fields.
+
+|Attribute | Value |
+| --- | --- | 
+| Name| Mikey MEU |
+| ExternalEmailAddress | SMTP:mikey@sourcetenant.com |
+| EmailAddresses | {smtp:mikey@targettenant.onmicrosoft.com} |
+| PrimarySmtpAddress | mikey@targettenant.onmicrosoft.com |
 
 ### Confirmation of Proper User Attributes
 

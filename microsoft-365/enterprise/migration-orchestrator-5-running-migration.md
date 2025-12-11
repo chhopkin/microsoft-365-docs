@@ -252,12 +252,13 @@ There are many parameters that must be provided in a specific format for the mig
 - **sourceEndpoint** - The name of the endpoint created on the target tenant. You can find it using the `Get-MigrationEndpoint` command with the `-Name` parameter.
 - **resources** - A list of ExternalDirectoryObjectIds for the **target** users you're including in this batch. These resources are available in the Azure portal under the user as "**Object ID**" or through PowerShell.
 - **resourceType** - Is always "**Users**" for all user content migrations.
-- workloads - A string with the list of workloads you intend to migrate. These strings should be formatted in a comma-delimited list. The proper strings are:
+- **workloads** - A string with the list of workloads you intend to migrate. These strings should be formatted in a comma-delimited list. The proper strings are:
   - "**Exchange**"
   - "**ODSP**"
   - "**Teams**"
   - "**Meeting**"
-  If you don't provide a string, the migration defaults to moving all four workloads.
+  
+If you don't provide a string, the migration defaults to moving all four workloads.
 
 ## Migrating using PowerShell
 
@@ -272,27 +273,21 @@ There are many parameters that must be provided in a specific format for the mig
 4.	Confirm you're in the right tenant:
   - `Get-MgContext`
 
-#### validate the batch
+#### Validate the batch
 
 Before submitting a batch for migration, validate that the batch and its users are correctly configured by running a validation task.
 
-See [Validate the batch](#validate-the-batch) for an available list of validation commands to run. 
+See the full list of prerequisites that are checked during validation: [Prevalidation checks](migration-orchestrator-2-planning-prerequisites.md#prevalidation-checks).
 
-Get the detailed report of failures and mitigate those failures before retrying.
+See [Validate the batch](#validate-the-batch) for an available list of validation commands to run.
 
-```powershell
-Get-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> -CrossTenantMigrationTaskId  <ExternalDirectoryObjectIds for the target users> 
-```
-Monitor the batch using the monitoring commands
+Get the detailed report of failures and mitigate those failures before retrying at the batch level (see [Retrieve a specific batch](#retrieve-a-specific-batch)) and at the user level (see [Retrive user status within a specific batch](#retrieve-user-status-within-a-specific-batch)).
 
-```powershell
-Get-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id>
-(code) Get-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> -CrossTenantMigrationTaskId  <ExternalDirectoryObjectIds for the target users> 
-```
+Review the batch status. If it is ValidatePassed, then all prerequisites are met and you can continue to migrate the batch. If it is ValidateFailed, investigate the errors and messages. See [Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors). Fix those issues and run validate on a new batch until all issues are resolved, and the state is ValidatePassed.
 
 #### Make any required changes
 
-If changes need to be made to the migration, like changing the Complete After Date, removing a user from a batch, or cancelling a migration, this can be done until a certain point in the migration, defined in the above sections. 
+If changes need to be made to the migration, like changing the [Complete After Date](#update-the-complete-after-date-for-a-specific-batch), [removing a user from a batch](#h-remove-a-user-from-a-batch) , or cancelling a migration, this can be done until a certain point in the migration, as defined in the [batch status table](#batch-migration-description-values). 
 
 #### After migration completes
 
@@ -304,180 +299,6 @@ Submit a batch for migration by using the instructions provided in [B: Submit a 
 
 Fix any failures for users with an invalid status when the batch status is ValidateFailed.
 When the validation shows no failures, move on to submit the batch for migration.
-
-
-### A: Submit a validation batch 0o5c
-
-1.	In a basic text editor, like Notepad, save the text in the following format as a .json file for the batch you want to submit. Make sure you paste as plain text.
-
-```json
-{
-  "displayName": "xtmigration1",
-  "completeAfterDateTime": "2024-12-09T22:48:03.092Z",
-  "sourceTenantId": "XXXXX-XXXXX-XXXXXX-XXXXXX",
-  "exchangeSettings": {
-    "targetDeliveryDomain": "DOMAIN.onmicrosoft.com",
-    "sourceEndpoint": "sampleEndpointText"
-  },
-  "resources": [
-    "XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX",
-    "XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX",
-    "XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX"
-  ],
-  "resourceType": "Users",
-  "workloads": [
-    "Teams",
-    "Exchange",
-    "ODSP",
-"Meeting"
-  ]
-}
-```
-
-2. Save the path of the file:
-  `$jsonFilePath = "C:\path\to\your\payload.json"`
-3. Read the JSON file content:
-  `$jsonContent = Get-Content -Path $jsonFilePath -Raw`
-4. Submit the batch for validation:
-  `Invoke-MgGraphRequest -Method POST https://graph.microsoft.com/beta/solutions/migrations/crosstenantmigrationjobs/validate -Body $jsonContent`
-
-To get the results of the validation, use the same GET requests as for a batch submitted for [D: Monitor a specific batch](#d-monitor-a-specific-batch) and [E: Monitor a specific batch and its users](#e-monitor-a-specific-batch-and-its-users).
-
-### B: Submit a migration batch
-
-1. In a basic text editor, like Notepad, save the text in the following format as a .json file for the batch you want to submit. Ensure that you're pasting as plain text.
-
-```json
-{
-  "displayName": "xtmigration1",
-  "completeAfterDateTime": "2024-12-09T22:48:03.092Z",
-  "sourceTenantId": "XXXXX-XXXXX-XXXXXX-XXXXXX",
-  "exchangeSettings": {
-    "targetDeliveryDomain": "DOMAIN.onmicrosoft.com",
-    "sourceEndpoint": "sampleEndpointText"
-  },
-  "resources": [
-    "XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX",
-    "XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX",
-    "XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX"
-  ],
-  "resourceType": "Users",
-  "workloads": [
-    "Teams",
-    "Exchange",
-    "ODSP",
-    "Meeting"
-  ]
-}
-```
-
-2. Save the path of the file:
-  `$jsonFilePath = "C:\path\to\your\payload.json"`
-3. Read the JSON file content
-  `$jsonContent = Get-Content -Path $jsonFilePath -Raw`
-4. Submit the batch:
-  `Invoke-MgGraphRequest -Method POST https://graph.microsoft.com/beta/solutions/migrations/crossTenantMigrationJobs -Body $jsonContent`
-
-This .json returns an object containing the information provided, and:
-
-- **ID**: A batch/job ID used to monitor or make operations on that batch in the future.
-- **jobType**: The type of job running. For submitting a batch, it's **Migrate**.
-- **Status**: The status of the batch. The status changes during the migration. Initially it's **Submitted**.
-- **Message**: A message containing information about the batch and its progress. Initially it's empty.
-- **createdBy**: The user ID for the user submitting the migration.
-- **createdDateTime**: The creation time for this batch.
-- **lastUpdatedDateTime**: The last updated time for this batch.
-
-### C: Get all batches for the target tenant
-
-1. Request the batches:
-  `Invoke-MgGraphRequest -Method GET https://graph.microsoft.com/beta/solutions/migrations/crosstenantmigrationjobs`
-2. To create a nicely formatted table, run:
-  `$jobs = Invoke-MgGraphRequest -Method GET https://graph.microsoft.com/beta/solutions/migrations/crosstenantmigrationjobs`
-3. Create a table:
-
-```json
-$jobTable = @()
-foreach ($job in $jobs.value) {
-    $jobRow = [PSCustomObject]@{
-         "Display Name" = $job.displayName
-         "Complete After Date" = $job.completeAfterDateTime.datetime
-         "Source Tenant ID" = $job.sourceTenantId
-         "Status" = $job.status
-     }
-     $jobTable += $jobRow
- }
-```
-
-4. Format and view the table:
-  `$jobTable | Format-Table -AutoSize`
-
-- Run the request for all batches again using the GET cmdlet and convert to Json:
-  `Invoke-MgGraphRequest -Method GET https://graph.microsoft.com/beta/solutions/migrations/crosstenantmigrationjobs | ConvertTo-Json`
-- Copy the @odata.nextLink and run the request for all batches again.
-  `Invoke-MgGraphRequest -Method GET https://graph.microsoft.com/beta/solutions/migrations/crosstenantmigrationjobs | ConvertTo-Json`
-- Continue with the new @odata.nextLink for the next 20, and so on.
-
-### D: Monitor a specific batch
-
-This command shows information about the batch in general:
-
-`Invoke-MgGraphRequest -Method GET https://graph.microsoft.com/beta/solutions/migrations/crosstenantmigrationjobs/id`
-
-The ID is the batch ID returned when you created the batch. You can also use the batch name in place of the ID.
-
-### E: Monitor a specific batch and its users
-
-This command shows information about each of the users and their status within a batch:
-
-`Invoke-MgGraphRequest -Method GET https://graph.microsoft.com/beta/solutions/migrations/crosstenantmigrationjobs/id/users | ConvertTo-Json -Depth 100`
-
-The ID is the batch ID returned when you created the batch. You can also use the batch name place of the ID.
-
-### F: Update the CompleteAfterDate for a given batch
-
-1. Save the completeAfterDate file to your computer:
-
-```json
-{
-  "completeAfterDateTime": "2025-12-17T20:38:04.101Z"
-}
-```
-
-2. Save the path of the file:
-  `$jsonFilePathCAD = "C:\path\to\your\payload.json"`
-3. Read the JSON file content:
-  `$jsonContentCAD = Get-Content -Path $jsonFilePathCAD -Raw`
-4. Submit the batch
-  `Invoke-MgGraphRequest -Method PATCH https://graph.microsoft.com/beta/solutions/migrations/crosstenantmigrationjobs/ID -Body $jsonContentCAD`
-
-The acceptable date and time formats are available on [Microsoft Learn](/dotnet/standard/base-types/standard-date-and-time-format-strings#table-of-format-specifiers).
-
-### G: Cancel a batch
-
-`Invoke-MgGraphRequest -Method POST https://graph.microsoft.com/beta/solutions/migrations/crosstenantmigrationjobs/ID/cancel`
-
-The response is 202 if the cancelation's accepted. The message reads "cancelation request has been accepted for the migration job." All tasks within the batch that were in a sync state are canceled. As long as the user's mailbox isn't cutover already, the cancelation is expected to succeed.
-
-The response is 409 if the cancelation isn't accepted. Migrations continue with this response.
-
-A batch can only be cancelled before the **Complete After Date** has passed. After this point, the migration will continue without cancellation.
-
-```powershell
-Stop-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> 
-```
-
-
-### H: Remove a user from a batch
-
-`Invoke-MgGraphRequest -Method POST https://graph.microsoft.com/beta/solutions/migrations/crosstenantmigrationjobs/BatchID/users/UserID/cancel`
-
-The crosstenantmigrationjobs BatchID is the request ID for the batch, and the users UserID is the target ExternalDirectoryObjectId for the user.
-
-If the removal is successful, you see a 202 Accepted request with the response: "Cancelation request for user ID: `<XXXX-XXXXX-XXXXX-XXXX>` from batch: `<batch name or batch request ID>` was accepted."
-
-If a removal is unsuccessful (other than in an invalid user state), the user continues belonging to the batch and is migrated.
-
 
 ## Batch migration description values
 
