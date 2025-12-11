@@ -12,19 +12,19 @@ ms.topic: how-to
 ms.date: 07/22/2025
 ---
 
-# Privacy, sharing and access controls in People Skills
+# Privacy, sharing, and access controls in People Skills
 
-People Skills offers a variety of controls for Admin users to configure privacy settings, skill visibility, and access management within the Microsoft 365 Admin Center. By using these controls, you can meet your organization's needs and comply with local regulatory or business requirements. These settings can also be used to selectively deploy People Skills to a small group of pilot users, while restricting functionality to the rest of your tenant. People Skills provides access controls using [Feature access management](/viva/feature-access-management). By understanding these controls, you can deploy People Skills in a compliant, flexible manner—whether to your entire tenant, specific groups, or a small set of users.
+People Skills offers controls for Admin users to configure privacy settings, skill visibility, and access management within the Microsoft 365 Admin Center. By using these controls, you can meet your organization's needs and comply with local regulatory or business requirements. These settings can also be used to selectively deploy People Skills to a small group of pilot users, while restricting functionality to the rest of your tenant. People Skills provides access controls using [Feature access management](/viva/feature-access-management). By understanding these controls, you can deploy People Skills in a compliant, flexible manner—whether to your entire tenant, specific groups, or a small set of users.
 
 #### Example use-cases for when these controls may be valuable:
 
 - __Workers Council or Regional Compliance Requirements__
 
-  If your organization operates in a region with Workers Council requirements and needs to disable People Skills for users in that area (for example, users in Germany), you have several options for configuring compliance‑appropriate access controls. For example, you can use the **AI Inferencing control** to disable AI‑generated skill inferences while still allowing users to opt in if they choose. Alternatively, you can use the **People Skills user experiences control**, which fully disables all People Skills experiences for the selected user group; this higher-level control removes all People Skills user experiences for those users and may be used to meet regional compliance needs.
+  If your organization has Workers Council requirements and needs to disable People Skills for certain regions (such as users in Germany), you have several admin controls for meeting those compliance needs. configuring compliance‑appropriate access controls. For example, you can use the **AI Inferencing control** to disable AI‑generated skill inferences while still allowing users to opt in if they choose. Alternatively, you can use the **People Skills user experiences control**, which fully disables all People Skills experiences for the selected user group; this higher-level control removes all People Skills user experiences for those users and may be used to meet regional compliance needs.
   
 - __Piloting People Skills with a Test Group__
 
-  If you want to roll out People Skills gradually, you can enable it only for a small pilot group while keeping it turned off for the rest of your tenant. The __People Skills user experiences control__ lets you turn the experience on for the pilot group and off for everyone else.
+  If you want to roll out People Skills gradually, you can enable it only for a small pilot group while keeping it turned off for the rest of your tenant. The __People Skills user experiences control__ lets you turn on the experience for the pilot group and off for everyone else.
   
 - __Limiting Skill Visibility for Privacy or Data Boundaries__
 
@@ -41,11 +41,11 @@ As an admin, you may manage People Skills through the following controls:
 
 | Feature Control| What it does|Access Settings|Default setting|Relationships to other controls|
 | -------- | -------- | -------- | -------- | -------- |
-|People Skills user experiences|Turns all People Skills user experiences on or off for selected users. |On (hard enable); or Off (hard disable) |On|This is a parent control to all other admin controls. If this is turned off, then all other controls will be turned off. |
-|Skills AI Inferencing|Determines whether AI can infer Skills for users and add them to their M365 profiles on their behalf.  |On, users can opt out (soft enable); or Off, users can opt in (soft disable); or Off (hard disable) |On, users can opt out (soft enabled) |This is a parent to the **Show AI Inferred Skills** control. This is a child to the **People Skills user experiences** control. |
-|Skills Profile Visibility |Controls whether any of a user's skills (AI-inferred, Confirmed, or Imported) are shown on the user's M365 Profile Card or shared with other M365 applications.|On, users can opt out (soft enable); or Off, users can opt in (soft disable); or Off (hard disable) |On, users can opt out (soft enabled) |This is a parent to the **Show AI Inferred Skills** control and the **Show Imported Skills** control. This is a child to the **People Skills user experiences** control. |
-|Show AI-Inferred skills|Controls whether AI-Inferred Skills are shown on the user's M365 Profile Card or shared with other M365 applications. |On, users can opt out (soft enable); Off, users can opt in (soft disable); or Off (hard disable) |On, users can opt out (soft enabled) |This is a child to the **Skills Profile Visibility** control, and the **People Skills user experiences** control. |
-|Show Imported Skills|Controls whether imported (also known as organization-added) skills are shown on the user's M365 Profile Card or shared with other M365 applications.|On, users can opt out (soft enable); Off, users can opt in (soft disable); or Off (hard disable) |On, users can opt out (soft enabled) |This is a child to the **Skills Profile Visibility** control, and the **People Skills user experiences** control.|
+|People Skills user experiences|Turns all People Skills user experiences on or off for selected users. |On (hard enable); or Off (hard disable) |On|This control is a parent to all other admin controls. If this control is turned off, then all other controls are turned off. |
+|Skills AI Inferencing|Determines whether AI can infer Skills for users and add them to their M365 profiles on their behalf.  |On, users can opt out (soft enable); or Off, users can opt in (soft disable); or Off (hard disable) |On, users can opt out (soft enabled) |This control is a parent to the **Show AI Inferred Skills** control. This control is a child to the **People Skills user experiences** control. |
+|Skills Profile Visibility |Controls whether any of a user's skills (AI-inferred, Confirmed, or Imported) are shown on the user's M365 Profile Card or shared with other M365 applications.|On, users can opt out (soft enable); or Off, users can opt in (soft disable); or Off (hard disable) |On, users can opt out (soft enabled) |This control is a parent to the **Show AI Inferred Skills** control and the **Show Imported Skills** control. This control is a child to the **People Skills user experiences** control. |
+|Show AI-Inferred skills|Controls whether AI-Inferred Skills are shown on the user's M365 Profile Card or shared with other M365 applications. |On, users can opt out (soft enable); Off, users can opt in (soft disable); or Off (hard disable) |On, users can opt out (soft enabled) |This control is a child to the **Skills Profile Visibility** control, and the **People Skills user experiences** control. |
+|Show Imported Skills|Controls whether imported (also known as organization-added) skills are shown on the user's M365 Profile Card or shared with other M365 applications.|On, users can opt out (soft enable); Off, users can opt in (soft disable); or Off (hard disable) |On, users can opt out (soft enabled) |This control is a child to the **Skills Profile Visibility** control, and the **People Skills user experiences** control.|
 
 All controls can be scoped at either the entire tenant level, to specific user groups, or to individual users. You configure these controls using [Feature access management](/viva/feature-access-management), available in:
 
@@ -60,15 +60,15 @@ Admins can set controls at any time: before, during, or after deployment.  To vi
 
 #### Key terminology
 
-When managing these Admin Controls, please refer to the below table for important definitions of terms referenced throughout this page.  
+When managing these Admin Controls, see the below table for important definitions of terms referenced throughout this page.  
 
 | Term| What it means|
 | -------- | -------- |
 |Hard disable| Feature is fully disabled (turned off) and users cannot opt in|
 | Soft disable|Feature is available but default off, and users may opt in |
 |Soft enable|Feature is available and default on, and users may opt out|
-|Parent control|A parent control determines the access settings of its child controls. When the parent it turned off, all child controls automatically inherit that setting and are also turned off. For example, the **People Skills user experiences** control is a parent for all other admin controls; if the People Skills user experiences is turned off, every related control beneath it is disabled as well. |
-|Child control|A child control are controls that sit beneath a parent feature and depend on the parent's access state. A child control can only be applied if its parent feature is turned on. When the parent is disabled, all associated child controls automatically became disabled (they inherit their parent's access setting). |
+|Parent control|A parent control determines the access settings of its child controls. When the parent it turned off, all child controls automatically inherit that setting and are also turned off. For example, the **People Skills user experiences** control is a parent for all other admin controls; if the People Skills user experiences control is turned off, every related control beneath it is disabled as well. |
+|Child control|Child controls are controls that sit beneath a parent feature and depend on the parent's access state. A child control can only be applied if its parent feature is turned on. When the parent is disabled, all associated child controls automatically became disabled (they inherit their parent's access setting). |
 
 See below visual diagram for an illustration of the relationships between the controls. 
 
@@ -76,16 +76,16 @@ See below visual diagram for an illustration of the relationships between the co
 
 ## Overview of People Skills user experiences control 
 
-As an Admin, you can use the __People Skills user experiences__ control to turn off People Skills user experiences for your entire organization, user group subsets, or individual users. This is the highest-level parent control – it disables all People Skills user experiences entirely for selected users and will also override and replace the access settings of all other controls. 
+As an Admin, you can use the __People Skills user experiences__ control to turn off People Skills user experiences for your entire organization, user group subsets, or individual users. This control is the highest-level parent control – it disables all People Skills user experiences entirely for selected users and override and replace the access settings of all other controls. 
 
 #### What happens when People Skills user experiences are turned off?
 
 Turning off People Skills permanently deletes all historical user-level data for the affected users, including confirmed skills, AI-inferred skills, and any imported skills.
 
 > [!IMPORTANT]
-> The skills library will not be deleted or deprovisioned when People Skills user experiences control is turned off. Only user level data will be deleted. 
+> The People Skills user experiences control does not delete or deprovision the skills library. Only user level data is deleted. 
 
-Once People skills is turned off for a user, all People Skills user experiences will be removed for that user, including but not limited to: 
+Once People skills is turned off for a user, all People Skills user experiences are removed for that user, including but not limited to: 
 
 - People Skills in Viva Learning
 
@@ -93,11 +93,11 @@ Once People skills is turned off for a user, all People Skills user experiences 
 
 - Copilot experiences
 
-[Please click here for a list of all the applications where People Skills data will be impacted by this Admin Control](/copilot/microsoft-365/people-skills-overview). Additionally, no new skills data is collected, and Admins cannot import custom skills for disabled users. Users can be re-enabled later but lost skills data is not restored.
+[Click here for a list of all the applications where People Skills data will be impacted by this Admin Control](/copilot/microsoft-365/people-skills-overview). Additionally, no new skills data is collected, and Admins cannot import custom skills for disabled users. Users can be re-enabled later but lost skills data is not restored.
 
 #### Visibility behavior when some users are disabled
 
-When People Skills user experiences are disabled for some users but enabled for others, those disabled users may still be able to view or retrieve skills data from enabled users in certain experiences, such as Copilot or Microsoft 365 profile cards. This may occur when People Skills user experiences are turned off for a subset of users within your organization, and Skills Profile visibility (used to control skills sharing) remains enabled for other users who have People Skills turned on. If the Admin would like to turn off skills visibility for users, [then learn more about how to control People Skills sharing and visibility here.](/copilot/microsoft-365/people-skills-sharing-inferencing-controls)
+When People Skills user experiences are disabled for some users but enabled for others, those disabled users may still be able to view or retrieve skills data from enabled users in certain experiences, such as Copilot or Microsoft 365 profile cards. This may occur when People Skills user experiences are turned off for a subset of users within your organization, and Skills Profile visibility remains enabled for other users who have People Skills turned on. If the Admin would like to turn off skills visibility for users, [then learn more about how to control People Skills sharing and visibility here.](/copilot/microsoft-365/people-skills-sharing-inferencing-controls)
 
 __Example:__
 
@@ -109,34 +109,34 @@ __Example:__
   
 - User C is not licensed for People Skills and has User Profile Application (UPA) Skills instead
 
-If the Admin turns off People Skills user experiences for User B, and keeps People Skills user experiences turned on for A, then User B may still be able to see user A's People Skills in Copilot or on the M365 Profile Card, provided User A has Skills visibility enabled and Skills sharing turned on. User B’s Microsoft 365 Profile Card will show no Skills experience when others view User B’s card. User C will see UPA Skills on their own M365 Profile Card, as well as for User A and User B. While User A and User B may not see their own UPA Skills on their M365 Profile Cards, they can still view, edit or delete them in SharePoint – [learn more about UPA Skills and People Skills here](/copilot/microsoft-365/people-skills-overview).
+If the Admin turns off People Skills user experiences for User B, and keeps People Skills user experiences turned on for A, then User B may still be able to see user A's People Skills in Copilot or on the M365 Profile Card, provided User A has Skills visibility enabled and Skills sharing turned on. User B’s Microsoft 365 Profile Card shows no Skills experience when others view User B’s card. User C sees UPA Skills on their own M365 Profile Card, and for User A and User B. While User A and User B may not see their own UPA Skills on their M365 Profile Cards, they can still view, edit, or delete them in SharePoint – [learn more about UPA Skills and People Skills here](/copilot/microsoft-365/people-skills-overview).
 
 
 ## Overview of the Skills AI inferencing control 
 
-The Skills AI inferencing control determines whether AI can automatically generate skills for users based on their M365 activity and role. [Learn more about our AI Inference Engine here](/copilot/microsoft-365/people-skills-ai-inferencing). These AI-generated skills show on the user’s Microsoft 365 Live Profile Card (and are visible to others in the organization). When shown on the M365 Live Profile Card, AI-generated skills appear as gray, while Skills that a user has confirmed appear as blue with a checkmark. By default, AI inferencing is turned on for eligible users (Copilot and Viva users).  
+The Skills AI inferencing control determines whether AI can automatically generate skills for users based on their M365 activity and role. [Learn more about our AI Inference Engine here](/copilot/microsoft-365/people-skills-ai-inferencing). These AI-generated skills show on the user’s Microsoft 365 Live Profile Card (and are visible to others in the organization). When shown on the M365 Live Profile Card, AI-generated skills appear as gray, while Skills that a user confirms appear as blue with a checkmark. By default, AI inferencing is turned on for eligible users (Copilot and Viva users).  
 
 The below table summarizes what access settings are available to Admins to set for this control: 
 
 | Access setting| What it means|
 | -------- | -------- |
-|On, allow users to opt out (default) |When AI inferencing is soft enabled, users automatically receive AI-generated skills relevant to their role on their M365 Profile Card, unless the user opts out. Users may turn off (opt out of) AI inferencing for themselves in the Data and Privacy tab of their M365 Profile Editor page. If AI inferencing is turned on, and visibility controls are turned on (default behavior), then a user's AI-generated skills will show to other users in the organization when their profile card is viewed. |
-|Off, allow users to opt in |When AI inferencing is soft disabled, no AI-generated skills will be created for a user, unless the user decides to opt themselves in. Users may still manually search for, add, and confirm skills from your organization's skill library. Skills that a user has confirmed appear in a blue box with a checkmark on their M365 profiles. |
+|On, allow users to opt out (default) |When AI inferencing is soft enabled, users automatically receive AI-generated skills relevant to their role on their M365 Profile Card, unless the user opts out. Users may turn off (opt out of) AI inferencing for themselves in the Data and Privacy tab of their M365 Profile Editor page. If AI inferencing is turned on, and visibility controls are turned on (default behavior), then a user's AI-generated skills show to other users in the organization when their profile card is viewed. |
+|Off, allow users to opt in |When AI inferencing is soft disabled, no AI-generated skills are created for a user, unless the user decides to opt themselves in. Users may still manually search for, add, and confirm skills from your organization's skill library. Skills that a user confirms appear in a blue box with a checkmark on their M365 profiles. |
 |Off|When AI inferencing is hard disabled, then no AI-generated skills can be created. |
 
 
 ## Overview of the Skills profile visibility control 
 
-The **Skills profile visibility** setting controls whether any skills (AI-inferred, confirmed, or imported) are shown and visible to other users via the Microsoft 365 Live Profile Card, and whether skills data is shared with other Microsoft 365 experiences, such as Copilot and leader dashboards and analytics. [Please click here for full list of all applications that use Skills data](/copilot/microsoft-365/people-skills-overview#where-does-people-skills-data-appear). This control does not impact whether Skills data is shared with Viva Learning – Skills data will continue to be shared with Viva Learning if your tenant has a Viva Learning license regardless of this control.
+The **Skills profile visibility** setting controls whether any skills (AI-inferred, confirmed, or imported) are shown and visible to other users via the Microsoft 365 Live Profile Card, and whether skills data is shared with other Microsoft 365 experiences, such as Copilot and leader dashboards and analytics. [Click here for full list of all applications that use Skills data](/copilot/microsoft-365/people-skills-overview#where-does-people-skills-data-appear). This control does not impact whether Skills data is shared with Viva Learning – Skills data continues to be shared with Viva Learning if your tenant has a Viva Learning license regardless of this control.
 
-The **Skills profile visibility** control is a **parent control** to the **Show AI Skills** and **Show Imported Skills** controls; these two child controls automatically inherit whatever policy mode is set at the parent level. This means if **Skills profile visibility** is soft disabled, then **Show AI Skills** and **Show Imported Skills** will also be soft disabled – when all these controls are soft disabled, it means that a user’s confirmed skills, AI-inferred skills, and imported skills will not be visible to others in the organization unless the user chooses to opt in. Users can always opt in to show their Skills data with others if they want to.
+The **Skills profile visibility** control is a **parent control** to the **Show AI Skills** and **Show Imported Skills** controls; these two child controls automatically inherit whatever policy mode is set at the parent level. This means if **Skills profile visibility** is soft disabled, then **Show AI Skills** and **Show Imported Skills** are also soft disabled – when all these controls are soft disabled, it means that a user’s confirmed skills, AI-inferred skills, and imported skills are not visible to others in the organization unless the user chooses to opt in. Users can always opt in to show their Skills data with others if they want to.
 
 The below table summarizes what access settings are available to Admins to set for this control: 
 
 | Access setting| What it means|
 | -------- | -------- |
-|On, allow users to opt out (default) |Skills profile visibility is soft enabled (default), and all Skills that a user has (AI-inferred, confirmed, and/or imported) will show as visible to their colleagues (other users) within their organization on their M365 Profile Cards, and their Skills data will also be shared with [other applications](/copilot/microsoft-365/people-skills-overview#where-does-people-skills-data-appear) that use Skills. |
-|Off, allow users to opt in |Skills profile visibility is soft disabled, and all Skills that a user has (AI-inferred, confirmed, and/or imported) are hidden on M365 Profile Cards (not shown to other users), and not shared with other applications, unless the user decided to opt themselves in. The **Show AI Skills** and the **Show Imported Skills** controls will also be soft disabled. |
+|On, allow users to opt out (default) |Skills profile visibility is soft enabled (default), and all Skills that a user has (AI-inferred, confirmed, and/or imported) show as visible to their colleagues within their organization on their M365 Profile Cards, and their Skills data are also shared with [other applications](/copilot/microsoft-365/people-skills-overview#where-does-people-skills-data-appear) that use Skills. |
+|Off, allow users to opt in |Skills profile visibility is soft disabled, and all Skills that a user has (AI-inferred, confirmed, and/or imported) are hidden on M365 Profile Cards (not shown to other users), and not shared with other applications, unless the user decided to opt themselves in. The **Show AI Skills** and the **Show Imported Skills** controls are also soft disabled. |
 
 > [!Note]
 > We don't offer the option to hard disable **Skills Profile Visibility.** A user can always opt in to sharing their skills profile from their personal skills settings in Profile Editor. Admins can hard disable sharing of some skills such as AI-generated or imported skills (also referred to as organization added skills). 
@@ -145,35 +145,34 @@ The below table summarizes what access settings are available to Admins to set f
 
 ## Overview of the Show AI-inferred Skills control
 
-The **Show AI-inferred Skills** control determines whether AI-generated skills show as visible to others on the M365 Profile Card, and are shared with [other M365 applications that use Skills data](/copilot/microsoft-365/people-skills-overview#where-does-people-skills-data-appear). These skills are only visible if the parent controls (Skills Profile Visibility, People Skills AI inferencing, and People Skills user experiences) are also enabled (all controls are enabled by default).
+The **Show AI-inferred Skills** control determines whether AI-generated skills show as visible to others on the M365 Profile Card, and are shared with [other M365 applications that use Skills data](/copilot/microsoft-365/people-skills-overview#where-does-people-skills-data-appear). These skills are only visible if the parent controls (Skills Profile Visibility, People Skills AI inferencing, and People Skills user experiences) are also enabled. All controls are enabled by default.
 
 The below table summarizes what access settings are available to Admins to set for this control: 
 
 | Access setting| What it means|
 | -------- | -------- |
-|On, allow users to opt out (default) |This means that Show AI-inferred Skills is soft enabled, and AI-generated skills are shown as visible to colleagues on a user's M365 Live Profile Card and shared with other M365 applications. Users will have the ability to opt themselves out of showing AI-inferred skills. |
+|On, allow users to opt out (default) |This means that Show AI-inferred Skills is soft enabled, and AI-generated skills are shown as visible to colleagues on a user's M365 Live Profile Card and shared with other M365 applications. Users have the ability to opt themselves out of showing AI-inferred skills. |
 |Off, allow users to opt in |This means that Show AI-inferred Skills is soft disabled, and no AI-generated skills are shown as visible to colleagues on a user's M365 Live Profile Card nor are they shared with other M365 applications. |
 
 
 
 > [!NOTE]
-> These AI-Inferred skills are only shared if Skills Profile visibility is also enabled or shared. If Skills Profile Visibility is disabled, AI-inferred skills won't be shown to other users or shared with any Microsoft 365 experiences.
-
+> These AI-Inferred skills are only shared if Skills Profile visibility is also enabled or shared. If Skills Profile Visibility is disabled, AI-inferred skills aren't shown to other users or shared with any Microsoft 365 experiences.
 
 ## Overview of the Show Imported Skills control
 
-The **Show Imported Skills** control determines whether Admin imported skills (also referred to as organization added skills) may be shown as visible on a user's profile. Imported skills are ones that an Admin chooses to import that may come from other HRIS or talent systems external to Microsoft People Skills. These imported skills would only be visible if the parent controls (Skills Profile Visibility, and People Skills user experiences) are also enabled (all controls are enabled by default).
+The **Show Imported Skills** control determines whether Admin imported skills (also referred to as organization added skills) may be shown as visible on a user's profile. Imported skills are ones that an Admin chooses to import that may come from other talent systems external to Microsoft People Skills. These imported skills would only be visible if the parent controls (Skills Profile Visibility, and People Skills user experiences) are also enabled (all controls are enabled by default).
 
 The below table summarizes what access settings are available to Admins to set for this control:
 
 |Access setting|What it means|
 | -------- | -------- |
-|On, allow users to opt out (default)|This means that any imported skills will be shown as visible to colleagues on a user's M365 Live Profile Card and shared with other M365 applications. Users will have the ability to opt themselves out of showing and sharing imported skills.|
-|Off, allow users to opt in|This means that any imported skills will not be visible to colleagues on a user's M365 Live Profile Card nor are they shared with other M365 applications.|
+|On, allow users to opt out (default)|This means that any imported skills are shown as visible to colleagues on a user's M365 Live Profile Card and shared with other M365 applications. Users have the ability to opt themselves out of showing and sharing imported skills.|
+|Off, allow users to opt in|This means that any imported skills are not be visible to colleagues on a user's M365 Live Profile Card nor are they shared with other M365 applications.|
 
 
 > [!NOTE]
-> These imported skills are only shared if Skills Profile visibility is also enabled or shared. If Skills Profile Visibility is disabled, AI-inferred skills won't be shown to other users or shared with any Microsoft 365 experiences.
+> These imported skills are only shared if Skills Profile visibility is also enabled or shared. If Skills Profile Visibility is disabled, AI-inferred skills aren't shown to other users or shared with any Microsoft 365 experiences.
 
 ## Manage data sharing with Viva Insights
 
@@ -201,7 +200,7 @@ Admins have the ability to enable or disable People Skills data sharing with Viv
 1. To enable, check (or uncheck to disable) **Allow skills in Viva Insights**
 
 > [!NOTE]
-> Any historical data will still remain in Viva Insights even after disabling. 
+> Any historical data still remains in Viva Insights even after disabling. 
 
 ## Manage People Skills controls in Feature access management
 
@@ -264,11 +263,11 @@ You can create a policy for any of the available feature controls by following t
 1. **Apply the access setting to** the desired user scope
 
 > [!NOTE]
-> For a detailed explanation of **Features** and **Access settings**, please review the section above Overview of Admin Controls section above. 
+> For a detailed explanation of **Features** and **Access settings**, review the section above Overview of Admin Controls section above. 
 
 ### Configuring Admin Controls in PowerShell
 
-If you use PowerShell, then please refer to the table below for an explanation of how each of the People Skills admin controls map to features within Feature access management, and the Policy Modes that are available for each.
+If you use PowerShell, then see the table below for an explanation of how each of the People Skills admin controls map to features within Feature access management, and the Policy Modes that are available for each.
 
 #### Feature-to-Policy Mapping
 
@@ -306,9 +305,9 @@ Policies are evaluated in this order:
 
 1. Tenant-wide (organization-wide) policies
 
-**Example:** This means that if a user is included in both a group-level and an organization-wide policy, the group-level policy will take priority. 
+**Example:** This means that if a user is included in both a group-level and an organization-wide policy, the group-level policy takes priority. 
 
-When policy modes conflict, they will follow the below order from highest to lowest priority: 
+When policy modes conflict, they follow the below order from highest to lowest priority: 
 
 1. Hard disable
 
@@ -326,7 +325,7 @@ When assigned a policy to specific users or groups, you can include up to 20 use
 
 #### How to use PowerShell Commands
 
-To learn how to use PowerShell syntax, refer to __[our Feature Access Management documentation](/viva/manage-access-policies)__. For more information on how to create and manage policies, see [control access to features](/viva/feature-access-management) and [Add-VivaModuleFeaturePolicy PowerShell command details](/powershell/module/exchangepowershell/add-vivamodulefeaturepolicy).
+To learn how to use PowerShell syntax, see __[our Feature Access Management documentation](/viva/manage-access-policies)__. For more information on how to create and manage policies, see [control access to features](/viva/feature-access-management) and [Add-VivaModuleFeaturePolicy PowerShell command details](/powershell/module/exchangepowershell/add-vivamodulefeaturepolicy).
 
 Below are some examples of PowerShell commands – these examples are not intended to be copy and pasted– you may need to update and replace the values to suit your requirements depending on your specific use-case scenario. 
 
@@ -341,11 +340,11 @@ Below are some examples of PowerShell commands – these examples are not intend
 >   - `-UserIds "user1@contoso.com","user2@contoso.com"` (specific users)
 > - The Feature Access Policy name values have to be unique, so make sure you are editing __-Name__ in the PowerShell commands with names that are descriptive and unique to your policy
 
-In the below PowerShell command examples, we may be using different **FeatureId** examples than what may be relevant for your scenario. Please ensure that you use the correct **FeatureId** for your scenarios. For more details on PowerShell syntax, refer to [our Feature Access Management documentation](/viva/manage-access-policies).
+In the below PowerShell command examples, we may be using different **FeatureId** examples than what may be relevant for your scenario. Ensure that you use the correct **FeatureId** for your scenarios. For more details on PowerShell syntax, see [our Feature Access Management documentation](/viva/manage-access-policies).
 
 #### Command Examples for Skills AI Inferencing Control
 
-**Keep skills inferencing enabled but default off:** Skills inferencing is available in your tenant, but users in this access policy will be "opted-out," and won't receive inferencing suggestions. Users have the option to turn it on for themselves in the Microsoft 365 profile editor, on the Data and privacy tab.
+**Keep skills inferencing enabled but default off:** Skills inferencing is available in your tenant, but users in this access policy are "opted-out," and don't receive inferencing suggestions. Users have the option to turn it on for themselves in the Microsoft 365 profile editor, on the Data and privacy tab.
 
 To create this policy, run the following PowerShell cmdlet.
 
@@ -363,7 +362,7 @@ Add-VivaModuleFeaturePolicy -ModuleId PeopleSkills -FeatureId SkillsInfe
 
 #### Command examples for the People Skills profile visibility control
 
-**Keep profile visibility default off:** Users in this access policy will be opted-out, and their skills won't be shared across Microsoft 365. Users have the option to turn it on for themselves in their skill settings.
+**Keep profile visibility default off:** Users in this access policy are opted-out, and their skills aren't shared across Microsoft 365. Users have the option to turn it on for themselves in their skill settings.
 
 To create this policy, run the following PowerShell cmdlet:
 
@@ -374,7 +373,7 @@ Add-VivaModuleFeaturePolicy -ModuleId PeopleSkills -FeatureId SkillsProfileV
 
 #### Command examples for Show AI-Inferred Skills control
 
-**Keep the default sharing off for AI-generated skills**: Users in this access policy will be "opted-out," and their AI-generated skills won't be shared across Microsoft 365. Users have the option to turn it on for themselves in their skill settings.
+**Keep the default sharing off for AI-generated skills**: Users in this access policy are "opted-out," and their AI-generated skills aren't shared across Microsoft 365. Users have the option to turn it on for themselves in their skill settings.
 
 To create this policy, run the following PowerShell cmdlet:
 
@@ -392,7 +391,7 @@ Add-VivaModuleFeaturePolicy -ModuleId PeopleSkills -FeatureId ShowAISkil
 
 #### Command examples for the Show Imported skills Control
 
-**Keep imported skill sharing default off:** Users in this access policy will be "opted-out," and their third-party skills won't be shared across Microsoft 365. Users have the option to turn it on for themselves in their skill settings.
+**Keep imported skill sharing default off:** Users in this access policy are "opted-out," and their third-party skills aren't shared across Microsoft 365. Users have the option to turn it on for themselves in their skill settings.
 
 To create this policy, run the following PowerShell cmdlet:
 
