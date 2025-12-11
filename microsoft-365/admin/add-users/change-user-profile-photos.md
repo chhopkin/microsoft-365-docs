@@ -157,71 +157,71 @@ If the user has no photo, the commands return the error: `Exception of type 'Mic
    Get-MgGroupPhoto -GroupId 173cd812-5563-439c-9da4-bc2715fa2aee
    ```
 
-  For detailed syntax and parameter information, see [Get-MgGroupPhoto](/powershell/module/microsoft.graph.groups/get-mggroupphoto).
+   For detailed syntax and parameter information, see [Get-MgGroupPhoto](/powershell/module/microsoft.graph.groups/get-mggroupphoto).
 
 ### Download user photos in Microsoft Graph PowerShell
 
 - **Users**:
 
-  ```powershell
-  Get-MgUserPhotoContent -UserId <UPN> -OutFile "<PhotoPathAndFileName>
-  ```
+   ```powershell
+   Get-MgUserPhotoContent -UserId <UPN> -OutFile "<PhotoPathAndFileName>
+   ```
 
-  For example:
+   For example:
 
-  ```powershell
-  Get-MgUserPhotoContent -UserId albertas@contoso.onmicrosoft.com -OutFile "C:\Download\Alberta Sanchez.png"
-  ```
+   ```powershell
+   Get-MgUserPhotoContent -UserId albertas@contoso.onmicrosoft.com -OutFile "C:\Download\Alberta Sanchez.png"
+   ```
 
-  For detailed syntax and parameter information, see [Get-MgUserPhotoContent](/powershell/module/microsoft.graph.users/get-mguserphotocontent).
+   For detailed syntax and parameter information, see [Get-MgUserPhotoContent](/powershell/module/microsoft.graph.users/get-mguserphotocontent).
 
 - **Microsoft 365 Groups**:
 
-  ```powershell
-  Get-MgGroupPhotoContent -GroupId <ID> -OutFile "<PhotoPathAndFileName>
-  ```
+   ```powershell
+   Get-MgGroupPhotoContent -GroupId <ID> -OutFile "<PhotoPathAndFileName>
+   ```
 
-  You get the ID GUID value of the Microsoft 365 Group from the output of a **Get-MgGroup** command.
+   You get the ID GUID value of the Microsoft 365 Group from the output of a **Get-MgGroup** command.
 
-  For example:
+   For example:
 
-  ```powershell
-  Get-MgGroupPhotoContent -GroupId 173cd812-5563-439c-9da4-bc2715fa2aee -OutFile "C:\Download\Sales Department.png"
-  ```
+   ```powershell
+   Get-MgGroupPhotoContent -GroupId 173cd812-5563-439c-9da4-bc2715fa2aee -OutFile "C:\Download\Sales Department.png"
+   ```
 
-  For detailed syntax and parameter information, see [Get-MgGroupPhotoContent](/powershell/module/microsoft.graph.groups/get-mggroupphotocontent).
+   For detailed syntax and parameter information, see [Get-MgGroupPhotoContent](/powershell/module/microsoft.graph.groups/get-mggroupphotocontent).
 
 ### Remove user photos in Microsoft Graph PowerShell
 
 - **Users**:
 
-  ```powershell
-  Remove-MgUserPhoto -UserId <UPN>
-  ```
+   ```powershell
+   Remove-MgUserPhoto -UserId <UPN>
+   ```
 
-  For example:
+   For example:
 
-  ```powershell
-  Remove-MgUserPhoto -UserId albertas@contoso.onmicrosoft.com
-  ```
+   ```powershell
+   Remove-MgUserPhoto -UserId albertas@contoso.onmicrosoft.com
+   ```
 
-  For detailed syntax and parameter information, see [Remove-MgUserPhoto](/powershell/module/exchangepowershell/remove-userphoto).
+   For detailed syntax and parameter information, see [Remove-MgUserPhoto](/powershell/module/exchangepowershell/remove-userphoto).
 
 - **Microsoft 365 Groups**:
 
-  ```powershell
-  Remove-MgGroupPhoto -GroupId <ID>
-  ```
+   ```powershell
+   Remove-MgGroupPhoto -GroupId <ID>
+   ```
 
-  You get the ID GUID value of the Microsoft 365 Group from the output of a **Get-MgGroup** command.
+   You get the ID GUID value of the Microsoft 365 Group from the output of a **Get-MgGroup** command.
 
-  For example:
+   For example:
 
-  ```powershell
-  Remove-MgGroupPhoto -GroupId 173cd812-5563-439c-9da4-bc2715fa2aee
-  ```
+   ```powershell
+   Remove-MgGroupPhoto -GroupId 173cd812-5563-439c-9da4-bc2715fa2aee
+   ```
 
-  For detailed syntax and parameter information, see [Remove-MgGroupPhoto](/powershell/module/exchangepowershell/remove-userphoto).
+   For detailed syntax and parameter information, see [Remove-MgGroupPhoto](/powershell/module/exchangepowershell/remove-userphoto).
 
 ## Configure photo update settings in your Microsoft 365 organization
 
