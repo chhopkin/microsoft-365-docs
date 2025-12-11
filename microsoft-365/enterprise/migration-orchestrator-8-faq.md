@@ -27,26 +27,7 @@ If you start a migration and realize that you need to cancel it, you need to can
 
 ## Moving user data back
 
-If a user's data moves to the target tenant, but it needs to return to the source tenant, admins need to run mailbox migration in the correct direction to return the user's mailbox to the source. Teams chats and meetings aren't migrated. As none of the chats are deleted from the source tenant, the users should still have access to them. If a user's removed from a Teams chat or meeting, a different member of the chat can add the user back.
-
-Source mailboxes (that is, the original target mailboxes) may have a hold applied due to the initial migration. Any holds need to be removed in order for the migration to succeed.
-
-Example cmdlets:
-
-`Get-Mailbox AllanD | fl *hold*`
-
-`Set-Mailbox AllanD -RemoveDelayReleaseHoldApplied`
-
-Two tenants shouldn't process both:
-- A move from source to target.
-- A move from target to source at the same time.
-
-This scenario isn't tested.
-
-> [!NOTE]
-> The Orchestrated migration in a moveback scenario is largely untested. Though technically the migration processes the mailbox, chats, and meeting migrations, we haven't verified the efficacy of the migration and don't recommend using this method.
-
-XXX I FEEL THAT STATEMENT NEEDS CLARIFICATION. HAS CELA VETTED THIS? WHY ARE WE PUTTING THIS HERE? ARE WE SUPPORTING THIS?
+Migration of data user data back to the source tenant through the orchestrated system is not supported in preview. If you need to move a user’s email and OneDrive back to the source tenant after completing a successful migration to the target tenant, please use the standalone mailbox and OneDrive migration options. Teams meetings will not be recreated after this migration and will need to be recreated manually. The original Teams chat message modifications will also not be touched. If data migration for users back to the original source is a scenario that is required, please use the Generally Available version of cross-tenant migration of mailboxes and OneDrives. 
 
 ## General migration
 

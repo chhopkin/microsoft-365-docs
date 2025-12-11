@@ -107,7 +107,7 @@ body = '{
 "Meeting"
   ]
 }'
-(code) Test-MgBetaCrossTenantMigrationJob -BodyParameter $body 
+Test-MgBetaCrossTenantMigrationJob -BodyParameter $body 
 ```
 
 #### Option 2: Use parameters
@@ -288,26 +288,25 @@ Before submitting a batch for migration, validate that the batch and its users a
 
 See the full list of prerequisites that are checked during validation: [Prevalidation checks](migration-orchestrator-2-planning-prerequisites.md#prevalidation-checks).
 
-See [Validate the batch](#validate-the-batch) for an available list of validation commands to run.
+See [Validate the batch](#submit-a-batch-for-validation) for an available list of validation commands to run.
 
 Get the detailed report of failures and mitigate those failures before retrying at the batch level (see [Retrieve a specific batch](#retrieve-a-specific-batch)) and at the user level (see [Retrive user status within a specific batch](#retrieve-user-status-within-a-specific-batch)).
 
 Review the batch status. If it is ValidatePassed, then all prerequisites are met and you can continue to migrate the batch. If it is ValidateFailed, investigate the errors and messages. See [Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors). Fix those issues and run validate on a new batch until all issues are resolved, and the state is ValidatePassed.
 
-#### Make any required changes
+### Submit a migration batch
 
-If changes need to be made to the migration, like changing the [Complete After Date](#update-the-complete-after-date-for-a-specific-batch), [removing a user from a batch](#remove-a-user-from-a-batch-and-cancel-that-users-migration) , or cancelling a migration, this can be done until a certain point in the migration, as defined in the [batch status table](#batch-migration-description-values).
+Submit the batch once the validation batch is successful. Using a new batch name, submit the batch [Submit a migration batch](#submit-a-batch-for-migration).  Regularly monitor the migration at the batch level: [Retrieve a specific batch](#retrieve-a-specific-batch) and at the user level: [Retrieve user status within a specific batch](#retrieve-user-status-within-a-specific-batch). To understand progress, consult the [Batch migration description values table](#batch-migration-description-values).
+If there are failures, investigate the errors and messages: [Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors). returned on the user objects. Follow the troubleshooting guidance to mitigate any issues and retry, starting again with validation.
 
 #### After migration completes
 
 When the migration is completed, you can monitor the results of the batch and user statuses. If any migrations failed, examine the error code and message for any retry instructions. Once users reach a terminal status of 'Cancelled' or 'Failed', they can be added to a new batch to be retried.
 
-### Submit a migration batch
+#### Make any required changes
 
-Submit a batch for migration by using the instructions provided in [Submit a migration batch](#submit-a-batch-for-migration).
+If changes need to be made to the migration, like changing the [Complete After Date](#update-the-complete-after-date-for-a-specific-batch), [removing a user from a batch](#remove-a-user-from-a-batch-and-cancel-that-users-migration) , or [cancelling a migration](##cancel-a-batch), this can be done until a certain point in the migration, as defined in the [batch status table](#batch-migration-description-values).
 
-Fix any failures for users with an invalid status when the batch status is ValidateFailed.
-When the validation shows no failures, move on to submit the batch for migration.
 
 ## Batch migration description values
 

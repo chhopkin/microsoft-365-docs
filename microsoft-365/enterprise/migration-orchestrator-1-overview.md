@@ -27,6 +27,8 @@ Tenant-to-tenant migration using orchestrator in Microsoft 365 enables organizat
 
 This article provides a high-level overview of the migration process, including architecture models, licensing requirements, key security and compliance considerations, and supported workloads.
 
+To provide feedback or make requests to the product team, please use [this form](https://forms.office.com/r/0QU3YbYhDn). 
+
 ## Migration Architecture Models
 
 Organizations can choose from several migration models depending on their business needs:
@@ -75,7 +77,7 @@ While customers can run migrations for the workloads they want, the Teams Meetin
 > [!IMPORTANT]
 > Identity Mapping is required, which means the specific user configuration supported by Identity Mapping is required. [Learn more](cross-tenant-identity-mapping.md) about Identity mapping.
 
-If you have a specific scenario that requires you to migrate workloads individually, reach out to our support alias to discuss options and potential risks.
+If you have a specific scenario that requires you to migrate workloads individually, reach out to via our [support form](https://forms.office.com/r/0QU3YbYhDn) to discuss options and potential risks.
 
 ### Exchange mailbox scope
 
