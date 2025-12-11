@@ -87,7 +87,7 @@ The required setup steps for OneDrive Migration on both source and target are av
 > [!IMPORTANT]
 > These instructions must be run from both the source and the target tenant.
 
-1. Download [the module](https://download.microsoft.com/download/1ded7541-fa8d-48f7-90c4-fa8a15a6b62b/ConfigureOneDriveMigration.psm1) onto your local machine.
+1. Download [the module](https://download.microsoft.com/download/1ded7541-fa8d-48f7-90c4-fa8a15a6b62b/ConfigureTeamsChatMigration.psm1) onto your local machine.
 2. Connect to Graph PowerShell as a Global Administrator:
   `Connect-MgGraph`
 3. Import the module containing the configuration details:
@@ -107,8 +107,7 @@ The required setup steps for OneDrive Migration on both source and target are av
     5. Teamwork.Migrate.All
     6. ChatMember.ReadWrite.All
     7. User.Read.All
-    8. Application.Read.All
-    9. CrossTenantMigrationAuthorization-Internal.Read
+    8. CrossTenantMigrationAuthorization-Internal.Read
 
 ### Prepare both tenants by configuring the Teams Meeting Migration app
 
@@ -116,36 +115,36 @@ The required setup steps for OneDrive Migration on both source and target are av
 > These instructions must be run from both the source and the target tenant.
 
 1. Set the Execution Policy:
-  `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`
-2. Download [the module](https://download.microsoft.com/download/1ded7541-fa8d-48f7-90c4-fa8a15a6b62b/ConfigureOneDriveMigration.psm1) onto your local machine.
+    `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`
+2. Download [the module](https://download.microsoft.com/download/1ded7541-fa8d-48f7-90c4-fa8a15a6b62b/ConfigureTeamsMeetingMigration.psm1) onto your local machine.
 3. Connect to Graph PowerShell as a Global Administrator:
-  `Connect-MgGraph`
+    `Connect-MgGraph`
 4. Import the module containing the configuration details:
-  `Import-Module <location>`
+    `Import-Module <location>`
 5. Install the dependencies for running MMS Script. If you installed some of these dependencies in setup tasks for other workloads, you don't need to reinstall now.
-  `Install-Module Microsoft.Graph.Authentication`
-  `Install-Module Microsoft.Graph.Applications`
-  `Install-Module Microsoft.Graph.Identity.DirectoryManagement`
-  `Install-Module ExchangeOnlineManagement`
-  `Install-Module MicrosoftTeams`
+    `Install-Module Microsoft.Graph.Authentication`
+    `Install-Module Microsoft.Graph.Applications`
+    `Install-Module Microsoft.Graph.Identity.DirectoryManagement`
+    `Install-Module ExchangeOnlineManagement`
+    `Install-Module MicrosoftTeams`
 6. **Only for the source tenant**: Grant App Permissions:
-  `Grant-MMSAppPermissions -TenantType "source"`
+    `Grant-MMSAppPermissions -TenantType "source"`
 7. **Only for the target tenant**: Grant App Permissions for the target tenant:
   `Grant-MMSAppPermissions -TenantType "target"`
 8. Connect to Exchange Online:
   `Connect-ExchangeOnline`
 9. Enable Auto Forwarding for both source and target tenant:
-  `Enable-AutoForwardingMode`
-  - Success: `Autoforwarding is set to On for Default Outbound Spam Filter Policy.`
+    `Enable-AutoForwardingMode`
+    - Success: `Autoforwarding is set to On for Default Outbound Spam Filter Policy.`
 10. Only for the target tenant: Set the calendar RBAC roles:
   `Set-CalendarRBACRoles`
-  - Success: `RBAC role has been assigned to MMS App to allow Calendar Read Write Permissions.`
-11. If Microsoft.Graph.Authentication, Microsoft.Graph, ExchangeOnlineManagement aren't installed, you're prompted to do so.
-12.	Grant-MMSAppPermissions adds Service Principals for:
+    - Success: `RBAC role has been assigned to MMS App to allow Calendar Read Write Permissions.`
+11. If Microsoft.Graph.Authentication, Microsoft.Graph.ExchangeOnlineManagement aren't installed, you're prompted to do so.
+12. Grant-MMSAppPermissions adds Service Principals for:
     1. Cross Tenant Teams Migration app
     1. Meeting Migration Service app
     1. Identity Mapping Service app
-13.	Grant-MMSAppPermissions adds App Roles for:
+13. Grant-MMSAppPermissions adds App Roles for:
     1. Cross Tenant Teams Migration app role from Cross Tenant Teams Migration app assigned to target Meeting Migration Service App
     1. Identity Mapping Service app role from Identity Mapping Service app to target Meeting Migration Service app
     1. CrossTenantMigrationAuthorization-Internal.Read
@@ -164,17 +163,16 @@ The required setup steps for OneDrive Migration on both source and target are av
 
 Running Identity Mapping is a required step for migrating user data. Cross-Tenant Identity Mapping (CTIM) is a tool that allows source users to be mapped one-to-one to target users. It edits the users' properties, so they have the correct properties to successfully migrate. It also maintains a mapping file to reference so that the data for the correct source users is migrated to the correct target users.
 
-[Learn more](cross-tenant-identity-mapping.md) about Identity Mapping.
+To learn more about Identity Mapping, see [Cross-Tenant Identity Mapping](cross-tenant-identity-mapping.md).
 
 > [!IMPORTANT]
 > Use CTIM after creating target users and before migrating data to ensure accuracy and avoid manual errors.
-
 
 ## Prepare the target tenant for Cross-Tenant Migration Service
 
 To prepare the target tenant for the Cross-Tenant Migration Service, follow these steps:
 
-1. Download [the module](https://download.microsoft.com/download/1ded7541-fa8d-48f7-90c4-fa8a15a6b62b/ConfigureOneDriveMigration.psm1) onto your local machine.
+1. Download [the module](https://download.microsoft.com/download/1ded7541-fa8d-48f7-90c4-fa8a15a6b62b/ConfigureCrossTenantMigrationService.psm1) onto your local machine.
 2. Connect to Graph PowerShell as a Global Administrator:
   `Connect-MgGraph`
 3. Import the module containing the configuration details:
