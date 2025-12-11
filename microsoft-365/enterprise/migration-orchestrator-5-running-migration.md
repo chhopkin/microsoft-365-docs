@@ -73,7 +73,7 @@ For a breakdown of the meanings behind the statuses and errors, see [Batch migra
 There's up to an hour-long delay between when updates are made to the group containing the authorized users for migration and when our system processes those changes. Allow for up to an hour to start the migration after changes are made to the group membership.
 
 > [!NOTE]
-> For additional troubleshooting guidance, see [Resolve orchestrated migration errors](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors).
+> For more troubleshooting guidance, see [Resolve orchestrated migration errors](https://aka.ms/troubleshoot-orchestrated-migration).
 
 ## Commands available to run
 
@@ -164,7 +164,7 @@ This feature allows you to see all submitted batches. You see both validation an
 Get-MgBetaCrossTenantMigrationJob
 ```
 
-By default, the 20 most recent results will appear. To access more, run the command with the parameter **-All**.
+By default, the 20 most recent results appear. To access more, run the command with the parameter **-All**.
 
 ### Retrieve a specific batch
 
@@ -203,7 +203,7 @@ Acceptable date and time formats are available on [Standard date and time format
 
 ### Cancel a batch
 
-This feature allows you to cancel an entire batch and all of its users' migrations. It cancels all migrations for users whose mailboxes have not yet cutover. A batch can only be cancelled before the Complete After Date has passed. After this point, the migration will continue without cancellation.
+This feature allows you to cancel an entire batch and all of its users' migrations. It cancels all migrations for users whose mailboxes have not yet cutover. A batch can only be canceled before the Complete After Date has passed. After this point, the migration will continue without cancellation.
 
 ```powershell
 Stop-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> 
@@ -296,9 +296,9 @@ See the full list of prerequisites that are checked during validation: [Prevalid
 
 See [Validate the batch](#submit-a-batch-for-validation) for an available list of validation commands to run.
 
-Get the detailed report of failures and mitigate those failures before retrying at the batch level (see [Retrieve a specific batch](#retrieve-a-specific-batch)) and at the user level (see [Retrive user status within a specific batch](#retrieve-user-status-within-a-specific-batch)).
+Get the detailed report of failures and mitigate those failures before retrying at the batch level (see [Retrieve a specific batch](#retrieve-a-specific-batch)) and at the user level (see [Retrieve user status within a specific batch](#retrieve-user-status-within-a-specific-batch)).
 
-Review the batch status. If it is ValidatePassed, then all prerequisites are met and you can continue to migrate the batch. If it is ValidateFailed, investigate the errors and messages. See [Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors). Fix those issues and run validate on a new batch until all issues are resolved, and the state is ValidatePassed.
+Review the batch status. If it's ValidatePassed, then all prerequisites are met and you can continue to migrate the batch. If it's ValidateFailed, investigate the errors and messages. See [Troubleshoot orchestrated migration](https://aka.ms/troubleshoot-orchestrated-migration). Fix those issues and run validate on a new batch until all issues are resolved, and the state is ValidatePassed.
 
 ### Submit a migration batch
 
@@ -308,15 +308,15 @@ Regularly monitor the migration at the batch level: [Retrieve a specific batch](
 
 To understand progress, consult the [Batch migration description values table](#batch-migration-description-values).
 
-If there are failures, investigate the errors and messages returned on the user objects:  [Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors). Follow the troubleshooting guidance to mitigate any issues and retry, starting again with validation.
+If there are failures, investigate the errors and messages returned on the user objects:  [Troubleshoot orchestrated migration](https://aka.ms/troubleshoot-orchestrated-migration). Follow the troubleshooting guidance to mitigate any issues and retry, starting again with validation.
 
 #### After migration completes
 
-When the migration is completed, you can monitor the results of the batch and user statuses. If any migrations failed, examine the error code and message for any retry instructions. Once users reach a terminal status of 'Cancelled' or 'Failed', they can be added to a new batch to be retried.
+When the migration is completed, you can monitor the results of the batch and user statuses. If any migrations failed, examine the error code and message for any retry instructions. Once users reach a terminal status of 'Canceled' or 'Failed', they can be added to a new batch to be retried.
 
 #### Make any required changes
 
-If changes need to be made to the migration, like changing the [Complete After Date](#update-the-complete-after-date-for-a-specific-batch), [removing a user from a batch](#remove-a-user-from-a-batch-and-cancel-that-users-migration) , or [cancelling a migration](#cancel-a-batch), this can be done until a certain point in the migration, as defined in the [batch status table](#batch-migration-description-values).
+If changes need to be made to the migration, like changing the [Complete After Date](#update-the-complete-after-date-for-a-specific-batch), [removing a user from a batch](#remove-a-user-from-a-batch-and-cancel-that-users-migration), or [canceling a migration](#cancel-a-batch), this can be done until a certain point in the migration, as defined in the [batch status table](#batch-migration-description-values).
 
 ## Batch migration description values
 
@@ -328,11 +328,11 @@ Use the following table to understand the validation and migration flows and sta
 | Status | Description | Workloads |
 | --- | --- | --- |
 | Submitted/Approved/Processing  | The batch is submitted. | [Exchange] NotStarted <BR/> [Teams Chats] NotStarted <BR/> [Teams Meetings] NotStarted <BR/> [OneDrive] NotStarted <BR/> |
-| InProgress | The batch is in progress. This includes checking for prerequisites for all workloads as well as processing the sync for the mailboxes. Batches and user migrations can be cancelled throughout this phase. | [Exchange] Synced/Finalizing/Completed <BR/> [Teams Chats] Synced/InProgress <BR/> [Teams Meetings] Synced/InProgress <BR/> [OneDrive] Synced/InProgress <BR/> |
-| CuttingOver | The batch is cutting over. This means that the mailbox is cutting over or has cut over, and the chats, meetings, and OneDrives are migrating.  <BR/> No cancellations can happen at this point. | [Exchange] Synced/Finalizing/Completed <BR/> [Teams Chats] Synced/InProgress <BR/>[Teams Meetings] Synced/InProgress <BR/> [OneDrive] Synced/InProgress<BR/>|
+| InProgress | The batch is in progress. This includes checking for prerequisites for all workloads and processing the sync for the mailboxes. Batches and user migrations can be canceled throughout this phase. | [Exchange] Synced/Finalizing/Completed <BR/> [Teams Chats] Synced/InProgress <BR/> [Teams Meetings] Synced/InProgress <BR/> [OneDrive] Synced/InProgress <BR/> |
+| CuttingOver | The batch is cutting over. This means that the mailbox is cutting over or has cut over, and the chats, meetings, and OneDrive are migrating.  <BR/> No cancellations can happen at this point. | [Exchange] Synced/Finalizing/Completed <BR/> [Teams Chats] Synced/InProgress <BR/>[Teams Meetings] Synced/InProgress <BR/> [OneDrive] Synced/InProgress<BR/>|
 | Completed |  The batch is completed without any errors. | [Exchange] Completed <BR/> [Teams Chats] Completed <BR/> [Teams Meetings] Completed <BR/> [OneDrive] Completed <BR/> |
 | CompletedWithErrors  | The batch completed, but with errors. | [Exchange] Completed/Failed <BR/> [Teams Chats] Completed/Failed <BR/> [Teams Meetings] Completed/Failed <BR/> [OneDrive] Completed/Failed <BR/> |
-| Cancelled | The batch is cancelled. |  |
+| Canceled | The batch is canceled. |  |
 | Failed | The batch failed.  |  |
 | PendingCancel | The batch is pending cancellation. |  |
 | PendingDelete | The batch is pending deletion. |  |
