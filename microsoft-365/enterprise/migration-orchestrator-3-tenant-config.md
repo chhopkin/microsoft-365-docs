@@ -318,7 +318,6 @@ Running Identity Mapping is a required step for migrating user data. Cross-Tenan
 > [!IMPORTANT]
 > Use CTIM after creating target users and before migrating data to ensure accuracy and avoid manual errors.
 
-XXX COPY IN LOOP CONTENT AFTER WE'VE FINALIZED IN SOURCE DOC.
 
 ## Prepare the target tenant for Cross-Tenant Migration Service
 
