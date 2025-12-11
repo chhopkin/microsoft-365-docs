@@ -3,7 +3,7 @@ title: Migration orchestrator source and tenant domain configuration
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 12/01/2025
+ms.date: 12/11/2025
 recommendations: true
 audience: ITPro
 ms.topic: upgrade-and-migration-article
@@ -96,9 +96,13 @@ The required setup steps for OneDrive Migration on both source and target are av
   `Grant-CTTMAppPermissions`
 5. To get detailed help, run `Get-Help Grant-CTTMAppPermissions -Detailed`. Authenticate in and accept.
 6. If Microsoft.Graph.Authentication and Microsoft.Graph.Applications aren't already installed, you're prompted to do so.
-  `Install-Module Microsoft.Graph.Authentication`
-  `Install-Module Microsoft.Graph.Applications`
-  `Grant-CTTMAppPermissions`
+
+    ```powershell
+    Install-Module Microsoft.Graph.Authentication
+    Install-Module Microsoft.Graph.Applications
+    Grant-CTTMAppPermissions
+    ```
+
 7. There are nine permissions added:
     1. Cross Tenant Teams Migration app role
     2. Identity Mapping Service app role
@@ -122,11 +126,15 @@ The required setup steps for OneDrive Migration on both source and target are av
 4. Import the module containing the configuration details:
     `Import-Module <location>`
 5. Install the dependencies for running MMS Script. If you installed some of these dependencies in setup tasks for other workloads, you don't need to reinstall now.
-    `Install-Module Microsoft.Graph.Authentication`
-    `Install-Module Microsoft.Graph.Applications`
-    `Install-Module Microsoft.Graph.Identity.DirectoryManagement`
-    `Install-Module ExchangeOnlineManagement`
-    `Install-Module MicrosoftTeams`
+
+    ```powershell
+        Install-Module Microsoft.Graph.Authentication
+        Install-Module Microsoft.Graph.Applications
+        Install-Module Microsoft.Graph.Identity.DirectoryManagement
+        Install-Module ExchangeOnlineManagement
+        Install-Module MicrosoftTeams
+    ```
+
 6. **Only for the source tenant**: Grant App Permissions:
     `Grant-MMSAppPermissions -TenantType "source"`
 7. **Only for the target tenant**: Grant App Permissions for the target tenant:
@@ -181,9 +189,12 @@ To prepare the target tenant for the Cross-Tenant Migration Service, follow thes
   `Grant-CTTMAppPermissions`
 5. To get detailed help, run `Get-Help Grant-CTTMAppPermissions -Detailed`. Authenticate in and accept.
 6. If Microsoft.Graph.Authentication and Microsoft.Graph.Applications aren't already installed, you're prompted to do so.
-  `Install-Module Microsoft.Graph.Authentication`
-  `Install-Module Microsoft.Graph.Applications`
-  `Grant-CTTMAppPermissions`
+
+    ```powershell
+      Install-Module Microsoft.Graph.Authentication
+      Install-Module Microsoft.Graph.Applications
+      Grant-CTTMAppPermissions
+    ```
 
 You should receive output showing **CrossTenantMigration Prod AAD App** as an app with roles assigned and other apps provisioned by this point. The IdentityMapping-Experimental-Internal.Read app role is granted to the CTMS (cloud transport management service) application.
 
