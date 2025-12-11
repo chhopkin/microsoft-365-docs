@@ -91,6 +91,7 @@ You must have [admin permissions](about-admin-roles.md) in Microsoft 365 to do t
 
 ## Related content
 
-[Delete a user](delete-a-user.md)
-[Assign admin roles](assign-admin-roles.md)
-[Assign licenses to users](../manage/assign-licenses-to-users.md)
+- [Delete a user](delete-a-user.md)
+- [Assign admin roles](assign-admin-roles.md)
+- [Assign licenses to users](../manage/assign-licenses-to-users.md)
+- [Troubleshooting: How to restore deleted user accounts in Microsoft 365, Azure, and Intune](/previous-versions/troubleshoot/microsoft-365/admin/restore-deleted-user-accounts)
