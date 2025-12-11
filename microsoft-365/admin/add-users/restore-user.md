@@ -64,9 +64,9 @@ To resolve this user name conflict, replace the active user account with the one
 2. On the **Deleted users** page, select the names of the users that you want to restore, and then select **Restore user**.
 
     > [!NOTE]
-    > If two or more user accounts fail to be restored, an error message advises you that the restore operation failed for some users. View the log to see which users were not restored, and then restore the failed accounts one at a time.
+    > If two or more user accounts fail to be restored, an error message advises you that the restore operation failed for some users. View the log to see which users weren't restored, and then restore the failed accounts one at a time.
   
-3. Follow the prompts to set the password and select **Restore**.
+3. Follow the instructions to set the password and select **Restore**.
 
 4. A message pops up that says there was a problem restoring the account. Do one of the following:
 
