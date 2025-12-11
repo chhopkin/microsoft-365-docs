@@ -46,7 +46,7 @@ Organizations can choose from several migration models depending on their busine
 To use tenant-to-tenant migration features, organizations must meet the following licensing requirements:
 
 - **Microsoft 365 E3/E5 or equivalent** licenses for source and target tenants.
-- **Cross-Tenant User Data Migration** licenses are required as an add-on for each user.
+- **Cross-Tenant User Data Migration** licenses are required as an add-on for each user in order to move mailbox or OneDrive data. It must be applied to either the source or target user.
 
 ## Security and compliance considerations
 

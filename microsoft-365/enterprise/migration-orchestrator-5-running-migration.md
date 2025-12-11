@@ -119,7 +119,6 @@ Test-MgBetaCrossTenantMigrationJob -DisplayName "xtmigration1" -CompleteAfterDat
 
 This feature allows you to submit a batch of users to begin their migration. We recommend running [Submit a batch for validation](#submit-a-batch-for-validation) first to confirm that all prerequisites are in-place. Each batch you submit needs to have a unique name. Users can only belong to one active batch at one time.
 
-
 There are two ways to submit a validation batch.
 #### Option 1: Define request body
 
@@ -295,7 +294,7 @@ When the migration is completed, you can monitor the results of the batch and us
 
 ### Submit a migration batch
 
-Submit a batch for migration by using the instructions provided in [B: Submit a migration batch](#b-submit-a-migration-batch)
+Submit a batch for migration by using the instructions provided in [Submit a migration batch](#submit-a-batch-for-migration).
 
 Fix any failures for users with an invalid status when the batch status is ValidateFailed.
 When the validation shows no failures, move on to submit the batch for migration.
@@ -303,6 +302,9 @@ When the validation shows no failures, move on to submit the batch for migration
 ## Batch migration description values
 
 Use the following table to understand the validation and migration flows and status values:
+
+> [!NOTE] 
+> For more information about troubleshooting, see See [Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors).
 
 | Status | Description | Workloads |
 | --- | --- | --- |
@@ -317,4 +319,11 @@ Use the following table to understand the validation and migration flows and sta
 | PendingDelete | The batch is pending deletion. |  |
 | Deleted | The batch data is deleted. |  |
 
+### Validation batch
+
+| Status | Description | Workloads |
+| --- | --- | --- |
+|ValidationSubmitted/ValidationProcessing | The validation batch has been submitted. | [Exchange] NotStarted <BR/> [Teams Chats] NotStarted <BR/> [Teams Meetings] NotStarted <BR/> [OneDrive] NotStarted <BR/> |
+| ValidateInProgress |The validation batch is in progress. All applicable workloads will be checked for their prerequisites. | [Exchange] InProgress <BR/> [Teams Chats] InProgress/Valid/Invalid <BR/> [Teams Meetings] InProgress/Valid/Invalid <BR/> [OneDrive] InProgress/Valid/Invalid <BR/> |
+|ValidatePassed/ValidateFailed | The validation batch has completed. It is either passed (no checks failed) or failed (at least one check failed). | [Exchange] Valid/Invalid <BR/> [Teams Chats] Valid/Invalid <BR/> [Teams Meetings] Valid/Invalid <BR/> [OneDrive] Valid/Invalid <BR/> |
 
