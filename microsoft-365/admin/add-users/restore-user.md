@@ -68,7 +68,7 @@ To resolve this user name conflict, replace the active user account with the one
   
 3. Follow the instructions to set the password and select **Restore**.
 
-4. A message pops up that says there was a problem restoring the account. Do one of the following:
+4. If a message pops up that indicates there's a problem restoring the account, take one of the following steps:
 
      - Cancel the restore and rename the current active user. Then attempt the restore again.
      - Type a new primary email address for the user and select **Restore**.
