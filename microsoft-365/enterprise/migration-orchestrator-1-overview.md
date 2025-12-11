@@ -98,3 +98,5 @@ For workload-specific items that are out-of-scope, refer to the [known issues](m
 ## Next steps
 
 See [Planning and prerequisites](migration-orchestrator-2-planning-prerequisites.md) for information on the prerequisites for migrating with orchestrator and other planning guidance.
+
+For information about the end-user experience during and after migration, see [End-user experience for cross-tenant migration](migration-orchestrator-7-end-user-exp.md).

@@ -86,3 +86,7 @@ For full support, we recommend mapping all migrating users, guests, or groups th
 - You should [disable OneDrive site creation](/sharepoint/restricted-site-creation) for target users as soon as you create those users to prevent a OneDrive site from being provisioned.
 - Either the source or the target user needs a Cross-Tenant Data Migration license.
 - The assigning of a Teams license should assign the user a SIP domain. If you see issues relating to a user not having a SIP domain, you can assign one manually using [Set-CsUser](/powershell/module/microsoftteams/set-csuser?view=teams-ps&preserve-view=true). The tenant's SIP Domain can be found using [Get-CsOnlineSIPDomain](/powershell/module/microsoftteams/get-csonlinesipdomain?view=teams-ps&preserve-view=true).
+
+## Next steps
+
+For information on running the migration after preparing users, see [Running the migration](migration-orchestrator-5-running-migration.md).

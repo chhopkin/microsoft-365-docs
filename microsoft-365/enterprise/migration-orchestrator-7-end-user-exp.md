@@ -148,3 +148,7 @@ If you need to edit Identity Mapping while any migration batches are running, do
 16. Only meetings in the user's Default calendar migrate. Meetings hosted by other calendars created by the user are out of scope.
 17. Meeting chats for meetings which haven't occurred in more than 60 days at the time of migration that contain a colon (**:**) in their titles have those colons replace by semicolons (**;**) in the new created group chat.
 18. The value of the "spoken language in this meeting" is reset to the default (English (US)) after migration.
+
+## Next steps
+
+For FAQs and troubleshooting regarding the migration orchestrator, see [Migration orchestrator FAQ](migration-orchestrator-8-faq.md).

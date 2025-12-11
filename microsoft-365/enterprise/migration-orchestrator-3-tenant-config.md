@@ -186,3 +186,7 @@ To prepare the target tenant for the Cross-Tenant Migration Service, follow thes
   `Grant-CTTMAppPermissions`
 
 You should receive output showing **CrossTenantMigration Prod AAD App** as an app with roles assigned and other apps provisioned by this point. The IdentityMapping-Experimental-Internal.Read app role is granted to the CTMS (cloud transport management service) application.
+
+## Next steps
+
+For information on preparing users for migration, see [Preparing users for tenant-to-tenant migration](migration-orchestrator-4-user-prep.md).

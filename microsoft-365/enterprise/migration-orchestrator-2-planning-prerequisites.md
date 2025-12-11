@@ -61,4 +61,4 @@ The following table lists the checks performed in the Pre-Migration validation s
 
 ## Next steps
 
-See [Configuring source and target tenants](migration-orchestrator-3-tenant-config.md) for information on configuring the tenants involved in the migration.
+For information on configuring the tenants involved in the migration, see [Configuring source and target tenants](migration-orchestrator-3-tenant-config.md).
