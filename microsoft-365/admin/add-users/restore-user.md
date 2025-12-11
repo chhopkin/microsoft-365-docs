@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 11/14/2024
+ms.date: 12/11/2025
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-security
@@ -21,6 +21,7 @@ ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 description: "Within 30 days after deleting a user account, you can restore the account and all data, and the user can sign in with the same account."
+customer-intent: As an admin, I want to restore a user account that was deleted.
 ---
 
 # Restore a user in the Microsoft 365 admin center
