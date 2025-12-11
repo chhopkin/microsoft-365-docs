@@ -3,7 +3,7 @@ title: Migration orchestrator planning and prerequisites
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 12/01/2025
+ms.date: 12/11/2025
 recommendations: true
 audience: ITPro
 ms.topic: upgrade-and-migration-article

@@ -3,7 +3,7 @@ title: Migration orchestrator overview
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 09/15/2025
+ms.date: 12/11/2025
 recommendations: true
 audience: ITPro
 ms.topic: upgrade-and-migration-article
@@ -27,7 +27,7 @@ Tenant-to-tenant migration using orchestrator in Microsoft 365 enables organizat
 
 This article provides a high-level overview of the migration process, including architecture models, licensing requirements, key security and compliance considerations, and supported workloads.
 
-To provide feedback or make requests to the product team, please use [this form](https://forms.office.com/r/0QU3YbYhDn). 
+To provide feedback or make requests to the product team, use [this form](https://forms.office.com/r/0QU3YbYhDn).
 
 ## Migration Architecture Models
 
@@ -52,22 +52,14 @@ To use tenant-to-tenant migration features, organizations must meet the followin
 
 ## Security and compliance considerations
 
-Security and compliance are critical in tenant-to-tenant migration. Organizations should plan for:
-
-- Data residency: Ensure data remains within required geographic boundaries.
-- Audit trails: Maintain logs of migration actions for compliance.
-- Role-based access control (RBAC): Use least privilege principles for migration roles.
-- Legal holds and retention policies: Review and adjust policies before migration.
-
-> [!IMPORTANT]
-> Organizations subject to regulatory compliance (for example, GDPR, HIPAA) should consult legal and compliance teams before initiating migration.
+Organizations subject to regulatory compliance (for example, GDPR, HIPAA) should consult legal and compliance teams before initiating migration.
 
 ## Supported scenarios
 
 > [!IMPORTANT]
 > This migration moves **content**, not **identities**. Customers are responsible for correctly creating and configuring users, and the product moves the in-scope content from its source tenant location to its target tenant location. We designed this product with the end-user in mind. This migration is intended to minimize disruption to the end-user.
 
-This new product simplifies both an admin's role in migrating content cross-tenant and a user's experience when they migrate. If you intend to run the migration of multiple workloads (such as Exchange, chats, meetings, and OneDrive), we strongly suggest including all workloads for each user in the batch. Migrating Teams chats and Teams meetings without the mailbox (or at the same time as the mailbox migration with another tool) may result in unexpected user experiences we didn't identify in our testing. The orchestrator was designed to intelligently migrate the workloads in an order that accounts for all dependencies and minimizes risk for migrations to fail.
+This new product simplifies both an admin's role in migrating content cross-tenant and a user's experience when they migrate. If you intend to run the migration of multiple workloads (such as Exchange, chats, meetings, and OneDrive), we strongly suggest including all workloads for each user in the batch. Migrating Teams chats and Teams meetings without the mailbox (or at the same time as the mailbox migration with another tool) might result in unexpected user experiences we didn't identify in our testing. The orchestrator was designed to intelligently migrate the workloads in an order that accounts for all dependencies and minimizes risk for migrations to fail.
 
 While customers can run migrations for the workloads they want, the Teams Meeting migration does depend on a successful mailbox migration. **Teams Meeting migration will fail without a successful mailbox migration**.
 
@@ -95,7 +87,7 @@ The OneDrive content moves from the source to the target, leaving behind a redir
 
 ### Teams chat and meeting scope
 
-Chats and meetings are migrated from the source to the target. The original content on the source remains, though it may be in an edited form. This means that the user participant list may change, with source users removed and target users added. There may be duplicate threads created on both tenants. Once the migration completes, users should only use their target identity to use Teams. If there's out-of-scope content, they can reference the source Teams client if they still have a licensed source user.
+Chats and meetings are migrated from the source to the target. The original content on the source remains, though it might be in an edited form. This means that the user participant list might change, with source users removed and target users added. There might be duplicate threads created on both tenants. Once the migration completes, users should only use their target identity to use Teams. If there's out-of-scope content, they can reference the source Teams client if they still have a licensed source user.
 
 ### Not in-scope
 

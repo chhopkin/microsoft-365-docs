@@ -3,7 +3,7 @@ title: Migration orchestrator FAQ
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 12/01/2025
+ms.date: 12/11/2025
 recommendations: true
 audience: ITPro
 ms.topic: upgrade-and-migration-article
@@ -27,7 +27,7 @@ If you start a migration and realize that you need to cancel it, you need to can
 
 ## Moving user data back
 
-Migration of user data back to the source tenant through the orchestrated system is not supported in preview. If you need to move a user’s email and OneDrive back to the source tenant after completing a successful migration to the target tenant, please use the standalone mailbox and OneDrive migration options. Teams meetings will not be recreated after this migration and will need to be recreated manually. The original Teams chat message modifications will also not be touched. If data migration for users back to the original source is a scenario that is required, please use the Generally Available version of cross-tenant migration of mailboxes and OneDrives. 
+Migration of user data back to the source tenant through the orchestrated system isn't supported in preview. If you need to move a user’s email and OneDrive back to the source tenant after completing a successful migration to the target tenant, please use the standalone mailbox and OneDrive migration options. Teams meetings won't be recreated after this migration and need to be recreated manually. The original Teams chat message modifications are also not touched. If data migration for users back to the original source is a scenario that's required, use the Generally Available version of cross-tenant migration of mailboxes and OneDrives.
 
 ## General migration
 
@@ -35,7 +35,7 @@ Migration of user data back to the source tenant through the orchestrated system
 
 ### Do you have any recommendations for batches?
 
-To ensure a smooth migration process, we recommend limiting the number of mailboxes per batch to 2,000 and submitting batches at least two weeks before the cut-over date. This limit doesn't impact end users during synchronization. For guidance on migrating quantities exceeding 50,000 mailboxes, contact your account team for assistance.
+To ensure a smooth migration process, we recommend limiting the number of mailboxes per batch to 2,000 and submitting batches at least two weeks before the cut-over date. This limit doesn't affect end users during synchronization. For guidance on migrating quantities exceeding 50,000 mailboxes, contact your account team for assistance.
 
 If you're migrating OneDrive, there's a 4,000 limit between SharePoint and OneDrive sites that can be moved and queued to move at one time.
 
@@ -45,7 +45,7 @@ Cross-cloud tenant-to-tenant migration isn't supported. An example scenario woul
 
 ### Are voicemails migrated cross-tenant?
 
-- Yes, voicemails are migrated cross tenant.
+- Yes, voicemails are migrated cross-tenant.
 - Received voicemails in email as attachments are available in the target mailbox.
 - Received voicemails are available in Teams if you call voicemail and listen to saved messages (Voicemails received in the source tenant are available as saved messages).
 - Received voicemails aren't available in the Teams client UI in target post-migration.
