@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 12/05/2025
+ms.date: 12/10/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -44,6 +44,8 @@ You can manage agents for Copilot by using the [Microsoft 365 admin center](http
 
 > [!NOTE]
 > Researcher and Analyst agents are part of the core default experience for Microsoft 365 Copilot licensed users. These agents will remain accessible in Microsoft 365 Copilot Chat via tools, even when Copilot agents are disabled for some or all users in Microsoft 365 admin center. For related information, see [Agent settings in Microsoft 365 admin center](/microsoft-365/admin/manage/agent-settings).
+> 
+> Microsoft Agent 365 is the control plane for AI agents, empowering your organization to confidently deploy, govern, and manage all your agents at scale, regardless of where these agents are built or acquired. For more information, see [Overview of Microsoft Agent 365](/microsoft-agent-365/overview) and [Microsoft Agent 365 documentation](/microsoft-agent-365/).
 
 ## Overview
 
@@ -102,3 +104,4 @@ You can manage agents in the [Microsoft 365 admin center](https://admin.microsof
   - [Manage agent instances in Microsoft 365 admin center](manage-agent-instances.md).
   - [Manage Connected Agents for Researcher in the Microsoft 365 admin center](manage-connected-agents-for-researcher.md).
 - [Manage Tools for Agent 365 in the Microsoft 365 admin center](manage-tools-for-agent.md)
+- [Overview of Microsoft Agent 365](/microsoft-agent-365/overview)
