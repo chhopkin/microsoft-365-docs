@@ -27,7 +27,7 @@ If you start a migration and realize that you need to cancel it, you need to can
 
 ## Moving user data back
 
-Migration of data user data back to the source tenant through the orchestrated system is not supported in preview. If you need to move a user’s email and OneDrive back to the source tenant after completing a successful migration to the target tenant, please use the standalone mailbox and OneDrive migration options. Teams meetings will not be recreated after this migration and will need to be recreated manually. The original Teams chat message modifications will also not be touched. If data migration for users back to the original source is a scenario that is required, please use the Generally Available version of cross-tenant migration of mailboxes and OneDrives. 
+Migration of user data back to the source tenant through the orchestrated system is not supported in preview. If you need to move a user’s email and OneDrive back to the source tenant after completing a successful migration to the target tenant, please use the standalone mailbox and OneDrive migration options. Teams meetings will not be recreated after this migration and will need to be recreated manually. The original Teams chat message modifications will also not be touched. If data migration for users back to the original source is a scenario that is required, please use the Generally Available version of cross-tenant migration of mailboxes and OneDrives. 
 
 ## General migration
 

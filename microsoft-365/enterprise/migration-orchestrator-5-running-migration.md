@@ -296,8 +296,13 @@ Review the batch status. If it is ValidatePassed, then all prerequisites are met
 
 ### Submit a migration batch
 
-Submit the batch once the validation batch is successful. Using a new batch name, submit the batch [Submit a migration batch](#submit-a-batch-for-migration).  Regularly monitor the migration at the batch level: [Retrieve a specific batch](#retrieve-a-specific-batch) and at the user level: [Retrieve user status within a specific batch](#retrieve-user-status-within-a-specific-batch). To understand progress, consult the [Batch migration description values table](#batch-migration-description-values).
-If there are failures, investigate the errors and messages: [Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors). returned on the user objects. Follow the troubleshooting guidance to mitigate any issues and retry, starting again with validation.
+Submit the batch once the validation batch is successful. Using a new batch name, submit the batch:  [Submit a migration batch](#submit-a-batch-for-migration).  
+
+Regularly monitor the migration at the batch level: [Retrieve a specific batch](#retrieve-a-specific-batch) and at the user level: [Retrieve user status within a specific batch](#retrieve-user-status-within-a-specific-batch). 
+
+To understand progress, consult the [Batch migration description values table](#batch-migration-description-values).
+
+If there are failures, investigate the errors and messages returned on the user objects:  [Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors). Follow the troubleshooting guidance to mitigate any issues and retry, starting again with validation.
 
 #### After migration completes
 
