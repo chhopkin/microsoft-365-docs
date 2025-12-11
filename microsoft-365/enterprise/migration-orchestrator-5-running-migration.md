@@ -348,6 +348,6 @@ Use the following table to understand the validation and migration flows and sta
 
 ## Next steps
 
-For information on what to do after the migration is complete, see [Post-migration tasks for tenant-to-tenant migrations](migration-orchestrator-6-post-migration-tasks.md).
+For information on what to do after the migration is complete, see [Post-migration tasks for tenant-to-tenant migrations](migration-orchestrator-6-post-migration.md).
 
 For FAQs and troubleshooting regarding the migration orchestrator, see [Migration orchestrator FAQ](migration-orchestrator-8-faq.md).
