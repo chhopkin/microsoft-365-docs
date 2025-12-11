@@ -101,7 +101,7 @@ Currently the following features will not work when baseline security mode setti
 #### Impact of baseline security mode on hybrid deployments
 
 - Turn off EWS access only after your hybrid Exchange setup supports REST APIs. This change helps reduce legacy app usage and lowers the risk of data exposure.
-- Server-side sync between Dynamics on-premises and Exchange Online will no longer work with this setting. To keep using sync features, [Connect Exchange Online to Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/admin/connect-dynamics-365-on-premises-exchange-online?view=op-9-1).
+- Server-side sync between Dynamics on-premises and Exchange Online will no longer work with this setting. To keep using sync features, [Connect Exchange Online to Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/admin/connect-dynamics-365-on-premises-exchange-online).
 
 ## Files
 
