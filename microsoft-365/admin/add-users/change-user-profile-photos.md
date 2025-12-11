@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 06/11/2024
+ms.date: 12/11/2025
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-security
@@ -25,6 +25,7 @@ ms.custom:
 - has-azure-ad-ps-ref
 search.appverid: 
 description: "Learn how a Microsoft 365 admin can add, update, and remove the pictures in user account profiles and Microsoft 365 Group profiles."
+customer-intent: As an admin, I want to update a user's profile photo in Microsoft 365.
 ---
 
 # Change user profile photos and settings
