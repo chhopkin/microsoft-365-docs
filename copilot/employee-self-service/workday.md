@@ -342,8 +342,8 @@ The user accounts mentioned in the table under "Expected connection user account
 
 The examples above are for use in Entra. If you choose to create accounts in Workday with Basic Auth, use the following format:
 
- - ISU_WQL_COPILOT@WorkdayTenantName
- - ISU_Generic_COPILOT@WorkdayTenantName
+ - ISSG_WQL_COPILOT@WorkdayTenantName
+ - ISSG_Generic_COPILOT@WorkdayTenantName
 
 #### Step 5: Environment variables
 
