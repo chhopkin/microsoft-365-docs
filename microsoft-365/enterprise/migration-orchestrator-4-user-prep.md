@@ -65,7 +65,9 @@ New-MailUser -PrimarySmtpAddress username@targettenant.com -MicrosoftOnlineServi
 
 If the source users aren't already added into the mail-enabled security group you created before, this addition must be done before Identity Mapping is complete. You can do it manually in the Microsoft 365 admin center, or in PowerShell using the following command:
 
-`Add-DistributionGroupMember -Identity "DistributionGroupName" -Member "UserEmailAddress"`
+```powershell
+Add-DistributionGroupMember -Identity "DistributionGroupName" -Member "UserEmailAddress"
+```
 
 ## Run Identity Mapping
 
