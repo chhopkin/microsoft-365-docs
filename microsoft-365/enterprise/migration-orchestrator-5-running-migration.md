@@ -82,6 +82,7 @@ There's up to an hour-long delay between when updates are made to the group cont
 This feature allows you to submit a batch of users to validate that the prerequisites are met before submitting a migration. It does **not** actually submit the migration. It creates a batch that runs once in the validation context. Getting information about this batch via [Retrieve a specific batch](#retrieve-a-specific-batch) returns a full list of results on the checks it ran. Any failures need to be addressed in order for a successful migration later. Each batch you submit needs to have a unique name. Users can only belong to one active batch at one time.
 
 There are two ways to submit a validation batch.
+
 #### Option 1: Define request body
 
 ```powershell
@@ -106,7 +107,6 @@ body = '{
 "Meeting"
   ]
 }'
-under (A)>
 (code) Test-MgBetaCrossTenantMigrationJob -BodyParameter $body 
 ```
 
@@ -120,6 +120,7 @@ Test-MgBetaCrossTenantMigrationJob -DisplayName "xtmigration1" -CompleteAfterDat
 This feature allows you to submit a batch of users to begin their migration. We recommend running [Submit a batch for validation](#submit-a-batch-for-validation) first to confirm that all prerequisites are in-place. Each batch you submit needs to have a unique name. Users can only belong to one active batch at one time.
 
 There are two ways to submit a validation batch.
+
 #### Option 1: Define request body
 
 ```powershell
@@ -190,9 +191,18 @@ By default, the 20 most recent results will appear. To access more, run the comm
 
 This feature allows you to change the complete after date. Moving the date pushes the earliest date at which the cutovers for mailboxes occur and when the Teams chat and meeting and OneDrive migration begins.
 
+```powershell
+Update-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> -CompleteAfterDateTime <date time to update to>
+```
+Acceptable date and time formats are available on [Standard date and time format](/dotnet/standard/base-types/standard-date-and-time-format-strings).
+
 ### Cancel a batch
 
-This feature allows you to cancel an entire batch and all of its users' migrations. It cancels all migrations for users whose mailboxes have not yet cutover.
+This feature allows you to cancel an entire batch and all of its users' migrations. It cancels all migrations for users whose mailboxes have not yet cutover. A batch can only be cancelled before the Complete After Date has passed. After this point, the migration will continue without cancellation.
+
+```powershell
+Stop-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> 
+```
 
 ### Remove a user from a batch and cancel that user's migration
 
