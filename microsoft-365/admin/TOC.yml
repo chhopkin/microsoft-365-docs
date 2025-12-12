@@ -278,6 +278,8 @@ items:
                 href: manage/manage-agent-instances.md
               - name: Manage Connected Agents for researcher
                 href: manage/manage-connected-agents-for-researcher.md
+            - name: Agent Map
+              href: manage/agent-map.md
             - name: Manage Tools for Agent 365
               href: manage/manage-tools-for-agent.md
             - name: Agent Settings
