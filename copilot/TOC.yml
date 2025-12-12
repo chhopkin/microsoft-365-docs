@@ -113,7 +113,8 @@ items:
       href: pin-copilot-taskbar.md
     - name: Pin Copilot Chat to the navigation bar
       href: pin-copilot-chat-navbar.md
-
+    - name: Turn on AI Disclaimers in Microsoft 365 Copilot
+      href: microsoft-365-ai-disclaimers.md
 
 - name: Adopt
   items:
