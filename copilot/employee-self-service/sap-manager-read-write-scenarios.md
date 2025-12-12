@@ -1,5 +1,5 @@
 ---
-title: SAP  SuccessFactors Manager read & write scenarios with Employee Self-Service
+title: SAP SuccessFactors Manager read & write scenarios with Employee Self-Service
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
@@ -48,21 +48,14 @@ Example Template configuration:
 
 The keys present in the filterParam must match what is expected in the Template configuration. In the previous examples, `personIdExternalVal` would be used as a key to insert `Global.ESS_UserContext_Employee_Id` into the filter expression. 
 
-**ScenarioName:** 
-Configuration name, which is used by Dataverse call to get scenario configuration. 
+**ScenarioName:** Configuration name, which is used by Dataverse call to get scenario configuration. 
+**userIdentifier:**  User ID 
 
-**userIdentifier:**  
-User ID 
-
-Common Orchestrator then returns a `ModelResponse` and `LabelResponse`, which is then parsed using a large language model using the following instructions and generates answer for a Manager:
-
-Extract the input from the below response (map the Label response *value* as key in model response attribute then provide model value) 
-
-Provide response to the user in a human readable form  
-
-Format it properly so it looks clean and readable
-
-Use **only** data values from variable named as `successfactorsModelResponse` and use variable named as `successfactorsLabelResponse` for labelling the data. Response Example:
+- Common Orchestrator then returns a `ModelResponse` and `LabelResponse`, which is then parsed using a large language model using the following instructions and generates answer for a Manager:
+- Extract the input from the below response (map the Label response *value* as key in model response attribute then provide model value) 
+- Provide response to the user in a human readable form  
+- Format it properly so it looks clean and readable
+- Use **only** data values from variable named as `successfactorsModelResponse` and use variable named as `successfactorsLabelResponse` for labelling the data. Response Example:
  
 ```json
 Label Response : key":"company","value":"company" 
