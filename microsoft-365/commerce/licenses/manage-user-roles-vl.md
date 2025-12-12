@@ -77,7 +77,7 @@ If you no longer want to be a VL Administrator, you must first assign the VL Adm
 
 ### If you don’t have a volume licensing user profile in the Microsoft 365 admin center
 
-**For non-EA and EU customers only:** If you're named as a Primary or Notice contact for a contract, you receive a welcome email inviting you to create your VL user profile in the admin center. Alternatively, you can choose to forward the email to someone else who can register and become the VL Administrator in the admin center, instead.
+**For non-EA and non-EU customers only:** If you're named as a Primary or Notice contact for a contract, you receive a welcome email inviting you to create your VL user profile in the admin center. Alternatively, you can choose to forward the email to someone else who can register and become the VL Administrator in the admin center, instead.
 
 **For EA and EU customers only:** If you're named as a Notice contact for a contract, you receive an email regarding permission for the admin center.
 
@@ -131,7 +131,7 @@ Add new users who don't already have VL permissions.
 1. In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">**Your products**</a> page, then select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> tab.
 2. In the **Role assignments** section, select **Assign users to contracts**.
 3. Select **Add or edit users**.
-4. **For non-EA and EU customers only:** Search for users you want to add by entering their email address.
+4. **For non-EA and non-EU customers only:** Search for users you want to add by entering their email address.
 
    - Users with an email address managed by your organization are listed for selection and are added as "Internal user."
    - If you search for a user with an email address not managed by your organization, you see the message "No results found. Press enter to save." You can add the user as an "External user," which provides access only to VL information.
@@ -167,10 +167,10 @@ After the Agreement (License ID) is selected, assign the VL roles. A user might 
 5. When you return to the **Assign users to contracts** page, you see that the user's details now include the new VL roles.
 6. To save the updates, select **Verify and save user assignments**.
 
-   - **Non-EA and EU customers only:** Users receive a welcome email from microsoft-noreply\@microsoft.com with the subject line "Action required: Sign in to manage your volume licensing assets."
+   - **Non-EA and non-EU customers only:** Users receive a welcome email from microsoft-noreply\@microsoft.com with the subject line "Action required: Sign in to manage your volume licensing assets."
    - **EA and EU customers only:** Users receive a notification email from microsoft-noreply@microsoft.com with the subject Line "Permission changes for Microsoft Volume Licensing contracts."
 
-New users can access and manage the Agreement (License IDs) based on the VL roles that you assigned to them. For non-EA and EU customers, License IDs are available approximately two hours after registration is complete.
+New users can access and manage the Agreement (License IDs) based on the VL roles that you assigned to them. For non-EA and non-EU customers, License IDs are available approximately two hours after registration is complete.
 
 ## Import roles in volume licensing agreements (EA and EU customers only)
 
@@ -216,7 +216,7 @@ It can take up to two hours for the role change to be reflected on the **Manage 
 
 ## Apply admin permissions to all license IDs under a parent program
 
-If you're the Primary Contact (non-EA and EU customers only), Notices Contact, or Online Administrator Contact named on an MBSA, you can opt in to inherit VL admin permissions on every Agreement (License ID) added under that MBSA.
+If you're the Primary Contact (non-EA and non-EU customers only), Notices Contact, or Online Administrator Contact named on an MBSA, you can opt in to inherit VL admin permissions on every Agreement (License ID) added under that MBSA.
 
 To view or change your opt-in preferences, use the following steps.
 

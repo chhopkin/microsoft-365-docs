@@ -1,7 +1,7 @@
 ---
 title: "Activate rights management in the admin center"
 ms.author: laurawi
-author: kccross
+author: laurawi
 manager: laurawi
 ms.date: 07/16/2020
 audience: Admin
