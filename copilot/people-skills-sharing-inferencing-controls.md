@@ -267,7 +267,7 @@ You can create a policy for any of the available feature controls by following t
 
 ### Configuring Admin Controls in PowerShell
 
-If you use PowerShell, then see the table below for an explanation of how each of the People Skills admin controls map to features within Feature access management, and the Policy Modes that are available for each.
+If you use PowerShell, then see the table below for an explanation of how each of the People Skills admin controls maps to features within Feature access management, and the Policy Modes that are available for each.
 
 #### Feature-to-Policy Mapping
 
@@ -340,7 +340,7 @@ Below are some examples of PowerShell commands – these examples aren't intende
 >   - `-UserIds "user1@contoso.com","user2@contoso.com"` (specific users)
 > - The Feature Access Policy name values have to be unique, so make sure you're editing __-Name__ in the PowerShell commands with names that are descriptive and unique to your policy
 
-In the below PowerShell command examples, we may be using different **FeatureId** examples than what may be relevant for your scenario. Ensure that you use the correct **FeatureId** for your scenarios. For more details on PowerShell syntax, see [our Feature Access Management documentation](/viva/manage-access-policies).
+In the below PowerShell command examples, we may be using different **FeatureId** examples than what may be relevant for your scenario. Ensure that you use the correct **FeatureId** for your scenarios. For more information on PowerShell syntax, see [our Feature Access Management documentation](/viva/manage-access-policies).
 
 #### Command Examples for Skills AI Inferencing Control
 
