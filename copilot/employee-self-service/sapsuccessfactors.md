@@ -285,49 +285,97 @@ To set up templates, follow these steps:
 4. Select **Employee Self Service HR SuccessFactors** extension pack.
 5. Select **Open** from the dialog popup.
 6. Select **Manage** in the Configuration section.
-7. All the starter configurations available are listed in the Power Apps, so select each of the "Get" templates to configure the right entities and paths. The following code is an example of the "Get" configuration starter:
-
-   ```json
-   { 
-   "scenario": 
-   "HRSAPSuccessFactorsHCMEmployeeGetBaseCompensationAndCompaRatio",//Scenario name 
-   [OPTIONAL] 
-   "rootEntity": "EmpEmployment",//Entity to be queried 
-   "filter": "personIdExternal eq '{personIdExternalVal}' and userId eq 
-   '{userIdVal}'",//Filter Expression to filter data more on this format
-       "requestEntities": [  //Request entites an array of object that should be queried 
-   from root entity 
-           { 
-               "key": "CompaRatio",//Key Value 
-               "valuePath": "compInfoNav/empCompensationCalculatedNav/compaRatio",//Path 
-   from root entity for value 
-               "labelPath": "EmpCompensationCalculated/compaRatio"//Path from label 
-   $metadata to get label value 
-           }, 
-       ], 
-       "permissionsMetadata": [  //Permission Metadata more on this data in the permisson loop 
-           { 
-               "permType": "DATA_MODEL",  //Permision Type SF code value 
-               "permLongValue": -1,   
-               "permStringValue": "$_payCompGroup_AnnualizedSalary_read"  //Permission 
-   string SF code value 
-           } 
-       ]
-    }
-   ```
-
-The highlighted **filter** parameter keys must match with what is expected in the starter configuration. In the following example, *personIdExternalVal* would be used as a key to insert *Global.ESS.UserContext.Employee_Id* into the filter expression.
-
-**Example format used in Topic:**
-
-_`"{""personIdExternalVal"": """ & Global.ESS_UserContext_Employee_Id & """,""userIdVal"": """ & Global.ESS_UserContext_User_Id & """}"`
-
-**Snippet of the starter configuration:**
+7. All of the template configurations are listed in Power Apps. Select each of the **Get** templates to configure the right entities and paths. 
+ 
+The following code shows an example of the Get configuration template: 
 
 ```json
-{
-"filter": "personIdExternal eq '{personIdExternalVal}' and userId eq '{userIdVal}'", }
+{ 
+    "scenario": "HRSAPSuccessFactorsHCMEmployeeGetBaseCompensationAndCompaRatio",//Scenario name [OPTIONAL] 
+    "rootEntity": "EmpEmployment",//Entity to be queried 
+    "filter": "personIdExternal eq '{personIdExternalVal}' and userId eq '{userIdVal}'",//Filter Expression to filter data more on format below 
+    "requestEntities": [  //Request entites an array of object that should be queried from root entity 
+        { 
+            "key": "CompaRatio",//Key Value 
+            "valuePath": "compInfoNav/empCompensationCalculatedNav/compaRatio",//Path from root entity for value 
+            "labelPath": "EmpCompensationCalculated/compaRatio"//Path from label $metadata to get label value 
+        }, 
+    ], 
+    "permissionsMetadata": [  //Permission Metadata more on this in permisson loop 
+        { 
+            "permType": "DATA_MODEL",  //Permision Type SF code value 
+            "permLongValue": -1,   
+            "permStringValue": "$_payCompGroup_AnnualizedSalary_read"  //Permission string SF code value 
+        } 
+    ] 
+} 
 ```
+
+The `filter` parameter keys must match what's expected in the Template configuration.  In the following example, `personIdExternalVal` is used as a key to insert `Global.ESS.UserContext.Employee_Id` into the filter expression.
+
+Example format used in Topic: 
+
+```json
+"{""personIdExternalVal"": """ & Global.ESS_UserContext_Employee_Id & """,""userIdVal"": """ & Global.ESS_UserContext_User_Id & """}" 
+```
+
+Snippet of Template configuration: 
+
+```json
+{ 
+  ... 
+  "filter": "personIdExternal eq '{personIdExternalVal}' and userId eq '{userIdVal}'", 
+  ... 
+} 
+```
+ 
+Similar to the `Get` Template configuration, the following section covers the `Update` Template configuration.
+
+The following is an example of an update template configuration:
+
+```json
+{ 
+    "scenario": "UpdateCostCenter",//[OPTIONAL] Scenario name     
+    "requestBody": '{  //String data type request body. More below on how to format 
+        "__metadata": {  //metadata object with URI containing entity where insert happens 
+            "uri": "EmpJob" //Entity used for insert 
+        }, 
+        "userId": "userIdVal",  //User Id value of user to update (This sometimes can be personIdExternal depending on Entity) 
+        "startDate": "/Date(startDateVal)/", //Start Date field required for cost center update 
+        "costCenter": "costCenterVal"  //cost center field value 
+    }', 
+    "permissionsMetadata": [{  //Permission Metadata more on this in permisson loop 
+            "permType": "DATA_MODEL",  //SF data value permission type 
+            "permLongValue": -1,  
+            "permStringValue": "$_eventReason_DATACOST_write"  //SF string value code for permission 
+        } 
+    ], 
+    "rolePermissions": []  //Different type of acceptable permission. Uses user roles to identify if user has role permissions 
+} 
+```
+ 
+`requestBody` – `var_requestParam` is an array of objects 
+
+Example format used in Topic: 
+```json
+"[{""key"":""personIdExternalVal"", ""value"":"""&Global.ESS_UserContext_Employee_Id&"""},         {""key"":""countryVal"", ""value"":"""&First(Topic.var_parsedModel).country&"""},{""key"":""startDateVal"", ""value"":"""&DateDiff(Date(1970, 1, 1), First(Topic.var_parsedModel).startDate, TimeUnit.Seconds) * 1000&"""},{""key"":""genericString1Val"", ""value"":"""&Topic.id_raceAndEthnicity&"""}]" 
+```
+ 
+Snippet from Template configuration: 
+
+```json
+{ 
+    "__metadata": { 
+        "uri": "PerGlobalInfoUSA" 
+    },   
+    "personIdExternal": "personIdExternalVal", 
+    "country": "countryVal", 
+    "startDate": "/Date(startDateVal)/", 
+    "genericString1": "genericString1Val", 
+} 
+```
+
+The keys present in the `var_requestParam` must match what is expected in the Template configuration. In the previous example, `personIdExternalVal` is used as a key to insert `Global.ESS_UserContext_Employee_Id` into the request body. 
 
 ## Permissions and Role based permissions configuration
 
