@@ -168,7 +168,7 @@ The below table summarizes what access settings are available to Admins to set f
 |Access setting|What it means|
 | -------- | -------- |
 |On, allow users to opt out (default)|This means that any imported skills are shown as visible to colleagues on a user's M365 Live Profile Card and shared with other M365 applications. Users have the ability to opt themselves out of showing and sharing imported skills.|
-|Off, allow users to opt in|This means that any imported skills aren't be visible to colleagues on a user's M365 Live Profile Card nor are they shared with other M365 applications.|
+|Off, allow users to opt in|This means that any imported skills aren't visible to colleagues on a user's M365 Live Profile Card nor are they shared with other M365 applications.|
 
 
 > [!NOTE]
