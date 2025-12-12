@@ -178,6 +178,9 @@ To learn more about Identity Mapping, see [Cross-Tenant Identity Mapping](cross-
 
 ## Prepare the target tenant for Cross-Tenant Migration Service
 
+>[!NOTE]
+>Download Microsoft.Graph.Beta to access the cmdlets. `Install-Module -Name Microsoft.Graph.Beta -MinimumVersion 2.33.0 -Force`
+
 To prepare the target tenant for the Cross-Tenant Migration Service, follow these steps:
 
 1. Download [the module](https://download.microsoft.com/download/1ded7541-fa8d-48f7-90c4-fa8a15a6b62b/ConfigureCrossTenantMigrationService.psm1) onto your local machine.
@@ -186,15 +189,14 @@ To prepare the target tenant for the Cross-Tenant Migration Service, follow thes
 3. Import the module containing the configuration details:
   `Import-Module <location>`
 4. Grant the App Permissions:
-  `Grant-CTTMAppPermissions`
-5. To get detailed help, run `Get-Help Grant-CTTMAppPermissions -Detailed`. Authenticate in and accept.
+  `Grant-CTMSAppPermissions`
+5. To get detailed help, run `Get-Help Grant-CTMSAppPermissions -Detailed`. Authenticate in and accept.
 6. If Microsoft.Graph.Authentication and Microsoft.Graph.Applications aren't already installed, you're prompted to do so.
 
     ```powershell
       Install-Module Microsoft.Graph.Authentication
       Install-Module Microsoft.Graph.Applications
-      Grant-CTTMAppPermissions
-    ```
+      ```
 
 You should receive output showing **CrossTenantMigration Prod AAD App** as an app with roles assigned and other apps provisioned by this point. The IdentityMapping-Experimental-Internal.Read app role is granted to the CTMS (cloud transport management service) application.
 

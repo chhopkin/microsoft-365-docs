@@ -161,7 +161,7 @@ New-MgBetaCrossTenantMigrationJob -DisplayName "xtmigration1" -CompleteAfterDate
 This feature allows you to see all submitted batches. You see both validation and migration batches. It shows active and past migrations.
 
 ```powershell
-Get-MgBetaCrossTenantMigrationJob
+Get-MgBetaCrossTenantMigrationJob | ConvertTo-Json
 ```
 
 By default, the 20 most recent results appear. To access more, run the command with the parameter **-All**.
@@ -171,7 +171,7 @@ By default, the 20 most recent results appear. To access more, run the command w
 This feature allows you to receive information about a specific batch and its properties.
 
 ```powershell
-Get-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id>
+Get-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> | ConvertTo-Json
 ```
 
 By default, the 20 most recent results appear. To access more, run the command with the parameter (code) **-All**.
@@ -186,7 +186,7 @@ This feature allows you to receive information about the users within a specific
 - OneDrive
 
 ```powershell
-Get-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> -CrossTenantMigrationTaskId  <ExternalDirectoryObjectIds for the target users> 
+Get-MgBetaCrossTenantMigrationJobUser -CrossTenantMigrationJobId <batch display name or job id> -CrossTenantMigrationTaskId <ExternalDirectoryObjectIds for the target users> | ConvertTo-Json -Depth 100
 ```
 
 By default, the 20 most recent results appear. To access more, run the command with the parameter **-All**.
