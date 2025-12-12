@@ -17,7 +17,9 @@ ms.collection:
 - m365solution-infoprotection
 - m365solution-overview
 - zerotrust-solution
-ms.custom: admindeeplinkCOMPLIANCE
+ms.custom:
+- admindeeplinkCOMPLIANCE
+- m365-solutions-doc-set
 description: With Microsoft Priva and Microsoft Purview Compliance Manager, see how much personal data your org has and where, and which data privacy regulations apply.
 ---
 
