@@ -174,7 +174,7 @@ This feature allows you to receive information about a specific batch and its pr
 Get-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id>
 ```
 
-By default, the 20 most recent results appears. To access more, run the command with the parameter (code) **-All**.
+By default, the 20 most recent results appear. To access more, run the command with the parameter (code) **-All**.
 
 ### Retrieve user status within a specific batch
 
