@@ -72,7 +72,7 @@ When managing these Admin Controls, see the below table for important definition
 
 See below visual diagram for an illustration of the relationships between the controls. 
 
-![User's image](media/people-skills-sharing-inferencing-controls/image1.png)
+![Screenshot that shows the user's image.](media/people-skills-sharing-inferencing-controls/image1.png)
 
 ## Overview of People Skills user experiences control 
 
@@ -180,10 +180,10 @@ Admins have the ability to enable or disable People Skills data sharing with Viv
 
 **Steps to enable or disable sharing with Viva Insights**
 
-![User's image](media/people-skills-sharing-inferencing-controls/image2.png)
+![Screenshot that shows the user's image.](media/people-skills-sharing-inferencing-controls/image2.png)
 
 
-![User's image](media/people-skills-sharing-inferencing-controls/image3.png)
+![Screenshot that shows the user's image.](media/people-skills-sharing-inferencing-controls/image3.png)
 
 1. Navigate to **Settings** in the left rail of the M365 Admin Center
 
@@ -234,7 +234,7 @@ Below is some general guidance for creating policies:
 
 You can access Feature access management in the M365 Admin Center by following the below instructions:
 
-![User's image](media/people-skills-sharing-inferencing-controls/image4.png)![User's image](media/people-skills-sharing-inferencing-controls/image5.png)
+![Screenshot that shows the user's image.](media/people-skills-sharing-inferencing-controls/image4.png)![User's image](media/people-skills-sharing-inferencing-controls/image5.png)
 
 1. Navigate to **Settings** in the left rail of the M365 Admin Center
 
@@ -248,7 +248,7 @@ You can access Feature access management in the M365 Admin Center by following t
 
 1. Click on **Add policy**
 
-**Create a policy**![User's image](media/people-skills-sharing-inferencing-controls/image6.png)
+**Create a policy**![Screenshot that shows the user's image.](media/people-skills-sharing-inferencing-controls/image6.png)
 
 You can create a policy for any of the available feature controls by following the below instructions: 
 
