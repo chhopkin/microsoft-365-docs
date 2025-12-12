@@ -18,7 +18,7 @@ appliesto:
 ---
 # SAP SuccessFactors employee read and write scenarios
 
-## SAP SuccessFactors employee Read scenarios
+## SAP SuccessFactors employee read scenarios
 
 Each of the Read topic has its own prompts, configurations, and so on, but the actual execution of SAP SuccessFactors is encapsulated in the **SuccessFactors System Get Common Execution** topic expecting the following inputs:
 
