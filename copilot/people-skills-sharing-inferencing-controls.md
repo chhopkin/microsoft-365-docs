@@ -172,7 +172,7 @@ The below table summarizes what access settings are available to Admins to set f
 
 
 > [!NOTE]
-> These imported skills are only shared if Skills Profile visibility is also enabled or shared. If Skills Profile Visibility is disabled, AI-inferred skills aren't shown to other users or shared with any Microsoft 365 experiences.
+> These imported skills are only shared if Skills Profile visibility is also enabled or shared. If Skills Profile Visibility is disabled, imported skills aren't shown to other users or shared with any Microsoft 365 experiences.
 
 ## Manage data sharing with Viva Insights
 
