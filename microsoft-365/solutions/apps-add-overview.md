@@ -12,7 +12,7 @@ ms.localizationpriority: high
 ms.collection:
 - highpri
 - m365solution-overview
-ms.custom: m365-solutions-doc-set
+ms.custom:
 keywords:
 ---
 
