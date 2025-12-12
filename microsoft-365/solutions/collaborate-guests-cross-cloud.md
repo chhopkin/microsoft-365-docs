@@ -16,7 +16,7 @@ ms.collection:
 - m365solution-securecollab
 - m365initiative-externalcollab
 - guest-access-external-collab
-ms.custom: 
+ms.custom: m365-solutions-doc-set
 ms.localizationpriority: medium
 f1.keywords: NOCSH
 recommendations: false

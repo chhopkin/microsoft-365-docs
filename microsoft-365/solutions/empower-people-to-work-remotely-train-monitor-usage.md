@@ -17,7 +17,7 @@ ms.collection:
 - remotework
 - m365solution-remotework
 - m365solution-scenario
-ms.custom: 
+ms.custom: m365-solutions-doc-set
 description: Train your users and ensure that issues are dealt with quickly.
 ---
 

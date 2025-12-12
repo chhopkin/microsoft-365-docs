@@ -13,8 +13,9 @@ ms.collection:
 - highpri
 - M365-collaboration
 - m365solution-collabgovernance
-ms.custom: 
+ms.custom:
 - M365solutions
+- m365-solutions-doc-set
 f1.keywords: NOCSH
 recommendations: false
 description: Lean about lifecycle governance options for collaboration tools in Microsoft 365
