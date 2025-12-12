@@ -68,7 +68,7 @@ When managing these Admin Controls, see the below table for important definition
 | Soft disable|Feature is available but default off, and users may opt in |
 |Soft enable|Feature is available and default on, and users may opt out|
 |Parent control|A parent control determines the access settings of its child controls. When the parent is turned off, all child controls automatically inherit that setting and are also turned off. For example, the **People Skills user experiences** control is a parent for all other admin controls; if the People Skills user experiences control is turned off, every related control beneath it's disabled as well. |
-|Child control|Child controls are controls that sit beneath a parent feature and depend on the parent's access state. A child control can only be applied if its parent feature is turned on. When the parent is disabled, all associated child controls automatically became disabled (they inherit their parent's access setting). |
+|Child control|Child controls are controls that sit beneath a parent feature and depend on the parent's access state. A child control can only be applied if its parent feature is turned on. When the parent is disabled, all associated child controls automatically become disabled (they inherit their parent's access setting). |
 
 See below visual diagram for an illustration of the relationships between the controls. 
 
