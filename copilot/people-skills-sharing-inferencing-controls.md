@@ -20,7 +20,7 @@ People Skills offers controls for Admin users to configure privacy settings, ski
 
 - __Workers Council or Regional Compliance Requirements__
 
-  If your organization has Workers Council requirements and needs to disable People Skills for certain regions (such as users in Germany), you have several admin controls for meeting those compliance needs. configuring compliance‑appropriate access controls. For example, you can use the **AI Inferencing control** to disable AI‑generated skill inferences while still allowing users to opt in if they choose. Alternatively, you can use the **People Skills user experiences control**, which fully disables all People Skills experiences for the selected user group; this higher-level control removes all People Skills user experiences for those users and may be used to meet regional compliance needs.
+  If your organization has Workers Council requirements and needs to disable People Skills for certain regions (such as users in Germany), you have several admin controls for meeting those compliance needs. Configure compliance‑appropriate access controls. For example, you can use the **AI Inferencing control** to disable AI‑generated skill inferences while still allowing users to opt in if they choose. Alternatively, you can use the **People Skills user experiences control**, which fully disables all People Skills experiences for the selected user group; this higher-level control removes all People Skills user experiences for those users and may be used to meet regional compliance needs.
   
 - __Piloting People Skills with a Test Group__
 
