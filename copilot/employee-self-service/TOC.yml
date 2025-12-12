@@ -33,6 +33,8 @@ items:
   items:
     - name: SAP SuccessFactors
       href: sapsuccessfactors.md
+    - name: SAP Manager read and write scenarios 
+      href: sap-manager-read-write-scenarios.md
     - name: Workday
       items:
         - name: Integrating Workday
