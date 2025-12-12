@@ -1,6 +1,6 @@
 ---
 title: Use Agent Map in the Microsoft 365 admin center
-ms.date: 12/10/2025
+ms.date: 12/12/2025
 description: The Agent Map is a feature within the Microsoft 365 admin center designed to provide IT administrators with an intuitive visualization of agents in their Microsoft account.
 author: sericks007
 ms.topic: concept-article
