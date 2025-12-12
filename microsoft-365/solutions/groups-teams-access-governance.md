@@ -13,8 +13,9 @@ ms.collection:
 - highpri
 - M365-collaboration
 - m365solution-collabgovernance
-ms.custom: 
+ms.custom:
 - M365solutions
+- m365-solutions-doc-set
 f1.keywords: NOCSH
 recommendations: false
 description: "Learn about governing access in Microsoft 365 groups, Teams, and SharePoint."

@@ -14,7 +14,9 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - M365solutions
-ms.custom: seo-marvel-jun2020
+ms.custom:
+- seo-marvel-jun2020
+- m365-solutions-doc-set
 f1.keywords: NOCSH
 ---
 
