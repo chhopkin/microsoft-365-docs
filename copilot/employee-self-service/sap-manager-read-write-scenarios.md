@@ -1,5 +1,5 @@
 ---
-title: SAP Manager read & write scenarios with Employee Self-Service
+title: SAP  SuccessFactors Manager read & write scenarios with Employee Self-Service
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
@@ -12,16 +12,20 @@ ms.service: microsoft-365-copilot
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
-description: Learn about integrating SAP SuccessFactors in the deployment process for the Employee Self-Service agent.
+description: Learn about SAP SuccessFactors manager read and write scenarios for Employee Self-Service agent.
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# SAP Manager read & write scenarios with Employee Self-Service
+# SAP SuccessFactors manager read & write scenarios with Employee Self-Service
+The following article describes the different manager read and write scenarios for Employee Self-Service agent connected to SAP SuccessFactors:
 
-## SAP Manager read scenarios
+- [SAP SuccessFactors manager read scenarios](#sap-successfactors-manager-read-scenarios)
+- [SAP SuccessFactors manager write scenarios](#sap-successfactor-manager-write-scenarios)
 
-Manager read Topics check if the user is a manager using `ESS_UserContext_Is_Manager` variable. Afterwards most of the Topics follow the same format, which is simply redirecting the Topic to `SuccessFactors System Get Common Execution`, which calls the `Get Common Orchestrator` flow and then having the Large Language Model interpret responses from the flow and generate a response for the Manager. The `SuccessFactors System Get Common Execution` expects the following inputs: 
+## SAP SuccessFactors manager read scenarios
+
+Manager read Topics check if the user is a manager using `ESS_UserContext_Is_Manager` variable. Afterwards most of the Topics follow the same format, which is simply redirecting the Topic to `SuccessFactors System Get Common Execution`, which calls the `Get Common Orchestrator` flow and then having the Large Language Model interpret responses from the flow and generate a response for the Manager. The `SuccessFactors System Get Common Execution` expects the following inputs:
 
 **Filter Parameters:**  
 Generally passing `Employee ID` and `User ID` for filter query for `Employee Read` Topics:
@@ -487,7 +491,7 @@ This configuration is used when a directs name is filled with the manager’s pr
   ] 
 } 
 ```
-## Manager Write Scenarios – Configuration 
+## SAP Successfactor manager write scenarios 
 Manager *write* topics are described as follows: 
 
 ### 1. Get direct report data
@@ -558,4 +562,286 @@ Customizations to the Template configuration generally requires these changes:
 **Adding fields to Get Config**:  
 After adding field to template configuration, it must update the modelResponse parsing node schema.
 
-XXX SCREENSHOT?  
+:::image type="content" source="media/parse-value.png" alt-text="Screenshot of the parse value field." lightbox="media/parse-value.png":::
+
+:::image type="content" source="media/edit-schema.png" alt-text="Screenshot of the Edit schema definition window. ." lightbox="media/edit-schema.png":::
+
+:::image type="content" source="media/adaptive-cards-fields.png" alt-text="A screenshot of a JSON with a highlighted LookUp function." lightbox="media/adaptive-cards-fields.png":::
+
+The adaptive card “label” property is set by the value stored in the pared label variable and the “value” property is set using the var_veteranInfo variable which stores the parsed user data.
+
+If another input type to be added to the adaptive card to collect data for another field, then use the following input control code:
+
+```json
+{
+type: “Input.ChoiceSet”,
+placeholder: “No Selection”,
+id: “id_veteran”,
+label: Lookup(Topic.var_parsedLabel, key=”genericNumber1”).value,
+value: First(Topic.var_veteranInfo).genericNumber1,
+choices: Topic.var_veteranPicklist
+}
+```
+
+After which it’s required to update the output binding schema with the string given in `id` property.  In the example above, `id` = `id_veteran` therefore the output binding schema must have a variable with the same name set with the correct data type, as shown below:
+```
+kind: Record
+properties:
+  actionSubmitId: String
+  id_challenged_veteran: String
+  id_special_disabled_veteran: String
+  id_veteran: String
+ ```
+
+:::image type="content" source="media/output-binding-schema.png" alt-text="Screenshot of the Edit the output binding schema." lightbox="media/output-binding-schema.png":::
+
+##### Adding fields to update 
+
+After adding the new field to update configuration, it must be updated with the `var_requestParam` to include added field as well as the values to send to update with.
+Refer to the built-in `“write”` scenarios for further guidance to extend additional scenarios.
+
+**Authorization**:
+
+- Authorization is done using the `permissionsMetadata/rolePermission` that is part of the Template configuration. The `permissionsMetadata` and `User Id` are used to create the query string for `OData Connector in SuccessFactors Check User Permissions flow`. If `SuccessFactors Check User Permissions flow` does not find `permissionsMetadata` it will run `roleBased Permissions flow` using role permission and user roles variable.
+- It is important to include `permissionMetadata` or `rolePermission` in template configuration file as there is no other authorization check if both of those fields are missing.
+
+#### Cost Center
+
+|Cost center | Details |
+|---|---|
+|**Description** |Retrieves the manager’s directs current cost center, displays it, and then prompts manager to select a direct and input their new cost center with a start date. Manager can also include direct and job title in prompt, and it will be slot filled|
+|**Prompts** |<li>Update cost center for `[EmployeeName]`<li>I want to update `[EmployeeName]`'s cost center?<li>I'd like to update a team member's cost center to `[id_costCenter]`<li>Update `[EmployeeName]`'s cost center to `[id_costCenter]`<li>Update cost center for my team|
+
+
+|Specific cost center | Details |
+|---|---|
+| **Description** |	Retrieves the manager’s directs current cost center, displays it, and then prompts manager to select a direct and input their new cost center with a start date. Manager can also include direct and job title in prompt, and it will be slot filled |
+| **Prompts** | <li>Update cost center for `[EmployeeName]` <li>I want to update `[EmployeeName]`'s cost center?<li>I'd like to update a team member's cost center to `[id_costCenter]`<li>Update `[EmployeeName]`'s cost center to [id_costCenter]<li>Update cost center for my team. |
+| **Adaptive card**  | :::image type="content" source="media/adaptive-card.png" alt-text="A screenshot of an adaptive card in a chat experience." lightbox="media/adaptive-card.png"::: |
+
+##### Get configurations – Cost center
+Retrieve the existing cost center is the first step in the flow.
+
+|Get configurations|Description|
+|---|---|
+| **Template configuration** | 	`HRSAPSuccessFactorsHCMGetManagerCostCenter`|
+| **Scenario name**	| `sdyn_HRSAPSuccessFactorsHCMGetManagerCostCenter`|
+| **Filter** | Filters on `personIdExternal` using `ESS_UserContext_Employee_Id`, `userId` using `ESS_UserContext_User_Id`, and `isContingentWorker` set to `false`. `isContingentWorker` is used to ensure only employees data is retrieved.|
+|**Values queried**| <li>`DisplayName`: Directs current preferred name<li>`UserId`: Directs userId which is used in upsert to match data<li>`CostCenterCode`: Directs cost center as an id value<li>`CostCenterName`: Directs Cost center as a name linked to id value<li>`Company`: Directs company code used to validate cost center submitted by manager.|
+
+**Configuration**:
+```json
+	
+{
+  "scenario": "ManagerReadCostCenter",
+  "rootEntity": "EmpEmployment",
+  "filter": "isContingentWorker eq {isContingentWorkerValue} and userNav/manager/empInfo/personIdExternal eq '{personIdExternalVal}' and userNav/manager/empInfo/userId eq '{userIdVal}'",
+  "requestEntities": [
+    {
+      "key": "UserId",
+      "valuePath": "userNav/userId",
+      "labelPath": "User/userId"
+    },
+    {
+      "key": "DisplayName",
+      "valuePath": "userNav/displayName",
+      "labelPath": "User/displayName"
+    },
+    {
+      "key": "CostCenterCode",
+      "valuePath": "jobInfoNav/costCenter",
+      "labelPath": "EmpJob/costCenter"
+    },
+    {
+      "key": "CostCenterName",
+      "valuePath": "jobInfoNav/costCenterNav/name",
+      "labelPath": ""
+    },
+{
+      "key": "Company",
+      "valuePath": "jobInfoNav/company",
+      "labelPath": "EmpJob/company"
+    }
+  ], 
+  "permissionsMetadata": [],
+  "rolePermissions": [
+    {
+      "roleId": "115",
+      "permissions": [{ "permStringValue": "$_jobInfo_cost-center_read" }]
+    }
+  ]
+}
+```
+
+#### Validate cost center
+This configuration is used to validate the manager’s entered cost center. After the manager submits the adaptive card, this configuration is used with the Get Common Orchestrator to query for the cost center and see if it exist under the company code the manager is in.
+
+|Validate cost center | Description |
+| --- | ---|
+|**Template configuration** | `HRSAPSuccessFactorsHCMEmployeeValidateCostCenter`|
+|**Scenario name**	|`msdyn_HRSAPSuccessFactorsHCMEmployeeValidateCostCenter`|
+|**Filter** | Filters on cost center code (`externalCode`) using `costCentervalue` and company code (`cust_LegalEntity/externalCode`) |
+|**Values queried** |<li>`CostCenterCode`: Cost center as an id value <li> `CostCenterName`: Cost center as a name linked to id value |
+
+**Configuration**:	
+```json
+
+
+{
+  "scenario": "ValidateCostCenter",
+  "rootEntity": "FOCostCenter",
+  "filter": "externalCode eq '{costCenterValue}' and cust_LegalEntity/externalCode eq '{companyCodeValue}'",
+  "requestEntities": [
+    {
+      "key": "costCenterCode",
+      "valuePath": "externalCode",
+      "labelPath": ""
+    },
+    {
+      "key": "costCenterName",
+      "valuePath": "name",
+      "labelPath": ""
+    }
+  ], 
+  "permissionsMetadata": [],
+  "rolePermissions": []
+}
+```
+
+#### Update cost center
+Updating the contact email
+
+|Validate cost center | Description |
+| --- | ---|
+| **Template configuration** | `HRSAPSuccessFactorsHCMManagerUpdateCostCenter` |
+| **Scenario name** | `msdyn_HRSAPSuccessFactorsHCMManagerUpdateCostCenter` |
+| **Request Body**|	<li>`userId`: User id of the direct that’s being updated<li>`startDate`: Start date of when the change should be effective gathered from manager<li>`costCenter`: New cost center id input by manager. |
+
+**Configuration**	
+```json
+
+{
+        "scenario": "UpdateCostCenter",
+        "requestBody": '{
+            "__metadata": {
+                "uri": "EmpJob"
+            },
+            "userId": "userIdVal",
+            "startDate": "/Date(startDateVal)/",
+            "costCenter": "costCenterVal"
+        }',
+        "permissionsMetadata": [{
+                "permType": "DATA_MODEL",
+                "permLongValue": -1,
+                "permStringValue": "$_eventReason_DATACOST_write"
+            }
+        ],
+        "rolePermissions": []
+    }
+```
+
+#### Job Title
+|Job Title | Description |
+| --- | ---|
+|**Description** | Retrieves the managers directs current job titles, displays it, and then prompts manager to select a direct and input their new title with a start date. Manager can also include direct and job title in prompt and it will be slot filled|
+|**Prompts** | <li>I want to change the job title for `[EmployeeName]`<li>Update `[EmployeeName]`'s job title to `[newJobTitle]`<li>Can I change the job title of my team member?<li>I'd like to change `[EmployeeName]`'s job title<li>Update job title for my directs<li>Change job title of my team member to `[newJobTitle]`?|
+|**Adaptive Card** | :::image type="content" source="media/adaptive-card.png" alt-text="A screenshot of an adaptive card in a chat experience." lightbox="media/adaptive-card.png"::: |
+|
+
+#### Get configurations – Job information
+Retrieving the existing job information is the first step in the flow
+
+|Get configurations | Description |
+| --- | ---|
+|**Template configuration** | `HRSAPSuccessFactorsHCMGetManagerJobInfo`|
+|**Scenario name** |`msdyn_HRSAPSuccessFactorsHCMGetManagerJobInfo`|
+|**Filter**	| Filters on `personIdExternal` using `ESS_UserContext_Employee_Id`, `userId` using `ESS_UserContext_User_Id`, and `isContingentWorker` set to `false`. `isContingentWorker` is used to ensure only employees data is retrieved. |
+|**Values queried** | <li>`DisplayName`: Directs current preferred name<li>`UserId`: Directs `userId` which is used in upsert to match data.<li>`JobTitle`:Directs job title<li>`JobCode`: Not used in this Topic but is queried because the template configuration Manager Read Job Info is reused here<li>`JobFunctionType`: Not used in this topic but is queried because the template configuration Manager Read Job Info is reused here<li>`JobFunction`: Not used in this topic but is queried because the template configuration Manager Read Job Info is reused here|
+
+**Configuration**:
+```json
+
+	{
+  "scenario": "ManagerReadJobInfo",
+  "rootEntity": "EmpEmployment",
+  "filter": "isContingentWorker eq {isContingentWorkerValue} and userNav/manager/empInfo/personIdExternal eq '{personIdExternalVal}' and userNav/manager/empInfo/userId eq '{userIdVal}'",
+  "requestEntities": [
+    {
+      "key": "DisplayName",
+      "valuePath": "userNav/displayName",
+      "labelPath": "User/displayName"
+    },
+    {
+      "key": "UserId",
+      "valuePath": "userNav/userId",
+      "labelPath": "User/userId"
+    },
+    {
+      "key": "JobTitle",
+      "valuePath": "jobInfoNav/jobTitle",
+      "labelPath": "User/jobTitle"
+    },
+    {
+      "key": "JobCode",
+      "valuePath": "jobInfoNav/jobCode",
+      "labelPath": "User/jobCode"
+    },
+    {
+      "key": "JobFunctionType",
+      "valuePath": "jobInfoNav/jobCodeNav/jobFunctionNav/jobFunctionType",
+      "labelPath": "FOJobFunction/jobFunctionType"
+    },
+    {
+      "key": "jobFunction",
+      "valuePath": "jobInfoNav/jobCodeNav/jobFunction",
+      "labelPath": "FOJobCode/jobFunction"
+    }
+  ],
+  "permissionsMetadata": [],
+  "rolePermissions": [
+    {
+      "roleId": "115",
+      "permissions": [
+        {
+          "permStringValue": "$_jobInfo_job-title_read"
+        },
+        {
+          "permStringValue": "$_jobInfo_job-code_read"
+        }
+      ]
+    }
+  ]
+}
+```
+
+#### Update job title
+Updating the job title
+
+|Job Title | Description |
+| --- | ---|
+|**Template configuration** |`HRSAPSuccessFactorsHCMManagerUpdateJobTitle`|
+|**Scenario name** | `msdyn_HRSAPSuccessFactorsHCMEmployeeUpdatePreferredName` |
+|**Request Body** | <li>`userId`: User id of direct that’s being updated<li>`startDate`: Start date of when the change should be effective gathered from manager<li>`jobTitle`: New job title gathered from manager|
+
+##### Configuration	
+
+```json{
+        "scenario": "UpdateJobTitle",
+        "requestBody": '{
+            "__metadata": {
+                "uri": "EmpJob"
+            },
+            "userId": "userIdVal",
+            "startDate": "/Date(startDateVal)/",
+            "jobTitle": "jobTitleVal"
+        }',
+        "permissionsMetadata": [{
+                "permType": "DATA_MODEL",
+                "permLongValue": -1,
+                "permStringValue": "$_eventReason_JOBTITLE_write"
+            }
+        ],
+        "rolePermissions": []
+}
+```
+
