@@ -32,36 +32,39 @@ Generally passing `Employee ID` and `User ID` for filter query for `Employee Rea
 
 Example format used in a Topic: 
 
-```
+```json
 "{""personIdExternalVal"": """ & Global.ESS_UserContext_Employee_Id & """,""userIdVal"": """ & Global.ESS_UserContext_User_Id & """}" 
 ```
 
 Example Template configuration: 
 
-```
+```json
 { 
   ... 
   "filter": "personIdExternal eq '{personIdExternalVal}' and userId eq '{userIdVal}'", 
   ... 
 } 
 ```
-The keys present in the filterParam must match what is expected in the Template configuration. In the examples above `personIdExternalVal` would be used as a key to insert `Global.ESS_UserContext_Employee_Id` into the filter expression. 
+
+The keys present in the filterParam must match what is expected in the Template configuration. In the previous examples, `personIdExternalVal` would be used as a key to insert `Global.ESS_UserContext_Employee_Id` into the filter expression. 
 
 **ScenarioName:** 
 Configuration name, which is used by Dataverse call to get scenario configuration. 
 
 **userIdentifier:**  
-User Id 
+User ID 
 
 Common Orchestrator then returns a `ModelResponse` and `LabelResponse`, which is then parsed using a large language model using the following instructions and generates answer for a Manager:
 
-```
 Extract the input from the below response (map the Label response *value* as key in model response attribute then provide model value) 
-Provide response to the user in a human readable form  
-Format it properly so it looks clean and readable 
-Use **only** data values from variable named as "successfactorsModelResponse" and use variable named as "successfactorsLabelResponse" for labelling the data 
 
-Response Example : 
+Provide response to the user in a human readable form  
+
+Format it properly so it looks clean and readable
+
+Use **only** data values from variable named as `successfactorsModelResponse` and use variable named as `successfactorsLabelResponse` for labelling the data. Response Example:
+ 
+```json
 Label Response : key":"company","value":"company" 
 
 Model Response : 
@@ -71,13 +74,13 @@ Example Output :
 Your company is 11111
 ```
 
-The only exception to this general format is `Get Employee Id` and `Get Service Anniversary` which are further explained in the following sections.
+The only exception to this general format is `Get Employee Id` and `Get Service Anniversary`, which are further explained in the following sections.
 
 ### Company Code
 
 |Company Code | Details |
 |----------------------|--------|
-|**Description**       | Retrieves the manager directs’ current company code and displays it. Manager can also include direct and job title in prompt, and it will be slot filled  |
+|**Description**       | Retrieves the manager direct reports current company code and displays it. Manager can also include direct and job title in prompt.  |
 |**Prompts**           | <li>Update cost center for `[EmployeeName]` <li>I want to update `[EmployeeName]`'s cost center <li>I'd like to update a team member's cost center to `[id_costCenter]` <li>Update `[EmployeeName]`'s cost center to `[id_costCenter]` <li> Update cost center for my team |
 |**Response** | Here are the company codes for your direct reports: <li>Manuela	Torres: 2000 (Contoso UK)<BR> <li> Gerardo Palacios: 2000 (Contoso UK)<li>Xiang	Tao: 2000 (Contoso UK)<BR> If you need any further assistance, feel free to ask!|
 | **Template configuration** | `HRSAPSuccessFactorsHCMGetManagerCompanyCode` |
@@ -344,7 +347,7 @@ This configuration is used when a directs name is filled with the manager’s pr
 |---|---|
 | **Template configuration** | `RSAPSuccessFactorsHCMGetManagerEmpNameJobInfo` |
 | **Scenario name** | `msdyn_HRSAPSuccessFactorsHCMGetManagerEmpNameJobInfo` | 
-| **Filter** | Filters on `personIdExternal` using `ESS_UserContext_Employee_Id`, `userId` using `ESS_UserContext_User_Id` and `isContingentWorker` set to `false`. `isContingentWorker` is used to ensure only employees data are retrieved. Additionally, the expression filters on `firstName`, `lastName`, and `displayName` using the slot filled name from manager’s query.|  
+| **Filter** | Filters on `personIdExternal` using `ESS_UserContext_Employee_Id`, `userId` using `ESS_UserContext_User_Id`, and `isContingentWorker` set to `false`. `isContingentWorker` is used to ensure only employees data are retrieved. Additionally, the expression filters on `firstName`, `lastName`, and `displayName` using the slot filled name from manager’s query.|  
 | **Values queried** | <li>`DisplayName`: Directs current preferred name <li>`UserId`: Directs userId, which is used in upsert to match data <li>`JobTitle`: Directs job title <li> `JobCode`: Directs job code/positionNumber <li>`JobFunctionType`: Directs job function type <li>`JobFunction`: Directs job function |
 
 **Configuration**: 
@@ -404,7 +407,7 @@ This configuration is used when a directs name is filled with the manager’s pr
 |---|---|
 | **Description** | Retrieves the manager’s directs hire date, calculates the service anniversary using the duration global variable and displays it. A manager can also include direct and job title in prompt. |
 | **Prompts** | <li>When are the service anniversaries of all my direct reports? <li>What are the service anniversaries of my entire team? <li>Show me service anniversaries of my direct reports? <li>What is `[EmployeeName]`'s next service anniversary assuming service anniversary duration is `[Duration]` years. <li>When is `[EmployeeName]`'s `[Duration]` year service anniversary? <li>What is `[EmployeeName]`'s Start/Hire Date? <li>When is `[EmployeeName]`'s service anniversary? <li>Do any of my direct have a service anniversary next month? |
-|**Formula** | `If(DateDiff(Today(), DateAdd(DateValue(userNav.hireDate), Year(Today()) - Year(DateValue(userNav.hireDate)), TimeUnit.Years)) < 0, DateAdd(DateValue(userNav.hireDate), Year(Today()) - Year(DateValue(userNav.hireDate)) + Topic.Duration, TimeUnit.Years), DateAdd(DateValue(userNav.hireDate), Year(Today()) - Year(DateValue(userNav.hireDate)), TimeUnit.Years))` <BR><BR> This PowerFX formula calculates the next service anniversary date for an employee based on their hire date and a specified duration. The formula follows these steps: <BR> <BR>1. `DateValue(userNav.hireDate)` <BR>Converts the employee's hire date to a date value <BR><BR>2.  `Year(Today()) - Year(DateValue(userNav.hireDate))`<BR>Calculates the number of years between the current year and the year of the employee's hire date <BR><BR>3. `DateAdd(DateValue(userNav.hireDate), Year(Today()) - Year(DateValue(userNav.hireDate)), TimeUnit.Years)`<BR>Adds the calculated number of years to the hired date to determine the next anniversary date <BR><BR>4. `DateDiff(Today(), DateAdd(DateValue(userNav.hireDate), Year(Today()) - Year(DateValue(userNav.hireDate)), TimeUnit.Years)) < 0` <BR>Checks if the calculated anniversary date is in the past <BR><BR>5. `If(DateDiff(Today(), DateAdd(DateValue(userNav.hireDate), Year(Today()) - Year(DateValue(userNav.hireDate)), TimeUnit.Years)) < 0 ` <BR>If the next anniversary date is in the past, it calculates the anniversary date for the next year by adding the specified duration `(Topic.Duration)` to the hire date.<BR><BR>6. `DateAdd(DateValue(userNav.hireDate), Year(Today()) - Year(DateValue(userNav.hireDate)) + Topic.Duration, TimeUnit.Years)`Calculates the next anniversary date for the following year. <BR><BR>7. `DateAdd(DateValue(userNav.hireDate), Year(Today()) - Year(DateValue(userNav.hireDate)), TimeUnit.Years)`<BR>If the anniversary date isn't in the past, it returns the calculated anniversary date for the current year |
+|**Formula** | `If(DateDiff(Today(), DateAdd(DateValue(userNav.hireDate), Year(Today()) - Year(DateValue(userNav.hireDate)), TimeUnit.Years)) < 0, DateAdd(DateValue(userNav.hireDate), Year(Today()) - Year(DateValue(userNav.hireDate)) + Topic.Duration, TimeUnit.Years), DateAdd(DateValue(userNav.hireDate), Year(Today()) - Year(DateValue(userNav.hireDate)), TimeUnit.Years))` <BR><BR> This PowerFX formula calculates the next service anniversary date for an employee based on their hire date and a specified duration. The formula follows these steps: <BR> <BR>1. `DateValue(userNav.hireDate)` <BR>Converts the employee's hire date to a date value <BR><BR>2. `Year(Today()) - Year(DateValue(userNav.hireDate))`<BR>Calculates the number of years between the current year and the year of the employee's hire date <BR><BR>3. `DateAdd(DateValue(userNav.hireDate), Year(Today()) - Year(DateValue(userNav.hireDate)), TimeUnit.Years)`<BR>Adds the calculated number of years to the hired date to determine the next anniversary date <BR><BR>4. `DateDiff(Today(), DateAdd(DateValue(userNav.hireDate), Year(Today()) - Year(DateValue(userNav.hireDate)), TimeUnit.Years)) < 0` <BR>Checks if the calculated anniversary date is in the past <BR><BR>5. `If(DateDiff(Today(), DateAdd(DateValue(userNav.hireDate), Year(Today()) - Year(DateValue(userNav.hireDate)), TimeUnit.Years)) < 0 ` <BR>If the next anniversary date is in the past, it calculates the anniversary date for the next year by adding the specified duration `(Topic.Duration)` to the hire date.<BR><BR>6. `DateAdd(DateValue(userNav.hireDate), Year(Today()) - Year(DateValue(userNav.hireDate)) + Topic.Duration, TimeUnit.Years)`Calculates the next anniversary date for the following year. <BR><BR>7. `DateAdd(DateValue(userNav.hireDate), Year(Today()) - Year(DateValue(userNav.hireDate)), TimeUnit.Years)`<BR>If the anniversary date isn't in the past, it returns the calculated anniversary date for the current year |
 | **Response** | Here are the service anniversaries for your direct reports: <BR>**Manuela	Torres**: <li>**Hire date**: 2014-01-01 <li>**Upcoming service anniversary date**: 2025-12-31<li>**Upcoming milestone**: 12 years  <BR><BR> **Gerardo Palacios**: <li>**Hire date**: 2014-01-01 <li>**Upcoming service anniversary date**: 2025-12-31<li>**Upcoming milestone**: 12 years<BR><BR>**Xiang	Tao**: <li>**Hire date**: 2014-01-01 <li>**Upcoming service anniversary date**: 2025-12-31<li>**Upcoming milestone**: 12 years<BR> If you need any further assistance, feel free to ask!|
 | **Template configuration** | `HRSAPSuccessFactorsHCMGetManagerServiceAnniversary`| 
 | **Scenario name** | `msdyn_HRSAPSuccessFactorsHCMGetManagerServiceAnniversary` | 
@@ -530,12 +533,13 @@ Present the manager directs current information asking for their confirmation to
 If the manager submits their update,  data is collected and used to call the `SuccessFactors System Update Common Execution`. This flow will `UPSERT` user data in `SuccessFactors` using the `OData` connector. `SuccessFactors System Update Common Execution` expects the following inputs: 
 
 **TargetUserId**: User ID 
-**var_requestParam**: An array of objects. Example format used in Topic: 
+**var_requestParam**: An array of objects. Example format used in Topic:
+ 
 ```JSON
 "[{""key"":""personIdExternalVal"", ""value"":"""&Global.ESS_UserContext_Employee_Id&"""},         {""key"":""countryVal"", ""value"":"""&First(Topic.var_parsedModel).country&"""},{""key"":""startDateVal"", ""value"":"""&DateDiff(Date(1970, 1, 1), First(Topic.var_parsedModel).startDate, TimeUnit.Seconds) * 1000&"""},{""key"":""genericString1Val"", ""value"":"""&Topic.id_raceAndEthnicity&"""}]" 
 ```
  
-Snippet from Template configuration 
+Snippet from Template configuration: 
 
 ```JSON
 { 
@@ -557,18 +561,18 @@ If `SuccessFactors System Update Common Execution` succeeds, then copilot respon
 
 #### Customizations  
 
-Customizations to the Template configuration generally requires these changes: 
+Customizations to the Template configuration generally require these changes: 
 
 **Adding fields to Get Config**:  
-After adding field to template configuration, it must update the modelResponse parsing node schema.
+After adding field to template configuration, it must update the `modelResponse` parsing node schema.
 
 :::image type="content" source="media/parse-value.png" alt-text="Screenshot of the parse value field." lightbox="media/parse-value.png":::
 
-:::image type="content" source="media/edit-schema.png" alt-text="Screenshot of the Edit schema definition window. ." lightbox="media/edit-schema.png":::
+:::image type="content" source="media/edit-schema.png" alt-text="Screenshot of the Edit schema definition window." lightbox="media/edit-schema.png":::
 
 :::image type="content" source="media/adaptive-cards-fields.png" alt-text="A screenshot of a JSON with a highlighted LookUp function." lightbox="media/adaptive-cards-fields.png":::
 
-The adaptive card “label” property is set by the value stored in the pared label variable and the “value” property is set using the var_veteranInfo variable which stores the parsed user data.
+The adaptive card “label” property is set by the value stored in the pared label variable. The “value” property is set using the `var_veteranInfo` variable, which stores the parsed user data.
 
 If another input type to be added to the adaptive card to collect data for another field, then use the following input control code:
 
@@ -583,7 +587,7 @@ choices: Topic.var_veteranPicklist
 }
 ```
 
-After which it’s required to update the output binding schema with the string given in `id` property.  In the example above, `id` = `id_veteran` therefore the output binding schema must have a variable with the same name set with the correct data type, as shown below:
+After which, update the output binding schema with the string given in `id` property.  In the previous example, `id` = `id_veteran` therefore the output binding schema must have a variable with the same name set with the correct data type, as shown:
 ```
 kind: Record
 properties:
@@ -597,19 +601,19 @@ properties:
 
 ##### Adding fields to update 
 
-After adding the new field to update configuration, it must be updated with the `var_requestParam` to include added field as well as the values to send to update with.
-Refer to the built-in `“write”` scenarios for further guidance to extend additional scenarios.
+After adding the new field to update configuration, it must be updated with the `var_requestParam` to include added field and the values to send to update with.
+Refer to the built-in `“write”` scenarios for further guidance to extend scenarios.
 
 **Authorization**:
 
-- Authorization is done using the `permissionsMetadata/rolePermission` that is part of the Template configuration. The `permissionsMetadata` and `User Id` are used to create the query string for `OData Connector in SuccessFactors Check User Permissions flow`. If `SuccessFactors Check User Permissions flow` does not find `permissionsMetadata` it will run `roleBased Permissions flow` using role permission and user roles variable.
-- It is important to include `permissionMetadata` or `rolePermission` in template configuration file as there is no other authorization check if both of those fields are missing.
+- Authorization is done using the `permissionsMetadata/rolePermission` that is part of the Template configuration. The `permissionsMetadata` and `User Id` are used to create the query string for `OData Connector in SuccessFactors Check User Permissions flow`. If `SuccessFactors Check User Permissions flow` doesn't find `permissionsMetadata` it runs `roleBased Permissions flow` using role permission and user roles variable.
+- It's important to include `permissionMetadata` or `rolePermission` in template configuration file as there's no other authorization check if both of those fields are missing.
 
 #### Cost Center
 
 |Cost center | Details |
 |---|---|
-|**Description** |Retrieves the manager’s directs current cost center, displays it, and then prompts manager to select a direct and input their new cost center with a start date. Manager can also include direct and job title in prompt, and it will be slot filled|
+|**Description** |Retrieves the manager’s directs current cost center, displays it, and then prompts manager to select a direct and input their new cost center with a start date. Manager can also include direct and job title in prompt.|
 |**Prompts** |<li>Update cost center for `[EmployeeName]`<li>I want to update `[EmployeeName]`'s cost center?<li>I'd like to update a team member's cost center to `[id_costCenter]`<li>Update `[EmployeeName]`'s cost center to `[id_costCenter]`<li>Update cost center for my team|
 
 
@@ -627,7 +631,7 @@ Retrieve the existing cost center is the first step in the flow.
 | **Template configuration** | 	`HRSAPSuccessFactorsHCMGetManagerCostCenter`|
 | **Scenario name**	| `sdyn_HRSAPSuccessFactorsHCMGetManagerCostCenter`|
 | **Filter** | Filters on `personIdExternal` using `ESS_UserContext_Employee_Id`, `userId` using `ESS_UserContext_User_Id`, and `isContingentWorker` set to `false`. `isContingentWorker` is used to ensure only employees data is retrieved.|
-|**Values queried**| <li>`DisplayName`: Directs current preferred name<li>`UserId`: Directs userId which is used in upsert to match data<li>`CostCenterCode`: Directs cost center as an id value<li>`CostCenterName`: Directs Cost center as a name linked to id value<li>`Company`: Directs company code used to validate cost center submitted by manager.|
+|**Values queried**| <li>`DisplayName`: Directs current preferred name<li>`UserId`: Directs userId, which is used in upsert to match data<li>`CostCenterCode`: Directs cost center as an ID value<li>`CostCenterName`: Directs Cost center as a name linked to ID value<li>`Company`: Directs company code used to validate cost center submitted by manager.|
 
 **Configuration**:
 ```json
@@ -674,14 +678,14 @@ Retrieve the existing cost center is the first step in the flow.
 ```
 
 #### Validate cost center
-This configuration is used to validate the manager’s entered cost center. After the manager submits the adaptive card, this configuration is used with the Get Common Orchestrator to query for the cost center and see if it exist under the company code the manager is in.
+This configuration is used to validate the manager’s entered cost center. After the manager submits the adaptive card, this configuration is used with the Get Common Orchestrator to query for the cost center and see if it exists under the company code the manager is in.
 
 |Validate cost center | Description |
 | --- | ---|
 |**Template configuration** | `HRSAPSuccessFactorsHCMEmployeeValidateCostCenter`|
 |**Scenario name**	|`msdyn_HRSAPSuccessFactorsHCMEmployeeValidateCostCenter`|
 |**Filter** | Filters on cost center code (`externalCode`) using `costCentervalue` and company code (`cust_LegalEntity/externalCode`) |
-|**Values queried** |<li>`CostCenterCode`: Cost center as an id value <li> `CostCenterName`: Cost center as a name linked to id value |
+|**Values queried** |<li>`CostCenterCode`: Cost center as an ID value <li> `CostCenterName`: Cost center as a name linked to ID value |
 
 **Configuration**:	
 ```json
@@ -715,7 +719,7 @@ Updating the contact email
 | --- | ---|
 | **Template configuration** | `HRSAPSuccessFactorsHCMManagerUpdateCostCenter` |
 | **Scenario name** | `msdyn_HRSAPSuccessFactorsHCMManagerUpdateCostCenter` |
-| **Request Body**|	<li>`userId`: User id of the direct that’s being updated<li>`startDate`: Start date of when the change should be effective gathered from manager<li>`costCenter`: New cost center id input by manager. |
+| **Request Body**|	<li>`userId`: User ID of the direct that’s being updated<li>`startDate`: Start date of when the change should take effect<li>`costCenter`: New cost center ID input by manager. |
 
 **Configuration**	
 ```json
@@ -743,8 +747,8 @@ Updating the contact email
 #### Job Title
 |Job Title | Description |
 | --- | ---|
-|**Description** | Retrieves the managers directs current job titles, displays it, and then prompts manager to select a direct and input their new title with a start date. Manager can also include direct and job title in prompt and it will be slot filled|
-|**Prompts** | <li>I want to change the job title for `[EmployeeName]`<li>Update `[EmployeeName]`'s job title to `[newJobTitle]`<li>Can I change the job title of my team member?<li>I'd like to change `[EmployeeName]`'s job title<li>Update job title for my directs<li>Change job title of my team member to `[newJobTitle]`?|
+|**Description** | Retrieves the managers directs current job titles, displays it, and then prompts manager to select a direct and input their new title with a start date. Manager can also include direct and job title in prompt.|
+|**Prompts** | <li>I want to change the job title for `[EmployeeName]`<li>Update `[EmployeeName]`'s job title to `[newJobTitle]`<li>Can I change the job title of my team member?<li>I'd like to change `[EmployeeName]`'s job title<li>Update job title for my direct reports<li>Change job title of my team member to `[newJobTitle]`?|
 |**Adaptive Card** | :::image type="content" source="media/adaptive-card.png" alt-text="A screenshot of an adaptive card in a chat experience." lightbox="media/adaptive-card.png"::: |
 |
 
@@ -756,7 +760,7 @@ Retrieving the existing job information is the first step in the flow
 |**Template configuration** | `HRSAPSuccessFactorsHCMGetManagerJobInfo`|
 |**Scenario name** |`msdyn_HRSAPSuccessFactorsHCMGetManagerJobInfo`|
 |**Filter**	| Filters on `personIdExternal` using `ESS_UserContext_Employee_Id`, `userId` using `ESS_UserContext_User_Id`, and `isContingentWorker` set to `false`. `isContingentWorker` is used to ensure only employees data is retrieved. |
-|**Values queried** | <li>`DisplayName`: Directs current preferred name<li>`UserId`: Directs `userId` which is used in upsert to match data.<li>`JobTitle`:Directs job title<li>`JobCode`: Not used in this Topic but is queried because the template configuration Manager Read Job Info is reused here<li>`JobFunctionType`: Not used in this topic but is queried because the template configuration Manager Read Job Info is reused here<li>`JobFunction`: Not used in this topic but is queried because the template configuration Manager Read Job Info is reused here|
+|**Values queried** | <li>`DisplayName`: Directs current preferred name<li>`UserId`: Directs `userId` which is used in upsert to match data.<li>`JobTitle`: Directs job title<li>`JobCode`: Not used in this Topic but is queried because the template configuration Manager Read Job Info is reused here<li>`JobFunctionType`: Not used in this topic but is queried because the template configuration Manager Read Job Info is reused here<li>`JobFunction`: Not used in this topic but is queried because the template configuration Manager Read Job Info is reused here|
 
 **Configuration**:
 ```json
@@ -821,7 +825,7 @@ Updating the job title
 | --- | ---|
 |**Template configuration** |`HRSAPSuccessFactorsHCMManagerUpdateJobTitle`|
 |**Scenario name** | `msdyn_HRSAPSuccessFactorsHCMEmployeeUpdatePreferredName` |
-|**Request Body** | <li>`userId`: User id of direct that’s being updated<li>`startDate`: Start date of when the change should be effective gathered from manager<li>`jobTitle`: New job title gathered from manager|
+|**Request Body** | <li>`userId`: User ID of direct that’s being updated<li>`startDate`: Start date of when the change should be effective gathered from manager<li>`jobTitle`: New job title gathered from manager|
 
 ##### Configuration	
 
