@@ -139,7 +139,7 @@ If you need to edit Identity Mapping while any migration batches are running, do
 7. Live Events, Webinar, Town halls, Virtual Appointments, Controlled-content meetings, Large Meetings, and other Custom template meetings aren't migrated. Meetings with more than 250 attendees aren't migrated.
 8. Canceled meetings aren't migrated. Because they have invalid join blobs, the URLs aren't updated, and their chats aren't migrated.
 9. Modified occurrences of recurring meetings aren't migrated. The modified occurrences still have the original URL after migration.
-10. Meetings with no Teams coordinates or meeting URLs don't migrated (appointments).
+10. Meetings with no Teams coordinates or meeting URLs don't migrate (appointments).
 11. If the format of the meeting coordinates body or tags changed from the original, meetings might not migrate.
 12. Meetings that are already in the target tenant aren't migrated. Their participant list isn't updated when those users move.
 13. Migration of meetings organized by resource mailboxes, such as room mailboxes or equipment mailboxes, is unsupported. These meetings don't have their URLs updated, nor their chats migrated.
