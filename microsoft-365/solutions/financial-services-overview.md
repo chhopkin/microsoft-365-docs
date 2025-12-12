@@ -12,7 +12,9 @@ ms.collection:
 - highpri
 - M365-subscription-management
 - M365solution-overview
-ms.custom: seo-marvel-jun2020
+ms.custom:
+- seo-marvel-jun2020
+- m365-solutions-doc-set
 f1.keywords: NOCSH
 ms.date: 09/29/2022
 ---

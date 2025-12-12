@@ -22,6 +22,7 @@ ms.collection:
 ms.custom:
 - Ent_Architecture
 - seo-marvel-jun2020
+- m365-solutions-doc-set
 recommendations: false
 description: Learn how to configure Teams for better file sharing security using three tiers of protection, balancing security with ease of collaboration.
 ---

@@ -15,9 +15,10 @@ ms.collection:
 - m365solution-3tiersprotection
 - m365solution-securecollab
 - m365initiative-externalcollab
-ms.custom: 
+ms.custom:
 - seo-marvel-apr2020
 - admindeeplinkSPO
+- m365-solutions-doc-set
 ms.localizationpriority: medium
 f1.keywords: NOCSH
 recommendations: false

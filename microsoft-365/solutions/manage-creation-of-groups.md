@@ -14,6 +14,7 @@ ms.custom:
   - has-azure-ad-ps-ref
   - azure-ad-ref-level-one-done
   - admindeeplinkMAC
+  - m365-solutions-doc-set
 ms.collection: 
 - highpri
 - M365-subscription-management
