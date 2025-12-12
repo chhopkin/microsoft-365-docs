@@ -26,15 +26,15 @@ Each of the Read topic has its own prompts, configurations, and so on, but the a
 - **ScenarioName**: Config Name, which is used by Dataverse call to get scenario configuration.
 - **userIdentifier**: User ID.
 
-A common orchestrator then returns a ModelResponse and LabelResponse, which the LLM then parses using the following instructions to generate an answer for the user:
+A common orchestrator then returns a ModelResponse and LabelResponse, which the Large Language Model (LLM) then parses using the following instructions to generate an answer for the user:
 
 - Extract the input from the following response (map the Label response *value* as key in model response attribute then provide model value).
 - Provide the response to the user in a human readable form.
 - Format the response properly to make it clean and readable.
-- Use only data values from the variable named "successfactorsModelResponse" and use the variable named "successfactorsLabelResponse" for labeling the data.
+- Use only data values from the variable named `successfactorsModelResponse` and use the variable named `successfactorsLabelResponse` for labeling the data.
 - **Response example:**
-  - Label Response:"key":"company","value":"company"
-  - Model Response: "company":"12345"
+  - Label Response:`key`:`company`,`value`:`company`
+  - Model Response: `company`:`12345`
   - Example Output: Your company is 12345 (Contoso Germany)
 
 The "Get Employee ID" and "Get Service Anniversary" topics are exceptions to this common execution method, which is further explained in their respective sections.
@@ -207,7 +207,7 @@ Authorization for all the topics is as follows:
 
 |Get Service Anniversary |Details |
 |------------------------|--------|
-|**Description** |This topic performs a calculated functionality using the "HireDate" value with some PowerFx functions as follows:<p>**Years worked**<p><li>`RoundDown(DateDiff(Topic.startDate, Now(), TimeUnit.Years), 0)` <br>This formula calculates the number of complete years the employee worked. It finds the difference between current date and employee's start date and then rounds down to the nearest whole number<li>`DateDiff(Topic.startDate, Now(), TimeUnit.Years)` <br>This part of the formula calculates the difference in years between the employee's start date (`Topic.startDate`) and the current date (\`Now()\`).<li>`RoundDown(..., 0)` <br>This function takes the result of DateDiff and rounds it down to the nearest whole number. The 0 indicates the number of decimal places to round to, which in this case is zero, meaning it returns an integer value representing the complete years worked. <p>**Service Anniversary Intervals in Years** <p><li>`RoundDown(Topic.yearsWorked / Topic.serviceAnniversaryDuration, 0)` <br>Calculates how many complete intervals of the service anniversary duration the employee worked. It divides the total years worked by the service anniversary duration and rounds down to the nearest whole number. <p>**Upcoming Service Anniversary Count** <li>`Topic.serviceAnniversaryDuration \* (Topic.serviceAnniversaryIntervalsInYears + 1)` <br>This formula calculates the upcoming service anniversary count by multiplying the service anniversary duration by one more than the complete intervals already worked.<p>**Calculated Service Anniversary Date** <br>`DateAdd(Topic.startDate, Topic.serviceAnniversaryDuration \*(RoundDown(Topic.yearsWorked / Topic.serviceAnniversaryDuration, 0) + 1), TimeUnit.Years)`<p><li>`RoundDown(Topic.yearsWorked / Topic.serviceAnniversaryDuration, 0)` <br>This part of the formula calculates how many complete intervals of the service anniversary duration the employee worked. It divides the total years worked by the service anniversary duration and rounding down to the nearest whole number.<li>`Topic.serviceAnniversaryDuration \* (RoundDown(Topic.yearsWorked /Topic.serviceAnniversaryDuration, 0) + 1)` <br>This part of the formula calculates the total service anniversary intervals (plus one) to be added to the start date.<li>`DateAdd(Topic.startDate, ..., TimeUnit.Years)`<br>Finally, this function adds the calculated intervals to the start date to determine the upcoming service anniversary date. |
+|**Description** |This topic performs a calculated functionality using the "HireDate" value with some PowerFx functions as follows:<p>**Years worked**<p><li>`RoundDown(DateDiff(Topic.startDate, Now(), TimeUnit.Years), 0)` <br>This formula calculates the number of complete years the employee worked. It finds the difference between current date and employee's start date and then rounds down to the nearest whole number<li>`DateDiff(Topic.startDate, Now(), TimeUnit.Years)` <br>This part of the formula calculates the difference in years between the employee's start date (`Topic.startDate`) and the current date (\`Now()\`).<li>`RoundDown(..., 0)` <br>This function takes the result of DateDiff and rounds it down to the nearest whole number. The `0` value indicates the number of decimal places to round to, which in this case is zero, meaning it returns an integer value representing the complete years worked. <p>**Service Anniversary Intervals in Years** <p><li>`RoundDown(Topic.yearsWorked / Topic.serviceAnniversaryDuration, 0)` <br>Calculates how many complete intervals of the service anniversary duration the employee worked. It divides the total years worked by the service anniversary duration and rounds down to the nearest whole number. <p>**Upcoming Service Anniversary Count** <li>`Topic.serviceAnniversaryDuration \* (Topic.serviceAnniversaryIntervalsInYears + 1)` <br>This formula calculates the upcoming service anniversary count by multiplying the service anniversary duration by one more than the complete intervals already worked.<p>**Calculated Service Anniversary Date** <br>`DateAdd(Topic.startDate, Topic.serviceAnniversaryDuration \*(RoundDown(Topic.yearsWorked / Topic.serviceAnniversaryDuration, 0) + 1), TimeUnit.Years)`<p><li>`RoundDown(Topic.yearsWorked / Topic.serviceAnniversaryDuration, 0)` <br>This part of the formula calculates how many complete intervals of the service anniversary duration the employee worked. It divides the total years worked by the service anniversary duration and rounding down to the nearest whole number.<li>`Topic.serviceAnniversaryDuration \* (RoundDown(Topic.yearsWorked /Topic.serviceAnniversaryDuration, 0) + 1)` <br>This part of the formula calculates the total service anniversary intervals (plus one) to be added to the start date.<li>`DateAdd(Topic.startDate, ..., TimeUnit.Years)`<br>Finally, this function adds the calculated intervals to the start date to determine the upcoming service anniversary date. |
 |**Prompts**  |<li>When is my next service anniversary?<li>Next anniversary<li>Service anniversary<li>Show my service anniversary date <li>What is my service anniversary date? |
 |**Scenario name**  |`msdyn_HRSAPSuccessFactorsHCMEmployeeGetHireDate` |
 |**Filter** |Filters on *personIdExternal* using *ESS_UserContext_Employee_Id* and *user ID* using *ESS_UserContext_User_Id*<p>Expression: `"personIdExternal eq '{personIdExternalVal}' and userId eq '{userIdVal}'"`|
@@ -339,7 +339,7 @@ Get user data and Picklist data (if necessary) by using `SuccessFactors System G
 
 **FilterParams**: The following example shows a user data request, but picklist data request follow the same rules for prepping the filterParams. 
 
-Example Format used in Topic:  
+Example format used in Topic:  
 
 ```json
 "{""personIdExternalVal"": """ & Global.ESS_UserContext_Employee_Id & """,""userIdVal"": """ & Global.ESS_UserContext_User_Id & """}" 
@@ -392,13 +392,13 @@ Snippet from Template configuration
  } 
 ```
 
-The keys present in the `var_requestParam` must match what is expected in the Template configuration. In the examples above `personIdExternalVal` would be used as a key to insert `Global.ESS_UserContext_Employee_Id` into the request body. 
+The keys present in the `var_requestParam` must match what is expected in the Template configuration. In the previous examples `personIdExternalVal` would be used as a key to insert `Global.ESS_UserContext_Employee_Id` into the request body. 
 
-- `var_scenarioName`: Configuration name which is used by Dataverse call to get scenario configuration. 
+- `var_scenarioName`: Configuration name, which is used by Dataverse call to get scenario configuration. 
 
 ### 4. Success or fail notification to user
 
-If `SuccessFactors System Update Common Execution` succeeds, then Copilot will respond to a user that their update succeeded. If the operation fails, the user will get a failure message. 
+If `SuccessFactors System Update Common Execution` succeeds, then Copilot responds to a user that their update succeeded. If the operation fails, the user gets a failure message. 
 
 ### Multi-country/region configurations 
 
@@ -414,16 +414,16 @@ Customizations to the Template configuration will generally require these change
 
 #### 1. Adding fields to Get Config:  
 
-:::image type="content" source="media/emp-parse-value.png" alt-text="Screenshot of the parse value field with var_veteranInfo." lightbox="media/emp-parse-value.png":::
+:::image type="content" source="media/employee-parse-value.png" alt-text="Screenshot of the parse value field with var_veteranInfo." lightbox="media/employee-parse-value.png":::
 
-:::image type="content" source="media/emp-edit-schema.png" alt-text="Screenshot of the Edit schema window that's highlighted NewField value" lightbox="media/emp-edit-schema.png":::
+:::image type="content" source="media/employee-edit-schema.png" alt-text="Screenshot of the Edit schema window that's highlighted NewField value" lightbox="media/employee-edit-schema.png":::
 
 #### 2.	Adding fields to Adaptive card: 
 After adding fields to get schema, they can be accessed in the adaptive card design formula:
 
-:::image type="content" source="media/emp-adaptive-cards-fields.png" alt-text="Screenshot of the adaptive card design" lightbox="media/emp-adaptive-cards-fields.png":::
+:::image type="content" source="media/employee-adaptive-cards-fields.png" alt-text="Screenshot of the adaptive card fields" lightbox="media/employee-adaptive-cards-fields.png":::
 
-The adaptive card `label` property is set by the value stored in the pared `label` variable and the `value` property is set using the `var_veteranInfo` variable which stores the parsed user data.
+The adaptive card `label` property is set by the value stored in the pared `label` variable and the `value` property is set using the `var_veteranInfo` variable, which stores the parsed user data.
 
 If another input type needs to be added to the adaptive card to collect data for another field, then use the following input control code:
 
@@ -438,7 +438,7 @@ choices: Topic.var_veteranPicklist
 }
 ```
 
-After updating the code, you must update the output binding schema with the string given in `id` property.  In the example above, `id` = `id_veteran`. Therefore, the output binding schema must have a variable with the same name set with the correct data type. For example:
+After updating the code, you must update the output binding schema with the string given in `id` property.  In the previous example, `id` = `id_veteran`. Therefore, the output binding schema must have a variable with the same name set with the correct data type. For example:
 
 ```
 kind: Record
@@ -449,27 +449,27 @@ properties:
   id_veteran: String
 ```
 
- :::image type="content" source="media/emp-edit-output-binding-schema.png" alt-text="Screenshot of the adaptive card design" lightbox="media/emp-edit-output-binding-schema.png":::
+ :::image type="content" source="media/employee-edit-output-binding-schema.png" alt-text="Screenshot of the employee output binding schema window" lightbox="media/employee-edit-output-binding-schema.png":::
 
 #### 3. Adding fields to update
 
-After adding the new field to update configuration, it must be updated with the `var_requestParam` to include added field as well as the values to send to update with.
+After adding the new field to update configuration, it must be updated with the `var_requestParam` to include added field and the values to send to update with.
 
-Refer to the built-in “write” scenarios for further guidance to extend additional scenarios.
+Refer to the built-in “write” scenarios for further guidance to extend other scenarios.
 
 **Authorization**
 
-- Authorization is done using the permissionsMetadata/rolePermission that is part of the Template configuration. The permissionsMetadata and User Id are used to create the query string for OData Connector in SuccessFactors Check User Permissions flow. If SuccessFactors Check User Permissions flow does not find permissionsMetadata it will run roleBased Permissions flow using role permission and user roles variable
+- Authorization is done using the `permissionsMetadata`/`rolePermission` that is part of the Template configuration. The `permissionsMetadata` and User ID are used to create the query string for OData Connector in `SuccessFactors Check User Permissions flow`. If `SuccessFactors Check User Permissions flow` doesn't find `permissionsMetadata` it runs roleBased Permissions flow using role permission and user roles variable
 
-- It is important to include permissionMetadata or rolePermission in template configuration file as there is no other authorization check if both of those fields are missing.
+- It's important to include permissionMetadata or rolePermission in template configuration file as there's no other authorization check if both of those fields are missing.
  
 ### Veteran Info
 | Veteran info | Description |
 | --- | --- |
-| Description |	Retrieves the employee’s current veteran information and presents it in an adaptive card which the employee can edit and submit to update their veteran info|
-|Validations & Errors|If employee’s `Country_Code` does not exist in `SuccessFactors_VeteranInfo_Countries` environment variable then Topic will not run and instead return a "Sorry, this capability is not available in `<ESS_UserContext_Country_Code>` at this moment." message|
+| Description |	Retrieves the employee’s current veteran information and presents it in an adaptive card, which the employee can edit and submit to update their veteran info|
+|Validations & Errors|If employee’s `Country_Code` does not exist in `SuccessFactors_VeteranInfo_Countries` environment variable then Topic won't run and instead return a "Sorry, this capability isn't available in `<ESS_UserContext_Country_Code>` at this moment." message|
 |Prompts|<li>Can I update my Veteran status?<li>Is there a process to update my military/veteran status?<li>Do I have to provide my military/veteran details?|
-|Adaptive Card | There are 2 adaptive cards for each support country which are picked using a switch statement based on the employees `ESS_SuccessFactors_UserContext_Country_Code`  :::image type="content" source="media/emp-adaptive-card-condition-options.png" alt-text="Screenshot of the adaptive card design" lightbox="media/emp-adaptive-card-condition-options.png"::: | 
+|Adaptive Card | There are two adaptive cards for each support country/region, which are picked using a switch statement based on the employees `ESS_SuccessFactors_UserContext_Country_Code`  :::image type="content" source="media/employee-adaptive-card-condition-options.png" alt-text="Screenshot of the adaptive condition options" lightbox="media/employee-adaptive-card-condition-options.png"::: | 
 
 #### Get configurations
 There are differences between where the data is stored between country/region. You must have a two template configurations. These configurations differ in:
@@ -481,7 +481,7 @@ There are differences between where the data is stored between country/region. Y
 | **Template configuration** | `HRSAPSuccessFactorsHCMEmployeeGetVeteranInfo_USA` |
 | **Scenario name** | `msdyn_HRSAPSuccessFactorsHCMEmployeeGetVeteranInfo_USA` |
 | **Filter**| Filters on `personIdExternal` using `ESS_UserContext_Employee_Id` and `userId` using `ESS_UserContext_User_Id`|
-| **Values queried**|<li>`Country`: necessary to make the `upsert` call for the employee. `PerGlobalInfoUSA` expects this value in the `requestbody`. This value needs to be fetched and included in the `update_parameters`<li>`StartDate`: `StartDate` is necessary to make the upsert call for the employee. When making an upsert call to `PerGlobalInfoUSA` request body expects the `startDate` saved in the data in epoch format. The `starteDate` is fetched and included in the `update_parameters`<li>`Veteran`: Employee’s veteran status as a yes/no value.<li>`ChallengedVeteran`: Employee’s challenged veteran designation as a yes/no value.<li>`SpecialDisabledVeteran`: Employee’s special disabled veteran designation as a yes/no value.|
+| **Values queried**|<li>`Country`: necessary to make the `upsert` call for the employee. `PerGlobalInfoUSA` expects this value in the `requestbody`. This value needs to be fetched and included in the `update_parameters`<li>`StartDate`: `StartDate` is necessary to make the upsert call for the employee. When making an `upsert` call to `PerGlobalInfoUSA`, request body expects the `startDate` saved in the data in epoch format. The `starteDate` is fetched and included in the `update_parameters`<li>`Veteran`: Employee’s veteran status as a yes/no value.<li>`ChallengedVeteran`: Employee’s challenged veteran designation as a yes/no value.<li>`SpecialDisabledVeteran`: Employee’s special veteran who has a disability designation as a yes/no value.|
 
 **Configuration**
 ```json
@@ -565,7 +565,7 @@ There are differences between where the data is stored between countries therefo
 | --- | --- |
 |**Template configuration** |`HRSAPSuccessFactorsHCMEmployeeGetPicklistVeteranInfo_USA`|
 |**Scenario name** |`msdyn_HRSAPSuccessFactorsHCMEmployeeGetPicklistVeteranInfo_USA`|
-|**Filter** |Filters for `picklistId` `'yesNo'` and locale which is `ESS_UserContext_Locale`|
+|**Filter** |Filters for `picklistId` `'yesNo'` and locale, which is `ESS_UserContext_Locale`|
 |**Values queried** |<li>`optionId`: Value used for data corresponding to label name. <li>`Label`: Human readable name|
 
 **Configuration**	
@@ -623,13 +623,13 @@ There are differences between where the data is stored between countries therefo
 ```
 
 #### Write Configuration
-The difference between countries in these write configurations are the uri/RootEntity and number of fields being different, such as GBR configuration does not have `genericNumber2` & `genericNumber6` as they are not used.
+The difference between countries/regions in these write configurations are the uri/RootEntity and number of fields being different, such as GBR configuration doesn't have `genericNumber2` & `genericNumber6` as they are not used.
 
 | Configuration | Description |
 | --- | --- |
 |**Template configuration**	|`HRSAPSuccessFactorsHCMEmployeeUpdateVeteranInfo_USA`|
 |**Scenario name** | `msdyn_HRSAPSuccessFactorsHCMEmployeeUpdateVeteranInfo_USA` |
-|**Request Body** | <li>`personIdExternal`: `ESS_UserContext_Employee_Id`<li>`Country`: Required to make the `upsert` call for the employee. `PerGlobalInfoUSA` expects this value in the requestbody. Therefore it is fetched and included in the update_parameters<li>`StartDate`: Necessary to make the `upsert` call for the employee. When making an `upsert` call to `PerGlobalInfoUSA` request body expects the `startDate` that is saved in the data in epoch format. Therefore, `startDate` is fetched and included it in `update_parameters`.<li>`genericNumber1`: Veteran status value input option collected from employee<li>`genericNumber2`: Challenged veteran value input option collected from employee<li>`genericNumber6`: Special disabled veteran input option value collected from employee|
+|**Request Body** | <li>`personIdExternal`: `ESS_UserContext_Employee_Id`<li>`Country`: Required to make the `upsert` call for the employee. `PerGlobalInfoUSA` expects this value in the `requestbody`. Therefore it's fetched and included in the update_parameters<li>`StartDate`: Necessary to make the `upsert` call for the employee. When making an `upsert` call to `PerGlobalInfoUSA` request body expects the `startDate` that is saved in the data in epoch format. Therefore, `startDate` is fetched and included it in `update_parameters`.<li>`genericNumber1`: Veteran status value input option collected from employee<li>`genericNumber2`: Challenged veteran value input option collected from employee<li>`genericNumber6`: Special veteran who has disabilities input option value collected from employee|
 
 **Configuration**:
 ```json
@@ -655,7 +655,7 @@ The difference between countries in these write configurations are the uri/RootE
 | --- | --- |
 |**Template configuration**	|`HRSAPSuccessFactorsHCMEmployeeUpdateVeteranInfo_GBR`|
 |**Scenario name** | `msdyn_HRSAPSuccessFactorsHCMEmployeeUpdateVeteranInfo_GBR` |
-|**Request Body** | <li>`personIdExternal`: `ESS_UserContext_Employee_Id`<li>`Country`: Necessary to make the `upsert` call for the employee. `PerGlobalInfoGBR` expects country in the `requestbody`. This value is fetched and included in the update_parameters<li>`StartDate`: `StartDate` is necessary to make the `upsert` call for the employee. When making an upsert call to `PerGlobalInfoGBR` request body expects the `startDate` saved in epoch format. `startDate` is fetched and included in the update_parameters<li>`genericNumber1`: Veteran status value collected from user|
+|**Request Body** | <li>`personIdExternal`: `ESS_UserContext_Employee_Id`<li>`Country`: Necessary to make the `upsert` call for the employee. `PerGlobalInfoGBR` expects this value in the `requestbody`. This value is fetched and included in the update_parameters<li>`StartDate`: `StartDate` is necessary to make the `upsert` call for the employee. When making an upsert call to `PerGlobalInfoGBR`, request body expects the `startDate` saved in epoch format. `startDate` is fetched and included in the update_parameters<li>`genericNumber1`: Veteran status value collected from user|
 
 **Configuration**	
 ```
@@ -684,13 +684,13 @@ Adding an additional country/region requires the following:
 
 | Race & Ethnicity | Description |
 | --- | --- |
-|**Description** | Retrieves the employee’s current ethnicity information and presents it in an adaptive card which the employee can edit and submit to update their information.|
-|**Validations & Errors**| If user's `Country_Code` does not exist in `SuccessFactors_RaceAndEthnicity_Countries` enviornment variable, then Topic will not run and instead return "Sorry, this capability is not available in `<ESS_UserContext_Country_Code>` at this moment." |
+|**Description** | Retrieves the employee’s current ethnicity information and presents it in an adaptive card, which the employee can edit and submit to update their information.|
+|**Validations & Errors**| If user's `Country_Code` does not exist in the `SuccessFactors_RaceAndEthnicity_Countries` environment variable, then Topic won't run and instead return "Sorry, this capability isn't available in `<ESS_UserContext_Country_Code>` at this moment." |
 |**Prompts**| <li>I want to update my Race/ethnicity information<li>How to update my Race/ethnicity information<li>What is the process to update my Race/ ethnicity information?|
-|**Adaptive card**|Although race & ethnicity topic support two countries/regions, the fields for both country/regions are the same. It is not required to have multiple adaptive cards. As more countries/regions are added, a swtich statement will be added to the flow when a new country/region with different fields needs to be supported.|
+|**Adaptive card**|Although race & ethnicity topic support two countries/regions, the fields for both country/regions are the same. It isn't required to have multiple adaptive cards. As more countries/regions are added, a switch statement is added to the flow when a new country/region with different fields needs to be supported.|
 
 #### Get configurations
-There are differences between where the data is stored between countries/regions. Therefore, it’s required to have two template configurations. These configurations differ in:
+There are differences between where the data is stored between countries/regions. Therefore, two template configurations are required. These configurations differ in:
 - `RootEntity`
 
 | Configuration | Description |
@@ -698,7 +698,7 @@ There are differences between where the data is stored between countries/regions
 |**Template configuration** |`HRSAPSuccessFactorsHCMEmployeeGetRaceAndEthnicity_USA`|
 |**Scenario name** | `msdyn_HRSAPSuccessFactorsHCMEmployeeGetRaceAndEthnicity_USA`|
 |**Filter**|Filters on `personIdExternal` using `ESS_UserContext_Employee_Id` and `userId` using `ESS_UserContext_User_Id`|
-|**Values queried**|<li>`Country`: Required to make the `upsert` call for the employee. `PerGlobalInfoUSA` expects this value in the `requestbody`. This value is fetched and included in the `update_parameters`.<li>`StartDate`: Requred to make the `upsert` call for the employee. When making an `upsert` call to `PerGlobalInfoUSA` request body expects the `startDate` saved in epoch format. `startDate` is fetched and included in the `update_parameters`<li>`EthnicGroup`: Employee’s ethnic group as an `ETHNIC-GROUP_USA` picklist value|
+|**Values queried**|<li>`Country`: Required to make the `upsert` call for the employee. `PerGlobalInfoUSA` expects this value in the `requestbody`. This value is fetched and included in the `update_parameters`.<li>`StartDate`: Required to make the `upsert` call for the employee. When making an `upsert` call to `PerGlobalInfoUSA`, request body expects the `startDate` saved in epoch format. `startDate` is fetched and included in the `update_parameters`<li>`EthnicGroup`: Employee’s ethnic group as an `ETHNIC-GROUP_USA` picklist value|
 
 **Configuration**
 ```JSON
@@ -893,7 +893,7 @@ Adding an additional country/region requires the following:
 | --- | --- |
 |**Description** |Retrieves the employee’s current emergency contacts, presents them to employees, and asks if they would like to update or add an emergency contact. Depending on their answer they are presented with an adaptive card to either update a current contact or a blank card for them to add a contact|
 |**Prompts**|<li>Update my current/existing emergency contact<li>My emergency contact has changed; can I update it in the system?<li>How/where can I update my emergency contact?<li>I want to add new emergency contact<li>Add my emergency contact|
-|**Adaptive card**|Two kinds of adaptive cards are used in the following examples:<li>Update emergency contact<li>Add emergency contact<BR>**Initial message**<BR>:::image type="content" source="media/emp-update-emergency-contact1.png" alt-text="Screenshot of a prompt and response asking to update emergency contact information." lightbox="media/emp-update-emergency-contact1.png"::: <BR>**Update emergency contact**<BR>:::image type="content" source="media/emp-update-emergency-contact2.png" alt-text="Screenshot of an emergency contact picker list." lightbox="media/emp-update-emergency-contact2.png"::: <BR>**Add emergency contact**<BR>:::image type="content" source="media/emp-add-emergency-contact.png" alt-text="Screenshot of an emergency contact picker list." lightbox="media/emp-add-emergency-contact.png":::|
+|**Adaptive card**|Two kinds of adaptive cards are used in the following examples:<li>Update emergency contact<li>Add emergency contact<BR>**Initial message**<BR>:::image type="content" source="media/employee-update-emergency-contact1.png" alt-text="Screenshot of a prompt and response asking to update emergency contact information." lightbox="media/employee-update-emergency-contact1.png"::: <BR>**Update emergency contact**<BR>:::image type="content" source="media/employee-update-emergency-contact2.png" alt-text="Screenshot of an emergency contact picker list." lightbox="media/employee-update-emergency-contact2.png"::: <BR>**Add emergency contact**<BR>:::image type="content" source="media/employee-add-emergency-contact.png" alt-text="Screenshot of how an employee can pick an emergency contact from a picker list." lightbox="media/employee-add-emergency-contact.png":::|
 
 #### Get configurations – emergency contact and pick list for relationship type
 Retrieving the existing emergency contact information along with relationship type is the first step in the flow
@@ -1033,7 +1033,7 @@ Update emergency contact flow has an extra configuration which deletes an existi
 | --- | --- |
 |**Description** | Retrieves the employee’s phone data, presents them to the employee, and asks if they would like to update or add a phone number. Depending on their answer they are presented with an adaptive card to either update a current contact or a blank card for them to add a phone number|
 |**Prompts** | <li>Update my current/existing emergency contact<li>My emergency contact has changed; can I update it in the system?<li>How/where can I update my emergency contact?<li>I want to add new emergency contact<li>Add my emergency contact|
-| Adaptive card| Two kinds of adaptive cards can be used to change an employee's phone information: <li>Update phone<li>Add phone<BR> The following screenshot shows an example of an adaptive card to add a phone number. <BR>:::image type="content" source="media/emp-add-phone.png" alt-text="Screenshot of an adaptive card adding a phone number." lightbox="media/emp-add-phone.png":::|
+| Adaptive card| Two kinds of adaptive cards can be used to change an employee's phone information: <li>Update phone<li>Add phone<BR> The following screenshot shows an example of an adaptive card to add a phone number. <BR>:::image type="content" source="media/employee-add-phone.png" alt-text="Screenshot of an adaptive card adding a phone number." lightbox="media/employee-add-phone.png":::|
 
 #### Get configurations – existing phone numbers and pick list for phone number type option
 Retrieving the existing phone numbers along with phone number type is the first step in the flow.
@@ -1125,7 +1125,7 @@ Update the contact phone number.
 | --- | --- |
 |**Template configuration** |`HRSAPSuccessFactorsHCMEmployeeUpdateContactPhone`|
 |**Scenario name** |`msdyn_HRSAPSuccessFactorsHCMEmployeeUpdateContactPhone` |
-|**Request Body** |<li>`personIdExternal`: `ESS_UserContext_Employee_Id`<li>`CountryCode`: Country code input from employee<li>`areaCode`:Area code input from employee<li>`phoneNumber`: Phone number input from employee<li>`isPrimary`:`isPrimary` value from get call is automatically used here unless a new contact is added or else its false. If a first contact is being added, then it is automatically primary.<li>`phoneType`: Phone number type value input from employee|
+|**Request Body** |<li>`personIdExternal`: `ESS_UserContext_Employee_Id`<li>`CountryCode`: Country code input from employee<li>`areaCode`:Area code input from employee<li>`phoneNumber`: Phone number input from employee<li>`isPrimary`:`isPrimary` value from get call is automatically used here unless a new contact is added or else it is false. If a first contact is being added, then it is automatically primary.<li>`phoneType`: Phone number type value input from employee|
 
 **Configuration**
 ```json
@@ -1163,7 +1163,7 @@ Retrieving the existing contact email is the first step in the flow
 |**Template configuration** |`HRSAPSuccessFactorsHCMEmployeeGetContactEmail`|
 |**Scenario name** |`msdyn_HRSAPSuccessFactorsHCMEmployeeGetContactEmail`|
 |**Filter**|Filters on `personIdExternal` using `ESS_UserContext_Employee_Id` and email type using picklist `emailType` value for Personal|
-|**Values queried**|<li>`emailAddress`: Employee’s current email address<li>`emailType`: Email type of values are from picklist id 'ecEmailType'.<li>`isPrimary`: Boolean flag for if Email is primary|
+|**Values queried**|<li>`emailAddress`: Employee’s current email address<li>`emailType`: Types of Email values from picklist id 'ecEmailType'.<li>`isPrimary`: Boolean flag for if Email is primary|
 
 **Configuration**	
 ```json
@@ -1201,7 +1201,7 @@ Getting the list of email type options
 |**Template configuration**|`HRSAPSuccessFactorsHCMGetPicklistEmailType`|
 |**Scenario name** |`msdyn_HRSAPSuccessFactorsHCMGetPicklistEmailType`|
 |**Filter**|Filters on `picklistId` in `ecEmailType` and locale which is `ESS_UserContext_Locale` and picklistOption/externalCode eq 'P'|
-|**Values queried**|<li>`optionId`: Value used for data corresponding to label name<li>`Label`:Human readable name|
+|**Values queried**|<li>`optionId`: Value used for data corresponding to label name<li>`Label`: Human readable name|
 
 **Configuration**
 ```json

@@ -31,14 +31,33 @@ The Employee Self-Service agent is built on Copilot and uses AI to provide relev
 
 The Employee Self-Service agent acts as a front-end for consuming information from SAP SuccessFactors. The following items are the scenarios currently supported by the Employee Self-Service agent for SAP SuccessFactors integration:
 
-- [Get Base Compensation](#get-base-compensation)
-- [Get Company Code](#get-company-code)
-- [Get Cost Center](#get-cost-center)
-- [Get Hire Date](#get-hire-date)
-- [Get Service Anniversary](#get-service-anniversary)
-- [Get Employee ID](#get-employee-id)
-- [Get Job Info](#get-job-info)
-- [Get Position Number](#get-position-number)
+Employee read and write scenarios:
+
+- [Get Base Compensation](sap-employee-read-write-scenarios.md#get-base-compensation)
+- [Get Company Code](sap-employee-read-write-scenarios.md#get-company-code)
+- [Get Cost Center](sap-employee-read-write-scenarios.md#get-cost-center)
+- [Get Hire Date](sap-employee-read-write-scenarios.md#get-hire-date)
+- [Get Service Anniversary](sap-employee-read-write-scenarios.md#get-service-anniversary)
+- [Get Employee ID](sap-employee-read-write-scenarios.md#get-employee-id)
+- [Get Job Info](sap-employee-read-write-scenarios.md#get-job-info)
+- [Get Position Number](sap-employee-read-write-scenarios.md#get-position-number)
+- [Get Preferred Name](sap-employee-read-write-scenarios.md#preferred-name)
+- [Get Email](sap-employee-read-write-scenarios.md#email)
+- [Get National Id](sap-employee-read-write-scenarios.md)
+- [Update Veteran Info](sap-employee-read-write-scenarios.md#veteran-info)
+- [Update Race & Ethnicity](sap-employee-read-write-scenarios.md#race--ethnicity)
+- [Update Emergency Contact](sap-employee-read-write-scenarios.md#update-emergency-contact)
+- [Update Phone](sap-employee-read-write-scenarios.md#update-contact-phone)
+- [Update Email](sap-employee-read-write-scenarios.md#update-contact-email)
+- [Update Preferred Name](sap-employee-read-write-scenarios.md#update-preferred-name)
+
+Manager read and write scenarios:
+- [Get directs Company code](sap-manager-read-write-scenarios.md#company-code)
+- [Get directs Cost Center](sap-manager-read-write-scenarios.md#cost-center)
+- [Get directs Job Info](sap-manager-read-write-scenarios.md#job-information)
+- [Get directs Service Anniversary](sap-manager-read-write-scenarios.md#service-anniversary)
+- [Update Cost Center](sap-manager-read-write-scenarios.md#update-cost-center)
+- [Update Job Title](sap-manager-read-write-scenarios.md#update-job-title)
 
 ## Technical synopsis
 
