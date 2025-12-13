@@ -17,7 +17,9 @@ ms.collection:
 - m365solution-infoprotection
 - m365solution-overview
 - zerotrust-solution
-ms.custom: admindeeplinkCOMPLIANCE
+ms.custom:
+- admindeeplinkCOMPLIANCE
+- m365-solutions-doc-set
 description: Use Microsoft Priva and Microsoft Purview to monitor and investigate data privacy incidents in your organization, including automation of data subject requests.
 ---
 
