@@ -1551,7 +1551,7 @@ Updates released between July 22, 2025, and August 5, 2025.
 
 - **Onboard SharePoint Agents as a PayG scenario in CCS** [Web]
 
-  This feature introduces SharePoint Agents to the Pay-as-you-go tab under Copilot → Billing & usage, aligning with the existing workflow used for Microsoft 365 Copilot Chat. Administrators will gain the ability to manage and monitor SharePoint Agent consumption through the familiar Pay-as-you-go interface, ensuring consistent oversight across Copilot experiences. Integration with the SharePoint backend via API enables precise usage tracking and billing for this new scenario.  
+  This feature introduces SharePoint Agents to the Pay-as-you-go tab under Copilot → Billing & usage, aligning with the existing workflow used for Microsoft 365 Copilot Chat. Administrators gain the ability to manage and monitor SharePoint Agent consumption through the familiar Pay-as-you-go interface, ensuring consistent oversight across Copilot experiences. Integration with the SharePoint backend via API enables precise usage tracking and billing for this new scenario.  
   [Learn more.](/microsoft-365/services/pay-as-you-go-services)
 
 ### Microsoft 365 Copilot app
@@ -1569,7 +1569,7 @@ Updates released between July 22, 2025, and August 5, 2025.
 
 - **Share agents with your enterprise** [Windows, Web]
 
-  Generate sharing links for your agents in Business Chat. If the recipient doesn't have the agent, they'll be directed to the Microsoft 365 application catalog to install it. If they do, the agent opens directly in Microsoft 365 Copilot Business Chat.  
+  Generate sharing links for your agents in Business Chat. If the recipient doesn't have the agent, they are directed to the Microsoft 365 application catalog to install it. If they do, the agent opens directly in Microsoft 365 Copilot Business Chat.  
   [Learn more.](https://support.microsoft.com/topic/how-to-share-your-agent-44981c08-ab64-43f1-bcf8-ebadfc5469cc)
 
 ### Microsoft Intune
@@ -2012,7 +2012,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 ### Outlook
 - **Content language is the default summarize language** [Mac]
 
-  When summarizing Copilot will try to identify the language of the email and summarize in that language. [Learn more](https://support.microsoft.com/office/frequently-asked-questions-about-copilot-in-outlook-07420c70-099e-4552-8522-7d426712917b?storagetype=live).
+  When summarizing Copilot tries to identify the language of the email and summarize in that language. [Learn more](https://support.microsoft.com/office/frequently-asked-questions-about-copilot-in-outlook-07420c70-099e-4552-8522-7d426712917b?storagetype=live).
 
 ### PowerPoint
 
@@ -2224,7 +2224,7 @@ Updates released between May 13, 2025, and May 29, 2025.
 
 - **Visual outline confirms Copilot's data range** [Mac]
 
-  When you call on Copilot, Excel now draws a clear border around the table or cell range in focus. Instantly see exactly what data will be summarized, cleaned, or chart-ready—so you can adjust the selection before Copilot gets to work.
+  When you call on Copilot, Excel now draws a clear border around the table or cell range in focus. Instantly see exactly what data is summarized, cleaned, or chart-ready—so you can adjust the selection before Copilot gets to work.
 
 ### Forms
 
@@ -2451,7 +2451,7 @@ Updates released between April 16, 2025, and April 29, 2025.
 ### Microsoft Purview
 - **GCC Microsoft Purview capabilities for Microsoft 365 Copilot** [Web]
 
-  Microsoft Purview is launching several capabilities in government cloud environments that help secure and govern data in Microsoft 365 Copilot. These are capabilities in Information Protection, Data Lifecycle Management, Audit, eDiscovery, and Communication Compliance. These capabilities will be available once Microsoft 365 Copilot is deployed.
+  Microsoft Purview is launching several capabilities in government cloud environments that help secure and govern data in Microsoft 365 Copilot. These are capabilities in Information Protection, Data Lifecycle Management, Audit, eDiscovery, and Communication Compliance. These capabilities are available once Microsoft 365 Copilot is deployed.
  [Learn more](/purview/ai-microsoft-purview).
 ### Outlook
 - **Chat with Copilot in Outlook for Mac** [Mac]
@@ -2660,7 +2660,7 @@ Updates released between March 5, 2025, and March 19, 2025.
 
 - **Copilot on Edge Update** [Web]  
 
-  Copilot on Edge has been updated and requires users to update their version of Edge to version 134.0.3124.51 or newer to receive the latest functionality. This update includes file upload availability on the web tab as well as a smoother authentication experience via the Edge Work Profile.
+  Copilot on Edge has been updated and requires users to update their version of Edge to version 134.0.3124.51 or newer to receive the latest functionality. This update includes file upload availability on the web tab and a smoother authentication experience via the Edge Work Profile.
 
 - **Enhanced large file support in Copilot Chat**  
 
@@ -3981,7 +3981,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Copilot side pane stays open across group chats** [Windows, Mac]  
 
-  When you open Copilot in a group chat, it will remain open even as you navigate between different chats, saving you time.
+  When you open Copilot in a group chat, it remains open even as you navigate between different chats, saving you time.
 
 ### Outlook
 
@@ -4793,7 +4793,7 @@ Updates released between July 22, 2025, and August 5, 2025.
 ### Microsoft 365 Copilot Chat
 - **Share agents with your enterprise** [Windows, Web]
 
-  Generate sharing links for your agents in Business Chat. If the recipient doesn't have the agent, they'll be directed to the Microsoft 365 application catalog to install it. If they do, the agent opens directly in Microsoft 365 Copilot Business Chat.
+  Generate sharing links for your agents in Business Chat. If the recipient doesn't have the agent, they are directed to the Microsoft 365 application catalog to install it. If they do, the agent opens directly in Microsoft 365 Copilot Business Chat.
  [Learn more](https://support.microsoft.com/topic/how-to-share-your-agent-44981c08-ab64-43f1-bcf8-ebadfc5469cc).
 ### PowerPoint
 - **Copilot uses enterprise assets hosted on SharePoint OAL when creating presentations now** [Mac, Windows, Web]
@@ -6000,7 +6000,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Copilot side pane stays open across group chats** [Windows, Mac]  
 
-  When you open Copilot in a group chat, it will remain open even as you navigate between different chats, saving you time.
+  When you open Copilot in a group chat, it remains open even as you navigate between different chats, saving you time.
 
 ### Outlook
 
@@ -10971,7 +10971,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 ### Outlook
 - **Content language is the default summarize language** [Mac]
 
-  When summarizing Copilot will try to identify the language of the email and summarize in that language.
+  When summarizing Copilot tries to identify the language of the email and summarize in that language.
  [Learn more](https://support.microsoft.com/office/frequently-asked-questions-about-copilot-in-outlook-07420c70-099e-4552-8522-7d426712917b?storagetype=live).
 ### PowerPoint
 - **Create a PowerPoint slide from a file or prompt** [Web, Windows, Mac]
@@ -11601,7 +11601,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Copilot side pane stays open across group chats** [Windows, Mac]  
 
-  When you open Copilot in a group chat, it will remain open even as you navigate between different chats, saving you time.
+  When you open Copilot in a group chat, it remains open even as you navigate between different chats, saving you time.
 
 ## January, 2024 — Feature Additions
 
