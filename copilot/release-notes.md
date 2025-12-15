@@ -3897,7 +3897,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Discover Whiteboard Copilot with First Run Experience** [Windows, Web]  
 
-  First-time users will be guided to discover and leverage the power of Whiteboard Copilot features through an interactive introduction.
+  First-time users are guided to discover and leverage the power of Whiteboard Copilot features through an interactive introduction.
 
 ### Word
 
@@ -5948,7 +5948,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Discover Whiteboard Copilot with First Run Experience** [Windows, Web]  
 
-  First-time users will be guided to discover and leverage the power of Whiteboard Copilot features through an interactive introduction.
+  First-time users are guided to discover and leverage the power of Whiteboard Copilot features through an interactive introduction.
 
 ### Word
 
@@ -8909,7 +8909,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Discover Whiteboard Copilot with First Run Experience** [Windows, Web]  
 
-  First-time users will be guided to discover and leverage the power of Whiteboard Copilot features through an interactive introduction.
+  First-time users are guided to discover and leverage the power of Whiteboard Copilot features through an interactive introduction.
 
 ### Word
 
