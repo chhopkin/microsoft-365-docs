@@ -108,4 +108,4 @@ Microsoft 365 Copilot Search is available to users in US government cloud enviro
 | Copilot Search tab in the admin center | All US government clouds | 2026 |
 | Admin analytics | All US government clouds | 2026 |
 | Admin-ingested acronyms | GCC-H, DoD | 2026 |
-| AI views | All US government clouds | TBD |
+| AI Views (AI-powered document overviews) | All US government clouds | TBD |
