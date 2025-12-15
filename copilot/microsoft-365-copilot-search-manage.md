@@ -3,7 +3,7 @@ title: "Manage Microsoft 365 Copilot Search"
 author: Efrene
 ms.author: efrene
 manager: scotv
-ms.date: 06/05/2025
+ms.date: 12/15/2025
 ms.topic: overview
 ms.service: microsoft-365-admin
 ms.localizationpriority: medium

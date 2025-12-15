@@ -3,7 +3,7 @@ title: "Microsoft 365 Copilot Search"
 author: Efrene
 ms.author: efrene
 manager: scotv
-ms.date: 08/07/2025
+ms.date: 12/15/2025
 ms.topic: overview
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
