@@ -3,7 +3,7 @@
 # For more information, see https://learn.microsoft.com/en-us/help/platform/learn-editor-add-metadata
 # For valid values of ms.service, ms.prod, and ms.topic, see https://learn.microsoft.com/en-us/help/platform/metadata-taxonomies
 
-title: Configure Multi-Geo In-Region Routing (In Preview)
+title: Configure Multi-Geo In-Region Routing
 description: This article describes the process of configuring Multi-Geo In-Region Routing (IRR).
 author:      Ian-MSFT-2019 # GitHub alias
 ms.author:   iamcdo # Microsoft alias
@@ -15,7 +15,7 @@ ms.subservice: multi-geo-capabilities
 ms.reviewer: jugiammo, v-fahasen
 ---
 
-# Configure Multi-Geo In-Region Routing (In Preview)
+# Configure Multi-Geo In-Region Routing
 
 This article describes the process of configuring Multi-Geo In-Region Routing (IRR).
 
@@ -27,7 +27,7 @@ This article describes the steps to configure accepted domains for IRR.
 
 ## Prerequisites
 
-- Before enabling Multi-Geo In-Region Routing, ensure that any certificate and/or IP address used in Connectors for mail sent from your on-premises infrastructure to Exchange Online is not also used for sending emails from your on-premises environment to external organizations over the Internet. Using the same certificate or IP for both scenarios can cause issues with email attribution if you enable In-Region Routing, specifically when the recipient organization is hosted on Exchange Online. Outbound Internet mail from your on-premises environment must use a different certificate and/or IP address than those referenced in any of your Connectors from your on-premises infrastructure to Exchange Online.
+- Before enabling Multi-Geo In-Region Routing, ensure that any certificate and/or IP address used in Connectors ([Configure mail flow using connectors in Exchange Online](exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow.md)) for mail sent from your on-premises Exchange Servers to Exchange Online is not also used for sending emails from your on-premises environment to external organizations over the Internet. Using the same certificate or IP for both scenarios can cause issues with email attribution if you enable In-Region Routing, specifically when the recipient organization is hosted on Exchange Online. Outbound Internet mail from your on-premises environment must use a different certificate and/or IP address than those referenced in any of your Connectors from your on-premises Exchange Servers to Exchange Online.
 
 - Domains that use IRR must be visible in the Exchange admin center (EAC) as accepted domains. For more information configuring accepted domains, see [Manage accepted domains in Exchange Online](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
