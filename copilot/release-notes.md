@@ -1,6 +1,6 @@
 ---
 title: Release Notes for Microsoft 365 Copilot
-description: Lists the features that have reached General Availability in each release of Microsoft 365 Copilot.
+description: Lists the features that reach General Availability in each release of Microsoft 365 Copilot.
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -713,9 +713,9 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
       Added two major skills:  
 
-      - Guided task instructions (e.g., fixing over-permissioned sites)  
+      - Guided task instructions (for example, fixing over-permissioned sites)  
       
-      - Multi-criteria search for sites (e.g., inactive + shared externally)  
+      - Multi-criteria search for sites (for example, inactive + shared externally)  
 
     ****Why:**** 
 
@@ -888,7 +888,7 @@ Updates released between October 15, 2025, and October 28, 2025.
 
 - **PPT Copilot now offers an on-canvas experience for translating presentation** [Mac, Web, iOS]
 
-  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation  
+  Now, when creating a presentation using Copilot from an existing presentation, it creates the new presentation in a new file without affecting the original presentation  
   [Learn more.](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.)
 
 ### Teams
@@ -911,7 +911,7 @@ Updates released between October 15, 2025, and October 28, 2025.
 ### Word
 - **Instantly get helpful options from Copilot** [Mac]
 
-  The Copilot icon in your document margin gives you a variety of actions you can take on your selected text. One click lets you rewrite, get writing suggestions, and more
+  The Copilot icon in your document margin gives you various actions you can take on your selected text. One click lets you rewrite, get writing suggestions, and more
 
 
 <!-- 81574,102200,101036,100353,99396,101413,100885,100884,99941,101259 -->
@@ -968,7 +968,7 @@ Search now delivers more personalized results by using user context and engageme
 ### Viva Learning
 - **Providing users with notifications about Copilot Academy in Teams**
 
-  If a user has a Microsoft 365 Copilot license, they will receive notifications in Teams about the Copilot Academy through Viva Learning. This helps users stay informed about Copilot Academy enhancements with monthly reminders.  
+  If a user has a Microsoft 365 Copilot license, they receive notifications in Teams about the Copilot Academy through Viva Learning. This helps users stay informed about Copilot Academy enhancements with monthly reminders.  
   [Learn more.](/viva/learning/academy-copilot)
 
 
@@ -1028,7 +1028,7 @@ Updates released between September 16, 2025, and September 30, 2025.
 ### PowerPoint
 - **Copilot generates the new presentation in a new file when starting from an existing presentation** [Web]
 
-  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation. [Learn more.](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d)
+  Now, when creating a presentation using Copilot from an existing presentation, it creates the new presentation in a new file without affecting the original presentation. [Learn more.](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d)
 
 - **Seamlessly add topics with Copilot** [Mac, Web, Windows]
 
@@ -1101,7 +1101,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 
 - **Copilot Search for Premium SKU commercial users** [Android]
 
-  Copilot Search allows you to search across files, people, 1P and 3P content (e.g. Figma, ServiceNow tickets). You get Copilot answers for Natural Language Search queries.
+  Copilot Search allows you to search across files, people, 1P and 3P content (for example, Figma, ServiceNow tickets). You get Copilot answers for Natural Language Search queries.
 
 - **Direct access to Copilot Chat in Microsoft 365 app** [Android, iOS]
 
@@ -11728,6 +11728,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
