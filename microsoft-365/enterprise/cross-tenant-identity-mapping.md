@@ -24,7 +24,7 @@ Cross-Tenant Identity Mapping removes the need to export large data sets from a 
 
 With Cross-Tenant Identity Mapping, data remains within the Microsoft security boundary and is securely copied directly from the source organization to the target organization using specially configured **Organization Relationships** serving as a unidirectional trust.
 
-Using Cross-Tenant Identity Mapping reduces mistakes when configuring target objects for a migration by automatically configuring values such as _ExchangeGuid_, _ArchiveGuid_, and all necessary _X500 proxy addresses_.
+Using Cross-Tenant Identity Mapping reduces mistakes when configuring target objects for a migration by automatically configuring values such as _ExchangeGuid_, _ArchiveGuid_, and all necessary _X.500 proxy addresses_.
 
 Some other benefits of using Cross-Tenant Identity Mapping:
 
