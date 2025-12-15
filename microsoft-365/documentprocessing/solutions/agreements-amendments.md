@@ -46,7 +46,7 @@ To add an attachment, follow these steps:
 
 7. Input the required amendment effective date field value.
 
-8. Modify any agreement details that are altered by the uploaded amendment.
+8. Modify any agreement details altered by the uploaded amendment.
 
 9. Select **Save** to add the amendment to the selected agreement.
 
