@@ -2319,7 +2319,7 @@ Updates released between April 29, 2025, and May 13, 2025.
  [Learn more](https://support.microsoft.com/office/copilot-in-excel-with-python-364e4ae9-9343-4d56-952a-5f62b0f70db6).
 - **Ask Copilot about any part of your sheet** [Web, Mac, Windows, iOS]
 
-  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This will include understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
+  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This includes understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
 - **Easily access copilot on web** [Web]
 
   Find a dedicated Copilot icon in your web spreadsheet, allowing you to tap into AI-powered insights and streamline tasks without breaking your workflow.
@@ -3221,7 +3221,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Disable Copilot in meetings** [Windows, Android, iOS, Mac]  
 
-  You can now turn Copilot off in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
+  You can now turn off Copilot in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
 
 ### SharePoint
 
@@ -5140,7 +5140,7 @@ Updates released between April 29, 2025, and May 13, 2025.
  [Learn more](https://support.microsoft.com/office/copilot-in-excel-with-python-364e4ae9-9343-4d56-952a-5f62b0f70db6).
 - **Ask Copilot about any part of your sheet** [Web, Mac, Windows, iOS]
 
-  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This will include understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
+  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This includes understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
 ### Microsoft 365 admin center
 - **Manage pay-as-you-go billing for Copilot** [Windows, Web]
 
@@ -5567,7 +5567,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Disable Copilot in meetings** [Windows, Android, iOS, Mac]  
 
-  You can now turn Copilot off in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
+  You can now turn off Copilot in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
 
 ### Word
 
@@ -6752,9 +6752,9 @@ When building a presentation with Copilot, you can now pull in content from Loop
 
       Added two major skills:  
 
-      * Guided task instructions (e.g., fixing over-permissioned sites)  
+      * Guided task instructions (for example, fixing over-permissioned sites)  
       
-      * Multi-criteria search for sites (e.g., inactive + shared externally)  
+      * Multi-criteria search for sites (for example, inactive + shared externally)  
 
     ****Why:**** 
 
@@ -7803,7 +7803,7 @@ Updates released between April 29, 2025, and May 13, 2025.
 ### Excel
 - **Ask Copilot about any part of your sheet** [Web, Mac, Windows, iOS]
 
-  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This will include understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
+  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This includes understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
 - **Easily access copilot on web** [Web]
 
   Find a dedicated Copilot icon in your web spreadsheet, allowing you to tap into AI-powered insights and streamline tasks without breaking your workflow.
@@ -9376,7 +9376,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 ### Microsoft 365 Copilot app
 - **Copilot Search for Premium SKU commercial users** [Android]
 
-  Copilot Search allows you to search across files, people, 1P and 3P content (e.g. Figma, ServiceNow tickets). You get Copilot answers for Natural Language Search queries.
+  Copilot Search allows you to search across files, people, 1P and 3P content (for example, Figma, ServiceNow tickets). You get Copilot answers for Natural Language Search queries.
 - **Direct access to Copilot Chat in Microsoft 365 app** [Android, iOS]
 
   Microsoft 365 Copilot mobile app is removing bottom tabs and will open directly on Chat for eligible users, making it simpler and easier to chat with Copilot.
@@ -9586,7 +9586,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Disable Copilot in meetings** [Windows, Android, iOS, Mac]  
 
-  You can now turn Copilot off in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
+  You can now turn off Copilot in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
 
 ## October, 2024 — Feature Additions
 
@@ -10061,7 +10061,7 @@ Updates released between April 29, 2025, and May 13, 2025.
 ### Excel
 - **Ask Copilot about any part of your sheet** [Web, Mac, Windows, iOS]
 
-  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This will include understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
+  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This includes understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
 ### Microsoft 365 Copilot Chat
 - **Image generation in mobile Copilot chat** [Android, iOS]
 
@@ -10234,7 +10234,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Disable Copilot in meetings** [Windows, Android, iOS, Mac]  
 
-  You can now turn Copilot off in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
+  You can now turn off Copilot in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
 
 ## October, 2024 — Documentation Updates
 
@@ -11051,7 +11051,7 @@ Updates released between April 29, 2025, and May 13, 2025.
 ### Excel
 - **Ask Copilot about any part of your sheet** [Web, Mac, Windows, iOS]
 
-  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This will include understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
+  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This includes understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
 ### Microsoft 365 app
 - **Copilot in Excel with Python for Mac** [Mac]
 
@@ -11281,7 +11281,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Disable Copilot in meetings** [Windows, Android, iOS, Mac]  
 
-  You can now turn Copilot off in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
+  You can now turn off Copilot in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
 
 ### Word
 
