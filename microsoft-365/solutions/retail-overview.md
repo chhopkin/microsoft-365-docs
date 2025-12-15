@@ -12,6 +12,7 @@ ms.collection:
 - highpri
 - M365-subscription-management
 - M365solution-overview
+ms.custom: m365-solutions-doc-set
 f1.keywords: NOCSH
 ms.date: 09/22/2022
 
