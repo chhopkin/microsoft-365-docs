@@ -25,7 +25,7 @@ appliesto:
 
 # Microsoft 365 Copilot release notes
 
-This page lists the latest features and improvements for Microsoft 365 Copilot. It includes changes that are generally available (Current Channel for Microsoft 365 apps) and specific to each platform. 
+This page lists the latest features and improvements for Microsoft 365 Copilot. It includes changes that are generally available (Current Channel for Microsoft 365 apps) and specific to each platform.
 
 [!INCLUDE [agent-builder-mcs-lite](../microsoft-365/includes/agent-builder-mcs-lite.md)]
 
@@ -35,7 +35,6 @@ This page lists the latest features and improvements for Microsoft 365 Copilot. 
 ## December 10, 2025
 Updates released between November 25, 2025, and December 10, 2025.
 ### Microsoft 365 Copilot app
-
 - **Create polished videos faster with seamless editing and brand customization** [Web]
 
   Turn text prompts or PowerPoint, Word, and PDF files into high-quality videos. Create professional videos quickly with easier editing, brand integration, and media customization.
@@ -142,7 +141,7 @@ Power users and developers can experience reduced fragmentation and improved wor
 Action.Execute now supports inline editing for adaptive cards.  
 
   **Why:**
-Custom apps will allow for unblocked rapid iteration.  
+Custom apps allow for unblocked rapid iteration.  
 
   **Try this:**
 
@@ -1119,7 +1118,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 
 - **Unified Conversations (Chat History) List** [Web]
 
-  We've made it easier to find what you need. Users now see a single, streamlined list of all your conversations. No more switching between tabs or wondering where to look for specific conversations. Just select a conversation and you'll pick up in the same context and mode as where you left off.
+  We've made it easier to find what you need. Users now see a single, streamlined list of all your conversations. No more switching between tabs or wondering where to look for specific conversations. Select a conversation and you'll pick up in the same context and mode as where you left off.
 
 ### OneNote
 
@@ -1570,7 +1569,7 @@ Updates released between July 22, 2025, and August 5, 2025.
 
 - **Share agents with your enterprise** [Windows, Web]
 
-  Generate sharing links for your agents in Business Chat. If the recipient doesn't have the agent, they'll be directed to the Microsoft 365 application catalog to install it. If they do, the agent will open directly in Microsoft 365 Copilot Business Chat.  
+  Generate sharing links for your agents in Business Chat. If the recipient doesn't have the agent, they'll be directed to the Microsoft 365 application catalog to install it. If they do, the agent opens directly in Microsoft 365 Copilot Business Chat.  
   [Learn more.](https://support.microsoft.com/topic/how-to-share-your-agent-44981c08-ab64-43f1-bcf8-ebadfc5469cc)
 
 ### Microsoft Intune
@@ -1730,7 +1729,7 @@ Updates released between July 8, 2025, and July 22, 2025.
 
 - **Microsoft 365 Copilot generates the new presentation in a new file when starting from an existing presentation** [Mac, Windows]
 
-  Now, when creating a presentation using Microsoft 365 Copilot from an existing presentation using, it will create the new presentation in a new file without affecting the original presentation.  
+  Now, when creating a presentation using Microsoft 365 Copilot from an existing presentation using, it creates the new presentation in a new file without affecting the original presentation.  
   [Learn more.](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d)
 
 - **Reference multiple files in your presentation creation using Microsoft 365 Copilot** [Windows, Mac, Web]
@@ -1980,7 +1979,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 - **Catch up on Task related emails through Microsoft 365 Copilot Chat.** [Windows]
 
-  Users can use Microsoft 365 Copilot Chat to prioritize emails that require immediate attention, address urgent tasks, or contain action items or questions. Timely identification of such emails will help users complete these tasks efficiently or plan their work effectively.
+  Users can use Microsoft 365 Copilot Chat to prioritize emails that require immediate attention, address urgent tasks, or contain action items or questions. Timely identification of such emails help users complete these tasks efficiently or plan their work effectively.
 
 - **Find any past Copilot conversation instantly** [Web]
 
@@ -4171,7 +4170,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Create a presentation from a simple prompt** [Windows, Web, iOS, Mac]  
 
-  Provide a prompt and Copilot will help you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
+  Provide a prompt and Copilot helps you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
 
 - **Create presentations using your organization's templates** [Windows, Web, iOS, Mac]  
 
@@ -4794,7 +4793,7 @@ Updates released between July 22, 2025, and August 5, 2025.
 ### Microsoft 365 Copilot Chat
 - **Share agents with your enterprise** [Windows, Web]
 
-  Generate sharing links for your agents in Business Chat. If the recipient doesn't have the agent, they'll be directed to the Microsoft 365 application catalog to install it. If they do, the agent will open directly in Microsoft 365 Copilot Business Chat.
+  Generate sharing links for your agents in Business Chat. If the recipient doesn't have the agent, they'll be directed to the Microsoft 365 application catalog to install it. If they do, the agent opens directly in Microsoft 365 Copilot Business Chat.
  [Learn more](https://support.microsoft.com/topic/how-to-share-your-agent-44981c08-ab64-43f1-bcf8-ebadfc5469cc).
 ### PowerPoint
 - **Copilot uses enterprise assets hosted on SharePoint OAL when creating presentations now** [Mac, Windows, Web]
@@ -4862,7 +4861,7 @@ Updates released between July 8, 2025, and July 22, 2025.
  [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
 - **Microsoft 365 Copilot generates the new presentation in a new file when starting from an existing presentation** [Mac, Windows]
 
-  Now, when creating a presentation using Microsoft 365 Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation.
+  Now, when creating a presentation using Microsoft 365 Copilot from an existing presentation, it creates the new presentation in a new file without affecting the original presentation.
  [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
 - **Reference multiple files in your presentation creation using Microsoft 365 Copilot** [Windows, Mac, Web]
 
@@ -4983,7 +4982,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 ### Microsoft 365 Copilot Chat
 - **Catch up on Task related emails through Microsoft 365 Copilot Chat.** [Windows]
 
-  Users can use Microsoft 365 Copilot Chat to prioritize emails that require immediate attention, address urgent tasks, or contain action items or questions. Timely identification of such emails will help users complete these tasks efficiently or plan their work effectively.
+  Users can use Microsoft 365 Copilot Chat to prioritize emails that require immediate attention, address urgent tasks, or contain action items or questions. Timely identification of such emails help users complete these tasks efficiently or plan their work effectively.
 - **Locate your Copilot Pages in Copilot Chat navigation pane** [Windows, Web]
 
   For quick access to your Copilot Pages, find all page artifacts created across your apps/modules in one place underneath the Chat section in the Microsoft 365 Copilot app.
@@ -6103,7 +6102,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Create a presentation from a simple prompt** [Windows, Web, iOS, Mac]  
 
-  Provide a prompt and Copilot will help you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
+  Provide a prompt and Copilot helps you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
 
 - **Create presentations using your organization's templates** [Windows, Web, iOS, Mac]  
 
@@ -6929,7 +6928,7 @@ Updates released between October 15, 2025, and October 28, 2025.
 
 - **PPT Copilot now offers an on-canvas experience for translating presentation** [Mac, Web, iOS]
 
-  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation. [Learn more](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.).
+  Now, when creating a presentation using Copilot from an existing presentation, it creates the new presentation in a new file without affecting the original presentation. [Learn more](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.).
 
 ### Teams
 
@@ -7037,7 +7036,7 @@ Updates released between September 16, 2025, and September 30, 2025.
 
 - **Copilot generates the new presentation in a new file when starting from an existing presentation** [Web]
 
-  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation. [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
+  Now, when creating a presentation using Copilot from an existing presentation, it creates the new presentation in a new file without affecting the original presentation. [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
 
 - **Seamlessly add topics with Copilot** [Mac, Web, Windows]
 
@@ -7095,7 +7094,7 @@ Updates released between September 3, 2025, and September 16, 2025.
  [Learn more](/copilot/microsoft-365/microsoft-365-copilot-search).
 - **Unified Conversations (Chat History) List** [Web]
 
-  We've made it easier to find what you need. Users now see a single, streamlined list of all your conversations. No more switching between tabs or wondering where to look for specific conversations. Just select a conversation and you'll pick up in the same context and mode as where you left off.
+  We've made it easier to find what you need. Users now see a single, streamlined list of all your conversations. No more switching between tabs or wondering where to look for specific conversations. Select a conversation and you'll pick up in the same context and mode as where you left off.
 ### PowerPoint
 - **Copilot Chat creates and enhances presentation content and design** [Web]
 
@@ -7350,12 +7349,12 @@ Updates released between July 22, 2025, and August 5, 2025.
 ### Microsoft 365 admin center
 - **Onboard SharePoint Agents as a PayG scenario in CCS** [Web]
 
-  This feature introduces SharePoint Agents to the Pay-as-you-go tab under Copilot → Billing & usage, aligning with the existing workflow used for Microsoft 365 Copilot Chat. Administrators will gain the ability to manage and monitor SharePoint Agent consumption through the familiar Pay-as-you-go interface, ensuring consistent oversight across Copilot experiences. Integration with the SharePoint backend via API enables precise usage tracking and billing for this new scenario.
+  This feature introduces SharePoint Agents to the Pay-as-you-go tab under Copilot → Billing & usage, aligning with the existing workflow used for Microsoft 365 Copilot Chat. Administrators gain the ability to manage and monitor SharePoint Agent consumption through the familiar Pay-as-you-go interface, ensuring consistent oversight across Copilot experiences. Integration with the SharePoint backend via API enables precise usage tracking and billing for this new scenario.
  [Learn more](/microsoft-365/services/pay-as-you-go-services).
 ### Microsoft 365 Copilot Chat
 - **Share agents with your enterprise** [Windows, Web]
 
-  Generate sharing links for your agents in Business Chat. If the recipient doesn't have the agent, they'll be directed to the Microsoft 365 application catalog to install it. If they do, the agent will open directly in Microsoft 365 Copilot Business Chat.
+  Generate sharing links for your agents in Business Chat. If the recipient doesn't have the agent, they'll be directed to the Microsoft 365 application catalog to install it. If they do, the agent opens directly in Microsoft 365 Copilot Business Chat.
  [Learn more](https://support.microsoft.com/topic/how-to-share-your-agent-44981c08-ab64-43f1-bcf8-ebadfc5469cc).
 ### PowerPoint
 - **Copilot uses enterprise assets hosted on SharePoint OAL when creating presentations now** [Mac, Windows, Web]
@@ -9101,7 +9100,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Create a presentation from a simple prompt** [Windows, Web, iOS, Mac]  
 
-  Provide a prompt and Copilot will help you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
+  Provide a prompt and Copilot helps you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
 
 - **Create presentations using your organization's templates** [Windows, Web, iOS, Mac]  
 
@@ -9925,7 +9924,7 @@ Updates released between October 15, 2025, and October 28, 2025.
 
 - **PPT Copilot now offers an on-canvas experience for translating presentation** [Mac, Web, iOS]
 
-  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation. [Learn more](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.).
+  Now, when creating a presentation using Copilot from an existing presentation, it creates the new presentation in a new file without affecting the original presentation. [Learn more](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.).
 
 <!-- 100748,100986,100267,100886 -->
 ## September 30, 2025
@@ -10590,7 +10589,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Create a presentation from a simple prompt** [Windows, Web, iOS, Mac]  
 
-  Provide a prompt and Copilot will help you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
+  Provide a prompt and Copilot helps you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
 
 - **Create presentations using your organization's templates** [Windows, Web, iOS, Mac]  
 
@@ -10804,7 +10803,7 @@ Updates released between October 15, 2025, and October 28, 2025.
  [Learn more](https://support.microsoft.com/topic/add-speaker-notes-to-your-presentations-using-copilot-7139266b-8a1d-4056-8e30-4edcc4d80873).
 - **PPT Copilot now offers an on-canvas experience for translating presentation** [Mac, Web, iOS]
 
-  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation
+  Now, when creating a presentation using Copilot from an existing presentation, it creates the new presentation in a new file without affecting the original presentation
  [Learn more](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.).
 ### Teams
 - **Use Copilot in a call without recording or transcribing** [Windows, Mac]
@@ -10917,7 +10916,7 @@ Updates released between July 8, 2025, and July 22, 2025.
 ### PowerPoint
 - **Microsoft 365 Copilot generates the new presentation in a new file when starting from an existing presentation** [Mac, Windows]
 
-  Now, when creating a presentation using Microsoft 365 Copilot from an existing presentation using, it will create the new presentation in a new file without affecting the original presentation
+  Now, when creating a presentation using Microsoft 365 Copilot from an existing presentation using, it creates the new presentation in a new file without affecting the original presentation
  [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
 - **Reference multiple files in your presentation creation using Microsoft 365 Copilot** [Windows, Mac, Web]
 
@@ -11678,7 +11677,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Create a presentation from a simple prompt** [Windows, Web, iOS, Mac]  
 
-  Provide a prompt and Copilot will help you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
+  Provide a prompt and Copilot helps you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
 
 - **Create presentations using your organization's templates** [Windows, Web, iOS, Mac]  
 
