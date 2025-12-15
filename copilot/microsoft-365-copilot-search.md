@@ -97,3 +97,15 @@ The following table shows a summary of key comparisons between Microsoft 365 Cop
 | Administration | No setup required; admin can configure bookmarks/acronyms; Admin analytics reports will be available starting August 2025 | Admin config for bookmarks/acronyms; Admin analytics available |
 | Future Updates | Document-level AI summary, enhanced people search, Ranking/Relevance and natural language improvements and more | N/A |
 
+## Microsoft 365 Copilot Search and US Government Cloud environments
+
+Microsoft 365 Copilot Search is available to users in US government cloud environments (GCC), however, the following features are not yet available: 
+
+| Feature | Environment  | Estimated availability  |
+|---|---|---|
+| Feedback | GCC-H, DoD | 2026 |
+| Connectors | DoD | 2026 |
+| Copilot Search tab in the admin center | All US government clouds | 2026 |
+| Admin analytics | All US government clouds | 2026 |
+| Admin-ingested acronyms | GCC-H, DoD | 2026 |
+| AI views | All US government clouds | TBD |
