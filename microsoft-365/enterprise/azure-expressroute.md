@@ -1,6 +1,6 @@
 ---
 title: "Azure ExpressRoute for Microsoft 365"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 03/15/2024

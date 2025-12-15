@@ -16,7 +16,7 @@ ms.collection:
 description: The diagnostics pivot in Enhanced engagements hosts diagnostic tools for self-service issue resolution within your environment.
 ---
 
-# Diagnostics
+# Diagnostics in Enhanced Engagements
 
 The Diagnostics page hosts diagnostic tools for self-service issue resolution within your environment.
 
