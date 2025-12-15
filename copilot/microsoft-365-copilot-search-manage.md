@@ -25,9 +25,6 @@ Learn more about [setting up Microsoft 365 Copilot](/copilot/microsoft-365/micro
 
 For more details on how to manage, customize, and optimize Copilot Search across your organization, learn about the [Microsoft 365 Copilot Search admin experience](/copilot/microsoft-365/microsoft-365-copilot-search-admin-experience).
 
-> [!NOTE]
-> Copilot Search is not yet available in [Microsoft 365 Copilot GCC](https://adoption.microsoft.com/copilot/gcc/).
-
 ## Copilot Search and third-party systems
 
 Copilot Search can access data in third-party systems as well as Microsoft 365 apps and other systems in the Microsoft Graph. This is achieved through Microsoft 365 Copilot connectors, which allow organizations to ingest data from external platforms like Salesforce, ServiceNow, Confluence, and more.
