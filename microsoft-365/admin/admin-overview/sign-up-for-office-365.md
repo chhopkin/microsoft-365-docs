@@ -20,7 +20,6 @@ ms.collection:
 - TRN_SMB
 - Adm_TOC
 - ContentFreshnessFY24
-- operations-pod
 ms.custom:
 - commerce_signup
 - VSBFY23
@@ -31,9 +30,9 @@ ms.custom:
 - AdminTemplateSet
 - adminvideo
 - intro-get-started
-search.appverid:
-- MET150
-ROBOTS: NOINDEX
+service.tree.id: 95459a4b-434c-4f83-879b-aa5f509fc7fa
+search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to choose a Microsoft 365 for business plan, sign up, and set up your subscription."
 ms.date: 11/04/2025
 ---

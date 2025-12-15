@@ -1,6 +1,6 @@
 ---
 title: "Configure Exchange Server to use Hybrid Modern Auth"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.reviewer: ninob

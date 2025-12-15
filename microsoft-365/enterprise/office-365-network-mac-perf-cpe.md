@@ -1,6 +1,6 @@
 ---
 title: "Microsoft 365 informed network routing"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 04/05/2024

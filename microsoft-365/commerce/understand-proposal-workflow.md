@@ -9,23 +9,23 @@ ms.reviewer: titung, jasoni
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
-ms.subservice: m365-commerce-volume-licensing
+ms.subservice: m365-commerce-marketplace
 ms.localizationpriority: medium
 ms.collection:
 - Tier1
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_purchase
 - AdminSurgePortfolio
 - admindeeplinkMAC
 - GAUpdates
 - campaignIDs-batch2
+service.tree.id: 052e60a1-7cf9-4c1e-9cfc-86a63f28aaab
 search.appverid: MET150
 description: "Learn about the proposal workflow used when you buy Microsoft business products and services. Discover how to review and approve proposals."
-ROBOTS: NOINDEX
+ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 10/08/2025
 ---
 
