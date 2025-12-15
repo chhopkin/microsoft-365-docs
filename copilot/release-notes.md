@@ -25,7 +25,7 @@ appliesto:
 
 # Microsoft 365 Copilot release notes
 
-This page lists the latest features and improvements for Microsoft 365 Copilot. It includes changes that are generally available (Current Channel for Microsoft 365 apps) and specific to each platform.
+This page lists the latest features and improvements for Microsoft 365 Copilot. It includes changes that are generally available (Current Channel for Microsoft 365 apps) and specific to each platform. 
 
 [!INCLUDE [agent-builder-mcs-lite](../microsoft-365/includes/agent-builder-mcs-lite.md)]
 
@@ -35,6 +35,7 @@ This page lists the latest features and improvements for Microsoft 365 Copilot. 
 ## December 10, 2025
 Updates released between November 25, 2025, and December 10, 2025.
 ### Microsoft 365 Copilot app
+
 - **Create polished videos faster with seamless editing and brand customization** [Web]
 
   Turn text prompts or PowerPoint, Word, and PDF files into high-quality videos. Create professional videos quickly with easier editing, brand integration, and media customization.
