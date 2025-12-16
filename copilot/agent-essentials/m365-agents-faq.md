@@ -31,7 +31,7 @@ To get started, [review our planning guide](/microsoft-365-copilot/extensibility
 
 There are two main types of Copilot agents you can create: 
 
-- **[Declarative agents](/microsoft-365-copilot/extensibility/agents-overview#declarative-agents)**, which use Copilot's AI infrastructure, model, and orchestrator. These agents are built using low-code tools like Copilot Studio (lite) or pro-code tools like Visual Studio, Visual Studio Code, and the Microsoft 365 Agents Toolkit. Declarative agents run in Microsoft 365 Copilot and Microsoft 365 apps like Teams, Outlook, and SharePoint.
+- **[Declarative agents](/microsoft-365-copilot/extensibility/agents-overview#declarative-agents)**, which use Copilot's AI infrastructure, model, and orchestrator. These agents are built using low-code tools like Agent Builder or pro-code tools like Visual Studio, Visual Studio Code, and the Microsoft 365 Agents Toolkit. Declarative agents run in Microsoft 365 Copilot and Microsoft 365 apps like Teams, Outlook, and SharePoint.
 - **[Custom engine agents](/microsoft-365-copilot/extensibility/agents-overview#custom-engine-agents)**, which are fully customized AI assistants. These agents require hosting outside of Microsoft 365, and are typically built using low-code Copilot Studio or pro-code tools like Visual Studio, Visual Studio Code, and Agents Toolkit, using languages such as .NET, Python, and JavaScript, and frameworks like Semantic Kernel or LangChain.
 
 For more information, see the following articles:
@@ -41,7 +41,7 @@ For more information, see the following articles:
 
 ## Who can create, build, and share Copilot agents?
 
-- **Users** can create declarative agents in Copilot Studio (lite) or SharePoint if enabled by tenant settings (requires Copilot license or subscription)
+- **Users** can create declarative agents in Agent Builder or SharePoint if enabled by tenant settings (requires Copilot license or subscription)
 - **Makers** can use Copilot Studio (lite or full) for low-code agents
 - **Developers** can use Copilot Studio SDK or Agents Toolkit for pro-code agents. Developers can also [submit agents to the marketplace](/copilot/microsoft-365/agent-essentials/agent-policies/agent-submit-marketplace)
 - Both **Makers** and **Developers** can add actions, connectors, and advanced logic in Copilot Studio or via the Microsoft 365 Agents Toolkit
