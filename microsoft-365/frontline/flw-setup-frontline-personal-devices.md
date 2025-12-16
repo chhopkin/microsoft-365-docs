@@ -43,7 +43,7 @@ Make sure you have:
 ## Step 1: start onboarding
 
 > [!NOTE]
-> We recommend evaluating this feature with a new test user account. This helps you validate the first-time setup experience for your organization. For best results, use a private browsing session and close it after each user completes setup.
+> Use a new test user account to evaluate this feature and validate your organization’s first-time setup experience. For best results, use a private browsing session and close it after each setup.
 
 On the desktop kiosk or back-office PC, open a web browser and navigate to [aka.ms/getfrontlineteams](https://aka.ms/getfrontlineteams).
 
