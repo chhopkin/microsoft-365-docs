@@ -43,10 +43,9 @@ Make sure you have:
 ## Step 1: start onboarding
 
 > [!NOTE]
-> It's best to use this experience in a private browser and close the private browser session between users. 
-> When evaluating this feature, we recommend using a new test user so you can validate the first‑time setup experience for your organization.
+> We recommend evaluating this feature with a new test user account. This helps you validate the first-time setup experience for your organization. For best results, use a private browsing session and close it after each user completes setup.
 
-On the desktop kiosk or back-office PC, open a web browser and go to **aka.ms/getfrontlineteams**. 
+On the desktop kiosk or back-office PC, open a web browser and navigate to [aka.ms/getfrontlineteams](https://aka.ms/getfrontlineteams).
 
 ![Screenshot shows the user interface for the setup guide landing page.](media/setup-frontline-teams-on-personal-devices/get-started.png)
 
