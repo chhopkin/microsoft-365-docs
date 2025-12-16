@@ -23,7 +23,7 @@ manager: viseshag
 
 ## Overview
 
-The frontline Teams onboarding experience helps frontline workers set up Teams on their personal devices. This onboarding experience is available on the web and is intended for use on a desktop kiosk or shared PC at your work site. The steps in the wizard update dynamically based on the security policies defined in your organization. If your policies change over time, the experience adapts automatically.
+The frontline Teams onboarding experience helps frontline workers set up Teams on their personal devices. This onboarding experience is available on the web and is intended for use on a desktop kiosk or shared PC at your work site. The steps in the experience update dynamically based on the security policies defined in your organization. If your policies change over time, the experience adapts automatically.
 
 ## Scenarios supported
 
