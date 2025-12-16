@@ -8,22 +8,17 @@ ms.date: 09/18/2025
 audience: admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
-ms.subservice:
-search.appverid: 
-ms.collection: 
 ms.localizationpriority:  medium
-description: Learn how to set up or disconnect billing for pay-as-you-go services for document processing, Microsoft 365 Archive, and Microsoft 365 Backup.
+description: Learn how to set up or disconnect billing for pay-as-you-go services for document processing and Microsoft 365 Archive
 ---
 
-# Set up or disconnect pay-as-you-go billing for document processing and storage services
+# Set up or disconnect pay-as-you-go billing in Setup node
 
-This article explains how to set up or disconnect pay-as-you-go billing for the following services:
+This article explains how to set up or disconnect pay-as-you-go billing for the following services in Setup node:
 
-- Document processing for Micrsoft 365
+- Document processing for Microsoft 365
 
 - Microsoft 365 Archive
-
-- Microsoft 365 Backup
 
 ## Prerequisites
 
@@ -58,7 +53,7 @@ Before you begin, ensure the following:
 
 ### Step 2: Configure billing
 
-1. On the **Pay-as-you-go services** page, select the service you want to set up (for example, **SharePoint Agents** or **Syntex services**).
+1. On the **Pay-as-you-go services** page, select the service you want to set up (for example **Syntex services**).
 
 2. On the **Set up billing and turn on services** panel, choose your Azure subscription, resource group, and region.  
 
@@ -91,7 +86,7 @@ Ensure you have the following roles:
 
 3. Select **Pay-as-you-go services**.
 
-4. Choose the service to disconnect (for example, **SharePoint Agents** or **Syntex services**).
+1. Choose the service to disconnect (for example **Syntex services**).
 
 5. On the **Manage billing** panel, select **Edit billing information**.
 

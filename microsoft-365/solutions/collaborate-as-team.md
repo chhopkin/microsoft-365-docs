@@ -16,8 +16,9 @@ ms.collection:
 - m365solution-securecollab
 - m365initiative-externalcollab
 ms.custom:
-- chat-teams-channels-revamp 
+- chat-teams-channels-revamp
 - seo-marvel-apr2020
+- m365-solutions-doc-set
 - admindeeplinkMAC
 - admindeeplinkTEAMS
 - admindeeplinkSPO

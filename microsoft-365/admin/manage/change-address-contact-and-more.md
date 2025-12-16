@@ -17,12 +17,12 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-- operations-pod
 ms.custom:
 - commerce_billing
 - AdminTemplateSet
 - admindeeplinkMAC
 - GAUpdates
+service.tree.id: 95459a4b-434c-4f83-879b-aa5f509fc7fa
 search.appverid: MET150
 description: "Learn how to make changes to your organization's address, phone number, and technical contact in the Microsoft 365 admin center."
 ms.date: 09/16/2025

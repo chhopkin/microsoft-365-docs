@@ -18,6 +18,7 @@ ms.collection:
 - must-keep
 ms.custom:
 - Ent_Solutions
+- m365-solutions-doc-set
 description: "Migrate your Windows devices, Office client apps, and Office servers for your Microsoft 365 tenants."
 ---
 

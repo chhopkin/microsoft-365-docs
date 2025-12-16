@@ -4,7 +4,7 @@ ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
 audience: Admin
-ms.topic: conceptual
+ms.topic: article
 ms.localizationpriority: high
 search.appverid: 
   - MET150
