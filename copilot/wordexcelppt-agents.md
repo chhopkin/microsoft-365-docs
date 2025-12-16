@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: smbhardwaj
 author: smritib17
 manager: scotvidican
-ms.date: 12/10/2025
+ms.date: 12/15/2025
 audience: Admin
 ms.reviewer: HollyPollock
 ms.topic: overview
@@ -41,20 +41,25 @@ If the reasoning model's usage is blocked, users are prevented from seeing the a
 
 ### Connect to reasoning models in the Microsoft 365 admin center
 
-For detailed steps on how to connect to Anthropic's AI models, see [Connect to Anthropic's AI models](connect-to-ai-models.md#connect-to-anthropic-in-the-microsoft-365-admin-center).
+For steps on how to connect to Anthropic's AI models, see [Anthropic as a subprocessor for Microsoft Online Services](connect-to-ai-subprocessor.md).
 
 ### Disable connection to reasoning models
 
-For detailed steps on how to disable the connection to Anthropic's AI models, see [Connect to Anthropic's AI models](connect-to-ai-models.md#disable-connection-to-anthropic).
+For steps on how to disable the connection to Anthropic's AI models, see [Disable connection to Anthropic's models](connect-to-ai-subprocessor.md#disable-connection-to-anthropics-models).
 
 ## Data Privacy and Security
 
-> [!IMPORTANT]
-> Until January 7th, 2026, when your organization chooses to share data with Anthropic (as an independent data processor) to power Claude for Microsoft 365 Copilot, this data is processed outside all Microsoft managed environments and audit controls, therefore Microsoft's customer agreements, including the [Product Terms](https://www.microsoft.com/licensing/terms?msockid=344e0e6ad66c6b3e19441848d7416abd) and [Data Processing Addendum](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?lang=18&msockid=344e0e6ad66c6b3e19441848d7416abd) don't apply. In addition, Microsoft's data residency commitments, audit and compliance requirements, service level agreements, and Customer Copyright Commitment don't apply to your use of Anthropic services. Instead, use of Anthropic's services is governed by Anthropic's [Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms) and Anthropic's [Data Processing Addendum](https://www.anthropic.com/legal/data-processing-addendum). Starting on January 7th, as a subprocessor, Anthropic will operate under Microsoft’s direction and contractual safeguards. This includes coverage under the [Microsoft Data Protection Addendum (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?lang=18&msockid=344e0e6ad66c6b3e19441848d7416abd) and [Product Terms](https://www.microsoft.com/licensing/terms?msockid=344e0e6ad66c6b3e19441848d7416abd) with Microsoft remaining accountable for Anthropic’s compliance under our contractual commitments. In addition, use of Anthropic models in Microsoft 365 Copilot falls under our [Enterprise Data Protection](enterprise-data-protection.md). For more information on Anthropic as a subprocessor, see [Anthropic as a subprocessor for Microsoft Online Services](connect-to-ai-subprocessor.md).
+Until January 7, 2026, when your organization elects to use an Anthropic model, your organization is choosing to share data with Anthropic and your use is governed by Anthropic's [Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms) and Anthropic's [Data Processing Addendum](https://www.anthropic.com/legal/data-processing-addendum). Microsoft's customer agreements, including the [Product Terms](https://www.microsoft.com/licensing/terms?msockid=344e0e6ad66c6b3e19441848d7416abd) and [Data Processing Addendum](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?lang=18&msockid=344e0e6ad66c6b3e19441848d7416abd) don't apply. In addition, Microsoft's data-residency commitments, audit and compliance requirements, service level agreements, and Customer Copyright Commitment don't apply to your use of Anthropic services.  
+
+For more information, see [Connect to Anthropic's AI models](connect-to-ai-models.md).
+
+Starting on January 7, 2026, Anthropic will operate as a Microsoft subprocessor for these Microsoft 365 Copilot capabilities under Microsoft’s direction and contractual safeguards. This includes coverage under the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms?msockid=344e0e6ad66c6b3e19441848d7416abd) and the [Microsoft Data Protection Addendum (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?lang=18&msockid=344e0e6ad66c6b3e19441848d7416abd) with Microsoft remaining accountable for Anthropic’s compliance under our contractual commitments. In addition, use of Anthropic models in Microsoft 365 Copilot will fall under our [Enterprise Data Protection](enterprise-data-protection.md) and will be covered by the Customer Copyright Commitment. Note that Anthropic models are currently excluded from EU Data Boundary and when applicable, in-country processing commitments.
+
+For more information, see [Anthropic as a subprocessor](connect-to-ai-subprocessor.md).
 
 ## Enterprise Data
 
-Word, and PowerPoint Agents can access organizational data for users with a Copilot license. These agents use Microsoft Graph to retrieve information from files, emails, meetings, and sites that you personally have permission to access, similar to other Copilot experiences.
+Word, Excel, and PowerPoint Agents can access organizational data for users with a Copilot license. These agents use Microsoft Graph to retrieve information from files, emails, meetings, and sites that you personally have permission to access, similar to other Copilot experiences.
 
 Microsoft ensures secure handling of data, when integrating with reasoning models. Microsoft performs all searches, and only relevant context is shared with the reasoning model. So the data provided is limited to what you are authorized to view, with sensitivity labels and compliance policies fully respected.
 
