@@ -13,6 +13,7 @@ ms.collection:
 - M365-collaboration
 - M365-security-compliance
 ms.custom:
+- m365-solutions-doc-set
 f1.keywords: NOCSH
 ms.date: 04/30/2024
 

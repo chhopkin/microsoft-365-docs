@@ -42,8 +42,8 @@ To ensure that SharePoint permissions are retained as part of the migration, a m
 - Precreate users and groups as needed in the target tenant's directory.
 - All users who are migrating to the target tenant must have new user identities created for them in the target tenant.
 
->[!Note]
->Note: If these users are also having their OneDrive migrated, make sure that these new users don't attempt to sign-in to their new target OneDrive until their corresponding OneDrive migration is complete.
+   >[!Note]
+   >If these users are also having their OneDrive migrated, make sure that these new users don't attempt to sign-in to their new target OneDrive until their corresponding OneDrive migration is complete.
 
 - Users whose SharePoint accounts are migrating to the target tenant must be assigned the appropriate SharePoint license.
 - Users who remain in the source tenant but need access to resources migrating to the target tenant should have new guest identities created for them in the target tenant.
@@ -51,8 +51,8 @@ To ensure that SharePoint permissions are retained as part of the migration, a m
 - If the user or group name already exists in the target tenant, create a user or group with a different name and make a note of it for the next step.
 - We recommend that SharePoint site creations are restricted in the target tenant to prevent users from creating SharePoint sites.
 
->[!Note]
->To learn more on restricting SharePoint site creation, see [Disable SharePoint creation for some users](/sharepoint/manage-user-profiles#disable-SharePoint-creation-for-some-users)
+   >[!Note]
+   >To learn more on restricting SharePoint site creation, see [Disable SharePoint creation for some users](/sharepoint/manage-user-profiles#disable-SharePoint-creation-for-some-users).
 
 ## Precreate Microsoft 365 groups connect to SharePoint sites
 
@@ -78,15 +78,14 @@ To ensure that SharePoint permissions are retained as part of the migration, a m
     New-mgBetaGroup -GroupTypes Unified -MailNickname <Group Alias> -DisplayName "Group Name" -ResourceBehaviorOptions "ProvisionSiteOnDemand" -MailEnabled:$False -SecurityEnabled
     ```
 
-> [!NOTE] 
->Microsoft 365 Groups connected to SharePoint sites MUST be precreated using this method. Precreating Microsoft 365 groups using any other methods >will cause SharePoint site migrations to fail. Capture the group ObjectID to add to the mapping file._
+    > [!NOTE] 
+    > Microsoft 365 Groups connected to SharePoint sites MUST be precreated using this method. Precreating Microsoft 365 groups using any other methods >will cause SharePoint site migrations to fail. Capture the group ObjectID to add to the mapping file.
 
+    > [!Important]
+    > Microsoft 365 Groups connected to SharePoint sites **MUST be precreated using this method**. Precreating Microsoft 365 groups using any other methods will cause SharePoint site migrations to fail.
 
-> [!Important]
-> Microsoft 365 Groups connected to SharePoint sites **MUST be precreated using this method**. Precreating Microsoft 365 groups using any other methods will cause SharePoint site migrations to fail.
-
-> [!WARNING]
-> If the Microsoft 365 Group name contains a period character (.), the migration fails with an **Invalid character** error.
+    > [!WARNING]
+    > If the Microsoft 365 Group name contains a period character (.), the migration fails with an **Invalid character** error.
 
 ## For tenants with Multi-Geo
 
@@ -95,6 +94,7 @@ When creating Microsoft 365 group objects, we recommend you assign the group to 
 ```PowerShell
 New-mgBetaGroup -GroupTypes Unified -MailNickname <Group Alias> -DisplayName "Group Name" -ResourceBehaviorOptions "ProvisionSiteOnDemand" -MailEnabled:$False -SecurityEnabled -PreferredDataLocation <EUR,GBR,CAN...> 
 ```
+
 >[!NOTE] 
 >The **-PreferredDataLocation** used **only** in multi-geo scenarios to set the PDL for the Microsoft 365 Group to ensure the PDL aligns of the new group aligns with the proper data location.
 

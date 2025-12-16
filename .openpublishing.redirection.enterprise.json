@@ -1454,6 +1454,11 @@
       "source_path": "microsoft-365/enterprise/microsoft-365-apps-monitoring.md",
       "redirect_url": "/microsoft-365/enterprise/microsoft-365-monitoring",
       "redirect_document_id": true
+   },
+   {
+      "source_path": "microsoft-365/enterprise/engineering-direct-portal.md",
+      "redirect_url": "/microsoft-365/enterprise/office-engineering-direct",
+      "redirect_document_id": true
    }
   ]
 }

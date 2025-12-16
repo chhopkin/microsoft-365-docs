@@ -1,6 +1,6 @@
 ---
 title: "Use PowerShell to perform a staged migration to Microsoft 365"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 06/27/2024

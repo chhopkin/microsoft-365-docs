@@ -1,6 +1,6 @@
 ---
 title: Configure Microsoft 365 Enterprise services and applications
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 06/28/2024
