@@ -3,8 +3,8 @@
 # For more information, see https://learn.microsoft.com/en-us/help/platform/learn-editor-add-metadata
 # For valid values of ms.service, ms.prod, and ms.topic, see https://learn.microsoft.com/en-us/help/platform/metadata-taxonomies
 
-title: setup-frontline-teams-on-personal-devices
-description: setup-frontline-teams-on-personal-devices
+title: Setup-frontline-teams-on-personal-devices
+description: Setup-frontline-teams-on-personal-devices
 author:      aaglick # GitHub alias
 ms.author:   aaglick # Microsoft alias
 ms.service: microsoft-365-frontline
@@ -52,7 +52,7 @@ On the desktop kiosk or back-office PC, open a web browser and navigate to [aka.
 
 ![Screenshot shows the user interface for the setup guide landing page.](media/setup-frontline-teams-on-personal-devices/get-started.png)
 
-Choose the device type that you are onboarding. 
+Choose the device type that you're onboarding. 
 
 ![Screenshot shows the user interface where you can select the Android or iOS device.](media/setup-frontline-teams-on-personal-devices/choose-device.png)
 
@@ -64,27 +64,27 @@ Reset your default password if prompted.
 
 ## Step 2: download required apps
 
-You could need to download additional apps such as Microsoft Authenticator and/or Company Portal based on your organization’s security policies. Below are the scenarios you could encounter:
+You could need to download additional apps such as Microsoft Authenticator and/or Company Portal based on your organization’s security policies. These are the scenarios you could encounter:
 
 #### Multifactor authentication (MFA)
 
 1. You don't require MFA to access Teams.  
 
-   1. The MFA setup is skipped.
+   1. You will skip the MFA setup step. 
       
 1. You require MFA to access Teams and you already have an MFA method setup. 
 
-1. The MFA setup is skipped. 
+1. You will skip the MFA setup step. 
 
    You require MFA to access Teams and the web is experience is being accessed from a device that doesn't require MFA.
 
       ![Screenshot shows a QR code to download the Microsoft Authenticator app.](media/setup-frontline-teams-on-personal-devices/get-authenticator.png)
    
-   1. Scan the QR code with your mobile phone to download the Microsoft Authenticator app.
+   1. Download Microsoft Teams using the QR code. 
    
-1. Open the Microsoft Authenticator app and allow notifications.
+1. You will open the Microsoft Authenticator app and allow notifications.
    
-1. Sign with your work account and complete setup.
+1. You will sign with your work account and complete setup.
    
 1. Come back and select next on the screen. 
    
@@ -110,17 +110,17 @@ You could need to download additional apps such as Microsoft Authenticator and/o
 
 If your organization uses app protection policies, app configuration policies, and/or conditional access policies with Microsoft Teams, you might need the Company Portal app on your device.
 
-- If you have an iOS device, you will not see this step.
+- If you have an iOS device, you won't see this step. 
 
-- If you have an Android device, you'll see a screen to download Company Portal.  
+- If you have an Android device, you see a screen to download Company Portal.  
 
    ![Screenshot displays a QR code along with instructions for downloading the Company Portal app.](media/setup-frontline-teams-on-personal-devices/get-company-portal.png)
   
 #### Download Microsoft Teams
 
-Next, you will see a screen to download Microsoft Teams.
+Next, you'll see a screen to download Microsoft Teams.
 
-- Scan the QR code with your mobile phone to download Microsoft Teams.
+- Download Microosft Teams using the QR code. 
 
 - Sign in and click **Done** when finished.
 
