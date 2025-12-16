@@ -397,7 +397,7 @@ Get started by picking a primary Employee Self-Service agent to add categories, 
 >   - Add up to 10 unique categories (like HR, IT, and so on).
 >   - Each category name has a 35-character limit.
 >   - Add up to 12 titles and starter prompts for each category.
->   - The title for each starter prompt must be unique and has a 128-charcter limit.
+>   - The title for each starter prompt must be unique and has a 128-character limit.
 >   - Starter prompts don't need to be unique and have a 4000-character limit.
 
 2. When the CSV is completed, select **Upload CSV**. The system validates the CSV file upon upload. If an error occurs, a status message below the upload button shows you what changes to make.
