@@ -242,7 +242,7 @@ Authorization for all the topics is as follows:
 
 |Get Employee ID |Details |
 |----------------|--------|
-|**Description** |Reads *ESS_UsetContext_Employee_Id* and returns it to the user. There's no config required for this topic. |
+|**Description** |Reads *ESS_UserContext_Employee_Id* and returns it to the user. There's no config required for this topic. |
 |**Prompts**     |<li>What is my employee ID?<li>Show my employee ID?<li>What is my employee number? |
 
 ### Get Job Info
