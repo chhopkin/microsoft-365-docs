@@ -93,7 +93,7 @@ To adopt an MX target in mx.microsoft, do the following steps:
 
       Successful completion of the test looks like this:
 
-      ![User's image](media/configure-multi-geo-in-region-routing-in-preview/connectivity-test-successful-output.png)
+      ![User's image](media/configure-multi-geo-in-region-routing/connectivity-test-successful-output.png)
     
 5. Change the **Priority** values of the MX records for your domain:
    - **The existing MX record from Step 1**: Change the **Priority** value to 30.
