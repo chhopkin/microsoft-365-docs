@@ -25,25 +25,25 @@ appliesto:
 > [!IMPORTANT]
 > Word, Excel, and PowerPoint Agents (Frontier) in Microsoft 365 Copilot is currently only available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/) with a Microsoft 365 Copilot subscription. Frontier includes early access to experimental features, which means features may change as Microsoft improves them. [Learn about Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
 
-Microsoft 365 is expanding its integration with reasoning models within Copilot, allowing users to create Word, Excel, and PowerPoint files using advanced AI-driven creation agents.
+Microsoft 365 is expanding its integration with AI models within Copilot, allowing users to create Word, Excel, and PowerPoint files using advanced AI-driven creation agents.
 
 ## Before you begin
 
-To use Word, Excel, and PowerPoint Agents, you require a Microsoft 365 Copilot license with Frontier features enabled. Additionally, Administrators should be opted in to the Frontier program.
+To use Word, Excel, and PowerPoint Agents, you require a Microsoft 365 Copilot license with [Frontier features](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7) enabled. Additionally, Administrators should be opted in to the Frontier program.
 
 ## Admin enablement and controls  
 
-These agents use Anthropic reasoning models. A global administrator must enable the reasoning models in the Microsoft 365 admin center, agreeing to the model's terms for users to access creation agents. In addition, Frontier must be enabled for the tenant or specific users, the Anthropic model toggle must be turned on, and the user needs a Microsoft 365 Copilot license assigned. These requirements are mandatory for Word, Excel, and PowerPoint Agents to function.
+These agents exclusively use Anthropic's AI models. A global administrator must enable the AI models in the Microsoft 365 admin center, agreeing to the model's terms for users to access creation agents. In addition, Frontier must be enabled for the tenant or specific users, and the Anthropic model toggle must be turned on. These requirements are mandatory for [Word, Excel, and PowerPoint Agents](wordexcelppt-agents.md) to function.
 
-Administrators, after enabling, can disable access to reasoning models at any time. If your organization decides to stop using the reasoning model, you can block the provider via the admin center, which removes the option for users. Word, Excel, and PowerPoint Agents are installed by Microsoft and will appear in the Tools menu and left navigation pane for Microsoft 365 Copilot licensed users (in the Agents list in the Frontier section and in the All Agents section), assuming both Anthropic and Frontier have been enabled for the tenant. Admins can manage these agents similar to other agents that were installed by [Microsoft](copilot-agent-install.md).
+Administrators, after enabling, can disable access to reasoning models at any time. If your organization decides to stop using the reasoning model, you can block the provider via the admin center, which removes the option for users. [Word, Excel, and PowerPoint Agents](https://support.microsoft.com/topic/76691f5e-bb19-4029-a34d-33a00e0a0c4f) are installed by Microsoft and will appear in the Tools menu and left navigation pane for Microsoft 365 Copilot licensed users (in the Agents list in the Frontier section and in the All Agents section), assuming both Anthropic and Frontier have been enabled for the tenant. Admins can manage these agents similar to other agents that were installed by [Microsoft](copilot-agent-install.md).
 
-If the reasoning model's usage is blocked, users are prevented from seeing the agents (in the Tools menu and in the left rail of the Microsoft 365 Copilot app) and using the new Word, Excel, and PowerPoint Agents.
+If the AI's model usage is blocked, users are prevented from seeing the agents (in the Tools menu and in the left rail of the Microsoft 365 Copilot app) and using the new [Word, Excel, and PowerPoint Agents](https://support.microsoft.com/topic/76691f5e-bb19-4029-a34d-33a00e0a0c4f).
 
-### Connect to reasoning models in the Microsoft 365 admin center
+### Connect to AI models in the Microsoft 365 admin center
 
 For steps on how to connect to Anthropic's AI models, see [Anthropic as a subprocessor for Microsoft Online Services](connect-to-ai-subprocessor.md).
 
-### Disable connection to reasoning models
+### Disable connection to AI models
 
 For steps on how to disable the connection to Anthropic's AI models, see [Disable connection to Anthropic's models](connect-to-ai-subprocessor.md#disable-connection-to-anthropics-models).
 
@@ -73,6 +73,7 @@ Feedback mechanisms exist for reporting inaccuracies or inappropriate content; s
 
 ## Related content
 
+- [Get started with Word, Excel, and PowerPoint Agents in Microsoft 365 Copilot (Frontier)](https://support.microsoft.com/topic/76691f5e-bb19-4029-a34d-33a00e0a0c4f)
 - [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7)
 - [Support article](https://support.microsoft.com/topic/76691f5e-bb19-4029-a34d-33a00e0a0c4f)
 - [Word, Excel, and PowerPoint Agents FAQ](faq-wordexcelppt-agents.yml)
