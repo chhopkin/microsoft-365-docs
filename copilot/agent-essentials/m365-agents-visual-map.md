@@ -41,19 +41,19 @@ Members of your organization can create agents using different methods that allo
 
 ## Create agents in Agent Builder
 
-Members of your organization can create declarative agents that they can share across your organization using Agent Builder. For more information, see [Microsoft 365 agents deployment checklist](m365-agents-checklist.md#create-agents-in-copilot-studio-lite).
+Members of your organization can create declarative agents that they can share across your organization using Agent Builder. For more information, see [Microsoft 365 agents deployment checklist](m365-agents-checklist.md#create-agents-in-agent-builder).
 
 :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-03.png" alt-text="The Copilot agents visual guide - Create agents in Agent Builder."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-03.png":::
 
 ## Understand application lifecycle management with Copilot Studio
 
-Application lifecycle management (ALM) is the lifecycle management of applications and agents, which includes governance development and maintenance. For more information, see [Microsoft 365 agents deployment checklist](m365-agents-checklist.md#understand-application-lifecycle-management-with-copilot-studio-full).
+Application lifecycle management (ALM) is the lifecycle management of applications and agents, which includes governance development and maintenance. For more information, see [Microsoft 365 agents deployment checklist](m365-agents-checklist.md#understand-application-lifecycle-management-with-copilot-studio).
 
 :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-04.png" alt-text="The Copilot agents visual guide - Understand application lifecycle management with Copilot Studio."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-04.png":::
 
 ## Create agents in Copilot Studio
 
-When you need to provide powerful AI assistants that retrieve real-time insights and act on behalf of users, as well as create specialized workflows, you can use Copilot Studio to create custom agents. For more information, see [Microsoft 365 agents deployment checklist](m365-agents-checklist.md#create-agents-in-copilot-studio-full).
+When you need to provide powerful AI assistants that retrieve real-time insights and act on behalf of users, as well as create specialized workflows, you can use Copilot Studio to create custom agents. For more information, see [Microsoft 365 agents deployment checklist](m365-agents-checklist.md#create-agents-in-copilot-studio).
 
 :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-05.png" alt-text="The Copilot agents visual guide - Create agents in Copilot Studio."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-visual-map/visual-map-05.png":::
 

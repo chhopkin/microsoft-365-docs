@@ -137,8 +137,8 @@ When Copilot itself doesn’t fully address your organization’s requirements o
 Your organization can create agents for Microsoft Copilot using several different methods involving tools and environments:
 
 - [Microsoft SharePoint](#microsoft-sharepoint)
-- [Agent Builder in Microsoft 365 Copilot​](#microsoft-copilot-studio-lite)
-- [Copilot Studio](#microsoft-copilot-studio-full)
+- [Agent Builder in Microsoft 365 Copilot​](#agent-builder-in-microsoft-365-copilot)
+- [Copilot Studio](#microsoft-copilot-studio)
 - [Microsoft 365 Agents Toolkit](#microsoft-365-agents-toolkit)
 
 For information related to extending Microsoft 365 Copilot, see [Set up your development environment for Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/prerequisites) and [Validation guidelines for agents](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/review-copilot-validation-guidelines#description?context=/microsoft-365-copilot/extensibility/context).
