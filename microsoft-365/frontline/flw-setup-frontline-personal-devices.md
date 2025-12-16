@@ -18,6 +18,9 @@ manager: viseshag
 > [!NOTE]
 > This feature is currently in public preview. For updates, please refer to the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?id=523213). 
 
+> [!NOTE]
+> Use a new test user account to evaluate this feature and validate your organization’s first-time setup experience.
+
 ## Overview
 
 The frontline Teams onboarding experience helps frontline workers set up Teams on their personal devices. This onboarding experience is available on the web and is intended for use on a desktop kiosk or shared PC at your work site. The steps in the wizard update dynamically based on the security policies defined in your organization. If your policies change over time, the wizard adapts automatically.
@@ -43,7 +46,7 @@ Make sure you have:
 ## Step 1: start onboarding
 
 > [!NOTE]
-> Use a new test user account to evaluate this feature and validate your organization’s first-time setup experience. For best results, use a private browsing session and close it after each setup.
+> For best results, use a private browsing session and close it after each setup.
 
 On the desktop kiosk or back-office PC, open a web browser and navigate to [aka.ms/getfrontlineteams](https://aka.ms/getfrontlineteams).
 
