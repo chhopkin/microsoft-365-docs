@@ -29,7 +29,7 @@ The frontline Teams onboarding experience helps frontline workers set up Teams o
 
 - You want to set up Microsoft Teams on a personal device. Supported devices include Android and iOS.
 
-- MFA is required to access Teams on a personal device. The  optimizes for setting up Authenticator push notifications as the primary MFA method.
+- MFA is required to access Teams on a personal device. The experiences optimizes for setting up Authenticator push notifications as the primary MFA method.
 
 - App protection or configuration policies are enforced to access Teams on a personal device.
 
@@ -64,17 +64,17 @@ Reset your default password if prompted.
 
 ## Step 2: download required apps
 
-You could need to download additional apps such as Microsoft Authenticator and/or Company Portal based on your organization’s security policies. These are the scenarios you could encounter:
+You could need to download extra apps such as Microsoft Authenticator and/or Company Portal based on your organization’s security policies. These scenarios are supported by the setup experience:
 
 #### Multifactor authentication (MFA)
 
 1. You don't require MFA to access Teams.  
 
-   1. You will skip the MFA setup step. 
+   1. You'll skip the MFA setup step. 
       
-1. You require MFA to access Teams and you already have an MFA method setup. 
+1. You'll require MFA to access Teams and you already have an MFA method setup. 
 
-1. You will skip the MFA setup step. 
+1. You'll skip the MFA setup step. 
 
    You require MFA to access Teams and the web is experience is being accessed from a device that doesn't require MFA.
 
@@ -82,11 +82,11 @@ You could need to download additional apps such as Microsoft Authenticator and/o
    
    1. Download Microsoft Teams using the QR code. 
    
-1. You will open the Microsoft Authenticator app and allow notifications.
+1. You'll open the Microsoft Authenticator app and allow notifications.
    
-1. You will sign with your work account and complete setup.
+1. You'll sign in with your work account and complete setup.
    
-1. Come back and select next on the screen. 
+1. You'll come back and select next on the screen. 
    
 1. You require MFA to access Teams and the web is experience is being access on a device that requires MFA. 
 
