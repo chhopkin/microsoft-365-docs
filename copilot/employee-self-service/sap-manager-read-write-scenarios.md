@@ -565,7 +565,7 @@ After adding field to template configuration, it must update the `modelResponse`
 
 :::image type="content" source="media/adaptive-cards-fields.png" alt-text="A screenshot of a JSON with a highlighted LookUp function." lightbox="media/adaptive-cards-fields.png":::
 
-The adaptive card “label” property is set by the value stored in the pared label variable. The “value” property is set using the `var_veteranInfo` variable, which stores the parsed user data.
+The adaptive card “label” property is set by the value stored in the parsed label variable. The “value” property is set using the `var_veteranInfo` variable, which stores the parsed user data.
 
 If another input type to be added to the adaptive card to collect data for another field, then use the following input control code:
 
