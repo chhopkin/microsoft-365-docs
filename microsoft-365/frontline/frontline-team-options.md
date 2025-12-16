@@ -8,7 +8,7 @@ ms.topic: how-to
 audience: admin
 ms.service: microsoft-365-frontline
 search.appverid: MET150
-description: Learn whether dynamic teams or static teams are the best option for your organization's frontline teams. 
+description: Learn whether flexible teams or static teams are the best option for your organization's frontline teams. 
 ms.localizationpriority: medium
 ms.collection: 
   - M365-collaboration
