@@ -122,9 +122,9 @@ You can ignore this step if SSO is already established for SAP SuccessFactors wi
 
 #### High-level overview
 
-1. [Establish a *Microsoft Enterprise application*.](#create-a-microsoft-entra-id-enterprise-application).
-2. [Create an *OAuth 2.0 Client Application* in SuccessFactors.](#create-an-oauth-20-client-application-in-successfactors).
-3. [Configure *SAML* settings within the Enterprise application.](#configure-enterprise-application).
+1. [Establish a *Microsoft Enterprise application*.](#create-a-microsoft-entra-id-enterprise-application)
+2. [Create an *OAuth 2.0 Client Application* in SuccessFactors.](#create-an-oauth-20-client-application-in-successfactors)
+3. [Configure *SAML* settings within the Enterprise application.](#configure-enterprise-application)
 4. Obtain the Enterprise application's *SAML Certificate*.
 5. Upload the SAML certificate to your OAuth 2.0 client application within SuccessFactors.
 6. [Establish trust](#configure-successfactors-to-trust-microsoft-entra-id).
