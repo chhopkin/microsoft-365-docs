@@ -50,3 +50,5 @@ Cross-cloud tenant-to-tenant migration isn't supported. An example scenario woul
 - Received voicemails are available in Teams if you call voicemail and listen to saved messages (Voicemails received in the source tenant are available as saved messages).
 - Received voicemails aren't available in the Teams client UI in target post-migration.
 - The voicemail greeting also migrates to the target.
+
+For more troubleshooting guidance, see [Resolve orchestrated migration errors](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors).
