@@ -101,6 +101,14 @@ For full OneDrive account and SharePoint site restores, the fastest recovery hap
 
 All restore points and restores to new URLs are relatively fast, but same URL restores using a recommended express restore point will typically yield better results. The Exchange Online restore workflow doesn't have or require the "faster" restore points.
 
+We have a number of restore capabilities depending on the scenario, each optimized for that scenario. The restore is not dependent on the amount of data, rather the number of sites and the type of restore point chosen.
+
+1. Single or subsite file restore needed: Use the granular folder/file restore option (public preview as of Dec 2025). These restores should take only a couple of mins.
+
+1. Small site restore: Use one of the daily fast restore points recommended in the UI. This will restore full sites smaller than ~1TB in under 20 mins.
+
+1. Large many site restores: Use our fast or standard restore points. It may take a few hours to "warm up," but will then execute very quickly. Overall this will be very fast as per our performance outline in the perf table below.
+
 The following table summarizes expected performance for a normally distributed tenant, including tenants of large size and scale.
 
 |Protection units  |OneDrive and SharePoint  |Exchange Online  |

@@ -17,6 +17,7 @@ ms.collection:
 - m365initiative-externalcollab
 ms.custom:
 - seo-marvel-apr2020
+- m365-solutions-doc-set
 - seo-marvel-jun2020
 ms.localizationpriority: medium
 f1.keywords: NOCSH

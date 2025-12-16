@@ -18,7 +18,9 @@ ms.collection:
 - m365solution-remotework
 - m365solution-overview
 - M365initiative-coredeploy
-ms.custom: seo-marvel-jun2020
+ms.custom:
+- seo-marvel-jun2020
+- m365-solutions-doc-set
 keywords: work from home, work-from-home, hybrid, remote worker, hybrid work, remote employees, hybrid connectivity, remote access, telecommuting, telework, teleworking, mobile work, remote job, work from anywhere, flexible workplace
 description: Step through the layers of infrastructure so your hybrid workers can securely access on-premises and Microsoft 365 resources.
 ---

@@ -340,6 +340,11 @@ During the Workday Extension Pack installation process, you're prompted for the 
 
 The user accounts mentioned in the table under "Expected connection user account" should be available in Entra for SSO and use the respective accounts in UPN format (example: `ISSG_WQL_COPILOT@contoso.com`). Ensure that each connection is explicitly set up with its own account even though the connection status turned green after the first connection setup.
 
+The examples above are for use in Entra. If you choose to create accounts in Workday with Basic Auth, use the following format:
+
+ - ISSG_WQL_COPILOT@WorkdayTenantName
+ - ISSG_Generic_COPILOT@WorkdayTenantName
+
 #### Step 5: Environment variables
 
 1. After you install the Workday extension, select **Solutions** in the left navigation in Copilot Studio.
