@@ -29,7 +29,7 @@ Microsoft 365 is expanding its integration with AI models within Copilot, allowi
 
 ## Before you begin
 
-To use Word, Excel, and PowerPoint Agents, you require a Microsoft 365 Copilot license with [Frontier features](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7) enabled. Additionally, Administrators should be opted in to the Frontier program.
+To use Word, Excel, and PowerPoint Agents, you require a Microsoft 365 Copilot license with [Frontier features](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7) enabled.
 
 ## Admin enablement and controls  
 
@@ -61,7 +61,7 @@ For more information, see [Anthropic as a subprocessor](connect-to-ai-subprocess
 
 Word, Excel, and PowerPoint Agents can access organizational data for users with a Copilot license. These agents use Microsoft Graph to retrieve information from files, emails, meetings, and sites that you personally have permission to access, similar to other Copilot experiences.
 
-Microsoft ensures secure handling of data, when integrating with reasoning models. Microsoft performs all searches, and only relevant context is shared with the reasoning model. So the data provided is limited to what you are authorized to view, with sensitivity labels and compliance policies fully respected.
+Microsoft ensures secure handling of data, when integrating with AI models. Microsoft performs all searches, and only relevant context is shared with the reasoning model. So the data provided is limited to what you are authorized to view, with sensitivity labels and compliance policies fully respected.
 
 Generated content is stored securely in OneDrive. All documents created by these agents are saved within your organization's tenant, maintaining governance and compliance standards.
 
