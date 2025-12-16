@@ -16,20 +16,20 @@ manager: viseshag
 # Set up frontline Teams on personal devices
 
 > [!NOTE]
-> This feature is currently in public preview. For updates, please refer to the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?id=523213). 
+> This feature is currently in public preview. For updates, refer to the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?id=523213). 
 
 > [!NOTE]
 > Use a new test user account to evaluate this feature and validate your organization’s first-time setup experience.
 
 ## Overview
 
-The frontline Teams onboarding experience helps frontline workers set up Teams on their personal devices. This onboarding experience is available on the web and is intended for use on a desktop kiosk or shared PC at your work site. The steps in the wizard update dynamically based on the security policies defined in your organization. If your policies change over time, the wizard adapts automatically.
+The frontline Teams onboarding experience helps frontline workers set up Teams on their personal devices. This onboarding experience is available on the web and is intended for use on a desktop kiosk or shared PC at your work site. The steps in the wizard update dynamically based on the security policies defined in your organization. If your policies change over time, the experience adapts automatically.
 
 ## Scenarios supported
 
 - You want to set up Microsoft Teams on a personal device. Supported devices include Android and iOS.
 
-- MFA is required to access Teams on a personal device. The wizard optimizes for setting up Authenticator push notifications as the primary MFA method.
+- MFA is required to access Teams on a personal device. The  optimizes for setting up Authenticator push notifications as the primary MFA method.
 
 - App protection or configuration policies are enforced to access Teams on a personal device.
 
@@ -64,7 +64,7 @@ Reset your default password if prompted.
 
 ## Step 2: download required apps
 
-You may need to download additional apps such as Microsoft Authenticator and/or Company Portal based on your organization’s security policies. Below are the scenarios you may encounter:
+You could need to download additional apps such as Microsoft Authenticator and/or Company Portal based on your organization’s security policies. Below are the scenarios you could encounter:
 
 #### Multifactor authentication (MFA)
 
@@ -110,7 +110,7 @@ You may need to download additional apps such as Microsoft Authenticator and/or 
 
 If your organization uses app protection policies, app configuration policies, and/or conditional access policies with Microsoft Teams, you might need the Company Portal app on your device.
 
-- If you have an iOS device, you won't see this step.
+- If you have an iOS device, you will not see this step.
 
 - If you have an Android device, you'll see a screen to download Company Portal.  
 
@@ -118,7 +118,7 @@ If your organization uses app protection policies, app configuration policies, a
   
 #### Download Microsoft Teams
 
-Next, you'll see a screen to download Microsoft Teams.
+Next, you will see a screen to download Microsoft Teams.
 
 - Scan the QR code with your mobile phone to download Microsoft Teams.
 
@@ -138,10 +138,10 @@ Next, you'll see a screen to download Microsoft Teams.
 
 ## FAQ
 
-Q: Will this feature help me enroll my device in Intune?
+Q: Can this experience help me enroll my device in Intune?
 
-A: No. This feature doesn't guide you through the device enrollment process. Please follow the steps on your mobile phone.
+A: No. This feature doesn't guide you through the device enrollment process. Follow the steps on your mobile phone.
 
 Q: Can I go backward in the setup experience?
 
-A: It’s recommended to move forward in the setup experience. Navigating backward may cause errors.
+A: You should always move forward in the setup experience. Navigating backward can cause errors.
