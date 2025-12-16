@@ -29,7 +29,7 @@ Microsoft 365 is expanding its integration with AI models within Copilot, allowi
 
 ## Before you begin
 
-To use Word, Excel, and PowerPoint Agents, you require a Microsoft 365 Copilot license with [Frontier features](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7) enabled.
+To use [Word, Excel, and PowerPoint Agents](wordexcelppt-agents.md), you require a Microsoft 365 Copilot license with [Frontier features](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7) enabled.
 
 ## Admin enablement and controls  
 
