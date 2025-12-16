@@ -73,7 +73,6 @@ Feedback mechanisms exist for reporting inaccuracies or inappropriate content; s
 
 ## Related content
 
-- [Connect to Anthropic's AI models](connect-to-ai-models.md)
 - [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7)
 - [Support article](https://support.microsoft.com/topic/76691f5e-bb19-4029-a34d-33a00e0a0c4f)
 - [Word, Excel, and PowerPoint Agents FAQ](faq-wordexcelppt-agents.yml)
