@@ -15,6 +15,7 @@ ms.collection:
 - m365solution-collabgovernance
 ms.custom: 
 - M365solutions
+- m365-solutions-doc-set
 f1.keywords: NOCSH
 recommendations: false
 description: Learn how to create your collaboration governance plan

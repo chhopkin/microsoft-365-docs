@@ -1,8 +1,8 @@
 ---
 title: "Configure apps using Microsoft Intune"
-ms.author: erikre
-author: erikre
-manager: dougeby
+ms.author: nwhite
+author: nicholasswhite
+manager: laurawi
 audience: ITPro
 ms.topic: how-to
 ms.date: 04/21/2025
@@ -12,7 +12,7 @@ ms.localizationpriority: high
 ms.collection:
 - highpri
 - m365solution-overview
-ms.custom:
+ms.custom: m365-solutions-doc-set
 keywords:
 ---
 

@@ -38,7 +38,7 @@ sections:
   - name: Administration and controls
     questions:
       - question: "How can administrators disable the Researcher agent?"
-        answer: " You can disable Researcher agent for all users in the tenant or disable all Copilot agents (including Researcher) for specific users by turning off Copilot Extensibility. Researcher agent can't be selectively blocked for an individual user or group. See [Manage Microsoft 365 Copilot agents in the Microsoft 365 admin center.](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps)"
+        answer: "Researcher is a first-party Microsoft experience built on the same foundation as Microsoft 365 Copilot, operating entirely within the Microsoft 365 commercial data processing boundary. This tool inherits all existing security, privacy, and compliance commitments that apply across the suite of Microsoft 365 products. Researcher is part of the core default experience for Microsoft 365 Copilot licensed users. This tool will remain accessible in Microsoft 365 Copilot Chat under **Tools**, even when Copilot agents are disabled for some or all users in Microsoft 365 admin center. In addition, admins can block Researcher and Analyst agents. For related information, see [Manage Microsoft 365 Copilot agents in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps) and [Agent settings in Microsoft 365 admin center](/microsoft-365/admin/manage/agent-settings)."
       - question: "How can users disable Researcher?"
         answer: "Users can't disable Researcher agent."
       - question: "If the Researcher Agent is automatically enabled (and even pre-pinned) for users, can an individual user remove or hide it?"

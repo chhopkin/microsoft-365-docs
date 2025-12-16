@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.reviewer: smithk, ramagane
 audience: Admin
 ms.topic: end-user-help
@@ -15,15 +15,14 @@ ms.collection:
 - Tier1
 - scotvorg
 - M365-subscription-management
-- operations-pod
 ms.custom:
 - commerce_ssp
 - AdminSurgePortfolio
 - admindeeplinkMAC
-search.appverid:
-- MET150
+service.tree.id: 89d497da-847a-4f93-b7cd-1eb2bdc1d8a3
+search.appverid: MET150
 description: "Users can learn how to manage their self-service purchases in the Microsoft 365 admin center."
-ms.date: 04/15/2025
+ms.date: 11/09/2025
 ---
 
 # Manage self-service purchases and trials (for users)

@@ -1,8 +1,8 @@
 ---
 title: "Manage app licenses used in Intune"
-ms.author: erikre
-author: erikre
-manager: dougeby
+ms.author: nwhite
+author: nicholasswhite
+manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.date: 04/21/2025
@@ -11,7 +11,7 @@ ms.service: m365-planning
 ms.localizationpriority: high
 ms.collection:
 - highpri
-ms.custom:
+ms.custom: m365-solutions-doc-set
 keywords:
 ---
 

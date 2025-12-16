@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.reviewer: smithk, ramagane
 audience: Admin
 ms.topic: how-to
@@ -16,7 +16,6 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_billing
 - okr_SMB
@@ -24,8 +23,8 @@ ms.custom:
 - admindeeplinkMAC
 - GAUpdates
 - campaignIDs-batch1
-search.appverid:
-- MET150
+service.tree.id: 89d497da-847a-4f93-b7cd-1eb2bdc1d8a3
+search.appverid: MET150
 description: "Learn how to manage who receives billing notification emails and invoice attachments in the Microsoft 365 admin center."
 ms.date: 11/03/2025
 ---

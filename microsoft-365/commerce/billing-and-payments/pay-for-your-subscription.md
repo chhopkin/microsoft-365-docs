@@ -17,7 +17,7 @@ ms.collection:
 - highpri
 - M365-subscription-management
 - Adm_O365
-- operations-pod
+service.tree.id: 3b35c9b8-bf14-4e4a-bc0d-21055e56b28c
 search.appverid: MET150
 ms.custom:
 - commerce_billing

@@ -1,6 +1,6 @@
 ---
 title: Implementing VPN split tunneling for Microsoft 365
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 03/21/2025
