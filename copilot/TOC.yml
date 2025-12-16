@@ -259,11 +259,11 @@ items:
         items:
         - name: Manage agent permissions
           href: /microsoft-365/admin/manage/manage-agents-permissions?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json   
-        - name: Manage Copilot Studio (lite) agents
+        - name: Manage Agent Builder agents
           items:
           - name: Manage shared agents
             href: /microsoft-365/admin/manage/manage-shared-agents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json 
-        - name: Manage Copilot Studio (full) agents
+        - name: Manage Copilot Studio agents
           items:
           - name: Manage requested agents
             href: agent-essentials/agent-lifecycle/agent-copilot-studio-requested.md
@@ -303,11 +303,11 @@ items:
           items:
           - name: Create agents using SharePoint
             href: https://support.microsoft.com/office/create-a-sharepoint-agent-d16c6ca1-a8e3-4096-af49-67e1cfdddd42?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json 
-          - name: Copilot Studio (lite)
+          - name: Agent Builder
             items:
-            - name: Copilot Studio (lite) agents overview
+            - name: Agent Builder agents overview
               href: /microsoft-365-copilot/extensibility/copilot-studio-lite?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
-            - name: Build Copilot Studio (lite) agents
+            - name: Build Agent Builder agents
               href: /microsoft-365-copilot/extensibility/copilot-studio-lite-build?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
             - name: Share and manage agents
               href: /microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json#share-the-agent
@@ -317,9 +317,9 @@ items:
               href: /microsoft-365-copilot/extensibility/copilot-studio-lite-build?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json#add-knowledge-sources
             - name: Add capabilities to an agent
               href: /microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json#add-capabilities
-          - name: Copilot Studio (full)
+          - name: Copilot Studio
             items:
-            - name: Create agents using Copilot Studio (full)
+            - name: Create agents using Copilot Studio
               href: /microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
             - name: Understand ALM when building agents
               href: /power-platform/alm?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
