@@ -37,6 +37,8 @@ The SharePoint storage report provides an overview of your tenant’s storage us
 
 ## View SharePoint storage report
 
+For information about what permissioms are needed to view the report, see [Who can see reports](activity-reports.md#who-can-see-reports).
+
 To view the SharePoint storage report, perform the following steps:
 
 1. In the Microsoft 365 admin center, go to **Reports > Usage**. The **Usage** page appears.

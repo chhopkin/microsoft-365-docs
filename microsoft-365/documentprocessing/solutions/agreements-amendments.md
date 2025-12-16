@@ -22,7 +22,7 @@ description: Learn how to manage attachments in the SharePoint Agreements soluti
 
 Amendments are documents added to signed, active agreements that modify the original parent agreement. Amendments can be used to alter content or field values of the signed agreement, including updating contact owners, changing payment terms, adding additional clauses, or extending the duration of the agreement. Users can amend an agreement by uploading a signed amendment PDF to the original agreement.
 
-From the Agreements app in Microsoft Teams, on the **Agreements list** page, you can see that agreements with amendments have a populated **Amended** column with its most recent amendment effective date. Additionally, in the **Details** pane, field values that have been altered by amendments have a tooltip indicator containing the effective date of the amendment that has altered the values.
+From the Agreements app in Microsoft Teams, on the **Agreements list** page, you can see that agreements with amendments have a populated **Amended** column with its most recent amendment effective date. Additionally, in the **Details** pane, field values altered by amendments have a tooltip indicator containing the effective date of the amendment that altered the values.
 
 ![A screenshot of the agreement viewer page showing the effective date tooltip.](../../media/content-understanding/agreements-amendments1.png)
 
@@ -46,7 +46,7 @@ To add an attachment, follow these steps:
 
 7. Input the required amendment effective date field value.
 
-8. Modify any agreement details that have been altered by the uploaded amendment.
+8. Modify any agreement details altered by the uploaded amendment.
 
 9. Select **Save** to add the amendment to the selected agreement.
 

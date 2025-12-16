@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 11/18/2025
+ms.date: 12/10/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -41,6 +41,11 @@ search.appverid:
 Microsoft 365 Copilot combines the power of large language models with your data and apps in Microsoft 365. It captures natural language commands to produce content and analyze data. It enables access to and use of other apps, such as Jira, [Dynamics 365](/microsoft-365-copilot/extensibility/overview-business-applications), or Bing Web Search.
 
 You can manage agents for Copilot by using the [Microsoft 365 admin center](https://admin.microsoft.com/). You can enable, disable, assign, block, or remove agents for your organization, and manage Copilot capabilities.
+
+> [!NOTE]
+> Researcher and Analyst are first-party Microsoft experiences built on the same foundation as Microsoft 365 Copilot, operating entirely within the Microsoft 365 commercial data processing boundary. These tools inherit all existing security, privacy, and compliance commitments that apply across the suite of Microsoft 365 products. These tools are available in Microsoft 365 Copilot Chat under **Tools** and can be invoked by the user anytime. While Researcher and Analyst coexist with agents and abide by all the agent-related governance capabilities, Researcher and Analyst are part of the core Copilot chat experience and will not fall under any agent-related settings. For related information, see [Agent settings in Microsoft 365 admin center](/microsoft-365/admin/manage/agent-settings).
+> 
+> Microsoft Agent 365 is the control plane for AI agents, empowering your organization to confidently deploy, govern, and manage all your agents at scale, regardless of where these agents are built or acquired. For more information, see [Overview of Microsoft Agent 365](/microsoft-agent-365/overview) and [Microsoft Agent 365 documentation](/microsoft-agent-365/).
 
 ## Overview
 
@@ -99,3 +104,4 @@ You can manage agents in the [Microsoft 365 admin center](https://admin.microsof
   - [Manage agent instances in Microsoft 365 admin center](manage-agent-instances.md).
   - [Manage Connected Agents for Researcher in the Microsoft 365 admin center](manage-connected-agents-for-researcher.md).
 - [Manage Tools for Agent 365 in the Microsoft 365 admin center](manage-tools-for-agent.md)
+- [Overview of Microsoft Agent 365](/microsoft-agent-365/overview)
