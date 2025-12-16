@@ -843,9 +843,11 @@ For more information, see [Overview of the Tenants page in Microsoft 365 Lightho
 
 <a name='exchange-online-protection-and-microsoft-365-defender-for-office-365-default-baseline-step'></a>
 
-### Default baseline step for default email protections for cloud mailboxes and for Microsoft Defender for Office 365
+<a name='default-baseline-step-for-default-email-protections-for-cloud-mailboxes-and-for-microsoft-defender-for-office-365'></a>
 
-We've added a new step to the default baseline to include guidance for enabling Threat Policies for the default email protections for cloud mailboxes and Microsoft Defender for Office 365. These policies help protect users from spam, phishing, and malware by sending the email to quarantine or the user's Junk Email folder (coming soon). The deployment plan guides you in setting the required threat polices, further expanding your security stance during your next customer tenant deployment plan review.
+### Default baseline step for the built-in security features for all cloud mailboxes and for Microsoft Defender for Office 365
+
+We've added a new step to the default baseline to include guidance for enabling Threat Policies for the built-in security features for all cloud mailboxes and Microsoft Defender for Office 365. These policies help protect users from spam, phishing, and malware by sending the email to quarantine or the user's Junk Email folder (coming soon). The deployment plan guides you in setting the required threat polices, further expanding your security stance during your next customer tenant deployment plan review.
 
 ### Default tenant tags
 
