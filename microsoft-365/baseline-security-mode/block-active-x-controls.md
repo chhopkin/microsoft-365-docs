@@ -3,8 +3,8 @@ title: "Block ActiveX controls in Microsoft 365 apps"
 description: Use the Microsoft 365 admin center, Office Group policies or registry keys to block ActiveX controls from running in your Microsoft 365 organization.
 author: kwekuako
 ms.author: kwekua  
-manager: dansimp
-ms.date: 06/24/2025  
+manager: scotv
+ms.date: 12/11/2025  
 ms.topic: how-to
 ms.service: microsoft-365-admin
 ms.localizationpriority: medium
@@ -28,7 +28,7 @@ If you have turned on this setting but need to revert to the default behavior (a
 
 ## Turn off setting in the Microsoft 365 admin center
 
-1. Go to the Microsoft 365 admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.cloud.microsoft</a> and select Org settings.
+1. Go to the Microsoft 365 admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.cloud.microsoft</a> and select **Org settings**.
 1. Select Baseline Security Mode, find the **Block ActiveX controls in the Microsoft 365 apps** setting, and switch the toggle to **Off**.
 
 ## Use Office Cloud Policy service
