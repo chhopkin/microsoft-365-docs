@@ -32,7 +32,7 @@ items:
         href: flw-setup-microsoft-365.md
       - name: Start a pilot for your frontline workers
         href: startafrontlinepilot.md
-      - name: Choosing between dynamic and static frontline teams
+      - name: Choosing between flexible and static frontline teams
         href: frontline-team-options.md
       - name: Deploy frontline teams with flexible membership
         href: deploy-flexible-membership-teams-at-scale.md
