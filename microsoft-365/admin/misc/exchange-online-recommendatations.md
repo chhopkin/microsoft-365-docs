@@ -22,7 +22,7 @@ description: "Recommendations for how to use Exchange Online to get the most out
 
 Exchange Online is a messaging solution that delivers email, calendar, contacts, and tasks from PCs, the web, and mobile devices.
 
-Use Exchange Online to set up multiple professional business email addresses, including shared addresses. Migrate emails from your old service and set up mail flow rules, block domains, set up informative notes, and troubleshoot email delivery problems. The built-in security features for all cloud mailboxes protect against spam, phishing, and malware.
+Use Exchange Online to set up multiple professional business email addresses, including shared addresses. Migrate emails from your old service and set up mail flow rules, block domains, set up informative notes, and troubleshoot email delivery problems. [The built-in security features for all cloud mailboxes](/defender-office-365/eop-about) protect against spam, phishing, and malware.
 
 Exchange Online gives you **professional business email capability** by providing you with a 50\~100 GB storage capacity mailbox and anywhere access to your emails.
 
