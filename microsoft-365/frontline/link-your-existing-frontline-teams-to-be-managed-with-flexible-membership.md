@@ -62,6 +62,14 @@ Existing team members are not removed when you link teams. Monitor usage of Team
 
 ![Link status shows the last linked date and you can select Deploy to link more teams.](/microsoft-365/frontline/microsoft-365/frontline/media/link-complete1.png)
 
+## Troubleshooting
+
+1. To unlink a team from a location, download the CSV template and remove the team ID associated to a previously linked team and leave the cell blank.
+1. To relink a new team to a location, download the CSV template and replace the team ID associated to a previously linked team with a new team ID.
+1. To stop syncing membership from a location to a linked team, set the **FlexibleMembership** column with the associated team to FALSE.
+
+1. Re-upload the CSV once you are done making changes.
+
 ## Get analytics on frontline teams usage
 
 The [Teams frontline usage report](/microsoft-365/frontline/frontline-usage-report) on the usage dashboard of the Manage frontline teams page gives you an overview of usage activity in Teams for each of your frontline locations. You can view data, such as the number of active users, last activity date, active users on Walkie Talkie, etc. to quickly see how many users at your frontline locations are using Teams to communicate and collaborate.
