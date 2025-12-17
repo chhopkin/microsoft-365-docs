@@ -30,8 +30,6 @@ As an admin, you can now connect with your organization through customized messa
 
 To get started, go to [organizational messages in the Microsoft 365 admin center](https://aka.ms/organizationalmessagesportal).
 
-
-
 > [!Note]
 > As of November 18, 2025 Organizational Messages now includes two powerful new capabilities available in Public Preview. <br><br>
 > **Email Messages**: Admins can now deliver premade templatized messages by email, joining existing surfaces like Windows Spotlight, Task Bar, Notification Center, and Teams Popovers. For the initial Public Preview, there are 8 premade email templates available: 2 welcome messages for *Welcome to Copilot*, and *Welcome to Copilot Chat*, plus 6 templates from the *Great M365 Copilot Journey* that highlight features and best practices to help drive Copilot onboarding and adoption.<br><br>
@@ -154,12 +152,12 @@ If you have the Organizational Messages Writer Microsoft Entra role as described
 
 5. This takes you directly into the creation wizard where you can continue the creation of this draft message, once again sending for approval to return the message to approvers for review.
 
-> [!NOTE]
->
-> - Fully customized messages require an approver to ‘approve’ any message before delivery to your users. However, selecting a premade message doesn't require any approval from your organization before it can be delivered to end users.
-> - Approvers can't approve or reject a message that they personally created.
-> - ‘Rejecting’ a message marks the message state as 'Rejected', requiring an author to ‘Withdraw’ the message and then ‘Modify’ the new draft.
-> - Messages that aren't reviewed (such as, approved, or rejected) by approvers before the set 'End date' of the message will automatically be rejected by the system to ensure minimum duration of delivery of messages are as expected by authors.
+    > [!NOTE]
+    >
+    > - Fully customized messages require an approver to ‘approve’ any message before delivery to your users. However, selecting a premade message doesn't require any approval from your organization before it can be delivered to end users.
+    > - Approvers can't approve or reject a message that they personally created.
+    > - ‘Rejecting’ a message marks the message state as 'Rejected', requiring an author to ‘Withdraw’ the message and then ‘Modify’ the new draft.
+    > - Messages that aren't reviewed (such as, approved, or rejected) by approvers before the set 'End date' of the message will automatically be rejected by the system to ensure minimum duration of delivery of messages are as expected by authors.
 
 ## Create a message
 
@@ -231,7 +229,7 @@ This advanced targeting in organizational messages can be enabled using the foll
 
 1. Go the Manage experience and find a message you want to use as a starting point.
 
-2. Select **Copy** function.
+2. Select the **Copy** function.
 
 3. You're immediately placed within the creation wizard with relevant elements from the previous message copied over.
 
@@ -254,7 +252,7 @@ The message creation experience for an urgent message is similar to the flow for
 - Only Microsoft Entra (formerly Azure Active Directory) group targeting can be used.
 - No Start/End dates nor frequency configurations are available as urgent messages are sent once as soon as possible.
 
-:::image type="content" source="../../media/OM-urgentMessages_annotated.png" alt-text="Screenshot that highlights the button to send an urgent message." lightbox="../../media/OM-urgentMessages_annotated.png":::
+  :::image type="content" source="../../media/OM-urgentMessages_annotated.png" alt-text="Screenshot that highlights the button to send an urgent message." lightbox="../../media/OM-urgentMessages_annotated.png":::
 
 ## Review activity
 
@@ -319,8 +317,8 @@ To make policy changes on your tenant using Intune, your admin should:
 1. Make sure to adjust these policies in all new and existing policies that are targeted at end users and devices that might receive organizational messages.
 1. Enable Organizational Messages Policy.
 
-  > [!NOTE]
-  > This policy is required for devices running [Windows](https://support.microsoft.com/topic/november-29-2022-kb5020044-os-build-22621-900-preview-43f0bdf9-0b75-4110-bab3-3bd2433d84b3), [version 22H2](https://support.microsoft.com/topic/november-29-2022-kb5020044-os-build-22621-900-preview-43f0bdf9-0b75-4110-bab3-3bd2433d84b3), [build 10.0.19045.4842](https://support.microsoft.com/topic/august-29-2024-kb5041582-os-build-19045-4842-preview-f4c4d191-5457-475c-80ac-e1d43cf9c941), [build 10.0.22621.900](https://support.microsoft.com/topic/november-29-2022-kb5020044-os-build-22621-900-preview-43f0bdf9-0b75-4110-bab3-3bd2433d84b3) and later. If you don't enable this policy, these devices can't receive organizational messages.
+   > [!NOTE]
+   > This policy is required for devices running [Windows](https://support.microsoft.com/topic/november-29-2022-kb5020044-os-build-22621-900-preview-43f0bdf9-0b75-4110-bab3-3bd2433d84b3), [version 22H2](https://support.microsoft.com/topic/november-29-2022-kb5020044-os-build-22621-900-preview-43f0bdf9-0b75-4110-bab3-3bd2433d84b3), [build 10.0.19045.4842](https://support.microsoft.com/topic/august-29-2024-kb5041582-os-build-19045-4842-preview-f4c4d191-5457-475c-80ac-e1d43cf9c941), [build 10.0.22621.900](https://support.microsoft.com/topic/november-29-2022-kb5020044-os-build-22621-900-preview-43f0bdf9-0b75-4110-bab3-3bd2433d84b3) and later. If you don't enable this policy, these devices can't receive organizational messages.
     
 1. Go to **Settings catalog** > **Experience** > **Enable delivery of organizational messages (User)**.
 1. To enable delivery of organizational messages, switch the toggle to **Enabled**.
