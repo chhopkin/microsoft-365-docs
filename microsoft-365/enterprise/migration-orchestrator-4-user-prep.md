@@ -3,7 +3,7 @@ title: Preparing users for cross-tenant migration with orchestrator
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 12/01/2025
+ms.date: 12/11/2025
 recommendations: true
 audience: ITPro
 ms.topic: upgrade-and-migration-article
@@ -65,7 +65,9 @@ New-MailUser -PrimarySmtpAddress username@targettenant.com -MicrosoftOnlineServi
 
 If the source users aren't already added into the mail-enabled security group you created before, this addition must be done before Identity Mapping is complete. You can do it manually in the Microsoft 365 admin center, or in PowerShell using the following command:
 
-`Add-DistributionGroupMember -Identity "DistributionGroupName" -Member "UserEmailAddress"`
+```powershell
+Add-DistributionGroupMember -Identity "DistributionGroupName" -Member "UserEmailAddress"
+```
 
 ## Run Identity Mapping
 
@@ -86,3 +88,7 @@ For full support, we recommend mapping all migrating users, guests, or groups th
 - You should [disable OneDrive site creation](/sharepoint/restricted-site-creation) for target users as soon as you create those users to prevent a OneDrive site from being provisioned.
 - Either the source or the target user needs a Cross-Tenant Data Migration license.
 - The assigning of a Teams license should assign the user a SIP domain. If you see issues relating to a user not having a SIP domain, you can assign one manually using [Set-CsUser](/powershell/module/microsoftteams/set-csuser?view=teams-ps&preserve-view=true). The tenant's SIP Domain can be found using [Get-CsOnlineSIPDomain](/powershell/module/microsoftteams/get-csonlinesipdomain?view=teams-ps&preserve-view=true).
+
+## Next steps
+
+For information on running the migration after preparing users, see [Running the migration](migration-orchestrator-5-running-migration.md).

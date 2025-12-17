@@ -3,7 +3,7 @@ title: Running a migration with the migration orchestrator
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 12/01/2025
+ms.date: 12/11/2025
 recommendations: true
 audience: ITPro
 ms.topic: upgrade-and-migration-article
@@ -35,7 +35,7 @@ Running a validation batch results in either:
 Admins can review the list for any failures, fix any issues, and resubmit using a new batch to confirm success.
 
 > [!NOTE]
-> The list of errors may not be exhaustive. Admins should run validation and fix errors until all prerequisites are met and there are no failures.
+> The list of errors might not be exhaustive. Admins should run validation and fix errors until all prerequisites are met and there are no failures.
 
 When you submit the migration, we do another check of all of the prerequisites, but we don't return a list of the failures per workload.
 
@@ -56,11 +56,11 @@ After all the checks pass for the applicable workloads, Mailbox syncing begins. 
 
 ### Cutover
 
-After the time designated by the CompleteAfterDate passes and the sync completes, the mailboxes cutover to the target tenant. After this point, no cancelations can take place. Users are able to access their mailboxes from the target tenant. Mailboxes don't appear on the source tenant any longer.
+After the time designated by the CompleteAfterDate passes and the sync completes, the mailboxes cutover to the target tenant. After this point, no cancellations can take place. Users are able to access their mailboxes from the target tenant. Mailboxes don't appear on the source tenant any longer.
 
 ### Teams and OneDrive migration
 
-After the mailbox is cutover, the migration of Teams chats, Teams meetings, and OneDrive sites begins. Chats and meetings are migrated into the target tenant. Users may see changes to their source chats as users are added or removed, and chats and meetings begin to appear in the target tenant.
+After the mailbox is cutover, the migration of Teams chats, Teams meetings, and OneDrive sites begins. Chats and meetings are migrated into the target tenant. Users might see changes to their source chats as users are added or removed, and chats and meetings begin to appear in the target tenant.
 
 ### Migration conclusion
 
@@ -73,7 +73,7 @@ For a breakdown of the meanings behind the statuses and errors, see [Batch migra
 There's up to an hour-long delay between when updates are made to the group containing the authorized users for migration and when our system processes those changes. Allow for up to an hour to start the migration after changes are made to the group membership.
 
 > [!NOTE]
-> For additional troubleshooting guidance, see [Resolve orchestrated migration errors](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors).
+> For more troubleshooting guidance, see [Resolve orchestrated migration errors](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors).
 
 ## Commands available to run
 
@@ -107,10 +107,11 @@ body = '{
 "Meeting"
   ]
 }'
-(code) Test-MgBetaCrossTenantMigrationJob -BodyParameter $body 
+Test-MgBetaCrossTenantMigrationJob -BodyParameter $body 
 ```
 
 #### Option 2: Use parameters
+
 ```powershell
 Test-MgBetaCrossTenantMigrationJob -DisplayName "xtmigration1" -CompleteAfterDateTime 2024-12-09T22:48:03.092Z -Resources @("XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX","XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX", "XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX") -ResourceType Users -SourceTenantId XXXXXXX-XXXXXXX-XXXXXXX-XXXXXXX -ExchangeSettings @{SourceEndpoint = "sampleEndpointText"; TargetDeliveryDomain = "DOMAIN.onmicrosoft.com"} 
 ```
@@ -160,32 +161,35 @@ New-MgBetaCrossTenantMigrationJob -DisplayName "xtmigration1" -CompleteAfterDate
 This feature allows you to see all submitted batches. You see both validation and migration batches. It shows active and past migrations.
 
 ```powershell
-Get-MgBetaCrossTenantMigrationJob
+Get-MgBetaCrossTenantMigrationJob | ConvertTo-Json
 ```
-By default, the 20 most recent results will appear. To access more, run the command with the parameter **-All**.
+
+By default, the 20 most recent results appear. To access more, run the command with the parameter **-All**.
 
 ### Retrieve a specific batch
 
 This feature allows you to receive information about a specific batch and its properties.
 
 ```powershell
-Get-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id>
+Get-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> | ConvertTo-Json
 ```
-By default, the 20 most recent results will appear. To access more, run the command with the parameter (code) **-All**.
+
+By default, the 20 most recent results appear. To access more, run the command with the parameter (code) **-All**.
 
 ### Retrieve user status within a specific batch
 
 This feature allows you to receive information about the users within a specific batch. You see the state for each of the workloads. This information includes:
 
-- Exchange 
+- Exchange
 - Teams Chats
 - Teams Meetings
 - OneDrive
 
 ```powershell
-Get-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> -CrossTenantMigrationTaskId  <ExternalDirectoryObjectIds for the target users> 
+Get-MgBetaCrossTenantMigrationJobUser -CrossTenantMigrationJobId <batch display name or job id> -CrossTenantMigrationTaskId <ExternalDirectoryObjectIds for the target users> | ConvertTo-Json -Depth 100
 ```
-By default, the 20 most recent results will appear. To access more, run the command with the parameter **-All**.
+
+By default, the 20 most recent results appear. To access more, run the command with the parameter **-All**.
 
 ### Update the complete after date for a specific batch
 
@@ -194,11 +198,12 @@ This feature allows you to change the complete after date. Moving the date pushe
 ```powershell
 Update-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> -CompleteAfterDateTime <date time to update to>
 ```
+
 Acceptable date and time formats are available on [Standard date and time format](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
 ### Cancel a batch
 
-This feature allows you to cancel an entire batch and all of its users' migrations. It cancels all migrations for users whose mailboxes have not yet cutover. A batch can only be cancelled before the Complete After Date has passed. After this point, the migration will continue without cancellation.
+This feature allows you to cancel an entire batch and all of its users' migrations. It cancels all migrations for users whose mailboxes have not yet cutover. A batch can only be canceled before the Complete After Date has passed. After this point, the migration  continues without cancellation.
 
 ```powershell
 Stop-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> 
@@ -214,7 +219,7 @@ Stop-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display nam
 
 If the removal is successful, you see a 202 Accepted request with the response:
 
-"Cancelation request for user ID: `<XXXX-XXXXX-XXXXX-XXXX>` from batch: `<batch name or batch request ID>` was accepted."
+>Cancellation request for user ID: `<XXXX-XXXXX-XXXXX-XXXX>` from batch: `<batch name or batch request ID>` was accepted.
 
 At this point, the user is removed from the batch, their migration is canceled, and any mailbox syncing that took place is canceled. The user can be added to a new batch. No other user within that batch is affected. The identity mapping isn't edited at all.
 
@@ -222,21 +227,21 @@ If the removal is unsuccessful, here are the possible responses:
 
 1. The User ID provided in the request doesn't exist within the batch provided. This message likely means the admin provided an incorrect User ID and should check it again.
 
-  `"Cancelation not possible as no task found for given ID <User ID> TraceId: <Trace ID>"`
+    >Cancellation not possible as no task found for given ID `<User ID>` TraceId: `<Trace ID>`
 
-2. The batch ID or batch name can't be found in the tenant. This likely means the admin provided an incorrect batch ID or batch name in the cancelation request and should check it again.
+2. The batch ID or batch name can't be found in the tenant. This likely means the admin provided an incorrect batch ID or batch name in the cancellation request and should check it again.
 
-  `"UserRequest not found with <target tenant ID>, <batch ID or batch name> TraceId: <Trace ID>"`
+    >UserRequest not found with `<target tenant ID>`, `<batch ID or batch name>` TraceId: `<Trace ID>`
 
-3. If the cancelation request comes in after the specified completeAfterDate passed, the user's migration can't be canceled and they can't be removed from the batch.
+3. If the cancellation request comes in after the specified completeAfterDate passed, the user's migration can't be canceled and they can't be removed from the batch.
 
-  `"Cancelation is not possible as migration passed completeAfter date TraceId: <Trace ID>"`
+    >Cancellation is not possible as migration passed completeAfter date TraceId: `<Trace ID>`
 
-4. The User Task is invalid, so the user's migration can't be canceled. This means there's a fundamental issue with the user's setup to the point that it wouldn't run within the batch anyway. An issue like this potentially comes from the user not bring Identity Mapped. The impact is that the user can't be migrated, even though they technically belong to the batch. 
+4. The User Task is invalid, so the user's migration can't be canceled. This means there's a fundamental issue with the user's setup to the point that it wouldn't run within the batch anyway. An issue like this potentially comes from the user not being Identity Mapped. The impact is that the user can't be migrated, even though they technically belong to the batch.
 
-  `"Cancelation is not possible as task is invalid TraceId: <Trace ID>"`
+    >Cancellation is not possible as task is invalid TraceId: `<Trace ID>`
 
-  If a removal's unsuccessful (other than in an invalid user state), the user continues belonging to the batch and is migrated.
+    If a removal is unsuccessful (other than in an invalid user state), the user continues belonging to the batch and is migrated.
 
 ### Delete batch data
 
@@ -245,7 +250,8 @@ This feature allows you to delete the data associated with a batch from the migr
 ```powershell
 Remove-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> 
 ```
-Only batches in a terminal state can be cancelled. Either cancel the batch, or wait for all users to reach a terminal state of Cancelled, Failed, or Completed.
+
+Only batches in a terminal state can be canceled. Either cancel the batch, or wait for all users to reach a terminal state of Canceled, Failed, or Completed.
 
 > [!NOTE]
 > Deleting batch data affects future migrations the batch would inform. We don't recommend deleting batch data until the entire migration completes.
@@ -275,12 +281,12 @@ If you don't provide a string, the migration defaults to moving all four workloa
 
 1. Open Microsoft PowerShell.
 2. Install the [Graph SDK](/powershell/microsoftgraph/?view=graph-powershell-bet&preserve-view=truea):
-  - `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
-  - `Install-Module Microsoft.Graph`
+    - `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+    - `Install-Module Microsoft.Graph`
 3. Sign in with target tenant global administrator credentials:
-  - `Connect-Graph`
-4.	Confirm you're in the right tenant:
-  - `Get-MgContext`
+    - `Connect-Graph`
+4. Confirm you're in the right tenant:
+    - `Get-MgContext`
 
 #### Validate the batch
 
@@ -288,42 +294,45 @@ Before submitting a batch for migration, validate that the batch and its users a
 
 See the full list of prerequisites that are checked during validation: [Prevalidation checks](migration-orchestrator-2-planning-prerequisites.md#prevalidation-checks).
 
-See [Validate the batch](#validate-the-batch) for an available list of validation commands to run.
+See [Validate the batch](#submit-a-batch-for-validation) for an available list of validation commands to run.
 
-Get the detailed report of failures and mitigate those failures before retrying at the batch level (see [Retrieve a specific batch](#retrieve-a-specific-batch)) and at the user level (see [Retrive user status within a specific batch](#retrieve-user-status-within-a-specific-batch)).
+Get the detailed report of failures and mitigate those failures before retrying at the batch level (see [Retrieve a specific batch](#retrieve-a-specific-batch)) and at the user level (see [Retrieve user status within a specific batch](#retrieve-user-status-within-a-specific-batch)).
 
-Review the batch status. If it is ValidatePassed, then all prerequisites are met and you can continue to migrate the batch. If it is ValidateFailed, investigate the errors and messages. See [Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors). Fix those issues and run validate on a new batch until all issues are resolved, and the state is ValidatePassed.
-
-#### Make any required changes
-
-If changes need to be made to the migration, like changing the [Complete After Date](#update-the-complete-after-date-for-a-specific-batch), [removing a user from a batch](#remove-a-user-from-a-batch-and-cancel-that-users-migration) , or cancelling a migration, this can be done until a certain point in the migration, as defined in the [batch status table](#batch-migration-description-values).
-
-#### After migration completes
-
-When the migration is completed, you can monitor the results of the batch and user statuses. If any migrations failed, examine the error code and message for any retry instructions. Once users reach a terminal status of 'Cancelled' or 'Failed', they can be added to a new batch to be retried.
+Review the batch status. If it's ValidatePassed, then all prerequisites are met and you can continue to migrate the batch. If it's ValidateFailed, investigate the errors and messages. See [Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors). Fix those issues and run validate on a new batch until all issues are resolved, and the state is ValidatePassed.
 
 ### Submit a migration batch
 
-Submit a batch for migration by using the instructions provided in [Submit a migration batch](#submit-a-batch-for-migration).
+Submit the batch once the validation batch is successful. Using a new batch name, submit the batch:  [Submit a migration batch](#submit-a-batch-for-migration).  
 
-Fix any failures for users with an invalid status when the batch status is ValidateFailed.
-When the validation shows no failures, move on to submit the batch for migration.
+Regularly monitor the migration at the batch level: [Retrieve a specific batch](#retrieve-a-specific-batch) and at the user level: [Retrieve user status within a specific batch](#retrieve-user-status-within-a-specific-batch).
+
+To understand progress, consult the [Batch migration description values table](#batch-migration-description-values).
+
+If there are failures, investigate the errors and messages returned on the user objects:  [Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors). Follow the troubleshooting guidance to mitigate any issues and retry, starting again with validation.
+
+#### After migration completes
+
+When the migration is completed, you can monitor the results of the batch and user statuses. If any migrations failed, examine the error code and message for any retry instructions. Once users reach a terminal status of 'Canceled' or 'Failed,' they can be added to a new batch to be retried.
+
+#### Make any required changes
+
+If changes need to be made to the migration, like changing the [Complete After Date](#update-the-complete-after-date-for-a-specific-batch), [removing a user from a batch](#remove-a-user-from-a-batch-and-cancel-that-users-migration), or [canceling a migration](#cancel-a-batch), this can be done until a certain point in the migration, as defined in the [batch status table](#batch-migration-description-values).
 
 ## Batch migration description values
 
 Use the following table to understand the validation and migration flows and status values:
 
-> [!NOTE] 
+> [!NOTE]
 > For more information about troubleshooting, see See [Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors).
 
 | Status | Description | Workloads |
 | --- | --- | --- |
 | Submitted/Approved/Processing  | The batch is submitted. | [Exchange] NotStarted <BR/> [Teams Chats] NotStarted <BR/> [Teams Meetings] NotStarted <BR/> [OneDrive] NotStarted <BR/> |
-| InProgress | The batch is in progress. This includes checking for prerequisites for all workloads as well as processing the sync for the mailboxes. Batches and user migrations can be cancelled throughout this phase. | [Exchange] Synced/Finalizing/Completed <BR/> [Teams Chats] Synced/InProgress <BR/> [Teams Meetings] Synced/InProgress <BR/> [OneDrive] Synced/InProgress <BR/> |
-| CuttingOver | The batch is cutting over. This means that the mailbox is cutting over or has cut over, and the chats, meetings, and OneDrives are migrating.  <BR/> No cancellations can happen at this point. | [Exchange] Synced/Finalizing/Completed <BR/> [Teams Chats] Synced/InProgress <BR/>[Teams Meetings] Synced/InProgress <BR/> [OneDrive] Synced/InProgress<BR/>|
-| Completed |  The batch is completed without any errors. | [Exchange] Completed <BR/> [Teams Chats] Completed <BR/> [Teams Meetings] Completed <BR/> [OneDrive] Completed <BR/> |
+| InProgress | The batch is in progress, which includes checking for prerequisites for all workloads and processing the sync for the mailboxes. Batches and user migrations can be canceled throughout this phase. | [Exchange] Synced/Finalizing/Completed <BR/> [Teams Chats] Synced/InProgress <BR/> [Teams Meetings] Synced/InProgress <BR/> [OneDrive] Synced/InProgress <BR/> |
+| CuttingOver | The batch is cutting over, which means that the mailbox is cutting over or has cut over, and the chats, meetings, and OneDrive are migrating.  <BR/> No cancellations can happen at this point. | [Exchange] Synced/Finalizing/Completed <BR/> [Teams Chats] Synced/InProgress <BR/>[Teams Meetings] Synced/InProgress <BR/> [OneDrive] Synced/InProgress<BR/>|
+| Completed |  The batch completed without any errors. | [Exchange] Completed <BR/> [Teams Chats] Completed <BR/> [Teams Meetings] Completed <BR/> [OneDrive] Completed <BR/> |
 | CompletedWithErrors  | The batch completed, but with errors. | [Exchange] Completed/Failed <BR/> [Teams Chats] Completed/Failed <BR/> [Teams Meetings] Completed/Failed <BR/> [OneDrive] Completed/Failed <BR/> |
-| Cancelled | The batch is cancelled. |  |
+| Canceled | The batch is canceled. |  |
 | Failed | The batch failed.  |  |
 | PendingCancel | The batch is pending cancellation. |  |
 | PendingDelete | The batch is pending deletion. |  |
@@ -334,6 +343,11 @@ Use the following table to understand the validation and migration flows and sta
 | Status | Description | Workloads |
 | --- | --- | --- |
 |ValidationSubmitted/ValidationProcessing | The validation batch has been submitted. | [Exchange] NotStarted <BR/> [Teams Chats] NotStarted <BR/> [Teams Meetings] NotStarted <BR/> [OneDrive] NotStarted <BR/> |
-| ValidateInProgress |The validation batch is in progress. All applicable workloads will be checked for their prerequisites. | [Exchange] InProgress <BR/> [Teams Chats] InProgress/Valid/Invalid <BR/> [Teams Meetings] InProgress/Valid/Invalid <BR/> [OneDrive] InProgress/Valid/Invalid <BR/> |
-|ValidatePassed/ValidateFailed | The validation batch has completed. It is either passed (no checks failed) or failed (at least one check failed). | [Exchange] Valid/Invalid <BR/> [Teams Chats] Valid/Invalid <BR/> [Teams Meetings] Valid/Invalid <BR/> [OneDrive] Valid/Invalid <BR/> |
+| ValidateInProgress |The validation batch is in progress. All applicable workloads are checked for their prerequisites. | [Exchange] InProgress <BR/> [Teams Chats] InProgress/Valid/Invalid <BR/> [Teams Meetings] InProgress/Valid/Invalid <BR/> [OneDrive] InProgress/Valid/Invalid <BR/> |
+|ValidatePassed/ValidateFailed | The validation batch completed. The batch either passed (no checks failed) or failed (at least one check failed). | [Exchange] Valid/Invalid <BR/> [Teams Chats] Valid/Invalid <BR/> [Teams Meetings] Valid/Invalid <BR/> [OneDrive] Valid/Invalid <BR/> |
 
+## Next steps
+
+For information on what to do after the migration is complete, see [Post-migration tasks for tenant-to-tenant migrations](migration-orchestrator-6-post-migration.md).
+
+For FAQs and troubleshooting regarding the migration orchestrator, see [Migration orchestrator FAQ](migration-orchestrator-8-faq.md).

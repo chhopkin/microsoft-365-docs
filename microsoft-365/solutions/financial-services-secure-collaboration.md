@@ -10,7 +10,9 @@ ms.collection:
 - highpri
 - M365-security-compliance
 ms.service: m365-planning
-ms.custom: seo-marvel-jun2020
+ms.custom:
+- seo-marvel-jun2020
+- m365-solutions-doc-set
 ms.localizationpriority: high
 description: Learn how financial services institutions can maintain financial security compliance and effectively collaborate using Microsoft 365 and Teams.
 f1.keywords: NOCSH

@@ -18,6 +18,7 @@ ms.collection:
 - must-keep
 ms.custom:
 - Ent_Solutions
+- m365-solutions-doc-set
 description: "Optimize the network access to your Microsoft 365 tenants."
 ---
 

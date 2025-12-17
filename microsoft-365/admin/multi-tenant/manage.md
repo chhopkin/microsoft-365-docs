@@ -45,7 +45,7 @@ You need to be a Global Administrator to perform this task.
 
     :::image type="content" source="../../media/macorgswitcher.png" alt-text="Screenshot of Microsoft 365 admin center showing the multitenant switcher interface for managing multiple tenants.":::
 
-- From the **Tenant switcher**, you can move quickly between tenants you manage.
+1. From the **Tenant switcher**, you can move quickly between tenants you manage.
 
     :::image type="content" source="../../media/yourtenantslist.png" alt-text="Screenshot of tenant switcher displaying list of managed tenants with search functionality in Microsoft 365 admin center.":::
 
@@ -79,7 +79,7 @@ The service health view shows you if any incidents or advisories are affecting t
 
    :::image type="content" source="../../media/tenantsaffected.png" alt-text="Screenshot of tenants affected tab showing detailed list of tenants impacted by service health issue.":::
 
-You can export the list of affected tenants to CSV format so that admins can share it with support teams.
+   You can export the list of affected tenants to CSV format so that admins can share it with support teams.
 
 ## View a single tenant in the Microsoft 365 admin center
 

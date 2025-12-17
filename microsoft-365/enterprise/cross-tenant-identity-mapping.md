@@ -63,7 +63,7 @@ An example of supported methods is any currently supported version of Exchange S
 
 ### MailUser object examples
 
-See the following example of a incorrectly configured MailUser (also known as a Mail Enabled User or an MEU) in the target tenant:
+See the following example of an incorrectly configured MailUser (also known as a Mail Enabled User or an MEU) in the target tenant:
 
 |Attribute | Value |
 | --- | --- | 

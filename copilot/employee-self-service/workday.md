@@ -334,16 +334,16 @@ During the Workday Extension Pack installation process, you're prompted for the 
 |Connection reference name |Connection reference ID                      |Expected connection user account |
 |--------------------------|---------------------------------------------|---------------------------------|
 |OAuthUser                 |new_sharedworkdaysoap_ff0df                  |Maker/the signed-in user         |
-|Context Generic User      |new_sharedworkdaysoap_d6081                  |ISU_WQL_COPILOT                 |
-|Generic User              |new_sharedworkdaysoap_0786a                  |ISU_Generic_COPILOT             |
-|Microsoft Dataverse       |msviess_sharedcommondataserviceforapps_92b66 |ISU_WQL_COPILOT                 |
+|Context Generic User      |new_sharedworkdaysoap_d6081                  |ISSG_WQL_COPILOT                 |
+|Generic User              |new_sharedworkdaysoap_0786a                  |ISSG_Generic_COPILOT             |
+|Microsoft Dataverse       |msviess_sharedcommondataserviceforapps_92b66 |ISSG_WQL_COPILOT                 |
 
-The user accounts mentioned in the table under "Expected connection user account" should be available in Entra for SSO and use the respective accounts in UPN format (example: `ISU_WQL_COPILOT@contoso.com`). Ensure that each connection is explicitly set up with its own account even though the connection status turned green after the first connection setup.
+The user accounts mentioned in the table under "Expected connection user account" should be available in Entra for SSO and use the respective accounts in UPN format (example: `ISSG_WQL_COPILOT@contoso.com`). Ensure that each connection is explicitly set up with its own account even though the connection status turned green after the first connection setup.
 
 The examples above are for use in Entra. If you choose to create accounts in Workday with Basic Auth, use the following format:
 
- - ISU_WQL_COPILOT@WorkdayTenantName
- - ISU_Generic_COPILOT@WorkdayTenantName
+ - ISSG_WQL_COPILOT@WorkdayTenantName
+ - ISSG_Generic_COPILOT@WorkdayTenantName
 
 #### Step 5: Environment variables
 
