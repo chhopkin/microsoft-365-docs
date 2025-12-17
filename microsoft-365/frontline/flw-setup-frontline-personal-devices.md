@@ -76,7 +76,7 @@ You could need to download extra apps such as Microsoft Authenticator and/or Com
 
 1. You'll skip the MFA setup step. 
 
-   You require MFA to access Teams and the web is experience is being accessed from a device that doesn't require MFA.
+   You require MFA to access Teams and the web experience is being accessed from a device that doesn't require MFA.
 
       ![Screenshot shows a QR code to download the Microsoft Authenticator app.](media/setup-frontline-teams-on-personal-devices/get-authenticator.png)
    
@@ -88,7 +88,7 @@ You could need to download extra apps such as Microsoft Authenticator and/or Com
    
 1. You'll come back and select next on the screen. 
    
-1. You require MFA to access Teams and the web is experience is being access on a device that requires MFA. 
+1. You require MFA to access Teams and the web experience is being access on a device that requires MFA. 
 
    1. Follow the on-screen steps to set up MFA with the Microsoft Authenticator app in the setup experience.
    
