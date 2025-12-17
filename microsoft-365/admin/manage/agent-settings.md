@@ -103,8 +103,6 @@ To create custom template, follow these steps:
 
 1. Select **Agents** > **Settings** > **Template** > **Add New Template**.
 
-
-
 1. Select the agent that will use the template:
 
    - Agent that allows instances.

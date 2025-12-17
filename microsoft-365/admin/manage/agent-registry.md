@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 11/21/2025
+ms.date: 12/18/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -349,7 +349,6 @@ The default template automatically assigns the Agent 365 license during activati
 - **Compliance Assurance** - Prevents unlicensed usage and maintains entitlement integrity.
 - **Scalable Management** - Supports large-scale deployments without increasing administrative overhead.
 
-
 ### Deploy agents
 
 You can deploy agents across the whole organization or for specific users or groups by using the same gestures and controls that work for any other app in the Microsoft 365 admin center.
@@ -685,3 +684,30 @@ Inventory data is also available programmatically through Graph APIs enabling sc
   - Properties from manifest for declarative agent or custom engine agent.
 
     This metadata makes it easier to audit, manage, and optimize agent management.
+
+## Risks column in the Microsoft 365 admin center Inventory page
+
+The **Risks** column in the Microsoft 365 admin center **Inventory** page provides a clear and consolidated view of an agent's security posture by displaying the total number of active high severity alerts associated with each agent and its underlying instances. It closes a critical visibility gap for IT administrators responsible for governing AI agents.
+
+The count reflects alerts sourced from Microsoft Entra, aggregated into a single, easy to interpret indicator per agent. This experience will expand to include alerts from Microsoft Purview and Microsoft Defender, strengthening cross-Microsoft visibility and enabling more comprehensive governance.
+
+Agents with no active alerts display a value of 0, while those with one or more risks show an aggregated count. These counts allow administrators to quickly identify which agents require attention so that remediation efforts can be prioritized.
+
+When an administrator selects the number shown in the **Risks** column in the Microsoft 365 admin center **Inventory** page, they're taken directly into a detailed flyout panel under the **Security & Compliance** tab. This flyout provides a focused, actionable view of all risks associated with that specific agent.
+
+The panel surfaces each relevant instance under the agent's blueprint, showing the number of alerts per instance and allowing administrators to drill deeper into any instance that requires attention. For blueprints with multiple instances, administrators can see the distribution of risks across each instance. For custom agents, declarative agents the flyout presents all associated risk types immediately.
+
+To support investigation and remediation, the flyout also includes a **Review in Entra** link. This link redirects administrators to the Microsoft Entra portal for additional context and review and if necessary, take further action.
+
+Access is permission based. Global Admins can take corrective actions directly in Microsoft Entra, while Global Readers can view but can't take corrective actions. Other roles won't be able to access the Microsoft Entra page.
+
+### Role-Based Access for the Review in Entra link
+
+| Role | View | Take Action |
+| --- | --- | --- |
+| Global Admin | ✅ | ✅ |
+| Global Reader | ✅ | ❌ |
+| All other roles | ❌ | ❌ |
+
+> [!NOTE]
+> The **Risks** column reflects Microsoft Entra alerts from the past 90 days, consistent with Microsoft Entra's retention policy. Agents that no longer return active alerts—because the underlying alert has aged beyond the 90 day window will appear as blank in the column. As a result, some agents may continue to be marked **at risk** within Microsoft Entra even if no corresponding alert appears in Microsoft 365 admin center's **Risks** column.
