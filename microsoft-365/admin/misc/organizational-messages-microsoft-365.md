@@ -502,7 +502,7 @@ No, not at this time.
 
 ### Our team previously authored messages for the Windows Get Started location within the Organizational messages experience in Intune/Microsoft Endpoint Manager – can we still do that in this experience within Microsoft 365 admin center?
 
-Any Get Started messages that you created in the Organizational messages experience within Intune/Microsoft Endpoint Manager that have not completed can be viewed within the Microsoft 365 admin center experience. However, new Get Started message creation isn't yet supported at this time.
+Any Get Started messages that you created in the Organizational messages experience within Intune/Microsoft Endpoint Manager that haven't completed can be viewed within the Microsoft 365 admin center experience. However, new Get Started message creation isn't yet supported at this time.
 
 ### Are there any premade messages available for the Windows Spotlight location?
 
@@ -514,7 +514,7 @@ Based on customer feedback, organizational messages now deliver to both Windows 
 
 ### My tenant only wants our end users to see messages from us, not Microsoft; how can we do that?
 
-After your admins enable all of the policies described in the previous section on [Setting Tenant Policies](#setting-tenant-policies), you can then go to the ‘Settings’ feature within the Organizational messages in Microsoft 365 admin center portal (top right corner of the landing page), deselect the option “Allow Microsoft messages to display,” and select ‘Save’. This ensures Organizational messages platform sends only your team’s messages to Windows surfaces, like Taskbar.
+After your admins enable all of the policies described in the previous section on [Setting Tenant Policies](#setting-tenant-policies), you can then go to the ‘Settings’ feature within the Organizational messages in Microsoft 365 admin center portal (top right corner of the landing page), deselect the option “Allow Microsoft messages to display,” and select ‘Save’. This ensures Organizational messages platform sends only your team's messages to Windows surfaces, like Taskbar.
 
 ### If my organization only has an Office 365 E3 or E5 license, should I expect to be able to create fully customized messages on Windows locations, like Notifications area or Taskbar? Likewise, if my organization only has a Windows E3 or E5 license, should I expect to be able to create fully customized messages on the Teams location?
 
@@ -522,11 +522,11 @@ No, the organizational messages creation flow will automatically disable authori
 
 ## Release Notes for Public Preview of Email and Action Segments
 
-- Email functionality during the Public Preview is limited to the 8 provided premade templates and in English only. The Email templates are not customizable.
+- Email functionality during the Public Preview is limited to the 8 provided premade templates and in English only. The Email templates aren't customizable.
 
-- Message analytics are not yet available for Email. They are coming soon during the Public Preview.
+- Message analytics aren't yet available for Email. They are coming soon during the Public Preview.
 
-- Action Segments cannot be used together with Email messages during the Public Preview. Action Segments are available for the existing surfaces of Windows Spotlight, Task Bar, Notification Center, and Teams Popover.
+- Action Segments can't be used together with Email messages during the Public Preview. Action Segments are available for the existing surfaces of Windows Spotlight, Task Bar, Notification Center, and Teams Popover.
 
 - Action Segments during the Private Preview are limited to the 2 provided segments: *Inactive Copilot Users* and *Inactive Copilot Users in Teams*
 
