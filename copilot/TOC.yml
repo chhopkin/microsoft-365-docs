@@ -99,6 +99,8 @@ items:
       href: microsoft-365-copilot-e5-guide.md      
   - name: Enabling Copilot User Experiences
     items:
+    - name: Anthropic as a subprocessor for Microsoft Online Services
+      href: connect-to-ai-subprocessor.md
     - name: Deploy Microsoft 365 Copilot app
       href: deploy-microsoft-365-copilot-app.md
     - name: Set up Copilot and assign licenses
@@ -111,7 +113,8 @@ items:
       href: pin-copilot-taskbar.md
     - name: Pin Copilot Chat to the navigation bar
       href: pin-copilot-chat-navbar.md
-
+    - name: Turn on AI Disclaimers in Microsoft 365 Copilot
+      href: microsoft-365-ai-disclaimers.md
 
 - name: Adopt
   items:
@@ -256,11 +259,11 @@ items:
         items:
         - name: Manage agent permissions
           href: /microsoft-365/admin/manage/manage-agents-permissions?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json   
-        - name: Manage Copilot Studio (lite) agents
+        - name: Manage Agent Builder agents
           items:
           - name: Manage shared agents
             href: /microsoft-365/admin/manage/manage-shared-agents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json 
-        - name: Manage Copilot Studio (full) agents
+        - name: Manage Copilot Studio agents
           items:
           - name: Manage requested agents
             href: agent-essentials/agent-lifecycle/agent-copilot-studio-requested.md
@@ -300,11 +303,11 @@ items:
           items:
           - name: Create agents using SharePoint
             href: https://support.microsoft.com/office/create-a-sharepoint-agent-d16c6ca1-a8e3-4096-af49-67e1cfdddd42?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json 
-          - name: Copilot Studio (lite)
+          - name: Agent Builder
             items:
-            - name: Copilot Studio (lite) agents overview
+            - name: Agent Builder agents overview
               href: /microsoft-365-copilot/extensibility/copilot-studio-lite?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
-            - name: Build Copilot Studio (lite) agents
+            - name: Build Agent Builder agents
               href: /microsoft-365-copilot/extensibility/copilot-studio-lite-build?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
             - name: Share and manage agents
               href: /microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json#share-the-agent
@@ -314,9 +317,9 @@ items:
               href: /microsoft-365-copilot/extensibility/copilot-studio-lite-build?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json#add-knowledge-sources
             - name: Add capabilities to an agent
               href: /microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json#add-capabilities
-          - name: Copilot Studio (full)
+          - name: Copilot Studio
             items:
-            - name: Create agents using Copilot Studio (full)
+            - name: Create agents using Copilot Studio
               href: /microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
             - name: Understand ALM when building agents
               href: /power-platform/alm?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
@@ -438,12 +441,10 @@ items:
           href: app-builder-privacy-data-subject-request-faq.md
         - name: App Builder privacy and data subject request (DSR) FAQ
           href: responsible-ai/faq-app-builder.md
-      - name: Workflows agent
+      - name: Learning agent
         items:
-        - name: Overview of Workflows
-          href: flow-builder-privacy-data-subject-request-faq.md
-        - name: Workflows privacy and data subject request (DSR) FAQ
-          href: responsible-ai/flow-builder-responsible-ai-faq.md
+        - name: Overview and setup of Learning agent
+          href: /viva/learning/learning-agent-overview-deployment-steps?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
       - name: Researcher agent
         items:   
         - name: Overview of Researcher agent
@@ -456,6 +457,16 @@ items:
               href: researcher-agent-computer-use.md
             - name: Researcher agent with Computer Use FAQ
               href: researcher-agent-computer-use-faq.yml
+      - name: Workflows agent
+        items:
+        - name: Overview of Workflows
+          href: flow-builder-privacy-data-subject-request-faq.md
+        - name: Workflows privacy and data subject request (DSR) FAQ
+          href: responsible-ai/flow-builder-responsible-ai-faq.md
+      - name: Workforce Insights agent
+        items:
+          - name: Overview of Workforce Insights agent
+            href: workforce-insights-agent.md
       - name: Word, Excel and PowerPoint Agents(Frontier) in Microsoft 365 Copilot 
         items:   
         - name: Setting up and managing agents

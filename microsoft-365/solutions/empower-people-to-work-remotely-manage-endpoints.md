@@ -17,7 +17,7 @@ ms.collection:
 - remotework
 - m365solution-remotework
 - m365solution-scenario
-ms.custom: 
+ms.custom: m365-solutions-doc-set
 description: Use Microsoft Intune family of products to manage your manage devices, PCs, and other endpoints.
 ---
 
