@@ -172,7 +172,7 @@ Users with the Organizational Messages Writer Microsoft Entra role described pre
 
 - **Location** for indicating to which in-product channel the message is sent for your users.
 
-- **Template** for choosing the format of the message, ‘create your own’ or a premade message from Microsoft.
+- **Template** for choosing the format of the message, 'create your own' or a premade message from Microsoft.
 
 - **Customize** for adding customization to the message, including full text and/or custom URLs.
 
@@ -194,7 +194,7 @@ There are two primary forms of message creation that are enabled in this experie
 > [!NOTE]
 > The ability to create fully customized messages is enabled if your organization has at least one Microsoft license as described in the [Advanced features](#advanced-features) section.
 
-2. **Premade messages** (or ‘templatized’ messages) – A method of selecting and customizing content that is partially created by Microsoft for general purpose use. For example, Microsoft might provide various generic messages that your team can pick and add your logo and URL to drive awareness of a software update.
+2. **Premade messages** (or 'templatized' messages) – A method of selecting and customizing content that is partially created by Microsoft for general purpose use. For example, Microsoft might provide various generic messages that your team can pick and add your logo and URL to drive awareness of a software update.
 
 ### How to save and continue draft message
 
@@ -218,11 +218,11 @@ This advanced targeting in organizational messages can be enabled using the foll
 
 2. Select **Adoption Score**.
 
-3. Under **Group data filtering**, select “Turn on group-level insights” and then “Save”.
+3. Under **Group data filtering**, select "Turn on group-level insights" and then "Save".
 
-4. Within **Adoption Score**, select the “Manage group-level filtering” button.
+4. Within **Adoption Score**, select the "Manage group-level filtering" button.
 
-5. Select the “Organizational attributes” checkbox and then the “Turn on selected filters” button.
+5. Select the "Organizational attributes" checkbox and then the "Turn on selected filters" button.
 
 > [!NOTE]
 > The ability to use advanced targeting options is enabled if your organization has at least one Microsoft license as described in the [Advanced features](#advanced-features) section.
@@ -317,11 +317,11 @@ To make policy changes on your tenant using Intune, your admin should:
 1. Sign in to the Microsoft Endpoint Manager admin center for your tenant.
 1. Configure the policies described using a Microsoft Intune device restrictions profile template or the settings catalog.
 1. Make sure to adjust these policies in all new and existing policies that are targeted at end users and devices that might receive organizational messages.
-1. Enable Organizational Messages Policy
+1. Enable Organizational Messages Policy.
 
->[!NOTE]
-> This policy is required for devices running [Windows](https://support.microsoft.com/topic/november-29-2022-kb5020044-os-build-22621-900-preview-43f0bdf9-0b75-4110-bab3-3bd2433d84b3), [version 22H2](https://support.microsoft.com/topic/november-29-2022-kb5020044-os-build-22621-900-preview-43f0bdf9-0b75-4110-bab3-3bd2433d84b3), [build 10.0.19045.4842](https://support.microsoft.com/topic/august-29-2024-kb5041582-os-build-19045-4842-preview-f4c4d191-5457-475c-80ac-e1d43cf9c941), [build 10.0.22621.900](https://support.microsoft.com/topic/november-29-2022-kb5020044-os-build-22621-900-preview-43f0bdf9-0b75-4110-bab3-3bd2433d84b3) and later. If you don't enable this policy, these devices can't receive organizational messages.
-
+  > [!NOTE]
+  > This policy is required for devices running [Windows](https://support.microsoft.com/topic/november-29-2022-kb5020044-os-build-22621-900-preview-43f0bdf9-0b75-4110-bab3-3bd2433d84b3), [version 22H2](https://support.microsoft.com/topic/november-29-2022-kb5020044-os-build-22621-900-preview-43f0bdf9-0b75-4110-bab3-3bd2433d84b3), [build 10.0.19045.4842](https://support.microsoft.com/topic/august-29-2024-kb5041582-os-build-19045-4842-preview-f4c4d191-5457-475c-80ac-e1d43cf9c941), [build 10.0.22621.900](https://support.microsoft.com/topic/november-29-2022-kb5020044-os-build-22621-900-preview-43f0bdf9-0b75-4110-bab3-3bd2433d84b3) and later. If you don't enable this policy, these devices can't receive organizational messages.
+    
 1. Go to **Settings catalog** > **Experience** > **Enable delivery of organizational messages (User)**.
 1. To enable delivery of organizational messages, switch the toggle to **Enabled**.
 
@@ -334,18 +334,18 @@ If using Settings catalog, follow these steps:
 
 (This can be in a new or existing Windows configuration profile.)
 
-1. Go to **Devices** > **Windows** > **Configuration profiles**.
+1. Go to **Devices** > **Windows** > **Configuration profiles**.
 1. Select **Settings catalog**.
 1. Select **Add Settings**.
-1. In Settings picker, select **Experience category**.
-1. In configuration settings, ensure the following are selected or set to ‘Allow’:
-    - Add Allow Windows Spotlight (User)
+1. In Settings picker, select **Experience category**.
+1. In configuration settings, ensure the following are selected or set to 'Allow':
+    - Add Allow Windows Spotlight (User)
     - Add Allow Windows Spotlight on Action Center (User)
     - Add Allow Windows Tips
     - Add Configure Windows Spotlight on Lock Screen (User)
 1. In configuration settings, ensure the following are deselected:
     - Disable Cloud Optimized Content
-1. In configuration settings, ensure the following are selected or set to ‘Allow’:
+1. In configuration settings, ensure the following are selected or set to 'Allow':
     - Enable delivery of organizational messages (User)
 
 If using Device Restrictions, follow these steps:
@@ -354,7 +354,7 @@ If using Device Restrictions, follow these steps:
 
 1. Go to **Devices** > **Windows** > **Configuration profiles**.
 1. In a new or existing template profile, select **Device restrictions** > **Windows Spotlight**.
-1. Ensure or Select ‘Not configured’ is set for the following:
+1. Ensure or Select 'Not configured' is set for the following:
     - Windows Spotlight
     - Windows Spotlight on lock screen
     - Windows Tips
@@ -411,7 +411,7 @@ The MDM policies listed under [Setting tenant policies](#setting-tenant-policies
 
 ### How can I get my user and device ID for troubleshooting purposes?
 
-1. Launch MS Feedback Hub
+1. Launch MS Feedback Hub.
 
 2. Select **Settings** in the bottom left-hand corner.
 
@@ -449,9 +449,9 @@ All messages have a state that indicates their creation or delivery status, incl
 
 5. **Active** – message is currently delivering to your users.
 
-6. **Draft** – message has not been completed or otherwise submitted for scheduling and/or approval. Any of your tenant’s writers can continue a draft to completion via the creation flow.
+6. **Draft** – message hasn't been completed or otherwise submitted for scheduling and/or approval. Any of your tenant's writers can continue a draft to completion via the creation flow.
 
-7. **Scheduled** – message has been properly authored and is awaiting delivery (at which time it is coded as ‘Active)
+7. **Scheduled** – message has been properly authored and is awaiting delivery (at which time it is coded as 'Active')
 
 8. **Rejected** – message was reviewed, and an Approver admin disallowed it from proceeding to a Scheduled or Active state.
 
@@ -495,7 +495,7 @@ lv_LV falls back to en-US, and users with all en languages locales will receive 
 
 > [!NOTE]
 > - *Locale of the custom message writer selected*: Display language set in the Microsoft 365 admin center (MyAccount).
-- *Locale of the message receiver selected*: First supported language listed under "Preferred Languages" in the user's Windows Settings menu. This is determined by the operating system on the user's device.
+> - *Locale of the message receiver selected*: First supported language listed under "Preferred Languages" in the user's Windows Settings menu. This is determined by the operating system on the user's device.
 
 
 ### Does Organizational Messages support government environments, such as GCC, GCCH, etc.?
