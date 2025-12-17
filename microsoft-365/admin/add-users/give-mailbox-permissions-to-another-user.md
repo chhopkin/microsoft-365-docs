@@ -33,7 +33,7 @@ customer-intent: As an administrator, I want to understand how to grant access t
 
 # Give mailbox permissions to another Microsoft 365 user - Admin help
 
-As an administrator, you may have company requirements to allow some users to have access to another user's mailbox. For example, you may want to enable an assistant to send or read email from their manager's mailbox. Or you may want to give one of your users the ability to send email on behalf of another user. This article describes how to set up mailbox permissions, access another user's mailbox, and send email on behalf of another user.
+As an administrator, you might have company requirements to allow some users to have access to another user's mailbox. For example, you might want to enable an assistant to send or read email from their manager's mailbox. Or you might want to give one of your users the ability to send email on behalf of another user. This article describes how to set up mailbox permissions, access another user's mailbox, and send email on behalf of another user.
 
 If you're looking for information about creating and managing shared mailboxes, check out [Create a shared mailbox](../email/create-a-shared-mailbox.md).
 
