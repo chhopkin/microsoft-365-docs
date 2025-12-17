@@ -176,7 +176,7 @@ Users with the Organizational Messages Writer Microsoft Entra role described pre
 
 - **Recipients** for setting the groups within your organization that should receive the message.
 
-- **Schedule** for configuring the start date, end date, and frequency with which the system will send the message to the same user over time. If the user does not select the message when it's displayed, or dismisses the message by clicking "X", then the message will reappear again to the user later based on the specified frequency. If they do select the message, the message won't reappear again for a year (if the message hasn't already expired based on the chosen end date).
+- **Schedule** for configuring the start date, end date, and frequency with which the system will send the message to the same user over time. If the user doesn't select the message when it's displayed, or dismisses the message by clicking "X", then the message will reappear again to the user later based on the specified frequency. If they do select the message, the message won't reappear again for a year (if the message hasn't already expired based on the chosen end date).
 
 - **Finish** for reviewing the message before scheduling or sending for approval by your organization’s approvers.
 
@@ -187,7 +187,7 @@ Users with the Organizational Messages Writer Microsoft Entra role described pre
 
 There are two primary forms of message creation that are enabled in this experience:
 
-1. **Fully customized creation** (or 'create your own') – An open-ended format of entering in arbitrary content for messages, allowing your team to make messages that include your company name or other specifics that are unique to your company, group, or team. For example, an author can select ‘create your own’ and type all of the words of the message themselves.
+1. **Fully customized creation** (or 'create your own') – An open-ended format of entering in arbitrary content for messages, allowing your team to make messages that include your company name or other specifics that are unique to your company, group, or team. For example, an author can select 'create your own' and type all of the words of the message themselves.
 
 > [!NOTE]
 > The ability to create fully customized messages is enabled if your organization has at least one Microsoft license as described in the [Advanced features](#advanced-features) section.
@@ -372,7 +372,7 @@ Once your message has been actively delivering for over 24 hours, you can return
 For urgent messages, after your message has been scheduled by the Organizational Messages platform (for example, after approval from your Organizational Messages approvers is acquired as needed), the platform will try to send the message as soon as possible. However, as noted earlier, this is a best-effort mechanism subject to various conditions, with no guaranteed delivery times.
 
 > [!NOTE]
-> For Windows spotlight messages, users who select a message on the Windows lock screen won't see it again for 12 months. Users who do not select the message may see it multiple times.
+> For Windows spotlight messages, users who select a message on the Windows lock screen won't see it again for 12 months. Users who don't select the message may see it multiple times.
 
 ### My team made other organizational messages within Intune, Adoption Score, Usage reports, and others. How do they work with this?
 
@@ -387,13 +387,13 @@ The Organizational messages centralized experience is the ‘one-stop-shop’ fo
 
  Reach out to a Global admin and ask them to assign you Organizational Messages Writer or Organizational Message Approver Microsoft Entra role to you following these steps:
 
-1. Global Admin of target testing tenant goes to **Microsoft 365 Admin Center > Active Users**.
-
-2. Search for or otherwise select target user in Active users table.
-
-3. Select the **Manage roles** button in the top navigation bar.
-
-4. Select **Organizational Messages Writer** or **Organizational Messages Approver** in the **Other** section, and then select **Save changes**.
+  1. Global Admin of target testing tenant goes to **Microsoft 365 Admin Center > Active Users**.
+  
+  2. Search for or otherwise select target user in Active users table.
+  
+  3. Select the **Manage roles** button in the top navigation bar.
+  
+  4. Select **Organizational Messages Writer** or **Organizational Messages Approver** in the **Other** section, and then select **Save changes**.
 
 ### Why do I need to update my MDM policies?
 
@@ -439,9 +439,9 @@ All messages have a state that indicates their creation or delivery status, incl
 
 1. **Completed** – message has successfully run its course as defined by Start and end dates.
 
-2. **Pending** – message is still being registered by the organizational messages services and thus is not delivering. Additionally, certain details of the message might be unavailable while in ‘pending’ state.
+2. **Pending** – message is still being registered by the organizational messages services and thus isn't delivering. Additionally, certain details of the message might be unavailable while in ‘pending’ state.
 
-3. **Failed** – message was not able to be properly registered by the organizational messages services for various reasons. These messages need to be copied to retry the process.
+3. **Failed** – message wasn't able to be properly registered by the organizational messages services for various reasons. These messages need to be copied to retry the process.
 
 4. **Canceled** – message was explicitly stopped by your tenant admin. This might have been during delivery of the message or prior (that is, in Scheduled state).
 
@@ -479,7 +479,7 @@ For **premade** messages, an Organizational Message is created for all locales l
 
 For **custom messages**, the creation of an Organizational Message is restricted to the language selected as the Microsoft 365 admin center (MyAccount) display language so long as it is one of the locales listed above.
 
-For example, If the Organizational Messages Writer (admin) sets their Microsoft 365 admin center (MyAccount) display language to French (which is one of the supported language listed above) while creating "Custom Message B", then only end users with French as the first option under "Preferred Languages" in their Windows Settings will receive "Custom Message B." End users whose preferred language is any other language will not receive "Custom Message B".
+For example, If the Organizational Messages Writer (admin) sets their Microsoft 365 admin center (MyAccount) display language to French (which is one of the supported languages listed above) while creating "Custom Message B", then only end users with French as the first option under "Preferred Languages" in their Windows Settings will receive "Custom Message B." End users whose preferred language is any other language will not receive "Custom Message B".
 
 Locale fallback:
 
@@ -502,7 +502,7 @@ No, not at this time.
 
 ### Our team previously authored messages for the Windows Get Started location within the Organizational messages experience in Intune/Microsoft Endpoint Manager – can we still do that in this experience within Microsoft 365 admin center?
 
-Any Get Started messages that you created in the Organizational messages experience within Intune/Microsoft Endpoint Manager that have not completed can be viewed within the Microsoft 365 admin center experience. However, new Get Started message creation is not yet supported at this time.
+Any Get Started messages that you created in the Organizational messages experience within Intune/Microsoft Endpoint Manager that have not completed can be viewed within the Microsoft 365 admin center experience. However, new Get Started message creation isn't yet supported at this time.
 
 ### Are there any premade messages available for the Windows Spotlight location?
 
