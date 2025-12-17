@@ -92,7 +92,7 @@ You could need to download extra apps such as Microsoft Authenticator and/or Com
 
    1. Follow the on-screen steps to set up MFA with the Microsoft Authenticator app in the setup experience.
    
-      ![Screeshot of a message that extra steps are needed to keep the account secure.](media/setup-frontline-teams-on-personal-devices/keep-account-secure.png)
+      ![Screenshot of a message that extra steps are needed to keep the account secure.](media/setup-frontline-teams-on-personal-devices/keep-account-secure.png)
       
       ![Screenshot displays the steps required to download the Microsoft Authenticator app.](media/setup-frontline-teams-on-personal-devices/download-authenticator.png)
       
