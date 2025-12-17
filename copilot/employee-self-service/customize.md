@@ -5,7 +5,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 05/11/2025
+ms.date: 12/15/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -76,9 +76,7 @@ End-users see the following customizable branding and content elements:
 |Agent name                        |Copilot Studio overview page |Keep the original name or choose a name that aligns with your organization's brand and audience. |
 |Agent logo                        |Copilot Studio overview page |Use the default logo (a company badge) or add a logo that aligns with your brand. |
 |Agent short and long descriptions |Copilot Studio channels page |Consider a tagline and one-sentence description to be used to help users understand how Employee Self-Service agent can help them when they add the agent for the first time. |
-|Accent colors                     |Microsoft 365 admin center   |Choose a color for light and dark themes to create a more branded appearance. |
 |Starter prompts                   |Copilot Studio overview page or the Microsoft 365 admin center if you also want to add categories |Help end-users understand how to engage with the Employee Self-Service agent by adding up to 12 starter prompts. |
-|Categories for starter prompts    |Microsoft 365 admin center   |Add distinct categories for up to 12 prompts per category. Especially helpful when you're using more than one Employee Self-Service admin template. |
 |Disclaimer message                |Copilot Studio channels page and topic |Add a general disclaimer on the agent's landing page or add a disclaimer that displays after certain responses. |
 |Agent (global) instructions       |Copilot Studio overview page |Draft instructions that help shape your agent's personality, behavior for edge cases, and guidance on how to use user context. |
 
@@ -399,7 +397,7 @@ Get started by picking a primary Employee Self-Service agent to add categories, 
 >   - Add up to 10 unique categories (like HR, IT, and so on).
 >   - Each category name has a 35-character limit.
 >   - Add up to 12 titles and starter prompts for each category.
->   - The title for each starter prompt must be unique and has a 128-charcter limit.
+>   - The title for each starter prompt must be unique and has a 128-character limit.
 >   - Starter prompts don't need to be unique and have a 4000-character limit.
 
 2. When the CSV is completed, select **Upload CSV**. The system validates the CSV file upon upload. If an error occurs, a status message below the upload button shows you what changes to make.
