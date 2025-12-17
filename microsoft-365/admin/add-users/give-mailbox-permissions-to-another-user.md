@@ -92,7 +92,7 @@ There are a few different ways to access a mailbox once you've given permission 
 
 1. In the Microsoft 365 admin center, go to **Users** \> [Active users](https://go.microsoft.com/fwlink/p/?linkid=834822). 
 
-2. Select the name of the user (whose mailbox you want to allow to be read) to open their properties pane.
+2. Select a user (whose mailbox you want to allow to be read) to open their properties pane.
 
 3. On the **Mail** tab, select **Read and manage permissions**.
 
@@ -109,7 +109,7 @@ There are a few different ways to access a mailbox once you've given permission 
 
 1. In the Microsoft 365 admin center, go **Users** \> [Active users](https://go.microsoft.com/fwlink/p/?linkid=850628).
   
-2. Select the user you want, expand **Mail Settings**, and then select **Edit** next to **Mailbox permissions**.
+2. Select a user, expand **Mail Settings**, and then select **Edit** next to **Mailbox permissions**.
 
 3. Next to **Read and manage**, select **Edit**.
 
@@ -123,7 +123,7 @@ There are a few different ways to access a mailbox once you've given permission 
 
 ::: moniker range="o365-worldwide"
 
-1. In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.  
+1. In the Microsoft 365 admin center, go to **Users** \> [Active users](https://go.microsoft.com/fwlink/p/?linkid=834822).  
 
 2. Select the name of the user (from whom you plan to give a **Send on behalf** permission) to open their properties pane.
 
@@ -137,9 +137,9 @@ There are a few different ways to access a mailbox once you've given permission 
 
 ::: moniker range="o365-21vianet"
 
-1. In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.
+1. In the Microsoft 365 admin center, go to **Users** \> [Active users](https://go.microsoft.com/fwlink/p/?linkid=834822).  
 
-2. Select the user you want, expand **Mail Settings**, and then select **Edit** next to **Mailbox permissions**.
+2. Select a user, expand **Mail Settings**, and then select **Edit** next to **Mailbox permissions**.
 
 3. Next to **Send on behalf**, select **Edit**.
 
@@ -150,10 +150,10 @@ There are a few different ways to access a mailbox once you've given permission 
 ::: moniker-end
 
 > [!NOTE]
-> The **Send As** and **Send on Behalf** permissions do not work in Outlook Desktop client with the *HiddenFromAddressListsEnabled* parameter on the mailbox set to **True**, since they require the mailbox to be visible in Outlook via the Global Address List.
+> The **Send As** and **Send on Behalf** permissions do not work in Outlook Desktop client with the `HiddenFromAddressListsEnabled` parameter on the mailbox set to `True`, because those permissions require the mailbox to be visible in Outlook via the Global Address List.
 
 ## Related content
   
-[Manage another person's mail and calendar items](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5) (article)\
-[Send email from another person or group](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b) (article)\
-[Change a user name and email address](../add-users/change-a-user-name-and-email-address.md) (video)
+[Manage another person's mail and calendar items](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5)
+[Send email from another person or group](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b)
+[Change a user name and email address](../add-users/change-a-user-name-and-email-address.md)
