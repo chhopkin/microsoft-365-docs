@@ -120,7 +120,7 @@ If your organization uses app protection policies, app configuration policies, a
 
 Next, you'll see a screen to download Microsoft Teams.
 
-- Download Microosft Teams using the QR code. 
+- Download Microsoft Teams using the QR code. 
 
 - Sign in and click **Done** when finished.
 
