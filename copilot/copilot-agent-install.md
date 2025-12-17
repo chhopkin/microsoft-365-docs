@@ -51,7 +51,7 @@ For more information, see [Manage agents for Microsoft 365 Copilot in the Micros
 
 ### User-installed agents
 
-Users can install agents that are available in Agent Store based on the policies set by their tenant administrators. Users can also install their own custom-built agents. For example, these custom-built agents could be built with Microsoft SharePoint, Microsoft Copilot Studio (lite), or Microsoft Copilot Studio (full), to augment Microsoft 365 Copilot. These agents are used by individuals, and optionally shareable within the user’s organization.
+Users can install agents that are available in Agent Store based on the policies set by their tenant administrators. Users can also install their own custom-built agents. For example, these custom-built agents could be built with Microsoft SharePoint, Agent Builder in Microsoft 365 Copilot​, or Copilot Studio, to augment Microsoft 365 Copilot. These agents are used by individuals, and optionally shareable within the user’s organization.
 
 Organizations can govern these agents in the Copilot Control System section of the Microsoft 365 admin center. Administrators have a full set of lifecycle management tools for these agents. Microsoft offers granular controls that enable administrators to install and block agents. Additionally, administrators can remove shared and custom agents for some or all of the users in their tenant.
 
