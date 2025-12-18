@@ -33,11 +33,11 @@ To use [Word, Excel, and PowerPoint Agents](wordexcelppt-agents.md), you require
 
 ## Admin enablement and controls  
 
-These agents exclusively use Anthropic's AI models. A global administrator must enable the AI models in the Microsoft 365 admin center, agreeing to the model's terms for users to access creation agents. In addition, Frontier must be enabled for the tenant or specific users, and the Anthropic model toggle must be turned on. These requirements are mandatory for [Word, Excel, and PowerPoint Agents](wordexcelppt-agents.md) to function.
+These agents exclusively use Anthropic's AI models. A global administrator must enable the AI models in the Microsoft 365 admin center. In addition, Frontier must be enabled for the tenant or specific users, and the Anthropic model toggle must be turned on. These requirements are mandatory for [Word, Excel, and PowerPoint Agents](wordexcelppt-agents.md) to function.
 
-Administrators, after enabling, can disable access to reasoning models at any time. If your organization decides to stop using the reasoning model, you can block the provider via the admin center, which removes the option for users. [Word, Excel, and PowerPoint Agents](https://support.microsoft.com/topic/76691f5e-bb19-4029-a34d-33a00e0a0c4f) are installed by Microsoft and will appear in the Tools menu and left navigation pane for Microsoft 365 Copilot licensed users (in the Agents list in the Frontier section and in the All Agents section), assuming both Anthropic and Frontier have been enabled for the tenant. Admins can manage these agents similar to other agents that were installed by [Microsoft](copilot-agent-install.md).
+Administrators, after enabling, can disable access to reasoning models at any time. If your organization decides to stop using the AI model, you can block the provider via the admin center, which removes the option for users. [Word, Excel, and PowerPoint Agents](https://support.microsoft.com/topic/76691f5e-bb19-4029-a34d-33a00e0a0c4f) are installed by Microsoft and will appear in the Tools menu and left navigation pane for Microsoft 365 Copilot licensed users (in the Agents list in the Frontier section and in the All Agents section), assuming both Anthropic and Frontier have been enabled for the tenant. Admins can manage these agents similar to other agents that were installed by [Microsoft](copilot-agent-install.md).
 
-If the AI's model usage is blocked, users are prevented from seeing the agents (in the Tools menu and in the left rail of the Microsoft 365 Copilot app) and using the new [Word, Excel, and PowerPoint Agents](https://support.microsoft.com/topic/76691f5e-bb19-4029-a34d-33a00e0a0c4f).
+If administrators disable the Anthropic AI models, users are prevented from seeing the agents (in the Tools menu and in the left navigation pane of the Microsoft 365 Copilot app) and using the new [Word, Excel, and PowerPoint Agents](https://support.microsoft.com/topic/76691f5e-bb19-4029-a34d-33a00e0a0c4f).
 
 ### Connect to AI models in the Microsoft 365 admin center
 
@@ -49,13 +49,16 @@ For steps on how to disable the connection to Anthropic's AI models, see [Disabl
 
 ## Data Privacy and Security
 
-Until January 7, 2026, when your organization elects to use an Anthropic model, your organization is choosing to share data with Anthropic and your use is governed by Anthropic's [Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms) and Anthropic's [Data Processing Addendum](https://www.anthropic.com/legal/data-processing-addendum). Microsoft's customer agreements, including the [Product Terms](https://www.microsoft.com/licensing/terms?msockid=344e0e6ad66c6b3e19441848d7416abd) and [Data Processing Addendum](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?lang=18&msockid=344e0e6ad66c6b3e19441848d7416abd) don't apply. In addition, Microsoft's data-residency commitments, audit and compliance requirements, service level agreements, and Customer Copyright Commitment don't apply to your use of Anthropic services.  
-
-For more information, see [Connect to Anthropic's AI models](connect-to-ai-models.md).
-
-Starting on January 7, 2026, Anthropic will operate as a Microsoft subprocessor for these Microsoft 365 Copilot capabilities under Microsoft’s direction and contractual safeguards. This includes coverage under the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms?msockid=344e0e6ad66c6b3e19441848d7416abd) and the [Microsoft Data Protection Addendum (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?lang=18&msockid=344e0e6ad66c6b3e19441848d7416abd) with Microsoft remaining accountable for Anthropic’s compliance under our contractual commitments. In addition, use of Anthropic models in Microsoft 365 Copilot will fall under our [Enterprise Data Protection](enterprise-data-protection.md) and will be covered by the Customer Copyright Commitment. Note that Anthropic models are currently excluded from EU Data Boundary and when applicable, in-country processing commitments.
-
-For more information, see [Anthropic as a subprocessor](connect-to-ai-subprocessor.md).
+> [!IMPORTANT]
+> Until January 7, 2026, when your organization elects to use an Anthropic model, your organization is choosing to share data with Anthropic and your use is governed by Anthropic's [Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms) and Anthropic's [Data Processing Addendum](https://www.anthropic.com/legal/data-processing-addendum). Microsoft's customer agreements, including the [Product Terms](https://www.microsoft.com/licensing/terms?msockid=344e0e6ad66c6b3e19441848d7416abd) and [Data Processing Addendum](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?lang=18&msockid=344e0e6ad66c6b3e19441848d7416abd) don't apply.
+> In addition, Microsoft's data-residency commitments, audit and compliance requirements, service level agreements, and Customer Copyright Commitment don't apply to your use of Anthropic services.  
+>
+> For more information, see [Connect to Anthropic's AI models](connect-to-ai-models.md).
+>
+> Starting on January 7, 2026, Anthropic will operate as a Microsoft subprocessor for these Microsoft 365 Copilot capabilities under Microsoft’s direction and contractual safeguards. 
+> This includes coverage under the [Microsoft Product Terms](https://www.microsoft.com/licensing/terms?msockid=344e0e6ad66c6b3e19441848d7416abd) and the [Microsoft Data Protection Addendum (DPA)](https://www.microsoft.com/licensing/docs/view/Microsoft-Products-and-Services-Data-Protection-Addendum-DPA?lang=18&msockid=344e0e6ad66c6b3e19441848d7416abd) with Microsoft remaining accountable for Anthropic’s compliance under our contractual commitments. In addition, use of Anthropic models in Microsoft 365 Copilot will fall under our [Enterprise Data Protection](enterprise-data-protection.md) and will be covered by the Customer Copyright Commitment. Note that Anthropic models are currently excluded from EU Data Boundary and when applicable, in-country processing commitments.
+>
+> For more information, see [Anthropic as a subprocessor](connect-to-ai-subprocessor.md).
 
 ## Enterprise Data
 
