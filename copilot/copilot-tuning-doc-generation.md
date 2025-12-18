@@ -25,13 +25,11 @@ Document generation works best when the drafting process follows recognizable pa
 
 Some example use cases include:
 
-- Human resources – Generate new job listings matching your organization's tone and structure based on existing job listing templates and information about new jobs.
-- Legal – Draft recurring contracts quickly and consistently based on previous contracts and new or updated contract terms.
-- Compliance – Create new compliance forms based on an approved form template and information tailored to new clients, deals, or jurisdictions.
-- Procurement – Create draft purchase orders using previous purchase orders and information about new purchases.
-- Documentation – Draft new product or feature docs based on existing documentation templates and information about new products or features.
-
-[!INCLUDE [agent-builder-mcs-lite](../microsoft-365/includes/agent-builder-mcs-lite.md)]
+- Human resources: Generate new job listings matching your organization's tone and structure based on existing job listing templates and information about new jobs.
+- Legal: Draft recurring contracts quickly and consistently based on previous contracts and new or updated contract terms.
+- Compliance: Create new compliance forms based on an approved form template and information tailored to new clients, deals, or jurisdictions.
+- Procurement: Create draft purchase orders using previous purchase orders and information about new purchases.
+- Documentation: Draft new product or feature docs based on existing documentation templates and information about new products or features.
 
 ## Prerequisites
 
@@ -56,7 +54,6 @@ The following are the high-level steps to configure a custom document generation
 > - [Train the model and evaluate results](#train-and-evaluate-results)
 > - [Optional - Prepare a mapping file for evaluations](#optional---prepare-a-mapping-file) - identify pairings of original files and final draft files in the training data
 > - [Publish the model](#publish-the-model)
-
 
 ### Customize the model
 
@@ -123,5 +120,5 @@ When the model generates results that meet your quality standards, you can publi
 
 - [Microsoft 365 Copilot Tuning overview (preview)](copilot-tuning-overview.md)
 - [Microsoft 365 Copilot Tuning FAQ](copilot-tuning-faq.yml)
-- [Create declarative agents with Copilot Studio and Microsoft 365 Copilot Tuning models](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-tuned-models).
+- [Create declarative agents with Microsoft 365 Copilot Tuning models](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-tuned-models).
 - [Troubleshooting document generation models](copilot-tuning-troubleshooting-doc-generation.md).
