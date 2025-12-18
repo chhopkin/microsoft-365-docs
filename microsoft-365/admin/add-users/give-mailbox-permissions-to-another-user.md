@@ -52,9 +52,9 @@ Read the following sections for the task you want to complete:
 > [!NOTE]
 > Once permissions are set, it can take up to 60 minutes for the changes to propagate through the system and be in effect.
   
-### Access another person's mailbox
+## Access another person's mailbox
   
-There are a few different ways to access a mailbox once you've given permission and access. See [Share and access another person's mailbox or folder in Outlook](https://support.microsoft.com/en-us/office/share-and-access-another-person-s-mailbox-or-folder-in-outlook-a909ad30-e413-40b5-a487-0ea70b763081).
+After permissions are set and access is granted, users have a few different options to access a mailbox. See [Share and access another person's mailbox or folder in Outlook](https://support.microsoft.com/en-us/office/share-and-access-another-person-s-mailbox-or-folder-in-outlook-a909ad30-e413-40b5-a487-0ea70b763081).
   
 ## Send email from another user's mailbox
 
