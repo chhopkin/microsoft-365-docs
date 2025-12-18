@@ -203,7 +203,7 @@ Add Domain Security Policies for respective ISSG under the **View/Modify** acces
 
 After Domain addition, run the following task to finalize the Domain policy changes:
 
-### Task 7: Activate Pending Security Policy Changes
+#### Activate Pending Security Policy Changes
 
 Security configuration to support Employee Self-Service agent features for full-time employees and managers:
 
@@ -214,7 +214,7 @@ Security configuration to support Employee Self-Service agent features for full-
 |Person data: Work contact information  |1. Employee as self </br>2. Manager            |No                                  |Yes |
 |BP: Home contact change                |1. Employee as self                            |No                                  |Yes |
 
-### Task 8: Add ISSG_Generic_COPILOT to Integration Permissions
+### Task 7: Add ISSG_Generic_COPILOT to Integration Permissions
 
 1. Security configuration for Integration System Security Group (ISSG).
     1. Search for the ISSG created in Task 3.
@@ -227,7 +227,7 @@ Security configuration to support Employee Self-Service agent features for full-
     4. Add **ISSG_Generic_COPILOT** to **Integration Permissions**.
     5. Run **Activate Pending Security Policy Changes**.
 
-### Task 9: Create Reports
+### Task 8: Create Reports
 
 [Learn how to create the reports you need for Workday integration](workday-reports.md).
 
