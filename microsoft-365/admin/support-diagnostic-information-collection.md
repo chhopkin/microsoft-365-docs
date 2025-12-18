@@ -3,7 +3,7 @@ title: "Understanding Microsoft 365 case creation and data access"
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 12/15/2025
+ms.date: 12/18/2025
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -34,7 +34,7 @@ When a user creates a support request, cross-tenant access is granted to Microso
 Here are some important points to keep in mind:
 
 - Microsoft Support engineers can access only the specific resources needed for diagnostics and troubleshooting. 
-- When a user creates a support request, that user's level of access doesn't change. For example, if the user has a nonprivileged role, their general restrictions don't change because of the support request.
+- When a user creates a support request, their identity (UPN) is leveraged for creating the cross tenant access policy. The user's level of access doesn't change. For example, if the user has a nonprivileged role, their general restrictions don't change because of the support request.
 - All support activity is logged in the Microsoft Entra audit and sign-in logs. (See the section, [Where is support activity on a customer tenant logged?](#where-is-support-activity-on-a-customer-tenant-logged) (in this article).)
 
 ## How long does Microsoft have this access?
