@@ -16,6 +16,7 @@ ms.collection:
 - m365solution-overview
 ms.custom:
 - M365solutions
+- m365-solutions-doc-set
 - seo-marvel-jun2020
 f1.keywords: NOCSH
 recommendations: false
