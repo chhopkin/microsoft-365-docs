@@ -203,7 +203,7 @@ Add Domain Security Policies for respective ISSG under the **View/Modify** acces
 
 After Domain addition, run the following task to finalize the Domain policy changes:
 
-#### Activate Pending Security Policy Changes
+***Activate Pending Security Policy Changes***
 
 Security configuration to support Employee Self-Service agent features for full-time employees and managers:
 
