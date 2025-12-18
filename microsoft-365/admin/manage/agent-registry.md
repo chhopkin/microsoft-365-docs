@@ -695,7 +695,7 @@ Agents with no active alerts displays a blank value, while agents with one or mo
 
 When an administrator selects the number shown in the **Risks** column in the Microsoft 365 admin center **Inventory** page, they're taken directly into a detailed flyout panel under the **Security & Compliance** tab. This flyout provides a focused, actionable view of all risks associated with that specific agent.
 
-The panel surfaces each relevant instance under the agent's blueprint, showing the number of alerts per instance and allowing administrators to drill deeper into any instance that requires attention. For blueprints with multiple instances, administrators can see the distribution of risks across each instance. For custom agents, declarative agents the flyout presents all associated risk types immediately.
+The panel surfaces each relevant instance under the agent's blueprint, showing the number of alerts per instance and allowing administrators to drill deeper into any instance that requires attention. For blueprints with multiple instances, administrators can see the distribution of risks across each instance. For custom agents and declarative agents, the flyout presents all associated risk types immediately.
 
 To support investigation and remediation of alerts, use the **Review in Entra** link. This link redirects administrators to the Microsoft Entra admin center for additional context and review and if necessary, take further action.
 
