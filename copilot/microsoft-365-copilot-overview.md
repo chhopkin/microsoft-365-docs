@@ -7,7 +7,7 @@ ms.author: efrene
 author: Efrene
 ms.update-cycle: 180-days
 manager: scotv
-ms.date: 11/07/2025
+ms.date: 12/17/2025
 audience: Admin
 ms.reviewer: mandia
 ms.topic: overview
@@ -27,7 +27,7 @@ appliesto:
 # Microsoft 365 Copilot overview
 
 > [!NOTE]
-> Microsoft has onboarded Anthropic as a Microsoft subprocessor. As a subprocessor, Anthropic will operate with Microsoft Enterprise data protections. For more information, see [Anthropic as a subprocessor for Microsoft Online Services](connect-to-ai-subprocessor.md).
+> Microsoft has onboarded Anthropic as a Microsoft subprocessor. As a subprocessor, Anthropic will operate with [Microsoft Enterprise data protections](enterprise-data-protection.md). For more information, see [Anthropic as a subprocessor for Microsoft Online Services](connect-to-ai-subprocessor.md).
 >
 >Your users can try Claude with their Copilot prompts by selecting the **Try Claude** button in the Microsoft 365 Copilot app. For more information, see [Use Claude with Researcher in Microsoft 365 Copilot](https://go.microsoft.com/fwlink/?linkid=2335703)
 >
