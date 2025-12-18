@@ -693,9 +693,15 @@ The count reflects alerts sourced from Microsoft Entra, aggregated into a single
 
 Agents with no active alerts displays a blank value, while agents with one or more active alerts show an aggregated count. These counts allow administrators to quickly identify which agents require attention so that remediation efforts can be prioritized.
 
+:::image type="content" source="../../media/agents/risks-column.png" alt-text="Screenshot showing the Risks column in the Microsoft 365 admin center." lightbox="../../media/agents/risks-column.png":::
+
 When an administrator selects the number shown in the **Risks** column in the Microsoft 365 admin center **Inventory** page, they're taken directly into a detailed flyout panel under the **Security & Compliance** tab. This flyout provides a focused, actionable view of all risks associated with that specific agent.
 
-The panel surfaces each relevant instance under the agent's blueprint, showing the number of alerts per instance and allowing administrators to drill deeper into any instance that requires attention. For blueprints with multiple instances, administrators can see the distribution of risks across each instance. For custom agents and declarative agents, the flyout presents all associated risk types immediately.
+The flyout panel displays all relevant instances under an agent's blueprint, along with clear breakdown of the number of risks per instance. Admins can drill into individual instances and view the detailed risk types associated with them. For custom agents or declarative agents, which don't have instance-level structures, the flyout bypasses the instance list and instead surfaces all associated risk types.
+
+:::image type="content" source="../../media/agents/communication-agent-risks.png" alt-text="Screenshot showing the Communication Agent page with risks in the Microsoft 365 admin center." lightbox="../../media/agents/communication-agent-risks.png":::
+
+:::image type="content" source="../../media/agents/communication-agent.png" alt-text="Screenshot showing the Communication Agent page in the Microsoft 365 admin center." lightbox="../../media/agents/communication-agent.png":::
 
 To support investigation and remediation of alerts, use the **Review in Entra** link. This link redirects administrators to the Microsoft Entra admin center for additional context and review and if necessary, take further action.
 
