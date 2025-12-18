@@ -213,7 +213,7 @@ Administrators in the Microsoft 365 admin center can take several actions to con
 - **Publish** - Make an agent available for installation to specific users or groups.
 
     > [!NOTE]
-    > Publishing agents to the organization is supported in Microsoft 3655 Government Community Cloud High (GCCH) and Government Community Cloud Moderate (GCCM) environments.
+    > Publishing agents to the organization is supported in Microsoft 365 Government Community Cloud High (GCCH) and Government Community Cloud Moderate (GCCM) environments.
 
 - **Activate** - Allow only selected users or groups to install the agent and create instances.
 
