@@ -43,14 +43,14 @@ And if you're an end user who wants to grant email and calendar access to someon
   
 The first step to setting up permissions is deciding which actions you want to allow the other user to take in the given mailbox. You can allow a user to read email messages from the mailbox, send email messages on behalf of another user, or send email messages as if they were sent from that mailbox. Permissions can only be set up within the current organization. It's not possible to set up mailbox permissions for users in another organization. 
 
-Read the sections below for the task you want to complete:
+Read the following sections for the task you want to complete:
   
 - [Read email from another user's mailbox](give-mailbox-permissions-to-another-user.md#read-email-in-another-users-mailbox)
 - [Send email from another user's mailbox](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)
 - [Send email on behalf of another user](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)
 
 > [!NOTE]
-> Once you've set up the permissions, it can take up to 60 minutes for the changes to propagate through the system and be in effect.
+> Once permissions are set, it can take up to 60 minutes for the changes to propagate through the system and be in effect.
   
 ### Access another person's mailbox
   
@@ -101,7 +101,7 @@ There are a few different ways to access a mailbox once you've given permission 
 5. Select **Add**.
 
 > [!NOTE]
-> **Read** and **Manage** permissions are called **Full Access** permission when granted in the [Exchange admin center](https://go.microsoft.com/fwlink/p/?linkid=2059104). This permission allows the assigned user mailbox to read as well as manage emails in the user mailbox on which the permission is assigned. Full Access permission does not grant **Send as** or **Send on behalf**  permissions.
+> **Read** and **Manage** permissions are called **Full Access** permission when granted in the [Exchange admin center](https://go.microsoft.com/fwlink/p/?linkid=2059104). This permission allows the assigned user mailbox to read and manage emails in the user mailbox on which the permission is assigned. Full Access permission doesn't grant **Send as** or **Send on behalf**  permissions.
 
 ::: moniker-end
 
@@ -150,7 +150,7 @@ There are a few different ways to access a mailbox once you've given permission 
 ::: moniker-end
 
 > [!NOTE]
-> The **Send As** and **Send on Behalf** permissions do not work in Outlook Desktop client with the `HiddenFromAddressListsEnabled` parameter on the mailbox set to `True`, because those permissions require the mailbox to be visible in Outlook via the Global Address List.
+> The **Send As** and **Send on Behalf** permissions don't work in Outlook Desktop client with the `HiddenFromAddressListsEnabled` parameter on the mailbox set to `True`, because those permissions require the mailbox to be visible in Outlook via the Global Address List.
 
 ## Related content
   
