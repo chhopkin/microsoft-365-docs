@@ -177,9 +177,9 @@ See the following table to assess passwordless authentication methods for your f
 |<a href="/entra/identity/authentication/how-to-enable-passkey-fido2">Device-bound passkeys</a> |Windows, Android, iOS |Yes |Yes |
 |<a href="/entra/identity/authentication/how-to-authentication-synced-passkeys">Sync passkeys</a> (preview) |Android, iOS |Yes |Yes |
 |<a href="/entra/identity/authentication/howto-authentication-sms-signin">SMS signin</a> |Android and iOS |Yes |No |
+|<a href="/entra/identity/authentication/how-to-authentication-qr-code">QR code authentication</a> |iOS and Android |No |No |
 |Windows Hello |Windows |No |Yes |
 |FIDO2 key |Windows |No |Yes |
-
 
 To learn more, see [Passwordless authentication options for Microsoft Entra ID](/entra/identity/authentication/concept-authentication-passwordless). 
 
