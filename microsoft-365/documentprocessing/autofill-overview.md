@@ -20,7 +20,7 @@ description: Learn about the autofill columns service in SharePoint.
 # Overview of autofill columns
 
 > [!NOTE]
-> Through December 2025, you can try out a [limited amount](promo-syntex.md#included-monthly-capacity) of autofill columns and other selected content services at no cost if you have [pay-as-you-go billing](syntex-azure-billing.md) set up. For information and limitations, see [Try out pay-as-you-go services](promo-syntex.md).
+> Through March 2026, you can try out a [limited amount](promo-syntex.md#included-monthly-capacity) of autofill columns and other selected content services at no cost if you have [pay-as-you-go billing](syntex-azure-billing.md) set up. For information and limitations, see [Try out pay-as-you-go services](promo-syntex.md).
 
 Autofill columns automatically extract, summarize, or generate content from files uploaded to a SharePoint document library. By using large language models (LLMs) through generative AI, autofill columns can save metadata automatically, streamlining the process of managing files and their associated information.
 
