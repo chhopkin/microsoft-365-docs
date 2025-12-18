@@ -71,6 +71,7 @@ Adoption Score is only available in the Microsoft 365 admin center and can only 
 - Teams Communications Administrator
 - Global Reader
 - Reports Reader
+- AI Report Reader
 - Usage Summary Reports Reader
 - User Experience Success Manager
 - Organizational Messages Writer Role
