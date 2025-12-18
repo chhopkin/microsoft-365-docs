@@ -101,7 +101,7 @@ The following configuration and preparation tasks need to be done in Workday by 
 1. [Manage authentication policies](#task-4-manage-authentication-policies)
 1. [Register API Client](#task-5-register-api-client)
 1. [Security configuration](#task-6-security-configuration)
-1. [Activate Pending Security Policy Changes](#task-7-activate-pending-security-policy-changes)
+1. [Activate Pending Security Policy Changes](#activate-pending-security-policy-changes)
 1. [Add ISSG_Generic_COPILOT to Integration Permissions](#task-8-add-issg_generic_copilot-to-integration-permissions)
 1. [Create Reports](#task-9-create-reports)
 
