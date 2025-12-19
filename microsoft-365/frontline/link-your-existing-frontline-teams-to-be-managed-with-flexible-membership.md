@@ -10,7 +10,7 @@ ms.author: arnavgupta
 manager: prkoduku
 ms.service: microsoft-365-frontline
 ms.topic: how-to
-ms.date:     04/28/2025
+ms.date:     12/19/2025
 ---
 
 # Link your existing frontline teams to be managed with flexible membership
