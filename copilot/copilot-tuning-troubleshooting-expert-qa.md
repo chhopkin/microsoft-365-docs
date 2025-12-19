@@ -15,8 +15,6 @@ recommendations: false
 
 # Troubleshoot issues with the Copilot Tuning Expert Q&A model
 
-[!INCLUDE [agent-builder-mcs-lite](../microsoft-365/includes/agent-builder-mcs-lite.md)]
-
 This article describes some of the most common issues with the Microsoft 365 Copilot Tuning expert Q&A task fine-tuning and how to troubleshoot them.
 
 [!INCLUDE [copilot-tuning-preview](includes/copilot-tuning-preview.md)]
@@ -27,7 +25,7 @@ An access or permission denied error usually means your account doesn't have the
 
 ## I created a fine-tuned Q&A model, but it isn't showing up when I try to add it to my Copilot agent
 
-If your newly trained model isn't listed in the selection dropdown when you configure your declarative agent, you might have a permissions issue. The model is associated with a security group or access policy, and your account might not be included. Make sure that the security group used during the model creation includes your account (or the account of the person building the agent). You might need to ask your IT admin to add you to that group or recreate the model with a group that you're part of. When your permissions are fixed, the fine-tuned model should appear for selection. 
+If your newly trained model isn't listed in the selection dropdown when you configure your declarative agent, you might have a permissions issue. The model is associated with a security group or access policy, and your account might not be included. Make sure that the security group used during the model creation includes your account (or the account of the person building the agent). You might need to ask your IT admin to add you to that group or recreate the model with a group that you're part of. When your permissions are fixed, the fine-tuned model should appear for selection.
 
 ## When I select "Prepare data for training," no labeling interface or data appears
 
@@ -46,6 +44,7 @@ Double-check your email spam or junk folder for a message that states that the f
 If the training/fine-tuning process fails or hangs without a clear error message, it's possible that the system didn't provide feedback. The current system has limited error handling, so occasionally it might just stop without a specific error code or explanation.
 
 To troubleshoot:
+
 1. Retry the process - In some cases, rerunning the fine-tuning process or restarting from the last step can resolve a transient issue.
 2. Make sure any configurations are set correctly and try again.
 3. Check for known issues - See if any error message was logged or displayed. If you find an error code, follow the guidance associated with that error code. Documentation or forums might have additional information for specific errors.
@@ -77,7 +76,7 @@ If you followed the previous steps and the model's answers are still incorrect o
 This issue is a known behavior. The fine-tuned model might perform well in the isolated evaluation, but the deployed agent's behavior can differ if the agent configuration doesn't fully carry over the model's nuances. In particular, the agent might need more instructions to use the model effectively. To resolve this issue:
 
 1. Compare evaluation vs. agent outputs - Identify what's missing or different. For example, maybe the evaluation answers had a friendly, empathetic tone that you liked, but the agent's answers feel more generic or terse.
-2. Adjust the agent's instructions - In the Copilot Studio lite experience, add or refine the system instructions or prompts for the agent. Reinforce the qualities you want that you saw in the evaluation stage. For example, add the instructions "Respond in an empathetic tone," or "Include the detailed steps if available."
+2. Adjust the agent's instructions - In the agent builder, add or refine the system instructions or prompts for the agent. Reinforce the qualities you want that you saw in the evaluation stage. For example, add the instructions "Respond in an empathetic tone," or "Include the detailed steps if available."
 3. Test again - After you update the instructions, test the agent with the same questions. The answers should align more closely with the fine-tuned model's expected behavior. This iterative tuning of the agent is sometimes necessary to get the best results. The fine-tuned model provides the knowledge, and the agent's instructions shape how that knowledge is expressed.
 
 ## The answers from my Q&A agent are still not what I expected
