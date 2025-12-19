@@ -50,7 +50,7 @@ To adopt an MX target in mx.microsoft, do the following steps:
 
 1. At the DNS hosting service for your domain, update the time to live (TTL) of the existing MX record to a minimum of 30 seconds, and then wait for the previous TTL to expire before you proceed. For example, if the previous TTL was 3,600 seconds, wait one hour before you proceed to the next step.
 
-2. In [Exchange Online PowerShell](administering-exchange-online-multi-geo.md#connect-directly-to-a-geo-location-using-exchange-online-powershell), replace \<DomainName\> with the name of the domain where you want to enable IRR, and then run the following command:
+1. In [Exchange Online PowerShell](administering-exchange-online-multi-geo.md#connect-directly-to-a-geo-location-using-exchange-online-powershell), replace \<DomainName\> with the name of the domain where you want to enable IRR, and then run the following command:
 
    ```powershell
    Enable-DnssecForVerifiedDomain -DomainName <DomainName>
@@ -75,7 +75,8 @@ To adopt an MX target in mx.microsoft, do the following steps:
    Success      contosotest-com.o-v1.mx.microsoft    
    ```
 
-3. Do one of the following steps based on your existing mail flow configuration:
+1. Do one of the following steps based on your existing mail flow configuration:
+
    - **The existing MX record for your domain points to Microsoft 365**: Create a new MX record at the DNS hosting service for your domain with the following properties:
      - **Record type**: MX
      - **Priority**: 20
@@ -91,20 +92,22 @@ To adopt an MX target in mx.microsoft, do the following steps:
    > [!TIP]
    > You might have to retry the test, depending on DNS caching.
 
-      Successful completion of the test looks like this:
+   Successful completion of the test looks like this:
 
-      ![Screenshot of successful connectivity tes.](media/configure-multi-geo-in-region-routing/connectivity-test-successful-output.png)
-    
-2. Change the **Priority** values of the MX records for your domain:
+   ![Screenshot of successful connectivity tes.](media/configure-multi-geo-in-region-routing/connectivity-test-successful-output.png)
+
+1. Change the **Priority** values of the MX records for your domain:
+
    - **The existing MX record from Step 1**: Change the **Priority** value to 30.
    - **The IRR MX record from Step 3 (ends with mx.microsoft)**:  Change **Priority** value to **0** (highest priority).
 
-3. Delete any legacy MX records that contain the following values:
+1. Delete any legacy MX records that contain the following values:
+
    - `mail.protection.outlook.com`
    - `mail.eo.outlook.com`
    - `mail.protection.outlook.de.`
 
-4. Update the TTL for the IRR MX from Step 3 (ends with `mx.microsoft`) to **3600 seconds**.
+1. Update the TTL for the IRR MX from Step 3 (ends with `mx.microsoft`) to **3600 seconds**.
 
 ## Enable In-Region Routing (IRR)
 
@@ -114,23 +117,26 @@ After you complete the [Prerequisites](#prerequisites) and the steps in Adopt an
 
 2. Execute the following command:
 
-    ```powershell
-    Set-OrganizationConfig  -InRegionRoutingEnabled $true
-    ```
+   ```powershell
+   Set-OrganizationConfig  -InRegionRoutingEnabled $true
+   ```
 
 3. **Wait 1 hour for the change in Step 2 to propagate**, then execute the following command:
 
     ```powershell
     Set-AcceptedDomain -Identity {Domain} -MailFlowRegion {PreferredDataLocation}
     ```
+
    - {Domain} is the accepted domain.
    - {PreferredDataLocation} is a valid three-letter code specified in [Microsoft 365 Multi-Geo availability](microsoft-365-multi-geo.md#microsoft-365-multi-geo-availability).
 
-       For example:
-        ```powershell
-        Set-AcceptedDomain -Identity contosotest.com -MailFlowRegion GBR
-        ```
-      For detailed syntax and parameter information, see [Set-AcceptedDomain](/powershell/module/exchange/set-accepteddomain).
+   For example:
+
+   ```powershell
+   Set-AcceptedDomain -Identity contosotest.com -MailFlowRegion GBR
+   ```
+
+   For detailed syntax and parameter information, see [Set-AcceptedDomain](/powershell/module/exchange/set-accepteddomain).
 
 4. Wait 30 minutes after enabling IRR to allow previously cached DNS records to expire and updated routing information to propagate. Then, send an email to recipients in the domain to verify whether mail flow is working as expected.
 
