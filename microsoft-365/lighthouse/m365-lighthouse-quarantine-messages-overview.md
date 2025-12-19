@@ -23,7 +23,7 @@ description: "For Managed Service Providers (MSPs) using Microsoft 365 Lighthous
 ---
 # Overview of the Quarantined messages page in Microsoft 365 Lighthouse
 
-Microsoft 365 Lighthouse lets you see insights and information about quarantined email messages across all your customer tenants. From a single view, you can triage quarantined email messages and take the appropriate actions. The data is available if the tenant is using the default email protections for cloud mailboxes and/or Microsoft Defender for Office 365 Plan 1.
+Microsoft 365 Lighthouse lets you see insights and information about quarantined email messages across all your customer tenants. From a single view, you can triage quarantined email messages and take the appropriate actions. The data is available if the tenant is using [the built-in security features for all cloud mailboxes](/defender-office-365/eop-about) and/or [Microsoft Defender for Office 365 Plan 1](/defender-office-365/mdo-about#defender-for-office-365-plan-1-capabilities).
 
 You can access the information in Lighthouse by selecting **Home** in the left navigation pane, or by selecting **Quarantined messages** in the left navigation pane to open the **Quarantined messages** page.
 
@@ -68,5 +68,5 @@ The **Copy Link to Messages in Microsoft** **365 Defender** option provides a li
 
 [Quarantined email messages in cloud organizations](/defender-office-365/quarantine-about) (article)\
 [Recommended email and collaboration threat policy settings for cloud organizations](/defender-office-365/recommended-settings-for-eop-and-office365) (article)\
-[Default email protections for cloud mailboxes](/defender-office-365/eop-about) (article)\
+[Overview of the built-in security features for all cloud mailboxes](/defender-office-365/eop-about) (article)\
 [Overview of the Threat management page](m365-lighthouse-threat-management-page-overview.md) (article)
