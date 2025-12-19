@@ -95,16 +95,16 @@ To adopt an MX target in mx.microsoft, do the following steps:
 
       ![Screenshot of successful connectivity test](media/configure-multi-geo-in-region-routing/connectivity-test-successful-output.png)
     
-5. Change the **Priority** values of the MX records for your domain:
+2. Change the **Priority** values of the MX records for your domain:
    - **The existing MX record from Step 1**: Change the **Priority** value to 30.
    - **The IRR MX record from Step 3 (ends with mx.microsoft)**:  Change **Priority** value to **0** (highest priority).
 
-6. Delete any legacy MX records that contain the following values:
+3. Delete any legacy MX records that contain the following values:
    - `mail.protection.outlook.com`
    - `mail.eo.outlook.com`
    - `mail.protection.outlook.de.`
 
-7. Update the TTL for the IRR MX from Step 3 (ends with `mx.microsoft`) to **3600 seconds**.
+4. Update the TTL for the IRR MX from Step 3 (ends with `mx.microsoft`) to **3600 seconds**.
 
 ## Enable In-Region Routing (IRR)
 
