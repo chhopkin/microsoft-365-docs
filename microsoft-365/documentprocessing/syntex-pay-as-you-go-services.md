@@ -20,7 +20,7 @@ description: Learn about pay-as-you-go pricing for document processing services 
 # Pay-as-you-go pricing for document processing for Microsoft 365
 
 > [!NOTE]
-> Through December 2025, if you have [pay-as-you-go billing](syntex-azure-billing.md) set up, your organization receives a limited amount of included capacity each month for selected services, letting you try these services at no cost. This offering doesn't include capacity for Microsoft 365 Archive or Microsoft 365 Backup. For more information, see [Try out pay-as-you-go document processing services](promo-syntex.md).
+> Through June 2026, if you have [pay-as-you-go billing](syntex-azure-billing.md) set up, your organization receives a limited amount of included capacity each month for selected services, letting you try these services at no cost. This offering doesn't include capacity for Microsoft 365 Archive or Microsoft 365 Backup. For more information, see [Try out pay-as-you-go document processing services](promo-syntex.md).
 
 When you use pay-as-you-go services, you're billed using service meters in the Azure subscription that you specified when you [set up pay-as-you-go billing](syntex-azure-billing.md#connect-the-service-to-an-azure-subscription-for-billing).
 
