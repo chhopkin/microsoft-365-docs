@@ -196,11 +196,11 @@ As Microsoft 365 is a suite of services built to function over the internet, the
 The Microsoft 365 suite is broken down into four major service areas representing the three primary workloads and a set of common resources. These service areas may be used to associate traffic flows with a particular application, however given that features often consume endpoints across multiple workloads, these service areas cannot effectively be used to restrict access.
 
 | Service Area | Description |
-|:-----|:-----|
-|**Exchange** <br/> |Exchange Online and Exchange Online Protection <br/> |
-|**SharePoint** <br/> |SharePoint Online and OneDrive for Business <br/> |
-|**Skype for Business Online and Microsoft Teams** <br/> |Skype for Business and Microsoft Teams <br/> |
-|**Common** <br/> |Microsoft 365 Pro Plus, Office in a browser, Microsoft Entra ID, and other common network endpoints <br/> |
+|---|---|
+|**Exchange**|Exchange Online and [the built-in security features for all cloud mailboxes](/defender-office-365/eop-about)|
+|**SharePoint**|SharePoint Online and OneDrive for Business|
+|**Skype for Business Online and Microsoft Teams**|Skype for Business and Microsoft Teams|
+|**Common**|Microsoft 365 Pro Plus, Office in a browser, Microsoft Entra ID, and other common network endpoints|
 
 In addition to basic internet services, there are third-party services that are only used to integrate functionality. While these services are needed for integration, they're marked as optional in the Microsoft 365 endpoints article. This means core functionality of the service continues to function if the endpoint isn't accessible. Any network endpoint that is required has the required attribute set to true. Any network endpoint that is optional has the required attribute set to false and the notes attribute detail the missing functionality you should expect if connectivity is blocked.
   
