@@ -32,7 +32,7 @@ The following customer data is stored at rest in the _Local Region Geography_:
 
 - Exchange Online mailbox content (e-mail body, calendar entries, and the content of e-mail attachments stored in the related _Local Region Geography_).
 
-## Microsoft 365 Copilot and Microsoft 365 Copilot Chat
+## Microsoft 365 Copilot and Copilot Chat
 
 The following customer data is stored at rest in the _Local Region Geography_:
 
