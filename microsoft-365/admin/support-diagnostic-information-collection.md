@@ -19,10 +19,25 @@ customer-intent: As an administrator, I want to understand what data Microsoft S
 
 # Understanding Microsoft 365 support case creation nd data access
 
-This article describes consent that's granted to Microsoft when a business user opens a support case, the types of data that can be accessed and for how long, and how support activities are logged.
+This article describes what happens when a support case is created in Microsoft 365 for business, how Microsoft support engineers access customer information, and the level of access that's granted. 
 
 > [!TIP]
 > If you're a home user and you need technical support, see [Contact us](https://support.microsoft.com/en-us/contactus#!).
+
+## What happpens when a support case is created in the Microsoft 365 admin center?
+
+When a user creates a support request in the [Microsoft 365 admin center](https://admin.microsoft.com), the user grants Microsoft permission to access only the information that's needed for assistance. This consent is recorded in cross-tenant access settings by adding the Microsoft Support tenant as a service provider partner. The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*, which represents the user roles the Microsoft Support engineer can have in the customer tenant. Implicit consent grants only the `Microsoft365SupportEngineer` role level access. The identity of the person who created the ticket is used for this process.
+
+### Audit events seen in the customer tenant during support case creation
+
+When a support case is created, the following audit events are logged in the customer's Microsoft Entra audit logs:
+
+| Event | Actor |
+|--|--|
+| Add a partner to cross-tenant access setting<br/>(Microsoft Support tenant only) | User identity who created the support ticket and the Microsoft 365 admin center application |
+| Adding allowed assignable roles<br/>(`Microsoft365SupportEngineer` role only) | User identity who created the support ticket and the Microsoft 365 admin center application |
+| Add member to role<br/>(Group from Microsoft Support tenant added to Microsoft365SupportEngineer Role) | AssistAPI application |
+
 
 ## Consent for diagnostic information
 
