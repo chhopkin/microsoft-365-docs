@@ -19,7 +19,7 @@ customer-intent: As an administrator, I want to understand what data Microsoft S
 
 # Understanding Microsoft 365 support case creation and data access
 
-This article describes what happens when a support case is created in Microsoft 365 for business, how Microsoft support engineers access customer information, and the level of access that's granted. 
+This article describes what happens when a support case is created in Microsoft 365 for business, how Microsoft support engineers access customer information, and the level of access that's granted. For information about how to create a support case, see [Get support for Microsoft 365 for business](get-help-support.md).
 
 > [!TIP]
 > If you're a home user and you need technical support, see [Contact us](https://support.microsoft.com/en-us/contactus#!).
