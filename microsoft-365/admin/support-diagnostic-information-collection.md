@@ -96,7 +96,7 @@ Access is revoked when the Microsoft Support tenant is removed from cross-tenant
 
 When a support case is closed, Microsoft checks to see if there are any other active support cases open. If there are no other active support cases, Microsoft initiates the access revocation process, which includes multiple steps.
 
-### Audit events seen in the customer tenant during support case closure
+### Audit events seen during support case closure
 
 When a support case is closed, the following audit events are logged in the customer's Microsoft Entra audit logs:
 
