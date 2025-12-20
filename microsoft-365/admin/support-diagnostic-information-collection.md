@@ -106,7 +106,7 @@ When a support case is closed, the following audit events are logged in the cust
 | Deleting allowed assignable roles | `EntraGDAP` application |
 | Delete partner specific cross-tenant access setting<br/>(Microsoft Support tenant only) | `EntraGDAP` application |
 
-## Learn more about audit logs
+## Learn more about Microsoft Entra audit logs
 
 See the following resources for more information about the audit logs:
 
