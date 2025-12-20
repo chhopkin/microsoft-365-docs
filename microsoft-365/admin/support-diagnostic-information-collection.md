@@ -79,14 +79,14 @@ Aside from the Security Administrator, Teams Administrator, and Global Administr
 
 ### What level of access does Microsoft Support have on the customer tenant?
 
-The level of access is captured as *Delegated Admin Service Provider Constraints*, and currently, the support ticket creation process implicitly grants just the `Microsoft365SupportEngineer` role. This role includes the below actions/permissions.
+The level of access is captured as *Delegated Admin Service Provider Constraints*, and currently, the support ticket creation process implicitly grants just the `Microsoft365SupportEngineer` role. This role includes the following actions/permissions:
 
-        "microsoft.directory/devices/standard/read",
-        "microsoft.directory/domains/standard/read",
-        "microsoft.directory/groups/standard/read",
-        "microsoft.directory/policies/standard/read",
-        "microsoft.directory/servicePrincipals/standard/read",
-        "microsoft.directory/users/standard/read"
+- `microsoft.directory/devices/standard/read`
+- `microsoft.directory/domains/standard/read`
+- `microsoft.directory/groups/standard/read`
+- `microsoft.directory/policies/standard/read`
+- `microsoft.directory/servicePrincipals/standard/read`
+- `microsoft.directory/users/standard/read`
 
 ### How long does Microsoft Support have access
 
