@@ -36,7 +36,95 @@ When a support case is created, the following audit events are logged in the cus
 |--|--|
 | Add a partner to cross-tenant access setting<br/>(Microsoft Support tenant only) | User identity who created the support ticket and the Microsoft 365 admin center application |
 | Adding allowed assignable roles<br/>(`Microsoft365SupportEngineer` role only) | User identity who created the support ticket and the Microsoft 365 admin center application |
-| Add member to role<br/>(Group from Microsoft Support tenant added to Microsoft365SupportEngineer Role) | AssistAPI application |
+| Add member to role<br/>(Group from the Microsoft Support tenant added to the `Microsoft365SupportEngineer` role) | AssistAPI application |
+
+### Who can create support tickets
+
+Authorization to create support tickets is restricted to users who are assigned one of the following roles. Consequently, these user roles are also permitted to add the Microsoft Support partner as a Service Provider in cross-tenant access settings. 
+
+- Application Administrator
+- Authentication Administrator
+- Authentication Policy Administrator
+- Azure Information Protection Administrator
+- Billing Administrator
+- Cloud Application Administrator
+- Compliance Administrator
+- Compliance Data Administrator
+- Desktop Analytics Administrator
+- Dynamics 365 Administrator
+- Exchange Administrator
+- Fabric Administrator
+- Global Administrator
+- Global Secure Access Administrator
+- Groups Administrator
+- Helpdesk Administrator
+- Hybrid Identity Administrator
+- Insights Administrator
+- Intune Administrator
+- Office Apps Administrator
+- Power Platform Administrator
+- Privileged Authentication Administrator
+- Security Administrator
+- Security Operator
+- Service Support Administrator
+- SharePoint Administrator
+- Skype for Business Administrator
+- Teams Administrator
+- Teams Communications Administrator
+- Teams Telephony Administrator
+- User Administrator
+- Windows 365 Administrator
+
+Aside from the Security Administrator, Teams Administrator, and Global Administrator roles listed above, no other roles possess the authority to modify any additional aspects of the cross-tenant access settings.
+
+### What level of access does Microsoft Support have on the customer tenant?
+
+The level of access is captured as *Delegated Admin Service Provider Constraints*, and currently, the support ticket creation process implicitly grants just the `Microsoft365SupportEngineer` role. This role includes the below actions/permissions.
+
+        "microsoft.directory/devices/standard/read",
+        "microsoft.directory/domains/standard/read",
+        "microsoft.directory/groups/standard/read",
+        "microsoft.directory/policies/standard/read",
+        "microsoft.directory/servicePrincipals/standard/read",
+        "microsoft.directory/users/standard/read"
+
+### How long does Microsoft Support have access
+
+The revocation of access to Microsoft occurs upon the deletion of the Microsoft Support Tenant partner within the cross-tenant access settings. This process is automated and directly linked to the lifecycle of support tickets within the tenant.  Or the customer user who has one of the above-mentioned roles can revoke access at any time by deleting the partner in cross-tenant access settings. If a customer chooses to manually revoke the access, Microsoft Support will lose ability to assist resolving the support ticket(s) created by the customer.
+
+## What happens during Support Case Closure
+
+During the support case closure, we can check if there are any other active support tickets from the customer, if none, we trigger the access revocation process, which is again a multiple step process.
+Audit events seen in the customer tenant during this process
+
+1.    Add a ServicePrincipal (EntraGDAP application which handles the revocation)
+Actor: AssistAPI application
+2.    Deleting allowed assignable roles 
+Actor: EntraGDAP application
+3.    Delete partner specific cross-tenant access setting (only Microsoft Support tenant)
+Actor: EntraGDAP application  
+
+Support Case Creation Through Phone Call[MP4.1][JW4.2]??
+When a customer reaches Microsoft support with a scenario where they are locked out and requesting to gain access back to their tenant, the process of Microsoft getting access to customer tenant is slightly different and the level of access needed to troubleshoot the case is also different.
+
+Audit events seen in the customer tenant during the case troubleshooting process
+1.    Add a ServicePrincipal (of EntraGDAP application which handles the access setup)
+Actor: AssistAPI application
+2.    Add a partner to cross-tenant access setting (only Microsoft Support tenant)
+Actor: EntraGDAP application
+3.    Adding allowed assignable roles (full list of roles that are added here, captured below)
+Domain Name Administrator
+Privileged Authentication Administrator
+Privileged Role Administrator
+Authentication Policy Administrator
+Microsoft 365 Support Engineer
+Actor: EntraGDAP application
+4.    Add member to role (Group from Microsoft Support tenant added to any of the above role depending on the case scenario)
+Actor: AssistAPI application  
+5.    Any operation performed by the support engineer as of trouble shooting
+Actor: Microsoft Support Engineer/Technician & AssistAPI application  
+ 
+Audit events seen in the customer tenant during the case closure are same as the other flow listed above.
 
 
 ## Consent for diagnostic information
