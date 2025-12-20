@@ -102,7 +102,7 @@ When a support case is closed, the following audit events are logged in the cust
 
 | Event | Actor |
 |--|--|
-| Add a Service Principal<br/>(`EntraGDAP` application handles the revocation) | `AssistAPI` application |
+| Add a service principal<br/>(`EntraGDAP` handles revocation) | `AssistAPI` application |
 | Deleting allowed assignable roles | `EntraGDAP` application |
 | Delete partner specific cross-tenant access setting<br/>(Microsoft Support tenant only) | `EntraGDAP` application |
 
