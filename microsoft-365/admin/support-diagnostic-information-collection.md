@@ -28,7 +28,7 @@ This article describes what happens when a support case is created in Microsoft 
 
 When a user creates a support request in the [Microsoft 365 admin center](https://admin.microsoft.com), the user grants Microsoft permission to access only the information that's needed for assistance. This consent is recorded in cross-tenant access settings by adding the Microsoft Support tenant as a service provider partner. The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*, which represents the user roles the Microsoft Support engineer can have in the customer tenant. Implicit consent grants only the `Microsoft365SupportEngineer` role level access. The identity of the person who created the ticket is used for this process.
 
-### Audit events seen in the customer tenant during support case creation
+### Audit eventsduring support case creation
 
 When a support case is created, the following audit events are logged in the customer's Microsoft Entra audit logs:
 
