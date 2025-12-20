@@ -38,9 +38,9 @@ When a support case is created, the following audit events are logged in the cus
 | Adding allowed assignable roles<br/>(`Microsoft365SupportEngineer` role only) | User identity who created the support ticket and the Microsoft 365 admin center application |
 | Add member to role<br/>(Group from the Microsoft Support tenant added to the `Microsoft365SupportEngineer` role) | AssistAPI application |
 
-### Who can create support tickets
+## Who can create support tickets?
 
-Authorization to create support tickets is restricted to users who are assigned one of the following roles. Consequently, these user roles are also permitted to add the Microsoft Support partner as a Service Provider in cross-tenant access settings. 
+Authorization to create support tickets is restricted to users who are assigned one of the following roles. These user roles are also permitted to add the Microsoft Support partner as a service provider in cross-tenant access settings. 
 
 - Application Administrator
 - Authentication Administrator
@@ -75,9 +75,9 @@ Authorization to create support tickets is restricted to users who are assigned 
 - User Administrator
 - Windows 365 Administrator
 
-Aside from the Security Administrator, Teams Administrator, and Global Administrator roles listed above, no other roles possess the authority to modify any additional aspects of the cross-tenant access settings.
+Aside from the Security Administrator, Teams Administrator, and Global Administrator roles listed above, no other roles possess the authority to modify any other aspects of cross-tenant access settings.
 
-### What level of access does Microsoft Support have on the customer tenant?
+## What level of access does Microsoft Support have on the customer tenant?
 
 The level of access is captured as *Delegated Admin Service Provider Constraints*, and currently, the support ticket creation process implicitly grants just the `Microsoft365SupportEngineer` role. This role includes the following actions/permissions:
 
@@ -88,87 +88,23 @@ The level of access is captured as *Delegated Admin Service Provider Constraints
 - `microsoft.directory/servicePrincipals/standard/read`
 - `microsoft.directory/users/standard/read`
 
-### How long does Microsoft Support have access?
+## How long does Microsoft Support have access?
 
 Access is revoked when the Microsoft Support tenant is removed from cross-tenant access settings. This process is automated and directly linked to the lifecycle of support tickets within the tenant. Or, a user who has an appropriate role assigned can revoke access at any time by deleting the Microsoft Support tenant partner in cross-tenant access settings. If a customer revokes access manually, Microsoft Support loses the ability to assist in resolving support cases.
 
-## What happens during support case closure?
+## What happens when a support case is closed?
 
-During the support case closure, we can check if there are any other active support tickets from the customer, if none, we trigger the access revocation process, which is again a multiple step process.
-Audit events seen in the customer tenant during this process
+When a support case is closed, Microsoft checks to see if there are any other active support cases open. If there are no other active support cases, Microsoft initiates the access revocation process, which includes multiple steps.
 
-1.    Add a ServicePrincipal (EntraGDAP application which handles the revocation)
-Actor: AssistAPI application
-2.    Deleting allowed assignable roles 
-Actor: EntraGDAP application
-3.    Delete partner specific cross-tenant access setting (only Microsoft Support tenant)
-Actor: EntraGDAP application  
+### Audit events seen in the customer tenant during support case closure
 
-Support Case Creation Through Phone Call[MP4.1][JW4.2]??
-When a customer reaches Microsoft support with a scenario where they are locked out and requesting to gain access back to their tenant, the process of Microsoft getting access to customer tenant is slightly different and the level of access needed to troubleshoot the case is also different.
+When a support case is closed, the following audit events are logged in the customer's Microsoft Entra audit logs:
 
-Audit events seen in the customer tenant during the case troubleshooting process
-1.    Add a ServicePrincipal (of EntraGDAP application which handles the access setup)
-Actor: AssistAPI application
-2.    Add a partner to cross-tenant access setting (only Microsoft Support tenant)
-Actor: EntraGDAP application
-3.    Adding allowed assignable roles (full list of roles that are added here, captured below)
-Domain Name Administrator
-Privileged Authentication Administrator
-Privileged Role Administrator
-Authentication Policy Administrator
-Microsoft 365 Support Engineer
-Actor: EntraGDAP application
-4.    Add member to role (Group from Microsoft Support tenant added to any of the above role depending on the case scenario)
-Actor: AssistAPI application  
-5.    Any operation performed by the support engineer as of trouble shooting
-Actor: Microsoft Support Engineer/Technician & AssistAPI application  
- 
-Audit events seen in the customer tenant during the case closure are same as the other flow listed above.
-
-
-## Consent for diagnostic information
-
-When a user contacts [Microsoft Support](get-help-support.md), consent is implied that Microsoft will be granted access to limited tenant information that's needed to support your issue. When a user selects **Contact Me**, cross-tenant access is initiated in your organization's tenant. This access allows Microsoft Support to collect diagnostic information that helps with troubleshooting and resolving issues.
-
-## What happens when cross-tenant access is granted to Microsoft Support?
-
-When a user creates a support request, cross-tenant access is granted to Microsoft Support. That access is time bound and uses least-privileged access, in accordance with [Zero Trust principles](/security/zero-trust/zero-trust-overview). 
-
-Here are some important points to keep in mind:
-
-- Microsoft Support engineers can access only the specific resources needed for diagnostics and troubleshooting. 
-- When a user creates a support request, their identity (UPN) is leveraged for creating the cross tenant access policy. The user's level of access doesn't change. For example, if the user has a nonprivileged role, their general restrictions don't change because of the support request.
-- All support activity is logged in the Microsoft Entra audit and sign-in logs. (See the section, [Where is support activity on a customer tenant logged?](#where-is-support-activity-on-a-customer-tenant-logged) (in this article).)
-
-## How long does Microsoft have this access?
-
-Access is removed automatically when your support case is closed. If your case isn't closed 30 days after the request is created, access will be removed, and you'll be prompted to provide access again. If you have multiple cases open, access expires 30 days after the latest support request was created.
-
-Depending on the nature of your support request, the data that Microsoft can access would belong under one or more of the following categories:
-
-| Category | Examples |
+| Event | Actor |
 |--|--|
-| **Support data**: All data provided to Microsoft by the customer as part of a customer engagement to obtain support services | Support requests from customers and phone conversations, online chat sessions, or remote assistance sessions between support professionals and customers<br/><br/> Case notes and/or records related to support requests from customers<br/><br/>Data provided to Microsoft by the customer as part of support activities |
-| **Account data**: Contact, billing, purchase, payment, and/or license information | Customer's provisioning information<br/><br/>Account configuration and billing data<br/><br/>Tenant administrator contact information (such as tenant administrator's name, address, e-mail address, phone number)<br/><br/>Licensing and purchase information |
-| **System metadata**: Data generated in the course of running the service | Event logs<br/><br/>Access control logs<br/><br/>Account information belonging to Microsoft operations personnel<br/><br/>Microsoft server names/server IPs<br/><br/>Server patching and vulnerability data<br/><br/>Service configuration data<br/><br/>Telemetry (on-premises or cloud) |
-| **Organization identifiable information (OII)**: Data that can be used to identify a particular tenant, deployment, or organization (generally config or usage data) | Tenant ID (non-GUID)<br/><br/>TenantID (GUID) due to the existence of many out of boundary `TenantID` to name mapping tables<br/><br/>Tenant usage data<br/><br/>Tenant IP addresses (IPv4), such as tenant's firewall IP address<br/><br/>Global prefix and subnet ID (first 64 bits of IPv6 address)<br/><br/>Tenant domain name in e-mail address (such as `joe@contoso.com`)<br/><br/>Mapping of organizational GUID to organization |
-| **End-user identifiable information (EUII)**: Data that directly identifies or could be used to identify the authenticated user of a Microsoft service | User-specific IP address (IPv4)<br/><br/>User principal name (`joe@company.com`)<br/><br/>Address book data<br/><br/>User's machine name<br/><br/>SIP URI |
-| **End-user pseudonymous identifiers (EUPI)**: An identifier created by Microsoft tied to the user of a Microsoft service | User GUIDs or PUIDs<br/><br/>Session IDs |
-
-## How long is diagnostic data retained in Microsoft systems?
-
-Microsoft retains diagnostic data for up to 28 days after it's collected. After this period, the data is deleted.
-
-## Where is support activity on a customer tenant logged?
-
-Activity performed on a customer tenant is available under Microsoft Entra audit logs. The following table describes log entries that are created.
-
-| Scenario | Audit log details |
-|--|--|
-| A support case is created and cross-tenant access is granted | **Activity type**: Add a partner to cross-tenant access setting<br/>**Category**: `CrossTenantAccessSettings`<br/>**Initiated by (actor)**: <br/>- **Type**: `Application` <br/>- **Display Name**: `EntraGDAP`<br/><br/>**Activity Type**: Add allowed assignable roles<br/>**Category**: `DelegatedAdminServiceProviderConstraints`<br/>**Initiated by (actor)**: <br/>- **Type**: Application <br/>- **Display Name**: `EntraGDAP`<br/><br/>**Activity Type**: Update a partner cross-tenant access setting<br/>**Category**: `CrossTenantAccessSettings`<br/>**Initiated by (actor)**: <br/>- **Type**: Application <br/>- **Display Name**: `EntraGDAP` |
-| A support engineer signs in to investigate and troubleshoot an issue | An entry each time: <br/>- A support engineer signs in <br/>- Diagnostics that involve operations are run<br/><br/>**Initiated by (actor)**:<br/>- **Type**: `Application`<br/>- **Display Name**: `AssistAPI`  |
-| Access is removed | **Activity type**: Delete allowed assignable roles<br/>**Category**: `DelegatedAdminServiceProviderConstraints`<br/>**Initiated by (actor)**: <br/>- **Type**: `Application` <br/>- **Display Name**: `EntraGDAP`<br/><br/>**Activity type**: Delete partner specific cross-tenant access setting<br/>**Category**: `CrossTenantAccessSettings`<br/>**Initiated by (actor)**: <br/>- **Type**: `Application` <br/>- **Display Name**: `EntraGDAP` |
+| Add a Service Principal<br/>(`EntraGDAP` application handles the revocation) | `AssistAPI` application |
+| Deleting allowed assignable roles | `EntraGDAP` application |
+| Delete partner specific cross-tenant access setting<br/>(Microsoft Support tenant only) | `EntraGDAP` application |
 
 ## Learn more about audit logs
 
