@@ -1,9 +1,9 @@
 ---
-title: "Understanding Microsoft 365 case creation and data access"
+title: "Understanding Microsoft 365 support case creation and data access"
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 12/18/2025
+ms.date: 12/20/2025
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -14,9 +14,10 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 description: "Learn about the diagnostic data Microsoft 365 Support engineers access to resolve support cases, including consent, data categories, retention periods, and logging details."
+customer-intent: As an administrator, I want to understand what data Microsoft Support can access when I create a support case and how I can track that activity.
 ---
 
-# Understanding Microsoft 365 case creation and data access
+# Understanding Microsoft 365 support case creation nd data access
 
 This article describes consent that's granted to Microsoft when a business user opens a support case, the types of data that can be accessed and for how long, and how support activities are logged.
 
