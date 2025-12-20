@@ -90,7 +90,9 @@ The level of access is captured as *Delegated Admin Service Provider Constraints
 
 ## How long does Microsoft Support have access?
 
-Access is revoked when the Microsoft Support tenant is removed from cross-tenant access settings. This process is automated and directly linked to the lifecycle of support tickets within the tenant. Or, a user who has an appropriate role assigned can revoke access at any time by deleting the Microsoft Support tenant partner in cross-tenant access settings. If a customer revokes access manually, Microsoft Support loses the ability to assist in resolving support cases.
+Access is revoked when the Microsoft Support tenant is removed from cross-tenant access settings. This process is automated and directly linked to the lifecycle of support tickets within the tenant. 
+
+Alternatively, a user who has an appropriate role assigned can revoke access at any time by deleting the Microsoft Support tenant partner in cross-tenant access settings. If you revoke access manually, Microsoft Support loses the ability to assist in resolving your support cases.
 
 ## What happens when a support case is closed?
 
