@@ -859,7 +859,7 @@ Company   PendingActivation   882e1d05-acd1-4ccb-8708-6ee03664b117 INTUNE_O365
   | eDiscovery (Premium) Storage (500 GB)            |
   | Customer Lockbox                                 |
   | Data Loss Prevention                             |
-  | Exchange Enterprise CAL Services (EOP, DLP)      |
+  | Exchange Enterprise CAL Services                 |
   | Exchange Essentials                              |
   | Exchange Foundation                              |
   | Exchange Online (P1)                             |
