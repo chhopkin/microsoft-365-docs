@@ -17,14 +17,14 @@ description: "Learn about the diagnostic data Microsoft 365 Support engineers ac
 customer-intent: As an administrator, I want to understand what data Microsoft Support can access when I create a support case and how I can track that activity.
 ---
 
-# Understanding Microsoft 365 support case creation nd data access
+# Understanding Microsoft 365 support case creation and data access
 
 This article describes what happens when a support case is created in Microsoft 365 for business, how Microsoft support engineers access customer information, and the level of access that's granted. 
 
 > [!TIP]
 > If you're a home user and you need technical support, see [Contact us](https://support.microsoft.com/en-us/contactus#!).
 
-## What happpens when a support case is created in the Microsoft 365 admin center?
+## What happpens when a support case is created?
 
 When a user creates a support request in the [Microsoft 365 admin center](https://admin.microsoft.com), the user grants Microsoft permission to access only the information that's needed for assistance. This consent is recorded in cross-tenant access settings by adding the Microsoft Support tenant as a service provider partner. The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*, which represents the user roles the Microsoft Support engineer can have in the customer tenant. Implicit consent grants only the `Microsoft365SupportEngineer` role level access. The identity of the person who created the ticket is used for this process.
 
