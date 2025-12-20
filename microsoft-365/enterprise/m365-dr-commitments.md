@@ -55,7 +55,7 @@ The following customer data is stored at rest in the _Local Region Geography_:
 The following customer data is stored at rest in the _Local Region Geography_:
 
 - Microsoft Defender for Office 365 P1 doesn't store any customer data within its service.
-- Exchange Online Protection. The following customer data is stored at rest in the _Local Region Geography_: Service configuration data and policies, quarantined email and attachments, junk email, grading analysis, blocklists (url, tenant, user), spam domains, reports, and alerts.
+- [Built-in security features for all cloud mailboxes](/defender-office-365/eop-about): The following customer data is stored at rest in the _Local Region Geography_: Service configuration data and policies, quarantined email and attachments, junk email, grading analysis, blocklists (url, tenant, user), spam domains, reports, and alerts.
 
 ## Microsoft 365 web apps (formerly known as "Office for the Web")
 
