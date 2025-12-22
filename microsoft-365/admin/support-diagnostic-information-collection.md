@@ -28,7 +28,7 @@ For information about how to create a support case, see [Get support for Microso
 > [!TIP]
 > If you're a home user and you need technical support, see [Contact us](https://support.microsoft.com/en-us/contactus#!).
 
-## What happpens when a support case is created in the Microsoft 365 admin center?
+## What happens when a support case is created in the Microsoft 365 admin center?
 
 When a user creates a support request in the [Microsoft 365 admin center](https://admin.microsoft.com), the user grants Microsoft permission to access only the information that's needed for assistance. This consent is recorded in cross-tenant access settings by adding the Microsoft Support tenant (`b4c546a4-7dac-46a6-a7dd-ed822a11efd3`) as a service provider partner. 
 
