@@ -3,7 +3,7 @@ title: "Understanding Microsoft 365 support case creation and data access"
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 12/20/2025
+ms.date: 12/22/2025
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -19,14 +19,16 @@ customer-intent: As an administrator, I want to understand what data Microsoft S
 
 # Understanding Microsoft 365 support case creation and data access
 
-This article describes what happens when a support case is created in Microsoft 365 for business, how Microsoft support engineers access customer information, and the level of access that's granted. For information about how to create a support case, see [Get support for Microsoft 365 for business](get-help-support.md).
+This article describes what happens when a support case is created in Microsoft 365 for business, how Microsoft support engineers access customer information, the level of access that's granted, and what happens when a support case is closed.
+
+For information about how to create a support case, see [Get support for Microsoft 365 for business](get-help-support.md).
 
 > [!TIP]
 > If you're a home user and you need technical support, see [Contact us](https://support.microsoft.com/en-us/contactus#!).
 
-## What happpens when a support case is created?
+## What happpens when a support case is created in the Microsoft 365 admin center?
 
-When a user creates a support request in the [Microsoft 365 admin center](https://admin.microsoft.com), the user grants Microsoft permission to access only the information that's needed for assistance. This consent is recorded in cross-tenant access settings by adding the Microsoft Support tenant as a service provider partner. The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*, which represents the user roles the Microsoft Support engineer can have in the customer tenant. 
+When a user creates a support request in the [Microsoft 365 admin center](https://admin.microsoft.com), the user grants Microsoft permission to access only the information that's needed for assistance. This consent is recorded in cross-tenant access settings by adding the Microsoft Support tenant (`b4c546a4-7dac-46a6-a7dd-ed822a11efd3`) as a service provider partner. The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*, which represents the user roles the Microsoft Support engineer can have in the customer tenant. 
 
 Implicit consent grants only the `Microsoft365SupportEngineer` role level access. The identity of the person who created the ticket is used for this process.
 
