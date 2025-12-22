@@ -43,45 +43,6 @@ When a support case is created, the following audit events are logged in the cus
 | 1 | If it doesn't exist already, **Add a partner to cross-tenant access setting**<br/>(Microsoft Support tenant only) | User identity who created the support ticket and the Microsoft 365 admin center application |
 | 2 | If it doesn't exist already, **Adding allowed assignable roles**<br/>(`Microsoft365SupportEngineer` role only) | User identity who created the support ticket and the Microsoft 365 admin center application |
 
-## Who can create support tickets?
-
-Authorization to create support tickets is restricted to users who are assigned one of the following roles. These user roles are also permitted to add the Microsoft Support partner as a service provider in cross-tenant access settings. 
-
-- Application Administrator
-- Authentication Administrator
-- Authentication Policy Administrator
-- Azure Information Protection Administrator
-- Billing Administrator
-- Cloud Application Administrator
-- Compliance Administrator
-- Compliance Data Administrator
-- Desktop Analytics Administrator
-- Dynamics 365 Administrator
-- Exchange Administrator
-- Fabric Administrator
-- Global Administrator
-- Global Secure Access Administrator
-- Groups Administrator
-- Helpdesk Administrator
-- Hybrid Identity Administrator
-- Insights Administrator
-- Intune Administrator
-- Office Apps Administrator
-- Power Platform Administrator
-- Privileged Authentication Administrator
-- Security Administrator
-- Security Operator
-- Service Support Administrator
-- SharePoint Administrator
-- Skype for Business Administrator
-- Teams Administrator
-- Teams Communications Administrator
-- Teams Telephony Administrator
-- User Administrator
-- Windows 365 Administrator
-
-Only the Security Administrator, Teams Administrator, and Global Administrator roles can modify any other aspects of cross-tenant access settings.
-
 ## What level of access does Microsoft Support have on the customer tenant?
 
 The level of access is captured as *Delegated Admin Service Provider Constraints*, and currently, the support ticket creation process implicitly grants just the `Microsoft365SupportEngineer` role. This role includes the following actions/permissions:
@@ -121,6 +82,49 @@ When a support case is closed, the following audit events are logged in the cust
 | 1 | **Add a service principal**<br/>(`EntraGDAP` aplication handles revocation) | `AssistAPI` application |
 | 2 | **Deleting allowed assignable roles** | `EntraGDAP` application |
 | 3 | **Delete partner specific cross-tenant access setting** <br/>(Microsoft Support tenant only) | `EntraGDAP` application |
+
+## How long is diagnostic data retained in Microsoft systems?
+
+Microsoft retains diagnostic data for up to 28 days after it's collected. After this period, the data is deleted.
+
+## Who can create support tickets?
+
+Authorization to create support tickets is restricted to users who are assigned one of the following roles. These user roles are also permitted to add the Microsoft Support partner as a service provider in cross-tenant access settings. 
+
+- Application Administrator
+- Authentication Administrator
+- Authentication Policy Administrator
+- Azure Information Protection Administrator
+- Billing Administrator
+- Cloud Application Administrator
+- Compliance Administrator
+- Compliance Data Administrator
+- Desktop Analytics Administrator
+- Dynamics 365 Administrator
+- Exchange Administrator
+- Fabric Administrator
+- Global Administrator
+- Global Secure Access Administrator
+- Groups Administrator
+- Helpdesk Administrator
+- Hybrid Identity Administrator
+- Insights Administrator
+- Intune Administrator
+- Office Apps Administrator
+- Power Platform Administrator
+- Privileged Authentication Administrator
+- Security Administrator
+- Security Operator
+- Service Support Administrator
+- SharePoint Administrator
+- Skype for Business Administrator
+- Teams Administrator
+- Teams Communications Administrator
+- Teams Telephony Administrator
+- User Administrator
+- Windows 365 Administrator
+
+Only the Security Administrator, Teams Administrator, and Global Administrator roles can modify any other aspects of cross-tenant access settings.
 
 ## Learn more about Microsoft Entra audit logs
 
