@@ -118,9 +118,9 @@ When a support case is closed, the following audit events are logged in the cust
 
 | Order | Event | Actor |
 |--|--|--|
-| 1 | Add a service principal<br/>(`EntraGDAP` handles revocation) | `AssistAPI` application |
-| 2 | Deleting allowed assignable roles | `EntraGDAP` application |
-| 3 | Delete partner specific cross-tenant access setting<br/>(Microsoft Support tenant only) | `EntraGDAP` application |
+| 1 | **Add a service principal**<br/>(`EntraGDAP` aplication handles revocation) | `AssistAPI` application |
+| 2 | **Deleting allowed assignable roles** | `EntraGDAP` application |
+| 3 | **Delete partner specific cross-tenant access setting** <br/>(Microsoft Support tenant only) | `EntraGDAP` application |
 
 ## Learn more about Microsoft Entra audit logs
 
