@@ -41,8 +41,7 @@ When a support case is created, the following audit events are logged in the cus
 | Order | Event | Actor |
 |--|--|--|
 | 1 | If it doesn't exist already, **Add a partner to cross-tenant access setting**<br/>(Microsoft Support tenant only) | User identity who created the support ticket and the Microsoft 365 admin center application |
-| Adding allowed assignable roles<br/>(`Microsoft365SupportEngineer` role only) | User identity who created the support ticket and the Microsoft 365 admin center application |
-| Add member to role<br/>(Group from the Microsoft Support tenant added to the `Microsoft365SupportEngineer` role) | AssistAPI application |
+| 2 | If it doesn't exist already, **Adding allowed assignable roles**<br/>(`Microsoft365SupportEngineer` role only) | User identity who created the support ticket and the Microsoft 365 admin center application |
 
 ## Who can create support tickets?
 
