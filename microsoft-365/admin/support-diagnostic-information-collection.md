@@ -58,7 +58,7 @@ The level of access is captured as *Delegated Admin Service Provider Constraints
 
 ## What happens when Microsoft accesses customer tenant information?
 
-When a Microsoft support engineer works on a support case, the following audit events are logged in the customer's Microsoft Entra audit logs:
+Microsoft Support accesses only basic information that's needed to troubleshoot and resolve support cases. When a Microsoft support engineer works on a support case, the following audit events are logged in the customer's Microsoft Entra audit logs:
 
 | Order | Event | Actor |
 |--|--|--|
