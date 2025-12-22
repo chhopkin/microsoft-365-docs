@@ -93,9 +93,18 @@ The level of access is captured as *Delegated Admin Service Provider Constraints
 - `microsoft.directory/servicePrincipals/standard/read`
 - `microsoft.directory/users/standard/read`
 
+## What happens when Microsoft accesses customer tenant information?
+
+When a Microsoft support engineer works on a support case, the following audit events are logged in the customer's Microsoft Entra audit logs:
+
+| Order | Event | Actor |
+|--|--|--|
+| 1 | If it doesn't exist already, **Add a Service Principal** (`EntraGDAP` application)<br/>(Microsoft Support tenant only) | `AssistAPI` application |
+| 2 | **Add member to role** (Group from Microsoft Support tenant added to `Microsoft365SupportEngineer` role) | `AssistAPI` application |
+
 ## How long does Microsoft Support have access?
 
-Access is revoked when the Microsoft Support tenant is removed from cross-tenant access settings. This process is automated and directly linked to the lifecycle of support tickets within the tenant. 
+Microsoft Support access is revoked when the Microsoft Support tenant is removed from the customer's cross-tenant access settings. This process is automated and is directly linked to the lifecycle of support tickets within the tenant. 
 
 Alternatively, a user who has an appropriate role assigned can revoke access at any time by deleting the Microsoft Support tenant partner in cross-tenant access settings. If you revoke access manually, Microsoft Support loses the ability to assist in resolving your support cases.
 
