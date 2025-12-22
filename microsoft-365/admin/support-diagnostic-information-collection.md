@@ -112,15 +112,15 @@ Alternatively, a user who has an appropriate role assigned can revoke access at 
 
 When a support case is closed, Microsoft checks to see if there are any other active support cases open. If there are no other active support cases, Microsoft initiates the access revocation process, which includes multiple steps.
 
-### Audit events seen during support case closure
+### Audit events logged in the customer tenant during support case closure
 
 When a support case is closed, the following audit events are logged in the customer's Microsoft Entra audit logs:
 
-| Event | Actor |
-|--|--|
-| Add a service principal<br/>(`EntraGDAP` handles revocation) | `AssistAPI` application |
-| Deleting allowed assignable roles | `EntraGDAP` application |
-| Delete partner specific cross-tenant access setting<br/>(Microsoft Support tenant only) | `EntraGDAP` application |
+| Order | Event | Actor |
+|--|--|--|
+| 1 | Add a service principal<br/>(`EntraGDAP` handles revocation) | `AssistAPI` application |
+| 2 | Deleting allowed assignable roles | `EntraGDAP` application |
+| 3 | Delete partner specific cross-tenant access setting<br/>(Microsoft Support tenant only) | `EntraGDAP` application |
 
 ## Learn more about Microsoft Entra audit logs
 
