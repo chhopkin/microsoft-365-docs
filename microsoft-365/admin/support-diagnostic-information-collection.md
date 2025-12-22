@@ -34,13 +34,13 @@ The level of access granted for the Microsoft Support tenant is captured as *Del
 
 Implicit consent grants only the `Microsoft365SupportEngineer` role level access. The identity of the person who created the ticket is used for this process.
 
-### Audit events during support case creation
+### Audit events logged in the customer tenant during support case creation
 
 When a support case is created, the following audit events are logged in the customer's Microsoft Entra audit logs:
 
-| Event | Actor |
-|--|--|
-| Add a partner to cross-tenant access setting<br/>(Microsoft Support tenant only) | User identity who created the support ticket and the Microsoft 365 admin center application |
+| Order | Event | Actor |
+|--|--|--|
+| 1 | If it doesn't exist already, **Add a partner to cross-tenant access setting**<br/>(Microsoft Support tenant only) | User identity who created the support ticket and the Microsoft 365 admin center application |
 | Adding allowed assignable roles<br/>(`Microsoft365SupportEngineer` role only) | User identity who created the support ticket and the Microsoft 365 admin center application |
 | Add member to role<br/>(Group from the Microsoft Support tenant added to the `Microsoft365SupportEngineer` role) | AssistAPI application |
 
