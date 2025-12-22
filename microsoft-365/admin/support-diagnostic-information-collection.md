@@ -28,7 +28,9 @@ For information about how to create a support case, see [Get support for Microso
 
 ## What happpens when a support case is created in the Microsoft 365 admin center?
 
-When a user creates a support request in the [Microsoft 365 admin center](https://admin.microsoft.com), the user grants Microsoft permission to access only the information that's needed for assistance. This consent is recorded in cross-tenant access settings by adding the Microsoft Support tenant (`b4c546a4-7dac-46a6-a7dd-ed822a11efd3`) as a service provider partner. The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*, which represents the user roles the Microsoft Support engineer can have in the customer tenant. 
+When a user creates a support request in the [Microsoft 365 admin center](https://admin.microsoft.com), the user grants Microsoft permission to access only the information that's needed for assistance. This consent is recorded in cross-tenant access settings by adding the Microsoft Support tenant (`b4c546a4-7dac-46a6-a7dd-ed822a11efd3`) as a service provider partner. 
+
+The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*, which represents the user roles the Microsoft Support engineer can have in the customer tenant. 
 
 Implicit consent grants only the `Microsoft365SupportEngineer` role level access. The identity of the person who created the ticket is used for this process.
 
