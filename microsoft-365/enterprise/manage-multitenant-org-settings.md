@@ -7,7 +7,7 @@ manager: scotv
 ms.reviewer: jakeost
 ms.service: microsoft-365-enterprise
 ms.topic: how-to
-ms.date: 12/08/2025
+ms.date: 12/23/2025
 ms.subservice: multi-tenant
 ms.collection:
 - must-keep
