@@ -157,17 +157,21 @@ For more information, see the following resources:
 
 Securing your data for AI tools like Microsoft 365 Copilot is a shared responsibility. In addition to what Microsoft does to secure Microsoft 365 Copilot, there are certain tasks your organization must do to manage your data and help ensure you're using AI safely and securely. See the [AI shared responsibility model](/azure/security/fundamentals/shared-responsibility-ai). 
 
+### Learn about Microsoft Purview tools and capabilities
+
 Microsoft Purview provides tools to help you secure and govern your data for use in Microsoft 365 Copilot and AI tools. See the following articles:
 
 - [Use Microsoft Purview to manage data security & compliance for Microsoft 365 Copilot & Microsoft 365 Copilot Chat](/purview/ai-m365-copilot)
 - [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview)
 - [Considerations to manage Microsoft 365 Copilot and Channel Agent in Teams for security and compliance](/purview/ai-m365-copilot-considerations)
-
-Download and review our scenario-based deployment models, presentations, and guides. These resources describe how to rapidly implement a secure-by-default configuration, address oversharing concerns, and prevent data leak to shadow AI. See [Notes from engineering: Microsoft Purview deployment models](https://aka.ms/PurviewBlueprints).
+- [Learn about using Microsoft Purview Data Loss Prevention to protect interactions with Microsoft 365 Copilot and Copilot Chat](/purview/dlp-microsoft365-copilot-location-learn-about)
 
 > [!NOTE]
 > Security Copilot is an AI-powered security solution that provides real-time assistance in threat detection, incident response, and risk assessment. In the coming months, Security Copilot will be included in Microsoft 365 E5. As you make agentic AI a part of your daily workflows, you can use Security Copilot to manage agents and security across your organization. [Learn about Security Copilot inclusion in Microsoft 365 E5 subscription](/copilot/security/security-copilot-inclusion).
 
+### Download scenario-based deployment models and guides
+
+Download and review our scenario-based deployment models, presentations, and guides. These resources describe how to rapidly implement a secure-by-default configuration, address oversharing concerns, and prevent data leak to shadow AI. See [Notes from engineering: Microsoft Purview deployment models](https://aka.ms/PurviewBlueprints).
 
 ### Security dashboard
 <!--10812375-->
@@ -178,7 +182,6 @@ Microsoft 365 Copilot includes built-in security controls from [Microsoft Purvie
 - Strengthen data compliance
 
 To view the dashboard in the [Microsoft 365 admin center](https://admin.microsoft.com), select **Copilot** > **Overview** > **Security**. To display the **Security** section, you need the [Global Reader](/entra/identity/role-based-access-control/permissions-reference#global-reader) role. To make changes the [AI administrator](/entra/identity/role-based-access-control/permissions-reference#ai-administrator) role is required.
-
 
 ## See also
 
