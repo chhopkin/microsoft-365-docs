@@ -471,6 +471,8 @@ items:
           href: wordexcelppt-agents.md
         - name: Word, Excel, and PowerPoint Agents FAQ
           href: faq-wordexcelppt-agents.yml        
+  - name: Manage generative AI apps for your organization
+    href: manage-generative-ai-apps.md
   - name: Service plan diagnostic tool
     href: microsoft-365-copilot-service-plans.md
   - name: Reports and insights
