@@ -40,7 +40,7 @@ The identity of the person who created the support request is used for this proc
 
 Audit events are logged when a support case is opened, when Microsoft Support engineers work on a case, and when a case is closed.
 
-### Audit events logged during support case creation
+### Audit events during support case creation
 
 When a support case is created, the following audit events are logged in the customer's Microsoft Entra audit logs:
 
@@ -49,7 +49,7 @@ When a support case is created, the following audit events are logged in the cus
 | 1 | If it doesn't exist already, **Add a partner to cross-tenant access setting**<br/>(Microsoft Support tenant only) | Identity of the user who created the support ticket |
 | 2 | If it doesn't exist already, **Adding allowed assignable roles**<br/>(`Microsoft365SupportEngineer` role only) | Identity of the user who created the support ticket |
 
-### Audit events logged when Microsoft Support works on a support case
+### Audit events when Microsoft Support works on a support case
 
 When a Microsoft Support engineer works on a support case, the following audit events are logged in the customer's Microsoft Entra audit logs:
 
@@ -58,7 +58,7 @@ When a Microsoft Support engineer works on a support case, the following audit e
 | 1 | If it doesn't exist already, **Add a Service Principal** for the Microsoft Support tenant <br/>(`EntraGDAP` application) | `AssistAPI` application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
 | 2 | **Add member to role**<br/>(Group from Microsoft Support tenant added to `Microsoft365SupportEngineer` role) | `AssistAPI` application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
 
-### Audit events logged during support case closure
+### Audit events during support case closure
 
 When a support case is closed, the following audit events are logged in the customer's Microsoft Entra audit logs:
 
