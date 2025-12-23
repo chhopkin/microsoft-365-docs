@@ -104,7 +104,7 @@ When a support case is closed, the following audit events are logged in the cust
 
 ## How long is diagnostic data retained in Microsoft systems?
 
-Microsoft retains diagnostic data for up to 28 days after it's collected. After this period, the data is deleted.
+Microsoft retains diagnostic data related to a support case for up to 28 days after it's collected. After this period, the data is deleted.
 
 For information about how Microsoft protects customer data, see [Privacy and data management overview](/compliance/assurance/assurance-privacy).
 
