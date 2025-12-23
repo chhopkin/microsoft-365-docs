@@ -23,7 +23,7 @@ Microsoft is improving your visibility into Microsoft Support's read-only access
 
 This article describes the events that are logged in a customer tenant during the Microsoft Support case lifecycle, the access Microsoft Support engineers have, and the types of information that might be accessed for a support case.
 
-> [!TIP]
+> [!NOTE]
 > To learn how to create a support case, see [Get support for Microsoft 365 for business](get-help-support.md).
 > 
 > If you're a home user and you need technical support, see [Contact us](https://support.microsoft.com/en-us/contactus#!).
