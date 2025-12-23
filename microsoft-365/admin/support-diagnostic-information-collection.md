@@ -73,7 +73,7 @@ When a Microsoft Support engineer works on a support case, the following audit e
 | Order | Event | Actor |
 |--|--|--|
 | 1 | If it doesn't exist already, **Add a Service Principal** (`EntraGDAP` application)<br/>(Microsoft Support tenant only) | `AssistAPI` application (appId `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
-| 2 | **Add member to role** (Group from Microsoft Support tenant added to `Microsoft365SupportEngineer` role) | `AssistAPI` application |
+| 2 | **Add member to role** (Group from Microsoft Support tenant added to `Microsoft365SupportEngineer` role) | `AssistAPI` application (appId `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
 
 ## How long does Microsoft Support have access?
 
