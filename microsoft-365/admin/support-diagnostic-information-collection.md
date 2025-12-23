@@ -75,7 +75,7 @@ When a support case is closed, the following audit events are logged in the cust
 
 ## What level of access does Microsoft Support have on the customer tenant?
 
-The level of access is captured as *Delegated Admin Service Provider Constraints*. Currently, the support ticket creation process implicitly grants just the `Microsoft365SupportEngineer` role to Microsoft Support engineers. This role includes the following actions/permissions:
+The level of access is captured as *Delegated Admin Service Provider Constraints*. Currently, the support ticket creation process allows Microsoft Support engineers to assume the `Microsoft365SupportEngineer` role, which includes the following permissions:
 
 - `microsoft.directory/devices/standard/read`
 - `microsoft.directory/domains/standard/read`
