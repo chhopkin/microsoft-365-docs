@@ -95,9 +95,9 @@ Microsoft Support accesses only the information that's needed to troubleshoot an
 | **End-user identifiable information (EUII)**: Data that directly identifies or could be used to identify the authenticated user of a Microsoft service | User-specific IP address (IPv4)<br/><br/>User principal name (`joe@company.com`)<br/><br/>Address book data<br/><br/>User's machine name<br/><br/>SIP URI |
 | **End-user pseudonymous identifiers (EUPI)**: An identifier created by Microsoft tied to the user of a Microsoft service | User GUIDs or PUIDs<br/><br/>Session IDs |
 
-## How long does Microsoft Support have access?
+## How long does Microsoft Support have access to tenant data?
 
-Microsoft Support access is revoked when the Microsoft Support tenant is removed from the customer's cross-tenant access settings. This process is automated and is directly linked to the lifecycle of support cases within the tenant. 
+Access to tenant data is revoked when the Microsoft Support tenant is removed from the customer's cross-tenant access settings. This process is automated and is directly linked to the lifecycle of support cases within the tenant. 
 
 If a case is opened for more than 30 days, access is revoked, provided there aren't any other, newer cases opened. A customer can open a new support case or reopen a closed case to restore access.
 
