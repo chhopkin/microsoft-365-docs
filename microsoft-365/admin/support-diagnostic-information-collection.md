@@ -54,9 +54,9 @@ The level of access is captured as *Delegated Admin Service Provider Constraints
 - `microsoft.directory/servicePrincipals/standard/read`
 - `microsoft.directory/users/standard/read`
 
-## What happens when Microsoft accesses customer tenant information?
+## What information can Microsoft Support access?
 
-Microsoft Support accesses only basic information that's needed to troubleshoot and resolve support cases. Depending on the nature of your support request, the data that Microsoft can access would belong under one or more of the following categories:
+Microsoft Support accesses only the information that's needed to troubleshoot and resolve support cases. Depending on the nature of your support request, the data that Microsoft can access would belong under one or more of categories in the following table:
 
 | Category | Examples |
 |--|--|
