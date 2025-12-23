@@ -36,7 +36,9 @@ The level of access granted for the Microsoft Support tenant is captured as *Del
 
 The identity of the person who created the support request is used for this process.
 
-### Audit events logged in the customer tenant during support case creation
+## What audit events are logged during a Microsoft Support case lifecycle?
+
+### Audit events logged during support case creation
 
 When a support case is created, the following audit events are logged in the customer's Microsoft Entra audit logs:
 
@@ -44,6 +46,25 @@ When a support case is created, the following audit events are logged in the cus
 |--|--|--|
 | 1 | If it doesn't exist already, **Add a partner to cross-tenant access setting**<br/>(Microsoft Support tenant only) | Identity of the user who created the support ticket |
 | 2 | If it doesn't exist already, **Adding allowed assignable roles**<br/>(`Microsoft365SupportEngineer` role only) | Identity of the user who created the support ticket |
+
+### Audit events logged when Microsoft Support works on a support case
+
+When a Microsoft Support engineer works on a support case, the following audit events are logged in the customer's Microsoft Entra audit logs:
+
+| Order | Event | Actor |
+|--|--|--|
+| 1 | If it doesn't exist already, **Add a Service Principal** for the Microsoft Support tenant <br/>(`EntraGDAP` application) | `AssistAPI` application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
+| 2 | **Add member to role**<br/>(Group from Microsoft Support tenant added to `Microsoft365SupportEngineer` role) | `AssistAPI` application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
+
+### Audit events logged during support case closure
+
+When a support case is closed, the following audit events are logged in the customer's Microsoft Entra audit logs:
+
+| Order | Event | Actor |
+|--|--|--|
+| 1 | **Add a service principal**<br/>(The `EntraGDAP` application handles revocation) | `AssistAPI` application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
+| 2 | **Deleting allowed assignable roles** | `EntraGDAP` application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
+| 3 | **Delete partner specific cross-tenant access setting** <br/>(Removes only the Microsoft Support tenant) | `EntraGDAP` application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
 
 ## What level of access does Microsoft Support have on the customer tenant?
 
@@ -69,14 +90,6 @@ Microsoft Support accesses only the information that's needed to troubleshoot an
 | **End-user identifiable information (EUII)**: Data that directly identifies or could be used to identify the authenticated user of a Microsoft service | User-specific IP address (IPv4)<br/><br/>User principal name (`joe@company.com`)<br/><br/>Address book data<br/><br/>User's machine name<br/><br/>SIP URI |
 | **End-user pseudonymous identifiers (EUPI)**: An identifier created by Microsoft tied to the user of a Microsoft service | User GUIDs or PUIDs<br/><br/>Session IDs |
 
-### Audit events logged in the customer tenant when Microsoft Support works on a support case
-
-When a Microsoft Support engineer works on a support case, the following audit events are logged in the customer's Microsoft Entra audit logs:
-
-| Order | Event | Actor |
-|--|--|--|
-| 1 | If it doesn't exist already, **Add a Service Principal** for the Microsoft Support tenant <br/>(`EntraGDAP` application) | `AssistAPI` application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
-| 2 | **Add member to role**<br/>(Group from Microsoft Support tenant added to `Microsoft365SupportEngineer` role) | `AssistAPI` application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
 
 ## How long does Microsoft Support have access?
 
@@ -92,16 +105,6 @@ Customers can also revoke access at any time by deleting the Microsoft Support t
 ## What happens when a support case is closed?
 
 When a support case is closed, Microsoft checks to see if there are any other active support cases open. If there are no other active support cases, Microsoft initiates the access revocation process, which includes multiple steps.
-
-### Audit events logged in the customer tenant during support case closure
-
-When a support case is closed, the following audit events are logged in the customer's Microsoft Entra audit logs:
-
-| Order | Event | Actor |
-|--|--|--|
-| 1 | **Add a service principal**<br/>(The `EntraGDAP` application handles revocation) | `AssistAPI` application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
-| 2 | **Deleting allowed assignable roles** | `EntraGDAP` application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
-| 3 | **Delete partner specific cross-tenant access setting** <br/>(Removes only the Microsoft Support tenant) | `EntraGDAP` application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
 
 ## How long is diagnostic data retained in Microsoft systems?
 
