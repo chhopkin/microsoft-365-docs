@@ -38,7 +38,12 @@ The identity of the person who created the support request is used for this proc
 
 ## What audit events are logged during a Microsoft Support case lifecycle?
 
-Audit events are logged when a support case is opened, when Microsoft Support engineers work on a case, and when a case is closed.
+Audit events are logged when a support case is opened, when Microsoft Support engineers work on a case, and when a case is closed. 
+
+To learn more about Microsoft Entra audit logs, see the following articles:
+
+- [What are Microsoft Entra audit logs?](/entra/identity/monitoring-health/concept-audit-logs)
+- [How to access activity logs in MIcrosoft Entra ID](/entra/identity/monitoring-health/howto-access-activity-logs)
 
 ### Audit events during support case creation
 
@@ -56,7 +61,7 @@ When a Microsoft Support engineer works on a support case, the following audit e
 | Order | Event | Actor |
 |--|--|--|
 | 1 | If it doesn't exist already, **Add a Service Principal** for the Microsoft Support tenant <br/>(`EntraGDAP` application) | `AssistAPI` application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
-| 2 | **Add member to role**<br/>(Group from Microsoft Support tenant added to `Microsoft365SupportEngineer` role) | `AssistAPI` application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
+| 2 | **Add member to role** (Group from Microsoft Support tenant added to `Microsoft365SupportEngineer` role) | `AssistAPI` application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
 
 ### Audit events during support case closure
 
