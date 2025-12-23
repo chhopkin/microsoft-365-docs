@@ -29,11 +29,9 @@ This article describes the events that are logged in a customer tenant during th
 
 ## What happens when a support case is created in the Microsoft 365 admin center?
 
-When a customer submits a support request in the [Microsoft 365 admin center](https://admin.microsoft.com), they grant Microsoft Support permission to access the information that's needed for assistance. This activity is recorded in the customer's cross-tenant access settings by adding the Microsoft Support tenant (Tenant ID `b4c546a4-7dac-46a6-a7dd-ed822a11efd3`) as a service provider partner. 
+When a customer submits a support request in the [Microsoft 365 admin center](https://admin.microsoft.com), they grant Microsoft Support permission to access the information that's needed for assistance. This activity is recorded in the customer's cross-tenant access settings by adding the Microsoft Support tenant (Tenant ID `b4c546a4-7dac-46a6-a7dd-ed822a11efd3`) as a service provider partner. In cross-tenant access settings, the Microsoft Support tenant is considered to be a partner (see [Partner cross-tenant access settings](/graph/api/resources/crosstenantaccesspolicy-overview?view=graph-rest-1.0)).
 
-The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*, which represents the user role a Microsoft Support engineer can have in the customer tenant. 
-
-Implicit consent grants only the `Microsoft365SupportEngineer` role level access. The identity of the person who created the ticket is used for this process.
+The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*, which represents the user role a Microsoft Support engineer can have in the customer tenant. The `Microsoft365SupportEngineer` role is used for Microsoft Support engineers. The identity of the person who created the support request is used for this process.
 
 ### Audit events logged in the customer tenant during support case creation
 
