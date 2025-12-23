@@ -38,6 +38,8 @@ The identity of the person who created the support request is used for this proc
 
 ## What audit events are logged during a Microsoft Support case lifecycle?
 
+Audit events are logged when a support case is opened, when Microsoft Support engineers work on a case, and when a case is closed.
+
 ### Audit events logged during support case creation
 
 When a support case is created, the following audit events are logged in the customer's Microsoft Entra audit logs:
@@ -89,7 +91,6 @@ Microsoft Support accesses only the information that's needed to troubleshoot an
 | **Organization identifiable information (OII)**: Data that can be used to identify a particular tenant, deployment, or organization (generally config or usage data) | Tenant ID (non-GUID)<br/><br/>TenantID (GUID) due to the existence of many out of boundary `TenantID` to name mapping tables<br/><br/>Tenant usage data<br/><br/>Tenant IP addresses (IPv4), such as tenant's firewall IP address<br/><br/>Global prefix and subnet ID (first 64 bits of IPv6 address)<br/><br/>Tenant domain name in e-mail address (such as `joe@contoso.com`)<br/><br/>Mapping of organizational GUID to organization |
 | **End-user identifiable information (EUII)**: Data that directly identifies or could be used to identify the authenticated user of a Microsoft service | User-specific IP address (IPv4)<br/><br/>User principal name (`joe@company.com`)<br/><br/>Address book data<br/><br/>User's machine name<br/><br/>SIP URI |
 | **End-user pseudonymous identifiers (EUPI)**: An identifier created by Microsoft tied to the user of a Microsoft service | User GUIDs or PUIDs<br/><br/>Session IDs |
-
 
 ## How long does Microsoft Support have access?
 
