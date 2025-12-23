@@ -86,7 +86,7 @@ The level of access is captured as *Delegated Admin Service Provider Constraints
 
 ## What information can Microsoft Support access?
 
-Microsoft Support accesses only the information that's needed to troubleshoot and resolve support cases. Depending on the nature of your support request, the data that Microsoft Support can access would belong under one or more of categories in the following table:
+Microsoft Support accesses only the information that's needed to troubleshoot and resolve support cases. Depending on the nature of your support request, the data that Microsoft Support can access would belong under the categories listed in the following table:
 
 | Category | Examples |
 |--|--|
