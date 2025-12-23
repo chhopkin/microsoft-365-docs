@@ -175,7 +175,7 @@ Download and review our scenario-based deployment models, presentations, and gui
 
 ### Security dashboard
 <!--10812375-->
-Microsoft 365 Copilot includes built-in security controls from [Microsoft Purview](/purview/ai-m365-copilot). The Copilot security dashboard provides additional insights and controls to help you:
+Microsoft 365 Copilot includes built-in security controls from [Microsoft Purview](/purview/ai-m365-copilot). The Copilot security dashboard provides more insights and controls to help you:
 
 - Prevent data leaks with a [data loss prevention (DLP) policy](/purview/dlp-microsoft365-copilot-location-learn-about)
 - Manage data oversharing
