@@ -84,7 +84,7 @@ If a case is opened for more than 30 days, access is revoked, provided there are
 Customers can also revoke access at any time by deleting the Microsoft Support tenant partner in cross-tenant access settings. To remove Office 365 (`b4c546a4-7dac-46a6-a7dd-ed822a11efd3`), follow the steps in [Cross-tenant access settings: Remove an organization](/entra/external-id/cross-tenant-access-settings-b2b-collaboration#remove-an-organization).
 
 > [!CAUTION]
-> If you revoke access manually, Microsoft Support loses the ability to assist in resolving your support cases.
+> If you revoke access manually, Microsoft Support loses the ability to help resolve your support cases.
 
 ## What happens when a support case is closed?
 
@@ -98,7 +98,7 @@ When a support case is closed, the following audit events are logged in the cust
 |--|--|--|
 | 1 | **Add a service principal**<br/>(`EntraGDAP` application handles revocation) | `AssistAPI` application (appid `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
 | 2 | **Deleting allowed assignable roles** | `EntraGDAP` application (appid `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
-| 3 | **Delete partner specific cross-tenant access setting** <br/>(removes only the Microsoft Support tenant) | `EntraGDAP` application (appid `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
+| 3 | **Delete partner specific cross-tenant access setting** <br/>(Removes only the Microsoft Support tenant) | `EntraGDAP` application (appid `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
 
 ## How long is diagnostic data retained in Microsoft systems?
 
