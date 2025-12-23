@@ -44,7 +44,7 @@ When a support case is created, the following audit events are logged in the cus
 
 ## What level of access does Microsoft Support have on the customer tenant?
 
-The level of access is captured as *Delegated Admin Service Provider Constraints*, and currently, the support ticket creation process implicitly grants just the `Microsoft365SupportEngineer` role. This role includes the following actions/permissions:
+The level of access is captured as *Delegated Admin Service Provider Constraints*. Currently, the support ticket creation process implicitly grants just the `Microsoft365SupportEngineer` role to Microsoft Support engineers. This role includes the following actions/permissions:
 
 - `microsoft.directory/devices/standard/read`
 - `microsoft.directory/domains/standard/read`
@@ -55,7 +55,7 @@ The level of access is captured as *Delegated Admin Service Provider Constraints
 
 ## What information can Microsoft Support access?
 
-Microsoft Support accesses only the information that's needed to troubleshoot and resolve support cases. Depending on the nature of your support request, the data that Microsoft can access would belong under one or more of categories in the following table:
+Microsoft Support accesses only the information that's needed to troubleshoot and resolve support cases. Depending on the nature of your support request, the data that Microsoft Support can access would belong under one or more of categories in the following table:
 
 | Category | Examples |
 |--|--|
@@ -68,11 +68,11 @@ Microsoft Support accesses only the information that's needed to troubleshoot an
 
 ### Audit events logged in the customer tenant when Microsoft Support works on a support case
 
-When a Microsoft support engineer works on a support case, the following audit events are logged in the customer's Microsoft Entra audit logs:
+When a Microsoft Support engineer works on a support case, the following audit events are logged in the customer's Microsoft Entra audit logs:
 
 | Order | Event | Actor |
 |--|--|--|
-| 1 | If it doesn't exist already, **Add a Service Principal** (`EntraGDAP` application)<br/>(Microsoft Support tenant only) | `AssistAPI` application |
+| 1 | If it doesn't exist already, **Add a Service Principal** (`EntraGDAP` application)<br/>(Microsoft Support tenant only) | `AssistAPI` application (appId `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
 | 2 | **Add member to role** (Group from Microsoft Support tenant added to `Microsoft365SupportEngineer` role) | `AssistAPI` application |
 
 ## How long does Microsoft Support have access?
