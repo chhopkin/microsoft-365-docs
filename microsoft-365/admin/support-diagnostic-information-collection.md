@@ -19,12 +19,12 @@ customer-intent: As an administrator, I want to understand what data Microsoft S
 
 # Understanding Microsoft 365 support case creation and data access
 
-Microsoft is improving your visibility into Microsoft Support's read-only access to customer data during the support lifecycle. When a customer creates a [support request](get-help-support.md), cross-tenant access is granted to Microsoft Support to access the information that's needed to troubleshoot the issue. This access is time bound and uses least-privileged access, in accordance with [Zero Trust Principles](/security/zero-trust/zero-trust-overview).
+Microsoft is improving your visibility into Microsoft Support's read-only access to customer data during the support lifecycle. When a customer creates a support request, [cross-tenant access](/entra/external-id/cross-tenant-access-overview) is granted to Microsoft Support to access the information that's needed to troubleshoot the issue. This access is time bound and uses least-privileged access, in accordance with [Zero Trust Principles](/security/zero-trust/zero-trust-overview).
 
 This article describes the events that are logged in a customer tenant during the Microsoft Support case lifecycle, the access Microsoft Support engineers have, and the types of information that might be accessed for a support case.
 
 > [!TIP]
-> If you're a home user and you need technical support, see [Contact us](https://support.microsoft.com/en-us/contactus#!).
+> To learn how to create a support case, see [Get support for Microsoft 365 for business](get-help-support.md).If you're a home user and you need technical support, see [Contact us](https://support.microsoft.com/en-us/contactus#!).
 
 ## What happens when a support case is created in the Microsoft 365 admin center?
 
