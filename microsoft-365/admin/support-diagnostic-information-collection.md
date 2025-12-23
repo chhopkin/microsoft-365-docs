@@ -39,8 +39,8 @@ When a support case is created, the following audit events are logged in the cus
 
 | Order | Event | Actor |
 |--|--|--|
-| 1 | If it doesn't exist already, **Add a partner to cross-tenant access setting**<br/>(Microsoft Support tenant only) | - Identity of the user who created the support ticket |
-| 2 | If it doesn't exist already, **Adding allowed assignable roles**<br/>(`Microsoft365SupportEngineer` role only) | - Identity of the user who created the support ticket |
+| 1 | If it doesn't exist already, **Add a partner to cross-tenant access setting**<br/>(Microsoft Support tenant only) | Identity of the user who created the support ticket |
+| 2 | If it doesn't exist already, **Adding allowed assignable roles**<br/>(`Microsoft365SupportEngineer` role only) | Identity of the user who created the support ticket |
 
 ## What level of access does Microsoft Support have on the customer tenant?
 
