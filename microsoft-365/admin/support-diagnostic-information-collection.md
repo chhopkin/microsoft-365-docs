@@ -31,7 +31,9 @@ This article describes the events that are logged in a customer tenant during th
 
 When a customer submits a support request in the [Microsoft 365 admin center](https://admin.microsoft.com), they grant Microsoft Support permission to access the information that's needed for assistance. This activity is recorded in the customer's cross-tenant access settings by adding the Microsoft Support tenant (Tenant ID `b4c546a4-7dac-46a6-a7dd-ed822a11efd3`) as a service provider partner. In this configuration, the Microsoft Support tenant is treated as a partner (see [Partner cross-tenant access settings](/graph/api/resources/crosstenantaccesspolicy-overview)).
 
-The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*, which represents the user role a Microsoft Support engineer can have in the customer tenant. The `Microsoft365SupportEngineer` role is used for Microsoft Support engineers. The identity of the person who created the support request is used for this process.
+The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*, which represents the user role a Microsoft Support engineer can have in the customer tenant. The `Microsoft365SupportEngineer` role is used for Microsoft Support engineers. 
+
+The identity of the person who created the support request is used for this process.
 
 ### Audit events logged in the customer tenant during support case creation
 
@@ -72,8 +74,8 @@ When a Microsoft Support engineer works on a support case, the following audit e
 
 | Order | Event | Actor |
 |--|--|--|
-| 1 | If it doesn't exist already, **Add a Service Principal** (`EntraGDAP` application)<br/>(Microsoft Support tenant only) | `AssistAPI` application (appId `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
-| 2 | **Add member to role** (Group from Microsoft Support tenant added to `Microsoft365SupportEngineer` role) | `AssistAPI` application (appId `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
+| 1 | If it doesn't exist already, **Add a Service Principal** (`EntraGDAP` application)<br/>(Microsoft Support tenant only) | `AssistAPI` application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
+| 2 | **Add member to role** (Group from Microsoft Support tenant added to `Microsoft365SupportEngineer` role) | `AssistAPI` application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
 
 ## How long does Microsoft Support have access?
 
@@ -96,9 +98,9 @@ When a support case is closed, the following audit events are logged in the cust
 
 | Order | Event | Actor |
 |--|--|--|
-| 1 | **Add a service principal**<br/>(`EntraGDAP` application handles revocation) | `AssistAPI` application (appid `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
-| 2 | **Deleting allowed assignable roles** | `EntraGDAP` application (appid `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
-| 3 | **Delete partner specific cross-tenant access setting** <br/>(Removes only the Microsoft Support tenant) | `EntraGDAP` application (appid `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
+| 1 | **Add a service principal**<br/>(`EntraGDAP` application handles revocation) | `AssistAPI` application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
+| 2 | **Deleting allowed assignable roles** | `EntraGDAP` application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
+| 3 | **Delete partner specific cross-tenant access setting** <br/>(Removes only the Microsoft Support tenant) | `EntraGDAP` application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
 
 ## How long is diagnostic data retained in Microsoft systems?
 
