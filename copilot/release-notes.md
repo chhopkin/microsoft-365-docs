@@ -280,7 +280,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   Create branded PowerPoint slides by pulling images and templates from your company’s SharePoint asset library or Templafy integration.
 
-    **Roadmap ID:**  <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=496366" target="_blank">496366</a>
+    **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=496366" target="_blank">496366</a>
       
   **Details:**
 
@@ -4653,7 +4653,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   Create branded PowerPoint slides by pulling images and templates from your company’s SharePoint asset library or Templafy integration.
 
-    **Roadmap ID:**  <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=496366" target="_blank">496366</a>
+    **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=496366" target="_blank">496366</a>
       
   **Details:**
 
@@ -6880,7 +6880,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   Create branded PowerPoint slides by pulling images and templates from your company’s SharePoint asset library or Templafy integration.
 
-    **Roadmap ID:**  <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=496366" target="_blank">496366</a>
+    **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=496366" target="_blank">496366</a>
       
   **Details:**
 
@@ -12634,3 +12634,4 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
