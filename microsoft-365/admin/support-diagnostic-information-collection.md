@@ -77,9 +77,11 @@ When a Microsoft Support engineer works on a support case, the following audit e
 
 ## How long does Microsoft Support have access?
 
-Microsoft Support access is revoked when the Microsoft Support tenant is removed from the customer's cross-tenant access settings. This process is automated and is directly linked to the lifecycle of support tickets within the tenant. If a case is opened for more than 30 days, access is revoked, provided there aren't any other, newer cases opened.
+Microsoft Support access is revoked when the Microsoft Support tenant is removed from the customer's cross-tenant access settings. This process is automated and is directly linked to the lifecycle of support cases within the tenant. 
 
-Alternatively, you can revoke access at any time by deleting the Microsoft Support tenant partner in cross-tenant access settings. To remove Office 365 (`b4c546a4-7dac-46a6-a7dd-ed822a11efd3`), follow the steps in [Cross-tenant access settings: Remove an organization](/entra/external-id/cross-tenant-access-settings-b2b-collaboration#remove-an-organization).
+If a case is opened for more than 30 days, access is revoked, provided there aren't any other, newer cases opened. The customer can open a new support case or reopen a closed case to restore access.
+
+Customers can also revoke access at any time by deleting the Microsoft Support tenant partner in cross-tenant access settings. To remove Office 365 (`b4c546a4-7dac-46a6-a7dd-ed822a11efd3`), follow the steps in [Cross-tenant access settings: Remove an organization](/entra/external-id/cross-tenant-access-settings-b2b-collaboration#remove-an-organization).
 
 > [!CAUTION]
 > If you revoke access manually, Microsoft Support loses the ability to assist in resolving your support cases.
