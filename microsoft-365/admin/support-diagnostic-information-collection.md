@@ -104,6 +104,8 @@ When a support case is closed, the following audit events are logged in the cust
 
 Microsoft retains diagnostic data for up to 28 days after it's collected. After this period, the data is deleted.
 
+For information about how Microsoft protects customer data, see [Privacy and data management overview](/compliance/assurance/assurance-privacy).
+
 ## Who can create support tickets?
 
 Authorization to create support tickets is restricted to users who are assigned one of the following roles. These user roles are also permitted to add the Microsoft Support partner as a service provider in cross-tenant access settings. 
@@ -143,9 +145,10 @@ Authorization to create support tickets is restricted to users who are assigned 
 
 Only the Security Administrator, Teams Administrator, and Global Administrator roles can modify any other aspects of cross-tenant access settings.
 
-## Learn more about Microsoft Entra audit logs
+## See also
 
-See the following resources for more information about the audit logs:
-
+- [Overview: Cross-tenant access with Microsoft Entra External ID](/entra/external-id/cross-tenant-access-overview)
 - [What are Microsoft Entra audit logs?](/entra/identity/monitoring-health/concept-audit-logs)
 - [How to customize and filter identity activity logs](/entra/identity/monitoring-health/howto-customize-filter-logs)
+- [Personnel management overview - Microsoft Service Assurance](/compliance/assurance/assurance-human-resources)
+- [Audit logging and monitoring overview - Microsoft Service Assurance](/compliance/assurance/assurance-audit-logging)
