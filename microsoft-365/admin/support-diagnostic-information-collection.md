@@ -79,7 +79,7 @@ When a Microsoft Support engineer works on a support case, the following audit e
 
 Microsoft Support access is revoked when the Microsoft Support tenant is removed from the customer's cross-tenant access settings. This process is automated and is directly linked to the lifecycle of support cases within the tenant. 
 
-If a case is opened for more than 30 days, access is revoked, provided there aren't any other, newer cases opened. The customer can open a new support case or reopen a closed case to restore access.
+If a case is opened for more than 30 days, access is revoked, provided there aren't any other, newer cases opened. A customer can open a new support case or reopen a closed case to restore access.
 
 Customers can also revoke access at any time by deleting the Microsoft Support tenant partner in cross-tenant access settings. To remove Office 365 (`b4c546a4-7dac-46a6-a7dd-ed822a11efd3`), follow the steps in [Cross-tenant access settings: Remove an organization](/entra/external-id/cross-tenant-access-settings-b2b-collaboration#remove-an-organization).
 
@@ -96,9 +96,9 @@ When a support case is closed, the following audit events are logged in the cust
 
 | Order | Event | Actor |
 |--|--|--|
-| 1 | **Add a service principal**<br/>(`EntraGDAP` application handles revocation) | `AssistAPI` application |
-| 2 | **Deleting allowed assignable roles** | `EntraGDAP` application |
-| 3 | **Delete partner specific cross-tenant access setting** <br/>(Microsoft Support tenant only) | `EntraGDAP` application |
+| 1 | **Add a service principal**<br/>(`EntraGDAP` application handles revocation) | `AssistAPI` application (appid `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
+| 2 | **Deleting allowed assignable roles** | `EntraGDAP` application (appid `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
+| 3 | **Delete partner specific cross-tenant access setting** <br/>(removes only the Microsoft Support tenant) | `EntraGDAP` application (appid `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
 
 ## How long is diagnostic data retained in Microsoft systems?
 
