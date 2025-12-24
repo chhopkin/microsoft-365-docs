@@ -48,3 +48,7 @@ The People settings section includes the settings for
 
 - [Profile card enrichment and customization](/microsoft-365/admin/manage/customize-profile-cards)
 
+- [Turn pronouns on or off for your organization](/microsoft-365/admin/add-users/turn-pronouns-on-or-off?view=o365-worldwide)
+
+- [User name pronunciation in Teams](/microsoftteams/name-pronunciation)
+
