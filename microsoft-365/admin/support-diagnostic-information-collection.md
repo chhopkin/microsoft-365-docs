@@ -71,7 +71,7 @@ When a support case is closed, the following audit events are logged in the cust
 | 2 | **Deleting allowed assignable roles** | `EntraGDAP` application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
 | 3 | **Delete partner specific cross-tenant access setting** <br/>(Removes only the Microsoft Support tenant) | `EntraGDAP` application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
 
-### What is the AssistAPI application shown in audit logs?
+### What is the AssistAPI application shown in audit logs, and how do I find it in my tenant?
 
 `AssistAPI` is a Microsoft-owned application that has Application ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`.  In audit events, you can see the service principal ID of the `AssistAPI` application, which is unique to your tenant. 
 
