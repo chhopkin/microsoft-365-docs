@@ -85,8 +85,8 @@ The level of access is captured as *Delegated Admin Service Provider Constraints
 | `microsoft.directory/deviceManagementPolicies/standard/read` | Read standard properties on mobile device management and mobile app management policies |
 | `microsoft.directory/deviceRegistrationPolicy/standard/read | Read standard properties on device registration policies |
 | `microsoft.directory/devices/standard/read` | Read basic properties on devices |
-microsoft.directory/directoryRoles/allProperties/read    Read all properties of directory roles
-microsoft.directory/directoryRoles/members/read    Read all members of Microsoft Entra roles
+| `microsoft.directory/directoryRoles/allProperties/read | Read all properties of directory roles |
+| `microsoft.directory/directoryRoles/members/read | Read all members of Microsoft Entra roles |
 microsoft.directory/domains/allProperties/read    Read all properties of domains
 microsoft.directory/domains/standard/read    Read basic properties on domains
 microsoft.directory/groups/allProperties/read    Read all properties (including privileged properties) on Security groups and Microsoft 365 groups, including role-assignable groups
