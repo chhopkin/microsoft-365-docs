@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 US Government DOD endpoints
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 10/30/2025

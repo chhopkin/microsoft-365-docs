@@ -60,7 +60,7 @@ Copilot Pages + Copilot Notebooks container has a maximum size of 25 TB. This li
 > When a user selects the Copilot Pages module in the Microsoft 365 Copilot app, a SharePoint Embedded container is currently created automatically—even if the user doesn't go on to create a Copilot Page. If no files are added to the container, the system will later delete it automatically. *This behavior is temporary.* An update is in progress to ensure that a Copilot Pages container is only created when a user actually creates a Copilot Page. Until that update is deployed, IT administrators and compliance officers can safely disregard these system-initiated deletions. These containers don't contain any user-generated content when they're removed.
 
 > [!IMPORTANT]
-> A feature for IT admins to assign temporary custodians during the cleanup period of user-owned workspaces isn't yet available. This capability for Copilot Pages and Copilot Notebooks is planned (Microsoft Roadmap ID 421612).
+> A workflow for IT admins to assign temporary custodians during the cleanup period of user-owned workspaces isn't yet available. This capability for Copilot Pages and Copilot Notebooks is planned (Microsoft Roadmap ID 421612).
 
 ### Copilot Notebooks
 
@@ -69,7 +69,7 @@ Copilot Pages + Copilot Notebooks container has a maximum size of 25 TB. This li
 - Admins can recover the entire container with all Copilot Notebooks and Copilot Pages during the soft delete period using the SharePoint Admin Center or PowerShell.
 
 > [!IMPORTANT]
-> A feature for IT admins to assign temporary custodians during the cleanup period of user-owned workspaces isn't yet available. This capability for Copilot Pages and Copilot Notebooks is planned (Microsoft Roadmap ID 421612).
+> A workflow for IT admins to assign temporary custodians during the cleanup period of user-owned workspaces isn't yet available. This capability for Copilot Pages and Copilot Notebooks is planned (Microsoft Roadmap ID 421612).
 
 > [!IMPORTANT]
 > There is no end user recycle bin for Copilot Notebooks. Neither Administrators nor end users can recover individually deleted Copilot Notebooks.

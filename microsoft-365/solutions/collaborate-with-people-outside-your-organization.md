@@ -18,6 +18,7 @@ ms.collection:
 ms.custom: 
 - seo-marvel-apr2020
 - seo-marvel-jun2020
+- m365-solutions-doc-set
 ms.localizationpriority: medium
 f1.keywords: NOCSH
 recommendations: false

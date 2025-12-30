@@ -17,7 +17,7 @@ ms.collection:
 - remotework
 - m365solution-remotework
 - m365solution-scenario
-ms.custom: 
+ms.custom: m365-solutions-doc-set
 description: Enable your users to be productive with Teams, Exchange, SharePoint, and other Microsoft 365 services.
 ---
 

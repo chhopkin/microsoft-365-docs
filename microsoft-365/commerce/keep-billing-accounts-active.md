@@ -6,7 +6,7 @@ ms.author: cmcatee
 manager: scotv
 ms.reviewer: jkinma, ramagane
 audience: Admin
-ms.topic: conceptual
+ms.topic: article
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-management
 ms.localizationpriority: medium
@@ -25,7 +25,7 @@ ms.date: 09/15/2025
 
 # Keep your Microsoft business billing account active
 
-If a billing account is unused for a certain amount of time, it's classified as *inactive*. An inactive billing account can increase potential security risks to that account and the resources it contains. To reduce this risk, Microsoft takes measures to secure, protect, and ultimately delete inactive billing accounts, tenants, and subscriptions within them.
+If a billing account remains unused for a certain amount of time, it is classified as *inactive*. An inactive billing account can increase potential security risks to that account and the resources it contains. To reduce this risk, Microsoft takes measures to secure, protect, and ultimately delete inactive billing accounts, tenants, and subscriptions within them.
 
 This article applies to the following agreements:
 
@@ -62,7 +62,7 @@ When your billing account is blocked, you can no longer perform certain actions,
 - If you bought your subscription directly from Microsoft, [contact Microsoft Support](../admin/get-help-support.md).
 - If you're a Partner or Enterprise customer, contact your partner or account manager.
 
-**If you have a billing account with a prepaid subscription set to auto-renew:** After your billing account is blocked, if no action is taken, you receive a notification of tenant deauthorization. This step can be avoided or reversed within the allowed timeframe specified in the notification. Subscription usage isn't affected until a lifecycle management event occurs, like when a payment method expires. At that time, subscriptions might expire and be deleted, followed by billing account expiration and deletion.
+**If you have a billing account with a prepaid subscription set to auto-renew:** After your billing account is blocked, if no action is taken, you receive a notification of tenant deauthorization. This step can be avoided or reversed within the allowed timeframe specified in the notification. Subscription usage isn't affected until a lifecycle management event occurs, like when a payment method expires. At that time, Microsoft might expire and delete subscriptions, and then expire and delete the billing account.
 
 **All other customers:** After your billing account is blocked, if no action is taken, subscription suspension, tenant deauthorization, and account termination might occur. Before each step is implemented, you receive a notification that contains the details and timeframe for that specific step. Each step can be avoided or reversed within the allowed time by contacting the support channels listed in this section.
 

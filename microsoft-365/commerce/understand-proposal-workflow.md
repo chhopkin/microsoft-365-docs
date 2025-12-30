@@ -9,7 +9,7 @@ ms.reviewer: titung, jasoni
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
-ms.subservice: m365-commerce-volume-licensing
+ms.subservice: m365-commerce-marketplace
 ms.localizationpriority: medium
 ms.collection:
 - Tier1

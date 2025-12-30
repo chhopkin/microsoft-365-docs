@@ -3,7 +3,7 @@ title: "Step 2. Provide remote access to on-premises apps and services"
 f1.keywords:
 - NOCSH
 author: brendacarter
-ms.author: bcarter
+ms.author: dansimp
 manager: dansimp
 ms.date: 05/01/2020
 audience: ITPro
@@ -17,7 +17,7 @@ ms.collection:
 - remotework
 - m365solution-remotework
 - m365solution-scenario
-ms.custom:
+ms.custom: m365-solutions-doc-set
 description: Ensure that your remote workers can access on-premises resources while optimizing access to Microsoft 365 cloud services.
 ---
 

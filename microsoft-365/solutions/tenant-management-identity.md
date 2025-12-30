@@ -18,6 +18,7 @@ ms.collection:
 - must-keep
 ms.custom:
 - Ent_Solutions
+- m365-solutions-doc-set
 description: "Deploy the correct identity model for your Microsoft 365 tenants and enforce strong user sign-ins."
 ---
 

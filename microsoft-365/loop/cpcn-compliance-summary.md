@@ -29,9 +29,13 @@ description: "Learn about the governance, data lifecycle management, and complia
 
 As a Compliance Manager or IT administrator, it's crucial to stay up-to-date on the latest governance, data lifecycle, and compliance posture for the software solutions being used in your organization. This article details the capabilities available and not available yet for Copilot Pages and Copilot Notebooks.
 
+## SharePoint Embedded
+
+Copilot Pages and Copilot Notebooks content are stored in SharePoint Embedded. Content stored in SharePoint Embedded containers follows the [SharePoint Embedded security and compliance documentation](/sharepoint/dev/embedded/compliance/security-and-compliance). The sections below outline governance, lifecycle, and compliance capabilities applicable to all Copilot Pages and Copilot Notebooks storage types.
+
 ## Foundations
 
-- An **[Admin Toggle](cpcn-admin-configuration.md)** exists to turn on or off creation of both Copilot Pages and Copilot Notebooks. If Loop components are enabled, Copilot Pages can be shared and used like a Loop component in all the applications that support Loop components.
+- An **[Admin Toggle](cpcn-admin-configuration.md)** exists to turn on or off creation of both Copilot Pages and Copilot Notebooks. Additionally, Copilot Pages can be shared and used like a Loop component in all the applications that support Loop components. For more information, refer to [relation to Loop components](cpcn-admin-configuration.md#relation-to-loop-components)
 
 - **GDPR** data subject requests can be serviced as part of the [Microsoft Purview portal](/compliance/regulatory/gdpr-data-subject-requests#data-subject-request-admin-tools) and [Purview eDiscovery workflows](/purview/ediscovery).
 
@@ -39,7 +43,7 @@ As a Compliance Manager or IT administrator, it's crucial to stay up-to-date on 
 
 ## Data Security, Devices
 
-- **Intune** [Device Management Support](/mem/intune/remote-actions/device-management) exists for Microsoft 365 app, Teams app, and Loop app, on iOS and Android.
+- **Intune** [Device Management Support](/mem/intune/remote-actions/device-management) exists for Microsoft 365 app, Teams app on iOS and Android.
 
     > [!IMPORTANT]
     > **[Conditional Access](/sharepoint/control-access-from-unmanaged-devices)** only applies to an entire app. Because Copilot Pages and Copilot Notebooks are features of the Microsoft 365 Copilot app, conditional access cannot be used on just those features, it would need to apply to the entire app at m365.cloud.microsoft. Administrators can still block the creation of new Copilot Pages and Copilot Notebooks using the **[Admin Toggle](cpcn-admin-configuration.md)**.
@@ -53,7 +57,7 @@ As a Compliance Manager or IT administrator, it's crucial to stay up-to-date on 
 
 ## Data Lifecycle
 
-- Copilot Pages and Copilot Notebooks are stored together in a single, user-owned SharePoint Embedded container, identified and owned by Loop. These containers do not have individual storage limits; instead, their storage usage counts toward your organization's overall SharePoint storage quota. Currently, there is no admin control to set storage limits for individual SharePoint Embedded containers.
+- Copilot Pages and Copilot Notebooks are stored together in a single, user-owned SharePoint Embedded container, identified and owned by the Application Name: Loop. These containers do not have individual storage limits; instead, their storage usage counts toward your organization's overall SharePoint storage quota. Currently, there is no admin control to set storage limits for individual SharePoint Embedded containers.
 
 - See [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md) for information and workflows within SharePoint Admin center or PowerShell.
 
@@ -70,8 +74,8 @@ As a Compliance Manager or IT administrator, it's crucial to stay up-to-date on 
 - **Audit** logs exist for all events. They are retained, can be exported, and can be streamed to third party tools. To search and export Microsoft 365 service events for security and compliance investigations:
 
     1. Use the [Microsoft Purview portal](https://purview.microsoft.com/auditlogsearch)
-    1. Search audit logs for "loop"
-    1. Further filter exported results by "SourceFileExtension":"loop"
+    1. Search audit logs for "page"
+    1. Further filter exported results by "SourceFileExtension":"page"
 
 - Copilot Notebooks create and update .pod files to manage content in the notebook.
 
@@ -80,7 +84,7 @@ As a Compliance Manager or IT administrator, it's crucial to stay up-to-date on 
 - Microsoft **[Purview eDiscovery](/purview/ediscovery-premium-get-started)** supports search and collection, review (premium license required for admin), and export as HTML (premium license required for admin) or original. You can also download and reupload the files to any OneDrive to view them in their native format.
 
     > [!IMPORTANT]
-    > Full text search of content within .loop files in Purview review sets isn't available. All other Purview search and collection capabilities are supported.
+    > Full text search of content within .page files in Purview review sets isn't available. All other Purview search and collection capabilities are supported.
 
 - Microsoft **[Graph API](/graph/api/driveitem-get-content-format)** export for third party tools is supported. Use PowerShell to [Get](/powershell/module/microsoft.online.sharepoint.powershell/get-spoapplication) and [Set](/powershell/module/microsoft.online.sharepoint.powershell/set-spoapplicationpermission) guest application permissions.
 
@@ -94,7 +98,7 @@ As a Compliance Manager or IT administrator, it's crucial to stay up-to-date on 
 - **[Retention policies](/purview/create-retention-policies?tabs=other-retention)** from Microsoft Purview Data Lifecycle Management configured for all SharePoint sites are enforced for all Copilot Pages and Copilot Notebooks.
   - For more information on how to configure specific Copilot Notebooks, see [Purview and SharePoint Embedded](cpcn-loop-purview-management.md)
 
-- **[Retention labels](/purview/retention#retention-labels)** from Microsoft Purview Data Lifecycle Management and Microsoft Purview Records Management are supported for Copilot Pages (.loop files) and Copilot Pages in Copilot Notebooks by [applying published labels](/purview/create-apply-retention-labels?tabs=spo-onedrive) in OneDrive or SharePoint, or [automatically applying](/purview/apply-retention-labels-automatically) the labels. There's limited support for manually applying retention labels.
+- **[Retention labels](/purview/retention#retention-labels)** from Microsoft Purview Data Lifecycle Management and Microsoft Purview Records Management are supported for Copilot Pages (.page files) and Copilot Pages in Copilot Notebooks by [applying published labels](/purview/create-apply-retention-labels?tabs=spo-onedrive) in OneDrive or SharePoint, or [automatically applying](/purview/apply-retention-labels-automatically) the labels. There's limited support for manually applying retention labels.
   - Retention labels cannot be viewed or applied directly from a Copilot Page. Instead, the user must [navigate to the Copilot Page within the Loop app](/purview/create-apply-retention-labels?tabs=loop%2Cdefault-label-for-sharepoint#manually-apply-retention-labels) to view or apply a retention label on a Copilot Page.
   - Retention labels that mark the content as a record or regulatory record can't be manually applied in either the Copilot Page or when the content is opened in the Loop app. If content is automatically labeled as a record, locking and unlocking this record is not yet available.
 

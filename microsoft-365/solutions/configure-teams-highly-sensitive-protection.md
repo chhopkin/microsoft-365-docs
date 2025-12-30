@@ -21,6 +21,7 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 - admindeeplinkSPO
+- m365-solutions-doc-set
 recommendations: false
 description: Learn how to deploy teams with protection for highly sensitive data.
 ---

@@ -66,7 +66,7 @@ This article applies to:
 
   - **[Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)**
 
-    Depending on your subscription plan, you might be able to purchase Microsoft 365 Copilot licenses through the [Microsoft 365 admin center](https://admin.microsoft.com) (**Billing** > **Purchase services**), Microsoft partners, or your Microsoft account team.
+    Depending on your subscription plan, you might be able to purchase Microsoft 365 Copilot licenses through the Microsoft 365 admin center <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">**Marketplace**</a> page, Microsoft partners, or your Microsoft account team.
 
     Microsoft 365 Copilot licenses are available as an add-on to other licensing plans. To learn more, see [Understand licensing for Microsoft 365 Copilot](microsoft-365-copilot-licensing.md).
 

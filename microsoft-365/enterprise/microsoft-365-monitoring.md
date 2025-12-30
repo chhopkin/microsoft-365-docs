@@ -1,6 +1,6 @@
 ---
 title: "Microsoft 365 monitoring"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 03/12/2025

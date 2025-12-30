@@ -16,7 +16,7 @@ ms.collection:
 - trust-pod
 hideEdit: true
 ms.update-cycle: 180-days
-ms.date: 11/20/2025
+ms.date: 12/18/2025
 
 ---
 
@@ -81,7 +81,8 @@ For additional, detailed information about the LLMs provided to Microsoft by Ope
 |Microsoft Graph Connectors|Microsoft Graph Connectors enable connections to external data sources, including up to 500 items per Microsoft 365 Copilot license. |
 |Microsoft Purview|Microsoft Purview is a solution that helps organizations manage and protect their data. It provides a unified platform for data governance, information protection, risk management, and compliance. Customers can extend Microsoft Purview capabilities provided by customers’ Microsoft subscriptions (for example, Microsoft 365 E3 or E5 subscriptions) to Microsoft 365 Copilot data and interactions.|
 | Microsoft 365 Copilot Tuning | Microsoft 365 Copilot Tuning allows organizations to fine-tune large language models (LLMs) by using their own tenant data. These models can be used to perform domain-specific tasks based on the organization's unique knowledge.<br/><br/>For more information, see [Responsible AI FAQ for Microsoft 365 Copilot Tuning](responsible-ai/copilot-tuning-responsible-ai-faq.md). |
-|Microsoft Copilot Studio|Microsoft Copilot Studio is a powerful platform for building secure, scalable, and intelligent agents that work across Microsoft 365 and line-of-business systems. Copilot Studio offers two ways to build AI agents: a lite experience (integrated into the Microsoft 365 Copilot app) and a full experience (a standalone Copilot Studio application). <br/><br/> For more information, see [Choose the right Copilot Studio experience](/microsoft-365-copilot/extensibility/copilot-studio-experience).|
+|Microsoft Copilot Studio|Microsoft Copilot Studio is a powerful platform for building secure, scalable, and intelligent agents that work across Microsoft 365 and line-of-business systems. <br/><br/> For more information, see [Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext).|
+|Agent Builder feature in Microsoft 365 Copilot |The Agent Builder feature in Microsoft 365 Copilot provides a simple interface that you can use to quickly and easily build declarative agents, either by using natural language or manually. <br/><br/> For more information, see [Build a declarative agent with Agent Builder in Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agent-builder).|
 |Microsoft 365 Copilot with computer-using agent|Microsoft 365 Copilot with computer-using agent allows you to automate browser or desktop tasks so that your prompts can make use of more of your content and context. Because the agent can perform tasks on your behalf, there can be an increased risk to system security or privacy. To help mitigate this risk, the agent has multiple safeguards, including model-driven safety checks over content and actions as well as tenant admin controls that enable or disable the computer-using agent and restrict which internet sites and domains the agent can access. We recommend that you apply these controls and monitor usage of the agent.|
 
 ### System Behavior
@@ -116,11 +117,9 @@ Microsoft 365 Copilot doesn't require web content or organizational data to prov
 
 ### Extensibility and customization
 
-You can build agents using the Copilot Studio lite experience, which is integrated into the Microsoft 365 Copilot app. You can either describe what the agent should do or configure it through an intuitive experience. These agents allow you to define specific instructions and knowledge that shape how Copilot behaves in your business scenarios. Because they run on the same orchestrator, foundation models, and trusted AI services as Microsoft 365 Copilot, they offer a consistent and secure way to enhance collaboration, streamline workflows, and boost productivity across your organization.
+The Agent Builder feature in Microsoft 365 Copilot and Copilot Studio are tools for building secure, scalable, and intelligent agents that work across Microsoft 365 and line-of-business systems. Both tools allow you to create agents, but they serve different needs. Use the Agent Builder feature if you want to quickly create an agent for yourself or a small team, using natural language and existing content. Choose Copilot Studio if you need an agent for a broader audience or if the agent requires advanced capabilities like multi-step workflows or custom integrations. For more information, see [Choose between Microsoft 365 Copilot and Copilot Studio to build your agent](/microsoft-365-copilot/extensibility/copilot-studio-experience) and [Declarative agents for Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/overview-declarative-agent).
 
-For more complex workflows, you can use the Copilot Studio full experience, which provides a rich graphical environment to design, test, and deploy autonomous agents that can take action on their behalf. For developers, the [Microsoft 365 Agents SDK](/microsoft-365/agents-sdk/) provides the tools to build agents that integrate deeply with Microsoft 365 apps and services.
-
-For more information, see [Choose the right Copilot Studio experience](/microsoft-365-copilot/extensibility/copilot-studio-experience).
+For developers, the [Microsoft 365 Agents SDK](/microsoft-365/agents-sdk/) provides the tools to build agents that integrate deeply with Microsoft 365 apps and services.
 
 ### Use Cases
 
@@ -140,7 +139,7 @@ Microsoft provides detailed guidance focusing on common use cases and scenarios,
 
 #### Considerations when choosing a use case
 
-We encourage users to review all content generated by Microsoft 365 Copilot before putting it to use. Additionally, there are certain scenarios that we recommend avoiding. In some cases, meaningful human oversight and review can further reduce the risk of harmful outcomes.
+We encourage users to review all content generated by Microsoft 365 Copilot before putting it to use. Response quality and accuracy are dependent on several factors including the models used. Additionally, there are certain scenarios that we recommend avoiding. In some cases, meaningful human oversight and review can further reduce the risk of harmful outcomes.
 
 - **Avoid use or misuse of the system could result in significant physical or psychological injury to an individual**. For example, scenarios that diagnose patients or prescribe medications have the potential to cause significant harm.
 
@@ -242,8 +241,8 @@ Microsoft provides tools like the Microsoft Copilot Dashboard for Microsoft 365 
 ## Learn more about agents
 
 - [Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext)
-- [Use Copilot Studio to build declarative agents](/microsoft-365-copilot/extensibility/copilot-studio-lite)
-- [Declarative agents for Microsoft 365 Copilot overview](/microsoft-365-copilot/extensibility/overview-declarative-agent)
+- [Build a declarative agent with Agent Builder in Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agent-builder)
+- [Declarative agents for Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/overview-declarative-agent)
 - [Create and deploy an agent with Microsoft 365 Agents SDK](/microsoft-365-copilot/extensibility/create-deploy-agents-sdk)
 
 ## Learn more about Responsible AI
