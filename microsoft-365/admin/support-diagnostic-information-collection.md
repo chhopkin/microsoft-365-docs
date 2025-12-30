@@ -50,7 +50,7 @@ When a support case is created, the following audit events are logged in the cus
 | Order | Event | Actor |
 |--|--|--|
 | 1 | If it doesn't exist already, **Add a partner to cross-tenant access setting**<br/>(Microsoft Support tenant only) | Identity of the user who created the support ticket |
-| 2 | If it doesn't exist already, **Adding allowed assignable roles**<br/>(`Microsoft365SupportEngineer` role only) | Identity of the user who created the support ticket |
+| 2 | If it doesn't exist already, **Adding allowed assignable roles**<br/>(Microsoft 365 Support Engineer role only) | Identity of the user who created the support ticket |
 
 ### Audit events when Microsoft Support works on a case
 
@@ -59,7 +59,7 @@ When a Microsoft Support engineer works on a support case, the following audit e
 | Order | Event | Actor |
 |--|--|--|
 | 1 | If it doesn't exist already, **Add a Service Principal** for the Microsoft Support tenant <br/>(`EntraGDAP` application) | `AssistAPI` application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
-| 2 | **Add member to role** (Group from Microsoft Support tenant added to `Microsoft365SupportEngineer` role) | `AssistAPI` application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
+| 2 | **Add member to role** (Group from Microsoft Support tenant added to Microsoft 365 Support Engineer role) | `AssistAPI` application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
 
 ### Audit events during support case closure
 
