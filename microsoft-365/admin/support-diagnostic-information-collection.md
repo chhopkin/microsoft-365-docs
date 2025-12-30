@@ -77,7 +77,7 @@ When a support case is closed, the following audit events are logged in the cust
 
 To find the service principal ID in your tenant, follow these steps:
 
-1. Go to the Microsoft Entra portal and sign in.
+1. Go to the [Microsoft Entra portal](https://entra.microsoft.com) and sign in.
 
 2. Navigate to **Enterprise Apps**.
 
