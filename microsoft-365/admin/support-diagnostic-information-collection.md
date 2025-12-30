@@ -71,6 +71,18 @@ When a support case is closed, the following audit events are logged in the cust
 | 2 | **Deleting allowed assignable roles** | `EntraGDAP` application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
 | 3 | **Delete partner specific cross-tenant access setting** <br/>(Removes only the Microsoft Support tenant) | `EntraGDAP` application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
 
+### What is the AssistAPI application shown in audit logs?
+
+`AssistAPI` is a Microsoft-owned application that has Application ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`.  In audit events, you can see the service principal ID of the `AssistAPI` application, which is unique to your tenant. 
+
+To find the service principal ID in your tenant, follow these steps:
+
+1. Go to the Microsoft Entra portal and sign in.
+
+2. Navigate to **Enterprise Apps**.
+
+3. In the **Application Type** filter, select **All Applications**, and then search for the Application ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`.
+
 ## What level of access does Microsoft Support have on the customer tenant?
 
 The level of access is captured as *Delegated Admin Service Provider Constraints*. Currently, the support case creation process allows Microsoft Support engineers to assume the *Microsoft 365 Support Engineer* role, which includes the read permissions that are described in [Microsoft Entra built-in roles: Microsoft 365 Support Engineer](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-support-engineer).
