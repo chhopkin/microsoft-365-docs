@@ -73,8 +73,18 @@ When a support case is closed, the following audit events are logged in the cust
 
 ## What level of access does Microsoft Support have on the customer tenant?
 
-The level of access is captured as *Delegated Admin Service Provider Constraints*. Currently, the support ticket creation process allows Microsoft Support engineers to assume the `Microsoft365SupportEngineer` role, which includes the permissions taht are listed in the following table:
+The level of access is captured as *Delegated Admin Service Provider Constraints*. Currently, the support case creation process allows Microsoft Support engineers to assume the *Microsoft 365 Support Engineer* role, which includes the read permissions that are described in [Microsoft Entra built-in roles: Microsoft 365 Support Engineer](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-support-engineer).
 
+> [!NOTE]
+> The Microsoft 365 Support Engineer role is used for Microsoft Support cases only. This role shouldn't be assigned to other users in your organization.
+
+For more information, see the following articles:
+
+- [What's new in Microsoft Entra RBAC documentation](/entra/identity/role-based-access-control/whats-new)
+- [Roles not shown in the Microsoft Entra portal](/entra/identity/role-based-access-control/permissions-reference#roles-not-shown-in-the-portal)
+- [Microsoft 365 Support Engineer role](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-support-engineer)
+
+<!---
 | Actions | Description |
 |--|--|
 | `microsoft.directory/applications/allProperties/read` | Read all properties (including privileged properties) on all types of applications |
@@ -110,6 +120,7 @@ The level of access is captured as *Delegated Admin Service Provider Constraints
 | `microsoft.office365.protectionCenter/attackSimulator/payload/allProperties/read` | Read all properties of attack payloads in Attack Simulator |
 | `microsoft.office365.protectionCenter/attackSimulator/reports/allProperties/read` | Read reports of attack simulation, responses, and associated training |
 | `microsoft.teams/allEntities/allProperties/read` | Read all properties of Microsoft Teams |
+--->
 
 ## What information can Microsoft Support access?
 
