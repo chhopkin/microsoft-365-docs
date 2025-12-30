@@ -3,7 +3,7 @@ title: "Understanding Microsoft 365 support case creation and data access"
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 12/23/2025
+ms.date: 12/30/2025
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -73,14 +73,44 @@ When a support case is closed, the following audit events are logged in the cust
 
 ## What level of access does Microsoft Support have on the customer tenant?
 
-The level of access is captured as *Delegated Admin Service Provider Constraints*. Currently, the support ticket creation process allows Microsoft Support engineers to assume the `Microsoft365SupportEngineer` role, which includes the following permissions:
+The level of access is captured as *Delegated Admin Service Provider Constraints*. Currently, the support ticket creation process allows Microsoft Support engineers to assume the `Microsoft365SupportEngineer` role, which includes the permissions taht are listed in the following table:
 
-- `microsoft.directory/devices/standard/read`
-- `microsoft.directory/domains/standard/read`
-- `microsoft.directory/groups/standard/read`
-- `microsoft.directory/policies/standard/read`
-- `microsoft.directory/servicePrincipals/standard/read`
-- `microsoft.directory/users/standard/read`
+| Actions | Description |
+|--|--|
+| `microsoft.directory/applications/allProperties/read` | Read all properties (including privileged properties) on all types of applications |
+| `microsoft.directory/auditLogs/allProperties/read` | Read all properties on audit logs, excluding custom security attributes audit logs |
+| `microsoft.directory/authorizationPolicy/standard/read`| Read standard properties of authorization policy |
+| `microsoft.directory/conditionalAccessPolicies/standard/read` | Read Conditional Access for policies |
+| `microsoft.directory/crossTenantAccessPolicy/default/standard/read` | Read basic properties of the default cross-tenant access policy |
+| `microsoft.directory/deviceManagementPolicies/standard/read` | Read standard properties on mobile device management and mobile app management policies |
+| `microsoft.directory/deviceRegistrationPolicy/standard/read | Read standard properties on device registration policies |
+| `microsoft.directory/devices/standard/read` | Read basic properties on devices |
+microsoft.directory/directoryRoles/allProperties/read    Read all properties of directory roles
+microsoft.directory/directoryRoles/members/read    Read all members of Microsoft Entra roles
+microsoft.directory/domains/allProperties/read    Read all properties of domains
+microsoft.directory/domains/standard/read    Read basic properties on domains
+microsoft.directory/groups/allProperties/read    Read all properties (including privileged properties) on Security groups and Microsoft 365 groups, including role-assignable groups
+microsoft.directory/groupSettings/allProperties/read    Read all properties of group settings
+microsoft.directory/groups/members/read    Read members of Security groups and Microsoft 365 groups, including role-assignable groups
+microsoft.directory/groups/owners/read    Read owners of Security groups and Microsoft 365 groups, including role-assignable groups
+microsoft.directory/groups/standard/read    Read standard properties of Security groups and Microsoft 365 groups, including role-assignable groups
+microsoft.directory/organization/allProperties/read    Read all properties for an organization
+microsoft.directory/policies/standard/read    Read basic properties on policies
+microsoft.directory/securityRiskPolicy/standard/read    Read basic properties of security risk policy that includes Microsoft Entra security defaults, strong authentication, and account compromise
+microsoft.directory/servicePrincipals/allProperties/read    Read all properties (including privileged properties) on servicePrincipals
+microsoft.directory/servicePrincipals/appRoleAssignments/limitedRead    Read application roles assigned to a specific service principal, but cannot enumerate service principals
+microsoft.directory/servicePrincipals/standard/read    Read basic properties of service principals
+microsoft.directory/subscribedSkus/allProperties/read    Read all properties of product subscriptions
+microsoft.directory/users/directReports/read    Read the direct reports for users
+microsoft.directory/users/licenseDetails/read    Read license details of users
+microsoft.directory/users/manager/read    Read manager of users
+microsoft.directory/users/memberOf/read    Read the group memberships of users
+microsoft.directory/users/registeredDevices/read    Read registered devices of users
+microsoft.directory/users/standard/read    Read basic properties on users
+microsoft.office365.protectionCenter/attackSimulator/payload/allProperties/read    Read all properties of attack payloads in Attack Simulator
+microsoft.office365.protectionCenter/attackSimulator/reports/allProperties/read    Read reports of attack simulation, responses, and associated training
+microsoft.teams/allEntities/allProperties/read    Read all properties of Microsoft Teams
+
 
 ## What information can Microsoft Support access?
 
