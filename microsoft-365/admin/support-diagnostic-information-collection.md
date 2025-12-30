@@ -103,10 +103,10 @@ The level of access is captured as *Delegated Admin Service Provider Constraints
 | `microsoft.directory/subscribedSkus/allProperties/read` | Read all properties of product subscriptions |
 | `microsoft.directory/users/directReports/read` | Read the direct reports for users |
 | `microsoft.directory/users/licenseDetails/read` | Read license details of users |
-microsoft.directory/users/manager/read    Read manager of users
-microsoft.directory/users/memberOf/read    Read the group memberships of users
-microsoft.directory/users/registeredDevices/read    Read registered devices of users
-microsoft.directory/users/standard/read    Read basic properties on users
+| `microsoft.directory/users/manager/read` | Read manager of users |
+| `microsoft.directory/users/memberOf/read` | Read the group memberships of users |
+| `microsoft.directory/users/registeredDevices/read` | Read registered devices of users |
+| `microsoft.directory/users/standard/read` | Read basic properties on users |
 microsoft.office365.protectionCenter/attackSimulator/payload/allProperties/read    Read all properties of attack payloads in Attack Simulator
 microsoft.office365.protectionCenter/attackSimulator/reports/allProperties/read    Read reports of attack simulation, responses, and associated training
 microsoft.teams/allEntities/allProperties/read    Read all properties of Microsoft Teams
