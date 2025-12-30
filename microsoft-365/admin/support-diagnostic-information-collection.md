@@ -83,17 +83,17 @@ The level of access is captured as *Delegated Admin Service Provider Constraints
 | `microsoft.directory/conditionalAccessPolicies/standard/read` | Read Conditional Access for policies |
 | `microsoft.directory/crossTenantAccessPolicy/default/standard/read` | Read basic properties of the default cross-tenant access policy |
 | `microsoft.directory/deviceManagementPolicies/standard/read` | Read standard properties on mobile device management and mobile app management policies |
-| `microsoft.directory/deviceRegistrationPolicy/standard/read | Read standard properties on device registration policies |
+| `microsoft.directory/deviceRegistrationPolicy/standard/read` | Read standard properties on device registration policies |
 | `microsoft.directory/devices/standard/read` | Read basic properties on devices |
-| `microsoft.directory/directoryRoles/allProperties/read | Read all properties of directory roles |
-| `microsoft.directory/directoryRoles/members/read | Read all members of Microsoft Entra roles |
-microsoft.directory/domains/allProperties/read    Read all properties of domains
-microsoft.directory/domains/standard/read    Read basic properties on domains
-microsoft.directory/groups/allProperties/read    Read all properties (including privileged properties) on Security groups and Microsoft 365 groups, including role-assignable groups
-microsoft.directory/groupSettings/allProperties/read    Read all properties of group settings
-microsoft.directory/groups/members/read    Read members of Security groups and Microsoft 365 groups, including role-assignable groups
-microsoft.directory/groups/owners/read    Read owners of Security groups and Microsoft 365 groups, including role-assignable groups
-microsoft.directory/groups/standard/read    Read standard properties of Security groups and Microsoft 365 groups, including role-assignable groups
+| `microsoft.directory/directoryRoles/allProperties/read` | Read all properties of directory roles |
+| `microsoft.directory/directoryRoles/members/read` | Read all members of Microsoft Entra roles |
+| `microsoft.directory/domains/allProperties/read` | Read all properties of domains |
+| `microsoft.directory/domains/standard/read` | Read basic properties on domains |
+| `microsoft.directory/groups/allProperties/read` | Read all properties (including privileged properties) on Security groups and Microsoft 365 groups, including role-assignable groups |
+| `microsoft.directory/groupSettings/allProperties/read` | Read all properties of group settings |
+| `microsoft.directory/groups/members/read` | Read members of Security groups and Microsoft 365 groups, including role-assignable groups |
+| `microsoft.directory/groups/owners/read` | Read owners of Security groups and Microsoft 365 groups, including role-assignable groups |
+| `microsoft.directory/groups/standard/read` | Read standard properties of Security groups and Microsoft 365 groups, including role-assignable groups |
 microsoft.directory/organization/allProperties/read    Read all properties for an organization
 microsoft.directory/policies/standard/read    Read basic properties on policies
 microsoft.directory/securityRiskPolicy/standard/read    Read basic properties of security risk policy that includes Microsoft Entra security defaults, strong authentication, and account compromise
