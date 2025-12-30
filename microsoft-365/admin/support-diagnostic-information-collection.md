@@ -94,15 +94,15 @@ The level of access is captured as *Delegated Admin Service Provider Constraints
 | `microsoft.directory/groups/members/read` | Read members of Security groups and Microsoft 365 groups, including role-assignable groups |
 | `microsoft.directory/groups/owners/read` | Read owners of Security groups and Microsoft 365 groups, including role-assignable groups |
 | `microsoft.directory/groups/standard/read` | Read standard properties of Security groups and Microsoft 365 groups, including role-assignable groups |
-microsoft.directory/organization/allProperties/read    Read all properties for an organization
-microsoft.directory/policies/standard/read    Read basic properties on policies
-microsoft.directory/securityRiskPolicy/standard/read    Read basic properties of security risk policy that includes Microsoft Entra security defaults, strong authentication, and account compromise
-microsoft.directory/servicePrincipals/allProperties/read    Read all properties (including privileged properties) on servicePrincipals
-microsoft.directory/servicePrincipals/appRoleAssignments/limitedRead    Read application roles assigned to a specific service principal, but cannot enumerate service principals
-microsoft.directory/servicePrincipals/standard/read    Read basic properties of service principals
-microsoft.directory/subscribedSkus/allProperties/read    Read all properties of product subscriptions
-microsoft.directory/users/directReports/read    Read the direct reports for users
-microsoft.directory/users/licenseDetails/read    Read license details of users
+| `microsoft.directory/organization/allProperties/read` | Read all properties for an organization |
+| `microsoft.directory/policies/standard/read` | Read basic properties on policies |
+| `microsoft.directory/securityRiskPolicy/standard/read` | Read basic properties of security risk policy that includes Microsoft Entra security defaults, strong authentication, and account compromise |
+| `microsoft.directory/servicePrincipals/allProperties/read` | Read all properties (including privileged properties) on servicePrincipals |
+| `microsoft.directory/servicePrincipals/appRoleAssignments/limitedRead` | Read application roles assigned to a specific service principal, but cannot enumerate service principals |
+| `microsoft.directory/servicePrincipals/standard/read` | Read basic properties of service principals |
+| `microsoft.directory/subscribedSkus/allProperties/read` | Read all properties of product subscriptions |
+| `microsoft.directory/users/directReports/read` | Read the direct reports for users |
+| `microsoft.directory/users/licenseDetails/read` | Read license details of users |
 microsoft.directory/users/manager/read    Read manager of users
 microsoft.directory/users/memberOf/read    Read the group memberships of users
 microsoft.directory/users/registeredDevices/read    Read registered devices of users
