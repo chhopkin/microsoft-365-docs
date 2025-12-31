@@ -46,7 +46,7 @@ When a mailbox is migrated cross-tenant with this feature, only user-visible con
 ## Licensing
 
 > [!IMPORTANT]
-Cross-Tenant migrations require a per user license (one-time fee) and can be assigned either on the source or target user object. This license also covers [OneDrive migration](cross-tenant-onedrive-migration.md). Cross Tenant User Data Migration is available as an add-on to the following Microsoft 365 subscription plans: Microsoft 365 Business Basic, Standard, and Premium; Microsoft 365 F1/F3/E3/E5/; Office 365 F3/E1/E3/E5; Exchange Online; SharePoint in Microsoft 365; OneDrive and EDU.
+> Cross-Tenant migrations require a per user license (one-time fee) and can be assigned either on the source or target user object. This license also covers [OneDrive migration](cross-tenant-onedrive-migration.md). Cross Tenant User Data Migration is available as an add-on to the following Microsoft 365 subscription plans: Microsoft 365 Business Basic, Standard, and Premium; Microsoft 365 F1/F3/E3/E5/; Office 365 F3/E1/E3/E5; Exchange Online; SharePoint in Microsoft 365; OneDrive and EDU.
 
 > [!WARNING]
 > You must purchase, or verify you can purchase, cross-tenant user data migration licenses before the next steps. Migrations fail if this step isn't completed. Microsoft doesn't offer exceptions for this licensing requirement.
