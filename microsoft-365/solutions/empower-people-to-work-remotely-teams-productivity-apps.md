@@ -30,7 +30,6 @@ To be productive, people need to communicate and collaborate with one another. T
 | Email services | Exchange Online | Exchange email and manage calendars, contacts, and tasks with the Outlook client. |
 | Intranet sites, document collaboration | SharePoint and OneDrive | Store and collaborate on files within a web browser or within Teams. |
 | Desktop and mobile device Office applications | Microsoft 365 Apps | Create new content or collaborate on existing content with versions of Word, PowerPoint, Excel, and Outlook that are installed on your local computer and receive ongoing feature and security updates. |
-||||
 
 ## Exchange email and manage calendars, contacts, and tasks with Exchange Online and Outlook
 
