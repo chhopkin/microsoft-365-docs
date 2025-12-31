@@ -53,9 +53,7 @@ When a mailbox is migrated cross-tenant with this feature, only user-visible con
 
 If you don't have the proper license assigned to the user being migrated, the migration fails, and you receive an error that is similar to the following example:
 
-```code
-Error: CrossTenantMigrationWithoutLicensePermanentException: No license was found for the source recipient, '65c3c3ea-2b9a-44d0-a685-9bfe300f8c87', or the target recipient, '65c3c3ea-2b9a-44d0-a685-9bfe300f8c87'. A Cross-tenant User Data Migration license is required to move a mailbox between tenants.
-```
+`Error: CrossTenantMigrationWithoutLicensePermanentException: No license was found for the source recipient, '65c3c3ea-2b9a-44d0-a685-9bfe300f8c87', or the target recipient, '65c3c3ea-2b9a-44d0-a685-9bfe300f8c87'. A Cross-tenant User Data Migration license is required to move a mailbox between tenants.`
 
 ## Preparing source and target tenants
 
