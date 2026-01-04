@@ -52,7 +52,7 @@ Once you have the information on this list, you're ready to begin. As a first st
 > [!NOTE]
 > **Starting January 5 2026, we are rolling out an update to migrate pay-as-you-go billing set up to Billing node in Microsoft Admin Center. Some new users will see pay-as-you-go set up in Billing tab in Microsoft Admin Center.**
 
-If you are a new user setting up Microsoft 365 Backup and is migrated to the new experience, you will see "Pay-as-you-go" option in Billing tab of Microsoft Admin Center. You should follow the steps here for <a href="https://learn.microsoft.com/en-us/microsoft-365/services/update-pay-as-you-go-setup-billing-node?view=o365-worldwide" target="_blank">**Pay-as-you-go Setup**</a>. Once you have set up pay-as-you-go in Billing node, skip rest of the steps below and go directly to [Step 3. Start backing up your data by creating backup policies](https://admin.microsoft.com/#/Settings/enhancedRestore) to create backup.   
+If you are a new user setting up Microsoft 365 Backup and is migrated to the new experience, you will see "Pay-as-you-go" option in Billing tab of Microsoft Admin Center. You should follow the steps here for <a href="https://learn.microsoft.com/microsoft-365/services/update-pay-as-you-go-setup-billing-node?view=o365-worldwide" target="_blank">**Pay-as-you-go Setup**</a>. Once you have set up pay-as-you-go in Billing node, skip rest of the steps below and go directly to [Step 3. Start backing up your data by creating backup policies](https://admin.microsoft.com/#/Settings/enhancedRestore) to create backup.   
 
 New users who are not yet migrated to the new Billing experience should follow below steps to set up pay-as-you-go billing for Microsoft 365 Backup. 
 
