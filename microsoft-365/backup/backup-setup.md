@@ -24,9 +24,6 @@ description: Learn how to turn on Microsoft 365 Backup, set up pay-as-you-go bil
 > [Step 2. Turn on Microsoft 365 Backup](https://admin.microsoft.com/#/orgsettings/payasyougo/storage)<br>
 > [Step 3. Start backing up your data by creating backup policies](https://admin.microsoft.com/#/Settings/enhancedRestore)<br>
 
-</br>
-
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=d4f5a898-3d35-42aa-ae3f-6639b59943f9]
 
 </br>
 
@@ -52,7 +49,12 @@ To set up pay-as-you-go billing, you need to have this information:
 
 Once you have the information on this list, you're ready to begin. As a first step, you should link an Azure subscription in pay-as-you-go, if you haven't already done so. The billing setup is consistent with other Microsoft 365 pay-as-you-go offerings.
 
-To set up pay-as-you-go billing for Microsoft 365 Backup, follow these steps:
+> [!NOTE]
+> **Starting January 5 2026, we are rolling out an update to migrate pay-as-you-go billing set up to Billing node in Microsoft Admin Center. Some new users will see pay-as-you-go set up in Billing tab in Microsoft Admin Center.**
+
+If you are a new user setting up Microsoft 365 Backup and is migrated to the new experience, you will see "Pay-as-you-go" option in Billing tab of Microsoft Admin Center. You should follow the steps here for <a href="https://learn.microsoft.com/en-us/microsoft-365/services/update-pay-as-you-go-setup-billing-node?view=o365-worldwide" target="_blank">**Pay-as-you-go Setup**</a>. Once you have set up pay-as-you-go in Billing node, skip rest of the steps below and go directly to [Step 3. Start backing up your data by creating backup policies](https://admin.microsoft.com/#/Settings/enhancedRestore) to create backup.   
+
+New users who are not yet migrated to the new Billing experience should follow below steps to set up pay-as-you-go billing for Microsoft 365 Backup. 
 
 1. In the Microsoft 365 admin center, select <a href="https://go.microsoft.com/fwlink/p/?linkid=2171997" target="_blank">**Setup**</a>, and then view the **Billing and licenses** section.
 
