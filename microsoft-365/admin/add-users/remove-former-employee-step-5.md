@@ -29,7 +29,7 @@ description: "Follow the steps in this article to access a former employee's One
 
 # Step 5 - Give another employee access to OneDrive and Outlook data
 
-When an employee leaves your organization, you want to access their OneDrive and Outlook data, back it up, and choose whether to give it to another employee.
+When an employee leaves your organization, you can access their OneDrive and Outlook data, back it up, and choose whether to grant access to that content to another employee.
 
 > [!NOTE]
 > You must have appropriate permissions through a role, such as [Microsoft 365 Backup Administrator](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-backup-administrator) or [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator) to perform the tasks in this article. 
@@ -42,7 +42,7 @@ If you remove a user's license but don't delete the account, you can give yourse
 
 To preserve a former user's OneDrive files, first give yourself access to their OneDrive, and then move the files you want to keep.
 
-1. In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.  
+1. In the [Microsoft 365 admin center](https://admin.cloud.microsoft/), go to **Users** > **Active users**. (Or, go directly to the [Active users page](https://go.microsoft.com/fwlink/p/?linkid=834822).)
 
 2. Select a user.
 
@@ -51,7 +51,7 @@ To preserve a former user's OneDrive files, first give yourself access to their 
 4. Select the link to open the file location. Download the files to your computer, or select **Move to** or **Copy to** to move or copy them to your own OneDrive or to a shared library.
 
 > [!NOTE]
-> - You can move or copy up to 500 MB of files and folders at a time.<br/>
+> - You can move or copy up to 500 MB of files and folders at a time.
 > - When you move or copy documents that have version history, only the latest version is moved.
 > - Administrative options for an active user under the OneDrive tab in the Microsoft 365 admin center are currently not supported for multi-geo tenants.
 
@@ -59,17 +59,13 @@ To preserve a former user's OneDrive files, first give yourself access to their 
 
 You can also grant access to another user to access a former employee's OneDrive.
 
-1. Sign in to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a> as a SharePoint admin.
+1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/) as a SharePoint admin.
 
     If you get a message that you don't have permission to access the admin center, then you don't have administrator permissions in your organization.
 
-2. In the left pane, select **Admin centers** \> **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
+2. In the navigation pane, select **Admin centers** \> **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the SharePoint admin center.
-
-4. In the left pane, select **More features**.
-
-5. Under **User profiles**, select **Open**.
+3. In the navigation pane, select **More features**. Then, under **User profiles**, select **Open**.
 
 6. Under **People**, select **Manage User Profiles**.
 

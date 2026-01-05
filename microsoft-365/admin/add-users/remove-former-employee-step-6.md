@@ -79,6 +79,9 @@ If you need to set up call forwarding for the terminated employee's phone number
 ## Related content
 
 - [Add users and assign licenses in Microsoft 365](add-users.md)
+
 - [Assign or unassign licenses for users in the Microsoft 365 admin center](../manage/assign-licenses-to-users.md)
+
 - [Teams calling overview](/microsoftteams/cloud-voice-landing-page)
+
 - [Enterprise user management (Microsoft Entra ID)](/entra/identity/users/directory-overview-user-model)
