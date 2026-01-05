@@ -28,7 +28,7 @@ description: "You can remove a former employee's Microsoft 365 license, and then
 
 # Step 6 - Remove and delete a Microsoft 365 for business license from a former employee
 
-If an employee leaves your organization, and you don't want to continue to pay for their Microsoft 365 license, you need to unassign that license and then delete it from your subscription. You can reassign a license to another user if you don't want to delete it. This article describes how to remove a license from a user and delete it.
+If an employee leaves your organization, and you don't want to continue to pay for their Microsoft 365 license, you can unassign that license and then delete it from your subscription. You can reassign a license to another user if you don't want to delete it. This article describes how to remove a license from a user and delete it.
 
 Before you remove a license, you _must_ remove all holds for the user. For more information about holds, see [Remove an In-Place Hold in Exchange Online](/exchange/security-and-compliance/create-or-remove-in-place-holds).
 
