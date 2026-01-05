@@ -36,7 +36,7 @@ You must have appropriate permissions through a role, such as [Microsoft 365 Bac
 
 If a former employee is blocked from signing into your organization's Microsoft 365 subscription, and it's important that you don't lose their data, you can save the contents of the former employee's mailbox. There are two ways you can save the contents of the former employee's mailbox.
   
-- **Place a litigation hold or an in-place hold on the mailbox** before the deleting the user account. This is much more complicated than the second option, but is worth doing if your Enterprise plan includes archiving and legal hold, litigation is a possibility, and you have a technically strong IT department.
+- **Place a litigation hold or an in-place hold on the mailbox** before the deleting the user account. This is much more complicated than the other option, but is worth doing if your Enterprise plan includes archiving and legal hold, litigation is a possibility, and you have a technically strong IT department.
 
    After you convert the mailbox to an inactive mailbox, administrators, compliance officers, or records managers can use In-Place eDiscovery tools in Exchange Online to access and search the contents.
 
@@ -44,6 +44,7 @@ If a former employee is blocked from signing into your organization's Microsoft 
 
    To learn how to place a hold on a mailbox, see [Manage inactive mailboxes in Exchange Online](../../compliance/create-and-manage-inactive-mailboxes.md).
 
+**OR**
 
 - **Add the former employee's email address to your version of Outlook** (desktop app), and then export the data to a `.pst` file. You can import the data to another email account as needed. See [Step 4 - Give another employee access to OneDrive and Outlook data](remove-former-employee-step-4.md).
 
