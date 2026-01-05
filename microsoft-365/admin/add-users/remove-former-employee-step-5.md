@@ -61,27 +61,27 @@ You can also grant access to another user to access a former employee's OneDrive
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/) as a SharePoint admin.
 
-    If you get a message that you don't have permission to access the admin center, then you don't have administrator permissions in your organization.
+   If you get a message that you don't have permission to access the admin center, then you don't have administrator permissions in your organization.
 
 2. In the navigation pane, select **Admin centers** \> **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
 
 3. In the navigation pane, select **More features**. Then, under **User profiles**, select **Open**.
 
-6. Under **People**, select **Manage User Profiles**.
+4. Under **People**, select **Manage User Profiles**.
 
-7. Enter the former employee's name and select **Find**.
+5. In the **Find profiles** box, type the former employee's name, and then select **Find**.
 
-8. Right-click the user, and then choose **Manage site collection owners**.
+6. Right-click the former employee's user account, and then choose **Manage site collection owners**.
 
-9. Add the user to **Site collection administrators** and select **OK**. The user can now access the former employee's OneDrive using their OneDrive URL. 
+7. Add the new user to **Site collection administrators** and select **OK**. The user can now access the former employee's OneDrive using their OneDrive URL. 
 
 ## Revoke admin access to a user's OneDrive
 
 You can give yourself access to the content in a user's OneDrive, but you may want to remove your access when you no longer need it.
 
-1. Sign in to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a> as a SharePoint admin.
+1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/) as a SharePoint admin.
 
-    If you get a message that you don't have permission to access the admin center, then you don't have administrator permissions in your organization.
+   If you get a message that you don't have permission to access the admin center, then you don't have administrator permissions in your organization.
 
 2. In the left pane, select **Admin centers** \> **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
 
