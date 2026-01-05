@@ -32,6 +32,7 @@ Microsoft 365 for frontline workers is a unified, AI-powered platform that suppo
 - [Enhance communications and collaboration](#enhance-communications-and-collaboration)
 - [Transform employee experiences](#transform-employee-experiences)
 - [Increase frontline operational efficiency](#increase-frontline-operational-efficiency)
+- [Simplify frontline work with an AI assistant](#simplify-frontline-work-with-an-ai-agent)
 - [Safeguard your business](#safeguard-your-business) with enterprise-grade security and compliance, including support for modern and shared devices
 
 ### Enhance communications and collaboration
@@ -44,7 +45,11 @@ Microsoft 365 includes apps like Lists, Planner, and Approvals to streamline ope
 
 The following image shows the employee experiences that are key to frontline workers, and common areas where Microsoft 365 can improve experiences for frontline workers:
 
-:::image type="content" source="media/flw-pillars.png" alt-text="Diagram of employee experience wheel with methods to connect & engage with frontline workers, enhance workforce management, and increase operational efficiency.":::
+#### :::image type="content" source="media/flw-pillars.png" alt-text="Diagram of employee experience wheel with methods to connect & engage with frontline workers, enhance workforce management, and increase operational efficiency.":::
+
+### Simplify frontline work with an AI Agent
+
+Simplify frontline work across shifts with Frontline Agent, available in M365 Copilot and Microsoft Teams just like any other teammate, that helps workers and managers stay aligned, informed, and productive. Frontline Agent reduces time spent searching for information, catching up on messages, and coordinating work by summarizing key updates, surfacing required actions, and providing quick access to approved knowledge from Teams and SharePoint. Built on Microsoft 365, Frontline Agent operates within your existing security, compliance, and device management framework, including support for shared and managed devices, so organizations can scale frontline operations with confidence.
 
 ### Licensing for your frontline workers
 
@@ -82,6 +87,13 @@ Enhance workforce management with [Shifts](shifts-for-teams-landing-page.md), th
 |:::image type="icon" source="/office/media/icons/calendar-teams.png"::: | [Schedule management](flw-choose-scenarios.md#schedule-management) | Simplify and streamline schedule coordination with your frontline workforce. Gain visibility into their schedules and enable them to arrange for cover and leave. |
 |:::image type="icon" source="/office/media/icons/task-checklist-planning-teams.png":::| [Digitize your business processes](flw-choose-scenarios.md#digitized-processes) | Drive operational efficiency by digitizing paper-based processes, and automating routine, repetitive steps. |
 |:::image type="icon" source="/office/media/icons/share-teams.png":::| [Digital ecosystem](flw-choose-scenarios.md#more-scenarios-and-solutions-with-the-digital-ecosystem) | Unite the technology your frontline workforce depends on behind a single pane of glass for a seamless end-to-end experience. Include partner solutions and take advantage of integrations that help streamline processes. |
+
+## AI-powered productivity
+
+|Capability |More information |
+|-----------|---------------------|
+|Learn about agent scenarios |<ul><li>[Microsoft Entra ID overview](/entra/fundamentals/whatis)</li></ul>|
+|Setup Frontline Agent |<ul><li>[Overview of device management for frontline workers](flw-devices.md)</li><li>[Manage shared devices](flw-shared-devices.md)</li><li>[Microsoft Intune overview](/mem/intune/fundamentals/what-is-intune)</li><li>[Frontline worker device management overview in Microsoft Intune](/mem/solutions/frontline-worker/frontline-worker-overview)</li><li>[Manage devices with Intune overview](/microsoft-365/solutions/manage-devices-with-intune-overview)</li></ul>|
 
 ## Safeguard your business
 
