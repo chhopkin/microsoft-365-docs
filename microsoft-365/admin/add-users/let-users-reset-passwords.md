@@ -64,22 +64,21 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 
    This option takes you to the Password reset page in the Microsoft Entra admin center.
 
-3. On the **Password reset | Properties** page, select an option, such as **All**.
+3. On the **Password reset | Properties** page, select an option, such as **All** or **Selected**.
 
    :::image type="content" source="../../media/let-users-reset-passwords/password-reset-properties.png" alt-text="Screenshot showing password reset properties options." lightbox="../../media/let-users-reset-passwords/password-reset-properties.png":::
 
+   If you choose **Selected**, specify groups to enable self-service password reset.
 
-In the Microsoft Entra admin center, left navigation pane, select **Users**, and then **Users - all users**
+4. Select **Save**.
 
-1. Select **Password reset**.
+5. To specify authentication methods for users, see [Manage authentication methods for Microsoft Entra ID](/entra/identity/authentication/concept-authentication-methods-manage).
 
-1. Select **All** to enable self-service password reset for all your users, or choose **Selected** to specify **Groups** you want, and then select **Save**.
-
-1. On the **Password reset | Properties** page, select **Authentication methods** and select the **Number of methods required to reset** and desired **Methods available to users**, and then select **Save**.
-
-1. When your users sign in, they will be prompted to enter additional contact information that will help them reset their password in the future.
 
 ## Related content
 
-[Set the password expiration policy for your organization](../manage/set-password-expiration-policy.md) (article)\
-[Microsoft 365 Business training videos](../../business-video/index.yml) (link page)
+- [Set the password expiration policy for your organization](../manage/set-password-expiration-policy.md)
+
+- [Microsoft 365 Business training videos](../../business-video/index.yml) (link page)
+
+- [Microsoft Entra authentication documentation](/entra/identity/authentication/)
