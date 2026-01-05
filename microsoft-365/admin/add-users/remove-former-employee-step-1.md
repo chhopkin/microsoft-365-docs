@@ -48,13 +48,13 @@ To sign out other administrators, you need to be a Global Administrator.
 
 1. Select the user's name, then select **Reset password**.
 
-1. Choose whether to automatically create a new password or require the user to change their password when they first sign in.
+1. Choose whether to automatically create a new password and whether to require the user to change their password when they first sign in.
 
 1. Select **Reset password**. You can print the new password if you want. Then select **Close**.
 
 1. Select the user's name again, and on the **Account** tab, select **Sign out of all sessions**.
 
-Within an hour, or after they leave the current Microsoft 365 page they're on, they're prompted to sign in again. An access token is good for an hour, so the timeline depends on how much time is left on that token, and whether they leave the current webpage.
+Within an hour, or after the user leaves the current Microsoft 365 page they're on, they're prompted to sign in again. An access token is good for an hour, so the timeline depends on how much time is left on that token, and whether they leave the current webpage.
   
 > [!IMPORTANT]
 > If the user is using their mailbox in Outlook on the web, they might not be signed out immediately. As soon as they select a different tile, such as OneDrive, or refresh their browser, the service signs them out.
@@ -68,7 +68,7 @@ For more information about how long it takes to get someone out of email, see [W
 > [!IMPORTANT]
  > Blocking an account can take up to 24 hours to take effect. To immediately prevent a user's sign-in access, follow the previous steps to reset their password.
 
-1. In the Microsoft 365 admin center, go to **Users** \> **[Active users](https://admin.cloud.microsoft/?#/users)**.
+1. In the [Microsoft 365 admin center](https://admin.cloud.microsoft/), go to **Users** \> **[Active users](https://admin.cloud.microsoft/?#/users)**.
 
 1. Select the name of the user that you want to block, and select **Block sign-in**.
 
