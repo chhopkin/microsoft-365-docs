@@ -50,12 +50,13 @@ To set up pay-as-you-go billing, you need to have this information:
 Once you have the information on this list, you're ready to begin. As a first step, you should link an Azure subscription in pay-as-you-go, if you haven't already done so. The billing setup is consistent with other Microsoft 365 pay-as-you-go offerings.
 
 > [!NOTE]
-> **A new experience for setting up Microsoft 365 pay-as-you-go billing is being rolled out starting Jan 5th, 2026. During this rollout period, if you are setting up Microsoft 365 Backup pay-as-you-go billing for the first time, you will be able to set up billing in one of the two following ways. If you do not see the new experience of "Billing set up under Billing" present in your Microsoft 365 Admin center, you should follow steps under "Billing set up under Setup" using the legacy experience.**
+> **A new experience for setting up Microsoft 365 pay-as-you-go billing is being rolled out starting Jan 5th, 2026. During this rollout period, if you are setting up Microsoft 365 Backup pay-as-you-go billing for the first time, you will be able to set up billing in one of the two following ways. If you do not see the first option present in your Microsoft 365 Admin center, follow the second option.**
 
-> [!div class="checklist"]
-> * **Billing set up under Billing in MAC - New experience**: If you are a new user setting up Microsoft 365 Backup and is in the new experience, you will see "Pay-as-you-go" option in Billing tab of Microsoft Admin Center. You should follow the steps here for <a href="https://learn.microsoft.com/microsoft-365/services/update-pay-as-you-go-setup-billing-node?view=o365-worldwide" target="_blank">**Pay-as-you-go Setup**</a>. Once you have set up pay-as-you-go in Billing node, skip rest of the steps below and go directly to [Step 3. Start backing up your data by creating backup policies](https://admin.microsoft.com/#/Settings/enhancedRestore) to create backup.
-> * **Billing set up under Setup in MAC- Legacy experience**. If the new experience in the Billing node is not present, you will need to set up billing in Settings node using the instructions below.
 
+1. **New Billing node experience**: Follow the instructions on this page for <a href="https://learn.microsoft.com/microsoft-365/services/update-pay-as-you-go-setup-billing-node?view=o365-worldwide" target="_blank">**Pay-as-you-go Setup**</a>, which will direct you to the new experience in the Billing node in Microsoft 365 Admin center. Once you have set up pay-as-you-go in Billing node, skip rest of the steps below and go directly to [Step 3. Start backing up your data by creating backup policies](https://admin.microsoft.com/#/Settings/enhancedRestore) to create backup.
+2. **Legacy setup experience**: if the new experience in the Billing node is not present, follow the instructions below.
+
+To set up pay-as-you-go experience under Setup node, follow the below steps. 
 
 1. In the Microsoft 365 admin center, select <a href="https://go.microsoft.com/fwlink/p/?linkid=2171997" target="_blank">**Setup**</a>, and then view the **Billing and licenses** section.
 
