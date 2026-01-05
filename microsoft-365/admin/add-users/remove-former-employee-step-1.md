@@ -76,11 +76,13 @@ For more information about how long it takes to get someone out of email, see [W
 
 ## Block a user's access to email in Exchange Online
 
-If you have email as part of your Microsoft 365 subscription, sign in to the [Exchange admin center](https://admin.cloud.microsoft/exchange#) and follow these steps to block a user from accessing their email.
-
+If you have email as part of your Microsoft 365 subscription, you can use the Exchange admin center to block a user from accessing their email. See [Manage user mailboxes in Exchange Online](/exchange/recipients-in-exchange-online/manage-user-mailboxes/manage-user-mailboxes).
+ 
 1. In the [Exchange admin center](https://admin.exchange.microsoft.com/), go to **Recipients** > **Mailboxes**. (Or, go directly to the [Mailboxes page](https://admin.cloud.microsoft/exchange#/mailboxes).)
 
-2. Select the user's mailbox. Under **Email apps & mobile devices**, select **Manage email apps settings**.
+2. Select a user's mailbox. 
+
+3. Under **Email apps & mobile devices**, select **Manage email apps settings**.
 
 3. On the **Manage email apps settings** page, turn **Off** the slider for all the options:
 
