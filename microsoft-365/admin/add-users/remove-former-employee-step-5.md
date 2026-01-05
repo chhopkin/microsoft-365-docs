@@ -85,19 +85,15 @@ You can give yourself access to the content in a user's OneDrive, but you may wa
 
 2. In the left pane, select **Admin centers** \> **SharePoint**. (You might need to select **Show all** to see the list of admin centers.)
 
-3. If the classic SharePoint admin center appears, select **Open it now** at the top of the page to open the SharePoint admin center.
+3. In the navigation pane, select **More features**. Then, under **User profiles**, select **Open**.
 
-4. In the left pane, select **More features**.
+4. Under **People**, select **Manage User Profiles**.
 
-5. Under **User profiles**, select **Open**.
+5. In the **Find profiles** box, type the former employee's name, and then select **Find**.
 
-6. Under **People**, select **Manage User Profiles**.
+6. Right-click the former employee's user account, and then choose **Manage site collection owners**.
 
-7. Enter the user's name and select **Find**.
-
-8. Right-click the user, and then choose **Manage site collection owners**.
-
-9. Remove the person who no longer needs access to the user's data, and then select **OK**.
+7. Remove the person who no longer needs access to the user's data, and then select **OK**.
 
 ## Access the Outlook data of a former user
 
@@ -112,10 +108,10 @@ To give access to the email messages, calendar, tasks, and contacts of the forme
 
 ## Related content
 
-[Add and remove admins on a OneDrive account](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive) (article)
+- [Add and remove admins on a OneDrive account](/sharepoint/manage-user-profiles#add-and-remove-admins-for-a-users-onedrive)
 
-[Restore a deleted OneDrive](/onedrive/restore-deleted-onedrive) (article)
+- [Restore a deleted OneDrive](/onedrive/restore-deleted-onedrive)
 
-[OneDrive retention and deletion](/onedrive/retention-and-deletion) (article)
+- [OneDrive retention and deletion](/onedrive/retention-and-deletion)
 
-[Share OneDrive files and folders](https://support.microsoft.com/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07)
+- [Share OneDrive files and folders](https://support.microsoft.com/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07)
