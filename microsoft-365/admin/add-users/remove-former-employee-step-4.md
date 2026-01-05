@@ -75,4 +75,4 @@ If the person had meetings that booked equipment or rooms, they won't be availab
 
 - [Exchange admin center in Exchange Online](/exchange/exchange-admin-center)
 
--[Manager another person's mail and calendar items](https://support.microsoft.com/office/manage-another-person-s-mail-and-calendar-items-afb79d6b-2967-43b9-a944-a6b953190af5)
+- [Manage another person's mail and calendar items](https://support.microsoft.com/office/manage-another-person-s-mail-and-calendar-items-afb79d6b-2967-43b9-a944-a6b953190af5)
