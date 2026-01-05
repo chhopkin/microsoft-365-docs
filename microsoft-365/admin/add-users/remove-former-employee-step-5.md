@@ -97,7 +97,7 @@ You can give yourself access to the content in a user's OneDrive, but you may wa
 
 ## Access the Outlook data of a former user
 
-To save the email messages, calendar, tasks, and contacts of the former employee, export the information to an Outlook Data File (.pst). For steps on exporting Outlook data, see [Export emails, contacts, and calendar items to a .pst file](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91).
+To save the email messages, calendar, tasks, and contacts of the former employee, export the information to an Outlook Data File (`.pst`). For steps on exporting Outlook data, see [Export emails, contacts, and calendar items to a .pst file](https://support.microsoft.com/office/14252b52-3075-4e9b-be4e-ff9ef1068f91).
 
 ## Give another user access to a former user's email
 
