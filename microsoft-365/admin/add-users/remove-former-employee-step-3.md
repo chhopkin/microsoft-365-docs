@@ -29,14 +29,16 @@ description: "Use the Exchange admin center to wipe and block a former employee'
 
 # Step 3 - Wipe and block a former employee's mobile device
 
-If your former employee had an organization phone, you can use the <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange admin center</a> to wipe and block that device so that all organization data is removed from the device and it can no longer connect to Microsoft 365. If your organization uses Basic Mobility and Security to manage mobile devices, you can wipe and block those devices [using Basic Mobility and Security](/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-wipe-devices).
+If an employee has left your organization and they had a business phone, you can use the [Exchange admin center](https://go.microsoft.com/fwlink/p/?linkid=2059104) to wipe and block that device. This action helps ensure that your business data is removed from the device and it can no longer connect to your organization's Microsoft 365 subscription. 
+
+If your organization uses Basic Mobility and Security to manage mobile devices, you can wipe and block those devices [using Basic Mobility and Security](/microsoft-365/admin/security-and-compliance/m365b-devices-basic-mobility-security-wipe-devices).
 
 > [!NOTE]
 > You must have appropriate permissions through a an appropriate role, such as the [Directory Writers role](/entra/identity/role-based-access-control/permissions-reference#directory-writers) to perform the tasks in this article. 
 
 ## Wipe mobile device using the Exchange admin center
 
-1. Go to the Exchange admin center > **Recipients** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2183135" target="_blank">Mailboxes</a>.
+1. In the [Exchange admin center](https://admin.exchange.microsoft.com/), go to > **Recipients** > **Mailboxes**. (Or, go directly to the [Mailboxes page](https://go.microsoft.com/fwlink/p/?linkid=2183135).)
 
 1. Select the user, and under **Email apps & mobile devices**, select **Manage mobile devices**.
 
