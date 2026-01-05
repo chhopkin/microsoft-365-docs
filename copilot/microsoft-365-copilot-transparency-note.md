@@ -89,7 +89,7 @@ For additional, detailed information about the LLMs provided to Microsoft by Ant
 
 ### System Behavior
 
-Microsoft 365 Copilot uses a combination of LLMs to summarize, predict, and generate content. These LLMs include pre-trained models, such as Generative Pre-Trained Transformers (GPT) like GPT-4 and GPT-5 from OpenAI, and Calude Sonnet 4.5 from Anthropic, designed to excel in these tasks.
+Microsoft 365 Copilot uses a combination of LLMs to summarize, predict, and generate content. These LLMs include pre-trained models, such as Generative Pre-Trained Transformers (GPT) like GPT-4 and GPT-5 from OpenAI, and Claude Sonnet 4.5 from Anthropic, designed to excel in these tasks.
 
 The capabilities that users see in Microsoft 365 applications appear as additional features, functionality, and prompting capabilities. LLMs and proprietary Microsoft technologies work together in an underlying system that helps people securely access, use, and manage their organizational data.
 
