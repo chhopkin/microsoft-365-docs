@@ -98,4 +98,5 @@ If you have email as part of your Microsoft 365 subscription, you can use the Ex
 ## Related content
 
 - [Exchange admin center in Exchange Online](/exchange/exchange-admin-center)
+
 - [Restore a user](restore-user.md)

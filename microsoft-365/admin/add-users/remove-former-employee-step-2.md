@@ -51,5 +51,7 @@ If a former employee is blocked from signing into your organization's Microsoft 
 ## Related content
 
 - [Exchange admin center in Exchange Online](/exchange/exchange-admin-center)
+
 - [Restore a user](restore-user.md)
+
 - [Security and compliance for Exchange Online](/exchange/security-and-compliance/security-and-compliance)
