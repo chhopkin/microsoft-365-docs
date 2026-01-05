@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 10/28/2025
+ms.date: 01/05/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-security
@@ -28,20 +28,24 @@ description: "You can remove a former employee's Microsoft 365 license, and then
 
 # Step 6 - Remove and delete the Microsoft 365 license from a former employee
 
-If you don't want to pay for a license after someone leaves your organization, you need to remove their Microsoft 365 license and then delete it from your subscription. You can assign a license to another user if you don't delete it. Before you remove a license, you _must_ remove all holds for the user. For more information about holds, see [Remove an In-Place Hold in Exchange Online](/exchange/security-and-compliance/create-or-remove-in-place-holds).
+If an employee leaves your organization, and you don't want to continue to pay for their Microsoft 365 license, you need to unassign that license and then delete it from your subscription. You can reassign a license to another user if you don't want to delete it. This article describes how to remove a license from a user and delete it.
+
+Before you remove a license, you _must_ remove all holds for the user. For more information about holds, see [Remove an In-Place Hold in Exchange Online](/exchange/security-and-compliance/create-or-remove-in-place-holds).
 
 If the mailbox needs to be accessed by authorized people who have been granted eDiscovery permissions for compliance or legal reasons, it must be assigned an Exchange Online Plan 2 license (or an Exchange Online Plan 1 license with an Exchange Online Archiving add-on license) so that a hold can be applied to the mailbox before it's deleted. After the user account is deleted, any Exchange Online license associated with the user account will be available to assign to a new user.
   
-When you remove the license, all that user's data is held for 30 days. You can [access](get-access-to-and-back-up-a-former-user-s-data.md) the data, or [restore](restore-user.md) the account if the user comes back. After 30 days, all the user's data (except for documents stored on SharePoint Online) is permanently deleted from Microsoft 365 and can't be recovered.
+When you remove a license, that user's data is held for 30 days. You can [access](get-access-to-and-back-up-a-former-user-s-data.md) the data, or [restore](restore-user.md) the account if need be. 
+
+After 30 days, all the user's data (except for documents stored in SharePoint Online) is permanently deleted from Microsoft 365 and can't be recovered.
 
 > [!NOTE]
 > You must have appropriate permissions through a role, such as [License Administrator](/entra/identity/role-based-access-control/permissions-reference#license-administrator) or [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator) to perform the tasks in this article. 
 
 ## Remove licenses
 
-1. In the Microsoft 365 admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.
+1. In the [Microsoft 365 admin center](https://admin.cloud.microsoft/), go to **Users** > **Active users**. (Or go directly to the [Active users page](https://go.microsoft.com/fwlink/p/?linkid=834822).)
 
-2. Select the name of the employee that you want to block, and then select the **Licenses and Apps** tab.
+2. Select the name of the former employee, and then select the **Licenses and Apps** tab.
 
 3. Clear the check boxes for the licenses you want to remove, and then select **Save changes**.
 
@@ -49,13 +53,16 @@ When you remove the license, all that user's data is held for 30 days. You can [
 
 To reduce the number of licenses you're paying for until you hire another person, do the following steps:
 
-1. In the Microsoft 365 admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.
+1. In the [Microsoft 365 admin center](https://admin.cloud.microsoft/), go to **Billing** > **Your products**. (Or, go directly to the [Your products page](https://go.microsoft.com/fwlink/p/?linkid=842054).)
 
 2. Select the subscription from which you want to remove licenses.
 
 3. On the subscription page, select **Remove licenses**.
 
-4. In the **Remove licenses** pane, under New quantity, in the **Total licenses** box, enter the total number of licenses that you want for this subscription. For example, if you have 25 licenses and you want to remove one of them, enter 24.
+4. In the **Remove licenses** pane, specify when the following information:
+
+   - When the change could take effect
+   - What the new total license quantity should be
 
 5. Select **Save**.
 
