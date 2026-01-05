@@ -65,17 +65,20 @@ To reduce the number of licenses you're paying for until you hire another person
    - What the new total license quantity should be
 
 5. Select **Save**.
-
-When you [add another person](add-users.md) to your business, you are prompted to buy a license at the same time, with just one step!
-
-For more information about managing user licenses for Microsoft 365 for business, see [Assign licenses to users in Microsoft 365 for business](../manage/assign-licenses-to-users.md), and [Assign or unassign licenses for users in the Microsoft 365 admin center](../manage/assign-licenses-to-users.md).
   
-## How the deleted employee account affects their PTSN number
+## How the deleted employee account affects their PSTN number
 
-When you remove a user's license from Microsoft 365, the PSTN calling number associated with the user will be released. You can assign it to another user.
+When you remove a user's license from your Microsoft 365 subscription, and your organization is using [Public Switched Telephone Network (PSTN) connectivity](/microsoftteams/pstn-connectivity), the PSTN calling number associated with the former employee is released. You can then assign it to another user. See [Manage phone numbers for users](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user?tabs=assign-by-number-list).
   
-If the user belongs to a queue group, they're no longer a viable target of the call queue agents. So, we recommend also removing the user from the groups associated with the call queue.
+If the user belongs to a queue group, they're no longer a viable target of the call queue agents. We recommend removing that user from any groups that are associated with the call queue.
 
 ## Set up call forwarding to people in your organization
 
 If you need to set up call forwarding for the terminated employee's phone number, the call forwarding setting under calling policies can be set up forwarding. Incoming calls can be forwarded to other users or can ring another person at the same time. For more information, see [Calling policies in Microsoft Teams](/microsoftteams/teams-calling-policy).
+
+## Related content
+
+- [Add users and assign licenses in Microsoft 365](add-users.md)
+- [Assign or unassign licenses for users in the Microsoft 365 admin center](../manage/assign-licenses-to-users.md)
+- [Teams calling overview](/microsoftteams/cloud-voice-landing-page)
+- [Enterprise user management (Microsoft Entra ID)](/entra/identity/users/directory-overview-user-model)
