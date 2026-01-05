@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 11/21/2025
+ms.date: 12/18/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -48,7 +48,10 @@ Agent Registry lists all agents integrated with Microsoft 365 Copilot, including
 
 ### Manage agents with embedded file content as a knowledge source
 
-Agent creators can use [Microsoft 365 Copilot Agent Builder](/microsoft-365-copilot/extensibility/copilot-studio-lite-build) to upload files for the agent to use as knowledge. Copilot stores the uploaded files in tenant-owned [SharePoint Embedded](/sharepoint/dev/embedded/overview) containers. It then embeds the file content as knowledge for the agent to use in responses. For more information about how to build agents, see [Build agents with Microsoft 365 Copilot Agent Builder](/microsoft-365-copilot/extensibility/copilot-studio-lite-knowledge#embedded-file-content).
+Agent creators can use [Agent Builder in Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agent-builder-build-agents) to upload files for the agent to use as knowledge. Copilot stores the uploaded files in tenant-owned [SharePoint Embedded](/sharepoint/dev/embedded/overview) containers. It then embeds the file content as knowledge for the agent to use in responses. For more information, see [Embedded file content](/microsoft-365-copilot/extensibility/agent-builder-add-knowledge#embedded-file-content).
+
+> [!IMPORTANT]
+> [Microsoft Purview Information Barriers (IB)](/purview/information-barriers) isn't supported on embedded files. Any user who can access the agent can see responses grounded in the embedded file content. 
 
 This article explains how to handle embedded files, how you can manage agents and containers, and what to expect with sensitivity labels and deletion workflows.
 
@@ -208,6 +211,9 @@ Administrators in the Microsoft 365 admin center can take several actions to con
 ### Available actions
 
 - **Publish** - Make an agent available for installation to specific users or groups.
+
+    > [!NOTE]
+    > Publishing agents to the organization is supported in Microsoft 365 Government Community Cloud High (GCCH) and Government Community Cloud Moderate (GCCM) environments.
 
 - **Activate** - Allow only selected users or groups to install the agent and create instances.
 

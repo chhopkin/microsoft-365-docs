@@ -5,7 +5,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 ms.reviewer: 
-ms.date: 10/29/2025
+ms.date: 12/23/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: article
@@ -121,4 +121,5 @@ Make sure to review the articles [Control cloud apps with policies](/defender-cl
 - [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview)
 - [App governance in Microsoft Defender for Cloud Apps](/defender-cloud-apps/app-governance-manage-app-governance)
 - [Tech Community blog: Discover, monitor, and protect the use of Generative AI apps](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/discover-monitor-and-protect-the-use-of-generative-ai-apps/3999228)
-
+- [Considerations to manage Microsoft 365 Copilot and Channel Agent in Teams for security and compliance](/purview/ai-m365-copilot-considerations)
+- [Learn about using Microsoft Purview Data Loss Prevention to protect interactions with Microsoft 365 Copilot and Copilot Chat](/purview/dlp-microsoft365-copilot-location-learn-about)

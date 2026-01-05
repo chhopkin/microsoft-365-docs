@@ -34,8 +34,6 @@ items:
       href: pay-as-you-go/meters.md
   - name: Data, Privacy, and Security
     items:
-    - name: Overview
-      href: responsible-ai/responsible-ai-overview.md
     - name: Data, privacy, and security for Microsoft 365 Copilot
       href: microsoft-365-copilot-privacy.md
     - name: Data protection and auditing
@@ -44,10 +42,8 @@ items:
       href: manage-public-web-access.md
     - name: Security for Microsoft 365 Copilot
       href: microsoft-365-copilot-ai-security.md
-    - name: Manage harmful content protection settings for Microsoft 356 Copilot Chat
-      href: harmful-content-protection-copilot-chat.md  
-    - name: Manage generative AI apps for your organization
-      href: manage-generative-ai-apps.md
+    - name: Responsible AI FAQs
+      href: responsible-ai/responsible-ai-overview.md
     - name: Apply principles of Zero Trust to Microsoft 365 Copilot
       href: /security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     - name: Enterprise data protection
@@ -131,6 +127,8 @@ items:
     href: /copilot/manage?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
   - name: Microsoft 365 Copilot Features
     items:
+    - name: Manage harmful content protection settings for Copilot Chat
+      href: harmful-content-protection-copilot-chat.md  
     - name: Copilot Prompts
       items:
       - name: Manage scheduled prompts
@@ -473,6 +471,8 @@ items:
           href: wordexcelppt-agents.md
         - name: Word, Excel, and PowerPoint Agents FAQ
           href: faq-wordexcelppt-agents.yml        
+  - name: Manage generative AI apps for your organization
+    href: manage-generative-ai-apps.md
   - name: Service plan diagnostic tool
     href: microsoft-365-copilot-service-plans.md
   - name: Reports and insights
