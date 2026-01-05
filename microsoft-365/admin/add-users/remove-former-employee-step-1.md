@@ -35,7 +35,7 @@ When an employee leaves your organization, the first step to preventing unauthor
 
 ## Prerequisites
 
-To complete this action for standard users, you must have an appropriate role aasigned, such as User Administrator or Helpdesk Administrator role.
+To complete this action for standard users, you must have an appropriate role assigned, such as User Administrator or Helpdesk Administrator role.
 
 To sign out other administrators, you need to be a Global Administrator.
 
