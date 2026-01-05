@@ -42,13 +42,11 @@ If your organization uses Basic Mobility and Security to manage mobile devices, 
 
 1. Select the user, and under **Email apps & mobile devices**, select **Manage mobile devices**.
 
-1. On the **Mobile Device Details** page, under **Mobile devices**, select the mobile device, select **Wipe company data**![Wipe Device.](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png), and then select **Block access**.
+1. On the **Mobile Device Details** page, under **Mobile devices**, select a device. Then select an option, such as **Account Only Remote Wipe Device**, and then select **Block access**. See [Perform a remote wipe on a mobile phone in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/exchange-activesync/remote-wipe-on-mobile-phone).
 
-1. Select **Save**.
-
-   > [!TIP]
-   > Be sure you remove or disable the user from your on-premises Blackberry Enterprise Service. You should also disable any Blackberry devices for the user. Refer to the Blackberry Business Cloud Services Administration Guide if you need specific steps on how to disable the user.
+1. Save your changes.
 
 ## Related content
 
-[Exchange admin center in Exchange Online](/exchange/exchange-admin-center)
+- [Exchange admin center in Exchange Online](/exchange/exchange-admin-center)
+- [Perform a remote wipe on a mobile phone in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/exchange-activesync/remote-wipe-on-mobile-phone)
