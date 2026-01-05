@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 10/01/2024
+ms.date: 01/05/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-security
@@ -42,9 +42,9 @@ To complete these steps, you must be a [password administrator](about-admin-role
 
 ## Before you begin
   
-- You get self-service password reset for cloud users **free** with any Microsoft 365 business, education, or nonprofit paid plan. It doesn't work with Microsoft 365 trial.
+- Self-service password reset is included with any Microsoft 365 business, education, or nonprofit paid plan. It doesn't work with Microsoft 365 trial.
 
-- It uses Azure. You'll automatically get this feature in Azure for **free** when you do these steps. It won't cost you anything to turn on self-service password reset.
+- Self-service password reset uses Azure. There's no extra charge to turn on self-service password reset.
 
 - **If you're using an on-premises Active Directory**, you can set this up but **it requires a paid subscription to Microsoft Entra ID P1 or P2**.
 
