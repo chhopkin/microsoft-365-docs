@@ -58,7 +58,10 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 
 1. In the [Microsoft 365 admin center](https://admin.cloud.microsoft/), in the left navigation pane, select **Settings** > **Org settings**, and then select the **Security & privacy** tab. (Or, use this link to open that tab: [Security & privacy](https://go.microsoft.com/fwlink/p/?linkid=2072756)).
 
-1. Select **Self-service password reset**, and then choose **Go to the Azure portal to turn on self-service password reset**.
+2. Select **Self-service password reset**, and then select **Go to the Azure portal to turn on self-service password reset**.
+
+   :::image type="content" source="../../media/let-users-reset-passwords/self-service-password-reset.png" alt-text="Screenshot showing self-service password reset flyout." lightbox="../../media/let-users-reset-passwords/self-service-password-reset.png":::
+
 1. In the left navigation pane, select **Users**, and then **Users - all users**
 1. Select **Password reset**.
 1. Select **All** to enable self-service password reset for all your users, or choose **Selected** to specify **Groups** you want, and then select **Save**.
