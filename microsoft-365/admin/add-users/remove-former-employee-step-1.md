@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 10/28/2025
+ms.date: 01/05/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-security
@@ -31,7 +31,7 @@ ms.custom:
 
 # Step 1 - Prevent user sign-in and block access to Microsoft 365
 
-When a user leaves your organization and you need to immediately prevent their access, first reset their password. You can also force them to sign out from Microsoft 365 services. If you think the account might be compromised, block sign-in so that no one can use it.
+When an employee leaves your organization, the first step to preventing unauthorized access is to reset their password. You can also force the user account to be signed out from your Microsoft 365 services. If you think the account might be compromised, make sure to block signing in so that no one can use those credentials.
 
 ## Prerequisites
 
