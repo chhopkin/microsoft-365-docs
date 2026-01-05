@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 10/28/2025
+ms.date: 01/05/2026
 audience: Admin
 ms.topic: solution-overview
 ms.service: microsoft-365-security
@@ -34,9 +34,7 @@ description: "Block access to Microsoft 365 so a former employee can't sign in, 
 
 # Overview: Remove a former employee and secure data
 
-Check out [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) on YouTube.
-
-A question we often get is, "What should I do to secure data and protect access when an employee leaves my organization?" This article series explains how to block access to Microsoft 365 so these users can't sign in to Microsoft 365, the steps you should take to secure organization data, and how to allow other employees to access email and OneDrive data.
+If an employee leaves your organization, you might be wondering what you should do to secure data and prevent unauthorized access. This article series explains how to block access to Microsoft 365 so former employees can't sign in to your organization's Microsoft 365 subscription, the steps you should take to secure your organization's data, and how to allow other employees to access a former employee's email and OneDrive content.
 
 ## Before you begin
 
@@ -84,6 +82,8 @@ If you're using Microsoft Entra ID, see the [Remove-MgUser](/powershell/module/m
   
 ## Related content
 
-[Restore a user](restore-user.md) (article)\
-[Assign or unassign licenses for users in the Microsoft 365 admin center](../manage/assign-licenses-to-users.md) (article)\
-[Remove-CalendarEvents](/powershell/module/exchangepowershell/remove-calendarevents)
+- [Restore a user](restore-user.md)
+- [Assign or unassign licenses for users in the Microsoft 365 admin center](../manage/assign-licenses-to-users.md)
+- [Remove-CalendarEvents](/powershell/module/exchangepowershell/remove-calendarevents)
+- [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) (on YouTube)
+
