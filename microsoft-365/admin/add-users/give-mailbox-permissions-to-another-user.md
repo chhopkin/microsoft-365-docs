@@ -154,6 +154,6 @@ After permissions are set and access is granted, users have a few different opti
 
 ## Related content
   
-[Manage another person's mail and calendar items](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5)
-[Send email from another person or group](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b)
+[Manage another person's mail and calendar items](https://support.microsoft.com/office/afb79d6b-2967-43b9-a944-a6b953190af5)<br>
+[Send email from another person or group](https://support.microsoft.com/office/0f4964af-aec6-484b-a65c-0434df8cdb6b)<br>
 [Change a user name and email address](../add-users/change-a-user-name-and-email-address.md)

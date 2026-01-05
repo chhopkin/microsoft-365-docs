@@ -3,7 +3,7 @@ title: "Understanding Microsoft 365 case creation and data access"
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 10/24/2025
+ms.date: 12/15/2025
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -18,7 +18,10 @@ description: "Learn about the diagnostic data Microsoft 365 Support engineers ac
 
 # Understanding Microsoft 365 case creation and data access
 
-This article describes consent that's granted to Microsoft when a support case is opened, the types of data that can be accessed and for how long, and how support activities are logged.
+This article describes consent that's granted to Microsoft when a business user opens a support case, the types of data that can be accessed and for how long, and how support activities are logged.
+
+> [!TIP]
+> If you're a home user and you need technical support, see [Contact us](https://support.microsoft.com/en-us/contactus#!).
 
 ## Consent for diagnostic information
 
@@ -59,7 +62,7 @@ Activity performed on a customer tenant is available under Microsoft Entra audit
 
 | Scenario | Audit log details |
 |--|--|
-| A support case is created and cross-tenant access is granted | **Activity type**: Add a partner to cross-tenant access setting<br/>**Category**: `CrossTenantAccessSettings`<br/>**Initiated by (actor)**: <br/>- **Type**: `Application` <br/>- **Display Name**: `EntraGDAP`<br/><br/>**Activity Type**: Add allowed assignable roles<br/>**Category**: `DelegatedAdminServiceProviderConstraints`<br/>**Initiated by (actor)**: <br/>- **Type**: Application <br/>- **Display Name**: `EntraGDAP` |
+| A support case is created and cross-tenant access is granted | **Activity type**: Add a partner to cross-tenant access setting<br/>**Category**: `CrossTenantAccessSettings`<br/>**Initiated by (actor)**: <br/>- **Type**: `Application` <br/>- **Display Name**: `EntraGDAP`<br/><br/>**Activity Type**: Add allowed assignable roles<br/>**Category**: `DelegatedAdminServiceProviderConstraints`<br/>**Initiated by (actor)**: <br/>- **Type**: Application <br/>- **Display Name**: `EntraGDAP`<br/><br/>**Activity Type**: Update a partner cross-tenant access setting<br/>**Category**: `CrossTenantAccessSettings`<br/>**Initiated by (actor)**: <br/>- **Type**: Application <br/>- **Display Name**: `EntraGDAP` |
 | A support engineer signs in to investigate and troubleshoot an issue | An entry each time: <br/>- A support engineer signs in <br/>- Diagnostics that involve operations are run<br/><br/>**Initiated by (actor)**:<br/>- **Type**: `Application`<br/>- **Display Name**: `AssistAPI`  |
 | Access is removed | **Activity type**: Delete allowed assignable roles<br/>**Category**: `DelegatedAdminServiceProviderConstraints`<br/>**Initiated by (actor)**: <br/>- **Type**: `Application` <br/>- **Display Name**: `EntraGDAP`<br/><br/>**Activity type**: Delete partner specific cross-tenant access setting<br/>**Category**: `CrossTenantAccessSettings`<br/>**Initiated by (actor)**: <br/>- **Type**: `Application` <br/>- **Display Name**: `EntraGDAP` |
 
