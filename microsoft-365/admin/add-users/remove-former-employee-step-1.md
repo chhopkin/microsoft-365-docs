@@ -44,7 +44,7 @@ To sign out other administrators, you need to be a Global Administrator.
 
 ## Reset password and sign out of all sessions
 
-1. In the Microsoft 365 admin center, go to **Users** \> **[Active users](https://admin.cloud.microsoft/?#/users)**.
+1. In the [Microsoft 365 admin center](https://admin.cloud.microsoft/), go to **Users** \> **Active users**. (Or, go directly to the [Active users page](https://admin.cloud.microsoft/?#/users).)
 
 1. Select the user's name, then select **Reset password**.
 
