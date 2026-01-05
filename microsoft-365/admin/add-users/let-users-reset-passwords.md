@@ -46,7 +46,7 @@ To complete these steps, you must be a [password administrator](about-admin-role
 
 - Self-service password reset uses Azure. There's no extra charge to turn on self-service password reset.
 
-- **If you're using an on-premises Active Directory**, you can set this up but **it requires a paid subscription to Microsoft Entra ID P1 or P2**.
+- If you're using Active Directory on premises, you can set up self-service password reset, but it requires a paid subscription to Microsoft Entra ID P1 or P2.
 
 ## Watch: Let users reset their own passwords
 
