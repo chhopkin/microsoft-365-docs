@@ -42,16 +42,13 @@ To complete the steps in this series, you use these Microsoft 365 capabilities a
 
 |Product or component|Capability or feature|
 |---|---|
-|Microsoft 365 admin center|Convert mailbox, forward email, revoke access, remove user |
-|Exchange admin center|Block user, block access to email, wipe device |
-|OneDrive and SharePoint |Give access to other users |
-|Outlook|Import pst files, add mailbox |
-|Active Directory|Remove users in hybrid environments |
+| Microsoft 365 admin center| Convert mailbox, forward email, revoke access, remove user |
+| Exchange admin center| Block user, block access to email, wipe device |
+| OneDrive and SharePoint | Give access to other users |
+| Outlook| Import pst files, add mailbox |
+| Active Directory | Remove users in hybrid environments |
 
 ## Solution: Remove a former employee
-
-> [!IMPORTANT]
-> Although we've numbered the steps in this solution and you don't have to complete the solution using the exact order, we do recommend doing the steps this way.
 
 :::image type="content" source="../../media/delete-user-account.png" alt-text="Screenshot: Steps for removing a former employee from your organization":::
 
