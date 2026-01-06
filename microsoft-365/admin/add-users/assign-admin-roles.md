@@ -69,29 +69,33 @@ When you sign up for Microsoft 365 for business for your organization, you're au
 
    To view the administrator roles available for your organization, choose the **Microsoft Entra ID**, **Exchange**, **Intune**, or **Billing** tab. The specific tabs you see depend on your organization's Microsoft 365 subscription.
 
-1. Select the administrator role that you want to assign the user to.
+1. Select the administrator role that you want to assign the user to. (See [Least privileged roles by task in Microsoft Entra ID](/entra/identity/role-based-access-control/delegate-by-task).)
+
 1. On the Assigned tab, select **Add users** or **Add groups**.
+
 1. Type the user's **display name** or **username**, then select the user from the list of suggestions.
+
 1. Add multiple users until you're done.
+
 1. Select **Add**, and the user or users are added to the list of assigned administrators.
 
 ### Assign a user to an administrator role from Active users
 
 ::: moniker range="o365-worldwide"
 
-1. In the admin center, go to **Users** > **[Active users](https://admin.cloud.microsoft/?#/users)**.
+1. In the admin center, go to **Users** > **Active users**. (Or, go directly to the [Active users page](https://admin.cloud.microsoft/?#/users).)
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. In the admin center, go to **Users** > **[Active users](https://portal.partner.microsoftonline.cn/AdminPortal/Home?ref=users)**.
+1. In the admin center, go to **Users** > **Active users**. (Or, go directly to the [Active users page](https://portal.partner.microsoftonline.cn/AdminPortal/Home?ref=users).)
 
 ::: moniker-end
 
 1. On **Active users**, select the user whose administrator role you want to change. In the flyout pane, under **Roles**, select **Manage roles**.
 
-1. Select the administrator role that you want to assign to the user. If you don't see the role you're looking for, select **Show all** at the bottom of the list.
+1. Select the administrator role that you want to assign to the user. If you don't see the role you're looking for, select **Show all** at the bottom of the list. (See [Least privileged roles by task in Microsoft Entra ID](/entra/identity/role-based-access-control/delegate-by-task).)
 
 ## Assign administrator roles to multiple users
 
