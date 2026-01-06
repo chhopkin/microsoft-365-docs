@@ -111,7 +111,7 @@ The capabilities that users see in Microsoft 365 applications appear as addition
 
 - Microsoft 365 Copilot returns the response to the app, where the user can review and assess the response.
 
-The data is encrypted while it's stored and isn't used to train Azure OpenAI Service [foundation LLMs](https://blogs.microsoft.com/on-the-issues/2024/03/28/data-protection-responsible-ai-azure-copilot/), including those used by Microsoft 365 Copilot. For more information about this, see [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
+The data is encrypted while it's stored and isn't used to train Anthropic or Azure OpenAI Service [foundation LLMs](https://blogs.microsoft.com/on-the-issues/2024/03/28/data-protection-responsible-ai-azure-copilot/), including those used by Microsoft 365 Copilot. For more information about this, see [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
 
 #### How Microsoft 365 Copilot generates responses without web content or organizational data
 
