@@ -8,7 +8,7 @@ manager: dansimp
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-security
-ms.date: 08/14/2025
+ms.date: 01/06/2026
 ms.localizationpriority: medium
 ms.collection:
 - M365-Campaigns
@@ -39,7 +39,7 @@ Use the following guidance to make the most of admin accounts while protecting y
 
 - **Be sure to have more than one admin account**: We recommend at least two admin [emergency access accounts](/entra/identity/role-based-access-control/security-emergency-access) in every organization that aren't assigned to specific individuals and are only used in emergencies. These accounts also need to be [excluded from MFA requirements](set-up-multi-factor-authentication.md#step-3-adjust-mfa-exclusions) and therefore should have long, complex passwords (16 or more characters). These accounts are also known as "break glass accounts."
 
-  For admin account creation instructions, see [Add an admin](../add-users/assign-admin-roles.md#add-an-admin).
+  For admin account creation instructions, see [Add an administrator](../add-users/assign-admin-roles.md#add-an-administrator).
 
   > [!IMPORTANT]
   > Limit the number of admin accounts your organization. Too many admin accounts provide attackers with more opportunities to compromise your organization.
