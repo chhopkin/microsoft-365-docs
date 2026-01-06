@@ -209,7 +209,7 @@ Authorization to create support tickets is restricted to users who are assigned 
 
 Only the Security Administrator, Teams Administrator, and Global Administrator roles can modify any other aspects of cross-tenant access settings.
 
-For more information about roles in Microsoft Entra ID, see [Support least privileged roles](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/delegate-by-task#support-least-privileged-roles).
+For more information about roles in Microsoft Entra ID, see [Support least privileged roles](/entra/identity/role-based-access-control/delegate-by-task#support-least-privileged-roles).
 
 ## See also
 
