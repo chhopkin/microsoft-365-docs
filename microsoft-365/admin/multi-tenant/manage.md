@@ -98,3 +98,5 @@ You can return to the Microsoft 365 admin center for any of the tenants from the
 - [Multitenant organization capabilities in Microsoft Entra ID](/entra/identity/multi-tenant-organizations/overview)
 
 - [Microsoft Entra built-in roles](/entra/identity/role-based-access-control/permissions-reference)
+
+- [Add and manage multiple tenants in your Partner Center account](/partner-center/account-settings/multi-tenant-account)
