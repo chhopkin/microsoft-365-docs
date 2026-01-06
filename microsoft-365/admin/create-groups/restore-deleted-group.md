@@ -51,7 +51,9 @@ When a group is restored, the following content is restored:
 
 ## Restore a group
 
-# [Outlook](#tab/outlook)
+You can restore a group in Outlook, the Microsoft 365 admin center, or PowerShell.
+
+### Restore a group in Outlook
 
 If you're the owner of a Microsoft 365 group, you can restore the group yourself in Outlook on the web by following these steps:
 
@@ -61,7 +63,7 @@ If you're the owner of a Microsoft 365 group, you can restore the group yourself
 
 If the deleted group doesn't appear here, contact an administrator.
 
-# [Admin center](#tab/admin-center)
+### Restore a group in the Microsoft 365 admin center
 
 If you're a groups administrator, you can restore a deleted group in the Microsoft 365 admin center:
 
@@ -74,8 +76,7 @@ If you're a groups administrator, you can restore a deleted group in the Microso
 > [!NOTE]
 > In some cases, it may take as long as 24 hours for the group and all of its data to be restored. 
 
----
-# [PowerShell](#tab/PowerShell)
+### Restore a group by using PowerShell
 
 See [Restore a deleted Microsoft 365 group or cloud security group in Microsoft Entra ID](/entra/identity/users/groups-restore-deleted#view-the-deleted-microsoft-365-groups-that-are-available-to-restore-by-using-powershell) to restore the group by using PowerShell.
 
