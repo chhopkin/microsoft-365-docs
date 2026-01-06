@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 12/10/2025
+ms.date: 01/06/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-security
@@ -28,18 +28,16 @@ ms.custom:
 - adminvideo
 ---
 
-
 # Assign admin roles in the Microsoft 365 admin center
 
-A Microsoft 365 subscription comes with a set of admin roles that you can assign to users in your organization by using the Microsoft 365 admin center. Each admin role maps to common business functions and gives people in your organization permissions to do specific tasks in the admin centers. For more information, see [About admin roles](about-admin-roles.md).
+A Microsoft 365 subscription comes with a set of administrator roles that you can assign to users in your organization by using the [Microsoft 365 admin center](https://admin.microsoft.com). Each administrator role maps to common business functions and gives people in your organization permissions to do specific tasks in the admin centers. For more information, see [About administrator roles](about-admin-roles.md).
 
 > [!IMPORTANT]
-> If you purchase your Microsoft business subscription, you're the global admin. This role gives you unlimited control over the products in your subscriptions and access to most data.
+> If you're the one who purchased your organization's Microsoft 365 for business subscription, you're the [Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator) by default. This role gives you unlimited control over the products in your subscriptions and access to most data. The Global Administrator role is a highly privileged role. As a best practice, make sure to limit the number of people in your organization who have the Global Administrator role assigned.
 
-When you add new users, if you don't assign them an admin role, they are in the *user role*. They don't have admin privileges to any of the Microsoft admin centers. To get help with administrative tasks, assign an admin role to a trusted user. For example, if you need someone to help reset passwords, don't assign them the global admin role. Assign them the password admin role. Having too many global admins, with unlimited access to your data and online business, is a security risk.
+When you add new users, if you don't assign them an administrator role, they are assigned a user role. Users don't have administrator privileges to any of the Microsoft admin centers. 
 
-> [!IMPORTANT]
-> Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
+If you need help with administrative tasks, you can assign an administrator role to a trusted user. In keeping with [best practices](/entra/identity/role-based-access-control/best-practices), assign the role that's needed to complete specific tasks. For example, if you need someone to help reset user passwords, assign them the [Password Administrator role](/entra/identity/role-based-access-control/permissions-reference#password-administrator) and not the Global Administrator role. 
 
 You can assign users to a role in two different ways:
 
