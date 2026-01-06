@@ -238,9 +238,6 @@ The following steps are required to install and enable the Workday Extension Pac
 
 #### Step 1: Install the extension
 
->[!NOTE]
->The entitlement process is a workaround until the extension pack installation is streamlined in Microsoft Copilot Studio.
-
 1. Open the Employee Self-Service agent in Copilot Studio.
 1. Navigate to **Settings**.
 1. Select **Customize** from the left navigation.
