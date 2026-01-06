@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 12/01/2025
+ms.date: 01/06/2026
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-security
@@ -32,7 +32,7 @@ description: "Learn about admin roles, such as the global admin role, or the ser
 
 > Check out [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) on YouTube. These resources are especially helpful for small business admins who are new to Microsoft 365.
 
-In order to perform tasks, such as adding users, assigning licenses, or configuring services, you must be assigned an administrator role. Your Microsoft 365 or Office 365 subscription comes with a set of administrator roles that can be assigned in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339). Each administrator role maps to common business functions and gives people in your organization permissions to do specific tasks in the admin centers. This article provides an overview of administrator roles, security guidelines to keep in mind, and links to related content.
+In order to perform tasks, such as adding users, assigning licenses, or configuring services, you must be assigned an administrator role. Your Microsoft 365 or Office 365 subscription comes with a set of administrator roles that can be assigned in the [Microsoft 365 admin center](https://admin.microsoft.com). Each administrator role maps to common business functions and gives people in your organization permissions to do specific tasks in the admin centers. This article provides an overview of administrator roles, security guidelines to keep in mind, and links to related content.
 
 ## Watch: What is an admin?
 
@@ -42,7 +42,7 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com) and sign in. If you can access the Microsoft 365 admin center, you're an administrator, and you can proceed to the next step.
 
-2. In the left navigation pane, select **Users** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">**Active users**</a>.
+2. In the left navigation pane, select **Users** > **Active users**. (Or, go directly to the [Active users page](https://go.microsoft.com/fwlink/p/?linkid=834822).)
 
 3. Select the user account for the person who you want to make an administrator. The user's details appear in the right dialog box.
 
@@ -78,7 +78,7 @@ If you get a message in the Microsoft 365 admin center that you don't have permi
 
 To view administrator roles, follow these steps:
 
-1. In the Microsoft 365 admin center, go to <a href="https://go.microsoft.com/fwlink/p/?linkid=2097861" target="_blank">**Role assignments**</a>.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to <a href="https://go.microsoft.com/fwlink/p/?linkid=2097861" target="_blank">**Role assignments**</a>.
 
 2. Select any role to open its detail pane. 
 
@@ -152,7 +152,7 @@ Before the partner can assign these roles to users, you must add the partner as 
 
 ## Volume licensing roles
 
-Volume licensing (VL) agreement administrators access their volume licenses in the Microsoft 365 admin center.
+Volume licensing (VL) agreement administrators access their volume licenses in the [Microsoft 365 admin center](https://admin.microsoft.com).
 
 - VL Administrators don't have permissions to any other admin center information or functionality outside the VL section.
 - Global administrators don't assign any VL roles and don't need to assign any admin role to a VL Administrator for them to be able to access the VL agreement.
