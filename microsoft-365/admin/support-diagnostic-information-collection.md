@@ -211,7 +211,7 @@ Only the Security Administrator, Teams Administrator, and Global Administrator r
 
 For more information about roles in Microsoft Entra ID, see [Support least privileged roles](/entra/identity/role-based-access-control/delegate-by-task#support-least-privileged-roles).
 
-## See also
+## Related content
 
 - [Overview: Cross-tenant access with Microsoft Entra External ID](/entra/external-id/cross-tenant-access-overview)
 - [What are Microsoft Entra audit logs?](/entra/identity/monitoring-health/concept-audit-logs)
