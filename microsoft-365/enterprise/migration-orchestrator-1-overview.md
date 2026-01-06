@@ -45,10 +45,9 @@ Organizations can choose from several migration models depending on their busine
 
 ## Licensing and availability
 
-To use tenant-to-tenant migration features, organizations must meet the following licensing requirements:
+Cross-Tenant migrations require a per-user license (one-time fee) and can be assigned on either the source or target user object. This license enables the migration of Exchange Online mailboxes & OneDrives included in the Orchestrated migration. During preview for Teams meetings and Teams chats, no additional licenses are required for these specific workload migrations. Cross Tenant User Data Migration is available as an add-on to the following Microsoft 365 subscription plans: Microsoft 365 Business Basic, Standard, and Premium; Microsoft 365 F1/F3/E3/E5/; Office 365 F3/E1/E3/E5; Exchange Online; SharePoint in Microsoft 365; OneDrive and EDU.
 
-- **Microsoft 365 E3/E5 or equivalent** licenses for source and target tenants.
-- **Cross-Tenant User Data Migration** licenses are required as an add-on for each user in order to move mailbox or OneDrive data. It must be applied to either the source or target user.
+This product is and will be available for EA, CSP, Web direct, small business and EDU customers. The pricing at GA is not yet available.
 
 ## Security and compliance considerations
 
