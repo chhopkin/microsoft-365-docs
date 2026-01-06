@@ -28,7 +28,7 @@ customer-intent: As an admin, I want to restore a user account that was deleted.
 
 When you restore a user account within 30 days of deleting it, the account and all associated data are restored. The user can sign in with their same work or school account. Their mailbox is fully restored. 
 
-To find out how much time you have left to restore a specific user account, [contact support](../../business-video/get-help-support.md).
+To find out how much time remains to restore a specific user account, [contact support](../../business-video/get-help-support.md).
   
 > [!TIP]
 > - Make sure enough Microsoft 365 licenses are available to assign to the account.
@@ -93,7 +93,7 @@ You must have the [User Administrator](/entra/identity/role-based-access-control
 ## Related content
 
 - [Delete a user](delete-a-user.md)
-- [Assign admin roles](assign-admin-roles.md)
+- [Assign administrator roles](assign-admin-roles.md)
 - [Assign licenses to users](../manage/assign-licenses-to-users.md)
 - [Troubleshooting: How to restore deleted user accounts in Microsoft 365, Azure, and Intune](/previous-versions/troubleshoot/microsoft-365/admin/restore-deleted-user-accounts)
 - [Least privileged roles by task in Microsoft Entra ID](/entra/identity/role-based-access-control/delegate-by-task)
