@@ -21,7 +21,7 @@ Frontline Agent is an AI‑powered assistant in Microsoft 365 Copilot and Teams 
 
 Frontline Agent works alongside Teams chats, channels, and existing Microsoft 365 services such as SharePoint, enabling organizations to scale frontline communication and operations without introducing new tools or workflows.
 
-Built on Microsoft 365, Frontline Agent works within your existing Microsoft Teams security and compliance framework. It supports modern and shared devices, scales across regions and roles, and provides leaders with confidence that frontline work is supported by secure, enterprise‑grade collaboration and AI. You can use Microsoft Purview to mitigate and manage the risk associated with AI usage, including with Frontline Agent [here](/purview/ai-microsoft-purview). 
+Built on Microsoft 365, Frontline Agent works within your existing Microsoft Teams security and compliance framework. You can use Microsoft Purview to mitigate and manage the risk associated with AI usage, including with Frontline Agent [here](/purview/ai-microsoft-purview). 
 
 The agent is available for anyone with an M365 Copilot license in the agents section. As an IT administrator, you set up Frontline Agent to ensure it aligns with your organization’s policies for security, compliance, and device management.
 
@@ -29,11 +29,11 @@ The agent is available for anyone with an M365 Copilot license in the agents sec
 
 __Quick access to information and guidance__
 
-Frontline Agent allows workers to quickly find answers, documents, and guidance from approved sources such as SharePoint or Teams channels. This is especially useful in environments with frequent employee turnover or limited time for training.
+Frontline Agent allows workers to quickly find answers, documents, and guidance from approved sources such as SharePoint or Teams channels. This quick guidance is essential in environments with frequent employee turnover or limited time for training.
 
 __Catch up on missed communications at the start of a shift__
 
-Frontline Agent helps frontline workers quickly catch up on important messages, updates, and tasks at the start of a shift without scrolling through long chat histories. It summarizes relevant conversations and highlights any actions that need to be taken. This helps workers start productive work faster and reduces missed information.
+Frontline Agent helps frontline workers quickly catch up on important messages, updates, and tasks at the start of a shift without scrolling through long chat histories. It summarizes relevant conversations and highlights any actions that need to be taken, reducing missed information.
 
 __Draft end-of-shift handovers__
 
@@ -41,7 +41,7 @@ Frontline Agent helps frontline managers create clear and consistent end‑of‑
 
 ### Prerequisites
 
-1. __Identify the scenarios and training plan:__ Based on the capabilities above and the current frontline workflows, establish the most likely used prompts. Share these with your frontline workers and setup a one-time training session to help them understand the capabilities.
+1. __Identify the scenarios and training plan:__ Based on your organization's frontline workflows and the agent's capabilities, establish the most likely used prompts. Share these prompts with your frontline workers and setup a one-time training session to help them understand how to use the agent.
 
 2. __Select an initial group of users:__ We suggest launching the agent at a few locations that are already using Microsoft Teams so you can observe how your frontline workers are adopting the use cases.
 
@@ -49,14 +49,15 @@ Frontline Agent helps frontline managers create clear and consistent end‑of‑
 
 ### How to Set it Up
 
-The agent will be discoverable from the M365 Copilot app store for all users who have the M365 Copilot license. To pin the agent for those users in M365 Copilot, click [here](/microsoft-365/admin/manage/agent-registry?view=o365-worldwide). If you’d like the agent to also show up in the Teams chat rail or scope down the SharePoint sites the agent has access to, please follow the instructions below.
+The agent is discoverable from the M365 Copilot app store for all users who have the M365 Copilot license. To pin the agent for those users in M365 Copilot, click [here](/microsoft-365/admin/manage/agent-registry?view=o365-worldwide). If you’d like the agent to also show up in the Teams chat rail or scope down the SharePoint sites the agent has access to, follow these instructions.
 
 > [!NOTE]
 > If you don’t scope down to a set of SharePoint sites, the agent will provide answers from all the sites each user has access to.
-
 1. Go to **Teams Admin center** > **Frontline management** > **Manage frontline teams** and then select **Agents**.
 
 ![ManageFrontlineTeamsAgents](media/setupfrontlineagent/managefrontlineteamsagents.png)
+
+Click **Frontline Agent**. To limit the agent to specific SharePoint sites, paste in each Home site URL. If you add 10 sites and a user only has access to 2, the agent will use information from only those 2 sites.
 
 1. Click **Frontline Agent**. To limit the agent to specific SharePoint sites, paste in each Home site URL. If you add 10 sites and a user only has access to 2, the agent will answer using just those 2 sites.
 
