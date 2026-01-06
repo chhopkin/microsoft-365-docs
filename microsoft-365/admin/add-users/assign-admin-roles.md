@@ -93,9 +93,9 @@ When you sign up for Microsoft 365 for business for your organization, you're au
 
 ::: moniker-end
 
-1. On **Active users**, select the user whose administrator role you want to change. In the flyout pane, under **Roles**, select **Manage roles**.
+2. On **Active users**, select the user whose administrator role you want to change. In the flyout pane, under **Roles**, select **Manage roles**.
 
-1. Select the administrator role that you want to assign to the user. If you don't see the role you're looking for, select **Show all** at the bottom of the list. (See [Least privileged roles by task in Microsoft Entra ID](/entra/identity/role-based-access-control/delegate-by-task).)
+3. Select the administrator role that you want to assign to the user. If you don't see the role you're looking for, select **Show all** at the bottom of the list. (See [Least privileged roles by task in Microsoft Entra ID](/entra/identity/role-based-access-control/delegate-by-task).)
 
 ## Assign administrator roles to multiple users
 
