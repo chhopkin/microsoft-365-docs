@@ -67,10 +67,7 @@ When you sign up for Microsoft 365 for business for your organization, you're au
 
 1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to **Roles** > **Role assignments**. (Or go directly to the [Role assignments page](https://admin.cloud.microsoft/?#/rbac/directory).) 
 
-   To view the administrator roles available for your organization, choose the **Microsoft Entra ID**, **Exchange**, **Intune**, or **Billing** tab.
-
-    > [!NOTE]
-    > You might not see all the tabs depending on your Microsoft 365 subscription.
+   To view the administrator roles available for your organization, choose the **Microsoft Entra ID**, **Exchange**, **Intune**, or **Billing** tab. The specific tabs you see depend on your organization's Microsoft 365 subscription.
 
 1. Select the administrator role that you want to assign the user to.
 1. On the Assigned tab, select **Add users** or **Add groups**.
