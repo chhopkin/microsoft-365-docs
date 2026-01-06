@@ -48,12 +48,12 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 
 ## Before you begin
 
-The <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a> lets you manage Microsoft Entra roles and Microsoft Intune roles. However, these roles are a subset of the roles available in the Microsoft Entra admin center and the Microsoft Intune admin center.
+The [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) lets you manage Microsoft Entra roles and Microsoft Intune roles. However, these roles are a subset of the roles available in the Microsoft Entra admin center and the Microsoft Intune admin center.
 
 - For the full list of detailed Microsoft Entra role descriptions you can manage in the Microsoft 365 admin center, check out Administrator role permissions in [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference).
 - For the full list of detailed Intune role descriptions you can manage in the Microsoft 365 admin center, check out [Role-based access control (RBAC) with Microsoft Intune](/mem/intune/fundamentals/role-based-access-control).
 
-For more information on assigning roles in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, see [Assign admin roles](assign-admin-roles.md).
+For more information on assigning roles in the Microsoft 365 admin center, see [Assign admin roles](assign-admin-roles.md).
 
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions, and that you limit the number of users who have administrative permissions. 
@@ -78,7 +78,7 @@ If you get a message in the Microsoft 365 admin center that you don't have permi
 
 To view administrator roles, follow these steps:
 
-1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to <a href="https://go.microsoft.com/fwlink/p/?linkid=2097861" target="_blank">**Role assignments**</a>.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to [Role assignments](https://go.microsoft.com/fwlink/p/?linkid=2097861).
 
 2. Select any role to open its detail pane. 
 
@@ -90,7 +90,7 @@ To view administrator roles, follow these steps:
 
 ### Administrator roles and who should be assigned
 
-The following table lists administrator roles and information about who should be assigned these roles.
+The following table lists administrator roles and information about who should be assigned these roles. To see the full list of roles, visit [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference).
 
 |Administrator role     |Who should be assigned this role?  |
 |---------|---------|
@@ -162,18 +162,18 @@ For more information, see [Manage volume licensing user roles](../../commerce/li
 
 ## Related content
 
-[Assign admin roles](assign-admin-roles.md)
+- [Assign admin roles](assign-admin-roles.md)
 
-[Check admin roles in your organization](/microsoft-365/admin/add-users/assign-admin-roles#check-admin-roles-in-your-organization)
+- [Check admin roles in your organization](/microsoft-365/admin/add-users/assign-admin-roles#check-admin-roles-in-your-organization)
 
-[Reset passwords in Microsoft 365 for business](reset-passwords.md)
+- [Reset passwords in Microsoft 365 for business](reset-passwords.md)
 
-[Get support for Microsoft 365 for business](../get-help-support.md)
+- [Get support for Microsoft 365 for business](../get-help-support.md)
 
-[Manage user authentication methods for Microsoft Entra multifactor authentication](/entra/identity/authentication/howto-mfa-userdevicesettings)
+- [Manage user authentication methods for Microsoft Entra multifactor authentication](/entra/identity/authentication/howto-mfa-userdevicesettings)
 
-[Microsoft Entra roles in the Microsoft 365 admin center](azure-ad-roles-in-the-mac.md)
+- [Microsoft Entra roles in the Microsoft 365 admin center](azure-ad-roles-in-the-mac.md)
 
-[Activity reports in the Microsoft 365 admin center](../activity-reports/activity-reports.md)
+- [Activity reports in the Microsoft 365 admin center](../activity-reports/activity-reports.md)
 
-[Exchange Online admin role](about-exchange-online-admin-role.md)
+- [Exchange Online admin role](about-exchange-online-admin-role.md)
