@@ -54,7 +54,7 @@ Use the following guidance to make the most of admin accounts while protecting y
   - After completing admin tasks, be sure to sign out of the browser session.
 
   For account creation instructions, see [Add users and assign licenses at the same time](../add-users/add-users.md).
-[Add users and assign licenses at the same time](../add-users/add-users.md)
+
   > [!TIP]
   > Ordinary user accounts need Microsoft 365 for business licenses, but you don't need to license admin only accounts.
   >
