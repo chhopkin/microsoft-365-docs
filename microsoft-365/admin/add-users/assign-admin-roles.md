@@ -39,7 +39,7 @@ When you add new users, if you don't assign them an administrator role, they are
 
 If you need help with administrative tasks, you can assign an administrator role to a trusted user. In keeping with [best practices](/entra/identity/role-based-access-control/best-practices), assign the role that's needed to complete specific tasks. For example, if you need someone to help reset user passwords, assign them the [Password Administrator role](/entra/identity/role-based-access-control/permissions-reference#password-administrator) and not the Global Administrator role. 
 
-You can assign users to a role in two different ways:
+You can assign users to a role in two different ways in the Microsoft 365 admin center:
 
 - Go to the user's details and select **Manage roles** to assign a role to the user.
 - Go to **Roles**, select the role, and then add multiple users to it.
@@ -55,9 +55,12 @@ The following video shows how to add another admin in the Microsoft 365 admin ce
 
 ## Add an admin
 
-1. When you sign up for Microsoft 365 Business, you automatically become a global admin. To help manage the business, you can make other people admins as well.
-1. In the Microsoft 365 admin center, select **Users** > **[Active users](https://admin.cloud.microsoft/?#/users)**.
+When you sign up for Microsoft 365 for business for your organization, you're automatically a Global Administrator. You can assign other administrator roles as well.
+
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Users** > **Active users**. (Or, go directly to the [Active users page](https://admin.cloud.microsoft/?#/users).)
+
 1. Choose the user you want to make an admin, then select **Manage roles**.
+
 1. Select the admin access you want the user to have and select **Save changes**.
 
 ### Assign admin roles to users using Roles
