@@ -42,6 +42,8 @@ You must be a [User Administrator](/entra/identity/role-based-access-control/per
 
 2. On the **Deleted users** page, select the name of the user you want to restore, and then select **Restore user**. To restore multiple deleted accounts, select multiple users.
 
+   If you don't see the user account you're looking for on the **Deleted users** page, it might be that too much time has elapsed since the user account was deleted. In this case, [Get support for Microsoft 365 for business](../get-help-support.md).
+
 3. Follow the prompts to set their password, and then select **Restore**.
 
 4. If the user is successfully restored, select **Print** to print the user name and password information, and then securely send it to the user. 
@@ -58,7 +60,7 @@ A user name conflict occurs when you delete a user account, create a new account
   
 To resolve the conflict, replace the active user account with the one you're restoring, or assign a different user name to the account you're restoring. Follow these steps:
 
-1. In the Microsoft 365 admin center, go to **Users** > [Deleted users](https://go.microsoft.com/fwlink/p/?linkid=2071581).
+1. In the [Microsoft 365 admin center](https://admin.cloud.microsoft/), go to **Users** > **Deleted users**. (Or, go directly to the [Deleted users page](https://go.microsoft.com/fwlink/p/?linkid=2071581).)
   
 2. On the **Deleted users** page, select the names of the users you want to restore, and then select **Restore user**.
 
@@ -67,7 +69,7 @@ To resolve the conflict, replace the active user account with the one you're res
   
 3. Follow the prompts to set the password and select **Restore**.
 
-4. If a message appears saying there's a problem restoring the account, do one of the following:
+4. If a message appears saying there's a problem restoring the account, take one of the following steps:
 
    - Cancel the restore and rename the current active user. Then try the restore again.
    - Type a new primary email address for the user and select **Restore**.
@@ -78,9 +80,9 @@ To resolve the conflict, replace the active user account with the one you're res
 
 A proxy address conflict occurs when you delete a user account that contains a proxy address, assign the same proxy address to another account, and then try to restore the deleted account. Follow these steps to fix this issue.
   
-You must have [admin permissions](about-admin-roles.md) in Microsoft 365 to do this.
+You must have the [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator) role assigned to perform this procedure.
 
-1. In the Microsoft 365 admin center, go to **Users** \> [Deleted users](https://go.microsoft.com/fwlink/p/?linkid=2071581).
+1. In the [Microsoft 365 admin center](https://admin.cloud.microsoft/), go to **Users** > **Deleted users**. (Or, go directly to the [Deleted users page](https://go.microsoft.com/fwlink/p/?linkid=2071581).)
 
 2. On the **Deleted users** page, select the user you want to restore, and then select **Restore user**.
 
@@ -94,3 +96,4 @@ You must have [admin permissions](about-admin-roles.md) in Microsoft 365 to do t
 - [Assign admin roles](assign-admin-roles.md)
 - [Assign licenses to users](../manage/assign-licenses-to-users.md)
 - [Troubleshooting: How to restore deleted user accounts in Microsoft 365, Azure, and Intune](/previous-versions/troubleshoot/microsoft-365/admin/restore-deleted-user-accounts)
+- [Least privileged roles by task in Microsoft Entra ID](/entra/identity/role-based-access-control/delegate-by-task)
