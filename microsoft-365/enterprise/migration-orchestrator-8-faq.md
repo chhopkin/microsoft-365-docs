@@ -27,7 +27,7 @@ If you start a migration and realize that you need to cancel it, you need to can
 
 ## Moving user data back
 
-Migration of user data back to the source tenant through the orchestrated system isn't supported in preview. If you need to move a user’s email and OneDrive back to the source tenant after completing a successful migration to the target tenant, please use the standalone mailbox and OneDrive migration options. Teams meetings won't be recreated after this migration and need to be recreated manually. The original Teams chat message modifications are also not touched. If data migration for users back to the original source is a scenario that's required, use the Generally Available version of cross-tenant migration of mailboxes and OneDrives.
+Migration of user data back to the source tenant through the orchestrated system isn't supported in preview. If you need to move a user’s email and OneDrive back to the source tenant after completing a successful migration to the target tenant, use the standalone mailbox and OneDrive migration options. Teams meetings won't be recreated after this migration and need to be recreated manually. The original Teams chat message modifications are also not touched. If data migration for users back to the original source is a scenario that's required, use the Generally Available version of cross-tenant migration of mailboxes and OneDrives.
 
 ## General migration
 
@@ -50,3 +50,5 @@ Cross-cloud tenant-to-tenant migration isn't supported. An example scenario woul
 - Received voicemails are available in Teams if you call voicemail and listen to saved messages (Voicemails received in the source tenant are available as saved messages).
 - Received voicemails aren't available in the Teams client UI in target post-migration.
 - The voicemail greeting also migrates to the target.
+
+For more troubleshooting guidance, see [Resolve orchestrated migration errors](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors).

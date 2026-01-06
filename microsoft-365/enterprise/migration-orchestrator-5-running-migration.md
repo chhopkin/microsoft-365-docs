@@ -73,7 +73,7 @@ For a breakdown of the meanings behind the statuses and errors, see [Batch migra
 There's up to an hour-long delay between when updates are made to the group containing the authorized users for migration and when our system processes those changes. Allow for up to an hour to start the migration after changes are made to the group membership.
 
 > [!NOTE]
-> For more troubleshooting guidance, see [Resolve orchestrated migration errors](https://aka.ms/troubleshoot-orchestrated-migration).
+> For more troubleshooting guidance, see [Resolve orchestrated migration errors](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors).
 
 ## Commands available to run
 
@@ -298,7 +298,7 @@ See [Validate the batch](#submit-a-batch-for-validation) for an available list o
 
 Get the detailed report of failures and mitigate those failures before retrying at the batch level (see [Retrieve a specific batch](#retrieve-a-specific-batch)) and at the user level (see [Retrieve user status within a specific batch](#retrieve-user-status-within-a-specific-batch)).
 
-Review the batch status. If it's ValidatePassed, then all prerequisites are met and you can continue to migrate the batch. If it's ValidateFailed, investigate the errors and messages. See [Troubleshoot orchestrated migration](https://aka.ms/troubleshoot-orchestrated-migration). Fix those issues and run validate on a new batch until all issues are resolved, and the state is ValidatePassed.
+Review the batch status. If it's ValidatePassed, then all prerequisites are met and you can continue to migrate the batch. If it's ValidateFailed, investigate the errors and messages. See [Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors). Fix those issues and run validate on a new batch until all issues are resolved, and the state is ValidatePassed.
 
 ### Submit a migration batch
 
@@ -308,7 +308,7 @@ Regularly monitor the migration at the batch level: [Retrieve a specific batch](
 
 To understand progress, consult the [Batch migration description values table](#batch-migration-description-values).
 
-If there are failures, investigate the errors and messages returned on the user objects:  [Troubleshoot orchestrated migration](https://aka.ms/troubleshoot-orchestrated-migration). Follow the troubleshooting guidance to mitigate any issues and retry, starting again with validation.
+If there are failures, investigate the errors and messages returned on the user objects:  [Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors). Follow the troubleshooting guidance to mitigate any issues and retry, starting again with validation.
 
 #### After migration completes
 
@@ -323,7 +323,7 @@ If changes need to be made to the migration, like changing the [Complete After D
 Use the following table to understand the validation and migration flows and status values:
 
 > [!NOTE]
-> For more information about troubleshooting, see See [Troubleshoot orchestrated migration](https://aka.ms/troubleshoot-orchestrated-migration).
+> For more information about troubleshooting, see See [Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors).
 
 | Status | Description | Workloads |
 | --- | --- | --- |
