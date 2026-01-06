@@ -90,7 +90,7 @@ To enable the capabilities of Microsoft 365 for your hybrid workers, use these M
 |Endpoint Analytics|Determine the update readiness of your Windows clients.|Requires separate Configuration Manager licenses|
 |Windows Autopilot|Set up and pre-configure new Windows 11 or 10 devices for productive use.|Microsoft 365 E3 or E5|
 |Microsoft Teams, Exchange Online, SharePoint Online and OneDrive, Microsoft 365 Apps, Microsoft Power Platform, and Viva Engage|Create, communicate, and collaborate.|Microsoft 365 E3 or E5 and Microsoft Teams Enterprise |
-||||
+
 
 For security and compliance criteria, see [Deploy security and compliance for remote workers](empower-people-to-work-remotely-security-compliance.md).
 
