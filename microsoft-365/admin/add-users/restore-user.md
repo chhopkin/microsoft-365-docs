@@ -26,20 +26,19 @@ customer-intent: As an admin, I want to restore a user account that was deleted.
 
 # Restore a user in the Microsoft 365 admin center
 
-When you restore a user account within 30 days of deleting it, the account and all associated data are restored. The user can sign in with the same work or school account. Their mailbox is fully restored. 
+When you restore a user account within 30 days of deleting it, the account and all associated data are restored. The user can sign in with their same work or school account. Their mailbox is fully restored. 
 
-To find out how long you have to restore a specific user account, [contact support](../../business-video/get-help-support.md).
-  
+To find out how much time you have left to restore a specific user account, [contact support](../../business-video/get-help-support.md).
   
 > [!TIP]
-> - Ensure licenses are available to assign to the account.
+> - Make sure enough Microsoft 365 licenses are available to assign to the account.
 > - If your business uses Active Directory on-premises, see [How to restore deleted user accounts in Microsoft 365, Azure, and Intune](/microsoft-365/troubleshoot/active-directory/restore-deleted-user-accounts).
 
 ## Restore one or more user accounts
 
 You must be a [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator) to do these steps.
 
-1. In the Microsoft 365 admin center, go to **Users** > [Deleted users](https://go.microsoft.com/fwlink/p/?linkid=2071581).
+1. In the [Microsoft 365 admin center](https://admin.cloud.microsoft/), go to **Users** > **Deleted users**. (Or, go directly to the [Deleted users page](https://go.microsoft.com/fwlink/p/?linkid=2071581).)
 
 2. On the **Deleted users** page, select the name of the user you want to restore, and then select **Restore user**. To restore multiple deleted accounts, select multiple users.
 
