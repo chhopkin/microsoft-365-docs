@@ -3,7 +3,7 @@ title: "Understanding Microsoft 365 support case creation and data access"
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 12/30/2025
+ms.date: 01/06/2026
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -71,9 +71,9 @@ When a support case is closed, the following audit events are logged in the cust
 | 2 | **Deleting allowed assignable roles** | `EntraGDAP` application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
 | 3 | **Delete partner specific cross-tenant access setting** <br/>(Removes only the Microsoft Support tenant) | `EntraGDAP` application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
 
-### What is the AssistAPI application shown in audit logs, and how do I find it in my tenant?
+### What is the AssistAPI application, and how do I find it in my tenant?
 
-`AssistAPI` is a Microsoft-owned application that has Application ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`.  In audit events, you can see the service principal ID of the `AssistAPI` application, which is unique to your tenant. 
+`AssistAPI` is a Microsoft-owned application that has Application ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`.  In audit events, you can see the service principal ID of the `AssistAPI` application for your tenant. The service principal ID is unique to your tenant.
 
 To find the service principal ID in your tenant, follow these steps:
 
@@ -208,6 +208,8 @@ Authorization to create support tickets is restricted to users who are assigned 
 - Windows 365 Administrator
 
 Only the Security Administrator, Teams Administrator, and Global Administrator roles can modify any other aspects of cross-tenant access settings.
+
+For more information about roles in Microsoft Entra ID, see [Support least privileged roles](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/delegate-by-task#support-least-privileged-roles).
 
 ## See also
 
