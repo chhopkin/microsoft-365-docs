@@ -244,7 +244,7 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com), go to **Users*
 
 2. Share the [Employee quick setup in Microsoft 365 for business](https://support.microsoft.com/office/7f34c318-e772-46a5-8c0a-ab86661542d1) to help your new users get started. 
 
-3. If you need help adding users, [Contact support for Microsoft 365 for business](../get-help-support.md)
+3. If you need help with adding users, [Contact support for Microsoft 365 for business](../get-help-support.md)
 
 ## Related content
 
