@@ -37,7 +37,7 @@ Frontline Agent helps frontline workers quickly catch up on important messages, 
 
 __Draft end-of-shift handovers__
 
-Frontline Agent helps frontline managers create clear and consistent end‑of‑shift handovers. It summarizes completed work, flags open items and captures key updates that need to be passed to the next shift all from Teams chat and channel messages. This ensures continuity across shifts and reduces reliance on ad‑hoc messages.
+Frontline Agent helps frontline managers create clear and consistent end‑of‑shift handovers, ensuring continuity across shifts. It summarizes completed work, flags open items, and captures key updates that need to be passed to the next shift all from Teams chat and channel messages. 
 
 ### Prerequisites
 
@@ -52,14 +52,12 @@ Frontline Agent helps frontline managers create clear and consistent end‑of‑
 The agent is discoverable from the M365 Copilot app store for all users who have the M365 Copilot license. To pin the agent for those users in M365 Copilot, click [here](/microsoft-365/admin/manage/agent-registry?view=o365-worldwide). If you’d like the agent to also show up in the Teams chat rail or scope down the SharePoint sites the agent has access to, follow these instructions.
 
 > [!NOTE]
-> If you don’t scope down to a set of SharePoint sites, the agent will provide answers from all the sites each user has access to.
+> If you don’t scope down to a set of SharePoint sites, the agent provides answers from all the sites each user has access to.
 1. Go to **Teams Admin center** > **Frontline management** > **Manage frontline teams** and then select **Agents**.
 
 ![ManageFrontlineTeamsAgents](media/setupfrontlineagent/managefrontlineteamsagents.png)
 
-Click **Frontline Agent**. To limit the agent to specific SharePoint sites, paste in each Home site URL. If you add 10 sites and a user only has access to 2, the agent will use information from only those 2 sites.
-
-1. Click **Frontline Agent**. To limit the agent to specific SharePoint sites, paste in each Home site URL. If you add 10 sites and a user only has access to 2, the agent will answer using just those 2 sites.
+Click **Frontline Agent**. To limit the agent to specific SharePoint sites, paste in each Home site URL. If you add 10 sites and a user only has access to two, the agent uses information from only those two sites.
 
 1. Click **Manage apps** at the top.
 
@@ -75,5 +73,5 @@ Click **Frontline Agent**. To limit the agent to specific SharePoint sites, past
 
 1. Then, click the checkmark to the left of the name of the policy and click **Manage users** and then **Assign users**. Add the set of individuals and click **Apply**. You can also assign the policy to an M365 group instead.
 
-1. The Frontline Agent will send a welcome message to each user from the Teams chat rail. Your users can now use the agent!
+1. The Frontline Agent sends a welcome message to each user from the Teams chat rail. Your users can now use the agent!
 
