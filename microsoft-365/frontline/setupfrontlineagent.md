@@ -51,27 +51,28 @@ Frontline Agent helps frontline managers create clear and consistent end‑of‑
 
 The agent will be discoverable from the M365 Copilot app store for all users who have the M365 Copilot license. To pin the agent for those users in M365 Copilot, click [here](/microsoft-365/admin/manage/agent-registry?view=o365-worldwide). If you’d like the agent to also show up in the Teams chat rail or scope down the SharePoint sites the agent has access to, please follow the instructions below.
 
-Note: If you don’t scope down to a set of SharePoint sites, the agent will provide answers from all the sites each user has access to.
+> [!NOTE]
+> If you don’t scope down to a set of SharePoint sites, the agent will provide answers from all the sites each user has access to.
 
-1. Go to Teams Admin center > Frontline management > Manage frontline teams and then select Agents.
+1. Go to **Teams Admin center** > **Frontline management** > **Manage frontline teams** and then select **Agents**.
 
+![ManageFrontlineTeamsAgents](media/setupfrontlineagent/managefrontlineteamsagents.png)
 
+1. Click **Frontline Agent**. To limit the agent to specific SharePoint sites, paste in each Home site URL. If you add 10 sites and a user only has access to 2, the agent will answer using just those 2 sites.
 
-2. Click Frontline Agent. Copy and paste the URL of each SharePoint site from its Home page. On this screen, you can choose to scope down the agent to a set of SharePoint sites, respecting each user’s permissions. This means that if you add 10 SharePoint sites and one of the users only has access to 2, the agent will only provide answers from those 2 SharePoint sites.
+1. Click **Manage apps** at the top.
 
-3. Click “Manage apps” at the top.
+1. Search for and click on Frontline Agent and then click on Users and Groups.
 
-4. Search for and click on Frontline Agent and then click on Users and Groups.
+1. Click **Edit Availability** and specify the set of individuals or M365 group you want to deploy the agent to. Click **Apply**.
 
-5. Click edit availability and specify the set of individuals or M365 group you want to deploy the agent to.  Click Apply at the bottom right.
+1. Go to **Teams apps** > **Setup policies** and click **Add**.
 
-6. Now, go to Teams apps > Setup policies and click Add.
+1. Add a name for your policy. Then, click **Add apps**.
 
-7. Add a name for your policy. Then, click Add apps.
+1. Search for Frontline Agent and click **Add**. If you’d like to pin the agent to the Teams app rail for those users, you can. Click **Save**.
 
-8. Search for Frontline Agent and click “Add.” If you’d like to pin the agent to the Teams app rail for those users, you can. Click Save.
+1. Then, click the checkmark to the left of the name of the policy and click **Manage users** and then **Assign users**. Add the set of individuals and click **Apply**. You can also assign the policy to an M365 group instead.
 
-9. Then, click the checkmark to the left of the name of the policy and click Manage users and then “Assign users.” Add the set of individuals and click Apply. You can also assign the policy to an M365 group instead..
-
-10. The Frontline Agent will send a welcome message to each user from the Teams chat rail. Your users can begin to use the agent!
+1. The Frontline Agent will send a welcome message to each user from the Teams chat rail. Your users can now use the agent!
 
