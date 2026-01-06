@@ -47,7 +47,7 @@ When a group is restored, the following content is restored:
 - Power BI [Classic workspace](/power-bi/collaborate-share/service-create-workspaces)
 
 > [!NOTE]
-> This article describes restoring only Microsoft 365 groups. All other groups cannot be restored once deleted.
+> This article describes restoring only Microsoft 365 groups. All other groups can't be restored once deleted.
 
 ## Restore a group
 
@@ -74,11 +74,11 @@ If you're a groups administrator, you can restore a deleted group in the Microso
 3. Select the group that you want to restore, and then select **Restore group**.
 
 > [!NOTE]
-> In some cases, it may take as long as 24 hours for the group and all of its data to be restored. 
+> In some cases, it can take as long as 24 hours for the group and all of its data to be restored. 
 
 ### Restore a group by using PowerShell
 
-See [Restore a deleted Microsoft 365 group or cloud security group in Microsoft Entra ID](/entra/identity/users/groups-restore-deleted#view-the-deleted-microsoft-365-groups-that-are-available-to-restore-by-using-powershell) to restore the group by using PowerShell.
+To use PowerShell to restore a deleted group, see [Restore a deleted Microsoft 365 group or cloud security group in Microsoft Entra ID](/entra/identity/users/groups-restore-deleted#view-the-deleted-microsoft-365-groups-that-are-available-to-restore-by-using-powershell).
 
 ## Do you have questions about Microsoft 365 Groups?
 
