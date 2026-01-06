@@ -138,5 +138,6 @@ In the admin center:
 
 - [About Microsoft 365 administrator roles](about-admin-roles.md)
 - [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference)
+- [Least privileged roles by task in Microsoft Entra ID](/entra/identity/role-based-access-control/delegate-by-task)
 - [Assign roles to user accounts with PowerShell](../../enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell.md)
 - [Add, change, or remove partner relationships](../misc/add-partner.md)
