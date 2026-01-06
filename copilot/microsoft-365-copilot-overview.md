@@ -152,7 +152,7 @@ In your Microsoft 365 license, there are services and features that can help you
 
 - **Restricted SharePoint Search**
 
-  Restricted SharePoint Search (RSS) RSS gives you time to review and configure the correct permissions on your SharePoint sites. You add the reviewed & corrected sites to an allowed list that Copilot can access.
+  Restricted SharePoint Search (RSS) gives you time to review and configure the correct permissions on your SharePoint sites. You add the reviewed & corrected sites to an allowed list that Copilot can access.
 
   To learn more, see [Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search).
 
