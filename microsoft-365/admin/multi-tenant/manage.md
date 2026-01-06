@@ -1,13 +1,13 @@
 ---
-title: Manage Multiple Tenants in Microsoft 365 Admin Center
+title: Manage Multiple Tenants in the Microsoft 365 admin center
 description: Learn how to manage multiple Microsoft 365 tenants from a single location using tenant switcher and multitenant views. Streamline admin tasks across tenants efficiently.
-customer intent: As a Microsoft 365 admin, I want to manage multiple tenants from a single location so that I can streamline administration tasks.
+customer-intent: As a Microsoft 365 administrator, I want to manage multiple tenants from a single location so that I can streamline administration tasks.
 f1.keywords:
 - NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 12/10/2025
+ms.date: 01/06/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -24,36 +24,36 @@ ms.custom:
 - admindeeplinkMAC
 ---
 
-# Manage multiple tenants in Microsoft 365 admin center
+# Manage multiple tenants in the Microsoft 365 admin center
 
-Multitenant management in Microsoft 365 admin center offers a unified approach that allows partner admins to administer all tenants from a single location. This streamlined solution helps partners with delegated admin roles efficiently manage multiple Microsoft 365 tenants. If you're a partner managing multiple tenants, you can:
+[Multitenant management](/entra/identity/multi-tenant-organizations/overview) in the Microsoft 365 admin center offers a unified approach that allows partner administrators to manage all their tenants in a single location. This streamlined solution helps partners with [delegated administrator](/entra/identity/users/directory-delegated-administration-primer) roles efficiently manage multiple Microsoft 365 tenants. If you're a partner managing multiple tenants, you can:
 
-- Move quickly between tenants you manage.
-- Assess service health, products, and billing across multiple tenants.
-- On the **All tenants** page, you can quickly see the health of all your tenants' services, any open service requests, your products and billing, and the number of users in that tenant.
+- Move quickly between tenants you manage
+- Assess service health, products, and billing across multiple tenants
+- On the **All tenants** page, quickly see the health of all your tenants' services, any open service requests, your products and billing, and the number of users in that tenant
 
 ## Before you begin
 
-You need to be a Global Administrator to perform this task.
+You must have the [Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator) role assigned to perform this task.
 
 > [!IMPORTANT]
 > Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use another role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## Move between tenants
 
-1. In the [Microsoft 365 admin center](https://admin.cloud.microsoft/?#/homepage), select the org name.
+1. In the [Microsoft 365 admin center](https://admin.cloud.microsoft/?#/homepage), select a tenant name.
 
-    :::image type="content" source="../../media/macorgswitcher.png" alt-text="Screenshot of Microsoft 365 admin center showing the multitenant switcher interface for managing multiple tenants.":::
+   :::image type="content" source="../../media/macorgswitcher.png" alt-text="Screenshot of Microsoft 365 admin center showing the multitenant switcher interface for managing multiple tenants.":::
 
-1. From the **Tenant switcher**, you can move quickly between tenants you manage.
+1. Using the **Tenant switcher**, you can move quickly between tenants you manage.
 
-    :::image type="content" source="../../media/yourtenantslist.png" alt-text="Screenshot of tenant switcher displaying list of managed tenants with search functionality in Microsoft 365 admin center.":::
+   :::image type="content" source="../../media/yourtenantslist.png" alt-text="Screenshot of tenant switcher displaying list of managed tenants with search functionality in Microsoft 365 admin center.":::
 
 ## View the All tenants page
 
-1. In the [Microsoft 365 admin center](https://admin.cloud.microsoft/?#/homepage), in the left nav, select **All tenants**.
+1. In the [Microsoft 365 admin center](https://admin.cloud.microsoft/?#/homepage), in the navigation pane, select **All tenants**.
 
-2. On the **All tenants** page, take one of the following steps:
+2. On the **All tenants** page, take one or more of the following steps:
 
    - Assess service health
    - Review license usage
@@ -85,6 +85,16 @@ The service health view shows you if any incidents or advisories are affecting t
 
 You can return to the Microsoft 365 admin center for any of the tenants from the **All tenants** page.
 
-1. On the **All tenants** page, select the tenant name for which you want to view the admin center.
+1. In the [Microsoft 365 admin center](https://admin.cloud.microsoft/?#/homepage), in the navigation pane, select **All tenants**.
 
-1. The admin center opens for that tenant.
+2. Select the tenant name for which you want to view the Microsoft 365 admin center. 
+
+   The admin center opens for that tenant.
+
+## Related content
+
+- [Overview of Microsoft 365 Lighthouse](../../lighthouse/m365-lighthouse-overview.md)
+
+- [Multitenant organization capabilities in Microsoft Entra ID](/entra/identity/multi-tenant-organizations/overview)
+
+- [Microsoft Entra built-in roles](/entra/identity/role-based-access-control/permissions-reference)
