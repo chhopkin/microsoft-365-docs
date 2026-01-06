@@ -35,7 +35,7 @@ A Microsoft 365 subscription comes with a set of administrator roles that you ca
 > [!IMPORTANT]
 > If you're the one who purchased your organization's Microsoft 365 for business subscription, you're the [Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator) by default. This role gives you unlimited control over the products in your subscriptions and access to most data. The Global Administrator role is a highly privileged role. As a best practice, make sure to limit the number of people in your organization who have the Global Administrator role assigned.
 
-When you add new users, if you don't assign them an administrator role, they are assigned a user role. Users don't have administrator privileges to any of the Microsoft admin centers. Remember also to [assign licenses](../manage/assign-licenses-to-users.md) when you add new users.
+When you add new users, if you don't assign them an administrator role, they're assigned a user role. Users don't have administrator privileges to any of the Microsoft admin centers. Remember also to [assign licenses](../manage/assign-licenses-to-users.md) when you add new users.
 
 If you need help with administrative tasks, you can assign an administrator role to a trusted user. In keeping with [best practices](/entra/identity/role-based-access-control/best-practices), assign the role that's needed to complete specific tasks. For example, if you need someone to help reset user passwords, assign them the [Password Administrator role](/entra/identity/role-based-access-control/permissions-reference#password-administrator) and not the Global Administrator role. 
 
