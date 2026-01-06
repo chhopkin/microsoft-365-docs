@@ -41,7 +41,7 @@ Audit events are logged when a support case is opened, when Microsoft Support en
 To learn more about Microsoft Entra audit logs, see the following articles:
 
 - [What are Microsoft Entra audit logs?](/entra/identity/monitoring-health/concept-audit-logs)
-- [How to access activity logs in MIcrosoft Entra ID](/entra/identity/monitoring-health/howto-access-activity-logs)
+- [How to access activity logs in Microsoft Entra ID](/entra/identity/monitoring-health/howto-access-activity-logs)
 
 ### Audit events during support case creation
 
@@ -77,7 +77,7 @@ When a support case is closed, the following audit events are logged in the cust
 
 To find the service principal ID in your tenant, follow these steps:
 
-1. Go to the [Microsoft Entra portal](https://entra.microsoft.com) and sign in.
+1. Go to the [Microsoft Entra admin center](https://entra.microsoft.com) and sign in.
 
 2. Navigate to **Enterprise Apps**.
 
@@ -95,7 +95,7 @@ The level of access is captured as *Delegated Admin Service Provider Constraints
 For more information, see the following articles:
 
 - [What's new in Microsoft Entra RBAC documentation](/entra/identity/role-based-access-control/whats-new)
-- [Roles not shown in the Microsoft Entra portal](/entra/identity/role-based-access-control/permissions-reference#roles-not-shown-in-the-portal)
+- [Roles not shown in the Microsoft Entra admin center](/entra/identity/role-based-access-control/permissions-reference#roles-not-shown-in-the-portal)
 - [Microsoft 365 Support Engineer role](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-support-engineer)
 
 <!---
