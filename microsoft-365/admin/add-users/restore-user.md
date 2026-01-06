@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 12/11/2025
+ms.date: 01/06/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-security
@@ -37,7 +37,7 @@ To find out how long you have to restore a specific user account, [contact suppo
 
 ## Restore one or more user accounts
 
-You must be a [user management admin](about-admin-roles.md) to do these steps.
+You must be a [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator) to do these steps.
 
 1. In the Microsoft 365 admin center, go to **Users** > [Deleted users](https://go.microsoft.com/fwlink/p/?linkid=2071581).
 
