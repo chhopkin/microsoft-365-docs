@@ -61,7 +61,7 @@ Required Conditions:
 
 **Commitment:**
 
-Refer to the [ADR Commitment page](m365-dr-commitments.md#microsoft-365-copilot-and-microsoft-365-copilot-chat) to understand the specific data at rest commitments for Microsoft 365 Copilot. Examples of the committed data include:
+Refer to the [ADR Commitment page](m365-dr-commitments.md#microsoft-365-copilot-and-copilot-chat) to understand the specific data at rest commitments for Microsoft 365 Copilot. Examples of the committed data include:
 
 - "Content of Interactions" such as the user's prompt and the response from Microsoft 365 Copilot or Microsoft 365 Copilot Chat, including citations to any information used to ground Microsoft 365 Copilot's response.
 

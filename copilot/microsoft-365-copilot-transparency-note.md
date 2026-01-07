@@ -16,7 +16,7 @@ ms.collection:
 - trust-pod
 hideEdit: true
 ms.update-cycle: 180-days
-ms.date: 12/18/2025
+ms.date: 01/07/2026
 
 ---
 
@@ -34,9 +34,11 @@ Microsoft's Transparency Notes are part of a broader effort at Microsoft to put 
 
 [Microsoft 365 Copilot](microsoft-365-copilot-overview.md) is an AI-powered productivity tool that uses large language models (LLMs) and integrates data with [Microsoft Graph](/graph/) and Microsoft 365 apps and services. It works alongside popular Microsoft 365 apps such as Word, Excel, PowerPoint, Outlook, Teams, and more.
 
-Microsoft 365 Copilot uses a combination of models provided by Azure OpenAI Service. This allows us to match the specific needs of each feature – for example, speed, creativity – to the right model, so that Microsoft 365 Copilot can provide real-time intelligent assistance that enables users to enhance their creativity, productivity, and skills.
+Microsoft 365 Copilot uses a combination of models provided by Azure OpenAI Service and Anthropic. This allows us to match the specific needs of each feature – for example, speed, creativity – to the right model, so that Microsoft 365 Copilot can provide real-time intelligent assistance that enables users to enhance their creativity, productivity, and skills.
 
 For additional, detailed information about the LLMs provided to Microsoft by OpenAI, refer to their public documentation, available at [Models - OpenAI API](https://platform.openai.com/docs/models).
+
+For additional, detailed information about the LLMs provided to Microsoft by Anthropic, refer to the [Claude Sonnet 4.5 System Card](https://assets.anthropic.com/m/12f214efcc2f457a/original/Claude-Sonnet-4-5-System-Card.pdf).
 
 ## Key Terms
 
@@ -47,7 +49,7 @@ For additional, detailed information about the LLMs provided to Microsoft by Ope
 |Grounding     |Grounding refers to the process of providing input sources to the LLM related to the user prompt. By enabling Microsoft 365 Copilot to access data to use as input sources – such as data from Microsoft Graph or Bing – Microsoft 365 Copilot may deliver more accurate, contextually relevant responses to users.          |
 |Microsoft Graph     |Microsoft Graph is the gateway to data and intelligence in Microsoft 365. It includes information about the relationships between users, activities, and an organization’s data.          |
 |Microsoft Graph Connectors     |Microsoft Graph Connectors offer a way to bring content from external services into Microsoft Graph, enabling external data to power Microsoft 365 intelligent experiences such as Microsoft Search and Microsoft 365 Copilot.         |
-|Indexing     |Microsoft uses both lexical and semantic indexing of Microsoft Graph data to ground responses for Microsoft 365 Copilot in enterprise data. Indexing interprets user prompts to produce contextually relevant responses. For more on indexing, see [System Behavior](#system-behavior).         |
+|Indexing     |Microsoft uses both lexical and semantic indexing of Microsoft Graph data to ground responses for Microsoft 365 Copilot in enterprise data. Indexing interprets user prompts to produce contextually relevant responses. For more information on indexing, see [System Behavior](#system-behavior).         |
 |Enriched prompt|A prompt is enriched when additional instructions are added to a user's inputted prompt to guide Microsoft 365 Copilot in generating a more specific and relevant response. |
 |Content of interactions|The term used to describe the user’s prompt and Microsoft 365 Copilot’s response to that prompt.|
 |Large Language Model (LLM)|Large language models (LLMs) in this context are AI models that are trained on large amounts of text data to predict words in sequences. LLMs are capable of performing a variety of tasks, such as text generation, summarization, translation, classification, and more.|
@@ -87,7 +89,7 @@ For additional, detailed information about the LLMs provided to Microsoft by Ope
 
 ### System Behavior
 
-Microsoft 365 Copilot uses a combination of LLMs to summarize, predict, and generate content. These LLMs include pre-trained models, such as Generative Pre-Trained Transformers (GPT) like GPT-4 and GPT-5 from OpenAI, designed to excel in these tasks.
+Microsoft 365 Copilot uses a combination of LLMs to summarize, predict, and generate content. These LLMs include pre-trained models, such as Generative Pre-Trained Transformers (GPT) like GPT-4 and GPT-5 from OpenAI, and Claude Sonnet 4.5 from Anthropic, designed to excel in these tasks.
 
 The capabilities that users see in Microsoft 365 applications appear as additional features, functionality, and prompting capabilities. LLMs and proprietary Microsoft technologies work together in an underlying system that helps people securely access, use, and manage their organizational data.
 
@@ -109,7 +111,7 @@ The capabilities that users see in Microsoft 365 applications appear as addition
 
 - Microsoft 365 Copilot returns the response to the app, where the user can review and assess the response.
 
-The data is encrypted while it's stored and isn't used to train Azure OpenAI Service [foundation LLMs](https://blogs.microsoft.com/on-the-issues/2024/03/28/data-protection-responsible-ai-azure-copilot/), including those used by Microsoft 365 Copilot. For more information about this, see [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
+The data is encrypted while it's stored and isn't used to train Anthropic or Azure OpenAI Service [foundation LLMs](https://blogs.microsoft.com/on-the-issues/2024/03/28/data-protection-responsible-ai-azure-copilot/), including those used by Microsoft 365 Copilot. For more information about this, see [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
 
 #### How Microsoft 365 Copilot generates responses without web content or organizational data
 
@@ -163,7 +165,7 @@ We encourage users to review all content generated by Microsoft 365 Copilot befo
 
 6. **Legal and compliance considerations**: Organizations need to consider their particular legal and compliance obligations when using Microsoft 365 Copilot, especially in regulated industries. Microsoft is examining regulatory requirements that apply to Microsoft as a provider of the technology and addressing them within the product through a process of continuous improvement.
 
-7. **Bias, stereotyping, and ungrounded content**: Despite intensive training by OpenAI and the implementation of responsible AI controls by Microsoft on both user prompts and LLM outputs, AI services are fallible and probabilistic. This makes it challenging to comprehensively block all inappropriate content, leading to potential biases, stereotypes, or ungroundedness in AI-generated content. For more on the known limitations of AI-generated content, see the [Transparency Note for Azure OpenAI Service](/legal/cognitive-services/openai/transparency-note), which includes references to the LLMs behind Microsoft 365 Copilot.
+7. **Bias, stereotyping, and ungrounded content**: Despite intensive training by OpenAI and Anthropic and the implementation of responsible AI controls by Microsoft on both user prompts and LLM outputs, AI services are fallible and probabilistic. This makes it challenging to comprehensively block all inappropriate content, leading to potential biases, stereotypes, or ungroundedness in AI-generated content. For more information on the known limitations of AI-generated content, see the [Transparency Note for Azure OpenAI Service](/legal/cognitive-services/openai/transparency-note), which includes references to the LLMs behind Microsoft 365 Copilot. For more information on the known limitations of AI-generated content from Anthropic models, please refer to the [Claude Sonnet 4.5 System Card](https://assets.anthropic.com/m/12f214efcc2f457a/original/Claude-Sonnet-4-5-System-Card.pdf).
 
 ## Microsoft 365 Copilot performance
 
