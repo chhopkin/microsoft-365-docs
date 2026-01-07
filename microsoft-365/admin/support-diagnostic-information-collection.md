@@ -36,7 +36,7 @@ The level of access granted for the Microsoft Support tenant is captured as *Del
 
 ## What audit events are logged during a Microsoft Support case lifecycle?
 
-Audit events are logged when a support case is opened, when Microsoft Support engineers work on a case, and when a case is closed. 
+Audit events are logged when a support case is opened, when Microsoft Support engineers work on a case, and when a case is closed. This article describes what to expect in audit log entries.
 
 To learn more about Microsoft Entra audit logs, see the following articles:
 
