@@ -85,7 +85,7 @@ Follow these steps to use the **Suggest more columns** action.
 
 7. On the **Edit column** panel, you can change the column name or modify the instruction that generates the metadata. After you edit the instruction, test it to make sure it gives you the information you want. When you're done making changes for that column, select **Save**.
 
-   ![Screenshot of the Edit column panel for a suggested solumn.](../media/content-understanding/knowledge-agent-edit-column-panel.png)
+   ![Screenshot of the Edit column panel for a suggested column.](../media/content-understanding/knowledge-agent-edit-column-panel.png)
 
 # [**Create a rule**](#tab/create-a-rule)
 
@@ -275,7 +275,8 @@ You can review, confirm, or edit the workflow directly from the chat card before
 
 ##### What do I need to set up to see these capabilities?
 
-You need to have a Copilot license and the autofill pay-as-you-go service turned on (for all sites or select ones).
+You need to have a [Microsoft 365 Copilot license](/copilot/microsoft-365/microsoft-365-copilot-licensing) and be a site owner or a member to see the agent button.  
+A tenant administrator must enable Knowledge Agent for the tenant, either for all sites or for selected sites.
 
 ##### Why am I seeing errors when I try to process files?
 
