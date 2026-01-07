@@ -55,39 +55,38 @@ The agent is discoverable from the Microsoft 365 Copilot app store for all users
 > If you don’t scope down to a set of SharePoint sites, the agent provides answers from all the sites each user has access to.
 1. Go to **Teams Admin center** > **Frontline management** > **Manage frontline teams** and then select **Agents**.
 
-![Screenshot indicates that Microsoft Authenticator is now set up.](media/setupfrontlineagent/managefrontlineteamsagents.png)
+![Screenshot indicates Agents page.](media/setupfrontlineagent/managefrontlineteamsagents.png)
 
-1. Click **Frontline Agent**. To limit the agent to specific SharePoint sites, paste in each Home site URL. If you add 10 sites and a user only has access to two, the agent uses information from only those two sites.
+2. Click **Frontline Agent**. To limit the agent to specific SharePoint sites, paste in each Home site URL. If you add 10 sites and a user only has access to two, the agent uses information from only those two sites.
 
-![2AgentSharePointScoping](media/setupfrontlineagent/2agentsharepointscoping.png)
+![Screenshot indicates Agent Configuration Page and two SharePoint site URLs.](media/setupfrontlineagent/2agentsharepointscoping.png)
 
-2. Select **Manage apps** at the top or by navigating to **Teams apps** > **Manage apps**. Search for and select **Frontline Agent**. 
+3. Select **Manage apps** at the top or by navigating to **Teams apps** > **Manage apps**. Search for and select **Frontline Agent**. 
 
-![3ManageApps](media/setupfrontlineagent/3manageapps.png)
+![Screenshot indicates Manage apps screen with Frontline Agent selected.](media/setupfrontlineagent/3manageapps.png)
 
-3. Select **Users and Groups**.
+4. Select **Users and groups**.
 
-![4UsersandGroups](media/setupfrontlineagent/4usersandgroups.png)
+![Screenshot indicates Users and groups screen.](media/setupfrontlineagent/4usersandgroups.png)
 
-4. Select **Edit Availability** and specify the set of individuals or Microsoft 365 group you want to deploy the agent to. Click **Apply**.
+5. Select **Edit availability** and specify the set of individuals or Microsoft 365 group you want to deploy the agent to. Click **Apply**.
 
-![5EditAgentAvailability](media/setupfrontlineagent/5editagentavailability.png)
+![Screenshot indicates Edit availability screen on the right pane with group Seattle Store 121 selected.](media/setupfrontlineagent/5editagentavailability.png)
 
-5. Go to **Teams apps** > **Setup policies** and click **Add**.
+6. Go to **Teams apps** > **Setup policies** and click **Add**.
 
-![6SetupPolicies](media/setupfrontlineagent/6setuppolicies.png)
+![Screenshot indicates App setup policies page which has two policies and an Add button.](media/setupfrontlineagent/6setuppolicies.png)
 
-6. Add a name for your policy. Then, click **Add apps**.
+7. Add a name for your policy. Then, click **Add apps**.
 
-![7AddApps](media/setupfrontlineagent/7addapps.png)
+![Screenshot indicates a policy with the name of Frontline Agent policy and a button in the middle of the page titled Add apps.](media/setupfrontlineagent/7addapps.png)
 
-7. Search for Frontline Agent and click **Add**. Then, select **Save**.
+8. Search for Frontline Agent and click **Add**. Then, select **Save**.
 
-![8AddInstalledApps](media/setupfrontlineagent/8addinstalledapps.png)
+![Screenshot indicates user searching for Frontline Agent in the Add installed apps right pane.](media/setupfrontlineagent/8addinstalledapps.png)
 
-8. Then, click the checkmark to the left of the name of the policy and click **Manage users** and then **Assign users**. Add the set of individuals and click **Apply**. You can also assign the policy to a Microsoft 365 group instead.
+9. Then, click the checkmark to the left of the name of the policy and click **Manage users** and then **Assign users**. Add the set of individuals and click **Apply**. 
 
-![9AssignPolicy](media/setupfrontlineagent/9assignpolicy.png)
+![Screenshot indicates that Frontline Agent policy is on the App setup policies page and user can click to Assign users.](media/setupfrontlineagent/9assignpolicy.png)
 
-1. The Frontline Agent sends a welcome message from the Microsoft Teams chat rail to each user. Your users can now use the agent!
-
+10. The Frontline Agent sends a welcome message from the Microsoft Teams chat rail to each user. Your users can now use the agent!
