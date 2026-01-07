@@ -13,7 +13,7 @@ ms.date:     01/05/2026
 ms.subservice: add-ins
 ---
 
-# Set up Frontline agent for frontline workers
+# Set up Frontline Agent for frontline workers
 
 ### Overview
 
