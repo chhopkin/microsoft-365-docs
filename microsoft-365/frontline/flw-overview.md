@@ -49,7 +49,12 @@ The following image shows the employee experiences that are key to frontline wor
 
 ### Simplify frontline work with an AI Agent
 
-Simplify frontline work across shifts with Frontline Agent, available in M365 Copilot and Microsoft Teams just like any other teammate, that helps workers and managers stay aligned, informed, and productive. Frontline Agent reduces time spent searching for information, catching up on messages, and coordinating work by summarizing key updates, surfacing required actions, and providing quick access to approved knowledge from Teams and SharePoint. Built on Microsoft 365, Frontline Agent operates within your existing security, compliance, and device management framework, including support for shared and managed devices, so organizations can scale frontline operations with confidence.
+Frontline Agent keeps frontline workers and managers aligned, informed, and productive by:
+- Reducing time spent searching for information and instructions across SharePoint and Teams chat and channel messages
+- Summarizing key updates and action items at the start of your shift
+- Helping draft end-of-shift handovers
+
+Frontline Agent is available in Microsoft 365 Copilot and in Microsoft Teams just like any other teammate. Frontline Agent helps frontline workers and managers stay aligned, informed, and productive. Built on Microsoft 365, Frontline Agent operates within your existing security, compliance, and device management framework. Learn more about [setting up Frontline Agent in your organization](setupfrontlineagent.md).
 
 ### Licensing for your frontline workers
 
@@ -92,8 +97,8 @@ Enhance workforce management with [Shifts](shifts-for-teams-landing-page.md), th
 
 |Capability |More information |
 |-----------|---------------------|
-|Learn about agent scenarios |<ul><li>[Microsoft Entra ID overview](/entra/fundamentals/whatis)</li></ul>|
-|Setup Frontline Agent |<ul><li>[Overview of device management for frontline workers](flw-devices.md)</li><li>[Manage shared devices](flw-shared-devices.md)</li><li>[Microsoft Intune overview](/mem/intune/fundamentals/what-is-intune)</li><li>[Frontline worker device management overview in Microsoft Intune](/mem/solutions/frontline-worker/frontline-worker-overview)</li><li>[Manage devices with Intune overview](/microsoft-365/solutions/manage-devices-with-intune-overview)</li></ul>|
+|Learn about Frontline Agent scenarios |<ul><li>[What scenarios does Frontline Agent enable?](setupfrontlineagent.md)</li></ul>|
+|Set up Frontline Agent|<ul><li>[Prerequisites](setupfrontlineagent.md)</li></ul>|
 
 ## Safeguard your business
 
