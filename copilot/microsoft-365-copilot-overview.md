@@ -7,7 +7,7 @@ ms.author: efrene
 author: Efrene
 ms.update-cycle: 180-days
 manager: scotv
-ms.date: 11/07/2025
+ms.date: 12/17/2025
 audience: Admin
 ms.reviewer: mandia
 ms.topic: overview
@@ -27,14 +27,11 @@ appliesto:
 # Microsoft 365 Copilot overview
 
 > [!NOTE]
-> Microsoft 365 Copilot is adding Anthropic's Claude AI models as an optional supporting LLM. Users can try Claude with their Copilot prompts by selecting the **Try Claude** button in the Microsoft 365 Copilot app.
+> Microsoft has onboarded Anthropic as a Microsoft subprocessor. As a subprocessor, Anthropic will operate with [Microsoft Enterprise data protections](enterprise-data-protection.md). For more information, see [Anthropic as a subprocessor for Microsoft Online Services](connect-to-ai-subprocessor.md).
+>
+>Your users can try Claude with their Copilot prompts by selecting the **Try Claude** button in the Microsoft 365 Copilot app. For more information, see [Use Claude with Researcher in Microsoft 365 Copilot](https://go.microsoft.com/fwlink/?linkid=2335703)
 >
 > Claude is not yet available in [Microsoft 365 Copilot GCC](https://adoption.microsoft.com/copilot/gcc/).
->
-> For more information, see the following articles:
->
-> - [Connect to Anthropic's AI models](connect-to-ai-models.md)
-> - [Use Claude with Researcher in Microsoft 365 Copilot](https://go.microsoft.com/fwlink/?linkid=2335703)
 
 **Microsoft 365 Copilot is an AI-powered tool that helps with your work tasks**.
 
@@ -155,7 +152,7 @@ In your Microsoft 365 license, there are services and features that can help you
 
 - **Restricted SharePoint Search**
 
-  Restricted SharePoint Search (RSS) RSS gives you time to review and configure the correct permissions on your SharePoint sites. You add the reviewed & corrected sites to an allowed list that Copilot can access.
+  Restricted SharePoint Search (RSS) gives you time to review and configure the correct permissions on your SharePoint sites. You add the reviewed & corrected sites to an allowed list that Copilot can access.
 
   To learn more, see [Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search).
 
