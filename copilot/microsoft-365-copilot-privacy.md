@@ -192,7 +192,7 @@ Yes, Microsoft 365 Copilot provides detection for protected materials, which inc
 
 ### Does Copilot block prompt injections (jailbreak attacks)?
 
-Jailbreak attacks are prompts designed to bypass Copilot's safeguards or induce non-compliant behavior. Microsoft 365 Copilot helps mitigate these attacks by using proprietary jailbreak and cross-prompt injection attack (XPIA) classifiers. These classifiers analyze inputs to the Copilot service and help block high-risk prompts prior to model execution. These classifiers may not be available in all Microsoft 365 Copilot scenarios.
+Jailbreak attacks are prompts designed to bypass Copilot's safeguards or induce non-compliant behavior. Microsoft 365 Copilot helps mitigate these attacks by using proprietary techniques, such as jailbreak and cross-prompt injection attack (XPIA) classifiers. These classifiers analyze inputs to the Copilot service and help block high-risk prompts prior to model execution. These classifiers may not be available in all Microsoft 365 Copilot scenarios.
 
 ### What happens when foundation model changes occur?
 
