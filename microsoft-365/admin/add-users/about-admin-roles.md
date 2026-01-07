@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 12/01/2025
+ms.date: 01/06/2026
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-security
@@ -32,7 +32,7 @@ description: "Learn about admin roles, such as the global admin role, or the ser
 
 > Check out [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) on YouTube. These resources are especially helpful for small business admins who are new to Microsoft 365.
 
-In order to perform tasks, such as adding users, assigning licenses, or configuring services, you must be assigned an administrator role. Your Microsoft 365 or Office 365 subscription comes with a set of administrator roles that can be assigned in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339). Each administrator role maps to common business functions and gives people in your organization permissions to do specific tasks in the admin centers. This article provides an overview of administrator roles, security guidelines to keep in mind, and links to related content.
+In order to perform tasks, such as adding users, assigning licenses, or configuring services, you must be assigned an administrator role. Your Microsoft 365 or Office 365 subscription comes with a set of administrator roles that can be assigned in the [Microsoft 365 admin center](https://admin.microsoft.com). Each administrator role maps to common business functions and gives people in your organization permissions to do specific tasks in the admin centers. This article provides an overview of administrator roles, security guidelines to keep in mind, and links to related content.
 
 ## Watch: What is an admin?
 
@@ -42,18 +42,18 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com) and sign in. If you can access the Microsoft 365 admin center, you're an administrator, and you can proceed to the next step.
 
-2. In the left navigation pane, select **Users** > <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">**Active users**</a>.
+2. In the left navigation pane, select **Users** > **Active users**. (Or, go directly to the [Active users page](https://go.microsoft.com/fwlink/p/?linkid=834822).)
 
 3. Select the user account for the person who you want to make an administrator. The user's details appear in the right dialog box.
 
 ## Before you begin
 
-The <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a> lets you manage Microsoft Entra roles and Microsoft Intune roles. However, these roles are a subset of the roles available in the Microsoft Entra admin center and the Microsoft Intune admin center.
+The [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) lets you manage Microsoft Entra roles and Microsoft Intune roles. However, these roles are a subset of the roles available in the Microsoft Entra admin center and the Microsoft Intune admin center.
 
 - For the full list of detailed Microsoft Entra role descriptions you can manage in the Microsoft 365 admin center, check out Administrator role permissions in [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference).
 - For the full list of detailed Intune role descriptions you can manage in the Microsoft 365 admin center, check out [Role-based access control (RBAC) with Microsoft Intune](/mem/intune/fundamentals/role-based-access-control).
 
-For more information on assigning roles in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, see [Assign admin roles](assign-admin-roles.md).
+For more information on assigning roles in the Microsoft 365 admin center, see [Assign admin roles](assign-admin-roles.md).
 
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions, and that you limit the number of users who have administrative permissions. 
@@ -78,7 +78,7 @@ If you get a message in the Microsoft 365 admin center that you don't have permi
 
 To view administrator roles, follow these steps:
 
-1. In the Microsoft 365 admin center, go to <a href="https://go.microsoft.com/fwlink/p/?linkid=2097861" target="_blank">**Role assignments**</a>.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com), go to [Role assignments](https://go.microsoft.com/fwlink/p/?linkid=2097861).
 
 2. Select any role to open its detail pane. 
 
@@ -90,18 +90,18 @@ To view administrator roles, follow these steps:
 
 ### Administrator roles and who should be assigned
 
-The following table lists administrator roles and information about who should be assigned these roles.
+The following table lists administrator roles and information about who should be assigned these roles. To see the full list of roles, visit [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference).
 
 |Administrator role     |Who should be assigned this role?  |
 |---------|---------|
-| AI administrator | Assign the AI Administrator role to users who need to do the following tasks:<br> &bull; Allow users to install an app or install an app for users in the organization if the app doesn't require permission <br> &bull; Read and configure Azure and Microsoft 365 service health dashboards <br> &bull; View usage reports, adoption insights, and organizational insight <br> &bull; Create and manage support tickets in Azure and the Microsoft 365 admin center<br/> <br/> **Note**: The AI Administrator role is currently limited. For full administrative capabilities, it's recommended using the Global Administrator role until the AI Administrator role is fully functional. We're continuously expanding support for more functionalities to enhance the AI Administrator role.|
+| AI administrator | Assign the AI Administrator role to users who need to do the following tasks:<br> &bull; Allow users to install an app or install an app for users in the organization if the app doesn't require permission <br> &bull; Read and configure Azure and Microsoft 365 service health dashboards <br> &bull; View usage reports, adoption insights, and organizational insight <br> &bull; Create and manage support tickets in Azure and the Microsoft 365 admin center<br/> <br/> **Note**: The AI Administrator role is currently limited. For full administrative capabilities, you can use the Global Administrator role until the AI Administrator role is fully functional. We're continuously expanding support for more functionalities to enhance the AI Administrator role.|
 |Billing administrator     |   Assign the Billing administrator role to users who make purchases, manage subscriptions and service requests, and monitor service health. Billing administrators can't assign licenses; If a Billing administrator is also a License or User administrator, visit [Licenses](https://go.microsoft.com/fwlink/p/?linkid=842264) to assign licenses.<br><br> Billing administrators also can:<br> &bull; Manage all aspects of billing<br> &bull; Create and manage support tickets in the Azure portal <br/><br/>|
 |Exchange admin     |   Assign the Exchange admin role to users who need to view and manage your user's email mailboxes, Microsoft 365 Groups, and Exchange Online. <br><br> Exchange administrators can also:<br> &bull; Recover deleted items in a user's mailbox <br> &bull; Set up "Send As" and "Send on behalf" delegates <br>  |
 |Fabric admin |   Assign the Fabric admin role to users who need to do the following tasks: <br> &bull; Manage all admin features for Microsoft Fabric and Power BI <br> &bull; Report on usage and performance <br> &bull; Review and manage auditing  |
-|Global administrator     |   Global administrators can:<br> &bull; Manage purchasing of your organization's subscriptions and products<br> &bull; Reset passwords for all users <br> &bull; Add and manage domains <br> &bull; Unblock another global admin <br/><br/>The person who purchased a subscription for your organizataion and signed up for Microsoft online services is a global administrator automatically. Additionally, only global administrators can view and manage subscriptions purchased through a Partner.|
+|Global administrator     |   Global administrators can:<br> &bull; Manage purchasing of your organization's subscriptions and products<br> &bull; Reset passwords for all users <br> &bull; Add and manage domains <br> &bull; Unblock another global admin <br/><br/>The person who purchased a subscription for your organization and signed up for Microsoft online services is a global administrator automatically. Additionally, only global administrators can view and manage subscriptions purchased through a Partner.|
 |Global reader    |   Assign the global reader role to users who need to view administrator features and settings in admin centers that the global administrator can view. The global reader can't edit any settings.  <br/><br/> For subscriptions purchased through a partner, global reader role isn't available. |
 |Graph data connect administrator     |   Assign the Graph data connect admin role to users who need to do the following tasks: <br>&bull; Access the full set of administrative capabilities of Microsoft Graph Data Connect <br> &bull; Manage Microsoft Graph Data Connect settings in a tenant <br> &bull; Enable or disable the Microsoft Graph Data Connect service <br> &bull; Configure dataset workload selections in Microsoft Graph Data Connect <br> &bull; Configure cross-tenant data movement settings in Microsoft Graph Data Connect <br> &bull; View, approve, or deny application authorization requests for Microsoft Graph Data Connect <br> &bull; View, create, update, or delete application registrations for Microsoft Graph Data Connect|
-|Groups administrator     |   Assign the groups admin role to users who need to manage all groups settings across admin centers, including the Microsoft 365 admin center and Microsoft Entra admin center. <br><br> Groups administrators can:<br> &bull; Create, edit, delete, and restore Microsoft 365 groups<br> &bull; Create and update group creation, expiration, and naming policies<br> &bull; Create, edit, delete, and restore Microsoft Entra security groups|
+|Groups administrator     |   Assign the groups admin role to users who need to manage all groups settings across admin centers, including the Microsoft 365 admin center and Microsoft Entra admin center. <br><br> Groups administrators can:<br> &bull; Create, edit, delete, and restore Microsoft 365 Groups<br> &bull; Create and update group creation, expiration, and naming policies<br> &bull; Create, edit, delete, and restore Microsoft Entra security groups|
 |Helpdesk administrator     |   Assign the Helpdesk admin role to users who need to do the following:<br> &bull; Reset passwords <br> &bull; Force users to sign out<br> &bull; Manage service requests<br> &bull; Monitor service health<br/><br/> The Helpdesk admin can only help users who aren't administrator users and users who are assigned these roles: Directory reader, Guest inviter, Helpdesk admin, Message center reader, and Reports reader.      |
 |License administrator    |   Assign the License admin role to users who need to assign and remove licenses from users and edit their usage location. <br/><br/> License administrators also can: <br> &bull; Reprocess license assignments for group-based licensing <br> &bull; Assign product licenses to groups for group-based licensing  |
 |Message center privacy reader    |   Assign the Message center privacy reader role to users who need to read privacy and security messages and updates in the Microsoft 365 Message center. Message center privacy readers might get email notifications related to data privacy, depending on their preferences, and they can unsubscribe using Message center preferences. Only global administrators and Message center privacy readers can read data privacy messages. This role has no permission to view, create, or manage service requests. <br><br>Message center privacy readers can also: <br> &bull; Monitor all notifications in the Message Center, including data privacy messages<br> &bull; View groups, domains, and subscriptions   |
@@ -152,7 +152,7 @@ Before the partner can assign these roles to users, you must add the partner as 
 
 ## Volume licensing roles
 
-Volume licensing (VL) agreement administrators access their volume licenses in the Microsoft 365 admin center.
+Volume licensing (VL) agreement administrators access their volume licenses in the [Microsoft 365 admin center](https://admin.microsoft.com).
 
 - VL Administrators don't have permissions to any other admin center information or functionality outside the VL section.
 - Global administrators don't assign any VL roles and don't need to assign any admin role to a VL Administrator for them to be able to access the VL agreement.
@@ -162,18 +162,18 @@ For more information, see [Manage volume licensing user roles](../../commerce/li
 
 ## Related content
 
-[Assign admin roles](assign-admin-roles.md)
+- [Assign admin roles](assign-admin-roles.md)
 
-[Check admin roles in your organization](/microsoft-365/admin/add-users/assign-admin-roles#check-admin-roles-in-your-organization)
+- [Check admin roles in your organization](/microsoft-365/admin/add-users/assign-admin-roles#check-admin-roles-in-your-organization)
 
-[Reset passwords in Microsoft 365 for business](reset-passwords.md)
+- [Reset passwords in Microsoft 365 for business](reset-passwords.md)
 
-[Get support for Microsoft 365 for business](../get-help-support.md)
+- [Get support for Microsoft 365 for business](../get-help-support.md)
 
-[Manage user authentication methods for Microsoft Entra multifactor authentication](/entra/identity/authentication/howto-mfa-userdevicesettings)
+- [Manage user authentication methods for Microsoft Entra multifactor authentication](/entra/identity/authentication/howto-mfa-userdevicesettings)
 
-[Microsoft Entra roles in the Microsoft 365 admin center](azure-ad-roles-in-the-mac.md)
+- [Microsoft Entra roles in the Microsoft 365 admin center](azure-ad-roles-in-the-mac.md)
 
-[Activity reports in the Microsoft 365 admin center](../activity-reports/activity-reports.md)
+- [Activity reports in the Microsoft 365 admin center](../activity-reports/activity-reports.md)
 
-[Exchange Online admin role](about-exchange-online-admin-role.md)
+- [Exchange Online admin role](about-exchange-online-admin-role.md)
