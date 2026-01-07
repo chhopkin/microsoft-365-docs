@@ -3,7 +3,7 @@ title: SharePoint Cross-tenant SharePoint migration Step 5
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 08/15/2025
+ms.date: 10/01/2025
 recommendations: true
 audience: ITPro
 ms.topic: how-to
@@ -132,7 +132,7 @@ To obtain Source Tenant Company ID:
 3. Select the required group instance and then **Copy to clipboard**. Paste this value in the sourceGroupObjectId column of your mapping CSV file.
 4. If you have multiple groups to map, then repeat these steps for each group.
 
-:::image type="content" source="../media/cross-tenant-migration/t2t-onedrive-source-group-objectid.png" alt-text="An image showing how you get the source group object ID.":::
+    :::image type="content" source="../media/cross-tenant-migration/t2t-onedrive-source-group-objectid.png" alt-text="An image showing how you get the source group object ID.":::
 
 #### To obtain target group object ID:
 
@@ -142,7 +142,7 @@ To obtain Source Tenant Company ID:
 4. If you have multiple groups to map, then repeat this process to obtain those specific targetGroupObjectId's.
 5. For the GroupName, use the same ID as the *TargetGroupObjectId* you obtained.
 
-:::image type="content" source="../media/cross-tenant-migration/t2t-onedrive-target-group-objectid.png" alt-text="how to get the target object ID":::
+    :::image type="content" source="../media/cross-tenant-migration/t2t-onedrive-target-group-objectid.png" alt-text="how to get the target object ID":::
 
 ## Upload the identity map
 
@@ -156,9 +156,9 @@ Once the identity mapping file is prepared, the SharePoint Administrator on the 
 
 1. To upload the identity Map on the target tenant, run the following command. For *-IdentityMapPath*, provide the full path and filename of the identity mapping CSV file.
 
-```powershell
-Add-SPOTenantIdentityMap -IdentityMapPath <identitymap.csv>
-```
+   ```powershell
+   Add-SPOTenantIdentityMap -IdentityMapPath <identitymap.csv>
+   ```
 
 > [!IMPORTANT]
 > If you make or need to make any changes to your Identity Map during the lifecycle of the migration you must run the `Add-SPOTenantIdentityMap -IdentityMapPath <identitymap.csv>` command **every time** a change is made to ensure those changes are applied to the migration.
@@ -170,7 +170,7 @@ To look at the mapping entries in the identity mapping file for a particular use
 **Example:**
 
 ```powershell
-get-spoTenantIdentityMappingUser -Field SourceUserKey -Value usera@Contoso.onmicrosoft.com
+Get-SPOTenantIdentityMappingUser -Field SourceUserKey -Value usera@Contoso.onmicrosoft.com
 ```
 
 ## Verify cross-tenant compatibility status
@@ -188,16 +188,16 @@ Get-SPOCrossTenantCompatibilityStatus -PartnerCrossTenantHostURL https://m365x12
 - If the tenant status shows as **Compatible** or **Warning**, you can then proceed with the next step of starting cross-tenant migrations.
 - If the tenant status shows as **Incompatible**, your tenants need to be patched/updated to ensure compatibility.
 
-|Status       |Can proceed with migration |
-|-------------|---------------------------|
-|Compatible   |Yes                        |
-|Warning      |Yes                        |
-|Incompatible |No                         |
+    |Status       |Can proceed with migration |
+    |-------------|---------------------------|
+    |Compatible   |Yes                        |
+    |Warning      |Yes                        |
+    |Incompatible |No                         |
 
-> [!IMPORTANT]
-> We recommend waiting a period of **48 hours**. If your tenants are still reporting as *incompatible*, contact support.
->
-> We recommend performing the compatibility status check on a frequent basis before starting ANY instances of cross tenant migrations. If the tenants are incompatible, this incompatibility can result in cross-tenant migrations failing.
+    > [!IMPORTANT]
+    > We recommend waiting a period of **48 hours**. If your tenants are still reporting as *incompatible*, contact support.
+    >
+    > We recommend performing the compatibility status check on a frequent basis before starting ANY instances of cross tenant migrations. If the tenants are incompatible, this incompatibility can result in cross-tenant migrations failing.
 
 
 ## Step 6: [Start a SharePoint cross-tenant migration](cross-tenant-SharePoint-migration-step6.md)

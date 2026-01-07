@@ -1,9 +1,9 @@
 ---
-title: SharePoint Cross-Tenant User Data Migration Step 7 (preview)
+title: SharePoint Cross-Tenant User Data Migration Step 7
 ms.author: heidip
 author: MicrosoftHeidi
 manager: jtremper
-ms.date: 10/13/2023
+ms.date: 10/01/2025
 recommendations: true
 audience: ITPro
 ms.topic: how-to

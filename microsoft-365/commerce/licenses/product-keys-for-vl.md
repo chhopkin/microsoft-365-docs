@@ -3,7 +3,7 @@ title: "Find and use product keys for volume licensing"
 f1.keywords: NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: dansimp
+manager: scotv
 ms.reviewer: aasthatiwari, atuldubey
 audience: Admin
 ms.topic: how-to
@@ -12,14 +12,14 @@ ms.subservice: m365-commerce-volume-licensing
 ms.collection:
 - Tier1
 - scotvorg
-- operations-pod
 ms.custom:
 - commerce_vl
 - AdminTemplateSet
+service.tree.id: e6e1ea2a-04a0-4f78-bc75-7d45c90eee39
 search.appverid: MET150
 ms.localizationpriority: medium
 description: "Learn how to find and use product keys for volume licensing products in the Microsoft 365 admin center."
-ms.date: 05/30/2025
+ms.date: 12/02/2025
 ---
 
 # Find and use product keys for volume licensing
@@ -63,7 +63,7 @@ To download VL product keys for specific License IDs, use the following steps:
 
 ### Find product keys for activating Extended Security Update (ESU) licenses
 
-If you bought Extended Security Update (ESU) licenses, you can activate them with Multiple Activation Keys (MAK) that you provision in the admin center. To find the ESU license MAKs, use the following steps:
+If you bought Extended Security Update (ESU) licenses, you can activate them with Multiple Activation Keys (MAK) made available to VL admins in the admin center. To find the ESU license MAKs, use the following steps:
 
 1. In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">**Your products**</a> page, then select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> tab.
 2. In the **Contracts** section, select **View contracts**.  
@@ -83,7 +83,7 @@ To buy new ESU licenses, contact your Microsoft seller or Licensing Solution Par
 
 The SQL Server license product key is embedded in the software's activation wizard and is automatically detected during installation. For more information, see [The SQL Server Installation Guide](/sql/database-engine/install-windows/install-sql-server).
 
-For SQL Server 2022, the embedded license product key is also displayed in the product details panel on the **Keys** tab. Earlier versions of SQL Server display a message that says, "This product does not require a product key."  
+For SQL Server 2025 and SQL Server 2022, the embedded license product key is also displayed in the product details panel on the **Keys** tab. Earlier versions of SQL Server display a message that says, "This product does not require a product key."  
 
 Because the product key is automatically detected, you don’t need to identify a volume licensing product key to install any versions of SQL Server. To find the key manually, use the following steps:
 
@@ -93,6 +93,10 @@ Because the product key is automatically detected, you don’t need to identify 
 4. In the product details panel, select one or more **Components**, then select **Download**.
 5. On your computer, open the downloaded file, then open the folder named **x64**.
 6. Open the _DefaultSetup.ini_ file. The SQL license product key is displayed inside the file.
+
+**Power BI Report Server (PBIRS)**
+
+Starting with SQL Server 2025, there is no separate installation key for PBIRS. As the only reporting services offering, both Enterprise and Standard Edition customers can use the SQL Server product key to install Power BI Reports Server. 
 
 If you need help with troubleshooting technical issues during product installation or online service activation, contact Microsoft Technical Support by submitting a [Technical Support request](https://support.microsoft.com/oas).
 

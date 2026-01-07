@@ -4,8 +4,8 @@ f1.keywords:
 - CSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
-ms.reviewer: mijeffer, nicholak
+manager: scotv
+ms.reviewer: mijeffer, jobailey
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -16,7 +16,6 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_subscriptions
 - SaRA
@@ -24,9 +23,10 @@ ms.custom:
 - AdminTemplateSet
 - admindeeplinkMAC
 - GAUpdates
+service.tree.id: 84a24b9c-ce0c-4b4b-b837-45bc5ee4bef0
 search.appverid: MET150
 description: "Learn how to upgrade or change to a different plan in the Microsoft 365 admin center."
-ms.date: 05/02/2025
+ms.date: 10/28/2025
 ---
 
 # Upgrade or change to a different Microsoft 365 for business plan
@@ -94,7 +94,7 @@ If you can't select the **View upgrades recommended for your org** link, it mean
 |You have a government or non-profit plan. |If you have a government or non-profit plan, you can [change plans manually](#change-plans-manually). |
 |The plan that you want to change to isn't a supported option. |The plans that are available to change to are displayed based on the services in your current plan. You can only automatically change to a plan that has the same data-related services, or to a higher version. This ensures that users don't lose data related to those services during the change.</br></br>If you want to change to a plan with fewer services, you can [change plans manually](#change-plans-manually). |
 |Your subscription has an add-on. |If you start to change plans and your subscription has an add-on that prevents you from continuing, remove the add-on. You can add it back later if you still need it. You can also [change plans manually](#change-plans-manually).  |
-|Your invoice has an unpaid balance.  |This only applies if you pay for your subscription by invoice. To resolve this issue, find the subscription on the **Your products** page, and select the **Pay now** or **Settle balance** link in the **Billing** section. After the payment is made, try changing plans again.  |
+|Your invoice has an unpaid balance.  |This only applies if you pay for your subscription by wire transfer. To resolve this issue, find the subscription on the **Your products** page, and select the **Pay now** or **Settle balance** link in the **Billing** section. After the payment is made, try changing plans again.  |
 |I have a different problem than what's listed here.  |You can [change plans manually](#change-plans-manually) or [contact support](../../admin/get-help-support.md).  |
 
 ## What does automatically changing plans do to my service and billing?

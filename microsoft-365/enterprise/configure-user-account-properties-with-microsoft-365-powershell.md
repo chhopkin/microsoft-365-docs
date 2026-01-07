@@ -1,6 +1,6 @@
 ---
 title: "Configure Microsoft 365 user account properties with PowerShell"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 04/28/2025

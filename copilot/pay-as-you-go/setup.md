@@ -14,13 +14,12 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 - essentials-overview
-- operations-pod
 ms.custom: 
 - [copilot-learning-hub]
 - GAUpdates
 appliesto:
 - ✅ Microsoft 365 Copilot
-ms.date: 07/23/2025
+ms.date: 11/18/2025
 ---
 
 # Set up pay-as-you-go for Microsoft 365 Copilot services for IT admins
@@ -41,6 +40,7 @@ To set up pay-as-you-go, you must have the following prerequisites:
 - Azure subscription and resource group:
   - You must have an owner or contributor Azure role to an [Azure subscription](/azure/cloud-adoption-framework/ready/azure-best-practices/initial-subscriptions) to set up the pay-as-you-go service.
   - You must have an owner or contributor Azure role to an Azure resource group linked to the same Azure subscription to set up the pay-as-you-go service.
+  - Admins can [create Azure subscriptions and resource groups](#create-azure-subscriptions-and-resource-groups) from within the billing policy creation process in the Microsoft 365 admin center, without the need to visit the Azure portal.
 
   To learn more, see [Use the Azure portal and Azure Resource Manager to Manage Resource Groups](/azure/azure-resource-manager/management/manage-resource-groups-portal).
 
@@ -55,7 +55,7 @@ To set up pay-as-you-go, you must have the following prerequisites:
 
 ## Add a billing policy
 
-To set up pay-as-you-go billing for Microsoft 365 Copilot, you must first add a billing policy in the Microsoft 365 admin center. You can create up to 10 billing policies for your tenant.
+To set up pay-as-you-go billing for Microsoft 365 Copilot, you must first add a billing policy in the Microsoft 365 admin center. You can create up to 50 billing policies for your tenant.
 
 1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to the **Copilot** > **Billing & usage** page.
 2. On the **Billing policies** tab, select **Add a billing policy**.
@@ -138,6 +138,35 @@ After you disable pay-as-you-go, you can also delete the billing policy.
 2. On the **Billing policies** tab, select a billing policy, then select **Delete billing policy**.
 3. Accept the confirmation dialogue. Any services connected to the billing policy are disconnected.
   
+## Create Azure subscriptions and resource groups
+
+As an admin, you can create Azure subscriptions and resource groups from within the billing policy creation process in the Microsoft 365 admin center, without the need to visit the Azure portal.
+
+To create an Azure subscription, you must have one of the following roles:
+
+- The owner, contributor, or Azure subscription creator role for an invoice section.
+- The owner or contributor role on a billing profile or a billing account.
+
+> [!NOTE]
+> The billing account must be connected to a Microsoft Customer Agreement (MCA).
+
+To create an Azure subscription and resource group at the same time, use the following steps:
+
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, go to the **Copilot** > **Billing & usage** page.
+2. On the **Billing policies** tab, select **Add a billing policy**.
+3. Select **Create a new subscription**.
+4. In the **Create a new subscription** panel, enter a subscription name and resource group name, then select a **Region**.
+5. If you have access to more than one invoice section, choose one from the **Invoice section** drop-down list. The subscription is created under the selected invoice section.
+6. Select **Save**.
+
+To only create a resource group, use the following steps:
+
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, go to the **Copilot** > **Billing & usage** page.
+2. On the **Billing policies** tab, select **Add a billing policy**.
+3. Select a subscription from the drop-down list, then select **Create a new resource group**.
+4. In the **Create a new resource group** panel, enter a resource group name, and select a **Region**.
+5. Select **Save**.
+
 ## What if pay-as-you-go is already set up in the Power Platform admin center?
 
 If a pay-as-you-go billing policy is already set up in the Power Platform admin center, you can still create a new policy in the Microsoft 365 admin center. Both policies can exist at the same time, and the billing system ensures that your organization is only charged once, regardless of where the policy is configured.

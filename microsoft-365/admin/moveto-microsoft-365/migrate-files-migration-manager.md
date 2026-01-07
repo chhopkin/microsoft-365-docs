@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: 05/31/2024
 audience: Admin
 ms.topic: upgrade-and-migration-article
-ms.service: microsoft-365-business
+ms.service: microsoft-365-migration
 ms.localizationpriority: medium
 ms.collection:
 - Tier1

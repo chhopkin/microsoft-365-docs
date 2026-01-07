@@ -2,8 +2,8 @@
 title: Accessing an organizational asset library (OAL) in the Microsoft 365 Copilot app
 f1.keywords:
 - NOCSH
-ms.author: dansimp
-author: dansimp
+ms.author: scotv
+author: scotv
 manager: scotv
 ms.date: 08/21/2025
 ms.update-cycle: 180-days

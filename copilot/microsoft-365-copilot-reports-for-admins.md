@@ -2,10 +2,10 @@
 title: Microsoft 365 Copilot reports for IT admins
 description: Dive into Microsoft 365 Copilot reporting tools, including Viva Insights, Purview audit logs, and Power Platform analytics for enhanced visibility.
 #customer intent: As an IT admin, I want to understand the reporting options for Microsoft 365 Copilot so that I can monitor usage, performance, and compliance effectively.
-author: aczechowski
-ms.author: aaroncz
+author: cmcatee-MSFT
+ms.author: cmcatee
 manager: scotv
-ms.reviewer: alejanl, camillepack
+ms.reviewer: alejanl
 ms.date: 09/16/2025
 ms.update-cycle: 180-days
 ms.topic: overview

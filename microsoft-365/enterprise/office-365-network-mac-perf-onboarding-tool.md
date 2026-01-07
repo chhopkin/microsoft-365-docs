@@ -1,6 +1,6 @@
 ---
 title: "Microsoft 365 network connectivity test tool"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 04/02/2025

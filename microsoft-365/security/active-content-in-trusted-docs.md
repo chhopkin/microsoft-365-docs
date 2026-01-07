@@ -12,7 +12,6 @@ ms.service: microsoft-365-security
 ms.collection:
 - M365-security-compliance
 - tier3
-- trust-pod
 search.appverid:
 - MET150
 ROBOTS: NOINDEX,NOFOLOW

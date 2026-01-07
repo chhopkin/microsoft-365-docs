@@ -2,8 +2,8 @@
 title: "Set up the Standard or Targeted release options"
 f1.keywords:
 - CSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 04/09/2025
 audience: Admin

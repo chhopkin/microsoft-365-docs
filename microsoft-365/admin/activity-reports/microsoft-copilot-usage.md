@@ -3,7 +3,6 @@ title: "Microsoft 365 admin center – Microsoft 365 Copilot Chat usage"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.date: 08/18/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -19,6 +18,7 @@ ms.collection:
 ms.custom:
 - GAUpdates
 description: "Learn about the Microsoft 365 Copilot Chat usage report and gain insights into the Microsoft 365 Copilot Chat activity in your organization."
+ms.date: 10/09/2025
 ---
 
 # Microsoft 365 reports in the admin center – Microsoft 365 Copilot Chat usage
@@ -43,7 +43,7 @@ You can view aggregated numbers for Microsoft 365 Copilot Chat active users, ave
 
 - **Active users** shows the total number of users who submitted at least one prompt to Microsoft 365 Copilot Chat during the selected period.
 - **Average daily active users** indicates the average number of people using Microsoft 365 Copilot Chat per day over the selected period.
-- **Total prompts submitted** refers to the overall number of prompts users have sent to Microsoft 365 Copilot Chat during the selected period.
+- **Total prompts submitted** refers to the overall number of prompts users sent to Microsoft 365 Copilot Chat during the selected period.
 - **Average prompts submitted per user** represents the mean number of prompts each active user sent to Microsoft 365 Copilot Chat during the selected period.
 
 In **Recommendations**, the recommended action card highlights where admins can update settings to pin Copilot to make it easier for users in the organization to find and use Copilot in apps like Teams and Outlook.
@@ -57,7 +57,7 @@ You can see the following summary charts in this report as default view:
 - **Summary view** shows you the total usage of Microsoft 365 Copilot Chat of the time frame.
 - **Trend view** shows you the daily time trend of Microsoft 365 Copilot Chat of the time frame.
 
-You can switch between Summary view and Trend view. When switching to Trend view, you can select one or multiple entry points in the dropdown list to see daily usage or compare among entry points.
+You can switch between **Summary** view and **Trend** view. When switching to **Trend** view, you can select one or multiple entry points in the dropdown list to see daily usage or compare among entry points.
 
 :::image type="content" source="../../media/copilot-chat-adoption.png" alt-text="Screenshot showing the chart in Trend view to analyze adoption by app for Microsoft 365 Copilot Chat." lightbox="../../media/copilot-chat-adoption.png":::
 
@@ -90,7 +90,7 @@ You can also export the report data into an Excel .csv file by selecting the **E
 | **Username**                | The user's principal name.  |
 | **Display name**            | The full name of the user.      |
 | **Prompts submitted**       | The total number of prompts submitted by this user to Microsoft 365 Copilot Chat during the specified period. |
-| **Active days**             | The total number of days the user has submitted prompts to Microsoft 365 Copilot Chat within the specified timeframe. |
+| **Active days**             | The total number of days the user submitted prompts to Microsoft 365 Copilot Chat within the specified timeframe. |
 | **Last activity date (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Teams, Outlook, m365.cloud.microsoft/chat, Microsoft Edge, the Microsoft 365 Copilot (app), Word, Excel, PowerPoint, or OneNote. This date remains fixed even if the timeframe of the report is changed. |
 | **Last activity date of Teams (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Teams. This date remains fixed even if the timeframe of the report is changed. |
 | **Last activity date of Outlook (UTC)**| The most recent date on which the user sent a message to Microsoft 365 Copilot Chat in Outlook. This date remains fixed even if the timeframe of the report is changed.  |

@@ -3,7 +3,7 @@ title: "Manage Microsoft 365 Copilot Search"
 author: Efrene
 ms.author: efrene
 manager: scotv
-ms.date: 06/05/2025
+ms.date: 12/15/2025
 ms.topic: overview
 ms.service: microsoft-365-admin
 ms.localizationpriority: medium
@@ -24,9 +24,6 @@ No action is required by admins to set up Microsoft 365 Copilot Search. If a use
 Learn more about [setting up Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-setup) for your users.
 
 For more details on how to manage, customize, and optimize Copilot Search across your organization, learn about the [Microsoft 365 Copilot Search admin experience](/copilot/microsoft-365/microsoft-365-copilot-search-admin-experience).
-
-> [!NOTE]
-> Microsoft 365 Copilot Search becomes available in a Targeted release beginning late June 2025. It will become generally available as a Standard release in Q3 2025. Learn more about [Standard and Targeted releases]( /microsoft-365/admin/manage/release-options-in-office-365).
 
 ## Copilot Search and third-party systems
 

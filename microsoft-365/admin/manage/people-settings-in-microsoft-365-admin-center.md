@@ -9,7 +9,7 @@ author:      Sameergupta-2019 # GitHub alias
 ms.author:   samegupt # Microsoft alias
 ms.service: microsoft-365-admin
 ms.topic: overview
-ms.date:     06/29/2025
+ms.date: 10/10/2025
 manager: scotv
 ---
 
@@ -28,6 +28,9 @@ The _People settings_ section in the Microsoft 365 admin center is a unified 
 1. Select __People settings__ from the list of services.
 
 __Note:__ To view or modify People settings, you must be a __Global Administrator__ or have the __People Administrator__ role in Microsoft 365 ([About admin roles in the Microsoft 365 admin center - Microsoft 365 admin | Microsoft Learn](/microsoft-365/admin/add-users/about-admin-roles)). The People Administrator role is a specialized admin role that allows managing people-centric features (like updating profile card settings, pronouns, and name pronunciations) without granting full global admin permissions. Global Readers can view these settings (read-only).
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 __To assign the People Administrator role to a user:__
 

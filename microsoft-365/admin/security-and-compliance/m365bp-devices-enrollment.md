@@ -1,12 +1,12 @@
 ---
 title: Microsoft Intune device management and application management in Microsoft 365 Business Premium
 description: Admin can learn how to use Microsoft Intune to in Microsoft 365 Business Premium to secure company owned devices and personal devices (also known as bring your own device or BYOD).
-ms.author: chrisda
-author: chrisda
-manager: deniseb
+ms.author: vpattnaik
+author: vpattnai
+manager: dansimp
 ms.date: 08/14/2025
 ms.topic: how-to
-ms.service: microsoft-365-business-security
+ms.service: microsoft-365-security
 ms.localizationpriority: medium
 ms.collection:
 - M365-Campaigns

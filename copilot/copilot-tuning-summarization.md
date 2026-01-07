@@ -1,11 +1,11 @@
 ---
 title: Configure Copilot Tuning for document summarization
-author: mkbond007
-ms.author: mabond
-manager: scotv
+ms.author: lauragra
+author: lauragra
+manager: calvind
 ms.audience: ITPro
 ms.reviewer: robertode
-ms.date: 06/17/2025
+ms.date: 10/27/2025
 ms.topic: how-to
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
@@ -15,8 +15,6 @@ description: Learn how to use Copilot Tuning to build an AI model for document s
 # Get started with Copilot Tuning summarization
 
 <!-- cSpell:ignore rloutlaw routlaw calvind robertode -->
-
-[!INCLUDE [agent-builder-mcs-lite](../microsoft-365/includes/agent-builder-mcs-lite.md)]
 
 Copilot Tuning summarization generates high-quality summaries from complex documents presented in your organization's communication style. Summary generation rephrases complex documents and can generate consistent outputs like:
 
@@ -70,7 +68,7 @@ The supervised fine-tuning step considers real-world training samples, allowing 
 
 The inference for Copilot Tuning summarization enables users to submit documents through platforms like Word, SharePoint, or Teams to obtain summaries in familiar environments. When a user provides a source document, the fine-tuned model efficiently creates a concise summary in short processing time while maintaining tone and document structure.
 
-Summary generation is prioritized to extract key sections, clauses, and the document's core meaning, reflecting what's deemed most important according to the training examples. These summaries allow users to focus on value-add activities rather than manually reviewing documents to create summaries from scratch.
+Summary generation is prioritized to extract key sections, clauses, and the document's core meaning, reflecting what is deemed most important according to the training examples. These summaries allow users to focus on value-add activities rather than manually reviewing documents to create summaries from scratch.
 
 Feedback from users plays a pivotal role in maintaining summary quality and allowing for continuous improvement of the model's performance.
 
@@ -84,4 +82,4 @@ Copilot Tuning summarization embraces existing user workflows within the applica
 
 - [Microsoft 365 Copilot Tuning overview (preview)](copilot-tuning-overview.md)
 - [Microsoft 365 Copilot Tuning FAQ](copilot-tuning-faq.yml)
-- [Create declarative agents with Copilot Studio lite experience and Microsoft 365 Copilot Tuning models](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-tuned-models).
+- [Create declarative agents with Microsoft 365 Copilot Tuning models](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-tuned-models).

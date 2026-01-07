@@ -36,6 +36,9 @@ ms.date: 07/08/2025
 
 As an admin, you can buy or remove licenses for your business subscriptions in the Microsoft 365 admin center.
 
+> [!NOTE]
+> When you buy or upgrade a subscription, or add more licenses to a subscription, you might see a message about license caps. License caps enforce limits on the number of licenses you can have in a subscription and are used to provide specific promotions or special pricing to customers.
+
 ## Before you begin
 
 - [Find out what type of billing account you have](../manage-billing-accounts.md#view-my-billing-accounts).

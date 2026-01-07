@@ -4,7 +4,7 @@ description: Learn more about the data privacy control resources and information
 author: kwekuako
 ms.author: kwekua
 manager: scotv
-ms.topic: article
+ms.topic: concept-article
 ms.date: 09/25/2025
 ms.service: microsoft-365-copilot
 ms.collection: 
@@ -31,4 +31,3 @@ You can find the actual location of your data in Microsoft 365 Admin Center. As 
 - [AI transparency in People Skills](https://go.microsoft.com/fwlink/?linkid=2321446)
 - [Microsoft's commitment to Responsible AI](https://www.microsoft.com/ai/responsible-ai?msockid=154ce9bde0236a9e239afb72e4236c97) 
 - [Microsoft Responsible AI standard](https://www.microsoft.com/ai/principles-and-approach)
-
