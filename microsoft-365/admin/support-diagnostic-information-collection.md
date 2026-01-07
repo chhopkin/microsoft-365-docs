@@ -58,7 +58,7 @@ When a Microsoft Support engineer works on a support case, the following audit e
 
 | Order | Event | Actor |
 |--|--|--|
-| 1 | If it doesn't exist already, **Add a Service Principal** for the Microsoft Support tenant <br/>(Entra GDAP application) | Assist API application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
+| 1 | If it doesn't exist already, **Add a Service Principal** for the Microsoft Support tenant <br/>(Microsoft Entra GDAP application) | Assist API application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
 | 2 | **Add member to role** (Group from Microsoft Support tenant added to Microsoft 365 Support Engineer role) | Assist API application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
 
 ### Audit events during support case closure
@@ -67,13 +67,13 @@ When a support case is closed, the following audit events are logged in the cust
 
 | Order | Event | Actor |
 |--|--|--|
-| 1 | **Add a service principal**<br/>(The Entra GDAP application handles revocation) | Assist API application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
-| 2 | **Deleting allowed assignable roles** | Entra GDAP application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
-| 3 | **Delete partner specific cross-tenant access setting** <br/>(Removes only the Microsoft Support tenant) | Entra GDAP application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
+| 1 | **Add a service principal**<br/>(The Microsoft Entra GDAP application handles revocation) | Assist API application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
+| 2 | **Deleting allowed assignable roles** | Microsoft Entra GDAP application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
+| 3 | **Delete partner specific cross-tenant access setting** <br/>(Removes only the Microsoft Support tenant) | Microsoft Entra GDAP application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
 
 ### What is the Assist API application, and how do I find it in my tenant?
 
-Assist API is a Microsoft-owned application that has Application ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`.  In audit events, you can see the service principal ID of the Assist API application for your tenant. The service principal ID is unique to your tenant.
+Assist API is a Microsoft-owned application that has Application ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`. In audit events, you can see the service principal ID of the Assist API application for your tenant. The service principal ID is unique to your tenant.
 
 To find the service principal ID in your tenant, follow these steps:
 
