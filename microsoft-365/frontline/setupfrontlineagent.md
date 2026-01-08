@@ -7,6 +7,7 @@ title: setupfrontlineagent
 description: This article shows how to configure and deploy the Frontline Agent.
 author:      npienkowska # GitHub alias
 ms.author:   npienkowska # Microsoft alias
+manager: viseshag
 ms.service: microsoft-365
 ms.topic: article
 ms.date:     01/05/2026
