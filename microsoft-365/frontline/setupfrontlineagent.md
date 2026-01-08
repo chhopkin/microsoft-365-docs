@@ -50,7 +50,7 @@ Frontline Agent helps frontline managers create clear and consistent end‑of‑
 
 ### How to set it up
 
-The agent is discoverable from the Microsoft 365 Copilot app store for all users who have the Microsoft 365 Copilot license. To pin the agent for those users in Microsoft 365 Copilot, click [here](/microsoft-365/admin/manage/agent-registry?view=o365-worldwide). If you’d like the agent to also show up in the Teams chat rail or scope down the SharePoint sites the agent has access to, follow these instructions.
+The agent is discoverable from the Microsoft 365 Copilot app store for all users who have the Microsoft 365 Copilot license. To pin the agent for those users in Microsoft 365 Copilot, click [here](/microsoft-365/admin/manage/agent-registry?). If you’d like the agent to also show up in the Teams chat rail or scope down the SharePoint sites the agent has access to, follow these instructions.
 
 > [!NOTE]
 > If you don’t scope down to a set of SharePoint sites, the agent provides answers from all the sites each user has access to.
