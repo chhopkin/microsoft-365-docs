@@ -107,7 +107,7 @@ The following table lists administrator roles and information about who should b
 |[Reports Reader](/entra/identity/role-based-access-control/permissions-reference#reports-reader) |   Assign the Reports Reader role to users who need to do the following tasks: <br> &bull; View usage data and the activity reports in the Microsoft 365 admin center<br> &bull; Get access to the Power BI adoption content pack<br> &bull; Get access to sign-in reports and activity in Microsoft Entra ID<br> &bull; View data returned by Microsoft Graph reporting API|
 |[Search Administrator](/entra/identity/role-based-access-control/permissions-reference#search-administrator) |  Assign the Search Administrator role to users who need to create and manage search result content and define query settings for improved search results within the organization. The Search admin manages the Microsoft search configuration and can perform all the content-management tasks that a Search editor can.|
 |[Service Support Administrator](/entra/identity/role-based-access-control/permissions-reference#service-support-administrator)   |   Assign the Service Support Administrator role as another role to administrators or users who need to do the following tasks in addition to their usual admin role: <br> &bull; Open and manage service requests<br> &bull; View and share message center posts<br> &bull; Monitor service health   |
-|[SharePoint Administrator](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator)    |   Assign the SharePoint Administrator role to users who need to access and manage the SharePoint admin center. <br><br>SharePoint administrators can also: <br> &bull; Create and delete sites<br> &bull; Manage site collections and global SharePoint settings   |
+|[SharePoint Administrator](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator)    |   Assign the SharePoint Administrator role to users who need to access and manage the SharePoint admin center. <br><br>SharePoint Administrators can also: <br> &bull; Create and delete sites<br> &bull; Manage site collections and global SharePoint settings   |
 |[Teams Administrator](/entra/identity/role-based-access-control/permissions-reference#teams-administrator)    |   Assign the Teams Administrator role to users who need to access and manage the Teams admin center. <br><br>Teams administrator can also: <br> &bull; Manage meetings<br> &bull; Manage conference bridges<br> &bull; Manage all org-wide settings, including federation, teams upgrade, and teams client settings   |
 |[User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator)     |    Assign the User Administrator role to users who need to do the following tasks for all users: <br> &bull; Add users and groups<br> &bull; Assign licenses<br> &bull; Manage most users properties<br> &bull; Create and manage user views<br> &bull; Update password expiration policies<br> &bull; Manage service requests<br> &bull; Monitor service health <br><br>  The user admin can also do the following actions for users who aren't administrators and for users assigned the following roles: Directory reader, Guest inviter, Helpdesk admin, Message center reader, Reports reader: <br> &bull; Manage usernames<br> &bull; Delete and restore users<br> &bull; Reset passwords<br> &bull; Force users to sign out<br> &bull; Update (FIDO) device keys   |
 |[User Experience Success Manager](/entra/identity/role-based-access-control/permissions-reference#user-experience-success-manager)     |    Assign the User Experience Success Manager role to users who need to access Experience Insights, Adoption Score, and the Message Center in the Microsoft 365 admin center. This role includes the permissions of the Usage Summary Reports Reader role.    |
@@ -117,18 +117,18 @@ Also see [Check admin roles in your organization](/microsoft-365/admin/add-users
 
 ## Permissions based on administrator roles and Group type in the Microsoft 365 administrator center
 
-|Administrator Role | Microsoft 365 Groups   | Security Groups  | Distribution Groups   | Mail Enabled Security Groups   |
+|Administrator | Microsoft 365 Groups   | Security Groups  | Distribution Groups   | Mail Enabled Security Groups   |
 | --- | --- | --- | --- | --- |
-| Global administrator  | Create, Read, Update, Delete  | Create, Read, Update, Delete | Create, Read, Update, Delete | Create, Read, Update, Delete |
-| Global reader  | Read | Read  | Read | Read |
-| User administrator  | Create, Read, Update, Delete<br/>(Can't update Exchange Online properties) | Create, Read, Update, Delete | Read | Read |
-| Exchange administrator  | Create, Read, Update, Delete | Read, Update (only groups they own), Delete (only groups they own)  | Create, Read, Update, Delete | Create, Read, Update, Delete |
-| Teams administrator  | Create, Read, Update, Delete<br/>(Can't update Exchange Online properties) | Create, Read, Update, Delete - _only groups they own_  | Read | Read |
-| SharePoint administrator  | Create, Read, Update, Delete<br/>(Can't update Exchange Online properties) | Create, Read, Update, Delete -_only groups they own_  | Read | Read |
-| Billing administrator  | Read | Read | Read  | Read |
-| Service administrator  | Read | Read  | Read | Read |
-| Group administrator  | Create, Read, Update, Delete<br/>(Can't update Exchange Online properties) | Create, Read, Update, Delete | Read | Read |
-| AI administrator | Read | Read | Read | Read |
+| [Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator)  | Create, Read, Update, Delete  | Create, Read, Update, Delete | Create, Read, Update, Delete | Create, Read, Update, Delete |
+| [Global Reader](/entra/identity/role-based-access-control/permissions-reference#global-reader)  | Read | Read  | Read | Read |
+| [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator)  | Create, Read, Update, Delete<br/>(Can't update Exchange Online properties) | Create, Read, Update, Delete | Read | Read |
+| [Exchange Administrator](/entra/identity/role-based-access-control/permissions-reference#exchange-administrator)  | Create, Read, Update, Delete | Read, Update (only groups they own), Delete (only groups they own)  | Create, Read, Update, Delete | Create, Read, Update, Delete |
+| [Teams Administrator](/entra/identity/role-based-access-control/permissions-reference#teams-administrator)  | Create, Read, Update, Delete<br/>(Can't update Exchange Online properties) | Create, Read, Update, Delete (only groups they own)  | Read | Read |
+| [SharePoint Administrator](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator)  | Create, Read, Update, Delete<br/>(Can't update Exchange Online properties) | Create, Read, Update, Delete -_only groups they own_  | Read | Read |
+| [Billing Administrator](/entra/identity/role-based-access-control/permissions-reference#billing-administrator)  | Read | Read | Read  | Read |
+| [Service Support Administrator](/entra/identity/role-based-access-control/permissions-reference#service-support-administrator)  | Read | Read  | Read | Read |
+| [Groups Administrator](/entra/identity/role-based-access-control/permissions-reference#groups-administrator)  | Create, Read, Update, Delete<br/>(Can't update Exchange Online properties) | Create, Read, Update, Delete | Read | Read |
+| [AI administrator](/entra/identity/role-based-access-control/permissions-reference#ai-administrator) | Read | Read | Read | Read |
 
 ## Delegated administration for Microsoft Partners
 
