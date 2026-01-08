@@ -140,7 +140,12 @@ Here are the most common issues people encounter when deleting a user:
 
 ## Related content
 
-[Restore a user](restore-user.md) (article)\
-[Permanently delete a mailbox](/exchange/permanently-delete-a-mailbox-exchange-2013-help) (article)\
-[Remove a former employee from Microsoft 365](remove-former-employee.md) (article)\
-[Delete a User Account](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11)) (article): Use these instructions if your business uses **Active Directory** that is synchronizing with Microsoft Entra ID. You can't do it through Microsoft 365.
+- [Restore a user](restore-user.md)
+
+- [Permanently delete a mailbox](/exchange/permanently-delete-a-mailbox-exchange-2013-help)
+
+- [Remove a former employee from Microsoft 365](remove-former-employee.md)
+
+- [Delete a User Account](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11)) (article): Use these instructions if your business uses **Active Directory** that is synchronizing with Microsoft Entra ID. You can't do it through Microsoft 365.
+
+- [Get support for Microsoft 365 for business](../get-help-support.md)
