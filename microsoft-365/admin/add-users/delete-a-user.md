@@ -104,12 +104,12 @@ Reducing the number of licenses is a separate step that can be performed by the 
   
 ::: moniker range="o365-worldwide"
 
-1. In the Microsoft 365 admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.
+1. In the Microsoft 365 admin center, go to **Billing** \> **Your products**. (Or, go directly to the [Your products page](https://go.microsoft.com/fwlink/p/?linkid=842054).)
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Your products</a> page.
+1. In the admin center, go to **Billing** \> **Your products**. (Or, go directly to the [Your products page](https://go.microsoft.com/fwlink/p/?linkid=850626).)
 ::: moniker-end
 
 2. On the **Products** tab, select the subscription that you want to remove licenses for.
