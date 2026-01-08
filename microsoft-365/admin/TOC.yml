@@ -118,6 +118,8 @@ items:
              href: add-users/change-a-user-name-and-email-address.md
            - name: Change user profile photos
              href: add-users/change-user-profile-photos.md
+           - name: Delete a user account
+             href: add-users/delete-a-user.md
            - name: Restore a user
              href: add-users/restore-user.md
            - name: Create template to add users
