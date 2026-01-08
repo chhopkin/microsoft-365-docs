@@ -75,7 +75,7 @@ Since the guided experience walks through the steps to delete a user, here's how
 
    :::image type="content" source="../../media/delete-a-user/delete-user-options.png" alt-text="Screenshot showing options to select when deleting a user account.":::
 
-4. Then select **Delete user**.
+4. Select **Delete user**.
 
 ## User management admin: Delete one or more users from Microsoft 365
 
