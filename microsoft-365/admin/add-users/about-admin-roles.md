@@ -147,7 +147,7 @@ Volume licensing (VL) agreement administrators access their volume licenses in t
 
 - VL Administrators don't have permissions to any other admin center information or functionality outside the VL section.
 - Global administrators don't assign any VL roles and don't need to assign any administrator role to a VL Administrator for them to be able to access the VL agreement.
-- Global administrators don't have access to VL information or functionality in the admin center, unless they're assigned a VL role by a VL Administrator.
+- Global administrators don't have access to VL information or functionality in the admin center, unless they're assigned to a VL role by a VL Administrator.
 
 For more information, see [Manage volume licensing user roles](../../commerce/licenses/manage-user-roles-vl.md) or [contact the Volume Licensing Support team](../../commerce/licenses/contact-vl-support.md).
 
