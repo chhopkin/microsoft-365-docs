@@ -67,7 +67,7 @@ Since the guided experience walks through the steps to delete a user, here's how
 
 ::: moniker-end
 
-2. Select the user that you want to delete to open their account details. The following screenshot shows account details for a fictitious User Two:
+2. Select the user that you want to delete to open their account details. The following screenshot shows account details for a fictitious called "User Two":
 
    :::image type="content" source="../../media/delete-a-user/manage-user-flyout.png" alt-text="Screenshot showing user account details.":::
 
