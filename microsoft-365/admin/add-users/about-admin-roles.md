@@ -15,7 +15,7 @@ ms.collection:
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-description: "Learn about admin roles, such as the global admin role, or the service admin role. Roles map to specific business functions and give permissions to do specific tasks in the Microsoft 365 admin center."
+description: "Learn about administrator roles, such as the global administrator role, or the service administrator role. Roles map to specific business functions and give permissions to do specific tasks in the Microsoft 365 admin center."
 customer-intent: As an administrator, I want to understand administrator roles that are available with my Microsoft 365 for business subscription.
 ---
 
@@ -115,14 +115,14 @@ The following table lists administrator roles and information about who should b
 
 Also see [Check admin roles in your organization](/microsoft-365/admin/add-users/assign-admin-roles#check-admin-roles-in-your-organization).
 
-## Permissions based on administrator roles and Group type in the Microsoft 365 admin center
+## Permissions based on administrator roles and Group type in the Microsoft 365 administrator center
 
 |Administrator Role | Microsoft 365 Groups   | Security Groups  | Distribution Groups   | Mail Enabled Security Groups   |
 | --- | --- | --- | --- | --- |
 | Global administrator  | Create, Read, Update, Delete  | Create, Read, Update, Delete | Create, Read, Update, Delete | Create, Read, Update, Delete |
 | Global reader  | Read | Read  | Read | Read |
 | User administrator  | Create, Read, Update, Delete<br/>(Can't update Exchange Online properties) | Create, Read, Update, Delete | Read | Read |
-| Exchange administrator  | Create, Read, Update, Delete | Read, Update - *only groups they own*, Delete - *only groups they own*  | Create, Read, Update, Delete | Create, Read, Update, Delete |
+| Exchange administrator  | Create, Read, Update, Delete | Read, Update (only groups they own), Delete (only groups they own)  | Create, Read, Update, Delete | Create, Read, Update, Delete |
 | Teams administrator  | Create, Read, Update, Delete<br/>(Can't update Exchange Online properties) | Create, Read, Update, Delete - _only groups they own_  | Read | Read |
 | SharePoint administrator  | Create, Read, Update, Delete<br/>(Can't update Exchange Online properties) | Create, Read, Update, Delete -_only groups they own_  | Read | Read |
 | Billing administrator  | Read | Read | Read  | Read |
@@ -132,30 +132,30 @@ Also see [Check admin roles in your organization](/microsoft-365/admin/add-users
 
 ## Delegated administration for Microsoft Partners
 
-If you're working with a Microsoft partner, you can assign them admin roles. They, in turn, can assign users in your company, or their company, admin roles. You might want to assign admin roles to partners if they're setting up and managing your online organization for you.
+If you're working with a Microsoft partner, you can assign them administrator roles. They, in turn, can assign users in your company, or their company, administrator roles. You might want to assign administrator roles to partners if they're setting up and managing your online organization for you.
   
 A partner can assign these roles:
   
 - **Admin Agent** Privileges equivalent to a global administrator, except for managing multifactor authentication through the Partner Center.
 - **Helpdesk Agent** Privileges equivalent to a helpdesk admin.
 
-Before the partner can assign these roles to users, you must add the partner as a delegated admin to your account. The partner has to be an authorized partner. The partner sends you an email to ask you if you want to give them permission to act as a delegated admin. For instructions, see [Authorize or remove partner relationships](../misc/add-partner.md).
+Before the partner can assign these roles to users, you must add the partner as a delegated administrator to your account. The partner has to be an authorized partner. The partner sends you an email to ask you if you want to give them permission to act as a delegated admin. For instructions, see [Authorize or remove partner relationships](../misc/add-partner.md).
 
 ## Volume licensing roles
 
 Volume licensing (VL) agreement administrators access their volume licenses in the [Microsoft 365 admin center](https://admin.microsoft.com).
 
 - VL Administrators don't have permissions to any other admin center information or functionality outside the VL section.
-- Global administrators don't assign any VL roles and don't need to assign any admin role to a VL Administrator for them to be able to access the VL agreement.
+- Global administrators don't assign any VL roles and don't need to assign any administrator role to a VL Administrator for them to be able to access the VL agreement.
 - Global administrators don't have access to VL information or functionality in the admin center, unless they're assigned a VL role by a VL Administrator.
 
 For more information, see [Manage volume licensing user roles](../../commerce/licenses/manage-user-roles-vl.md) or [contact the Volume Licensing Support team](../../commerce/licenses/contact-vl-support.md).
 
 ## Related content
 
-- [Assign admin roles](assign-admin-roles.md)
+- [Assign administrator roles](assign-admin-roles.md)
 
-- [Check admin roles in your organization](/microsoft-365/admin/add-users/assign-admin-roles#check-admin-roles-in-your-organization)
+- [Check administrator roles in your organization](/microsoft-365/admin/add-users/assign-admin-roles#check-admin-roles-in-your-organization)
 
 - [Reset passwords in Microsoft 365 for business](reset-passwords.md)
 
@@ -163,8 +163,8 @@ For more information, see [Manage volume licensing user roles](../../commerce/li
 
 - [Manage user authentication methods for Microsoft Entra multifactor authentication](/entra/identity/authentication/howto-mfa-userdevicesettings)
 
-- [Microsoft Entra roles in the Microsoft 365 admin center](azure-ad-roles-in-the-mac.md)
+- [Microsoft Entra roles in the Microsoft 365 administrator center](azure-ad-roles-in-the-mac.md)
 
 - [Activity reports in the Microsoft 365 admin center](../activity-reports/activity-reports.md)
 
-- [Exchange Online admin role](about-exchange-online-admin-role.md)
+- [Exchange Online administrator role](about-exchange-online-admin-role.md)
