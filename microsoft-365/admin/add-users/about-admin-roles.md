@@ -5,34 +5,25 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 01/06/2026
+ms.date: 01/08/2026
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-security
 ms.localizationpriority: high
 ms.collection:
 - Tier1
-- scotvorg
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
-ms.custom:
-- AdminSurgePortfolio
-- okr_smb
-- AdminTemplateSet
-- admindeeplinkMAC
-- adminvideo
-- business_assist
-- campaignIDs-batch1
-- campaignIDs-batch2
 description: "Learn about admin roles, such as the global admin role, or the service admin role. Roles map to specific business functions and give permissions to do specific tasks in the Microsoft 365 admin center."
+customer-intent: As an administrator, I want to understand administrator roles that are available with my Microsoft 365 for business subscription.
 ---
 
 # About administrator roles in the Microsoft 365 admin center
 
 > Check out [Microsoft 365 small business help](https://go.microsoft.com/fwlink/?linkid=2197659) on YouTube. These resources are especially helpful for small business admins who are new to Microsoft 365.
 
-In order to perform tasks, such as adding users, assigning licenses, or configuring services, you must be assigned an administrator role. Your Microsoft 365 or Office 365 subscription comes with a set of administrator roles that can be assigned in the [Microsoft 365 admin center](https://admin.microsoft.com). Each administrator role maps to common business functions and gives people in your organization permissions to do specific tasks in the admin centers. This article provides an overview of administrator roles, security guidelines to keep in mind, and links to related content.
+In order to perform tasks, such as adding users, assigning licenses, or configuring services, you must be assigned an administrator role in Microsoft 365 for business. Your Microsoft 365 or Office 365 subscription comes with a set of administrator roles that can be assigned in the [Microsoft 365 admin center](https://admin.microsoft.com). Each administrator role maps to common business functions and enables people in your organization to do specific tasks in the admin centers. This article provides an overview of administrator roles, security guidelines to keep in mind, and links to related content.
 
 ## Watch: What is an admin?
 
@@ -50,8 +41,8 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 
 The [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) lets you manage Microsoft Entra roles and Microsoft Intune roles. However, these roles are a subset of the roles available in the Microsoft Entra admin center and the Microsoft Intune admin center.
 
-- For the full list of detailed Microsoft Entra role descriptions you can manage in the Microsoft 365 admin center, check out Administrator role permissions in [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference).
-- For the full list of detailed Intune role descriptions you can manage in the Microsoft 365 admin center, check out [Role-based access control (RBAC) with Microsoft Intune](/mem/intune/fundamentals/role-based-access-control).
+- For the full list of detailed Microsoft Entra role descriptions you can manage in the Microsoft 365 admin center, see Administrator role permissions in [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference).
+- For the full list of detailed Intune role descriptions you can manage in the Microsoft 365 admin center, see [Role-based access control (RBAC) with Microsoft Intune](/mem/intune/fundamentals/role-based-access-control).
 
 For more information on assigning roles in the Microsoft 365 admin center, see [Assign admin roles](assign-admin-roles.md).
 
