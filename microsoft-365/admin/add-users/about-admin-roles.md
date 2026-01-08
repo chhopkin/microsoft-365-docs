@@ -130,13 +130,13 @@ Also see [Check admin roles in your organization](/microsoft-365/admin/add-users
 | --- | --- | --- | --- | --- |
 | Global administrator  | Create, Read, Update, Delete  | Create, Read, Update, Delete | Create, Read, Update, Delete | Create, Read, Update, Delete |
 | Global reader  | Read | Read  | Read | Read |
-| User administrator  | Create, Read, Update, Delete, ***Can't update EXO properties*** | Create, Read, Update, Delete | Read | Read |
+| User administrator  | Create, Read, Update, Delete<br/>(Can't update Exchange Online properties) | Create, Read, Update, Delete | Read | Read |
 | Exchange administrator  | Create, Read, Update, Delete | Read, Update - *only groups they own*, Delete - *only groups they own*  | Create, Read, Update, Delete | Create, Read, Update, Delete |
-| Teams administrator  | Create, Read, Update, Delete, ***Can't update EXO properties*** | Create, Read, Update, Delete - _only groups they own_  | Read | Read |
-| SharePoint administrator  | Create, Read, Update, Delete, ***Can't update EXO properties*** | Create, Read, Update, Delete -_only groups they own_  | Read | Read |
+| Teams administrator  | Create, Read, Update, Delete<br/>(Can't update Exchange Online properties) | Create, Read, Update, Delete - _only groups they own_  | Read | Read |
+| SharePoint administrator  | Create, Read, Update, Delete<br/>(Can't update Exchange Online properties) | Create, Read, Update, Delete -_only groups they own_  | Read | Read |
 | Billing administrator  | Read | Read | Read  | Read |
 | Service administrator  | Read | Read  | Read | Read |
-| Group administrator  | Create, Read, Update, Delete, ***Can't update EXO properties*** | Create, Read, Update, Delete | Read | Read |
+| Group administrator  | Create, Read, Update, Delete<br/>(Can't update Exchange Online properties) | Create, Read, Update, Delete | Read | Read |
 | AI administrator | Read | Read | Read | Read |
 
 ## Delegated administration for Microsoft Partners
