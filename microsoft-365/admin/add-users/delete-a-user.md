@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 10/01/2024
+ms.date: 01/08/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-security
@@ -21,6 +21,7 @@ ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 description: "Learn how to delete a Microsoft 365 user account, what to do with the user's email and OneDrive content, and whether to keep the product license."
+customer-intent: As an administrator, I need to delete a user account because someone has left our organization.
 ---
 
 # Delete a user from your organization
@@ -66,9 +67,13 @@ Since the guided experience walks through the steps to delete a user, here's how
 
 ::: moniker-end
 
-2. Select the user that you want to delete, and then select **Delete user**.
+2. Select the user that you want to delete to open their account details. The following screenshot shows account details for a fictitious User Two:
 
-3. On the Delete user page, select what you want to do with the user's license and email and OneDrive accounts.
+   :::image type="content" source="../../media/delete-a-user/manage-user-flyout.png" alt-text="Screenshot showing user account details.":::
+
+3. On the **Delete user** page, select what you want to do with the user's license and email and OneDrive accounts. The following screenshot shows options for our example User Two:
+
+   :::image type="content" source="../../media/delete-a-user/delete-user-options.png" alt-text="Screenshot showing options to select when deleting a user account.":::
 
 4. Then select **Delete user**.
 
