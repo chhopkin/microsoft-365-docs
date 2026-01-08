@@ -26,7 +26,7 @@ customer-intent: As an administrator, I need to delete a user account because so
 
 # Delete a user from your organization
   
-**Looking for how to delete your *own* Microsoft 365 user account that you use at work or school? Contact the technical support at your work or university to do these steps for you.**
+> Looking for how to delete your *own* Microsoft 365 user account that you use at work or school? Contact the technical support at your work or university to do these steps for you.
 
 ## Before you begin
 
