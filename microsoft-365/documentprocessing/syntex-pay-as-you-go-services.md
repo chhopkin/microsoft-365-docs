@@ -20,6 +20,9 @@ description: Learn about pay-as-you-go pricing for document processing services 
 # Pay-as-you-go pricing for document processing for Microsoft 365
 
 > [!NOTE]
+> In October 2025, Microsoft announced a progressive end of AI Builder credits. Learn more in the [End of AI Builder credits](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fai-builder%2Fendofaibcredits&data=05%7C02%7Ckarlha%40microsoft.com%7Cb3257816d34747a6811108de4e2cf175%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C639034152144192901%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=d4maX3KGxGsENBKpdiNcx3VWlcyg9hJ5u2Z7qE9whuU%3D&reserved=0) article.
+
+> [!NOTE]
 > Through June 2026, if you have [pay-as-you-go billing](syntex-azure-billing.md) set up, your organization receives a limited amount of included capacity each month for selected services, letting you try these services at no cost. This offering doesn't include capacity for Microsoft 365 Archive or Microsoft 365 Backup. For more information, see [Try out pay-as-you-go document processing services](promo-syntex.md).
 
 When you use pay-as-you-go services, you're billed using service meters in the Azure subscription that you specified when you [set up pay-as-you-go billing](syntex-azure-billing.md#connect-the-service-to-an-azure-subscription-for-billing).
