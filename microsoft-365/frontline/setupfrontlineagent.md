@@ -3,7 +3,7 @@
 # For more information, see https://learn.microsoft.com/en-us/help/platform/learn-editor-add-metadata
 # For valid values of ms.service, ms.prod, and ms.topic, see https://learn.microsoft.com/en-us/help/platform/metadata-taxonomies
 
-title: setupfrontlineagent
+title: Set up Frontline Agent
 description: This article shows how to configure and deploy the Frontline Agent.
 author:      npienkowska # GitHub alias
 ms.author:   npienkowska # Microsoft alias
