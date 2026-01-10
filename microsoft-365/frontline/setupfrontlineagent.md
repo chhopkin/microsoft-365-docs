@@ -24,7 +24,7 @@ Frontline Agent works alongside Teams chats, channels, and existing Microsoft 36
 
 Built on Microsoft 365, Frontline Agent works within your existing Microsoft Teams security and compliance framework. You can use Microsoft Purview to mitigate and manage the risk associated with AI usage, including with Frontline Agent [here](/purview/ai-microsoft-purview). 
 
-The agent is available for anyone with an Microsoft 365 Copilot license in the agents section. As an IT administrator, you set up Frontline Agent to ensure it aligns with your organization’s policies for security, compliance, and device management.
+The agent is available for anyone with a Microsoft 365 Copilot license in the agents section. As an IT administrator, you set up Frontline Agent to ensure it aligns with your organization’s policies for security, compliance, and device management.
 
 ### What scenarios does Frontline Agent enable?
 
@@ -42,7 +42,7 @@ Frontline Agent helps frontline managers create clear and consistent end‑of‑
 
 ### Prerequisites
 
-1. __Identify the scenarios and training plan:__ Based on your organization's frontline workflows and the agent's capabilities, establish the most likely used prompts. Share these prompts with your frontline workers and setup a one-time training session to help them understand how to use the agent.
+1. __Identify the scenarios and training plan:__ Based on your organization's frontline workflows and the agent's capabilities, establish the most likely used prompts. Share these prompts with your frontline workers and set up a one-time training session to help them understand how to use the agent.
 
 2. __Select an initial group of users:__ We suggest launching the agent at a few locations that are already using Microsoft Teams so you can observe how your frontline workers are adopting the use cases.
 
