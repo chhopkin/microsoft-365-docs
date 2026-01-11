@@ -30,6 +30,8 @@ items:
       items: 
       - name: Set up Microsoft 365 and related services
         href: flw-setup-microsoft-365.md
+      - name: Set up Frontline Agent
+        href: setupfrontlineagent.md
       - name: Start a pilot for your frontline workers
         href: startafrontlinepilot.md
       - name: Choosing between flexible and static frontline teams
