@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 12/18/2025
+ms.date: 01/12/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -51,7 +51,7 @@ Agent Registry lists all agents integrated with Microsoft 365 Copilot, including
 Agent creators can use [Agent Builder in Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agent-builder-build-agents) to upload files for the agent to use as knowledge. Copilot stores the uploaded files in tenant-owned [SharePoint Embedded](/sharepoint/dev/embedded/overview) containers. It then embeds the file content as knowledge for the agent to use in responses. For more information, see [Embedded file content](/microsoft-365-copilot/extensibility/agent-builder-add-knowledge#embedded-file-content).
 
 > [!IMPORTANT]
-> [Microsoft Purview Information Barriers (IB)](/purview/information-barriers) isn't supported on embedded files. Any user who can access the agent can see responses grounded in the embedded file content. 
+> [Microsoft Purview Information Barriers (IB)](/purview/information-barriers) isn't supported on embedded files. Any user who can access the agent can see responses grounded in the embedded file content.
 
 This article explains how to handle embedded files, how you can manage agents and containers, and what to expect with sensitivity labels and deletion workflows.
 
