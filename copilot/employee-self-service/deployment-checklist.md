@@ -23,17 +23,17 @@ This article has a checklist to help you set up and deploy the Employee Self-Ser
 
 ## Overview of deployment steps
 
-|Step |Focus                                       |Time          |Goal                            |
-|-----|--------------------------------------------|--------------|--------------------------------|
-|1    |Power Platform environment                  |15-30 minutes |Create the workspace.           |
-|2    |Install Employee Self-Service agent starter |10 minutes    |Prepare the base agent.         |
-|3    |Brand your agent                            |15 minutes    |Employee trust.                 |
-|4    |Add knowledge source                        |30 minutes    |Instant value.                  |
-|5    |Customize topics                            |30 minutes    |Provide relevant answers.       |
-|6    |Refine instructions                         |15 minutes    |Have a consistent tone.         |
-|7    |Add agent                                   |20 minutes    |Expand reach.                   |
-|8    |Test and publish                            |20 minutes    |Go live.                        |
-|9    |Grow over time                              |Ongoing       |Continually refine and improve. |
+|Step |Focus                                       |Time          |Goal                             |
+|-----|--------------------------------------------|--------------|---------------------------------|
+|1    |Power Platform environment                  |15-30 minutes |Create the workspace.            |
+|2    |Install Employee Self-Service agent starter |10 minutes    |Prepare the base agent.          |
+|3    |Brand your agent                            |15 minutes    |Employee trust.                  |
+|4    |Add knowledge source                        |30 minutes    |Instant value.                   |
+|5    |Customize topics                            |30 minutes    |Provide relevant answers.        |
+|6    |Refine instructions                         |15 minutes    |Have a consistent tone.          |
+|7    |Add agent                                   |20 minutes    |Expand reach.                    |
+|8    |Test and publish                            |20 minutes    |Go live.                         |
+|9    |Grow over time                              |Ongoing       |Continually refine and improve.  |
 
 ## Step 1: Set up your Power Platform environment
 
