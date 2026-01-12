@@ -187,7 +187,7 @@ The following table displays the various _Geographies_ and the corresponding dat
 |Geography |Data Center Location(s) |
 |---------|---------|
 |Americas  |Brazil (Campinas, Rio), Canada (Quebec City, Toronto), Chile (Santiago), Mexico (Queretaro), United States (Boydton, Cheyenne, Chicago, Des Moines, Quincy, San Antonio, Santa Clara, San Jose)  |
-|Asia Pacific  |Australia (Sydney, Melbourne), India (Chennai, Mumbai, Pune), Japan (Osaka, Tokyo), South Korea (Busan, Seoul), New Zealand (Auckland), Taiwan (Taipei)  |
+|Asia Pacific  |Australia (Sydney, Melbourne), India (Chennai, Mumbai, Pune), Japan (Osaka, Tokyo), South Korea (Busan, Seoul), New Zealand (Auckland)  |
 |Australia  |Melbourne, Sydney  |
 |Austria  |Vienna  |
 |Brazil  |Campinas, Rio  |
