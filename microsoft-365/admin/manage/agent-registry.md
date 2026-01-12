@@ -703,7 +703,7 @@ Agents with no active alerts displays a blank value, while agents with one or mo
 
 When an administrator selects the number shown in the **Risks** column in the Microsoft 365 admin center **Inventory** page, they're taken directly into a detailed flyout panel under the **Security & Compliance** tab. This flyout provides a focused, actionable view of all risks associated with that specific agent.
 
-The flyout panel displays all relevant instances under an agent's blueprint, along with clear breakdown of the number of risks per instance. Admins can drill into individual instances and view the detailed risk types associated with them. For custom agents or declarative agents, which don't have instance-level structures, the flyout bypasses the instance list and instead surfaces all associated risk types.
+The flyout panel displays all relevant instances under an agent's blueprint, along with clear breakdown of the number of risks per instance. Admins can drill into individual instances and view the detailed risk types associated with them.
 
 :::image type="content" source="../../media/agents/communication-agent-risks.png" alt-text="Screenshot showing the Communication Agent page with risks in the Microsoft 365 admin center." lightbox="../../media/agents/communication-agent-risks.png":::
 
