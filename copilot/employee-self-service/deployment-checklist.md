@@ -59,7 +59,7 @@ This article has a checklist to help you set up and deploy the Employee Self-Ser
 
 ## Step 2: Install the Employee Self-Service agent starter
 
-**What you're doing**: Customers should begin by deploying either the Employee Self-Service HR agent or the Employee Self-Servicde IT agent with the out-of-the-box Employee Self-Service template that comes preconfigured with HR or IT scenarios, respectively. With the upcoming multi-agent preview, customers have the flexibility to configure both Employee Self-Service HR and IT agents within the same environment. If customers start with a single vertical agent (HR or IT), they can migrate their existing configuration to the multi-agent architecture later.
+**What you're doing**: Customers should begin by deploying either the Employee Self-Service HR agent or the Employee Self-Service IT agent with the out-of-the-box Employee Self-Service template that comes preconfigured with HR or IT scenarios, respectively. With the upcoming multi-agent preview, customers have the flexibility to configure both Employee Self-Service HR and IT agents within the same environment. If customers start with a single vertical agent (HR or IT), they can migrate their existing configuration to the multi-agent architecture later.
 
 **Why this step matters**: Installation gives you a working foundation that ensures your setup follows best practices for employee service delivery.
 
@@ -92,7 +92,7 @@ This article has a checklist to help you set up and deploy the Employee Self-Ser
 |Article  |Purpose  |
 |---------|---------|
 |Microsoft Copilot Studio documentation |Branding and setup context. |
-|Agent Builder and customize sections |Covers the **Configure** tab for editing the agent's name, description, logo and instructions. |
+|Agent Builder and customize sections |Covers the **Configure** tab for editing the agent's name, description, logo, and instructions. |
 |Customize Employee Self-Service Agent | How to customize the agent to suit your organization's needs. |
 
 ## Step 4: Add your first knowledge source
