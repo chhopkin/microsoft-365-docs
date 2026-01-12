@@ -123,7 +123,6 @@ After deployment of a remote access solution for your remote workers:
 | No remote access VPN solution and you need access to on-premises apps, some of which are not web-based | You have configured Azure P2S VPN. |
 | Remote workers are using their personal devices from home | You have configured Windows 365. |
 | Remote workers are using RDS connections to on-premises systems | You have deployed a Remote Desktop Services gateway in your edge network. |
-|||
 
 ## Next step
 

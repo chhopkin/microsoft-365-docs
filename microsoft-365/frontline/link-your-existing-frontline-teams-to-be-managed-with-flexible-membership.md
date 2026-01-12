@@ -10,7 +10,7 @@ ms.author: arnavgupta
 manager: prkoduku
 ms.service: microsoft-365-frontline
 ms.topic: how-to
-ms.date:     04/28/2025
+ms.date:     12/19/2025
 ---
 
 # Link your existing frontline teams to be managed with flexible membership
@@ -61,6 +61,14 @@ Existing team members are not removed when you link teams. Monitor usage of Team
 5. Refresh the Manage frontline teams page to check if linking is complete. The Link status shows the last linked date. Select **Deploy** again to link more teams, following the same steps.
 
 ![Link status shows the last linked date and you can select Deploy to link more teams.](/microsoft-365/frontline/microsoft-365/frontline/media/link-complete1.png)
+
+## Troubleshooting
+
+1. To unlink a team from a location, download the CSV template and remove the team ID associated to a previously linked team and leave the cell blank.
+1. To relink a new team to a location, download the CSV template and replace the team ID associated to a previously linked team with a new team ID.
+1. To stop syncing membership from a location to a linked team, set the **FlexibleMembership** column with the associated team to FALSE.
+
+1. Re-upload the CSV once you are done making changes.
 
 ## Get analytics on frontline teams usage
 
