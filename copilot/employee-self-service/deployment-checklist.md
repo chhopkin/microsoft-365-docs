@@ -23,17 +23,17 @@ This article has a checklist to help you set up and deploy the Employee Self-Ser
 
 ## Overview of deployment steps
 
-|Step |Focus                                       |Time          |Goal                            |
-|-----|--------------------------------------------|--------------|--------------------------------|
-|1    |Power Platform environment                  |15-30 minutes |Create the workspace.           |
-|2    |Install Employee Self-Service agent starter |10 minutes    |Prepare the base agent.         |
-|3    |Brand your agent                            |15 minutes    |Employee trust.                 |
-|4    |Add knowledge source                        |30 minutes    |Instant value.                  |
-|5    |Customize topics                            |30 minutes    |Provide relevant answers.       |
-|6    |Refine instructions                         |15 minutes    |Have a consistent tone.         |
-|7    |Add agent                                   |20 minutes    |Expand reach.                   |
-|8    |Test and publish                            |20 minutes    |Go live.                        |
-|9    |Grow over time                              |Ongoing       |Continually refine and improve. |
+|Step |Focus                                       |Time          |Goal                             |
+|-----|--------------------------------------------|--------------|---------------------------------|
+|1    |Power Platform environment                  |15-30 minutes |Create the workspace.            |
+|2    |Install Employee Self-Service agent starter |10 minutes    |Prepare the base agent.          |
+|3    |Brand your agent                            |15 minutes    |Employee trust.                  |
+|4    |Add knowledge source                        |30 minutes    |Instant value.                   |
+|5    |Customize topics                            |30 minutes    |Provide relevant answers.        |
+|6    |Refine instructions                         |15 minutes    |Have a consistent tone.          |
+|7    |Add agent                                   |20 minutes    |Expand reach.                    |
+|8    |Test and publish                            |20 minutes    |Go live.                         |
+|9    |Grow over time                              |Ongoing       |Continually refine and improve.  |
 
 ## Step 1: Set up your Power Platform environment
 
@@ -41,7 +41,7 @@ This article has a checklist to help you set up and deploy the Employee Self-Ser
 
 **Why this step matters**: Each Power Platform environment acts as a secure sandbox, keeping your configurations isolated, compliant, and easy to manage.
 
-### Deployment steps checklist 
+### Deployment steps checklist
 
 - Create or confirm your Power Platform environment.
 - [Verify](prepare.md) you have Maker and Admin permissions.
@@ -59,7 +59,7 @@ This article has a checklist to help you set up and deploy the Employee Self-Ser
 
 ## Step 2: Install the Employee Self-Service agent starter
 
-**What you're doing**: Customers should begin by deploying either the Employee Self-Service HR agent or the Employee Self-Servicde IT agent with the out-of-the-box Employee Self-Service template that comes preconfigured with HR or IT scenarios, respectively. With the upcoming multi-agent preview, customers have the flexibility to configure both Employee Self-Service HR and IT agents within the same environment. If customers start with a single vertical agent (HR or IT), they can migrate their existing configuration to the multi-agent architecture later.
+**What you're doing**: Customers should begin by deploying either the Employee Self-Service HR agent or the Employee Self-Service IT agent with the out-of-the-box Employee Self-Service template that comes preconfigured with HR or IT scenarios, respectively. With the upcoming multi-agent preview, customers have the flexibility to configure both Employee Self-Service HR and IT agents within the same environment. If customers start with a single vertical agent (HR or IT), they can migrate their existing configuration to the multi-agent architecture later.
 
 **Why this step matters**: Installation gives you a working foundation that ensures your setup follows best practices for employee service delivery.
 
@@ -92,7 +92,7 @@ This article has a checklist to help you set up and deploy the Employee Self-Ser
 |Article  |Purpose  |
 |---------|---------|
 |Microsoft Copilot Studio documentation |Branding and setup context. |
-|Agent Builder and customize sections |Covers the **Configure** tab for editing the agent's name, description, logo and instructions. |
+|Agent Builder and customize sections |Covers the **Configure** tab for editing the agent's name, description, logo, and instructions. |
 |Customize Employee Self-Service Agent | How to customize the agent to suit your organization's needs. |
 
 ## Step 4: Add your first knowledge source
