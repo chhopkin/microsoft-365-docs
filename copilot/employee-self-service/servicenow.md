@@ -37,7 +37,7 @@ The Employee Self-Service agent acts as a front-end for consuming information fr
 
 ## Technical synopsis
 
-:::image type="content" source="media/service-now-integration.png" alt-text="Diagram that shows the high-level components comprising the overall solution for the Employee Self-Service agent and ServiceNow Knowledge integration." lightbox="media/service-now-integration.png":::
+:::image type="content" source="media/service-now-integration.png" alt-text="A diagram that shows the high-level components comprising the overall solution for the Employee Self-Service agent and ServiceNow Knowledge integration." lightbox="media/service-now-integration.png":::
 
 The preceding diagram outlines the high-level components comprising overall solution for the Employee Self-Service agent and ServiceNow Knowledge integration using Microsoft 365 Copilot Connector. There are different activities to be performed as part of initial deployment and for an ongoing operation. As the solution involves multiple technologies, it's better to spend some time initially in understanding the various components. This understanding helps you bring in the right stakeholders to set up an environment to deploy and test the Employee Self-Service agent.
 
