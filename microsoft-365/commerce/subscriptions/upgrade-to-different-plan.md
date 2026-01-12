@@ -116,7 +116,7 @@ When you change plans automatically, your services and billing are affected in t
 
 ### Billing
 
-The day your plan change is complete, the billing on your old subscription is turned off and the billing on your new subscription is turned on. Depending on the new plan you selected, you might receive a prorated credit. If you have an MCA billing account, you receive a new invoice that includes the credit for your old subscription within one to two days of changing to the new subscription. If an MOSA billing account, you receive a new invoice that includes the credit for your old subscription within 30 days of changing to the new subscription.
+The day your plan change is complete, the billing on your old subscription is turned off and the billing on your new subscription is turned on. Depending on the new plan you selected, you might receive a prorated credit. If you have an MCA billing account, you receive a new invoice that includes the credit for your old subscription within one to two days of changing to the new subscription. If you have an MOSA billing account, you receive a new invoice that includes the credit for your old subscription within 30 days of changing to the new subscription.
 
 > [!NOTE]
 > The length of time it takes to receive your prorated credit depends on the payment method used for the old subscription.
