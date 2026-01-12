@@ -45,5 +45,4 @@ Make sure this new policy configuration is a higher priority than the **Tenant**
 > [!TIP]
 > You can download a detailed report under the Baseline Security Mode Block ActiveX controls in the Microsoft 365 apps setting to identify users who are opening files which contain ActiveX controls and have ActiveX controls currently enabled.
 
-
 Alternatively, you can make changes to the policy settings directly using the [Office Cloud Policy service](https://config.office.com/). Set the **Disable All ActiveX** policy as not configured to revert to the default behavior.
