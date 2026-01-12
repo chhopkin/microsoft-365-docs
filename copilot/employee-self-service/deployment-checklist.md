@@ -41,7 +41,7 @@ This article has a checklist to help you set up and deploy the Employee Self-Ser
 
 **Why this step matters**: Each Power Platform environment acts as a secure sandbox, keeping your configurations isolated, compliant, and easy to manage.
 
-### Deployment steps checklist 
+### Deployment steps checklist
 
 - Create or confirm your Power Platform environment.
 - [Verify](prepare.md) you have Maker and Admin permissions.
