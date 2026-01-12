@@ -101,7 +101,7 @@ You can only remove licenses from your subscription during a limited time window
    - If you’re using the **Dashboard view**, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.
 2. Select the subscription that you want to change.
 3. On the subscription details page, select **Remove licenses**. [What if I can't select the Buy licenses or Remove licenses buttons?](#what-if-i-cant-select-the-buy-licenses-or-remove-licenses-buttons)
-1. Under **New quantity** in the **Total licenses** box, enter the total number of licenses that you want for this subscription. For example, if you have 100 licenses and you want to remove 25 licenses, enter 75.  You will receive a bill that includes any credits that may be due within one to two days.
+1. Under **New quantity** in the **Total licenses** box, enter the total number of licenses that you want for this subscription. For example, if you have 100 licenses and you want to remove 25 licenses, enter 75. You will receive a bill that includes any credits that might be due within one to two days.
 
 5. Select **Save**.
 
