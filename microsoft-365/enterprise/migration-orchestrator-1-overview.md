@@ -55,7 +55,7 @@ Cross-Tenant migrations require a per-user license (one-time fee) and can be ass
 - OneDrive
 - EDU
 
-This product is and will be available for EA, CSP, Web direct, small business and EDU customers. The pricing at GA is not yet available.
+This product is available for EA, CSP, Web direct, small business, and EDU customers. The pricing at GA is not available yet.
 
 ## Security and compliance considerations
 
