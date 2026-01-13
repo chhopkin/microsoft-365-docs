@@ -3,7 +3,7 @@ title: "Microsoft 365 admin center Microsoft 365 Copilot readiness"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.date: 12/13/2024
+ms.date: 01/12/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -38,7 +38,7 @@ In the Microsoft 365 Copilot readiness report, which is in continuous enhancemen
 
 1. In the admin center, go to **Reports** > **Usage**.
 1. Select the **Microsoft 365 Copilot** page.
-1. You can view Readiness on the first tab. Switch to the Usage tab to view adoption and usage metrics.
+1. You can view **Readiness** on the first tab. Switch to the **Usage** tab to view adoption and usage metrics.
 
 ## Interpret the Readiness section in the Microsoft 365 Copilot report
 
