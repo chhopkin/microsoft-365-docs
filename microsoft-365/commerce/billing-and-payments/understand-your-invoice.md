@@ -52,7 +52,7 @@ Depending on the billing frequency that you chose when you bought your subscript
 
 Each new subscription purchase receives the first invoice the next day and is billed on this same day of the month with the frequency selected at purchase. Subscriptions with recurring billing receive subsequent invoices on that same day of the month. 
 
-Changes you make to an existing subscription will also be billed the next day.
+Changes you make to an existing subscription are also be billed the next day.
 
 If you acquire multiple new subscriptions on different days within a month (excluding additions to current subscriptions), you receive separate invoices for each.
 
