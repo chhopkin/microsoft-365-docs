@@ -54,7 +54,16 @@ To share Copilot Pages as interactive components (instead of just hyperlinks) in
 
 When creation is disabled, users can't create new Copilot Pages or new SharePoint Embedded containers. The Pages module remains visible in the Microsoft 365 Copilot app, but the Notebooks module is hidden.
 
-Existing Copilot Pages and Notebooks aren't deleted. Users can still view and edit existing items if they have permission. These files remain accessible via the app, shared links, search, and are discoverable by Purview and exportable by admins.
+Existing Copilot Pages and Notebooks aren't deleted. Users can still view and edit existing items if they have permission. These files remain accessible in the following ways:
+
+- **Loop app**: For viewing and editing Pages
+- **Microsoft 365 Copilot app**: For accessing items created in chat experiences
+- **Original storage locations**: Files added to Notebooks remain available in OneDrive and SharePoint where they're stored
+
+Existing items are also discoverable through search, Purview, and can be exported by admins.
+
+> [!IMPORTANT]
+> Sharing links to Copilot Notebooks will stop working when creation is disabled via the policy in this article.
 
 ## Settings management in Cloud Policy
 
