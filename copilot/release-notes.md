@@ -142,7 +142,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 
   **What Changed:** A new Copilot connector allows you to integrate Dropbox into the Microsoft 365 Copilot experience. Once connected, Copilot can retrieve and manage files stored in Dropbox and use them for context in responses.
 
-  **Why::** This update eliminates friction by letting Copilot work across locations, so users never waste time searching or switching services. 
+  **Why:** This update eliminates friction by letting Copilot work across locations, so users never waste time searching or switching services. 
 
   **Try This:** 
 
@@ -191,7 +191,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 
   **What Changed:** Agents can now tap into richer Microsoft 365 data sources - email, Teams chats, meeting transcripts, and people data - to deliver more context-aware answers and automate tasks seamlessly.
 
-  **Why::** Modern work spans inboxes, chats, calendars, and documents. Constant switching slows teams down. By grounding declarative agents in organizational data, Copilot reduces context-switching, improves accuracy, and accelerates decision-making.
+  **Why:** Modern work spans inboxes, chats, calendars, and documents. Constant switching slows teams down. By grounding declarative agents in organizational data, Copilot reduces context-switching, improves accuracy, and accelerates decision-making.
 
   **Try This:**
 
@@ -234,7 +234,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
   **Business impact:** Reduces manual document creation time and supports compliant storage.
   **Personal impact:** Makes everyday document tasks quicker and easier.
 
-  **Additonal resources** 
+  **Additional resources** 
 
   **Learn:**  
 [Add capabilities](/microsoft-365-copilot/extensibility/agent-builder-build-agents#add-capabilities)
@@ -285,7 +285,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 
   **Personal Impact:** Minimizes context switching and increases document creation efficiency
 
-  **Additonal resources** 
+  **Additional resources** 
 
   **Learn:**  
   [Google Drive Microsoft 365 Copilot connector overview](/microsoftsearch/google-drive-overview)
@@ -4940,7 +4940,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 
   **What Changed:** Agents can now tap into richer Microsoft 365 data sources - email, Teams chats, meeting transcripts, and people data - to deliver more context-aware answers and automate tasks seamlessly.
 
-  **Why::** Modern work spans inboxes, chats, calendars, and documents. Constant switching slows teams down. By grounding declarative agents in organizational data, Copilot reduces context-switching, improves accuracy, and accelerates decision-making.
+  **Why:** Modern work spans inboxes, chats, calendars, and documents. Constant switching slows teams down. By grounding declarative agents in organizational data, Copilot reduces context-switching, improves accuracy, and accelerates decision-making.
 
   **Try This:**
 
@@ -7174,7 +7174,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 
   **What Changed:** A new Copilot connector allows you to integrate Dropbox into the Microsoft 365 Copilot experience. Once connected, Copilot can retrieve and manage files stored in Dropbox and use them for context in responses.
 
-  **Why::** This update eliminates friction by letting Copilot work across locations, so users never waste time searching or switching services. 
+  **Why:** This update eliminates friction by letting Copilot work across locations, so users never waste time searching or switching services. 
 
   **Try This:** 
 
@@ -7246,7 +7246,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 
   **What Changed:** Agents can now tap into richer Microsoft 365 data sources - email, Teams chats, meeting transcripts, and people data - to deliver more context-aware answers and automate tasks seamlessly.
 
-  **Why::** Modern work spans inboxes, chats, calendars, and documents. Constant switching slows teams down. By grounding declarative agents in organizational data, Copilot reduces context-switching, improves accuracy, and accelerates decision-making.
+  **Why:** Modern work spans inboxes, chats, calendars, and documents. Constant switching slows teams down. By grounding declarative agents in organizational data, Copilot reduces context-switching, improves accuracy, and accelerates decision-making.
 
   **Try This:**
 
@@ -13519,5 +13519,6 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
