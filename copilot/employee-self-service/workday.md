@@ -332,7 +332,7 @@ During the Workday Extension Pack installation process, you're prompted for the 
 |--------------------------|---------------------------------------------|---------------------------------|
 |OAuthUser                 |new_sharedworkdaysoap_ff0df                  |Maker/the signed-in user         |
 |Context Generic User      |new_sharedworkdaysoap_d6081                  |ISU_WQL_COPILOT                 |
-|Generic User              |new_sharedworkdaysoap_0786a                  |ISU_Generic_COPILOT             |
+|Generic User              |new_sharedworkdaysoap_0786a                  |ISSG_Generic_COPILOT             |
 |Microsoft Dataverse       |msviess_sharedcommondataserviceforapps_92b66 |ISU_WQL_COPILOT                 |
 
 The user accounts mentioned in the table under "Expected connection user account" should be available in Entra for SSO and use the respective accounts in UPN format (example: `ISU_WQL_COPILOT@contoso.com`).
