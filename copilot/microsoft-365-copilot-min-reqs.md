@@ -23,7 +23,7 @@ To successfully deploy Microsoft 365 Copilot in your organization, you need to m
 
 Before your users can use Microsoft 365 Copilot, they must have one of the following subscriptions or plans:
 
-- Microsoft 365 A1/A3/A5 (including MA3/MA5 for students, MA3/MA5 for faculty, and MA3/MA5 student-use benefit)
+- Microsoft 365 A3/A5 (including MA3/MA5 for students, MA3/MA5 for faculty, and MA3/MA5 student-use benefit)
 - Microsoft 365 Business Basic/Business Standard/Business Premium
 - Microsoft 365 E3/E5
 - Microsoft 365 F1/F3
@@ -58,7 +58,7 @@ User's primary mailbox must be in Exchange Online. Copilot uses mailbox content 
 
 - iPhone: iOS 16.0 or later
 - iPad: iPadOS 16.0 or later
-- Supported Android version?
+- Android 10 or later
 
 ## Browser requirements
 
@@ -74,7 +74,7 @@ Any modern browser with third-party cookies enabled for online apps. Recommended
 Users can access Microsoft 365 Copilot from:
 
 - **Web**: go to [m365copilot.com](https://m365copilot.com)
-- **App**: Download the Microsoft 365 Copilot app from the Microsoft store
+- **App**: Download the Microsoft Copilot app from the Microsoft store
 - **Mobile**: Install the app from the App Store (iOS) or Google Play (Android)
 
 ## Security and compliance requirements
@@ -162,7 +162,7 @@ Provide training tailored to your users to ensure effective usage:
 Use communication templates, workshops, and champions to promote usage.
 
 - [Copilot Success Kit](https://adoption.microsoft.com/copilot/success-kit/)
-- [Adoption Hub](https://adoption.microsoft.com/copilot/)
+- [Microsoft 365 Copilot Adoption Hub](https://adoption.microsoft.com/copilot/)
 
 ### Get feedback
 
