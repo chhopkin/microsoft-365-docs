@@ -46,7 +46,7 @@ In order to promote clarity in the capability descriptions on data residency fun
 |Local Region Geography |Australia, Austria, Brazil, Canada, Chile, France, Germany, India, Indonesia, Israel, Italy, Japan, Malaysia, Mexico, New Zealand, Norway, Poland, Qatar, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, United Arab Emirates, United Kingdom |
 |Macro Region Geography |Macro Region Geography 1 – Europe, Macro Region Geography 2 – Asia Pacific, Macro Region Geography 3 – Americas, Macro Region Geography 4 – European Union/EFTA |
 |Macro Region Geography 1 – Europe |Data centers in Austria, Finland, France, Germany, Ireland, Italy, Netherlands, Poland, Spain, Sweden <br/> <br/> **Note:** This term is referenced as “Europe” on the _Data Location Card_. |
-|Macro Region Geography 2 – Asia Pacific |Data centers in Australia, Hong Kong Special Administrative Region, Indonesia, Japan, Malaysia, New Zealand, Singapore, South Korea |
+|Macro Region Geography 2 – Asia Pacific |Data centers in Australia, Hong Kong Special Administrative Region, India, Indonesia, Japan, Malaysia, New Zealand, Singapore, South Korea |
 |Macro Region Geography 3 – Americas |Data centers in Brazil, Canada, Chile, Mexico, and the United States (USA) <br/> <br/> **Note:** This term is referenced as “Americas” on the _Data Location Card_. |
 |Macro Region Geography 4 – European Union/EFTA |Data centers in Austria, Finland, France, Germany, Ireland, Italy, Netherlands, Poland, Spain, Sweden, Norway, and Switzerland. <br/> <br/> **Note:** This term is referenced as “European Union/EFTA” on the _Data Location Card_. |
 |Microsoft Entra ID |Microsoft Entra ID is the new name for [Azure Active Directory](/entra/fundamentals/new-name). |
@@ -187,7 +187,7 @@ The following table displays the various _Geographies_ and the corresponding dat
 |Geography |Data Center Location(s) |
 |---------|---------|
 |Americas  |Brazil (Campinas, Rio), Canada (Quebec City, Toronto), Chile (Santiago), Mexico (Queretaro), United States (Boydton, Cheyenne, Chicago, Des Moines, Quincy, San Antonio, Santa Clara, San Jose)  |
-|Asia Pacific  |Australia (Sydney, Melbourne), India (Chennai, Mumbai, Pune), Japan (Osaka, Tokyo), South Korea (Busan, Seoul), New Zealand (Auckland), Taiwan (Taipei)  |
+|Asia Pacific  |Australia (Sydney, Melbourne), India (Chennai, Mumbai, Pune), Indonesia (Jakarta), Japan (Osaka, Tokyo), Malaysia (Kuala Lumpur), Singapore, South Korea (Busan, Seoul), New Zealand (Auckland)  |
 |Australia  |Melbourne, Sydney  |
 |Austria  |Vienna  |
 |Brazil  |Campinas, Rio  |
@@ -208,6 +208,7 @@ The following table displays the various _Geographies_ and the corresponding dat
 |Norway   |Oslo, Stavanger    |
 |Poland   |Warsaw    |
 |Qatar   |Doha     |
+|Singapore   |Singapore     |
 |South Africa    |Cape Town, Johannesburg    |
 |South Korea  |Busan, Seoul    |
 |Spain   |Madrid    |
