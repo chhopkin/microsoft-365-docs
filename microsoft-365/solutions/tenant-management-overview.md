@@ -18,6 +18,7 @@ ms.collection:
 - must-keep
 ms.custom:
 - Ent_Solutions
+- m365-solutions-doc-set
 description: "An overview of the planning, deployment, and ongoing operation of your Microsoft 365 tenants."
 ---
 

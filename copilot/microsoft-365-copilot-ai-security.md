@@ -25,6 +25,9 @@ appliesto:
 
 Security is foundational to our approach at Microsoft; it safeguards customer data, supports system integrity, and includes user safety features. This commitment aligns with our [broader principles of privacy, compliance, and trust](https://www.microsoft.com/trust-center). This article outlines our approach to securing Microsoft 365 Copilot and provides guidance you can use to strengthen your AI security posture.
 
+> [!NOTE]
+> Learn about new features and capabilities in [Microsoft Security products for AI](/security/security-for-ai/whats-new).
+ 
 ## What Microsoft does to secure Microsoft 365 Copilot
 
 Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level, grounded in enterprise security, privacy, and compliance standards. This means that if one layer is breached, others still provide protection. Microsoft's approach is guided by [Responsible AI principles](https://www.microsoft.com/en-us/ai/responsible-ai) and is reinforced by the recently expanded [Secure Future Initiative](https://aka.ms/SFIwebsite).

@@ -21,6 +21,7 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 - admindeeplinkTEAMS
+- m365-solutions-doc-set
 - admindeeplinkSPO
 recommendations: false
 description: "Learn how to deploy teams with a baseline level of protection."

@@ -16,8 +16,9 @@ ms.collection:
 - m365solution-securecollab
 - m365initiative-externalcollab
 f1.keywords: NOCSH
-ms.custom: 
+ms.custom:
 - seo-marvel-apr2020
+- m365-solutions-doc-set
 - admindeeplinkTEAMS
 - admindeeplinkSPO
 ms.localizationpriority: medium

@@ -15,6 +15,7 @@ ms.collection:
 - m365solution-securecollab
 - m365solution-scenario
 - m365initiative-externalcollab
+ms.custom: m365-solutions-doc-set
 ms.localizationpriority: medium
 f1.keywords: NOCSH
 recommendations: false

@@ -59,7 +59,7 @@ An Online Administrator of VL contracts from the public cloud can assign roles o
 
 To manage public cloud VL Contracts, Sarah must go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">public cloud instance of the Microsoft 365 admin center</a>. To manage GCC High cloud VL Contracts, she must go to the <a href="https://portal.office365.us/adminportal/home" target="_blank">GCC High cloud instance of the Microsoft 365 admin center</a>.
 
-### If you're registering a volume license agreement for the first time (non-EA and EU customers only)
+### If you're registering a volume license agreement for the first time (non-EA and non-EU customers only)
 
 The first time that you register a VL agreement, use the following steps:
 
@@ -99,7 +99,7 @@ The welcome email is sent from the email address "microsoft-noreply\@microsoft.c
 > [!NOTE]
 > If you can't find the email in your inbox, check your junk or spam folders.
 
-**Non-EA and EU customers:** If you don't have access to the business email address the welcome email is sent to, ask the owner of that email to forward you any invitation and registration confirmations emails.
+**Non-EA and non-EU customers:** If you don't have access to the business email address the welcome email is sent to, ask the owner of that email to forward you any invitation and registration confirmations emails.
 
 ## Sign up for a new Microsoft Entra ID
 
@@ -156,12 +156,12 @@ If you don't see the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144"
 
 - **Use the correct role:**
 
-  - If you're a VL user (Non-EA and EU customers only), verify that you completed the license registration by selecting the link in the welcome email that you received.
+  - If you're a VL user (Non-EA and non-EU customers only), verify that you completed the license registration by selecting the link in the welcome email that you received.
   - You might have access to the admin center because of a different role, or you might not have a VL role assigned to you. Contact a VL Administrator for your organization and ask them to grant you VL permissions.
 
 - **Use the correct user ID:**
 
-  - **Non-EA and EU customers only:** Verify that the user ID you used to register VL licenses in the admin center is the same as the user ID that you're using to sign in.
+  - **Non-EA and non-EU customers only:** Verify that the user ID you used to register VL licenses in the admin center is the same as the user ID that you're using to sign in.
   - **EA and EU customers only:** Verify that the user ID you used to sign in is the one to which access was given by the VL administrator.
 
 ### My volume licensing welcome email is invalid

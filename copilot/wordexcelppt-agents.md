@@ -33,11 +33,11 @@ To use Word, Excel, and PowerPoint Agents, you require a Microsoft 365 Copilot l
 
 ## Admin enablement and controls  
 
-These agents use Anthropic reasoning models. A global administrator must enable the reasoning models in the Microsoft 365 admin center, agreeing to the model's terms for users to access creation agents.
+These agents use Anthropic reasoning models. A global administrator must enable the reasoning models in the Microsoft 365 admin center, agreeing to the model's terms for users to access creation agents. In addition, Frontier must be enabled for the tenant or specific users, the Anthropic model toggle must be turned on, and the user needs a Microsoft 365 Copilot license assigned. These requirements are mandatory for Word, Excel, and PowerPoint Agents to function.
 
-Administrators, after enabling, can disable access to reasoning models at any time. If your organization decides to stop using the reasoning model, you can block the provider via the admin center, which removes the option for users.
+Administrators, after enabling, can disable access to reasoning models at any time. If your organization decides to stop using the reasoning model, you can block the provider via the admin center, which removes the option for users. Word, Excel, and PowerPoint Agents are installed by Microsoft and will appear in the Tools menu and left navigation pane for Microsoft 365 Copilot licensed users (in the Agents list in the Frontier section and in the All Agents section), assuming both Anthropic and Frontier have been enabled for the tenant. Admins can manage these agents similar to other agents that were installed by [Microsoft](copilot-agent-install.md).
 
-If the reasoning model's usage is blocked, users are prevented from using the new Word, Excel, and PowerPoint Agents.
+If the reasoning model's usage is blocked, users are prevented from seeing the agents (in the Tools menu and in the left rail of the Microsoft 365 Copilot app) and using the new Word, Excel, and PowerPoint Agents.
 
 ### Connect to reasoning models in the Microsoft 365 admin center
 

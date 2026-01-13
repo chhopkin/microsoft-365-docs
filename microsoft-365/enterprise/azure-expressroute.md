@@ -59,7 +59,7 @@ The following table lists the Microsoft 365 services that are supported over Exp
 
 | Applications included |
 |:-----|
-|Exchange Online<sup>1</sup> <br/> Exchange Online Protection<sup>1</sup> <br/> Delve<sup>1</sup> <br/> |
+|Exchange Online<sup>1</sup> <br/> Built-in security features for all cloud mailboxes<sup>1</sup> <br/> Delve<sup>1</sup> <br/> |
 |Skype for Business Online<sup>1</sup> <br/> Microsoft Teams <sup>1</sup> <br/> |
 |SharePoint<sup>1</sup> <br/> OneDrive<sup>1</sup> <br/> Project Online<sup>1</sup> <br/> |
 |Portal and shared<sup>1</sup> <br/> Microsoft Entra ID <sup>1</sup> <br/> Microsoft Entra Connect<sup>1</sup> <br/> Office<sup>1</sup> <br/> |

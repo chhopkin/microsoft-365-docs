@@ -16,6 +16,7 @@ ms.collection:
 - m365solution-collabgovernance
 ms.custom: 
 - M365solutions
+- m365-solutions-doc-set
 f1.keywords: NOCSH
 recommendations: false
 description: Learn governance best practices for Microsoft 365 collaboration tools, including Microsoft 365 Groups, Teams, SharePoint, and Viva Engage.
