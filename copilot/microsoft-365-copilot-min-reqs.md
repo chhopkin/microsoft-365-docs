@@ -140,9 +140,9 @@ Ensure your organization has the correct licensing and subscriptions:
 - [License options for Microsoft 365 Copilot](https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-licensing)
 - [Try or buy a Microsoft 365 for business subscription](https://learn.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide)
 
-### Assign AI admin role to a user
+### Assign AI administrator role to a user
 
-Assign the AI Administrator role to users who will manage all aspects of Microsoft 365 Copilot. This user role can also manage AI-related enterprise services, extensibility, approve and publish line-of-business copilot agents, read and configure Azure and Microsoft 365 service health dashboards and view usage reports, adoption insights, and organizational insight.
+Assign the AI administrator role to users who will manage all aspects of Microsoft 365 Copilot. This user role can also manage AI-related enterprise services, extensibility, approve and publish line-of-business copilot agents, read and configure Azure and Microsoft 365 service health dashboards and view usage reports, adoption insights, and organizational insight.
 
 They can also create and manage support tickets in Azure and the Microsoft 365 admin center. For more information, see [AI administrator](/entra/identity/role-based-access-control/permissions-reference).
 
