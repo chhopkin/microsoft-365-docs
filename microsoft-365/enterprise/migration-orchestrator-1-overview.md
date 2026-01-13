@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 - m365initiative-migratetom365
 search.appverid: MET150
-description: "Learn about orchestrator for Microsoft 365, a tool that allows you to migrate personal user data from one tenant to another. This includes Exchange mailboxes and Teams data for individual users."
+description: "Learn about orchestrator for Microsoft 365, a tool that allows you to migrate personal user data from one tenant to another. This migration includes Exchange mailboxes and Teams data for individual users."
 ---
 
 # An overview of tenant-to-tenant migration with orchestrator in Microsoft 365
@@ -45,7 +45,7 @@ Organizations can choose from several migration models depending on their busine
 
 ## Licensing and availability
 
-Cross-Tenant migrations require a per-user license (one-time fee) and can be assigned on either the source or target user object. This license enables the migration of Exchange Online mailboxes and OneDrives included in the Orchestrated migration. During preview for Teams meetings and Teams chats, no additional licenses are required for these specific workload migrations. Cross Tenant User Data Migration is available as an add-on to the following Microsoft 365 subscription plans:
+Cross-Tenant migrations require a per-user license (one-time fee) and can be assigned on either the source or target user object. This license enables the migration of Exchange Online mailboxes and OneDrives included in the Orchestrated migration. During preview for Teams meetings and Teams chats, no other licenses are required for these specific workload migrations. Cross Tenant User Data Migration is available as an add-on to the following Microsoft 365 subscription plans:
 
 - Microsoft 365 Business Basic, Standard, and Premium
 - Microsoft 365 F1/F3/E3/E5/
@@ -55,7 +55,7 @@ Cross-Tenant migrations require a per-user license (one-time fee) and can be ass
 - OneDrive
 - EDU
 
-This product is available for EA, CSP, Web direct, small business, and EDU customers. The pricing at GA is not available yet.
+This product is available for EA, CSP, Web direct, small business, and EDU customers. The pricing at GA isn't available yet.
 
 ## Security and compliance considerations
 
@@ -94,7 +94,7 @@ The OneDrive content moves from the source to the target, leaving behind a redir
 
 ### Teams chat and meeting scope
 
-Chats and meetings are migrated from the source to the target. The original content on the source remains, though it might be in an edited form. This means that the user participant list might change, with source users removed and target users added. There might be duplicate threads created on both tenants. Once the migration completes, users should only use their target identity to use Teams. If there's out-of-scope content, they can reference the source Teams client if they still have a licensed source user.
+Chats and meetings are migrated from the source to the target. The original content on the source remains, though it might be in an edited form. This configuration means that the user participant list might change, with source users removed and target users added. There might be duplicate threads created on both tenants. Once the migration completes, users should only use their target identity to use Teams. If there's out-of-scope content, they can reference the source Teams client if they still have a licensed source user.
 
 ### Not in-scope
 
