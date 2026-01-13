@@ -3,7 +3,7 @@ title: "Understanding Microsoft 365 support case creation and data access"
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 01/07/2026
+ms.date: 01/13/2026
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -31,6 +31,9 @@ This article describes the events that are logged in a customer tenant during th
 ## What happens when a support case is created in the Microsoft 365 admin center?
 
 When a [user with permissions](#who-can-create-support-tickets) in an organization submits a support request in the [Microsoft 365 admin center](https://admin.microsoft.com), they grant Microsoft Support permission to access the information that's needed for assistance. This activity is recorded in the customer's cross-tenant access settings by adding the Microsoft Support tenant (Tenant ID `b4c546a4-7dac-46a6-a7dd-ed822a11efd3`) as a service provider partner. In this configuration, the Microsoft Support tenant is treated as a partner (see [Partner cross-tenant access settings](/graph/api/resources/crosstenantaccesspolicy-overview)).
+
+> [!IMPORTANT]
+> Only users who have an appropriate role assigned can open a support case. The Microsoft Support tenant is added to the customer's tenant as a service provider partner to enable the Microsoft Support team to troubleshoot and resolve a case. Users who can open support cases can't grant cross-tenant access to other partners. 
 
 The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*, which represents the user role a Microsoft Support engineer can have in the customer tenant. The [Microsoft 365 Support Engineer](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-support-engineer) role is used for Microsoft Support engineers. 
 
