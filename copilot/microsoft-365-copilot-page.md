@@ -267,7 +267,7 @@ In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Copil
 
 This setting allows users to use other large language models (LLM) in Copilot Chat and Copilot Studio. For example, they can use Claude models by Anthropic within your Microsoft products.
 
-For more information, see [Connect to AI models](connect-to-ai-subprocessors.md).
+For more information, see [Connect to AI models](connect-to-ai-subprocessor.md).
 
 ### Copilot in Power Platform and Dynamics 365
 
