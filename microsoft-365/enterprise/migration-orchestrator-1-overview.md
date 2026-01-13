@@ -68,7 +68,7 @@ Organizations subject to regulatory compliance (for example, GDPR, HIPAA) should
 
 This new product simplifies both an admin's role in migrating content cross-tenant and a user's experience when they migrate. If you intend to run the migration of multiple workloads (such as Exchange, chats, meetings, and OneDrive), we strongly suggest including all workloads for each user in the batch. Migrating Teams chats and Teams meetings without the mailbox (or at the same time as the mailbox migration with another tool) might result in unexpected user experiences we didn't identify in our testing. The orchestrator was designed to intelligently migrate the workloads in an order that accounts for all dependencies and minimizes risk for migrations to fail.
 
-While customers can run migrations for the workloads they want, the Teams Meeting migration does depend on a successful mailbox migration. **Teams Meeting migration will fail without a successful mailbox migration**.
+While customers can run migrations for the workloads they want, the Teams Meeting migration does depend on a successful mailbox migration. **Teams Meeting migration fails without a successful mailbox migration**.
 
 > [!NOTE]
 > If you intend to migrate OneDrive sites, there's a limit to how many OneDrive accounts can be scheduled to migrate at a time. This limit is shared between the OneDrive and SharePoint migrations. [Learn more](cross-tenant-onedrive-migration.md) about this limit.
