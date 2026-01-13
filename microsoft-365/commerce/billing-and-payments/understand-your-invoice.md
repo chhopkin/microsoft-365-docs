@@ -52,10 +52,7 @@ Depending on the billing frequency that you chose when you bought your subscript
 
 Each new subscription purchase receives the first invoice the next day and is billed on this same day of the month with the frequency selected at purchase. Subscriptions with recurring billing receive subsequent invoices on that same day of the month. 
 
-Changes you make to an existing subscription appear on the monthly invoice around the beginning of the following month.
-
-> [!NOTE]
-> We updated how we bill for mid-term subscription changes to improve clarity and efficiency. After the update is available in your country/region, changes you make to an existing subscription are billed the day after the change. For more infotmation, see the <a href="https://go.microsoft.com/fwlink/?linkid=2340188" target="_blank">Message center</a> in the Microsoft 365 admin center.
+Changes you make to an existing subscription will also be billed the next day.
 
 If you acquire multiple new subscriptions on different days within a month (excluding additions to current subscriptions), you receive separate invoices for each.
 
