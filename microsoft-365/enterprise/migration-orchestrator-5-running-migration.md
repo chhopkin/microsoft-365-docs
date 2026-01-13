@@ -214,7 +214,7 @@ Stop-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display nam
 This feature allows you to cancel a single user's migration by removing them from that batch. It needs to be run multiple times if multiple users need to be removed. The remaining users in the batch are unaffected. This state is only possible before the user's mailbox has cutover, at which point the user can't be removed.
 
 ```powershell
-Stop-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> -CrossTenantMigrationTaskId  <ExternalDirectoryObjectIds for the target user> 
+Stop-MgBetaCrossTenantMigrationJobUser -CrossTenantMigrationJobId <batch display name or job id> -CrossTenantMigrationTaskId  <ExternalDirectoryObjectIds for the target user> 
 ```
 
 If the removal is successful, you see a 202 Accepted request with the response:
@@ -322,8 +322,11 @@ If changes need to be made to the migration, like changing the [Complete After D
 
 Use the following table to understand the validation and migration flows and status values:
 
-> [!NOTE]
-> For more information about troubleshooting, see See [Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors).
+> [!info]
+> **Note**
+> For more information about troubleshooting, see See **[Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors)**.
+
+### Migration batch
 
 | Status | Description | Workloads |
 | --- | --- | --- |
@@ -343,8 +346,8 @@ Use the following table to understand the validation and migration flows and sta
 | Status | Description | Workloads |
 | --- | --- | --- |
 |ValidationSubmitted/ValidationProcessing | The validation batch has been submitted. | [Exchange] NotStarted <BR/> [Teams Chats] NotStarted <BR/> [Teams Meetings] NotStarted <BR/> [OneDrive] NotStarted <BR/> |
-| ValidateInProgress |The validation batch is in progress. All applicable workloads are checked for their prerequisites. | [Exchange] InProgress <BR/> [Teams Chats] InProgress/Valid/Invalid <BR/> [Teams Meetings] InProgress/Valid/Invalid <BR/> [OneDrive] InProgress/Valid/Invalid <BR/> |
-|ValidatePassed/ValidateFailed | The validation batch completed. The batch either passed (no checks failed) or failed (at least one check failed). | [Exchange] Valid/Invalid <BR/> [Teams Chats] Valid/Invalid <BR/> [Teams Meetings] Valid/Invalid <BR/> [OneDrive] Valid/Invalid <BR/> |
+| ValidateInProgress |The validation batch is in progress. All applicable workloads are checked for their prerequisites. | [Exchange] InProgress <BR/> [Teams Chats] InProgress/Completed <BR/> [Teams Meetings] InProgress/Completed <BR/> [OneDrive] InProgress/Completed <BR/> |
+|ValidatePassed/ValidateFailed | The validation batch completed. The batch either passed (no checks failed) or failed (at least one check failed). | [Exchange] Completed/Failed<BR/> [Teams Chats] Completed/Failed<BR/> [Teams Meetings] Completed/Failed<BR/> [OneDrive] Completed/Failed<BR/> |
 
 ## Next steps
 
