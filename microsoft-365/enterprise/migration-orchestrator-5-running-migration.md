@@ -21,7 +21,7 @@ description: "The steps for running a migration using the Microsoft 365 migratio
 > [!IMPORTANT]
 > Tenant-to-tenant migration is currently available in preview. Features and availability may change before general availability (GA).
 
-The migration is run by creating a migration job in the form of a batch. Users are grouped together into a batch and submitted together. Migrations are managed through Graph APIs. These APIs can be run with PowerShell 5 or 7, or with [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer#mode=canary).
+The migration is run by creating a migration job in the form of a batch. Users are grouped together into a batch and submitted together. The maximum batch size is 100 users. Migrations are managed through Graph APIs. These APIs can be run with PowerShell 5 or 7, or with [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer#mode=canary).
 
 ## Understanding validation
 
@@ -52,7 +52,7 @@ The first step that takes place is the Validation stage. Throughout this step, a
 
 ### Mailbox syncing
 
-After all the checks pass for the applicable workloads, Mailbox syncing begins. Mailbox syncing means that in the background, the user's mailbox data is being moved to the target tenant. The user is still able to fully use their mailbox on the source tenant at this time.
+After all the checks pass for the applicable workloads, Mailbox syncing begins. Mailbox syncing means that in the background, the user's mailbox data is being moved to the target tenant. The user is still able to fully use their mailbox on the source tenant at this time. We strongly recommend submitting batches two weeks before the cut-over date as there's no impact on the end users during synchronization.
 
 ### Cutover
 
@@ -79,7 +79,7 @@ There's up to an hour-long delay between when updates are made to the group cont
 
 ### Submit a batch for validation
 
-This feature allows you to submit a batch of users to validate that the prerequisites are met before submitting a migration. It does **not** actually submit the migration. It creates a batch that runs once in the validation context. Getting information about this batch via [Retrieve a specific batch](#retrieve-a-specific-batch) returns a full list of results on the checks it ran. Any failures need to be addressed in order for a successful migration later. Each batch you submit needs to have a unique name. Users can only belong to one active batch at one time.
+This feature allows you to submit a batch of users to validate that the prerequisites are met before submitting a migration. It does **not** actually submit the migration. It creates a batch that runs once in the validation context. Getting information about this batch via [Retrieve a specific batch](#retrieve-a-specific-batch) returns a full list of results on the checks it ran. Any failures need to be addressed in order for a successful migration later. Each batch you submit needs to have a unique name. Users can only belong to one active batch at one time. The maximum batch size is 100 users.
 
 There are two ways to submit a validation batch.
 
@@ -118,9 +118,9 @@ Test-MgBetaCrossTenantMigrationJob -DisplayName "xtmigration1" -CompleteAfterDat
 
 ### Submit a batch for migration
 
-This feature allows you to submit a batch of users to begin their migration. We recommend running [Submit a batch for validation](#submit-a-batch-for-validation) first to confirm that all prerequisites are in-place. Each batch you submit needs to have a unique name. Users can only belong to one active batch at one time.
+This feature allows you to submit a batch of users to begin their migration. We recommend running [Submit a batch for validation](#submit-a-batch-for-validation) first to confirm that all prerequisites are in-place. Each batch you submit needs to have a unique name. Users can only belong to one active batch at one time. The maximum batch size is 100 users.
 
-There are two ways to submit a validation batch.
+There are two ways to submit a migration batch.
 
 #### Option 1: Define request body
 
