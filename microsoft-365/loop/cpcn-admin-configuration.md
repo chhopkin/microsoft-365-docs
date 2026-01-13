@@ -52,7 +52,7 @@ To share Copilot Pages as interactive components (instead of just hyperlinks) in
 
 ## User experience when Copilot Pages and Copilot Notebooks are disabled
 
-When creation is disabled, users can't create new Copilot Pages or new SharePoint Embedded containers. The Pages module remains visible in the Microsoft 365 Copilot app, but the Notebooks module is hidden.
+When creation is disabled, users can't create new Copilot Pages or new SharePoint Embedded containers. The Pages module remains visible in the Microsoft 365 Copilot app, but the Notebooks module is hidden and no longer accessible by the user.
 
 Existing Copilot Pages and Notebooks aren't deleted. Users can still view and edit existing items if they have permission. These files remain accessible in the following ways:
 
