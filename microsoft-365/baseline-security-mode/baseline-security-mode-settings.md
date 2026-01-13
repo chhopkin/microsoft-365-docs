@@ -3,7 +3,7 @@ title: "Baseline security mode settings"
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 11/13/2025
+ms.date: 01/09/2026
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-business
@@ -34,7 +34,7 @@ This article gives you information about the Baseline security mode settings tha
 
 ## Before you begin
 
-The person who manages security for your organization (typically the security admin) can update these settings. The person who is a member of the global admin role can also configure these settings.
+Global administrators can view and configure all settings, while workload-specific administrators can manage only their own settings.
 
 Baseline security mode settings support RBAC so the [Office Apps administrator role](/entra/identity/role-based-access-control/permissions-reference), [SharePoint administrator role](/sharepoint/sharepoint-admin-role), [About the Exchange Administrator role](../admin/add-users/about-exchange-online-admin-role.md), and [Teams administrator role](/entra/identity/role-based-access-control/permissions-reference) can also see these settings.
 
@@ -50,7 +50,7 @@ Baseline security mode settings provides flexibility and control, allowing you t
 It's recommended that you run the Baseline security mode settings in this way:
 
 - Run impact reports for each of the Baseline security mode settings.
-- If the setting displays zero impacts, its safe for you to turn on that setting.
+- If the setting displays zero impacts, it's safe for you to turn on that setting.
 - If critical dependencies exist, you can hold of on turning on the setting and plan to address those dependencies before making the changes permanent. This intuitive, phased approach ensures a smooth transition to secure-by-default configurations.
 
 ## How to get to Baseline Security Mode settings
