@@ -39,24 +39,28 @@ Source users can still see the chat threads in the source tenant. They can conti
 
 After the mailbox is migrated, users aren't able to see the calendar in the Teams client.
 
-Based on the order in which users are migrated, there are variable experiences on the individual chats. At each point in migration, a user maintains access to their chats. They may notice that they're added to or removed from an existing chat, that an entirely new chat is created, or that duplicate new chats are created.
+Based on the order in which users are migrated, there are variable experiences on the individual chats. At each point in migration, a user maintains access to their chats. They may notice that:
+
+- They're added to or removed from an existing chat.
+- An entirely new chat is created.
+- Duplicate new chats are created.
 
 ### Example 1: 1:1 chats where both users are migrating
 
-Users are never removed from a 1:1 conversation they’re in. Instead, new 1:1 chats are created to account for the new user pairs. For example, if both users are migrating, the flow is as follows:
+Users are never removed from a 1:1 conversation they're in. Instead, new 1:1 chats are created to account for the new user pairs. For example, if both users are migrating, the flow is as follows:
 
 1. Two source users have a conversation before the migration.
-1. Once one user migrates, a new conversation is created between the migrated user’s target identity and the source identity for the user who hasn’t migrated yet. This chat is a temporary chat.
+1. Once one user migrates, a new conversation is created between the migrated user's target identity and the source identity for the user who isn't migrated yet. This chat is a temporary chat.
 1. Once the second user migrates, a new conversation is created between the target identities of both users.
 
-The temporary chat won’t be deleted.
+The temporary chat isn't deleted.
 
 ### Example 2: 1:1 chats – one user is migrating (Federation)
 
 When only one user is migrating, then the 1:1 chat process operates as follows:
 
 1. Two source users have a conversation before the migration.
-1. When the one user migrates, a new conversation is created between the migrated user’s target identity and the source identity for the user who doesn't migrate.
+1. When the one user migrates, a new conversation is created between the migrated user's target identity and the source identity for the user who doesn't migrate.
 
 ### Example 3:  Group chats – the "owner" migrates first
 
@@ -88,13 +92,13 @@ A new target group isn't created.
 
 ### Example 6: meeting chats
 
-There's a meeting chat associated with the migrated meeting. All messages are imported into this new meeting chat. All users who are identity mapped have their target users added to this chat, even if they haven't migrated yet.
+There's a meeting chat associated with the migrated meeting. All messages are imported into this new meeting chat. All users who are identity mapped have their target users added to this chat, even if they aren't migrated yet.
 
 ## Meetings
 
 Meetings are updated when the organizer migrates. At this point, the meeting URL updates and all participants who are identity mapped have their source identities removed from the roster and their target identities added to the roster. Participants who don't migrate can join the meeting depending on the tenant policies. Participants who don't migrate don't have access to the new meeting chat until they join the meeting from its new join URL. Target users view, start, and join migrated meetings on the target tenant. Target users can view the meeting chat and continue to use it.
 
-URLs for meetings organized by a migrated user are updated to be hosted in the target tenant. This update means any users who exist within the target tenant can join the meeting without entering the meeting lobby or facing other obstacles.
+To be hosted in the target tenant, URLs for meetings organized by a migrated user are updated. This update means any users who exist within the target tenant can join the meeting without entering the meeting lobby or facing other obstacles.
 
 The participants list for migrated meetings updates to replace migrating source identities with the target user identities. Nonmigrating participants of a migrated meeting are able to join the meeting as guests (access level depends on tenant and meeting policy settings).
 
