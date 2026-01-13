@@ -178,27 +178,27 @@ This task is required to define the custom script as a resource for the REST API
 2. At the bottom of the page, select the **Resources** tab and select **New**. 
 3. Fill in the following configuration.
 
-  |Configuration              |Description/Value |
-  |---------------------------|------------------|
-  |Name                       |GetAllUserCriteria |
-  |Relative path              |/user_criteria |
-  |Script                     |Copy and paste [Script to copy](#script-to-copy) exactly as-is. |
-  |Requires authentication    |Checked |
-  |Requires ACL authorization |Checked<br>Ensure that the ACL created in Task 2 is set correctly and remove any other default values. |
+   |Configuration              |Description/Value |
+   |---------------------------|------------------|
+   |Name                       |GetAllUserCriteria |
+   |Relative path              |/user_criteria |
+   |Script                     |Copy and paste [Script to copy](#script-to-copy) exactly as-is. |
+   |Requires authentication    |Checked |
+   |Requires ACL authorization |Checked<br>Ensure that the ACL created in Task 2 is set correctly and remove any other default values. |
 
 #### Script to copy
 
-```javascript
-(function execute (/*RESTAPIRequest*/ request,
-/*RESTAPIResponse*/ response )
-{
-    var queryParams = request.queryParams;
-    var user = new String(queryParams.user);
-    return (new
-    sn_uc.UserCriteriaLoader()).getAllUserCriteria(user);
-}
-) (request, response);
-```
+   ```javascript
+   (function execute (/*RESTAPIRequest*/ request,
+   /*RESTAPIResponse*/ response )
+   {
+       var queryParams = request.queryParams;
+       var user = new String(queryParams.user);
+       return (new
+       sn_uc.UserCriteriaLoader()).getAllUserCriteria(user);
+   }
+   ) (request, response);
+   ```
 
 4. Select **Submit** to save changes.
 
