@@ -98,27 +98,6 @@ To enhance governance and security for agents, you can apply a template that inc
 >
 > When an agent is activated or published, a dropdown menu displays both Microsoft default templates. Select the desired template to apply its policies to the agent.
 
-To create custom template, follow these steps:
-
-1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-
-1. Select **Agents** > **Settings** > **Template** > **Add New Template**.
-
-1. Select the agent that will use the template:
-
-   - Agent that allows instances.
-   - Agent with no instances.
-   - Provide the template name.
-   - Provide description for the template.
-
-    :::image type="content" source="../../media/agents/details-page.png" alt-text="Screenshot of Details page." lightbox="../../media/knowledge-agent-idea.png":::
-
-1. Select the **Next** button and then choose any custom policies you want to add to the template. Microsoft's built-in default policies appears preselected and locked. Since the default policies are locked, they can't be edited. You can add additional policies as needed to meet your organization's requirements.
-
-1. You can review and finish adding the template.
-
-When activating or publishing an agent, a dropdown menu with both your custom templates and Microsoft's default templates is displayed. Select the desired template from the list to apply its policies to the agent.
-
 ### User access
 
 **User access** allows control of how members of your organization access and install agents.
