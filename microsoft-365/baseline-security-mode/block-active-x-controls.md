@@ -36,9 +36,7 @@ If you have turned on this setting but need to return to the default behavior (a
 **You can use Office Cloud Policy service to exclude certain users or groups from this setting**.  Follow the steps in the [Steps for creating a policy configuration](/microsoft-365-apps/admin-center/overview-cloud-policy) topic to create a new policy configuration.
 
 - In **Step 4**, select the users or group(s) to exclude from this setting. Only individuals and Microsoft Entra groups can be excluded. For more information on groups, see [Microsoft Entra groups requirements](/microsoft-365-apps/admin-center/overview-cloud-policy).
-- In **Step 7**, find the **Disable All ActiveX** policy and set it to **Enabled**. Make sure this new policy configuration is a **higher** priority than the **Tenant** policy configuration to make sure it takes precedence. You can verify and update this in the main Policy configurations page.
-
-Make sure this new policy configuration is a higher priority than the **Tenant** policy configuration to ensure it takes precedence. You can verify and update this in the main [Policy configurations](https://config.office.com/officeSettings/officePolicies) page.
+- In **Step 7**, find the **Disable All ActiveX** policy and set it to **Enabled**. Make sure this new policy configuration is a **higher** priority than the **Tenant** policy configuration to make sure it takes precedence. You can verify and update this in the main [Policy configurations](https://config.office.com/officeSettings/officePolicies) page.
 
 > [!TIP]
 > You can download a detailed report under the Baseline Security Mode **Block ActiveX controls in the Microsoft 365 apps** setting to identify users who are opening files which contain ActiveX controls and have ActiveX controls currently enabled.
