@@ -30,7 +30,7 @@ Customers can view and manage their Microsoft volume licensing (VL) agreements w
 
 You must have a VL role to access the VL pages in the Microsoft 365 admin center.  
 
-VL roles are assigned by one of the following people:
+Assign VL roles by using one of the following options:
 
 - A partner or seller who assigns you a role during the contract creation process.
 - An administrator of the VL agreement who adds you as a user and invites you to sign in to register. If you have an Enterprise Agreement (EA) or Enterprise subscription (EU), you don't receive an invitation to sign in to register. Instead, the administrator of the VL agreement grants you access.
@@ -61,51 +61,51 @@ To manage public cloud VL Contracts, Sarah must go to the <a href="https://go.mi
 
 ### If you're registering a volume license agreement for the first time (non-EA and non-EU customers only)
 
-The first time that you register a VL agreement, use the following steps:
+When you register a VL agreement for the first time, use the following steps:
 
-1. Locate the welcome email from "microsoft-noreply\@microsoft.com" with the subject line "Action required: Sign in to manage your volume licensing assets."
-2. In the welcome email, select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">use your work or school account</a> link to sign in with your Microsoft Entra ID (previously called a work or school account). If you already use a Microsoft online service, you already have a Microsoft Entra ID. Try signing in with the same account that you use to access that service.
+1. Find the welcome email from "microsoft-noreply\@microsoft.com" with the subject line "Action required: Sign in to manage your volume licensing assets."
+1. In the welcome email, select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">use your work or school account</a> link to sign in by using your Microsoft Entra ID (previously called a work or school account). If you already use a Microsoft online service, you already have a Microsoft Entra ID. Try signing in by using the same account that you use to access that service.
 
     > [!TIP]
-    > Users with existing VL permissions, or who manage online services, should use the sign in with the same ID so that all their licensing contracts and online services are accessed with one ID.
+    > Users with existing VL permissions, or who manage online services, should use the sign in by using the same ID so that all their licensing contracts and online services are accessed by using one ID.
 
-3. Go to the business email mentioned in the welcome email and find an email with the subject line "Registration successful: Welcome to Microsoft admin center."
-4. Select **Get Started** to go to Microsoft 365 admin center.
-5. Go to the **Billing** > **Your products** page, then select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> tab.
+1. Go to the business email mentioned in the welcome email and find an email with the subject line "Registration successful: Welcome to Microsoft admin center."
+1. Select **Get Started** to go to Microsoft 365 admin center.
+1. Go to the **Billing** > **Your products** page, and then select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> tab.
 
 > [!NOTE]
 > We highly recommend that you select **Role Assignments** and immediately add another VL Administrator for each contract ID.
 
 ### If you're registering a VL agreement for the first time (EA and EU customers only)
 
-1. Locate the notification email from microsoft-noreply\@microsoft.com with the subject Line "Permission changes for Microsoft Volume Licensing contracts."
-2. In the email, select the Microsoft 365 admin center link to sign in with your Microsoft Entra ID or sign-in email address (previously called a work or school account). If you already use a Microsoft online service, you already have a Microsoft Entra ID. Try signing in with the same account that you use to access that service.
+1. Find the notification email from microsoft-noreply\@microsoft.com with the subject line "Permission changes for Microsoft Volume Licensing contracts."
+1. In the email, select the Microsoft 365 admin center link to sign in by using your Microsoft Entra ID or sign-in email address (previously called a work or school account). If you already use a Microsoft online service, you already have a Microsoft Entra ID. Try signing in by using the same account that you use to access that service.
 
    > [!TIP]
-   > Users with existing VL permissions, or who manage online services, should use the sign in with the same ID so that all their licensing contracts and online services are accessed with one ID.
+   > Users with existing VL permissions, or who manage online services, should use the sign in by using the same ID so that all their licensing contracts and online services are accessed by using one ID.
 
-3. Go to the **Billing** > **Your products** page, then select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> tab.
+1. Go to the **Billing** > **Your products** page, and then select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> tab.
 
 ### If you previously registered a volume licensing agreement
 
-After you register a VL agreement in the admin center, no new welcome emails are sent for subsequent agreements or license IDs that list you as a VL contact with the same business email address. More licenses are automatically available in the admin center on the **Billing** > **Your Products** > **Volume Licensing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2297440" target="_blank">Contracts</a> page.
+After you register a VL agreement in the admin center, the system doesn't send new welcome emails for subsequent agreements or license IDs that list you as a VL contact with the same business email address. You can see more licenses automatically available in the admin center on the **Billing** > **Your Products** > **Volume Licensing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2297440" target="_blank">Contracts</a> page.
 
 ## Who receives the volume licensing welcome email?
 
-After you submit your VL agreement, welcome emails are sent to both the Primary Contact (Pri) and Notices and Online Administrator contact (NTC) that you provided to Microsoft in the VL document.
+After you submit your VL agreement, Microsoft sends welcome emails to both the Primary Contact (Pri) and Notices and Online Administrator contact (NTC) that you provide in the VL document.
 
-The welcome email is sent from the email address "microsoft-noreply\@microsoft.com" with the subject line "Action required: Sign in to manage your volume licensing assets." If you're an EA or EU customer, you receive a notification email with the subject line "Permission changes for Microsoft Volume Licensing contracts."
+The system sends the welcome email from the email address "microsoft-noreply@microsoft.com" with the subject line "Action required: Sign in to manage your volume licensing assets." If you're an EA or EU customer, you receive a notification email with the subject line "Permission changes for Microsoft Volume Licensing contracts."
 
 > [!NOTE]
 > If you can't find the email in your inbox, check your junk or spam folders.
 
-**Non-EA and non-EU customers:** If you don't have access to the business email address the welcome email is sent to, ask the owner of that email to forward you any invitation and registration confirmations emails.
+**Non-EA and non-EU customers:** If you don't have access to the business email address the system sends the welcome email to, ask the owner of that email to forward you any invitation and registration confirmations emails.
 
 ## Sign up for a new Microsoft Entra ID
 
 Organizations with no online presence with Microsoft must [sign up](https://signup.microsoft.com/get-started/signup?products=8339cc50-d965-4ad5-bb94-749021a5ebf9&origin=tenantonly&ali=1&ru=https%3a%2f%2fadmin.microsoft.com) for a new Microsoft Entra ID account (also known as a tenant) to allow VL users access to the Microsoft 365 admin center. This doesn't require the user, or the organization, to buy or use any Microsoft products or services, like Microsoft 365.
 
-To create a Microsoft Entra ID using your organization's email domain (like aminata\@fourthcoffee.com), you must provide proof that the organization owns that domain. This proof might be something that your organization's IT administrator prefers to complete, rather than the VL user.
+To create a Microsoft Entra ID using your organization's email domain (like aminata@fourthcoffee.com), you must provide proof that the organization owns that domain. Your organization's IT administrator might prefer to complete this proof, rather than the VL user.
 
 Alternatively, if you need a Microsoft Entra ID format that isn't linked to the organization's email domain (like aminata\@fourthcoffee.onmicrosoft.com), you can create one independently from an IT administrator. Before you deploy any online services like Microsoft 365, we highly recommend that your organization takes over such a Microsoft Entra tenant and link it to the organization's own domain.
 
@@ -114,13 +114,13 @@ Alternatively, if you need a Microsoft Entra ID format that isn't linked to the 
 
 ## Changes to cross-cloud access for volume licensing users
 
-As of January 19, 2026, VL users must use separate Microsoft Entra IDs for public and government cloud access. You can no longer sign in to both clouds with a single Entra ID (sometimes referred to as "cross-cloud access"). Your Entra ID must match the cloud associated with your VL contract, or you'll lose access.
+Starting January 19, 2026, VL users must use separate Microsoft Entra IDs for public and government cloud access. You can no longer sign in to both clouds with a single Entra ID (sometimes referred to as "cross-cloud access"). Your Entra ID must match the cloud associated with your VL contract, or you lose access.
 
-Previously, you could access both public and government cloud environments using a single Entra ID tied to the public cloud. For example, a user with a public cloud business email could sign in to the Microsoft 365 admin center and manage both public and government cloud enrollments from one account, as shown in the following diagram:
+Previously, you could access both public and government cloud environments by using a single Entra ID tied to the public cloud. For example, a user with a public cloud business email could sign in to the Microsoft 365 admin center and manage both public and government cloud enrollments from one account, as shown in the following diagram:
 
 :::image type="content" source="../../media/vl-old-sign-in-flow.png" alt-text="Diagram of the previous volume licensing sign-in flow using a single Entra ID for both public and government cloud access." lightbox="../../media/vl-old-sign-in-flow.png":::
 
-Now, users must maintain two separate Entra IDs—one for each cloud. The public cloud Entra ID is used for public or commercial enrollments, while a distinct government cloud Entra ID is required for government enrollments. Each Entra ID must correspond to the correct cloud scope, and users must sign in to the appropriate Microsoft 365 admin center for each environment, as shown in the following diagram:
+Now, you must maintain two separate Entra IDs - one for each cloud. Use the public cloud Entra ID for public or commercial enrollments. Use a distinct government cloud Entra ID for government enrollments. Each Entra ID must correspond to the correct cloud scope. Sign in to the appropriate Microsoft 365 admin center for each environment, as shown in the following diagram:
 
 :::image type="content" source="../../media/vl-new-sign-in-flow.png" alt-text="Diagram of the new volume licensing sign-in flow using separate Entra IDs for public and government cloud access." lightbox="../../media/vl-new-sign-in-flow.png":::
 
@@ -129,11 +129,11 @@ Now, users must maintain two separate Entra IDs—one for each cloud. The public
 As a VL user, you can tell if you're affected by this change if you receive one or more of the following signals:
 
 1. You receive an email with the subject "Action Required: Ensure Correct Account Access by January 19th, 2026."
-2. When you sign in to the Microsoft 365 admin center, you see a banner that says "Coming soon: Change to Volume Licensing role assignment & access," as shown in the following screenshot:
+1. When you sign in to the Microsoft 365 admin center, you see a banner that says "Coming soon: Change to Volume Licensing role assignment & access," as shown in the following screenshot:
 :::image type="content" source="../../media/vl-at-risk-contracts-banners.png" alt-text="Screenshot of the banner displayed in the Microsoft 365 admin center if you have CL contracts that are at risk of losing access." lightbox="../../media/vl-at-risk-contracts-banners.png":::
-. You receive an email from your admin that says you have VL contracts affected by this change.
+1. You receive an email from your admin that says you have VL contracts affected by this change.
 
-If you receive any of these signals, your access is affected, and you must fix your Entra IDs to avoid losing access to your VL contracts.
+If you receive any of these signals, your access is affected. Fix your Entra IDs to avoid losing access to your VL contracts.
 
 ### Fix your cross-cloud access (users)
 
@@ -141,45 +141,45 @@ If you're a VL user affected by this change, use the following steps to fix your
 
 #### Step 1. Identify VL contracts marked as ACCESS AT RISK
 
-1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to the **Billing** > **Your products** page, then select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> tab.
-2. In the **Contracts** section, select **View contracts**.
-3. At the top of the **Contracts** page, you see a banner that says, "Some users may lose access to certain VL contracts due to a mismatch between their Microsoft Entra ID's cloud and the contract's cloud." Select **View my access at risk**.
-4. The list shows License IDs that have the **ACCESS AT RISK** tag. Make a list of the affected License IDs to share with your admin.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to the **Billing** > **Your products** page, and select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> tab.
+1. In the **Contracts** section, select **View contracts**.
+1. At the top of the **Contracts** page, you see a banner that says, "Some users may lose access to certain VL contracts due to a mismatch between their Microsoft Entra ID's cloud and the contract's cloud." Select **View my access at risk**.
+1. The list shows License IDs that have the **ACCESS AT RISK** tag. Make a list of the affected License IDs to share with your admin.
 
 #### Step 2. Create a new Entra ID and send the details to your admin
 
 1. Follow the steps in [Sign up for a new Microsoft Entra ID](#sign-up-for-a-new-microsoft-entra-id) or use a different, existing Entra ID for the correct cloud (public or government), depending on which cloud the affected licensing contracts belong to.
-2. Contact your admin and provide the Contract IDs and Entra ID details. Your admin adds your ID to the affected contracts.
+1. Contact your admin and provide the Contract IDs and Entra ID details. Your admin adds your ID to the affected contracts.
 
 #### Step 3. Verify the access issue is fixed
 
 1. After your admin adds your Entra ID to the VL contracts you specified, you receive an email that confirms your updated permissions.
-2. Sign in to the public or government cloud with your new Entra ID. The banner should no longer appear, and the VL contracts should no longer have the **ACCESS AT RISK** tag. For information about where to sign in, see [Where to sign in to view and manage your volume licenses](#where-to-sign-in-to-view-and-manage-your-volume-licenses).
+1. Sign in to the public or government cloud with your new Entra ID. The banner shouldn't appear, and the VL contracts shouldn't have the **ACCESS AT RISK** tag. For information about where to sign in, see [Where to sign in to view and manage your volume licenses](#where-to-sign-in-to-view-and-manage-your-volume-licenses).
 
 ### View a list of affected users (admins)
 
 As a VL admin, you can view a list of all your users who are at risk of losing access to certain VL contracts because of the Entra ID mismatch.
 
-1. In the admin center, on the Billing > Your products > <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> page, you see a banner at the top that says "Some users may lose access to certain VL contracts due to a mismatch between their Microsoft Entra ID's cloud and the contract's cloud." Select **View users at risk**.
-2. The **Manage Assignments** page opens and shows a list of all affected users with the **ACCESS AT RISK** tag. To see a list of all their VL contracts that are at risk, select **View access**.
-3. Make note of the users and their affected VL contracts.
-4. Contact the users, include the list of their VL contracts that are at risk, and ask them to use the steps in [Fix your cross-cloud access (users)](#fix-your-cross-cloud-access-users).
+1. In the admin center, on the **Billing** > **Your products** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> page, you see a banner at the top that says "Some users may lose access to certain VL contracts due to a mismatch between their Microsoft Entra ID's cloud and the contract's cloud." Select **View users at risk**.
+1. The **Manage Assignments** page opens and shows a list of all affected users with the **ACCESS AT RISK** tag. To see a list of all their VL contracts that are at risk, select **View access**.
+1. Make note of the users and their affected VL contracts.
+1. Contact the users, include the list of their VL contracts that are at risk, and ask them to use the steps in [Fix your cross-cloud access (users)](#fix-your-cross-cloud-access-users).
 
-### Assign the correct Entra ID to a contract (admins)
+### Assign the correct Entra ID to a VL contract (admins)
 
 As a VL admin, when you receive a request from a user to fix their Entra ID mismatch, use the following steps to resolve the issue.
 
 1. In the admin center, go to the **Billing** > **Your products** page, then select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> tab.
-2. In the **Role assignments** section, select **Manage VL role assignments**. The **Manage Assignments** page opens and contains a list of VL users for the License IDs that you administer.
-3. On the **Manage Assignments** page, select **Assign users to contract**.
-4. On the **Assign users to contracts** page, select **Add or edit users**.
-5. In the **Add or edit users** side panel, type the email address of the user you want to assign.
-6. Select the check box for the user, then select **Review + Apply**.
-7. On the **Assign users to contracts** page, select **Add contracts**.
-8. In the **Add contracts to user** side panel, select the contracts to assign to the selected user, then select **Add**.
-9. On the **Assign users to contracts** page, select **Assign roles**.
-10. In the **Assign roles to selected contracts** side panel, from the drop-down list, select the roles to assign to the user, then select **Apply**.
-11. On the **Assign users to contracts** page, you see a confirmation message that says it can take up to two hours for the role to be assigned. Select **Verify and save user assignments**.
+1. In the **Role assignments** section, select **Manage VL role assignments**. The **Manage Assignments** page opens and contains a list of VL users for the License IDs that you administer.
+1. On the **Manage Assignments** page, select **Assign users to contract**.
+1. On the **Assign users to contracts** page, select **Add or edit users**.
+1. In the **Add or edit users** side panel, type the email address of the user you want to assign.
+1. Select the check box for the user, and then select **Review + Apply**.
+1. On the **Assign users to contracts** page, select **Add contracts**.
+1. In the **Add contracts to user** side panel, select the contracts to assign to the selected user, and then select **Add**.
+1. On the **Assign users to contracts** page, select **Assign roles**.
+1. In the **Assign roles to selected contracts** side panel, from the drop-down list, select the roles to assign to the user, and then select **Apply**.
+1. On the **Assign users to contracts** page, you see a confirmation message that says it can take up to two hours for the role to be assigned. Select **Verify and save user assignments**.
 
 You receive a confirmation email after the user assignment is completed. A separate permission change email is sent to the user.
 
@@ -195,8 +195,8 @@ When you try to sign in to the admin center, you might be redirected to the Azur
 
 If you can't sign in to the admin center, and repeatedly see the message "An error occurred while setting up your profile. Please refresh the page to try again," you might be trying to sign in with an invalid account type. Invalid account types include the following accounts:
 
-- A Microsoft account (MSA). This account type is personal to you and isn't manged by your work organization. For example, you might sign in to a Microsoft service like email or Xbox with a log In ID like \<user>\@gmail.com or \<user>\@outlook.com. You must sign in with a Microsoft Entra ID instead.
-- A self-service Microsoft Entra ID created when signing up for a cloud service. This account might look like it belongs to your work organization, but your organization has yet to take over or become the admin of the email domain to convert it into a Microsoft Entra ID.
+- A Microsoft account (MSA). This account type is personal to you and isn't managed by your work organization. For example, you might sign in to a Microsoft service like email or Xbox with a log In ID like \<user>\@gmail.com or \<user>\@outlook.com. You must sign in with a Microsoft Entra ID instead.
+- A self-service Microsoft Entra ID created when signing up for a cloud service. This account might look like it belongs to your work organization, but your organization didn't take over or become the admin of the email domain to convert it into a Microsoft Entra ID.
 - A Microsoft Entra ID that's different from the one that you used previously to sign in for volume licensing. For example, you might be trying to sign in with your work email marcel\@contoso.com whereas you previously signed in to volume licensing with licenseAdmin\@contoso.com.
 
 ### Ready to become the admin of \<domain name\>
@@ -210,7 +210,7 @@ The takeover process involves you, or your organization's IT administrator, veri
 
 For step-by-step instructions, see [How to takeover over an unmanaged directory](/azure/active-directory/enterprise-users/domains-admin-takeover#decide-how-you-want-to-take-over-an-unmanaged-directory).
 
-After your organization converts your account to a managed Microsoft Entra ID, or you identify a suitable alternative Microsoft Entra ID, contact <a href="https://go.microsoft.com/fwlink/p/?linkid=2166757" target="_blank">Microsoft Volume Licensing Support</a> to request a new volume licensing profile. When you contact support, you must provide the following items:
+After your organization converts your account to a managed Microsoft Entra ID, or you identify a suitable alternative Microsoft Entra ID, contact <a href="https://go.microsoft.com/fwlink/p/?linkid=2166757" target="_blank">Microsoft Volume Licensing Support</a> to request a new volume licensing profile. When you contact support, provide the following items:
 
 - Your old sign-in ID
 - The new Microsoft Entra ID you just signed up for
@@ -219,9 +219,9 @@ After your organization converts your account to a managed Microsoft Entra ID, o
 
 ### I don't see the volume licensing page in the Microsoft 365 admin center
 
-If you don't see the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> page after you sign in to the admin center, you can try the following actions to resolve it:
+If you don't see the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> page after you sign in to the admin center, try the following actions to resolve the problem:
 
-- **Use the correct URL:** Verify that you're going to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, then go to the **Billing** > **Your products** page and select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> tab.
+- **Use the correct URL:** Verify that you're going to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>. Then go to **Billing** > **Your products** and select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> tab.
 
   - If you don't see **Billing**, go to the bottom of the navigation menu, select **View all**, and then pin the **Billing** option to the navigation menu.
 
@@ -237,7 +237,7 @@ If you don't see the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144"
 
 ### My volume licensing welcome email is invalid
 
-The old Volume Licensing Service Center (VLSC) was retired in April 2024, and all existing customers were migrated to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>. If you received an invitation to the VLSC before April 2024 but haven't yet registered your account in the site, the invitation is now invalid. If you still need permissions to view and manage a VL agreement, ask a VL Administrator in your organization to add you as a VL user. For more information, see [Manage volume licensing user roles](manage-user-roles-vl.md).
+The old Volume Licensing Service Center (VLSC) retired in April 2024, and Microsoft migrated all existing customers to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>. If you received an invitation to the VLSC before April 2024 but didn't register your account in the site, the invitation is now invalid. If you still need permissions to view and manage a VL agreement, ask a VL Administrator in your organization to add you as a VL user. For more information, see [Manage volume licensing user roles](manage-user-roles-vl.md).
 
 If there's no administrator for that agreement, ask the VL support team to create a new VL profile for you. You must be able to confirm the following information:
 
