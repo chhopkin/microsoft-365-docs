@@ -2347,7 +2347,7 @@
     },
     {
       "source_path": "microsoft-365-docs-pr/copilot/connect-to-ai-models.md",
-      "redirect_url": "/microsoft-365-docs-pr/copilot/connect-to-ai-subprocessor",
+      "redirect_url": "/microsoft-365/copilot/connect-to-ai-subprocessor",
       "redirect_document_id": false
     }
   ]
