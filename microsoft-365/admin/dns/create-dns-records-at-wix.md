@@ -2,8 +2,8 @@
 title: "Connect your DNS records at Wix to Microsoft 365"
 f1.keywords:
 - CSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 04/03/2025
 audience: Admin

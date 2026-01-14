@@ -4,8 +4,8 @@ f1.keywords:
 - NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
-ms.reviewer: drjones, jobailey
+manager: scotv
+ms.reviewer: padeshmukh
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -42,8 +42,8 @@ You must be at least a Billing Administrator to do the task described in this ar
 
 1. Log into the [Microsoft 365 Admin Center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
    - If you're using the **Simplified view**, select **Billing**, then select **Add more products**. 
-   - If you're using the **Dashboard view**, go to the **Billing** > [Purchase services](https://go.microsoft.com/fwlink/p/?linkid=868433) page.
-2. On the **Purchase services** page, find the plan that you want to Buy, and select **Details**.
+   - If you're using the **Dashboard view**, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Marketplace</a> page.
+2. Find the plan that you want to buy, and select **Details**.
 3. On the next page, enter the number of licenses that you want to buy and select **Buy now**.
 4. When you check out, scroll to the bottom and select **Have a promo or discount code?**, then enter your promo code in the box.
 5. Select **Apply promo code**. You should see a confirmation that the promo code was successfully applied. If you see a different message, see [Troubleshooting promo codes](#troubleshooting-promo-codes).

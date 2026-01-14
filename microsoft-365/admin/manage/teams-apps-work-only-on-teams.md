@@ -2,8 +2,8 @@
 title: "Teams apps that only work on Teams"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 08/26/2025
 audience: Admin
@@ -31,6 +31,8 @@ Teams apps that use a manifest version less than 1.13 cannot be extended to Outl
     - If access to non-Microsoft apps on Teams admin center is turned on, admins can start seeing these apps on the integrated apps portal in the **Available apps** and **Blocked apps** lists based on their setting in Teams admin center.
     - If access to non-Microsoft apps on Teams admin center is turned off, no such apps are visible on the integrated apps portal.
 - These apps always have the availability status of **Some or all users in the organization can install**. These apps always have only Teams as the host product. To know more about which users can access this app on Teams, visit the Teams admin center.
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 ## How to block a Teams app on Teams
 

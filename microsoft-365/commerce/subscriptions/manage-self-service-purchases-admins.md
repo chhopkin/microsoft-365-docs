@@ -4,8 +4,8 @@ f1.keywords:
 - NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
-ms.reviewer: schyevan, ramagane
+manager: scotv
+ms.reviewer: smithk, ramagane
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -16,7 +16,6 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_ssp
 - AdminSurgePortfolio
@@ -24,10 +23,10 @@ ms.custom:
 - admindeeplinkMAC
 - GAUpdates
 - campaignIDs-batch1
-search.appverid:
-- MET150
+service.tree.id: 89d497da-847a-4f93-b7cd-1eb2bdc1d8a3
+search.appverid: MET150
 description: "Learn how admins can use the Microsoft 365 admin center to manage self-service purchases and trials made by users in their organization."
-ms.date: 01/06/2025
+ms.date: 10/08/2025
 ---
 
 # Manage self-service purchases and trials (for admins)
@@ -117,7 +116,7 @@ Both methods let you do the following tasks:
 
 You can use the Microsoft 365 admin center to manage self-service purchases and trials for users in your organization.
 
-1. In the Microsoft 365 admin center, so to the **Settings** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Org settings</a> page.
+1. In the Microsoft 365 admin center, go to the **Settings** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Org settings</a> page.
 2. On the **Services** tab of the **Org settings** page, select **Self-service trials and purchases**.
 3. The **Self-service trials and purchases** page lists the products that are eligible for self-service, and shows their current self-service setting.
 4. To manage the settings for a specific product, select the product name. A panel opens and shows the current setting for the product you selected.
@@ -139,7 +138,7 @@ You can assign existing licenses or buy extra subscriptions through existing agr
 
 [!INCLUDE [office-365-operated-by-21vianet-admin-center-link](../../includes/office-365-operated-by-21vianet-admin-center-link.md)]
 
-1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Purchase services</a> page. For some customers, the page is named **Marketplace**.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Marketplace</a> page.
 2. Find and select the product that you want to buy, then select **Buy**.
 3. To complete your purchase, complete the remaining steps.
 4. To export a list of users to reference in the next step, follow the steps in [View who has licenses for a self-service purchase or trial subscription](#view-who-has-licenses-for-a-self-service-purchase-or-trial-subscription).

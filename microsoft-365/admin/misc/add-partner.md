@@ -4,8 +4,8 @@ f1.keywords:
 - NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: dansimp
-ms.reviewer: nicholak
+manager: scotv
+ms.reviewer: patyc
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -70,14 +70,14 @@ As an admin for Office 365, you can create or edit users, reset user passwords, 
 
 1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
     - If you're using the **Simplified view**, select **Subscriptions**, then select **Add more products.**
-    - If you're using the **Dashboard view**, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">**Purchase services**</a> page. For some customers, the page is named **Marketplace**.
+    - If you're using the **Dashboard view**, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">**Marketplace**</a> page.
 2. Select the plan that you want to buy, and then select **Details**.
 3. Select the product that you want to buy, and then select **Buy**.
 4. To add a new partner, expand **Need help with your order?** and select **Get assistance from a Microsoft Partner**.<br/>
 Follow the steps on the providers page to either search for, or to get matched with a partner.
-5. If you already have a partner, in the second step of the checkout wizard, in the right pane, under **Partner information**, select **Add**.
-6. Type the Microsoft Partner ID for the partner you're adding. You can get the partner's Microsoft Partner ID by asking the partner for it.
-7. Complete the rest of the wizard to finish buying your subscriptions.
+1. If you already have a partner, in the second step of the checkout wizard, in the right pane, under **Partner information**, select **Add**.
+2. Type the Microsoft Partner ID for the partner you're adding. You can get the partner's Microsoft Partner ID by asking the partner for it.
+3. Complete the rest of the wizard to finish buying your subscriptions.
 
 ::: moniker-end
 

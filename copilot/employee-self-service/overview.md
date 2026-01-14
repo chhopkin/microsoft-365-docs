@@ -1,82 +1,84 @@
 ---
-title: Overview of the Employee Self-Service agent
+title: An introduction to Employee Self-Service
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 7/3/2025
+ms.date: 11/05/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
-robots: NOINDEX, NOFOLLOW
 ms.localizationpriority: medium
 ms.collection: m365copilot
-description: Learn about the Employee Self-Service agent and the steps you need to follow to deploy it to your organization.
+description: Learn what Employee Self-Service Agent is, what the HR and IT starters are, and why your organization should use them.
 appliesto:
-- ✅ Microsoft 365 Copilot
+  - ✅ Microsoft 365 Copilot
 ---
 
-# Overview of the Employee Self-Service agent
+# Employee Self-Service
 
->[!NOTE]
->The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
+The Employee Self-Service agent is designed as a unified, customer-facing, AI-powered interface for handling employee requests and automating routine tasks within enterprise environments. The Employee Self-Service agent, built on Copilot Studio, is intended to be customized by you. Once you customize it for your organization's needs, the Employee Self-Service agent streamlines access to HR, IT, and operational systems, reducing manual intervention and improving process efficiency.
 
-The Employee Self-Service (ESS) agent answer policy-related questions, assist with IT help, and simplify HR tasks to help your employees. The agent makes it easier to:
+## Technical Architecture
 
-- Retrieve the right information at the right time in the flow of work. Users can access the agent in the environments they already work, including Teams and Microsoft 365 Copilot Chat.
-- Take action on essential HR and IT tasks without navigating to multiple tools and workspaces. ESS can even help run diagnostics on Microsoft 365 products and services.
-- Complete other tasks important for your organization. The ESS agent includes preconfigured templates, but IT admins can also customize it for their employee workflows. You can even connect it to third-party HR and IT systems.
+The Employee Self-Service agent operates as a custom agent within **Copilot Studio**, using **Microsoft's AI infrastructure** and **Power Platform**. The agent is constructed on a modular architecture. This design enables integration with enterprise data sources using APIs, connectors, and secure authentication mechanisms. The solution supports multitenant deployments and is adaptable to on-premises, hybrid, or fully cloud-based environments, depending on organizational requirements.
 
-## What's new
+## Integration Capabilities
 
-|Version  |Changes |
-|---------|--------|
-|1.0.0.64 |Hard agent handoff base template without context passing (Topic is disabled by default). |
-|1.0.0.66 |Internal licensing validation. |
-|1.0.0.62 |ESS package name changed to Employee Self-Service Agent. |
-|1.0.0.61 |No functional changes. |
-|1.0.0.60 |Added default starter prompts. |
-|1.0.0.59 |Internal naming standards fix. |
-|1.0.0.58 |Supported the UserContext flow among ESS Core package and ISV packages. </br>The UserContext setup is the same as the existing way of adding ISV-specific user context topics as redirected topics in the topic [Setup User Context](sapsuccessfactors.md#setup-user-context). |
-|1.0.0.71 |Minor bug fixes. |
-|1.0.0.72 |Bug fixes for the Large Multimodal Model (LMM) capacity error message. |
+Integration with existing enterprise systems is achieved through a library of prebuilt and custom connectors available in **Copilot Studio** and **Power Platform**. These connectors facilitate data exchange with:
 
-## Get started with the Employee Self-Service agent
+- HRIS
+- ITSM
+- Identity management
+- Knowledge base platforms
 
-The Employee Self-Service agent is built on top of Microsoft 365 Copilot and Copilot Studio. The following articles can help you understand governance, security, privacy, and Responsible AI terms for both Microsoft 365 Copilot and Microsoft Copilot Studio.
+Data security and compliance are enforced through:
 
-### Microsoft 365 Copilot resources
+- Role-based access control
+- Encrypted data transmission
 
-Before you deploy the Employee Self-Service agent, read through the documentation and familiarize yourself with the areas of deployment and configuration. The ESS agent inherits the Copilot stack, which needs to be considered for initial installation and for operational policies. You can refer to the [Copilot hub](/copilot/microsoft-365) for documentation on architecture, trust, security, compliance, and best practices in Microsoft 365 Copilot.
+## Core features
 
-- [Microsoft 365 Copilot hub](../index.yml)
-- [Overview of Microsoft 365 Copilot.](../microsoft-365-copilot-overview.md)
-- [Microsoft 365 Copilot architecture](../microsoft-365-copilot-architecture.md)
-- [Address oversharing concerns in Microsoft 365 Copilot deployment blueprint](../microsoft-365-copilot-blueprint-oversharing.md)
-- [Microsoft 365 Copilot privacy](../microsoft-365-copilot-privacy.md)
-- [Microsoft 365 Copilot service description](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot)
-- [What is responsible AI?](https://support.microsoft.com/topic/what-is-responsible-ai-33fc14be-15ea-4c2c-903b-aa493f5b8d92)
+- **Employee and Manager scenarios**: The Employee Self-Service agent enables users to execute tasks such as querying HR policies, initiating IT support tickets, and updating personal information through conversational interfaces. All interactions are logged for auditability.
+  - **Employee Self-Service agent starters are separate to focus on domains - HR and IT**. Employee Self-Service agent starters are beginning points to help you get started with a specific agent path, based on your organization's needs. Each starter offers slightly different functionality to focus on the core jobs to be done of the domain and is extensible.
+    - **HR agent starter**: Empowers employees to self-serve HR needs by delivering clear, policy-based answers and guidance. This template delivers capabilities, including easy navigation of benefits, policy lookups, and access to organizational resources. The agent maintains an empathetic, professional tone and enforces boundaries by escalating complex or sensitive requests (such as legal or personnel decisions) to HR specialists.
+    - **IT agent starter**: Enables employees to resolve IT issues efficiently through step-by-step troubleshooting and automated support flows. Key features include guided device setup, secure account management, and instant access to IT resources. The agent prioritizes clarity and patience, and ensures safe practices to protect data and systems.
+- **Handoff template**: This agent template includes a configurable handoff feature, allowing seamless escalation to specialized first-party agents or human operators within predefined workflows. This feature is implemented using session context management and secure credential delegation.
+- **Telemetry and Insights**: Integrated telemetry provides granular analytics on agent interactions, task completion rates, and user satisfaction.
 
-### Microsoft Copilot Studio resources
+## Customization, scalability, and extensibility
 
-- [Copilot Studio documentation home](/microsoft-copilot-studio)
-- [Topics in Copilot Studio](/microsoft-copilot-studio/guidance/topics-overview)
-- [Analytics in Copilot Studio](/microsoft-copilot-studio/analytics-overview)
-- [Copilot Studio security and governance](/microsoft-copilot-studio/security-and-governance)
-- [Personal data requests for Copilot Studio](/microsoft-copilot-studio/personal-data-summary)
-- [Responsible AI in Copilot Studio](/microsoft-copilot-studio/responsible-ai-overview)
+Copilot Studio and Power Platform provide extensive customization options, including low-code and pro-code development environments. Organizations can modify agent behavior, extend dialog flows, and integrate additional data sources. The platform supports scaling across regions and business units, with centralized management and version control for agent configurations.
 
-## Roles and responsibilities
+Each starter comes with default content and accelerators to get you started like:
 
-The ESS Agent involves multiple roles across different service areas. Operators in each of these areas should understand the configuration entirely for better operational efficiency.
+- Agent name, logo, and description.
+- Instructions that help shape agent personality and behaviors.
+- Topics that help you manage specific kinds of conversations and requests.
+- Connectors to other services like ServiceNow and Workday.
 
-The **Admin** works in the Microsoft admin center to assign roles.
+The agent ships with a few solution accelerators to integrate with external systems like Workday, ServiceNow, and SAP SuccessFactors. The solution accelerators serve as key value drivers for the agent and are delivered with the following components to assist agent creators in efficiently integrating external systems:
 
-The **Maker** works in Microsoft Copilot Studio to configure the agent. The maker sets up user context, knowledge sources (including Microsoft 365 data and ISV connectors), topics, and ISV packages. All of this information goes through orchestration to reach the end user.
+- Topics
+- Connectors
+- Flows
+- Templates
 
-The **End user** accesses the Employee Self-Service agent in Microsoft 365 Chat or through Microsoft Teams.
+In addition to the shipped solution accelerators, the agent is extensible within Copilot Studio by adding components to support additional business scenarios.
+
+[Learn more](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent) about Copilot Studio samples and adding more scenarios.
+
+## Implementation considerations
+
+Consider which Employee Self-Service agent starter is right for your organization to start with – HR or IT. Both Employee Self-Service agent starter can be deployed into a single Employee Self-Service agent experience, but you must deploy them one at a time. [Learn more](customize.md) about how to get started customizing the Employee Self-Service agent, common roles and responsibilities, and basic agent building blocks.
+
+- **Deployment**: The Employee Self-Service agent can be provisioned in sandbox or production environments through the Power Platform Admin Center. Deployment pipelines support continuous integration and delivery, with environment isolation for testing and validation.
+- **Configuration**: Initial setup involves defining integration endpoints, mapping user roles, and configuring dialog flows. Starters and accelerators are available to expedite common scenarios.
+- **Security**: The solution adheres to enterprise-grade security standards, including identity federation, least-privilege access, and encrypted storage. Compliance with regulatory frameworks like GDPR and HIPAA is supported through built-in auditing and data retention policies.
+
+The Employee Self-Service agent and Copilot Studio consolidate employee self-service tasks within a secure, extensible, and scalable architecture. This consolidation delivers operational efficiencies and integration flexibility tailored for enterprise IT environments.
 
 ## Structure of the Employee Self-Service agent
 
@@ -85,3 +87,23 @@ The Employee Self-Service agent consists of three main parts: the agent itself, 
 [![Infographic showing the structure of the Employee Self-Service agent.](../media/ess/structure-big.png)](../media/ess/structure-big.png#lightbox)
 
 [Learn more about how Copilot architecture works](../microsoft-365-copilot-architecture.md)
+
+## Overview of external systems integration capabilities
+
+The Employee Self-Service agent integrates with a few external systems. These systems can be used as for knowledge retrieval scenarios, read/write workflows, and hand-off to other agents or support channels.
+
+The following matrix provides an overview of the various external systems integration capabilities:
+
+|Scenarios |Agent component |SharePoint |Microsoft Self-Help |ServiceNow |Workday |SAP SuccessFactor |
+|----------|----------------|-----------|--------------------|-----------|--------|------------------|
+|HR |Knowledge sources |- Enterprise content access </br>- Advanced filtering </br>- Seamless integration |Not available |Copilot Connector supports: </br>- Indexing </br>- Hierarchical permissions and scripting </br>- Ticketing content |Not available |Not available |
+|HR |Power platform connectors |Not applicable |Not applicable |HR ticketing </br>- Read </br>- Create |Employee profile access </br>- Read </br>- Write |Employee profile access </br>- Read </br>- Write |
+|IT |Knowledge sources |- Enterprise content access </br>- Advanced filtering </br>- Seamless integration |- Microsoft 365 troubleshooting </br>- Generative orchestration </br>- Enterprise-specific customization |Copilot Connector supports: </br>- Indexing </br>- Hierarchical permissions and scripting </br>- Ticketing content | | |
+|IT |Power platform connectors |Not applicable |Not applicable |IT ticketing </br>- Read </br>- Create |Not applicable |Not applicable |
+|IT |Handoff |Not applicable |Not applicable |Handoff to: </br>- Now Assist </br>- Live Agent | | |
+
+- [Learn more](sap-employee-read-write-scenarios.md) about SAP SuccessFactors pre-configured employee read and write scenarios.
+- [Learn more](sap-manager-read-write-scenarios.md) about SAP SuccessFactors pre-configured manager read and write scenarios.
+- [Learn more](workday.md#topics) about Workday pre-configured scenarios.
+- [Learn more](servicenow-hrsd-itsm.md#topics) about ServiceNow HR pre-configured scenarios.
+- [Learn more](servicenow-hrsd-itsm.md#topics-1) about ServiceNow IT pre-configured scenarios.

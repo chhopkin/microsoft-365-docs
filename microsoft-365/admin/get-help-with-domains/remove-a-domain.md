@@ -2,8 +2,8 @@
 title: "Remove a domain"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 11/18/2024
 audience: Admin

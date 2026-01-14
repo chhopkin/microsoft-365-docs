@@ -215,6 +215,8 @@ Here's a quick overview of the information in each column.
 |Last updated|Date that the message was published or last updated.|
 |Message ID|Microsoft tracks our Message center posts by message ID. You can refer to this ID if you want to give feedback or if you call Support about a particular message.|
 
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
+
 ### Admin roles that don't have access to the Message center
 
 - Compliance administrator

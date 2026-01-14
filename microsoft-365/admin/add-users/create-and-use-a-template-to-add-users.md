@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: 06/04/2024
 audience: Admin
 ms.topic: how-to
-ms.service: microsoft-365-business
+ms.service: microsoft-365-security
 ms.localizationpriority: medium
 ms.collection:
 - Tier1
@@ -17,7 +17,6 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 - must-keep
-- trust-pod
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio

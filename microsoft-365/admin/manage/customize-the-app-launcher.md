@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: twerner
 author: twernermsft
-manager: dansimp
+manager: scotv
 ms.date: 06/20/2024
 audience: Admin
 ms.topic: how-to

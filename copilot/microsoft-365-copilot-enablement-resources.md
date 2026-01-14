@@ -5,7 +5,7 @@ f1.keywords:
 - NOCSH
 ms.author: efrene
 author: Efrene
-manager: dansimp
+manager: scotv
 ms.date: 05/20/2025
 ms.update-cycle: 180-days
 audience: Admin
@@ -90,11 +90,7 @@ To learn more and get started:
 
 After your licenses are assigned, you can send a welcome email to your users. This email can include information about Microsoft 365 Copilot, how to use it, and any training resources you have available.
 
-You can also enable feedback for Microsoft 365 Copilot users.
-
-To learn more, see:
-
-- [Welcome end users to Microsoft 365 Copilot](microsoft-365-copilot-enable-users.md)
+You can also enable feedback for Microsoft 365 Copilot users. To learn more, see [Welcome end users to Microsoft 365 Copilot.](microsoft-365-copilot-enable-users.md)
 
 ## Related articles
 

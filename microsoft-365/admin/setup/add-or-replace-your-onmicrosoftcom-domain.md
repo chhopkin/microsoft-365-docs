@@ -2,8 +2,8 @@
 title: "Add and replace your onmicrosoft.com fallback domain in Microsoft 365"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 11/18/2024
 audience: Admin

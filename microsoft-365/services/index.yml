@@ -41,7 +41,7 @@ landingContent:
             url: pay-as-you-go-services.md
       - linkListType: how-to-guide
         links:
-          - text: Set up pay-as-you-go billing
+          - text: Set up pay-as-you-go billing in Settings node
             url: pay-as-you-go-setup.md
           - text: Set up a pay-as-you-go budget
             url: pay-as-you-go-budget.md

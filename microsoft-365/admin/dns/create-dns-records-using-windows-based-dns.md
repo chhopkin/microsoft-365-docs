@@ -2,8 +2,8 @@
 title: "Create DNS records for Microsoft using Windows-based DNS"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 09/05/2024
 audience: Admin
