@@ -4,7 +4,7 @@ ms.author: odocspr
 author: officedocspr5
 manager: jtremper
 audience: Admin
-ms.topic: article
+ms.topic: concept-article
 ms.service: loop
 ms.reviewer: michalbr, dancost
 ms.date: 07/02/2025
@@ -34,7 +34,7 @@ appliesto:
 
 Loop content is stored in SharePoint, OneDrive, and [SharePoint Embedded](/sharepoint/dev/embedded/concepts/admin-exp/consuming-tenant-admin/cta), allowing familiar management within existing file management workflows. Where the content was originally created determines its storage location:
 
-|Content content originally created in|Content stored in SharePoint Embedded|Content stored in SharePoint Site|Content stored in User's OneDrive|Lifetime Management|
+|Content originally created in|Content stored in SharePoint Embedded|Content stored in SharePoint Site|Content stored in User's OneDrive|Lifetime Management|
 |-----|-----|-----|-----|-----|
 |Loop app, My workspace *|✔️in user-owned container|||user account|
 |Loop app, shared workspace|✔️in shared container|||workspace owners|
@@ -50,7 +50,7 @@ Loop content is stored in SharePoint, OneDrive, and [SharePoint Embedded](/share
 
 ## My workspace container name
 
-Copilot Pages and Copilot Notebooks all use the Loop My workspace container. This user-owned container is named 'Pages' if the person visits the Microsoft 365 Copilot app first. It is named 'My workspace' if the person visits the Loop app first. Refer to [listing all user-owned containers](cpcn-loop-spe-management.md#listing-all-the-user-owned-containers) to get a list, regardless of the container name.
+Copilot Pages and Copilot Notebooks all use the Loop My workspace container. This user-owned container is named 'Pages' if the person visits the Microsoft 365 Copilot app first. It is named 'My workspace' (localized into the language of the user's Loop experience during creation) if the person visits the Loop app first. Refer to [listing all user-owned containers](cpcn-loop-spe-management.md#listing-all-the-user-owned-containers) to get a list, regardless of the container name.
 
 To completely disable the creation of the **Personal Workspace** SharePoint Embedded container you need to do the following:
 
@@ -115,7 +115,7 @@ See [Storage](#storage). When content is stored in OneDrive, if that user leaves
 
 - [Summary of Compliance, Lifecycle, Governance](loop-compliance-summary.md)
 - [Requirements](cpcn-loop-requirements.md)
-- [Permissions](cpcn-loop-permission.md)
+- [Permissions](loop-permission.md)
 - [Admin toggles](loop-admin-configuration.md)
 - [UX examples for admin toggle states](loop-ux-examples.md)
 - [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md)

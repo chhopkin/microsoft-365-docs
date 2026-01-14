@@ -13,6 +13,7 @@ ms.collection:
 - Adm_O365
 - m365copilot
 ms.custom: 
+- GAUpdates
 search.appverid:
 - BCS160
 - MST160
@@ -89,6 +90,8 @@ To export the report data into an Excel .csv file, at the top of the table, sele
 ## Display user-specific data
 
 By default, usernames and display names in Copilot Search usage reports are anonymous. Global administrators can update the settings to reveal usernames and display names.
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 1. In the admin center, go to the **Settings** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Org Settings</a> page. Under the **Services** tab, select **Reports**.
 2. Select **Reports**, and then select the checkbox next to **Display Concealed user, group, and site names in all reports**.

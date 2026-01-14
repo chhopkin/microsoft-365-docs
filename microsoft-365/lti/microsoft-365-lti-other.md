@@ -7,17 +7,18 @@ manager: michal.gideoni
 ms.date: 07/23/2025
 audience: admin
 ms.topic: how-to
-ms.service: msteams
-ms.subservice: teams-education
+ms.service: microsoft-365-education
 ms.collection: 
 - M365-modern-desktop
 - m365initiative-edu
 - tier2
+- m365-education
+- all-education
 ms.localizationpriority: medium
 ---
-# Deploy the Microsoft 365 LTI® app in any LTI 1.3 compliant LMS
+# Deploy the Microsoft 365 LTI&reg; app in any LTI 1.3 compliant LMS
 
-This guide provides steps for deploying the Microsoft 365 Learning Tool Interoperability® (LTI) app in any LTI 1.3 compliant LMS.
+This guide provides steps for deploying the Microsoft 365 Learning Tool Interoperability&reg; (LTI) app in any LTI 1.3 compliant LMS.
 
 :::image type="content" source="./media/microsoft-365-lti.png" alt-text="Screenshot of Microsoft 365 LTI." border="true":::
 
@@ -34,8 +35,8 @@ For an overview of the Microsoft 365 LTI integration for learning management sys
 
 1. When you have your Microsoft Partner ID, request a sandbox using one of the following methods based on your business type:
 
-    - [Request a Microsoft 365 Education development/testing sandbox](https://m365edupartnerportal.powerappsportals.com/MSEDUIntegrationSignup/) as an Education ISV or SI partner who builds and supports integrations with Microsoft products and services.
-    - [Request to join the Microsoft Global Training Partner program](https://m365edupartnerportal.powerappsportals.com/MSGTPSignup/) as a Training Partner who delivers training and support to customers on Microsoft products and services.
+   - [Request a Microsoft 365 Education development/testing sandbox](https://m365edupartnerportal.powerappsportals.com/MSEDUIntegrationSignup/) as an Education ISV or SI partner who builds and supports integrations with Microsoft products and services.
+   - [Request to join the Microsoft Global Training Partner program](https://m365edupartnerportal.powerappsportals.com/MSGTPSignup/) as a Training Partner who delivers training and support to customers on Microsoft products and services.
 
 > [!IMPORTANT]
 > The person who deploys this integration should be an **Administrator role in the LMS**. A person in your organization who is a **Microsoft 365 Global Administrator** is also needed to help complete the configuration of the app before first time use.
@@ -114,13 +115,13 @@ Every platform may have different options and steps for completing tool registra
 
 1. Add the following custom parameters to be replaced by the platform at runtime. The LTI spec suggests the following variables be available, but platforms may have additional variables that are better suited based on definitions.
 
-    | **Name** | **LTI/LIS Variable** | **Description** | **Example expression** |
-    |---|---|---|---|
-    | **t** | ResourceLink.title | Title of the resource lineItem (assignment) from the label property | t=$ResourceLink.title |
-    | **dd** | ResourceLink.submission.endDateTime | Due date of the resource lineItem (assignment) from the endDateTime property | dd=$ResourceLink.submission.endDateTime |
-    | **mp** | N/A | Maximum score possible for a lineItem submission from the scoreMaximum property | mp=$ResourceLink.lineItem.scoreMaximum |
-    | **csid** | CourseOffering.sourcedId | Sourced ID for the course offering in the LMS | csid=$CourseOffering.sourcedId |
-    | **ssid** | CourseSection.sourcedId | Sourced IDs for the course sections in the LMS | ssid=$CourseSection.sourcedId |
+   | **Name** | **LTI/LIS Variable** | **Description** | **Example expression** |
+   |---|---|---|---|
+   | **t** | ResourceLink.title | Title of the resource lineItem (assignment) from the label property | t=$ResourceLink.title |
+   | **dd** | ResourceLink.submission.endDateTime | Due date of the resource lineItem (assignment) from the endDateTime property | dd=$ResourceLink.submission.endDateTime |
+   | **mp** | N/A | Maximum score possible for a lineItem submission from the scoreMaximum property | mp=$ResourceLink.lineItem.scoreMaximum |
+   | **csid** | CourseOffering.sourcedId | Sourced ID for the course offering in the LMS | csid=$CourseOffering.sourcedId |
+   | **ssid** | CourseSection.sourcedId | Sourced IDs for the course sections in the LMS | ssid=$CourseSection.sourcedId |
 
 1. Add the secure Icon URL from the tool values copied if the platform requires this URL to display an icon.
 
@@ -974,4 +975,4 @@ If you receive an error message regarding cookies being blocked, check your brow
 
 :::image type="content" source="./media/help-and-feedback.png" alt-text="Screenshot of link to send feedback for Microsoft 365 LTI." border="true":::
 
-Learning Tools Interoperability® (LTI®) is a trademark of the 1EdTech Consortium, Inc. (**[**1edtech.org**](https://1edtech.org)**).
+Learning Tools Interoperability&reg; (LTI&reg;) is a trademark of the 1EdTech Consortium, Inc. (**[**1edtech.org**](https://1edtech.org)**).

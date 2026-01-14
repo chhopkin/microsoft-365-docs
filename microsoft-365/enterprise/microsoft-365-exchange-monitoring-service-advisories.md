@@ -1,6 +1,6 @@
 ---
 title: "Service advisories for eDiscovery cmdlet exception spike in Exchange Online monitoring"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 07/25/2024

@@ -4,25 +4,25 @@ f1.keywords:
 - NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.reviewer: aasthatiwari, atuldubey
 audience: Admin
-ms.topic: article
+ms.topic: concept-article
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-volume-licensing
 ms.localizationpriority: medium
 ms.collection:
 - Tier1
 - scotvorg
-- operations-pod
 ms.custom:
 - commerce_vl
 - AdminTemplateSet
 - admindeeplinkMAC
+service.tree.id: e6e1ea2a-04a0-4f78-bc75-7d45c90eee39
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to access your non-Azure volume licensing invoices in the Microsoft 365 admin center."
-ms.date: 05/30/2025
+ms.date: 11/13/2025
 ---
 
 # Microsoft volume licensing invoices
@@ -34,10 +34,10 @@ The invoice for your VL subscription provides a summary of charges and instructi
 
 ## Before you begin
 
-To access VL invoices in the admin center, you must satisfy both of the following conditions:
+To access VL invoices in the admin center, you must meet one of the following conditions:
 
-1. You must be the **Bill To contact** for the corresponding contracts.
-2. You must have signed in to the admin center and become an Invoice Reader.
+- If you're not an Enterprise Agreement (EA) or an Enterprise Subscription Agreement (EU) customer, you must be the **Bill To** contact or have the Invoice Reader role for the corresponding contracts.
+- If you're an EA or EU customer, you must be a VL Administrator or an Invoice Reader for the corresponding contracts.
 
 ## View or download your invoice
 
@@ -190,15 +190,19 @@ There are several reasons that you might not see an invoice:
 
 - The invoice isn't ready yet. Go to **View Order Details** to check the billing period.
 - You don't have the correct Invoice Reader role for the account you signed in with.
-- You only have access to invoices for licensing IDs / contracts for which you're the **Bill To contact**.  
+- You only have access to invoices for License IDs or contracts for which you're the **Bill To contact** or have the Invoice Reader role.
+- The invoice you're looking for relates to licenses purchased via a License Solution Partner, not to purchases made directly from Microsoft. To identify the partner or seller for a License ID, go to the **Billing** > **Your Products** page, select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> tab, select **Contracts**, then select **View contract details** and look for **Bill to** or **Channel Partner**.
+- You won't see invoices for parent agreements. Purchase orders and invoices are issued at License ID level under the parent program agreement.
 - The **Invoice created** date must be November 18, 2022, or later.
-- The invoice you're looking for relates to licenses purchased via a License Solution Partner, not to purchases made directly from Microsoft. You won't see invoices for parent agreements. Purchase orders and invoices are issued at License ID level under the parent program agreement.
 
 ### How do I request permission to view volume licensing invoices?
 
 The Invoice Reader VL role is automatically assigned in the admin center to the **Bill To Contact** named in the agreement contract submitted by your Microsoft partner or seller at the time of contract creation.
 
 The Invoice Reader role can't be assigned or removed by another VL Administrator. To change the contact Bill To requires your Microsoft partner or seller to complete a Change of Contact Information Request to update the legal participants, or contacts. Contact your Microsoft partner or seller for more information.
+
+> [!NOTE]
+> If you're an Enterprise Agreement (EA) or Enterprise subscription (EU) customer, the Invoice Reader role isn't assigned to the **Bill To** contact. The Invoice Reader VL role is assigned by the VL Administrator of the agreement in the Microsoft 365 admin center. The VL Administrator can view the invoices or assign the Invoice Reader role to any user.
 
 ### How often and when am I billed?
 
@@ -235,4 +239,4 @@ Customers should contact their Microsoft partner or seller for questions relatin
 - Submitting or canceling a new order or a renewal order
 
 > [!TIP]
-> To identify the partner or seller for a licensing ID, go to the **Billing** > **Your Products** page, select the **Volume Licensing** tab, select **Contracts**, then select **View contract details**.
+> To identify the partner or seller for a License ID, go to the **Billing** > **Your Products** page, select the **Volume Licensing** tab, select **Contracts**, then select **View contract details**.

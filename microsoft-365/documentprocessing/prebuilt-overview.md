@@ -21,7 +21,7 @@ description: Learn about prebuilt document processing in SharePoint.
 # Overview of prebuilt document processing
 
 > [!NOTE]
-> Through December 2025, you can try out a [limited amount](promo-syntex.md#included-monthly-capacity) of prebuilt document processing and other selected content services at no cost if you have [pay-as-you-go billing](syntex-azure-billing.md) set up. For information and limitations, see [Try out pay-as-you-go services](promo-syntex.md).
+> Through June 2026, you can try out a [limited amount](promo-syntex.md#included-monthly-capacity) of prebuilt document processing and other selected content services at no cost if you have [pay-as-you-go billing](syntex-azure-billing.md) set up. For information and limitations, see [Try out pay-as-you-go services](promo-syntex.md).
 
 In addition to using [custom models](model-types-overview.md#custom-models), document processing offers prebuilt models that help automate information extraction from documents—no training required. These models are ready to use and designed to recognize common document types and data patterns, so you can get started quickly and scale efficiently.
 

@@ -4,7 +4,7 @@ f1.keywords:
 - MACBillingAccountsAddBillingProfileInvoices
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.reviewer: jkinma, ramagane
 audience: Admin
 ms.topic: concept-article
@@ -18,16 +18,16 @@ ms.collection:
 - highpri
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_billing
 - VSBFY23
 - AdminSurgePortfolio
 - AdminTemplateSet
 - campaignIDs-batch1
+service.tree.id: 95459a4b-434c-4f83-879b-aa5f509fc7fa
 search.appverid: MET150
 description: "Learn how to interpret the charges on your invoice for your Microsoft business subscription with an MCA billing account."
-ms.date: 04/01/2025
+ms.date: 07/31/2025
 ---
 
 # Understand your invoice for your Microsoft MCA billing account
@@ -52,7 +52,10 @@ Depending on the billing frequency that you chose when you bought your subscript
 
 Each new subscription purchase receives the first invoice the next day and is billed on this same day of the month with the frequency selected at purchase. Subscriptions with recurring billing receive subsequent invoices on that same day of the month. 
 
-Changes you make to an existing subscription appear on the monthly invoice around the beginning of the following month.  
+Changes you make to an existing subscription appear on the monthly invoice around the beginning of the following month.
+
+> [!NOTE]
+> We updated how we bill for mid-term subscription changes to improve clarity and efficiency. After the update is available in your country/region, changes you make to an existing subscription are billed the day after the change. For more infotmation, see the <a href="https://go.microsoft.com/fwlink/?linkid=2340188" target="_blank">Message center</a> in the Microsoft 365 admin center.
 
 If you acquire multiple new subscriptions on different days within a month (excluding additions to current subscriptions), you receive separate invoices for each.
 
@@ -209,9 +212,10 @@ If you have questions or need help with your Azure credits, <a href="https://por
 
 ## Related content
 
-[View your invoice in the Microsoft 365 admin center](view-your-bill-or-invoice.md) (article)\
-[Understand your invoice for your Microsoft MOSA billing account](understand-your-invoice2.md) (article)\
-[Payment options for your Microsoft business subscription](pay-for-your-subscription.md) (article)\
-[Manage payment methods for Microsoft business accounts](manage-payment-methods.md) (article)\
-[Billing information for Microsoft 365 for business in Mexico](mexico-billing-info.md) (article)\
+[View your invoice in the Microsoft 365 admin center](view-your-bill-or-invoice.md) (article)<br/>
+[Understand your invoice for your Microsoft MOSA billing account](understand-your-invoice2.md) (article)<br/>
+[Pay your invoice by using a wire transfer](pay-by-wire-transfer.md) (article)<br/>
+[Pay your Microsoft business invoice by using a credit or debit card](pay-for-your-subscription.md) (article)<br/>
+[Manage payment methods for Microsoft business accounts](manage-payment-methods.md) (article)<br/>
+[Billing information for Microsoft 365 for business in Mexico](mexico-billing-info.md) (article)<br/>
 [Minecraft: Education Edition payment options](/education/windows/school-get-minecraft) (article)

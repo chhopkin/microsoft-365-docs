@@ -3,7 +3,7 @@ title: "Understand product keys for Microsoft Customer Agreement for Enterprise 
 f1.keywords: NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.reviewer: deevsharma, nikotha
 audience: Admin
 ms.topic: concept-article
@@ -14,7 +14,7 @@ ms.collection:
 - Tier1
 - M365-subscription-management 
 - Adm_O365
-- operations-pod
+service.tree.id: a72adf8-965e-43e2-93a2-ac605308ee05
 search.appverid: MET150
 ms.custom: 
 - commerce_purchase

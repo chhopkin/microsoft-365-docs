@@ -33,7 +33,7 @@ Copilot Pages and Copilot Notebooks are stored within your organization in Share
 
 ## Container name
 
-The Copilot Pages, Copilot Notebooks and Loop My workspace all use the same container. This user-owned container is named 'Pages' if the person visits the Microsoft 365 Copilot app first. It is named 'My workspace' if the person visits the Loop app first. Refer to [listing all user-owned containers](cpcn-loop-spe-management.md#listing-all-the-user-owned-containers) to get a list, regardless of the container name.
+The Copilot Pages, Copilot Notebooks and Loop My workspace all use the same container. This user-owned container is named 'Pages' if the person visits the Microsoft 365 Copilot app first. It is named 'My workspace' (localized into the language of the user's Loop experience during creation) if the person visits the Loop app first. Refer to [listing all user-owned containers](cpcn-loop-spe-management.md#listing-all-the-user-owned-containers) to get a list, regardless of the container name.
 
 ## Storage quota
 
@@ -60,7 +60,7 @@ Copilot Pages + Copilot Notebooks container has a maximum size of 25 TB. This li
 > When a user selects the Copilot Pages module in the Microsoft 365 Copilot app, a SharePoint Embedded container is currently created automatically—even if the user doesn't go on to create a Copilot Page. If no files are added to the container, the system will later delete it automatically. *This behavior is temporary.* An update is in progress to ensure that a Copilot Pages container is only created when a user actually creates a Copilot Page. Until that update is deployed, IT administrators and compliance officers can safely disregard these system-initiated deletions. These containers don't contain any user-generated content when they're removed.
 
 > [!IMPORTANT]
-> A feature for IT admins to assign temporary custodians during the cleanup period of user-owned workspaces isn't yet available. This capability for Copilot Pages and Copilot Notebooks is planned (Microsoft Roadmap ID 421612).
+> A workflow for IT admins to assign temporary custodians during the cleanup period of user-owned workspaces isn't yet available. This capability for Copilot Pages and Copilot Notebooks is planned (Microsoft Roadmap ID 421612).
 
 ### Copilot Notebooks
 
@@ -69,7 +69,7 @@ Copilot Pages + Copilot Notebooks container has a maximum size of 25 TB. This li
 - Admins can recover the entire container with all Copilot Notebooks and Copilot Pages during the soft delete period using the SharePoint Admin Center or PowerShell.
 
 > [!IMPORTANT]
-> A feature for IT admins to assign temporary custodians during the cleanup period of user-owned workspaces isn't yet available. This capability for Copilot Pages and Copilot Notebooks is planned (Microsoft Roadmap ID 421612).
+> A workflow for IT admins to assign temporary custodians during the cleanup period of user-owned workspaces isn't yet available. This capability for Copilot Pages and Copilot Notebooks is planned (Microsoft Roadmap ID 421612).
 
 > [!IMPORTANT]
 > There is no end user recycle bin for Copilot Notebooks. Neither Administrators nor end users can recover individually deleted Copilot Notebooks.
@@ -78,7 +78,7 @@ Copilot Pages + Copilot Notebooks container has a maximum size of 25 TB. This li
 
 - [Summary of Compliance, Lifecycle, Governance](cpcn-compliance-summary.md)
 - [Requirements](cpcn-loop-requirements.md)
-- [Permissions](cpcn-loop-permission.md)
+- [Permissions](cpcn-permission.md)
 - [Admin toggles](cpcn-admin-configuration.md)
 - [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md)
 - [Purview and SharePoint Embedded containers](cpcn-loop-purview-management.md)

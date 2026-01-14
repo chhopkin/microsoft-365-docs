@@ -101,6 +101,14 @@ For full OneDrive account and SharePoint site restores, the fastest recovery hap
 
 All restore points and restores to new URLs are relatively fast, but same URL restores using a recommended express restore point will typically yield better results. The Exchange Online restore workflow doesn't have or require the "faster" restore points.
 
+We have a number of restore capabilities depending on the scenario, each optimized for that scenario. The restore is not dependent on the amount of data, rather the number of sites and the type of restore point chosen.
+
+1. Single or subsite file restore needed: Use the granular folder/file restore option (public preview as of Dec 2025). These restores should take only a couple of mins.
+
+1. Small site restore: Use one of the daily fast restore points recommended in the UI. This will restore full sites smaller than ~1TB in under 20 mins.
+
+1. Large many site restores: Use our fast or standard restore points. It may take a few hours to "warm up," but will then execute very quickly. Overall this will be very fast as per our performance outline in the perf table below.
+
 The following table summarizes expected performance for a normally distributed tenant, including tenants of large size and scale.
 
 |Protection units  |OneDrive and SharePoint  |Exchange Online  |
@@ -137,16 +145,16 @@ Microsoft 365 Backup supports the backup of sites and user accounts from both th
 
 1. Immutability is formally defined as storage that can't be altered, deleted, or overwritten for a specified period of time.
 
-2. Microsoft 365 Backup follows that definition except for disallowing deletion. Backup uses append-only storage to prevent nondeletion modifications or alterations of existing restore point data. This protects against service or malware overwrites of the backup data.
+1. Microsoft 365 Backup follows that definition except for disallowing deletion. Backup uses append-only storage to prevent nondeletion modifications or alterations of existing restore point data. This protects against service or malware overwrites of the backup data.
 
-3. Deletion of the backups isn't blocked, giving customers the option to offboard if needed or desired. There are a couple of defenses against undesired deletions built into the tool to approximate full immutability without some of the related drawbacks (for example, lack of GDPR control). These additional features include:
+1. Deletion of the backups isn't blocked, giving customers the option to offboard if needed or desired. There are a couple of defenses against undesired deletions built into the tool to approximate full immutability without some of the related drawbacks (for example, lack of GDPR control). These additional features include:
 
     a. A fixed 90-day existing backup recovery [grace period](/microsoft-365/backup/backup-offboarding), similar to a soft-delete recycle bin within the Backup tool, that allows the customer to recover their backups up to 90 days after offboarding.
-
+   
     b. Retention and deletion policies (for example, from Purview) don't affect the backup retention period, which remains fully isolated from those policies.
-
-    c. A multi-admin email notification feature (coming later this year) that will automatically notify a preset group of admins if a potentially harmful action is taken on the Backup tool.
-
+   
+    c. The multi-admin email notification feature automatically notifies a preset group of admins if a potentially harmful action is taken on the Backup tool.
+   
 ### Deeper storage architectural Look
 
 Microsoft 365 Backup Storage is built on top of standard OneDrive and SharePoint infrastructure; and on top of standard Exchange Online infrastructure. Given that, Microsoft 365 Backup Storage inherits some useful implementation benefits.

@@ -1,6 +1,6 @@
 ---
 title: "Step 1. Determine your cloud identity model"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 audience: Admin

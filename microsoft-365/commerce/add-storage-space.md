@@ -4,8 +4,8 @@ f1.keywords:
 - NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
-ms.reviewer: emmasheridan, nicholak
+manager: scotv
+ms.reviewer: patyc
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -71,7 +71,7 @@ You can buy the Office 365 Extra File Storage add-on in the Microsoft 365 admin 
 
 1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center.</a>
     - If you’re using the **Simplified view**, select **Billing**, then select **Add more products**.
-    - If you’re using the **Dashboard view**, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Purchase services</a> page. For some customers, the page is named **Marketplace**.
+    - If you’re using the **Dashboard view**, go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Marketplace</a> page.
 2. Under **View by category**, select **Office 365**.
 3. Find **Office 365 Extra File Storage**, and then select **Details**.
 4. Enter the number of gigabytes of storage that you want; select a subscription length and billing frequency; and then select **Buy**.
@@ -85,7 +85,7 @@ You can buy the Office 365 Extra File Storage add-on in the Microsoft 365 admin 
     - If you’re using the **Simplified view**, select **Billing**.
     - If you’re using the **Dashboard view**, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.
 2. Select the subscription that you want to buy an add-on for.
-3. On the subscription details page, in the **Add-ons** section, select **Find more add-ons in Purchase services**.
+3. On the subscription details page, in the **Add-ons** section, select **Find more add-ons in Marketplace**.
 4. Find the Office 365 Extra File Storage add-on, and then select **Details**.
 5. From the drop-down list; select the subscription to connect with the add-on; and then select **Connect to subscription**.
 6. On the **Checkout** page, enter the quantity that you want to buy and then select **Place order**.

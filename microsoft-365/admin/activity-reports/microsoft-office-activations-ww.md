@@ -1,8 +1,8 @@
 ---
 title: "Microsoft 365 admin center Office activations reports"
 ms.author: cmcatee
-author: efrene
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 03/04/2024
 audience: Admin
 ms.topic: overview
