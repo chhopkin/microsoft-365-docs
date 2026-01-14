@@ -4,7 +4,7 @@ ms.author: deniseb
 ms.reviewer: onatwil; ramical
 author: denisebmsft
 manager: dansimp
-ms.date: 01/13/2026
+ms.date: 01/14/2026
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-admin
@@ -30,7 +30,7 @@ This article describes the events that are logged in a customer tenant during th
 When a [user with permissions](#who-can-create-support-tickets) in an organization submits a support request in the [Microsoft 365 admin center](https://admin.microsoft.com), they grant Microsoft Support permission to access the information that's needed for assistance. This activity is recorded in the customer's cross-tenant access settings by adding the Microsoft Support tenant (Tenant ID `b4c546a4-7dac-46a6-a7dd-ed822a11efd3`) as a service provider partner. In this configuration, the Microsoft Support tenant is treated as a partner (see [Partner cross-tenant access settings](/graph/api/resources/crosstenantaccesspolicy-overview)).
 
 > [!IMPORTANT]
-> Only users who have an appropriate role assigned can open a support case. The Microsoft Support tenant is added to the customer's tenant as a service provider partner to enable the Microsoft Support team to troubleshoot and resolve a case. Users who can open support cases can't grant cross-tenant access to other partners. Only users who have the Security Administrator, Teams Administrator, or Global Administrator role can modify any other aspects of cross-tenant access settings.
+> Only a user who has an appropriate role assigned can open a support case. The Microsoft Support tenant is added to the customer's tenant as a service provider partner to enable the Microsoft Support team to troubleshoot and resolve a case. The user who opens a support cases can't grant cross-tenant access to other partners. Only a user who has the Security Administrator, Teams Administrator, or Global Administrator role can modify any other aspects of cross-tenant access settings.
 
 The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*, which represents the user role a Microsoft Support engineer can have in the customer tenant. The [Microsoft 365 Support Engineer](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-support-engineer) role is used for Microsoft Support engineers. 
 
@@ -49,8 +49,8 @@ When a support case is created, the following audit events are logged in the cus
 
 | Order | Event | Actor |
 |--|--|--|
-| 1 | If it doesn't exist already, **Add a partner to cross-tenant access setting**<br/>(Microsoft Support tenant only) | Identity of the user who created the support ticket |
-| 2 | If it doesn't exist already, **Adding allowed assignable roles**<br/>(Microsoft 365 Support Engineer role only) | Identity of the user who created the support ticket |
+| 1 | If it doesn't exist already, **Add a partner to cross-tenant access setting**<br/>(Adds the Microsoft Support tenant only) | Identity of the user who created the support ticket |
+| 2 | If it doesn't exist already, **Adding allowed assignable roles**<br/>(Adds the Microsoft 365 Support Engineer role only) | Identity of the user who created the support ticket |
 
 ### Audit events when Microsoft Support works on a case
 
@@ -58,8 +58,8 @@ When a Microsoft Support engineer works on a support case, the following audit e
 
 | Order | Event | Actor |
 |--|--|--|
-| 1 | If it doesn't exist already, **Add a Service Principal** for the Microsoft Support tenant <br/>(Microsoft Entra GDAP application) | Assist API application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
-| 2 | **Add member to role** (Group from Microsoft Support tenant added to Microsoft 365 Support Engineer role) | Assist API application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
+| 1 | If it doesn't exist already, **Add a Service Principal** for the Microsoft Support tenant <br/>(Microsoft Entra GDAP application) | Service Principal for the Assist API application <br/>(See [What is the Assist API application, and how do I find it in my tenant?](#what-is-the-assist-api-application-and-how-do-i-find-it-in-my-tenant)) |
+| 2 | **Add member to role** (Group from Microsoft Support tenant is added to the Microsoft 365 Support Engineer role) | Assist API application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
 
 ### Audit events during support case closure
 
@@ -145,17 +145,17 @@ Microsoft Support accesses only the information that's needed to troubleshoot an
 | **Support data**: All data provided to Microsoft by the customer as part of a customer engagement to obtain support services | Support requests from customers and phone conversations, online chat sessions, or remote assistance sessions between support professionals and customers<br/><br/> Case notes and/or records related to support requests from customers<br/><br/>Data provided to Microsoft by the customer as part of support activities |
 | **Account data**: Contact, billing, purchase, payment, and/or license information | Customer's provisioning information<br/><br/>Account configuration and billing data<br/><br/>Tenant administrator contact information (such as tenant administrator's name, address, e-mail address, phone number)<br/><br/>Licensing and purchase information |
 | **System metadata**: Data generated in the course of running the service | Event logs<br/><br/>Access control logs<br/><br/>Account information belonging to Microsoft operations personnel<br/><br/>Microsoft server names/server IPs<br/><br/>Server patching and vulnerability data<br/><br/>Service configuration data<br/><br/>Telemetry (on-premises or cloud) |
-| **Organization identifiable information (OII)**: Data that can be used to identify a particular tenant, deployment, or organization (generally config or usage data) | Tenant ID (non-GUID)<br/><br/>TenantID (GUID) due to the existence of many out of boundary `TenantID` to name mapping tables<br/><br/>Tenant usage data<br/><br/>Tenant IP addresses (IPv4), such as tenant's firewall IP address<br/><br/>Global prefix and subnet ID (first 64 bits of IPv6 address)<br/><br/>Tenant domain name in e-mail address (such as `joe@contoso.com`)<br/><br/>Mapping of organizational GUID to organization |
-| **End-user identifiable information (EUII)**: Data that directly identifies or could be used to identify the authenticated user of a Microsoft service | User-specific IP address (IPv4)<br/><br/>User principal name (`joe@company.com`)<br/><br/>Address book data<br/><br/>User's machine name<br/><br/>SIP URI |
-| **End-user pseudonymous identifiers (EUPI)**: An identifier created by Microsoft tied to the user of a Microsoft service | User GUIDs or PUIDs<br/><br/>Session IDs |
+| **Organization information**: Data that can be used to identify a particular tenant, deployment, or organization (generally configuration or usage data) | Tenant ID (non-GUID)<br/><br/>TenantID (GUID) due to the existence of many out of boundary `TenantID` to name mapping tables<br/><br/>Tenant usage data<br/><br/>Tenant IP addresses (IPv4), such as tenant's firewall IP address<br/><br/>Global prefix and subnet ID (first 64 bits of IPv6 address)<br/><br/>Tenant domain name in e-mail address (such as `joe@contoso.com`)<br/><br/>Mapping of organizational GUID to organization |
+| **End-user information**: Data that directly identifies or could be used to identify the authenticated user of a Microsoft service | User-specific IP address (IPv4)<br/><br/>User principal name (`joe@company.com`)<br/><br/>Address book data<br/><br/>User's machine name<br/><br/>SIP URI |
+| **End-user identifiers**: An identifier created by Microsoft tied to the user of a Microsoft service | User GUIDs or PUIDs<br/><br/>Session IDs |
 
 ## How long does Microsoft Support have access to tenant data?
 
 Access to tenant data is revoked when the Microsoft Support tenant is removed from the customer's cross-tenant access settings. This process is automated and is directly linked to the lifecycle of support cases within the tenant. 
 
-If a case is opened for more than 30 days, access is revoked, provided there aren't any other, newer cases opened. A customer can open a new support case or reopen a closed case to restore access.
+If a case is opened for more than 30 days, access is revoked automatically, provided there aren't any other, newer cases opened. A customer can open a new support case or reopen a closed case to restore access.
 
-Customers can also revoke access at any time by deleting the Microsoft Support tenant partner in cross-tenant access settings. To remove Office 365 (`b4c546a4-7dac-46a6-a7dd-ed822a11efd3`), follow the steps in [Cross-tenant access settings: Remove an organization](/entra/external-id/cross-tenant-access-settings-b2b-collaboration#remove-an-organization).
+A customer can also revoke access at any time by deleting the Microsoft Support tenant partner in their cross-tenant access settings. To remove Office 365 (`b4c546a4-7dac-46a6-a7dd-ed822a11efd3`), follow the steps in [Cross-tenant access settings: Remove an organization](/entra/external-id/cross-tenant-access-settings-b2b-collaboration#remove-an-organization).
 
 > [!CAUTION]
 > If you revoke access manually, Microsoft Support loses the ability to help resolve your support cases.
