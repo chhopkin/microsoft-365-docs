@@ -124,7 +124,7 @@ Now, you must maintain two separate Entra IDs - one for each cloud. Use the publ
 
 :::image type="content" source="../../media/vl-new-sign-in-flow.png" alt-text="Diagram of the new volume licensing sign-in flow using separate Entra IDs for public and government cloud access." lightbox="../../media/vl-new-sign-in-flow.png":::
 
-### Determine if you're affected by this change
+### Determine if you're affected by this change (users)
 
 As a VL user, you can tell if you're affected by this change if you receive one or more of the following signals:
 
