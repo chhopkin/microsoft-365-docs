@@ -7,12 +7,13 @@ ms.reviewer: eladgr
 ms.date: 08/01/2025
 audience: admin
 ms.topic: integration
-ms.service: msteams
-ms.subservice: teams-education
+ms.service: microsoft-365-education
 ms.collection: 
 - M365-modern-desktop
 - m365initiative-edu
 - tier2
+- m365-education
+- all-education
 ms.localizationpriority: medium
 description: Create impactful check-ins to gain wellbeing insights and build a happier, healthier learning community with the Microsoft Reflect Learning Tools Interoperability App for D2L Brightspace.
 ---
@@ -20,7 +21,7 @@ description: Create impactful check-ins to gain wellbeing insights and build a h
 # Integrate Microsoft Reflect LTI with D2L Brightspace
 
 [Microsoft Reflect](https://reflect.microsoft.com) is a wellbeing app designed to foster connection, expression, and learning by promoting self-awareness, empathy, and emotional growth.
-    
+
 Reflect LTI integration with D2L Brightspace is designed in compliance with the latest Learning Tools Interoperability (LTI) standards, ensuring strong security and straightforward installation within your D2L Brightspace environment.
 
 Integrate Reflect into D2L Brightspace to create impactful check-ins, gain wellbeing insights, and build a happier, healthier learning community.

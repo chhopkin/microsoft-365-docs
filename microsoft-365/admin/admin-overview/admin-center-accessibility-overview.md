@@ -2,7 +2,7 @@
 title: "Microsoft 365 admin center accessibility overview"
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: dansimp
+manager: scotv
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business

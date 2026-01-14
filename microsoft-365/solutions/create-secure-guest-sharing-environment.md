@@ -6,7 +6,7 @@ manager: jtremper
 ms.date: 05/30/2024
 audience: ITPro
 ms.topic: solution-overview
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.collection: 
 - highpri
 - Tier1
@@ -19,6 +19,7 @@ ms.collection:
 ms.custom: 
 - seo-marvel-apr2020
 - admindeeplinkSPO
+- m365-solutions-doc-set
 ms.localizationpriority: medium
 f1.keywords: NOCSH
 recommendations: false

@@ -4,20 +4,16 @@ description: how you can set up People Skills for the first time in your organiz
 author: kwekuako
 ms.author: kwekua
 ms.collection: operations-pod
-manager: dansimp
+manager: scotv
 ms.service: microsoft-365-copilot
-ms.topic: article
-ms.date: 05/29/2025
+ms.topic: how-to
+ms.date: 10/21/2025
 ---
 
 # Set up People Skills
 
 This section walks you through setting up People Skills for the first time in your organization. After initial setup is complete, admins can edit their skill library or share settings using the steps in the [Manage your skills library](people-skills-manage-skills-library.md) page.
-
-Here is a video walkthrough of the People Skills setup and various admin options available:
-> [!VIDEO 8f204269-407e-4684-88cd-656d864f3569]
  
-
 ## Admin roles required for setup
 
 The following roles have permission to set up People Skills:
@@ -31,11 +27,11 @@ For more information, see [assigning roles](/entra/identity/role-based-access-c
 
 Most organizations can quickly set up skills using our out-of-the-box People Skills library of over 16,000+ skills. If you prefer to curate your own library by importing custom skills, refer to the next section [Advanced setup](#advanced-setup-using-custom-skills-library).
 
-1. Go to the Copilot page in the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **People Skills in Microsoft 365 Copilot**. Alternatively, you can find People Skills page under **Settings** > **Viva** > **Data Management**.
+1. Go to the Copilot page in the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/copilot/overview) and select **Settings** > **Data access** and then **People Skills in Microsoft 365 Copilot**. Alternatively, you can find People Skills page under **Settings** > **Viva** > **Data Management**.
 
    :::image type="content" source="media/people-skills-inferencing/quick-setup-with-out-of-the-box-library.png" alt-text="Screenshot displaying the People Skills in Microsoft 365 Copilot option in the Copilot page." lightbox="media/people-skills-inferencing/quick-setup-with-out-of-the-box-library.png":::
 
-2. Select **Being quick setup**.
+2. Select **Begin quick setup**.
 
 3. Choose the skills you want to use from the out-of-the-box library. 
    > [!TIP]
@@ -57,7 +53,7 @@ You can change the settings confirmed during this setup [by Managing your skills
 
 Organizations can build their own custom skills library with a combination of skills from the out-of-the-box skills library and by importing your own custom skills.
 
-1. Got to the Copilot page in the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **People Skills in Microsoft 365 Copilot**. Alternatively, you can find People Skills page under **Settings** > **Viva** > **Data Management**.
+1. Go to the Copilot page in the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **People Skills in Microsoft 365 Copilot**. Alternatively, you can find People Skills page under **Settings** > **Viva** > **Data Management**.
 
 2. Under **Custom Setup**, select **Begin custom setup**. 
    :::image type="content" source="media/people-skills-inferencing/custom-setup-selection.png" alt-text="Screenshot of the People Skills in organization page that displays selection of custom setup." lightbox="media/people-skills-inferencing/custom-setup-selection.png":::

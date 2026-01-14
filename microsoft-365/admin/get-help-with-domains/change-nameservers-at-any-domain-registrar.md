@@ -2,8 +2,8 @@
 title: "Change nameservers to set up Microsoft 365 with any domain registrar"
 f1.keywords:
 - CSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 03/17/2025
 audience: Admin

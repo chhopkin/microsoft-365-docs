@@ -1,6 +1,6 @@
 ---
 title: "Microsoft 365 integration with on-premises environments"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 09/24/2024

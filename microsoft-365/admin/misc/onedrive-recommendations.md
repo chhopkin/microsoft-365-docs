@@ -2,8 +2,8 @@
 title: "OneDrive recommendations"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 05/02/2024
 audience: Admin
@@ -169,6 +169,8 @@ With a Microsoft 365 subscription, you can add expiration dates and passwords to
 7. Send the password in a separate message so recipients can open the file.
 
 ## Classify and protect company data
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 Use the Microsoft Purview portal to enable support for sensitivity labels. For more information, see [Enable sensitivity labels for files in SharePoint and OneDrive](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files).
 

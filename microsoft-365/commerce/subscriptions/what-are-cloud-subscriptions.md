@@ -3,10 +3,10 @@ title: "What are cloud subscriptions?"
 f1.keywords: CSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: dansimp
-ms.reviewer: mijeffer, nicholak
+manager: scotv
+ms.reviewer: mijeffer, jobailey
 audience: Admin
-ms.topic: article
+ms.topic: concept-article
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-acquisition
 ms.localizationpriority: medium
@@ -15,16 +15,16 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_subscriptions
 - AdminTemplateSet
 - admindeeplinkMAC
 - campaignIDs-batch1
+service.tree.id: 84a24b9c-ce0c-4b4b-b837-45bc5ee4bef0
 search.appverid: MET150
-robots: NOINDEX NOFOLLOW
+robots: NOINDEX, NOFOLLOW
 description: "Learn about cloud subscriptions and how to view them in the Microsoft 365 admin center."
-ms.date: 05/02/2025
+ms.date: 10/02/2025
 ---
 
 # What are cloud subscriptions?

@@ -5,14 +5,13 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 7/3/2025
+ms.date: 12/15/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
-robots: NOINDEX, NOFOLLOW
 description: Learn about the customization stage in the deployment process for the Employee Self-Service agent.
 appliesto:
 - ✅ Microsoft 365 Copilot
@@ -20,129 +19,111 @@ appliesto:
 
 # Customize the Employee Self-Service agent
 
->[!NOTE]
->The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
+The Employee Self-Service agent is customizable in Microsoft Copilot Studio, where Makers can use various tools, topics, authoritative knowledge sources, and Microsoft-built connectors to external systems, like Workday, SAP, and ServiceNow:
 
-Customization is how you make the Employee Self-Service (ESS) agent work in the best way to suit your organization's needs.
+- Start by learning more about roles and responsibilities.
+- Then, review the basic building blocks that make up the Employee Self-Service agent.
+- Next, see your options for customizing the look and certain content end-users see.
+- Then, learn about adding knowledge sources.
+- Finally, review topics that are included in the ESS package by default and decide how to customize details for the need of your organization.
 
 |Role |Activities to perform |Configuration area |
 |-----|----------------------|-------------------|
-|Environment Maker </br>Owner of ESS agent |- Set up user context </br>- Customize ESS agent |Microsoft Copilot Studio |
-|ISV Administrators </br>Service owners of specific applications |Provide configuration inputs such as URLs, OAUTH tokens, and more |ISV configuration |
+|Environment Maker </br>Owner of the Employee Self-Service agent |- Set up user context </br>- Customize the Employee Self-Service agent |Microsoft Copilot Studio |
+|External system solution Administrators </br>Service owners of specific applications |Provide configuration inputs such as URLs, OAUTH tokens, and more |External system solution configuration |
 |HR </br>IT </br>Legal </br>Privacy |-Identify knowledge sources </br>-Provide frequent queries </Identify sensitive queries> | N/A |
 
 ## Understanding components
 
-The agent owner who manages the ESS agent going forward must have a thorough understanding of its architecture before continuing with configuring the ESS Agent.
-
-The ESS agent is built with the following components:
+To craft seamless employee experiences with an Employee Self-Service agent, begin by developing an understanding of its architecture. Together, these components enable agents to deliver natural conversations, extend functionality, and provide accurate, contextual information. The Employee Self-Service agent is built on five key elements:
 
 ### Topics
 
-[Topics](/microsoft-copilot-studio/guidance/topics-overview) are core building blocks of an agent, which are seen as the agent competencies; they define how a conversational dialog plays out. Topics are discrete conversation paths that, when used together, allow for users to have a conversation that feels natural and flows appropriately.
+You can use Topics in various ways, from crafting a verbatim response for sensitive topics, to managing when to display an adaptive card, or how a fallback path is defined. The Employee Self-Service agent template comes with a set of predefined and fully configurable topics to help get you started. You can then create your own, using the full capability of Copilot Studio and our grown list of sample topics for ESS. [Learn more](/microsoft-copilot-studio/guidance/topics-overview) about Topics.
 
 ### Actions
 
-[Actions](/microsoft-copilot-studio/advanced-plugin-actions) extend agent capabilities. Agents use Actions to respond to users. The agent can respond automatically using [generative orchestration](/microsoft-copilot-studio/advanced-generative-actions), or can call actions explicitly from within a topic.
+Also called tools, actions expand the functionality of your agent, allowing it to perform various actions in response to user requests or autonomous triggers. Actions extend the agent's capabilities by enabling responses through generative orchestration or by calling specific actions within a topic. [Learn more](/microsoft-copilot-studio/advanced-plugin-actions) about actions.
 
 ### Knowledge sources
 
-[Knowledge sources](/microsoft-copilot-studio/knowledge-copilot-studio) act in concert with generative answers. When knowledge sources are added, agents can use enterprise data from Power Platform, Dynamics 365 data, websites, and external systems. Knowledge sources allow your agents to provide relevant information and insights for your customers. Published agents that contain knowledge use the configured knowledge sources to ground the published agent. You can incorporate knowledge at the agent level, in the Knowledge page, or at the topic level, with a generative answers node in an agent topic. You can incorporate knowledge sources into agents during their initial creation, add them after the agent is created, or add them to a generative answers topic node.
+Knowledge sources allow your agents to provide relevant information and insights from authoritative sources like SharePoint or ServiceNow. You can incorporate knowledge for the agent and for the agent as whole or configure more focused knowledge sources for specific intents using a Topic with a Generative Answer Node. [Learn more](/microsoft-copilot-studio/knowledge-copilot-studio) about knowledge sources.
 
-### ISV packages
+### External system solution accelerator packages
 
-Packages are reusable components within Copilot Studio to configure certain third-party sources.
+Solution accelerator packages come with a few components, like connectors, topics, and template configurations. They're ready to integrate with external systems like Workday, ServiceNow, and more.
 
-### Agent instructions (global)
+### Instructions
 
-Agent instructions are a high-quality description for each of its topics, actions, and knowledge sources. Good descriptions ensure the agent selects the right topics, actions, and knowledge sources to respond to users.
-
-The ESS Agent Instructions are:
-
-You are an agent that represents an enterprise organization to help employees find workplace related information and services. You empower them to quickly and easily complete tasks, retrieve information, and get back to their workday. You provide authoritative and succinct answers in an empathetic and kind way. Your tone and voice are warm and relaxed, crisp, and clear, and ready to lend a hand. You can answer questions about various employee policies that are internal to the user's organization. Your responses encourage scanning first, reading second. Ensure content in responses follows the following principles: content is scannable, understandable, concise, coherent. Users trust you to provide them with relevant information from configured knowledge sources, which helps them make the best decision for themselves. While formatting your response
-
-- Always provide citations for each knowledge source you pull from.
-- Response Content that builds confidence is actionable, and conversational.
-- Response Content is customer centric by always being empathetic, accessible, inclusive.
-- Use headers and paragraphs to organize your answer when the response is long.
-- Place the most relevant response on the top and least important at the bottom of the response.
-- Use numbers when listing steps and options. Use bullets when referencing content related to steps and options.
-
-Don't try to provide answers when you don't have enough information. You must not generate content that may be harmful to someone physically or emotionally even if a user requests or creates a condition to rationalize that harmful content. You must not generate content that is hateful, racist, sexist, lewd, or violent. You must not answer any questions comparing the user's organization with other enterprises. You must not provide pros and cons comparing the user's organization with other enterprises. You must not use your own general knowledge. Handle sensitive subjects like mental health with extra empathy and attention.
-
-For more information about agent instructions, see the [documentation and best practices on authoring descriptions](/microsoft-copilot-studio/advanced-generative-actions#authoring-descriptions).
-
-### Knowledge source instructions
-
-Clarify how each source should be used. Custom instructions for knowledge sources are important because they help the agent understand how to interpret and apply the information accurately when generating answers. Custom instructions mean responses are relevant, trustworthy, and aligned with the user's intent. [Learn more about knowledge sources](/microsoft-copilot-studio/knowledge-copilot-studio).
-
-### Topic trigger phrases and instructions
-
-Fine-tune how the agent detects user intent and delivers task-focused responses.
+LLM experiences can be shaped using natural language to use system prompt techniques that influence Employee Self-Service agent reasoning and behaviors. Instructions can be applied to the overall agent, to knowledge sources, to topics, and when publishing to Teams and Microsoft 365 Copilot. In addition, you can include dynamic variables (for example, specific user profile attributes) to further direct and ground the agent for more personalized responses.[Learn more](/microsoft-copilot-studio/knowledge-copilot-studio) about knowledge sources.
 
 ## Response quality
 
-A great response is accurate, actionable, and engaging to ensure we earn trust, provide useful responses, and help the user take the next step using self-service tools. The ESS agent requires a blend of design elements, agent instructions, and conversational design techniques to craft great responses.
+A great response is accurate, actionable, and engaging to ensure we earn trust, provide useful responses, and help the user take the next step using self-service tools. The Employee Self-Service agent requires a blend of design elements, agent instructions, and conversational design techniques to craft great responses.
 
 - Responses need to be **engaging** by using personal data, balanced formatting, and natural language.
 - Responses need to be **accurate** by using instructions for intent matching and using certain UI elements.
 - Responses need to be **actionable** by reliably mobilizing users to the best next step or resource.
 
-## Branding
+## Customize the look and content
 
-You can brand the ESS agent based on your branding guidelines. The following branding elements are available:
+Optionally, you can brand the Employee Self-Service agent based on your branding guidelines. By default, the product is called Employee Self-Service agent, and includes an icon that looks like an office badge.
 
-- Name
-- Description
-- Logo
-- Instructions
+End-users see the following customizable branding and content elements:
+
+|Element                           |Customization                |Next steps |
+|----------------------------------|-----------------------------|-----------|
+|Agent name                        |Copilot Studio overview page |Keep the original name or choose a name that aligns with your organization's brand and audience. |
+|Agent logo                        |Copilot Studio overview page |Use the default logo (a company badge) or add a logo that aligns with your brand. |
+|Agent short and long descriptions |Copilot Studio channels page |Consider a tagline and one-sentence description to be used to help users understand how Employee Self-Service agent can help them when they add the agent for the first time. |
+|Starter prompts                   |Copilot Studio overview page or the Microsoft 365 admin center if you also want to add categories |Help end-users understand how to engage with the Employee Self-Service agent by adding up to 12 starter prompts. |
+|Disclaimer message                |Copilot Studio channels page and topic |Add a general disclaimer on the agent's landing page or add a disclaimer that displays after certain responses. |
+|Agent (global) instructions       |Copilot Studio overview page |Draft instructions that help shape your agent's personality, behavior for edge cases, and guidance on how to use user context. |
 
 You can customize most of these elements in Copilot Studio by selecting the **Edit** button in the **Overview** section of the agent.
 
-To customize the logo, go to your **Settings** page in Copilot Studio and select **Agent details.**.
+> [!NOTE]
+> Providing a custom name to the agent shows the provided name for end-users in the Copilot chat interface. Most other admin-related interfaces, such as analytics dashboards in Copilot Studio, Copilot Analytics under Viva Insights, Microsoft Admin Center, Power Platform Admin Center, and other billing reports for metered consumption, display the agent's name:
+> 
+> - Employee Self-Service HR
+> - Employee Self-Service IT
 
-## Add a disclaimer to the landing page
+### Customizing logo
 
-Employee Self-Service supports two types of configurable disclaimers in Copilot Studio:
+ESS Agent logo customization involves multiple stages, as follows:
 
-1. A landing page disclaimer that is seen first, and explains the company's privacy statement.
-2. A topic-level disclaimer for specific kinds of responses in conversations.
+- **Maker experience**: Only within Copilot Studio. Makers should be able to upload a custom logo and test the appearance within Copilot Studio.
+- **End-user experience**: In the Microsoft 365 Copilot chat channel. [Learn more](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams#customize-the-appearance-of-an-agent-for-teams-and-microsoft-365-copilot) about customizing the appearance of an agent for Microsoft 365 Copilot.
 
-The landing page disclaimer is configured once for the agent and is meant to bring awareness to the organization's data and privacy policies.
+## Customize agent instructions
 
-To add a landing page disclaimer:
+Instructions act as a blueprint for tone, structure, and decision-making across workflows, preventing fragmented user experiences. Instructions specify clear role definitions and handoff rules to prevent agents from giving redundant or conflicting answers. Use instructions to:
 
-1. Go to the Microsoft Admin Center.
-2. Select an ESS instance and go to the **Customize** tab.
-3. Write a custom message and preview it. Once you're satisfied, turn the toggle to **On**.
+- Develop voice and tone as appropriate for your organization.
+- Map specific steps for user context variables, topics, and other entities.
+- Define boundaries, fallback plans, and more.
 
-Tips on writing this disclaimer:
-
-- We recommend you keep disclaimers under 150 characters.
-- Legal alignment: Ensure it aligns with your organization's legal, privacy, and compliance requirements, especially when handling sensitive domains like HR or legal.
-- Company voice: Match the disclaimer's tone to your company's voice using natural language.
-- Link to more information: Optionally, include a link to more detailed terms, policies, or support channels.
+[Learn more](design-best-practices.md) about how instructions work for the agent, knowledge sources, and topics.
 
 ## Customize Topics
 
-The Employee Self-Service agent comes with several out-of-the-box Topics to get you started. The maker can customize each of these topics. These topics can be tested before publishing them to the broader set of users. These customizations reflect in all surfaces where the agent is published.
+The Employee Self-Service agent comes with several out-of-the-box topics to get you started. The maker can customize each of these topics. These topics can be tested before publishing them to the broader set of users. [Learn more](/microsoft-copilot-studio/authoring-system-topics?tabs=webApp) about topics in Copilot Studio.
 
 The following Topics are available in the current package version:
 
 |Topic |Type |Trigger |Enabled (default) |When to use |
 |------|-----|--------|------------------|------------|
-|[Admin] - User Context - Setup |Topic |On redirect |On |Set user context for retrieval topics from different sources including ISV extension packs. Topics is required. |
-|[Example] - Crafted Response |Topic |By agent |Off |Display a verbatim message that includes an **Official Answer** for more control over certain situations. |
+|[Admin] - User Context - Setup |Topic |On redirect |On |Set user context for retrieval topics from different sources including external system solution extension packs, like Workday, SAP SF, and so on. **Required**. |
+|[Example] - Crafted Response |Topic |By agent |Off |Display a verbatim message that includes an **Official Answer** badge for more control over certain situations. |
 |[Example] - Sensitive Topics |Topic |By agent |Off |Edit responses for sensitive topics to help users navigate potentially harmful conversations. |
 |[System] - Log Telemetry Event |Topic |On redirect |On |Log events and other details for internal debugging and agent management purposes. |
 |[System] - On Error |System Topic |On error |On |Edit general error messages for common scenarios to improve engagement and task completion. |
-|[System] - Reset Conversation |Topic |Activity received |Off |Conversation cache times out to help improve engagement. |
+|[System] - Reset Conversation |Topic |Activity received |Off |Times out User context cache to help fetch the latest user context data. |
 |[System] - Response Preparation |Topic |On generated response |On |Add an official source badge with a custom disclaimer message for authoritative responses. </br>Known issue: This badge shows only in Copilot chat and can't be tested in Copilot Studio. |
 |[System] - User Context - Init variables |Topic |On redirect |On |Improve performance by updating and caching user context attributes to default values. </br>*No customizations available*. |
 |[System] - User Context - Validate |Topic |Activity received |On |User context attributes refreshed. </br>*No customizations available*. |
 |Agent handoff - [Scenario name] |Topic |By agent |Off |Handing off to another live agent without passing context. |
 |Conversation Start |System Topic |On conversation start |On |Initializes the user context attributes with default values. The maker can customize the welcome message. |
-|Microsoft Self Help |System Topic |Unknown topic |Off | |
 
 ### Customize the Topics as an Environment Maker
 
@@ -156,20 +137,22 @@ Terms to know:
 
 **Default:** On
 
-**Maker JTBD:** Maker needs to add redirection of the User Context retrieval topics from different ESS agent ISV packages. Or, if Makers configure other Topics to retrieve User Context attributes from other systems, then they should also be added as Topic redirections in this Topic.
+**Topic JTBD:** Redirect User Context retrieval topics and attributes from other data sources to improve response relevancy.
+
+**Maker JTBD:** Maker needs to add redirection of the User Context retrieval topics from different Employee Self-Service agent external system solution packages. Or, if Makers configure other Topics to retrieve User Context attributes from other systems, then they should also be added as Topic redirections in this Topic.
 
 **Maker - What to customize:** </br>
 **Requirement to use:** None.
 
 1. After message disclaimer (blank). Add message or delete it if you don't want the disclaimer to appear.
-1. Official source badge - no configuration required. You can use this setting in its default state.
+1. Official source badge - no configuration required. Use in its default state.
 
 |Step |Action |Expected result |
 |-----|-------|----------------|
-|1    |Open the ESS agent in Copilot Studio. |ESS agent available to customize. |
+|1    |Open the Employee Self-Service agent in Copilot Studio. |Employee Self-Service agent available to customize. |
 |2    |Navigate to **Topics** to see the list of Topics. |Shows Custom Topics. |
 |3    |Select **[Admin] User Context - Setup**. |Opens custom topic in the design canvas. |
-|4    |Add a redirect to another Topic where it sets the user context, such as one from an ISV. |Maker able to add a custom disclaimer message. |
+|4    |Add a redirect to another Topic where it sets the user context, such as one from an external system solution. |Maker able to set user context. |
 |5    | Save the changes. |Your changes are saved. |
 
 #### [System] Response Preparation
@@ -189,11 +172,11 @@ Terms to know:
 **Requirement to use:** None.
 
 1. After message disclaimer (blank). Add message or delete it if you don't want the disclaimer to appear.
-1. Official source badge - no configuration required. You can use this setting in its default state. |
+1. Official source badge - no configuration required. Use in its default state.
 
 |Step |Action |Expected result |
 |-----|-------|----------------|
-|1    |Open the ESS agent in Copilot Studio. |ESS agent available to customize. |
+|1    |Open the Employee Self-Service agent in Copilot Studio. |Employee Self-Service agent available to customize. |
 |2    |Navigate to **Topics** to see the list of Topics. |Shows Custom Topics. |
 |3    |Select **[System] -2: Response Preparation**. |Opens custom Topic in the design canvas. |
 |4    |Customize the **Disclaimer** message in the third node. |Maker able to add a custom disclaimer message. |
@@ -214,10 +197,10 @@ In the Maker experience in Copilot Studio, the **Official Source** badge doesn't
 
 |Step |Action |Expected result |
 |-----|-------|----------------|
-|1    |Open the ESS agent in Copilot Studio. |ESS agent available to customize. |
+|1    |Open the Employee Self-Service agent in Copilot Studio. |Employee Self-Service agent available to customize. |
 |2    |Navigate to **Topics** to see the list of Topics. |Shows Custom Topics. |
 |3    |Select **[Example] - Crafted Response**. |Opens custom Topic in the design canvas. |
-|4    |Select the first node **Triggered by agent (preview)**. |Topic node expands to show the description of what the Topic does. |
+|4    |Select the first node **Triggered by agent**. |Topic node expands to show the description of what the Topic does. |
 |5    |Customize the Topic description to include specific keywords that the agent shouldn't respond to and instead redirected elsewhere. |Topic description updates. |
 |6    |Select the second node **Set Official Answer Response**. |Topic node expands to show the value that can be customized. |
 |7    |Customize the **To value** field with a message. This message displays for your chosen queries instead of generated AI output. |Topic value updates. |
@@ -228,11 +211,11 @@ In the Maker experience in Copilot Studio, the **Official Source** badge doesn't
 
 **Default:** Off
 
-**Topic JTBD:** Customizing responses for topics that are sensitive and triggered by the ESS agent triggers HR sensitivity. The current generic Copilot Chat response is "I'm really sorry that you're feeling this way, but I'm not able to help. It's important to talk to a mental health professional or someone you trust about what you're going through."
+**Topic JTBD:** Customizing responses for topics that are sensitive and triggered by the Employee Self-Service agent triggers HR sensitivity. The current generic Copilot Chat response is "I'm really sorry that you're feeling this way, but I'm not able to help. It's important to talk to a mental health professional or someone you trust about what you're going through."
 
 **Maker JTBD:**
 
-The ESS agent template is "Consulting with a professional is the best way to get assistance with this request. Please contact a representative for further support." Action: ends conversation.
+The Employee Self-Service agent starter is "Consulting with a professional is the best way to get assistance with this request. Please contact a representative for further support." Action: ends conversation.
 
 The triggers are:
 
@@ -262,10 +245,10 @@ Enable the Topic if your organization wants to use it. Update the trigger phrase
 
 |Step |Action |Expected result |
 |-----|-------|----------------|
-|1 |Open the ESS agent in Copilot Studio. |ESS agent available to customize. |
+|1 |Open the Employee Self-Service agent in Copilot Studio. |Employee Self-Service agent available to customize. |
 |2 |Navigate to **Topics** to see the list of Topics. |Shows Custom Topics. |
 |3 |Select **[Example] - Sensitive Topics**. |Topic opens in the design canvas. |
-|4 |Select the first node **Triggered by agent (preview)**. |Topic node expands to show the description of what the Topic does. |
+|4 |Select the first node **Triggered by agent**. |Topic node expands to show the description of what the Topic does. |
 |5 |Customize the Topic description to include specific keywords that the agent shouldn't be respond to and instead redirect elsewhere. |Topic description updates. |
 |6 |Select the second node **Message**. |Topic node expands to show the value that can be customized. |
 |7 |Customize the **Text** field with a message that displays when the agent returns an official answer rather than AI-generated output. |Topic value updates. |
@@ -287,13 +270,13 @@ Enable the Topic if your organization wants to use it. Update the trigger phrase
 **Maker JTBD:** Configure each error. You can also add a call to action.
 
 - **OpenAIratelimit reached** triggered when the LLM is at capacity.
-- **ESS template** We're working on increasing the capacity for usage. Please wait for a couple of minutes before retrying the Employee Self-Service agent. We regret the inconvenience.
+- **Employee Self-Service agent starter** We're working on increasing the capacity for usage. Please wait for a couple of minutes before retrying the Employee Self-Service agent. We regret the inconvenience.
 - **ContentFiltered** triggered the same as RAI questions. You can set what you want instead of the generic RAI.
   - **Generic message:** I'm really sorry that you're feeling this way, but I'm not able to help. It's important to talk to a mental health professional or someone you trust about what you're going through.
-  - **ESS template:** Sorry, I can't chat about this. Start a fresh one by selecting **New chat.**
-  - **ESS template:** Consulting with a professional is the best way to get assistance with this request. Please contact a representative for further support.
+  - **Employee Self-Service agent starter:** Sorry, I can't chat about this. Start a fresh one by selecting **New chat**.
+  - **Employee Self-Service agent starter:** Consulting with a professional is the best way to get assistance with this request. Please contact a representative for further support.
 - **Topicvarshowdebuginfo:** Gives the conversation ID and time to help an engineer debug.
-  - **ESS template:** Users see the conversation ID and time.
+  - **Employee Self-Service agent starter:** Users see the conversation ID and time.
 
 **Maker- What to customize:** </br>
 **Requirement to use:** None </br>
@@ -303,7 +286,7 @@ Edit the default template for each error message that you want to change to a cu
 
 **Default:** On
 
-**Topic JTBD:** View telemetry in Application Insights to help the Maker with debugging tickets for any event. Example: A user gets an error from an ISV when trying to create a ticket.
+**Topic JTBD:** View telemetry in Application Insights to help the Maker with debugging tickets for any event. Example: A user gets an error from an external system solution when trying to create a ticket.
 
 **Maker JTBD:** Install App Insights and configure the event and redirect message.
 
@@ -312,9 +295,9 @@ Customization is optional.
 **Requirements to use:**
 
 1. Application Insights installed
-1. Don't edit "On redirect". Keep the default.
-1. Edit EventName.
-1. Edit Message.
+1. Don't edit **On redirect**. Keep the default.
+1. Edit **EventName**.
+1. Edit **Message**.
 
 #### [System] Microsoft Self Help
 
@@ -322,8 +305,10 @@ Customization is optional.
 
 **Topic JTBD:** Enables first-party connector that provides Microsoft 365 IT self help for employees.
 
->[!NOTE]
->This Topic is turned off by default so that your organization can use its own specific knowledge base for employee self help. Even if this Topic is enabled, it triggers only unknown intents. This design means that a query doesn't match the configured knowledge sources and/or other custom Topics in the agent.
+> [!NOTE]
+> This topic is only available in the IT template.
+> 
+> This Topic is turned off by default so that your organization can use its own specific knowledge base for employee self help. Even if this Topic is enabled, it triggers only unknown intents. This design means that a query doesn't match the configured knowledge sources and/or other custom Topics in the agent.
 
 **Maker JTBD:** Enable or disable based on organizational needs.
 
@@ -351,7 +336,7 @@ Requirement to use:
 
 |Step |Action |Expected result |
 |-----|-------|----------------|
-|1 |Open the ESS agent in Copilot Studio. |ESS agent available to customize |
+|1 |Open the Employee Self-Service agent in Copilot Studio. |Employee Self-Service agent available to customize |
 |2 |Navigate to **Topics** to see the list of Topics. |Shows custom Topics |
 |3 |Select **Agent handoff - [scenario name]** |Topic opens in the design canvas |
 |4 |Select the first node **Trigger**. |Topic node expands to show the description of what the Topic does. |
@@ -385,17 +370,17 @@ You can prevent this outcome by adding more context in each of the data retrieva
 
 Within Copilot Studio, knowledge sources act in concert with generative answers. When you add knowledge sources, agents can use enterprise data from Power Platform, Dynamics 365 data, websites, and external systems. Knowledge sources allow your agents to provide relevant information and insights for your customers.
 
-Published agents that contain knowledge use the configured knowledge sources to ground the published agent. Knowledge can be incorporated at the agent level, in the Knowledge page, or at the topic level with a generative answers node in an agent topic.
+Published agents that contain knowledge use the configured knowledge sources to ground the published agent. Knowledge can be incorporated at the agent level, in the **Knowledge** page, or at the topic level with a generative answers node in an agent topic.
 
 You can incorporate knowledge sources into agents during initial creation, after the agent is created, or in a generative answers topic node.
 
-[Learn more about knowledge sources and supported types in Copilot Studio.](/microsoft-copilot-studio/knowledge-copilot-studio)
+[Learn more](/microsoft-copilot-studio/knowledge-copilot-studio) about knowledge sources and supported types in Copilot Studio.
 
->[!NOTE]
->The ESS agent currently only has agent-level knowledge sources and no Topic-level knowledge sources included.
+> [!NOTE]
+> The Employee Self-Service agent currently only has agent-level knowledge sources and no Topic-level knowledge sources included.
 
->[!TIP]
->There's an **Official source** option within Copilot Studio. We recommend you *not* use this option when configuring ESS knowledge sources. The ESS agent applies the official source badge as part of response preparation. Enabling this option in Copilot Studio doesn't have any effect in the ESS agent.
+> [!TIP]
+> The Employee Self-Service agent applies the official source badge as part of the response preparation topic.
 
 ### Configure SharePoint as a knowledge source
 
@@ -403,26 +388,18 @@ You can incorporate knowledge sources into agents during initial creation, after
 
 1. Open the **Employee Self-Service** agent in Copilot Studio.
 1. Select **Knowledge** in the top navigation bar.
-1. Select **+Add knowledge** and choose **SharePoint** from the Add knowledge pane.
+1. Select **+Add knowledge** and choose **SharePoint** from the **Add knowledge** pane.
 1. You can choose to add a set of files from SharePoint or add a site. If you add a site, all the files in the site are used as a knowledge source.
 1. Provide a meaningful name and description, then choose **Add**.
 1. The site or set of files you chose appear in your **Knowledge** page.
 
 #### SharePoint knowledge filtering
 
-At times you need to filter knowledge content from SharePoint personalized to the employee. This filtering is based on some of their profile attributes such as "country/region/location", "project code", "department", and more.
-
-The ESS Agent using SharePoint knowledge source relies on search index and metadata to identify the profile attributes applied while performing the search query. So, to apply the knowledge filters a Keyword Query Language (KQL) should be updated in the configuration.
-
-The KQL for SharePoint Search recognizes profile attributes mapped to content metadata as "managed properties". SharePoint/Search Administrators manage these managed properties. The exact managed property should be identified and used in the KQL.
-
-For example, to retrieve the knowledge content based on an employee's "company code", this profile attribute should be available during the runtime to substitute it in the KQL query. If the managed property for this profile attribute is "RefinableString100", then the following KQL query should be added under **Advanced settings** of the SharePoint knowledge source, where the profile attribute value is set in the variable "ESS_UserContext_Company_Code":
-
-additionalSearchTerms: (NOT HIDEFROMSEARCH:1) AND (RefinableString100:All OR RefinableString100:{Global.ESS_UserContext_Company_Code})
+For information on SharePoint knowledge filtering, see [SharePoint Advanced Filtering (CPS) How-To](sharepoint-filtering.md).
 
 ## Customize Starter prompts
 
-**Starter prompts** help you roll out the ESS agent efficiently to your organization. With starter prompts, users already have a few ready-to-go prompts to use. Creating starter prompts helps your organization decrease the time to value.
+**Starter prompts** help you roll out the Employee Self-Service agent efficiently to your organization. With starter prompts, users already have a few ready-to-go prompts to use. Creating starter prompts helps your organization decrease the time to value.
 
 >[!TIP]
 >Identify the most asked questions by your users to form the base of your starter prompts. Identifying the most accurate answers to these questions helps build trust with your users.
@@ -437,6 +414,6 @@ additionalSearchTerms: (NOT HIDEFROMSEARCH:1) AND (RefinableString100:All OR Ref
 
 |Role              |Verification steps |Result |
 |------------------|-------------------|-------|
-|Environment Maker |1. Access the ESS agent from Copilot Studio. </br>2.Test all the customizations using the Copilot Studio test panel. Make sure to refresh the test panel for each change. |Pass/Fail |
+|Environment Maker |1. Access the Employee Self-Service agent from Copilot Studio. </br>2.Test all the customizations using the Copilot Studio test panel. Make sure to refresh the test panel for each change. |Pass/Fail |
 
 You need to repeat the steps to customize the agent if any of the verification steps fail.

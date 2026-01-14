@@ -17,7 +17,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
   - Microsoft 365 for frontline workers
-ms.date: 06/27/2024
+ms.date: 10/06/2025
 ---
 
 # Changing from a Microsoft 365 E plan to a Microsoft 365 F plan

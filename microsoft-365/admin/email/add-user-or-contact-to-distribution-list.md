@@ -2,8 +2,8 @@
 title: "Add a user or contact to a distribution group"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 11/14/2024
 audience: Admin
