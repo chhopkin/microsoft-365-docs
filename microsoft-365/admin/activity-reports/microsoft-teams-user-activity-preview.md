@@ -3,6 +3,7 @@ title: "Microsoft 365 admin center Teams user activity reports"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.reviewer: hlu
 ms.date: 08/21/2023
 audience: Admin
 ms.topic: article
@@ -13,8 +14,7 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-- Adm_NonTOC
-- operations-pod
+- Adm_TOC
 ms.custom:
 - GAUpdates
 search.appverid:
@@ -75,8 +75,8 @@ To ensure data quality, we perform daily data validation checks for the past thr
 |Meetings participated scheduled recurring|Scheduled Recurring Meetings Attended Count|The number of the recurring meetings a user participated in during the specified time period.|
 |Is licensed|Is Licensed|Selected if the user is licensed to use Teams.|
 |Other activity|Has Other Action|The User is active but performed other activities than exposed action types offered in the report (sending or replying to channel messages and chat messages, scheduling or participating in 1:1 calls and meetings). Examples actions are when a user changes the Teams status or the Teams status message or opens a Channel Message post but doesn't reply.|
-|Audio Duration|-|Same definition as “Audio Duration (In seconds)" and formatted by ISO 8601 - Wikipedia|
-|Video Duration|-|Same definition as “Video Duration (In seconds)" and formatted by ISO 8601 - Wikipedia|
+|Audio Duration|-|Same definition as “Audio Duration (In Seconds)" and formatted by ISO 8601 - Wikipedia|
+|Video Duration|-|Same definition as “Video Duration (In Seconds)" and formatted by ISO 8601 - Wikipedia|
 |Screen Share Duration|-|The sum of the screen share duration of a user used during the specified time period and formatted by ISO 8601 - Wikipedia|
 |Audio Duration (In Seconds)|Audio Time (Min)|Total time the user participated in meetings or calls where audio was enabled. Counts the entire meeting or call duration if the user sent or received audio, not just time speaking or unmuted. Includes meetings initiated via Screenshare from Chat (SSFC) when audio is enabled. Applies to both senders and receivers; nonoptimized VDI clients might show nonzero minutes without active audio use.|
 |Video Duration (In Seconds)|Video Time (Min)|Total time the user participated in meetings or calls where video was enabled. Counts the entire meeting or call duration if the user sent or received video, not just time the camera was on. Includes SSFC meetings when video is enabled. Applies to both senders and receivers; nonoptimized VDI clients might show nonzero minutes without active video use.|
