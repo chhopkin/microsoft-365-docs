@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.reviewer: jkinma, ramagane
 audience: Admin
 ms.topic: how-to
@@ -16,16 +16,16 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_purchase
 - AdminSurgePortfolio
 - admindeeplinkMAC
 - GAUpdates
 - campaignIDs-batch2
+service.tree.id: 95459a4b-434c-4f83-879b-aa5f509fc7fa
 search.appverid: MET150
 description: "Learn how to work with Microsoft-certified solution providers (partners) to buy and manage products and services for your organization or school."
-ms.date: 01/08/2025
+ms.date: 09/29/2025
 ---
 
 # Manage Microsoft-certified solution provider partner relationships
@@ -101,5 +101,4 @@ You can remove admin roles from a partner at any time. Removing the admin roles 
 If you don't see the **Remove roles** option, contact the [Partner Center](https://partner.microsoft.com/support).
 ## Admin On Behalf Of (AOBO) access to pages in Microsoft 365 admin center
 
-If you're a partner who's an Admin On Behalf Of (AOBO) a customer, the **Purchase services**, **Your products**, and **Bills & payments** pages are no longer available in the **Billing** menu in the Microsoft 365 admin center. To buy and manage subscriptions for your customer, visit the [Partner Center](https://partner.microsoft.com). You can still view the **Licenses** and **Billing notifications** pages in the **Billing** menu. To manage domain subscriptions for your customers, ask them to sign in with an account that has both the Domain Name Administrator and Billing Administrator role. 
-
+If you're a partner who's an Admin On Behalf Of (AOBO) a customer, the **Marketplace** page, **Billing** > **Your products** page, and **Billing** > **Bills & payments** page are no longer available in the Microsoft 365 admin center. To buy and manage subscriptions for your customer, visit the [Partner Center](https://partner.microsoft.com). You can still view the **Licenses** and **Billing notifications** pages in the **Billing** menu. To manage domain subscriptions for your customers, ask them to sign in with an account that has both the Domain Name Administrator and Billing Administrator role.

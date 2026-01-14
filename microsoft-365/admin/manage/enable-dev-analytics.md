@@ -4,7 +4,7 @@ f1.keywords:
 - CSH
 ms.author: kwekua
 author: kwekuako
-manager: dansimp
+manager: scotv
 ms.date: 04/14/2025
 audience: Admin
 ms.topic: how-to
@@ -36,6 +36,8 @@ In the Microsoft 365 admin center, the **App usage for custom app** setting allo
 To enable the setting, in the Microsoft 365 Admin Center, sign in with the **Teams admin** role or **Global admin** role, and under **Org settings**, select **Developer Portal for Teams** and then enable the setting in the flyout pane as shown in the following image:
 
 :::image type="content" source="../../media/enable-dev-analytics/enable-dev-analytics-flyout.png" alt-text="Image of the flyout pane where you can enable the setting":::
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 ## How will this setting affect admins and their organization?
 

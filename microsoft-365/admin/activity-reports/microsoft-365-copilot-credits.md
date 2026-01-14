@@ -17,7 +17,8 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 - operations-pod
-ms.custom: AdminSurgePortfolio
+ms.custom:
+- GAUpdates
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn about the Copilot credits consumption report in the Microsoft 365 admin center and how it helps to manage costs associated with Microsoft 365 Copilot Chat."
 ms.date: 09/01/2025
@@ -156,6 +157,8 @@ Yes. You can set up the pay-as-you-go billing policy in the Microsoft 365 admin 
 ### How do I view the billing policy ID if it's concealed?  
 
 By default, the Billing Policy ID in the Copilot credits report is anonymized, similar to the username and display name. Global administrators can modify settings to either reveal or conceal the Billing Policy ID.
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 1. In the Microsoft 365 admin center, go to the **Settings** > **Org Settings** page.
 2. On the **Services** tab, select **Reports**.

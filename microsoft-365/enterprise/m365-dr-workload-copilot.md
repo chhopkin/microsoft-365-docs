@@ -3,15 +3,15 @@ title: Data Residency for Microsoft 365 Copilot and Copilot Chat
 description: Learn about data residency for Microsoft 365 Copilot and Copilot Chat.
 ms.author: v-fahasen
 author: fhasen-msft
-manager: v-nihmi
+manager: Justin.Giammona
 ms.service: microsoft-365-enterprise
 ms.subservice: advanced-data-residency
 ms.topic: concept-article
 f1.keywords:
 - NOCSH
-ms.date: 02/20/2025
+ms.date: 09/01/2025
 ms.update-cycle: 180-days
-ms.reviewer: deanw
+ms.reviewer: jugiammo
 ms.custom:
 - it-pro
 ms.localizationpriority: medium
@@ -61,7 +61,7 @@ Required Conditions:
 
 **Commitment:**
 
-Refer to the [ADR Commitment page](m365-dr-commitments.md#microsoft-365-copilot-and-microsoft-365-copilot-chat) to understand the specific data at rest commitments for Microsoft 365 Copilot. Examples of the committed data include:
+Refer to the [ADR Commitment page](m365-dr-commitments.md#microsoft-365-copilot-and-copilot-chat) to understand the specific data at rest commitments for Microsoft 365 Copilot. Examples of the committed data include:
 
 - "Content of Interactions" such as the user's prompt and the response from Microsoft 365 Copilot or Microsoft 365 Copilot Chat, including citations to any information used to ground Microsoft 365 Copilot's response.
 

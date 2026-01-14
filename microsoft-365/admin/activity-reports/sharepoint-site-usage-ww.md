@@ -3,8 +3,8 @@ title: "Microsoft 365 admin center SharePoint site usage reports"
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 04/01/2025
 audience: Admin
 ms.topic: article
@@ -33,6 +33,8 @@ description: "Get the SharePoint site usage report to know how many files users 
 As a Microsoft 365 admin, the Reports dashboard shows you the activity overview across various products in your organization. It enables you to drill in to get more granular insight about the activities specific to each product. For example, you can get a high-level view of the value you are getting from SharePoint in terms of the total number of files that users store in SharePoint sites, how many files are actively being used, and the storage consumed across all these sites. Then, you can drill into the SharePoint site usage report to understand the trends and per site level details for all sites.
 
 ## How to get to the SharePoint site usage report
+
+For information about what permissioms are needed to view the report, see [Who can see reports](activity-reports.md#who-can-see-reports).
 
 1. In the admin center, go to the **Reports** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a> page.
 2. From the dashboard homepage, under Reports, select **Sharepoint**.

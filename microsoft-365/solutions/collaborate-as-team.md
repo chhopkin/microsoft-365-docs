@@ -6,7 +6,7 @@ manager: jtremper
 ms.date: 05/31/2024
 audience: ITPro
 ms.topic: how-to
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.collection: 
 - highpri
 - Tier1
@@ -16,8 +16,9 @@ ms.collection:
 - m365solution-securecollab
 - m365initiative-externalcollab
 ms.custom:
-- chat-teams-channels-revamp 
+- chat-teams-channels-revamp
 - seo-marvel-apr2020
+- m365-solutions-doc-set
 - admindeeplinkMAC
 - admindeeplinkTEAMS
 - admindeeplinkSPO

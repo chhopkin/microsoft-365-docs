@@ -3,7 +3,7 @@ title: "Microsoft 365 admin center katakana glossary"
 f1.keywords: NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
-manager: dansimp
+manager: scotv
 ms.reviewer: soranm
 audience: Admin
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "Key Compliance and Security Considerations for the Energy Industry"
-ms.author: bcarter
-author: brendacarter
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: 1/26/2024
 audience: ITPro
@@ -11,10 +11,12 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 - M365-security-compliance
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: high
 description: Microsoft 365 helps energy organizations move to a modern collaboration platform, while helping keep data and systems secure and compliant with regulations.
-ms.custom: seo-marvel-jun2020
+ms.custom:
+- seo-marvel-jun2020
+- m365-solutions-doc-set
 ---
 
 # Key Compliance and Security Considerations for the Energy Industry
@@ -108,7 +110,7 @@ Microsoft Teams enables self-service creation of Teams by default. However, many
 
 ## Provide Secure and Compliant Collaboration in the Energy Industry
 
-As mentioned, Microsoft Office 365 and Office 365 U.S. Government have each achieved FedRAMP ATO at the Moderate Impact Level. Azure and Azure Government have achieved a FedRAMP High P-ATO which represents the highest level of FedRAMP authorization. Additionally, the FedRAMP moderate control set encompasses all of the NERC CIP requirements, thereby allowing energy industry organizations ("registered entities") to leverage existing FedRAMP authorizations as a scalable and efficient approach to addressing NERC audit requirements. However, it's important to note that FedRAMP isn't a point-in-time certification but an assessment and authorization program that includes provisions for [continuous monitoring](https://www.fedramp.gov/resources/documents/CSP_Continuous_Monitoring_Strategy_Guide.pdf). Although this provision applies primarily to the CSP, Microsoft customers operating Bulk Electric Systems are responsible for ensuring their own compliance with NERC CIP standards. It's generally a recommended practice to continuously monitor the organization's compliance posture to help ensure ongoing compliance with regulations.
+As mentioned, Microsoft Office 365 and Office 365 U.S. Government have each achieved FedRAMP ATO at the Moderate Impact Level. Azure and Azure Government have achieved a FedRAMP High P-ATO which represents the highest level of FedRAMP authorization. Additionally, the FedRAMP moderate control set encompasses all of the NERC CIP requirements, thereby allowing energy industry organizations ("registered entities") to leverage existing FedRAMP authorizations as a scalable and efficient approach to addressing NERC audit requirements. However, it's important to note that FedRAMP isn't a point-in-time certification but an assessment and authorization program that includes provisions for continuous monitoring. Although this provision applies primarily to the CSP, Microsoft customers operating Bulk Electric Systems are responsible for ensuring their own compliance with NERC CIP standards. It's generally a recommended practice to continuously monitor the organization's compliance posture to help ensure ongoing compliance with regulations.
 
 Microsoft provides a key tool to assist with monitoring compliance with regulations over time:
 

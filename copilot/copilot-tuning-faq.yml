@@ -7,7 +7,7 @@ metadata:
   manager: calvind
   ms.service: microsoft-365-copilot
   ms.topic: faq
-  ms.date: 06/17/2025
+  ms.date: 10/27/2025
 
 title: Microsoft 365 Copilot Tuning FAQ
 summary: |
@@ -51,7 +51,7 @@ sections:
   - question: |
       Do my data governance policies persist through the ingestion and training process?
     answer: |
-      Yes. Copilot Tuning automatically excludes from training any files that the security groups configured for the tuned model can't access. It automatically suggests other security groups to maximize the breadth of knowledge that can be securely incorporated into the model. Although this provides an extra layer of security for the model, we recommend that you treat each model as a copy of the trained data. If the original data is deleted or changed, the model remains the same unless the admin adjusted the permission on the model.
+      Yes. Copilot Tuning automatically excludes from training any files that the security groups configured for the tuned model can't access. It automatically suggests other security groups to maximize the breadth of knowledge that can be securely incorporated into the model. Although this feature provides an extra layer of security for the model, we recommend that you treat each model as a copy of the trained data. If the original data is deleted or changed, the model remains the same unless the admin adjusted the permission on the model.
 
       For more information about model governance, see the [Admin guide](copilot-tuning-admin-guide.md).
   - question: |
@@ -107,7 +107,7 @@ sections:
   - question: |
       How can I customize the knowledge domain for Copilot Tuning?
     answer: |
-      You select the specific content to use for training and grounding. This includes choosing data sources like SharePoint sites, folders, or uploaded files. By curating the training data, you define the scope and expertise of the model.
+      You select the specific content to use for training and grounding. You can choose data sources like SharePoint sites, folders, or uploaded files. By curating the training data, you define the scope and expertise of the model.
   - question: |
       How do I know if the tuning process was successful?
     answer: |
@@ -119,7 +119,7 @@ sections:
   - question: |
       Can I retrain models with new data?
     answer: |
-      Yes, you can retrain models with new data or data sources as your business needs evolve.
+      Yes, you can retrain models with new data or data sources as your business needs change.
 
 - name: Building and managing agents
   questions:

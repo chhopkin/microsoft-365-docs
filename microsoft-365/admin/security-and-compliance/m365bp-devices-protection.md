@@ -1,12 +1,12 @@
 ---
 title: Device protection in Microsoft 365 Business Premium
 description: Identify personal, unmanaged devices and company-owned devices, and learn how to secure them.
-ms.author: chrisda
-author: chrisda
-manager: deniseb
+ms.author: vpattnaik
+author: vpattnai
+manager: dansimp
 ms.date: 08/14/2025
 ms.topic: how-to
-ms.service: microsoft-365-business-security
+ms.service: microsoft-365-security
 ms.localizationpriority: medium
 ms.collection:
 - M365-Campaigns

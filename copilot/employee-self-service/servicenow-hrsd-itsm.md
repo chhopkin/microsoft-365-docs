@@ -5,12 +5,11 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 07/15/2025
+ms.date: 11/12/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
-robots: NOINDEX, NOFOLLOW
 ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn about integrating ServiceNow HRSD and ITSM in the deployment process for the Employee Self-Service agent.
@@ -20,17 +19,14 @@ appliesto:
 
 # Integrate ServiceNow HRSD and ITSM with your Employee Self-Service deployment
 
-> [!NOTE]
-> The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
-
 > [!IMPORTANT]
-> You need to complete the steps to deploy the Employee Self-Service (ESS) agent before you can configure this supplemental extension pack.
+> You need to complete the steps to deploy the Employee Self-Service agent before you can configure this supplemental extension pack.
 
-The Employee Self-Service agent is built on Copilot and uses AI to provide relevant information to employees and take actions on their HR data. If your organization uses a human resource management system, the ESS agent requires access to that system to function most effectively.
+The Employee Self-Service agent is built on Copilot and uses AI to provide relevant information to employees and take actions on their HR data. If your organization uses a human resource management system, the Employee Self-Service agent requires access to that system to function most effectively.
 
 ## Functional synopsis
 
-ESS Agent acts as a front-end for consuming information from ServiceNow HRSD and ITSM using the Power Platform connector. The following items are the capabilities enabled for this integration:
+The Employee Self-Service agent acts as a front-end for consuming information from ServiceNow HRSD and ITSM using the Power Platform connector. The following items are the capabilities enabled for this integration:
 
 - Create an HR case
 - Get case details
@@ -44,9 +40,9 @@ ESS Agent acts as a front-end for consuming information from ServiceNow HRSD and
 
 ## Technical synopsis
 
-:::image type="content" source="media/agent-service-now-integration.png" alt-text="Diagram the high-level components comprising overall solution for ESS agent and ServiceNow HRSD integration." lightbox="media/agent-service-now-integration.png":::
+:::image type="content" source="media/agent-service-now-integration.png" alt-text="Diagram the high-level components comprising overall solution for the Employee Self-Service agent and ServiceNow HRSD integration." lightbox="media/agent-service-now-integration.png":::
 
-The previous diagram outlines the high-level components comprising overall solution for ESS agent and ServiceNow HRSD integration. There are different activities to be performed as a part of initial deployment and for an ongoing operation. As the solution involves multiple technologies, it's better to spend some time initially in understanding the various components. When you're ready, you can bring in the right stakeholders to set up an environment to deploy and test ESS Agent.
+This diagram outlines the high-level components comprising overall solution for the Employee Self-Service agent and ServiceNow HRSD integration. There are different activities to be performed as a part of initial deployment and for an ongoing operation. As the solution involves multiple technologies, it's better to spend some time initially in understanding the various components. When you're ready, you can bring in the right stakeholders to set up an environment to deploy and test the Employee Self-Service agent.
 
 ## Known issues and limitations
 
@@ -59,11 +55,12 @@ For detailed documentation about the connector, see [ServiceNow - Connectors](/c
 
 ## Prerequisites
 
-- ServiceNow HRSD / ITSM instance
-- Microsoft 365 Tenant
-- ESS Agent is installed
+- Have a ServiceNow HRSD/ITSM instance
+- Have a Microsoft 365 tenant
+- Install the Employee Self-Service agent
+- Install the HRMS plugin
 
-Refer to the ESS Agent deployment guide for installation of the agent and subscription requirements required for the ESS Agent itself.
+Refer to the Employee Self-Service agent [deployment guide](deploy-overview-alm.md) for installation of the agent and subscription requirements required for the Employee Self-Service agent.
 
 ### Deployment role requirements
 
@@ -72,7 +69,7 @@ Refer to the ESS Agent deployment guide for installation of the agent and subscr
 |**ServiceNow Administrator**                          |A user who can perform administrative tasks |Create a service account and assign a role to provide read access to specific table records |ServiceNow |
 |**ServiceNow Security Administrator**                 |A user who can configure OAuth |Create OAuth Application Registry – *if using OAuth for ServiceNow connector* |ServiceNow |
 |**Application Developer** (*minimum privileged role*) |A user who can register an application |Create an App registration - *if using Microsoft Entra OAuth for ServiceNow connector* |Microsoft 365 admin center |
-|**Environment Maker**                                 |A user who can customize ESS Agent |Configure and Customize the ESS Agent |Microsoft Copilot Studio |
+|**Environment Maker**                                 |A user who can customize Employee Self-Service agent |Configure and customize the Employee Self-Service agent |Microsoft Copilot Studio |
 
 ## ServiceNow configuration
 
@@ -110,18 +107,18 @@ This authentication uses app tokens, allowing a registered Microsoft Entra ID ap
 5. Choose **Register** to complete the creation of the new app registration.
 6. Select **Token configuration** then **Add optional claim** for adding claims setting.
 7. Select **Token type** as **Access** and choose the following claims:
-   - *aud* - for audience validation
-   - *email* - addressable email for user
-   - *upn* - an identifier for the user
+   - *Aud* - for audience validation
+   - *Email* - addressable email for user
+   - *UPN* - an identifier for the user
 8. Select **Add** to complete adding the claims.
-9. If it's the first time OpenId Connect being setup using claims like email, upn, there's a confirmation screen to turn on the Microsoft Graph permissions. If you see the confirmation, check the box, and then select **Add**.
+9. If it's the first time OpenId Connect being setup using claims like email, UPN, there's a confirmation screen to turn on the Microsoft Graph permissions. If you see the confirmation, check the box, and then select **Add**.
 
 This flow completes the Microsoft Entra piece of configuration.
 
 #### Task 2: Register OIDC provider in ServiceNow
 
-1. Sign in to the ServiceNow instance that needs to be integrated with ESS Agent.
-2. Elevate access permissions using **Elevate role**. Refer to the section **Error! Reference source not found.** – only the first part and not the tasks.
+1. Sign in to the ServiceNow instance that needs to be integrated with the Employee Self-Service agent.
+2. Elevate access permissions using **Elevate role**. Refer to the section **Error! Reference source not found.** - only the first part and not the tasks.
 3. Select **All** in the top navigation bar.
 4. Search for "OAuth" in the search box within dropdown navigation menu.
 5. Select **System OAuth à Application Registry** from the search results (if you don't see this option, you don't have sufficient privileges).
@@ -131,7 +128,7 @@ This flow completes the Microsoft Entra piece of configuration.
 
    |Configuration |Description |
    |--------------|------------|
-   |Name |a meaningful name to identify that this OIDC provider was created for ESS Agent |
+   |Name |a meaningful name to identify that this OIDC provider was created for the Employee Self-Service agent |
    |Client ID |The client ID of Microsoft Entra Application created in Task 1 above |
    |Client secret |This value isn't used; can be any value |
    |OAuth OIDC provider configuration |Add a new OIDC provider configuration by selecting the search icon and choosing **New** in the search popup. Fill in the fields as follows:</br> **OIDC Provider:** A name that represents the Microsoft Entra tenant from task 1 above.</br> **OIDC Metadata URL:** `login.microsoftonline.com/<tenant ID>/.well-known/openid-configuration`</br> Replace < tenant ID > with the Microsoft Entra tenant ID from task 1 above.</br> **OIDC Configuration Cache Life Span:** 120</br> **Application:** Global</br> **User Claim:** oid</br> **User Field:** User ID</br> **Enable JTI claim verification:** disabled</br> Select **Submit** and update the OIDC Entity form. |
@@ -161,26 +158,25 @@ In this task, you add a user to the Application created in task 3, earlier in th
 
 The user-token based authentication where the end user can sign into Microsoft Entra ID using the ServiceNow connector, and get an access token with scope for the ServiceNow representative Microsoft Entra ID app.
 
-Perform tasks 1 and 2 from the previous sections for Microsoft Entra ID OAuth using Certificate.
+Perform tasks 1 and 2 from the previous section, [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate).
 
-In task 1, you add the application using the ServiceNow connector to the permission scope with Client ID = `c26b24aa-7874-4e06-ad55-7d06b1f79b63`.
+- In task 1, add the application using the ServiceNow connector to the permission scope with Client ID = `c26b24aa-7874-4e06-ad55-7d06b1f79b63`.
+- In task 2, update the user claim to UPN or any other custom claim property from the token in ServiceNow. The user field should match the ServiceNow system user table field containing the UPN or user ID.
 
-In task 2, you update the user claim to upn or any other custom claim property from the token in ServiceNow. The user field should match the ServiceNow system user table field containing the upn or user ID.
+### OAuth2 authentication - Create an OAuth Application Registry
 
-### Using OAuth2 authentication - Create an OAuth Application Registry
-
-1. Sign in to the ServiceNow instance that needs to be integrated with ESS Agent.
+1. Sign in to the ServiceNow instance that needs to be integrated with the Employee Self-Service agent.
 2. Elevate access permissions using **Elevate role**.
 3. Select **All** in the top navigation bar.
 4. Search for **OAuth** in the search box within dropdown navigation menu.
-5. Select **System OAuth → Application Registry** from the search results (if you don't see this option, you don't have sufficient privileges).
+5. Select **System OAuth > Application Registry** from the search results (if you don't see this option, you don't have sufficient privileges).
 6. Select **New** button in the top right corner of the configuration section pane.
 7. Select **Create an OAuth API endpoint for external clients**.
 8. Fill in the following information for the new application registry:
 
    | Configuration | Description |
    |---------|---------|
-   | **Name** | a meaningful name to identify that this application registry is created for ESS Agent |
+   | **Name** | a meaningful name to identify that this application registry is created for the Employee Self-Service agent |
    | **Client ID** | autogenerated code <br><div class="alert">**Note**</br>This value is used in Microsoft 365 Copilot Connector configuration, if no Advanced Scripting is used. |
    | **Client Secret** | leave it blank to automatically generate a string <br><div class="alert">**Note**</br>This value is used in Microsoft 365 Copilot Connector configuration, if no Advanced Scripting is used. |
    | **Redirect URL** | a required callback URL that the authorization server redirects to </br>For Microsoft 365 Enterprise:</br>`https://gcs.office.com/v1.0/admin/oauth/callback`</br>For Microsoft 365 Government:</br>`https://gcsgcc.office.com/v1.0/admin/oauth/callback` Refer to the note after this table for more information.|
@@ -192,80 +188,121 @@ In task 2, you update the user claim to upn or any other custom claim property f
    | **Accessible from** | All application scopes |
    | **Client Type** | Integration as a Service |
 
-   > [!NOTE]
-   > For the Redirect URL, use the actual callback URL from the sign-in popup window during connection configuration by following these steps:
-   >    
-   > 1. When the URL redirection fails with the error **Invalid redirect_uri**, copy complete URL from the authorization popup window and paste it into an app, such as Notepad.
-   >     
-   > 2. Extract the `redirect_uri parameter`. Here's an example: `redirect_uri=https%3a%2f%2ftip1-shared.consent.azure-apim.net%2fredirect`.
-   > 
-   > 3. After decoding the URL, by replacing `%3a` with `:` and `%2f` with `/`, update the Redirect URL field.
-
 9. Select **Submit** or **Update** button to save the changes.
+
+### Share connection parameters
+
+The ServiceNow connections are configured by the agent maker which need to be shared with all users so that the users are not prompted for authentication the first time the agent is being used with a ServiceNow connection.
+
+Follow the steps in the [Create and manage connections](/microsoft-copilot-studio/authoring-connections#share-connection-parameters-for-on-behalf-of-obo-authentication) article to share connection parameters for On-Behalf-Of (OBO) authentication.
+
+### Connector preparation
+
+With improvements in the ServiceNow integration, the connector objects should be cleaned up before reinstallation or update to the ServiceNow packages. This cleanup is needed because of platform changes for both Power Platform and Copilot Studio.
 
 ### Install ServiceNow HRSD extension pack
 
-ESS Agent is designed to have separate extension packs for third-party ISVs like ServiceNow. As a result, these extension packs must be installed first before starting any configurations or customizations.
+The Employee Self-Service agent is designed to have separate extension packs for third-party external system solutions like ServiceNow. As a result, these extension packs must be installed first before starting any configurations or customizations.
 
 The following steps are required to install and enable the ServiceNow HRSD extension pack:
 
 1. **Entitlement**:
 
-   Work with your ESS Agent private preview product managers for the entitlement process. Once the entitlement process is complete for your tenant, the ServiceNow HRSD extension pack shows up under "Customize" section of ESS Agent.
-
-   > [!NOTE]
-   > "Entitlement" process is a preview workaround until the extension pack installation is streamlined in Microsoft Copilot Studio.
-
-2. **Open the ESS Agent in Copilot Studio**:
-
-   1. Open the ESS Agent in Copilot Studio.
-   2. Navigate to **Settings**.   
-   3. Select **Customize** from the left navigation under **Settings**.
-   4. Select **Employee Self-Service Agent in Microsoft 365 Copilot – ServiceNow HR Service Delivery** and select **Install**.
-   5. When prompted, update the connections as described by selecting " ..." or **sign in** buttons on the right hand side for ServiceNow connection.
-   6. Use the following parameters to complete the configuration (**if using OAuth2**):
-
-      | Feature                 | Description |
-      |-------------------------|-------------|
-      | **Authentication Type** | Use Oauth2 |
-      | **Instance Name**       | The instance name used to identify the ServiceNow Site URl <br>For example:</br>**contoso** – *don't use the full url or domain name like contoso.service-now.com* |
-      | **Client Id**           | Client ID created in Task 1 |
-      | **Client Secret**       | Client ID created in Task 1 |
-
-   7. ServiceNow asks for sign-in again. Use the same account used previously for ServiceNow configuration.
-   8. Confirm the consent by selecting **Allow**.
-   9. The **Microsoft Dataverse** connection is the user account that should be automatically signed in, if not, select **Sign in**.
-
-### Install ServiceNow ITSM extension pack
-
-ESS Agent is designed to have separate extension packs for each third party ISVs like ServiceNow, and so on. As a result, these extension packs must be installed before starting any configurations or customizations.
-
-These steps are required to install and enable the ServiceNow HRSD extension pack:
-
-1. **Entitlement**:
-
-   Work with your ESS Agent private preview product managers for the entitlement process. Once the entitlement process is complete for your tenant, the ServiceNow HRSD extension pack shows up under "Customize" section of ESS Agent.
+   Work with your Employee Self-Service agent private preview product managers for the entitlement process. Once the entitlement process is complete for your tenant, the ServiceNow HRSD extension pack shows up under "Customize" section of the Employee Self-Service agent.
 
    > [!NOTE]
    > "Entitlement" process is a preview workaround until the extension pack installation is streamlined in Microsoft Copilot Studio.
 
 2. **Install the extension**:
-   1. Open the ESS Agent in Copilot Studio.   
+
+   1. Open the Employee Self-Service agent in Copilot Studio.
+   2. Navigate to **Settings**.   
+   3. Select **Customize** from the left navigation under **Settings**.
+   4. Select **Employee Self-Service Agent in Microsoft 365 Copilot – ServiceNow HR Service Delivery** and select **Install**.
+   5. When prompted, update the connections as described by selecting " ..." or **sign in** buttons on the right hand side for ServiceNow connection.
+   6. Use the following parameters to complete the configuration (**for Microsoft Entra ID using Certificate**):
+
+      | Feature                  | Description |
+      |--------------------------|-------------|
+      | **Authentication Type**  | Microsoft Entra ID OAuth using Certificate |
+      | **Instance Name**        | The instance name used to identify the ServiceNow Site URL <br>For example:</br>**contoso** – *don't use the full url or domain name, like contoso.service-now.com* |
+      | **Tenant ID**            | The tenant ID of the Microsoft Entra tenant |
+      | **Client ID**            | The client ID created in Task 3 of [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate) |
+      | **Resource URI**         | The client ID of the Entra organization created in Task 1 of [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate) |
+      | **Client Secret**        | The .pfx file of the certificate created in Task 3 of [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate) |
+      | **Certificate password** | The password of the .pfx file |
+
+   7. Use the following parameters to complete the configuration for **Microsoft Entra ID User Login**:
+
+      | Feature                  | Description |
+      |--------------------------|-------------|
+      | **Authentication Type**  | Microsoft Entra ID user login |
+      | **Instance Name**        | The instance name used to identify the ServiceNow Site URL <br>For example:</br>**contoso** – *don't use the full url or domain name, like contoso.service-now.com* |
+      | **Resource URI**         | The client ID of the Entra organization created in Task 1 of [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate) |
+
+   8. Use the following parameters to complete the configuration for **OAuth2**:
+
+      | Feature                  | Description |
+      |--------------------------|-------------|
+      | **Authentication Type**  | OAuth2      |
+      | **Instance Name**        | The instance name used to identify the ServiceNow Site URL <br>For example:</br>**contoso** – *don't use the full url or domain name, like contoso.service-now.com* |
+      | **Client ID**            | Client ID created in Task 1 |
+      | **Client Secret**        | Client secret created in Task 1 |
+
+   9. ServiceNow asks for sign-in again. Use the same account for ServiceNow configutation as you supplied in the previous steps.
+   10. Confirm the consent by selecting **Allow**.
+   11. The **Microsoft Dataverse** connection is the user account that should be automatically signed in, if not, select **Sign in**.
+
+### Install ServiceNow ITSM extension pack
+
+The Employee Self-Service agent is designed to have separate extension packs for each third party external system solutions like ServiceNow, and so on. As a result, these extension packs must be installed before starting any configurations or customizations.
+
+These steps are required to install and enable the ServiceNow HRSD extension pack:
+
+1. **Entitlement**:
+
+   Work with your Employee Self-Service agent private preview product managers for the entitlement process. Once the entitlement process is complete for your tenant, the ServiceNow HRSD extension pack shows up under "Customize" section of the Employee Self-Service agent.
+
+   > [!NOTE]
+   > "Entitlement" process is a preview workaround until the extension pack installation is streamlined in Microsoft Copilot Studio.
+
+2. **Install the extension**:
+   1. Open the Employee Self-Service agent in Copilot Studio.   
    2. Navigate to **Settings**.   
    3. Select **Customize** from the left navigation under **Settings**.
    4. Select **Employee Self-Service Agent in Microsoft 365 Copilot – ServiceNow IT Service Management** and select **Install**.
    5. When prompted, update the connections as described by selecting " ..." or **sign in** buttons on the right hand side for ServiceNow connection.
-   6. Use the following parameters to complete the configuration (if using OAuth2):
+   6. Use the following parameters to complete the configuration for **Microsoft Entra ID using Certificate**:
 
       | Feature | Description |
       |---------|---------|
       | **Authentication Type** | Use Oauth2 |
       | **Instance Name** | The instance name used to identify the ServiceNow Site URl <br>For example:</br>**contoso** – *don't use the full url or domain name like contoso.service-now.com* |
-      | **Client Id** | Client ID created in Task 1 |
-      | **Client Secret** | Client ID created in Task 1 |
+      | **Tenant Type**   | Tenant ID of the Microsoft Entra tenant |
+      | **Client Id** | Client ID created in Task 3 of [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate) |
+      | **Resource URI** | Client ID created in Task 1 of [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate) </br>(Application (client) ID) – not application URI |
+      | **Client certificate secret** | The .pfx file created in Task 3 of [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate) |
+      | **Certificate password**  | The password of the .pfx file |
 
-   7. ServiceNow asks for sign-in again. Use the same account used previously for ServiceNow configuration.
-   8. Confirm the consent by selecting **Allow**.
+   7. Use the following parameters to complete the configuration for **Microsoft Entra ID User Login**:
+
+      | Feature                  | Description |
+      |--------------------------|-------------|
+      | **Authentication Type**  | Microsoft Entra ID user login |
+      | **Instance Name**        | The instance name used to identify the ServiceNow Site URL <br>For example:</br>**contoso** – *don't use the full url or domain name, like contoso.service-now.com* |
+      | **Resource URI**         | The client ID of the Entra organization created in Task 1 of [Microsoft Entra ID OAuth using Certificate](#microsoft-entra-id-oauth-using-certificate) |
+
+   8. Use the following parameters to complete the configuration for **OAuth2**:
+
+      | Feature                  | Description |
+      |--------------------------|-------------|
+      | **Authentication Type**  | OAuth2      |
+      | **Instance Name**        | The instance name used to identify the ServiceNow Site URL <br>For example:</br>**contoso** – *don't use the full url or domain name, like contoso.service-now.com* |
+      | **Client ID**            | Client ID created in Task 1 |
+      | **Client Secret**        | Client secret created in Task 1 |
+
+   9. ServiceNow asks for sign-in again. Use the same account used previously for ServiceNow configuration.
+   10. Confirm the consent by selecting **Allow**.
 
 ## ServiceNow - HRSD
 
@@ -317,17 +354,17 @@ The following Topics are available from the ServiceNow ITSM extension pack:
 |**ServiceNow ITSM Update Ticket** | This topic gets the *sysID* and other necessary input required for the update call. Also validates if the user has necessary permission to update that ticket. |
 |**ServiceNow ITSM Get Ticket Updates** |This topic retrieves the latest update of IT support tickets for the user. It fetches the list of tickets and then provides the update related to the latest one. |
 
-### Modify template configurations
+### Modify agent starter configurations
 
-For any required modifications to the backend ServiceNow Incident APIs, the template configurations for each scenario can be adjusted in coordination with updates to the frontend topics.
+For any required modifications to the backend ServiceNow Incident APIs, the starter configurations for each scenario can be adjusted in coordination with updates to the frontend topics.
 
-To access the template configurations:
+To access the starter configurations:
 
-1. Navigate to the overview tab within the ESS Agent and scroll down to the ***Customize*** tab.
+1. Navigate to the overview tab within the Employee Self-Service agent and scroll down to the ***Customize*** tab.
 2. Select the installed customization titled ***Employee Self Service IT Helpdesk ServiceNow ITSM***.
 3. This action redirects you to the installed customization details page, where you can view all the Topics and Flows included in the customization package. Additionally, there's a ***Configuration*** option at the top with a manage button.
-4. By selecting the manage button, you're directed to the Dataverse Template Configurations table, which lists all available template configurations.
-5. Select the specific scenario template configuration. It opens the actual value in the Dynamics 365 webpage in a new tab, which can edit the JSON as needed and save your changes.
+4. By selecting the **Manage** button, you're directed to the Dataverse Template Configurations table, which lists all available starter configurations.
+5. Select the specific scenario starter configuration. It opens the actual value in the Dynamics 365 webpage in a new tab, which can edit the JSON as needed and save your changes.
 
 ### Capabilities for the ServiceNow extension pack
 
@@ -347,23 +384,23 @@ The Get Ticket List feature lets users retrieve a history of user tickets. This 
 
 #### Create Ticket
 
-Provides user the ability to create a ticket for IT helpdesk support. Post-Private Preview, users can add attachments to the ticket, letting them provide more context for easier resolution.
+Provides user the ability to create a ticket for IT helpdesk support. Users can add attachments to the ticket, letting them provide more context for easier resolution.
 
 #### Update Ticket
 
 The Update Ticket feature allows users to modify existing helpdesk tickets by adding comments and attributes. This functionality is crucial for maintaining clear and concise communication between users and support agents, ultimately enhancing the resolution process.
 
-Post-Private Preview, users can add attachments to the ticket, letting them provide more context for easier resolution.
+Users can now add attachments to the ticket, letting them provide more context for easier resolution.
 
-### ServiceNow ITSM template configurations
+### ServiceNow ITSM starter configurations
 
 These JSON configurations are intended for the ServiceNow APIs within the backend. These configurations facilitate the linkage between input and output variables from and to the bot. Each scenario has a corresponding JSON configuration, enabling extension pack users to adjust the parameters utilized in the APIs without altering anything in the backend workflows. The way the backend interacts with bot topics regarding input and output variables is defined within these configurations.
 
-The template configurations reside within a custom Dataverse table, created through the ESS base package upon installation in an environment. Extension packs contribute extra rows to this table, each containing a stringified JSON configuration for a specific scenario. These configurations are retrieved at runtime using the Dataverse connectors within Power Automate flows.
+The starter configurations reside within a custom Dataverse table, created through the Employee Self-Service agent base package upon installation in an environment. Extension packs contribute extra rows to this table, each containing a stringified JSON configuration for a specific scenario. These configurations are retrieved at runtime using the Dataverse connectors within Power Automate flows.
 
 ### Understanding configurations naming
 
-- **Scenario**: The name of the scenario used as the identifier of the operation. This item is the primary key for the template configuration and shouldn't be changed.
+- **Scenario**: The name of the scenario used as the identifier of the operation. This item is the primary key for the starter configuration and shouldn't be changed.
 - **FilterCriteria**: This criterion is used to filter the ServiceNow table by applying the "Operator" on a specific "FieldName". "VariableName" refers to the name of the variable passed from the bot topics containing the actual value. If this variable isn't mandatory, the bot author may choose not to send it.
 - **SortCriteria**: Used to sort the list of records from a ServiceNow Table on "FieldName" by "Operator".
 - **Limit**: Maximum number of records to return.

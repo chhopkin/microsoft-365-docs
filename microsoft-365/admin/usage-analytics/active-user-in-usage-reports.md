@@ -1,8 +1,8 @@
 ---
 title: "Active user in Microsoft 365 usage reports"
-ms.author: cmcatee
+ms.author: efrene
 author: efrene
-manager: dansimp
+manager: scotv
 ms.date: 04/23/2025
 audience: Admin
 ms.topic: article

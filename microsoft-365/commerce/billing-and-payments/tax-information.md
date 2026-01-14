@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.reviewer: jkinma, ramagane
 audience: Admin
 ms.topic: how-to
@@ -16,7 +16,7 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
+service.tree.id: 95459a4b-434c-4f83-879b-aa5f509fc7fa
 search.appverid: MET150
 ms.custom:
 - commerce_billing
@@ -27,7 +27,7 @@ ms.custom:
 - GAUpdates
 - campaignIDs-batch2
 description: "Learn about tax information for Microsoft 365 billing and payments, including how to update your address and tax status."
-ms.date: 03/30/2025
+ms.date: 09/29/2025
 ---
 
 # Tax information for Microsoft 365 for business products and services

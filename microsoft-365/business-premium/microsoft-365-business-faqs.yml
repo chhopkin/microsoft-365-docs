@@ -2,17 +2,17 @@
 metadata:
   title: Microsoft 365 Business Premium frequently asked questions
   description: Find answers to the most frequently asked questions about Microsoft 365 Business Premium, a solution designed for small and medium sized businesses (SMB) up to 300 users.
-  author: chrisda
+  author: vpattnai
   f1.keywords:
   - NOCSH
-  ms.author: chrisda
-  manager: deniseb
+  ms.author: vpattnaik
+  manager: dansimp
   ms.topic: how-to
   ms.service: microsoft-365-business-security
   ms.collection:
   - tier2
   - m365-security
-  ms.date: 05/30/2025
+  ms.date: 11/18/2025
   ms.localizationpriority: medium
   audience: microsoft-business
   keywords: Microsoft 365 Business Premium, Microsoft 365, SMB, FAQ, frequently asked questions, answers, business
@@ -41,7 +41,7 @@ sections:
 
       - question: Is there a limit to how many Microsoft 365 Business Premium licenses I can have?
         answer: |
-          Yes. Business Premium is designed for small to medium-sized businesses with low to medium IT complexity requirements. You can purchase up to 300 Business Premium licenses for an organization.
+          Yes. Business Premium is designed for small to medium-sized businesses with low to medium IT complexity requirements. You can purchase up to 300 seats for your organization.  
           
           You can also mix and  match other cloud subscriptions (for example, Microsoft Defender for Endpoint or another Microsoft 365 Enterprise subscription).
 
@@ -49,7 +49,7 @@ sections:
 
       - question: Can I combine Microsoft 365 Business Premium with other Microsoft subscription offerings?
         answer: |
-          Yes. You can combine Business Premium subscriptions with plans and add-ons from Azure, Dynamics 365, Enterprise Mobility + Security, and Office 365.
+          Yes. You can combine Business Premium subscriptions with plans and add-ons from Azure, Dynamics 365, Enterprise Mobility + Security, and Office 365. 
 
       - question: Is everyone in my organization required to have a Microsoft 365 Business Premium subscription?
         answer: |

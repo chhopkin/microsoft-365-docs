@@ -4,10 +4,10 @@ f1.keywords:
 - NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
-ms.reviewer: enuviadenu, socheng
+manager: scotv
+ms.reviewer: socheng, ramagane
 audience: Admin
-ms.topic: article
+ms.topic: concept-article
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-acquisition
 ms.localizationpriority: medium
@@ -16,13 +16,13 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_signup
 - AdminSurgePortfolio
 - okr_SMB
 - has-azure-ad-ps-ref
 - azure-ad-ref-level-one-done
+service.tree.id: 0317a4e2-dc2f-45d7-9daf-cafee8b9db0f
 search.appverid: MET150
 description: "Learn about the Microsoft 365 self-service sign-up and available self-service programs such as Microsoft Power Apps, Microsoft Power Automate, and Dynamics 365 for Finance."
 ms.date: 01/06/2025

@@ -1,8 +1,8 @@
 ---
 title: "Use PowerShell to resolve site URLs in reports"
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 03/08/2024
 audience: Admin
 ms.topic: how-to
