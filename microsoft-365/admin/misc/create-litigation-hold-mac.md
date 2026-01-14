@@ -9,7 +9,7 @@ manager: dansimp
 ms.date: 04/10/2025
 audience: Admin
 ms.topic: how-to
-ms.service: purview-ediscovery
+ms.service: microsoft-365
 ms.localizationpriority: medium
 ms.custom:
 - admindeeplinkCOMPLIANCE

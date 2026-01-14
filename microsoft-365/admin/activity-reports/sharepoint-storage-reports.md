@@ -3,8 +3,8 @@ title: "Microsoft 365 Reports in the admin center – SharePoint storage"
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 05/12/2025
 audience: Admin
 ms.topic: article
@@ -37,6 +37,8 @@ The SharePoint storage report provides an overview of your tenant’s storage us
 
 ## View SharePoint storage report
 
+For information about what permissioms are needed to view the report, see [Who can see reports](activity-reports.md#who-can-see-reports).
+
 To view the SharePoint storage report, perform the following steps:
 
 1. In the Microsoft 365 admin center, go to **Reports > Usage**. The **Usage** page appears.
@@ -51,10 +53,12 @@ To view the SharePoint storage report, perform the following steps:
 
 The SharePoint storage report contains the following sections:
 
-- [Optimize your organization’s SharePoint storage](#optimize-your-organizations-sharepoint-storage)
-- [Total usage](#total-usage)
-- [Usage trend](#usage-trend)
-- [Featured resources](#featured-resources)
+- [Microsoft 365 Reports in the admin center – SharePoint storage](#microsoft-365-reports-in-the-admin-center--sharepoint-storage)
+  - [View SharePoint storage report](#view-sharepoint-storage-report)
+    - [Optimize your organization’s SharePoint storage](#optimize-your-organizations-sharepoint-storage)
+    - [Total usage](#total-usage)
+    - [Usage trend](#usage-trend)
+    - [Featured resources](#featured-resources)
 
 ### Optimize your organization’s SharePoint storage
 

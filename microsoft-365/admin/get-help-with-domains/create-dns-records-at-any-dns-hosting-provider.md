@@ -2,8 +2,8 @@
 title: "Add DNS records to connect your domain"
 f1.keywords:
 - CSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 03/18/2025
 audience: Admin

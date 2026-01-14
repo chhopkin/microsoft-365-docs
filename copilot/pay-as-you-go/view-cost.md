@@ -3,7 +3,7 @@ title: View costs for Microsoft 365 Copilot pay-as-you-go
 description: Enterprise and company IT administrators can learn how to view billing and costs for pay-as-you-go for Microsoft 365 Copilot services in the Microsoft 365 admin center, including Microsoft 365 Copilot Chat.
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.date: 06/16/2025
 ms.update-cycle: 180-days
 ms.reviewer: nishanair
@@ -16,7 +16,9 @@ ms.collection:
 - magic-ai-copilot
 - essentials-overview
 - operations-pod
-ms.custom: [copilot-learning-hub]
+ms.custom: 
+- [copilot-learning-hub]
+- GAUpdates
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---
@@ -45,6 +47,8 @@ To view detailed reports on Copilot usage and the associated costs, use the foll
 
 2. Go to **Billing** > **Cost Management**.
 3. On the **Cost Management** page, under **Service family**, you can see a service-level view of costs based on Copilot usage.
+
+[!INCLUDE [global-administrator-note](../../microsoft-365/includes/global-administrator-note.md)]
 
 You can also view costs in the Azure portal using [Microsoft Cost Management](/azure/cost-management-billing/costs/overview-cost-management). You can filter the accumulated costs using tags, like `m365copilotchat`:
 

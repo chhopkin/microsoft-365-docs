@@ -4,8 +4,8 @@ f1.keywords:
 - NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
-ms.reviewer: drjones, jobailey
+manager: scotv
+ms.reviewer: padeshmukh
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business

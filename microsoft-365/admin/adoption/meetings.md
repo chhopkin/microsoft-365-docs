@@ -2,9 +2,9 @@
 title: "Microsoft Adoption Score - Meetings (Previous Version)"
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: efrene
+ms.author: efrene
+manager: scotv
 ms.date: 08/10/2020
 audience: Admin
 ms.topic: article

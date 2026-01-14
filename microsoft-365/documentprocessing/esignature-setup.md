@@ -190,4 +190,6 @@ At the end of the signing process when all required parties have signed, a copy 
 ![Screenshot showing a signed document in a provider-specific folder.](../media/content-understanding/esignature-other-provider-folder.png)
 
 > [!NOTE]
+> Starting September 2025 and rolling out through November 2025, signed documents will be automatically saved back to the original folder (the same location where the original document was stored when the e-signature request was initiated). This replaces the previously used dedicated file structure in which signed documents were stored in a separate, dedicated structure as described above.
+
 > How long a copy of the signed document is retained in the other provider's platform depends solely on your document storage and retention policy settings for that provider service.

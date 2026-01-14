@@ -9,13 +9,14 @@ last.review.date: 07/07/2025
 ms.date: 07/07/2025
 audience: admin
 ms.topic: how-to
-ms.service: msteams
-ms.subservice: teams-education
+ms.service: microsoft-365-education
 f1.keywords:
 - CSH
 ms.collection: 
 - M365-modern-desktop
 - tier2
+- m365-education
+- all-education
 ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Integrate Microsoft Teams with Canvas"

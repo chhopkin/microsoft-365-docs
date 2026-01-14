@@ -3,8 +3,6 @@ items:
       href: index.md
     - name: Microsoft 365 LTI First Time Configuration
       href: microsoft-365-lti-first-time-configuration.md
-    - name: Microsoft LMS Gateway management
-      href: manage-microsoft-one-lti.md
     - name: Allow browser cookies for LMS URLs
       href: browser-cookies.md
     - name: Canvas integrations

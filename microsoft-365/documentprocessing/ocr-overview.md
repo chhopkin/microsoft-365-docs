@@ -21,7 +21,7 @@ description: Learn about optical character recognition in SharePoint.
 # Overview of optical character recognition
 
 > [!NOTE]
-> Through December 2025, you can try out a [limited amount](promo-syntex.md#included-monthly-capacity) of optical character recognition and other selected content services at no cost if you have [pay-as-you-go billing](syntex-azure-billing.md) set up. For information and limitations, see [Try out pay-as-you-go services](promo-syntex.md).
+> Through June 2026, you can try out a [limited amount](promo-syntex.md#included-monthly-capacity) of optical character recognition and other selected content services at no cost if you have [pay-as-you-go billing](syntex-azure-billing.md) set up. For information and limitations, see [Try out pay-as-you-go services](promo-syntex.md).
 
 The optical character recognition (OCR) service in SharePoint lets you extract printed or handwritten text from images and documents. Examples of images include posters, drawings, and product labels. Examples of documents include articles, reports, forms, and invoices.
 
@@ -30,6 +30,8 @@ The text is typically extracted as words, text lines, and paragraphs or text blo
 For example, you enable the OCR service and then add image files to your document library. The feature automatically scans the image files, extracts the relevant text, and makes the text from the images available for search and indexing. This feature lets you quickly and accurately find the keywords and phrases you're looking for.
 
 ## Requirements and limitations
+
+This service is available only for SharePoint sites — including hub sites, sites associated to a hub site, and the primary site of a site collection. Subsites aren’t supported.
 
 ### Supported file types
 

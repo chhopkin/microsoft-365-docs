@@ -20,7 +20,7 @@ description: Learn about eSignature and how to send electronic signature request
 # Overview of eSignature
 
 > [!NOTE]
-> Through December 2025, you can try out a [limited amount](promo-syntex.md#included-monthly-capacity) of eSignature by sending up to five requests at no cost if you have [pay-as-you-go billing](syntex-azure-billing.md) set up. For information and limitations, see [Try out pay-as-you-go services](promo-syntex.md).
+> Through June 2026, you can try out a [limited amount](promo-syntex.md#included-monthly-capacity) of eSignature by sending up to five requests at no cost if you have [pay-as-you-go billing](syntex-azure-billing.md) set up. For information and limitations, see [Try out pay-as-you-go services](promo-syntex.md).
 
 The eSignature service simplifies the process of signing and sharing documents, while providing the security and compliance of Microsoft 365.
 
@@ -32,7 +32,7 @@ With eSignature, you can quickly and securely send documents for signature to pe
 
 ## Regional availability
 
-The eSignature service is available worldwide (exluding Indonesia and Türkiye, which are due later in 2025), via the Microsoft 365 public cloud. The ability to use eSignature with other electronic signature providers is also available worldwide.
+The eSignature service is available worldwide (excluding Indonesia and Türkiye, which are due later in 2025), via the Microsoft 365 public cloud. The ability to use eSignature with other electronic signature providers is also available worldwide.
 
 ## Before you begin
 

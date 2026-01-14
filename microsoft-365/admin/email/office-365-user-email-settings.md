@@ -2,8 +2,8 @@
 title: "User email settings"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 10/01/2024
 audience: Admin

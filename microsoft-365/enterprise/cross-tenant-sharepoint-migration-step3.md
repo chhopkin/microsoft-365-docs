@@ -1,9 +1,9 @@
 ---
-title: SharePoint Cross-tenant SharePoint migration Step 3 (preview)
+title: SharePoint Cross-tenant SharePoint migration Step 3
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 08/15/2025
+ms.date: 10/01/2025
 recommendations: true
 audience: ITPro
 ms.topic: how-to
