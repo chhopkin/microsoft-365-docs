@@ -86,6 +86,8 @@ For best practices on syncing teams with your LMS, reference one of the followin
 
 ## Classic Microsoft LTI apps
 
+The classic Microsoft OneDrive, OneNote, Teams Assignments, and Reflect LTI apps have been replaced by the [new Microsoft 365 LTI](https://aka.ms/LMSAdminDocs). The classic apps will be sunset on September 17th, 2026. After that date, the classic apps and any content links in courses will stop working; however, the files, notebooks, teams, meetings, and check-ins created by the classic app will continue to be accessible through Microsoft 365. For further guidance on moving your users and courses to the new Microsoft 365 LTI experiences and migrating content links, review the [migration guidance for the classic LTI apps](/microsoft-365/lti/microsoft-365-lti-first-time-configuration#tips-on-migrating-from-the-legacy-instructure-office-365-or-other-microsoft-lti-apps).
+
 The following tools are all still fully supported and don't have scheduled retirement dates. You can continue using them while you work to adopt the new Microsoft 365 LTI. We will continue to share updated guidance on migration and our LTI roadmap plan for the future. Sign up at https://aka.ms/LMSPreview to be notified of any new releases or changes to Microsoft LTIs.
 
 - [OneNote Class Notebooks LTI](https://onenote.com/LTI)
