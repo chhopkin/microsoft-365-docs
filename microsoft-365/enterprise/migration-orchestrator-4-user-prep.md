@@ -71,7 +71,7 @@ Add-DistributionGroupMember -Identity "DistributionGroupName" -Member "UserEmail
 
 ## Run Identity Mapping
 
-You'll need to run Identity Mapping for any orchestrated migrations. This step should be performed for all users who will eventually have their content migrated before beginning any migrations. [Learn more](cross-tenant-identity-mapping.md) about Identity mapping.
+You need to run Identity Mapping for any orchestrated migrations. This step should be performed before beginning any migration, for all users you intend to migrate the content of. [Learn more](cross-tenant-identity-mapping.md) about Identity mapping.
 
 ### OneDrive Identity Mapping for Permissions (Optional)
 
