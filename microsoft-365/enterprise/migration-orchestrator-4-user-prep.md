@@ -75,7 +75,7 @@ You need to run Identity Mapping for any orchestrated migrations. This step shou
 
 ### OneDrive Identity Mapping for Permissions (Optional)
 
-If you want users (other than the users OneDrive sites belong to) to have access to the files within a OneDrive as they did on the source, you can run Identity Mapping for OneDrive sites. This action includes the mapping of migrating users (those users who are Identity Mapped using the native solution), guests, and groups you wish to grant OneDrive site content permissions to.
+Run Identity mapping for OneDrive sites if you want users (other than the users OneDrive sites belong to) to have access to files within a OneDrive as they did on the source. This action includes the mapping of migrating users (those users who are Identity Mapped using the native solution), guests, and groups you wish to grant OneDrive site content permissions to.
 
 For full support, we recommend mapping all migrating users, guests, or groups that should retain permissions. You can find instructions at [Step 5](cross-tenant-onedrive-migration-step5.md) of our OneDrive site migration documentation. [Step 4](cross-tenant-onedrive-migration-step4.md) also includes information about guest and group requirements.
 
