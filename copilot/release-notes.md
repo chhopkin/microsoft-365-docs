@@ -7,7 +7,7 @@ ms.author: kwekua
 author: kwekuako
 manager: scotv
 ms.update-cycle: 180-days
-ms.date: 1/13/2025
+ms.date: 1/14/2025
 audience: Admin
 ms.reviewer: briandesouza
 ms.topic: release-notes
@@ -70,7 +70,7 @@ Admins can configure a custom URL pointing to their AI policy documentation.
 
   **What changed:** A new centralized Library view in Copilot lets users access all their AI-generated assets in one place.
 
-  **Why** Improves organization and removes friction in retrieving past Copilot content.
+  **Why:** Improves organization and removes friction in retrieving past Copilot content.
 
   **Try this:**
 
@@ -94,8 +94,6 @@ Admins can configure a custom URL pointing to their AI policy documentation.
 
   **Roadmap ID:** [503859](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=503859)
 
-  **Description:** Quickly find meetings scheduled by a specific person to review or prioritize your calendar.
-
   **What changed:** Copilot Chat now lets you search your calendar for meetings organized by a specific individual.
 
   **Why:** Helps users locate calendar items and prioritize activities faster.
@@ -108,6 +106,7 @@ Admins can configure a custom URL pointing to their AI policy documentation.
   **Business impact:** Reduces wasted time searching for calendar details.
 
   **Personal impact:** Gives quick control and visibility over relevant scheduled events.
+  
 ### Microsoft 365 Copilot extensibility
 - **Build smarter agents with GPT-5 in Agent Builder** [Android, Windows, iOS, Mac, Web]
 
@@ -155,6 +154,8 @@ Organizations need AI-powered solutions that not only respond accurately but ant
   **Business Impact:** Improve team efficiency by unifying data access across platforms, eliminating manual transfers. 
 
   **Personal Impact:** Create and edit content with ease by letting Copilot pull in what you need, including content from Dropbox.
+
+  **Additional resources:**
 
   **Learn:**  
   [Google Drive Microsoft 365 Copilot connector overview](/microsoftsearch/google-drive-overview)
@@ -206,7 +207,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 
   **Personal Impact:** Users no longer need to juggle multiple tools to gather context. Copilot agents can consolidate multiple knowledge capabilities in one place, saving time and reducing cognitive load throughout the workday.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:**  
   [Add knowledge sources to your declarative agent](/microsoft-365-copilot/extensibility/knowledge-sources)
@@ -232,9 +233,10 @@ Organizations need AI-powered solutions that not only respond accurately but ant
   **Why this matters:**
 
   **Business impact:** Reduces manual document creation time and supports compliant storage.
+  
   **Personal impact:** Makes everyday document tasks quicker and easier.
 
-  **Additional resources** 
+  **Additional resources:** 
 
   **Learn:**  
 [Add capabilities](/microsoft-365-copilot/extensibility/agent-builder-build-agents#add-capabilities)
@@ -258,6 +260,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
   **Why this matters:**
 
   **Business impact:** Reduces configuration complexity and improves security alignment for ticket data.
+  
   **Personal impact:** Helps individuals manage permissions more clearly and confidently.
 
   **Additional resources:**
@@ -285,7 +288,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 
   **Personal Impact:** Minimizes context switching and increases document creation efficiency
 
-  **Additional resources** 
+  **Additional resources:** 
 
   **Learn:**  
   [Google Drive Microsoft 365 Copilot connector overview](/microsoftsearch/google-drive-overview)
@@ -313,6 +316,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
   **Why this matters:**
 
   **Business impact:** Broadens access to structured knowledge and improves help coverage for teams.
+  
   **Personal impact:** Makes it easier for individuals to find accurate, template-based guidance.
 
   **Additional resources:**
@@ -344,7 +348,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Personal Impact:** Removes friction by letting Copilot choose the best model--fast or reasoning--for the prompt.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Blog:** 
 
@@ -453,7 +457,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Personal Impact:** Gives .NET teams direct hooks into Copilot capabilities.
 
-  **Additional Resources:** 
+  **Additional resources:** 
   
   **Learn:**
  
@@ -481,7 +485,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Personal Impact:** Python devs gain first-class access to Copilot APIs.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:**
  
@@ -512,7 +516,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Personal Impact:** Developers have a secure, documented method for advanced builds.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:**
  
@@ -559,7 +563,7 @@ Updates released between December 10, 2025, and December 23, 2025.
   
   **Personal Impact:** Users get tailored answers courtesy of context-rich data.
 
-  **Additional Resources:**
+  **Additional resources:**
   
   **Learn:**
   
@@ -588,7 +592,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Personal Impact:** Saves design time by eliminating manual asset searching.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:**
  
@@ -660,7 +664,7 @@ Updates released between November 25, 2025, and December 10, 2025.
 
   **Personal Impact:** Focus on the story, save hours on content creation, and eliminate the need for advanced video editing.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Support:**
 
@@ -744,7 +748,7 @@ Custom apps allow for unblocked rapid iteration.
 
   **Personal Impact:** Eliminates frustrating small text or layout changes.   
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:**
 
@@ -775,7 +779,7 @@ Creators are empowered to manage compliance and proactively minimize risks.
 
   **Personal Impact:** Gives creators peace of mind knowing their agents meet enterprise security standards.    
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:**
 
@@ -809,7 +813,7 @@ Experience richer scenarios where multiple libraries or sites provide simultaneo
 
   **Personal Impact:** Stay focused without the need to use multiple chats or apps to gather information.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Support:**
 
@@ -876,7 +880,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
     **Personal Impact:** Gives admins peace of mind with transparent, upfront budgeting.  
 
-    **Additional Resources:**
+    **Additional resources:**
   
     **Learn:**
 
@@ -907,7 +911,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   **Personal Impact:** Admins can easily manage lifecycle changes without escalating to engineering teams. 
 
-  **Additional Resources:**
+  **Additional resources:**
 
    **Learn:**
 
@@ -963,7 +967,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
     **Personal Impact:** Saves time creating engaging summaries without additional tools.  
 
-    **Additional Resources:**
+    **Additional resources:**
   
     **Support:**
 
@@ -998,7 +1002,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   **Personal Impact:** Reduces copying and manual email checks across shared accounts—Copilot does it for you.
  
-  **Additional Resources:**
+  **Additional resources:**
 
   **Support:**
 
@@ -1057,7 +1061,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   **Personal Impact:** Work more comfortably and naturally while saving time, gaining efficiency and giving you the flexibility to use Copilot on the go or at your desk.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Support:**
 
@@ -1089,7 +1093,7 @@ Updates released between November 12, 2025, and November 25, 2025.
   
   **Personal Impact:** Enjoy the same customized Copilot experience wherever you work, saving time and reducing context-switching throughout your day. 
   
-  **Additional Resources:**
+  **Additional resources:**
   
   **Learn:**
   
@@ -1145,7 +1149,7 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
     **Personal Impact:** Saves admins from chasing multiple tools for visibility—everything is in one export.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:**
 
@@ -1177,7 +1181,7 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
   **Personal Impact:** Eliminate the frustration of being restricted to desktop for advanced actions—get the information and tools you need on the go. 
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:**
 
@@ -1210,7 +1214,7 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
   **Personal Impact:** Simplifies decision-making for IT teams, saving hours of manual checks.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:**
   
@@ -1241,7 +1245,7 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
   **Personal Impact:** Gives admins confidence and transparency when scaling adoption. Makers receive clear guidance on enforced admin sharing policies
 
-  **Additional Resources:** 
+  **Additional resources:** 
 
   **Learn:**
 
@@ -1318,7 +1322,7 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
     **Personal Impact:** Saves admins hours of navigating settings—answers are instant.  
 
-    **Additional Resources:**
+    **Additional resources:**
 
     **Learn:**
 
@@ -4869,7 +4873,7 @@ Admins can configure a custom URL pointing to their AI policy documentation.
 
   **What changed:** A new centralized Library view in Copilot lets users access all their AI-generated assets in one place.
 
-  **Why** Improves organization and removes friction in retrieving past Copilot content.
+  **Why:** Improves organization and removes friction in retrieving past Copilot content.
 
   **Try this:**
 
@@ -4892,8 +4896,6 @@ Admins can configure a custom URL pointing to their AI policy documentation.
   Quickly find meetings scheduled by a specific person to review or prioritize your calendar.
 
   **Roadmap ID:** [503859](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=503859)
-
-  **Description:** Quickly find meetings scheduled by a specific person to review or prioritize your calendar.
 
   **What changed:** Copilot Chat now lets you search your calendar for meetings organized by a specific individual.
 
@@ -4955,7 +4957,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 
   **Personal Impact:** Users no longer need to juggle multiple tools to gather context. Copilot agents can consolidate multiple knowledge capabilities in one place, saving time and reducing cognitive load throughout the workday.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:**  
   [Add knowledge sources to your declarative agent](/microsoft-365-copilot/extensibility/knowledge-sources)
@@ -4981,6 +4983,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
   **Why this matters:**
 
   **Business impact:** Reduces manual document creation time and supports compliant storage.
+  
   **Personal impact:** Makes everyday document tasks quicker and easier.
 
   **Additonal resources** 
@@ -5012,7 +5015,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Personal Impact:** Removes friction by letting Copilot choose the best model--fast or reasoning--for the prompt.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Blog:** 
 
@@ -5092,7 +5095,7 @@ Updates released between December 10, 2025, and December 23, 2025.
   
   **Personal Impact:** Users get tailored answers courtesy of context-rich data.
 
-  **Additional Resources:**
+  **Additional resources:**
   
   **Learn:**
   
@@ -5120,7 +5123,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Personal Impact:** Saves design time by eliminating manual asset searching.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:**
  
@@ -5188,7 +5191,7 @@ Updates released between November 12, 2025, and November 25, 2025.
   
   Admins can easily manage lifecycle changes without escalating to engineering teams. 
 
-  **Additional Resources:**
+  **Additional resources:**
 
    **Learn:**
 
@@ -5227,7 +5230,7 @@ Updates released between November 12, 2025, and November 25, 2025.
   
   Reduces copying and manual email checks across shared accounts—Copilot does it for you.
  
-  **Additional Resources:**
+  **Additional resources:**
 
   [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
 
@@ -5297,7 +5300,7 @@ Voice   removes friction, letting you work where typing isn't practical.
   
   Work more comfortably and naturally while saving time, gaining efficiency and giving you the flexibility to use Copilot on the go or at your desk.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea)
   
@@ -5370,7 +5373,7 @@ Voice   removes friction, letting you work where typing isn't practical.
   
   Simplifies decision-making for IT teams, saving hours of manual checks.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn**
 
@@ -7123,7 +7126,7 @@ Admins can configure a custom URL pointing to their AI policy documentation.
 
   **What changed:** A new centralized Library view in Copilot lets users access all their AI-generated assets in one place.
 
-  **Why** Improves organization and removes friction in retrieving past Copilot content.
+  **Why:** Improves organization and removes friction in retrieving past Copilot content.
 
   **Try this:**
 
@@ -7261,7 +7264,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 
   **Personal Impact:** Users no longer need to juggle multiple tools to gather context. Copilot agents can consolidate multiple knowledge capabilities in one place, saving time and reducing cognitive load throughout the workday.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:**  
   [Add knowledge sources to your declarative agent](/microsoft-365-copilot/extensibility/knowledge-sources)
@@ -7287,6 +7290,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
   **Why this matters:**
 
   **Business impact:** Reduces manual document creation time and supports compliant storage.
+  
   **Personal impact:** Makes everyday document tasks quicker and easier.
 
   **Additonal resources** 
@@ -7317,6 +7321,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
   **Why this matters:**
 
   **Business impact:** Broadens access to structured knowledge and improves help coverage for teams.
+  
   **Personal impact:** Makes it easier for individuals to find accurate, template-based guidance.
 
   **Additional resources:**
@@ -7343,6 +7348,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
   **Why this matters:**
 
   **Business impact:** Reduces configuration complexity and improves security alignment for ticket data.
+  
   **Personal impact:** Helps individuals manage permissions more clearly and confidently.
 
   **Additional resources:**
@@ -7374,7 +7380,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Personal Impact:** Removes friction by letting Copilot choose the best model--fast or reasoning--for the prompt.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Blog:** 
 
@@ -7483,7 +7489,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Personal Impact:** Gives .NET teams direct hooks into Copilot capabilities.
 
-  **Additional Resources:** 
+  **Additional resources:** 
   
   **Learn:**
  
@@ -7510,7 +7516,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Personal Impact:** Python devs gain first-class access to Copilot APIs.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:**
  
@@ -7541,7 +7547,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Personal Impact:** Developers have a secure, documented method for advanced builds.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:**
  
@@ -7588,7 +7594,7 @@ Updates released between December 10, 2025, and December 23, 2025.
   
   **Personal Impact:** Users get tailored answers courtesy of context-rich data.
 
-  **Additional Resources:**
+  **Additional resources:**
   
   **Learn:**
   
@@ -7616,7 +7622,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Personal Impact:** Saves design time by eliminating manual asset searching.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:**
  
@@ -7660,7 +7666,7 @@ Video is a powerful medium, but creating professional-quality content is often t
 
   **Personal Impact:** Focus on the story, save hours on content creation, and eliminate the need for advanced video editing.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Support:**
   
@@ -7719,7 +7725,7 @@ Enforce protections accurately with a richer visualization of security posture f
 
   **Personal Impact:** Gives creators peace of mind knowing their agents meet enterprise security standards.    
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:**
 
@@ -7754,7 +7760,7 @@ Experience richer scenarios where multiple libraries or sites provide simultaneo
 
   **Personal Impact:** Stay focused without the need to use multiple chats or apps to gather information.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Support:**
 
@@ -7827,7 +7833,7 @@ Updates released between November 12, 2025, and November 25, 2025.
   
   Admins can easily manage lifecycle changes without escalating to engineering teams. 
 
-  **Additional Resources:**
+  **Additional resources:**
 
    **Learn:**
 
@@ -7895,7 +7901,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
     **Personal Impact:** Saves time creating engaging summaries without additional tools.  
 
-    **Additional Resources:**
+    **Additional resources:**
   
     **Learn:**
 
@@ -7929,7 +7935,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   **Personal Impact:** Reduces copying and manual email checks across shared accounts—Copilot does it for you.
  
-  **Additional Resources:**
+  **Additional resources:**
 
   [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
 
@@ -7995,7 +8001,7 @@ Voice   removes friction, letting you work where typing isn't practical.
   
   Work more comfortably and naturally while saving time, gaining efficiency and giving you the flexibility to use Copilot on the go or at your desk.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea?preview=true)
   
@@ -8060,7 +8066,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
     **Personal Impact:** Saves admins from chasing multiple tools for visibility—everything is in one export.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:**
   
@@ -8096,7 +8102,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Personal Impact:** Simplifies decision-making for IT teams, saving hours of manual checks.
 
-  **Additional Resources:**
+  **Additional resources:**
 
    **Learn**
 
@@ -8126,7 +8132,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Personal Impact:** Gives admins confidence and transparency when scaling adoption. Makers receive clear guidance on enforced admin sharing policies
 
-  **Additional Resources:** 
+  **Additional resources:** 
 
   **Learn:**
 
@@ -8224,7 +8230,7 @@ When building a presentation with Copilot, you can now pull in content from Loop
 
     **Personal Impact:** Saves admins hours of navigating settings—answers are instant.  
 
-    **Additional Resources:**
+    **Additional resources:**
 
     **Learn:**
     
@@ -10633,7 +10639,7 @@ Updates released between December 23, 2025, and January 13, 2026.
 
   **What changed:** A new centralized Library view in Copilot lets users access all their AI-generated assets in one place.
 
-  **Why** Improves organization and removes friction in retrieving past Copilot content.
+  **Why:** Improves organization and removes friction in retrieving past Copilot content.
 
   **Try this:**
 
@@ -10700,7 +10706,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Personal Impact:** Removes friction by letting Copilot choose the best model--fast or reasoning--for the prompt.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Blog:** 
 
@@ -10764,7 +10770,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   **Personal Impact:** Reduces copying and manual email checks across shared accounts—Copilot does it for you.
  
-  **Additional Resources:**
+  **Additional resources:**
 
   [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
 
@@ -10803,7 +10809,7 @@ Voice   removes friction, letting you work where typing isn't practical.
   
   Work more comfortably and naturally while saving time, gaining efficiency and giving you the flexibility to use Copilot on the go or at your desk.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea)
   
@@ -10831,7 +10837,7 @@ Voice   removes friction, letting you work where typing isn't practical.
   
   **Personal Impact:** Enjoy the same customized Copilot experience wherever you work, saving time and reducing context-switching throughout your day. 
   
-  **Additional Resources:**
+  **Additional resources:**
 
 
   **Learn:**
@@ -10867,7 +10873,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Personal Impact:** Eliminate the frustration of being restricted to desktop for advanced actions—get the information and tools you need on the go. 
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:** 
   
@@ -11359,7 +11365,7 @@ Updates released between December 23, 2025, and January 13, 2026.
 
   **What changed:** A new centralized Library view in Copilot lets users access all their AI-generated assets in one place.
 
-  **Why** Improves organization and removes friction in retrieving past Copilot content.
+  **Why:** Improves organization and removes friction in retrieving past Copilot content.
 
   **Try this:**
 
@@ -11426,7 +11432,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Personal Impact:** Removes friction by letting Copilot choose the best model--fast or reasoning--for the prompt.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Blog:** 
 
@@ -11490,7 +11496,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   **Personal Impact:** Reduces copying and manual email checks across shared accounts—Copilot does it for you.
  
-  **Additional Resources:**
+  **Additional resources:**
 
   [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
 
@@ -11525,7 +11531,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Personal Impact:** Work more comfortably and naturally while saving time, gaining efficiency and giving you the flexibility to use Copilot on the go or at your desk.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea)
 
@@ -11553,7 +11559,7 @@ Voice   removes friction, letting you work where typing isn't practical.
   
   **Personal Impact:** Enjoy the same customized Copilot experience wherever you work, saving time and reducing context-switching throughout your day. 
   
-  **Additional Resources:**
+  **Additional resources:**
   
   **Learn:**
 
@@ -11585,7 +11591,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Personal Impact:** Eliminate the frustration of being restricted to desktop for advanced actions—get the information and tools you need on the go. 
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:** 
   
@@ -12342,7 +12348,7 @@ Updates released between December 23, 2025, and January 13, 2026.
 
   **What changed:** A new centralized Library view in Copilot lets users access all their AI-generated assets in one place.
 
-  **Why** Improves organization and removes friction in retrieving past Copilot content.
+  **Why:** Improves organization and removes friction in retrieving past Copilot content.
 
   **Try this:**
 
@@ -12409,7 +12415,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Personal Impact:** Removes friction by letting Copilot choose the best model--fast or reasoning--for the prompt.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Blog:** 
 
@@ -12428,7 +12434,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 **Why this matters:**
 **Business Impact**: Maintains brand identity across all content.
 **Personal Impact:** Saves design time by eliminating manual asset searching.
-**Additional Resources:**
+**Additional resources:**
  <a href="/sharepoint/organization-assets-library" target="_blank">Learn more.</a>
 
 <!-- 96890,101246,98572,101737 -->
@@ -12463,7 +12469,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
     **Personal Impact:** Gives admins peace of mind with transparent, upfront budgeting.  
 
-    **Additional Resources:**
+    **Additional resources:**
   
     **Learn:**
   
@@ -12498,7 +12504,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   **Personal Impact:** Reduces copying and manual email checks across shared accounts—Copilot does it for you.
  
-  **Additional Resources:**
+  **Additional resources:**
 
   [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
 
@@ -12533,7 +12539,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Personal Impact:** Work more comfortably and naturally while saving time, gaining efficiency and giving you the flexibility to use Copilot on the go or at your desk.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea)
   
@@ -13519,6 +13525,8 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
+
 
 
 
