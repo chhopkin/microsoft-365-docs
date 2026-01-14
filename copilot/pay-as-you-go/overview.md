@@ -3,7 +3,7 @@ title: Microsoft 365 Copilot pay-as-you-go overview
 description: Enterprise and company IT admins can learn about the pay-as-you-go service for Microsoft 365 Copilot services, including Copilot Chat. Get an overview of the usage-based billing process, connecting the billing to a Copilot service, and monitoring costs.
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.update-cycle: 180-days
 ms.reviewer: nishanair
 audience: Admin

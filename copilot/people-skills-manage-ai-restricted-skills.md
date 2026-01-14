@@ -4,9 +4,9 @@ description: Learn about the type of skills that admins can note as AI-restricte
 author: kwekuako
 ms.author: kwekua
 ms.collection: operations-pod
-manager: dansimp
+manager: scotv
 ms.service: microsoft-365-copilot
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/29/2025
 ---
 

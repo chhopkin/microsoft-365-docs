@@ -16,7 +16,7 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
+service.tree.id: 3b35c9b8-bf14-4e4a-bc0d-21055e56b28c
 search.appverid: MET150
 ms.custom:
 - commerce_billing
@@ -311,5 +311,6 @@ If you have an MOSA billing account type, you can't automatically change from pa
 
 ## Related content
 
-[Manage payment methods for Microsoft business accounts](manage-payment-methods.md) (article) \
+[Pay your Microsoft business invoice by using a credit or debit card](pay-for-your-subscription.md) (article)<br/>
+[Manage payment methods for Microsoft business accounts](manage-payment-methods.md) (article)<br/>
 [View your invoice in the Microsoft 365 admin center](view-your-bill-or-invoice.md) (article)

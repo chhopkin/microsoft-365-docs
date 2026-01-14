@@ -17,7 +17,6 @@ ms.collection:
 - highpri
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_subscriptions
 - VSBFY23
@@ -73,7 +72,7 @@ Your cancellation option depends on the type of billing account that you have. [
 
 ### If you have an MCA billing account type
 
-You can only cancel and receive a prorated credit or refund if you cancel within seven days after the start or renewal of your subscription. If you cancel during this limited time window, the prorated amount is either credited or returned on the monthly invoice around the beginning of the following month.
+You can only cancel and receive a prorated credit or refund if you cancel within seven days after the start or renewal of your subscription. If you cancel during this limited time window, the prorated amount is either credited or returned within one to two days.
 
 If you need to cancel within seven days after the start or renewal of your subscription, go to [Steps to cancel your subscription](#steps-to-cancel-your-subscription) later in this article.
 

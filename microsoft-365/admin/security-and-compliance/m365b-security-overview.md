@@ -1,10 +1,10 @@
 ---
 title: Microsoft 365 for business security overview
-ms.author: chrisda
-author: chrisda
-manager: deniseb
+ms.author: vpattnaik
+author: vpattnai
+manager: dansimp
 audience: Admin
-ms.topic: conceptual
+ms.topic: article
 ms.localizationpriority: high
 search.appverid: 
   - MET150
@@ -18,9 +18,9 @@ ms.collection:
   - trust-pod
 ms.custom:
 description: Learn about the security features available in Microsoft 365 for business.
-ms.service: microsoft-365-business-security
+ms.service: microsoft-365-security
 adobe-target:
-ms.date: 09/23/2025
+ms.date: 09/30/2025
 appliesto:
   - ✅ <a href="https://www.microsoft.com/microsoft-365/business/microsoft-365-business-basic" target="_blank">Microsoft 365 Business Basic</a>
   - ✅ <a href="https://www.microsoft.com/microsoft-365/business/microsoft-365-business-standard" target="_blank">Microsoft 365 Business Standard</a>
@@ -59,7 +59,7 @@ These security categories are described in the following sections and are summar
 |&nbsp;&nbsp;Microsoft Entra ID|Free|Free|Plan 1|
 |&nbsp;&nbsp;Microsoft Defender Suite for Business Premium|||Purchased separately<br/>(includes Microsoft Entra ID P2)|
 |**Email and collaboration security**||||
-|&nbsp;&nbsp;Default email protections for cloud mailboxes|✔|✔|✔|
+|&nbsp;&nbsp;Built-in security features for all cloud mailboxes|✔|✔|✔|
 |&nbsp;&nbsp;Microsoft Defender for Office 365|||Plan 1|
 |&nbsp;&nbsp;Microsoft Defender Suite for Business Premium|||Purchased separately<br/>(includes Defender for Office 365 Plan 2)|
 |**Device security**||||
@@ -68,13 +68,14 @@ These security categories are described in the following sections and are summar
 |&nbsp;&nbsp;Microsoft Defender for Business|||✔|
 |&nbsp;&nbsp;Microsoft Defender Suite for Business Premium|||Purchased separately<br/>(includes Defender for Endpoint Plan 2)|
 
+<!---
 Watch this short video for more information:
 
-> [!VIDEO https://youtu.be/QJVHNfvzXrc]
+<iframe width="850" height="478" src="https://www.youtube.com/embed/QJVHNfvzXrc" title="Get started with security settings" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>--->
 
 ## Account security
 
-All subscriptions in Microsoft 365 for business include Microsoft Entra ID Free, which includes the feature named _security defaults_. Because security defaults is on by default, multifactor authentication (MFA) is also on by default in Microsoft 365 for business organizations.
+All subscriptions in Microsoft 365 for business include Microsoft Entra ID Free, which includes the feature named _security defaults_. Because security defaults is on by default, multifactor authentication (MFA) is enabled by default in Microsoft 365 for business organizations.
 
 Business Premium also includes Microsoft Entra ID P1, which includes the feature named _Conditional Access_. Conditional Access uses granular policies based on Zero Trust architecture to give users access to resources. If your organization requires increased or complex security settings, you can use Conditional Access policies instead of security defaults.
 
@@ -84,9 +85,9 @@ For other considerations for administrator or admin accounts, see [Admin account
 
 ## Email and collaboration security
 
-All subscriptions in Microsoft 365 for business include the default email protections for cloud mailboxes against malware, spam, and phishing (spoofing) in email. For more information, see [Default email protections for cloud mailboxes](/defender-office-365/eop-about).
+All subscriptions in Microsoft 365 for business include the built-in security features for all cloud mailboxes against malware, spam, and phishing (spoofing) in email. For more information, see [Overview of the built-in security features for all cloud mailboxes](/defender-office-365/eop-about).
 
-The default email protections for cloud mailboxes include the following types of threat policies that are on by default:
+The built-in security features for all cloud mailboxes include the following types of threat policies that are on by default:
 
 - [Anti-malware policies](/defender-office-365/anti-malware-protection-about#anti-malware-policies)
 - [Anti-spam policies](/defender-office-365/anti-spam-protection-about#anti-spam-policies)
@@ -142,7 +143,7 @@ For more information, see [Overview of Basic Mobility and Security for Microsoft
   - [Microsoft Defender for Office 365 Plan 2](/defender-office-365/mdo-about#defender-for-office-365-plan-1-vs-plan-2-cheat-sheet)
   - [Microsoft Defender for Cloud Apps](/defender-cloud-apps/what-is-defender-for-cloud-apps)
 
-  For more information, see [Add Microsoft Defender Suite for Business Premium to your Microsoft 365 Business Premium subscription](m365bp-add-m365e5s.md).
+  For more information, see [Add Microsoft Defender Suite for Business Premium to your Microsoft 365 Business Premium subscription](add-defender-suite-business-premium.md).
 
 ## See also
 

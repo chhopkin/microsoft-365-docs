@@ -3,7 +3,7 @@ title: View costs for Microsoft 365 Copilot pay-as-you-go
 description: Enterprise and company IT administrators can learn how to view billing and costs for pay-as-you-go for Microsoft 365 Copilot services in the Microsoft 365 admin center, including Microsoft 365 Copilot Chat.
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.date: 06/16/2025
 ms.update-cycle: 180-days
 ms.reviewer: nishanair

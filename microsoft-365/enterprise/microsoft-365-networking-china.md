@@ -1,6 +1,6 @@
 ---
 title: "Microsoft 365 global tenant performance optimization for China users"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 04/10/2024

@@ -3,7 +3,7 @@ title: "Add-in deployment email alerts"
 f1.keywords: CSH
 ms.author: kwekua
 author: kwekuako
-manager: dansimp
+manager: scotv
 ms.reviewer: akshah
 ms.date: 06/14/2022
 audience: Admin

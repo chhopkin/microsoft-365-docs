@@ -12,9 +12,12 @@ items:
               href: pay-as-you-go-whats-new.md
             - name: Set up pay-as-you-go billing
               items:
+                - name: "Services in Billing node "
+                  href: update-pay-as-you-go-setup-billing-node.md
+                  displayName: Copilot, Backup
                 - name: Microsoft 365 Copilot 
                   href: pay-as-you-go-setup-copilot.md
-                - name: Document processing & storage services 
+                - name: Services in Settings node
                   href: pay-as-you-go-setup.md
             - name: Set up a budget
               href: pay-as-you-go-budget.md

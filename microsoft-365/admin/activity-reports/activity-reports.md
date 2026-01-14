@@ -96,14 +96,17 @@ Depending on your subscription, here are the available reports in all environmen
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |[Active Users](active-users-ww.md)|Yes|Yes|Yes|Yes|Yes|
 |[Microsoft browser usage](browser-usage-report.md)|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>1</sup>|
-|[Microsoft 365 Copilot readiness report](microsoft-365-copilot-readiness.md)|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
-|[Microsoft 365 Copilot usage report](microsoft-365-copilot-usage.md)|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
-|[Microsoft Copilot usage report](microsoft-copilot-usage.md)|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
+|[Microsoft 365 Copilot readiness](microsoft-365-copilot-readiness.md)|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
+|[Microsoft 365 Copilot usage](microsoft-365-copilot-usage.md)|Yes|Yes|N/A<sup>1</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
+|[Microsoft 365 Copilot Agent usage](microsoft-365-copilot-agents.md) | Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
+|[Microsoft 365 Copilot Chat usage](microsoft-copilot-usage.md)|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
+|[Microsoft 365 Copilot credits](microsoft-365-copilot-credits.md)|Yes|N/A|N/A|N/A|N/A|
+|[Microsoft Copilot Search usage](microsoft-365-copilot-search-usage.md)|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>2</sup>|
 |[Email activity](email-activity-ww.md)|Yes|Yes|Yes|Yes|Yes|
 |[Email apps usage](email-apps-usage-ww.md)|Yes|Yes|Yes|Yes|Yes|
 |[Mailbox usage](mailbox-usage.md)|Yes|Yes|Yes|Yes|Yes|
 |[Microsoft 365 groups](office-365-groups-ww.md)|Yes|Yes|Yes|Yes|Yes|
-|[Microsoft 365 Apps usage](microsoft365-apps-usage-ww.md)|Yes|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|Yes
+|[Microsoft 365 Apps usage](microsoft365-apps-usage-ww.md)|Yes|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|Yes|
 |[Office activations](microsoft-office-activations-ww.md)|Yes|Yes|Yes|Yes|Yes|
 |[OneDrive for Business user activity](onedrive-for-business-activity-ww.md)|Yes|Yes|Yes|Yes|Yes|
 |[OneDrive for Business usage](onedrive-for-business-usage-ww.md)|Yes|Yes|Yes|Yes|Yes|
@@ -115,7 +118,7 @@ Depending on your subscription, here are the available reports in all environmen
 |[Microsoft Teams team activity](microsoft-teams-usage-activity.md)|Yes|Yes|Yes|Yes|N/A<sup>1</sup>|
 |[Viva Engage activity](viva-engage-activity-report-ww.md)|Yes|Yes|N/A<sup>2</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
 |[Viva Engage device usage](viva-engage-device-usage-report-ww.md)|Yes|Yes|N/A<sup>2</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
-|[Viva Engage groups activity report](viva-engage-groups-activity-report-ww.md)|Yes|Yes|N/A<sup>2</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
+|[Viva Engage groups activity](viva-engage-groups-activity-report-ww.md)|Yes|Yes|N/A<sup>2</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
 |[Forms activity](forms-activity-ww.md)|Yes|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>1</sup>|
 |[Dynamics 365 Customer Voice activity](forms-pro-activity-ww.md)|Yes|Yes|N/A<sup>2</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
 |[Skype for Business Online activity](/SkypeForBusiness/skype-for-business-online-reporting/activity-report)|N/A<sup>2</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|Yes|

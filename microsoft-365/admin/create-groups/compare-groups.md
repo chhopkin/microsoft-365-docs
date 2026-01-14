@@ -1,7 +1,7 @@
 ---
 title: Compare types of groups in Microsoft 365
 ms.reviewer: batre
-ms.date: 09/03/2025
+ms.date: 10/01/2025
 f1.keywords: CSH
 ms.author: deniseb
 author: denisebmsft
@@ -50,7 +50,7 @@ Some groups allow dynamic membership or email, as listed in the following table:
 | Microsoft 365 Groups | Yes | Yes |
 | Distribution groups | Yes | No |
 | Security groups | No | Yes |
-| Mail-enabled security groups | Yes | Yes |
+| Mail-enabled security groups | Yes | No |
 | Shared mailboxes | Yes | No |
 | Dynamic distribution groups | Yes | No |
 

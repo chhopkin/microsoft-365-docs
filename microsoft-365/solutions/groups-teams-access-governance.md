@@ -7,14 +7,15 @@ ms.author: odocspr
 manager: jtremper
 audience: Admin
 ms.topic: article
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: medium
 ms.collection: 
 - highpri
 - M365-collaboration
 - m365solution-collabgovernance
-ms.custom: 
+ms.custom:
 - M365solutions
+- m365-solutions-doc-set
 f1.keywords: NOCSH
 recommendations: false
 description: "Learn about governing access in Microsoft 365 groups, Teams, and SharePoint."

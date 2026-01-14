@@ -1,8 +1,8 @@
 ---
 title: "AI adoption category in Adoption Score"
-ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: efrene
+ms.author: efrene
+manager: scotv
 ms.date: 05/30/2025
 ms.update-cycle: 180-days
 audience: Admin

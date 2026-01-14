@@ -2,7 +2,7 @@
 title: "Microsoft 365 Health Dashboard"
 ms.author: kwekua
 author: kwekuako
-manager: dansimp
+manager: scotv
 ms.date: 01/06/2025
 audience: Admin
 ms.topic: article

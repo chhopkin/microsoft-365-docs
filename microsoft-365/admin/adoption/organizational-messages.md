@@ -2,8 +2,8 @@
 title: "Microsoft Adoption Score Organizational Messages"
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
+author: efrene
+ms.author: efrene
 manager: scotv
 ms.date: 06/14/2024
 audience: Admin
