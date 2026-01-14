@@ -5,12 +5,11 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 7/3/2025
+ms.date: 11/13/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
-robots: NOINDEX, NOFOLLOW
 ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn about integrating SAP SuccessFactors in the deployment process for the Employee Self-Service agent.
@@ -20,32 +19,51 @@ appliesto:
 
 # Integrate SAP SuccessFactors with your Employee Self-Service deployment
 
-> [!NOTE]
-> The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
-
 > [!IMPORTANT]
-> You need to complete the steps to deploy the Employee Self-Service (ESS) agent before you can configure this supplemental extension pack.
+> You need to complete the steps to deploy the Employee Self-Service agent before you can configure this supplemental extension pack.
 
-The Employee Self-Service agent is built on Copilot and uses AI to provide relevant information to employees and take actions on their HR data. If your organization uses a human resource management system, the ESS agent requires access to that system to function most effectively.
+> [!NOTE]
+> [Learn more](/power-platform/sap/connect/entra-id-using-successfactors) about setting up Microsoft Entra ID using SuccessFactors.
+
+The Employee Self-Service agent is built on Copilot and uses AI to provide relevant information to employees and take actions on their HR data. If your organization uses a human resource management system, the Employee Self-Service agent requires access to that system to function most effectively.
 
 ## Functional synopsis
 
-The ESS agent acts as a front-end for consuming information from SAP SuccessFactors. The following items are the scenarios currently supported by ESS agent for SAP SuccessFactors integration:
+The Employee Self-Service agent acts as a front-end for consuming information from SAP SuccessFactors. The following items are the scenarios currently supported by the Employee Self-Service agent for SAP SuccessFactors integration:
 
-- [Get Base Compensation](#get-base-compensation)
-- [Get Company Code](#get-company-code)
-- [Get Cost Center](#get-cost-center)
-- [Get Hire Date](#get-hire-date)
-- [Get Service Anniversary](#get-service-anniversary)
-- [Get Employee ID](#get-employee-id)
-- [Get Job Info](#get-job-info)
-- [Get Position Number](#get-position-number)
+Employee read and write scenarios:
+
+- [Get Base Compensation](sap-employee-read-write-scenarios.md#get-base-compensation)
+- [Get Company Code](sap-employee-read-write-scenarios.md#get-company-code)
+- [Get Cost Center](sap-employee-read-write-scenarios.md#get-cost-center)
+- [Get Hire Date](sap-employee-read-write-scenarios.md#get-hire-date)
+- [Get Service Anniversary](sap-employee-read-write-scenarios.md#get-service-anniversary)
+- [Get Employee ID](sap-employee-read-write-scenarios.md#get-employee-id)
+- [Get Job Info](sap-employee-read-write-scenarios.md#get-job-info)
+- [Get Position Number](sap-employee-read-write-scenarios.md#get-position-number)
+- [Get Preferred Name](sap-employee-read-write-scenarios.md#preferred-name)
+- [Get Email](sap-employee-read-write-scenarios.md#email)
+- [Get National Id](sap-employee-read-write-scenarios.md)
+- [Update Veteran Info](sap-employee-read-write-scenarios.md#veteran-info)
+- [Update Race & Ethnicity](sap-employee-read-write-scenarios.md#race--ethnicity)
+- [Update Emergency Contact](sap-employee-read-write-scenarios.md#update-emergency-contact)
+- [Update Phone](sap-employee-read-write-scenarios.md#update-contact-phone)
+- [Update Email](sap-employee-read-write-scenarios.md#update-contact-email)
+- [Update Preferred Name](sap-employee-read-write-scenarios.md#update-preferred-name)
+
+Manager read and write scenarios:
+- [Get directs Company code](sap-manager-read-write-scenarios.md#company-code)
+- [Get directs Cost Center](sap-manager-read-write-scenarios.md#cost-center)
+- [Get directs Job Info](sap-manager-read-write-scenarios.md#job-information)
+- [Get directs Service Anniversary](sap-manager-read-write-scenarios.md#service-anniversary)
+- [Update Cost Center](sap-manager-read-write-scenarios.md#update-cost-center)
+- [Update Job Title](sap-manager-read-write-scenarios.md#update-job-title)
 
 ## Technical synopsis
 
-:::image type="content" source="media/agent-and-success-factors-integration.png" alt-text="Diagram of the high-level components comprising overall solution for ESS agent and SuccessFactors integration." lightbox="media/agent-and-success-factors-integration.png":::
+:::image type="content" source="media/agent-and-success-factors-integration.png" alt-text="Diagram of the high-level components comprising overall solution for the Employee Self-Service agent and SuccessFactors integration." lightbox="media/agent-and-success-factors-integration.png":::
 
-The diagram outlines the high-level components comprising overall solution for the ESS agent and SuccessFactors integration. There are different activities to be performed as part of initial deployment and for an ongoing operation. As the solution involves multiple technologies, you should spend some time initially understanding the various components and bring in the right stakeholders to set up an environment to deploy and test the ESS agent.
+The diagram outlines the high-level components comprising overall solution for the Employee Self-Service agent and SuccessFactors integration. There are different activities to be performed as part of initial deployment and for an ongoing operation. As the solution involves multiple technologies, you should spend some time initially understanding the various components. Bring in the right stakeholders to set up an environment to deploy and test the Employee Self-Service agent.
 
 > [!NOTE]
 > SuccessFactors integration is currently based on OData V2.0, but the latest supported version is V4.0. Microsoft Entra ID using SuccessFactors is still a prerelease version and is subject to change.
@@ -56,7 +74,7 @@ The diagram outlines the high-level components comprising overall solution for t
 - Admin access to SAP SuccessFactors (SF)
 - Admin access within the Azure portal
 
-You can refer to the ESS agent deployment guide for subscription requirements for the ESS agent.
+You can refer to the Employee Self-Service agent deployment guide for subscription requirements for the Employee Self-Service agent.
 
 ### Deployment role requirements
 
@@ -64,20 +82,20 @@ You can refer to the ESS agent deployment guide for subscription requirements fo
 |------------------|----------------|-------------------------|------------------------|
 |**SAP SF Administrator** |User performing administrative tasks. |1. Create an OAuth 2.0 client application in SuccessFactors.  <br>2. Upload the SAML certificate to OAuth 2.0 client application within SuccessFactors (SF). <br>3. Determine the API server where SF is hosted. <br>4. Confirm that maker account mapped in SAP SuccessFactors has OData API access. |SAP SuccessFactors |
 |**Application Administrator (or) Cloud Application Administrator (or) Application Owner** |User configuring single sign-on (SSO) integration. |1. Establish a Microsoft Enterprise application. <br>2. Configure SAML settings within the Enterprise application. <br>3. Obtain the Enterprise application's SAML certificate. <br>4. Establish trust. |Azure Admin portal |
-|**Environment Maker** |User customizing the ESS agent. |1. Install and configure SAP SF extension pack. <br>2. Manage SAP SF topics. <br>3. Setup User Context. |Microsoft Copilot Studio |
+|**Environment Maker** |User customizing the Employee Self-Service agent. |1. Install and configure SAP SF extension pack. <br>2. Manage SAP SF topics. <br>3. Setup User Context. |Microsoft Copilot Studio |
 |**InfoSec/IT Infra/Change Control Board** |User committee responsible for security infrastructure changes. |Configure IT platform services such as network and firewall rules. |Network firewall policies |
 
-### Infra set up for 3P ISV integration
+### Infrastructure setup for external system solution integration
 
-Most enterprise organizations secure their 3P HCMs/Knowledge Sources from external networks, as the line of business must protect sensitive information about employees, organizations, knowledge assets, and so on.
+Most enterprise organizations secure their third-party knowledge sources from external networks, as the line of business must protect sensitive information about employees, organizations, knowledge assets, and so on.
 
-When you need to integrate these enterprise systems into ESS agent to use it as a source for providing relevant information to the end users, these systems should be accessible to the Power Platform environment hosting these ESS agents.
+When you need to integrate these enterprise systems into the Employee Self-Service agent to use it as a source for providing relevant information to the end users, these systems should be accessible to the Power Platform environment hosting the Employee Self-Service agent.
 
-These systems must be configured with allowlists for the source IP addresses from where the ESS agent is hosted and executed, that is, Power Platform environment. For more information, see [Power Platform URLs and IP address ranges - Power Platform](/power-platform/admin/online-requirements).
+These systems must be configured with allowlists for the source IP addresses from where the Employee Self-Service agent is hosted and executed, that is, Power Platform environment. For more information, see [Power Platform URLs and IP address ranges - Power Platform](/power-platform/admin/online-requirements).
 
-For more information on 3P ISV connectors, see [Managed connectors outbound IP addresses](/connectors/common/outbound-ip-addresses#power-platform).
+For more information on third-party external system solution connectors, see [Managed connectors outbound IP addresses](/connectors/common/outbound-ip-addresses#power-platform).
 
-For SAP SuccessFactors (SF) integration, as the ESS agent uses OData v2.0, you need to work with InfoSec to allowlist Power Platform connectors to communicate with this endpoint. If any extra data security requirements need to be met, especially for OData exchange, work with your security specialists to harden the security for data in-transit.
+For SAP SuccessFactors (SF) integration, as the Employee Self-Service agent uses OData v2.0, you need to work with InfoSec to allowlist Power Platform connectors to communicate with this endpoint. If any extra data security requirements need to be met, especially for OData exchange, work with your security specialists to harden the security for data in-transit.
 
 ### Set up SSO for SAP SuccessFactors with Microsoft Entra
 
@@ -104,9 +122,9 @@ You can ignore this step if SSO is already established for SAP SuccessFactors wi
 
 #### High-level overview
 
-1. [Establish a *Microsoft Enterprise application*.](#create-a-microsoft-entra-id-enterprise-application).
-2. [Create an *OAuth 2.0 Client Application* in SuccessFactors.](#create-an-oauth-20-client-application-in-successfactors).
-3. [Configure *SAML* settings within the Enterprise application.](#configure-enterprise-application).
+1. [Establish a *Microsoft Enterprise application*.](#create-a-microsoft-entra-id-enterprise-application)
+2. [Create an *OAuth 2.0 Client Application* in SuccessFactors.](#create-an-oauth-20-client-application-in-successfactors)
+3. [Configure *SAML* settings within the Enterprise application.](#configure-enterprise-application)
 4. Obtain the Enterprise application's *SAML Certificate*.
 5. Upload the SAML certificate to your OAuth 2.0 client application within SuccessFactors.
 6. [Establish trust](#configure-successfactors-to-trust-microsoft-entra-id).
@@ -142,7 +160,7 @@ You can ignore this step if SSO is already established for SAP SuccessFactors wi
      > Choose the correct name identifier format based on the user mapping between Microsoft Entra and SAP SuccessFactors. For example, if "Employee ID" is used as a sign in user ID for SAP SuccessFactors, then the mapping of source attribute should be the correct attribute from Microsoft Entra. Since this identifier is just an Employee ID without any email format, the **Name identifier format** should be set as **Unspecified**.
 
 9. Download the **Certificate (Base64 format)** from this application. This information is required for completing the next step of creating an OAuth 2.0 client application in SuccessFactors. A certificate can be downloaded without completing the previous step. However, complete the OAuth 2.0 Client application setup in SuccessFactors to obtain the "api_key" required for the previous step.
-10. Assign users and groups. Add all the users and/or groups required to access SAP SF via the ESS agent under **Users and groups** section within Enterprise application's configuration for SAP SuccessFactors created in Microsoft Entra.
+10. Assign users and groups. Add all the users and/or groups required to access SAP SF via the Employee Self-Service agent under **Users and groups** section within Enterprise application's configuration for SAP SuccessFactors created in Microsoft Entra.
 
 ### Create an OAuth 2.0 client application in SuccessFactors
 
@@ -191,20 +209,20 @@ You can ignore this step if SSO is already established for SAP SuccessFactors wi
 
 For more information on setting up SSO for SAP SuccessFactors with Microsoft Entra, see [Set up Microsoft Entra ID using SuccessFactors](/power-platform/sap/connect/entra-id-using-successfactors).
 
-### Install SuccessFactors extension pack for ESS agent
+### Install SuccessFactors extension pack for the Employee Self-Service agent
 
-The ESS agent is designed to have separate extension packs for each third party ISV, like SuccessFactors. Hence, these extension packs must be installed before starting any configurations or customizations.
+The Employee Self-Service agent is designed to have separate extension packs for each third party external system solution, like SuccessFactors. As a result, these extension packs must be installed before starting any configurations or customizations.
 
 These steps are required to install and enable the SuccessFactors extension pack:
 
 1. **Entitlement**
-   Work with your ESS agent private preview product managers for the entitlement process. Once the entitlement process is complete for your tenant, the SuccessFactors extension pack shows up under **Customize** section of ESS agent.
+   Work with your Employee Self-Service agent private preview product managers for the entitlement process. Once the entitlement process is complete for your tenant, the SuccessFactors extension pack shows up under **Customize** section of the Employee Self-Service agent.
 
    > [!NOTE]
    > Entitlement process is a preview workaround until the extension pack installation is streamlined in Microsoft Copilot Studio.
 
 2. Install the extension.
-   1. Open the ESS agent in Copilot Studio.
+   1. Open the Employee Self-Service agent in Copilot Studio.
    2. Navigate to **Settings**.
    3. Select **Customize** from the left navigation under the Settings.
    4. Select **Employee Self Service HR SuccessFactors** and select **Install**.
@@ -225,15 +243,31 @@ These steps are required to install and enable the SuccessFactors extension pack
 > [!NOTE]
 > SAP SF OData connector uses maker connection, which is the SF API user credentials, in all flows to establish connection.
 
-### Set up SuccessFactors extension pack for ESS agent
+### Set up Environment Variables
 
-The SuccessFactors extension pack requires few initial setups for the agent flows and templates. The following sections walk you through the process for configuring the required components.
+This section contains the environment variables for the SAP SuccessFactors instance you're integrating, based on your organization's operational policies.
+
+The following table shows the list of variables and the purpose of each variable to be customized based on your organization's needs. We recommend you work with an SAP SuccessFactors subject matter expert to better understand the operational model.
+
+|Environmental variable                    |Description |
+|------------------------------------------|------------|
+|SuccessFactors_EC_Link                    |Variable stores the link, which gets used when update Topic is successful so the user can go on to Employee Central (EC) in SuccessFactors to check their updates. </br>The default value is `https://hcm41.sapsf.com/sf/start/` </BR>The default value needs to be changed to your organization's EC link. |
+|SuccessFactors_EC_DisplayName             |Variable stores the name to show the user for EC link. </br>The default value is **Employee Central**. |
+|SuccessFactors_RaceAndEthnicity_Countries |Variable stores the countries/regions that support the race and ethnicity Topic. </br>The data type is Array. </br>The default value is ["USA","GBR"] </br> This variable is used in the Topic to validate the user is part of the country/region list using UserContext_Country_Code. |
+|SuccessFactors_VeteranInfo_Countries      |Variable stores the countries/regions that support the veteran info Topic. </br>The data type is Array. </br>The default value is ["USA","GBR"]. </br>This variable is used in the Topic to validate the user is part of the country/region list using UserContext_Country_Code. |
+|SuccessFactors_CostCenterSupport_Link     |Variable stores the link used in the write cost center Topic as a support link when the user fails to input a valid cost center. |
+
+Learn more about [using environment variables in Power Platform solutions](/power-apps/maker/data-platform/environmentvariables#enter-new-values-while-importing-solutions) when following the steps to enter values for the environment variables while you're importing solutions.
+
+### Set up SuccessFactors extension pack for the Employee Self-Service agent
+
+The SuccessFactors extension pack requires some initial setup for the agent flows and templates. The following sections walk you through the process for configuring the required components.
 
 ### Setup User Context
 
-This step is required to set the user context for the ESS agent that primarily does the user mapping for Microsoft Entra and pass it on to SAP SuccessFactors.
+This step is required to set the user context for the Employee Self-Service agent that primarily does the user mapping for Microsoft Entra and pass it on to SAP SuccessFactors.
 
-1. Open the ESS agent in Copilot Studio.
+1. Open the Employee Self-Service agent in Copilot Studio.
 2. Go to **Topics**.
 3. Select **\[Admin\] – User Context – Setup**.
 4. In the canvas, select **...More** and select **</> Open code editor**
@@ -258,69 +292,109 @@ This step is required to set the user context for the ESS agent that primarily d
    > The highlighted section in the code transforms username from the logged in user's principal name to SAP SuccessFactors user ID. Use this information based on your environment setup between Microsoft Entra and SAP SuccessFactors. Currently the agent supports only User Principal Name (UPN) as a key identifier, if there are other attributes to be used as key identifier then a custom logic should be implemented to get the correct username for SAP SuccessFactors.
 6. Select **Save** for changes.
 
-### Set up Templates
+### Set up templates
 
-ESS agent comes with few predefined templates that are being used for each topic. These templates are shipped with the default data attribute paths, if there are custom entities and paths being used in SAP SuccessFactors, then these templates must be customized to match the SAP SuccessFactors entities.
+The Employee Self-Service agent comes with a few predefined templates used for each topic. These templates are shipped with the default data attribute paths, if there are custom entities and paths being used in SAP SuccessFactors, then these templates must be customized to match the SAP SuccessFactors entities.
 
 To set up templates, follow these steps:
 
-1. Open ESS agent in Copilot Studio.
+1. Open The Employee Self-Service agent in Copilot Studio.
 2. Select **Settings** in the top right corner of agent ribbon.
 3. Select **Customize** from the agent settings left navigation pane.
 4. Select **Employee Self Service HR SuccessFactors** extension pack.
 5. Select **Open** from the dialog popup.
 6. Select **Manage** in the Configuration section.
-7. All the template configurations available are listed in the Power Apps, so select each of the "Get" templates to configure the right entities and paths. The following code is an example of the "Get" configuration template:
-
-   ```json
-   { 
-   "scenario": 
-   "HRSAPSuccessFactorsHCMEmployeeGetBaseCompensationAndCompaRatio",//Scenario name 
-   [OPTIONAL] 
-   "rootEntity": "EmpEmployment",//Entity to be queried 
-   "filter": "personIdExternal eq '{personIdExternalVal}' and userId eq 
-   '{userIdVal}'",//Filter Expression to filter data more on this format
-   SAP integration for ESS agent 
-   NDA Private Preview Customers ONLY 
-   Microsoft Corporation © 
-   Deployment Guide v0.1 
-   Page 13 of 44 
-   SAP integration for ESS agent Deployment Guide v0.1 Page 14 of 44 
-   NDA Private Preview Customers ONLY 
-   Microsoft Corporation © 
-       "requestEntities": [  //Request entites an array of object that should be queried 
-   from root entity 
-           { 
-               "key": "CompaRatio",//Key Value 
-               "valuePath": "compInfoNav/empCompensationCalculatedNav/compaRatio",//Path 
-   from root entity for value 
-               "labelPath": "EmpCompensationCalculated/compaRatio"//Path from label 
-   $metadata to get label value 
-           }, 
-       ], 
-       "permissionsMetadata": [  //Permission Metadata more on this data in the permisson loop 
-           { 
-               "permType": "DATA_MODEL",  //Permision Type SF code value 
-               "permLongValue": -1,   
-               "permStringValue": "$_payCompGroup_AnnualizedSalary_read"  //Permission 
-   string SF code value 
-           } 
-       ]
-    }
-   ```
-
-The highlighted **filter** parameter keys must match with what is expected in the Template configuration. In the following example, *personIdExternalVal* would be used as a key to insert *Global.ESS.UserContext.Employee_Id* into the filter expression.
-
-**Example format used in Topic:**
-
-_`"{""personIdExternalVal"": """ & Global.ESS_UserContext_Employee_Id & """,""userIdVal"": """ & Global.ESS_UserContext_User_Id & """}"`
-
-**Snippet of the template configuration:**
+7. All of the template configurations are listed in Power Apps. Select each of the **Get** templates to configure the right entities and paths. 
+ 
+The following code shows an example of the Get configuration template: 
 
 ```json
-{
-"filter": "personIdExternal eq '{personIdExternalVal}' and userId eq '{userIdVal}'", }
+{ 
+    "scenario": "HRSAPSuccessFactorsHCMEmployeeGetBaseCompensationAndCompaRatio",//Scenario name [OPTIONAL] 
+    "rootEntity": "EmpEmployment",//Entity to be queried 
+    "filter": "personIdExternal eq '{personIdExternalVal}' and userId eq '{userIdVal}'",//Filter Expression to filter data more on format below 
+    "requestEntities": [  //Request entites an array of object that should be queried from root entity 
+        { 
+            "key": "CompaRatio",//Key Value 
+            "valuePath": "compInfoNav/empCompensationCalculatedNav/compaRatio",//Path from root entity for value 
+            "labelPath": "EmpCompensationCalculated/compaRatio"//Path from label $metadata to get label value 
+        }, 
+    ], 
+    "permissionsMetadata": [  //Permission Metadata more on this in permisson loop 
+        { 
+            "permType": "DATA_MODEL",  //Permision Type SF code value 
+            "permLongValue": -1,   
+            "permStringValue": "$_payCompGroup_AnnualizedSalary_read"  //Permission string SF code value 
+        } 
+    ] 
+} 
 ```
+
+The `filter` parameter keys must match what's expected in the Template configuration.  In the following example, `personIdExternalVal` is used as a key to insert `Global.ESS.UserContext.Employee_Id` into the filter expression.
+
+Example format used in Topic: 
+
+```json
+"{""personIdExternalVal"": """ & Global.ESS_UserContext_Employee_Id & """,""userIdVal"": """ & Global.ESS_UserContext_User_Id & """}" 
+```
+
+Snippet of Template configuration: 
+
+```json
+{ 
+  ... 
+  "filter": "personIdExternal eq '{personIdExternalVal}' and userId eq '{userIdVal}'", 
+  ... 
+} 
+```
+ 
+Similar to the `Get` Template configuration, the following section covers the `Update` Template configuration.
+
+The following is an example of an update template configuration:
+
+```json
+{ 
+    "scenario": "UpdateCostCenter",//[OPTIONAL] Scenario name     
+    "requestBody": '{  //String data type request body. More below on how to format 
+        "__metadata": {  //metadata object with URI containing entity where insert happens 
+            "uri": "EmpJob" //Entity used for insert 
+        }, 
+        "userId": "userIdVal",  //User Id value of user to update (This sometimes can be personIdExternal depending on Entity) 
+        "startDate": "/Date(startDateVal)/", //Start Date field required for cost center update 
+        "costCenter": "costCenterVal"  //cost center field value 
+    }', 
+    "permissionsMetadata": [{  //Permission Metadata more on this in permisson loop 
+            "permType": "DATA_MODEL",  //SF data value permission type 
+            "permLongValue": -1,  
+            "permStringValue": "$_eventReason_DATACOST_write"  //SF string value code for permission 
+        } 
+    ], 
+    "rolePermissions": []  //Different type of acceptable permission. Uses user roles to identify if user has role permissions 
+} 
+```
+ 
+`requestBody` – `var_requestParam` is an array of objects 
+
+Example format used in Topic: 
+```json
+"[{""key"":""personIdExternalVal"", ""value"":"""&Global.ESS_UserContext_Employee_Id&"""},         {""key"":""countryVal"", ""value"":"""&First(Topic.var_parsedModel).country&"""},{""key"":""startDateVal"", ""value"":"""&DateDiff(Date(1970, 1, 1), First(Topic.var_parsedModel).startDate, TimeUnit.Seconds) * 1000&"""},{""key"":""genericString1Val"", ""value"":"""&Topic.id_raceAndEthnicity&"""}]" 
+```
+ 
+Snippet from Template configuration: 
+
+```json
+{ 
+    "__metadata": { 
+        "uri": "PerGlobalInfoUSA" 
+    },   
+    "personIdExternal": "personIdExternalVal", 
+    "country": "countryVal", 
+    "startDate": "/Date(startDateVal)/", 
+    "genericString1": "genericString1Val", 
+} 
+```
+
+The keys present in the `var_requestParam` must match what is expected in the Template configuration. In the previous example, `personIdExternalVal` is used as a key to insert `Global.ESS_UserContext_Employee_Id` into the request body. 
 
 ## Permissions and Role based permissions configuration
 
@@ -374,7 +448,7 @@ check for in role id
 1. Setting a variable with the filter parameters, which in this case is the alias of the user the context is retrieved for.
 2. Next split into parallel calls to reduce time:
     1. The left side retrieves the user context config in the first Dataverse call. The second Dataverse call retrieves the filter and request entities, which we query for in the OData connector at the end. After the left side is complete, the flow retrieves all the requested entities from the config for the user.
-    2. The right side retrieves the config to check if user *isManager* in the first Dataverse call. The second Dataverse call flow retrieves the filter and request entities to query for. With that config, the flow queries for directs under the user and retrieves necessary information such as in this case *userId* of directs.
+    2. The right side retrieves the config to check if user *isManager* in the first Dataverse call. The second Dataverse call flow retrieves the filter and request entities to query for. With that config, the flow queries for the user's direct reports and retrieves necessary information such as in this case *userId* of directs.
 3. If the SF call for user data doesn't return anything, we terminate the flow and respond to copilot user not found.
 4. We split into parallel calls to check if the user has multiple records on the left.
 5. The left side checks if there are multiple records and then runs a child flow that gets the active user ID and updates the context. Then the flow makes an OData call to get the user's roles by their user ID.
@@ -410,321 +484,8 @@ check for in role id
 
     :::image type="content" source="media/agent-authentication-flow-variable.png" alt-text="Diagram that shows Query SF OData Metadata entity." lightbox="media/agent-authentication-flow-variable.png":::
 
-8. Lastly it returns three variables, such as *labelResponse*, *modelResponse*, and *isSucceeded*.
+8. Finally, it returns three variables, such as *labelResponse*, *modelResponse*, and *isSucceeded*.
 
-## Employee Read scenarios – configuration
-
-The topics shipped with the ESS agent preview are limited only for "Read" scenarios. The "Update" scenarios aren't supported yet, even thought they're available for the current version of agent.
-
-Each of the Read topic has its own prompts, configurations, and so on, but the actual execution of SAP SuccessFactors is encapsulated in the **SuccessFactors System Get Common Execution** topic expecting the following inputs:
-
-- **Filter parameters**: Generally passing *Employee ID* and *User ID* for filtering query for Employee Read topics.
-- **ScenarioName**: Config Name, which is used by Dataverse call to get scenario configuration.
-- **userIdentifier**: User ID.
-
-A common orchestrator then returns a ModelResponse and LabelResponse, which the LLM then parses using the following instructions to generate an answer for the user:
-
-- Extract the input from the following response (map the Label response *value* as key in model response attribute then provide model value).
-- Provide the response to the user in a human readable form.
-- Format the response properly to make it clean and readable.
-- Use only data values from the variable named "successfactorsModelResponse" and use the variable named "successfactorsLabelResponse" for labeling the data.
-- **Response example:**
-  - Label Response:"key":"company","value":"company"
-  - Model Response: "company":"12345"
-  - Example Output: Your company is 12345 (Contoso Germany)
-
-The "Get Employee ID" and "Get Service Anniversary" topics are exceptions to this common execution method, which is further explained in their respective sections.
-
-Authorization for all the topics is as follows:
-
-- Authorization is done using the *permissionsMetadata* part of the Template configuration. The *permissionsMetadata* and *User ID* are used to create the query string for OData connector in *SuccessFactors Check User Permissions* flow.
-- You should include *permissionMetadata* or *rolePermission* in the Template config file, as there's no other authorization check if both of those fields are missing.
-
-### Get Base Compensation
-
-|Get Base Compensation |Details |
-|----------------------|--------|
-|**Description**       | Returns the users' compensation data, such as compensation ratio and salary. |
-|**Prompts**           | <li>>How much can I expect to earn annually, what is my salary? <li>Show me only my base salary details |
-|**Scenario name**     |`msdyn_HRSAPSuccessFactorsHCMEmployeeGetBaseCompensationAndCompaRatio`.  |
-|**Filter**            | Filters on *personIdExternal* using *ESS _UserContext_Employee_Id* and *user ID* using *ESS_UserContext_User_Id*<p>Expression: `"personIdExternal eq '{personIdExternalVal}' and userId eq '{userIdVal}'"`. |
-|**Values queried**    | CompaRatio <br> Currency <br> AnnualBaseSalary. |
-
-**Configuration:**
-
-```json
-{ 
-    "scenario": "HRSAPSuccessFactorsHCMEmployeeGetBaseCompensationAndCompaRatio", 
-    "rootEntity": "EmpEmployment", 
-    "filter": "personIdExternal eq '{personIdExternalVal}' and userId eq 
-'{userIdVal}'", 
-    "requestEntities": [ 
-        { 
-            "key": "CompaRatio", 
-            "valuePath": "compInfoNav/empCompensationCalculatedNav/compaRatio", 
-            "labelPath": "EmpCompensationCalculated/compaRatio" 
-        }, 
-        { 
-            "key": "Currency", 
-            "valuePath": "compInfoNav/empCompensationCalculatedNav/currency", 
-            "labelPath": "EmpCompensationCalculated/currency" 
-        }, 
-        { 
-            "key": "AnnualBaseSalary", 
-            "valuePath": 
-"compInfoNav/empCompensationCalculatedNav/yearlyBaseSalary", 
-            "labelPath": "EmpCompensationCalculated/yearlyBaseSalary" 
-        } 
-    ], 
-    "permissionsMetadata": [ 
-        { 
-            "permType": "DATA_MODEL", 
-            "permLongValue": -1, 
-            "permStringValue": "$_payCompGroup_AnnualizedSalary_read" 
-        } 
-    ] 
-} 
-```
-
-### Get Company Code 
-
-|Get Company Code   |Details |
-|-------------------|--------|
-|**Description**    | Returns users' company code information. |
-|**Prompts**        | <li>What is my company code? <li> Get employee view on company code. <li>Display my company code <li>Give me my company code, what is my company code? <li>Show me only my company code details. |
-|**Scenario name**  |`msdyn_HRSAPSuccessFactorsHCMEmployeeGetCompanyCode`. |
-|**Filter** | Filters on *personIdExternal* using *ESS_UserContext_Employee_Id* and *user ID* using *ESS_UserContext_User_Id* <p>Expression: `"personIdExternal eq '{personIdExternalVal}' and userId eq'{userIdVal}'"`. |
-|**Values queried** | CompanyCode. <br> CompanyName (*No label is retrieved for company name as it is*). |
-
-**Configuration**:
-
-```json
-{ 
-    "scenario": "HRSAPSuccessFactorsHCMEmployeeGetCompanyCode", 
-"rootEntity": "EmpEmployment", 
-"filter": "personIdExternal eq '{personIdExternalVal}' and userId eq '{userIdVal}'", 
-"requestEntities": [ 
-{ 
-"key": "CompanyCode", 
-"valuePath": "jobInfoNav/company", 
-"labelPath": "EmpJob/company" 
-}, 
-{ 
-"key": "CompanyName", 
-"valuePath": "jobInfoNav/companyNav/name", 
-"labelPath": "" 
-} 
-], 
-"permissionsMetadata": [ 
-{ 
-"permType": "DATA_MODEL", 
-"permLongValue": -1, 
-"permStringValue": "$_jobInfo_company_read" 
-} 
-] 
-} 
-```
-
-### Get Cost Center
-
-|Get Cost Center    |Details |
-|-------------------|--------|
-|**Description**    |Returns users' current cost center. |
-|**Prompts** |<li>What is my Cost Center?<li>Can you show me the cost center I'm assigned to?<li>Can you show me my cost center?<li>Show me only my cost center details. |
-|**Scenario name**  |`msdyn_HRSAPSuccessFactorsHCMEmployeeGetCostCenter`. |
-|**Filter** |Filters on *personIdExternal* using *ESS_UserContext_Employee_Id* and *user ID* using *ESS_UserContext_User_Id*<p> Expression: `"personIdExternal eq '{personIdExternalVal}' and userId eq '{userIdVal}'"`. |
-|**Values queried** |CostCenterCode. <br>CostCenterName (*CostCenterName label isn't retrieved as it isn't necessary for topic*). |
-
-**Configuration**:
-
-```json
-{ 
-    "scenario": "HRSAPSuccessFactorsHCMEmployeeGetCostCenter", 
-"rootEntity": "EmpEmployment", 
-"filter": "personIdExternal eq '{personIdExternalVal}' and userId eq '{userIdVal}'", 
-"requestEntities": [ 
-{ 
-"key": "CostCenterCode", 
-"valuePath": "jobInfoNav/costCenter", 
-"labelPath": "EmpJob/costCenter" 
-}, 
-{ 
-"key": "CostCenterName", 
-"valuePath": "jobInfoNav/costCenterNav/name", 
-"labelPath": "" 
-} 
-], 
-"permissionsMetadata": [ 
-{ 
-"permType": "DATA_MODEL", 
-"permLongValue": -1, 
-"permStringValue": "$_jobInfo_cost-center_read" 
-} 
-] 
-} 
-```
-
-### Get Hire Date
-
-|Get Hire Data      |Details |
-|-------------------|--------|
-|**Description**    |Returns the users' hire date. |
-|**Prompts**        |<li>When is my original start date? <li>Get my hire date. <li>Get my start date. <li>Show me only my hire date details. |
-|**Scenario name**  |`msdyn_HRSAPSuccessFactorsHCMEmployeeGetHireDate`. |
-|**Filter**  |Filters on *personIdExternal* using *ESS_UserContext_Employee_Id* and *user ID* using *ESS_UserContext_User_Id*<p>Expression: `"personIdExternal eq '{personIdExternalVal}' and userId eq'{userIdVal}'"`. |
-|**Values queried** | HireDate. |
-
-**Configuration**:
-
-```json
-{ 
-    "scenario": "HRSAPSuccessFactorsHCMEmployeeGetHireDate", 
-"rootEntity": "EmpEmployment", 
-"filter": "personIdExternal eq '{personIdExternalVal}' and userId eq 
-'{userIdVal}'", 
-"requestEntities": [ 
-{ 
-"key": "HireDate", 
-"valuePath": "originalStartDate", 
-"labelPath": "EmpEmployment/originalStartDate" 
-} 
-], 
-"permissionsMetadata": [ 
-{ 
-"permType": "DATA_MODEL", 
-"permLongValue": -1, 
-"permStringValue": "$_employmentInfo_seniorityDate_read" 
-} 
-] 
-} 
-```
-
-### Get Service Anniversary
-
-|Get Service Anniversary |Details |
-|------------------------|--------|
-|**Description** |This topic performs a calculated functionality using the "HireDate" value with some PowerFx functions as follows:<p>**Years worked**<p><li>`RoundDown(DateDiff(Topic.startDate, Now(), TimeUnit.Years), 0)` <br>This formula calculates the number of complete years the employee worked. It finds the difference between current date and employee's start date and then rounds down to the nearest whole number<li>`DateDiff(Topic.startDate, Now(), TimeUnit.Years)` <br>This part of the formula calculates the difference in years between the employee's start date (`Topic.startDate`) and the current date (\`Now()\`).<li>`RoundDown(..., 0)` <br>This function takes the result of DateDiff and rounds it down to the nearest whole number. The 0 indicates the number of decimal places to round to, which in this case is zero, meaning it returns an integer value representing the complete years worked. <p>**Service Anniversary Intervals in Years** <p><li>`RoundDown(Topic.yearsWorked / Topic.serviceAnniversaryDuration, 0)` <br>Calculates how many complete intervals of the service anniversary duration the employee worked. It divides the total years worked by the service anniversary duration and rounds down to the nearest whole number. <p>**Upcoming Service Anniversary Count** <li>`Topic.serviceAnniversaryDuration \* (Topic.serviceAnniversaryIntervalsInYears + 1)` <br>This formula calculates the upcoming service anniversary count by multiplying the service anniversary duration by one more than the complete intervals already worked.<p>**Calculated Service Anniversary Date** <br>`DateAdd(Topic.startDate, Topic.serviceAnniversaryDuration \*(RoundDown(Topic.yearsWorked / Topic.serviceAnniversaryDuration, 0) + 1), TimeUnit.Years)`<p><li>`RoundDown(Topic.yearsWorked / Topic.serviceAnniversaryDuration, 0)` <br>This part of the formula calculates how many complete intervals of the service anniversary duration the employee worked. It divides the total years worked by the service anniversary duration and rounding down to the nearest whole number.<li>`Topic.serviceAnniversaryDuration \* (RoundDown(Topic.yearsWorked /Topic.serviceAnniversaryDuration, 0) + 1)` <br>This part of the formula calculates the total service anniversary intervals (plus one) to be added to the start date.<li>`DateAdd(Topic.startDate, ..., TimeUnit.Years)`<br>Finally, this function adds the calculated intervals to the start date to determine the upcoming service anniversary date. |
-|**Prompts**  |<li>When is my next service anniversary?<li>Next anniversary<li>Service anniversary<li>Show my service anniversary date <li>What is my service anniversary date? |
-|**Scenario name**  |`msdyn_HRSAPSuccessFactorsHCMEmployeeGetHireDate` |
-|**Filter** |Filters on *personIdExternal* using *ESS_UserContext_Employee_Id* and *user ID* using *ESS_UserContext_User_Id*<p>Expression: `"personIdExternal eq '{personIdExternalVal}' and userId eq '{userIdVal}'"`|
-|**Values queried** |HireDate |
-
-**Configuration**:
-
-```json
-{ 
-    "scenario": "HRSAPSuccessFactorsHCMEmployeeGetHireDate", 
-"rootEntity": "EmpEmployment", 
-"filter": "personIdExternal eq '{personIdExternalVal}' and userId eq 
-'{userIdVal}'", 
-"requestEntities": [ 
-{ 
-"key": "HireDate", 
-"valuePath": "originalStartDate", 
-"labelPath": "EmpEmployment/originalStartDate" 
-} 
-], 
-"permissionsMetadata": [ 
-{ 
-"permType": "DATA_MODEL", 
-"permLongValue": -1, 
-"permStringValue": "$_employmentInfo_seniorityDate_read" 
-} 
-] 
-} 
-```
-
-### Get Employee ID
-
-|Get Employee ID |Details |
-|----------------|--------|
-|**Description** |Reads *ESS_UsetContext_Employee_Id* and returns it to the user. There's no config required for this topic. |
-|**Prompts**     |<li>What is my employee ID?<li>Show my employee ID?<li>What is my employee number? |
-
-### Get Job Info
-
-|Get Job Info       |Details |
-|-------------------|--------|
-|**Description**    | Returns job information to the user, including Job Code, Job Title, Job Function, and Job Function Type. |
-|**Prompts**        | <li>What is my job code? <li>What is a job code? <li>What is my role? <li>What is my job info? <li>What is my job title? <li>Show me only my job details. |
-|**Scenario name**  |`msdyn_HRSAPSuccessFactorsHCMEmployeeGetJobInfo`. |
-|**Filter**| Filters on *personIdExternal* using *ESS_UserContext_Employee_Id* and *user ID* using *ESS_UserContext_User_Id*<p>Expression: `"personIdExternal eq '{personIdExternalVal}' and userId eq '{userIdVal}'"`. |
-|**Values queried** | JobCode<br>JobTitle<br>JobFunction<br>JobFunctionType. |
-
-**Configuration**:
-
-```json
-{ 
-    "scenario": "HRSAPSuccessFactorsHCMEmployeeGetJobInfo", 
-"rootEntity": "EmpEmployment", 
-"filter": "personIdExternal eq '{personIdExternalVal}' and userId eq 
-'{userIdVal}'", 
-"requestEntities": [ 
-        { 
-            "key": "JobCode", 
-            "valuePath": "jobInfoNav/jobCodeNav/name", 
-            "labelPath": "EmpJob/jobCode" 
-        }, 
-        { 
-            "key": "JobTitle", 
-            "valuePath": "jobInfoNav/jobTitle", 
-            "labelPath": "EmpJob/jobTitle" 
-        }, 
-        { 
-            "key": "JobFunction", 
-            "valuePath": "jobInfoNav/jobCodeNav/jobFunction", 
-            "labelPath": "FOJobCode/jobFunction" 
-        }, 
-        { 
-            "key": "JobFunctionType", 
-            "valuePath": "jobInfoNav/jobCodeNav/jobFunctionNav/jobFunctionType", 
-            "labelPath": "FOJobFunction/jobFunctionType" 
-        } 
-    ], 
-    "permissionsMetadata": [ 
-        { 
-            "permType": "DATA_MODEL", 
-            "permLongValue": -1, 
-            "permStringValue": "$_jobInfo_job-code_read" 
-        } 
-    ] 
-} 
-```
-
-### Get Position Number
-
-|Get Position Number |Details |
-|--------------------|--------|
-|**Description**     |Returns position number acquired from SuccessFactors. |
-|**Prompts**         |<li>What is my position ID? <li> Get my position number. <li> Show me only my position details.  |
-|**Scenario name**   |`msdyn_HRSAPSuccessFactorsHCMEmployeeGetPositionNumber`. |
-|**Filter**          |Filters on *personIdExternal* using *ESS_UserContext_Employee_Id* and *user ID* using *ESS_UserContext_User_Id*<p>Expression: `"personIdExternal eq '{personIdExternalVal}' and userId eq '{userIdVal}'"`. |
-|**Values queried**  |JobCode. |
-
-**Configuration**:
-
-```json
-{ 
-    "scenario": "HRSAPSuccessFactorsHCMEmployeeGetPositionNumber", 
-"rootEntity": "EmpEmployment", 
-"filter": "personIdExternal eq '{personIdExternalVal}' and userId eq '{userIdVal}' 
-and tolower(jobInfoNav/positionNav/effectiveStatus) eq 'a'", 
-"requestEntities": [ 
-{ 
-"key": "JobCode", 
-"valuePath": "jobInfoNav/position", 
-"labelPath": "EmpJob/position" 
-} 
-], 
-"permissionsMetadata": [ 
-{ 
-"permType": "DATA_MODEL", 
-"permLongValue": -1, 
-"permStringValue": "$_jobInfo_position_read" 
-} 
-] 
-} 
-```
 
 ## Troubleshooting
 

@@ -1,17 +1,18 @@
 ---
 title: Integrate Microsoft OneDrive LTI with Desire2Learn Brightspace
-author: officedocspr5
-ms.author: odocspr
-manager: jacktremper
+author: jennplatt
+ms.author: avering
+manager: michal.gideoni
 ms.reviewer: amitman
-ms.date: 08/03/2022
+ms.date: 09/15/2025
 audience: admin
 ms.topic: integration
-ms.service: msteams
-ms.subservice: teams-education
+ms.service: microsoft-365-education
 ms.collection: 
 - m365initiative-edu
 - tier2
+- m365-education
+- all-education
 ms.localizationpriority: medium
 description: Create and grade assignments, build and curate course content, and collaborate on files in real time with the new Microsoft OneDrive Learning Tools Interoperability for Desire2Learn Brightspace.
 ---

@@ -2,10 +2,10 @@
 title: "Microsoft Adoption Score"
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: camillepack
-manager: dansimp
-ms.date: 12/14/2023
+author: efrene
+ms.author: efrene
+manager: scotv
+ms.date: 12/18/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -71,6 +71,7 @@ Adoption Score is only available in the Microsoft 365 admin center and can only 
 - Teams Communications Administrator
 - Global Reader
 - Reports Reader
+- AI Report Reader
 - Usage Summary Reports Reader
 - User Experience Success Manager
 - Organizational Messages Writer Role

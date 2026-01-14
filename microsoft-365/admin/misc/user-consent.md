@@ -2,8 +2,8 @@
 title: "Managing user consent to apps in Microsoft 365"
 f1.keywords:
 - CSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 04/02/2025
 audience: Admin
@@ -32,6 +32,8 @@ If you turn this setting on, those apps will ask users for permission to access 
 A user can give access only to apps they own that access their Microsoft 365 information. They can't give an app access to any other user's information.
 
 ## Turning user consent on or off
+
+[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
 Contact your Global Administrator to edit the user consent policy in the Microsoft Entra portal by following the steps in [Configure how users consent to applications](/entra/identity/enterprise-apps/configure-user-consent).
 

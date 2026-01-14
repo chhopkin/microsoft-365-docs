@@ -2,8 +2,8 @@
 title: "Microsoft Industry Updates"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 03/17/2021
 audience: Admin

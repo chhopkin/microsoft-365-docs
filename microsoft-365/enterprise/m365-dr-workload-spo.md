@@ -3,14 +3,14 @@ title: Data Residency for SharePoint and OneDrive
 description: Data Residency for SharePoint and OneDrive
 ms.author: v-fahasen
 author: fhasen-msft
-manager: v-nihmi
+manager: Justin.Giammona
 ms.service: microsoft-365-enterprise
 ms.subservice: advanced-data-residency
 ms.topic: article
 f1.keywords:
 - NOCSH
 ms.date: 02/11/2025
-ms.reviewer: deanw, anfra, robnichols
+ms.reviewer: jugiammo, anfra, robnichols
 ms.custom:
 - it-pro
 ms.localizationpriority: medium

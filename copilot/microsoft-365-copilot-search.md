@@ -2,8 +2,8 @@
 title: "Microsoft 365 Copilot Search"
 author: Efrene
 ms.author: efrene
-manager: dansimp
-ms.date: 08/07/2025
+manager: scotv
+ms.date: 12/15/2025
 ms.topic: overview
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
@@ -19,9 +19,6 @@ description: An overview of the Microsoft 365 Copilot search feature.
 # Microsoft 365 Copilot Search
 
 Microsoft 365 Copilot Search is an AI-powered universal search experience optimized for your organization. It provides a familiar search experience that helps users quickly find relevant results from your organization. It offers a simple user experience that helps you find what you need, when you need it in a fast and secure unified search.
-
-> [!NOTE]
-> Microsoft 365 Copilot Search is generally available as both a Targeted and Standard release as of July 23, 2025. Learn more about [Standard and Targeted releases](/microsoft-365/admin/manage/release-options-in-office-365).
 
 **Unified search across all applications:** Copilot Search delivers comprehensive insights into your organization's data by interpreting content across Microsoft 365 applications and beyond. With over 100 connectors now in the Microsoft Catalog, support for custom connectors, and hundreds of connectors from integrated software vendors (ISVs), Copilot Search is the single place for quick information across all your Microsoft and non-Microsoft data sources. Learn more about the [Microsoft 365 Copilot connectors gallery](/microsoftsearch/connectors-gallery).
 
@@ -100,3 +97,15 @@ The following table shows a summary of key comparisons between Microsoft 365 Cop
 | Administration | No setup required; admin can configure bookmarks/acronyms; Admin analytics reports will be available starting August 2025 | Admin config for bookmarks/acronyms; Admin analytics available |
 | Future Updates | Document-level AI summary, enhanced people search, Ranking/Relevance and natural language improvements and more | N/A |
 
+## Microsoft 365 Copilot Search and US Government Cloud environments
+
+Microsoft 365 Copilot Search is available to users in US government cloud environments (GCC), however, the following features are not yet available: 
+
+| Feature | Environment  | Estimated availability  |
+|---|---|---|
+| Feedback | GCC-H, DoD | 2026 |
+| Connectors | DoD | 2026 |
+| Copilot Search tab in the admin center | All US government clouds | 2026 |
+| Admin analytics | All US government clouds | 2026 |
+| Admin-ingested acronyms | GCC-H, DoD | 2026 |
+| AI Views (AI-powered document overviews) | All US government clouds | TBD |

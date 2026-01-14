@@ -1,6 +1,6 @@
 ---
 title: "Network and migration planning for Office 365"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 04/15/2024

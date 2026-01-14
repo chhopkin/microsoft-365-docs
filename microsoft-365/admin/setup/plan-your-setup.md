@@ -2,8 +2,8 @@
 title: "Plan your setup of Microsoft 365 for business"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: vpattnaik
+author: vpattnai
 manager: dansimp
 ms.date: 06/04/2024
 audience: Admin

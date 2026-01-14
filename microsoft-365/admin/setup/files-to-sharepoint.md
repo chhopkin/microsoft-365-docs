@@ -2,8 +2,8 @@
 title: "Move company files to SharePoint"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: heidip
+author: MicrosoftHeidi
 manager: dansimp
 ms.date: 06/25/2024
 audience: Admin

@@ -4,7 +4,7 @@ ms.author: chucked
 author: chuckedmonson
 manager: jtremper
 ms.reviewer: ivchenya
-ms.date: 08/07/2025
+ms.date: 09/17/2025
 audience: admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
@@ -26,11 +26,16 @@ Budgets are set at the billing policy level, not for individual users, agents, o
 To access the Microsoft 365 admin center, users must be assigned one of the following roles:
 
 - [Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator)
+
 - [AI Administrator](/entra/identity/role-based-access-control/permissions-reference?#ai-administrator)
+
 - [Global Reader](/entra/identity/role-based-access-control/permissions-reference#global-reader)
 
     > [!NOTE]
     > Users with the [Global Reader](/entra/identity/role-based-access-control/permissions-reference#global-reader) role can view billing policies and budgets, but they can't view spending data.
+
+    > [!IMPORTANT]
+    > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## Set up a budget
 

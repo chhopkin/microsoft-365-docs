@@ -3,8 +3,8 @@ title: "Assign or unassign licenses to a group in the Microsoft 365 admin center
 f1.keywords: NOCSH
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
-ms.reviewer: nicholak
+manager: scotv
+ms.reviewer: rabhange
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business

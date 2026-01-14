@@ -5,12 +5,11 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 7/3/2025
+ms.date: 11/05/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
-robots: NOINDEX, NOFOLLOW
 ms.localizationpriority: medium
 ms.collection: m365copilot
 description: Learn how to access usage analytics for the Employee Self-Service agent.
@@ -20,18 +19,12 @@ appliesto:
 
 # Usage analytics for the Employee Self-Service agent
 
->[!NOTE]
->The Employee Self-Service agent is currently in limited public preview. Deployment processes are subject to change before this product becomes generally available.
+Monitoring the usage analytics of the Employee Self-Service agent should be part of the operational governance so that the agent's health and quality can be optimized continuously for end-users.
 
-You can use different interfaces to monitor ESS agent usage depending on the role in your organization in charge of monitoring analytics.
+There are two approaches in consuming analytics:
 
-As an application or agent owner with the Environment Maker role, you can navigate to the **Analytics** tab to view analytics in Copilot Studio.
-
-For advanced reporting requirements, you can integrate Azure Application Insights with Copilot Studio to gather more telemetry.
-
-## Analyze conversational agent effectiveness
-
-The **Analytics** page in Copilot Studio provides an aggregated insight into the overall effectiveness of your agent across the analytics session. [Learn more about analyzing conversational agent effectiveness.](/microsoft-copilot-studio/analytics-improve-agent-effectiveness)
+1. Systematically monitoring agent usage, effectiveness, quality, and satisfaction, which fall within the responsibilities of the service owner and/or creator. [Learn more](/microsoft-copilot-studio/analytics-overview) about Copilot Studio analytics documentation.
+1. Review agent usage, satisfaction scores, and other metrics to assess the agent’s return on investment. [Learn more](/viva/insights/org-team-insights/copilot-dashboard) about the Copilot Analytics Dashboard.
 
 ## Provide feedback
 
@@ -42,9 +35,11 @@ Feedback about Copilot is collected from Copilot experiences, such as when selec
 
 You can view feedback in the [Microsoft feedback portal](https://feedbackportal.microsoft.com/feedback). To view feedback submitted to Microsoft, select **My feedback** and sign in. If using Copilot at work or school, your IT admin might not allow use of the feedback portal.
 
+Administrators can view end-user feedback in the **Product feedback** page in the Microsoft admin center (MAC) under the **Health** section.
+
 ## Auditing and logging
 
-The ESS agent is built on Copilot and Power Platform. You can use auditing capabilities from these platforms to log and monitor usage.
+The Employee Self-Service agent is built on Copilot and Power Platform. You can use auditing capabilities from these platforms to log and monitor usage.
 
 ### Audit with Microsoft Purview
 

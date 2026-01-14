@@ -2,8 +2,8 @@
 title: "Domain registrars with setup limitations"
 f1.keywords:
 - CSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 08/10/2021
 audience: Admin

@@ -4,30 +4,27 @@ ms.author: chucked
 author: chuckedmonson
 manager: jtremper
 ms.reviewer: siruvanti
-ms.date: 08/01/2025
+ms.date: 09/18/2025
 audience: admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
-ms.subservice:
-search.appverid: 
-ms.collection: 
 ms.localizationpriority:  medium
-description: Learn how to set up or disconnect billing for pay-as-you-go services for document processing, Microsoft 365 Archive, and Microsoft 365 Backup.
+description: Learn how to set up or disconnect billing for pay-as-you-go services for document processing and Microsoft 365 Archive
 ---
 
-# Set up or disconnect pay-as-you-go billing for document processing and storage services
+# Set up or disconnect pay-as-you-go billing in Setup node
 
-This article explains how to set up or disconnect pay-as-you-go billing for the following services:
+This article explains how to set up or disconnect pay-as-you-go billing for the following services in Setup node:
 
-- Document processing for Micrsoft 365
+- Document processing for Microsoft 365
 
 - Microsoft 365 Archive
-
-- Microsoft 365 Backup
 
 ## Prerequisites
 
 Before you begin, ensure the following:
+
+- The tenant has at least one SharePoint license, or a license that includes SharePoint.
 
 - You have an Azure subscription in the same tenant as Microsoft 365.
 
@@ -36,7 +33,11 @@ Before you begin, ensure the following:
 - You have the following roles:
 
     - [SharePoint Administrator](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator) for accessing the Microsoft 365 admin center.
+
     - Owner or Contributor rights to the Azure subscription and resource group.
+  
+    > [!IMPORTANT]
+    > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## Set up pay-as-you-go billing
 
@@ -52,7 +53,7 @@ Before you begin, ensure the following:
 
 ### Step 2: Configure billing
 
-1. On the **Pay-as-you-go services** page, select the service you want to set up (for example, **SharePoint Agents** or **Syntex services**).
+1. On the **Pay-as-you-go services** page, select the service you want to set up (for example **Syntex services**).
 
 2. On the **Set up billing and turn on services** panel, choose your Azure subscription, resource group, and region.  
 
@@ -71,7 +72,11 @@ After setup, monitor your pay-as-you-go usage and costs in [Microsoft Cost Manag
 Ensure you have the following roles:
 
 - [SharePoint Administrator](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator) for accessing the Microsoft 365 admin center
+
 - Owner or Contributor rights to the Azure subscription and resource group
+
+    > [!IMPORTANT]
+    > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ### Step 1: Access manage billing
 
@@ -81,7 +86,7 @@ Ensure you have the following roles:
 
 3. Select **Pay-as-you-go services**.
 
-4. Choose the service to disconnect (for example, **SharePoint Agents** or **Syntex services**).
+1. Choose the service to disconnect (for example **Syntex services**).
 
 5. On the **Manage billing** panel, select **Edit billing information**.
 

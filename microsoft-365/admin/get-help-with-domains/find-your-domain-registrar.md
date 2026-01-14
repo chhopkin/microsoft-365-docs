@@ -2,8 +2,8 @@
 title: "Find your domain registrar"
 f1.keywords:
 - CSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 03/18/2025
 audience: Admin

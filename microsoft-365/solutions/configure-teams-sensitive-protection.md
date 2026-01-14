@@ -7,7 +7,7 @@ manager: pamgreen
 ms.date: 12/08/2023
 audience: ITPro
 ms.topic: how-to
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: medium
 search.appverid:
 - MET150
@@ -21,6 +21,7 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 - admindeeplinkSPO
+- m365-solutions-doc-set
 recommendations: false
 description: Learn how to deploy teams with protection for sensitive data.
 ---

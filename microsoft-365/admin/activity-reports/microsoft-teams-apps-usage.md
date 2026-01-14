@@ -1,8 +1,8 @@
 ---
 title: "Microsoft 365 admin center Teams app usage reports"
 ms.author: cmcatee
-author: camillepack
-manager: dansimp
+author: cmcatee-MSFT
+manager: scotv
 ms.date: 1/25/2024
 audience: Admin
 ms.topic: article
