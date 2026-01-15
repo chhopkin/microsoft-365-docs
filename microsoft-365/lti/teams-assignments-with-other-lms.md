@@ -4,7 +4,8 @@ description: Learn how to integrate and use the Teams Assignments LTI app with a
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
-ms.date: 03/20/2025
+ms.date: 01/14/2026
+last.review.date: 01/14/2026
 ms.topic: how-to
 ms.service: microsoft-365-education
 ms.collection:
@@ -13,6 +14,9 @@ ms.collection:
 ---
 
 # Use Microsoft Teams Assignments with any LTI 1.3® Advantage compliant LMS/VLE
+
+>[!NOTE]
+>The classic Microsoft OneDrive, OneNote, Teams Assignments, and Reflect LTI apps have been replaced by the [new Microsoft 365 LTI](https://aka.ms/LMSAdminDocs). The classic apps will be sunset on September 17, 2026. After that date, the classic apps and any content links in courses will stop working. However, the files, notebooks, teams, meetings, and check-ins created by the classic app will continue to be accessible through Microsoft 365. For further guidance on moving your users and courses to the new Microsoft 365 LTI experiences and migrating content links, review the [migration guidance for the classic LTI apps](/microsoft-365/lti/microsoft-365-lti-first-time-configuration#tips-on-migrating-from-the-legacy-instructure-office-365-or-other-microsoft-lti-apps).
 
 This guide provides steps for deploying the Microsoft Teams Assignments Learning Tools Interoperability (LTI®) app in any learning management system (LMS) that implements [the LTI® 1.3 Advantage](https://www.imsglobal.org/spec/lti/v1p3/impl/) standard as a fully conformant platform (LTI® Advantage Complete).
 

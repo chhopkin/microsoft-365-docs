@@ -4,7 +4,8 @@ description: Integrate and use the Microsoft Teams Assignments learning tool int
 author: jennplatt
 ms.author: avering
 manager: mimast
-ms.date: 02/05/2025
+ms.date: 01/14/2026
+last.review.date: 01/14/2026
 ms.topic: how-to
 ms.service: microsoft-365-education
 ms.collection:
@@ -13,6 +14,9 @@ ms.collection:
 ---
 
 # Use Microsoft Teams Assignments LTI® with Blackboard by Anthology
+
+>[!NOTE]
+>The classic Microsoft OneDrive, OneNote, Teams Assignments, and Reflect LTI apps have been replaced by the [new Microsoft 365 LTI](https://aka.ms/LMSAdminDocs). The classic apps will be sunset on September 17, 2026. After that date, the classic apps and any content links in courses will stop working. However, the files, notebooks, teams, meetings, and check-ins created by the classic app will continue to be accessible through Microsoft 365. For further guidance on moving your users and courses to the new Microsoft 365 LTI experiences and migrating content links, review the [migration guidance for the classic LTI apps](/microsoft-365/lti/microsoft-365-lti-first-time-configuration#tips-on-migrating-from-the-legacy-instructure-office-365-or-other-microsoft-lti-apps).
 
 This guide provides steps for deploying the Microsoft Teams Assignments learning tool interoperability® (LTI®) app in Blackboard.
 

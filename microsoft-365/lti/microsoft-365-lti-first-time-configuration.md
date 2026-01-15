@@ -1,7 +1,8 @@
 ---
 title: Microsoft 365 LTI First Time Configuration
 description: Learn about the first time configuration of Microsoft 365 LTI
-ms.date: 08/20/2025
+ms.date: 01/14/2026
+last.review.date: 01/14/2026
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
@@ -84,9 +85,18 @@ As mentioned, if you choose to allow your instructors to create teams for your u
 
 Visit the [Microsoft Service Trust Portal](https://aka.ms/STP) for more information on certifications, regulations, and standards compliance information for Microsoft products and services.
 
-## Tips on migrating from the legacy Instructure Office 365, or other Microsoft LTI apps
+## Migration guidance
 
-When migrating from any legacy app that is replaced by the Microsoft Education LTI app, it's recommended that Placements of the legacy app are disabled, but the app isn't uninstalled until all users are leveraging the new app, and content has been recreated, migrated, or copied to leverage the new LTI apps. Because the apps have different functionalities and data (flows, files etc.) the process of migrating educators and their content to the new apps may be unique.
+Generally, when migrating from any legacy app that is replaced by the functionality in the Microsoft 365 LTI app, it's recommended that **Placements of the legacy app are disabled, but the app isn't uninstalled until all users are leveraging the new app, and content has been migrated to or recreated with the new app**. Because the classic LTI apps have different resource links to files and data, the process of migrating educators and their content to the new apps may be unique.
+
+Review the guidance specific to your LMS for more information and tips for migrating from classic LTI experience to new Microsoft 365 LTI features.
+
+- [Canvas Migration Guidance](microsoft-365-lti-canvas.md#migration-guidance)
+- Blackboard Migration Guidance
+- Schoology Migration Guidance
+- Brightspace by D2L Migration Guidance
+- Moodle Migration Guidance
+- Other LTI 1.3 Advantage Platform Migration Guidance
 
 ### Migrating from Teams Classes LTI 1.3 app
 

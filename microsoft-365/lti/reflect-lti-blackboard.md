@@ -4,7 +4,8 @@ author: jennplatt
 ms.author: eladgr
 manager: dsitton
 ms.reviewer: eladgr
-ms.date: 08/01/2025
+ms.date: 01/14/2026
+last.review.date: 01/14/2026
 audience: admin
 ms.topic: integration
 ms.service: microsoft-365-education
@@ -19,6 +20,9 @@ description: Create impactful check-ins to gain wellbeing insights and build a h
 ---
 
 # Integrate Microsoft Reflect LTI with Blackboard Learn
+
+>[!NOTE]
+>The classic Microsoft OneDrive, OneNote, Teams Assignments, and Reflect LTI apps have been replaced by the [new Microsoft 365 LTI](https://aka.ms/LMSAdminDocs). The classic apps will be sunset on September 17, 2026. After that date, the classic apps and any content links in courses will stop working. However, the files, notebooks, teams, meetings, and check-ins created by the classic app will continue to be accessible through Microsoft 365. For further guidance on moving your users and courses to the new Microsoft 365 LTI experiences and migrating content links, review the [migration guidance for the classic LTI apps](/microsoft-365/lti/microsoft-365-lti-first-time-configuration#tips-on-migrating-from-the-legacy-instructure-office-365-or-other-microsoft-lti-apps).
 
 [Microsoft Reflect](https://reflect.microsoft.com) is a wellbeing app designed to foster connection, expression, and learning by promoting self-awareness, empathy, and emotional growth.
 
