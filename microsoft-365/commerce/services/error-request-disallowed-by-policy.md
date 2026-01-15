@@ -1,18 +1,19 @@
 ---
 title: RequestDisallowedByPolicy 
-ms.author: chucked
-author: chuckedmonson
-manager: jtremper
+author: cmcatee-MSFT
+ms.author: cmcatee
+manager: scotv
 ms.reviewer: ivchenya
-ms.date: 09/05/2025
 audience: admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
 ms.subservice:
-search.appverid: 
+search.appverid: MET150
 ms.collection: 
+ms.custom: 
 ms.localizationpriority:  medium
 description: Learn how to fix the RequestDisallowedByPolicy error when creating resources in Azure.
+ms.date: 09/05/2025
 ---
 
 # RequestDisallowedByPolicy

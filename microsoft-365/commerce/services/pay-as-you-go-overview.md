@@ -1,18 +1,19 @@
 ---
 title: Overview of pay-as-you-go services in Microsoft 365
-ms.author: chucked
-author: chuckedmonson
-manager: jtremper
+author: cmcatee-MSFT
+ms.author: cmcatee
+manager: scotv
 ms.reviewer: siruvanti
-ms.date: 07/18/2025
 audience: admin
 ms.topic: overview
 ms.service: microsoft-365-business
 ms.subservice:
-search.appverid: 
+search.appverid: MET150
 ms.collection: 
+ms.custom: 
 ms.localizationpriority:  medium
 description: Learn about pay-as-you-go services in Microsoft 365.
+ms.date: 07/18/2025
 ---
 
 # Overview of pay-as-you-go services in Microsoft 365

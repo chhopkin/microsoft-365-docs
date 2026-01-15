@@ -1,14 +1,18 @@
 ---
-# Required metadata
-# For more information, see https://learn.microsoft.com/en-us/help/platform/learn-editor-add-metadata
-# For valid values of ms.service, ms.prod, and ms.topic, see https://learn.microsoft.com/en-us/help/platform/metadata-taxonomies
-
 title: Set up or disconnect pay-as-you-go billing for services in new billing node
-description: 'Set up or disconnect pay-as-you-go billing '
-author:      clalissayi24 # GitHub alias
-ms.author:   clalissayi # Microsoft alias
-ms.service: microsoft-365-admin
+author: cmcatee-MSFT
+ms.author: cmcatee
+manager: scotv
+ms.reviewer: clalissayi
+audience: admin
 ms.topic: install-set-up-deploy
+ms.service: microsoft-365-admin
+ms.subservice:
+search.appverid: MET150
+ms.collection: 
+ms.custom: 
+ms.localizationpriority:  medium
+description: "Set up or disconnect pay-as-you-go billing"
 ms.date:     11/25/2025
 ---
 

@@ -1,18 +1,19 @@
 ---
 title: Set up a budget for pay-as-you-go billing in Microsoft 365
-ms.author: chucked
-author: chuckedmonson
-manager: jtremper
+author: cmcatee-MSFT
+ms.author: cmcatee
+manager: scotv
 ms.reviewer: ivchenya
-ms.date: 09/17/2025
 audience: admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
 ms.subservice:
-search.appverid: 
+search.appverid: MET150
 ms.collection: 
+ms.custom: 
 ms.localizationpriority:  medium
 description: Learn how to set up a billing budget for pay-as-you-go services in Microsoft 365.
+ms.date: 09/17/2025
 ---
 
 # Set up a budget for pay-as-you-go billing in Microsoft 365
