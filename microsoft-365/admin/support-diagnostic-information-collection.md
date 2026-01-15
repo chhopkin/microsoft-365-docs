@@ -98,44 +98,6 @@ For more information, see the following articles:
 - [Roles not shown in the Microsoft Entra admin center](/entra/identity/role-based-access-control/permissions-reference#roles-not-shown-in-the-portal)
 - [Microsoft 365 Support Engineer role](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-support-engineer)
 
-<!---
-| Actions | Description |
-|--|--|
-| `microsoft.directory/applications/allProperties/read` | Read all properties (including privileged properties) on all types of applications |
-| `microsoft.directory/auditLogs/allProperties/read` | Read all properties on audit logs, excluding custom security attributes audit logs |
-| `microsoft.directory/authorizationPolicy/standard/read`| Read standard properties of authorization policy |
-| `microsoft.directory/conditionalAccessPolicies/standard/read` | Read Conditional Access for policies |
-| `microsoft.directory/crossTenantAccessPolicy/default/standard/read` | Read basic properties of the default cross-tenant access policy |
-| `microsoft.directory/deviceManagementPolicies/standard/read` | Read standard properties on mobile device management and mobile app management policies |
-| `microsoft.directory/deviceRegistrationPolicy/standard/read` | Read standard properties on device registration policies |
-| `microsoft.directory/devices/standard/read` | Read basic properties on devices |
-| `microsoft.directory/directoryRoles/allProperties/read` | Read all properties of directory roles |
-| `microsoft.directory/directoryRoles/members/read` | Read all members of Microsoft Entra roles |
-| `microsoft.directory/domains/allProperties/read` | Read all properties of domains |
-| `microsoft.directory/domains/standard/read` | Read basic properties on domains |
-| `microsoft.directory/groups/allProperties/read` | Read all properties (including privileged properties) on Security groups and Microsoft 365 groups, including role-assignable groups |
-| `microsoft.directory/groupSettings/allProperties/read` | Read all properties of group settings |
-| `microsoft.directory/groups/members/read` | Read members of Security groups and Microsoft 365 groups, including role-assignable groups |
-| `microsoft.directory/groups/owners/read` | Read owners of Security groups and Microsoft 365 groups, including role-assignable groups |
-| `microsoft.directory/groups/standard/read` | Read standard properties of Security groups and Microsoft 365 groups, including role-assignable groups |
-| `microsoft.directory/organization/allProperties/read` | Read all properties for an organization |
-| `microsoft.directory/policies/standard/read` | Read basic properties on policies |
-| `microsoft.directory/securityRiskPolicy/standard/read` | Read basic properties of security risk policy that includes Microsoft Entra security defaults, strong authentication, and account compromise |
-| `microsoft.directory/servicePrincipals/allProperties/read` | Read all properties (including privileged properties) on servicePrincipals |
-| `microsoft.directory/servicePrincipals/appRoleAssignments/limitedRead` | Read application roles assigned to a specific service principal, but cannot enumerate service principals |
-| `microsoft.directory/servicePrincipals/standard/read` | Read basic properties of service principals |
-| `microsoft.directory/subscribedSkus/allProperties/read` | Read all properties of product subscriptions |
-| `microsoft.directory/users/directReports/read` | Read the direct reports for users |
-| `microsoft.directory/users/licenseDetails/read` | Read license details of users |
-| `microsoft.directory/users/manager/read` | Read manager of users |
-| `microsoft.directory/users/memberOf/read` | Read the group memberships of users |
-| `microsoft.directory/users/registeredDevices/read` | Read registered devices of users |
-| `microsoft.directory/users/standard/read` | Read basic properties on users |
-| `microsoft.office365.protectionCenter/attackSimulator/payload/allProperties/read` | Read all properties of attack payloads in Attack Simulator |
-| `microsoft.office365.protectionCenter/attackSimulator/reports/allProperties/read` | Read reports of attack simulation, responses, and associated training |
-| `microsoft.teams/allEntities/allProperties/read` | Read all properties of Microsoft Teams |
---->
-
 ## What information can Microsoft Support access?
 
 Microsoft Support accesses only the information that's needed to troubleshoot and resolve support cases. Depending on the nature of your support request, the data that Microsoft Support can access would belong under the categories listed in the following table:
