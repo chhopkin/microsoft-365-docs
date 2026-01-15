@@ -166,7 +166,7 @@ After the retirement date of September 17, 2026, the classic app will no longer 
 
 ### Migrating from Office 365 LTI 1.1 (Instructure legacy app)
 
-Currently, there's no direct migration path or copy available from [Microsoft Office 365](https://community.canvaslms.com/t5/Canvas-Releases-Board/Canvas-Release-Microsoft-Office-365-LTI-2016-12-10/td-p/249358) LTI 1.1 file links to Microsoft Education file links used in rich text editors, as External Tool assignment templates for student submission, or in Collaborations.
+Currently, there's no direct migration path or copy available from Microsoft Office 365 LTI 1.1 file links to Microsoft Education file links used in rich text editors, as External Tool assignment templates for student submission, or in Collaborations.
 
 After deploying the Microsoft 365 LTI, we recommend that you leave the Office 365 app installed to keep existing files and links accessible in active courses, but disable the Placements, so new links are only created using the Microsoft 365 LTI app via Microsoft Education menu items.
 

@@ -118,7 +118,7 @@ This process can be done either before or after you have configured the LTI appl
 > [!IMPORTANT]
 > Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you can't use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
-### Before Configuring the LTI Applications
+### Before Deploying Microsoft 365 LTI
 
 If you choose to approve the Blackboard Learn Ultra Teams Azure app before configuring the LTI integrations, you'll need to redirect to the **Microsoft identity platform Admin Consent Endpoint**. The URL is shown:
 
@@ -131,7 +131,7 @@ You'll see a permissions window that explains you're giving permission to Blackb
 
 ![the permissions window for Microsoft and Blackboard.](media/permissions1.png)
 
-### After Configuring the LTI Applications
+### After Deploying Microsoft 365 LTI
 
 1. On the **Administrator Panel**, navigate to **Tools and Utilities** and select **Microsoft Teams Integration Admin**.
 

@@ -20,7 +20,7 @@ ms.localizationpriority: medium
 # Microsoft 365 LTI&reg; First-Time Configuration
 
 > [!IMPORTANT]
-> For the initial preview release of the Microsoft 365 LTI, the included experiences are Assignments, OneNote Class Notebooks, OneDrive, Reflect, Teams, and Teams Meetings. See [tips on migrating](#tips-on-migrating-from-the-legacy-instructure-office-365-or-other-microsoft-lti-apps) to these new experiences from existing Microsoft LTI tools you have deployed today.
+> For the initial preview release of the Microsoft 365 LTI, the included experiences are Assignments, OneNote Class Notebooks, OneDrive, Reflect, Teams, and Teams Meetings. See [tips on migrating](#migration-guidance) to these new experiences from existing Microsoft LTI tools you have deployed today.
 
 ## First-time configuration by an LMS Administrator
 
@@ -52,7 +52,7 @@ Once the Microsoft 365 tool is installed, an LMS Administrator must complete the
    :::image type="content" source="./media/permissions-requested.png" alt-text="Screenshot of permissions requested." border="true":::
 
 1. As the LMS Administrator, you can choose to enable or disable the Microsoft Education experiences available to your instructors. The **Enabled** toggle switch controls the enabled state of the application for the deployment, and the **On by default** toggle switch controls the default state of visibility for the app in a course. Instructors can change the visibility of any enabled app in their course.
-   
+
    > [!IMPORTANT]
    > For Preview, we recommend you test OneDrive and Class Notebook in courses that don't have the other versions deployed. Both current and new apps can exist and create assets in the same course, but files won't be able to be copied or accessed between versions at the moment.
 
@@ -92,7 +92,7 @@ Generally, when migrating from any legacy app that is replaced by the functional
 Review the guidance specific to your LMS for more information and tips for migrating from classic LTI experience to new Microsoft 365 LTI features.
 
 - [Canvas Migration Guidance](microsoft-365-lti-canvas.md#migration-guidance)
-- Blackboard Migration Guidance
+- [Blackboard Migration Guidance](microsoft-365-lti-blackboard.md#migration-guidance)
 - Schoology Migration Guidance
 - Brightspace by D2L Migration Guidance
 - Moodle Migration Guidance
@@ -112,7 +112,7 @@ There's no way to migrate a OneNote LTI 1.1 Class Notebook to a Microsoft Educat
 
 ### Migrating from Microsoft Office 365 LTI 1.1 app (Instructure legacy app)
 
-There's no direct migration path or copy available from [Microsoft Office 365](https://community.canvaslms.com/t5/Canvas-Releases-Board/Canvas-Release-Microsoft-Office-365-LTI-2016-12-10/td-p/249358) files to Microsoft Education files used in the RCE, as assignment templates, or in collaborations. We suggest that after deploying Microsoft Education with OneDrive enabled you leave the Microsoft Office 365 app installed to keep existing files and links accessible but disable the Placements so no new links are created using the legacy tool. The Microsoft Office 365 placements can be disabled by an Admin in **Admin > Settings > Apps > View App Configurations** by selecting the Gear icon drop-down associated with the app and toggling off all of the placements listed. It's also recommended that you toggle on the Add to RCE Toolbar switch for the new Microsoft Education app so that it's featured in the Canvas Rich Text Editors for users to discover.
+There's no direct migration path or copy available from Microsoft Office 365 files to Microsoft Education files used in the RCE, as assignment templates, or in collaborations. We suggest that after deploying Microsoft Education with OneDrive enabled you leave the Microsoft Office 365 app installed to keep existing files and links accessible but disable the Placements so no new links are created using the legacy tool. The Microsoft Office 365 placements can be disabled by an Admin in **Admin > Settings > Apps > View App Configurations** by selecting the Gear icon drop-down associated with the app and toggling off all of the placements listed. It's also recommended that you toggle on the Add to RCE Toolbar switch for the new Microsoft Education app so that it's featured in the Canvas Rich Text Editors for users to discover.
 
 ### Migrating from Microsoft OneDrive LTI 1.3 app
 
