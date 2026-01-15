@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection: 
 ms.custom: 
 ms.localizationpriority:  medium
-description: Learn how to set up or disconnect billing for pay-as-you-go services for document processing and Microsoft 365 Archive
+description: "Learn how to set up or disconnect billing for pay-as-you-go services for document processing and Microsoft 365 Archive
 ms.date: 09/18/2025
 ---
 

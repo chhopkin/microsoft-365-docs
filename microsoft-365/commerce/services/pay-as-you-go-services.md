@@ -22,36 +22,36 @@ Microsoft 365 offers a flexible pay-as-you-go model that allows your organizatio
 
 ## Microsoft 365 Copilot
 
-- **SharePoint agents:** AI-powered SharePoint agents help users interact with SharePoint sites and document libraries. They can answer questions, summarize content, and perform tasks based on user permissions. With pay-as-you-go billing, organizations can enable these features without purchasing full Copilot licenses.
+- **SharePoint agents.** AI-powered SharePoint agents help users interact with SharePoint sites and document libraries. They can answer questions, summarize content, and perform tasks based on user permissions. With pay-as-you-go billing, organizations can enable these features without purchasing full Copilot licenses.
 
 ## Document processing
 
-- **Autofill columns:** Automatically populate metadata fields in documents based on their content. This improves organization and searchability. Pay only for the documents processed.
+- **Autofill columns.** Automatically populate metadata fields in documents based on their content. This improves organization and searchability. Pay only for the documents processed.
 
-- **Document translation:** Translate documents into multiple languages using AI. Ideal for managing multilingual content. Charges apply per translation.
+- **Document translation.** Translate documents into multiple languages using AI. Ideal for managing multilingual content. Charges apply per translation.
 
-- **eSignature:** Enable electronic signatures directly in SharePoint to streamline approvals and reduce paperwork. Pay only for the signatures used.
+- **eSignature.** Enable electronic signatures directly in SharePoint to streamline approvals and reduce paperwork. Pay only for the signatures used.
 
-- **Optical character recognition:** Convert scanned documents and images into searchable, editable text. Charges are based on the number of documents processed.
+- **Optical character recognition.** Convert scanned documents and images into searchable, editable text. Charges are based on the number of documents processed.
 
-- **Content assembly:** Create standardized documents from templates by autofilling fields with relevant data. This ensures consistency and saves time. Billed per use.
+- **Content assembly.** Create standardized documents from templates by autofilling fields with relevant data. This ensures consistency and saves time. Billed per use.
 
-- **Image tagging:** Automatically tag images with relevant keywords using AI, making them easier to organize and find. Billed based on usage.
+- **Image tagging.** Automatically tag images with relevant keywords using AI, making them easier to organize and find. Billed based on usage.
 
-- **Taxonomy tagging:** Apply standardized tags to documents using AI and a predefined taxonomy. Helps with content organization and compliance. Billed per use.
+- **Taxonomy tagging.** Apply standardized tags to documents using AI and a predefined taxonomy. Helps with content organization and compliance. Billed per use.
 
-- **Prebuilt document processing:** Use ready-made AI models to extract data from common document types like invoices and receipts. Pay-as-you-go billing applies per document.
+- **Prebuilt document processing.** Use ready-made AI models to extract data from common document types like invoices and receipts. Pay-as-you-go billing applies per document.
 
-- **Structured and freeform document processing:** Create custom AI models to process both structured forms and unstructured documents. Charges are based on the number of documents processed.
+- **Structured and freeform document processing.** Create custom AI models to process both structured forms and unstructured documents. Charges are based on the number of documents processed.
 
-- **Unstructured document processing:** Build AI models to extract data from unstructured documents like contracts and reports. Pay only for the documents processed.
+- **Unstructured document processing.** Build AI models to extract data from unstructured documents like contracts and reports. Pay only for the documents processed.
 
-- **Video translation:** Translate video transcripts to make content accessible in multiple languages. Charges apply per transcript translated.
+- **Video translation.** Translate video transcripts to make content accessible in multiple languages. Charges apply per transcript translated.
 
 ## Microsoft 365 Archive
 
-Store Microsoft 365 data for long-term retention and compliance. Pay-as-you-go billing is based on the amount of data archived.
+- Store Microsoft 365 data for long-term retention and compliance. Pay-as-you-go billing is based on the amount of data archived.
 
 ## Microsoft 365 Backup
 
-Back up Microsoft 365 data—including emails, documents, and other content—for protection and recovery. Charges are based on the volume of data backed up.
+- Back up Microsoft 365 data—including emails, documents, and other content—for protection and recovery. Charges are based on the volume of data backed up.
