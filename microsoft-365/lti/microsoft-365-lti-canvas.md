@@ -4,7 +4,7 @@ description: Learn how to deploy the Microsoft 365 Learning Tool Interoperabilit
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
-ms.date: 12/10/2025
+ms.date: 01/15/2026
 audience: admin
 ms.topic: how-to
 ms.service: microsoft-365-education
@@ -158,7 +158,7 @@ After deploying Microsoft 365 LTI with OneDrive enabled, we recommend that you l
 
 The classic Microsoft OneDrive app placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`*] > Settings > Apps > View App Configurations** by selecting the Gear icon drop-down for the **Microsoft OneDrive** app and toggling off all the placements listed.
 
- 
+:::image type="content" source="./media/app-placement.png" alt-text="Screenshot of app placement." border="true":::
 
 It's also recommended that you toggle on the **Add to RCE** Toolbar switch for the new Microsoft Education app so that it's featured in the Canvas Rich Text Editors for users to easily discover.
 
@@ -172,7 +172,7 @@ After deploying the Microsoft 365 LTI, we recommend that you leave the Office 36
 
 The Office 365 LTI app placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`* >Settings > Apps > View App Configuration**s by selecting the Gear icon drop-down for the Office 365 app and toggling off all the placements listed.
 
- 
+:::image type="content" source="./media/app-placement.png" alt-text="Screenshot of app placement." border="true":::
 
 It's also recommended that you toggle on the **Add to RCE** Toolbar switch for the new Microsoft Education app so that it's featured in the Canvas Rich Text Editors for users to easily discover.
 

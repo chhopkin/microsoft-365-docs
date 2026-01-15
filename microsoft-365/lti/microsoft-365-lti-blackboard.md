@@ -4,7 +4,7 @@ description: Learn how to deploy the Microsoft 365 Learning Tool Interoperabilit
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
-ms.date: 10/10/2025
+ms.date: 01/15/2026
 audience: admin
 ms.topic: how-to
 ms.service: microsoft-365-education
@@ -93,8 +93,6 @@ If you receive an error message regarding cookies being blocked, check your brow
 
 Learning Tools Interoperability&reg; (LTI&reg;) is a trademark of the 1EdTech Consortium, Inc. (**[**1edtech.org**](https://1edtech.org)**)
 
-
-
 ## Migration Guidance
 
 When migrating from any legacy app that is replaced by the functionality in the Microsoft 365 LTI app, it's recommended that **Placements of the classic app are removed, but the app isn't uninstalled until all users are leveraging the new app and content has been migrated to or recreated with the new app**. Because the classic LTI apps have different resource links to files and data, the process of migrating educators and their content to the new apps may be unique.
@@ -126,9 +124,6 @@ Currently, there's no automatic migration path or copy available from classic Mi
 After deploying Microsoft 365 LTI with OneDrive enabled, we recommend that you leave the classic Microsoft OneDrive app installed until all content you wish to keep active or reuse is migrated to keep existing file links accessible in active courses but delete the placements in the classic LTI, so no new links are created using the classic tool.
 
 Placements for the classic Microsoft OneDrive app can be removed by a Blackboard admin with access to manage LTI Tool Providers in **Admin > (Integrations section) > LTI Tool Providers** by selecting the drop-down arrow next to the Microsoft OneDrive name in the list and choosing **Edit Placements**. You can then delete all the placements for the tool so it is no longer accessed in menus.
-
-
-
 
 ### Migrating from classic Microsoft Teams Assignments LTI
 

@@ -3,7 +3,7 @@ title: Use Microsoft Teams with Blackboard Learn Ultra
 author: jennplatt
 ms.author: avering
 manager: michal.gideoni
-ms.date: 07/10/2025
+ms.date: 01/15/2026
 ms.reviewer: amitman
 last.review.date: 07/10/2025
 last.review.by: avering

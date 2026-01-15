@@ -16,7 +16,7 @@ ms.collection:
 # Use Teams Assignments LTI with Moodle™
 
 >[!NOTE]
->The classic Microsoft OneDrive, OneNote, Teams Assignments, and Reflect LTI apps have been replaced by the [new Microsoft 365 LTI](https://aka.ms/LMSAdminDocs). The classic apps will be sunset on September 17, 2026. After that date, the classic apps and any content links in courses will stop working. However, the files, notebooks, teams, meetings, and check-ins created by the classic app will continue to be accessible through Microsoft 365. For further guidance on moving your users and courses to the new Microsoft 365 LTI experiences and migrating content links, review the [migration guidance for the classic LTI apps](/microsoft-365/lti/microsoft-365-lti-first-time-configuration#tips-on-migrating-from-the-legacy-instructure-office-365-or-other-microsoft-lti-apps).
+>The classic Microsoft OneDrive, OneNote, Teams Assignments, and Reflect LTI apps have been replaced by the [new Microsoft 365 LTI](https://aka.ms/LMSAdminDocs). The classic apps will be sunset on September 17, 2026. After that date, the classic apps and any content links in courses will stop working. However, the files, notebooks, teams, meetings, and check-ins created by the classic app will continue to be accessible through Microsoft 365. For further guidance on moving your users and courses to the new Microsoft 365 LTI experiences and migrating content links, review the [migration guidance for the classic LTI apps](/microsoft-365/lti/microsoft-365-lti-first-time-configuration#migration-guidance).
 
 This guide provides steps for deploying the Microsoft Teams Assignments Learning Tools Interoperability (LTI®) app in Moodle.
 
