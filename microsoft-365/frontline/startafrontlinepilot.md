@@ -56,7 +56,7 @@ For example, a pilot can help you determine:
 > [!IMPORTANT]
 > All members of a pilot have access to Chat and are added to a team. You can add channels to the pilot team after you complete the wizard.
 
-![Screenshot of step to select capabilities for the pilot.](media/startafrontlinepilot/measure-usage.jpg)
+![Screenshot of step to select capabilities for the pilot.](media/startafrontlinepilot/pilot-select-capabilities.jpg)
 
 3. Add users by clicking __Add members__ or __Add__. For best results, include frontline workers and their managers who work on the same team.
 
@@ -75,7 +75,7 @@ For example, a pilot can help you determine:
 
 7. Share the download link or QR code to your pilot members and owners. After they sign in, users see the pilot experience with your pinned apps. Communicate the pilot goals and provide devices and training as needed.
 
-![Screenshot of pilot summary page.](media/startafrontlinepilot/measure-usage.jpg)
+![Screenshot of pilot summary page.](media/startafrontlinepilot/pilot-summary.jpg)
 
 ## Manage your pilot 
 
@@ -84,7 +84,7 @@ Go to Manage frontline teams to view, manage, or start pilots. Now that you hav
 > [!IMPORTANT]
 > You can start up to 5 pilots. To start a new pilot after you reach this limit, delete an existing pilot.
 
-![Screenshot of Manage frontline teams page to view all pilots.](media/startafrontlinepilot/measure-usage.jpg)
+![Screenshot of Manage frontline teams page to view all pilots.](media/startafrontlinepilot/manage-frontline-teams-pilots.jpg)
 
 Click the **Refresh** icon in the table header to update deployment status for your most recent pilots.
 
@@ -114,7 +114,7 @@ Pilot status can be Active, In progress, or Failed.
 
 - **Failed:** Select **Retry** on the banner to restart deployment.
 
-![Screenshot of retry button.](media/startafrontlinepilot/measure-usage.jpg)
+![Screenshot of retry button.](media/startafrontlinepilot/deployment-error.jpg)
 
 #### Manage Membership
 
@@ -124,7 +124,7 @@ The Members tab lists all pilot members and owners.
 
 - Remove a member or owner by selecting the user and choosing **Remove**.
 
-![Screenshot of page to manage membership in the pilot.](media/startafrontlinepilot/measure-usage.jpg)
+![Screenshot of page to manage membership in the pilot.](media/startafrontlinepilot/manage-membership.jpg)
 
 #### Manage channels 
 
@@ -139,19 +139,19 @@ By default, frontline workers see a General channel that can’t be deleted.
 > [!IMPORTANT]
 > Admins can add only standard channels to the pilot in the Teams admin center. Pilot owners can add standard, private, and shared channels in the Teams client. In the Teams admin center, admins see only the standard channels they create.
 
-![Screenshot of page to manage channels in the pilot.](media/startafrontlinepilot/measure-usage.jpg)
+![Screenshot of page to manage channels in the pilot.](media/startafrontlinepilot/manage-channels.jpg)
 
 #### Manage Connections
 
 Select **Set up and manage Viva Connections** to set up the Connections Home dashboard for pilot members.
 
-![Screenshot of page to manage Viva Connections in the pilot.](media/startafrontlinepilot/measure-usage.jpg)
+![Screenshot of page to manage Viva Connections in the pilot.](media/startafrontlinepilot/manage-connections.jpg)
 
 #### Manage Viva Engage
 
 Select **Set up and manage Viva Engage** to set up Communities for pilot members.
 
-![Screenshot of page to manage Viva Engage in the pilot.](media/startafrontlinepilot/measure-usage.jpg)
+![Screenshot of page to manage Viva Engage in the pilot.](media/startafrontlinepilot/manage-viva-engage.jpg)
 
 #### Manage Apps
 
@@ -161,7 +161,7 @@ Reorder pinned apps by dragging the **= icon**, or by selecting an app and choos
 
 - Unpin an app by selecting it and choosing **Remove**.
 
-![Screenshot of page to manage apps in the pilot.](media/startafrontlinepilot/measure-usage.jpg)
+![Screenshot of page to manage apps in the pilot.](media/startafrontlinepilot/manage-apps.jpg)
 
 ## Measuring pilot success
 
