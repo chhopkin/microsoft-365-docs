@@ -20,6 +20,9 @@ description: Learn how to set up and manage the structured and freeform document
 
 # Set up and manage structured and freeform document processing in SharePoint
 
+> [!NOTE]
+> In October 2025, Microsoft announced a progressive end of AI Builder credits. Learn more in the [End of AI Builder credits](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fai-builder%2Fendofaibcredits&data=05%7C02%7Ckarlha%40microsoft.com%7Cb3257816d34747a6811108de4e2cf175%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C639034152144192901%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=d4maX3KGxGsENBKpdiNcx3VWlcyg9hJ5u2Z7qE9whuU%3D&reserved=0) article.
+
 Structured and freeform document processing is a pay-as-you-go service that is set up in the Microsoft 365 admin center.
 
 ## Prerequisites
