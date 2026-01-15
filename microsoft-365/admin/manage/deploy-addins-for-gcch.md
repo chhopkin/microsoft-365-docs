@@ -25,7 +25,7 @@ description: "Deploy Office Add-ins in Microsoft 365 GCC High environments."
 
 This article was written by [Eric Splichal](https://social.technet.microsoft.com/profile/Splic-MSFT), Sr. Support Escalation Engineer.
 
-Centralized deployment for Office Add-ins can be managed at an administrative level in Microsoft 365 for Business. Since Government Community Cloud High (GCC High) tenants don't have access to the Office store, you'll need to deploy Office Add-ins through the following process.
+Centralized deployment for Office Add-ins can be managed at an administrative level in Microsoft 365 for Business. Since Government Community Cloud High (GCC High) tenants don't have access to the Microsoft Marketplace, you'll need to deploy Office Add-ins through the following process.
 
 1. In your browser, go to <b>appsource.microsoft.com</b>.
 2. Click on the tile of the add-in you want to deploy (don't click the <b>Get it now</b> button). This will open the details page for the add-in.

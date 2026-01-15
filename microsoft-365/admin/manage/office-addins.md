@@ -180,11 +180,11 @@ Managing how users can install and use Office add-ins means that you decide who 
 
 Options available in non-educational tenants:
 
-   ![Let user access office store settings](../../media/user-owned-apps-and-services.png)
+   ![Let user access Microsoft Marketplace settings](../../media/user-owned-apps-and-services.png)
 
 Options available in educational tenants:
 
-   ![Let user access office store settings for EDU](../../media/user-owned-apps-and-services-edu.png)
+   ![Let user access Microsoft Marketplace settings for EDU](../../media/user-owned-apps-and-services-edu.png)
 
 The user's license information is used to define whether a user is a faculty, staff, or a student along with the Age Group property to check whether the student is an adult or not.
 
@@ -250,7 +250,7 @@ Office Add-ins combine a manifest file that contains some metadata about the add
 
 For more information about the types and capabilities of Office Add-ins, see [Office Add-ins platform overview](/office/dev/add-ins/overview/office-add-ins), especially the section *Components of an Office Add-in*.
 
-To interact with the user's document, the add-in needs to declare what permission it needs in the manifest. A five-level JavaScript API access-permissions model provides the basis for privacy and security for users of task pane add-ins. Most of the add-ins in the Office Store are level **read/write document** with almost all add-ins supporting at least the **read document** level. For more information about the permission levels, see [Requesting permissions for API use in content and task pane add-ins](/office/dev/add-ins/develop/requesting-permissions-for-api-use-in-content-and-task-pane-add-ins).
+To interact with the user's document, the add-in needs to declare what permission it needs in the manifest. A five-level JavaScript API access-permissions model provides the basis for privacy and security for users of task pane add-ins. Most of the add-ins in the Microsoft Marketplace are level **read/write document** with almost all add-ins supporting at least the **read document** level. For more information about the permission levels, see [Requesting permissions for API use in content and task pane add-ins](/office/dev/add-ins/develop/requesting-permissions-for-api-use-in-content-and-task-pane-add-ins).
 
 When a manifest is updated, the typical changes are to an add-in's icon and text. Occasionally, add-in commands change. However, the permissions of the add-in don't change. The web application where all the code and logic for the add-in runs can change at any time, which is the nature of web applications.
 
