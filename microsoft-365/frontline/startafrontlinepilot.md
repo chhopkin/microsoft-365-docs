@@ -18,7 +18,7 @@ ms.date:     10/26/2025
 ## Overview 
 
 > [!Note]
-> This feature is coming to public preview. To get early access, [join the private preview](https://forms.office.com/r/Q0xhM3KUBG).
+> This feature is in public preview. For the latest updates please refer to the [Microsoft 365 roadmap](https://www.microsoft.com/Microsoft-365/roadmap?id=498226).
 
 Start simple and validate the value Microsoft Teams can offer your frontline workers by quickly launching a pilot from the Teams admin center. Pilots allow you to pin and configure Teams capabilities for a subset of users before rolling out to your broader frontline workforce. Capabilities include Chat, Channels, Shifts, Tasks (Planner), Walkie Talkie, Connections – Home and Engage Communities.
 
@@ -49,18 +49,18 @@ For example, a pilot can help you determine:
 
 1. Go to the Teams admin center > Frontline management > **Frontline hub**, then select **Start a pilot** under Suggested actions.  Alternatively, choose __Start a new deployment__ on the top right corner and select __Start a pilot__.
 
-![Screenshot of the Frontline hub in the Teams admin center with the Start a Pilot card outlined.](media/startafrontlinepilot/frontline-hub.jpg)
+   :::image type="content" alt-text="Screenshot of the Frontline hub in the Teams admin center with the Start a Pilot card outlined." source="media/startafrontlinepilot/frontline-hub.jpg" lightbox="media/startafrontlinepilot/frontline-hub.jpg":::
 
 2. Select the capabilities to include in your pilot. Apps under “You will get” are pinned to the Teams app bar; apps under “Available apps” are not pinned unless selected. Click on an app under either list to learn more about what the capability offers. After you complete the wizard, you can configure and pin additional apps.
 
-> [!IMPORTANT]
-> All members of a pilot have access to Chat and are added to a team. You can add channels to the pilot team after you complete the wizard.
+   > [!IMPORTANT]
+   > All members of a pilot have access to Chat and are added to a team. You can add channels to the pilot team after you complete the wizard.
 
-![Screenshot of step to select capabilities for the pilot.](media/startafrontlinepilot/pilot-select-capabilities.jpg)
+   :::image type="content" alt-text="Screenshot of step to select capabilities for the pilot." source="media/startafrontlinepilot/pilot-select-capabilities.jpg" lightbox="media/startafrontlinepilot/pilot-select-capabilities.jpg":::
 
 3. Add users by clicking __Add members__ or __Add__. For best results, include frontline workers and their managers who work on the same team.
 
-![Screenshot of step to add members to the pilot.](media/startafrontlinepilot/pilot-add-people.png)
+   :::image type="content" alt-text="Screenshot of step to add members to the pilot." source="media/startafrontlinepilot/pilot-add-people.png" lightbox="media/startafrontlinepilot/pilot-add-people.png":::
 
 4. Give your pilot a name and an optional description.
 
@@ -68,23 +68,23 @@ For example, a pilot can help you determine:
 
 6. Select __Deploy__ to launch the pilot. Deployment can take up to 30 minutes. Pinned apps can take up to 24 hours to reflect on the Teams client for your pilot members and owners.
 
-> [!IMPORTANT]
-> Owners added to the pilot after pilot creation will not see the pinned apps based on the pilot configuration.
+   > [!IMPORTANT]
+   > Owners added to the pilot after pilot creation will not see the pinned apps based on the pilot configuration.
 
-![Screenshot of step to add name and owners of the pilot.](media/startafrontlinepilot/pilot-add-pilot-details.png)
+   :::image type="content" alt-text="Screenshot of step to add name and owners of the pilot." source="media/startafrontlinepilot/pilot-add-pilot-details.png" lightbox="media/startafrontlinepilot/pilot-add-pilot-details.png":::
 
 7. Share the download link or QR code to your pilot members and owners. After they sign in, users see the pilot experience with your pinned apps. Communicate the pilot goals and provide devices and training as needed.
 
-![Screenshot of pilot summary page.](media/startafrontlinepilot/pilot-summary.jpg)
+   :::image type="content" alt-text="Screenshot of pilot summary page." source="media/startafrontlinepilot/pilot-summary.jpg" lightbox="media/startafrontlinepilot/pilot-summary.jpg":::
 
-## Manage your pilot 
+## Manage your pilot
 
 Go to Manage frontline teams to view, manage, or start pilots. Now that you have initiated the pilot, managing your pilot allows you to add purpose-built channels to your pilot team, set up your preferred app pinning policy, configure apps like Connections - Home or Engage Communities, and more.
 
 > [!IMPORTANT]
 > You can start up to 5 pilots. To start a new pilot after you reach this limit, delete an existing pilot.
 
-![Screenshot of Manage frontline teams page to view all pilots.](media/startafrontlinepilot/manage-frontline-teams-pilots.jpg)
+:::image type="content" alt-text="Screenshot of Manage frontline teams page to view all pilots." source="media/startafrontlinepilot/manage-frontline-teams-pilots.jpg" lightbox="media/startafrontlinepilot/manage-frontline-teams-pilots.jpg":::
 
 Click the **Refresh** icon in the table header to update deployment status for your most recent pilots.
 
@@ -114,7 +114,7 @@ Pilot status can be Active, In progress, or Failed.
 
 - **Failed:** Select **Retry** on the banner to restart deployment.
 
-![Screenshot of retry button.](media/startafrontlinepilot/deployment-error.jpg)
+  :::image type="content" alt-text="Screenshot of retry button." source="media/startafrontlinepilot/deployment-error.jpg" lightbox="media/startafrontlinepilot/deployment-error.jpg":::
 
 #### Manage Membership
 
@@ -124,7 +124,7 @@ The Members tab lists all pilot members and owners.
 
 - Remove a member or owner by selecting the user and choosing **Remove**.
 
-![Screenshot of page to manage membership in the pilot.](media/startafrontlinepilot/manage-membership.jpg)
+  :::image type="content" alt-text="Screenshot of page to manage membership in the pilot." source="media/startafrontlinepilot/manage-membership.jpg" lightbox="media/startafrontlinepilot/manage-membership.jpg":::
 
 #### Manage channels 
 
@@ -139,19 +139,19 @@ By default, frontline workers see a General channel that can’t be deleted.
 > [!IMPORTANT]
 > Admins can add only standard channels to the pilot in the Teams admin center. Pilot owners can add standard, private, and shared channels in the Teams client. In the Teams admin center, admins see only the standard channels they create.
 
-![Screenshot of page to manage channels in the pilot.](media/startafrontlinepilot/manage-channels.jpg)
+:::image type="content" alt-text="Screenshot of page to manage channels in the pilot." source="media/startafrontlinepilot/manage-channels.jpg" lightbox="media/startafrontlinepilot/manage-channels.jpg":::
 
 #### Manage Connections
 
 Select **Set up and manage Viva Connections** to set up the Connections Home dashboard for pilot members.
 
-![Screenshot of page to manage Viva Connections in the pilot.](media/startafrontlinepilot/manage-connections.jpg)
+:::image type="content" alt-text="Screenshot of page to manage Viva Connections in the pilot." source="media/startafrontlinepilot/manage-connections.jpg" lightbox="media/startafrontlinepilot/manage-connections.jpg":::
 
 #### Manage Viva Engage
 
 Select **Set up and manage Viva Engage** to set up Communities for pilot members.
 
-![Screenshot of page to manage Viva Engage in the pilot.](media/startafrontlinepilot/manage-viva-engage.jpg)
+:::image type="content" alt-text="Screenshot of page to manage Viva Engage in the pilot." source="media/startafrontlinepilot/manage-viva-engage.jpg" lightbox="media/startafrontlinepilot/manage-viva-engage.jpg":::
 
 #### Manage Apps
 
@@ -161,7 +161,7 @@ Reorder pinned apps by dragging the **= icon**, or by selecting an app and choos
 
 - Unpin an app by selecting it and choosing **Remove**.
 
-![Screenshot of page to manage apps in the pilot.](media/startafrontlinepilot/manage-apps.jpg)
+  :::image type="content" alt-text="Screenshot of page to manage apps in the pilot." source="media/startafrontlinepilot/manage-apps.jpg" lightbox="media/startafrontlinepilot/manage-apps.jpg":::
 
 ## Measuring pilot success
 
@@ -188,7 +188,7 @@ The report shows a bar graph of active users for Chat, Channels, and Walkie Talk
 > [!NOTE]
 > Usage data for Shifts, Tasks, Engage Communities, and Connections Home will be available soon.
 
-![Screenshot of page to view frontline usage metrics.](media/startafrontlinepilot/measure-usage.jpg)
+:::image type="content" alt-text="Screenshot of page to view frontline usage metrics." source="media/startafrontlinepilot/measure-usage.jpg" lightbox="media/startafrontlinepilot/measure-usage.jpg":::
 
 To help boost adoption, learn more about [enabling your frontline workers with Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/frontline-workers/).
 
