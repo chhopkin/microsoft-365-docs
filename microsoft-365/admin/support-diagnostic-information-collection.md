@@ -27,10 +27,13 @@ This article describes the events that are logged in a customer tenant during th
 
 ## What happens when a Microsoft 365 support case is created?
 
-When a [user with permissions](#who-can-create-support-tickets) in an organization submits a Microsoft 365 support request in the [Microsoft 365 admin center](https://admin.microsoft.com), they grant Microsoft Support permission to access the information needed for assistance. This activity is recorded in the customer's cross-tenant access settings by adding the Microsoft Support tenant (Tenant ID `b4c546a4-7dac-46a6-a7dd-ed822a11efd3`) as a service provider partner. In this configuration, the Microsoft Support tenant is treated as a partner (see [Partner cross-tenant access settings](/graph/api/resources/crosstenantaccesspolicy-overview)).
+When a [user with permissions](#who-can-create-support-cases) in an organization creates a Microsoft 365 support case in the [Microsoft 365 admin center](https://admin.microsoft.com), a special type of cross-tenant access policy resource is created in your tenant. The cross-tenant access policy gives you visibility to Microsoft Support's permission to access to diagnostic data in your tenant and is restricted to the Microsoft Support tenant and the Microsoft 365 support engineer role. To provide you with contextual understanding of this policy, this resource is shown in Microsoft Entra audit logs as created by the user who created the support case. No other type of cross-tenant access policy can be created or modified by any user, except for administrators who have the Global Administrator, Security Administrator, or Teams Administrator role assigned.
 
-> [!IMPORTANT]
-> Only a [user who has an appropriate role assigned](#who-can-create-support-tickets) can open a Microsoft 365 support case. This action adds the Microsoft Support tenant to the customer's tenant as a service provider partner to enable the Microsoft Support team to troubleshoot and resolve a case. This cross-tenant relationship is only with Microsoft Support using only the [Microsoft 365 Support Engineer role](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-support-engineer). Only a user who has the Security Administrator, Teams Administrator, or Global Administrator role can modify any other aspect of cross-tenant access settings.
+
+
+This activity is recorded in the customer's cross-tenant access settings by adding the Microsoft Support tenant (Tenant ID `b4c546a4-7dac-46a6-a7dd-ed822a11efd3`) as a service provider partner. In this configuration, the Microsoft Support tenant is treated as a partner (see [Partner cross-tenant access settings](/graph/api/resources/crosstenantaccesspolicy-overview)).
+
+Only a [user who has an appropriate role assigned](#who-can-create-support-tickets) can open a Microsoft 365 support case. This action adds the Microsoft Support tenant to the customer's tenant as a service provider partner to enable the Microsoft Support team to troubleshoot and resolve a case. This cross-tenant relationship is only with Microsoft Support using only the [Microsoft 365 Support Engineer role](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-support-engineer). Only a user who has the Security Administrator, Teams Administrator, or Global Administrator role can modify any other aspect of cross-tenant access settings.
 
 The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*, which represents the user role a Microsoft Support engineer can have in the customer tenant. The [Microsoft 365 Support Engineer](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-support-engineer) role is used for Microsoft Support engineers. 
 
@@ -132,9 +135,9 @@ Microsoft retains diagnostic data related to a support case for up to 28 days af
 
 For information about how Microsoft protects customer data, see [Privacy and data management overview](/compliance/assurance/assurance-privacy).
 
-## Who can create support tickets?
+## Who can create support cases?
 
-Only users assigned one of the following roles can create support tickets. These user roles can also add the Microsoft Support partner as a service provider in cross-tenant access settings. 
+Only users assigned one of the following roles can create support cases. These user roles can also add the Microsoft Support partner as a service provider in cross-tenant access settings. 
 
 - Application Administrator
 - Authentication Administrator
