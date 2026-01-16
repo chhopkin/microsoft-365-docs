@@ -34,14 +34,19 @@ To provide feedback or make requests to the product team, use [this form](https:
 Organizations can choose from several migration models depending on their business needs:
 
 - **Single-Event Migration**
+
   - All users and workloads are migrated in a single cutover event.
   - Best suited for small to medium businesses or simple organizational changes.
 - **Phased Migration**
+
   - Users are migrated in batches over time.
   - Ideal for large enterprises or complex environments.
 - **Tenant Move/Split**
+
   - A subset of users is moved to a new tenant while others remain.
   - Common in divestiture scenarios.
+    
+All migration models require planning, communication, and time to allow the data to move.
 
 ## Licensing and availability
 
