@@ -166,7 +166,7 @@ As a VL admin, you can view a list of all your users who are at risk of losing a
 1. In the admin center, on the **Billing** > **Your products** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> page, you see a banner at the top that says "Some users may lose access to certain VL contracts due to a mismatch between their Microsoft Entra ID's cloud and the contract's cloud." Select **View users at risk**.
 :::image type="content" source="../../media/vl-at-risk-contracts-banner.png" alt-text="Screenshot of the banner displayed in the Microsoft 365 admin center if you have users who are at risk." lightbox="../../media/vl-at-risk-contracts-banner.png":::
 1. The **Manage Assignments** page opens and shows a list of all affected users with the **ACCESS AT RISK** tag. To see a list of all their VL contracts that are at risk, select **View access**.
-1. Contact the affected users, and ask them to follow the steps in [Fix your cross-cloud access issue (for users)](#fix-your-cross-cloud-access-issie-for-users).
+2. Contact the affected users, and ask them to follow the steps in [Fix your cross-cloud access issue (for users)](#fix-your-cross-cloud-access-issue-for-users).
 
 ### Assign the correct Microsoft Entra ID to a VL contract (for admins)
 
