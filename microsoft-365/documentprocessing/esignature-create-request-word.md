@@ -20,7 +20,7 @@ description: Learn how to use eSignature to create and send electronic signature
 # Create a signature request from Word
 
 > [!NOTE]
-> This feature is currently rolling out to users on the Microsoft 365 Beta and Current channels. To get access to the feature, your admin must [complete these steps to allow signature requests in Microsoft Word](esignature-setup.md#allow-signature-requests-in-microsoft-word).
+> This feature is available to users on the Microsoft 365 Beta and Current channels. To get access to the feature, your admin must [complete these steps to allow signature requests in Microsoft Word](esignature-setup.md#allow-signature-requests-in-microsoft-word).
 
 The eSignature service is now integrated with Microsoft Word. This new capability allows you to request electronic signatures directly from Word documents, without the need to manually create PDFs.
 
