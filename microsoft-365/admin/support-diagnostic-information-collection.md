@@ -169,7 +169,7 @@ Only users assigned one of the following roles can create support tickets. These
 - User Administrator
 - Windows 365 Administrator
 
-Only users who have the Security Administrator, Teams Administrator, or Global Administrator role can modify any other aspects of cross-tenant access settings.
+Only users with the Security Administrator, Teams Administrator, or Global Administrator role can modify any other aspects of cross-tenant access settings.
 
 For more information about roles in Microsoft Entra ID, see [Support least privileged roles](/entra/identity/role-based-access-control/delegate-by-task#support-least-privileged-roles).
 
