@@ -16,9 +16,9 @@ customer-intent: As an IT leader, I want to understand the Microsoft Support cas
 
 # Understanding Microsoft 365 support case creation and data access
 
-Microsoft is improving your visibility into Microsoft Support's read-only access to customer data during the support lifecycle. When a customer creates a support request, [cross-tenant access](/entra/external-id/cross-tenant-access-overview) is granted to Microsoft Support to access the information needed to troubleshoot the issue. This access is time bound and uses least-privileged access, in accordance with [Zero Trust Principles](/security/zero-trust/zero-trust-overview).
+Microsoft is improving your visibility into Microsoft Support's read-only access to your data during the Microsoft 365 support case lifecycle. When you create a support request, [cross-tenant access](/entra/external-id/cross-tenant-access-overview) is granted to Microsoft Support to access the information needed to troubleshoot the issue. This access is time bound and uses least-privileged access, in accordance with [Zero Trust Principles](/security/zero-trust/zero-trust-overview).
 
-This article describes the events that are logged in a customer tenant during the Microsoft Support case lifecycle, the access Microsoft Support engineers have, and the types of information that might be accessed for a support case.
+This article describes what you'll see in your Microsoft Entra audit logs when a Microsoft 365 Support case is created, when Microsoft Support works on your case, and when support cases are closed. It also lists who can create support cases and what permissions are granted to Microsoft Support engineers.
 
 > [!NOTE]
 > To learn how to create a support case, see [Get support for Microsoft 365 for business](get-help-support.md).
@@ -27,19 +27,13 @@ This article describes the events that are logged in a customer tenant during th
 
 ## What happens when a Microsoft 365 support case is created?
 
-When a [user with permissions](#who-can-create-support-cases) in an organization creates a Microsoft 365 support case in the [Microsoft 365 admin center](https://admin.microsoft.com), a special type of cross-tenant access policy resource is created in your tenant. The cross-tenant access policy gives you visibility to Microsoft Support's permission to access to diagnostic data in your tenant and is restricted to the Microsoft Support tenant and the Microsoft 365 support engineer role. To provide you with contextual understanding of this policy, this resource is shown in Microsoft Entra audit logs as created by the user who created the support case. No other type of cross-tenant access policy can be created or modified by any user, except for administrators who have the Global Administrator, Security Administrator, or Teams Administrator role assigned.
+When a [user who has an appropriate role assigned](#who-can-create-support-cases) creates a support case in the [Microsoft 365 admin center](https://admin.microsoft.com), a special type of cross-tenant access policy resource is created in your tenant. This cross-tenant access policy gives you visibility into Microsoft Support's permission to access diagnostic data in your tenant. It's restricted to the Microsoft Support tenant (Tenant ID `b4c546a4-7dac-46a6-a7dd-ed822a11efd3`) and the [Microsoft 365 Support Engineer role](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-support-engineer). No other type of cross-tenant access policy can be created or modified by the user, except for administrators who have the Global Administrator, Security Administrator, or Teams Administrator role assigned.
 
-
-
-This activity is recorded in the customer's cross-tenant access settings by adding the Microsoft Support tenant (Tenant ID `b4c546a4-7dac-46a6-a7dd-ed822a11efd3`) as a service provider partner. In this configuration, the Microsoft Support tenant is treated as a partner (see [Partner cross-tenant access settings](/graph/api/resources/crosstenantaccesspolicy-overview)).
-
-Only a [user who has an appropriate role assigned](#who-can-create-support-tickets) can open a Microsoft 365 support case. This action adds the Microsoft Support tenant to the customer's tenant as a service provider partner to enable the Microsoft Support team to troubleshoot and resolve a case. This cross-tenant relationship is only with Microsoft Support using only the [Microsoft 365 Support Engineer role](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-support-engineer). Only a user who has the Security Administrator, Teams Administrator, or Global Administrator role can modify any other aspect of cross-tenant access settings.
-
-The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*, which represents the user role a Microsoft Support engineer can have in the customer tenant. The [Microsoft 365 Support Engineer](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-support-engineer) role is used for Microsoft Support engineers. 
+To provide you with contextual understanding of this policy, this cross-tenant access policy resource is shown in Microsoft Entra audit logs as created by the user who initiated the support case. The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*. 
 
 ## What audit events are logged during a Microsoft Support case lifecycle?
 
-Audit events are logged when a support case is opened, when Microsoft Support engineers work on a case, and when a case is closed. This article describes what to expect in audit log entries.
+Audit events are logged when a support case is opened, when Microsoft Support engineers work on a case, and when a case is closed.
 
 To learn more about Microsoft Entra audit logs, see the following articles:
 
@@ -48,12 +42,12 @@ To learn more about Microsoft Entra audit logs, see the following articles:
 
 ### Audit events during support case creation
 
-When you create a support case, the customer's Microsoft Entra audit logs record the following audit events:
+When you create a support case, the your Microsoft Entra audit logs record the following audit events:
 
 | Order | Event | Actor |
 |--|--|--|
-| 1 | If it doesn't exist already, **Add a partner to cross-tenant access setting**<br/>(Adds the Microsoft Support tenant only) | Identity of the user who created the support ticket |
-| 2 | If it doesn't exist already, **Adding allowed assignable roles**<br/>(Adds the Microsoft 365 Support Engineer role only) | Identity of the user who created the support ticket |
+| 1 | If it doesn't exist already, **Add a partner to cross-tenant access setting**<br/>(Adds the Microsoft Support tenant only) | Identity of the user who created the support case |
+| 2 | If it doesn't exist already, **Adding allowed assignable roles**<br/>(Adds the Microsoft 365 Support Engineer role only) | Identity of the user who created the support case |
 
 ### Audit events when Microsoft Support works on a case
 
@@ -66,13 +60,13 @@ When a Microsoft Support engineer works on a support case, the customer's Micros
 
 ### Audit events during support case closure
 
-When you close a support case, the customer's Microsoft Entra audit logs record the following audit events:
+When a support case is closed, the customer's Microsoft Entra audit logs record the following audit events:
 
 | Order | Event | Actor |
 |--|--|--|
 | 1 | **Add a service principal**<br/>(The Microsoft Entra GDAP application handles revocation) | Assist API application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
 | 2 | **Deleting allowed assignable roles** | Microsoft Entra GDAP application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
-| 3 | **Delete partner specific cross-tenant access setting** <br/>(Removes the Microsoft Support tenant if there are no other active support cases or it's been 30 days since the most recent case was created) | Microsoft Entra GDAP application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
+| 3 | **Delete partner specific cross-tenant access setting** <br/>(Removes the Microsoft Support tenant if there are no other active support cases or 30 days have elapsed since the most recent case was created) | Microsoft Entra GDAP application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
 
 ### What is the Assist API application, and how do I find it in my tenant?
 
@@ -88,9 +82,9 @@ To find the service principal ID in your tenant, follow these steps:
 
    Your unique service principal ID is displayed.
 
-## What level of access does Microsoft Support have on the customer tenant?
+## What level of access does Microsoft Support have in my tenant?
 
-The level of access is captured as *Delegated Admin Service Provider Constraints*. Currently, the support case creation process allows Microsoft Support engineers to assume the *Microsoft 365 Support Engineer* role, which includes the read permissions that are described in [Microsoft Entra built-in roles: Microsoft 365 Support Engineer](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-support-engineer).
+The level of access is captured as *Delegated Admin Service Provider Constraints*, using the *Microsoft 365 Support Engineer* role. To see the read permissions that are granted, visit [Microsoft Entra built-in roles: Microsoft 365 Support Engineer](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-support-engineer).
 
 > [!NOTE]
 > The Microsoft 365 Support Engineer role is used for Microsoft Support cases only. This role shouldn't be assigned to other users in your organization.
@@ -116,14 +110,13 @@ Microsoft Support accesses only the information needed to troubleshoot and resol
 
 ## How long does Microsoft Support have access to tenant data?
 
-Access to tenant data is revoked when the Microsoft Support tenant is removed from the customer's cross-tenant access settings. This process is automated and is directly linked to the lifecycle of support cases within the tenant. 
+Access to your tenant data is revoked when the Microsoft Support tenant is removed from your cross-tenant access settings. This process is automated and is directly linked to the lifecycle of support cases within your tenant.
 
-If a case is open for more than 30 days, access is revoked automatically, provided there aren't any other, newer cases opened. A customer can open a new support case or reopen a closed case to restore access.
+- If a case is open for more than 30 days, access is revoked automatically, provided there aren't any other, newer cases opened. You can open a new support case or reopen a closed case to restore access.
+- You can revoke access at any time by deleting the Microsoft Support tenant partner in your cross-tenant access settings. (To remove Office 365 (`b4c546a4-7dac-46a6-a7dd-ed822a11efd3`), see [Cross-tenant access settings: Remove an organization](/entra/external-id/cross-tenant-access-settings-b2b-collaboration#remove-an-organization).) 
 
-A customer can also revoke access at any time by deleting the Microsoft Support tenant partner in their cross-tenant access settings. To remove Office 365 (`b4c546a4-7dac-46a6-a7dd-ed822a11efd3`), follow the steps in [Cross-tenant access settings: Remove an organization](/entra/external-id/cross-tenant-access-settings-b2b-collaboration#remove-an-organization).
-
-> [!CAUTION]
-> If you revoke access manually, Microsoft Support loses the ability to help resolve your support cases.
+   > [!CAUTION]
+   > If you revoke access manually, Microsoft Support loses the ability to help resolve your support cases.
 
 ## What happens when a support case is closed?
 
@@ -131,13 +124,13 @@ When a support case is closed, Microsoft checks if there are any other active su
 
 ## How long is diagnostic data retained in Microsoft systems?
 
-Microsoft retains diagnostic data related to a support case for up to 28 days after collection. After this period, Microsoft deletes the data.
+Microsoft retains diagnostic data related to your support case for up to 28 days after collection. After this period, Microsoft deletes the data.
 
-For information about how Microsoft protects customer data, see [Privacy and data management overview](/compliance/assurance/assurance-privacy).
+For information about how Microsoft protects your data, see [Privacy and data management overview](/compliance/assurance/assurance-privacy).
 
 ## Who can create support cases?
 
-Only users assigned one of the following roles can create support cases. These user roles can also add the Microsoft Support partner as a service provider in cross-tenant access settings. 
+Only users assigned one of the following roles can create a support case and the special type of cross-tenant access policy resource that's described in this article. No other type of cross-tenant access policy can be created or modified by these users, except for administrators who have the Global Administrator, Security Administrator, or Teams Administrator role assigned.
 
 - Application Administrator
 - Authentication Administrator
@@ -171,8 +164,6 @@ Only users assigned one of the following roles can create support cases. These u
 - Teams Telephony Administrator
 - User Administrator
 - Windows 365 Administrator
-
-Only users with the Security Administrator, Teams Administrator, or Global Administrator role can modify any other aspects of cross-tenant access settings.
 
 For more information about roles in Microsoft Entra ID, see [Support least privileged roles](/entra/identity/role-based-access-control/delegate-by-task#support-least-privileged-roles).
 
