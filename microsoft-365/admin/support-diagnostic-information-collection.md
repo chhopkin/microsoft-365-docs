@@ -31,6 +31,8 @@ When a [user who has an appropriate role assigned](#who-can-create-support-cases
 
 To provide you with contextual understanding of this policy, the cross-tenant access policy resource is shown in Microsoft Entra audit logs as created by the user who initiated the support case. The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*. 
 
+Microsoft Entra audit events are logged throughout the Microsoft 365 Support case lifecycle.
+
 ## What audit events are logged during a Microsoft Support case lifecycle?
 
 Audit events are logged when a Microsoft 365 support case is opened, when Microsoft Support engineers work on the case, and when the case is closed.
@@ -97,7 +99,7 @@ For more information, see the following articles:
 
 ## What information can Microsoft Support access?
 
-Microsoft Support accesses only the information needed to troubleshoot and resolve support cases. Depending on the nature of your support request, the data that Microsoft Support can access falls under the categories listed in the following table:
+Microsoft Support accesses only the information needed to troubleshoot and resolve your support case. Depending on the nature of your support request, the data that Microsoft Support can access falls under the categories listed in the following table:
 
 | Category | Examples |
 |--|--|
