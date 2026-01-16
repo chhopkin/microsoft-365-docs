@@ -57,7 +57,7 @@ If you have questions about licensing or access, contact your Microsoft represen
 
 
 *People skills are available in the Microsoft 365 commercial public cloud, excluding EDU  
-** Tenants with at least 1 M365 Copilot license can opt-in Microsoft Enterprise E3 and E5 users for AI-powered inferencing. Learn more [here](/copilot/microsoft-365/people-skills-manage-skills-library)
+**Tenants with at least 1 M365 Copilot license can opt-in Microsoft Enterprise E3 and E5 users for AI-powered inferencing. Learn more [here](/copilot/microsoft-365/people-skills-manage-skills-library)
 
 ## Where does People Skills data appear?
 
