@@ -72,7 +72,9 @@ When managing these Admin Controls, see the below table for important definition
 
 See below visual diagram for an illustration of the relationships between the controls. 
 
-![Screenshot that shows the user's image.](media/people-skills-sharing-inferencing-controls/image1.png)
+![privacy controls overview](media/people-skills-sharing-inferencing-controls/privacy-controls-overview.png)
+
+
 
 ## Overview of People Skills user experiences control 
 
