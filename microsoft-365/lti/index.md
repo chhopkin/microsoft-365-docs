@@ -5,8 +5,8 @@ ms.author: avering
 manager: michal.gideoni
 ms.reviewer: amitman, sovaish
 last.review.by: avering
-last.review.date: 07/18/2025
-ms.date: 07/18/2025
+last.review.date: 01/14/2026
+ms.date: 01/14/2026
 audience: admin
 ms.topic: concept-article
 ms.service: microsoft-365-education
@@ -36,14 +36,14 @@ We've worked with our LMS partners to create a suite of tools using the [Learnin
 
 ## LMS admin resources for deploying the Microsoft 365 LTI
 
-Follow the guide that is relevant to your LMS. If there isn’t a guide specific to your LMS, use the Deploy Microsoft 365 LTI in any LTI 1.3 Advantage Platform guidance, and reference the LTI tool deployment guidance from your LMS to assist.
+Follow the guide that's relevant to your LMS. If there isn’t a guide specific to your LMS, use the Deploy Microsoft 365 LTI in any LTI 1.3 Advantage Platform guidance, and reference the LTI tool deployment guidance from your LMS to assist.
 
 - [Deploy the Microsoft 365 LTI® app in Canvas](microsoft-365-lti-canvas.md)
 - [Deploy the Microsoft 365 LTI® app in Blackboard by Anthology](microsoft-365-lti-blackboard.md)
 - [Deploy the Microsoft 365 LTI® app in PowerSchool Schoology Learning](microsoft-365-lti-schoology.md)
 - [Deploy the Microsoft 365 LTI® app in Brightspace by D2L](microsoft-365-lti-brightspace.md)
 - [Deploy the Microsoft 365 LTI® app in Moodle™](microsoft-365-lti-moodle.md)
-- [Deploy Microsoft 365 LTI in any LTI1 1.3 Advantage Platform](microsoft-365-lti-other.md)
+- [Deploy Microsoft 365 LTI in any LTI® 1.3 Advantage Platform](microsoft-365-lti-other.md)
 <!-- -->
 
 ## Experiences that are part of the Microsoft 365 LTI
@@ -86,7 +86,9 @@ For best practices on syncing teams with your LMS, reference one of the followin
 
 ## Classic Microsoft LTI apps
 
-The following tools are all still fully supported and don't have scheduled retirement dates. You can continue using them while you work to adopt the new Microsoft 365 LTI. We will continue to share updated guidance on migration and our LTI roadmap plan for the future. Sign up at https://aka.ms/LMSPreview to be notified of any new releases or changes to Microsoft LTIs.
+The classic Microsoft OneDrive, OneNote, Teams Assignments, and Reflect LTI apps have been replaced by the [new Microsoft 365 LTI](https://aka.ms/LMSAdminDocs). The classic apps will be sunset on September 17, 2026. After that date, the classic apps and any content links in courses will stop working. However, the files, notebooks, teams, meetings, and check-ins created by the classic app will continue to be accessible through Microsoft 365. For further guidance on moving your users and courses to the new Microsoft 365 LTI experiences and migrating content links, review the [migration guidance for the classic LTI apps](/microsoft-365/lti/microsoft-365-lti-first-time-configuration#migration-guidance).
+
+The following tools are all still fully supported and don't have scheduled retirement dates. You can continue using them while you work to adopt the new Microsoft 365 LTI. We'll continue to share updated guidance on migration and our LTI roadmap plan for the future. Sign up at https://aka.ms/LMSPreview to be notified of any new releases or changes to Microsoft LTIs.
 
 - [OneNote Class Notebooks LTI](https://onenote.com/LTI)
 - [Microsoft OneDrive LTI with Canvas](onedrive-lti.md)
