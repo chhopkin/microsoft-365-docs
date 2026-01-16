@@ -72,7 +72,7 @@ When managing Admin Controls, see the table for important definitions of terms r
 
 See visual diagram for an illustration of the relationships between the controls. 
 
-![privacy controls overview](media/people-skills-sharing-inferencing-controls/privacy-controls-overview.png)
+![Diagram showing the privacy controls overview.](media/people-skills-sharing-inferencing-controls/privacy-controls-overview.png)
 
 
 
