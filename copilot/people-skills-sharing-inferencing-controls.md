@@ -20,7 +20,7 @@ People Skills offers controls for Admin users to configure privacy settings, ski
 
 - __Workers Council or Regional Compliance Requirements__
 
-  If your organization has Workers Council requirements and needs to disable People Skills for certain regions (such as users in Germany), you have several admin controls for meeting those compliance needs. Configure compliance‑appropriate access controls. For example, you can use the **AI Inferencing control** to disable AI‑generated skill inferences while still allowing users to opt in if they choose. Alternatively, you can use the **People Skills user experiences control**, which fully disables all People Skills experiences for the selected user group; this higher-level control removes all People Skills user experiences for those users and may be used to meet regional compliance needs.
+  If your organization has Workers Council requirements and needs to disable People Skills for certain regions (such as users in Germany), you have several admin controls for meeting compliance needs. Configure compliance‑appropriate access controls. For example, you can use the **AI Inferencing control** to disable AI‑generated skill inferences while still allowing users to opt in if they choose. Alternatively, you can use the **People Skills user experiences control**, which fully disables all People Skills experiences for the selected user group; this higher-level control removes all People Skills user experiences for those users and may be used to meet regional compliance needs.
   
 - __Piloting People Skills with a Test Group__
 
@@ -60,17 +60,17 @@ Admins can set controls at any time: before, during, or after deployment.  To vi
 
 #### Key terminology
 
-When managing these Admin Controls, see the below table for important definitions of terms referenced throughout this page.  
+When managing Admin Controls, see the table for important definitions of terms referenced throughout this page.  
 
 | Term| What it means|
 | -------- | -------- |
 |Hard disable| Feature is fully disabled (turned off) and users can't opt in|
 | Soft disable|Feature is available but default off, and users may opt in |
 |Soft enable|Feature is available and default on, and users may opt out|
-|Parent control|A parent control determines the access settings of its child controls. When the parent is turned off, all child controls automatically inherit that setting and are also turned off. For example, the **People Skills user experiences** control is a parent for all other admin controls; if the People Skills user experiences control is turned off, every related control beneath it's disabled as well. |
+|Parent control|A parent control determines the access settings of its child controls. When the parent is turned off, all child controls automatically inherit that setting and are also turned off. For example, the **People Skills user experiences** control is a parent for all other admin controls. If the People Skills user experiences control is turned off, every related control is disabled as well. |
 |Child control|Child controls are controls that sit beneath a parent feature and depend on the parent's access state. A child control can only be applied if its parent feature is turned on. When the parent is disabled, all associated child controls automatically become disabled (they inherit their parent's access setting). |
 
-See below visual diagram for an illustration of the relationships between the controls. 
+See visual diagram for an illustration of the relationships between the controls. 
 
 ![privacy controls overview](media/people-skills-sharing-inferencing-controls/privacy-controls-overview.png)
 
