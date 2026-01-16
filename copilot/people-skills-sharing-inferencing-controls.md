@@ -236,7 +236,7 @@ Below is some general guidance for creating policies:
 
 You can access Feature access management in the M365 Admin Center by following the below instructions:
 
-![Screenshot that shows the user's image.](media/people-skills-sharing-inferencing-controls/image4.png)![User's image](media/people-skills-sharing-inferencing-controls/image5.png)
+![Screenshot: showing the user's image.](media/people-skills-sharing-inferencing-controls/image4.png)![User's image](media/people-skills-sharing-inferencing-controls/image5.png)
 
 1. Navigate to **Settings** in the left rail of the M365 Admin Center
 
@@ -250,7 +250,7 @@ You can access Feature access management in the M365 Admin Center by following t
 
 1. Click on **Add policy**
 
-**Create a policy**![Screenshot that shows the user's image.](media/people-skills-sharing-inferencing-controls/image6.png)
+**Create a policy**![Screenshot: image that shows people skills sharing inference controls.](media/people-skills-sharing-inferencing-controls/image6.png)
 
 You can create a policy for any of the available feature controls by following the below instructions: 
 
