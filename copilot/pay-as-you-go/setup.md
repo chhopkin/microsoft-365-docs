@@ -175,7 +175,7 @@ While coexistence is supported, turning off the pay-as-you-go policy in the Powe
 
 ## How can I test that pay-as-you-go is correctly configured and working properly?
 
-Have a user that qualifies for pay-as-you-go use one of the following three agents: "Learning Coach", "Writing Coach", "Career Coach". Have them submit a simple prompt such as "What can you do?". This prompt should consume about 12 credits and be visible in the Copilot Credits Report.
+Have a user that qualifies for pay-as-you-go use one of the following three agents: "Learning Coach", "Writing Coach", "Career Coach." Have them submit a simple prompt such as "What can you do?" This prompt should consume about 12 credits and be visible in the Copilot Credits Report.
 
 ## Related articles
 
