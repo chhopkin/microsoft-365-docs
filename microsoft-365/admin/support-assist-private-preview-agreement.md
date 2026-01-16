@@ -314,7 +314,7 @@ The Participant's use of the Preview described herein is subject to and incorpor
 
 - **Additional Terms specific to this Preview Prerequisites:**
 
-    1. A Microsoft 365 tenancy with either M365 admin access or SharePoint Online admin access
+    1. A Microsoft 365 tenancy with either Microsoft 365 admin access or SharePoint Online admin access
 
 - **Geo Restriction:** US only
 

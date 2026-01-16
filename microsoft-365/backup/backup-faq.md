@@ -106,7 +106,7 @@ Currently, you can only transfer control from the first-party Microsoft 365 appl
 Yes, you can. Microsoft 365 Backup supports PowerShell cmdlets. You can find the associated PowerShell cmdlets in the [Microsoft 365 Backup Storage Graph APIs](/graph/api/resources/backuprestoreroot) reference guide.
 #### Can I backup every type of SharePoint site?
 
-No, there are some SharePoint sites which are unsupported.  While most SharePoint templates are supported by M365 Backup, there're a handful of legacy template types which aren't supported.  These unsupported templates are:
+No, there are some SharePoint sites which are unsupported.  While most SharePoint templates are supported by Microsoft 365 Backup, there're a handful of legacy template types which aren't supported.  These unsupported templates are:
 
 |Template ID|Template|Template Name|
 | -------- | -------- | -------- |

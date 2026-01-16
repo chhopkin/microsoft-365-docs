@@ -25,7 +25,7 @@ description: "An overview of how to deploy and manage Office Add-ins."
 
 ## What are Office add-ins?
 
-Office Add-ins help users get things done right from their Office applications. They are made by Microsoft or non-Microsoft developers either for use within their own organizations or made available to the public in [AppSource](https://appsource.microsoft.com). For more information, see [Start using your Office Add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862).
+Office Add-ins help users get things done right from their Office applications. They are made by Microsoft or non-Microsoft developers either for use within their own organizations or made available to the public in [Microsoft Marketplace](https://marketplace.microsoft.com). For more information, see [Start using your Office Add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862).
 
 ## Before you begin
 
@@ -257,7 +257,7 @@ When a manifest is updated, the typical changes are to an add-in's icon and text
 Updates for add-ins happen as follows.
 
 - **Line-of-business add-in**: In this case, where an admin uploaded a manifest, the admin must upload the new manifest file to support metadata changes. The next time a user starts the relevant Microsoft 365 productivity application, the add-in will update.
-- **AppSource add-in**: When an admin selected an add-in from AppSource and then the developer updated the manifest in AppSource, the admin doesn't have to take any action. The next time a user starts the relevant Microsoft 365 productivity application, the add-in will update.
+- **Microsoft Marketplace add-in**: When an admin selected an add-in from Microsoft Marketplace and then the developer updated the manifest in Microsoft Marketplace, the admin doesn't have to take any action. The next time a user starts the relevant Microsoft 365 productivity application, the add-in will update.
 
 > [!NOTE]
 > There are other ways for deploying Office Add-ins in certain scenarios. For more information, see [Deploy and publish Office Add-ins](/office/dev/add-ins/publish/publish).
