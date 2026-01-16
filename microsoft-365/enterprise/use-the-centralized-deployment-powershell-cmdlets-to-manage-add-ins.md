@@ -75,9 +75,9 @@ You can also run the **New-OrganizationAdd-In** cmdlet to upload an add-in and a
 New-OrganizationAddIn -ManifestPath 'C:\Users\Me\Desktop\taskpane.xml' -Locale 'en-US' -Members  'KathyBonner@contoso.com', 'MaxHargrave@contoso.com'
 ```
 
-## Upload an add-in from the Office Store
+## Upload an add-in from the Microsoft Marketplace
 
-Run the **New-OrganizationAddIn** cmdlet to upload a manifest from the Office Store.
+Run the **New-OrganizationAddIn** cmdlet to upload a manifest from the Microsoft Marketplace.
 
 In the following example, the **New-OrganizationAddIn** cmdlet specifies the AssetId for an add-in for a United States location and content market.
 
@@ -85,12 +85,12 @@ In the following example, the **New-OrganizationAddIn** cmdlet specifies the Ass
 New-OrganizationAddIn -AssetId 'WA104099688' -Locale 'en-US' -ContentMarket 'en-US'
 ```
 
-To determine the value for the  _AssetId_ parameter, you can copy it from the URL of the Office Store webpage for the add-in. AssetIds always begin with "WA" followed by a number. For example, in the previous example, the source for the AssetId value of WA104099688 is the Office Store webpage URL for the add-in: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688).
+To determine the value for the  _AssetId_ parameter, you can copy it from the URL of the Microsoft Marketplace webpage for the add-in. AssetIds always begin with "WA" followed by a number. For example, in the previous example, the source for the AssetId value of WA104099688 is the Microsoft Marketplace webpage URL for the add-in: [https://store.office.com/en-001/app.aspx?assetid=WA104099688](https://store.office.com/en-001/app.aspx?assetid=WA104099688).
 
 The values for the  _Locale_ parameter and the  _ContentMarket_ parameter are identical and indicate the country/region you're trying to install the add-in from. The format is en-US, fr-FR and so forth.
 
 > [!NOTE]
-> Add-ins uploaded from the Office Store will update automatically within a few days of the latest update being available on the Office Store.
+> Add-ins uploaded from the Microsoft Marketplace will update automatically within a few days of the latest update being available on the Microsoft Marketplace.
 
 ## Get details of an add-in
 
@@ -161,7 +161,7 @@ Set-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122 -ManifestP
 ```
 
 > [!NOTE]
-> Add-ins uploaded from the Office Store will update automatically within a few days of the latest update being available on the Office Store.
+> Add-ins uploaded from the Microsoft Marketplace will update automatically within a few days of the latest update being available on the Microsoft Marketplace.
 
 ## Delete an add-in
 
