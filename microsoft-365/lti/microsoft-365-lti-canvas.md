@@ -140,7 +140,7 @@ We suggest that you uninstall the classic app by locating the app in **Admin > *
 
 The classic OneNote Class Notebook LTI 1.1 app will be sunset on September 17, 2026.
 
-All notebooks created by the classic LTI 1.1 app will continue to be available directly in the educator owner’s OneDrive or through the [OneNote web app](https://onedrive.cloud.microsoft/a@pu39578e/Documents/Documents/Edu/LTI/Documentation/onenote.cloud.microsoft).
+All notebooks created by the classic LTI 1.1 app will continue to be available directly in the educator owner’s OneDrive or through the [OneNote web app](https://onenote.cloud.microsoft).
 
 There's no way to automatically migrate a classic OneNote LTI 1.1 Class Notebook to a Microsoft 365 LTI OneNote Class Notebook. However, you can create a new notebook using the Microsoft 365 LTI OneNote app and copy content from any previous Class Notebooks in OneNote on Windows using the right-click menu option on Sections and Pages to move or copy to another OneNote Notebook. There are also copy options in OneNote for [Mac](https://support.microsoft.com/office/move-or-copy-notes-in-onenote-for-mac-7faf1c7f-d6c6-420e-a65c-5ac7c6f6ec27), [iOS](https://support.microsoft.com/office/move-or-copy-notes-between-notebooks-and-sections-in-onenote-for-ipad-or-iphone-94a516da-35f1-46b4-9ed6-a7c712324bab), or [Android](https://support.microsoft.com/office/move-or-copy-notes-between-notebooks-and-sections-in-onenote-for-ipad-or-iphone-94a516da-35f1-46b4-9ed6-a7c712324bab). Students can also [export a copy of their work from OneNote Class Notebooks](https://support.microsoft.com/topic/students-export-a-copy-of-your-work-from-onenote-class-notebook-teams-and-onedrive-deb62dce-c441-41b0-b2fc-fccd3cc99c1b).
 
