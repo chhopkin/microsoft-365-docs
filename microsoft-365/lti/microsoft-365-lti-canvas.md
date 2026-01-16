@@ -156,7 +156,7 @@ A migration utility to help teachers migrate content links in Canvas courses fro
 
 After deploying Microsoft 365 LTI with OneDrive enabled, we recommend that you leave the classic Microsoft OneDrive app installed until all content you wish to keep active or reuse is migrated to keep existing file links accessible in active courses but disable the Placements in the classic LTI, so no new links are created using the classic tool.
 
-The classic Microsoft OneDrive app placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`*] > Settings > Apps > View App Configurations** by selecting the Gear icon drop-down for the **Microsoft OneDrive** app and toggling off all the placements listed.
+The classic Microsoft OneDrive app placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`* > Settings > Apps > View App Configurations** by selecting the Gear icon drop-down for the **Microsoft OneDrive** app and toggling off all the placements listed.
 
 :::image type="content" source="./media/app-placement.png" alt-text="Screenshot of app placement." border="true":::
 
@@ -170,7 +170,7 @@ Currently, there's no direct migration path or copy available from Microsoft Off
 
 After deploying the Microsoft 365 LTI, we recommend that you leave the Office 365 app installed to keep existing files and links accessible in active courses, but disable the Placements, so new links are only created using the Microsoft 365 LTI app via Microsoft Education menu items.
 
-The Office 365 LTI app placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`* >Settings > Apps > View App Configuration**s by selecting the Gear icon drop-down for the Office 365 app and toggling off all the placements listed.
+The Office 365 LTI app placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`* > Settings > Apps > View App Configuration**s by selecting the Gear icon drop-down for the Office 365 app and toggling off all the placements listed.
 
 :::image type="content" source="./media/app-placement.png" alt-text="Screenshot of app placement." border="true":::
 
@@ -182,7 +182,7 @@ Teams Assignments created by the classic Teams Assignments LTI app can be reused
 
 After deploying the Microsoft 365 LTI, we recommend that you leave the classic Teams Assignments app installed to keep existing files and links accessible in active courses, but disable the Placements, so new assignments are only created using the Microsoft 365 LTI app via Microsoft Education menu items.
 
-The classic Teams Assignments LTI app placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`* >Settings > Apps > View App Configurations** by selecting the Gear icon drop-down for the Teams Assignments app and toggling off all the placements listed. Once all assignments have been copied into new courses and courses with existing classic Teams Assignments have been archived, the classic Teams Assignments app can be removed.
+The classic Teams Assignments LTI app placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`* > Settings > Apps > View App Configurations** by selecting the Gear icon drop-down for the Teams Assignments app and toggling off all the placements listed. Once all assignments have been copied into new courses and courses with existing classic Teams Assignments have been archived, the classic Teams Assignments app can be removed.
 
 ### Migrating from Reflect LTI
 
