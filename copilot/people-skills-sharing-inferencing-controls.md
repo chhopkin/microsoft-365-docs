@@ -182,7 +182,7 @@ Admins have the ability to enable or disable People Skills data sharing with Viv
 
 **Steps to enable or disable sharing with Viva Insights**
 
-![Screenshot that shows the user's image.](media/people-skills-sharing-inferencing-controls/image2.png)
+![Screenshot: image that shows the user's image.](media/people-skills-sharing-inferencing-controls/image2.png)
 
 
 ![Screenshot that shows the user's image.](media/people-skills-sharing-inferencing-controls/image3.png)
