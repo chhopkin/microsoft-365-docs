@@ -322,8 +322,7 @@ If changes need to be made to the migration, like changing the [Complete After D
 
 Use the following table to understand the validation and migration flows and status values:
 
-> [!info]
-> **Note**
+> [!NOTE]
 > For more information about troubleshooting, see See **[Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors)**.
 
 ### Migration batch
