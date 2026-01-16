@@ -3,8 +3,8 @@ metadata:
   title: "Frequently asked questions about deploying the Microsoft 365 Copilot app."
   description: "Frequently asked questions about deploying the Microsoft 365 Copilot app."
   author: frankroj
-  ms.author: smbhardwaj
-  ms.service: frankroj
+  ms.author: frankroj
+  ms.service: microsoft-365-copilot
   ms.topic: faq
   ms.date: 01/16/2026
 
