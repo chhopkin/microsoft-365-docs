@@ -49,7 +49,7 @@ When you create a support case, the following Microsoft Entra audit events are r
 | 1 | If it doesn't exist already, **Add a partner to cross-tenant access setting**<br/>(Adds the Microsoft Support tenant only) | Identity of the user who created the support case |
 | 2 | If it doesn't exist already, **Adding allowed assignable roles**<br/>(Adds the Microsoft 365 Support Engineer role only) | Identity of the user who created the support case |
 
-### Audit events when Microsoft Support works on a case
+### Audit events when Microsoft Support works on your case
 
 When a Microsoft Support engineer works on your support case, the following Microsoft Entra audit events are recorded:
 
@@ -60,7 +60,7 @@ When a Microsoft Support engineer works on your support case, the following Micr
 
 ### Audit events during support case closure
 
-When a support case is closed, the customer's Microsoft Entra audit logs record the following audit events:
+When your support case is closed, the following Microsoft Entra audit events are recorded:
 
 | Order | Event | Actor |
 |--|--|--|
@@ -70,7 +70,7 @@ When a support case is closed, the customer's Microsoft Entra audit logs record 
 
 ### What is the Assist API application, and how do I find it in my tenant?
 
-Assist API is a Microsoft-owned application with the Application ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`. In audit events, you can see the service principal ID of the Assist API application for your tenant. The service principal ID is unique to your tenant.
+Assist API is a Microsoft-owned application with the Application ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`. In Microsoft Entra audit events, you can see the service principal ID of the Assist API application for your tenant. The service principal ID is unique to your tenant.
 
 To find the service principal ID in your tenant, follow these steps:
 
