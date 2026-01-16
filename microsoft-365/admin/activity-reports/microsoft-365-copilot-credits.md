@@ -171,4 +171,4 @@ By default, the Billing Policy ID in the Copilot credits report is anonymized, s
 5. To conceal the Billing policy ID, select the checkbox again, and save your changes.
 
 > [!NOTE]
-> Changes to this concealed data setting affects the username, display name, and Billing Policy ID.
+> Changes to this concealed data setting affect the username, display name, and Billing Policy ID.
