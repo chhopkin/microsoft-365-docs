@@ -29,11 +29,11 @@ This article describes what you'll see in your Microsoft Entra audit logs when a
 
 When a [user who has an appropriate role assigned](#who-can-create-support-cases) creates a support case in the [Microsoft 365 admin center](https://admin.microsoft.com), a special type of cross-tenant access policy resource is created in your tenant. This cross-tenant access policy gives you visibility into Microsoft Support's permission to access diagnostic data in your tenant. It's restricted to the Microsoft Support tenant (Tenant ID `b4c546a4-7dac-46a6-a7dd-ed822a11efd3`) and the [Microsoft 365 Support Engineer role](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-support-engineer). No other type of cross-tenant access policy can be created or modified by the user, except for administrators who have the Global Administrator, Security Administrator, or Teams Administrator role assigned.
 
-To provide you with contextual understanding of this policy, this cross-tenant access policy resource is shown in Microsoft Entra audit logs as created by the user who initiated the support case. The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*. 
+To provide you with contextual understanding of this policy, the cross-tenant access policy resource is shown in Microsoft Entra audit logs as created by the user who initiated the support case. The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*. 
 
 ## What audit events are logged during a Microsoft Support case lifecycle?
 
-Audit events are logged when a support case is opened, when Microsoft Support engineers work on a case, and when a case is closed.
+Audit events are logged when a Microsoft 365 support case is opened, when Microsoft Support engineers work on the case, and when the case is closed.
 
 To learn more about Microsoft Entra audit logs, see the following articles:
 
