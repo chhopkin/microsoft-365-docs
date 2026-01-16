@@ -46,12 +46,12 @@ To view your volume licenses and access software downloads and VL keys, you must
 
 - Commercial users and Government Community Cloud (GCC) users can sign in to the public cloud instance of the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
 - Government Community Cloud High VL users can go to the <a href="https://portal.office365.us/adminportal/home" target="_blank">GCC High Microsoft 365 admin center</a>.
-- US Department of Defence cloud VL users can go to the <a href="https://portal.apps.mil/adminportal/home" target="_blank">DoD Microsoft 365 admin center</a>.
+- US Department of Defense cloud VL users can go to the <a href="https://portal.apps.mil/adminportal/home" target="_blank">DoD Microsoft 365 admin center</a>.
 
 > [!NOTE]
 > Users who access both public clouds and GCC High clouds must have a separate ID for the GCC High Microsoft 365 admin center. If you're an EA or EU customer, any user with an Entra ID on a different cloud than the contract loses access to the contract. Users with an Entra ID on the same cloud as the contract continue to have uninterrupted access.
 
-You can only access the VL contracts that are on the same cloud as your Entra ID. If you access VL contracts with Government Community Cloud High (GCC High) or US Department of Defence cloud (DoD) licenses, you must use the Entra ID in those clouds to access VL pages in the Microsoft 365 admin center.
+You can only access the VL contracts that are on the same cloud as your Entra ID. If you access VL contracts with Government Community Cloud High (GCC High) or US Department of Defense cloud (DoD) licenses, you must use the Entra ID in those clouds to access VL pages in the Microsoft 365 admin center.
 
 Public and GCC users can't access VL contracts with GCC High or DoD cloud licenses. Similarly, GCC High or DoD users can't access VL contracts with public or GCC cloud licenses.
 
@@ -215,7 +215,7 @@ If you see the message "Ready to become an admin of \<domain name\>," it means y
 
 The takeover process involves you, or your organization's IT administrator, verifying ownership of the email domain by confirming the domain's DNS TXT records. You can get the DNS TXT records from your domain name registrar, like GoDaddy.
 
-For step-by-step instructions, see [How to takeover over an unmanaged directory](/azure/active-directory/enterprise-users/domains-admin-takeover#decide-how-you-want-to-take-over-an-unmanaged-directory).
+For step-by-step instructions, see [How to take over an unmanaged directory](/azure/active-directory/enterprise-users/domains-admin-takeover#decide-how-you-want-to-take-over-an-unmanaged-directory).
 
 After your organization converts your account to a managed Microsoft Entra ID, or you identify a suitable alternative Microsoft Entra ID, contact <a href="https://go.microsoft.com/fwlink/p/?linkid=2166757" target="_blank">Microsoft Volume Licensing Support</a> to request a new volume licensing profile. When you contact support, provide the following items:
 
