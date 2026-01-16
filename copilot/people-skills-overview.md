@@ -12,7 +12,7 @@ ms.date: 10/21/2025
 
 # Overview of People Skills
 
-People Skills is an AI-driven service that uses state-of-the-art AI to generate personalized skill profiles for your users mapped to a customizable, built-in taxonomy. This service provides a data layer that fuels the Skills agent, and enhances Microsoft 365 Copilot, Microsoft 365, and Viva services with contextualized data and skills-driven experiences. 
+People Skills is an AI-driven service that uses state-of-the-art AI to generate personalized skill profiles for your users mapped to a customizable, built-in taxonomy. This service provides a data layer that enhances Microsoft 365 Copilot and multiple M365 Copilot Agents, Microsoft 365, and Viva services with contextualized data and skills-driven experiences. 
 
 People Skills:
 
@@ -56,7 +56,8 @@ If you have questions about licensing or access, contact your Microsoft represen
 | GA | Copilot Analytics - Skill landscape report in Analyst Workbench | ✕ | ✓ | ✓ | ✓ | ✕ |
 
 
-*People skills are available in the Microsoft 365 commercial public cloud, excluding EDU
+*People skills are available in the Microsoft 365 commercial public cloud, excluding EDU  
+** Tenants with at least 1 M365 Copilot license can opt-in Microsoft Enterprise E3 and E5 users for AI-powered inferencing. Learn more [here](/copilot/microsoft-365/people-skills-manage-skills-library)
 
 ## Where does People Skills data appear?
 
