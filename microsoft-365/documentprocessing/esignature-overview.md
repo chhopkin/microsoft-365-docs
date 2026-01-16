@@ -32,7 +32,7 @@ With eSignature, you can quickly and securely send documents for signature to pe
 
 ## Regional availability
 
-The eSignature service is available worldwide (excluding Indonesia and Türkiye, which are due later in 2025), via the Microsoft 365 public cloud. The ability to use eSignature with other electronic signature providers is also available worldwide.
+The eSignature service is available worldwide (excluding Indonesia) via the Microsoft 365 public cloud.
 
 ## Before you begin
 
@@ -44,13 +44,17 @@ The eSignature service uses simple electronic signatures as defined under applic
 
 Before you can use eSignature, you must first link your Azure subscription to [pay-as-you-go billing](syntex-azure-billing.md). Billing is based on the [type and number of transactions](syntex-pay-as-you-go-services.md). Before you can enable eSignature, an admin must [set up eSignature](esignature-setup.md) in the Microsoft 365 admin center.
 
+### Sending a request
+
+The eSignature service creates a sharing link in order for signers to access the document. The creator of the request must have edit and sharing permissions in order for the sharing link to be created. 
+
 ### External sharing
 
-The eSignature service enables binding agreements between parties. External parties are allowed guests access to SharePoint via Microsoft Entra ID in order to electronically sign a document. Certain external sharing settings must be enabled at a tenant and site level to allow this access. For more information, see [Set up eSignature for external recipients](esignature-setup.md#external-recipients). Consider whether this meets your compliance and security requirements when enabling eSignature.
+The eSignature service enables binding agreements between parties. External parties are allowed guest access to SharePoint via Microsoft Entra ID in order to electronically sign a document. If you're requesting signatures from external recipients who are not existing guests on your tenant, you need to enable Microsoft Entra B2B integration for SharePoint and OneDrive and guest sharing. For more information, see [Set up eSignature for external recipients](esignature-setup.md#external-recipients). Consider whether this meets your compliance and security requirements when enabling eSignature.
 
 ### Purview integration
 
-The eSignature service enables logging of eSignature activities in the Purview Audit log. Activities can be viewed by opening the audit log and searching for *eSignature* in the **Activities - operation names** field. The activities logged are:
+The eSignature service enables logging of eSignature activities in the Purview Audit log. Activities can be viewed by opening the audit log and searching for eSignature* (including the asterisk) in the **Activities - operation names** field. The activities logged are:
 
 - Request was created
 - Request was sent
@@ -79,7 +83,6 @@ The providers facilitate the signing process and send out all relevant notificat
 
 - Integration with Adobe Acrobat Sign and Docusign eSignature is available worldwide for PDFs. 
 
-*excluding Indonesia and Türkiye, which are due later in 2025.
 
 <br>
 
