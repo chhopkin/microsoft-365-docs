@@ -151,7 +151,7 @@ Updates for add-ins happen as follows:
   > [!NOTE]
   > To deploy the update, select the LOB add-in and choose the **Update Button** in the bottom right corner.
 
-- **Microsoft Marketplac add-in**: When an admin selected an add-in from Microsoft Marketplace and then the developer updated the manifest in Microsoft Marketplace, the admin doesn't have to take any action. The next time a user starts the relevant Microsoft 365 productivity application, the add-in will update.
+- **Microsoft Marketplace add-in**: When an admin selected an add-in from Microsoft Marketplace and then the developer updated the manifest in Microsoft Marketplace, the admin doesn't have to take any action. The next time a user starts the relevant Microsoft 365 productivity application, the add-in will update.
   
 ## Related content
 

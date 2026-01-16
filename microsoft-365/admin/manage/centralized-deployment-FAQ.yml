@@ -65,7 +65,7 @@ sections:
           For easy deployment of add-ins to users, groups, or to your entire organization, we recommend administrators use centralized deployment whenever deployment through the integrated apps portal is not suitable.
           
           For more information about managing user access, see:
-           - [Manage add-in downloads by turning on/off Microsoft Marketplace across all apps (except Outlook)](/microsoft-365/admin/manage/manage-addins-in-the-admin-center#manage-add-in-downloads-by-turning-on-off-Microsoft Marketplace-across-all-apps-except-outlook)
+           - [Manage add-in downloads by turning on/off Microsoft Marketplace across all apps (except Outlook)](/microsoft-365/admin/manage/manage-addins-in-the-admin-center#manage-add-in-downloads-by-turning-on-off-microsoft-marketplace-across-all-apps-except-outlook)
            - [Specify the administrators and users who can install and manage add-ins for Outlook](/Exchange/specify-who-can-install-and-manage-add-ins-2013-help)
           
       - question: |
