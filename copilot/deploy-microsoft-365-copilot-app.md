@@ -5,7 +5,7 @@ author:      efrene
 ms.author:   efrene
 ms.service: microsoft-365-copilot
 ms.topic: how-to
-ms.date:     09/05/2025
+ms.date:     01/16/2026
 manager: scotv
 ---
 
@@ -35,7 +35,7 @@ To install on a single computer with many users, follow these steps:
 To deploy the Microsoft 365 Copilot app to a group of computers, or your entire organization:
 
 1. Download the [.exe installer](https://go.microsoft.com/fwlink/?linkid=2325486).
-2. Distribute the installer to your target computers using [Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Endpoint Configuration Manager](/mem/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or non-Microsoft distribution software.
+2. Distribute the installer to your target computers using [Intune](/mem/intune/fundamentals/what-is-intune), [Microsoft Configuration Manager](/mem/configmgr/core/understand/introduction), [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software), or non-Microsoft distribution software.
 3. Run the installer on each computer.
 
 ## Deploy the app automatically with Microsoft 365 Apps
@@ -50,14 +50,15 @@ Devices on the Semi-Annual Enterprise Channel will not automatically install the
 > The installation of the Microsoft 365 Copilot app to devices with Microsoft 365 Apps is not enabled for customers in the European Economic Area (EEA).
 
 ### Prevent automatic installation
+
 To prevent the app from installing to devices with existing installations of Microsoft 365 Apps:
+
 1. Sign in to the [Microsoft 365 Apps admin center](https://config.office.com/deploymentsettings) with an admin account.
 2. Go to **Customization** > **Device Configuration** > **Modern App Settings**.
 3. Select **Microsoft 365 Copilot app**, then clear the **Enable automatic installation of Microsoft 365 Copilot app** check box.
 
-
-
 ## Updating the Microsoft 365 Copilot app
+
 The Microsoft 365 Copilot app can update automatically through the Microsoft Store as well as its own built-in updater.
 
-To ensure reliable app installation and delivery of updates, administrators should allow access to the Microsoft 365 Content Delivery Network (CDN) on the `*.office.net` domain. This domain is used by Microsoft to distribute updates and content more efficiently. For a comprehensive list of Microsoft 365 URLs and IP address ranges, see [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges). 
+To ensure reliable app installation and delivery of updates, administrators should allow access to the Microsoft 365 Content Delivery Network (CDN) on the `*.office.net` domain. This domain is used by Microsoft to distribute updates and content more efficiently. For a comprehensive list of Microsoft 365 URLs and IP address ranges, see [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
