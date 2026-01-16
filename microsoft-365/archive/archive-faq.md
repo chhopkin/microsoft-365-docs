@@ -64,9 +64,9 @@ You won't be charged for archive storage as long as your combined storage (stand
 
 In eligible EDU tenants, the pooled storage quota is applied. For more information, see [Education offering for Microsoft 365 Archive](archive-education-offering.md#pooled-storage-eligibility).
 
-#### Does archived content get returned in Copilot for Microsoft 365 queries?
+#### Does archived content get returned in Microsoft 365 Copilot queries?
 
-No, archived content isn't used by Copilot for Microsoft 365. 
+No, archived content isn't used by Microsoft 365 Copilot. 
 
 #### Can you delete an archived site, should you no longer need it?  
 
