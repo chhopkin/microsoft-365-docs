@@ -69,7 +69,7 @@ When a support case is closed, the following audit events are logged in the cust
 |--|--|--|
 | 1 | **Add a service principal**<br/>(The Microsoft Entra GDAP application handles revocation) | Assist API application <br/>(App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`) |
 | 2 | **Deleting allowed assignable roles** | Microsoft Entra GDAP application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
-| 3 | **Delete partner specific cross-tenant access setting** <br/>(Removes only the Microsoft Support tenant) | Microsoft Entra GDAP application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
+| 3 | **Delete partner specific cross-tenant access setting** <br/>(Removes the Microsoft Support tenant if there are no other active support cases or it's been 30 days since the most recent case was created) | Microsoft Entra GDAP application <br/>(App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`) |
 
 ### What is the Assist API application, and how do I find it in my tenant?
 
