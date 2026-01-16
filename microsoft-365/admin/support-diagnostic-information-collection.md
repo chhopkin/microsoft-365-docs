@@ -42,7 +42,7 @@ To learn more about Microsoft Entra audit logs, see the following articles:
 
 ### Audit events during support case creation
 
-When you create a support case, the your Microsoft Entra audit logs record the following audit events:
+When you create a support case, the following Microsoft Entra audit events are recorded:
 
 | Order | Event | Actor |
 |--|--|--|
@@ -51,7 +51,7 @@ When you create a support case, the your Microsoft Entra audit logs record the f
 
 ### Audit events when Microsoft Support works on a case
 
-When a Microsoft Support engineer works on a support case, the customer's Microsoft Entra audit logs record the following audit events:
+When a Microsoft Support engineer works on your support case, the following Microsoft Entra audit events are recorded:
 
 | Order | Event | Actor |
 |--|--|--|
