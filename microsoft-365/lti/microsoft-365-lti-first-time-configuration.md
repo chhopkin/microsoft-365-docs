@@ -35,8 +35,8 @@ Once the Microsoft 365 tool is installed, an LMS Administrator must complete the
 
 1. Have a Microsoft 365 Global Administrator provide consent.
 
-   - If you're an Microsoft 365 Global Administrator, then you are able to provide consent for the app by clicking the **Admin Consent** button.
-   - If you aren't an Microsoft 365 Administrator, then you can copy and paste the Admin consent URL for the app and sent it to a Microsoft 365 Global Administrator to complete this step.
+   - If you're a Microsoft 365 Global Administrator, then you are able to provide consent for the app by clicking the **Admin Consent** button.
+   - If you aren't a Microsoft 365 Administrator, then you can copy and paste the Admin consent URL for the app and sent it to a Microsoft 365 Global Administrator to complete this step.
 
    The button and messaging will change to "Reconsent" after this step is completed.
 
@@ -78,7 +78,7 @@ As mentioned, if you choose to allow your instructors to create teams for your u
 **The Microsoft 365 Teams sync:**
 
 - Creates a Unified Group and Team which isn't an Education Class Team type and won't include any of the Microsoft Teams apps like assignments, gradebook, classwork, and insights.
-- Teams are active immediately and both owners and members have instant access.
+- Teams is active immediately and both owners and members have instant access.
 - You can either let each instructor choose whether a Team is created for their class or enable automatic Team creation for each course on their behalf. If you have enabled automatic Team creation, the Team will be created initially after the instructor has completed their first-time configuration of the LTI app.
 
 ## Compliance and Regulatory Resources
