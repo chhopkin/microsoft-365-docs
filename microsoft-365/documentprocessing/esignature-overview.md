@@ -54,7 +54,7 @@ The eSignature service enables binding agreements between parties. External part
 
 ### Purview integration
 
-The eSignature service enables logging of eSignature activities in the Purview Audit log. Activities can be viewed by opening the audit log and searching for eSignature* (including the asterisk) in the **Activities - operation names** field. The activities logged are:
+The eSignature service enables logging of eSignature activities in the Purview Audit log. Activities can be viewed by opening the audit log and searching for eSignature* in the **Activities - operation names** field. The activities logged are:
 
 - Request was created
 - Request was sent
