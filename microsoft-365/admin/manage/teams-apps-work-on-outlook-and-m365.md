@@ -28,11 +28,11 @@ description: "How to manage Apps for Microsoft 365 that work across application 
 
 An app for Microsoft 365 that uses a sufficiently recent manifest version can work across the Microsoft 365 Copilot application, Outlook, and Teams. Developers can submit a single app package that works across Teams, Outlook, and the Microsoft 365 Copilot application. In some cases, these apps contain closely related sub-apps that are surfaced in in the different host applications. For more information, see [Extend apps across Microsoft 365](/microsoftteams/platform/m365-apps/overview).
 
-Previously, for an app to work in Teams, Outlook, and the Microsoft 365 Copilot application, admins needed to manage each app independently across the Teams admin center, Exchange admin center, and Microsoft 365 admin center. Now admins can manage a single app for Microsoft 365 from the integrated apps portal on the Microsoft 365 Admin center, and enable a single, connected experience for end-users across the host applications of Microsoft 365.
+Previously, for an app to work in Teams, Outlook, and the Microsoft 365 Copilot application, admins needed to manage each app independently across the Teams admin center, Exchange admin center, and Microsoft 365 admin center. Now admins can manage a single app for Microsoft 365 from the integrated apps portal. 
 
 ## What are apps that work across application hosts?
 
-There are some apps for Microsoft 365, such as those in the following list, that are truely the same app surfaced in one or more of those application hosts. 
+There are some apps for Microsoft 365 that are truely the same app surfaced in one or more of those application hosts. Some examples are in the following list.
 
 - [Custom personal tabs](/microsoftteams/platform/tabs/what-are-tabs) can be surfaced in the Microsoft 365 Copilot application, Outlook, and Teams.
 - [Message extensions](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) can be surface in Teams chat and Outlook emails.
@@ -45,7 +45,7 @@ In this article, we call these "*cross application apps*". These apps may be sub
 > - An cross application app for Microsoft 365 that is surfaced in Outlook is not an Office add-in. But it is possible to include an add-in along with the cross application app in a single app package. For more information, see [General guidance for combining an Office add-in and a Teams app](/microsoftteams/platform/m365-apps/overview-combining-add-in-and-teams-app).
 
 > [!IMPORTANT]
-> Any changes made on the integrated apps portal on the Microsoft 365 admin center will only impact whether and how a cross application app is surfaced on Outlook and the Microsoft 365 Copilot application. To manage how these apps show up on Teams, please continue to use Teams admin center.
+> Any changes made on the integrated apps portal on the Microsoft 365 admin center only impact whether and how a cross application app is surfaced on Outlook and the Microsoft 365 Copilot application. To manage how these apps show up on Teams, use the Teams admin center.
 
 The following sections tell you more about the management tools available for cross application apps for Microsoft 365.
 
@@ -68,7 +68,7 @@ As an admin, you can manage cross application apps as follows:
 
 ## Deploy a cross application app for Microsoft 365 via the integrated apps portal
 
-As an admin, you can now deploy these apps on Outlook, and the Microsoft 365 Copilot application to a specific set of users, the entire organization, or just to yourself from the integrated apps portal on Microsoft 365 admin center. Deploying an app means that it is preinstalled for the selected users on the applicable hosts of the app.
+As an admin, you can now deploy these apps to a specific set of users, the entire organization, or just to yourself from the integrated apps portal on Microsoft 365 admin center. Deploying an app means that it is preinstalled for the selected users on the applicable hosts of the app.
 
 1. Sign into Microsoft 365 admin center as a Global Administrator.
 2. Select **Settings** and then select **Integrated Apps**.
@@ -81,15 +81,15 @@ As an admin, you can now deploy these apps on Outlook, and the Microsoft 365 Cop
 As a Global Administrator, you can also initiate deployment of an app from its overview pane in the Available Apps list on the integrated apps portal.  
 1. Select the app you wish to deploy from the **Available Apps** list on **Integrated Apps**. 
 2. Next, select **Deploy app** in the overview pane.  
-3. Complete the deployment steps as listed above.  
+3. Complete the deployment steps as described earlier in this section.  
 
 > [!IMPORTANT]
-> Any changes made to these apps from the integrated apps portal on the Microsoft 365 admin center will only impact these apps on Outlook and the Microsoft 365 Copilot application at this time. To manage how these apps show up on Teams, please continue to use Teams admin center.
+> Any changes made to these apps from the integrated apps portal on the Microsoft 365 admin center only impact these apps on Outlook and the Microsoft 365 Copilot application. To manage how these apps show up on Teams, use the Teams admin center.
 
 As an admin, you can also take management actions on these apps such as removing the deployment or editing user access.
 
 > [!NOTE]
-> On the Integrated Apps page, note that the **CoPilot** app settings will apply to both **Microsoft 365 Copilot** and the **Copilot Chat** apps. Any changes made to this app from the integrated apps portal will apply to both.
+> On the Integrated Apps page, the **CoPilot** app settings apply to both **Microsoft 365 Copilot** and the **Copilot Chat** apps. Any changes made to this app from the integrated apps portal apply to both.
 
 ### To remove the deployment of this app
 
@@ -113,7 +113,7 @@ The following sections tell you more about the tools available for managing avai
 
 1. Sign into Microsoft 365 admin center as a Global Administrator.
 2. Select **Settings**, then select **Integrated Apps**.
-3. Select the **Available Apps** or **Blocked Apps** list. Here you can view the status of all apps in the public catalog, as well as any custom line-of-business apps uploaded from Teams admin center or Microsoft 365 admin center.
+3. Select the **Available Apps** or **Blocked Apps** list. Here you can view the status of all apps in the public catalog, and any custom line-of-business apps uploaded from the Teams or Microsoft 365 admin centers.
 4. Select an app to view more details about the app, applicable host products, and availability status within your organization.
 
 ### How to block an app
@@ -128,10 +128,10 @@ You can block an app for all users in your organization to restrict them from do
 6. Consent to blocking the app by selecting **Yes, I'm sure I want to block this app**.
 7. Select **Block**. You can now see this app in the **Blocked Apps** list.
 
-When you choose to block an app, it is blocked for all users in your organization. Blocking an app overrides any previous admin deployment or user installation in Microsoft 365 and Outlook so that the app can no longer be used by anyone in your organization.
+When you choose to block an app, it is blocked for all users in your organization. Blocking an app overrides any previous admin deployment or user installation in Microsoft 365 and Outlook so that no one in your organization can use the app.
 
 > [!NOTE]
-> Currently, the app will only be blocked in the Microsoft 365 Copilot application and Outlook. Teams will continue to honor the current setting for Teams Apps made in the Teams admin center and for Outlook apps made in the Exchange admin center. For more details, read [What happens to your existing settings for Teams and Outlook](#what-happens-to-your-settings-on-teams-and-outlook).  
+> The app is only be blocked in the Microsoft 365 Copilot application and Outlook. Teams continues to honor the current setting for Teams Apps made in the Teams admin center and for Outlook apps made in the Exchange admin center. For more details, read [What happens to your existing settings for Teams and Outlook](#what-happens-to-your-settings-on-teams-and-outlook).  
 
 ### How to unblock an app
 
@@ -142,7 +142,7 @@ You can unblock an app so that it can start showing up in the Microsoft 365 Copi
 3. Select the **Blocked Apps** list.
 4. Select an app from the **Blocked Apps** list to launch the overview pane.
 5. Select **Unblock app**.
-6. Read the availability and deployment status that the app will revert to after unblocking. These statuses are the last saved ones of the app before it was blocked.
+6. Read the availability and deployment status that the app reverts to after unblocking. These statuses are the last saved ones of the app before it was blocked.
 7. Select **Unblock**. You can now see this app in the **Available Apps** list and/or the **Deployed Apps** list.
 
 When you choose to unblock an app, the app reverts to the last saved state of availability and deployment. If the app doesn't have any availability status set, the app reverts to the default tenant setting. Learn more about these controls in the following section.
@@ -155,38 +155,38 @@ As an admin, you can control which apps can be installed and used by which users
 2. Select **Settings**, then select **Integrated Apps**.
 3. Select the **Available Apps** list.
 4. Next, select the app you want to edit. This launches the app’s overview pane.
-5. Scroll down and select **Edit Users** or select the **Users** tab in the overview pane. Read more about user groups and assignments above.
+5. Scroll down and select **Edit Users** or select the **Users** tab in the overview pane. Read more about user groups and assignments earlier in this article.
 6. Select the availability status of the app you want to set:
      - **No users in the organization can install** means that no one in the organization can install this app on their own from the store and use it in the client.
      - **All users in the organization can install** means that everyone in the organization can install this app on their own from the store and use it in the client.
-    - **Specific users/group in the organization can install** means that only the users selected by you will be able to install the app on their own from the store and use it in the client. Unselected users are not able to do so.
+    - **Specific users/group in the organization can install** means that only the users selected by you are able to install the app on their own from the store and use it in the client. Unselected users are not able to do so.
 7. Select **Save**.
 
 > [!NOTE]
-> The availability setting of an app doesn't impact any admin deployed apps. The availability setting only allows you to control which end users can install and use these apps on their own. Any previous admin deployments made will still be honored.
+> The availability setting of an app doesn't impact any admin deployed apps. The availability setting only allows you to control which end users can install and use these apps on their own. Any previous admin deployments made are still be honored.
 
 > [!NOTE]
-> Availability setting of an app will override the state set in default tenant setting. Learn more about default state settings in the following section.
+> Availability setting of an app overrides the state set in default tenant setting. Learn more about default state settings in the following section.
 
 ### Customize default settings for cross application apps for Microsoft 365
 
-As an admin, you can control the default state of any new and incoming app in your organization. You can do this individually for Microsoft apps, third party apps, and custom apps.  The default setting for any organization is set to **Allow all users in the organization to access apps**. You can change this default setting on the integrated apps portal in the Microsoft 365 admin center.
+As an admin, you can control the default state of any new and incoming app in your organization. You can do this individually for Microsoft apps, third party apps, and custom apps. The default setting for any organization is set to **Allow all users in the organization to access apps**. You can change this default setting on the integrated apps portal in the Microsoft 365 admin center.
 
 1. Sign into the Microsoft 365 admin center as a Global Administrator.
 2. Select **Settings**, then select **Integrated Apps**.
 3. Select the **Available Apps** list.
 4. Next, select the Settings icon at the top of the apps list to open the **Customize default settings** pane.
-5. For each app type category, set up the toggle to allow or disallow all apps to be installed by users.
-    - When you switch the toggle to **Yes**, the apps under that app type will be allowed for users to install.
-    - When you switch the toggle to **No**, the apps under that app type will not be allowed for users to install.  Additionally, apps previously installed by users under that app type will no longer be accessible to the users.  This does not impact an admin's ability to install the apps. When the toggle is switched to **No**, admins can still install the apps, and all admin-installed apps would still continue to be accessible to the users.
+5. For each app type category, set up the toggle to allow or disallow user's installation of all apps.
+    - When you switch the toggle to **Yes**, users can install the apps of that app type.
+    - When you switch the toggle to **No**, users aren't allowed to install apps of that app type.  Additionally, apps previously installed by users under that app type are no longer be accessible to the users.  This action does not impact an admin's ability to install the apps. When the toggle is switched to **No**, admins can still install the apps, and all admin-installed apps continue to be accessible to the users.
 
 The default tenant state applies to the following apps:
 
 - All new and incoming cross application apps for Microsoft 365.
-- All cross application apps published in the past that weren't blocked by the admin.
-    - If an app was previously blocked for Outlook and the Microsoft 365 Copilot application, it will continue to remain blocked even after the default state for the tenant is changed. When admins unblock the app, it reverts to the default state set for the tenant on Outlook and the Microsoft 365 Copilot application.
+- All cross application apps published in the past that the weren't blocked by the admin.
+    - If an app was previously blocked for Outlook and the Microsoft 365 Copilot application, it continues to remain blocked even after the default state for the tenant is changed. When admins unblock the app, it reverts to the default state set for the tenant on Outlook and the Microsoft 365 Copilot application.
 - All cross application apps published in the past that were deployed by the admin.
-    - The default tenant state also applies to admin-deployed apps. If an app was previously deployed by the admin to a set of users for Outlook and the Microsoft 365 Copilot application, it will continue to remain deployed to the selected set of users, even after the default state for the tenant is changed.
+    - The default tenant state also applies to admin-deployed apps. If an app was previously deployed by the admin to a set of users for Outlook and the Microsoft 365 Copilot application, it continues to remain deployed to the selected set of users, even after the default state for the tenant is changed.
 
 The default tenant state won't apply to the following apps:
 
@@ -195,7 +195,7 @@ The default tenant state won't apply to the following apps:
 
 ## What happens to your settings on Teams and Outlook
 
-Any existing settings made on the Teams admin center will continue to be honored on the Teams client.
+Any existing settings made on the Teams admin center continues to be honored on the Teams client.
 
 As an example, the Foo Teams-only app recently upgraded to a cross application app.
 
@@ -228,12 +228,12 @@ Whenever a custom line of business app is uploaded, it is made available to all 
 
 As a Global Administrator, you can also initiate deployment of a custom app (uploaded from Teams Admin Center) from its overview pane in the Available Apps list on the integrated apps portal. 
 
-1. Once the app is uploaded from Teams Admin Center, it will show up in the **Available Apps** list on **Integrated Apps** with the availability status of **All users in the organization can install**.
+1. Once the app is uploaded from Teams Admin Center, it shows up in the **Available Apps** list on **Integrated Apps** with the availability status of **All users in the organization can install**.
 2. Select the app from the **Available Apps** list on **Integrated Apps**.
 3. Next, select **Deploy app** in the overview pane.  
 4. Complete the deployment steps as listed above.
 
-Once finished, the app will be deployed to Outlook and the Microsoft 365 Copilot application. To manage this app on Teams, visit Teams Admin Center.  
+Once finished, the app is deployed to Outlook and the Microsoft 365 Copilot application. To manage this app on Teams, visit Teams Admin Center.  
 
 > [!NOTE]
 > Before uploading a custom app from the integrated apps portal on Microsoft 365 admin center, please verify whether this app is already visible in the Available Apps list. If it is visible, please deploy the app using the steps outlined above. Do not upload it again.
@@ -245,6 +245,6 @@ Once finished, the app will be deployed to Outlook and the Microsoft 365 Copilot
 3. Select **Remove**, then select **Done**.
 
 > [!NOTE]
-> Removing a custom app from the Deployed Apps list on the integrated apps portal will delete the deployment and the app will no longer be available for installation to end users in your organization on Outlook and/or the Microsoft 365 Copilot application. If the custom app is also supported on Teams, it will be removed from the Teams admin center.
+> Removing a custom app from the Deployed Apps list on the integrated apps portal deletes the deployment and the app is no longer available for installation to end users in your organization on Outlook and/or the Microsoft 365 Copilot application. If the custom app is also supported on Teams, it is removed from the Teams admin center.
 >
 > Please verify whether the app was successfully removed from both the Microsoft 365 admin center and Teams admin center.

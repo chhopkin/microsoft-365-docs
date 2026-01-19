@@ -35,7 +35,7 @@ Teams, Microsoft 365 Copilot, and Office can be hosts for apps for Microsoft 365
 
 Currently, the following types of extensions can't be included in the package of an app for Microsoft 365, and aren't considered apps for Microsoft 365.
 
-- OneDrive and SharePoint extensions. But note that these types of extensions can be combined with an app for Microsoft 365 in a [SAAS (software as a service) linked bundle](saas-linked-app.md). Also, some apps for Microsoft 365, such as personal tabs can be implemented as SharePoint Framework pages.
+- OneDrive and SharePoint extensions. But note that these types of extensions can be combined with an app for Microsoft 365 in a [SAAS (software as a service) linked bundle](saas-linked-apps.md). Also, some apps for Microsoft 365, such as personal tabs can be implemented as SharePoint Framework pages.
 - Office Add-ins that use the add-in only manifest instead of the unified manifest for Microsoft 365. For more information about the difference, see [Office Add-in manifest](/office/dev/add-ins/develop/add-in-manifests).
 - Copilot extensions that do not use the unified manifest for Microsoft 365.
 
