@@ -62,3 +62,7 @@ To prevent the app from installing to devices with existing installations of Mic
 The Microsoft 365 Copilot app can update automatically through the Microsoft Store and via its own built-in updater.
 
 To ensure reliable app installation and delivery of updates, administrators should allow access to the Microsoft 365 Content Delivery Network (CDN) on the `*.office.net` domain. This domain is used by Microsoft to distribute updates and content more efficiently. For a comprehensive list of Microsoft 365 URLs and IP address ranges, see [Microsoft 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges).
+
+## Related content
+
+- [Frequently asked questions about deploying the Microsoft 365 Copilot app](faq-deploy-microsoft-365-copilot-app.yml).
