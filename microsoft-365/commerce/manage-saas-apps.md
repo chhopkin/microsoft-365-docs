@@ -44,7 +44,7 @@ You can manage licenses and billing for third-party apps in the <a href="https:/
 
 There are a few ways to buy third-party apps.
 
-- **Direct purchase** – Customers can directly buy subscriptions from [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/), or [AppSource](https://appsource.microsoft.com/).
+- **Direct purchase** – Customers can directly buy subscriptions from [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/), or [Microsoft Marketplace](https://marketplace.microsoft.com/).
 - **Partner purchase** –  Work with a partner through Partner Center to buy subscriptions.
 - **Microsoft proposal** – Respond to a proposal from Microsoft Sales that includes third-party apps.
 
