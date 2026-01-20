@@ -6,12 +6,12 @@ metadata:
   ms.author: frankroj
   ms.service: microsoft-365-copilot
   ms.topic: faq
-  ms.date: 01/16/2026
+  ms.date: 01/20/2026
 
 title: "Frequently asked questions about deploying the Microsoft 365 Copilot app"
-summary: The Microsoft 365 Copilot app helps Microsoft 365 users be more productive by providing a single place to access Microsoft 365 Copilot features and capabilities, including search, chat, agents, and more.
+summary: The Microsoft 365 Copilot app helps Microsoft 365 users be more productive by providing a single place to access [Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-overview) features and capabilities, including search, chat, agents, and more.
 
-  Users can visit the [Download the Microsoft 365 Copilot app](https://www.microsoft.com/en-US/microsoft-365-copilot/download-copilot-app) page to download the app. The app is also available in the [Microsoft Store](https://apps.microsoft.com/detail/9wzdncrd29v9).
+  Users can visit [Download the Microsoft 365 Copilot app](https://www.microsoft.com/en-US/microsoft-365-copilot/download-copilot-app) to download the app. The app is also available in the [Microsoft Store](https://apps.microsoft.com/detail/9wzdncrd29v9).
 
 sections:
   - name: Deployment of the Microsoft 365 Copilot app
@@ -20,11 +20,13 @@ sections:
       - question: |
           What deployment methods are supported for the Microsoft 365 Copilot app on Windows?
         answer: |
+          - Deploy as a Microsoft Store app using [Microsoft Intune](/intune/intune-service/apps/store-apps-microsoft).
+
           - Deploy the Microsoft 365 Copilot app using deployment and management tools.
 
             Admins can deploy the Microsoft 365 Copilot app using software deployment and management solutions. For example:
 
-            - [Microsoft Intune](/intune/intune-service/apps/store-apps-microsoft).
+            - [Microsoft Intune](/intune/intune-service/apps/lob-apps-windows).
             - [Microsoft Configuration Manager](/mem/configmgr/core/understand/introduction).
             - [Group Policy](/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview).
             - Non-Microsoft deployment and management solutions.
@@ -86,9 +88,9 @@ sections:
           - Review [Deployment overview for the Microsoft 365 Copilot app](deploy-microsoft-365-copilot-app.md) for more details and instructions on how to manage automatic deployments.
 
       - question: |
-          Is the automatically installed Microsoft 365 Copilot app different from the Microsoft 365 Copilot app installed via the stand-alone .EXE installer? If not, how does it affect devices where the Microsoft 365 Copilot app is already deployed via a deployment and management tool?
+          Is the automatically installed Microsoft 365 Copilot app different from the Microsoft 365 Copilot app installed via the Suite installer? If not, how does it affect devices where the Microsoft 365 Copilot app is already deployed via a deployment and management tool?
         answer: |
-          The automatically installed Microsoft 365 Copilot app is the same app as the one installed by the stand-alone .EXE installer. If the Microsoft 365 Copilot app is installed already, there's no effect when attempting to install again via either from a deployment and management tool or the Microsoft 365 Apps suite.
+          The automatically installed Microsoft 365 Copilot app is the same app as the one installed using other deployment and management solutions. If the Microsoft 365 Copilot app is installed already, there's no effect when attempting to install again via either from a deployment and management tool or the Microsoft 365 Apps suite.
 
       - question: |
           Is there any effect to the existing functionalities of the Microsoft 365 Copilot app if the app is automatically installed through the Microsoft 365 desktop apps?
@@ -137,7 +139,7 @@ sections:
       - question: |
           Is the "Microsoft 365" App automatically be upgraded to the "Microsoft 365 Copilot" App or is a new standalone Microsoft 365 Copilot app installed?
         answer: |
-          If there's a previous version of the Microsoft 365 Copilot app installed, the app is updated to reflect the newer version with the app name change. Depending on eligibility, additional functionalities might also be added.
+          If the Microsoft Office version of the app is installed, it will be updated to reflect the newer version with the app name change.  Depending on eligibility, additional functionalities will be added.
 
       - question: |
           Is there a minimum Microsoft 365 Copilot app version to update without depending on the Microsoft Store?
@@ -150,7 +152,7 @@ sections:
           No. The automatic installation of the Microsoft 365 Copilot app doesn't target devices on the Semi-Annual Enterprise Channel.
 
       - question: |
-          After the Microsoft 365 Copilot app is downloaded and the installer is run, the installation fails with the error "The specified blob doesn't exist." What is the cause of this error?
+          After the Microsoft 365 Copilot app is downloaded and the installer is run, the installation fails with the error code 0x80131500 and the error message "The specified blob doesn't exist." What is the cause of this error?
         answer: |
           This installation failure and error is a known issue that's being investigated. To work around the issue, download and install the **Windows App SDK 1.7** from [Archive of Windows App SDK downloads - Windows App SDK 1.7](/windows/apps/windows-app-sdk/downloads-archive#windows-app-sdk-17). Once the installation of the **Windows App SDK 1.7** is complete, rerun the installation of the Microsoft 365 Copilot app. The installation should without any issue or errors.
 
