@@ -26,6 +26,9 @@ description: Learn how to turn on Microsoft 365 Backup, set up pay-as-you-go bil
 
 </br>
 
+> [!NOTE]
+> **Microsoft 365 Backup is now available to Government Community Cloud (GCC) customers.**
+
 ## Permissions
 
 You must be a [SharePoint Administrator](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator) to be able to access the Microsoft 365 admin center and set up Microsoft 365 Backup.
@@ -48,9 +51,6 @@ To set up pay-as-you-go billing, you need to have this information:
 
 Once you have the information on this list, you're ready to begin. As a first step, you should link an Azure subscription in pay-as-you-go, if you haven't already done so. 
 
-> [!NOTE]
-> **Microsoft 365 Backup is now available to Government Community Cloud customers (GCC)**
-
 **New Billing experience**: New customers onboarding to Micrsoft 365 Backup will now use the new pay-as-you-go set up experience under the **Billing** node in Microsoft Admin Center. Follow the instructions on this page for <a href="/microsoft-365/services/update-pay-as-you-go-setup-billing-node" target="_blank">**Pay-as-you-go Setup**</a>, to set up pay-as-you-go for Microsoft 365 Backup. 
 
 **Existing Microsoft 365 Backup customers** will continue to use the billing management experience under **Setup** option in Microsoft Admin Center. Exsting customers can use the below steps to view or edit your existing billing setup.
@@ -63,6 +63,22 @@ Once you have the information on this list, you're ready to begin. As a first st
   
 5. To turn off Backup, go to **Settings** tab, click on **Backup** and toggle **Status** to Off. 
 
+
+
+
+## 2. Create backup policies to protect your data
+
+Now that Microsoft 365 Backup is enabled for your organization, follow through to create policies and start protecting your content.
+
+1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home).
+
+2. Select **Settings**.
+
+3. Select **Microsoft 365 Backup** from the list of products.
+
+    ![Screenshot of the Microsoft 365 admin center panel showing Settings and Microsoft 365 Backup.](../media/m365-backup/backup-setup-admin-center-panel.png)
+
+4. [Create backup policies for OneDrive, SharePoint, or Exchange](backup-view-edit-policies.md#create-backup-policies).
 
 ## Enable email notifications
 
@@ -110,20 +126,6 @@ You can add up to 20 individual recipients to the list or include distribution l
 
 > [!NOTE]
 > We highly recommend enabling multi-admin notifications, at a minimum, for potentially harmful events.
-
-## 2. Create backup policies to protect your data
-
-Now that Microsoft 365 Backup is enabled for your organization, follow through to create policies and start protecting your content.
-
-1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home).
-
-2. Select **Settings**.
-
-3. Select **Microsoft 365 Backup** from the list of products.
-
-    ![Screenshot of the Microsoft 365 admin center panel showing Settings and Microsoft 365 Backup.](../media/m365-backup/backup-setup-admin-center-panel.png)
-
-4. [Create backup policies for OneDrive, SharePoint, or Exchange](backup-view-edit-policies.md#create-backup-policies).
 
 ## Admin roles and backup management privileges
 
