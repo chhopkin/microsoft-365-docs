@@ -127,7 +127,7 @@ sections:
         answer: |
           The automatic installation of the Microsoft 365 Copilot app happens in the **SYSTEM** context so therefore is provisioned system wide. If a device already has a user-context deployment of Microsoft 365 Copilot app, after the Microsoft 365 Apps suite installation, the Microsoft 365 Copilot app is provisioned system-wide. The users that already had the Microsoft 365 Copilot app continue to have the app. Other users on the device that previously didn't have the Microsoft 365 Copilot app now also have the app available for their use.
 
-          When the the Microsoft 365 Copilot app installs in the **SYSTEM** context, there's only one instance of the Microsoft 365 App on the device. There aren't duplicate instances per user of the app on the device.
+          When the Microsoft 365 Copilot app installs in the **SYSTEM** context, there's only one instance of the Microsoft 365 App on the device. There aren't duplicate instances per user of the app on the device.
 
           The stand-alone .EXE installer method can also deploy the Microsoft 365 Copilot app in the **SYSTEM** context, including through [Microsoft Intune and Microsoft Configuration Manager](deploy-microsoft-365-copilot-app.md).
 
