@@ -28,7 +28,7 @@ sections:
 
             - [Microsoft Intune](/intune/intune-service/apps/lob-apps-windows).
             - [Microsoft Configuration Manager](/mem/configmgr/core/understand/introduction) via either a [Package](/intune/configmgr/apps/deploy-use/packages-and-programs) or an [Application](/intune/configmgr/apps/deploy-use/deploy-applications).
-            - [Group Policy](/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview).
+            - [Group Policy](/troubleshoot/windows-server/group-policy/use-group-policy-to-install-software).
             - Non-Microsoft deployment and management solutions.
 
             The Microsoft 365 Copilot app stand-alone .EXE installer for use with the software deployment and management solutions can be downloaded from the following sources:
