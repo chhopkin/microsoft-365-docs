@@ -4,7 +4,7 @@ ms.author: deniseb
 ms.reviewer: onatwil; ramical
 author: denisebmsft
 manager: dansimp
-ms.date: 01/15/2026
+ms.date: 01/20/2026
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-admin
@@ -27,7 +27,7 @@ This article describes what you'll see in your Microsoft Entra audit logs when a
 
 ## What happens when a Microsoft 365 support case is created?
 
-When a [user who has an appropriate role assigned](#who-can-create-support-cases) creates a support case in the [Microsoft 365 admin center](https://admin.microsoft.com), a special type of cross-tenant access policy resource is created in your tenant. This cross-tenant access policy gives you visibility into Microsoft Support's permission to access diagnostic data in your tenant. It's restricted to the Microsoft Support tenant (Tenant ID `b4c546a4-7dac-46a6-a7dd-ed822a11efd3`) and the [Microsoft 365 Support Engineer role](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-support-engineer). No other type of cross-tenant access policy can be created or modified by the user, except for administrators who have the Global Administrator, Security Administrator, or Teams Administrator role assigned.
+When a [user who has an appropriate role assigned](#who-can-create-support-cases) creates a support case in the [Microsoft 365 admin center](https://admin.microsoft.com), a special type of cross-tenant access policy resource is created in your tenant. This cross-tenant access policy gives you visibility into Microsoft Support's permission to access diagnostic data in your tenant. It's restricted to the Microsoft Support tenant and the [Microsoft 365 Support Engineer role](/entra/identity/role-based-access-control/permissions-reference#microsoft-365-support-engineer). No other type of cross-tenant access policy can be created or modified by the user, except for administrators who have the Global Administrator, Security Administrator, or Teams Administrator role assigned.
 
 To provide you with contextual understanding of this policy, the cross-tenant access policy resource is shown in Microsoft Entra audit logs as created by the user who initiated the support case. The level of access granted for the Microsoft Support tenant is captured as *Delegated Admin Service Provider Constraints*. 
 
@@ -48,7 +48,7 @@ When you create a support case, the following Microsoft Entra audit events are r
 
 | Order | Event | Actor |
 |--|--|--|
-| 1 | If it doesn't exist already, **Add a partner to cross-tenant access setting**<br/>(Adds the Microsoft Support tenant only) | Identity of the user who created the support case |
+| 1 | If it doesn't exist already, **Add a partner to cross-tenant access setting**<br/>(Adds the Microsoft Support tenant with Tenant ID `b4c546a4-7dac-46a6-a7dd-ed822a11efd3`) | Identity of the user who created the support case |
 | 2 | If it doesn't exist already, **Adding allowed assignable roles**<br/>(Adds the Microsoft 365 Support Engineer role only) | Identity of the user who created the support case |
 
 ### Audit events when Microsoft Support works on your case
