@@ -62,13 +62,11 @@ AI-powered skill inferencing is turned for Copilot and Viva users by default. Ex
 
 #### How to turn-on AI inferencing for Microsoft 365 E3/E5 users
 
-See below instructions for how to turn on AI-powered inferencing for Microsoft 365 E3/E5 licensed users:
+See instructions for how to turn on AI-powered inferencing for Microsoft 365 E3/E5 licensed users:
 
 Go to the Copilot page in the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home#/copilot/overview) and select **Settings** > **Data access** and then **People Skills in Microsoft 365 Copilot**. Alternatively, you can find People Skills page under **Settings** > **Viva** > **Data Management**.
 
-
-
-![E3 E5 - pic 2](media/people-skills-manage-skills-library/e3-e5---pic-2.png)
+   :::image type="content" source="media/people-skills-manage-skills-library/e3-e5---pic-2.png" alt-text="Screenshot: Image that shows how to turn on AI-powered inferencing":::
 
 1. On the **Manage People Skills for your organization** page, Select __Settings__
 
