@@ -21,8 +21,7 @@ description: Learn how to turn on Microsoft 365 Backup, set up pay-as-you-go bil
 > [!TIP]
 > **Already have an Azure subscription and are a SharePoint Administrator or Global Administrator?** Follow these three steps to quickly set up Microsoft 365 Backup in the admin center.<br><br>
 > [1. Set up pay-as-you-go billing](https://admin.microsoft.com/#/orgsettings/payasyougo)<br>
-> [2. Turn on Microsoft 365 Backup](https://admin.microsoft.com/#/orgsettings/payasyougo/storage)<br>
-> [3. Start backing up your data by creating backup policies](https://admin.microsoft.com/#/Settings/enhancedRestore)<br>
+> [2. Create backup policies to protect your data](https://admin.microsoft.com/#/Settings/enhancedRestore)<br>
 
 
 </br>
@@ -37,7 +36,7 @@ You must be a [SharePoint Administrator](/entra/identity/role-based-access-contr
 
 If you already have an Azure subscription, you can skip to [Set up pay-as-you-go billing](#set-up-pay-as-you-go-billing). If you need to create an Azure subscription, follow the guidance in [Create your Azure subscriptions](/azure/cost-management-billing/manage/create-subscription) or [start creating a subscription on Azure](https://portal.azure.com/#view/Microsoft_Azure_Billing/CatalogBlade/appId/AddSubscriptionButton).
 
-## Set up pay-as-you-go billing
+## 1. Set up pay-as-you-go billing
 
 To set up pay-as-you-go billing, you need to have this information:
 
@@ -47,90 +46,23 @@ To set up pay-as-you-go billing, you need to have this information:
 > * **Region**. The region in which you want to register the service.
 > * **Owner or contributor**. Name of an owner or contributor role on the Azure subscription.
 
-Once you have the information on this list, you're ready to begin. As a first step, you should link an Azure subscription in pay-as-you-go, if you haven't already done so. The billing setup is consistent with other Microsoft 365 pay-as-you-go offerings.
+Once you have the information on this list, you're ready to begin. As a first step, you should link an Azure subscription in pay-as-you-go, if you haven't already done so. 
 
 > [!NOTE]
-> **A new experience for setting up Microsoft 365 pay-as-you-go billing is being rolled out starting Jan 5th, 2026. During this rollout period, if you are setting up Microsoft 365 Backup pay-as-you-go billing for the first time, you will be able to set up billing in one of the two following ways. If you do not see the New Billing node experience option present in your Microsoft 365 Admin center, follow the legacy setup option.**
+> **Microsoft 365 Backup is now available to Government Community Cloud customers (GCC)**
 
+**New Billing experience**: New customers onboarding to Micrsoft 365 Backup will now use the new pay-as-you-go set up experience under the **Billing** node in Microsoft Admin Center. Follow the instructions on this page for <a href="/microsoft-365/services/update-pay-as-you-go-setup-billing-node" target="_blank">**Pay-as-you-go Setup**</a>, to set up pay-as-you-go for Microsoft 365 Backup. 
 
-**New Billing experience**: Follow the instructions on this page for <a href="/microsoft-365/services/update-pay-as-you-go-setup-billing-node" target="_blank">**Pay-as-you-go Setup**</a>, which will direct you to the new experience in the Billing node in Microsoft 365 Admin center. Once you have set up pay-as-you-go in Billing node, skip rest of the steps below and go directly to the step [Create backup policies to protect your data](#create-backup-policies-to-protect-your-data). If you do not see the "Pay-as-you-go" option in the Billing node, follow the legacy setup instructions outlined below.
+**Existing Microsoft 365 Backup customers** will continue to use the billing management experience under **Setup** option in Microsoft Admin Center. Exsting customers can use the below steps to view or edit your existing billing setup.
 
-**Legacy Billing Setup Experience**: To set up pay-as-you-go experience under Setup node using legacy setup experience, follow the below steps. 
-
-1. In the Microsoft 365 admin center, select <a href="https://go.microsoft.com/fwlink/p/?linkid=2171997" target="_blank">**Setup**</a>, and then view the **Billing and licenses** section.
+1. In the Microsoft 365 admin center, select <a href="https://go.microsoft.com/fwlink/p/?linkid=2171997" target="_blank">**Setup**</a>, and then go to **Billing and licenses** section.
 
 2. In the **Billing and licenses** section, select **Activate pay-as-you-go services**.
 
-3. On the **Activate pay-as-you-go services** page, select **Get started**.
+3. On the **Pay-as-you-go services** page, on the **Settings** tab, select **Billing** to view and edit your existing pay-as-you-go settings.
+  
+5. To turn off Backup, go to **Settings** tab, click on **Backup** and toggle **Status** to Off. 
 
-    ![Screenshot of the Activate pay-as-you-go services page in the Microsoft 365 admin center.](../media/m365-backup/backup-setup-billing.png)
-
-    > [!NOTE]
-    > To set up pay-as-you-go billing for Microsoft 365 Backup, you must provide an owner or contribution role on the Azure subscription to be used.
-
-4. On the **Pay-as-you-go services** page, on the **Billing** tab, select **Syntex services**.
-
-5. If you ***don't*** have an Azure subscription or resource group, follow these steps. If you have an Azure subscription and resource group, go directly to step 6.
-
-    To create a new Azure subscription with the same organization and Microsoft Entra tenant as your Microsoft 365 subscription:
-
-    1. Sign in to the [Azure portal](https://portal.azure.com) with your Microsoft 365 admin, Microsoft Entra DC admin, or [Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator) account.
-
-        [!INCLUDE [global-administrator-note](../includes/global-administrator-note.md)]
-
-    1. In the left navigation, select **Subscriptions**, and then select **Add**.
-
-    1. On the **Add subscription** page, select an offer and complete the payment information and agreement.
-
-    To create a new Azure resource group:
-
-    1. On the **Set up pay-as-you-go billing** panel, select **Learn more about Azure resource groups**.
-
-    1. Or, you can follow steps in [Manage Azure resource groups by using the Azure portal](/azure/azure-resource-manager/management/manage-resource-groups-portal) to create a resource group.
-
-    ![Screenshot of the Set up pay-as-you-go billing panel in the Microsoft 365 admin center.](../media/m365-backup/backup-billing-panel.png)
-
-    > [!NOTE]
-    > The resource group should be mapped to the Azure subscription you provided when you set up pay-as-you-go.
-
-6. If you ***have*** an Azure subscription, follow these steps:
-
-    1. On the **Set up pay-as-you-go billing** panel, under **Azure subscription**, select the subscription from the dropdown list.
-
-       > [!NOTE]
-       > The subscription dropdown list won't populate if you don't have an owner or contributor on the subscription.
-
-    1. Under **Resource group**, select the resource group from the dropdown list.
-
-    1. Under **Region**, select the region from the dropdown list.
-
-    1. Review and accept the terms of service, and then select **Save**.
-
-You have successfully set up billing. You can proceed to [turn on Microsoft 365 Backup](#turn-on-microsoft-365-backup).
-
-> [!NOTE]
-> Any subsequent changes made to the billing for Microsoft 365 Backup in the Microsoft 365 admin center or the Azure portal can take up to 24 hours to become effective.
-
-> [!NOTE]
-> There will be only one billing profile created. Microsoft 365 Backup currently doesn't support multiple billing profiles.
-
-## Turn on Microsoft 365 Backup
-
-To turn on Microsoft 365 Backup, you need to go to the Microsoft 365 admin center.
-
-1. In the Microsoft 365 admin center, select **<a href="https://go.microsoft.com/fwlink/p/?linkid=2171997" target="_blank">Setup</a>**.
-
-1. Under **Billing and licenses**, select **Activate pay-as-you-go services**.
-
-1. On the **Activate pay-as-you-go services** page, select **Get started**.
-
-1. On the **Pay-as-you-go services** page, select the **Settings** tab, and then select **Syntex services**.
-
-1. On the Syntex page, in the **Storage** section, select **Backup**.
-
-1. On the **Backup** panel, select **Turn on**.
-
-1. On **Turn on Backup** panel, review the applicable [terms of service for Microsoft 365](https://www.microsoft.com/licensing/terms/product/ForOnlineServices/all), and then select **Save**.
 
 ## Enable email notifications
 
@@ -164,9 +96,7 @@ You can add up to 20 individual recipients to the list or include distribution l
 
 1. Sign in to Microsoft 365 admin center as a Global admin, Microsoft 365 Backup admin, SharePoint admin, or Exchange admin.
 
-2. Go to the **Manage** notifications option on the **Backup** panel, or the **Email notifications** option on the **Microsoft 365 Backup** home page.  
-
-    ![Screenshot of the Backup panel in the Microsoft 365 admin center showing the Manage notifications option.](../media/m365-backup/backup-manage-notifications-option.png)
+2. Go to the **Email notifications** option on the **Microsoft 365 Backup** home page.
 
     ![Screenshot of the Microsoft 365 Backup page in the Microsoft 365 admin center showing the Email notifications option.](../media/m365-backup/backup-email-notifications-option.png)
 
@@ -181,7 +111,7 @@ You can add up to 20 individual recipients to the list or include distribution l
 > [!NOTE]
 > We highly recommend enabling multi-admin notifications, at a minimum, for potentially harmful events.
 
-## Create backup policies to protect your data
+## 2. Create backup policies to protect your data
 
 Now that Microsoft 365 Backup is enabled for your organization, follow through to create policies and start protecting your content.
 
