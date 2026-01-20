@@ -59,7 +59,7 @@ As an admin, you can now deploy these apps on Outlook, and the Microsoft 365 Cop
 
 1. Sign into Microsoft 365 admin center as a Global Administrator.
 2. Select **Settings** and then select **Integrated Apps**.
-3. Select **Get apps** in the **Deployed Apps** list. This action opens up AppSource in embedded form from where you can select the app that you want to deploy.
+3. Select **Get apps** in the **Deployed Apps** list. This action opens up Microsoft Marketplace in embedded form from where you can select the app that you want to deploy.
 4. Next, you see the deployment screen where general information about the app is given and the applicable products on which the app is deployed.
 5. Click **Next** to select the set of users to whom you want to deploy the app. Read more about [user groups and assignments](/microsoft-365/admin/manage/test-and-deploy-microsoft-365-apps#user-and-group-assignments).
 6. Next, accept permissions if there are any. Then select **Next**.
@@ -136,7 +136,7 @@ When you choose to unblock an app, the app reverts to the last saved state of av
 
 ### How to manage the availability of an app in your organization
 
-As an admin, you can control which apps can be installed and used by which users in your organization. By changing the availability, you're deciding how end users in your organization can install these apps from the store and use them on Outlook and the Microsoft 365 Copilot application. Admins can edit the availability of all AppSource apps and line-of-business (LOB) apps uploaded by them.
+As an admin, you can control which apps can be installed and used by which users in your organization. By changing the availability, you're deciding how end users in your organization can install these apps from the store and use them on Outlook and the Microsoft 365 Copilot application. Admins can edit the availability of all Microsoft Marketplace apps and line-of-business (LOB) apps uploaded by them.
 
 1. Sign into the Microsoft 365 admin center as a Global Administrator.
 2. Select **Settings**, then select **Integrated Apps**.

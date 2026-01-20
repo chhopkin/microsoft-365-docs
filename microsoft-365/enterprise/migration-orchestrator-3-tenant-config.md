@@ -73,7 +73,7 @@ The required setup steps for OneDrive Migration on both source and target are av
       `Connect-MicrosoftTeams`
     3. Run the cmdlet:
       `Set-CsTenantFederationConfiguration -AllowFederatedUsers $True`
-2. If the tenant is a Trial tenant, it must also have **External Access** allowed.
+2. If the tenant is a Trial tenant, it must also allow **External Access**.
     1. Install Microsoft Teams PowerShell, if you didn't already install it: [Install Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-install).
     2. Connect to Microsoft Teams PowerShell:
       `Connect-MicrosoftTeams`
@@ -198,7 +198,7 @@ To prepare the target tenant for the Cross-Tenant Migration Service, follow thes
       Install-Module Microsoft.Graph.Applications
       ```
 
-You should receive output showing **CrossTenantMigration Prod AAD App** as an app with roles assigned and other apps provisioned by this point. The IdentityMapping-Experimental-Internal.Read app role is granted to the CTMS (cloud transport management service) application.
+You should receive output showing **CrossTenantMigration Prod AAD App** as an app with roles assigned and other apps provisioned by this point. The **IdentityMapping-Experimental-Internal.Read** app role is granted to the CTMS (cloud transport management service) application.
 
 ## Next steps
 
