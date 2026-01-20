@@ -139,7 +139,7 @@ sections:
       - question: |
           Is the "Microsoft 365" App automatically be upgraded to the "Microsoft 365 Copilot" App or is a new standalone Microsoft 365 Copilot app installed?
         answer: |
-          If the Microsoft Office version of the app is installed, it will be updated to reflect the newer version with the app name change.  Depending on eligibility, additional functionalities will be added.
+          If the Microsoft Office version of the app is installed, the app is updated to reflect the newer version with the app name change. Depending on eligibility, additional functionalities are added.
 
       - question: |
           Is there a minimum Microsoft 365 Copilot app version to update without depending on the Microsoft Store?
@@ -152,7 +152,7 @@ sections:
           No. The automatic installation of the Microsoft 365 Copilot app doesn't target devices on the Semi-Annual Enterprise Channel.
 
       - question: |
-          After the Microsoft 365 Copilot app is downloaded and the installer is run, the installation fails with the error code 0x80131500 and the error message "The specified blob doesn't exist." What is the cause of this error?
+          After the Microsoft 365 Copilot app is downloaded and the installer is run, the installation fails with the error code 0x80131500. Additionally, the error message "The specified blob doesn't exist." is displayed. What is the cause of this error?
         answer: |
           This installation failure and error is a known issue that's being investigated. To work around the issue, download and install the **Windows App SDK 1.7** from [Archive of Windows App SDK downloads - Windows App SDK 1.7](/windows/apps/windows-app-sdk/downloads-archive#windows-app-sdk-17). Once the installation of the **Windows App SDK 1.7** is complete, rerun the installation of the Microsoft 365 Copilot app. The installation should without any issue or errors.
 
