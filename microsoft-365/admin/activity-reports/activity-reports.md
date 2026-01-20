@@ -100,6 +100,7 @@ Depending on your subscription, here are the available reports in all environmen
 |[Microsoft 365 Copilot usage](microsoft-365-copilot-usage.md)|Yes|Yes|N/A<sup>1</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
 |[Microsoft 365 Copilot Agent usage](microsoft-365-copilot-agents.md) | Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
 |[Microsoft 365 Copilot Chat usage](microsoft-copilot-usage.md)|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
+|[Microsoft 365 Copilot credits](microsoft-365-copilot-credits.md)|Yes|N/A|N/A|N/A|N/A|
 |[Microsoft Copilot Search usage](microsoft-365-copilot-search-usage.md)|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>2</sup>|
 |[Email activity](email-activity-ww.md)|Yes|Yes|Yes|Yes|Yes|
 |[Email apps usage](email-apps-usage-ww.md)|Yes|Yes|Yes|Yes|Yes|

@@ -21,7 +21,7 @@ description: View the Microsoft 365 Copilot agents blueprint.
 This deployment blueprint helps you enable agents in [Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-overview) at scale, while ensuring data security and governance, managing access and costs, and measuring adoption and impact.
 
 > [!NOTE]
-> This blueprint is scoped primarily to agents created in the [Copilot Studio (lite)](/microsoft-365-copilot/extensibility/copilot-studio-experience) experience using the Microsoft 365 Copilot app.
+> This blueprint is scoped primarily to agents created in the [Agent Builder](/microsoft-365-copilot/extensibility/copilot-studio-experience) experience using the Microsoft 365 Copilot app.
 
 The primary challenges when enabling Microsoft 365 Copilot agents include the following:
 - **Security and governance concerns** - Your organization can address oversharing, data protection, and compliance risks by implementing robust security and governance controls to safely enable agents in Microsoft 365 Copilot.

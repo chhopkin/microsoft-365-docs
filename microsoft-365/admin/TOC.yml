@@ -118,6 +118,8 @@ items:
              href: add-users/change-a-user-name-and-email-address.md
            - name: Change user profile photos
              href: add-users/change-user-profile-photos.md
+           - name: Delete a user account
+             href: add-users/delete-a-user.md
            - name: Restore a user
              href: add-users/restore-user.md
            - name: Create template to add users
@@ -278,6 +280,8 @@ items:
                 href: manage/manage-agent-instances.md
               - name: Manage Connected Agents for researcher
                 href: manage/manage-connected-agents-for-researcher.md
+            - name: Agent Map
+              href: manage/agent-map.md
             - name: Manage Tools for Agent 365
               href: manage/manage-tools-for-agent.md
             - name: Agent Settings
@@ -297,7 +301,7 @@ items:
             - name: Microsoft 365 Copilot usage
               href: activity-reports/microsoft-365-copilot-usage.md
             - name: Microsoft 365 Copilot Agent usage
-              href: activity-reports/microsoft-365-copilot-agents.md
+              href: activity-reports/microsoft-365-copilot-agents-new.md
             - name: Microsoft 365 Copilot Chat usage
               href: activity-reports/microsoft-copilot-usage.md
             - name: Microsoft 365 Copilot Search usage

@@ -17,7 +17,7 @@ ms.collection:
 - d-star
 hideEdit: true
 ms.update-cycle: 180-days
-ms.date: 09/05/2025
+ms.date: 01/07/2026
 ms.custom: [copilot-learning-hub]
 ---
 
@@ -35,6 +35,8 @@ For an overview of how these three components work together, see [Microsoft 365 
 > - Microsoft 365 Copilot, including [Microsoft 365 Copilot Search](/copilot/microsoft-365/microsoft-365-copilot-search), is compliant with our existing privacy, security, and compliance commitments to Microsoft 365 commercial customers, including the General Data Protection Regulation (GDPR) and European Union (EU) Data Boundary.
 > - Prompts, responses, and data accessed through Microsoft Graph aren't used to train foundation LLMs, including those used by Microsoft 365 Copilot.
 > - Microsoft 365 Copilot operates with multiple protections, which include, but aren't limited to, [blocking harmful content](#how-does-copilot-block-harmful-content), [detecting protected material](#does-copilot-provide-protected-material-detection), and [blocking prompt injections (jailbreak attacks)](#does-copilot-block-prompt-injections-jailbreak-attacks).
+> - Anthropic models within Microsoft 365 Copilot experiences are provided under the Microsoft Product Terms and Data Protection Addendum. Anthropic models have built-in protections, instantiated and operated by Anthropic, to help prevent harmful content from being returned in prompt responses. [Learn more about Anthropic's safeguards.](https://support.claude.com/collections/4078535-safeguards)
+> - Anthropic models are out of scope for the EU Data Boundary and when available, in-country LLM processing commitments. For more information, see [Anthropic as a subprocessor for Microsoft Online Services](connect-to-ai-subprocessor.md).
 
 The information in this article is intended to help provide answers to the following questions:
 
@@ -65,6 +67,7 @@ When you enter prompts using Microsoft 365 Copilot, the information contained wi
 > [!NOTE]
 > - When you’re using agents to help Microsoft 365 Copilot to provide more relevant information, check the privacy statement and terms of use of the agent to determine how it will handle your organization’s data. For more information, see [Extensibility of Microsoft 365 Copilot](#extensibility-of-microsoft-365-copilot).
 > - When you’re using web search, Microsoft 365 Copilot parses the user’s prompt and identifies terms where web search would improve the quality of the response. Based on these terms, Copilot generates a search query that it sends to the Bing Search service. For more information, [Data, privacy, and security for web queries in Microsoft 365 Copilot and Microsoft 365 Copilot Chat](/microsoft-365-copilot/manage-public-web-access).
+> - Starting January 7, 2026, Anthropic is a subprocessor for Microsoft 365 Copilot. For more information, see [Anthropic as a subprocessor for Microsoft Online Services](connect-to-ai-subprocessor.md).
 
 While abuse monitoring, which includes human review of content, is available in Azure OpenAI, Microsoft 365 Copilot services have opted out of it. For information about content filtering, see the [How does Copilot block harmful content?](#how-does-copilot-block-harmful-content) section later in this article.
 
@@ -137,7 +140,7 @@ Microsoft continues to adapt and respond to fulfill AI regulatory requirements a
 
 Microsoft 365 Copilot provides broad compliance offerings and certifications, including [GDPR](/compliance/regulatory/gdpr), [ISO 27001](/compliance/regulatory/offering-iso-27001), [HIPAA](/compliance/regulatory/offering-hipaa-hitech), and the [ISO 42001 standard for AI management systems](/compliance/regulatory/offering-iso-42001). These help support our customers on their compliance journeys, complemented by features such as contractual readiness, built-in information and communication technology risk management, and operational resilience tooling.
 
-Microsoft is committed to complying with all laws and regulations applicable to Microsoft, including the EU AI Act, to enable our AI solutions to meet evolving standards for trustworthy and responsible AI. Microsoft 365 Copilot is built on top of [Microsoft’s existing commitments to data security and privacy](https://www.microsoft.com/trust-center/privacy). There is no change to these commitments. Copilot is integrated into Microsoft 365 and adheres to existing privacy, security, and compliance commitments to Microsoft 365 customers.
+Microsoft is committed to complying with all laws and regulations applicable to Microsoft, including the EU AI Act, to enable our AI solutions to meet evolving standards for trustworthy and responsible AI. Microsoft 365 Copilot is built on top of [Microsoft’s existing commitments to data security and privacy](https://www.microsoft.com/trust-center/privacy). There's no change to these commitments. Copilot is integrated into Microsoft 365 and adheres to existing privacy, security, and compliance commitments to Microsoft 365 customers.
 
 Additionally, we prioritize open dialogue with our partners and regulatory authorities. We provide customers with direct access to Microsoft compliance professionals, proactive guidance, and curated solutions to help navigate regulatory compliance, such as the [Microsoft 365 Copilot & Copilot Chat Risk Assessment Quickstart](https://servicetrust.microsoft.com/DocumentPage/4fe5df86-848b-4097-b3fa-4625e2b8e8f2). Our approach in the AI-driven landscape aims to empower organizations to innovate confidently with solutions built with transparency, privacy, and security in mind.
 
@@ -179,19 +182,19 @@ If a third party sues a commercial customer for copyright infringement for using
 
 ### How does Copilot block harmful content?
 
-To help block harmful content, Microsoft 365 Copilot makes use of the Azure OpenAI Service, which includes a [content filtering system](/azure/ai-foundry/openai/concepts/content-filter) that works alongside core models. The content filtering models for the Hate & Fairness, Sexual, Violence, and Self-harm categories have been specifically trained and tested in various languages. This system works by running both the input prompt and the response through classification models that are designed to identify and block the output of harmful content.
+To help block harmful content, Microsoft 365 Copilot uses safeguards that work alongside AI models used to generate responses. Depending on the scenario, these safeguards may include Microsoft first‑party protections or, in some cases, safety mitigations built into the underlying model. These safeguards use a defense-in-depth approach and can include a mix of Microsoft first-party protections that help detect and reduce jailbreak attempts and prompt injection patterns (including cross-prompt injection attacks), content harm filters to identify harmful content in prompts or generated responses (such as Hate & Fairness, Sexual, Violence, and Self-harm), or in some scenarios, safety mitigations built into the underlying model.
 
 Hate and fairness-related harms refer to any content that uses pejorative or discriminatory language based on attributes like race, ethnicity, nationality, gender identity and expression, sexual orientation, religion, immigration status, ability status, personal appearance, and body size. Fairness is concerned with making sure that AI systems treat all groups of people equitably without contributing to existing societal inequities. Sexual content involves discussions about human reproductive organs, romantic relationships, acts portrayed in erotic or affectionate terms, pregnancy, physical sexual acts, including those portrayed as an assault or a forced act of sexual violence, prostitution, pornography, and abuse. Violence describes language related to physical actions that are intended to harm or kill, including actions, weapons, and related entities. Self-harm language refers to deliberate actions that are intended to injure or kill oneself.
 
-In addition to content filtering provided by the Azure OpenAI Service, Microsoft 365 Copilot also applies filters to help prevent workplace harms from happening. Workplace harms refers to a category of harms that can result from generative AI or models making inferences, judgments, or evaluations about an employee based on their workplace communication. Currently, that means inferences, judgments, or evaluations about an employee's performance, attitude, internal or emotional state, or personal characteristics. We restrict the use of generative AI or models from being used for these purposes.
+In addition to content filtering provided by the Azure OpenAI Service, certain Microsoft 365 Copilot scenarios provide other mitigations, such as filters to help prevent workplace harms from happening. Workplace harms refers to a category of harms that can result from generative AI or models making inferences, judgments, or evaluations about an employee based on their workplace communication. Currently, that means inferences, judgments, or evaluations about an employee's performance, attitude, internal or emotional state, or personal characteristics. We restrict the use of generative AI or models from being used for these purposes.
 
 ### Does Copilot provide protected material detection?
 
-Yes, Microsoft 365 Copilot provides detection for protected materials, which includes text subject to copyright and code subject to licensing restrictions. Not all of these mitigations are relevant for all Microsoft 365 Copilot scenarios.
+Yes, Microsoft 365 Copilot provides detection for protected materials, which includes text subject to copyright and code subject to licensing restrictions. This detection may not be available in all Microsoft 365 Copilot scenarios, and not all of these mitigations are relevant for all Microsoft 365 Copilot scenarios.
 
 ### Does Copilot block prompt injections (jailbreak attacks)?
 
-Jailbreak attacks are prompts designed to bypass Copilot's safeguards or induce non-compliant behavior. Microsoft 365 Copilot helps mitigate these attacks by using proprietary jailbreak and cross-prompt injection attack (XPIA) classifiers. These classifiers analyze inputs to the Copilot service and help block high-risk prompts prior to model execution.
+Jailbreak attacks are prompts designed to bypass Copilot's safeguards or induce non-compliant behavior. Microsoft 365 Copilot helps mitigate these attacks by using proprietary techniques, such as jailbreak and cross-prompt injection attack (XPIA) classifiers. These classifiers analyze inputs to the Copilot service and help block high-risk prompts prior to model execution. These classifiers may not be available in all Microsoft 365 Copilot scenarios.
 
 ### What happens when foundation model changes occur?
 

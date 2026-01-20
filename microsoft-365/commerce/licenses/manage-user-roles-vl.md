@@ -64,6 +64,8 @@ By default, the VL Administrator role is assigned to the Notices Contact, or the
 
 When these contacts sign in to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, they can assign the VL Administrator role to other users. Those users can then access the Agreement (License ID) in the admin center without being listed on the original VL contract.
 
+When a VL contract is activated by your Microsoft partner or seller, the Online Services Manager (OSM) listed on the agreement is assigned the VL Administrator role in the Microsoft 365 admin center. However, if the OSM contact on the VL contract isn't a Microsoft Entra ID account, they won't receive the VL Administrator role in admin center, but they will still receive the Tenant Discovery email.
+
 > [!NOTE]
 > For privacy reasons, we don’t provide names of VL Administrators associated with your organization. Ask your organization's partner or seller what contact information they provided to Microsoft for your VL contract. If necessary, your organization's purchasing, finance, or IT departments might be able to identify your Microsoft Reseller from your organization's purchasing records.
 

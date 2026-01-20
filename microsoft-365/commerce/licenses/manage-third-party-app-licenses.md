@@ -52,7 +52,7 @@ You must be a Global, License, or User admin to assign licenses. For more inform
 
 ## Add or remove ISV app licenses for your account
 
-If you bought your app through Microsoft at https://appsource.microsoft.com, you can [add or remove licenses](buy-licenses.md) in the Microsoft 365 admin center.
+If you bought your app through Microsoft at https://marketplace.microsoft.com, you can [add or remove licenses](buy-licenses.md) in the Microsoft 365 admin center.
 
 If you bought an ISV app through an app vendor, contact the vendor to add or remove licenses from your account.
 

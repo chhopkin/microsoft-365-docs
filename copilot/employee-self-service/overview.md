@@ -102,7 +102,8 @@ The following matrix provides an overview of the various external systems integr
 |IT |Power platform connectors |Not applicable |Not applicable |IT ticketing </br>- Read </br>- Create |Not applicable |Not applicable |
 |IT |Handoff |Not applicable |Not applicable |Handoff to: </br>- Now Assist </br>- Live Agent | | |
 
-- [Learn more](sapsuccessfactors.md#employee-read-scenarios--configuration) about SAP SuccessFactors pre-configured scenarios.
+- [Learn more](sap-employee-read-write-scenarios.md) about SAP SuccessFactors pre-configured employee read and write scenarios.
+- [Learn more](sap-manager-read-write-scenarios.md) about SAP SuccessFactors pre-configured manager read and write scenarios.
 - [Learn more](workday.md#topics) about Workday pre-configured scenarios.
 - [Learn more](servicenow-hrsd-itsm.md#topics) about ServiceNow HR pre-configured scenarios.
 - [Learn more](servicenow-hrsd-itsm.md#topics-1) about ServiceNow IT pre-configured scenarios.

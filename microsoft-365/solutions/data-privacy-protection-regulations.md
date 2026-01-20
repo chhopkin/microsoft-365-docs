@@ -17,7 +17,9 @@ ms.collection:
 - m365solution-infoprotection
 - m365solution-overview
 - zerotrust-solution
-ms.custom: admindeeplinkCOMPLIANCE
+ms.custom:
+- admindeeplinkCOMPLIANCE
+- m365-solutions-doc-set
 description: Learn how Microsoft Purview Compliance Manager helps you keep up with data privacy regulations through continuous control assessments and regulatory updates.
 ---
 

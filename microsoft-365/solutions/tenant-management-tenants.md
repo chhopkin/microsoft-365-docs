@@ -18,6 +18,7 @@ ms.collection:
 - must-keep
 ms.custom:
 - Ent_Solutions
+- m365-solutions-doc-set
 description: "Deploy and manage single or multiple Microsoft 365 tenants, with options for multi-geo and moving locations."
 ---
 
