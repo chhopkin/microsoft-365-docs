@@ -53,7 +53,7 @@ You can use the batch migration tool in the Exchange admin center to migrate ema
    > [!NOTE]
    > You can also migrate your email from Google Workspace to Microsoft 365 through an [IMAP migration](/exchange/mailbox-migration/migrating-imap-mailboxes/migrate-g-suite-mailboxes). You should compare methods to determine which is more suitable for migrating your email.
 
-- It's recommended that you [get help from Microsoft](/microsoft-365/admin/get-help-support) or from a [partner](https://appsource.microsoft.com/en-us/marketplace/partner-dir) when planning to migrate with either of the above methods.
+- It's recommended that you [get help from Microsoft](/microsoft-365/admin/get-help-support) or from a [partner](https://marketplace.microsoft.com/en-us/marketplace/partner-dir) when planning to migrate with either of the above methods.
 
 - If you're a VSB (very small business) where you have a few users, you should migrate your email using a different method, such as [importing to Outlook through a PST file](https://support.microsoft.com/office/import-gmail-to-outlook-20fdb8f2-fed8-4b14-baf0-bf04b9c44bf7).
 
