@@ -148,8 +148,8 @@ Download and install the most recent [Cross-Tenant Identity Mapping PowerShell m
 
   > [!TIP]
   > If you see an error about the -AllowPrerelease switch, update PowerShellGet using the following command:
-  > `Install-Module PowerShellGet -AllowClobber -Force Restart PowerShell`
-
+  > `Install-Module PowerShellGet -AllowClobber -Force `
+  
 > [!NOTE]
 > If you previously used the Identity Mapping service, you should update the module with the following command to make sure it's the most recent version:
 > `Update-Module CrossTenantIdentityMapping -AllowPrerelease`
