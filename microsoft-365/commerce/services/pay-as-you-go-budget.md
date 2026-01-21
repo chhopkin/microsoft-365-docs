@@ -3,7 +3,7 @@ title: "Set up a budget for pay-as-you-go billing in Microsoft 365"
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
-ms.reviewer: ivchenya
+ms.reviewer: ivchenya, clalissayi
 audience: admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business

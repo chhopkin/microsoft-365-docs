@@ -3,9 +3,9 @@ title: "Pay"-as-you-go services available in Microsoft 365"
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
-ms.reviewer: siruvanti
+ms.reviewer: clalissayi, arakesh
 audience: admin
-ms.topic: article
+ms.topic: overview
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-payasyougo
 search.appverid: MET150

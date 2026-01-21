@@ -3,7 +3,7 @@ title: "What's new with pay-as-you-go services in Microsoft 365"
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
-ms.reviewer: siruvanti
+ms.reviewer: clalissayi, arakesh
 audience: admin
 ms.topic: overview
 ms.service: microsoft-365-business

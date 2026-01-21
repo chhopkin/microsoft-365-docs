@@ -1,11 +1,11 @@
 ---
-title: "Fix the RequestDisallowedByPolicy Error in Azure Portal"
+title: "Fix the RequestDisallowedByPolicy error in Azure Portal"
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
-ms.reviewer: ivchenya
+ms.reviewer: ivchenya, clalissayi
 audience: admin
-ms.topic: install-set-up-deploy
+ms.topic: troubleshooting
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-payasyougo
 search.appverid: MET150

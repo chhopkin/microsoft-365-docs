@@ -3,7 +3,7 @@ title: "Set up or disconnect pay-as-you-go billing in the Billing node of the Mi
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
-ms.reviewer: clalissayi
+ms.reviewer: clalissayi, arakesh
 audience: admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business

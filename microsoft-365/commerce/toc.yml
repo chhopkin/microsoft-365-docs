@@ -34,11 +34,11 @@ items:
           href: subscriptions/view-scheduled-changes.md
     - name: Manage pay-as-you-go services
       items:
-        - name: Overview
+        - name: Pay-as-you-go overview
           href: services/pay-as-you-go-overview.md 
-        - name: Available services
+        - name: Available pay-as-you-go services
           href: services/pay-as-you-go-services.md
-        - name: What's new
+        - name: What's new for pay-as-you-go
           href: services/pay-as-you-go-whats-new.md
         - name: Set up pay-as-you-go billing
           items:
@@ -48,11 +48,11 @@ items:
               href: services/pay-as-you-go-setup-copilot.md
             - name: Services in Settings node
               href: services/pay-as-you-go-setup.md
-        - name: Set up a budget
+        - name: Set up a budget for pay-as-you-go services
           href: services/pay-as-you-go-budget.md
         - name: Troubleshooting
           items:
-            - name: RequestDisallowedByPolicy
+            - name: Fix the RequestDisallowedByPolicy error
               href: services/error-request-disallowed-by-policy.md
     - name: Manage licenses
       items:
