@@ -48,12 +48,8 @@ items:
               href: services/pay-as-you-go-setup-copilot.md
             - name: Services in Settings node
               href: services/pay-as-you-go-setup.md
-            - name: Set up a budget
-              href: services/pay-as-you-go-budget.md
-        - name: Pay-as-you-go pricing
-          href: services/pay-as-you-go-pricing.md
-        - name: Start using pay-as-you-go services
-          href: services/use-pay-as-you-go-services.md
+        - name: Set up a budget
+          href: services/pay-as-you-go-budget.md
         - name: Troubleshooting
           items:
             - name: RequestDisallowedByPolicy

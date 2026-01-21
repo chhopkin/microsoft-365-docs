@@ -7,12 +7,12 @@ ms.reviewer: siruvanti
 audience: admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
-ms.subservice:
+ms.subservice: m365-commerce-payasyougo
 search.appverid: MET150
 ms.collection: 
 ms.custom: 
 ms.localizationpriority:  medium
-description: Learn how to set up or disconnect billing for pay-as-you-go services in Microsoft 365 Copilot.
+description: Learn how to set up or disconnect pay-as-you-go billing for Microsoft 365 Copilot. Configure billing policies, connect services, and manage your pay-as-you-go costs effectively.
 ms.date: 09/18/2025
 ---
 
@@ -20,89 +20,65 @@ ms.date: 09/18/2025
 
 This article explains how to set up or disconnect pay-as-you-go billing for agents in Microsoft 365 Copilot.
 
-## Prerequisites
+## Before you begin
 
-Before you begin, ensure the following:
+- To access the Microsoft 365 admin center, you must have one of the following roles:
 
-- The tenant has at least one SharePoint license, or a license that includes SharePoint.
+  - [Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator)
+  - [Billing Administrator](/entra/identity/role-based-access-control/permissions-reference?#billing-administrator)
+  - [AI Administrator](/entra/identity/role-based-access-control/permissions-reference?#ai-administrator)
 
-- You have an Azure subscription in the same tenant as Microsoft 365.
+  [!INCLUDE [ga-roles-limitation](../../includes/ga-roles-limitation.md)]
 
-- You have an Azure resource group in that subscription.
-
-- You have one of the following Microsoft 365 administrator roles:
-
-    - [Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator)
-    - [Billing Administrator](/entra/identity/role-based-access-control/permissions-reference?#billing-administrator)
-    - [AI Administrator](/entra/identity/role-based-access-control/permissions-reference?#ai-administrator)
-    
-    > [!IMPORTANT]
-    > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
+- The tenant must have at least one SharePoint license, or a license that includes SharePoint.
+- You must have an Azure subscription in the same tenant as Microsoft 365.
+- You must have an Azure resource group in that subscription.
 
 ## Set up pay-as-you-go billing
 
-### Step 1: Set up a billing policy
+To set up pay-as-you-go billing, first set up a billing policy, and then connect it to a pay-as-you-go service.
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home).
+### Step 1: Create a billing policy
 
-2. Go to **Copilot** > **Billing & usage**.
+1. Sign in to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
+1. Go to **Copilot** > **Billing & usage**.
+1. Select **Add a billing policy**.
+1. On the **Billing details** page, fill in the required information, including the following items:
 
-3. Select **Add a billing policy**.
+   - Policy name
+   - Azure subscription
+   - Resource group
+   - Region (determines where the tenant ID and usage data are stored)
 
-4. On the **Billing details** page, fill in required information, including:
-    - Policy name
-    - Azure subscription
-    - Resource group
-    - Region (determines where tenant ID and usage data are stored)
-
-5. Read and accept the pay-as-you-go terms of service. Select **Next**.
-
-7. On the **Users** page, choose **All users** or a **Specific group** (search and add a single group). Select **Next**.
+1. Read and accept the pay-as-you-go terms of service. Select **Next**.
+1. On the **Users** page, choose **All users** or a **Specific group** (search for and add a single group). Select **Next**.
 
     > [!NOTE]
-    > When selecting a group, only the first 1,000 groups are displayed in alphabetical order.
+    > When you select a group, only the first 1,000 groups are displayed in alphabetical order.
 
-8. On the **Review and finish** page, double-check all the details you’ve entered. If everything is correct, select **Create policy**.
+1. On the **Review and finish** page, double-check all the details you entered. If everything is correct, select **Create policy**.
 
-    Your billing policy is now created but not yet connected to a service.
+You created your billing policy and now must connect it to a service. Proceed to [Step 2: Connect the billing policy to a service](#step-2-connect-the-billing-policy-to-a-service).
 
 ### Step 2: Connect the billing policy to a service
 
 1. On the **Billing & usage** page, select the **Connect a service**.
+1. Select the new billing policy and link it to a pay-as-you-go service, like **Microsoft 365 Copilot Chat** or **SharePoint Agents**.
 
-2. Choose the newly created billing policy and link it to a pay-as-you-go service (for example, **Microsoft 365 Copilot Chat** or **SharePoint Agents**).
-
-## Set up a budget and monitor usage
+## Set up a budget and monitor usage and cost
 
 After setting up billing, you can [set up a budget and monitor your usage in the Microsoft 365 admin center](pay-as-you-go-budget.md). You can also monitor your pay-as-you-go usage and costs in [Microsoft Cost Management for Azure](https://portal.azure.com/#blade/Microsoft_Azure_CostManagement/Menu/costanalysis). Ensure you have at least read access to the billing resource group.
 
 ## Disconnect pay-as-you-go billing
 
-### Prerequisites
+To disconnect agents from pay-as-you-go billing, use the following steps.
 
-- Ensure you have one of the following Microsoft 365 administrator roles:
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Copilot** > **Billing & usage**.
+1. Select the **Pay-as-you-go services** tab.
+1. Select the agent to disconnect, like **Microsoft 365 Copilot Chat** or **SharePoint Agents**.
+1. In the **Manage billing policy connections** panel, select the check box next to the policy to disconnect, and then select **Save**.
+1. View the disconnection message to confirm that your Azure subscription is successfully disconnected.
 
-    - [Global Administrator](/entra/identity/role-based-access-control/permissions-reference#global-administrator)
-    - [Billing Administrator](/entra/identity/role-based-access-control/permissions-reference#billing-administrator)
-    - [AI Administrator](/entra/identity/role-based-access-control/permissions-reference?#ai-administrator)
+If multiple services connect to a single policy, repeat the steps for each service.
 
-    > [!IMPORTANT]
-    > Microsoft recommends that you use roles with the fewest permissions. Using lower permissioned accounts helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role. To learn more, see [About admin roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
-
-### Disconnect agents from pay-as-you-go billing
-
-1. In the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home), go to **Copilot** > **Billing & usage**.
-
-2. Select the **Pay-as-you-go services** tab.
-
-3. Choose the agent to disconnect (for example, **Microsoft 365 Copilot Chat** or **SharePoint Agents**).
-
-4. On the **Manage billing policy connections** panel:
-
-    a. Select the checkbox next to the policy to disconnect.
-
-    b. Select **Save**.
-
-5. View the disconnection message to confirm that your Azure subscription is successfully disconnected.
-
-    If multiple services are connected to a single policy, repeat the steps for each service.
+After you disconnect the service, review your billing and usage to ensure no further charges are applied.

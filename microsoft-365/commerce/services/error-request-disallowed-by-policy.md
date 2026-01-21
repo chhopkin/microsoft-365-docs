@@ -1,5 +1,5 @@
 ---
-title: RequestDisallowedByPolicy 
+title: "Fix the RequestDisallowedByPolicy Error in Azure Portal"
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
@@ -7,57 +7,50 @@ ms.reviewer: ivchenya
 audience: admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
-ms.subservice:
+ms.subservice: m365-commerce-payasyougo
 search.appverid: MET150
 ms.collection: 
 ms.custom: 
 ms.localizationpriority:  medium
-description: Learn how to fix the RequestDisallowedByPolicy error when creating resources in Azure.
+description: "Fix the RequestDisallowedByPolicy error in Azure portal when creating resources. Step-by-step guide to update policy assignments and resolve blocked resource deployment."
 ms.date: 09/05/2025
 ---
 
-# RequestDisallowedByPolicy
+# Fix the "RequestDisallowedByPolicy" error
 
-This article describes how to fix the **RequestDisallowedByPolicy** error when creating resources in Azure.
+This article describes how to fix the **RequestDisallowedByPolicy** error when you create resources in the Azure portal.
 
-If you’re seeing the error code **RequestDisallowedByPolicy**, it means that the creation of a resource was blocked by an Azure policy assigned in your environment. This often occurs when certain resource types aren't explicitly allowed under a policy—such as the GM Resource Standards policy.
+If you see the error code **RequestDisallowedByPolicy**, an Azure policy assigned in your environment blocked the creation of a resource. This error often occurs when a policy doesn't explicitly allow certain resource types, such as the GM Resource Standards policy.
 
-## What’s causing the issue?
+## What causes this error?
 
-Your organization has applied a policy, typically called "Allowed resource types"—to control which Azure resources can be created. If you're trying to deploy a resource type that's not listed in this policy, Azure blocks the request and show this error.
+Your organization applied a policy, typically called "Allowed resource types," to control which Azure resources you can create. If you try to deploy a resource type that's not listed in this policy, Azure blocks the request and shows this error.
 
-## How to resolve it
+## Steps to resolve the policy error
 
-To fix this, you need to update the policy assignment to include the resource types you're trying to deploy (for example, for document processing for Microsoft 365 scenarios).
+To fix this error, update the policy assignment to include the resource types you're trying to deploy. For example, you might add resource types for document processing for Microsoft 365 scenarios.
 
-### Step-by-step instructions
-
-1. Sign in to the [Azure portal](https://portal.azure.com/).
-
-2. In the top search bar, type *Policy* and select it.
-
-3. In the Policy blade, select **Assignments** from the left navigation.
-
-4. Locate the policy assignment with the name "Allowed resource types" (usually tied to the GM Resource Standards initiative).
-
+1. Sign in to the <a href="https://portal.azure.com" target="_blank">Azure portal</a>.
+2. In the top search bar, type *Policy* and then select it.
+3. In the **Policy** blade, select **Assignments** from the left navigation.
+4. Locate the policy assignment with the name "Allowed resource types." This policy assignment is usually tied to the GM Resource Standards initiative.
 5. Select the policy, and then select **Edit assignment**.
-
 6. Under **Parameters**, add the resource types you want to allow:
+
     - Microsoft.Syntex/accounts
     - Microsoft.Syntex/documentProcessors
 
 7. Select **Save** to apply the changes.
-
 8. Try creating the resource again.
 
 ### Need visual help?
 
 Check out the following screenshots for each step in the Azure portal to guide you through the process.
 
-![Screenshot showing the Assign policy page in the Azure portal.](../media/services/azure-assign-policy.png)
+:::image type="content" source="../../media/services/azure-assign-policy.png" alt-text="Screenshot of the Assign Policy page in Azure portal with policy configuration options.":::
 
-![Screenshot showing the Policy Assignments page in the Azure portal.](../media/services/azure-assign-policy.png)
+:::image type="content" source="../../media/services/azure-policy-assignments.png" alt-text="Screenshot of the Policy Assignments page displaying available policies in the Azure portal.":::
 
-![Screenshot showing the Allowed resource types page in the Azure portal.](../media/services/azure-assign-policy.png)
+:::image type="content" source="../../media/services/azure-allowed-resource-types.png" alt-text="Screenshot of the Allowed resource types configuration page in Azure portal.":::
 
-![Screenshot showing the Assign policy page for a specific policy in the Azure portal.](../media/services/azure-assign-policy-full-page.png)
+:::image type="content" source="../../media/services/azure-assign-policy-full-page.png" alt-text="Screenshot of the Assign Policy page showing specific policy assignment details in Azure portal.":::
