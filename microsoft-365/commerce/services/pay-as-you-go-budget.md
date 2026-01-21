@@ -1,5 +1,5 @@
 ---
-title: Set up a budget for pay-as-you-go billing in Microsoft 365
+title: "Set up a budget for pay-as-you-go billing in Microsoft 365"
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv

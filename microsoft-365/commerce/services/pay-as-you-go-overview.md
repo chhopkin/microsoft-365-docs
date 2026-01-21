@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 pay-as-you-go services: Overview and benefits
+title: "Microsoft 365 pay-as-you-go services - Overview and benefits"
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
@@ -12,11 +12,11 @@ search.appverid: MET150
 ms.collection: 
 ms.custom: 
 ms.localizationpriority:  medium
-description: Learn about Microsoft 365 pay-as-you-go services that offer flexible, scalable billing and cost control for your organization.
+description: "Learn about Microsoft 365 pay-as-you-go services that offer flexible, scalable billing and cost control for your organization."
 ms.date: 07/18/2025
 ---
 
-# Microsoft 365 pay-as-you-go services: Overview and benefits
+# Microsoft 365 pay-as-you-go services - Overview and benefits
 
 In today's fast-paced business world, flexibility and cost control are key. Microsoft 365 pay-as-you-go services provide your organization with a scalable and economical solution, so you pay only for the services you use. This article provides an overview of the benefits of Microsoft 365 pay-as-you-go services. For a detailed list of the available pay-as-you-go services, see [Pay-as-you-go services available in Microsoft 365](pay-as-you-go-services.md).
 

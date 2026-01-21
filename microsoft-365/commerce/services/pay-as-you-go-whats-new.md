@@ -1,5 +1,5 @@
 ---
-title: What's new with pay-as-you-go services in Microsoft 365
+title: "What's new with pay-as-you-go services in Microsoft 365"
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection: 
 ms.custom: 
 ms.localizationpriority:  medium
-description: Discover the latest pay-as-you-go services in Microsoft 365, including SharePoint agents, enhanced billing flexibility, and streamlined admin center navigation.
+description: "Discover the latest pay-as-you-go services in Microsoft 365, including SharePoint agents, enhanced billing flexibility, and streamlined admin center navigation."
 ms.date: 05/26/2025
 ---
 

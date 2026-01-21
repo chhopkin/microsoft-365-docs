@@ -1,5 +1,5 @@
 ---
-title: Set up or disconnect pay-as-you-go billing for Microsoft 365 Copilot
+title: "Set up or disconnect pay-as-you-go billing for Microsoft 365 Copilot"
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection: 
 ms.custom: 
 ms.localizationpriority:  medium
-description: Learn how to set up or disconnect pay-as-you-go billing for Microsoft 365 Copilot. Configure billing policies, connect services, and manage your pay-as-you-go costs effectively.
+description: "Learn how to set up or disconnect pay-as-you-go billing for Microsoft 365 Copilot. Configure billing policies, connect services, and manage your pay-as-you-go costs effectively."
 ms.date: 09/18/2025
 ---
 

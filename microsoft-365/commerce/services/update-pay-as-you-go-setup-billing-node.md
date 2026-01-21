@@ -1,5 +1,5 @@
 ---
-title: Set up or disconnect pay-as-you-go billing in the Billing node of the Microsoft 365 admin center
+title: "Set up or disconnect pay-as-you-go billing in the Billing node of the Microsoft 365 admin center"
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
