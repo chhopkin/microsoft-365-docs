@@ -118,7 +118,7 @@ landingContent:
           - text: Set up a pay-as-you-go budget
             url: services/pay-as-you-go-budget.md
           - text: Start using pay-as-you-go services
-            url: services/use-pay-as-you-go-services.md
+            url: services/pay-as-you-go-overview.md#start-using-pay-as-you-go-services
       - linkListType: overview
         links:
           - text: What are pay-as-you-go services?
@@ -126,7 +126,7 @@ landingContent:
           - text: Available pay-as-you-go services
             url: services/pay-as-you-go-services.md
           - text: Pay-as-you-go pricing
-            url: services/pay-as-you-go-pricing.md
+            url: services/pay-as-you-go-overview.md##pricing-details-for-pay-as-you-go-services)
       - linkListType: whats-new
         links:
           - text: Available new pay-as-you-go services

@@ -33,15 +33,15 @@ In today's fast-paced business world, flexibility and cost control are key. Micr
 For information about pricing for pay-as-you-go services, see the following articles:
 
 - [Microsoft 365 Copilot](/sharepoint/microsoft-365-pay-as-you-go-pricing)
-- [Document processing](../documentprocessing/syntex-pay-as-you-go-services.md)
-- [Microsoft 365 Archive](../documentprocessing/syntex-pay-as-you-go-services.md#storage-services)
-- [Microsoft 365 Backup](../documentprocessing/syntex-pay-as-you-go-services.md#storage-services)
+- [Document processing](../../documentprocessing/syntex-pay-as-you-go-services.md)
+- [Microsoft 365 Archive](../../documentprocessing/syntex-pay-as-you-go-services.md#storage-services)
+- [Microsoft 365 Backup](../../documentprocessing/syntex-pay-as-you-go-services.md#storage-services)
 
 ## Start using pay-as-you-go services
 
 For information about how to start using pay-as-you-go services, see the following aritcles:
 
 - [Microsoft 365 Copilot - SharePoint agents](/sharepoint/get-started-sharepoint-agents)
-- [Document processing](../documentprocessing/promo-syntex.md)
-- [Microsoft 365 Archive](../archive/archive-overview.md)
-- [Microsoft 365 Backup](../backup/backup-overview.md)
+- [Document processing](../../documentprocessing/promo-syntex.md)
+- [Microsoft 365 Archive](../../archive/archive-overview.md)
+- [Microsoft 365 Backup](../../backup/backup-overview.md)
