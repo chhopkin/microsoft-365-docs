@@ -51,9 +51,9 @@ To set up pay-as-you-go billing, you need to have this information:
 
 Once you have the information on this list, you're ready to begin. As a first step, you should link an Azure subscription in pay-as-you-go, if you haven't already done so. 
 
-**New Billing experience**: New customers onboarding to Micrsoft 365 Backup will now use the new pay-as-you-go set up experience under the **Billing** node in Microsoft Admin Center. Follow the instructions on this page for <a href="/microsoft-365/services/update-pay-as-you-go-setup-billing-node" target="_blank">**Pay-as-you-go Setup**</a>, to set up pay-as-you-go for Microsoft 365 Backup. 
+**New Billing experience**: New customers onboarding to Microsoft 365 Backup will now use the new pay-as-you-go set up experience under the **Billing** node in Microsoft Admin Center. Follow the instructions on this page for <a href="/microsoft-365/services/update-pay-as-you-go-setup-billing-node" target="_blank">**Pay-as-you-go Setup**</a>, to set up pay-as-you-go for Microsoft 365 Backup. 
 
-**Existing Microsoft 365 Backup customers** will continue to use the billing management experience under **Setup** option in Microsoft Admin Center. Exsting customers can use the below steps to view or edit your existing billing setup.
+**Existing Microsoft 365 Backup customers** will continue to use the billing management experience under **Setup** option in Microsoft Admin Center. Existing customers can use the below steps to view or edit your existing billing setup.
 
 1. In the Microsoft 365 admin center, select <a href="https://go.microsoft.com/fwlink/p/?linkid=2171997" target="_blank">**Setup**</a>, and then go to **Billing and licenses** section.
 
