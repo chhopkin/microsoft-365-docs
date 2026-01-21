@@ -312,7 +312,8 @@ Workday report configuration provides the SOAP base URL.
 ##### Share Connection parameters 
 
 The Workday connections are configured by the agent maker which need to be shared with all users so that the users are not prompted for authentication the first time the agent is being used with a Workday connection. 
-Follow the steps in the Create and manage connections article to share connection parameters for On-Behalf-Of (OBO) authentication. 
+
+Follow the steps in the [Create and manage connections](/microsoft-copilot-studio/authoring-connections#share-connection-parameters-for-on-behalf-of-obo-authentication) article to share connection parameters for On-Behalf-Of (OBO) authentication.
 
 #### Step 3: Configure connections
 
@@ -378,7 +379,9 @@ Use **Templates** to complete the customizations required for Workday integratio
 
 You need the following permissions to retrieve Template data from Dataverse:
 
-|Microsoft Dataverse |ISSG_WQL_COPILOT |Dataflow Maker, Environment Maker, System Admin for the environment |
+| Source | Account | Permission |
+| --- | --- | --- |
+| Microsoft Dataverse | ISSG_WQL_COPILOT | Dataflow Maker, Environment Maker, System Admin for the environment |
 
 >[!NOTE]
 >If the least privileged principles need to be followed for this account on Dataverse environment, the permission required for this account is **Read Organization** in Power Platform. Follow the instructions for creating a custom role with least privileged access and assign it to this account.
