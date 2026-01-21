@@ -33,7 +33,7 @@ You must have a VL role to access the VL pages in the Microsoft 365 admin center
 Assign VL roles by using one of the following options:
 
 - A partner or seller who assigns you a role during the contract creation process.
-- An administrator of the VL agreement who adds you as a user and invites you to sign in to register. If you have an Enterprise Agreement (EA) or Enterprise subscription (EU), you don't receive an invitation to sign in to register. Instead, the administrator of the VL agreement grants you access.
+- An administrator of the VL agreement who adds you as a user and invites you to sign in to register. If you have an Enterprise Agreement (EA) or Enterprise subscription (EAS), you don't receive an invitation to sign in to register. Instead, the administrator of the VL agreement grants you access.
 
 > [!NOTE]
 > Global Administrators in the admin center don't have access to VL features. The VL agreement administrator adds any users, including Global Administrators, who might want access to specific license IDs. For more information, see [Commonly used Microsoft 365 admin center roles](../../admin/add-users/about-admin-roles.md#commonly-used-microsoft-365-admin-center-roles) and [Volume licensing roles](../../admin/add-users/about-admin-roles.md#volume-licensing-roles).
@@ -49,7 +49,7 @@ To view your volume licenses and access software downloads and VL keys, you must
 - US Department of Defense cloud VL users can go to the <a href="https://portal.apps.mil/adminportal/home" target="_blank">DoD Microsoft 365 admin center</a>.
 
 > [!NOTE]
-> Users who access both public clouds and GCC High clouds must have a separate ID for the GCC High Microsoft 365 admin center. If you're an EA or EU customer, any user with an Entra ID on a different cloud than the contract loses access to the contract. Users with an Entra ID on the same cloud as the contract continue to have uninterrupted access.
+> Users who access both public clouds and GCC High clouds must have a separate ID for the GCC High Microsoft 365 admin center. If you're an EA or EAS customer, any user with an Entra ID on a different cloud than the contract loses access to the contract. Users with an Entra ID on the same cloud as the contract continue to have uninterrupted access.
 
 You can only access the VL contracts that are on the same cloud as your Entra ID. If you access VL contracts with Government Community Cloud High (GCC High) or US Department of Defense cloud (DoD) licenses, you must use the Entra ID in those clouds to access VL pages in the Microsoft 365 admin center.
 
@@ -61,7 +61,7 @@ An Online Administrator of VL contracts from the public cloud can assign roles o
 
 To manage public cloud VL Contracts, Sarah must go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">public cloud instance of the Microsoft 365 admin center</a>. To manage GCC High cloud VL Contracts, she must go to the <a href="https://portal.office365.us/adminportal/home" target="_blank">GCC High cloud instance of the Microsoft 365 admin center</a>.
 
-### If you're registering a volume license agreement for the first time (non-EA and non-EU customers only)
+### If you're registering a volume license agreement for the first time (non-EA and non-EAS customers only)
 
 When you register a VL agreement for the first time, use the following steps:
 
@@ -78,7 +78,7 @@ When you register a VL agreement for the first time, use the following steps:
 > [!NOTE]
 > We highly recommend that you select **Role Assignments** and immediately add another VL Administrator for each contract ID.
 
-### If you're registering a VL agreement for the first time (EA and EU customers only)
+### If you're registering a VL agreement for the first time (EA and EAS customers only)
 
 1. Find the notification email from microsoft-noreply\@microsoft.com with the subject line "Permission changes for Microsoft Volume Licensing contracts."
 1. In the email, select the Microsoft 365 admin center link to sign in by using your Microsoft Entra ID or sign-in email address (previously called a work or school account). If you already use a Microsoft online service, you already have a Microsoft Entra ID. Try signing in by using the same account that you use to access that service.
@@ -96,12 +96,12 @@ After you register a VL agreement in the admin center, the system doesn't send n
 
 After you submit your VL agreement, Microsoft sends welcome emails to both the Primary Contact (Pri) and Notices and Online Administrator contact (NTC) that you provide in the VL document.
 
-The system sends the welcome email from the email address "microsoft-noreply@microsoft.com" with the subject line "Action required: Sign in to manage your volume licensing assets." If you're an EA or EU customer, you receive a notification email with the subject line "Permission changes for Microsoft Volume Licensing contracts."
+The system sends the welcome email from the email address "microsoft-noreply@microsoft.com" with the subject line "Action required: Sign in to manage your volume licensing assets." If you're an EA or EAS customer, you receive a notification email with the subject line "Permission changes for Microsoft Volume Licensing contracts."
 
 > [!NOTE]
 > If you can't find the email in your inbox, check your junk or spam folders.
 
-**Non-EA and non-EU customers:** If you don't have access to the business email address the system sends the welcome email to, ask the owner of that email to forward you any invitation and registration confirmations emails.
+**Non-EA and non-EAS customers:** If you don't have access to the business email address the system sends the welcome email to, ask the owner of that email to forward you any invitation and registration confirmations emails.
 
 ## Sign up for a new Microsoft Entra ID
 
@@ -234,13 +234,13 @@ If you don't see the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144"
 
 - **Use the correct role:**
 
-  - If you're a VL user (Non-EA and non-EU customers only), verify that you completed the license registration by selecting the link in the welcome email that you received.
+  - If you're a VL user (Non-EA and non-EAS customers only), verify that you completed the license registration by selecting the link in the welcome email that you received.
   - You might have access to the admin center because of a different role, or you might not have a VL role assigned to you. Contact a VL Administrator for your organization and ask them to grant you VL permissions.
 
 - **Use the correct user ID:**
 
-  - **Non-EA and non-EU customers only:** Verify that the user ID you used to register VL licenses in the admin center is the same as the user ID that you're using to sign in.
-  - **EA and EU customers only:** Verify that the user ID you used to sign in is the one to which access was given by the VL administrator.
+  - **Non-EA and non-EAS customers only:** Verify that the user ID you used to register VL licenses in the admin center is the same as the user ID that you're using to sign in.
+  - **EA and EAS customers only:** Verify that the user ID you used to sign in is the one to which access was given by the VL administrator.
 
 ### My volume licensing welcome email is invalid
 
