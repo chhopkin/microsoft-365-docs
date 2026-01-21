@@ -18,13 +18,13 @@ ms.subservice: add-ins
 
 ### Overview
 
-Frontline Agent is an AI‑powered assistant in Microsoft 365 Copilot and Teams designed to support frontline workers and managers in their day‑to‑day operations. It helps frontline teams stay informed, complete tasks, and access the right information at the right time, all within the flow of work.
+Frontline Agent is an AI‑powered assistant in Microsoft 365 Copilot and Microsoft Teams designed to support frontline workers and managers in their day‑to‑day operations. It helps frontline teams stay informed, complete tasks, and access the right information at the right time, all within the flow of work.
 
 Frontline Agent works alongside Teams chats, channels, and existing Microsoft 365 services such as SharePoint, enabling organizations to scale frontline communication and operations without introducing new tools or workflows.
 
 Built on Microsoft 365, Frontline Agent works within your existing Microsoft Teams security and compliance framework. You can use Microsoft Purview to mitigate and manage the risk associated with AI usage, including with Frontline Agent [here](/purview/ai-microsoft-purview). 
 
-The agent is available for anyone with a Microsoft 365 Copilot license in the agents section. As an IT administrator, you set up Frontline Agent to ensure it aligns with your organization’s policies for security, compliance, and device management.
+The agent is currently rolling out for users with a Microsoft 365 Copilot license. As an IT administrator, you set up Frontline Agent to ensure it aligns with your organization’s policies for security, compliance, and device management.
 
 ### What scenarios does Frontline Agent enable?
 
