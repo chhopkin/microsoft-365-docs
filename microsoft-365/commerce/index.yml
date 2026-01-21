@@ -126,7 +126,7 @@ landingContent:
           - text: Available pay-as-you-go services
             url: services/pay-as-you-go-services.md
           - text: Pay-as-you-go pricing
-            url: services/pay-as-you-go-overview.md##pricing-details-for-pay-as-you-go-services)
+            url: services/pay-as-you-go-overview.md#pricing-details-for-pay-as-you-go-services
       - linkListType: whats-new
         links:
           - text: Available new pay-as-you-go services

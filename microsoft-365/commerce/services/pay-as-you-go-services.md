@@ -1,5 +1,5 @@
 ---
-title: "Pay"-as-you-go services available in Microsoft 365"
+title: "Pay-as-you-go services available in Microsoft 365"
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
