@@ -36,8 +36,8 @@ The invoice for your VL subscription provides a summary of charges and instructi
 
 To access VL invoices in the admin center, you must meet one of the following conditions:
 
-- If you're not an Enterprise Agreement (EA) or an Enterprise Subscription Agreement (EU) customer, you must be the **Bill To** contact or have the Invoice Reader role for the corresponding contracts.
-- If you're an EA or EU customer, you must be a VL Administrator or an Invoice Reader for the corresponding contracts.
+- If you're not an Enterprise Agreement (EA) or an Enterprise Subscription Agreement (EAS) customer, you must be the **Bill To** contact or have the Invoice Reader role for the corresponding contracts.
+- If you're an EA or EAS customer, you must be a VL Administrator or an Invoice Reader for the corresponding contracts.
 
 ## View or download your invoice
 
@@ -202,7 +202,7 @@ The Invoice Reader VL role is automatically assigned in the admin center to the 
 The Invoice Reader role can't be assigned or removed by another VL Administrator. To change the contact Bill To requires your Microsoft partner or seller to complete a Change of Contact Information Request to update the legal participants, or contacts. Contact your Microsoft partner or seller for more information.
 
 > [!NOTE]
-> If you're an Enterprise Agreement (EA) or Enterprise subscription (EU) customer, the Invoice Reader role isn't assigned to the **Bill To** contact. The Invoice Reader VL role is assigned by the VL Administrator of the agreement in the Microsoft 365 admin center. The VL Administrator can view the invoices or assign the Invoice Reader role to any user.
+> If you're an EA or EAS customer, the Invoice Reader role isn't assigned to the **Bill To** contact. The Invoice Reader VL role is assigned by the VL Administrator of the agreement in the Microsoft 365 admin center. The VL Administrator can view the invoices or assign the Invoice Reader role to any user.
 
 ### How often and when am I billed?
 
