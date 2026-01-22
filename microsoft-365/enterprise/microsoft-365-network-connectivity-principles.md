@@ -169,14 +169,14 @@ Customers with complex network topologies, implementing network optimizations li
 
 When optimizing connectivity to Microsoft 365, certain network configurations may have a negative impact on Microsoft 365 availability, interoperability, performance, and user experience. Microsoft has not tested the following network scenarios with our services, and they are known to cause connectivity issues.
 
-- TLS termination or deep packet inspection of any M365 domains with customer proxies or other types of network devices or services.
+- TLS termination or deep packet inspection of any Microsoft 365 domains with customer proxies or other types of network devices or services.
 - Blocking specific protocols or protocol versions such as QUIC, WebSocket’s, etc. by intermediate network infrastructure or service. 
 - Forcing downgrade or failover of protocols (such as UDP --> TCP, TLS1.3 --> TLS1.2 --> TLS1.1) used between client applications and Microsoft 365 services.
 - Routing connections through network infrastructure applying its own authentication such as proxy authentication.
 
 We recommend that customers avoid using these network techniques to traffic destined to Microsoft 365 domains and bypass these for Microsoft 365 connections.
 
-Microsoft recommends setting up an automated system to download and apply the M365 network endpoint list regularly. Refer to [Change management for Microsoft 365 IP addresses and URLs](managing-office-365-endpoints.md#change-management-for-microsoft-365-ip-addresses-and-urls) for more information. 
+Microsoft recommends setting up an automated system to download and apply the Microsoft 365 network endpoint list regularly. Refer to [Change management for Microsoft 365 IP addresses and URLs](managing-office-365-endpoints.md#change-management-for-microsoft-365-ip-addresses-and-urls) for more information. 
 
 ## Comparing network perimeter security with endpoint security
 <a name="BKMK_SecurityComparison"> </a>
