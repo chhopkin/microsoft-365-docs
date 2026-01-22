@@ -39,10 +39,12 @@ Loop content is stored in SharePoint, OneDrive, and [SharePoint Embedded](/share
 |Loop app, My workspace *|✔️in user-owned container|||user account|
 |Loop app, shared workspace|✔️in shared container|||workspace owners|
 |Teams [channel workspace](https://techcommunity.microsoft.com/blog/microsoft365insiderblog/collaborate-in-real-time-with-workspaces-in-teams/4414334)|✔️in shared container|||Microsoft 365 Group|
+|Teams [chat notes](https://support.microsoft.com/en-us/office/use-collaborative-notes-in-microsoft-teams-chats-6f19dd1f-b37a-47a2-9795-bb5deb4d0f58)|✔️in container|||Microsoft Teams Chat|
 |Teams channel meeting||✔️in 📁`Meetings`||Microsoft 365 Group|
 |Teams channel||✔️in Channel folder||Microsoft 365 Group|
 |Teams private chat|||✔️in 📁`Microsoft Teams Chat files`|user account|
 |Teams private meeting|||✔️in 📁`Meetings`|user account|
+|Outlook email|||✔️in 📁`Attachments`|user account|
 |OneNote for Windows or for the web|||✔️in 📁`OneNote Loop files`|user account|
 |Whiteboard|||✔️in 📁`Whiteboard\Components`|user account|
 
