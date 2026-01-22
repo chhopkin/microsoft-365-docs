@@ -108,14 +108,14 @@ Make sure to review the articles [Control cloud apps with policies](/defender-cl
 
 4. In the navigation pane, select **Cloud apps** > **App governance**.
 
-5. Select the **Policies** tab, and then create a new [custom policy](/defender-cloud-apps/app-governance-app-policies-create#custom-policies), specifying the following settings:
+1. Select the **Policies** tab, and then create a new [custom policy](/defender-cloud-apps/app-governance-app-policies-create#custom-policies), specifying the following settings:
 
    - For **Policy template**, choose **No template**.
    - For **Policy name**, type a name, like *Unsanctioned AI Apps*.
    - Provide a description, like *Block unsanctioned AI apps*.
    - In the **Apps matching all of the following** section, specify a condition, such as **Category equals Generative AI** and **Tag equals Unsanctioned**.
-   - In the **Apply to** list, select **All continuous reports**.
-
+   - In the **Apply to** list, select **All continuous reports**. 
+      
 ## See also
 
 - [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview)
