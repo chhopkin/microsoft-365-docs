@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: efrene 
 author: efrene
 manager: scotv
-ms.date: 09/15/2025
+ms.date: 01/22/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -26,11 +26,11 @@ appliesto:
 
 [Microsoft 365 Copilot Chat](/copilot/overview) is an AI chat tool that is included in your Microsoft 365 subscription and is integrated into Microsoft 365 apps such as Word, Excel, Outlook, and Teams. It uses the latest AI models and data from the web to answer your questions, generate content and ideas, and find information. Since it is included in your Microsoft 365 subscription, it is the entry point into the Microsoft 365 Copilot experience.
 
-Add image here^^^
+:::image type="content" source="media/microsoft-365-copilot-license-comparison.png" alt-text="A graphic that illustrates key capability differences between Copilot offered in Microsoft 365 licensing and the dedicated Microsoft 365 Copilot add on license." lightbox="media/microsoft-365-copilot-license-comparison.png":::
 
 This document outlines the minimum technical and licensing requirements for using Microsoft 365 Copilot Chat in your organization. It additionally includes considerations admins need to be aware of, such as security, management, and resources to help train your users.
 
-For information on minimum requirements for the Microsoft 365 Copilot add-on license, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](/copilot/microsoft-365/microsoft-365-copilot-min-reqs?branch=kwekua-copilot-min-reqs).
+For information on minimum requirements for the Microsoft 365 Copilot add-on license, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](/copilot/microsoft-365-copilot-min-reqs).
 
 ## Licensing requirements
 Before your users can use Microsoft Copilot Chat, they must have one of the following subscriptions or plans: 
@@ -127,9 +127,17 @@ Copilot Chat is available to users in many of the key Microsoft 365 apps in whic
 - [Copilot Chat Success Kit](https://adoption.microsoft.com/copilot-chat/success-kit/) – Use it to prepare your tenant for Copilot Chat and to enable your users to create and use agents. The kit includes information on admin controls, licensing and payment methods, training materials, onboarding email templates, and more.
 - [Copilot Chat Trainer Kit](https://aka.ms/CopilotChat/TrainerKit) – Downloadable PowerPoint training presentation to help businesses get started with Copilot Chat.
 - [Copilot user tools and templates](https://adoption.microsoft.com/copilot/user-engagement-tools-and-templates/) – A collection of user-facing tools and templates for you to quickly onboard your organization. See the section for Copilot Chat tools and templates.
+- [Transform ideas into action with Copilot Chat](https://learn.microsoft.com/training/paths/explore-microsoft-365-copilot-business-chat) - This course teaches learners how to get started with Microsoft 365 Copilot Chat, craft effective prompts, and use its AI-powered features to enhance productivity, streamline work, and collaborate securely in real-time.
 
 ## Track Copilot Chat usage
-Microsoft 365 admins can also track Copilot Chat usage in their Microsoft 365 environments. The [Microsoft 365 Copilot Chat usage dashboard](/microsoft-365/admin/activity-reports/microsoft-copilot-usage) provides insights into active usage of Copilot Chat. This can be helpful in helping to track adoption over time.
+The [Microsoft 365 Copilot Chat usage report](/microsoft-365/admin/activity-reports/microsoft-copilot-usage) helps admins understand how users are engaging with Copilot Chat and can be useful in tracking adoption over time and in which Microsoft 365 app (for example, Teams, Outlook, and Word). It shows key metrics such as total active users, average daily active users, total prompts submitted, average prompts per user. It shows which Microsoft 365 apps You can review usage totals and trends over the past 7, 30, 90, or 180 days. The report also includes per‑user activity details—such as last activity date, number of prompts, and active days—which are anonymized by default.
+
+Admins can also use the [Organizational messages](/microsoft-365/admin/misc/organizational-messages-microsoft-365) feature in Microsoft 365 to help increase adoption. It lets you reach users in the flow of their daily work with targeted, actionable guidance—not just awareness fluff. 
+
+Combining both of the above can be really useful for not only finding analyzing usage trends, but also actions to help fix the problem.
+
+For example, in the Copilot Chat usage report, and admin might discover that Copilot Chat usage is unexpectedly low (for example, no Copilot Chat usage in the past 14 days). Through organizational messaging, the admin can send notifications directly to these users to provide them more guidance. 
+
 
 ## Manage Copilot Chat
 
