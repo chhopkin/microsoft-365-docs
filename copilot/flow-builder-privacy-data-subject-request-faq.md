@@ -25,17 +25,20 @@ Flows created with Workflows agent are stored in the user's Power Platform envir
 
 Users can export or delete flows using standard Power Platform tools. Flows are subject to Microsoft’s Data Subject Request (DSR) processes.
 
+Export: Admins can export all data pertaining to a user's usage on Workflows Agents. Learn more here:
+[List flows for a user](https://learn.microsoft.com/en-us/connectors/flowmanagement/#list-flows-as-admin-(v2)), 
+[Get flow definition](https://learn.microsoft.com/en-us/connectors/flowmanagement/#get-flow-as-admin) 
+
+Delete/Reassign: Admins can delete/reassign workflows agents created by a user. [Learn More](https://learn.microsoft.com/en-us/power-automate/privacy-dsr-delete#reassign-and-copy-the-users-flows)
+
 Here are some resources about DSR requests:
 
 - [Responding to DSR delete requests for Microsoft Dataverse customer data](/power-platform/admin/dataverse-privacy-dsr-guide)
 - [Responding to DSR delete requests to delete Power Apps customer data](/power-platform/admin/powerapps-privacy-delete-dsr)
-- [Export process data](/power-automate/minit/export)
 
 ## Is conversation history stored or exportable?
 
-No. Workflows agent doesn't retain conversation history. All interactions are processed in real time and aren't stored in Microsoft 365 Copilot conversation history or backend services.
-
-Because no chat history is stored, there's no conversational data to export or delete under DSR.
+Yes, conversations with _Workflows agent_ are retained in the Microsoft 365 conversation history.
 
 To learn more about how Microsoft 365 Copilot handles data, see [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
 
