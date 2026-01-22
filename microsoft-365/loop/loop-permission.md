@@ -76,7 +76,7 @@ This section applies to shared workspaces. It doesn't apply to Copilot Pages, Co
 
 ### Tenant-owned workspaces
 
-Shared Loop workspaces, which are created within the Loop app, are managed within the Loop app by the workspace owners.
+Shared Loop workspaces, which are created within the Loop application, are managed within the Loop application by the workspace owners.
 
 Owners can assign more members as owners. If all the owners leave the company, the workspace becomes ownerless, remains in the tenant, and isn't automatically deleted. Administrators can assign new owners to ownerless workspaces.
 
