@@ -43,7 +43,7 @@ items:
         - name: Set up pay-as-you-go billing
           items:
             - name: Services in Billing node
-              href: services/update-pay-as-you-go-setup-billing-node.md
+              href: services/pay-as-you-go-setup-billing-node.md
             - name: Microsoft 365 Copilot 
               href: services/pay-as-you-go-setup-copilot.md
             - name: Services in Settings node

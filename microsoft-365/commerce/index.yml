@@ -114,7 +114,7 @@ landingContent:
           - text: Set up pay-as-you-go billing in Settings node
             url: services/pay-as-you-go-setup.md
           - text: Set up pay-as-you-go billing in Billing node
-            url: services/update-pay-as-you-go-setup-billing-node.md
+            url: services/pay-as-you-go-setup-billing-node.md
           - text: Set up a pay-as-you-go budget
             url: services/pay-as-you-go-budget.md
           - text: Start using pay-as-you-go services
