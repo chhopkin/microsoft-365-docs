@@ -21,7 +21,7 @@ description: "The steps to take after completing a migration with Microsoft 365 
 > [!IMPORTANT]
 > Tenant-to-tenant migration is currently available in preview. Features and availability may change before general availability (GA).
 
-After the migration completes, you should remove permissions and return the tenants to their original nonmigration state. If you want to migrate again in the future, you need to restore all these permissions and settings. To remove the data and permissions, you will need to import the individual modules before deletion.
+After the migration completes, you should remove permissions and return the tenants to their original nonmigration state. If you want to migrate again in the future, you need to restore all these permissions and settings. To remove the data and permissions, you need to import the individual modules before deletion.
 
 Identity mapping data is stored until you explicitly delete it.
 
