@@ -20,7 +20,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
   - Microsoft 365 for frontline workers
-ms.date: 10/06/2025
+ms.date: 1/21/2026
 ---
 
 # Get started with Microsoft 365 for frontline workers
@@ -54,7 +54,7 @@ Frontline Agent keeps frontline workers and managers aligned, informed, and prod
 - Summarizing key updates and action items at the start of your shift
 - Helping draft end-of-shift handovers
 
-Frontline Agent is available in Microsoft 365 Copilot and in Microsoft Teams just like any other teammate. Frontline Agent helps frontline workers and managers stay aligned, informed, and productive. Built on Microsoft 365, Frontline Agent operates within your existing security, compliance, and device management framework. Learn more about [setting up Frontline Agent in your organization](setupfrontlineagent.md).
+Frontline Agent is rolling out in Microsoft 365 Copilot and currently available in Microsoft Teams just like any other teammate. Frontline Agent helps frontline workers and managers stay aligned, informed, and productive. Built on Microsoft 365, Frontline Agent operates within your existing security, compliance, and device management framework. Learn more about [setting up Frontline Agent in your organization](setupfrontlineagent.md).
 
 ### Licensing for your frontline workers
 
@@ -97,8 +97,8 @@ Enhance workforce management with [Shifts](shifts-for-teams-landing-page.md), th
 
 |Capability |More information |
 |-----------|---------------------|
-|Learn about Frontline Agent scenarios |<ul><li>[What scenarios does Frontline Agent enable?](setupfrontlineagent.md)</li></ul>|
-|Set up Frontline Agent|<ul><li>[Prerequisites](setupfrontlineagent.md)</li></ul>|
+|Learn about Frontline Agent scenarios |[What scenarios does Frontline Agent enable?](setupfrontlineagent.md)|
+|Set up Frontline Agent|[Prerequisites](setupfrontlineagent.md)|
 
 ## Safeguard your business
 

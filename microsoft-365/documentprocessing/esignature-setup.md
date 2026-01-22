@@ -20,7 +20,7 @@ description: Learn how to set up the service and manage sites in eSignature.
 # Set up eSignature
 
 > [!NOTE]
-> The eSignature service is available in selected regions. If a tenant's location is a supported region, eSignature is available for that tenant. For multi-geo enabled tenants in supported regions, this service is available in the home geo only. The service rolls out to [other regions](esignature-overview.md#regional-availability) later this year.
+> For multi-geo enabled tenants, this service is available in the home geo only.
 
 This is a pay-as-you-go service that is set up in the Microsoft 365 admin center. Before you begin, determine whether this feature is appropriate for your needs by reading the [Before you begin section](esignature-overview.md#before-you-begin).
 
@@ -146,6 +146,8 @@ Microsoft Entra B2B provides authentication and management of **new guests**. Ex
 
 If a guest is deleted from the tenant while the request is ongoing, they can no longer access the request document or the final signed document. In such cases, you need to resend the eSignature request. Before deleting a guest, ensure they aren't involved in any ongoing requests. This setting doesn't affect your existing Microsoft Entra ID guests.
 
+### Site Sensitivity Labels
+If the Word or PDF documents to be signed reside in a site with a sensitivity label, the label may prevent users from sending requests to external users. To remedy, enable the label setting **Let people who use this label share the site with people outside your organization** or move the documents to a site that has a label with that setting enabled. 
 ### Authentication
 
 External recipients might need to authenticate before they're able to access a document for signing. The type of authentication required by the external recipients depends on the configuration for guests at the SharePoint level or at the tenant level. Additionally, if the guest belongs to an organization with a Microsoft 365 tenant, it's possible for their organization's setup to affect their authentication experience when attempting to sign the document. For more information, see [Collaboration with guests in a site](/microsoft-365/solutions/collaborate-in-site).

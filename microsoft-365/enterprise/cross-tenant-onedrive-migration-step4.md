@@ -48,7 +48,7 @@ To ensure that OneDrive permissions are retained as part of the migration, a map
 
 ## For tenants with Multi-Geo
 
-When creating M365 group objects, we recommend you assign the group to the geo instance the site's to be migrated to at the time of creation. The "MailboxRegion" is used to set the residency of the group object. 
+When creating Microsoft 365 group objects, we recommend you assign the group to the geo instance the site's to be migrated to at the time of creation. The "MailboxRegion" is used to set the residency of the group object. 
 
    ```powershell
    New-UnifiedGroup -DisplayName MultiGeoEUR -Alias "MultiGeoEUR" -AccessType Public -MailboxRegion EUR

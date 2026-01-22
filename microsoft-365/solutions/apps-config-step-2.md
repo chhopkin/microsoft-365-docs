@@ -24,7 +24,7 @@ Microsoft Intune makes it easy to provide Microsoft Outlook to your end users at
 >
 > If your organization uses a native email app or a different email service, you don't need to configure Microsoft Outlook.
 >
-> App configuration policies are targeted to the iOS/iPadOS and Android platforms. However some apps, such as M365 apps for Windows and later devices, have configuration options available when you add the app to Intune.
+> App configuration policies are targeted to the iOS/iPadOS and Android platforms. However some apps, such as Microsoft 365 apps for Windows and later devices, have configuration options available when you add the app to Intune.
 
 Outlook app configuration can be delivered by selecting either of the following methods:
 
