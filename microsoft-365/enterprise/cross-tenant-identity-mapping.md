@@ -74,10 +74,10 @@ See the following example of an incorrectly configured MailUser (also known as a
 
 Issues:
 
-- EmailAddresses field has a non-accepted domain address as primary SMTP
-- PrimarySmtpAddress field also has a non-accepted domain value
+- EmailAddresses field has a nonaccepted domain address as primary SMTP
+- PrimarySmtpAddress field also has a nonaccepted domain value
 
-To correct this MailUser, the example below fixes the PrimarySmtpAddress and Email Addresses fields.
+To correct this MailUser, the following example fixes the PrimarySmtpAddress and Email Addresses fields.
 
 |Attribute | Value |
 | --- | --- | 
@@ -148,8 +148,8 @@ Download and install the most recent [Cross-Tenant Identity Mapping PowerShell m
 
   > [!TIP]
   > If you see an error about the -AllowPrerelease switch, update PowerShellGet using the following command:
-  > `Install-Module PowerShellGet -AllowClobber -Force Restart PowerShell`
-
+  > `Install-Module PowerShellGet -AllowClobber -Force `
+  
 > [!NOTE]
 > If you previously used the Identity Mapping service, you should update the module with the following command to make sure it's the most recent version:
 > `Update-Module CrossTenantIdentityMapping -AllowPrerelease`

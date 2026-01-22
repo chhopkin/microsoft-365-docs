@@ -7,7 +7,7 @@ items:
     items:
     - name: What is Microsoft 365 Copilot?
       href: microsoft-365-copilot-overview.md
-    - name: Microsoft 365 Copilot Chat overview 
+    - name: Microsoft 365 Copilot Chat overview
       href: /copilot/overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     - name: Microsoft 365 Copilot app
       href: microsoft-365-copilot-app-overview.md
@@ -92,13 +92,15 @@ items:
       href: microsoft-365-copilot-e3-guide.md
     - name: E5 implementation guide
       displayName: get started
-      href: microsoft-365-copilot-e5-guide.md      
+      href: microsoft-365-copilot-e5-guide.md
   - name: Enabling Copilot User Experiences
     items:
     - name: Anthropic as a subprocessor for Microsoft Online Services
       href: connect-to-ai-subprocessor.md
     - name: Deploy Microsoft 365 Copilot app
       href: deploy-microsoft-365-copilot-app.md
+    - name: Deploy Microsoft 365 Copilot app FAQ
+      href: faq-deploy-microsoft-365-copilot-app.yml
     - name: Set up Copilot and assign licenses
       href: microsoft-365-copilot-setup.md
     - name: Set up Organizational Asset Library
@@ -128,7 +130,9 @@ items:
   - name: Microsoft 365 Copilot Features
     items:
     - name: Manage harmful content protection settings for Copilot Chat
-      href: harmful-content-protection-copilot-chat.md  
+      href: harmful-content-protection-copilot-chat.md
+    - name: Add watermarks to content generated or altered by using AI
+      href: watermarks.md  
     - name: Copilot Prompts
       items:
       - name: Manage scheduled prompts
@@ -162,8 +166,8 @@ items:
       - name: People Skills import and export
         href: people-skills-import-export-skills.md
     - name: Opal (Frontier) in Microsoft 365
-      items:   
-      - name: Setting up and managing Opal 
+      items:
+      - name: Setting up and managing Opal
         href: opal-settings-manage.md
       - name: Opal (Frontier) FAQ
         href: faq-opal.yml
@@ -231,13 +235,13 @@ items:
         - name: M365 Copilot agents deployment blueprint
           href: agent-essentials/m365-agents-blueprint.md
         - name: M365 Copilot agents deployment checklist
-          href: agent-essentials/m365-agents-checklist.md  
+          href: agent-essentials/m365-agents-checklist.md
         - name: M365 Copilot agents visual guide
-          href: agent-essentials/m365-agents-visual-map.md 
+          href: agent-essentials/m365-agents-visual-map.md
         - name: M365 Copilot agents admin guide
           href: agent-essentials/m365-agents-admin-guide.md
         - name: M365 Copilot agents FAQ
-          href: agent-essentials/m365-agents-faq.md                   
+          href: agent-essentials/m365-agents-faq.md
       - name: Manage agent access and availability policies
         items:
         - name: Agent access settings
@@ -253,14 +257,14 @@ items:
           - name: Submit agents to the marketplace
             href: agent-essentials/agent-policies/agent-submit-marketplace.md
       - name: Manage agent inventory and lifecycle
-        href: /microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json      
+        href: /microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
         items:
         - name: Manage agent permissions
-          href: /microsoft-365/admin/manage/manage-agents-permissions?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json   
+          href: /microsoft-365/admin/manage/manage-agents-permissions?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
         - name: Manage Agent Builder agents
           items:
           - name: Manage shared agents
-            href: /microsoft-365/admin/manage/manage-shared-agents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json 
+            href: /microsoft-365/admin/manage/manage-shared-agents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
         - name: Manage Copilot Studio agents
           items:
           - name: Manage requested agents
@@ -268,11 +272,11 @@ items:
           - name: Upload custom agents
             href: agent-essentials/agent-lifecycle/agent-upload-agents.md
           - name: Manage agent actions
-            href: /microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json#actions-for-agents 
+            href: /microsoft-365/admin/manage/manage-copilot-agents-integrated-apps?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json#actions-for-agents
         - name: Pin agents
-          href: /microsoft-365/admin/manage/manage-pinning-agents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json 
+          href: /microsoft-365/admin/manage/manage-pinning-agents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
         - name: Manage M365 Copilot connectors
-          href: /microsoft-365-copilot/extensibility/overview-copilot-connector?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json 
+          href: /microsoft-365-copilot/extensibility/overview-copilot-connector?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
         - name: Assign and deploy an agent
           items:
           - name: Set availability of an agent
@@ -280,27 +284,27 @@ items:
           - name: Deploy an agent
             href: agent-essentials/agent-lifecycle/agent-deploy.md
           - name: Install an agent
-            href: copilot-agent-install.md        
+            href: copilot-agent-install.md
       - name: Create M365 Copilot agents
         items:
         - name: Create agents overview
           href: /microsoft-365-copilot/extensibility/agents-overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
         - name: Choose a Copilot Studio experience
-          href: /microsoft-365-copilot/extensibility/copilot-studio-experience?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json         
+          href: /microsoft-365-copilot/extensibility/copilot-studio-experience?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
         - name: Development environment setup
-          href: /microsoft-365-copilot/extensibility/prerequisites?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json   
+          href: /microsoft-365-copilot/extensibility/prerequisites?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
         - name: Declarative agents
           items:
           - name: Create declarative agents
             href: /microsoft-365-copilot/extensibility/overview-declarative-agent?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
           - name: Declarative agent tools
-            href: /microsoft-365-copilot/extensibility/declarative-agent-tool-comparison?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json        
+            href: /microsoft-365-copilot/extensibility/declarative-agent-tool-comparison?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
         - name: Create custom engine agents
-          href: /microsoft-365-copilot/extensibility/overview-custom-engine-agent?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json  
+          href: /microsoft-365-copilot/extensibility/overview-custom-engine-agent?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
         - name: Agent development tools
           items:
           - name: Create agents using SharePoint
-            href: https://support.microsoft.com/office/create-a-sharepoint-agent-d16c6ca1-a8e3-4096-af49-67e1cfdddd42?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json 
+            href: https://support.microsoft.com/office/create-a-sharepoint-agent-d16c6ca1-a8e3-4096-af49-67e1cfdddd42?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
           - name: Agent Builder
             items:
             - name: Agent Builder agents overview
@@ -334,7 +338,7 @@ items:
               - name: Add triggers
                 href: /microsoft-copilot-studio/authoring-triggers-about?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
           - name: Create agents using M365 Agents Toolkit
-            href: /microsoft-365/developer/overview-m365-agents-toolkit?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json 
+            href: /microsoft-365/developer/overview-m365-agents-toolkit?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
       - name: Manage Copilot agent data access
         items:
         - name: Manage agent access to third-party systems
@@ -344,13 +348,13 @@ items:
           - name: Graph connector agent for on-premises data
             href: /microsoftsearch/graph-connector-agent?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
           - name: Power Platform connectors
-            href: /connectors/overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json          
+            href: /connectors/overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
         - name: Manage oversharing of SharePoint content
           items:
           - name: Get ready for Copilot with SharePoint Advanced Management
             href: /sharepoint/get-ready-copilot-sharepoint-advanced-management?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
           - name: Use Microsoft Purview Data Security Posture Management (DSPM) for AI
-            href: /purview/dspm-for-ai?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json          
+            href: /purview/dspm-for-ai?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
           - name: Address oversharing concerns in Microsoft 365 Copilot deployment
             href: microsoft-365-copilot-blueprint-oversharing.md?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
         - name: Manage auditing and reporting for Copilot agents
@@ -358,7 +362,7 @@ items:
           - name: Enable admin logging for Copilot Studio
             href: /microsoft-copilot-studio/admin-logging-copilot-studio?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
           - name: Use Microsoft Purview Data Security Posture Management (DSPM) for AI
-            href: /purview/dspm-for-ai?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json        
+            href: /purview/dspm-for-ai?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
           - name: Configure Microsoft Sentinel to ingest the audit logs
             href: /azure/sentinel/relate-alerts-to-incidents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
         - name: Manage data security
@@ -368,23 +372,23 @@ items:
           - name: Data loss prevention (DLP)
             href: /purview/dlp-learn-about-dlp?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
           - name: Audit using Microsoft Purview Data Security Posture Management (DSPM) for AI
-            href: /purview/dspm-for-ai?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json          
+            href: /purview/dspm-for-ai?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
         - name: Manage data compliance
           items:
           - name: Compliance Manager
             href: /purview/compliance-manager?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
-          - name: Configure a Communication Compliance policy to detect generative AI interactions 
+          - name: Configure a Communication Compliance policy to detect generative AI interactions
             href: /purview/communication-compliance-copilot?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
           - name: Retention policy support for Copilot
-            href: /purview/retention?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json           
+            href: /purview/retention?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
           - name: Search Copilot and agent data
-            items: 
+            items:
             - name: eDiscovery
               href: /purview/ediscovery-search-and-delete-copilot-data?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
             - name: Copilot Studio logging
               href: /microsoft-copilot-studio/admin-logging-copilot-studio?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
             - name: Data Security Posture Management (DSPM) for AI
-              href: /purview/dspm-for-ai?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json     
+              href: /purview/dspm-for-ai?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
       - name: Manage Copilot agent usage billing
         items:
         - name: Understand Copilot licensing
@@ -414,9 +418,9 @@ items:
           - name: Understand Copilot Credit event scenarios
             href: /microsoft-copilot-studio/requirements-messages-management?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json#copilot-credits-and-events-scenarios
         - name: M365 Copilot agent usage reports
-          href: agent-essentials/agent-usage-billing/agent-usage-cs-reports.md  
+          href: agent-essentials/agent-usage-billing/agent-usage-cs-reports.md
     - name: Manage agents
-      items: 
+      items:
       - name: Agents in Copilot Chat
         href: /copilot/agents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
       - name: Install agents in Microsoft 365 Copilot
@@ -444,7 +448,7 @@ items:
         - name: Overview and setup of Learning agent
           href: /viva/learning/learning-agent-overview-deployment-steps?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
       - name: Researcher agent
-        items:   
+        items:
         - name: Overview of Researcher agent
           href: researcher-agent.md
         - name: Researcher agent FAQ
@@ -465,12 +469,12 @@ items:
         items:
           - name: Overview of Workforce Insights agent
             href: workforce-insights-agent.md
-      - name: Word, Excel and PowerPoint Agents(Frontier) in Microsoft 365 Copilot 
-        items:   
+      - name: Word, Excel and PowerPoint Agents(Frontier) in Microsoft 365 Copilot
+        items:
         - name: Setting up and managing agents
           href: wordexcelppt-agents.md
         - name: Word, Excel, and PowerPoint Agents FAQ
-          href: faq-wordexcelppt-agents.yml        
+          href: faq-wordexcelppt-agents.yml
   - name: Manage generative AI apps for your organization
     href: manage-generative-ai-apps.md
   - name: Service plan diagnostic tool
@@ -486,5 +490,4 @@ items:
     href: release-notes.md
   - name: Submit Copilot feedback to Microsoft
     href: provide-feedback.md
-  - name: Connect to Anthropic's AI models
-    href: connect-to-ai-models.md   
+

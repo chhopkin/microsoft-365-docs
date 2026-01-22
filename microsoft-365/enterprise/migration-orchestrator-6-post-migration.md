@@ -21,7 +21,7 @@ description: "The steps to take after completing a migration with Microsoft 365 
 > [!IMPORTANT]
 > Tenant-to-tenant migration is currently available in preview. Features and availability may change before general availability (GA).
 
-After the migration's complete, you should remove permissions and return the tenants to their original non-migration state. If you want to migrate again in the future, you need to restore all these permissions and settings.
+After the migration completes, you should remove permissions and return the tenants to their original nonmigration state. If you want to migrate again in the future, you need to restore all these permissions and settings.
 
 Identity mapping data is stored until you explicitly delete it.
 
@@ -54,7 +54,7 @@ Check which CTMS app you provisioned. The ctmsAppId is one of:
 - '506cf32b-5cbe-4ced-84c6-c7bde303f77c'
 - '6eda910c-74a9-491b-bda3-88692d503655'
 
-Go to the Microsoft 365 admin center and remove all permissions, to remove the service principals and apps for the Teams Chats app and the Cross-Tenant Migration Service apps.
+To remove the service principals and apps for the Teams Chats app and the Cross-Tenant Migration Service apps, go to the Microsoft 365 admin center and remove all permissions.
 
 ### User cleanup
 
