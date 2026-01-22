@@ -131,6 +131,8 @@ items:
     items:
     - name: Manage harmful content protection settings for Copilot Chat
       href: harmful-content-protection-copilot-chat.md
+    - name: Add watermarks to content generated or altered by using AI
+      href: watermarks.md  
     - name: Copilot Prompts
       items:
       - name: Manage scheduled prompts
