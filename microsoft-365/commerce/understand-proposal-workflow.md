@@ -210,13 +210,10 @@ Payment instructions for where to send check or wire transfers are included in t
 ## Accessing your proposals
 
 You can access a list of currently active and completed proposals in the Microsoft 365 admin center. To see a list of your proposals, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">Billing accounts</a> page, then select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2253461" target="_blank">Proposals</a> tab. From there, you can see a list of all your active and completed proposals, filter by proposal state, and search for proposals by name. Select a proposal to open the proposal and accept it, if active, or review it, if completed.
-## Related documents
 
-- [What is a cloud subscription?](https://https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/cloud-subscription)
+## Related content
 
-- [Manage a Microsoft Azure credit resource group a subscription](https://https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/manage-azure-credits)
-
-- [Manage a Microsoft Azure discount resource under a subscription ](https://https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/manage-azure-discount) 
-
-- [Manage a Microsoft Azure Consumption Commitment resource ](https://https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/manage-consumption-commitment) 
-
+[What is a cloud subscription?](/azure/cost-management-billing/manage/cloud-subscription) (article)\
+[Manage a Microsoft Azure credit resource group a subscription](/azure/cost-management-billing/manage/manage-azure-credits) (article)\
+[Manage a Microsoft Azure discount resource under a subscription](/azure/cost-management-billing/manage/manage-azure-discount)  (article)\
+[Manage a Microsoft Azure Consumption Commitment resource](/azure/cost-management-billing/manage/manage-consumption-commitment)  (article)
