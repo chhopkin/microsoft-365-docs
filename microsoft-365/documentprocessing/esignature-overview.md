@@ -77,7 +77,7 @@ The providers facilitate the signing process and send out all relevant notificat
 
 - Microsoft 365 eSignature now available worldwide for PDFs and Word documents.
 
-- eSignature for Microsoft Word is available worldwide to users on the Microsoft 365 Beta, Current and Monthly Enterprise channels. 
+- eSignature for Microsoft Word is available worldwide to users on the Microsoft 365 Beta, Current and Monthly Enterprise Channels. 
 
 - Tracking of eSignature requests through the Approvals app in Microsoft Teams is available.
 
