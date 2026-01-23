@@ -1,6 +1,5 @@
 ---  
 title: "Minimum requirements to deploy Microsoft 365 Copilot in your organization"  
-description:  
 author: kwekuako
 ms.author: kwekua
 manager: scotv
@@ -127,20 +126,20 @@ Review and audit site permissions using [SharePoint Advanced Management](/sharep
 
 Begin with a limited rollout to test configurations, gather feedback, and refine processes.
 
-- [Microsoft 365 Copilot Setup Guide](https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-setup).
+- [Microsoft 365 Copilot Setup Guide](microsoft-365-copilot-setup.md)
 
 ### Check for Microsoft 365 Copilot readiness
 
 Ensure your organization is ready for Microsoft 365:
 
-- [Microsoft 365 admin center](https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness?view=o365-worldwide)
+- [Microsoft 365 admin center](../microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness.md)
 
 ### Buy Microsoft 365 Copilot licenses
 
 Ensure your organization has the correct licensing and subscriptions:
 
-- [License options for Microsoft 365 Copilot](https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-licensing)
-- [Try or buy a Microsoft 365 for business subscription](https://learn.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide)
+- [License options for Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)
+- [Try or buy a Microsoft 365 for business subscription](../microsoft-365/commerce/try-or-buy-microsoft-365.md)
 
 ### Assign AI administrator role to a user
 
@@ -150,7 +149,9 @@ They can also create and manage support tickets in Azure and the Microsoft 365 a
 
 ### Add users and assign licenses to users
 
-Use the Microsoft 365 admin center to assign Copilot licenses to selected users: [Add users and assign licenses](https://learn.microsoft.com/microsoft-365/admin/add-users/add-users)
+Use the Microsoft 365 admin center to assign Copilot licenses to selected users:
+
+[Add users and assign licenses](../microsoft-365/admin/add-users/add-users.md)
 
 ### Train end users
 
@@ -166,20 +167,20 @@ Use communication templates, workshops, and champions to promote usage.
 - [Copilot Success Kit](https://adoption.microsoft.com/copilot/success-kit/)
 - [Microsoft 365 Copilot Adoption Hub](https://adoption.microsoft.com/copilot/)
 
-### Get feedback
+### Get ready
 
-Gather feedback through surveys, usage analytics, and direct user input:
+Get info through surveys, usage analytics, and direct user input:
 
-- [Copilot Dashboard](https://learn.microsoft.com/en-us/microsoft-365/copilot/dashboard).
+- [Copilot dashboard](/viva/insights/org-team-insights/copilot-dashboard)
 
 ### Expand to the next group and scale out
 
 Use learnings from the pilot to refine and scale deployment across departments:
 
-- [Microsoft 365 Copilot Deployment Readiness](https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness)
+- [Microsoft 365 Copilot Deployment Readiness](../microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness.md)
 
 ### Monitor usage and evaluate success
 
 Track adoption, usage patterns, and business impact using built-in reporting tools:
 
-- [Microsoft 365 Copilot usage report](https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage)
+- [Microsoft 365 Copilot usage report](../microsoft-365/admin/activity-reports/microsoft-365-copilot-usage.md)
