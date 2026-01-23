@@ -18,7 +18,7 @@ description: Minimum requirements to deploy Microsoft 365 Copilot in your organi
 
 [Microsoft 365 Copilot](microsoft-365-copilot-overview.md) is an AI-powered tool that helps with your work tasks. Microsoft 365 Copilot is integrated into Microsoft 365 apps such as Word, Excel, Outlook, and Teams. It uses the latest AI models and data from the web and your organization to answer questions, generate content and ideas, and find information. For more information, see [Microsoft 365 Copilot overview](microsoft-365-copilot-overview.md).
 
-To successfully deploy Microsoft 365 Copilot in your organization, you need to meet certain technical and licensing requirements. This guide will help you understand the necessary prerequisites to ensure a smooth deployment process.
+To successfully deploy Microsoft 365 Copilot in your organization, you need to meet certain technical and licensing requirements. This guide will help you understand the necessary prerequisites to ensure a smooth deployment.
 
 ## Licensing requirements
 
@@ -120,7 +120,7 @@ Before selecting users or purchasing licenses, define your organizational goals,
 
 ### Protect sensitive data
 
-Review and audit site permissions using [SharePoint Advanced Management](/sharepoint/advanced-management). Implement robust data security solutions with [Microsoft Purview](/purview/ai-microsoft-purview)
+Review and audit site permissions using [SharePoint Advanced Management](/sharepoint/advanced-management). Implement robust data security solutions with [Microsoft Purview](/purview/ai-microsoft-purview).
 
 ### Start with a small group using a phased approach
 
