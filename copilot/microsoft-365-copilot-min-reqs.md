@@ -4,7 +4,7 @@ description:
 author: kwekuako
 ms.author: kwekua
 manager: scotv
-ms.date: 09/02/2025
+ms.date: 01/22/2026
 ms.topic: overview
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
@@ -17,7 +17,9 @@ description: Minimum requirements to deploy Microsoft 365 Copilot in your organi
 
 # Minimum requirements to deploy Microsoft 365 Copilot in your organization
 
-To successfully deploy Microsoft 365 Copilot in your organization, you need to meet specific technical and licensing requirements. This guide will help you understand the necessary prerequisites to ensure a smooth deployment process.
+[Microsoft 365 Copilot](microsoft-365-copilot-overview.md) is an AI-powered tool that helps with your work tasks. Microsoft 365 Copilot is integrated into Microsoft 365 apps such as Word, Excel, Outlook, and Teams. It uses the latest AI models and data from the web and your organization to answer questions, generate content and ideas, and find information. For more information, see [Microsoft 365 Copilot overview](microsoft-365-copilot-overview.md).
+
+To successfully deploy Microsoft 365 Copilot in your organization, you need to meet certain technical and licensing requirements. This guide will help you understand the necessary prerequisites to ensure a smooth deployment process.
 
 ## Licensing requirements
 
@@ -36,7 +38,7 @@ Once your organization has one of these subscriptions or plans, you can purchase
 
 ## Network requirements
 
-Microsoft 365 Copilot enables AI scenarios that access the web, so it may need to connect to specific network endpoints (domains). See the full documentation of network requirements for Microsoft 365 Copilot, which provides a complete list of domains and WebSockets (WSS) that an organization's network shouldn't block.
+Microsoft 365 Copilot enables AI scenarios that access the web, so it may need to connect to specific network endpoints (domains). See the full documentation of network requirements for Microsoft 365 Copilot, which provides a complete list of domains and WebSockets (WSS) that an organization's network shouldn't block. For more information, see [Microsoft 365 app and network requirements for Microsoft 365 Copilot](microsoft-365-copilot-requirements.md).
 
 ## Sign-in requirements
 
@@ -74,7 +76,7 @@ Any modern browser with third-party cookies enabled for online apps. Recommended
 Users can access Microsoft 365 Copilot from:
 
 - **Web**: go to [m365copilot.com](https://m365copilot.com)
-- **App**: Download the Microsoft Copilot app from the Microsoft store
+- **App**: Download the Copilot app from the Microsoft store
 - **Mobile**: Install the app from the App Store (iOS) or Google Play (Android)
 
 ## Security and compliance requirements

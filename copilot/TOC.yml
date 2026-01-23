@@ -73,6 +73,8 @@ items:
 
 - name: Implement
   items:
+  - name: Minimum requirements to deploy Microsoft 365 Copilot
+    href: microsoft-365-copilot-min-reqs
   - name: Usage Based Billing
     items:
     - name: Set up pay-as-you-go
