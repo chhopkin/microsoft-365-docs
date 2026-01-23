@@ -132,11 +132,9 @@ Copilot Chat is available to users in many of the key Microsoft 365 apps in whic
 ## Track Copilot Chat usage
 The [Microsoft 365 Copilot Chat usage report](/microsoft-365/admin/activity-reports/microsoft-copilot-usage) helps admins understand how users are engaging with Copilot Chat and can be useful in tracking adoption over time and in which Microsoft 365 app (for example, Teams, Outlook, and Word). It shows key metrics such as total active users, average daily active users, total prompts submitted, average prompts per user. It shows which Microsoft 365 apps You can review usage totals and trends over the past 7, 30, 90, or 180 days. The report also includes per‑user activity details—such as last activity date, number of prompts, and active days—which are anonymized by default.
 
-Admins can also use the [Organizational messages](/microsoft-365/admin/misc/organizational-messages-microsoft-365) feature in Microsoft 365 to help increase adoption. It lets you reach users in the flow of their daily work with targeted, actionable guidance—not just awareness fluff. 
+Admins can also use the [Organizational messages](/microsoft-365/admin/misc/organizational-messages-microsoft-365) feature in the report to act on adoption trends they are seeing. It lets you reach your users in the flow of their daily work with targeted, actionable guidance.
 
-Combining both of the above can be really useful for not only finding analyzing usage trends, but also actions to help fix the problem.
-
-For example, in the Copilot Chat usage report, and admin might discover that Copilot Chat usage is unexpectedly low (for example, no Copilot Chat usage in the past 14 days). Through organizational messaging, the admin can send notifications directly to these users to provide them more guidance. 
+For example, in the Copilot Chat usage report, and admin might discover that Copilot Chat usage is unexpectedly low, where a number of users have not used Copilot Chat for an extended period of time (for example, the past 28 days). Through organizational messaging, the admin can send notifications directly to these specific users. The notification could be to provide more examples on how Copilot Chat could be useful to complete common work tasks and links to article or video resources. And if your users mostly work in Microsoft Teams, you can have the notication display in Teams to increase awareness.
 
 
 ## Manage Copilot Chat
