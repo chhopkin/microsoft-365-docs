@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 11/18/2025
+ms.date: 01/13/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -87,36 +87,16 @@ Only agents built with **Copilot Studio Lite** are governed by sharing control.
 
 ### Templates
 
-To strengthen governance and security for agents, a template can be applied that includes predefined policies.
-
-- Default Template: Microsoft provides an out of box template with essential security and compliance controls from Microsoft Entra, Purview, and SharePoint. Default template automatically assigns the Agent 365 license to minimize manual license management.
-
-- Custom Template: If you need additional governance beyond the default, create a custom template and apply extra policies such as Restrict External Content sharing to meet your organization's requirements.
+To enhance governance and security for agents, you can apply a template that includes predefined policies. Microsoft offers out-of-the-box default templates that include essential security and compliance controls from Microsoft Entra, Purview, and SharePoint. For customers enrolled in the Frontier program with an active Agent 365 license, these default templates automatically assign the license, helping reduce manual license management.
 
 > [!NOTE]
 >
-> As the administrator you can control what policies you would like to apply on agents when you're publishing or activating those agents.
-
-To create custom template, follow these steps:
-
-1. Open the [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-
-1. Select **Agents** > **Settings** > **Template** > **Add New Template**.
-
-1. Select the agent that will use the template:
-
-   - Agent that allows instances.
-   - Agent with no instances.
-   - Provide the template name.
-   - Provide description for the template.
-
-    :::image type="content" source="../../media/agents/details-page.png" alt-text="Screenshot of Details page." lightbox="../../media/knowledge-agent-idea.png":::
-
-1. Select the **Next** button and then choose any custom policies you want to add to the template. Microsoft's built-in default policies appears preselected and locked. Since the default policies are locked, they can't be edited. You can add additional policies as needed to meet your organization's requirements.
-
-1. You can review and finish adding the template.
-
-When activating or publishing an agent, a dropdown menu with both your custom templates and Microsoft's default templates is displayed. Select the desired template from the list to apply its policies to the agent.
+> As an administrator, you can choose which default template to apply based on the agent type. There are two default templates:
+>
+> - One for agents that allow instance creation.
+> - One for agents that don't allow instance creation.
+>
+> When an agent is activated or published, a dropdown menu displays both Microsoft default templates. Select the desired template to apply its policies to the agent.
 
 ### User access
 

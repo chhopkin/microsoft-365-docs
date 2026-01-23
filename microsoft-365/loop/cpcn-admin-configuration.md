@@ -46,15 +46,24 @@ You can also use security or dynamic groups. For details, see [Create, edit, or 
 
 Copilot Pages and Copilot Notebooks are independent of Loop. You can enable or disable them separately from Loop in your organization.
 
-Copilot Pages and Copilot Notebooks all use the same Loop My workspace container. For more information, see to [storage](cpcn-storage.md).
+Copilot Pages and Copilot Notebooks all use the same Loop My workspace container. For more information, see [storage](cpcn-storage.md).
 
-To share Copilot Pages as interactive components (instead of just hyperlinks) in Teams, Outlook, Whiteboard, OneNote, or the Loop app, Loop components must be enabled. Without Loop components enabled in the Microsoft 365 ecosystem, Copilot Pages are only interactive within the Microsoft 365 Copilot app and supported chat experiences. For details on enabling Loop components in the Microsoft 365 ecosystem, see [Loop admin policies](loop-admin-configuration.md).
+To share Copilot Pages as interactive components (instead of just hyperlinks) in Teams, Outlook, Whiteboard, OneNote, or the Loop application, Loop components must be enabled. Without Loop components enabled in the Microsoft 365 ecosystem, Copilot Pages are only interactive within the Microsoft 365 Copilot app and supported chat experiences. For details on enabling Loop components in the Microsoft 365 ecosystem, see [Loop admin policies](loop-admin-configuration.md).
 
 ## User experience when Copilot Pages and Copilot Notebooks are disabled
 
-When creation is disabled, users can't create new Copilot Pages or new SharePoint Embedded containers. The Pages module remains visible in the Microsoft 365 Copilot app, but the Notebooks module is hidden.
+When creation is disabled, users are unable to create new Copilot Pages or Notebooks. The Pages module will still be visible in the Microsoft 365 Copilot app, but the Notebooks module will be hidden, preventing users from accessing existing Notebooks through the Copilot App.
 
-Existing Copilot Pages and Notebooks aren't deleted. Users can still view and edit existing items if they have permission. These files remain accessible via the app, shared links, search, and are discoverable by Purview and exportable by admins.
+Existing Copilot Pages and Notebooks aren't deleted. Users can still view and edit existing items if they have permission. These files remain accessible in the following ways:
+
+- **Loop application**: For viewing and editing Pages
+- **Microsoft 365 Copilot app**: For accessing items created in chat experiences
+- **Original storage locations**: Files added to Notebooks remain available in OneDrive and SharePoint where they're stored
+
+Existing items are also discoverable through search, Purview, and can be exported by admins.
+
+> [!IMPORTANT]
+> Sharing links to Copilot Notebooks will stop working when creation is disabled via the policy in this article.
 
 ## Settings management in Cloud Policy
 
