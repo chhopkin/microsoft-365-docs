@@ -48,7 +48,7 @@ Copilot Pages and Copilot Notebooks are independent of Loop. You can enable or d
 
 Copilot Pages and Copilot Notebooks all use the same Loop My workspace container. For more information, see [storage](cpcn-storage.md).
 
-To share Copilot Pages as interactive components (instead of just hyperlinks) in Teams, Outlook, Whiteboard, OneNote, or the Loop app, Loop components must be enabled. Without Loop components enabled in the Microsoft 365 ecosystem, Copilot Pages are only interactive within the Microsoft 365 Copilot app and supported chat experiences. For details on enabling Loop components in the Microsoft 365 ecosystem, see [Loop admin policies](loop-admin-configuration.md).
+To share Copilot Pages as interactive components (instead of just hyperlinks) in Teams, Outlook, Whiteboard, OneNote, or the Loop application, Loop components must be enabled. Without Loop components enabled in the Microsoft 365 ecosystem, Copilot Pages are only interactive within the Microsoft 365 Copilot app and supported chat experiences. For details on enabling Loop components in the Microsoft 365 ecosystem, see [Loop admin policies](loop-admin-configuration.md).
 
 ## User experience when Copilot Pages and Copilot Notebooks are disabled
 
@@ -56,7 +56,7 @@ When creation is disabled, users are unable to create new Copilot Pages or Noteb
 
 Existing Copilot Pages and Notebooks aren't deleted. Users can still view and edit existing items if they have permission. These files remain accessible in the following ways:
 
-- **Loop app**: For viewing and editing Pages
+- **Loop application**: For viewing and editing Pages
 - **Microsoft 365 Copilot app**: For accessing items created in chat experiences
 - **Original storage locations**: Files added to Notebooks remain available in OneDrive and SharePoint where they're stored
 
