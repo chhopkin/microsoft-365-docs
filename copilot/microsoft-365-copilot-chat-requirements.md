@@ -1,5 +1,5 @@
 ---
-title: Requirements and considerations for Microsoft 365 Copilot Chat admins
+title: Minimum equirements and considerations for Microsoft 365 Copilot Chat admins
 f1.keywords:
 - NOCSH
 ms.author: efrene 
@@ -22,7 +22,7 @@ appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# Requirements and considerations for Microsoft 365 Copilot Chat admins
+# Minumum requirements and considerations for Microsoft 365 Copilot Chat admins
 
 [Microsoft 365 Copilot Chat](/copilot/overview) is an AI chat tool that is included in your Microsoft 365 subscription and is integrated into Microsoft 365 apps such as Word, Excel, Outlook, and Teams. It uses the latest AI models and data from the web to answer your questions, generate content and ideas, and find information. Since it is included in your Microsoft 365 subscription, it is the entry point into the Microsoft 365 Copilot experience.
 
@@ -30,7 +30,7 @@ appliesto:
 
 This document outlines the minimum technical and licensing requirements for using Microsoft 365 Copilot Chat in your organization. It additionally includes considerations admins need to be aware of, such as security, management, and resources to help train your users.
 
-For information on minimum requirements for the Microsoft 365 Copilot add-on license, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](/copilot/microsoft-365-copilot-min-reqs).
+For information on minimum requirements for the Microsoft 365 Copilot add-on license, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](microsoft-365-copilot-min-reqs).
 
 ## Licensing requirements
 Before your users can use Microsoft Copilot Chat, they must have one of the following subscriptions or plans: 
