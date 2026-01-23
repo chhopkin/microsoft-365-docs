@@ -1,5 +1,5 @@
 ---
-title: "Set up a budget for pay-as-you-go billing in Microsoft 365"
+title: "Create a budget for pay-as-you-go billing in Microsoft 365"
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
@@ -11,11 +11,11 @@ ms.subservice: m365-commerce-payasyougo
 search.appverid: MET150
 ms.custom: 
 ms.localizationpriority:  medium
-description: "Learn how to set up a billing budget for pay-as-you-go services in the Microsoft 365 admin center. Set spending limits, configure alerts, and manage costs effectively."
+description: "Learn how to create a billing budget for pay-as-you-go services in the Microsoft 365 admin center. Set spending limits, configure alerts, and manage costs effectively."
 ms.date: 09/17/2025
 ---
 
-# Set up a budget for pay-as-you-go billing in Microsoft 365
+# Create a budget for pay-as-you-go billing in Microsoft 365
 
 This article explains how to set spending limits for pay-as-you-go billing. This feature helps you monitor usage, receive alerts as costs approach budget thresholds, and plan more effectively.
 

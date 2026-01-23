@@ -11,16 +11,18 @@ ms.subservice: m365-commerce-payasyougo
 search.appverid: MET150
 ms.custom: 
 ms.localizationpriority:  medium
-description: "Learn how to set up or disconnect pay-as-you-go billing in the Billing node of the  Microsoft 365 admin center."
+description: "Learn how to set up or disconnect billing for pay-as-you-go services for Microsoft 365 Copilot and Microsoft 365 Backup in the Billing node of the Microsoft 365 admin center. Configure billing policies, connect services, and manage your pay-as-you-go costs effectively."
 ms.date: 11/25/2025
 ---
 
 # Set up or disconnect pay-as-you-go in the Billing node of the Microsoft 365 admin center
 
-This article explains how to set up or disconnect pay-as-you-go billing in the **Billing** node of the Microsoft 365 admin center  for the following services:
+This article explains how to set up or disconnect pay-as-you-go billing in the **Billing** node of the Microsoft 365 admin center for the following services:
 
 - Copilot
-- Microsoft 365 Backup (GCC and new Backup customers. Existing backup customers continue in the Set up node).
+- Microsoft 365 Backup
+    > [!NOTE]
+    > GCC and new Backup customers only. Existing backup customers must continue in the **Setup** node. For more information, see [Set up or disconnect pay-as-you-go billing in the Setup node of the Microsoft 365 admin center](pay-as-you-go-setup.md).
 
 ## Before you begin
 
@@ -36,8 +38,6 @@ This article explains how to set up or disconnect pay-as-you-go billing in the *
 ## Set up pay-as-you-go billing in the Billing node
 
 To set up pay-as-you-go billing in the **Billing** node, first set up a billing policy, and then connect it to a pay-as-you-go service.
-
-### Step 1: Create a billing policy
 
 1. Sign in to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
 1. Go to **Billing** > **Pay-as-you-go**.
@@ -56,11 +56,6 @@ To set up pay-as-you-go billing in the **Billing** node, first set up a billing 
     > When you select a group, only the first 1,000 groups are displayed in alphabetical order.
 
 1. On the **Review and finish** page, double-check all the details you entered. If everything is correct, select **Create policy**.
-
-You created your billing policy and now must connect it to a service. Proceed to [Step 2: Connect the billing policy to a service](#step-2-connect-the-billing-policy-to-a-service).
-
-### Step 2: Connect the billing policy to a service
-
 1. On the **Services** page, select the service you want to connect, and then select **Connect a policy**.
 1. Select the new billing policy and link it to a pay-as-you-go service, like **Microsoft 365 Backup**.
 

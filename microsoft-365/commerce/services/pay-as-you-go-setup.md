@@ -1,5 +1,5 @@
 ---
-title: "Set up or disconnect pay-as-you-go billing for document processing and storage services"
+title: "Set up or disconnect pay-as-you-go billing in the Setup node of the Microsoft 365 admin center"
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
@@ -7,18 +7,18 @@ ms.reviewer: clalissayi, arakesh
 audience: admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
-ms.subservice: 
+ms.subservice: m365-commerce-payasyougo
 search.appverid: MET150
 ms.collection: 
 ms.custom: 
 ms.localizationpriority:  medium
-description: "Learn how to set up or disconnect billing for pay-as-you-go services for document processing and Microsoft 365 Archive"
+description: "Learn how to set up or disconnect billing for pay-as-you-go services for document processing and Microsoft 365 Archive in the Setup node of the Microsoft 365 admin center. Configure billing policies, connect services, and manage your pay-as-you-go costs effectively."
 ms.date: 09/18/2025
 ---
 
 # Set up or disconnect pay-as-you-go billing in the Setup node of the Microsoft 365 admin center
 
-This article explains how to set up or disconnect pay-as-you-go billing in the **Setup** node of the Microsoft 365 admin center  for the following services:
+This article explains how to set up or disconnect pay-as-you-go billing in the **Setup** node of the Microsoft 365 admin center for the following services:
 
 - Document processing for Microsoft 365
 - Microsoft 365 Archive

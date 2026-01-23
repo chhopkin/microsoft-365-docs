@@ -1,5 +1,5 @@
 ---
-title: "Set up or disconnect pay-as-you-go billing for Microsoft 365 Copilot"
+title: "Set up or disconnect pay-as-you-go billing in the Copilot node of the Microsoft 365 admin center"
 author: cmcatee-MSFT
 ms.author: cmcatee
 manager: scotv
@@ -12,13 +12,13 @@ search.appverid: MET150
 ms.collection: 
 ms.custom: 
 ms.localizationpriority:  medium
-description: "Learn how to set up or disconnect pay-as-you-go billing for Microsoft 365 Copilot. Configure billing policies, connect services, and manage your pay-as-you-go costs effectively."
+description: "Learn how to set up or disconnect billing for pay-as-you-go services for Microsoft 365 Copilot in the Copilot node of the Microsoft 365 admin center. Configure billing policies, connect services, and manage your pay-as-you-go costs effectively."
 ms.date: 09/18/2025
 ---
 
-# Set up or disconnect pay-as-you-go billing for Microsoft 365 Copilot
+# Set up or disconnect pay-as-you-go billing in the Copilot node of the Microsoft 365 admin center
 
-This article explains how to set up or disconnect pay-as-you-go billing for agents in Microsoft 365 Copilot.
+This article explains how to set up or disconnect pay-as-you-go billing in the **Copilot** node of the Microsoft 365 admin center for Microsoft 365 Copilot agents.
 
 ## Before you begin
 
@@ -38,8 +38,6 @@ This article explains how to set up or disconnect pay-as-you-go billing for agen
 
 To set up pay-as-you-go billing, first set up a billing policy, and then connect it to a pay-as-you-go service.
 
-### Step 1: Create a billing policy
-
 1. Sign in to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
 1. Go to **Copilot** > **Billing & usage**.
 1. Select **Add a billing policy**.
@@ -57,17 +55,12 @@ To set up pay-as-you-go billing, first set up a billing policy, and then connect
     > When you select a group, only the first 1,000 groups are displayed in alphabetical order.
 
 1. On the **Review and finish** page, double-check all the details you entered. If everything is correct, select **Create policy**.
-
-You created your billing policy and now must connect it to a service. Proceed to [Step 2: Connect the billing policy to a service](#step-2-connect-the-billing-policy-to-a-service).
-
-### Step 2: Connect the billing policy to a service
-
 1. On the **Billing & usage** page, select the **Connect a service**.
 1. Select the new billing policy and link it to a pay-as-you-go service, like **Microsoft 365 Copilot Chat** or **SharePoint Agents**.
 
-## Set up a budget and monitor usage and cost
+## Create a budget and monitor usage and cost
 
-After setting up billing, you can [set up a budget and monitor your usage in the Microsoft 365 admin center](pay-as-you-go-budget.md). You can also monitor your pay-as-you-go usage and costs in [Microsoft Cost Management for Azure](https://portal.azure.com/#blade/Microsoft_Azure_CostManagement/Menu/costanalysis). Ensure you have at least read access to the billing resource group.
+After setting up billing, you can [create a budget and monitor your usage in the Microsoft 365 admin center](pay-as-you-go-budget.md). You can also monitor your pay-as-you-go usage and costs in [Microsoft Cost Management for Azure](https://portal.azure.com/#blade/Microsoft_Azure_CostManagement/Menu/costanalysis). Ensure you have at least read access to the billing resource group.
 
 ## Disconnect pay-as-you-go billing
 
