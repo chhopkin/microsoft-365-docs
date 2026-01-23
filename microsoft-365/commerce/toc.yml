@@ -34,7 +34,7 @@ items:
           href: subscriptions/view-scheduled-changes.md
     - name: Manage pay-as-you-go services
       items:
-        - name: Pay-as-you-go services overviewd
+        - name: Pay-as-you-go services overview
           href: services/pay-as-you-go-overview.md 
         - name: Available pay-as-you-go services
           href: services/pay-as-you-go-services.md

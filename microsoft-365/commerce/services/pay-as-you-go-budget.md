@@ -29,8 +29,8 @@ To access the Microsoft 365 admin center, you must have one of the following rol
 - [AI Administrator](/entra/identity/role-based-access-control/permissions-reference?#ai-administrator)
 - [Global Reader](/entra/identity/role-based-access-control/permissions-reference#global-reader)
 
-    > [!NOTE]
-    > Users with the [Global Reader](/entra/identity/role-based-access-control/permissions-reference#global-reader) role can view billing policies and budgets, but they can't view spending data.
+  > [!NOTE]
+  > Users with the [Global Reader](/entra/identity/role-based-access-control/permissions-reference#global-reader) role can view billing policies and budgets, but they can't view spending data.
 
 [!INCLUDE [ga-roles-limitation](../../includes/ga-roles-limitation.md)]
 
