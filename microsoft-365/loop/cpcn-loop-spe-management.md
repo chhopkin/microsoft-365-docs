@@ -43,7 +43,7 @@ Tenant-owned Loop workspaces created on or after April 2025: Manage Owners and E
 
 Tenant-owned Loop workspaces created before April 2025: A legacy roster still controls membership. It is being deprecated. Until fully retired:
 
-- Owners and Editors can manage membership in the Loop app.
+- Owners and Editors can manage membership in the Loop application.
 - SharePoint admin center changes apply only to newer (post–April 2025) workspaces.
 
 ## Listing all the user-owned containers
