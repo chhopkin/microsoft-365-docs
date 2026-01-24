@@ -19,7 +19,7 @@ ms.date: 09/17/2025
 
 This article explains how to set spending limits for pay-as-you-go billing. This feature helps you monitor usage, receive alerts as costs approach budget thresholds, and plan more effectively.
 
-You can only set budgets at the billing policy level, not for individual users, agents, or sites. This means any limits or alerts apply to all services and users under the policy.
+You can only set budgets at the billing policy level, not for individual users, agents, or sites. This policy means any limits or alerts apply to all services and users under the policy.
 
 ## Before you begin
 

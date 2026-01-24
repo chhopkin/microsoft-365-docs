@@ -34,7 +34,7 @@ This article explains how to set up or disconnect pay-as-you-go billing in the *
 - You must have an Azure subscription in the same tenant as Microsoft 365.
 - You must have an Azure resource group in that subscription.
 
-## Set up pay-as-you-go billing
+## Set up pay-as-you-go billing in the Copilot node
 
 To set up pay-as-you-go billing, first set up a billing policy, and then connect it to a pay-as-you-go service.
 
