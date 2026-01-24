@@ -132,14 +132,14 @@ Begin with a limited rollout to test configurations, gather feedback, and refine
 
 Ensure your organization is ready for Microsoft 365:
 
-- [Microsoft 365 admin center readiness](https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness)
+- [Microsoft 365 admin center readiness](/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness)
 
 ### Buy Microsoft 365 Copilot licenses
 
 Ensure your organization has the correct licensing and subscriptions:
 
 - [License options for Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)
-- [Try or buy a Microsoft 365 for business subscription](https://learn.microsoft.com/microsoft-365/commerce/try-or-buy-microsoft-365)
+- [Try or buy a Microsoft 365 for business subscription](/microsoft-365/commerce/try-or-buy-microsoft-365)
 
 ### Assign AI administrator role to a user
 
@@ -151,7 +151,7 @@ They can also create and manage support tickets in Azure and the Microsoft 365 a
 
 Use the Microsoft 365 admin center to assign Copilot licenses to selected users:
 
-- [Add users and assign licenses](https://learn.microsoft.com/microsoft-365/admin/add-users/add-users)
+- [Add users and assign licenses](/microsoft-365/admin/add-users/add-users)
 
 ### Train end users
 
@@ -177,10 +177,10 @@ Get info through surveys, usage analytics, and direct user input:
 
 Use learnings from the pilot to refine and scale deployment across departments:
 
-- [Microsoft 365 Copilot Deployment Readiness](https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness)
+- [Microsoft 365 Copilot Deployment Readiness](/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness)
 
 ### Monitor usage and evaluate success
 
 Track adoption, usage patterns, and business impact using built-in reporting tools:
 
-- [Microsoft](https://learn.microsoft.com/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage)
+- [Microsoft](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage)
