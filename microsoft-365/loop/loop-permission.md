@@ -84,13 +84,14 @@ Owners can assign more members as owners. If all the owners leave the company, t
 
 Microsoft 365 group-owned Loop workspaces, which are [created within a Teams channel](https://techcommunity.microsoft.com/blog/microsoft365insiderblog/collaborate-in-real-time-with-workspaces-in-teams/4414334), are access controlled by the Microsoft 365 group.
 
-## Related topics
+## Related articles
 
 - [Copilot Pages and Copilot Notebooks permissions](cpcn-permission.md)
+- [Summary of compliance, lifecycle, governance](loop-compliance-summary.md)
+- [Requirements](loop-requirements.md)
+- [Storage](loop-storage.md)
+- [Admin policies](loop-admin-configuration.md)
+- [UX examples for admin policy states](loop-ux-examples.md)
 - [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md)
-- [Purview and SharePoint Embedded containers](cpcn-loop-purview-management.md)
-- [Loop, Summary of Compliance, Lifecycle, Governance](cpcn-compliance-summary.md)
-- [Loop Storage](loop-storage.md)
-- [Loop Admin toggles](loop-admin-configuration.md)
-- [UX examples for admin toggle states](loop-ux-examples.md)
+- [Purview management](cpcn-loop-purview-management.md)
 - [Overview of Loop components in Microsoft 365](loop-components-teams.md)

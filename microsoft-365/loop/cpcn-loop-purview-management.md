@@ -1,7 +1,7 @@
 ---
 ms.date: 07/02/2025
 ms.update-cycle: 180-days
-title: "Manage SharePoint Embedded containers in Purview for Copilot Notebooks, Copilot Pages, or Loop workspaces"
+title: "Purview management for SharePoint Embedded containers"
 ms.reviewer: dancost, tonchan, abisuresh
 ms.author: odocspr
 author: officedocspr5
@@ -25,21 +25,23 @@ search.appverid:
 description: "Learn about Purview integration of SharePoint Embedded containers for Copilot Notebooks, Copilot Pages, or Loop workspaces."
 ---
 
-# Purview integration of SharePoint Embedded containers for Copilot Notebooks, Copilot Pages, or Loop workspaces
+# Purview management for SharePoint Embedded containers
+
+This article covers Purview integration for SharePoint Embedded containers used by Copilot Pages, Copilot Notebooks, and Loop workspaces. The concepts apply to all these products because they share the same underlying SharePoint Embedded infrastructure.
 
 All SharePoint Embedded containers are targeted using the "All SharePoint Sites" scope in Microsoft Purview. For example, if configuring Retention Policies, the configuration you specify that targets All SharePoint Sites applies to every Copilot Pages and Copilot Notebooks container in SharePoint Embedded, and every Loop workspace in SharePoint Embedded. All SharePoint Sites includes all SharePoint Embedded container ownership types: user, group, and tenant-owned.
 
-## Retrieving the Container URL for Purview
+## Retrieving the container URL for Purview
 
 If you need to specify the Copilot Pages and Copilot Notebooks container, or a specific Loop workspace container for a retention policy or another compliance feature, specify the workspace as you would a SharePoint site, by its URL. To locate this URL:
 
 1. Sign in to the SharePoint admin center with the [SharePoint Embedded administrator role](/sharepoint/dev/embedded/concepts/admin-exp/adminrole)
 1. Navigate to **Containers** > **Active containers** or **Deleted containers** where you can view the details of a selected Loop workspace or Copilot Pages and Copilot Notebooks container
 1. From the flyout pane, **General** tab
-1. Copy the Container URL
+1. Copy the container URL
 
 > [!NOTE]
-> The Container URL doesn't provide access to the container and doesn't function as a shareable link for someone with access to open the container in the Loop app. Use the Container URL only within Purview to target that container for various Purview features. A separate URL, the Application Redirect URL, will serve as a clickable link for end users with access to open the container in the Loop app. An IT administrator can grant this access. The Application Redirect URL isn't yet available, but will be when [Roadmap ID 421612](https://www.microsoft.com/en-us/microsoft-365/roadmap?id=421612) launches.
+> The container URL doesn't provide access to the container and doesn't function as a shareable link for someone with access to open the container in the Loop app. Use the container URL only within Purview to target that container for various Purview features. A separate URL, the Application Redirect URL, will serve as a clickable link for end users with access to open the container in the Loop app. An IT administrator can grant this access. The Application Redirect URL isn't yet available, but will be when [Roadmap ID 421612](https://www.microsoft.com/en-us/microsoft-365/roadmap?id=421612) launches.
 
 ## Searching the Audit Logs
 
@@ -84,8 +86,8 @@ potential future examples
 
 ## Related articles
 
-- [Summary of Compliance, Lifecycle, Governance - Copilot Pages and Copilot Notebooks](cpcn-compliance-summary.md)
-- [Summary of Compliance, Lifecycle, Governance - Loop components and Loop workspace](loop-compliance-summary.md)
+- [Summary of compliance, lifecycle, governance - Copilot Pages and Copilot Notebooks](cpcn-compliance-summary.md)
+- [Summary of compliance, lifecycle, governance - Loop](loop-compliance-summary.md)
 - [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md)
-- [Copilot Pages and Notebooks Storage](cpcn-storage.md)
-- [Loop Storage](loop-storage.md)
+- [Copilot Pages and Notebooks storage](cpcn-storage.md)
+- [Loop storage](loop-storage.md)

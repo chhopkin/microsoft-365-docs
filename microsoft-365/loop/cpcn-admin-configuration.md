@@ -27,11 +27,17 @@ description: "Manage Copilot Pages and Copilot Notebooks in your organization"
 
 # Admin policies for Copilot Pages and Copilot Notebooks
 
-Copilot Pages and Copilot Notebooks are powered by `.loop` files, which are stored in user-owned SharePoint Embedded containers. Storage for these files counts toward your organization's overall SharePoint quota. For details, see [storage and lifecycle](cpcn-storage.md). IT administrators can control the creation and use of Copilot Pages and Copilot Notebooks through Cloud Policy settings.
+Copilot Pages and Copilot Notebooks are powered by `.page` files, which are stored in user-owned SharePoint Embedded containers. Storage for these files counts toward your organization's overall SharePoint quota. For details, see [storage and lifecycle](cpcn-storage.md). IT administrators can control the creation and use of Copilot Pages and Copilot Notebooks through Cloud Policy settings.
+
+## At a glance
+
+| What you want to control | Where to configure | Default |
+|--------------------------|-------------------|--------|
+| **Copilot Pages and Copilot Notebooks creation** | Cloud Policy: *Create and view Copilot Pages and Copilot Notebooks* | Enabled |
 
 ## Requirements
 
-Copilot Pages and Copilot Notebooks are a core service integrated into SharePoint and Microsoft 365. See [requirements](cpcn-loop-requirements.md) to learn more about configuration requirements, service connections, and license requirements.
+Copilot Pages and Copilot Notebooks are a core service integrated into SharePoint and Microsoft 365. See [requirements](cpcn-requirements.md) to learn more about configuration requirements, service connections, and license requirements.
 
 ### Scoping Cloud Policy with Microsoft 365 Groups
 
@@ -42,11 +48,11 @@ You can also use security or dynamic groups. For details, see [Create, edit, or 
 > [!NOTE]
 > If you apply the policy to all users in the tenant, group setup isn't required.
 
-## Relation to Loop components
+## Relationship to Loop components (optional context)
 
 Copilot Pages and Copilot Notebooks are independent of Loop. You can enable or disable them separately from Loop in your organization.
 
-Copilot Pages and Copilot Notebooks all use the same Loop My workspace container. For more information, see [storage](cpcn-storage.md).
+Copilot Pages and Copilot Notebooks use the same user-owned SharePoint Embedded container as the Loop My workspace. For more information, see [storage](cpcn-storage.md).
 
 To share Copilot Pages as interactive components (instead of just hyperlinks) in Teams, Outlook, Whiteboard, OneNote, or the Loop app, Loop components must be enabled. Without Loop components enabled in the Microsoft 365 ecosystem, Copilot Pages are only interactive within the Microsoft 365 Copilot app and supported chat experiences. For details on enabling Loop components in the Microsoft 365 ecosystem, see [Loop admin policies](loop-admin-configuration.md).
 
@@ -102,10 +108,9 @@ In case you create a new policy configuration or change the configuration for an
 
 ## Related articles
 
-- [Summary of Compliance, Lifecycle, Governance](cpcn-compliance-summary.md)
-- [Requirements](cpcn-loop-requirements.md)
+- [Summary of compliance, lifecycle, governance](cpcn-compliance-summary.md)
+- [Requirements](cpcn-requirements.md)
 - [Storage](cpcn-storage.md)
 - [Permissions](cpcn-permission.md)
 - [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md)
-- [Overview of Loop components in Microsoft 365](loop-components-teams.md)
-- [Data Integrations Admin Settings](loop-data-integrations-configuration.md)
+- [Purview management](cpcn-loop-purview-management.md)

@@ -30,7 +30,22 @@ description: "Manage Loop in your organization"
 > [!NOTE]
 > The Copilot Pages and Copilot Notebooks content has moved to a [dedicated article](cpcn-admin-configuration.md).
 
-Loop components and their integrations are powered by `.loop` files (earlier releases of Loop created these as `.fluid` files), which are stored in OneDrive, SharePoint, or [SharePoint Embedded](/sharepoint/dev/embedded/concepts/admin-exp/consuming-tenant-admin/cta). Storage for these files counts toward your organization's overall SharePoint quota. For details about where the content is stored, see [storage and lifecycle](loop-storage.md#storage). IT administrators can control the creation and use of Loop content through settings discussed in this article.
+## At a glance
+
+| What you want to control | Policy tool | Key setting |
+|--------------------------|-------------|-------------|
+| **Loop workspaces** (including Teams channel workspaces) | Cloud Policy | *Create Loop workspaces in Loop* |
+| **Loop components in Outlook, OneNote, Whiteboard, Teams New Calendar** | Cloud Policy | *Create and view Loop files in Microsoft apps that support Loop* |
+| **Loop components in Outlook specifically** | Cloud Policy | *Create and view Loop files in Outlook* |
+| **Loop components in Teams chats and channels** | SharePoint PowerShell | `Set-SPOTenant -IsLoopEnabled` |
+| **Collaborative meeting notes in Teams** | SharePoint PowerShell | `Set-SPOTenant -IsCollabMeetingNotesFluidEnabled` |
+
+> [!IMPORTANT]
+> You must configure **BOTH** Cloud Policy and SharePoint PowerShell to fully control Loop in your organization. Cloud Policy alone doesn't control Teams experiences.
+
+## Overview
+
+Loop components and their integrations are powered by `.loop` files (earlier releases created `.fluid` files), stored in OneDrive, SharePoint, or [SharePoint Embedded](/sharepoint/dev/embedded/concepts/admin-exp/consuming-tenant-admin/cta). Storage counts against your organization's SharePoint quota. For storage locations, see [storage](loop-storage.md#storage).
 
 ## Two Admin Policy Tools
 
@@ -41,7 +56,7 @@ IT administrators must manage the creation of Loop components in the Microsoft 3
 
 ## Requirements
 
-Loop components and Loop workspaces are a core service integrated into SharePoint and Microsoft 365. See [requirements](cpcn-loop-requirements.md) to learn more about configuration requirements, service connections, and license requirements.
+Loop components and Loop workspaces are a core service integrated into SharePoint and Microsoft 365. See [requirements](loop-requirements.md) to learn more about configuration requirements, service connections, and license requirements.
 
 ### Scoping Cloud Policy with Microsoft 365 Groups
 

@@ -60,14 +60,21 @@ Currently, there is no supported method to transfer an existing SharePoint Embed
 
 ## Related articles
 
-- [Summary of Compliance, Lifecycle, Governance](cpcn-compliance-summary.md)
-- [Configuration Requirements](cpcn-loop-requirements.md)
-- [Copilot Pages and Notebooks Storage](cpcn-storage.md)
-- [Copilot Pages and Notebooks Permissions](cpcn-permission.md)
-- [Copilot Pages and Notebooks Admin toggles](cpcn-admin-configuration.md)
-- [Purview and SharePoint Embedded containers](cpcn-loop-purview-management.md)
-- [Loop Storage](loop-storage.md)
-- [Loop Permissions](loop-permission.md)
-- [Loop Admin toggles](loop-admin-configuration.md)
-- [UX examples for admin toggle states](loop-ux-examples.md)
+### Copilot Pages and Copilot Notebooks
+
+- [Summary of compliance, lifecycle, governance](cpcn-compliance-summary.md)
+- [Requirements](cpcn-requirements.md)
+- [Storage](cpcn-storage.md)
+- [Permissions](cpcn-permission.md)
+- [Admin policies](cpcn-admin-configuration.md)
+- [Purview management](cpcn-loop-purview-management.md)
+
+### Loop
+
+- [Summary of compliance, lifecycle, governance](loop-compliance-summary.md)
+- [Requirements](loop-requirements.md)
+- [Storage](loop-storage.md)
+- [Permissions](loop-permission.md)
+- [Admin policies](loop-admin-configuration.md)
+- [UX examples for admin policy states](loop-ux-examples.md)
 - [Overview of Loop components in Microsoft 365](loop-components-teams.md)

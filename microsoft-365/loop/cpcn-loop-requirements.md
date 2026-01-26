@@ -1,7 +1,7 @@
 ---
-ms.date: 07/02/2025
+ms.date: 01/26/2026
 ms.update-cycle: 180-days
-title: "Manage Copilot Pages, Copilot Notebooks, and Loop components in your organization"
+title: "Requirements for Copilot Pages, Copilot Notebooks, and Loop"
 ms.reviewer: dancost, tonchan
 ms.author: odocspr
 author: officedocspr5
@@ -22,57 +22,25 @@ ms.collection:
 search.appverid:
 - SPO160
 - MET150
-description: "Manage Copilot Pages, Copilot Notebooks, and Loop in your organization"
+description: "Requirements for Copilot Pages, Copilot Notebooks, and Loop in your organization"
+ai-usage: ai-assisted
 ---
 
-# Requirements for Copilot Pages, Copilot Notebooks, Loop components, and Loop workspaces
+# Requirements for Copilot Pages, Copilot Notebooks, and Loop
 
-Copilot Pages and Copilot Notebooks and their integrations create `.loop` files, stored in user-owned SharePoint Embedded containers. Learn more about [storage and lifecycle](cpcn-storage.md), which is quota combined with SharePoint in your tenant. IT admins can [manage creation of Copilot Pages and Copilot Notebooks](cpcn-admin-configuration.md) using Cloud Policy.
+This page provides links to requirements documentation for each product. Select the appropriate article based on the product you're configuring.
 
-Loop components and integrations create `.loop` files (earlier releases of Loop created `.fluid` files), stored in OneDrive, SharePoint, or SharePoint Embedded. Learn more about [storage](loop-storage.md), which is quota combined with SharePoint in your tenant. IT admins can manage creation of Loop components and Loop workspaces by following instructions in this [admin configuration](loop-admin-configuration.md) article.
+## Copilot Pages and Copilot Notebooks
 
-## URLs and IP address ranges
+For requirements specific to Copilot Pages and Copilot Notebooks, see [Requirements for Copilot Pages and Copilot Notebooks](cpcn-requirements.md).
 
-To ensure Copilot Pages, Copilot Notebooks, and Loop work correctly in your organization, verify that required network connections are allowed. These services rely on core Microsoft 365 and SharePoint infrastructure. Review and configure your firewall or proxy settings according to the [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges) documentation to enable access to all necessary endpoints for Copilot Pages, Copilot Notebooks, and Loop experiences.
+## Loop components and Loop workspaces
 
-## WebSocket connections
+For requirements specific to Loop components and Loop workspaces, see [Requirements for Loop components and Loop workspaces](loop-requirements.md).
 
-Copilot Pages, Copilot Notebooks, and Loop rely on secure WebSocket connections to enable real-time collaboration features such as live editing, presence indicators, and shared cursors. To ensure these features work correctly, allow WebSocket traffic to the `*.svc.ms` and `*.office.com` endpoints in your network configuration.
+## Shared infrastructure
 
-## License requirements
+Both Copilot Pages/Notebooks and Loop use SharePoint Embedded containers for storage. For information about managing these containers, see:
 
-### Copilot Pages and Copilot Notebooks
-
-Copilot Pages are available to anyone in Entra ID accounts with a OneDrive license. Copilot pages require a OneDrive site to function. However, if a OneDrive site exists and the license is later removed, Copilot pages continue to work.
-
-Copilot Notebooks require the [Microsoft 365 Copilot license](/copilot/microsoft-365/microsoft-365-copilot-licensing).
-
-### Loop
-
-Loop components are available to anyone in Entra ID accounts with a OneDrive or SharePoint license.
-
-Licensing through the Loop with workspaces service plan covers the creation of new workspaces and management of workspace members. The full set of experiences enabled and the specific licenses that include the Loop with workspaces service plan are covered in [Loop access via Microsoft 365 subscriptions](https://support.microsoft.com/office/loop-access-via-microsoft-365-subscriptions-92915461-4b14-49a4-9cd4-d1c259292afa). 
-
-## Exchange Online mailboxes
-
-To utilize all features, including at mentions and Loop workspace sharing, it's necessary for all users to have an Exchange Online mailbox. Those with Exchange On-Premises mailboxes won't have access to the full range of capabilities.
-
-## Related topics
-
-### Admin
-
-- [Loop access via Microsoft 365 subscriptions](https://support.microsoft.com/office/loop-access-via-microsoft-365-subscriptions-92915461-4b14-49a4-9cd4-d1c259292afa)
-- [Copilot Pages and Notebooks Admin toggles](cpcn-admin-configuration.md)
-- [Loop Admin toggles](loop-admin-configuration.md)
-- [UX examples for admin toggle states](loop-ux-examples.md)
 - [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md)
-- [Purview and SharePoint Embedded containers](cpcn-loop-purview-management.md)
-- [Data Integrations Admin Settings](loop-data-integrations-configuration.md)
-
-### End-User Experience
-
-- [Overview of Loop components in Microsoft 365](loop-components-teams.md)
-- [Use Loop components in Outlook](https://support.microsoft.com/office/9b47c279-011d-4042-bd7f-8bbfca0cb136)
-- [Use Loop components in OneNote](https://support.microsoft.com/office/use-loop-components-in-onenote-ed8a43d9-f6fd-4ad6-bc9d-8841db4da459)
-- [Loop components in Whiteboard](https://support.microsoft.com/office/loop-components-in-whiteboard-c5f08f54-995e-473e-be6e-7f92555da347)
-- [Get started with Microsoft Loop - Microsoft Support](https://support.microsoft.com/office/get-started-with-microsoft-loop-9f4d8d4f-dfc6-4518-9ef6-069408c21f0c)
+- [Purview management](cpcn-loop-purview-management.md)
