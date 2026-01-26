@@ -3,7 +3,7 @@ title: Migration orchestrator planning and prerequisites
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 12/11/2025
+ms.date: 01/26/2026
 recommendations: true
 audience: ITPro
 ms.topic: upgrade-and-migration-article
@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 - m365initiative-migratetom365
 search.appverid: MET150
-description: "A planning and prerequisites article for Microsoft 365 migration orchestrator, a tool that allows you to migrate users from one tenant to another."
+description: "A planning and prerequisites article for Microsoft 365 migration orchestrator, a tool that allows you to migrate users and content from one tenant to another."
 ---
 
 # Planning and prerequisites
