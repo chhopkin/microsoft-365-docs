@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: concept-article
 ms.service: loop
 ms.reviewer: michalbr, dancost
-ms.date: 07/02/2025
+ms.date: 01/26/2026
 ms.update-cycle: 180-days
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -68,7 +68,7 @@ To completely disable the creation of the **Personal Workspace** SharePoint Embe
 1. Disable the **Pages** and **Notebooks** creation of the **Personal Workspace** using the *Create and view Copilot Pages and Copilot Notebooks* policy.
 1. Disable the **My Workspace** creation of the **Personal Workspace** using the *Create Loop workspaces in Loop* policy.
 
-This will avoid the creation of the **Personal Workspace** from any of these product experiences. Refer to the admin settings article for [Loop](loop-admin-configuration.md) and [Copilot Pages and Copilot Notebooks](cpcn-admin-configuration.md) for more details.
+This prevents the creation of the **Personal Workspace** from any of these product experiences. For more information, see the admin settings articles for [Loop](loop-admin-configuration.md) and [Copilot Pages and Copilot Notebooks](cpcn-admin-configuration.md).
 
 ## Storage quota
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 07/02/2025
+ms.date: 01/26/2026
 ms.update-cycle: 180-days
 title: "Purview management for SharePoint Embedded containers"
 ms.reviewer: dancost, tonchan, abisuresh
@@ -41,7 +41,7 @@ If you need to specify the Copilot Pages and Copilot Notebooks container, or a s
 1. Copy the container URL
 
 > [!NOTE]
-> The container URL doesn't provide access to the container and doesn't function as a shareable link for someone with access to open the container in the Loop app. Use the container URL only within Purview to target that container for various Purview features. A separate URL, the Application Redirect URL, will serve as a clickable link for end users with access to open the container in the Loop app. An IT administrator can grant this access. The Application Redirect URL isn't yet available, but will be when [Roadmap ID 421612](https://www.microsoft.com/en-us/microsoft-365/roadmap?id=421612) launches.
+> The container URL doesn't provide access to the container and doesn't function as a shareable link. Use the container URL only within Purview to target that container for various Purview features. A separate Application Redirect URL will serve as a clickable link for end users with access to open the container in the Loop app. The Application Redirect URL isn't yet available, but will be when [Roadmap ID 421612](https://www.microsoft.com/en-us/microsoft-365/roadmap?id=421612) launches.
 
 ## Searching the Audit Logs
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 07/02/2025
+ms.date: 01/26/2026
 ms.update-cycle: 180-days
 title: "Manage Loop in your organization"
 ms.reviewer: dancost, tonchan
@@ -107,7 +107,7 @@ Configure the creation of content in these locations by using the appropriate po
 
 ## User experience expectations when admin settings are configured
 
-IT administrators can control whether users in their organization can create new Loop content. **However, these admin controls do not restrict access to existing Loop files or workspaces.** Admin controls can be applied to specific groups or the entire tenant, except for Teams-related settings, which always apply tenant-wide.
+IT administrators can control whether users in their organization can create new Loop content. **However, these admin controls don't restrict access to existing Loop files or workspaces.** Admin controls can be applied to specific groups or the entire tenant, except for Teams-related settings, which always apply tenant-wide.
 
 - To restrict collaboration between specific groups, use [Information Barriers](/purview/information-barriers-sharepoint) where supported.
 - To block access to existing Loop content or the Loop app, use [Conditional Access policies](/sharepoint/control-access-from-unmanaged-devices).
@@ -174,8 +174,8 @@ Copilot Pages, Copilot Notebooks, and the Loop experiences (except for Microsoft
 
 In case you create a new policy configuration or change the configuration for an existing policy, there can be a delay in the change being reflected as described below:
 
-- If there were existing policy configurations prior to the change, then it will take 90 mins for the change to be reflected.
-- If there were no policy configurations prior to the change, then it will take 24 hours for the change to be reflected.
+- If there were existing policy configurations prior to the change, the change takes up to 90 minutes to be reflected.
+- If there were no policy configurations prior to the change, the change takes up to 24 hours to be reflected.
 
 > [!NOTE]
 > To enable a Cloud Policy for only a specific subset of users:

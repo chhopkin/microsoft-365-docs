@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: concept-article
 ms.service: loop
 ms.reviewer: michalbr, brmeersm, derekliddell, dancost
-ms.date: 10/21/2025
+ms.date: 01/26/2026
 ms.update-cycle: 180-days
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -66,9 +66,9 @@ When a guest accesses the Loop workspace, page, or component from the link from 
 
 ### More sharing controls
 
-If you would like to disable guest sharing of Loop workspaces independently of your organization-level OneDrive and SharePoint sharing setting, see [application external sharing override](/sharepoint/dev/embedded/concepts/app-concepts/sharing-and-perm#application-external-sharing-override) and use the Loop OwningApplicationID `a187e399-0c36-4b98-8f04-1edc167a0996`, as this will enable you to control external sharing settings for all SharePoint Embedded containers of type = Loop.
+To disable guest sharing of Loop workspaces independently of your organization-level OneDrive and SharePoint sharing settings, see [application external sharing override](/sharepoint/dev/embedded/concepts/app-concepts/sharing-and-perm#application-external-sharing-override) and use the Loop OwningApplicationID `a187e399-0c36-4b98-8f04-1edc167a0996`. This setting controls external sharing for all SharePoint Embedded containers of type = Loop.
 
-Unlike SharePoint sites, there's no admin setting to configure guest sharing of specific Loop workspaces. Direct users toward [sensitivity labeling](/purview/sensitivity-labels-loop) for per-workspace external sharing configuration. Admin's can also [configure sensitivity labels](/sharepoint/dev/embedded/concepts/security-and-compliance#security-features) on containers.
+Unlike SharePoint sites, there's no admin setting to configure guest sharing of specific Loop workspaces. Direct users to [sensitivity labeling](/purview/sensitivity-labels-loop) for per-workspace external sharing configuration. Admins can also [configure sensitivity labels](/sharepoint/dev/embedded/concepts/security-and-compliance#security-features) on containers.
 
 ## Workspace membership and Microsoft 365 Groups
 

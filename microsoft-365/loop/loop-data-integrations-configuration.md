@@ -1,5 +1,5 @@
 ---
-ms.date: 06/11/2025
+ms.date: 01/26/2026
 title: "Configuring external data integrations for Loop experiences"
 ms.reviewer: dancost, dimple
 ms.author: odocspr

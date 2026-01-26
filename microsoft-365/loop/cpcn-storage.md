@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: article
 ms.service: loop
 ms.reviewer: michalbr, dancost
-ms.date: 07/02/2025
+ms.date: 01/26/2026
 ms.update-cycle: 180-days
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -66,7 +66,7 @@ Copilot Pages and Copilot Notebooks are stored together in the same user-owned S
 ### Container lifecycle
 
 - The container is lifecycle managed with the user account and is deleted when the user account is deleted from the organization.
-- Content can't be permanently reassigned to a new owner.
+- You can't permanently reassign content to a new owner.
 - The container follows the same cleanup schedule as OneDrive: 30 days active, then soft deleted, and permanently purged 93 days after soft deletion.
 - Admins can recover the entire container (including all Copilot Pages and Copilot Notebooks) during the soft delete period using the SharePoint Admin Center or PowerShell.
 

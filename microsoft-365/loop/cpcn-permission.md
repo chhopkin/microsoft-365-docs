@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: concept-article
 ms.service: loop
 ms.reviewer: michalbr, brmeersm, derekliddell, dancost
-ms.date: 10/21/2025
+ms.date: 01/26/2026
 ms.update-cycle: 180-days
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -57,7 +57,7 @@ External users (guests) can't access shared Copilot Pages directly via link. Cop
 
 ### Disabling guest sharing
 
-To disable guest sharing for SharePoint Embedded containers used by Copilot Pages and Copilot Notebooks, see [application external sharing override](/sharepoint/dev/embedded/concepts/app-concepts/sharing-and-perm#application-external-sharing-override) and use the application ID `a187e399-0c36-4b98-8f04-1edc167a0996`. This enables you to control external sharing settings for all SharePoint Embedded containers of this type.
+To disable guest sharing for Copilot Pages and Copilot Notebooks containers, see [application external sharing override](/sharepoint/dev/embedded/concepts/app-concepts/sharing-and-perm#application-external-sharing-override) and use application ID `a187e399-0c36-4b98-8f04-1edc167a0996`. This setting controls external sharing for all SharePoint Embedded containers of this type.
 
 ## Related articles
 

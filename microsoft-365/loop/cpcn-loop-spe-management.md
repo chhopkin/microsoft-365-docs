@@ -1,5 +1,5 @@
 ---
-ms.date: 07/02/2025
+ms.date: 01/26/2026
 ms.update-cycle: 180-days
 title: "Manage SharePoint Embedded containers for Copilot Notebooks, Copilot Pages, or Loop workspaces"
 ms.reviewer: dancost, tonchan
@@ -39,9 +39,9 @@ IT admins can use SharePoint Admin Center and PowerShell to find ownerless tenan
 
 ## Administering roles and membership for tenant-owned workspaces
 
-Tenant-owned Loop workspaces created on or after April 2025: Manage Owners and Editors (shown as Managers in the SharePoint admin center). Writer and Reader roles are not used.
+Tenant-owned Loop workspaces created on or after April 2025: Manage Owners and Editors (shown as Managers in the SharePoint admin center). Writer and Reader roles aren't used.
 
-Tenant-owned Loop workspaces created before April 2025: A legacy roster still controls membership. It is being deprecated. Until fully retired:
+Tenant-owned Loop workspaces created before April 2025: A legacy roster still controls membership. The legacy roster is being deprecated. Until fully retired:
 
 - Owners and Editors can manage membership in the Loop app.
 - SharePoint admin center changes apply only to newer (post–April 2025) workspaces.
@@ -56,7 +56,7 @@ Get-SPOContainer -OwningApplicationId 'a187e399-0c36-4b98-8f04-1edc167a0996' | W
 
 ## Migrations
 
-Currently, there is no supported method to transfer an existing SharePoint Embedded container between Microsoft 365 tenants — for example, in scenarios involving mergers or acquisitions.
+Currently, there's no supported method to transfer an existing SharePoint Embedded container between Microsoft 365 tenants—for example, in scenarios involving mergers or acquisitions.
 
 ## Related articles
 
