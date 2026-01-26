@@ -20,7 +20,7 @@ Workflows agent is a Copilot agent that enables users to automate tasks by descr
 
 ## How are flows stored, exported, or deleted?
 
-Flows created with Workflows agent are stored in the user's Power Platform environment. These flows are visible within the Workflows agent agent interface in Microsoft 365 Copilot, but aren't surfaced in Power Automate.
+Flows created with Workflows agent are stored in the user's Power Platform environment. These flows are visible within the Workflows agent interface in Microsoft 365 Copilot, but aren't surfaced in Power Automate.
 
 Users can export or delete flows using standard Power Platform tools. Flows are subject to Microsoft’s Data Subject Request (DSR) processes.
 
