@@ -45,9 +45,9 @@ Copilot Pages (`.page` files) and Copilot Notebooks are stored in user-owned Sha
 
 Copilot Pages and Copilot Notebooks are a core service integrated into SharePoint and Microsoft 365. See [requirements](cpcn-requirements.md) to learn more about configuration requirements, service connections, and license requirements.
 
-To apply Cloud Policy to specific users instead of the entire tenant, see [Scoping Cloud Policy with Microsoft 365 Groups](loop-admin-configuration.md#scoping-cloud-policy-with-microsoft-365-groups). You can also apply Cloud Policy using security or dynamic groups, see [Create, edit, or delete a security group](/microsoft-365/admin/email/create-edit-or-delete-a-security-group) and [Create dynamic groups in Azure AD](/azure/active-directory/external-identities/use-dynamic-groups). If you apply the policy to all users in the tenant, group setup isn't required.
+To apply Cloud Policy to specific users instead of the entire tenant, see [Scoping Cloud Policy with Microsoft 365 Groups](loop-admin-configuration.md#scoping-cloud-policy-with-microsoft-365-groups). You can also apply Cloud Policy using security or dynamic groups, see [Create, edit, or delete a security group](/microsoft-365/admin/email/create-edit-or-delete-a-security-group) and [Create dynamic groups in Microsoft Entra ID](/azure/active-directory/external-identities/use-dynamic-groups). If you apply the policy to all users in the tenant, group setup isn't required.
 
-## Relationship to Loop components (optional context)
+## Relationship to Loop components
 
 Copilot Pages and Copilot Notebooks are independent of Loop. You can enable or disable them separately from Loop in your organization.
 
@@ -57,7 +57,7 @@ To share Copilot Pages as interactive components (instead of just hyperlinks) in
 
 ## User experience when Copilot Pages and Copilot Notebooks are disabled
 
-When creation is disabled, users are unable to create new Copilot Pages or Notebooks. The Pages module will still be visible in the Microsoft 365 Copilot app, but the Notebooks module will be hidden, preventing users from accessing existing Notebooks through the Copilot App.
+When creation is disabled, users are unable to create new Copilot Pages or Notebooks. The Pages module is visible in the Microsoft 365 Copilot app, but the Notebooks module is, preventing users from accessing existing Notebooks through the Copilot App.
 
 Existing Copilot Pages and Notebooks aren't deleted. Users can still view and edit existing items if they have permission. These files remain accessible in the following ways:
 
@@ -65,10 +65,10 @@ Existing Copilot Pages and Notebooks aren't deleted. Users can still view and ed
 - **Microsoft 365 Copilot app**: For accessing items created in chat experiences
 - **Original storage locations**: Files added to Notebooks remain available in OneDrive and SharePoint where they're stored
 
-Existing items are also discoverable through search, Purview, and can be exported by admins.
+Existing items are also discoverable through search, Purview, and admins can export them.
 
 > [!IMPORTANT]
-> Sharing links to Copilot Notebooks will stop working when creation is disabled via the policy in this article.
+> Sharing links to Copilot Notebooks don't work when creation is disabled via the policy in this article.
 
 ## Settings management in Cloud Policy
 
@@ -87,23 +87,23 @@ Copilot Pages and Copilot Notebooks check the following [Cloud Policy](/deployof
         - **Disabled**: Copilot Pages and Copilot Notebooks creation and integration aren't available to the users.
         - **Not configured**: Copilot Pages and Copilot Notebooks creation and integration are available to the users.
           >[!NOTE]
-          >If your organization has [disabled the creation of OneDrive](/sharepoint/manage-user-profiles#disable-onedrive-creation-for-some-users), regardless of the setting noted here, these people in your organization won't be able to create Copilot Pages or Copilot Notebooks.
+          >If your organization [disabled the creation of OneDrive](/sharepoint/manage-user-profiles#disable-onedrive-creation-for-some-users), regardless of the setting noted here, these people in your organization can't create Copilot Pages or Copilot Notebooks.
 1. Save the policy configuration.
 1. Reassign priority for any security group, if required. (If two or more policy configurations are applicable to the same set of users, the one with the higher priority is applied.)
 
-In case you create a new policy configuration or change the configuration for an existing policy, there can be a delay in the change being reflected as described below:
+In case you create a new policy configuration or change the configuration for an existing policy, there can be a delay in the change being reflected:
 
-- If there were existing policy configurations prior to the change, the change takes up to 90 minutes to be reflected.
-- If there were no policy configurations prior to the change, the change takes up to 24 hours to be reflected.
+- If there were existing policy configurations before the change, the change takes up to 90 minutes to be reflected.
+- If there were no policy configurations before the change, the change takes up to 24 hours to be reflected.
 
 > [!NOTE]
 > To enable a Cloud Policy for only a specific subset of users:
 >
 > 1. Create **Group A** containing the users you want to enable the policy for. Assign the Cloud Policy to this group and set it to **Enabled**.
 > 1. Create **Group B** that includes **All users**. Assign the same Cloud Policy to this group and set it to **Disabled**.
-> 1. Set the priority for **Group A** to a lower number (for example, priority 0) so it is evaluated before **Group B** (for example, priority 1).
+> 1. Set the priority for **Group A** to a lower number (for example, priority 0) so it's evaluated before **Group B** (for example, priority 1).
 >
-> In Cloud Policy, lower priority numbers are evaluated first. This ensures users in **Group A** have the policy **Enabled**, while all other users in **Group B** have it **Disabled**.
+> In Cloud Policy, lower priority numbers are evaluated first. The priority numbering method described in the preceding steps ensures users in **Group A** have the policy **Enabled**, while all other users in **Group B** have it **Disabled**.
 
 ## Related articles
 

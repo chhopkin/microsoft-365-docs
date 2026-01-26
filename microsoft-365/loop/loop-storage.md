@@ -53,7 +53,7 @@ Use this simplified view to quickly identify where content is stored:
 > [!NOTE]
 > The Copilot Pages and Copilot Notebooks content moved to a [dedicated article](cpcn-storage.md).
 
-Loop content is stored in SharePoint, OneDrive, and [SharePoint Embedded](/sharepoint/dev/embedded/concepts/admin-exp/consuming-tenant-admin/cta). Where content was originally created determines its storage location. Use the table below to understand storage locations and lifetime management for each content type:
+Loop content is stored in SharePoint, OneDrive, and [SharePoint Embedded](/sharepoint/dev/embedded/concepts/admin-exp/consuming-tenant-admin/cta). Where the content was originally created determines its storage location. Use the table below to understand storage locations and lifetime management for each content type:
 
 |Content originally created in|Content stored in SharePoint Embedded|Content stored in SharePoint Site|Content stored in User's OneDrive|Lifetime Management|
 |-----|-----|-----|-----|-----|
@@ -80,7 +80,7 @@ To completely disable the creation of the **Personal Workspace** SharePoint Embe
 1. Disable the **Pages** and **Notebooks** creation of the **Personal Workspace** using the *Create and view Copilot Pages and Copilot Notebooks* policy.
 1. Disable the **My Workspace** creation of the **Personal Workspace** using the *Create Loop workspaces in Loop* policy.
 
-This prevents the creation of the **Personal Workspace** from any of these product experiences. For more information, see the admin settings articles for [Loop](loop-admin-configuration.md) and [Copilot Pages and Copilot Notebooks](cpcn-admin-configuration.md).
+This prevents the creation of the **Personal Workspace** from any of these product experiences. For more information, see the admin policies articles for [Loop](loop-admin-configuration.md) and [Copilot Pages and Copilot Notebooks](cpcn-admin-configuration.md).
 
 ## Storage quota
 
