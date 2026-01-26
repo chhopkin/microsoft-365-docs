@@ -159,22 +159,20 @@ Copilot Pages, Copilot Notebooks, and the Loop experiences (except for Microsoft
 1. From the **Choose the scope** dropdown list, choose either **All users** or select the group for which you want to apply the policy. For more information, see [Microsoft 365 Groups for Cloud Policy](#scoping-cloud-policy-with-microsoft-365-groups).
 1. In **Configure Settings**, choose one of the following settings:
     - For **Create Loop workspaces in Loop**:
-        - **Disabled**: Creation of Loop workspaces isn't available to the users.
-        - Loop app will open Loop components when workspaces is disabled.
         - **Enabled**: Creation of Loop workspaces is available to the users.
+        - **Disabled**: Creation of Loop workspaces isn't available to the users. The Loop app is still used to open Loop components.
         - **Not configured**: Creation of Loop workspaces is available to the users.
     - For **Create and view Loop files in Microsoft apps that support Loop**:
-        - recall:
-            - this setting applies to:
-                - Outlook integration
-                - [Teams New Calendar](https://support.microsoft.com/office/get-started-with-the-new-calendar-in-microsoft-teams-98f3b637-5da2-43e2-91b3-f312ab3e4dc5) integration
-                - OneNote integration
-                - Whiteboard integration
-            - this setting does **NOT** apply to:
-                - Loop workspaces
-                - Teams integration (see [Settings management for Loop components in Teams](#settings-management-for-loop-functionality-in-teams))
-                - Copilot Pages
-                - Copilot Notebooks
+        - This setting applies to: 
+            - Outlook
+            - [Teams New Calendar](https://support.microsoft.com/office/get-started-with-the-new-calendar-in-microsoft-teams-98f3b637-5da2-43e2-91b3-f312ab3e4dc5)
+            - OneNote
+            - Whiteboard
+        - This setting does **NOT** apply to: 
+            - Loop workspaces
+            - Teams integration (see [Settings management for Loop components in Teams](#settings-management-for-loop-functionality-in-teams))
+            - Copilot Pages
+            - Copilot Notebooks
         - **Enabled**: Creation of Loop components and integration is available to the users.
         - **Disabled**: Creation of Loop components and integration isn't available to the users.
         - **Not configured**: Creation of Loop components and integration is available to the users.

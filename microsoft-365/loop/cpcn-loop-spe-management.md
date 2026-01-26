@@ -34,7 +34,7 @@ description: "Learn about managing SharePoint Embedded containers for Copilot No
 | **View containers** | SharePoint admin center | **Containers** > **Active containers** |
 | **List user-owned containers** | PowerShell | `Get-SPOContainer -OwningApplicationId '<AppID>' \| WHERE OwnershipType -EQ 'UserOwned'` |
 | **Find ownerless workspaces** | PowerShell | `Get-SPOContainer -OwningApplicationId '<AppID>' \| WHERE {$_.Owners.Count -eq 0}` |
-| **Manage workspace membership** | SharePoint admin center | Owners and Managers (post-April 2025 workspaces) |
+| **Manage workspace membership** | SharePoint admin center | Owners and Editors (shown as Managers in admin center, managing membership only works for post-April 2025 workspaces) |
 
 IT admins can manage SharePoint Embedded containers like they manage SharePoint sites using either [SharePoint Admin Center](/sharepoint/dev/embedded/concepts/admin-exp/consuming-tenant-admin/ctaux) or [PowerShell](/sharepoint/dev/embedded/concepts/admin-exp/consuming-tenant-admin/ctapowershell), with the appropriate [SharePoint Embedded administrator role](/sharepoint/dev/embedded/concepts/admin-exp/adminrole). Install the [latest version of SharePoint PowerShell module](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online). Storage and quota are combined with SharePoint in your organization. Use the Loop application IDs to filter to Loop containers in PowerShell:
 
