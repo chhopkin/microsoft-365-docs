@@ -96,10 +96,12 @@ Copilot Pages and Copilot Notebooks content are stored in SharePoint Embedded. C
 
 ## Microsoft 365 retention and deletion
 
-- **Retention policies**: [Policies](/purview/create-retention-policies?tabs=other-retention) configured for "All SharePoint sites" apply to all Copilot Pages and Copilot Notebooks. For container-specific configuration, see [Purview management](cpcn-loop-purview-management.md).
-- **Retention labels**: [Supported](/purview/retention#retention-labels) for Copilot Pages (`.page` files) through [published labels](/purview/create-apply-retention-labels?tabs=spo-onedrive) or [auto-apply](/purview/apply-retention-labels-automatically). Manual application has limitations:
-  - Labels can't be viewed or applied directly from a Copilot Page. Users must [navigate via the Loop app](/purview/create-apply-retention-labels?tabs=loop%2Cdefault-label-for-sharepoint#manually-apply-retention-labels).
-  - Record or regulatory record labels can't be manually applied. If content is auto-labeled as a record, locking/unlocking isn't yet available.
+- **[Retention policies](/purview/create-retention-policies?tabs=other-retention)** from Microsoft Purview Data Lifecycle Management configured for all SharePoint sites are enforced for all Copilot Pages and Copilot Notebooks.
+  - For more information on how to configure specific Copilot Notebooks, see [Purview and SharePoint Embedded](cpcn-loop-purview-management.md)
+
+- **[Retention labels](/purview/retention#retention-labels)** from Microsoft Purview Data Lifecycle Management and Microsoft Purview Records Management are supported for Copilot Pages (.page files) and Copilot Pages in Copilot Notebooks by [applying published labels](/purview/create-apply-retention-labels?tabs=spo-onedrive) in OneDrive or SharePoint, or [automatically applying](/purview/apply-retention-labels-automatically) the labels. There's limited support for manually applying retention labels.
+  - Retention labels cannot be viewed or applied directly from a Copilot Page. Instead, the user must [navigate to the Copilot Page within the Loop app](/purview/create-apply-retention-labels?tabs=loop%2Cdefault-label-for-sharepoint#manually-apply-retention-labels) to view or apply a retention label on a Copilot Page.
+  - Retention labels that mark the content as a record or regulatory record can't be manually applied in either the Copilot Page or when the content is opened in the Loop app. If content is automatically labeled as a record, locking and unlocking this record is not yet available.
 
 ## Information Protection
 

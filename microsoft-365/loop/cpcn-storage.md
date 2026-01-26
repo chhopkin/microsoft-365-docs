@@ -44,10 +44,7 @@ Copilot Pages and Copilot Notebooks are stored within your organization in Share
 
 ## Container name
 
-The user-owned container storing Copilot Pages and Copilot Notebooks is named "Pages" if the user visits the Microsoft 365 Copilot app first. If the user visits the Loop app first, the container is named "My workspace" (localized into the language of the user's experience during creation). Both names refer to the same container. Refer to [listing all user-owned containers](cpcn-loop-spe-management.md#listing-all-the-user-owned-containers) to get a list, regardless of the container name.
-
-> [!NOTE]
-> This container is shared with Loop's My workspace feature if the user also uses Loop. This is a storage infrastructure detail and doesn't affect how you manage Copilot Pages and Copilot Notebooks.
+The Copilot Pages, Copilot Notebooks and Loop My workspace all use the same container. This user-owned container is named 'Pages' if the person visits the Microsoft 365 Copilot app first. It is named 'My workspace' (localized into the language of the user's Loop experience during creation) if the person visits the Loop app first. Refer to [listing all user-owned containers](cpcn-loop-spe-management.md#listing-all-the-user-owned-containers) to get a list, regardless of the container name.
 
 ## Storage quota
 

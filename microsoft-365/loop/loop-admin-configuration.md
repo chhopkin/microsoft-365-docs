@@ -97,8 +97,8 @@ Configure the creation of content in these locations by using the appropriate po
 
 |Loop content originally created in|️️️Manage with this policy|Loop content storage|
 |-----|-----|-----|
-|Loop app, My workspace|Cloud Policy: **Create Loop workspaces in Loop**|SharePoint Embedded: ✔️in user-owned container|
-|Loop app, shared workspace|Cloud Policy: **Create Loop workspaces in Loop**|SharePoint Embedded: ✔️in shared container|
+|Loop application, My workspace|Cloud Policy: **Create Loop workspaces in Loop**|SharePoint Embedded: ✔️in user-owned container|
+|Loop application, shared workspace|Cloud Policy: **Create Loop workspaces in Loop**|SharePoint Embedded: ✔️in shared container|
 |[Teams channel, shared workspace](https://techcommunity.microsoft.com/blog/microsoft365insiderblog/collaborate-in-real-time-with-workspaces-in-teams/4414334)|Cloud Policy:  **Create Loop workspaces in Loop**|SharePoint Embedded: ✔️in shared container|
 |Teams channel meeting (Teams Classic Calendar)|SharePoint property `Set-SPOTenant -IsCollabMeetingNotesFluidEnabled $true`|SharePoint Site: 📁`Meetings`|
 |Teams channel meeting ([Teams New Calendar](https://support.microsoft.com/office/get-started-with-the-new-calendar-in-microsoft-teams-98f3b637-5da2-43e2-91b3-f312ab3e4dc5))|Cloud Policy: **Create and view Loop files in Microsoft apps that support Loop** -or- **Create and view Loop files in Outlook**|SharePoint Site: 📁`Meetings`|
@@ -123,7 +123,7 @@ Configure the creation of content in these locations by using the appropriate po
 IT administrators can control whether users in their organization can create new Loop content. **However, these admin controls don't restrict access to existing Loop files or workspaces.** Admin controls can be applied to specific groups or the entire tenant, except for Teams-related settings, which always apply tenant-wide.
 
 - To restrict collaboration between specific groups, use [Information Barriers](/purview/information-barriers-sharepoint) where supported.
-- To block access to existing Loop content or the Loop app, use [Conditional Access policies](/sharepoint/control-access-from-unmanaged-devices).
+- To block access to existing Loop content or the Loop application, use [Conditional Access policies](/sharepoint/control-access-from-unmanaged-devices).
 
 ### Expected user experience when Loop creation is disabled
 
@@ -159,6 +159,8 @@ Copilot Pages, Copilot Notebooks, and the Loop experiences (except for Microsoft
 1. From the **Choose the scope** dropdown list, choose either **All users** or select the group for which you want to apply the policy. For more information, see [Microsoft 365 Groups for Cloud Policy](#scoping-cloud-policy-with-microsoft-365-groups).
 1. In **Configure Settings**, choose one of the following settings:
     - For **Create Loop workspaces in Loop**:
+        - **Disabled**: Creation of Loop workspaces isn't available to the users.
+        - Loop app will open Loop components when workspaces is disabled.
         - **Enabled**: Creation of Loop workspaces is available to the users.
         - **Disabled**: Creation of Loop workspaces isn't available to the users. The Loop app is still used to open Loop components.
         - **Not configured**: Creation of Loop workspaces is available to the users.
