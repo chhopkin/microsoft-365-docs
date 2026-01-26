@@ -52,7 +52,7 @@ Copilot Pages and Copilot Notebooks content are stored in SharePoint Embedded. C
 
 ## Foundations
 
-- **Admin policy**: Use [Cloud Policy](cpcn-admin-configuration.md) to turn on or off creation of Copilot Pages and Copilot Notebooks. Copilot Pages can also be shared as Loop components in supporting apps. See [relationship to Loop components](cpcn-admin-configuration.md#relationship-to-loop-components-optional-context).
+- **Admin policy**: Use [Cloud Policy](cpcn-admin-configuration.md) to turn on or off creation of Copilot Pages and Copilot Notebooks. Copilot Pages can also be shared as Loop components in supporting apps. See [relationship to Loop components](cpcn-admin-configuration.md#relationship-to-loop-components).
 - **GDPR**: Data subject requests can be serviced through the [Microsoft Purview portal](/compliance/regulatory/gdpr-data-subject-requests#data-subject-request-admin-tools) and [Purview eDiscovery workflows](/purview/ediscovery).
 - **EUDB**: Compliance is supported. See [What is the EU Data Boundary?](/privacy/eudb/eu-data-boundary-learn)
 
@@ -72,6 +72,7 @@ Copilot Pages and Copilot Notebooks content are stored in SharePoint Embedded. C
 
 > [!TIP]
 > **Scenario: User leaves the organization**
+>
 > - Copilot Pages and Copilot Notebooks container follows OneDrive cleanup schedule (30 days active → 93 days to permanent deletion)
 > - Unlike OneDrive, there's no manager workflow to retain content
 > - To preserve content before departure, export using Purview or Graph API or add the container to a retention policy
