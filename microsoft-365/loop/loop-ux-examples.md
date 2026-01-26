@@ -90,12 +90,12 @@ In this scenario, workspace creation was initially enabled for the user, allowin
 
 ### Admin
 
-- [Summary of Compliance, Lifecycle, Governance](loop-compliance-summary.md)
-- [Requirements](cpcn-loop-requirements.md)
+- [Summary of compliance, lifecycle, governance](loop-compliance-summary.md)
+- [Requirements](loop-requirements.md)
 - [Storage](loop-storage.md)
 - [Permissions](loop-permission.md)
-- [Admin toggles](loop-admin-configuration.md)
-- [Data Integrations Admin Settings](loop-data-integrations-configuration.md)
+- [Admin policies](loop-admin-configuration.md)
+- [Data integrations](loop-data-integrations-configuration.md)
 
 ### End-User Experience
 
