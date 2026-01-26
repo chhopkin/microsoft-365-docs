@@ -27,7 +27,7 @@ description: "Manage Copilot Pages and Copilot Notebooks in your organization"
 
 # Admin policies for Copilot Pages and Copilot Notebooks
 
-Copilot Pages and Copilot Notebooks are powered by `.page` files, which are stored in user-owned SharePoint Embedded containers. Storage for these files counts toward your organization's overall SharePoint quota. For details, see [storage and lifecycle](cpcn-storage.md). IT administrators can control the creation and use of Copilot Pages and Copilot Notebooks through Cloud Policy settings.
+Copilot Pages (`.page` files) and Copilot Notebooks are stored in user-owned SharePoint Embedded containers. Storage for these files counts toward your organization's overall SharePoint quota. For details, see [storage and lifecycle](cpcn-storage.md). IT administrators can control the creation and use of Copilot Pages and Copilot Notebooks through Cloud Policy settings.
 
 ## At a glance
 
@@ -35,18 +35,17 @@ Copilot Pages and Copilot Notebooks are powered by `.page` files, which are stor
 |--------------------------|-------------------|--------|
 | **Copilot Pages and Copilot Notebooks creation** | Cloud Policy: *Create and view Copilot Pages and Copilot Notebooks* | Enabled |
 
+> [!TIP]
+> **Common scenarios**
+> - **Block Loop but allow Copilot Pages/Notebooks**: Disable Loop policies; leave *Create and view Copilot Pages and Copilot Notebooks* enabled
+> - **Block Copilot Pages/Notebooks but allow Loop**: Disable *Create and view Copilot Pages and Copilot Notebooks*; leave Loop policies enabled
+> - **Block everything**: Disable both policies
+
 ## Requirements
 
 Copilot Pages and Copilot Notebooks are a core service integrated into SharePoint and Microsoft 365. See [requirements](cpcn-requirements.md) to learn more about configuration requirements, service connections, and license requirements.
 
-### Scoping Cloud Policy with Microsoft 365 Groups
-
-To apply Cloud Policy settings to specific users, assign the policy to a Microsoft 365 group. For steps to create a group, see [Create a Microsoft 365 group](/microsoft-365/admin/create-groups/create-groups).
-
-You can also use security or dynamic groups. For details, see [Create, edit, or delete a security group](/microsoft-365/admin/email/create-edit-or-delete-a-security-group) and [Create dynamic groups in Azure AD](/azure/active-directory/external-identities/use-dynamic-groups).
-
-> [!NOTE]
-> If you apply the policy to all users in the tenant, group setup isn't required.
+To apply Cloud Policy to specific users instead of the entire tenant, see [Scoping Cloud Policy with Microsoft 365 Groups](loop-admin-configuration.md#scoping-cloud-policy-with-microsoft-365-groups). You can also apply Cloud Policy using security or dynamic groups, see [Create, edit, or delete a security group](/microsoft-365/admin/email/create-edit-or-delete-a-security-group) and [Create dynamic groups in Azure AD](/azure/active-directory/external-identities/use-dynamic-groups). If you apply the policy to all users in the tenant, group setup isn't required.
 
 ## Relationship to Loop components (optional context)
 
@@ -81,7 +80,7 @@ Copilot Pages and Copilot Notebooks check the following [Cloud Policy](/deployof
 1. Select **Customization** from the left pane.
 1. Select **Policy Management**.
 1. Create a new policy configuration or edit an existing one.
-1. From the **Choose the scope** dropdown list, choose either **All users** or select the group for which you want to apply the policy. For more information, see [Microsoft 365 Groups for Cloud Policy](#scoping-cloud-policy-with-microsoft-365-groups).
+1. From the **Choose the scope** dropdown list, choose either **All users** or select the group for which you want to apply the policy. For more information, see [Scoping Cloud Policy with Microsoft 365 Groups](loop-admin-configuration.md#scoping-cloud-policy-with-microsoft-365-groups).
 1. In **Configure Settings**, choose one of the following settings:
     - For **Create and view Copilot Pages and Copilot Notebooks**
         - **Enabled**: Copilot Pages and Copilot Notebooks creation and integration are available to the users.

@@ -70,6 +70,12 @@ Copilot Pages and Copilot Notebooks content are stored in SharePoint Embedded. C
 
 ## Data Lifecycle
 
+> [!TIP]
+> **Scenario: User leaves the organization**
+> - Copilot Pages and Copilot Notebooks container follows OneDrive cleanup schedule (30 days active → 93 days to permanent deletion)
+> - Unlike OneDrive, there's no manager workflow to retain content
+> - To preserve content before departure, export using Purview or Graph API or add the container to a retention policy
+
 - **Storage**: Copilot Pages and Copilot Notebooks are stored together in a single, user-owned SharePoint Embedded container (Application Name: Loop). Storage counts against your organization's SharePoint quota. See [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md).
   - **Limitation**: There's no admin control to set limits on individual containers.
   - **Limitation**: Unlike OneDrive, there's no user workflow for content after departure. The container is deleted on the same schedule as OneDrive defaults. See [Storage management after user departure](cpcn-storage.md#storage-management-after-user-departure).

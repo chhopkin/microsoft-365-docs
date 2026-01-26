@@ -27,6 +27,15 @@ description: "Learn about managing SharePoint Embedded containers for Copilot No
 
 # Manage SharePoint Embedded containers for Copilot Notebooks, Copilot Pages, or Loop workspaces
 
+## At a glance
+
+| Task | Tool | Command/Location |
+|------|------|------------------|
+| **View containers** | SharePoint admin center | **Containers** > **Active containers** |
+| **List user-owned containers** | PowerShell | `Get-SPOContainer -OwningApplicationId '<AppID>' \| WHERE OwnershipType -EQ 'UserOwned'` |
+| **Find ownerless workspaces** | PowerShell | `Get-SPOContainer -OwningApplicationId '<AppID>' \| WHERE {$_.Owners.Count -eq 0}` |
+| **Manage workspace membership** | SharePoint admin center | Owners and Managers (post-April 2025 workspaces) |
+
 IT admins can manage SharePoint Embedded containers like they manage SharePoint sites using either [SharePoint Admin Center](/sharepoint/dev/embedded/concepts/admin-exp/consuming-tenant-admin/ctaux) or [PowerShell](/sharepoint/dev/embedded/concepts/admin-exp/consuming-tenant-admin/ctapowershell), with the appropriate [SharePoint Embedded administrator role](/sharepoint/dev/embedded/concepts/admin-exp/adminrole). Install the [latest version of SharePoint PowerShell module](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online). Storage and quota are combined with SharePoint in your organization. Use the Loop application IDs to filter to Loop containers in PowerShell:
 
 - Loop Web Application ID: `a187e399-0c36-4b98-8f04-1edc167a0996`
@@ -35,7 +44,13 @@ IT admins can manage SharePoint Embedded containers like they manage SharePoint 
 
 ## Ownerless workspaces
 
-IT admins can use SharePoint Admin Center and PowerShell to find ownerless tenant-owned Loop workspaces. For more information, see [Consuming Tenant Admin](/sharepoint/dev/embedded/concepts/admin-exp/cta), and [Get-SPO Container](/powershell/module/microsoft.online.sharepoint.powershell/get-spocontainer). The Loop Application IDs are listed [in this article](#manage-sharepoint-embedded-containers-for-copilot-notebooks-copilot-pages-or-loop-workspaces).
+IT admins can use SharePoint Admin Center and PowerShell to find ownerless tenant-owned Loop workspaces. For more information, see [Consuming Tenant Admin](/sharepoint/dev/embedded/concepts/admin-exp/cta), and [Get-SPO Container](/powershell/module/microsoft.online.sharepoint.powershell/get-spocontainer).
+
+To find ownerless Loop containers, update the following sample PowerShell to your needs:
+
+```PowerShell
+Get-SPOContainer -OwningApplicationId 'a187e399-0c36-4b98-8f04-1edc167a0996' | WHERE {$_.Owners.Count -eq 0} | FT
+```
 
 ## Administering roles and membership for tenant-owned workspaces
 

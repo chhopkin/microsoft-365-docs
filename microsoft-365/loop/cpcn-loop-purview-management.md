@@ -29,6 +29,15 @@ description: "Learn about Purview integration of SharePoint Embedded containers 
 
 This article covers Purview integration for SharePoint Embedded containers used by Copilot Pages, Copilot Notebooks, and Loop workspaces. The concepts apply to all these products because they share the same underlying SharePoint Embedded infrastructure.
 
+## At a glance
+
+| Task | How to do it |
+|------|-------------|
+| **Apply retention to all containers** | Use "All SharePoint Sites" scope in Purview |
+| **Apply retention to specific container** | Get container URL from SharePoint admin center, add to Purview policy |
+| **Search audit logs** | Search for "page", "loop", or the Loop Application IDs |
+| **Filter audit exports** | Use `"SourceFileExtension":"page"` or `"SourceFileExtension":"loop"` |
+
 All SharePoint Embedded containers are targeted using the "All SharePoint Sites" scope in Microsoft Purview. For example, if configuring Retention Policies, the configuration you specify that targets All SharePoint Sites applies to every Copilot Pages and Copilot Notebooks container in SharePoint Embedded, and every Loop workspace in SharePoint Embedded. All SharePoint Sites includes all SharePoint Embedded container ownership types: user, group, and tenant-owned.
 
 ## Retrieving the container URL for Purview

@@ -40,7 +40,7 @@ ai-usage: ai-assisted
 
 ## Overview
 
-Copilot Pages and Copilot Notebooks create `.loop` files stored in user-owned SharePoint Embedded containers. Storage counts against your organization's SharePoint quota. For details, see [storage](cpcn-storage.md). To control creation, see [admin policies](cpcn-admin-configuration.md).
+Copilot Pages create `.page` files and Copilot Notebooks create `.pod` files, both stored in user-owned SharePoint Embedded containers. Storage counts against your organization's SharePoint quota. For details, see [storage](cpcn-storage.md). To control creation, see [admin policies](cpcn-admin-configuration.md).
 
 ## Network requirements
 

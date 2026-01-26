@@ -76,11 +76,17 @@ The sections below outline governance, lifecycle, and compliance capabilities ap
 
 ## Data Lifecycle
 
+> [!TIP]
+> **Scenario: User leaves the organization**
+> - **OneDrive content** (Teams chat, Outlook, OneNote): Standard OneDrive retention applies
+> - **My workspace content**: Follows OneDrive cleanup schedule (30 days active → 93 days to permanent deletion)
+> - **Shared workspaces**: Remain accessible to other owners—no action needed
+
 - **Storage**: Loop content is stored in SharePoint Embedded (My workspace, shared workspaces), SharePoint sites, or OneDrive depending on where it was created. Storage counts against your organization's SharePoint quota. See [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md).
   - **Limitation**: Unlike OneDrive, there's no user workflow for My workspace content after user departure. The container is deleted on the same schedule as OneDrive defaults. See [storage management after user departure](loop-storage.md).
 - **Multi-Geo**: [Supported](/microsoft-365/enterprise/microsoft-365-multi-geo).
   - OneDrive/SharePoint content: Follows standard multi-geo capabilities.
-  - Workspaces: Created in geo matching user's [preferred data location](/microsoft-365/enterprise/plan-for-multi-geo#best-practices).
+  - Workspaces: Created in geo matching user's [preferred data location](/microsoft-365/enterprise/plan-for-multi-geo#best-practices). Use [same move mechanism as SharePoint sites](/microsoft-365/enterprise/m365-dr-workload-spo#move-a-sharepoint-site-or-sharepoint-embedded-container-site).
   - **Known issue**: Some operations may not work correctly after moving containers across geos. Microsoft is working on a fix.
 - **Recycle bin**: Available for deleted components and pages within Loop workspaces, OneDrive, or SharePoint.
   - **Limitation**: No recycle bin for Loop workspaces themselves (Roadmap ID 421615).

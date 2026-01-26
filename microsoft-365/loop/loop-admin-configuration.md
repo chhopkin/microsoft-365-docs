@@ -69,7 +69,20 @@ You can also use security or dynamic groups. For details, see [Create, edit, or 
 
 ## Available policy settings
 
-There are several IT Admin policy settings provided to enable creation of Loop content across Microsoft 365:
+There are several IT Admin policy settings provided to enable creation of Loop content across Microsoft 365.
+
+### Quick decision guide
+
+Use this guide to identify which policy tool you need:
+
+| What do you want to control? | Use this tool |
+|------------------------------|---------------|
+| Loop workspaces (in Loop app or Teams channels) | Cloud Policy: **Create Loop workspaces in Loop** |
+| Loop in Outlook, OneNote, Whiteboard, or New Calendar | Cloud Policy: **Create and view Loop files in Microsoft apps that support Loop** |
+| Loop in Outlook only (granular control) | Cloud Policy: **Create and view Loop files in Outlook** |
+| Loop in Teams chat, channels, and classic meetings | SharePoint PowerShell: `Set-SPOTenant` commands |
+
+### Full policy reference
 
 |Configure  |Setting Type  |Specific Policy  |Notes  |
 |---------|---------|---------|---------|
@@ -225,16 +238,16 @@ To enable Loop components on **Public** defined sessions, the following policies
 
 You should also review the configuration of your [ConditionalAccessPolicy](/powershell/module/exchangepowershell/set-owamailboxpolicy). By design, user sessions that meet the criteria for conditional access will have limited functionality and will not be able to use Loop components.
 
-## Related topics
+## Related articles
 
 ### Admin
 
-- [UX examples for admin toggle states](loop-ux-examples.md)
+- [UX examples for admin policy states](loop-ux-examples.md)
 - [Storage](loop-storage.md)
 - [Permissions](loop-permission.md)
 - [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md)
-- [Purview and SharePoint Embedded containers](cpcn-loop-purview-management.md)
-- [Data Integrations Admin Settings](loop-data-integrations-configuration.md)
+- [Purview management](cpcn-loop-purview-management.md)
+- [Data integrations](loop-data-integrations-configuration.md)
 
 ### End-User Experience
 

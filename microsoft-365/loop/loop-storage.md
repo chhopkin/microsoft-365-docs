@@ -36,6 +36,18 @@ appliesto:
 | **Container limit** | 25 TB maximum per container |
 | **User departure** | Personal workspace follows OneDrive cleanup schedule (30 days active → soft delete → 93 days to permanent deletion) |
 
+## Quick storage reference
+
+Use this simplified view to quickly identify where content is stored:
+
+| Created in... | Stored in... |
+|---------------|-------------|
+| **Loop app** (any workspace) | SharePoint Embedded containers |
+| **Teams chat notes** | SharePoint Embedded containers |
+| **Teams private** chat or meeting | User's OneDrive |
+| **Teams channel** or channel meeting | SharePoint site (channel folder or Meetings) |
+| **Outlook, OneNote, Whiteboard** | User's OneDrive |
+
 ## Storage
 
 > [!NOTE]
