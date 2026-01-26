@@ -36,7 +36,10 @@ If you need to specify the Copilot Pages and Copilot Notebooks container, or a s
 1. Sign in to the SharePoint admin center with the [SharePoint Embedded administrator role](/sharepoint/dev/embedded/concepts/admin-exp/adminrole)
 1. Navigate to **Containers** > **Active containers** or **Deleted containers** where you can view the details of a selected Loop workspace or Copilot Pages and Copilot Notebooks container
 1. From the flyout pane, **General** tab
-1. Copy the container URL
+1. Copy the Container URL
+
+> [!NOTE]
+> The Container URL doesn't provide access to the container and doesn't function as a shareable link for someone with access to open the container in the Loop app. Use the Container URL only within Purview to target that container for various Purview features. A separate URL, the Application Redirect URL, will serve as a clickable link for end users with access to open the container in the Loop app. An IT administrator can grant this access. The Application Redirect URL isn't yet available, but will be when [Roadmap ID 421612](https://www.microsoft.com/en-us/microsoft-365/roadmap?id=421612) launches.
 
 ## Searching the Audit Logs
 
