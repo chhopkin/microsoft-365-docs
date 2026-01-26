@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: efrene 
 author: efrene
 manager: scotv
-ms.date: 01/22/2025
+ms.date: 01/26/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -132,7 +132,7 @@ The [Microsoft 365 Copilot Chat usage report](/microsoft-365/admin/activity-repo
 
 Admins can also use the [Organizational messages](/copilot/microsoft-365/microsoft-365-copilot-enable-users) feature in the report to act on adoption trends they are seeing. It lets you reach your users in the flow of their daily work with targeted, actionable guidance. You can choose to create a new message, or customize an existing template.  And you can choose to send it to all your Copilot Chat users, or to a specific subset.
 
-For example, in the Copilot Chat usage report, and admin might discover that Copilot Chat usage is unexpectedly low, where a number of users have not used Copilot Chat for an extended period of time (for example, the past 28 days). Through organizational messaging, the admin can send notifications directly to these specific users. The notification could be to drive adoption by providing relateable examples about how Copilot Chat could be useful to complete common work tasks and links to article or video resources. And if your users mostly work in Microsoft Teams, you can have the notication display in Teams and on a scheduled basis to increase awareness.
+For example, in the Copilot Chat usage report, an admin might discover that Copilot Chat usage is unexpectedly low, where a number of users have not used Copilot Chat for an extended period of time (for example, the past 28 days). Through organizational messaging, the admin can send notifications directly to these specific users. The notification could be to drive adoption by providing relateable examples about how Copilot Chat could be useful to complete common work tasks and links to article or video resources. And if your users mostly work in Microsoft Teams, you can have the notication display in Teams and on a scheduled basis to increase awareness.
 
 
 ## Manage Copilot Chat
