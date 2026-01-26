@@ -30,7 +30,7 @@ description: "Learn about the governance, data lifecycle management, and complia
 > [!NOTE]
 > The Copilot Pages and Copilot Notebooks content can now be found in a [dedicated article](cpcn-compliance-summary.md).
 
-As a Compliance Manager or IT administrator, it's crucial to stay up-to-date on the latest governance, data lifecycle, and compliance posture for the software solutions being used in your organization. This article details the capabilities available and not available yet for [Microsoft Loop](https://www.microsoft.com/en-us/microsoft-loop).
+As a Compliance Manager or IT administrator, it's crucial to stay up-to-date on the latest governance, data lifecycle, and compliance posture for the software solutions being used in your organization. This article details the capabilities available and not available yet for [Microsoft Loop](https://www.microsoft.com/microsoft-loop).
 
 ## At a glance
 
