@@ -31,7 +31,7 @@ ai-usage: ai-assisted
 ## At a glance
 
 | Requirement | Details |
-|-------------|--------|
+| --- | --- |
 | **Loop components license** | OneDrive or SharePoint license |
 | **Loop workspaces license** | Loop with workspaces service plan ([see eligible licenses](https://support.microsoft.com/office/loop-access-via-microsoft-365-subscriptions-92915461-4b14-49a4-9cd4-d1c259292afa)) |
 | **Network** | Allow connections per [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges) |

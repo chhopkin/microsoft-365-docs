@@ -32,7 +32,7 @@ As a Compliance Manager or IT administrator, it's crucial to stay up-to-date on 
 ## At a glance
 
 | Capability | Status |
-|------------|--------|
+| --- | --- |
 | **Admin policy** | ✅ Available - [Cloud Policy](cpcn-admin-configuration.md) |
 | **GDPR / EUDB** | ✅ Supported |
 | **Conditional Access** | ◐ App-level only (entire Microsoft 365 Copilot app) |

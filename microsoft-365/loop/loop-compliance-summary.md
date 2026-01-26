@@ -35,7 +35,7 @@ As a Compliance Manager or IT administrator, it's crucial to stay up-to-date on 
 ## At a glance
 
 | Capability | Status |
-|------------|--------|
+| --- | --- |
 | **Admin policies** | ✅ Available - [Cloud Policy + SharePoint PowerShell](loop-admin-configuration.md) |
 | **GDPR / EUDB** | ✅ Supported |
 | **Conditional Access** | ✅ Supported |

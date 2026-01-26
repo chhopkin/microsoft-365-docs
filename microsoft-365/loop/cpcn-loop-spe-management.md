@@ -30,7 +30,7 @@ description: "Learn about managing SharePoint Embedded containers for Copilot No
 ## At a glance
 
 | Task | Tool | Command/Location |
-|------|------|------------------|
+| --- | --- | --- |
 | **View containers** | SharePoint admin center | **Containers** > **Active containers** |
 | **List user-owned containers** | PowerShell | `Get-SPOContainer -OwningApplicationId '<AppID>' \| WHERE OwnershipType -EQ 'UserOwned'` |
 | **Find ownerless workspaces** | PowerShell | `Get-SPOContainer -OwningApplicationId '<AppID>' \| WHERE {$_.Owners.Count -eq 0}` |

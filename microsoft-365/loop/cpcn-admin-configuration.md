@@ -32,7 +32,7 @@ Copilot Pages (`.page` files) and Copilot Notebooks are stored in user-owned Sha
 ## At a glance
 
 | What you want to control | Where to configure | Default |
-|--------------------------|-------------------|--------|
+| --- | --- | --- |
 | **Copilot Pages and Copilot Notebooks creation** | Cloud Policy: *Create and view Copilot Pages and Copilot Notebooks* | Enabled |
 
 > [!TIP]
@@ -58,7 +58,7 @@ To share Copilot Pages as interactive components (instead of just hyperlinks) in
 
 ## User experience when Copilot Pages and Copilot Notebooks are disabled
 
-When creation is disabled, users are unable to create new Copilot Pages or Notebooks. The Pages module will still be visible in the Microsoft 365 Copilot app, but the Notebooks module will be hidden, preventing users from accessing existing Notebooks through the Copilot App.
+When creation is disabled, users are unable to create new Copilot Pages or Notebooks. The Pages module is visible in the Microsoft 365 Copilot app, but the Notebooks module is hidden, preventing users from accessing existing Notebooks through the Copilot App.
 
 Existing Copilot Pages and Notebooks aren't deleted. Users can still view and edit existing items if they have permission. These files remain accessible in the following ways:
 
@@ -66,10 +66,10 @@ Existing Copilot Pages and Notebooks aren't deleted. Users can still view and ed
 - **Microsoft 365 Copilot app**: For accessing items created in chat experiences
 - **Original storage locations**: Files added to Notebooks remain available in OneDrive and SharePoint where they're stored
 
-Existing items are also discoverable through search, Purview, and can be exported by admins.
+Existing items are also discoverable through search, Purview, and admins can export them.
 
 > [!IMPORTANT]
-> Sharing links to Copilot Notebooks will stop working when creation is disabled via the policy in this article.
+> Sharing links to Copilot Notebooks don't work when creation is disabled via the policy in this article.
 
 ## Settings management in Cloud Policy
 
@@ -88,23 +88,23 @@ Copilot Pages and Copilot Notebooks check the following [Cloud Policy](/deployof
         - **Disabled**: Copilot Pages and Copilot Notebooks creation and integration aren't available to the users.
         - **Not configured**: Copilot Pages and Copilot Notebooks creation and integration are available to the users.
           >[!NOTE]
-          >If your organization has [disabled the creation of OneDrive](/sharepoint/manage-user-profiles#disable-onedrive-creation-for-some-users), regardless of the setting noted here, these people in your organization won't be able to create Copilot Pages or Copilot Notebooks.
+          >If your organization [disabled the creation of OneDrive](/sharepoint/manage-user-profiles#disable-onedrive-creation-for-some-users), regardless of the setting noted here, these people in your organization can't create Copilot Pages or Copilot Notebooks.
 1. Save the policy configuration.
 1. Reassign priority for any security group, if required. (If two or more policy configurations are applicable to the same set of users, the one with the higher priority is applied.)
 
-In case you create a new policy configuration or change the configuration for an existing policy, there can be a delay in the change being reflected as described below:
+In case you create a new policy configuration or change the configuration for an existing policy, there can be a delay in the change being reflected:
 
-- If there were existing policy configurations prior to the change, the change takes up to 90 minutes to be reflected.
-- If there were no policy configurations prior to the change, the change takes up to 24 hours to be reflected.
+- If there were existing policy configurations before the change, the change takes up to 90 minutes to be reflected.
+- If there were no policy configurations before the change, the change takes up to 24 hours to be reflected.
 
 > [!NOTE]
 > To enable a Cloud Policy for only a specific subset of users:
 >
 > 1. Create **Group A** containing the users you want to enable the policy for. Assign the Cloud Policy to this group and set it to **Enabled**.
 > 1. Create **Group B** that includes **All users**. Assign the same Cloud Policy to this group and set it to **Disabled**.
-> 1. Set the priority for **Group A** to a lower number (for example, priority 0) so it is evaluated before **Group B** (for example, priority 1).
+> 1. Set the priority for **Group A** to a lower number (for example, priority 0) so it's evaluated before **Group B** (for example, priority 1).
 >
-> In Cloud Policy, lower priority numbers are evaluated first. This ensures users in **Group A** have the policy **Enabled**, while all other users in **Group B** have it **Disabled**.
+> In Cloud Policy, lower priority numbers are evaluated first. The priority numbering method described in the preceding steps ensures users in **Group A** have the policy **Enabled**, while all other users in **Group B** have it **Disabled**.
 
 ## Related articles
 

@@ -30,7 +30,7 @@ appliesto:
 ## At a glance
 
 | Key fact | Details |
-|----------|--------|
+| --- | --- |
 | **Storage location** | SharePoint Embedded (user-owned container) |
 | **Container name** | "Pages" or "My workspace" (depends on which app creates it first) |
 | **Quota** | Counts against your organization's SharePoint storage quota |

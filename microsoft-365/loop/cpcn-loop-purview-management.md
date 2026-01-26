@@ -32,7 +32,7 @@ This article covers Purview integration for SharePoint Embedded containers used 
 ## At a glance
 
 | Task | How to do it |
-|------|-------------|
+| --- | --- |
 | **Apply retention to all containers** | Use "All SharePoint Sites" scope in Purview |
 | **Apply retention to specific container** | Get container URL from SharePoint admin center, add to Purview policy |
 | **Search audit logs** | Search for "page", "loop", or the Loop Application IDs |

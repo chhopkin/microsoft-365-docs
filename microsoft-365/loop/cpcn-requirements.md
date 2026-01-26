@@ -31,7 +31,7 @@ ai-usage: ai-assisted
 ## At a glance
 
 | Requirement | Details |
-|-------------|--------|
+| --- | --- |
 | **Copilot Pages license** | OneDrive license (requires OneDrive site) |
 | **Copilot Notebooks license** | Microsoft 365 Copilot license |
 | **Network** | Allow connections per [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges) |
