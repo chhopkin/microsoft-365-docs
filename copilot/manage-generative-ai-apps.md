@@ -222,7 +222,7 @@ To explore attack paths:
 
 5. Follow the recommendations to remediate the identified risks.
 
-
+ 
 ## See also
 
 - [AI Security Posture Management](/azure/defender-for-cloud/ai-security-posture)
