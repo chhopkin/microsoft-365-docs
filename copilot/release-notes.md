@@ -216,7 +216,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Business Impact:** Accelerates delivery of tailored AI capabilities across the enterprise.
 
-    **Personal Impact: :** Developers spend less time on integration work and more time innovating.
+    **Personal Impact:** Developers spend less time on integration work and more time innovating.
 
     **Additional Resources:**
 
@@ -7774,7 +7774,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Why:** This enhancement accelerates the delivery of AI-powered solutions to frontline teams and improves deployment efficiency.
 
-    **Try This:**
+    **Try this:**
 
     - In Azure AI Foundry, open your agent and click Publish to Copilot.
     - Confirm availability in Word, Teams, and other supported Microsoft 365 apps.
@@ -7783,7 +7783,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Business Impact:** Accelerates delivery of tailored AI capabilities across the enterprise.
 
-    **Personal Impact: :** Developers spend less time on integration work and more time innovating.
+    **Personal Impact:** Developers spend less time on integration work and more time innovating.
 
     **Additional Resources:**
 
@@ -7864,7 +7864,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
 Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
 
-  **Roadmap ID:** [516566](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=516566 )
+  **Roadmap ID:** [516566](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=516566)
 
   **Details:**
 
@@ -14475,6 +14475,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
