@@ -127,7 +127,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Learn:**
 
-    [Integrate Microsoft Foundry agents](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/overview-custom-engine-agent#integrate-microsoft-foundry-agents)
+    [Integrate Microsoft Foundry agents](/microsoft-365-copilot/extensibility/overview-custom-engine-agent#integrate-microsoft-foundry-agents)
 - **Copy an agent from Agent Builder to Copilot Studio** [Windows, Web]
 
   Users can now open agents created in Agent Builder in the Copilot Studio authoring experience.
@@ -176,7 +176,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Learn:**
 
-    [Build agents with Agent Builder in Microsoft 365 Copilot](https://learn.microsoft.com/microsoft-365-copilot/extensibility/agent-builder-build-agents)
+    [Build agents with Agent Builder in Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agent-builder-build-agents)
 - **Improve relevance and personalization by connecting user identities across data sources** [Windows, Web]
 
   Copilot improves relevance and personalization by connecting user identities across multiple data sources.
@@ -223,7 +223,7 @@ Updates released between January 13, 2025, and January 27, 2026.
     **Learn:**
 
     
-    [Publish agents to Microsoft 365 Copilot and Microsoft Teams](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/how-to/publish-copilot?view=foundry)
+    [Publish agents to Microsoft 365 Copilot and Microsoft Teams](/azure/ai-foundry/agents/how-to/publish-copilot?view=foundry)
 - **Users can leverage multi-agent workflows** [Windows, Web]
 
   Agents in Copilot can now use other agents to accomplish work if configured. Users can see the interaction between agents.
@@ -250,9 +250,9 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Learn:**
 
-    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](https://learn.microsoft.com/microsoft-365/admin/manage/manage-connected-agents-for-researcher?view=o365-worldwide)
+    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-connected-agents-for-researcher?view=o365-worldwide)
 
-    [Connect to other agents from a declarative agent](https://learn.microsoft.com/microsoft-365-copilot/extensibility/declarative-agent-connected-agent)
+    [Connect to other agents from a declarative agent](/microsoft-365-copilot/extensibility/declarative-agent-connected-agent)
 ### Microsoft Loop
 - **Generate PowerPoint grounded on a Copilot page** [Web]
 
@@ -349,7 +349,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Learn:**
 
-    [Copilot employee experience outcomes (Glint) report](https://learn.microsoft.com/viva/insights/advanced/analyst/templates/copilot-employee-experience-outcome-report)
+    [Copilot employee experience outcomes (Glint) report](/viva/insights/advanced/analyst/templates/copilot-employee-experience-outcome-report)
 - **Workplace patterns report in Viva Glint** [Web]
 
   A new report in Viva Glint highlights how employee sentiment relates to workplace patterns and drivers.
@@ -377,7 +377,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Learn:**
 
-    [Build agents with Agent Builder in Microsoft 365 Copilot](https://learn.microsoft.com/microsoft-365-copilot/extensibility/agent-builder-build-agents)
+    [Build agents with Agent Builder in Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agent-builder-build-agents)
 
 
 <!--- All features regardless of platform go here  -->
@@ -5285,7 +5285,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Learn:**
 
-    [Build agents with Agent Builder in Microsoft 365 Copilot](https://learn.microsoft.com/microsoft-365-copilot/extensibility/agent-builder-build-agents)
+    [Build agents with Agent Builder in Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agent-builder-build-agents)
 
 - **Improve relevance and personalization by connecting user identities across data sources** [Windows, Web]
 
@@ -5333,9 +5333,9 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Learn:**
 
-    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](https://learn.microsoft.com/microsoft-365/admin/manage/manage-connected-agents-for-researcher?view=o365-worldwide)
+    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-connected-agents-for-researcher?view=o365-worldwide)
 
-    [Connect to other agents from a declarative agent](https://learn.microsoft.com/microsoft-365-copilot/extensibility/declarative-agent-connected-agent)
+    [Connect to other agents from a declarative agent](/microsoft-365-copilot/extensibility/declarative-agent-connected-agent)
 
 <!--- All features that have 'Windows' tag  -->
 <!-- 74703,100671,100312,104967,102626,101108 -->
@@ -7691,7 +7691,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Learn:**
 
-    [Integrate Microsoft Foundry agents](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/overview-custom-engine-agent#integrate-microsoft-foundry-agents)
+    [Integrate Microsoft Foundry agents](/microsoft-365-copilot/extensibility/overview-custom-engine-agent#integrate-microsoft-foundry-agents)
 
 - **Copy an agent from Agent Builder to Copilot Studio** [Windows, Web]
 
@@ -7742,7 +7742,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Learn:**
 
-    [Build agents with Agent Builder in Microsoft 365 Copilot](https://learn.microsoft.com/microsoft-365-copilot/extensibility/agent-builder-build-agents)
+    [Build agents with Agent Builder in Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agent-builder-build-agents)
 
 - **Improve relevance and personalization by connecting user identities across data sources** [Windows, Web]
 
@@ -7789,7 +7789,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Learn:**
 
-    [Publish agents to Microsoft 365 Copilot and Microsoft Teams](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/how-to/publish-copilot?view=foundry)
+    [Publish agents to Microsoft 365 Copilot and Microsoft Teams](/azure/ai-foundry/agents/how-to/publish-copilot?view=foundry)
 
 - **Users can leverage multi-agent workflows** [Windows, Web]
 
@@ -7817,9 +7817,9 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Learn:**
 
-    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](https://learn.microsoft.com/microsoft-365/admin/manage/manage-connected-agents-for-researcher?view=o365-worldwide)
+    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-connected-agents-for-researcher?view=o365-worldwide)
 
-    [Connect to other agents from a declarative agent](https://learn.microsoft.com/microsoft-365-copilot/extensibility/declarative-agent-connected-agent)
+    [Connect to other agents from a declarative agent](/microsoft-365-copilot/extensibility/declarative-agent-connected-agent)
 
 ### Microsoft Loop
 - **Generate PowerPoint grounded on a Copilot page** [Web]
@@ -7864,29 +7864,29 @@ Updates released between January 13, 2025, and January 27, 2026.
 
 Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
 
-    **Roadmap ID:** [516566](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=516566 )
+  **Roadmap ID:** [516566](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=516566 )
 
-    **Details:**
+  **Details:**
 
-    **What changed:** Previously, users needed to manually research unfamiliar content such as unknown acronyms or images. Copilot now provides direct explanations for selected objects within a slide.
-
-    **Why:** This feature helps users understand unfamiliar or complex information without leaving their presentation.
-
-    **Try this:**
-
-    - Select any text, table or slide, right click and choose Explain.
-    - Review the explanation without leaving PowerPoint.
-
+  **What changed:** Previously, users needed to manually research unfamiliar content such as unknown acronyms or images. Copilot now provides direct explanations for selected objects within a slide.
+  
+  **Why:** This feature helps users understand unfamiliar or complex information without leaving their presentation.
+  
+  **Try this:**
+  
+  - Select any text, table or slide, right click and choose Explain.
+  - Review the explanation without leaving PowerPoint.
+  
     **Why this matters:**
-
+  
     **Business impact:** Reduces misinterpretation and improves presentation accuracy.
-
+  
     **Personal impact:** Saves time and builds confidence when reviewing content.
 
     **Additional resources:**
-
+  
     **Blog**
-
+  
     [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
 
 ### Viva Glint
@@ -7917,7 +7917,7 @@ Users can select the "explain" option from the contextual menu that appears by r
 
     **Learn:**
 
-    [Copilot employee experience outcomes (Glint) report](https://learn.microsoft.com/viva/insights/advanced/analyst/templates/copilot-employee-experience-outcome-report)
+    [Copilot employee experience outcomes (Glint) report](/viva/insights/advanced/analyst/templates/copilot-employee-experience-outcome-report)
 
 - **Workplace patterns report in Viva Glint** [Web]
 
@@ -7946,7 +7946,7 @@ Users can select the "explain" option from the contextual menu that appears by r
 
     **Learn:**
 
-    [Build agents with Agent Builder in Microsoft 365 Copilot](https://learn.microsoft.com/microsoft-365-copilot/extensibility/agent-builder-build-agents)
+    [Build agents with Agent Builder in Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agent-builder-build-agents)
 
 
 ## January 13, 2026
@@ -14475,6 +14475,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
