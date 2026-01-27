@@ -3,7 +3,7 @@ title: Preparing users for cross-tenant migration with orchestrator
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 12/11/2025
+ms.date: 01/26/2026
 recommendations: true
 audience: ITPro
 ms.topic: upgrade-and-migration-article
@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 - m365initiative-migratetom365
 search.appverid: MET150
-description: "Users need preparation before a cross-tenant migration. This article outlines the steps you need to take before the cross-tenant migration begins"
+description: "Users need preparation before a cross-tenant migration in Microsoft 365. This article outlines the steps you need to take before the cross-tenant migration begins"
 ---
 
 # Preparing users for migration
