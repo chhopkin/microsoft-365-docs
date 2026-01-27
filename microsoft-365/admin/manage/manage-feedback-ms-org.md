@@ -94,8 +94,6 @@ These policy settings are also available if you use Group Policy. To use these p
 
 The following information only applies to United States government customers using Microsoft 365 (or Office 365) Government Community Cloud (GCC), GCC High, or DoD offerings.
 
-### GCC environment
-
 - Not all products currently support feedback collection in this environment, but we're working to implement that support. To prepare for feedback collection, we recommend you review and configure the policy settings in the way that's appropriate for your organization.
 - When the **Allow users to submit feedback to Microsoft** policy is **Not Configured** in this environment, it has the same effect as if you set the policy to **Disabled**. To activate this functionality, the policy must be set to **Enabled**.
 - The Feedback portal and in-product surveys aren’t available in this environment, so setting these policies don’t have any effect at this time.
