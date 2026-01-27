@@ -22,7 +22,9 @@ description: Learn how to try out document processing services in Microsoft 365 
 
 Document processing for Microsoft 365 provides powerful content management and productivity services that let you do more with your documents. You can process, analyze, create, sign, manage, and enhance them with ease.
 
-Through December 2025, your organization can use [included monthly capacity](#included-monthly-capacity) for some of these services when you set up [pay-as-you-go billing](syntex-azure-billing.md). It's a great way to try out document processing capabilities, such as autofill columns, document translation, electronic signatures, and optical character recognition, to see how you can use them to streamline processes in your organization.
+> [!NOTE]
+> Through June 2026, your organization can use [included monthly capacity](#included-monthly-capacity) for some of these services when you set up [pay-as-you-go billing](syntex-azure-billing.md). 
+> It's a great way to try out document processing capabilities, such as autofill columns, document translation, electronic signatures, and optical character recognition, to see how you can use them to streamline processes in your organization.
 
 ## Get started
 

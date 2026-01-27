@@ -6,7 +6,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 11/12/2025
+ms.date: 01/20/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
@@ -101,9 +101,8 @@ The following configuration and preparation tasks need to be done in Workday by 
 1. [Manage authentication policies](#task-4-manage-authentication-policies)
 1. [Register API Client](#task-5-register-api-client)
 1. [Security configuration](#task-6-security-configuration)
-1. [Activate Pending Security Policy Changes](#task-7-activate-pending-security-policy-changes)
-1. [Add ISSG_Generic_COPILOT to Integration Permissions](#task-8-add-issg_generic_copilot-to-integration-permissions)
-1. [Create Reports](#task-9-create-reports)
+1. [Add ISSG_Generic_COPILOT to Integration Permissions](#task-7-add-issg_generic_copilot-to-integration-permissions)
+1. [Create Reports](#task-8-create-reports)
 
 > [!NOTE]
 > Skip tasks 1 and 2 if Workday & Entra SSO are already set up.
@@ -203,7 +202,7 @@ Add Domain Security Policies for respective ISSG under the **View/Modify** acces
 
 After Domain addition, run the following task to finalize the Domain policy changes:
 
-### Task 7: Activate Pending Security Policy Changes
+***Activate Pending Security Policy Changes***
 
 Security configuration to support Employee Self-Service agent features for full-time employees and managers:
 
@@ -214,7 +213,7 @@ Security configuration to support Employee Self-Service agent features for full-
 |Person data: Work contact information  |1. Employee as self </br>2. Manager            |No                                  |Yes |
 |BP: Home contact change                |1. Employee as self                            |No                                  |Yes |
 
-### Task 8: Add ISSG_Generic_COPILOT to Integration Permissions
+### Task 7: Add ISSG_Generic_COPILOT to Integration Permissions
 
 1. Security configuration for Integration System Security Group (ISSG).
     1. Search for the ISSG created in Task 3.
@@ -227,7 +226,7 @@ Security configuration to support Employee Self-Service agent features for full-
     4. Add **ISSG_Generic_COPILOT** to **Integration Permissions**.
     5. Run **Activate Pending Security Policy Changes**.
 
-### Task 9: Create Reports
+### Task 8: Create Reports
 
 [Learn how to create the reports you need for Workday integration](workday-reports.md).
 
@@ -237,14 +236,7 @@ The Employee Self-Service agent is designed to have separate extension packs for
 
 The following steps are required to install and enable the Workday Extension Pack:
 
-#### Step 1: Entitlement
-
-Work with your Employee Self-Service agent preview product managers for the entitlement process. Once the entitlement process is complete for your tenant, the Workday Extension Pack appears in the **Customize** section of your Employee Self-Service agent.
-
-#### Step 2: Install the extension
-
->[!NOTE]
->The entitlement process is a workaround until the extension pack installation is streamlined in Microsoft Copilot Studio.
+#### Step 1: Install the extension
 
 1. Open the Employee Self-Service agent in Copilot Studio.
 1. Navigate to **Settings**.
@@ -252,7 +244,7 @@ Work with your Employee Self-Service agent preview product managers for the enti
 1. Select **Workday** and choose **Install**.
 1. When prompted, update the connections as described by selecting the ellipses (**...**) on the right side for each connection.
 
-#### Step 3: Set up connection authentication
+#### Step 2: Set up connection authentication
 
 Currently, the Workday connector in Power Platform supports three types of authentication:
 
@@ -317,7 +309,13 @@ Workday report configuration provides the SOAP base URL.
 1. Select **Objects** > **Employee Self-Service Template Configuration** > **HRWorkdayHCMEmployeeGetContext**.
 1. Update the value with the correct name in the **Value** section.
 
-#### Step 4: Configure connections
+##### Share Connection parameters 
+
+The Workday connections are configured by the agent maker which need to be shared with all users so that the users are not prompted for authentication the first time the agent is being used with a Workday connection. 
+
+Follow the steps in the [Create and manage connections](/microsoft-copilot-studio/authoring-connections#share-connection-parameters-for-on-behalf-of-obo-authentication) article to share connection parameters for On-Behalf-Of (OBO) authentication.
+
+#### Step 3: Configure connections
 
 > [!IMPORTANT]
 > - There are a few active issues on the configuration page:
@@ -333,19 +331,21 @@ During the Workday Extension Pack installation process, you're prompted for the 
 
 |Connection reference name |Connection reference ID                      |Expected connection user account |
 |--------------------------|---------------------------------------------|---------------------------------|
-|OAuthUser                 |new_sharedworkdaysoap_ff0df                  |Maker/the signed-in user         |
-|Context Generic User      |new_sharedworkdaysoap_d6081                  |ISSG_WQL_COPILOT                 |
-|Generic User              |new_sharedworkdaysoap_0786a                  |ISSG_Generic_COPILOT             |
-|Microsoft Dataverse       |msviess_sharedcommondataserviceforapps_92b66 |ISSG_WQL_COPILOT                 |
+|OAuthUser                 |new_sharedworkdaysoap_ff0df                  |Maker  (signed-in user)         |
+|Context Generic User      |new_sharedworkdaysoap_d6081                  |ISU_WQL_COPILOT                 |
+|Generic User              |new_sharedworkdaysoap_0786a                  |ISU_Generic_COPILOT             |
+|Microsoft Dataverse       |msviess_sharedcommondataserviceforapps_92b66 |Maker (signed-in user)                 |
 
-The user accounts mentioned in the table under "Expected connection user account" should be available in Entra for SSO and use the respective accounts in UPN format (example: `ISSG_WQL_COPILOT@contoso.com`). Ensure that each connection is explicitly set up with its own account even though the connection status turned green after the first connection setup.
+The user accounts mentioned in the table under "Expected connection user account" should be available in Entra for SSO and use the respective accounts in UPN format (example: `ISU_WQL_COPILOT@contoso.com`).
 
-The examples above are for use in Entra. If you choose to create accounts in Workday with Basic Auth, use the following format:
+If you intend to use Basic auth for the ISU accounts, then the account format should be as follows:
 
- - ISSG_WQL_COPILOT@WorkdayTenantName
- - ISSG_Generic_COPILOT@WorkdayTenantName
+- ISU_WQL_COPILOT@WorkdayTenantName
+- ISU_Generic_COPILOT@WorkdayTenantName
 
-#### Step 5: Environment variables
+Ensure that each connection is explicitly set up with its own account even though the connection status turned green after the first connection setup.
+
+#### Step 4: Environment variables
 
 1. After you install the Workday extension, select **Solutions** in the left navigation in Copilot Studio.
 1. A banner on the solutions page prompts you to fill in the environment variables.
@@ -357,13 +357,13 @@ The examples above are for use in Entra. If you choose to create accounts in Wor
 |EmployeeContextRequestReportName         |Should be autopopulated with a default value. Contains the name of the report, which defaults to WD User Context. |
 |EmployeeContextRequestReportInstanceName |Should be autopopulated with a default value. Contains the instance name that the report belongs to, which defaults to Report2 |
 
-#### Step 6: Confirm the Workday flows are turned on
+#### Step 5: Confirm the Workday flows are turned on
 
 1. Open the **Workday** solution from the Solutions page.
 1. Select **Cloud flows** from the sidebar and verify that both workflows are turned on.
 1. If the cloud flows aren't turned on, select the display names to open the cloud flow and select **Turn on** in the toolbar.
 
-#### Step 7: Add a Topic redirect to Workday System Get User Context
+#### Step 6: Add a Topic redirect to Workday System Get User Context
 
 1. Open the Employee Self-Service agent in Copilot Studio.
 1. Navigate to the Topic **[Admin] - User Context - Setup**
@@ -379,7 +379,9 @@ Use **Templates** to complete the customizations required for Workday integratio
 
 You need the following permissions to retrieve Template data from Dataverse:
 
-|Microsoft Dataverse |ISSG_WQL_COPILOT |Dataflow Maker, Environment Maker, System Admin for the environment |
+| Source | Account | Permission |
+| --- | --- | --- |
+| Microsoft Dataverse | ISSG_WQL_COPILOT | Dataflow Maker, Environment Maker, System Admin for the environment |
 
 >[!NOTE]
 >If the least privileged principles need to be followed for this account on Dataverse environment, the permission required for this account is **Read Organization** in Power Platform. Follow the instructions for creating a custom role with least privileged access and assign it to this account.

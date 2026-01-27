@@ -4,7 +4,7 @@ description: Admin can learn how to use Microsoft Intune to in Microsoft 365 Bus
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 08/14/2025
+ms.date: 01/08/2026
 ms.topic: how-to
 ms.service: microsoft-365-security
 ms.localizationpriority: medium
@@ -77,7 +77,7 @@ For the device types that you intend to enroll in MDM, you need to take care of 
 
     For more information, see [Upgrade Windows devices to Windows 10 or 11 Pro](/microsoft-365/business-premium/m365bp-upgrade-windows-pro).
 
-### Step 2: Configure compliance policy settings in Intune
+### Step 3: Configure compliance policy settings in Intune
 
 Compliance policy settings are organization-wide and determine how Intune treats devices with no device compliance policies (also known as compliance policies) assigned. Possible values are:
 
