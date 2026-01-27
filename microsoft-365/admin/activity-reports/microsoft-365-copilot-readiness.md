@@ -34,7 +34,7 @@ The Microsoft 365 Usage dashboard shows you the activity overview across the Mic
 
 In the Microsoft 365 Copilot readiness report, which is in continuous enhancement, you can view which users are technically eligible for Copilot, assign licenses, and monitor usage of Microsoft 365 apps that Copilot integrates best with. The report becomes available within 72 hours, and once available, the usage data shown on the report can have up to a maximum of 72 hours latency.
 
-## How do I get to the Microsoft 365 Copilot report?
+## View the Microsoft 365 Copilot Readiness and Usage report
 
 1. In the admin center, go to **Reports** > **Usage**.
 1. Select the **Microsoft 365 Copilot** page.

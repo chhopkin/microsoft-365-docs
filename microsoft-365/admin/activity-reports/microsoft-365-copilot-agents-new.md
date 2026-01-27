@@ -36,13 +36,13 @@ You can view usage within an hour from when users interact with agents, and the 
 - Summary and daily time series
 - Active usage per user, per agent and per agent-user pair
 
-## How do I get to the Agent Usage report?
+## View the Microsoft 365 Copilot Agent usage report
 
-1. In the admin center, go to **Reports** > **Usage**.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > **Usage**.
 1. Select **Microsoft 365 Copilot** to view the list of reports.
 1. Select **Agents** from the drop-down menu.
 
-## Interpret the Agent Usage report
+## Interpret the Agent usage report
 
 You can use this report to see the usage of Microsoft 365 Copilot agents in your organization built by your organization, Microsoft, Microsoft Partners. These agents include agents approved by an admin and agents created via agent builder and shared with users in your org. Admins can manage agents in the same way as they manage any other app in the Copilot Control system section of the Microsoft 365 admin center. Learn more in [Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).  
 
@@ -162,9 +162,9 @@ You can switch between Summary view and Trend view.
 | Responses sent to users   | The total agent responses sent to all users during the selected period.  |
 | Last activity date (UTC)  | The date when the agent was last used by anyone in your organization.  |
 
-## FAQ
+## FAQs
 
-### Why don't I see the **Export** button in the details table anymore? 
+### Why don't I see the **Export** button in the details table anymore?
 
 We temporarily removed the **Export** button from tables in the Details section and we expect to restore the export functionality soon.
 
@@ -176,7 +176,7 @@ The new Agent usage report gives a broader view than the one in Microsoft 365 
 
 The agent report is in Preview and doesn't yet include past 90 and 180 days but will be added at a later date.
 
-### What is “Last activity detected”?
+### What is "Last activity detected"?
 
 Last activity detected shows the most recent date and timestamp (in UTC) when there was user activity that generated agent usage.  
 

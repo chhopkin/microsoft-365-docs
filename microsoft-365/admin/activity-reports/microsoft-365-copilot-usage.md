@@ -34,11 +34,11 @@ The Microsoft 365 Usage page shows you the activity overview across the Microsof
 
 In the Microsoft 365 Copilot usage report, which is in continuous enhancement, you can view a summary of how users' adoption, retention, and engagement are with Microsoft 365 Copilot and its associated enabled apps, including agent usage. For Copilot activity on a given day, the report becomes available typically within 72 hours of the end of that day (in UTC).
 
-## How do I get to the Microsoft 365 Copilot usage report?
+## View the Microsoft 365 Copilot usage report?
 
-1. In the admin center, go to **Reports** > **Usage**.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > **Usage**.
 1. Select the **Microsoft 365 Copilot** page.
-1. Select the Usage tab to view adoption and usage metrics.
+1. Select the **Usage** tab to view adoption and usage metrics.
 
 ## Interpret the Microsoft 365 Copilot usage report
 

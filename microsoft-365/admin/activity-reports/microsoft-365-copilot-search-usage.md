@@ -32,7 +32,7 @@ The Microsoft 365 Copilot Search usage report provides an overview of Copilot Se
 
 The Copilot Search usage report provides a detailed view of both organizational and individual user activity with Copilot Search across platforms. It includes trend charts for active usage and search activity at the organization level, and insights into each user’s search behavior during a selected timeframe. User behaviors are reflected in the report within one hour. With these insights, you can easily track Copilot Search usage trends and make informed decisions on how to drive further adoption within your organization.
 
-## How do I get to the Copilot Search usage report?
+## View the Copilot Search usage report?
 
 1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to the **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a> page.
 2. Expand **Microsoft 365 Copilot** to view the list of Copilot reports.
