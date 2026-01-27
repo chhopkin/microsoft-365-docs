@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 11/28/2025
+ms.date: 01/27/2026
 audience: Admin
 ms.reviewer: dansimp
 ms.topic: article
@@ -103,7 +103,7 @@ Examples of qualifying projects include:
 
 ### Submit a new CPA request
 
-If you're planning a significant business event, you can submit a CPA request to inform Microsoft’s Service Engineering team in advance.
+If you're planning a significant business event, you can submit a CPA request to inform Microsoft’s Service Engineering team in advance. For a meaningful engagement, kindly notify us about your critical project at least 10 business days before the event.
 
 :::image type="content" source="../enterprise/media/enhanced-engagements/cpa-intake-form.png" alt-text="Screenshot of critical project assistance intake form." lightbox="../enterprise/media/enhanced-engagements/cpa-intake-form.png":::
 
