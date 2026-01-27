@@ -120,6 +120,6 @@ When users interact directly or indirectly with content they have access to, the
 - User-owned and Shared documents  
 - Tenant owned content like company-wide SharePoint site and company published files.  
 
-The seamless synchronization of the file content and associated updates of the content and access modifications allows users to collaborate on the latest version across geographies. It ensures that search and other M365 experiences like My Content in M365, Recently Opened or Shared in various applications, always reflect the latest version of the file and associated user activities. Access to the file is guarded by the source file content access controls. 
+The seamless synchronization of the file content and associated updates of the content and access modifications allows users to collaborate on the latest version across geographies. It ensures that search and other Microsoft 365 experiences like My Content in M365, Recently Opened or Shared in various applications, always reflect the latest version of the file and associated user activities. Access to the file is guarded by the source file content access controls. 
 
 An individual user’s personal interactions which include pinning documents, marking as favorites, following sites and Copilot prompts and responses with an item are not shared with others and remain private. Both admins and users can configure their search capabilities by using the article [Configure Search for OneDrive Multi-Geo](configure-search-for-multi-geo.md).

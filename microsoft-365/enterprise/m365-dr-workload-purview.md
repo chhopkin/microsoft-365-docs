@@ -131,6 +131,7 @@ _ADR_ applies to the following services within Purview Information Protection, D
 
 - Office 365 Data Loss Prevention (DLP) for emails and files
 - DLP for Teams chat
+- DLP for Microsoft 365 Copilot
 
 Service documentation: [Learn about data loss prevention](/microsoft-365/compliance/dlp-learn-about-dlp)
 
@@ -140,7 +141,7 @@ Organizations have sensitive information under their control such as financial d
 
 In Microsoft Purview, you implement data loss prevention by defining and applying DLP policies. With a DLP policy, you can identify, monitor, and automatically protect sensitive items across:
 
-- Microsoft 365 services such as Teams, Exchange, SharePoint, and OneDrive
+- Microsoft 365 services such as Teams, Exchange, SharePoint, OneDrive, and Microsoft 365 Copilot
 - Office applications such as Word, Excel, and PowerPoint
 - Windows 10, Windows 11, and macOS (Catalina 10.15 and higher) endpoints
 - non-Microsoft cloud apps

@@ -51,7 +51,6 @@ Protect your applications and data with these security features of Microsoft 365
 |Microsoft Defender for Endpoint|Protect your organization's devices from cyber threats and data breaches and detect, investigate, and respond to advanced threats.|Microsoft 365 E5|
 |Defender for Cloud Apps|Protect your cloud-based services—both Microsoft 365 and other SaaS apps—from attack.|Microsoft 365 E5 or individual Defender for Cloud Apps licenses|
 |Microsoft Entra ID Protection|Automate detection and remediation of identity-based risks. <p>Create risk-based Conditional Access policies to require multi-factor authentication (MFA) for risky sign-ins.|Microsoft 365 E5 or E3 with Microsoft Entra ID P2 licenses|
-||||
 
 You first step should be to learn about and use [Microsoft Secure Score](/microsoft-365/security/defender/microsoft-secure-score).
 
@@ -74,7 +73,7 @@ Comply with internal policies or regulatory requirements with these compliance f
 |Compliance Manager|See an overall score of your current compliance configuration and recommendations for improving it in the Microsoft Purview portal.|Microsoft 365 E3 or E5|
 |Communication Compliance|Detect, capture, and take remediation actions for inappropriate messages in your organization.|Microsoft 365 E5 or Microsoft 365 E3 with the Compliance or Insider Risk Management add-ons|
 |Insider Risk Management|Detect, investigate, and act on malicious and inadvertent risks in your organization. Microsoft 365 can detect these kinds of risks even when a worker is using an unmanaged device.|Microsoft 365 E5 or Microsoft 365 E3 with the Compliance or Insider Risk Management add-ons|
-||||
+
 
 See [Quick tasks for getting started with Microsoft Purview](../compliance/compliance-quick-tasks.md) for more information.
 

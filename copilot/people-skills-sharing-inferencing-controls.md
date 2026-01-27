@@ -20,7 +20,7 @@ People Skills offers controls for Admin users to configure privacy settings, ski
 
 - __Workers Council or Regional Compliance Requirements__
 
-  If your organization has Workers Council requirements and needs to disable People Skills for certain regions (such as users in Germany), you have several admin controls for meeting those compliance needs. Configure compliance‑appropriate access controls. For example, you can use the **AI Inferencing control** to disable AI‑generated skill inferences while still allowing users to opt in if they choose. Alternatively, you can use the **People Skills user experiences control**, which fully disables all People Skills experiences for the selected user group; this higher-level control removes all People Skills user experiences for those users and may be used to meet regional compliance needs.
+  If your organization has Workers Council requirements and needs to disable People Skills for certain regions (such as users in Germany), you have several admin controls for meeting compliance needs. Configure compliance‑appropriate access controls. For example, you can use the **AI Inferencing control** to disable AI‑generated skill inferences while still allowing users to opt in if they choose. Alternatively, you can use the **People Skills user experiences control**, which fully disables all People Skills experiences for the selected user group; this higher-level control removes all People Skills user experiences for those users and may be used to meet regional compliance needs.
   
 - __Piloting People Skills with a Test Group__
 
@@ -60,19 +60,21 @@ Admins can set controls at any time: before, during, or after deployment.  To vi
 
 #### Key terminology
 
-When managing these Admin Controls, see the below table for important definitions of terms referenced throughout this page.  
+When managing Admin Controls, see the table for important definitions of terms referenced throughout this page.  
 
 | Term| What it means|
 | -------- | -------- |
 |Hard disable| Feature is fully disabled (turned off) and users can't opt in|
 | Soft disable|Feature is available but default off, and users may opt in |
 |Soft enable|Feature is available and default on, and users may opt out|
-|Parent control|A parent control determines the access settings of its child controls. When the parent is turned off, all child controls automatically inherit that setting and are also turned off. For example, the **People Skills user experiences** control is a parent for all other admin controls; if the People Skills user experiences control is turned off, every related control beneath it's disabled as well. |
+|Parent control|A parent control determines the access settings of its child controls. When the parent is turned off, all child controls automatically inherit that setting and are also turned off. For example, the **People Skills user experiences** control is a parent for all other admin controls. If the People Skills user experiences control is turned off, every related control is disabled as well. |
 |Child control|Child controls are controls that sit beneath a parent feature and depend on the parent's access state. A child control can only be applied if its parent feature is turned on. When the parent is disabled, all associated child controls automatically become disabled (they inherit their parent's access setting). |
 
-See below visual diagram for an illustration of the relationships between the controls. 
+See visual diagram for an illustration of the relationships between the controls. 
 
-![Screenshot that shows the user's image.](media/people-skills-sharing-inferencing-controls/image1.png)
+![Diagram showing the privacy controls overview.](media/people-skills-sharing-inferencing-controls/privacy-controls-overview.png)
+
+
 
 ## Overview of People Skills user experiences control 
 
@@ -180,7 +182,7 @@ Admins have the ability to enable or disable People Skills data sharing with Viv
 
 **Steps to enable or disable sharing with Viva Insights**
 
-![Screenshot that shows the user's image.](media/people-skills-sharing-inferencing-controls/image2.png)
+![Screenshot: image that shows the user's image.](media/people-skills-sharing-inferencing-controls/image2.png)
 
 
 ![Screenshot that shows the user's image.](media/people-skills-sharing-inferencing-controls/image3.png)
@@ -234,7 +236,7 @@ Below is some general guidance for creating policies:
 
 You can access Feature access management in the M365 Admin Center by following the below instructions:
 
-![Screenshot that shows the user's image.](media/people-skills-sharing-inferencing-controls/image4.png)![User's image](media/people-skills-sharing-inferencing-controls/image5.png)
+![Screenshot: showing the user's image.](media/people-skills-sharing-inferencing-controls/image4.png)![User's image](media/people-skills-sharing-inferencing-controls/image5.png)
 
 1. Navigate to **Settings** in the left rail of the M365 Admin Center
 
@@ -248,7 +250,7 @@ You can access Feature access management in the M365 Admin Center by following t
 
 1. Click on **Add policy**
 
-**Create a policy**![Screenshot that shows the user's image.](media/people-skills-sharing-inferencing-controls/image6.png)
+**Create a policy**![Screenshot: image that shows people skills sharing inference controls.](media/people-skills-sharing-inferencing-controls/image6.png)
 
 You can create a policy for any of the available feature controls by following the below instructions: 
 
