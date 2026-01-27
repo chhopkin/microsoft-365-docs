@@ -3,7 +3,7 @@ title: Post-migration steps when using migration orchestrator
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 12/11/2025
+ms.date: 01/26/2026
 recommendations: true
 audience: ITPro
 ms.topic: upgrade-and-migration-article
@@ -36,18 +36,18 @@ Post-migration steps for OneDrive are available in [Step 7 of our OneDrive docum
 - Use the `Revoke-CTTMAppPermissions` cmdlet to remove permissions for Teams Chat migrations.
 - Use the following to remove CTMS (cloud transport management service) permissions and service principals. This action is only required on the target tenant:
 
-    ```powershell
-    # Clean up CTMS Permissions
-    Connect-MgGraph # Use Target Tenant Admin permissions, verify w/ Get-MgContext
-    $ctimAppId = '90fb47fc-e46d-4fc5-9833-8517359f2daf' #Identity Mapping 1P app
-    $permissionId = '42eb8f30-cb38-433e-9651-006680f3b238' # Permission ID for IdentityMapping-Experimental-Internal.Read from 1P portal
-    $ctmsAppId = '6eda910c-74a9-491b-bda3-88692d503655' # CTMS App Id
-    $fpAppSp = Get-MgServicePrincipal -Filter "appId eq '${ctimAppId}'"
-    $ctmsSp = Get-MgServicePrincipal -Filter "appId eq '${ctmsAppId}'"
-    $ctmsRole = Get-MgServicePrincipalAppRoleAssignedTo -ServicePrincipalId $fpAppSp.Id | Where {$_.PrincipalId -eq $ctmsSp.Id -and $_.AppRoleId -eq $permissionId}
-    Remove-MgServicePrincipalAppRoleAssignedTo -AppRoleAssignmentId $ctmsRole.Id -ServicePrincipalId $fpAppSp.Id
-    Remove-MgServicePrincipal -ServicePrincipalId $ctmsSp.Id
-    ```
+```powershell
+# Clean up CTMS Permissions
+Connect-MgGraph # Use Target Tenant Admin permissions, verify w/ Get-MgContext
+$ctimAppId = '90fb47fc-e46d-4fc5-9833-8517359f2daf' #Identity Mapping 1P app
+$permissionId = '42eb8f30-cb38-433e-9651-006680f3b238' # Permission ID for IdentityMapping-Experimental-Internal.Read from 1P portal
+$ctmsAppId = '6eda910c-74a9-491b-bda3-88692d503655' # CTMS App Id
+$fpAppSp = Get-MgServicePrincipal -Filter "appId eq '${ctimAppId}'"
+$ctmsSp = Get-MgServicePrincipal -Filter "appId eq '${ctmsAppId}'"
+$ctmsRole = Get-MgServicePrincipalAppRoleAssignedTo -ServicePrincipalId $fpAppSp.Id | Where {$_.PrincipalId -eq $ctmsSp.Id -and $_.AppRoleId -eq $permissionId}
+Remove-MgServicePrincipalAppRoleAssignedTo -AppRoleAssignmentId $ctmsRole.Id -ServicePrincipalId $fpAppSp.Id
+Remove-MgServicePrincipal -ServicePrincipalId $ctmsSp.Id
+```
 
 Check which CTMS app you provisioned. The ctmsAppId is one of:
 

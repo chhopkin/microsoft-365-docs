@@ -80,15 +80,15 @@ Post deployment, admins can also manage user access to add-ins.
 
 4. Save the changes.
 
-## Manage add-in downloads by turning on/off AppSource across all apps (except Outlook)
+## Manage add-in downloads by turning on/off Microsoft Marketplace across all apps (except Outlook)
 
 > [!IMPORTANT]
-> In the UI of the Microsoft 365 Admin Center, AppSource is still sometimes referred to as "Office Store".
+> In the UI of the Microsoft 365 Admin Center, Microsoft Marketplace is still sometimes referred to as "Office Store".
 
 > [!NOTE]
 > Outlook add-in installation is managed by a [different process](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins).
 
-As an organization you may wish to manage the download of Office add-ins from AppSource. This could be used to ensure that users within your organization can get the benefits from all the Office add-ins, or only the organization-approved add-ins can be deployed with centralized deployment.
+As an organization you may wish to manage the download of Office add-ins from Microsoft Marketplace. This could be used to ensure that users within your organization can get the benefits from all the Office add-ins, or only the organization-approved add-ins can be deployed with centralized deployment.
   
 **To turn on/off add-in acquisition**
   
@@ -96,15 +96,15 @@ As an organization you may wish to manage the download of Office add-ins from Ap
 
 2. Select **User owned apps and services**.
 
-3. Check or clear the option to allow or prevent users to access the Office Store (which refers to AppSource).
+3. Check or clear the option to allow or prevent users to access the Office Store (which refers to Microsoft Marketplace).
 
 Options available in non-educational tenants:
 
-   ![Let user access office store settings](../../media/user-owned-apps-and-services.png)
+   ![Let user access Microsoft Marketplace settings](../../media/user-owned-apps-and-services.png)
 
 Options available in educational tenants:
 
-   ![Let user access office store settings for EDU](../../media/user-owned-apps-and-services-edu.png)
+   ![Let user access Microsoft Marketplace settings for EDU](../../media/user-owned-apps-and-services-edu.png)
 
 The user’s license information is used to define whether a user is a faculty/staff or a student along with the Age Group property to check whether the student is an adult or not. A user who does not have an educational license is included in the **Faculty, staff and other non-student users** user group.  
 
@@ -113,17 +113,17 @@ The user’s license information is used to define whether a user is a faculty/s
 >- [Learn how to review the user's license type and assign or unassign licenses as required](assign-licenses-to-users.md)
 >- [Understand how to configure the Age Group property in the Microsoft Encarta admin center](/entra/fundamentals/how-to-manage-user-profile-info)
 
-This will control all users' ability to acquire the following add-ins from AppSource.
+This will control all users' ability to acquire the following add-ins from Microsoft Marketplace.
 
 - Add-ins for non-subscription Word, Excel, and PowerPoint on Windows and Mac
 - Add-ins for subscription Microsoft 365
 
- When you disable the access to AppSource, a user who tries to access it will see the following message: **Office store not available. Unfortunately, your organization has disabled access to the Office Store. Please contact your administrator to get access to the store.**
+ When you disable the access to Microsoft Marketplace, a user who tries to access it will see the following message: **Office store not available. Unfortunately, your organization has disabled access to the Office Store. Please contact your administrator to get access to the store.**
 
 > [!NOTE]
-> Acquisitions may still be possible from AppSource, but the user will not be able to launch or use the add-in in the client. This does not prevent an administrator from using centralized deployment to assign an add-in from AppSource.
+> Acquisitions may still be possible from Microsoft Markeplace, but the user will not be able to launch or use the add-in in the client. This does not prevent an administrator from using centralized deployment to assign an add-in from Microsoft Marketplace.
   
-Support for turning on/off the AppSource is available in the following versions:
+Support for turning on/off the Microsoft Marketplace is available in the following versions:
   
 - Office on Windows: 16.0.9001 - Currently available.
     
@@ -136,7 +136,7 @@ Support for turning on/off the AppSource is available in the following versions:
 To prevent a user from signing in with a Microsoft account, you can restrict logon to use only the organizational account. For more information, see [Identity, authentication, and authorization in Office 2016](/DeployOffice/security/identity-authentication-and-authorization-in-office).  
 
 > [!NOTE]
-> Preventing users from accessing AppSource will also prevent them from [Sideloading Office Add-ins for testing from a network share](/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins).
+> Preventing users from accessing Microsoft Markeplace will also prevent them from [Sideloading Office Add-ins for testing from a network share](/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins).
 
 ## More about the end-user experience with add-ins
 

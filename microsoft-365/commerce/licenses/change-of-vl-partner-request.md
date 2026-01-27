@@ -31,7 +31,7 @@ After you initiate a COCP request, Microsoft sends the partner a notification to
 ## Before you begin
 
 - You must have the Online Administrator (OLA) role on the agreement before you initiate the COCP request.
-- You must have an Enterprise agreement (EA) or an Enterprise Subscription Agreement (EU) to initiate a COCP request, and the agreement status must be Active.
+- You must have an Enterprise agreement (EA) or an Enterprise Subscription Agreement (EAS) to initiate a COCP request, and the agreement status must be Active.
 - Your organization's trade status must be Approved.
 
 > [!IMPORTANT]

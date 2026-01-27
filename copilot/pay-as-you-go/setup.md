@@ -173,6 +173,10 @@ If a pay-as-you-go billing policy is already set up in the Power Platform admin 
 
 While coexistence is supported, turning off the pay-as-you-go policy in the Power Platform admin center before enabling it in the Microsoft 365 admin center can help streamline management. Managing all pay-as-you-go policies from a single location simplifies administration and reduces potential confusion.
 
+## How can I test that pay-as-you-go is correctly configured and working properly?
+
+Have a user that qualifies for pay-as-you-go use one of the following three agents: "Learning Coach", "Writing Coach", "Career Coach." Have them submit a simple prompt such as "What can you do?" This prompt should consume about 12 credits and be visible in the Copilot Credits Report.
+
 ## Related articles
 
 - [Microsoft 365 Copilot pay-as-you-go service overview](overview.md) (article)
