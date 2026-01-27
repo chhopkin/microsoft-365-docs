@@ -31,7 +31,7 @@ ms.custom:
 service.tree.id: 3b35c9b8-bf14-4e4a-bc0d-21055e56b28c
 search.appverid: MET150
 description: "Learn how to manage your payment methods for Microsoft business products or services in the Microsoft 365 admin center."
-ms.date: 08/14/2025
+ms.date: 01/26/2026
 ---
 
 # Manage payment methods for Microsoft business accounts
