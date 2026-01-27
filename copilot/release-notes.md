@@ -250,7 +250,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Learn:**
 
-    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-connected-agents-for-researche)
+    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-connected-agents-for-researcher)
 
     [Connect to other agents from a declarative agent](/microsoft-365-copilot/extensibility/declarative-agent-connected-agent)
 ### Microsoft Loop
@@ -5333,7 +5333,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Learn:**
 
-    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-connected-agents-for-researche)
+    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-connected-agents-for-researcher)
 
     [Connect to other agents from a declarative agent](/microsoft-365-copilot/extensibility/declarative-agent-connected-agent)
 
@@ -7817,7 +7817,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Learn:**
 
-    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-connected-agents-for-researche)
+    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-connected-agents-for-researcher)
 
     [Connect to other agents from a declarative agent](/microsoft-365-copilot/extensibility/declarative-agent-connected-agent)
 
@@ -14475,6 +14475,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
