@@ -250,7 +250,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Learn:**
 
-    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-connected-agents-for-researcher?view=o365-worldwide)
+    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-connected-agents-for-researche)
 
     [Connect to other agents from a declarative agent](/microsoft-365-copilot/extensibility/declarative-agent-connected-agent)
 ### Microsoft Loop
@@ -985,7 +985,7 @@ Updates released between November 25, 2025, and December 10, 2025.
 
   Turn text prompts or PowerPoint, Word, and PDF files into high-quality videos. Create professional videos quickly with easier editing, brand integration, and media customization.
 
-  **Roadmap ID:**  <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501560" target="_blank">501560</a>
+  **Roadmap ID:**  <a href="https://www.microsoft.com//microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501560" target="_blank">501560</a>
 
   **Details:**
 
@@ -1055,7 +1055,7 @@ Users often waste time viewing multiple documents to find the right information.
 
   Use custom engine agents in Word and Excel for a unified Copilot experience everywhere you work.
 
-  **Roadmap ID:**  <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481136" target="_blank">481136</a>
+  **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481136" target="_blank">481136</a>
 
 
   **Details:**
@@ -1213,7 +1213,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Prepay for Copilot message consumption with Capacity Packs and track usage easily—reducing unexpected billing surprises.  
 
-    **Roadmap ID:** [503145](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=503145)
+    **Roadmap ID:** [503145](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=503145)
 
     ****Details:****  
 
@@ -1244,7 +1244,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Admins can now transfer ownership of shared agents, granting the new owner full edit and delete permissions and revoking all access from the previous owner.  
 
-  ****Roadmap ID:**** [502867](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=502867)
+  ****Roadmap ID:**** [502867](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=502867)
 
   ****Details:****  
 
@@ -1274,7 +1274,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Manage who can create org-wide sharing links for Copilot Studio agents to maintain tighter organizational control.  
 
-  ****Roadmap ID:**** [500376](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=500376)
+  ****Roadmap ID:**** [500376](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=500376)
 
   ****Details:****  
  
@@ -1367,7 +1367,7 @@ Updates released between November 12, 2025, and November 25, 2025.
   
   Use new file type and people refiners in Copilot Chat to quickly get to the right file without sifting through results.  
 
-  ****Roadmap ID:**** [481136](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=481136)
+  ****Roadmap ID:**** [481136](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=481136)
 
   ****Details:****  
  
@@ -1390,7 +1390,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Speak to Copilot naturally on mobile or desktop to prepare for meetings, brainstorm ideas, or catch up on work—hands-free and grounded in work data.
 
-  **Roadmap ID:** [481138](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
+  **Roadmap ID:** [481138](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
 
   ****Details:****
 
@@ -1482,7 +1482,7 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
   Inventory exports now include richer metadata like capabilities, data sources, and creator details—empowering better auditing and lifecycle control.  
 
-  ****Roadmap ID:**** [502878](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502878)
+  ****Roadmap ID:**** [502878](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502878)
     
     ****Details:****  
 
@@ -1612,7 +1612,7 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
   **Blog:**
 
 
-  [Manage and govern at scale](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/whats-new-in-copilot-studio-october-2025/#manage-and-govern-at-scale)
+  [Manage and govern at scale](https://www.microsoft.com/microsoft-copilot/blog/copilot-studio/whats-new-in-copilot-studio-october-2025/#manage-and-govern-at-scale)
 
 
 ### Microsoft 365 PowerPoint
@@ -1621,7 +1621,7 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
   When building a presentation with Copilot, you can now pull in content from Loop components or pages for fully integrated and up-to-date slides.  
 
-  ****Roadmap ID:****  [500864](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500864)
+  ****Roadmap ID:****  [500864](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500864)
 
   ****Details:****  
 
@@ -1646,7 +1646,7 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
     Use Copilot to get step-by-step guidance for admin tasks and advanced site searches based on multiple criteria—all from the SharePoint admin center.  
 
-    ****Roadmap ID:**** [501455](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501455)
+    ****Roadmap ID:**** [501455](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501455)
 
     ****Details:****  
 
@@ -2781,7 +2781,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 
 - **Updated UI for Microsoft 365 Copilot App** [Windows, Web]
 
-  The Microsoft 365 Copilot app is your starting place for AI at work, offering quick access to secure AI chat, search, files, and content creation in one seamless app. [Learn more](https://www.microsoft.com/en-us/microsoft-365/blog/2025/04/23/microsoft-365-copilot-built-for-the-era-of-human-agent-collaboration).
+  The Microsoft 365 Copilot app is your starting place for AI at work, offering quick access to secure AI chat, search, files, and content creation in one seamless app. [Learn more](https://www.microsoft.com/microsoft-365/blog/2025/04/23/microsoft-365-copilot-built-for-the-era-of-human-agent-collaboration).
 
 ### Microsoft 365 Copilot Chat
 
@@ -3041,7 +3041,7 @@ Updates released between May 29, 2025, and June 10, 2025.
 
 - **Module UI refresh** [Windows, Web]
 
-  Copilot Chat is designed to provide a streamlined UI, making it easy to get started and achieve your goals quickly. It offers a helpful, understanding, and personalized experience, allowing you to search for past interactions, content, agents, or pages with ease. [Learn more](https://support.microsoft.com/en-us/topic/get-started-with-microsoft-365-copilot-chat-5b00a52d-7296-48ee-b938-b95b7209f737).
+  Copilot Chat is designed to provide a streamlined UI, making it easy to get started and achieve your goals quickly. It offers a helpful, understanding, and personalized experience, allowing you to search for past interactions, content, agents, or pages with ease. [Learn more](https://support.microsoft.com/topic/get-started-with-microsoft-365-copilot-chat-5b00a52d-7296-48ee-b938-b95b7209f737).
 
 - **Simplified Input box update** [Windows, Web]
 
@@ -3059,7 +3059,7 @@ Updates released between May 29, 2025, and June 10, 2025.
 
 - **Create Copilot Pages from Copilot Chat on your mobile phone** [iOS]
 
-  Create Copilot Pages on your mobile phone to continue working on the go. Pages shared in Microsoft 365 are interactive and automatically synchronized for seamless collaboration. [Learn more](https://support.microsoft.com/en-us/topic/create-edit-and-share-microsoft-365-copilot-pages-from-your-phone-6426dfd5-081c-4a9f-b35e-830685deeda7).
+  Create Copilot Pages on your mobile phone to continue working on the go. Pages shared in Microsoft 365 are interactive and automatically synchronized for seamless collaboration. [Learn more](https://support.microsoft.com/topic/create-edit-and-share-microsoft-365-copilot-pages-from-your-phone-6426dfd5-081c-4a9f-b35e-830685deeda7).
 
 ### Microsoft Purview compliance portal
 
@@ -5333,7 +5333,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Learn:**
 
-    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-connected-agents-for-researcher?view=o365-worldwide)
+    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-connected-agents-for-researche)
 
     [Connect to other agents from a declarative agent](/microsoft-365-copilot/extensibility/declarative-agent-connected-agent)
 
@@ -5670,7 +5670,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Admins can now transfer ownership of shared agents, granting the new owner full edit and delete permissions and revoking all access from the previous owner.  
 
-  ****Roadmap ID:**** [502867](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=502867)
+  ****Roadmap ID:**** [502867](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=502867)
 
   ****Details:****  
 
@@ -5710,7 +5710,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Copilot Chat now connects to shared mailboxes, so team-based conversations are more informed and collaborative.  
 
-  ****Roadmap ID:****  [488797](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
+  ****Roadmap ID:****  [488797](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
   
 
   ****Details:****  
@@ -5745,7 +5745,7 @@ Updates released between November 12, 2025, and November 25, 2025.
   
   Use new file type and people refiners in Copilot Chat to quickly get to the right file without sifting through results.  
 
-  ****Roadmap ID:**** [481136](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=481136)
+  ****Roadmap ID:**** [481136](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=481136)
 
   ****Details:****  
  
@@ -5776,7 +5776,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Speak to Copilot naturally on mobile or desktop to prepare for meetings, brainstorm ideas, or catch up on work—hands-free and grounded in work data.
 
-  **Roadmap ID:** [481138](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
+  **Roadmap ID:** [481138](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
 
   ****Details:****
 
@@ -5817,7 +5817,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   Finding the right agents in the Copilot Agent Store just got faster and smarter. Enjoy a streamlined search experience with typeahead suggestions and a clean results page—making it simple to locate exactly what you need without wasted time.  
  
-  ****Roadmap ID:**** [502617](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617)
+  ****Roadmap ID:**** [502617](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502617)
 
 
     ****Details:****  
@@ -5849,7 +5849,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   View detailed permissions for each Copilot agent in one place—including app dependencies, delegated permissions, and associated risks. Admins can grant consent directly, simplifying governance and deployment.
 
-  ****Roadmap ID:**** [502617](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617)
+  ****Roadmap ID:**** [502617](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502617)
 
 
   ****Details:****
@@ -5892,7 +5892,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
 When building a presentation with Copilot, you can now pull in content from Loop components or pages for fully integrated and up-to-date slides.  
 
-  ****Roadmap ID:**** [500864](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500864)
+  ****Roadmap ID:**** [500864](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500864)
 
 
   ****Details:****  
@@ -6328,7 +6328,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 - **Updated UI for Microsoft 365 Copilot App** [Windows, Web]
 
   The Microsoft 365 Copilot app is your starting place for AI at work, offering quick access to secure AI chat, search, files, and content creation in one seamless app.
- [Learn more](https://www.microsoft.com/en-us/microsoft-365/blog/2025/04/23/microsoft-365-copilot-built-for-the-era-of-human-agent-collaboration/).
+ [Learn more](https://www.microsoft.com/microsoft-365/blog/2025/04/23/microsoft-365-copilot-built-for-the-era-of-human-agent-collaboration/).
 ### Microsoft 365 Copilot Chat
 - **Locate your Copilot Pages in Microsoft 365 Copilot Chat navigation pane** [Windows, Web]
 
@@ -6459,7 +6459,7 @@ Updates released between May 29, 2025, and June 10, 2025.
 - **Module UI refresh** [Windows, Web]
 
   Copilot Chat is designed to provide a streamlined UI, making it easy to get started and achieve your goals quickly. It offers a helpful, understanding, and personalized experience, allowing you to search for past interactions, content, agents, or pages with ease.
- [Learn more](https://support.microsoft.com/en-us/topic/get-started-with-microsoft-365-copilot-chat-5b00a52d-7296-48ee-b938-b95b7209f737).
+ [Learn more](https://support.microsoft.com/topic/get-started-with-microsoft-365-copilot-chat-5b00a52d-7296-48ee-b938-b95b7209f737).
 - **Simplified Input box update** [Windows, Web]
 
   We've made it easier for users to type prompts with access to CIQ, local files, attach cloud files, and agents by adding it under the Plus Menu.
@@ -7817,7 +7817,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Learn:**
 
-    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-connected-agents-for-researcher?view=o365-worldwide)
+    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-connected-agents-for-researche)
 
     [Connect to other agents from a declarative agent](/microsoft-365-copilot/extensibility/declarative-agent-connected-agent)
 
@@ -8499,7 +8499,7 @@ Updates released between November 25, 2025, and December 10, 2025.
 
   Turn text prompts or PowerPoint, Word, and PDF files into high-quality videos. Create professional videos quickly with easier editing, brand integration, and media customization.
 
-  **Roadmap ID:**  <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501560" target="_blank">501560</a>
+  **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501560" target="_blank">501560</a>
 
   **Details:**
 
@@ -8542,7 +8542,7 @@ Video is a powerful medium, but creating professional-quality content is often t
 
   Use custom engine agents in Word and Excel for a unified Copilot experience everywhere you work.
 
-  **Roadmap ID:**  <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481136" target="_blank">481136</a>
+  **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481136" target="_blank">481136</a>
 
 
   **Details:**
@@ -8667,7 +8667,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Admins can now transfer ownership of shared agents, granting the new owner full edit and delete permissions and revoking all access from the previous owner.  
 
-  ****Roadmap ID:**** [502867](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=502867)
+  ****Roadmap ID:**** [502867](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=502867)
 
 
   ****Details:****  
@@ -8707,7 +8707,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Manage who can create org-wide sharing links for Copilot Studio agents to maintain tighter organizational control.  
 
-  ****Roadmap ID:**** [500376](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=500376)
+  ****Roadmap ID:**** [500376](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=500376)
 
   ****Details:****  
  
@@ -8740,7 +8740,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Personalize the content and tone of audio summaries from your Copilot notebooks by using natural language input.  
 
-    ****Roadmap ID:**** [499150](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499150)
+    ****Roadmap ID:**** [499150](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499150)
 
     ****Details:****  
 
@@ -8777,7 +8777,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Copilot Chat now connects to shared mailboxes, so team-based conversations are more informed and collaborative.  
 
-  ****Roadmap ID:**** [488797](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
+  ****Roadmap ID:**** [488797](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
   
   ****Details:****  
 
@@ -8806,7 +8806,7 @@ Updates released between November 12, 2025, and November 25, 2025.
   
   Use new file type and people refiners in Copilot Chat to quickly get to the right file without sifting through results.  
 
-  ****Roadmap ID:**** [481136](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=481136)
+  ****Roadmap ID:**** [481136](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=481136)
 
   ****Details:****  
  
@@ -8833,7 +8833,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Speak to Copilot naturally on mobile or desktop to prepare for meetings, brainstorm ideas, or catch up on work—hands-free and grounded in work data.
 
-  **Roadmap ID:** [481138](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
+  **Roadmap ID:** [481138](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
 
   ****Details:****
 
@@ -8905,7 +8905,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   Inventory exports now include richer metadata like capabilities, data sources, and creator details—empowering better auditing and lifecycle control.  
 
-  ****Roadmap ID:**** [502878](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502878)
+  ****Roadmap ID:**** [502878](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502878)
     
     ****Details:****  
 
@@ -8939,7 +8939,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   View detailed permissions for each Copilot agent in one place—including app dependencies, delegated permissions, and associated risks. Admins can grant consent directly, simplifying governance and deployment.
 
-  ****Roadmap ID:**** [502617](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617)
+  ****Roadmap ID:**** [502617](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502617)
 
   ****Details:****
 
@@ -9013,7 +9013,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Blog:**
 
-    [Manage and govern at scale](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/whats-new-in-copilot-studio-october-2025/#manage-and-govern-at-scale)
+    [Manage and govern at scale](https://www.microsoft.com/microsoft-copilot/blog/copilot-studio/whats-new-in-copilot-studio-october-2025/#manage-and-govern-at-scale)
 
 
 ### Microsoft 365 PowerPoint
@@ -9022,7 +9022,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
 When building a presentation with Copilot, you can now pull in content from Loop components or pages for fully integrated and up-to-date slides.  
 
-  ****Roadmap ID:**** [500864](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500864)
+  ****Roadmap ID:**** [500864](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500864)
 
   ****Details:****  
 
@@ -9064,7 +9064,7 @@ When building a presentation with Copilot, you can now pull in content from Loop
   
     Use Copilot to get step-by-step guidance for admin tasks and advanced site searches based on multiple criteria—all from the SharePoint admin center.  
 
-    ****Roadmap ID:**** [501455](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501455)
+    ****Roadmap ID:**** [501455](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501455)
 
     ****Details:****  
 
@@ -9826,7 +9826,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 - **Updated UI for Microsoft 365 Copilot App** [Windows, Web]
 
   The Microsoft 365 Copilot app is your starting place for AI at work, offering quick access to secure AI chat, search, files, and content creation in one seamless app.
- [Learn more](https://www.microsoft.com/en-us/microsoft-365/blog/2025/04/23/microsoft-365-copilot-built-for-the-era-of-human-agent-collaboration/).
+ [Learn more](https://www.microsoft.com/microsoft-365/blog/2025/04/23/microsoft-365-copilot-built-for-the-era-of-human-agent-collaboration/).
 ### Microsoft 365 Copilot Chat
 - **Locate your Copilot Pages in Microsoft 365 Copilot Chat navigation pane** [Windows, Web]
 
@@ -9995,7 +9995,7 @@ Key capabilities include hosting with Azure Key Vault to manage your keys, lifet
 - **Module UI refresh** [Windows, Web]
 
   Copilot Chat is designed to provide a streamlined UI, making it easy to get started and achieve your goals quickly. It offers a helpful, understanding, and personalized experience, allowing you to search for past interactions, content, agents, or pages with ease.
- [Learn more](https://support.microsoft.com/en-us/topic/get-started-with-microsoft-365-copilot-chat-5b00a52d-7296-48ee-b938-b95b7209f737).
+ [Learn more](https://support.microsoft.com/topic/get-started-with-microsoft-365-copilot-chat-5b00a52d-7296-48ee-b938-b95b7209f737).
 - **Simplified Input box update** [Windows, Web]
 
   We've made it easier for users to type prompts with access to CIQ, local files, attach cloud files, and agents by adding it under the Plus Menu.
@@ -11641,7 +11641,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Copilot Chat now connects to shared mailboxes, so team-based conversations are more informed and collaborative.  
 
-  ****Roadmap ID:**** [488797](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797) 
+  ****Roadmap ID:**** [488797](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797) 
 
   ****Details:****  
 
@@ -11670,7 +11670,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Speak to Copilot naturally on mobile or desktop to prepare for meetings, brainstorm ideas, or catch up on work—hands-free and grounded in work data.
 
-  **Roadmap ID:** [481138](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
+  **Roadmap ID:** [481138](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
 
   ****Details:****
 
@@ -12397,7 +12397,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Copilot Chat now connects to shared mailboxes, so team-based conversations are more informed and collaborative.  
 
-  ****Roadmap ID:**** [488797](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
+  ****Roadmap ID:**** [488797](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
 
   ****Details:****  
 
@@ -12426,7 +12426,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Speak to Copilot naturally on mobile or desktop to prepare for meetings, brainstorm ideas, or catch up on work—hands-free and grounded in work data.
 
-  **Roadmap ID:** [481138](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
+  **Roadmap ID:** [481138](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
 
   ****Details:****
 
@@ -12655,7 +12655,7 @@ Updates released between May 29, 2025, and June 10, 2025.
 - **Create Copilot Pages from Copilot Chat on your mobile phone** [iOS]
 
   Create Copilot Pages on your mobile phone to continue working on the go. Pages shared in Microsoft 365 are interactive and automatically synchronized for seamless collaboration.
- [Learn more](https://support.microsoft.com/en-us/topic/create-edit-and-share-microsoft-365-copilot-pages-from-your-phone-6426dfd5-081c-4a9f-b35e-830685deeda7).
+ [Learn more](https://support.microsoft.com/topic/create-edit-and-share-microsoft-365-copilot-pages-from-your-phone-6426dfd5-081c-4a9f-b35e-830685deeda7).
 ### Outlook
 - **Custom Instructions for draft with Copilot** [Android, Windows, iOS, Mac, Web]
 
@@ -13395,7 +13395,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Prepay for Copilot message consumption with Capacity Packs and track usage easily—reducing unexpected billing surprises.  
 
-    **Roadmap ID:** [503145](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=503145)
+    **Roadmap ID:** [503145](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=503145)
 
     ****Details:****  
 
@@ -13434,7 +13434,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Copilot Chat now connects to shared mailboxes, so team-based conversations are more informed and collaborative.  
 
-  ****Roadmap ID:**** [488797](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
+  ****Roadmap ID:**** [488797](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
   
   ****Details:****  
 
@@ -13463,7 +13463,7 @@ Updates released between November 12, 2025, and November 25, 2025.
 
   Speak to Copilot naturally on mobile or desktop to prepare for meetings, brainstorm ideas, or catch up on work—hands-free and grounded in work data.
 
-  **Roadmap ID:** [481138](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
+  **Roadmap ID:** [481138](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
 
   ****Details:****
 
@@ -13499,7 +13499,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
 When building a presentation with Copilot, you can now pull in content from Loop components or pages for fully integrated and up-to-date slides.  
 
-  ****Roadmap ID:**** [500864](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500864)
+  ****Roadmap ID:**** [500864](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500864)
 
   ****Details:****  
 
@@ -14475,6 +14475,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
