@@ -223,7 +223,7 @@ Updates released between January 13, 2025, and January 27, 2026.
     **Learn:**
 
     
-    [Publish agents to Microsoft 365 Copilot and Microsoft Teams](/azure/ai-foundry/agents/how-to/publish-copilot?view=foundry)
+    [Publish agents to Microsoft 365 Copilot and Microsoft Teams](/azure/ai-foundry/agents/how-to/publish-copilot)
 - **Users can leverage multi-agent workflows** [Windows, Web]
 
   Agents in Copilot can now use other agents to accomplish work if configured. Users can see the interaction between agents.
@@ -7789,7 +7789,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Learn:**
 
-    [Publish agents to Microsoft 365 Copilot and Microsoft Teams](/azure/ai-foundry/agents/how-to/publish-copilot?view=foundry)
+    [Publish agents to Microsoft 365 Copilot and Microsoft Teams](/azure/ai-foundry/agents/how-to/publish-copilot)
 
 - **Users can leverage multi-agent workflows** [Windows, Web]
 
@@ -14475,6 +14475,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
