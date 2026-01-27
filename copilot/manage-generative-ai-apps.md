@@ -4,8 +4,8 @@ f1.keywords: NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.reviewer: 
-ms.date: 12/23/2025
+ms.reviewer: wimcilha
+ms.date: 01/27/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: article
