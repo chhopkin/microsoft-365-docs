@@ -76,6 +76,9 @@ Follow these steps to set up a backup policy for SharePoint sites using Microsof
 
     c. Under **Select sites individually**, you can search and select sites you want to add to a backup policy.
 
+    > [!NOTE]
+    > Some legacy SharePoint site templates are not supported by Microsoft 365 Backup.  Please view the [FAQ page](/microsoft-365/backup/backup-faq) to learn more
+
 7. Select **Next** to move to the **Backup Settings** page, where you can provide a name for your policy.
 
 8. On the **Review SharePoint backup policy** page, review the information to make sure it's how you want it, and then select **Create policy** (or **Update policy** if it's an update).
@@ -138,7 +141,7 @@ Follow these steps to set up a backup policy for Exchange mailboxes sites using 
     d. Under **Select mailboxes individually**, you can search and select mailboxes you want to add to a backup policy.
 
     > [!NOTE]
-    > Hybrid deployments, where a user's primary mailbox resides on premises while their archive is migrated to Exchange Online, aren't supported.
+    > Hybrid deployments are not supported. Only mailboxes fully hosted in Exchange Online can be protected.
 
 7. Select **Next** to move to the **Backup Settings** page, where you can provide a name for your policy.
 

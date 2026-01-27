@@ -179,8 +179,11 @@
       },
       "image-name-incomplete": {
         "exclude": [
-          "**/*.md",
-          "**.*.yml"
+          "**/*.gif",
+          "**/*.jpeg",
+          "**/*.jpg",
+          "**/*.png",
+          "**/*.svg"
         ]
       },
       "sensitive-language-ma": {

@@ -25,20 +25,20 @@ appliesto:
 
 ## Overview
 
-Personal Content Mode (PCM) is a functionality that restricts the file content that Microsoft 365 Copilot can reason over. In Personal Content Mode, the scope of Copilot's reasoning capabilities is limited to a user's personal graph. This restriction doesn't impact Search capabilities. The personal graph's scope is similar to the boundaries defined by [Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search#how-does-restricted-sharepoint-search-work). The personal graph consists of:
+Personal Content Mode (PCM) restricts the file content that Microsoft 365 Copilot can reason over. With PCM restrictions, Copilot is limited to reasoning over a user's Microsoft Graph work data (including emails, calendar, chats, approved third-party data via connectors) within the boundaries defined by [Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search#how-does-restricted-sharepoint-search-work):
 
-- Users' OneDrive files and files they have access to
+- Other OneDrive files and files the user has access to
 - Files from their frequently visited SharePoint sites
-- Files that were shared directly with them 
+- Files that were shared directly with them
 - Files that the users viewed, edited, or created
 
-Unlike Restricted SharePoint Search, PCM doesn't use an allow list and doesn't limit users' ability to locate content with SharePoint Search. In Personal Content Mode, both Enterprise Search and custom Search applications continue to work without restrictions.
+Unlike Restricted SharePoint Search, PCM doesn't use an allow list and doesn't limit users' ability to locate content with SharePoint Search. In Personal Content Mode, both Enterprise Search and custom search applications continue to work without restrictions.
 
 ## Service Plan setting
 
 A setting in the Enterprise Service Plan provides users with PCM when the service plan is off. To make PCM available to individual users, an admin must update a Copilot-licensed user's individual service plan setting called *Microsoft Copilot with Graph-grounded chat*. This box is checked by default, allowing Copilot to reason over that user's entire M365 Graph. Unchecking this box, as depicted in this screenshot, creates the grounding restrictions associated with the Personal Content Mode:
 
-:::image type="content" source="media/personal-content-mode-service-plan.png" alt-text="Screenshot that shows the Microsoft 365 Copilot Enterprise Service Plan setting for Personal Content Mode.":::
+:::image type="content" source="media/personal-content-mode-service-plan.png" alt-text="Screenshot that shows the Microsoft 365 Copilot Enterprise Service Plan setting for Personal Content Mode." lightbox="media/personal-content-mode-service-plan-raw.png":::
 
 ## FAQ
 

@@ -54,14 +54,14 @@ For more information, see the following resources:
 
 To add Microsoft 365 Copilot to your Microsoft 365 subscription, you need one of the following Microsoft 365 subscription plans. You can get the Copilot license as an add-on.
 
-### Microsoft 365 Copilot Business license
+### Microsoft 365 Copilot Business
 
 - Microsoft 365 Business Basic
 - Microsoft 365 Business Standard
 - Microsoft 365 Business Premium
 - Microsoft 365 Apps for Business
 
-### Business and enterprise licenses
+### Microsoft 365 Copilot
 
 - **Microsoft 365 plans:**
   - Microsoft 365 E5
@@ -114,7 +114,7 @@ To add Microsoft 365 Copilot to your Microsoft 365 subscription, you need one of
 
 ### US Government licenses
 
-Microsoft 365 Copilot is available for customers in Government Community Cloud (GCC) and Department of Defense (DoD) cloud environments as an add-on to the following plans:
+Microsoft 365 Copilot is available for customers in Government Community Cloud (GCC), Government Community Cloud High (GCC-High), and Department of Defense (DoD) cloud environments as an add-on to the following plans:
 
 - **Microsoft 365 Plans**
 

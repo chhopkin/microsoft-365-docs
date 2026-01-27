@@ -14,7 +14,9 @@ ms.collection:
 ms.service: m365-planning
 ms.localizationpriority: high
 description: Microsoft 365 helps energy organizations move to a modern collaboration platform, while helping keep data and systems secure and compliant with regulations.
-ms.custom: seo-marvel-jun2020
+ms.custom:
+- seo-marvel-jun2020
+- m365-solutions-doc-set
 ---
 
 # Key Compliance and Security Considerations for the Energy Industry

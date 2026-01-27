@@ -12,6 +12,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - highpri
 - M365solutions
+ms.custom: m365-solutions-doc-set
 f1.keywords: NOCSH
 
 ---

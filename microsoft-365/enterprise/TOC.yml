@@ -222,6 +222,24 @@ items:
             - name: Multitenant org FAQ
               href: multitenant-org-faq.md
 
+        - name: Cross-tenant migration with orchestrator
+          items:
+            - name: Overview
+              href: migration-orchestrator-1-overview.md
+            - name: Planning and prerequisites
+              href: migration-orchestrator-2-planning-prerequisites.md
+            - name: Tenant configuration
+              href: migration-orchestrator-3-tenant-config.md
+            - name: User preparation
+              href: migration-orchestrator-4-user-prep.md
+            - name: Running the migration
+              href: migration-orchestrator-5-running-migration.md
+            - name: Post-migration
+              href: migration-orchestrator-6-post-migration.md
+            - name: End-user experience
+              href: migration-orchestrator-7-end-user-exp.md
+            - name: FAQ
+              href: migration-orchestrator-8-faq.md
         - name: Cross-tenant OneDrive migration
           items:
             - name: Cross-tenant OneDrive migration overview
@@ -294,9 +312,9 @@ items:
               items: 
                 - name: Configure multi-geo
                   href: multi-geo-tenant-configuration.md
-                - name: Configure Multi-Geo In-Region Routing (In Preview)
-                  href: configure-multi-geo-inregion-routing-preview.md
-                  displayName: Configure Multi-Geo In-Region Routing (In Preview)
+                - name: Configure Multi-Geo In-Region Routing
+                  href: configure-multi-geo-in-region-routing.md
+                  displayName: Configure Multi-Geo In-Region Routing
                 - name: Configure preferred data location
                   href: /azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation?toc=/microsoft-365/Enterprise/toc.json&bc=/microsoft-365/enterprise/breadcrumb/toc.json
                 - name: Configure search

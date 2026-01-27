@@ -14,9 +14,10 @@ ms.collection:
 - M365-collaboration
 - m365solution-collabgovernance
 ms.custom:
-  - M365solutions
-  - has-azure-ad-ps-ref
-  - azure-ad-ref-level-one-done
+- M365solutions
+- m365-solutions-doc-set
+- has-azure-ad-ps-ref
+- azure-ad-ref-level-one-done
 f1.keywords: NOCSH
 recommendations: false
 description: "Learn how to prevent guests from being added to a specific group"
