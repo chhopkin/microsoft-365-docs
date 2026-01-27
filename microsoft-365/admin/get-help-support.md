@@ -61,9 +61,9 @@ Save time by starting your service request online. We can help you find a soluti
 
 1. Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.cloud.microsoft</a>. If you get a message that says you don't have permission to access this page or perform this action, you aren't an admin. For more information, see [Who has admin permissions in my business?](../admin/admin-overview/admin-center-overview.md#who-has-admin-permissions-in-my-business).
 2. On the bottom right side of the page, select **Help & support**.
-3. Type a question or keyword into the text box. If you get a drop-down list, select the one closest to your question, or continue typing your question, then press **Enter**.
-4. If the results don't help, at the bottom, select **Contact Support**.
-5. Enter a description of your issue, confirm your contact number and email address, select your preferred contact method, and then select **Contact me**. The expected wait time is indicated in the **Contact support** pane.
+3. On the Support Assistant page, type your message or question into the text box. You will get a set of results to your question or message.
+4. If the results don't help, select the **Contact Support (headset)** icon at the top of the page or bottom left on the page.
+5. Choose your contact method, phone or email. Add and confirm your contact details and select **Contact me**. The expected wait time is indicated in the **Contact support** pane.
 
 > [!NOTE]
 > For a smoother support experience, we recommend that you open separate support requests for each issue.
