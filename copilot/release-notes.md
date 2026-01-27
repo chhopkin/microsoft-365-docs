@@ -7,7 +7,7 @@ ms.author: kwekua
 author: kwekuako
 manager: scotv
 ms.update-cycle: 180-days
-ms.date: 1/14/2025
+ms.date: 1/27/2025
 audience: Admin
 ms.reviewer: briandesouza
 ms.topic: release-notes
@@ -28,6 +28,358 @@ appliesto:
 This page lists the latest features and improvements for Microsoft 365 Copilot. It includes changes that are generally available (Current Channel for Microsoft 365 apps) and specific to each platform.
 
 ## [All features](#tab/all)
+
+<!--- All features regardless of platform go here  -->
+<!-- 101270,100818,110355,80610,109718,101645,100669,100610,100361,100356,100354,98694 -->
+## January 27, 2026
+Updates released between January 13, 2025, and January 27, 2026.
+### Microsoft 365 Copilot Chat
+- **Copilot Chat model selector now offers GPT-5.2** [Android, Windows, iOS, Mac, Web]
+
+  Choose GPT-5.2 in Copilot Chat for faster responses or deeper reasoning, improving accuracy and clarity.
+
+    **Details:**
+
+    **What changed:** The model selector in Copilot Chat now includes GPT-5.2. Users can pick Quick Response for immediate answers or Think Deeper for more thorough reasoning. GPT-5.2 delivers better instruction following, improved math and coding performance, and clearer explanations compared to previous models.
+
+    **Why:** This update provides more flexibility and precision, helping users handle both simple and complex tasks with adaptive reasoning.
+
+    **Try this:**
+
+    - Select More in the model selector and choose Quick Response for quick answers.
+    - Choose Think Deeper when you need detailed reasoning for complex queries.
+
+    **Why this matters:**
+
+    **Business impact:** Enhances productivity by offering tailored response modes for different workflows.
+
+    **Personal impact:** Gives individuals control over response depth, improving efficiency and clarity.
+
+    **Additional resources:**
+
+    **Blog:**
+    [Available today: GPT-5.2 in Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6)
+- **Copilot icon visibility in Microsoft Edge** [Web]
+
+    Users can now manage the visibility of the Copilot icon in the Microsoft Edge toolbar, while admins can control icon access through policy settings.
+
+    **Roadmap ID:** [536579](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=536579 )
+
+    **Details:**
+
+    **What changed:** Previously, the Copilot icon always appeared in the toolbar. Users can now hide or show the icon, and admins can manage visibility using the ""Microsoft365CopilotChatIconEnabled policy.""
+
+    **Why:** This change gives users and IT admins more flexibility in managing the Edge interface and Copilot availability.
+
+    **Try this:**
+
+    - Right-click the Copilot icon and select Hide Copilot.
+    - Use Edge settings to toggle the icon visibility.
+    - Configure the Microsoft365CopilotChatIconEnabled policy as an admin.
+
+    **Why this matters:**
+
+    **Business impact:** Supports customized user experiences and centralized policy control.
+
+    **Personal impact:** Lets users reduce toolbar clutter or restore the icon when needed.
+### Microsoft 365 Copilot extensibility
+- **Advanced understanding for comments and attachments in SNOW KB and Azure DevOps connectors** [Windows, Web]
+
+  Copilot now understands content within comments and attachments for ServiceNow KB and Azure DevOps work item connectors.
+
+    **Details:**
+
+    **What changed:** Previously, Copilot focused on primary content only. Comments and attachments are now included in content understanding.
+
+    **Why:** This ensures important context is not missed during searches or summaries.
+
+    **Try this:**
+
+    - Ask Copilot about an Azure DevOps work item.
+    - Review insights that include comment and attachment context.
+
+    **Why this matters:**
+
+    **Business impact:** Improves decision making with more complete information.
+
+    **Personal impact:** Reduces the need to manually review supporting content.
+ 
+- **Bring your own Microsoft Foundry agents into Microsoft 365 Copilot** [Web]
+
+  Bring intelligent agents built and hosted in Microsoft Foundry into to Microsoft 365 Copilot and Microsoft Teams—tailored to your organization’s workflows, rules, and compliance needs.
+
+    **What Changed:**
+    You can now connect an existing Foundry agent to Microsoft 365 Copilot and Microsoft Teams via a proxy app built with the Microsoft 365 Agents Toolkit.
+
+    **Why:**
+    Many specialized or regulated industries require custom logic beyond standard Copilot features. This update empowers teams to create agents that are tightly aligned with enterprise policies, domain needs, and governance expectations, and bring them into Microsoft 365 Copilot. 
+
+    **Try This:**
+    - Integrate your Microsoft Foundry agent with Microsoft 365 using Agents Toolkit sample.
+
+    **Why This Matters:**
+
+    **Business Impact:** Enables organizations to build tailored solutions, ensuring Copilot adapts to unique operational needs.
+
+    **Personal Impact:**  Gives developers freedom to innovate while maintaining the required levels of security, compliance, and governance.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Integrate Microsoft Foundry agents](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/overview-custom-engine-agent#integrate-microsoft-foundry-agents)
+- **Copy an agent from Agent Builder to Copilot Studio** [Windows, Web]
+
+  Users can now open agents created in Agent Builder in the Copilot Studio authoring experience.
+
+    **Details:**
+
+    **What changed:** Previously, agents created in Agent Builder experience were limited in capability. Authors can now move agents into  Copilot Studio to access advanced features and publishing options.
+
+    **Why:** This change enables more powerful agents and supports stronger governance and lifecycle management.
+
+    **Try this:**
+
+    - Open an agent created in Agent Builder.
+    - Continue editing the agent in Copilot Studio.
+
+    **Why this matters:**
+
+    **Business impact:** Enables more capable agents with governance controls such as Data Loss Prevention.
+
+    **Personal impact:** Gives creators greater flexibility to enhance their agents.
+- **Generate icons using AI in Agent Builder** [Windows, Web]
+
+  Users can generate custom icons using AI Agent Builder using custom prompts, manually upload their own icon, or select from a set of pre-created icons.
+
+    **Roadmap ID:** [502864](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502864)
+
+    **Details:**
+
+    **What changed:** Previously, users relied on default icons or manual uploads. AI-generated icons are now available in Agent Builder, with size limits of 1 MB (192px).
+
+    **Why:** This feature simplifies icon creation and improves how agents visually represent their purpose.
+
+    **Try this:**
+
+    - Enter a prompt to generate an icon with AI.
+    - Use the agent description to generate an icon automatically.
+    - Upload a custom icon or select a pre-created option.
+
+    **Why this matters:**
+
+    **Business impact:** Improves clarity and usability of custom agents.
+
+    **Personal impact:** Makes agent creation faster and more creative.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Build agents with Agent Builder in Microsoft 365 Copilot](https://learn.microsoft.com/microsoft-365-copilot/extensibility/agent-builder-build-agents)
+- **Improve relevance and personalization by connecting user identities across data sources** [Windows, Web]
+
+  Copilot improves relevance and personalization by connecting user identities across multiple data sources.
+
+    **Details:**
+
+    What changed: Previously, identities from third party systems were not linked to the corresponding Microsoft identity, leading to poor response quality esp with people related queries. Copilot now correlates identities across supported connectors, leading to more relevant and personalised responses. 
+
+    **Why:** This ensures responses better reflect user context across systems.
+
+    **Try this:**
+
+    - Ask Copilot about work spanning multiple connected tools.
+
+    **Why this matters:**
+
+    **Business impact:** Improves cross‑system relevance and response quality in Copilot.
+
+    **Personal impact:** Delivers more accurate, personalized answers.
+ 
+- **Publish Azure AI Foundry agents to Copilot** [Web]
+
+  Developers can launch AI agents to the Copilot Agent Store effortlessly with no coding required.
+
+    **Roadmap ID:** [501112](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=501112 )
+
+    **What Changed:** Users have a one-click publishing flow from Azure AI Foundry to the Microsoft 365 Copilot Agent Store. No development experience is required and agents become instantly accessible.
+
+    **Why:** This enhancement accelerates the delivery of AI-powered solutions to frontline teams and improves deployment efficiency.
+
+    **Try This:**
+
+    - In Azure AI Foundry, open your agent and click Publish to Copilot.
+    - Confirm availability in Word, Teams, and other supported Microsoft 365 apps.
+
+    **Why This Matters:**
+
+    **Business Impact:** Accelerates delivery of tailored AI capabilities across the enterprise.
+
+    **Personal Impact: :** Developers spend less time on integration work and more time innovating.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    
+    [Publish agents to Microsoft 365 Copilot and Microsoft Teams](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/how-to/publish-copilot?view=foundry)
+- **Users can leverage multi-agent workflows** [Windows, Web]
+
+  Agents in Copilot can now use other agents to accomplish work if configured. Users can see the interaction between agents.
+
+    **Details:**
+
+    **What changed:** Researcher and other agents could call simple APIs but not other AI agents. Now multiple agents will coordinate to respond to the user's task.
+
+    **Why:** Multi-agent systems support more difficult work that requires multiple special AI systems.
+
+    **Try this:**
+
+    - Administrators: Add some of your most-used agents to Researcher.
+    - Users: Use Researcher on topics that require expertise from the agents available in Researcher's Sources menu.
+    - Developers: Connect other Declarative Agents to your agent.
+
+    **Why this matters:**
+
+    **Business impact:** Streamlines complex, multi system workflows.
+
+    **Personal impact:** Makes interactions with multiple agents feel smoother.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](https://learn.microsoft.com/microsoft-365/admin/manage/manage-connected-agents-for-researcher?view=o365-worldwide)
+
+    [Connect to other agents from a declarative agent](https://learn.microsoft.com/microsoft-365-copilot/extensibility/declarative-agent-connected-agent)
+### Microsoft Loop
+- **Generate PowerPoint grounded on a Copilot page** [Web]
+
+  Create a PowerPoint deck grounded on a Copilot page to present page content quickly.
+
+    **Roadmap ID:** [499425](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=499425)
+
+    **Details:**
+
+    **What changed:** You can generate a PowerPoint presentation grounded on the content of a Copilot page, enabling rapid presentation creation based on existing information.
+
+    **Why:** Teams often need to transform the content on a Page to slide format. Grounded generation speeds up this process and keeps slides aligned with the source.
+
+    **Try this:**
+
+    - Create a launch plan for a new electric scooter brand, including
+    key messaging, target audience, launch channels, and success
+    metrics. Organize it as an outline I can turn into a presentation.​
+
+    - Draft a competitive analysis comparing Nike and Adidas across brand positioning, digital strategy, and customer engagement.
+    Present it as an outline ready to convert into a PowerPoint deck.
+
+    - Develop an employee onboarding overview that covers company culture, core values, and 30-day goals. Structure it as a
+    presentation outline I can generate into slides.
+
+    **Why this matters:**
+
+    **Business impact:** Saves time turning working pages into presentations for reviews and updates.
+
+    **Personal impact:** Helps individuals present page content without manual slide creation.
+
+
+    **Additional Resources:**
+
+    **Support:**
+
+    [Convert your Microsoft 365 Copilot Page into a Word document or PowerPoint presentation](https://support.microsoft.com/topic/convert-your-microsoft-365-copilot-page-into-a-word-document-or-powerpoint-presentation-f39f872a-4f47-408c-8fc9-2c6808c003a1)
+
+### PowerPoint
+- **Use Copilot to get a detailed and contextual explanation**
+
+    Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
+
+    **Roadmap ID:** [516566](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=516566 )
+
+    **Details:**
+
+    **What changed:** Previously, users needed to manually research unfamiliar content such as unknown acronyms or images. Copilot now provides direct explanations for selected objects within a slide.
+
+    **Why:** This feature helps users understand unfamiliar or complex information without leaving their presentation.
+
+    **Try this:**
+
+    - Select any text, table or slide, right click and choose Explain.
+    - Review the explanation without leaving PowerPoint.
+
+    **Why this matters:**
+
+    **Business impact:** Reduces misinterpretation and improves presentation accuracy.
+
+    **Personal impact:** Saves time and builds confidence when reviewing content.
+
+    **Additional resources:**
+
+    **Blog:**
+
+    [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
+
+### Viva Glint
+- **Copilot employee experience outcomes report with Viva Glint** [Web]
+
+  A new Power BI report in Viva Insights shows how Copilot usage relates to employee experience sentiment in Viva Glint.
+
+    **Roadmap ID:** [496654](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=496654)
+
+    **Details:**
+
+    **What changed:** Previously, Understanding the impact of copilot usage on employee experience outcomes required customers to take the data out and do their own custom analysis. The new report that comes with copilot analytics in Viva Insights provides built-in segmented cohort analysis and heatmap visualizations. 
+
+    **Why:** This helps organizations better understand how Copilot influences employee experience.
+
+    **Try this:**
+
+    - Open Viva Insights and access the Copilot Outcomes report.
+    - Analyze sentiment by Copilot usage patterns.
+
+    **Why this matters:**
+
+    **Business impact:** Enables data‑driven insights into Microsoft 365 copilot adoption and sentiment.
+
+    **Personal impact:** Supports improvements to daily work experiences.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Copilot employee experience outcomes (Glint) report](https://learn.microsoft.com/viva/insights/advanced/analyst/templates/copilot-employee-experience-outcome-report)
+- **Workplace patterns report in Viva Glint** [Web]
+
+  A new report in Viva Glint highlights how employee sentiment relates to workplace patterns and drivers.
+
+    **Roadmap ID:** [489229 ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=489229)
+
+    **Details:**
+
+    **What changed:** Previously, users relied on custom analysis. The Workplace Patterns report now provides out‑of‑the‑box insights.
+
+    **Why:** This accelerates access to actionable insights for leaders.
+
+    **Try this:**
+
+    - Open the Workplace Patterns Report in Viva Glint.
+    - Share insights with leaders to guide actions.
+
+    **Why this matters:**    
+
+    **Business impact:** Speeds decision‑making using ready‑to‑use insights.
+
+    **Personal impact:** Helps create more informed workplace improvements.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Build agents with Agent Builder in Microsoft 365 Copilot](https://learn.microsoft.com/microsoft-365-copilot/extensibility/agent-builder-build-agents)
+
+
 <!--- All features regardless of platform go here  -->
 <!-- 74703,100671,100312,96561,96560,96300,104967,104073,102626,101108,97855 -->
 
@@ -4831,6 +5183,160 @@ Updates released between December 18, 2024, and January 7, 2025.
   Easily turn plain text or lists into clear, organized tables for better readability and effortless data handling. [Learn more](https://support.microsoft.com/topic/923d9763-f896-4da7-8a3f-5b12c3bfc475).
 
 ## [Windows](#tab/win)
+
+## January 27, 2026
+Updates released between January 13, 2025, and January 27, 2026.
+### Microsoft 365 Copilot Chat
+- **Copilot Chat model selector now offers GPT-5.2** [Android, Windows, iOS, Mac, Web]
+
+  Choose GPT-5.2 in Copilot Chat for faster responses or deeper reasoning, improving accuracy and clarity.
+
+    **Details:**
+
+    **What changed:** The model selector in Copilot Chat now includes GPT-5.2. Users can pick Quick Response for immediate answers or Think Deeper for more thorough reasoning. GPT-5.2 delivers better instruction following, improved math and coding performance, and clearer explanations compared to previous models.
+
+    **Why:** This update provides more flexibility and precision, helping users handle both simple and complex tasks with adaptive reasoning.
+
+    **Try this:**
+
+    - Select More in the model selector and choose Quick Response for quick answers.
+    - Choose Think Deeper when you need detailed reasoning for complex queries.
+
+    **Why this matters:**
+
+    **Business impact:** Enhances productivity by offering tailored response modes for different workflows.
+
+    **Personal impact:** Gives individuals control over response depth, improving efficiency and clarity.
+
+    **Additional resources:**
+
+    **Blog:**
+
+    [Available today: GPT-5.2 in Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6)
+
+### Microsoft 365 Copilot extensibility
+- **Advanced understanding for comments and attachments in SNOW KB and Azure DevOps connectors** [Windows, Web]
+
+  Copilot now understands content within comments and attachments for ServiceNow KB and Azure DevOps work item connectors.
+
+    **Details:**
+
+    **What changed:** Previously, Copilot focused on primary content only. Comments and attachments are now included in content understanding.
+
+    **Why:** This ensures important context is not missed during searches or summaries.
+
+    **Try this:**
+
+    - Ask Copilot about an Azure DevOps work item.
+    - Review insights that include comment and attachment context.
+
+    **Why this matters:**
+
+    **Business impact:** Improves decision making with more complete information.
+
+    **Personal impact:** Reduces the need to manually review supporting content.
+
+- **Copy an agent from Agent Builder to Copilot Studio** [Windows, Web]
+
+  Users can now open agents created in Agent Builder in the Copilot Studio authoring experience.
+
+    **Details:**
+
+    **What changed:** Previously, agents created in Agent Builder experience were limited in capability. Authors can now move agents into  Copilot Studio to access advanced features and publishing options.
+
+    **Why:** This change enables more powerful agents and supports stronger governance and lifecycle management.
+
+    **Try this:**
+
+    - Open an agent created in Agent Builder.
+    - Continue editing the agent in Copilot Studio.
+
+    **Why this matters:**
+
+    **Business impact:** Enables more capable agents with governance controls such as Data Loss Prevention.
+
+    **Personal impact:** Gives creators greater flexibility to enhance their agents.
+
+- **Generate icons using AI in Agent Builder** [Windows, Web]
+
+  Users can generate custom icons using AI Agent Builder using custom prompts, manually upload their own icon, or select from a set of pre-created icons.
+
+    **Roadmap ID:** [502864](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502864)
+
+    **Details:**
+
+    **What changed:** Previously, users relied on default icons or manual uploads. AI-generated icons are now available in Agent Builder, with size limits of 1 MB (192px).
+
+    **Why:** This feature simplifies icon creation and improves how agents visually represent their purpose.
+
+    **Try this:**
+
+    - Enter a prompt to generate an icon with AI.
+    - Use the agent description to generate an icon automatically.
+    - Upload a custom icon or select a pre-created option.
+
+    **Why this matters:**
+
+    **Business impact:** Improves clarity and usability of custom agents.
+
+    **Personal impact:** Makes agent creation faster and more creative.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Build agents with Agent Builder in Microsoft 365 Copilot](https://learn.microsoft.com/microsoft-365-copilot/extensibility/agent-builder-build-agents)
+
+- **Improve relevance and personalization by connecting user identities across data sources** [Windows, Web]
+
+  Copilot improves relevance and personalization by connecting user identities across multiple data sources.
+
+    **Details:**
+
+    What changed: Previously, identities from third party systems were not linked to the corresponding Microsoft identity, leading to poor response quality esp with people related queries. Copilot now correlates identities across supported connectors, leading to more relevant and personalised responses. 
+
+    **Why:** This ensures responses better reflect user context across systems.
+
+    **Try this:**
+
+    - Ask Copilot about work spanning multiple connected tools.
+
+    **Why this matters:**
+
+    **Business impact:** Improves cross‑system relevance and response quality in Copilot.
+
+    **Personal impact:** Delivers more accurate, personalized answers.
+
+- **Users can leverage multi-agent workflows** [Windows, Web]
+
+  Agents in Copilot can now use other agents to accomplish work if configured. Users can see the interaction between agents.
+
+    **Details:**
+
+    **What changed:** Researcher and other agents could call simple APIs but not other AI agents. Now multiple agents will coordinate to respond to the user's task.
+
+    **Why:** Multi-agent systems support more difficult work that requires multiple special AI systems.
+
+    **Try this:**
+
+    - Administrators: Add some of your most-used agents to Researcher.
+    - Users: Use Researcher on topics that require expertise from the agents available in Researcher's Sources menu.
+    - Developers: Connect other Declarative Agents to your agent.
+
+    **Why this matters:**
+
+    **Business impact:** Streamlines complex, multi system workflows.
+
+    **Personal impact:** Makes interactions with multiple agents feel smoother.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](https://learn.microsoft.com/microsoft-365/admin/manage/manage-connected-agents-for-researcher?view=o365-worldwide)
+
+    [Connect to other agents from a declarative agent](https://learn.microsoft.com/microsoft-365-copilot/extensibility/declarative-agent-connected-agent)
+
 <!--- All features that have 'Windows' tag  -->
 <!-- 74703,100671,100312,104967,102626,101108 -->
 
@@ -7086,6 +7592,362 @@ Updates released between December 18, 2024, and January 7, 2025.
 <!-- 100671,100312,96561,96560,96300,104967,104073,102626,101108,97855 -->
 
 ## [Web](#tab/Web)
+
+## January 27, 2026
+Updates released between January 13, 2025, and January 27, 2026.
+### Microsoft 365 Copilot Chat
+- **Copilot Chat model selector now offers GPT-5.2** [Android, Windows, iOS, Mac, Web]
+
+  Choose GPT-5.2 in Copilot Chat for faster responses or deeper reasoning, improving accuracy and clarity.
+
+    **Details:**
+
+    **What changed:** The model selector in Copilot Chat now includes GPT-5.2. Users can pick Quick Response for immediate answers or Think Deeper for more thorough reasoning. GPT-5.2 delivers better instruction following, improved math and coding performance, and clearer explanations compared to previous models.
+
+    **Why:** This update provides more flexibility and precision, helping users handle both simple and complex tasks with adaptive reasoning.
+
+    **Try this:**
+
+    - Select More in the model selector and choose Quick Response for quick answers.
+    - Choose Think Deeper when you need detailed reasoning for complex queries.
+
+    **Why this matters:**
+
+    **Business impact:** Enhances productivity by offering tailored response modes for different workflows.
+
+    **Personal impact:** Gives individuals control over response depth, improving efficiency and clarity.
+
+    **Additional resources:**
+
+    **Blog:**
+    [Available today: GPT-5.2 in Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6)
+
+- **Copilot icon visibility in Microsoft Edge** [Web]
+
+  Users can now manage the visibility of the Copilot icon in the Microsoft Edge toolbar, while admins can control icon access through policy settings.
+
+    **Roadmap ID:** [536579](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=536579 )
+
+    **Details:**
+
+    **What changed:** Previously, the Copilot icon always appeared in the toolbar. Users can now hide or show the icon, and admins can manage visibility using the ""Microsoft365CopilotChatIconEnabled policy.""
+
+    **Why:** This change gives users and IT admins more flexibility in managing the Edge interface and Copilot availability.
+
+    **Try this:**
+
+    - Right-click the Copilot icon and select Hide Copilot.
+    - Use Edge settings to toggle the icon visibility.
+    - Configure the Microsoft365CopilotChatIconEnabled policy as an admin.
+
+    **Why this matters:**
+
+    **Business impact:** Supports customized user experiences and centralized policy control.
+
+    **Personal impact:** Lets users reduce toolbar clutter or restore the icon when needed.
+
+### Microsoft 365 Copilot extensibility
+- **Advanced understanding for comments and attachments in SNOW KB and Azure DevOps connectors** [Windows, Web]
+
+  Copilot now understands content within comments and attachments for ServiceNow KB and Azure DevOps work item connectors.
+
+    **Details:**
+
+    **What changed:** Previously, Copilot focused on primary content only. Comments and attachments are now included in content understanding.
+
+    **Why:** This ensures important context is not missed during searches or summaries.
+
+    **Try this:**
+
+    - Ask Copilot about an Azure DevOps work item.
+    - Review insights that include comment and attachment context.
+
+    **Why this matters:**
+
+    **Business impact:** Improves decision making with more complete information.
+
+    **Personal impact:** Reduces the need to manually review supporting content.
+
+    - **Bring your own Microsoft Foundry agents into Microsoft 365 Copilot** [Web]
+
+    Bring intelligent agents built and hosted in Microsoft Foundry into to Microsoft 365 Copilot and Microsoft Teams—tailored to your organization’s workflows, rules, and compliance needs.
+
+    **What Changed:**
+    You can now connect an existing Foundry agent to Microsoft 365 Copilot and Microsoft Teams via a proxy app built with the Microsoft 365 Agents Toolkit.
+
+    **Why:**
+    Many specialized or regulated industries require custom logic beyond standard Copilot features. This update empowers teams to create agents that are tightly aligned with enterprise policies, domain needs, and governance expectations, and bring them into Microsoft 365 Copilot. 
+
+    **Try This:**
+    - Integrate your Microsoft Foundry agent with Microsoft 365 using Agents Toolkit sample.
+
+    **Why This Matters:**
+
+    **Business Impact:** Enables organizations to build tailored solutions, ensuring Copilot adapts to unique operational needs.
+
+    **Personal Impact:**  Gives developers freedom to innovate while maintaining the required levels of security, compliance, and governance.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Integrate Microsoft Foundry agents](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/overview-custom-engine-agent#integrate-microsoft-foundry-agents)
+
+- **Copy an agent from Agent Builder to Copilot Studio** [Windows, Web]
+
+  Users can now open agents created in Agent Builder in the Copilot Studio authoring experience.
+
+    **Details:**
+
+    **What changed:** Previously, agents created in Agent Builder experience were limited in capability. Authors can now move agents into  Copilot Studio to access advanced features and publishing options.
+
+    **Why:** This change enables more powerful agents and supports stronger governance and lifecycle management.
+
+    **Try this:**
+
+    - Open an agent created in Agent Builder.
+    - Continue editing the agent in Copilot Studio.
+
+    **Why this matters:**
+
+    **Business impact:** Enables more capable agents with governance controls such as Data Loss Prevention.
+
+    **Personal impact:** Gives creators greater flexibility to enhance their agents.
+
+- **Generate icons using AI in Agent Builder** [Windows, Web]
+
+  Users can generate custom icons using AI Agent Builder using custom prompts, manually upload their own icon, or select from a set of pre-created icons.
+
+    **Roadmap ID:** [502864](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502864)
+
+    **Details:**
+
+    **What changed:** Previously, users relied on default icons or manual uploads. AI-generated icons are now available in Agent Builder, with size limits of 1 MB (192px).
+
+    **Why:** This feature simplifies icon creation and improves how agents visually represent their purpose.
+
+    **Try this:**
+
+    - Enter a prompt to generate an icon with AI.
+    - Use the agent description to generate an icon automatically.
+    - Upload a custom icon or select a pre-created option.
+
+    **Why this matters:**
+
+    **Business impact:** Improves clarity and usability of custom agents.
+
+    **Personal impact:** Makes agent creation faster and more creative.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Build agents with Agent Builder in Microsoft 365 Copilot](https://learn.microsoft.com/microsoft-365-copilot/extensibility/agent-builder-build-agents)
+
+- **Improve relevance and personalization by connecting user identities across data sources** [Windows, Web]
+
+  Copilot improves relevance and personalization by connecting user identities across multiple data sources.
+
+    **Details:**
+
+    What changed: Previously, identities from third party systems were not linked to the corresponding Microsoft identity, leading to poor response quality esp with people related queries. Copilot now correlates identities across supported connectors, leading to more relevant and personalised responses. 
+
+    **Why:** This ensures responses better reflect user context across systems.
+
+    **Try this:**
+
+    - Ask Copilot about work spanning multiple connected tools.
+
+    **Why this matters:**
+
+    **Business impact:** Improves cross‑system relevance and response quality in Copilot.
+
+    **Personal impact:** Delivers more accurate, personalized answers.
+
+- **Publish Azure AI Foundry agents to Copilot** [Web]
+
+  Developers can launch AI agents to the Copilot Agent Store effortlessly with no coding required.
+
+    **Roadmap ID:** [501112](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=501112 )
+
+    **What Changed:** Users have a one-click publishing flow from Azure AI Foundry to the Microsoft 365 Copilot Agent Store. No development experience is required and agents become instantly accessible.
+
+    **Why:** This enhancement accelerates the delivery of AI-powered solutions to frontline teams and improves deployment efficiency.
+
+    **Try This:**
+
+    - In Azure AI Foundry, open your agent and click Publish to Copilot.
+    - Confirm availability in Word, Teams, and other supported Microsoft 365 apps.
+
+    **Why This Matters:**
+
+    **Business Impact:** Accelerates delivery of tailored AI capabilities across the enterprise.
+
+    **Personal Impact: :** Developers spend less time on integration work and more time innovating.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Publish agents to Microsoft 365 Copilot and Microsoft Teams](https://learn.microsoft.com/en-us/azure/ai-foundry/agents/how-to/publish-copilot?view=foundry)
+
+- **Users can leverage multi-agent workflows** [Windows, Web]
+
+  Agents in Copilot can now use other agents to accomplish work if configured. Users can see the interaction between agents.
+
+    **Details:**
+
+    **What changed:** Researcher and other agents could call simple APIs but not other AI agents. Now multiple agents will coordinate to respond to the user's task.
+
+    **Why:** Multi-agent systems support more difficult work that requires multiple special AI systems.
+
+    **Try this:**
+
+    - Administrators: Add some of your most-used agents to Researcher.
+    - Users: Use Researcher on topics that require expertise from the agents available in Researcher's Sources menu.
+    - Developers: Connect other Declarative Agents to your agent.
+
+    **Why this matters:**
+
+    **Business impact:** Streamlines complex, multi system workflows.
+
+    **Personal impact:** Makes interactions with multiple agents feel smoother.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](https://learn.microsoft.com/microsoft-365/admin/manage/manage-connected-agents-for-researcher?view=o365-worldwide)
+
+    [Connect to other agents from a declarative agent](https://learn.microsoft.com/microsoft-365-copilot/extensibility/declarative-agent-connected-agent)
+
+### Microsoft Loop
+- **Generate PowerPoint grounded on a Copilot page** [Web]
+
+  Create a PowerPoint deck grounded on a Copilot page to present page content quickly.
+
+    **Roadmap ID:** [499425](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=499425)
+
+    **Details:**
+
+    **What changed:** You can generate a PowerPoint presentation grounded on the content of a Copilot page, enabling rapid presentation creation based on existing information.
+
+    **Why:** Teams often need to transform the content on a Page to slide format. Grounded generation speeds up this process and keeps slides aligned with the source.
+
+    **Try this:**
+
+    - Create a launch plan for a new electric scooter brand, including
+    key messaging, target audience, launch channels, and success
+    metrics. Organize it as an outline I can turn into a presentation.​
+
+    - Draft a competitive analysis comparing Nike and Adidas across brand positioning, digital strategy, and customer engagement.
+    Present it as an outline ready to convert into a PowerPoint deck.
+
+    - Develop an employee onboarding overview that covers company culture, core values, and 30-day goals. Structure it as a
+    presentation outline I can generate into slides.
+
+    **Why this matters:**
+
+    **Business impact:** Saves time turning working pages into presentations for reviews and updates.
+
+    **Personal impact:** Helps individuals present page content without manual slide creation.
+
+
+    **Additional Resources:**
+
+    **Support:**
+
+    [Convert your Microsoft 365 Copilot Page into a Word document or PowerPoint presentation](https://support.microsoft.com/topic/convert-your-microsoft-365-copilot-page-into-a-word-document-or-powerpoint-presentation-f39f872a-4f47-408c-8fc9-2c6808c003a1)
+
+### PowerPoint
+- **Use Copilot to get a detailed and contextual explanation**
+
+Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
+
+    **Roadmap ID:** [516566](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=516566 )
+
+    **Details:**
+
+    **What changed:** Previously, users needed to manually research unfamiliar content such as unknown acronyms or images. Copilot now provides direct explanations for selected objects within a slide.
+
+    **Why:** This feature helps users understand unfamiliar or complex information without leaving their presentation.
+
+    **Try this:**
+
+    - Select any text, table or slide, right click and choose Explain.
+    - Review the explanation without leaving PowerPoint.
+
+    **Why this matters:**
+
+    **Business impact:** Reduces misinterpretation and improves presentation accuracy.
+
+    **Personal impact:** Saves time and builds confidence when reviewing content.
+
+    **Additional resources:**
+
+    **Blog**
+
+    [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
+
+### Viva Glint
+- **Copilot employee experience outcomes report with Viva Glint** [Web]
+
+  A new Power BI report in Viva Insights shows how Copilot usage relates to employee experience sentiment in Viva Glint.
+
+    **Roadmap ID:** [496654](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=496654)
+
+    **Details:**
+
+    **What changed:** Previously, Understanding the impact of copilot usage on employee experience outcomes required customers to take the data out and do their own custom analysis. The new report that comes with copilot analytics in Viva Insights provides built-in segmented cohort analysis and heatmap visualizations. 
+
+    **Why:** This helps organizations better understand how Copilot influences employee experience.
+
+    **Try this:**
+
+    - Open Viva Insights and access the Copilot Outcomes report.
+    - Analyze sentiment by Copilot usage patterns.
+
+    **Why this matters:**
+
+    **Business impact:** Enables data‑driven insights into Microsoft 365 copilot adoption and sentiment.
+
+    **Personal impact:** Supports improvements to daily work experiences.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Copilot employee experience outcomes (Glint) report](https://learn.microsoft.com/viva/insights/advanced/analyst/templates/copilot-employee-experience-outcome-report)
+
+- **Workplace patterns report in Viva Glint** [Web]
+
+  A new report in Viva Glint highlights how employee sentiment relates to workplace patterns and drivers.
+
+    **Roadmap ID:** [489229 ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=489229)
+
+    **Details:**
+
+    **What changed:** Previously, users relied on custom analysis. The Workplace Patterns report now provides out‑of‑the‑box insights.
+
+    **Why:** This accelerates access to actionable insights for leaders.
+
+    **Try this:**
+
+    - Open the Workplace Patterns Report in Viva Glint.
+    - Share insights with leaders to guide actions.
+
+    **Why this matters:**    
+
+    **Business impact:** Speeds decision‑making using ready‑to‑use insights.
+
+    **Personal impact:** Helps create more informed workplace improvements.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Build agents with Agent Builder in Microsoft 365 Copilot](https://learn.microsoft.com/microsoft-365-copilot/extensibility/agent-builder-build-agents)
+
 
 ## January 13, 2026
 Updates released between December 23, 2025, and January 13, 2026.
@@ -10626,6 +11488,35 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [Android](#tab/androidos)
 
+## January 27, 2026
+Updates released between January 13, 2025, and January 27, 2026.
+### Microsoft 365 Copilot Chat
+- **Copilot Chat model selector now offers GPT-5.2** [Android, Windows, iOS, Mac, Web]
+
+  Choose GPT-5.2 in Copilot Chat for faster responses or deeper reasoning, improving accuracy and clarity.
+
+    **Details:**
+
+    **What changed:** The model selector in Copilot Chat now includes GPT-5.2. Users can pick Quick Response for immediate answers or Think Deeper for more thorough reasoning. GPT-5.2 delivers better instruction following, improved math and coding performance, and clearer explanations compared to previous models.
+
+    **Why:** This update provides more flexibility and precision, helping users handle both simple and complex tasks with adaptive reasoning.
+
+    **Try this:**
+
+    - Select More in the model selector and choose Quick Response for quick answers.
+    - Choose Think Deeper when you need detailed reasoning for complex queries.
+
+    **Why this matters:**
+
+    **Business impact:** Enhances productivity by offering tailored response modes for different workflows.
+
+    **Personal impact:** Gives individuals control over response depth, improving efficiency and clarity.
+
+    **Additional resources:**
+
+    **Blog:**
+    [Available today: GPT-5.2 in Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6)
+
 <!-- 102626,101108 -->
 ## January 13, 2026
 Updates released between December 23, 2025, and January 13, 2026.
@@ -11350,6 +12241,36 @@ Updates released between December 18, 2024, and January 7, 2025.
   Create summaries of your Whiteboard content, capturing key points from your collaborative work.
 
 ## [iOS](#tab/appleios)
+
+
+## January 27, 2026
+Updates released between January 13, 2025, and January 27, 2026.
+### Microsoft 365 Copilot Chat
+- **Copilot Chat model selector now offers GPT-5.2** [Android, Windows, iOS, Mac, Web]
+
+  Choose GPT-5.2 in Copilot Chat for faster responses or deeper reasoning, improving accuracy and clarity.
+
+    **Details:**
+
+    **What changed:** The model selector in Copilot Chat now includes GPT-5.2. Users can pick Quick Response for immediate answers or Think Deeper for more thorough reasoning. GPT-5.2 delivers better instruction following, improved math and coding performance, and clearer explanations compared to previous models.
+
+    **Why:** This update provides more flexibility and precision, helping users handle both simple and complex tasks with adaptive reasoning.
+
+    **Try this:**
+
+    - Select More in the model selector and choose Quick Response for quick answers.
+    - Choose Think Deeper when you need detailed reasoning for complex queries.
+
+    **Why this matters:**
+
+    **Business impact:** Enhances productivity by offering tailored response modes for different workflows.
+
+    **Personal impact:** Gives individuals control over response depth, improving efficiency and clarity.
+
+    **Additional resources:**
+
+    **Blog:**
+    [Available today: GPT-5.2 in Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6)
 
 <!-- 102626,101108 -->
 
@@ -12333,6 +13254,35 @@ Updates released between December 18, 2024, and January 7, 2025.
   Get suggestions for how to rewrite any text in your document, enhancing clarity and effectiveness. [Learn more](https://support.microsoft.com/topic/923d9763-f896-4da7-8a3f-5b12c3bfc475).
 
 ## [Mac](#tab/mac)
+
+## January 27, 2026
+Updates released between January 13, 2025, and January 27, 2026.
+### Microsoft 365 Copilot Chat
+- **Copilot Chat model selector now offers GPT-5.2** [Android, Windows, iOS, Mac, Web]
+
+  Choose GPT-5.2 in Copilot Chat for faster responses or deeper reasoning, improving accuracy and clarity.
+
+    **Details:**
+
+    **What changed:** The model selector in Copilot Chat now includes GPT-5.2. Users can pick Quick Response for immediate answers or Think Deeper for more thorough reasoning. GPT-5.2 delivers better instruction following, improved math and coding performance, and clearer explanations compared to previous models.
+
+    **Why:** This update provides more flexibility and precision, helping users handle both simple and complex tasks with adaptive reasoning.
+
+    **Try this:**
+
+    - Select More in the model selector and choose Quick Response for quick answers.
+    - Choose Think Deeper when you need detailed reasoning for complex queries.
+
+    **Why this matters:**
+
+    **Business impact:** Enhances productivity by offering tailored response modes for different workflows.
+
+    **Personal impact:** Gives individuals control over response depth, improving efficiency and clarity.
+
+    **Additional resources:**
+
+    **Blog:**
+    [Available today: GPT-5.2 in Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6)
 
 <!-- 100312,102626 -->
 
@@ -13525,6 +14475,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
