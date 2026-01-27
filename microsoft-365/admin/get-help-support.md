@@ -28,7 +28,7 @@ search.appverid:
 - MET150
 - MOE150
 description: "Learn how to get online or phone support for your Microsoft 365 for business subscription. You must be an admin for a business subscription to get support."
-ms.date: 03/14/2025
+ms.date: 01/26/2026
 ---
 
 # Get support for Microsoft 365 for business
