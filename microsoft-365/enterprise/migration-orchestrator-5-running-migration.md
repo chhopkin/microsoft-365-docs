@@ -3,7 +3,7 @@ title: Running a migration with the migration orchestrator
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 12/11/2025
+ms.date: 01/26/2026
 recommendations: true
 audience: ITPro
 ms.topic: upgrade-and-migration-article
@@ -21,7 +21,7 @@ description: "The steps for running a migration using the Microsoft 365 migratio
 > [!IMPORTANT]
 > Tenant-to-tenant migration is currently available in preview. Features and availability may change before general availability (GA).
 
-The migration is run by creating a migration job in the form of a batch. Users are grouped together into a batch and submitted together. Migrations are managed through Graph APIs. These APIs can be run with PowerShell 5 or 7, or with [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer#mode=canary).
+The migration is run by creating a migration job in the form of a batch. Users are grouped together into a batch and submitted together. The maximum batch size is 100 users. Migrations are managed through Graph APIs. These APIs can be run with PowerShell 5 or 7, or with [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer#mode=canary).
 
 ## Understanding validation
 
@@ -52,7 +52,7 @@ The first step that takes place is the Validation stage. Throughout this step, a
 
 ### Mailbox syncing
 
-After all the checks pass for the applicable workloads, Mailbox syncing begins. Mailbox syncing means that in the background, the user's mailbox data is being moved to the target tenant. The user is still able to fully use their mailbox on the source tenant at this time.
+After all the checks pass for the applicable workloads, Mailbox syncing begins. Mailbox syncing means that in the background, the user's mailbox data is being moved to the target tenant. The user is still able to fully use their mailbox on the source tenant at this time. We strongly recommend submitting batches two weeks before the cut-over date as there's no impact on the end users during synchronization.
 
 ### Cutover
 
@@ -79,7 +79,7 @@ There's up to an hour-long delay between when updates are made to the group cont
 
 ### Submit a batch for validation
 
-This feature allows you to submit a batch of users to validate that the prerequisites are met before submitting a migration. It does **not** actually submit the migration. It creates a batch that runs once in the validation context. Getting information about this batch via [Retrieve a specific batch](#retrieve-a-specific-batch) returns a full list of results on the checks it ran. Any failures need to be addressed in order for a successful migration later. Each batch you submit needs to have a unique name. Users can only belong to one active batch at one time.
+This feature allows you to submit a batch of users to validate that the prerequisites are met before submitting a migration. It does **not** actually submit the migration. It creates a batch that runs once in the validation context. Getting information about this batch via [Retrieve a specific batch](#retrieve-a-specific-batch) returns a full list of results on the checks it ran. Any failures need to be addressed in order for a successful migration later. Each batch you submit needs to have a unique name. Users can only belong to one active batch at one time. The maximum batch size is 100 users.
 
 There are two ways to submit a validation batch.
 
@@ -118,9 +118,9 @@ Test-MgBetaCrossTenantMigrationJob -DisplayName "xtmigration1" -CompleteAfterDat
 
 ### Submit a batch for migration
 
-This feature allows you to submit a batch of users to begin their migration. We recommend running [Submit a batch for validation](#submit-a-batch-for-validation) first to confirm that all prerequisites are in-place. Each batch you submit needs to have a unique name. Users can only belong to one active batch at one time.
+This feature allows you to submit a batch of users to begin their migration. We recommend running [Submit a batch for validation](#submit-a-batch-for-validation) first to confirm that all prerequisites are in-place. Each batch you submit needs to have a unique name. Users can only belong to one active batch at one time. The maximum batch size is 100 users.
 
-There are two ways to submit a validation batch.
+There are two ways to submit a migration batch.
 
 #### Option 1: Define request body
 
@@ -214,7 +214,7 @@ Stop-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display nam
 This feature allows you to cancel a single user's migration by removing them from that batch. It needs to be run multiple times if multiple users need to be removed. The remaining users in the batch are unaffected. This state is only possible before the user's mailbox has cutover, at which point the user can't be removed.
 
 ```powershell
-Stop-MgBetaCrossTenantMigrationJob -CrossTenantMigrationJobId <batch display name or job id> -CrossTenantMigrationTaskId  <ExternalDirectoryObjectIds for the target user> 
+Stop-MgBetaCrossTenantMigrationJobUser -CrossTenantMigrationJobId <batch display name or job id> -CrossTenantMigrationTaskId  <ExternalDirectoryObjectIds for the target user> 
 ```
 
 If the removal is successful, you see a 202 Accepted request with the response:
@@ -323,7 +323,9 @@ If changes need to be made to the migration, like changing the [Complete After D
 Use the following table to understand the validation and migration flows and status values:
 
 > [!NOTE]
-> For more information about troubleshooting, see See [Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors).
+> For more information about troubleshooting, see See **[Troubleshoot orchestrated migration](/troubleshoot/microsoft-365/admin/orchestrated-migration/resolve-orchestrated-migration-errors)**.
+
+### Migration batch
 
 | Status | Description | Workloads |
 | --- | --- | --- |
@@ -343,8 +345,8 @@ Use the following table to understand the validation and migration flows and sta
 | Status | Description | Workloads |
 | --- | --- | --- |
 |ValidationSubmitted/ValidationProcessing | The validation batch has been submitted. | [Exchange] NotStarted <BR/> [Teams Chats] NotStarted <BR/> [Teams Meetings] NotStarted <BR/> [OneDrive] NotStarted <BR/> |
-| ValidateInProgress |The validation batch is in progress. All applicable workloads are checked for their prerequisites. | [Exchange] InProgress <BR/> [Teams Chats] InProgress/Valid/Invalid <BR/> [Teams Meetings] InProgress/Valid/Invalid <BR/> [OneDrive] InProgress/Valid/Invalid <BR/> |
-|ValidatePassed/ValidateFailed | The validation batch completed. The batch either passed (no checks failed) or failed (at least one check failed). | [Exchange] Valid/Invalid <BR/> [Teams Chats] Valid/Invalid <BR/> [Teams Meetings] Valid/Invalid <BR/> [OneDrive] Valid/Invalid <BR/> |
+| ValidateInProgress |The validation batch is in progress. All applicable workloads are checked for their prerequisites. | [Exchange] InProgress <BR/> [Teams Chats] InProgress/Completed <BR/> [Teams Meetings] InProgress/Completed <BR/> [OneDrive] InProgress/Completed <BR/> |
+|ValidatePassed/ValidateFailed | The validation batch completed. The batch either passed (no checks failed) or failed (at least one check failed). | [Exchange] Completed/Failed<BR/> [Teams Chats] Completed/Failed<BR/> [Teams Meetings] Completed/Failed<BR/> [OneDrive] Completed/Failed<BR/> |
 
 ## Next steps
 

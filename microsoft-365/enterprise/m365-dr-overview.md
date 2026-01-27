@@ -46,13 +46,13 @@ In order to promote clarity in the capability descriptions on data residency fun
 |Local Region Geography |Australia, Austria, Brazil, Canada, Chile, France, Germany, India, Indonesia, Israel, Italy, Japan, Malaysia, Mexico, New Zealand, Norway, Poland, Qatar, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, United Arab Emirates, United Kingdom |
 |Macro Region Geography |Macro Region Geography 1 – Europe, Macro Region Geography 2 – Asia Pacific, Macro Region Geography 3 – Americas, Macro Region Geography 4 – European Union/EFTA |
 |Macro Region Geography 1 – Europe |Data centers in Austria, Finland, France, Germany, Ireland, Italy, Netherlands, Poland, Spain, Sweden <br/> <br/> **Note:** This term is referenced as “Europe” on the _Data Location Card_. |
-|Macro Region Geography 2 – Asia Pacific |Data centers in Australia, Hong Kong Special Administrative Region, Indonesia, Japan, Malaysia, New Zealand, Singapore, South Korea |
+|Macro Region Geography 2 – Asia Pacific |Data centers in Australia, Hong Kong Special Administrative Region, India, Indonesia, Japan, Malaysia, New Zealand, Singapore, South Korea |
 |Macro Region Geography 3 – Americas |Data centers in Brazil, Canada, Chile, Mexico, and the United States (USA) <br/> <br/> **Note:** This term is referenced as “Americas” on the _Data Location Card_. |
 |Macro Region Geography 4 – European Union/EFTA |Data centers in Austria, Finland, France, Germany, Ireland, Italy, Netherlands, Poland, Spain, Sweden, Norway, and Switzerland. <br/> <br/> **Note:** This term is referenced as “European Union/EFTA” on the _Data Location Card_. |
 |Microsoft Entra ID |Microsoft Entra ID is the new name for [Azure Active Directory](/entra/fundamentals/new-name). |
 |Microsoft 365 admin center Data Location |To see the _Primary Provisioned Geography_ for Exchange Online, SharePoint, OneDrive, and Microsoft Teams, refer to the Microsoft 365 admin center by navigating to **Admin > Settings > Org settings > Organization profile > Data location**. |
 |Microsoft 365 Core Services |Exchange Online, SharePoint and OneDrive, Microsoft Teams, Microsoft 365 Copilot and Copilot Chat |
-|Microsoft 365 Expanded Services |Microsoft Defender for Office P1 and Exchange Online Protection, Microsoft 365 web apps (formerly known as "Office for the Web"), Viva Connections, Microsoft Purview* |
+|Microsoft 365 Expanded Services |Microsoft Defender for Office P1 and [the built-in security features for all cloud mailboxes](/defender-office-365/eop-about), Microsoft 365 web apps (formerly known as "Office for the Web"), Viva Connections, Microsoft Purview* |
 |Microsoft 365 Multi-Geo Capabilities |_Microsoft 365 Multi-Geo Capabilities_ allows a single _Tenant_ to store customer data-at-rest across multiple geographies rather than be limited to the single _Primary Provisioned Geography_. See the _[Multi-Geo](microsoft-365-multi-geo.md)_ page for more detail. |
 |Microsoft 365 Service provisioning country mapping |Refer to [data maps](https://aka.ms/datamaps) to learn where a given service provisions specified customer data, based on the _Tenant Default Geography._ |
 |Microsoft 365 Service provisioning mapping |All Microsoft 365 services use the _Default Geography_ to determine where a given _Tenant's_ specified data will be provisioned and stored. |
@@ -85,7 +85,7 @@ Microsoft 365 services aren't deployed to all Microsoft data centers globally. T
 
 Over time, a particular service may deploy their software to additional _Geographies_, so the provisioning locations for new customers can change over time. This doesn't necessarily cause customer data to move to a new _Geography_.
 
-You can use the _Data Location Card_ via the Microsoft 365 admin center to understand where your data for a given service is stored. As a Global Tenant Admin, you can find the actual data location by navigating to **Admin > Settings > Org settings > Organization profile > Data location**. Currently, data location details are available for Exchange Online, SharePoint, OneDrive, Microsoft Teams, Microsoft 365 Copilot, Exchange Online Protection, and Viva Connections. Additional data location details can be found on the [Data Maps page](o365-data-locations.md).
+You can use the _Data Location Card_ via the Microsoft 365 admin center to understand where your data for a given service is stored. As a Global Tenant Admin, you can find the actual data location by navigating to **Admin > Settings > Org settings > Organization profile > Data location**. Currently, data location details are available for Exchange Online, SharePoint, OneDrive, Microsoft Teams, Microsoft 365 Copilot, [the built-in security features for all cloud mailboxes](/defender-office-365/eop-about), and Viva Connections. Additional data location details can be found on the [Data Maps page](o365-data-locations.md).
 
 > [!NOTE]
 > Microsoft Defender for Office P1, Microsoft Purview (select services), and Microsoft 365 Copilot Chat are covered by [Durable Commitments on Data Location](m365-dr-overview.md#durable-commitments-on-data-location) but not currently displayed in the _Data Location Card_. Refer to [Where your Microsoft 365 customer data is stored](o365-data-locations.md) for more information.
@@ -187,7 +187,7 @@ The following table displays the various _Geographies_ and the corresponding dat
 |Geography |Data Center Location(s) |
 |---------|---------|
 |Americas  |Brazil (Campinas, Rio), Canada (Quebec City, Toronto), Chile (Santiago), Mexico (Queretaro), United States (Boydton, Cheyenne, Chicago, Des Moines, Quincy, San Antonio, Santa Clara, San Jose)  |
-|Asia Pacific  |Australia (Sydney, Melbourne), India (Chennai, Mumbai, Pune), Japan (Osaka, Tokyo), South Korea (Busan, Seoul), New Zealand (Auckland), Taiwan (Taipei)  |
+|Asia Pacific  |Australia (Sydney, Melbourne), India (Chennai, Mumbai, Pune), Indonesia (Jakarta), Japan (Osaka, Tokyo), Malaysia (Kuala Lumpur), Singapore, South Korea (Busan, Seoul), New Zealand (Auckland)  |
 |Australia  |Melbourne, Sydney  |
 |Austria  |Vienna  |
 |Brazil  |Campinas, Rio  |
@@ -208,6 +208,7 @@ The following table displays the various _Geographies_ and the corresponding dat
 |Norway   |Oslo, Stavanger    |
 |Poland   |Warsaw    |
 |Qatar   |Doha     |
+|Singapore   |Singapore     |
 |South Africa    |Cape Town, Johannesburg    |
 |South Korea  |Busan, Seoul    |
 |Spain   |Madrid    |
