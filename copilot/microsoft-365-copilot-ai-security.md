@@ -5,7 +5,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 ms.reviewer: georgerozo
-ms.date: 12/23/2025
+ms.date: 01/27/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -15,6 +15,7 @@ ms.collection:
 - m365copilot
 - trust-pod
 - magic-ai-copilot
+- M365-sam
 description: Learn how Microsoft 365 Copilot integrates AI to enhance productivity while maintaining robust security and compliance measures.
 customer-intent: As an administrator or business decision maker, I want to understand the security measures Microsoft has implemented for Microsoft 365 Copilot so that I can ensure my organization's data is protected while leveraging AI capabilities.
 appliesto:
