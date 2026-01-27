@@ -53,7 +53,7 @@ Continue to the next section for a description of each option in this setting.
 
 :::image type="content" source="media/pin-copilot-chat-new2.png" alt-text="Screenshot of Microsoft 365 admin center showing selected checkbox for Pin Copilot Chat in Microsoft 365 apps setting":::
 
-Copilot Chat is pinned by default to the navigation bar of the Microsoft 365 apps. This behavior applies for most users eligible for Copilot Chat across web, mobile, and desktop. The Pin Copilot Chat in Microsoft 365 apps setting no longer applies to the Microsoft 365 Copilot app, and Copilot Chat cannot be unpinned from the navigation for all tenants worldwide as of January 20, 2026.
+Copilot Chat is pinned by default to the navigation bar of the Microsoft 365 apps. This behavior applies for most users eligible for Copilot Chat across web, mobile, and desktop. The Pin Copilot Chat in Microsoft 365 apps setting no longer applies to the Microsoft 365 Copilot app, and Copilot Chat cannot be unpinned from the navigation for all tenants worldwide as of January 28, 2026.
 
 To change the pinning settings for Copilot Chat, select one of the following options:
 
