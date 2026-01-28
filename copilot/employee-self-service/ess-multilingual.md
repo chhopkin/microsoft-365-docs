@@ -34,9 +34,9 @@ Copilot Studio currently supports **dozens of languages**, including many Tier 1
 
 We recommend reviewing the official, up-to-date documentation:
 
-👉 **Copilot language support**: <https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-language-support>
+👉 **Copilot language support**: <https://learn.microsoft.com/microsoft-copilot-studio/authoring-language-support>
 
-Because Employee Self-Service is a custom agent built on Copilot Studio, the languages listed in that article represent the **maximum language coverage Employee Self-Service can support**, subject to the configuration approach and known limitations described below.
+Because Employee Self-Service is a custom agent built on Copilot Studio, the languages listed in that article represent the **maximum language coverage Employee Self-Service can support**, subject to the configuration approach and known limitations described in this article.
 
 ## Option 1: Browser Based Localization (Recommended)
 
@@ -51,7 +51,7 @@ The Employee Self-Service agent automatically responds in the **same language as
 - If the user’s browser language is **not** included as a supported secondary language, Employee Self-Service defaults to **English**.
 - Employee Self-Service UI surfaces are localized automatically.
 
-### When to use this
+### When to use this approach
 
 This approach works best when:
 
@@ -71,11 +71,11 @@ This approach works best when:
 
 #### Translate agent strings into your agents’ secondary languages (optional)
 
-In Copilot Studio, you perform all topic and content editing in the agent's primary language. This section explains how to [download strings from your agent and translate them into your agent's secondary languages](https://learn.microsoft.com/en-us/microsoft-copilot-studio/multilingual#manage-localization-for-a-multilingual-agent). Once you upload the translated strings, you can [switch the language in the test panel](https://learn.microsoft.com/en-us/microsoft-copilot-studio/multilingual#test-a-multilingual-agent) and verify that conversations in the secondary languages also flow as expected.
+In Copilot Studio, you perform all topic and content editing in the agent's primary language. This section explains how to [download strings from your agent and translate them into your agent's secondary languages](https://learn.microsoft.com/microsoft-copilot-studio/multilingual#manage-localization-for-a-multilingual-agent). Once you upload the translated strings, you can [switch the language in the test panel](https://learn.microsoft.com/microsoft-copilot-studio/multilingual#test-a-multilingual-agent) and verify that conversations in the secondary languages also flow as expected.
 
 **_If you make changes to the primary language strings, you must also update the content in the secondary languages. This process includes both new content and modified content. Incremental changes aren't automatically translated._**
 
-After completing these steps and publishing your agent, Employee Self-Service will automatically respond in the user’s browser language.
+After completing these steps and publishing your agent, Employee Self-Service automatically responds in the user’s browser language.
 
 ## Option 2: Dynamic Language Switching
 
@@ -87,30 +87,30 @@ Dynamic language switching allows Employee Self-Service to respond in the **same
 
 - A **custom topic** is configured to detect the user’s language at runtime using AI.
 - The detected language is used to guide how responses are generated for the remainder of the conversation or turn.
-- This enables the agent to **switch languages mid-conversation**, independent of the user’s browser language.
+- Enables the agent to **switch languages mid-conversation**, independent of the user’s browser language.
 
 ### Important clarification
 
 Dynamic language switching **does not work by default**. Makers must explicitly add all supported secondary languages to the agent and **configure the custom topic** for language detection for this behavior to occur.
 
-If a user’s language is not added as a secondary language, Employee Self-Service will default to English, even if the custom topic detects that language.
+If a user’s language is not added as a secondary language, Employee Self-Service defaults to English, even if the custom topic detects that language.
 
 ⚠️ **Cost consideration**
 
-Dynamic language switching relies on AI prompts to detect and route language. These prompts can incur usage charges for users who are not licensed. Customers should factor this into their cost and scale planning when choosing this approach.
+Dynamic language switching relies on AI prompts to detect and route language. These prompts can incur usage charges for users who are not licensed. Customers should factor these charges into their cost and scale planning when choosing this approach.
 
-### When to use this
+### When to use this functionality
 
 This approach may be appropriate if:
 
 - Users frequently switch languages mid-conversation.
-- Browser language does not reliably reflect the user’s preferred language, or the browser-based setup will not work for your organization.
+- Browser language doesn't reliably reflect the user’s preferred language, or the browser-based setup doesn't work for your organization.
 - Your users are mostly licensed, or you’re comfortable with the cost implications for unlicensed users.
 - You’re okay with ongoing testing and maintenance for this setup.
 
 ### How to configure
 
-[**Set up an agent for dynamic language switching**](https://learn.microsoft.com/en-us/microsoft-copilot-studio/multilingual)
+[**Set up an agent for dynamic language switching**](https://learn.microsoft.com/microsoft-copilot-studio/multilingual)
 
 ## Quick Reference: Which Option Should I Choose?
 
@@ -127,12 +127,10 @@ This approach may be appropriate if:
 
 | **Area** | **Limitation** | **Applies To** | **Help Article** |
 |---------|---------------|---------------|------------------|
-| Custom Content | In Copilot Studio, you perform all topic and content editing in the agent's primary language (English). To localize your content, you will have to download your agents strings and translate them into your agent’s secondary languages. | Both | [Prepare localized Content](https://learn.microsoft.com/en-us/microsoft-copilot-studio/multilingual) |
+| Custom Content | In Copilot Studio, you perform all topic and content editing in the agent's primary language (English). To localize your content, you have to download your agents strings and translate them into your agent’s secondary languages. | Both | [Prepare localized Content](https://learn.microsoft.com/microsoft-copilot-studio/multilingual) |
 | Adaptive cards | Localization files don't include mixed-typed strings from Adaptive Cards. If you need to localize an Adaptive Card where a string can include both static text and variables (dynamic content), use the following workaround. | Both | |
-
-| | |
 |-|-|
-| [Make dynamic content from Adaptive Cards available for localization](https://learn.microsoft.com/en-us/microsoft-copilot-studio/multilingual) | |
+| [Make dynamic content from Adaptive Cards available for localization](https://learn.microsoft.com/microsoft-copilot-studio/multilingual) | |
 
 | **Area** | **Limitation** | **Applies To** | **Help Article** |
 |---------|---------------|---------------|------------------|
