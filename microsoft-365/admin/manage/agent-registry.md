@@ -697,7 +697,7 @@ The **Risks** column in the Microsoft 365 admin center **Inventory** page provid
 
 > [!IMPORTANT]
 >
-> The **Risks** column only displays high severity alerts. It doesn't display low or medium severity alerts.
+> The **Risks** column only flags high severity alerts. It doesn't flag low or medium severity alerts.
 
 The count reflects alerts sourced from Microsoft Entra, aggregated into a single, easy to interpret indicator per agent. This experience will expand to include alerts from Microsoft Purview and Microsoft Defender, strengthening cross-Microsoft visibility and enabling more comprehensive governance.
 
