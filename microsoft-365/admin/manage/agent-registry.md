@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 01/23/2026
+ms.date: 01/28/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -694,6 +694,10 @@ Inventory data is also available programmatically through Graph APIs enabling sc
 ## Risks column in the Microsoft 365 admin center Inventory page
 
 The **Risks** column in the Microsoft 365 admin center **Inventory** page provides a clear and consolidated view of an agent's security posture by displaying the total number of active high severity alerts associated with each agent and its underlying instances. It closes a critical visibility gap for IT administrators responsible for governing AI agents.
+
+> [!IMPORTANT]
+>
+> The **Risks** column only displays high severity alerts. It doesn't display low or medium severity alerts.
 
 The count reflects alerts sourced from Microsoft Entra, aggregated into a single, easy to interpret indicator per agent. This experience will expand to include alerts from Microsoft Purview and Microsoft Defender, strengthening cross-Microsoft visibility and enabling more comprehensive governance.
 
