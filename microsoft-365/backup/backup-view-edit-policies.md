@@ -109,7 +109,7 @@ Follow these steps to set up a backup policy for Exchange mailboxes sites using 
 
     ![Screenshot of the Overview page for Exchange.](../media/m365-backup/backup-overview-page-exchange.png)
 
-6. On the **Choose selection method** page, you can select shared or user mailboxes using any of the four available methods. Other Exchange recipient types, such as room mailboxes, aren't supported at this time. A protection scope is the scope of mailboxes within Exchange that you want to protect with Microsoft 365 Backup.
+6. On the **Choose selection method** page, you can select shared or user mailboxes using any of the four available methods. Other Exchange recipient types, such as room and group mailboxes, are not supported at this time. A protection scope is the scope of mailboxes within Exchange that you want to protect with Microsoft 365 Backup.
 
     > [!NOTE]
     > Adding a mailbox to the backup policy backs up the primary and archive mailboxes.
