@@ -40,11 +40,11 @@ Because Employee Self-Service is a custom agent built on Copilot Studio, the lan
 
 ## Option 1: Browser Based Localization (Recommended)
 
-### What it is
+### What is Browser Based Localization?
 
 The Employee Self-Service agent automatically responds in the **same language as the user’s browser**.
 
-### How it works
+### How Browser Based Localization works
 
 - The user’s browser language determines the response language.
 - Employee Self-Service responds automatically in the user’s browser language **only if that language is configured as a supported secondary language** in Copilot Studio.
@@ -79,11 +79,11 @@ After completing these steps and publishing your agent, Employee Self-Service au
 
 ## Option 2: Dynamic Language Switching
 
-### What it is
+### What is Dynamic Language Switching
 
 Dynamic language switching allows Employee Self-Service to respond in the **same language as the user’s input**, even if the user changes languages in mid-conversation.
 
-### How it works
+### How Dynamic Language Switching works
 
 - A **custom topic** is configured to detect the user’s language at runtime using AI.
 - The detected language is used to guide how responses are generated for the remainder of the conversation or turn.
@@ -93,11 +93,11 @@ Dynamic language switching allows Employee Self-Service to respond in the **same
 
 Dynamic language switching **does not work by default**. Makers must explicitly add all supported secondary languages to the agent and **configure the custom topic** for language detection for this behavior to occur.
 
-If a user’s language is not added as a secondary language, Employee Self-Service defaults to English, even if the custom topic detects that language.
+If a user’s language isn't added as a secondary language, Employee Self-Service defaults to English, even if the custom topic detects that language.
 
 ⚠️ **Cost consideration**
 
-Dynamic language switching relies on AI prompts to detect and route language. These prompts can incur usage charges for users who are not licensed. Customers should factor these charges into their cost and scale planning when choosing this approach.
+Dynamic language switching relies on AI prompts to detect and route language. These prompts can incur usage charges for users who aren't licensed. Customers should factor these charges into their cost and scale planning when choosing this approach.
 
 ### When to use this functionality
 
@@ -135,13 +135,13 @@ This approach may be appropriate if:
 | **Area** | **Limitation** | **Applies To** | **Help Article** |
 |---------|---------------|---------------|------------------|
 | Starter Prompts | Starter prompts aren’t localized by default with these setups. Makers need to manually author them in each secondary language directly in the Copilot Studio authoring canvas. | Both | |
-| Language quality variability | Some languages have been tested to work reliably in Employee Self-Service, but you may observe response quality or formatting issues with **Chinese, Japanese and Korean** due to underlying LLM. We recommend validating these languages in a pilot before including them in a full rollout. | Both | |
+| Language quality variability | Some languages have been tested to work reliably in Employee Self-Service, but you may observe response quality or formatting issues with **Chinese, Japanese, and Korean** due to underlying LLM. We recommend validating these languages in a pilot before including them in a full rollout. | Both | |
 | Costs | Language detection uses AI prompts and may incur usage costs for unlicensed users. | Dynamic language switching | |
 | Ongoing maintenance | Custom language topics must be maintained and tested over time. | Dynamic language switching | |
 
 ## Recommendation
 
-For most customers, **browser-based localization** provides the best balance of simplicity, scale, and reliability. Dynamic language switching should be reserved for advanced scenarios where browser language does not meet user needs.
+For most customers, **browser-based localization** provides the best balance of simplicity, scale, and reliability. Dynamic language switching should be reserved for advanced scenarios where browser language doesn't meet user needs.
 
 If you’re unsure which approach is right for your deployment, start with browser based localization and validate with a pilot group before introducing additional complexity.
 
