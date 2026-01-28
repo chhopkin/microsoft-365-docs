@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: efrene 
 author: efrene
 manager: scotv
-ms.date: 01/26/2026
+ms.date: 01/28/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -28,7 +28,7 @@ appliesto:
 
 This document outlines the minimum technical and licensing requirements for using Microsoft 365 Copilot Chat in your organization. It additionally includes considerations admins need to be aware of, such as security, management, tracking adoption, and resources to help train your users.
 
-For information on minimum requirements for the Microsoft 365 Copilot add-on license, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](microsoft-365-copilot-requirements.md).
+For information on minimum requirements for the Microsoft 365 Copilot add-on license, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](microsoft-365-copilot-minimum-requirements.md).
 
 ## Licensing requirements
 Before your users can use Microsoft Copilot Chat, they must have one of the following subscriptions or plans: 
