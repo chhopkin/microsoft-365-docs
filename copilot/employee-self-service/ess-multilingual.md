@@ -134,7 +134,7 @@ This approach may be appropriate if:
 
 | **Area** | **Limitation** | **Applies To** | **Help Article** |
 |---------|---------------|---------------|------------------|
-| Starter Prompts | Starter prompts aren’t localized by default with these setups. Makers need to manually author them in each secondary language directly in the Copilot Studio authoring canvas. | Both | |
+| Starter prompts | Starter prompts aren’t localized by default with these setups. Makers need to manually author them in each secondary language directly in the Copilot Studio authoring canvas. | Both | |
 | Language quality variability | Some languages were tested to work reliably in Employee Self-Service, but you may observe response quality or formatting issues with **Chinese, Japanese, and Korean** due to underlying Large Language Model (LLM). We recommend validating these languages in a pilot before including them in a full rollout. | Both | |
 | Costs | Language detection uses AI prompts and may incur usage costs for unlicensed users. | Dynamic language switching | |
 | Ongoing maintenance | Custom language topics must be maintained and tested over time. | Dynamic language switching | |
