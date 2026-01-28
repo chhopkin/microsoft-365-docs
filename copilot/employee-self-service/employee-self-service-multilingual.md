@@ -110,7 +110,7 @@ This approach may be appropriate if:
 
 ### How to configure
 
-[**Set up an agent for dynamic language switching**](https://learn.microsoft.com/microsoft-copilot-studio/multilingual)
+[**Set up an agent for dynamic language switching**](/microsoft-copilot-studio/multilingual)
 
 ## Quick Reference: Which Option Should I Choose?
 
