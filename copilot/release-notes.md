@@ -2490,10 +2490,10 @@ Updates released between July 22, 2025, and August 5, 2025.
 
 ### Microsoft 365 admin center
 
-- **Onboard SharePoint Agents as a PayG scenario in CCS** [Web]
+- **Onboard SharePoint Agents as a pay-as-you-go scenario in CCS** [Web]
 
   This feature introduces SharePoint Agents to the Pay-as-you-go tab under Copilot → Billing & usage, aligning with the existing workflow used for Microsoft 365 Copilot Chat. Administrators gain the ability to manage and monitor SharePoint Agent consumption through the familiar Pay-as-you-go interface, ensuring consistent oversight across Copilot experiences. Integration with the SharePoint backend via API enables precise usage tracking and billing for this new scenario.  
-  [Learn more.](/microsoft-365/services/pay-as-you-go-services)
+  [Learn more.](/microsoft-365/commerce/services/pay-as-you-go-services)
 
 ### Microsoft 365 Copilot app
 
@@ -9667,10 +9667,10 @@ Updates released between July 22, 2025, and August 5, 2025.
   Prevent agents from using model-trained knowledge by turning off internal knowledge, ensuring responses are based on specified grounded sources.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-knowledge#prioritize-your-knowledge-sources-over-general-knowledge).
 ### Microsoft 365 admin center
-- **Onboard SharePoint Agents as a PayG scenario in CCS** [Web]
+- **Onboard SharePoint Agents as a pay-as-you-go scenario in CCS** [Web]
 
   This feature introduces SharePoint Agents to the Pay-as-you-go tab under Copilot → Billing & usage, aligning with the existing workflow used for Microsoft 365 Copilot Chat. Administrators gain the ability to manage and monitor SharePoint Agent consumption through the familiar Pay-as-you-go interface, ensuring consistent oversight across Copilot experiences. Integration with the SharePoint backend via API enables precise usage tracking and billing for this new scenario.
- [Learn more](/microsoft-365/services/pay-as-you-go-services).
+ [Learn more](/microsoft-365/commerce/services/pay-as-you-go-services).
 ### Microsoft 365 Copilot Chat
 - **Share agents with your enterprise** [Windows, Web]
 
