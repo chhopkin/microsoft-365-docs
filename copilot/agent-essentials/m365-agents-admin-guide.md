@@ -560,4 +560,4 @@ For more information, see the following resources:
 - [Microsoft 365 Copilot adoption guide](/copilot/microsoft-365/microsoft-365-copilot-enablement-resources)
 - [AI Adoption Score](/microsoft-365/admin/adoption/adoption-score)
 - [Microsoft 365 Copilot agent usage reports](/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents)
-- [Microsoft 365 pay-as-you-go services - Overview and benefits](../../microsoft-365/commerce/services/pay-as-you-go-overview.md)
+- [Microsoft 365 pay-as-you-go services - Overview and benefits](/microsoft-365/commerce/services/pay-as-you-go-overview.md)
