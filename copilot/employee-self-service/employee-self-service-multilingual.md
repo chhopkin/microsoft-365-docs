@@ -32,9 +32,7 @@ Employee Self-Service is built on Copilot Studio, which means it inherits the sa
 
 Copilot Studio currently supports **dozens of languages**, including many Tier 1 and Tier 2 languages commonly required for global deployments.
 
-We recommend reviewing the official, up-to-date documentation:
-
-👉 **Copilot language support**: <https://learn.microsoft.com/microsoft-copilot-studio/authoring-language-support>
+We recommend reviewing the official, up-to-date documentation: [**Copilot language support**](/microsoft-copilot-studio/authoring-language-support)
 
 Because Employee Self-Service is a custom agent built on Copilot Studio, the languages listed in that article represent the **maximum language coverage Employee Self-Service can support**, subject to the configuration approach and known limitations described in this article.
 
