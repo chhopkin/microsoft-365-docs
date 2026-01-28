@@ -71,7 +71,7 @@ This approach works best when:
 
 #### Translate agent strings into your agents’ secondary languages (optional)
 
-In Copilot Studio, you perform all topic and content editing in the agent's primary language. This section explains how to [download strings from your agent and translate them into your agent's secondary languages](https://learn.microsoft.com/microsoft-copilot-studio/multilingual#manage-localization-for-a-multilingual-agent). Once you upload the translated strings, you can [switch the language in the test panel](https://learn.microsoft.com/microsoft-copilot-studio/multilingual#test-a-multilingual-agent) and verify that conversations in the secondary languages also flow as expected.
+In Copilot Studio, you perform all topic and content editing in the agent's primary language. This section explains how to [download strings from your agent and translate them into your agent's secondary languages](/microsoft-copilot-studio/multilingual#manage-localization-for-a-multilingual-agent). Once you upload the translated strings, you can [switch the language in the test panel](/microsoft-copilot-studio/multilingual#test-a-multilingual-agent) and verify that conversations in the secondary languages also flow as expected.
 
 **_If you make changes to the primary language strings, you must also update the content in the secondary languages. This process includes both new content and modified content. Incremental changes aren't automatically translated._**
 
@@ -127,10 +127,10 @@ This approach may be appropriate if:
 
 | **Area** | **Limitation** | **Applies To** | **Help Article** |
 |---------|---------------|---------------|------------------|
-| Custom Content | In Copilot Studio, you perform all topic and content editing in the agent's primary language (English). To localize your content, you have to download your agents strings and translate them into your agent’s secondary languages. | Both | [Prepare localized Content](https://learn.microsoft.com/microsoft-copilot-studio/multilingual) |
+| Custom Content | In Copilot Studio, you perform all topic and content editing in the agent's primary language (English). To localize your content, you have to download your agents strings and translate them into your agent’s secondary languages. | Both | [Preparing localized content](/microsoft-copilot-studio/multilingual) |
 | Adaptive cards | Localization files don't include mixed-typed strings from Adaptive Cards. If you need to localize an Adaptive Card where a string can include both static text and variables (dynamic content), use the following workaround. | Both | |
 |-|-|
-| [Make dynamic content from Adaptive Cards available for localization](https://learn.microsoft.com/microsoft-copilot-studio/multilingual) | |
+| [Make dynamic content from Adaptive Cards available for localization](/microsoft-copilot-studio/multilingual) | |
 
 | **Area** | **Limitation** | **Applies To** | **Help Article** |
 |---------|---------------|---------------|------------------|
