@@ -20,6 +20,7 @@ ms.collection:
 - essentials-overview
 - trust-pod
 - M365-sam
+- MCAT
 s.custom: [copilot-learning-hub]
 customer-intent: As an admin, I want to use a blueprint to help prevent oversharing when using Microsoft 365 Copilot.
 appliesto:
