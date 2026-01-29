@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: vpattnaik
 author: vpattnai
 manager: dansimp
-ms.date: 11/19/2025
+ms.date: 01/27/2026
 audience: Admin
 ms.reviewer: dansimp
 ms.topic: article
@@ -87,6 +87,74 @@ The Service Requests view helps your organization:
 - Understand patterns across products and severity levels.
 - Identify and manage high-impact issues efficiently.
 - Improve collaboration with Microsoft support and engineering teams.
+
+## Critical Project Assistance (CPAs)
+
+The Critical Project Assistance (CPA) feature in the Enhanced Engineering portal enables organizations to notify Microsoft about upcoming business activities or infrastructure changes that might impact their Microsoft 365 services. During these periods, Microsoft’s Service Engineering team provides elevated monitoring and proactive engagement to help identify and mitigate potential risks.
+
+:::image type="content" source="../enterprise/media/enhanced-engagements/critical-project-assistance.png" alt-text="Screenshot of critical project assistance in enhanced engagements portal." lightbox="../enterprise/media/enhanced-engagements/critical-project-assistance.png":::
+
+Examples of qualifying projects include:
+
+- Major datacenter or network changes
+- Mergers, acquisitions, or divestitures
+- Large-scale product launches or migrations
+- Tenant rebranding or restructuring
+
+### Submit a new CPA request
+
+If you're planning a significant business event, you can submit a CPA request to inform Microsoft’s Service Engineering team in advance. For a meaningful engagement, kindly notify us about your critical project at least 10 business days before the event.
+
+:::image type="content" source="../enterprise/media/enhanced-engagements/cpa-intake-form.png" alt-text="Screenshot of critical project assistance intake form." lightbox="../enterprise/media/enhanced-engagements/cpa-intake-form.png":::
+
+1. In the **Enhanced engagements** section, go to **Engagements** > **CPAs**.
+2. Select **Submit new CPA**.
+3. Enter the required details about your planned activity, including:
+
+    - Project title and Project details
+    - Start and end dates
+    - Products (for example, Exchange, SharePoint, Teams)
+    - Primary contact information
+
+4. Review your information and select **Submit**.
+
+Once submitted, your request will appear in the CPA overview table with its current status.
+
+### CPA overview
+
+The CPA overview section provides a summary of all CPA requests submitted for your tenant.
+
+It includes:
+
+- **Total CPAs** and **Active CPAs**
+- **Active CPAs by workload** (Exchange, SharePoint, Teams)
+- A searchable and filterable list of CPA requests
+
+You can:
+
+- **Filter** CPAs by status or workload
+- **Export** CPA data for reporting or tracking
+- **Refresh** the view to see the latest submissions
+
+Each CPA entry includes key details:
+
+| Column | Description |
+|---------|---------|
+| **Project title** | Name of the submitted business activity |
+| **Ticket ID** | Unique identifier for the CPA request |
+| **Start/ End date** | Duration of the planned event |
+| **Product** | Microsoft 365 workload impacted |
+| **Created by** | Person who submitted the CPA |
+| **Contact** | Primary contact for follow-up |
+| **Status** | Current state of the request (for example, _Submitted_, _In review_, _Closed_)|
+
+By clicking the project title, a flyout would be shown form right side of the portal, which would allow you to view CPA request details (for example, project details).
+
+:::image type="content" source="../enterprise/media/enhanced-engagements/cpa-request-title.png" alt-text="Screenshot of critical project assistance title page." lightbox="../enterprise/media/enhanced-engagements/cpa-request-title.png":::
+
+### Active CPAs by workload
+
+The **Active CPAs by Workload** chart provides a quick visual summary of ongoing CPA engagements by product area. This helps you identify which workloads currently have active awareness requests and plan accordingly.
 
 ## Customer Advisory Board (CAB)
 
