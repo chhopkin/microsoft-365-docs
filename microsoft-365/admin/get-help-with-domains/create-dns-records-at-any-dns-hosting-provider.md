@@ -34,7 +34,7 @@ ms.custom:
 
 # Connect your domain by adding DNS records
 
-If you purchased a domain from a non-Microsoft hosting provider, you can connect it to Microsoft 365 by updating the DNS records in your DNS registrar's account.
+If you purchased a domain from a non-Microsoft DNS hosting provider, you can connect it to Microsoft 365 by updating the DNS records in your DNS registrar's account.
 
 At the end of these steps, your domain stays registered with the host that you purchased the domain from, but Microsoft 365 can use it for its various services such as your domain email addresses.
 
@@ -42,13 +42,27 @@ If you don't add a domain to Microsoft 365, people in your organization instead 
 
 If you want to change the email domain of existing user accounts, follow the steps described in [Change your email address to use your custom domain using the Microsoft 365 admin center](/microsoft-365/admin/email/change-email-address#change-your-email-address-to-use-your-custom-domain-using-the-microsoft-365-admin-center).
 
-For more information on domains, see[Domains FAQ](../setup/domains-faq.yml).
+For more information on domains, see [Domains FAQ](../setup/domains-faq.yml).
 
 [!INCLUDE [How to get tech support for SMB](../../includes/smb-how-to-get-tech-support.md)]
 
 > [!TIP]
 >
-> To find your DNS hosting provider, see [Find your domain registrar](find-your-domain-registrar.md).
+> - To find your DNS hosting provider, see [Find your domain registrar](find-your-domain-registrar.md).
+>
+> - For instructions on how to add DNS records to specific DNS hosting providers, see the following articles:
+>
+>   - [Connect your DNS records at IONOS to Microsoft 365](../dns/create-dns-records-at-ionos-com.md).
+>   - [Connect your DNS records at 123-reg.co.uk to Microsoft 365](../dns/create-dns-records-at-123-reg-co-uk.md).
+>   - [Connect your DNS records at Amazon Web Services (AWS) to Microsoft 365](../dns/create-dns-records-at-aws.md).
+>   - [Connect your DNS records at Cloudflare to Microsoft 365](../dns/create-dns-records-at-cloudflare.md).
+>   - [Connect your DNS records at GoDaddy to Microsoft 365](../dns/create-dns-records-at-godaddy.md).
+>   - [Connect your DNS records at Namecheap to Microsoft 365](../dns/create-dns-records-at-namecheap.md).
+>   - [Connect your DNS records at Network Solutions to Microsoft 365](../dns/create-dns-records-at-network-solutions.md).
+>   - [Connect your DNS records at OVH to Microsoft 365](../dns/create-dns-records-at-ovh.md).
+>   - [Connect your DNS records at web.com to Microsoft 365](../dns/create-dns-records-at-web-com.md).
+>   - [Connect your DNS records at Wix to Microsoft 365](../dns/create-dns-records-at-wix.md).
+>   - [Create DNS records for Microsoft using Windows-based DNS](../dns/create-dns-records-using-windows-based-dns.md).
 
 ## Step 1: Add a TXT or MX record to verify that you own the domain
 
@@ -62,26 +76,26 @@ First, you need to prove you own the domain you want to add to Microsoft 365.
 
     > [!NOTE]
     >
-    > The name for managing DNS settings at your DNS hosting provider varies from provider to provider and might be called something else such as:
+    > The name for managing DNS settings at your DNS hosting provider varies from provider to provider. It might be called something like:
     >
     > - **Zone File Settings**.
     > - **Manage Domains**.
     > - **Domain Manager**.
     > - **DNS Manager**.
 
-1. Go to your provider's DNS Manager page and add the **TXT** record indicated in the Microsoft 365 admin center to your domain.
-
-   Adding the **TXT** record doesn't affect your existing email or other services. You can safely remove it once your domain is connected to Microsoft 365.
-
-   Example:
+1. Go to your provider's DNS Manager page and add the **TXT** record indicated in the Microsoft 365 admin center to your domain. For example:
 
    - TXT Name: `@`
    - TXT Value: MS=ms######## (unique ID from the Microsoft 365 admin center)
    - TTL: `3600`
 
+    > [!NOTE]
+    >
+    > Adding the **TXT** record doesn't affect your existing email or other services. You can safely remove it once your domain is connected to Microsoft 365.
+
 1. Save the record, go back to the Microsoft 365 admin center, and then select **Verify**. It typically takes around 15 minutes for DNS record changes to register, but sometimes it can take longer. Give it some time and a few tries to pick up the change.
 
-When Microsoft finds the correct TXT record, your domain is verified.
+1. When Microsoft finds the correct TXT record, your domain is verified.
 
 ### Verify with an MX record
 
@@ -93,42 +107,30 @@ If your registrar doesn't support adding TXT records, you can verify by adding a
 
     > [!NOTE]
     >
-    > The name for managing DNS settings at your DNS hosting provider varies from provider to provider and might be called something else such as:
+    > The name for managing DNS settings at your DNS hosting provider varies from provider to provider. It might be called something like:
     >
     > - **Zone File Settings**.
     > - **Manage Domains**.
     > - **Domain Manager**.
     > - **DNS Manager**.
 
-1. Go to your provider's DNS Manager page and add the **MX** record indicated in the Microsoft 365 admin center to your domain.
+1. Go to your provider's DNS Manager page and add the **MX** record indicated in the Microsoft 365 admin center to your domain. Make sure that the fields for the **MX** record are set to the following values:
 
-This **MX** record's **Priority** must be the highest of all existing **MX** records for the domain. Otherwise, it can interfere with sending and receiving email. You should delete this record as soon as domain verification completes.
+   - Record Type: `MX`
+   - Priority: Set to any large value not already being used.
+   - Host Name: `@`
+   - Points to address: Copy the value from the Microsoft 365 admin center and paste it here.
+   - TTL: `3600`
 
-Make sure that the fields for the **MX** record are set to the following values:
+    > [!IMPORTANT]
+    >
+    > This **MX** record's **Priority** must be the highest value with the lowest priority of all existing **MX** records for the domain. Otherwise, it can interfere with sending and receiving email.
 
-- Record Type: `MX`
-- Priority: Set to any large value not already being used.
-- Host Name: `@`
-- Points to address: Copy the value from the Microsoft 365 admin center and paste it here.
-- TTL: `3600`
+1. When Microsoft finds the correct MX record, your domain is verified.
 
-When Microsoft finds the correct MX record, your domain is verified.
-
-> [!TIP]
+> [!IMPORTANT]
 >
-> To verify your domain with Microsoft by adding **TXT** record and to connect to Microsoft services by adding DNS records, see the following articles:
->
-> - [Connect your DNS records at IONOS to Microsoft 365](../dns/create-dns-records-at-ionos-com.md).
-> - [Connect your DNS records at 123-reg.co.uk to Microsoft 365](../dns/create-dns-records-at-123-reg-co-uk.md).
-> - [Connect your DNS records at Amazon Web Services (AWS) to Microsoft 365](../dns/create-dns-records-at-aws.md).
-> - [Connect your DNS records at Cloudflare to Microsoft 365](../dns/create-dns-records-at-cloudflare.md).
-> - [Connect your DNS records at GoDaddy to Microsoft 365](../dns/create-dns-records-at-godaddy.md).
-> - [Connect your DNS records at Namecheap to Microsoft 365](../dns/create-dns-records-at-namecheap.md).
-> - [Connect your DNS records at Network Solutions to Microsoft 365](../dns/create-dns-records-at-network-solutions.md).
-> - [Connect your DNS records at OVH to Microsoft 365](../dns/create-dns-records-at-ovh.md).
-> - [Connect your DNS records at web.com to Microsoft 365](../dns/create-dns-records-at-web-com.md).
-> - [Connect your DNS records at Wix to Microsoft 365](../dns/create-dns-records-at-wix.md).
-> - [Create DNS records for Microsoft using Windows-based DNS](../dns/create-dns-records-using-windows-based-dns.md).
+> You should delete this MX record as soon as domain verification completes.
 
 ## Step 2: Connect to Microsoft services by adding DNS records
 
@@ -226,9 +228,9 @@ To add SRV records for communication services such as Teams, follow these steps:
 
 #### SRV record field restrictions and workarounds
 
-Some hosting providers impose restrictions on field values within SRV records. Here are some common workarounds for these restrictions:
+Some DNS hosting providers impose restrictions on field values within SRV records. Here are some common workarounds for these restrictions:
 
-- **Name**: If your DNS hosting provider doesn't allow setting this field to **@**, leave it blank. Use this approach *only* when your hosting provider has separate fields for the Service and Protocol values. Otherwise, see the following Service and Protocol notes.
+- **Name**: If your DNS hosting provider doesn't allow setting this field to **@**, leave it blank. Use this approach *only* when your DNS hosting provider has separate fields for the Service and Protocol values. Otherwise, see the following Service and Protocol notes.
 
 - **Service and Protocol**: If your DNS hosting provider doesn't provide these fields for SRV records, you must specify the **Service** and **Protocol** values in the record's **Name** field. To add these values, you create a single string, separating the values with a dot. For example:
 
@@ -242,7 +244,7 @@ Some hosting providers impose restrictions on field values within SRV records. H
     > - **Hostname**.
     > - **Subdomain**.
 
-- **Priority, Weight, and Port**: If your DNS hosting provider doesn't provide these fields for SRV records, you must specify them in the record's **Target** field. To add these values, create a single string, separating the values with spaces and *sometimes ending with a dot*. Check with your DNS provider to verify if ending with a dot is required. The values must be included in this order:
+- **Priority, Weight, and Port**: If your DNS hosting provider doesn't provide these fields for SRV records, you must specify them in the record's **Target** field. To add these values, create a single string, separating the values with spaces and *sometimes ending with a dot*. Check with your DNS hosting provider to verify if ending with a dot is required. The values must be included in this order:
 
   - Priority.
   - Weight.
