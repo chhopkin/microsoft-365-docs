@@ -234,7 +234,7 @@ items:
           items:
             - name: Change nameservers at any DNS host
               href: get-help-with-domains/change-nameservers-at-any-domain-registrar.md
-            - name: Create DNS records at any DNS host
+            - name: Connect your domain by adding DNS records
               href: get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md
             - name: Connect your DNS records at IONOS
               href: dns/create-dns-records-at-ionos-com.md
