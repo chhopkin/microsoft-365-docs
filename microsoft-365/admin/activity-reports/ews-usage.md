@@ -38,7 +38,7 @@ To review the applications using EWS within your organization, examine the **Usa
 
 :::image type="content" source="../../media/exchange-web-usage-report.png" alt-text="Screenshot of the Exchange Web Services (EWS) report." lightbox="../../media/exchange-web-usage-report.png":::
 
-You can filter the EWS Usage report by the last 7, 30, 90, or 180 days.
+You can filter the EWS Usage report by the last 7, 30, 90 days.
 
 > [!NOTE]
 > Usage data is collected and aggregated weekly, not daily.
