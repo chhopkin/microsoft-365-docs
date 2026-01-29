@@ -1,6 +1,6 @@
 ---
-ms.date: 03/06/2025
-title: "Manage Loop application preview"
+ms.date: 01/26/2026
+title: "Manage Loop app preview"
 ROBOTS: NOINDEX, NOFOLLOW
 ms.reviewer: dancost, rekeys
 ms.author: odocspr
@@ -64,10 +64,10 @@ The Loop application preview gate checks the following [Cloud Policy](/deployoff
 
 In case you create a new policy configuration or change the configuration for an existing policy, there can be a delay in the change being reflected as described:
 
-- If there were existing policy configurations before the change, then it takes 90 mins for the change to be reflected.
-- If there were no policy configurations before the change, then it takes 24 hours for the change to be reflected.
+- If there were existing policy configurations before the change, the change takes up to 90 minutes to be reflected.
+- If there were no policy configurations before the change, the change takes up to 24 hours to be reflected.
 
-## Related topics
+## Related articles
 
 - [Get started with Microsoft Loop - Microsoft Support](https://support.microsoft.com/office/get-started-with-microsoft-loop-9f4d8d4f-dfc6-4518-9ef6-069408c21f0c)
-- [Admin toggles](loop-admin-configuration.md)
+- [Admin policies](loop-admin-configuration.md)

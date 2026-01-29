@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 10/24/2025
+ms.date: 01/27/2026
 ms.update-cycle: 180-days
 ms.reviewer: 
 audience: Admin
@@ -19,7 +19,9 @@ ms.collection:
 - magic-ai-copilot
 - essentials-overview
 - trust-pod
-ms.custom: [copilot-learning-hub]
+- M365-sam
+- MCAT
+s.custom: [copilot-learning-hub]
 customer-intent: As an admin, I want to use a blueprint to help prevent oversharing when using Microsoft 365 Copilot.
 appliesto:
 - ✅ Microsoft 365 Copilot
