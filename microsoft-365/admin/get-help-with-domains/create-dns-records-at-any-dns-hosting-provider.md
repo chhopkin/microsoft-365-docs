@@ -1,11 +1,11 @@
 ---
-title: "Add DNS records to connect your domain"
+title: "Connect a domain by adding DNS records"
 f1.keywords:
 - CSH
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: 03/18/2025
+ms.date: 01/29/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -22,7 +22,7 @@ ms.collection:
 - operations-pod
 search.appverid:
 - MET150
-description: "Connect a domain at any DNS hosting provider to Microsoft 365 by verifying your domain and updating the DNS records in your registrar’s account."
+description: "Connect a domain from any DNS hosting provider in Microsoft 365 by verifying your domain and updating the DNS records in your registrar's account."
 ms.custom:
 - VSBFY23
 - okr_smb
@@ -32,11 +32,11 @@ ms.custom:
 - admindeeplinkMAC
 ---
 
-# Add DNS records to connect your domain
+# Connect a domain by adding DNS records
 
 Check out all of our small business content on [Small business help & learning](https://go.microsoft.com/fwlink/?linkid=2224585).
 
-If you purchased a domain from a third-party hosting provider, you can connect it to Microsoft 365 by updating the DNS records in your registrar’s account.
+If you purchased a domain from a non-Microsoft hosting provider, you can connect it to Microsoft 365 by updating the DNS records in your registrar's account.
 
 At the end of these steps, your domain stays registered with the host that you purchased the domain from, but Microsoft 365 can use it for your email addresses (like `user@ycontoso.com`) and other services.
 
@@ -49,7 +49,7 @@ If you want to change the email domain of existing user accounts, follow the ste
 [!INCLUDE [How to get tech support for SMB](../../includes/smb-how-to-get-tech-support.md)]
 
 > [!NOTE]
-> To find your DNS hosting provider, see [Find your domain registrar - Microsoft 365 admin | Microsoft Learn.](find-your-domain-registrar.md) 
+> To find your DNS hosting provider, see [Find your domain registrar - Microsoft 365 admin | Microsoft Learn.](find-your-domain-registrar.md)
 
 ## Step 1: Add a TXT or MX record to verify that you own the domain
 
@@ -57,19 +57,21 @@ If you want to change the email domain of existing user accounts, follow the ste
 
 First, you need to prove you own the domain you want to add to Microsoft 365.
 
-1. Sign in to the Microsoft 365 admin center and select **Show all** \> **Settings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">**Domains**</a>.
-2. In a new browser tab or window, sign in to your DNS hosting provider, and then find where you manage your DNS settings (for example, Zone File Settings, Manage Domains, Domain Manager, DNS Manager).
-3. Go to your provider's DNS Manager page, and add the TXT record indicated in the admin center to your domain.
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/) and select **Show all** > **Settings** > [**Domains**](https://go.microsoft.com/fwlink/p/?linkid=834818).
+
+1. In a new browser tab or window, sign in to your DNS hosting provider, and then find where you manage your DNS settings (for example, Zone File Settings, Manage Domains, Domain Manager, DNS Manager).
+
+1. Go to your provider's DNS Manager page, and add the TXT record indicated in the Microsoft 365 admin center to your domain.
 
    Adding this record doesn't affect your existing email or other services and you can safely remove it once your domain is connected to Microsoft 365.
 
    Example:
 
    - TXT Name: `@`
-   - TXT Value: MS=ms######## (unique ID from the admin center)
+   - TXT Value: MS=ms######## (unique ID from the Microsoft 365 admin center)
    - TTL: `3600`
 
-4. Save the record, go back to the admin center, and then select **Verify**. It typically takes around 15 minutes for record changes to register, but sometimes it can take longer. Give it some time and a few tries to pick up the change.
+1. Save the record, go back to the Microsoft 365 admin center, and then select **Verify**. It typically takes around 15 minutes for record changes to register, but sometimes it can take longer. Give it some time and a few tries to pick up the change.
 
 When Microsoft finds the correct TXT record, your domain is verified.
 
@@ -77,9 +79,11 @@ When Microsoft finds the correct TXT record, your domain is verified.
 
 If your registrar doesn't support adding TXT records, you can verify by adding an MX record.
 
-1. Sign in to the Microsoft 365 admin center and select **Show all** \> **Settings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">**Domains**</a>.
-2. In a new browser tab or window, sign in to your DNS hosting provider, and then find where you manage your DNS settings (for example, Zone File Settings, Manage Domains, Domain Manager, DNS Manager).
-3. Go to your provider's DNS Manager page, and add the MX record indicated in the admin center to your domain.
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/) and select **Show all** > **Settings** > [**Domains**](https://go.microsoft.com/fwlink/p/?linkid=834818).
+
+1. In a new browser tab or window, sign in to your DNS hosting provider, and then find where you manage your DNS settings (for example, Zone File Settings, Manage Domains, Domain Manager, DNS Manager).
+
+1. Go to your provider's DNS Manager page, and add the MX record indicated in the Microsoft 365 admin center to your domain.
 
 This MX record's **Priority** must be the highest of all existing MX records for the domain. Otherwise, it can interfere with sending and receiving email. You should delete this record as soon as domain verification is complete.
 
@@ -88,27 +92,28 @@ Make sure that the fields are set to the following values:
 - Record Type: `MX`
 - Priority: Set to any large value not used already.
 - Host Name: `@`
-- Points to address: Copy the value from the admin center and paste it here.
+- Points to address: Copy the value from the Microsoft 365 admin center and paste it here.
 - TTL: `3600`
 
 When Microsoft finds the correct MX record, your domain is verified.
 
-> [!NOTE]
-> To know how to verify your domain with Microsoft by adding TXT record and to know how to connect to Microsoft services by adding DNS records see:
+> [!TIP]
+>
+> To verify your domain with Microsoft by adding TXT record and to connect to Microsoft services by adding DNS records, see the following articles:
+>
+> - [Connect your DNS records at IONOS to Microsoft 365](../dns/create-dns-records-at-ionos-com.md).
+> - [Connect your DNS records at 123-reg.co.uk to Microsoft 365](../dns/create-dns-records-at-123-reg-co-uk.md).
+> - [Connect your DNS records at Amazon Web Services (AWS) to Microsoft 365](../dns/create-dns-records-at-aws.md).
+> - [Connect your DNS records at Cloudflare to Microsoft 365](../dns/create-dns-records-at-cloudflare.md).
+> - [Connect your DNS records at GoDaddy to Microsoft 365](../dns/create-dns-records-at-godaddy.md).
+> - [Connect your DNS records at Namecheap to Microsoft 365](../dns/create-dns-records-at-namecheap.md).
+> - [Connect your DNS records at Network Solutions to Microsoft 365](../dns/create-dns-records-at-network-solutions.md).
+> - [Connect your DNS records at OVH to Microsoft 365](../dns/create-dns-records-at-ovh.md).
+> - [Connect your DNS records at web.com to Microsoft 365](../dns/create-dns-records-at-web-com.md).
+> - [Connect your DNS records at Wix to Microsoft 365](../dns/create-dns-records-at-wix.md).
+> - [Create DNS records for Microsoft using Windows-based DNS](../dns/create-dns-records-using-windows-based-dns.md).
 
-> - [Connect your DNS records at IONOS to Microsoft 365](../dns/create-dns-records-at-ionos-com.md)
-> - [Connect your DNS records at 123-reg.co.uk to Microsoft 365](../dns/create-dns-records-at-123-reg-co-uk.md)
-> - [Connect your DNS records at Amazon Web Services (AWS) to Microsoft 365](../dns/create-dns-records-at-aws.md)
-> - [Connect your DNS records at Cloudflare to Microsoft 365](../dns/create-dns-records-at-cloudflare.md)
-> - [Connect your DNS records at GoDaddy to Microsoft 365](../dns/create-dns-records-at-godaddy.md)
-> - [Connect your DNS records at Namecheap to Microsoft 365](../dns/create-dns-records-at-namecheap.md)
-> - [Connect your DNS records at Network Solutions to Microsoft 365](../dns/create-dns-records-at-network-solutions.md)
-> - [Connect your DNS records at OVH to Microsoft 365](../dns/create-dns-records-at-ovh.md)
-> - [Connect your DNS records at web.com to Microsoft 365](../dns/create-dns-records-at-web-com.md)
-> - [Connect your DNS records at Wix to Microsoft 365](../dns/create-dns-records-at-wix.md)
-> - [Create DNS records for Microsoft using Windows-based DNS](../dns/create-dns-records-using-windows-based-dns.md)
-
-## Step 2: Add DNS records to connect Microsoft services
+## Step 2: Connect to Microsoft services by adding DNS records
 
 In a new browser tab or window, sign in to your DNS hosting provider, and find where you manage your DNS settings (for example, Zone File Settings, Manage Domains, Domain Manager, DNS Manager).
 
@@ -116,36 +121,37 @@ You need to add several different types of DNS records depending on the services
 
 ### Add an MX record for email (Outlook, Exchange Online)
 
-**Before you begin:** If users already have email with your domain (such as `user@contoso.com`), create their accounts in the admin center before you set up your MX records. That way, they continue to receive email. When you update your domain's MX record, all new email for anyone who uses your domain is sent to Microsoft 365. Any existing email stays at your current email host, unless you decide to [migrate email and contacts to Microsoft 365.](../setup/migrate-email-and-contacts-admin.md)
+**Before you begin:** If users already have email with your domain (such as `user@contoso.com`), create their accounts in the Microsoft 365 admin center before you set up your MX records. That way, they continue to receive email. When you update your domain's MX record, all new email for anyone who uses your domain is sent to Microsoft 365. Any existing email stays at your current email host, unless you decide to [migrate email and contacts to Microsoft 365.](../setup/migrate-email-and-contacts-admin.md)
 
-You get the information for the MX record from the admin center domain setup wizard.
+You get the information for the MX record from the Microsoft 365 admin center domain setup wizard.
 
 On your hosting provider's website, add a new MX record. Make sure that the fields are set to the following values:
 
 - Record Type: `MX`
 - Priority: Set to the highest value available, typically `0`.
 - Host Name: `@`
-- Points to address: Copy the value from the admin center and paste it here.
+- Points to address: Copy the value from the Microsoft 365 admin center and paste it here.
 - TTL: `3600`
 
 > [!NOTE]
+>
 > Exchange Online only supports TTL values less than 6 hours (21,600 seconds).
 
 Save the record, and then remove any other MX records.
 
 ### Add CNAME records to connect other services (Teams, Exchange Online, MDM)
 
-You get the information for the CNAME records from the admin center domain setup wizard.
+You get the information for the CNAME records from the Microsoft 365 admin center domain setup wizard.
 
 On your hosting provider's website, add CNAME records for each service that you want to connect.
 Make sure that the fields are set to the following values for each:
 
 - Record Type: `CNAME (Alias)`
-- Host: Paste the values you copy from the admin center here.
-- Points to address: Copy the value from the admin center and paste it here.
+- Host: Paste the values you copy from the Microsoft 365 admin center here.
+- Points to address: Copy the value from the Microsoft 365 admin center and paste it here.
 - TTL: `3600`
 
-### Add or edit an SPF TXT record to help prevent email spam (Outlook, Exchange Online)
+### Help prevent email spam (Outlook, Exchange Online) by adding or editing an SPF TXT record
 
 **Before you begin:** If you already have an SPF record for your domain, don't create a new one for Microsoft 365. Instead, add the required Microsoft 365 values to the current record on your hosting providers website so that you have a *single* SPF record that includes both sets of values.
 
@@ -170,12 +176,12 @@ On your hosting provider's website, add SRV records for each service you want to
 
 - Record Type: `SRV (Service)`
 - Name: `@`
-- Target: Copy the value from the admin center and paste it here.
-- Protocol: Copy the value from the admin center and paste it here.
-- Service: Copy the value from the admin center and paste it here.
+- Target: Copy the value from the Microsoft 365 admin center and paste it here.
+- Protocol: Copy the value from the Microsoft 365 admin center and paste it here.
+- Service: Copy the value from the Microsoft 365 admin center and paste it here.
 - Priority: `100`
 - Weight: `1`
-- Port: Copy the value from the admin center and paste it here.
+- Port: Copy the value from the Microsoft 365 admin center and paste it here.
 - TTL: `3600`
 
 Save the record.
@@ -205,6 +211,6 @@ To add these values, create a single string, separating the values with spaces a
 
 ## Related content
 
-[Change nameservers to set up Microsoft 365 with any domain registrar](change-nameservers-at-any-domain-registrar.md) (article)\
-[Find and fix issues after adding your domain or DNS records](find-and-fix-issues.md) (article)\
-[Manage domains](/admin) (link page)
+- [Change nameservers to set up Microsoft 365 with any domain registrar](change-nameservers-at-any-domain-registrar.md) (article).
+- [Find and fix issues after adding your domain or DNS records](find-and-fix-issues.md) (article).
+- [Manage domains](/admin) (link page).
