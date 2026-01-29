@@ -2,8 +2,8 @@
 title: "Get support"
 f1.keywords:
 - NOCSH
-ms.author: cmcatee
-author: cmcatee-MSFT
+author: kwekuako
+ms.author: kwekua
 manager: dansimp
 audience: Admin
 ms.topic: how-to
