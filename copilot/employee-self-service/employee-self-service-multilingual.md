@@ -22,7 +22,7 @@ appliesto:
 This article explains **two supported ways** to enable multilingual experiences in the Employee Self-service (ESS) agent:
 
 - **Browser based localization** (recommended for most customers)
-- **Dynamic language switching** (advanced configuration)
+- **Dynamic Language Switching** (advanced configuration)
 
 Both approaches are supported today. The right choice depends on your rollout goals, complexity tolerance, and cost considerations.
 
@@ -79,7 +79,7 @@ After you complete these steps and publish your agent, Employee Self-Service aut
 
 ### What is Dynamic Language Switching
 
-Dynamic language switching allows Employee Self-Service to respond in the **same language as the user’s input**, even if the user changes languages in mid-conversation.
+Dynamic Language Switching allows Employee Self-Service to respond in the **same language as the user’s input**, even if the user changes languages in mid-conversation.
 
 ### How Dynamic Language Switching works
 
@@ -89,13 +89,13 @@ Dynamic language switching allows Employee Self-Service to respond in the **same
 
 ### Important clarification
 
-Dynamic language switching **does not work by default**. Makers must explicitly add all supported secondary languages to the agent and **configure the custom topic** for language detection for this behavior to occur.
+Dynamic Language Switching **does not work by default**. Makers must explicitly add all supported secondary languages to the agent and **configure the custom topic** for language detection for this behavior to occur.
 
 If a user’s language isn't added as a secondary language, Employee Self-Service defaults to English, even if the custom topic detects that language.
 
 ⚠️ **Cost consideration**
 
-Dynamic language switching relies on AI prompts to detect and route language. These prompts can incur usage charges for users who aren't licensed. Customers should factor these charges into their cost and scale planning when choosing this approach.
+Dynamic Language Switching relies on AI prompts to detect and route language. These prompts can incur usage charges for users who aren't licensed. Customers should factor these charges into their cost and scale planning when choosing this approach.
 
 ### When to use this functionality
 
@@ -108,7 +108,7 @@ This approach may be appropriate if:
 
 ### How to configure
 
-[**Set up an agent for dynamic language switching**](/microsoft-copilot-studio/multilingual)
+[**Set up an agent for Dynamic Language Switching**](/microsoft-copilot-studio/multilingual)
 
 ## Quick Reference: Which Option Should I Choose?
 
@@ -117,9 +117,9 @@ This approach may be appropriate if:
 | Large global rollout | Browser based localization |
 | Minimal setup and maintenance | Browser based localization |
 | No custom topic management | Browser based localization |
-| Users switch languages midchat | Dynamic language switching |
-| Browser language is unreliable | Dynamic language switching |
-| Fine-grained language control needed | Dynamic language switching |
+| Users switch languages midchat | Dynamic Language Switching |
+| Browser language is unreliable | Dynamic Language Switching |
+| Fine-grained language control needed | Dynamic Language Switching |
 
 ## Known Limitations to Consider
 
@@ -129,12 +129,12 @@ This approach may be appropriate if:
 | Adaptive cards | Localization files don't include mixed-typed strings from Adaptive Cards. If you need to localize an Adaptive Card where a string can include both static text and variables (dynamic content), use the following workaround. | Both | [Make dynamic content from Adaptive Cards available for localization](/microsoft-copilot-studio/multilingual) | |
 | Starter prompts | Starter prompts aren’t localized by default with these setups. Makers need to manually author them in each secondary language directly in the Copilot Studio authoring canvas. | Both | |
 | Language quality variability | Some languages were tested to work reliably in Employee Self-Service, but you may observe response quality or formatting issues with **Chinese, Japanese, and Korean** due to underlying Large Language Model (LLM). We recommend validating these languages in a pilot before including them in a full rollout. | Both | |
-| Costs | Language detection uses AI prompts and may incur usage costs for unlicensed users. | Dynamic language switching | |
-| Ongoing maintenance | Custom language topics must be maintained and tested over time. | Dynamic language switching | |
+| Costs | Language detection uses AI prompts and may incur usage costs for unlicensed users. | Dynamic Language Switching | |
+| Ongoing maintenance | Custom language topics must be maintained and tested over time. | Dynamic Language Switching | |
 
 ## Recommendation
 
-For most customers, **browser-based localization** provides the best balance of simplicity, scale, and reliability. Dynamic language switching should be reserved for advanced scenarios where browser language doesn't meet user needs.
+For most customers, **browser-based localization** provides the best balance of simplicity, scale, and reliability. Dynamic Language Switching should be reserved for advanced scenarios where browser language doesn't meet user needs.
 
 If you’re unsure which approach is right for your deployment, start with browser based localization and validate with a pilot group before introducing more complexity.
 
