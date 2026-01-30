@@ -110,8 +110,7 @@ The Microsoft Education app is now deployed, configured, and ready to use in you
 
 On first access, users must sign in using their Microsoft 365 (Microsoft Entra) account.
 
-Learn more about Microsoft 365 LTI application scenarios for Instructors and Students.
-<!-- -->
+Learn more about [Microsoft 365 LTI application scenarios for Instructors and Students](https://support.microsoft.com/topic/learning-management-systems-lms-integrations-ebc683e4-2b5a-4e07-8823-858f0e10c318).
 
 ## Browser settings
 
