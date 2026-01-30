@@ -35,13 +35,13 @@ highlightedContent:
       itemType: get-started
       url: /MicrosoftTeams/remote-learning-edu
     # Card
-    - title: Microsoft 365 Community Conference - Learn from experts and MVPs, and expand your Intelligent Work skillset
-      itemType: whats-new
-      url: https://aka.ms/mcag/ipm/26004P
-    # Card
     - title: Build your skills with Microsoft Learn training
       itemType: learn
       url: /training/m365/
+    # Card
+    - title: Microsoft 365 Community Conference - Learn from experts and MVPs, and expand your Intelligent Work skillset
+      itemType: whats-new
+      url: https://aka.ms/mcag/ipm/26004P
     # Card
     - title: Get your small business started with Microsoft 365
       itemType: video
