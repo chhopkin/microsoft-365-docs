@@ -32,7 +32,7 @@ People Skills comes with your Microsoft 365 Copilot or Viva licenses and doesn't
 - **Microsoft 365 Copilot in Productivity Apps service plan**: Customers with the "Microsoft 365 Copilot in Productivity Apps service plan" can use People Skills, including AI-inferencing and related Copilot experiences, excluding education and government licenses.
 
 > [!NOTE]
-> Tenants with M365 Copilot licenses can opt-in Microsoft Enterprise E3 and E5 users for AI-powered inferencing. Learn more [here](/copilot/microsoft-365/people-skills-manage-skills-library)
+> Tenants with M365 Copilot licenses can opt-in Microsoft Enterprise E3 and E5 users for AI-powered inferencing. Learn more [here.](/copilot/microsoft-365/people-skills-manage-skills-library)
 
 ## People Skills functionality access by license
 
