@@ -91,6 +91,18 @@ Here is when that build will reach the various update channels.
 > [!NOTE]
 > These statements and build requirements are Win32 only.
 
+#### Impact of baseline security mode settings on Authentication
+
+Currently the following features will not work when baseline security mode settings are enabled:
+
+- Certificate Based Authentication for Exchange ActiveSync (legacy Exchange flow, not Entra CBA flow)
+
+#### Impact of baseline security mode settings on Power Query Desktop Exchange Connectors
+
+Currently the following features will not work when baseline security mode settings are enabled:
+
+- Power Query Desktop Exchange Connector
+
 #### Impact of baseline security mode settings on cross-tenant features
 
 Currently the following features will not work when baseline security mode settings are enabled:
