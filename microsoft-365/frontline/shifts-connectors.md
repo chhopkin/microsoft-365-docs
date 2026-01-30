@@ -101,10 +101,11 @@ Here's an overview of the connection setup process.
 1. Do a one-time sync to import basic data to map entities between Teams and Reflexis WFM​.
 1. Sign in to Teams and go to the Shifts app​.
 
-      Schedule data is synced from Reflexis WFM to Shifts when a schedule is published and workers' schedules and shifts are displayed in Shifts. Shifts communicates with Reflexis WFM to sync changes that happened in Shifts.
-   
+   Schedule data is synced from Reflexis WFM to Shifts when a schedule is published and workers' schedules and shifts are displayed in Shifts. Shifts communicates with Reflexis WFM to sync changes that happened in Shifts.
+
 > [!IMPORTANT]
 > Managed shifts connectors other than the Reflexis connector were deprecated on December 7, 2025.
 
 ## Related articles
+
 - [Shifts for your frontline organization](shifts-for-teams-landing-page.md)
