@@ -85,7 +85,7 @@ To avoid potential issues, you should check the status and settings of the docum
 
 #### I don't have the eSignature ribbon action in Word
 
-- The ribbon action is available for Word Desktop on the Beta, Current and Monthly Enterprise Channels.
+- The ribbon action is available for Word Desktop on the Beta, Current, and Monthly Enterprise Channels.
 
 - To change your channel, in Word, go to **File** > **Account** > **Update Channel**.
 
