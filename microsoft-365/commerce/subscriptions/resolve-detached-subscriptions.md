@@ -63,11 +63,11 @@ If you're unsure which partner type applies to you, refer to the "[ACTION REQUIR
 
 No, extension or renewal isn't available in this scenario. Follow the guidance on [transferring your subscriptions to another CSP partner](#find-a-new-partner) or [buy directly from Microsoft](#buy-a-subscription-directly-from-microsoft).
 
-### Where can I see the date when my subscriptions will be cancelled in the Microsoft 365 admin center and Azure portal?
+### Where can I see the date when my subscriptions will be canceled in the Microsoft 365 admin center and Azure portal?
 
-In the Microsoft 365 admin center and Azure portal, the date appears at the top in a banner for subscriptions that are attached to a partner that is being deauthorized.
+In the Microsoft 365 admin center and Azure portal, the date appears at the top in a banner for subscriptions that are attached to a partner that's being deauthorized.
 
-### How will this affect my business processes, integrations, or users?
+### How does this affect my business processes, integrations, or users?
 
 Disabled subscriptions affect your workflows, integrations, and user access. To minimize disruption, follow the guidance on [transferring your subscriptions to another CSP partner](#find-a-new-partner) or [buy directly from Microsoft](#buy-a-subscription-directly-from-microsoft).
 
@@ -80,13 +80,13 @@ If you can't access your account, contact your transacting partner for support i
 
 ### What happens to my data? Can I export or migrate my information before deprovisioning?
 
-Yes, you can back up, export, or migrate your data before deprovisioning your subscription. Make sure you complete this step within the specified period to avoid data loss. You must finish this step before your expiration date. For more information, see [What happens to my data and access when my Microsoft 365 for business subscription ends?](what-if-my-subscription-expires.md)
+Yes, you can back up, export, or migrate your data before deprovisioning your subscription. To avoid data loss, make sure you complete this step within the specified period. You must finish this step before your expiration date. For more information, see [What happens to my data and access when my Microsoft 365 for business subscription ends?](what-if-my-subscription-expires.md)
 
 ### Where can I find information about the terms and conditions that apply to deprovisioning?
 
 You can find relevant terms and conditions in your service agreement and in the documentation linked in your notice.
 
-### Will I receive a refund for my pre-paid subscriptions?
+### Will I receive a refund for my prepaid subscriptions?
 
 Your billing relationship is with the CSP partner through whom you purchased the subscriptions. Work with your partner to determine if you're eligible for a prorated refund. If applicable, take action after you receive notification of your partner's deauthorization.
 
