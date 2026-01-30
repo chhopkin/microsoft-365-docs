@@ -4,7 +4,7 @@ ms.author: v-fahasen
 author: fhasen-msft
 manager: Justin.Giammona
 ms.reviewer: jugiammo
-ms.date: 11/11/2025
+ms.date: 1/30/2026
 audience: ITPro
 ms.topic: overview
 ms.service: microsoft-365-enterprise
@@ -31,7 +31,7 @@ The following services are included in _ADR_. For more information, see:
 - [Exchange Online](m365-dr-workload-exo.md)
 - [Microsoft 365 Copilot and Microsoft 365 Copilot Chat](m365-dr-workload-copilot.md)
 - [Microsoft 365 web apps (formerly "Office for the Web")](m365-dr-workload-office-for-web.md)
-- [Microsoft Defender for Office P1 and the built-in security features for all cloud mailboxes](m365-dr-workload-mdo-p1.md)
+- [Microsoft Defender for Office P1 and the built-in security features for all cloud mailboxes (formerly Exchange Online Protection (EOP))](m365-dr-workload-mdo-p1.md)
 - [Microsoft Purview](m365-dr-workload-purview.md)*
   - [Audit (Standard)](m365-dr-workload-purview.md#risk--compliance---audit-standard)
   - [Audit (Premium)](m365-dr-workload-purview.md#risk--compliance---audit-premium)
