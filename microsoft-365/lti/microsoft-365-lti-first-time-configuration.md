@@ -42,6 +42,9 @@ Once the Microsoft 365 tool is installed, an LMS Administrator must complete the
 
    :::image type="content" source="./media/consent.png" alt-text="Screenshot of admin setting consent." border="true":::
 
+   > [!IMPORTANT]
+   > We are aware that the consent dialog displays an Unverified status for Microsoft, and are working to resolve this. The dialog is being presented from the app at `https://m365lti.edu.cloud.microsoft` and is a first party Microsoft 365 application that complies with Microsoft 365 terms. We don't share any permissions with other apps or services, all are exclusively leveraged by Microsoft 365 LTI to provide functionality. More information on additional industry compliance and regulatory resources is available on the [Microsoft Service Trust Portal.](https://aka.ms/STP) 
+
    > [!NOTE]
    > You can share the following instructions with your Microsoft admin to complete this step. The URL they'll need is: `https://m365lti.edu.cloud.microsoft/Consent`
 

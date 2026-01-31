@@ -85,12 +85,13 @@ To avoid potential issues, you should check the status and settings of the docum
 
 #### I don't have the eSignature ribbon action in Word
 
-- The ribbon action is available for Word Desktop on the Beta and Current channels.
+- The ribbon action is available for Word Desktop on the Beta, Current, and Monthly Enterprise Channels.
+
 - To change your channel, in Word, go to **File** > **Account** > **Update Channel**.
 
     ![Screenshot showing the Update Channel button in Word.](../media/content-understanding/esignature-word-update-channel.png)
 
-- Select the **Beta** or **Current** channel.
+- Select the **Beta** or **Current** or **Monthly Enterprise Channel**.
 - If you don't have the **Update Channel** option, your admin has disabled it, or you don't have local administrator permissions. Learn more about the [Update Channel option](/microsoft-365-apps/insider/deploy/user-choice).
 
 #### When I select the ribbon action in Word, I receive a message that eSignature isn't enabled
@@ -106,7 +107,7 @@ To avoid potential issues, you should check the status and settings of the docum
 
 #### I can't send a request in Word to new external signers
 
-- Your admin hasn't configured eSignature to send requests to external senders who aren't existing guests on your tenant. 
+- Your admin hasn't configured eSignature on a site that supports sending requests to external senders (who aren't existing guests on your tenant). 
 
 #### As an admin, I don't have a toggle to disable requesting signatures from PDFs
 
