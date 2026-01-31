@@ -44,7 +44,7 @@ To learn more about business plans for Microsoft 365 Copilot, including features
 - **Unstructured document processing.** Build AI models to extract data from unstructured documents like contracts and reports. Pay only for the documents processed.
 - **Video translation.** Translate video transcripts to make content accessible in multiple languages. Charges apply per transcript translated.
 
-To learn more about Document processing features and pricing, see [Pay-as-you-go pricing for document processing for Microsoft 365](../../documentprocessing/syntex-pay-as-you-go-services).
+To learn more about Document processing features and pricing, see [Pay-as-you-go pricing for document processing for Microsoft 365](../../documentprocessing/syntex-pay-as-you-go-services.md).
 
 ## Microsoft 365 Archive
 
