@@ -9,11 +9,15 @@ ms.topic: overview
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-payasyougo
 search.appverid: MET150
-ms.collection: magic-ai-copilot
+ms.collection: 
+- magic-ai-copilot
+- scotvorg
+- M365-subscription-management
+- Adm_o365
 ms.custom:
 ms.localizationpriority:  medium
 description: "Learn about the pay-as-you-go services available in Microsoft 365."
-ms.date: 07/18/2025
+ms.date: 01/30/2026
 ---
 
 # Pay-as-you-go services available in Microsoft 365

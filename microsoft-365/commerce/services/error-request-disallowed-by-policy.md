@@ -10,10 +10,13 @@ ms.service: microsoft-365-business
 ms.subservice: m365-commerce-payasyougo
 search.appverid: MET150
 ms.collection: 
+- scotvorg
+- M365-subscription-management
+- Adm_o365
 ms.custom: 
 ms.localizationpriority:  medium
 description: "Fix the RequestDisallowedByPolicy error in Azure portal when creating resources. Step-by-step guide to update policy assignments and resolve blocked resource deployment."
-ms.date: 09/05/2025
+ms.date: 01/30/2026
 ---
 
 # Fix the "RequestDisallowedByPolicy" error

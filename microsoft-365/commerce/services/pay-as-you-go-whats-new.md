@@ -10,10 +10,13 @@ ms.service: microsoft-365-business
 ms.subservice: m365-commerce-payasyougo
 search.appverid: MET150
 ms.collection: 
+- scotvorg
+- M365-subscription-management
+- Adm_o365
 ms.custom: 
 ms.localizationpriority:  medium
 description: "Discover the latest pay-as-you-go services in Microsoft 365, including SharePoint agents, enhanced billing flexibility, and streamlined admin center navigation."
-ms.date: 05/26/2025
+ms.date: 01/30/2026
 ---
 
 # What's new with pay-as-you-go services in Microsoft 365

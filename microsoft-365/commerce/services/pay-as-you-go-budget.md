@@ -9,10 +9,14 @@ ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-payasyougo
 search.appverid: MET150
+ms.collection:
+- scotvorg
+- M365-subscription-management
+- Adm_o365
 ms.custom: 
 ms.localizationpriority:  medium
 description: "Learn how to create a billing budget for pay-as-you-go services in the Microsoft 365 admin center. Set spending limits, configure alerts, and manage costs effectively."
-ms.date: 09/17/2025
+ms.date: 01/30/2026
 ---
 
 # Create a budget for pay-as-you-go billing in Microsoft 365

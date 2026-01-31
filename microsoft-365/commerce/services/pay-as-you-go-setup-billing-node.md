@@ -9,10 +9,14 @@ ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
 ms.subservice: m365-commerce-payasyougo
 search.appverid: MET150
+ms.collection:
+- scotvorg
+- M365-subscription-management
+- Adm_o365
 ms.custom: 
 ms.localizationpriority:  medium
 description: "Learn how to set up or disconnect billing for pay-as-you-go services for Microsoft 365 Copilot and Microsoft 365 Backup in the Billing node of the Microsoft 365 admin center. Configure billing policies, connect services, and manage your pay-as-you-go costs effectively."
-ms.date: 11/25/2025
+ms.date: 01/30/2026
 ---
 
 # Set up or disconnect pay-as-you-go in the Billing node of the Microsoft 365 admin center

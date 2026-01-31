@@ -10,10 +10,13 @@ ms.service: microsoft-365-business
 ms.subservice: m365-commerce-payasyougo
 search.appverid: MET150
 ms.collection: 
+- scotvorg
+- M365-subscription-management
+- Adm_o365
 ms.custom: 
 ms.localizationpriority:  medium
 description: "Learn about Microsoft 365 pay-as-you-go services that offer flexible, scalable billing and cost control for your organization."
-ms.date: 07/18/2025
+ms.date: 01/30/2026
 ---
 
 # Microsoft 365 pay-as-you-go services - Overview and benefits
