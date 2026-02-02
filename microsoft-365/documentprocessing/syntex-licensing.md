@@ -33,7 +33,7 @@ Microsoft 365 offers flexible, scalable document processing services through a p
 
 - **Organization-wide access**: Any user in your tenant can use the services, provided they have a Microsoft 365 license.
 
-- **Azure-based billing**: Use your active Azure subscription for billing. Learn more about [setting up billing](/microsoft-365/services/pay-as-you-go-setup) and the [terms of service](/legal/microsoft-365/microsoft-syntex-pay-as-you-go-terms).
+- **Azure-based billing**: Use your active Azure subscription for billing. Learn more about [setting up billing](/microsoft-365/commerce/services/pay-as-you-go-setup) and the [terms of service](/legal/microsoft-365/microsoft-syntex-pay-as-you-go-terms).
 
 ## Document processing services
 

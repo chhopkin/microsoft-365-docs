@@ -32,6 +32,28 @@ items:
           href: subscriptions/manage-self-service-purchases-admins.md
         - name: View scheduled changes
           href: subscriptions/view-scheduled-changes.md
+    - name: Manage pay-as-you-go services
+      items:
+        - name: Pay-as-you-go services overview
+          href: services/pay-as-you-go-overview.md 
+        - name: Available pay-as-you-go services
+          href: services/pay-as-you-go-services.md
+        - name: What's new for pay-as-you-go services
+          href: services/pay-as-you-go-whats-new.md
+        - name: Set up billing for pay-as-you-go services
+          items:
+            - name: Set up services in the Billing node
+              href: services/pay-as-you-go-setup-billing-node.md
+            - name: Set up services in the Copilot node 
+              href: services/pay-as-you-go-setup-copilot.md
+            - name: Set up services in the Settings node
+              href: services/pay-as-you-go-setup.md
+        - name: Create a budget for pay-as-you-go services
+          href: services/pay-as-you-go-budget.md
+        - name: Troubleshooting
+          items:
+            - name: Fix the RequestDisallowedByPolicy error
+              href: services/error-request-disallowed-by-policy.md
     - name: Manage licenses
       items:
         - name: Buy or remove subscription licenses
