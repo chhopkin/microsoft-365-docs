@@ -27,7 +27,7 @@ End-users who encounter archived files can reactivate the file by navigating to 
 ![Reactivate_file](media/archive-end-user/reactivate-file.png)
 
 > [!NOTE]
->For some Microsoft 365 applications there isn't a clear indicator that a file has been archived. Navigating to the underlying SharePoint site or OneDrive account is the most reliable way to validate a file's archive status and reactivate the file if needed.
+> For some Microsoft 365 applications there isn't a clear indicator that a file is archive. Navigating to the underlying SharePoint site or OneDrive account is the most reliable way to validate a file's archive status and reactivate the file if needed.
 
 #### Site archive experience
 
@@ -52,4 +52,4 @@ Set-SPOTenant -ArchiveRedirectUrl ""
 > [!NOTE]
 >For a multi-geo tenant, the URL needs to be set for each geo location.
 
-The **Request to reactivate** button won't be visible if a redirect URL hasn't been set.
+The **Request to reactivate** button won't be visible if a redirect URL is not set.
