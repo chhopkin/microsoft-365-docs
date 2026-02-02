@@ -771,7 +771,7 @@ Updates released between December 10, 2025, and December 23, 2025.
   This increases the upload size limit in Agent Builder to 512 MB, enabling use of larger files as grounding data.
 
   **Why:**
-  Users requested more flexibility for grounding agents. Larger files improve reduce the need to split or compress documents.
+  Users requested more flexibility for grounding agents. Larger files reduce the need to split or compress documents.
 
   **Try This:**
   - Drag and drop large documents such as training manuals into your agent project.

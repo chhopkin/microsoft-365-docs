@@ -46,6 +46,7 @@ To fix this error, update the policy assignment to include the resource types yo
 7. Select **Save** to apply the changes.
 8. Try creating the resource again.
 
+<!-->
 ### Need visual help?
 
 Check out the following screenshots for each step in the Azure portal to guide you through the process.
@@ -57,3 +58,4 @@ Check out the following screenshots for each step in the Azure portal to guide y
 :::image type="content" source="../../media/services/azure-allowed-resource-types.png" alt-text="Screenshot of the Allowed resource types configuration page in Azure portal.":::
 
 :::image type="content" source="../../media/services/azure-assign-policy-full-page.png" alt-text="Screenshot of the Assign Policy page showing specific policy assignment details in Azure portal.":::
+-->
