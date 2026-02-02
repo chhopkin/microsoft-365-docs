@@ -10,6 +10,7 @@ ms.author:   aliczhang # Microsoft alias
 ms.service: microsoft-365-admin
 ms.topic: faq
 ms.date:     02/02/2026
+manager: dihsu
 ---
 
 # Chat Notes in Microsoft Teams
