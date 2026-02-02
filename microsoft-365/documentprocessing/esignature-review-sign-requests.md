@@ -43,11 +43,7 @@ Once you accept the eSignature terms and conditions, the document viewer opens i
 
 ![Screenshot of the document to be signed showing the Start button.](../media/content-understanding/esignature-start-signing-dark.png)
 
-There are three different types of input you can be asked for:
-
-- [Signature](#signature)
-- [Initials](#initials)
-- [Date](#date)
+There are different types of input you can be asked for: Signature, Initials, Date and a text input to collect information such as Title and Department. 
 
 ### Signature
 
