@@ -30,7 +30,7 @@ Chat Notes are built on SharePoint Embedded and stored using tenant-owned Micros
 
 ### Turning Off Chat Notes
 
-Chat Notes are turned on by default for each tenant. Chat Notes can be disabled in the [Teams admin center](https://admin.teams.microsoft.com/) by clicking on Messaging in the left navigation and navigating to Messaging Settings. In Messaging Settings, find the "Notes" section and toggle Messaging Notes to "Off". Chat Notes can also be disabled using PowerShell through the [`-MessagingNotes`](/powershell/module/microsoftteams/set-csteamsmessagingconfiguration?view=teams-ps) [property](/powershell/module/microsoftteams/set-csteamsmessagingconfiguration?view=teams-ps) in the [`Set-CsTeamsMessagingConfiguration` command](/powershell/module/microsoftteams/set-csteamsmessagingconfiguration?view=teams-ps). Chat Notes can only be enabled or disabled for all team members. Chat Notes cannot be turned on for only a subset of users.
+Chat Notes are turned on by default for each tenant. Chat Notes can be disabled in the [Teams admin center](https://admin.teams.microsoft.com/) by clicking on Messaging in the left navigation and navigating to Messaging Settings. In Messaging Settings, find the "Notes" section and toggle Messaging Notes to "Off". Chat Notes can also be disabled using PowerShell through the `-MessagingNotes` [property](/powershell/module/microsoftteams/set-csteamsmessagingconfiguration) in the `Set-CsTeamsMessagingConfiguration` [command](/powershell/module/microsoftteams/set-csteamsmessagingconfiguration). Chat Notes can only be enabled or disabled for all team members. Chat Notes cannot be turned on for only a subset of users.
 
 ### Setting Retention Policies
 
