@@ -264,7 +264,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **What changed:** You can generate a PowerPoint presentation grounded on the content of a Copilot page, enabling rapid presentation creation based on existing information.
 
-    **Why:** Teams often need to transform the content on a Page to slide format. Grounded generation speeds up this process and keeps slides aligned with the source.
+    **Why:** Teams often needs to transform the content on a Page to slide format. Grounded generation speeds up this process and keeps slides aligned with the source.
 
     **Try this:**
 
@@ -555,7 +555,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 
   **Why This Matters:**
 
-  **Business Impact:** Teams work faster when Copilot agents bring context from across Microsoft 365 into one place. By reducing time spent searching through emails, chats and transcripts, organizations improve decision accuracy, accelerate workflows, and keep projects moving without delays.
+  **Business Impact:** Teams works faster when Copilot agents bring context from across Microsoft 365 into one place. By reducing time spent searching through emails, chats and transcripts, organizations improve decision accuracy, accelerate workflows, and keep projects moving without delays.
 
   **Personal Impact:** Users no longer need to juggle multiple tools to gather context. Copilot agents can consolidate multiple knowledge capabilities in one place, saving time and reducing cognitive load throughout the workday.
 
@@ -1046,7 +1046,7 @@ Users often waste time viewing multiple documents to find the right information.
 
   **Why this matters:** 
 
-  **Business Impact:** Teams make decisions faster with quick access to context-rich summaries, improving productivity. 
+  **Business Impact:** Teams makes decisions faster with quick access to context-rich summaries, improving productivity. 
 
   **Personal Impact:** Get key information immediately, letting you focus on delivering results instead of hunting for data.
 ### Microsoft 365 Copilot extensibility
@@ -1431,7 +1431,7 @@ Updates released between November 12, 2025, and November 25, 2025.
   
   **What changed:** Support for custom engine agents is now available on the Microsoft 365 mobile experience (iOS and Android). You can access the same business-specific workflows and logic you have on desktop, ensuring uninterrupted productivity. 
   
-  ****Why:**** Teams need consistent, personalized Copilot functionality no matter where they work. Bringing extensibility to mobile ensures employees stay productive and connected—even when away from their primary workstation. 
+  ****Why:**** Teams needs consistent, personalized Copilot functionality no matter where they work. Bringing extensibility to mobile ensures employees stay productive and connected—even when away from their primary workstation. 
   
   **Try this:**
 
@@ -2920,7 +2920,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 - **Catch up on Task related emails through Microsoft 365 Copilot Chat.** [Windows]
 
-  Users can use Microsoft 365 Copilot Chat to prioritize emails that require immediate attention, address urgent tasks, or contain action items or questions. Timely identification of such emails help users complete these tasks efficiently or plan their work effectively.
+  Users can use Microsoft 365 Copilot Chat to prioritize emails that require immediate attention, address urgent tasks, or contain action items or questions. Timely identification of such emails helps users complete these tasks efficiently or plan their work effectively.
 
 - **Find any past Copilot conversation instantly** [Web]
 
@@ -5459,7 +5459,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 
   **Why This Matters:**
 
-  **Business Impact:** Teams work faster when Copilot agents bring context from across Microsoft 365 into one place. By reducing time spent searching through emails, chats and transcripts, organizations improve decision accuracy, accelerate workflows, and keep projects moving without delays.
+  **Business Impact:** Teams works faster when Copilot agents bring context from across Microsoft 365 into one place. By reducing time spent searching through emails, chats and transcripts, organizations improve decision accuracy, accelerate workflows, and keep projects moving without delays.
 
   **Personal Impact:** Users no longer need to juggle multiple tools to gather context. Copilot agents can consolidate multiple knowledge capabilities in one place, saving time and reducing cognitive load throughout the workday.
 
@@ -6400,7 +6400,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 ### Microsoft 365 Copilot Chat
 - **Catch up on Task related emails through Microsoft 365 Copilot Chat.** [Windows]
 
-  Users can use Microsoft 365 Copilot Chat to prioritize emails that require immediate attention, address urgent tasks, or contain action items or questions. Timely identification of such emails help users complete these tasks efficiently or plan their work effectively.
+  Users can use Microsoft 365 Copilot Chat to prioritize emails that require immediate attention, address urgent tasks, or contain action items or questions. Timely identification of such emails helps users complete these tasks efficiently or plan their work effectively.
 - **Locate your Copilot Pages in Copilot Chat navigation pane** [Windows, Web]
 
   For quick access to your Copilot Pages, find all page artifacts created across your apps/modules in one place underneath the Chat section in the Microsoft 365 Copilot app.
@@ -11715,7 +11715,7 @@ Voice   removes friction, letting you work where typing isn't practical.
   
   **What changed:** Support for custom engine agents is now available on the Microsoft 365 mobile experience (iOS and Android). You can access the same business-specific workflows and logic you have on desktop, ensuring uninterrupted productivity. 
   
-  ****Why:**** Teams need consistent, personalized Copilot functionality no matter where they work. Bringing extensibility to mobile ensures employees stay productive and connected—even when away from their primary workstation. 
+  ****Why:**** Teams needs consistent, personalized Copilot functionality no matter where they work. Bringing extensibility to mobile ensures employees stay productive and connected—even when away from their primary workstation. 
   
   **Try this:**
 
@@ -12467,7 +12467,7 @@ Voice   removes friction, letting you work where typing isn't practical.
   
   **What changed:** Support for custom engine agents is now available on the Microsoft 365 mobile experience (iOS and Android). You can access the same business-specific workflows and logic you have on desktop, ensuring uninterrupted productivity. 
   
-  ****Why:**** Teams need consistent, personalized Copilot functionality no matter where they work. Bringing extensibility to mobile ensures employees stay productive and connected—even when away from their primary workstation. 
+  ****Why:**** Teams needs consistent, personalized Copilot functionality no matter where they work. Bringing extensibility to mobile ensures employees stay productive and connected—even when away from their primary workstation. 
   
   **Try this:**
 
@@ -14476,6 +14476,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
