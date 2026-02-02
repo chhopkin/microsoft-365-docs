@@ -65,4 +65,4 @@ The following table provides a breakdown of the EWS Usage per SOAP action by eac
 |Call Volume    |The number of SOAP action calls in the given period |
 |Last Activity date (UTC) |The last date of activity recorded for that app and SOAP action |
 
-You can also export the report data into an Excel .csv file, by selecting the **Export** link.
+You can also export the report data into an Excel .csv file, by selecting the **Export** link. For a list of Microsoft first-party client application IDs, see [Commonly used Microsoft first-party services and portal apps](/power-platform/admin/apps-to-allow).
