@@ -36,7 +36,8 @@ The Microsoft 365 Copilot pay-as-you-go plan offers a flexible and scalable solu
 The following services are available for pay-as-you-go billing:
 
 - Microsoft 365 Copilot Chat
-- SharePoint agents
+- [SharePoint agents](/sharepoint/get-started-sharepoint-agents)
+- [Copilot Retrieval API](/microsoft-365-copilot/extensibility/api/ai-services/retrieval/overview)
 
 ### Common use cases
 
