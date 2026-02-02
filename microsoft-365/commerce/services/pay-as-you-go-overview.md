@@ -42,7 +42,7 @@ For information about pricing for pay-as-you-go services, see the following arti
 
 ## Start using pay-as-you-go services
 
-For information about how to start using pay-as-you-go services, see the following aritcles:
+For information about how to start using pay-as-you-go services, see the following articles:
 
 - [Get started with agents in SharePoint](/sharepoint/get-started-sharepoint-agents)
 - [Try out pay-as-you-go services for document processing](../../documentprocessing/promo-syntex.md)
