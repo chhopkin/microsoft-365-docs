@@ -37,7 +37,7 @@ The following services are available for pay-as-you-go billing:
 
 - Microsoft 365 Copilot Chat
 - [SharePoint agents](/sharepoint/get-started-sharepoint-agents)
-- [Microsoft Copilot Retrieval API (Preview)](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/api/ai-services/retrieval/overview)
+- [Microsoft Copilot Retrieval API (Preview)](/microsoft-365-copilot/extensibility/api/ai-services/retrieval/overview)
 
 ### Common use cases
 
