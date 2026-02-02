@@ -14,6 +14,8 @@ ms.date:     02/02/2026
 
 # Chat Notes in Microsoft Teams
 
+### What are Chat Notes?
+
 Chat Notes are flexible canvases that can be created within 1:1 chats and group chats in Microsoft Teams. Chat Notes are built on Microsoft Loop, which allows them to have a similar look, feel, and feature set as Loop Pages. However, there are a couple of key usage differences.
 
 1. Chat Notes are stored within a tenant-owned SharePoint Embedded container rather than a particular user's space. This means that even if users leave the team, Chat Notes will not be deleted.
@@ -24,11 +26,11 @@ Chat Notes are flexible canvases that can be created within 1:1 chats and group 
 
 ### Chat Notes Storage
 
-Chat Notes are built on SharePoint Embedded and stored using tenant-owned Microsoft 365 File Storage Containers, or Containers for short. SharePoint Embedded is an API-only file and document management system. For more about SharePoint Embedded, see [Overview of SharePoint Embedded](/sharepoint/dev/embedded/overview). Your tenant's first Chat Note will create a new Container identified with the Container name prefix "IC3_TeamsContainerType_". Each additional Chat Note uses an existing Container if that Container has available space, or creates a new Container if it does not. Containers are dedicated to Chat Notes and do not store other kinds of data.
+Chat Notes are built on SharePoint Embedded and stored using tenant-owned Microsoft 365 File Storage Containers, or Containers for short. SharePoint Embedded is an API-only file and document management system. For more about SharePoint Embedded, see [Overview of SharePoint Embedded](/sharepoint/dev/embedded/overview). Your tenant's first Chat Note will create a new Container identified with the Container name prefix `IC3_TeamsContainerType_`. Each additional Chat Note uses an existing Container if that Container has available space, or creates a new Container if it does not. Containers are dedicated to Chat Notes and do not store other kinds of data.
 
 ### Turning Off Chat Notes
 
-Chat Notes are turned on by default for each tenant. Chat Notes can be disabled in the [Teams admin center](https://admin.teams.microsoft.com/) by clicking on Messaging in the left navigation and navigating to Messaging Settings. In Messaging Settings, find the "Notes" section and toggle Messaging Notes to "Off". Chat Notes can also be disabled using PowerShell through the [-MessagingNotes](/powershell/module/microsoftteams/set-csteamsmessagingconfiguration?view=teams-ps) property in the [Set-CsTeamsMessagingConfiguration command](/powershell/module/microsoftteams/set-csteamsmessagingconfiguration?view=teams-ps). Chat Notes can only be enabled or disabled for all team members. Chat Notes cannot be turned on for only a subset of users.
+Chat Notes are turned on by default for each tenant. Chat Notes can be disabled in the [Teams admin center](https://admin.teams.microsoft.com/) by clicking on Messaging in the left navigation and navigating to Messaging Settings. In Messaging Settings, find the "Notes" section and toggle Messaging Notes to "Off". Chat Notes can also be disabled using PowerShell through the [`-MessagingNotes`](/powershell/module/microsoftteams/set-csteamsmessagingconfiguration?view=teams-ps) [property](/powershell/module/microsoftteams/set-csteamsmessagingconfiguration?view=teams-ps) in the [`Set-CsTeamsMessagingConfiguration` command](/powershell/module/microsoftteams/set-csteamsmessagingconfiguration?view=teams-ps). Chat Notes can only be enabled or disabled for all team members. Chat Notes cannot be turned on for only a subset of users.
 
 ### Setting Retention Policies
 
@@ -36,11 +38,11 @@ Retention policies on Chat Notes are managed in the Purview Data lifecycle manag
 
 ### Chat Notes Container URLs
 
-In certain Purview tools, such as eDiscovery or Retention policies, you may need Chat Notes Container URLs. Chat Notes Container URLs can be located in SharePoint Admin Center. In SharePoint Admin Center, navigate to "Activate containers" in the left navigation. Chat Notes containers begin with the "IC3_TeamsContainerType_" prefix.
+In certain Purview tools, such as eDiscovery or Retention policies, you may need Chat Notes Container URLs. Chat Notes Container URLs can be located in SharePoint Admin Center. In SharePoint Admin Center, navigate to "Activate containers" in the left navigation. Chat Notes containers begin with the `IC3_TeamsContainerType_` prefix.
 
 ### eDiscovery through Purview
 
-Admins can perform eDiscovery searches on all SharePoint Embedded content using the "All Sharepoint Sites" workload. Admins can also specify specific Chat Notes containers using Chat Notes Container URLs, which begin with "IC3_TeamsContainerType_".
+Admins can perform eDiscovery searches on all SharePoint Embedded content using the "All Sharepoint Sites" workload. Admins can also specify specific Chat Notes containers using Chat Notes Container URLs, which begin with `IC3_TeamsContainerType_`
 
 ### Are Admins able to use Share Point Embedded APIs to directly manage Chat Notes containers?
 
@@ -54,5 +56,7 @@ Chat Notes can be accessed by chat members only. Chat Notes cannot be shared out
 
 Users can only delete the content of Chat Notes. The note itself cannot be deleted by users. However, once all users in a chat leave that chat, the Chat Note is deleted since the chat can no longer be accessed.
 
-What happens to a Chat Note when the creator
+### What happens to a Chat Note when the creator of that Chat Note is deactivated?
+
+Since Chat Notes are stored in tenant-owned Microsoft 365 File Storage Containers rather than a specific user's space, the Chat Note will still exist even if the original creator's account is deactivated. The Chat Note remains in the chat as long as there are still members in the chat. Once the last member leaves the chat, the Chat Note is deleted and cannot be recovered by the user.
 
