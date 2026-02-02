@@ -86,9 +86,10 @@ The sections below outline governance, lifecycle, and compliance capabilities ap
   > Unlike OneDrive, for the Loop My workspace, there's no user workflow for content stored in the user-owned SharePoint Embedded container after user departure. The container is deleted on the same schedule as the default OneDrive settings. See [Storage management after user departure](loop-storage.md) for detailed information.
 
 - **[Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo)** capabilities for My workspace are supported.
+  - Loop content created in OneDrive and SharePoint follow the multi-geo capabilities of OneDrive and SharePoint. For more information on where content is created, refer to the [storage](loop-storage.md) article.
   - My workspace is a user-owned SharePoint Embedded container and is created in the geo that matches the user's [preferred data location](/microsoft-365/enterprise/plan-for-multi-geo#best-practices).
-  - Loop content created in OneDrive and SharePoint follow the multi-geo capabilities of OneDrive and SharePoint.
-  - Multi-Geo support for shared Loop workspaces use the [same mechanism as SharePoint Communication sites](/microsoft-365/enterprise/m365-dr-workload-spo#move-a-sharepoint-site-or-sharepoint-embedded-container-site), including rehome and creation in the tenant's default geo. Manage shared Loop workspace locations like other collaborative artifacts such as SharePoint Communication sites.
+  - Shared Loop workspaces are also created in the geo that matches the user's preferred data location or the group's preferred data location if the workspace was created from within a Teams channel.
+  - Use the [same mechanism as SharePoint Communication sites](/microsoft-365/enterprise/m365-dr-workload-spo#move-a-sharepoint-site-or-sharepoint-embedded-container-site) to rehome a workspace to a new geo. Manage shared Loop workspace locations like other collaborative artifacts such as SharePoint Communication sites.
 
   > [!IMPORTANT]
   > Certain operations in Loop workspaces may not function correctly after moving containers across geos, such as sharing or creating new pages. Microsoft is aware of the issue and is working on a fix.
