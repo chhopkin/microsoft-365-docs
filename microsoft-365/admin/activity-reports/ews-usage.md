@@ -38,7 +38,7 @@ To review the applications using EWS within your organization, examine the **Usa
 
 :::image type="content" source="../../media/exchange-web-usage-report.png" alt-text="Screenshot of the Exchange Web Services (EWS) report." lightbox="../../media/exchange-web-usage-report.png":::
 
-You can filter the EWS Usage report by the last 7, 30, 90, or 180 days.
+You can filter the EWS Usage report by the last 7, 30, 90 days.
 
 > [!NOTE]
 > Usage data is collected and aggregated weekly, not daily.
@@ -65,4 +65,4 @@ The following table provides a breakdown of the EWS Usage per SOAP action by eac
 |Call Volume    |The number of SOAP action calls in the given period |
 |Last Activity date (UTC) |The last date of activity recorded for that app and SOAP action |
 
-You can also export the report data into an Excel .csv file, by selecting the **Export** link.
+You can also export the report data into an Excel .csv file, by selecting the **Export** link. For a list of Microsoft first-party client application IDs, see [Commonly used Microsoft first-party services and portal apps](/power-platform/admin/apps-to-allow).

@@ -3,12 +3,12 @@ title: "Step 2. Provide remote access to on-premises apps and services"
 f1.keywords:
 - NOCSH
 author: brendacarter
-ms.author: bcarter
+ms.author: dansimp
 manager: dansimp
 ms.date: 05/01/2020
 audience: ITPro
 ms.topic: how-to
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: high
 ms.collection:
 - highpri
@@ -17,7 +17,7 @@ ms.collection:
 - remotework
 - m365solution-remotework
 - m365solution-scenario
-ms.custom:
+ms.custom: m365-solutions-doc-set
 description: Ensure that your remote workers can access on-premises resources while optimizing access to Microsoft 365 cloud services.
 ---
 
@@ -123,7 +123,6 @@ After deployment of a remote access solution for your remote workers:
 | No remote access VPN solution and you need access to on-premises apps, some of which are not web-based | You have configured Azure P2S VPN. |
 | Remote workers are using their personal devices from home | You have configured Windows 365. |
 | Remote workers are using RDS connections to on-premises systems | You have deployed a Remote Desktop Services gateway in your edge network. |
-|||
 
 ## Next step
 

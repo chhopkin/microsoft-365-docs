@@ -4,7 +4,7 @@ f1.keywords:
 - MACBillingBillingAccountsOverview
 author: cmcatee-MSFT
 ms.author: cmcatee
-manager: dansimp
+manager: scotv
 ms.reviewer: jkinma, ramagane
 audience: Admin
 ms.topic: how-to
@@ -16,7 +16,6 @@ ms.collection:
 - scotvorg
 - M365-subscription-management
 - Adm_O365
-- operations-pod
 ms.custom:
 - commerce_billing
 - AdminSurgePortfolio
@@ -24,6 +23,7 @@ ms.custom:
 - admindeeplinkMAC
 - GAUpdates
 - campaignIDs-batch2
+service.tree.id: 95459a4b-434c-4f83-879b-aa5f509fc7fa
 search.appverid: MET150
 description: "Learn about Microsoft business billing accounts and how they're used to manage account settings, invoices, payment methods, and purchases."
 ms.date: 09/15/2025

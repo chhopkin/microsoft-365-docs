@@ -1,6 +1,6 @@
 ---
 title: "Cmdlet references for Microsoft 365 services"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 06/27/2024

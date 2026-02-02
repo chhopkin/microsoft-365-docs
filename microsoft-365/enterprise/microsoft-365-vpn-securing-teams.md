@@ -1,6 +1,6 @@
 ---
 title: "Securing Teams media traffic for VPN split tunneling"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 10/03/2024

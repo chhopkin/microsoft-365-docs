@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: kwekua
 author: kwekuako
-manager: dansimp
+manager: scotv
 ms.date: 10/01/2024
 audience: Admin
 ms.topic: article
@@ -61,7 +61,7 @@ Make sure you spell the group name correctly.
 
 ## Actions
 
-You can search for Actions category, which contains frequently used actions in M365 Admin Center. Think of actions as verb in the system. For example, you can also search "reset password" from any page and then reset one or more passwords for users. You can search for “delete a user” and delete the user from the Delete user page.
+You can search for Actions category, which contains frequently used actions in Microsoft 365 Admin Center. Think of actions as verb in the system. For example, you can also search "reset password" from any page and then reset one or more passwords for users. You can search for “delete a user” and delete the user from the Delete user page.
 
 :::image type="content" source="../../media/search-for-actions-mac.png" alt-text="Screenshot: Search results showing actions you can perform in the admin center":::
 

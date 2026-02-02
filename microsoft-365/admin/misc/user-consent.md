@@ -2,8 +2,8 @@
 title: "Managing user consent to apps in Microsoft 365"
 f1.keywords:
 - CSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 04/02/2025
 audience: Admin

@@ -3,9 +3,9 @@ title: Prepare to deploy the Employee Self-Service agent
 f1.keywords: NOCSH
 ms.author: heidip
 author: MicrosoftHeidi
-manager: scotv
+manager: dansimp
 ms.reviewer: semani
-ms.date: 09/29/2025
+ms.date: 11/12/2025
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -19,21 +19,18 @@ appliesto:
 
 # Prepare to deploy the Employee Self-Service agent
 
-> [!NOTE]
-> The Employee Self-Service agent is currently in preview. Deployment processes are subject to change before this product becomes generally available.
-
-Preparation is the first step to deploying the Employee Self-Service (ESS) agent. You need to meet the [prerequisites](prerequisites.md). The following roles are required to prepare the agent for deployment.
+Preparation is the first step to deploying the Employee Self-Service agent. You need to meet the [prerequisites](prerequisites.md). The following roles are required to prepare the agent for deployment.
 
 |Role                                           |Activities to perform |Configuration areas |
 |-----------------------------------------------|----------------------|--------------------|
 |Global admin                                   |Assign the Power Platform Administrator role. |Microsoft admin center |
 |Power Platform Administrator                   |Assign the Environment Maker role. |Power Platform admin center |
-|Environment Maker                              |Create environments required for customizing and testing the ESS agent. |Power Platform admin center and Microsoft Copilot Studio |
+|Environment Maker                              |Create environments required for customizing and testing the Employee Self-Service agent. |Power Platform admin center and Microsoft Copilot Studio |
 |InfoSec/IT Infrastructure/Change control board |Configure infrastructure requirements for external systems integration. |Network firewall policies and single sign-on |
 
-## Power Platform environment strategy for ESS
+## Power Platform environment strategy for the Employee Self-Service agent
 
-ESS Agents are tailored to each vertical, such as HR or IT, and each agent comes with its own unique set of topics and connectors. While it may be necessary to use separate Power Platform environments for better governance, if you want to link these vertical-specific agents to a single, central agent, we advise you keep all the vertical agents within one Power Platform environment.
+The Employee Self-Service agent starters are tailored to each vertical, such as HR or IT, and each starter comes with its own unique set of topics and connectors. While it may be necessary to use separate Power Platform environments for better governance, if you want to link these vertical-specific agent starters to a single, central agent, we advise you to keep all the vertical agent starters within one Power Platform environment.
 
 ## Assign the Power Platform administrator role
 
@@ -57,18 +54,24 @@ ESS Agents are tailored to each vertical, such as HR or IT, and each agent comes
 > Environment Makers can't install new agents. Only the environment administrators can install new agents.
 
 > [!IMPORTANT]
-> Important: Familiarize yourself with the Power Platform subscription plans and billing policies for your tenant. We recommend you perform initial [capacity planning](prerequisites.md#capacity-planning) before enabling and configuring the ESS agent to make sure you don't incur additional billing.
+> Important: Familiarize yourself with the Power Platform subscription plans and billing policies for your tenant. We recommend you perform initial [capacity planning](prerequisites.md#capacity-planning) before enabling and configuring the Employee Self-Service agent to make sure you don't incur additional billing.
 
 > [!CAUTION]
 > Environments created with the Dataverse Database have the **System Administrator** role. This role has full permission to customize or administer the environment, including creating, modifying, and assigning security roles. This role can view all data in the environment. This built-in role can't be modified.
+
+## Allow the external systems connector within Power Platform
+
+Most enterprise organizations have Data Loss Prevention (DLP) policies setup for maintaining security and compliance within their Power Platform ecosystem. The connectors that need to be used with the Employee Self-Service agent must be allowed within Power Platform for the connector to be available for customization.
+
+Work with your enterprise information security and/or Power Platform administrators to allowlist the connectors to be used with the Employee Self-Service agent.
 
 ## Infrastructure setup for external systems integration
 
 Most organizations secure their third-party HR systems and knowledge sources from external networks to protect sensitive information about employees, organizations, knowledge assets, and other data.
 
-You need to make these systems accessible to the Power Platform environment where the ESS agent is hosted in order to integrate them into the agent.
+You need to make these systems accessible to the Power Platform environment where the Employee Self-Service agent is hosted in order to integrate them into the agent.
 
-These systems must be configured with allowlists for the source IP addresses from the Power Platform environment where the ESS agent is hosted and executed.
+These systems must be configured with allowlists for the source IP addresses from the Power Platform environment where the Employee Self-Service agent is hosted and executed.
 
 [Learn about Power Platform URLs and IP address ranges](/power-platform/admin/online-requirements).
 

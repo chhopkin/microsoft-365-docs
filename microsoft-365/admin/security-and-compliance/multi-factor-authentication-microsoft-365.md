@@ -2,13 +2,13 @@
 title: "Multifactor authentication for Microsoft 365"
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: vpattnaik
+author: vpattnai
 manager: dansimp
 ms.date: 10/10/2025
 audience: Admin
 ms.topic: article
-ms.service: microsoft-365-business
+ms.service: microsoft-365-security
 ms.localizationpriority: medium
 ms.collection: 
 - Tier1

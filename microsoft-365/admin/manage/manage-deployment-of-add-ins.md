@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: kwekua
 author: kwekuako
-manager: dansimp
+manager: scotv
 ms.date: 08/26/2025
 audience: Admin
 ms.topic: install-set-up-deploy
@@ -68,18 +68,18 @@ Before you begin, see [Determine if centralized deployment of add-ins works for 
    :::image type="content" source="../../media/Deployaddin.png" alt-text="Deploy New Add-in" lightbox="../../media/Deployaddin.png":::
 
 1. Select **Next** on the **Deploy a new add-in** wizard.
-1. Select an option and follow the instructions. ("Office Store" refers to AppSource.)
+1. Select an option and follow the instructions. ("Office Store" refers to Microsoft Marketplace.)
 
    :::image type="content" source="../../media/chooseofficestore.png" alt-text="Deploy Add-in location" lightbox="../../media/chooseofficestore.png":::
   
-1. If you selected the option to add an add-in from the AppSource store, make your add-in selection.
+1. If you selected the option to add an add-in from Microsoft Marketplace, make your add-in selection.
 
    You can view available add-ins by categories: **Suggested for you**, **Rating**, or **Name**. After you select an add-in, accept the terms and conditions to proceed. <br/>
 
    :::image type="content" source="../../media/addanaddin.png" alt-text="Select Add-in" lightbox="../../media/addanaddin.png":::
 
    > [!NOTE]
-   > With the AppSource (store) option, updates and enhancements are automatically deployed to users.
+   > With the Microsoft Marketplace (store) option, updates and enhancements are automatically deployed to users.
 
 1. If you chose to upload a custom add-in, carry out the following steps.
 
@@ -140,7 +140,7 @@ Office Add-ins combine a manifest file that contains some metadata about the add
 
 For more information about the types and capabilities of Office Add-ins, see [Office Add-ins platform overview](/office/dev/add-ins/overview/office-add-ins), especially the section "Anatomy of an Office Add-in."
   
-To interact with the user's document, the add-in needs to declare what permission it needs in the manifest. A five-level JavaScript API access-permissions model provides the basis for privacy and security for users of task pane add-ins. The majority of the add-ins in AppSource are level **read/write document** with almost all add-ins supporting at least the **read document** level. For more information about the permission levels, see [Requesting permissions for API use in content and task pane add-ins](/office/dev/add-ins/develop/requesting-permissions-for-api-use-in-content-and-task-pane-add-ins).
+To interact with the user's document, the add-in needs to declare what permission it needs in the manifest. A five-level JavaScript API access-permissions model provides the basis for privacy and security for users of task pane add-ins. The majority of the add-ins in Microsoft Marketplace are level **read/write document** with almost all add-ins supporting at least the **read document** level. For more information about the permission levels, see [Requesting permissions for API use in content and task pane add-ins](/office/dev/add-ins/develop/requesting-permissions-for-api-use-in-content-and-task-pane-add-ins).
   
 When a manifest is updated, the typical changes are to an add-in's icon and text. Occasionally, add-in commands change. However, the permissions of the add-in don't change. The web application where all the code and logic for the add-in runs can change at any time, which is the nature of web applications.
   
@@ -151,7 +151,7 @@ Updates for add-ins happen as follows:
   > [!NOTE]
   > To deploy the update, select the LOB add-in and choose the **Update Button** in the bottom right corner.
 
-- **AppSource add-in**: When an admin selected an add-in from AppSource and then the developer updated the manifest in AppSource, the admin doesn't have to take any action. The next time a user starts the relevant Microsoft 365 productivity application, the add-in will update.
+- **Microsoft Marketplace add-in**: When an admin selected an add-in from Microsoft Marketplace and then the developer updated the manifest in Microsoft Marketplace, the admin doesn't have to take any action. The next time a user starts the relevant Microsoft 365 productivity application, the add-in will update.
   
 ## Related content
 

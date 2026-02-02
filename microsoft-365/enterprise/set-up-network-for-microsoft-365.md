@@ -1,6 +1,6 @@
 ---
 title: "Set up your network for Microsoft 365"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 09/23/2025

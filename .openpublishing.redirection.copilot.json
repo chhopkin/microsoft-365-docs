@@ -19,6 +19,11 @@
          "source_path": "copilot/copilot-tuning-responsible-ai-faq.md",
          "redirect_url": "/copilot/responsible-ai/copilot-tuning-responsible-ai-faq",
          "redirect_document_id": false
+      },
+      {
+         "source_path": "copilot/microsoft-365/microsoft-365-early-access-program.yml",
+         "redirect_url": "/copilot//microsoft-365/",
+         "redirect_document_id": false
       }
    ]
 }

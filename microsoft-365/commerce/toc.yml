@@ -74,6 +74,8 @@ items:
           href: licenses/online-service-activation-open-programs.md
         - name: Volume licensing invoices
           href: licenses/volume-licensing-invoices.md
+        - name: Initiate a Change of Channel Partner request
+          href: licenses/change-of-vl-partner-request.md
         - name: Contact volume licensing support
           href: licenses/contact-vl-support.md
     - name: Bills and payments

@@ -2,8 +2,8 @@
 title: "Automatic Service Health Incident Creation"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 04/28/2025
 audience: Admin
@@ -30,7 +30,7 @@ description: "A feature that creates new ServiceNow incidents when a Microsoft S
 
 The Microsoft 365 support integration app enables you to create ServiceNow incidents when a Microsoft Service Health Incident is published for your tenant. To use this feature, you must use version 2.1.0 or later. This feature helps IT teams by automatically creating incidents in ServiceNow when Microsoft publishes new service health incidents.
 
-:::image type="content" source="../../media/servicenowincident1.png" alt-text="image of m365 servicehealth dashboard":::
+:::image type="content" source="../../media/servicenowincident1.png" alt-text="image of Microsoft 365 servicehealth dashboard":::
 
 > [!NOTE]
 > This article was partially generated using Azure OpenAI Service. Before publishing, an author reviewed and revised the content as needed. See [Our principles for using AI-generated content in Microsoft Learn](https://aka.ms/ai-content-principles).

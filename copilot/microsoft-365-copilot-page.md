@@ -8,7 +8,7 @@ author: kwekuako
 ms.author: kwekua
 manager: scotv
 ms.reviewer: elvaf
-ms.date: 10/20/2025
+ms.date: 11/18/2025
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: how-to
@@ -30,8 +30,6 @@ When Microsoft 365 Copilot is available in a tenant, you can configure some Copi
 The following video is an overview of managing Microsoft 365 Copilot for your organization. It's 1 minute and 45 seconds long.
 
 > [!VIDEO 4ad48e80-9329-41fd-8d63-0b443281ec92]
-manage, ccs, agents, billing, settings
-
 Then watch the following video to see the different Microsoft 365 Copilot settings and configuration options in the Microsoft 365 admin center. It's 2 minutes and 39 seconds long.
 
 > [!VIDEO 28be8725-2d69-4d93-a07d-8324c5083c46]
@@ -212,13 +210,13 @@ For more information, see the following articles:
 
 ✅ Shortcut to Microsoft Security Copilot
 
-In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Copilot** > **Settings** > **User access** > **Microsoft Security Copilot**.
+Go to [Security Copilot](https://securitycopilot.microsoft.com/) and sign in. Then select **Get started**.
 
 This option is a direct shortcut to the Security Copilot portal. You don't configure this scenario in the Microsoft 365 admin center.
 
-Security Copilot is a separate product and license from Microsoft 365 Copilot. If it's available in your tenant, you can use this link to go to Security Copilot.
+In the coming months, Security Copilot will be included in Microsoft 365 E5. With Security Copilot, it's easier than ever to make agentic AI a part of your daily workflows.
 
-For more information, see [Microsoft Security Copilot](/copilot/security).
+[Learn about Security Copilot inclusion in Microsoft 365 E5 subscription](/copilot/security/security-copilot-inclusion).
 
 ### Pin Microsoft 365 Copilot app to the Windows taskbar
 
@@ -267,9 +265,9 @@ For more information, see [Manage Microsoft 365 Copilot agents in the Microsoft 
 
 In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Copilot** > **Settings** > **Data access** > **AI providers for other large language models**.
 
-This setting allows users to use other large language models (LLM) in Copilot Chat and Copilot Studio. For example, they can use Claude models by Anthropic within your Microsoft products. Anthropic hosts these models outside of Microsoft.
+This setting allows users to use other large language models (LLM) in Copilot Chat and Copilot Studio. For example, they can use Claude models by Anthropic within your Microsoft products.
 
-For more information, see [Connect to AI models](connect-to-ai-models.md).
+For more information, see [Connect to AI models](connect-to-ai-subprocessor.md).
 
 ### Copilot in Power Platform and Dynamics 365
 

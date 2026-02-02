@@ -2,8 +2,8 @@
 title: "Select the domain to use for email from Microsoft 365 products"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 03/04/2024
 audience: Admin

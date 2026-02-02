@@ -4,7 +4,7 @@ f1.keywords:
 ms.author: lauragra
 author: lauragra
 manager: calvind
-ms.date: 06/17/2025
+ms.date: 10/27/2025
 ms.update-cycle: 180-days
 ms.topic: troubleshooting
 ms.service: microsoft-365-copilot
@@ -32,11 +32,11 @@ Sometimes, service queues might experience delays that affect document processin
 
 ## I'm seeing an error during the data extraction process
 
-If an error occurs during knowledge source extraction, click the **Models** link on the left navigation pane to view the list of files in your model. Check the status in the right column to identify errors in copying SharePoint data into Heron.
+If an error occurs during knowledge source extraction, choose the **Models** link on the left navigation pane to view the list of files in your model. Check the status in the right column to identify errors in copying SharePoint data into Heron.
 
 ## The Excel file is empty, and I can't label any data
 
-Verify whether you are configuring the knowledge sources correctly and uploading a clean Excel file again. If the problem persists, contact the team for assistance.
+Verify whether you're configuring the knowledge sources correctly and uploading a clean Excel file again. If the problem persists, contact the team for assistance.
 
 ## The evaluation report for the model is negative
 

@@ -21,7 +21,7 @@ description: Learn how to troubleshoot issues with sending, receiving, or viewin
 
 ## Unable to create a request
 
-If you can't create a signature request, ensure you have edit rights to the folder containing the document and that the PDF is under 10 MB. If the document is stored in a private group, the signers must be members of the private group to receive the request. You can also check the PDF viewer settings, the collaboration settings, or the access policies. Refer to [Admin setup](esignature-setup.md) to ensure the correct settings are done. Also, check that the PDF you're attempting to sign isn't already electronically signed using eSignature or any other electronic signature provider.
+If you can't create a signature request, ensure you have edit and sharing rights to the folder containing the document and that the PDF is under 10 MB. If the site sharing settings are restricted to site owners, this will prevent members from creating requests. If the document is stored in a private group, ensure the requestor has sharing permissions. You can also check the PDF viewer settings, the collaboration settings, or the access policies. Refer to [Admin setup](esignature-setup.md) to ensure the correct settings are done.
 
 > [!NOTE]
 > New electronic signature requests can't be started from documents that were previously signed. You need to choose another document to create the request.
@@ -85,12 +85,13 @@ To avoid potential issues, you should check the status and settings of the docum
 
 #### I don't have the eSignature ribbon action in Word
 
-- The ribbon action is available for Word Desktop on the Beta and Current channels.
+- The ribbon action is available for Word Desktop on the Beta, Current, and Monthly Enterprise Channels.
+
 - To change your channel, in Word, go to **File** > **Account** > **Update Channel**.
 
     ![Screenshot showing the Update Channel button in Word.](../media/content-understanding/esignature-word-update-channel.png)
 
-- Select the **Beta** or **Current** channel.
+- Select the **Beta** or **Current** or **Monthly Enterprise Channel**.
 - If you don't have the **Update Channel** option, your admin has disabled it, or you don't have local administrator permissions. Learn more about the [Update Channel option](/microsoft-365-apps/insider/deploy/user-choice).
 
 #### When I select the ribbon action in Word, I receive a message that eSignature isn't enabled
@@ -106,7 +107,7 @@ To avoid potential issues, you should check the status and settings of the docum
 
 #### I can't send a request in Word to new external signers
 
-- Your admin hasn't configured eSignature to send requests to external senders who aren't existing guests on your tenant. 
+- Your admin hasn't configured eSignature on a site that supports sending requests to external senders (who aren't existing guests on your tenant). 
 
 #### As an admin, I don't have a toggle to disable requesting signatures from PDFs
 

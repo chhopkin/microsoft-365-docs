@@ -8,13 +8,14 @@ ms.author: odocspr
 manager: jtremper
 audience: Admin
 ms.topic: article
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: medium
 ms.collection:
 - highpri
 - M365-subscription-management
 - Adm_O365
 - m365solution-collabgovernance
+ms.custom: m365-solutions-doc-set
 search.appverid:
 - MET150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552

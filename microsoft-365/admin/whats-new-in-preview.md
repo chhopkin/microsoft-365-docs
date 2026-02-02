@@ -4,8 +4,8 @@ f1.keywords:
 - CSH
 ms.author: kwekua
 author: kwekuako
-manager: dansimp
-ms.date: 03/04/2025
+manager: scotv
+ms.date: 11/16/2025
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-business
@@ -54,6 +54,19 @@ And if you'd like to know what's new with other Microsoft cloud services, check 
 
 > [!IMPORTANT]
 > Use roles with the fewest permissions. Lower permissioned accounts help improve security for your organization. Global Administrator is a highly privileged role. Limit its use to emergency scenarios when you cannot use an existing role. For more information, see [About admin roles in the Microsoft 365 admin center](add-users/about-admin-roles.md).
+
+## November 2025
+
+- The **Engineering direct** portal is now renamed to **[Enhanced Engagements](/microsoft-365/enterprise/microsoft-365-admin-overview-enhanced-engagements)**.
+
+- Inside **Engagements** there are four new options:
+
+    - Service requests is now Engineering escalations
+    - Business Process Awareness (BPAs)
+    - Customer Advisory Board (CAB)
+    - Incident Analysis
+
+- (Preview) **History** tab is now renamed to **[Design change requests (DCR)](/microsoft-365/enterprise/microsoft-365-admin-design-change-requests)**.
 
 ## June 2025
 

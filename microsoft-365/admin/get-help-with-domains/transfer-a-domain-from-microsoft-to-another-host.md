@@ -2,8 +2,8 @@
 title: "Transfer a domain from Microsoft to another host"
 f1.keywords:
 - NOCSH
-ms.author: kwekua
-author: kwekuako
+ms.author: dansimp
+author: dansimp
 manager: dansimp
 ms.date: 03/18/2025
 audience: Admin

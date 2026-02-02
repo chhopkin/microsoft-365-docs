@@ -6,15 +6,14 @@ ms.author: kwekua
 ms.collection: operations-pod
 manager: scotv
 ms.service: microsoft-365-copilot
-ms.topic: article
-ms.date: 05/29/2025
+ms.topic: how-to
+ms.date: 10/21/2025
 ---
 
 # Set up People Skills
 
 This section walks you through setting up People Skills for the first time in your organization. After initial setup is complete, admins can edit their skill library or share settings using the steps in the [Manage your skills library](people-skills-manage-skills-library.md) page.
  
-
 ## Admin roles required for setup
 
 The following roles have permission to set up People Skills:
@@ -32,7 +31,7 @@ Most organizations can quickly set up skills using our out-of-the-box People Ski
 
    :::image type="content" source="media/people-skills-inferencing/quick-setup-with-out-of-the-box-library.png" alt-text="Screenshot displaying the People Skills in Microsoft 365 Copilot option in the Copilot page." lightbox="media/people-skills-inferencing/quick-setup-with-out-of-the-box-library.png":::
 
-2. Select **Being quick setup**.
+2. Select **Begin quick setup**.
 
 3. Choose the skills you want to use from the out-of-the-box library. 
    > [!TIP]
@@ -54,7 +53,7 @@ You can change the settings confirmed during this setup [by Managing your skills
 
 Organizations can build their own custom skills library with a combination of skills from the out-of-the-box skills library and by importing your own custom skills.
 
-1. Got to the Copilot page in the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **People Skills in Microsoft 365 Copilot**. Alternatively, you can find People Skills page under **Settings** > **Viva** > **Data Management**.
+1. Go to the Copilot page in the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home#/featureexplorer) and select **People Skills in Microsoft 365 Copilot**. Alternatively, you can find People Skills page under **Settings** > **Viva** > **Data Management**.
 
 2. Under **Custom Setup**, select **Begin custom setup**. 
    :::image type="content" source="media/people-skills-inferencing/custom-setup-selection.png" alt-text="Screenshot of the People Skills in organization page that displays selection of custom setup." lightbox="media/people-skills-inferencing/custom-setup-selection.png":::

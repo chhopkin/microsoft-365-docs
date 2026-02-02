@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: kwekua
 author: kwekuako
-manager: dansimp
+manager: scotv
 ms.date: 10/01/2024
 audience: Admin
 ms.topic: how-to
@@ -159,7 +159,7 @@ Azure portal supports a similar inactivity feature, but is tracked in the Azure 
 
 ### I'm using Microsoft Fabric, how does Idle Session Timeout impact long-running Fabric Notebook executions?
 
-If you are using a non-managed device where Idle Session Timeout is enabled, long-running interactive Fabric Notebook executions may be affected if a user goes inactive beyond the set tenant-wide session timeout policy. This is a pro-active measure to ensure idle devices are not accessible by outside parties. To mitigate, we advise users to not go inactive within M365 web apps while long-running executions are running. 
+If you are using a non-managed device where Idle Session Timeout is enabled, long-running interactive Fabric Notebook executions may be affected if a user goes inactive beyond the set tenant-wide session timeout policy. This is a pro-active measure to ensure idle devices are not accessible by outside parties. To mitigate, we advise users to not go inactive within Microsoft 365 web apps while long-running executions are running. 
 
 ### I want to make changes to the idle session timeout policy or delete it. How can I do that?
 

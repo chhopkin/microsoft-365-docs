@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: 07/16/2021
 audience: ITPro
 ms.topic: solution-overview
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: high
 ms.collection:
 - highpri
@@ -17,7 +17,9 @@ ms.collection:
 - ransomware
 - m365solution-ransomware
 - m365solution-overview
-ms.custom: seo-marvel-jun2020
+ms.custom:
+- seo-marvel-jun2020
+- m365-solutions-doc-set
 keywords: ransomware, human-operated ransomware, human operated ransomware, HumOR, extortion attack, ransomware attack, encryption, cryptovirology, zero trust
 description: Step through protecting your Microsoft 365 resources from ransomware attacks.
 ---

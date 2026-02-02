@@ -12,12 +12,12 @@ items:
     items:
     - name: Overview
       href: flw-deploy-overview.md
-    - name: Start with a pilot deployment
-      href: flw-pilot.md
     - name: Set up and manage frontline devices
       items:
       - name: Frontline device management overview
         href: flw-devices.md
+      - name: Set up frontline Teams on personal devices
+        href: flw-setup-frontline-personal-devices.md
       - name: Manage shared devices
         href: flw-shared-devices.md
       - name: Limit access to Teams when workers are off shift
@@ -30,7 +30,11 @@ items:
       items: 
       - name: Set up Microsoft 365 and related services
         href: flw-setup-microsoft-365.md
-      - name: Choosing between dynamic and static frontline teams
+      - name: Set up Frontline Agent
+        href: setupfrontlineagent.md
+      - name: Start a pilot for your frontline workers
+        href: startafrontlinepilot.md
+      - name: Choosing between flexible and static frontline teams
         href: frontline-team-options.md
       - name: Deploy frontline teams with flexible membership
         href: deploy-flexible-membership-teams-at-scale.md

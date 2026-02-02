@@ -8,12 +8,13 @@ ms.author: odocspr
 manager: jtremper
 audience: Admin
 ms.topic: solution-overview
-ms.service: o365-solutions
+ms.service: m365-planning
 ms.localizationpriority: medium
 ms.custom:
   - has-azure-ad-ps-ref
   - azure-ad-ref-level-one-done
   - admindeeplinkMAC
+  - m365-solutions-doc-set
 ms.collection: 
 - highpri
 - M365-subscription-management
