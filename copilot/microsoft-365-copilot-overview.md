@@ -49,7 +49,7 @@ This article is for IT admins. It describes the different components that Micros
 
 ## Differences between Microsoft 365 Copilot and Copilot Chat
 
-Microsoft 365 Copilot is grounded in your organizational data as well as the web. It requires an [add-on license](/copilot/microsoft-365/microsoft-365-copilot-licensing). Microsoft 365 Copilot Chat is grounded on the web and allows users to provide it with organizational data. It doesn't require an additional license. [Learn more about Copilot Chat]( https://learn.microsoft.com/en-us/copilot/overview). Get more details on the [differences between Microsoft 365 Copilot and Copilot Chat]( https://learn.microsoft.com/en-us/copilot/overview#differences-between-copilot-chat-and-microsoft-365-).
+Microsoft 365 Copilot is grounded in your organizational data as well as the web. It requires an [add-on license](/copilot/microsoft-365/microsoft-365-copilot-licensing). Microsoft 365 Copilot Chat is grounded on the web and allows users to provide it with organizational data. It doesn't require an additional license. [Learn more about Copilot Chat](/copilot/overview). Get more details on the [differences between Microsoft 365 Copilot and Copilot Chat](/copilot/overview#differences-between-copilot-chat-and-microsoft-365-).
 
 > [!VIDEO 6ba0f4d6-fffc-479a-9698-a90e6e57e80f]
 
