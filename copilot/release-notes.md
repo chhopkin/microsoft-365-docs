@@ -7832,7 +7832,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **What changed:** You can generate a PowerPoint presentation grounded on the content of a Copilot page, enabling rapid presentation creation based on existing information.
 
-    **Why:** Teams often need to transform the content on a Page to slide format. Grounded generation speeds up this process and keeps slides aligned with the source.
+    **Why:** Teams often needs to transform the content on a Page to slide format. Grounded generation speeds up this process and keeps slides aligned with the source.
 
     **Try this:**
 
@@ -8122,7 +8122,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 
   **Why This Matters:**
 
-  **Business Impact:** Teams work faster when Copilot agents bring context from across Microsoft 365 into one place. By reducing time spent searching through emails, chats and transcripts, organizations improve decision accuracy, accelerate workflows, and keep projects moving without delays.
+  **Business Impact:** Teams works faster when Copilot agents bring context from across Microsoft 365 into one place. By reducing time spent searching through emails, chats and transcripts, organizations improve decision accuracy, accelerate workflows, and keep projects moving without delays.
 
   **Personal Impact:** Users no longer need to juggle multiple tools to gather context. Copilot agents can consolidate multiple knowledge capabilities in one place, saving time and reducing cognitive load throughout the workday.
 
@@ -14476,6 +14476,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
