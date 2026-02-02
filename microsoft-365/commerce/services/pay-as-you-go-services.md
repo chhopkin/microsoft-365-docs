@@ -28,7 +28,7 @@ Microsoft 365 offers a flexible pay-as-you-go model that you can use to access p
 
 - **SharePoint agents.** AI-powered SharePoint agents help users interact with SharePoint sites and document libraries. They can answer questions, summarize content, and perform tasks based on user permissions. By using pay-as-you-go billing, organizations can enable these features without purchasing full Copilot licenses.
 
-To learn more about business plans for Microsoft 365 Copilot, including features and pricing, see [Microsoft 365 Copilot Plans and Pricing&mdash;AI for Business](https://www.microsoft.com/microsoft-365-copilot/pricing).For Enterprise plans and pricing, see [Microsoft 365 Copilot Plans and Pricing&mdash;AI for Enterprise](https://www.microsoft.com/microsoft-365-copilot/pricing/enterprise).
+To learn more about business plans for Microsoft 365 Copilot, including features and pricing, see [Microsoft 365 Copilot Plans and Pricing&mdash;AI for Business](https://www.microsoft.com/microsoft-365-copilot/pricing). For Enterprise plans and pricing, see [Microsoft 365 Copilot Plans and Pricing&mdash;AI for Enterprise](https://www.microsoft.com/microsoft-365-copilot/pricing/enterprise).
 
 ## Document processing
 
