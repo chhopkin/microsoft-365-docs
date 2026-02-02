@@ -49,7 +49,7 @@ This article is for IT admins. It describes the different components that Micros
 
 ## Differences between Microsoft 365 Copilot and Copilot Chat
 
-Using Microsoft 365 Copilot requires an [add-on license](/copilot/microsoft-365/microsoft-365-copilot-licensing). To learn more about Microsoft 365 Copilot Chat, which doesn't require an additional license, [see this overview](/copilot/overview). Get more details on the [differences between Microsoft 365 Copilot and Copilot Chat]( https://learn.microsoft.com/en-us/copilot/overview#differences-between-copilot-chat-and-microsoft-365-).
+Using Microsoft 365 Copilot requires an [add-on license](/copilot/microsoft-365/microsoft-365-copilot-licensing). To learn more about Microsoft 365 Copilot Chat, which doesn't require an additional license, [see this overview](/copilot/overview). Get more details on the [differences between Microsoft 365 Copilot and Copilot Chat](/copilot/overview#differences-between-copilot-chat-and-microsoft-365-).
 
 > [!VIDEO 6ba0f4d6-fffc-479a-9698-a90e6e57e80f]
 
