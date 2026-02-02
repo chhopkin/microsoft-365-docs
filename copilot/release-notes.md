@@ -183,7 +183,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Details:**
 
-    What changed: Previously, identities from third party systems were not linked to the corresponding Microsoft identity, leading to poor response quality esp with people related queries. Copilot now correlates identities across supported connectors, leading to more relevant and personalised responses. 
+    What changed: Previously, identities from third party systems were not linked to the corresponding Microsoft identity, leading to poor response quality esp with people related queries. Copilot now correlates identities across supported connectors, leading to more relevant and personalized responses. 
 
     **Why:** This ensures responses better reflect user context across systems.
 
@@ -1467,7 +1467,7 @@ Updates released between November 12, 2025, and November 25, 2025.
     **Try this:**
 
 
-  -  Start typing an agent name in the search bar to see type ahead suggestions instantly.  
+  -  Start typing an agent name in the search bar to see type-ahead suggestions instantly.  
     
   -  Use the new full results page for a complete view of matching agents.  
 
@@ -5293,7 +5293,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Details:**
 
-    What changed: Previously, identities from third party systems were not linked to the corresponding Microsoft identity, leading to poor response quality esp with people related queries. Copilot now correlates identities across supported connectors, leading to more relevant and personalised responses. 
+    What changed: Previously, identities from third party systems were not linked to the corresponding Microsoft identity, leading to poor response quality esp with people related queries. Copilot now correlates identities across supported connectors, leading to more relevant and personalized responses. 
 
     **Why:** This ensures responses better reflect user context across systems.
 
@@ -5492,7 +5492,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
   
   **Personal impact:** Makes everyday document tasks quicker and easier.
 
-  **Additonal resources** 
+  **Additional resources** 
 
   **Learn:**  
 [Add capabilities](/microsoft-365-copilot/extensibility/agent-builder-build-agents#add-capabilities)
@@ -5833,7 +5833,7 @@ Voice   removes friction, letting you work where typing isn't practical.
     **Try this:**
 
 
-  -  Start typing an agent name in the search bar to see type ahead suggestions instantly.  
+  -  Start typing an agent name in the search bar to see type-ahead suggestions instantly.  
   -  Use the new full results page for a complete view of matching agents.  
 
   **Why this matters:**  
@@ -7750,7 +7750,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Details:**
 
-    What changed: Previously, identities from third party systems were not linked to the corresponding Microsoft identity, leading to poor response quality esp with people related queries. Copilot now correlates identities across supported connectors, leading to more relevant and personalised responses. 
+    What changed: Previously, identities from third party systems were not linked to the corresponding Microsoft identity, leading to poor response quality esp with people related queries. Copilot now correlates identities across supported connectors, leading to more relevant and personalized responses. 
 
     **Why:** This ensures responses better reflect user context across systems.
 
@@ -8100,7 +8100,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 
   **Personal Impact:** Minimizes context switching and increases document creation efficiency
 
-  **Additonal resources** 
+  **Additional resources** 
 
   **Learn:**  
   [Google Drive Microsoft 365 Copilot connector overview](/microsoftsearch/google-drive-overview)
@@ -8155,7 +8155,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
   
   **Personal impact:** Makes everyday document tasks quicker and easier.
 
-  **Additonal resources** 
+  **Additional resources** 
 
   **Learn:**  
 [Add capabilities](/microsoft-365-copilot/extensibility/agent-builder-build-agents#add-capabilities)
@@ -14476,6 +14476,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
