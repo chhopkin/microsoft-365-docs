@@ -35,7 +35,7 @@ Chat Notes are turned on by default for each tenant. Chat Notes can be disabled 
 
 ### Setting Retention Policies
 
-Retention policies on Chat Notes are managed in the Purview Data lifecycle management tool. Chat Notes are included in "SharePoint classic and communication sites", so no additional configuration is needed to target Chat Notes with the same retention policy as other SharePoint content. To target Chat Notes with a different policy, you can use the "include" or "exclude" settings and search for your Chat Note Container's URL.
+Retention policies on Chat Notes are managed in the Purview Data lifecycle management tool. Chat Notes are included in "SharePoint classic and communication sites", so no additional configuration is needed to target Chat Notes with the same retention policy as other SharePoint content. To target Chat Notes with a different policy, you can use the "include" or "exclude" settings to scope your search to your Chat Note Container's URL.
 
 ### Chat Notes Container URLs
 
@@ -43,7 +43,7 @@ In certain Purview tools, such as eDiscovery or Retention policies, you may need
 
 ### eDiscovery through Purview
 
-Admins can perform eDiscovery searches on all SharePoint Embedded content using the "All Sharepoint Sites" workload. Admins can also specify specific Chat Notes containers using Chat Notes Container URLs, which begin with `IC3_TeamsContainerType_`
+Admins can perform eDiscovery searches on all SharePoint Embedded content using the "All Sharepoint Sites" workload. Admins can also specify specific Chat Notes containers using Chat Notes Container URLs. eDiscovery admins can perform eDiscovery Hold and Export on Chat Notes content.
 
 ### Are Admins able to use Share Point Embedded APIs to directly manage Chat Notes containers?
 
