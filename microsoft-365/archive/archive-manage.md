@@ -60,7 +60,7 @@ Sites associated with Teams that include private or shared channels are only par
 
 - PowerShell and Graph API: Archiving a site with channel sites is not blocked. Only the main site associated to the Team (and its standard channels) is archived. The private and shared channel sites remain active. Archiving the channel sites directly is not possible, as these sites use unsupported site templates.
 
-## Manage file-level archive
+## Manage file-level archive (preview)
 
 When Microsoft 365 Archive is enabled, file-level archiving is enabled by default for all SharePoint sites.  [SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator) can choose whether to deploy file-level archiving by disabling it if desired.  Admins can choose to allow file-level archiving for all SharePoint sites, a subset of SharePoint sites, or not at all. When enabled for a site, end-users with edit permissions are able to archive files. 
 
@@ -87,11 +87,23 @@ Set-SPOSite -Identity <site_url> -AllowFileArchive $true
 Set-SPOTenant -AllowFileArchiveForNewSitesByDefault $true 
 ```
 
+Admins can also utilize PowerShell to view usage of file-level archive.  [SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator) can see how much total storage is consumed by file-level archiving for a given site.  The '*ArchivedFileDiskUsed*' property of Get-SPOSite indicates the storage consumed by all archived files on that site in bytes. 
+
+```PowerShell
+Get-SPOSite -Identity <site_url>
+```
+
 ## Manage archived sites
 
 Archived sites can be reactivated or deleted. Deletion of archived sites follows the same behavior as that of active sites; that is, a site doesn't need to be reactivated before being deleted. However, sites in the "Reactivating" state can't be deleted until reactivation completes.
 
 Admins can view details of the site, such as the URL, Archive Status, or Storage, from the **Archived sites** page.
+
+## Reactivate a file (preview)
+
+When a user needs to regain access to an archived file, they can easily reactivate it in the web version of SharePoint or OneDrive, depending on where the file is hosted.  Any user with read access to an archived file is able to reactivate it.
+
+There is no fee for reactivating an archived file.
 
 ## Reactivate a site
 
