@@ -62,6 +62,10 @@ It's recommended that you run the Baseline security mode settings in this way:
 
 This section outlines the options available to block insecure authentication methods in the Microsoft 365 admin center.
 
+> [!IMPORTANT]
+> Customers who accessed Baseline Security Mode in Microsoft 365 between November 2025 and early February 2026 may see two draft Microsoft Entra ID Conditional Access policies created in their tenant in a "Disabled" state. These policies are associated with Baseline Security Mode and may appear as created by the administrator who signed in to the Microsoft Baseline Security Mode page.
+This behavior does not represent a security incident and has no impact on tenant security. The policies are in a disabled draft state. A fix is in progress to ensure policies are created only through explicit administrator action. Microsoft will remove any unintentionally created policy drafts and will notify customers in advance. 
+
 |Setting|More information|
 |---|---|
 |Protect admin access to Microsoft admin portals with phishing resistant authentication|Accounts that are assigned privileged administrative roles are frequent targets of attackers. Requiring phishing-resistant multifactor authentication (MFA) on those accounts is an easy way to reduce the risk of those accounts being compromised.<br/><br/> For more information, see [Require phishing-resistant multifactor authentication for administrators](/entra/identity/conditional-access/policy-admin-phish-resistant-mfa) <br/><br/> You must be a member of the [Security administrator](/entra/identity/role-based-access-control/permissions-reference) or the [Conditional access administrator](/entra/identity/role-based-access-control/permissions-reference) roles to perform this task.|
