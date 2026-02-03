@@ -20,7 +20,7 @@ description: Learn how to archive, reactivate, and manage sites in Microsoft 365
 
 ## Archive a file (preview)
 
-On sites with file-level archive enabled, users can manually archive files for which they have write permissions.  Users can select one or more files and choose the '*Archive*' action.   As soon as the file is archived, it will require reactivation before it can be read. Files which were recently archived can be reactivated instantly. 
+On sites with file-level archive enabled, users can manually archive files for which they have edit permissions.  Users can select one or more files and choose the '*Archive*' action.   As soon as the file is archived, it will require reactivation before it can be read. Files which were recently archived can be reactivated instantly. 
 
 To learn more about different archive states, see [Archive states in Microsoft 365 Archive](archive-states.md).
 
@@ -62,9 +62,11 @@ Sites associated with Teams that include private or shared channels are only par
 
 ## Manage file-level archive
 
-When Microsoft 365 Archive is enabled, file-level archiving is enabled by default for all SharePoint sites.  [SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator) can choose whether to deploy file-level archiving.  
+When Microsoft 365 Archive is enabled, file-level archiving is enabled by default for all SharePoint sites.  [SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator) can choose whether to deploy file-level archiving by disabling it if desired.  Admins can choose to allow file-level archiving for all SharePoint sites, a subset of SharePoint sites, or not at all. When enabled for a site, end-users with edit permissions are able to archive files. 
 
 [!INCLUDE [global-administrator-note](../includes/global-administrator-note.md)]
+
+To reduce the scope of which sites can use file-level archive, admins have 3 tools at their disposal via PowerShell. 
 
 ## Manage archived sites
 
