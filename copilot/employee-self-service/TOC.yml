@@ -15,6 +15,8 @@ items:
       href: install.md
     - name: Customization
       items:
+        - name: Make agent multilingual
+          href: employee-self-service-multilingual.md
         - name: Customize Employee Self-Service agent
           href: customize.md
         - name: Craft agent instructions

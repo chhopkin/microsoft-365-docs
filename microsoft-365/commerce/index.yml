@@ -107,6 +107,32 @@ landingContent:
             url: https://www.youtube.com/watch?v=IgXxC1H1XU0
 
   # Card
+  - title: Manage pay-as-you-go services
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Set up pay-as-you-go billing in Settings node
+            url: services/pay-as-you-go-setup.md
+          - text: Set up pay-as-you-go billing in Billing node
+            url: services/pay-as-you-go-setup-billing-node.md
+          - text: Set up a pay-as-you-go budget
+            url: services/pay-as-you-go-budget.md
+          - text: Start using pay-as-you-go services
+            url: services/pay-as-you-go-overview.md#start-using-pay-as-you-go-services
+      - linkListType: overview
+        links:
+          - text: What are pay-as-you-go services?
+            url: services/pay-as-you-go-overview.md
+          - text: Available pay-as-you-go services
+            url: services/pay-as-you-go-services.md
+          - text: Pay-as-you-go pricing
+            url: services/pay-as-you-go-overview.md#pricing-details-for-pay-as-you-go-services
+      - linkListType: whats-new
+        links:
+          - text: Available new pay-as-you-go services
+            url: services/pay-as-you-go-whats-new.md
+
+  # Card
   - title: Manage volume licensing
     linkLists:
       - linkListType: how-to-guide
