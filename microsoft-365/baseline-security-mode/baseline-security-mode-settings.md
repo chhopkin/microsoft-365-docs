@@ -45,7 +45,7 @@ For more information, see [Microsoft Entra built-in roles](/entra/identity/role-
 
 ## Baseline security mode settings recommendation
 
-Baseline security mode settings provides flexibility and control, allowing you to manage each setting independently. You can also experiment by disabling a setting for a defined period (such as a few days) to assess dependencies.
+Baseline security mode settings provide flexibility and control, allowing you to manage each setting independently. You can also experiment by disabling a setting for a defined period (such as a few days) to assess dependencies.
 
 It's recommended that you run the Baseline security mode settings in this way:
 
