@@ -68,11 +68,24 @@ When Microsoft 365 Archive is enabled, file-level archiving is enabled by defaul
 
 To reduce the scope of which sites can use file-level archive, admins have 3 tools at their disposal via PowerShell.
 
-**Tenant-level opt-out**. Tenants who wish to only utilize Site archive can opt-out entirely by disabling file-level archive for their tenant.  This property will override any site-level property with the same name.  This property is controlled via the _**-AllowFileArchive**_ flag of the _**Set-SPOTenant**_ cmdlet.  This flag was introduced into SPO admin PowerShell starting in version 16.0.26714.12000. By default, this property is set to True, meaning that the tenant can archive files. When set to False, no new files can be archived by users, but existing archived files can be reactivated.
+1. **Tenant-level opt-out**. To only utilize Site archive, opt-out of file-level archive entirely by disabling file-level archive for their tenant.  This property will override the site-level property with the same name. This property is controlled via the _**-AllowFileArchive**_ flag of the _**Set-SPOTenant**_ cmdlet.  This flag was introduced into SPO admin PowerShell starting in version 16.0.26714.12000. By default, this property is set to True, meaning that the tenant can archive files. When set to False, no new files can be archived by users, but existing archived files can be reactivated. 
+```PowerShell
+Set-SPOTenant -AllowFileArchive $true 
+```
 
-**Site-level opt-out**. To control which sites have file-level archive enabled, tenants can opt-out specific sites from being able to archive new files.  This property is controlled via the _**-AllowFileArchive**_ flag of the _**Set-SPOSite**_ cmdlet. This flag was introduced into SPO admin PowerShell starting in version 16.0.26211.12000. By default, this property is set to True, meaning that the site can archive files. When set to False, no new files can be archived by users on this site, but existing archived files can be reactivated.
 
-**Defaults for new sites**. To control the value of the _**-AllowFileArchive**_ flag for sites created in the future, tenants can utilize a new flag on the _**Set-SPOTenant**_ cmdlet called _**-AllowFileArchiveForNewSitesByDefault**_ .  By default, this property is set to True, meaning that new sites will be able to archive files by default. This property’s value will be copied to future created sites, dictating whether those sites allow file archive.
+1. **Site-level opt-out**. To control which sites have file-level archive enabled, opt-out specific sites from being able to archive new files.  This property is controlled via the _**-AllowFileArchive**_ flag of the _**Set-SPOSite**_ cmdlet. This flag was introduced into SPO admin PowerShell starting in version 16.0.26211.12000. By default, this property is set to True, meaning that the site can archive files. When set to False, no new files can be archived by users on this site, but existing archived files can be reactivated.
+
+```PowerShell
+Set-SPOSite -Identity <site_url> -AllowFileArchive $true 
+```
+
+
+3. **Defaults for new sites**. To control the value of the _**-AllowFileArchive**_ flag for sites created in the future, tenants can utilize a new flag on the _**Set-SPOTenant**_ cmdlet called _**-AllowFileArchiveForNewSitesByDefault**_ .  By default, this property is set to True, meaning that new sites will be able to archive files by default. This property’s value will be copied to future created sites, dictating whether those sites allow file archive.
+
+```PowerShell
+Set-SPOTenant -AllowFileArchiveForNewSitesByDefault $true 
+```
 
 ## Manage archived sites
 
