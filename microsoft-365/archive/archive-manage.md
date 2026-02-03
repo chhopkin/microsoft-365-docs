@@ -18,6 +18,12 @@ description: Learn how to archive, reactivate, and manage sites in Microsoft 365
 
 # Manage Microsoft 365 Archive
 
+## Archive a file (preview)
+
+On sites with file-level archive enabled, users can manually archive files for which they have write permissions.  Users can select one or more files and choose the '*Archive*' action.   As soon as the file is archived, it will require reactivation before it can be read. Files which were recently archived can be reactivated instantly. 
+
+To learn more about different archive states, see [Archive states in Microsoft 365 Archive](archive-states.md).
+
 ## Archive a site
 
 [SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator) can archive both nongroup connected sites and group-connected sites from the SharePoint admin center. Archiving group-connected sites archive only the site, and the rest of the group continues being active. As soon as a site is archived, it stops consuming storage from active storage quota, and the storage starts being counted towards Microsoft 365 Archive storage. (There might be a delay in the change in storage being reflected in the admin center.)
@@ -53,6 +59,12 @@ Sites associated with Teams that include private or shared channels are only par
 - SharePoint admin center: Archiving a site with channel sites is not possible. (Message: "The group connected site with channel sites associated can't be archived.")
 
 - PowerShell and Graph API: Archiving a site with channel sites is not blocked. Only the main site associated to the Team (and its standard channels) is archived. The private and shared channel sites remain active. Archiving the channel sites directly is not possible, as these sites use unsupported site templates.
+
+## Manage file-level archive
+
+When Microsoft 365 Archive is enabled, file-level archiving is enabled by default for all SharePoint sites.  [SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator) can choose whether to deploy file-level archiving.  
+
+[!INCLUDE [global-administrator-note](../includes/global-administrator-note.md)]
 
 ## Manage archived sites
 
