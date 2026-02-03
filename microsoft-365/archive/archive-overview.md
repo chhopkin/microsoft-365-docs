@@ -18,7 +18,7 @@ description: Learn about how Microsoft 365 Archive can provide your organization
 
 # Overview of Microsoft 365 Archive
 
-Microsoft 365 Archive offers cost-effective storage for inactive SharePoint sites.
+Microsoft 365 Archive offers cost-effective storage for inactive SharePoint files and sites.
 
 Your organization might need to keep inactive or aging data for long periods of time in case you need to retrieve it later. You might prefer to store the data in SharePoint to simplify searchability, security, compliance, and data lifecycle management.
 
@@ -26,11 +26,13 @@ Microsoft 365 Archive allows you to retain this inactive data by moving it into 
 
 Some additional advantages of using Microsoft 365 Archive are:
 
-- **Speed** – Ultra-fast archive of sites of any size and any number of sites.
+- **Copilot optimization** - Copilot is not trained on archived content, maximizing response relevancy. 
 
 - **Cost savings** – A lower list price on storage consumption beyond your license-allocated Microsoft 365 storage quota.
 
 - **Lossless metadata** – A site retains all of its metadata and permissions upon reactivation.
+
+- **Speed** – Ultra-fast archive of sites of any size and any number of sites.
 
 - **Decluttering** – Explicit separation between active and inactive content to help you manage your site's lifecycle.
 
@@ -38,7 +40,7 @@ Microsoft 365 Archive, coupled with the Microsoft 365 search index and the [Micr
 
 [!INCLUDE [global-administrator-note](../includes/global-administrator-note.md)]
 
-When a site is archived, it goes into an explicitly colder tier, no longer consumes a tenant’s active storage quota, and instead drives Microsoft 365 Archive storage consumption. Being in this colder tier means the site is no longer accessible by anyone in the organization outside of Microsoft Purview or admin search.
+When a file or site is archived, it goes into an explicitly colder tier, no longer consumes a tenant’s active storage quota, and instead drives Microsoft 365 Archive storage consumption. Being in this colder tier means the content is no longer accessible by anyone in the organization outside of Microsoft Purview or admin search.
 
 Archiving a site archives everything within it, including:
 
@@ -52,8 +54,10 @@ Administrators should notify the site owners and end users before a site is arch
 - Publishing sites, channel sites, and a handful of legacy site template types are not available to archive with Microsoft 365 Archive. For more information, see [Site templates supported](./archive-manage.md#site-templates-supported).
 - While sites associated with Teams with exclusively standard channels are supported for archiving, sites associated with Teams that include private or shared channels are only partially supported:
     - SharePoint admin center: Archiving a site with channel sites is not possible. (Message: "The group connected site with channel sites associated can't be archived.")
-    - PowerShell and Graph API: Archiving a site with channel sites is not blocked.
-    Only the main site associated to the Team (and its standard channels) is archived. The private and shared channel sites remain active. Archiving the channel sites directly is not possible, as these sites use unsupported site templates.
+  - PowerShell and Graph API: Archiving a site with channel sites is not blocked.
+  Only the main site associated to the Team (and its standard channels) is archived. The private and shared channel sites remain active. Archiving the channel sites directly is not possible, as these sites use unsupported site templates.
+  
+- Certain file types cannot be archived, including OneNote, SharePoint pages, and SharePoint agents.
 
 ## Related articles
 
