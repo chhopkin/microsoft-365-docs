@@ -11,6 +11,7 @@ ms.service: microsoft-365-admin
 ms.topic: faq
 ms.date:     02/02/2026
 manager: dihsu
+ms.reviewer: dihsu
 ---
 
 # Chat Notes in Microsoft Teams
