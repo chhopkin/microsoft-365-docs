@@ -17,6 +17,9 @@ items:
       href: cpcn-loop-purview-management.md
 - name: Microsoft Loop
   items:
+    - name: Chat Notes in Microsoft Teams
+      href: chat-notes-in-microsoft-teams-for-admins.md
+      displayName: Chat Notes in Microsoft Teams
     - name: Summary compliance capabilities
       href: loop-compliance-summary.md
     - name: Requirements
