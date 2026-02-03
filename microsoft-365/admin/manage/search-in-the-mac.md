@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 10/01/2024
+ms.date: 02/02/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -48,6 +48,10 @@ If you select the three dots (more actions) menu next to their name, you can res
 
 - Make sure you spell the users' names correctly as user searches are matched exactly against the earlier mentioned properties. For example, in the above example, Jus or Malz will work but a misspelling, like, Jostin instead of Justin won't find this user.
 - To get an exact match, search by primary email address or username.
+
+## Copilot
+
+Search now includes Microsoft 365 Copilot admin settings. You can search for Copilot usage info and service management.
 
 ## Groups
 
