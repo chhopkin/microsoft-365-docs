@@ -34,7 +34,7 @@ Microsoft cloud-only accounts have a predefined password policy that can't be ch
 
 Microsoft's latest guidance discourages password expiration policies for cloud-only accounts. The recommended setting is for passwords to never expire.
 
-For more information on using Entra ID for help with passwords, see [Eliminate bad passwords using Microsoft Entra Password Protection](/entra/identity/authentication/concept-password-ban-bad)
+For more information on using Entra ID for help with passwords, see [Eliminate bad passwords using Microsoft Entra Password Protection.](/entra/identity/authentication/concept-password-ban-bad)
   
 ## Understanding password recommendations
 
