@@ -65,4 +65,4 @@ The following table provides a breakdown of the EWS Usage per SOAP action by eac
 |Call Volume    |The number of SOAP action calls in the given period |
 |Last Activity date (UTC) |The last date of activity recorded for that app and SOAP action |
 
-You can also export the report data into an Excel .csv file, by selecting the **Export** link. For a list of Microsoft first-party client application IDs, see [Commonly used Microsoft first-party services and portal apps](/power-platform/admin/apps-to-allow).
+You can also export the report data into an Excel .csv file, by selecting the **Export** link. For a list of Microsoft first-party client application IDs, see [Commonly used Microsoft first-party services and portal apps](/power-platform/admin/apps-to-allow). In case of Microsoft applications, Microsoft will update those periodically to remove EWS dependencies (please keep your client applications up to date). If you can still not find the Application ID, you should check your Enterprise Applications in Entra ID, please see [Quickstart: View enterprise applications](https://learn.microsoft.com/entra/identity/enterprise-apps/view-applications-portal).
