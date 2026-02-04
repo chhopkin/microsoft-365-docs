@@ -20,9 +20,13 @@ description: Learn about end-user features for archived sites in Microsoft 365 A
 
 End users aren't able to directly access any content that has been archived. Whenever users try to access archived content, they will either see a message stating that the site has been archived or the file has been archived.  If the file has been archived, then any user with read access can reactivate the file to regain full access.  Reactivation can take up to 24 hours to complete. 
 
-#### File archive experience
+#### File archive experience - Archiving
 
-End-users who encounter archived files can reactivate the file by navigating to the file in the SharePoint site or OneDrive account where the file is hosted.  The user can reactivate by simply selecting the file and clicking the 'reactivate' button. Reactivation can take up to 24 hours to complete.
+Users with edit permissions can easily archive files on SharePoint sites which have been enabled for file archiving.  To archive a file, the user can select one or more files and simply click the '*archive*' button. 
+
+#### File archive experience - Reactivation
+
+End-users who encounter archived files can reactivate the file by navigating to the file in the SharePoint site or OneDrive account where the file is hosted.  As long as they have read permissions to that file, the user can reactivate by simply selecting the file and clicking the '*reactivate*' button. Reactivation can take up to 24 hours to complete.
 
 ![Reactivate_file](media/archive-end-user/reactivate-file.png)
 
