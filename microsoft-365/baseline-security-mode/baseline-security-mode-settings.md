@@ -45,7 +45,7 @@ For more information, see [Microsoft Entra built-in roles](/entra/identity/role-
 
 ## Baseline security mode settings recommendation
 
-Baseline security mode settings provides flexibility and control, allowing you to manage each setting independently. You can also experiment by disabling a setting for a defined period (such as a few days) to assess dependencies.
+Baseline security mode settings provide flexibility and control, allowing you to manage each setting independently. You can also experiment by disabling a setting for a defined period (such as a few days) to assess dependencies.
 
 It's recommended that you run the Baseline security mode settings in this way:
 
@@ -61,6 +61,10 @@ It's recommended that you run the Baseline security mode settings in this way:
 ## Authentication
 
 This section outlines the options available to block insecure authentication methods in the Microsoft 365 admin center.
+
+> [!IMPORTANT]
+> Customers who accessed Baseline Security Mode in Microsoft 365 between November 2025 and early February 2026 may see two draft Microsoft Entra ID Conditional Access policies created in their tenant in a "Disabled" state. These policies are associated with Baseline Security Mode and may appear as created by the administrator who signed in to the Microsoft Baseline Security Mode page.
+This behavior does not represent a security incident and has no impact on tenant security. The policies are in a disabled draft state. A fix is in progress to ensure policies are created only through explicit administrator action. Microsoft will remove any unintentionally created policy drafts and will notify customers in advance. 
 
 |Setting|More information|
 |---|---|
@@ -90,6 +94,18 @@ Here is when that build will reach the various update channels.
 
 > [!NOTE]
 > These statements and build requirements are Win32 only.
+
+#### Impact of baseline security mode settings on Authentication
+
+Currently the following features will not work when baseline security mode settings are enabled:
+
+- Certificate Based Authentication for Exchange ActiveSync (legacy Exchange flow, not Entra CBA flow)
+
+#### Impact of baseline security mode settings on Power Query Desktop Exchange Connectors
+
+Currently the following features will not work when baseline security mode settings are enabled:
+
+- Power Query Desktop Exchange Connector
 
 #### Impact of baseline security mode settings on cross-tenant features
 

@@ -19,6 +19,7 @@ ms.collection:
 - magic-ai-copilot
 - essentials-overview
 - trust-pod
+- MCAT
 description: Get descriptions and see diagrams that describe how Microsoft Purview data protection, SharePoint oversharing controls, and auditing work with Microsoft 365 Copilot. This article also shows how Microsoft Purview sensitivity labels, SharePoint oversharing controls, and Purview tools like eDiscovery and retention policies affect Microsoft 365 Copilot.
 ms.custom: [copilot-learning-hub]
 appliesto:

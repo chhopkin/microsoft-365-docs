@@ -73,6 +73,10 @@ items:
 
 - name: Implement
   items:
+  - name: Minimum requirements to deploy Microsoft 365 Copilot
+    href: microsoft-365-copilot-minimum-requirements.md
+  - name: Minimum requirements and consideration for Microsoft 365 Copilot Chat
+    href: microsoft-365-copilot-chat-requirements.md  
   - name: Usage Based Billing
     items:
     - name: Set up pay-as-you-go
@@ -221,7 +225,6 @@ items:
       items:
       - name: Overview of Copilot personalization and memory
         href: copilot-personalization-memory.md
-  - name: Agents and Connectors
   - name: Agents
     items:
     - name: M365 Copilot Agent Management Essentials
@@ -490,4 +493,6 @@ items:
     href: release-notes.md
   - name: Submit Copilot feedback to Microsoft
     href: provide-feedback.md
+  - name: Connect to Anthropic's AI models
+    href: connect-to-independent-model.md
 
