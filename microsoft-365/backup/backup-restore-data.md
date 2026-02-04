@@ -273,7 +273,7 @@ Follow these steps to restore data backed up for Exchange.
     - Subject
     - Content type
 
-    Choose the time range, then filter on the values that you want to do a granular search on to find matching items.
+    Choose the time range, then filter on the values for your granular search to find matching items.
 
     > [!NOTE]
     > This option is intended to restore specific content and is limited to restoring 1000 items at a time.  If you receive an error that too many items were returned, adjust or add to your search filters to be more specific.
