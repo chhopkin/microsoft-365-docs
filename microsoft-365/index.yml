@@ -141,10 +141,10 @@ conceptualContent:
               text: Set up your infrastructure for hybrid work
             - url: solutions/setup-secure-collaboration-with-teams.md
               itemType: how-to-guide
-              text: Set up secure collaboration
+              text: Set up secure collaboration with Teams
             - url: solutions/deploy-threat-protection.md
               itemType: how-to-guide
-              text: Deploy threat protection
+              text: Deploy Microsoft Defender threat protection
             - url: solutions/data-privacy-protection.md
               itemType: how-to-guide
               text: Manage data privacy and data protection
