@@ -101,11 +101,13 @@ Currently the following features will not work when baseline security mode setti
 
 - Certificate Based Authentication for Exchange ActiveSync (legacy Exchange flow, not Entra CBA flow)
 
-#### Impact of baseline security mode settings on Power Query Desktop Exchange Connectors
+#### Impact of baseline security mode settings on the Exchange connector across Power Query supported hosts
 
 Currently the following features will not work when baseline security mode settings are enabled:
 
-- Power Query Desktop Exchange Connector
+- Excel – Excel for Windows, Excel Online
+- Power BI & Fabric – Power BI Desktop, Dataflows (Gen1 & Gen2), Power BI Web Modeling, Power BI Report Server
+- Power Platform – Power Platform Dataflows (Standard & Analytical), Dynamics Customer Insights
 
 #### Impact of baseline security mode settings on cross-tenant features
 
