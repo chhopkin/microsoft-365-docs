@@ -51,7 +51,7 @@ It's recommended that you run the Baseline security mode settings in this way:
 
 - Run impact reports for each of the Baseline security mode settings.
 - If the setting displays zero impacts, it's safe for you to turn on that setting.
-- If critical dependencies exist, you can hold of on turning on the setting and plan to address those dependencies before making the changes permanent. This intuitive, phased approach ensures a smooth transition to secure-by-default configurations.
+- If critical dependencies exist, you can hold off on turning on the setting and plan to address those dependencies before making the changes permanent. This intuitive, phased approach ensures a smooth transition to secure-by-default configurations.
 
 ## How to get to Baseline Security Mode settings
 
@@ -101,11 +101,13 @@ Currently the following features will not work when baseline security mode setti
 
 - Certificate Based Authentication for Exchange ActiveSync (legacy Exchange flow, not Entra CBA flow)
 
-#### Impact of baseline security mode settings on Power Query Desktop Exchange Connectors
+#### Impact of baseline security mode settings on the Exchange connector across Power Query supported hosts
 
 Currently the following features will not work when baseline security mode settings are enabled:
 
-- Power Query Desktop Exchange Connector
+- Excel – Excel for Windows, Excel Online
+- Power BI & Fabric – Power BI Desktop, Dataflows (Gen1 & Gen2), Power BI Web Modeling, Power BI Report Server
+- Power Platform – Power Platform Dataflows (Standard & Analytical), Dynamics Customer Insights
 
 #### Impact of baseline security mode settings on cross-tenant features
 

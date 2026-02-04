@@ -225,7 +225,6 @@ items:
       items:
       - name: Overview of Copilot personalization and memory
         href: copilot-personalization-memory.md
-  - name: Agents and Connectors
   - name: Agents
     items:
     - name: M365 Copilot Agent Management Essentials
