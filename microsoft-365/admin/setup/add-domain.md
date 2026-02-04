@@ -72,7 +72,13 @@ To add a custom domain name for the first time to Microsoft 365, follow these st
 
 1. In the **Verify you own your domain** page, different options are displayed depending on where your domain is registered:
 
-   - **Domain registrar supports [Domain Connect](#domain-connect-registrars-integrating-with-microsoft-365)**: If a domain registrar supports **Domain Connect**, Microsoft can automatically verify domain ownership. Additionally, Microsoft can also automatically add DNS records necessary for Microsoft 365 services. If the registrar supports **Domain Connect**, you will see **Sign in to \<REGISTRAR\>** where **REGISTRAR** is the name of the registrar where your domain is registered. To use **Domain Connect**, follow these steps:
+   - **Domain registrar supports [Domain Connect](#domain-connect-registrars-integrating-with-microsoft-365)**
+
+       If a domain registrar supports **Domain Connect**, Microsoft can automatically verify domain ownership. Additionally, Microsoft can also automatically add DNS records necessary for Microsoft 365 services.
+
+       If the registrar supports **Domain Connect**, you will see **Sign in to *registrart*** where *registrar* is the name of the registrar where your domain is registered.
+
+       To use **Domain Connect**, follow these steps:
 
         1. Make sure the name of the displayed registrar is correct and then select **Verify**. If your domain is registered at a different registrar than what is displayed, select **choose a different domain host**. After selecting the proper registrar, select **Verify**.
 
@@ -90,11 +96,15 @@ To add a custom domain name for the first time to Microsoft 365, follow these st
 
         1. The **Domain setup is complete** page displays. Select **Done** to complete adding your custom domain and DNS records to Microsoft 365.
 
-   - **Domain registrar doesn't support [Domain Connect](#domain-connect-registrars-integrating-with-microsoft-365)**: If a domain registrar doesn't support **Domain Connect**, domain ownership verification needs to be performed manually. Additionally, DNS records for Microsoft 365 services need to be added manually. To manually verify domain ownership and manually add DNS records, follow these steps:
+   - **Domain registrar doesn't support [Domain Connect](#domain-connect-registrars-integrating-with-microsoft-365)**
+
+       If a domain registrar doesn't support **Domain Connect**, domain ownership verification needs to be performed manually. Additionally, DNS records for Microsoft 365 services need to be added manually.
 
         > [!TIP]
         >
-        > In instances where a registrar supports **Domain Connect** but automatic DNS record creation by Microsoft isn't desired, this option can be used instead. It allows you to manually add the required DNS records at the registrar instead of Microsoft automatically adding the DNS records.
+        > In instances where a registrar supports **Domain Connect** but automatic DNS record creation by Microsoft isn't desired, manually creating DNS records can be used instead. To manually add DNS records instead of using **Domain Connect**, select **More options** at the appropriate page, and then proceed with the steps.
+
+        To manually verify domain ownership and manually add DNS records, follow these steps:
 
         1. In the **Verify you own your domain** page, select one of the following options to verify domain ownership:
 
@@ -104,7 +114,7 @@ To add a custom domain name for the first time to Microsoft 365, follow these st
 
         1. After an option is selected, select **Continue**:
 
-        1. instructions specific to that option appears:
+        1. Instructions specific to the selected option appears:
 
             - The **Add a record to verify ownership** page appears if one of the following two options is selected:
 
@@ -119,7 +129,7 @@ To add a custom domain name for the first time to Microsoft 365, follow these st
 
             - If the **Add a text file to the domain's website** is selected, instructions appear on the **Verify you own this domain** page that explains how to add a file to your website to verify domain ownership. For detailed instructions on adding files to your website, refer to the web hosting provider's documentation and instructions.
 
-        1. Once the selected process is completed, select **Verify**. Domain ownership verification occurs.
+        1. Once the selected option is completed, select **Verify**. Domain ownership verification occurs.
 
         1. Once domain ownership verification completes, the **How do you want to connect your domain** appears. Select **Continue**.
 
@@ -127,7 +137,7 @@ To add a custom domain name for the first time to Microsoft 365, follow these st
             >
             > If you select **More options** instead of **Continue**, select **Add your own DNS records**, and then select **Continue**.
 
-        1. The **Add DNS records** page contains instructions on what DNS records need to be added at your registrar. Select the services that you need DNS records for and then expand each DNS record type for detailed information on the format of the DNS record. Make sure to also expand **Advanced options** to view additional Microsoft 365 services that might need DNS records. The DNS records then need to be manually created at the registrar. For detailed instructions on adding DNS records at your registrar, refer to the registrar's documentation and instructions.
+        1. The **Add DNS records** page contains instructions on what DNS records need to be added at your registrar. Select the Microsoft 365 services that you need DNS records for and then expand each DNS record type for detailed information on the format of the DNS record. Make sure to also expand **Advanced options** to view additional Microsoft 365 services that might need DNS records. The DNS records then need to be manually created at the registrar. For detailed instructions on adding DNS records at your registrar, refer to the registrar's documentation and instructions.
 
         1. Once the DNS records are manually added at the registrar, select **Continue**.
 
