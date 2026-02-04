@@ -51,7 +51,7 @@ It's recommended that you run the Baseline security mode settings in this way:
 
 - Run impact reports for each of the Baseline security mode settings.
 - If the setting displays zero impacts, it's safe for you to turn on that setting.
-- If critical dependencies exist, you can hold of on turning on the setting and plan to address those dependencies before making the changes permanent. This intuitive, phased approach ensures a smooth transition to secure-by-default configurations.
+- If critical dependencies exist, you can hold off on turning on the setting and plan to address those dependencies before making the changes permanent. This intuitive, phased approach ensures a smooth transition to secure-by-default configurations.
 
 ## How to get to Baseline Security Mode settings
 
