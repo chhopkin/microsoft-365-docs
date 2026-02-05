@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: 11/14/2024
+ms.date: 02/02/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business

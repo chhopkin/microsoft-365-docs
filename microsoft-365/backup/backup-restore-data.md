@@ -260,18 +260,24 @@ Follow these steps to restore data backed up for Exchange.
 
 ### Option 2: Selected content only
 
-1. Use this option to perform a partial mailbox restore. On the **Content scope** page, the **Selected content only** option gives the admin the ability to do a granular restore (not full mailbox restore).
+1. Use this option to perform a partial mailbox restore based on specific search criteria. On the **Content scope** page, the **Selected content only** option gives the admin the ability to do a granular restore (not full mailbox restore).
 
     ![Screenshot showing the Content scope page with the Selected content only option selected.](../media/m365-backup/backup-exchange-content-scope-selected.png)
 
-    The search for items is based on four options:
+    You can filter the search for items based on the following options:
 
+    - Time range
     - Sender
     - Recipient
     - Has attachment
-    - Keywords
+    - Subject
+    - Content type
 
-    Choose the time period, then filter and value that you want to do a granular search on to find matching items.
+    Choose the time range, then filter on the values for your granular search to find matching items.
+
+    > [!NOTE]
+    > This option is intended to restore specific content and is limited to restoring 1000 items at a time.  If you receive an error that too many items were returned, adjust or add to your search filters to be more specific.
+
   
 2. Confirm the restore point in time to which the data will be restored from backup. If the restore point is what you want, select **Next**.
 
