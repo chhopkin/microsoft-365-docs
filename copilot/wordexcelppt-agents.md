@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: smbhardwaj
 author: smritib17
 manager: scotvidican
-ms.date: 12/15/2025
+ms.date: 02/05/2026
 audience: Admin
 ms.reviewer: HollyPollock
 ms.topic: overview
@@ -26,9 +26,11 @@ Microsoft 365 is expanding its integration with AI models within Copilot, allowi
 
 ## Admin enablement and controls  
 
-These agents exclusively use Anthropic's AI models. A global administrator must enable the AI models in the Microsoft 365 admin center. These requirements are mandatory for [Word, Excel, and PowerPoint Agents](wordexcelppt-agents.md) to function.
+These agents exclusively use Anthropic's AI models. This AI model must be enabled. These requirements are mandatory for [Word, Excel, and PowerPoint Agents](wordexcelppt-agents.md) to function.
 
-Administrators, can disable access to reasoning models at any time. If your organization decides to stop using Anthropic models, you can block the provider via the admin center, which removes the option for users. [Word, Excel, and PowerPoint Agents](https://support.microsoft.com/topic/76691f5e-bb19-4029-a34d-33a00e0a0c4f) are installed by Microsoft and will appear in the Tools menu and left agent navigation pane in the All Agents section for Microsoft 365 users who are both Copilot chat users (unlicensed Copilot users) and Microsoft 365 Copilot users (licensed Copilot users) assuming Anthropic has been enabled for the tenant. Admins can manage these agents similar to other agents that were installed by [Microsoft](copilot-agent-install.md).
+Administrators, can disable access to reasoning models at any time. If your organization decides to stop using Anthropic models, you can block the provider via the admin center, which removes the option for users.
+
+[Word, Excel, and PowerPoint Agents](https://support.microsoft.com/topic/76691f5e-bb19-4029-a34d-33a00e0a0c4f) are installed by Microsoft and will appear in the Tools menu and left agent navigation pane in the All Agents section for Microsoft 365 users who are both Copilot chat users (unlicensed Copilot users) and Microsoft 365 Copilot users (licensed Copilot users) assuming Anthropic has been enabled for the tenant. Admins can manage these agents similar to other agents that were installed by [Microsoft](copilot-agent-install.md).
 
 If administrators disable the Anthropic AI models, users are prevented from seeing the agents (in the Tools menu and in the left agent navigation pane of the Microsoft 365 Copilot app) and using the new [Word, Excel, and PowerPoint Agents](https://support.microsoft.com/topic/76691f5e-bb19-4029-a34d-33a00e0a0c4f).
 
@@ -58,7 +60,7 @@ For steps on how to disable the connection to Anthropic's AI models, see [Disabl
 
 ## Enterprise Data
 
-Word, Excel, and PowerPoint Agents can access organizational data for users with a Copilot license. (Copilot Chat users will have access to web grounding and a limited file attachment.) These agents use Work IQ to retrieve information from files, emails, meetings, and sites that you personally have permission to access, similar to other Copilot experiences.
+Word, Excel, and PowerPoint Agents can access organizational data for users with a Copilot license. (Copilot Chat users will have access to web grounding and a limited file attachment.) These agents can use Work IQ to retrieve information from files, emails, meetings, and sites that you personally have permission to access, similar to other Copilot experiences.
 
 Microsoft ensures secure handling of data, when integrating with AI models. Microsoft performs all searches, and only relevant context is shared with the reasoning model. So the data provided is limited to what you are authorized to view, with sensitivity labels and compliance policies fully respected.
 
