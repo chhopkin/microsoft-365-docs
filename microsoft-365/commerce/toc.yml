@@ -22,7 +22,7 @@ items:
           href: subscriptions/reactivate-your-subscription.md
         - name: Cancel your subscription
           href: subscriptions/cancel-your-subscription.md
-        - name: What if my subscription expires?
+        - name: What if my subscription ends?
           href: subscriptions/what-if-my-subscription-expires.md
         - name: Manage third-party app subscriptions
           href: manage-saas-apps.md
@@ -114,8 +114,6 @@ items:
           href: billing-and-payments/pay-by-wire-transfer.md
         - name: Understand billing and dunning policies
           href: billing-and-payments/billing-dunning-policies.md
-        - name: Pay by wire transfer
-          href: billing-and-payments/pay-by-wire-transfer.md
         - name: Manage payment methods
           href: billing-and-payments/manage-payment-methods.md
         - name: Manage billing across multiple tenants
