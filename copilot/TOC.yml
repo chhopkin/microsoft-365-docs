@@ -56,6 +56,10 @@ items:
       href: /copilot/edge?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
   - name: Implementation Readiness
     items:
+    - name: Minimum requirements to deploy Microsoft 365 Copilot
+      href: microsoft-365-copilot-minimum-requirements.md
+    - name: Minimum requirements and consideration for Microsoft 365 Copilot Chat
+      href: microsoft-365-copilot-chat-requirements.md
     - name: Architecture & how Copilot works
       href: microsoft-365-copilot-architecture.md
     - name: Microsoft 365 Copilot Admin settings
@@ -73,10 +77,6 @@ items:
 
 - name: Implement
   items:
-  - name: Minimum requirements to deploy Microsoft 365 Copilot
-    href: microsoft-365-copilot-minimum-requirements.md
-  - name: Minimum requirements and consideration for Microsoft 365 Copilot Chat
-    href: microsoft-365-copilot-chat-requirements.md  
   - name: Usage Based Billing
     items:
     - name: Set up pay-as-you-go
