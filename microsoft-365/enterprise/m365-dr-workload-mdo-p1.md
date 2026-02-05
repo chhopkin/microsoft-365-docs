@@ -9,7 +9,7 @@ ms.subservice: advanced-data-residency
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.date: 02/11/2025
+ms.date: 01/30/2026
 ms.reviewer: jugiammo
 ms.custom:
 - it-pro
@@ -23,9 +23,9 @@ ms.collection:
 
 ## Overview
 
-Service documentation: [Office 365 Security including Microsoft Defender for Office 365 and the built-in security features for all cloud mailboxes](/defender-office-365/mdo-about)
+Service documentation: [Office 365 Security including Microsoft Defender for Office 365 and the built-in security features for all cloud mailboxes (formerly Exchange Online Protection (EOP))](/defender-office-365/mdo-about)
 
-Capability Summary: Protects email and collaboration from zero-day malware, phish, and business email compromise. Microsoft Defender for Office 365 Plan 1 builds on [the built-in security features for all cloud mailboxes](/defender-office-365/eop-about).
+Capability Summary: Protects email and collaboration from zero-day malware, phish, and business email compromise. Microsoft Defender for Office 365 Plan 1 builds on [the built-in security features for all cloud mailboxes (formerly Exchange Online Protection (EOP))](/defender-office-365/eop-about).
 
 ## Data Residency commitments available
 
@@ -47,13 +47,13 @@ In addition, processing of data that is required to analyze threats and inspect 
 
 <a name='exchange-online-protection'></a>
 
-## Built-in security features for all cloud mailboxes
+## Built-in security features for all cloud mailboxes (formerly Exchange Online Protection (EOP))
 
 ### Overview
 
-Service documentation: [Overview of the built-in security features for all cloud mailboxes](/defender-office-365/eop-about)
+Service documentation: [Overview of the built-in security features for all cloud mailboxes (formerly Exchange Online Protection (EOP))](/defender-office-365/eop-about)
 
-Capability summary: Built-in security features for all cloud mailboxes is the cloud-based filtering service that protects your organization against spam, malware, and other email threats.
+Capability summary: Built-in security features for all cloud mailboxes (formerly Exchange Online Protection (EOP)) is the cloud-based filtering service that protects your organization against spam, malware, and other email threats.
 
 ### Data Residency commitments available
 
@@ -63,15 +63,15 @@ Required Conditions:
 
 1. _Tenant_ has a sign-up country included in _Local Region Geography_ or _Expanded Local Region Geography_.
 1. _Tenant_ has a valid Advanced Data Residency subscription for all users in the _Tenant_
-1. Customer data for the built-in security features for all cloud mailboxes is provisioned in _Local Region Geography_ or _Expanded Local Region Geography_
+1. Customer data for the built-in security features for all cloud mailboxes (formerly Exchange Online Protection (EOP)) is provisioned in _Local Region Geography_ or _Expanded Local Region Geography_
 
 **Commitment:**
 
-Refer to the [Advanced Data Residency Commitment](m365-dr-commitments.md) page for the specific customer data at rest commitment for the built-in security features for all cloud mailboxes.
+Refer to the [Advanced Data Residency Commitment](m365-dr-commitments.md) page for the specific customer data at rest commitment for the built-in security features for all cloud mailboxes (formerly Exchange Online Protection (EOP)).
 
 ## Migration
 
-Customer data for the built-in security features for all cloud mailboxes migrates after ADR migration is initiated. Microsoft Defender for Office 365 Plan 1 doesn't have customer data to migrate.
+Customer data for the built-in security features for all cloud mailboxes (formerly Exchange Online Protection (EOP)) migrates after ADR migration is initiated. Microsoft Defender for Office 365 Plan 1 doesn't have customer data to migrate.
 
 ## How can I determine customer data location?
 

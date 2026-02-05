@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 10/01/2024
+ms.date: 01/08/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-security
@@ -21,11 +21,12 @@ ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
 description: "Learn how to delete a Microsoft 365 user account, what to do with the user's email and OneDrive content, and whether to keep the product license."
+customer-intent: As an administrator, I need to delete a user account because someone has left our organization.
 ---
 
 # Delete a user from your organization
   
-**Looking for how to delete your *own* Microsoft 365 user account that you use at work or school? Contact the technical support at your work or university to do these steps for you.**
+> Looking for how to delete your *own* Microsoft 365 user account that you use at work or school? Contact the technical support at your work or university to do these steps for you.
 
 ## Before you begin
 
@@ -50,27 +51,31 @@ Before you begin, think about what you want to do with the user's email and OneD
 |Email | Giving another user access to the deleted user's email will convert the deleted user's mailbox to a shared mailbox. The new mailbox owner can then access the mailbox and monitor for new email. You'll also have the following options:  <br/>  <br/>Change the display name - We recommend changing the display name so that it will be easy to identify the shared mailbox in the **Active users** list.  <br/>  <br/>  Turn on automatic replies - We've already written a polite automatic reply for you. You can send different automatic replies to people within your organization and people from outside your organization. <br/> <br/> [Remove any existing calendar permissions](/powershell/module/exchangepowershell/remove-mailboxfolderpermission) using PowerShell. <br/> <br/> Clean up aliases - Aliases are additional email addresses for users. Some organizations don't use them, so if you don't have any you don't need to do anything else here. If the user does have aliases, we recommend removing them so that you can reuse those email addresses. Otherwise, you can't reuse those email addresses until the retention period for deleted mailboxes has passed. By default, a deleted mailbox is recoverable for 30 days. For more information, see  [Delete or restore user mailboxes in Exchange Online](/exchange/recipients-in-exchange-online/delete-or-restore-mailboxes#delete-a-user-mailbox). |
 |Active Directory |If your business uses **Active Directory** that is synchronizing with Microsoft Entra ID, you need to delete the user account from Active Directory. You can't do it through Microsoft 365. For instructions, see [Delete a User Account](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11)). |
 
-### Get started
+### Delete a user account
 
 Since the guided experience walks through the steps to delete a user, here's how to get started.
 
 ::: moniker range="o365-worldwide"
 
-1. In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.
+1. In the Microsoft 365 admin center, go to **Users** \> **Active users**. (Or, go directly to the [Active users page](https://go.microsoft.com/fwlink/p/?linkid=834822).)
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
- 1. In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.
+ 1. In the admin center, go to **Users** \> **Active users**. (Or, go directly to the [Active users page](https://go.microsoft.com/fwlink/p/?linkid=850628).)
 
 ::: moniker-end
 
-2. Select the user that you want to delete, and then select **Delete user**.
+2. Select the user that you want to delete to open their account details. The following screenshot shows details for a fictitious user account called "User Two":
 
-3. On the Delete user page, select what you want to do with the user's license and email and OneDrive accounts.
+   :::image type="content" source="../../media/delete-a-user/manage-user-flyout.png" alt-text="Screenshot showing user account details." lightbox="../../media/delete-a-user/manage-user-flyout.png":::
 
-4. Then select **Delete user**.
+3. On the **Delete user** page, select what you want to do with the user's license and email and OneDrive accounts. The following screenshot shows options for our example User Two:
+
+   :::image type="content" source="../../media/delete-a-user/delete-user-options.png" alt-text="Screenshot showing options to select when deleting a user account." lightbox="../../media/delete-a-user/delete-user-options.png":::
+
+4. Select **Delete user**.
 
 ## User management admin: Delete one or more users from Microsoft 365
 
@@ -79,13 +84,13 @@ Since the guided experience walks through the steps to delete a user, here's how
   
 ::: moniker range="o365-worldwide"
 
-1. In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.  
+1. In the Microsoft 365 admin center, go to **Users** \> **Active users**. (Or go directly to the [Active users page](https://go.microsoft.com/fwlink/p/?linkid=834822).)  
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">Active users</a> page.
+1. In the admin center, go to **Users** \> **Active users**. (Or, go directly to the [Active users page](https://go.microsoft.com/fwlink/p/?linkid=850628).)
 
 ::: moniker-end
 
@@ -99,12 +104,12 @@ Reducing the number of licenses is a separate step that can be performed by the 
   
 ::: moniker range="o365-worldwide"
 
-1. In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page.
+1. In the Microsoft 365 admin center, go to **Billing** \> **Your products**. (Or, go directly to the [Your products page](https://go.microsoft.com/fwlink/p/?linkid=842054).)
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Your products</a> page.
+1. In the admin center, go to **Billing** \> **Your products**. (Or, go directly to the [Your products page](https://go.microsoft.com/fwlink/p/?linkid=850626).)
 ::: moniker-end
 
 2. On the **Products** tab, select the subscription that you want to remove licenses for.
@@ -135,7 +140,12 @@ Here are the most common issues people encounter when deleting a user:
 
 ## Related content
 
-[Restore a user](restore-user.md) (article)\
-[Permanently delete a mailbox](/exchange/permanently-delete-a-mailbox-exchange-2013-help) (article)\
-[Remove a former employee from Microsoft 365](remove-former-employee.md) (article)\
-[Delete a User Account](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11)) (article): Use these instructions if your business uses **Active Directory** that is synchronizing with Microsoft Entra ID. You can't do it through Microsoft 365.
+- [Restore a user](restore-user.md)
+
+- [Permanently delete a mailbox](/exchange/permanently-delete-a-mailbox-exchange-2013-help)
+
+- [Remove a former employee from Microsoft 365](remove-former-employee.md)
+
+- [Delete a User Account](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753730(v=ws.11)) (article): Use these instructions if your business uses **Active Directory** that is synchronizing with Microsoft Entra ID. You can't do it through Microsoft 365.
+
+- [Get support for Microsoft 365 for business](../get-help-support.md)

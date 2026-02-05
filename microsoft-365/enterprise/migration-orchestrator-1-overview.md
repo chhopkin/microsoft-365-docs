@@ -3,7 +3,7 @@ title: Migration orchestrator overview
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 12/11/2025
+ms.date: 01/26/2026
 recommendations: true
 audience: ITPro
 ms.topic: upgrade-and-migration-article
@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 - m365initiative-migratetom365
 search.appverid: MET150
-description: "Learn about orchestrator for Microsoft 365, a tool that allows you to migrate personal user data from one tenant to another. This includes Exchange mailboxes and Teams data for individual users."
+description: "Learn about orchestrator for Microsoft 365, a tool that allows you to migrate personal user data from one tenant to another. This migration includes Exchange mailboxes and Teams data for individual users."
 ---
 
 # An overview of tenant-to-tenant migration with orchestrator in Microsoft 365
@@ -34,21 +34,33 @@ To provide feedback or make requests to the product team, use [this form](https:
 Organizations can choose from several migration models depending on their business needs:
 
 - **Single-Event Migration**
+
   - All users and workloads are migrated in a single cutover event.
   - Best suited for small to medium businesses or simple organizational changes.
 - **Phased Migration**
+
   - Users are migrated in batches over time.
   - Ideal for large enterprises or complex environments.
 - **Tenant Move/Split**
+
   - A subset of users is moved to a new tenant while others remain.
   - Common in divestiture scenarios.
+    
+All migration models require planning, communication, and time to allow the data to move.
 
 ## Licensing and availability
 
-To use tenant-to-tenant migration features, organizations must meet the following licensing requirements:
+Cross-Tenant migrations require a per-user license (one-time fee) and can be assigned on either the source or target user object. This license enables the migration of Exchange Online mailboxes and OneDrives included in the Orchestrated migration. During preview for Teams meetings and Teams chats, no other licenses are required for these specific workload migrations. Cross Tenant User Data Migration is available as an add-on to the following Microsoft 365 subscription plans:
 
-- **Microsoft 365 E3/E5 or equivalent** licenses for source and target tenants.
-- **Cross-Tenant User Data Migration** licenses are required as an add-on for each user in order to move mailbox or OneDrive data. It must be applied to either the source or target user.
+- Microsoft 365 Business Basic, Standard, and Premium
+- Microsoft 365 F1/F3/E3/E5/
+- Office 365 F3/E1/E3/E5
+- Exchange Online
+- SharePoint in Microsoft 365
+- OneDrive
+- EDU
+
+This product is available for EA, CSP, Web direct, small business, and EDU customers. The pricing at GA isn't available yet.
 
 ## Security and compliance considerations
 
@@ -61,7 +73,7 @@ Organizations subject to regulatory compliance (for example, GDPR, HIPAA) should
 
 This new product simplifies both an admin's role in migrating content cross-tenant and a user's experience when they migrate. If you intend to run the migration of multiple workloads (such as Exchange, chats, meetings, and OneDrive), we strongly suggest including all workloads for each user in the batch. Migrating Teams chats and Teams meetings without the mailbox (or at the same time as the mailbox migration with another tool) might result in unexpected user experiences we didn't identify in our testing. The orchestrator was designed to intelligently migrate the workloads in an order that accounts for all dependencies and minimizes risk for migrations to fail.
 
-While customers can run migrations for the workloads they want, the Teams Meeting migration does depend on a successful mailbox migration. **Teams Meeting migration will fail without a successful mailbox migration**.
+While customers can run migrations for the workloads they want, the Teams Meeting migration does depend on a successful mailbox migration. **Teams Meeting migration fails without a successful mailbox migration**.
 
 > [!NOTE]
 > If you intend to migrate OneDrive sites, there's a limit to how many OneDrive accounts can be scheduled to migrate at a time. This limit is shared between the OneDrive and SharePoint migrations. [Learn more](cross-tenant-onedrive-migration.md) about this limit.
@@ -87,7 +99,7 @@ The OneDrive content moves from the source to the target, leaving behind a redir
 
 ### Teams chat and meeting scope
 
-Chats and meetings are migrated from the source to the target. The original content on the source remains, though it might be in an edited form. This means that the user participant list might change, with source users removed and target users added. There might be duplicate threads created on both tenants. Once the migration completes, users should only use their target identity to use Teams. If there's out-of-scope content, they can reference the source Teams client if they still have a licensed source user.
+Chats and meetings are migrated from the source to the target. The original content on the source remains, though it might be in an edited form. This configuration means that the user participant list might change, with source users removed and target users added. There might be duplicate threads created on both tenants. Once the migration completes, users should only use their target identity to use Teams. If there's out-of-scope content, they can reference the source Teams client if they still have a licensed source user.
 
 ### Not in-scope
 

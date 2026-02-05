@@ -3,7 +3,7 @@ title: "Baseline security mode settings"
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 11/13/2025
+ms.date: 01/09/2026
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-business
@@ -34,7 +34,7 @@ This article gives you information about the Baseline security mode settings tha
 
 ## Before you begin
 
-The person who manages security for your organization (typically the security admin) can update these settings. The person who is a member of the global admin role can also configure these settings.
+Global administrators can view and configure all settings, while workload-specific administrators can manage only their own settings.
 
 Baseline security mode settings support RBAC so the [Office Apps administrator role](/entra/identity/role-based-access-control/permissions-reference), [SharePoint administrator role](/sharepoint/sharepoint-admin-role), [About the Exchange Administrator role](../admin/add-users/about-exchange-online-admin-role.md), and [Teams administrator role](/entra/identity/role-based-access-control/permissions-reference) can also see these settings.
 
@@ -45,13 +45,13 @@ For more information, see [Microsoft Entra built-in roles](/entra/identity/role-
 
 ## Baseline security mode settings recommendation
 
-Baseline security mode settings provides flexibility and control, allowing you to manage each setting independently. You can also experiment by disabling a setting for a defined period (such as a few days) to assess dependencies.
+Baseline security mode settings provide flexibility and control, allowing you to manage each setting independently. You can also experiment by disabling a setting for a defined period (such as a few days) to assess dependencies.
 
 It's recommended that you run the Baseline security mode settings in this way:
 
 - Run impact reports for each of the Baseline security mode settings.
-- If the setting displays zero impacts, its safe for you to turn on that setting.
-- If critical dependencies exist, you can hold of on turning on the setting and plan to address those dependencies before making the changes permanent. This intuitive, phased approach ensures a smooth transition to secure-by-default configurations.
+- If the setting displays zero impacts, it's safe for you to turn on that setting.
+- If critical dependencies exist, you can hold off on turning on the setting and plan to address those dependencies before making the changes permanent. This intuitive, phased approach ensures a smooth transition to secure-by-default configurations.
 
 ## How to get to Baseline Security Mode settings
 
@@ -61,6 +61,10 @@ It's recommended that you run the Baseline security mode settings in this way:
 ## Authentication
 
 This section outlines the options available to block insecure authentication methods in the Microsoft 365 admin center.
+
+> [!IMPORTANT]
+> Customers who accessed Baseline Security Mode in Microsoft 365 between November 2025 and early February 2026 may see two draft Microsoft Entra ID Conditional Access policies created in their tenant in a "Disabled" state. These policies are associated with Baseline Security Mode and may appear as created by the administrator who signed in to the Microsoft Baseline Security Mode page.
+This behavior does not represent a security incident and has no impact on tenant security. The policies are in a disabled draft state. A fix is in progress to ensure policies are created only through explicit administrator action. Microsoft will remove any unintentionally created policy drafts and will notify customers in advance. 
 
 |Setting|More information|
 |---|---|
@@ -90,6 +94,20 @@ Here is when that build will reach the various update channels.
 
 > [!NOTE]
 > These statements and build requirements are Win32 only.
+
+#### Impact of baseline security mode settings on Authentication
+
+Currently the following features will not work when baseline security mode settings are enabled:
+
+- Certificate Based Authentication for Exchange ActiveSync (legacy Exchange flow, not Entra CBA flow)
+
+#### Impact of baseline security mode settings on the Exchange connector across Power Query supported hosts
+
+Currently the following features will not work when baseline security mode settings are enabled:
+
+- Excel – Excel for Windows, Excel Online
+- Power BI & Fabric – Power BI Desktop, Dataflows (Gen1 & Gen2), Power BI Web Modeling, Power BI Report Server
+- Power Platform – Power Platform Dataflows (Standard & Analytical), Dynamics Customer Insights
 
 #### Impact of baseline security mode settings on cross-tenant features
 
@@ -141,3 +159,8 @@ You must be a member of the [Teams administrator role](/entra/identity/role-base
 |Setting|More information|
 |---|---|
 |Block resource account sign in to Microsoft 365 clients|To increase security, resource accounts used for Teams devices must be blocked from being used to sign in or used by Microsoft 365 clients. <br/><br/> For more information, see [Block Teams resource account sign in to Microsoft 365 clients](/MicrosoftTeams/rooms/block-non-compliant-teams-rooms-devices).|
+
+## Related content
+
+- Learn how [security defaults](/entra/fundamentals/security-defaults) and [Microsoft-managed Conditional Access policies](/entra/identity/conditional-access/managed-policies) help protect authentication.
+
