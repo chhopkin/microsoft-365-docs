@@ -40,9 +40,9 @@ ms.date: 10/07/2025
 > [!NOTE]
 > This article only applies to Microsoft business subscriptions. If you have an app, game, or nonbusiness subscription, see [View your Microsoft Store order history](https://support.microsoft.com/account-billing/view-your-microsoft-store-order-history-aafefe88-3ec2-ce28-e0b6-eff1d5cc8170).
 
-You can view or download your invoice for your Microsoft business subscription in the Microsoft 365 admin center. If you need help with interpreting the charges that you see on your invoice, [find out what type of billing account you have](../manage-billing-accounts.md#view-my-billing-accounts). Then, for a detailed walkthrough of the billing statement, see either [Understand your invoice for your Microsoft MCA billing account](understand-your-invoice.md) or [Understand your invoice for your Microsoft MOSA billing account](understand-your-invoice2.md).
+You can view or download your invoice or billing statement for your Microsoft business subscription in the Microsoft 365 admin center. If you need help with interpreting the charges that you see on your invoice, [find out what type of billing account you have](../manage-billing-accounts.md#view-my-billing-accounts). Then, for a detailed walkthrough of the billing statement, see either [Understand your invoice for your Microsoft MCA billing account](understand-your-invoice.md) or [Understand your invoice for your Microsoft MOSA billing account](understand-your-invoice2.md).
 
-**Have a problem with your bill?** [Contact support for business products](../../admin/get-help-support.md).
+**Have a problem with your invoice?** [Contact support for business products](../../admin/get-help-support.md).
 
 > [!IMPORTANT]
 > Microsoft 365 services don't provide payment receipts. For credit or debit card payments, use the invoice and your credit or debit card billing statement to match your payment.
@@ -54,13 +54,13 @@ Check out all of our small business content on [Small business help & learning](
 - You must be at least a Billing Administrator to do the steps described in this article. For more information, see [About admin roles in the Microsoft 365 admin center](../../admin/add-users/about-admin-roles.md).
 - You must be able to sign in to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>. If you have trouble signing in, see [Microsoft 365 Administration troubleshooting](/microsoft-365/troubleshoot/o365-admin-welcome).
 
-## Watch: View, download, or print your bill
+## Watch: View, download, or print your bill or invoice
   
 Check out this video and others on our [YouTube channel](https://go.microsoft.com/fwlink/?linkid=2198016).
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=a03436f9-660b-4cb3-906d-bdcd86ee21d9]
 
-## View or download your bill or invoice
+## View or download your invoice
 
 1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
 
