@@ -35,7 +35,7 @@ You can set up your integration for either a one-way data sync or a two-way data
 - **Two-way sync (WFM system and Shifts)**: This setup allows for a bidirectional sync. Schedule data in your WFM system is synced to Shifts, and any changes made in Shifts by users are synced back to your WFM system. The connector validates and approves the changes users make in Shifts according to business rules enforced by your WFM system before the changes are written to Shifts.
 
 > [!NOTE]
-> If you're using UKG Pro WFM, Blue Yonder WFM, or Reflexis WFM, you can also use a managed connector to integrate Shifts with your WFM system. To learn more, see [Shifts connectors](shifts-connectors.md).
+> If you're using Reflexis WFM, you can also use a connector managed by Zebra to integrate Shifts with your WFM system. To learn more, see [Shifts connectors](shifts-connectors.md).
 
 ### Terminology used in this article
 
