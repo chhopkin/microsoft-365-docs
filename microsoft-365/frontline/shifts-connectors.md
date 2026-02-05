@@ -18,7 +18,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
   - Microsoft 365 for frontline workers
-ms.date: 02/05/2026
+ms.date: 01/30/2026
 ---
 
 # Shifts connectors
@@ -104,7 +104,7 @@ Here's an overview of the connection setup process.
    Schedule data is synced from Reflexis WFM to Shifts when a schedule is published and workers' schedules and shifts are displayed in Shifts. Shifts communicates with Reflexis WFM to sync changes that happened in Shifts.
 
 > [!IMPORTANT]
-> Microsoft-managed shift connectors were retired on December 7, 2025.
+> Managed shifts connectors other than the Reflexis connector were deprecated on December 7, 2025.
 
 ## Related articles
 

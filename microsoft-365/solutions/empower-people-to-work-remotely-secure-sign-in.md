@@ -17,7 +17,7 @@ ms.collection:
 - remotework
 - m365solution-remotework
 - m365solution-scenario
-ms.custom: 
+ms.custom: m365-solutions-doc-set
 description: Require that your hybrid workers sign in with multifactor authentication (MFA).
 ---
 
@@ -91,7 +91,7 @@ This table shows the results of enabling MFA with security defaults and Conditio
 |:-------|:-----|:-------|:-------|
 | **Security defaults**  | Can't use Conditional Access policies | Can use Conditional Access policies | Microsoft Authenticator app |
 | **Conditional Access policies** | If any are enabled, you can't enable security defaults | If all are disabled, you can enable security defaults  | User specifies during MFA registration  |
-||||
+
 
 ## Let your users reset their own passwords
 

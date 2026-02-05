@@ -15,6 +15,7 @@ ms.collection:
 - M365-subscription-management 
 - Adm_O365
 - m365solution-collabgovernance
+ms.custom: m365-solutions-doc-set
 search.appverid:
 - MET150
 recommendations: false

@@ -1,6 +1,6 @@
 ---
 title: "Exchange Online monitoring for Microsoft 365"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 03/12/2025

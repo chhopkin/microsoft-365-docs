@@ -18,6 +18,7 @@ ms.collection:
 - must-keep
 ms.custom:
 - Ent_Solutions
+- m365-solutions-doc-set
 description: "Deploy the correct identity model for your Microsoft 365 tenants and enforce strong user sign-ins."
 ---
 
@@ -33,7 +34,7 @@ Here are the two types of identity models and their best fit and benefits.
 |:-------|:-----|:-----|:-----|:-----|
 | Cloud-only | User account only exists in the Microsoft Entra tenant for your Microsoft 365 tenant. | The Microsoft Entra tenant for your Microsoft 365 tenant performs the authentication with the cloud identity account. | Organizations that don't have or need an on-premises Active Directory. | Simple to use. No extra directory tools or servers required. |
 | Hybrid |  User account exists in your on-premises Active Directory Domain Services (AD DS) and a copy is also in the Microsoft Entra tenant for your Microsoft 365 tenant. Microsoft Entra Connect runs on an on-premises server to synchronize AD DS changes to your Microsoft Entra tenant. The user account in Microsoft Entra ID might also include a hashed version of the already hashed AD DS user account password. | The Microsoft Entra tenant for your Microsoft 365 tenant either handles the authentication process or redirects the user to another identity provider. | Organizations using AD DS or another identity provider. | Users can use the same credentials when accessing on-premises or cloud-based resources. |
-||||||
+
 
 Here are the basic components of cloud-only identity.
 

@@ -20,7 +20,7 @@ ms.collection:
 appliesto: 
   - Microsoft Teams
   - Microsoft 365 for frontline workers
-ms.date: 10/06/2025
+ms.date: 1/21/2026
 ---
 
 # Get started with Microsoft 365 for frontline workers
@@ -32,6 +32,7 @@ Microsoft 365 for frontline workers is a unified, AI-powered platform that suppo
 - [Enhance communications and collaboration](#enhance-communications-and-collaboration)
 - [Transform employee experiences](#transform-employee-experiences)
 - [Increase frontline operational efficiency](#increase-frontline-operational-efficiency)
+- [Simplify frontline work with an AI agent](#simplify-frontline-work-with-an-ai-agent)
 - [Safeguard your business](#safeguard-your-business) with enterprise-grade security and compliance, including support for modern and shared devices
 
 ### Enhance communications and collaboration
@@ -45,6 +46,15 @@ Microsoft 365 includes apps like Lists, Planner, and Approvals to streamline ope
 The following image shows the employee experiences that are key to frontline workers, and common areas where Microsoft 365 can improve experiences for frontline workers:
 
 :::image type="content" source="media/flw-pillars.png" alt-text="Diagram of employee experience wheel with methods to connect & engage with frontline workers, enhance workforce management, and increase operational efficiency.":::
+
+### Simplify frontline work with an AI Agent
+
+Frontline Agent keeps frontline workers and managers aligned, informed, and productive by:
+- Reducing time spent searching for information and instructions across SharePoint and Teams chat and channel messages
+- Summarizing key updates and action items at the start of your shift
+- Helping draft end-of-shift handovers
+
+Frontline Agent is rolling out in Microsoft 365 Copilot and currently available in Microsoft Teams just like any other teammate. Frontline Agent helps frontline workers and managers stay aligned, informed, and productive. Built on Microsoft 365, Frontline Agent operates within your existing security, compliance, and device management framework. Learn more about [setting up Frontline Agent in your organization](setupfrontlineagent.md).
 
 ### Licensing for your frontline workers
 
@@ -82,6 +92,13 @@ Enhance workforce management with [Shifts](shifts-for-teams-landing-page.md), th
 |:::image type="icon" source="/office/media/icons/calendar-teams.png"::: | [Schedule management](flw-choose-scenarios.md#schedule-management) | Simplify and streamline schedule coordination with your frontline workforce. Gain visibility into their schedules and enable them to arrange for cover and leave. |
 |:::image type="icon" source="/office/media/icons/task-checklist-planning-teams.png":::| [Digitize your business processes](flw-choose-scenarios.md#digitized-processes) | Drive operational efficiency by digitizing paper-based processes, and automating routine, repetitive steps. |
 |:::image type="icon" source="/office/media/icons/share-teams.png":::| [Digital ecosystem](flw-choose-scenarios.md#more-scenarios-and-solutions-with-the-digital-ecosystem) | Unite the technology your frontline workforce depends on behind a single pane of glass for a seamless end-to-end experience. Include partner solutions and take advantage of integrations that help streamline processes. |
+
+## AI-powered productivity
+
+|Capability |More information |
+|-----------|---------------------|
+|Learn about Frontline Agent scenarios |[What scenarios does Frontline Agent enable?](setupfrontlineagent.md)|
+|Set up Frontline Agent|[Prerequisites](setupfrontlineagent.md)|
 
 ## Safeguard your business
 

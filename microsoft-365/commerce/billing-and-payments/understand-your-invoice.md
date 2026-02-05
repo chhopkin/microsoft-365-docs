@@ -27,7 +27,7 @@ ms.custom:
 service.tree.id: 95459a4b-434c-4f83-879b-aa5f509fc7fa
 search.appverid: MET150
 description: "Learn how to interpret the charges on your invoice for your Microsoft business subscription with an MCA billing account."
-ms.date: 07/31/2025
+ms.date: 01/14/2026
 ---
 
 # Understand your invoice for your Microsoft MCA billing account
@@ -52,7 +52,7 @@ Depending on the billing frequency that you chose when you bought your subscript
 
 Each new subscription purchase receives the first invoice the next day and is billed on this same day of the month with the frequency selected at purchase. Subscriptions with recurring billing receive subsequent invoices on that same day of the month. 
 
-Changes you make to an existing subscription appear on the monthly invoice around the beginning of the following month.  
+Changes you make to an existing subscription are also billed the next day.
 
 If you acquire multiple new subscriptions on different days within a month (excluding additions to current subscriptions), you receive separate invoices for each.
 

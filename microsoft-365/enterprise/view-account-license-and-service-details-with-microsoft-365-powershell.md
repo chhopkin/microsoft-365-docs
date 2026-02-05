@@ -1,6 +1,6 @@
 ---
 title: "View Microsoft 365 account license and service details with PowerShell"
-ms.author: kvice
+ms.author: scotv
 author: kelleyvice-msft
 manager: scotv
 ms.date: 10/17/2024
