@@ -35,12 +35,12 @@ description: "Learn how to find your invoice or billing statement for a Microsof
 ms.date: 10/07/2025
 ---
 
-# View your invoice in the Microsoft 365 admin center
+# View or download your invoice in the Microsoft 365 admin center
 
 > [!NOTE]
 > This article only applies to Microsoft business subscriptions. If you have an app, game, or nonbusiness subscription, see [View your Microsoft Store order history](https://support.microsoft.com/account-billing/view-your-microsoft-store-order-history-aafefe88-3ec2-ce28-e0b6-eff1d5cc8170).
 
-You can view your invoice for your Microsoft business subscription in the Microsoft 365 admin center. If you need help with interpreting the charges that you see on your invoice, [find out what type of billing account you have](../manage-billing-accounts.md#view-my-billing-accounts). Then, for a detailed walkthrough of the billing statement, see either [Understand your invoice for your Microsoft MCA billing account](understand-your-invoice.md) or [Understand your invoice for your Microsoft MOSA billing account](understand-your-invoice2.md).
+You can view or download your invoice for your Microsoft business subscription in the Microsoft 365 admin center. If you need help with interpreting the charges that you see on your invoice, [find out what type of billing account you have](../manage-billing-accounts.md#view-my-billing-accounts). Then, for a detailed walkthrough of the billing statement, see either [Understand your invoice for your Microsoft MCA billing account](understand-your-invoice.md) or [Understand your invoice for your Microsoft MOSA billing account](understand-your-invoice2.md).
 
 **Have a problem with your bill?** [Contact support for business products](../../admin/get-help-support.md).
 
@@ -60,7 +60,7 @@ Check out this video and others on our [YouTube channel](https://go.microsoft.co
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=a03436f9-660b-4cb3-906d-bdcd86ee21d9]
 
-## View your bill or invoice
+## View or download your bill or invoice
 
 1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
 
