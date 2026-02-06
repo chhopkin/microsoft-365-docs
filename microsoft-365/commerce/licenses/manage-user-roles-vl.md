@@ -63,7 +63,7 @@ The following table shows the relationship between VL roles in the retired Volum
 
 By default, the VL Administrator role is assigned to the Notices Contact, or the Primary Contact provided by your Microsoft partner or seller when they set up your VL contract. 
 
-If you're an EA or EAS customer, when the VL contract is activated, the VL Administrator role is assigned to both the Notices Contact and to the Online Services Manager (OSM), assuming the user IDs provided on the contract are Microsoft Entra IDs. However, if the user ID provided for the OSM contact isn't a Microsoft Entra ID, the OSM can't be assigned a role in admin center. Instead, a "Tenant Discovery" email is sent to the OSM inviting them to sign in or sign up
+If you're an EA or EAS customer, when the VL contract is activated, the VL Administrator role is assigned to both the Notices Contact and to the Online Services Manager (OSM), assuming the user IDs provided on the contract are Microsoft Entra IDs. However, if the user ID provided for the OSM contact isn't a Microsoft Entra ID, the OSM can't be assigned a role in admin center. Instead, a "Tenant Discovery" email is sent to the OSM inviting them to sign in or sign up.
 
 When these contacts sign in to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, they can assign the VL Administrator role to other users. Those users can then access the Agreement (License ID) in the admin center without being listed on the original VL contract.
 
