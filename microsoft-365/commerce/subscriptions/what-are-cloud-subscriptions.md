@@ -54,7 +54,7 @@ Cloud subscriptions are different from standard subscriptions in the following w
 
 You can use cloud subscriptions to manage the products and services that you buy from us. You can view your list of cloud subscriptions and other details in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>. From there, you can link to the <a href="https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBladeV2" target="_blank">Azure portal</a> where you can manage the cloud subscriptions for your organization. For information about common cloud subscription tasks, see the following articles:
 
-## Frequently asked questions
+## Frequently asked questions (FAQs)
 
 Here are some common questions and answers about cloud subscriptions.
 
@@ -64,47 +64,47 @@ Cloud subscriptions are synonymous with Azure subscriptions. Microsoft is expand
 
 ### Where can I find my cloud subscription?
 
-1. In the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339""), go to the **Billing** > [Your products](https://go.microsoft.com/fwlink/p/?linkid=842054"") page and select the **Cloud Subscriptions** tab.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page and select the **Cloud Subscriptions** tab.
 1. Select a subscription name to view the details for that cloud subscription. The details page contains information about costs, billing settings, roles and access, and products included in the cloud subscription.
 1. To manage the subscription, at the top of the page, select **Manage this usage-based subscription and its resources in the Azure portal**.
 
 ### Do I get charged for creating and using cloud subscriptions?
 
-No. Cloud subscriptions don't incur charges, only the resources within. Cloud subscriptions are created and are used to manage the products and services that you purchase.
+No. Cloud subscriptions don't incur charges, only the resources within. Cloud subscriptions are created and used to manage the products and services that you buy.
 
 ### How do I manage cloud subscriptions?
 
-To see your cloud subscriptions, navigate to your list of subscriptions in the [Azure portal](https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBladeV2"") or click the link **Manage this usage-based subscription and its resources in the Azure portal**. on the details page of any cloud subscription From there, you can manage them using the Azure tools and services you’re already familiar with.
+To see your cloud subscriptions, navigate to your list of subscriptions in the <a href="https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBladeV2" target="_blank">Azure portal</a>, or select the link **Manage this usage-based subscription and its resources in the Azure portal**. on the details page of any cloud subscription. From there, you can manage your subscriptions using the Azure tools and services you’re already familiar with.
 
 ### Who has access to the cloud subscription?
 
-Cloud subscriptions are created either in an acquisition process like proposal acceptance or can be created as Azure subscriptions today. Cloud subscriptions, like Azure subscriptions, owners are the creating individual or anyone they [delegate management](https://github.com/MicrosoftDocs/azure-docs/blob/main/azure/lighthouse/how-to/view-manage-customers#view-and-manage-delegations) to. If the subscription was created during proposal acceptance, the purchaser is the subscription owner. You can use the Identity and Access Management (IAM) page for an individual cloud subscription to view and manage access.
+Cloud subscriptions are created either in an acquisition process like proposal acceptance or are created as Azure subscriptions today. Like Azure subscriptions, cloud subscriptions owners are the individuals who create the subscription or anyone they [delegate management](/azure/lighthouse/how-to/view-manage-customers#view-and-manage-delegations) to. If the subscription was created during proposal acceptance, the purchaser is the subscription owner. You can use the **Identity and Access Management** (IAM) page for an individual cloud subscription to view and manage access.
 
 ### What is the impact of cloud subscriptions?
 
-A cloud subscription is a management container that allows customers to manage the products and services they acquire from Microsoft commercially. You can use cloud subscriptions to:
+A cloud subscription is a management container that allows customers to manage the products and services they acquire from Microsoft commercially. You can use cloud subscriptions to do the following:
 
-- [Delegate management](https://github.com/MicrosoftDocs/azure-docs/blob/main/azure/lighthouse/how-to/view-manage-customers#view-and-manage-delegations) of the resources they contain to different teams or individuals
+- [Delegate management](/azure/lighthouse/how-to/view-manage-customers#view-and-manage-delegations) of the resources they contain to different teams or individuals
 
-- [Manage policies and controls for security and compliance](https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/governance/policy/tutorials/create-and-manage.md)
+- [Manage policies and controls for security and compliance](/azure-docs/blob/main/articles/governance/policy/tutorials/create-and-manage.md)
 
-- [Track budget and spend](https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/cost-management-billing/costs/tutorial-acm-create-budgets.md)
+- [Track budget and spend](/cost-management-billing/costs/tutorial-acm-create-budgets.md)
 
-- Perform [other management activities](https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/cost-management-billing/manage/manage-azure-subscription-policy.md) available to existing Azure subscriptions.
+- Perform [other management activities](/cost-management-billing/manage/manage-azure-subscription-policy.md) available to existing Azure subscriptions.
 
-If a specific resource doesn't support a particular manage action (self-service cancellation, transfer between different scopes like billing accounts or tenants) that operation is blocked at the subscription level until that resource is moved or removed.
+If a specific resource doesn't support a particular manage action (for example, self-service cancellation or transfer between different scopes like billing accounts or tenants) that operation is blocked at the subscription level until that resource is moved or removed.
 
 ### Can cloud subscriptions be canceled?
 
-Yes, cloud subscriptions can be canceled so long as all resources contained in the cloud subscription and its resource groups allow self-service cancellation. If a particular resource like the Microsoft Azure Consumption Commitment (MACC) doesn't support self-service cancellation, it will block cancellation and deletion of the subscription until it's moved or removed. Resources that don't allow self-service cancellation frequently have unique requirements to enable cancellation. Check product documentation for resources requiring special cancellation handling for more specific instructions.
+Yes. Cloud subscriptions can be canceled as long as all resources contained in the cloud subscription and its resource groups allow self-service cancellation. If a particular resource like the Microsoft Azure Consumption Commitment (MACC) doesn't support self-service cancellation, it blocks the cancellation and deletion of the subscription until it's moved or removed. Resources that don't allow self-service cancellation frequently have unique requirements to enable cancellation. Check product documentation for resources requiring special cancellation handling for more specific instructions.
 
 ### Can I choose not to use cloud subscriptions?
 
-No, cloud subscriptions are a requirement for the product and service resources that use them and provide important management capabilities those resources and resource providers rely on. Any product and service that requires cloud subscriptions won't be available without their dependent cloud subscription container.
+No. Cloud subscriptions are a requirement for the product and service resources that use them and provide important management capabilities those resources and resource providers rely on. Any product and service that requires cloud subscriptions isn't available without their dependent cloud subscription container.
 
 ### Why do I see so many cloud subscriptions?
 
-Cloud subscriptions are created when someone creates a cloud subscription directly or when someone makes a purchase that requires a cloud subscription. In some of these cases cloud subscriptions are created and named by the person creating them and in some cases they're named automatically and created as part of the purchase process. You can view all the cloud subscriptions in the **Cloud Subscriptions** tab of the **Billing** > [Your products](https://go.microsoft.com/fwlink/p/?linkid=842054"") page in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339"").
+Cloud subscriptions are created when someone creates a cloud subscription directly or when someone makes a purchase that requires a cloud subscription. In some cases, cloud subscriptions are created and named by the person creating them, while in other cases they're named automatically and created as part of the purchase process. You can view all the cloud subscriptions in the **Cloud Subscriptions** tab of the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Your products</a> page in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>.
 
 ## Related content
 
