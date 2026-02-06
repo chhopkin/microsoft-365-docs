@@ -24,6 +24,9 @@ End users aren't able to directly access any content that has been archived. Whe
 
 Users with edit permissions can easily archive files on SharePoint sites which have been enabled for file archiving.  To archive a file, the user can select one or more files and simply click the '*archive*' button. 
 
+![compressed-Archive_a_file_v13](media/archive-end-user/compressed-archive-a-file-v13.gif)
+
+---
 #### File archive experience - Reactivation
 
 End-users who encounter archived files can reactivate the file by navigating to the file in the SharePoint site or OneDrive account where the file is hosted.  As long as they have read permissions to that file, the user can reactivate by simply selecting the file and clicking the '*reactivate*' button. Reactivation can take up to 24 hours to complete.
