@@ -4,7 +4,7 @@ ms.author: v-fahasen
 author: fhasen-msft
 manager: Justin.Giammona
 ms.reviewer: jugiammo
-ms.date: 11/11/2025
+ms.date: 1/30/2026
 audience: ITPro
 ms.topic: overview
 ms.service: microsoft-365-enterprise
@@ -31,7 +31,7 @@ The following services are included in _ADR_. For more information, see:
 - [Exchange Online](m365-dr-workload-exo.md)
 - [Microsoft 365 Copilot and Microsoft 365 Copilot Chat](m365-dr-workload-copilot.md)
 - [Microsoft 365 web apps (formerly "Office for the Web")](m365-dr-workload-office-for-web.md)
-- [Microsoft Defender for Office P1 and the built-in security features for all cloud mailboxes](m365-dr-workload-mdo-p1.md)
+- [Microsoft Defender for Office P1 and the built-in security features for all cloud mailboxes (formerly Exchange Online Protection (EOP))](m365-dr-workload-mdo-p1.md)
 - [Microsoft Purview](m365-dr-workload-purview.md)*
   - [Audit (Standard)](m365-dr-workload-purview.md#risk--compliance---audit-standard)
   - [Audit (Premium)](m365-dr-workload-purview.md#risk--compliance---audit-premium)
@@ -134,7 +134,7 @@ The _Data Location Card_ in the Microsoft 365 admin center displays the most up-
 
 Microsoft adheres to the [Microsoft Online Services Service Level Agreement (SLA)](https://go.microsoft.com/fwlink/p/?LinkId=523897) for service availability and uses reasonable efforts to complete an _Advanced Data Residency add-on_ customer data migration within 12 months from the time the Tenant Global Admin selects the option to initiate migration. However, large, complex customers, and situations outside of Microsoft's control, may require more time for migration to complete.
 
-Data moves are a back-end service operation with minimal impact to a customer's operations. For information related to specific services, Tenant Global Admins can refer to the "Migration" sections in the following Service Data Residency Capabilities pages: [Exchange Online](m365-dr-workload-exo.md#migration), [SharePoint and OneDrive](m365-dr-workload-spo.md#migration-with-advanced-data-residency), [Microsoft Teams](m365-dr-workload-teams.md#migration), [Microsoft 365 Copilot and Microsoft 365 Copilot Chat](m365-dr-workload-copilot.md#migration-and-user-experience), [Microsoft Defender for Office P1](m365-dr-workload-mdo-p1.md#migration), [Microsoft 365 web apps (formerly known as "Office for the Web"](m365-dr-workload-office-for-web.md#migration), [Viva Connections](m365-dr-workload-viva-connections.md#migration), [Microsoft Purview](m365-dr-workload-purview.md#migration), and [Other Services](m365-dr-workload-other.md).
+Data moves are a back-end service operation with minimal impact to a customer's operations. For information related to specific services, Tenant Global Admins can refer to the "Migration" sections in the following Service Data Residency Capabilities pages: [Exchange Online](m365-dr-workload-exo.md#migration), [SharePoint and OneDrive](m365-dr-workload-spo.md#migration-with-advanced-data-residency), [Microsoft Teams](m365-dr-workload-teams.md#migration), [Microsoft 365 Copilot and Microsoft 365 Copilot Chat](m365-dr-workload-copilot.md#migration-and-user-experience), [Microsoft Defender for Office P1](m365-dr-workload-mdo-p1.md#migration), [Microsoft 365 web apps (formerly known as "Office for the Web")](m365-dr-workload-office-for-web.md#migration), [Viva Connections](m365-dr-workload-viva-connections.md#migration), [Microsoft Purview](m365-dr-workload-purview.md#migration), and [Other Services](m365-dr-workload-other.md).
 
 ### During and After your Migration
 
