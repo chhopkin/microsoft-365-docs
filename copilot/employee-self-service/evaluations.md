@@ -222,9 +222,97 @@ These query sets will be [uploaded as csv. files](/microsoft-copilot-studio/anal
 6.	Validates user context and roles: queries should confirm the agent adapts responses based on role, region, employment type, and other user specific context. Example: I’m a manager so how do I approve my employee’s medical leave request?
 
 
+### Here are a few examples of golden queries:
+
+| Category | Golden query | Expected response |
+|---------|--------------|-------------------|
+| When the agent should use specific steps | How do I view and download my pay stubs? | • Explain where to find paystubs (e.g., Workday > Pay > Pay slips).<br>• Include the exact steps to download the document.<br>• Reference the correct system with no made up policies.<br>• Adapt to the user's role or region, if relevant |
+| When certain information should be scoped | What benefits am I eligible for as a new full time employee? | • List the major benefit categories (medical, dental, vision, retirement) as defined by the customer’s policy, without hallucinating coverage.<br>• Reference the correct enrollment window and system<br>• Avoid offering advice on restricted topics, such as legal or financial guidance |
+| When a question should be redirected | Is my pay lower than my coworkers? | • Doesn’t provide an answer the question directly<br>• Avoids referencing individual employee data.<br>• Provides a supportive, neutral tone |
+| When the agent should generally respond a certain way (assertion) | Is Boxing Day a paid holiday? | • Must say no<br>• Must confirm this paid holiday is for full-time employees<br>• Must say employees in the US aren’t eligible for this holiday<br>• Must cite policy URL |
+| When the agent should generally respond a certain way (assertion) | How do I report a hardware issue using my mobile device? | - Must include the Support Portal URL: https://support.m365domain.com.<br>- Must confirm that this method is only for hardware issues<br>- Must cite the policy URL |
+
+## Adapt queries to user context variables like role and region
+When designing a golden query set, you need to intentionally include prompts that force the agent to adapt the expected response based on who the user is and where they are located which will be determined by the <user context variables setup in ESS>. The evaluation strategy should reflect the same personalization rules the ESS agent must respect in production.
+
+**Examples of variation in roles:**
+-	Employee vs. Manager: Managers should get guidance on approvals, escalations, and team‑level actions; employees should get self‑service steps only.
+-	New Hires: Include queries where onboarding steps differ from standard workflows (e.g., benefit eligibility timing, device setup).
+-	Contractors and vendors: Add scenarios where the correct expected response is: “You don’t have access to this system/benefit” because vendor entitlements differ.
+
+**Examples of variation in regions:**
+-	Holiday calendars (e.g., US vs. Asia), leave policies, eligibility requirements, pay cycles.
+-	Region‑specific IT workflows: VPN guidance, network issues, and device support often vary by office location or geography.
+-	Country‑specific systems or content sources: Payroll sources, travel portals, benefit providers, local compliance links, etc.
 
 
 
+## Best practices for defining the expected outcome 
+When writing the expected response, think of it as defining the exact behavior a high quality answer must deliver (also called an assertion when focusing on accuracy). This includes capturing the right tools, parameters, actions, and safeguards so the evaluator can reliably judge whether the agent met the standard. Here are the best practices for writing the expected response:
+1.	**Define the exact behaviors the agent must perform.** This includes the correct tool/connector to call, the required parameters (role, region, system), and the precise action or workflow outcome expected in the response. 
+2.	**Specify what “complete and correct” looks like.** Start by outlining the essential details the answer must contain (systems, steps, policy rules) into short assertions.
+3.	**Allow flexible surface‑level wording while enforcing critical boundaries.** This includes defining acceptable linguistic variations but requiring safety checks, identity confirmation, and other cautionary steps whenever personal or HR‑sensitive data is involved.
 
 
+## Build repeatability into the strategy to support continuous improvement
+Evaluations are the most useful when they can drive improvement loops. Follow these practices to get the most our of your evaluations efforts:
+1. **Make repeated test runs part of the normal development rhythm.** Rerun test sets every time content is updated, agent instructions are changed, new systems are integrated or a new version needs to be published. Because the evaluation tool returns comparable pass/fail results across runs, teams can quickly spot regressions caused by model changes, configuration updates, or knowledge base edits. 
+2. **Treat failures as actionable signals and feed them directly into your workflow.** Evaluations surface pass/fail which signals if ESS missed required content, used the wrong connector, returned the wrong region’s policy, or couldn’t access a needed system.
+
+
+## Process considerations for your evaluation strategy
+Setting up an evaluation strategy isn’t just about writing test cases, it’s also about designing a process that fits the shape, structure, and governance model of your organization. Every enterprise has different ownership models, systems, policies, and review flows. These cross functional realities will determine how you structure your golden queries, who reviews results, and how test sets should be organized.
+
+Below are the most common patterns and considerations that can help you define an evaluation strategy that works for your ESS agent and your broader organization.
+
+### Organizational structure and ownership model
+Most organizations have multiple sub domains that own different topics, for example:
+- HR: Benefits, compensation, mobility, leave, onboarding, employee relations
+- IT: Identity & access, endpoint/device, software, networking, support operations
+
+**Strategy impact:**
+- Create separate test sets by domain (e.g., Benefits, Leave, IT Access, Devices, etc.).
+- Assign domain specific owners to review test results.
+- Use tagging or separate CSVs so test results can be routed to the right teams.
+- Some teams will require legal, HR operations, IT security, or compliance signoff.
+
+### System complexity and integrations
+HR and IT have multiple integrated systems (Workday, ServiceNow, tools for payroll, travel, identity, device management). Response quality often depends on accurate connector calls and correct system routing.
+
+**Strategy impact:**
+- Create system specific test sets (e.g., Workday Profile Queries)
+- Define expected responses that include correct tool triggers and parameters.
+- Run regression tests every time a system’s configuration or permissions change.
+
+### Policy variation across regions and roles
+Enterprises with global workforces commonly have different rules for holidays, leave, eligibility, VPN requirements, payroll systems, and device support.
+
+**Strategy impact:**
+- Include region specific golden queries (e.g., “Am I eligible for parental leave in Germany?”).
+- Use user context variables (role, region) in testing to ensure responses adapt correctly.
+- Consider evaluating “US-only scenarios” etc. as separate test sets.
+
+### Role-based differences in permissions and workflows
+Managers, employees, contractors, and new hires often have different steps and entitlements, which can also vary by region.
+
+**Strategy impact:**
+- Create test sets that intentionally mix roles to expose gaps in personalization logic.
+- Validate refusal patterns for restricted access (“As a contractor, you do not have access…”).
+- Include manager specific workflows (approvals, team level tasks).
+
+### Governance, compliance, and risk tolerance
+More regulated industries like healthcare, financial services, government, pharma, etc. may have stricter thresholds for agent responses.
+
+**Strategy impact:**
+- Emphasize guardrail tests (RAI, sensitive topics, restricted data).
+- Include tests that confirm correct refusal patterns for all high risk categories.
+- Tighten expected responses to ensure no hallucinated policies or invented workflows.
+
+### Content lifecycle and frequency of change
+Benefits, payroll cycles, IT support standards, or troubleshooting instructions may update annually, or even quarterly. 
+
+**Strategy impact:**
+- Build your eval plan around policy change cycles.
+- Rerun test sets after every knowledge update or seasonal policy adjustment.
+- Run and evaluate tests that are “policy-sensitive” so they’re more closely monitored.
 
