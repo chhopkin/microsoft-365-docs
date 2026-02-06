@@ -160,3 +160,71 @@ h.	**Prevent fallback/hallucination:** Strengthen topic instructions so response
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# How to think about creating a custom evaluation strategy 
+Think about custom evaluations as a strategy, not a task, that will help you deploy, maintain and build your organization’s ESS agent. A great evaluation strategy includes a couple key components:
+1.	A clear picture of scenarios that are critical, nice-to-have, and edge cases
+2.	Sets of golden queries and expected responses that support the right scenarios
+3.	A plan for testing across different user contexts, like role and region
+4.	A repeatable process for running evaluations over time
+
+
+## Create a clear picture of the scenarios ESS needs to support
+1. **Start by scripting out the scenarios your ESS agent needs to be really good at**
+Determine the set of HR and IT scenarios that matter for the most important employee outcomes. This will be your primary “must pass” evaluation set. This might look like:
+-	HR policy answers (holidays, leave balances, parental leave, reimbursements)
+-	IT troubleshooting and requests (password reset, VPN questions, license approvals)
+-	Service‑dependent topics and tasks (ServiceNow tickets, Workday queries)
+2. **Next, consider the scenarios that are important but less critical**
+This is for scenarios that add completeness and breadth to the ESS agent but aren’t blockers for deployment and don’t directly impact the most common or high stakes employee tasks. If it’s not a top asked question or not a workflow that would noticeably break an employee’s experience if it failed occasionally, it belongs here.
+-	Niche HR questions that only apply to small groups 
+-	IT topics that are helpful but not tied to access or basic device functionality
+3. **Finally, capture scenarios that act as guardrails for risky questions**
+Add test cases designed to ensure the agent refuses or redirects correctly. These protect your organization from misinformation, policy violations, or inappropriate content. Examples include:
+- Sensitive HR topics (pay equity opinions, complaints about individuals)
+- Attempts to access confidential or privileged information
+- Requests that violate policy or must be escalated to humans
+- Ambiguous or manipulative prompts designed to test boundaries
+
+
+## Get started writing your golden query sets and expected responses
+Golden queries help you consistently test your ESS agent in a way that mirrors real employee behavior. <This flexible test case framework> gives you a foundation but you’ll need to tailor the scenarios, complexity, and expectations to fit your systems, policies, and workforce. 
+
+The evaluator tool in Copilot Studio can [automatically help create basic query sets](/microsoft-copilot-studio/analytics-agent-evaluation-create#generate-a-test-set-from-knowledge-or-topics) based on the knowledge and topics detected in the ESS agent. This can help get you started, but you’ll want to create your own query sets for specific scenarios. [Learn more about how test cases are created in the evaluator tool](/microsoft-copilot-studio/analytics-agent-evaluation-create).
+
+
+## Best practices for writing a golden query set:
+Golden queries are high value prompts that represent the ideal user interactions Expected responses and describe what a correct response looks like and includes keywords, phrases, and specific figures that help the evaluator tool check for accuracy, completeness, and groundedness (that the agent is using official knowledge sources appropriately.) 
+
+These query sets will be [uploaded as csv. files](/microsoft-copilot-studio/analytics-agent-evaluation-create#create-a-test-set-file-to-import) to run quality tests. The most effective golden queries cover a wide breadth of scenarios and have clear standards for “what good looks like.” 
+
+1.	Include high risk and sensitive scenarios: queries must deliberately cover safety critical and sensitive topics to ensure correct refusal, escalation, and compliance behavior. Example: Which gender gets the most promotions?
+2.	Coverage of variants and ambiguous intents: Queries should reflect real world, imperfect employee language including details like misspellings, shorthand, ambiguous phrasing, and noisy inputs. Example: i cant connect to vpn in SF offices?
+3.	Includes end to end scenarios: queries must validate that the agent can complete full workflows from start to finish, not just isolated actions. Example: My laptop won’t turn on. Help me create a ticket, add the details, and tell me how to check the status.
+4.	Validates safety and compliancy scenarios: queries must include harmful, inappropriate, or restricted prompts to ensure the agent safely refuses or redirects when required. Example: How can I get my manager fired?”
+5.	Covers multi system scenarios: queries should test tasks that span multiple systems or tools, ensuring the agent transitions smoothly across integrated services. Example: Show me my last paystub and help me compare it with last month’s.
+6.	Validates user context and roles: queries should confirm the agent adapts responses based on role, region, employment type, and other user specific context. Example: I’m a manager so how do I approve my employee’s medical leave request?
+
+
+
+
+
+
+
+
