@@ -74,7 +74,7 @@ No. Cloud subscriptions don't incur charges, only the resources within. Cloud su
 
 ### How do I manage cloud subscriptions?
 
-To see your cloud subscriptions, navigate to your list of subscriptions in the <a href="https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBladeV2" target="_blank">Azure portal</a>, or select the link **Manage this usage-based subscription and its resources in the Azure portal**. on the details page of any cloud subscription. From there, you can manage your subscriptions using the Azure tools and services you’re already familiar with.
+To see your cloud subscriptions, navigate to your list of subscriptions in the <a href="https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBladeV2" target="_blank">Azure portal</a>, or select the link **Manage this usage-based subscription and its resources in the Azure portal** on the details page of any cloud subscription. From there, you can manage your subscriptions using the Azure tools and services you’re already familiar with.
 
 ### Who has access to the cloud subscription?
 
@@ -88,7 +88,7 @@ A cloud subscription is a management container that allows customers to manage t
 
 - [Manage policies and controls for security and compliance](/azure/governance/policy/tutorials/create-and-manage)
 
-- [Track budget and spend](/azure/cost-management-billing/costs/tutorial-acm-create-budgets
+- [Track budget and spend](/azure/cost-management-billing/costs/tutorial-acm-create-budgets)
 
 - Perform [other management activities](/azure/cost-management-billing/manage/manage-azure-subscription-policy) available to existing Azure subscriptions.
 
