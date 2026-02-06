@@ -89,9 +89,73 @@ These tests fall into 3 main categories:
 
 
 
+## Recommended practices for using the datasets:
+The starter golden query sets are designed to spark ideas and help you quickly build your own evaluation library. These queries represent real capabilities, and popular kinds of prompts but every organization will need to tailor them to their systems, policies, and workflows. 
+1.	**Organize the prompts in a way that aligns with your org structure**. Group or split queries by sub-domain (HR for example is comprised of benefits, leave, policies, etc.), and consider different region, or topic area so results naturally flow to the correct reviewers.
+2.	**Customize expected responses using your knowledge sources and integrations**. Many prompts require system specific steps to get more meaningful evaluation results, like URLs, specific steps, or policy details. Replace generic expected responses with your organization's exact data.
+3.	**Adapt queries to reflect your employee population**. Add role specific and region specific variations so the evaluator can verify your personalization logic (e.g., managers vs. individual contributors, US vs. EU).
+4.	**Add or remove prompts to match your ESS scope**. If your deployment doesn’t use certain integrations (like Workday or Microsoft Self-Help), remove those prompts. If you have custom systems, add representative queries for them.
+5.	**Include both must pass scenarios and nice-to-have scenarios**. Keep critical workflows (e.g., VPN access, parental leave, device issues) but also test informal phrasing, misspellings, emotional tones, and vague prompts.
+6.	**Use the sets to build regression coverage**. Once customized, turn them into stable test sets you run after every update to topics, instructions, knowledge sources, or integrations.
+7.	**Continuously refine based on learnings, updates, and failures**. When a test fails, decide whether to fix the agent, revise the expected response, or split the scenario into more precise variants.
 
 
+## Knowledge tests
+### Specific knowledge tests
+Specific knowledge tests check whether the agent can answer the most common, knowledge/policy-based questions employees ask. These prompts have one correct answer based on your organization’s knowledge base, data systems, and workflows. Use these tests to validate accuracy, completeness, and grounding, especially for topics that directly impact trust, adoption, and support load. 
+#### Get started:
+1.	To test how the agent uses knowledge, use general quality, and compare meaning with a 70% pass rate. Text similarity can be added to better understand how keywords and phrases compare between the expected and actual responses.
+2.	If your agent doesn’t have any knowledge yet, <use the sample test set>, and upload the corresponding knowledge.
+3.	If your agent has some knowledge added already, use the <templated test set> and fill in the expected responses.
 
+<Screenshot>
+
+#### To fix quality issues for specific knowledge tests:
+1.	Most accuracy issues come from the agent not having clean, complete, or interpretable content from the knowledge source. Check the test result to confirm the right knowledge was used. Then, [check the quality of the source documents](/microsoft-365/employee-self-service/optimization-sharepoint) for outdated, vague, or conflicting content will reduce accuracy.
+2.	Consider adding or refining knowledge source instructions. Give each knowledge source clear instructions such as: “Use this document as the authoritative source for New York based PTO rules.” If you are using SharePoint as knowledge, you can [apply extra filtering that helps the most relevant content](/microsoft-365/employee-self-service/sharepoint-filtering) get to the right users.
+3.	[Agent instructions](/microsoft-365/employee-self-service/design-best-practices) can also be altered to change behaviors in using knowledge. Strengthen your agent’s global guidelines about using only approved knowledge sources, when to cite vs. when to summarize, and escalation rules or role based tailoring.
+4.	Review best practices for [optimizing knowledge in SharePoint](/microsoft-365/employee-self-service/optimization-sharepoint).
+
+
+### General knowledge tests
+These scenarios validate the agent’s baseline competency across broad topic areas and confirm it can provide helpful, consistent guidance from general knowledge sources on the web. This test also helps you quickly understand how the evaluator tool works without needing to add knowledge.
+#### Get started:
+1.	Make sure General knowledge is turned on, and you don't have any custom agent knowledge added. Turn on "Use general knowledge" by going to Settings > Knowledge > Use general knowledge toggle to ON.
+2.	Use this <starting set of prompts> to run a quick test across a variety of scenarios.
+3.	For a more specific test with stricter expected responses, use the <templated test set> and define the ideal expected response.
+4.	To test how the agent uses general knowledge, use general quality, and compare meaning with a 70% pass rate.
+
+<Screenshot>
+
+#### To fix quality issues for general knowledge tests:
+1.	If certain prompts are being answered using general knowledge but they should be answered using your organization’s knowledge, add knowledge sources that cover these rea in the agent’s knowledge.
+2.	If you decide you don’t want your agent to use general knowledge at all, turn the setting back to OFF.
+
+
+## Data and topics tests
+### SuccessFactors and Workday tests
+These tests measure whether the agent can correctly retrieve and interact with data from different connectors you have configured e.g. SuccessFactors, Workday. Use these tests to systematically check the different topics and actions that are enabled for your agent.
+
+> [!NOTE]
+> Known limitation: The Copilot Studio evaluator tool can’t evaluate content in an adaptive cards yet. 
+
+#### Get started:
+1.	Topics for these integrations need to be enabled before testing. 
+2.	Use the <sample test set> to run a general quality test with a generic expected response to get a sense of how the topics are responding.
+3.	Use the <templated test set> if you already have specific data that be added to the pre-written expected responses. Use a general quality test, a compare meaning test at 70%, and a capability use test. 
+
+<Screenshot>
+
+#### To fix quality issues for data tests:
+To fix data topic issues, start by validating authentication, confirming required fields exist, correct mappings, check API limitations, fix user context issues, update logic after HRIS changes, and ensure adaptive cards and topic flows match the system’s available data.
+a.	**Fix authentication & permissions:** Re verify OAuth and certificates and ensure the service user has required read/write permissions. 
+b.	**Correct field mappings:** Update OData or Workday field mappings when attributes are missing, renamed, or mismatched. 
+c.	**Resolve connectivity blocks:** Check proxies, firewalls, and endpoint configuration if the connector can’t reach Workday or SuccessFactors. 
+d.	**Address throttling or delays:** Reduce API call frequency or implement retry logic when hitting rate limits. 
+e.	**Fix user context issues:** Ensure employee/manager context loads correctly and that Workday “Get User Context” doesn’t fail. 
+f.	**Update logic after HRIS changes**: Re test topics after Workday/SF schema or system updates to catch newly broken fields. 
+g.	**Validate adaptive card behavior:** Update date rules, leave types, and validation logic for Workday time off scenarios. 
+h.	**Prevent fallback/hallucination:** Strengthen topic instructions so responses rely on Workday/SF data instead of general fallback content.
 
 
 
