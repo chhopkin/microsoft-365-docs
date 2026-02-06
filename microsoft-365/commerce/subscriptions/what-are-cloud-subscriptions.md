@@ -86,11 +86,11 @@ A cloud subscription is a management container that allows customers to manage t
 
 - [Delegate management](/azure/lighthouse/how-to/view-manage-customers#view-and-manage-delegations) of the resources they contain to different teams or individuals
 
-- [Manage policies and controls for security and compliance](/azure/governance/policy/tutorials/create-and-manage.md)
+- [Manage policies and controls for security and compliance](/azure/governance/policy/tutorials/create-and-manage)
 
-- [Track budget and spend](/azure/cost-management-billing/costs/tutorial-acm-create-budgets.md)
+- [Track budget and spend](/azure/cost-management-billing/costs/tutorial-acm-create-budgets
 
-- Perform [other management activities](/azure/cost-management-billing/manage/manage-azure-subscription-policy.md) available to existing Azure subscriptions.
+- Perform [other management activities](/azure/cost-management-billing/manage/manage-azure-subscription-policy) available to existing Azure subscriptions.
 
 If a specific resource doesn't support a particular manage action (for example, self-service cancellation or transfer between different scopes like billing accounts or tenants) that operation is blocked at the subscription level until that resource is moved or removed.
 
