@@ -7,7 +7,7 @@ ms.author: efrene
 author: Efrene
 ms.update-cycle: 180-days
 manager: scotv
-ms.date: 12/17/2025
+ms.date: 02/05/2026
 audience: Admin
 ms.reviewer: mandia
 ms.topic: overview
@@ -95,7 +95,7 @@ For more features, see [Copilot features in Microsoft 365 apps](#copilot-feature
 
 With Microsoft 365 Copilot Chat, you can draft content, review what you missed, and get answers to questions using open-ended prompts. This information is securely grounded in your work data.
 
-You can use Microsoft 365 Copilot Chat in Microsoft Teams, in the Microsoft 365 Copilot Chat app, at [Microsoft365.com](https://www.microsoft365.com/), and at [copilot.microsoft.com](https://copilot.microsoft.com/).
+You can use Microsoft 365 Copilot Chat in Microsoft Teams, in the Microsoft 365 Copilot Chat app, at [Microsoft365.com](https://www.microsoft365.com/), and at [m365.cloud.microsoft.com](https://m365.cloud.microsoft.com/).
 
 ✅ **Microsoft 365 Copilot Search**
 
