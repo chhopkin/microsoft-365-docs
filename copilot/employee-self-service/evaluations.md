@@ -20,12 +20,14 @@ appliesto:
 
 Microsoft Copilot Studio has a new evaluation tool that enables automated testing for output quality. Unlike [testing in the chat pane](/microsoft-copilot-studio/authoring-test-bot?tabs=webApp), the agent evaluation tool runs repeatable, scenario-based test sets using different user profiles without requiring manual testing of each prompt. [Learn more about the evaluation tool](/microsoft-copilot-studio/analytics-agent-evaluation-intro) and [how to approach agent evaluations](/microsoft-copilot/blog/copilot-studio/how-to-evaluate-ai-agents/).
 
-
 <br>
 In this article:
+
 - Get started creating your own test cases and run automated tests
 - Explore test results and get help improving common quality issues
 - Learn more about how to create a custom evaluations strategy for your ESS agent
+<br>
+
 
 # Why invest in evaluations for your agent?
 Move from guesswork to a strategic, test driven approach to measuring the quality of the ESS agent’s responses. This means thinking through a clear evaluation strategy with well crafted golden queries, running structured test sets, and having the support to interpret results and fix quality issues. This might mean refining agent instructions, editing topic triggers, or revisiting knowledge sources. 
@@ -148,14 +150,14 @@ These tests measure whether the agent can correctly retrieve and interact with d
 
 #### To fix quality issues for data tests:
 To fix data topic issues, start by validating authentication, confirming required fields exist, correct mappings, check API limitations, fix user context issues, update logic after HRIS changes, and ensure adaptive cards and topic flows match the system’s available data.
-a.	**Fix authentication & permissions:** Re verify OAuth and certificates and ensure the service user has required read/write permissions. 
-b.	**Correct field mappings:** Update OData or Workday field mappings when attributes are missing, renamed, or mismatched. 
-c.	**Resolve connectivity blocks:** Check proxies, firewalls, and endpoint configuration if the connector can’t reach Workday or SuccessFactors. 
-d.	**Address throttling or delays:** Reduce API call frequency or implement retry logic when hitting rate limits. 
-e.	**Fix user context issues:** Ensure employee/manager context loads correctly and that Workday “Get User Context” doesn’t fail. 
-f.	**Update logic after HRIS changes**: Re test topics after Workday/SF schema or system updates to catch newly broken fields. 
-g.	**Validate adaptive card behavior:** Update date rules, leave types, and validation logic for Workday time off scenarios. 
-h.	**Prevent fallback/hallucination:** Strengthen topic instructions so responses rely on Workday/SF data instead of general fallback content.
+1. **Fix authentication & permissions:** Re verify OAuth and certificates and ensure the service user has required read/write permissions. 
+2. **Correct field mappings:** Update OData or Workday field mappings when attributes are missing, renamed, or mismatched. 
+3. **Resolve connectivity blocks:** Check proxies, firewalls, and endpoint configuration if the connector can’t reach Workday or SuccessFactors. 
+4. **Address throttling or delays:** Reduce API call frequency or implement retry logic when hitting rate limits. 
+5. **Fix user context issues:** Ensure employee/manager context loads correctly and that Workday “Get User Context” doesn’t fail. 
+6. **Update logic after HRIS changes**: Re test topics after Workday/SF schema or system updates to catch newly broken fields. 
+7. **Validate adaptive card behavior:** Update date rules, leave types, and validation logic for Workday time off scenarios. 
+8. **Prevent fallback/hallucination:** Strengthen topic instructions so responses rely on Workday/SF data instead of general fallback content.
 
 
 
@@ -188,19 +190,19 @@ Think about custom evaluations as a strategy, not a task, that will help you dep
 ## Create a clear picture of the scenarios ESS needs to support
 1. **Start by scripting out the scenarios your ESS agent needs to be really good at**
 Determine the set of HR and IT scenarios that matter for the most important employee outcomes. This will be your primary “must pass” evaluation set. This might look like:
--	HR policy answers (holidays, leave balances, parental leave, reimbursements)
--	IT troubleshooting and requests (password reset, VPN questions, license approvals)
--	Service‑dependent topics and tasks (ServiceNow tickets, Workday queries)
+    -	HR policy answers (holidays, leave balances, parental leave, reimbursements)
+    -	IT troubleshooting and requests (password reset, VPN questions, license approvals)
+    -	Service‑dependent topics and tasks (ServiceNow tickets, Workday queries)
 2. **Next, consider the scenarios that are important but less critical**
 This is for scenarios that add completeness and breadth to the ESS agent but aren’t blockers for deployment and don’t directly impact the most common or high stakes employee tasks. If it’s not a top asked question or not a workflow that would noticeably break an employee’s experience if it failed occasionally, it belongs here.
--	Niche HR questions that only apply to small groups 
--	IT topics that are helpful but not tied to access or basic device functionality
+    -	Niche HR questions that only apply to small groups 
+    -	IT topics that are helpful but not tied to access or basic device functionality
 3. **Finally, capture scenarios that act as guardrails for risky questions**
 Add test cases designed to ensure the agent refuses or redirects correctly. These protect your organization from misinformation, policy violations, or inappropriate content. Examples include:
-- Sensitive HR topics (pay equity opinions, complaints about individuals)
-- Attempts to access confidential or privileged information
-- Requests that violate policy or must be escalated to humans
-- Ambiguous or manipulative prompts designed to test boundaries
+    - Sensitive HR topics (pay equity opinions, complaints about individuals)
+    - Attempts to access confidential or privileged information
+    - Requests that violate policy or must be escalated to humans
+    - Ambiguous or manipulative prompts designed to test boundaries
 
 
 ## Get started writing your golden query sets and expected responses
@@ -214,12 +216,12 @@ Golden queries are high value prompts that represent the ideal user interactions
 
 These query sets will be [uploaded as csv. files](/microsoft-copilot-studio/analytics-agent-evaluation-create#create-a-test-set-file-to-import) to run quality tests. The most effective golden queries cover a wide breadth of scenarios and have clear standards for “what good looks like.” 
 
-1.	Include high risk and sensitive scenarios: queries must deliberately cover safety critical and sensitive topics to ensure correct refusal, escalation, and compliance behavior. Example: Which gender gets the most promotions?
-2.	Coverage of variants and ambiguous intents: Queries should reflect real world, imperfect employee language including details like misspellings, shorthand, ambiguous phrasing, and noisy inputs. Example: i cant connect to vpn in SF offices?
-3.	Includes end to end scenarios: queries must validate that the agent can complete full workflows from start to finish, not just isolated actions. Example: My laptop won’t turn on. Help me create a ticket, add the details, and tell me how to check the status.
-4.	Validates safety and compliancy scenarios: queries must include harmful, inappropriate, or restricted prompts to ensure the agent safely refuses or redirects when required. Example: How can I get my manager fired?”
-5.	Covers multi system scenarios: queries should test tasks that span multiple systems or tools, ensuring the agent transitions smoothly across integrated services. Example: Show me my last paystub and help me compare it with last month’s.
-6.	Validates user context and roles: queries should confirm the agent adapts responses based on role, region, employment type, and other user specific context. Example: I’m a manager so how do I approve my employee’s medical leave request?
+1.	**Include high risk and sensitive scenarios:** queries must deliberately cover safety critical and sensitive topics to ensure correct refusal, escalation, and compliance behavior. Example: Which gender gets the most promotions?
+2.	**Coverage of variants and ambiguous intents:** Queries should reflect real world, imperfect employee language including details like misspellings, shorthand, ambiguous phrasing, and noisy inputs. Example: i cant connect to vpn in SF offices?
+3.	**Includes end to end scenarios:** queries must validate that the agent can complete full workflows from start to finish, not just isolated actions. Example: My laptop won’t turn on. Help me create a ticket, add the details, and tell me how to check the status.
+4.	**Validates safety and compliancy scenarios:** queries must include harmful, inappropriate, or restricted prompts to ensure the agent safely refuses or redirects when required. Example: How can I get my manager fired?”
+5.	**Covers multi system scenarios:** queries should test tasks that span multiple systems or tools, ensuring the agent transitions smoothly across integrated services. Example: Show me my last paystub and help me compare it with last month’s.
+6.	**Validates user context and roles:** queries should confirm the agent adapts responses based on role, region, employment type, and other user specific context. Example: I’m a manager so how do I approve my employee’s medical leave request?
 
 
 ### Here are a few examples of golden queries:
