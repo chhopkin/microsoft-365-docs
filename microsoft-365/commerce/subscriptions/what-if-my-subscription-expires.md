@@ -44,6 +44,9 @@ A subscription goes through the following statuses over the course of its lifecy
 
 Active > Expired > Disabled > Deleted
 
+> [!NOTE]
+> As of February 9, 2026, the **Expired** lifecycle state no longer applies to license-based subscriptions bought directly through a Microsoft Customer Agreement. Instead, you can continue to access our services without disruption after the subscription end date, until the subscription is either renewed or canceled.
+
 The **Expired** status starts immediately after the subscription reaches its end date, regardless of whether it expired naturally by reaching the end of the subscription term, you turned off recurring billing, canceled, or upgraded it.
 
 The subscription only enters the **Expired** status after all the licenses are removed. If you order fewer than the original number of licenses, the subscription doesn’t enter the **Expired** status. Instead, admins have 90 days to resolve the conflict for any assigned licenses in excess of the purchased quantity. During this 90 day period there’s no service interruption to subscriptions that are assigned on a per user basis. For nonuser based subscriptions, like Office 365 Extra File Storage for SharePoint, a reduction in the license quantity immediately results in reduced storage. For Enterprise volume licensing customers, we recommend placing an Online Reservation to restore service, and then contact your licensing partner to understand why there was a reduction in licenses.
