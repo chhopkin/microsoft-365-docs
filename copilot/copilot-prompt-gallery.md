@@ -23,7 +23,7 @@ description: "Learn about the Copilot Prompt Gallery and how your users can use 
 
 Microsoft Prompt Gallery in Copilot is a resource of Microsoft-created prompts, videos, and articles that help your users understand and use Microsoft Copilot effectively. Prompt Gallery is available within Microsoft 365 Copilot or Copilot Chat.
 
-As an admin, you can use analytics and reporting tools to track usage and engagement with Prompt Gallery content, including the following:
+As an admin, you can use analytics and reporting tools to track usage and engagement with Prompt Gallery content, including the following data:
 
 - The saved, liked, and shared prompts of a specific user.
 - The prompts shared with a specific team.
