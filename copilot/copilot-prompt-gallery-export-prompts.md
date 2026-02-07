@@ -4,7 +4,7 @@ description: "Provides admins the steps to export prompts that users saved, like
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.reviewer: viveksh
+ms.reviewer: viveksh, amk
 ms.date: 10/31/2025
 audience: Admin
 ms.topic: how-to
