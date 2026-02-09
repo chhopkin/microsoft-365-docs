@@ -308,7 +308,7 @@ When writing the expected response, think of it as defining the exact behavior a
 
 
 ## Build repeatability into the strategy to support continuous improvement
-Evaluations are the most useful when they can drive improvement loops. Follow these practices to get the most our of your evaluations efforts:
+Evaluations are the most useful when they can drive improvement loops. Follow these practices to get the most out of your evaluations efforts:
 1. **Make repeated test runs part of the normal development rhythm.** Rerun test sets every time content is updated, agent instructions are changed, new systems are integrated or a new version needs to be published. Because the evaluation tool returns comparable pass/fail results across runs, teams can quickly spot regressions caused by model changes, configuration updates, or knowledge base edits. 
 2. **Treat failures as actionable signals and feed them directly into your workflow.** Evaluations surface pass/fail which signals if Employee Self-Service missed required content, used the wrong connector, returned the wrong region's policy, or couldn't access a needed system.
 
