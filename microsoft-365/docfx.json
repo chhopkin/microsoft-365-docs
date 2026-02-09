@@ -197,7 +197,6 @@
       "sensitive-language-wl": {
         "exclude": [
           "frontline/shifts-connector-ukg-prerequisites.md"
-
         ]
       },
       "sensitive-language-bl": {
