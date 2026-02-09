@@ -19,7 +19,7 @@ appliesto:
 
 # Response quality evaluations for the Employee Self-Service agent
 
-Microsoft Copilot Studio has a new evaluation tool that enables automated testing for output quality. Unlike [testing in the chat pane](/microsoft-copilot-studio/authoring-test-bot?tabs=webApp), the agent evaluation tool runs repeatable, scenario-based test sets using different user profiles without requiring manual testing of each prompt. [Learn more about the evaluation tool](/microsoft-copilot-studio/analytics-agent-evaluation-intro) and [how to approach agent evaluations](/microsoft-copilot/blog/copilot-studio/how-to-evaluate-ai-agents/).
+Microsoft Copilot Studio has a new evaluation tool that enables automated testing for output quality. Unlike [testing in the chat pane](/microsoft-copilot-studio/authoring-test-bot?tabs), the agent evaluation tool runs repeatable, scenario-based test sets using different user profiles without requiring manual testing of each prompt. [Learn more about the evaluation tool](/microsoft-copilot-studio/analytics-agent-evaluation-intro) and [how to approach agent evaluations](/microsoft-copilot/blog/copilot-studio/how-to-evaluate-ai-agents/).
 
 <br>
 In this article:
@@ -49,7 +49,7 @@ Copilot Studio evaluations are made up of test sets, which contain test cases. A
 
 To validate and improve agent quality at the right level of depth, Copilot Studio offers several evaluation options today. The content in this article focuses on running evaluations on your own custom query sets.
 
-1. **Quickly generate prompts for general quality checks**. [Use AI‑generated prompts](microsoft-copilot-studio/analytics-agent-evaluation-create#generate-a-test-set-from-knowledge-or-topics) when you want a fast, lightweight pulse check on your agent's behavior based on knowledge and topics set up in Employee Self-Service. This option is great for early exploration, spot‑checking new features, or validating a small change before doing deeper testing. These prompts help you identify surface‑level issues without needing a full test set. 
+1. **Quickly generate prompts for general quality checks**. [Use AI‑generated prompts](/microsoft-copilot-studio/analytics-agent-evaluation-create#generate-a-test-set-from-knowledge-or-topics) when you want a fast, lightweight pulse check on your agent's behavior based on knowledge and topics set up in Employee Self-Service. This option is great for early exploration, spot‑checking new features, or validating a small change before doing deeper testing. These prompts help you identify surface‑level issues without needing a full test set. 
 2.	**Use the "Evaluate" function in the Test pane for deeper, scenario‑level validation**. [From the Test copilot pane](/microsoft-copilot-studio/analytics-agent-evaluation-create#create-a-new-test-set), you can run an evaluation directly on the conversation you're testing. 
 3.	**Save a live conversation as an evaluation snapshot**. [Turn a real test chat interaction into a reusable evaluation artifact](/microsoft-copilot-studio/authoring-test-bot?tabs=webApp#save-conversation-snapshots). Saving a snapshot captures the full conversation and diagnostic details, allowing you to analyze what went wrong and convert that interaction into a future test case you can run again as part of your regression set.
 4.	**Run evals on your own custom query sets**. [Use custom agent evaluations by uploading a csv. file](/microsoft-copilot-studio/analytics-agent-evaluation-create#create-a-test-set-file-to-import) when you need a repeatable, scalable, regression‑safe method for measuring quality. Custom test sets let you define expected responses, apply multiple graders, simulate user profiles, and compare results across versions over time. *Most of the guidance in this document focuses on this kind of evaluation*.
@@ -114,10 +114,10 @@ Specific knowledge tests check whether the agent can answer the most common, kno
 3.	If your agent has some knowledge added already, use the templated test set and fill in the expected responses.
 
 **To fix quality issues for specific knowledge tests:**
-1.	Most accuracy issues come from the agent not having clean, complete, or interpretable content from the knowledge source. Check the test result to confirm the right knowledge was used. Then, [check the quality of the source documents](/microsoft-365/employee-self-service/optimization-sharepoint) for outdated, vague, or conflicting content reduces accuracy.
-2.	Consider adding or refining knowledge source instructions. Give each knowledge source clear instructions such as: "Use this document as the authoritative source for New York based paid time off rules." If you're using SharePoint as knowledge, you can [apply extra filtering that helps the most relevant content](/microsoft-365/employee-self-service/sharepoint-filtering) get to the right users.
-3.	[Agent instructions](/microsoft-365/employee-self-service/design-best-practices) can also be altered to change behaviors in using knowledge. Strengthen your agent's global guidelines about using only approved knowledge sources, when to cite vs. when to summarize, and escalation rules or role based tailoring.
-4.	Review best practices for [optimizing knowledge in SharePoint](/microsoft-365/employee-self-service/optimization-sharepoint).
+1.	Most accuracy issues come from the agent not having clean, complete, or interpretable content from the knowledge source. Check the test result to confirm the right knowledge was used. Then, [check the quality of the source documents](optimization-sharepoint.md) for outdated, vague, or conflicting content reduces accuracy.
+2.	Consider adding or refining knowledge source instructions. Give each knowledge source clear instructions such as: "Use this document as the authoritative source for New York based paid time off rules." If you're using SharePoint as knowledge, you can [apply extra filtering that helps the most relevant content](sharepoint-filtering.md) get to the right users.
+3.	[Agent instructions](design-best-practices.md) can also be altered to change behaviors in using knowledge. Strengthen your agent's global guidelines about using only approved knowledge sources, when to cite vs. when to summarize, and escalation rules or role based tailoring.
+4.	Review best practices for [optimizing knowledge in SharePoint](optimization-sharepoint.md).
 
 
 #### General knowledge tests
@@ -217,7 +217,7 @@ c.	Remove vague triggers that overlap with other topics.
 
 
 #### Responsible AI tests
-[Responsible AI (RAI)](/ai/responsible-ai?msockid=0228b7910e8d6cc51e98a3d70fa06d56) scenarios are prompts that should either never be answered, or that should be escalated depending on your organization’s policies. Agents built in Copilot Studio will automatically not provide answers to these kinds of prompts. Employee Self-Service customers can choose to create topics to escalate certain cases to specific resources. 
+[Responsible AI (RAI)](/ai/responsible-ai) scenarios are prompts that should either never be answered, or that should be escalated depending on your organization’s policies. Agents built in Copilot Studio will automatically not provide answers to these kinds of prompts. Employee Self-Service customers can choose to create topics to escalate certain cases to specific resources. 
 Note: Quality tests in general will fail for this test because the agent won’t provide an answer, but the compare meaning score will pass at 100%.
 **Get started:**
 1.	Use the starter test set to run a quick test across scenarios that shouldn’t be answered
@@ -227,9 +227,6 @@ Note: Quality tests in general will fail for this test because the agent won’t
 **To fix quality issues for RAI tests:**
 1.	For prompts that pass: No further action is necessary unless your organization decides they want to escalate certain conversation to another channel.
 2.	For prompts that fail: This means this particular prompt isn’t automatically detected by the responsible AI system in Copilot Studio or other knowledge or topics you may have setup. 
-
-
-
 
 
 
@@ -289,7 +286,7 @@ These query sets are [uploaded as csv. files](/microsoft-copilot-studio/analytic
 | When the agent should generally respond a certain way (assertion) | How do I report a hardware issue using my mobile device? | - Must include the Support Portal URL: https://support.m365domain.com.<br>- Must confirm that this method is only for hardware issues<br>- Must cite the policy URL |
 
 ### Adapt queries to user context variables like role and region
-When designing a golden query set, you need to intentionally include prompts that force the agent to adapt the expected response based on who the user is and where they're located which are determined by the <user context variables set up in ESS>. The evaluation strategy should reflect the same personalization rules the Employee Self-Service agent must respect in production.
+When designing a golden query set, you need to intentionally include prompts that force the agent to adapt the expected response based on who the user is and where they're located which are determined by the user context variables set up in Employee Self-Service. The evaluation strategy should reflect the same personalization rules the Employee Self-Service agent must respect in production.
 
 **Examples of variation in roles:**
 -	Employee vs. Manager: Managers should get guidance on approvals, escalations, and team‑level actions; employees should get self‑service steps only.
