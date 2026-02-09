@@ -16,7 +16,7 @@ ai-usage: ai-assisted
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Overview
+# Block resource accounts on Teams Rooms devices in Microsoft 365
 
 This setting prevents shared resource accounts on Teams Rooms devices from accessing Microsoft 365 files- such as those stored in OneDrive or SharePoint- outside of their intended meeting scenarios. Without this restriction, a Teams Rooms device could retain access before or after meetings, increasing the risk of unauthorized data exposure.
 
