@@ -16,7 +16,7 @@ ai-usage: ai-assisted
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
-# Block unmanaged devices and resource account in Microsoft 365
+# Block unmanaged devices and resource accounts in Microsoft 365
 
 This setting prevents unmanaged devices and resource accounts- such as Teams Rooms devices- from signing in to other Microsoft 365 apps. These devices are intended to be used only with the Teams Rooms experience. Allowing them to authenticate to additional apps increases the risk of unauthorized data access and broadens your organization's attack surface.
 
