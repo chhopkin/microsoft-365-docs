@@ -23,4 +23,5 @@ This setting prevents unmanaged devices and resource accounts- such as Teams Roo
 ## Why this setting matters
 
 Teams Rooms devices rely on resource accounts that typically aren't fully managed or monitored like standard user identities. While device compliance policies restrict how these devices access Teams Rooms, users might still attempt to sign in to other Microsoft 365 apps if those apps aren't explicitly blocked. This can expose sensitive data and create an unintended path for unauthorized access. Enforcing this setting ensures that Teams Rooms devices can only sign in to the Teams Rooms app, helping reduce data exposure risks.
-For more information, see Block non-compliant Teams rooms devices.
+
+For more information, see [Block non-compliant Teams rooms devices](/MicrosoftTeams/rooms/block-non-compliant-teams-rooms-devices).

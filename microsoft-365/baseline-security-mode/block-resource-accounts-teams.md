@@ -24,4 +24,4 @@ This setting prevents shared resource accounts on Teams Rooms devices from acces
 
 Teams Rooms devices typically use resource accounts that aren't tied to a single user and may not be governed by the same controls as standard user accounts. When these accounts can access Microsoft 365 files, they might unintentionally retain access to documents beyond a meeting, or gain access to files not meant for shared devices. This creates data leakage risks, especially in environments where multiple users interact with the same meeting room device. Enforcing this setting ensures that Teams Rooms devices have only the access required for their meeting functionality and nothing more.
 
-For more information, see Block resource accounts on Teams Rooms devices from accessing Microsoft 365 files.
+For more information, see [Block resource accounts on Teams Rooms devices from accessing Microsoft 365 files.](/MicrosoftTeams/rooms/block-non-compliant-teams-rooms-devices)
