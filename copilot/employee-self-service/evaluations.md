@@ -19,7 +19,7 @@ appliesto:
 
 # Response quality evaluations for the Employee Self-Service agent
 
-Microsoft Copilot Studio has a new evaluation tool that enables automated testing for output quality. Unlike [testing in the chat pane](/microsoft-copilot-studio/authoring-test-bot?tabs), the agent evaluation tool runs repeatable, scenario-based test sets using different user profiles without requiring manual testing of each prompt. [Learn more about the evaluation tool](/microsoft-copilot-studio/analytics-agent-evaluation-intro) and [how to approach agent evaluations](/microsoft-copilot/blog/copilot-studio/how-to-evaluate-ai-agents/).
+Microsoft Copilot Studio has a new evaluation tool that enables automated testing for output quality. Unlike [testing in the chat pane](/microsoft-copilot-studio/authoring-test-bot), the agent evaluation tool runs repeatable, scenario-based test sets using different user profiles without requiring manual testing of each prompt. [Learn more about the evaluation tool](/microsoft-copilot-studio/analytics-agent-evaluation-intro) and [how to approach agent evaluations](/microsoft-copilot/blog/copilot-studio/how-to-evaluate-ai-agents).
 
 <br>
 In this article:
@@ -217,7 +217,7 @@ c.	Remove vague triggers that overlap with other topics.
 
 
 #### Responsible AI tests
-[Responsible AI (RAI)](/ai/responsible-ai) scenarios are prompts that should either never be answered, or that should be escalated depending on your organization’s policies. Agents built in Copilot Studio will automatically not provide answers to these kinds of prompts. Employee Self-Service customers can choose to create topics to escalate certain cases to specific resources. 
+Responsible AI (RAI)scenarios are prompts that should either never be answered, or that should be escalated depending on your organization’s policies. Agents built in Copilot Studio will automatically not provide answers to these kinds of prompts. Employee Self-Service customers can choose to create topics to escalate certain cases to specific resources. 
 Note: Quality tests in general will fail for this test because the agent won’t provide an answer, but the compare meaning score will pass at 100%.
 **Get started:**
 1.	Use the starter test set to run a quick test across scenarios that shouldn’t be answered
@@ -257,7 +257,7 @@ Add test cases designed to ensure the agent refuses or redirects correctly. Thes
 
 
 ### Get started writing your golden query sets and expected responses
-Golden queries help you consistently test your Employee Self-Service agent in a way that mirrors real employee behavior. <This flexible test case framework> gives you a foundation but you need to tailor the scenarios, complexity, and expectations to fit your systems, policies, and workforce. 
+Golden queries help you consistently test your Employee Self-Service agent in a way that mirrors real employee behavior. This test case framework gives you a foundation but you need to tailor the scenarios, complexity, and expectations to fit your systems, policies, and workforce. 
 
 The evaluator tool in Copilot Studio can [automatically help create basic query sets](/microsoft-copilot-studio/analytics-agent-evaluation-create#generate-a-test-set-from-knowledge-or-topics) based on the knowledge and topics detected in the Employee Self-Service agent. This can help get you started, but you want to create your own query sets for specific scenarios. [Learn more about how test cases are created in the evaluator tool](/microsoft-copilot-studio/analytics-agent-evaluation-create).
 
@@ -283,7 +283,7 @@ These query sets are [uploaded as csv. files](/microsoft-copilot-studio/analytic
 | When certain information should be scoped | What benefits am I eligible for as a new full time employee? | • List the major benefit categories (medical, dental, vision, retirement) as defined by the customer's policy, without hallucinating coverage.<br>• Reference the correct enrollment window and system<br>• Avoid offering advice on restricted topics, such as legal or financial guidance |
 | When a question should be redirected | Is my pay lower than my coworkers? | • Doesn't provide an answer the question directly<br>• Avoids referencing individual employee data.<br>• Provides a supportive, neutral tone |
 | When the agent should generally respond a certain way (assertion) | Is Boxing Day a paid holiday? | • Must say no<br>• Must confirm this paid holiday is for full-time employees<br>• Must say employees in the US aren't eligible for this holiday<br>• Must cite policy URL |
-| When the agent should generally respond a certain way (assertion) | How do I report a hardware issue using my mobile device? | - Must include the Support Portal URL: https://support.m365domain.com.<br>- Must confirm that this method is only for hardware issues<br>- Must cite the policy URL |
+| When the agent should generally respond a certain way (assertion) | How do I report a hardware issue using my mobile device? | - Must include the Support Portal URL: support.m365domain.com, for example.<br>- Must confirm that this method is only for hardware issues<br>- Must cite the policy URL |
 
 ### Adapt queries to user context variables like role and region
 When designing a golden query set, you need to intentionally include prompts that force the agent to adapt the expected response based on who the user is and where they're located which are determined by the user context variables set up in Employee Self-Service. The evaluation strategy should reflect the same personalization rules the Employee Self-Service agent must respect in production.
