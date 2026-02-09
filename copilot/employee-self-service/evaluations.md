@@ -19,7 +19,7 @@ appliesto:
 
 # Response quality evaluations for the Employee Self-Service agent
 
-Microsoft Copilot Studio has a new evaluation tool that enables automated testing for output quality. Unlike [testing in the chat pane](/microsoft-copilot-studio/authoring-test-bot), the agent evaluation tool runs repeatable, scenario-based test sets using different user profiles without requiring manual testing of each prompt. [Learn more about the evaluation tool](/microsoft-copilot-studio/analytics-agent-evaluation-intro) and [how to approach agent evaluations](/microsoft-copilot/blog/copilot-studio/how-to-evaluate-ai-agents).
+Microsoft Copilot Studio has a new evaluation tool that enables automated testing for output quality. Unlike [testing in the chat pane](/microsoft-copilot-studio/authoring-test-bot), the agent evaluation tool runs repeatable, scenario-based test sets using different user profiles without requiring manual testing of each prompt. [Learn more about the evaluation tool](/microsoft-copilot-studio/analytics-agent-evaluation-intro).
 
 <br>
 In this article:
