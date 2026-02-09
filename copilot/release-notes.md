@@ -7,7 +7,7 @@ ms.author: kwekua
 author: kwekuako
 manager: scotv
 ms.update-cycle: 180-days
-ms.date: 1/27/2025
+ms.date: 2/9/2025
 audience: Admin
 ms.reviewer: briandesouza
 ms.topic: release-notes
@@ -31,6 +31,244 @@ This page lists the latest features and improvements for Microsoft 365 Copilot. 
 
 <!--- All features regardless of platform go here  -->
 <!-- 101270,100818,110355,80610,109718,101645,100669,100610,100361,100356,100354,98694 -->
+
+## February 10, 2026
+Updates released between January 27, 2025, February 10, 2026.
+### Microsoft 365 Copilot extensibility
+- **Admins can set up connector authentication faster with a simplified experience** [Web]
+
+  Admins can now set up connector authentication faster through a simplified and guided OAuth experience.
+
+  **Details:**
+
+  **What changed:** Previously, connector authentication required manual steps and extensive documentation. The new experience introduces a streamlined, guided OAuth flow that significantly reduces setup time.
+
+
+  **Why:** This change modernizes the authentication framework and reduces friction for admins configuring connectors.
+
+  **Try this:**
+
+  - Open connector setup and follow the guided OAuth flow.
+  - Complete authentication for supported connectors such as Gong, GitHub, or Monday.
+
+  **Why this matters:**
+
+  **Business impact:** Reduces configuration time and operational overhead for IT teams.
+
+  **Personal impact:** Makes connector setup faster and easier for admins.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Set up Microsoft 365 Copilot connectors in the Microsoft 365 admin center]( /microsoftsearch/configure-connector)
+
+- **Users can refresh Adaptive Cards in agents to view the latest information** [Web]  
+  
+  Users can refresh Adaptive Cards in agents to ensure they always see the most current information in their workflows.
+
+  **Details:**
+
+  **What changed:** Users can now refresh Adaptive Cards inside their agents to view updated information. Previously, cards remained static unless the agent was recreated or reloaded.
+
+  **Why:** This improvement helps users stay aligned with the latest data, reducing confusion and improving workflow accuracy.
+
+  **Try this:**
+
+
+  - Select the refresh option on an Adaptive Card inside your agent.
+  - Use the updated card to continue your workflow with the latest information.
+  - Check refreshed cards when reviewing time‑sensitive or changing data.
+
+  **Why this matters:**
+
+  **Business impact:** Ensures teams work with accurate, up‑to‑date information.
+
+  **Personal impact:** Reduces manual steps and helps individuals stay current with ongoing changes.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Allow inline editing of Adaptive Card responses (preview)](/microsoft-365-copilot/extensibility/adaptive-card-edits)
+
+- **Field teams can accelerate Copilot adoption using champion connectors** [Web]
+
+  Field teams can use getting started guides of champion connectors to guide customers through Copilot adoption with clear, consistent resources.
+
+  **Details:**
+
+  **What changed:** Field teams can now use getting started guides champion connectors to guide Copilot adoption in top accounts. This adds structured resources and best practices that were not available in earlier workflows.
+
+  **Why:** This change gives field teams consistent tools that help customers adopt Copilot more quickly and confidently.
+
+  **Try this:**
+
+
+  - Review champion connector resources available to your field team.
+  - Share the connector with top accounts beginning their Copilot journey.
+  - Use the resources to guide conversations about adoption planning.
+
+  **Why this matters:**
+
+  **Business impact:** Supports faster and more consistent Copilot adoption across key customer accounts.
+
+  **Personal impact:**  Makes it easier for individuals to provide clear, ready-to-use guidance.
+
+  **Additional Resources:**
+
+  **Learn:**
+
+  [Set up Microsoft 365 Copilot connectors in the Microsoft 365 admin center](/microsoftsearch/configure-connector)
+
+
+- **Declarative Agents help users stay in their workflow** [Web]]
+
+  URL‑based dialogs in Declarative Agents allow users to open linked experiences without leaving Copilot, helping them stay focused.
+
+  **Details:**
+
+  **What changed:** Developers can now enable URL‑based dialogs in Declarative Agents. This lets users open external pages or forms directly within Copilot. Previously, these workflows required switching apps or breaking context.
+
+  **Why:** This feature helps users complete tasks without interruption, supporting smoother and more connected workflows.
+
+  **Try this:**
+
+
+  - Open a Declarative Agent that includes a URL‑based dialog.
+  - Follow the dialog link to continue your workflow inside Copilot.
+  - Use the dialog to complete tasks that require external pages or forms.
+
+  **Why this matters:**
+
+  **Business impact:** Reduces context switching and improves workflow continuity.
+
+  **Personal impact:** Helps individuals complete tasks more efficiently without leaving Copilot.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Allow inline editing of Adaptive Card responses (preview)](/microsoft-365-copilot/extensibility/adaptive-card-edits)
+
+-  **More frequent ticket status updates for the ServiceNow Tickets Copilot connector** [Web]
+
+    The ServiceNow Tickets Copilot connector updates ticket status more frequently by ingesting both active and inactive tickets.
+
+    **Roadmap ID:** [505437](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=505437)
+
+    **Details:**
+
+    **What changed:** The ServiceNow Tickets Copilot connector now ingests both active and inactive tickets by default, improving how often ticket status changes appear in Copilot responses. Admins can also edit the data query filter to include inactive tickets for existing connections.
+
+    **Why:** Inactive tickets were not previously ingested, which could lead to outdated ticket status information in Copilot responses. 
+
+    **Try this:**
+
+    - Review the query filter for existing ServiceNow Tickets connections.
+    - Update the filter to include both active and inactive tickets if needed. 
+    - Communicate the change to your ServiceNow stakeholders and Copilot users. 
+
+    **Why this matters:**
+
+    **Business impact:** Improves the quality of Copilot responses that reference ServiceNow tickets by keeping ticket status information current. 
+
+    **Personal impact:** Reduces confusion by showing more up-to-date ticket statuses in Copilot answers.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Manage indexed properties](/microsoftsearch/servicenow-tickets-deployment#query-string)
+
+
+- **Query Miro boards and diagrams with Copilot connectors** [Web]
+
+  Connect Microsoft 365 Copilot to Miro with Copilot connectors so you can query visual boards and diagrams in Copilot.
+
+    **Roadmap ID:** [515166](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515166)
+
+    **Details:**
+
+    **What changed:** Microsoft 365 Copilot now supports a Miro Copilot connector, which makes Miro boards discoverable and usable in Microsoft 365 Copilot and Microsoft Search.
+
+    **Why:** This change helps people access Miro boards and visual planning work without leaving Microsoft 365.
+
+    **Try this:**
+
+    - Connect Microsoft 365 Copilot to Miro with a Copilot connector.
+    - Ask Copilot to summarize the content of a Miro board for a project.
+    - Ask Copilot to list action items on a Miro board.
+
+    **Why this matters:**
+
+    **Business impact:** Brings Miro board knowledge into Microsoft 365 Copilot so teams can find and use visual artifacts in the flow of work. 
+
+    **Personal impact:** Reduces time spent switching tools when you need context from a Miro board.
+
+  **Additional Resources:**
+
+    **Learn:**
+
+    [Deploy the Miro Microsoft 365 Copilot connector](/MicrosoftSearch/miro-deployment)
+
+
+- **Connect Copilot to GitHub Server with Copilot Connector** [Web]
+
+  Connect Copilot to your GitHub Server to retrieve and collaborate on issues, pull requests, and knowledge base content.
+
+  **Details:**
+
+  **What changed:**
+  The Copilot Connector enables a direct connection to GitHub Server. Users can bring issues, pull requests, and knowledge base content into Copilot to view and collaborate.
+
+  **Why:**
+  Centralizing software work items and documentation in Copilot saves time and reduces context switching during development and review activities.
+
+  **Try this:**
+
+
+  - Connect your GitHub Server and ask Copilot to list open issues for a repository.
+  - Use Copilot to summarize a pull request and highlight reviewers’ comments.
+  - Retrieve knowledge base articles to prepare a project briefing.
+
+  **Why this matters:**
+
+  **Business impact:** Speeds up review cycles and keeps development work aligned by consolidating information in one place.
+
+  **Personal impact:** Makes it easier for individuals to find and act on relevant GitHub items.
+
+
+### Teams
+- **Configure and manage agent manifests in Developer Portal**
+
+  Developer Portal now supports management and configuration of Agent Blueprints allowing developers to extend Agent 365 capabilities to their agents including enterprise‑grade identity, observability, notifications, security, and governed access to Microsoft 365 data.
+
+  **Details:**
+
+  **What changed:** Developer Portal now supports full lifecycle actions for agent manifests. Developers can create, edit, and manage manifest configuration in a single place to streamline setup.
+
+  **Why:** Centralizing manifest management reduces friction, improves consistency, and shortens setup time for agent-based solutions.
+
+  **Try this:**
+
+
+  - Create a new agent manifest and define its required settings.
+  - Update an existing manifest to refine configuration details.
+  - Review manifest properties to ensure consistent deployment.
+
+  **Why this matters:**
+
+  **Business impact:** Standardizes agent configuration and reduces setup errors across projects.
+
+  **Personal impact:** Makes it easier for individuals to manage agent settings without switching tools.
+
+  **Additional resources:**
+
+  **Learn:**
+  
+  [Agent Identity Blueprint](/microsoftteams/platform/concepts/build-and-test/manage-your-apps-in-developer-portal#agent-identity-blueprint)
+
 ## January 27, 2026
 Updates released between January 13, 2025, and January 27, 2026.
 ### Microsoft 365 Copilot Chat
@@ -450,7 +688,7 @@ Admins can configure a custom URL pointing to their AI policy documentation.
 
   **Why:** Helps users locate calendar items and prioritize activities faster.
 
-  **Try this**
+  **Try this:**
 
   - Ask Copilot: “Find meetings organized by Alex Johnson next week.”
   - Or: “Summarize action items from last 3 meetings organized by Sarah Davis.”
@@ -940,7 +1178,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Why this matters:**
 
-  **Business Impact**: Maintains brand identity across all content.
+  **Business impact:**: Maintains brand identity across all content.
 
   **Personal Impact:** Saves design time by eliminating manual asset searching.
 
@@ -5407,7 +5645,7 @@ Admins can configure a custom URL pointing to their AI policy documentation.
 
   **Why:** Helps users locate calendar items and prioritize activities faster.
 
-  **Try this**
+  **Try this:**
 
   - Ask Copilot: “Find meetings organized by Alex Johnson next week.”
   - Or: “Summarize action items from last 3 meetings organized by Sarah Davis.”
@@ -5492,7 +5730,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
   
   **Personal impact:** Makes everyday document tasks quicker and easier.
 
-  **Additional resources** 
+  **Additional resources:** 
 
   **Learn:**  
 [Add capabilities](/microsoft-365-copilot/extensibility/agent-builder-build-agents#add-capabilities)
@@ -5625,7 +5863,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Why this matters:**
 
-  **Business Impact**: Maintains brand identity across all content.
+  **Business impact:**: Maintains brand identity across all content.
 
   **Personal Impact:** Saves design time by eliminating manual asset searching.
 
@@ -5881,7 +6119,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Additional resources:**
 
-  **Learn**
+  **Learn:**
 
   [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry)
 
@@ -7593,6 +7831,210 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [Web](#tab/Web)
 
+## February 10, 2026
+Updates released between January 27, 2025, February 10, 2026.
+### Microsoft 365 Copilot extensibility
+- **Admins can set up connector authentication faster with a simplified experience** [Web]
+
+  Admins can now set up connector authentication faster through a simplified and guided OAuth experience.
+
+  **Details:**
+
+  **What changed:** Previously, connector authentication required manual steps and extensive documentation. The new experience introduces a streamlined, guided OAuth flow that significantly reduces setup time.
+
+
+  **Why:** This change modernizes the authentication framework and reduces friction for admins configuring connectors.
+
+  **Try this:**
+
+  - Open connector setup and follow the guided OAuth flow.
+  - Complete authentication for supported connectors such as Gong, GitHub, or Monday.
+
+  **Why this matters:**
+
+  **Business impact:** Reduces configuration time and operational overhead for IT teams.
+
+  **Personal impact:** Makes connector setup faster and easier for admins.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Set up Microsoft 365 Copilot connectors in the Microsoft 365 admin center]( /microsoftsearch/configure-connector)
+
+- **Users can refresh Adaptive Cards in agents to view the latest information** [Web]  
+  
+  Users can refresh Adaptive Cards in agents to ensure they always see the most current information in their workflows.
+
+  **Details:**
+
+  **What changed:** Users can now refresh Adaptive Cards inside their agents to view updated information. Previously, cards remained static unless the agent was recreated or reloaded.
+
+  **Why:** This improvement helps users stay aligned with the latest data, reducing confusion and improving workflow accuracy.
+
+  **Try this:**
+
+
+  - Select the refresh option on an Adaptive Card inside your agent.
+  - Use the updated card to continue your workflow with the latest information.
+  - Check refreshed cards when reviewing time‑sensitive or changing data.
+
+  **Why this matters:**
+
+  **Business impact:** Ensures teams work with accurate, up‑to‑date information.
+
+  **Personal impact:** Reduces manual steps and helps individuals stay current with ongoing changes.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Allow inline editing of Adaptive Card responses (preview)](/microsoft-365-copilot/extensibility/adaptive-card-edits)
+
+- **Field teams can accelerate Copilot adoption using champion connectors** [Web]
+
+  Field teams can use getting started guides of champion connectors to guide customers through Copilot adoption with clear, consistent resources.
+
+  **Details:**
+
+  **What changed:** Field teams can now use getting started guides champion connectors to guide Copilot adoption in top accounts. This adds structured resources and best practices that were not available in earlier workflows.
+
+  **Why:** This change gives field teams consistent tools that help customers adopt Copilot more quickly and confidently.
+
+  **Try this:**
+
+
+  - Review champion connector resources available to your field team.
+  - Share the connector with top accounts beginning their Copilot journey.
+  - Use the resources to guide conversations about adoption planning.
+
+  **Why this matters:**
+
+  **Business impact:** Supports faster and more consistent Copilot adoption across key customer accounts.
+
+  **Personal impact:**  Makes it easier for individuals to provide clear, ready-to-use guidance.
+
+  **Additional Resources:**
+
+  **Learn:**
+
+  [Set up Microsoft 365 Copilot connectors in the Microsoft 365 admin center](/microsoftsearch/configure-connector)
+
+
+- **Declarative Agents help users stay in their workflow** [Web]]
+
+  URL‑based dialogs in Declarative Agents allow users to open linked experiences without leaving Copilot, helping them stay focused.
+
+  **Details:**
+
+  **What changed:** Developers can now enable URL‑based dialogs in Declarative Agents. This lets users open external pages or forms directly within Copilot. Previously, these workflows required switching apps or breaking context.
+
+  **Why:** This feature helps users complete tasks without interruption, supporting smoother and more connected workflows.
+
+  **Try this:**
+
+
+  - Open a Declarative Agent that includes a URL‑based dialog.
+  - Follow the dialog link to continue your workflow inside Copilot.
+  - Use the dialog to complete tasks that require external pages or forms.
+
+  **Why this matters:**
+
+  **Business impact:** Reduces context switching and improves workflow continuity.
+
+  **Personal impact:** Helps individuals complete tasks more efficiently without leaving Copilot.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Allow inline editing of Adaptive Card responses (preview)](/microsoft-365-copilot/extensibility/adaptive-card-edits)
+
+-  **More frequent ticket status updates for the ServiceNow Tickets Copilot connector** [Web]
+
+    The ServiceNow Tickets Copilot connector updates ticket status more frequently by ingesting both active and inactive tickets.
+
+    **Roadmap ID:** [505437](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=505437)
+
+    **Details:**
+
+    **What changed:** The ServiceNow Tickets Copilot connector now ingests both active and inactive tickets by default, improving how often ticket status changes appear in Copilot responses. Admins can also edit the data query filter to include inactive tickets for existing connections.
+
+    **Why:** Inactive tickets were not previously ingested, which could lead to outdated ticket status information in Copilot responses. 
+
+    **Try this:**
+
+    - Review the query filter for existing ServiceNow Tickets connections.
+    - Update the filter to include both active and inactive tickets if needed. 
+    - Communicate the change to your ServiceNow stakeholders and Copilot users. 
+
+    **Why this matters:**
+
+    **Business impact:** Improves the quality of Copilot responses that reference ServiceNow tickets by keeping ticket status information current. 
+
+    **Personal impact:** Reduces confusion by showing more up-to-date ticket statuses in Copilot answers.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Manage indexed properties](/microsoftsearch/servicenow-tickets-deployment#query-string)
+
+- **Query Miro boards and diagrams with Copilot connectors** [Web]
+
+  Connect Microsoft 365 Copilot to Miro with Copilot connectors so you can query visual boards and diagrams in Copilot.
+
+    **Roadmap ID:** [515166](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515166)
+
+    **Details:**
+
+    **What changed:** Microsoft 365 Copilot now supports a Miro Copilot connector, which makes Miro boards discoverable and usable in Microsoft 365 Copilot and Microsoft Search.
+
+    **Why:** This change helps people access Miro boards and visual planning work without leaving Microsoft 365.
+
+    **Try this:**
+
+    - Connect Microsoft 365 Copilot to Miro with a Copilot connector.
+    - Ask Copilot to summarize the content of a Miro board for a project.
+    - Ask Copilot to list action items on a Miro board.
+
+    **Why this matters:**
+
+    **Business impact:** Brings Miro board knowledge into Microsoft 365 Copilot so teams can find and use visual artifacts in the flow of work. 
+
+    **Personal impact:** Reduces time spent switching tools when you need context from a Miro board.
+
+  **Additional Resources:**
+
+    **Learn:**
+
+    [Deploy the Miro Microsoft 365 Copilot connector](/MicrosoftSearch/miro-deployment)
+
+- **Connect Copilot to GitHub Server with Copilot Connector** [Web]
+
+  Connect Copilot to your GitHub Server to retrieve and collaborate on issues, pull requests, and knowledge base content.
+
+  **Details:**
+
+  **What changed:**
+  The Copilot Connector enables a direct connection to GitHub Server. Users can bring issues, pull requests, and knowledge base content into Copilot to view and collaborate.
+
+  **Why:**
+  Centralizing software work items and documentation in Copilot saves time and reduces context switching during development and review activities.
+
+  **Try this:**
+
+
+  - Connect your GitHub Server and ask Copilot to list open issues for a repository.
+  - Use Copilot to summarize a pull request and highlight reviewers’ comments.
+  - Retrieve knowledge base articles to prepare a project briefing.
+
+  **Why this matters:**
+
+  **Business impact:** Speeds up review cycles and keeps development work aligned by consolidating information in one place.
+
+  **Personal impact:** Makes it easier for individuals to find and act on relevant GitHub items.
+
 ## January 27, 2026
 Updates released between January 13, 2025, and January 27, 2026.
 ### Microsoft 365 Copilot Chat
@@ -7668,9 +8110,9 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Personal impact:** Reduces the need to manually review supporting content.
 
-    - **Bring your own Microsoft Foundry agents into Microsoft 365 Copilot** [Web]
+- **Bring your own Microsoft Foundry agents into Microsoft 365 Copilot** [Web]
 
-    Bring intelligent agents built and hosted in Microsoft Foundry into to Microsoft 365 Copilot and Microsoft Teams—tailored to your organization’s workflows, rules, and compliance needs.
+  Bring intelligent agents built and hosted in Microsoft Foundry into to Microsoft 365 Copilot and Microsoft Teams—tailored to your organization’s workflows, rules, and compliance needs.
 
     **What Changed:**
     You can now connect an existing Foundry agent to Microsoft 365 Copilot and Microsoft Teams via a proxy app built with the Microsoft 365 Agents Toolkit.
@@ -8100,7 +8542,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
 
   **Personal Impact:** Minimizes context switching and increases document creation efficiency
 
-  **Additional resources** 
+  **Additional resources:** 
 
   **Learn:**  
   [Google Drive Microsoft 365 Copilot connector overview](/microsoftsearch/google-drive-overview)
@@ -8155,7 +8597,7 @@ Organizations need AI-powered solutions that not only respond accurately but ant
   
   **Personal impact:** Makes everyday document tasks quicker and easier.
 
-  **Additional resources** 
+  **Additional resources:** 
 
   **Learn:**  
 [Add capabilities](/microsoft-365-copilot/extensibility/agent-builder-build-agents#add-capabilities)
@@ -8480,7 +8922,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Why this matters:**
 
-  **Business Impact**: Maintains brand identity across all content.
+  **Business impact:**: Maintains brand identity across all content.
 
   **Personal Impact:** Saves design time by eliminating manual asset searching.
 
@@ -8966,7 +9408,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Additional resources:**
 
-   **Learn**
+   **Learn:**
 
   [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry)
   
@@ -13383,7 +13825,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 - Configure SharePoint OAL or Templafy in Microsoft 365
 - Ask Copilot: “Create a marketing update deck using brand imagery.”
 **Why this matters:**
-**Business Impact**: Maintains brand identity across all content.
+**Business impact:**: Maintains brand identity across all content.
 **Personal Impact:** Saves design time by eliminating manual asset searching.
 **Additional resources:**
  <a href="/sharepoint/organization-assets-library" target="_blank">Learn more.</a>
@@ -14476,6 +14918,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
