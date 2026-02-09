@@ -1,5 +1,5 @@
 ---
-title: New title <<<
+title: Response quality evaluations for the Employee Self-Service agent
 f1.keywords: NOCSH
 ms.author: hokavian
 author: MicrosoftHeidi
@@ -17,7 +17,7 @@ appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# Title goes here
+# Response quality evaluations for the Employee Self-Service agent
 
 Microsoft Copilot Studio has a new evaluation tool that enables automated testing for output quality. Unlike [testing in the chat pane](/microsoft-copilot-studio/authoring-test-bot?tabs=webApp), the agent evaluation tool runs repeatable, scenario-based test sets using different user profiles without requiring manual testing of each prompt. [Learn more about the evaluation tool](/microsoft-copilot-studio/analytics-agent-evaluation-intro) and [how to approach agent evaluations](/microsoft-copilot/blog/copilot-studio/how-to-evaluate-ai-agents/).
 
@@ -31,14 +31,13 @@ In this article:
 
 
 ## Why invest in evaluations for your agent?
-Move from guesswork to a strategic, test driven approach to measuring the quality of the Employee Self-Service agent's responses. This approach means thinking through a clear evaluation strategy with well-crafted golden queries, running structured test sets, and having the support to interpret results and fix quality issues. These results might mean refining agent instructions, editing topic triggers, or revisiting knowledge sources. 
+Move from guesswork to a strategic, test driven approach to measuring the quality of the Employee Self-Service agent's responses. This approach means thinking through a clear evaluation strategy with golden queries, running structured test sets, and having the support to interpret results and fix quality issues. These results might mean refining agent instructions, editing topic triggers, or revisiting knowledge sources. 
 - Get a clearer picture on how your ESS agent responds and handles scenarios. 
 - Deploy faster with less risk by validating changes before production. 
 - Improve accuracy and relevance using grounded, consistent quality scoring. 
 - Prevent regressions caused by prompt, model, or configuration changes. 
 - Save manual QA time through automated dataset generation and evaluation. 
 - Increase employee trust with more consistent, complete, and correct answers. 
-- Demonstrate ROI with clear KPIs and analytics across conversation outcomes. 
 - Support governance and compliance with auditable, repeatable, objective evaluation practices. 
 
 
@@ -50,7 +49,7 @@ Copilot Studio evaluations are made up of test sets, which contain test cases. A
 
 To validate and improve agent quality at the right level of depth, Copilot Studio offers several evaluation options today. The content in this article focuses on running evaluations on your own custom query sets.
 
-1. **Quickly generate prompts for general quality checks**. [Use AI‑generated prompts](microsoft-copilot-studio/analytics-agent-evaluation-create#generate-a-test-set-from-knowledge-or-topics) when you want a fast, lightweight pulse check on your agent's behavior based on knowledge and topics setup in ESS. This is great for early exploration, spot‑checking new features, or validating a small change before doing deeper testing. These prompts help you identify surface‑level issues without needing a full test set. 
+1. **Quickly generate prompts for general quality checks**. [Use AI‑generated prompts](microsoft-copilot-studio/analytics-agent-evaluation-create#generate-a-test-set-from-knowledge-or-topics) when you want a fast, lightweight pulse check on your agent's behavior based on knowledge and topics set up in ESS. This option is great for early exploration, spot‑checking new features, or validating a small change before doing deeper testing. These prompts help you identify surface‑level issues without needing a full test set. 
 2.	**Use the "Evaluate" function in the Test pane for deeper, scenario‑level validation**. [From the Test copilot pane](/microsoft-copilot-studio/analytics-agent-evaluation-create#create-a-new-test-set), you can run an evaluation directly on the conversation you're testing. 
 3.	**Save a live conversation as an evaluation snapshot**. [Turn a real test chat interaction into a reusable evaluation artifact](/microsoft-copilot-studio/authoring-test-bot?tabs=webApp#save-conversation-snapshots). Saving a snapshot captures the full conversation and diagnostic details, allowing you to analyze what went wrong and convert that interaction into a future test case you can run again as part of your regression set.
 4.	**Run evals on your own custom query sets**. [Use custom agent evaluations by uploading a csv. file](/microsoft-copilot-studio/analytics-agent-evaluation-create#create-a-test-set-file-to-import) when you need a repeatable, scalable, regression‑safe method for measuring quality. Custom test sets let you define expected responses, apply multiple graders, simulate user profiles, and compare results across versions over time. *Most of the guidance in this document focuses on this kind of evaluation*.
@@ -73,11 +72,11 @@ Follow these steps to build and evaluate a test set for your ESS agent in Copilo
 ## How to use this guidance and toolkit
 To help you confidently assess and improve the quality of your ESS agent, there are three approaches to getting started:
 1. **Use sample test sets to see how the tool works**. This complete dataset can be used for ESS instances that haven't been customized yet so you can quickly learn how the evaluation tool works and how to structure your evaluation strategy. 
-2. **Use templated datasets to quickly test your agent's responses**. These partially structured evaluation set you can quickly adapt to match your own policies, systems, and workflows. These templates are the starting point and can be edited and expanded to reflect your organization's real policies, services, and workflows.
+2. **Use templated datasets to quickly test your agent's responses**. These partially structured evaluation sets you can quickly adapt to match your own policies, systems, and workflows. These templates are the starting point and can be edited and expanded to reflect your organization's real policies, services, and workflows.
 3. **Get guidance on creating a customized evaluation strategy**. Throughout this document, there are basic strategies, insights from employee experience research, and other tips to help you build custom data sets that can be regularly tested and scaled as your agent takes on new scenarios and capabilities. 
 
 ### Summary of the kinds of ESS quality tests the evaluator tool supports
-The following kinds of tests can be run using the evaluator tool, and there are already starter golden query sets that supports these kinds of tests. The tests listed here are ideal for ESS agents because they tests different parts of the platform (knowledge, topics, instructions, etc.) while also testing skills every ESS agent needs.
+The following kinds of tests can be run using the evaluator tool, and there are already starter golden query sets that support these kinds of tests. The tests listed here are ideal for ESS agents because they test different parts of the platform (knowledge, topics, instructions, etc.) while also testing skills every ESS agent needs.
 These tests fall into three main categories:
 1.	**Knowledge tests** that verify the agent is accurately retrieving and synthesizing official HR and IT documents from SharePoint, ServiceNow, and more. These tests focus on measuring accuracy, groundedness, relevance, and completeness.
 2.	**Data and topic tests** that confirm the right topic is triggered, and the agent is correctly accessing and using data in integrated systems like Workday, SuccessFactors, etc. 
@@ -95,7 +94,7 @@ These tests fall into three main categories:
 ### Recommended practices for using the datasets:
 The starter golden query sets are designed to spark ideas and help you quickly build your own evaluation library. These queries represent real capabilities, and popular kinds of prompts but every organization needs to tailor prompts to their systems, policies, and workflows. 
 
-1.	**Organize the prompts in a way that aligns with your org structure**. Group or split queries by sub-domain (HR for example is comprised of benefits, leave, policies, etc.), and consider different region, or topic area so results naturally flow to the correct reviewers.
+1.	**Organize the prompts in a way that aligns with your org structure**. Group or split queries by sub-domain (HR for example is composed of benefits, leave, policies, etc.), and consider different region, or topic area so results naturally flow to the correct reviewers.
 2.	**Customize expected responses using your knowledge sources and integrations**. Many prompts require system specific steps to get more meaningful evaluation results, like URLs, specific steps, or policy details. Replace generic expected responses with your organization's exact data.
 3.	**Adapt queries to reflect your employee population**. Add role specific and region specific variations so the evaluator can verify your personalization logic (for example, managers vs. individual contributors, US vs. EU).
 4.	**Add or remove prompts to match your ESS scope**. If your deployment doesn't use certain integrations (like Workday or Microsoft Self-Help), remove those prompts. If you have custom systems, add representative queries for them.
@@ -118,7 +117,7 @@ Specific knowledge tests check whether the agent can answer the most common, kno
 
 #### To fix quality issues for specific knowledge tests:
 1.	Most accuracy issues come from the agent not having clean, complete, or interpretable content from the knowledge source. Check the test result to confirm the right knowledge was used. Then, [check the quality of the source documents](/microsoft-365/employee-self-service/optimization-sharepoint) for outdated, vague, or conflicting content reduces accuracy.
-2.	Consider adding or refining knowledge source instructions. Give each knowledge source clear instructions such as: "Use this document as the authoritative source for New York based PTO rules." If you're using SharePoint as knowledge, you can [apply extra filtering that helps the most relevant content](/microsoft-365/employee-self-service/sharepoint-filtering) get to the right users.
+2.	Consider adding or refining knowledge source instructions. Give each knowledge source clear instructions such as: "Use this document as the authoritative source for New York based paid time off rules." If you're using SharePoint as knowledge, you can [apply extra filtering that helps the most relevant content](/microsoft-365/employee-self-service/sharepoint-filtering) get to the right users.
 3.	[Agent instructions](/microsoft-365/employee-self-service/design-best-practices) can also be altered to change behaviors in using knowledge. Strengthen your agent's global guidelines about using only approved knowledge sources, when to cite vs. when to summarize, and escalation rules or role based tailoring.
 4.	Review best practices for [optimizing knowledge in SharePoint](/microsoft-365/employee-self-service/optimization-sharepoint).
 
@@ -134,7 +133,7 @@ These scenarios validate the agent's baseline competency across broad topic area
 <Screenshot>
 
 #### To fix quality issues for general knowledge tests:
-1.	If certain prompts are being answered using general knowledge but they should be answered using your organization's knowledge, add knowledge sources that cover these rea in the agent's knowledge.
+1.	If certain prompts are being answered using general knowledge but they should be answered using your organization's knowledge, add knowledge sources that cover these areas in the agent's knowledge.
 2.	If you decide you don't want your agent to use general knowledge at all, turn the setting back to OFF.
 
 
@@ -148,7 +147,7 @@ These tests measure whether the agent can correctly retrieve and interact with d
 #### Get started:
 1.	Topics for these integrations need to be enabled before testing. 
 2.	Use the <sample test set> to run a general quality test with a generic expected response to get a sense of how the topics are responding.
-3.	Use the <templated test set> if you already have specific data that be added to the pre-written expected responses. Use a general quality test, a compare meaning test at 70%, and a capability use test. 
+3.	Use the <templated test set> if you already have specific data that be added to the prewritten expected responses. Use a general quality test, a compare meaning test at 70%, and a capability use test. 
 
 <Screenshot>
 
@@ -202,7 +201,7 @@ This is for scenarios that add completeness and breadth to the ESS agent but are
     -	Niche HR questions that only apply to small groups 
     -	IT topics that are helpful but not tied to access or basic device functionality
 3. **Finally, capture scenarios that act as guardrails for risky questions**
-Add test cases designed to ensure the agent refuses or redirects correctly. These protect your organization from misinformation, policy violations, or inappropriate content. Examples include:
+Add test cases designed to ensure the agent refuses or redirects correctly. These test scenarios protect your organization from misinformation, policy violations, or inappropriate content. Examples include:
     - Sensitive HR topics (pay equity opinions, complaints about individuals)
     - Attempts to access confidential or privileged information
     - Requests that violate policy or must be escalated to humans
@@ -239,11 +238,11 @@ These query sets are [uploaded as csv. files](/microsoft-copilot-studio/analytic
 | When the agent should generally respond a certain way (assertion) | How do I report a hardware issue using my mobile device? | - Must include the Support Portal URL: https://support.m365domain.com.<br>- Must confirm that this method is only for hardware issues<br>- Must cite the policy URL |
 
 ## Adapt queries to user context variables like role and region
-When designing a golden query set, you need to intentionally include prompts that force the agent to adapt the expected response based on who the user is and where they're located which are determined by the <user context variables setup in ESS>. The evaluation strategy should reflect the same personalization rules the Employee Self-Service agent must respect in production.
+When designing a golden query set, you need to intentionally include prompts that force the agent to adapt the expected response based on who the user is and where they're located which are determined by the <user context variables set up in ESS>. The evaluation strategy should reflect the same personalization rules the Employee Self-Service agent must respect in production.
 
 **Examples of variation in roles:**
 -	Employee vs. Manager: Managers should get guidance on approvals, escalations, and team‑level actions; employees should get self‑service steps only.
--	New Hires: Include queries where onboarding steps differ from standard workflows (for example, benefit eligibility timing, device setup).
+-	New Hires: Include queries where onboarding steps differ from standard workflows (for example, benefit eligibility timing, device set up).
 -	Contractors and vendors: Add scenarios where the correct expected response is: "You don't have access to this system/benefit" because vendor entitlements differ.
 
 **Examples of variation in regions:**
@@ -272,14 +271,14 @@ Setting up an evaluation strategy isn't just about writing test cases, it's also
 Below are the most common patterns and considerations that can help you define an evaluation strategy that works for your ESS agent and your broader organization.
 
 ### Organizational structure and ownership model
-Most organizations have multiple sub domains that own different topics, for example:
+Most organizations have multiple sub-domains that own different topics, for example:
 - HR: Benefits, compensation, mobility, leave, onboarding, employee relations
 - IT: Identity & access, endpoint/device, software, networking, support operations
 
 **Strategy impact:**
 - Create separate test sets by domain (for example, Benefits, Leave, IT Access, Devices, etc.).
 - Assign domain specific owners to review test results.
-- Use tagging or separate CSVs so test results can be routed to the right teams.
+- Use tagging or separate CSV. files so test results can be routed to the right teams.
 - Some teams require legal, HR operations, IT security, or compliance signoff.
 
 ### System complexity and integrations
