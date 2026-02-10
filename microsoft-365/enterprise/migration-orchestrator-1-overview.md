@@ -57,7 +57,7 @@ All migration models require planning, communication, and time to allow the data
 Cross-Tenant migrations require a per-user license (one-time fee) and can be assigned on either the source or target user object. This license enables the migration of Exchange Online mailboxes and OneDrives included in the Orchestrated migration. During preview for Teams meetings and Teams chats, no other licenses are required for these specific workload migrations. Cross Tenant User Data Migration is available as an add-on to the following Microsoft 365 subscription plans:
 
 - Microsoft 365 Business Basic, Standard, and Premium
-- Microsoft 365 F1/F3/E3/E5/
+- Microsoft 365 F1/F3/E3/E5
 - Office 365 F3/E1/E3/E5
 - Exchange Online
 - SharePoint in Microsoft 365
@@ -85,7 +85,7 @@ While customers can run migrations for the workloads they want, the Teams Meetin
 > [!IMPORTANT]
 > Identity Mapping is required, which means the specific user configuration supported by Identity Mapping is required. [Learn more](cross-tenant-identity-mapping.md) about Identity mapping.
 
-If you have a specific scenario that requires you to migrate workloads individually, reach out to via our [support form](https://forms.office.com/r/0QU3YbYhDn) to discuss options and potential risks.
+If you have a specific scenario that requires you to migrate workloads individually, reach out to us via our [support form](https://forms.office.com/r/0QU3YbYhDn) to discuss options and potential risks.
 
 ### Exchange mailbox scope
 
