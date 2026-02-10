@@ -45,3 +45,9 @@ As an admin, you can manage how users in your organization use Copilot for Teams
 - [Manage Microsoft 365 Copilot in Teams meetings and events](/microsoftteams/copilot-teams-transcription)
 - [Manage Microsoft 365 Copilot in Teams calls](/microsoftteams/copilot-teams-calling-transcription)
 - [Teams Rooms and Copilot overview](/microsoftteams/rooms/copilot-admin-mtr)
+
+## Related topics
+
+For more information on Microsoft 365 Copilot requirements, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](microsoft-365-copilot-minimum-requirements-overview.md).
+
+For more information on best practices for how to roll out Microsoft 365 Copilot in your organization, see [Rollout Microsoft 365 to your organization](microsoft-365-copilot-minimum-requirements-rollout.md).

@@ -72,4 +72,9 @@ Any modern browser with third-party cookies enabled for online apps. Recommended
 - iPhone: iOS 16.0 or later
 - iPad: iPadOS 16.0 or later
 - Android 10 or later
- 
+
+## Related topics
+
+For more information on data and compliance requirements, see [Data and compliance readiness](microsoft-365-copilot-minimum-requirements-data-compliance.md).
+
+For more information on best practices for how to roll out Microsoft 365 Copilot in your organization, see [Rollout Microsoft 365 to your organization](microsoft-365-copilot-minimum-requirements-rollout.md).
