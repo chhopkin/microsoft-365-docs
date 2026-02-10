@@ -35,9 +35,7 @@ Before your users can use Microsoft 365 Copilot, they must have one of the follo
 
 Once your organization has one of these subscriptions or plans, you can purchase a Microsoft 365 Copilot license for your users. For more information, see [License plans for Microsoft 365 Copilot](microsoft-365-copilot-licensing.md).
 
-## Network requirements
 
-Microsoft 365 Copilot enables AI scenarios that access the web, so it may need to connect to specific network endpoints (domains). See the full documentation of network requirements for Microsoft 365 Copilot, which provides a complete list of domains and WebSockets (WSS) that an organization's network shouldn't block. For more information, see [Microsoft 365 app and network requirements for Microsoft 365 Copilot](microsoft-365-copilot-requirements.md).
 
 ## Sign-in requirements
 
