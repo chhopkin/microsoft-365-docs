@@ -122,7 +122,7 @@ Updates released between January 27, 2025, February 10, 2026.
   [Set up Microsoft 365 Copilot connectors in the Microsoft 365 admin center](/microsoftsearch/configure-connector)
 
 
-- **Declarative Agents help users stay in their workflow** [Web]]
+- **Declarative Agents help users stay in their workflow** [Web]
 
   URL‑based dialogs in Declarative Agents allow users to open linked experiences without leaving Copilot, helping them stay focused.
 
@@ -1178,7 +1178,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Why this matters:**
 
-  **Business impact:**: Maintains brand identity across all content.
+  **Business impact:** Maintains brand identity across all content.
 
   **Personal Impact:** Saves design time by eliminating manual asset searching.
 
@@ -14918,6 +14918,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
