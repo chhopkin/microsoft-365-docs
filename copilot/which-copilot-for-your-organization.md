@@ -26,7 +26,7 @@ appliesto:
 
 # Which Copilot is right for me or my organization?
 
-Copilot is Microsoft's AI-powered virtual assistant. It uses large language models (LLMs) to answer your questions using a prompt and response interaction.
+Copilot is Microsoft's AI-powered virtual assistant. It uses large language models (LLMs) to answer your questions using a prompt-and-response interaction.
 
 Microsoft 365 offers two variants based on licensing. The following image highlights their key differences:
 
@@ -42,7 +42,7 @@ Microsoft 365 offers two variants based on licensing. The following image highli
 ✅ Scalable with [pay-as-you-go](./pay-as-you-go/overview.md)  
 ✅ Included with a Microsoft 365 subscription
 
-**Microsoft 365 Copilot Chat** is an AI prompt and response experience that's [grounded in the web](/copilot/privacy-and-protections#privacy-and-security-of-generated-search-queries) and powered by [large language models (LLMs)](https://azure.microsoft.com/resources/cloud-computing-dictionary/what-are-large-language-models-llms).
+**Microsoft 365 Copilot Chat** is an AI prompt-and-response experience that's [grounded in the web](/copilot/privacy-and-protections#privacy-and-security-of-generated-search-queries) and powered by [large language models (LLMs)](https://azure.microsoft.com/resources/cloud-computing-dictionary/what-are-large-language-models-llms).
 
 Copilot Chat is automatically included and available to organizations that have a Microsoft 365 subscription. With Copilot Chat:
 
