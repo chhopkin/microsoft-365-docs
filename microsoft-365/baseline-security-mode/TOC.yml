@@ -11,7 +11,7 @@ items:
     - name: Restrict end-user consent
       href: /entra/identity/enterprise-apps/configure-user-consent?pivots=portal
     - name: Disable access to Exchange Web Services (EWS)
-      href: /exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange
+      href: block-access-exchange-web-services.md
     - name: Block basic authentication
       href: block-basic-authentication.md
     - name: Block insecure protocols for file opens
