@@ -22,7 +22,7 @@ description: Minimum requirements to deploy Microsoft 365 Copilot in your organi
 |-----------------------------|-------------------|----------------------|
 | Licensing                   | ✅                |                      |
 | Exchange Online mailbox     | ✅                |                      |
-| Entra ID (Azure AD account)           | ✅                |                      |
+| Entra ID (Azure AD account) | ✅                |                      |
 | Supported OS and browsers   | ✅                |                      |
 | Network endpoints           | ✅                |                      |
 | SharePoint governance       |                   | ✅                   |

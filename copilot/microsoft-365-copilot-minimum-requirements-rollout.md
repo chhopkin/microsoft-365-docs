@@ -96,3 +96,9 @@ Use learnings from the pilot to refine and scale deployment across departments:
 Track adoption, usage patterns, and business impact using built-in reporting tools:
 
 - [Microsoft](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage)
+
+## Related topics
+
+For more information on Microsoft 365 Copilot requirements, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](microsoft-365-copilot-minimum-requirements-overview.md).
+
+For more information on data and compliance requirements, see [Data and compliance readiness](microsoft-365-copilot-minimum-requirements-data-compliance.md).
