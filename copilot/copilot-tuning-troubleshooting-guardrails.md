@@ -1,10 +1,10 @@
 ---
 title: "Troubleshoot Copilot Tuning guardrails"
 f1.keywords:
-ms.author: lauragra
-author: lauragra
-manager: calvind
-ms.date: 10/27/2025
+author: mestew
+ms.author: mstewart
+manager: scotv
+ms.date: 02/11/2026
 ms.update-cycle: 180-days
 ms.topic: troubleshooting
 ms.service: microsoft-365-copilot

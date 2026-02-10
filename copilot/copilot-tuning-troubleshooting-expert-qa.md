@@ -1,10 +1,10 @@
 ---
 title: Troubleshoot issues with the Copilot Tuning expert Q&A model
 description: This article describes some of the most common issues with the Microsoft 365 Copilot Tuning expert Q&A task fine-tuning and how to troubleshoot them.
-ms.author: lauragra
-author: lauragra
-manager: calvind
-ms.date: 10/27/2025
+author: mestew
+ms.author: mstewart
+manager: scotv
+ms.date: 02/11/2026
 audience: Admin
 ms.topic: troubleshooting
 ms.service: microsoft-365-copilot
