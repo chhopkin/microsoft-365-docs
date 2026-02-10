@@ -36,13 +36,14 @@ Microsoft 365 offers two variants based on licensing. The following image highli
 
 **If you're an end user**, have a Copilot installed, and not sure what Copilot you have, then this article can help you understand the Copilot that's installed on your device.
 
-## Microsoft 365 Copilot Chat
+## Microsoft 365 license
+Includes Copilot Chat: AI chat grounded in the web
 
 ✅ Secure with [enterprise data protection](enterprise-data-protection.md)  
 ✅ Scalable with [pay-as-you-go](./pay-as-you-go/overview.md)  
 ✅ Included with a Microsoft 365 subscription
 
-**Microsoft 365 Copilot Chat** is an AI prompt-and-response experience that's [grounded in the web](/copilot/privacy-and-protections#privacy-and-security-of-generated-search-queries) and powered by [large language models (LLMs)](https://azure.microsoft.com/resources/cloud-computing-dictionary/what-are-large-language-models-llms).
+**Copilot Chat** is an AI prompt-and-response experience that's [grounded in the web](/copilot/privacy-and-protections#privacy-and-security-of-generated-search-queries) and powered by [large language models (LLMs)](https://azure.microsoft.com/resources/cloud-computing-dictionary/what-are-large-language-models-llms).
 
 Copilot Chat is automatically included and available to organizations that have a Microsoft 365 subscription. With Copilot Chat:
 
@@ -62,7 +63,8 @@ To learn more, see:
 - [Learn more about Microsoft 365 Copilot Chat](/copilot/overview)
 - [Read about Copilot for all: Introducing Microsoft 365 Copilot Chat - blog](https://www.microsoft.com/microsoft-365/blog/2025/01/15/copilot-for-all-introducing-microsoft-365-copilot-chat)
 
-## Microsoft 365 Copilot
+## Microsoft 365 Copilot license
+Added Copilot license: AI chat grounded in organizational data and the web
 
 ✅ Use for work tasks  
 ✅ Licensed by your work organization  
