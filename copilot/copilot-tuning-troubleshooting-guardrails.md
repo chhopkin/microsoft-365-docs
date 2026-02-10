@@ -39,8 +39,8 @@ Broaden the criteria in the guardrails rules. Add more rules for key issues.
 Refine the criteria in the guardrails rules by following these steps:
 
 1. Make sure that you use precise language and detailed conditions in your rules.
-2. Include examples and illustrative content for clarity.
-3. Use AND and OR grouping for conditions within rules to make them more relevant to different types of audiences.
+1. Include examples and illustrative content for clarity.
+1. Use AND and OR grouping for conditions within rules to make them more relevant to different types of audiences.
 
 ## Duplicate alerts for the same issue
 
@@ -51,16 +51,16 @@ Adjust the frequency and sensitivity. Test guardrails rules thoroughly before yo
 To broaden the criteria, follow these steps:
 
    1. Identify key issues.
-   2. Add rules that are specific to those concerns.
-   3. Test rules before deploying to production to ensure accuracy.
+   1. Add rules that are specific to those concerns.
+   1. Test rules before deploying to production to ensure accuracy.
 
 ## I need to handle duplicates
 
 To handle duplicates effectively, follow these steps:
 
   1. Identify overlapping conditions across rules.
-  2. Consolidate rules where possible to minimize overlap.
-  3. Configure threshold to control the sensitivity of flags or alerts when available.
+  1. Consolidate rules where possible to minimize overlap.
+  1. Configure threshold to control the sensitivity of flags or alerts when available.
 
 ## Related content
 

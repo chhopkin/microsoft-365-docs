@@ -73,15 +73,15 @@ For more information, see [Copilot Tuning overview](copilot-tuning-overview.md).
 To activate the Copilot Tuning service and scope its availability:
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com) and sign in with your AI Administrator account.
-2. Go to **Copilot** > **Copilot settings**.
+1. Go to **Copilot** > **Copilot settings**.
    :::image type="content" source="media/copilot-tuning-admin-guide/copilot-settings.png" alt-text="Screenshot of Copilot settings in the admin center." lightbox="media/copilot-tuning-admin-guide/copilot-settings.png" border="false":::
-3. Choose **Copilot Tuning**, and choose **Accept** to accept the [EAP terms](https://go.microsoft.com/fwlink/?linkid=2312708).
+1. Choose **Copilot Tuning**, and choose **Accept** to accept the [EAP terms](https://go.microsoft.com/fwlink/?linkid=2312708).
     :::image type="content" source="media/copilot-tuning-admin-guide/copilot-tuning-settings.png" alt-text="Screenshot of Copilot Tuning settings in the admin center." lightbox="media/copilot-tuning-admin-guide/copilot-tuning-settings.png" border="false":::
-    
+
     > [!NOTE]
     > The **Copilot Tuning** setting is only available if your tenant meets the criteria described in the [Prerequisites](#prerequisites) section.
 
-4. Choose **Specific users in your organization** and add the users in your organization who can create task-specific models. For more information, see [Manage Copilot Tuning settings](#manage-copilot-tuning-settings).
+1. Choose **Specific users in your organization** and add the users in your organization who can create task-specific models. For more information, see [Manage Copilot Tuning settings](#manage-copilot-tuning-settings).
 
 ## Manage Copilot Tuning settings
 

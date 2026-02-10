@@ -46,8 +46,8 @@ If the training/fine-tuning process fails or hangs without a clear error message
 To troubleshoot:
 
 1. Retry the process - In some cases, rerunning the fine-tuning process or restarting from the last step can resolve a transient issue.
-2. Make sure any configurations are set correctly and try again.
-3. Check for known issues - See if any error message was logged or displayed. If you find an error code, follow the guidance associated with that error code. Documentation or forums might have additional information for specific errors.
+1. Make sure any configurations are set correctly and try again.
+1. Check for known issues - See if any error message was logged or displayed. If you find an error code, follow the guidance associated with that error code. Documentation or forums might have additional information for specific errors.
 
 Contact support if the issue persists.
 
@@ -58,16 +58,16 @@ An empty evaluation file usually indicates that the system couldn't generate any
 To address this issue:
 
 1. Verify your knowledge source content - Double-check that the documents or data source you selected contain the information you expect. If the content repository was empty or too limited, add more relevant documents and then rerun the fine-tuning process.
-2. Run the process again - After you ensure that the content is in place, try the prepare data or fine-tuning step again. This time, it might produce a set of Q&A pairs for evaluation.
-3. If it's still empty, seek help - If you still get an empty evaluation or an empty training set, there might be an underlying issue. Contact support for assistance. They might check whether any filtering rules or errors caused your data to be discarded. In rare cases, strict filtering or all content being out of scope can result in no data; support can help identify whether that happened.
+1. Run the process again - After you ensure that the content is in place, try the prepare data or fine-tuning step again. This time, it might produce a set of Q&A pairs for evaluation.
+1. If it's still empty, seek help - If you still get an empty evaluation or an empty training set, there might be an underlying issue. Contact support for assistance. They might check whether any filtering rules or errors caused your data to be discarded. In rare cases, strict filtering or all content being out of scope can result in no data; support can help identify whether that happened.
 
 ## The model training finished, but the *answers it gives seem strange or irrelevant* ("weird")
 
 If your fine-tuned Q&A model's responses aren't making sense or seem unrelated to your domain, the culprit is often the training data quality or quantity. A model can only perform as well as the data it was trained on. Here are steps to troubleshoot a \"weird\" or low-quality model output:
 
 1. Ensure sufficient training data: Check that the knowledge source you provided has enough useful content. If your content collection was small or empty, the model might not have content to train on, resulting in a "vanilla" or nonsense model[1]. Make sure you include enough documents or Q&A pairs covering the subject matter you expect the model to handle.
-2. Provide relevant data: If the model's answers are off-topic, some of your training documents might not match the intended domain. For example, if you're building a finance Q&A bot but the content fed in was mostly generic or unrelated, the model won't have the right knowledge. Refine your content to be more relevant to the expected questions.
-3. Retrain after improvements: After adding more or better data, run the fine-tuning process again. Improving the dataset often leads to a direct improvement in answer quality.
+1. Provide relevant data: If the model's answers are off-topic, some of your training documents might not match the intended domain. For example, if you're building a finance Q&A bot but the content fed in was mostly generic or unrelated, the model won't have the right knowledge. Refine your content to be more relevant to the expected questions.
+1. Retrain after improvements: After adding more or better data, run the fine-tuning process again. Improving the dataset often leads to a direct improvement in answer quality.
 
 If you followed the previous steps and the model's answers are still incorrect or incoherent, consider reaching out to support. There could be an edge-case issue with the fine-tuning pipeline itself. But in most cases, bolstering your training data (or adjusting the task instructions) should greatly improve the model's responses.
 
@@ -76,17 +76,17 @@ If you followed the previous steps and the model's answers are still incorrect o
 This issue is a known behavior. The fine-tuned model might perform well in the isolated evaluation, but the deployed agent's behavior can differ if the agent configuration doesn't fully carry over the model's nuances. In particular, the agent might need more instructions to use the model effectively. To resolve this issue:
 
 1. Compare evaluation vs. agent outputs - Identify what's missing or different. For example, maybe the evaluation answers had a friendly, empathetic tone that you liked, but the agent's answers feel more generic or terse.
-2. Adjust the agent's instructions - In the agent builder, add or refine the system instructions or prompts for the agent. Reinforce the qualities you want that you saw in the evaluation stage. For example, add the instructions "Respond in an empathetic tone," or "Include the detailed steps if available."
-3. Test again - After you update the instructions, test the agent with the same questions. The answers should align more closely with the fine-tuned model's expected behavior. This iterative tuning of the agent is sometimes necessary to get the best results. The fine-tuned model provides the knowledge, and the agent's instructions shape how that knowledge is expressed.
+1. Adjust the agent's instructions - In the agent builder, add or refine the system instructions or prompts for the agent. Reinforce the qualities you want that you saw in the evaluation stage. For example, add the instructions "Respond in an empathetic tone," or "Include the detailed steps if available."
+1. Test again - After you update the instructions, test the agent with the same questions. The answers should align more closely with the fine-tuned model's expected behavior. This iterative tuning of the agent is sometimes necessary to get the best results. The fine-tuned model provides the knowledge, and the agent's instructions shape how that knowledge is expressed.
 
 ## The answers from my Q&A agent are still not what I expected
 
 If you find the overall answer quality unsatisfactory, you might need to refine your fine-tuning setup further. Consider these steps:
 
 1. Improve or increase training data - Make sure that the dataset used for fine-tuning is high quality, relevant, and comprehensive for the domain of questions. If possible, add more examples or documents that cover the scope of queries you expect. A richer dataset can significantly improve the model's accuracy.
-2. Refine the initial configuration - During the model setup, you likely provided some initial instructions or filled out a form (sometimes referred to as a questionnaire about the domain and task). Revisit those inputs. Edit or refine the task description and settings to better guide the model. For example, if you realize the model is answering at too high a level, make sure the instructions specify the desired depth or context.
-3. Provide clear examples - If the system allows, give example Q&A pairs or further guidance. Some fine-tuning processes let you review or label data. Use that opportunity to teach the model what correct answers look like.
-4. Iterate and test - Fine-tuning is often an iterative process. After making changes, retrain (or partially train if supported) and then test the Q&A agent again. Gradually, you can converge on better performance. Remember that open-ended or complex questions might always be challenging, but the goal is to get most expected queries answered well.
+1. Refine the initial configuration - During the model setup, you likely provided some initial instructions or filled out a form (sometimes referred to as a questionnaire about the domain and task). Revisit those inputs. Edit or refine the task description and settings to better guide the model. For example, if you realize the model is answering at too high a level, make sure the instructions specify the desired depth or context.
+1. Provide clear examples - If the system allows, give example Q&A pairs or further guidance. Some fine-tuning processes let you review or label data. Use that opportunity to teach the model what correct answers look like.
+1. Iterate and test - Fine-tuning is often an iterative process. After making changes, retrain (or partially train if supported) and then test the Q&A agent again. Gradually, you can converge on better performance. Remember that open-ended or complex questions might always be challenging, but the goal is to get most expected queries answered well.
 
 ## Some answers from the Q&A Copilot don't have any citations
 
