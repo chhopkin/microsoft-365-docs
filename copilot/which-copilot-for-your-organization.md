@@ -117,7 +117,8 @@ Microsoft 365 Copilot is available at [https://m365.cloud.microsoft](https://m36
 
 End users can also purchase their own license that includes Microsoft 365 Copilot.
 
-Use Microsoft 365 Copilot if you want users in your organization to 
+Use Microsoft 365 Copilot if you want users in your organization to:
+
 - Use secure AI chat grounded on both the web and organizational data
 - Access built-in agents and create custom ones
 - Use Microsoft 365 Copilot Search for finding information across all their Microsoft 365 and third-party data sources
