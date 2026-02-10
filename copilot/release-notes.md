@@ -7,7 +7,7 @@ ms.author: kwekua
 author: kwekuako
 manager: scotv
 ms.update-cycle: 180-days
-ms.date: 2/9/2025
+ms.date: 2/10/2025
 audience: Admin
 ms.reviewer: briandesouza
 ms.topic: release-notes
@@ -14918,6 +14918,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
