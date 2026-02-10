@@ -27,7 +27,11 @@ Tenant-to-tenant migration using orchestrator in Microsoft 365 enables organizat
 
 This article provides a high-level overview of the migration process, including architecture models, licensing requirements, key security and compliance considerations, and supported workloads.
 
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=7b2cdaf2-fb86-421d-9932-8a2b02cbdbc5]
+
 To provide feedback or make requests to the product team, use [this form](https://forms.office.com/r/0QU3YbYhDn).
+
+
 
 ## Migration Architecture Models
 
