@@ -36,11 +36,11 @@ Microsoft 365 offers two variants based on licensing. The following image highli
 
 **If you're an end user**, have a Copilot installed, and not sure what Copilot you have, then this article can help you understand the Copilot that's installed on your device.
 
-## Microsoft 365 license
-Includes Copilot Chat: AI chat grounded in the web
+## Microsoft 365
+Includes **Copilot Chat**: AI chat grounded in the web
 
 ✅ Secure with [enterprise data protection](enterprise-data-protection.md)  
-✅ Scalable with [pay-as-you-go](./pay-as-you-go/overview.md)  
+✅ Scalable with [pay-as-you-go](./pay-as-you-go/overview.md) agents 
 ✅ Included with a Microsoft 365 subscription
 
 **Copilot Chat** is an AI prompt-and-response experience that's [grounded in the web](/copilot/privacy-and-protections#privacy-and-security-of-generated-search-queries) and powered by [large language models (LLMs)](https://azure.microsoft.com/resources/cloud-computing-dictionary/what-are-large-language-models-llms).
@@ -56,7 +56,13 @@ Copilot Chat is available on the web at [https://m365copilot.com](https://m365co
 > [!TIP]
 > If you [pin Copilot Chat](pin-copilot-chat-navbar.md) in the Microsoft 365 Copilot app, when users go to `https://m365copilot.com`, then they're automatically redirected to `https://m365.cloud.microsoft/chat`.
 
-If you want users in your organization to have prompt-and-response interchanges with information on the internet, be protected with [enterprise data protection](enterprise-data-protection.md) at no additional charge, then use Copilot Chat.
+Use Copilot Chat if you want users in your organization to:
+
+- Use secure AI chat grounded on the web and powered by the latest models
+- Access to pay-as-you-go agents
+- Use AI chat directly in Microsoft 365 apps like Word, Excel, PowerPoint, OneNote, and Outlook
+- Have built-in IT controls, enterprise data protection, and agent management
+- Use features like Copilot Pages, file upload, and image generation
 
 To learn more, see:
 
@@ -66,14 +72,13 @@ To learn more, see:
 ## Microsoft 365 Copilot license
 Added Copilot license: AI chat grounded in organizational data and the web
 
-✅ Use for work tasks  
+✅ Optimized for work tasks  
 ✅ Licensed by your work organization  
-✅ Use for personal tasks, with caution—this Copilot accesses work data  
-✅ Personally licensed by end users
+✅ Built-in and custom agents
 
 **Microsoft 365 Copilot** is licensed by your work organization. It includes features that can help end users and admins with work tasks, like:
 
-- Use the licensed Microsoft 365 Copilot for web-based (internet) and work-based ([Microsoft Graph](/graph/overview)) chat
+- Use the licensed Microsoft 365 Copilot for both web-based (internet) and work-based ([Microsoft Graph](/graph/overview)) chat
 - Get in-app experiences in your Microsoft 365 apps, like Teams, Word, Excel, PowerPoint, and Outlook
 - Create [Copilot Agents](/microsoft-365-copilot/extensibility/overview-declarative-agent)
 - Measure insights with [Copilot Analytics](https://techcommunity.microsoft.com/blog/microsoftvivablog/introducing-copilot-analytics-to-measure-ai-impact-on-your-business/4301717)
@@ -112,7 +117,12 @@ Microsoft 365 Copilot is available at [https://m365.cloud.microsoft](https://m36
 
 End users can also purchase their own license that includes Microsoft 365 Copilot.
 
-If you want users in your organization to have prompt-and-response interchanges with work data as well as information from the web, then use Microsoft 365 Copilot.
+Use Microsoft 365 Copilot if you want users in your organization to 
+- Use secure AI chat grounded on both the web and organizational data
+- Access built-in agents and create custom ones
+- Use Microsoft 365 Copilot Search for finding information across all their Microsoft 365 and third-party data sources
+- Access advanced lexical and semantic understanding of Microsoft Graph data 
+- Remain secure with advanced IT controls, enterprise data protection, and agent management
 
 To learn more, see:
 
