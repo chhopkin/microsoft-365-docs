@@ -41,7 +41,7 @@ items:
   - name: Room devices
     items:
     - name: Only allow compliant devices to sign in
-      href: block-unmanaged-devices-teams.md
+      href: /MicrosoftTeams/rooms/block-non-compliant-teams-rooms-devices
     - name: Block resource account sign in
-      href: block-resource-accounts-teams.md
+      href: /MicrosoftTeams/rooms/block-non-compliant-teams-rooms-devices
  
