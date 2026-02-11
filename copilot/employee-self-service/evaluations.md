@@ -92,7 +92,7 @@ These tests fall into three main categories:
 
 
 ### Recommended practices for using the datasets:
-The starter golden query sets are designed to spark ideas and help you quickly build your own evaluation library. These queries represent real capabilities, and popular kinds of prompts but every organization needs to tailor prompts to their systems, policies, and workflows. 
+The [starter golden query sets](/github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples) are designed to spark ideas and help you quickly build your own evaluation library. These queries represent real capabilities, and popular kinds of prompts but every organization needs to tailor prompts to their systems, policies, and workflows. 
 
 1.	**Organize the prompts in a way that aligns with your org structure**. Group or split queries by sub-domain (HR for example is composed of benefits, leave, policies, etc.), and consider different region, or topic area so results naturally flow to the correct reviewers.
 2.	**Customize expected responses using your knowledge sources and integrations**. Many prompts require system specific steps to get more meaningful evaluation results, like URLs, specific steps, or policy details. Replace generic expected responses with your organization's exact data.
