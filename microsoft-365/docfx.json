@@ -185,6 +185,21 @@
           "**/*.png",
           "**/*.svg"
         ]
+      }, 
+      "image-structure-incorrect": { 
+        "exclude": [ 
+          "**/*.gif", 
+          "**/*.jpeg", 
+          "**/*.jpg", 
+          "**/*.png", 
+          "**/*.svg" 
+        ] 
+      }, 
+      "include-structure-incorrect": { 
+        "exclude": [ 
+          "**/*.md", 
+          "**.*.yml"
+       ] 
       },
       "sensitive-language-ma": {
         "exclude": [
