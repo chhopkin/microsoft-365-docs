@@ -166,7 +166,7 @@ To add an MX record and other supporting email DNS records for use with email in
 
     The following are the DNS records that need to be added for Microsoft 365 email services:
 
-    - **MX record** - This DNS record is required and specifies where email for the domain should go to.<br><br>
+    - **MX record** - This DNS record is required and specifies where email for the domain should go to.
 
       |  DNS record field            | Value                                                                                                            |
       |------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -180,7 +180,7 @@ To add an MX record and other supporting email DNS records for use with email in
       >
       > Exchange Online only supports TTL values less than 6 hours (21,600 seconds).
 
-    - **Autodiscover CNAME record** - This DNS record is optional but highly recommended. It allows automatic configuration of a user's email in products that support it, for example Microsoft Outlook.<br><br>
+    - **Autodiscover CNAME record** - This DNS record is optional but highly recommended. It allows automatic configuration of a user's email in products that support it, for example Microsoft Outlook.
 
       |  DNS record field            | Value                                                                                                                            |
       |------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
@@ -189,7 +189,7 @@ To add an MX record and other supporting email DNS records for use with email in
       | *Points to address or value* | Copy the autodiscover CNAME record value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
       | *TTL*                        | **3600** (1 hour)                                                                                                                |
 
-    - **SPF TXT record** - This record is optional but highly recommended. The SPF TXT record helps prevent email spam. For more information on SPF TXT records, see [Help prevent email spam (Outlook, Exchange Online) by adding appropriate DNS records](#help-prevent-email-spam-outlook-exchange-online-by-adding-appropriate-dns-records) in this article.<br><br>
+    - **SPF TXT record** - This record is optional but highly recommended. The SPF TXT record helps prevent email spam. For more information on SPF TXT records, see [Help prevent email spam (Outlook, Exchange Online) by adding appropriate DNS records](#help-prevent-email-spam-outlook-exchange-online-by-adding-appropriate-dns-records) in this article.
 
       |  DNS record field            | Value                                              |
       |------------------------------|----------------------------------------------------|
@@ -202,7 +202,7 @@ To add an MX record and other supporting email DNS records for use with email in
       >
       > If an SPF record already exists for the domain, don't create a new one for Microsoft 365. Don't delete the existing value already in the SPF TXT record for the previous email provider. Instead, add the required Microsoft 365 SPF TXT value to the current SPF TXT record. When complete, there should be a *single* SPF TXT record that includes the values for both the previous email provider and Microsoft 365.
 
-    - **DomainKeys Identified Mail (DKIM) CNAME records** This record is optional. The DKIM record helps prevent email spam. For more information on DKIM records, see [Help prevent email spam (Outlook, Exchange Online) by adding appropriate DNS records](#help-prevent-email-spam-outlook-exchange-online-by-adding-appropriate-dns-records) in this article.<br><br>
+    - **DomainKeys Identified Mail (DKIM) CNAME records** This record is optional. The DKIM record helps prevent email spam. For more information on DKIM records, see [Help prevent email spam (Outlook, Exchange Online) by adding appropriate DNS records](#help-prevent-email-spam-outlook-exchange-online-by-adding-appropriate-dns-records) in this article.
 
       | DNS record field             | Value                    |
       |------------------------------|------------------------- |
@@ -304,7 +304,7 @@ To add CNAME and SRV records required by Microsoft 365 services such as Microsof
 
 Examples of CNAME and SRV DNS records:
 
-- **CNAME record**<br><br>
+- **CNAME record**
 
     |  DNS record field            | Value                                                                                                  |
     |------------------------------|--------------------------------------------------------------------------------------------------------|
