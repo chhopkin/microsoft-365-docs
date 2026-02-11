@@ -42,7 +42,7 @@ Move from guesswork to a strategic, test driven approach to measuring the qualit
 
 
 ## About the Copilot Studio evaluator tool
-Copilot Studio evaluations are made up of test sets, which contain test cases. A test case is a single message, prompt, or question that simulates what a user would ask Employee Self-Service. A test case can also include the answer you expect your agent to reply with, also called an expected response. [Learn more about creating test cases](/microsoft-copilot-studio/analytics-agent-evaluation-intro#how-agent-evaluation-works).
+Copilot Studio evaluations are made up of test sets, which contain test cases. A test case is a single message, prompt, or question that simulates what a user would ask Employee Self-Service. A test case can also include the answer you expect your agent to reply with, also called an expected response. [Learn more about creating test cases](/microsoft-copilot-studio/analytics-agent-evaluation-intro#how-agent-evaluation-works) and [get guidance on how to build your eval strategy in phases](/microsoft-copilot-studio/guidance/evaluation-overview). 
 
 
 ### Summary of evaluation options in Copilot Studio
@@ -71,8 +71,8 @@ Follow these steps to build and evaluate a test set for your Employee Self-Servi
 
 ## How to use this guidance and toolkit
 To help you confidently assess and improve the quality of your Employee Self-Service agent, there are three approaches to getting started:
-1. **Use sample test sets to see how the tool works**. This complete dataset can be used for Employee Self-Service instances that haven't been customized yet so you can quickly learn how the evaluation tool works and how to structure your evaluation strategy. 
-2. **Use templated datasets to quickly test your agent's responses**. These partially structured evaluation sets you can quickly adapt to match your own policies, systems, and workflows. These templates are the starting point and can be edited and expanded to reflect your organization's real policies, services, and workflows.
+1. **Use sample test sets to see how the tool works**. [This complete dataset](/github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/StarterTestSets) can be used for Employee Self-Service instances that haven't been customized yet so you can quickly learn how the evaluation tool works and how to structure your evaluation strategy. 
+2. **Use templated datasets to quickly test your agent's responses**. [These partially structured evaluation sets](/github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/TemplatedTestSets) you can quickly adapt to match your own policies, systems, and workflows. These templates are the starting point and can be edited and expanded to reflect your organization's real policies, services, and workflows.
 3. **Get guidance on creating a customized evaluation strategy**. Throughout this document, there are basic strategies, insights from employee experience research, and other tips to help you build custom data sets that can be regularly tested and scaled as your agent takes on new scenarios and capabilities. 
 
 ### Summary of the kinds of Employee Self-Service quality tests the evaluator tool supports
