@@ -60,7 +60,7 @@ items:
       items:
       - name: Minimum requirements overview
         href: microsoft-365-copilot-minimum-requirements-overview.md
-      - name: Data and compliance considerations
+      - name: Data and compliance readiness
         href: microsoft-365-copilot-minimum-requirements-data-compliance.md
       - name: Organization rollout
         href: microsoft-365-copilot-minimum-requirements-rollout.md
