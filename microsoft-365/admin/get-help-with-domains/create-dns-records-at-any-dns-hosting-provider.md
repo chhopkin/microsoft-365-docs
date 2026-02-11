@@ -168,6 +168,14 @@ To add an MX record and other supporting email DNS records for use with email in
 
     - **MX record** - This DNS record is required and specifies where email for the domain should go to.<br><br>
 
+        |                              |                                                                                                                          |
+        |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+        | *Type*                       | **MX**                                                                                                                   |
+        | *Priority*                   | Set to the highest value available, typically **0**.                                                                     |
+        | *Host Name*                  | **@**                                                                                                                    |
+        | *Points to address or value* | Copy the MX record value from the Microsoft 365 admin center **Add DNS records** page and paste it here.|
+        | *TTL*                        | **3600** (1 hour)                                                                                                        |
+
       - *Type*: **MX**
       - *Priority*: Set to the highest value available, typically **0**. The lower the number, the higher the priority, with **0** having the highest priority.
       - *Host Name*: **@**
