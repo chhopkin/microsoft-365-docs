@@ -1,9 +1,9 @@
 ---
 ms.topic: include
 ms.localizationpriority: medium
-author: lauragra
-ms.author: lauragra
-manager: calvind
+author: mestew
+ms.author: mstewart
+manager: scotv
 ---
 
 <!-- markdownlint-disable MD041-->

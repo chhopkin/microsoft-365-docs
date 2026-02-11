@@ -1,20 +1,20 @@
 ---
-title: Selecting knowledge for Microsoft 365 Copilot Tuning
-description: Learn how to prepare and select the right knowledge sources when fine-tuning Microsoft 365 Copilot, including required document types, data limitations, and best practices.
-ms.author: lauragra
-author: lauragra
-manager: calvind
+title: Selecting knowledge for Microsoft 365 Copilot Tuning
+description: Learn how to prepare and select the right knowledge sources when fine-tuning Microsoft 365 Copilot, including required document types, data limitations, and best practices.
+author: mestew
+ms.author: mstewart
+manager: scotv
 ms.topic: concept-article
-ms.date: 10/27/2025
+ms.date: 02/11/2026
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ---
 
-# Selecting knowledge for Microsoft 365 Copilot Tuning
+# Selecting knowledge for Microsoft 365 Copilot Tuning
 
 <!-- cSpell:ignore msplants jwolk calvind -->
 
-[Microsoft 365 Copilot Tuning](copilot-tuning-overview.md) creates a task-specific fine-tuned model based on specific knowledge provided by the model maker. By selecting  knowledge from your company's internal documents, you enable the model to learn your unique terminology, style, and procedures.
+[Microsoft 365 Copilot Tuning](copilot-tuning-overview.md) creates a task-specific fine-tuned model based on specific knowledge provided by the model maker. By selecting  knowledge from your company's internal documents, you enable the model to learn your unique terminology, style, and procedures.
 
 Selecting knowledge for Copilot Tuning means identifying and preparing the right set of content from your organization that the model learns from. Knowledge selection includes gathering representative documents, examples, and instructions that capture the expertise you want the fine-tuned model to mimic. For example, a legal department could fine-tune a model on the firm's past case briefs and templates, so an agent that uses the model can draft contracts in the firm's style and terminology. The better the selected knowledge reflects your domain and task, the more the model produces relevant, high-quality results.
 
@@ -55,5 +55,5 @@ Implementing Copilot Tuning does introduce some overhead in terms of effort and 
 
 ## Related content
 
-- [Microsoft 365 Copilot Tuning overview (preview)](copilot-tuning-overview.md)
-- [Introducing Microsoft 365 Copilot Tuning (Microsoft 365 Blog)](https://www.microsoft.com/microsoft-365/blog/2025/05/19/introducing-microsoft-365-copilot-tuning-multi-agent-orchestration-and-more-from-microsoft-build-2025/)
+- [Microsoft 365 Copilot Tuning overview (preview)](copilot-tuning-overview.md)
+- [Introducing Microsoft 365 Copilot Tuning (Microsoft 365 Blog)](https://www.microsoft.com/microsoft-365/blog/2025/05/19/introducing-microsoft-365-copilot-tuning-multi-agent-orchestration-and-more-from-microsoft-build-2025/)
