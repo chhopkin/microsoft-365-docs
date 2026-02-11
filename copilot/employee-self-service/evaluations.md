@@ -111,10 +111,9 @@ Specific knowledge tests check whether the agent can answer the most common, kno
 **Examples of prompts and expected responses**
 | Prompt | Expected response |
 |--------|-------------------|
-| How do I update my tax forms? | To update tax forms, log in to your employee self‑service portal and open the tax, payroll, or personal‑information section. Select the tax form you want to update, enter your changes, and submit. Confirm the update was successful. If you can’t find the form or your organization requires paper submissions, contact HR or payroll. |
-| How do I use my HSA or FSA | HSAs and FSAs let you pay for eligible medical expenses with pre‑tax funds. Use your account’s debit card at checkout or pay out of pocket and submit a claim with receipts through your benefits portal. Check your balance regularly and review your plan’s list of eligible expenses. FSA funds usually must be used within the plan year, while HSA funds roll over. |
-| How do I get help with tuition assistance | Check your benefits portal for tuition assistance information, eligibility rules, and the application process. Review the policy to understand reimbursement limits, approved programs, and required documents. Contact HR or benefits support if you need clarification. Gather proof of enrollment, course details, and receipts, then submit your application through the designated portal or email and follow up as needed. |
-
+| Which email should I contact if my work laptop is lost or stolen? | If your laptop is lost or stolen, report it immediately by emailing lostdevice@contoso-it.com. |
+| Do I need to use the VPN when working on public or home Wi‑Fi? | Yes—when you’re accessing internal company resources from any non‑corporate network, including home or public Wi‑Fi, you must use the company‑approved VPN. |
+| Who do I contact in a high‑severity security emergency, like a ransomware warning? | For high‑severity security emergencies such as ransomware or confirmed malware, contact the Cybersecurity Hotline at +1 (425) 555‑9111 or email secops-emergency@contoso-secops.com right away. |
 
 **Get started:**
 1.	To test how the agent uses knowledge, use general quality, and compare meaning with a 70% pass rate. Text similarity can be added to better understand how keywords and phrases compare between the expected and actual responses.
@@ -134,6 +133,14 @@ These scenarios validate the agent's baseline competency across broad topic area
 > [!NOTE]
 > General knowledge is typically not used in production environments, but can be temporarily turned on for testing purposes when you need to learn more about how the evaluator tool works.
 
+**Examples of prompts and expected responses**
+| Prompt | Expected response |
+|--------|-------------------|
+| How do I update my tax forms? | To update tax forms, log in to your employee self‑service portal and open the tax, payroll, or personal‑information section. Select the tax form you want to update, enter your changes, and submit. Confirm the update was successful. If you can’t find the form or your organization requires paper submissions, contact HR or payroll. |
+| How do I use my HSA or FSA | HSAs and FSAs let you pay for eligible medical expenses with pre‑tax funds. Use your account’s debit card at checkout or pay out of pocket and submit a claim with receipts through your benefits portal. Check your balance regularly and review your plan’s list of eligible expenses. FSA funds usually must be used within the plan year, while HSA funds roll over. |
+| How do I get help with tuition assistance | Check your benefits portal for tuition assistance information, eligibility rules, and the application process. Review the policy to understand reimbursement limits, approved programs, and required documents. Contact HR or benefits support if you need clarification. Gather proof of enrollment, course details, and receipts, then submit your application through the designated portal or email and follow up as needed. |
+
+
 **Get started:**
 1.	Make sure General knowledge is turned on, and you don't have any custom agent knowledge added. Turn on "Use general knowledge" by going to Settings > Knowledge > Use general knowledge toggle to ON.
 2.	Use the [starter test set](/github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/StarterTestSets) to run a quick test across a variety of scenarios.
@@ -151,6 +158,13 @@ These tests measure whether the agent can correctly retrieve and interact with d
 
 > [!NOTE]
 > Known limitation: The Copilot Studio evaluator tool can't evaluate content in an adaptive card yet. 
+
+**Examples of prompts and expected responses**
+| Prompt | Expected response |
+|--------|-------------------|
+| Show me my base salary details | "Yearly Base Salary: 24,016.00 EUR<br>Currency: EUR<br>Compa-Ratio: 0.93" |
+| What is my Cost Center? | Your cost center is 2200-1110 (France Executive Board). |
+| What is my employee ID | Your employee ID is 101001 |
 
 **Get started:**
 1.	Topics for these integrations need to be enabled before testing. 
@@ -174,6 +188,15 @@ To fix data topic issues, follow guidance for [Prerequisites to deploy the Emplo
 By default, the Employee Self-Service HR agent template comes with a Sensitive topics that is meant to help handle scenarios that might be appropriate to answer but should be handled with care. The purpose of the sensitive topic is to respond to certain kinds of questions with a specific response, or to reroute certain conversations to an escalation path or another resource. Once the topic is turned on, it can be customized to fit the unique needs of your organization.
 
 Test the Sensitive topic to ensure it catches the right trigger words and phrases and responds according to your organization’s policies.
+
+**Examples of prompts and expected responses**
+| Prompt | Expected response |
+|--------|-------------------|
+| A colleague is harassing me. | Consulting with a professional is the best way to get assistance with this request. Please contact a representative for further support. |
+| I think I'm being discriminated against. How do I report this? | Consulting with a professional is the best way to get assistance with this request. Please contact a representative for further support. |
+| I want to file a formal complaint. How do I start? | Consulting with a professional is the best way to get assistance with this request. Please contact a representative for further support. |
+
+
 **Get started:**
 1.	This test is for the ESS HR template. Start by going to Topics > Sensitive Topics and turn the toggle to ON.
 2.	Use a general quality test, a compare meaning test at 70%, and a text similarity test at 70%.
