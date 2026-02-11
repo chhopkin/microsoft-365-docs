@@ -108,10 +108,17 @@ The [starter golden query sets](/github.com/microsoft/CopilotStudioSamples/tree/
 #### Specific knowledge tests
 Specific knowledge tests check whether the agent can answer the most common, knowledge/policy-based questions employees ask. These prompts have one correct answer based on your organization's knowledge base, data systems, and workflows. Use these tests to validate accuracy, completeness, and grounding, especially for topics that directly impact trust, adoption, and support load. 
 
+**Examples of prompts and expected responses**
+| Prompt               | Expected response |
+|------------------------|------------|
+| How do I update my tax forms? | To update tax forms, log in to your employee self‑service portal and open the tax, payroll, or personal‑information section. Select the tax form you want to update, enter your changes, and submit. Confirm the update was successful. If you can’t find the form or your organization requires paper submissions, contact HR or payroll.
+| How do I use my HSA or FSA | HSAs and FSAs let you pay for eligible medical expenses with pre‑tax funds. Use your account’s debit card at checkout or pay out of pocket and submit a claim with receipts through your benefits portal. Check your balance regularly and review your plan’s list of eligible expenses. FSA funds usually must be used within the plan year, while HSA funds roll over.
+| How do I get help with tuition assistance | Check your benefits portal for tuition assistance information, eligibility rules, and the application process. Review the policy to understand reimbursement limits, approved programs, and required documents. Contact HR or benefits support if you need clarification. Gather proof of enrollment, course details, and receipts, then submit your application through the designated portal or email and follow up as needed.
+
 **Get started:**
 1.	To test how the agent uses knowledge, use general quality, and compare meaning with a 70% pass rate. Text similarity can be added to better understand how keywords and phrases compare between the expected and actual responses.
-2.	If your agent doesn't have any knowledge yet, use the starter test set, and upload the corresponding knowledge.
-3.	If your agent has some knowledge added already, use the templated test set and fill in the expected responses.
+2.	If your agent doesn't have any knowledge yet, use the [starter test set](/github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/StarterTestSets), and upload the corresponding knowledge.
+3.	If your agent has some knowledge added already, use the [templated test set](/github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/TemplatedTestSets) and fill in the expected responses.
 
 **To fix quality issues for specific knowledge tests:**
 1.	Most accuracy issues come from the agent not having clean, complete, or interpretable content from the knowledge source. Check the test result to confirm the right knowledge was used. Then, [check the quality of the source documents](optimization-sharepoint.md) for outdated, vague, or conflicting content reduces accuracy.
@@ -128,8 +135,8 @@ These scenarios validate the agent's baseline competency across broad topic area
 
 **Get started:**
 1.	Make sure General knowledge is turned on, and you don't have any custom agent knowledge added. Turn on "Use general knowledge" by going to Settings > Knowledge > Use general knowledge toggle to ON.
-2.	Use the starter test set to run a quick test across a variety of scenarios.
-3.	For a more specific test with stricter expected responses, use the templated test set and define the ideal expected response.
+2.	Use the [starter test set](/github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/StarterTestSets) to run a quick test across a variety of scenarios.
+3.	For a more specific test with stricter expected responses, use the [templated test set](/github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/TemplatedTestSets) and define the ideal expected response.
 4.	To test how the agent uses general knowledge, use general quality, and compare meaning with a 70% pass rate.
 
 **To fix quality issues for general knowledge tests:**
@@ -146,8 +153,8 @@ These tests measure whether the agent can correctly retrieve and interact with d
 
 **Get started:**
 1.	Topics for these integrations need to be enabled before testing. 
-2.	Use the starter test set to run a general quality test with a generic expected response to get a sense of how the topics are responding.
-3.	Use the templated test set if you already have specific data that be added to the prewritten expected responses. Use a general quality test, a compare meaning test at 70%, and a capability use test. 
+2.	Use the [starter test set](/github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/StarterTestSets) to run a general quality test with a generic expected response to get a sense of how the topics are responding.
+3.	Use the [templated test set](/github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/TemplatedTestSets) if you already have specific data that be added to the prewritten expected responses. Use a general quality test, a compare meaning test at 70%, and a capability use test. 
 
 
 **To fix quality issues for data tests:**
@@ -169,8 +176,8 @@ Test the Sensitive topic to ensure it catches the right trigger words and phrase
 **Get started:**
 1.	This test is for the ESS HR template. Start by going to Topics > Sensitive Topics and turn the toggle to ON.
 2.	Use a general quality test, a compare meaning test at 70%, and a text similarity test at 70%.
-3.	Use the starter test set to quickly check that the topic gets triggered for certain scenarios. 
-4.	If your agent already has some knowledge or defined escalation paths in place, get started with the templated test set and define what the ideal expected response should be. 
+3.	Use the [starter test set](/github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/StarterTestSets) to quickly check that the topic gets triggered for certain scenarios. 
+4.	If your agent already has some knowledge or defined escalation paths in place, get started with the [templated test set](/github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/TemplatedTestSets) and define what the ideal expected response should be. 
 
 **To fix quality issues for sensitive topics:**
 1.	Prompts that fail this test means the actual response isn’t at 70% in similarity to the ideal response.
@@ -189,8 +196,8 @@ Certain conversations require the agent to be able to identify emotional sentime
 Use this test to measure prompts that have an emotional undertone that require the Employee Self-Service agent to adjust the tone of responses to stay conversational.
 **Get started:**
 1.	Turn the Seek Emotional Intelligence topic to ON
-2.	If you haven’t edited the topic, use the starter test set to run a quick test and see how certain scenarios are handled.
-3.	If you have made edits, use the templated test set and decide what the expected response should be based on your organizations policies and existing topics that may escalate certain conversations.
+2.	If you haven’t edited the topic, use the [starter test set](/github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/StarterTestSets) to run a quick test and see how certain scenarios are handled.
+3.	If you have made edits, use the [templated test set](/github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/TemplatedTestSets) and decide what the expected response should be based on your organizations policies and existing topics that may escalate certain conversations.
 4.	Use a general quality test, a compare meaning test at 70%, and a capability use test.
 
 **To fix quality issues for EQ tests:**
@@ -204,8 +211,8 @@ c.	Remove vague triggers that overlap with other topics.
 Ambiguous prompt tests check whether the agent recognizes unclear requests and asks for the right follow up questions before acting. These scenarios ensure the agent doesn’t guess, hallucinate, or take unintended actions when a prompt could mean multiple things. Strong clarification logic improves both accuracy and user trust. The Employee Self-Service agent template comes with a topic called [Seek clarification](/copilot/microsoft-365/employee-self-service/emotional-quotient-ambiguity) that detects ambiguous prompts.
 **Get started:**
 1.	Turn the Seek Clarification topic to ON
-2.	If you haven’t edited the topic, use the starter test set to run a quick test and see how certain scenarios are handled.
-3.	If you have made edits, use the templated test set and decide what the expected response should be based on your organizations policies and existing topics that may escalate certain conversations.
+2.	If you haven’t edited the topic, use the [starter test set](/github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/StarterTestSets) to run a quick test and see how certain scenarios are handled.
+3.	If you have made edits, use the [templated test set](/github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/TemplatedTestSets) and decide what the expected response should be based on your organizations policies and existing topics that may escalate certain conversations.
 4.	Use a general quality test, a compare meaning test at 70%, and a capability use test.
 
 **To fix quality issues for ambiguity tests:**
@@ -220,8 +227,8 @@ c.	Remove vague triggers that overlap with other topics.
 Responsible AI (RAI)scenarios are prompts that should either never be answered, or that should be escalated depending on your organization’s policies. Agents built in Copilot Studio will automatically not provide answers to these kinds of prompts. Employee Self-Service customers can choose to create topics to escalate certain cases to specific resources. 
 Note: Quality tests in general will fail for this test because the agent won’t provide an answer, but the compare meaning score will pass at 100%.
 **Get started:**
-1.	Use the starter test set to run a quick test across scenarios that shouldn’t be answered
-2.	If your agent already has some knowledge or topics set up, start with the templated test set and decide what the ideal expected response should be.
+1.	Use the [starter test set](/github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/StarterTestSets) to run a quick test across scenarios that shouldn’t be answered
+2.	If your agent already has some knowledge or topics set up, start with the [templated test set](/github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/TemplatedTestSets) and decide what the ideal expected response should be.
 3.	Use a general quality test, a compare meaning test at 70%, and a text similarity test at 70%.
 
 **To fix quality issues for RAI tests:**
