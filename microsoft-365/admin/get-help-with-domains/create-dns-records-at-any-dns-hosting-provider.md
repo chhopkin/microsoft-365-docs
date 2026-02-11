@@ -171,7 +171,7 @@ To add an MX record and other supporting email DNS records for use with email in
       - *Type*: **MX**
       - *Priority*: Set to the highest value available, typically **0**. The lower the number, the higher the priority, with **0** having the highest priority.
       - *Host Name*: **@**
-      - *Points to address or value*: Copy the MX record value from the Microsoft 365 admin center displayed in the previous step and paste it here.
+      - *Points to address or value*: Copy the MX record value from the Microsoft 365 admin center **Add DNS records** page and paste it here.
       - *TTL*: **3600** (1 hour)
 
       > [!NOTE]
@@ -182,10 +182,10 @@ To add an MX record and other supporting email DNS records for use with email in
 
       - *Type*: **CNAME (Alias)**
       - *Host*: **autodiscover**
-      - *Points to address or value*: Copy the autodiscover CNAME record value from the Microsoft 365 admin center displayed in the previous step and paste it here.
+      - *Points to address or value*: Copy the autodiscover CNAME record value from the Microsoft 365 admin center **Add DNS records** page and paste it here.
       - *TTL*: **3600** (1 hour)
 
-    - **SPF TXT record** - This record is optional but highly recommended. The SPF TXT record helps prevent email spam. For more information on SPF TXT records, see [Help prevent email spam (Outlook, Exchange Online) by adding appropriate DNS records](#help-prevent-email-spam-outlook-exchange-online-by-adding-appropriate-dns-records) in this article.
+    - **SPF TXT record** - This record is optional but highly recommended. The SPF TXT record helps prevent email spam. For more information on SPF TXT records, see [Help prevent email spam (Outlook, Exchange Online) by adding appropriate DNS records](#help-prevent-email-spam-outlook-exchange-online-by-adding-appropriate-dns-records) in this article.<br><br>
 
       - *Type*: **TXT (Text)**
       - *Host*: **@**
@@ -196,16 +196,16 @@ To add an MX record and other supporting email DNS records for use with email in
       >
       > If an SPF record already exists for the domain, don't create a new one for Microsoft 365. Don't delete the existing value already in the SPF TXT record for the previous email provider. Instead, add the required Microsoft 365 SPF TXT value to the current SPF TXT record. When complete, there should be a *single* SPF TXT record that includes the values for both the previous email provider and Microsoft 365.
 
-    - **DomainKeys Identified Mail (DKIM) CNAME records** (optional)
+    - **DomainKeys Identified Mail (DKIM) CNAME records** This record is optional. The DKIM record helps prevent email spam. For more information on DKIM records, see [Help prevent email spam (Outlook, Exchange Online) by adding appropriate DNS records](#help-prevent-email-spam-outlook-exchange-online-by-adding-appropriate-dns-records) in this article.<br><br>
 
       - *Type*: **CNAME (Alias)**
       - *Host*: **selector1._domainkey**
-      - *Points to address or value*: Copy the first value from the Microsoft 365 admin center displayed under **DomainKeys Identified Mail (DKIM)** and paste it here.
+      - *Points to address or value*: Copy the first value displayed under **DomainKeys Identified Mail (DKIM)** from the Microsoft 365 admin center **Add DNS records** page and paste it here.
       - *TTL*: **3600** (1 hour)
 
       - *Type*: **CNAME (Alias)**
       - *Host*: **selector2._domainkey**
-      - *Points to address or value*: Copy the second value from the Microsoft 365 admin center displayed under **DomainKeys Identified Mail (DKIM)** and paste it here.
+      - *Points to address or value*: Copy the second value displayed under **DomainKeys Identified Mail (DKIM)** from the Microsoft 365 admin center **Add DNS records** page and paste it here.
       - *TTL*: **3600** (1 hour)
 
 1. If MX records already exist for the previous email provider, one of the following two actions needs to be taken to ensure that email starts getting delivered to Microsoft 365:
@@ -288,44 +288,46 @@ To add CNAME and SRV records required by Microsoft 365 services such as Microsof
     > - **Domain Manager**.
     > - **DNS Manager**.
 
-    - **CNAME record**
-
-      - *Type*: **CNAME (Alias)**
-      - *Host*: Copy the value from the Microsoft 365 admin center displayed in the previous step and paste it here.
-      - *Points to address or value*: Copy the value from the Microsoft 365 admin center and paste it here.
-      - *TTL*: **3600** (1 hour)
-
-      For example, to add the required CNAME records for Microsoft Intune, add the following CNAME records:
-
-      - *Type*: **CNAME (Alias)**
-      - *Host*: **enterpriseregistration**
-      - *Points to address or value*: **enterpriseregistration.windows.net.**
-      - *TTL*: **3600** (1 hour)
-
-      - *Type*: **CNAME (Alias)**
-      - *Host*: **enterpriseenrollment**
-      - *Points to address or value*: **enterpriseenrollment-s.manage.microsoft.com.**
-      - *TTL*: **3600** (1 hour)
-
-    - **SRV record**
-
-      - *Type*: **SRV (Service)**
-      - *Name*: **@**
-      - *Target*: Copy the value from the Microsoft 365 admin center displayed in the previous step and paste it here.
-      - *Protocol*: Copy the value from the Microsoft 365 admin center displayed in the previous step and paste it here.
-      - *Service*: Copy the value from the Microsoft 365 admin center displayed in the previous step and paste it here.
-      - *Priority*: **100**
-      - *Weight*: **1**
-      - *Port*: Copy the value from the Microsoft 365 admin center displayed in the previous step and paste it here.
-      - *TTL*: **3600** (1 hour)
-
-        > [!NOTE]
-        >
-        > Some registrars might have restrictions on what can be added to an SRV record. For more information, including workarounds, see [SRV record field restrictions and workarounds](#srv-record-field-restrictions-and-workarounds) in this article.
-
 1. Once the CNAME and SRV records are manually added at the registrar, switch back to th Microsoft 365 admin center web browser window or tab, and then select **Continue**.
 
 1. Microsoft 365 verifies that the CNAME and SRV records were added correctly. Once verification completes successfully, the **Domain setup is complete** page displays. Select **Done** to complete adding the CNAME and SRV records for Microsoft 365 services.
+
+Examples of CNAME and SRV DNS records:
+
+- **CNAME record**<br><br>
+
+  - *Type*: **CNAME (Alias)**
+  - *Host*: Copy the value displayed from the Microsoft 365 admin center **Add DNS records** page and paste it here.
+  - *Points to address or value*: Copy the value displayed from the Microsoft 365 admin center **Add DNS records** page and paste it here.
+  - *TTL*: **3600** (1 hour)
+
+    For example, to add the required CNAME records for Microsoft Intune, add the following CNAME records:
+
+  - *Type*: **CNAME (Alias)**
+  - *Host*: **enterpriseregistration**
+  - *Points to address or value*: **enterpriseregistration.windows.net.**
+  - *TTL*: **3600** (1 hour)
+
+  - *Type*: **CNAME (Alias)**
+  - *Host*: **enterpriseenrollment**
+  - *Points to address or value*: **enterpriseenrollment-s.manage.microsoft.com.**
+  - *TTL*: **3600** (1 hour)
+
+- **SRV record**
+
+  - *Type*: **SRV (Service)**
+  - *Name*: **@**
+  - *Target*: Copy the value displayed from the Microsoft 365 admin center **Add DNS records** page and paste it here.
+  - *Protocol*: Copy the value displayed from the Microsoft 365 admin center **Add DNS records** page and paste it here.
+  - *Service*: Copy the value displayed from the Microsoft 365 admin center **Add DNS records** page and paste it here.
+  - *Priority*: **100**
+  - *Weight*: **1**
+  - *Port*: Copy the value displayed from the Microsoft 365 admin center **Add DNS records** page and paste it here.
+  - *TTL*: **3600** (1 hour)
+
+    > [!NOTE]
+    >
+    > Some registrars might have restrictions on what can be added to an SRV record. For more information, including workarounds, see [SRV record field restrictions and workarounds](#srv-record-field-restrictions-and-workarounds) in this article.
 
 ---
 
