@@ -48,7 +48,7 @@ For more information on domains, see [Domains FAQ](../setup/domains-faq.yml).
 
 ## Registrars and Domain Connect
 
-Before connecting your domain to Microsoft 365 by adding DNS records, the registrar that hosts your domain needs to be determined. Additionally, you need to determine if your registrar supports [**Domain Connect**](https://www.domainconnect.org/). **Domain Connect** allows the following tasks to be automatically performed by Microsoft 365:
+Before your domain is connected to Microsoft 365 by adding DNS records, the registrar that hosts your domain needs to be determined. Additionally, you need to determine if your registrar supports [**Domain Connect**](https://www.domainconnect.org/). **Domain Connect** allows the following tasks to be automatically performed by Microsoft 365:
 
 - Confirming domain ownership.
 - Adding DNS records required for Microsoft 365 services.
@@ -168,19 +168,13 @@ To add an MX record and other supporting email DNS records for use with email in
 
     - **MX record** - This DNS record is required and specifies where email for the domain should go to.<br><br>
 
-        |                              |                                                                                                                          |
-        |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-        | *Type*                       | **MX**                                                                                                                   |
-        | *Priority*                   | Set to the highest value available, typically **0**.                                                                     |
-        | *Host Name*                  | **@**                                                                                                                    |
-        | *Points to address or value* | Copy the MX record value from the Microsoft 365 admin center **Add DNS records** page and paste it here.|
-        | *TTL*                        | **3600** (1 hour)                                                                                                        |
-
-      - *Type*: **MX**
-      - *Priority*: Set to the highest value available, typically **0**. The lower the number, the higher the priority, with **0** having the highest priority.
-      - *Host Name*: **@**
-      - *Points to address or value*: Copy the MX record value from the Microsoft 365 admin center **Add DNS records** page and paste it here.
-      - *TTL*: **3600** (1 hour)
+      |  DNS record field            | Value                                                                                                            |
+      |------------------------------|------------------------------------------------------------------------------------------------------------------|
+      | *Type*                       | **MX**                                                                                                           |
+      | *Priority*                   | Set to the highest value available, typically **0**.                                                             |
+      | *Host Name*                  | **@**                                                                                                            |
+      | *Points to address or value* | Copy the MX record value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
+      | *TTL*                        | **3600** (1 hour)                                                                                                |
 
       > [!NOTE]
       >
@@ -188,17 +182,21 @@ To add an MX record and other supporting email DNS records for use with email in
 
     - **Autodiscover CNAME record** - This DNS record is optional but highly recommended. It allows automatic configuration of a user's email in products that support it, for example Microsoft Outlook.<br><br>
 
-      - *Type*: **CNAME (Alias)**
-      - *Host*: **autodiscover**
-      - *Points to address or value*: Copy the autodiscover CNAME record value from the Microsoft 365 admin center **Add DNS records** page and paste it here.
-      - *TTL*: **3600** (1 hour)
+      |  DNS record field            | Value                                                                                                                            |
+      |------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+      | *Type*                       | **CNAME (Alias)**                                                                                                                |
+      | *Host*                       | **autodiscover**                                                                                                                 |
+      | *Points to address or value* | Copy the autodiscover CNAME record value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
+      | *TTL*                        | **3600** (1 hour)                                                                                                                |
 
     - **SPF TXT record** - This record is optional but highly recommended. The SPF TXT record helps prevent email spam. For more information on SPF TXT records, see [Help prevent email spam (Outlook, Exchange Online) by adding appropriate DNS records](#help-prevent-email-spam-outlook-exchange-online-by-adding-appropriate-dns-records) in this article.<br><br>
 
-      - *Type*: **TXT (Text)**
-      - *Host*: **@**
-      - *Points to address or value*: **v=spf1 include:spf.protection.outlook.com -all**
-      - *TTL*: **3600** (1 hour)
+      |  DNS record field            | Value                                              |
+      |------------------------------|----------------------------------------------------|
+      | *Type*                       | **TXT (Text)**                                     |
+      | *Host*                       | **@**                                              |
+      | *Points to address or value* | **v=spf1 include:spf.protection.outlook.com -all** |
+      | *TTL*                        | **3600** (1 hour)                                  |
 
       > [!IMPORTANT]
       >
@@ -206,15 +204,19 @@ To add an MX record and other supporting email DNS records for use with email in
 
     - **DomainKeys Identified Mail (DKIM) CNAME records** This record is optional. The DKIM record helps prevent email spam. For more information on DKIM records, see [Help prevent email spam (Outlook, Exchange Online) by adding appropriate DNS records](#help-prevent-email-spam-outlook-exchange-online-by-adding-appropriate-dns-records) in this article.<br><br>
 
-      - *Type*: **CNAME (Alias)**
-      - *Host*: **selector1._domainkey**
-      - *Points to address or value*: Copy the first value displayed under **DomainKeys Identified Mail (DKIM)** from the Microsoft 365 admin center **Add DNS records** page and paste it here.
-      - *TTL*: **3600** (1 hour)
+      | DNS record field             | Value                    |
+      |------------------------------|------------------------- |
+      | *Type*                       | **CNAME (Alias)**        |
+      | *Host*                       | **selector1._domainkey** |
+      | *Points to address or value* | Copy the first value displayed under **DomainKeys Identified Mail (DKIM)** in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
+      | *TTL*                        | **3600** (1 hour)        |
 
-      - *Type*: **CNAME (Alias)**
-      - *Host*: **selector2._domainkey**
-      - *Points to address or value*: Copy the second value displayed under **DomainKeys Identified Mail (DKIM)** from the Microsoft 365 admin center **Add DNS records** page and paste it here.
-      - *TTL*: **3600** (1 hour)
+      |  DNS record field            | Value                    |
+      |------------------------------|--------------------------|
+      | *Type*                       | **CNAME (Alias)**        |
+      | *Host*                       | **selector2._domainkey** |
+      | *Points to address or value* | Copy the first value displayed under **DomainKeys Identified Mail (DKIM)** in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
+      | *TTL*                        | **3600** (1 hour)        |
 
 1. If MX records already exist for the previous email provider, one of the following two actions needs to be taken to ensure that email starts getting delivered to Microsoft 365:
 
@@ -304,34 +306,42 @@ Examples of CNAME and SRV DNS records:
 
 - **CNAME record**<br><br>
 
-  - *Type*: **CNAME (Alias)**
-  - *Host*: Copy the value displayed from the Microsoft 365 admin center **Add DNS records** page and paste it here.
-  - *Points to address or value*: Copy the value displayed from the Microsoft 365 admin center **Add DNS records** page and paste it here.
-  - *TTL*: **3600** (1 hour)
+    |  DNS record field            | Value                                                                                                  |
+    |------------------------------|--------------------------------------------------------------------------------------------------------|
+    | *Type*                       | **CNAME (Alias)**                                                                                      |
+    | *Host*                       | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
+    | *Points to address or value* | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
+    | *TTL*                        | **3600** (1 hour)                                                                                      |
 
     For example, to add the required CNAME records for Microsoft Intune, add the following CNAME records:
 
-  - *Type*: **CNAME (Alias)**
-  - *Host*: **enterpriseregistration**
-  - *Points to address or value*: **enterpriseregistration.windows.net.**
-  - *TTL*: **3600** (1 hour)
+    |  DNS record field            | Value                                   |
+    |------------------------------|-----------------------------------------|
+    | *Type*                       | **CNAME (Alias)**                       |
+    | *Host*                       | **enterpriseregistration**              |
+    | *Points to address or value* | **enterpriseregistration.windows.net.** |
+    | *TTL*                        | **3600** (1 hour)                       |
 
-  - *Type*: **CNAME (Alias)**
-  - *Host*: **enterpriseenrollment**
-  - *Points to address or value*: **enterpriseenrollment-s.manage.microsoft.com.**
-  - *TTL*: **3600** (1 hour)
+    |  DNS record field            | Value                                            |
+    |------------------------------|--------------------------------------------------|
+    | *Type*                       | **CNAME (Alias)**                                |
+    | *Host*                       | **enterpriseenrollment**                         |
+    | *Points to address or value* | **enterpriseenrollment-s.manage.microsoft.com.** |
+    | *TTL*                        | **3600** (1 hour)                                |
 
 - **SRV record**
 
-  - *Type*: **SRV (Service)**
-  - *Name*: **@**
-  - *Target*: Copy the value displayed from the Microsoft 365 admin center **Add DNS records** page and paste it here.
-  - *Protocol*: Copy the value displayed from the Microsoft 365 admin center **Add DNS records** page and paste it here.
-  - *Service*: Copy the value displayed from the Microsoft 365 admin center **Add DNS records** page and paste it here.
-  - *Priority*: **100**
-  - *Weight*: **1**
-  - *Port*: Copy the value displayed from the Microsoft 365 admin center **Add DNS records** page and paste it here.
-  - *TTL*: **3600** (1 hour)
+    |  DNS record field            | Value                                                                                                  |
+    |------------------------------|--------------------------------------------------------------------------------------------------------|
+    | *Type*                       | **SRV (Service)**                                                                                      |
+    | *Name*                       | **@**                                                                                                  |
+    | *Target*                     | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
+    | *Protocol*                   | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
+    | *Service*                    | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
+    | *Priority*                   | **100**                                                                                                |
+    | *Weight*                     | **1**                                                                                                  |
+    | *Port*                       | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
+    | *TTL*                        | **3600** (1 hour)                                                                                      |
 
     > [!NOTE]
     >
