@@ -111,7 +111,7 @@ To add an MX record and other supporting email DNS records for use with email in
 
     > [!TIP]
     >
-    > For additional email spam protection, also add **DomainKeys Identified Mail (DKIM)** CNAME records. To have **Domain Connect** automatically add DKIM CNAME records, before selecting **Add DNS records** at the **Add DNS records** page, select **Advanced options**, and then select **DomainKeys Identified Mail (DKIM)**. For more information, see [Help prevent email spam (Outlook, Exchange Online) by adding appropriate DNS records](#help-prevent-email-spam-outlook-exchange-online-by-adding-appropriate-dns-records) in this article.
+    > For additional email spam protection,  before selecting **Add DNS records**, select **Advanced options**, and then select **DomainKeys Identified Mail (DKIM)**. For more information about **DKIM**, see [Help prevent email spam (Outlook, Exchange Online) by adding appropriate DNS records](#help-prevent-email-spam-outlook-exchange-online-by-adding-appropriate-dns-records) in this article.
 
 1. A new window from your registrar opens showing the DNS records that are going to be added, including the MX record. Verify that the DNS records are correct, and then authorize the DNS records to be added.
 
@@ -120,11 +120,9 @@ To add an MX record and other supporting email DNS records for use with email in
     > If an MX record already exists for the previous email provider, one of the following two actions needs to be taken to ensure that email starts getting delivered to Microsoft 365:
     >
     > - Remove any existing MX records pointing to a previous email provider.
-    > - Set the MX record priority for the previous email provider to something lower than the Microsoft 365 MX record created in the previous step. The lower the number, the higher the priority, with **0** having the highest priority. If the priority for the MX record for Microsoft 365 is **0**, then the priority for the previous email provider should be something larger than **0**.
+    > - Set the MX record priority for the previous email provider to a lower priority than the MX record for Microsoft 365.
     >
-    > Depending on the registrar, the registrar might offer to automatically delete the existing MX record via **Domain Connect**. If you don't wish for the existing MX record to be automatically deleted, then the required email DNS records need to be added manually at your registrar.
-    >
-    > For instructions on how to manually add and remove an MX record or change its priority, refer to the registrar's documentation and instructions.
+    > Depending on the registrar, the registrar might offer to automatically delete the existing MX record via **Domain Connect**. If you don't wish for the existing MX record to be automatically deleted, then the required email DNS records need to be added manually at your registrar. Select the **Manual** tab instead to add MX records manually.
 
 1. Once the DNS records are added, you're returned back to the Microsoft 365 admin center window.
 
@@ -161,58 +159,54 @@ To add an MX record and other supporting email DNS records for use with email in
     > - **Domain Manager**.
     > - **DNS Manager**.
 
-    For example:
+    The following are the DNS records that need to be added for Microsoft 365 email:
 
-    - **MX record** - This DNS record is required and specifies where email for the domain should go to.
+    - **MX record** - This DNS record is required and specifies where email for the domain should go to.<br><br>
 
-      - Record Type: **MX**
-      - Priority: Set to the highest value available, typically **0**. The lower the number, the higher the priority, with **0** having the highest priority.
-      - Host Name: **@**
-      - Points to address or value: Copy the MX record value from the Microsoft 365 admin center displayed in the previous step and paste it here.
-      - TTL: **3600**
+      - *Type*: **MX**
+      - *Priority*: Set to the highest value available, typically **0**. The lower the number, the higher the priority, with **0** having the highest priority.
+      - *Host Name*: **@**
+      - *Points to address or value*: Copy the MX record value from the Microsoft 365 admin center displayed in the previous step and paste it here.
+      - *TTL*: **3600** (1 hour)
 
       > [!NOTE]
       >
       > Exchange Online only supports TTL values less than 6 hours (21,600 seconds).
 
-    - **Autodiscover CNAME record** - This DNS record is optional but highly recommended. It allows automatic configuration of a user's email in products that support it, for example Microsoft Outlook.
+    - **Autodiscover CNAME record** - This DNS record is optional but highly recommended. It allows automatic configuration of a user's email in products that support it, for example Microsoft Outlook.<br><br>
 
-      - Record Type: **CNAME (Alias)**
-      - Host: **autodiscover**
-      - Points to address or value: Copy the autodiscover CNAME record value from the Microsoft 365 admin center displayed in the previous step and paste it here.
-      - TTL: **3600**
+      - *Type*: **CNAME (Alias)**
+      - *Host*: **autodiscover**
+      - *Points to address or value*: Copy the autodiscover CNAME record value from the Microsoft 365 admin center displayed in the previous step and paste it here.
+      - *TTL*: **3600** (1 hour)
 
     - **SPF TXT record** - This record is optional but highly recommended. The SPF TXT record helps prevent email spam. For more information on SPF TXT records, see [Help prevent email spam (Outlook, Exchange Online) by adding appropriate DNS records](#help-prevent-email-spam-outlook-exchange-online-by-adding-appropriate-dns-records) in this article.
 
-      - Record Type: **TXT (Text)**
-      - Host: **@**
-      - TXT Value: **v=spf1 include:spf.protection.outlook.com -all**
-      - TTL: **3600**
+      - *Type*: **TXT (Text)**
+      - *Host*: **@**
+      - *Points to address or value*: **v=spf1 include:spf.protection.outlook.com -all**
+      - *TTL*: **3600** (1 hour)
 
       > [!IMPORTANT]
       >
       > If an SPF record already exists for the domain, don't create a new one for Microsoft 365. Don't delete the existing value already in the SPF TXT record for the previous email provider. Instead, add the required Microsoft 365 SPF TXT value to the current SPF TXT record. When complete, there should be a *single* SPF TXT record that includes the values for both the previous email provider and Microsoft 365.
 
-    > [!TIP]
-    >
-    > For additional email spam protection, also add **DomainKeys Identified Mail (DKIM)** CNAME records. For the format of the DKIM CNAME records, at the **Add DNS records** page, select **Advanced options**, and then select **DomainKeys Identified Mail (DKIM)**. Under **DomainKeys Identified Mail (DKIM)**, select the **>** next to **CNAME Records** to expand it. The format of the DKIM CNAME records is displayed. For example:
-    >
-    > - Record Type: **CNAME (Alias)**
-    > - Host: **selector1._domainkey**
-    > - Points to address or value: Copy the first value from the Microsoft 365 admin center displayed under **DomainKeys Identified Mail (DKIM)** and paste it here.
-    > - TTL: **3600**
-    >
-    > - Record Type: **CNAME (Alias)**
-    > - Host: **selector2._domainkey**
-    > - Points to address or value: Copy the second value from the Microsoft 365 admin center displayed under **DomainKeys Identified Mail (DKIM)** and paste it here.
-    > - TTL: **3600**
-    >
-    > For more information on DKIM CNAME records, see [Help prevent email spam (Outlook, Exchange Online) by adding appropriate DNS records](#help-prevent-email-spam-outlook-exchange-online-by-adding-appropriate-dns-records) in this article.
+    - **DomainKeys Identified Mail (DKIM) CNAME records** - For additional email spam protection, also add **DomainKeys Identified Mail (DKIM) CNAME records**. This record is optional. For the format of the DKIM CNAME records, at the **Add DNS records** page, select **Advanced options**, and then select **DomainKeys Identified Mail (DKIM)**. Under **DomainKeys Identified Mail (DKIM)**, select the **>** next to **CNAME Records** to expand it. The format of the DKIM CNAME records is displayed. For more information on DKIM CNAME records, see [Help prevent email spam (Outlook, Exchange Online) by adding appropriate DNS records](#help-prevent-email-spam-outlook-exchange-online-by-adding-appropriate-dns-records) in this article.
+
+      - *Type*: **CNAME (Alias)**
+      - *Host*: **selector1._domainkey**
+      - *Points to address or value*: Copy the first value from the Microsoft 365 admin center displayed under **DomainKeys Identified Mail (DKIM)** and paste it here.
+      - *TTL*: **3600** (1 hour)
+
+      - *Type*: **CNAME (Alias)**
+      - *Host*: **selector2._domainkey**
+      - *Points to address or value*: Copy the second value from the Microsoft 365 admin center displayed under **DomainKeys Identified Mail (DKIM)** and paste it here.
+      - *TTL*: **3600** (1 hour)
 
 1. If MX records already exist for the previous email provider, one of the following two actions needs to be taken to ensure that email starts getting delivered to Microsoft 365:
 
-   - Manually remove any existing MX records pointing to a previous email provider.
-   - Set the MX record priority for the previous email provider to something lower than the Microsoft 365 MX record created in the previous step. The lower the number, the higher the priority, with **0** having the highest priority. If the priority for the MX record for Microsoft 365 is **0**, then the priority for the previous email provider should be something larger than **0**.
+   - Remove any existing MX records pointing to a previous email provider.
+   - Set the MX record priority for the previous email provider to a lower priority than the MX record for Microsoft 365. The lower the number, the higher the priority, with **0** having the highest priority. If the priority for the Microsoft 365 MX record is **0**, then the priority for the previous email provider should be a value larger than **0**.
 
 1. Once the DNS records are manually added at the registrar, switch back to th Microsoft 365 admin center web browser window or tab, and then select **Continue**.
 
@@ -291,46 +285,46 @@ To add CNAME and SRV records required by Microsoft 365 services such as Microsof
 
     - **CNAME record**
 
-      - Record Type: **CNAME (Alias)**
-      - Host: Copy the value from the Microsoft 365 admin center displayed in the previous step and paste it here.
-      - Points to address or value: Copy the value from the Microsoft 365 admin center and paste it here.
-      - TTL: **3600**
+      - *Type*: **CNAME (Alias)**
+      - *Host*: Copy the value from the Microsoft 365 admin center displayed in the previous step and paste it here.
+      - *Points to address or value*: Copy the value from the Microsoft 365 admin center and paste it here.
+      - *TTL*: **3600** (1 hour)
 
       For example, to add the required CNAME records for Microsoft Intune, add the following CNAME records:
 
-      - Record Type: **CNAME (Alias)**
-      - Host: **enterpriseregistration**
-      - Points to address or value: **enterpriseregistration.windows.net.**
-      - TTL: **3600**
+      - *Type*: **CNAME (Alias)**
+      - *Host*: **enterpriseregistration**
+      - *Points to address or value*: **enterpriseregistration.windows.net.**
+      - *TTL*: **3600** (1 hour)
 
-      - Record Type: **CNAME (Alias)**
-      - Host: **enterpriseenrollment**
-      - Points to address or value: **enterpriseenrollment-s.manage.microsoft.com.**
-      - TTL: **3600**
+      - *Type*: **CNAME (Alias)**
+      - *Host*: **enterpriseenrollment**
+      - *Points to address or value*: **enterpriseenrollment-s.manage.microsoft.com.**
+      - *TTL*: **3600** (1 hour)
 
       To add DKIM CNAME records to reduce email span, add the following CNAME records:
 
-      - Record Type: **CNAME (Alias)**
-      - Host: **selector1._domainkey**
-      - Points to address or value: Copy the first value from the Microsoft 365 admin center displayed under **DomainKeys Identified Mail (DKIM)** and paste it here.
-      - TTL: **3600**
+      - *Type*: **CNAME (Alias)**
+      - *Host*: **selector1._domainkey**
+      - *Points to address or value*: Copy the first value from the Microsoft 365 admin center displayed under **DomainKeys Identified Mail (DKIM)** and paste it here.
+      - TTL: **3600** (1 hour)
 
-      - Record Type: **CNAME (Alias)**
-      - Host: **selector2._domainkey**
-      - Points to address or value: Copy the second value from the Microsoft 365 admin center displayed under **DomainKeys Identified Mail (DKIM)** and paste it here.
-      - TTL: **3600**
+      - *Type*: **CNAME (Alias)**
+      - *Host*: **selector2._domainkey**
+      - *Points to address or value*: Copy the second value from the Microsoft 365 admin center displayed under **DomainKeys Identified Mail (DKIM)** and paste it here.
+      - *TTL*: **3600** (1 hour)
 
     - **SRV record**
 
-      - Record Type: **SRV (Service)**
-      - Name: **@**
-      - Target: Copy the value from the Microsoft 365 admin center displayed in the previous step and paste it here.
-      - Protocol: Copy the value from the Microsoft 365 admin center displayed in the previous step and paste it here.
-      - Service: Copy the value from the Microsoft 365 admin center displayed in the previous step and paste it here.
-      - Priority: **100**
-      - Weight: **1**
-      - Port: Copy the value from the Microsoft 365 admin center displayed in the previous step and paste it here.
-      - TTL: **3600**
+      - *Type*: **SRV (Service)**
+      - *Name*: **@**
+      - *Target*: Copy the value from the Microsoft 365 admin center displayed in the previous step and paste it here.
+      - *Protocol*: Copy the value from the Microsoft 365 admin center displayed in the previous step and paste it here.
+      - *Service*: Copy the value from the Microsoft 365 admin center displayed in the previous step and paste it here.
+      - *Priority*: **100**
+      - *Weight*: **1**
+      - *Port*: Copy the value from the Microsoft 365 admin center displayed in the previous step and paste it here.
+      - *TTL*: **3600** (1 hour)
 
         > [!NOTE]
         >
