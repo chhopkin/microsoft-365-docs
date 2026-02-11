@@ -76,7 +76,7 @@ End-users see the following customizable branding and content elements:
 |Agent name                        |Copilot Studio overview page |Keep the original name or choose a name that aligns with your organization's brand and audience. |
 |Agent logo                        |Copilot Studio overview page |Use the default logo (a company badge) or add a logo that aligns with your brand. |
 |Agent short and long descriptions |Copilot Studio channels page |Consider a tagline and one-sentence description to be used to help users understand how Employee Self-Service agent can help them when they add the agent for the first time. |
-|Starter prompts                   |Copilot Studio overview page or the Microsoft 365 admin center if you also want to add categories |Help end-users understand how to engage with the Employee Self-Service agent by adding up to 12 starter prompts. |
+|Starter prompts                   |Copilot Studio overview page |Help end-users understand how to engage with the Employee Self-Service agent by adding up to 12 starter prompts. |
 |Disclaimer message                |Copilot Studio channels page and topic |Add a general disclaimer on the agent's landing page or add a disclaimer that displays after certain responses. |
 |Agent (global) instructions       |Copilot Studio overview page |Draft instructions that help shape your agent's personality, behavior for edge cases, and guidance on how to use user context. |
 
