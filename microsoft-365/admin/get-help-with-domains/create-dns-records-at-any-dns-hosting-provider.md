@@ -46,25 +46,30 @@ If you want to change the email domain of existing user accounts, follow the ste
 
 For more information on domains, see [Domains FAQ](../setup/domains-faq.yml).
 
-[!INCLUDE [How to get tech support for SMB](../../includes/smb-how-to-get-tech-support.md)]
+## Registrars and Domain Connect
 
-> [!TIP]
->
-> - To find your registrar, see [Find your domain registrar](find-your-domain-registrar.md).
->
-> - For instructions on how to add DNS records to specific registrars, see the following articles:
->
->   - [Connect your DNS records at IONOS to Microsoft 365](../dns/create-dns-records-at-ionos-com.md).
->   - [Connect your DNS records at 123-reg.co.uk to Microsoft 365](../dns/create-dns-records-at-123-reg-co-uk.md).
->   - [Connect your DNS records at Amazon Web Services (AWS) to Microsoft 365](../dns/create-dns-records-at-aws.md).
->   - [Connect your DNS records at Cloudflare to Microsoft 365](../dns/create-dns-records-at-cloudflare.md).
->   - [Connect your DNS records at GoDaddy to Microsoft 365](../dns/create-dns-records-at-godaddy.md).
->   - [Connect your DNS records at Namecheap to Microsoft 365](../dns/create-dns-records-at-namecheap.md).
->   - [Connect your DNS records at Network Solutions to Microsoft 365](../dns/create-dns-records-at-network-solutions.md).
->   - [Connect your DNS records at OVH to Microsoft 365](../dns/create-dns-records-at-ovh.md).
->   - [Connect your DNS records at web.com to Microsoft 365](../dns/create-dns-records-at-web-com.md).
->   - [Connect your DNS records at Wix to Microsoft 365](../dns/create-dns-records-at-wix.md).
->   - [Create DNS records for Microsoft using Windows-based DNS](../dns/create-dns-records-using-windows-based-dns.md).
+Before connecting your domain to Microsoft 365 by adding DNS records, the registrar that hosts your domain needs to be determined. Additionally, you need to determine if your registrar supports [**Domain Connect**](https://www.domainconnect.org/). **Domain Connect** allows the following tasks to be automatically performed by Microsoft 365:
+
+- Confirming domain ownership.
+- Adding DNS records required for Microsoft 365 services.
+
+Without **Domain Connect**, domain ownership and adding DNS records need to be performed manually by signing into your registrar.
+
+To find your registrar, see [Find your domain registrar](find-your-domain-registrar.md). Once your registrar is determined, consult with them to see if they support **Domain Connect**.
+
+For instructions on how to manually add DNS records at specific registrars, see the following articles:
+
+- [Connect your DNS records at IONOS to Microsoft 365](../dns/create-dns-records-at-ionos-com.md).
+- [Connect your DNS records at 123-reg.co.uk to Microsoft 365](../dns/create-dns-records-at-123-reg-co-uk.md).
+- [Connect your DNS records at Amazon Web Services (AWS) to Microsoft 365](../dns/create-dns-records-at-aws.md).
+- [Connect your DNS records at Cloudflare to Microsoft 365](../dns/create-dns-records-at-cloudflare.md).
+- [Connect your DNS records at GoDaddy to Microsoft 365](../dns/create-dns-records-at-godaddy.md).
+- [Connect your DNS records at Namecheap to Microsoft 365](../dns/create-dns-records-at-namecheap.md).
+- [Connect your DNS records at Network Solutions to Microsoft 365](../dns/create-dns-records-at-network-solutions.md).
+- [Connect your DNS records at OVH to Microsoft 365](../dns/create-dns-records-at-ovh.md).
+- [Connect your DNS records at web.com to Microsoft 365](../dns/create-dns-records-at-web-com.md).
+- [Connect your DNS records at Wix to Microsoft 365](../dns/create-dns-records-at-wix.md).
+- [Create DNS records for Microsoft using Windows-based DNS](../dns/create-dns-records-using-windows-based-dns.md).
 
 ## Step 1: Add a domain and verify domain ownership
 
@@ -384,6 +389,10 @@ Some registrars impose restrictions on field values within SRV records. Here are
     > - **Content**.
     > - **IP Address**.
     > - **Target Host**.
+
+## Support
+
+[!INCLUDE [How to get tech support for SMB](../../includes/smb-how-to-get-tech-support.md)]
 
 ## Related content
 
