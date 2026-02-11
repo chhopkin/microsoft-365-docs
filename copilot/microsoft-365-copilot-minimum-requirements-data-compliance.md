@@ -1,5 +1,5 @@
 ---  
-title: "Minimum requirements to deploy Microsoft 365 Copilot in your organization"  
+title: "Microsoft 365 Copilot data and compliance readiness"  
 author: kwekuako
 ms.author: kwekua
 manager: scotv
@@ -11,10 +11,10 @@ ms.collection: scotvorg
 ms.custom: QuickDraft
 audience: Admin
 ai-usage: ai-assisted
-description: Minimum requirements to deploy Microsoft 365 Copilot in your organization
+description: Overview of the minimum requirements to deploy Microsoft 365 Copilot in your organization
 ---
 
-# Minimum requirements to deploy Microsoft 365 Copilot - Data and compliance readiness
+# Microsoft 365 Copilot data and compliance readiness
 
 Copilot operates within your Office 365 trust boundary. That means your data stays your data. Microsoft will never use your files or communications with Copilot to train models or share with other customers. And we don't sell your information to advertisers. Copilot also builds on the work you've already done to secure your environment, whether that's SharePoint, email, Teams, or OneDrive. Use built-in Microsoft controls in SharePoint, Purview, and any third-party apps you have to protect your organization's data. For more information, see [Architecture diagrams of Microsoft 365 data protection features that affect Microsoft 365 Copilot](microsoft-365-copilot-architecture-data-protection-auditing.md).
 

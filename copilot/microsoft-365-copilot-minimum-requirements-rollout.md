@@ -1,5 +1,5 @@
 ---  
-title: "Minimum requirements to deploy Microsoft 365 Copilot in your organization"  
+title: "Rollout Microsoft 365 Copilot to your organization"  
 author: kwekuako
 ms.author: kwekua
 manager: scotv
@@ -14,7 +14,7 @@ ai-usage: ai-assisted
 description: Minimum requirements to deploy Microsoft 365 Copilot in your organization
 ---
 
-# Minimum requirements to deploy Microsoft 365 Copilot - rollout
+# Rollout Microsoft 365 Copilot to your organization
 
 To ensure a smooth and effective rollout of Microsoft 365 Copilot, we encourage you to begin with a phased approach. Start with a limited rollout to a small group of users and expand your user list as your rollout continues. This approach allows your organization to explore Copilot's features in a controlled setting, gather valuable feedback, and address any technical or adoption-related issues early on. By starting with a smaller group, you can refine configurations, ensure security and compliance readiness, and develop tailored training resources. This phased strategy also helps build internal advocates who can support broader adoption and contribute to a more successful organization-wide implementation.
 
