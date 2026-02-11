@@ -1,10 +1,10 @@
 ---
 title: FAQ for Copilot Tuning
 f1.keywords:
-ms.author: lauragra
-author: lauragra
-manager: calvind
-ms.date: 09/24/2025
+author: mestew
+ms.author: mstewart
+manager: scotv
+ms.date: 02/11/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: faq
