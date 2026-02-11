@@ -4,7 +4,7 @@ description: Use the Microsoft 365 admin center, to prevent unauthorized and out
 author: vpattnai
 ms.author: vpattnaik
 manager: dansimp
-ms.date: 02/10/2026
+ms.date: 02/11/2026
 ms.topic: how-to
 ms.service: microsoft-365-admin
 ms.localizationpriority: medium
@@ -18,7 +18,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 # Block access to Exchange Web Services (EWS)
 
-Exchange Web Services (EWS) provides cross platform API access to sensitive Exchange Online data such as emails, calendar items, and contacts. If EWS is not restricted, apps or scripts can programmatically access this data, increasing the risk of unauthorized exposure. Blocking EWS across your organization helps prevent attackers from using it to exfiltrate data, send phishing messages, spoof identities, or gain system level control.
+Exchange Web Services (EWS) provides cross platform API access to sensitive Exchange Online data such as emails, calendar items, and contacts. If EWS is not restricted, apps or scripts can programmatically access this data, increasing the risk of unauthorized exposure. Blocking EWS across your organization helps prevent attackers from using it to exfiltrate data, send phishing messages, or spoof identities.
 
 If you have enabled this setting but need to revert to the default behavior (allow users to access EWS), you can turn this setting off directly in the Microsoft 365 admin center.
 
