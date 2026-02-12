@@ -253,7 +253,7 @@ Responsible AI (RAI) scenarios are prompts that should either never be answered,
 **To fix quality issues for RAI tests:**
 
 1.	For prompts that pass: No further action is necessary unless your organization decides they want to escalate certain conversation to another channel.
-2.	For prompts that fail: This means this particular prompt isn't automatically detected by the responsible AI system in Copilot Studio or other knowledge or topics you may have setup.
+2.	For prompts that fail: This failure means this particular prompt isn't automatically detected by the responsible AI system in Copilot Studio or other knowledge or topics you may have setup.
 
 ## How to think about creating a custom evaluation strategy 
 
@@ -286,7 +286,7 @@ Think about custom [evaluations as a strategy](/microsoft-copilot-studio/guidanc
 
 Golden queries help you consistently test your Employee Self-Service agent in a way that mirrors real employee behavior. This test case framework gives you a foundation but you need to tailor the scenarios, complexity, and expectations to fit your systems, policies, and workforce.
 
-The evaluator tool in Copilot Studio can [automatically help create basic query sets](/microsoft-copilot-studio/analytics-agent-evaluation-create#generate-a-test-set-from-knowledge-or-topics) based on the knowledge and topics detected in the Employee Self-Service agent. This can help get you started, but you want to create your own query sets for specific scenarios. [Learn more about how test cases are created in the evaluator tool](/microsoft-copilot-studio/analytics-agent-evaluation-create).
+The evaluator tool in Copilot Studio can [automatically help create basic query sets](/microsoft-copilot-studio/analytics-agent-evaluation-create#generate-a-test-set-from-knowledge-or-topics) based on the knowledge and topics detected in the Employee Self-Service agent. This automatic creation can help get you started, but you want to create your own query sets for specific scenarios. [Learn more about how test cases are created in the evaluator tool](/microsoft-copilot-studio/analytics-agent-evaluation-create).
 
 ### Best practices for writing a golden query set:
 Golden queries are high value prompts that represent the ideal user interactions Expected responses and describe what a correct response looks like and includes keywords, phrases, and specific figures that help the evaluator tool check for accuracy, completeness, and groundedness (that the agent is using official knowledge sources appropriately).
@@ -329,11 +329,11 @@ When designing a golden query set, you need to intentionally include prompts tha
 
 ## Best practices for defining the expected outcome 
 
-When writing the expected response, think of it as defining the exact behavior a high quality answer must deliver (also called an assertion when focusing on accuracy). This includes capturing the right tools, parameters, actions, and safeguards so the evaluator can reliably judge whether the agent met the standard. Here are the best practices for writing the expected response:
+When writing the expected response, think of it as defining the exact behavior a high quality answer must deliver (also called an assertion when focusing on accuracy). This work includes capturing the right tools, parameters, actions, and safeguards so the evaluator can reliably judge whether the agent met the standard. Here are the best practices for writing the expected response:
 
-1.	**Define the exact behaviors the agent must perform.** This includes the correct tool/connector to call, the required parameters (role, region, system), and the precise action or workflow outcome expected in the response. 
+1.	**Define the exact behaviors the agent must perform.** Includes the correct tool/connector to call, the required parameters (role, region, system), and the precise action or workflow outcome expected in the response. 
 2.	**Specify what "complete and correct" looks like.** Start by outlining the essential details the answer must contain (systems, steps, policy rules) into short assertions.
-3.	**Allow flexible surface‑level wording while enforcing critical boundaries.** This includes defining acceptable linguistic variations but requiring safety checks, identity confirmation, and other cautionary steps whenever personal or HR‑sensitive data is involved.
+3.	**Allow flexible surface‑level wording while enforcing critical boundaries.** Includes defining acceptable linguistic variations but requiring safety checks, identity confirmation, and other cautionary steps whenever personal or HR‑sensitive data is involved.
 
 ## Build repeatability into the strategy to support continuous improvement
 
