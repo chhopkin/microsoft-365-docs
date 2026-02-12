@@ -29,7 +29,7 @@ In this article:
 
 > [!NOTE]
 > - The evaluation tool can't review content inside of adaptive cards yet.
-> - The evaluation tool doesnt measure latency, or how quickly the agent responds.
+> - The evaluation tool doesn't measure latency, or how quickly the agent responds.
 
 ## Why invest in evaluations for your agent?
 
