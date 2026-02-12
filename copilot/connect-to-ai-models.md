@@ -58,8 +58,8 @@ Once enabled in the Microsoft 365 admin center, additional administrator control
 
 Your organization may decide that it no longer wants users to be able to access other LLMs. You can disable the model provider:
 
-1.  Go to the [Microsoft 365 admin center](https://admin.microsoft.com/) and select **Copilot** -\> **Settings**.
-2.  On the **Data access** page, select **AI providers for other large language models**.
-3.  Under **Available model providers for your organization**, choose **xAI**, and select **Block provider**.
+1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/) and select **Copilot** -\> **Settings**.
+2. On the **Data access** page, select **AI providers for other large language models**.
+3. Under **Available model providers for your organization**, choose **xAI**, and select **Block provider**.
 
 Once you disconnect xAI, users cannot use xAI's AI models. After completing the steps to disconnect xAI in Microsoft 365, it may take several hours for the service to be fully disabled for your users.
