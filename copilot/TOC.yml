@@ -477,9 +477,10 @@ items:
         - name: Word, Excel, and PowerPoint Agents FAQ
           href: faq-wordexcelppt-agents.yml
   - name: Microsoft 365 Copilot connectors
-    href: /microsoftsearch/connectors-overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     items:
-    - name: Set up connectors for Microsoft 365 Copilot
+    - name: Overview
+      href: /microsoftsearch/connectors-overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
+    - name: Set up connectors
       href: /microsoftsearch/configure-connector?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
   - name: Manage generative AI apps for your organization
     href: manage-generative-ai-apps.md
