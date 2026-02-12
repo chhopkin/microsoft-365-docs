@@ -122,11 +122,11 @@ The [starter golden query sets](/github.com/microsoft/CopilotStudioSamples/tree/
 Specific knowledge tests check whether the agent can answer the most common, knowledge/policy-based questions employees ask. These prompts have one correct answer based on your organization's knowledge base, data systems, and workflows. Use these tests to validate accuracy, completeness, and grounding, especially for topics that directly impact trust, adoption, and support load. 
 
 **Examples of prompts and expected responses**
-| Prompt | Expected response |
-|--------|-------------------|
-| Which email should I contact if my work laptop is lost or stolen? | If your laptop is lost or stolen, report it immediately by emailing lostdevice@contoso-it.com. |
-| Do I need to use the VPN when working on public or home Wi‑Fi? | Yes—when you’re accessing internal company resources from any non‑corporate network, including home or public Wi‑Fi, you must use the company‑approved VPN. |
-| Who do I contact in a high‑severity security emergency, like a ransomware warning? | For high‑severity security emergencies such as ransomware or confirmed malware, contact the Cybersecurity Hotline at +1 (425) 555‑9111 or email secops-emergency@contoso-secops.com right away. 
+|Prompt   |Expected response   |
+|---------|--------------------|
+|Which email should I contact if my work laptop is lost or stolen?    |If your laptop is lost or stolen, report it immediately by emailing lostdevice@contoso-it.com.      |
+|Do I need to use the VPN when working on public or home Wi‑Fi? |Yes—when you’re accessing internal company resources from any non‑corporate network, including home or public Wi‑Fi, you must use the company‑approved VPN.   |
+|Who do I contact in a high‑severity security emergency, like a ransomware warning? |For high‑severity security emergencies such as ransomware or confirmed malware, contact the Cybersecurity Hotline at +1 (425) 555‑9111 or email secops-emergency@contoso-secops.com right away.  |
 
 **Get started:**
 1.	To test how the agent uses knowledge, use general quality, and compare meaning with a 70% pass rate. Text similarity can be added to better understand how keywords and phrases compare between the expected and actual responses.
