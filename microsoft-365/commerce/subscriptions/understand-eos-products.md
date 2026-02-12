@@ -24,7 +24,7 @@ service.tree.id: 84a24b9c-ce0c-4b4b-b837-45bc5ee4bef0
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn about end-of-sale products in the Microsoft 365 admin center."
-ms.date: 10/02/2025
+ms.date: 02/05/2026
 ---
 
 # Understand end-of-sale products in the Microsoft 365 admin center

@@ -1,7 +1,7 @@
 ---
 title: Overview of Microsoft 365 Groups for administrators
 ms.reviewer: rahulnayak
-ms.date: 03/13/2025
+ms.date: 02/02/2026
 f1.keywords: NOCSH
 ms.author: deniseb
 author: denisebmsft

@@ -38,6 +38,7 @@ VL roles are assigned by one of the following people:
 
 - You must have a VL role to access the VL pages in the Microsoft 365 admin center.
 - VL roles are managed by the VL Administrator and don't provide visibility or permissions to other areas of the admin center beyond the VL pages.  
+- VL roles provide access to agreements beyond the agreement end date. Admins need to remove VL roles of any users whose access they want to discontinue.
 
 > [!NOTE]
 > Global Administrators in the admin center don't have access to VL features. It's up to the VL agreement administrator to add any users, including Global Administrators, who might want access to specific Agreements (License IDs). For more information, see [Commonly used Microsoft 365 admin center roles](../../admin/add-users/about-admin-roles.md#commonly-used-microsoft-365-admin-center-roles), and [Volume licensing roles](../../admin/add-users/about-admin-roles.md#volume-licensing-roles).
@@ -54,17 +55,17 @@ The following table shows the relationship between VL roles in the retired Volum
 | License position reader         | Licensing Info Viewer | Can view contract details, orders, and contract keys, and create license summaries. |
 | Product download manager        | Download             | Can view contracts and download licensed Microsoft software products. |
 | Product keys reader             | Product Keys         | Can view contracts and contract keys, manage activation and redemption of online services, and view keys on the **Products and services** page. |
-| Benefits reader                 | Software Assurance Manager | Can view contracts and manage Workplace Discount Software Assurance entitlements. |
-| Online services manager         | Online Services Manager    | Can view contracts and orders, reserve online services, manage activation and redemption of online services, and manage subscriptions on the **Billing** > **Licenses** page. |
-| Invoice Reader                  | N/A                        | Can view contracts, the list of invoices, and can download invoices.<br/><br/>This role is automatically assigned to the person listed on the licensing contact as the **Bill To** contract and can’t be assigned to the VL admin.<br/><br/>If you're an EA or EAS customer, the Invoice Reader role isn't assigned to the **Bill To** contact. The VL Administrator can view the invoices or assign the Invoice Reader role to any user. |
+| Benefits reader                 |Software Assurance Manager | Can view contracts and manage Workplace Discount Software Assurance entitlements. |
+| Online services manager         | Online Services Manager    |Can view contracts and orders, activate services and manage reservations of online services on the **Billing** > [Your products](https://go.microsoft.com/fwlink/p/?linkid=842054) > [Volume licensing](https://go.microsoft.com/fwlink/p/?linkid=2244144) page.<br/><br/>**NOTE** An OSM must have Global Administrator permissions to also be able to manage and assign subscriptions on the **Billing** > **Licenses** page.|
+| Invoice Reader                  | N/A                        |Can view contracts, the list of invoices, and can download invoices for contracts that are direct with Microsoft.<br/><br/>The Invoice Reader role isn't assigned automatically.  The VL Administrator can view the invoices or assign the Invoice Reader role to any user. Typically, the Invoice Reader role is assigned to the Bill To contact on the volume licensing contract.|
 
 ## Understand the volume licensing administrator role
 
-By default, the VL Administrator role is assigned to the Notices Contact, or the Primary Contact provided by your Microsoft partner or seller when they set up your VL contract. If you're an EA or EAS customer, when the VL contract is activated, the VL Administrator role is only assigned to the Notices Contact.
+By default, the VL Administrator role is assigned to the Notices Contact, or the Primary Contact provided by your Microsoft partner or seller when they set up your VL contract. 
+
+If you're an EA or EAS customer, when the VL contract is activated, the VL Administrator role is assigned to both the Notices Contact and to the Online Services Manager (OSM), assuming the user IDs provided on the contract are Microsoft Entra IDs. However, if the user ID provided for the OSM contact isn't a Microsoft Entra ID, the OSM can't be assigned a role in admin center. Instead, a "Tenant Discovery" email is sent to the OSM inviting them to sign in or sign up.
 
 When these contacts sign in to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, they can assign the VL Administrator role to other users. Those users can then access the Agreement (License ID) in the admin center without being listed on the original VL contract.
-
-If you're an EA or EAS customer, when a VL contract is activated by your Microsoft partner or seller, the Online Services Manager (OSM) listed on the agreement is assigned the VL Administrator role in the Microsoft 365 admin center. However, if the OSM contact on the VL contract isn't a Microsoft Entra ID account, they won't receive the VL Administrator role in admin center, but they will still receive the Tenant Discovery email.
 
 > [!NOTE]
 > For privacy reasons, we don’t provide names of VL Administrators associated with your organization. Ask your organization's partner or seller what contact information they provided to Microsoft for your VL contract. If necessary, your organization's purchasing, finance, or IT departments might be able to identify your Microsoft Reseller from your organization's purchasing records.
