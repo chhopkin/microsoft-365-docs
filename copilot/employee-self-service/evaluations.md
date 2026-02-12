@@ -88,7 +88,7 @@ These tests fall into three main categories:
 
 1.	**Knowledge tests** that verify the agent is accurately retrieving and synthesizing official HR and IT documents from SharePoint, ServiceNow, and more. These tests focus on measuring accuracy, groundedness, relevance, and completeness.
 2.	**Data and topic tests** that confirm the right topic is triggered, and the agent is correctly accessing and using data in integrated systems like Workday, SuccessFactors, and so on.
-3.	**Conversational quality tests** that measure tone, empathy, refusal patterns, and safety handling across a variety of scenarios.
+3.	**Conversational quality tests** that measure tone, empathy, refusal patterns, and safety handling across various scenarios.
 
 | Category               | Test types |
 |------------------------|------------|
@@ -341,7 +341,7 @@ When writing the expected response, think of it as defining the exact behavior a
 Evaluations are the most useful when they can drive improvement loops. Follow these practices to get the most out of your evaluations efforts:
 
 1. **Make repeated test runs part of the normal development rhythm.** Rerun test sets every time content is updated, agent instructions are changed, new systems are integrated or a new version needs to be published. Because the evaluation tool returns comparable pass/fail results across runs, teams can quickly spot regressions caused by model changes, configuration updates, or knowledge base edits. 
-2. **Treat failures as actionable signals and feed them directly into your workflow.** Evaluations surface pass/fail, which signals if Employee Self-Service missed required content, used the wrong connector, returned the wrong region's policy, or couldn't access a needed system.
+2. **Treat failures as actionable signals and feed them directly into your workflow.** Evaluations surface pass/fail, which signals if Employee Self-Service agent missed required content, used the wrong connector, returned the wrong region's policy, or couldn't access a needed system.
 
 ## Process considerations for your evaluation strategy
 
