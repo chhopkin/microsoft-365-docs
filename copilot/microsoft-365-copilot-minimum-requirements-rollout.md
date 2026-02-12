@@ -102,3 +102,19 @@ Track adoption, usage patterns, and business impact using built-in reporting too
 For more information on Microsoft 365 Copilot requirements, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](microsoft-365-copilot-minimum-requirements-overview.md).
 
 For more information on data and compliance requirements, see [Data and compliance readiness](microsoft-365-copilot-minimum-requirements-data-compliance.md).
+
+
+| Phase   | Key activity                     | Description                                                                 | Related Microsoft Learn resources |
+|---------|----------------------------------|-----------------------------------------------------------------------------|----------------------------------|
+| Plan    | Define Copilot strategy          | Define organizational goals, priority use cases, and success metrics before purchasing licenses. | Microsoft 365 Copilot adoption guide and overview for IT admins |
+| Secure  | Protect sensitive data           | Review and audit SharePoint and OneDrive permissions and apply data protection controls. | SharePoint Advanced Management, Microsoft Purview |
+| Pilot   | Phased rollout                   | Start with a small group to validate configuration, gather feedback, and refine processes. | Microsoft 365 Copilot Deployment Readiness |
+| Prepare | Check Copilot readiness          | Validate Microsoft 365 environment readiness using admin center and readiness assessments. | Microsoft 365 admin center readiness |
+| License | Purchase Copilot licenses        | Ensure appropriate base licenses and Copilot add-on subscriptions are in place. | Microsoft 365 Copilot license options |
+| Admin   | Assign AI administrator role     | Assign the AI administrator role to manage Copilot settings, agents, insights, and support. | AI administrator role |
+| Enable  | Assign licenses to users         | Use the Microsoft 365 admin center to assign Copilot licenses to selected users. | Add users and assign licenses |
+| Access  | User access to Copilot           | Users access Copilot via web, desktop app, or mobile applications. | Microsoft 365 Copilot access options |
+| Adopt   | Train end users                  | Provide training and prompt examples to help users work effectively with Copilot. | Copilot User Enablement Toolkit, Prompt Gallery |
+| Adopt   | Drive adoption                   | Use communications, champions, and workshops to encourage consistent usage. | Copilot Success Kit, Adoption Hub |
+| Measure | Monitor usage and feedback       | Use dashboards, surveys, and analytics to evaluate adoption and impact. | Copilot dashboard |
+| Scale   | Expand and scale deployment      | Apply learnings from the pilot to roll out Copilot to additional groups. | Microsoft 365 Copilot Deployment Readiness |
