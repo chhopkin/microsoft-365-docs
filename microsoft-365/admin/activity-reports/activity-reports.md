@@ -25,7 +25,7 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
-description: "Learn how to use Microsoft 365 admin center usage reports to analyze user activity, manage licenses, and enhance your organization's efficiency."
+description: "Learn how to use Microsoft 365 admin center usage reports to analyze user activity, manage licenses, and enhance your organization's efficiency. Get insights into service usage patterns and optimize your Microsoft 365 deployment."
 ---
 
 # Microsoft 365 admin center usage reports overview
@@ -42,42 +42,33 @@ Check out this and other videos on our [YouTube channel](https://go.microsoft.co
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=f8007c63-a8a0-44ee-ab5b-0ac799333496]
 
-## How to get to the Reports dashboard
+## Before you begin
 
-::: moniker range="o365-worldwide"
+To view the reports, you must have one of the following permissions:
 
-1. In the admin center, go to **Reports** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
-
-::: moniker-end
-
-::: moniker range="o365-21vianet"
-
-1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">admin center</a>, go to  **Reports** \> **Usage**.
-
-::: moniker-end
-
-1. Select **View more** from the at-a-glance activity card for a service (such as email or OneDrive) to see the report details page. On that page, different reports for the service are provided in tabs.
-
-   :::image type="content" alt-text="The Usage dashboard." source="../../media/activity-usage-analytics3.png" lightbox="../../media/4c0f966d-9d2b-4a6f-a106-a6e2b9a2de07.png":::
-
-## Who can see reports
-
-People who have the following permissions can see the reports:
-
-- Global admins
+- Global Administrator
     [!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
-- Exchange admins
-- SharePoint admins
-- Global reader (with no user details)
-- Usage Summary Reports reader (with no user details): By design, this role has read access to user, groups, and other settings by default in the Microsoft 365 admin center, as the role is based on Microsoft Entra.
-- Reports reader
+- Exchange Administrator
+- SharePoint Administrator
+- Global Reader (with no user details)
+- Usage Summary Reports Reader (with no user details): By design, this role has read access to user, groups, and other settings by default in the Microsoft 365 admin center, as the role is based on Microsoft Entra.
+- Reports Reader
 - Teams Administrator
 - Teams Communications Administrator
 - User Experience Success Manager (with no user details)
 
 For more information, see [About admin roles](../add-users/about-admin-roles.md) and [Assign admin roles](../add-users/assign-admin-roles.md).
 
-## Available usage reports in the admin center
+## View the Reports dashboard
+
+[!INCLUDE [office-365-operated-by-21vianet-admin-center-link](../../includes/office-365-operated-by-21vianet-admin-center-link.md)]
+
+1. In the admin center, go to **Reports** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
+1. Select **View more** from the at-a-glance activity card for a service (such as email or OneDrive) to see the report details page. On that page, different reports for the service are provided in tabs.
+
+   :::image type="content" alt-text="Screenshot of the Usage dashboard showing Microsoft 365 service activity cards and analytics." source="../../media/activity-usage-analytics3.png" lightbox="../../media/4c0f966d-9d2b-4a6f-a106-a6e2b9a2de07.png":::
+
+## Available usage reports in the Microsoft 365 admin center
 
 Depending on your subscription, the following reports are available in all environments:
 
@@ -94,7 +85,7 @@ Depending on your subscription, the following reports are available in all envir
 |[Email activity](email-activity-ww.md)|Yes|Yes|Yes|Yes|Yes|
 |[Email apps usage](email-apps-usage-ww.md)|Yes|Yes|Yes|Yes|Yes|
 |[Mailbox usage](mailbox-usage.md)|Yes|Yes|Yes|Yes|Yes|
-|[Microsoft 365 groups](office-365-groups-ww.md)|Yes|Yes|Yes|Yes|Yes|
+|[Microsoft 365 Groups](office-365-groups-ww.md)|Yes|Yes|Yes|Yes|Yes|
 |[Microsoft 365 Apps usage](microsoft365-apps-usage-ww.md)|Yes|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|Yes|
 |[Office activations](microsoft-office-activations-ww.md)|Yes|Yes|Yes|Yes|Yes|
 |[OneDrive for Business user activity](onedrive-for-business-activity-ww.md)|Yes|Yes|Yes|Yes|Yes|
@@ -120,8 +111,7 @@ Depending on your subscription, the following reports are available in all envir
 |[Visio activity](visio-activity.md)|Yes|Yes|N/A<sup>1</sup>|N/A<sup>1</sup>|N/A<sup>2</sup>|
 |[Viva Goals activity](viva-goals-activity.md)|Yes|N/A<sup>2</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|N/A<sup>2</sup>|
 
-
-N/A<sup>1</sup>: The report is planned to be released in the future. The <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=" target="_blank">Microsoft 365 Roadmap</a> will be updated before the release.
+N/A<sup>1</sup>: The report will be released in the future. The <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=" target="_blank">Microsoft 365 Roadmap</a> will be updated before the release.
 
 N/A<sup>2</sup>: The service isn't available in the environment; hence, there's no plan to release the report.
 
@@ -133,7 +123,7 @@ N/A<sup>2</sup>: The service isn't available in the environment; hence, there's 
 
 ## View usage information for a specific user
 
-Use the service reports to research to what extent a specific user is using the service. For example, to find out how much mailbox storage a specific user has consumed, open the Mailbox usage report, and sort the users by name. If you have thousands of users, export the report to Excel, Power BI or use the Microsoft Graph reports API.
+Use the service reports to research to what extent a specific user is using the service. For example, to find out how much mailbox storage a specific user consumed, open the Mailbox usage report, and sort the users by name. If you have thousands of users, export the report to Excel, Power BI or use the Microsoft Graph reports API.
 
 You can't generate a report where you enter a user's account and then get a list of which services they're using and how much.
 
