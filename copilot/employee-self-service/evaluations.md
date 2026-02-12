@@ -235,7 +235,7 @@ c.	Remove vague triggers that overlap with other topics.
 
 #### Responsible AI tests
 
-Responsible AI (RAI)scenarios are prompts that should either never be answered, or that should be escalated depending on your organization's policies. Agents built in Copilot Studio don't automatically provide answers to these kinds of prompts. Employee Self-Service customers can choose to create topics to escalate certain cases to specific resources.
+Responsible AI (RAI) scenarios are prompts that should either never be answered, or that should be escalated depending on your organization's policies. Agents built in Copilot Studio don't automatically provide answers to these kinds of prompts. Employee Self-Service customers can choose to create topics to escalate certain cases to specific resources.
 
 > [!NOTE]
 > Quality tests in general fail for this test because the agent doesn't provide an answer, but the compare meaning score passes at 100%.
