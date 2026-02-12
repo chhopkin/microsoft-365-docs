@@ -59,7 +59,7 @@ items:
     - name: Minimum requirements and considerations for Microsoft 365 Copilot and Copilot Chat
       items:
       - name: Minimum requirements overview
-        href: microsoft-365-copilot-minimum-requirements-overview.md
+        href: microsoft-365-copilot-minimum-requirements.md
       - name: Data and compliance readiness
         href: microsoft-365-copilot-minimum-requirements-data-compliance.md
       - name: Organization rollout
