@@ -134,11 +134,11 @@ These scenarios validate the agent's baseline competency across broad topic area
 > General knowledge is typically not used in production environments, but can be temporarily turned on for testing purposes when you need to learn more about how the evaluator tool works.
 
 **Examples of prompts and expected responses**
-| Prompt | Expected response |
-|--------|-------------------|
-| How do I update my tax forms? | To update tax forms, log in to your employee self‑service portal and open the tax, payroll, or personal‑information section. Select the tax form you want to update, enter your changes, and submit. Confirm the update was successful. If you can’t find the form or your organization requires paper submissions, contact HR or payroll. |
-| How do I use my HSA or FSA | HSAs and FSAs let you pay for eligible medical expenses with pre‑tax funds. Use your account’s debit card at checkout or pay out of pocket and submit a claim with receipts through your benefits portal. Check your balance regularly and review your plan’s list of eligible expenses. FSA funds usually must be used within the plan year, while HSA funds roll over. |
-| How do I get help with tuition assistance | Check your benefits portal for tuition assistance information, eligibility rules, and the application process. Review the policy to understand reimbursement limits, approved programs, and required documents. Contact HR or benefits support if you need clarification. Gather proof of enrollment, course details, and receipts, then submit your application through the designated portal or email and follow up as needed. |
+|Prompt|Expected response|
+|------|-----------------|
+|How do I update my tax forms?|To update tax forms, log in to your employee self‑service portal and open the tax, payroll, or personal‑information section. Select the tax form you want to update, enter your changes, and submit. Confirm the update was successful. If you can’t find the form or your organization requires paper submissions, contact HR or payroll.|
+|How do I use my HSA or FSA|HSAs and FSAs let you pay for eligible medical expenses with pre‑tax funds. Use your account’s debit card at checkout or pay out of pocket and submit a claim with receipts through your benefits portal. Check your balance regularly and review your plan’s list of eligible expenses. FSA funds usually must be used within the plan year, while HSA funds roll over.|
+|How do I get help with tuition assistance|Check your benefits portal for tuition assistance information, eligibility rules, and the application process. Review the policy to understand reimbursement limits, approved programs, and required documents. Contact HR or benefits support if you need clarification. Gather proof of enrollment, course details, and receipts, then submit your application through the designated portal or email and follow up as needed.|
 
 
 **Get started:**
