@@ -88,7 +88,7 @@ These tests fall into three main categories:
 
 1.	**Knowledge tests** that verify the agent is accurately retrieving and synthesizing official HR and IT documents from SharePoint, ServiceNow, and more. These tests focus on measuring accuracy, groundedness, relevance, and completeness.
 2.	**Data and topic tests** that confirm the right topic is triggered, and the agent is correctly accessing and using data in integrated systems like Workday, SuccessFactors, and so on.
-3.	**Conversational quality tests** that measure tone, empathy, refusal patterns, and safety handling across a variety of scenarios.
+3.	**Conversational quality tests** that measure tone, empathy, refusal patterns, and safety handling across various scenarios.
 
 | Category               | Test types |
 |------------------------|------------|
@@ -99,7 +99,7 @@ These tests fall into three main categories:
 ### Recommended practices for using the datasets:
 The [starter golden query sets](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples) are designed to spark ideas and help you quickly build your own evaluation library. These queries represent real capabilities, and popular kinds of prompts but every organization needs to tailor prompts to their systems, policies, and workflows.
 
-1.	**Organize the prompts in a way that aligns with your org structure**. Group or split queries by sub-domain (HR for example is composed of benefits, leave, policies, and so on), and consider different region, or topic area so results naturally flow to the correct reviewers.
+1.	**Organize the prompts in a way that aligns with your org structure**. Group or split queries by subdomain (HR for example is composed of benefits, leave, policies, and so on), and consider different region, or topic area so results naturally flow to the correct reviewers.
 2.	**Customize expected responses using your knowledge sources and integrations**. Many prompts require system specific steps to get more meaningful evaluation results, like URLs, specific steps, or policy details. Replace generic expected responses with your organization's exact data.
 3.	**Adapt queries to reflect your employee population**. Add role specific and region specific variations so the evaluator can verify your personalization logic (for example, managers vs. individual contributors, US vs. EU).
 4.	**Add or remove prompts to match your Employee Self-Service scope**. If your deployment doesn't use certain integrations (like Workday or Microsoft Self-Help), remove those prompts. If you have custom systems, add representative queries for them.
@@ -149,7 +149,7 @@ These scenarios validate the agent's baseline competency across broad topic area
 
 #### SuccessFactors and Workday tests
 
-These tests measure whether the agent can correctly retrieve and interact with data from different connectors you have configured, for example SuccessFactors and Workday. Use these tests to systematically check the different topics and actions that are enabled for your agent.
+These tests measure whether the agent can correctly retrieve and interact with data from different connectors you configured, for example SuccessFactors and Workday. Use these tests to systematically check the different topics and actions that are enabled for your agent.
 
 > [!NOTE]
 > Known limitation: The Copilot Studio evaluator tool can't evaluate content in an adaptive card yet. 
@@ -162,9 +162,9 @@ These tests measure whether the agent can correctly retrieve and interact with d
 
 **To fix quality issues for data tests:**
 
-To fix data topic issues, follow guidance for [Prerequisites to deploy the Employee Self-Service agent](prerequisites.md) to start by validating authentication, confirming required fields exist, correct mappings, check API limitations, fix user context issues, update logic after HRIS changes, and ensure adaptive cards and topic flows match the system's available data.
+To fix data topic issues, follow guidance for [Prerequisites to deploy the Employee Self-Service agent](prerequisites.md) to start by:
 
-1. **Fix authentication & permissions:** Re verify OAuth and certificates and ensure the service user has required read/write permissions. 
+1. **Fix authentication & permissions:** Reverify OAuth and certificates and ensure the service user has required read/write permissions. 
 2. **Correct field mappings:** Update OData or Workday field mappings when attributes are missing, renamed, or mismatched. 
 3. **Resolve connectivity blocks:** Check proxies, firewalls, and endpoint configuration if the connector can't reach Workday or SuccessFactors. 
 4. **Address throttling or delays:** Reduce API call frequency or implement retry logic when hitting rate limits. 
@@ -207,7 +207,7 @@ Use this test to measure prompts that have an emotional undertone that require t
 
 1.	Turn the Seek Emotional Intelligence topic to ON
 2.	If the topic isn't edited, use the [starter test set](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/StarterTestSets) to run a quick test and see how certain scenarios are handled.
-3.	If you have made edits, use the [templated test set](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/TemplatedTestSets) and decide what the expected response should be based on your organizations policies and existing topics that may escalate certain conversations.
+3.	If you made edits, use the [templated test set](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/TemplatedTestSets) and decide what the expected response should. The response should be based on your organization's policies and existing topics that may escalate certain conversations.
 4.	Use a general quality test, a compare meaning test at 70%, and a capability use test.
 
 **To fix quality issues for EQ tests:**
@@ -226,7 +226,7 @@ Ambiguous prompt tests check whether the agent recognizes unclear requests and a
 
 1.	Turn the Seek Clarification topic to ON
 2.	If the topic isn't edited, use the [starter test set](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/StarterTestSets) to run a quick test and see how certain scenarios are handled.
-3.	If you have made edits, use the [templated test set](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/TemplatedTestSets) and decide what the expected response should be based on your organizations policies and existing topics that may escalate certain conversations.
+3.	If you made edits, use the [templated test set](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/TemplatedTestSets) and decide what the expected response should be based on your organizations policies and existing topics that may escalate certain conversations.
 4.	Use a general quality test, a compare meaning test at 70%, and a capability use test.
 
 **To fix quality issues for ambiguity tests:**
@@ -253,7 +253,7 @@ Responsible AI (RAI) scenarios are prompts that should either never be answered,
 **To fix quality issues for RAI tests:**
 
 1.	For prompts that pass: No further action is necessary unless your organization decides they want to escalate certain conversation to another channel.
-2.	For prompts that fail: This means this particular prompt isn't automatically detected by the responsible AI system in Copilot Studio or other knowledge or topics you may have setup.
+2.	For prompts that fail: This failure means this particular prompt isn't automatically detected by the responsible AI system in Copilot Studio or other knowledge or topics you may have setup.
 
 ## How to think about creating a custom evaluation strategy 
 
@@ -286,10 +286,11 @@ Think about custom [evaluations as a strategy](/microsoft-copilot-studio/guidanc
 
 Golden queries help you consistently test your Employee Self-Service agent in a way that mirrors real employee behavior. This test case framework gives you a foundation but you need to tailor the scenarios, complexity, and expectations to fit your systems, policies, and workforce.
 
-The evaluator tool in Copilot Studio can [automatically help create basic query sets](/microsoft-copilot-studio/analytics-agent-evaluation-create#generate-a-test-set-from-knowledge-or-topics) based on the knowledge and topics detected in the Employee Self-Service agent. This can help get you started, but you want to create your own query sets for specific scenarios. [Learn more about how test cases are created in the evaluator tool](/microsoft-copilot-studio/analytics-agent-evaluation-create).
+The evaluator tool in Copilot Studio can [automatically help create basic query sets](/microsoft-copilot-studio/analytics-agent-evaluation-create#generate-a-test-set-from-knowledge-or-topics) based on the knowledge and topics detected in the Employee Self-Service agent. This automatic creation can help get you started, but you want to create your own query sets for specific scenarios. [Learn more about how test cases are created in the evaluator tool](/microsoft-copilot-studio/analytics-agent-evaluation-create).
 
 ### Best practices for writing a golden query set:
-Golden queries are high value prompts that represent the ideal user interactions Expected responses and describe what a correct response looks like and includes keywords, phrases, and specific figures that help the evaluator tool check for accuracy, completeness, and groundedness (that the agent is using official knowledge sources appropriately).
+
+Golden queries are high value prompts that represent the ideal user interaction expected responses. They describe what a correct response looks like. Golden queries include keywords, phrases, and specific figures which help the evaluator tool check for accuracy, completeness, and groundedness. They make sure the agent is using official knowledge sources appropriately.
 
 These query sets are [uploaded as csv. files](/microsoft-copilot-studio/analytics-agent-evaluation-create#create-a-test-set-file-to-import) to run quality tests. The most effective golden queries cover a wide breadth of scenarios and have clear standards for "what good looks like.".
 
@@ -329,28 +330,28 @@ When designing a golden query set, you need to intentionally include prompts tha
 
 ## Best practices for defining the expected outcome 
 
-When writing the expected response, think of it as defining the exact behavior a high quality answer must deliver (also called an assertion when focusing on accuracy). This includes capturing the right tools, parameters, actions, and safeguards so the evaluator can reliably judge whether the agent met the standard. Here are the best practices for writing the expected response:
+When writing the expected response, think of it as defining the exact behavior a high quality answer must deliver (also called an assertion when focusing on accuracy). This work includes capturing the right tools, parameters, actions, and safeguards so the evaluator can reliably judge whether the agent met the standard. Here are the best practices for writing the expected response:
 
-1.	**Define the exact behaviors the agent must perform.** This includes the correct tool/connector to call, the required parameters (role, region, system), and the precise action or workflow outcome expected in the response. 
+1.	**Define the exact behaviors the agent must perform.** Includes the correct tool/connector to call, the required parameters (role, region, system), and the precise action or workflow outcome expected in the response. 
 2.	**Specify what "complete and correct" looks like.** Start by outlining the essential details the answer must contain (systems, steps, policy rules) into short assertions.
-3.	**Allow flexible surface‑level wording while enforcing critical boundaries.** This includes defining acceptable linguistic variations but requiring safety checks, identity confirmation, and other cautionary steps whenever personal or HR‑sensitive data is involved.
+3.	**Allow flexible surface‑level wording while enforcing critical boundaries.** Includes defining acceptable linguistic variations but requiring safety checks, identity confirmation, and other cautionary steps whenever personal or HR‑sensitive data is involved.
 
 ## Build repeatability into the strategy to support continuous improvement
 
 Evaluations are the most useful when they can drive improvement loops. Follow these practices to get the most out of your evaluations efforts:
 
 1. **Make repeated test runs part of the normal development rhythm.** Rerun test sets every time content is updated, agent instructions are changed, new systems are integrated or a new version needs to be published. Because the evaluation tool returns comparable pass/fail results across runs, teams can quickly spot regressions caused by model changes, configuration updates, or knowledge base edits. 
-2. **Treat failures as actionable signals and feed them directly into your workflow.** Evaluations surface pass/fail which signals if Employee Self-Service missed required content, used the wrong connector, returned the wrong region's policy, or couldn't access a needed system.
+2. **Treat failures as actionable signals and feed them directly into your workflow.** Evaluations surface pass/fail, which signals if Employee Self-Service agent missed required content, used the wrong connector, returned the wrong region's policy, or couldn't access a needed system.
 
 ## Process considerations for your evaluation strategy
 
-Setting up an evaluation strategy isn't just about writing test cases, it's also about designing a process that fits the shape, structure, and governance model of your organization. Every enterprise has different ownership models, systems, policies, and review flows. These cross-functional realities determine how you structure your golden queries, who reviews results, and how test sets should be organized.
+Setting up an evaluation strategy isn't just about writing test cases, it's also about designing a process that fits the shape, structure, and governance model of your organization. Every enterprise has different ownership models, systems, policies, and review flows. These cross-functional realities determine how you structure your golden queries, who reviews the results, and how test sets should be organized.
 
-Below are the most common patterns and considerations that can help you define an evaluation strategy that works for your Employee Self-Service agent and your broader organization.
+The following section lists the most common patterns and considerations to help you define an evaluation strategy that works for your Employee Self-Service agent and your broader organization.
 
 ### Organizational structure and ownership model
 
-Most organizations have multiple sub-domains that own different topics, for example:
+Most organizations have multiple subdomains that own different topics, for example:
 - HR: Benefits, compensation, mobility, leave, onboarding, employee relations
 - IT: Identity & access, endpoint/device, software, networking, support operations
 
