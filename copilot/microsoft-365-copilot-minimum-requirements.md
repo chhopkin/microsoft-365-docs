@@ -29,7 +29,10 @@ description: Minimum requirements to deploy Microsoft 365 Copilot in your organi
 | Purview labeling            |                   | ✅                   |
 | Phased rollout              |                   | ✅                   |
 
-Before you deploy Microsoft 365 Copilot, your organization must meet all required prerequisites in licensing, identity, mailbox location, supported platforms, and network access. Optional but strongly recommended readiness steps are listed later in this article.
+Before you deploy Microsoft 365 Copilot, your organization must meet all required prerequisites in licensing, identity, mailbox location, supported platforms, and network access. You can find optional but strongly recommended readiness steps in the following articles:
+
+- [Microsoft 365 Copilot data and compliance readiness](microsoft-365-copilot-minimum-requirements-data-compliance.md)
+- [Rollout Microsoft 365 Copilot to your organization](microsoft-365-copilot-minimum-requirements-rollout.md)
 
 ## Licensing requirements
 
@@ -52,7 +55,7 @@ User's primary mailbox must be in Exchange Online. Copilot uses mailbox content 
 
 ## Sign-in requirements
 
-Before your users can use Microsoft 365 Copilot, they must also have a Microsoft Entra ID (Azure AD) account.
+Before your users can use Microsoft 365 Copilot, they must also have a [Microsoft Entra ID (Azure AD)](/entra/fundamentals/what-is-entra) account.
 
 ## Network requirements
 

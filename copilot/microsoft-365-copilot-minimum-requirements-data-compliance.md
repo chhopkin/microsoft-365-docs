@@ -34,6 +34,14 @@ To ensure responses provided by Microsoft 365 Copilot are appropriate, accurate,
 
 For more information, see [Get ready for Microsoft 365 Copilot with SharePoint Advanced Management](/sharepoint/get-ready-copilot-sharepoint-advanced-management).
 
+### Microsoft OneDrive
+
+Configure OneDrive governance before enabling Microsoft 365 Copilot. Copilot accesses OneDrive files only within the user’s existing permissions and honors the same security, compliance, and privacy controls applied across Microsoft 365.
+
+OneDrive uses SharePoint Online as its underlying platform, which means tenant‑level SharePoint sharing policies also apply to OneDrive. You can control external sharing, link types, and default permissions to reduce unintended exposure of user files. These controls directly affect what content Copilot can surface in responses.
+
+For more information, see [How data is protected and audited](https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing).
+
 ## Microsoft Purview
 
 Microsoft 365 Copilot works together with third-party apps or Microsoft Purview sensitivity labels and encryption to provide an extra layer of protection. Microsoft 365 Copilot honors your security and data protection controls. There are also features you can use to audit Copilot usage data. For more information, see [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
