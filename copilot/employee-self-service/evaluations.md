@@ -99,7 +99,7 @@ These tests fall into three main categories:
 ### Recommended practices for using the datasets:
 The [starter golden query sets](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples) are designed to spark ideas and help you quickly build your own evaluation library. These queries represent real capabilities, and popular kinds of prompts but every organization needs to tailor prompts to their systems, policies, and workflows.
 
-1.	**Organize the prompts in a way that aligns with your org structure**. Group or split queries by sub-domain (HR for example is composed of benefits, leave, policies, and so on), and consider different region, or topic area so results naturally flow to the correct reviewers.
+1.	**Organize the prompts in a way that aligns with your org structure**. Group or split queries by subdomain (HR for example is composed of benefits, leave, policies, and so on), and consider different region, or topic area so results naturally flow to the correct reviewers.
 2.	**Customize expected responses using your knowledge sources and integrations**. Many prompts require system specific steps to get more meaningful evaluation results, like URLs, specific steps, or policy details. Replace generic expected responses with your organization's exact data.
 3.	**Adapt queries to reflect your employee population**. Add role specific and region specific variations so the evaluator can verify your personalization logic (for example, managers vs. individual contributors, US vs. EU).
 4.	**Add or remove prompts to match your Employee Self-Service scope**. If your deployment doesn't use certain integrations (like Workday or Microsoft Self-Help), remove those prompts. If you have custom systems, add representative queries for them.
@@ -164,7 +164,7 @@ These tests measure whether the agent can correctly retrieve and interact with d
 
 To fix data topic issues, follow guidance for [Prerequisites to deploy the Employee Self-Service agent](prerequisites.md) to start by validating authentication, confirming required fields exist, correct mappings, check API limitations, fix user context issues, update logic after HRIS changes, and ensure adaptive cards and topic flows match the system's available data.
 
-1. **Fix authentication & permissions:** Re verify OAuth and certificates and ensure the service user has required read/write permissions. 
+1. **Fix authentication & permissions:** Reverify OAuth and certificates and ensure the service user has required read/write permissions. 
 2. **Correct field mappings:** Update OData or Workday field mappings when attributes are missing, renamed, or mismatched. 
 3. **Resolve connectivity blocks:** Check proxies, firewalls, and endpoint configuration if the connector can't reach Workday or SuccessFactors. 
 4. **Address throttling or delays:** Reduce API call frequency or implement retry logic when hitting rate limits. 
@@ -341,17 +341,17 @@ When writing the expected response, think of it as defining the exact behavior a
 Evaluations are the most useful when they can drive improvement loops. Follow these practices to get the most out of your evaluations efforts:
 
 1. **Make repeated test runs part of the normal development rhythm.** Rerun test sets every time content is updated, agent instructions are changed, new systems are integrated or a new version needs to be published. Because the evaluation tool returns comparable pass/fail results across runs, teams can quickly spot regressions caused by model changes, configuration updates, or knowledge base edits. 
-2. **Treat failures as actionable signals and feed them directly into your workflow.** Evaluations surface pass/fail which signals if Employee Self-Service missed required content, used the wrong connector, returned the wrong region's policy, or couldn't access a needed system.
+2. **Treat failures as actionable signals and feed them directly into your workflow.** Evaluations surface pass/fail, which signals if Employee Self-Service missed required content, used the wrong connector, returned the wrong region's policy, or couldn't access a needed system.
 
 ## Process considerations for your evaluation strategy
 
-Setting up an evaluation strategy isn't just about writing test cases, it's also about designing a process that fits the shape, structure, and governance model of your organization. Every enterprise has different ownership models, systems, policies, and review flows. These cross-functional realities determine how you structure your golden queries, who reviews results, and how test sets should be organized.
+Setting up an evaluation strategy isn't just about writing test cases, it's also about designing a process that fits the shape, structure, and governance model of your organization. Every enterprise has different ownership models, systems, policies, and review flows. These cross-functional realities determine how you structure your golden queries, who reviews the results, and how test sets should be organized.
 
-Below are the most common patterns and considerations that can help you define an evaluation strategy that works for your Employee Self-Service agent and your broader organization.
+The following section lists the most common patterns and considerations to help you define an evaluation strategy that works for your Employee Self-Service agent and your broader organization.
 
 ### Organizational structure and ownership model
 
-Most organizations have multiple sub-domains that own different topics, for example:
+Most organizations have multiple subdomains that own different topics, for example:
 - HR: Benefits, compensation, mobility, leave, onboarding, employee relations
 - IT: Identity & access, endpoint/device, software, networking, support operations
 
