@@ -438,8 +438,6 @@ items:
         href: /microsoft-365/admin/manage/manage-agents-permissions?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
       - name: Manage embedded knowledge agents
         href: /microsoft-365/admin/manage/manage-embedded-knowledge-agents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
-      - name: Microsoft 365 Copilot connectors
-        href: /microsoftsearch/connectors-overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
       - name: App Builder agent
         items:
         - name: Overview of App Builder
@@ -478,8 +476,11 @@ items:
           href: wordexcelppt-agents.md
         - name: Word, Excel, and PowerPoint Agents FAQ
           href: faq-wordexcelppt-agents.yml
-  - name: Copilot connectors
+  - name: Microsoft 365 Copilot connectors
     href: /microsoftsearch/connectors-overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
+    items:
+    - name: Set up connectors for Microsoft 365 Copilot
+      href: /microsoftsearch/configure-connector?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
   - name: Manage generative AI apps for your organization
     href: manage-generative-ai-apps.md
   - name: Service plan diagnostic tool
