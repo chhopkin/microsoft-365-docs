@@ -289,7 +289,8 @@ Golden queries help you consistently test your Employee Self-Service agent in a 
 The evaluator tool in Copilot Studio can [automatically help create basic query sets](/microsoft-copilot-studio/analytics-agent-evaluation-create#generate-a-test-set-from-knowledge-or-topics) based on the knowledge and topics detected in the Employee Self-Service agent. This automatic creation can help get you started, but you want to create your own query sets for specific scenarios. [Learn more about how test cases are created in the evaluator tool](/microsoft-copilot-studio/analytics-agent-evaluation-create).
 
 ### Best practices for writing a golden query set:
-Golden queries are high value prompts that represent the ideal user interactions Expected responses and describe what a correct response looks like and includes keywords, phrases, and specific figures that help the evaluator tool check for accuracy, completeness, and groundedness (that the agent is using official knowledge sources appropriately).
+
+Golden queries are high value prompts that represent the ideal user interaction expected responses. They describe what a correct response looks like. Golden queries include keywords, phrases, and specific figures which help the evaluator tool check for accuracy, completeness, and groundedness. They make sure the agent is using official knowledge sources appropriately.
 
 These query sets are [uploaded as csv. files](/microsoft-copilot-studio/analytics-agent-evaluation-create#create-a-test-set-file-to-import) to run quality tests. The most effective golden queries cover a wide breadth of scenarios and have clear standards for "what good looks like.".
 
