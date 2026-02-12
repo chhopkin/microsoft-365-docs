@@ -207,7 +207,7 @@ Use this test to measure prompts that have an emotional undertone that require t
 
 1.	Turn the Seek Emotional Intelligence topic to ON
 2.	If the topic isn't edited, use the [starter test set](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/StarterTestSets) to run a quick test and see how certain scenarios are handled.
-3.	If you have made edits, use the [templated test set](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/TemplatedTestSets) and decide what the expected response should be based on your organizations policies and existing topics that may escalate certain conversations.
+3.	If you made edits, use the [templated test set](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/TemplatedTestSets) and decide what the expected response should. The response should be based on your organization's policies and existing topics that may escalate certain conversations.
 4.	Use a general quality test, a compare meaning test at 70%, and a capability use test.
 
 **To fix quality issues for EQ tests:**
