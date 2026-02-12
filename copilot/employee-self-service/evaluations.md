@@ -134,6 +134,7 @@ These scenarios validate the agent's baseline competency across broad topic area
 > General knowledge is typically not used in production environments, but can be temporarily turned on for testing purposes when you need to learn more about how the evaluator tool works.
 
 **Get started:**
+
 1.	Make sure **General knowledge** is turned on, and you don't have any custom agent knowledge added. Turn on **Use general knowledge** by going to **Settings** > **Knowledge** > **Use general knowledge** and set the toggle to **On**.
 2.	Use the [starter test set](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/StarterTestSets) to run a quick test across a variety of scenarios.
 3.	For a more specific test with stricter expected responses, use the [templated test set](https://github.com/microsoft/CopilotStudioSamples/tree/main/EmployeeSelfServiceAgent/ESSEvaluationSamples/TemplatedTestSets) and define the ideal expected response.
@@ -162,6 +163,7 @@ These tests measure whether the agent can correctly retrieve and interact with d
 **To fix quality issues for data tests:**
 
 To fix data topic issues, follow guidance for [Prerequisites to deploy the Employee Self-Service agent](prerequisites.md) to start by validating authentication, confirming required fields exist, correct mappings, check API limitations, fix user context issues, update logic after HRIS changes, and ensure adaptive cards and topic flows match the system's available data.
+
 1. **Fix authentication & permissions:** Re verify OAuth and certificates and ensure the service user has required read/write permissions. 
 2. **Correct field mappings:** Update OData or Workday field mappings when attributes are missing, renamed, or mismatched. 
 3. **Resolve connectivity blocks:** Check proxies, firewalls, and endpoint configuration if the connector can't reach Workday or SuccessFactors. 
@@ -188,9 +190,9 @@ Test the Sensitive topic to ensure it catches the right trigger words and phrase
 
 1.	Prompts that fail this test means the actual response isn't at 70% in similarity to the ideal response.
 2.	If certain topics aren't delivering the expected response, it could mean the topic trigger needs to be adjusted. Topics activate when trigger phrases match the user's intent. Consider making the following adjustments:
-a.	Add multiple variations of phrasing employees commonly use.
-b.	Include keywords, short queries, and conversational variants.
-c.	Remove vague triggers that overlap with other topics.
+    1. Add multiple variations of phrasing employees commonly use.
+    1. Include keywords, short queries, and conversational variants.
+    1. Remove vague triggers that overlap with other topics.
 
 ### Conversational quality tests
 
@@ -211,13 +213,14 @@ Use this test to measure prompts that have an emotional undertone that require t
 **To fix quality issues for EQ tests:**
 
 If certain topics aren't delivering the expected response, it could mean the topic trigger needs to be adjusted. Topics activate when trigger phrases match the user's intent. Consider making the following adjustments:
-a.	Add multiple variations of phrasing employees commonly use.
-b.	Include keywords, short queries, and conversational variants.
-c.	Remove vague triggers that overlap with other topics.
+
+1. Add multiple variations of phrasing employees commonly use.
+2. Include keywords, short queries, and conversational variants.
+3. Remove vague triggers that overlap with other topics.
 
 #### Ambiguous prompt tests
 
-Ambiguous prompt tests check whether the agent recognizes unclear requests and asks for the right follow up questions before acting. These scenarios ensure the agent doesn't guess, hallucinate, or take unintended actions when a prompt could mean multiple things. Strong clarification logic improves both accuracy and user trust. The Employee Self-Service agent template comes with a topic called [Seek clarification](/copilot/microsoft-365/employee-self-service/emotional-quotient-ambiguity) that detects ambiguous prompts.
+Ambiguous prompt tests check whether the agent recognizes unclear requests and asks for the right follow-up questions before acting. These scenarios ensure the agent doesn't guess, hallucinate, or take unintended actions when a prompt could mean multiple things. Strong clarification logic improves both accuracy and user trust. The Employee Self-Service agent template comes with a topic called [Seek clarification](/copilot/microsoft-365/employee-self-service/emotional-quotient-ambiguity) that detects ambiguous prompts.
 
 **Get started:**
 
@@ -229,9 +232,10 @@ Ambiguous prompt tests check whether the agent recognizes unclear requests and a
 **To fix quality issues for ambiguity tests:**
 
 If certain topics aren't delivering the expected response, it could mean the topic trigger needs to be adjusted. Topics activate when trigger phrases match the user's intent. Consider making the following adjustments:
-a.	Add multiple variations of phrasing employees commonly use.
-b.	Include keywords, short queries, and conversational variants.
-c.	Remove vague triggers that overlap with other topics.
+
+1. Add multiple variations of phrasing employees commonly use.
+2. Include keywords, short queries, and conversational variants.
+3. Remove vague triggers that overlap with other topics.
 
 #### Responsible AI tests
 
@@ -263,16 +267,16 @@ Think about custom [evaluations as a strategy](/microsoft-copilot-studio/guidanc
 ### Create a clear picture of the scenarios Employee Self-Service needs to support
 
 1. **Start by scripting out the scenarios your Employee Self-Service agent needs to be really good at**
-Determine the set of HR and IT scenarios that matter for the most important employee outcomes. These scenarios are your primary "must pass" evaluation set. This set might look like:
-    -	HR policy answers (holidays, leave balances, parental leave, reimbursements)
-    -	IT troubleshooting and requests (password reset, VPN questions, license approvals)
-    -	Service‑dependent topics and tasks (ServiceNow tickets, Workday queries)
+  - Determine the set of HR and IT scenarios that matter for the most important employee outcomes. These scenarios are your primary "must pass" evaluation set. This set might look like:
+    - HR policy answers (holidays, leave balances, parental leave, reimbursements)
+    - IT troubleshooting and requests (password reset, VPN questions, license approvals)
+    - Service‑dependent topics and tasks (ServiceNow tickets, Workday queries)
 2. **Next, consider the scenarios that are important but less critical**
-This is for scenarios that add completeness and breadth to the Employee Self-Service agent but aren't blockers for deployment and don't directly impact the most common or high stakes employee tasks. If it's not a top asked question or not a workflow that would noticeably break an employee's experience if it failed occasionally, it belongs here.
-    -	Niche HR questions that only apply to small groups 
-    -	IT topics that are helpful but not tied to access or basic device functionality
+  - These scenarios add completeness and breadth to the Employee Self-Service agent but aren't blockers for deployment and don't directly impact the most common or high stakes employee tasks. If it's not a top asked question or not a workflow that would noticeably break an employee's experience if it failed occasionally, it belongs here.
+    - Niche HR questions that only apply to small groups 
+    - IT topics that are helpful but not tied to access or basic device functionality
 3. **Finally, capture scenarios that act as guardrails for risky questions**
-Add test cases designed to ensure the agent refuses or redirects correctly. These test scenarios protect your organization from misinformation, policy violations, or inappropriate content. Examples include:
+  - Add test cases designed to ensure the agent refuses or redirects correctly. These test scenarios protect your organization from misinformation, policy violations, or inappropriate content. Examples include:
     - Sensitive HR topics (pay equity opinions, complaints about individuals)
     - Attempts to access confidential or privileged information
     - Requests that violate policy or must be escalated to humans
