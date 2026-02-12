@@ -1,10 +1,10 @@
 ---
 title: "Troubleshoot Copilot Tuning document generation"
 f1.keywords:
-ms.author: lauragra
-author: lauragra
-manager: calvind
-ms.date: 10/27/2025
+author: mestew
+ms.author: mstewart
+manager: scotv
+ms.date: 02/10/2026
 ms.update-cycle: 180-days
 ms.topic: troubleshooting
 ms.service: microsoft-365-copilot
@@ -46,9 +46,9 @@ Improve the model instructions iteratively to prevent common errors in tenant do
 
 To resolve this issue:
 
-1.  Download a clean Excel file from the current application state.
-2.  Correct the sheet.
-3.  Retry uploading the file.
+1. Download a clean Excel file from the current application state.
+1. Correct the sheet.
+1. Retry uploading the file.
 
 ## Formatting or validity issue with the final Word document
 

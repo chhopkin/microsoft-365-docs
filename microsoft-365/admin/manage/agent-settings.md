@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 01/13/2026
+ms.date: 02/03/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -43,7 +43,7 @@ The **Agent settings** page includes the following configuration options:
 
 - **Sharing** - Manage who can share AI agents within your organization and define the methods they can use to share them.
 
-- **Templates** - Create pre-set policies, rules, and allowlists for new AI agents to ensure consistency and compliance.
+- **Templates** - Create preset policies, rules, and allow lists for new AI agents to ensure consistency and compliance.
 
 - **User access** - Control which users or groups can interact with AI agents, aligning access with organizational roles and permissions.
 
@@ -61,13 +61,14 @@ These settings allow you to customize agent behavior, control access, and mainta
 
 - **Allow apps and agents built by your organization** - Enables users to install custom agents developed within your tenant.
 
-- **Allow apps and agents built by external publishers** - Enables users to install third-party agents built by external developers.
+- **Allow apps and agents built by external publishers** - Enables users to install non-Microsoft agents built by external developers.
 
 :::image type="content" source="../../media/agents/allowed-agent-types.png" alt-text="Screenshot of Allowed agent types." lightbox="../../media/knowledge-agent-idea.png":::
 
 > [!TIP]
 >
-> If you disable an option, agents of that type don't appear for users in the Agent store.
+> - If you disable an option, agents of that type don't appear for users in the Agent store.
+> - Agents built by Microsoft are visible to users even if the setting is disabled. Users aren't able to install those agents.
 
 ### Sharing
 
@@ -87,7 +88,11 @@ Only agents built with **Copilot Studio Lite** are governed by sharing control.
 
 ### Templates
 
-To enhance governance and security for agents, you can apply a template that includes predefined policies. Microsoft offers out-of-the-box default templates that include essential security and compliance controls from Microsoft Entra, Purview, and SharePoint. For customers enrolled in the Frontier program with an active Agent 365 license, these default templates automatically assign the license, helping reduce manual license management.
+To enhance governance and security for agents, you can apply a template that includes predefined policies:
+
+- **Default Template**: Microsoft offers out-of-the-box default templates that include essential security and compliance controls from Microsoft Entra, Purview, and SharePoint. For customers enrolled in the Frontier program with an active Agent 365 license, these default templates automatically assign the Agent 365 license, helping reduce manual license management.
+
+- **Custom Template**: If you need additional governance beyond the default, create a custom template and apply extra policies such as Restrict External Content sharing to meet your organization's requirements.
 
 > [!NOTE]
 >
@@ -97,6 +102,8 @@ To enhance governance and security for agents, you can apply a template that inc
 > - One for agents that don't allow instance creation.
 >
 > When an agent is activated or published, a dropdown menu displays both Microsoft default templates. Select the desired template to apply its policies to the agent.
+
+#### Custom templates
 
 To create custom template, follow these steps:
 
@@ -117,7 +124,7 @@ To create custom template, follow these steps:
 
 1. You can review and finish adding the template.
 
-When activating or publishing an agent, a dropdown menu with both your custom templates and Microsoft's default templates is displayed. Select the desired template from the list to apply its policies to the agent.
+When an agent is being activated or published, a dropdown menu with both your custom templates and Microsoft's default templates is displayed. To apply its policies to the agent, select the desired template from the list.
 
 ### User access
 

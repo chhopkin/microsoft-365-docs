@@ -1,10 +1,10 @@
 ---
 title: Customize Microsoft 365 Copilot with Copilot Tuning
 description: Get an overview of the process to create a fine-tuned model with Copilot Tuning to customize Microsoft 365 Copilot for your organization.
-author: lauragra
-ms.author: lauragra
-manager: calvind
-ms.date: 10/27/2025
+author: mestew
+ms.author: mstewart
+manager: scotv
+ms.date: 02/11/2026
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium

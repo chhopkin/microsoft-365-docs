@@ -3,7 +3,7 @@ title: Migration orchestrator overview
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 12/11/2025
+ms.date: 01/26/2026
 recommendations: true
 audience: ITPro
 ms.topic: upgrade-and-migration-article
@@ -27,28 +27,37 @@ Tenant-to-tenant migration using orchestrator in Microsoft 365 enables organizat
 
 This article provides a high-level overview of the migration process, including architecture models, licensing requirements, key security and compliance considerations, and supported workloads.
 
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=a13655b4-971f-4c8e-8deb-feffc72125db]
+
 To provide feedback or make requests to the product team, use [this form](https://forms.office.com/r/0QU3YbYhDn).
+
+
 
 ## Migration Architecture Models
 
 Organizations can choose from several migration models depending on their business needs:
 
 - **Single-Event Migration**
+
   - All users and workloads are migrated in a single cutover event.
   - Best suited for small to medium businesses or simple organizational changes.
 - **Phased Migration**
+
   - Users are migrated in batches over time.
   - Ideal for large enterprises or complex environments.
 - **Tenant Move/Split**
+
   - A subset of users is moved to a new tenant while others remain.
   - Common in divestiture scenarios.
+    
+All migration models require planning, communication, and time to allow the data to move.
 
 ## Licensing and availability
 
 Cross-Tenant migrations require a per-user license (one-time fee) and can be assigned on either the source or target user object. This license enables the migration of Exchange Online mailboxes and OneDrives included in the Orchestrated migration. During preview for Teams meetings and Teams chats, no other licenses are required for these specific workload migrations. Cross Tenant User Data Migration is available as an add-on to the following Microsoft 365 subscription plans:
 
 - Microsoft 365 Business Basic, Standard, and Premium
-- Microsoft 365 F1/F3/E3/E5/
+- Microsoft 365 F1/F3/E3/E5
 - Office 365 F3/E1/E3/E5
 - Exchange Online
 - SharePoint in Microsoft 365
@@ -76,7 +85,7 @@ While customers can run migrations for the workloads they want, the Teams Meetin
 > [!IMPORTANT]
 > Identity Mapping is required, which means the specific user configuration supported by Identity Mapping is required. [Learn more](cross-tenant-identity-mapping.md) about Identity mapping.
 
-If you have a specific scenario that requires you to migrate workloads individually, reach out to via our [support form](https://forms.office.com/r/0QU3YbYhDn) to discuss options and potential risks.
+If you have a specific scenario that requires you to migrate workloads individually, reach out to us via our [support form](https://forms.office.com/r/0QU3YbYhDn) to discuss options and potential risks.
 
 ### Exchange mailbox scope
 

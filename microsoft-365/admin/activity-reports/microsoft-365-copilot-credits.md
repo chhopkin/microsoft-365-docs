@@ -148,6 +148,10 @@ Yes. You can set up the pay-as-you-go billing policy in the Microsoft 365 admin 
 
 **Last activity detected** is the date and timestamp of the most recent prompt or user activity that generated the credits consumed.
 
+### How can I test that pay-as-you-go is correctly configured and working properly?
+
+Have a user who qualifies for pay-as-you-go use one of the following three agents: "Learning Coach", "Writing Coach", or "Career Coach." Have them submit a simple prompt such as "What can you do?" This prompt should consume about 12 credits and be visible in the Copilot Credits Report.
+
 ### How do I find a Billing policy name from the Billing policy ID?
 
 1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to the **Copilot > Billing & usage** page.
@@ -167,4 +171,4 @@ By default, the Billing Policy ID in the Copilot credits report is anonymized, s
 5. To conceal the Billing policy ID, select the checkbox again, and save your changes.
 
 > [!NOTE]
-> Changes to this concealed data setting affects the username, display name, and Billing Policy ID.
+> Changes to this concealed data setting affect the username, display name, and Billing Policy ID.

@@ -11,7 +11,7 @@ items:
             - name: Pricing for pay-as-you-go
               href: syntex-pay-as-you-go-services.md
             - name: Set up pay-as-you-go billing
-              href: /microsoft-365/services/pay-as-you-go-setup
+              href: /microsoft-365/commerce/services/pay-as-you-go-setup
             - name: Set up pay-as-you-go services
               href: set-up-microsoft-syntex.md
             - name: Privacy, security, & compliance
