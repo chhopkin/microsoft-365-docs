@@ -130,13 +130,10 @@ If you need to edit Identity Mapping while any migration batches are running, do
 4. Reactions to chat messages aren't migrated. Target users don't see reactions sent before migration.
 5. Migrated threads that are still accessible on the source tenant. They aren't locked, but any new messages sent after migration don't migrate to the target tenant.
 6. Apps aren't migrated, including Polls.
-1. Forwarded/Scheduled messages aren't migrated. If a scheduled message was sent, it migrates. If a scheduled message was scheduled, but not sent, it doesn't migrate.
-
-1. Messages that include unsupported emojis or decommissioned emojis will not migrate.
-
-1. Users with unrecognized GUID formats, users without Microsoft accounts, and users without display names or user IDs will not have their messages migrated or be added to target threads.
-
-1. Threads without any identifiable members will not be migrated.
+7. Forwarded/Scheduled messages aren't migrated. If a scheduled message was sent, it migrates. If a scheduled message was scheduled, but not sent, it doesn't migrate.
+8. Messages that include unsupported emojis or decommissioned emojis don't migrate.
+9. Users with unrecognized GUID formats, users without Microsoft accounts, and users without display names or user IDs don't have their messages migrated and aren't added to target threads.
+10. Threads without any identifiable members aren't migrated.
 
 ## Meetings issues
 
