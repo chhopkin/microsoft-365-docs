@@ -175,7 +175,7 @@ To fix data topic issues, follow guidance for [Prerequisites to deploy the Emplo
 
 #### Sensitive Topics tests
 
-By default, the Employee Self-Service HR agent template comes with a Sensitive topics that is meant to help handle scenarios that might be appropriate to answer but should be handled with care. The purpose of the sensitive topic is to respond to certain kinds of questions with a specific response, or to reroute certain conversations to an escalation path or another resource. Once the topic is turned on, it can be customized to fit the unique needs of your organization.
+By default, the Employee Self-Service HR agent template comes with a Sensitive topics option meant to help handle scenarios that might be appropriate to answer but should be handled with care. The purpose of the sensitive topic is to respond to certain kinds of questions with a specific response, or to reroute certain conversations to an escalation path or another resource. Once the topic is turned on, it can be customized to fit the unique needs of your organization.
 
 Test the Sensitive topic to ensure it catches the right trigger words and phrases and responds according to your organization's policies.
 
