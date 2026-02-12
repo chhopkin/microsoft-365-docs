@@ -1,13 +1,13 @@
 ---
 title: Configure Copilot Tuning for document generation
-ms.author: lauragra
-author: lauragra
-manager: calvind
+author: mestew
+ms.author: mstewart
+manager: scotv
 ms.collection: operations-pod
 ms.audience: ITPro
 ms.reviewer: riyazp
 ms.service: microsoft-365-copilot
-ms.date: 10/27/2025
+ms.date: 02/11/2026
 ms.topic: how-to
 ms.localizationpriority: medium
 description: Learn how to use Copilot Tuning to build an AI model for document generation based on organizational knowledge.
