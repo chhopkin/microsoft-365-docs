@@ -162,7 +162,7 @@ These tests measure whether the agent can correctly retrieve and interact with d
 
 **To fix quality issues for data tests:**
 
-To fix data topic issues, follow guidance for [Prerequisites to deploy the Employee Self-Service agent](prerequisites.md) to start by validating authentication, confirming required fields exist, correct mappings, check API limitations, fix user context issues, update logic after HRIS changes, and ensure adaptive cards and topic flows match the system's available data.
+To fix data topic issues, follow guidance for [Prerequisites to deploy the Employee Self-Service agent](prerequisites.md) to start by:
 
 1. **Fix authentication & permissions:** Reverify OAuth and certificates and ensure the service user has required read/write permissions. 
 2. **Correct field mappings:** Update OData or Workday field mappings when attributes are missing, renamed, or mismatched. 
