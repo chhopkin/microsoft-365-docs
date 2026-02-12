@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: kwekua
 author: kwekuako
 manager: dansimp
-ms.date: 04/10/2025
+ms.date: 02/03/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -245,7 +245,7 @@ See a message that someone else needs to act on? You can share the contents of t
 
 1. Select the message to open it, and then select **Share**.
 
-2. To share the message, enter up to two email addresses separated by a colon. You can send to individual and to group email addresses. Optionally, you can choose to receive a copy of the message in email (the message goes to your primary email address) or add a personal message to provide recipients with more context.
+2. To share the message, enter email addresses separated by a colon. You can send to individual and to group email addresses. Optionally, you can choose to receive a copy of the message in email (the message goes to your primary email address) or add a personal message to provide recipients with more context.
 
 3. Select **Share** to send the email.
 

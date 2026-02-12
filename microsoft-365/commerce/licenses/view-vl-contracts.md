@@ -34,7 +34,7 @@ If you're a named volume licensing (VL) contact or have a VL role, you can view 
 
 To see the VL **Contracts** page you must meet either of the following requirements:
 
-- If you're not an Enterprise Agreement (EA) or Enterprise subscription (EU) customer, you must be a named contact (sometimes referred to as "legal participant") on the VL agreement at the time of contract creation. If you're an EA or EU customer, you must be a named Notices and Online Administrator Contact (NTC) or an Online Service Manager (OSM) on the VL agreement at the time of contract creation.
+- If you're not an Enterprise Agreement (EA) or Enterprise subscription (EAS) customer, you must be a named contact (sometimes referred to as "legal participant") on the VL agreement at the time of contract creation. If you're an EA or EAS customer, you must be a named Notices and Online Administrator Contact (NTC) or an Online Service Manager (OSM) on the VL agreement at the time of contract creation.
 - You were assigned a VL role in the Microsoft 365 admin center.
 
 > [!IMPORTANT]

@@ -3,7 +3,7 @@ title: The end-user experience after using migration orchestrator
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 12/11/2025
+ms.date: 01/26/2026
 recommendations: true
 audience: ITPro
 ms.topic: upgrade-and-migration-article
@@ -131,6 +131,9 @@ If you need to edit Identity Mapping while any migration batches are running, do
 5. Migrated threads that are still accessible on the source tenant. They aren't locked, but any new messages sent after migration don't migrate to the target tenant.
 6. Apps aren't migrated, including Polls.
 7. Forwarded/Scheduled messages aren't migrated. If a scheduled message was sent, it migrates. If a scheduled message was scheduled, but not sent, it doesn't migrate.
+8. Messages that include unsupported emojis or decommissioned emojis don't migrate.
+9. Users with unrecognized GUID formats, users without Microsoft accounts, and users without display names or user IDs don't have their messages migrated and aren't added to target threads.
+10. Threads without any identifiable members aren't migrated.
 
 ## Meetings issues
 

@@ -3,7 +3,7 @@ title: Migration orchestrator source and tenant domain configuration
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 12/11/2025
+ms.date: 01/26/2026
 recommendations: true
 audience: ITPro
 ms.topic: upgrade-and-migration-article
@@ -146,7 +146,9 @@ The required setup steps for OneDrive Migration on both source and target are av
     - Success: `Autoforwarding is set to On for Default Outbound Spam Filter Policy.`
 10. Only for the target tenant: Set the calendar RBAC roles:
   `Set-CalendarRBACRoles`
-    - Success: `RBAC role has been assigned to MMS App to allow Calendar Read Write Permissions.`
+```
+- Success: `RBAC role has been assigned to MMS App to allow Calendar Read Write Permissions.`
+```
 11. If Microsoft.Graph.Authentication, Microsoft.Graph.ExchangeOnlineManagement aren't installed, you're prompted to do so.
 12. Grant-MMSAppPermissions adds Service Principals for:
     1. Cross Tenant Teams Migration app
@@ -198,7 +200,7 @@ To prepare the target tenant for the Cross-Tenant Migration Service, follow thes
       Install-Module Microsoft.Graph.Applications
       ```
 
-You should receive output showing **CrossTenantMigration Prod AAD App** as an app with roles assigned and other apps provisioned by this point. The **IdentityMapping-Experimental-Internal.Read** app role is granted to the CTMS (cloud transport management service) application.
+You should receive output showing **CrossTenantMigration Prod AAD App** as an app with roles assigned and other apps provisioned by this point. The **IdentityMapping-Experimental-Internal.Read** app role is granted to the CTMS (cross tenant migration service) application.
 
 ## Next steps
 

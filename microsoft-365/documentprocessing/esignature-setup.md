@@ -80,7 +80,7 @@ To select which signature providers to use, follow these steps.
 ### Allow signature requests in Microsoft Word
 
 > [!NOTE]
-> This feature begins rolling out to users on the Microsoft 365 Beta and Current channels in June.
+> This feature is available to users on the Microsoft 365 Beta, Current, and Monthly Enterprise Channels.
 
 To let users use eSignature in Word, you need to [turn on the Word feature](#turn-on-the-word-feature) and [apply the Office group policy](#apply-the-office-group-policy).
 
@@ -146,6 +146,8 @@ Microsoft Entra B2B provides authentication and management of **new guests**. Ex
 
 If a guest is deleted from the tenant while the request is ongoing, they can no longer access the request document or the final signed document. In such cases, you need to resend the eSignature request. Before deleting a guest, ensure they aren't involved in any ongoing requests. This setting doesn't affect your existing Microsoft Entra ID guests.
 
+### Site Sensitivity Labels
+If the Word or PDF documents to be signed reside in a site with a sensitivity label, the label may prevent users from sending requests to external users. To remedy, enable the label setting **Let people who use this label share the site with people outside your organization** or move the documents to a site that has a label with that setting enabled. 
 ### Authentication
 
 External recipients might need to authenticate before they're able to access a document for signing. The type of authentication required by the external recipients depends on the configuration for guests at the SharePoint level or at the tenant level. Additionally, if the guest belongs to an organization with a Microsoft 365 tenant, it's possible for their organization's setup to affect their authentication experience when attempting to sign the document. For more information, see [Collaboration with guests in a site](/microsoft-365/solutions/collaborate-in-site).

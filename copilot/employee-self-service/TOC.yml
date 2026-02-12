@@ -15,6 +15,8 @@ items:
       href: install.md
     - name: Customization
       items:
+        - name: Make agent multilingual
+          href: employee-self-service-multilingual.md
         - name: Customize Employee Self-Service agent
           href: customize.md
         - name: Craft agent instructions
@@ -29,6 +31,8 @@ items:
       href: publish.md
     - name: Agent handoff
       href: agent-handoff.md
+    - name: Agent evaluations
+      href: evaluations.md
 - name: Integrate external systems
   items:
     - name: SAP SuccessFactors
