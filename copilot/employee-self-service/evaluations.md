@@ -29,6 +29,15 @@ In this article:
 - Learn more about how to create a custom evaluations strategy for your Employee Self-Service agent
 <br>
 
+> [!NOTE]
+> - The evaluation tool can't review content inside of adaptive cards yet.
+> - The evaluation tool doesnt measure latency, or how quickly the agent responds. 
+
+
+
+
+https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/analytics
+
 
 ## Why invest in evaluations for your agent?
 Move from guesswork to a strategic, test driven approach to measuring the quality of the Employee Self-Service agent's responses. This approach means thinking through a clear evaluation strategy with golden queries, running structured test sets, and having the support to interpret results and fix quality issues. These results might mean refining agent instructions, editing topic triggers, or revisiting knowledge sources. 
@@ -65,6 +74,10 @@ Follow these steps to build and evaluate a test set for your Employee Self-Servi
 3. Choose whether to **generate prompts** automatically or [import a CSV file](/microsoft-copilot-studio/analytics-agent-evaluation-create#create-a-test-set-file-to-import). You can [update test set details at any time](/microsoft-copilot-studio/analytics-agent-evaluation-edit).
 4. Select the [evaluation methods](/microsoft-copilot-studio/analytics-agent-evaluation-overview) you want to use. 
 5. Choose which **user profiles** should [run the tests so results](/microsoft-copilot-studio/analytics-agent-evaluation-results#compare-test-results) accurately reflect context, access levels, and permissions.
+
+> [!NOTE]
+> Once a profile is selected, verify the connections. Connections with a green dot are active and ready to go. Connections without a green dot may require setup or enabling.
+
 6. Run the test, review the results, and compare outcomes over time. You can also [export test results](/microsoft-copilot-studio/analytics-agent-evaluation-results#export-test-results) to share with stakeholders and reviewers.
 7. Based on what you learn, you may decide to update a knowledge source, topic trigger, agent instructions, or other components. After each change, re‑run the evaluation to confirm the fix and ensure no regressions occur.
 
@@ -289,7 +302,7 @@ Note: Quality tests in general will fail for this test because the agent won’t
 
 
 ## How to think about creating a custom evaluation strategy 
-Think about custom evaluations as a strategy, not a task, that helps you deploy, maintain and build your organization's Employee Self-Service agent. A great evaluation strategy includes a couple key components:
+Think about custom [evaluations as a strategy](/microsoft-copilot-studio/guidance/evaluation-overview), not a task, that helps you deploy, maintain and build your organization's Employee Self-Service agent. A great evaluation strategy includes a couple key components:
 1.	A clear picture of scenarios that are critical, nice-to-have, and edge cases
 2.	Sets of golden queries and expected responses that support the right scenarios
 3.	A plan for testing across different user contexts, like role and region
@@ -427,3 +440,9 @@ Benefits, payroll cycles, IT support standards, or troubleshooting instructions 
 - Rerun test sets after every knowledge update or seasonal policy adjustment.
 - Run and evaluate tests that are “policy-sensitive” so they’re more closely monitored.
 
+
+
+
+## More resources
+
+Use usage and [feedback signals from analytics](/microsoft-copilot-studio/guidance/analytics) to inform your evaluation strategy
