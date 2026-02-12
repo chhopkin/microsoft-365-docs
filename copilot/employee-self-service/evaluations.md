@@ -340,7 +340,7 @@ Evaluations are the most useful when they can drive improvement loops. Follow th
 
 ## Process considerations for your evaluation strategy
 
-Setting up an evaluation strategy isn't just about writing test cases, it's also about designing a process that fits the shape, structure, and governance model of your organization. Every enterprise has different ownership models, systems, policies, and review flows. These cross functional realities determines how you structure your golden queries, who reviews results, and how test sets should be organized.
+Setting up an evaluation strategy isn't just about writing test cases, it's also about designing a process that fits the shape, structure, and governance model of your organization. Every enterprise has different ownership models, systems, policies, and review flows. These cross-functional realities determine how you structure your golden queries, who reviews results, and how test sets should be organized.
 
 Below are the most common patterns and considerations that can help you define an evaluation strategy that works for your Employee Self-Service agent and your broader organization.
 
