@@ -34,7 +34,7 @@ xAI models can help people in your organization with some of the following:
 
 When your organization chooses to use an xAI model, your organization is choosing to share your data with xAI to power the features. This data is processed outside all Microsoft managed environments and audit controls, therefore Microsoft’s customer agreements, including the Product Terms and Data Processing Addendum don't apply. In addition, Microsoft’s data residency commitments, audit and compliance requirements, service level agreements, and Customer Copyright Commitment don't apply to your use of xAI services. Instead, use of xAI's services is governed by xAI’s terms.
 
-## Before You Begin
+## Before you begin
 
 Before users in your organization can use xAI, they need to be assigned a Microsoft 365 Copilot license.
 
@@ -43,10 +43,10 @@ Before users in your organization can use xAI, they need to be assigned a Micros
 Before your organization can connect to xAI AI models, you must allow access in the Microsoft 365 admin center.
 You have to be a member of the Global administrator role to perform this task. For more information, see [About admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
 
-1.  Go to the [Microsoft 365 admin center](https://admin.microsoft.com/) and select **Copilot** -\> **Settings**.
-2.  On the **Data access** page, select **AI providers for other large language models**.
-3.  Under **LLM providers for your organization**, choose **xAI**.
-4.  Agree to the Terms and Conditions and select **Allow provider**.
+1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/) and select **Copilot** -\> **Settings**.
+2. On the **Data access** page, select **AI providers for other large language models**.
+3. Under **LLM providers for your organization**, choose **xAI**.
+4. Agree to the Terms and Conditions and select **Allow provider**.
 
 After you connect, it may take a few hours for the connection to complete.
 
