@@ -65,3 +65,5 @@ If you switch from deferred release back to standard release, your users may los
 [Plan for modern change management in Microsoft 365](plan-for-modern-change-management.md)
 
 [Set up the Standard or Targeted release options for Microsoft 365](release-options-in-office-365.md)
+
+[Prepare for Microsoft 365 updates with Message center](message-center.md)

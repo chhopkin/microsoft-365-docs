@@ -56,7 +56,7 @@ For significant updates, customers are initially notified by the [Microsoft 365 
 
 ## Standard release
 
-For for Microsoft 365, Standard release is the default option where you and your users receive the latest updates when they're released broadly to all customers.
+For Microsoft 365, Standard release is the default option where you and your users receive the latest updates when they're released broadly to all customers.
   
 A good practice is to leave most users in **Standard release** and IT Pros and power users in **Targeted release** to evaluate new features and prepare teams to support your users.
 
@@ -80,7 +80,7 @@ If you [Set up the release option in the admin center](#set-up-the-release-optio
 
 If you [Set up the release option in the admin center](#set-up-the-release-option-in-the-admin-center) for this option, you can define specific users, usually power users, to receive early access to features and functionality.
 
-It's important to ensure that your HelpDesk is opted in to Targeted release so that they have access to the Targeted release features needed to support your users.
+It's important to ensure that your HelpDesk is opted into Targeted release so that they have access to the Targeted release features needed to support your users.
 
 > [!IMPORTANT]
 > Some features only roll out on a per-organization basis. This means that the entire organization will receive access to the feature at the same time. For features like this, it’s not possible for selected users in the targeted release program to get the feature early. This means that your organization won't be able to receive these features early if you have configured selected users in targeted release. To make sure that you see all features in targeted release, you'll need to configure targeted release for the entire organization or set up a test organization.
@@ -120,4 +120,10 @@ Discover how to [manage messages](/office365/admin/manage/message-center) in you
 
 ## Related content
 
-[Join the Microsoft 365 Insider Program](https://insider.office.com/join/windows) (article)
+[Join the Microsoft 365 Insider Program](https://insider.office.com/join/windows)
+
+[Configure Standard or Deferred release options for Microsoft 365 Copilot](configure-release-options.md)
+
+[Plan for modern change management in Microsoft 365](plan-for-modern-change-management.md)
+
+[Prepare for Microsoft 365 updates with Message center](message-center.md)

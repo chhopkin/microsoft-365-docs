@@ -448,7 +448,7 @@ items:
            href: manage/configure-release-options.md
          - name: Set up release options for Microsoft 365
            href: manage/release-options-in-office-365.md
-         - name: Use Message center to prepare for Microsoft 365 updates
+         - name: Prepare for Microsoft 365 updates with Message center
            href: manage/message-center.md
          - name: Power BI usage analytics
            items:

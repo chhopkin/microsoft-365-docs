@@ -40,11 +40,11 @@ This modern change management model for Microsoft 365 helps you stay on top of m
 > [!NOTE]
 > Standard and deferred release channels aren’t available for GCC, GCC High, and DoD cloud environments.
 
-You have the option to choose between two general availability release channels for Microsoft Copilot 365 updates: Standard release and Deferred release.
+You can choose between two general availability release channels for Microsoft Copilot 365 updates: Standard release and Deferred release.
 
 With **Standard release**, your organization receives new features as soon as they’re generally available. You can immediately manage individual policies and settings for these new features.
 
-IT admins of financial institutions and other heavily regulated organizations who need extra time to do security reviews and compliance checks before Microsoft 365 Copilot features might want to assign most users in your organization to **Deferred release**. Organizations are assigned to standard release by default, but you can opt into deferred release so that your organization can plan up to 30 days in advance for new Microsoft 365 Copilot features. After 30 days, generally available Microsoft 365 Copilot features appear to your users. You can manage individual policies and settings for these new features.
+IT admins of financial institutions and other heavily regulated organizations who need extra time to do security reviews and compliance checks before Microsoft 365 Copilot features might want to assign most users in your organization to **Deferred release**. Your organization is on standard release by default. Switch to deferred release to get up to 30 days to prepare for new Microsoft 365 Copilot features. After 30 days, generally available Microsoft 365 Copilot features appear to your users. You can manage individual policies and settings for these new features.
 
 For more information on how to configure release channels for Microsoft 365 Copilot, see [Configure Standard or Deferred release options for Microsoft 365 Copilot](configure-release-options.md).
 
@@ -52,10 +52,10 @@ For more information on how to configure release channels for Microsoft 365 Copi
 
 Enhance your organization’s ability to deliver timely, relevant, and actionable communications to users with our launch-focused release announcement hub. By integrating bullet-point summaries and supplemental resources into Message Center, you can deliver more applicable and accessible information to your users.
 
-- Transition from sending early, detailed, and verbose notifications that were published 5–30 days in advance to concise announcements sent at launch with bullet-point summaries and direct resource links to improve clarity
+- Stay informed with concise announcements at launch that feature bullet-point summaries and direct links to resources
 - Incorporate a structured and more effective messaging format that includes change descriptions, rollout timelines, affected users and platforms, action checklists, and compliance impacts (including GDPR and AI data handling)
 
-For more details on the updated layout and information on keeping track of changes using the Microsoft 365 Message Center, see [Message center in the Microsoft 365 admin center](message-center.md).
+For more information on the updated layout and information on keeping track of changes using the Microsoft 365 Message Center, see [Message center in the Microsoft 365 admin center](message-center.md).
 
 ## Related articles
 
@@ -63,4 +63,4 @@ For more details on the updated layout and information on keeping track of chang
 
 [Set up the Standard or Targeted release options for Microsoft 365](release-options-in-office-365.md)
 
-[Message center in the Microsoft 365 admin center](message-center.md)
+[Prepare for Microsoft 365 updates with Message center](message-center.md)
