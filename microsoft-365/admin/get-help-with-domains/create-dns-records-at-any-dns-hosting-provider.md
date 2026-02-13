@@ -457,7 +457,7 @@ enter the following value in the **Target** field:
 >    | *Target* | **100 1 5061 sipfed.online.lync.com.** |
 >    | *TTL* | **3600** (1 hour) |
 >
->     Check with your registrar to verify if ending with a dot is required.
+>     Check with your registrar to verify if ending with a dot (**.**) is required.
 >
 > - Depending on your registrar, the **Target** field might have a different name such as:
 >
