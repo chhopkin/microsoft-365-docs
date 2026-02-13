@@ -16,7 +16,7 @@ ms.collection:
 - m365copilot
 - magic-ai-copilot
 - operations-pod
-description: Microsoft 365 admins can learn about the requirements and considerations for Microsoft 365 Copilot Chat. 
+description: Microsoft 365 admins can learn about the minimum requirements for using Microsoft 365 Copilot Chat in their organizations. 
 ms.custom: [copilot-learning-hub]
 appliesto:
 - ✅ Microsoft 365 Copilot

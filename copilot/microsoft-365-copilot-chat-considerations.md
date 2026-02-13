@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: efrene 
 author: efrene
 manager: scotv
-ms.date: 01/28/2026
+ms.date: 02/14/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -24,24 +24,9 @@ appliesto:
 
 # Considerations for Microsoft 365 Copilot Chat admins
 
-This document outlines the minimum technical and licensing requirements for using Microsoft 365 Copilot Chat in your organization.
+This document provides Microsoft 365 admins an overview of key considerations and concerns they may have in using [Microsoft 365 Copilot Chat](/copilot/overview) in their organization.
 
-[Microsoft 365 Copilot Chat](/copilot/overview) is an AI chat tool that is included in your Microsoft 365 subscription and is integrated into Microsoft 365 apps such as Word, Excel, Outlook, and Teams. It uses the latest AI models and data from the web to answer your questions, generate content and ideas, and find information. Since it is included in your Microsoft 365 subscription, it is the entry point into the Microsoft 365 Copilot experience.
-
-## Considerations for admins
-
-
-|  | Copilot license | Microsoft 365 subscription |
-|---|---|---|
-| Search | ✅ | ✅ |
-| Chat | ✅ <br><br> Work-based and web-grounded chat <br/><br/>Automatically enabled in the Copilot app and is the Copilot app's default landing page | ✅ <br><br> Web-grounded chat only; No work-based chat <br/><br/>Can pin the Chat app to the Copilot app. |
-| Agents | ✅ | ✅ <br/><br/> Agents are metered. |
-| Pages | ✅ | ✅ |
-| Notebooks | ✅ | ❌ |
-| Create | ✅ <br/><br/> Use AI and templates to create and edit images, posters, banners, videos, and more. | ✅ <br><br> Use templates to create and edit images, posters, banners, videos, and more. |
-| Apps | ✅ <br/><br/>Users can get and pin apps. | ✅ <br/><br/>Users can get and pin apps. |
-
-## Is my data secure?
+## Data security
 Security and privacy for organizational data is always a top-of-mind concern for our customers. Uncertainty about how Copilot Chat uses their data may be a reason that some customers are hesitant to use it.
 
 Admins do not need to do any additional configuration in regards to security when using Copilot Chat.  But an understanding of what the following might be helpful for them to know.
@@ -57,11 +42,11 @@ The [Microsoft 365 Copilot Chat usage report](/microsoft-365/admin/activity-repo
 
 Admins can also use the [Organizational messages](/copilot/microsoft-365/microsoft-365-copilot-enable-users) feature to act on adoption trends they are seeing. It lets you reach your users in the flow of their daily work with targeted, actionable guidance. 
 
-For example, in the Copilot Chat usage report, an admin might discover that Copilot Chat usage is unexpectedly low, where a number of users have not used Copilot Chat for an extended period of time (for example, the past 28 days). Through organizational messaging, the admin can send notifications directly to these specific users. The notification could be to drive adoption by providing relateable examples about how Copilot Chat could be useful to complete common work tasks and links to article or video resources. And if your users mostly work in Microsoft Teams, you can have the notication display in Teams and on a scheduled basis to increase awareness.
+For example, in the Copilot Chat usage report, an admin might discover that Copilot Chat usage is unexpectedly low, where a number of users have not used Copilot Chat for an extended period of time (for example, the past 28 days). Through organizational messaging, the admin can send notifications directly to these inactive users to stimulate usage. 
 
 
 ## Manage Copilot Chat
-Microsoft 365 admins can manage Copilot Chat in the admin center through the Copilot Control System settings. In it, an admin can configure how user interact with Copilot Chat such as:
+Microsoft 365 admins can [manage Copilot Chat](/copilot/manage) in the admin center through the Copilot Control System settings. In it, an admin can configure how user interact with Copilot Chat such as:
 
 - Choose whether users have Copilot Chat pinned across their experiences.
 - Manage whether users can generate images with Copilot Chat.
@@ -70,7 +55,6 @@ Microsoft 365 admins can manage Copilot Chat in the admin center through the Cop
 - [Remove access to Copilot Chat](/copilot/manage#remove-access-to--chat)
 
 And you can assign the [AI Administrator role](/microsoft-365/admin/whats-new-in-preview?view=o365-worldwide#january-2025) to manage all settings related to Copilot and AI features. It provdes least‑privilege access, without requiring Global Administrator permissions.
-
 
 
 ## Agents in Copilot Chat
@@ -88,7 +72,6 @@ Copilot Chat is available to users in many of the key Microsoft 365 apps in whic
 - [Copilot Chat Trainer Kit](https://aka.ms/CopilotChat/TrainerKit) – Downloadable PowerPoint training presentation to help businesses get started with Copilot Chat.
 - [Copilot user tools and templates](https://adoption.microsoft.com/copilot/user-engagement-tools-and-templates/) – A collection of user-facing tools and templates for you to quickly onboard your organization. See the section for Copilot Chat tools and templates.
 - [Transform ideas into action with Copilot Chat](/training/paths/explore-microsoft-365-copilot-business-chat) - This course teaches learners how to get started with Microsoft 365 Copilot Chat, craft effective prompts, and use its AI-powered features to enhance productivity, streamline work, and collaborate securely in real-time.
-
 
 
 ## Need more? Add a Microsoft 365 Copilot license
