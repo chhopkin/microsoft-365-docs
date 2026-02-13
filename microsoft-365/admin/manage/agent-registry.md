@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 01/28/2026
+ms.date: 02/13/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -675,13 +675,13 @@ With this information, you can efficiently manage and review the shared agents w
 
 Inventory data is also available programmatically through Graph APIs enabling scalable and programmatic control over agent management. Now in preview, the new Microsoft Graph API endpoints allow administrators to automate bulk agent management, streamline onboarding, and integrate governance into existing workflows across agents in Microsoft 365. Beyond manual UX-driven agent management, the Graph API helps you accelerate agent management, maintain security and compliance, and ensure agents are available to the right users at the right time.
 
-- **Get all agents in your inventory** - With the [GET packages API](https://graph.microsoft.com/beta/copilot/admin/catalog/packages), administrators can retrieve a comprehensive list of all agents in their tenant to support compliance and reporting needs. Filter Agents by:
+- **Get all agents in your inventory** - With the [GET packages API](/microsoft-365-copilot/extensibility/api/admin-settings/package/overview), administrators can retrieve a comprehensive list of all agents in their tenant to support compliance and reporting needs. Filter Agents by:
 
   - Type.
   - Host.
   - Last update date time.
 
-- **Get details of a particular agent in your inventory** - The [GET package details API](https://graph.microsoft.com/beta/copilot/admin/catalog/packages/{id}) provides rich metadata for any agent, including the following deployment information:
+- **Get details of a particular agent in your inventory** - The [GET package details API](/microsoft-365-copilot/extensibility/api/admin-settings/package/overview) provides rich metadata for any agent, including the following deployment information:
 
   - Status.
   - Supported hosts.
