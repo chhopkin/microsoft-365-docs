@@ -442,8 +442,14 @@ items:
            href: manage/find-your-partner-or-reseller.md
          - name: Manage Microsoft feedback for your organization
            href: manage/manage-feedback-ms-org.md
-         - name: Set up release options
+         - name: Plan for modern change management in Microsoft 365
+           href: manage/plan-for-modern-change-management.md
+         - name: Configure Standard or Deferred release options for Microsoft 365 Copilot
+           href: manage/configure-release-options.md
+         - name: Set up release options for Microsoft 365
            href: manage/release-options-in-office-365.md
+         - name: Use Message center to prepare for Microsoft 365 updates
+           href: manage/message-center.md
          - name: Power BI usage analytics
            items:
            - name: About usage analytics

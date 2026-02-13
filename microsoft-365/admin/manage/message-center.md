@@ -1,5 +1,5 @@
 ---
-title: "Message center in the Microsoft 365 admin center"
+title: "Use Message center to prepare for Microsoft 365 updates"
 f1.keywords:
 - CSH
 ms.author: mabond
@@ -11,6 +11,7 @@ audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
+search.appverid: MET150
 ms.collection:
 - Tier2
 - M365-subscription-management
@@ -198,7 +199,9 @@ The **Archive** tab shows the messages you have archived. To archive a message f
 
 You can select any column heading, except **Service** and **Tag**,  to sort messages in ascending or descending order.
 
-### INCORPORATE INTO UPDATED MC SECTION? - Major updates
+### Major updates
+
+#### INCORPORATE INTO UPDATED MC SECTION?
 
 Major updates can be reviewed by selecting the **Major update** from the **Tags** drop-down.
 

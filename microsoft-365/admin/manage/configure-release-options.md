@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: 02/12/2026
 ms.reviewer: pamelaar, gsaini
 audience: Admin
-ms.topic: install-set-up-deploy
+ms.topic: how-to
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
 ms.collection:
@@ -17,7 +17,7 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 ms.custom:
-search.appverid:
+search.appverid: MET150
 description: "Learn how to set up the standard and deferred release options for new features for Microsoft 365 Copilot."
 appliesto: 
 - Microsoft 365 Copilot
@@ -38,7 +38,8 @@ You must be a global admin in Microsoft 365 to opt in.
 
 ## Standard vs Deferred release options
 
-> [!NOTE] Standard and deferred release channels aren’t available for GCC, GCC High, and DoD cloud environments.
+> [!NOTE]
+> Standard and deferred release channels aren’t available for GCC, GCC High, and DoD cloud environments.
 
 **Standard release** is the default option where you and your users receive the latest Copilot feature updates when they're released broadly to all customers.
 

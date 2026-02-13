@@ -17,7 +17,7 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 ms.custom:
-search.appverid:
+search.appverid: MET150
 description: "Plan for modern change management in Microsoft 365."
 ---
 
@@ -37,7 +37,8 @@ This modern change management model for Microsoft 365 helps you stay on top of m
 
 ## Choose a release channel for Microsoft 365 Copilot
 
-> [!NOTE] Standard and deferred release channels aren’t available for GCC, GCC High, and DoD cloud environments.
+> [!NOTE]
+> Standard and deferred release channels aren’t available for GCC, GCC High, and DoD cloud environments.
 
 You have the option to choose between two general availability release channels for Microsoft Copilot 365 updates: Standard release and Deferred release.
 
