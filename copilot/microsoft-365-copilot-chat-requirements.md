@@ -60,13 +60,13 @@ For more detailed information about licenses that include Copilot Chat, see [Mic
 Before your users can use Microsoft Copilot Chat, they must have a Microsoft Entra ID (Azure AD) account. 
 
 ### Turn on web search for Copilot Chat
-When web search is enabled, Microsoft 365 Copilot Chat may fetch information from the Bing search service when information from the web helps to provide a better, more grounded response. IT admins can control access to web search  by using the Allow web search in Copilot policy, which is available only in [Cloud Policy service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy). 
+When web search is enabled, Microsoft 365 Copilot Chat may fetch information from the Bing search service when information from the web helps to provide a better, more grounded response. IT admins can control access to web search by using the Allow web search in Copilot policy, which is available only in [Cloud Policy service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy). 
 
 ### Assign the AI administrator role
 The AI Administrator role lets organizations manage Copilot Chat and AI experiences using least‑privilege access, without requiring Global Administrator permissions. This includes access to the Copilot Control System admin settings as well as reports to help track adoption.
 
 ### Pin Copilot Chat in Microsoft 365 apps
-Admins can [pin Copilot Chat in their users Microsoft 365 apps](/copilot/microsoft-365/pin-copilot-chat-navbar) so it’s easy to find, consistently available, and used as the organization’s secure, compliant AI entry point across Microsoft 365 apps. 
+Admins can [pin Copilot Chat in their users Microsoft 365 apps](/copilot/microsoft-365/pin-copilot-chat-navbar) so it’s easy to find, consistently available, and used as the organization’s secure, compliant AI entry point across Microsoft 365 apps. This setting is turned on by default.
 
 
 
