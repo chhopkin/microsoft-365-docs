@@ -1,11 +1,11 @@
 ---
-title: "Add a domain to Microsoft 365"
+title: Add a domain to Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: 02/11/2026
+ms.date: 02/13/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business

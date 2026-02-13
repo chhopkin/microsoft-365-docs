@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: 02/11/2026
+ms.date: 02/13/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -32,4 +32,4 @@ description: "Learn how to transition from Microsoft Cloud Germany Exchange Onli
 
 1. Select the affected domain, and then select **DNS errors detected, click here to view**.
 
-1. This page has instructions to show you how to fix the MX record. If your domain's registrar uses [Domain Connect](../setup/add-domain.md#domain-connect-registrars-integrated-with-microsoft-365), you can select **Fix my records** on top. Otherwise you can follow the link in the wizard to **step-by-step instructions** for your registrar.
+1. The page that opens has instructions showing how to fix the MX record. If your domain's registrar uses [Domain Connect](../setup/add-domain.md#domain-connect-registrars-integrated-with-microsoft-365), you can select **Fix my records** on top. Otherwise you can follow the link in the wizard to **step-by-step instructions** for your registrar.
