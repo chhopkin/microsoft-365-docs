@@ -1,11 +1,11 @@
 ---
 title: Configure Copilot Tuning for document summarization
-ms.author: lauragra
-author: lauragra
-manager: calvind
+author: mestew
+ms.author: mstewart
+manager: scotv
 ms.audience: ITPro
 ms.reviewer: robertode
-ms.date: 10/27/2025
+ms.date: 02/11/2026
 ms.topic: how-to
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
