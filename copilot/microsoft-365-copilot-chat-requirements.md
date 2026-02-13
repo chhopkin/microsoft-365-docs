@@ -1,5 +1,5 @@
 ---
-title: Minimum equirements and considerations for Microsoft 365 Copilot Chat admins
+title: Minimum equirements for Microsoft 365 Copilot Chat 
 f1.keywords:
 - NOCSH
 ms.author: efrene 
@@ -22,7 +22,7 @@ appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# Minumum requirements and considerations for Microsoft 365 Copilot Chat admins
+# Minumum requirements for Microsoft 365 Copilot Chat
 
 This document outlines the minimum technical and licensing requirements for using Microsoft 365 Copilot Chat in your organization.
 
@@ -35,7 +35,7 @@ This document outlines the minimum technical and licensing requirements for usin
 | Eligible Microsoft 365 license | ✅ | |
 | Entra ID (Azure AD account) | ✅ | |
 | Turn on web searach | ✅ | |
-| Assign the AI administrator role | ✅ |
+| Assign the AI administrator role |  | ✅ |
 | Pin Copilot Chat in Microsoft 365 apps | | ✅ |
 
 
