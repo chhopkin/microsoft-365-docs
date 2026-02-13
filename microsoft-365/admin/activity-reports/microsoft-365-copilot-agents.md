@@ -1,5 +1,5 @@
 ---
-title: "Usage reports in the Microsoft 365 admin center - Microsoft 365 Copilot Agent usage"
+title: "Microsoft 365 Copilot Agent usage report in the Microsoft 365 admin center"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
