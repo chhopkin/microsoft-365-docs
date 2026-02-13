@@ -6,6 +6,7 @@ ms.author: mabond
 author: mkbond007
 manager: dansimp
 ms.date: 02/12/2026
+ms.reviewer: pamelaar, gsaini
 audience: Admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
