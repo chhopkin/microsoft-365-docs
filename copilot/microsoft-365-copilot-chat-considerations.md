@@ -26,10 +26,18 @@ appliesto:
 
 This document provides Microsoft 365 admins an overview of key considerations and concerns they may have in using [Microsoft 365 Copilot Chat](/copilot/overview) in their organization.
 
+| Considerations| |  |
+|---|---|---|
+| Is my data secure? | | |
+| How can I track and incentivize adoption? | | |
+| How do I manage it? | | |
+| Are there resources to train my user? | | |
+| What if I need more than what Copilot Chat provides? | | |
+
 ## Data security
 Security and privacy for organizational data is always a top-of-mind concern for our customers. Uncertainty about how Copilot Chat uses their data may be a reason that some customers are hesitant to use it.
 
-Admins do not need to do any additional configuration in regards to security when using Copilot Chat.  But an understanding of what the following might be helpful for them to know.
+Admins do not need to do any additional configuration in regards to security when using Copilot Chat.  But an understanding of the following might be helpful to know.
 
 - **Enterprise Data Protection (EDP)** - Microsoft 365 Copilot Chat is protected by Enterprise Data Protection (EDP). With EDP, [prompts and responses are protected](/copilot/microsoft-365/enterprise-data-protection#enterprise-data-protection-for-prompts-and-responses) by the same contractual terms and commitments widely trusted by our customers for their emails in Exchange and files in SharePoint.
 - **Responses grounded in web data**- Copilot Chat is a generative AI service grounded in data from the public web in the Bing search index only. Unlike Microsoft 365 Copilot, Copilot Chat cannot invoke organizational content like files, emails, or chats when interacting in Copilot Chat.
@@ -56,12 +64,6 @@ Microsoft 365 admins can [manage Copilot Chat](/copilot/manage) in the admin cen
 
 And you can assign the [AI Administrator role](/microsoft-365/admin/whats-new-in-preview?view=o365-worldwide#january-2025) to manage all settings related to Copilot and AI features. It provdes least‑privilege access, without requiring Global Administrator permissions.
 
-
-## Agents in Copilot Chat
-
-An [agent in Copilot Chat](/copilot/agents) is an AI assistant that can perform tasks, automate workflows, or operate independently to help you get work done. Agents vary in complexity — from simple helpers that retrieve information to advanced ones that act on your behalf.
-
-Microsoft 365 Copilot Chat has agents that can be used at no additional cost as well as agents that are billed based on metered consumption. 
 
 ## Train your users
 Copilot Chat is available to users in many of the key Microsoft 365 apps in which they do their work. Admins can help them to understand how to use Copilot Chat to assist them with work tasks by pointing them to the following resources:
