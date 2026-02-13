@@ -17,10 +17,12 @@ ms.collection:
 - scotvorg
 - operations-pod
 ROBOTS: NOINDEX, NOFOLLOW
-description: "Learn how to transition from Microsoft Cloud Germany Exchange Online to the global Exchange Online service"
+description: Learn how to transition from Microsoft Cloud Germany Exchange Online to the global Exchange Online service
 ---
 
 # Update your MX records to transition to the global Exchange Online service
+
+The following steps describe how to transition from Microsoft Cloud Germany Exchange Online to the global Exchange Online service:
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
@@ -30,6 +32,6 @@ description: "Learn how to transition from Microsoft Cloud Germany Exchange Onli
 
 1. In the **Domains** page, the status for each domain is shown under the **Status** column. If your organization's domains point to Microsoft Cloud Germany Exchange Online, the domain's MX records need to be updated.
 
-1. Select the affected domain, and then select **DNS errors detected, click here to view**.
+1. Select the affected domain, and then select **DNS errors detected** to view the details.
 
-1. The page that opens has instructions showing how to fix the MX record. If your domain's registrar uses [Domain Connect](../setup/add-domain.md#domain-connect-registrars-integrated-with-microsoft-365), you can select **Fix my records** on top. Otherwise you can follow the link in the wizard to **step-by-step instructions** for your registrar.
+1. The page that opens has instructions showing how to fix the MX record. If your domain's registrar uses [Domain Connect](../setup/add-domain.md#domain-connect-registrars-integrated-with-microsoft-365), you can select **Fix my records** at the top. Otherwise you can follow the link in the wizard for step-by-step instructions for your registrar.

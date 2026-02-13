@@ -1,5 +1,5 @@
 ---
-title: "Connect your domain by adding DNS records"
+title: Connect your domain by adding DNS records
 f1.keywords:
 - CSH
 ms.author: dansimp
@@ -53,9 +53,9 @@ Before your domain is connected to Microsoft 365 by adding DNS records, the regi
 - Confirming domain ownership.
 - Adding DNS records required for Microsoft 365 services.
 
-Without **Domain Connect**, domain ownership and adding DNS records need to be performed manually by signing into your registrar and manually adding the appropriate DNS records.
+If a registrar doesn't support **Domain Connect**, domain ownership and adding DNS records need to be performed manually by signing into your registrar and manually adding the appropriate DNS records.
 
-To find your registrar, see [Find your domain registrar](find-your-domain-registrar.md). Once your registrar is determined, consult with them to see if they support **Domain Connect**.
+To find your registrar, see [Find your domain registrar](find-your-domain-registrar.md). Once your registrar is determined, consult with the registrar to see if they support **Domain Connect**.
 
 For instructions on how to manually add DNS records at specific registrars, see the following articles:
 
@@ -89,7 +89,7 @@ The following sections go over how to add the various DNS records for some of th
 >
 > When you update your domain's MX record, all new email for anyone who uses your domain is sent to Microsoft 365. Any existing email stays at your previous email host, unless you decide to [migrate email and contacts to Microsoft 365.](../setup/migrate-email-and-contacts-admin.md).
 
-To add the DNS records needed for Microsoft 365 email services, Select the tab based on your registrar's support for **Domain Connect**:
+To add the DNS records needed for Microsoft 365 email services, select the tab based on your registrar's support for **Domain Connect**:
 
 - **Domain Connect** - Registrar supports Domain Connect and DNS records are added automatically.
 - **Manual** - Registrar doesn't support Domain Connect and DNS records need to be added manually.
@@ -106,7 +106,7 @@ To add an MX record and other supporting email DNS records for use with email in
 
 1. In the **Domains** page, select a domain.
 
-1. In the page that displays your custom domain, select **DNS records**, and the select **Manage DNS**.
+1. In the page that displays your custom domain, select **DNS records**, and then select **Manage DNS**.
 
 1. The **How do you want to connect your domain?** wizard starts. Select **Continue**.
 
@@ -127,7 +127,7 @@ To add an MX record and other supporting email DNS records for use with email in
     >
     > Depending on the registrar, the registrar might offer to automatically delete the existing MX record via **Domain Connect**. If you don't wish for the existing MX record to be automatically deleted, then the required email DNS records need to be added manually at your registrar. Select the **Manual** tab instead to add MX records manually.
 
-1. Once the DNS records are added, you're returned back to the Microsoft 365 admin center window.
+1. After DNS records are added at the registrar, the browser returns you to the Microsoft 365 admin center.
 
 1. The **Domain setup is complete** page displays. Select **Done** to complete adding DNS records to Microsoft 365.
 
@@ -143,7 +143,7 @@ To add an MX record and other supporting email DNS records for use with email in
 
 1. In the **Domains** page, select a domain.
 
-1. In the page that displays your custom domain, select **DNS records**, and the select **Manage DNS**.
+1. In the page that displays your custom domain, select **DNS records**, and then select **Manage DNS**.
 
 1. The **How do you want to connect your domain?** wizard starts. Select **Continue**.
 
@@ -157,7 +157,7 @@ To add an MX record and other supporting email DNS records for use with email in
 
     > [!TIP]
     >
-    > The name for managing DNS settings at your registrar varies from registrar to registrar. It might have one of the following names:
+    > The name for managing DNS settings at your registrar varies from registrar to registrar. It might have one of the following names instead:
     >
     > - **Zone File Settings**.
     > - **Manage Domains**.
@@ -172,7 +172,7 @@ To add an MX record and other supporting email DNS records for use with email in
       | ------------------ | ----- |
       | *Type* | **MX** |
       | *Host Name* or *Alias* | **@** |
-      | *Points to address* or *Target* | Copy the MX record value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
+      | *Points to address* or *Target* | Copy the MX record value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
       | *Priority* | Set to the highest value available, typically **0**. |
       | *TTL* | **3600** (1 hour) |
 
@@ -186,7 +186,7 @@ To add an MX record and other supporting email DNS records for use with email in
       | ------------------ | ----- |
       | *Type* | **CNAME (Alias)** |
       | *Host Name* or *Alias* | **autodiscover** |
-      | *Points to address* or *Target* | Copy the autodiscover CNAME record value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
+      | *Points to address* or *Target* | Copy the autodiscover CNAME record value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
       | *TTL* | **3600** (1 hour) |
 
     - **SPF TXT record** - This record is optional but highly recommended. The SPF TXT record helps prevent email spam. For more information on SPF TXT records, see [Help prevent email spam (Outlook, Exchange Online) by adding appropriate DNS records](#help-prevent-email-spam-outlook-exchange-online-by-adding-appropriate-dns-records) in this article.
@@ -208,22 +208,22 @@ To add an MX record and other supporting email DNS records for use with email in
       | ------------------ | ----- |
       | *Type* | **CNAME (Alias)**        |
       | *Host Name* or *Alias* | **selector1._domainkey** |
-      | *Points to address* or *Target* | Copy the first value displayed under **DomainKeys Identified Mail (DKIM)** in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
+      | *Points to address* or *Target* | Copy the first value displayed under **DomainKeys Identified Mail (DKIM)** in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
       | *TTL* | **3600** (1 hour) |
 
       |  DNS record field  | Value |
       | ------------------ | ----- |
       | *Type* | **CNAME (Alias)** |
       | *Host Name* or *Alias* | **selector2._domainkey** |
-      | *Points to address* or *Target* | Copy the first value displayed under **DomainKeys Identified Mail (DKIM)** in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
+      | *Points to address* or *Target* | Copy the second value displayed under **DomainKeys Identified Mail (DKIM)** in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
       | *TTL* | **3600** (1 hour) |
 
 1. If MX records already exist for the previous email provider, one of the following two actions needs to be taken to ensure that email starts getting delivered to Microsoft 365:
 
    - Remove any existing MX records pointing to a previous email provider.
-   - Set the MX record priority for the previous email provider to a lower priority than the MX record for Microsoft 365. The lower the number, the higher the priority, with **0** having the highest priority. If the priority for the Microsoft 365 MX record is **0**, then the priority for the previous email provider should be a value larger than **0**.
+   - Set the MX record priority for the previous email provider to a lower priority than the MX record for Microsoft 365. In MX records, lower numbers indicate higher priority. For example, priority **0** is higher than priority **10**.
 
-1. Once the DNS records are manually added at the registrar, switch back to th Microsoft 365 admin center web browser window or tab, and then select **Continue**.
+1. Once the DNS records are manually added at the registrar, switch back to the Microsoft 365 admin center web browser window or tab, and then select **Continue**.
 
 1. Microsoft 365 verifies that the DNS records for email were added correctly. Once verification completes successfully, the **Domain setup is complete** page displays. Select **Done** to complete adding the email DNS records for Microsoft 365 email services.
 
@@ -248,7 +248,7 @@ To add CNAME and SRV records required by Microsoft 365 services such as Microsof
 
 1. In the **Domains** page, select a domain.
 
-1. In the page that displays your custom domain, select **DNS records**, and the select **Manage DNS**.
+1. In the page that displays your custom domain, select **DNS records**, and then select **Manage DNS**.
 
 1. The **How do you want to connect your domain?** wizard starts. Select **Continue**.
 
@@ -277,7 +277,7 @@ To add CNAME and SRV records required by Microsoft 365 services such as Microsof
 
 1. In the **Domains** page, select a domain.
 
-1. In the page that displays your custom domain, select **DNS records**, and the select **Manage DNS**.
+1. In the page that displays your custom domain, select **DNS records**, and then select **Manage DNS**.
 
 1. The **How do you want to connect your domain?** wizard starts. Select **Continue**.
 
@@ -291,14 +291,14 @@ To add CNAME and SRV records required by Microsoft 365 services such as Microsof
 
     > [!TIP]
     >
-    > The name for managing DNS settings at your registrar varies from registrar to registrar. It might have one of the following names:
+    > The name for managing DNS settings at your registrar varies from registrar to registrar. It might have one of the following names instead:
     >
     > - **Zone File Settings**.
     > - **Manage Domains**.
     > - **Domain Manager**.
     > - **DNS Manager**.
 
-1. Once the CNAME and SRV records are manually added at the registrar, switch back to th Microsoft 365 admin center web browser window or tab, and then select **Continue**.
+1. Once the CNAME and SRV records are manually added at the registrar, switch back to the Microsoft 365 admin center web browser window or tab, and then select **Continue**.
 
 1. Microsoft 365 verifies that the CNAME and SRV records were added correctly. Once verification completes successfully, the **Domain setup is complete** page displays. Select **Done** to complete adding the CNAME and SRV records for Microsoft 365 services.
 
@@ -309,8 +309,8 @@ Examples of CNAME and SRV DNS records:
     |  DNS record field  | Value |
     | ------------------ | ----- |
     | *Type* | **CNAME (Alias)** |
-    | *Host Name* or *Alias* | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
-    | *Points to address* or *Target* | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
+    | *Host Name* or *Alias* | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
+    | *Points to address* or *Target* | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
     | *TTL* | **3600** (1 hour) |
 
     For example, to add the required CNAME records for Microsoft Intune, add the following CNAME records:
@@ -335,12 +335,12 @@ Examples of CNAME and SRV DNS records:
     | ------------------ | ----- |
     | *Type* | **SRV (Service)** |
     | *Host Name* or *Alias* | **@** |
-    | *Service* | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
-    | *Protocol* | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
-    | *Target* | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
+    | *Service* | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
+    | *Protocol* | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
+    | *Target* | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
     | *Priority* | **100** |
     | *Weight* | **1** |
-    | *Port* | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it here. |
+    | *Port* | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
     | *TTL* | **3600** (1 hour) |
 
   For example, to add the required SRV record for Microsoft Teams in Microsoft 365, add the following SRV record:
@@ -380,7 +380,7 @@ Some registrars impose restrictions on field values within SRV records. The foll
 
 #### Host Name/Alias can't be set to @
 
-If your registrar doesn't allow setting this field to **@**, leave it blank. Use this approach *only* when your registrar has separate fields for the **Service** and **Protocol** values.
+If your registrar doesn't allow setting this field to **@**, leave it blank. Use this approach *only* when your registrar has separate fields for **Service** and **Protocol**. If your registrar doesn't have separate fields for **Service** and **Protocol**, see [Service and Protocol fields aren't available](#service-and-protocol-fields-arent-available) in this article.
 
 #### Service and Protocol fields aren't available
 
@@ -403,9 +403,7 @@ enter the following value in the **Host Name**/**Alias** field instead of **@**:
 |  DNS record field  | Value |
 | ------------------ | ----- |
 | *Type* | **SRV (Service)** |
-| | |
 | *Host Name* or *Alias*| **_sipfederationtls._tcp** |
-| | |
 | *Target* | **sipfed.online.lync.com** |
 | *Priority* | **100** |
 | *Weight* | **1** |
@@ -443,16 +441,21 @@ enter the following value in the **Target** field:
 | *Host Name* or *Alias*| **@** |
 | *Service* | **_sipfederationtls** |
 | *Protocol* | **TCP** |
-| | |
 | *Target* | **100 1 5061 sipfed.online.lync.com** |
-| | |
 | *TTL* | **3600** (1 hour) |
 
 > [!WARNING]
 >
 > - Some registrars require that the string entered into the **Target** field end with a dot (**.**). For example:
 >
->    **100 1 5061 sipfed.online.lync.com.**
+>    |  DNS record field  | Value |
+>    | ------------------ | ----- |
+>    | *Type* | **SRV (Service)** |
+>    | *Host Name* or *Alias*| **@** |
+>    | *Service* | **_sipfederationtls** |
+>    | *Protocol* | **TCP** |
+>    | *Target* | **100 1 5061 sipfed.online.lync.com.** |
+>    | *TTL* | **3600** (1 hour) |
 >
 >     Check with your registrar to verify if ending with a dot is required.
 >
