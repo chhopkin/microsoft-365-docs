@@ -188,9 +188,9 @@ To add a custom domain to Microsoft 365 by manually verifying domain ownership a
 
    - The **Add a record to verify ownership** page appears if one of the first two options is selected. The page contains instructions on what DNS records to add at your registrar to verify domain ownership. For detailed instructions on adding DNS records at your registrar, refer to the registrar's documentation and instructions.
 
-    > [!WARNING]
-    >
-    > If using the option **If you can't add a TXT record, add an MX record to the domain's DNS records**, make sure to set the **Priority** field of the MX record to a high value so that it doesn't break email with your current email provider.
+        > [!WARNING]
+        >
+        > If using the option **If you can't add a TXT record, add an MX record to the domain's DNS records**, make sure to set the **Priority** field of the MX record to a high value so that it doesn't break email with your current email provider.
 
    - If the **Add a text file to the domain's website** is selected, instructions appear on the **Verify you own this domain** page that explains how to add a file to your website to verify domain ownership. For detailed instructions on adding files to your website, refer to the web hosting provider's documentation and instructions.
 
