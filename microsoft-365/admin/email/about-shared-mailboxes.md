@@ -11,18 +11,19 @@ ms.topic: concept-article
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
 ms.collection:
-- Tier2
-- scotvorg
-- M365-subscription-management
-- Adm_O365
-- Adm_TOC
-- operations-pod
+  - Tier2
+  - scotvorg
+  - M365-subscription-management
+  - Adm_O365
+  - Adm_TOC
+  - operations-pod
 ms.custom:
 - MSStore_Link
 - AdminSurgePortfolio
 - okr_smb
 - AdminTemplateSet
 description: Shared mailboxes are used when multiple people need access to the same mailbox. Learn what you need to know before creating a shared mailbox.
+#customer intent: Create shared email mailboxes
 ---
 
 # About shared mailboxes
@@ -112,7 +113,7 @@ For example, to create two shared mailboxes named `info@domain1` and `info@domai
 
 - Use Exchange Online PowerShell. For instructions, see [Create Shared Mailboxes with Same Alias at Different Domains](https://blog.quadrotech-it.com/blog/create-shared-mailboxes-with-same-alias-at-different-domains-in-office-365/)
 
-- Name the second shared mailbox something different from the start to get around the error. Then in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), rename the shared mailbox to what you want it to be.
+- Name the second shared mailbox something different from the start to get around the error. Then in the [Microsoft 365 admin center](https://admin.cloud.microsoft/), rename the shared mailbox to what you want it to be.
 
 ### Not having send permissions when using a shared mailbox error
 
