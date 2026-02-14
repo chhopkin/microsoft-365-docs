@@ -41,7 +41,8 @@ To learn more about meters, see [Meters for Microsoft 365 Copilot pay-as-you-go 
 For information about the roles needed to view usage reports, see [Microsoft 365 admin center usage reports overview](activity-reports.md).
 
 1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
-1. Select **Microsoft 365 Copilot**, and then select **Copilot credits** to view the list of reports.
+1. Select **Microsoft 365 Copilot**.
+2. Select **Copilot credits** to view the list of reports.
 
 ## Interpret the Copilot credits report
 
