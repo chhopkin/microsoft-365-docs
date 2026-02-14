@@ -6,7 +6,6 @@ ms.author: cmcatee
 ms.reviewer: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.date: 02/02/2026
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-business
@@ -26,6 +25,7 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: "Learn how to use Microsoft 365 admin center usage reports to analyze user activity, manage licenses, and enhance your organization's efficiency. Get insights into service usage patterns and optimize your Microsoft 365 deployment."
+ms.date: 02/13/2026
 ---
 
 # Microsoft 365 admin center usage reports overview
@@ -63,7 +63,7 @@ For more information, see [About admin roles](../add-users/about-admin-roles.md)
 
 [!INCLUDE [office-365-operated-by-21vianet-admin-center-link](../../includes/office-365-operated-by-21vianet-admin-center-link.md)]
 
-1. In the admin center, go to **Reports** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
 1. Select **View more** from the at-a-glance activity card for a service (such as email or OneDrive) to see the report details page. On that page, different reports for the service are provided in tabs.
 
    :::image type="content" alt-text="Screenshot of the Usage dashboard showing Microsoft 365 service activity cards and analytics." source="../../media/activity-usage-analytics3.png" lightbox="../../media/4c0f966d-9d2b-4a6f-a106-a6e2b9a2de07.png":::
@@ -131,17 +131,13 @@ New users sometimes show up as **unknown**. This problem usually happens because
 
 ## Show user, group, or site details in the reports
 
-By default, user, group, or site details are hidden for all reports.
+Usage reports provide information about your organization's usage data. By default, Microsoft hides user, group, or site information for all reports as part of the ongoing commitment to help companies support their local privacy laws.
 
-Your user list looks like this:
+By default, your user list looks like the following screenshot:
 
 :::image type="content" source="../../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png" alt-text="Screenshot of the anonymized user list.":::
 
-If you want to unhide user, group, or site information when you're generating your reports, you can quickly make that change in the admin center.
-
-Reports provide information about your organization's usage data. By default, Microsoft hides user, group, or site information for all reports as part of the ongoing commitment to help companies support their local privacy laws.
-
-The org setting applies to:
+The org setting applies to the following properties:
 
 |Property  |Attributes  |
 |---------|---------|
@@ -153,12 +149,12 @@ The org setting applies to:
 
 Other reports, such as some reports in the Microsoft Teams admin center, follow this org setting.
 
-You can revert this change for your tenant and show identifiable user, group, and site information if your organization's privacy practices allow it.
+If you want to display user, group, or site information in your reports, you can quickly make that change in the admin center if your organization's privacy practices allow it.
 
-1. In the admin center, go to the **Settings** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Org Settings</a> page.
+1. In the admin center, go to **Settings** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">Org Settings</a>.
 1. Select the **Services** tab, and then select **Reports**.
-1. In the **Reports** panel, select the checkbox next to **Display Concealed user, group, and site names in all reports**.
-1. Select **Save**.
+1. In the **Reports** panel, select the checkbox next to **Display Concealed user, group, and site names in all reports**, then select **Save**.
+1. To hide the information, deselect the checkbox next to **Display Concealed user, group, and site names in all reports**, then select **Save**.
 
 An API is available to all environments for admins to change this setting without needing to visit the Microsoft 365 admin center. For more information, see [adminReportSettings API](/graph/api/resources/adminreportsettings?view=graph-rest-beta&preserve-view=true).
 

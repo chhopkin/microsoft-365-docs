@@ -1,5 +1,5 @@
 ---
-title: "Microsoft 365 Copilot credits report in the Microsoft 365 admin center"
+title: Microsoft 365 Copilot credits report - Microsoft 365 admin center
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
@@ -9,24 +9,26 @@ ms.topic: concept-article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.collection:
-- Tier1
-- scotvorg
-- M365-subscription-management
-- Adm_O365
-- Adm_TOC
-- m365copilot
-- magic-ai-copilot
-- operations-pod
+  - Tier1
+  - scotvorg
+  - M365-subscription-management
+  - Adm_O365
+  - Adm_TOC
+  - m365copilot
+  - magic-ai-copilot
+  - operations-pod
 ms.custom:
 - GAUpdates
 ROBOTS: NOINDEX, NOFOLLOW
-description: "Learn about the Copilot credits consumption report in the Microsoft 365 admin center and how it helps to manage costs associated with Microsoft 365 Copilot Chat."
-ms.date: 09/01/2025
+description: Discover how to use the Copilot credits report in the Microsoft 365 admin center to analyze credit usage, set alerts, and control pay-as-you-go costs.
+ms.date: 02/13/2026
 ---
 
 # Microsoft 365 Copilot credits report - Microsoft 365 admin center
 
-The Copilot credits report helps you manage metered consumption costs for Microsoft 365 Copilot Chat. This report gives you visibility into credits used associated with your Microsoft 365 Copilot pay-as-you-go billing policies and includes key metrics such as:
+[!INCLUDE [microsoft-365-usage-reports-generic-intro](../includes/microsoft-365-usage-reports-generic-intro.md)]
+
+The Microsoft 365 Copilot credits report helps you manage metered consumption costs for Microsoft 365 Copilot Chat. This report gives you visibility into credits used associated with your Microsoft 365 Copilot pay-as-you-go billing policies and includes key metrics such as:
 
 - Total credits used
 - Cumulative and daily time series
@@ -35,6 +37,8 @@ The Copilot credits report helps you manage metered consumption costs for Micros
 To learn more about meters, see [Meters for Microsoft 365 Copilot pay-as-you-go for IT admins](/copilot/microsoft-365/pay-as-you-go/meters).
 
 ## View the Copilot credits report
+
+For information about the roles needed to view usage reports, see [Microsoft 365 admin center usage reports overview](activity-reports.md).
 
 1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
 1. Select **Microsoft 365 Copilot**, and then select **Copilot credits** to view the list of reports.
@@ -47,7 +51,7 @@ To help you mitigate overspending, the report includes alerts when users in your
 
 You can filter the report by different time periods. The Copilot credits report can be viewed over the last 7 or 30 days.
 
-:::image type="content" source="../../media/copilot-credit/copilot-credit-hero-metric.png" alt-text="Screenshot showing the Copilot credits report page in the Microsoft 365 admin center." lightbox="../../media/copilot-credit/copilot-credit-hero-metric.png":::
+:::image type="content" source="../../media/copilot-credit/copilot-credit-hero-metric.png" alt-text="Screenshot of the Copilot credits report page in the Microsoft 365 admin center." lightbox="../../media/copilot-credit/copilot-credit-hero-metric.png":::
 
 >[!NOTE]
 > During the preview, the report displays a maximum of 30 days of Copilot credits history. In addition, usage information from before May 3, 2025, isn't available in the report.
@@ -64,31 +68,18 @@ The **Alert** card is visible in the report when one or more users consume more 
 
 Select **View Copilot credits details** to see the user list and export it to CSV. If users consume 2,000 to 3,000 credits, a similar alert appears.
 
-:::image type="content" source="../../media/copilot-credit/copilot-credit-alert.png" alt-text="Screenshot showing the alert box that informs admins about high Copilot credits." lightbox="../../media/copilot-credit/copilot-credit-alert.png":::
+:::image type="content" source="../../media/copilot-credit/copilot-credit-alert.png" alt-text="Screenshot of the alert box that informs admins about high Copilot credits." lightbox="../../media/copilot-credit/copilot-credit-alert.png":::
 
 >[!NOTE]
 > For preview, the alerts remain visible in the report for up to seven days and disappear after if there are no new users who crossed the threshold.  
 
-### View charts
+## Copilot credits usage report details
 
-You can see the following cumulative chart in this report as default view.
+Use the Microsoft 365 Copilot Credits usage report to view user details, agent details, and user and agent details.
 
-:::image type="content" source="../../media/copilot-credit/copilot-credit-cumulative-chart.png" alt-text="Screenshot showing the chart with a green trend line that shows the cumulative default view for Copilot credits." lightbox="../../media/copilot-credit/copilot-credit-cumulative-chart.png":::
+### Users
 
-The definition of credits used is the same as provided earlier in this article.
-
-You can switch between the **Cumulative view** and **Daily view**.
-
-- **Cumulative view** shows you the total number of credits used over the selected time frame.  
-- **Daily view** shows you the credits used on a daily basis over the selected time frame.
-
-## Copilot credits details table
-
-You can view user details, agent details, and user and agent details in the Copilot credits report.
-
-### User details
-
-:::image type="content" source="../../media/copilot-credit/copilot-credit-user-details.png" alt-text="Screenshot showing a table for user details in the Copilot credits report." lightbox="../../media/copilot-credit/copilot-credit-user-details.png":::
+:::image type="content" source="../../media/copilot-credit/copilot-credit-user-details.png" alt-text="Screenshot of a table for user details in the Copilot credits report." lightbox="../../media/copilot-credit/copilot-credit-user-details.png":::
 
 | Item                    | Description            |
 |-------------------------|------------------------|
@@ -98,9 +89,9 @@ You can view user details, agent details, and user and agent details in the Copi
 | Past 30 days            | The total credits used over the past 30 days, including today. |
 | Last activity date (UTC)| The latest date the user had activity with a metered agent in Copilot chat. |
 
-### Agent details
+### Agents
 
-:::image type="content" source="../../media/copilot-credit/copilot-credit-agent-details.png" alt-text="Screenshot showing a table for agent details in the Copilot credits report." lightbox="../../media/copilot-credit/copilot-credit-agent-details.png":::
+:::image type="content" source="../../media/copilot-credit/copilot-credit-agent-details.png" alt-text="Screenshot of a table for agent details in the Copilot credits report." lightbox="../../media/copilot-credit/copilot-credit-agent-details.png":::
 
 | Item                    | Description      |
 |-------------------------|------------------|
@@ -112,7 +103,7 @@ You can view user details, agent details, and user and agent details in the Copi
 
 ### Billing policies
 
-:::image type="content" source="../../media/copilot-credit/copilot-credit-billing-policies.png" alt-text="Screenshot showing a table for billing policies in the Copilot credits report." lightbox="../../media/copilot-credit/copilot-credit-billing-policies.png":::
+:::image type="content" source="../../media/copilot-credit/copilot-credit-billing-policies.png" alt-text="Screenshot of a table for billing policies in the Copilot credits report." lightbox="../../media/copilot-credit/copilot-credit-billing-policies.png":::
 
 | Item                    | Description          |
 |-------------------------|----------------------|
@@ -121,9 +112,9 @@ You can view user details, agent details, and user and agent details in the Copi
 | Past 30 days            | The total credits used by members of the security group linked to the billing policy over the past 30 days, including today. |
 | Last activity date (UTC)| The most recent date on which a member of the security group linked to the billing policy consumed credits. |
 
-### User and agent details
+### Users and agents
 
-:::image type="content" source="../../media/copilot-credit/copilot-credit-user-agent.png" alt-text="Screenshot showing the table for user and agent details in the Copilot credits report." lightbox="../../media/copilot-credit/copilot-credit-user-agent.png":::
+:::image type="content" source="../../media/copilot-credit/copilot-credit-user-agent.png" alt-text="Screenshot of the table for user and agent details in the Copilot credits report." lightbox="../../media/copilot-credit/copilot-credit-user-agent.png":::
 
 | Item                    | Description     |
 |-------------------------|-----------------|
@@ -154,7 +145,7 @@ Have a user who qualifies for pay-as-you-go use one of the following three agent
 
 ### How do I find a Billing policy name from the Billing policy ID?
 
-1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to the **Copilot > Billing & usage** page.
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Copilot** > **Billing & usage**.
 1. On the **Billing policies** tab, select a billing policy, then go to **Details**.
 1. You see the **Policy name** and **Billing Policy ID**.  
 
@@ -164,11 +155,7 @@ By default, the Copilot credits report anonymizes the Billing Policy ID, just li
 
 [!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
 
-1. In the Microsoft 365 admin center, go to **Settings** > **Org Settings**.
-1. On the **Services** tab, select **Reports**.
-1. To view the **Billing policy ID**, in the **Reports** panel, clear the **Display concealed user, group, and site names in all reports** checkbox.
-1. Select **Save**.
-1. To hide the Billing policy ID, select the checkbox again, and save your changes.
+To learn how to change the setting to show the Username and Display name information, see [Show user, group, or site details in the reports](activity-reports.md#show-user-group-or-site-details-in-the-reports).
 
 > [!NOTE]
 > Changes to this hidden data setting affect the username, display name, and Billing Policy ID.

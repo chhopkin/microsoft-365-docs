@@ -1,5 +1,5 @@
 ---
-title: "Copilot Search usage report in the Microsoft 365 admin center"
+title: "Microsoft 365 Copilot Search usage report - Microsoft 365 admin center"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
@@ -23,7 +23,7 @@ description: "Learn about search usage in Microsoft 365 Copilot and gain insight
 ms.date: 08/21/2025
 ---
 
-# Copilot Search usage report - Microsoft 365 admin center
+# Microsoft 365 Copilot Search usage report - Microsoft 365 admin center
 
 > [!NOTE]
 > The Copilot Search usage report is currently in public preview. Deployment processes and functionality might change before this report becomes generally available. During the public preview phase, users might notice some unexpected behaviors. These observations are a normal part of the preview experience and help inform improvements before general availability.
@@ -34,13 +34,15 @@ The Copilot Search usage report provides a detailed view of both organizational 
 
 ## View the Copilot Search usage report
 
+For information about the roles needed to view usage reports, see [Microsoft 365 admin center usage reports overview](activity-reports.md).
+
 1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
 1. Expand **Microsoft 365 Copilot** to view the list of Copilot reports.
 1. Select **Copilot Search**.
 
 ## Interpret the Copilot Search usage report
 
-Use this report to see the usage of Copilot Search in your organization.
+Use the Microsoft 365 Copilot Search usage report to see the usage of Copilot Search in your organization.
 
 At the top, you can filter by different timeframes. You can view the Copilot Search usage report over the last 7 days, 30 days, 90 days, or 180 days.
 

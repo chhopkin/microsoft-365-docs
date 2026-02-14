@@ -1,5 +1,5 @@
 ---
-title: "Microsoft 365 Copilot usage report in hte Microsoft 365 admin center"
+title: "Microsoft 365 Copilot usage report - Microsoft 365 admin center"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
@@ -24,25 +24,27 @@ search.appverid:
 - MST160
 - MET150
 - MOE150
-ms.date: 10/08/2025
 description: "Learn how to get the Microsoft 365 Copilot usage report and gain insights into the Microsoft 365 Copilot activity in your organization."
+ms.date: 10/08/2025
 ---
 
 # Microsoft 365 Copilot usage report - Microsoft 365 admin center
 
-The Microsoft 365 Usage page shows you the activity overview across the Microsoft 365 productivity apps in your organization. It enables you to drill into individual product-level reports to give you granular insight about the activities within each app. To view all reports, see the [Reports overview article](activity-reports.md).
+[!INCLUDE [microsoft-365-usage-reports-generic-intro](../includes/microsoft-365-usage-reports-generic-intro.md)]
 
 In the Microsoft 365 Copilot usage report, which is in continuous enhancement, you can view a summary of how users' adoption, retention, and engagement are with Microsoft 365 Copilot and its associated enabled apps, including agent usage. For Copilot activity on a given day, the report becomes available typically within 72 hours of the end of that day (in UTC).
 
 ## View the Microsoft 365 Copilot usage report
 
-1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > **Usage**.
+For information about the roles needed to view usage reports, see [Microsoft 365 admin center usage reports overview](activity-reports.md).
+
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
 1. Select the **Microsoft 365 Copilot** page.
 1. Select the **Usage** tab to view adoption and usage metrics.
 
 ## Interpret the Microsoft 365 Copilot usage report
 
-Use this report to see the usage of Microsoft 365 Copilot in your organization.
+Use the Microsoft 365 Copilot usage report to see the usage of Microsoft 365 Copilot in your organization.
 
 At the top, you can filter by different timeframes. You can view the Microsoft 365 Copilot report over the last 7 days, 30 days, 90 days, or 180 days.
 

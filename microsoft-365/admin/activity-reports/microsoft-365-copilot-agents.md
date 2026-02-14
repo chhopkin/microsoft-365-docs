@@ -1,5 +1,5 @@
 ---
-title: "Microsoft 365 Copilot Agent usage report in the Microsoft 365 admin center"
+title: "Microsoft 365 Copilot Agent usage report - Microsoft 365 admin center"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
@@ -28,6 +28,8 @@ description: "Learn about agent usage in Microsoft 365 Copilot and gain insights
 
 # Microsoft 365 Copilot Agent usage report - Microsoft 365 admin center
 
+[!INCLUDE [microsoft-365-usage-reports-generic-intro](../includes/microsoft-365-usage-reports-generic-intro.md)]
+
 In the Microsoft 365 Copilot Agent usage report, you can view the adoption of agents in Microsoft 365 Copilot in your organization. For agent activity on a given day, the report becomes available within 72 hours of the end of that day (in UTC).
 
 > [!NOTE]
@@ -35,13 +37,15 @@ In the Microsoft 365 Copilot Agent usage report, you can view the adoption of ag
 
 ## View the Microsoft 365 Copilot agent usage report
 
-1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > **Usage**.
-1. Select the Microsoft 365 Copilot page.
+For information about the roles needed to view usage reports, see [Microsoft 365 admin center usage reports overview](activity-reports.md).
+
+1. In the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>, go to **Reports** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2074756" target="_blank">Usage</a>.
+1. Select the **Microsoft 365 Copilot** page.
 1. Select the **Agents** tab to view adoption and usage metrics.
 
 ## Interpret the Microsoft 365 Copilot agent report
 
-Use this report to see the usage of Copilot agents in your organization that your organization built. The report includes agents that an admin approves and agents that users create through agent builder and share with users in your organization. Admins can manage agents the same way they manage any other app in the Integrated apps section of the Microsoft 365 admin center. For more information, see [Manage Copilot agents in Integrated Apps](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
+Use the Microsoft 365 Copilot agent report to see the usage of Copilot agents in your organization that your organization built. The report includes agents that an admin approves and agents that users create through agent builder and share with users in your organization. Admins can manage agents the same way they manage any other app in the Integrated apps section of the Microsoft 365 admin center. For more information, see [Manage Copilot agents in Integrated Apps](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
 
 At the top of the report, you can filter by different periods. You can view the Microsoft 365 Copilot agent report over the last 7 days, 30 days, 90 days, or 180 days:
 
