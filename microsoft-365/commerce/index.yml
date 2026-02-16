@@ -9,12 +9,12 @@ metadata:
   ms.topic: landing-page # Required
   ms.collection:
   - Tier1
-  - scotvorg 
-  - highpri 
+  - scotvorg
+  - highpri
   - commerce
   - Adm_TOC
   - operations-pod
-  ms.custom: 
+  ms.custom:
   - VSBFY23
   - commerce_landingpage
   author: cmcatee-MSFT #Required; your GitHub user alias, with correct capitalization.
@@ -23,7 +23,7 @@ metadata:
   audience: Admin
   ms.localizationpriority: medium
   search.appverid: MET150
-  ms.date: 03/13/2025
+  ms.date: 02/13/2026
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
 
@@ -40,7 +40,7 @@ landingContent:
           - text: Manage payment methods
             url: billing-and-payments/manage-payment-methods.md
           - text: Understand your invoice (MCA)
-            url: billing-and-payments/understand-your-invoice.md           
+            url: billing-and-payments/understand-your-invoice.md
           - text: Understand your invoice (MOSA)
             url: billing-and-payments/understand-your-invoice2.md
       - linkListType: overview
@@ -91,7 +91,7 @@ landingContent:
             url: try-or-buy-microsoft-365.md
           - text: Buy a domain name
             url: ../admin/get-help-with-domains/buy-a-domain-name.md
-#          - text: Upgrade to a different plan 
+#          - text: Upgrade to a different plan
 #            url: subscriptions/upgrade-to-different-plan.md
           - text: Turn recurring billing on or off
             url: subscriptions/renew-your-subscription.md

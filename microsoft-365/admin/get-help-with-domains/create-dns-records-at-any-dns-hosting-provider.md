@@ -12,17 +12,18 @@ ms.service: microsoft-365-business
 ms.subservice: m365-domains
 ms.localizationpriority: high
 ms.collection:
-- Tier2
-- scotvorg
-- highpri
-- M365-subscription-management
-- Adm_O365
-- Adm_TOC
-- Adm_O365_Setup
-- operations-pod
+  - Tier2
+  - scotvorg
+  - highpri
+  - M365-subscription-management
+  - Adm_O365
+  - Adm_TOC
+  - Adm_O365_Setup
+  - operations-pod
 search.appverid:
 - MET150
-description: "Connect a domain from any registrar in Microsoft 365 by verifying your domain and updating the DNS records in your registrar's account."
+description: Connect a domain from any registrar in Microsoft 365 by verifying your domain and updating the DNS records in your registrars account.
+#customer intent: Connect a domain from any registrar to Microsoft 365
 ms.custom:
 - VSBFY23
 - okr_smb
@@ -98,11 +99,11 @@ To add the DNS records needed for Microsoft 365 email services, select the tab b
 
 To add an MX record and other supporting email DNS records for use with email in Microsoft 365 (Outlook, Exchange Online), follow these steps:
 
-1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
-1. Under **Settings**, select [**Domains**](https://go.microsoft.com/fwlink/p/?linkid=834818).
+1. Under **Settings**, select [**Domains**](https://admin.cloud.microsoft/?#/Domains).
 
 1. In the **Domains** page, select a domain.
 
@@ -135,11 +136,11 @@ To add an MX record and other supporting email DNS records for use with email in
 
 To add an MX record and other supporting email DNS records for use with email in Microsoft 365 (Outlook, Exchange Online), follow these steps:
 
-1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
-1. Under **Settings**, select [**Domains**](https://go.microsoft.com/fwlink/p/?linkid=834818).
+1. Under **Settings**, select [**Domains**](https://admin.cloud.microsoft/?#/Domains).
 
 1. In the **Domains** page, select a domain.
 
@@ -240,11 +241,11 @@ Select the tab based on your registrar's support for **Domain Connect**:
 
 To add CNAME and SRV records required by Microsoft 365 services such as Microsoft Teams, Exchange Online, or Microsoft Intune:
 
-1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
-1. Under **Settings**, select [**Domains**](https://go.microsoft.com/fwlink/p/?linkid=834818).
+1. Under **Settings**, select [**Domains**](https://admin.cloud.microsoft/?#/Domains).
 
 1. In the **Domains** page, select a domain.
 
@@ -269,11 +270,11 @@ To add CNAME and SRV records required by Microsoft 365 services such as Microsof
 
 To add CNAME and SRV records required by Microsoft 365 services such as Microsoft Teams, Exchange Online, or Microsoft Intune:
 
-1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
-1. Under **Settings**, select [**Domains**](https://go.microsoft.com/fwlink/p/?linkid=834818).
+1. Under **Settings**, select [**Domains**](https://admin.cloud.microsoft/?#/Domains).
 
 1. In the **Domains** page, select a domain.
 
