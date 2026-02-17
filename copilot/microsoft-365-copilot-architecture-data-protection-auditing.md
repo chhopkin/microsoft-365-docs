@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: ruihu
 author: maggierui
 manager: dansimp
-ms.date: 10/21/2025
+ms.date: 02/17/2026
 ms.update-cycle: 180-days
 audience: Admin
 customer-intent: As an IT professional, I want to understand how Microsoft 365 Copilot works with data protection, oversharing controls, and auditing features in Microsoft 365.
@@ -54,7 +54,7 @@ Copilot works together with your Microsoft Purview sensitivity labels and encryp
 
 The following diagram provides a visual representation of how Copilot honors your information protection controls using sensitivity labels and encryption.
 
-:::image type="content" source="media/microsoft-365-copilot-architecture-data-protection-auditing/copilot-sensitivity-labels.svg" alt-text="Diagram that shows how Copilot works with documents with Microsoft Purview sensitivity labels." lightbox="media/microsoft-365-copilot-architecture-data-protection-auditing/copilot-sensitivity-labels.svg":::
+:::image type="content" source="media/microsoft-365-copilot-architecture-data-protection-auditing/copilot-sensitivity-labels.png" alt-text="Diagram that shows how Copilot works with documents with Microsoft Purview sensitivity labels." lightbox="media/microsoft-365-copilot-architecture-data-protection-auditing/copilot-sensitivity-labels.png":::
 
 Let's take a look:
 
