@@ -167,11 +167,11 @@ To configure admin settings for **Researcher agent with Computer Use**, follow t
      1. Allow specific users or groups only.
      1. No users in your organization.
 
-        :::image type="content" source="../../media/agents/researcher-step-3-a.png" alt-text="Screenshot showing the Computer Use option." lightbox="../../media/knowledge-agent-idea.png":::
+    :::image type="content" source="../../media/agents/researcher-step-3-a.png" alt-text="Screenshot showing the Computer Use option." lightbox="../../media/knowledge-agent-idea.png":::
 
    - For users that have this option disabled, the **Computer Use** option is grayed out.
 
-        :::image type="content" source="../../media/agents/researcher-step-3-b.png" alt-text="Screenshot showing the Computer Use option greyed out." lightbox="../../media/knowledge-agent-idea.png":::
+    :::image type="content" source="../../media/agents/researcher-step-3-b.png" alt-text="Screenshot showing the Computer Use option greyed out." lightbox="../../media/knowledge-agent-idea.png":::
 
 1. Configure Work access for **Researcher with Computer Use**:
 
@@ -188,7 +188,9 @@ To configure admin settings for **Researcher agent with Computer Use**, follow t
    - There are three options for configuring websites the virtual device can access:
 
      1. All websites.
+
      1. Allow specific URLs or domains only.
+
      1. Exclude specific URLs or domains.
 
    - You can allow **All websites**, block some by using the **Exclude specified** option, or only allow certain sites by using the **Allow specified** option.
@@ -327,7 +329,7 @@ The activation process consists of the following steps:
 
 1. **Apply Template** - To strengthen governance and security for agents, you can apply a template that includes predefined policies.
 
-        - **Default Template** - Microsoft provides an out of the box template with essential security and compliance controls from Microsoft Entra, Microsoft Purview, and SharePoint. The default template automatically assigns the Microsoft Agent 365 license to minimize manual license management. For more information, see [Default template automatic license assignment](#default-template-automatic-license-assignment).
+    - **Default Template** - Microsoft provides an out of the box template with essential security and compliance controls from Microsoft Entra, Microsoft Purview, and SharePoint. The default template automatically assigns the Microsoft Agent 365 license to minimize manual license management. For more information, see [Default template automatic license assignment](#default-template-automatic-license-assignment).
 
     - **Custom Template** - If you need additional governance beyond the default, create a custom template and apply extra policies such as **Restrict External Content sharing** to meet your organization's requirements.
 
@@ -362,8 +364,6 @@ The default template automatically assigns the Agent 365 license during activati
 
 You can deploy agents across the whole organization or for specific users or groups by using the same gestures and controls that work for any other app in the Microsoft 365 admin center.
 
-:::image type="content" source="../../media/agents/deploy.png" alt-text="Screenshot showing the configuration screen to deploy an agent." lightbox="../../media/agents/deploy.png":::
-
 To deploy an agent, follow these steps:
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
@@ -377,6 +377,8 @@ To deploy an agent, follow these steps:
 1. In the agent details pane that opens, under the agent's name, select **Deploy**.
 
 1. In the **Deploy agent to selected users** pane, decide whether to deploy the agents to everyone or to specific users or groups, and then select **Next**.
+
+    :::image type="content" source="../../media/agents/deploy.png" alt-text="Screenshot showing the configuration screen to deploy an agent." lightbox="../../media/agents/deploy.png":::
 
 1. In the **Review permissions** pane, review the permissions requested by the agent and grant admin consent if appropriate. For more information, see [Understanding permissions](#understanding-permissions). When finished, select **Next**.
 
@@ -590,8 +592,6 @@ You can also pin an agent from the agent details pane. Select the pin for the us
 
 ### Block or unblock agents
 
-:::image type="content" source="../../media/agents/block.png" alt-text="Screenshot showing the panel to block an agent." lightbox="../../media/agents/block.png":::
-
 Block or unblock agents for the entire organization by using the same controls that work for any other app in the Microsoft 365 admin center.
 
 To block or unblock an agent, follow these steps:
@@ -605,6 +605,8 @@ To block or unblock an agent, follow these steps:
 1. In the agent details pane that opens, under the agent name, select either **Block** or **Unblock**.
 
 1. In the **Block agent** or **Unblock agent** pane that opens, select either **Block agent** or **Unblock agent**, and then select **Save**.
+
+    :::image type="content" source="../../media/agents/block.png" alt-text="Screenshot showing the panel to block an agent." lightbox="../../media/agents/block.png":::
 
 Blocking or unblocking an agent that you created by using Microsoft 365 Copilot Agent Builder and Microsoft 365 Copilot Studio affects its availability and functionality in Microsoft 365 Copilot. It also affects availability and functionality in other host products, such as Outlook, Teams, or Microsoft 365. However, blocking an agent that you created by using SharePoint only impacts its availability in Microsoft 365 Copilot Chat.
 
@@ -697,7 +699,11 @@ IT administrators can reassign ownership of shared agents that they create withi
 
 1. In the agent details pane, under the agent name, select **Assign new owner**.
 
+    :::image type="content" source="../../media/agents/assign-new-shared-agent-owner.png" alt-text="Screenshot showing where to assign a new shared agent owner." lightbox="../../media/agents/unblock.png":::
+
 1. In **Assign a new owner**, select a new owner from your organization. You can only reassign agents to users with a Copilot license.
+
+    :::image type="content" source="../../media/agents/select-new-shared-agent-owner.png" alt-text="Screenshot showing where to select a new shared agent owner." lightbox="../../media/agents/unblock.png":::
 
 #### What changes after reassignment
 
