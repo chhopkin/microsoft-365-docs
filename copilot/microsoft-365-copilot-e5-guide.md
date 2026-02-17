@@ -338,14 +338,16 @@ Adaptive Protection integrates information from **Insider Risk Management** with
 **Turn on Adaptive Protection**:
 
 1. Sign into the [Microsoft Purview portal](https://purview.microsoft.com/) as one of the admins listed at [Adaptive Protection - Permissions](/purview/insider-risk-management-adaptive-protection#permissions-for-adaptive-protection).
+
 2. Select **Solutions** > **Insider Risk Management** > **Adaptive Protection**.
+
 3. In **Dashboard**, select **Quick setup**.
 
-    - [Adaptive Protection - Quick Setup](/purview/insider-risk-management-adaptive-protection) is the easiest and fastest way to get started with Adaptive Protection. It automatically creates and dynamically assigns the insider risk policies, DLP policies, and a Conditional Access policy.
+   - [Adaptive Protection - Quick Setup](/purview/insider-risk-management-adaptive-protection) is the easiest and fastest way to get started with Adaptive Protection. It automatically creates and dynamically assigns the insider risk policies, DLP policies, and a Conditional Access policy.
 
       When the risk level is met, the policies automatically adjust to match the new risk level.
 
-    - You can also create a [custom policy](/purview/insider-risk-management-adaptive-protection#custom-setup) instead of using the quick setup. If you create a custom policy, then you must also create the DLP and Conditional Access policies.
+   - You can also create a [custom policy](/purview/insider-risk-management-adaptive-protection#custom-setup) instead of using the quick setup. If you create a custom policy, then you must also create the DLP and Conditional Access policies.
 
 To learn more, see [Adaptive Protection policies](/purview/insider-risk-management-adaptive-protection).
 
@@ -353,24 +355,24 @@ To learn more, see [Adaptive Protection policies](/purview/insider-risk-manageme
 
 - For DLP policies, you can:
 
-  - **Test your policies** using [simulation mode](/purview/dlp-test-dlp-policies). Simulation mode allows you to see the effect of an individual policy without enforcing the policy. Use it to find the items that match your policy.
+   - **Test your policies** using [simulation mode](/purview/dlp-test-dlp-policies). Simulation mode allows you to see the effect of an individual policy without enforcing the policy. Use it to find the items that match your policy.
 
-  - **Monitor your policies** with alerts and built-in reports, including risky user activities outside of DLP policies.
+   - **Monitor your policies** with alerts and built-in reports, including risky user activities outside of DLP policies.
 
-    To learn more, see:
+   To learn more, see the following articles:
 
-    - [Viewing policy application results](/purview/insider-risk-management-activities)
-    - [Get started with the data loss prevention analytics](/purview/dlp-analytics-get-started)
+      - [Viewing policy application results](/purview/insider-risk-management-activities)
+      - [Get started with the data loss prevention analytics](/purview/dlp-analytics-get-started)
 
 - When you enable Adaptive Protection and your policies are configured, you can get:
-  - Policy metrics
-  - Users with an assigned risk level
-  - Policies currently in-scope for the user
+   - Policy metrics
+   - Users with an assigned risk level
+   - Policies currently in-scope for the user
 
-  To learn more, see:
+- To learn more, see the following articles:
 
-  - [Help dynamically mitigate risks with Adaptive Protection](/purview/insider-risk-management-adaptive-protection)
-  - [Investigate insider risk management activities](/purview/insider-risk-management-activities)
+   - [Help dynamically mitigate risks with Adaptive Protection](/purview/insider-risk-management-adaptive-protection)
+   - [Investigate insider risk management activities](/purview/insider-risk-management-activities)
 
 ### Delete the content you don't need
 
@@ -390,7 +392,7 @@ If you need [exceptions for individual emails or documents](/purview/create-rete
 
 1. To create retention policies, sign into the [Microsoft Purview portal](https://purview.microsoft.com/) as a Compliance Administrator.
 
-    To learn more about the permissions, see [Data Lifecycle Management - Permissions](/purview/get-started-with-data-lifecycle-management#permissions-for-retention-policies-and-retention-labels).
+   To learn more about the permissions, see [Data Lifecycle Management - Permissions](/purview/get-started-with-data-lifecycle-management#permissions-for-retention-policies-and-retention-labels).
 
 2. Select **Solutions** > **Data Lifecycle Management** > **Policies** > **Retention policies**.
 
@@ -400,34 +402,34 @@ If you need [exceptions for individual emails or documents](/purview/create-rete
 
    You can use either **Data Lifecycle Management** or **Microsoft Purview Records Management** to create the labels. Records management includes more configuration options, like a [disposition review process](/purview/disposition). A disposition review is helpful if you need manual confirmation before items are automatically deleted.
   
-    # [Data Lifecycle Management](#tab/dlm)
+   # [Data Lifecycle Management](#tab/dlm)
 
-    Use [Data Lifecycle Management](/purview/data-lifecycle-management) for retention policies that manage automatic retention and deletion for Microsoft 365 workloads & Microsoft 365 Copilot interactions, and retention labels for any exceptions.
+   Use [Data Lifecycle Management](/purview/data-lifecycle-management) for retention policies that manage automatic retention and deletion for Microsoft 365 workloads & Microsoft 365 Copilot interactions, and retention labels for any exceptions.
 
-    - From **Data Lifecycle Management**, select **Retention labels** > **Create a label**.
+   - From **Data Lifecycle Management**, select **Retention labels** > **Create a label**.
 
-    Follow the configuration instructions and if you need more help, see [How to create retention labels for data lifecycle management](/purview/create-retention-labels-data-lifecycle-management#how-to-create-retention-labels-for-data-lifecycle-management).
+   Follow the configuration instructions and if you need more help, see [How to create retention labels for data lifecycle management](/purview/create-retention-labels-data-lifecycle-management#how-to-create-retention-labels-for-data-lifecycle-management).
 
-     # [Records Management](#tab/rm)
+   # [Records Management](#tab/rm)
 
-    Use [Records Management](/purview/records-management) for retention labels that provide more configuration options for high-value documents and emails that typically have stricter compliance requirements. If you want to use a disposition review, then you must use Records Management.
+   Use [Records Management](/purview/records-management) for retention labels that provide more configuration options for high-value documents and emails that typically have stricter compliance requirements. If you want to use a disposition review, then you must use Records Management.
 
-    1. Sign in to the [Microsoft Purview portal](https://purview.microsoft.com/) as a member of the Records Management admin role group.
+   1. Sign in to the [Microsoft Purview portal](https://purview.microsoft.com/) as a member of the Records Management admin role group.
 
-        To learn more about the permissions, see [Records management - Permissions](/purview/get-started-with-records-management#permissions)
+      To learn more about the permissions, see [Records management - Permissions](/purview/get-started-with-records-management#permissions)
 
-    2. Select **Solutions** > **Records Management**.
+   2. Select **Solutions** > **Records Management**.
 
-    3. Select **File plan** > **Create a label** > **Retention label**.
+   3. Select **File plan** > **Create a label** > **Retention label**.
 
-        Follow the configuration instructions and if you need more help, see [Use file plan to create and manage retention labels](/purview/file-plan-manager).
+      Follow the configuration instructions and if you need more help, see [Use file plan to create and manage retention labels](/purview/file-plan-manager).
 
     ---
 
-    After you create the retention labels, you can then apply the labels to documents and emails:
+   After you create the retention labels, you can then apply the labels to documents and emails:
 
-    - [Publish retention labels and apply them in apps](/purview/create-apply-retention-labels)
-    - [Automatically apply a retention label to retain or delete content](/purview/apply-retention-labels-automatically)
+   - [Publish retention labels and apply them in apps](/purview/create-apply-retention-labels)
+   - [Automatically apply a retention label to retain or delete content](/purview/apply-retention-labels-automatically)
 
 5. If you applied retention labels, monitor them to see how they're being used.
 
