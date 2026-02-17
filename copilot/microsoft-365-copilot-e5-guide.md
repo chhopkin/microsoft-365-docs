@@ -122,13 +122,17 @@ To learn more about these cmdlets, see [Use PowerShell Scripts for Restricted Sh
     - **Option 1 - Use the Sharing links report**
 
       1. Sign in to the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) as a SharePoint administrator.
+
       1. Select **Reports** > **Data access governance** > **Sharing links** > **View reports**.
+      
       1. Select one of the reports, like **"Anyone" links**. This report shows a list of sites with the highest number of **Anyone** links created. These links let anyone access files and folders without signing in. These sites are candidates to allow in tenant/org wide search.
 
     - **Option 2 - Use the sort and filter options for Active sites**
 
       1. Sign in to the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) as a SharePoint administrator.
+      
       1. Select **Sites** > **Active sites**.
+      
       1. Use the sort and filter options to find the most active site, including page views. These sites are candidates to allow in a tenant/organization wide search.
 
           :::image type="content" source="media/microsoft-365-copilot-e5-guide/sharepoint-active-sites-filter.png" alt-text="In SharePoint admin center, select active sites and then use the All sites filter.":::
@@ -296,7 +300,7 @@ These policies can detect when sensitive info, like bank account numbers or pass
 
     You can turn on these policies and also review the settings in the policy:
 
-    :::image type="content" source="media/microsoft-365-copilot-e5-guide/purview-dlp-default-policy-teams.png" alt-text="In Microsoft Purview Data Loss Prevention (DLP), turn on the unprotected sensitive info in Teams policy.":::
+    :::image type="content" source="media/microsoft-365-copilot-e5-guide/purview-dlp-default-policy-teams.png" alt-text="In Microsoft Purview Data Loss Prevention (DLP), turn on the unprotected sensitive info in Teams policy." lightbox="media/microsoft-365-copilot-e5-guide/purview-dlp-default-policy-teams.png":::
 
 For more information on using DLP policies to protect information in Teams, see:
 
