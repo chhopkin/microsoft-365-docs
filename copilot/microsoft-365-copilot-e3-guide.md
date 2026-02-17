@@ -54,27 +54,27 @@ This article applies to:
 
 - The following licenses are required to use the features in this article:
 
-  - **[Microsoft 365 E3](https://www.microsoft.com/microsoft-365/enterprise/e3)** or **[Office 365 E3](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3)**
+   - **[Microsoft 365 E3](https://www.microsoft.com/microsoft-365/enterprise/e3)** or **[Office 365 E3](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3)**
 
-    - **[Microsoft Purview](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-purview-service-description)** - Included with your E3 license
+   - **[Microsoft Purview](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-purview-service-description)** - Included with your E3 license
 
-    For a list of the features and services you get with your license, see [Microsoft 365, Office 365, Enterprise Mobility + Security, and Windows 11 Subscriptions](https://aka.ms/M365EnterprisePlans).
+   For a list of the features and services you get with your license, see [Microsoft 365, Office 365, Enterprise Mobility + Security, and Windows 11 Subscriptions](https://aka.ms/M365EnterprisePlans).
 
-  - **[SharePoint Advanced Management](/sharepoint/advanced-management#licensing)**
+   - **[SharePoint Advanced Management](/sharepoint/advanced-management#licensing)**
 
-  - **[Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)**
+   - **[Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)**
 
-    Depending on your subscription plan, you might be able to purchase Microsoft 365 Copilot licenses through the Microsoft 365 admin center <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">**Marketplace**</a> page, Microsoft partners, or your Microsoft account team.
+   Depending on your subscription plan, you might be able to purchase Microsoft 365 Copilot licenses through the Microsoft 365 admin center <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">**Marketplace**</a> page, Microsoft partners, or your Microsoft account team.
 
-    Microsoft 365 Copilot licenses are also available as an add-on to other licensing plans. To learn more, see [Understand licensing for Microsoft 365 Copilot](microsoft-365-copilot-licensing.md).
+   Microsoft 365 Copilot licenses are also available as an add-on to other licensing plans. To learn more, see [Understand licensing for Microsoft 365 Copilot](microsoft-365-copilot-licensing.md).
 
 - This article uses the following admin centers. These admin centers require a specific role to complete the tasks in the article.
 
-  - **[SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219)**: Sign in as the [SharePoint administrator](/sharepoint/sharepoint-admin-role).
-  - **[Microsoft Purview portal](https://purview.microsoft.com)**: There are different roles, depending on the task you need to complete. To learn more, see:
+   - **[SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219)**: Sign in as the [SharePoint administrator](/sharepoint/sharepoint-admin-role).
+   - **[Microsoft Purview portal](https://purview.microsoft.com)**: There are different roles, depending on the task you need to complete. To learn more, see the following articles:
 
-    - [Permissions required to create and manage sensitivity labels](/purview/get-started-with-sensitivity-labels#permissions-required-to-create-and-manage-sensitivity-labels)
-    - [Roles and role groups in Microsoft Defender for Office 365 and Microsoft Purview](/defender-office-365/scc-permissions)
+      - [Permissions required to create and manage sensitivity labels](/purview/get-started-with-sensitivity-labels#permissions-required-to-create-and-manage-sensitivity-labels)
+      - [Roles and role groups in Microsoft Defender for Office 365 and Microsoft Purview](/defender-office-365/scc-permissions)
 
 ## SharePoint admin task - Use SharePoint Advanced Management (SAM) features
 
@@ -90,7 +90,7 @@ RSS is a temporary solution that gives you time to review and configure the corr
 
 - If you enabled RSS, then add more sites to the allowed list. You can add up to 100 sites to the allowed list. Copilot can show data from the allowed list sites in user prompts.
 
-To learn more, see:
+To learn more, see the following articles:
 
 - [Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search)
 - [Curate the allowed list for Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search-allowed-list)
@@ -100,23 +100,27 @@ To learn more, see:
 
 1. Get a list of the sites that you want to add to the allowed list.
 
-    - **Option 1 - Use the Sharing links report**
+   - **Option 1 - Use the Sharing links report**
 
       1. Sign in to the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) as a SharePoint administrator.
+      
       1. Select **Reports** > **Data access governance** > **Sharing links** > **View reports**.
+      
       1. Select one of the reports, like **"Anyone" links**. This report shows a list of sites with the highest number of **Anyone** links created. These links let anyone access files and folders without signing in. These sites are candidates to allow in tenant/org wide search.
 
-    - **Option 2 - Use the sort and filter options for Active sites**
+   - **Option 2 - Use the sort and filter options for Active sites**
 
       1. Sign in to the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) as a SharePoint administrator.
+      
       1. Select **Sites** > **Active sites**.
+      
       1. Use the sort and filter options to find the most active site, including page views. These sites are candidates to allow in a tenant/organization wide search.
 
-          :::image type="content" source="media/microsoft-365-copilot-e3-guide/sharepoint-active-sites-filter.png" alt-text="In SharePoint admin center, select active sites and then use the All sites filter.":::
+         :::image type="content" source="media/microsoft-365-copilot-e3-guide/sharepoint-active-sites-filter.png" alt-text="In SharePoint admin center, select active sites and then use the All sites filter.":::
 
 2. Use the `Add-SPOTenantRestrictedSearchAllowedList` PowerShell cmdlet to add the sites to the allowed list.
 
-    To learn more about this cmdlet, see [Use PowerShell Scripts for Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search-admin-scripts).
+   To learn more about this cmdlet, see [Use PowerShell Scripts for Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search-admin-scripts).
 
 ## Purview admin tasks - Use Microsoft Purview features
 
@@ -135,7 +139,7 @@ To learn more about Microsoft Purview, see [Microsoft 365 Copilot in Microsoft P
 
 [!INCLUDE [copilot-e5-e3-create-apply-sensitivity-labels](./includes/copilot-e5-e3-create-apply-sensitivity-labels.md)]
 
-This section guides you through the steps to create and use sensitivity labels in Microsoft Purview. You create your own label names and configurations. To learn more about sensitivity labels, see:
+This section guides you through the steps to create and use sensitivity labels in Microsoft Purview. You create your own label names and configurations. To learn more about sensitivity labels, see the following articles:
 
 - [Get started with sensitivity labels](/purview/get-started-with-sensitivity-labels)
 - [Use Microsoft Purview to strengthen information protection for Copilot](/purview/ai-microsoft-purview#microsoft-purview-strengthens-information-protection-for-copilot)
@@ -143,11 +147,14 @@ This section guides you through the steps to create and use sensitivity labels i
 #### 1. Create sensitivity labels
 
 1. Sign into the [Microsoft Purview portal](https://purview.microsoft.com/) as an admin in one of the groups listed at [Sensitivity labels - permissions](/purview/get-started-with-sensitivity-labels#permissions-required-to-create-and-manage-sensitivity-labels).
+
 2. Select **Solutions** > **Information protection** > **Sensitivity labels** > **Create a label**.
+
 3. In the scope, select **Files and other data assets**. This scope allows your labels to be applied to documents and emails.
+
 4. Continue creating the sensitivity labels you need.
 
-To learn more, see:
+To learn more, see the following articles:
 
 - [Create and configure sensitivity labels and their policies](/purview/create-sensitivity-labels)
 
@@ -161,13 +168,13 @@ You can apply sensitivity labels to containers, like Microsoft Teams or SharePoi
 
 1. Add your labels to a publishing policy. When they're published, users can manually apply the labels in their Office apps. The publishing policies also have settings that you need to consider, like a default label and requiring users to label their data.
 
-    To learn more, see [Publish sensitivity labels by creating a label policy](/purview/create-sensitivity-labels#publish-sensitivity-labels-by-creating-a-label-policy).
+   To learn more, see [Publish sensitivity labels by creating a label policy](/purview/create-sensitivity-labels#publish-sensitivity-labels-by-creating-a-label-policy).
 
 2. Educate your users and provide guidance on when to apply the correct sensitivity label.
 
-    Users should change a label if needed, especially for more sensitive content.
+   Users should change a label if needed, especially for more sensitive content.
 
-    To help you with this step, see [End-user documentation for sensitivity labels](/purview/get-started-with-sensitivity-labels#end-user-documentation-for-sensitivity-labels).
+   To help you with this step, see [End-user documentation for sensitivity labels](/purview/get-started-with-sensitivity-labels#end-user-documentation-for-sensitivity-labels).
 
 3. Monitor your labels. Select **Information protection** > **Reports**. You can see the usage of your labels.
 
