@@ -33,7 +33,7 @@ This article describes the steps to configure accepted domains for IRR.
 
 - IRR is applied to users that meet the following criteria:
   - The user's primary email address is in the IRR-enabled domain.
-  - The user's PDL aligns with the domain's mail flow region. This alignment ensures that the mail is processed in the same region where the email is stored.
+  - The user's **PreferredDataLocation** aligns with the domain's mail flow region. This alignment ensures that the mail is processed in the same region where the email is stored.
   - The user's **PreferredDataLocation** value must be a three-letter code specified in [Microsoft 365 Multi-Geo availability](microsoft-365-multi-geo.md#microsoft-365-multi-geo-availability), because these regions support IRR.
 
 - IRR requires the following licenses for users:
