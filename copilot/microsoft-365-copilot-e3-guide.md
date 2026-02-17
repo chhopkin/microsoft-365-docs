@@ -209,10 +209,9 @@ This section introduces you to the DLP policy creation process. DLP policies are
 For DLP policies, you can:
 
 - **Test your policies** using [simulation mode](/purview/dlp-test-dlp-policies). Simulation mode allows you to see the effect of an individual policy without enforcing the policy. Use it to find the items that match your policy.
-
 - **Monitor your policies** with alerts and built-in reports, including risky user activities outside of DLP policies.
 
-To learn more, see:
+To learn more, see the following articles:
 
 - [Viewing policy application results](/purview/insider-risk-management-activities)
 - [Get started with the data loss prevention analytics](/purview/dlp-analytics-get-started)
@@ -233,35 +232,35 @@ If you need [exceptions for individual emails or documents](/purview/create-rete
 
 1. To create retention policies, sign into the [Microsoft Purview portal](https://purview.microsoft.com/) as a Compliance Administrator.
 
-    To learn more about the permissions, see [Data Lifecycle Management - Permissions](/purview/get-started-with-data-lifecycle-management#permissions-for-retention-policies-and-retention-labels).
+   To learn more about the permissions, see [Data Lifecycle Management - Permissions](/purview/get-started-with-data-lifecycle-management#permissions-for-retention-policies-and-retention-labels).
 
 2. Select **Solutions** > **Data Lifecycle Management** > **Policies** > **Retention policies**.
 
 3. Select **New retention policy** and follow the instructions.
 
-    Retention policies manage automatic retention and deletion for Microsoft 365 workloads & Microsoft 365 Copilot interactions. To learn more, including the steps to create the policy, see [Create and configure retention policies](/purview/create-retention-policies).
+   Retention policies manage automatic retention and deletion for Microsoft 365 workloads & Microsoft 365 Copilot interactions. To learn more, including the steps to create the policy, see [Create and configure retention policies](/purview/create-retention-policies).
 
 4. Optional. Use retention labels when you need an exception to a retention policy. If you don't need an exception to a retention policy, then you don't need to create a retention label.
 
-    - In **Data Lifecycle Management**, select **Retention labels** > **Create a label**.
+   - In **Data Lifecycle Management**, select **Retention labels** > **Create a label**.
 
-    Follow the configuration instructions. To learn more, including the steps to create the policy, see [How to create retention labels for data lifecycle management](/purview/create-retention-labels-data-lifecycle-management#how-to-create-retention-labels-for-data-lifecycle-management).
+   - Follow the configuration instructions. To learn more, including the steps to create the policy, see [How to create retention labels for data lifecycle management](/purview/create-retention-labels-data-lifecycle-management#how-to-create-retention-labels-for-data-lifecycle-management).
 
-    After you create the retention labels, publish the labels and apply the labels to documents and emails. To learn more, see [Publish retention labels and apply them in apps](/purview/create-apply-retention-labels).
+   - After you create the retention labels, publish the labels and apply the labels to documents and emails. To learn more, see [Publish retention labels and apply them in apps](/purview/create-apply-retention-labels).
 
 5. If you applied retention labels, monitor them to see how they're being used.
 
-    1. Sign into the [Microsoft Purview portal](https://purview.microsoft.com/) as one of the admins listed at [Content explorer - Permissions](/purview/data-classification-content-explorer).
+   1. Sign into the [Microsoft Purview portal](https://purview.microsoft.com/) as one of the admins listed at [Content explorer - Permissions](/purview/data-classification-content-explorer).
 
-    2. Use [content explorer](/purview/data-classification-content-explorer) to get information on the items using retention labels.
+   2. Use [content explorer](/purview/data-classification-content-explorer) to get information on the items using retention labels.
 
-        There are a few ways to open content explorer:
+      There are a few ways to open content explorer:
 
-        - **Data Lifecycle Management** > **Explorers**
-        - **Data Loss Prevention** > **Explorers**
-        - **Information protection** > **Explorers**
+      - **Data Lifecycle Management** > **Explorers**
+      - **Data Loss Prevention** > **Explorers**
+      - **Information protection** > **Explorers**
 
-To learn more, see:
+To learn more, see the following articles:
 
 - [Learn about retention policies and retention labels](/purview/retention)
 - [Common settings for retention policies and retention label policies](/purview/retention-settings)
@@ -278,10 +277,12 @@ When users enter a prompt and get a response from Copilot, you can view and sear
 [eDiscovery](/purview/edisc) uses cases to identify, hold, export, and analyze content found in mailboxes and sites. You can use this feature to analyze Copilot prompts and responses.
 
 1. Sign into the [Microsoft Purview portal](https://purview.microsoft.com/) as an admin in one of the groups [eDiscovery - Permissions](/purview/ediscovery-assign-permissions).
+
 2. Select **Solutions** > **eDiscovery** > **Cases**.
+
 3. Create a **case** and a **search** query. A search query searches in-place content, like email, documents, and instant messaging conversations.
 
-    When you create a search query, you enter the [Data sources that have Copilot data](/purview/edisc-search-copilot-data#data-sources-for-copilot-data).
+   When you create a search query, you enter the [Data sources that have Copilot data](/purview/edisc-search-copilot-data#data-sources-for-copilot-data).
 
 4. The data returned is the Copilot prompts and responses. You can review and export this information. If the data contains sensitive information, you can also delete it.
 
