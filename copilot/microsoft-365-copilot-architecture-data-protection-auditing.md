@@ -122,7 +122,7 @@ Copilot usage data is stored in several places. You can use the tools provided w
 
 The following diagram provides a visual representation of the different features in your Microsoft 365 E5 license that help you search and audit Copilot data.
 
-:::image type="content" source="media/microsoft-365-copilot-architecture-data-protection-auditing/copilot-auditing-tools.svg" alt-text="Diagram that shows the eDiscovery, Communication Compliance, and retention features in Microsoft 365 and how they affect Microsoft 365 Copilot." lightbox="media/microsoft-365-copilot-architecture-data-protection-auditing/copilot-auditing-tools.svg":::
+:::image type="content" source="media/microsoft-365-copilot-architecture-data-protection-auditing/copilot-auditing-tools.png" alt-text="Diagram that shows the eDiscovery, Communication Compliance, and retention features in Microsoft 365 and how they affect Microsoft 365 Copilot." lightbox="media/microsoft-365-copilot-architecture-data-protection-auditing/copilot-auditing-tools.png":::
 
 Let's take a look:
 
