@@ -193,7 +193,7 @@ To configure admin settings for **Researcher agent with Computer Use**, follow t
 
      1. Exclude specific URLs or domains.
 
-   - You can allow **All websites**, block some by using the **Exclude specified** option, or only allow certain sites by using the **Allow specified** option.
+   - You can allow **All websites**, block some websites by using the **Exclude specified** option, or only allow certain sites by using the **Allow specified** option.
 
 ##### Learn more about Researcher with Computer Use
 
@@ -640,7 +640,7 @@ Removing an agent affects its availability and functionality in Copilot and in t
 
 ## Delete agents
 
-You can delete agents directly from the Microsoft 365 admin center. **Delete** permanently removes the agent and its data from the tenant, while **Remove** makes the agent unavailable to users
+You can delete agents directly from the Microsoft 365 admin center. **Delete** permanently removes the agent and its data from the tenant, while **Remove** makes the agent unavailable to users.
 
 When you delete an agent, the following actions occur:
 
@@ -689,7 +689,13 @@ To help administrators manage these scenarios, the Microsoft 365 admin center no
 
 IT administrators can reassign ownership of shared agents that they create within the organization by using Copilot Studio Lite.
 
+> [!IMPORTANT]
+>
+> Reassigning ownership of shared agents is only supported with Agent Builder agents.
+
 #### How it works
+
+To reassign ownership of a shared agent, follow these steps:
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
