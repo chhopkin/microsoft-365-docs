@@ -111,6 +111,7 @@ To learn more, see:
 ### Disable RSS and remove sites from the allowed list
 
 1. Use the `Set-SPOTenantRestrictedSearchMode` PowerShell cmdlet to disable RSS.
+
 1. Use the `Remove-SPOTenantRestrictedSearchAllowedSite` PowerShell cmdlet to remove sites from the allowed list.
 
 To learn more about these cmdlets, see [Use PowerShell Scripts for Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search-admin-scripts).
