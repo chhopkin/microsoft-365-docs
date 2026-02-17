@@ -431,29 +431,29 @@ If you need [exceptions for individual emails or documents](/purview/create-rete
 
 5. If you applied retention labels, monitor them to see how they're being used.
 
-    1. Sign into the [Microsoft Purview portal](https://purview.microsoft.com/) as one of the admins listed at:
+   1. Sign into the [Microsoft Purview portal](https://purview.microsoft.com/) as one of the admins listed at:
 
-        - [Content explorer - Permissions](/purview/data-classification-content-explorer)
-        - [Activity explorer - Permissions](/purview/data-classification-activity-explorer#permissions)
+      - [Content explorer - Permissions](/purview/data-classification-content-explorer)
+      - [Activity explorer - Permissions](/purview/data-classification-activity-explorer#permissions)
 
-    2. Use [Content explorer](/purview/data-classification-content-explorer) to get information on the items using retention labels.
+   2. Use [Content explorer](/purview/data-classification-content-explorer) to get information on the items using retention labels.
 
-        There are a few ways to open Content Explorer:
+      There are a few ways to open Content Explorer:
 
-        - **Data Loss Prevention** > **Explorers**
-        - **Records Management** > **Explorers**
-        - **Information protection** > **Explorers**
+      - **Data Loss Prevention** > **Explorers**
+      - **Records Management** > **Explorers**
+      - **Information protection** > **Explorers**
 
-    3. Use [activity explorer](/purview/data-classification-activity-explorer) to get a historical view of activities on your content that has retention labels. There are different filters you can use.
+   3. Use [activity explorer](/purview/data-classification-activity-explorer) to get a historical view of activities on your content that has retention labels. There are different filters you can use.
 
-        There are a few ways to open activity explorer:
+      There are a few ways to open activity explorer:
 
-        - **Data Lifecycle Management** > **Explorers**
-        - **Records Management** > **Explorers**
-        - **Data Loss Prevention** > **Explorers**
-        - **Information protection** > **Explorers**
+      - **Data Lifecycle Management** > **Explorers**
+      - **Records Management** > **Explorers**
+      - **Data Loss Prevention** > **Explorers**
+      - **Information protection** > **Explorers**
 
-To learn more, see:
+To learn more, see the following articles:
 
 - [Learn about retention policies and retention labels](/purview/retention)
 - [Common settings for retention policies and retention label policies](/purview/retention-settings)
@@ -472,22 +472,22 @@ These policies monitor and evaluate prompts and responses with Copilot.
 
 2. Select **Solutions** > **Communication Compliance** > **Overview**.
 
-    If there are some required steps listed, then complete them. To learn more about these steps, see [Set up and create communication compliance policy](/purview/communication-compliance-configure).
+   If there are some required steps listed, then complete them. To learn more about these steps, see [Set up and create communication compliance policy](/purview/communication-compliance-configure).
 
 3. For the predefined policies, select **Create policy** > **Detect Microsoft 365 Copilot interactions**:
 
-    :::image type="content" source="media/microsoft-365-copilot-e5-guide/purview-communication-compliance-default-policy.png" alt-text="In Microsoft Purview Communication Compliance, create the detect Microsoft 365 Copilot interactions policy.":::
+   :::image type="content" source="media/microsoft-365-copilot-e5-guide/purview-communication-compliance-default-policy.png" alt-text="In Microsoft Purview Communication Compliance, create the detect Microsoft 365 Copilot interactions policy." lightbox="media/microsoft-365-copilot-e5-guide/purview-communication-compliance-default-policy.png":::
 
-    This Copilot policy helps you get started. There are also other predefined templates you can use. At any time, you can also create your own custom policies.
+   This Copilot policy helps you get started. There are also other predefined templates you can use. At any time, you can also create your own custom policies.
 
-    To learn more, see:
+   To learn more, see the following articles:
 
-    - [Configure a communication compliance policy to detect for Copilot interactions](/purview/communication-compliance-copilot)
-    - [Create and manage communication compliance policies](/purview/communication-compliance-policies)
+   - [Configure a communication compliance policy to detect for Copilot interactions](/purview/communication-compliance-copilot)
+   - [Create and manage communication compliance policies](/purview/communication-compliance-policies)
 
 4. Monitor your policies. Regularly review the policy reports and audit logs to see any policy matches & resolved items, including activity by users.
 
-    To learn more, see [Use communication compliance reports and audits](/purview/communication-compliance-reports-audits).
+   To learn more, see [Use communication compliance reports and audits](/purview/communication-compliance-reports-audits).
 
 To learn more, see:
 
@@ -512,11 +512,14 @@ There are two ways to review and analyze Copilot prompts and responses - **Data 
 [Data Security Posture Management (DSPM) for AI](/purview/ai-microsoft-purview#microsoft-purview-ai-hub-provides-insights-policies-and-controls-for-ai-apps) (previously called AI Hub) is a central location in the Microsoft Purview portal that proactively monitors AI use. It includes eDiscovery and you can use it to analyze and review Copilot prompts and responses.
 
 1. Sign into the [Microsoft Purview portal](https://purview.microsoft.com/) as an admin in one of the groups listed at [Data Security Posture Management for AI - Permissions](/purview/ai-microsoft-purview-permissions).
+
 2. Select **Solutions** > **DSPM for AI** > **Activity explorer**.
+
 3. Select an existing activity in the list. For example, if there's a **Sensitive info types** activity, select it.
+
 4. Select **View related AI interaction activity**. In **Interaction details**, you can see the app, and the prompt & response. You can also export an activity.
 
-To learn more, see:
+To learn more, see the following articles:
 
 - [Microsoft Purview Data Security Posture Management for AI](/purview/ai-microsoft-purview-considerations)
 - [Data Security Posture Management for AI - Activity explorer events](/purview/ai-microsoft-purview-considerations#activity-explorer-events)
@@ -526,10 +529,12 @@ To learn more, see:
 [eDiscovery](/purview/edisc) uses cases to identify, hold, export, and analyze content found in mailboxes and sites. You can this feature to analyze Copilot prompts and responses, and delete Copilot data.
 
 1. Sign into the [Microsoft Purview portal](https://purview.microsoft.com/) as an admin in one of the groups [eDiscovery - Permissions](/purview/ediscovery-assign-permissions).
+
 2. Select **Solutions** > **eDiscovery** > **Cases**.
+
 3. Create a **case** and a **search** query. A search query searches in-place content, like email, documents, and instant messaging conversations.
 
-    When you create a search query, you enter the [Data sources that have Copilot data](/purview/edisc-search-copilot-data#data-sources-for-copilot-data).
+   When you create a search query, you enter the [Data sources that have Copilot data](/purview/edisc-search-copilot-data#data-sources-for-copilot-data).
 
 4. The data returned is the Copilot prompts and responses. You can review and export this information. If the data contains sensitive information, you can also delete it.
 
