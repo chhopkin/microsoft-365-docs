@@ -361,8 +361,8 @@ To learn more, see [Adaptive Protection policies](/purview/insider-risk-manageme
 
    To learn more, see the following articles:
 
-      - [Viewing policy application results](/purview/insider-risk-management-activities)
-      - [Get started with the data loss prevention analytics](/purview/dlp-analytics-get-started)
+   - [Viewing policy application results](/purview/insider-risk-management-activities)
+   - [Get started with the data loss prevention analytics](/purview/dlp-analytics-get-started)
 
 - When you enable Adaptive Protection and your policies are configured, you can get:
    - Policy metrics
