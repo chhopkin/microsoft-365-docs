@@ -79,7 +79,7 @@ After using Copilot Tuning to create a task-specific, organization-specific agen
 
 ## Related content
 
-- [Transparency Note for Microsoft 365 Copilot](../microsoft-365-copilot-transparency-note.md)
+- [Application card: Microsoft 365 Copilot](../microsoft-365-copilot-application-card.md)
 - [Microsoft 365 Copilot Tuning overview (preview)](../copilot-tuning-overview.md)
 - [Microsoft AI principles](https://www.microsoft.com/ai/responsible-ai)
 - [Microsoft responsible AI resources](https://www.microsoft.com/ai/responsible-ai-resources)
