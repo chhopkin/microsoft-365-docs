@@ -32,7 +32,7 @@ items:
       href: pay-as-you-go/overview.md
     - name: Meters for pay-as-you-go
       href: pay-as-you-go/meters.md
-  - name: Data, Privacy, and Security
+  - name: Data, Privacy, Security, and Responsible AI
     items:
     - name: Data, privacy, and security for Microsoft 365 Copilot
       href: microsoft-365-copilot-privacy.md
@@ -48,8 +48,8 @@ items:
       href: /security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     - name: Enterprise data protection
       href: enterprise-data-protection.md
-    - name: Transparency Note
-      href: microsoft-365-copilot-transparency-note.md
+    - name: Application card for Microsoft 365 Copilot
+      href: microsoft-365-copilot-application-card.md
     - name: Privacy and protections
       href: /copilot/privacy-and-protections?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     - name: Copilot in Microsoft Edge
