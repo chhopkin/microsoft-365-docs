@@ -116,7 +116,7 @@ To learn more, see the following articles:
       
       1. Use the sort and filter options to find the most active site, including page views. These sites are candidates to allow in a tenant/organization wide search.
 
-         :::image type="content" source="media/microsoft-365-copilot-e3-guide/sharepoint-active-sites-filter.png" alt-text="In SharePoint admin center, select active sites and then use the All sites filter.":::
+         :::image type="content" source="media/microsoft-365-copilot-e3-guide/sharepoint-active-sites-filter.png" alt-text="In SharePoint admin center, select active sites and then use the All sites filter." lightbox="media/microsoft-365-copilot-e3-guide/sharepoint-active-sites-filter.png":::
 
 2. Use the `Add-SPOTenantRestrictedSearchAllowedList` PowerShell cmdlet to add the sites to the allowed list.
 
