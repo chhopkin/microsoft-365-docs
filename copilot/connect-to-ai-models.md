@@ -36,13 +36,13 @@ When your organization chooses to use an xAI model, your organization is choosin
 
 ## Before you begin
 
-Before users in your organization can use xAI, they need to be assigned a [Microsoft 365 Copilot license](../microsoft-365/admin/manage/assign-licenses-to-users.md).
+Before users in your organization can use xAI, they need to be assigned a [Microsoft 365 Copilot license](https://learn.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ## Connect to xAI in the Microsoft 365 Admin Center
 
 Before your organization can connect to xAI AI models, you must allow access in the Microsoft 365 admin center.
 
-You have to be a member of the Global administrator role to perform this task. For more information, see [About admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles).
+You have to be a member of the Global administrator role to perform this task. For more information, see [About admin roles](../microsoft-365/admin/add-users/about-admin-roles.md) .
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/) and select **Copilot** -\> **Settings**.
 2. On the **Settings** page, select **All**.
@@ -54,7 +54,7 @@ After you connect, it may take a few hours for the connection to complete.
 
 ## Controls for Copilot Studio in the Microsoft Power Platform Admin Center
 
-Once enabled in the Microsoft 365 admin center, additional administrator controls are available in the Microsoft Power Platform admin center (PPAC) to allow xAI to be used in Copilot Studio. For more information, see [Allow external large language models (LLMs) for generative responses](https://docs.microsoft.com/power-platform/admin/allow-external-large-language-models).
+Once enabled in the Microsoft 365 admin center, additional administrator controls are available in the Microsoft Power Platform admin center (PPAC) to allow xAI to be used in Copilot Studio. For more information, see [Allow external large language models (LLMs) for generative responses](/power-platform/admin/allow-llm-generative-responses).
 
 ## Disable Connection to xAI
 
