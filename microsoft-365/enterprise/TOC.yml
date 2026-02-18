@@ -335,23 +335,23 @@ items:
                   href: delete-a-geo-location.md
         - name: Service Data Residency Capabilities
           items:
-            - name: Data Residency for Exchange Online
+            - name: Exchange Online
               href: m365-dr-service-exo.md
-            - name: Data Residency for SharePoint and OneDrive
+            - name: SharePoint and OneDrive
               href: m365-dr-service-spo.md
-            - name: Data Residency for Microsoft Teams
+            - name: Microsoft Teams
               href: m365-dr-service-teams.md
-            - name: Data Residency for Microsoft 365 Copilot and Copilot Chat
+            - name: Microsoft 365 Copilot and Copilot Chat
               href: m365-dr-service-copilot.md
-            - name: Data Residency for Microsoft Defender for Office P1
+            - name: Microsoft Defender for Office P1
               href: m365-dr-service-mdo-p1.md
-            - name: Data Residency for Microsoft 365 web apps (formerly "Office for the Web")
+            - name: Microsoft 365 web apps (formerly "Office for the Web")
               href: m365-dr-service-m365-web-apps.md
-            - name: Data Residency for Viva Connections
+            - name: Viva Connections
               href: m365-dr-service-viva-connections.md
-            - name: Data Residency for Microsoft Purview
+            - name: Microsoft Purview
               href: m365-dr-service-purview.md
-            - name: Data Residency for Other Microsoft 365 Services
+            - name: Other Services
               href: m365-dr-service-other.md
         - name: Data Location
           items:
