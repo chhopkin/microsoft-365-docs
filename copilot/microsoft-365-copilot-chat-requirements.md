@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: efrene 
 author: efrene
 manager: scotv
-ms.date: 02/12/2026
+ms.date: 02/18/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -30,7 +30,7 @@ This document outlines the minimum technical and licensing requirements for usin
 
 ## Minimum requirements
 
-| Category | Required | Recommended |
+| Category | Required | Strongly Recommended |
 |---|---|---|
 | Eligible Microsoft 365 license | ✅ | |
 | Entra ID (Azure AD account) | ✅ | |
@@ -57,7 +57,7 @@ Copilot Chat is only available to you in eligible Microsoft 365 licenses.
 For more detailed information about licenses that include Copilot Chat, see [Microsoft 365 Copilot Chat eligibility](/copilot/manage#microsoft-365--chat-eligibility).
 
 ### Sign-in requirements
-Before your users can use Microsoft Copilot Chat, they must have a Microsoft Entra ID (Azure AD) account. 
+Before your users can use Microsoft Copilot Chat, they must have a [Microsoft Entra ID (Azure AD)](/entra/fundamentals/what-is-entra) account. 
 
 ### Turn on web search for Copilot Chat
 When web search is enabled, Microsoft 365 Copilot Chat may fetch information from the Bing search service when information from the web helps to provide a better, more grounded response. IT admins can control access to web search by using the Allow web search in Copilot policy, which is available only in [Cloud Policy service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy). 
