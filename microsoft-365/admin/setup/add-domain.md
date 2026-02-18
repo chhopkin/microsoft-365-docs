@@ -1,25 +1,25 @@
 ---
-title: Add a domain to Microsoft 365
+title: Add a Custom Domain to Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: 02/13/2026
+ms.date: 02/17/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
 ms.subservice: m365-domains
 ms.localizationpriority: medium
 ms.collection:
-- Tier2
-- scotvorg
-- highpri
-- M365-subscription-management
-- Adm_O365_Setup
-- Adm_O365
-- Adm_TOC
-- operations-pod
+  - Tier2
+  - scotvorg
+  - highpri
+  - M365-subscription-management
+  - Adm_O365_Setup
+  - Adm_O365
+  - Adm_TOC
+  - operations-pod
 ms.custom:
 - VSBFY23
 - adminvideo
@@ -35,28 +35,28 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
-description: "Use the setup wizard to add your domain to Microsoft 365 in the Microsoft 365 admin center by adding a DNS record at your DNS host."
+description: Learn how to add a custom domain to Microsoft 365 and configure DNS records using Domain Connect or manual setup. Personalize your organization's email today.
+#customer intent: As an admin, I want to add a custom domain to Microsoft 365 so that my organization can use a personalized email address.
 ---
 
-# Add a domain to Microsoft 365
+# Add a custom domain to Microsoft 365
 
 Microsoft recommends using a custom domain name for your organization. A custom domain improves brand recognition, email deliverability, and user trust. Many organizations also add multiple domains to support alternate company names or common variations.
 
-This article explains how to add a custom domain to Microsoft 365 and configure the DNS records required by Microsoft 365 services. You can complete this process automatically using [**Domain Connect**](#domain-connect) (recommended) or manually if your registrar doesn't support **Domain Connect**.
-
+This article explains how to add a custom domain to Microsoft 365 and configure the DNS records required by Microsoft 365 services. You can complete this process automatically by using [**Domain Connect**](#domain-connect) (recommended) or manually if your registrar doesn't support **Domain Connect**.
 
 ## Domain Connect
 
-Microsoft 365 supports registrars that are [**Domain Connect**](https://www.domainconnect.org/) enabled when adding a custom domain. With **Domain Connect**, the following tasks are automatically handled by Microsoft 365:
+When you add a custom domain, Microsoft 365 supports registrars that are [**Domain Connect**](https://www.domainconnect.org/) enabled. By using **Domain Connect**, Microsoft 365 automatically handles the following tasks:
 
 - Confirming domain ownership.
 - Adding DNS records required for Microsoft 365 services.
 
-If a registrar doesn't support **Domain Connect**, domain ownership and adding DNS records need to be performed manually by signing into your registrar and manually adding the appropriate DNS records.
+If a registrar doesn't support **Domain Connect**, you need to manually confirm domain ownership and add DNS records. Sign in to your registrar and manually add the appropriate DNS records.
 
-To find your registrar, see [Find your domain registrar](../get-help-with-domains/find-your-domain-registrar.md). Once your registrar is determined, consult with the registrar to see if they support **Domain Connect**.
+To find your registrar, see [Find your domain registrar](../get-help-with-domains/find-your-domain-registrar.md). Once you determine your registrar, consult with the registrar to see if they support **Domain Connect**.
 
-Microsoft 365 services start working after these tasks are completed. Examples of Microsoft 365 services include:
+Microsoft 365 services start working after you complete these tasks. Examples of Microsoft 365 services include:
 
 - Email through Microsoft 365.
 - Microsoft Teams.
@@ -69,11 +69,11 @@ Before adding a custom domain to Microsoft 365, make sure the following requirem
 
 - To add, modify, or remove domains, you **must** be a **Domain Name Administrator** of a [business or enterprise plan](https://products.office.com/business/office). Because these changes affect the whole tenant, *customized administrators* or *regular users* can't make these changes.
 
-- If using Microsoft 365 for email, add users and set up mailboxes in Microsoft 365 for all email users on your domain. Adding users should be done after adding the custom domain but before adding an MX record for Microsoft 365. Adding users before setting up the MX record ensures that email continues to work without interruption as the email moves from the previous email provider to Microsoft 365.
+- If you're using Microsoft 365 for email, add users and set up mailboxes in Microsoft 365 for all email users on your domain. Add users after adding the custom domain but before adding an MX record for Microsoft 365. Adding users before setting up the MX record ensures that email continues to work without interruption as the email moves from the previous email provider to Microsoft 365.
 
 - Determine if your registrar supports [**Domain Connect**](#domain-connect).
 
-## Watch: Add a domain
+## Watch: Add a custom domain to Microsoft 365
 
 Check out this video and others on our [YouTube channel](https://go.microsoft.com/fwlink/?linkid=2198213).
 
@@ -92,25 +92,25 @@ To add a custom domain to Microsoft 365, select the tab based on your registrar'
 
 ### [:::image type="icon" source="/autopilot/images/icons/software-18.svg"::: **Domain Connect**](#tab/domain-connect)
 
-To add a custom domain to Microsoft 365 using [**Domain Connect**](#domain-connect), follow these steps:
+To add a custom domain to Microsoft 365 by using [**Domain Connect**](#domain-connect), follow these steps:
 
-1. Sign into [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+1. Sign in to [Microsoft 365 admin center](https://admin.cloud.microsoft/).
 
-1. In the Microsoft 365 admin center there are two different ways to start the process of adding a custom domain to Microsoft 365:
+1. In the Microsoft 365 admin center, you can start the process of adding a custom domain to Microsoft 365 in two different ways:
 
     - First time adding a custom domain to Microsoft 365:
 
-      1. From the left navigation bar, select **… Show all**, and then select [**Setup**](https://go.microsoft.com/fwlink/p/?linkid=2171997).
+      1. From the left navigation bar, select **… Show all**, and then select [**Setup**](https://admin.cloud.microsoft/?#/featureexplorer).
 
       1. In the **Setup** page, under **Sign-in and security**, select **Get your custom domain set up**.
 
       1. In the **Get your custom domain set up** page, select **Get Started**.
 
-    - Add a custom domain, add additional custom domains, or continue setting up a domain:
+    - Add a custom domain, add extra custom domains, or continue setting up a domain:
 
       1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
-      1. Under **Settings**, select [**Domains**](https://go.microsoft.com/fwlink/p/?linkid=834818).
+      1. Under **Settings**, select [**Domains**](https://admin.cloud.microsoft/?#/Domains).
 
       1. In the **Domains** page, select **+ Add domain**.
 
@@ -118,16 +118,16 @@ To add a custom domain to Microsoft 365 using [**Domain Connect**](#domain-conne
 
 1. In the **Verify you own your domain** page, make sure the name of the displayed registrar is correct and then select **Verify**. If your domain is registered at a different registrar than what is displayed, select **choose a different domain host**. After selecting the proper registrar, select **Verify**.
 
-1. A new window from your registrar opens. Sign into the registrar and then authorize to add the TXT DNS record.
+1. A new window from your registrar opens. Sign in to the registrar and then authorize to add the TXT DNS record.
 
     > [!NOTE]
     >
-    > In order for the new window from the registrar to appear, make sure of one of the following two items:
+    > To make the new window from the registrar appear, make sure of one of the following two items:
     >
     > - Pop-up blockers are disabled.
-    > - The registrar's URL is added to the pop-up blocker's allow list. For more information on allowing pop-ups with Microsoft Edge, see [Block pop-ups in Microsoft Edge](https://support.microsoft.com/microsoft-edge/1d8ba4f8-f385-9a0b-e944-aa47339b6bb5).
+        > - The registrar's URL is added to the pop-up blocker's allow list. For more information on allowing pop-ups when using Microsoft Edge, see [Block pop-ups in Microsoft Edge](https://support.microsoft.com/microsoft-edge/1d8ba4f8-f385-9a0b-e944-aa47339b6bb5).
 
-1. Once the TXT DNS record is added and domain ownership is verified, you're returned back to the Microsoft 365 admin center window.
+1. After you add the TXT DNS record and verify domain ownership, you're returned to the Microsoft 365 admin center window.
 
 1. In the **How do you want to connect your domain** page, select **Continue**.
 
@@ -135,36 +135,36 @@ To add a custom domain to Microsoft 365 using [**Domain Connect**](#domain-conne
 
 1. A new window from your registrar opens showing the DNS records that are going to be added. Verify that the DNS records are correct, and then authorize the DNS records to be added.
 
-1. Once the DNS records are added, you're returned back to the Microsoft 365 admin center window.
+1. After you add the DNS records, you're returned to the Microsoft 365 admin center window.
 
 1. The **Domain setup is complete** page displays. Select **Done** to complete adding your custom domain and DNS records to Microsoft 365.
 
 ### [:::image type="icon" source="/autopilot/images/icons/software-18.svg"::: **Manual**](#tab/manual)
 
-If a registrar doesn't support [**Domain Connect**](#domain-connect), the following tasks need to be manually performed:
+If a registrar doesn't support [**Domain Connect**](#domain-connect), manually perform the following tasks:
 
 - Verify domain ownership by using DNS records or a verification file uploaded to your website.
-- DNS records for Microsoft 365 services need to be manually added.
+- Manually add DNS records for Microsoft 365 services.
 
 To add a custom domain to Microsoft 365 by manually verifying domain ownership and manually adding DNS records, follow these steps:
 
-1. Sign into [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+1. Sign in to [Microsoft 365 admin center](https://admin.cloud.microsoft/).
 
-1. In the Microsoft 365 admin center there are two different ways to start the process of adding a custom domain to Microsoft 365:
+1. In the Microsoft 365 admin center, you can start the process of adding a custom domain to Microsoft 365 in two different ways:
 
     - First time adding a custom domain to Microsoft 365:
 
-      1. From the left navigation bar, select **… Show all**, and then select [**Setup**](https://go.microsoft.com/fwlink/p/?linkid=2171997).
+      1. From the left navigation bar, select **… Show all**, and then select [**Setup**](https://admin.cloud.microsoft/?#/featureexplorer).
 
       1. In the **Setup** page, under **Sign-in and security**, select **Get your custom domain set up**.
 
       1. In the **Get your custom domain set up** page, select **Get Started**.
 
-    - Add a custom domain, add additional custom domains, or continue setting up a domain:
+    - Add a custom domain, add extra custom domains, or continue setting up a domain:
 
       1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
-      1. Under **Settings**, select [**Domains**](https://go.microsoft.com/fwlink/p/?linkid=834818).
+      1. Under **Settings**, select [**Domains**](https://admin.cloud.microsoft/?#/Domains).
 
       1. In the **Domains** page, select **+ Add domain**.
 
@@ -182,19 +182,19 @@ To add a custom domain to Microsoft 365 by manually verifying domain ownership a
 
         Microsoft confirms you own the domain by finding the file on your website.
 
-1. After an option is selected, select **Continue**.
+1. After you select an option, select **Continue**.
 
 1. Instructions specific to the selected option appear:
 
-   - The **Add a record to verify ownership** page appears if one of the first two options is selected. The page contains instructions on what DNS records to add at your registrar to verify domain ownership. For detailed instructions on adding DNS records at your registrar, refer to the registrar's documentation and instructions.
+   - The **Add a record to verify ownership** page appears if you select one of the first two options. The page contains instructions on what DNS records to add at your registrar to verify domain ownership. For detailed instructions on adding DNS records at your registrar, refer to the registrar's documentation and instructions.
 
         > [!WARNING]
         >
-        > If using the option **If you can't add a TXT record, add an MX record to the domain's DNS records**, make sure to set the **Priority** field of the MX record to a high value so that it doesn't break email with your current email provider.
+        > If you use the option **If you can't add a TXT record, add an MX record to the domain's DNS records**, make sure to set the **Priority** field of the MX record to a high value so that it doesn't break email with your current email provider.
 
-   - If the **Add a text file to the domain's website** is selected, instructions appear on the **Verify you own this domain** page that explains how to add a file to your website to verify domain ownership. For detailed instructions on adding files to your website, refer to the web hosting provider's documentation and instructions.
+   - If you select the **Add a text file to the domain's website** option, instructions appear on the **Verify you own this domain** page that explains how to add a file to your website to verify domain ownership. For detailed instructions on adding files to your website, refer to the web hosting provider's documentation and instructions.
 
-1. Once the selected option is completed, select **Verify**. Domain ownership verification occurs.
+1. Once you complete the selected option, select **Verify**. Domain ownership verification occurs.
 
 1. Once domain ownership verification completes, the **How do you want to connect your domain** appears. Select **Continue**.
 
@@ -202,9 +202,9 @@ To add a custom domain to Microsoft 365 by manually verifying domain ownership a
     >
     > If you select **More options** instead of **Continue**, select **Add your own DNS records**, and then select **Continue**.
 
-1. The **Add DNS records** page contains instructions on what DNS records need to be added at your registrar. Select the Microsoft 365 services that you need DNS records for and then expand each DNS record type for detailed information on the format of the DNS record. Make sure to also expand **Advanced options** to view additional Microsoft 365 services that might need DNS records.
+1. The **Add DNS records** page contains instructions on what DNS records you need to add at your registrar. Select the Microsoft 365 services that you need DNS records for and then expand each DNS record type for detailed information on the format of the DNS record. Make sure to also expand **Advanced options** to view additional Microsoft 365 services that might need DNS records.
 
-1. In a separate browser window or tab, sign into your registrar and then manually add the required DNS records from the previous step. For detailed instructions on adding DNS records at your registrar, refer to the registrar's documentation and instructions.
+1. In a separate browser window or tab, sign in to your registrar and then manually add the required DNS records from the previous step. For detailed instructions on adding DNS records at your registrar, refer to the registrar's documentation and instructions.
 
     > [!TIP]
     >
@@ -215,7 +215,7 @@ To add a custom domain to Microsoft 365 by manually verifying domain ownership a
     > - **Domain Manager**.
     > - **DNS Manager**.
 
-1. Once the DNS records are manually added at the registrar, switch back to the web browser window or tab with the Microsoft 365 admin center, and then select **Continue**.
+1. Once you add the DNS records at the registrar, switch back to the web browser window or tab with the Microsoft 365 admin center, and then select **Continue**.
 
 1. The **Domain setup is complete** page displays. Select **Done** to complete adding your custom domain and DNS records to Microsoft 365.
 
@@ -233,13 +233,13 @@ If you have a website that you use with your business, it keeps working where it
 
 ## Add or edit DNS records
 
-If Microsoft 365 hosts the domain instead of a non-Microsoft registrar, the following steps can be used to add DNS records for items such as a website or non-Microsoft services. If the domain is hosted at a non-Microsoft registrar, consult with the registrar's documentation and instructions on how to add DNS records.
+If Microsoft 365 hosts the domain instead of a non-Microsoft registrar, use the following steps to add DNS records for items such as a website or non-Microsoft services. If a non-Microsoft registrar hosts the domain, consult the registrar's documentation and instructions on how to add DNS records.
 
-1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
+1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
-1. Under **Settings**, select [**Domains**](https://go.microsoft.com/fwlink/p/?linkid=834818).
+1. Under **Settings**, select [**Domains**](https://admin.cloud.microsoft/?#/Domains).
 
 1. In the **Domains** page, select a domain.
 
@@ -249,9 +249,9 @@ If Microsoft 365 hosts the domain instead of a non-Microsoft registrar, the foll
 
     > [!NOTE]
     >
-    > If **+ Add records** isn't available, the domain is hosted at a non-Microsoft registrar. The page displays what registrar the domain is hosted at next to **To manage DNS records for *domain*, go to your DNS hosting provider:**. Consult with the non-Microsoft registrar's documentation and instructions on how to add DNS records.
+    > If **+ Add records** isn't available, a non-Microsoft registrar hosts the domain. The page displays the registrar next to **To manage DNS records for *domain*, go to your DNS hosting provider:**. Consult the non-Microsoft registrar's documentation and instructions on how to add DNS records.
 
-1. In the **Add a custom DNS record** pane that opens, select the type of DNS record to add (A, CNAME, MX, TXT, SRV, etc.), and then fill out the related fields for the selected type of DNS record. Once all of the fields are properly filled out, select **Save** to create the DNS record.
+1. In the **Add a custom DNS record** pane that opens, select the type of DNS record to add (A, CNAME, MX, TXT, SRV, and so on), and then fill out the related fields for the selected type of DNS record. Once you fill out all of the fields, select **Save** to create the DNS record.
 
 1. The newly created record should appear under **Custom records**.
 

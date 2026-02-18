@@ -1,0 +1,26 @@
+name: (Scheduled) Auto issue assign
+
+permissions:
+  issues: write
+      
+on:
+ # schedule:
+ #   - cron: "0 9 1 * *"
+
+  workflow_dispatch:
+  
+
+jobs:
+
+  stale-branch:
+    if: github.repository_owner == 'MicrosoftDocs'
+    uses: MicrosoftDocs/max-cpub-test/.github/workflows/Shared-AutoIssueAssign.yml@main
+    with:
+        PayloadJson: ${{ toJSON(github) }}
+        ExcludedUserList: '["user1", "user2"]'
+
+        
+    secrets:
+        AccessToken: ${{ secrets.GITHUB_TOKEN }}
+        PrivateKey: ${{ secrets.M365_APP_PRIVATE_KEY }}
+        ClientId: ${{ secrets.M365_APP_CLIENT_ID }}
