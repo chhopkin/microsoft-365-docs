@@ -26,7 +26,7 @@ description: "Learn how to send messages to your organization in Microsoft 365 u
 
 # Organizational messages in the Microsoft 365 admin center
 
-As an admin, you can now connect with your organization through customized messages using organizational messages, available in the Microsoft 365 admin center under **Reports**. You can now create and manage messages, and review delivery reports, all from a central location. Organizational Messages enhance in-product experiences. They support remote and hybrid work scenarios, such as providing educational materials for employees, information on Microsoft 365 service or license availability, and updates on organizational initiatives. To streamline your outreach within Microsoft products, use the power of organizational messages in the Microsoft 365 admin center .
+As an admin, you can now connect with your organization through customized messages using organizational messages, available in the Microsoft 365 admin center under **Reports**. You can now create and manage messages, and review delivery reports, all from a central location. Organizational Messages enhance in-product experiences. They support remote and hybrid work scenarios, such as providing educational materials for employees, information on Microsoft 365 service or license availability, and updates on organizational initiatives. To streamline your outreach within Microsoft products, use the power of organizational messages in the Microsoft 365 admin center.
 
 To get started, go to [organizational messages in the Microsoft 365 admin center](https://aka.ms/organizationalmessagesportal).
 
@@ -227,7 +227,7 @@ This advanced targeting in organizational messages can be enabled using the foll
 
 ### How to create a message by copying an existing message
 
-1. Go the Manage experience and find a message you want to use as a starting point.
+1. Go to the Manage experience and find a message you want to use as a starting point.
 
 2. Select the **Copy** function.
 
