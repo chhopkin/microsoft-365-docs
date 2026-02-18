@@ -58,15 +58,11 @@ If you have not yet added the following prerequisites to the tenants, you will b
 
 For both tenants, perform the following steps:
 
-1. Download the CrossTenantMigration NuGet package: <ADD XXXXXXXXXXXXXXXXXXXX>
+1. Download the CrossTenantMigration module: <ADD XXXXXXXXXXXXXXXXXXXX>
 
-1. Expand the CrossTenantMigration NuGet package and import the modules. 
+1. Expand-Archive CrossTenantMigration<version number>
 
-
-```powershell
-Expand-Archive ".\CrossTenantMigration.<VERSION>.nupkg" -PassThru -Force `
-    | sort Directory | select -f 1 | % { ipmo "$($_.DirectoryName)/CrossTenantMigration" -Force }
-```
+1. Import the CrossTenantMigration module. Run `Import-Module CrossTenantMigration<versionnumber>/CrossTenantMigration`
 
 1. Set up the Cross-Tenant Migration Service Application on the **target tenant only**. Run `Grant-CTMSAppPermissions`
 
