@@ -1,11 +1,11 @@
 ---
-title: Connect your domain by adding DNS records
+title: Connect Your Domain by Adding DNS Records
 f1.keywords:
 - CSH
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: 02/13/2026
+ms.date: 02/17/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -22,8 +22,8 @@ ms.collection:
   - operations-pod
 search.appverid:
 - MET150
-description: Connect a domain from any registrar in Microsoft 365 by verifying your domain and updating the DNS records in your registrars account.
-#customer intent: Connect a domain from any registrar to Microsoft 365
+description: Learn how to connect your custom domain to Microsoft 365 by verifying domain ownership and adding DNS records at your registrar. Set up email and other services today.
+#customer intent: As an admin, I want to connect my domain to Microsoft 365 so that I can use custom email addresses for my organization.
 ms.custom:
 - VSBFY23
 - okr_smb
@@ -35,7 +35,7 @@ ms.custom:
 
 # Connect your domain by adding DNS records
 
-If you purchased a domain from a non-Microsoft registrar, you can connect it to Microsoft 365 by updating the DNS records at your registrar. After DNS records are added at your registrar, your domain stays registered with the registrar that you purchased the domain from. However, Microsoft 365 can use the domain for its various services such as your domain email addresses.
+If you purchased a domain from a non-Microsoft registrar, you can connect it to Microsoft 365 by updating the DNS records at your registrar. After you add DNS records at your registrar, your domain stays registered with the registrar that you purchased the domain from. However, Microsoft 365 can use the domain for its various services such as your domain email addresses.
 
 > [!NOTE]
 >
@@ -49,14 +49,14 @@ For more information on domains, see [Domains FAQ](../setup/domains-faq.yml).
 
 ## Registrars and Domain Connect
 
-Before your domain is connected to Microsoft 365 by adding DNS records, the registrar that hosts your domain needs to be determined. Additionally, you need to determine if your registrar supports [**Domain Connect**](https://www.domainconnect.org/). **Domain Connect** allows the following tasks to be automatically performed by Microsoft 365:
+Before you connect your domain to Microsoft 365 by adding DNS records, you need to determine the registrar that hosts your domain. Additionally, you need to determine if your registrar supports [**Domain Connect**](https://www.domainconnect.org/). **Domain Connect** allows Microsoft 365 to automatically perform the following tasks:
 
-- Confirming domain ownership.
-- Adding DNS records required for Microsoft 365 services.
+- Confirm domain ownership.
+- Add DNS records required for Microsoft 365 services.
 
-If a registrar doesn't support **Domain Connect**, domain ownership and adding DNS records need to be performed manually by signing into your registrar and manually adding the appropriate DNS records.
+If a registrar doesn't support **Domain Connect**, you need to manually confirm domain ownership and add DNS records by signing in to your registrar and manually adding the appropriate DNS records.
 
-To find your registrar, see [Find your domain registrar](find-your-domain-registrar.md). Once your registrar is determined, consult with the registrar to see if they support **Domain Connect**.
+To find your registrar, see [Find your domain registrar](find-your-domain-registrar.md). Once you determine your registrar, consult with the registrar to see if they support **Domain Connect**.
 
 For instructions on how to manually add DNS records at specific registrars, see the following articles:
 
@@ -74,21 +74,21 @@ For instructions on how to manually add DNS records at specific registrars, see 
 
 ## Step 1: Add a domain and verify domain ownership
 
-You need to first add a custom domain to Microsoft 365 and verify domain ownership. For detailed instructions on how to add a custom domain to Microsoft 365, see [Add a domain to Microsoft 365](../setup/add-domain.md#add-a-domain).
+First, add a custom domain to Microsoft 365 and verify domain ownership. For detailed instructions on how to add a custom domain to Microsoft 365, see [Add a domain to Microsoft 365](../setup/add-domain.md#add-a-domain).
 
 ## Step 2: Connect to Microsoft services by adding DNS records
 
-When a custom domain is added as part of [Step 1: Add a domain and verify domain ownership](#step-1-add-a-domain-and-verify-domain-ownership), the wizard should prompt to add DNS entries for Microsoft 365 services including email. However, if adding DNS entries was skipped as part of adding the custom domain, they can be added at a later time after adding the custom domain.
+When you add a custom domain as part of [Step 1: Add a domain and verify domain ownership](#step-1-add-a-domain-and-verify-domain-ownership), the wizard prompts you to add DNS entries for Microsoft 365 services, including email. However, if you skip adding DNS entries when adding the custom domain, you can add them later.
 
-The following sections go over how to add the various DNS records for some of the Microsoft 365 services.
+The following sections describe how to add the various DNS records for some of the Microsoft 365 services.
 
 ### Add an MX record and DNS records for email (Outlook, Exchange Online)
 
 > [!IMPORTANT]
 >
-> Before beginning, add users and set up mailboxes in Microsoft 365 for all email users on your domain before updating an MX record for Microsoft 365. Adding users before setting up the MX record ensures that email continues to work without interruption as the email moves from the previous email provider to Microsoft 365.
+> Before you begin, add users and set up mailboxes in Microsoft 365 for all email users on your domain. Add users before updating an MX record for Microsoft 365 to ensure that email continues to work without interruption as the email moves from the previous email provider to Microsoft 365.
 >
-> When you update your domain's MX record, all new email for anyone who uses your domain is sent to Microsoft 365. Any existing email stays at your previous email host, unless you decide to [migrate email and contacts to Microsoft 365.](../setup/migrate-email-and-contacts-admin.md).
+> When you update your domain's MX record, all new email for anyone who uses your domain is sent to Microsoft 365. Any existing email stays at your previous email host, unless you decide to [migrate email and contacts to Microsoft 365](../setup/migrate-email-and-contacts-admin.md).
 
 To add the DNS records needed for Microsoft 365 email services, select the tab based on your registrar's support for **Domain Connect**:
 
@@ -121,14 +121,14 @@ To add an MX record and other supporting email DNS records for use with email in
 
     > [!IMPORTANT]
     >
-    > If an MX record already exists for the previous email provider, one of the following two actions needs to be taken to ensure that email starts getting delivered to Microsoft 365:
+    > If an MX record already exists for the previous email provider, take one of the following two actions to ensure that email starts getting delivered to Microsoft 365:
     >
     > - Remove any existing MX records pointing to a previous email provider.
     > - Set the MX record priority for the previous email provider to a lower priority than the MX record for Microsoft 365.
     >
-    > Depending on the registrar, the registrar might offer to automatically delete the existing MX record via **Domain Connect**. If you don't wish for the existing MX record to be automatically deleted, then the required email DNS records need to be added manually at your registrar. Select the **Manual** tab instead to add MX records manually.
+    > Depending on the registrar, the registrar might offer to automatically delete the existing MX record via **Domain Connect**. If you don't want the existing MX record to be automatically deleted, add the required email DNS records manually at your registrar. Select the **Manual** tab instead to add MX records manually.
 
-1. After DNS records are added at the registrar, the browser returns you to the Microsoft 365 admin center.
+1. After you add DNS records at the registrar, the browser returns you to the Microsoft 365 admin center.
 
 1. The **Domain setup is complete** page displays. Select **Done** to complete adding DNS records to Microsoft 365.
 
@@ -152,9 +152,9 @@ To add an MX record and other supporting email DNS records for use with email in
 
 1. For additional email spam protection, select **Advanced options**, and then select **DomainKeys Identified Mail (DKIM)**. DKIM DNS records are optional. For more information about **DKIM**, see [Help prevent email spam (Outlook, Exchange Online) by adding appropriate DNS records](#help-prevent-email-spam-outlook-exchange-online-by-adding-appropriate-dns-records) in this article.
 
-1. Select the **>** next to **MX Records**, **CNAME Records**, and **TXT Records** to expand them. If **DomainKeys Identified Mail (DKIM)** was also selected, make sure to also expand **CNAME Records** under **DomainKeys Identified Mail (DKIM)**. The DNS records that need to be added at your registrar are displayed under each DNS record type.
+1. Select the **>** next to **MX Records**, **CNAME Records**, and **TXT Records** to expand them. If you also selected **DomainKeys Identified Mail (DKIM)**, make sure to also expand **CNAME Records** under **DomainKeys Identified Mail (DKIM)**. The DNS records that you need to add at your registrar are displayed under each DNS record type.
 
-1. In a separate browser window or tab, sign into your registrar and then manually add the required DNS records shown in previous step. For detailed instructions on adding DNS records at your registrar, refer to the registrar's documentation and instructions.
+1. In a separate browser window or tab, sign in to your registrar and then manually add the required DNS records shown in the previous step. For detailed instructions on adding DNS records at your registrar, refer to the registrar's documentation and instructions.
 
     > [!TIP]
     >
@@ -165,9 +165,9 @@ To add an MX record and other supporting email DNS records for use with email in
     > - **Domain Manager**.
     > - **DNS Manager**.
 
-    The following are the DNS records that need to be added for Microsoft 365 email services:
+    The following DNS records need to be added for Microsoft 365 email services:
 
-    - **MX record** - This DNS record is required and specifies where email for the domain should go to.
+    - **MX record** - This DNS record is required and specifies where email for the domain should go.
 
       |  DNS record field  | Value |
       | ------------------ | ----- |
@@ -219,14 +219,14 @@ To add an MX record and other supporting email DNS records for use with email in
       | *Points to address* or *Target* | Copy the second value displayed under **DomainKeys Identified Mail (DKIM)** in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
       | *TTL* | **3600** (1 hour) |
 
-1. If MX records already exist for the previous email provider, one of the following two actions needs to be taken to ensure that email starts getting delivered to Microsoft 365:
+1. If MX records already exist for the previous email provider, take one of the following two actions to ensure that email starts getting delivered to Microsoft 365:
 
-   - Remove any existing MX records pointing to a previous email provider.
+   - Remove any existing MX records that point to a previous email provider.
    - Set the MX record priority for the previous email provider to a lower priority than the MX record for Microsoft 365. In MX records, lower numbers indicate higher priority. For example, priority **0** is higher than priority **10**.
 
-1. Once the DNS records are manually added at the registrar, switch back to the Microsoft 365 admin center web browser window or tab, and then select **Continue**.
+1. Once you add the DNS records manually at the registrar, switch back to the Microsoft 365 admin center web browser window or tab, and then select **Continue**.
 
-1. Microsoft 365 verifies that the DNS records for email were added correctly. Once verification completes successfully, the **Domain setup is complete** page displays. Select **Done** to complete adding the email DNS records for Microsoft 365 email services.
+1. Microsoft 365 verifies that you added the DNS records for email correctly. Once verification completes successfully, the **Domain setup is complete** page displays. Select **Done** to complete adding the email DNS records for Microsoft 365 email services.
 
 ---
 
@@ -255,14 +255,14 @@ To add CNAME and SRV records required by Microsoft 365 services such as Microsof
 
 1. In the **Add DNS records** page, select **Advanced options**. **Advanced options** displays all additional available Microsoft 365 services.
 
-1. Select the desired Microsoft 365 services that DNS records need to be added for, and then select **Add DNS records**. For example:
+1. Select the Microsoft 365 services that need DNS records added, and then select **Add DNS records**. For example:
 
    - For Microsoft Intune, select **Intune and Mobile Device Management for Microsoft 365**.
    - To add DKIM records to reduce email spam, select **DomainKeys Identified Mail (DKIM)**.
 
 1. A new window from your registrar opens showing the DNS records that are going to be added. Verify that the DNS records are correct, and then authorize the DNS records to be added.
 
-1. Once the DNS records are added, you're returned back to the Microsoft 365 admin center window.
+1. Once the DNS records are added, you're returned to the Microsoft 365 admin center window.
 
 1. The **Domain setup is complete** page displays. Select **Done** to complete adding the CNAME and SRV records to Microsoft 365.
 
@@ -284,11 +284,11 @@ To add CNAME and SRV records required by Microsoft 365 services such as Microsof
 
 1. In the **Add DNS records** page, select **Advanced options**. **Advanced options** displays all additional available Microsoft 365 services.
 
-1. Select the desired Microsoft 365 services that DNS records need to be added for. For example, for Microsoft Intune, make sure to select **Intune and Mobile Device Management for Microsoft 365**.
+1. Select the Microsoft 365 services that need DNS records added. For example, for Microsoft Intune, make sure to select **Intune and Mobile Device Management for Microsoft 365**.
 
-1. For each Microsoft 365 service, select the **>** next to either **CNAME Records** or **SRV Records** to expand it. The CNAME records or SRV records that need to be added at your registrar are displayed.
+1. For each Microsoft 365 service, select the **>** next to either **CNAME Records** or **SRV Records** to expand it. The CNAME records or SRV records that you need to add at your registrar are displayed.
 
-1. In a separate browser window or tab, sign into your registrar and then manually add the required DNS records shown in previous step. For detailed instructions on adding DNS records at your registrar, refer to the registrar's documentation and instructions.
+1. In a separate browser window or tab, sign in to your registrar and then manually add the required DNS records shown in the previous step. For detailed instructions on adding DNS records at your registrar, refer to the registrar's documentation and instructions.
 
     > [!TIP]
     >
@@ -299,9 +299,9 @@ To add CNAME and SRV records required by Microsoft 365 services such as Microsof
     > - **Domain Manager**.
     > - **DNS Manager**.
 
-1. Once the CNAME and SRV records are manually added at the registrar, switch back to the Microsoft 365 admin center web browser window or tab, and then select **Continue**.
+1. Once you add the CNAME and SRV records at the registrar, switch back to the Microsoft 365 admin center web browser window or tab, and then select **Continue**.
 
-1. Microsoft 365 verifies that the CNAME and SRV records were added correctly. Once verification completes successfully, the **Domain setup is complete** page displays. Select **Done** to complete adding the CNAME and SRV records for Microsoft 365 services.
+1. Microsoft 365 verifies that you added the CNAME and SRV records correctly. When verification succeeds, the **Domain setup is complete** page displays. Select **Done** to finish adding the CNAME and SRV records for Microsoft 365 services.
 
 Examples of CNAME and SRV DNS records:
 
@@ -360,15 +360,15 @@ Examples of CNAME and SRV DNS records:
 
     > [!NOTE]
     >
-    > Some registrars might have restrictions on what can be added to an SRV record. For more information, including workarounds, see [SRV record field restrictions and workarounds](#srv-record-field-restrictions-and-workarounds) in this article.
+    > Some registrars might restrict what you can add to an SRV record. For more information, including workarounds, see [SRV record field restrictions and workarounds](#srv-record-field-restrictions-and-workarounds) in this article.
 
 ---
 
 ### Help prevent email spam (Outlook, Exchange Online) by adding appropriate DNS records
 
-Sender Policy Framework, better known as SPF, helps prevent email spam. SPF is designed to help prevent spoofing. SPF is activated on a domain by adding a TXT record to the domain's DNS. To set up an SPF TXT record for use with Microsoft 365 email services, see [Add an MX record and DNS records for email (Outlook, Exchange Online)](#add-an-mx-record-and-dns-records-for-email-outlook-exchange-online) in this article.
+Sender Policy Framework, better known as SPF, helps prevent email spam. SPF is designed to help prevent spoofing. Activate SPF on a domain by adding a TXT record to the domain's DNS. To set up an SPF TXT record for use with Microsoft 365 email services, see [Add an MX record and DNS records for email (Outlook, Exchange Online)](#add-an-mx-record-and-dns-records-for-email-outlook-exchange-online) in this article.
 
-Although SPF is designed to help prevent spoofing, there are spoofing techniques that SPF can't protect against. To protect against these threats, after setting up the SPF record, you should also set up DomainKeys Identified Mail (DKIM) and Domain-based Message Authentication, Reporting, and Conformance (DMARC) for Microsoft 365. For more information on DKIM and DMARC, see the following two articles:
+Although SPF is designed to help prevent spoofing, some spoofing techniques bypass SPF. To protect against these threats, after setting up the SPF record, also set up DomainKeys Identified Mail (DKIM) and Domain-based Message Authentication, Reporting, and Conformance (DMARC) for Microsoft 365. For more information on DKIM and DMARC, see the following two articles:
 
 - [Use DKIM to validate outbound email sent from your domain in Microsoft 365](../../security/office-365-security/email-authentication-dkim-configure.md).
 - [Use DMARC to validate email in Microsoft 365](../../security/office-365-security/email-authentication-dmarc-configure.md).
@@ -377,7 +377,7 @@ To set up DKIM for use with Microsoft 365 email services, see [Add an MX record 
 
 ### SRV record field restrictions and workarounds
 
-Some registrars impose restrictions on field values within SRV records. The following are some of those restrictions and their workarounds.
+Some registrars restrict field values within SRV records. The following sections describe some of those restrictions and their workarounds.
 
 #### Host Name/Alias can't be set to @
 
