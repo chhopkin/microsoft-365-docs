@@ -1033,7 +1033,7 @@
      {
         "source_path":"microsoft-365/enterprise/move-sharepoint-between-geo-locations.md",
         "redirect_url":"/microsoft-365/enterprise/m365-dr-service-spo",
-        "redirect_document_id":true
+        "redirect_document_id":false
      },
      {
         "source_path":"microsoft-365/enterprise/lang-service-health.md",
@@ -1498,7 +1498,7 @@
    {
       "source_path": "microsoft-365/enterprise/m365-dr-workload-m365-web-apps.md",
       "redirect_url": "/microsoft-365/enterprise/m365-dr-service-m365-web-apps",
-      "redirect_document_id": true
+      "redirect_document_id": false
    },
    {
       "source_path": "microsoft-365/enterprise/m365-dr-workload-viva-connections.md",
