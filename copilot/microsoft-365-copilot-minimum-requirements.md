@@ -57,10 +57,6 @@ User's primary mailbox must be in Exchange Online. Copilot uses mailbox content 
 
 Before your users can use Microsoft 365 Copilot, they must also have a [Microsoft Entra ID (Azure AD)](/entra/fundamentals/what-is-entra) account.
 
-## Network requirements
-
-Microsoft 365 Copilot enables AI scenarios that access the web, so it may need to connect to specific network endpoints (domains). See the full documentation of network requirements for Microsoft 365 Copilot, which provides a complete list of domains and WebSockets (WSS) that an organization's network shouldn't block. For more information, see [Microsoft 365 app and network requirements for Microsoft 365 Copilot](microsoft-365-copilot-requirements.md).
-
 ## Browser requirements
 
 Any modern browser with third-party cookies enabled for online apps. Recommended browsers:
@@ -69,6 +65,10 @@ Any modern browser with third-party cookies enabled for online apps. Recommended
 - Google Chrome
 - Mozilla Firefox
 - Apple Safari
+
+## Network requirements
+
+Microsoft 365 Copilot enables AI scenarios that access the web, so it may need to connect to specific network endpoints (domains). See the full documentation of network requirements for Microsoft 365 Copilot, which provides a complete list of domains and WebSockets (WSS) that an organization's network shouldn't block. For more information, see [Microsoft 365 app and network requirements for Microsoft 365 Copilot](microsoft-365-copilot-requirements.md).
 
 ## Mobile device requirements
 
