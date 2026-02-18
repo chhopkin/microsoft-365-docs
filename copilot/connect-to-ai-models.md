@@ -42,7 +42,7 @@ Before users in your organization can use xAI, they need to be assigned a [Micro
 
 Before your organization can connect to xAI AI models, you must allow access in the Microsoft 365 admin center.
 
-You have to be a member of the Global administrator role to perform this task. For more information, see [About admin roles](microsoft-365/admin/add-users/about-admin-roles) .
+You have to be a member of the Global administrator role to perform this task. For more information, see [About admin roles](/microsoft-365/admin/add-users/about-admin-roles) .
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/) and select **Copilot** -\> **Settings**.
 2. On the **Settings** page, select **All**.
