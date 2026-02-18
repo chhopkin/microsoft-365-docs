@@ -11,7 +11,7 @@ ms.collection: scotvorg
 ms.custom: QuickDraft
 audience: Admin
 ai-usage: ai-assisted
-description: Minimum requirements to deploy Microsoft 365 Copilot in your organization
+description: Minimum requirements to deploy Microsoft 365 Copilot in your organization.
 ---
 
 # Minimum requirements to deploy Microsoft 365 Copilot in your organization

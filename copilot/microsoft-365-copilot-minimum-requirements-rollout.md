@@ -11,7 +11,7 @@ ms.collection: scotvorg
 ms.custom: QuickDraft
 audience: Admin
 ai-usage: ai-assisted
-description: Minimum requirements to deploy Microsoft 365 Copilot in your organization
+description: Information on how to deploy a phased rollout of Microsoft 365 Copilot in your organization.
 ---
 
 # Rollout Microsoft 365 Copilot to your organization
@@ -99,6 +99,6 @@ Track adoption, usage patterns, and business impact using built-in reporting too
 
 ## Related topics
 
-For more information on Microsoft 365 Copilot requirements, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](microsoft-365-copilot-minimum-requirements-overview.md).
+For more information on Microsoft 365 Copilot requirements, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](microsoft-365-copilot-minimum-requirements.md).
 
 For more information on data and compliance requirements, see [Data and compliance readiness](microsoft-365-copilot-minimum-requirements-data-compliance.md).

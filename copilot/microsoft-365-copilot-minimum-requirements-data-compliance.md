@@ -11,7 +11,7 @@ ms.collection: scotvorg
 ms.custom: QuickDraft
 audience: Admin
 ai-usage: ai-assisted
-description: Overview of the minimum requirements to deploy Microsoft 365 Copilot in your organization
+description: Overview of data compliance readiness to deploy Microsoft 365 Copilot in your organization.
 ---
 
 # Microsoft 365 Copilot data and compliance readiness
@@ -40,7 +40,7 @@ Configure OneDrive governance before enabling Microsoft 365 Copilot. Copilot acc
 
 OneDrive uses SharePoint Online as its underlying platform, which means tenant‑level SharePoint sharing policies also apply to OneDrive. You can control external sharing, link types, and default permissions to reduce unintended exposure of user files. These controls directly affect what content Copilot can surface in responses.
 
-For more information, see [How data is protected and audited](https://learn.microsoft.com/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing).
+For more information, see [How data is protected and audited](microsoft-365-copilot-architecture-data-protection-auditing.md).
 
 ## Microsoft Purview
 
@@ -56,6 +56,6 @@ As an admin, you can manage how users in your organization use Copilot for Teams
 
 ## Related topics
 
-For more information on Microsoft 365 Copilot requirements, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](microsoft-365-copilot-minimum-requirements-overview.md).
+For more information on Microsoft 365 Copilot requirements, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](microsoft-365-copilot-minimum-requirements.md).
 
 For more information on best practices for how to roll out Microsoft 365 Copilot in your organization, see [Rollout Microsoft 365 to your organization](microsoft-365-copilot-minimum-requirements-rollout.md).
