@@ -102,21 +102,3 @@ Track adoption, usage patterns, and business impact using built-in reporting too
 For more information on Microsoft 365 Copilot requirements, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](microsoft-365-copilot-minimum-requirements-overview.md).
 
 For more information on data and compliance requirements, see [Data and compliance readiness](microsoft-365-copilot-minimum-requirements-data-compliance.md).
-
-## table 2
-
-| Phase | Task | Technical Description | Key Tools / Resources | IT Admin Notes |
-|-------|------|----------------------|-----------------------|----------------|
-| Strategy & Planning | Define Copilot Strategy | Establish organizational objectives, target use cases, governance policies, and measurable success metrics before procurement or rollout. | Microsoft 365 Copilot adoption guide<br>Microsoft 365 Copilot overview for IT admins | Align with security, compliance, and data governance frameworks before licensing. |
-| Security & Compliance | Protect Sensitive Data | Audit and remediate SharePoint/OneDrive permissions. Implement data classification, DLP, and insider risk controls. | SharePoint Advanced Management<br>Microsoft Purview | Perform access reviews and validate least-privilege model before enabling Copilot. |
-| Deployment Strategy | Phased Rollout | Deploy to a controlled pilot group to validate configurations, assess performance, and gather structured feedback. | Pilot user group<br>Feedback loops | Avoid org-wide rollout until telemetry and governance controls are validated. |
-| Readiness Assessment | Check M365 Readiness | Validate tenant configuration, service health, licensing prerequisites, and supported workloads. | Microsoft 365 Admin Center Readiness Tools | Confirm apps (Teams, SharePoint, Exchange, OneDrive) are fully operational and updated. |
-| Licensing | Purchase Copilot Licenses | Acquire appropriate Microsoft 365 Copilot licenses based on tenant size and subscription eligibility. | License options for Microsoft 365 Copilot<br>Microsoft 365 for Business subscription | Validate base license eligibility (E3/E5/Business Premium, etc.). |
-| Role-Based Access Control | Assign AI Administrator Role | Delegate Copilot administrative responsibilities including service configuration, agent publishing, monitoring, and reporting. | AI Administrator role (Microsoft Entra ID) | Role grants visibility into service health dashboards, adoption metrics, and Azure integration. |
-| User Provisioning | Add Users & Assign Licenses | Provision users in Entra ID and assign Copilot licenses via M365 Admin Center. | Microsoft 365 Admin Center | Validate license propagation and service plan activation. |
-| Access Configuration | Enable User Access | Ensure users can access Copilot via web, desktop, and mobile endpoints. | Web: https://m365copilot.com<br>Microsoft Store (Windows App)<br>iOS App Store<br>Google Play Store | Confirm conditional access, MFA, and device compliance policies allow access. |
-| User Enablement | End-User Training | Deliver structured training to maximize productivity and reduce misuse. | Copilot User Enablement Toolkit<br>Copilot Prompt Gallery | Provide role-based training (Exec, Sales, Ops, IT). |
-| Adoption & Change Management | Drive Adoption | Promote awareness through internal communications, workshops, and champion programs. | Copilot Success Kit<br>Microsoft 365 Copilot Adoption Hub | Track engagement metrics to identify adoption gaps. |
-| Feedback & Insights | Gather Organizational Insights | Collect user feedback and analyze usage telemetry to assess effectiveness and risks. | Copilot Dashboard<br>Usage Analytics | Monitor query types and content exposure risks. |
-| Scaling | Expand Deployment | Apply pilot learnings to scale across departments with refined governance controls. | Microsoft 365 Copilot Deployment Readiness | Revalidate security baselines before expansion. |
-| Monitoring & Optimization | Monitor Usage & Evaluate Success | Continuously track adoption metrics, usage trends, business impact, and service performance. | Microsoft 365 Reporting Tools | Establish KPIs (time saved, productivity lift, ticket reduction). |
