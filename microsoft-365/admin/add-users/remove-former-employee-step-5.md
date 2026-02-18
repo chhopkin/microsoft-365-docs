@@ -51,7 +51,6 @@ To preserve a former user's OneDrive files, first give yourself access to their 
 4. Select the link to open the file location. Download the files to your computer, or select **Move to** or **Copy to** to move or copy them to your own OneDrive or to a shared library.
 
 > [!NOTE]
-> - You can move or copy up to 500 MB of files and folders at a time.
 > - When you move or copy documents that have version history, only the latest version is moved.
 > - Administrative options for an active user under the OneDrive tab in the Microsoft 365 admin center are currently not supported for multi-geo tenants.
 
