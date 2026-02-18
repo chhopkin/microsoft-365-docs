@@ -60,9 +60,13 @@ For both tenants, perform the following steps:
 
 1. Download the CrossTenantMigration NuGet package: <ADD XXXXXXXXXXXXXXXXXXXX>
 
-1. Expand the CrossTenantMigration NuGet package. `Expand-Archive .../CrossTenantMigration<versionnumber>.nupkg`
+1. Expand the CrossTenantMigration NuGet package and import the modules. 
 
-1. Import the CrossTenantMigration module. Run `Import-Module CrossTenantMigration<versionnumber>/CrossTenantMigration`
+
+```powershell
+Expand-Archive ".\CrossTenantMigration.<VERSION>.nupkg" -PassThru -Force `
+    | sort Directory | select -f 1 | % { ipmo "$($_.DirectoryName)/CrossTenantMigration" -Force }
+```
 
 1. Set up the Cross-Tenant Migration Service Application on the **target tenant only**. Run `Grant-CTMSAppPermissions`
 
@@ -121,7 +125,7 @@ When you run the above tenant configuration steps, there are a number of permiss
 
 ### Cross-Tenant Migration Service (CTMS) permissions
 
-The CrossTenantMigration Prod AAD app is added with service principals. The Resource Identity Mapping service app service principals are added. The identity mapping service app role is granted to the CTMS ap.
+The CrossTenantMigration Prod AAD app is added with service principals. The Resource Identity Mapping service app service principals are added. The identity mapping service app role is granted to the CTMS app.
 
 ### OneDrive permissions
 
