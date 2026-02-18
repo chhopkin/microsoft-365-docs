@@ -36,13 +36,13 @@ When your organization chooses to use an xAI model, your organization is choosin
 
 ## Before you begin
 
-Before users in your organization can use xAI, they need to be assigned a [Microsoft 365 Copilot license](https://learn.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users).
+Before users in your organization can use xAI, they need to be assigned a [Microsoft 365 Copilot license](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ## Connect to xAI in the Microsoft 365 Admin Center
 
 Before your organization can connect to xAI AI models, you must allow access in the Microsoft 365 admin center.
 
-You have to be a member of the Global administrator role to perform this task. For more information, see [About admin roles](../microsoft-365/admin/add-users/about-admin-roles.md) .
+You have to be a member of the Global administrator role to perform this task. For more information, see [About admin roles](microsoft-365/admin/add-users/about-admin-roles) .
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/) and select **Copilot** -\> **Settings**.
 2. On the **Settings** page, select **All**.
