@@ -94,4 +94,4 @@ When the policy takes effect, users have the **Harmful content protection** togg
 
 - [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md)
 - [Security for Microsoft 365 Copilot](microsoft-365-copilot-ai-security.md)
-- [Transparency Note for Microsoft 365 Copilot](microsoft-365-copilot-transparency-note.md)
+- [Application card: Microsoft 365 Copilot](microsoft-365-copilot-application-card.md)

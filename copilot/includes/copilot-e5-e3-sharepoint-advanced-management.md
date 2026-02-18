@@ -31,8 +31,11 @@ A Site ownership policy automatically detects sites that don't have at least two
 You need site owners to help confirm the site is still active, perform [Site access review](/sharepoint/site-access-review#review-everyone-except-external-users-site-access-review-requests-for-site-owners), update content permissions, and control access when needed.
 
 1. Sign in to the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) as a SharePoint administrator.
+
 2. Expand **Policies** > select **Site lifecycle management**.
+
 3. Select **Create a policy**, enter your parameters, and finish your policy.
+
 4. When the policy runs, the report shows the number of sites that are noncompliant. You can also download the report.
 
 To learn more about this policy and report, see [Site ownership policy](/sharepoint/create-sharepoint-site-ownership-policy).
@@ -48,9 +51,13 @@ Copilot can show data from these inactive sites in user prompts, which can lead 
 The policy also creates a report that you can download and review. The report shows the inactive sites, the last activity date, and the email notification status.
 
 1. Sign in to the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) as a SharePoint administrator.
+
 2. Expand **Policies** > select **Site lifecycle management**.
+
 3. Select **Create a policy**, enter your parameters, and finish your policy.
+
 4. When the policy runs and finds inactive sites, the policy automatically emails the site owners. The site owners should confirm if the site is still active.
+
 5. If the site owners confirm the sites aren't needed, then put inactive sites in [read-only mode with SAM](/sharepoint/site-lifecycle-management#read-only-mode), or move the sites to [Microsoft 365 Archive with SAM](/microsoft-365/archive/archive-setup).
 
 To learn more about this policy and report, see [site lifecycle management policy](/sharepoint/site-lifecycle-management#how-to-create-an-inactive-site-policy).
@@ -75,14 +82,15 @@ The [DAG reports](/SharePoint/data-access-governance-reports) give more detailed
 Overshared sites are sites that are shared with more people than needed. Copilot can show data from these sites in responses.
 
 1. Sign in to the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) as a SharePoint administrator.
-2. Select **Reports** > **Data access governance**. Your report options:
 
-    | Report | Description | Task |
-    | --- | --- | --- |
-    | **Sharing links** | Shows the sites that have sharing links, including links shared with **Anyone**, shared with **People in your organization**, and shared with **Specific people** outside of your work or school. | Review these sites. <br/><br/>Make sure the sites are shared with only the users or groups that need access. Remove sharing for unneeded users and groups. |
-    | **Sensitivity labels applied to files** | Shows sites with Office files that have sensitivity labels. | Review these sites.<br/><br/> Make sure the correct labels are applied. Update the labels as needed. To learn more, see [Identify and label sensitive data](#identify-and-label-sensitive-data) (in this article). |
-    | **Shared with `Everyone except external users` (EEEU)** | Shows the sites that are shared with everyone in your organization except external users. | Review these sites. <br/><br/> Determine if EEEU permissions are appropriate. Many sites with EEEU are overshared. Remove the EEEU permission and assign to the users or groups as needed. |
-    |**Oversharing Baseline Report for Sites, OneDrives and Files**|Scans all sites in your tenant, and lists sites that share content with more than a specified number of users (you specify the number).|Sort, filter or download the report, and identify the sites with potentially overshared content.|
+2. Select **Reports** > **Data access governance**. Your report options are listed in the following table:
+
+   | Report | Description | Task |
+   | --- | --- | --- |
+   | **Sharing links** | Shows the sites that have sharing links, including links shared with **Anyone**, shared with **People in your organization**, and shared with **Specific people** outside of your work or school. | Review these sites. <br/><br/>Make sure the sites are shared with only the users or groups that need access. Remove sharing for unneeded users and groups. |
+   | **Sensitivity labels applied to files** | Shows sites with Office files that have sensitivity labels. | Review these sites.<br/><br/> Make sure the correct labels are applied. Update the labels as needed. To learn more, see [Identify and label sensitive data](#identify-and-label-sensitive-data) (in this article). |
+   | **Shared with `Everyone except external users` (EEEU)** | Shows the sites that are shared with everyone in your organization except external users. | Review these sites. <br/><br/> Determine if EEEU permissions are appropriate. Many sites with EEEU are overshared. Remove the EEEU permission and assign to the users or groups as needed. |
+   |**Oversharing Baseline Report for Sites, OneDrives and Files**|Scans all sites in your tenant, and lists sites that share content with more than a specified number of users (you specify the number).|Sort, filter or download the report, and identify the sites with potentially overshared content.|
 
 You can run any of these reports individually or run all of them together. To learn more about these reports, see [Data access governance (DAG) reports](/sharepoint/data-access-governance-reports).
 
@@ -90,9 +98,9 @@ You can run any of these reports individually or run all of them together. To le
 
 - **Run these reports weekly**, especially in the beginning stages of adopting Copilot. As you become more familiar with the reports and the data, you can adjust the frequency.
 
-  If you have an admin team, create an admin task to run these reports and review the data.
+   If you have an admin team, create an admin task to run these reports and review the data.
 
-  Your organization is paying for the license to run these reports and use the data to make decisions. Make sure you're getting the most out of it.
+   Your organization is paying for the license to run these reports and use the data to make decisions. Make sure you're getting the most out of it.
 
 - [**Select Get AI insights**](/sharepoint/advanced-management#ai-insights) to generate a report that helps you identify issues with the sites and possible actions to address these issues.
 
@@ -140,21 +148,23 @@ The [change history report](/sharepoint/change-history-report) tracks and monito
 Use this report to review the changes made to your SharePoint sites and organization settings.
 
 1. Sign in to the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) as a SharePoint administrator.
-2. Expand **Reports** > select **Change history** > **New report**.
-3. Your report options:
 
-    | Report | Description | Task |
-    | --- | --- | --- |
-    | **Site settings report** | Shows the site property changes and actions ran by Site Administrators and SharePoint Administrators. | Review the changes and actions. Make sure the actions meet your security requirements. |
-    | **Organization settings report** | Shows changes made to organization settings, like when a site is created and if external sharing is enabled. | Review the changes and actions. Make sure the changes meet your security requirements. |
+2. Expand **Reports** > select **Change history** > **New report**.
+
+3. Your report options are listed in the following table:
+
+   | Report | Description | Task |
+   | --- | --- | --- |
+   | **Site settings report** | Shows the site property changes and actions ran by Site Administrators and SharePoint Administrators. | Review the changes and actions. Make sure the actions meet your security requirements. |
+   | **Organization settings report** | Shows changes made to organization settings, like when a site is created and if external sharing is enabled. | Review the changes and actions. Make sure the changes meet your security requirements. |
 
 #### Best practices for managing the change history reports
 
 - **Run these reports weekly**, especially in the beginning stages of adopting Copilot. As you become more familiar with the reports and the data, you can adjust the frequency.
 
-  If you have an admin team, create an admin task to run these reports and review the data.
+   If you have an admin team, create an admin task to run these reports and review the data.
 
-  Your organization is paying for the license to run these reports and use the data to make decisions. Make sure you're getting the most out of it.
+   Your organization is paying for the license to run these reports and use the data to make decisions. Make sure you're getting the most out of it.
 
 - Create a report for the **site level changes and the organization level changes**. The site level reports show changes made to the site properties and actions. The organization level reports show changes made to the organization settings.
 
@@ -162,4 +172,4 @@ Use this report to review the changes made to your SharePoint sites and organiza
 
 - **Apply [restricted access control (RAC)](/SharePoint/restricted-access-control)** to sites that appear to be overshared. Inform the site owners of the changes and why.
 
-  If your organization has a [Zero Trust](/security/zero-trust/copilots/zero-trust-microsoft-365-copilot) mindset, then you can apply RAC to all sites. Then, adjust the permissions as needed. If you have many sites, this action can help you quickly secure your sites. But, it can also cause disruptions to users. Make sure you communicate the changes and the reasons for the changes.
+   If your organization has a [Zero Trust](/security/zero-trust/copilots/zero-trust-microsoft-365-copilot) mindset, then you can apply RAC to all sites. Then, adjust the permissions as needed. If you have many sites, this action can help you quickly secure your sites. But, it can also cause disruptions to users. Make sure you communicate the changes and the reasons for the changes.
