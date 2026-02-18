@@ -30,7 +30,7 @@ _Multi-Geo_ enables customers to manage and store in-scope data at a user level 
 Customers that require performance optimization for Microsoft 365 should refer to [Network planning and performance tuning for Microsoft 365](network-planning-and-performance.md) or contact their Support group.
 
 > [!NOTE]
-> Exchange Online, SharePoint, OneDrive, Microsoft Teams, and Microsoft 365 Copilot and Copilot Chat are available for _Multi-Geo_ configuration. For more information about data residency commitments, see [Exchange Online](m365-dr-workload-exo.md), [SharePoint and OneDrive](m365-dr-workload-spo.md), [Microsoft Teams](m365-dr-workload-teams.md#data-residency-commitments-available), and [Microsoft 365 Copilot and Copilot Chat](m365-dr-workload-copilot.md) for more details.
+> Exchange Online, SharePoint, OneDrive, Microsoft Teams, and Microsoft 365 Copilot and Copilot Chat are available for _Multi-Geo_ configuration. For more information about data residency commitments, see [Exchange Online](m365-dr-service-exo.md), [SharePoint and OneDrive](m365-dr-service-spo.md), [Microsoft Teams](m365-dr-service-teams.md#data-residency-commitments-available), and [Microsoft 365 Copilot and Copilot Chat](m365-dr-service-copilot.md) for more details.
 
 For a video introduction on _Microsoft 365 Multi-Geo_, see [SharePoint and OneDrive Multi-Geo to control where your data resides](https://www.youtube.com/watch?v=Do9U3JuROhk).
 
@@ -85,7 +85,7 @@ Whether you are a CSP partner managing your customer’s Microsoft 365 subscript
 6. [Set up search](configure-search-for-multi-geo.md).
   
 > [!NOTE]
-> For more information on the Microsoft 365 services that support _Multi-Geo_, see the [EXO](m365-dr-workload-exo.md), [ODSP](m365-dr-workload-spo.md), [Teams](m365-dr-workload-teams.md), and [Microsoft 365 Copilot and Copilot Chat](m365-dr-workload-copilot.md) service data residency pages for more details.
+> For more information on the Microsoft 365 services that support _Multi-Geo_, see the [EXO](m365-dr-service-exo.md), [ODSP](m365-dr-service-spo.md), [Teams](m365-dr-service-teams.md), and [Microsoft 365 Copilot and Copilot Chat](m365-dr-service-copilot.md) service data residency pages for more details.
 
 ## See also
 
