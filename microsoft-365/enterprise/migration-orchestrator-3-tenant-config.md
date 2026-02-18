@@ -44,9 +44,9 @@ To enable migration, add the applications for Cross-Tenant Migration Service, On
 
 If you have not yet added the following prerequisites to the tenants, you will be prompted to do so when importing the CrossTenantMigration module.
 
-- Microsoft.Graph.Authentication
+- Microsoft.Graph.Authentication (minimum version 2.0.0, should match Microsoft.Graph.Beta version)
 
-- Microsoft.Graph.Applications
+- Microsoft.Graph.Applications (minimum version 2.0.0, should match Microsoft.Graph.Beta version)
 
 - Microsoft.Graph.Identity.DirectoryManagement
 
@@ -54,13 +54,13 @@ If you have not yet added the following prerequisites to the tenants, you will b
 
 - MicrosoftTeams
 
-- Microsoft.Graph.Beta (minimum version 2.33.0)
+- Microsoft.Graph.Beta (minimum version 2.33.0, should match Microsoft.Graph version)
 
 For both tenants, perform the following steps:
 
-1. Download the CrossTenantMigration module: <ADD XXXXXXXXXXXXXXXXXXXX>
+1. Download the CrossTenantMigration NuGet package: <ADD XXXXXXXXXXXXXXXXXXXX>
 
-1. Expand-Archive CrossTenantMigration<version number>
+1. Expand the CrossTenantMigration NuGet package. `Expand-Archive .../CrossTenantMigration<versionnumber>.nupkg`
 
 1. Import the CrossTenantMigration module. Run `Import-Module CrossTenantMigration<versionnumber>/CrossTenantMigration`
 
