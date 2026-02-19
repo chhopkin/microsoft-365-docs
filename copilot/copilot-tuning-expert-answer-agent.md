@@ -37,7 +37,7 @@ Final responses combine:
 
 In most cases, Microsoft recommends using both approaches together by adding knowledge in Agent Builder and refining behavior through agent tuning.
 
-:::image type="content" source="media/copilot-tuning-expert-answer-agent/image1.png" alt-text="" lightbox="":::
+:::image type="content" source="media/copilot-tuning-expert-answer-agent/image1.png" alt-text="Placeholder" lightbox="":::
 
 ## Tuning flow
 
@@ -55,13 +55,13 @@ Before customizing the agent, you can test the default experience.
 
 You must select a SharePoint site before asking a question. The agent answers questions using content from that site. If no site is selected, the agent searches previous messages for a referenced site.
 
-:::image type="content" source="media/copilot-tuning-expert-answer-agent/image2.png" alt-text="" lightbox="":::
+:::image type="content" source="media/copilot-tuning-expert-answer-agent/image2.png" alt-text="Placeholder" lightbox="":::
 
 ## Customize the agent
 
 Start by selecting the **Expert Answers agent** template in Agent Builder. 
 
-:::image type="content" source="media/copilot-tuning-expert-answer-agent/image3.png" alt-text="" lightbox="":::
+:::image type="content" source="media/copilot-tuning-expert-answer-agent/image3.png" alt-text="Placeholder" lightbox="":::
 
 Provide the following information:
 
@@ -71,13 +71,13 @@ Provide the following information:
 
 You can optionally add **knowledge** and **capabilities**.
 
-:::image type="content" source="media/copilot-tuning-expert-answer-agent/image4.png" alt-text="" lightbox="":::
+:::image type="content" source="media/copilot-tuning-expert-answer-agent/image4.png" alt-text="Placeholder" lightbox="":::
 
 ### Use the customized agent
 
 After customization, the agent answers questions using the SharePoint sites you configured as knowledge sources.
 
-:::image type="content" source="media/copilot-tuning-expert-answer-agent/image5.png" alt-text="" lightbox="":::
+:::image type="content" source="media/copilot-tuning-expert-answer-agent/image5.png" alt-text="Placeholder" lightbox="":::
 
 ## Context tuning
 
@@ -101,7 +101,7 @@ You provide the following information during this step.
 
 Microsoft recommends selecting these files from the grounding dataset. Providing more files (up to 50) and increasing topic diversity improves evaluation quality.
 
-:::image type="content" source="media/copilot-tuning-expert-answer-agent/image6.png" alt-text="" lightbox="":::
+:::image type="content" source="media/copilot-tuning-expert-answer-agent/image6.png" alt-text="Placeholder" lightbox="":::
 
 ### Review clarifying questions
 
@@ -109,26 +109,26 @@ Subgoals are used with your uploaded documents to generate question-and-answer p
 
 Focus these questions on the types of queries users are expected to ask. Answer-quality criteria are defined in the metrics step.
 
-:::image type="content" source="media/copilot-tuning-expert-answer-agent/image7.png" alt-text="" lightbox="":::
+:::image type="content" source="media/copilot-tuning-expert-answer-agent/image7.png" alt-text="Placeholder" lightbox="":::
 
 ### Review metrics
 
 Metrics define how the agent is evaluated. In addition to the metrics you specify, Microsoft applies a built-in accuracy metric that compares the agent’s response with a “golden” answer derived from your data.
 
-:::image type="content" source="media/copilot-tuning-expert-answer-agent/image8.png" alt-text="" lightbox="":::
+:::image type="content" source="media/copilot-tuning-expert-answer-agent/image8.png" alt-text="Placeholder" lightbox="":::
 
 ### Agent context
 
 Review the agent’s grounding data. This data is used by the Expert Answers search capability to generate responses.
 
 
-:::image type="content" source="media/copilot-tuning-expert-answer-agent/image9.png" alt-text="" lightbox="":::
+:::image type="content" source="media/copilot-tuning-expert-answer-agent/image9.png" alt-text="Placeholder" lightbox="":::
 
 ## Evaluations
 
 After you complete context tuning and subsequent steps, evaluation results appear on the **Tune agent** homepage.
 
-:::image type="content" source="media/copilot-tuning-expert-answer-agent/image10.png" alt-text="" lightbox="":::
+:::image type="content" source="media/copilot-tuning-expert-answer-agent/image10.png" alt-text="Placeholder" lightbox="":::
 
 ## Model tuning
 
@@ -145,11 +145,11 @@ To tune a model:
 
 1. **Provide preferred outputs:** Select a **training dataset**. In most scenarios, this should match the dataset used for grounding.
 
-    :::image type="content" source="media/copilot-tuning-expert-answer-agent/image11.png" alt-text="" lightbox="":::
+    :::image type="content" source="media/copilot-tuning-expert-answer-agent/image11.png" alt-text="Placeholder" lightbox="":::
 
 1. **Review access:** Review the access recommendations.
 
-    :::image type="content" source="media/copilot-tuning-expert-answer-agent/image12.png" alt-text="" lightbox="":::
+    :::image type="content" source="media/copilot-tuning-expert-answer-agent/image12.png" alt-text="Placeholder" lightbox="":::
 
 ## Tool tuning
 
@@ -173,7 +173,7 @@ Examples of custom orchestration instructions include:
 - If the question is about benefits, use the validation agent.
 - Use the validation agent first, then apply tone alignment.
 
-:::image type="content" source="media/copilot-tuning-expert-answer-agent/image13.png" alt-text="" lightbox="":::
+:::image type="content" source="media/copilot-tuning-expert-answer-agent/image13.png" alt-text="Placeholder" lightbox="":::
 
 ## Limitations
 
