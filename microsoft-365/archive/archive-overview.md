@@ -60,7 +60,7 @@ Administrators should notify the site owners and end users before a site is arch
 
 ### File Archive (preview) limitations
 
-- Some M365 applications and services do not yet support file-level archiving.  Such applications may display wrong error messages or may fail to load correctly with archived content.  This includes but is not limited to:
+- Some M365 applications and services do not yet support file-level archiving.  Such applications may display wrong error messages, fail to load correctly, or fail actions taken with archived content.  This includes but is not limited to:
 
   - Word and PowerPoint online
     
@@ -70,8 +70,14 @@ Administrators should notify the site owners and end users before a site is arch
     
   - Older versions of Windows, such as Windows 10 and earlier, with the OneDrive sync client
     
+    - This also applies to Windows configured to not utilize frequent updates
+        
   - Older versions of Office desktop apps which have not had updates since March 1st, 2026. 
     
+  - Other apps like Clipchamp, PowerBI, and others will fail to load archived content when attempting to import
+    
+- File-level archive is only available for SharePoint sites.  Archived files which are copied or moved into OneDrive may not always be visually represented correctly as archived.
+
 - Certain file types cannot be archived, including OneNote, SharePoint pages, and SharePoint agents.
 
 ## Related articles
