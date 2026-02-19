@@ -25,8 +25,8 @@ Unlike general-purpose AI experiences, tuned agents are designed for specific, r
 
 This article provides an overview of Copilot Tuning, including key capabilities, supported scenarios, tuning concepts, and administrative governance.
 
-> **Note**
-> Copilot Tuning is currently in private preview. For requirements and enrollment details, see the [Copilot Tuning admin guide].
+> [!NOTE]
+> Copilot Tuning is currently in preview. For requirements and enrollment details, see the [Copilot Tuning admin guide](copilot-tuning-admin-guide.md).
 
 ## Key capabilities
 
@@ -88,7 +88,7 @@ Model tuning runs asynchronously while users continue to access the existing age
 
 ### Tool tuning
 
-Tool tuning extends agent capabilities by integrating additional tools or sub-agents. For example, you can compose agents to perform research, enforce validation rules, or align tone before delivering a final response.
+Tool tuning extends agent capabilities by integrating more tools or subagents. For example, you can compose agents to perform research, enforce validation rules, or align tone before delivering a final response.
 
 Tuning is iterative. Organizations should monitor real-world usage, incorporate feedback, and periodically update context, data, or rules as requirements evolve.
 
