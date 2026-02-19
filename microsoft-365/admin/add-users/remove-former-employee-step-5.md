@@ -5,14 +5,13 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 10/28/2025
+ms.date: 02/19/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-security
 ms.localizationpriority: medium
 ms.collection:
 - Tier1
-- scotvorg
 - M365-subscription-management
 - Adm_O365
 - Adm_TOC
