@@ -176,11 +176,11 @@ To remove a custom domain to Microsoft 365, select the tab based on if:
 - **Microsoft 365 managed** - Microsoft 365 is currently managing your DNS records. Select this option even if you plan to move your DNS records to a new NS provider before canceling your subscription.
 - **Non-Microsoft managed** - Your DNS records are managed at a non-Microsoft NS provider.
 
-### [:::image type="icon" source="../../media/icons/microsoftsymbol.svg"::: **Microsoft 365 managed**](#tab/microsoft-365-managed)
+### [:::image type="icon" source="../../media/icons/microsoftsymbol-18.svg"::: **Microsoft 365 managed**](#tab/microsoft-365-managed)
 
 If your domain currently points to Microsoft 365 nameservers (NS), the following steps are required to properly move the domain to new NS and service providers:
 
-- Update your DNS records at both Microsoft 365 and your new NS provider to point to your new provider's services. For example, point your MX record to your new email provider at both Microsoft 365 and your new NS provider. For more information on changing your DNS records at Microsoft 365, see [Change DNS records to set up Microsoft 365 with any domain registrar](/get-help-with-domains/add-domain.md). For more information on changing your DNS records at your new NS provider, see your new NS provider's documentation.
+- Update your DNS records at both Microsoft 365 and your new NS provider to point to your new provider's services. For example, point your MX record to your new email provider at both Microsoft 365 and your new NS provider. For more information on changing your DNS records at Microsoft 365, see [Change DNS records to set up Microsoft 365 with any domain registrar](../setup/add-domain.md). For more information on changing your DNS records at your new NS provider, see your new NS provider's documentation.
 
 - Once the DNS records are updated at both Microsoft 365 and your new NS provider, change your NS records at your registrar to point to your new NS provider instead of Microsoft 365. For more information, see [Add a custom domain to Microsoft 365](../../admin/get-help-with-domains/change-nameservers-at-any-domain-registrar.md).
 
