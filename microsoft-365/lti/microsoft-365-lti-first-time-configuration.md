@@ -96,9 +96,6 @@ Review the guidance specific to your LMS for more information and tips for migra
 
 - [Canvas Migration Guidance](microsoft-365-lti-canvas.md#migration-guidance)
 - [Blackboard Migration Guidance](microsoft-365-lti-blackboard.md#migration-guidance)
-- Schoology Migration Guidance
-- Brightspace by D2L Migration Guidance
-- Moodle Migration Guidance
-- [Other LTI 1.3 Advantage Platform Migration Guidance](microsoft-365-lti-other#migration-guidance)
+- [Other LTI 1.3 Advantage Platform Migration Guidance](microsoft-365-lti-other.md#migration-guidance)
 
 Learning Tools Interoperability&reg; (LTI&reg;) is a trademark of the 1EdTech Consortium, Inc. (**[**1edtech.org**](https://1edtech.org)**)
