@@ -47,9 +47,8 @@ To turn off directory synchronization:
 2. Use **Update-MgOrganization** to disable directory synchronization:
 
   ```powershell
-    # Install v1.0 and beta Microsoft Graph PowerShell modules 
+    # Install v1.0 Microsoft Graph PowerShell module 
     Install-Module Microsoft.Graph -Force
-    Install-Module Microsoft.Graph.Beta -AllowClobber -Force 
     
     # Connect With Hybrid Identity Administrator Account
     Connect-MgGraph -scopes "Organization.ReadWrite.All,Directory.ReadWrite.All" 

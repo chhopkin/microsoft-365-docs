@@ -26,7 +26,7 @@ description: "Learn how to send messages to your organization in Microsoft 365 u
 
 # Organizational messages in the Microsoft 365 admin center
 
-As an admin, you can now connect with your organization through customized messages using organizational messages, available in the Microsoft 365 admin center under **Reports**. You can now create and manage messages, and review delivery reports, all from a central location. Organizational Messages enhance in-product experiences. They support remote and hybrid work scenarios, such as providing educational materials for employees, information on Microsoft 365 service or license availability, and updates on organizational initiatives. To streamline your outreach within Microsoft products, use the power of organizational messages in the Microsoft 365 admin center .
+As an admin, you can now connect with your organization through customized messages using organizational messages, available in the Microsoft 365 admin center under **Reports**. You can now create and manage messages, and review delivery reports, all from a central location. Organizational Messages enhance in-product experiences. They support remote and hybrid work scenarios, such as providing educational materials for employees, information on Microsoft 365 service or license availability, and updates on organizational initiatives. To streamline your outreach within Microsoft products, use the power of organizational messages in the Microsoft 365 admin center.
 
 To get started, go to [organizational messages in the Microsoft 365 admin center](https://aka.ms/organizationalmessagesportal).
 
@@ -45,7 +45,7 @@ Organizational messages' centralized experience within Microsoft 365 admin cente
 
 - Use or edit premade template messages from Microsoft
 
-- Send messages to Windows 10/11 and Microsoft 365 app locations, such as Windows Spotlight and Teams teaching popover (or coachmark)
+- Send messages to Windows 10/11 and Microsoft 365 app locations, such as Windows Spotlight, Windows Notification Center, Windows Taskbar and Teams teaching popover (or coachmark)
 
 - Save draft messages
 
@@ -227,7 +227,7 @@ This advanced targeting in organizational messages can be enabled using the foll
 
 ### How to create a message by copying an existing message
 
-1. Go the Manage experience and find a message you want to use as a starting point.
+1. Go to the Manage experience and find a message you want to use as a starting point.
 
 2. Select the **Copy** function.
 
@@ -303,12 +303,15 @@ The advanced features in Organizational messages in Microsoft 365 admin center i
 
 ## Setting tenant policies
 
->[!NOTE]
-> If you recently onboarded your tenant to Microsoft Entra ID, it can take 36 to 64 hours before you're able to use the organizational messages features.
+> [!NOTE]
+> Setting tenant policies is only required for delivering messages to Windows surfaces such as Windows Spotlight, Windows Notification Center and Windows Taskbar. It is not required for sending messages to Teams Teaching Popover or to Email.
 
 There are certain policies that block the delivery of organizational messages to your end users if not configured properly, such as using [Microsoft Intune](https://intune.microsoft.com). This section describes some ways to adjust all policy settings for your tenant so that delivery is allowed and works as intended.
 
 ### General Instructions
+
+>[!NOTE]
+> If you recently onboarded your tenant to Microsoft Entra ID, it can take 36 to 64 hours before you're able to use the organizational messages features.
 
 To make policy changes on your tenant using Intune, your admin should:
 
@@ -387,7 +390,7 @@ The Organizational messages centralized experience is the 'one-stop-shop' for or
 
  Reach out to a Global admin and ask them to assign you Organizational Messages Writer or Organizational Message Approver Microsoft Entra role to you following these steps:
 
-  1. Global Admin of target testing tenant goes to **Microsoft 365 Admin Center > Active Users**.
+1. Global Admin of target testing tenant goes to **Microsoft 365 Admin Center > Active Users**.
   
   2. Search for or otherwise select target user in Active users table.
   
