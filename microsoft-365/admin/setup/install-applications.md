@@ -49,7 +49,7 @@ This video shows how to install Microsoft 365 apps on a Windows device.
 
 Microsoft 365 apps appear in your **Start** menu. If you don't see them, follow these steps to install Microsoft 365 apps in Windows:
 
-1. Sign in to [Microsoft 365 Apps](https://www.microsoft365.com/apps) by using your work account.
+1. Sign in to the [Microsoft 365 Apps](https://www.microsoft365.com/apps) by using your work account.
 
 1. In the upper-right corner, select **Install apps**, and then select **Microsoft 365 apps**.
 
