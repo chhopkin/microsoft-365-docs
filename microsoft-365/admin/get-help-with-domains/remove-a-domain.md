@@ -43,9 +43,9 @@ You can remove a domain from Microsoft 365 when you want to [add it to a differe
 
 Before you remove a domain, make sure that:
 
-- The domain isn't set as the default domain.
+- The domain isn't the default domain.
 - No users, shared mailboxes, resource mailboxes, or contacts use the domain.
-- No Microsoft 365 groups, distribution lists, or Teams use the domain.
+- No Microsoft 365 groups, distribution lists, or teams use the domain.
 - The domain isn't used for sign-in by any admin accounts.
 - You understand how email flow changes if the domain has MX records pointing to Microsoft 365.
 
@@ -137,7 +137,7 @@ You can also use PowerShell to move users to another domain. For more informatio
 
 1. Use the drop-down list to select a different domain and then select **Done**.
 
-1. In the **Edit email addresses** pane, select **Save**, and then close the **Edit email addresses** pane using the **X** in the upper right corner.
+1. In the **Edit email addresses** pane, select **Save**, and then close the **Edit email addresses** pane by selecting the **X** in the upper right corner.
 
 1. Repeat these steps for any groups or distribution lists associated with the domain that you want to remove.
 
@@ -169,44 +169,46 @@ You can also use PowerShell to move users to another domain. For more informatio
 
 ## Remove a custom domain
 
-If you're canceling your subscription and are using a custom domain, a few extra steps need to be taken before canceling your subscription.
+If you're canceling your subscription and are using a custom domain, a few extra steps are necessary before canceling your subscription.
 
-To remove a custom domain to Microsoft 365, select the tab based on if:
+To remove a custom domain from Microsoft 365, select the tab based on where your domain nameservers (NS) are hosted:
 
-- **Microsoft 365 managed** - Microsoft 365 is currently managing your DNS records. Select this option even if you plan to move your DNS records to a new NS provider before canceling your subscription.
-- **Non-Microsoft managed** - Your DNS records are managed at a non-Microsoft NS provider.
+- **NS at Microsoft 365** - Nameservers (NS) currently point to Microsoft 365. Select this option even if you plan to move to a new NS provider.
+- **NS at non-Microsoft provider** - Nameservers (NS) currently point to a non-Microsoft provider.
 
-### [:::image type="icon" source="../../media/icons/microsoftsymbol-18.svg"::: **Microsoft 365 managed**](#tab/microsoft-365-managed)
+### [:::image type="icon" source="../../media/icons/microsoftsymbol-18.svg"::: **NS at Microsoft 365**](#tab/ns-at-microsoft-365)
 
-If your domain currently points to Microsoft 365 nameservers (NS), the following steps are required to properly move the domain to new NS and service providers:
+If your domain currently points to Microsoft 365 nameservers (NS), follow the steps in this section to properly move the domain to new NS and service providers.
 
-- Update your DNS records at both Microsoft 365 and your new NS provider to point to your new provider's services. For example, point your MX record to your new email provider at both Microsoft 365 and your new NS provider. For more information on changing your DNS records at Microsoft 365, see [Change DNS records to set up Microsoft 365 with any domain registrar](../setup/add-domain.md). For more information on changing your DNS records at your new NS provider, see your new NS provider's documentation.
+1. Update your DNS records at both Microsoft 365 and your new NS provider to point to your new provider's services. For example, point your MX record to your new email provider at both Microsoft 365 and your new NS provider. For more information on changing your DNS records at Microsoft 365, see [Change DNS records to set up Microsoft 365 with any domain registrar](../setup/add-domain.md). For more information on changing your DNS records at your new NS provider, see your new NS provider's documentation.
 
-- Once the DNS records are updated at both Microsoft 365 and your new NS provider, change your NS records at your registrar to point to your new NS provider instead of Microsoft 365. For more information, see [Add a custom domain to Microsoft 365](../../admin/get-help-with-domains/change-nameservers-at-any-domain-registrar.md).
+1. Once you update the DNS records at both Microsoft 365 and your new NS provider, change your NS records at your registrar to point to your new NS provider instead of Microsoft 365. For more information, see [Add a custom domain to Microsoft 365](../../admin/get-help-with-domains/change-nameservers-at-any-domain-registrar.md).
 
     > [!TIP]
     >
     > You can also update your DNS records at your new NS provider first before moving your NS records. On the day you want to move your NS records, update your DNS records at Microsoft 365 to point to your new provider and then change your NS records to point to your new NS provider.
 
-- Notify your users of the date you plan to switch them to their new service provider along with the new service provider's name. For example, notify your users that their email is being moved to a new email provider. Although the switch usually happens seamlessly, it's a good idea to let your users know about the change.
+1. Notify your users of the date you plan to switch them to their new service provider along with the new service provider's name. For example, notify your users that their email is being moved to a new email provider. Although the switch usually happens seamlessly, it's a good idea to let your users know about the change.
 
-- On the day you change the NS and DNS records:
+1. On the day you change the NS and DNS records:
 
-  - Make sure to save user data that is in Microsoft 365. For more information, see [Save your data](../../commerce/subscriptions/cancel-your-subscription.md#save-your-data).
-  - If needed, uninstall Microsoft 365 from user's devices. For more information, see [Uninstall Microsoft 365](../../commerce/subscriptions/cancel-your-subscription.md#uninstall-microsoft-365-optional).
+   - Save user data that is in Microsoft 365. For more information, see [Save your data](../../commerce/subscriptions/cancel-your-subscription.md#save-your-data).
 
-### [:::image type="icon" source="../../media/icons/software-18.svg"::: **Non-Microsoft managed**](#tab/non-microsoft-managed)
+   - If needed, uninstall Microsoft 365 from user's devices. For more information, see [Uninstall Microsoft 365](../../commerce/subscriptions/cancel-your-subscription.md#uninstall-microsoft-365-optional).
 
-If your domain currently points to non-Microsoft nameservers (NS), the following steps are required to properly move the domain to a new service provider:
+### [:::image type="icon" source="../../media/icons/software-18.svg"::: **NS at non-Microsoft provider**](#tab/ns-at-non-microsoft-provider)
 
-- Update your DNS records at your NS provider to point to your new provider's services. For example, point your MX record to your new email provider at your new NS provider. For information on changing your DNS records at your NS provider, see your new NS provider's documentation.
+If your domain currently points to non-Microsoft nameservers (NS), complete the following steps to properly move the domain to a new service provider:
 
-- Notify your users of the date you plan to switch them to their new service provider along with the new service provider's name. For example, notify your users that their email is being moved to a new email provider. Although the switch usually happens seamlessly, it's a good idea to let your users know about the change.
+1. Update your DNS records at your NS provider to point to your new provider's services. For example, point your MX record to your new email provider at your new NS provider. For information on changing your DNS records at your NS provider, see your new NS provider's documentation.
 
-- On the day you change the DNS records:
+1. Notify your users of the date you plan to switch them to their new service provider along with the new service provider's name. For example, notify your users that their email is being moved to a new email provider. Although the switch usually happens seamlessly, it's a good idea to let your users know about the change.
 
-  - Make sure to save user data that is in Microsoft 365. For more information, see [Save your data](../../commerce/subscriptions/cancel-your-subscription.md#save-your-data).
-  - If needed, uninstall Microsoft 365 from user's devices. For more information, see [Uninstall Microsoft 365](../../commerce/subscriptions/cancel-your-subscription.md#uninstall-microsoft-365-optional).
+1. On the day you change the DNS records:
+
+   - Save user data that is in Microsoft 365. For more information, see [Save your data](../../commerce/subscriptions/cancel-your-subscription.md#save-your-data).
+
+   - If needed, uninstall Microsoft 365 from user's devices. For more information, see [Uninstall Microsoft 365](../../commerce/subscriptions/cancel-your-subscription.md#uninstall-microsoft-365-optional).
 
 ---
 

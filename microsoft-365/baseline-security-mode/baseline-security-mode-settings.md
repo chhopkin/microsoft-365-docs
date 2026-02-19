@@ -185,7 +185,7 @@ You must be a member of the [Teams administrator role](/entra/identity/role-base
 
 |Setting|More information|
 |---|---|
-|**Block unmanaged devices and resource account sign-ins to Microsoft 365 apps**|To increase security, block resource accounts used for Teams devices from being used to sign in to Microsoft 365 clients. <br/><br/> For more information, see [Block Teams resource account sign in to Microsoft 365 clients](/MicrosoftTeams/rooms/block-non-compliant-teams-rooms-devices).|
+|**Don't allow resource accounts on Teams Rooms devices from accessing Microsoft 365 files**|To increase security, block resource accounts used for Teams devices from being used to sign in to Microsoft 365 clients. <br/><br/> For more information, see [Block Teams resource account sign in to Microsoft 365 clients](/MicrosoftTeams/rooms/block-non-compliant-teams-rooms-devices).|
 
 ## Related content
 
