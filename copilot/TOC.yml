@@ -199,14 +199,18 @@ items:
       items:
       - name: Overview
         href: copilot-tuning-overview.md
+      - name: Admin guide
+        href: copilot-tuning-admin-guide.md
+      - name: Tuned agents
+        items:
+        - name: Expert Answers agent
+          href: copilot-tuning-expert-answers-agent.md
       - name: Tuning process
         href: copilot-tuning-process.md
       - name: FAQ
         href: copilot-tuning-faq.yml
       - name: Knowledge selection
         href: copilot-tuning-knowledge-selection.md
-      - name: Admin guide
-        href: copilot-tuning-admin-guide.md
       - name: Microsoft 365 admin center
         href: copilot-tuning-troubleshooting-mac.md
       - name: Fine-tune models
