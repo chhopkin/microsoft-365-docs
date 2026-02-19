@@ -232,7 +232,7 @@ If many references use the domain, it can take several hours up to a day for the
 
 > [!TIP]
 >
-If you have hundreds or thousands of users, use PowerShell to query for all users and then move them to another domain. Otherwise, it's possible for some users to be missed via the UI. If not all users are properly moved, when you go to remove the domain, you can't remove the domain. For more information:
+> If you have hundreds or thousands of users, use PowerShell to query for all users and then move them to another domain. Otherwise, it's possible for some users to be missed via the UI. If not all users are properly moved, when you go to remove the domain, you can't remove the domain. For more information:
 >
 > - Query users and move to another domain: [Update-MgUser](/powershell/module/microsoft.graph.users/update-mguser).
 > - Set the default domain: [Update-MgDomain](/powershell/module/microsoft.graph.identity.directorymanagement/update-mgdomain).
