@@ -116,10 +116,11 @@ If you’re a Volume Licensing customer, see [Options if your volume licensing s
 Before the subscription reaches its end date, you have the following options:
 
 1. **Enable recurring billing for the subscription.**
-    - If **Recurring billing** is already turned on, you don't have to take any action. Your subscription is automatically billed, and you're charged for another year or month, depending on your current billing frequency.
-    - If you turned off **Recurring billing**, you can [turn it back on](renew-your-subscription.md) to keep your subscription active. 
-    - If you bought Microsoft 365 Apps for business with a prepaid card, you can [turn on **Recurring billing**](renew-your-subscription.md) for your subscription and provide a payment method to continue the subscription.
-    - If you have Microsoft 365 Apps for business, see [Manage recurring billing for your subscription](renew-your-subscription.md).
+
+   - If **Recurring billing** is already turned on, you don't have to take any action. Your subscription is automatically billed, and you're charged for another year or month, depending on your current billing frequency.
+   - If you turned off **Recurring billing**, you can [turn it back on](renew-your-subscription.md) to keep your subscription active. 
+   - If you bought Microsoft 365 Apps for business with a prepaid card, you can [turn on ](renew-your-subscription.md)**[Recurring billing](renew-your-subscription.md)** for your subscription and provide a payment method to continue the subscription.
+   - If you have Microsoft 365 Apps for business, see [Manage recurring billing for your subscription](renew-your-subscription.md).
 1. **Let the subscription end.**
 
    - If you don't want to continue your subscription, [turn off recurring billing](renew-your-subscription.md). Your subscription ends on its term end date, and you can ignore all related email notifications.
@@ -128,11 +129,11 @@ Before the subscription reaches its end date, you have the following options:
       
 1. **Switch to an Extended Service Term subscription.**
 
-   •	An Extended Service Term (EST) option is available for subscriptions purchased under an MCA billing account. 
+   - An Extended Service Term (EST) option is available for subscriptions purchased under an MCA billing account. 
    
-   •	EST gives customers additional time at the end of a subscription term to make the right subscription choices for their business without any service disruption. 
+   - EST gives customers additional time at the end of a subscription term to make the right subscription choices for their business without any service disruption. 
    
-   •	EST allows customers to continue service on a month-to-month basis until they cancel or convert to a standard subscription.
+   - EST allows customers to continue service on a month-to-month basis until they cancel or convert to a standard subscription.
    
 ## Lifecycle information for volume licensing customers
 
