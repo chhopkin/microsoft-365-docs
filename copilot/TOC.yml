@@ -205,6 +205,8 @@ items:
         items:
         - name: Expert Answers agent
           href: copilot-tuning-expert-answer-agent.md
+        - name: Optimization agent
+          href: copilot-tuning-optimization-agent.md
       - name: Tuning process
         href: copilot-tuning-process.md
       - name: FAQ
