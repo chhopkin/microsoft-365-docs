@@ -52,7 +52,7 @@ Canvas supports multiple tool deployment for the same tool through two different
 1. There are three Developer Keys for the Microsoft Education API app: two LTI keys and one API key.
     :::image type="content" source="./media/canvas-developer-keys.png" alt-text="Screenshot of developer keys." border="true":::
     1. Enable the API key **170000000001941** by toggling the **State** switch to **On** and then selecting the **Switch to On** button in the pop up to confirm.
-    1. Decide which version of the LTI key you would like to deploy and toggle the **State** switch to **On** and then select the **Switch to On** button in the pop up to confirm. You'll need to know which Client ID listed in the Details column for the developer key you chose to enable for a later step.
+    1. Decide which version of the LTI key you would like to deploy and toggle the **State** switch to **On** and then select the **Switch to On** button in the pop up to confirm. You need to know which Client ID listed in the Details column for the developer key you chose to enable for a later step.
   
     > [!NOTE]
     > The apps are identical. However, the "(Course Nav Disabled)" app has the course navigation placement disabled by default, which might be useful for testing but is less discoverable by instructors since they must locate and enable it in their course menu to leverage the apps and make visible to their students. If you decide to change this default after testing, you can disable the version you have chosen currently, and repeat these instructions for the other app. We strongly recommend using the first key with course nav enabled to help with discoverability and to drive awareness with your instructors.
@@ -122,18 +122,104 @@ If you receive an error message regarding cookies being blocked, check your brow
 
 ## Migration Guidance
 
-When migrating from any legacy app that is replaced by the functionality in the Microsoft 365 LTI app, it's recommended that **Placements of the classic app are disabled, but the app isn't uninstalled until all users are leveraging the new app, and content has been migrated to or recreated with the new app.** Because the classic LTI apps have different resource links to files and data, the process of migrating educators and their content to the new apps may be unique.
+When migrating from any legacy app that is replaced by the functionality in the Microsoft 365 LTI app, it's recommended that **Placements of the classic app are disabled, but the app isn't uninstalled until all users are leveraging the new app, and content has been migrated to or recreated with the new app**. Because the classic LTI apps have different resource links to files and data, the process of migrating educators and their content to the new apps may be unique.
 
-### Migrating from classic Teams Classes LTI
+### Migrating from classic Microsoft OneDrive LTI
 
-[The classic Teams Classes app has sunset as of September 15, 2025.](https://support.microsoft.com/topic/teams-learning-tools-interoperability-lti-sunset-faq-7e071764-f5bf-420a-b4a1-6070cd6b9aa2) There's no required migration of the Teams created by the Canvas [Microsoft Teams sync](https://community.instructure.com/kb/articles/661147-unknown) integration or for any Team connected to a course by the classic Teams Assignments LTI’s Manage Connected Teams feature. The new Teams app that is included in the Microsoft 365 LTI app (Microsoft Education) is backwards compatible and displays any previously connected Teams, as well as any Teams created by the Canvas Teams Sync or Microsoft 365 LTI Team sync going forward. Review the additional [guidance on choosing a Teams sync option](/microsoft-365/lti/microsoft-365-lti-first-time-configuration?#considerations-for-teams-sync-options).
-We suggest that you uninstall the classic app by locating the app in **Admin > Settings > *`<your root account>`* > Apps > View App Configurations** and use the Gear icon drop-down for the **Microsoft Teams classes** app to delete the app deployment.
+The classic Microsoft OneDrive LTI will retire on **September 17, 2026**.  
 
-### Migrating from classic Teams Meetings LTI
+After that date, any content links in courses from the classic LTI will stop working. However, files created by the classic app will continue to be accessible through the Microsoft 365 Group and SharePoint site for the course. There are resources for [locating Microsoft 365 Groups associated with LMS courses on GitHub](https://aka.ms/LTIScripts) to assist your Microsoft 365 Administrators in locating these assets. Any Microsoft OneDrive files submitted as part of Canvas assignments as External Tool submission types will remain available in [SpeedGrader](https://community.instructure.com/kb/articles/661156-how-do-i-get-to-speedgrader-from-an-assignment-quiz-or-graded-discussion), and are managed in Canvas storage.  
 
-[The legacy Teams Meetings has sunset as of September 15, 2025.](https://support.microsoft.com/topic/teams-learning-tools-interoperability-lti-sunset-faq-7e071764-f5bf-420a-b4a1-6070cd6b9aa2) All meetings created by the classic Teams Meetings LTI will continue to be displayed in Outlook and Teams calendars, but only the previous six months and upcoming six months of meetings scheduled will display in the new Meetings app that is part of Microsoft 365 LTI. Course meetings should be created in the new Meetings app going forward.
+A migration to help teachers migrate content links in Canvas courses from classic OneDrive to Microsoft 365 LTI is available in Preview to migrate classic Microsoft OneDrive file links to Microsoft 365 LTI file links used in rich text editors and as External Tool assignment templates for student submission in assignments.  
 
-We suggest that you uninstall the classic app by locating the app in **Admin > *`<your root account>`* > Settings > Apps > View App Configurations** and use the Gear icon drop-down for the **Microsoft Teams Meetings** app to delete the app deployment.
+#### Prerequisites for deploying the OneDrive Migration Tool
+
+1. Microsoft 365 LTI must be deployed and set up in Canvas, and the OneDrive app must be enabled so that all instructors can access the new Microsoft Education OneDrive app in courses they'll migrate.
+
+To confirm the OneDrive app is enabled, log in as a Canvas root admin, go to  **Admin > *`<your root account>`* > Apps > View App Configurations** and select the Gear icon menu for the **Microsoft Education** app.
+
+Select the **Configuration** option to open the Microsoft 365 LTI **Admin Settings** page.  
+<screenshot>
+
+Verify the OneDrive app is enabled.
+
+<A screenshot >
+
+> [!NOTE]
+> It's also recommended that you toggle On the Add to **RCE Toolbar** switch for the new Microsoft Education app so that its icon is pinned in the Canvas Rich Text Editors for users to easily discover. <screenshot>
+ 
+1. The classic Microsoft OneDrive app must also be deployed and enabled (do **not** delete it!). However, once the migration tool is released for instructors, the placements for the classic OneDrive app should be disabled so no further files are attached using this tool during/after migration.
+
+The classic Microsoft OneDrive app placements can be disabled by a Canvas root account admin in **Admin > <your root account> > Settings > Apps > View App Configurations** by selecting the Gear icon drop-down for the **Microsoft OneDrive** app and toggling off all the placements listed.
+
+:::image type="content" source="./media/app-placement.png" alt-text="Screenshot of app placement." border="true":::
+
+#### Deploying the OneDrive Migration Tool
+
+The migration tool is a separate LTI app defined as an Inherited Developer Key which must be deployed to your Canvas root account (or courses for testing).
+
+To deploy the classic OneDrive LTI to Microsoft 365 LTI migration tool, follow these steps:
+
+1. As a Canvas root account admin, go to **Admin > Developer Keys** and select the **Inherited** tab.
+
+Search for **“Microsoft OneDrive Migration Tool”** and select the **Show All Keys** button to display results. Locate the key with ID of 170000000002010 and toggle the State to On.
+<screenshot>
+
+Copy the ID value to your clipboard for the next step.
+1. In the admin menu, navigate to **Admin à Settings** and select the **Apps** tab across the top.
+
+1. In the **External Apps** view, select the **View App Configurations** button, and then select the **+ App** button.
+
+1. In the Add App dialog, change the **Configuration Type** dropdown to **By Client ID** and **170000000001935**, and then select **Submit.**
+
+1. Select **Install** to complete the installation.
+
+#### Using the OneDrive Migration Tool
+
+You must have a teacher role or Canvas admin role to have access to the migration tool in a course. The course doesn't need to be Published in order to run the tool.
+
+1. There are two ways to access the OneDrive Migration Tool in a course:
+   1. Through the Course Home page <A screenshot>
+   1. Through the Course Settings page <a screenshot>
+ 
+1. Selecting the OneDrive Migration Tool button launches the migration tool that verifies the tenant and initializes any required course resources to complete the migration. This may take a few seconds if initialization of group and SPO resources is required.
+<a screenshot>
+
+1. If this is the first time you have run the migration tool in a course, an authorization to call required Canvas APIs is displayed.
+   1. Select the **Authorize** button to grant access to the required APIs to locate and update file links for migration.<a screenshot>
+   1. A dialog box appears to confirm your authorization for the app to access Canvas APIs on your behalf to complete the migration. Select **Authorize** to continue. <a screenshot>
+
+1. The migration tool scans your course for classic OneDrive LTI file links in and displays the content items containing file links that can be migrated. The content type (ex: Assignments, Pages), name, and number of file links found are displayed. You can deselect a content item to exclude it from migration.
+<a screenshot>
+
+> [!NOTE]
+> The early Preview of the OneDrive Migration Tool only scans for files that are linked or embedded in Assignments and Pages. Support for Announcements, Discussions, Syllabus, and other objects will be added prior to general release.
+> [!IMPORTANT]
+> Course Collaborations created with the classic Microsoft OneDrive LTI won't be migrated and should be re-created using the Microsoft 365 LTI (Microsoft Education) app in Canvas courses. Old Collaborations will fail to launch after September 17, 2026; however, the files will remain on the class Microsoft OneDrive Sharepoint site for archive access and retention.
+
+1. Confirm the content items that will be migrated and select the **Migrate** button to proceed. A popup confirms you wish to proceed with the migration. Select **Migrate** to continue.
+   <a screenshot>
+
+   Progress indicators appear for each item and for overall progress until the migration is completed.
+
+1. When the migration is finished, a summary appears confirming success for all files that were migrated. <a screenshot>
+
+1. Select **Done** to close the view and return to the migration tool start page. The migration tool start page scans the course to confirm there aren’t any additional files to migrate and lets you know if none were found. If you chose to skip any files listed for migration in step 4, those files appear as candidates for migration again and can be ignored. <a screenshot>
+
+> [!NOTE]
+> There's no limit to the number of files that can be migrated in a course. However, you can choose to migrate one content type at a time (ex: Assignments only) to break up the time it takes to migrate many files and be able to confirm migration by content type.
+
+### Migrating from Office 365 LTI 1.1 (Instructure legacy app)
+
+Currently, there's no direct migration path or copy available from Microsoft Office 365 LTI 1.1 file links to Microsoft Education file links used in rich text editors, as External Tool assignment templates for student submission, or in Collaborations.
+
+After deploying the Microsoft 365 LTI, we recommend that you leave the Office 365 app installed to keep existing files and links accessible in active courses, but disable the Placements, so new links are only created using the Microsoft 365 LTI app via Microsoft Education menu items.
+
+The Office 365 LTI app placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`* > Settings > Apps > View App Configurations** by selecting the Gear icon drop-down for the **Office 365** app and toggling off all the placements listed.
+
+:::image type="content" source="./media/app-placement.png" alt-text="Screenshot of app placement." border="true":::
+
+It's also recommended that you toggle on the **Add to RCE** Toolbar switch for the new Microsoft Education app so that it's featured in the Canvas Rich Text Editors for users to easily discover.
 
 ### Migrate from classic OneNote Class Notebook LTI 1.1 app
 
@@ -147,6 +233,25 @@ We suggest that after deploying Microsoft 365 LTI with OneNote Class Notebooks e
 
 The classic Microsoft OneNote Class Notebook LTI 1.1 app can be removed, or placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`* > Settings > Apps > View App Configurations** by selecting the Gear icon drop-down for the **OneNote Class Notebook** app and deleting or toggling off all the placements listed.
 
+### Migrating from classic Microsoft Teams Assignments LTI
+
+Teams Assignments created by the classic Teams Assignments LTI app can be reused as Microsoft 365 LTI (Microsoft Education) Assignments. Any Team Assignment created in the LMS or via the assignments app in Microsoft Teams for Education can be copied and reused using the copy **From Existing** functionality in the **Create Assignment** instructor flow.
+
+After deploying the Microsoft 365 LTI, we recommend that you leave the classic Teams Assignments app installed to keep existing files and links accessible in active courses, but disable the Placements, so new assignments are only created using the Microsoft 365 LTI app via Microsoft Education menu items.
+
+The classic Teams Assignments LTI app placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`* > Settings > Apps > View App Configurations** by selecting the Gear icon drop-down for the **Teams Assignments** app and toggling off all the placements listed. Once all assignments have been copied into new courses and courses with existing classic Teams Assignments have been archived, the classic Teams Assignments app can be removed.
+
+### Migrating from classic Teams Classes LTI
+
+[The classic Teams Classes app has sunset as of September 15, 2025.](https://support.microsoft.com/topic/teams-learning-tools-interoperability-lti-sunset-faq-7e071764-f5bf-420a-b4a1-6070cd6b9aa2) There's no required migration of the Teams created by the Canvas [Microsoft Teams sync](https://community.instructure.com/kb/articles/661147-unknown) integration or for any Team connected to a course by the classic Teams Assignments LTI’s Manage Connected Teams feature. The new Teams app that is included in the Microsoft 365 LTI app (Microsoft Education) is backwards compatible and displays any previously connected Teams, as well as any Teams created by the Canvas Teams Sync or Microsoft 365 LTI Team sync going forward. Review the additional [guidance on choosing a Teams sync option](/microsoft-365/lti/microsoft-365-lti-first-time-configuration?#considerations-for-teams-sync-options).
+We suggest that you uninstall the classic app by locating the app in **Admin > Settings > *`<your root account>`* > Apps > View App Configurations** and use the Gear icon drop-down for the **Microsoft Teams classes** app to delete the app deployment.
+
+### Migrating from classic Teams Meetings LTI
+
+[The classic Teams Meetings has sunset as of September 15, 2025.](https://support.microsoft.com/topic/teams-learning-tools-interoperability-lti-sunset-faq-7e071764-f5bf-420a-b4a1-6070cd6b9aa2) All meetings created by the classic Teams Meetings LTI will continue to be displayed in Outlook and Teams calendars, but only the previous six months and upcoming six months of meetings scheduled will display in the new Meetings app that is part of Microsoft 365 LTI. Course meetings should be created in the new Meetings app going forward.
+
+We suggest that you uninstall the classic app by locating the app in **Admin > *`<your root account>`* > Settings > Apps > View App Configurations** and use the Gear icon drop-down for the **Microsoft Teams Meetings** app to delete the app deployment.
+
 ### Migrating from classic Microsoft OneDrive LTI
 
 The classic Microsoft OneDrive LTI will be sunset on September 17 2026. After that date, any content links in courses from the classic LTI will stop working; however, files created by the classic app will continue to be accessible through the Microsoft 365 Group and SharePoint site for the course. There are resources for [locating Microsoft 365 Groups associated with LMS courses on GitHub](https://aka.ms/LTIScripts) to assist your Microsoft 365 Administrators in locating these assets. Any Microsoft OneDrive files submitted as part of Canvas assignments as External Tool submission types remain available in [SpeedGrader](https://community.instructure.com/en/kb/articles/661156-how-do-i-get-to-speedgrader-from-an-assignment-quiz-or-graded-discussion) and are managed in Canvas storage.
@@ -157,31 +262,9 @@ After deploying Microsoft 365 LTI with OneDrive enabled, we recommend that you l
 
 The classic Microsoft OneDrive app placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`* > Settings > Apps > View App Configurations** by selecting the Gear icon drop-down for the **Microsoft OneDrive** app and toggling off all the placements listed.
 
-:::image type="content" source="./media/app-placement.png" alt-text="Screenshot of app placement." border="true":::
-
 It's also recommended that you toggle on the **Add to RCE** Toolbar switch for the new Microsoft Education app so that it's featured in the Canvas Rich Text Editors for users to easily discover.
 
 After the retirement date of September 17, 2026, the classic app will no longer work and should be removed.
-
-### Migrating from Office 365 LTI 1.1 (Instructure legacy app)
-
-Currently, there's no direct migration path or copy available from Microsoft Office 365 LTI 1.1 file links to Microsoft Education file links used in rich text editors, as External Tool assignment templates for student submission, or in Collaborations.
-
-After deploying the Microsoft 365 LTI, we recommend that you leave the Office 365 app installed to keep existing files and links accessible in active courses, but disable the Placements, so new links are only created using the Microsoft 365 LTI app via Microsoft Education menu items.
-
-The Office 365 LTI app placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`* > Settings > Apps > View App Configuration**s by selecting the Gear icon drop-down for the Office 365 app and toggling off all the placements listed.
-
-:::image type="content" source="./media/app-placement.png" alt-text="Screenshot of app placement." border="true":::
-
-It's also recommended that you toggle on the **Add to RCE** Toolbar switch for the new Microsoft Education app so that it's featured in the Canvas Rich Text Editors for users to easily discover.
-
-### Migrating from classic Microsoft Teams Assignments LTI
-
-Teams Assignments created by the classic Teams Assignments LTI app can be reused as Microsoft 365 LTI (Microsoft Education) Assignments. Any Team Assignment created in the LMS or via the assignments app in Microsoft Teams for Education can be copied and reused using the copy **From Existing** functionality in the **Create Assignment** instructor flow.
-
-After deploying the Microsoft 365 LTI, we recommend that you leave the classic Teams Assignments app installed to keep existing files and links accessible in active courses, but disable the Placements, so new assignments are only created using the Microsoft 365 LTI app via Microsoft Education menu items.
-
-The classic Teams Assignments LTI app placements can be disabled by a Canvas root account admin in **Admin > *`<your root account>`* > Settings > Apps > View App Configurations** by selecting the Gear icon drop-down for the Teams Assignments app and toggling off all the placements listed. Once all assignments have been copied into new courses and courses with existing classic Teams Assignments have been archived, the classic Teams Assignments app can be removed.
 
 ### Migrating from Reflect LTI
 
