@@ -126,7 +126,7 @@ Before the subscription reaches its end date, you have the following options:
       
    - If you're a Microsoft 365 Business Standard customer, and you prepaid for your subscription and activated it with a product key, you can let your subscription end by taking no action.
       
-1. **Switch to an Extended Service Term subscription**
+1. **Switch to an Extended Service Term subscription.**
 
    •	An Extended Service Term (EST) option is available for subscriptions purchased under an MCA billing account. 
    
