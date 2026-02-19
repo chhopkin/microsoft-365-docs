@@ -111,7 +111,7 @@ You can also use PowerShell to move users to another domain. For more informatio
 
 > [!NOTE]
 >
-> Moving groups to another domain includes Microsoft 365 groups, Teams-connected groups, and distribution lists that have email addresses using the domain.
+> Moving groups to another domain includes Microsoft 365 groups, Teams-connected groups, and distribution lists that use the domain in their email addresses.
 
 ::: moniker range="o365-worldwide"
 
@@ -169,7 +169,7 @@ You can also use PowerShell to move users to another domain. For more informatio
 
 ## Remove a custom domain
 
-If you're canceling your subscription and are using a custom domain, a few extra steps are necessary before canceling your subscription.
+If you're canceling your subscription and using a custom domain, you need to complete a few extra steps before canceling your subscription.
 
 To remove a custom domain from Microsoft 365, select the tab based on where your domain nameservers (NS) are hosted:
 
@@ -186,7 +186,11 @@ If your domain currently points to Microsoft 365 nameservers (NS), follow the st
 
     > [!TIP]
     >
-    > You can also update your DNS records at your new NS provider first before moving your NS records. On the day you want to move your NS records, update your DNS records at Microsoft 365 to point to your new provider and then change your NS records to point to your new NS provider.
+    > Before moving to your new NS provider, you can configure DNS records at your new NS provider ahead of time. At your new NS provider, configure your DNS records to point to your new service provider while leaving the DNS records unchanged at Microsoft 365.
+    >
+    > On the day you want to move your NS records to the new NS provider, update your DNS records at Microsoft 365 to match the DNS records at your new NS provider. Once you update the DNS records in Microsoft 365, change your NS records to point to your new NS provider.
+    >
+    > This approach allows you to set up your DNS records at your new NS provider ahead of time and then switch to the new NS provider when you're ready.
 
 1. Notify your users of the date you plan to switch them to their new service provider along with the new service provider's name. For example, notify your users that their email is being moved to a new email provider. Although the switch usually happens seamlessly, it's a good idea to let your users know about the change.
 
