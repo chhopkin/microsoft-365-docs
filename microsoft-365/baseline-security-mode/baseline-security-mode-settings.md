@@ -3,7 +3,7 @@ title: "Baseline security mode settings"
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 02/06/2026
+ms.date: 02/19/2026
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-business
@@ -146,7 +146,7 @@ You must be a member of the [Teams administrator role](/entra/identity/role-base
 |---|---|
 |Don't allow resource accounts on Teams Rooms devices from accessing Microsoft 365 files|To increase security, we recommend you remove resource accounts access that are used by Teams Rooms and devices to access Microsoft 365 assets used for meeting and collaboration. <br/><br/> For more information, see [Set-SPOTenant](/powershell/module/microsoft.online.sharepoint.powershell/set-spotenant).|
 |Only allow endpoint managed, compliant devices to sign in|To increase security, we recommend that only compliant, organization-managed Teams Room devices can sign in to Microsoft 365 applications and that resource accounts can't be misused to authenticate from unmanaged devices. <br/><br/> For more information, see [Block Teams resource account sign in to Microsoft 365 clients](/MicrosoftTeams/rooms/block-non-compliant-teams-rooms-devices).|
-|Block resource account sign in to Microsoft 365 clients|To increase security, resource accounts used for Teams devices must be blocked from being used to sign in or used by Microsoft 365 clients. <br/><br/> For more information, see [Block Teams resource account sign in to Microsoft 365 clients](/MicrosoftTeams/rooms/block-non-compliant-teams-rooms-devices).|
+|Block unmanaged devices and resource account sign-ins to Microsoft 365 apps|To increase security, resource accounts used for Teams devices must be blocked from being used to sign in or used by Microsoft 365 clients. <br/><br/> For more information, see [Block Teams resource account sign in to Microsoft 365 clients](/MicrosoftTeams/rooms/block-non-compliant-teams-rooms-devices).|
 
 ### Block unmanaged devices and resource account sign-ins to Microsoft 365 apps
 
