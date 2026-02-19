@@ -26,7 +26,7 @@ customer-intent: As an administrator, I need to delete a user account because so
 
 # Delete a user from your organization
   
-If someone leaves your organization, or if you can't change a user's information, such as their email address, you can delete a user account in Microsoft 365. This article describes what to do and important points to keep in mind.
+If someone leaves your organization, or if you can't change a user's information, such as their email address, you can delete a user account in Microsoft 365 and then set up a new account. This article describes how to delete a user account and includes some important points to keep in mind.
 
 > Looking for how to delete your *own* Microsoft 365 user account that you use at work or school? Contact the technical support at your work or university to do these steps for you.
 
