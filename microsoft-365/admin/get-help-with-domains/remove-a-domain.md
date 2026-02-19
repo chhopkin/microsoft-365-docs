@@ -239,29 +239,29 @@ If you have hundreds or thousands of users, use PowerShell to query for all user
 
 ## Still need help?
 
-[!INCLUDE [How to get tech support for SMB](../../includes/smb-how-to-get-tech-support.md)]
-
 [**Check the Domains FAQ**](../setup/domains-faq.yml) if you don't find what you're looking for.
 
 ::: moniker range="o365-worldwide"
+
+If the process isn't working, you might need to manually remove your domain. For assistance with manually removing your domain, [contact support](../../business-video/get-help-support.md).
 
 > [!NOTE]
 >
 > You can't remove [**.onmicrosoft.com**](../setup/domains-faq.yml) domains from your account. When you remove a domain, user accounts revert to the default **.onmicrosoft.com** address as the primary SMTP/UserprincipalName.
 
-If the process isn't working, you might need to manually remove your domain. For assistance with manually removing your domain, [contact support](../../business-video/get-help-support.md).
-
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
+
+If the process isn't working, you might need to manually remove your domain. For assistance with manually removing your domain, [contact support](../../business-video/get-help-support.md?view=o365-21vianet&preserve-view=true).
 
 > [!NOTE]
 >
 > You can't remove [**.partner.onmschina.cn**](../setup/domains-faq.yml) domains from your account. When you remove a domain, user accounts revert to the default **.partner.onmschina.cn** address as the primary SMTP/UserprincipalName.
 
-If the process isn't working, you might need to manually remove your domain. For assistance with manually removing your domain, [contact support](../../business-video/get-help-support.md?view=o365-21vianet&preserve-view=true).
-
 ::: moniker-end
+
+[!INCLUDE [How to get tech support for SMB](../../includes/smb-how-to-get-tech-support.md)]
 
 ## Related content
 
