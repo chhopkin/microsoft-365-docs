@@ -3,7 +3,7 @@ title: Baseline security mode settings
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 02/18/2026
+ms.date: 02/19/2026
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-business

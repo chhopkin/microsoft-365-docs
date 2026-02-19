@@ -1,12 +1,12 @@
 ---
-title: Add and Replace Your onmicrosoft.com Fallback Domain in Microsoft 365
+title: Add and Replace a onmicrosoft.com Fallback Domain
 f1.keywords:
 - NOCSH
 ms.author: dansimp
 ms.reviewer: frankroj
 author: dansimp
 manager: dansimp
-ms.date: 02/18/2026
+ms.date: 02/19/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -39,7 +39,7 @@ description: Learn how to add a new onmicrosoft.com domain and set it as your fa
 #customer intent: As an IT admin, I want to add a new onmicrosoft.com domain so that I can customize my organization's fallback domain.
 ---
 
-# Add and replace your onmicrosoft.com fallback domain in Microsoft 365
+# Add and replace a onmicrosoft.com fallback domain in Microsoft 365
 
 When you sign up for Microsoft 365, Microsoft provides an *onmicrosoft.com* domain. The *onmicrosoft.com* domain is your **fallback domain**. Microsoft provides the fallback domain in case you don't own a domain or don't want to connect a domain to Microsoft 365. An example of a fallback domain is:
 
@@ -76,7 +76,7 @@ To add, modify, or remove domains, you must be a **Domain Name Administrator** o
 
 To add a new onmicrosoft.com domain, follow these steps:
 
-1. Sign in to [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
@@ -112,7 +112,7 @@ To add a new onmicrosoft.com domain, follow these steps:
 
 After you create your new onmicrosoft.com domain, change your fallback domain:
 
-1. Sign in to [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 

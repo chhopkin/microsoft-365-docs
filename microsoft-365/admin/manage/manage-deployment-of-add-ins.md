@@ -66,7 +66,7 @@ Before you begin, see [Determine if centralized deployment of add-ins works for 
 
 To deploy an Office Add-in using the Microsoft 365 admin center, follow these steps:
 
-1. Sign in to [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** > **Integrated apps**.
 

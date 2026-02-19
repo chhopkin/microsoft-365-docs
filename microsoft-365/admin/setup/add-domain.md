@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: 02/17/2026
+ms.date: 02/19/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -90,11 +90,11 @@ To add a custom domain to Microsoft 365, select the tab based on your registrar'
 >
 > If your registrar supports **Domain Connect** but you prefer to manually verify domain ownership and manually add DNS records needed by Microsoft 365 services, select the **Manual** tab. If you decide to manually add DNS records, make sure you're familiar with how to properly add DNS records at your registrar. Incorrect DNS records can cause email and service outages.
 
-### [:::image type="icon" source="/autopilot/images/icons/software-18.svg"::: **Domain Connect**](#tab/domain-connect)
+### [:::image type="icon" source="../../media/icons/software-18.svg"::: **Domain Connect**](#tab/domain-connect)
 
 To add a custom domain to Microsoft 365 by using [**Domain Connect**](#domain-connect), follow these steps:
 
-1. Sign in to [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
 
 1. In the Microsoft 365 admin center, you can start the process of adding a custom domain to Microsoft 365 in two different ways:
 
@@ -139,7 +139,7 @@ To add a custom domain to Microsoft 365 by using [**Domain Connect**](#domain-co
 
 1. The **Domain setup is complete** page displays. Select **Done** to complete adding your custom domain and DNS records to Microsoft 365.
 
-### [:::image type="icon" source="/autopilot/images/icons/software-18.svg"::: **Manual**](#tab/manual)
+### [:::image type="icon" source="../../media/icons/software-18.svg"::: **Manual**](#tab/manual)
 
 If a registrar doesn't support [**Domain Connect**](#domain-connect), manually perform the following tasks:
 
@@ -148,7 +148,7 @@ If a registrar doesn't support [**Domain Connect**](#domain-connect), manually p
 
 To add a custom domain to Microsoft 365 by manually verifying domain ownership and manually adding DNS records, follow these steps:
 
-1. Sign in to [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
 
 1. In the Microsoft 365 admin center, you can start the process of adding a custom domain to Microsoft 365 in two different ways:
 

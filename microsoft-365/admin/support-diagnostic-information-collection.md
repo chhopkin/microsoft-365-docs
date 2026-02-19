@@ -4,7 +4,7 @@ ms.author: deniseb
 ms.reviewer: onatwil; ramical
 author: denisebmsft
 manager: dansimp
-ms.date: 02/18/2026
+ms.date: 02/19/2026
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-admin
@@ -69,7 +69,7 @@ When a Microsoft Support engineer works on your support case, the following Micr
 | Order | Event | Actor |
 |--|--|--|
 | 1 | If it doesn't exist already, **Add a Service Principal** for the Microsoft Support tenant. <br/><br/>Microsoft Entra GDAP application. | Service Principal for the Assist API application. <br/><br/>(See [What is the Assist API application, and how do I find it in my tenant?](#what-is-the-assist-api-application-and-how-do-i-find-it-in-my-tenant)) |
-| 2 | **Add member to role**.<br/><br/> Group from Microsoft Support tenant is added to the Microsoft 365 Support Engineer role. | Assist API application <br/><br/>App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140` |
+| 2 | **Add member to role**.<br/><br/> Group from Microsoft Support tenant is added to the Microsoft 365 Support Engineer role. | Assist API application. <br/><br/>App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`. |
 
 ### Audit events during support case closure
 
@@ -78,7 +78,7 @@ When your support case is closed, the following Microsoft Entra audit events are
 | Order | Event | Actor |
 |--|--|--|
 | 1 | **Add a service principal**.<br/><br/>The Microsoft Entra GDAP application handles revocation. | Assist API application. <br/><br/>App ID `2b8844d8-6c87-4fce-97a0-fbec9006e140`. |
-| 2 | **Deleting allowed assignable roles**. | Microsoft Entra GDAP application.<br/><br/>App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89` |
+| 2 | **Deleting allowed assignable roles**. | Microsoft Entra GDAP application.<br/><br/>App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`. |
 | 3 | **Delete partner specific cross-tenant access setting**. <br/><br/>Removes the Microsoft Support tenant if there are no other active support cases or 30 days have elapsed since the most recent case was created. | Microsoft Entra GDAP application.<br/><br/>App ID `bc56af95-7a3b-459f-98a9-bd86532b0e89`. |
 
 ### What is the Assist API application, and how do I find it in my tenant?
@@ -87,7 +87,7 @@ Assist API is a Microsoft-owned application with the Application ID `2b8844d8-6c
 
 To find the service principal ID in your tenant, follow these steps:
 
-1. Sign in to [Microsoft Entra admin center](https://entra.microsoft.com).
+1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com).
 
 1. From the left navigation bar, select **Entra ID** to expand it, and then select **Enterprise Apps**.
 
@@ -121,12 +121,12 @@ Microsoft Support accesses only the information needed to troubleshoot and resol
 
 | Category | Examples |
 |--|--|
-| **Support data**: All data provided to Microsoft by the customer as part of a customer engagement to obtain support services | Support requests from customers and phone conversations, online chat sessions, or remote assistance sessions between support professionals and customers.<br/><br/> Case notes and records related to support requests from customers.<br/><br/>Data provided to Microsoft by the customer as part of support activities. |
-| **Account data**: Contact, billing, purchase, payment, and license information | Customer's provisioning information.<br/><br/>Account configuration and billing data.<br/><br/>Tenant administrator contact information, such as tenant administrator's name, address, e-mail address, phone number.<br/><br/>Licensing and purchase information. |
-| **System metadata**: Data generated in the course of running the service | Event logs.<br/><br/>Access control logs.<br/><br/>Account information belonging to Microsoft operations personnel.<br/><br/>Microsoft server names and server IPs.<br/><br/>Server patching and vulnerability data.<br/><br/>Service configuration data.<br/><br/>Telemetry (on-premises or cloud). |
-| **Organization information**: Data that can be used to identify a particular tenant, deployment, or organization (generally configuration or usage data) | Tenant ID (non-GUID).<br/><br/>Tenant ID (GUID) due to the existence of many out of boundary Tenant ID to name mapping tables.<br/><br/>Tenant usage data.<br/><br/>Tenant IP addresses (IPv4), such as tenant's firewall IP address.<br/><br/>Global prefix and subnet ID (first 64 bits of IPv6 address).<br/><br/>Tenant domain name in e-mail address, such as `joe@contoso.com`.<br/><br/>Mapping of organizational GUID to organization. |
-| **Customer data**: Data that directly identifies or could be used to identify the authenticated user of a Microsoft service | User-specific IP address (IPv4).<br/><br/>User principal name (`joe@company.com`).<br/><br/>Address book data.<br/><br/>User's machine name.<br/><br/>SIP URI. |
-| **Pseudonymous identifiers**: An identifier created by Microsoft tied to the user of a Microsoft service | User GUIDs or PUIDs.<br/><br/>Session IDs. |
+| **Support data**: All data provided to Microsoft by the customer as part of a customer engagement to obtain support services. | Support requests from customers and phone conversations, online chat sessions, or remote assistance sessions between support professionals and customers.<br/><br/> Case notes and records related to support requests from customers.<br/><br/>Data provided to Microsoft by the customer as part of support activities. |
+| **Account data**: Contact, billing, purchase, payment, and license information. | Customer's provisioning information.<br/><br/>Account configuration and billing data.<br/><br/>Tenant administrator contact information, such as tenant administrator's name, address, e-mail address, phone number.<br/><br/>Licensing and purchase information. |
+| **System metadata**: Data generated in the course of running the service. | Event logs.<br/><br/>Access control logs.<br/><br/>Account information belonging to Microsoft operations personnel.<br/><br/>Microsoft server names and server IPs.<br/><br/>Server patching and vulnerability data.<br/><br/>Service configuration data.<br/><br/>Telemetry (on-premises or cloud). |
+| **Organization information**: Data that can be used to identify a particular tenant, deployment, or organization (generally configuration or usage data). | Tenant ID (non-GUID).<br/><br/>Tenant ID (GUID) due to the existence of many out of boundary Tenant ID to name mapping tables.<br/><br/>Tenant usage data.<br/><br/>Tenant IP addresses (IPv4), such as tenant's firewall IP address.<br/><br/>Global prefix and subnet ID (first 64 bits of IPv6 address).<br/><br/>Tenant domain name in e-mail address, such as `joe@contoso.com`.<br/><br/>Mapping of organizational GUID to organization. |
+| **Customer data**: Data that directly identifies or could be used to identify the authenticated user of a Microsoft service. | User-specific IP address (IPv4).<br/><br/>User principal name (`joe@company.com`).<br/><br/>Address book data.<br/><br/>User's machine name.<br/><br/>SIP URI. |
+| **Pseudonymous identifiers**: An identifier created by Microsoft tied to the user of a Microsoft service. | User GUIDs or PUIDs.<br/><br/>Session IDs. |
 
 ## How long does Microsoft Support have access to tenant data?
 
