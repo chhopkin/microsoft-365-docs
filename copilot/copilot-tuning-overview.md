@@ -16,7 +16,6 @@ ms.collection:
 - magic-ai-copilot
 description: "Learn how to use Microsoft 365 Copilot Tuning to create task-specific fine-tuned LLMs based on your tenant data."
 ---
-
 ## Microsoft 365 Copilot Tuning overview (preview)
 
 Microsoft 365 Copilot Tuning is an AI customization capability that enables organizations to create task-specific Copilot agents by tuning large language models (LLMs) with their own organizational data. Tuning allows agents to produce responses that reflect an organization’s domain knowledge, terminology, tone, and quality standards.
