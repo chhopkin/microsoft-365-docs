@@ -89,7 +89,7 @@ The following customer data is stored at rest in the _Local Region Geography_:
   - Teams chats
   - Teams private channel messages
   - Yammer user and community messages
-  - SharePoint, OneDrive, Exchange Online and Microsoft Teams follow the data residency commitments for those services. Refer to [Exchange Online](m365-dr-workload-exo.md), [SharePoint](m365-dr-workload-spo.md), and [Microsoft Teams](m365-dr-workload-teams.md) workload data residency pages for more details.
+  - SharePoint, OneDrive, Exchange Online and Microsoft Teams follow the data residency commitments for those services. Refer to [Exchange Online](m365-dr-service-exo.md), [SharePoint](m365-dr-service-spo.md), and [Microsoft Teams](m365-dr-service-teams.md) workload data residency pages for more details.
 - Training classifiers
 - Disposition data
 - Mappings between retention labels and Data Loss Prevention (DLP) policies
@@ -167,4 +167,4 @@ The following customer data is stored at rest in the _Local Region Geography_:
 
 The following customer data is stored in the _Local Region Geography_:
 
-- Viva Connections Dashboard and Feed can have content sourced from SharePoint, Exchange Online and Microsoft Teams. All customer data sourced from these services covered by data residency commitments will be stored in the _Local Region Geography_. Refer to [Exchange Online](m365-dr-workload-exo.md), [SharePoint](m365-dr-workload-spo.md), and [Microsoft Teams](m365-dr-workload-teams.md) workload data residency pages for more details.
+- Viva Connections Dashboard and Feed can have content sourced from SharePoint, Exchange Online and Microsoft Teams. All customer data sourced from these services covered by data residency commitments will be stored in the _Local Region Geography_. Refer to [Exchange Online](m365-dr-service-exo.md), [SharePoint](m365-dr-service-spo.md), and [Microsoft Teams](m365-dr-service-teams.md) workload data residency pages for more details.
