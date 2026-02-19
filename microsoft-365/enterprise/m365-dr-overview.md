@@ -64,7 +64,7 @@ In order to promote clarity in the capability descriptions on data residency fun
 |Tenant |A _Tenant_ represents an organization in _Microsoft Entra ID_. It's a reserved Microsoft Entra service instance that an organization receives and owns when it signs up for a Microsoft cloud service such as Azure or Microsoft 365. Each _Microsoft Entra ID Tenant_ is distinct and separate from other _Microsoft Entra ID Tenants_. |
 
 > [!NOTE]
-> *The [Microsoft Purview](m365-dr-workload-purview.md) services covered as part of the _Advanced Data Residency commitment_ (as of July 2025) include [Data Loss Prevention](m365-dr-workload-purview.md#data-security---data-loss-prevention-dlp), [Information Barriers](m365-dr-workload-purview.md#data-security---information-barriers), [Information Protection (MIP)](m365-dr-workload-purview.md#data-security---information-protection-mip), [Audit (Standard)](m365-dr-workload-purview.md#risk--compliance---audit-standard), [Audit (Premium)](m365-dr-workload-purview.md#risk--compliance---audit-premium), and [Data Lifecycle Management (DLM)](m365-dr-workload-purview.md#risk--compliance---data-lifecycle-management-dlm). Additional Microsoft Purview services are not currently supported.
+> *The [Microsoft Purview](m365-dr-service-purview.md) services covered as part of the _Advanced Data Residency commitment_ (as of July 2025) include [Data Loss Prevention](m365-dr-service-purview.md#data-security---data-loss-prevention-dlp), [Information Barriers](m365-dr-service-purview.md#data-security---information-barriers), [Information Protection (MIP)](m365-dr-service-purview.md#data-security---information-protection-mip), [Audit (Standard)](m365-dr-service-purview.md#risk--compliance---audit-standard), [Audit (Premium)](m365-dr-service-purview.md#risk--compliance---audit-premium), and [Data Lifecycle Management (DLM)](m365-dr-service-purview.md#risk--compliance---data-lifecycle-management-dlm). Additional Microsoft Purview services are not currently supported.
 
 ## Overview of Data Residency
 
@@ -136,7 +136,7 @@ There are three methods for ensuring that the _Tenant_ data location for a parti
 1. Only available for _Local Region Geography_ and _Future Local Region Geography_ (when the future data center is launched) countries/regions.
   
 > [!NOTE]
-> See the [Service Data Residency Capabilities section](m365-dr-workload-exo.md) for more details on these topics.
+> See the [Service Data Residency Capabilities section](m365-dr-service-exo.md) for more details on these topics.
 
 #### **Table 3: Durable Commitments on Data Location by Geography**
 
