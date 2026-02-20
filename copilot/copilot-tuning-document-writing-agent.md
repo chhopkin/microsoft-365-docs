@@ -18,6 +18,9 @@ The **Document Writing** tunable agent helps you generate long-form documents th
 
 The agent supports scenarios such as technical documentation, legal documents, reports, and other structured content.
 
+> [!IMPORTANT]
+> Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
+
 ## What the Document Writing agent can do
 
 The Document Writing agent enables you to:

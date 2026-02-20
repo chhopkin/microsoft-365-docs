@@ -19,7 +19,8 @@ Copilot Tuning goes beyond retention and retrieval to train tenant-specific LLMs
 
 This article describes the process for training and tuning models to customize Microsoft 365 Copilot for your organization.
 
-[!INCLUDE [copilot-tuning-preview](includes/copilot-tuning-preview.md)]
+> [!IMPORTANT]
+> Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
 
 ## Tuning process overview
 

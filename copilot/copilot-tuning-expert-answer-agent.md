@@ -18,6 +18,9 @@ The **Expert Answers** agent is a tunable Copilot agent designed to answer compl
 
 This article describes common scenarios, tuning options, requirements, and limitations to help you implement the Expert Answers agent effectively.
 
+> [!IMPORTANT]
+> Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
+
 ## Expert Answers agent overview
 
 The Expert Answers agent performs deep searches across your enterprise content and generates grounded answers based on that data.

@@ -20,6 +20,9 @@ Selecting knowledge for Copilot Tuning means identifying and preparing the right
 
 In this article, we introduce how to select and prepare knowledge for Copilot Tuning. You learn about the types of documents needed, how to organize them, and basic requirements (like minimum data samples and file formats). By understanding knowledge selection, you can ensure your fine-tuned model is effective and aligned with your needs.
 
+> [!IMPORTANT]
+> Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
+
 ## Preparing the right knowledge for tuning
 
 Selecting knowledge is the first and most critical step in Copilot Tuning. You should curate a high-quality training dataset from your most relevant and authoritative content. The key is to provide examples that teach the model exactly what you expect it to do. The content you choose depends on the task type. Copilot Tuning currently supports three primary task scenarios: [expert question & answer (Q&A)](copilot-tuning-expert-qa.md), [document generation](copilot-tuning-doc-generation.md), and [document summarization](copilot-tuning-summarization.md). For each scenario, consider the following requirements:

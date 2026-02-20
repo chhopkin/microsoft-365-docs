@@ -13,7 +13,8 @@ title: Microsoft 365 Copilot Tuning FAQ
 summary: |
   Microsoft 365 Copilot Tuning allows organizations to fine-tune large language models (LLMs) for specific tasks by using their own tenant data. This article provides answers to frequently asked questions(FAQs) related to Copilot Tuning.
 
-  [!INCLUDE [copilot-tuning-preview](includes/copilot-tuning-preview.md)]
+  > [!IMPORTANT]
+  > Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
 
 sections:
 - name: Copilot Tuning features and capabilities

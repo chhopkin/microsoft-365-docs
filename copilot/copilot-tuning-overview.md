@@ -24,8 +24,8 @@ Unlike general-purpose AI experiences, tuned agents are designed for specific, r
 
 This article provides an overview of Copilot Tuning, including key capabilities, supported scenarios, tuning concepts, and administrative governance.
 
-> [!NOTE]
-> Copilot Tuning is currently in preview. For requirements and enrollment details, see the [Copilot Tuning admin guide](copilot-tuning-admin-guide.md).
+> [!IMPORTANT]
+> Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
 
 ## Key capabilities
 

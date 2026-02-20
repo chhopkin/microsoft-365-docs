@@ -18,6 +18,9 @@ The **Optimization** agent for Microsoft 365 Copilot helps you model and solve b
 
 Describe your optimization problem by specifying goals, constraints, and data. The Optimization agent computes an optimal solution based on those inputs, without requiring expertise in coding or mathematical modeling.
 
+> [!IMPORTANT]
+> Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
+
 ## Optimization agent overview
 
 The Optimization agent enables you to solve decision-based business problems by defining:
