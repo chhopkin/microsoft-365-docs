@@ -22,7 +22,7 @@ appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# Minumum requirements for Microsoft 365 Copilot Chat
+# Minimum requirements for Microsoft 365 Copilot Chat
 
 This document outlines the minimum technical and licensing requirements for using Microsoft 365 Copilot Chat in your organization.
 
@@ -34,7 +34,7 @@ This document outlines the minimum technical and licensing requirements for usin
 |---|---|---|
 | Eligible Microsoft 365 license | ✅ | |
 | Entra ID (Azure AD account) | ✅ | |
-| Turn on web searach | ✅ | |
+| Turn on web search | ✅ | |
 | Assign the AI administrator role |  | ✅ |
 | Pin Copilot Chat in Microsoft 365 apps | | ✅ |
 
@@ -42,6 +42,7 @@ This document outlines the minimum technical and licensing requirements for usin
 ### License eligibility
 
 Copilot Chat is only available to you in eligible Microsoft 365 licenses.
+
 - Microsoft 365 A1/A3/A5 (including MA3/MA5 for students, MA3/MA5 for faculty, and MA3/MA5 student-use benefit)
 - Microsoft 365 Business Basic/Business Standard/Business Premium
 - Microsoft 365 E3/E5
@@ -50,7 +51,7 @@ Copilot Chat is only available to you in eligible Microsoft 365 licenses.
 - Office 365 A1/A1 Plus/A3/A5
 - Office 365 E1/E1 Plus/E3/E5
 - Office 365 F3
-- Government Community Cloud (GCC) High and Departent of Defense customers with one of the following licenses:
+- Government Community Cloud (GCC) High and Department of Defense customers with one of the following licenses:
     - Microsoft 365 F1, F3, G3, or G5
     - Office 365 F1, F3, G3, or G5
 
@@ -67,15 +68,3 @@ The AI Administrator role lets organizations manage Copilot Chat and AI experien
 
 ### Pin Copilot Chat in Microsoft 365 apps
 Admins can [pin Copilot Chat in their users Microsoft 365 apps](/copilot/microsoft-365/pin-copilot-chat-navbar) so it’s easy to find, consistently available, and used as the organization’s secure, compliant AI entry point across Microsoft 365 apps. This setting is turned on by default.
-
-
-
-
-
-
-
-
-
-
-
-
