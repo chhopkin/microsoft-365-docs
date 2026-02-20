@@ -48,12 +48,12 @@ If you have security groups, mail enabled groups, or Microsoft 365 groups, you c
 ## Assign licenses to a group
 
 1. Sign in to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target=")blank">Microsoft 365 admin center</a> as at least a License Administrator.
-2. Go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.
-3. On the **Subscriptions** tab, select the product that you want to assign licenses for.
-4. On the **Licenses** page, select the **Groups** tab, then select **Assign licenses**.
-5. In the details panel, search for the group that you want to assign licenses to, then select the name from the **Suggested groups** list.
+1. Go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.
+1. On the **Licenses** page, select **Assign licenses**.
+1. In the panel, search for the group that you want to assign licenses to, then select the name from the dropdown list.
+
 6. To assign or remove access to specific items, select **Turn apps and services on or off**.
-7. When you’re finished, select **Assign**, then select **Close**.
+1. When you’re finished, select **Assign licenses**.
 
 ## Verify that the license assignment is finished
 
