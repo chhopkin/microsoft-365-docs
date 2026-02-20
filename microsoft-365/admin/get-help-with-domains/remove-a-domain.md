@@ -169,7 +169,9 @@ You can also use PowerShell to move users to another domain. For more informatio
 
 ## Remove a custom domain
 
-If you're canceling your subscription and using a custom domain, you need to complete a few extra steps before canceling your subscription.
+If you're canceling your subscription and using a custom domain, you need to complete a few extra steps with your custom domain before canceling your subscription.
+
+Your domain registrar and DNS hosting provider are often the same company, but they can be different. The registrar manages your domain registration, while the DNS hosting provider manages the DNS records that route traffic for your domain. To determine who your registrar and DNS hosting provider are, see [Find your domain registrar and DNS hosting provider](find-your-domain-registrar.md).
 
 To remove a custom domain from Microsoft 365, select the tab based on where your domain nameservers (NS) are hosted:
 
