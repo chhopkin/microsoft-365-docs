@@ -33,7 +33,7 @@ ms.custom:
 - campaignIDs-batch1
 search.appverid: MET150
 description: "Learn how to assign or unassign licenses for your users in the Microsoft 365 admin center."
-ms.date: 07/08/2025
+ms.date: 02/19/2026
 ---
 
 # Assign or unassign licenses for users in the Microsoft 365 admin center
