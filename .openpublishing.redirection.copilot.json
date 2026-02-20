@@ -21,8 +21,13 @@
          "redirect_document_id": false
       },
       {
-         "source_path": "copilot/microsoft-365/microsoft-365-early-access-program.yml",
-         "redirect_url": "/copilot//microsoft-365/",
+         "source_path": "copilot/microsoft-365-early-access-program.yml",
+         "redirect_url": "/copilot/microsoft-365/",
+         "redirect_document_id": false
+      },
+            {
+         "source_path": "copilot/microsoft-365-copilot-transparency-note.md",
+         "redirect_url": "/copilot/microsoft-365/microsoft-365-copilot-application-card",
          "redirect_document_id": false
       }
    ]
