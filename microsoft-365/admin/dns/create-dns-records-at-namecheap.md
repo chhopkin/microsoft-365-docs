@@ -173,7 +173,7 @@ To add the MX record for email at Namecheap, follow these steps:
 
     | Type      | Host | Value                                     | Priority | TTL    |
     | --------- | ---- | ----------------------------------------- | -------- | ------ |
-    | MX Record | @    | <domain-key>.mail.protection.outlook.com. | 0        | 30 min |
+    | MX Record | @    | \<domain-key>.mail.protection.outlook.com. | 0        | 30 min |
 
      :::image type="content" source="../../media/f3b76d62-5022-48c1-901b-8615a8571309.png" alt-text="Screenshot of the new record fields with values entered for the MX record.":::
 
