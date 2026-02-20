@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 02/19/2026
+ms.date: 02/20/2026
 audience: Admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business

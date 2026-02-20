@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: 04/02/2025
+ms.date: 02/20/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -30,30 +30,29 @@ description: "Learn to verify your domain and set up DNS records for email, Team
 
 # Connect your DNS records at Namecheap to Microsoft 365
 
- **[Check the Domains FAQ](../setup/domains-faq.yml)** if you don't find what you're looking for.
-
 If Namecheap is your DNS hosting provider, follow the steps in this article to verify your domain and set up DNS records for email, Microsoft Teams, and so on.
 
 After you add these records at Namecheap, your domain will be set up to work with Microsoft services.
 
 > [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).
+>
+> Namecheap is a non-Microsoft site. Microsoft doesn't control the Namecheap site. Additionally, Namecheap might change their website and tools so that the steps in this article are no longer valid. For support with Namecheap's site and tools, contact Namecheap support.
 
-[!INCLUDE [How to get tech support for SMB](../../includes/smb-how-to-get-tech-support.md)]
+## Add a TXT record for domain ownership verification
 
-## Add a TXT record for verification
-
-Before you use your domain with Microsoft, we have to make sure that you own it. Your ability to log in to your account at your domain registrar and create the DNS record proves to Microsoft that you own the domain.
-
-> [!NOTE]
-> The procedures in this section assume that you have begun the process of [adding a domain](/admin/setup/add-domain#add-a-domain), but have not yet verified the domain.
+Before you can use your domain with Microsoft 365, you need to prove you own the domain. Your ability to sign in to your account at your domain registrar and create the DNS record proves to Microsoft that you own the domain. This process involves creating a TXT record at your domain registrar with a specific value that Microsoft can look for. When Microsoft finds the record with the correct value, your domain is verified. The TXT record is used only to verify that you own your domain. It doesn't affect anything else and can be deleted once domain verification is complete.
 
 > [!NOTE]
-> This record is used only to verify that you own your domain; it doesn't affect anything else. You can delete it later, if you like.
+>
+> The procedures in this section assume that the process of [adding a domain](/admin/setup/add-domain#add-a-domain) is started, but that domain ownership isn't verified yet.
 
-1. Make sure you have added a domain in the Microsoft 365 Admin Center using the steps in [Add a domain](/admin/setup/add-domain#add-a-domain), and that the domain has not already been verified. You'll need to copy the **TXT value** from the **Add a record to verify ownership** page for use later in this procedure.
+To add the TXT record for domain verification at Namecheap, follow these steps:
 
-1. Go to your domains page at Namecheap by using [this link](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f). You'll be prompted to Sign in and Continue.
+1. Make sure a domain is added in the Microsoft 365 Admin Center using the steps in [Add a domain](/admin/setup/add-domain#add-a-domain).
+
+1. Obtain and copy the **TXT value** for your domain from the Microsoft 365 admin center. For help on finding your TXT record in the the Microsoft 365 admin center, see [Gather the information you need to create DNS records](../get-help-with-domains/information-for-dns-records.md#step-1-find-the-txt-record-value-and-verify).
+
+1. Sign in to your Namecheap domains page going to the Namecheap [Log in to your account](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f) page.
 
      :::image type="content" source="../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png" alt-text="Sign in to Namecheap.":::
 
@@ -76,46 +75,59 @@ Before you use your domain with Microsoft, we have to make sure that you own it.
 1. In the **Type** drop-down, select **TXT Record**.
 
     > [!NOTE]
+    >
     > The **Type** drop-down automatically appears when you select **ADD NEW RECORD**.
 
      :::image type="content" source="../../media/a5b40973-19b5-4c32-8e1b-1521aa971836.png" alt-text="Select TXT Record for the domain verification TXT record.":::
 
-1. In the boxes for the new record, type or copy and paste the values from the following table. You'll use the TXT value you copied earlier (MS=ms*XXXXXXXX*).
+1. In the boxes for the new record, enter in or copy and paste the values from the following table. Use the TXT value you copied earlier (MS=ms*XXXXXXXX*) from the Microsoft 365 admin center.
 
     (Choose the **TTL** value from the drop-down list.)
 
     |Type|Host|Value|TTL|
     |---|---|---|---|
-    |TXT|@|MS=ms *XXXXXXXX*  <br/>**Note:** This is an example. Use your specific **Destination or Points to Address** value here, from the table.  [How do I find this?](../get-help-with-domains/information-for-dns-records.md)|30 min|
+    |TXT|@|MS=ms *XXXXXXXX*  <br/>**Note:** This entry is an example. Use your specific TXT record obtained from the Microsoft 365 admin center.|30 min|
 
      :::image type="content" source="../../media/fe75c0fd-f85c-4bef-8068-edaf9779b7f1.png" alt-text="Copy and paste the values from the table for the domain verification TXT record.":::
 
 1. Select the **Save Changes** (check mark) control, or select the **Save All Changes** button located just below the record you just added.
 
-     :::image type="content" source="../../media/b48d2c67-66b5-4aa4-8e59-0c764f236fac.png" alt-text="Screenshot of the the Save Changes control for the domain verification TXT record.":::
+     :::image type="content" source="../../media/b48d2c67-66b5-4aa4-8e59-0c764f236fac.png" alt-text="Screenshot of the Save Changes control for the domain verification TXT record.":::
 
-1. Wait a few minutes before you continue, so that the record you just created can update across the Internet.
+1. Wait a few minutes before continuing so that the TXT record you created can update across the Internet.
 
-Now that you've added the record at your domain registrar's site, you'll go back to Microsoft and request the record. When Microsoft finds the correct TXT record, your domain is verified.
+Now that the TXT record is added at your domain registrar's site, go back to the Microsoft 365 admin center and complete the domain ownership verification process. When Microsoft 365finds the correct TXT record, your domain is verified.
 
-To verify the record in Microsoft 365:
+To verify the record in the Microsoft 365 admin center, follow these steps:
 
-1. In the admin center, go to the **Settings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">**Domains**</a>.
+1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
 
-1. On the Domains page, select the domain that you're verifying, and select **Start setup**.
+1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
+
+1. Under **Settings**, select [**Domains**](https://admin.cloud.microsoft/?#/Domains).
+
+1. In the **Domains** page, select ⋮ next to the domain that you're verifying, and select **Start setup**.
 
     :::image type="content" source="../../media/dns-IONOS/IONOS-DomainConnects-2.png" alt-text="Select Start setup.":::
 
-1. Select **Continue**.
+1. In the **Verify you own your domain** page, make sure **Add a TXT record to the domain's DNS records** is selected, and then select **Continue**.
 
-1. On the **Verify domain** page, select **Verify**.
+1. On the **Add a record to verify domain ownership** page, select **Verify**.
 
-> [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).
+1. Once domain ownership is verified, the **How do you want to connect your domain?** page appears. The rest of wizard walks you through adding additional DNS records to connect your domain to Microsoft 365 services. For more information, see the following article or the following sections in this article:
 
-## Add an MX record so email for your domain will come to Microsoft
+    - [Connect to Microsoft services by adding DNS records](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md?&tabs=manual#step-2-connect-to-microsoft-services-by-adding-dns-records).
+    - [Add an MX record so email starts going to Microsoft 365 email services](#add-an-mx-record-so-email-starts-going-to-microsoft-365-email-services).
+    - [Add a CNAME record so email accounts are automatically set up in Outlook and other email clients](#add-a-cname-record-so-email-accounts-are-automatically-set-up-in-outlook-and-other-email-clients).
+    - [Add an SPF TXT record to help prevent email spam](#add-an-spf-txt-record-to-help-prevent-email-spam).
+    - [DNS records for Microsoft Teams](#dns-records-for-microsoft-teams).
+    - [DNS records for Intune and Mobile Device Management for Microsoft 365](#dns-records-for-intune-and-mobile-device-management-for-microsoft-365).
 
-1. To get started, go to your domains page at Namecheap by using [this link](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f). You'll be prompted to Sign in and Continue.
+[!INCLUDE [Domain propagation note](../../includes/global-administrator-note.md)]
+
+## Add an MX record so email starts going to Microsoft 365 email services
+
+1. Sign in to your Namecheap domains page going to the Namecheap [Log in to your account](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f) page.
 
      :::image type="content" source="../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png" alt-text="Sign in to Namecheap.":::
 
@@ -131,9 +143,7 @@ To verify the record in Microsoft 365:
 
      :::image type="content" source="../../media/05a4f0b9-1d27-448e-9954-2b23304c5f65.png" alt-text="Select Advanced DNS.":::
 
-1. In the **MAIL SETTINGS** section, select **Custom MX** from the **Email Forwarding** drop-down list.
-
-    (You may have to scroll down.)
+1. In the **MAIL SETTINGS** section, select **Custom MX** from the **Email Forwarding** drop-down list. You might have to scroll down the drop-down list to find it.
 
      :::image type="content" source="../../media/40199e2c-42cf-4c3f-9936-3cbe5d4e81a4.png" alt-text="Select Custom MX.":::
 
@@ -141,19 +151,19 @@ To verify the record in Microsoft 365:
 
      :::image type="content" source="../../media/8d169b81-ba48-4d51-84ea-a08fa1616457.png" alt-text="ADD NEW RECORD.":::
 
-1. In the boxes for the new record, type or copy and paste the values, from the following table.
+1. In the boxes for the new record, enter in or copy and paste the values, from the following table.
 
     (The **Priority** box is the unnamed box to the right of the **Value** box. Choose the **TTL** value from the drop-down list.)
 
     |Type|Host|Value|Priority|TTL|
     |---|---|---|---|---|
-    |MX Record|@|\<*domain-key*\>.mail.protection.outlook.com.  <br/> **This value MUST end with a period (.)** <br/> **Note:** Get your *\<domain-key\>* from your Microsoft account.  [How do I find this?](../get-help-with-domains/information-for-dns-records.md)|0  <br/> For more information about priority, see [What is MX priority?](../setup/domains-faq.yml)|30 min|
+    |MX Record|@|\<*domain-key*>.mail.protection.outlook.com.  <br/> **This value MUST end with a period (.)** <br/> **Note:** Get your <*domain-key*> from the Microsoft 365 admin center. For help on finding your <*domain-key*>, see [Gather the information you need to create DNS records](../get-help-with-domains/information-for-dns-records.md#step-2-find-the-mx-record-value-for-email-and-more).|0  <br/> For more information about priority, see [What is MX priority?](../setup/domains-faq.yml)|30 min|
 
      :::image type="content" source="../../media/f3b76d62-5022-48c1-901b-8615a8571309.png" alt-text="Copy and paste the values from the table for the MX record.":::
 
 1. Select the **Save Changes** (check mark) control.
 
-     :::image type="content" source="../../media/ef4e3112-36d2-47c8-a478-136a565dd71d.png" alt-text="Screenshot of the the Save Changes control for the MX record.":::
+     :::image type="content" source="../../media/ef4e3112-36d2-47c8-a478-136a565dd71d.png" alt-text="Screenshot of the Save Changes control for the MX record.":::
 
 1. If there are any other MX records, use the following two-step process to remove each of them:
 
@@ -167,9 +177,9 @@ To verify the record in Microsoft 365:
 
     Remove all MX records except for the one that you added earlier in this procedure.
 
-## Add the CNAME record required for Microsoft
+## Add a CNAME record so email accounts are automatically set up in Outlook and other email clients
 
-1. To get started, go to your domains page at Namecheap by using [this link](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f). You'll be prompted to Sign in and Continue.
+1. Sign in to your Namecheap domains page going to the Namecheap [Log in to your account](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f) page.
 
      :::image type="content" source="../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png" alt-text="Sign in to Namecheap.":::
 
@@ -192,11 +202,12 @@ To verify the record in Microsoft 365:
 1. In the **Type** drop-down, select **CNAME Record**.
 
     > [!NOTE]
+    >
     > The **Type** drop-down automatically appears when you select **ADD NEW RECORD**.
 
      :::image type="content" source="../../media/0898f3b2-06ab-4364-a86a-a603a25b39f4.png" alt-text="Select CNAME Record.":::
 
-1. In the empty boxes for the new record, select **CNAME** for the **Record Type**, and then type or copy and paste the values from the first row in the following table.
+1. In the empty boxes for the new record, select **CNAME** for the **Record Type**, and then enter in or copy and paste the values from the first row in the following table.
 
     |Type|Host|Value|TTL|
     |---|---|---|---|
@@ -206,14 +217,15 @@ To verify the record in Microsoft 365:
 
 1. Select the **Save Changes** (check mark) control.
 
-     :::image type="content" source="../../media/91a5cce4-ca41-41ec-b976-aafe681a4d68.png" alt-text="Screenshot of the the Save Changes control for the CNAME record.":::
+     :::image type="content" source="../../media/91a5cce4-ca41-41ec-b976-aafe681a4d68.png" alt-text="Screenshot of the Save Changes control for the CNAME record.":::
 
-## Add a TXT record for SPF to help prevent email spam
+## Add an SPF TXT record to help prevent email spam
 
 > [!IMPORTANT]
-> You cannot have more than one TXT record for SPF for a domain. If your domain has more than one SPF record, you'll get email errors, as well as delivery and spam classification issues. If you already have an SPF record for your domain, don't create a new one for Microsoft. Instead, add the required Microsoft values to the current record so that you have a *single*  SPF record that includes both sets of values.
+>
+> You can't have more than one TXT record for SPF for a domain. If your domain has more than one SPF record, email errors and delivery and spam classification issues occur. If you already have an SPF record for your domain, don't create a new one for Microsoft. Instead, add the required Microsoft values to the current record so that you have a *single*  SPF record that includes both sets of values.
 
-1. To get started, go to your domains page at Namecheap by using [this link](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f). You'll be prompted to Sign in and Continue.
+1. Sign in to your Namecheap domains page going to the Namecheap [Log in to your account](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f) page.
 
 1. On the landing page, under **Account**, choose **Domain List** from the drop-down list.
 
@@ -234,11 +246,12 @@ To verify the record in Microsoft 365:
 1. In the **Type** drop-down, select **TXT Record**.
 
     > [!NOTE]
+    >
     > The **Type** drop-down automatically appears when you select **ADD NEW RECORD**.
 
      :::image type="content" source="../../media/c5d1fddb-28b5-48ec-91c9-3e5d3955ac80.png" alt-text="Select TXT Record for the SPF TXT record.":::
 
-1. In the boxes for the new record, type or copy and paste the following values from the following table.
+1. In the boxes for the new record, enter in or copy and paste the following values from the following table.
 
     (Choose the **TTL** value from the drop-down list.)
 
@@ -250,15 +263,18 @@ To verify the record in Microsoft 365:
 
 1. Select the **Save Changes** (check mark) control.
 
-     :::image type="content" source="../../media/f2846c36-ace3-43d8-be5d-a65e2c267619.png" alt-text="Screenshot of the the Save Changes control for the SPF TXT record.":::
+     :::image type="content" source="../../media/f2846c36-ace3-43d8-be5d-a65e2c267619.png" alt-text="Screenshot of the Save Changes control for the SPF TXT record.":::
 
-## Advanced option: Microsoft Teams
+## DNS records for Microsoft Teams
 
-Only select this option if your organization uses Microsoft Teams. Teams needs 4 records: 2 SRV records for user-to-user communication, and 2 CNAME records to sign-in and connect users to the service.
+Only add these DNS records if your organization uses Microsoft Teams. Microsoft Teams needs four records:
 
-### Add the two required SRV records
+- Two SRV records for user-to-user communication.
+- Two CNAME records to sign-in and connect users to the service.
 
-1. To get started, go to your domains page at Namecheap by using [this link](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f). You'll be prompted to sign in.
+### Add the two required SRV records for Microsoft Teams
+
+1. Sign in to your Namecheap domains page going to the Namecheap [Log in to your account](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f) page.
 
      :::image type="content" source="../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png" alt-text="Sign in to Namecheap.":::
 
@@ -281,11 +297,12 @@ Only select this option if your organization uses Microsoft Teams. Teams needs 4
 1. In the **Type** drop-down, select **SRV Record**.
 
     > [!NOTE]
+    >
     > The **Type** drop-down automatically appears when you select **ADD NEW RECORD**.
 
      :::image type="content" source="../../media/fd55cd7c-2243-4de1-8d39-2c3f7ea3ae51.png" alt-text="Select the SRV Record type.":::
 
-1. In the empty boxes for the new records, type or copy and paste the values from the first row in the following table.
+1. In the empty boxes for the new records, enter in or copy and paste the values from the first row in the following table.
 
     |Service|Protocol|Priority|Weight|Port|Target|TTL|
     |---|---|---|---|---|---|---|
@@ -296,14 +313,13 @@ Only select this option if your organization uses Microsoft Teams. Teams needs 4
 
 1. Select the **Save Changes** (check mark) control.
 
-     :::image type="content" source="../../media/48a8dee4-c66d-449d-8759-9e9784c82b13.png" alt-text="Screenshot of the the Save Changes control for the SRV records for Microsoft Teams.":::
+     :::image type="content" source="../../media/48a8dee4-c66d-449d-8759-9e9784c82b13.png" alt-text="Screenshot of the Save Changes control for the SRV records for Microsoft Teams.":::
 
 1. Add the other SRV record by choosing the values from the second row of the table.
 
-> [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).
+[!INCLUDE [Domain propagation note](../../includes/global-administrator-note.md)]
 
-### Add the two required CNAME records for Teams
+### Add the two required CNAME records for Microsoft Teams
 
 1. In the **HOST RECORDS** section, select **ADD NEW RECORD**.
 
@@ -312,11 +328,12 @@ Only select this option if your organization uses Microsoft Teams. Teams needs 4
 1. In the **Type** drop-down, select **CNAME**.
 
     > [!NOTE]
+    >
     > The **Type** drop-down automatically appears when you select **ADD NEW RECORD**.
 
      :::image type="content" source="../../media/fd55cd7c-2243-4de1-8d39-2c3f7ea3ae51.png" alt-text="Select CNAME.":::
 
-1. In the empty boxes for the new records, type or copy and paste the values from the first row in the table.
+1. In the empty boxes for the new records, enter in or copy and paste the values from the first row in the table.
 
     |Type|Host|Value|TTL|
     |---|---|---|---|
@@ -327,20 +344,19 @@ Only select this option if your organization uses Microsoft Teams. Teams needs 4
 
 1. Select the **Save Changes** (check mark) control.
 
-     :::image type="content" source="../../media/91a5cce4-ca41-41ec-b976-aafe681a4d68.png" alt-text="Screenshot of the the Save Changes control for the CNAME records for Microsoft Teams.":::
+     :::image type="content" source="../../media/91a5cce4-ca41-41ec-b976-aafe681a4d68.png" alt-text="Screenshot of the Save Changes control for the CNAME records for Microsoft Teams.":::
 
 1. Add the other CNAME record by choosing the values from the second row of the table.
 
-> [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).
+[!INCLUDE [Domain propagation note](../../includes/global-administrator-note.md)]
 
-## Advanced option: Intune and Mobile Device Management for Microsoft 365
+## DNS records for Microsoft Intune and Mobile Device Management for Microsoft 365
 
-This service helps you secure and remotely manage mobile devices that connect to your domain. Mobile Device Management needs two CNAME records so that users can enroll devices to the service.
+ Microsoft Intune and Mobile Device Management for Microsoft 365 helps you secure and remotely manage mobile devices that connect to your domain. Mobile Device Management needs two CNAME records so that users can enroll devices to the service.
 
 ### Add the two required CNAME records for Mobile Device Management
 
-1. To get started, go to your domains page at Namecheap by using [this link](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f). You'll be prompted to sign in.
+1. Sign in to your Namecheap domains page going to the Namecheap [Log in to your account](https://www.namecheap.com/myaccount/login.aspx?ReturnUrl=%2f) page.
 
      :::image type="content" source="../../media/1827f9fc-4dc9-4f9d-a392-7817c47b00b3.png" alt-text="Sign in to Namecheap.":::
 
@@ -363,11 +379,12 @@ This service helps you secure and remotely manage mobile devices that connect to
 1. In the **Type** drop-down, select **CNAME Record**.
 
     > [!NOTE]
+    >
     > The **Type** drop-down automatically appears when you select **ADD NEW RECORD**.
 
      :::image type="content" source="../../media/0898f3b2-06ab-4364-a86a-a603a25b39f4.png" alt-text="Select CNAME Record.":::
 
-1. In the empty boxes for the new records, type or copy and paste the values from the first row in the table.
+1. In the empty boxes for the new records, enter in or copy and paste the values from the first row in the table.
 
     |Type|Host|Value|TTL|
     |---|---|---|---|
@@ -378,9 +395,12 @@ This service helps you secure and remotely manage mobile devices that connect to
 
 1. Select the **Save Changes** control.
 
-     :::image type="content" source="../../media/91a5cce4-ca41-41ec-b976-aafe681a4d68.png" alt-text="Screenshot of the the Save Changes control for the CNAME records for Mobile Device Management.":::
+     :::image type="content" source="../../media/91a5cce4-ca41-41ec-b976-aafe681a4d68.png" alt-text="Screenshot of the Save Changes control for the CNAME records for Mobile Device Management.":::
 
 1. Add the other CNAME record by choosing the values from the second row of the table.
 
-> [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).
+[!INCLUDE [How to get tech support for SMB](../../includes/smb-how-to-get-tech-support.md)]
+
+## Support
+
+ **[Check the Domains FAQ](../setup/domains-faq.yml)** if you don't find what you're looking for.
