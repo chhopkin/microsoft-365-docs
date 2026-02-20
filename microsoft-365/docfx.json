@@ -75,19 +75,19 @@
       "uhfHeaderId": "MSDocsHeader-M365-IT",
       "searchScope": ["Microsoft Bookings", "Microsoft 365 Lighthouse", "Microsoft 365 for frontline workers", "Microsoft 365", "Microsoft 365 Archive", "Microsoft 365"],
       "contributors_to_exclude": [ 
-        "rjagiewich", 
-        "claydetels19",
-        "jborsecnik",
-        "shdyas", 
-        "garycentric",
-        "alexbuckgit", 
-        "beccarobins",
-        "dstrome",
-        "Stacyrch140",
-        "American-Dipper",
-        "padmagit77",
         "aditisrivastava07",
-        "Ruchika-mittal01"
+        "alexbuckgit", 
+        "American-Dipper",
+        "beccarobins",
+        "claydetels19",
+        "dstrome",
+        "garycentric",
+        "jborsecnik",
+        "padmagit77",
+        "rjagiewich", 
+        "Ruchika-mittal01",
+        "shdyas", 
+        "Stacyrch140"
       ]
     },
     "fileMetadata": {
