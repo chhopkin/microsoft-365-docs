@@ -51,7 +51,7 @@ Examples include:
 - Assign employees to open roles based on their skills.
 - Allocate salespeople to territories.
 
-:::image type="content" source="media/copilot-tuning-optimization-agent/image1.png" alt-text="Screenshot showing the goal description interface where users can describe their optimization objective, such as assigning employees to roles or allocating salespeople to territories.":::
+:::image type="content" source="media/copilot-tuning-optimization-agent/optimization-goal-description-interface.png" alt-text="Screenshot showing the goal description interface where users can describe their optimization objective, such as assigning employees to roles or allocating salespeople to territories." lightbox="media/copilot-tuning-optimization-agent/optimization-goal-description-interface.png":::
 
 ### Upload your data
 
@@ -66,7 +66,7 @@ Define constraints and objectives that govern the solution.
 
 You can add multiple constraints and objectives. For best results, add them one at a time and describe them clearly. The agent might ask clarifying questions if more detail is required.
 
-:::image type="content" source="media/copilot-tuning-optimization-agent/image2.png" alt-text="Screenshot demonstrating how to add constraints and objectives in the Optimization agent interface.":::
+:::image type="content" source="media/copilot-tuning-optimization-agent/optimization-add-constraints-objectives.png" alt-text="Screenshot demonstrating how to add constraints and objectives in the Optimization agent interface." lightbox="media/copilot-tuning-optimization-agent/optimization-add-constraints-objectives.png":::
 
 ### Review the setup
 
@@ -84,13 +84,13 @@ You can ask the agent to edit or remove any part of the setup.
 
 If the agent detects ambiguity or missing information, it prompts you to clarify constraints or objectives to ensure the problem is feasible and solvable.
 
-:::image type="content" source="media/copilot-tuning-optimization-agent/image3.png" alt-text="Screenshot showing a clarification prompt from the Optimization agent requesting more details about constraints or objectives.":::
+:::image type="content" source="media/copilot-tuning-optimization-agent/optimization-clarification-prompt.png" alt-text="Screenshot showing a clarification prompt from the Optimization agent requesting more details about constraints or objectives." lightbox="media/copilot-tuning-optimization-agent/optimization-clarification-prompt.png":::
 
 ### Get your solution
 
 When you're ready, ask the agent to solve the problem using your data. The agent runs solver tools and presents the optimal solution based on your objectives and constraints. You can review the results interactively and download the full output as a CSV file.
 
-:::image type="content" source="media/copilot-tuning-optimization-agent/image4.png" alt-text="Screenshot displaying the optimal solution results in an interactive format with option to download as CSV.":::
+:::image type="content" source="media/copilot-tuning-optimization-agent/optimization-solution-results.png" alt-text="Screenshot displaying the optimal solution results in an interactive format with option to download as CSV." lightbox="media/copilot-tuning-optimization-agent/optimization-solution-results.png":::
 
 > **Tip**  
 > Use clear, specific language and provide accurate, representative data to achieve the best results.
@@ -171,12 +171,12 @@ The agent does **not** store uploaded data files.
 1. **Create a new agent**  
    Create a new agent by selecting the **Optimization** template.
 
-   :::image type="content" source="media/copilot-tuning-optimization-agent/image5.png" alt-text="Screenshot showing the Optimization template selection when creating a new agent.":::
+   :::image type="content" source="media/copilot-tuning-optimization-agent/optimization-template-selection.png" alt-text="Screenshot showing the Optimization template selection when creating a new agent." lightbox="media/copilot-tuning-optimization-agent/optimization-template-selection.png":::
 
 2. **Update agent details**  
    Provide a name, description, and suggested prompts. Default instructions are prefilled and optimized for the Optimization agent.
 
-   :::image type="content" source="media/copilot-tuning-optimization-agent/image6.png" alt-text="Screenshot of the agent details configuration page where you provide name, description, and suggested prompts.":::
+   :::image type="content" source="media/copilot-tuning-optimization-agent/optimization-agent-details-configuration.png" alt-text="Screenshot of the agent details configuration page where you provide name, description, and suggested prompts." lightbox="media/copilot-tuning-optimization-agent/optimization-agent-details-configuration.png":::
 
    > **Important**  
    > - Leave the default instructions unchanged unless you have a specific reason to edit them.  
@@ -188,13 +188,13 @@ The agent does **not** store uploaded data files.
 4. **Start tuning**  
    Select **Tune agent**, then choose **Tune context**.
 
-   :::image type="content" source="media/copilot-tuning-optimization-agent/image7.png" alt-text="Screenshot showing the Tune agent menu with the Tune context option selected.":::
+   :::image type="content" source="media/copilot-tuning-optimization-agent/optimization-tune-agent-menu.png" alt-text="Screenshot showing the Tune agent menu with the Tune context option selected." lightbox="media/copilot-tuning-optimization-agent/optimization-tune-agent-menu.png":::
 
 5. **Define the optimization problem**  
    Use chat to describe your goal, upload data, define constraints, and specify objectives. Review the setup in the side panel as you go.
 
-   :::image type="content" source="media/copilot-tuning-optimization-agent/image8.png" alt-text="Screenshot showing the chat interface for defining the optimization problem with the side panel displaying goals, constraints, and objectives.":::
-   :::image type="content" source="media/copilot-tuning-optimization-agent/image9.png" alt-text="Screenshot showing additional views of the optimization problem definition interface with data upload and constraint configuration.":::
+   :::image type="content" source="media/copilot-tuning-optimization-agent/optimization-problem-chat-interface.png" alt-text="Screenshot showing the chat interface for defining the optimization problem with the side panel displaying goals, constraints, and objectives." lightbox="media/copilot-tuning-optimization-agent/optimization-problem-chat-interface.png":::
+   :::image type="content" source="media/copilot-tuning-optimization-agent/optimization-problem-data-upload.png" alt-text="Screenshot showing additional views of the optimization problem definition interface with data upload and constraint configuration." lightbox="media/copilot-tuning-optimization-agent/optimization-problem-data-upload.png":::
 
 6. **Save the context**  
    After completing the setup, select **Update agent** to save the problem definition.
@@ -202,13 +202,13 @@ The agent does **not** store uploaded data files.
    > **Note**  
    > Uploaded data isn't saved. Only the problem structure is retained.
 
-   :::image type="content" source="media/copilot-tuning-optimization-agent/image10.png" alt-text="Screenshot showing the Update agent button to save the problem definition after completing the setup.":::
+   :::image type="content" source="media/copilot-tuning-optimization-agent/optimization-update-agent-button.png" alt-text="Screenshot showing the Update agent button to save the problem definition after completing the setup." lightbox="media/copilot-tuning-optimization-agent/optimization-update-agent-button.png":::
 
 7. **Share the agent**  
    Share the tuned agent with others in your organization.
 
-   :::image type="content" source="media/copilot-tuning-optimization-agent/image11.png" alt-text="Screenshot of the agent sharing interface showing options to share the tuned agent with users in your organization.":::
-   :::image type="content" source="media/copilot-tuning-optimization-agent/image12.png" alt-text="Screenshot showing the sharing permissions configuration for the tuned Optimization agent.":::
+   :::image type="content" source="media/copilot-tuning-optimization-agent/optimization-agent-sharing-interface.png" alt-text="Screenshot of the agent sharing interface showing options to share the tuned agent with users in your organization." lightbox="media/copilot-tuning-optimization-agent/optimization-agent-sharing-interface.png":::
+   :::image type="content" source="media/copilot-tuning-optimization-agent/optimization-sharing-permissions.png" alt-text="Screenshot showing the sharing permissions configuration for the tuned Optimization agent." lightbox="media/copilot-tuning-optimization-agent/optimization-sharing-permissions.png":::
 
 ### Sharing and security
 
@@ -290,4 +290,4 @@ The agent alerts you if constraints or data make the problem unsolvable and prov
 
 ## Related content
 
-- [Copilot Tuning overview](copilot-tuning-overview.md)
+- [Copilot Tuning overview](copilot-tuning-overview.md
