@@ -201,36 +201,26 @@ items:
         href: copilot-tuning-overview.md
       - name: Admin guide
         href: copilot-tuning-admin-guide.md
+      - name: Tuning process
+        href: copilot-tuning-process.md
+      - name: Knowledge selection
+        href: copilot-tuning-knowledge-selection.md
+      - name: Fine-tune models
+        href: /microsoft-copilot-studio/microsoft-copilot-fine-tune-model?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
       - name: Tuned agents
         items:
+        - name: Document Writing agent
+          href: copilot-tuning-document-writing-agent.md
         - name: Expert Answers agent
           href: copilot-tuning-expert-answer-agent.md
         - name: Optimization agent
           href: copilot-tuning-optimization-agent.md
-      - name: Tuning process
-        href: copilot-tuning-process.md
       - name: FAQ
         href: copilot-tuning-faq.yml
-      - name: Knowledge selection
-        href: copilot-tuning-knowledge-selection.md
-      - name: Microsoft 365 admin center
-        href: copilot-tuning-troubleshooting-mac.md
-      - name: Fine-tune models
-        href: /microsoft-copilot-studio/microsoft-copilot-fine-tune-model?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
-      - name: Document generation
-        href: copilot-tuning-doc-generation.md
-      - name: Troubleshooting Document generation
-        href: copilot-tuning-troubleshooting-doc-generation.md
-      - name: Expert Q&A
-        href: copilot-tuning-expert-qa.md
-      - name: Troubleshooting Expert Q&A
-        href: copilot-tuning-troubleshooting-expert-qa.md
       - name: Summarization
         href: copilot-tuning-summarization.md
       - name: FAQ for Copilot Tuning
         href: responsible-ai/copilot-tuning-responsible-ai-faq.md
-      - name: Troubleshooting Guardrails
-        href: copilot-tuning-troubleshooting-guardrails.md
     - name: Copilot Library
       items:
       - name: Overview of Copilot Library

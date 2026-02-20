@@ -34,6 +34,20 @@ Admins can control who can access Copilot Tuning at the tenant level. Three avai
 - **Enable for specific users or groups:** Admins explicitly select individual users or Microsoft Entra security groups that are allowed to tune agents. Users who aren't enabled can request access through an in-product flow, which requires admin approval.
 - **Disable tuning:** Admins can disable Copilot Tuning entirely for the tenant. This setting blocks new tuning activity and prevents the use of tuned agents until tuning is reenabled.
 
+## Tuning availability scenarios and transitions
+
+The following table summarizes how Copilot Tuning behaves across common availability settings and transitions.
+
+| Scenario | Untuned agents (from templates) | Tuned agents (already created) | In-flight tuning jobs | Ability to tune further | Ability to use agents (inference) |
+|--------|--------------------------------|--------------------------------|-----------------------|-------------------------|-----------------------------------|
+| Tuning enabled for all users | Available | Available | Allowed | Yes | Yes |
+| Tuning enabled for specific users or groups | Available | Available | Allowed only for authorized users | Only for authorized users | Yes |
+| Tuning disabled | Available | Available | Not allowed | No | Yes |
+| Transition: enabled → limited | Preserved | Preserved | Blocked for non-authorized users | Blocked for non-authorized users | Yes |
+| Transition: enabled or limited → disabled | Preserved | Preserved | Blocked | No | Yes |
+
+These behaviors ensure that existing agents remain usable while giving admins fine-grained control over who can continue tuning.
+
 ## Request access flow
 
 When tuning is enabled for specific users or groups, users without access can submit a request from within the product. Requests include a business justification and appear in the Microsoft 365 admin center for review.
@@ -76,6 +90,26 @@ Copilot Tuning is an advanced capability. During public preview, only tenants wi
 - If a tenant meets the eligibility threshold, Copilot Tuning appears in the admin center and is enabled by default.
 - If a tenant doesn't meet the threshold, Copilot Tuning settings aren't available.
 
+## How tuning access changes affect existing agents
+
+Changes to Copilot Tuning availability are **forward-looking**. Adjusting who can tune agents—or disabling tuning entirely—does not remove or break agents that already exist.
+
+The following behaviors apply when tuning access is changed:
+
+- **Existing agents are preserved.**  
+  Agents created from templates (whether tuned or not) remain available for use.
+
+- **Inference is unaffected.**  
+  Users can continue to use existing agents for inference, subject to the agent’s sharing and permission settings.
+
+- **Further tuning depends on access.**  
+  Users who no longer have tuning permission can’t modify, retrain, or further tune agents unless access is restored.
+
+- **No rollback occurs.**  
+  Copilot Tuning does not revert agents to a previous state when access is restricted or disabled. Transitions are intentionally non-destructive.
+
+This model allows admins to confidently adjust tuning availability without disrupting existing business workflows.
+
 ## Data commitments, privacy, and compliance
 
 Copilot Tuning adheres to Microsoft 365 data protection, privacy, and compliance commitments.
@@ -90,6 +124,22 @@ When a user performs Copilot Tuning, only the SharePoint content explicitly sele
 
 During public preview, snapshot data is retained for as long as the tuned agent remains active. When a tuned agent is deleted, its associated snapshot data is also deleted. Data used for tuning is subject to a maximum retention period of two years.
 
+### Snapshot behavior and retraining considerations
+
+When an agent is tuned, the system creates a snapshot of the selected SharePoint content. That snapshot has the following characteristics:
+
+- **Access is captured at tuning time.**  
+  Snapshot permissions reflect the access control lists (ACLs) at the time tuning occurs.
+
+- **Snapshots aren’t automatically updated.**  
+  If the underlying SharePoint content changes, the snapshot doesn’t change. To incorporate updates, the agent must be retrained.
+
+- **Source policies don’t automatically apply.**  
+  Data loss prevention (DLP) and retention policies applied to the original SharePoint content don’t apply to snapshot data.
+
+- **Agent sharing is explicit.**  
+  Tuned agents are available only to users and groups configured during tuning. The agent owner can update sharing settings at any time.
+
 ### Data residency
 
 Copilot Tuning isn't enabled by default for tenants with Advanced Data Residency (ADR) commitments during public preview.
@@ -98,6 +148,25 @@ Copilot Tuning isn't enabled by default for tenants with Advanced Data Residency
 - When ADR is waived, snapshot data is stored in the nearest macro region within a tenant-isolated Microsoft 365 environment.
 
 For EU-based tenants, Copilot Tuning respects EU Data Boundary commitments. During public preview, EU tenant data and traffic remain within the EU.
+
+
+### Data residency scope and limitations
+
+Copilot Tuning follows Microsoft 365 data residency commitments at the **macro region** level. During public preview, the following considerations apply:
+
+- **Macro region storage**  
+  Training, inference, and snapshot data are stored in the macro region associated with the tenant. For tenants in local regions, data is stored in the nearest macro region.
+
+- **EU Data Boundary**  
+  For EU-based tenants, Copilot Tuning respects EU Data Boundary commitments. Tenant data and traffic remain within the EU during tuning and inference.
+
+- **Advanced Data Residency (ADR)**  
+  Copilot Tuning isn’t covered by Advanced Data Residency (ADR) or ADR for Education during public preview. Tenants with ADR that want to use Copilot Tuning must request access through their Microsoft account team.
+
+- **Multi-Geo**  
+  Multi-Geo data residency commitments don’t apply to Copilot Tuning during public preview.
+
+Admins should evaluate these considerations carefully.
 
 ### GDPR and data subject rights
 
@@ -108,6 +177,24 @@ Copilot Tuning supports common data subject rights, including:
 - **Discovery**: Admins can view all tuned agents in the Agent 365 portal.
 - **Deletion**: Deleting a tuned agent removes the associated model and snapshot data.
 - **Access and export**: Customers can request metadata about snapshot data through Microsoft Customer Support.
+
+
+### GDPR, data subject rights, and DPIA considerations
+
+Microsoft acts as a data processor for content used in Copilot Tuning. The customer remains the data controller and is responsible for determining which data is appropriate for tuning.
+
+Copilot Tuning supports common data subject rights:
+
+- **Discovery**  
+  Admins can view all tuned agents in the Agent 365 portal.
+
+- **Deletion**  
+  Deleting a tuned agent removes the associated fine-tuned model and snapshot data.
+
+- **Access and export**  
+  Customers can request metadata related to snapshot data through Microsoft Customer Support.
+
+Copilot Tuning doesn’t inherently require a data protection impact assessment (DPIA).
 
 ### Data protection impact assessments
 

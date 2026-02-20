@@ -113,36 +113,6 @@ Apply the following best practices to make the best use of tuned agents:
 - Follow organizational security and compliance policies. 
 - Encourage user feedback to improve agent quality over time.  
 
-## Admin settings and governance
-
-Copilot Tuning includes tenant-wide governance controls managed in the Microsoft 365 admin center under **Copilot > Copilot Tuning settings**.
-
-### Availability controls
-
-Admins can configure who has access to tuning via the following availability settings:
-
-- **Enable for all users** (default for eligible tenants)  
-- **Enable for specific users or groups**  
-- **Disable tuning** for the entire tenant  
-
-When access is limited to specific users or groups, eligible users can request access through in-product prompts, subject to admin approval.
-
-### Security and compliance
-
-Tuned models are trained in tenant-isolated environments and inherit permissions from the training data. No customer data is transmitted to external services during training or inference. Microsoft Graph data returned in responses continues to honor document-level permissions.
-
-Admins can view, block, disable, or delete tuned agents from the Agent 365 portal. Deleting an agent also removes its associated tuned model and snapshot data.
-
-Microsoft might perform service-managed upgrades to move agents to newer model architectures. Previous versions might be retained temporarily to ensure continuity and are automatically deleted after a defined retention period.
-
-## Data handling and compliance considerations
-
-Copilot Tuning adheres to Microsoft 365 privacy, security, and data protection commitments. Snapshot copies of selected SharePoint content are created solely for tuning purposes and remain within the Microsoft 365 service boundary.
-
-Organizations are responsible for ensuring that their use of Copilot Tuning complies with applicable data protection, privacy, and intellectual property laws, including obligations under regulations such as GDPR and CCPA.
-
-For tenants with Advanced Data Residency (ADR), Copilot Tuning is not enabled by default during preview. ADR customers may choose to participate by waiving ADR requirements through their Microsoft account team.
-
 ## Related content
 
 - [Agents for Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agents-overview)
