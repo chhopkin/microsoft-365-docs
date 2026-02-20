@@ -247,10 +247,10 @@ To add an SPF TXT record for email spam protection at Namecheap, follow these st
     | ---- | ---- | ---------------------------------------------- | ------ |
     | TXT  | @    | v=spf1 include:spf.protection.outlook.com -all | 30 min |
 
-   - Choose the **TTL** value from the drop-down list.
-   - Use copy and paste for this entry so that all of the spacing remains correct.
+     - Choose the **TTL** value from the drop-down list.
+     - Use copy and paste for this entry so that all of the spacing remains correct.
 
-     :::image type="content" source="../../media/ea0829f1-990b-424b-b26e-9859468318dd.png" alt-text="Screenshot of the new record fields with values entered for the SPF TXT record.":::
+    :::image type="content" source="../../media/ea0829f1-990b-424b-b26e-9859468318dd.png" alt-text="Screenshot of the new record fields with values entered for the SPF TXT record.":::
 
 1. Select the **Save Changes** ✅ check mark icon.
 
