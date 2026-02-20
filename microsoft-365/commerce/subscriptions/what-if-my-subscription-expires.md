@@ -53,7 +53,7 @@ The **Expired** status starts immediately after the subscription reaches its end
 
 **For monthly subscriptions**, if you cancel a monthly subscription within the cancellation policy window, it skips the **Expired** status and immediately moves to the **Disabled** status on the date you cancel it. This means that your users immediately lose access to the Microsoft 365 assets, and only admins have access to the data during the Disabled state.
 
-**For volume licensing customers**, the subscription only enters the **Expired** status after all the licenses are removed. If you order fewer than the original number of licenses, the subscription doesn’t enter the **Expired** status. Instead, admins have 90 days to resolve the conflict for any assigned licenses in excess of the purchased quantity. During this 90 day period there’s no service interruption to subscriptions that are assigned on a per user basis. For nonuser based subscriptions, like Office 365 Extra File Storage for SharePoint, a reduction in the license quantity immediately results in reduced storage. For Enterprise volume licensing customers, we recommend placing an Online Reservation to restore service, and then contact your licensing partner to understand why there was a reduction in licenses.
+**For volume licensing customers**, the subscription only enters the **Expired** status after all the licenses are removed. If you order fewer than the original number of licenses, the subscription doesn’t enter the **Expired** status. Instead, admins have 90 days to resolve the conflict for any assigned licenses in excess of the purchased quantity. During this 90 day period there’s no service interruption to subscriptions that are assigned on a per user basis. For nonuser based subscriptions, like Office 365 Extra File Storage for SharePoint, a reduction in the license quantity immediately results in reduced storage. For Enterprise volume licensing customers, we recommend that you place an Online Reservation to restore service, and then contact your licensing partner to understand why there was a reduction in licenses.
 
 > [!IMPORTANT]
 > If a subscription is deleted, adding a new subscription of the same type doesn't restore the data that was associated with the deleted subscription.
@@ -121,18 +121,16 @@ Before the subscription reaches its end date, you have the following options:
    - If you turned off **Recurring billing**, you can [turn it back on](renew-your-subscription.md) to keep your subscription active. 
    - If you bought Microsoft 365 Apps for business with a prepaid card, you can [turn on ](renew-your-subscription.md)**[Recurring billing](renew-your-subscription.md)** for your subscription and provide a payment method to continue the subscription.
    - If you have Microsoft 365 Apps for business, see [Manage recurring billing for your subscription](renew-your-subscription.md).
+
 1. **Let the subscription end.**
 
    - If you don't want to continue your subscription, [turn off recurring billing](renew-your-subscription.md). Your subscription ends on its term end date, and you can ignore all related email notifications.
-      
    - If you're a Microsoft 365 Business Standard customer, and you prepaid for your subscription and activated it with a product key, you can let your subscription end by taking no action.
       
 1. **Switch to an Extended Service Term subscription.**
 
    - An Extended Service Term (EST) option is available for subscriptions purchased under an MCA billing account. 
-   
    - EST gives customers additional time at the end of a subscription term to make the right subscription choices for their business without any service disruption. 
-   
    - EST allows customers to continue service on a month-to-month basis until they cancel or convert to a standard subscription.
    
 ## Lifecycle information for volume licensing customers
@@ -177,6 +175,6 @@ At the end of your trial period, we automatically start billing you for your sub
 
 ## Related content
 
-[Cancel your subscription](./cancel-your-subscription.md) (article)  
-[Renew Microsoft 365 for business](./renew-your-subscription.md) (article)  
+[Cancel your subscription](./cancel-your-subscription.md) (article)\
+[Renew Microsoft 365 for business](./renew-your-subscription.md) (article)\
 [Reactivate your subscription](./reactivate-your-subscription.md) (article)
