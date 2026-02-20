@@ -65,7 +65,7 @@ When you assign the OSM role to someone who also has the Global Administrator ro
 
 ### Public Customer Number
 
-Every organization with a VL agreement with Microsoft has at least one Public Customer Number (PCN). Some organizations have multiple unique PCNs for different VL agreements.  (Your Microsoft seller or partner sees the PCN when submitting a new agreement package, but only Select Plus licenses display a PCN in the admin center).
+Every organization with a VL agreement with Microsoft has at least one Public Customer Number (PCN). Some organizations have multiple unique PCNs for different VL agreements. Your Microsoft seller or partner sees the PCN when they submit a new agreement package, but only Select Plus licenses display a PCN in the admin center.
 
 ## Subscribe to Microsoft online services via volume licensing
 
@@ -198,7 +198,7 @@ For Select Plus agreements, VL Administrators can verify the PCN by using the fo
 
 1. In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">**Your products**</a> page, then select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> tab.
 2. In the **Contracts** section, select **View contracts**.
-1. On the <a href="https://go.microsoft.com/fwlink/p/?linkid=2297440" target="_blank">Contracts</a> page, choose a License ID, select the three dots (**More actions**), then select **View contract details**. The PCN is listed under "License ID"
+1. On the <a href="https://go.microsoft.com/fwlink/p/?linkid=2297440" target="_blank">Contracts</a> page, select a License ID, select the three dots (**More actions**), then select **View contract details**. The PCN is listed under **License ID**.
 
 ### Assign services to users when licenses are renewed
 
