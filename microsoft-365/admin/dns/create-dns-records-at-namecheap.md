@@ -185,11 +185,11 @@ To add the MX record for email at Namecheap, follow these steps:
 
     1. First, select **Delete** (trash can) for the record that you want to remove.
 
-     :::image type="content" source="../../media/7a7a751f-29c2-495f-8f55-98ca37ce555a.png" alt-text="Screenshot of the Delete button for an MX record.":::
+        :::image type="content" source="../../media/7a7a751f-29c2-495f-8f55-98ca37ce555a.png" alt-text="Screenshot of the Delete button for an MX record.":::
 
     1. Second, select **Yes** to confirm the deletion.
 
-     :::image type="content" source="../../media/85ebc0c7-8787-43ee-9e7b-647375b3345c.png" alt-text="Screenshot of the confirmation dialog with Yes selected.":::
+         :::image type="content" source="../../media/85ebc0c7-8787-43ee-9e7b-647375b3345c.png" alt-text="Screenshot of the confirmation dialog with Yes selected.":::
 
     Remove all MX records except for the one that you added earlier in this procedure.
 
