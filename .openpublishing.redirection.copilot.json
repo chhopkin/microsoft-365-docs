@@ -1,6 +1,16 @@
 {
    "redirections": [
       {
+         "source_path": "copilot/copilot-tuning-expert-qa.md",
+         "redirect_url": "/copilot/microsoft-365/copilot-tuning-expert-answer-agent",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "copilot/copilot-tuning-troubleshooting-expert-qa.md",
+         "redirect_url": "/copilot/microsoft-365/copilot-tuning-expert-answer-agent",
+         "redirect_document_id": true
+      },
+      {
          "source_path": "copilot/mutliple-account-access.md",
          "redirect_url": "/copilot/microsoft-365/multiple-account-access",
          "redirect_document_id": true
