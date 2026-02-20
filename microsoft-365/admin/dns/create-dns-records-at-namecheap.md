@@ -96,12 +96,12 @@ To add the TXT record for domain verification at Namecheap, follow these steps:
 
 1. In the boxes for the new record, enter the values from the following table:
 
-    - Use the TXT value you gathered earlier from the Microsoft 365 admin center. The value *MS=msXXXXXXXX* shown in the table is only an example.
-    - Choose the **TTL** value from the drop-down list.
-
     | Type | Host | Value              | TTL    |
     | ---- | ---- | ------------------ | ------ |
     | TXT  | @    | *MS=msXXXXXXXX*    | 30 min |
+
+    - Use the TXT value you gathered earlier from the Microsoft 365 admin center. The value *MS=msXXXXXXXX* shown in the table is only an example.
+    - Choose the **TTL** value from the drop-down list.
 
      :::image type="content" source="../../media/fe75c0fd-f85c-4bef-8068-edaf9779b7f1.png" alt-text="Screenshot of the new record fields with values entered for the domain verification TXT record.":::
 
@@ -166,14 +166,14 @@ To add the MX record for email at Namecheap, follow these steps:
 
 1. In the boxes for the new record, enter the values from the following table:
 
+    | Type      | Host | Value                                     | Priority | TTL    |
+    | --------- | ---- | ----------------------------------------- | -------- | ------ |
+    | MX Record | @    | \<domain-key>.mail.protection.outlook.com. | 0        | 30 min |
+
     - Use the MX value you gathered earlier from the Microsoft 365 admin center.
     - The value shown in the table is only an example.
     - The **Priority** box is the unnamed box to the right of the **Value** box. For more information about priority, see [What is MX priority?](../setup/domains-faq.yml)
     - Choose the **TTL** value from the drop-down list.
-
-    | Type      | Host | Value                                     | Priority | TTL    |
-    | --------- | ---- | ----------------------------------------- | -------- | ------ |
-    | MX Record | @    | \<domain-key>.mail.protection.outlook.com. | 0        | 30 min |
 
      :::image type="content" source="../../media/f3b76d62-5022-48c1-901b-8615a8571309.png" alt-text="Screenshot of the new record fields with values entered for the MX record.":::
 
@@ -183,11 +183,11 @@ To add the MX record for email at Namecheap, follow these steps:
 
 1. If there are any other MX records, use the following two-step process to remove each of them:
 
-    First, select **Delete** (trash can) for the record that you want to remove.
+    1. First, select **Delete** (trash can) for the record that you want to remove.
 
      :::image type="content" source="../../media/7a7a751f-29c2-495f-8f55-98ca37ce555a.png" alt-text="Screenshot of the Delete button for an MX record.":::
 
-    Second, select **Yes** to confirm the deletion.
+    1. Second, select **Yes** to confirm the deletion.
 
      :::image type="content" source="../../media/85ebc0c7-8787-43ee-9e7b-647375b3345c.png" alt-text="Screenshot of the confirmation dialog with Yes selected.":::
 
@@ -243,15 +243,12 @@ To add an SPF TXT record for email spam protection at Namecheap, follow these st
 
 1. In the boxes for the new record, enter the values from the following table:
 
-   - Choose the **TTL** value from the drop-down list.
-
     | Type | Host | Value                                          | TTL    |
     | ---- | ---- | ---------------------------------------------- | ------ |
     | TXT  | @    | v=spf1 include:spf.protection.outlook.com -all | 30 min |
 
-    > [!TIP]
-    >
-    > Use copy and paste for this entry so that all of the spacing remains correct.
+   - Choose the **TTL** value from the drop-down list.
+   - Use copy and paste for this entry so that all of the spacing remains correct.
 
      :::image type="content" source="../../media/ea0829f1-990b-424b-b26e-9859468318dd.png" alt-text="Screenshot of the new record fields with values entered for the SPF TXT record.":::
 
