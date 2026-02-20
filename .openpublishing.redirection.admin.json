@@ -2344,6 +2344,11 @@
       "source_path": "microsoft-365/admin/manage/manage-embedded-knowledge-agents.md",
       "redirect_url": "/microsoft-365/admin/manage/agent-registry#manage-agents-with-embedded-file-content-as-a-knowledge-source",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "microsoft-365/admin/misc/set-up-dns-records-vsb.md",
+      "redirect_url": "/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider",
+      "redirect_document_id": false
     }
   ]
 }
