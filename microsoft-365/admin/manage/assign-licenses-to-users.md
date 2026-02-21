@@ -69,7 +69,7 @@ If there’s a problem completing the assignment, you see a status message when 
 
 ### How license assignments appear on the Licenses page
 
-On the **Licenses** page, assignments are dis[;aued based on how the license was applied:
+On the **Licenses** page, assignments are displayed based on how the license was applied:
 
 - **Direct user assignments** If a license is assigned directly to a user, the user appears individually in the list of assignments for that product.
 - **Group-based assignments** If a license is assigned to a group, the group name appears in the list instead of individual users. To see which users are receiving the license through that group, go to the **Teams & groups** > <a href="https://admin.cloud.microsoft/?#/groups" target="_blank">Active teams & groups</a> page to view its members.
