@@ -59,61 +59,54 @@ You can assign or unassign licenses for users in the Microsoft 365 admin center 
 ## Use the Licenses page to assign or unassign licenses
 
 1. In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.
-2. Select a product.
-3. On the product details page, select **Assign licenses**.
-1. In the **Assign licenses** pane, begin typing the name of a user or group, and then choose it from the results to add it to the list. You can add up to 20 users and/or groups at a time.
+1. Select a product.
+1. On the product details page, select **Assign licenses**.
+1. In the **Assign licenses** panel, begin typing the name of a user or group, and then select it from the results to add it to the list. You can add up to 20 users and/or groups at a time.
+1. Select **Turn apps and services on or off** to assign or remove access to specific items.
+1. When you're finished, select **Assign**, then close the right pane.
 
-5. Select **Turn apps and services on or off** to assign or remove access to specific items.
-6. When you're finished, select **Assign**, then close the right pane.
-
-If there’s a problem completing the assignment, you will see a status message when the action finishes. If some users in a group couldn’t be assigned licenses, select **View errors and issues** to see details for each affected user. After resolving the issue, you can retry the assignment.
+If there’s a problem completing the assignment, you see a status message when the action finishes. If some users in a group couldn’t be assigned licenses, select **View errors and issues** to see details for each affected user. After resolving the issue, you can retry the assignment.
 
 ### How license assignments appear on the Licenses page
 
-On the **Licenses** page, assignments are shown based on how the license was applied:
+On the **Licenses** page, assignments are dis[;aued based on how the license was applied:
 
-**Direct user assignments** If a license is assigned directly to a user, the **user appears individually** in the list of assignments for that product.
+- **Direct user assignments** If a license is assigned directly to a user, the user appears individually in the list of assignments for that product.
+- **Group-based assignments** If a license is assigned to a group, the group name appears in the list instead of individual users. To see which users are receiving the license through that group, go to the **Teams & groups** > <a href="https://admin.cloud.microsoft/?#/groups" target="_blank">Active teams & groups</a> page to view its members.
 
-- **Group-based assignments** If a license is assigned to a group, the **group name appears** in the list instead of individual users. To see which users are receiving the license through that group, go to the **Teams & groups** > <a href="https://admin.cloud.microsoft/?#/groups" target="_blank">Active teams & groups</a> page to view its members.
-
-The **Licenses** page may show an aggregate total of licenses for all subscriptions for the same product name. For example, you might have one subscription for Microsoft 365 Business Premium that has five licenses, and another subscription that has eight licenses for the same product. The **Licenses** page shows that you have a total of 13 licenses for Microsoft 365 Business Premium across all your subscriptions. This number is different from what you see on the **Your products** page, which displays a row for each subscription you own, even if they are for the same product.
+The **Licenses** page might show an aggregate total of licenses for all subscriptions for the same product name. For example, you might have one subscription for Microsoft 365 Business Premium that has five licenses, and another subscription that has eight licenses for the same product. The **Licenses** page shows that you have a total of 13 licenses for Microsoft 365 Business Premium across all your subscriptions. This number is different from what you see on the **Your products** page, which displays a row for each subscription you own, even if they are for the same product.
 
 ### Change the apps and services a user has access to
 
 1. In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.
 1. On the **Licenses** page, select the row for a specific user or group you want to change.
-
-3. In the details pane, select or deselect the apps and services that you want to give access to or remove access from.
-4. When you're finished, select **Save**, then select **Close**.
+1. In the details pane, select or deselect the apps and services that you want to give access to or remove access from.
+1. When you're finished, select **Save**, then select **Close**.
 
 ### Unassign licenses by using the Licenses page
 
 1. In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">Licenses</a> page.
-2. Select a product.
+1. Select a product.
 1. Select the check boxes of the users or groups for whom you want to unassign licenses.
-
 1. Select **Unassign licenses**.
+
 ### Understand errors and issues when managing licenses
 
-The Microsoft 365 admin center provides an **Errors & Issues** experience to help you understand what happened and take action when licenses aren’t applied as expected.
+The Microsoft 365 admin center provides a list of **Errors & Issues** to help you understand what happened and take action when licenses aren’t applied as expected.
 
-For each product, you can open the **Errors & Issues** tab to:
+For each product, you can open the **Errors & Issues** tab to do the following:
 
-- **View licensing errors**, showing users who didn’t receive a license and the reason for the failure
+- **View licensing errors**, which shows users who didn’t receive a license and the reason for the failure.
+- **Identify users without licenses**, even if the assignment was attempted.
+- **Select a user to see details**, including their current status and available options for fixing the issue.
 
-- **Identify users without licenses**, even if the assignment was attempted
-
-- **Select a user to see details**, including their current status and available options for fixing the issue
-
-Common reasons you might see errors or issues include:
+Common reasons you might see errors or issues include the following:
 
 - No available licenses for the selected product
-
 - Conflicting services or license plans
-
 - An invalid usage location
 
-After you resolve the underlying issue—such as freeing up licenses, adjusting services, or updating user or group membership—you can retry the assignment directly from the **Errors & Issues** experience. Select the user with the error to open the details pane, then choose **Reprocess**. Reprocessing attempts to apply the license again using the current configuration and available licenses.
+After you resolve the underlying issue&mdash;such as freeing up licenses, adjusting services, or updating user or group membership&mdash;you can retry the assignment directly from the **Errors & Issues** tab. Select the user with the error to open the details pane, then select **Reprocess**. Reprocessing attempts to apply the license again using the current configuration and available licenses.
 
 ## Use the Active users page to assign or unassign licenses
 
@@ -122,9 +115,9 @@ When you use the **Active users** page to assign or unassign licenses, you assig
 ### Assign licenses to one user
 
 1. In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.
-2. Select the row of the user that you want to assign a license to.
-3. In the right pane, select **Licenses and Apps**.
-4. Expand the **Licenses** section, select the boxes for the licenses that you want to assign, then select **Save changes**.
+1. Select the row of the user that you want to assign a license to.
+1. In the right pane, select **Licenses and Apps**.
+1. Expand the **Licenses** section, select the boxes for the licenses that you want to assign, then select **Save changes**.
 
 ### Assign licenses to multiple users
 
