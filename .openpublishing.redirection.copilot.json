@@ -12,7 +12,7 @@
       },
       {
          "source_path": "copilot/copilot-tuning-summarization.md",
-         "redirect_url": "/copilot/microsoft-365/copilot-tuning-summary-agent",
+         "redirect_url": "/copilot/microsoft-365/copilot-tuning-document-summary-agent",
          "redirect_document_id": true
       },
       {
@@ -32,7 +32,7 @@
       },
       {
          "source_path": "copilot/copilot-tuning-expert-qa.md",
-         "redirect_url": "/copilot/microsoft-365/copilot-tuning-expert-answer-agent",
+         "redirect_url": "/copilot/microsoft-365/copilot-tuning-expert-answers-agent",
          "redirect_document_id": true
       },
       {
