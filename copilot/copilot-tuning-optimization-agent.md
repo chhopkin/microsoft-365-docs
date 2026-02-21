@@ -181,7 +181,7 @@ The agent does **not** store uploaded data files.
 
    :::image type="content" source="media/copilot-tuning-optimization-agent/optimization-agent-details-configuration.png" alt-text="Screenshot of the agent details configuration page where you provide name, description, and suggested prompts." lightbox="media/copilot-tuning-optimization-agent/optimization-agent-details-configuration.png":::
 
-   > **Important**  
+   > [!Important]  
    > - Leave the default instructions unchanged unless you have a specific reason to edit them.  
    > - Do not add capabilities or knowledge sources. The Optimization agent does not support them.
 
@@ -202,7 +202,7 @@ The agent does **not** store uploaded data files.
 6. **Save the context**  
    After completing the setup, select **Update agent** to save the problem definition.
 
-   > **Note**  
+   > [!NOTE]  
    > Uploaded data isn't saved. Only the problem structure is retained.
 
    :::image type="content" source="media/copilot-tuning-optimization-agent/optimization-update-agent-button.png" alt-text="Screenshot showing the Update agent button to save the problem definition after completing the setup." lightbox="media/copilot-tuning-optimization-agent/optimization-update-agent-button.png":::
@@ -293,4 +293,4 @@ The agent alerts you if constraints or data make the problem unsolvable and prov
 
 ## Related content
 
-- [Copilot Tuning overview](copilot-tuning-overview.md
+- [Copilot Tuning overview](copilot-tuning-overview.md)

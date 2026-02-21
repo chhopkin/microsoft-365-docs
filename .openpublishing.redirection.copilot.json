@@ -1,6 +1,21 @@
 {
    "redirections": [
       {
+         "source_path": "copilot/copilot-tuning-troubleshooting-doc-generation.md",
+         "redirect_url": "/copilot/microsoft-365/copilot-tuning-document-writing-agent",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "copilot/copilot-tuning-troubleshooting-expert-qa.md",
+         "redirect_url": "/copilot/microsoft-365/copilot-tuning-expert-answer-agent#faq",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "copilot/copilot-tuning-troubleshooting-doc-generation.md",
+         "redirect_url": "/copilot/microsoft-365/copilot-tuning-document-writing-agent",
+         "redirect_document_id": true
+      },
+      {
          "source_path": "copilot/copilot-tuning-doc-generation.md",
          "redirect_url": "/copilot/microsoft-365/copilot-tuning-document-writing-agent",
          "redirect_document_id": true
