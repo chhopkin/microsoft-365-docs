@@ -127,7 +127,7 @@ The table shows you a breakdown of data at the per-user level. You can add or re
 > [!NOTE]
 > **Outlook for Windows migration process** view, and the columns 'Activity in classic Outlook' and 'Activity in new Outlook' in table are only available in the **Public** environment.
 > [!NOTE]
-> New Outlook (Monarch) usage is monitored through the Microsoft 365 admin center and not through GraphAPI. 
+> New Outlook (Monarch) usage is monitored through the Microsoft 365 admin center and not through Graph API. 
 
 The other columns identify if the user was active on that platform for that app (within Microsoft 365 Apps) in the period selected.
 
