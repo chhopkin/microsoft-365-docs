@@ -3,7 +3,7 @@ title: "Microsoft 365 admin center apps usage reports"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.date: 03/17/2025
+ms.date: 02/20/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -126,6 +126,8 @@ The table shows you a breakdown of data at the per-user level. You can add or re
 
 > [!NOTE]
 > **Outlook for Windows migration process** view, and the columns 'Activity in classic Outlook' and 'Activity in new Outlook' in table are only available in the **Public** environment.
+> [!NOTE]
+> New Outlook (Monarch) usage is monitored through the Microsoft 365 admin center and not through GraphAPI. 
 
 The other columns identify if the user was active on that platform for that app (within Microsoft 365 Apps) in the period selected.
 
