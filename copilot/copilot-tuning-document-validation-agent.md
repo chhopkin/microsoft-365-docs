@@ -2,7 +2,7 @@
 title: Copilot Tuning Document Validation Agent
 description: Learn how to use and tune the Document Validation agent in Microsoft 365 Copilot to review documents for compliance with organizational guidelines, policies, branding, and regulatory requirements.
 author: david-salas
-ms.author: david.salas
+ms.author: dsalasbarran
 manager: calvind
 ms.reviewer: riyazp
 ms.date: 02/19/2026

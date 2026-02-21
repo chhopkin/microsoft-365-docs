@@ -214,17 +214,15 @@ items:
         - name: Document Validation agent
           href: copilot-tuning-document-validation-agent.md
         - name: Expert Answers agent
-          href: copilot-tuning-expert-answer-agent.md
+          href: copilot-tuning-expert-answers-agent.md
         - name: Optimization agent
           href: copilot-tuning-optimization-agent.md
         - name: Style Editing agent
           href: copilot-tuning-style-editing-agent.md
         - name: Summarization agent
-          href: copilot-tuning-summarization-agent.md
+          href: copilot-tuning-summary-agent.md
       - name: FAQ
         href: copilot-tuning-faq.yml
-      - name: Summarization
-        href: copilot-tuning-summarization.md
       - name: FAQ for Copilot Tuning
         href: responsible-ai/copilot-tuning-responsible-ai-faq.md
     - name: Copilot Library
