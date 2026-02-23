@@ -20,11 +20,11 @@ description: Learn about how Microsoft 365 Archive can provide your organization
 
 Microsoft 365 Archive provides cost-effective storage for inactive SharePoint files and sites.
 
-Organizations often need to retain inactive or aging data for long periods in case it needs to be retrieved later. Storing this data in SharePoint can simplify searchability, security, compliance, and data lifecycle management.
+Organizations often need to retain inactive or aging data for long periods in case they need to retrieve it later. Storing this data in SharePoint helps simplify searchability, security, compliance, and data lifecycle management.
 
-Microsoft 365 Archive allows you to retain inactive data by moving it into a cold storage tier within SharePoint. Data archived with Microsoft 365 Archive automatically retains the same searchability, security, and [compliance](archive-compliance.md)  standards at a significantly reduced cost.
+Microsoft 365 Archive allows you to retain inactive data by moving it into a cold storage tier within SharePoint. Data archived with Microsoft 365 Archive automatically retains the same searchability, security, and [compliance](archive-compliance.md)  standards at a reduced cost.
 
-Additional advantages of using Microsoft 365 Archive include:
+Other advantages of using Microsoft 365 Archive include:
 
 - **Copilot optimization** - Copilot is not trained on archived content, maximizing response relevancy. 
 
@@ -34,9 +34,9 @@ Additional advantages of using Microsoft 365 Archive include:
 
 - **Speed** – Ultra-fast archive of sites of any size and any number of sites.
 
-- **Decluttering** – Explicit separation between active and inactive content to help you manage your site's lifecycle.
+- **Decluttering** – Explicit separation between active and inactive content to help manage your site's lifecycle.
 
-Microsoft 365 Archive, coupled with the Microsoft 365 search index and the [Microsoft Purview](/purview/purview) feature set, provides a powerful combination for your long-term data management needs at a price point that matches the lifecycle of your content. Microsoft 365 Archive is managed in the SharePoint admin center by [SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator).
+Microsoft 365 Archive works with the Microsoft 365 search index and the [Microsoft Purview](/purview/purview) feature set to support long-term data management at a price aligned with the lifecycle of your content. Microsoft 365 Archive is managed in the SharePoint admin center by [SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator).
 
 [!INCLUDE [global-administrator-note](../includes/global-administrator-note.md)]
 
@@ -50,34 +50,36 @@ When a site is archived, all content within the site is archived, including:
 
 - Permissions and all metadata
 
-Administrators should notify site owners and end users before archiving a site so they are aware that the site will no longer be accessible.
+Administrators should notify site owners and end users before archiving a site so they’re aware that the site will no longer be accessible.
 
 ## Limitations
 ### Site Archive limitations
-- Publishing sites, channel sites, and a handful of legacy site template types are not available to archive with Microsoft 365 Archive. For more information, see [Site templates supported](./archive-manage.md#site-templates-supported).
-- While sites associated with Teams with exclusively standard channels are supported for archiving, sites associated with Teams that include private or shared channels are only partially supported:
+- Publishing sites, channel sites, and some legacy site template types aren’t available to archive with Microsoft 365 Archive. For more information, see [Site templates supported](./archive-manage.md#site-templates-supported).
+
+- Sites associated with Teams that use only standard channels are supported for archiving. Sites associated with Teams that include private or shared channels are only partially supported:
+
     - SharePoint admin center: Archiving a site with channel sites is not possible. (Message: "The group connected site with channel sites associated can't be archived.")
-  - PowerShell and Graph API: Archiving a site with channel sites is not blocked.
+  - PowerShell and Graph API: Archiving a site with channel sites isn't blocked.
   Only the main site associated to the Team (and its standard channels) is archived. The private and shared channel sites remain active. Archiving the channel sites directly is not possible, as these sites use unsupported site templates.
-
-
+  
+  
 ### File Archive (preview) limitations
 
-- Some M365 applications and services do not yet support file-level archiving.  Such applications may display wrong error messages, fail to load correctly, or fail actions taken with archived content.  This includes but is not limited to:
+- Some Microsoft 365 applications and services don’t yet support file-level archiving. These applications might display incorrect error messages, fail to load correctly, or fail actions taken with archived content. This includes but isn’t limited to:
 
-  - Word and PowerPoint online
+     - Word and PowerPoint online
     
-  - Teams, OneDrive, and SharePoint mobile applications
+     - Teams, OneDrive, and SharePoint mobile applications
     
-  - MacOs with the OneDrive sync client
+     - MacOs with the OneDrive sync client
     
-  - Older versions of Windows, such as Windows 10 and earlier, with the OneDrive sync client
+     - Older versions of Windows, such as Windows 10 and earlier, with the OneDrive sync client
     
     - This also applies to Windows configured to not utilize frequent updates
         
-  - Older versions of Office desktop apps which have not had updates since March 1st, 2026. 
+     - Older versions of Office desktop apps which have not had updates since March 1st, 2026. 
     
-  - Other apps like Clipchamp, PowerBI, and others will fail to load archived content when attempting to import
+     - Other apps like Clipchamp, PowerBI, and others will fail to load archived content when attempting to import
     
 - File-level archive is only available for SharePoint sites.  Archived files which are copied or moved into OneDrive may not always be visually represented correctly as archived.
 
