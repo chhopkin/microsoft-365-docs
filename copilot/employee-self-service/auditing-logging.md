@@ -13,7 +13,7 @@ ms.topic:    # Add the ms.topic value
 ms.date:     02/23/2026
 ---
 
-# Auditing & logging
+# Auditing and logging
 
 The Employee Self-Service agent is built on Copilot and Power Platform. You can use auditing capabilities from these platforms to log and monitor usage.
 
