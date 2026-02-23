@@ -18,13 +18,13 @@ description: Learn about how Microsoft 365 Archive can provide your organization
 
 # Overview of Microsoft 365 Archive
 
-Microsoft 365 Archive offers cost-effective storage for inactive SharePoint files and sites.
+Microsoft 365 Archive provides cost-effective storage for inactive SharePoint files and sites.
 
-Your organization might need to keep inactive or aging data for long periods of time in case you need to retrieve it later. You might prefer to store the data in SharePoint to simplify searchability, security, compliance, and data lifecycle management.
+Organizations often need to retain inactive or aging data for long periods in case it needs to be retrieved later. Storing this data in SharePoint can simplify searchability, security, compliance, and data lifecycle management.
 
-Microsoft 365 Archive allows you to retain this inactive data by moving it into a cold storage tier (archive) within SharePoint. Any data archived with Microsoft 365 Archive will have the same searchability, security, and [compliance](archive-compliance.md) standards applied automatically at a much reduced cost.
+Microsoft 365 Archive allows you to retain inactive data by moving it into a cold storage tier within SharePoint. Data archived with Microsoft 365 Archive automatically retains the same searchability, security, and [compliance](archive-compliance.md)  standards at a significantly reduced cost.
 
-Some additional advantages of using Microsoft 365 Archive are:
+Additional advantages of using Microsoft 365 Archive include:
 
 - **Copilot optimization** - Copilot is not trained on archived content, maximizing response relevancy. 
 
@@ -36,18 +36,21 @@ Some additional advantages of using Microsoft 365 Archive are:
 
 - **Decluttering** – Explicit separation between active and inactive content to help you manage your site's lifecycle.
 
-Microsoft 365 Archive, coupled with the Microsoft 365 search index and the [Microsoft Purview](/purview/purview) feature set, provides a powerful combination for your long-term data management needs at a price point that matches the lifecycle of your content. Microsoft 365 Archive is controlled in the SharePoint admin center by [SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator).
+Microsoft 365 Archive, coupled with the Microsoft 365 search index and the [Microsoft Purview](/purview/purview) feature set, provides a powerful combination for your long-term data management needs at a price point that matches the lifecycle of your content. Microsoft 365 Archive is managed in the SharePoint admin center by [SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator).
 
 [!INCLUDE [global-administrator-note](../includes/global-administrator-note.md)]
 
-When a file or site is archived, it goes into an explicitly colder tier, no longer consumes a tenant’s active storage quota, and instead drives Microsoft 365 Archive storage consumption. Being in this colder tier means the content is no longer accessible by anyone in the organization outside of Microsoft Purview or admin search.
+When a file or site is archived, it moves into an explicitly colder tier and no longer consumes the tenant’s active storage quota. Instead, it contributes to Microsoft 365 Archive storage consumption. Content in this tier is no longer directly accessible to anyone and can only be accessed through Microsoft Purview or admin search.
 
-Archiving a site archives everything within it, including:
+When a site is archived, all content within the site is archived, including:
 
-- Document libraries and files
+- Document libraries, folder structures, and files
+
 - Lists and list data
 
-Administrators should notify the site owners and end users before a site is archived so they're aware that the site won't be accessible.
+- Permissions and all metadata
+
+Administrators should notify site owners and end users before archiving a site so they are aware that the site will no longer be accessible.
 
 ## Limitations
 ### Site Archive limitations
