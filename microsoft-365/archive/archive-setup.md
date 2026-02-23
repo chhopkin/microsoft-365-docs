@@ -73,7 +73,7 @@ Once pay-as-you-go billing is enabled in the Microsoft 365 admin center, Microso
 Microsoft 365 Archive is now enabled for you.  You're able to archive sites from the SharePoint admin center, and by default users can archive files on SharePoint sites. 
 
 > [!NOTE]
-> To enable the file-level archive preview, refer to the (Manage M365 Archive page)(/SharePoint/unlicensed-onedrive-accounts).
+> To enable the file-level archive preview, see (Manage)(manage.md).
 
 Billing for unlicensed OneDrive accounts can also be enabled from the same **Microsoft 365 Archive** panel.
 
