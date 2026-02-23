@@ -3,14 +3,19 @@
 # For more information, see https://learn.microsoft.com/en-us/help/platform/learn-editor-add-metadata
 # For valid values of ms.service, ms.prod, and ms.topic, see https://learn.microsoft.com/en-us/help/platform/metadata-taxonomies
 
-title:       # Add a title for the browser tab
-description: # Add a meaningful description for search results
+title:       Auditing & Logging for ESS agent
+description: ESS agent auditing & logging for enterprise readiness
 author:      sthilkumar # GitHub alias
 ms.author:   semani # Microsoft alias
-ms.service:  # Add the ms.service or ms.prod value
+ms.service:  microsoft-365-copilot
 # ms.prod:   # To use ms.prod, uncomment it and delete ms.service
 ms.topic:    # Add the ms.topic value
 ms.date:     02/23/2026
+ms.custom: ess-agent
+ms.localizationpriority: medium
+ms.collection: m365copilot
+appliesto:
+- ✅ Microsoft 365 Copilot
 ---
 
 # Auditing and logging
