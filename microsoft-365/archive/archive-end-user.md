@@ -50,6 +50,10 @@ To archive or reactivate all files in a folder, users can select the desired fol
 
 The user will receive an email when the action is complete.
 
+![Archive all files](media/archive-end-user/archive-all-files.png)
+
+
+
 ##### Limits and considerations
 
 The following limits apply to folder-level archive and reactivation actions:
