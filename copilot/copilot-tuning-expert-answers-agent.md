@@ -195,7 +195,7 @@ Examples of custom orchestration instructions include:
 ### Tool tuning
 
 - If you add knowledge or capabilities in Agent Builder, responses might not follow tone or guardrails defined by the Style Editor or Document Reviewer. This can occur when additional information is added after these agents run.
-- To ensure tone and rule enforcement, avoid adding capabilities in Copilot Studio Lite.
+- To ensure tone and rule enforcement, avoid adding capabilities in Agent Builder.
 
 ## FAQ
 
