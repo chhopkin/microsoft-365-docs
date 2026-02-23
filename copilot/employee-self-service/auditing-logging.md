@@ -1,19 +1,18 @@
 ---
-# Required metadata
-# For more information, see https://learn.microsoft.com/en-us/help/platform/learn-editor-add-metadata
-# For valid values of ms.service, ms.prod, and ms.topic, see https://learn.microsoft.com/en-us/help/platform/metadata-taxonomies
-
-title:       Auditing & Logging for ESS agent
-description: ESS agent auditing & logging for enterprise readiness
-author:      sthilkumar # GitHub alias
-ms.author:   semani # Microsoft alias
-ms.service:  microsoft-365-copilot
-# ms.prod:   # To use ms.prod, uncomment it and delete ms.service
-ms.topic:    # Add the ms.topic value
-ms.date:     02/23/2026
+title: Auditing & Logging for the Employee Self-Service (ESS) agent
+f1.keywords: NOCSH
+ms.author: semani
+author: sthilkumar
+manager: swgulati
+ms.reviewer: semani
+ms.date: 02/23/2026
+audience: Admin
+ms.topic: article
+ms.service: microsoft-365-copilot
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
+description: Learn how to setup auditing & logging for ESS agent
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---
