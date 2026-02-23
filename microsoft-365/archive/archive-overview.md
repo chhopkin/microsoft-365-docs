@@ -67,23 +67,23 @@ Administrators should notify site owners and end users before archiving a site s
 
 - Some Microsoft 365 applications and services don’t yet support file-level archiving. These applications might display incorrect error messages, fail to load correctly, or fail actions taken with archived content. This includes but isn’t limited to:
 
-     - Word and PowerPoint online
+  - Word and PowerPoint online.
     
-     - Teams, OneDrive, and SharePoint mobile applications
+  - Teams, OneDrive, and SharePoint mobile applications.
     
-     - MacOs with the OneDrive sync client
+  - MacOs with the OneDrive sync client.
     
-     - Older versions of Windows, such as Windows 10 and earlier, with the OneDrive sync client
-    
-    - This also applies to Windows configured to not utilize frequent updates
+  - Older versions of Windows, such as Windows 10 and earlier, with the OneDrive sync client.
+  
+    - This limitation also applies to Windows devices that aren’t configured to receive frequent updates.
         
-     - Older versions of Office desktop apps which have not had updates since March 1st, 2026. 
+  - Older versions of Office desktop apps that haven’t had updates since March 1, 2026.
     
-     - Other apps like Clipchamp, PowerBI, and others will fail to load archived content when attempting to import
+  - Other apps such as Clipchamp and Power BI fail to load archived content when attempting to import.
     
-- File-level archive is only available for SharePoint sites.  Archived files which are copied or moved into OneDrive may not always be visually represented correctly as archived.
+- File-level archive is available only for SharePoint sites. Archived files that are copied or moved into OneDrive might not always be visually represented as archived.
 
-- Certain file types cannot be archived, including OneNote, SharePoint pages, and SharePoint agents.
+- Certain file types can’t be archived, including OneNote, SharePoint pages, and SharePoint agents.
 
 ## Related articles
 
