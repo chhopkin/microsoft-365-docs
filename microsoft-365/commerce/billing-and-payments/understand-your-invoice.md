@@ -27,7 +27,7 @@ ms.custom:
 service.tree.id: 95459a4b-434c-4f83-879b-aa5f509fc7fa
 search.appverid: MET150
 description: "Learn how to interpret the charges on your invoice for your Microsoft business subscription with an MCA billing account."
-ms.date: 01/14/2026
+ms.date: 02/22/2026
 ---
 
 # Understand your invoice for your Microsoft MCA billing account
