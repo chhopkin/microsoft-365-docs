@@ -66,7 +66,7 @@ Once pay-as-you-go billing is enabled in the Microsoft 365 admin center, Microso
 
 1. Under **Storage services**, select **Archive**.
 
-1. On the **Microsoft 365 Archive** panel, in the **SharePoint site archive** section, select the status toggle to turn on Microsoft 365 Archive for SharePoint sites.
+1. On the **Microsoft 365 Archive** panel, in the **SharePoint archive** section, select the status toggle to turn on Microsoft 365 Archive for SharePoint sites.
 
 1. On the **Enable SharePoint archiving** panel, select **Confirm**.
 
@@ -80,11 +80,7 @@ Billing for unlicensed OneDrive accounts can also be enabled from the same **Mic
 
 3. On the **Pay-as-you-go services** page, select the **Settings** tab.
 
-4. Under **Storage services**, select **Archive**.
-
-5. On the **Microsoft 365 Archive** panel, in the **SharePoint site archive** section, select the status toggle to turn on Microsoft 365 Archive for SharePoint sites.
-
-6. On the **Enable site archiving** panel, select **Confirm**.
+1. Under **Storage services**, select **Archive**.
 
 7. On the **Microsoft 365 Archive** panel, in the **Manage archived unlicensed OneDrive accounts** section, select the status toggle to turn on Microsoft 365 Archive for unlicensed OneDrive accounts.
 
