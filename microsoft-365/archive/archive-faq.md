@@ -38,6 +38,10 @@ Microsoft 365 Archive allows you to keep your data in place in SharePoint, provi
 
 - Sites are archived and rehydrated without loss of metadata, security versioning, and more.
 
+#### What happens to versions for archived files?
+
+Archived files retain all their versions.  When the archived file is reactivated, all the existing versions will return to the file as well.  Versions cannot be archived independently of the file they belong to. 
+
 #### Can content in legal hold be archived?
 
 Yes, nearly all Microsoft Purview features continue to operate as normal.
