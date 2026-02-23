@@ -20,19 +20,19 @@ description: Learn how to archive, reactivate, and manage sites in Microsoft 365
 
 ## Archive a file (preview)
 
-On sites with file-level archive enabled, users can manually archive files for which they have edit permissions.  Users can select one or more files and choose the '*Archive*' action.   As soon as the file is archived, it will require reactivation before it can be read. Files which were recently archived can be reactivated instantly. 
+On sites with file-level archive enabled, users can manually archive files that they have edit permissions for. Users select one or more files and choose the '***Archive***' action. After a file is archived, it requires reactivation before it can be read. Files that were recently archived can be reactivated instantly.
 
-To learn more about different archive states, see [Archive states in Microsoft 365 Archive](archive-states.md).
+To learn more about archive states, see [Archive states in Microsoft 365 Archive](archive-states.md).
 
 ## Archive a site
 
-[SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator) can archive both nongroup connected sites and group-connected sites from the SharePoint admin center. Archiving group-connected sites archive only the site, and the rest of the group continues being active. As soon as a site is archived, it stops consuming storage from active storage quota, and the storage starts being counted towards Microsoft 365 Archive storage. (There might be a delay in the change in storage being reflected in the admin center.)
+[SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator) can archive both non-group-connected sites and group-connected sites from the SharePoint admin center. When a group-connected site is archived, only the site is archived and the rest of the group remains active. After a site is archived, it stops consuming active storage quota and begins consuming Microsoft 365 Archive storage. Changes in storage usage might take time to appear in the SharePoint admin center.
 
 [!INCLUDE [global-administrator-note](../includes/global-administrator-note.md)]
 
-To learn more about different archive states, see [Archive states in Microsoft 365 Archive](archive-states.md).
+To learn more about archive states, see [Archive states in Microsoft 365 Archive](archive-states.md).
 
-When a site is archived, compliance features such as eDiscovery and retention labels continue to be applied to the site.
+When a site is archived, compliance features such as eDiscovery and retention labels continue to apply.
 
 1. In the SharePoint admin center, go to [**Active sites**](https://go.microsoft.com/fwlink/?linkid=2185220), and sign in with an account that has [admin permissions](/sharepoint/sharepoint-admin-role) for your organization.
 
@@ -52,13 +52,13 @@ When a site is archived, compliance features such as eDiscovery and retention la
 
 ### Archive a site connected to Teams
 
-Sites associated with Teams with exclusively standard channels are supported for archiving.
+Sites associated with Teams that use only standard channels are supported for archiving.
 
 Sites associated with Teams that include private or shared channels are only partially supported:
 
 - SharePoint admin center: Archiving a site with channel sites is not possible. (Message: "The group connected site with channel sites associated can't be archived.")
 
-- PowerShell and Graph API: Archiving a site with channel sites is not blocked. Only the main site associated to the Team (and its standard channels) is archived. The private and shared channel sites remain active. Archiving the channel sites directly is not possible, as these sites use unsupported site templates.
+- PowerShell and Graph API: Archiving a site with channel sites isn’t blocked. Only the main site associated with the Team and its standard channels is archived. Private and shared channel sites remain active. Archiving channel sites directly isn’t possible because these sites use unsupported site templates.
 
 ## Manage file-level archive (preview)
 
