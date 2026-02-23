@@ -20,16 +20,18 @@ description: Learn about the pricing model for storage consumption and site reac
 
 Microsoft 365 Archive charges you for storage.
 
-Storage consumption is charged at a per-GB monthly rate. This meter is charged only when archived storage plus active storage in SharePoint exceeds the included or licensed allocated SharePoint storage capacity limit of the tenant. In other words, there's no additional storage cost for archived sites if the tenant hasn't consumed its already licensed storage quota. For more information about storage capacity limits, see [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
+Storage consumption is charged at a per-GB monthly rate. This meter is charged only when archived storage plus active storage in SharePoint exceeds the included or licensed allocated SharePoint storage capacity limit of the tenant. In other words, there's no additional storage cost for archived sites or files if the tenant hasn't consumed its already licensed storage quota. For more information about storage capacity limits, see [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
 
 > [!NOTE]
 > The reactivation fee for archived content in SharePoint was eliminated on March 31, 2025. After that date, reactivating archived content became free of charge, but re-archiving any newly reactivated content is restricted for a four-month period. This change doesn't apply to OneDrive accounts. For more information, see the [Microsoft 365 Archive blog](https://techcommunity.microsoft.com/blog/microsoft_365_archive_blog/microsoft-365-archive-eliminates-reactivation-fees-by-march-31-2025/4383215).
 
-Monthly archive usage is calculated as the sum of the usage of all currently archived sites. Each site’s usage is equal to the site storage usage of that site, which can be seen on the site itself or from the Active sites page in the SharePoint admin center. The size of an archived site, and therefore the storage for which it’s billed, changes only if the content in the site changes. For example, content naturally expiring in the recycle bin or a retention policy deleting content within the site directly from archive to the recycle bin.
+Monthly archive storage usage is calculated as the total of two components: (1) the storage used by all archived SharePoint sites, and (2) the storage used by archived files that reside in non‑archived SharePoint sites. Archived files that are contained within an archived site are counted only as part of that site’s archived storage and are not counted again individually.
+
+For archived sites, the billed storage is equal to the site’s current storage usage, as shown on the site itself or on the **Active sites** page in the SharePoint admin center. The storage usage of an archived site changes only when the site’s content changes, such as when items expire from the recycle bin or when retention policies permanently delete content.
 
 To see the pricing for Microsoft 365 Archive, see [Pay-as-you-go services and pricing](/microsoft-365/documentprocessing/syntex-pay-as-you-go-services#storage-services).
 
-## Pricing calculator
+## Pricing calculator for site archive
 
 The Microsoft 365 Archive pricing calculator is a tool that helps you estimate the costs that you incur to archive your Microsoft 365 data.
 
