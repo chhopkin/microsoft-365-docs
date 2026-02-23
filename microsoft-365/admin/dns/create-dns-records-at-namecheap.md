@@ -72,7 +72,16 @@ To add DNS records at Namecheap, sign in to your Namecheap account and then go t
 
      :::image type="content" source="../../media/05a4f0b9-1d27-448e-9954-2b23304c5f65.png" alt-text="Screenshot of the domain management page with Advanced DNS selected.":::
 
-## Add a TXT record for domain ownership verification
+## Add Microsoft 365 DNS records at Namecheap
+
+To add DNS records at Namecheaprequired for Microsoft 365 services, select the tab based on which DNS records you need to add:
+
+- **Domain Connect** - Registrar supports Domain Connect and DNS records are added automatically.
+- **Manual** - Registrar doesn't support Domain Connect and DNS records need to be added manually.
+
+### [:::image type="icon" source="../../media/icons/software-18.svg"::: **Domain Verify**](#tab/domain-)
+
+#### Add a TXT record for domain ownership verification
 
 Before you can use your domain with Microsoft 365, you need to prove you own the domain. Your ability to sign in to your account at your domain registrar and create the DNS record proves to Microsoft that you own the domain. This process involves creating a TXT record at your domain registrar with a specific value that Microsoft can look for. When Microsoft finds the record with the correct value, your domain is verified. The TXT record is used only to verify that you own your domain. It doesn't affect anything else and can be deleted once domain verification is complete.
 
@@ -138,7 +147,7 @@ To verify the record in the Microsoft 365 admin center, follow these steps:
     - [DNS records for Microsoft Teams](#dns-records-for-microsoft-teams).
     - [DNS records for Microsoft Intune and Mobile Device Management for Microsoft 365](#dns-records-for-microsoft-intune-and-mobile-device-management-for-microsoft-365).
 
-## DNS records for Microsoft 365 email
+### [:::image type="icon" source="../../media/icons/software-18.svg"::: **Email**](#tab/email)
 
 Microsoft 365 email requires three types of DNS records:
 
@@ -148,7 +157,7 @@ Microsoft 365 email requires three types of DNS records:
 
 To add each of these types of records at Namecheap, follow the steps in the following sections.
 
-### Add an MX record to enable email delivery to Microsoft 365
+#### Add an MX record to enable email delivery to Microsoft 365
 
 To add the MX record for email at Namecheap, follow these steps:
 
@@ -193,7 +202,7 @@ To add the MX record for email at Namecheap, follow these steps:
 
     Remove all MX records except for the one that you added earlier in this procedure.
 
-### Add a CNAME record so email accounts are automatically set up in Outlook and other email clients
+#### Add a CNAME record so email accounts are automatically set up in Outlook and other email clients
 
 To add a CNAME record for email account discovery at Namecheap, follow these steps:
 
@@ -223,7 +232,7 @@ To add a CNAME record for email account discovery at Namecheap, follow these ste
 
      :::image type="content" source="../../media/91a5cce4-ca41-41ec-b976-aafe681a4d68.png" alt-text="Screenshot of the Save Changes control for the CNAME record.":::
 
-### Add an SPF TXT record to help prevent email spam
+#### Add an SPF TXT record to help prevent email spam
 
 > [!IMPORTANT]
 >
@@ -256,14 +265,16 @@ To add an SPF TXT record for email spam protection at Namecheap, follow these st
 
      :::image type="content" source="../../media/f2846c36-ace3-43d8-be5d-a65e2c267619.png" alt-text="Screenshot of the Save Changes control for the SPF TXT record.":::
 
-## DNS records for Microsoft Teams
+### [:::image type="icon" source="../../media/icons/software-18.svg"::: **Teams**](#tab/teams)
 
-Only add these DNS records if your organization uses Microsoft Teams. Microsoft Teams needs four records:
+Microsoft Teams needs four records:
 
 - Two SRV records for user-to-user communication.
 - Two CNAME records to sign in and connect users to the service.
 
-### Add the two required SRV records for Microsoft Teams
+Only add these DNS records if your organization uses Microsoft Teams.
+
+#### Add the two required SRV records for Microsoft Teams
 
 To add SRV records for Microsoft Teams at Namecheap, follow these steps:
 
@@ -296,7 +307,7 @@ To add SRV records for Microsoft Teams at Namecheap, follow these steps:
 
 1. Add the other SRV record by choosing the values from the second row of the table.
 
-### Add the two required CNAME records for Microsoft Teams
+#### Add the two required CNAME records for Microsoft Teams
 
 To add CNAME records for Microsoft Teams at Namecheap, follow these steps:
 
@@ -329,11 +340,11 @@ To add CNAME records for Microsoft Teams at Namecheap, follow these steps:
 
 1. Add the other CNAME record by choosing the values from the second row of the table.
 
-## DNS records for Microsoft Intune and Mobile Device Management for Microsoft 365
+### [:::image type="icon" source="../../media/icons/software-18.svg"::: **Intune/MDM**](#tab/intune-mdm)
 
- Microsoft Intune and Mobile Device Management for Microsoft 365 help you secure and remotely manage devices that connect to your domain. Mobile Device Management for Microsoft 365 needs two CNAME records so that users can enroll devices to the service. Only add these records if your organization uses Microsoft Intune or Mobile Device Management for Microsoft 365.
+Microsoft Intune and Mobile Device Management for Microsoft 365 help you secure and remotely manage devices that connect to your domain. Mobile Device Management for Microsoft 365 needs two CNAME records so that users can enroll devices to the service. Only add these records if your organization uses Microsoft Intune or Mobile Device Management for Microsoft 365.
 
-### Add the two required CNAME records for Microsoft Intune and Mobile Device Management for Microsoft 365
+#### Add the two required CNAME records for Microsoft Intune and Mobile Device Management for Microsoft 365
 
 To add CNAME records for Microsoft Intune and Mobile Device Management for Microsoft 365 at Namecheap, follow these steps:
 
@@ -365,6 +376,8 @@ To add CNAME records for Microsoft Intune and Mobile Device Management for Micro
      :::image type="content" source="../../media/91a5cce4-ca41-41ec-b976-aafe681a4d68.png" alt-text="Screenshot of the Save Changes control for the CNAME records for Mobile Device Management for Microsoft 365.":::
 
 1. Add the other CNAME record by choosing the values from the second row of the table.
+
+---
 
 ## Support
 
