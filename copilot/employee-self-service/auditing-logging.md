@@ -1,5 +1,5 @@
 ---
-title: Auditing & Logging for the Employee Self-Service (ESS) agent
+title: Auditing & Logging for the Employee Self-Service agent
 f1.keywords: NOCSH
 ms.author: semani
 author: sthilkumar
@@ -12,7 +12,7 @@ ms.service: microsoft-365-copilot
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
-description: Learn how to setup auditing & logging for ESS agent
+description: Learn how to setup auditing & logging for Employee Self-Service agent
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---
