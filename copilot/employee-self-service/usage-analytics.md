@@ -5,14 +5,14 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 11/05/2025
+ms.date: 02/24/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.custom: ess-agent
 ms.localizationpriority: medium
 ms.collection: m365copilot
-description: Learn how to access usage analytics for the Employee Self-Service agent.
+description: Learn how to access usage analytics for your Employee Self-Service agent. Administrators can monitor usage for any Employee Self-Service agents configured in their environment.
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---
@@ -24,27 +24,27 @@ Monitoring the usage analytics of the Employee Self-Service agent should be part
 There are two approaches in consuming analytics:
 
 1. Systematically monitoring agent usage, effectiveness, quality, and satisfaction, which fall within the responsibilities of the service owner and/or creator. [Learn more](/microsoft-copilot-studio/analytics-overview) about Copilot Studio analytics documentation.
-1. Review agent usage, satisfaction scores, and other metrics to assess the agent’s return on investment. [Learn more](/viva/insights/org-team-insights/copilot-dashboard) about the Copilot
+1. Review agent usage, satisfaction scores, and other metrics to assess the agent's return on investment. [Learn more](/viva/insights/org-team-insights/copilot-dashboard) about Copilot.
 
 ## Measure what matters
 
-Employee Self-Service (ESS) telemetry is designed to help organizations move beyond basic usage reporting and toward **operational clarity, trust, and continuous improvement**. While ESS collects a single, consistent telemetry stream, **different stakeholders interpret that telemetry through different lenses**, depending on the decisions they are responsible for making.
-This article explains how to interpret ESS telemetry for each stakeholder in your organization, using the same storytelling model that Microsoft’s product and engineering teams use internally—so customers and product teams are aligned on what “good” looks like and what actions to take next.
+Employee Self-Service atelemetry is designed to help organizations move beyond basic usage reporting and toward **operational clarity, trust, and continuous improvement**. While Employee Self-Service collects a single, consistent telemetry stream, **different stakeholders interpret that telemetry through different lenses**, depending on the decisions they are responsible for making.
+This article explains how to interpret Employee Self-Service telemetry for each stakeholder in your organization, using the same storytelling model that Microsoft's product and engineering teams use internally—so customers and product teams are aligned on what "good" looks like and what actions to take next.
 
 ## One Telemetry, Different lenses
 
-ESS telemetry follows a simple but powerful narrative framework:
+Employee Self-Service telemetry follows a simple but powerful narrative framework:
 
-**`Intent ➡️ Behavior ➡️ Outcome ➡️ Action`**
+**Intent > Behavior > Outcome > Action**
 
-This model ensures telemetry is not just descriptive, but decision oriented.  The same data answers different questions depending on who is looking at it.
+This model ensures telemetry is not just descriptive, but decision oriented. The same data answers different questions depending on who is looking at it.
 
-|Story Element | What it means in ESS
-|---------------|---------------------
-|**Intent**         |What employees are trying to do
-|**Behavior**     |How the ESS agent is used
-|**Outcome**        |Business and experience impact
-|**Action**         |What should change as a result
+|Story Element |What it means in Employee Self-Service       |
+|--------------|---------------------------------------------|
+|**Intent**    |What employees are trying to do.             |
+|**Behavior**  |How the Employee Self-Service agent is used. |
+|**Outcome**   |Business and experience impact.              |
+|**Action**    |What should change as a result.              |
 
 ## Stakeholder-based interpretation guide
 
@@ -52,7 +52,7 @@ This model ensures telemetry is not just descriptive, but decision oriented.  Th
 
 **Primary question**
 
-*Is ESS compounding value on scale, and where should we invest next?*
+*Is the Employee Self-Service agent compounding value on scale, and where should we invest next?*
 Executives should focus on **outcome-level telemetry**, not raw interaction counts.
 
 **Recommended telemetry signals**
@@ -60,21 +60,21 @@ Executives should focus on **outcome-level telemetry**, not raw interaction coun
 - Active usage and rollout progression	
 - Conversion success rate
 - Reduction in assisted support
-- Trend alignment with business goals (e.g., ticket deflection, time saved, productivity gain, employee satisfaction)
+- Trend alignment with business goals (for example, ticket deflection, time saved, productivity gain, employee satisfaction)
 
 **How to interpret**
 - Rising usage without corresponding success improvements may indicate trust gaps
-- Stable success rates with expanding usage suggest ESS is scaling reliably
+- Stable success rates with expanding usage suggest the Employee Self-Service agent is scaling reliably
 - Drops in success or spikes in assisted support, signals investment needs
 
 **Typical actions**
 - Prioritize funding towards friction areas surfaced by telemetry
-- Align ESS expansion to scenarios with measurable business value
+- Align Employee Self-Service agent expansion to scenarios with measurable business value
 
 **Common business goals**
 - Ticket deflection across implemented business verticals to reduce operational cost
 - Time saved / Assisted savings for employees by reducing manual support interactions
-- Return on investment (ROI) from ESS deployment and expansion
+- Return on investment (ROI) from Employee Self-Service deployment and expansion
 - Sustained adoption beyond pilot phases (trust and repeat usage)	
 - Predictable scale without increasing support or incident load
 
@@ -114,58 +114,58 @@ Product/service stakeholders focused on each business domain/verticals such as H
 - Focus investment on highest-impact scenarios, not vanity metrics
 
 #### Interpreting Telemetry by verticals
-This section is designed to help you operationalize ESS telemetry across your organization by anchoring analytics to real scenarios, clear stakeholder questions, and concrete actions.
+This section is designed to help you operationalize the Employee Self-Service telemetry across your organization by anchoring analytics to real scenarios, clear stakeholder questions, and concrete actions.
 
 ***Human Resources (HR)***
 **Typical scenarios**
-- “How many vacation days do I have left?”
-- “When is my next payroll date?”
-- “What benefits am I eligible for?”
-- “How do I apply for parental leave?”
-- “Can I add a dependent to my benefits?”
+- "How many vacation days do I have left?"
+- "When is my next payroll date?"
+- "What benefits am I eligible for?"
+- "How do I apply for parental leave?"
+- "Can I add a dependent to my benefits?"
 
 **HR stakeholders & questions**
 
-|Stakeholder    |    Key question
-|-------------  |-----------------
-|**HR Business Owner** | Are employees getting accurate answers without HR tickets?
-| **HR Operations**    |    Which topics still require manual follow up?
-|**Change & Adoption lead** |Are employees trusting ESS for HR questions?
+|Stakeholder                |Key question                                                   |
+|---------------------------|---------------------------------------------------------------|
+|**HR Business Owner**      |Are employees getting accurate answers without HR tickets?     |
+| **HR Operations**         |Which topics still require manual follow up?                   |
+|**Change & Adoption lead** |Are employees trusting Employee Self-Service for HR questions? |
 
 **Telemetry signals to review for HR**
-- Conversation success rate (HR intents)
-- Assisted support rate for HR topics
-- Repeated queries or retries on the same HR topic
-- Evaluation (Eval) pass/fail trends for HR scenarios
+- Conversation success rate (HR intents).
+- Assisted support rate for HR topics.
+- Repeated queries or retries on the same HR topic.
+- Evaluation (Eval) pass/fail trends for HR scenarios.
 
 **How to interpret HR telemetry**
-- **High usage + high success** = ESS is deflecting HR tickets effectively
-- **High usage + low success** = Knowledge gaps or response clarity issues
-- **Repeated retries** = Policy ambiguity or missing personalization (user context)
-- **Eval regressions** = Risk of inconsistent answers
+- **High usage + high success** = The Employee Self-Service agent is deflecting HR tickets effectively.
+- **High usage + low success** = Knowledge gaps or response clarity issues.
+- **Repeated retries** = Policy ambiguity or missing personalization (user context).
+- **Eval regressions** = Risk of inconsistent answers.
 
 **Recommended actions for HR**
-- Prioritize Eval coverage for high-volume HR scenarios
-- Improve response specificity for policy-driven questions
-- Align HR telemetry reviews with specific organizational event cadence such as payroll/benefit cycles
-- Track success trends before expanding ESS to new HR domains
+- Prioritize Eval coverage for high-volume HR scenarios.
+- Improve response specificity for policy-driven questions.
+- Align HR telemetry reviews with specific organizational event cadence such as payroll/benefit cycles.
+- Track success trends before expanding the Employee Self-Service agent to new HR domains.
 
 ***Information Technology (IT)***
 
 **Typical IT scenarios**
-- “Reset my password”
-- “Unlock my account”
-- “Request access to an application”
-- “Install approved software”
-- “Check my device compliance status”
+- "Reset my password"
+- "Unlock my account"
+- "Request access to an application"
+- "Install approved software"
+- "Check my device compliance status"
 
 **IT Stakeholders & Questions**
 
-|**Stakeholder**        |	**Key Question**
-|---------------        |-----------------
-|**IT Service Owner**    |Is ESS reducing ticket volume for common IT issues?
-|**IT Operations**        |Are failures due to configuration or platform issues?
-|**Security / IAM**    |	Are requests handled securely and consistently?
+|**Stakeholder**      |**Key Question**                                                                |
+|---------------------|--------------------------------------------------------------------------------|
+|**IT Service Owner** |Is the Employee Self-Service agent reducing ticket volume for common IT issues? |
+|**IT Operations**    |Are failures due to configuration or platform issues?                           |
+|**Security / IAM**   |Are requests handled securely and consistently?                                 |
 
 **Telemetry signals to review for IT**
 - Ticket deflection indicators
@@ -187,19 +187,19 @@ This section is designed to help you operationalize ESS telemetry across your or
 
 ***Facilities & Workplace services***
 **Typical Workplace scenarios**
-- “Report a facilities issue”
-- “Request building access”
-- “Find office policies or amenities”
-- “Book a workspace or room”
-- “Check office hours or closures”
+- "Report a facilities issue"
+- "Request building access"
+- "Find office policies or amenities"
+- "Book a workspace or room"
+- "Check office hours or closures"
 
 **Facilities Stakeholders & Questions**
 
-|**Stakeholder**        |**Key Question**
-|----------                |    ---------------
-|**Workplace Operations**        |	Are facilities requests resolved without manual triage?
-|**Facilities Managers**    |Which requests still require human intervention?
-|**Employee Experience**    |Is ESS improving day to day workplace trust?
+|**Stakeholder**          |**Key Question**                                                         |
+|-------------------------|-------------------------------------------------------------------------|
+|**Workplace Operations** |Are facilities requests resolved without manual triage?                  |
+|**Facilities Managers**  |Which requests still require human intervention?                         |
+|**Employee Experience**  |Is the Employee Self-Service agent improving day to day workplace trust? |
 
 **Telemetry signals to review for facilities**
 - Scenario completion vs. handoff rates
@@ -215,14 +215,14 @@ This section is designed to help you operationalize ESS telemetry across your or
 
 **Recommended actions for facilities**
 - Improve knowledge freshness and clarity
-- Identify top “must-be-right” facilities scenarios for evals
+- Identify top "must-be-right" facilities scenarios for evals
 - Use telemetry to justify integration investments
 - Track sentiment trends as a proxy for workplace trust
 
 ### IT Administrators & Makers ###
 **Primary question**
 
-*Is ESS configured correctly, stable, and ready to scale?*
+*Is the Employee Self-Service agent configured correctly, stable, and ready to scale?*
 Administrators and Makers should interpret telemetry as **health and readiness indicators**, not adoption metrics
 
 **Recommended telemetry signals**
@@ -243,22 +243,22 @@ Administrators and Makers should interpret telemetry as **health and readiness i
 - Validates environments before promoting to production
 - Coordinate changes using ALM and readiness checks
 
-## ESS Analytics & Evaluations: A unified playbook to accelerate time-to-value (TTV) ##
+## Employee Self-Service analytics and evaluations: A unified playbook to accelerate time-to-value (TTV)
 
-### Why combine Telemetry + Evaluations? ###
+### Why combine relemetry and evaluations?
 
 Telemetry and evaluations solve different (but complementary) problems:
-- Telemetry tells you what is happening in real usage - what employees are trying to do, what they do, and what outcomes are being produced
-- Evaluations (evals) tell you whether the agent behaves the way you expect – accurately, consistently, and safely – using repeatable, automated test cases that help validate improvements and catch regressions
+- Telemetry tells you what is happening in real usage - what employees are trying to do, what they do, and what outcomes are being produced.
+- Evaluations (evals) tell you whether the agent behaves the way you expect – accurately, consistently, and safely, using repeatable, automated test cases that help validate improvements and catch regressions.
 
 When used together, they create a practical loop:
 
-> Telemetry identifies where to focus ➡️ Evaluations verify quality and prevent regressions ➡️ Telemetry confirm impact at scale ➡️ repeat
+- Telemetry identifies where to focus > Evaluations verify quality and prevent regressions > Telemetry confirm impact at scale > repeat.
 
-This loop is what accelerates TTV: you’re not just “*looking at dashboards*” or “*running tests*” – you’re continuously turning signals into actions with confidence.
+This loop is what accelerates TTV: you don't "*look at dashboards*" or "*run tests*," you continuously turning signals into actions.
 
-The shared operating model: 
+The shared operating model:
 
-**`Intent ➡️ Behavior ➡️ Outcome ➡️ Action`**
+**'Intent ➡️ Behavior ➡️ Outcome ➡️ Action'**
 
 Evals plug into the same model by providing repeatable evidence about whether the agent can reliably deliver the intended outcomes before you expose the change to broad employee usage.
