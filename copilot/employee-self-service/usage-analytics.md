@@ -28,8 +28,9 @@ There are two approaches in consuming analytics:
 
 ## Measure what matters
 
-Employee Self-Service atelemetry is designed to help organizations move beyond basic usage reporting and toward **operational clarity, trust, and continuous improvement**. While Employee Self-Service collects a single, consistent telemetry stream, **different stakeholders interpret that telemetry through different lenses**, depending on the decisions they are responsible for making.
-This article explains how to interpret Employee Self-Service telemetry for each stakeholder in your organization, using the same storytelling model that Microsoft's product and engineering teams use internally—so customers and product teams are aligned on what "good" looks like and what actions to take next.
+Employee Self-Service atelemetry is designed to help organizations move beyond basic usage reporting and toward **operational clarity, trust, and continuous improvement**. While Employee Self-Service collects a single, consistent telemetry stream, **different stakeholders interpret that telemetry through different lenses**, depending on the decisions they're responsible for making.
+
+This article explains how to interpret Employee Self-Service telemetry for each stakeholder in your organization, using the same storytelling model that Microsoft's product and engineering teams use internally. This allows customers and product teams to align on what "good" looks like and what actions to take next.
 
 ## One Telemetry, Different lenses
 
@@ -37,7 +38,7 @@ Employee Self-Service telemetry follows a simple but powerful narrative framewor
 
 **Intent > Behavior > Outcome > Action**
 
-This model ensures telemetry is not just descriptive, but decision oriented. The same data answers different questions depending on who is looking at it.
+This model ensures telemetry isn't just descriptive, but decision oriented. The same data answers different questions depending on who is looking at it.
 
 |Story Element |What it means in Employee Self-Service       |
 |--------------|---------------------------------------------|
@@ -129,7 +130,7 @@ This section is designed to help you operationalize the Employee Self-Service te
 |Stakeholder                |Key question                                                   |
 |---------------------------|---------------------------------------------------------------|
 |**HR Business Owner**      |Are employees getting accurate answers without HR tickets?     |
-| **HR Operations**         |Which topics still require manual follow up?                   |
+| **HR Operations**         |Which topics still require manual follow-up?                   |
 |**Change & Adoption lead** |Are employees trusting Employee Self-Service for HR questions? |
 
 **Telemetry signals to review for HR**
@@ -245,7 +246,7 @@ Administrators and Makers should interpret telemetry as **health and readiness i
 
 ## Employee Self-Service analytics and evaluations: A unified playbook to accelerate time-to-value (TTV)
 
-### Why combine relemetry and evaluations?
+### Why combine telemetry and evaluations?
 
 Telemetry and evaluations solve different (but complementary) problems:
 - Telemetry tells you what is happening in real usage - what employees are trying to do, what they do, and what outcomes are being produced.
