@@ -160,6 +160,7 @@ This section is designed to help you operationalize ESS telemetry across your or
 - “Check my device compliance status”
 
 **IT Stakeholders & Questions**
+
 |**Stakeholder**        |	**Key Question**
 |---------------        |-----------------
 |**IT Service Owner**    |Is ESS reducing ticket volume for common IT issues?
@@ -193,6 +194,7 @@ This section is designed to help you operationalize ESS telemetry across your or
 - “Check office hours or closures”
 
 **Facilities Stakeholders & Questions**
+
 |**Stakeholder**        |**Key Question**
 |----------                |    ---------------
 |**Workplace Operations**        |	Are facilities requests resolved without manual triage?
