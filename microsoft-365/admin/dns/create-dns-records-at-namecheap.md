@@ -36,10 +36,10 @@ This article covers the creation of the following DNS records at Namecheap:
 
 | Service | DNS record types |
 |---------|------------------|
-| [Domain verification](#add-a-txt-record-for-domain-ownership-verification) | TXT |
-| [Email](#dns-records-for-microsoft-365-email)   | MX, CNAME (Autodiscover), TXT (SPF) |
-| [Microsoft Teams](#dns-records-for-microsoft-teams) | SRV (2), CNAME (2) |
-| [Microsoft Intune/MDM](#dns-records-for-microsoft-intune-and-mobile-device-management-for-microsoft-365)   | CNAME (2) |
+| [Domain verification](create-dns-records-at-namecheap.md?&tabs=domain-verify#add-microsoft-365-dns-records-at-namecheap) | TXT |
+| [Email](create-dns-records-at-namecheap.md?&tabs=email#add-microsoft-365-dns-records-at-namecheap)   | MX, CNAME (Autodiscover), TXT (SPF) |
+| [Microsoft Teams](create-dns-records-at-namecheap.md?&tabs=teams#add-microsoft-365-dns-records-at-namecheap) | SRV (2), CNAME (2) |
+| [Microsoft Intune/MDM](create-dns-records-at-namecheap.md?&tabs=intune-mdm#add-microsoft-365-dns-records-at-namecheap)   | CNAME (2) |
 
 > [!NOTE]
 >
@@ -76,8 +76,10 @@ To add DNS records at Namecheap, sign in to your Namecheap account and then go t
 
 To add required DNS records at Namecheap for Microsoft 365 services, select the tab based on which DNS records you need to add:
 
-- **Domain Connect** - Registrar supports Domain Connect and DNS records are added automatically.
-- **Manual** - Registrar doesn't support Domain Connect and DNS records need to be added manually.
+- **Domain Verification**.
+- **Email**.
+- **Microsoft Teams**.
+- **Microsoft Intune/Mobile Device Management for Microsoft 365**.
 
 ### [:::image type="icon" source="../../media/icons/software-18.svg"::: **Domain Verify**](#tab/domain-verify)
 
