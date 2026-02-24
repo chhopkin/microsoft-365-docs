@@ -75,8 +75,12 @@ items:
           href: servicenow-hrsd-itsm.md
         - name: ServiceNow Live agent
           href: servicenow-live-agent.md
-- name: Usage analytics, feedback, audits, logging
+- name: Usage analytics
   href: usage-analytics.md
+- name: Review user feedback
+  href: feedback.md
+- name: Auditing and Logging
+  href: auditing-logging.md
 - name: Known issues and limitations
   href: known-issues-limitations.md
 - name: Responsible AI FAQ
