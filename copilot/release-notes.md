@@ -162,21 +162,22 @@ Updates released between February 10, 2026, February 24, 2026
 
   **Detailes:** 
 
-  **What changed:** Admins can now add or remove filters for each data source directly within Copilot Search settings. Previously, customization required more complex configuration. 
+  **What changed:** Microsoft 365 Copilot search now includes a dynamic filtering experience that surfaces data source–specific filters. When users select a source (such as Outlook, SharePoint, Teams, Azure DevOps, Google Drive, Jira, or Confluence), relevant filters automatically appear in the right rail. 
 
-  **Why:** This provides admins with more control over search relevance, helping users find the right content faster. 
+  **Why:** This gives users more precise control over search results by tailoring filters to the selected data source—without requiring any admin setup or changes to existing policies.
 
   **Try this:** 
 
-  - Review available filters for each data source in the admin center. 
-  - Add or remove filters to align with your organization’s search needs. 
-  - Test search results in Copilot to confirm the updated behavior. 
+
+  - Select a specific data source in Copilot search (e.g., Outlook or SharePoint).
+  - Use the dynamically populated filters in the right rail to refine results.
+  - Switch data sources to see filters update automatically based on context.
 
   **Why this matters:** 
 
-  **Business impact:** Improves search accuracy and reduces administrative overhead. 
+  **Business impact:** Improves search accuracy while reducing administrative overhead—no configuration or policy updates required.
 
-  **Personal impact:** Helps users find relevant information faster.
+  **Personal impact:** Helps users find relevant information faster with less manual refinement.
 
   **Additional resources:**
   
@@ -263,8 +264,6 @@ Updates released between February 10, 2026, February 24, 2026
 
   **Personal impact:** Provides users with faster and more accurate responses. 
 
-
-Updates released between January 27, 2026, February 10, 2026.
 
 ### PowerPoint
 - **Use Copilot to get a detailed and contextual explanation** [Web, Windows, Mac]
@@ -8310,27 +8309,27 @@ Updates released between February 10, 2026, February 24, 2026
 
   **Detailes:** 
 
-  **What changed:** Admins can now add or remove filters for each data source directly within Copilot Search settings. Previously, customization required more complex configuration. 
+  **What changed:** Microsoft 365 Copilot search now includes a dynamic filtering experience that surfaces data source–specific filters. When users select a source (such as Outlook, SharePoint, Teams, Azure DevOps, Google Drive, Jira, or Confluence), relevant filters automatically appear in the right rail. 
 
-  **Why:** This provides admins with more control over search relevance, helping users find the right content faster. 
+  **Why:** This gives users more precise control over search results by tailoring filters to the selected data source—without requiring any admin setup or changes to existing policies.
 
   **Try this:** 
 
-  - Review available filters for each data source in the admin center. 
-  - Add or remove filters to align with your organization’s search needs. 
-  - Test search results in Copilot to confirm the updated behavior. 
+  - Select a specific data source in Copilot search (e.g., Outlook or SharePoint).
+  - Use the dynamically populated filters in the right rail to refine results.
+  - Switch data sources to see filters update automatically based on context.
 
   **Why this matters:** 
 
-  **Business impact:** Improves search accuracy and reduces administrative overhead. 
+  **Business impact:** Improves search accuracy while reducing administrative overhead—no configuration or policy updates required.
 
-  **Personal impact:** Helps users find relevant information faster.
+  **Personal impact:** Helps users find relevant information faster with less manual refinement.
 
   **Additional resources:**
   
   **Learn:**
   
-    [Microsoft 365 Copilot: Data source-specific filters in search](https://m365admin.handsontek.net/microsoft-365-copilot-data-source-specific-filters-search/)
+   [Microsoft 365 Copilot: Data source-specific filters in search](https://m365admin.handsontek.net/microsoft-365-copilot-data-source-specific-filters-search/)
   
 - **Scope grounding for declarative agents to specific data sources** [Windows, Web]   
 
