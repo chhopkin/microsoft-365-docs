@@ -23,12 +23,12 @@ Monitoring the usage analytics of the Employee Self-Service agent should be part
 
 There are two approaches in consuming analytics:
 
-1. Systematically monitoring agent usage, effectiveness, quality, and satisfaction, which fall within the responsibilities of the service owner and/or creator. [Learn more](/microsoft-copilot-studio/analytics-overview) about Copilot Studio analytics documentation.
-1. Review agent usage, satisfaction scores, and other metrics to assess the agent's return on investment. [Learn more](/viva/insights/org-team-insights/copilot-dashboard) about Copilot.
+1. Service owners or makers systematically monitoring agent usage, effectiveness, quality, and satisfaction. [Learn more](/microsoft-copilot-studio/analytics-overview) about Copilot Studio analytics documentation.
+1. Organization leaders reviewing agent usage, satisfaction scores, and other metrics to assess the agent's return on investment. [Learn more](/viva/insights/org-team-insights/copilot-dashboard) about Copilot.
 
 ## Measure what matters
 
-Employee Self-Service atelemetry is designed to help organizations move beyond basic usage reporting and toward **operational clarity, trust, and continuous improvement**. While Employee Self-Service collects a single, consistent telemetry stream, **different stakeholders interpret that telemetry through different lenses**, depending on the decisions they're responsible for making.
+Employee Self-Service telemetry is designed to help organizations move beyond basic usage reporting and toward **operational clarity, trust, and continuous improvement**. While Employee Self-Service collects a single, consistent telemetry stream, **different stakeholders interpret that telemetry through different lenses**, depending on the decisions they're responsible for making.
 
 This article explains how to interpret Employee Self-Service telemetry for each stakeholder in your organization, using the same storytelling model that Microsoft's product and engineering teams use internally. This information allows customers and product teams to align on what "good" looks like and what actions to take next.
 
@@ -45,7 +45,7 @@ This model ensures telemetry is decision-oriented as well as descriptive. The sa
 |**Intent**    |What employees are trying to do.             |
 |**Behavior**  |How the Employee Self-Service agent is used. |
 |**Outcome**   |Business and experience impact.              |
-|**Action**    |What should change as a result.              |
+|**Action**    |What should change as a result?              |
 
 ## Stakeholder-based interpretation guide
 
@@ -166,7 +166,7 @@ This section is designed to help you operationalize the Employee Self-Service te
 |---------------------|--------------------------------------------------------------------------------|
 |**IT Service Owner** |Is the Employee Self-Service agent reducing ticket volume for common IT issues? |
 |**IT Operations**    |Are failures due to configuration or platform issues?                           |
-|**Security / IAM**   |Are requests handled securely and consistently?                                 |
+|**Security**   |Are requests handled securely and consistently?                                 |
 
 **Telemetry signals to review for IT**
 - Ticket deflection indicators
@@ -178,13 +178,13 @@ This section is designed to help you operationalize the Employee Self-Service te
 - **Low assisted support + high completion** = Effective IT self-service
 - **Errors clustered by scenarios** = Configuration or connector issues
 - **Latency spikes** = Throttling, dependency, or orchestration bottlenecks
-- **Security-related fallbacks** = IAM or policy misalignment
+- **Security-related fallbacks** = policy misalignment
 
 **Recommended actions for IT**
 - Focus telemetry reviews on top ticket-deflecting scenarios
 - Use diagnostics to distinguish config issues vs. product gaps
 - Validate performance telemetry before scaling rollout
-- Pair telemetry with readiness and ALM checks for production moves
+- Pair telemetry with readiness and Application Lifecycle Management (ALM) checks for production moves
 
 ***Facilities & Workplace services***
 **Typical Workplace scenarios**
