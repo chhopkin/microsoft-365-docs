@@ -5741,7 +5741,7 @@ Updates released between February 10, 2026, and February 24, 2026.
 
   **Blogs:**
 
-  [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/)
+  [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
 
 
 ### Viva Insights
@@ -8471,9 +8471,9 @@ Updates released between February 10, 2026, February 24, 2026
   
   **Additional resources:**
 
-  **Blog:**
+  **Blogs:**
 
-  [Get clarity on complex presentations with Explainer in PowerPoint]https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/0
+  [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
 
 ### Viva Insights
 - **Copilot Studio agent report enhancements** [Web, Windows, Mac]
@@ -14396,9 +14396,9 @@ Updates released between December 18, 2024, and January 7, 2025.
   
   **Additional resources:**
 
-  **Blog:**
+  **Blogs:**
 
-  [Get clarity on complex presentations with Explainer in PowerPoint]https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/0
+  [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
 
 - **Use Copilot to get a detailed and contextual explanation** [Web, Windows, Mac]
 
@@ -15675,6 +15675,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
