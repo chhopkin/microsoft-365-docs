@@ -26,15 +26,13 @@ ms.date: 02/27/2026
 
 # Extend your Microsoft 365 subscription end date with an Extended Service Term (EST)
 
-This article applies only to customers with a Microsoft Customer Agreement (MCA) billing account type. If you have a Microsoft Online Services Agreement (MOSA) billing account type, see [Understand your invoice for your Microsoft MOSA billing account](../billing-and-payments/understand-your-invoice2.md).
-
 If your Microsoft 365 subscription is about to end, you can extend your subscription with an Extended Service Term (EST) to get extra time to decide about renewal without disrupting your service. This option provides month-to-month continuation while you determine your organization's subscription needs.
-
-Only subscriptions purchased under an MCA billing account can get EST subscriptions.
 
 If you don't renew your subscription by the renewal date, you can now select a paid EST option. EST lets you continue service on a month-to-month basis until you cancel or convert to a standard subscription.
 
-> [!NOTE]
+This article applies only to customers with a Microsoft Customer Agreement (MCA) billing account type. You can only buy an EST subscription if you have a subscription bought under an MCA billing account.
+
+> [!IMPORTANT]
 > Pricing for an EST subscription is 3% higher than the standard subscription monthly rate.
 
 ## Before you begin
@@ -59,7 +57,7 @@ You can make scheduled changes to your subscription term as needed.
 
 When you cancel at the end of your existing subscription term, there are no extra charges. The subscription ends immediately on the subscription end date. Your data is retained for 90 days and then permanently deleted, following the standard subscription lifecycle.
 
-### 3. Extend your service with a paid Extended Service Term (EST)
+### 3. Extend your service with a paid Extended Service Term (EST) subscription
 
 You can buy a monthly, paid EST subscription to maintain your services while you decide whether to renew. At any time, you can cancel the EST subscription or convert back to a standard subscription. Charges for EST subscriptions are prorated, so you only pay for the days you use the subscription.
 
@@ -104,5 +102,5 @@ An EST subscription functions similarly to a standard subscription but there are
 ## Related content  
 
 [Manage recurring billing in the Microsoft 365 admin center](renew-your-subscription.md) (article)\
-[Cancel your subscription in the Microsoft 365 admin center](cancel-your-subscription.md)  (article)\
+[Cancel your subscription in the Microsoft 365 admin center](cancel-your-subscription.md) (article)\
 [What happens to my data and access when my Microsoft 365 for business subscription ends?](what-if-my-subscription-expires.md) (article)
