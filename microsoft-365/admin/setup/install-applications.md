@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 02/13/2026
+ms.date: 02/17/2026
 audience: Admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
@@ -37,7 +37,7 @@ description: After Microsoft 365 is set up, learn how to install Microsoft 365 a
 
 # Install Microsoft 365 apps
 
-After Microsoft 365 is set up, you can install Microsoft 365 apps on your Mac, PC, or mobile devices.
+After you set up Microsoft 365, install Microsoft 365 apps on your Mac, PC, or mobile devices.
 
 ## Watch: Install Microsoft 365 apps
 
@@ -49,15 +49,15 @@ This video shows how to install Microsoft 365 apps on a Windows device.
 
 Microsoft 365 apps appear in your **Start** menu. If you don't see them, follow these steps to install Microsoft 365 apps in Windows:
 
-1. Sign into [Microsoft 365 Apps](https://www.microsoft365.com/apps) with your work account.
+1. Sign in to the [Microsoft 365 Apps](https://www.microsoft365.com/apps) by using your work account.
 
 1. In the upper-right corner, select **Install apps**, and then select **Microsoft 365 apps**.
 
 1. The **My account** page opens. Under **Office apps & devices**, select **Install Office**.
 
-1. **OfficeSetup.exe** downloads to your **Downloads** folder. Once it finishes downloading, open **OfficeSetup.exe** to start the install.
+1. **OfficeSetup.exe** downloads to your **Downloads** folder. After the download finishes, open **OfficeSetup.exe** to start the installation.
 
-1. When prompted with **Do you want to allow this app to make changes to your device?**, select **Yes** to start the install.
+1. When prompted with **Do you want to allow this app to make changes to your device?**, select **Yes** to start the installation.
 
 1. The installation continues and might take several minutes to complete. When it completes, the **You're all set!** window displays. Select **Close**.
 
@@ -69,7 +69,7 @@ The following articles have additional information on installing Microsoft 365 a
 
 ### Microsoft 365 Apps
 
-- [Download and install or reinstall Microsoft 365 or Office 2024 on a PC or Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658)
+- [Download and install or reinstall Microsoft 365 or Office 2024 on a PC or Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658).
 
 ### Microsoft Project, Microsoft Visio, Skype for Business
 

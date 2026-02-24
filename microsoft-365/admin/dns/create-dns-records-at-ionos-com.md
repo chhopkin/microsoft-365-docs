@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: 04/01/2024
+ms.date: 02/20/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -76,8 +76,7 @@ After you add these records at IONOS, your domain will be set up to work with Mi
 > IONOS doesn't allow a domain to have both an MX record and a top-level Autodiscover CNAME record. This limits the ways in which you can configure Exchange Online for Microsoft. There's a workaround, but we recommend employing it **only** if you already have experience with creating subdomains at IONOS.
 > If despite this [service limitation](../setup/domains-faq.yml) you choose to manage your own Microsoft DNS records at IONOS, follow the steps in this article to verify your domain and to set up DNS records for email, Skype for Business Online, and so on.
 
-> [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Find and fix issues after adding your domain or DNS records](../get-help-with-domains/find-and-fix-issues.md).
+[!INCLUDE [Domain propagation note](../../includes/global-administrator-note.md)]
 
 ### Add a TXT record for verification
 
@@ -130,8 +129,7 @@ To verify the record in Microsoft 365:
 
 1. On the **Verify domain** page, select **Verify**.
 
-> [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).
+[!INCLUDE [Domain propagation note](../../includes/global-administrator-note.md)]
 
 ### Add an MX record so email for your domain will come to Microsoft
 
@@ -349,8 +347,7 @@ Only select this option if your organization uses Skype for Business for online 
 
 1. Add the other SRV record.
 
-> [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Find and fix issues after adding your domain or DNS records](../get-help-with-domains/find-and-fix-issues.md).
+[!INCLUDE [Domain propagation note](../../includes/global-administrator-note.md)]
 
 ## Advanced option: Intune and Mobile Device Management for Microsoft 365
 
