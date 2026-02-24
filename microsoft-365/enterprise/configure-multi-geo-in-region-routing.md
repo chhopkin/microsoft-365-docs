@@ -29,11 +29,11 @@ This article describes the steps to configure accepted domains for IRR.
 
 - Before enabling Multi-Geo In-Region Routing, ensure that any certificate and/or IP address used in Connectors ([Configure mail flow using connectors in Exchange Online](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)) for mail sent from your on-premises Exchange Servers to Exchange Online is not also used for sending emails from your on-premises environment to external organizations over the Internet. Using the same certificate or IP for both scenarios can cause issues with email attribution if you enable In-Region Routing, specifically when the recipient organization is hosted on Exchange Online. Outbound Internet mail from your on-premises environment must use a different certificate and/or IP address than those referenced in any of your Connectors from your on-premises Exchange Servers to Exchange Online.
 
-- Domains that use IRR must be visible in the Exchange admin center (EAC) as accepted domains. For more information configuring accepted domains, see [Manage accepted domains in Exchange Online](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
+- Domains that use IRR must be visible in the Exchange admin center (EAC) as accepted domains. For more information about configuring accepted domains, see [Manage accepted domains in Exchange Online](/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains).
 
 - IRR is applied to users that meet the following criteria:
   - The user's primary email address is in the IRR-enabled domain.
-  - The user's PDL aligns with the domain's mail flow region. This alignment ensures that the mail is processed in the same region where the email is stored.
+  - The user's **PreferredDataLocation** aligns with the domain's mail flow region. This alignment ensures that the mail is processed in the same region where the email is stored.
   - The user's **PreferredDataLocation** value must be a three-letter code specified in [Microsoft 365 Multi-Geo availability](microsoft-365-multi-geo.md#microsoft-365-multi-geo-availability), because these regions support IRR.
 
 - IRR requires the following licenses for users:
