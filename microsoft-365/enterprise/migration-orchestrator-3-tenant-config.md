@@ -44,9 +44,9 @@ To enable migration, add the applications for Cross-Tenant Migration Service, On
 
 If you have not yet added the following prerequisites to the tenants, you will be prompted to do so when importing the CrossTenantMigration module.
 
-- Microsoft.Graph.Authentication (minimum version 2.0.0, should match Microsoft.Graph.Beta version)
+- Microsoft.Graph.Authentication
 
-- Microsoft.Graph.Applications (minimum version 2.0.0, should match Microsoft.Graph.Beta version)
+- Microsoft.Graph.Applications
 
 - Microsoft.Graph.Identity.DirectoryManagement
 
@@ -54,27 +54,31 @@ If you have not yet added the following prerequisites to the tenants, you will b
 
 - MicrosoftTeams
 
-- Microsoft.Graph.Beta (minimum version 2.33.0, should match Microsoft.Graph version)
+- Microsoft.Graph.Beta (minimum version 2.33.0)
 
 For both tenants, perform the following steps:
 
-1. Download the CrossTenantMigration module: <ADD XXXXXXXXXXXXXXXXXXXX>
+1. Download the [CrossTenantMigration NuGet package](https://download.microsoft.com/download/1ded7541-fa8d-48f7-90c4-fa8a15a6b62b/CrossTenantMigration.nupkg)
 
-1. Expand-Archive CrossTenantMigration<version number>
+2. Expand the CrossTenantMigration NuGet package and import the modules 
 
-1. Import the CrossTenantMigration module. Run `Import-Module CrossTenantMigration<versionnumber>/CrossTenantMigration`
 
-1. Set up the Cross-Tenant Migration Service Application on the **target tenant only**. Run `Grant-CTMSAppPermissions`
+```powershell
+Expand-Archive ".\CrossTenantMigration.nupkg" -PassThru -Force `
+    | sort Directory | select -f 1 | % { Import-Module "$($_.DirectoryName)/CrossTenantMigration" -Force }
+```
 
-1. Set up the OneDrive Migration Application. Run `Grant-OneDriveSharePointMigrationPermissions`
+3. Set up the Cross-Tenant Migration Service Application on the **target tenant only**. Run `Grant-CTMSAppPermissions`
 
-1. Set up the Teams Chat Migration Application. Run `Grant-CTTMAppPermissions`
+4. Set up the OneDrive Migration Application. Run `Grant-OneDriveSharePointMigrationPermissions`
 
-1. Set up the Teams Meeting Migration Application. On the source tenant, run `Grant-MMSAppPermissions -TenantType "source"` On the target tenant, run `Grant-MMSAppPermissions -TenantType "target"`
+5. Set up the Teams Chat Migration Application. Run `Grant-CTTMAppPermissions`
 
-1. Turn on auto forwarding for meeting migration. Run `Enable-AutoForwardingMode`
+6. Set up the Teams Meeting Migration Application. On the source tenant, run `Grant-MMSAppPermissions -TenantType "source"` On the target tenant, run `Grant-MMSAppPermissions -TenantType "target"`
 
-1. Set calendar RBAC roles on the **target tenant only.** Run `Set-CalendarRBACRoles`
+7. Turn on auto forwarding for meeting migration. Run `Enable-AutoForwardingMode`
+
+8. Set calendar RBAC roles on the **target tenant only.** Run `Set-CalendarRBACRoles`
 
 ## Prepare both tenants for OneDrive migration
 
@@ -90,15 +94,15 @@ The required setup steps for OneDrive Migration on both source and target are av
 > [!IMPORTANT]
 > These instructions must be run from both the source and the target tenant.
 1. Install Microsoft Teams PowerShell, if you have not already installed it: [Install Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-install).
-1. Connect to Microsoft Teams PowerShell: `Connect-MicrosoftTeams`
+2. Connect to Microsoft Teams PowerShell: `Connect-MicrosoftTeams`
 
-1. Federated users must be allowed. Run the cmdlet:
+3. Federated users must be allowed. Run the cmdlet:
 `Set-CsTenantFederationConfiguration -AllowFederatedUsers $True`
 
-1. If the tenant is a Trial tenant, it must also allow **External Access**. Run the cmdlet:
+4. If the tenant is a Trial tenant, it must also allow **External Access**. Run the cmdlet:
 `Set-CsTenantFederationConfiguration -ExternalAccessWithTrialTenants "Allowed"`
 
-1. Confirm the settings by running:
+5. Confirm the settings by running:
 `Get-CsTenantFederationConfiguration`
 
 ### 
