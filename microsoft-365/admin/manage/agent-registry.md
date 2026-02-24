@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 02/17/2026
+ms.date: 02/23/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -687,7 +687,7 @@ To help administrators manage these scenarios, the Microsoft 365 admin center no
 
 ### Reassign ownership of shared agents
 
-IT administrators can reassign ownership of shared agents that they create within the organization by using Copilot Studio Lite.
+IT administrators can reassign ownership of shared agents that they create within the organization by using Agent Builder.
 
 > [!IMPORTANT]
 >
