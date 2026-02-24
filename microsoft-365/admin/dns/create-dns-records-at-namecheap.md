@@ -32,9 +32,6 @@ description: Verify domain ownership and set up DNS records at Namecheap for Mic
 
 If Namecheap hosts your domain's DNS, follow the steps in this article to verify domain ownership and manually add the DNS records required for Microsoft 365 services such as email, Microsoft Teams, and device management. After you add these records at Namecheap, your domain is ready to work with Microsoft 365.
 
-[**test link 1 Email**](create-dns-records-at-namecheap.md?&tabs=email#dns-records-for-microsoft-365-email)
-[**test link 2 Email**](#dns-records-for-microsoft-365-email)
-
 This article covers the creation of the following DNS records at Namecheap:
 
 | Service | DNS record types |
