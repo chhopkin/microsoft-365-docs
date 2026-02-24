@@ -23,7 +23,7 @@ appliesto:
 
 # Personal Content Mode in Microsoft 365 Copilot
 
-> Important
+> [!IMPORTANT]
 > Personal Content Mode is designed as a short-term solution to allow time for you to review and audit site and file permissions. It's not intended or scalable for long-term use. Comprehensive data security solutions are available, including [SharePoint Advanced Management](/sharepoint/advanced-management) and [Microsoft Purview](/purview/ai-microsoft-purview).
 
 ## Overview
