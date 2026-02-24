@@ -17,7 +17,7 @@ ms.collection:
 - d-star
 hideEdit: true
 ms.update-cycle: 180-days
-ms.date: 01/07/2026
+ms.date: 02/10/2026
 ms.custom: [copilot-learning-hub]
 ---
 
