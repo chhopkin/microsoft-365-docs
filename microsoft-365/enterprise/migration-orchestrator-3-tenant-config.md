@@ -56,6 +56,8 @@ If you have not yet added the following prerequisites to the tenants, you will b
 
 - Microsoft.Graph.Beta (minimum version 2.33.0)
 
+Microsoft.Graph.Authentication, Microsoft.Graph.Applications, and Microsoft.Graph.Beta versions should all be the same.
+
 For both tenants, perform the following steps:
 
 1. Download the [CrossTenantMigration NuGet package](https://download.microsoft.com/download/1ded7541-fa8d-48f7-90c4-fa8a15a6b62b/CrossTenantMigration.nupkg)
