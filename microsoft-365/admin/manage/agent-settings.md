@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 02/03/2026
+ms.date: 02/23/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -82,7 +82,7 @@ Options include:
 
 - **Allow specific groups of users to share with anyone in the organization** - Restrict broad sharing permissions to designated groups.
 
-Only agents built with **Copilot Studio Lite** are governed by sharing control.
+Only agents built with **Agent Builder** are governed by sharing control.
 
 :::image type="content" source="../../media/agents/sharing.png" alt-text="Screenshot of Shared settings." lightbox="../../media/knowledge-agent-idea.png":::
 
