@@ -21,7 +21,7 @@ ms.custom:
 - admindeeplinkMAC
 search.appverid: MET150
 description: Learn how to extend your Microsoft 365 subscription with an Extended Service Term (EST) to get extra time to decide about renewal without service disruption.
-ms.date: 02/23/2026
+ms.date: 02/27/2026
 ---
 
 # Extend your Microsoft 365 subscription end date with an Extended Service Term (EST)
@@ -29,8 +29,6 @@ ms.date: 02/23/2026
 This article applies only to customers with a Microsoft Customer Agreement (MCA) billing account type. If you have a Microsoft Online Services Agreement (MOSA) billing account type, see [Understand your invoice for your Microsoft MOSA billing account](../billing-and-payments/understand-your-invoice2.md).
 
 If your Microsoft 365 subscription is about to end, you can extend your subscription with an Extended Service Term (EST) to get extra time to decide about renewal without disrupting your service. This option provides month-to-month continuation while you determine your organization's subscription needs.
-
-This option provides month-to-month continuation while you determine your organization's subscription needs.
 
 Only subscriptions purchased under an MCA billing account can get EST subscriptions.
 
@@ -45,7 +43,7 @@ If you don't renew your subscription by the renewal date, you can now select a p
 - You must have an MCA billing account type and have the billing account owner or contributor role, or the billing profile owner or contributor role to complete the tasks in this article.
 
 > [!NOTE]
-> If you're the person who signed up for the subscription, you’re automatically a billing account owner.
+> If you're the person who signed up for the subscription, you're automatically a billing account owner.
 
 ## Available options when your subscription ends
 
