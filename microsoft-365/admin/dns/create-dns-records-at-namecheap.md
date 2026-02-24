@@ -76,10 +76,10 @@ To add DNS records at Namecheap, sign in to your Namecheap account and then go t
 
 To add required DNS records at Namecheap for Microsoft 365 services, select the tab based on which DNS records you need to add:
 
-- **Domain Verification**.
-- **Email**.
-- **Microsoft Teams**.
-- **Microsoft Intune/Mobile Device Management for Microsoft 365**.
+- [**Domain Verification**](create-dns-records-at-namecheap.md?&tabs=domain-verify).
+- [**Email**](create-dns-records-at-namecheap.md?&tabs=email).
+- [**Microsoft Teams**](create-dns-records-at-namecheap.md?&tabs=teams).
+- [**Microsoft Intune/Mobile Device Management for Microsoft 365**](create-dns-records-at-namecheap.md?&tabs=intune-mdm).
 
 ### [:::image type="icon" source="../../media/icons/software-18.svg"::: **Domain Verify**](#tab/domain-verify)
 
@@ -143,11 +143,11 @@ To verify the record in the Microsoft 365 admin center, follow these steps:
 1. After you verify domain ownership, the **How do you want to connect your domain?** page appears. The rest of the wizard walks you through adding additional DNS records to connect your domain to Microsoft 365 services. For more information, see the following article or the following sections in this article:
 
     - [Connect to Microsoft services by adding DNS records](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md?&tabs=manual#step-2-connect-to-microsoft-services-by-adding-dns-records).
-    - [Add an MX record to enable email delivery to Microsoft 365](#add-an-mx-record-to-enable-email-delivery-to-microsoft-365).
-    - [Add a CNAME record so email accounts are automatically set up in Outlook and other email clients](#add-a-cname-record-so-email-accounts-are-automatically-set-up-in-outlook-and-other-email-clients).
-    - [Add an SPF TXT record to help prevent email spam](#add-an-spf-txt-record-to-help-prevent-email-spam).
-    - [DNS records for Microsoft Teams](#dns-records-for-microsoft-teams).
-    - [DNS records for Microsoft Intune and Mobile Device Management for Microsoft 365](#dns-records-for-microsoft-intune-and-mobile-device-management-for-microsoft-365).
+    - [Add an MX record to enable email delivery to Microsoft 365](create-dns-records-at-namecheap.md?&tabs=email#add-an-mx-record-to-enable-email-delivery-to-microsoft-365).
+    - [Add a CNAME record so email accounts are automatically set up in Outlook and other email clients](create-dns-records-at-namecheap.md?&tabs=email#add-a-cname-record-so-email-accounts-are-automatically-set-up-in-outlook-and-other-email-clients).
+    - [Add an SPF TXT record to help prevent email spam](create-dns-records-at-namecheap.md?&tabs=email#add-an-spf-txt-record-to-help-prevent-email-spam).
+    - [DNS records for Microsoft Teams](create-dns-records-at-namecheap.md?&tabs=teams#dns-records-for-microsoft-teams).
+    - [DNS records for Microsoft Intune and Mobile Device Management for Microsoft 365](create-dns-records-at-namecheap.md?&tabs=intune-mdm#dns-records-for-microsoft-intune-and-mobile-device-management-for-microsoft-365).
 
 ### [:::image type="icon" source="../../media/icons/software-18.svg"::: **Email**](#tab/email)
 
@@ -155,9 +155,9 @@ To verify the record in the Microsoft 365 admin center, follow these steps:
 
 Microsoft 365 email requires three types of DNS records:
 
-- An MX record for email delivery.
-- A CNAME record for email account discovery.
-- A TXT record for SPF email spam protection.
+- An [MX](#add-an-mx-record-to-enable-email-delivery-to-microsoft-365) record for email delivery.
+- A [CNAME](#add-a-cname-record-so-email-accounts-are-automatically-set-up-in-outlook-and-other-email-clients) record for email account discovery.
+- A [TXT](#add-an-spf-txt-record-to-help-prevent-email-spam) record for SPF email spam protection.
 
 To add each of these types of records at Namecheap, follow the steps in the following sections.
 
@@ -275,8 +275,8 @@ To add an SPF TXT record for email spam protection at Namecheap, follow these st
 
 Microsoft Teams needs four records:
 
-- Two SRV records for user-to-user communication.
-- Two CNAME records to sign in and connect users to the service.
+- Two [SRV](#add-the-two-required-srv-records-for-microsoft-teams) records for user-to-user communication.
+- Two [CNAME](#add-the-two-required-cname-records-for-microsoft-teams) records to sign in and connect users to the service.
 
 Only add these DNS records if your organization uses Microsoft Teams.
 
