@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: 02/20/2026
+ms.date: 02/24/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -76,10 +76,10 @@ To add DNS records at Namecheap, sign in to your Namecheap account and then go t
 
 To add required DNS records at Namecheap for Microsoft 365 services, select the tab based on which DNS records you need to add:
 
-- [**Domain Verification**](create-dns-records-at-namecheap.md?&tabs=domain-verify).
-- [**Email**](create-dns-records-at-namecheap.md?&tabs=email).
-- [**Microsoft Teams**](create-dns-records-at-namecheap.md?&tabs=teams).
-- [**Microsoft Intune/Mobile Device Management for Microsoft 365**](create-dns-records-at-namecheap.md?&tabs=intune-mdm).
+- [**Domain Verification**](create-dns-records-at-namecheap.md?&tabs=domain-verify#add-microsoft-365-dns-records-at-namecheap).
+- [**Email**](create-dns-records-at-namecheap.md?&tabs=email#add-microsoft-365-dns-records-at-namecheap).
+- [**Microsoft Teams**](create-dns-records-at-namecheap.md?&tabs=teams#add-microsoft-365-dns-records-at-namecheap).
+- [**Microsoft Intune/Mobile Device Management for Microsoft 365**](create-dns-records-at-namecheap.md?&tabs=intune-mdm#add-microsoft-365-dns-records-at-namecheap).
 
 ### [:::image type="icon" source="../../media/icons/software-18.svg"::: **Domain Verify**](#tab/domain-verify)
 
