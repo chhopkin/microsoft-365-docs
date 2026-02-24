@@ -1,23 +1,23 @@
 ---
-title: "Manage add-ins in the admin center"
+title: Manage Add-ins in the Microsoft 365 Admin Center
 f1.keywords:
 - NOCSH
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 08/26/2025
+ms.date: 02/24/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
 ms.collection:
-- Tier2
-- scotvorg
-- M365-subscription-management
-- Adm_O365
-- Adm_NonTOC
-- Adm_TOC
-- operations-pod
+  - Tier2
+  - scotvorg
+  - M365-subscription-management
+  - Adm_O365
+  - Adm_NonTOC
+  - Adm_TOC
+  - operations-pod
 ms.custom:
 - AdminSurgePortfolio
 - AdminTemplateSet
@@ -26,142 +26,201 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
-description: "Learn about using Centralized add-ins to deploy add-ins to users and groups in your organization."
+description: Learn how to manage, enable, disable, and remove Office add-ins in the Microsoft 365 admin center. Control add-in access for users and groups.
+#customer intent: As an IT admin, I want to enable or disable add-ins in the Microsoft 365 admin center so that I can control their availability for users.
 ---
 
 # Manage add-ins in the Microsoft 365 admin center
 
-> [!NOTE]
+> [!TIP]
+>
 > The [integrated apps portal](test-and-deploy-microsoft-365-apps.md) is the recommended and most feature-rich way for most customers to centrally deploy Office add-ins to users and groups within your organization.
 
-Office Add-ins help users personalize your documents and streamline the way you access information on the web. See [Start using your Office Add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862).
+Office add-ins, also known as Integrated Apps, help you manage and control how users in your organization personalize documents and streamline access to information on the web. In the Microsoft 365 admin center, you can enable, disable, edit access to, and remove add-ins deployed to users and groups.
 
-After a Global or Exchange admin deploys add-ins for users in an organization, they can turn add-ins off or on, edit, delete, and manage access to the add-ins.
+After an admin deploys add-ins for users in an organization, the admin can perform the following actions with add-ins:
 
-For more information about installing add-ins from the admin center, see [Deploy add-ins in the admin center](./manage-deployment-of-add-ins.md).
-  
-## Add-in states
+- Enable or disable add-ins.
+- Edit access to add-ins.
+- Remove add-ins.
 
-An add-in can be in either the **On** or **Off** state.
-  
+For more information about installing add-ins from the Microsoft 365 admin center, see [Deploy Office Add-ins in the Microsoft 365 admin center](./manage-deployment-of-add-ins.md).
+
+## Add-in states in the Microsoft 365 admin center
+
+An add-in can be in one of the following states:
+
 | State | How the state occurs | Effect |
 |:-----|:-----|:-----|
-|**Active**  <br/> |Admin uploaded the add-in and assigned it to users or groups.  <br/> |Users and groups assigned to the add-in see it in the relevant clients.  <br/> |
-|**Turned off**  <br/> |Admin turned off the add-in.  <br/> |Users and groups assigned to the add-in no longer have access to it.  <br/> If the add-in state is changed to Active, the users and groups will have access to it again.  <br/> |
-|**Deleted**  <br/> |Admin deleted the add-in.  <br/> |Users and groups assigned the add-in no longer have access to it.  <br/> |
+| **Enabled/Active/On** | Admin downloads the add-in in Microsoft 365 admin center and assigns it to users or groups. | Users and groups assigned the add-in have access to the add-in. |
+| **Disabled/Inactive/Off** | Admin downloads the add-in in Microsoft 365 admin center but doesn't assign it to any users or groups, or only assigns it to some users or groups. | Users and groups that the add-in isn't assigned to don't have access to the add-in. |
+| **Removed/Deleted** | Admin removes the add-in from Microsoft 365 admin center. | Users and groups assigned the add-in no longer have access to the add-in. |
 
-Consider deleting an add-in if no one is using it anymore. For example, turning off an add-in might make sense if an add-in is used only during specific times of the year.
+Disabling an add-in versus removing it might make sense if an add-in is only used during specific times of the year. If no one is using an add-in anymore, consider removing the add-in from the Microsoft 365 admin center.
 
-## Delete an add-in
+## Remove an add-in from the Microsoft 365 admin center
 
-You can also delete an add-in that was deployed.
+To remove an add-in that is deployed and no longer needed, follow these steps:
 
-1. In the admin center, go to the **Settings** > **Integrated apps** page.
+1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
 
-2. Select the deployed add-in and then select the **Configuration** tab.
+1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
-3. In the **Configuration** pane, go to **Advanced Settings** > **Add-ins**.
+1. Under **Settings**, select **Integrated apps**.
 
-4. Select the add-in from the list again.
+1. In the **Integrated apps** page, select the deployed add-in that needs to be removed.
 
-5. Choose **Remove Add-In**. Remove the Add-in button on the bottom right corner.
+1. In the add-in properties pane, make sure **Overview** is selected.
 
-6. Validate your selections, and choose **Remove**.
+1. In the **Remove apps** window, select **Yes, I'm sure I want to remove the app and associated data**, and then select **Remove**.
 
-## Edit add-in access
+## Edit user access to an add-in in Microsoft 365 admin center
 
-Post deployment, admins can also manage user access to add-ins.
+After an add-in is deployed, admins can manage user access to add-ins. To manage user access to an add-in, follow these steps:
 
-1. In the admin center, go to the **Settings** > **Integrated apps** page.
+1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
 
-2. Select the deployed add-in.
+1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
-3. Click on **Edit** under **Who has Access**.
+1. Under **Settings**, select **Integrated apps**.
 
-4. Save the changes.
+1. In the **Integrated apps** page, select the deployed add-in that needs to be edited.
 
-## Manage add-in downloads by turning on/off Microsoft Marketplace across all apps (except Outlook)
+1. In the add-in properties pane, select **Users**.
+
+1. Under **Assigned users**, make the necessary modifications to which users should have access to the add-in, and then select **Update**.
+
+## Manage add-in downloads by enabling or disabling Microsoft Marketplace
 
 > [!IMPORTANT]
-> In the UI of the Microsoft 365 Admin Center, Microsoft Marketplace is still sometimes referred to as "Office Store".
+>
+> **Microsoft Marketplace** is still sometimes referred to as **Office Store** in the Microsoft 365 admin center.
+
+As an organization you can manage access to the Microsoft Marketplace and downloading of add-ins. Managing access to the Microsoft Marketplace and downloading of add-ins is important for the following reasons:
+
+- Ensure that users within your organization can download Office add-ins and take advantage of their features.
+- Ensure that users within your organization can only access the add-ins that are approved through centralized deployment.
 
 > [!NOTE]
-> Outlook add-in installation is managed by a [different process](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins).
+>
+> Access to the Microsoft Marketplace doesn't apply to Microsoft Outlook add-ins. To manage Microsoft Outlook add-ins, see [Specify the administrators and users who can install and manage add-ins for Outlook in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins).
 
-As an organization you may wish to manage the download of Office add-ins from Microsoft Marketplace. This could be used to ensure that users within your organization can get the benefits from all the Office add-ins, or only the organization-approved add-ins can be deployed with centralized deployment.
-  
-**To turn on/off add-in acquisition**
-  
-1. In the admin center, go to the **Settings** \> [Org settings](https://go.microsoft.com/fwlink/p/?linkid=2053743) page.
+### Enable or disable access to the Microsoft Marketplace for all apps
 
-2. Select **User owned apps and services**.
+Support for enabling or disabling access to the Microsoft Marketplace is available starting in the following versions:
 
-3. Check or clear the option to allow or prevent users to access the Office Store (which refers to Microsoft Marketplace).
+- Office on Windows: 16.0.9001.
+- Office on Mac: 16.10.18011401.
+- Office on iOS: 2.9.18010804.
+- Office on the web.
 
-Options available in non-educational tenants:
+To enable or disable access to the Microsoft Marketplace and downloading of add-ins, follow these steps:
 
-   ![Let user access Microsoft Marketplace settings](../../media/user-owned-apps-and-services.png)
+1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
 
-Options available in educational tenants:
+1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
-   ![Let user access Microsoft Marketplace settings for EDU](../../media/user-owned-apps-and-services-edu.png)
+1. Under **Settings**, select [Org settings](https://admin.cloud.microsoft/?#/Settings/Services).
 
-The user’s license information is used to define whether a user is a faculty/staff or a student along with the Age Group property to check whether the student is an adult or not. A user who does not have an educational license is included in the **Faculty, staff and other non-student users** user group.  
+1. In the **Org settings** page, make sure **Services** is selected, and then select **User owned apps and services**.
 
-> [!NOTE]
-> For more information see:  
->- [Learn how to review the user's license type and assign or unassign licenses as required](assign-licenses-to-users.md)
->- [Understand how to configure the Age Group property in the Microsoft Encarta admin center](/entra/fundamentals/how-to-manage-user-profile-info)
+1. In the **User owned apps and services** pane:
 
-This will control all users' ability to acquire the following add-ins from Microsoft Marketplace.
+    - Select **Let users access the Office Store** to give users access to the Microsoft Marketplace and allow users to download. This setting is the default setting.
+
+    - Clear **Let users access the Office Store** to block users from accessing the Microsoft Marketplace and prevent users from downloading add-ins.
+
+    :::image type="content" source="../../media/user-owned-apps-and-services.png" alt-text="Screenshot of the user-owned apps and services settings for non-educational tenants in the Microsoft 365 admin center.":::
+
+1. Once the desired setting is selected, select **Save**. If the setting was already in the desired state, select the **X** in the top-right corner to cancel.
+
+The **Let users access the Office Store** setting controls all users' ability to acquire the following add-ins from Microsoft Marketplace.
 
 - Add-ins for non-subscription Word, Excel, and PowerPoint on Windows and Mac
 - Add-ins for subscription Microsoft 365
 
- When you disable the access to Microsoft Marketplace, a user who tries to access it will see the following message: **Office store not available. Unfortunately, your organization has disabled access to the Office Store. Please contact your administrator to get access to the store.**
+ When you disable access to the Microsoft Marketplace, a user who tries to access it sees the following message:
+
+ **Office store not available. Unfortunately, your organization has disabled access to the Office Store. Please contact your administrator to get access to the store.**
 
 > [!NOTE]
-> Acquisitions may still be possible from Microsoft Markeplace, but the user will not be able to launch or use the add-in in the client. This does not prevent an administrator from using centralized deployment to assign an add-in from Microsoft Marketplace.
-  
-Support for turning on/off the Microsoft Marketplace is available in the following versions:
-  
-- Office on Windows: 16.0.9001 - Currently available.
-    
-- Office on Mac: 16.10.18011401 - Currently available.
-    
-- Office on iOS: 2.9.18010804 - Currently available.
-    
-- Office on the web - Currently available.
-    
-To prevent a user from signing in with a Microsoft account, you can restrict logon to use only the organizational account. For more information, see [Identity, authentication, and authorization in Office 2016](/DeployOffice/security/identity-authentication-and-authorization-in-office).  
+>
+> Downloading add-ins might still be possible from Microsoft Marketplace, but the user isn't able to launch or use the add-in in the client.
+
+To prevent a user from signing into the Microsoft Marketplace with a personal Microsoft account, you can restrict sign in to use only an organizational account. For more information, see [Identity, authentication, and authorization in Office 2016](/DeployOffice/security/identity-authentication-and-authorization-in-office).
 
 > [!NOTE]
-> Preventing users from accessing Microsoft Markeplace will also prevent them from [Sideloading Office Add-ins for testing from a network share](/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins).
+>
+> Preventing users from accessing Microsoft Marketplace also prevents them from [Sideloading Office Add-ins for testing from a network share](/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins).
 
-## More about the end-user experience with add-ins
+#### User owned apps and services pane in Educational tenants
 
-After you deploy an add-in, your end users can start using it in their Office applications. The add-in appears on all platforms that the add-in supports. See [Start using your Office Add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862). 
-  
-If the add-in supports add-in commands, the commands appear in the ribbon. In the following example, the command **Search Citation** appears for the **Citations** add-in. 
+Additional access options are available for educational tenants in the **User owned apps and services** pane. Access can be controlled based on whether a user is:
 
-![Microsoft 365 ribbon with Search Citations.](../../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png)
-  
-If the deployed add-in doesn't support add-in commands or if a user wants to view all deployed add-ins, the user can view them via **My Add-ins**.
-  
-### In Word, Excel, or PowerPoint
+- A faculty, staff, and other non-student users.
+- Adult student.
+- Non-adults student.
 
-1. on the **Home** ribbon, select **Add-ins**, and then select **More Add-ins** on the callout.
-    
-1. On the **Apps** pane, select **Manage your apps** to see a list of all deployed apps, agents, and add-ins.
-    
-1. Double-click the add-in you deployed earlier (in this example, **Citations**).
- 
-### In Outlook
+:::image type="content" source="../../media/user-owned-apps-and-services-edu.png" alt-text="Screenshot of the user-owned apps and services settings for educational tenants in the Microsoft 365 admin center.":::
 
-1. On the **App Bar** on the left of the window, select the **More Apps** button. Or on the **Home** ribbon, select **All Apps** and then select **Add apps** on the callout.
-  
-1. On the **Apps** pane, select **Manage your apps** to see a list of all deployed apps, agents, and add-ins.
+The user's license information is used to define the type of user.
+
+- A faculty, staff, and other non-student users: A user who doesn't have an educational license.
+- Adult or non-adults student: A user who has an educational license. The **Age Group** property is used to check whether or not the student is an adult.
+
+For more information, see the following articles:
+
+- [Assign or unassign licenses for users in the Microsoft 365 admin center](assign-licenses-to-users.md).
+- [Add or update a user's profile information and settings in the Microsoft Entra admin center](/entra/fundamentals/how-to-manage-user-profile-info).
+
+## End-user experience with add-ins in Office applications
+
+After you deploy an add-in, your end users can start using it in their Office applications. The add-in appears on all platforms that the add-in supports. For more information, see [Start using your Office Add-in](https://support.microsoft.com/office/82e665c4-6700-4b56-a3f3-ef5441996862).
+
+Some add-ins support commands that appear in the ribbon. For example, the **Citations** add-in shows the command **Search Citation** in the ribbon:
+
+:::image type="content" source="../../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png" alt-text="Screenshot of the Microsoft 365 ribbon showing the Search Citations add-in command.":::
+
+If an add-in doesn't support commands that appear in the ribbon, the user can view the add-in via **Manage your apps**. They can also view all add-ins that are deployed in the organization in **Manage your apps**.
+
+### View add-ins in Manage your apps
+
+To view add-ins in **Manage your apps**, select the tab based on which application you want to view add-ins for:
+
+- [**Word, Excel, or PowerPoint**](manage-addins-in-the-admin-center.md?&tabs=word-excel-powerpoint#view-add-ins-in-manage-your-apps).
+- [**Outlook**](manage-addins-in-the-admin-center.md?&tabs=outlook#view-add-ins-in-manage-your-apps).
+
+### [:::image type="icon" source="../../media/icons/software-18.svg"::: **Word, Excel, or PowerPoint**](#tab/word-excel-powerpoint)
+
+#### View add-ins in Word, Excel, or PowerPoint
+
+To view add-ins in **Manage your apps** in Word, Excel, or PowerPoint, follow these steps:
+
+1. On the **Home** ribbon of the app, select **Add-ins**.
+
+1. In the pane that opens, select **+ More Add-ins**.
+
+1. At the bottom of the left hand navigation pane of the **Apps** page, select **Manage your apps** to see a list of all deployed apps, agents, and add-ins.
+
+1. To see the details of an add-in, select it from the list.
+
+### [:::image type="icon" source="../../media/icons/software-18.svg"::: **Outlook**](#tab/outlook)
+
+#### View add-ins in Outlook
+
+To view add-ins in **Manage your apps** in Outlook, follow these steps:
+
+1. Select one of the following options to access the **Apps** pane:
+
+   - From the left hand **App Bar**, select the **More Apps** button.
+   - On the **Home** ribbon, select **More Apps** (Outlook) or **All Apps** (Outlook (classic)).
+
+1. In the pane that opens, select **Add apps**.
+
+1. At the bottom of the left hand navigation pane of the **Apps** page, select **Manage your apps** to see a list of all deployed apps, agents, and add-ins.
+
+1. To see the details of an add-in, select it from the list.
 
 ## Related content
 
-[Minors and acquiring add-ins from the Microsoft Store](./minors-and-acquiring-addins-from-the-store.md)
+- [Minors and acquiring add-ins from the Microsoft Store](./minors-and-acquiring-addins-from-the-store.md).
