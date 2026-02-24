@@ -295,6 +295,37 @@ Updates released between February 10, 2026, February 24, 2026
 
   [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
 
+- **Steer presentation length, tone, style, and images with Copilot** [Web, Windows, Mac]
+
+  Users can adjust presentation length, narrative tone, slide style, and AI‑generated images when creating presentations with Copilot.
+
+  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+
+  **Details:** 
+
+  **What changed:** Copilot now supports more granular controls for customization. Users can specify slide count, tone of messaging, stylistic preferences, and visual elements to better tailor their presentations. 
+
+  **Why:** This gives users more creative control and ensures presentations match the intended audience and purpose. 
+
+  **Try this:** 
+
+  - Ask Copilot to shorten your presentation to five slides. 
+  - Set the tone to “professional” or “informal” as needed. 
+  - Request new AI‑generated images that match your theme. 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams build polished presentations more efficiently.
+
+  **Personal impact:** Gives individuals more flexibility and creative options.
+  
+  **Additional resources:**
+
+  **Blogs:**
+
+  [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
+
+
 ### Viva Insights
 - **Copilot Studio agent report enhancements** [Web, Windows, Mac]
 
@@ -816,37 +847,6 @@ Updates released between January 13, 2025, and January 27, 2026.
     **Support:**
 
     [Convert your Microsoft 365 Copilot Page into a Word document or PowerPoint presentation](https://support.microsoft.com/topic/convert-your-microsoft-365-copilot-page-into-a-word-document-or-powerpoint-presentation-f39f872a-4f47-408c-8fc9-2c6808c003a1)
-
-### PowerPoint
-- **Use Copilot to get a detailed and contextual explanation** [Web, Windows, Mac]
-
-  Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
-
-  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
-
-  **Details:** 
-
-  **What changed:** Copilot can now provide an explanation of any selected object in a presentation. This includes acronyms, individual text boxes, tables images, & entire slide. Previously, users needed to rely on external references or manual research to understand unclear content.
-
-  **Why:** This feature helps users understand unfamiliar or complex information without leaving their presentation
-
-  **Try this:** 
-
-  - Select any text, table or slide, right click and choose “Explain". 
-  - Review the explanation without leaving PowerPoint 
-
-  **Why this matters:** 
-
-  **Business impact:** Helps teams quickly understand unfamiliar content, reducing time spent researching and improving clarity in presentations.
-
-  **Personal impact:** Makes it easier to grasp the meaning of slide objects without switching apps.
-  
-  **Additional resources:**
-
-  **Blogs:**
-
-  [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
-
 
 <!--- All features regardless of platform go here  -->
 <!-- 74703,100671,100312,96561,96560,96300,104967,104073,102626,101108,97855 -->
@@ -5683,36 +5683,36 @@ Updates released between February 10, 2026, and February 24, 2026.
     
     [Declarative agent manifest example](/microsoft-365-copilot/extensibility/declarative-agent-manifest-1.6?branch=main&tabs=json#user-override-object)
 
-- **Embedded knowledge support for declarative agents** [Web]
+### PowerPoint
+- **Use Copilot to get a detailed and contextual explanation** [Web, Windows, Mac]
 
-  Developers can embed knowledge such as PDFs, Word documents, and PowerPoint files for declarative agents. 
+  Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
 
-  **Roadmap ID:** [474448](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=474448)
+  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
 
-  **Detailes:** 
+  **Details:** 
 
-  **What changed:** Declarative agents now support embedded knowledge, allowing developers to include up to 10 local files as grounding resources.
+  **What changed:** Copilot can now provide an explanation of any selected object in a presentation. This includes acronyms, individual text boxes, tables images, & entire slide. Previously, users needed to rely on external references or manual research to understand unclear content.
 
-  **Why:** This makes it simpler to build agents that rely on internal documents. 
+  **Why:** This feature helps users understand unfamiliar or complex information without leaving their presentation
 
   **Try this:** 
 
-  - Add embedded files to a declarative agent. 
-  - Test responses to confirm proper grounding. 
+  - Select any text, table or slide, right click and choose “Explain". 
+  - Review the explanation without leaving PowerPoint 
 
   **Why this matters:** 
 
-  **Business impact:** Enhances agent accuracy using internal materials. 
+  **Business impact:** Helps teams quickly understand unfamiliar content, reducing time spent researching and improving clarity in presentations.
 
-  **Personal impact:** Makes agent development more flexible.
+  **Personal impact:** Makes it easier to grasp the meaning of slide objects without switching apps.
+  
+  **Additional resources:**
 
-  **Additional Resources:**
+  **Blogs:**
 
-  **Learn:**
+  [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
 
-  [Embedded knowledge object](/microsoft-365-copilot/extensibility/declarative-agent-manifest-1.6?tabs=json#embedded-knowledge-object)
-
-### PowerPoint
 - **Steer presentation length, tone, style, and images with Copilot** [Web, Windows, Mac]
 
   Users can adjust presentation length, narrative tone, slide style, and AI‑generated images when creating presentations with Copilot.
@@ -5742,6 +5742,7 @@ Updates released between February 10, 2026, and February 24, 2026.
   **Blogs:**
 
   [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
+
 
 
 ### Viva Insights
@@ -8387,64 +8388,37 @@ Updates released between February 10, 2026, February 24, 2026
   **Learn:**
 
   [Embedded knowledge object](/microsoft-365-copilot/extensibility/declarative-agent-manifest-1.6?tabs=json#embedded-knowledge-object)
-- **Embedded knowledge support for declarative agents** [Web]
-
-  Developers can embed knowledge such as PDFs, Word documents, and PowerPoint files for declarative agents. 
-
-  **Roadmap ID:** [474448](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=474448)
-
-  **Detailes:** 
-
-  **What changed:** Declarative agents now support embedded knowledge, allowing developers to include up to 10 local files as grounding resources.
-
-  **Why:** This makes it simpler to build agents that rely on internal documents. 
-
-  **Try this:** 
-
-  - Add embedded files to a declarative agent. 
-  - Test responses to confirm proper grounding. 
-
-  **Why this matters:** 
-
-  **Business impact:** Enhances agent accuracy using internal materials. 
-
-  **Personal impact:** Makes agent development more flexible.
-
-  **Additional Resources:**
-
-  **Learn:**
-
-  [Embedded knowledge object](/microsoft-365-copilot/extensibility/declarative-agent-manifest-1.6?tabs=json#embedded-knowledge-object)
-
-- **Embedded knowledge support for declarative agents** [Web]
-
-  Developers can embed knowledge such as PDFs, Word documents, and PowerPoint files for declarative agents. 
-
-  **Roadmap ID:** [474448](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=474448)
-
-  **Detailes:** 
-
-  **What changed:** Declarative agents now support embedded knowledge, allowing developers to include up to 10 local files as grounding resources. 
-
-  **Why:** This makes it simpler to build agents that rely on internal documents. 
-
-  **Try this:** 
-
-  - Add embedded files to a declarative agent. 
-  - Test responses to confirm proper grounding. 
-
-  **Why this matters:** 
-
-  **Business impact:** Enhances agent accuracy using internal materials. 
-
-  **Personal impact:** Makes agent development more flexible.
-
-  **Additional Resources:**
-
-  **Learn:**
-
-  [Embedded knowledge object](/microsoft-365-copilot/extensibility/declarative-agent-manifest-1.6?tabs=json#embedded-knowledge-object)
+  
 ### PowerPoint
+- **Use Copilot to get a detailed and contextual explanation** [Web, Windows, Mac]
+
+  Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
+
+  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+
+  **Details:** 
+
+  **What changed:** Copilot can now provide an explanation of any selected object in a presentation. This includes acronyms, individual text boxes, tables images, & entire slide. Previously, users needed to rely on external references or manual research to understand unclear content.
+
+  **Why:** This feature helps users understand unfamiliar or complex information without leaving their presentation
+
+  **Try this:** 
+
+  - Select any text, table or slide, right click and choose “Explain". 
+  - Review the explanation without leaving PowerPoint 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams quickly understand unfamiliar content, reducing time spent researching and improving clarity in presentations.
+
+  **Personal impact:** Makes it easier to grasp the meaning of slide objects without switching apps.
+  
+  **Additional resources:**
+
+  **Blogs:**
+
+  [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
+
 - **Steer presentation length, tone, style, and images with Copilot** [Web, Windows, Mac]
 
   Users can adjust presentation length, narrative tone, slide style, and AI‑generated images when creating presentations with Copilot.
@@ -8474,6 +8448,7 @@ Updates released between February 10, 2026, February 24, 2026
   **Blogs:**
 
   [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
+
 
 ### Viva Insights
 - **Copilot Studio agent report enhancements** [Web, Windows, Mac]
@@ -15675,6 +15650,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
