@@ -30,7 +30,7 @@ There are two approaches in consuming analytics:
 
 Employee Self-Service atelemetry is designed to help organizations move beyond basic usage reporting and toward **operational clarity, trust, and continuous improvement**. While Employee Self-Service collects a single, consistent telemetry stream, **different stakeholders interpret that telemetry through different lenses**, depending on the decisions they're responsible for making.
 
-This article explains how to interpret Employee Self-Service telemetry for each stakeholder in your organization, using the same storytelling model that Microsoft's product and engineering teams use internally. This allows customers and product teams to align on what "good" looks like and what actions to take next.
+This article explains how to interpret Employee Self-Service telemetry for each stakeholder in your organization, using the same storytelling model that Microsoft's product and engineering teams use internally. This information allows customers and product teams to align on what "good" looks like and what actions to take next.
 
 ## One Telemetry, Different lenses
 
@@ -38,7 +38,7 @@ Employee Self-Service telemetry follows a simple but powerful narrative framewor
 
 **Intent > Behavior > Outcome > Action**
 
-This model ensures telemetry isn't just descriptive, but decision oriented. The same data answers different questions depending on who is looking at it.
+This model ensures telemetry is decision-oriented as well as descriptive. The same data answers different questions depending on who is looking at it.
 
 |Story Element |What it means in Employee Self-Service       |
 |--------------|---------------------------------------------|
