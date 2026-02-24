@@ -14,7 +14,7 @@ ms.collection:
 - must-keep
 hideEdit: true
 ms.update-cycle: 180-days
-ms.date: 02/12/2026
+ms.date: 02/24/2026
 ---
 
 # Add watermarks to content generated or altered by using AI in Microsoft 365
@@ -55,6 +55,9 @@ To turn on watermarks for video and audio content that your users generate or al
 > - This policy isn’t available to United States government customers using Microsoft 365 (or Office 365) Government Community Cloud (GCC), GCC High, or DoD offerings.
 
 If you want to add a watermark to video and audio content, you need to set this policy to **Enabled**. If you set this policy to **Disabled** or **Not configured**, a visual or audio watermark isn’t added. This policy doesn’t apply to images.
+
+> [!NOTE]
+> Currently a watermark is added to audio of a SharePoint podcast even when the policy is set to **Disabled** or **Not configured**. The SharePoint team is working to update this so that a watermark is only added when the policy is set to **Enabled**.
 
 Regardless of how you configure this policy, [additional information is added to the metadata](#additional-information-added-to-the-metadata-of-content-thats-generated-or-altered-by-ai-in-microsoft-365) of video and audio content that your users generate or alter by using AI in Microsoft 365.
 
