@@ -74,7 +74,7 @@ To remove an add-in that is deployed and no longer needed, follow these steps:
 
 1. In the **Remove apps** window, select **Yes, I'm sure I want to remove the app and associated data**, and then select **Remove**.
 
-## Edit user access to an add-in in Microsoft 365 admin center
+## Edit user access to an add-in in the Microsoft 365 admin center
 
 After an add-in is deployed, admins can manage user access to add-ins. To manage user access to an add-in, follow these steps:
 
@@ -190,7 +190,7 @@ To view add-ins in **Manage your apps**, select the tab based on which applicati
 - [**Word, Excel, or PowerPoint**](manage-addins-in-the-admin-center.md?&tabs=word-excel-powerpoint#view-add-ins-in-manage-your-apps).
 - [**Outlook**](manage-addins-in-the-admin-center.md?&tabs=outlook#view-add-ins-in-manage-your-apps).
 
-### [:::image type="icon" source="../../media/icons/software-18.svg"::: **Word, Excel, or PowerPoint**](#tab/word-excel-powerpoint)
+### [:::image type="icon" source="../../media/icons/word-18.svg"::: :::image type="icon" source="../../media/icons/excel-18.svg"::: :::image type="icon" source="../../media/icons/powerpoint-18.svg"::: **Word, Excel, or PowerPoint**](#tab/word-excel-powerpoint)
 
 #### View add-ins in Word, Excel, or PowerPoint
 
@@ -204,7 +204,7 @@ To view add-ins in **Manage your apps** in Word, Excel, or PowerPoint, follow th
 
 1. To see the details of an add-in, select it from the list.
 
-### [:::image type="icon" source="../../media/icons/software-18.svg"::: **Outlook**](#tab/outlook)
+### [:::image type="icon" source="../../media/icons/outlook-18.svg"::: **Outlook**](#tab/outlook)
 
 #### View add-ins in Outlook
 
@@ -220,6 +220,8 @@ To view add-ins in **Manage your apps** in Outlook, follow these steps:
 1. At the bottom of the left hand navigation pane of the **Apps** page, select **Manage your apps** to see a list of all deployed apps, agents, and add-ins.
 
 1. To see the details of an add-in, select it from the list.
+
+---
 
 ## Related content
 

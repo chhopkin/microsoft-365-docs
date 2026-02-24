@@ -81,7 +81,7 @@ To add required DNS records at Namecheap for Microsoft 365 services, select the 
 - [**Microsoft Teams**](create-dns-records-at-namecheap.md?&tabs=teams#add-microsoft-365-dns-records-at-namecheap).
 - [**Microsoft Intune/Mobile Device Management for Microsoft 365**](create-dns-records-at-namecheap.md?&tabs=intune-mdm#add-microsoft-365-dns-records-at-namecheap).
 
-### [:::image type="icon" source="../../media/icons/software-18.svg"::: **Domain Verify**](#tab/domain-verify)
+### [:::image type="icon" source="../../media/icons/domain-18.svg"::: **Domain Verify**](#tab/domain-verify)
 
 #### Add a TXT record for domain ownership verification
 
@@ -149,7 +149,7 @@ To verify the record in the Microsoft 365 admin center, follow these steps:
     - [DNS records for Microsoft Teams](create-dns-records-at-namecheap.md?&tabs=teams#dns-records-for-microsoft-teams).
     - [DNS records for Microsoft Intune and Mobile Device Management for Microsoft 365](create-dns-records-at-namecheap.md?&tabs=intune-mdm#dns-records-for-microsoft-intune-and-mobile-device-management-for-microsoft-365).
 
-### [:::image type="icon" source="../../media/icons/software-18.svg"::: **Email**](#tab/email)
+### [:::image type="icon" source="../../media/icons/email-18.svg"::: **Email**](#tab/email)
 
 #### DNS records for Microsoft 365 email
 
@@ -269,7 +269,7 @@ To add an SPF TXT record for email spam protection at Namecheap, follow these st
 
      :::image type="content" source="../../media/f2846c36-ace3-43d8-be5d-a65e2c267619.png" alt-text="Screenshot of the Save Changes control for the SPF TXT record.":::
 
-### [:::image type="icon" source="../../media/icons/software-18.svg"::: **Teams**](#tab/teams)
+### [:::image type="icon" source="../../media/icons/teams-18.svg"::: **Teams**](#tab/teams)
 
 #### DNS records for Microsoft Teams
 
@@ -346,7 +346,7 @@ To add CNAME records for Microsoft Teams at Namecheap, follow these steps:
 
 1. Add the other CNAME record by choosing the values from the second row of the table.
 
-### [:::image type="icon" source="../../media/icons/software-18.svg"::: **Intune/MDM**](#tab/intune-mdm)
+### [:::image type="icon" source="../../media/icons/intune-18.svg"::: **Intune/MDM**](#tab/intune-mdm)
 
 #### DNS records for Microsoft Intune and Mobile Device Management for Microsoft 365
 
