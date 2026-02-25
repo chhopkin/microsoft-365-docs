@@ -83,7 +83,7 @@ sections:
           The add-in is deployed automatically to the assigned users, but they can choose to remove it.
           >[!NOTE]
           >Integrated Apps don't have this option available; however, admins can still use the legacy Add-in page to perform this under **Settings** > **Integrated Apps**, and then selecting the **Add-in** link.
-          :::image type="content" source="../../media/addin-links.png" alt-text="Adoption Score page in Reports." lightbox="../../media/addin-links.png":::
+          :::image type="content" source="../../media/addin-links.png" alt-text="Screenshot that shows the Adoption Score page in Reports." lightbox="../../media/addin-links.png":::
       - question: |
           Can admins update Line-of-Business (LOB) add-ins?
         answer: |
