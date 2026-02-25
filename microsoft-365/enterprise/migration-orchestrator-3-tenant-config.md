@@ -25,14 +25,16 @@ description: "Discover the configuration requirements for Microsoft 365 migratio
 
 This article walks through all steps of preparing the tenants and users for a successful migration. Here are some other requirements we don't provide explicit steps for:
 
-- The source admin and target admin must each have Global administrator access on their respective tenant, which is required to manage the setup and migration.
+- Global administrator access for source and target admins on their respective tenant, which is required to manage the setup and migration.
+
 - At least one mail-enabled security group is required in the source tenant.
   - These groups are used to:
     - Scope the list of users whose content can move from source tenant to the target tenant.
     - Inform the identity mapping service what users should be mapped.
   - This scoping allows the source tenant administrator to restrict access to a specific set of users whose content needs to be moved, preventing unintended users from being migrated or their data accessed.
-- You need to communicate with your trusted partner organization (who helps you move user content) to obtain their Microsoft 365 tenant ID. This tenant ID is used in the Organization Relationship DomainName field.
-  - To obtain the tenant ID of a subscription, sign in to the Microsoft 365 admin center and go to [Active Directory > Properties](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties). Select the copy icon for the Tenant ID property to copy it to the clipboard.
+- The Microsoft 365 tenant ID of your trusted partner organization. This tenant ID is used in the Organization Relationship DomainName field.
+
+- To obtain the tenant ID of a subscription, sign in to the Microsoft 365 admin center and go to [Active Directory > Properties](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties). Select the copy icon for the Tenant ID property to copy it to the clipboard.
 
 ## Prepare both tenants for Mailbox migration
 
@@ -40,9 +42,9 @@ To prepare tenants for mailbox moves, see [Cross-tenant mailbox migration](cross
 
 ## Prepare both tenants with Migration applications and permissions
 
-To enable migration, add the applications for Cross-Tenant Migration Service, OneDrive Migration, Teams Chat Migration, and Teams Meeting Migration, add permissions to those applications, and run additional set up steps.
+To enable migration, add the applications for Cross-Tenant Migration Service, OneDrive Migration, Teams Chat Migration, and Teams Meeting Migration, add permissions to those applications, and run additional setup steps.
 
-If you have not yet added the following prerequisites to the tenants, you will be prompted to do so when importing the CrossTenantMigration module.
+The following modules are prerequisites to importing the CrossTenantMigration module.
 
 - Microsoft.Graph.Authentication
 
@@ -56,7 +58,7 @@ If you have not yet added the following prerequisites to the tenants, you will b
 
 - Microsoft.Graph.Beta (minimum version 2.33.0)
 
-Microsoft.Graph.Authentication, Microsoft.Graph.Applications, and Microsoft.Graph.Beta versions should all be the same.
+Microsoft.Graph and Microsoft.Graph.Beta versions should all be the same.
 
 For both tenants, perform the following steps:
 
@@ -68,7 +70,7 @@ For both tenants, perform the following steps:
 ```powershell
 Expand-Archive ` -Path ".\CrossTenantMigration.nupkg" ` -DestinationPath ".\CTModule" ` -Force
 
-Import-Module `
+Import-Module ` 
 ```
 
 3. Set up the Cross-Tenant Migration Service Application on the **target tenant only**. Run `Grant-CTMSAppPermissions`
@@ -81,7 +83,7 @@ Import-Module `
 
 7. Turn on auto forwarding for meeting migration. Run `Enable-AutoForwardingMode`
 
-8. Set calendar RBAC roles on the **target tenant only.** Run `Set-CalendarRBACRoles`
+1. Set calendar role-based access control (RBAC) roles on the **target tenant only.** Run `Set-CalendarRBACRoles`
 
 ## Prepare both tenants for OneDrive migration
 
@@ -96,7 +98,7 @@ The required setup steps for OneDrive Migration on both source and target are av
 
 > [!IMPORTANT]
 > These instructions must be run from both the source and the target tenant.
-1. Install Microsoft Teams PowerShell, if you have not already installed it: [Install Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-install).
+1. Install Microsoft Teams PowerShell: [Install Microsoft Teams PowerShell](/MicrosoftTeams/teams-powershell-install).
 2. Connect to Microsoft Teams PowerShell: `Connect-MicrosoftTeams`
 
 3. Federated users must be allowed. Run the cmdlet:
@@ -124,15 +126,15 @@ To learn more about Identity Mapping, see [Cross-Tenant Identity Mapping](cross-
 
 ## What permissions are added?
 
-When you run the above tenant configuration steps, there are a number of permissions added to your tenant and applications.When you run the above tenant configuration steps, there are a number of permissions added to your tenant and applications.
+When you run the tenant configuration steps, there are many permissions added to your tenant and applications.
 
 ### Cross-Tenant Migration Service (CTMS) permissions
 
-The CrossTenantMigration Prod AAD app is added with service principals. The Resource Identity Mapping service app service principals are added. The identity mapping service app role is granted to the CTMS app.
+The CrossTenantMigration Production AAD app is added with service principals. The Resource Identity Mapping service app service principals are added. The identity mapping service app role is granted to the CTMS app.
 
 ### OneDrive permissions
 
-The following are retrieved when setting permissions: the SPO resource app service principal, the migration app service principal, and the cross-tenant identity mapping (CTIM) app service principal.
+The following are retrieved when setting permissions: the SharePoint Online (SPO) resource app service principal, the migration app service principal, and the cross-tenant identity mapping (CTIM) app service principal.
 
 ### Teams Chat Migration (CTTM) permissions
 
@@ -165,15 +167,15 @@ The CTTM permissions granted are as follows:
    1. RoleManagement.Read.Directory
    1. Chat.ReadBasic.All
    1. Application.Read.All
-1. It also adds the Exchange Admin Directory Role and Application access policies to MMS Application.
+1. Grant-MMSAppPermissions also adds the Exchange Admin Directory Role and Application access policies to MMS Application.
 
-1. When enabling Autoforwarding, Autoforwarding is set to On for Default Outbound Spam Filter.
+1. Enable-AutoForwardingMode turns autoforwarding is set to On for Default Outbound Spam Filter.
 
-1. When setting Calendar RBAC roles, an RBAC role is assigned to MMS App to allow Calendar Read Write Permissions.
+1. Set-CalendarRBACRoles assigns an RBAC role to the MMS App to allow Calendar Read Write Permissions.
 
 ### Teams Chat Migration (CTTM) permissions
 
-The CrossTenantMigration Prod AAD App is added with service principals. The Resource Identity Mapping service app service principals are added. The Identity Mapping service app role is granted to the CTMS application.
+The CrossTenantMigration Production Azure Active Directory (AAD) App is added with service principals. The Resource Identity Mapping service app service principals are added. The Identity Mapping service app role is granted to the CTMS application.
 
 ## Next steps
 
