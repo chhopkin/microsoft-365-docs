@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 Groups Overview for Administrators
 ms.reviewer: rahulnayak
-ms.date: 02/24/2026
+ms.date: 02/25/2026
 f1.keywords: NOCSH
 ms.author: deniseb
 author: denisebmsft
@@ -28,13 +28,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Learn how Microsoft 365 Groups provide shared collaboration resources across Microsoft 365, and how administrators can create, manage, and govern groups in their organization.
+description: Learn how Microsoft 365 Groups provide shared collaboration resources across Microsoft 365. Discover how to create, manage, and govern groups as an admin. Get started today.
 #customer intent: As an admin, I want to understand what Microsoft 365 Groups are so that I can manage collaboration resources for my organization.
 ---
 
 # Microsoft 365 Groups overview for administrators
 
-Microsoft 365 Groups is the foundational membership service that underpins collaboration across Microsoft 365. It simplifies access management by automatically granting users permissions to shared resources when they're added to a group.
+Microsoft 365 Groups is the foundational membership service that underpins collaboration across Microsoft 365. It simplifies access management by automatically granting users permissions to shared resources when you add them to a group.
 
 When you create a Microsoft 365 group, users can automatically access shared resources such as:
 
@@ -46,11 +46,11 @@ When you create a Microsoft 365 group, users can automatically access shared res
 - **Content and collaboration**
   - A SharePoint document library.
   - A OneNote notebook.
-  - Stream.
+  - Microsoft Clipchamp.
 
 - **Team-based experiences**
   - A Team (if created from Microsoft Teams).
-  - Viva Engage (if created from Viva Engage).
+    - Microsoft Viva Engage (if created from Microsoft Viva Engage).
 
 - **Additional services**
   - Power BI.
@@ -58,18 +58,18 @@ When you create a Microsoft 365 group, users can automatically access shared res
 
 ## Microsoft 365 Groups roles and permissions
 
-With a Microsoft 365 group, you don't need to manually assign permissions to individual resources. Adding users to the group automatically grants them the appropriate access.
+With a Microsoft 365 group, you don't need to manually assign permissions to individual resources. When you add users to the group, you automatically grant them the appropriate access.
 
-Any user can create a group unless you [limit group creation to a specific set of people](../../solutions/manage-creation-of-groups.md). If you limit group creation, users who can't create groups aren't able to create the following items:
+Any user can create a group unless you [limit group creation to a specific set of people](../../solutions/manage-creation-of-groups.md). If you limit group creation, users can't create the following items:
 
-- SharePoint sites.
-- Planners.
+- Microsoft SharePoint sites.
+- Planner.
 - Teams.
 - Outlook group calendars.
-- Stream groups.
+- Clipchamp groups.
 - Viva Engage groups.
 - Shared libraries in OneDrive.
-- Shared Power BI workspaces.
+- Shared Microsoft Power BI workspaces.
 
 These services require the creator to have permission to create Microsoft 365 groups. Users can still participate in group activities, such as creating tasks in Planner or using Teams chat, provided they're a member of the group.
 
@@ -81,7 +81,7 @@ Groups have the following roles:
 
 - **Guests** - External users who are invited to participate in the group.
 
-User admins and groups admins can create and manage groups in the [Microsoft 365 admin center](https://admin.cloud.microsoft/). Delegated administrators, for example, consultants acting on behalf of an organization, can't create or manage Microsoft 365 Groups.
+User admins and groups admins can create and manage groups in the [Microsoft 365 admin center](https://admin.cloud.microsoft/). Delegated administrators, such as consultants acting on behalf of an organization, can't create or manage Microsoft 365 Groups.
 
 As an administrator, you can:
 
@@ -91,7 +91,7 @@ As an administrator, you can:
 - [Manage guest access to groups](manage-guest-access-in-groups.md).
 - [Recover a deleted group](restore-deleted-group.md) (within 30 days of deletion).
 
-## Group expiration and lifecycle management
+## Microsoft 365 Groups expiration and lifecycle management
 
 You can automate group cleanup by using expiration policies. When a group reaches its expiration date:
 
@@ -103,7 +103,7 @@ For more information, see [Microsoft 365 group Expiration Policy](../../solution
 
 You can administer your groups from the Microsoft 365 admin center or by using PowerShell. For more information, see [Manage Microsoft 365 Groups with PowerShell](../../enterprise/manage-microsoft-365-groups-with-powershell.md).
 
-If you have many users, such as in a large corporation or enterprise, you might have many users who create groups for various purposes. We highly recommend that you review [Plan for governance in Microsoft 365 groups](../../solutions/collaboration-governance-overview.md) for best practices.
+If you have many users, such as in a large corporation or enterprise, you might have many users who create groups for various purposes. Review [Plan for governance in Microsoft 365 groups](../../solutions/collaboration-governance-overview.md) for best practices.
 
 ## Microsoft 365 Groups limits and restrictions
 
@@ -120,11 +120,11 @@ The following limits apply to Microsoft 365 Groups:
 | File storage                               | 1 TB + 10 GB per subscribed user, plus any additional storage purchased. You can purchase an unlimited amount of extra storage. |
 | Group Mailbox size                         | 50 GB |
 
-Managing your Microsoft 365 groups is more effective when you have actionable information about group usage. The Microsoft 365 admin center has a reporting tool that lets you see storage use, how many active groups you have, and how users are using the groups. See: [Microsoft 365 Reports in the admin center](../activity-reports/office-365-groups.md) for more information.
+Managing your Microsoft 365 groups is more effective when you have actionable information about group usage. The Microsoft 365 admin center has a reporting tool that lets you see storage use, how many active groups you have, and how users are using the groups. For more information, see [Microsoft 365 Reports in the admin center](../activity-reports/office-365-groups.md).
 
 ## Sensitivity labels for Microsoft 365 Groups
 
-You can create sensitivity labels that the users in your organization can set when they create a Microsoft 365 group. Sensitivity labels help enforce consistent security and access controls during group creation. With sensitivity labels, you can configure:
+You can create sensitivity labels that the users in your organization can set when they create a Microsoft 365 group. Sensitivity labels help enforce consistent security and access controls during group creation. By using sensitivity labels, you can configure:
 
 - Privacy (public or private)
 - Guest access
@@ -136,23 +136,23 @@ For information about creating, managing, and using sensitivity labels, see [Use
 
 ## Microsoft 365 plans that include Microsoft 365 Groups
 
-Any Microsoft 365 subscription that has Exchange Online and SharePoint in Microsoft 365 supports groups. That includes the Business Basic, Business Standard, and Business Premium plans, and the Enterprise E1, E3, and E5 plans. The group takes on the licensing of the person who creates the group. As long as they have the proper license for whatever features you want the group to have, that license conveys to the group.
+Any Microsoft 365 subscription that includes Exchange Online and SharePoint in Microsoft 365 supports groups. This support includes the Business Basic, Business Standard, and Business Premium plans, as well as the Enterprise E1, E3, and Microsoft 365 E5 plans. The group adopts the licensing of the person who creates it. As long as the creator has the proper license for the features you want the group to have, that license extends to the group.
 
 > [!NOTE]
 >
 > For more information about Microsoft 365 service families and plans, see [Microsoft 365 plan options](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options).
 
-If you have an Exchange-only plan, you can still get the shared inbox and shared calendar features of groups in Outlook but you don't get the document library, Planner or any of the other capabilities.
+If you have an Exchange-only plan, you can still get the shared inbox and shared calendar features of groups in Outlook but you don't get the document library, Planner, or any of the other capabilities.
 
-Microsoft 365 groups work with Microsoft Entra ID. The groups features you get depends on which Microsoft Entra subscription you have and what licenses are assigned to the person who created the group.
+Microsoft 365 groups work with Microsoft Entra ID. The groups features you get depend on which Microsoft Entra ID subscription you have and what licenses are assigned to the person who created the group.
 
 From an administrative perspective, creator's licenses and Microsoft Entra ID subscription determine group capabilities. Licenses assigned to individual group members don't determine group capabilities.
 
 > [!IMPORTANT]
 >
-> For all the groups features, if you have a Microsoft Entra ID P1 or P2 subscription, users can join the group whether or not they have a Microsoft Entra ID P1 license assigned to them. Licensing isn't enforced.
+> For all the groups features, if you have a Microsoft Entra ID P1 or Microsoft Entra ID P2 subscription, users can join the group whether or not they have a Microsoft Entra ID P1 license assigned to them. Licensing isn't enforced.
 >
-> Periodically, we generate usage reports that tell you which users are missing a license, and need one assigned to them to be compliant with the licensing requirements. For example, let's say a user doesn't have a license and they're added to a group where the naming policy is enforced. The report flags that they need a license.
+> Periodically, Microsoft generates usage reports that tell you which users are missing a license and need one assigned to them to be compliant with the licensing requirements. For example, if a user doesn't have a license and they're added to a group where the naming policy is enforced, the report flags that they need a license.
 
 ## Related articles
 
