@@ -3,7 +3,7 @@ title: Migration orchestrator source and tenant domain configuration
 ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
-ms.date: 01/26/2026
+ms.date: 02/25/2026
 recommendations: true
 audience: ITPro
 ms.topic: upgrade-and-migration-article
