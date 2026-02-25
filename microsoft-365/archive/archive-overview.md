@@ -65,23 +65,23 @@ Administrators should notify site owners and end users before archiving a site s
   
 ### File Archive (preview) limitations
 
-- Some Microsoft 365 applications and services don’t yet support file-level archiving. These applications might display incorrect error messages, fail to load correctly, or fail actions taken with archived content. This includes but isn’t limited to:
+- Some Microsoft 365 applications and services don’t yet support file-level archiving. These applications might display incorrect error messages, fail to load correctly, or fail actions taken with archived content.  Because client support and user awareness for archived files continue to evolve during this preview period, we recommend that you use file-level archive thoughtfully and ensure users understand how to reactivate files at their original location if access is required—especially if they encounter unexpected open or load errors. The list of known limitation includes but isn’t limited to:
 
-  - Word and PowerPoint online.
+     - Word and PowerPoint online.
     
-  - Teams, OneDrive, and SharePoint mobile applications.
+     - Teams, OneDrive, and SharePoint mobile applications.
     
-  - MacOs with the OneDrive sync client.
+     - MacOs with the OneDrive sync client.
     
-  - Older versions of Windows, such as Windows 10 and earlier, with the OneDrive sync client.
+     - Older versions of Windows, such as Windows 10 and earlier, with the OneDrive sync client.
   
     - This limitation also applies to Windows devices that aren’t configured to receive frequent updates.
         
-  - Older versions of Office desktop apps that haven’t had updates since March 1, 2026.
+     - Older versions of Office desktop apps that haven’t had updates since March 1, 2026.
     
-  - Other apps such as Clipchamp and Power BI fail to load archived content when attempting to import.
+     - Other apps such as Clipchamp and Power BI fail to load archived content when attempting to import.
     
-- File-level archive is available only for SharePoint sites. Archived files that are copied or moved into OneDrive might not always be visually represented as archived.
+- File-level archive is available only for SharePoint sites. When archived files are copied or moved, they retain their archived state. However, if an archived file is moved or copied into OneDrive, that archived state might not always be visually represented in the OneDrive user interface.
 
 - Certain file types can’t be archived, including OneNote, SharePoint pages, and SharePoint agents.
 
