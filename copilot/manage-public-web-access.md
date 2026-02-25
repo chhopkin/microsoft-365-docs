@@ -15,7 +15,7 @@ ms.collection:
 - must-keep
 - trust-pod
 hideEdit: true
-ms.date: 02/24/2026
+ms.date: 02/25/2026
 ms.update-cycle: 180-days
 ---
 
@@ -116,9 +116,6 @@ To manage web search so it aligns with organizational policies, user preferences
 ### IT admin control for both Microsoft 365 Copilot and Microsoft 365 Copilot Chat
 
 The primary way that IT admins can control access to web search is by using the **Allow web search in Copilot** policy, which is available only in [Cloud Policy service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy). This policy allows IT admins to either turn on or turn off web search for users or user groups across the tenant they manage in accordance with their organization’s policies, data privacy laws, or other regulatory requirements. This policy applies to both Microsoft 365 Copilot and Microsoft 365 Copilot Chat.
-
-> [!NOTE]
-> The **Allow web search in Copilot** policy replaces the **Allow Copilot to improve responses with web content** control in the Microsoft 365 admin center previously used to manage web content in Microsoft 365 Copilot.
 
 If the IT admin enables the **Allow web search in Copilot** policy, they have three options for web search in Copilot:
 
