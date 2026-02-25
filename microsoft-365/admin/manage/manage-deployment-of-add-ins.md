@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 02/17/2026
+ms.date: 02/25/2026
 audience: Admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
@@ -96,13 +96,13 @@ To deploy an Office Add-in using the Microsoft 365 admin center, follow these st
 
     1. In the **Choose how to upload app** section, do one of the following steps:
 
-      - Select the option to upload the manifest, and then select the **Choose File** button. Navigate to the add-in's manifest and select it.
+      1. Select the option to upload the manifest, and then select the **Choose File** button. Navigate to the add-in's manifest and select it.
 
          > [!IMPORTANT]
          >
          > Only add-ins that use the add-in only manifest can be deployed from the add-in portal at this time. To deploy an add-in that uses the Microsoft 365 unified manifest, you must use the integrated apps portal. See [Office Add-ins manifest](/office/dev/add-ins/develop/add-in-manifests) for information about the difference.
 
-      - Select the option to provide a URL for the manifest, and then fill in the URL.
+      1. Select the option to provide a URL for the manifest, and then fill in the URL.
 
     1. Select **Upload**.
 
@@ -112,7 +112,7 @@ To deploy an Office Add-in using the Microsoft 365 admin center, follow these st
 
    > [!NOTE]
    >
-   > To learn about other states that apply to an add-in, see [Add-in states](./manage-addins-in-the-admin-center.md#add-in-states).
+   > To learn about other states that apply to an add-in, see [Add-in states](./manage-addins-in-the-admin-center.md#add-in-states-in-the-microsoft-365-admin-center).
 
 1. Select **Deploy**.
 
