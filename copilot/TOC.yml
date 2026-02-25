@@ -56,10 +56,16 @@ items:
       href: /copilot/edge?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
   - name: Implementation Readiness
     items:
-    - name: Minimum requirements to deploy Microsoft 365 Copilot
-      href: microsoft-365-copilot-minimum-requirements.md
-    - name: Minimum requirements and consideration for Microsoft 365 Copilot Chat
-      href: microsoft-365-copilot-chat-requirements.md
+    - name: Minimum requirements and considerations for Microsoft 365 Copilot and Copilot Chat
+      items:
+      - name: Minimum requirements overview
+        href: microsoft-365-copilot-minimum-requirements.md
+      - name: Data and compliance readiness
+        href: microsoft-365-copilot-minimum-requirements-data-compliance.md
+      - name: Organization rollout
+        href: microsoft-365-copilot-minimum-requirements-rollout.md
+      - name: Minimum requirements for Microsoft 365 Copilot Chat
+        href: microsoft-365-copilot-chat-requirements.md
     - name: Architecture & how Copilot works
       href: microsoft-365-copilot-architecture.md
     - name: Microsoft 365 Copilot Admin settings
@@ -101,6 +107,8 @@ items:
     items:
     - name: Anthropic as a subprocessor for Microsoft Online Services
       href: connect-to-ai-subprocessor.md
+    - name: Connect to xAI's models  
+      href: connect-to-ai-models.md
     - name: Deploy Microsoft 365 Copilot app
       href: deploy-microsoft-365-copilot-app.md
     - name: Deploy Microsoft 365 Copilot app FAQ
