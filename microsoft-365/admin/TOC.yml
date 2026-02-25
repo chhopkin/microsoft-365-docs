@@ -382,6 +382,8 @@ items:
               href: adoption/ai-adoption-score.md
             - name: Organizational Messages
               href: adoption/organizational-messages.md
+            - name: Organizational Messages FAQ
+              href: adoption/organizational-messages-faq.yml
             - name: Group Level Aggregates
               href: adoption/group-level-aggregates.md
             - name: Microsoft 365 Apps health

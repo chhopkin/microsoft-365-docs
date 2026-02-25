@@ -1,0 +1,218 @@
+### YamlMime:FAQ
+metadata:
+  title: Organizational Messages in Microsoft 365 FAQ
+  description: Learn how to send messages to your organization in Microsoft 365 using organizational messages in the Microsoft 365 admin center by finding answers to your questions in FAQ.
+  ms.date: 11/18/2024
+  f1.keywords:
+  - NOCSH
+  ms.author: kwekua
+  author: kwekuako
+  manager: scotv
+  audience: Admin
+  ms.topic: faq
+  ms.service: microsoft-365-business
+  ms.localizationpriority: medium
+  ms.collection:
+    - Tier2
+    - scotvorg
+    - M365-subscription-management
+    - Adm_O365
+    - Adm_TOC
+    - operations-pod
+  ms.custom: campaignIDs-batch2
+  search.appverid:
+   - MET150
+   - MOE150
+title: Organizational Messages in Microsoft 365 FAQ
+summary: |
+
+sections:
+- name: Organizational Messages in Microsoft 365 FAQ
+  questions:
+  - question: |
+      Can you tell me more about delivery expectations for these messages?
+    answer: |
+      For non-urgent messages, after the Organizational Messages platform schedules your message (for example, after approval from your Organizational Messages approvers is acquired as needed), it takes a few hours before the message is eligible to be delivered to end user devices. For example, if you set the Start Date to be now/today, you should expect a few hours before any end user devices in your testing tenant receive the message payload.
+
+      Further, Windows buffers messages on a set period for each of the channels. (In other words, this experience is delivered on a 'pull' model.) So, expect that your message might take 24 or more hours for targeted end users in your tenant to receive and render the message, as their devices might be configured to request content at different times.
+
+      Once your message has been actively delivering for over 24 hours, you can return to the 'Manage' experience to review the latest delivery data for your message.
+
+      For urgent messages, after the Organizational Messages platform schedules your message (for example, after approval from your Organizational Messages approvers is acquired as needed), the platform tries to send the message as soon as possible. However, as noted earlier, this is a best-effort mechanism subject to various conditions, with no guaranteed delivery times.
+
+      > [!NOTE]
+      >
+      > For Windows spotlight messages, users who select a message on the Windows lock screen don't see it again for 12 months. Users who do not select the message may see it multiple times.
+
+  - question: |
+      My team made other organizational messages within Intune, Adoption Score, Usage reports, and others. How do they work with this?
+    answer: |
+      The Organizational messages centralized experience is the 'one-stop-shop' for organizational messages. You should be able to see and manage your other messages from the centralized experience, regardless of where they were created.
+
+      > [!NOTE]
+      >
+      > Adoption Score organizational messages on Office or Outlook channels aren't visible in the centralized experience.
+
+  - question: |
+      How do admins get the required permissions?
+    answer: |
+      > [!IMPORTANT]
+      >
+      > Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+
+      Reach out to a Global admin and ask them to assign you Organizational Messages Writer or Organizational Message Approver Microsoft Entra role to you following these steps:
+
+      1. Global Admin of target testing tenant goes to Microsoft 365 Admin Center > Active Users.
+
+      1. Search for or otherwise select target user in Active users table.
+
+      1. Select the Manage roles button in the top navigation bar.
+
+      1. Select Organizational Messages Writer or Organizational Messages Approver in the Other section, and then select Save changes.
+
+  - question: |
+      Why do I need to update my MDM policies?
+    answer: |
+      The MDM policies listed under [Setting tenant policies](organizational-messages-microsoft-365.md#setting-tenant-policies) control whether the service delivering the messages is able to access each location where organizational messages could be delivered. Previously, the CSPs only affected consumer scenarios and controlled whether Microsoft messaging can be delivered, however, since we're using the same service, the policies affect admin-created messages as well.
+
+  - question: |
+      How can I get my MDM settings for troubleshooting purposes?
+    answer: |
+      1. Run ms-settings:workplace.
+
+      1. In the Export your management log files section, select Export.
+
+      1. Get the resulting file in *C:\Users\Public\Documents\MDMDiagnostics*.
+
+  - question: |
+      How can I get my user and device ID for troubleshooting purposes?
+    answer: |
+      1. Launch **MS Feedback Hub**.
+
+      1. Select **Settings** in the bottom left-hand corner.
+
+      1. Navigate to the **Device Information** section.
+
+  - question: |
+      Where can I find more information on CSP policies related to Organizational Messages?
+    answer: |
+      You can use the [**Experience CSP**](/windows/client-management/mdm/policy-csp-experience) for policies related to organizational messages. For example:
+
+      - [AllowWindowsSpotlight](/windows/client-management/mdm/policy-csp-experience#allowwindowsspotlight).
+      - [AllowWindowsTips](/windows/client-management/mdm/policy-csp-experience#allowwindowstips).
+      - [AllowWindowsSpotlightOnActionCenter](/windows/client-management/mdm/policy-csp-experience#allowwindowsspotlightonactioncenter).
+      - [DisableCloudOptimizedContent](/windows/client-management/mdm/policy-csp-experience#disablecloudoptimizedcontent).
+      - [ConfigureWindowsSpotlightOnLockScreen](/windows/client-management/mdm/policy-csp-experience#configurewindowsspotlightonlockscreen).
+      - [AllowSpotlightCollection](/windows/client-management/mdm/policy-csp-experience#allowspotlightcollection)
+      - [EnableOrganizationalMessages](/windows/client-management/mdm/policy-csp-experience#enableorganizationalmessages).
+
+  - question: |
+      What do the different message states mean?"
+    answer: |
+      All messages have a state that indicates their creation or delivery status, including:
+
+      - **Completed** - message has successfully run its course as defined by Start and end dates.
+
+      - **Pending** - message is still being registered by the organizational messages services and thus is not delivering. Additionally, certain details of the message might be unavailable while in **pending** state.
+
+      - **Failed** - message wasn't able to be properly registered by the organizational messages services for various reasons. These messages need to be copied to retry the process.
+
+      - **Canceled** - message was explicitly stopped by your tenant admin. This might be during delivery of the message or prior (that is, in Scheduled state).
+
+      - **Active** - message is currently delivering to your users.
+
+      - **Draft** - message is not completed or otherwise submitted for scheduling and/or approval. Any of your tenant's writers can continue a draft to completion via the creation flow.
+
+      - **Scheduled** - message is properly authored and is awaiting delivery (at which time it is coded as **Active**)
+
+      - **Rejected** - message was reviewed, and an Approver admin disallowed it from proceeding to a Scheduled or Active state.
+
+      - **Pending approval** - message is awaiting review by an Approver admin.
+
+
+  - question: |
+      How does localization work in Organizational Messages?"
+    answer: |
+      The following are the locales supported:
+
+      - en-US
+      - de-DE
+      - es-ES
+      - fr-FR
+      - it-IT
+      - ja-JP
+      - ko-KR
+      - nl-NL
+      - pl-PL
+      - pt-BR
+      - pt-PT
+      - ru-RU
+      - tr-TR
+      - zh-Hans
+      - zh-Hant
+
+      For **pre-made** messages, an Organizational Message is created for all locales listed above. If the Organizational Messages Writer (admin) selects "pre-made Message A" to send to end users, any end user whose first preferred language matches one of the supported languages qualify to receive "pre-made Message A" in their first preferred language.
+
+      For **custom messages**, the creation of an Organizational Message is restricted to the language selected as the Microsoft 365 admin center (MyAccount) display language so long as it is one of the locales listed above.
+
+      For example, If the Organizational Messages Writer (admin) sets their Microsoft 365 admin center (MyAccount) display language to French (which is one of the supported language listed above) while creating "Custom Message B", then only end users with French as the first option under "Preferred Languages" in their Windows Settings receive "Custom Message B." End users whose preferred language is any other language don't receive "Custom Message B".
+
+      Locale fallback:
+
+      If the Organizational Messages Writer (admin) locale is outside of the supported list above, the created message falls back to the corresponding locale with the same language (if applicable). If there is no corresponding locale with the same language, then the created message falls back to en-US
+
+      Fallback examples:
+
+      fr-CA falls back to fr-FR, and users with all fr language locales receive the message.
+
+      lv_LV falls back to en-US, and users with all en languages locales receive the message.
+
+      > [!NOTE]
+      >
+      > - *Locale of the custom message writer selected*: Display language set in the Microsoft 365 admin center (MyAccount).
+      > - *Locale of the message receiver selected*: First supported language listed under "Preferred Languages" in the user's Windows Settings menu. The operating system determines this on the user's device.
+
+
+  - question: |
+      Does Organizational Messages support government environments?
+    answer: |
+      No, government environments such as GCC or GCC-H are not supported at this time.
+
+  - question: |
+      Can we still author Get Started messages created previously in Microsoft Intune?
+    answer: |
+      Any Get Started messages that you created in the Organizational messages experience within Intune/Microsoft Endpoint Manager that are not complete can be viewed within the Microsoft 365 admin center experience. However, new Get Started message creation is not yet supported at this time.
+
+
+  - question: |
+      Are there any pre-made messages for Windows Spotlight?
+    answer: |
+      No pre-made Windows Spotlight messages are available at this time.
+
+  - question: |
+      Where are organizational messages delivered in Windows 11?
+    answer: |
+      Organizational messages deliver to Windows 11 locations for the Notifications area, Taskbar, and Windows Spotlight.
+
+  - question: |
+      How can we prevent Microsoft messages and show only organizational messages?
+    answer: |
+      To only show organizational messages, follow these steps:
+
+      1. Enable all of the policies described in [Setting Tenant Policies](organizational-messages-microsoft-365.md#setting-tenant-policies).
+
+      1. Go to the **Settings** feature within the Organizational messages in Microsoft 365 admin center portal located in the top right corner of the landing page).
+
+      1. Deselect the option **Allow Microsoft messages to display**.
+
+      1. Select **Save**.
+
+      This ensures Organizational messages platform sends only your organization's messages to Windows surfaces such as the Taskbar.
+
+  - question: |
+      How do licenses affect message customization?
+    answer: |
+        - Authoring experiences are automatically disabled if license requirements are not met.
+        - Windows custom messages require Windows E3/E5 or Microsoft 365 E3/E5.
+        - Teams custom messages require Office 365 E3/E5 or Microsoft 365 E3/E5.
+        - Pre-made messages might still be available without these licenses.
