@@ -270,7 +270,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
 
-  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
 
   **Details:** 
 
@@ -5681,7 +5681,7 @@ Updates released between February 10, 2026, and February 24, 2026.
 
   Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
 
-  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
 
   **Details:** 
 
@@ -8381,7 +8381,7 @@ Updates released between February 10, 2026, February 24, 2026
 
   Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
 
-  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
 
   **Details:** 
 
@@ -8925,36 +8925,6 @@ Updates released between January 13, 2025, and January 27, 2026.
     **Support:**
 
     [Convert your Microsoft 365 Copilot Page into a Word document or PowerPoint presentation](https://support.microsoft.com/topic/convert-your-microsoft-365-copilot-page-into-a-word-document-or-powerpoint-presentation-f39f872a-4f47-408c-8fc9-2c6808c003a1)
-
-### PowerPoint
-- **Use Copilot to get a detailed and contextual explanation** [Web, Windows, Mac]
-
-  Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
-
-  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
-
-  **Details:** 
-
-  **What changed:** Copilot can now provide an explanation of any selected object in a presentation. This includes acronyms, individual text boxes, tables images, & entire slide. Previously, users needed to rely on external references or manual research to understand unclear content.
-
-  **Why:** This feature helps users understand unfamiliar or complex information without leaving their presentation
-
-  **Try this:** 
-
-  - Select any text, table or slide, right click and choose “Explain". 
-  - Review the explanation without leaving PowerPoint 
-
-  **Why this matters:** 
-
-  **Business impact:** Helps teams quickly understand unfamiliar content, reducing time spent researching and improving clarity in presentations.
-
-  **Personal impact:** Makes it easier to grasp the meaning of slide objects without switching apps.
-  
-  **Additional resources:**
-
-  **Blogs:**
-
-  [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
 
 ### Viva Glint
 - **Copilot employee experience outcomes report with Viva Glint** [Web]
@@ -14355,7 +14325,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
 
-  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
 
   **Details:** 
 
@@ -15626,6 +15596,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
