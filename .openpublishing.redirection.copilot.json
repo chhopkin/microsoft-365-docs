@@ -1,6 +1,11 @@
 {
    "redirections": [
       {
+         "source_path": "copilot/copilot-tuning-knowledge-selection.md",
+         "redirect_url": "/copilot/microsoft-365/copilot-tuning-overview",
+         "redirect_document_id": false
+      },
+      {
          "source_path": "copilot/copilot-tuning-troubleshooting-mac.md",
          "redirect_url": "/copilot/microsoft-365/copilot-tuning-overview",
          "redirect_document_id": false

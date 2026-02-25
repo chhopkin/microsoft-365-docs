@@ -203,8 +203,6 @@ items:
         href: copilot-tuning-admin-guide.md
       - name: Tuning process
         href: copilot-tuning-process.md
-      - name: Knowledge selection
-        href: copilot-tuning-knowledge-selection.md
       - name: Fine-tune models
         href: /microsoft-copilot-studio/microsoft-copilot-fine-tune-model?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
       - name: Tuned agents
