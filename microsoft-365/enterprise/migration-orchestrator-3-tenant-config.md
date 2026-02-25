@@ -92,8 +92,6 @@ Import-Module `
 
 The required setup steps for OneDrive Migration on both source and target are available in [Steps 1 - 3](cross-tenant-onedrive-migration.md) of its public documentation. These steps establish trust for the tool and between tenants.
 
-### 
-
 ## Prepare both tenants for Teams Chat Migration
 
 > [!IMPORTANT]
@@ -109,8 +107,6 @@ The required setup steps for OneDrive Migration on both source and target are av
 
 5. Confirm the settings by running:
 `Get-CsTenantFederationConfiguration`
-
-### 
 
 ## Prepare both tenants for Identity Mapping
 
