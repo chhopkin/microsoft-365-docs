@@ -73,7 +73,7 @@ Microsoft publishes all Microsoft 365 endpoints as a web service and provides gu
 
 :::image type="content" source="../media/b42a45be-1ab4-4073-a7dc-fbdfb4aedd24.png" alt-text="Egress network connections locally.":::
   
-Local DNS and internet egress is of critical importance for reducing connection latency and ensuring that user connections are made to the nearest point of entry to Microsoft 365 services. In a complex network topology, it's important to implement both local DNS and local internet egress together. For more information about how Microsoft 365 routes client connections to the nearest point of entry, see [assessing network connectivity](assessing-network-connectivity.md).
+Local DNS and internet egress is of critical importance for reducing connection latency and ensuring that user connections are made to the nearest point of entry to Microsoft 365 services. In a complex network topology, it's important to implement both local DNS and local internet egress together.
   
 Prior to the advent of cloud services such as Microsoft 365, end-user internet connectivity as a design factor in network architecture was relatively simple. When internet services and web sites are distributed around the globe, latency between corporate egress points and any given destination endpoint is largely a function of geographical distance.
   
