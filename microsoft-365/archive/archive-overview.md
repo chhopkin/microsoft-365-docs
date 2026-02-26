@@ -40,7 +40,7 @@ Microsoft 365 Archive works with the Microsoft 365 search index and the [Microso
 
 [!INCLUDE [global-administrator-note](../includes/global-administrator-note.md)]
 
-When a file or site is archived, it moves into an explicitly colder tier and no longer consumes the tenant’s active storage quota. Instead, it contributes to Microsoft 365 Archive storage consumption. Content in this tier is no longer directly accessible to anyone and can only be accessed through Microsoft Purview or admin search.
+When a file or site is archived, it moves into an explicitly colder tier and no longer consumes the tenant’s active storage quota. Instead, it contributes to Microsoft 365 Archive storage consumption. Content in this tier is no longer directly accessible to anyone. Full content search works for Purview Content Search, end-user search, and eDiscovery search experiences. Purview Content Search and eDiscovery can still directly export content but may take longer to export archived content.
 
 When a site is archived, all content within the site is archived, including:
 
@@ -84,6 +84,8 @@ Administrators should notify site owners and end users before archiving a site s
 - File-level archive is available only for SharePoint sites. When archived files are copied or moved, they retain their archived state. However, if an archived file is moved or copied into OneDrive, that archived state might not always be visually represented in the OneDrive user interface.
 
 - Certain file types can’t be archived, including OneNote, SharePoint pages, and SharePoint agents.
+
+- The Site Assets library on SharePoint sites does not support file-level archive.
 
 ## Related articles
 
