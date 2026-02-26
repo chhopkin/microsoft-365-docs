@@ -23,12 +23,12 @@ Monitoring the usage analytics of the Employee Self-Service agent should be part
 
 There are two approaches in consuming analytics:
 
-1. Systematically monitoring agent usage, effectiveness, quality, and satisfaction, which fall within the responsibilities of the service owner and/or creator. [Learn more](/microsoft-copilot-studio/analytics-overview) about Copilot Studio analytics documentation.
-1. Review agent usage, satisfaction scores, and other metrics to assess the agent's return on investment. [Learn more](/viva/insights/org-team-insights/copilot-dashboard) about Copilot.
+1. Service owners or makers systematically monitoring agent usage, effectiveness, quality, and satisfaction. [Learn more](/microsoft-copilot-studio/analytics-overview) about Copilot Studio analytics documentation.
+1. Organization leaders review agent usage, satisfaction scores, and other metrics to assess the agent's return on investment. [Learn more](/viva/insights/org-team-insights/copilot-dashboard) about Copilot.
 
 ## Measure what matters
 
-Employee Self-Service atelemetry is designed to help organizations move beyond basic usage reporting and toward **operational clarity, trust, and continuous improvement**. While Employee Self-Service collects a single, consistent telemetry stream, **different stakeholders interpret that telemetry through different lenses**, depending on the decisions they're responsible for making.
+Employee Self-Service telemetry is designed to help organizations move beyond basic usage reporting and toward **operational clarity, trust, and continuous improvement**. While Employee Self-Service collects a single, consistent telemetry stream, **different stakeholders interpret that telemetry through different lenses**, depending on the decisions they're responsible for making.
 
 This article explains how to interpret Employee Self-Service telemetry for each stakeholder in your organization, using the same storytelling model that Microsoft's product and engineering teams use internally. This information allows customers and product teams to align on what "good" looks like and what actions to take next.
 
@@ -45,7 +45,7 @@ This model ensures telemetry is decision-oriented as well as descriptive. The sa
 |**Intent**    |What employees are trying to do.             |
 |**Behavior**  |How the Employee Self-Service agent is used. |
 |**Outcome**   |Business and experience impact.              |
-|**Action**    |What should change as a result.              |
+|**Action**    |What should change as a result?              |
 
 ## Stakeholder-based interpretation guide
 
@@ -79,11 +79,11 @@ Executives should focus on **outcome-level telemetry**, not raw interaction coun
 - Sustained adoption beyond pilot phases (trust and repeat usage)	
 - Predictable scale without increasing support or incident load
 
-**What to use When**
+**What to use when**
 
 [Copilot Analytics introduction](/viva/insights/copilot-analytics-introduction#which-tool-should-i-use-when)
 
-### 1. Product / Service Owners
+### 2. Product/Service Owners
 
 **Primary question**
 
@@ -114,6 +114,12 @@ Product/service stakeholders focused on each business domain/verticals such as H
 - Prevent regressions such as prompts, knowledge, or integrations change
 - Focus investment on highest-impact scenarios, not vanity metrics
 
+**What to use When**
+
+[Copilot Analytics introduction](/viva/insights/copilot-analytics-introduction#which-tool-should-i-use-when)
+
+[Copilot Studio - Analytics](/microsoft-copilot-studio/analytics-overview)
+
 #### Interpreting Telemetry by verticals
 This section is designed to help you operationalize the Employee Self-Service telemetry across your organization by anchoring analytics to real scenarios, clear stakeholder questions, and concrete actions.
 
@@ -125,7 +131,7 @@ This section is designed to help you operationalize the Employee Self-Service te
 - "How do I apply for parental leave?"
 - "Can I add a dependent to my benefits?"
 
-**HR stakeholders & questions**
+**HR stakeholders and questions**
 
 |Stakeholder                |Key question                                                   |
 |---------------------------|---------------------------------------------------------------|
@@ -166,7 +172,7 @@ This section is designed to help you operationalize the Employee Self-Service te
 |---------------------|--------------------------------------------------------------------------------|
 |**IT Service Owner** |Is the Employee Self-Service agent reducing ticket volume for common IT issues? |
 |**IT Operations**    |Are failures due to configuration or platform issues?                           |
-|**Security / IAM**   |Are requests handled securely and consistently?                                 |
+|**Security**         |Are requests handled securely and consistently?                                 |
 
 **Telemetry signals to review for IT**
 - Ticket deflection indicators
@@ -178,13 +184,13 @@ This section is designed to help you operationalize the Employee Self-Service te
 - **Low assisted support + high completion** = Effective IT self-service
 - **Errors clustered by scenarios** = Configuration or connector issues
 - **Latency spikes** = Throttling, dependency, or orchestration bottlenecks
-- **Security-related fallbacks** = IAM or policy misalignment
+- **Security-related fallbacks** = policy misalignment
 
 **Recommended actions for IT**
 - Focus telemetry reviews on top ticket-deflecting scenarios
 - Use diagnostics to distinguish config issues vs. product gaps
 - Validate performance telemetry before scaling rollout
-- Pair telemetry with readiness and ALM checks for production moves
+- Pair telemetry with readiness and Application Lifecycle Management (ALM) checks for production moves
 
 ***Facilities & Workplace services***
 **Typical Workplace scenarios**
@@ -220,7 +226,7 @@ This section is designed to help you operationalize the Employee Self-Service te
 - Use telemetry to justify integration investments
 - Track sentiment trends as a proxy for workplace trust
 
-### IT Administrators & Makers ###
+### 3. IT Administrators & Makers ###
 **Primary question**
 
 *Is the Employee Self-Service agent configured correctly, stable, and ready to scale?*
@@ -244,6 +250,12 @@ Administrators and Makers should interpret telemetry as **health and readiness i
 - Validates environments before promoting to production
 - Coordinate changes using ALM and readiness checks
 
+**What to use When**
+
+[Copilot Studio - Analytics](/microsoft-copilot-studio/analytics-overview)
+
+[Capture telemetry with Application Insights](/microsoft-copilot-studio/advanced-bot-framework-composer-capture-telemetry)
+
 ## Employee Self-Service analytics and evaluations: A unified playbook to accelerate time-to-value (TTV)
 
 ### Why combine telemetry and evaluations?
@@ -263,3 +275,5 @@ The shared operating model:
 **'Intent ➡️ Behavior ➡️ Outcome ➡️ Action'**
 
 Evals plug into the same model by providing repeatable evidence about whether the agent can reliably deliver the intended outcomes before you expose the change to broad employee usage.
+
+[Learn more](/microsoft-copilot-studio/analytics-overview)
