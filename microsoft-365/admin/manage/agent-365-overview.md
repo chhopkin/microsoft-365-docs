@@ -55,9 +55,9 @@ You can view the **Agent 365 Overview** page by going in the [Microsoft 365 admi
 
 A high-level summary of the most critical indicators of agent adoption and impact. These metrics give administrators an immediate sense of scale, engagement, and business value.
 
-- **Agent Registry** - The total count of all agents available in your organization's catalog, including Microsoft-built, partner-built, and custom (LOB) agents. This Agent Registry reflects the breadth of automation capabilities deployed across your tenant. You can directly select the **Explore All agents** > **Registry** to go through your inventory in detail.
+**Agent Registry** - The total count of all agents available in your organization's catalog, including Microsoft-built, partner-built, and custom (LOB) agents. This Agent Registry reflects the breadth of automation capabilities deployed across your tenant. You can directly select the **Explore All agents** > **Registry** to go through your inventory in detail.
 
-- **Active Users** - The number of unique users who interacted with at least one agent within last 30 days. If a user interacts at least once with one agent in the last 30 days, then they're considered as an active user.
+- **Active users** - The number of unique users who interacted with at least one agent within last 30 days. If a user interacts at least once with one agent in the last 30 days, then they're considered as an active user.
 
 - **Total sessions** - The count of complete agent invocations in which the agent performed a task, answered a query, or completed an interaction during the past 30 days.
 
@@ -65,7 +65,14 @@ A high-level summary of the most critical indicators of agent adoption and impac
 
 - **Assisted Hours** - Total agent assisted time over the past 30 days, calculated as the sum of each agent session's duration (end time minus start time).
 
-- **Time Saved with Agents** - The estimated cumulative hours saved by users through agent-assisted tasks, based on modeled productivity gains. Demonstrates return on investment (ROI) and business impact.
+**Active users**, **Total sessions**, **Exception rate**, and agent **Assisted hours** are currently supported for the following agent types:
+
+- Microsoft 365 Copilot Agent Builder.
+- SharePoint.
+- Microsoft 365 Agents Toolkit.
+- Agents integrated with the Agent 365 Observability SDK.
+
+These metrics are available to customers enrolled in the Agent 365 Frontier preview program.
 
 ## Agent Analytics
 
