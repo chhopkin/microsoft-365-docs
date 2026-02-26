@@ -62,32 +62,35 @@ Sites associated with Teams that include private or shared channels are only par
 
 ## Manage file-level archive (preview)
 
-When Microsoft 365 Archive is enabled, file-level archiving is enabled by default for all SharePoint sites.  [SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator) can choose whether to deploy file-level archiving by disabling it if desired.  Admins can choose to allow file-level archiving for all SharePoint sites, a subset of SharePoint sites, or not at all. When enabled for a site, end-users with edit permissions are able to archive files. 
+For the public preview of file-level archive starting at the end of March 2026, admins have to explicitly enable file-level archiving for the tenant via PowerShell.  When file-level archive graduates from public preview to general availability, that behavior will be different. After general availability, when Microsoft 365 Archive is enabled, file-level archiving will be enabled by default for all SharePoint sites.  
+
+[SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator) can choose whether to deploy file-level archiving by enabling or disabling it if desired.  Admins can choose to allow file-level archiving for all SharePoint sites, a subset of SharePoint sites, or not at all.  Admins can also choose whether new sites will be enabled for file-level archiving. When enabled for a site, end-users with edit permissions are able to archive files. 
 
 [!INCLUDE [global-administrator-note](../includes/global-administrator-note.md)]
 
-To reduce the scope of which sites can use file-level archive, admins have 3 tools at their disposal via PowerShell.
+To control the scope of which sites can use file-level archive, admins have 3 tools at their disposal via PowerShell.
 
-1. **Tenant-level opt-out**. To only utilize Site archive, opt-out of file-level archive entirely by disabling file-level archive for their tenant.  This property will override the site-level property with the same name. This property is controlled via the _**-AllowFileArchive**_ flag of the _**Set-SPOTenant**_ cmdlet.  This flag was introduced into SPO admin PowerShell starting in version 16.0.26714.12000. By default, this property is set to True, meaning that the tenant can archive files. When set to False, no new files can be archived by users, but existing archived files can be reactivated. 
+1. **Tenant-level enablement**. To only utilize Site archive and not allow any user to archive files, disable file-level archive entirely for your tenant.  This capability is controlled via the _**-AllowFileArchive**_ property flag of the _**Set-SPOTenant**_ cmdlet.  This property will override the site-level property with the same name.  This flag was introduced into SPO admin PowerShell starting in version 16.0.26714.12000. By default, this property is set to True, meaning that the tenant can archive files. When set to False, no new files can be archived by users, but existing archived files can be reactivated. 
+
 ```PowerShell
 Set-SPOTenant -AllowFileArchive $true 
 ```
 
 
-1. **Site-level opt-out**. To control which sites have file-level archive enabled, opt-out specific sites from being able to archive new files.  This property is controlled via the _**-AllowFileArchive**_ flag of the _**Set-SPOSite**_ cmdlet. This flag was introduced into SPO admin PowerShell starting in version 16.0.26211.12000. By default, this property is set to True, meaning that the site can archive files. When set to False, no new files can be archived by users on this site, but existing archived files can be reactivated.
+1. **Site-level enablement**. To control which sites have file-level archive enabled, enable or disable specific sites from being able to archive new files.  This capability is controlled via the _**-AllowFileArchive**_ property flag of the _**Set-SPOSite**_ cmdlet. This flag was introduced into SPO admin PowerShell starting in version 16.0.26211.12000. By default, this property is set to True, meaning that the site can archive files. When set to False, no new files can be archived by users on this site, but existing archived files can be reactivated.
 
 ```PowerShell
 Set-SPOSite -Identity <site_url> -AllowFileArchive $true 
 ```
 
 
-3. **Defaults for new sites**. To control the value of the _**-AllowFileArchive**_ flag for sites created in the future, tenants can utilize a new flag on the _**Set-SPOTenant**_ cmdlet called _**-AllowFileArchiveForNewSitesByDefault**_ .  By default, this property is set to True, meaning that new sites will be able to archive files by default. This property’s value will be copied to future created sites, dictating whether those sites allow file archive.
+1. **Defaults for new sites**. To control the value of the _**-AllowFileArchive**_ flag for sites created in the future, tenants can utilize a new flag on the _**Set-SPOTenant**_ cmdlet called _**-AllowFileArchiveForNewSitesByDefault**_ .  By default, this property is set to True, meaning that new sites will be able to archive files by default. This property’s value will be copied to future created sites' ***-AllowFileArchive*** property flag, dictating whether those sites allow file archive.
 
 ```PowerShell
 Set-SPOTenant -AllowFileArchiveForNewSitesByDefault $true 
 ```
 
-Admins can also utilize PowerShell to view usage of file-level archive.  [SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator) can see how much total storage is consumed by file-level archiving for a given site.  The '*ArchivedFileDiskUsed*' property of Get-SPOSite indicates the storage consumed by all archived files on that site in bytes. 
+Admins can also utilize PowerShell to view usage of file-level archive.  [SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator) can see how much total storage is consumed by file-level archiving for a given site.  The '*ArchivedFileDiskUsed*' property of the ***Get-SPOSite*** cmdlet indicates the storage consumed by all archived files on that site in bytes. 
 
 ```PowerShell
 Get-SPOSite -Identity <site_url>
