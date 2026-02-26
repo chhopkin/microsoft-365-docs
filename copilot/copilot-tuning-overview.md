@@ -82,6 +82,40 @@ Optimization agents assist with business optimization problems such as resource 
 
 For more information, see [Optimization agent](/copilot/microsoft-365/copilot-tuning-optimization-agent).
 
+## Agent tuning
+
+Agent tuning enables you to refine agents created from tunable templates in Microsoft 365 Copilot Agent Builder. Each tunable template is designed for a specific task and includes a predefined inference workflow that specifies the foundation model, instructions, grounding approach, tool usage, and output generation. This workflow provides an optimized default configuration- a ready-to-use "recipe" that helps agents retrieve relevant context, apply tools effectively, and produce high-quality outputs from the start.
+
+In many scenarios, agents created from these templates meet quality expectations without more customization. When further refinement is required- such as aligning outputs more closely with organizational standards, domain-specific needs, or user expectations- agent tuning provides structured ways to improve behavior and performance.
+
+Tunable templates are available to Copilot-licensed users in eligible tenants and are created in Agent Builder. When you create an agent from a tunable template, users can customize supported properties such as the agent name, instructions, and prompts. Access to tuning capabilities depends on tenant administrator configuration. If tuning options aren't available, users might need to request access from an administrator. Eligible users would be able to view "tune agent" option after creating an agent from a tunable template.
+
+:::image type="content" source="media/copilot-tuning-overview/agent-builder.jpg" alt-text="Screenshot of the Agent Builder interface showing the tune agent option after creating an agent from a tunable template." lightbox="media/copilot-tuning-overview/agent-builder.jpg":::
+
+:::image type="content" source="media/copilot-tuning-overview/tuning-options.jpg" alt-text="Screenshot of the tuning options interface displaying available tuning dimensions for the agent." lightbox="media/copilot-tuning-overview/tuning-options.jpg":::
+
+Three types of tuning are supported: tuning context, tuning tools, and tuning model. These dimensions are designed to work together and are evaluated using consistent user-goal driven rubric to ensure tuning leads to measurable improvements.
+
+### Tune Context
+
+**Context tuning** defines the agent's goals and success criteria by specifying the primary task, domain, and representative examples. Context requirements vary by template. For example, document writing templates use examples of the types of documents the agent should produce, document summary templates require inputs such as purpose, audience, length, tone, and focus areas, and expert answers templates rely on sample files to generate evaluation questions and answers. Based on this input, the system proposes subgoals and evaluation rubrics, which establish a measurable baseline for assessing agent performance.
+
+:::image type="content" source="media/copilot-tuning-overview/success-criteria.png" alt-text="Screenshot of the context tuning interface showing goal definition and success criteria configuration." lightbox="media/copilot-tuning-overview/success-criteria.png":::
+
+### Tune Tool
+
+**Tool tuning** extends agent capabilities by integrating additional agents or tools into the workflow. These tools can be used to perform tasks such as research, validation, or writing style alignment. Custom orchestration instructions define how tools are applied, and agent performance is re-evaluated against the established rubrics after changes are made.
+
+:::image type="content" source="media/copilot-tuning-overview/tool-orchestration-options.jpg" alt-text="Screenshot of the tool tuning interface displaying available tools and orchestration configuration options." lightbox="media/copilot-tuning-overview/tool-orchestration-options.jpg":::
+
+### Tune Model
+
+**Model tuning** focuses on improving reasoning and output quality through supervised fine-tuning and reinforcement learning techniques. High-quality examples from organizational data are used as training input, with evaluation rubrics guiding alignment to organizational expectations. During this process, access controls, file permissions, and sensitivity labels can be applied. Model tuning runs asynchronously, allowing users to continue using the existing agent while tuning is in progress. When tuning completes, evaluation results determine whether the updated model is ready to be published.
+
+Agent tuning is an iterative process rather than a one-time configuration. Organizations are encouraged to monitor real-world usage, gather feedback, and refine context, tools, data, or rules as requirements evolve over time. This ongoing lifecycle helps ensure agents remain accurate, relevant, and aligned with changing needs.
+
+:::image type="content" source="media/copilot-tuning-overview/training-data.jpg" alt-text="Screenshot of the model tuning interface showing training data selection and fine-tuning progress." lightbox="media/copilot-tuning-overview/training-data.jpg":::
+
 ## Using tuned agents
 
 After creation or tuning, agents can be shared with eligible users across the organization. Users interact with tuned agents through supported Microsoft 365 Copilot experiences, such as the Microsoft 365 Copilot app or Copilot Chat in Microsoft Teams.
@@ -93,7 +127,7 @@ Tuned agents provide the following benefits:
 - Consistent outputs aligned with internal standards
 - Broader access to organizational knowledge across teams
 
-## Best practices
+### Best practices
 
 Apply the following best practices to make the best use of tuned agents:
 
@@ -103,40 +137,6 @@ Apply the following best practices to make the best use of tuned agents:
 - Refine outputs through multi-turn interactions.
 - Follow organizational security and compliance policies.
 - Encourage user feedback to improve agent quality over time.
-
-## Agent tuning
-
-Agent tuning enables you to refine agents created from tunable templates in Microsoft 365 Copilot Agent Builder. Each tunable template is designed for a specific task and includes a predefined inference workflow that specifies the foundation model, instructions, grounding approach, tool usage, and output generation. This workflow provides an optimized default configuration- a ready-to-use "recipe" that helps agents retrieve relevant context, apply tools effectively, and produce high-quality outputs from the start.
-
-In many scenarios, agents created from these templates meet quality expectations without more customization. When further refinement is required- such as aligning outputs more closely with organizational standards, domain-specific needs, or user expectations- agent tuning provides structured ways to improve behavior and performance.
-
-Tunable templates are available to Copilot-licensed users in eligible tenants and are created in Agent Builder. When you create an agent from a tunable template, users can customize supported properties such as the agent name, instructions, and prompts. Access to tuning capabilities depends on tenant administrator configuration. If tuning options aren't available, users might need to request access from an administrator. Eligible users would be able to view "tune agent" option after creating an agent from a tunable template.
-
-:::image type="content" source="media/copilot-tuning-overview/agent-builder.jpg" alt-text="Screenshot of the Agent Builder interface showing the tune agent option after creating an agent from a tunable template.":::
-
-:::image type="content" source="media/copilot-tuning-overview/tuning-options.jpg" alt-text="Screenshot of the tuning options interface displaying available tuning dimensions for the agent.":::
-
-Three types of tuning are supported: tuning context, tuning tools, and tuning model. These dimensions are designed to work together and are evaluated using consistent user-goal driven rubric to ensure tuning leads to measurable improvements.
-
-### Tune Context
-
-**Context tuning** defines the agent's goals and success criteria by specifying the primary task, domain, and representative examples. Context requirements vary by template. For example, document writing templates use examples of the types of documents the agent should produce, document summary templates require inputs such as purpose, audience, length, tone, and focus areas, and expert answers templates rely on sample files to generate evaluation questions and answers. Based on this input, the system proposes subgoals and evaluation rubrics, which establish a measurable baseline for assessing agent performance.
-
-:::image type="content" source="media/copilot-tuning-overview/success-criteria.png" alt-text="Screenshot of the context tuning interface showing goal definition and success criteria configuration.":::
-
-### Tune Tool
-
-**Tool tuning** extends agent capabilities by integrating additional agents or tools into the workflow. These tools can be used to perform tasks such as research, validation, or writing style alignment. Custom orchestration instructions define how tools are applied, and agent performance is re-evaluated against the established rubrics after changes are made.
-
-:::image type="content" source="media/copilot-tuning-overview/tool-orchestration-options.jpg" alt-text="Screenshot of the tool tuning interface displaying available tools and orchestration configuration options.":::
-
-### Tune Model
-
-**Model tuning** focuses on improving reasoning and output quality through supervised fine-tuning and reinforcement learning techniques. High-quality examples from organizational data are used as training input, with evaluation rubrics guiding alignment to organizational expectations. During this process, access controls, file permissions, and sensitivity labels can be applied. Model tuning runs asynchronously, allowing users to continue using the existing agent while tuning is in progress. When tuning completes, evaluation results determine whether the updated model is ready to be published.
-
-Agent tuning is an iterative process rather than a one-time configuration. Organizations are encouraged to monitor real-world usage, gather feedback, and refine context, tools, data, or rules as requirements evolve over time. This ongoing lifecycle helps ensure agents remain accurate, relevant, and aligned with changing needs.
-
-:::image type="content" source="media/copilot-tuning-overview/training-data.jpg" alt-text="Screenshot of the model tuning interface showing training data selection and fine-tuning progress.":::
 
 ## Related content
 
