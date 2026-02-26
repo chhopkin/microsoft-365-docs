@@ -1,5 +1,5 @@
 ---
-title: "Additional network security requirements for Office 365 Government Community Cloud (GCC) High and DoD"
+title: "Additional network security requirements for Microsoft 365 Government Community Cloud (GCC) High and DoD"
 ms.author: dzazzo
 author: dzazzo-msft
 manager: dzazzo
@@ -18,15 +18,15 @@ search.appverid:
 - OGD150
 - MOE150
 ms.assetid: 
-description: "Summary: Office 365 GCC High and DoD have extra network security requirements."
+description: "Summary: Microsoft 365 GCC High and DoD have extra network security requirements."
 hideEdit: true
 ---
 
-# Additional network security requirements for Office 365 GCC High and DOD
+# Additional network security requirements for Microsoft 365 GCC High and DOD
 
 *This article applies to Office 365 GCC High, Office 365 DOD, Microsoft 365 GCC High, and Microsoft 365 DOD.*
 
-Office 365 GCC High and DOD are secure cloud environments to meet the needs of the United States Government and its suppliers and contractors. These cloud environments have extra network restrictions on which external endpoints the services are permitted to access.
+Microsoft 365 GCC High and DOD are secure cloud environments to meet the needs of the United States Government and its suppliers and contractors. These cloud environments have extra network restrictions on which external endpoints the services are permitted to access.
 
 GCC High and DOD customers planning to use federated identities or hybrid coexistence might require Microsoft to permit inbound and/or outbound access to your existing on-premises deployments. Examples of these activities include:
 
@@ -34,12 +34,12 @@ GCC High and DOD customers planning to use federated identities or hybrid coexis
 - Hybrid coexistence with an on-premises Exchange Server or Skype for Business deployment
 - Migration of existing user content from an on-premises system
 
-To permit the service to communicate with your on-premises endpoints, you **must** send an email to Office 365 engineering for network changes.
+To permit the service to communicate with your on-premises endpoints, you **must** send an email to Microsoft 365 engineering for network changes.
 
 > [!WARNING]
 > All requests have a **three-week** SLA and can't be expedited due to the required security and compliance controls and deployment pipelines. This SLA includes initial onboarding network requests and any changes after you have migrated to the service. Make sure that your network teams are aware of this timeline and include it in their planning cycles.
 
-Send an email to [Office 365 Government allowlist requests](mailto:o365gwlt@microsoft.com) with the following information:
+Send an email to [Microsoft 365 Government allowlist requests](mailto:o365gwlt@microsoft.com) with the following information:
 
 - **To**: [Office 365 Government allowlist requests](mailto:o365gwlt@microsoft.com)
 - **From**: A tenant administrator - the sent email **must** match a Global Administrator contact in your tenant
@@ -63,7 +63,7 @@ For security and compliance reasons, keep in mind the following restrictions on 
 - There's a four subnet limitation per tenant
 - Subnets must be in CIDR Notation (for example, 10.1.1.0/28)
 - Subnet ranges can't be larger than /24
-- We **cannot** accommodate requests to allow access to commercial cloud services (commercial Office 365, Google G-Suite, Amazon Web Services, etc.)
+- We **cannot** accommodate requests to allow access to commercial cloud services (commercial Microsoft 365, Google G-Suite, Amazon Web Services, etc.)
 
 Once Microsoft receives and approves your request, there's a three-week service-level agreement (SLA) for implementation and can't be expedited. You receive an initial acknowledgment when we receive your request and a final acknowledgment once it's complete.
 

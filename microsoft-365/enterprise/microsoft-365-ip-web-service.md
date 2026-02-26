@@ -182,16 +182,16 @@ If you call the endpoints web method too many times from the same client IP addr
 
 The result from the endpoints web method is an array of records in which each record represents a specific endpoint set. The elements for each record are:
 
-- id—The immutable ID number of the endpoint set.
-- serviceArea—The service area that this is part of: `Common`, `Exchange`, `SharePoint`, or `Skype`.
-- urls—URLs for the endpoint set. A JSON array of DNS records. Omitted if blank.
-- tcpPorts—TCP ports for the endpoint set. All ports elements are formatted as a comma-separated list of ports or port ranges separated by a dash character (-). Ports apply to all IP addresses and all URLs in the endpoint set for a given category. Omitted if blank.
-- udpPorts—UDP ports for the IP address ranges in this endpoint set. Omitted if blank.
-- ips —The IP address ranges associated with this endpoint set as associated with the listed TCP or UDP ports. A JSON array of IP address ranges. Omitted if blank.
-- category—The connectivity category for the endpoint set. Valid values are `Optimize`, `Allow`, and `Default`. If you search the endpoints web method output for the category of a specific IP address or URL, it's possible that your query will return multiple categories. In such a case, follow the recommendation for the highest priority category. For example, if the endpoint appears in both `Optimize` and `Allow`, you should follow the requirements for `Optimize`. Required.
-- expressRoute — `True` if this endpoint set is routed over ExpressRoute, `False` if not.
-- required — `True` if this endpoint set is required to have connectivity for Microsoft 365 to be supported. `False` if this endpoint set is optional.
-- notes—For optional endpoints, this text describes Microsoft 365 functionality that would be unavailable if IP addresses or URLs in this endpoint set can't be accessed at the network layer. Omitted if blank.
+- **id** —The immutable ID number of the endpoint set.
+- **serviceArea** —The service area that this is part of: `Common`, `Exchange`, `SharePoint`, or `Skype`.
+- **urls** —URLs for the endpoint set. A JSON array of DNS records. Omitted if blank.
+- **tcpPorts** —TCP ports for the endpoint set. All ports elements are formatted as a comma-separated list of ports or port ranges separated by a dash character (-). Ports apply to all IP addresses and all URLs in the endpoint set for a given category. Omitted if blank.
+- **udpPorts**—UDP ports for the IP address ranges in this endpoint set. Omitted if blank.
+- **ips** —The IP address ranges associated with this endpoint set as associated with the listed TCP or UDP ports. A JSON array of IP address ranges. Omitted if blank.
+- **category** —The connectivity category for the endpoint set. Valid values are `Optimize`, `Allow`, and `Default`. If you search the endpoints web method output for the category of a specific IP address or URL, it's possible that your query will return multiple categories. In such a case, follow the recommendation for the highest priority category. For example, if the endpoint appears in both `Optimize` and `Allow`, you should follow the requirements for `Optimize`. Required.
+- **expressRoute** — `True` if this endpoint set is routed over ExpressRoute, `False` if not.
+- **required** — `True` if this endpoint set is required to have connectivity for Microsoft 365 to be supported. `False` if this endpoint set is optional.
+- **notes**—For optional endpoints, this text describes Microsoft 365 functionality that would be unavailable if IP addresses or URLs in this endpoint set can't be accessed at the network layer. Omitted if blank.
 
 ### Endpoints web method examples
 
