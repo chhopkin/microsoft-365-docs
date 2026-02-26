@@ -221,8 +221,6 @@ items:
           href: copilot-tuning-document-summary-agent.md
       - name: FAQ
         href: copilot-tuning-faq.yml
-      - name: FAQ for Copilot Tuning
-        href: responsible-ai/copilot-tuning-responsible-ai-faq.md
     - name: Copilot Library
       items:
       - name: Overview of Copilot Library
