@@ -70,9 +70,9 @@ A high-level summary of the most critical indicators of agent adoption and impac
 - Microsoft 365 Copilot Agent Builder.
 - SharePoint.
 - Microsoft 365 Agents Toolkit.
-- Agents integrated with the Agent 365 Observability SDK.
+- Agents integrated with the [Agent 365 Observability SDK](/microsoft-agent-365/admin/monitor-agents?view=o365-worldwide).
 
-These metrics are available to customers enrolled in the Agent 365 Frontier preview program.
+These metrics are available to customers enrolled in the [Agent 365 Frontier preview program](https://adoption.microsoft.com/copilot/frontier-program/).
 
 ## Agent Analytics
 
