@@ -27,7 +27,7 @@ The file-level archive preview empowers end-users to archive files manually.  St
 
 1. **File-level archive (preview) enabled via PowerShell**. Once billing and Microsoft 365 Archive are enabled, IT admins must enable the file-level archive preview by enabling file-level archive at the tenant level.  To learn how to enable and manage the preview via PowerShell, visit [Manage](archive-manage.md).  When file-level archive graduates to general availability, it will be enabled by default when Microsoft 365 Archive is enabled.  
 
-   1. **Site enabled for file-level archive [default enabled]**. Every SharePoint site is enabled by default for file-level archive but may be disabled by IT admins.  In order for the Archive action to be available, the site must be enabled for file-level archive.  To learn how to verify and manage this site-level enablement, visit [Manage](archive-manage.md).  
+   1. **Site enabled for file-level archive [enabled by default]**. Every SharePoint site is enabled by default for file-level archive but may be disabled by IT admins.  In order for the Archive action to be available, the site must be enabled for file-level archive.  To learn how to verify and manage this site-level enablement, visit [Manage](archive-manage.md).  
       
 1. **User permissioned for archiving**. To archive a file, the user must have 'edit' permissions to the file.  
 
