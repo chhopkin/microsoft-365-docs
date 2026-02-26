@@ -61,16 +61,16 @@ A high-level summary of the most critical indicators of agent adoption and impac
 
 - **Total sessions** - The count of complete agent invocations in which the agent performed a task, answered a query, or completed an interaction during the past 30 days.
 
-- **Exception rate** - Percentage of agent sessions in the last 30 days that completed without errors, meaning the agent finished the intended task.
+- **Exception rate ** - Percentage of agent sessions in the last 30 days that completed without errors, meaning the agent finished the intended task.
 
-- **Assisted Hours** - Total agent assisted time over the past 30 days, calculated as the sum of each agent session's duration (end time minus start time).
+- **Agent Runtime** - Total agent assisted time over the past 30 days, calculated as the sum of each agent session's duration (end time minus start time).
 
-**Active users**, **Total sessions**, **Exception rate**, and agent **Assisted hours** are currently supported for the following agent types:
+**Active users**, **Total sessions**, **Exception rate**, and agent **Agent Runtime** are currently supported for the following agent types:
 
 - Microsoft 365 Copilot Agent Builder.
 - SharePoint.
 - Microsoft 365 Agents Toolkit.
-- Agents integrated with the [Agent 365 Observability SDK](/microsoft-agent-365/admin/monitor-agents?view=o365-worldwide).
+- Agents integrated with the [Agent 365 Observability SDK](/microsoft-agent-365/admin/monitor-agents).
 
 These metrics are available to customers enrolled in the [Agent 365 Frontier preview program](https://adoption.microsoft.com/copilot/frontier-program/).
 
