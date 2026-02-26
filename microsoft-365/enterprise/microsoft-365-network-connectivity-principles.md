@@ -154,7 +154,7 @@ Microsoft 365 services are a collection of dynamic, interdependent, and deeply i
   - Exclusive use of cloud.microsoft root domain  for security isolation and specific functions. This enables customer network and security teams to trust Microsoft 365 domains, while improving connectivity to those endpoints and avoiding unnecessary network security processing. 
   - Certain endpoint definitions specify unique IP prefixes corresponding to their domains. This feature supports customers with intricate network structures, enabling them to apply precise network optimizations by utilizing IP prefix details.
 
-The following network configurations are recommended for all **“Required”** Microsoft 365 network endpoints (domains) and categories:
+The following network configurations are recommended for all **Required** Microsoft 365 network endpoints (domains) and categories:
 
 - Explicitly permitting Microsoft 365 network endpoints in the network devices and services that user connections go through (e.g., network perimeter security devices like proxies, firewalls, DNS, cloud-based network security solutions, etc.)
   - Bypass Microsoft 365 domains from TLS decryption, traffic interception, deep packet inspection, and network packet and content filtering. Note that many outcomes that customers are using these network technologies for in the context of untrusted/unmanaged applications can be achieved by Microsoft 365 security features natively.
@@ -163,20 +163,20 @@ The following network configurations are recommended for all **“Required”** 
   - Prioritize Microsoft 365 connections along the network path, ensuring capacity and quality of service for Microsoft 365 experiences.
   - Bypass traffic intermediation devices such as proxies and VPN services.
 
-Customers with complex network topologies, implementing network optimizations like custom routing, IP based proxy bypass, and split tunnel VPN may require IP prefix information in addition to domains. To facilitate these customer scenarios Microsoft 365 network endpoints are grouped into categories to prioritize and ease the configuration of these additional network optimizations. Network endpoints classified under the **“Optimize”** and **“Allow”** categories carry high traffic volumes and are sensitive to network latency and performance, and customers may want to optimize connectivity to those first. Network endpoints under the **“Optimize”** and **“Allow”** categories have IP addresses listed along with domains. Network endpoints classified under the **“Default”** category do not have IP addresses associated with them as they are more dynamic in nature and IP addresses change over time.
+Customers with complex network topologies, implementing network optimizations like custom routing, IP based proxy bypass, and split tunnel VPN may require IP prefix information in addition to domains. To facilitate these customer scenarios Microsoft 365 network endpoints are grouped into categories to prioritize and ease the configuration of these additional network optimizations. Network endpoints classified under the **Optimize** and **Allow** categories carry high traffic volumes and are sensitive to network latency and performance, and customers may want to optimize connectivity to those first. Network endpoints under the **Optimize** and **Allow** categories have IP addresses listed along with domains. Network endpoints classified under the **Default** category do not have IP addresses associated with them as they are more dynamic in nature and IP addresses change over time.
 
 ### Additional network considerations
 
 When optimizing connectivity to Microsoft 365, certain network configurations may have a negative impact on Microsoft 365 availability, interoperability, performance, and user experience. Microsoft has not tested the following network scenarios with our services, and they are known to cause connectivity issues.
 
 - TLS termination or deep packet inspection of any Microsoft 365 domains with customer proxies or other types of network devices or services.
-- Blocking specific protocols or protocol versions such as QUIC, WebSocket’s, etc. by intermediate network infrastructure or service. 
+- Blocking specific protocols or protocol versions such as QUIC, WebSocket's, etc. by intermediate network infrastructure or service.
 - Forcing downgrade or failover of protocols (such as UDP --> TCP, TLS1.3 --> TLS1.2 --> TLS1.1) used between client applications and Microsoft 365 services.
 - Routing connections through network infrastructure applying its own authentication such as proxy authentication.
 
 We recommend that customers avoid using these network techniques to traffic destined to Microsoft 365 domains and bypass these for Microsoft 365 connections.
 
-Microsoft recommends setting up an automated system to download and apply the Microsoft 365 network endpoint list regularly. Refer to [Change management for Microsoft 365 IP addresses and URLs](managing-office-365-endpoints.md#change-management-for-microsoft-365-ip-addresses-and-urls) for more information. 
+Microsoft recommends setting up an automated system to download and apply the Microsoft 365 network endpoint list regularly. Refer to [Change management for Microsoft 365 IP addresses and URLs](managing-office-365-endpoints.md#change-management-for-microsoft-365-ip-addresses-and-urls) for more information.
 
 ## Comparing network perimeter security with endpoint security
 <a name="BKMK_SecurityComparison"> </a>
@@ -238,28 +238,17 @@ You can approach optimization as an incremental process, applying each method su
 |Enable direct connection for VPN users |For VPN users, enable Microsoft 365 connections to connect directly from the user's network rather than over the VPN tunnel by implementing split tunneling. | Minimize latency  <br/>  Improve reliable connectivity to the closest Microsoft 365 entry point |
 |Migrate from traditional WAN to SD-WAN |SD-WANs (Software Defined Wide Area Networks) simplify WAN management and improve performance by replacing traditional WAN routers with virtual appliances, similar to the virtualization of compute resources using virtual machines (VMs). | Improve performance and manageability of WAN traffic  <br/>  Reduce load on network devices |
 
-## Related articles
+## Related content
 
-[Microsoft 365 Network Connectivity Overview](microsoft-365-networking-overview.md)
-
-[Managing Microsoft 365 endpoints](managing-office-365-endpoints.md)
-
-[Microsoft 365 URLs and IP address ranges](urls-and-ip-address-ranges.md)
-
-[Microsoft 365 IP Address and URL Web service](microsoft-365-ip-web-service.md)
-
-[Assessing Microsoft 365 network connectivity](assessing-network-connectivity.md)
-
-[Network planning and performance tuning for Microsoft 365](network-planning-and-performance.md)
-
-[Microsoft 365 performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
-
-[Performance troubleshooting plan for Microsoft 365](performance-troubleshooting-plan.md)
-
-[Content Delivery Networks](content-delivery-networks.md)
-
-[Microsoft 365 connectivity test](https://aka.ms/netonboard)
-
-[How Microsoft builds its fast and reliable global network](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)
-
-[Microsoft 365 Networking blog](https://techcommunity.microsoft.com/category/microsoft365/discussions/deploymentnetworking)
+- [Microsoft 365 Network Connectivity Overview](microsoft-365-networking-overview.md)
+- [Managing Microsoft 365 endpoints](managing-office-365-endpoints.md)
+- [Microsoft 365 URLs and IP address ranges](urls-and-ip-address-ranges.md)
+- [Microsoft 365 IP Address and URL Web service](microsoft-365-ip-web-service.md)
+- [Assessing Microsoft 365 network connectivity](assessing-network-connectivity.md)
+- [Network planning and performance tuning for Microsoft 365](network-planning-and-performance.md)
+- [Microsoft 365 performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
+- [Performance troubleshooting plan for Microsoft 365](performance-troubleshooting-plan.md)
+- [Content Delivery Networks](content-delivery-networks.md)
+- [Microsoft 365 connectivity test](https://aka.ms/netonboard)
+- [How Microsoft builds its fast and reliable global network](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)
+- [Microsoft 365 Networking blog](https://techcommunity.microsoft.com/category/microsoft365/discussions/deploymentnetworking)
