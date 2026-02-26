@@ -61,7 +61,7 @@ A high-level summary of the most critical indicators of agent adoption and impac
 
 - **Total sessions** - The count of complete agent invocations in which the agent performed a task, answered a query, or completed an interaction during the past 30 days.
 
-- **Exception rate ** - Percentage of agent sessions in the last 30 days that completed without errors, meaning the agent finished the intended task.
+- **Exception rate** - Percentage of agent sessions in the last 30 days that completed without errors, meaning the agent finished the intended task.
 
 - **Agent Runtime** - Total agent assisted time over the past 30 days, calculated as the sum of each agent session's duration (end time minus start time).
 
