@@ -68,9 +68,9 @@ For both tenants, perform the following steps:
 
 
 ```powershell
-Expand-Archive ` -Path ".\CrossTenantMigration.nupkg" ` -DestinationPath ".\CTModule" ` -Force
+Expand-Archive -Path ".\CrossTenantMigration.nupkg" -DestinationPath ".\CTModule" -Force
 
-Import-Module ` 
+Import-Module 
 ```
 
 3. Set up the Cross-Tenant Migration Service Application on the **target tenant only**. Run `Grant-CTMSAppPermissions`
