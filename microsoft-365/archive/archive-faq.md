@@ -18,6 +18,17 @@ description: Read frequently asked questions about Microsoft 365 Archive.
 
 # Frequently asked questions about Microsoft 365 Archive
 
+#### Why can't I see the 'archive' button for file-level archive?
+
+The file-level archive preview empowers end-users to archive files manually, but has prerequisites which must be met:
+
+1. **Billing enabled and Microsoft 365 Archive enabled**.  First, admins must have enabled pay-as-you-go billing and turned on Microsoft 365 Archive. To learn about these two steps visit [Admin setup](archive-setup.md).
+
+
+1. **File-level archive (preview) enabled via PowerShell**. 
+
+There are also a few limitations, such as certain filetypes, which are not eligible for file archive.  See the full list in the Limitations section of [Overview](archive-overview.md#limitations).
+
 #### What is the difference between Microsoft 365 Archive and SharePoint Advanced Management?
 
 - Microsoft 365 Archive gives the ability to archive a site in SharePoint.
