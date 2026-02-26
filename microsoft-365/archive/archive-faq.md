@@ -33,6 +33,10 @@ The file-level archive preview empowers end-users to archive files manually.  St
 
 File-level archive is currently only available on SharePoint sites.  There are a few other limitations, such as certain filetypes, which would cause a user to not be able to archive a file.  See the full list in the Limitations section of [Overview](archive-overview.md#limitations).
 
+#### How does file-level archive (preview) impact my site-level storage?
+
+File-level archive does not change site storage usage or quota behavior. Archived files are accounted for in site storage in the same way as active files. Archiving a file does not reduce reported storage usage, alter storage calculations, or affect quota enforcement for the site. Because archived files continue to consume site storage, file-level archive cannot be used to reduce storage usage or to store additional data beyond a site’s allocated quota.
+
 #### What is the difference between Microsoft 365 Archive and SharePoint Advanced Management?
 
 - Microsoft 365 Archive gives the ability to archive a site in SharePoint.
