@@ -24,7 +24,7 @@ Monitoring the usage analytics of the Employee Self-Service agent should be part
 There are two approaches in consuming analytics:
 
 1. Service owners or makers systematically monitoring agent usage, effectiveness, quality, and satisfaction. [Learn more](/microsoft-copilot-studio/analytics-overview) about Copilot Studio analytics documentation.
-1. Organization leaders reviewing agent usage, satisfaction scores, and other metrics to assess the agent's return on investment. [Learn more](/viva/insights/org-team-insights/copilot-dashboard) about Copilot.
+1. Organization leaders review agent usage, satisfaction scores, and other metrics to assess the agent's return on investment. [Learn more](/viva/insights/org-team-insights/copilot-dashboard) about Copilot.
 
 ## Measure what matters
 
@@ -79,11 +79,11 @@ Executives should focus on **outcome-level telemetry**, not raw interaction coun
 - Sustained adoption beyond pilot phases (trust and repeat usage)	
 - Predictable scale without increasing support or incident load
 
-**What to use When**
+**What to use when**
 
 [Copilot Analytics introduction](/viva/insights/copilot-analytics-introduction#which-tool-should-i-use-when)
 
-### 2. Product / Service Owners
+### 2. Product/Service Owners
 
 **Primary question**
 
@@ -131,7 +131,7 @@ This section is designed to help you operationalize the Employee Self-Service te
 - "How do I apply for parental leave?"
 - "Can I add a dependent to my benefits?"
 
-**HR stakeholders & questions**
+**HR stakeholders and questions**
 
 |Stakeholder                |Key question                                                   |
 |---------------------------|---------------------------------------------------------------|
@@ -172,7 +172,7 @@ This section is designed to help you operationalize the Employee Self-Service te
 |---------------------|--------------------------------------------------------------------------------|
 |**IT Service Owner** |Is the Employee Self-Service agent reducing ticket volume for common IT issues? |
 |**IT Operations**    |Are failures due to configuration or platform issues?                           |
-|**Security**   |Are requests handled securely and consistently?                                 |
+|**Security**         |Are requests handled securely and consistently?                                 |
 
 **Telemetry signals to review for IT**
 - Ticket deflection indicators
@@ -276,5 +276,4 @@ The shared operating model:
 
 Evals plug into the same model by providing repeatable evidence about whether the agent can reliably deliver the intended outcomes before you expose the change to broad employee usage.
 
-
-[def]: https://learn.microsoft.com/en-us/microsoft-copilot-studio/analytics-overview
+[Learn more](/microsoft-copilot-studio/analytics-overview)
