@@ -62,13 +62,13 @@ Sites associated with Teams that include private or shared channels are only par
 
 ## Manage file-level archive (preview)
 
-For the public preview of file-level archive starting at the end of March 2026, admins have to explicitly enable file-level archiving for the tenant via PowerShell.  When file-level archive graduates from public preview to general availability, that behavior will be different. After general availability, when Microsoft 365 Archive is enabled, file-level archiving will be enabled by default for all SharePoint sites.  
+For the public preview of file-level archive starting at the end of March 2026, admins must explicitly enable file-level archiving for the tenant by using PowerShell. When file-level archive moves from public preview to general availability, this behavior changes. After general availability, file-level archiving is enabled by default for all SharePoint sites when Microsoft 365 Archive is enabled.
 
-[SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator) can choose whether to deploy file-level archiving by enabling or disabling it if desired.  Admins can choose to allow file-level archiving for all SharePoint sites, a subset of SharePoint sites, or not at all.  Admins can also choose whether new sites will be enabled for file-level archiving. When enabled for a site, end-users with edit permissions are able to archive files. 
+[SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator) can choose whether to deploy file-level archiving by enabling or disabling it. Admins can allow file-level archiving for all SharePoint sites, a subset of sites, or not at all. Admins can also choose whether new sites are enabled for file-level archiving. When file-level archiving is enabled for a site, end users with edit permissions can archive files.
 
 [!INCLUDE [global-administrator-note](../includes/global-administrator-note.md)]
 
-To control the scope of which sites can use file-level archive, admins have 3 tools at their disposal via PowerShell.
+To control which sites can use file-level archive, admins have three PowerShell tools they can utilize.
 
 1. **Tenant-level enablement**. To only utilize Site archive and not allow any user to archive files, disable file-level archive entirely for your tenant.  This capability is controlled via the _**-AllowFileArchive**_ property flag of the _**Set-SPOTenant**_ cmdlet.  This property will override the site-level property with the same name.  This flag was introduced into SPO admin PowerShell starting in version 16.0.26714.12000. By default, this property is set to True, meaning that the tenant can archive files. When set to False, no new files can be archived by users, but existing archived files can be reactivated. 
 
