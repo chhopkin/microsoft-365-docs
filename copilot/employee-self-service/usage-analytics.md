@@ -83,7 +83,7 @@ Executives should focus on **outcome-level telemetry**, not raw interaction coun
 
 [Copilot Analytics introduction](/viva/insights/copilot-analytics-introduction#which-tool-should-i-use-when)
 
-### 1. Product / Service Owners
+### 2. Product / Service Owners
 
 **Primary question**
 
@@ -113,6 +113,12 @@ Product/service stakeholders focused on each business domain/verticals such as H
 - Reduce deployment and adoption friction detected in telemetry
 - Prevent regressions such as prompts, knowledge, or integrations change
 - Focus investment on highest-impact scenarios, not vanity metrics
+
+**What to use When**
+
+[Copilot Analytics introduction](/viva/insights/copilot-analytics-introduction#which-tool-should-i-use-when)
+
+[Copilot Studio - Analytics](/microsoft-copilot-studio/analytics-overview)
 
 #### Interpreting Telemetry by verticals
 This section is designed to help you operationalize the Employee Self-Service telemetry across your organization by anchoring analytics to real scenarios, clear stakeholder questions, and concrete actions.
@@ -220,7 +226,7 @@ This section is designed to help you operationalize the Employee Self-Service te
 - Use telemetry to justify integration investments
 - Track sentiment trends as a proxy for workplace trust
 
-### IT Administrators & Makers ###
+### 3. IT Administrators & Makers ###
 **Primary question**
 
 *Is the Employee Self-Service agent configured correctly, stable, and ready to scale?*
@@ -244,6 +250,12 @@ Administrators and Makers should interpret telemetry as **health and readiness i
 - Validates environments before promoting to production
 - Coordinate changes using ALM and readiness checks
 
+**What to use When**
+
+[Copilot Studio - Analytics](/microsoft-copilot-studio/analytics-overview)
+
+[Capture telemetry with Application Insights](/microsoft-copilot-studio/advanced-bot-framework-composer-capture-telemetry)
+
 ## Employee Self-Service analytics and evaluations: A unified playbook to accelerate time-to-value (TTV)
 
 ### Why combine telemetry and evaluations?
@@ -263,3 +275,6 @@ The shared operating model:
 **'Intent ➡️ Behavior ➡️ Outcome ➡️ Action'**
 
 Evals plug into the same model by providing repeatable evidence about whether the agent can reliably deliver the intended outcomes before you expose the change to broad employee usage.
+
+
+[def]: https://learn.microsoft.com/en-us/microsoft-copilot-studio/analytics-overview
