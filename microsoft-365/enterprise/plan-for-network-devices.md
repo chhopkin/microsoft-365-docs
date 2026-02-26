@@ -58,7 +58,6 @@ We provide a software-based NLB solution built into Windows Server. Microsoft 36
 
 For more details on configuring firewalls and proxies to connect to Microsoft 365, see [Managing Microsoft 365 endpoints](/microsoft-365/enterprise/managing-office-365-endpoints) and [Assessing Microsoft 365 network connectivity](assessing-network-connectivity.md).
 
-  
 ## Related content
 
 - [Setup guides for Microsoft 365 services](setup-guides-for-microsoft-365.md)
