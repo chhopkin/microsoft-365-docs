@@ -302,7 +302,7 @@ Refer to [Data Residency - Viva Engage | Microsoft Learn](/viva/engage/manage-se
 | PL | Poland | EUR<sup>1</sup>| EUR<sup>1</sup>| EUR<sup>1</sup>|
 | PT | Portugal | EUR<sup>1</sup>| EUR<sup>1</sup>| EUR<sup>1</sup>|
 | PR | Puerto Rico | AMER<sup>3</sup>| AMER<sup>3</sup>| AMER<sup>3</sup>|
-| QA | Qator | EUR<sup>1</sup>| EUR<sup>1</sup>| EUR<sup>1</sup>|
+| QA | Qatar | EUR<sup>1</sup>| EUR<sup>1</sup>| EUR<sup>1</sup>|
 | MK | Republic of North Macedonia | EUR<sup>1</sup>| EUR<sup>1</sup>| EUR<sup>1</sup>|
 | RE | Réunion | EUR<sup>1</sup>| EUR<sup>1</sup>| EUR<sup>1</sup>|
 | RO | Romania | EUR<sup>1</sup>| EUR<sup>1</sup>| EUR<sup>1</sup>|
