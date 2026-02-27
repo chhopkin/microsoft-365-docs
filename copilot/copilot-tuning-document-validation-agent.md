@@ -330,36 +330,34 @@ You can save a tuned Document Validation agent as a specialized agent and share 
 
 ## FAQ
 
-**Can I validate multiple documents at once?**
+### Can I validate multiple documents at once?
 
-No. You must validate each document in a separate prompt.
+You can't validate multiple documents at once. You must validate each document in a separate prompt.
 
-**Can I update rules after tuning?**
+### Can I update rules after tuning?
 
 You can update context-tuned agents. You can't modify model-tuned agents after fine-tuning.
 
-**Does the agent support numeric validations?**
+### Does the agent support numeric validations?
 
-Yes, when rules include numeric thresholds.
+The Document Validation agent supports numeric validations when rules include numeric thresholds.
 
-**What happens if my rulebook is large?**
+### What happens if my rulebook is large?
 
 Large rulebooks might increase latency during rule extraction and validation.
 
-**When should I use Tune Context vs Tune Model?**
+### When should I use Tune Context vs. Tune Model?
 
-- **Tune Context:**  
-  Use when you want persistent rules and tone preferences without full model training. It's ideal for quick setup and reuse across sessions and users.
+- Use **Tune Context** when you want persistent rules and tone preferences without full model training. It's ideal for quick setup and reuse across sessions and users.
 
-- **Tune Model:**  
-  Use when you need **high precision and recall** for rules especially in regulatory, compliance scenarios and have **50+ examples** for training.
+- Use **Tune Model** when you need **high precision and recall** for rules, especially in regulatory and compliance scenarios, and you have **50+ examples** for training.
 
-**What file formats are supported?**
+### What file formats are supported?
 
 - **Supported:** .docx, .txt, .html.
 - **Not Supported:** .pptx, images, scanned documents.
 
-**What if my agent outputs seem inaccurate?**
+### What if my agent outputs seem inaccurate?
 
 Verify that:
 
@@ -369,9 +367,9 @@ Verify that:
 
 For tuned agents, review evaluation metrics. For a fine-tuned agent, ensure you provide high-quality example documents for training. To achieve the best performance, follow the best practices outlined for Tune Context and Tune Model.
 
-**Is my data secure?**
+### Is my data secure?
 
-Yes. All data remains within your Microsoft 365 tenant. Tuning is fully automated and done in turnkey environments.
+All data remains within your Microsoft 365 tenant and is secure. Tuning is fully automated and done in turnkey environments.
 
 ## Related content
 
