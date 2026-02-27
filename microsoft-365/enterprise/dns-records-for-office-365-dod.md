@@ -1,5 +1,5 @@
 ---
-title: "DNS records for Microsoft 365 DoD"
+title: "DNS records for Office 365 DoD"
 ms.author: dzazzo
 author: dzazzo-msft
 manager: dzazzo
@@ -21,15 +21,15 @@ search.appverid:
 - OGD150
 - MOE150
 ms.assetid: 
-description: "Summary: DNS records for Microsoft 365 DoD"
+description: "Summary: DNS records for Office 365 DoD"
 hideEdit: true
 ---
 
-# DNS records for Microsoft 365 DoD
+# DNS records for Office 365 DoD
 
 *This article applies to Office 365 GCC High and Microsoft 365 DoD*
 
-As part of onboarding to Microsoft 365 DoD, you need to add your SMTP and SIP domains to your Online Services tenant. You do this using the New-MsolDomain cmdlet in Azure AD PowerShell or use the [Azure Government Portal](https://portal.azure.us) to start the process of adding the domain and proving ownership.
+As part of onboarding to Office 365 DoD, you need to add your SMTP and SIP domains to your Online Services tenant. You do this using the New-MsolDomain cmdlet in Azure AD PowerShell or use the [Azure Government Portal](https://portal.azure.us) to start the process of adding the domain and proving ownership.
 
 Once you have your domains added to your tenant and validated, use the following guidance to add the appropriate DNS records for the services. You might need to modify the below table to fit your organization's needs with respect to the inbound MX records and any existing Exchange Autodiscover records you have in place. We strongly recommend coordinating these DNS records with your messaging team to avoid any outages or mis-delivery of email.
 [!INCLUDE [Azure AD PowerShell deprecation note](~/../microsoft-365/reusable-content/msgraph-powershell/includes/aad-powershell-deprecation-note.md)]

@@ -64,7 +64,7 @@ Email in Microsoft 365 requires several different records. The three primary rec
 - **The Autodiscover record** allows client computers to automatically find Exchange and configure the client properly.
 
 - **The MX record** tells other mail systems where to send email for your domain. **Note:** When you change your email to Microsoft 365, by updating your domain's MX record, ALL email sent to that domain starts coming to Microsoft 365.
-Do you just want to switch a few email addresses to Microsoft 365? You can [Pilot Microsoft 365 with a few email addresses on your custom domain](../admin/misc/pilot-microsoft-365-from-my-custom-domain).
+Do you just want to switch a few email addresses to Microsoft 365? You can [Pilot Microsoft 365 with a few email addresses on your custom domain](../admin/misc/pilot-microsoft-365-from-my-custom-domain.md).
 
 - **The TXT record for SPF** is used by recipient email systems to validate that the server sending your email is one that you approve. This helps prevent problems like email spoofing and phishing. See the [External DNS records required for SPF](external-domain-name-system-records.md#BKMK_SPFrecords) in this article to help you understand what to include in your record.
 
