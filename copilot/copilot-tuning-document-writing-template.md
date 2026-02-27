@@ -14,7 +14,7 @@ description: Learn how to use Copilot Tuning to build an AI model for document w
 
 # Copilot Tuning Document Writing agent template
 
-The **Document Writing** tunable agent template helps you generate long-form documents that align with your organization's style, structure, and workflows. By combining reference examples, content inputs, and optional tuning, the agent can draft documents that reflect how your team writes and works.
+The **Document Writing** agent template helps you generate long-form documents that align with your organization's style, structure, and workflows. By combining reference examples, content inputs, and optional tuning, the agent can draft documents that reflect how your team writes and works.
 
 The template supports scenarios such as technical documentation, legal documents, reports, and other structured content.
 
