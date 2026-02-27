@@ -88,7 +88,7 @@ Over time, a particular service may deploy their software to additional _Geograp
 You can use the _Data Location Card_ via the Microsoft 365 admin center to understand where your data for a given service is stored. As a Global Tenant Admin, you can find the actual data location by navigating to **Admin > Settings > Org settings > Organization profile > Data location**. Currently, data location details are available for Exchange Online, SharePoint, OneDrive, Microsoft Teams, Microsoft 365 Copilot, [the built-in security features for all cloud mailboxes (formerly Exchange Online Protection (EOP))](/defender-office-365/eop-about), and Viva Connections. Additional data location details can be found on the [Data Maps page](o365-data-locations.md).
 
 > [!NOTE]
-> [Microsoft Defender for Office P1](m365-dr-service-mdo-p1.md), [Microsoft Purview (select services)](m365-dr-service-purview.md), and [Microsoft 365 Copilot Chat](m365-dr-service-copilot-chat.md) are covered by [Durable Commitments on Data Location](m365-dr-overview.md#durable-commitments-on-data-location) but not currently displayed in the _Data Location Card_. Refer to [Where your Microsoft 365 customer data is stored](o365-data-locations.md) for more information.
+> [Microsoft Defender for Office P1](m365-dr-service-mdo-p1.md), [Microsoft Purview (select services)](m365-dr-service-purview.md), and [Microsoft 365 Copilot Chat](m365-dr-service-copilot.md) are covered by [Durable Commitments on Data Location](m365-dr-overview.md#durable-commitments-on-data-location) but not currently displayed in the _Data Location Card_. Refer to [Where your Microsoft 365 customer data is stored](o365-data-locations.md) for more information.
 
 Some examples:
 
