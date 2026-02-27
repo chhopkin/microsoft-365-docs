@@ -1,10 +1,10 @@
 ---
-title: Copilot Tuning Style Editing agent
-description: Learn how to use and tune the Style Editing agent in Microsoft 365 Copilot to rewrite content so it aligns with your organization’s brand tone, voice, and writing standards.
+title: Copilot Tuning Style Editing agent template
+description: Learn how to use and tune the Style Editing agent template in Microsoft 365 Copilot to rewrite content so it aligns with your organization’s brand tone, voice, and writing standards.
 author: david-salas
 ms.author: dsalasbarran
 manager: calvind
-ms.date: 02/19/2026
+ms.date: 02/24/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: overview
@@ -15,7 +15,7 @@ ms.collection:
 - magic-ai-copilot
 ---
 
-# Copilot Tuning Style Editing agent
+# Copilot Tuning Style Editing agent template
 
 The **Style Editing Tunable agent** helps organizations standardize how content is rewritten so it consistently reflects their brand tone, voice, and writing standards. By using Copilot Tuning, you can configure the agent to apply style rules automatically while preserving the original meaning and intent of the content.
 
@@ -24,9 +24,9 @@ This agent is designed for teams that produce large volumes of written content a
 > [!IMPORTANT]
 > Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
 
-## What the Style Editing agent does
+## What the Style Editing agent template does
 
-The Style Editing agent can:
+The Style Editing agent template can:
 
 - Rewrite drafts to align with a defined tone, voice, and writing style
 - Preserve meaning and intent while improving clarity and consistency
@@ -41,18 +41,18 @@ The tuned agent persists your organization's style guide and examples in the age
 
 ## Use the agent before tuning
 
-Before tuning, test the Style Editing agent by using the default template.
+Before tuning, test the Style Editing agent template by using the default template.
 
 To get started, provide either a text excerpt, or a document link, along with a rewrite instruction, such as *rewrite*.
 
 The following are example prompts:
 
-- Rewrite IdeaCoachAgentDocumentation.docx.
-- Rewrite "We took a quick look at the document and a few sections feel wordy…".
+- Rewrite IdeaCoachAgentDocumentation.docx using the BrandStyleGuide.docx file for style rules.
+- Rewrite "We took a quick look at the document and a few sections feel wordy…" using the tone in BrandVoice.docx.
 
 ## Training approach
 
-Tune the Style Editing agent by using **high-quality positive examples** that represent your organization’s brand voice and tone. A combination of a definitive style guide and strong writing samples is sufficient to begin tuning.
+Tune the Style Editing agent template by using **high-quality positive examples** that represent your organization’s brand voice and tone. A combination of a definitive style guide and strong writing samples is sufficient to begin tuning.
 
 Before tuning, prepare the following items:
 
@@ -117,6 +117,39 @@ The system generates clarifying questions that reflect how the agent interprets 
 Metrics define how the system evaluates output quality.
 
 During evaluation, the system generates a benchmark by using sample inputs.
+
+## Finish context tuning
+
+Upload your style guide and generate rules. You can review, add, edit, or delete the rules and subrules extracted from the style guide you provide. After you complete this stage, you don't need to provide a style guide in every agent prompt or conversation. The system starts evaluations and concludes the context tuning after this step.
+
+You can then proceed to tool tuning or model tuning.
+
+## Model tuning data
+
+To tune the model, prepare a folder containing **at least 20 example output files** that represent ideal results.
+
+- The system doesn't support individual file selection.
+- You must select a folder.
+- Supported file types include: .txt, .pdf, .docx, .md, .html, .htm, and .csv.
+- Using larger datasets (hundreds or thousands of files) typically results in higher-quality improvements compared to out-of-box agents.
+
+### Tune model
+
+Model tuning lets you select training data, configure access, and start fine-tuning.
+
+1. **Provide preferred outputs:** Select a folder containing at least 20 ideal output examples.
+1. **Review access:** Choose one or more Microsoft Entra security groups or restrict access to yourself.
+1. **Start fine-tuning:** Select **Start fine-tuning** in the interface. The system doesn't currently support automatic start.
+1. **Deployment:** After tuning completes, you receive an email to review results and publish the model.
+
+## Use your tuned agent 
+
+You can use the agent after completing any stage: context tuning or model tuning.
+
+Inference prompts don't need a style guide to be uploaded every time after either context tuning or model tuning.
+
+> [!NOTE]
+> Tuned agents don't currently support follow-up prompts. While this capability is under development, ignore follow-up suggestions.
 
 ## Related content
 
