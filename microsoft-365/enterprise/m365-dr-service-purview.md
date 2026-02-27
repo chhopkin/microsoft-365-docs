@@ -9,7 +9,7 @@ ms.subservice: advanced-data-residency
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.date: 10/23/2025
+ms.date: 05/09/2025
 ms.reviewer: jugiammo
 ms.custom:
 - it-pro
@@ -51,7 +51,7 @@ We are in the process of updating the data location for eligible Purview service
 | Data Security |Information Protection (MIP) |See [Information Protection (MIP)](m365-dr-commitments.md#information-protection-mip) for specific commitments.|
 
 > [!NOTE]
-> The Microsoft Purview services list mentioned above includes all services covered as part of the _Advanced Data Residency_ commitment as of October 2025. Additional Microsoft Purview services are not currently supported.
+> The Microsoft Purview services list includes all services covered as part of the _Advanced Data Residency_ commitment as of February 2026. Additional Microsoft Purview services aren't currently supported.
 
 ### Risk & Compliance - Audit (Standard)
 

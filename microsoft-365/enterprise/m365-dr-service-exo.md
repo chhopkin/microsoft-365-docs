@@ -9,12 +9,12 @@ ms.subservice: advanced-data-residency
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.date: 12/10/2024
+ms.date: 05/09/2025
 ms.reviewer: jugiammo
 ms.custom:
- - it-pro
- - has-azure-ad-ps-ref
- - azure-ad-ref-level-one-done
+- it-pro
+- has-azure-ad-ps-ref
+- azure-ad-ref-level-one-done
 ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
@@ -88,7 +88,7 @@ Exchange Online synchronizes the PreferredDataLocation property from Microsoft E
 ### Feature limitations for Multi-Geo in Exchange Online
 
 - Security and compliance features (for example, auditing and eDiscovery) that are available in the Exchange admin center (EAC) aren't available in Multi-Geo organizations. Instead, you need to use Microsoft Defender and Microsoft Purview to configure security and compliance features.
-- Outlook for Mac users might experience a temporary loss of access to their Online Archive folder while you move their mailbox to a new _Geography_ location. This condition occurs when the user's the primary and archive mailboxes are in different _Geography_ locations, because cross-geo mailbox moves might complete at different times.
+- Outlook for Mac users might experience a temporary loss of access to their Online Archive folder while you move their mailbox to a new _Geography_ location. This condition occurs when the user's primary and archive mailboxes are in different _Geography_ locations, because cross-geo mailbox moves might complete at different times.
 - Users can't share mailbox folders across _Geography_ locations in Outlook on the web (formerly known as Outlook Web App or OWA). For example, a user in the European Union can't use Outlook on the web to open a shared folder in a mailbox located in the United States. However, Outlook on the Web users can open other mailboxes in different _Geography_ locations by using a separate browser window as described in Open another person's mailbox in a separate browser window in Outlook Web App.
 
  > [!NOTE]
@@ -180,7 +180,7 @@ MailboxRegionLastUpdateTime : 2/6/2018 8:21:01 PM
 ```
  
  > [!NOTE]
- >If the _Geography_ location code in the database name doesn't match **MailboxRegion** value, the mailbox will be automatically be put into a relocation queue and moved to the _Geography_ location specified by the **MailboxRegion** value (Exchange Online looks for a mismatch between these property values).
+ >If the _Geography_ location code in the database name doesn't match **MailboxRegion** value, the mailbox will be automatically put into a relocation queue and moved to the _Geography_ location specified by the **MailboxRegion** value (Exchange Online looks for a mismatch between these property values).
 
 #### Move an existing cloud-only mailbox to a specific geo location
 
