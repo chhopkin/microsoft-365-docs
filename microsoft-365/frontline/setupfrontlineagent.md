@@ -57,38 +57,42 @@ The agent is discoverable from the Microsoft 365 Copilot app store for all users
 
 1. Go to **Teams Admin center** > **Frontline management** > **Manage frontline teams** and then select **Agents**.
 
-    :::image type="content" alt-text="Screenshot indicates Agents page." source="media/setupfrontlineagent/managefrontlineteamsagents.png" lightbox="media/setupfrontlineagent/managefrontlineteamsagents.png":::
+   :::image type="content" alt-text="Screenshot indicates Agents page." source="media/setupfrontlineagent/managefrontlineteamsagents.png" lightbox="media/setupfrontlineagent/managefrontlineteamsagents.png":::
+   
+![tac2](media/setupfrontlineagent/tac2.png)
 
-2. Click **Frontline Agent**. To limit the agent to specific SharePoint sites, paste in each Home site URL. If you add 10 sites and a user only has access to two, the agent uses information from only those two sites.
+1. Click **Frontline Agent**. To limit the agent to specific SharePoint sites, paste in each Home site URL. If you add 10 sites and a user only has access to two, the agent uses information from only those two sites.
 
-    :::image type="content" alt-text="Screenshot indicates Agent Configuration Page and two SharePoint site URLs." source="media/setupfrontlineagent/2agentsharepointscoping.png" lightbox="media/setupfrontlineagent/2agentsharepointscoping.png":::
+   :::image type="content" alt-text="Screenshot indicates Agent Configuration Page and two SharePoint site URLs." source="media/setupfrontlineagent/2agentsharepointscoping.png" lightbox="media/setupfrontlineagent/2agentsharepointscoping.png":::
+   
+![tac3](media/setupfrontlineagent/tac3.png)
 
-3. Select **Manage apps** at the top or by navigating to **Teams apps** > **Manage apps**. Search for and select **Frontline Agent**. 
+2. Select **Manage users** at the top or by navigating to **Teams apps** > **Manage apps**. Search for and select **Frontline Agent**.  
 
-    :::image type="content" alt-text="Screenshot indicates Manage apps screen with Frontline Agent selected." source="media/setupfrontlineagent/3manageapps.png" lightbox="media/setupfrontlineagent/3manageapps.png":::
+![tac4](media/setupfrontlineagent/tac4.png)
 
-4. Select **Users and groups**.
+3. Select **Users and groups**.  
+   
+![tac4.5](media/setupfrontlineagent/tac4.5.png)
 
-    :::image type="content" alt-text="Screenshot indicates Users and groups screen." source="media/setupfrontlineagent/4usersandgroups.png" lightbox="media/setupfrontlineagent/4usersandgroups.png":::
+4. Select **Edit availability** and specify the set of individuals or Microsoft 365 group you want to deploy the agent to. Click **Apply**.
+ 
+![tac5](media/setupfrontlineagent/tac5.png)
 
-5. Select **Edit availability** and specify the set of individuals or Microsoft 365 group you want to deploy the agent to. Click **Apply**.
+5. Go to **Teams apps** > **Setup policies** and click **Add**.
 
-    :::image type="content" alt-text="Screenshot indicates Edit availability screen on the right pane with group Seattle Store 121 selected." source="media/setupfrontlineagent/5editagentavailability.png" lightbox="media/setupfrontlineagent/5editagentavailability.png":::
+![tac6](media/setupfrontlineagent/tac6.png)
 
-6. Go to **Teams apps** > **Setup policies** and click **Add**.
+6. Add a name for your policy. Then, click **Add apps**.
 
-    :::image type="content" alt-text="Screenshot indicates App setup policies page which has two policies and an Add button." source="media/setupfrontlineagent/6setuppolicies.png" lightbox="media/setupfrontlineagent/6setuppolicies.png":::
+![tac7](media/setupfrontlineagent/tac7.png)
 
-7. Add a name for your policy. Then, click **Add apps**.
+7. Search for Frontline Agent and click **Add**. Then, select **Save**.
 
-    :::image type="content" alt-text="Screenshot indicates a policy with the name of Frontline Agent policy and a button in the middle of the page titled Add apps." source="media/setupfrontlineagent/7addapps.png" lightbox="media/setupfrontlineagent/7addapps.png":::
+![tac8](media/setupfrontlineagent/tac8.png)
+     
+8. Then, click the checkmark to the left of the name of the policy and click **Manage users** and then **Assign users**. Add the set of individuals and click **Apply**. 
+  
+![tac9](media/setupfrontlineagent/tac9.png)
 
-8. Search for Frontline Agent and click **Add**. Then, select **Save**.
-
-    :::image type="content" alt-text="Screenshot indicates user searching for Frontline Agent in the Add installed apps right pane." source="media/setupfrontlineagent/8addinstalledapps.png" lightbox="media/setupfrontlineagent/8addinstalledapps.png":::
-
-9. Then, click the checkmark to the left of the name of the policy and click **Manage users** and then **Assign users**. Add the set of individuals and click **Apply**. 
-
-    :::image type="content" alt-text="Screenshot indicates that Frontline Agent policy is on the App setup policies page and user can click to Assign users." source="media/setupfrontlineagent/9assignpolicy.png" lightbox="media/setupfrontlineagent/9assignpolicy.png":::
-
-10. The Frontline Agent sends a welcome message from the Microsoft Teams chat rail to each user. Your users can now use the agent!
+9. The Frontline Agent sends a welcome message from the Microsoft Teams chat rail to each user. Your users can now use the agent!
