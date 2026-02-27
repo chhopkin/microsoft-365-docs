@@ -31,6 +31,9 @@ For archived sites, the billed storage is equal to the site’s current storage 
 
 To see the pricing for Microsoft 365 Archive, see [Pay-as-you-go services and pricing](/microsoft-365/documentprocessing/syntex-pay-as-you-go-services#storage-services).
 
+> [!NOTE]
+> If Microsoft 365 Archive is turned off, or if the associated archive billing subscription is unhealthy or turned off, archived content stays archived. Archived content can still be reactivated. New archive actions are blocked until Microsoft 365 Archive is turned on and billing is healthy. While Microsoft 365 Archive or billing is unavailable, archived content counts as active storage usage and counts toward standard Microsoft 365 storage consumption.
+
 ## Pricing calculator for site archive
 
 The Microsoft 365 Archive pricing calculator is a tool that helps you estimate the costs that you incur to archive your Microsoft 365 data.
