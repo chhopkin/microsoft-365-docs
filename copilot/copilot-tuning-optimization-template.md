@@ -14,7 +14,7 @@ description: Learn how to use Copilot Tuning to build an AI model for optimizati
 
 # Copilot Tuning Optimization agent template
 
-The **Optimization** agent for Microsoft 365 Copilot helps you model and solve business optimization problems that are specific to your organization. Use the agent to make optimal decisions for scenarios such as organizing teams, assigning work, or planning sales strategies.
+The **Optimization** agent template for Microsoft 365 Copilot helps you model and solve business optimization problems that are specific to your organization. Use the agent to make optimal decisions for scenarios such as organizing teams, assigning work, or planning sales strategies.
 
 Describe your optimization problem by specifying goals, constraints, and data. The Optimization agent template computes an optimal solution based on those inputs, without requiring expertise in coding or mathematical modeling.
 

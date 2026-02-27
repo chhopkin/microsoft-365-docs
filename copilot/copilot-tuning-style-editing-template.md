@@ -41,7 +41,7 @@ The tuned agent persists your organization's style guide and examples in the age
 
 ## Use the agent before tuning
 
-Before tuning, test the Style Editing agent template by using the default template.
+Before tuning, test the default Style Editing agent template.
 
 To get started, provide either a text excerpt, or a document link, along with a rewrite instruction, such as *rewrite*.
 

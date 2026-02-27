@@ -14,7 +14,7 @@ description: Learn how to use Copilot Tuning to build an AI model for expert ans
 
 # Copilot Tuning Expert Answers agent template
 
-The **Expert Answers** agent is a tunable Copilot agent designed to answer complex, domain-specific questions grounded in your organization's content. You can further tune the agent using enterprise data to improve answer quality, relevance, and consistency.
+The **Expert Answers** agent template is a tunable Microsoft 365 Copilot agent template designed to answer complex, domain-specific questions grounded in your organization's content. You can further tune the agent by using enterprise data to improve answer quality, relevance, and consistency.
 
 This article describes common scenarios, tuning options, requirements, and limitations to help you implement the Expert Answers agent template effectively.
 
@@ -31,20 +31,20 @@ Common scenarios include:
 - Enforcing specific tone or guardrails, such as for internal HR or policy agents
 - Working with datasets that contain company-specific terminology or jargon, such as internal knowledge bases
 
-A typical workflow starts with testing the non-customized agent. You can then customize the agent by using the **Expert Answers agent template** template in Agent Builder, and optionally tune the agent to further improve its responses.
+A typical workflow starts with testing the non-customized agent. You can then customize the agent by using the **Expert Answers agent template** in Agent Builder, and optionally tune the agent to further improve its responses.
 
 Final responses combine:
 
 - Declarative agent capabilities configured in Agent Builder
 - Expert Answers capabilities configured through the tuning flow
 
-In most cases, Microsoft recommends using both approaches together by adding knowledge in Agent Builder and refining behavior through agent tuning.
+In most cases, use both approaches together by adding knowledge in Agent Builder and refining behavior through agent tuning.
 
 :::image type="content" source="media/copilot-tuning-expert-answer-template/expert-answers-response-architecture-diagram.png" alt-text="Diagram showing how final responses combine declarative agent capabilities configured in Agent Builder with Expert Answers capabilities configured through the tuning flow." lightbox="media/copilot-tuning-expert-answer-template/expert-answers-response-architecture-diagram.png":::
 
 ## Tuning flow
 
-Tuning allows you to evaluate and improve agent responses. You can tune an Expert Answers agent template in three ways.
+Tuning flow helps you evaluate and improve agent responses. You can tune an Expert Answers agent template in three ways.
 
 | Tuning type | When to use |
 |------------|-------------|
@@ -54,15 +54,15 @@ Tuning allows you to evaluate and improve agent responses. You can tune an Exper
 
 ## Use the non-customized agent
 
-Before customizing the agent, you can test the default experience.
+Before customizing the agent, test the default experience.
 
-You must select a SharePoint site before asking a question. The agent answers questions using content from that site. If no site is selected, the agent searches previous messages for a referenced site.
+You must select a SharePoint site before asking a question. The agent answers questions by using content from that site. If you don't select a site, the agent searches previous messages for a referenced site.
 
 :::image type="content" source="media/copilot-tuning-expert-answer-template/expert-answers-sharepoint-site-selection.png" alt-text="Screenshot showing the SharePoint site selection interface before asking a question in the non-customized Expert Answers agent template." lightbox="media/copilot-tuning-expert-answer-template/expert-answers-sharepoint-site-selection.png":::
 
 ## Customize the agent
 
-Start by selecting the **Expert Answers agent template** template in Agent Builder. 
+Start by selecting the **Expert Answers agent template** in Agent Builder. 
 
 :::image type="content" source="media/copilot-tuning-expert-answer-template/expert-answers-template-selection.png" alt-text="Screenshot showing the Expert Answers agent template template selection in Agent Builder." lightbox="media/copilot-tuning-expert-answer-template/expert-answers-template-selection.png":::
 
@@ -84,9 +84,9 @@ After customization, the agent answers questions using the SharePoint sites you 
 
 ## Context tuning
 
-Context tuning lets you define the agent's goals, generate evaluation data, and improve how the Expert Answers search capability retrieves information.
+By using context tuning, you can set the agent's goals, create evaluation data, and enhance the Expert Answers search capability's information retrieval.
 
-You provide the following information during this step.
+Provide the following information during this step:
 
 | Information | Page | Purpose |
 |------------|------|---------|
@@ -98,38 +98,38 @@ You provide the following information during this step.
 
 ### Define tuning goals
 
-- **Main goal**: Refines the agent's objective. Existing instructions are used as a starting point. The goal guides the Expert Answers search capability during inference.
+- **Main goal**: Refines the agent's objective. Use existing instructions as a starting point. The goal guides the Expert Answers search capability during inference.
 - **Domain**: Specifies a high-level subject area, such as human resources.
-- **Example files**: Sample files used to generate evaluation questions and answers. These should represent the document types and topics users are likely to ask about.
+- **Example files**: Sample files used to generate evaluation questions and answers. These files should represent the document types and topics users are likely to ask about.
 
-Microsoft recommends selecting these files from the grounding dataset. Providing more files (up to 50) and increasing topic diversity improves evaluation quality.
+Select these files from the grounding dataset. Providing more files (up to 50) and increasing topic diversity improves evaluation quality.
 
 :::image type="content" source="media/copilot-tuning-expert-answer-template/expert-answers-define-tuning-goals.png" alt-text="Screenshot showing the Define tuning goals page where you specify the main goal, domain, and upload example files for evaluation." lightbox="media/copilot-tuning-expert-answer-template/expert-answers-define-tuning-goals.png":::
 
 ### Review clarifying questions
 
-Subgoals are used with your uploaded documents to generate question-and-answer pairs for evaluation. They also help guide the Expert Answers search capability.
+Use subgoals with your uploaded documents to generate question-and-answer pairs for evaluation. They also help guide the Expert Answers search capability.
 
-Focus these questions on the types of queries users are expected to ask. Answer-quality criteria are defined in the metrics step.
+Focus these questions on the types of queries users are expected to ask. Define answer-quality criteria in the metrics step.
 
 :::image type="content" source="media/copilot-tuning-expert-answer-template/expert-answers-review-clarifying-questions.png" alt-text="Screenshot showing the Review clarifying questions page where you define subgoals that guide search behavior and evaluation." lightbox="media/copilot-tuning-expert-answer-template/expert-answers-review-clarifying-questions.png":::
 
 ### Review metrics
 
-Metrics define how the agent is evaluated. In addition to the metrics you specify, Microsoft applies a built-in accuracy metric that compares the agent's response with a "golden" answer derived from your data.
+Define how to evaluate the agent. In addition to the metrics you specify, Microsoft applies a built-in accuracy metric that compares the agent's response with a "golden" answer derived from your data.
 
 :::image type="content" source="media/copilot-tuning-expert-answer-template/expert-answers-review-metrics.png" alt-text="Screenshot showing the Review metrics page where you define evaluation criteria for agent responses." lightbox="media/copilot-tuning-expert-answer-template/expert-answers-review-metrics.png":::
 
 ### Agent context
 
-Review the agent's grounding data. This data is used by the Expert Answers search capability to generate responses.
+Review the agent's grounding data. The Expert Answers search capability uses this data to generate responses.
 
 
 :::image type="content" source="media/copilot-tuning-expert-answer-template/expert-answers-agent-context.png" alt-text="Screenshot showing the Agent context page where you review the grounding data used by the Expert Answers search capability." lightbox="media/copilot-tuning-expert-answer-template/expert-answers-agent-context.png":::
 
 ## Evaluations
 
-After you complete context tuning and subsequent steps, evaluation results appear on the **Tune agent** homepage.
+When you complete context tuning and the subsequent steps, the **Tune agent** homepage displays evaluation results.
 
 :::image type="content" source="media/copilot-tuning-expert-answer-template/expert-answers-evaluation-results.png" alt-text="Screenshot showing evaluation results displayed on the Tune agent homepage after completing context tuning." lightbox="media/copilot-tuning-expert-answer-template/expert-answers-evaluation-results.png":::
 
@@ -137,16 +137,16 @@ After you complete context tuning and subsequent steps, evaluation results appea
 
 Model tuning trains the Expert Answers search capability. The agent uses a **training dataset** to learn how to write better queries and select more relevant documents from the **grounding dataset**.
 
-Although the grounding dataset is primarily used to generate final answers, information from the training dataset might also appear in responses. In most cases, Microsoft recommends using the same dataset for grounding and training.
+Although the grounding dataset primarily generates final answers, information from the training dataset might also appear in responses. In most cases, use the same dataset for grounding and training.
 
 Model tuning is most effective when:
 
-- The grounding dataset contains several hundred or more files
-- Queries include company-specific language or concepts
+- The grounding dataset contains several hundred or more files.
+- Queries include company-specific language or concepts.
 
 To tune a model:
 
-1. **Provide preferred outputs:** Select a **training dataset**. In most scenarios, this should match the dataset used for grounding.
+1. **Provide preferred outputs:** Select a **training dataset**. In most scenarios, use the same dataset for grounding.
 
     :::image type="content" source="media/copilot-tuning-expert-answer-template/expert-answers-model-tuning-training-dataset.png" alt-text="Screenshot showing the training dataset selection interface for model tuning where you provide preferred outputs." lightbox="media/copilot-tuning-expert-answer-template/expert-answers-model-tuning-training-dataset.png":::
 
@@ -156,19 +156,19 @@ To tune a model:
 
 ## Tool tuning
 
-Tool tuning lets you add additional tools that the agent can use when generating responses, including:
+Tool tuning enables you to add extra tools that the agent can use when it generates responses. These tools include:
 
-- **Style Editor (tunable agent)** to rewrite responses to match a specific tone
+- **Style Editor (tunable agent)** to rewrite responses so they match a specific tone
 - **Document Reviewer (tunable agent)** to enforce defined guardrails
 - **Researcher** to perform longer, deeper searches
 
-To use tunable agents, they must first be context tuned.
+To use tunable agents, first context tune them.
 
-You can also provide orchestration instructions that define how tools are used together. If all tools are selected, the default flow is:
+You can also provide orchestration instructions that define how tools work together. If you select all tools, the default flow is:
 
-1. Use Researcher as an additional source
-2. Rewrite the response with the Style Editor
-3. Validate the response with the Document Reviewer
+1. Use Researcher as an extra source.
+2. Rewrite the response by using the Style Editor.
+3. Validate the response by using the Document Reviewer.
 
 Examples of custom orchestration instructions include:
 
@@ -183,7 +183,7 @@ Examples of custom orchestration instructions include:
 ### Context tuning
 
 - Only SharePoint files and folders are supported.
-- Expert Answers search is subject to known retrieval limitations.
+- Expert Answers search has known retrieval limitations.
 
 ### Model tuning
 
@@ -194,7 +194,7 @@ Examples of custom orchestration instructions include:
 
 ### Tool tuning
 
-- If you add knowledge or capabilities in Agent Builder, responses might not follow tone or guardrails defined by the Style Editor or Document Reviewer. This can occur when additional information is added after these agents run.
+- If you add knowledge or capabilities in Agent Builder, responses might not follow the tone or guardrails defined by the Style Editor or Document Reviewer. This limitation occurs when you add extra information after these agents run.
 - To ensure tone and rule enforcement, avoid adding capabilities in Agent Builder.
 
 ## FAQ
@@ -203,12 +203,12 @@ Examples of custom orchestration instructions include:
 
 In most cases, use the same knowledge source across all three. You might choose a different approach if:
 
-- You do not want to use declarative agent capabilities, in which case you should not add knowledge in Agent Builder.
-- You want the Expert Answers search capability to focus on a subset of files, in which case you can limit the files added during context and model tuning.
+- You don't want to use declarative agent capabilities. In this case, don't add knowledge in Agent Builder.
+- You want the Expert Answers search capability to focus on a subset of files. In this case, limit the files added during context and model tuning.
 
 ### When should I retrain my agent?
 
-Incremental changes to grounding data typically do not significantly reduce performance. New files are included in responses automatically. However, information from files removed after training might still appear in responses until the agent is retrained.
+Incremental changes to grounding data typically don't significantly reduce performance. New files are included in responses automatically. However, information from files removed after training might still appear in responses until you retrain the agent.
 
 ## Related content
 

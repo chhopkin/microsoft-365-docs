@@ -49,7 +49,7 @@ Use the Document Validation agent template in workflows that require documents t
 
 ## Supported capabilities and limitations
 
-The agent supports the following features:
+The template supports the following features:
 
 - Validation against user-provided rulebooks.
 - Automatic rule extraction with human review.
@@ -57,19 +57,19 @@ The agent supports the following features:
 - Inline comments with suggested fixes.
 - Single document validation per prompt.
 
-The agent doesn't support the following features:
+The template doesn't support the following features:
 
 - Multimodal analysis (images, charts, scanned documents).
 - Validation of multiple documents in a single prompt.
 - Validation without a provided rulebook.
 
-The agent supports the following file formats:
+The template supports the following file formats:
 
 - .docx
 - .txt
 - .html
 
-The agent doesn't support other formats, including PowerPoint, images, handwritten documents, and scanned files.
+The template doesn't support other formats, including PowerPoint, images, handwritten documents, and scanned files.
 
 ## Get started
 
@@ -164,7 +164,7 @@ To use Tune Context with a Document Validation agent template:
 
     :::image type="content" source="media/copilot-tuning-document-validation-template/reviewing-goals.jpg" alt-text="Screenshot of reviewing goals and subgoals for the agent." lightbox="media/copilot-tuning-document-validation-template/reviewing-goals.jpg":::
 
-1. **Review evaluation criteria**: The agent generates evaluation metrics that define what "good" performance means for your agent. The agent's performance is measured on these metrics.
+1. **Review evaluation criteria**: The agent generates evaluation metrics that define what good performance means for your agent. The agent's performance is measured on these metrics.
    - These metrics are customized based on the goals and subgoals you define. Review them to ensure they define what success looks like for you.
    - Add any specific expectations required in your organization for this use case. These criteria should include specific requirements that outputs of this agent must abide by.
    - Add, edit, or remove as needed. Select **Save** when done.
@@ -244,31 +244,31 @@ Evaluate model-tuned agents by using:
 - **Rule importance**: Mark important rules as Critical when you review extracted rules during the tuning process. This step improves model performance by correctly balancing between critically important rules and other rules.
 - **Validate**: After fine tuning is complete, validate the evaluation rubrics before saving the new model. Test your tuned agent by validating a sample document before publishing it for your organization.
 
-### Use Tune Model with a Document Validation agent template
+### Use Tune Model with a Document Validation agent
 
-To use Tune Model with a Document Validation agent template:
+To use Tune Model with a Document Validation agent:
 
-1. **Tune agent**: Choose **Tune agent** in your specialized Document Validation agent template that you created from the Document Validation template. Go to the **Tune Model** option.
+1. **Tune agent**. Choose **Tune agent** in your specialized Document Validation agent that you created from the Document Validation agent template. Go to the **Tune Model** option.
    
     > [!NOTE]
     > You must complete the **Tune Context** step to unlock the **Tune Model** option.
 
-1. **Provide data**: Upload your example documents. Provide **at least 50 high quality** representative documents that are an ideal example that follow all the rules or policies in your rulebook and contain no violations.
+1. **Provide data**. Upload your example documents. Provide **at least 50 high quality** representative documents that are an ideal example that follow all the rules or policies in your rulebook and contain no violations.
    - Make sure to select a folder that contains files. You can't upload individual files separately. You can upload a maximum of 20 folders.
    - A higher number of documents provides better results for model training.
    - Tuning extracts your documents to prepare them for model training. This process can take 1-6 hours.
    - The Rulebook you provide during **Tune context** is used for model tuning as well. You can edit the rulebooks in the **Tune Context** step before you start the **Tune Model**.
 
-1. **Review Access**: Configure who can use your fine-tuned agent. Select a few security groups based on your selection of files in the previous step.
+1. **Review access**. Configure who can use your fine-tuned agent. Select a few security groups based on your selection of files in the previous step.
    - Users who have access to the underlying files can access the fine-tuned model.
    - Select one of the recommended options for users and groups that can access your agent.
    - Tuning prepares your training data based on selected access groups. This process might take 1-6 hours.
 
-1. **Start fine tuning**: Follow the instructions to start fine tuning.
+1. **Start fine tuning**. Follow the instructions to start fine tuning.
    - When you select **Start fine tuning**, the process can take 24-72 hours to complete. After the model is trained, evaluations start automatically.
    - You receive an email notification when model training is complete and evaluation results are ready.
 
-1. **Review evaluation metrics and decide to publish**: Evaluation metrics are updated with the newly fine-tuned model.
+1. **Review evaluation metrics and decide to publish**. Evaluation metrics are updated with the newly fine-tuned model.
    - You can view a comparison of metrics from before and after fine tuning.
    - Review the results and select **Yes, I want to use the tuned model** if you're satisfied, and then select **Publish**.
    - This action deploys your newly fine-tuned model and updates your agent to use the new fine-tuned model.
@@ -322,7 +322,7 @@ Evaluation results show quality scores and delta improvements between tuning sta
 
 ## Agent sharing and governance
 
-You can save a tuned Document Validation agent template as a specialized agent and share it across your organization.
+You can save a tuned Document Validation agent as a specialized agent and share it across your organization.
 
 - Only the agent owner can tune or modify the agent.
 - Other users can use the agent but can't change its configuration.

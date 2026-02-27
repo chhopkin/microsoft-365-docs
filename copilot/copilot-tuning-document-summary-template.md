@@ -18,20 +18,20 @@ ms.collection:
 
 # Copilot Tuning Document Summary agent template
 
-The **Document Summary tunable agent** helps you generate summaries that reflect your organization’s voice, priorities, and quality standards. By using Copilot Tuning, you can configure the agent to adapt summaries to specific audiences, purposes, tones, and lengths—without rewriting prompts every time.
+The **Document Summary agent template** helps you generate summaries that reflect your organization’s voice, priorities, and quality standards. By using Copilot Tuning, you can configure the agent to adapt summaries to specific audiences, purposes, tones, and lengths without rewriting prompts every time.
 
-This capability is useful for scenarios such as executive briefings, legal and compliance reviews, education, healthcare documentation, internal communications, and business development. By standardizing how summaries are produced, teams can save time, improve decision-making, and deliver consistent results.
+This capability is useful for scenarios such as executive briefings, legal and compliance reviews, education, healthcare documentation, internal communications, and business development. By standardizing how teams produce summaries, they can save time, improve decision-making, and deliver consistent results.
 
 > [!IMPORTANT]
 > Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
 
 ## What the agent can do
 
-By using the Document Summary tunable agent, you can:
+By using the Document Summary agent template, you can:
 
 - Generate summaries from supported files based on instructions you provide for tone, audience, purpose, length, and focus areas.
 - Create specialized summarization agents by tuning goals and context.
-- Optionally fine-tune the agent using your organization’s own data to improve relevance and consistency (coming soon).
+- Optionally fine-tune the agent by using your organization’s own data to improve relevance and consistency (coming soon).
 
 When you enable fine-tuning, the agent can:
 
@@ -40,9 +40,9 @@ When you enable fine-tuning, the agent can:
 
 ## Supported inputs and outputs
 
-The following inputs and outputs are supported:
+The agent supports the following inputs and outputs:
 
-- **Supported file types**: Microsoft Word (.docx) and PDF (.pdf)
+- **Supported file types**: Word (.docx) and PDF (.pdf)
 - **Input scope**: Single files or folders containing multiple files
 - **Outputs**:
   - A summary generated in the Copilot conversation
@@ -60,13 +60,9 @@ Summarize the key profit drivers and growth areas based on EarningsStatement2024
 
 The Document Summary agent template supports single file and multiple file prompt patterns.
 
-- **Single file**
+- **Single file:** Summarize the key highlights and lowlights for a leadership review based on ProjectStatus.docx.
 
-  Summarize the key highlights and lowlights for a leadership review based on ProjectStatus.docx.
-
-- **Multiple files**
-
-  Summarize project risks based on TeamA_Status.docx, TeamB_Status.docx, and TeamC_Status.docx.
+- **Multiple files:** Summarize project risks based on TeamA_Status.docx, TeamB_Status.docx, and TeamC_Status.docx.
 
 ## Prerequisites
 
@@ -77,20 +73,20 @@ Before you begin context tuning, prepare the following items:
 1. **Clear goals** that describe what a high-quality summary should look like.
 1. **Context inputs** such as purpose, audience, length, tone, and focus sections.
 1. **Sample input files** that represent the documents you want summarized.
-1. Readiness to review and refine clarifying questions and evaluation metrics.
+1. A process to review and refine clarifying questions and evaluation metrics.
 
 > [!NOTE]  
 > This recipe uses reasoning-based fine-tuning. The model learns to reason over input content by using your goals, questions, and metrics as rubrics for quality.
 
 ## Context tuning
 
-Context tuning lets you define how the agent should behave by default, regardless of the runtime prompt.
+By using context tuning, you can set the default behavior for the agent, regardless of the runtime prompt.
 
 ### Define goals and tasks
 
 Start by defining your summarization goals. These goals describe the agent’s role, priorities, and quality expectations.
 
-The following is an example of a goal:
+The following example shows a goal:
 
 - You're an expert project manager at Contoso. Create purpose-driven, audience-appropriate summaries for busy readers who care about key risks and mitigations.
 
@@ -120,7 +116,7 @@ The system generates clarifying questions based on your goals and inputs. Review
 
 Review the metrics used to evaluate the agent's performance. The system generates a benchmark using your sample inputs and estimates output quality.
 
-You can add, remove, or edit metrics to better reflect your real-world success criteria.
+Add, remove, or edit metrics to better reflect your real-world success criteria.
 
 ### Finalize context tuning
 

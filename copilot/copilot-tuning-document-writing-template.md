@@ -14,9 +14,9 @@ description: Learn how to use Copilot Tuning to build an AI model for document w
 
 # Copilot Tuning Document Writing agent template
 
-The **Document Writing** tunable agent helps you generate long-form documents that align with your organization's style, structure, and workflows. By combining reference examples, content inputs, and optional tuning, the agent can draft documents that reflect how your team writes and works.
+The **Document Writing** tunable agent template helps you generate long-form documents that align with your organization's style, structure, and workflows. By combining reference examples, content inputs, and optional tuning, the agent can draft documents that reflect how your team writes and works.
 
-The agent supports scenarios such as technical documentation, legal documents, reports, and other structured content.
+The template supports scenarios such as technical documentation, legal documents, reports, and other structured content.
 
 > [!IMPORTANT]
 > Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
@@ -40,7 +40,7 @@ To start testing, use prompts that explicitly specify:
 - One or more **content files**
 
 > [!NOTE] 
-> Due to a known limitation, prompts must currently use the exact phrasing **"Reference file is X and Instructions file is Y."** Support for additional variations (such as *reference* and *instruction*) is planned.
+> Due to a known limitation, prompts must currently use the exact phrasing: **Reference file is X and Instructions file is Y.** Support for additional variations (such as *reference* and *instruction*) is planned.
 
 ### Example inference prompt
 
@@ -55,19 +55,19 @@ The completed draft is delivered to your inbox after processing.
 
 ### Example-based drafting
 
-1. Draft a partnership agreement using *Agreement 2024.docx* as a reference and the updated terms in *Term sheet Client A and Client B partnership.docx*.
-1. Create a vendor contract using *Contract 2024.docx* as a reference and the new clauses in *Notes Vendor ABC.docx*.
+- Draft a partnership agreement using *Agreement 2024.docx* as a reference and the updated terms in *Term sheet Client A and Client B partnership.docx*.
+- Create a vendor contract using *Contract 2024.docx* as a reference and the new clauses in *Notes Vendor ABC.docx*.
 
 ### Template-based drafting
 
-1. Draft a quarterly performance report using *Quarterly_Report_Template.docx* as the template and metrics in *Metrics_Q1_2025.xlsx*.
-1. Create a project status report using *Project_Status_Template.docx* as the template and the details in *Project_Details_March2025.docx*.
+- Draft a quarterly performance report using *Quarterly_Report_Template.docx* as the template and metrics in *Metrics_Q1_2025.xlsx*.
+- Create a project status report using *Project_Status_Template.docx* as the template and the details in *Project_Details_March2025.docx*.
 
 ### Multiple-file drafting
 
-1. Draft a client engagement report using *Engagement_Report_Template.docx* and content from *Client_Call_Notes_Jan2025.docx* and *Kickoff_Notes_Jan2025.docx*.
-1. Prepare a vendor agreement using *Vendor_Conditions_2025.docx* and *Master_Contract_2023.docx* as references, with content from *Supplier_Agreement_2024.docx*.
-1. Draft a partnership contract using *Partnership_Obligations_2025.docx* and formatting guidance from *Master_Contract_2023.docx* and *Supplier_Agreement_2024.docx*.
+- Draft a client engagement report using *Engagement_Report_Template.docx* and content from *Client_Call_Notes_Jan2025.docx* and *Kickoff_Notes_Jan2025.docx*.
+- Prepare a vendor agreement using *Vendor_Conditions_2025.docx* and *Master_Contract_2023.docx* as references, with content from *Supplier_Agreement_2024.docx*.
+- Draft a partnership contract using *Partnership_Obligations_2025.docx* and formatting guidance from *Master_Contract_2023.docx* and *Supplier_Agreement_2024.docx*.
 
 ## Definitions and prerequisites
 
