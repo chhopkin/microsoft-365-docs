@@ -138,6 +138,26 @@ Apply the following best practices to make the best use of tuned agents:
 - Follow organizational security and compliance policies.
 - Encourage user feedback to improve agent quality over time.
 
+## Disclaimer
+
+The AI administrator is responsible for ensuring that your use of this product complies with all applicable data protection, privacy, and intellectual property laws. This includes meeting your obligations as a Data Controller under regulations such as the GDPR or CCPA.
+
+### Data controller obligations
+
+- You're responsible for how data is collected, stored, and used within your tenant environment.
+- You must ensure that your data practices meet legal requirements for transparency, consent, access, and deletion.
+- You're responsible for verifying the accuracy, appropriateness, and compliance of any outputs generated from this system before using them. Might require reviewing with the subject matter experts.
+
+### Copyright and model training
+
+- If you choose to train a custom model using your own data, you must ensure that you have the appropriate rights or licenses for any copyrighted materials included in the training set.
+- Copyright protection won't apply to models trained using unauthorized copyrighted content. You assume full responsibility for any such use.
+
+### Data deletion
+
+- If a user whose data is used in training a model submits a valid deletion request under GDPR (or similar regulations), you're be required to retrain the model.
+- When you fine-tune a model, the model weights are adjusted based on the training data. You can delete the fine-tuned model at any time.
+
 ## Related content
 
 - [Agents for Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agents-overview)
