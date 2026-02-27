@@ -61,7 +61,7 @@ Here is an example of the application of these settings and policies to validate
 For device access and app management, use the configurations in these articles:
 
 - [Prerequisites](../security/office-365-security/zero-trust-identity-device-access-policies-prereq.md)
-- [Common identity and device access policies](../security/office-365-security/zero-trust-identity-device-access-policies-common.md)
+- [Common identity and device access policies](/security/zero-trust/zero-trust-identity-device-access-policies-common)
 
 ## Results of Step 5
 

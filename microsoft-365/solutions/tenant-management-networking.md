@@ -83,7 +83,7 @@ In this illustration, Microsoft 365 traffic must take an indirect route through 
 
 With split tunneling, you can configure your VPN client to exclude specific types of traffic from being sent over the VPN connection to the organization network.
 
-To optimize access to Microsoft 365 cloud resources, configure your split tunneling VPN clients to exclude traffic to the **Optimize** category Microsoft 365 endpoints over the VPN connection. For more information, see [Office 365 endpoint categories](../enterprise/microsoft-365-network-connectivity-principles.md#optimizing-connectivity-to-microsoft-365-services) and [the lists](../enterprise/microsoft-365-vpn-implement-split-tunnel.md#implement-vpn-split-tunneling) of Optimize category endpoints for split tunneling.
+To optimize access to Microsoft 365 cloud resources, configure your split tunneling VPN clients to exclude traffic to the **Optimize** category Microsoft 365 endpoints over the VPN connection. For more information, see [Office 365 endpoint categories](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles#optimizing-connectivity-to-microsoft-365-services) and [the lists](../enterprise/microsoft-365-vpn-implement-split-tunnel.md#implement-vpn-split-tunneling) of Optimize category endpoints for split tunneling.
 
 Here is the resulting traffic flow for split tunneling, in which most of the traffic to Microsoft 365 cloud apps bypasses the VPN connection.
 
@@ -91,7 +91,7 @@ Here is the resulting traffic flow for split tunneling, in which most of the tra
 
 In this illustration, the VPN client sends and receives crucial Microsoft 365 cloud service traffic directly over the Internet and to the nearest front door into the Microsoft Global Network.
 
-For more information and guidance, see [Optimize Office 365 connectivity for remote users using VPN split tunneling](../enterprise/microsoft-365-vpn-split-tunnel.md).
+For more information and guidance, see [Optimize Office 365 connectivity for remote users using VPN split tunneling](/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel).
 
 ## Using Network Insights
 
@@ -115,7 +115,7 @@ For more information, see [Use the Office 365 CDN with SharePoint Online](../ent
 
 To have your on-premises clients, edge devices, and cloud-based packet analysis services skip processing of trusted Microsoft 365 traffic, you must configure them with the set of endpoints (IP address ranges and DNS names) corresponding to Microsoft 365 services. These endpoints can be manually configured in firewalls and other edge security devices, PAC files for client computers to bypass proxies, or SD-WAN devices at branch offices. However, the endpoints change over time, requiring ongoing manual maintenance of the endpoint lists in these locations.
 
-To automate the listing and change management for Microsoft 365 endpoints in your client PAC files and network devices, use the [Office 365 IP Address and URL REST-based web service](../enterprise/microsoft-365-ip-web-service.md). This service helps you better identify and differentiate Microsoft 365 network traffic, making it easier for you to evaluate, configure, and stay current with the latest changes.
+To automate the listing and change management for Microsoft 365 endpoints in your client PAC files and network devices, use the [Office 365 IP Address and URL REST-based web service](/microsoft-365/enterprise/microsoft-365-ip-web-service). This service helps you better identify and differentiate Microsoft 365 network traffic, making it easier for you to evaluate, configure, and stay current with the latest changes.
 
 You can use PowerShell, Python, or other languages to determine the changes to endpoints over time and configure your PAC files and edge network devices.
 
@@ -125,7 +125,7 @@ The basic process is:
 2. Run a daily recurring to check for changes in the endpoints or use a notification method.
 3. When changes are detected, regenerate and redistribute the PAC file for client computers and make the changes to your network devices.
 
-For more information, see [Office 365 IP Address and URL web service](../enterprise/microsoft-365-ip-web-service.md).
+For more information, see [Office 365 IP Address and URL web service](/microsoft-365/enterprise/microsoft-365-ip-web-service).
 
 ## Results of Step 2
 

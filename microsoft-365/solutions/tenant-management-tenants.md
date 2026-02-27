@@ -92,7 +92,7 @@ Here's an example of an organization that has its default location in Europe and
 
 ![Example of a multi-geo Microsoft 365 tenant.](../media/tenant-management-overview/tenant-management-example-multi-geo.png)
 
-For more information, see [Microsoft 365 Multi-Geo](../enterprise/microsoft-365-multi-geo.md).
+For more information, see [Microsoft 365 Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo).
 
 ## Moving core data to a new datacenter geo
 
@@ -104,7 +104,7 @@ Here's an example in which a Microsoft 365 tenant was moved from the European Un
 
 ![Example of moving a Microsoft 365 tenant between datacenter geos.](../media/tenant-management-overview/tenant-management-example-tenant-move.png)
 
-For more information, see [Moving core data to new Microsoft 365 datacenter geos](../enterprise/moving-data-to-new-datacenter-geos.md).
+For more information, see [Moving core data to new Microsoft 365 datacenter geos](/microsoft-365/enterprise/m365-dr-overview#migrationsmoves).
 
 ## Products and licenses for a tenant
 
