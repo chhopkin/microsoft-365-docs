@@ -40,8 +40,8 @@ This article applies only to customers with a Microsoft Customer Agreement (MCA)
 - [Find out what type of billing account you have](../manage-billing-accounts.md#view-my-billing-accounts).
 - You must have an MCA billing account type and have the billing account owner or contributor role, or the billing profile owner or contributor role to complete the tasks in this article.
 
-> [!NOTE]
-> If you're the person who signed up for the subscription, you're automatically a billing account owner.
+   > [!NOTE]
+   > If you're the person who signed up for the subscription, you're automatically a billing account owner.
 
 ## Available options when your subscription ends
 
@@ -49,21 +49,22 @@ When a subscription reaches the end of its term, you have three options for what
 
 ### 1. Renew on time
 
-To continue your subscription without service interruption, renew your subscription before the end date.
+To continue your subscription without service interruption, renew your subscription before the end date. To learn how to renew your subscription, see [Manage recurring billing in the Microsoft 365 admin center](renew-your-subscription.md).
 
 You can make scheduled changes to your subscription term as needed.
 
 ### 2. Cancel at the end of your subscription term
 
-When you cancel at the end of your existing subscription term, there are no extra charges. The subscription ends immediately on the subscription end date. Your data is retained for 90 days and then permanently deleted, following the standard subscription lifecycle.
+When you cancel at the end of your existing subscription term, there are no extra charges. The subscription ends immediately on the subscription end date. Your data is retained for 90 days and then permanently deleted, following the standard subscription lifecycle. To learn how to cancel your subscription, see [Cancel your subscription in the Microsoft 365 admin center](cancel-your-subscription.md).
 
 ### 3. Extend your service with a paid Extended Service Term (EST) subscription
 
-You can buy a monthly, paid EST subscription to maintain your services while you decide whether to renew. At any time, you can cancel the EST subscription or convert back to a standard subscription. Charges for EST subscriptions are prorated, so you only pay for the days you use the subscription.
-
-Pricing for an EST subscription is 3% higher than the standard subscription monthly rate.
+You can buy a monthly, paid EST subscription to maintain your services while you decide whether to renew. At any time, you can cancel the EST subscription or convert back to a standard subscription. Charges for EST subscriptions are prorated, so you only pay for the days you use the subscription. To learn how to buy an EST subscription, see [Convert to an Extended Service Term subscription](#convert-to-an-extended-service-term-subscription).
 
 > [!IMPORTANT]
+> Pricing for an EST subscription is 3% higher than the standard subscription monthly rate.
+
+> [!NOTE]
 > While you have an EST subscription, you can't change the number of licenses in your subscription. You also can't change the EST subscription type. For example, you can't change from a Microsoft 365 Business Basic Extended Service Term to a Microsoft 365 Business Standard Extended Service Term.
 
 ## Convert to an Extended Service Term subscription
