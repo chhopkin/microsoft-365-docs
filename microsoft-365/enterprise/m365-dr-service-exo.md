@@ -9,12 +9,12 @@ ms.subservice: advanced-data-residency
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.date: 12/10/2024
+ms.date: 05/09/2025
 ms.reviewer: jugiammo
 ms.custom:
- - it-pro
- - has-azure-ad-ps-ref
- - azure-ad-ref-level-one-done
+- it-pro
+- has-azure-ad-ps-ref
+- azure-ad-ref-level-one-done
 ms.localizationpriority: medium
 ms.collection:
 - M365-subscription-management
