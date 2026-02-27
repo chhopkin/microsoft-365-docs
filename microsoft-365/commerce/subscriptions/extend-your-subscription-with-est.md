@@ -32,9 +32,6 @@ If you don't renew your subscription by the renewal date, you can now select a p
 
 This article applies only to customers with a Microsoft Customer Agreement (MCA) billing account type. You can only buy an EST subscription if you have a subscription bought under an MCA billing account.
 
-> [!IMPORTANT]
-> Pricing for an EST subscription is 3% higher than the standard subscription monthly rate.
-
 ## Before you begin
 
 - [Find out what type of billing account you have](../manage-billing-accounts.md#view-my-billing-accounts).
@@ -47,25 +44,24 @@ This article applies only to customers with a Microsoft Customer Agreement (MCA)
 
 When a subscription reaches the end of its term, you have three options for what to do next.
 
-### 1. Renew on time
+1. **Renew on time**
 
-To continue your subscription without service interruption, renew your subscription before the end date. To learn how to renew your subscription, see [Manage recurring billing in the Microsoft 365 admin center](renew-your-subscription.md).
+   To continue your subscription without service interruption, renew your subscription before the end date. To learn how to renew your subscription, see [Manage recurring billing in the Microsoft 365 admin center](renew-your-subscription.md).
 
-You can make scheduled changes to your subscription term as needed.
+   You can make scheduled changes to your subscription term as needed.
 
-### 2. Cancel at the end of your subscription term
+1. **Cancel at the end of your subscription term**
 
-When you cancel at the end of your existing subscription term, there are no extra charges. The subscription ends immediately on the subscription end date. Your data is retained for 90 days and then permanently deleted, following the standard subscription lifecycle. To learn how to cancel your subscription, see [Cancel your subscription in the Microsoft 365 admin center](cancel-your-subscription.md).
+   When you cancel at the end of your existing subscription term, there are no extra charges. The subscription ends immediately on the subscription end date. Your data is retained for 90 days and then permanently deleted, following the standard subscription lifecycle. To learn how to cancel your subscription, see [Cancel your subscription in the Microsoft 365 admin center](cancel-your-subscription.md).
 
-### 3. Extend your service with a paid Extended Service Term (EST) subscription
+1. **Extend your service with a paid Extended Service Term (EST) subscription**
 
-You can buy a monthly, paid EST subscription to maintain your services while you decide whether to renew. At any time, you can cancel the EST subscription or convert back to a standard subscription. Charges for EST subscriptions are prorated, so you only pay for the days you use the subscription. To learn how to buy an EST subscription, see [Convert to an Extended Service Term subscription](#convert-to-an-extended-service-term-subscription).
+   You can buy a monthly, paid EST subscription to maintain your services while you decide whether to renew. At any time, you can cancel the EST subscription or convert back to a standard subscription. Charges for EST subscriptions are prorated, so you only pay for the days you use the subscription. To learn how to buy an EST subscription, see [Convert to an Extended Service Term subscription](#convert-to-an-extended-service-term-subscription), in the next section.
 
-> [!IMPORTANT]
-> Pricing for an EST subscription is 3% higher than the standard subscription monthly rate.
+   Pricing for an EST subscription is 3% higher than the standard subscription monthly rate.
 
-> [!NOTE]
-> While you have an EST subscription, you can't change the number of licenses in your subscription. You also can't change the EST subscription type. For example, you can't change from a Microsoft 365 Business Basic Extended Service Term to a Microsoft 365 Business Standard Extended Service Term.
+   > [!NOTE]
+   > While you have an EST subscription, you can't change the number of licenses in your subscription. You also can't change the EST subscription type. For example, you can't change from a Microsoft 365 Business Basic Extended Service Term to a Microsoft 365 Business Standard Extended Service Term.
 
 ## Convert to an Extended Service Term subscription
 
@@ -95,9 +91,9 @@ An EST subscription functions similarly to a standard subscription but there are
 | Change billing plan | Yes | No |
 | Set a scheduled change on renewal | Yes | Yes |
 | Cancel | Yes | Yes |
-| Renew into self | Yes | Yes |
-| Renew into EST | Yes | N/A |
-| Disable service at term end | Yes | Yes |
+| Renew | Yes | Yes |
+| Convert to EST | Yes | N/A |
+| Disable at term end | Yes | Yes |
 | Reactivate | Yes | Yes |
 
 ## Related content  
