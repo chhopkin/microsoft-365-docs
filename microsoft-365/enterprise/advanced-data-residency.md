@@ -4,7 +4,7 @@ ms.author: v-fahasen
 author: fhasen-msft
 manager: Justin.Giammona
 ms.reviewer: jugiammo
-ms.date: 1/30/2026
+ms.date: 2/27/2026
 audience: ITPro
 ms.topic: overview
 ms.service: microsoft-365-enterprise
@@ -44,7 +44,7 @@ The following services are included in _ADR_. For more information, see:
 - [Viva Connections](m365-dr-service-viva-connections.md)
 
 > [!NOTE]
-> *The Microsoft Purview services list includes all services covered as part of the _Advanced Data Residency_ commitment as of November 2025. Other Microsoft Purview services aren't currently supported.
+> *The Microsoft Purview services list includes all services covered as part of the _Advanced Data Residency_ commitment as of February 2026. Additional Microsoft Purview services aren't currently supported.
 
 ## Licensing and Purchase
 
