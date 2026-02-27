@@ -155,7 +155,7 @@ Specify one or more categories (for example, Legal, HR, Project Management) to f
 
 Upload example reference and content files that reflect typical user inputs. These files are used to simulate evaluation scenarios.
 
-You must upload:
+You must upload at least one and upt o a maximum of 20 of each of the following file types:
 
 - A **reference file** that defines *how* the document should look
 - A **content file** that defines *what* the document should include

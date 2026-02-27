@@ -4,7 +4,7 @@ description: Learn how to configure and tune the Document Summary agent in Copil
 author: david-salas
 ms.author: dsalasbarran
 manager: calvind
-ms.date: 02/20/2026
+ms.date: 02/24/2026
 ms.update-cycle: 180-days
 ms.reviewer: riyazp
 audience: Admin
@@ -31,7 +31,7 @@ By using the Document Summary tunable agent, you can:
 
 - Generate summaries from supported files based on instructions you provide for tone, audience, purpose, length, and focus areas.
 - Create specialized summarization agents by tuning goals and context.
-- Optionally fine-tune the agent using your organization’s own data to improve relevance and consistency.
+- Optionally fine-tune the agent using your organization’s own data to improve relevance and consistency (coming soon).
 
 When you enable fine-tuning, the agent can:
 
