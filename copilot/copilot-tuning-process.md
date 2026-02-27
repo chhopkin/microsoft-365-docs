@@ -1,5 +1,5 @@
 ---
-title: Customize Microsoft 365 Copilot with Copilot Tuning
+title: Customize Microsoft 365 Copilot with Copilot Tuning (preview)
 description: Get an overview of the process to create a fine-tuned model with Copilot Tuning to customize Microsoft 365 Copilot for your organization.
 author: lauragra
 ms.author: lauragra
@@ -10,7 +10,7 @@ ms.topic: article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ---
-# Customize Microsoft 365 Copilot with Copilot Tuning
+# Customize Microsoft 365 Copilot with Copilot Tuning (preview)
 
 By using Microsoft 365 Copilot Tuning, organizations can tailor AI models to reflect their unique terminology, communication style, and business processes. When you fine-tune large language models (LLMs) with your own data, you can improve the accuracy, tone, and relevance of Copilot responses across your tenant.
 

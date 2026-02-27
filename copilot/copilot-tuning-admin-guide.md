@@ -1,5 +1,5 @@
 ---
-title: "Microsoft 365 Copilot Tuning Admin Guide"
+title: "Microsoft 365 Copilot Tuning admin guide (preview)"
 f1.keywords:
 author: lauragra
 ms.author: lauragra
@@ -17,7 +17,7 @@ ms.collection:
 - magic-ai-copilot
 description: "Find admin guidance for enabling Copilot Tuning in your organization."
 ---
-# Microsoft 365 Copilot Tuning admin guide
+# Microsoft 365 Copilot Tuning admin guide (preview)
 
 Microsoft 365 Copilot Tuning (preview) is an AI customization capability that enables organizations to create task-specific Copilot agents by tuning large language models (LLMs) with their own organizational data. AI admins manage Copilot Tuning through the Copilot control system in the Microsoft 365 admin center. Copilot Tuning provides multiple layers of control to balance innovation with governance.
 
