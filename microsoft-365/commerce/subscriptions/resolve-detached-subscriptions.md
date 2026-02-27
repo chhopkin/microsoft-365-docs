@@ -13,10 +13,10 @@ ms.service: microsoft-365-business
 ms.subservice: m365-commerce-acquisition
 ms.localizationpriority: medium
 ms.collection:
-  - Tier1
-  - scotvorg
-  - M365-subscription-management
-  - Adm_O365
+- Tier1
+- scotvorg
+- M365-subscription-management
+- Adm_O365
 ms.custom:
 - commerce_subscriptions
 - QuickDraft
@@ -25,7 +25,7 @@ ms.custom:
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn how to fix detached subscriptions in the Microsoft 365 admin center. Find a new CSP partner or buy directly from Microsoft to maintain your services."
-ms.date: 01/30/2026
+ms.date: 02/27/2026
 ---
 
 # Resolve subscriptions detached from CSP partners
