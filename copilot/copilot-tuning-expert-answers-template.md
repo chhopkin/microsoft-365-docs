@@ -1,5 +1,5 @@
 ---
-title: Copilot Tuning Expert Answers agent
+title: Copilot Tuning Expert Answers agent template
 author: lauragra
 ms.author: lauragra
 manager: calvind
@@ -12,18 +12,18 @@ ms.localizationpriority: medium
 description: Learn how to use Copilot Tuning to build an AI model for expert answers.
 ---
 
-# Copilot Tuning Expert Answers agent
+# Copilot Tuning Expert Answers agent template
 
 The **Expert Answers** agent is a tunable Copilot agent designed to answer complex, domain-specific questions grounded in your organization's content. You can further tune the agent using enterprise data to improve answer quality, relevance, and consistency.
 
-This article describes common scenarios, tuning options, requirements, and limitations to help you implement the Expert Answers agent effectively.
+This article describes common scenarios, tuning options, requirements, and limitations to help you implement the Expert Answers agent template effectively.
 
 > [!IMPORTANT]
 > Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
 
-## Expert Answers agent overview
+## Expert Answers agent template overview
 
-The Expert Answers agent performs deep searches across your enterprise content and generates grounded answers based on that data.
+The Expert Answers agent template performs deep searches across your enterprise content and generates grounded answers based on that data.
 
 Common scenarios include:
 
@@ -31,7 +31,7 @@ Common scenarios include:
 - Enforcing specific tone or guardrails, such as for internal HR or policy agents
 - Working with datasets that contain company-specific terminology or jargon, such as internal knowledge bases
 
-A typical workflow starts with testing the non-customized agent. You can then customize the agent by using the **Expert Answers agent** template in Agent Builder, and optionally tune the agent to further improve its responses.
+A typical workflow starts with testing the non-customized agent. You can then customize the agent by using the **Expert Answers agent template** template in Agent Builder, and optionally tune the agent to further improve its responses.
 
 Final responses combine:
 
@@ -44,7 +44,7 @@ In most cases, Microsoft recommends using both approaches together by adding kno
 
 ## Tuning flow
 
-Tuning allows you to evaluate and improve agent responses. You can tune an Expert Answers agent in three ways.
+Tuning allows you to evaluate and improve agent responses. You can tune an Expert Answers agent template in three ways.
 
 | Tuning type | When to use |
 |------------|-------------|
@@ -58,13 +58,13 @@ Before customizing the agent, you can test the default experience.
 
 You must select a SharePoint site before asking a question. The agent answers questions using content from that site. If no site is selected, the agent searches previous messages for a referenced site.
 
-:::image type="content" source="media/copilot-tuning-expert-answer-agent/expert-answers-sharepoint-site-selection.png" alt-text="Screenshot showing the SharePoint site selection interface before asking a question in the non-customized Expert Answers agent." lightbox="media/copilot-tuning-expert-answer-agent/expert-answers-sharepoint-site-selection.png":::
+:::image type="content" source="media/copilot-tuning-expert-answer-agent/expert-answers-sharepoint-site-selection.png" alt-text="Screenshot showing the SharePoint site selection interface before asking a question in the non-customized Expert Answers agent template." lightbox="media/copilot-tuning-expert-answer-agent/expert-answers-sharepoint-site-selection.png":::
 
 ## Customize the agent
 
-Start by selecting the **Expert Answers agent** template in Agent Builder. 
+Start by selecting the **Expert Answers agent template** template in Agent Builder. 
 
-:::image type="content" source="media/copilot-tuning-expert-answer-agent/expert-answers-template-selection.png" alt-text="Screenshot showing the Expert Answers agent template selection in Agent Builder." lightbox="media/copilot-tuning-expert-answer-agent/expert-answers-template-selection.png":::
+:::image type="content" source="media/copilot-tuning-expert-answer-agent/expert-answers-template-selection.png" alt-text="Screenshot showing the Expert Answers agent template template selection in Agent Builder." lightbox="media/copilot-tuning-expert-answer-agent/expert-answers-template-selection.png":::
 
 Provide the following information:
 
@@ -80,7 +80,7 @@ You can optionally add **knowledge** and **capabilities**.
 
 After customization, the agent answers questions using the SharePoint sites you configured as knowledge sources.
 
-:::image type="content" source="media/copilot-tuning-expert-answer-agent/expert-answers-customized-agent-chat.png" alt-text="Screenshot showing the customized Expert Answers agent answering questions using the configured SharePoint sites as knowledge sources." lightbox="media/copilot-tuning-expert-answer-agent/expert-answers-customized-agent-chat.png":::
+:::image type="content" source="media/copilot-tuning-expert-answer-agent/expert-answers-customized-agent-chat.png" alt-text="Screenshot showing the customized Expert Answers agent template answering questions using the configured SharePoint sites as knowledge sources." lightbox="media/copilot-tuning-expert-answer-agent/expert-answers-customized-agent-chat.png":::
 
 ## Context tuning
 

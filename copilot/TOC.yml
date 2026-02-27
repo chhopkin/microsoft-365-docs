@@ -206,17 +206,17 @@ items:
       - name: Tuned agents
         items:
         - name: Document Writing agent
-          href: copilot-tuning-document-writing-agent.md
+          href: copilot-tuning-document-writing-template.md
         - name: Document Validation agent
-          href: copilot-tuning-document-validation-agent.md
+          href: copilot-tuning-document-validation-template.md
         - name: Expert Answers agent
-          href: copilot-tuning-expert-answers-agent.md
+          href: copilot-tuning-expert-answers-template.md
         - name: Optimization agent
-          href: copilot-tuning-optimization-agent.md
+          href: copilot-tuning-optimization-template.md
         - name: Style Editing agent
-          href: copilot-tuning-style-editing-agent.md
+          href: copilot-tuning-style-editing-template.md
         - name: Summarization agent
-          href: copilot-tuning-document-summary-agent.md
+          href: copilot-tuning-document-summary-template.md
       - name: FAQ
         href: copilot-tuning-faq.yml
     - name: Copilot Library

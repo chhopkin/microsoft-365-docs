@@ -1,6 +1,6 @@
 ---
-title: Copilot Tuning Document Summary agent
-description: Learn how to configure and tune the Document Summary agent in Copilot Tuning to generate summaries that align with your organization’s goals, tone, and audience.
+title: Copilot Tuning Document Summary agent template
+description: Learn how to configure and tune the Document Summary agent template in Copilot Tuning to generate summaries that align with your organization’s goals, tone, and audience.
 author: david-salas
 ms.author: dsalasbarran
 manager: calvind
@@ -16,7 +16,7 @@ ms.collection:
 - magic-ai-copilot
 ---
 
-# Copilot Tuning Document Summary agent
+# Copilot Tuning Document Summary agent template
 
 The **Document Summary tunable agent** helps you generate summaries that reflect your organization’s voice, priorities, and quality standards. By using Copilot Tuning, you can configure the agent to adapt summaries to specific audiences, purposes, tones, and lengths—without rewriting prompts every time.
 
@@ -58,7 +58,7 @@ Summarize the key profit drivers and growth areas based on EarningsStatement2024
 
 ### Supported prompt patterns
 
-The Document Summary agent supports single file and multiple file prompt patterns.
+The Document Summary agent template supports single file and multiple file prompt patterns.
 
 - **Single file**
 

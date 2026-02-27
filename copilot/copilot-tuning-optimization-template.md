@@ -1,5 +1,5 @@
 ---
-title: Copilot Tuning Optimization agent
+title: Copilot Tuning Optimization agent template
 author: lauragra
 ms.author: lauragra
 manager: calvind
@@ -12,18 +12,18 @@ ms.localizationpriority: medium
 description: Learn how to use Copilot Tuning to build an AI model for optimization problems.
 ---
 
-# Copilot Tuning Optimization agent
+# Copilot Tuning Optimization agent template
 
 The **Optimization** agent for Microsoft 365 Copilot helps you model and solve business optimization problems that are specific to your organization. Use the agent to make optimal decisions for scenarios such as organizing teams, assigning work, or planning sales strategies.
 
-Describe your optimization problem by specifying goals, constraints, and data. The Optimization agent computes an optimal solution based on those inputs, without requiring expertise in coding or mathematical modeling.
+Describe your optimization problem by specifying goals, constraints, and data. The Optimization agent template computes an optimal solution based on those inputs, without requiring expertise in coding or mathematical modeling.
 
 > [!IMPORTANT]
 > Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7)
 
-## Optimization agent overview
+## Optimization agent template overview
 
-By using the Optimization agent, you can solve decision-based business problems by defining:
+By using the Optimization agent template, you can solve decision-based business problems by defining:
 
 - **Goals**, such as assigning people to projects based on skills or planning sales territories
 - **Rules and preferences**, such as keeping existing teams together or staying within budget
@@ -37,13 +37,13 @@ Common use cases include:
 - Resource and task assignment
 - Sales territory and account planning
 
-The Optimization agent is designed for nontechnical users and produces **optimal, explainable decisions** with **guaranteed constraint satisfaction**.
+The Optimization agent template is designed for nontechnical users and produces **optimal, explainable decisions** with **guaranteed constraint satisfaction**.
 
 You can also customize the agent to align with your organization's policies, terminology, and data patterns so that it reflects how your organization operates.
 
-At its core, the Optimization agent uses a customized large language model (LLM) designed for optimization tasks. The model translates your business goals, rules, and data into a solvable optimization problem and computes the optimal outcome in a way that's consistent with your organization's preferences.
+At its core, the Optimization agent template uses a customized large language model (LLM) designed for optimization tasks. The model translates your business goals, rules, and data into a solvable optimization problem and computes the optimal outcome in a way that's consistent with your organization's preferences.
 
-## Get started with the Optimization agent
+## Get started with the Optimization agent template
 
 ### Describe your goal
 
@@ -54,7 +54,7 @@ Examples include:
 - Assign employees to open roles based on their skills.
 - Allocate salespeople to territories.
 
-:::image type="content" source="media/copilot-tuning-optimization-agent/optimization-goal-description-interface.png" alt-text="Screenshot showing the goal description interface where users can describe their optimization objective, such as assigning employees to roles or allocating salespeople to territories." lightbox="media/copilot-tuning-optimization-agent/optimization-goal-description-interface.png":::
+:::image type="content" source="media/copilot-tuning-optimization-template/optimization-goal-description-interface.png" alt-text="Screenshot showing the goal description interface where users can describe their optimization objective, such as assigning employees to roles or allocating salespeople to territories." lightbox="media/copilot-tuning-optimization-template/optimization-goal-description-interface.png":::
 
 ### Upload your data
 
@@ -69,7 +69,7 @@ Define constraints and objectives that govern the solution.
 
 Add multiple constraints and objectives. For best results, add them one at a time and describe them clearly. The agent might ask clarifying questions if you need to provide more detail.
 
-:::image type="content" source="media/copilot-tuning-optimization-agent/optimization-add-constraints-objectives.png" alt-text="Screenshot demonstrating how to add constraints and objectives in the Optimization agent interface." lightbox="media/copilot-tuning-optimization-agent/optimization-add-constraints-objectives.png":::
+:::image type="content" source="media/copilot-tuning-optimization-template/optimization-add-constraints-objectives.png" alt-text="Screenshot demonstrating how to add constraints and objectives in the Optimization agent template interface." lightbox="media/copilot-tuning-optimization-template/optimization-add-constraints-objectives.png":::
 
 ### Review the setup
 
@@ -87,20 +87,20 @@ You can ask the agent to edit or remove any part of the setup.
 
 If the agent detects ambiguity or missing information, it prompts you to clarify constraints or objectives to ensure the problem is feasible and solvable.
 
-:::image type="content" source="media/copilot-tuning-optimization-agent/optimization-clarification-prompt.png" alt-text="Screenshot showing a clarification prompt from the Optimization agent requesting more details about constraints or objectives." lightbox="media/copilot-tuning-optimization-agent/optimization-clarification-prompt.png":::
+:::image type="content" source="media/copilot-tuning-optimization-template/optimization-clarification-prompt.png" alt-text="Screenshot showing a clarification prompt from the Optimization agent template requesting more details about constraints or objectives." lightbox="media/copilot-tuning-optimization-template/optimization-clarification-prompt.png":::
 
 ### Get your solution
 
 When you're ready, ask the agent to solve the problem using your data. The agent runs solver tools and presents the optimal solution based on your objectives and constraints. You can review the results interactively and download the full output as a .csv file.
 
-:::image type="content" source="media/copilot-tuning-optimization-agent/optimization-solution-results.png" alt-text="Screenshot displaying the optimal solution results in an interactive format with option to download as .csv." lightbox="media/copilot-tuning-optimization-agent/optimization-solution-results.png":::
+:::image type="content" source="media/copilot-tuning-optimization-template/optimization-solution-results.png" alt-text="Screenshot displaying the optimal solution results in an interactive format with option to download as .csv." lightbox="media/copilot-tuning-optimization-template/optimization-solution-results.png":::
 
 > [!TIP]
 > Use clear, specific language and provide accurate, representative data to achieve the best results.
 
 ## Key capabilities
 
-The Optimization agent:
+The Optimization agent template:
 
 - Interprets your business scenario to define the optimization goal.
 - Identifies decision variables that represent the choices to optimize.
@@ -112,13 +112,13 @@ The resulting solution:
 - Satisfies all defined constraints.
 - Represents the most optimal outcome for the provided data.
 
-## When to use the Optimization agent
+## When to use the Optimization agent template
 
-Use the Optimization agent when you need to determine the best possible decision under constraints. Start by identifying the decision you want to optimize.
+Use the Optimization agent template when you need to determine the best possible decision under constraints. Start by identifying the decision you want to optimize.
 
 ### Identify the decision
 
-Determine what choice needs to be made, such as assigning resources, scheduling activities, or allocating territories. If no decision is required, the Optimization agent might not be the right tool.
+Determine what choice needs to be made, such as assigning resources, scheduling activities, or allocating territories. If no decision is required, the Optimization agent template might not be the right tool.
 
 ### Define objectives
 
@@ -138,7 +138,7 @@ Provide data that supports your objectives and constraints. For example, capacit
 
 You can often split large optimization problems into smaller, related decisions that are easier to model and solve.
 
-The Optimization agent isn't intended for general data analysis or mathematical computation scenarios.
+The Optimization agent template isn't intended for general data analysis or mathematical computation scenarios.
 
 ## Limitations
 
@@ -169,44 +169,44 @@ A tuned context agent stores:
 
 The agent doesn't store uploaded data files.
 
-## Tune an Optimization agent
+## Tune an Optimization agent template
 
-To tune an Optimization agent:
+To tune an Optimization agent template:
 
 1. Create a new agent by selecting the **Optimization** template.
 
-   :::image type="content" source="media/copilot-tuning-optimization-agent/optimization-template-selection.png" alt-text="Screenshot showing the Optimization template selection when creating a new agent." lightbox="media/copilot-tuning-optimization-agent/optimization-template-selection.png":::
+   :::image type="content" source="media/copilot-tuning-optimization-template/optimization-template-selection.png" alt-text="Screenshot showing the Optimization template selection when creating a new agent." lightbox="media/copilot-tuning-optimization-template/optimization-template-selection.png":::
 
-2. Provide a name, description, and suggested prompts. Default instructions are prefilled and optimized for the Optimization agent.
+2. Provide a name, description, and suggested prompts. Default instructions are prefilled and optimized for the Optimization agent template.
 
-   :::image type="content" source="media/copilot-tuning-optimization-agent/optimization-agent-details-configuration.png" alt-text="Screenshot of the agent details configuration page where you provide name, description, and suggested prompts." lightbox="media/copilot-tuning-optimization-agent/optimization-agent-details-configuration.png":::
+   :::image type="content" source="media/copilot-tuning-optimization-template/optimization-agent-details-configuration.png" alt-text="Screenshot of the agent details configuration page where you provide name, description, and suggested prompts." lightbox="media/copilot-tuning-optimization-template/optimization-agent-details-configuration.png":::
 
    > [!Important]  
    > - Don't change the default instructions unless you have a specific reason to edit them.  
-   > - Don't add capabilities or knowledge sources. The Optimization agent doesn't support them.
+   > - Don't add capabilities or knowledge sources. The Optimization agent template doesn't support them.
 
 3. Select **Create** to finish setup and open the agent chat.
 
 4. Select **Tune agent**, and then choose **Tune context**.
 
-   :::image type="content" source="media/copilot-tuning-optimization-agent/optimization-tune-agent-menu.png" alt-text="Screenshot showing the Tune agent menu with the Tune context option selected." lightbox="media/copilot-tuning-optimization-agent/optimization-tune-agent-menu.png":::
+   :::image type="content" source="media/copilot-tuning-optimization-template/optimization-tune-agent-menu.png" alt-text="Screenshot showing the Tune agent menu with the Tune context option selected." lightbox="media/copilot-tuning-optimization-template/optimization-tune-agent-menu.png":::
 
 5. Use chat to describe your goal, upload data, define constraints, and specify objectives. Review the setup in the side panel as you go.
 
-   :::image type="content" source="media/copilot-tuning-optimization-agent/optimization-problem-chat-interface.png" alt-text="Screenshot showing the chat interface for defining the optimization problem with the side panel displaying goals, constraints, and objectives." lightbox="media/copilot-tuning-optimization-agent/optimization-problem-chat-interface.png":::
-   :::image type="content" source="media/copilot-tuning-optimization-agent/optimization-problem-data-upload.png" alt-text="Screenshot showing additional views of the optimization problem definition interface with data upload and constraint configuration." lightbox="media/copilot-tuning-optimization-agent/optimization-problem-data-upload.png":::
+   :::image type="content" source="media/copilot-tuning-optimization-template/optimization-problem-chat-interface.png" alt-text="Screenshot showing the chat interface for defining the optimization problem with the side panel displaying goals, constraints, and objectives." lightbox="media/copilot-tuning-optimization-template/optimization-problem-chat-interface.png":::
+   :::image type="content" source="media/copilot-tuning-optimization-template/optimization-problem-data-upload.png" alt-text="Screenshot showing additional views of the optimization problem definition interface with data upload and constraint configuration." lightbox="media/copilot-tuning-optimization-template/optimization-problem-data-upload.png":::
 
 6. Select **Update agent** to save the problem definition.
 
    > [!NOTE]  
    > Uploaded data isn't saved. Only the problem structure is retained.
 
-   :::image type="content" source="media/copilot-tuning-optimization-agent/optimization-update-agent-button.png" alt-text="Screenshot showing the Update agent button to save the problem definition after completing the setup." lightbox="media/copilot-tuning-optimization-agent/optimization-update-agent-button.png":::
+   :::image type="content" source="media/copilot-tuning-optimization-template/optimization-update-agent-button.png" alt-text="Screenshot showing the Update agent button to save the problem definition after completing the setup." lightbox="media/copilot-tuning-optimization-template/optimization-update-agent-button.png":::
 
 7. Share the tuned agent with others in your organization.
 
-   :::image type="content" source="media/copilot-tuning-optimization-agent/optimization-agent-sharing-interface.png" alt-text="Screenshot of the agent sharing interface showing options to share the tuned agent with users in your organization." lightbox="media/copilot-tuning-optimization-agent/optimization-agent-sharing-interface.png":::
-   :::image type="content" source="media/copilot-tuning-optimization-agent/optimization-sharing-permissions.png" alt-text="Screenshot showing the sharing permissions configuration for the tuned Optimization agent." lightbox="media/copilot-tuning-optimization-agent/optimization-sharing-permissions.png":::
+   :::image type="content" source="media/copilot-tuning-optimization-template/optimization-agent-sharing-interface.png" alt-text="Screenshot of the agent sharing interface showing options to share the tuned agent with users in your organization." lightbox="media/copilot-tuning-optimization-template/optimization-agent-sharing-interface.png":::
+   :::image type="content" source="media/copilot-tuning-optimization-template/optimization-sharing-permissions.png" alt-text="Screenshot showing the sharing permissions configuration for the tuned Optimization agent template." lightbox="media/copilot-tuning-optimization-template/optimization-sharing-permissions.png":::
 
 ### Sharing and security
 
@@ -253,9 +253,9 @@ The agent automatically generates decision variables that represent assignment c
 
 ## FAQ
 
-### What is the Optimization agent?
+### What is the Optimization agent template?
 
-The Optimization agent helps you solve decision-based business problems, such as resource allocation, scheduling, and planning, by computing optimal solutions based on goals, constraints, and data.
+The Optimization agent template helps you solve decision-based business problems, such as resource allocation, scheduling, and planning, by computing optimal solutions based on goals, constraints, and data.
 
 ### Do I need technical skills to use it?
 
