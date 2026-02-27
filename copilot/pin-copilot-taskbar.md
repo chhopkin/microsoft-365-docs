@@ -74,7 +74,7 @@ To configure this setting in the Microsoft 365 admin center, you need to be assi
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 1. Go to **Copilot** > **Settings** > **User access**.
-1. Select **Pin Microsoft 365 Copilot and its companion apps to the Windows taskbar.**
+1. Select **Pin Microsoft 365 Copilot and its companion apps to the Windows taskbar**.
 1. Choose one of the following options and then select **Save**:
 
     - **Pin Microsoft 365 Copilot and its companion apps to the Windows taskbar (recommended)**
