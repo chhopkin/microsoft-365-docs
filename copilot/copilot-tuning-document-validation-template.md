@@ -85,7 +85,7 @@ To use the Document Validation agent template, you need a rulebook or guidelines
 
 1. The agent does the rest. It systematically extracts rules from the rulebook and validates your document against each rule to identify noncompliance and suggest a fix.
 
-    :::image type="content" source="media/copilot-tuning-document-validation-template/extract-rules.png" alt-text="Screenshot of the agent extracting rules and validating the document." lightbox="":::
+    :::image type="content" source="media/copilot-tuning-document-validation-template/extract-rules.png" alt-text="Screenshot of the agent extracting rules and validating the document." lightbox="media/copilot-tuning-document-validation-template/extract-rules.png":::
 
 1. The agent responds with a document containing comments inserted highlighting violations with an explanation, a risk (Critical/Advisory) level for each violation, and a suggested fix.
 
@@ -185,7 +185,7 @@ To use Tune Context with a Document Validation agent template:
 
 9. **Evaluation results**: You receive an email notification when evaluation results are available. You see scores for all the evaluation metrics you defined along with explanatory insights. You can review detailed evaluation results by selecting **View Evaluation File** at the bottom of the results page.
 
-    :::image type="content" source="media/copilot-tuning-document-validation-template/evaluation-results.jpg" alt-text="Screenshot of evaluation results with scores and insights." lightbox="":::
+    :::image type="content" source="media/copilot-tuning-document-validation-template/evaluation-results.jpg" alt-text="Screenshot of evaluation results with scores and insights." lightbox="media/copilot-tuning-document-validation-template/evaluation-results.jpg":::
 
 10. **Share agent**: You can share your newly tuned agent with users in your organization. They can use your tuned agent to validate any documents by using the guidelines you tuned with.
 
