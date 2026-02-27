@@ -26,7 +26,7 @@ ms.custom:
 service.tree.id: 95459a4b-434c-4f83-879b-aa5f509fc7fa
 search.appverid: MET150
 description: "Learn about Microsoft business billing accounts and how they're used to manage account settings, invoices, payment methods, and purchases."
-ms.date: 09/15/2025
+ms.date: 02/26/2026
 ---
 
 # Understand your Microsoft business billing account
