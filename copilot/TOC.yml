@@ -443,6 +443,16 @@ items:
           href: app-builder-privacy-data-subject-request-faq.md
         - name: App Builder privacy and data subject request (DSR) FAQ
           href: responsible-ai/faq-app-builder.md
+      - name: Coworker agent
+        items:
+        - name: Overview of Coworker agent
+          href: index.md
+        - name: Get started
+          href: get-started.md
+        - name: Use Coworker agent
+          href: use-coworker-agent.md
+        - name: Coworker agent FAQ
+          href: coworker-agent-faq.md
       - name: Learning agent
         items:
         - name: Overview and setup of Learning agent
