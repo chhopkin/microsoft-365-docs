@@ -18,9 +18,9 @@ This guidance describes how third-party (3P) and independent software vendor (IS
 
 ## Enumerating files
 
-Standard Microsoft Graph and SharePoint list APIs continue to return archived items when enumerating folders, lists, or drive items. These APIs return **metadata only**, and no additional handling is required during enumeration.
+Standard Microsoft Graph and SharePoint list APIs continue to return archived items when enumerating folders, lists, or drive items. These APIs return **metadata only**, and no additional handling is required during enumeration. These APIs will return a blank `archiveStatus` property for active files. For archived or reactivating files, the property indicates the corresponding state.
 
-Archived files always appear in enumeration results. Applications should **not** assume a file is active simply because it is returned in a list.
+Archived files always appear in enumeration results. Applications should **not** assume a file is active simply because it is returned in a list. For most enumeration APIs, the archive status will be returned by default.
 
 ### Recommended enumeration APIs
 
@@ -30,8 +30,6 @@ Archived files always appear in enumeration results. Applications should **not**
 
 > [!NOTE]
 > For list item enumeration, archive status is not returned by default. To retrieve the archive state, you must explicitly include `$expand=fields($select=_FileArchiveStatus)` in the request.
-
-For active files, the `_archiveStatus_` property is blank. For archived or reactivating files, the property indicates the corresponding state.
 
 - **SharePoint REST/CSOM** – Standard list enumeration endpoints continue to function and return archive status by default.
 
@@ -53,7 +51,7 @@ GET /drives/{drive-id}/items/{item-id}/content
 
 ## Reactivating files
 
-Users can reactivate archived files directly from SharePoint or OneDrive through the library user interface. Once reactivated, the file becomes readable again after the rehydration process completes.
+Users can reactivate archived files directly from SharePoint or OneDrive through the SharePoint document library user interface. Once reactivated, the file becomes readable again after the reactivation process completes.
 
 ### Guidance for applications
 
@@ -99,7 +97,7 @@ POST /drives/{driveId}/items/{itemId}/reactivate
 
 When reactivating a file, the response indicates whether the file is reactivated instantly or transitions into a rehydration period:
 
-- If the file is reactivated instantly, no `_archiveStatus_` property is returned.
+- If the file is reactivated instantly, no `archiveStatus` property is returned.
 - If reactivation requires up to 24 hours, the response includes:
 
 ```json
@@ -108,4 +106,4 @@ When reactivating a file, the response indicates whether the file is reactivated
 }
 ```
 
-For full details on parameters, permissions, throttling, and error handling, see the [Microsoft Graph documentation for Archive](https://learn.microsoft.com/graph/api/driveitem-archive?view=graph-rest-beta).
+For full details on parameters, permissions, throttling, and error handling, see the [Microsoft Graph documentation for Microsoft 365 Archive](/graph/api/driveitem-archive?view=graph-rest-beta).
