@@ -18,7 +18,7 @@ ms.collection:
 
 # Copilot Tuning Document Validation agent template
 
-The **Document Validation agent template** for Microsoft 365 Copilot helps organizations review documents for compliance with internal guidelines, policies, branding standards, and regulatory requirements. It automates manual review workflows by identifying noncompliant content, categorizing violations by risk, and providing actionable remediation guidance directly within documents.
+The **Document Validation** agent template for Microsoft 365 Copilot helps organizations review documents for compliance with internal guidelines, policies, branding standards, and regulatory requirements. It automates manual review workflows by identifying noncompliant content, categorizing violations by risk, and providing actionable remediation guidance directly within documents.
 
 This agent is designed for high-stakes and repeatable review scenarios where accuracy, consistency, and auditability are critical.
 

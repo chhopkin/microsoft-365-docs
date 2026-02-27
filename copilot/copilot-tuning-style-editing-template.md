@@ -17,7 +17,7 @@ ms.collection:
 
 # Copilot Tuning Style Editing agent template
 
-The **Style Editing Tunable agent template** helps organizations standardize how content is rewritten so it consistently reflects their brand tone, voice, and writing standards. By using Copilot Tuning, you can configure the agent to apply style rules automatically while preserving the original meaning and intent of the content.
+The **Style Editing** agent template helps organizations standardize how content is rewritten so it consistently reflects their brand tone, voice, and writing standards. By using Copilot Tuning, you can configure the agent to apply style rules automatically while preserving the original meaning and intent of the content.
 
 This agent is designed for teams that produce large volumes of written content and want consistent, high‑quality results without repeated manual editing.
 

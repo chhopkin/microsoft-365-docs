@@ -18,7 +18,7 @@ ms.collection:
 
 # Copilot Tuning Document Summary agent template
 
-The **Document Summary agent template** helps you generate summaries that reflect your organization’s voice, priorities, and quality standards. By using Copilot Tuning, you can configure the agent to adapt summaries to specific audiences, purposes, tones, and lengths without rewriting prompts every time.
+The **Document Summary** agent template helps you generate summaries that reflect your organization’s voice, priorities, and quality standards. By using Copilot Tuning, you can configure the agent to adapt summaries to specific audiences, purposes, tones, and lengths without rewriting prompts every time.
 
 This capability is useful for scenarios such as executive briefings, legal and compliance reviews, education, healthcare documentation, internal communications, and business development. By standardizing how teams produce summaries, they can save time, improve decision-making, and deliver consistent results.
 
