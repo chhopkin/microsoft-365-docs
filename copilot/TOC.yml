@@ -490,4 +490,6 @@ items:
     href: release-notes.md
   - name: Submit Copilot feedback to Microsoft
     href: provide-feedback.md
+  - name: Weave
+    href: weave.md
 
