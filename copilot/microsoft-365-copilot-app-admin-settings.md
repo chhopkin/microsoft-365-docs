@@ -46,7 +46,7 @@ To use the features in this article, you need the **Office Apps admin** role-bas
 
 When users open the Microsoft 365 Copilot app, they see a navigation bar. You can show or hide some features on the navigation bar, depending on your license.
 
-:::image type="content" source="media/microsoft-365-copilot-app-admin-settings/microsoft-365-copilot-app-left-navigation.png" alt-text="Screen shot that shows the Microsoft 365 Copilot app left navigation and its features for users with a Microsoft 365 Copilot license.":::
+:::image type="content" source="media/microsoft-365-copilot-app-admin-settings/m365-copilot-app-features-admins-can-control.png" alt-text="Screen shot that shows the Microsoft 365 Copilot app left navigation and its features for users with a Microsoft 365 Copilot license.":::
 
 The following table lists the Copilot app settings that you can configure.
 

@@ -171,23 +171,23 @@ To use Tune Context with a Document Validation agent template:
 
 :::image type="content" source="media/copilot-tuning-document-validation-template/evaluation-criteria.png" alt-text="Screenshot of reviewing evaluation criteria for the agent." lightbox="media/copilot-tuning-document-validation-template/evaluation-criteria.png":::
 
-1. **Provide rulebook:** As a last step, add context for your validation agent. Provide the rulebooks or guidelines that you want to use to validate your documents and select **Generate Rules**.
+6. **Provide rulebook:** As a last step, add context for your validation agent. Provide the rulebooks or guidelines that you want to use to validate your documents and select **Generate Rules**.
 
     :::image type="content" source="media/copilot-tuning-document-validation-template/rulebook-agent.png" alt-text="Screenshot of providing a rulebook for the validation agent." lightbox="media/copilot-tuning-document-validation-template/rulebook-agent.png":::
 
-1. **Review generated rules**: The agent extracts rules from your rulebook or guideline document. These rules are categorized into rules and subrules. Review them to ensure they accurately represent your organization's guidelines. Add, edit, or remove any rules or subrules. Select **Save** when you're done.
+7. **Review generated rules**: The agent extracts rules from your rulebook or guideline document. These rules are categorized into rules and subrules. Review them to ensure they accurately represent your organization's guidelines. Add, edit, or remove any rules or subrules. Select **Save** when you're done.
 
 :::image type="content" source="media/copilot-tuning-document-validation-template/generated-rules.png" alt-text="Screenshot of reviewing generated rules from the rulebook." lightbox="media/copilot-tuning-document-validation-template/generated-rules.png":::
 
-1. **Custom evaluation**: When **Tune Context** finishes, the tuning experience starts the evaluations automatically. This process is asynchronous. You can close the right panel and start using your tuned agent.
+8. **Custom evaluation**: When **Tune Context** finishes, the tuning experience starts the evaluations automatically. This process is asynchronous. You can close the right panel and start using your tuned agent.
 
     :::image type="content" source="media/copilot-tuning-document-validation-template/custom-evaluation.png" alt-text="Screenshot of custom evaluation process starting automatically." lightbox="media/copilot-tuning-document-validation-template/custom-evaluation.png":::
 
-1. **Evaluation results**: You receive an email notification when evaluation results are available. You see scores for all the evaluation metrics you defined along with explanatory insights. You can review detailed evaluation results by selecting **View Evaluation File** at the bottom of the results page.
+9. **Evaluation results**: You receive an email notification when evaluation results are available. You see scores for all the evaluation metrics you defined along with explanatory insights. You can review detailed evaluation results by selecting **View Evaluation File** at the bottom of the results page.
 
     :::image type="content" source="media/copilot-tuning-document-validation-template/evaluation-results.jpg" alt-text="Screenshot of evaluation results with scores and insights." lightbox="":::
 
-1. **Share agent**: You can share your newly tuned agent with users in your organization. They can use your tuned agent to validate any documents by using the guidelines you tuned with.
+10. **Share agent**: You can share your newly tuned agent with users in your organization. They can use your tuned agent to validate any documents by using the guidelines you tuned with.
 
 ### Use a Context Tuned agent
 
