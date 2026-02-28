@@ -67,7 +67,7 @@ Yes, nearly all Microsoft Purview features continue to operate as normal.
 
 #### Is content in archived sites searchable?
 
-Admin-level search and Purview-based search operate like normal. End-user search is supported.  To learn more, visit [End-user search](search/m365-archive-search-overview.md)
+Admin-level search and Purview-based search operate like normal. End-user search is supported.  To learn more, visit [End-user search.](search/m365-archive-search-overview.md)
 
 #### What’s the availability timing of Microsoft 365 Archive for Microsoft Government Community Cloud (GCC) customers?
 
