@@ -84,7 +84,7 @@ Set-SPOSite -Identity <site_url> -AllowFileArchive $true
 ```
 
 
-1. **Defaults for new sites**. To control the value of the _**-AllowFileArchive**_ flag for sites created in the future, tenants can utilize a new flag on the _**Set-SPOTenant**_ cmdlet called _**-AllowFileArchiveForNewSitesByDefault**_ .  By default, this property is set to True, meaning that new sites will be able to archive files by default. This property’s value will be copied to future created sites' ***-AllowFileArchive*** property flag, dictating whether those sites allow file archive.
+1. **Defaults for new sites**. To control the value of the _**-AllowFileArchive**_ flag for sites created in the future, tenants can utilize a new flag on the _**Set-SPOTenant**_ cmdlet called _**-AllowFileArchiveForNewSitesByDefault**_.  By default, this property is set to True, meaning that new sites will be able to archive files by default. This property’s value will be copied to future created sites' ***-AllowFileArchive*** property flag, dictating whether those sites allow file archive.
 
 ```PowerShell
 Set-SPOTenant -AllowFileArchiveForNewSitesByDefault $true 
