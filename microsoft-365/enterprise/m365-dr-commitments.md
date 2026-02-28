@@ -149,7 +149,7 @@ The following customer data is stored at rest in the _Local Region Geography_:
 - Sensitive information types, including Enhanced Data Match (EDM) and Trainable Classifiers, configured by customers
 
 > [!NOTE]
-> The Microsoft Purview services list mentioned above includes all services covered as part of the _Advanced Data Residency_ commitment as of December 2025. Additional Microsoft Purview services aren't currently supported.
+> The Microsoft Purview services list includes all services covered as part of the _Advanced Data Residency_ commitment as of February 2026. Additional Microsoft Purview services aren't currently supported.
 
 ## Microsoft Teams
 

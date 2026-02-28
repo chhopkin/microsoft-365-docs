@@ -1,10 +1,11 @@
 ---
 title: "Microsoft 365 Copilot Tuning Overview (preview)"
 f1.keywords:
-author: mestew
-ms.author: mstewart
-manager: scotv
-ms.date: 02/11/2026
+author: lauragra
+ms.author: lauragra
+manager: calvind
+ms.reviewer: riyazp
+ms.date: 02/24/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: overview
@@ -18,106 +19,124 @@ description: "Learn how to use Microsoft 365 Copilot Tuning to create task-speci
 
 # Microsoft 365 Copilot Tuning overview (preview)
 
-Microsoft 365 Copilot Tuning allows organizations to fine-tune large language models (LLMs) by using their own tenant data. These fine-tuned models power [agents](/microsoft-365-copilot/extensibility/overview-declarative-agent) that can perform domain-specific tasks based on the organization's unique knowledge. All training and AI processing happens within your Microsoft 365 tenant, so your data remains secure and governed by your existing compliance controls. The result is an AI assistant that behaves like an expert team member, providing tailored assistance in line with your organization's content and rules.
+Microsoft 365 Copilot Tuning is an AI customization capability that enables organizations to create task-specific Copilot agents by tuning large language models (LLMs) with their own organizational data. Tuning allows agents to produce responses that reflect an organization's domain knowledge, terminology, tone, and quality standards.
 
-This article explains how organizations can use Copilot Tuning to create task-specific fine-tuned LLMs. It covers how users can build agents on these fine-tuned models, and how IT administrators can govern the feature.
+Unlike general-purpose AI experiences, tuned agents are designed for specific, repeatable tasks. Because they operate entirely within the Microsoft 365 tenant, organizational data remains protected by existing security, compliance, and governance controls.
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=7b2cdaf2-fb86-421d-9932-8a2b02cbdbc5]
+This article provides an overview of Copilot Tuning, including key capabilities, supported scenarios, tuning concepts, and administrative governance.
 
-[!INCLUDE [copilot-tuning-preview](includes/copilot-tuning-preview.md)]
+> [!IMPORTANT]
+> Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
 
-## Key capabilities and scenarios
+## Key capabilities
 
-Copilot Tuning allows for fine-tuning of LLMs through an intuitive no-code UI. Business analysts or subject-matter experts can use their domain knowledge to fine-tune LLMs on relevant tenant data, allowing the model to learn their unique voice and procedures that are custom to the organization. For example, a legal department analyst can fine-tune a model using the firm's past case briefs and templates to create a contract drafting agent that writes documents using the firm's unique style and terminology.
+Copilot Tuning enables organizations to build AI experiences that align closely with their business needs. It offers the following features:
 
-Copilot Tuning provides the following key capabilities and benefits:
+- **No-code customization** - Create tuned agents using templates in Agent Builder without coding or data science expertise. Business users and domain experts can guide tuning using curated examples and organizational content.
 
-- **No-code model fine-tuning** - Fine-tune LLMs on internal data by using an intuitive interface in Microsoft Copilot Studio.
+- **Task-specific agents** - Build agents optimized for high-value scenarios such as answering questions, document writing, summarization, validation, and editing writing style. Tuned agents produce outputs that reflect organizational vocabulary, structure, and expectations.
 
-- **Domain-specific agents** - Build specialized Copilot agents based on the fine-tuned models that are tailored to business tasks. You can create agents for scenarios like expert Q&A, proposal generation, or report summarization that behave like an expert in that domain. The agent produces results with the appropriate tone, vocabulary, and level of detail for the organization.
+- **Improved efficiency and consistency** - By embedding organizational knowledge into Copilot, tuned agents can reduce the time required for complex content tasks while improving consistency and adherence to internal standards.
 
-- **More intuitive insights and automation** - Encoding your organization's business know-how into Copilot enables analysis and content creation tuned to your organization. Tasks that might take days of manual effort (searching documents, compiling data, writing drafts) are completed in minutes by the agent. This automation allows your analysts and subject-matter experts to focus on higher-value work while Copilot handles routine or information-heavy tasks.
+- **Integration with Microsoft 365 data** - Tuned agents can use selected organizational content and reason over live enterprise data through Microsoft Graph, helping ensure responses are grounded in up-to-date information.
 
-- **Integration with data sources** - Copilot Tuning can use the rich content already in your Microsoft 365 ecosystem. You select knowledge sources; the model then learns from this tenant data to ensure that the agent's responses are grounded in the organization's information. Because Copilot is integrated with Microsoft Graph, the agent can also reason over live enterprise data, giving you a powerful tool to query and summarize up-to-date information from Microsoft 365.
+- **Enterprise-grade security** - All tuning operations occur within the Microsoft 365 trust boundary. Tuned agents honor access control lists (ACLs) from the training data and only return information that users are authorized to access.
 
-Your organization can use Copilot Tuning for the following scenarios:
+## Supported scenarios
 
-- **Q&A** - Create domain-specialized agents that understand and reason over tenant-specific content—such as regulations, tax codes, or scientific reports—across formats like .docx, .pdf, and .html. Tuned to reflect the organization's tone, terminology, and compliance language, Q&A agents provide clause-aware answers, summaries, and cross-document comparisons (for example, regulatory differences across regions). These agents are optimized for stable, text-heavy content in deep domain-driven workflows where precision and context matter.
+Copilot Tuning supports a set of task-oriented agent templates.
 
-- **Document generation** - Train the model on document templates and past reports to generate first drafts of complex documents that would otherwise require multiple prompts and model outputs. For example, you can create a Proposal Writer agent that assembles sales proposals or drafts legal contracts in the company-approved format and tone.
+### Document writing
 
-- **Summarization** - Generate high-quality, structured summaries of complex documents that reflect your organization's tone, formatting, and content priorities. Ideal for high-volume or high stakes use cases like legal, regulatory, or executive reporting, summarization agents ensure consistency, reduce manual effort, and adapt to your preferred summary style. Train your LLM with example pairs to produce summaries that are clear, actionable, and aligned with your internal standards.
+Document writing agents generate structured, long-form documents based on organizational templates, examples, and standards. These agents can produce first drafts of content such as proposals, contracts, policies, and technical documentation while adhering to formatting and compliance requirements.
 
-## Fine-tune the LLM
+For more information, see [Document Writing agent template](/copilot/microsoft-365/copilot-tuning-document-writing-template).
 
-To successfully produce a task-specific agent that captures your organization's expertise, you need to fine-tune the LLM.
+### Document summary
 
-Apply the following best practices to tune the LLM:
+Document summary agents generate tailored summaries based on tone, audience, purpose, and length. Organizations can tune these agents to reflect internal summarization standards and emphasize information that is most relevant for their use cases.
 
-- **Start with clear objectives** - Identify a high-value task to ensure that the agent delivers tangible outcomes and that you focus your time, data, and effort on work that drives a meaningful return. Copilot Tuning currently supports three primary task types: expert Q&A, document generation, and document summarization.
+For more information, see [Document Summary agent template](/copilot/microsoft-365/copilot-tuning-document-summary-template).
 
-- **Curate quality training data** - Gather the most relevant and up-to-date documents for the task. The effectiveness of fine-tuning depends on good data. Use authoritative sources such as policy documents, proprietary reports, approved templates, and finalized deliverables that reflect your organization's standards, format, and decision logic.
+### Expert answers (Q&A)
 
-    For tasks like document generation or summarization, provide high-quality input/output pairs to help the model learn structure, tone, and content expectations.
+Expert answers agents provide domain-specific responses by grounding answers in organizational content. These agents support scenarios that require deep search across large datasets, strict policy guardrails, or specialized terminology.
 
-- **Define clear instructions and constraints** - When configuring the model in Copilot Studio, you can input instructions for the agent's tone and behavior. Provide clear guidelines; for example, "Use a professional and friendly tone" or "Only use information from official 2023 policy manual." You can also supply starter prompts or example questions to steer the model's responses. These instructions help the agent understand context and style.
+For more information, see [Expert Answers agent template](/copilot/microsoft-365/copilot-tuning-expert-answers-template).
 
-- **Use preview and evaluation tools** - Copilot Tuning includes evaluation steps. After your model is trained, test it with sample queries or tasks. Copilot Studio allows you to compare test results against baseline answers. Review the outputs to ensure that they meet your expectations for accuracy and tone. If they don't, refine your training data or instructions and retrain.
+### Document validation
 
-- **Iterate with feedback** - Treat fine-tuning as an iterative process. Monitor how the agent performs in use. Regularly update the model with new data or corrections to keep it accurate. For example, if policies change or you notice opportunities for further refinement, incorporate those updates and run another fine-tuning round.
+Document validation agents review documents for compliance with organizational guidelines, policies, branding standards, and regulatory requirements. They identify issues, categorize risks, and provide actionable feedback directly within documents.
 
-- **Know when to use Copilot vs. fine-tuning** - If your scenario is broad or the information changes daily, using Copilot's Retrieval Augmented Generation (RAG), which searches your content at query time, might be sufficient. Fine-tuning works best for well-defined, repetitive tasks where the model needs a deep understanding of static content or a particular style. If your task depends on general reference or lightweight synthesis, start with Copilot. If the output needs to reflect your organization's specific voice, structure, or reasoning - especially for repeatable, high-value tasks - that's a signal to invest in fine-tuning.
+For more information, see [Document Validation agent template](/copilot/microsoft-365/copilot-tuning-document-validation-template).
 
-## Use agents tuned on LLMs
+### Style editing
 
-After you fine-tune the model, users can create and deploy an agent based on that model by using Copilot Studio agent builder.
+Style editing agents refine drafts to align with an organization's brand voice, tone, and writing guidelines. These agents help ensure consistency across content produced by different users and teams.
 
-Users interact with agents based on fine-tuned models just like they interact with Copilot - either via the Microsoft 365 Copilot app or Copilot Chat in Teams or another app. They can ask natural language questions, and the agent responds based on its fine-tuned knowledge.
+For more information, see [Style Editing agent template](/copilot/microsoft-365/copilot-tuning-style-editing-template).
 
-Agents based on fine-tuned models provide the following benefits to your organization:
+### Optimization agent
 
-- **Increased productivity** - Agents act as intelligent assistants in daily work. Users can get instant answers or generate content based on their organization's data. Users can also complete tasks faster by relying on agents to generate summaries, analyze data, draft communications, and more.
+Optimization agents assist with business optimization problems such as resource allocation, task assignment, and planning. Users define objectives and constraints, and the agent produces explainable solutions based on uploaded data and organizational rules.
 
-- **Consistency and accuracy** - Agent responses based on a fine-tuned model are consistent with organizational data. This reduces the risk of errors due to outdated documents or external search engines.
+For more information, see [Optimization agent](/copilot/microsoft-365/copilot-tuning-optimization-template).
 
-- **Solution creation** - Copilot Tuning empowers users to create AI-powered solutions to solve their specific productivity needs. This fosters a culture of innovation in the organization.
+## Agent tuning
 
-- **Improved collaboration** - Agents provide a way to make organizational expertise available to all users. This helps to remove knowledge silos in the organization and increase information sharing and collaboration.
+Agent tuning enables you to refine agents created from tunable templates in Microsoft 365 Copilot Agent Builder. Each tunable template is designed for a specific task and includes a predefined inference workflow that specifies the foundation model, instructions, grounding approach, tool usage, and output generation. This workflow provides an optimized default configuration- a ready-to-use "recipe" that helps agents retrieve relevant context, apply tools effectively, and produce high-quality outputs from the start.
 
-Apply the following best practices when creating agents based on fine-tuned models:
+In many scenarios, agents created from these templates meet quality expectations without more customization. When further refinement is required- such as aligning outputs more closely with organizational standards, domain-specific needs, or user expectations- agent tuning provides structured ways to improve behavior and performance.
 
-- **Understand the model's scope** - What data and task is the agent based on? Was it trained on HR documents up to 2022? Is it meant only for summarizing certain reports? Knowing the scope helps you ask the right questions and not expect it to do unrelated tasks.
+Tunable templates are available to Copilot-licensed users in eligible tenants and are created in Agent Builder. When you create an agent from a tunable template, users can customize supported properties such as the agent name, instructions, and prompts. Access to tuning capabilities depends on tenant administrator configuration. If tuning options aren't available, users might need to request access from an administrator. Eligible users would be able to view "tune agent" option after creating an agent from a tunable template.
 
-- **Provide clear prompts** - When interacting with the agent, ask clear, specific questions. Though the model is fine-tuned, well-phrased queries yield better results. For example, instead of asking "Tell me about benefits", ask "What is the maternity leave policy for full-time employees?" Fine-tuned agents can handle complex queries, but clarity helps it provides more precise information.
+:::image type="content" source="media/copilot-tuning-overview/agent-builder.jpg" alt-text="Screenshot of the Agent Builder interface showing the tune agent option after creating an agent from a tunable template." lightbox="media/copilot-tuning-overview/agent-builder.jpg":::
 
-- **Include starter prompts** - Starter prompts are displayed in the agent UI and help users understand the agent's capabilities. Tailor your starter prompts to the key scenarios for your fine-tuned agent to help users take full advantage of the agent's knowledge.
+:::image type="content" source="media/copilot-tuning-overview/tuning-options.jpg" alt-text="Screenshot of the tuning options interface displaying available tuning dimensions for the agent." lightbox="media/copilot-tuning-overview/tuning-options.jpg":::
 
-- **Refine and iterate** - Agents based on fine-tuned models support multi-turn conversations. If the agent's response isn't exactly what you need, refine your prompt or ask follow-up questions. The fine-tuned agent uses the follow-up questions to adjust its response.
+Three types of tuning are supported: tuning context, tuning tools, and tuning model. These dimensions are designed to work together and are evaluated using consistent user-goal driven rubric to ensure tuning leads to measurable improvements.
 
-- **Apply security best practices** - Don't ask fine-tuned agents to provide information that should be confidential, and handle agent responses in accordance with your organization's policies.
+### Tune Context
 
-- **Provide feedback to further tune agents** - Use the feedback mechanism to train or tweak the fine-tuned agent to improve its performance. Providing regular feedback helps the agent to continuously improve. In Copilot, users can choose the thumbs-up and thumbs-down icons to submit feedback on the agent's responses. This feedback is sent to Microsoft and helps the product team identify common issues and improve model performance over time.
+**Context tuning** defines the agent's goals and success criteria by specifying the primary task, domain, and representative examples. Context requirements vary by template. For example, document writing templates use examples of the types of documents the agent should produce, document summary templates require inputs such as purpose, audience, length, tone, and focus areas, and expert answers templates rely on sample files to generate evaluation questions and answers. Based on this input, the system proposes subgoals and evaluation rubrics, which establish a measurable baseline for assessing agent performance.
 
-## Admin settings and governance
+:::image type="content" source="media/copilot-tuning-overview/success-criteria.png" alt-text="Screenshot of the context tuning interface showing goal definition and success criteria configuration." lightbox="media/copilot-tuning-overview/success-criteria.png":::
 
-Copilot Tuning provides tenant-wide settings, security, and governance features to enable admins to set up the environment with the appropriate guardrails in place.
+### Tune Tool
 
-The following key admin features are available for Copilot Tuning:
+**Tool tuning** extends agent capabilities by integrating additional agents or tools into the workflow. These tools can be used to perform tasks such as research, validation, or writing style alignment. Custom orchestration instructions define how tools are applied, and agent performance is re-evaluated against the established rubrics after changes are made.
 
-- **Access control** - AI admins can enable Copilot Tuning for their organization or for a specific subset of users. For example, an admin might enable Copilot Tuning only for the R&D and Legal departments, and designate certain users in those teams to create fine-tuned models and specialized agents. After a model is trained and deployed, the AI admin controls access to the trained model.
+:::image type="content" source="media/copilot-tuning-overview/tool-orchestration-options.jpg" alt-text="Screenshot of the tool tuning interface displaying available tools and orchestration configuration options." lightbox="media/copilot-tuning-overview/tool-orchestration-options.jpg":::
 
-- **Microsoft 365 admin center governance** - Admins can monitor fine-tuning projects and agents via the Copilot management section in the Microsoft 365 admin center. They can view which custom models are deployed and delete a model if it becomes obsolete.
+### Tune Model
 
-- **Security and compliance** - Copilot Tuning is built with enterprise-grade security. Model training occurs in a tenant-isolated environment, and the resulting model inherits the access permissions of the underlying data. No customer data is transmitted to external services during training; the fine-tuning happens within the secure cloud associated with your tenant.
+**Model tuning** focuses on improving reasoning and output quality through supervised fine-tuning and reinforcement learning techniques. High-quality examples from organizational data are used as training input, with evaluation rubrics guiding alignment to organizational expectations. During this process, access controls, file permissions, and sensitivity labels can be applied. Model tuning runs asynchronously, allowing users to continue using the existing agent while tuning is in progress. When tuning completes, evaluation results determine whether the updated model is ready to be published.
 
-    Copilot Tuning excludes any files that the security group or groups applied to the model don't have permissions to access. It also suggests security groups to add to its training data to maximize its knowledge. This feature provides an extra layer of security for the model.
+Agent tuning is an iterative process rather than a one-time configuration. Organizations are encouraged to monitor real-world usage, gather feedback, and refine context, tools, data, or rules as requirements evolve over time. This ongoing lifecycle helps ensure agents remain accurate, relevant, and aligned with changing needs.
 
-    > [!NOTE]
-    > When you fine-tune a model, the model weights are adjusted based on the training data. Changes to access permissions on the training data aren't automatically applied to the model; AI admins need to update the permissions on the model in the Microsoft 365 admin center.
+:::image type="content" source="media/copilot-tuning-overview/training-data.jpg" alt-text="Screenshot of the model tuning interface showing training data selection and fine-tuning progress." lightbox="media/copilot-tuning-overview/training-data.jpg":::
 
-    Any Microsoft Graph data returned in Copilot responses also honors document permissions; responses don't include information a user doesn't have access to.
+## Using tuned agents
 
-- **Deployment and monitoring** - When a model is fine-tuned and deployed, builders can use it in  an agent and share the agent with users in the organization who have access to the model. Admins can control who has access to the agent via security groups, and can monitor agent usage via Copilot usage analytics dashboards.
+After creation or tuning, agents can be shared with eligible users across the organization. Users interact with tuned agents through supported Microsoft 365 Copilot experiences, such as the Microsoft 365 Copilot app or Copilot Chat in Microsoft Teams.
+
+Tuned agents provide the following benefits:
+
+- Increased productivity through faster content creation and analysis
+- Improved accuracy by grounding responses in organizational data
+- Consistent outputs aligned with internal standards
+- Broader access to organizational knowledge across teams
+
+### Best practices
+
+Apply the following best practices to make the best use of tuned agents:
+
+- Understand the agent's scope and limitations.
+- Use clear, specific prompts.
+- Provide starter prompts to guide users.
+- Refine outputs through multi-turn interactions.
+- Follow organizational security and compliance policies.
+- Encourage user feedback to improve agent quality over time.
 
 ## Disclaimer
 
