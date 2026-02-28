@@ -56,7 +56,7 @@ You receive this notice because your subscription is associated with a partner w
 To continue your service, [transfer your subscriptions to another CSP partner](#find-a-new-partner) or [buy directly from Microsoft](#buy-a-subscription-directly-from-microsoft).
 
 - If your indirect reseller was deauthorized, the distributor (details shared with you in the email) can also assist you in identifying a new indirect reseller to work with.
-- If your distributor was deauthorized, work with your indirect reseller to ensure they take action to engage with a new distributor.   
+- If your distributor was deauthorized, work with your indirect reseller to make sure they take action to engage with a new distributor.   
 - If your deauthorized partner is a direct bill partner, the new direct bill partner you select can advise you on the steps you need to take.
 
 If you're unsure which partner type applies to you, refer to the "[ACTION REQUIRED] Subscription(s) at risk of deletion" email.
