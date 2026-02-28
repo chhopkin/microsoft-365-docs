@@ -71,7 +71,7 @@ Administrators should notify site owners and end users before archiving a site s
     
      - Teams, OneDrive, and SharePoint mobile applications.
     
-     - MacOs with the OneDrive sync client.
+     - macOS with the OneDrive sync client.
     
      - Older versions of Windows, such as Windows 10 and earlier, with the OneDrive sync client.
   
