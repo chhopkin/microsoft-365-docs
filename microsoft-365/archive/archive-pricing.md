@@ -96,7 +96,7 @@ Your charges for Microsoft 365 Archive depend on your tenant’s standard storag
 
 > [!NOTE]
 > 
-> Unlicensed archived OneDrive accounts can't utlilize additional SharePoint storage to bypass archive costs. For more information, see [Manage unlicensed OneDrive user accounts](/SharePoint/unlicensed-onedrive-accounts#frequently-asked-questions).
+> Unlicensed archived OneDrive accounts can't utilize additional SharePoint storage to bypass archive costs. For more information, see [Manage unlicensed OneDrive user accounts](/SharePoint/unlicensed-onedrive-accounts#frequently-asked-questions).
 
  
 
