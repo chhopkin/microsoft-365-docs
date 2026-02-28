@@ -30,7 +30,7 @@ ms.date: 02/27/2026
 
 # Resolve subscriptions detached from CSP partners
 
-When you buy a subscription from a Microsoft Cloud Solution Provider (CSP), and that partner is no longer part of the CSP network, they no longer manage your subscription on your behalf. We call these subscriptions *detached subscriptions*. Without an associated partner, the subscription is unmanaged, and access to services will be disrupted as the process to delete the subscription is initiated. This article explains your options for resolving these subscriptions, either by finding a new partner or buying a subscription directly from Microsoft.  
+When you buy a subscription from a Microsoft Cloud Solution Provider (CSP), and that partner is no longer part of the CSP network, they no longer manage your subscription on your behalf. We call these subscriptions *detached subscriptions*. Without an associated partner, the subscription is unmanaged, and access to services is disrupted when the process to delete the subscription starts. This article explains your options for resolving these subscriptions, either by finding a new partner or buying a subscription directly from Microsoft.
 
 ## Find a new partner
 
@@ -40,7 +40,7 @@ If you choose to find a new partner, you can explore available partners through 
 
 - When you buy a subscription from Microsoft, you get direct billing and support. For more information, see [Learn how to buy a new subscription](../try-or-buy-microsoft-365.md) and [Explore Microsoft 365 for business support plans](https://www.microsoft.com/microsoft-365/business/microsoft-365-for-business-support-options?msockid=15af1489bfd667952f27000abefb66ef).
 
-- If you have purchased with a Microsoft representative, reach out to them to explore consolidating your subscriptions under an existing agreement. 
+- If you bought your subscription through a Microsoft representative, contact them to explore consolidating your subscriptions under an existing agreement. 
 
 > [!IMPORTANT]
 > If you choose to move and buy your subscription directly from Microsoft, to avoid service disruptions, you must buy a subscription for the same product or service that you currently have with a CSP partner and assign the licenses to the same users.
@@ -49,17 +49,15 @@ If you choose to find a new partner, you can explore available partners through 
 
 ### Why am I receiving an "[ACTION REQUIRED] Subscription(s) at risk of deletion" email? What does deprovisioning mean for my subscription?
 
-You receive this notice because your subscription is associated with a partner who is no longer authorized to transact as a Cloud Solution Provider (CSP). Deprovisioning means your access to the subscription will be terminated and your data will be at risk of deletion if you don’t take the necessary action. Customers will need to follow the guidance on [transferring your subscriptions to another CSP partner](#find-a-new-partner) or [buy directly from Microsoft](#buy-a-subscription-directly-from-microsoft).
+You receive this notice because your subscription is associated with a partner who is no longer authorized to transact as a CSP. Deprovisioning means if you don’t take the necessary action, your access to the subscription will be terminated and your data will be at risk of deletion. To avoid service disruption and data deletion, you must follow the guidance on [transferring your subscriptions to another CSP partner](#find-a-new-partner) or [buy directly from Microsoft](#buy-a-subscription-directly-from-microsoft).
 
 ### I want to continue my service. What options do I have?  
 
 To continue your service, [transfer your subscriptions to another CSP partner](#find-a-new-partner) or [buy directly from Microsoft](#buy-a-subscription-directly-from-microsoft).
 
-- If your indirect reseller has been deauthorized then the distributor (details shared with you in the email) may also assist you in identifying a new indirect reseller to work with.    
-
-- If your distributor has been deauthorized, please work with your indirect reseller to ensure they take action to engage with a new distributor.   
-
-- If your deauthorized partner is a direct bill partner, the new direct bill partner you select will advise you on the steps you need to take.  
+- If your indirect reseller was deauthorized, the distributor (details shared with you in the email) can also assist you in identifying a new indirect reseller to work with.
+- If your distributor was deauthorized, work with your indirect reseller to ensure they take action to engage with a new distributor.   
+- If your deauthorized partner is a direct bill partner, the new direct bill partner you select can advise you on the steps you need to take.
 
 If you're unsure which partner type applies to you, refer to the "[ACTION REQUIRED] Subscription(s) at risk of deletion" email.
 
@@ -67,13 +65,13 @@ If you're unsure which partner type applies to you, refer to the "[ACTION REQUIR
 
 No, extension or renewal isn't available in this scenario. Follow the guidance on [transferring your subscriptions to another CSP partner](#find-a-new-partner) or [buy directly from Microsoft](#buy-a-subscription-directly-from-microsoft).
 
-### Where can I see the date when my subscription(s) will be canceled in the Microsoft 365 admin center and Azure portal?
+### Where can I see the date when my subscriptions will be canceled in the Microsoft 365 admin center and Azure portal?
 
 In the Microsoft 365 admin center and Azure portal, the date appears at the top of the subscription details page in a banner for subscriptions that are attached to a partner that's being deauthorized.
 
 ### How does this affect my business processes, integrations, or users?
 
-Disabled subscriptions will impact your workflows, integrations, and user access. To minimize disruption, follow the guidance on [transferring your subscriptions to another CSP partner](#find-a-new-partner) or [buy directly from Microsoft](#buy-a-subscription-directly-from-microsoft).
+Disabled subscriptions affect your workflows, integrations, and user access. To minimize disruption, follow the guidance on [transferring your subscriptions to another CSP partner](#find-a-new-partner) or [buy directly from Microsoft](#buy-a-subscription-directly-from-microsoft).
 
 ### I'm having trouble accessing my account to retrieve my data before deprovisioning.
 
@@ -84,7 +82,7 @@ If you can't access your account, contact your transacting partner for support i
 
 ### What happens to my data? Can I export or migrate my information before deprovisioning?
 
-Yes, you can back up, export, or migrate your data before your subscription is deprovisioned. Please ensure you do this within the specified period to avoid data loss. This must be completed before your expiration date. For more information, see [What happens to my data and access when my Microsoft 365 for business subscription ends?](what-if-my-subscription-expires.md)
+Yes, you can back up, export, or migrate your data before your subscription is deprovisioned. To avoid data loss, make sure you back up, export, or migrate your data within the specified period. You must complete this step before your expiration date. For more information, see [What happens to my data and access when my Microsoft 365 for business subscription ends?](what-if-my-subscription-expires.md)
 
 ### Where can I find information about the terms and conditions that apply to deprovisioning?
 
@@ -92,7 +90,7 @@ You can find relevant terms and conditions in your service agreement and in the 
 
 ### Will I receive a refund for my pre-paid subscriptions?
 
-Your billing relationship is with the CSP partner through whom you purchased the subscriptions. Work with your partner to determine if you're eligible for a prorated refund. If applicable, take action once you receive notification of your partner's deauthorization.
+Your billing relationship is with the CSP partner through whom you purchased the subscriptions. Work with your partner to determine if you're eligible for a prorated refund. If applicable, take action after you receive notification of your partner's deauthorization.
 
 ## Related content
 
