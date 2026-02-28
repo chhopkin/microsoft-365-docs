@@ -9,7 +9,7 @@ ms.subservice: advanced-data-residency
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.date: 02/19/2026
+ms.date: 05/10/2025
 ms.reviewer: jugiammo
 ms.custom:
 - it-pro
