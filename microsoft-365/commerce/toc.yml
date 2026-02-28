@@ -20,6 +20,8 @@ items:
           href: subscriptions/renew-your-subscription.md
         - name: Reactivate your subscription
           href: subscriptions/reactivate-your-subscription.md
+        - name: Extend your subscription
+          href: subscriptions/extend-your-subscription-with-est.md
         - name: Cancel your subscription
           href: subscriptions/cancel-your-subscription.md
         - name: What if my subscription ends?
