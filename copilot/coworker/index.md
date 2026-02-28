@@ -102,15 +102,15 @@ You control what Coworker does throughout a conversation.
 Coworker helps you stay organized with built-in project and task management.
 
 - **Projects**:  Group related work into projects and track their status as **In Progress**, **Ready for Review**, or **Done**.
-- **Task views**: See your tasks in a sortable **list view** or a visual **kanban board**, whichever works best for you.
+- **Task views**: Display your tasks in a sortable **list view** or a visual **kanban board**, whichever works best for you.
 - **Project dashboard**: Get an overview of all your projects in one place, with a **Highlights** tab for your most relevant work and an **All Projects** tab for the complete list.
 
 ## Get started
 
-Learn more in [Get started with Coworker agent](get-started.md).
+Learn more in [Get started with the Coworker agent](get-started.md).
 
 ## Related information
 
 - [Get started with Coworker agent](get-started.md)
-- [Use theCoworker agent](use-coworker-agent.md)
+- [Use the Coworker agent](use-coworker-agent.md)
 - [Coworker agent FAQ](coworker-agent-faq.md)
