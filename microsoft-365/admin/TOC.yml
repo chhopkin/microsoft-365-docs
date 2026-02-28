@@ -382,8 +382,6 @@ items:
               href: adoption/ai-adoption-score.md
             - name: Organizational Messages
               href: adoption/organizational-messages.md
-            - name: Organizational Messages FAQ
-              href: adoption/organizational-messages-faq.yml
             - name: Group Level Aggregates
               href: adoption/group-level-aggregates.md
             - name: Microsoft 365 Apps health
@@ -408,6 +406,8 @@ items:
            href: setup/upgrade-users-to-latest-office-client.md
          - name: Organizational messages
            href: misc/organizational-messages-microsoft-365.md
+         - name: Organizational messages FAQ
+           href: misc/organizational-messages-microsoft-365-faq.yml
          - name: Place a mailbox on Litigation Hold
            href: misc/create-litigation-hold-mac.md
          - name: Integrated apps portal
