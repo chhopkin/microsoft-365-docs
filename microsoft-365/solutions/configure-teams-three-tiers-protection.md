@@ -67,11 +67,11 @@ Teams for sensitive and highly sensitive protection are private teams in which s
 
 ## Sensitivity labels
 
-The sensitive and highly sensitive tiers use sensitivity labels to help secure the team and its files. To implement these tiers, you must enable [sensitivity labels to protect content in Microsoft Teams, Microsoft 365 Groups, and SharePoint sites](../compliance/sensitivity-labels-teams-groups-sites.md).
+The sensitive and highly sensitive tiers use sensitivity labels to help secure the team and its files. To implement these tiers, you must enable [sensitivity labels to protect content in Microsoft Teams, Microsoft 365 Groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites).
 
 While the baseline tier doesn't require sensitivity labels, consider creating a "general" label and then requiring that all teams be labeled. This helps ensure that users make a conscious choice about sensitivity when they create a team. If you plan to deploy the sensitive or highly sensitive tiers, we do recommend creating a "general" label that you can use for baseline teams and for files that aren't sensitive. For the highly sensitive tier, we'll also specify a default sensitivity label for document libraries so that Office files and other compatible files will have that label automatically applied when they're uploaded.
 
-If you're new to using sensitivity labels, we recommend reading [Get started with sensitivity labels](../compliance/get-started-with-sensitivity-labels.md) to get started.
+If you're new to using sensitivity labels, we recommend reading [Get started with sensitivity labels](/purview/get-started-with-sensitivity-labels) to get started.
 
 If you have already rolled out sensitivity labels in your organization, consider how the labels used in the sensitive and highly sensitive tiers fit with your overall label strategy.
 
@@ -145,4 +145,4 @@ Start by [configuring the baseline level of protection](configure-teams-baseline
 
 [Security and compliance in Microsoft Teams](/microsoftteams/security-compliance-overview)
 
-[Alert policies](../compliance/alert-policies.md)
+[Alert policies](/defender-xdr/alert-policies)
