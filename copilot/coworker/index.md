@@ -3,7 +3,7 @@ title: "Coworker overview"
 description: "Learn about the Coworker agent for Microsoft 365 Copilot, which is an AI agent that takes action on your behalf."
 ms.date: 02/27/2026
 ms.topic: overview
-aauthor: leeclontz
+author: leeclontz
 manager: KumarVivek
 ms.author: leeclontz
 ms.reviewer: angieandrews
@@ -111,6 +111,5 @@ Learn more in [Get started with the Coworker agent](get-started.md).
 
 ## Related information
 
-- [Get started with Coworker agent](get-started.md)
 - [Use the Coworker agent](use-coworker-agent.md)
 - [Coworker agent FAQ](coworker-agent-faq.md)
