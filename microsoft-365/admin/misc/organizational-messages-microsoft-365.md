@@ -65,7 +65,7 @@ Organizational Messages now include two new capabilities available in public pre
   - Inactive Copilot Users.
   - Inactive Copilot Users in Teams.
 
-        You can't use **Action Segments** together with email messages during the public preview. **Action Segments** are available for the existing surfaces of Windows Spotlight, Taskbar, Notification Center, and Microsoft Teams notifications.
+    You can't use **Action Segments** together with email messages during the public preview. **Action Segments** are available for the existing surfaces of Windows Spotlight, Taskbar, Notification Center, and Microsoft Teams notifications.
 
 As we roll out the public preview for these features, we're excited to see how these features enhance communication and help drive Copilot adoption within your organization. We're committed to continuously improving these capabilities based on your feedback and usage.
 
