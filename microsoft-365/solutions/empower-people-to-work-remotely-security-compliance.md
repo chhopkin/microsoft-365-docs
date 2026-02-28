@@ -54,7 +54,7 @@ Protect your applications and data with these security features of Microsoft 365
 
 You first step should be to learn about and use [Microsoft Secure Score](/microsoft-365/security/defender/microsoft-secure-score).
 
-See [Top 12 tasks for security teams to support working from home](../security/top-security-tasks-for-remote-work.md) for more information.
+See [Top 12 tasks for security teams to support working from home](/microsoft-365/security/top-security-tasks-for-remote-work) for more information.
 
 For information about security across Microsoft 365, see [Microsoft 365 security documentation](/microsoft-365/security).
 
@@ -75,7 +75,7 @@ Comply with internal policies or regulatory requirements with these compliance f
 |Insider Risk Management|Detect, investigate, and act on malicious and inadvertent risks in your organization. Microsoft 365 can detect these kinds of risks even when a worker is using an unmanaged device.|Microsoft 365 E5 or Microsoft 365 E3 with the Compliance or Insider Risk Management add-ons|
 
 
-See [Quick tasks for getting started with Microsoft Purview](../compliance/compliance-quick-tasks.md) for more information.
+See [Quick tasks for getting started with Microsoft Purview](/purview/purview-compliance) for more information.
 
 ## Results of Step 3
 

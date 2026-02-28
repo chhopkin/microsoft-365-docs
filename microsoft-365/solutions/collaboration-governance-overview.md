@@ -128,7 +128,7 @@ Because groups and teams can be created in several ways, we recommend training y
 - If your organization does most of its communication using email, instruct your users to create groups in Outlook.
 - If your organization heavily uses SharePoint or is migrating from SharePoint on-premises, instruct your users to create SharePoint team sites for collaboration.
 
-This helps avoid confusion if users are unfamiliar with how groups relate to their related services. For more information about how to talk to your users about groups, see [Explaining Microsoft 365 Groups to your users](../admin/create-groups/explain-groups-knowledge-worker.md).
+This helps avoid confusion if users are unfamiliar with how groups relate to their related services. For more information about how to talk to your users about groups, see [Explaining Microsoft 365 Groups to your users](/microsoft-365/admin/create-groups/explain-groups-knowledge-worker).
 
 ## Key collaboration governance capabilities and licensing requirements
 
@@ -200,8 +200,8 @@ This set of illustrations uses one of the most regulated industries, financial s
 
 ## Related resources
 
-[Microsoft 365 security documentation](../security/index.yml)
+[Microsoft 365 security documentation](/microsoft-365/security/)
 
-[Microsoft Purview documentation](../compliance/index.yml)
+[Microsoft Purview documentation](/purview/)
 
 [Video Governance & Security Practices for Microsoft 365 - Microsoft Ignite | OD13](https://www.youtube.com/watch?v=zdSkL8a_7Kw)
