@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 02/27/2026
+ms.date: 02/28/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -92,8 +92,8 @@ Before working with organizational messages, make sure the following requirement
 
 Advanced features are experiences in organizational messages that are restricted to certain tenants. The currently available advanced features for organizational messages are:
 
-1. Fully customized message creation.
-1. Advanced targeting by group level aggregates, including Department, Location, Company, and Usage.
+- Fully customized message creation.
+- Advanced targeting by group level aggregates, including Department, Location, Company, and Usage.
 
 Admins and users can access these advanced features for organizational messages when the tenant has at least one of the following licenses:
 
