@@ -194,6 +194,7 @@ To tune an Optimization agent template:
 5. Use chat to describe your goal, upload data, define constraints, and specify objectives. Review the setup in the side panel as you go.
 
    :::image type="content" source="media/copilot-tuning-optimization-template/optimization-problem-chat-interface.png" alt-text="Screenshot showing the chat interface for defining the optimization problem with the side panel displaying goals, constraints, and objectives." lightbox="media/copilot-tuning-optimization-template/optimization-problem-chat-interface.png":::
+
    :::image type="content" source="media/copilot-tuning-optimization-template/optimization-problem-data-upload.png" alt-text="Screenshot showing additional views of the optimization problem definition interface with data upload and constraint configuration." lightbox="media/copilot-tuning-optimization-template/optimization-problem-data-upload.png":::
 
 6. Select **Update agent** to save the problem definition.
@@ -206,6 +207,7 @@ To tune an Optimization agent template:
 7. Share the tuned agent with others in your organization.
 
    :::image type="content" source="media/copilot-tuning-optimization-template/optimization-agent-sharing-interface.png" alt-text="Screenshot of the agent sharing interface showing options to share the tuned agent with users in your organization." lightbox="media/copilot-tuning-optimization-template/optimization-agent-sharing-interface.png":::
+
    :::image type="content" source="media/copilot-tuning-optimization-template/optimization-sharing-permissions.png" alt-text="Screenshot showing the sharing permissions configuration for the tuned Optimization agent template." lightbox="media/copilot-tuning-optimization-template/optimization-sharing-permissions.png":::
 
 ### Sharing and security
