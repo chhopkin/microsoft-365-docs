@@ -1,6 +1,46 @@
 {
    "redirections": [
       {
+         "source_path": "copilot/copilot-tuning-knowledge-selection.md",
+         "redirect_url": "/copilot/microsoft-365/copilot-tuning-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "copilot/copilot-tuning-troubleshooting-mac.md",
+         "redirect_url": "/copilot/microsoft-365/copilot-tuning-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "copilot/copilot-tuning-troubleshooting-guardrails.md",
+         "redirect_url": "/copilot/microsoft-365/copilot-tuning-overview",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "copilot/copilot-tuning-summarization.md",
+         "redirect_url": "/copilot/microsoft-365/copilot-tuning-document-summary-template",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "copilot/copilot-tuning-troubleshooting-expert-qa.md",
+         "redirect_url": "/copilot/microsoft-365/copilot-tuning-expert-answer-template#faq",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "copilot/copilot-tuning-troubleshooting-doc-generation.md",
+         "redirect_url": "/copilot/microsoft-365/copilot-tuning-document-writing-template",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "copilot/copilot-tuning-doc-generation.md",
+         "redirect_url": "/copilot/microsoft-365/copilot-tuning-document-writing-template",
+         "redirect_document_id": true
+      },
+      {
+         "source_path": "copilot/copilot-tuning-expert-qa.md",
+         "redirect_url": "/copilot/microsoft-365/copilot-tuning-expert-answers-template",
+         "redirect_document_id": true
+      },
+      {
          "source_path": "copilot/mutliple-account-access.md",
          "redirect_url": "/copilot/microsoft-365/multiple-account-access",
          "redirect_document_id": true
