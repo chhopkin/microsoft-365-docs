@@ -100,7 +100,7 @@ The following sections describe the scenarios supported by the lab guides.
 - Windows Hello for Business
 - Credential Guard
 - Microsoft Defender Application Guard
-- Windows Defender Exploit Guard
+- Microsoft Defender Exploit Guard
 - Windows Defender Application Control
 - Microsoft Defender for Endpoint
 
