@@ -5,7 +5,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 ms.reviewer: georgerozo
-ms.date: 12/23/2025
+ms.date: 01/27/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -15,6 +15,8 @@ ms.collection:
 - m365copilot
 - trust-pod
 - magic-ai-copilot
+- M365-sam
+- MCAT
 description: Learn how Microsoft 365 Copilot integrates AI to enhance productivity while maintaining robust security and compliance measures.
 customer-intent: As an administrator or business decision maker, I want to understand the security measures Microsoft has implemented for Microsoft 365 Copilot so that I can ensure my organization's data is protected while leveraging AI capabilities.
 appliesto:
@@ -40,7 +42,7 @@ Our comprehensive security posture for AI includes:
 
 Each aspect of this foundation forms a safer digital ecosystem for you to confidently adopt AI features and tools.
 
-In addition, Microsoft embeds its Responsible AI principle-based governance across the entire AI lifecycle to help ensure that systems are developed and deployed ethically and securely. This strategy helps ensure AI behaves in ways that are trustworthy, responsible, and inclusive. A core part of the Responsible AI program is designed to identify potential risks, measure their propensity to occur, and build mitigations to manage them, outlined in [Transparency note for Microsoft 365 Copilot: Mapping, measuring, and managing risks](/copilot/microsoft-365/microsoft-365-copilot-transparency-note#mapping-measuring-and-managing-risks).
+In addition, Microsoft embeds its Responsible AI principle-based governance across the entire AI lifecycle to help ensure that systems are developed and deployed ethically and securely. This strategy helps ensure AI behaves in ways that are trustworthy, responsible, and inclusive. A core part of the Responsible AI program is designed to identify potential risks, measure their propensity to occur, and build mitigations to manage them, outlined in [Application card: Microsoft 365 Copilot](microsoft-365-copilot-application-card.md).
 
 ### Secure engineering and development practices
 

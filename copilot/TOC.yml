@@ -32,7 +32,7 @@ items:
       href: pay-as-you-go/overview.md
     - name: Meters for pay-as-you-go
       href: pay-as-you-go/meters.md
-  - name: Data, Privacy, and Security
+  - name: Data, Privacy, Security, and Responsible AI
     items:
     - name: Data, privacy, and security for Microsoft 365 Copilot
       href: microsoft-365-copilot-privacy.md
@@ -48,14 +48,24 @@ items:
       href: /security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     - name: Enterprise data protection
       href: enterprise-data-protection.md
-    - name: Transparency Note
-      href: microsoft-365-copilot-transparency-note.md
+    - name: Application card for Microsoft 365 Copilot
+      href: microsoft-365-copilot-application-card.md
     - name: Privacy and protections
       href: /copilot/privacy-and-protections?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
     - name: Copilot in Microsoft Edge
       href: /copilot/edge?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
   - name: Implementation Readiness
     items:
+    - name: Minimum requirements and considerations for Microsoft 365 Copilot and Copilot Chat
+      items:
+      - name: Minimum requirements overview
+        href: microsoft-365-copilot-minimum-requirements.md
+      - name: Data and compliance readiness
+        href: microsoft-365-copilot-minimum-requirements-data-compliance.md
+      - name: Organization rollout
+        href: microsoft-365-copilot-minimum-requirements-rollout.md
+      - name: Minimum requirements for Microsoft 365 Copilot Chat
+        href: microsoft-365-copilot-chat-requirements.md
     - name: Architecture & how Copilot works
       href: microsoft-365-copilot-architecture.md
     - name: Microsoft 365 Copilot Admin settings
@@ -97,6 +107,8 @@ items:
     items:
     - name: Anthropic as a subprocessor for Microsoft Online Services
       href: connect-to-ai-subprocessor.md
+    - name: Connect to xAI's models  
+      href: connect-to-ai-models.md
     - name: Deploy Microsoft 365 Copilot app
       href: deploy-microsoft-365-copilot-app.md
     - name: Deploy Microsoft 365 Copilot app FAQ
@@ -187,32 +199,26 @@ items:
       items:
       - name: Overview
         href: copilot-tuning-overview.md
-      - name: Tuning process
-        href: copilot-tuning-process.md
-      - name: FAQ
-        href: copilot-tuning-faq.yml
-      - name: Knowledge selection
-        href: copilot-tuning-knowledge-selection.md
       - name: Admin guide
         href: copilot-tuning-admin-guide.md
-      - name: Microsoft 365 admin center
-        href: copilot-tuning-troubleshooting-mac.md
-      - name: Fine-tune models
-        href: /microsoft-copilot-studio/microsoft-copilot-fine-tune-model?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
-      - name: Document generation
-        href: copilot-tuning-doc-generation.md
-      - name: Troubleshooting Document generation
-        href: copilot-tuning-troubleshooting-doc-generation.md
-      - name: Expert Q&A
-        href: copilot-tuning-expert-qa.md
-      - name: Troubleshooting Expert Q&A
-        href: copilot-tuning-troubleshooting-expert-qa.md
-      - name: Summarization
-        href: copilot-tuning-summarization.md
-      - name: FAQ for Copilot Tuning
-        href: responsible-ai/copilot-tuning-responsible-ai-faq.md
-      - name: Troubleshooting Guardrails
-        href: copilot-tuning-troubleshooting-guardrails.md
+      - name: Tuning process
+        href: copilot-tuning-process.md
+      - name: Tuned agent templates
+        items:
+        - name: Document Writing agent template
+          href: copilot-tuning-document-writing-template.md
+        - name: Document Validation agent template
+          href: copilot-tuning-document-validation-template.md
+        - name: Expert Answers agent template
+          href: copilot-tuning-expert-answers-template.md
+        - name: Optimization agent template
+          href: copilot-tuning-optimization-template.md
+        - name: Style Editing agent template
+          href: copilot-tuning-style-editing-template.md
+        - name: Summarization agent template
+          href: copilot-tuning-document-summary-template.md
+      - name: FAQ
+        href: copilot-tuning-faq.yml
     - name: Copilot Library
       items:
       - name: Overview of Copilot Library
@@ -221,7 +227,6 @@ items:
       items:
       - name: Overview of Copilot personalization and memory
         href: copilot-personalization-memory.md
-  - name: Agents and Connectors
   - name: Agents
     items:
     - name: M365 Copilot Agent Management Essentials
@@ -435,8 +440,6 @@ items:
         href: /microsoft-365/admin/manage/manage-agents-permissions?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
       - name: Manage embedded knowledge agents
         href: /microsoft-365/admin/manage/manage-embedded-knowledge-agents?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
-      - name: Microsoft Search and Microsoft 365 Copilot connectors
-        href: /microsoftsearch/connectors-overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
       - name: App Builder agent
         items:
         - name: Overview of App Builder
@@ -485,6 +488,12 @@ items:
           href: wordexcelppt-agents.md
         - name: Word, Excel, and PowerPoint Agents FAQ
           href: faq-wordexcelppt-agents.yml
+  - name: Microsoft 365 Copilot connectors
+    items:
+    - name: Overview
+      href: /microsoftsearch/connectors-overview?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
+    - name: Set up connectors
+      href: /microsoftsearch/configure-connector?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
   - name: Manage generative AI apps for your organization
     href: manage-generative-ai-apps.md
   - name: Service plan diagnostic tool
@@ -500,6 +509,6 @@ items:
     href: release-notes.md
   - name: Submit Copilot feedback to Microsoft
     href: provide-feedback.md
-  - name: Weave
-    href: weave.md
+  - name: Connect to Anthropic's AI models
+    href: connect-to-independent-model.md
 

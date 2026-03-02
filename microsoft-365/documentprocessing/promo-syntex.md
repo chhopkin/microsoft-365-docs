@@ -30,7 +30,7 @@ Document processing for Microsoft 365 provides powerful content management and p
 
 If you want to try some of these services, here are the steps to follow:
 
-1. [Set up pay-as-you-go billing](/microsoft-365/services/pay-as-you-go-setup).
+1. [Set up pay-as-you-go billing](/microsoft-365/commerce/services/pay-as-you-go-setup).
 
 2. [Turn on the document processing services you want to try](set-up-microsoft-syntex.md).
 
