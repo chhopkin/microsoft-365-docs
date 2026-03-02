@@ -30,7 +30,7 @@ If your Microsoft 365 subscription is about to end, you can extend your subscrip
 
 If you don't renew your subscription by the renewal date, you can now select a paid EST option. EST lets you continue service on a month-to-month basis until you cancel or convert to a standard subscription.
 
-This article applies only to customers with a Microsoft Customer Agreement (MCA) billing account type. You can only buy an EST subscription if you have a subscription bought under an MCA billing account.
+This article applies only to customers with a Microsoft Customer Agreement (MCA) billing account type. You can only convert to an EST subscription if you have a subscription bought under an MCA billing account.
 
 ## Before you begin
 
