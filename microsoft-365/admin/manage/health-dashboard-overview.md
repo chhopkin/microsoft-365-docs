@@ -41,7 +41,7 @@ To open the **Health** dashboard in the Microsoft 365 admin center, follow these
 
 1. From the **Simplified view/Dashboard view/Health** dropdown menu, select **Health**.
 
-    :::image type="content" source="../../media/new-health-dashboard-location.jpg" alt-text="Screenshot of choosing Health from the Microsoft 365 admin center View dropdown menu.":::
+    :::image type="content" source="../../media/new-health-dashboard-location.jpg" alt-text="Screenshot of choosing Health from the Microsoft 365 admin center View dropdown menu." lightbox="../../media/new-health-dashboard-location.jpg":::
 
 1. The Health dashboard opens, showing you an overview of the health of your Microsoft 365 organization.
 
@@ -53,13 +53,13 @@ To open the **Health** dashboard in the Microsoft 365 admin center, follow these
 
     If there are no alerts, a green banner lets you know that the health dashboard didn't find any problems.
 
-    :::image type="content" source="../../media/health-dashboard-view.png" alt-text="Screenshot of the Microsoft 365 Health dashboard showing alerts and service health status.":::
+    :::image type="content" source="../../media/health-dashboard-view.png" alt-text="Screenshot of the Microsoft 365 Health dashboard showing alerts and service health status." lightbox="../../media/health-dashboard-view.png":::
 
 ### Service health and usage
 
 In the center of the page, the current service health status of your top apps and services is displayed. This view is a selected view of the top products. If you want to see the list of all your products, you can follow the **View all in service health** link to see the full list. This section also shows you average daily usage and a view of license utilization. This information helps you understand how products are being used in your organization.
 
-:::image type="content" source="../../media/service-health-usage.png" alt-text="Screenshot of the Microsoft 365 Health dashboard service health and usage section.":::
+:::image type="content" source="../../media/service-health-usage.png" alt-text="Screenshot of the Microsoft 365 Health dashboard service health and usage section." lightbox="../../media/service-health-usage.png":::
 
 ### Microsoft 365 app updates
 
