@@ -90,7 +90,6 @@ Before Coworker takes a sensitive action, like sending an email or posting a mes
 ### Review and respond to an approval request
 
 1. When you need an approval, a dialog appears with the details of the action Coworker wants to take. For some actions, a rich preview of the content appears (for example, a draft email or a Teams message). For other actions, a summary of what Coworker plans to  appears.
-1. 
 1. Choose one of the following options:
 
    | Option | What it does |
@@ -161,7 +160,7 @@ The following file types can be previewed directly:
     The preview opens in a split view next to your chat.
 
 1. Use the controls to get the most out of the preview:
-1. 
+
    - **Full-screen toggle**: Expand the preview to fill the entire window for a closer look.
    - **Open in native app**: Open the file in its default application on your device.
    - **Feedback buttons**: Rate the document with thumbs up or thumbs down.
@@ -310,7 +309,7 @@ Coworker supports keyboard shortcuts to help you work faster.
 > [!TIP]
 > Take a moment to explore the keyboard shortcuts. They can save you time once you learn the ones you use most.
 
-## Related information
+## Related content
 
 - [Coworker overview](index.md)
 - [Get started with Coworker](get-started.md)

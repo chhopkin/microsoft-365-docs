@@ -109,7 +109,7 @@ Coworker helps you stay organized with built-in project and task management.
 
 Learn more in [Get started with the Coworker agent](get-started.md).
 
-## Related information
+## Related content
 
 - [Use the Coworker agent](use-coworker-agent.md)
 - [Coworker agent FAQ](coworker-agent-faq.md)

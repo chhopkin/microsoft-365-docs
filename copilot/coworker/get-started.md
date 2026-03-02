@@ -79,7 +79,7 @@ Select the **Tasks** view to see everything you asked Coworker to do. Here you c
 - Switch between **list view** and **kanban board** depending on how you like to organize.
 - Select any task to open it and resume the conversation.
 
-## Related information
+## Related content
 
 - Learn how to get the most out of conversations, manage files, control the agent, and explore all of Coworker's skills in [Use the Coworker agent](using.md).
 - Get quick answers to common questions about how Coworker works and what it can do in [Coworker agent FAQ](coworker-agent-faq.md).

@@ -143,7 +143,7 @@ You can share feedback in the following ways:
 - **Document feedback**: When previewing a file Coworker created, use the feedback controls to rate it.
 - **General feedback**: To share broader thoughts about your experience, open the menu and select the feedback option.
 
-## Related information
+## Related content
 
 - [Coworker overview](index.md)
 - [Get started with the Coworker agent](get-started.md)

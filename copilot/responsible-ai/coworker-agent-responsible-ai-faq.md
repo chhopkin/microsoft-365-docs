@@ -114,7 +114,7 @@ You can provide feedback in the following ways:
 
 Your feedback is used to evaluate and improve the Coworker agent's quality and safety.
 
-## Related information
+## Related content
 
 - [Coworker overview](index.md)
 - [Get started with the Coworker agent](get-started.md)
