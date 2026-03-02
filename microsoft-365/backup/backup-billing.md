@@ -41,20 +41,20 @@ To set up departmental billing for your tenant, follow these steps.
    
 5. You can create backup for your department by creating <a href="https://learn.microsoft.com/microsoft-365/backup/backup-setup?view=o365-worldwide#2-create-backup-policies-to-protect-your-data" target="_blank">**backup policies as outlined here**</a>.
    In Create / Edit policy wizard, admins will need to associate a Billing Policy with a Backup Policy. In the billing policy list, admins will only be able to see billing policies that they Owner/Contributor access.  
-    <img width="907" height="431" alt="image" src="https://github.com/user-attachments/assets/91221de4-63e8-41a2-a2c4-528faa38b296" />
+    <img width="907" height="431" alt="rbac" src="https://github.com/user-attachments/assets/91221de4-63e8-41a2-a2c4-528faa38b296" />
 
 > [!NOTE]
 > **Once you have enabled departmental billing, admins who have been assigned Owner / Contributor Azure roles to the billing policies connected to Backup can only create and edit backup policies.**
 
 Admins who do not have RBAC rights to your backup policies will not be able to use your billing policy to create backup policies or edit backup polciies created by admins in your department. Billing policies will show as **Confidential** for admins who do not have access. 
 
-<img width="559" height="352" alt="image" src="https://github.com/user-attachments/assets/07ba1426-fe4a-4023-8ebd-ab4904f2d789" />
+<img width="559" height="352" alt="image-confidential" src="https://github.com/user-attachments/assets/07ba1426-fe4a-4023-8ebd-ab4904f2d789" />
 
 ### Change Billing policies associated with Backup policies 
 Once a Billing Policy is associated with a Backup Policy, it can be updated from the Backup Dashboard  
 
   1. Select the Backup policy you want to update the Billing Policy, click on the 3-dots next to backup policy name and select **Update Billing policy**
-        <img width="944" height="448" alt="image" src="https://github.com/user-attachments/assets/510a8756-113d-4403-941a-8366366d1800" />
+        <img width="944" height="448" alt="image-updatebillingpolicy" src="https://github.com/user-attachments/assets/510a8756-113d-4403-941a-8366366d1800" />
 
 ### Disable departmental billing
 If you wish to manage Backup without the RBAC control of restricting Backup management to Owner or Contributor of subscriptions, you can simply uncheck the box in Settings tab Microsoft 365 Backup page.  
