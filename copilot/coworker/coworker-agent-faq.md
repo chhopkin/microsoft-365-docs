@@ -2,11 +2,12 @@
 title: "Coworker agent FAQ"
 description: "Frequently asked questions about the Coworker agent in Microsoft 365 Copilot."
 ms.date: 02/27/2026
-ms.topic: faq
+ms.topic: article
 author: leeclontz
 manager: KumarVivek
 ms.author: leeclontz
 ms.reviewer: angieandrews
+ms.service: microsoft-365-copilot
 appliesto:
 - Microsoft 365 Copilot
 ---

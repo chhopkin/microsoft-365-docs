@@ -7,6 +7,7 @@ author: leeclontz
 manager: KumarVivek
 ms.author: leeclontz
 ms.reviewer: angieandrews
+ms.service: microsoft-365-copilot
 appliesto:
 - Microsoft 365 Copilot
 ---
