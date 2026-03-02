@@ -491,7 +491,7 @@ check for in role id
 
 ### SAP SF Single Sign-on issues with Microsoft Entra 
 
-**Pre-requisites for troubleshooting:**
+**Prerequisites for troubleshooting:**
 
 - Client tool for testing and managing APIs like Postman, Bruno, and so on.
 - Access to [https://samltool.io](https://samltool.io).

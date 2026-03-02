@@ -4,7 +4,7 @@ ms.author: kwekua
 author: kwekuako
 ms.update-cycle: 180-days
 manager: scotv
-ms.date: 12/02/2025
+ms.date: 02/10/2026
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-copilot
@@ -31,12 +31,12 @@ As a subprocessor, Anthropic will operate with Microsoft oversight through contr
 
 For more information about subprocessor data access, see [Microsoft Data Access Management](https://www.microsoft.com/trust-center/privacy/data-access). To see a list of Microsoft subprocessors, see [Service Trust Portal](https://aka.ms/subprocessor).
 
-Microsoft will enable Anthropic models on by default for most customers in commercial cloud (excluding EU/EFTA and UK). This update gives users in your organization the ability to use multiple AI models in their Microsoft offerings, including in Microsoft 365 Copilot, Researcher, Copilot Studio, Agent Mode in Excel, and Word, Excel, and PowerPoint agents. This affirms Microsoft’s commitment to offering choice between leading AI models while maintaining enterprise-grade security and compliance.
+Microsoft will enable Anthropic models on by default for most customers in commercial cloud (excluding EU/EFTA and UK). This update gives users in your organization the ability to use multiple AI models in their Microsoft offerings, including in Microsoft 365 Copilot, Researcher, Copilot Studio, Power Platform, Agent Mode in Excel, and Word, Excel, and PowerPoint agents. This affirms Microsoft’s commitment to offering choice between leading AI models while maintaining enterprise-grade security and compliance.
 
 > [!IMPORTANT]
-> Anthropic models deployed in Microsoft offerings (including Microsoft 365 Copilot, Researcher, Copilot Studio, Agent Mode in Excel, and Word, Excel, and PowerPoint agents) are currently excluded from the EU Data Boundary, and when applicable, in-country processing commitments. Customers within the EU Data Boundary and customers in the UK will have Anthropic models disabled by default. Anthropic models aren't currently available for use in government clouds (GCC, GCC High, DoD) or sovereign clouds.
+> Anthropic models deployed in Microsoft offerings (including Microsoft 365 Copilot, Researcher, Copilot Studio, Power Platform, Agent Mode in Excel, and Word, Excel, and PowerPoint agents) are currently excluded from the EU Data Boundary, and when applicable, in-country processing commitments. Customers within the EU Data Boundary and customers in the UK will have Anthropic models disabled by default. Anthropic models aren't currently available for use in government clouds (GCC, GCC High, DoD) or sovereign clouds.
 
-Anthropic as a subprocessor is being introduced gradually and isn't yet available to all organizations. During this phased rollout, some features may be limited for your organization. Full availability is expected by the end of January 2026.
+Anthropic as a subprocessor is being introduced gradually and isn't yet available to all organizations. During this phased rollout, some features may be limited for your organization. Full availability is expected by the end of February 2026.
 
 ## Manage Anthropic's model settings in the Microsoft 365 admin center
 
@@ -61,9 +61,9 @@ If your organization is in a region that has Anthropic as a subprocessor set to 
 
 Some features are only available when Anthropic models are enabled. If you turn off Anthropic as a subprocessor, certain features may no longer be accessible.
 
-## Additional controls for Copilot Studio in the Power Platform Admin Center
+## Additional controls for Copilot Studio and Power Platform in the Power Platform Admin Center
 
-Once enabled in the Microsoft 365 admin center, additional admin controls are available in the Microsoft Power Platform admin center (PPAC) to allow Anthropic to be used in Copilot Studio. For more information, see [Allow external large language models (LLMs) for generative responses](https://go.microsoft.com/fwlink/?linkid=2334706).
+Once enabled in the Microsoft 365 admin center, additional admin controls are available in the Microsoft Power Platform admin center (PPAC) to allow Anthropic to be used in Copilot Studio and Power Platform. For more information, see [Allow external large language models (LLMs) for generative responses](https://go.microsoft.com/fwlink/?linkid=2334706).
 
 ## Disable connection to Anthropic's models
 
