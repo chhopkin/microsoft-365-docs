@@ -49,7 +49,7 @@ To archive or reactivate all files in a folder, users can select the desired fol
 
 The user will receive an email when the action is complete.
 
-![Screenshot of the Archive all files.](media/archive-end-user/archive-all-files.png)
+![Screenshot of Archive all files.](media/archive-end-user/archive-all-files.png)
 
 
 
