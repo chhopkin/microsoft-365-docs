@@ -82,5 +82,5 @@ Select the **Tasks** view to see everything you asked Coworker to do. Here you c
 
 ## Related content
 
-- Learn how to get the most out of conversations, manage files, control the agent, and explore all of Coworker's skills in [Use the Coworker agent](using.md).
-- Get quick answers to common questions about how Coworker works and what it can do in [Coworker agent FAQ](coworker-agent-faq.md).
+- [Use the Coworker agent](use-coworker-agent.md)
+- [Coworker agent FAQ](coworker-agent-faq.md)

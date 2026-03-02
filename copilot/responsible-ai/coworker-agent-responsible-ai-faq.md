@@ -9,6 +9,7 @@ author: leeclontz
 manager: KumarVivek
 ms.author: leeclontz
 ms.reviewer: angieandrews
+ms.service: microsoft-365-copilot
 appliesto:
 - Microsoft 365 Copilot
 ---
@@ -116,8 +117,8 @@ Your feedback is used to evaluate and improve the Coworker agent's quality and s
 
 ## Related content
 
-- [Coworker overview](index.md)
-- [Get started with the Coworker agent](get-started.md)
-- [Use the Coworker agent](using.md)
-- [Coworker agent FAQ](coworker-agent-faq.md)
+- [Coworker overview](../coworker/index.md)
+- [Get started with the Coworker agent](../coworker/get-started.md)
+- [Use the Coworker agent](../coworker/use-coworker-agent.md)
+- [Coworker agent FAQ](../coworker/coworker-agent-faq.md)
 - [Microsoft AI principles](https://www.microsoft.com/ai/responsible-ai)
