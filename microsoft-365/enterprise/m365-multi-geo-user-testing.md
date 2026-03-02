@@ -10,7 +10,7 @@ ms.subservice: multi-geo-capabilities
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.date: 02/12/2025
+ms.date: 05/09/2025
 ms.custom:
   - it-pro
   - has-azure-ad-ps-ref
