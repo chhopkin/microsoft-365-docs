@@ -18,14 +18,14 @@ description: Learn how to set up and manage usage and invoices in the Azure port
 
 # Departmental Billing for Microsoft 365 Backup 
 
-If you are a large organization with multiple departments and want to manage Microsoft 365 Backup within departments or groups, departmental billing may be the right fit for you. Departmental billing will help you achieve the following: 
+If you are a large organization with multiple departments and want to manage Microsoft 365 Backup within departments or groups, departmental billing may be the right fit for you. With Departmental billing, you can manage Backup with the following features: 
 
 1. Breakdown backup costs by different azure subscriptions
 2. Limit Backup management (creation and update) to certain admins within departments with Role-based-access-control(RBAC)
 3. Prevent admins from another department using your azure susbcritpion to cause unapproved backup charges
 
 
-**Role-Based-Access-Control within departments**: To limit admins who can manage Backup within a department or group, every backup admin should also have an Owner or Contributor role on the subscription. This way only an approved admin who is given spending power on a subscription can create and edit backups and cause consumption to the department's azure subscription. If you are an owner for the department's subscription, we recommed giving the lower privileged 'Contributor' role to backup admins in your department if they do not need privileges to add additional admins to the subscription. 
+**Role-Based-Access-Control within departments**: To limit admins who can manage Backup within a department or group, every backup admin should also have an Owner or Contributor role on the subscription. This way only an approved admin who is given spending power on a subscription can create and edit backups and cause consumption to the department's azure subscription. If you are an owner for the department's subscription, we recommed giving the lower privileged 'Contributor' role to backup admins in your department if they do not need privileges to add other admins to the subscription. 
 
 ### Set up departmental billing
 
@@ -37,23 +37,23 @@ To set up departmental billing for your tenant, follow these steps.
    
    <img width="1148" height="665" alt="image" src="https://github.com/user-attachments/assets/31bdf6c3-966f-40ce-8abf-f144ed2fe893" />
 
-    Now that departmental billing with Backup is enabled for your tenant, Admins who have been assigned Owner / Contributor Azure roles to the billing policies connected to Backup can only create and edit backup policies.
+    Now that departmental billing with Backup is enabled for your tenant, Admins are assigned Owner / Contributor Azure roles to the billing policies connected to Backup can only create and edit backup policies.
    
 5. You can create backup for your department by creating <a href="https://learn.microsoft.com/microsoft-365/backup/backup-setup?view=o365-worldwide#2-create-backup-policies-to-protect-your-data" target="_blank">**backup policies as outlined here**</a>.
-   In Create / Edit policy wizard, admins will need to associate a Billing Policy with a Backup Policy. In the billing policy list, admins will only be able to see billing policies that they Owner/Contributor access.  
+   In Create / Edit policy wizard, admins need to associate a Billing Policy with a Backup Policy. In the billing policy list, admins will only be able to see billing policies that they Owner/Contributor access.  
     <img width="907" height="431" alt="rbac" src="https://github.com/user-attachments/assets/91221de4-63e8-41a2-a2c4-528faa38b296" />
 
 > [!NOTE]
 > **Once you have enabled departmental billing, admins who have been assigned Owner / Contributor Azure roles to the billing policies connected to Backup can only create and edit backup policies.**
 
-Admins who do not have RBAC rights to your backup policies will not be able to use your billing policy to create backup policies or edit backup polciies created by admins in your department. Billing policies will show as **Confidential** for admins who do not have access. 
+Admins who do not have RBAC rights to your backup policies will not be able to use your billing policy to create backup policies or edit backup polciies created by admins in your department. Billing policies show as **Confidential** for admins who do not have access. 
 
 <img width="559" height="352" alt="image-confidential" src="https://github.com/user-attachments/assets/07ba1426-fe4a-4023-8ebd-ab4904f2d789" />
 
 ### Change Billing policies associated with Backup policies 
 Once a Billing Policy is associated with a Backup Policy, it can be updated from the Backup Dashboard  
 
-  1. Select the Backup policy you want to update the Billing Policy, click on the 3-dots next to backup policy name and select **Update Billing policy**
+  1. Select the Backup policy you want to update the Billing Policy. Click on the 3-dots next to backup policy name and select **Update Billing policy**.
         <img width="944" height="448" alt="image-updatebillingpolicy" src="https://github.com/user-attachments/assets/510a8756-113d-4403-941a-8366366d1800" />
 
 ### Disable departmental billing
