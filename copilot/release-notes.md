@@ -4412,7 +4412,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
 - **Copilot dashboard access can be granted using Entra groups** [Web]  
 
-  Global admins can now grant Microsoft Copilot Dashboard access using Microsoft Entra ID (AAD) Groups, reducing the manual effort needed for management. [Learn more](/viva/insights/org-team-insights/copilot-dashboard).
+  Global admins can now grant Microsoft Copilot Dashboard access using Microsoft Entra ID groups, reducing the manual effort needed for management. [Learn more](/viva/insights/org-team-insights/copilot-dashboard).
 
 - **New Copilot adoption metrics and completing total actions taken** [Windows, iOS, Mac]  
 
@@ -11649,7 +11649,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
 - **Copilot dashboard access can be granted using Entra groups** [Web]  
 
-  Global admins can now grant Microsoft Copilot Dashboard access using Microsoft Entra ID (AAD) Groups, reducing the manual effort needed for management. [Learn more](/viva/insights/org-team-insights/copilot-dashboard).
+  Global admins can now grant Microsoft Copilot Dashboard access using Microsoft Entra ID groups, reducing the manual effort needed for management. [Learn more](/viva/insights/org-team-insights/copilot-dashboard).
 
 ### Word
 
