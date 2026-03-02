@@ -1,7 +1,7 @@
 ---
 title: "User experience in a multi-geo environment"
 ms.reviewer: jugiammo
-ms.date: 02/14/2025
+ms.date: 05/09/2025
 ms.author: v-fahasen
 author: fhasen-msft
 manager: Justin.Giammona
