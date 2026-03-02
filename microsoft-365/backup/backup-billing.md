@@ -22,10 +22,10 @@ If you are a large organization with multiple departments and want to manage Mic
 
 1. Breakdown backup costs by different azure subscriptions
 2. Limit Backup management (creation and update) to certain admins within departments with Role-based-access-control(RBAC)
-3. Prevent admins from another department using your azure susbcritpion to cause unapproved backup charges
+3. Prevent admins from another department using your azure subscritpion to cause unapproved backup charges
 
 
-**Role-Based-Access-Control within departments**: To limit admins who can manage Backup within a department or group, every backup admin should also have an Owner or Contributor role on the subscription. This way only an approved admin who is given spending power on a subscription can create and edit backups and cause consumption to the department's azure subscription. If you are an owner for the department's subscription, we recommed giving the lower privileged 'Contributor' role to backup admins in your department if they do not need privileges to add other admins to the subscription. 
+**Role-Based-Access-Control within departments**: To limit admins who can manage Backup within a department or group, every backup admin should also have an Owner or Contributor role on the subscription. This way only an approved admin who is given spending power on a subscription can create and edit backups and cause consumption to the department's azure subscription. If you are an owner for the department's subscription, we recommend giving the lower privileged 'Contributor' role to backup admins in your department if they do not need privileges to add other admins to the subscription. 
 
 ### Set up departmental billing
 
@@ -46,7 +46,7 @@ To set up departmental billing for your tenant, follow these steps.
 > [!NOTE]
 > **Once you have enabled departmental billing, admins who have been assigned Owner / Contributor Azure roles to the billing policies connected to Backup can only create and edit backup policies.**
 
-Admins who do not have RBAC rights to your backup policies will not be able to use your billing policy to create backup policies or edit backup polciies created by admins in your department. Billing policies show as **Confidential** for admins who do not have access. 
+Admins who do not have RBAC rights to your backup policies will not be able to use your billing policy to create backup policies or edit backup policies created by admins in your department. Billing policies show as **Confidential** for admins who do not have access. 
 
 <img width="559" height="352" alt="image-confidential" src="https://github.com/user-attachments/assets/07ba1426-fe4a-4023-8ebd-ab4904f2d789" />
 
