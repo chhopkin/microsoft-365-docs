@@ -27,7 +27,7 @@ description: "Learn how to prevent guests from being added to a specific group"
 
 If you want to allow guest access to most groups and teams but somewhere you want to prevent guest access, you can block guest access for individual groups and teams. (Blocking guest access to a team is done by blocking guest access to the associated group.) This prevents new guests from being added but doesn't remove guests that are already in the group or team.
 
-If you use sensitivity labels in your organization, we recommend using them to control guest access on a per-group basis. For information about how to do this, [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](../compliance/sensitivity-labels-teams-groups-sites.md). This is the recommended approach.
+If you use sensitivity labels in your organization, we recommend using them to control guest access on a per-group basis. For information about how to do this, [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites). This is the recommended approach.
 
 ## Change group settings using Microsoft Graph PowerShell
 
@@ -126,7 +126,7 @@ By default, guests aren't visible in the Exchange Global Address List. Use the s
 
 [Create your collaboration governance plan](collaboration-governance-first.md)
 
-[Manage Group membership in the Microsoft 365 admin center](../admin/create-groups/add-or-remove-members-from-groups.md)
+[Manage Group membership in the Microsoft 365 admin center](/admin/create-groups/add-or-remove-members-from-groups)
   
 [Microsoft Entra access reviews](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review)
 
