@@ -21,7 +21,7 @@ ms.custom:
 - admindeeplinkMAC
 search.appverid: MET150
 description: Learn how to extend your Microsoft 365 subscription with an Extended Service Term (EST) to get extra time to decide about renewal without service disruption.
-ms.date: 02/27/2026
+ms.date: 03/02/2026
 ---
 
 # Extend your Microsoft 365 subscription end date with an Extended Service Term (EST)
@@ -56,7 +56,7 @@ When a subscription reaches the end of its term, you have three options for what
 
 1. **Extend your service with a paid Extended Service Term (EST) subscription**
 
-   You can buy a monthly, paid EST subscription to maintain your services while you decide whether to renew. At any time, you can cancel the EST subscription or convert back to a standard subscription. Charges for EST subscriptions are prorated, so you only pay for the days you use the subscription. To learn how to buy an EST subscription, see [Convert to an Extended Service Term subscription](#convert-to-an-extended-service-term-subscription), in the next section.
+   You can convert to a monthly, paid EST subscription to maintain your services while you decide whether to renew. At any time, you can cancel the EST subscription or convert back to a standard subscription. Charges for EST subscriptions are prorated, so you only pay for the days you use the subscription. To learn how to buy an EST subscription, see [Convert to an Extended Service Term subscription](#convert-to-an-extended-service-term-subscription), in the next section.
 
    Pricing for an EST subscription is 3% higher than the standard subscription monthly rate.
 
