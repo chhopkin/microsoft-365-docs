@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.date: 02/02/2026
+ms.date: 03/02/2026
 audience: Admin
 ms.topic: overview
 ms.service: microsoft-365-business
@@ -83,6 +83,8 @@ People who have the following permissions can see the reports:
 - Teams Communications Administrator
 
 - User Experience Success Manager (with no user details)
+
+- AI Administrators
 
 For more information, see [About admin roles](../add-users/about-admin-roles.md) and [Assign admin roles](../add-users/assign-admin-roles.md).
 
