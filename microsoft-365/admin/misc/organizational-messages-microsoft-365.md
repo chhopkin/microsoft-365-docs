@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 02/28/2026
+ms.date: 03/02/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -415,7 +415,7 @@ To enable organizational messages through a policy in Microsoft Intune, follow t
 
     > [!NOTE]
     >
-    > **Scope tags** are optional. If you need to specify a custom scope tag, add it on this page. For more information about scope tags, see [Use role-based access control and scope tags for distributed IT](/mem/intune-service/fundamentals/scope-tags).
+    > **Scope tags** are optional. If you need to specify a custom scope tag, add it on this page. For more information about scope tags, see [Use role-based access control and scope tags for distributed IT](/intune/intune-service/fundamentals/scope-tags).
 
 1. In the **Assignments** page, select the groups that should be targeted by this policy and then select **Next**. Include any users or devices that might receive organizational messages.
 
