@@ -21,7 +21,7 @@ Content that has been archived either via site archive or file archive can be fo
 
 In OneDrive web search, users can select the "Archived" pill to return archived results. This returns relevant content that is part of an archived site or has been archived at the file level. Content that has been archived at the file level can be reactivated by the current user. Content that is part of an archived site requires a SharePoint administrator to reactivate before it can be accessed. 
 
-![onedrive_archived_content_search](media/m365-archive-search-overview/onedrive-archived-content-search.gif)
+![Animated GIF that shows an end user selecting to display archived results in a OneDrive search.](media/m365-archive-search-overview/onedrive-archived-content-search.gif)
 
 
 
