@@ -47,8 +47,8 @@ Microsoft recommends you complete the assessment before deploying Microsoft 365 
 
 Use the features in your Microsoft 365 subscription and SharePoint Advanced Management (SAM) licenses to help get your data ready for Copilot.
 
-- [Microsoft 365 Copilot admin guide for E3 + SAM licenses](microsoft-365-copilot-e3-guide.md)
-- [Microsoft 365 Copilot admin guide for E5 + SAM licenses](microsoft-365-copilot-e5-guide.md)
+- [Microsoft 365 Copilot admin guide for E3 + SAM licenses](prepare-deploy-copilot-e3-e5-environments.md)
+- [Microsoft 365 Copilot admin guide for E5 + SAM licenses](prepare-deploy-copilot-e3-e5-environments.md)
 
 ✅ **Use the Microsoft Adoption site**
 
@@ -95,5 +95,5 @@ You can also enable feedback for Microsoft 365 Copilot users. To learn more, see
 ## Related articles
 
 - [Copilot Prompt Gallery](copilot-prompt-gallery.md)
-- Microsoft 365 Copilot [E3](microsoft-365-copilot-e3-guide.md) and [E5](microsoft-365-copilot-e5-guide.md) implementation guides
+- Microsoft 365 Copilot [E3](prepare-deploy-copilot-e3-e5-environments.md) and [E5](prepare-deploy-copilot-e3-e5-environments.md) implementation guides
 - [Microsoft 365 Copilot reports](microsoft-365-copilot-reports-for-admins.md)

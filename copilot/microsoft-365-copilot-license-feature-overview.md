@@ -108,8 +108,8 @@ For more information, see the following articles:
 
 The next step is to start using the features in your license:
 
-- [Microsoft 365 Copilot admin guide for E3 licenses](microsoft-365-copilot-e3-guide.md)
-- [Microsoft 365 Copilot admin guide for E5 licenses](microsoft-365-copilot-e5-guide.md)
+- [Microsoft 365 Copilot admin guide for E3 licenses](prepare-deploy-copilot-e3-e5-environments.md)
+- [Microsoft 365 Copilot admin guide for E5 licenses](prepare-deploy-copilot-e3-e5-environments.md)
 
 ## Related content
 
