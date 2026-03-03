@@ -35,7 +35,7 @@ items:
   - name: Data, Privacy, Security, and Responsible AI
     items:
     - name: Security for Microsoft 365 Copilot
-      href: microsoft-365-copilot-ai-security.md
+      href: security-microsoft-365-copilot.md
     - name: Blueprint to prevent oversharing
       href: microsoft-365-copilot-blueprint-oversharing.md
     - name: Data protection and auditing
