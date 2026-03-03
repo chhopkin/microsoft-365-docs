@@ -28,13 +28,15 @@ appliesto:
 # Get started with the Microsoft 365 Copilot app
 
 > [!NOTE]
-> The updated Microsoft 365 Copilot app is rolling out to Microsoft 365 Copilot users. If you don't see the feature, it might not be available in your organization yet. The feature should be fully rolled out in June 2025.
+> The updated Microsoft 365 Copilot app completed rollout in June 2025. Availability may still vary by organization.
 
 The Microsoft 365 Copilot app is an everyday AI productivity app for work or school. It helps Microsoft 365 users be more productive by providing a single place to access [Microsoft 365 Copilot](microsoft-365-copilot-overview.md) features and capabilities, including search, chat, agents, and more.
 
 You can use the app as a website ([M365Copilot.com](https://www.M365Copilot.com)), as a desktop app that you can install on [Windows](https://apps.microsoft.com/detail/9wzdncrd29v9), and as a mobile app for [Android](https://support.microsoft.com/office/microsoft-365-copilot-app-for-android-0383d031-a1c6-46c9-b734-53cd1d22765b) and [iOS](https://support.microsoft.com/office/microsoft-365-copilot-app-for-ios-c8880c05-883a-46b6-ad32-9bffa31228d0) devices.
 
 This article lists the app's features and benefits, and compares the features available with a Microsoft 365 subscription and a Microsoft 365 Copilot license.
+
+This article is intended for IT admins and decision makers evaluating the Microsoft 365 Copilot app experience for their organization.
 
 This article applies to:
 
