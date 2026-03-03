@@ -92,7 +92,7 @@ POST /drives/{driveId}/items/{itemId}/archive
 ### Reactivate a file
 
 ```http
-POST /drives/{driveId}/items/{itemId}/reactivate
+POST /drives/{driveId}/items/{itemId}/unarchive
 ```
 
 When reactivating a file, the response indicates whether the file is reactivated instantly or transitions into a rehydration period:
