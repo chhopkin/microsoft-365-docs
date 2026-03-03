@@ -23,7 +23,7 @@ description: "Manage feedback your users can send to Microsoft about Microsoft p
 
 # Manage Microsoft feedback for your organization
 
-As the admin of a Microsoft 365 organization, there are several policies to help you manage the feedback collection and the customer engagement experience of your users when using Microsoft 365 applications. You can create and use existing Microsoft Entra groups in your organization for each of these policies. With these policies, you can control how different departments in your organization can send feedback to Microsoft.
+As the admin of a Microsoft 365 organization, there are several policies to help you manage the feedback collection and the customer engagement experience of your users when using Microsoft 365 applications and Microsoft 365 Copilot. All policies described in this article govern feedback for both Microsoft 365 applications and Microsoft 365 Copilot. You can create and use existing Microsoft Entra groups in your organization for each of these policies. With these policies, you can control how different departments in your organization can send feedback to Microsoft.
 
 Microsoft reviews all feedback submitted by customers. Microsoft uses this feedback to improve the product experiences for users, including by improving the quality of AI-generated responses and troubleshooting product issues. Keeping the feedback experiences enabled allows you to see what your users are saying about the Microsoft products they're using. The feedback we collect from your users is available in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
@@ -41,6 +41,7 @@ The following table represents which apps and services are currently connected t
 |**Excel**|Yes|Yes|Yes|Yes|
 |**Forms**|Yes|Yes|Yes|Yes|
 |**Intune Company Portal (Android)**|Yes|Yes|Yes|Yes|
+|**Microsoft 365 Copilot**|Yes|Yes|Yes|Yes|
 |**Microsoft Stream (Android, iOS)**|Yes|Yes|Yes|Yes|
 |**Microsoft Whiteboard**|Yes|Yes|Yes|Yes|
 |**Microsoft365.com**|Yes|Yes|Yes|Yes|
