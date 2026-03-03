@@ -68,6 +68,8 @@ items:
         href: microsoft-365-copilot-chat-requirements.md
     - name: Architecture & how Copilot works
       href: microsoft-365-copilot-architecture.md
+    - name: Prepare and deploy Copilot in Microsoft 365 E3 and E5 environments
+      href: prepare-deploy-copilot-e3-e5-environments.md
     - name: Microsoft 365 Copilot Admin settings
       href: microsoft-365-copilot-app-admin-settings.md
     - name: App and network requirements
@@ -97,12 +99,6 @@ items:
       href: copilot-control-system/management-controls.md
     - name: Measurement and reporting
       href: copilot-control-system/measurement-reporting.md
-    - name: E3 implementation guide
-      displayName: get started
-      href: microsoft-365-copilot-e3-guide.md
-    - name: E5 implementation guide
-      displayName: get started
-      href: microsoft-365-copilot-e5-guide.md
   - name: Enabling Copilot User Experiences
     items:
     - name: Anthropic as a subprocessor for Microsoft Online Services
