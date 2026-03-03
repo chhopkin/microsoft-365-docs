@@ -106,6 +106,6 @@ Deployment doesn't end at license assignment. Ongoing monitoring and refinement 
 
 Use the following articles to deepen specific areas of your deployment:
 
-- [Security for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-ai-security)
+- [Security for Microsoft 365 Copilot](/copilot/microsoft-365/security-microsoft-365-copilot)
 - [Prevent oversharing in Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-blueprint-oversharing)
 - [Microsoft 365 Copilot architecture, data protection, and auditing](/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing)

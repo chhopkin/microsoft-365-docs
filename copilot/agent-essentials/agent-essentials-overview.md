@@ -45,9 +45,9 @@ Copilot and Copilot agents only access data that [individual users are authorize
 When you integrate your business workflows as agents for Copilot, your internal data stays within your agent. That data doesn't flow out of [Microsoft Graph](/graph/overview) and it isn't used to train Microsoft 365 Copilot [LLMs](https://azure.microsoft.com/resources/cloud-computing-dictionary/what-are-large-language-models-llms). Copilot does, however, generate a search query to send to your agent on the user's behalf based on their prompt and conversation history with Copilot and data the user has access to in Microsoft 365. 
 
 Microsoft’s comprehensive security posture for AI includes:
-- [Secure engineering and development practices](/copilot/microsoft-365/microsoft-365-copilot-ai-security#secure-engineering-and-development-practices)
-- [Threat intelligence and risk mitigation](/copilot/microsoft-365/microsoft-365-copilot-ai-security#threat-intelligence-and-risk-mitigation)
-- [Privacy and compliance by design](/copilot/microsoft-365/microsoft-365-copilot-ai-security#privacy-and-compliance-by-design)
+- [Secure engineering and development practices](/copilot/microsoft-365/security-microsoft-365-copilot#secure-engineering-and-development-practices)
+- [Threat intelligence and risk mitigation](/copilot/microsoft-365/security-microsoft-365-copilot#threat-intelligence-and-risk-mitigation)
+- [Privacy and compliance by design](/copilot/microsoft-365/security-microsoft-365-copilot#privacy-and-compliance-by-design)
 
 > [!NOTE]
 > You can also use [Microsoft Purview](/purview/ai-m365-copilot), which provides tools to help you discover, secure, and govern your data for use in Microsoft 365 Copilot, Microsoft 365 Copilot Chat, and agents published to Microsoft 365. In addition, Purview can help discover, protect, and govern the interactions (prompts and responses) with these AI apps.

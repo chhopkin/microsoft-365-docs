@@ -38,7 +38,7 @@ This article is intended for IT administrators who want to understand how data f
 > To learn more how Microsoft 365 Copilot uses your data, see:
 >
 > - [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md)
-> - [Security for Microsoft 365 Copilot](microsoft-365-copilot-ai-security.md)
+> - [Security for Microsoft 365 Copilot](security-microsoft-365-copilot.md)
 
 ## How Microsoft 365 Copilot works with sensitivity labels and encryption
 
