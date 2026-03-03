@@ -43,8 +43,8 @@ This article assumes:
 - SharePoint and OneDrive are actively used to store organizational content
 
 For prerequisites and platform requirements, see:
-- [Minimum requirements to deploy Microsoft 365 Copilot](https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-minimum-requirements)
-- [License options for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-licensing)
+- [Minimum requirements to deploy Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-minimum-requirements)
+- [License options for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-licensing)
 
 ## Step 1: Establish baseline readiness
 
@@ -72,7 +72,7 @@ Common readiness activities include:
 
 These actions improve Copilot output quality and reduce the likelihood of users seeing irrelevant or inappropriate information.
 
-For a prescriptive, phased approach, see [Prevent oversharing in Microsoft 365 Copilot](https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-blueprint-oversharing).
+For a prescriptive, phased approach, see [Prevent oversharing in Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-blueprint-oversharing).
 
 ### Apply data protection with Microsoft Purview
 
@@ -107,7 +107,7 @@ Microsoft 365 E5 builds on E3 with advanced capabilities for:
 
 These capabilities support broader deployments and more proactive governance, especially in complex or highly regulated environments.
 
-For a detailed comparison, see [Compare Microsoft 365 Copilot features in E3 and E5 licenses](https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-license-feature-overview).
+For a detailed comparison, see [Compare Microsoft 365 Copilot features in E3 and E5 licenses](/copilot/microsoft-365/microsoft-365-copilot-license-feature-overview).
 
 ## Step 4: Plan your rollout
 
@@ -123,6 +123,6 @@ Deployment doesn't end at license assignment. Ongoing monitoring, governance, an
 
 Use the following articles to deepen specific areas of your deployment:
 
-- [Security for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-ai-security)
-- [Prevent oversharing in Microsoft 365 Copilot](https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-blueprint-oversharing)
-- [Microsoft 365 Copilot architecture, data protection, and auditing](https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing)
+- [Security for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-ai-security)
+- [Prevent oversharing in Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-blueprint-oversharing)
+- [Microsoft 365 Copilot architecture, data protection, and auditing](/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing)
