@@ -28,7 +28,7 @@ appliesto:
 
 When you create a Microsoft 365 subscription, you automatically create a tenant for your organization. Your tenant sits inside the **Microsoft 365 service boundary**, where [Microsoft 365 Copilot](microsoft-365-copilot-overview.md) can access your organization's data.
 
-Operating inside the **Microsoft 365 service boundary** doesn't grant Copilot tenant‑wide visibility—data access is always scoped to the signed‑in user's permissions.
+Operating inside the **Microsoft 365 service boundary** doesn't grant Copilot tenant‑wide visibility. Data access is always scoped to the signed‑in user's permissions.
 
 This data includes information that the user can access, including their activities, and the content they create and interact with in Microsoft 365 apps.
 
