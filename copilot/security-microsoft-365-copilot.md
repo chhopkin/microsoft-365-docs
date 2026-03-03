@@ -25,7 +25,7 @@ Security is foundational to Microsoft's approach to Microsoft 365 Copilot. This 
 > [!NOTE]
 > This article describes Microsoft's security approach for Microsoft 365 Copilot. It doesn't include deployment or data‑readiness steps.
 >
-> For rollout planning and readiness guidance, see **Prepare and deploy Microsoft 365 Copilot in E3 and E5 environments**.
+> For rollout planning and readiness guidance, see [Prepare and deploy Microsoft 365 Copilot in E3 and E5 environments](prepare-deploy-copilot-e3-e5-environments.md).
 >
 > For deep technical details about data flow, protections, and auditing, see:
 > - [Microsoft 365 Copilot data protection architecture](/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing)
@@ -39,8 +39,7 @@ Microsoft applies a multi‑layered, defense‑in‑depth strategy to secure Mic
 
 Microsoft 365 Copilot is built on Microsoft 365 identity and access controls and aligns with Zero Trust principles such as strong identity verification, least‑privilege access, and continuous evaluation.
 
-For more information, see:
-- [Apply principles of Zero Trust to Microsoft 365 Copilot](/security/zero-trust/copilots/zero-trust-microsoft-365-copilot)
+For more information, see: [Apply principles of Zero Trust to Microsoft 365 Copilot](/security/zero-trust/copilots/zero-trust-microsoft-365-copilot).
 
 ## Data protection and compliance
 
@@ -50,7 +49,8 @@ Microsoft 365 Copilot honors your organization's existing security and data prot
 
 Enterprise data protection (EDP) describes the contractual and technical commitments that apply to customer data for Microsoft 365 Copilot and Microsoft 365 Copilot Chat under Microsoft Product Terms and the Data Protection Addendum.
 
-For details, see:
+For details, see the following articles:
+
 - [Enterprise data protection in Microsoft 365 Copilot and Microsoft 365 Copilot Chat](/copilot/microsoft-365/enterprise-data-protection)
 - [Data, Privacy, and Security for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-privacy)
 
@@ -58,15 +58,14 @@ For details, see:
 
 Microsoft 365 Copilot operates within existing permissions and access controls. Overshared or poorly governed content can affect Copilot results and increase risk.
 
-For prescriptive remediation guidance, see:
-- [Microsoft 365 Copilot blueprint for oversharing](/copilot/microsoft-365/microsoft-365-copilot-blueprint-oversharing)
+For prescriptive remediation guidance, see: [Microsoft 365 Copilot blueprint for oversharing](/copilot/microsoft-365/microsoft-365-copilot-blueprint-oversharing).
 
 ## Related guidance
 
 Use these articles for deeper coverage of related topics:
 
 - **Deployment and readiness**
-  - Prepare and deploy Microsoft 365 Copilot in E3 and E5 environments
+  - [Prepare and deploy Microsoft 365 Copilot in E3 and E5 environments](prepare-deploy-copilot-e3-e5-environments.md)
   - [Minimum requirements to deploy Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-minimum-requirements)
 
 - **Architecture and data handling**
