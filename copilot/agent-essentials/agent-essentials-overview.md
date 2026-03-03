@@ -46,8 +46,7 @@ When you integrate your business workflows as agents for Copilot, your internal 
 
 Microsoft's comprehensive security posture for AI includes:
 - [Secure engineering and development practices](/copilot/microsoft-365/security-microsoft-365-copilot)
-- [Threat intelligence and risk mitigation](/copilot/microsoft-365/security-microsoft-365-copilot#threat-intelligence-and-risk-mitigation)
-- [Privacy and compliance by design](/copilot/microsoft-365/security-microsoft-365-copilot#privacy-and-compliance-by-design)
+- [Data, Privacy, and Security for Microsoft 365 Copilot](../microsoft-365-copilot-privacy.md)
 
 > [!NOTE]
 > You can also use [Microsoft Purview](/purview/ai-m365-copilot), which provides tools to help you discover, secure, and govern your data for use in Microsoft 365 Copilot, Microsoft 365 Copilot Chat, and agents published to Microsoft 365. In addition, Purview can help discover, protect, and govern the interactions (prompts and responses) with these AI apps.
