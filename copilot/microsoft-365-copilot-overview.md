@@ -73,7 +73,7 @@ Microsoft 365 Copilot:
 
 - Coordinates large language models (LLMs). LLMs are artificial intelligence (AI) algorithms. These algorithms use deep learning techniques and data sets to understand, summarize, predict, and generate content.
 
-To learn more, see:
+For more information, see:
 
 - [Microsoft 365 Copilot architecture and how it works](microsoft-365-copilot-architecture.md)
 - [Microsoft 365 Copilot service description](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot)
