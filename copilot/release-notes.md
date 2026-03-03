@@ -7,7 +7,7 @@ ms.author: kwekua
 author: kwekuako
 manager: scotv
 ms.update-cycle: 180-days
-ms.date: 2/10/2025
+ms.date: 02/23/2026
 audience: Admin
 ms.reviewer: briandesouza
 ms.topic: release-notes
@@ -802,15 +802,15 @@ Organizations need AI-powered solutions that not only respond accurately but ant
   **Learn:**  
   [Add knowledge sources to your declarative agent](/microsoft-365-copilot/extensibility/knowledge-sources)
 
-- **Generate Office documents from agents in Copilot Studio lite** [Windows, Web]
+- **Generate Office documents from agents in Agent Builder** [Windows, Web]
 
-  Agents built with Copilot Studio lite can generate PowerPoint decks, Excel spreadsheets, and Word documents via chat, with files saved to OneDrive.
+  Agents built with Agent Builder in Microsoft 365 Copilot can generate PowerPoint decks, Excel spreadsheets, and Word documents via chat, with files saved to OneDrive.
 
   **Roadmap ID:** [506753](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=506753)
 
   **Details:**
 
-  **What changed:** Office skills are available in Copilot Studio lite. Users can chat with an agent to generate PowerPoint, Excel, and Word files. Files are saved to OneDrive to streamline organization and support retention policies. These skills are part of the “Generate code, graphs, and documents” capability (formerly known as Code Interpreter).
+  **What changed:** Office skills are available in Agent Builder. Users can chat with an agent to generate PowerPoint, Excel, and Word files. Files are saved to OneDrive to streamline organization and support retention policies. These skills are part of the “Generate code, graphs, and documents” capability (formerly known as Code Interpreter).
 
   **Why:** Automating common document tasks helps teams move faster and maintain consistency, while OneDrive storage supports governance needs.
 
@@ -5706,15 +5706,15 @@ Organizations need AI-powered solutions that not only respond accurately but ant
   **Learn:**  
   [Add knowledge sources to your declarative agent](/microsoft-365-copilot/extensibility/knowledge-sources)
 
-- **Generate Office documents from agents in Copilot Studio lite** [Windows, Web]
+- **Generate Office documents from agents in Agent Builder** [Windows, Web]
 
-  Agents built with Copilot Studio lite can generate PowerPoint decks, Excel spreadsheets, and Word documents via chat, with files saved to OneDrive.
+  Agents built with Agent Builder in Microsoft 365 Copilot can generate PowerPoint decks, Excel spreadsheets, and Word documents via chat, with files saved to OneDrive.
 
   **Roadmap ID:** [506753](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=506753)
 
   **Details:**
 
-  **What changed:** Office skills are available in Copilot Studio lite. Users can chat with an agent to generate PowerPoint, Excel, and Word files. Files are saved to OneDrive to streamline organization and support retention policies. These skills are part of the “Generate code, graphs, and documents” capability (formerly known as Code Interpreter).
+  **What changed:** Office skills are available in Agent Builder. Users can chat with an agent to generate PowerPoint, Excel, and Word files. Files are saved to OneDrive to streamline organization and support retention policies. These skills are part of the “Generate code, graphs, and documents” capability (formerly known as Code Interpreter).
 
   **Why:** Automating common document tasks helps teams move faster and maintain consistency, while OneDrive storage supports governance needs.
 
@@ -8573,15 +8573,15 @@ Organizations need AI-powered solutions that not only respond accurately but ant
   **Learn:**  
   [Add knowledge sources to your declarative agent](/microsoft-365-copilot/extensibility/knowledge-sources)
 
-- **Generate Office documents from agents in Copilot Studio lite** [Windows, Web]
+- **Generate Office documents from agents in Agent Builder** [Windows, Web]
 
-  Agents built with Copilot Studio lite can generate PowerPoint decks, Excel spreadsheets, and Word documents via chat, with files saved to OneDrive.
+  Agents built with Agent Builder in Microsoft 365 Copilot can generate PowerPoint decks, Excel spreadsheets, and Word documents via chat, with files saved to OneDrive.
 
   **Roadmap ID:** [506753](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=506753)
 
   **Details:**
 
-  **What changed:** Office skills are available in Copilot Studio lite. Users can chat with an agent to generate PowerPoint, Excel, and Word files. Files are saved to OneDrive to streamline organization and support retention policies. These skills are part of the “Generate code, graphs, and documents” capability (formerly known as Code Interpreter).
+  **What changed:** Office skills are available in Agent Builder. Users can chat with an agent to generate PowerPoint, Excel, and Word files. Files are saved to OneDrive to streamline organization and support retention policies. These skills are part of the “Generate code, graphs, and documents” capability (formerly known as Code Interpreter).
 
   **Why:** Automating common document tasks helps teams move faster and maintain consistency, while OneDrive storage supports governance needs.
 
