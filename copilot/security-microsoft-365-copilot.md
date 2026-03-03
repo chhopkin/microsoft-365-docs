@@ -33,7 +33,7 @@ Security is foundational to Microsoft's approach to Microsoft 365 Copilot. This 
 
 ## Microsoft's defense‑in‑depth approach
 
-Microsoft applies a multi‑layered, defense‑in‑depth strategy to secure Microsoft 365 Copilot at every level, grounded in enterprise security, privacy, and compliance standards. This layered approach helps ensure that if one control is compromised, additional protections remain in place.
+Microsoft applies a multi‑layered, defense‑in‑depth strategy to secure Microsoft 365 Copilot at every level, grounded in enterprise security, privacy, and compliance standards. This layered approach helps ensure that if one control is compromised, other protections remain in place.
 
 ## Identity and access protection
 
@@ -62,7 +62,7 @@ For prescriptive remediation guidance, see: [Microsoft 365 Copilot blueprint for
 
 ## Related guidance
 
-Use these articles for deeper coverage of related topics:
+Use these articles for deeper coverage of related articles:
 
 - **Deployment and readiness**
   - [Prepare and deploy Microsoft 365 Copilot in E3 and E5 environments](prepare-deploy-copilot-e3-e5-environments.md)
