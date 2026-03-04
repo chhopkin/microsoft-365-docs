@@ -93,4 +93,5 @@ The following illustration shows the subfolders in the Recoverable Items folders
 :::image type="content" source="media/create-litigation-hold-mac/how-litigation-hold-works.png" alt-text="Diagram depicting how litigation hold works." lightbox="media/create-litigation-hold-mac/how-litigation-hold-works.png":::
 
 > [!NOTE]
-> If a hold associated with an eDiscovery case is placed on a mailbox, purged items are moved from the Deletions subfolder to the DiscoveryHolds subfolder and are preserved until the mailbox is released from the eDiscovery hold.
+> - If a hold associated with an eDiscovery case is placed on a mailbox, purged items are moved from the Deletions subfolder to the DiscoveryHolds subfolder and are preserved until the mailbox is released from the eDiscovery hold.
+> - If you don't see the **Manage litigation hold** option in the Microsoft 365 admin center, it might be because the mailbox isn't assigned an Exchange Online Plan 2 license.
