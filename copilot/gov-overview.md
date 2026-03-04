@@ -1,5 +1,5 @@
 ---
-title: Undestand Microsoft goverment cloud environments for Microsoft 365 and Microsoft 365 Copilot            
+title: Understand Microsoft government cloud environments for Microsoft 365 and Microsoft 365 Copilot            
 description: Get an overview of how Microsoft government clouds evolved, why different government cloud environments exist, when to use each environment, and how Microsoft 365 and Microsoft 365 Copilot differ across government cloud SKUs            
 author: denisebmsft
 ms.author: deniseb
@@ -7,7 +7,7 @@ manager: dansimp
 ms.date: 03/03/2026
 ms.topic: concept-article
 ms.service: microsoft-365-enterprise
-ms.reviewer: elisabethjones
+ms.reviewer: eljones
 search.appverid: MET150
 f1.keywords: NOCSH 
 audience: ITPro
@@ -65,7 +65,7 @@ Each environment represents a different point along the sovereignty and isolatio
 ### Use GCC when:
 
 - You require U.S.‑only data residency
-- You do not handle ITAR, DFARS‑regulated CUI, or DoD mission data
+- You don't handle ITAR, DFARS‑regulated CUI, or DoD mission data
 - Your compliance requirements align with FedRAMP Moderate–level controls
 
 ### Use GCC High when:
@@ -76,7 +76,7 @@ Each environment represents a different point along the sovereignty and isolatio
 
 ### Use DoD when:
 
-- You are part of, or directly support, the U.S. Department of Defense
+- You're part of, or directly support, the U.S. Department of Defense
 - Your workloads must meet DoD SRG Impact Level 5 requirements
 - You require the highest degree of operational isolation
 
