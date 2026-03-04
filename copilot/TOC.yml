@@ -41,6 +41,8 @@ items:
       href: /security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
   - name: Privacy and Responsible AI
     items:
+    - name: Enterprise data protection
+      href: enterprise-data-protection.md
     - name: Data protection and auditing
       href: microsoft-365-copilot-architecture-data-protection-auditing.md
     - name: Data, privacy, and security for Microsoft 365 Copilot
@@ -49,8 +51,6 @@ items:
       href: manage-public-web-access.md
     - name: Responsible AI FAQs
       href: responsible-ai/responsible-ai-overview.md
-    - name: Enterprise data protection
-      href: enterprise-data-protection.md
     - name: Application card for Microsoft 365 Copilot
       href: microsoft-365-copilot-application-card.md
     - name: Privacy and protections
