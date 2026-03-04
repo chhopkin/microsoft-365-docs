@@ -25,7 +25,7 @@ Security is foundational to Microsoft's approach to Microsoft 365 Copilot. This 
 > [!NOTE]
 > This article describes Microsoft's security approach for Microsoft 365 Copilot. It doesn't include deployment or data‑readiness steps.
 >
-> For rollout planning and readiness guidance, see [Prepare and deploy Microsoft 365 Copilot in E3 and E5 environments](configure-data-security-copilot.md).
+> For rollout planning and readiness guidance, see [Configure data security for Microsoft 365 Copilot](configure-data-security-copilot.md).
 >
 > For deep technical details about data flow, protections, and auditing, see:
 > - [Microsoft 365 Copilot data protection architecture](/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing)
