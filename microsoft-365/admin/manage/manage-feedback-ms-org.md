@@ -99,7 +99,7 @@ The following information only applies to United States government customers usi
 - The behaviour of the **Allow users to submit feedback to Microsoft** policy differs from Commercial tenants. When the policy is **Not configured** (the default), users can submit **restricted feedback** only. Setting the policy to **Enabled** allows users to submit **verbatim feedback**, while setting it to **Disabled** prevents users from submitting feedback entirely. 
   - **Restricted feedback**: Users **cannot provide written comments** but can only provide predefined feedback such as giving a thumbs up/down rating or selecting an issue type from a list of likely issues. 
   - **Verbatim feedback**: Users can submit more detailed feedback that includes optional **written** comments. 
- -**Diagnostic data and logs**: No diagnostic logs, prompts, responses, screenshots, attachments, or user files are collected in any configuration in United States Government environments. 
+- **Diagnostic data and logs**: No diagnostic logs, prompts, responses, screenshots, attachments, or user files are collected in any configuration in United States Government environments. 
 - The Feedback portal and in-product surveys aren’t available in this environment, so setting these policies don’t have any effect at this time.
 - While the following policies are available to change, changes will have no effect and those policies will always be treated as **Disabled**:
   - Allow users to include screenshots and attachments when they submit feedback to Microsoft.
