@@ -167,7 +167,7 @@ Your Microsoft 365 license includes services and features that help you get your
 More resources:
 
 - [Compare features in the Microsoft 365 licenses that affect Copilot](microsoft-365-copilot-license-feature-overview.md)
-- Get your data ready for Microsoft 365 Copilot using the [E3 license admin guide](configure-data-security-copilot.md) or [E5 license admin guide](configure-data-security-copilot.md).
+- [Configure data security for Microsoft 365 Copilot](configure-data-security-copilot.md)
 
 ## Related content
 
