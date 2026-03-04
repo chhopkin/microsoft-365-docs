@@ -1,8 +1,8 @@
 ### YamlMime:FAQ
 metadata:
   title: Organizational Messages in Microsoft 365 FAQ
-  description: Learn how to create and manage organizational messages in the Microsoft 365 admin center. Drive adoption and configure delivery to Windows and Teams.
-  ms.date: 03/02/2026
+  description: Find answers to common questions about organzational messages in Microsoft 365, including message delivery, permissions, localization, and more.
+  ms.date: 03/04/2026
   f1.keywords:
   - NOCSH
   ms.author: kwekua
@@ -25,6 +25,8 @@ metadata:
    - MOE150
 title: Organizational Messages in Microsoft 365 FAQ
 summary: |
+
+  This article provides answers to frequently asked questions that administrator might have about organizational messages in Microsoft 365. For more information about organizational messages in Microsoft 365, see [Organizational messages in the Microsoft 365 admin center](organizational-messages-microsoft-365.md).
 
 sections:
 - name: Organizational Messages in Microsoft 365 FAQ
