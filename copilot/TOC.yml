@@ -69,8 +69,8 @@ items:
         href: microsoft-365-copilot-chat-requirements.md
     - name: Architecture & how Copilot works
       href: microsoft-365-copilot-architecture.md
-    - name: Prepare and deploy Copilot in Microsoft 365 E3 and E5 environments
-      href: prepare-deploy-copilot-e3-e5-environments.md
+    - name: Configure data security for Microsoft 365 Copilot
+      href: configure-data-security-copilot.md
     - name: Microsoft 365 Copilot Admin settings
       href: microsoft-365-copilot-app-admin-settings.md
     - name: App and network requirements
