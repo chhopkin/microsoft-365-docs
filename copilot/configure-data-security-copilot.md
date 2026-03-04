@@ -50,8 +50,7 @@ Microsoft recommends that you also review and follow [Microsoft 365 Copilot – 
 
 The capabilities described in this article require:
 
-- [Microsoft 365 E3](https://www.microsoft.com/microsoft-365/enterprise/e3) or [Microsoft 365 E5](https://www.microsoft.com/microsoft-365/enterprise/e5) (or [Office 365 E3](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3) or [Office 365 E5](https://www.microsoft.com/microsoft-365/enterprise/office-365-e5)) for core Microsoft 365 services and features such as SharePoint, OneDrive, and basic Microsoft Purview features.
-
+- [Microsoft 365 E3](https://www.microsoft.com/microsoft-365/enterprise/e3) or [Microsoft 365 E5](https://www.microsoft.com/microsoft-365/enterprise/e5) (or [Office 365 E3](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3) or [Office 365 E5](https://www.microsoft.com/microsoft-365/enterprise/office-365-e5)) for core Microsoft 365 services and features, such as SharePoint, OneDrive, and basic Microsoft Purview features.
 - [Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)
 - [SharePoint Advanced Management](/sharepoint/advanced-management) (SAM) (included with Copilot licenses)
 - [Microsoft Purview](/purview/overview) (varies by feature, but many are included with Microsoft 365 E3 or E5)
