@@ -48,7 +48,11 @@ If a former employee is blocked from signing into your organization's Microsoft 
 
 - **Add the former employee's email address to your version of Outlook** (desktop app), and then export the data to a `.pst` file. You can import the data to another email account as needed. 
 
-   See [Step 4 - Give another employee access to OneDrive and Outlook data](remove-former-employee-step-4.md) and [Export emails, contacts, and calendar items to Outlook using a .pst file](https://support.microsoft.com/office/export-emails-contacts-and-calendar-items-to-outlook-using-a-pst-file-14252b52-3075-4e9b-be4e-ff9ef1068f91).
+   See the following articles:
+   
+   - [Step 4 - Give another employee access to OneDrive and Outlook data](remove-former-employee-step-4.md) 
+   
+   - [Export emails, contacts, and calendar items to Outlook using a .pst file](https://support.microsoft.com/office/export-emails-contacts-and-calendar-items-to-outlook-using-a-pst-file-14252b52-3075-4e9b-be4e-ff9ef1068f91)
 
 ## Related content
 
