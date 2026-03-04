@@ -163,3 +163,54 @@ Automatic labeling improves consistency and reduces the risk of sensitive conten
 Use **Microsoft Purview DLP** to prevent unintentional or risky sharing:
 
 - Protect data across Exchange, SharePoint, OneDrive, Teams, and endpoints.
+
+- Block or audit actions such as copying, downloading, or sharing sensitive data.
+- Prevent Copilot from summarizing or referencing content that violates DLP policies.
+
+Advanced capabilities—such as Endpoint DLP and Adaptive Protection—require E5 or equivalent licensing.
+
+### Remove data you no longer need
+
+Stale data increases noise and risk.
+
+- Use **retention policies** to automatically retain or delete content.
+- Use **retention labels** when exceptions are required for specific documents or emails.
+
+Cleaning up outdated data improves the relevance and accuracy of Copilot responses.
+
+## Step 3: Monitor and investigate Copilot activity
+
+Even with strong controls, monitoring Copilot usage is essential.
+
+### Review Copilot prompts and responses
+
+Use Microsoft Purview tools to analyze Copilot interactions:
+
+- **Data Security Posture Management (DSPM) for AI** to proactively monitor AI usage.
+- **eDiscovery** to search, export, and (if necessary) delete Copilot prompts and responses.
+
+These tools help you:
+
+- Detect sensitive or inappropriate content.
+- Investigate potential data spillage.
+- Support compliance and legal requirements.
+
+### Monitor communication risks
+
+Use **Communication Compliance** policies to detect risky or inappropriate Copilot interactions, such as:
+
+- Sharing confidential information
+- Harassment or abusive language
+- Policy violations
+
+Predefined templates make it easier to get started quickly.
+
+## Next steps
+
+After completing the steps in this article:
+
+- Review Copilot usage trends and reports regularly.
+- Re-run SharePoint and Purview reports on a scheduled basis.
+- Educate site owners and users on labeling, sharing, and responsible Copilot use.
+
+Well-governed data not only reduces risk—it significantly improves the quality and usefulness of Microsoft 365 Copilot responses.
