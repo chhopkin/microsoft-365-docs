@@ -146,41 +146,9 @@ To add a domain and create a business email account, see the following articles:
 - [Add a domain to Microsoft 365](../setup/add-domain.md).
 - [Finish setting up](../setup/setup-business-standard.md#finish-setting-up).
 
-
-
 ## Frequently asked questions about Microsoft 365 Business Standard
 
-### What is a business email and what are the advantages of setting one up?
-
-A business email is an email that uses your own domain name. For example, if you own the domain name `contoso.com`, you can build a website using the URL `www.contoso.com`, but you can also have a custom email address such as `yourname@contoso.com`. This type of email is referred to as a branded business email because it gives your email a professional look.
-
-### How do I get a new business email address?
-
-You have three options for getting a business email.
-
-- Use a suggested **onmicrosoft.com** domain for free (`someone@mybusiness.onmicrosoft.com`).
-- Buy a new domain to have a more compact email address (`mybusinessname@contoso.com`).
-- Use a domain name that you already own.
-
-### Why might I need to verify my domain to create a business email?
-
-If you choose to use a domain you already own, you can use it for your email address with Microsoft 365. As part of the sign-up process, Microsoft 365 asks you to verify the domain so you can send emails through Microsoft 365. This verification confirms that you're the owner of the domain that's sending emails with that identity. It enhances security and helps prevent fraudulent activity.
-
-### Is there a benefit to paying monthly vs. annually?
-
-To provide you with the greatest amount of flexibility, Microsoft 365 offers different payment options.
-
-- Microsoft 365 Business Basic, Apps for business, Business Standard, and Business Premium plans are available for monthly commitment payment or annual commitment payment.
-- Monthly commitment payment: Pay month by month, and you can cancel at any time.
-- Annual commitment payment: Sign up for a one-year subscription, but you can choose to pay month to month or pay for the entire year at the time you sign up. You get a discount for using this payment option.
-
-### How does recurring billing work?
-
-When you turn on recurring billing, you continue to be billed each year on the day you subscribed. You can turn it off or back on again in the Microsoft 365 admin center if your subscription is active. To learn more, see [Manage recurring billing in the Microsoft 365 admin center](../../commerce/subscriptions/renew-your-subscription.md).
-
-### What do I do if I want to change my business name?
-
-Contact the small business support experts that can help you change your business name. To learn more, see [Get support](../get-help-support.md).
+For frequently asked questions about Microsoft 365 Business Standard, see [Microsoft 365 Business Standard FAQ](signup-business-standard-faq.yml).
 
 ## Related articles
 
