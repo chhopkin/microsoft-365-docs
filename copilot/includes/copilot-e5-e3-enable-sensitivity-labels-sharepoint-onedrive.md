@@ -17,7 +17,7 @@ You have two options:
 
 - **Option 1**: Select **Information Protection** > **Sensitivity labels**. If you see the following message, select **Turn on now**:
 
-  :::image type="content" source="../media/prepare-deploy-copilot-e3-e5-environments/purview-sensitivity-labels-prompt.png" alt-text="In Microsoft Purview Information Protection, turn on sensitivity labels for SharePoint and OneDrive." lightbox="../media/prepare-deploy-copilot-e3-e5-environments/purview-sensitivity-labels-prompt.png":::
+  :::image type="content" source="../media/configure-data-security-copilot/purview-sensitivity-labels-prompt.png" alt-text="In Microsoft Purview Information Protection, turn on sensitivity labels for SharePoint and OneDrive." lightbox="../media/configure-data-security-copilot/purview-sensitivity-labels-prompt.png":::
 
 - **Option 2**: Use the `[Set-SPOTenant](/powershell/module/microsoft.online.sharepoint.powershell/set-spotenant)` Windows PowerShell cmdlet.
 
