@@ -68,7 +68,7 @@ You'll need access to the following admin portals and roles:
 
 ## Step 1: Reduce oversharing and stale content with SharePoint Advanced Management
 
-SharePoint Advanced Management (SAM) provides tenant-wide controls to identify oversharing, reduce clutter, and monitor changes that can affect Copilot results.
+[SharePoint Advanced Management](/sharepoint/get-ready-copilot-sharepoint-advanced-management) (SAM) provides tenant-wide controls to identify oversharing, reduce clutter, and monitor changes that can affect Copilot results.
 
 ### Ensure all sites have valid owners
 
