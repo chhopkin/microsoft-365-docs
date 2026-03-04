@@ -28,7 +28,7 @@ appliesto:
 
 File upload is enabled by default in both Microsoft 365 Copilot and Microsoft 365 Copilot Chat. It lets users upload files like Word docs, Excel files, and PDFs to prompt Copilot and Copilot Chat to reason over them as part of its response. File upload limits apply in Copilot Chat.
 
-If you don't want users to have the ability to upload files in Microsoft 365 Copilot and Microsoft 365 Copilot Chat, you can contact Microsoft Support to configure the file upload control so that users can't upload files. Depending on your organization's needs and policies, ask about the following options:  
+If you don't want users to have the ability to upload files in Microsoft 365 Copilot and Microsoft 365 Copilot Chat, contact [Microsoft Support](/microsoft-365/admin/get-help-support) so they can configure the file upload control for you. Depending on your organization's needs and policies, ask about the following options:  
 
 - **Allow file uploads in both Microsoft 365 Copilot and Microsoft 365 Copilot Chat**: Allows users to upload files in both experiences. This is the default setting.
 - **Prevent file uploads in both Microsoft 365 Copilot and Microsoft 365 Copilot Chat**: Disables file upload in both experiences.
