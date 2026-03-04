@@ -9,7 +9,7 @@ ms.subservice: advanced-data-residency
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.date: 11/07/2025
+ms.date: 2/27/2026
 ms.reviewer: jugiammo
 ms.custom:
 - it-pro
@@ -52,7 +52,7 @@ In order to promote clarity in the capability descriptions on data residency fun
 |Microsoft Entra ID |Microsoft Entra ID is the new name for [Azure Active Directory](/entra/fundamentals/new-name). |
 |Microsoft 365 admin center Data Location |To see the _Primary Provisioned Geography_ for Exchange Online, SharePoint, OneDrive, and Microsoft Teams, refer to the Microsoft 365 admin center by navigating to **Admin > Settings > Org settings > Organization profile > Data location**. |
 |Microsoft 365 Core Services |Exchange Online, SharePoint and OneDrive, Microsoft Teams, Microsoft 365 Copilot and Copilot Chat |
-|Microsoft 365 Expanded Services |Microsoft Defender for Office P1 and [the built-in security features for all cloud mailboxes](/defender-office-365/eop-about), Microsoft 365 web apps (formerly known as "Office for the Web"), Viva Connections, Microsoft Purview* |
+|Microsoft 365 Expanded Services |Microsoft Defender for Office P1 and [the built-in security features for all cloud mailboxes (formerly Exchange Online Protection (EOP))](/defender-office-365/eop-about), Microsoft 365 web apps (formerly known as "Office for the Web"), Viva Connections, Microsoft Purview* |
 |Microsoft 365 Multi-Geo Capabilities |_Microsoft 365 Multi-Geo Capabilities_ allows a single _Tenant_ to store customer data-at-rest across multiple geographies rather than be limited to the single _Primary Provisioned Geography_. See the _[Multi-Geo](microsoft-365-multi-geo.md)_ page for more detail. |
 |Microsoft 365 Service provisioning country mapping |Refer to [data maps](https://aka.ms/datamaps) to learn where a given service provisions specified customer data, based on the _Tenant Default Geography._ |
 |Microsoft 365 Service provisioning mapping |All Microsoft 365 services use the _Default Geography_ to determine where a given _Tenant's_ specified data will be provisioned and stored. |
@@ -64,7 +64,7 @@ In order to promote clarity in the capability descriptions on data residency fun
 |Tenant |A _Tenant_ represents an organization in _Microsoft Entra ID_. It's a reserved Microsoft Entra service instance that an organization receives and owns when it signs up for a Microsoft cloud service such as Azure or Microsoft 365. Each _Microsoft Entra ID Tenant_ is distinct and separate from other _Microsoft Entra ID Tenants_. |
 
 > [!NOTE]
-> *The [Microsoft Purview](m365-dr-workload-purview.md) services covered as part of the _Advanced Data Residency commitment_ (as of July 2025) include [Data Loss Prevention](m365-dr-workload-purview.md#data-security---data-loss-prevention-dlp), [Information Barriers](m365-dr-workload-purview.md#data-security---information-barriers), [Information Protection (MIP)](m365-dr-workload-purview.md#data-security---information-protection-mip), [Audit (Standard)](m365-dr-workload-purview.md#risk--compliance---audit-standard), [Audit (Premium)](m365-dr-workload-purview.md#risk--compliance---audit-premium), and [Data Lifecycle Management (DLM)](m365-dr-workload-purview.md#risk--compliance---data-lifecycle-management-dlm). Additional Microsoft Purview services are not currently supported.
+> *The [Microsoft Purview](m365-dr-service-purview.md) services covered as part of the _Advanced Data Residency commitment_ (as of February 2026) include [Data Loss Prevention](m365-dr-service-purview.md#data-security---data-loss-prevention-dlp), [Information Barriers](m365-dr-service-purview.md#data-security---information-barriers), [Information Protection (MIP)](m365-dr-service-purview.md#data-security---information-protection-mip), [Audit (Standard)](m365-dr-service-purview.md#risk--compliance---audit-standard), [Audit (Premium)](m365-dr-service-purview.md#risk--compliance---audit-premium), and [Data Lifecycle Management (DLM)](m365-dr-service-purview.md#risk--compliance---data-lifecycle-management-dlm). Additional Microsoft Purview services are not currently supported.
 
 ## Overview of Data Residency
 
@@ -85,10 +85,10 @@ Microsoft 365 services aren't deployed to all Microsoft data centers globally. T
 
 Over time, a particular service may deploy their software to additional _Geographies_, so the provisioning locations for new customers can change over time. This doesn't necessarily cause customer data to move to a new _Geography_.
 
-You can use the _Data Location Card_ via the Microsoft 365 admin center to understand where your data for a given service is stored. As a Global Tenant Admin, you can find the actual data location by navigating to **Admin > Settings > Org settings > Organization profile > Data location**. Currently, data location details are available for Exchange Online, SharePoint, OneDrive, Microsoft Teams, Microsoft 365 Copilot, [the built-in security features for all cloud mailboxes](/defender-office-365/eop-about), and Viva Connections. Additional data location details can be found on the [Data Maps page](o365-data-locations.md).
+You can use the _Data Location Card_ via the Microsoft 365 admin center to understand where your data for a given service is stored. As a Global Tenant Admin, you can find the actual data location by navigating to **Admin > Settings > Org settings > Organization profile > Data location**. Currently, data location details are available for Exchange Online, SharePoint, OneDrive, Microsoft Teams, Microsoft 365 Copilot, [the built-in security features for all cloud mailboxes (formerly Exchange Online Protection (EOP))](/defender-office-365/eop-about), and Viva Connections. Additional data location details can be found on the [Data Maps page](o365-data-locations.md).
 
 > [!NOTE]
-> Microsoft Defender for Office P1, Microsoft Purview (select services), and Microsoft 365 Copilot Chat are covered by [Durable Commitments on Data Location](m365-dr-overview.md#durable-commitments-on-data-location) but not currently displayed in the _Data Location Card_. Refer to [Where your Microsoft 365 customer data is stored](o365-data-locations.md) for more information.
+> [Microsoft Defender for Office P1](m365-dr-service-mdo-p1.md), [Microsoft Purview (select services)](m365-dr-service-purview.md), and [Microsoft 365 Copilot Chat](m365-dr-service-copilot.md) are covered by [Durable Commitments on Data Location](m365-dr-overview.md#durable-commitments-on-data-location) but not currently displayed in the _Data Location Card_. Refer to [Where your Microsoft 365 customer data is stored](o365-data-locations.md) for more information.
 
 Some examples:
 
@@ -136,7 +136,7 @@ There are three methods for ensuring that the _Tenant_ data location for a parti
 1. Only available for _Local Region Geography_ and _Future Local Region Geography_ (when the future data center is launched) countries/regions.
   
 > [!NOTE]
-> See the [Service Data Residency Capabilities section](m365-dr-workload-exo.md) for more details on these topics.
+> See the [Service Data Residency Capabilities section](m365-dr-service-exo.md) for more details on these topics.
 
 #### **Table 3: Durable Commitments on Data Location by Geography**
 

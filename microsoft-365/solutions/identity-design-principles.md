@@ -110,7 +110,7 @@ This type of whiteboard drawing illustrates where security policies are applied 
 
 We've been chasing the dream of [single sign-on](/azure/active-directory/manage-apps/what-is-single-sign-on) (SSO) for as long as I can remember. Some customers believe they can achieve single sign-on by choosing the "right" federation (STS) provider. Microsoft Entra ID can help significantly to [enable SSO](/azure/active-directory/manage-apps/plan-sso-deployment) capabilities, but no STS is magical. There are too many "legacy" authentication methods that are still used for critical applications. Extending Microsoft Entra ID with [partner solutions](/azure/active-directory/saas-apps/tutorial-list) can address many of these scenarios. SSO is a strategy and a journey. You can't get there without moving towards [standards for applications](/azure/active-directory/develop/v2-app-types). Related to this article is a journey to [passwordless](/azure/active-directory/authentication/concept-authentication-passwordless) authentication, which also doesn't have a magical answer.
 
-[Multifactor authentication](/azure/active-directory/authentication/concept-mfa-howitworks) (MFA) is essential today ([here](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/your-pa-word-doesn-t-matter/ba-p/731984) for more). Add to it [user behavior analytics](/azure/active-directory/authentication/tutorial-risk-based-sspr-mfa) and you have a solution that prevents most common cyber-attacks. Even consumer services are moving to require MFA. Yet, I still meet with many customers who don't want to move to [modern authentication](../enterprise/hybrid-modern-auth-overview.md) approaches. The biggest argument I hear is that it impacts users and legacy applications. Sometimes a good kick might help customers move along - Exchange Online [announced changes](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-auth-and-exchange-online-february-2020-update/ba-p/1191282). Lots of Microsoft Entra [reports](/azure/active-directory/fundamentals/concept-fundamentals-block-legacy-authentication) are now available to help customers with this transition.
+[Multifactor authentication](/azure/active-directory/authentication/concept-mfa-howitworks) (MFA) is essential today ([here](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/your-pa-word-doesn-t-matter/ba-p/731984) for more). Add to it [user behavior analytics](/azure/active-directory/authentication/tutorial-risk-based-sspr-mfa) and you have a solution that prevents most common cyber-attacks. Even consumer services are moving to require MFA. Yet, I still meet with many customers who don't want to move to [modern authentication](/microsoft-365/enterprise/hybrid-modern-auth-overview) approaches. The biggest argument I hear is that it impacts users and legacy applications. Sometimes a good kick might help customers move along - Exchange Online [announced changes](https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-auth-and-exchange-online-february-2020-update/ba-p/1191282). Lots of Microsoft Entra [reports](/azure/active-directory/fundamentals/concept-fundamentals-block-legacy-authentication) are now available to help customers with this transition.
 
 ### Authorization
 
@@ -131,11 +131,11 @@ If you agree with this expanded definition of authorization, then you need to im
 - [Microsoft Entra ID Protection](/azure/active-directory/identity-protection/)
 - [Microsoft Defender for Identity](/azure-advanced-threat-protection/)
 - [Microsoft Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
-- [Microsoft Defender for Office 365](../security/office-365-security/defender-for-office-365.md)
+- [Microsoft Defender for Office 365](/defender-office-365/mdo-about)
 - [Microsoft Defender for Cloud Apps](/cloud-app-security/) (Defender for Cloud Apps)
-- [Microsoft Defender XDR](../security/defender/microsoft-365-defender.md)
+- [Microsoft Defender XDR](/defender-xdr/microsoft-365-defender)
 - [Microsoft Intune](/mem/intune/)
-- [Microsoft Purview Information Protection](../compliance/information-protection.md)
+- [Microsoft Purview Information Protection](/purview/information-protection)
 - [Microsoft Sentinel](/azure/sentinel/)
 
 In addition to Microsoft Entra ID, various services and applications have their own specific authorization models. Some of these models are discussed later in the delegation section.
@@ -162,7 +162,7 @@ Today, I find many customer IT groups are structured around "products." It's log
 
 To all SharePoint fan-people and developers, please stop asking "How can I do XYZ in SharePoint Online?" Use [Power Automate](/power-automate/) (or Flow) for workflow, it's a much more powerful platform. Use [Azure Bot Framework](/azure/bot-service/) to create a better UX for your 500-K item list. Start using [Microsoft Graph](https://developer.microsoft.com/graph/) instead of CSOM. [Microsoft Teams](/MicrosoftTeams/Teams-overview) includes SharePoint but also a world more. There are many other examples I can list. There's a vast and wonderful universe out there. Open the door and [start exploring]().
 
-The other common effect is in the compliance area. This cross-services approach seems to completely confuse many compliance policies. I keep seeing organizations that state, "I need to journal all email communications to an eDiscovery system." What does this statement really mean when email is no longer just email but a window into other services? Microsoft 365 has a comprehensive approach for [compliance](../compliance/index.yml), but changing people and processes are often much more difficult than technology.
+The other common effect is in the compliance area. This cross-services approach seems to completely confuse many compliance policies. I keep seeing organizations that state, "I need to journal all email communications to an eDiscovery system." What does this statement really mean when email is no longer just email but a window into other services? Microsoft 365 has a comprehensive approach for [compliance](/purview/), but changing people and processes are often much more difficult than technology.
 
 There are many other people and process implications. In my opinion, this factor is a critical and under-discussed area. Perhaps more in another article.
 
@@ -185,13 +185,13 @@ In these multi-tenant scenarios, customers often want to keep some configuration
 
 ### Multi-Geo
 
-To [Multi-Geo](../enterprise/microsoft-365-multi-geo.md) or not to Multi-Geo. That is the question. With Microsoft 365 Multi-Geo, you can provision and store data at rest in the geo locations you choose to meet [data residency](../enterprise/o365-data-locations.md) requirements. There are many misconceptions about this capability. Keep the following points in mind:
+To [Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo) or not to Multi-Geo. That is the question. With Microsoft 365 Multi-Geo, you can provision and store data at rest in the geo locations you choose to meet [data residency](/microsoft-365/enterprise/o365-data-locations) requirements. There are many misconceptions about this capability. Keep the following points in mind:
 
 - It doesn't to provide performance benefits. It could make performance worse if the [network design](https://aka.ms/office365networking) isn't correct. Get devices "close" to the Microsoft network, not necessarily to your data.
 - It's not a solution for [GDPR compliance](https://www.microsoft.com/trust-center/privacy/gdpr-overview). GDPR doesn't focus on data sovereignty or storage locations. There are other compliance frameworks for data sovereignty or storage locations.
-- It doesn't solve delegation of administration (see below) or [information barriers](../compliance/information-barriers.md).
+- It doesn't solve delegation of administration (see below) or [information barriers](/purview/information-barriers).
 - It isn't the same as multi-tenant and requires more [user provisioning](/azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation) workflows.
-- It doesn't [move your tenant](../enterprise/moving-data-to-new-datacenter-geos.md) (your Microsoft Entra ID) to another geography.
+- It doesn't [move your tenant](/microsoft-365/enterprise/m365-dr-overview#migrationsmoves) (your Microsoft Entra ID) to another geography.
 
 ## Delegation of administration
 
@@ -203,7 +203,7 @@ In most large organizations, separation of duties and role-based access control 
 
 There's a long and growing list of [built-in roles](/azure/active-directory/roles/permissions-reference). Each role consists of a list of role permissions grouped together to allow specific actions to be performed. You can see these permissions in the "Description" tab inside each role. Alternatively, you can see a more human readable version of these permissions in the Microsoft 365 Admin Center. The definitions for built-in roles can't be modified. I generally, group these roles into three categories:
 
-- **Global administrator**: This "all powerful" role should be [highly protected](../enterprise/protect-your-global-administrator-accounts.md) just like you would in other systems. Typical recommendations include: no permanent assignment and use Microsoft Entra Privileged Identity Management (PIM); strong authentication; and so on. Interestingly, this role doesn't give you access to everything by default. Typically, I see confusion about compliance access and Azure access, discussed later. However, this role can always assign access to other services in the tenant.
+- **Global administrator**: This "all powerful" role should be [highly protected](/microsoft-365/enterprise/protect-your-global-administrator-accounts) just like you would in other systems. Typical recommendations include: no permanent assignment and use Microsoft Entra Privileged Identity Management (PIM); strong authentication; and so on. Interestingly, this role doesn't give you access to everything by default. Typically, I see confusion about compliance access and Azure access, discussed later. However, this role can always assign access to other services in the tenant.
 - **Specific service admins**: Some services (Exchange, SharePoint, Power BI, and so on) consume high-level administration roles from Microsoft Entra ID. This behavior isn't consistent across all services and there are more service-specific roles discussed later.
 - **Functional**: There's a long (and growing) list of roles focused on specific operations (guest inviter, and so on). Periodically, more of these roles are added based on customer needs.
 
@@ -227,15 +227,15 @@ Sometimes scenarios call for adding an external user to a role (see the previous
 
 ### Microsoft Defender XDR and Microsoft Purview portals
 
-**Email & Collaboration roles** in the [Microsoft Defender portal](../security/office-365-security/mdo-portal-permissions.md) and ***Role groups for Microsoft Purview solutions** in the [Microsoft Purview portal](../compliance/microsoft-365-compliance-center-permissions.md) are a collection of "role groups", which are separate and distinct from Microsoft Entra roles. This can be confusing because some of these role groups have the same name as Microsoft Entra roles (for example, Security Reader), yet they can have different membership. I prefer the use of Microsoft Entra roles. Each role group consists of one or more "roles" (see what I mean about reusing the same word?) and have members from Microsoft Entra ID, which are email enabled objects. Also, you can create a role group with the same name as a role, which might or might not contain that role (avoid this confusion).
+**Email & Collaboration roles** in the [Microsoft Defender portal](/defender-office-365/mdo-portal-permissions) and ***Role groups for Microsoft Purview solutions** in the [Microsoft Purview portal](/purview/purview-permissions) are a collection of "role groups", which are separate and distinct from Microsoft Entra roles. This can be confusing because some of these role groups have the same name as Microsoft Entra roles (for example, Security Reader), yet they can have different membership. I prefer the use of Microsoft Entra roles. Each role group consists of one or more "roles" (see what I mean about reusing the same word?) and have members from Microsoft Entra ID, which are email enabled objects. Also, you can create a role group with the same name as a role, which might or might not contain that role (avoid this confusion).
 
 In a sense, these permissions are an evolution of the Exchange role groups model. However, Exchange Online has its own [role group management](/exchange/permissions-exo) interface. Some role groups in Exchange Online are locked and managed from Microsoft Entra ID or the Microsoft Defender XDR and Microsoft Purview portals, but others might have the same or similar names and are managed in Exchange Online (adding to the confusion). I recommend you avoid using the Exchange Online user interface unless you need scopes for Exchange management.
 
-You can't create custom roles. Roles are defined by services created by Microsoft and continue to grow as new services are introduced. This behavior is similar in concept to [roles defined by applications](/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps) in Microsoft Entra ID. When new services are enabled, often new role groups need to be created in order to grant or delegate access to these (for example, [insider risk management](../compliance/insider-risk-management-configure.md).
+You can't create custom roles. Roles are defined by services created by Microsoft and continue to grow as new services are introduced. This behavior is similar in concept to [roles defined by applications](/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps) in Microsoft Entra ID. When new services are enabled, often new role groups need to be created in order to grant or delegate access to these (for example, [insider risk management](/purview/insider-risk-management-configure).
 
 These role groups also require direct membership and can't contain Microsoft Entra groups. Unfortunately, today these role groups aren't supported by Microsoft Entra PIM. Like Microsoft Entra roles, I tend to recommend management of these role groups through APIs or a partner governance product like Saviynt, or others.
 
-Microsoft Defender portal and Microsoft Purview portal roles span Microsoft 365 and you can't scope these role groups to a subset of the environment (like you can with administrative units in Microsoft Entra ID). Many customers ask how they can subdelegate. For example, "create a DLP policy only for EU users." Today, if you have rights to a specific function in the Microsoft Defender XDR and Microsoft Purview portals, you have rights to everything covered by this function in the tenant. However, many policies have capabilities to target a subset of the environment (for example, "make these [labels](../compliance/create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) available only to these users"). Proper governance and communication are a key component to avoid conflicts. Some customers choose to implement a "configuration as code" approach to address subdelegation in the Microsoft Defender XDR and Microsoft Purview portals. Some specific services support subdelegation (see the next section).
+Microsoft Defender portal and Microsoft Purview portal roles span Microsoft 365 and you can't scope these role groups to a subset of the environment (like you can with administrative units in Microsoft Entra ID). Many customers ask how they can subdelegate. For example, "create a DLP policy only for EU users." Today, if you have rights to a specific function in the Microsoft Defender XDR and Microsoft Purview portals, you have rights to everything covered by this function in the tenant. However, many policies have capabilities to target a subset of the environment (for example, "make these [labels](/purview/create-sensitivity-labels#publish-sensitivity-labels-by-creating-a-label-policy) available only to these users"). Proper governance and communication are a key component to avoid conflicts. Some customers choose to implement a "configuration as code" approach to address subdelegation in the Microsoft Defender XDR and Microsoft Purview portals. Some specific services support subdelegation (see the next section).
 
 ### Service Specific
 
@@ -244,8 +244,8 @@ As stated earlier, many customers are looking to achieve a more granular delegat
 - **Exchange Online** - (/exchange/permissions-exo/permissions-exo)
 - **SharePoint Online** - (/sharepoint/manage-site-collection-administrators)
 - **Microsoft Teams** - (/microsoftteams/itadmin-readiness)
-- **eDiscovery** - (../compliance/index.yml)
-  - **Permission Filtering** - (../compliance/index.yml)
+- **eDiscovery** - (/purview/)
+  - **Permission Filtering** - (/purview/)
   - **Compliance Boundaries** - (../compliance/set-up-compliance-boundaries.md)
   - **eDiscovery (Premium)** - (../compliance/overview-ediscovery-20.md)
 - **Viva Engage** - (/viva/engage/manage-viva-engage-users/manage-viva-engage-admins)
@@ -271,18 +271,18 @@ As stated earlier, many customers are looking to achieve a more granular delegat
 - **Microsoft Defender XDR** - (../security/defender/m365d-permissions.md)
 - **Microsoft Defender for Cloud Apps** - (/cloud-app-security/manage-admins)
 - **Stream** - (/stream/assign-administrator-user-role)
-- **Information barriers** - (../compliance/information-barriers.md)
+- **Information barriers** - (/purview/information-barriers)
 
 ### Activity Logs
 
-Microsoft 365 has a [unified audit log](../compliance/search-the-audit-log-in-security-and-compliance.md). It's a very [detailed log](/office/office-365-management-api/office-365-management-activity-api-schema), but don't read too much into the name. It might not contain everything you want or need for your security and compliance needs. Also, some customers are very interested in [Audit (Premium)](../compliance/advanced-audit.md).
+Microsoft 365 has a [unified audit log](/purview/audit-search). It's a very [detailed log](/office/office-365-management-api/office-365-management-activity-api-schema), but don't read too much into the name. It might not contain everything you want or need for your security and compliance needs. Also, some customers are very interested in [Audit (Premium)](/purview/audit-solutions-overview).
 
 Examples of Microsoft 365 logs that are accessed through other APIs include the following features:
 
 - [Microsoft Entra ID](/azure/azure-monitor/platform/diagnostic-settings) (activities not related to Microsoft 365)
 - [Exchange Message Tracking](/powershell/module/exchangepowershell/get-messagetracev2)
 - Threat/UEBA Systems discussed previously (for example, Microsoft Entra ID Protection, Microsoft Defender for Cloud Apps, Microsoft Defender for Endpoint, and so on)
-- [Microsoft Purview Information Protection](../compliance/data-classification-activity-explorer.md)
+- [Microsoft Purview Information Protection](/purview/data-classification-activity-explorer)
 - [Microsoft Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/api-power-bi)
 - [Microsoft Graph](https://graph.microsoft.com)
 
@@ -298,9 +298,9 @@ The diagram represents built-in capabilities to send logs to Event Hubs and/or A
 
 Combining all the logs into one storage location includes added benefit, such as cross-correlations, custom retention times, augmenting with data needed to support RBAC model, and so on. Once data is in this storage system, you can create a Power BI dashboard (or another type of visualization) with an appropriate RBAC model.
 
-Logs don't have to be directed to one place only. It might also be beneficial to integrate [Microsoft 365 Logs with Microsoft Defender for Cloud Apps](/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) or a custom RBAC model in [Power BI](../admin/usage-analytics/usage-analytics.md). Different repositories have different benefits and audiences.
+Logs don't have to be directed to one place only. It might also be beneficial to integrate [Microsoft 365 Logs with Microsoft Defender for Cloud Apps](/cloud-app-security/connect-office-365-to-microsoft-cloud-app-security) or a custom RBAC model in [Power BI](/microsoft-365/admin/usage-analytics/usage-analytics). Different repositories have different benefits and audiences.
 
-It's worth mentioning that there's a rich built-in analytics system for security, threats, vulnerabilities, and so on in a service called [Microsoft Defender XDR](../security/defender/microsoft-365-defender.md).
+It's worth mentioning that there's a rich built-in analytics system for security, threats, vulnerabilities, and so on in a service called [Microsoft Defender XDR](/defender-xdr/microsoft-365-defender).
 
 Many large customers want to transfer this log data to a third-party system (for example, SIEM). There are different approaches for this result, but in-general [Azure Event Hubs](/azure/azure-monitor/platform/stream-monitoring-data-event-hubs) and [Graph](/graph/security-integration) are good starting points.
 

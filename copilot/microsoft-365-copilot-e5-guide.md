@@ -111,6 +111,7 @@ To learn more, see:
 ### Disable RSS and remove sites from the allowed list
 
 1. Use the `Set-SPOTenantRestrictedSearchMode` PowerShell cmdlet to disable RSS.
+
 1. Use the `Remove-SPOTenantRestrictedSearchAllowedSite` PowerShell cmdlet to remove sites from the allowed list.
 
 To learn more about these cmdlets, see [Use PowerShell Scripts for Restricted SharePoint Search](/sharepoint/restricted-sharepoint-search-admin-scripts).
@@ -122,13 +123,17 @@ To learn more about these cmdlets, see [Use PowerShell Scripts for Restricted Sh
     - **Option 1 - Use the Sharing links report**
 
       1. Sign in to the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) as a SharePoint administrator.
+
       1. Select **Reports** > **Data access governance** > **Sharing links** > **View reports**.
+      
       1. Select one of the reports, like **"Anyone" links**. This report shows a list of sites with the highest number of **Anyone** links created. These links let anyone access files and folders without signing in. These sites are candidates to allow in tenant/org wide search.
 
     - **Option 2 - Use the sort and filter options for Active sites**
 
       1. Sign in to the [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) as a SharePoint administrator.
+      
       1. Select **Sites** > **Active sites**.
+      
       1. Use the sort and filter options to find the most active site, including page views. These sites are candidates to allow in a tenant/organization wide search.
 
           :::image type="content" source="media/microsoft-365-copilot-e5-guide/sharepoint-active-sites-filter.png" alt-text="In SharePoint admin center, select active sites and then use the All sites filter.":::
@@ -296,7 +301,7 @@ These policies can detect when sensitive info, like bank account numbers or pass
 
     You can turn on these policies and also review the settings in the policy:
 
-    :::image type="content" source="media/microsoft-365-copilot-e5-guide/purview-dlp-default-policy-teams.png" alt-text="In Microsoft Purview Data Loss Prevention (DLP), turn on the unprotected sensitive info in Teams policy.":::
+    :::image type="content" source="media/microsoft-365-copilot-e5-guide/purview-dlp-default-policy-teams.png" alt-text="In Microsoft Purview Data Loss Prevention (DLP), turn on the unprotected sensitive info in Teams policy." lightbox="media/microsoft-365-copilot-e5-guide/purview-dlp-default-policy-teams.png":::
 
 For more information on using DLP policies to protect information in Teams, see:
 
@@ -334,14 +339,16 @@ Adaptive Protection integrates information from **Insider Risk Management** with
 **Turn on Adaptive Protection**:
 
 1. Sign into the [Microsoft Purview portal](https://purview.microsoft.com/) as one of the admins listed at [Adaptive Protection - Permissions](/purview/insider-risk-management-adaptive-protection#permissions-for-adaptive-protection).
+
 2. Select **Solutions** > **Insider Risk Management** > **Adaptive Protection**.
+
 3. In **Dashboard**, select **Quick setup**.
 
-    - [Adaptive Protection - Quick Setup](/purview/insider-risk-management-adaptive-protection) is the easiest and fastest way to get started with Adaptive Protection. It automatically creates and dynamically assigns the insider risk policies, DLP policies, and a Conditional Access policy.
+   - [Adaptive Protection - Quick Setup](/purview/insider-risk-management-adaptive-protection) is the easiest and fastest way to get started with Adaptive Protection. It automatically creates and dynamically assigns the insider risk policies, DLP policies, and a Conditional Access policy.
 
       When the risk level is met, the policies automatically adjust to match the new risk level.
 
-    - You can also create a [custom policy](/purview/insider-risk-management-adaptive-protection#custom-setup) instead of using the quick setup. If you create a custom policy, then you must also create the DLP and Conditional Access policies.
+   - You can also create a [custom policy](/purview/insider-risk-management-adaptive-protection#custom-setup) instead of using the quick setup. If you create a custom policy, then you must also create the DLP and Conditional Access policies.
 
 To learn more, see [Adaptive Protection policies](/purview/insider-risk-management-adaptive-protection).
 
@@ -349,24 +356,24 @@ To learn more, see [Adaptive Protection policies](/purview/insider-risk-manageme
 
 - For DLP policies, you can:
 
-  - **Test your policies** using [simulation mode](/purview/dlp-test-dlp-policies). Simulation mode allows you to see the effect of an individual policy without enforcing the policy. Use it to find the items that match your policy.
+   - **Test your policies** using [simulation mode](/purview/dlp-test-dlp-policies). Simulation mode allows you to see the effect of an individual policy without enforcing the policy. Use it to find the items that match your policy.
 
-  - **Monitor your policies** with alerts and built-in reports, including risky user activities outside of DLP policies.
+   - **Monitor your policies** with alerts and built-in reports, including risky user activities outside of DLP policies.
 
-    To learn more, see:
+   To learn more, see the following articles:
 
-    - [Viewing policy application results](/purview/insider-risk-management-activities)
-    - [Get started with the data loss prevention analytics](/purview/dlp-analytics-get-started)
+   - [Viewing policy application results](/purview/insider-risk-management-activities)
+   - [Get started with the data loss prevention analytics](/purview/dlp-analytics-get-started)
 
 - When you enable Adaptive Protection and your policies are configured, you can get:
-  - Policy metrics
-  - Users with an assigned risk level
-  - Policies currently in-scope for the user
+   - Policy metrics
+   - Users with an assigned risk level
+   - Policies currently in-scope for the user
 
-  To learn more, see:
+- To learn more, see the following articles:
 
-  - [Help dynamically mitigate risks with Adaptive Protection](/purview/insider-risk-management-adaptive-protection)
-  - [Investigate insider risk management activities](/purview/insider-risk-management-activities)
+   - [Help dynamically mitigate risks with Adaptive Protection](/purview/insider-risk-management-adaptive-protection)
+   - [Investigate insider risk management activities](/purview/insider-risk-management-activities)
 
 ### Delete the content you don't need
 
@@ -386,7 +393,7 @@ If you need [exceptions for individual emails or documents](/purview/create-rete
 
 1. To create retention policies, sign into the [Microsoft Purview portal](https://purview.microsoft.com/) as a Compliance Administrator.
 
-    To learn more about the permissions, see [Data Lifecycle Management - Permissions](/purview/get-started-with-data-lifecycle-management#permissions-for-retention-policies-and-retention-labels).
+   To learn more about the permissions, see [Data Lifecycle Management - Permissions](/purview/get-started-with-data-lifecycle-management#permissions-for-retention-policies-and-retention-labels).
 
 2. Select **Solutions** > **Data Lifecycle Management** > **Policies** > **Retention policies**.
 
@@ -396,60 +403,60 @@ If you need [exceptions for individual emails or documents](/purview/create-rete
 
    You can use either **Data Lifecycle Management** or **Microsoft Purview Records Management** to create the labels. Records management includes more configuration options, like a [disposition review process](/purview/disposition). A disposition review is helpful if you need manual confirmation before items are automatically deleted.
   
-    # [Data Lifecycle Management](#tab/dlm)
+   # [Data Lifecycle Management](#tab/dlm)
 
-    Use [Data Lifecycle Management](/purview/data-lifecycle-management) for retention policies that manage automatic retention and deletion for Microsoft 365 workloads & Microsoft 365 Copilot interactions, and retention labels for any exceptions.
+   Use [Data Lifecycle Management](/purview/data-lifecycle-management) for retention policies that manage automatic retention and deletion for Microsoft 365 workloads & Microsoft 365 Copilot interactions, and retention labels for any exceptions.
 
-    - From **Data Lifecycle Management**, select **Retention labels** > **Create a label**.
+   - From **Data Lifecycle Management**, select **Retention labels** > **Create a label**.
 
-    Follow the configuration instructions and if you need more help, see [How to create retention labels for data lifecycle management](/purview/create-retention-labels-data-lifecycle-management#how-to-create-retention-labels-for-data-lifecycle-management).
+   Follow the configuration instructions and if you need more help, see [How to create retention labels for data lifecycle management](/purview/create-retention-labels-data-lifecycle-management#how-to-create-retention-labels-for-data-lifecycle-management).
 
-     # [Records Management](#tab/rm)
+   # [Records Management](#tab/rm)
 
-    Use [Records Management](/purview/records-management) for retention labels that provide more configuration options for high-value documents and emails that typically have stricter compliance requirements. If you want to use a disposition review, then you must use Records Management.
+   Use [Records Management](/purview/records-management) for retention labels that provide more configuration options for high-value documents and emails that typically have stricter compliance requirements. If you want to use a disposition review, then you must use Records Management.
 
-    1. Sign in to the [Microsoft Purview portal](https://purview.microsoft.com/) as a member of the Records Management admin role group.
+   1. Sign in to the [Microsoft Purview portal](https://purview.microsoft.com/) as a member of the Records Management admin role group.
 
-        To learn more about the permissions, see [Records management - Permissions](/purview/get-started-with-records-management#permissions)
+      To learn more about the permissions, see [Records management - Permissions](/purview/get-started-with-records-management#permissions)
 
-    2. Select **Solutions** > **Records Management**.
+   2. Select **Solutions** > **Records Management**.
 
-    3. Select **File plan** > **Create a label** > **Retention label**.
+   3. Select **File plan** > **Create a label** > **Retention label**.
 
-        Follow the configuration instructions and if you need more help, see [Use file plan to create and manage retention labels](/purview/file-plan-manager).
+      Follow the configuration instructions and if you need more help, see [Use file plan to create and manage retention labels](/purview/file-plan-manager).
 
     ---
 
-    After you create the retention labels, you can then apply the labels to documents and emails:
+   After you create the retention labels, you can then apply the labels to documents and emails:
 
-    - [Publish retention labels and apply them in apps](/purview/create-apply-retention-labels)
-    - [Automatically apply a retention label to retain or delete content](/purview/apply-retention-labels-automatically)
+   - [Publish retention labels and apply them in apps](/purview/create-apply-retention-labels)
+   - [Automatically apply a retention label to retain or delete content](/purview/apply-retention-labels-automatically)
 
 5. If you applied retention labels, monitor them to see how they're being used.
 
-    1. Sign into the [Microsoft Purview portal](https://purview.microsoft.com/) as one of the admins listed at:
+   1. Sign into the [Microsoft Purview portal](https://purview.microsoft.com/) as one of the admins listed at:
 
-        - [Content explorer - Permissions](/purview/data-classification-content-explorer)
-        - [Activity explorer - Permissions](/purview/data-classification-activity-explorer#permissions)
+      - [Content explorer - Permissions](/purview/data-classification-content-explorer)
+      - [Activity explorer - Permissions](/purview/data-classification-activity-explorer#permissions)
 
-    2. Use [Content explorer](/purview/data-classification-content-explorer) to get information on the items using retention labels.
+   2. Use [Content explorer](/purview/data-classification-content-explorer) to get information on the items using retention labels.
 
-        There are a few ways to open Content Explorer:
+      There are a few ways to open Content Explorer:
 
-        - **Data Loss Prevention** > **Explorers**
-        - **Records Management** > **Explorers**
-        - **Information protection** > **Explorers**
+      - **Data Loss Prevention** > **Explorers**
+      - **Records Management** > **Explorers**
+      - **Information protection** > **Explorers**
 
-    3. Use [activity explorer](/purview/data-classification-activity-explorer) to get a historical view of activities on your content that has retention labels. There are different filters you can use.
+   3. Use [activity explorer](/purview/data-classification-activity-explorer) to get a historical view of activities on your content that has retention labels. There are different filters you can use.
 
-        There are a few ways to open activity explorer:
+      There are a few ways to open activity explorer:
 
-        - **Data Lifecycle Management** > **Explorers**
-        - **Records Management** > **Explorers**
-        - **Data Loss Prevention** > **Explorers**
-        - **Information protection** > **Explorers**
+      - **Data Lifecycle Management** > **Explorers**
+      - **Records Management** > **Explorers**
+      - **Data Loss Prevention** > **Explorers**
+      - **Information protection** > **Explorers**
 
-To learn more, see:
+To learn more, see the following articles:
 
 - [Learn about retention policies and retention labels](/purview/retention)
 - [Common settings for retention policies and retention label policies](/purview/retention-settings)
@@ -468,22 +475,22 @@ These policies monitor and evaluate prompts and responses with Copilot.
 
 2. Select **Solutions** > **Communication Compliance** > **Overview**.
 
-    If there are some required steps listed, then complete them. To learn more about these steps, see [Set up and create communication compliance policy](/purview/communication-compliance-configure).
+   If there are some required steps listed, then complete them. To learn more about these steps, see [Set up and create communication compliance policy](/purview/communication-compliance-configure).
 
 3. For the predefined policies, select **Create policy** > **Detect Microsoft 365 Copilot interactions**:
 
-    :::image type="content" source="media/microsoft-365-copilot-e5-guide/purview-communication-compliance-default-policy.png" alt-text="In Microsoft Purview Communication Compliance, create the detect Microsoft 365 Copilot interactions policy.":::
+   :::image type="content" source="media/microsoft-365-copilot-e5-guide/purview-communication-compliance-default-policy.png" alt-text="In Microsoft Purview Communication Compliance, create the detect Microsoft 365 Copilot interactions policy." lightbox="media/microsoft-365-copilot-e5-guide/purview-communication-compliance-default-policy.png":::
 
-    This Copilot policy helps you get started. There are also other predefined templates you can use. At any time, you can also create your own custom policies.
+   This Copilot policy helps you get started. There are also other predefined templates you can use. At any time, you can also create your own custom policies.
 
-    To learn more, see:
+   To learn more, see the following articles:
 
-    - [Configure a communication compliance policy to detect for Copilot interactions](/purview/communication-compliance-copilot)
-    - [Create and manage communication compliance policies](/purview/communication-compliance-policies)
+   - [Configure a communication compliance policy to detect for Copilot interactions](/purview/communication-compliance-copilot)
+   - [Create and manage communication compliance policies](/purview/communication-compliance-policies)
 
 4. Monitor your policies. Regularly review the policy reports and audit logs to see any policy matches & resolved items, including activity by users.
 
-    To learn more, see [Use communication compliance reports and audits](/purview/communication-compliance-reports-audits).
+   To learn more, see [Use communication compliance reports and audits](/purview/communication-compliance-reports-audits).
 
 To learn more, see:
 
@@ -508,11 +515,14 @@ There are two ways to review and analyze Copilot prompts and responses - **Data 
 [Data Security Posture Management (DSPM) for AI](/purview/ai-microsoft-purview#microsoft-purview-ai-hub-provides-insights-policies-and-controls-for-ai-apps) (previously called AI Hub) is a central location in the Microsoft Purview portal that proactively monitors AI use. It includes eDiscovery and you can use it to analyze and review Copilot prompts and responses.
 
 1. Sign into the [Microsoft Purview portal](https://purview.microsoft.com/) as an admin in one of the groups listed at [Data Security Posture Management for AI - Permissions](/purview/ai-microsoft-purview-permissions).
+
 2. Select **Solutions** > **DSPM for AI** > **Activity explorer**.
+
 3. Select an existing activity in the list. For example, if there's a **Sensitive info types** activity, select it.
+
 4. Select **View related AI interaction activity**. In **Interaction details**, you can see the app, and the prompt & response. You can also export an activity.
 
-To learn more, see:
+To learn more, see the following articles:
 
 - [Microsoft Purview Data Security Posture Management for AI](/purview/ai-microsoft-purview-considerations)
 - [Data Security Posture Management for AI - Activity explorer events](/purview/ai-microsoft-purview-considerations#activity-explorer-events)
@@ -522,10 +532,12 @@ To learn more, see:
 [eDiscovery](/purview/edisc) uses cases to identify, hold, export, and analyze content found in mailboxes and sites. You can this feature to analyze Copilot prompts and responses, and delete Copilot data.
 
 1. Sign into the [Microsoft Purview portal](https://purview.microsoft.com/) as an admin in one of the groups [eDiscovery - Permissions](/purview/ediscovery-assign-permissions).
+
 2. Select **Solutions** > **eDiscovery** > **Cases**.
+
 3. Create a **case** and a **search** query. A search query searches in-place content, like email, documents, and instant messaging conversations.
 
-    When you create a search query, you enter the [Data sources that have Copilot data](/purview/edisc-search-copilot-data#data-sources-for-copilot-data).
+   When you create a search query, you enter the [Data sources that have Copilot data](/purview/edisc-search-copilot-data#data-sources-for-copilot-data).
 
 4. The data returned is the Copilot prompts and responses. You can review and export this information. If the data contains sensitive information, you can also delete it.
 

@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: 01/06/2025
+ms.date: 02/02/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -53,7 +53,7 @@ You must be a member of the user administrator role to add email aliases to a us
     > [!TIP]
     > The email alias must end with a domain from the drop-down list. To add another domain name to the list, see [Add a domain to Microsoft 365](../setup/add-domain.md).
   
-4. When you're done, choose **Save changes**. It usually takes about 24 hours for the new aliases to update.
+4. When you're done, choose **Save changes**. It can take up 24 hours for the new aliases to update.
 
 5. The user will now have a primary address and an alias. For example, all mail sent to jenna@contoso.com, and her alias, jen@contoso.com, will go to Jenna's inbox. **When the user replies, the *From* address will depend on her Outlook client. Outlook on the web will use the alias at which the email was received. Outlook desktop will use her primary email alias.**
 
