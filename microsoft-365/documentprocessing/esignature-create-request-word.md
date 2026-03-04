@@ -83,19 +83,21 @@ Follow these steps to use eSignature for Microsoft Word.
 
 6. The fields are inserted at the location of the insertion point in the document canvas.
 
-7. Repeat step 5 for all fields you want to be inserted into the document.
+1. Repeat step 5 for all fields you want to be inserted into the document.
 
-      <img width="251" height="287" alt="esignature-recipient-more-fields-word1" src="https://github.com/user-attachments/assets/42924796-c021-4a5f-acb1-d2d90bc602fc" />
 
-8. Optionally, you can add a message to the recipient.
+
+![Screenshot - free text field](media/esignature-create-request-word/screenshot---free-text-field.png)
+
+1. Optionally, you can add a message to the recipient.
 
     ![Screenshot of the Optional message option in Word.](../media/content-understanding/esignature-optional-message-word.png)
-
+   
 9. Select **Create request**.
 
     ![Screenshot of the Create request button in Word.](../media/content-understanding/esignature-create-request-button-word.png)
 
-10. You'll receive a mail confirmation when the request was sent and recipients receive a link in mail to sign a PDF copy of the Word document.
+1. You'll receive a mail confirmation when the request was sent and recipients receive a link in mail to sign a PDF copy of the Word document.
 
 11. You can now close the eSignature panel in Word or select **Start new request** to create another eSignature request.
 
