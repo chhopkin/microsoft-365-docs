@@ -29,7 +29,7 @@ appliesto:
 
 > Applies to: Microsoft 365 Copilot, SharePoint Advanced Management (SAM), and Microsoft Purview
 
-Microsoft 365 Copilot responds to user prompts using data that the user already has permission to access. If your tenant contains overshared, outdated, or poorly governed content, Copilot responses can be inaccurate or expose information more broadly than intended. This article explains how to prepare and secure your data so Copilot can deliver accurate, relevant, and secure results.
+[Microsoft 365 Copilot](microsoft-365-copilot-overview.md) responds to user prompts using data that the user already has permission to access. If your tenant contains overshared, outdated, or poorly governed content, Copilot responses can be inaccurate or expose information more broadly than intended. This article explains how to prepare and secure your data so Copilot can deliver accurate, relevant, and secure results.
 
 This guidance is intended for IT administrators and security administrators who are preparing their organization for Microsoft 365 Copilot or tightening controls after Copilot is enabled.
 
@@ -44,15 +44,17 @@ By completing the steps in this article, you can:
 
 ## Before you begin
 
-Microsoft recommends that you also review and follow **Microsoft 365 Copilot – best practices with SharePoint**, which covers optimizing SharePoint search, reviewing sharing settings, and validating site permissions.
+Microsoft recommends that you also review and follow [Microsoft 365 Copilot – best practices with SharePoint](/sharepoint/sharepoint-copilot-best-practices), which covers optimizing SharePoint search, reviewing sharing settings, and validating site permissions.
 
 ### Licensing
 
 The capabilities described in this article require:
 
-- **Microsoft 365 Copilot**
-- **SharePoint Advanced Management (SAM)** (included with Copilot licenses)
-- **Microsoft Purview**
+- [Microsoft 365 E3](https://www.microsoft.com/microsoft-365/enterprise/e3) or [Microsoft 365 E5](https://www.microsoft.com/microsoft-365/enterprise/e5) (or [Office 365 E3](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3) or [Office 365 E5](https://www.microsoft.com/microsoft-365/enterprise/office-365-e5)) for core Microsoft 365 services and features such as SharePoint, OneDrive, and basic Microsoft Purview features.
+
+- [Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)
+- [SharePoint Advanced Management](/sharepoint/advanced-management) (SAM) (included with Copilot licenses)
+- [Microsoft Purview](/purview/overview) (varies by feature, but many are included with Microsoft 365 E3 or E5)
 
 Some advanced controls (such as Endpoint DLP, Adaptive Protection, and insider risk integration) require Microsoft 365 E5 or equivalent add-ons. Where relevant, these differences are called out.
 
