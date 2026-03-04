@@ -33,6 +33,7 @@ items:
     - name: Meters for pay-as-you-go
       href: pay-as-you-go/meters.md
   - name: Security
+    items:
     - name: Security for Microsoft 365 Copilot
       href: security-microsoft-365-copilot.md
     - name: Blueprint to prevent oversharing
