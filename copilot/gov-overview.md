@@ -1,6 +1,6 @@
 ---
 title: Understand Microsoft government cloud environments for Microsoft 365 and Microsoft 365 Copilot            
-description: Get an overview of how Microsoft government clouds evolved, why different government cloud environments exist, when to use each environment, and how Microsoft 365 and Microsoft 365 Copilot differ across government cloud SKUs            
+description: Get an overview of how Microsoft government clouds evolved, why different government cloud environments exist, when to use each environment, and how Microsoft 365 and Microsoft 365 Copilot differ across government cloud subscriptions.            
 author: denisebmsft
 ms.author: deniseb
 manager: dansimp 
@@ -20,6 +20,7 @@ customer-intent: # As an IT Pro in a government environment, I want to understan
 Microsoft provides dedicated government cloud environments to meet U.S. government requirements for security, compliance, and data handling. These environments are the result of a long‑running evolution of Microsoft cloud architecture driven by increasing regulatory and sovereignty needs.
 
 This article explains:
+
 - How Microsoft government clouds evolved
 - Why different government cloud environments exist
 - When to use each environment
@@ -27,9 +28,10 @@ This article explains:
 
 ## How Microsoft government clouds evolved
 
-Microsoft 365 originated as **Office 365 Commercial**, internally referred to as a **public multi‑tenant (Public MT)** environment. This model introduced the concept of a *tenant* as a security boundary, backed by a global directory service that later evolved into Microsoft Entra ID (formerly Azure Active Directory).
+Microsoft 365 originated as **Office 365 Commercial**, internally referred to as a **public multi‑tenant (Public MT)** environment. This model introduced the concept of a *tenant* as a security boundary, backed by a global directory service that later evolved into [Microsoft Entra ID](/entra/fundamentals/what-is-entra) (formerly Azure Active Directory).
 
-As adoption increased, government customers raised new requirements around:
+As adoption increased, government customers and their partners and suppliers raised new requirements around:
+
 - Data location
 - Legal jurisdiction
 - Access by screened personnel
