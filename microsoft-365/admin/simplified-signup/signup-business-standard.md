@@ -31,13 +31,13 @@ Use this article to purchase Microsoft 365 Business Standard and complete the in
 
 - **For Microsoft partners**: If you're a partner, see [Get Microsoft 365 Business](../../business/get-microsoft-365-business.md).
 
+> [!IMPORTANT]
+>
+> Microsoft 365 Business Standard subscriptions are for commercial use and are intended for business and enterprise customers. If you're a consumer looking for Microsoft 365 for personal use, see [Microsoft 365 for individuals](https://www.microsoft.com/microsoft-365/explore-microsoft-365-for-individuals).
+
 ## Watch how to sign up for Microsoft 365 Business Standard
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=e1fe831f-c1a4-4d81-a475-1d8036a047cb]
-
-> [!IMPORTANT]
->
-> Microsoft 365 Business Standard subscriptions are for commercial use and are intended for business and enterprise customers.
 
 ## Sign up for Microsoft 365 Business Standard step by step
 
