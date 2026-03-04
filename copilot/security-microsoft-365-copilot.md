@@ -65,7 +65,7 @@ For prescriptive remediation guidance, see: [Microsoft 365 Copilot blueprint for
 Use these articles for deeper coverage of related articles:
 
 - **Deployment and readiness**
-  - [Prepare and deploy Microsoft 365 Copilot in E3 and E5 environments](configure-data-security-copilot.md)
+  - [Configure data security for Microsoft 365 Copilot](configure-data-security-copilot.md)
   - [Minimum requirements to deploy Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-minimum-requirements)
 
 - **Architecture and data handling**
