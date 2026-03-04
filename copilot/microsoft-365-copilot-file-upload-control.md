@@ -40,7 +40,7 @@ If you use the file upload control to prevent users from uploading files to Micr
 
 :::image type="content" source="media/copilot-file-upload-screenshot-sm.png" alt-text="Screenshot that shows Microsoft 365 Copilot file upload control." lightbox="media/copilot-file-upload-screenshot-raw.png":::
 
-If you don't configure the **File upload control in Copilot policy**, the file upload feature remains available by default to users in both Microsoft 365 Copilot and Microsoft 365 Copilot Chat.  
+If the **File upload control in Copilot policy** is not configured, the ability to upload files remains available to users in both Microsoft 365 Copilot and Microsoft 365 Copilot Chat.  
 
 > [!NOTE]
 > Changes to the file upload control could take up to 24 hours to be reflected for end users.
