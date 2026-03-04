@@ -1,12 +1,12 @@
 ---
-title: Prepare and deploy Microsoft 365 Copilot in Microsoft 365 E3 and E5 environments
-description: Get ready to deploy Microsoft 365 Copilot in your Microsoft 365 E3 or E5 environment.
+title: Configure data security for Microsoft 365 Copilot
+description: Get your data ready for Microsoft 365 Copilot.
 f1.keywords:
 - NOCSH
 manager: dansimp
 ms.author: deniseb
 author: denisebmsft
-ms.date: 03/03/2026
+ms.date: 03/04/2026
 ms.update-cycle: 180-days
 ms.reviewer: cabailey, ruihu
 audience: Admin
@@ -25,7 +25,7 @@ appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# Prepare and deploy Microsoft 365 Copilot in E3 and E5 environments
+# Configure data security for Microsoft 365 Copilot
 
 Microsoft 365 Copilot works within your organization's existing security, identity, and data access controls. Because Copilot surfaces information that users already have permission to access, your data readiness and governance posture directly affect Copilot results.
 
