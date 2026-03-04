@@ -74,8 +74,8 @@ You'll need access to the following admin portals and roles:
 
 Sites without active owners often become overshared or outdated.
 
-- Use a **Site ownership policy** to identify sites that don't have at least two owners.
-- Run the policy in **simulation mode** first, then switch to **active mode** to notify potential owners.
+- Use a [Site ownership policy](/sharepoint/create-sharepoint-site-ownership-policy) to identify sites that don't have at least two owners.
+- Run the policy in simulation mode first, and then switch to active mode to notify potential owners.
 
 Having accountable site owners ensures permissions, access reviews, and lifecycle actions are completed.
 
@@ -83,7 +83,7 @@ Having accountable site owners ensures permissions, access reviews, and lifecycl
 
 Inactive SharePoint sites can still surface content in Copilot responses.
 
-- Create a **site lifecycle management policy** to detect inactive sites.
+- Create a [site lifecycle management policy](/sharepoint/site-lifecycle-management#how-to-create-an-inactive-site-policy) to detect inactive sites.
 - Notify site owners and require them to confirm whether the site is still needed.
 - If a site is no longer required:
   - Put it in **read-only mode**, or
