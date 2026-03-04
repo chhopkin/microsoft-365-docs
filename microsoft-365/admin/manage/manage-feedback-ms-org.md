@@ -96,7 +96,10 @@ These policy settings are also available if you use Group Policy. To use these p
 The following information only applies to United States government customers using Microsoft 365 (or Office 365) Government Community Cloud (GCC), GCC High, or DoD offerings.
 
 - Not all products currently support feedback collection in this environment, but we're working to implement that support. To prepare for feedback collection, we recommend you review and configure the policy settings in the way that's appropriate for your organization.
-- When the **Allow users to submit feedback to Microsoft** policy is **Not Configured** in this environment, it has the same effect as if you set the policy to **Disabled**. To activate this functionality, the policy must be set to **Enabled**.
+- The behaviour of the **Allow users to submit feedback to Microsoft** policy differs from Commercial tenants. When the policy is **Not configured** (the default), users can submit **restricted feedback** only. Setting the policy to **Enabled** allows users to submit **verbatim feedback**, while setting it to **Disabled** prevents users from submitting feedback entirely. 
+  - **Restricted feedback**: Users **cannot provide written comments** but can only provide predefined feedback such as giving a thumbs up/down rating or selecting an issue type from a list of likely issues. 
+  - **Verbatim feedback**: Users can submit more detailed feedback that includes optional **written** comments. 
+ -**Diagnostic data and logs**: No diagnostic logs, prompts, responses, screenshots, attachments, or user files are collected in any configuration in United States Government environments. 
 - The Feedback portal and in-product surveys aren’t available in this environment, so setting these policies don’t have any effect at this time.
 - While the following policies are available to change, changes will have no effect and those policies will always be treated as **Disabled**:
   - Allow users to include screenshots and attachments when they submit feedback to Microsoft.
