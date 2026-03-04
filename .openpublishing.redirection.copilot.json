@@ -82,7 +82,7 @@
       },
       {
          "source_path": "copilot/microsoft-365-copilot-e5-guide.md",
-         "redirect_url": "/copilot/microsoft-365/prepare-deploy-copilot-e3-e5-environments",
+         "redirect_url": "/copilot/microsoft-365/configure-data-security-copilot",
          "redirect_document_id": false
       }
    ]
