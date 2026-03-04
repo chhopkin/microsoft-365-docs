@@ -88,16 +88,16 @@ For more information, see [Set-Mailbox](/powershell/module/exchangepowershell/se
 
 In the normal deleted item workflow, a mailbox item is moved to the **Deletions** subfolder in the **Recoverable Items** folder when a user permanently deletes it (Shift + Delete) or deletes it from the **Deleted Items** folder. A deletion policy (which is a retention tag configured with a Delete retention action) also moves items to the **Deletions** subfolder when the retention period expires. 
 
-When a user purges an item in the **Recoverable Items** folder, or when the deleted item retention period expires for an item, it moves to the **Purges** subfolder in the **Recoverable Items** folder, and is marked for permanent deletion. It is purged from Exchange the next time the mailbox is processed by the Managed Folder Assistant (MFA).
+When a user purges an item in the **Recoverable Items** folder, or when the deleted item retention period expires for an item, it moves to the **Purges** subfolder in the **Recoverable Items** folder, and is marked for permanent deletion. It's purged from Exchange the next time the mailbox is processed by the Managed Folder Assistant (MFA).
 
 When a mailbox is placed on litigation hold, items in the **Purges** subfolder are preserved for the hold duration specified by the litigation hold. The hold duration is calculated from the original date an item was received or created, and defines how long items in the **Purges** subfolder are held. 
 
-When the hold duration expires for an item in the **Purges** subfolder, the item is marked for permanent deletion and is purged from Exchange the next time the mailbox is processed by the MFA. If an indefinite hold is placed on a mailbox, items are not purged from the **Purges** subfolder.
+When the hold duration expires for an item in the **Purges** subfolder, the item is marked for permanent deletion and is purged from Exchange the next time the mailbox is processed by the MFA. If an indefinite hold is placed on a mailbox, items aren't purged from the **Purges** subfolder.
 
 The following illustration shows the subfolders in the **Recoverable Items** folders and the hold workflow process.
 
 :::image type="content" source="media/create-litigation-hold-mac/how-litigation-hold-works.png" alt-text="Diagram depicting how litigation hold works." lightbox="media/create-litigation-hold-mac/how-litigation-hold-works.png":::
 
 > [!NOTE]
-> - If a hold associated with an eDiscovery case is placed on a mailbox, purged items are moved from the Deletions subfolder to the DiscoveryHolds subfolder and are preserved until the mailbox is released from the eDiscovery hold.
+> - If a hold associated with an eDiscovery case is placed on a mailbox, purged items are moved from the **Deletions** subfolder to the **Discovery Holds** subfolder, and are preserved until the mailbox is released from the eDiscovery hold.
 > - If you don't see the **Manage litigation hold** option in the Microsoft 365 admin center, it might be because the mailbox isn't assigned an Exchange Online Plan 2 license.
