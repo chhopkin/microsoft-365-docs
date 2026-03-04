@@ -27,7 +27,7 @@ service.tree.id: 95459a4b-434c-4f83-879b-aa5f509fc7fa
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: "Learn about the new billing experience for business subscription in the Microsoft 365 admin center."
-ms.date: 11/10/2025
+ms.date: 03/03/2026
 ---
 
 # Overview of the new Microsoft billing experience for business subscriptions
