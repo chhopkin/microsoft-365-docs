@@ -27,85 +27,145 @@ appliesto:
 
 # Configure data security for Microsoft 365 Copilot
 
-Microsoft 365 Copilot works within your organization's existing security, identity, and data access controls. Because Copilot surfaces information that users already have permission to access, your data readiness and governance posture directly affect Copilot results.
+> Applies to: Microsoft 365 Copilot, SharePoint Advanced Management (SAM), and Microsoft Purview
 
-This article provides a unified deployment journey for IT admins preparing to roll out Microsoft 365 Copilot in **Microsoft 365 E3 and E5 environments**. It focuses on preparing your data, reducing oversharing risk, and planning an initial rollout—while calling out where E3 and E5 capabilities differ.
+Microsoft 365 Copilot responds to user prompts using data that the user already has permission to access. If your tenant contains overshared, outdated, or poorly governed content, Copilot responses can be inaccurate or expose information more broadly than intended. This article explains how to prepare and secure your data so Copilot can deliver accurate, relevant, and secure results.
 
-This article doesn't restate security architecture or oversharing remediation in detail. Instead, it links to dedicated guidance so each topic remains clear and authoritative.
+This guidance is intended for IT administrators and security administrators who are preparing their organization for Microsoft 365 Copilot or tightening controls after Copilot is enabled.
+
+## What this article helps you achieve
+
+By completing the steps in this article, you can:
+
+- Reduce oversharing and stale content that can negatively affect Copilot responses.
+- Ensure sensitive data is correctly classified and protected.
+- Control how SharePoint and OneDrive content is discovered by Copilot.
+- Monitor changes and Copilot activity to identify and remediate risk.
 
 ## Before you begin
 
-Before assigning Microsoft 365 Copilot licenses, confirm that your organization meets minimum technical and licensing requirements and that core Microsoft 365 services are in place.
+Microsoft recommends that you also review and follow **Microsoft 365 Copilot – best practices with SharePoint**, which covers optimizing SharePoint search, reviewing sharing settings, and validating site permissions.
 
-This article assumes the following baseline:
-- Users already have Microsoft 365 E3 or E5 licenses
-- Microsoft 365 Copilot licenses are assigned after readiness steps are complete
-- SharePoint and OneDrive are actively used to store organizational content
+### Licensing
 
-For prerequisites and platform requirements, see:
-- [Minimum requirements to deploy Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-minimum-requirements)
-- [License options for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-licensing)
+The capabilities described in this article require:
 
-## Step 1: Establish baseline readiness
+- **Microsoft 365 Copilot**
+- **SharePoint Advanced Management (SAM)** (included with Copilot licenses)
+- **Microsoft Purview**
 
-Copilot surfaces information that users already have permission to access. Before rollout, review your existing collaboration and access model to identify high‑risk patterns that could affect Copilot results.
+Some advanced controls (such as Endpoint DLP, Adaptive Protection, and insider risk integration) require Microsoft 365 E5 or equivalent add-ons. Where relevant, these differences are called out.
 
-Review areas such as:
-- Identity and access controls
-- Sharing posture in SharePoint and OneDrive
-- Guest and external access policies
-- Site ownership and lifecycle practices
+### Admin roles
 
-You don't need to redesign your environment before deploying Copilot. Establishing a baseline helps you decide where to focus remediation efforts and where E3 or E5 capabilities provide additional protection.
+You'll need access to the following admin portals and roles:
 
-## Step 2: Prepare your data
+- **SharePoint admin center** (SharePoint Administrator)
+- **Microsoft Purview portal** (roles vary by feature, such as Information Protection Admin, Compliance Admin, or eDiscovery Admin)
 
-### Improve content hygiene in SharePoint and OneDrive
+## Step 1: Reduce oversharing and stale content with SharePoint Advanced Management
 
-Copilot reflects how content is shared and maintained across SharePoint and OneDrive. Improving content hygiene reduces oversharing risk and improves the relevance of Copilot results.
+SharePoint Advanced Management (SAM) provides tenant-wide controls to identify oversharing, reduce clutter, and monitor changes that can affect Copilot results.
 
-Common readiness activities include:
-- Identifying overshared or broadly accessible sites
-- Reviewing inactive or stale content
-- Clarifying site ownership and accountability
-- Reducing accidental discovery of high‑risk content
+### Ensure all sites have valid owners
 
-For a prescriptive, phased approach, see [Prevent oversharing in Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-blueprint-oversharing).
+Sites without active owners often become overshared or outdated.
 
-### Apply data protection policies
+- Use a **Site ownership policy** to identify sites that don't have at least two owners.
+- Run the policy in **simulation mode** first, then switch to **active mode** to notify potential owners.
 
-Microsoft 365 Copilot honors existing data classification and protection policies. As part of readiness, ensure that sensitivity labels and data protection policies are defined and applied consistently across Microsoft 365 content.
+Having accountable site owners ensures permissions, access reviews, and lifecycle actions are completed.
 
-This helps ensure Copilot interactions respect your organization's data protection and compliance requirements without requiring Copilot‑specific configuration.
+### Find and clean up inactive sites
 
-## Step 3: Choose your path — E3 or E5
+Inactive SharePoint sites can still surface content in Copilot responses.
 
-Your deployment approach is the same for E3 and E5 environments. The difference lies in the depth of governance and protection capabilities available.
+- Create a **site lifecycle management policy** to detect inactive sites.
+- Notify site owners and require them to confirm whether the site is still needed.
+- If a site is no longer required:
+  - Put it in **read-only mode**, or
+  - Move it to **Microsoft 365 Archive**.
 
-### Microsoft 365 E3 environments
+Archived sites aren't accessible to users and aren't used by Copilot, which improves response accuracy.
 
-Microsoft 365 E3 provides foundational controls for identity protection, classification, and compliance. This path is well‑suited for organizations starting their Copilot journey or deploying Copilot to a limited audience while improving data hygiene over time.
+### Identify overshared or sensitive sites
 
-### Microsoft 365 E5 environments
+Use **Data access governance (DAG) reports** in the SharePoint admin center to find risk areas:
 
-Microsoft 365 E5 builds on E3 with advanced capabilities for automated classification, expanded auditing, and proactive risk detection. These capabilities support broader deployments and more mature governance, especially in regulated or complex environments.
+- Sharing links (Anyone, organization-wide, or external)
+- Sites shared with **Everyone except external users (EEEU)**
+- Sites containing files with sensitivity labels
+- Oversharing baseline reports across sites, OneDrives, and files
 
-For a detailed comparison, see [Compare Microsoft 365 Copilot features in E3 and E5 licenses](/copilot/microsoft-365/microsoft-365-copilot-license-feature-overview).
+Review these reports regularly, especially during early Copilot adoption.
 
-## Step 4: Plan your rollout
+### Control access to high-risk SharePoint sites
 
-After readiness steps are complete and Copilot licenses are assigned, plan a phased deployment:
-- Start with a pilot group
-- Validate Copilot behavior and content visibility
-- Gather feedback from users and admins
-- Expand deployment as governance controls mature
+When oversharing is identified, you can limit exposure without immediately restructuring permissions:
 
-Deployment doesn't end at license assignment. Ongoing monitoring and refinement are part of operating Copilot at scale.
+- **Site access reviews** – Ask site owners to validate members and sharing links.
+- **Restricted Access Control (RAC)** – Restrict site access to a specific security group.
+- **Restricted Content Discoverability (RCD)** – Prevent site content from appearing in Copilot and organization-wide search results without changing permissions.
 
-## Next steps
+> [!TIP]
+> Communicate clearly with site owners and users before applying RAC or RCD to avoid unexpected disruptions.
 
-Use the following articles to deepen specific areas of your deployment:
 
-- [Security for Microsoft 365 Copilot](/copilot/microsoft-365/security-microsoft-365-copilot)
-- [Prevent oversharing in Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-blueprint-oversharing)
-- [Microsoft 365 Copilot architecture, data protection, and auditing](/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing)
+### Monitor changes that affect Copilot
+
+Use the **Change history** reports to track:
+
+- Site-level changes (sharing, access, and settings)
+- Organization-level changes (external sharing, site creation settings)
+
+Review these reports regularly to catch changes that could introduce oversharing or expose sensitive data.
+
+---
+
+### (Optional) Restrict SharePoint search during remediation
+
+If your organization needs time to review permissions at scale:
+
+- Enable **Restricted SharePoint Search (RSS)**.
+- Add only reviewed and approved sites to the allowed list.
+
+RSS is a temporary control. Your long-term goal should be to correct permissions and disable RSS so Copilot can access a complete, accurate data set.
+
+---
+
+## Step 2: Classify and protect data with Microsoft Purview
+
+Microsoft Purview helps ensure Copilot only surfaces data that's appropriately classified and protected.
+
+### Create and apply sensitivity labels
+
+Sensitivity labels classify data and enforce protection such as encryption, access restrictions, and visual markings.
+
+- Create sensitivity labels for files, emails, and other data assets.
+- Enable sensitivity labels for **SharePoint and OneDrive**, which is required for Copilot to access encrypted files.
+- (Optional) Enable labels for **groups and sites** to control access at the container level.
+
+When Copilot uses labeled content:
+
+- It respects encryption and usage rights.
+- Returned responses display the highest-priority label.
+- New content generated by Copilot inherits the source label.
+
+---
+
+### Apply default and automatic labeling
+
+To reduce reliance on manual user action:
+
+- Configure **default sensitivity labels** for SharePoint document libraries.
+- Use **automatic labeling** to detect sensitive information and apply stricter labels at scale.
+
+Automatic labeling improves consistency and reduces the risk of sensitive content appearing in Copilot responses.
+
+---
+
+### Prevent data leakage with Data Loss Prevention (DLP)
+
+Use **Microsoft Purview DLP** to prevent unintentional or risky sharing:
+
+- Protect data across Exchange, SharePoint, OneDrive, Teams, and endpoints.
