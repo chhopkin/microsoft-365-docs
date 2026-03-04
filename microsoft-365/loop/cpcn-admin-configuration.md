@@ -34,7 +34,7 @@ Copilot Pages (`.page` files) and Copilot Notebooks are stored in user-owned Sha
 | What you want to control | Where to configure | Default |
 | --- | --- | --- |
 | **Copilot Pages and Copilot Notebooks creation** | Cloud Policy: *Create and view Copilot Pages and Copilot Notebooks* | Enabled |
-| **Code previews in Copilot Chat and Copilot Pages** | Cloud Policy: *Enable code previews for AI-generated content in Microsoft 365 Copilot Chat and Copilot Pages* | Enabled |
+| **Code previews in Copilot Chat and Copilot Pages** | Cloud Policy: *Code previews in Copilot Chat and Copilot Pages* | Enabled |
 
 > [!TIP]
 > **Quick reference scenarios**
@@ -42,7 +42,7 @@ Copilot Pages (`.page` files) and Copilot Notebooks are stored in user-owned Sha
 > - **Block Loop but allow Copilot Pages/Notebooks**: Disable Loop policies; leave *Create and view Copilot Pages and Copilot Notebooks* enabled
 > - **Block Copilot Pages/Notebooks but allow Loop**: Disable *Create and view Copilot Pages and Copilot Notebooks*; leave Loop policies enabled
 > - **Block everything**: Disable both policies
-> - **Allow Copilot Pages but block code previews**: Leave *Create and view Copilot Pages and Copilot Notebooks* enabled; disable *Enable code previews for AI-generated content in Microsoft 365 Copilot Chat and Copilot Pages*
+> - **Block code previews only**: Disable *Enable code previews for AI-generated content in Microsoft 365 Copilot Chat and Copilot Pages*; leave *Create and view Copilot Pages and Copilot Notebooks* enabled
 
 ## Requirements
 
@@ -114,6 +114,9 @@ In case you create a new policy configuration or change the configuration for an
 > In Cloud Policy, lower priority numbers are evaluated first. The priority numbering method described in the preceding steps ensures users in **Group A** have the policy **Enabled**, while all other users in **Group B** have it **Disabled**.
 
 ## Related articles
+
+- [Get started with Microsoft 365 Copilot Pages](https://support.microsoft.com/en-us/topic/get-started-with-microsoft-365-copilot-pages-6674bd51-9ff5-42c4-9256-44d9428a726f)
+- [Build lightweight apps within Microsoft 365 Copilot Pages](https://support.microsoft.com/en-us/topic/build-lightweight-apps-within-microsoft-365-copilot-pages-fd42d9f3-258e-4bf9-8c5e-a73083a197cc)
 
 - [Summary of compliance, lifecycle, governance](cpcn-compliance-summary.md)
 - [Requirements](cpcn-requirements.md)
