@@ -1,6 +1,6 @@
 ---
 title: "Place a mailbox on litigation hold"
-description: "Learn how to place a mailbox on litigation hold, retaining all the mailbox content during an investigation."
+description: "Learn how to place a mailbox on litigation hold, retaining mailbox content during an investigation."
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -21,22 +21,24 @@ ms.collection:
 
 # Place a mailbox on litigation hold
 
-You can place a mailbox on litigation hold to retain all mailbox content, including deleted items and the original versions of modified items. When you place a user mailbox on litigation hold, content in the user's archive mailbox (if it's enabled) is also retained. When you create a hold, you can specify a hold duration (also called a *time-based hold*) so that deleted and modified items are retained for a specified period and then permanently deleted from the mailbox. Or you can just retain content indefinitely (called an *infinite hold*) or until the litigation hold is removed. If you do specify a hold duration period, it's calculated from the date a message is received or a mailbox item is created.
+You can place a mailbox on litigation hold to retain mailbox content, including deleted items and the original versions of modified items. When you place a user mailbox on litigation hold, content in the user's archive mailbox (if enabled) is also retained. 
+
+When you create a hold, you can specify a hold duration (also called a *time-based hold*) so that deleted and modified items are retained for a specified period and then permanently deleted from the mailbox. Or, you can retain content indefinitely (called an *infinite hold*) or until the litigation hold is removed. 
+
+If you specify a hold duration period, it's calculated from the date a message is received or a mailbox item is created.
   
 Here's what happens when you create a litigation hold.
   
-- Items that are permanently deleted by the user are retained in the Recoverable Items folder in the user's mailbox for the duration of the hold.
-- Items that are purged from the Recoverable Items folder by the user are retained for the duration of the hold.
-- The storage quota for the Recoverable Items folder is increased from 30 GB to 110 GB.
+- Items that are permanently deleted by the user are retained in the **Recoverable Items** folder in the user's mailbox for the duration of the hold.
+- Items that are purged from the **Recoverable Items** folder by the user are retained for the duration of the hold.
+- The storage quota for the **Recoverable Items** folder is increased from 30 GB to 110 GB.
 - Items in the user's primary and the archive mailboxes are retained
 
 ## Assign an Exchange Online Plan 2 license
 
-To place an Exchange Online mailbox on litigation hold, it must be assigned an Exchange Online Plan 2 license. If a mailbox is assigned an Exchange Online Plan 1 license, you would have to assign it a separate Exchange Online Archiving license to place it on hold.
+To place an Exchange Online mailbox on litigation hold, that mailbox must be assigned an Exchange Online Plan 2 license. If a mailbox is assigned an Exchange Online Plan 1 license, you would have to assign it a separate Exchange Online Archiving license to place it on hold.
 
 ## Place a mailbox on litigation hold
-
-Here are the steps to place a mailbox on litigation hold using the Microsoft 365 admin center.
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com) and sign in. 
 
@@ -84,11 +86,15 @@ For more information, see [Set-Mailbox](/powershell/module/exchangepowershell/se
 
 ## How does litigation hold work?
 
-In the normal deleted item workflow, a mailbox item is moved to the Deletions subfolder in the Recoverable Items folder when a user permanently deletes it (Shift + Delete) or deletes it from the Deleted Items folder. A deletion policy (which is a retention tag configured with a Delete retention action) also moves items to the Deletions subfolder when the retention period expires. When a user purges an item in the Recoverable Items folder or when the deleted item retention period expires for an item, it's moved to the Purges subfolder in the Recoverable Items folder and marked for permanent deletion. It will be purged from Exchange the next time the mailbox is processed by the Managed Folder Assistant (MFA).
+In the normal deleted item workflow, a mailbox item is moved to the **Deletions** subfolder in the **Recoverable Items** folder when a user permanently deletes it (Shift + Delete) or deletes it from the **Deleted Items** folder. A deletion policy (which is a retention tag configured with a Delete retention action) also moves items to the **Deletions** subfolder when the retention period expires. 
 
-When a mailbox is placed on litigation hold, items in the Purges subfolder are preserved for the hold duration specified by the litigation hold. The hold duration is calculated from the original date an item was received or created, and defines how long items in the Purges subfolder are held. When the hold duration expires for an item in the Purges subfolder, the item is marked for permanent deletion and will be purged from Exchange the next time the mailbox is processed by the MFA. If an indefinite hold is placed on a mailbox, items will never be purged from the Purges subfolder.
+When a user purges an item in the **Recoverable Items** folder, or when the deleted item retention period expires for an item, it's moved to the **Purges** subfolder in the **Recoverable Items** folder, and is marked for permanent deletion. It is purged from Exchange the next time the mailbox is processed by the Managed Folder Assistant (MFA).
 
-The following illustration shows the subfolders in the Recoverable Items folders and the hold workflow process.
+When a mailbox is placed on litigation hold, items in the **Purges** subfolder are preserved for the hold duration specified by the litigation hold. The hold duration is calculated from the original date an item was received or created, and defines how long items in the **Purges** subfolder are held. 
+
+When the hold duration expires for an item in the **Purges** subfolder, the item is marked for permanent deletion and is purged from Exchange the next time the mailbox is processed by the MFA. If an indefinite hold is placed on a mailbox, items are not purged from the **Purges** subfolder.
+
+The following illustration shows the subfolders in the **Recoverable Items** folders and the hold workflow process.
 
 :::image type="content" source="media/create-litigation-hold-mac/how-litigation-hold-works.png" alt-text="Diagram depicting how litigation hold works." lightbox="media/create-litigation-hold-mac/how-litigation-hold-works.png":::
 
