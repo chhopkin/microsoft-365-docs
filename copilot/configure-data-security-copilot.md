@@ -52,17 +52,19 @@ The capabilities described in this article require:
 
 - [Microsoft 365 E3](https://www.microsoft.com/microsoft-365/enterprise/e3) or [Microsoft 365 E5](https://www.microsoft.com/microsoft-365/enterprise/e5) (or [Office 365 E3](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3) or [Office 365 E5](https://www.microsoft.com/microsoft-365/enterprise/office-365-e5)) for core Microsoft 365 services and features, such as SharePoint, OneDrive, and basic Microsoft Purview features.
 - [Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)
+   - Depending on your subscription plan, you might be able to purchase Microsoft 365 Copilot licenses through the [Microsoft 365 admin center Marketplace page](https://go.microsoft.com/fwlink/p/?linkid=868433), Microsoft partners, or your Microsoft account team.
+   - Microsoft 365 Copilot licenses are available as an add-on to other licensing plans. To learn more, see [Understand licensing for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-licensing).
 - [SharePoint Advanced Management](/sharepoint/advanced-management) (SAM) (included with Copilot licenses)
 - [Microsoft Purview](/purview/overview) (varies by feature, but many are included with Microsoft 365 E3 or E5)
-
-Some advanced controls (such as Endpoint DLP, Adaptive Protection, and insider risk integration) require Microsoft 365 E5 or equivalent add-ons. Where relevant, these differences are called out.
 
 ### Admin roles
 
 You'll need access to the following admin portals and roles:
 
-- **SharePoint admin center** (SharePoint Administrator)
-- **Microsoft Purview portal** (roles vary by feature, such as Information Protection Admin, Compliance Admin, or eDiscovery Admin)
+- [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219): Requires the SharePoint Administrator role
+- [Microsoft Purview portal](https://purview.microsoft.com/): Roles vary depending on the task to complete. See the following articles:
+   - [Permissions required to create and manage sensitivity labels](/purview/get-started-with-sensitivity-labels#permissions-required-to-create-and-manage-sensitivity-labels)
+   - [Roles and role groups in Microsoft Defender for Office 365 and Microsoft Purview](/defender-office-365/scc-permissions)
 
 ## Step 1: Reduce oversharing and stale content with SharePoint Advanced Management
 
