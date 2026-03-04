@@ -38,9 +38,9 @@ Microsoft will enable Anthropic models on by default for most customers in comme
 
 Anthropic as a subprocessor is being introduced gradually and isn't yet available to all organizations. During this phased rollout, some features may be limited for your organization. Full availability is expected by the end of March 2026.
 
-## Manage Anthropic's model settings in the Microsoft 365 admin center
+## Manage Anthropic's Claude model settings in the Microsoft 365 admin center
 
-Microsoft is making Anthropic models available by default in certain regions. In Microsoft 365 Copilot (web, desktop, and mobile), UI indicators will show when Anthropic and Claude models are in use. In Copilot Studio, creators must select the model during agent creation. In Agent mode for Excel and Researcher, users can select **Try Claude**.
+Microsoft is making Anthropic models available by default in certain regions. In Microsoft 365 Copilot (web, desktop, and mobile), UI indicators will show when Claude models are in use. In Copilot Studio, creators must select the model during agent creation. In Agent mode for Excel and Researcher, users can select **Claude**.
 
 ## Opt-in regions and exclusions
 
