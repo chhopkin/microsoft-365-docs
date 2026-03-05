@@ -73,7 +73,7 @@ To sign up and purchase Microsoft 365 Business Standard, complete the following 
 
 1. At the **How you'll sign in** page, enter your desired **Username** and **.onmicrosoft.com** domain or accept the defaults. After entering this information, enter your desired password and then select **Next**.
 
-    The **.onmicrosoft.com** domain, also known as your **fallback domain**, is the default domain that Microsoft automatically assigns to every Microsoft 365 tenant. You use this domain for your initial sign-in and account set up.
+    The **.onmicrosoft.com** domain, also known as your **fallback domain**, is the default domain that Microsoft automatically assigns to every Microsoft 365 tenant. You use this domain for your initial sign-in and account setup.
 
 1. At the **Add payment method** page, enter your payment information, and then select **Save**.
 
