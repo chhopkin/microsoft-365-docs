@@ -1,21 +1,21 @@
 ### YamlMime:FAQ
 metadata:
-  title: Quoting FAQ
+  title: Ask Microsoft quoting FAQ
   description: Frequently asked questions about the agent-led quoting experience in Ask Microsoft.
   ms.topic: faq
   ms.service: microsoft-365-business
   ms.subservice: m365-commerce-marketplace
   ms.author: tiaraquan
   author: tiaraquan
-  ms.date: 03/05/2026
+  ms.date: 03/06/2026
   ms.localizationpriority: medium
   ms.collection:
     - m365-business
 
 
-title: Quoting FAQ
+title: Ask Microsoft quoting FAQ
 summary: |
-  Use this FAQ to learn how the agent-led quoting experience works, what products are supported, and what to expect after you create a quote. Customers can access the agent-led quoting purchase experience through the Ask Microsoft web agent on customer-facing sites, offering an alternative to engaging Sales or purchasing directly online. Quoting is currently available in the U.S. for small and medium business customers purchasing [Microsoft 365 products](https://www.microsoft.com/microsoft-365/business/microsoft-365-plans-and-pricing). 
+  Use this FAQ to learn how the agent-led quoting experience works, what products are supported, and what to expect after you create a quote in Ask Microsoft. Customers can access the agent-led quoting purchase experience through the Ask Microsoft web agent on customer-facing sites, offering an alternative to engaging Sales or purchasing directly online. Quoting is currently available in the U.S. for small and medium business customers purchasing [Microsoft 365 products](https://www.microsoft.com/microsoft-365/business/microsoft-365-plans-and-pricing). 
 
 sections:
   - name: Getting started with quoting
