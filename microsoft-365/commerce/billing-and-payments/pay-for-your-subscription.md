@@ -94,6 +94,17 @@ If you prefer, you can pay by electronic transfer between accounts. The Agency a
 > [!NOTE]
 > Paying with a Boleto Bancario isn’t available for MCA billing accounts.
 
+## Paying by SEPA Direct Debit in Europe
+Microsoft accepts SEPA Direct debit for eligible customers. You can add SEPA Direct Debit as a payment method any time through Microsoft 365 admin center, if you meet these conditions:
+- Your billing account must have an established billing history with Microsoft and a record of on-time payments with no outstanding balance.
+- Your billing address must be in one of the following countries/regions: Austria, Germany & Netherlands.
+
+When you set up SEPA Direct Debit, you provide your IBAN and accept a SEPA Direct Debit Mandate authorizing Microsoft to debit your bank account. Each billing period, the invoice amount is automatically collected from your bank account.
+
+> [!NOTE]
+> - SEPA Direct Debit is connected to the specific billing account where it is set up. If you have multiple billing accounts and want to use SEPA Direct Debit, you need to add this payment method separately to each account.
+> - If you have an MCA billing account type, you must have the Billing Administrator role to add or manage SEPA Direct Debit payment method. You can learn more about administrative roles in Microsoft 365 Admin Center [here](../../admin/add-users/about-admin-roles.md).
+
 ## What if I have an outstanding balance?
 
 If we're unable to charge the payment method on file, we send an email that lets you know there's a problem. The email briefly states what the problem is and includes a link where you can check the outstanding balance. We retry the transaction every few days, up to the point of sending the unpaid debt to collections. Every time a transaction fails, you receive an email alert about the failure.
