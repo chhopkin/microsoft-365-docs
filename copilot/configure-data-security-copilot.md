@@ -55,7 +55,7 @@ The capabilities described in this article require:
    - Depending on your subscription plan, you might be able to purchase Microsoft 365 Copilot licenses through the [Microsoft 365 admin center Marketplace page](https://go.microsoft.com/fwlink/p/?linkid=868433), Microsoft partners, or your Microsoft account team.
    - Microsoft 365 Copilot licenses are available as an add-on to other licensing plans. To learn more, see [Understand licensing for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-licensing).
 - [SharePoint Advanced Management](/sharepoint/advanced-management) (SAM) (included with Copilot licenses)
-- [Microsoft Purview](/purview/overview) (varies by feature, but many are included with Microsoft 365 E3 or E5)
+- [Microsoft Purview](/purview/) (varies by feature, but many are included with Microsoft 365 E3 or E5)
 
 ### Admin roles
 
