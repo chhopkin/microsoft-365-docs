@@ -446,16 +446,16 @@ items:
           href: app-builder-privacy-data-subject-request-faq.md
         - name: App Builder privacy and data subject request (DSR) FAQ
           href: responsible-ai/faq-app-builder.md
-      - name: Coworker agent
+      - name: Cowork agent (Frontier)
         items:
-        - name: Overview of Coworker agent
-          href: coworker/index.md
+        - name: Overview of Cowork agent
+          href: cowork/index.md
         - name: Get started
-          href: coworker/get-started.md
-        - name: Use Coworker agent
-          href: coworker/use-coworker-agent.md
-        - name: Coworker agent FAQ
-          href: coworker/coworker-agent-faq.md
+          href: cowork/get-started.md
+        - name: Use Cowork agent
+          href: cowork/use-cowork-agent.md
+        - name: Cowork agent FAQ
+          href: cowork/cowork-agent-faq.md
       - name: Learning agent
         items:
         - name: Overview and setup of Learning agent
