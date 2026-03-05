@@ -22,6 +22,8 @@ items:
           items:
            - name: Sign up for Microsoft 365 Business Standard
              href: ../admin/simplified-signup/signup-business-standard.md
+           - name: Sign up for Microsoft 365 Business Standard FAQ
+             href: ../admin/simplified-signup/signup-business-standard-faq.yml
            - name: Set up Microsoft 365 Business Standard
              href: ../admin/setup/setup-business-standard.md
            - name: Invite users to Microsoft 365 for business subscription
