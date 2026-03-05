@@ -59,13 +59,14 @@ The capabilities described in this article require:
 
 ### Admin roles
 
-You'll need access to the following admin portals and roles:
+You'll need access to the following admin portals and permissions:
 
-- [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219): Requires the SharePoint Administrator role
-- [Microsoft Purview portal](https://purview.microsoft.com/): Roles vary depending on the task to complete. See the following articles:
-   - [Permissions required to create and manage sensitivity labels](/purview/get-started-with-sensitivity-labels#permissions-required-to-create-and-manage-sensitivity-labels)
-   - [Roles and role groups in Microsoft Defender for Office 365 and Microsoft Purview](/defender-office-365/scc-permissions)
-
+| Admin portal | Required role |
+|---|---|
+| [Microsoft 365 admin center](https://admin.microsoft.com/) | Global Administrator or Privileged Role Administrator |
+| [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) | SharePoint Administrator |
+| [Microsoft Purview portal](https://purview.microsoft.com/) | Varies by task. See the following articles: <br/>- [Permissions required to create and manage sensitivity labels](/purview/get-started-with-sensitivity-labels#permissions-required-to-create-and-manage-sensitivity-labels)<br/>- [Roles and role groups in Microsoft Defender for Office 365 and Microsoft Purview](/defender-office-365/scc-permissions) |
+   
 ## Step 1: Reduce oversharing and stale content with SharePoint Advanced Management
 
 [SharePoint Advanced Management](/sharepoint/get-ready-copilot-sharepoint-advanced-management) (SAM) provides tenant-wide controls to identify oversharing, reduce clutter, and monitor changes that can affect Copilot results.
@@ -83,20 +84,20 @@ Having accountable site owners ensures permissions, access reviews, and lifecycl
 
 Inactive SharePoint sites can still surface content in Copilot responses.
 
-- Create a [site lifecycle management policy](/sharepoint/site-lifecycle-management#how-to-create-an-inactive-site-policy) to detect inactive sites.
-- Notify site owners and require them to confirm whether the site is still needed.
+- Create a [site lifecycle management policy](/sharepoint/site-lifecycle-management#how-to-create-an-inactive-site-policy) to detect inactive sites and generate reports.
+- Notify site owners and ask them to confirm whether the site is still needed.
 - If a site is no longer required:
-  - Put it in **read-only mode**, or
-  - Move it to **Microsoft 365 Archive**.
+  - Put it in **read-only mode** (see [Lock and unlock sites](/sharepoint/manage-lock-status)), or
+  - Move it to [Microsoft 365 Archive](/microsoft-365/archive/archive-overview).
 
 Archived sites aren't accessible to users and aren't used by Copilot, which improves response accuracy.
 
 ### Identify overshared or sensitive sites
 
-Use **Data access governance (DAG) reports** in the SharePoint admin center to find risk areas:
+Use [Data access governance (DAG) reports](/sharepoint/data-access-governance-reports) in the SharePoint admin center to find risk areas:
 
-- Sharing links (Anyone, organization-wide, or external)
-- Sites shared with **Everyone except external users (EEEU)**
+- [Sharing links](/sharepoint/data-access-governance-sharing-links-report) (Anyone, organization-wide, or external)
+- Sites shared with [Everyone except external users (EEEU)](/sharepoint/data-access-governance-everyone-except-external-user-report)
 - Sites containing files with sensitivity labels
 - Oversharing baseline reports across sites, OneDrives, and files
 
