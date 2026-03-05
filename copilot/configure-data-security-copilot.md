@@ -164,7 +164,6 @@ Automatic labeling improves consistency and reduces the risk of sensitive conten
 Use **Microsoft Purview DLP** to prevent unintentional or risky sharing:
 
 - Protect data across Exchange, SharePoint, OneDrive, Teams, and endpoints.
-
 - Block or audit actions such as copying, downloading, or sharing sensitive data.
 - Prevent Copilot from summarizing or referencing content that violates DLP policies.
 
