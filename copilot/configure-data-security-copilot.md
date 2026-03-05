@@ -210,7 +210,7 @@ Predefined templates make it easier to get started quickly.
 After completing the steps in this article:
 
 - Review Copilot usage trends and reports regularly.
-- Re-run SharePoint and Purview reports on a scheduled basis.
+- Rerun SharePoint and Purview reports on a scheduled basis.
 - Educate site owners and users on labeling, sharing, and responsible Copilot use.
 
 Well-governed data not only reduces risk—it significantly improves the quality and usefulness of Microsoft 365 Copilot responses.
