@@ -1,5 +1,5 @@
 ---
-title: Set up mobile devices for Microsoft 365 for business users
+title: Set Up Mobile Devices for Microsoft 365 for Business
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -32,16 +32,16 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
-description: Install Microsoft 365 on an iPhone or an Android phone and Microsoft 365 for business protects your work files created in apps.
+description: Learn how to set up mobile devices for Microsoft 365 for business on iPhone and Android. Follow these steps to install apps and protect your work files.
 ---
 
-# Set up mobile devices for Microsoft 365 for business users
+# Set up mobile devices for Microsoft 365 for business
 
-Follow the instructions in the tabs to install Microsoft 365 apps on an iPhone or an Android phone. After you follow these steps, Microsoft 365 for business protects your work files created in apps.
+Learn how to set up mobile devices for Microsoft 365 for business on an iPhone or Android phone. After you complete these steps, your organization's security policies protect your work files created in Microsoft 365 apps, helping keep your business data secure.
 
-The example in the tabs is for Microsoft Outlook, but applies for any other Microsoft 365 apps you install.
+The example in the tabs is for Microsoft Outlook, but it applies to any other Microsoft 365 apps you install.
 
-## Set up mobile devices
+## Install Microsoft 365 apps on your mobile device
 
 ### [**iPhone**](#tab/iPhone)
 
@@ -55,17 +55,17 @@ Watch a short video on how to set up Microsoft 365 productivity apps on iOS devi
 
 1. Go to the **App Store**.
 
-1. In the search field, enter **Microsoft Outlook**.
+    :::image type="content" source="../../media/886913de-76e5-4883-8ed0-4eb3ec06188f.png" alt-text="Screenshot of the iPhone App Store.":::
 
-    :::image type="content" source="../../media/886913de-76e5-4883-8ed0-4eb3ec06188f.png" alt-text="Screenshot of the iPhone App Store with Microsoft Outlook in the search field.":::
+1. In the search field, enter **Microsoft Outlook** and then select **Get** to install Outlook.
 
-1. Select **Get** to install Outlook. If the app has been previously installed, you may see a cloud icon instead of the **Get** button. Select the cloud icon to install Outlook.
+    If you previously installed the app, a cloud icon appears instead of the **Get** button. Select the cloud icon to install Outlook.
 
-    :::image type="content" source="../../media/665e1620-948a-4ab8-b914-dca49530142c.png" alt-text="Screenshot of the cloud icon to install Outlook in the App Store.":::
+    :::image type="content" source="../../media/665e1620-948a-4ab8-b914-dca49530142c.png" alt-text="Screenshot of the App Store cloud icon used to reinstall Microsoft Outlook on iPhone.":::
 
-1. When the installation is done, select the **Open** button to open Outlook and then select **Get Started**.
+1. When the installation finishes, select the **Open** button to open Outlook, and then select **Get Started**.
 
-    :::image type="content" source="../../media/005bedec-ae50-4d75-b3bb-e7cef9e2561c.png" alt-text="Screenshot of Outlook app with Get Started button on iPhone.":::
+    :::image type="content" source="../../media/005bedec-ae50-4d75-b3bb-e7cef9e2561c.png" alt-text="Screenshot of the Microsoft Outlook app open on iPhone with the Get Started button displayed.":::
 
 1. Enter your work email address on the **Add Email Account** screen and then select **Add Account**.
 
@@ -73,7 +73,7 @@ Watch a short video on how to set up Microsoft 365 productivity apps on iOS devi
 
     :::image type="content" source="../../media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png" alt-text="Screenshot of Outlook sign in screen for work account on iPhone.":::
 
-1. If your organization is protecting files in apps, the following message is displayed in a dialog:
+1. If your organization is protecting files in apps, the following message appears in a dialog:
 
     **Your organization is now protecting the data in the app. You need to restart the app to continue.**
 
@@ -89,11 +89,11 @@ Watch a short video on how to set up Microsoft 365 productivity apps on iOS devi
 
         :::image type="content" source="../../media/64f2630b-3164-47a4-9dd6-ca0c29ed5fb3.png" alt-text="Screenshot of Outlook app prompting to set a PIN for organization data on iPhone.":::
 
-   1. Outlook on your iPhone is now ready to be used.
+   1. Outlook on your iPhone is ready to use.
 
 ### [Android](#tab/Android)
 
-Watch a video about installing Outlook and Microsoft 365 on Android devices.<br><br>
+Watch a video about installing Outlook and Microsoft 365 on Android devices:
 
 > [!VIDEO adae8df1-fd83-4bcc-8635-a0ade8ffbdca]
 
@@ -103,19 +103,19 @@ Watch a video about installing Outlook and Microsoft 365 on Android devices.<br>
 
 1. To begin setup on your Android phone, go to the Play Store.
 
-    :::image type="content" source="../../media/93df88e7-c778-40e1-b35e-868ca6e97f6c.png" alt-text="Screenshot of Android home screen with Play Store icon highlighted.":::
+    :::image type="content" source="../../media/93df88e7-c778-40e1-b35e-868ca6e97f6c.png" alt-text="Screenshot of the Android home screen with the Google Play Store icon highlighted for mobile device setup.":::
 
 1. Enter Microsoft Outlook in the Google Play search box and select **Install**.
 
-    :::image type="content" source="../../media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png" alt-text="Screenshot of Outlook app with Open button on Android.":::
+    :::image type="content" source="../../media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png" alt-text="Screenshot of Outlook app listing in Google Play Store with Open button on Android.":::
 
-1. Once Outlook is done installing, select **Open**.
+1. Once Outlook finishes installing, select **Open**.
 
 1. In the Outlook app, select **Get Started**.
 
 1. Add your Microsoft 365 for business email account and then select **Continue**.
 
-1. Enter in your organization credentials and then select **Sign in**.
+1. Enter your organization credentials and then select **Sign in**.
 
     :::image type="content" source="../../media/18f67c66-4bab-4b99-94bd-080839312e29.png" alt-text="Screenshot of Outlook app sign in screen for organizational account on Android.":::
 
@@ -133,7 +133,7 @@ Watch a video about installing Outlook and Microsoft 365 on Android devices.<br>
 
     :::image type="content" source="../../media/edb91afb-f1ed-451a-bc6b-8ccba664e055.png" alt-text="Screenshot of Outlook app prompting to set a PIN on Android.":::
 
-1. Your Outlook app is now ready for use.
+1. Your Outlook app is ready for use.
 
 ---
 
