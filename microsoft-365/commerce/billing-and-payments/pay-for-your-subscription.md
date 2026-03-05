@@ -29,7 +29,7 @@ ms.custom:
 - admindeeplinkMAC
 - GAUpdates
 description: "Learn how to pay for your Microsoft business subscription by using a credit card or debit card."
-ms.date: 10/13/2025
+ms.date: 03/08/2026
 ---
 
 # Pay your Microsoft business invoice by using a credit or debit card
