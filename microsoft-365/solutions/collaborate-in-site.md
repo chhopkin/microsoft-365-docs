@@ -109,7 +109,7 @@ Check the site-level sharing settings to make sure that they allow the type of a
 
 Note that the site can't be shared with unauthenticated people (**Anyone** setting), but individual files and folders can.
 
-You can also use [sensitivity labels to control external sharing settings for SharePoint sites](../compliance/sensitivity-labels-teams-groups-sites.md).
+You can also use [sensitivity labels to control external sharing settings for SharePoint sites](/purview/sensitivity-labels-teams-groups-sites).
 
 ![Screenshot of SharePoint site external sharing settings.](../media/sharepoint-site-external-sharing-settings.png)
 

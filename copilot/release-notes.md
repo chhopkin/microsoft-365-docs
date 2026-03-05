@@ -7,7 +7,7 @@ ms.author: kwekua
 author: kwekuako
 manager: scotv
 ms.update-cycle: 180-days
-ms.date: 02/23/2026
+ms.date: 02/24/2026
 audience: Admin
 ms.reviewer: briandesouza
 ms.topic: release-notes
@@ -32,8 +32,320 @@ This page lists the latest features and improvements for Microsoft 365 Copilot. 
 <!--- All features regardless of platform go here  -->
 <!-- 101270,100818,110355,80610,109718,101645,100669,100610,100361,100356,100354,98694 -->
 
+## February 24, 2026
+Updates released between February 10, 2026, February 24, 2026
+### Microsoft 365 Copilot extensibility
+
+- **Connect Copilot with Monday.com to track work and team progress** [Web] 
+
+  Users can connect Microsoft 365 Copilot with Monday.com to track work and team progress using the Copilot Connector. 
+
+  **Roadmap ID:** [515177](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515177)
+
+  **Details:**
+
+  **What changed:** Copilot can now pull data from Monday.com boards, tasks, and workflows. This allows users to review team progress and updates directly through Copilot. 
+
+  **Why:** This integration supports teams that rely on Monday.com by bringing their work data into Copilot for easier updates and insights.
+
+  **Try this:** 
+
+  - Ask Copilot to summarize key Monday.com tasks for your team. 
+  - Request a list of items that are overdue or blocked.
+  - Generate a status update based on Monday.com board activity. 
+
+  **Why this matters:**
+
+  **Business impact:** Reduces context switching and improves clarity of work tracking. 
+
+  **Personal impact:** Makes task reviews and updates more efficient.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Microsoft 365 Copilot connectors overview](/microsoftsearch/connectors-overview)
+
+- **Connect Copilot with WordPress.com and WordPress.org** [Web]
+
+  Users can connect Copilot with WordPress.com and WordPress.org to retrieve, summarize, and analyze site content using the Copilot Connector. 
+
+  **Details:** 
+
+  **What changed:** Copilot can now pull posts, pages, and site content from WordPress installations, making it easier to analyze or repurpose web content. 
+
+  **Why:** The integration helps teams working with large content libraries stay informed and reuse content efficiently. 
+
+  **Try this:** 
+
+  - Ask Copilot for a summary of recent posts from your WordPress site. 
+  - Retrieve key themes across published articles. 
+  - Request an analysis of content performance patterns. 
+
+  **Why this matters:** 
+
+  **Business impact:** Supports content teams by improving visibility into site content. 
+
+  **Personal impact:** Simplifies reviewing and reusing website material.
+
+- **Connect Copilot with Azure File Share** [Web]
+
+  Users can connect Copilot with Azure File Share to manage and work with their files using the Copilot Connector. 
+
+  **Details:** 
+
+  **What changed:** Copilot can now retrieve and summarize files stored in Azure File Share, providing insights without requiring users to open each file individually. 
+
+  **Why:** This integration helps organizations using Azure File Share bring their structured content into Copilot for easier processing. 
+
+  **Try this:** 
+
+  - Ask Copilot to list recent files added to Azure File Share. 
+  - Request summaries of documents stored there. 
+  - Retrieve key updates from a specific folder. 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams better use their Azure‑hosted content. 
+
+  **Personal impact:** Makes finding and understanding files faster.
+
+- **Connect Copilot with Veeva** [Web]
+
+  Users can connect Copilot with Veeva to access promotional materials, quality documents, and regulatory information using the Copilot Connector. 
+
+  **Details:** 
+
+  **What changed:** Copilot can now retrieve and summarize approved content stored in Veeva Vault, including compliance and regulatory documents. 
+
+  **Why:** This supports life sciences teams that depend on Veeva for controlled content, helping them access accurate information quickly. 
+
+  **Try this:** 
+
+  - Ask Copilot to summarize a regulatory document stored in Veeva. 
+  - Retrieve approved promotional content for a product. 
+  - Request key updates across quality documentation. 
+
+  **Why this matters:** 
+
+  **Business impact:** Improves access to validated documents for regulated workflows. 
+
+  **Personal impact:** Helps users stay compliant and informed.
+
+- **Connect Copilot with Jira Data Center to manage engineering tasks** [Web]
+
+  Users can connect Microsoft 365 Copilot with Jira Data Center to track and manage engineering tasks using the Copilot Connector. 
+
+  **Details:** 
+
+  **What changed:** Copilot can now retrieve issues, tasks, and updates from Jira Data Center. Users can analyze engineering progress and blockers directly in Copilot. 
+
+  **Why:** This helps engineering teams streamline updates and reduce the need to navigate multiple tools. 
+
+  **Try this:** 
+
+  - Ask Copilot for a summary of Jira engineering issues. 
+  - Request insights on current blockers. 
+  - Generate a high‑level project update. 
+
+  **Why this matters:** 
+
+  **Business impact:** Provides clearer visibility into engineering workflows. 
+
+  **Personal impact:** Helps users stay organized and informed.
+
+- **Out‑of‑box filter support for data sources in Copilot Search** [Web]
+
+  IT admins can customize filters for data sources in Copilot Search without additional development work. 
+
+  **Roadmap ID:** [502534](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502534 ) 
+
+  **Detailes:** 
+
+  **What changed:** Microsoft 365 Copilot search now includes a dynamic filtering experience that surfaces data source–specific filters. When users select a source (such as Outlook, SharePoint, Teams, Azure DevOps, Google Drive, Jira, or Confluence), relevant filters automatically appear in the right rail. 
+
+  **Why:** This gives users more precise control over search results by tailoring filters to the selected data source—without requiring any admin setup or changes to existing policies.
+
+  **Try this:** 
+
+
+  - Select a specific data source in Copilot search (e.g., Outlook or SharePoint).
+  - Use the dynamically populated filters in the right rail to refine results.
+  - Switch data sources to see filters update automatically based on context.
+
+  **Why this matters:** 
+
+  **Business impact:** Improves search accuracy while reducing administrative overhead—no configuration or policy updates required.
+
+  **Personal impact:** Helps users find relevant information faster with less manual refinement.
+
+  **Additional resources:**
+  
+  **Learn:**
+  
+    [Microsoft 365 Copilot: Data source-specific filters in search](https://m365admin.handsontek.net/microsoft-365-copilot-data-source-specific-filters-search/)
+  
+- **Scope grounding for declarative agents to specific data sources** [Windows, Web]   
+
+  Users can scope grounding for declarative agents to specific data sources. 
+
+    **Details:** 
+
+    **What changed:** Users can now define which data sources a declarative agent draws from. This ensures more precise responses and reduces unnecessary information.
+
+    **Why:** This gives users more control over how declarative agents use organizational data.
+
+    **Try this:** 
+
+    - Select a declarative agent where sources have been exposed or define sources in the manifest for your agent.
+    - Limit grounding to a single repository for more focused results. 
+    - Test the agent’s output to confirm improved relevance. 
+
+    **Why this matters:** 
+
+    **Business impact:** Improves control over data usage and response accuracy. 
+
+    **Personal impact:** Helps users get answers that match their needs.
+
+    **Additional resources:**
+    
+    **Learn:**
+    
+    [Declarative agent manifest example](/microsoft-365-copilot/extensibility/declarative-agent-manifest-1.6?branch=main&tabs=json#user-override-object)
+
+- **Embedded knowledge support for declarative agents** [Web]
+
+  Developers can embed knowledge such as PDFs, Word documents, and PowerPoint files for declarative agents. 
+
+  **Roadmap ID:** [474448](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=474448)
+
+  **Detailes:** 
+
+  **What changed:** Declarative agents now support embedded knowledge, allowing developers to include up to 10 local files as grounding resources.
+
+  **Why:** This makes it simpler to build agents that rely on internal documents. 
+
+  **Try this:** 
+
+  - Add embedded files to a declarative agent. 
+  - Test responses to confirm proper grounding. 
+
+  **Why this matters:** 
+
+  **Business impact:** Enhances agent accuracy using internal materials. 
+
+  **Personal impact:** Makes agent development more flexible.
+
+  **Additional Resources:**
+
+  **Learn:**
+
+  [Embedded knowledge object](/microsoft-365-copilot/extensibility/declarative-agent-manifest-1.6?tabs=json#embedded-knowledge-object)
+
+
+- **Declarative agents upgraded to GPT‑5.1**
+
+  Microsoft 365 Copilot declarative agents now use the GPT‑5.1 model with automatic model selection for performance and reasoning. 
+
+  **Detailes:** 
+
+  **What changed:** Declarative agents now run on GPT‑5.1 using “auto” architecture, which selects the best model (fast or reasoning‑optimized) based on the user’s prompt. This improves speed and quality. Note that as the agent uses the "Think deeper" mode to generate higher quality responses, users will experience a slightly higher latency.
+
+  **Why:** The upgrade ensures declarative agents provide more accurate and detailed responses.
+
+  **Try this:** 
+
+  - Use a declarative agent to process complex queries. 
+  - Test scenarios that require fast responses versus deeper reasoning. 
+
+  **Why this matters:** 
+
+  **Business impact:** Supports higher‑quality automation and decision‑making. 
+
+  **Personal impact:** Provides users with faster and more accurate responses. 
+
+
+### PowerPoint
+- **Use Copilot to get a detailed and contextual explanation** [Web, Windows, Mac]
+
+  Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
+
+  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
+
+  **Details:** 
+
+  **What changed:** Copilot can now provide an explanation of any selected object in a presentation. This includes acronyms, individual text boxes, tables images, & entire slide. Previously, users needed to rely on external references or manual research to understand unclear content.
+
+  **Why:** This feature helps users understand unfamiliar or complex information without leaving their presentation
+
+  **Try this:** 
+
+  - Select any text, table or slide, right click and choose “Explain". 
+  - Review the explanation without leaving PowerPoint 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams quickly understand unfamiliar content, reducing time spent researching and improving clarity in presentations.
+
+  **Personal impact:** Makes it easier to grasp the meaning of slide objects without switching apps.
+  
+  **Additional resources:**
+
+  **Blogs:**
+
+  [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
+
+- **Steer presentation length, tone, style, and images with Copilot** [Web, Windows, Mac]
+
+  Users can adjust presentation length, narrative tone, slide style, and AI‑generated images when creating presentations with Copilot.
+
+  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+
+  **Details:** 
+
+  **What changed:** Copilot now supports more granular controls for customization. Users can specify slide count, tone of messaging, stylistic preferences, and visual elements to better tailor their presentations. 
+
+  **Why:** This gives users more creative control and ensures presentations match the intended audience and purpose. 
+
+  **Try this:** 
+
+  - Ask Copilot to shorten your presentation to five slides. 
+  - Set the tone to “professional” or “informal” as needed. 
+  - Request new AI‑generated images that match your theme. 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams build polished presentations more efficiently.
+
+  **Personal impact:** Gives individuals more flexibility and creative options.
+
+### Viva Insights
+- **Copilot Studio agent report enhancements** [Web, Windows, Mac]
+
+  The Copilot Studio agent report includes autonomous agents and provides insights on adoption, impact, time savings, and cost savings. 
+
+  **Roadmap ID:** [499422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499422)
+
+  **Detailes:** 
+
+  **What changed:** The agent report now includes autonomous agents with generative orchestration. It also offers new metrics related to adoption, time saved, and cost benefits. 
+
+  **Why:** These enhancements help organizations understand how Copilot Studio agents are used and the value they deliver. 
+
+  **Try this:** 
+
+  - Open the Copilot Studio agent report to review autonomous agent usage. 
+  - Compare generative and non‑generative agent activity. 
+  - Review time‑saving and cost‑saving insights. 
+
+  **Why this matters:** 
+
+  **Business impact:** Supports better decision‑making about automation and ROI. 
+
+  **Personal impact:** Helps creators understand how their agents are being used.
+
 ## February 10, 2026
-Updates released between January 27, 2025, February 10, 2026.
+Updates released between January 27, 2026, February 10, 2026.
 ### Microsoft 365 Copilot extensibility
 - **Admins can set up connector authentication faster with a simplified experience** [Web]
 
@@ -295,7 +607,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Additional resources:**
 
-    **Blog:**
+    **Blogs:**
     [Available today: GPT-5.2 in Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6)
 - **Copilot icon visibility in Microsoft Edge** [Web]
 
@@ -529,95 +841,6 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     [Convert your Microsoft 365 Copilot Page into a Word document or PowerPoint presentation](https://support.microsoft.com/topic/convert-your-microsoft-365-copilot-page-into-a-word-document-or-powerpoint-presentation-f39f872a-4f47-408c-8fc9-2c6808c003a1)
 
-### PowerPoint
-- **Use Copilot to get a detailed and contextual explanation**
-
-    Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
-
-    **Roadmap ID:** [516566](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=516566 )
-
-    **Details:**
-
-    **What changed:** Previously, users needed to manually research unfamiliar content such as unknown acronyms or images. Copilot now provides direct explanations for selected objects within a slide.
-
-    **Why:** This feature helps users understand unfamiliar or complex information without leaving their presentation.
-
-    **Try this:**
-
-    - Select any text, table or slide, right click and choose Explain.
-    - Review the explanation without leaving PowerPoint.
-
-    **Why this matters:**
-
-    **Business impact:** Reduces misinterpretation and improves presentation accuracy.
-
-    **Personal impact:** Saves time and builds confidence when reviewing content.
-
-    **Additional resources:**
-
-    **Blog:**
-
-    [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
-
-### Viva Glint
-- **Copilot employee experience outcomes report with Viva Glint** [Web]
-
-  A new Power BI report in Viva Insights shows how Copilot usage relates to employee experience sentiment in Viva Glint.
-
-    **Roadmap ID:** [496654](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=496654)
-
-    **Details:**
-
-    **What changed:** Previously, Understanding the impact of copilot usage on employee experience outcomes required customers to take the data out and do their own custom analysis. The new report that comes with copilot analytics in Viva Insights provides built-in segmented cohort analysis and heatmap visualizations. 
-
-    **Why:** This helps organizations better understand how Copilot influences employee experience.
-
-    **Try this:**
-
-    - Open Viva Insights and access the Copilot Outcomes report.
-    - Analyze sentiment by Copilot usage patterns.
-
-    **Why this matters:**
-
-    **Business impact:** Enables data‑driven insights into Microsoft 365 copilot adoption and sentiment.
-
-    **Personal impact:** Supports improvements to daily work experiences.
-
-    **Additional Resources:**
-
-    **Learn:**
-
-    [Copilot employee experience outcomes (Glint) report](/viva/insights/advanced/analyst/templates/copilot-employee-experience-outcome-report)
-- **Workplace patterns report in Viva Glint** [Web]
-
-  A new report in Viva Glint highlights how employee sentiment relates to workplace patterns and drivers.
-
-    **Roadmap ID:** [489229 ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=489229)
-
-    **Details:**
-
-    **What changed:** Previously, users relied on custom analysis. The Workplace Patterns report now provides out‑of‑the‑box insights.
-
-    **Why:** This accelerates access to actionable insights for leaders.
-
-    **Try this:**
-
-    - Open the Workplace Patterns Report in Viva Glint.
-    - Share insights with leaders to guide actions.
-
-    **Why this matters:**    
-
-    **Business impact:** Speeds decision‑making using ready‑to‑use insights.
-
-    **Personal impact:** Helps create more informed workplace improvements.
-
-    **Additional Resources:**
-
-    **Learn:**
-
-    [Build agents with Agent Builder in Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agent-builder-build-agents)
-
-
 <!--- All features regardless of platform go here  -->
 <!-- 74703,100671,100312,96561,96560,96300,104967,104073,102626,101108,97855 -->
 
@@ -802,15 +1025,15 @@ Organizations need AI-powered solutions that not only respond accurately but ant
   **Learn:**  
   [Add knowledge sources to your declarative agent](/microsoft-365-copilot/extensibility/knowledge-sources)
 
-- **Generate Office documents from agents in Agent Builder** [Windows, Web]
+- **Generate Office documents from agents in Copilot Studio lite** [Windows, Web]
 
-  Agents built with Agent Builder in Microsoft 365 Copilot can generate PowerPoint decks, Excel spreadsheets, and Word documents via chat, with files saved to OneDrive.
+  Agents built with Copilot Studio lite can generate PowerPoint decks, Excel spreadsheets, and Word documents via chat, with files saved to OneDrive.
 
   **Roadmap ID:** [506753](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=506753)
 
   **Details:**
 
-  **What changed:** Office skills are available in Agent Builder. Users can chat with an agent to generate PowerPoint, Excel, and Word files. Files are saved to OneDrive to streamline organization and support retention policies. These skills are part of the “Generate code, graphs, and documents” capability (formerly known as Code Interpreter).
+  **What changed:** Office skills are available in Copilot Studio lite. Users can chat with an agent to generate PowerPoint, Excel, and Word files. Files are saved to OneDrive to streamline organization and support retention policies. These skills are part of the “Generate code, graphs, and documents” capability (formerly known as Code Interpreter).
 
   **Why:** Automating common document tasks helps teams move faster and maintain consistency, while OneDrive storage supports governance needs.
 
@@ -940,7 +1163,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Additional resources:**
 
-  **Blog:** 
+  **Blogs:** 
 
   <a href="https://www.microsoft.com/microsoft-365/blog/2025/08/07/available-today-gpt-5-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6" target="_blank">Available today: GPT-5 in Microsoft 365 Copilot</a>
 ### Microsoft 365 Copilot Chat
@@ -1847,7 +2070,7 @@ Save time and reduce frustration with simple, intuitive search that helps you ge
 
   [Admin control for org-wide agent sharing links](https://microsoft-my.sharepoint-df.com/personal/sophieroy_microsoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsophieroy%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings%2FDemo%20Admin%20control%20for%20org%2Dwide%20agent%20sharing%20links%2D20250926%5F155245%2DMeeting%20Recording%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea632fb0d%2D5e4c%2D4501%2D92a6%2D1c16c4381542&ct=1764029038871&or=Teams%2DHL&ga=1&gaS=47&isDarkMode=true)
 
-  **Blog:**
+  **Blogs:**
 
 
   [Manage and govern at scale](https://www.microsoft.com/microsoft-copilot/blog/copilot-studio/whats-new-in-copilot-studio-october-2025/#manage-and-govern-at-scale)
@@ -5422,6 +5645,118 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [Windows](#tab/win)
 
+## February 24, 2026
+Updates released between February 10, 2026, and February 24, 2026.
+
+- **Scope grounding for declarative agents to specific data sources** [Windows, Web]   
+
+  Users can scope grounding for declarative agents to specific data sources. 
+
+    **Details:** 
+
+    **What changed:** Users can now define which data sources a declarative agent draws from. This ensures more precise responses and reduces unnecessary information.
+
+    **Why:** This gives users more control over how declarative agents use organizational data.
+
+    **Try this:** 
+
+    - Select a declarative agent where sources have been exposed or define sources in the manifest for your agent.
+    - Limit grounding to a single repository for more focused results. 
+    - Test the agent’s output to confirm improved relevance. 
+
+    **Why this matters:** 
+
+    **Business impact:** Improves control over data usage and response accuracy. 
+
+    **Personal impact:** Helps users get answers that match their needs.
+
+    **Additional resources:**
+    
+    **Learn:**
+    
+    [Declarative agent manifest example](/microsoft-365-copilot/extensibility/declarative-agent-manifest-1.6?branch=main&tabs=json#user-override-object)
+
+### PowerPoint
+- **Use Copilot to get a detailed and contextual explanation** [Web, Windows, Mac]
+
+  Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
+
+  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
+
+  **Details:** 
+
+  **What changed:** Copilot can now provide an explanation of any selected object in a presentation. This includes acronyms, individual text boxes, tables images, & entire slide. Previously, users needed to rely on external references or manual research to understand unclear content.
+
+  **Why:** This feature helps users understand unfamiliar or complex information without leaving their presentation
+
+  **Try this:** 
+
+  - Select any text, table or slide, right click and choose “Explain". 
+  - Review the explanation without leaving PowerPoint 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams quickly understand unfamiliar content, reducing time spent researching and improving clarity in presentations.
+
+  **Personal impact:** Makes it easier to grasp the meaning of slide objects without switching apps.
+  
+  **Additional resources:**
+
+  **Blogs:**
+
+  [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
+
+- **Steer presentation length, tone, style, and images with Copilot** [Web, Windows, Mac]
+
+  Users can adjust presentation length, narrative tone, slide style, and AI‑generated images when creating presentations with Copilot.
+
+  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+
+  **Details:** 
+
+  **What changed:** Copilot now supports more granular controls for customization. Users can specify slide count, tone of messaging, stylistic preferences, and visual elements to better tailor their presentations. 
+
+  **Why:** This gives users more creative control and ensures presentations match the intended audience and purpose. 
+
+  **Try this:** 
+
+  - Ask Copilot to shorten your presentation to five slides. 
+  - Set the tone to “professional” or “informal” as needed. 
+  - Request new AI‑generated images that match your theme. 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams build polished presentations more efficiently.
+
+  **Personal impact:** Gives individuals more flexibility and creative options.
+  
+
+
+### Viva Insights
+- **Copilot Studio agent report enhancements** [Web, Windows, Mac]
+
+  The Copilot Studio agent report includes autonomous agents and provides insights on adoption, impact, time savings, and cost savings. 
+
+  **Roadmap ID:** [499422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499422)
+
+  **Detailes:** 
+
+  **What changed:** The agent report now includes autonomous agents with generative orchestration. It also offers new metrics related to adoption, time saved, and cost benefits. 
+
+  **Why:** These enhancements help organizations understand how Copilot Studio agents are used and the value they deliver. 
+
+  **Try this:** 
+
+  - Open the Copilot Studio agent report to review autonomous agent usage. 
+  - Compare generative and non‑generative agent activity. 
+  - Review time‑saving and cost‑saving insights. 
+
+  **Why this matters:** 
+
+  **Business impact:** Supports better decision‑making about automation and ROI. 
+
+  **Personal impact:** Helps creators understand how their agents are being used.
+
 ## January 27, 2026
 Updates released between January 13, 2025, and January 27, 2026.
 ### Microsoft 365 Copilot Chat
@@ -5448,7 +5783,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Additional resources:**
 
-    **Blog:**
+    **Blogs:**
 
     [Available today: GPT-5.2 in Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6)
 
@@ -5706,15 +6041,15 @@ Organizations need AI-powered solutions that not only respond accurately but ant
   **Learn:**  
   [Add knowledge sources to your declarative agent](/microsoft-365-copilot/extensibility/knowledge-sources)
 
-- **Generate Office documents from agents in Agent Builder** [Windows, Web]
+- **Generate Office documents from agents in Copilot Studio lite** [Windows, Web]
 
-  Agents built with Agent Builder in Microsoft 365 Copilot can generate PowerPoint decks, Excel spreadsheets, and Word documents via chat, with files saved to OneDrive.
+  Agents built with Copilot Studio lite can generate PowerPoint decks, Excel spreadsheets, and Word documents via chat, with files saved to OneDrive.
 
   **Roadmap ID:** [506753](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=506753)
 
   **Details:**
 
-  **What changed:** Office skills are available in Agent Builder. Users can chat with an agent to generate PowerPoint, Excel, and Word files. Files are saved to OneDrive to streamline organization and support retention policies. These skills are part of the “Generate code, graphs, and documents” capability (formerly known as Code Interpreter).
+  **What changed:** Office skills are available in Copilot Studio lite. Users can chat with an agent to generate PowerPoint, Excel, and Word files. Files are saved to OneDrive to streamline organization and support retention policies. These skills are part of the “Generate code, graphs, and documents” capability (formerly known as Code Interpreter).
 
   **Why:** Automating common document tasks helps teams move faster and maintain consistency, while OneDrive storage supports governance needs.
 
@@ -5761,7 +6096,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Additional resources:**
 
-  **Blog:** 
+  **Blogs:** 
 
   <a href="https://www.microsoft.com/microsoft-365/blog/2025/08/07/available-today-gpt-5-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6" target="_blank">Available today: GPT-5 in Microsoft 365 Copilot</a>
 ### Microsoft 365 Copilot Chat
@@ -7831,8 +8166,298 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [Web](#tab/Web)
 
+
+## February 24, 2026
+Updates released between February 10, 2026, February 24, 2026
+### Microsoft 365 Copilot extensibility
+
+- **Connect Copilot with Monday.com to track work and team progress** [Web] 
+
+  Users can connect Microsoft 365 Copilot with Monday.com to track work and team progress using the Copilot Connector. 
+
+  **Roadmap ID:** [515177](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515177)
+
+  **Details:**
+
+  **What changed:** Copilot can now pull data from Monday.com boards, tasks, and workflows. This allows users to review team progress and updates directly through Copilot. 
+
+  **Why:** This integration supports teams that rely on Monday.com by bringing their work data into Copilot for easier updates and insights.
+
+  **Try this:** 
+
+  - Ask Copilot to summarize key Monday.com tasks for your team. 
+  - Request a list of items that are overdue or blocked.
+  - Generate a status update based on Monday.com board activity. 
+
+  **Why this**
+
+  **Business impact:** Reduces context switching and improves clarity of work tracking. 
+
+  **Personal impact:** Makes task reviews and updates more efficient.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Microsoft 365 Copilot connectors overview](/microsoftsearch/connectors-overview)
+
+- **Connect Copilot with WordPress.com and WordPress.org** [Web]
+
+  Users can connect Copilot with WordPress.com and WordPress.org to retrieve, summarize, and analyze site content using the Copilot Connector. 
+
+  **Details:** 
+
+  **What changed:** Copilot can now pull posts, pages, and site content from WordPress installations, making it easier to analyze or repurpose web content. 
+
+  **Why:** The integration helps teams working with large content libraries stay informed and reuse content efficiently. 
+
+  **Try this:** 
+
+  - Ask Copilot for a summary of recent posts from your WordPress site. 
+  - Retrieve key themes across published articles. 
+  - Request an analysis of content performance patterns. 
+
+  **Why this matters:** 
+
+  **Business impact:** Supports content teams by improving visibility into site content. 
+
+  **Personal impact:** Simplifies reviewing and reusing website 
+
+- **Connect Copilot with Azure File Share** [Web]
+
+  Users can connect Copilot with Azure File Share to manage and work with their files using the Copilot Connector. 
+
+  **Details:** 
+
+  **What changed:** Copilot can now retrieve and summarize files stored in Azure File Share, providing insights without requiring users to open each file individually. 
+
+  **Why:** This integration helps organizations using Azure File Share bring their structured content into Copilot for easier processing. 
+
+  **Try this:** 
+
+  - Ask Copilot to list recent files added to Azure File Share. 
+  - Request summaries of documents stored there. 
+  - Retrieve key updates from a specific folder. 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams better use their Azure‑hosted content. 
+
+  **Personal impact:** Makes finding and understanding files faster.
+
+- **Connect Copilot with Veeva** [Web]
+
+  Users can connect Copilot with Veeva to access promotional materials, quality documents, and regulatory information using the Copilot Connector. 
+
+  **Details:** 
+
+  **What changed:** Copilot can now retrieve and summarize approved content stored in Veeva Vault, including compliance and regulatory documents. 
+
+  **Why:** This supports life sciences teams that depend on Veeva for controlled content, helping them access accurate information quickly. 
+
+  **Try this:** 
+
+  - Ask Copilot to summarize a regulatory document stored in Veeva. 
+  - Retrieve approved promotional content for a product. 
+  - Request key updates across quality documentation. 
+
+  **Why this matters:** 
+
+  **Business impact:** Improves access to validated documents for regulated workflows. 
+
+  **Personal impact:** Helps users stay compliant and informed.
+
+- **Connect Copilot with Jira Data Center to manage engineering tasks** [Web]
+
+  Users can connect Microsoft 365 Copilot with Jira Data Center to track and manage engineering tasks using the Copilot Connector. 
+
+  **Details:** 
+
+  **What changed:** Copilot can now retrieve issues, tasks, and updates from Jira Data Center. Users can analyze engineering progress and blockers directly in Copilot. 
+
+  **Why:** This helps engineering teams streamline updates and reduce the need to navigate multiple tools. 
+
+  **Try this:** 
+
+  - Ask Copilot for a summary of Jira engineering issues. 
+  - Request insights on current blockers. 
+  - Generate a high‑level project update. 
+
+  **Why this matters:** 
+
+  **Business impact:** Provides clearer visibility into engineering workflows. 
+
+  **Personal impact:** Helps users stay organized and informed.
+
+- **Out‑of‑box filter support for data sources in Copilot Search** [Web]
+
+  IT admins can customize filters for data sources in Copilot Search without additional development work. 
+
+  **Roadmap ID:** [502534](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502534 ) 
+
+  **Detailes:** 
+
+  **What changed:** Microsoft 365 Copilot search now includes a dynamic filtering experience that surfaces data source–specific filters. When users select a source (such as Outlook, SharePoint, Teams, Azure DevOps, Google Drive, Jira, or Confluence), relevant filters automatically appear in the right rail. 
+
+  **Why:** This gives users more precise control over search results by tailoring filters to the selected data source—without requiring any admin setup or changes to existing policies.
+
+  **Try this:** 
+
+  - Select a specific data source in Copilot search (e.g., Outlook or SharePoint).
+  - Use the dynamically populated filters in the right rail to refine results.
+  - Switch data sources to see filters update automatically based on context.
+
+  **Why this matters:** 
+
+  **Business impact:** Improves search accuracy while reducing administrative overhead—no configuration or policy updates required.
+
+  **Personal impact:** Helps users find relevant information faster with less manual refinement.
+
+  **Additional resources:**
+  
+  **Learn:**
+  
+   [Microsoft 365 Copilot: Data source-specific filters in search](https://m365admin.handsontek.net/microsoft-365-copilot-data-source-specific-filters-search/)
+  
+- **Scope grounding for declarative agents to specific data sources** [Windows, Web]   
+
+  Users can scope grounding for declarative agents to specific data sources. 
+
+    **Details:** 
+
+    **What changed:** Users can now define which data sources a declarative agent draws from. This ensures more precise responses and reduces unnecessary information.
+
+    **Why:** This gives users more control over how declarative agents use organizational data.
+
+    **Try this:** 
+
+    - Select a declarative agent where sources have been exposed or define sources in the manifest for your agent.
+    - Limit grounding to a single repository for more focused results. 
+    - Test the agent’s output to confirm improved relevance. 
+
+    **Why this matters:** 
+
+    **Business impact:** Improves control over data usage and response accuracy. 
+
+    **Personal impact:** Helps users get answers that match their needs.
+
+    **Additional resources:**
+    
+    **Learn:**
+    
+    [Declarative agent manifest example](/microsoft-365-copilot/extensibility/declarative-agent-manifest-1.6?branch=main&tabs=json#user-override-object)
+
+- **Embedded knowledge support for declarative agents** [Web]
+
+  Developers can embed knowledge such as PDFs, Word documents, and PowerPoint files for declarative agents. 
+
+  **Roadmap ID:** [474448](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=474448)
+
+  **Detailes:** 
+
+  **What changed:** Declarative agents now support embedded knowledge, allowing developers to include up to 10 local files as grounding resources.
+
+  **Why:** This makes it simpler to build agents that rely on internal documents. 
+
+  **Try this:** 
+
+  - Add embedded files to a declarative agent. 
+  - Test responses to confirm proper grounding. 
+
+  **Why this matters:** 
+
+  **Business impact:** Enhances agent accuracy using internal materials. 
+
+  **Personal impact:** Makes agent development more flexible.
+
+  **Additional Resources:**
+
+  **Learn:**
+
+  [Embedded knowledge object](/microsoft-365-copilot/extensibility/declarative-agent-manifest-1.6?tabs=json#embedded-knowledge-object)
+  
+### PowerPoint
+- **Use Copilot to get a detailed and contextual explanation** [Web, Windows, Mac]
+
+  Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
+
+  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
+
+  **Details:** 
+
+  **What changed:** Copilot can now provide an explanation of any selected object in a presentation. This includes acronyms, individual text boxes, tables images, & entire slide. Previously, users needed to rely on external references or manual research to understand unclear content.
+
+  **Why:** This feature helps users understand unfamiliar or complex information without leaving their presentation
+
+  **Try this:** 
+
+  - Select any text, table or slide, right click and choose “Explain". 
+  - Review the explanation without leaving PowerPoint 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams quickly understand unfamiliar content, reducing time spent researching and improving clarity in presentations.
+
+  **Personal impact:** Makes it easier to grasp the meaning of slide objects without switching apps.
+  
+  **Additional resources:**
+
+  **Blogs:**
+
+  [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
+
+- **Steer presentation length, tone, style, and images with Copilot** [Web, Windows, Mac]
+
+  Users can adjust presentation length, narrative tone, slide style, and AI‑generated images when creating presentations with Copilot.
+
+  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+
+  **Details:** 
+
+  **What changed:** Copilot now supports more granular controls for customization. Users can specify slide count, tone of messaging, stylistic preferences, and visual elements to better tailor their presentations. 
+
+  **Why:** This gives users more creative control and ensures presentations match the intended audience and purpose. 
+
+  **Try this:** 
+
+  - Ask Copilot to shorten your presentation to five slides. 
+  - Set the tone to “professional” or “informal” as needed. 
+  - Request new AI‑generated images that match your theme. 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams build polished presentations more efficiently.
+
+  **Personal impact:** Gives individuals more flexibility and creative options.
+
+
+### Viva Insights
+- **Copilot Studio agent report enhancements** [Web, Windows, Mac]
+
+  The Copilot Studio agent report includes autonomous agents and provides insights on adoption, impact, time savings, and cost savings. 
+
+  **Roadmap ID:** [499422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499422)
+
+  **Detailes:** 
+
+  **What changed:** The agent report now includes autonomous agents with generative orchestration. It also offers new metrics related to adoption, time saved, and cost benefits. 
+
+  **Why:** These enhancements help organizations understand how Copilot Studio agents are used and the value they deliver. 
+
+  **Try this:** 
+
+  - Open the Copilot Studio agent report to review autonomous agent usage. 
+  - Compare generative and non‑generative agent activity. 
+  - Review time‑saving and cost‑saving insights. 
+
+  **Why this matters:** 
+
+  **Business impact:** Supports better decision‑making about automation and ROI. 
+
+  **Personal impact:** Helps creators understand how their agents are being used.
+
 ## February 10, 2026
-Updates released between January 27, 2025, February 10, 2026.
+Updates released between January 27, 2026, February 10, 2026.
 ### Microsoft 365 Copilot extensibility
 - **Admins can set up connector authentication faster with a simplified experience** [Web]
 
@@ -8061,7 +8686,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Additional resources:**
 
-    **Blog:**
+    **Blogs:**
     [Available today: GPT-5.2 in Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6)
 
 - **Copilot icon visibility in Microsoft Edge** [Web]
@@ -8300,36 +8925,6 @@ Updates released between January 13, 2025, and January 27, 2026.
     **Support:**
 
     [Convert your Microsoft 365 Copilot Page into a Word document or PowerPoint presentation](https://support.microsoft.com/topic/convert-your-microsoft-365-copilot-page-into-a-word-document-or-powerpoint-presentation-f39f872a-4f47-408c-8fc9-2c6808c003a1)
-
-### PowerPoint
-- **Use Copilot to get a detailed and contextual explanation**
-
-Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
-
-  **Roadmap ID:** [516566](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=516566)
-
-  **Details:**
-
-  **What changed:** Previously, users needed to manually research unfamiliar content such as unknown acronyms or images. Copilot now provides direct explanations for selected objects within a slide.
-  
-  **Why:** This feature helps users understand unfamiliar or complex information without leaving their presentation.
-  
-  **Try this:**
-  
-  - Select any text, table or slide, right click and choose Explain.
-  - Review the explanation without leaving PowerPoint.
-  
-    **Why this matters:**
-  
-    **Business impact:** Reduces misinterpretation and improves presentation accuracy.
-  
-    **Personal impact:** Saves time and builds confidence when reviewing content.
-
-    **Additional resources:**
-  
-    **Blog**
-  
-    [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
 
 ### Viva Glint
 - **Copilot employee experience outcomes report with Viva Glint** [Web]
@@ -8573,15 +9168,15 @@ Organizations need AI-powered solutions that not only respond accurately but ant
   **Learn:**  
   [Add knowledge sources to your declarative agent](/microsoft-365-copilot/extensibility/knowledge-sources)
 
-- **Generate Office documents from agents in Agent Builder** [Windows, Web]
+- **Generate Office documents from agents in Copilot Studio lite** [Windows, Web]
 
-  Agents built with Agent Builder in Microsoft 365 Copilot can generate PowerPoint decks, Excel spreadsheets, and Word documents via chat, with files saved to OneDrive.
+  Agents built with Copilot Studio lite can generate PowerPoint decks, Excel spreadsheets, and Word documents via chat, with files saved to OneDrive.
 
   **Roadmap ID:** [506753](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=506753)
 
   **Details:**
 
-  **What changed:** Office skills are available in Agent Builder. Users can chat with an agent to generate PowerPoint, Excel, and Word files. Files are saved to OneDrive to streamline organization and support retention policies. These skills are part of the “Generate code, graphs, and documents” capability (formerly known as Code Interpreter).
+  **What changed:** Office skills are available in Copilot Studio lite. Users can chat with an agent to generate PowerPoint, Excel, and Word files. Files are saved to OneDrive to streamline organization and support retention policies. These skills are part of the “Generate code, graphs, and documents” capability (formerly known as Code Interpreter).
 
   **Why:** Automating common document tasks helps teams move faster and maintain consistency, while OneDrive storage supports governance needs.
 
@@ -8686,7 +9281,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Additional resources:**
 
-  **Blog:** 
+  **Blogs:** 
 
   <a href="https://www.microsoft.com/microsoft-365/blog/2025/08/07/available-today-gpt-5-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6" target="_blank">Available today: GPT-5 in Microsoft 365 Copilot</a>
 ### Microsoft 365 Copilot Chat
@@ -9453,7 +10048,7 @@ Voice   removes friction, letting you work where typing isn't practical.
 
     [Admin control for org-wide agent sharing links](https://microsoft-my.sharepoint-df.com/personal/sophieroy_microsoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsophieroy%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings%2FDemo%20Admin%20control%20for%20org%2Dwide%20agent%20sharing%20links%2D20250926%5F155245%2DMeeting%20Recording%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea632fb0d%2D5e4c%2D4501%2D92a6%2D1c16c4381542&ct=1764029038871&or=Teams%2DHL&ga=1&gaS=47&isDarkMode=true)
 
-  **Blog:**
+  **Blogs:**
 
     [Manage and govern at scale](https://www.microsoft.com/microsoft-copilot/blog/copilot-studio/whats-new-in-copilot-studio-october-2025/#manage-and-govern-at-scale)
 
@@ -11931,6 +12526,8 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [Android](#tab/androidos)
 
+
+
 ## January 27, 2026
 Updates released between January 13, 2025, and January 27, 2026.
 ### Microsoft 365 Copilot Chat
@@ -11957,7 +12554,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Additional resources:**
 
-    **Blog:**
+    **Blogs:**
     [Available today: GPT-5.2 in Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6)
 
 <!-- 102626,101108 -->
@@ -12042,7 +12639,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Additional resources:**
 
-  **Blog:** 
+  **Blogs:** 
 
   <a href="https://www.microsoft.com/microsoft-365/blog/2025/08/07/available-today-gpt-5-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6" target="_blank">Available today: GPT-5 in Microsoft 365 Copilot</a>
 ### Microsoft 365 Copilot extensibility
@@ -12712,7 +13309,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Additional resources:**
 
-    **Blog:**
+    **Blogs:**
     [Available today: GPT-5.2 in Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6)
 
 <!-- 102626,101108 -->
@@ -12798,7 +13395,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Additional resources:**
 
-  **Blog:** 
+  **Blogs:** 
 
   <a href="https://www.microsoft.com/microsoft-365/blog/2025/08/07/available-today-gpt-5-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6" target="_blank">Available today: GPT-5 in Microsoft 365 Copilot</a>
 ### Microsoft 365 Copilot extensibility
@@ -13698,6 +14295,87 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [Mac](#tab/mac)
 
+### PowerPoint
+- **Steer presentation length, tone, style, and images with Copilot** [Web, Windows, Mac]
+
+  Users can adjust presentation length, narrative tone, slide style, and AI‑generated images when creating presentations with Copilot.
+
+  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+
+  **Details:** 
+
+  **What changed:** Copilot now supports more granular controls for customization. Users can specify slide count, tone of messaging, stylistic preferences, and visual elements to better tailor their presentations. 
+
+  **Why:** This gives users more creative control and ensures presentations match the intended audience and purpose. 
+
+  **Try this:** 
+
+  - Ask Copilot to shorten your presentation to five slides. 
+  - Set the tone to “professional” or “informal” as needed. 
+  - Request new AI‑generated images that match your theme. 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams build polished presentations more efficiently.
+
+  **Personal impact:** Gives individuals more flexibility and creative options.
+  
+
+- **Use Copilot to get a detailed and contextual explanation** [Web, Windows, Mac]
+
+  Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
+
+  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
+
+  **Details:** 
+
+  **What changed:** Copilot can now provide an explanation of any selected object in a presentation. This includes acronyms, individual text boxes, tables images, & entire slide. Previously, users needed to rely on external references or manual research to understand unclear content.
+
+  **Why:** This feature helps users understand unfamiliar or complex information without leaving their presentation
+
+  **Try this:** 
+
+  - Select any text, table or slide, right click and choose “Explain". 
+  - Review the explanation without leaving PowerPoint 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams quickly understand unfamiliar content, reducing time spent researching and improving clarity in presentations.
+
+  **Personal impact:** Makes it easier to grasp the meaning of slide objects without switching apps.
+  
+  **Additional resources:**
+
+  **Blogs:**
+
+  [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
+
+
+### Viva Insights
+- **Copilot Studio agent report enhancements** [Web, Windows, Mac]
+
+  The Copilot Studio agent report includes autonomous agents and provides insights on adoption, impact, time savings, and cost savings. 
+
+  **Roadmap ID:** [499422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499422)
+
+  **Detailes:** 
+
+  **What changed:** The agent report now includes autonomous agents with generative orchestration. It also offers new metrics related to adoption, time saved, and cost benefits. 
+
+  **Why:** These enhancements help organizations understand how Copilot Studio agents are used and the value they deliver. 
+
+  **Try this:** 
+
+  - Open the Copilot Studio agent report to review autonomous agent usage. 
+  - Compare generative and non‑generative agent activity. 
+  - Review time‑saving and cost‑saving insights. 
+
+  **Why this matters:** 
+
+  **Business impact:** Supports better decision‑making about automation and ROI. 
+
+  **Personal impact:** Helps creators understand how their agents are being used.
+
 ## January 27, 2026
 Updates released between January 13, 2025, and January 27, 2026.
 ### Microsoft 365 Copilot Chat
@@ -13724,7 +14402,7 @@ Updates released between January 13, 2025, and January 27, 2026.
 
     **Additional resources:**
 
-    **Blog:**
+    **Blogs:**
     [Available today: GPT-5.2 in Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6)
 
 <!-- 100312,102626 -->
@@ -13810,7 +14488,7 @@ Updates released between December 10, 2025, and December 23, 2025.
 
   **Additional resources:**
 
-  **Blog:** 
+  **Blogs:** 
 
   <a href="https://www.microsoft.com/microsoft-365/blog/2025/08/07/available-today-gpt-5-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6" target="_blank">Available today: GPT-5 in Microsoft 365 Copilot</a>
 ### PowerPoint
@@ -14918,6 +15596,11 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
+
+
+
+
 
 
 
