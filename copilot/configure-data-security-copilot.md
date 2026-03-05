@@ -27,7 +27,7 @@ appliesto:
 
 # Configure data security for Microsoft 365 Copilot
 
-> Applies to: Microsoft 365 Copilot, SharePoint Advanced Management (SAM), and Microsoft Purview
+> Applies to: Microsoft 365 Copilot, SharePoint Advanced Management, and Microsoft Purview
 
 [Microsoft 365 Copilot](microsoft-365-copilot-overview.md) responds to user prompts using data that the user already has permission to access. When your organization's data is well governed, current, and appropriately shared, Copilot can deliver accurate, relevant, and secure responses. This article explains how to prepare and secure your data so Copilot can provide high‑quality results while respecting your organization's security and compliance requirements.
 
@@ -54,8 +54,8 @@ The capabilities described in this article require:
 - [Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)
    - Depending on your subscription plan, you might be able to purchase Microsoft 365 Copilot licenses through the [Microsoft 365 admin center Marketplace page](https://go.microsoft.com/fwlink/p/?linkid=868433), Microsoft partners, or your Microsoft account team.
    - Microsoft 365 Copilot licenses are available as an add-on to other licensing plans. To learn more, see [Understand licensing for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-licensing).
-- [SharePoint Advanced Management](/sharepoint/advanced-management) (SAM) (included with Copilot licenses)
-- [Microsoft Purview](/purview/) (varies by feature, but many are included with Microsoft 365 E3 or E5)
+- [SharePoint Advanced Management](/sharepoint/advanced-management) (included with Copilot licenses)
+- [Microsoft Purview](/purview/) (varies by feature, but many capabilities are included with Microsoft 365 E3 or E5)
 
 ### Admin roles
 
@@ -69,7 +69,7 @@ You'll need access to the following admin portals and permissions:
    
 ## Step 1: Reduce oversharing and stale content with SharePoint Advanced Management
 
-[SharePoint Advanced Management](/sharepoint/get-ready-copilot-sharepoint-advanced-management) (SAM) provides tenant-wide controls to identify oversharing, reduce clutter, and monitor changes that can affect Copilot results.
+[SharePoint Advanced Management](/sharepoint/get-ready-copilot-sharepoint-advanced-management) provides tenant-wide controls to identify oversharing, reduce clutter, and monitor changes that can affect Copilot results.
 
 ### Ensure all sites have valid owners
 
