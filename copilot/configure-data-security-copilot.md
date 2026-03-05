@@ -97,9 +97,9 @@ Archived sites aren't accessible to users and aren't used by Copilot, which impr
 Use [Data access governance (DAG) reports](/sharepoint/data-access-governance-reports) in the SharePoint admin center to find risk areas:
 
 - [Sharing links](/sharepoint/data-access-governance-sharing-links-report) (Anyone, organization-wide, or external)
-- Sites shared with [Everyone except external users (EEEU)](/sharepoint/data-access-governance-everyone-except-external-user-report)
-- Sites containing files with sensitivity labels
-- Oversharing baseline reports across sites, OneDrives, and files
+- [Sites shared with everyone except external users (EEEU)](/sharepoint/data-access-governance-everyone-except-external-user-report)
+- [Sites containing files with sensitivity labels](/sharepoint/data-access-governance-sensitivity-label-report)
+- Oversharing baseline reports across sites, OneDrives, and files (see [Snapshot and activity reports](/sharepoint/data-access-governance-reports#how-to-use-snapshot-and-activity-reports))
 
 Review these reports regularly, especially during early Copilot adoption.
 
@@ -107,9 +107,9 @@ Review these reports regularly, especially during early Copilot adoption.
 
 When oversharing is identified, you can limit exposure without immediately restructuring permissions:
 
-- **Site access reviews** – Ask site owners to validate members and sharing links.
-- **Restricted Access Control (RAC)** – Restrict site access to a specific security group.
-- **Restricted Content Discoverability (RCD)** – Prevent site content from appearing in Copilot and organization-wide search results without changing permissions.
+- [Initiate site access reviews](/sharepoint/site-access-review). Ask site owners to validate members and sharing links.
+- [Use Restricted Access Control (RAC)](/sharepoint/restricted-access-control). Grant access to sites through groups.
+- [Set up Restricted Content Discoverability (RCD)](/sharepoint/restricted-content-discovery). Prevent high-risk site content from appearing in Copilot and organization-wide search results without changing permissions.
 
 > [!TIP]
 > Communicate clearly with site owners and users before applying RAC or RCD to avoid unexpected disruptions.
