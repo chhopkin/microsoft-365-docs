@@ -56,6 +56,11 @@ When you buy Microsoft business products or services, you can use an existing pa
 > [!NOTE]
 > If you're the person who signed up for the subscription, you're automatically a Billing account owner.
 
+> [!NOTE]
+> Additional information for SEPA Direct Debit users in Europe:
+> - SEPA Direct Debit is connected to the specific billing account where it is set up. If you have multiple billing accounts and want to use SEPA Direct Debit, you need to add this payment method separately to each account.
+> - If you have an MCA billing account type, you must have the Billing Administrator role to add or manage SEPA Direct Debit payment method. You can learn more about administrative roles in Microsoft 365 Admin Center [here](../../admin/add-users/about-admin-roles.md).
+
 ## View your payment methods
 
 The **Payment methods** page lists the payment methods associated with your account. If you have an MCA billing account, you also see a section that shows the payment methods associated with the current billing account.
