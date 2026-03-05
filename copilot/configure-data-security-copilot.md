@@ -6,7 +6,7 @@ f1.keywords:
 manager: dansimp
 ms.author: deniseb
 author: denisebmsft
-ms.date: 03/04/2026
+ms.date: 03/05/2026
 ms.update-cycle: 180-days
 ms.reviewer: cabailey, ruihu
 audience: Admin
@@ -59,7 +59,7 @@ The capabilities described in this article require:
 
 ### Admin roles
 
-You'll need access to the following admin portals and permissions:
+You need access to the following admin portals and permissions:
 
 | Admin portal | Required role |
 |---|---|
@@ -99,7 +99,7 @@ Use [Data access governance (DAG) reports](/sharepoint/data-access-governance-re
 - [Sharing links](/sharepoint/data-access-governance-sharing-links-report) (Anyone, organization-wide, or external)
 - [Sites shared with everyone except external users (EEEU)](/sharepoint/data-access-governance-everyone-except-external-user-report)
 - [Sites containing files with sensitivity labels](/sharepoint/data-access-governance-sensitivity-label-report)
-- Oversharing baseline reports across sites, OneDrives, and files (see [Snapshot and activity reports](/sharepoint/data-access-governance-reports#how-to-use-snapshot-and-activity-reports))
+- Oversharing baseline reports across sites, OneDrive libraries, and files (see [Snapshot and activity reports](/sharepoint/data-access-governance-reports#how-to-use-snapshot-and-activity-reports))
 
 Review these reports regularly, especially during early Copilot adoption.
 
