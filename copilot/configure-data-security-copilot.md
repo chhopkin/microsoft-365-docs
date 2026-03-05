@@ -116,7 +116,7 @@ When oversharing is identified, you can limit exposure without immediately restr
 
 ### Monitor changes that affect Copilot
 
-Use the [Change history reports](https://learn.microsoft.com/en-us/sharepoint/change-history-report) to track:
+Use the [Change history reports](/sharepoint/change-history-report) to track:
 
 - Site-level changes (sharing, access, and settings)
 - Organization-level changes (external sharing, site creation settings)
@@ -127,7 +127,7 @@ Review these reports regularly to catch changes that could introduce oversharing
 
 If your organization needs time to review permissions at scale:
 
-- Enable [Restricted SharePoint Search (RSS)](https://learn.microsoft.com/en-us/sharepoint/restricted-sharepoint-search).
+- Enable [Restricted SharePoint Search (RSS)](/sharepoint/restricted-sharepoint-search).
 - Add only reviewed and approved sites to the allowed list.
 
 **RSS is a temporary control**. Your long-term goal should be to correct permissions and disable RSS so Copilot can access a complete, accurate data set.
@@ -138,11 +138,11 @@ If your organization needs time to review permissions at scale:
 
 ### Create and apply sensitivity labels
 
-[Sensitivity labels](https://learn.microsoft.com/en-us/purview/sensitivity-labels) classify data and enforce protection such as encryption, access restrictions, and visual markings.
+[Sensitivity labels](/purview/sensitivity-labels) classify data and enforce protection such as encryption, access restrictions, and visual markings.
 
-- Create sensitivity labels for files, emails, and other data assets.
-- [Enable sensitivity labels for files in SharePoint and OneDrive](https://learn.microsoft.com/en-us/purview/sensitivity-labels-sharepoint-onedrive-files), which is required for Copilot to access encrypted files.
-- (Optional) [Enable labels for content in Teams, Microsoft 365 Groups, and SharePoint sites](https://learn.microsoft.com/en-us/purview/sensitivity-labels-teams-groups-sites)  to control access at the container level.
+- [Create and publish sensitivity labels](/purview/create-sensitivity-labels?tabs=classic-label-scheme) for files, emails, and other data assets.
+- [Enable sensitivity labels for files in SharePoint and OneDrive](/purview/sensitivity-labels-sharepoint-onedrive-files), which is required for Copilot to access encrypted files.
+- (Optional) [Enable labels for content in Teams, Microsoft 365 Groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites)  to control access at the container level.
 
 When Copilot uses labeled content:
 
