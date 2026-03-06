@@ -222,7 +222,7 @@ Predefined templates make it easier to get started quickly. See [Get started wit
 After completing the steps in this article:
 
 - Review Copilot usage trends and reports regularly. See [Copilot Control System measurement reporting](/copilot/microsoft-365/copilot-control-system/measurement-reporting)
-- Rerun SharePoint and Purview reports on a scheduled basis.
-- Educate site owners and users on labeling, sharing, and responsible Copilot use.
+- Use the [SharePoint admin agent](/sharepoint/content-governance-agent) and the [Purview portal](/purview/purview-portal) to view information and run reports on a scheduled basis.
+- Educate site owners and users on labeling, sharing, and responsible Copilot use. See [Microsoft 365 Copilot data and compliance readiness](/copilot/microsoft-365/microsoft-365-copilot-minimum-requirements-data-compliance).
 
 Well-governed data not only reduces risk, it also significantly improves the quality and usefulness of Microsoft 365 Copilot responses.
