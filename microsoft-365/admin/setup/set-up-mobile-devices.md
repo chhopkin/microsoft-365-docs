@@ -43,6 +43,8 @@ The example in the tabs is for Microsoft Outlook, but it applies to any other Mi
 
 ## Install Microsoft 365 apps on your mobile device
 
+Select the tab for your mobile device to see the steps to install Microsoft 365 apps and set up your work account:
+
 ### [**iPhone**](#tab/iPhone)
 
 Watch a short video on how to set up Microsoft 365 productivity apps on iOS devices with Microsoft 365 for business.<br><br>
