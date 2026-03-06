@@ -198,8 +198,8 @@ Even with strong controls, monitoring Copilot usage is essential. Reports and to
 
 Use Microsoft Purview tools to analyze Copilot interactions:
 
-- [Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai?tabs=m365) to proactively monitor AI usage.
-- **eDiscovery** to search, export, and (if necessary) delete Copilot prompts and responses.
+- [Use Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai?tabs=m365) to proactively monitor AI usage.
+- [Use eDiscovery](/purview/edisc) to search, export, and (if necessary) delete Copilot prompts and responses.
 
 These tools help you:
 
@@ -209,13 +209,13 @@ These tools help you:
 
 ### Monitor communication risks
 
-Use **Communication Compliance** policies to detect risky or inappropriate Copilot interactions, such as:
+Use [Communication Compliance](/purview/communication-compliance) policies to detect risky or inappropriate Copilot interactions, such as:
 
 - Sharing confidential information
 - Harassment or abusive language
 - Policy violations
 
-Predefined templates make it easier to get started quickly.
+Predefined templates make it easier to get started quickly. See [Get started with recommended actions](/purview/communication-compliance-configure#recommended-actions).
 
 ## Next steps
 
