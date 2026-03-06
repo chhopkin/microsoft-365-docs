@@ -58,7 +58,7 @@ The capabilities described in this article require:
 
 - [SharePoint Advanced Management](/sharepoint/advanced-management) (included with Copilot licenses)
 
-- [Microsoft Purview](/purview/) (varies by feature, but many capabilities are included with Microsoft 365 E3 or E5)
+- [Microsoft Purview](/purview/) (varies by feature, but many capabilities are included with Microsoft 365 E3 or Microsoft 365 E5)
 
 ### Admin roles
 
