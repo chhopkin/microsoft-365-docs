@@ -173,7 +173,7 @@ Automatic labeling improves consistency and reduces the risk of sensitive conten
 
 Use **Microsoft Purview DLP** to prevent unintentional or risky sharing:
 
-- Protect data across Exchange, SharePoint, OneDrive, Teams, and endpoints.
+- Protect data across Exchange, SharePoint, OneDrive, Teams, and endpoints. See [Create a DLP policy to protect documents with FCI or other properties](/purview/dlp-protect-documents-that-have-fci-or-other-properties).
 - Block or audit actions such as copying, downloading, or sharing sensitive data.
 - Prevent Copilot from summarizing or referencing content that violates DLP policies. See [Learn about using Microsoft Purview Data Loss Prevention to protect interactions with Microsoft 365 Copilot and Copilot Chat](/purview/dlp-microsoft365-copilot-location-learn-about).
 
