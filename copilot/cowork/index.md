@@ -57,11 +57,11 @@ The following sections describe what you can ask Cowork to do.
 
 ## Skills
 
-Cowork learns specialized skills as it works. When the agent picks up a new skill during your conversation, it appears in the side panel. Each skill corresponds to a specific type of task.
+Cowork prepares specialized skills as it works. When the agent prepares a new skill during your conversation, a message such as "Preparing to compose emails" appears, and the skill shows up in the side panel. Each skill corresponds to a specific type of task.
 
-Here are the skills Cowork can learn:
+Here are the skills Cowork can use:
 
-| Skill | What Cowork learns to do |
+| Skill | What Cowork does |
 |---|---|
 | Word | Create Word documents |
 | Excel | Create Excel spreadsheets |
@@ -69,13 +69,13 @@ Here are the skills Cowork can learn:
 | PDF | Work with PDF documents |
 | Email | Compose and send emails |
 | Scheduling | Schedule meetings |
-| Calendar | Organize your calendar |
+| Calendar Management | Organize your calendar |
 | Meetings | Prepare meeting intelligence and insights |
-| Daily briefing | Prepare your daily briefing |
-| Enterprise search | Search across your organization |
+| Daily Briefing | Prepare your daily briefing |
+| Enterprise Search | Search across your organization |
 | Communications | Draft stakeholder communications |
 
-As Cowork acquires skills during a conversation, the side panel updates to show which skills are active.
+As Cowork prepares skills during a conversation, the side panel updates to show which skills are active.
 
 ## How you work with Cowork
 
@@ -90,21 +90,21 @@ Here's how a typical interaction works:
 
 You control what Cowork does throughout a conversation.
 
-- **Approve actions**: Cowork asks for your permission before taking sensitive actions. You can approve once, approve and remember your preference for similar future actions, or cancel entirely.
+- **Approve actions**: Cowork asks for your permission before taking sensitive actions. You can **Approve** once, **Approve & Remember** your preference for similar future actions, or **Reject** the action.
 - **Pause and resume**: Pause the agent at any time. Resume when you're ready to continue.
 - **Cancel**: Changed your mind? Stop the current task and redirect Cowork to something else.
 - **Give feedback**: Thumbs up or thumbs down any response, leave feedback on documents, or share general comments about your experience.
 
 > [!TIP]
-> Use **approve and remember** for routine actions you trust, like sending emails to your team. You can always review everything Cowork did in your conversation history.
+> Use **Approve & Remember** for routine actions you trust, like sending emails to your team. You can always review everything Cowork did in your conversation history.
 
 ## Manage your work
 
 Cowork helps you stay organized with built-in project and task management.
 
-- **Projects**:  Group related work into projects and track their status as **In Progress**, **Ready for Review**, or **Done**.
-- **Task views**: Display your tasks in a sortable **list view** or a visual **kanban board**, whichever works best for you.
-- **Project dashboard**: Get an overview of all your projects in one place, with a **Highlights** tab for your most relevant work and an **All Projects** tab for the complete list.
+- **Projects**: Group related work into projects and track their status as **In progress**, **Ready for review**, or **Done**.
+- **Task views**: Display your tasks in a sortable **list view** or a visual **kanban board**. Each task shows a status: **In progress**, **Needs user input**, **Done**, or **Failed**.
+- **Projects dashboard**: Get an overview of all your projects in one place, with a **Highlights** tab for recommended actions and recent activity, and an **All Projects** tab for the complete list.
 
 ## Get started
 

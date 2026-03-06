@@ -1,5 +1,5 @@
 ---
-title: " Cowork agent FAQ (Frontier)"
+title: "Cowork agent FAQ (Frontier)"
 description: "Frequently asked questions about the Cowork agent in Microsoft 365 Copilot."
 ms.date: 02/27/2026
 ms.topic: article
@@ -44,7 +44,7 @@ Cowork comes with a set of built-in skills, each designed for a specific type of
 | PDF | Generates PDF files |
 | Email | Sends and drafts emails on your behalf |
 | Scheduling | Finds available times and proposes meetings |
-| Calendar | Creates, updates, and manages calendar events |
+| Calendar Management | Creates, updates, and manages calendar events |
 | Meetings | Schedules meetings with attendees and agendas |
 | Daily Briefing | Summarizes your upcoming day's meetings, priorities, and action items |
 | Enterprise Search | Finds files, people, and information across your organization |
@@ -63,19 +63,19 @@ Getting started takes just a few steps.
 
 You can attach a wide variety of files to your conversations. Cowork supports the following categories:
 
-- **Word**: `.doc`, `.docx`
-- **Excel**: `.xls`, `.xlsx`, `.csv`
-- **PowerPoint**: `.ppt`, `.pptx`
+- **Word**: `.doc`, `.docx`, `.docm`, `.dot`, `.dotx`, `.odt`, `.rtf`
+- **Excel**: `.csv`, `.xls`, `.xlsm`, `.xlsx`, `.ods`
+- **PowerPoint**: `.odp`, `.ppt`, `.pptm`, `.pptx`
 - **PDF**: `.pdf`
-- **Markdown**: `.md`
-- **Image**: `.png`, `.jpg`, `.jpeg`, `.gif`, `.svg`, `.webp`
-- **Text**: `.txt`
-- **Code**: `.js`, `.ts`, `.py`, `.java`, `.cs`, `.cpp`, `.html`, `.css`, `.json`, `.xml`
-- **Config**: `.yaml`, `.yml`, `.toml`, `.ini`, `.env`
+- **Markdown**: `.md`, `.markdown`, `.mdx`
+- **Image**: `.png`, `.jpg`, `.jpeg`, `.gif`, `.webp`, `.bmp`, `.svg`, `.ico`
+- **Text**: `.txt`, `.log`
+- **Code**: `.js`, `.ts`, `.py`, `.java`, `.c`, `.cpp`, `.go`, `.rb`, `.rs`, and others
+- **Config**: `.json`, `.yaml`, `.yml`, `.toml`, `.ini`, `.xml`, `.env`
 - **Notebook**: `.ipynb`
-- **Audio**: `.mp3`, `.wav`, `.ogg`
-- **Video**: `.mp4`, `.webm`
-- **Archive**: `.zip`, `.tar`, `.gz`
+- **Audio**: `.mp3`, `.wav`, `.m4a`, `.ogg`, `.aac`, `.flac`
+- **Video**: `.mp4`, `.mov`, `.avi`, `.mkv`, `.webm`, `.wmv`
+- **Archive**: `.zip`, `.rar`, `.7z`, `.tar`, `.gz`, `.bz2`
 
 ## Can I preview files without downloading them?
 
@@ -94,8 +94,8 @@ Select a file to open an inline preview. You can also go full-screen or open the
 Before Cowork takes a sensitive action like sending an email or posting in Teams, it displays an approval prompt with the following choices:
 
 - **Approve**: Let Cowork proceed with the action this one time.
-- **Approve and remember**: Allow the action now and skip the prompt for similar actions in the future.
-- **Cancel**: Stop Cowork from taking the action.
+- **Approve & Remember**: Allow the action now and skip the prompt for similar actions in the future.
+- **Reject**: Stop Cowork from taking the action.
 
 > [!NOTE]
 > For some actions, such as sending an email or posting in Teams, Cowork shows you a native preview of the content so you can review it before approving.
@@ -143,6 +143,10 @@ You can share feedback in the following ways:
 - **Thumbs up / thumbs down**: Rate any response from Cowork directly in the conversation.
 - **Document feedback**: When previewing a file Cowork created, use the feedback controls to rate it.
 - **General feedback**: To share broader thoughts about your experience, open the menu and select the feedback option.
+
+## Does Cowork ask me questions?
+
+Yes. Sometimes Cowork needs more information to complete your request. When this happens, it presents a question with a set of choices for you to pick from. You can select an option, type your own answer, or select **Skip** to let Cowork continue without additional input. The task status shows **Needs user input** when Cowork is waiting for your answer.
 
 ## Related content
 

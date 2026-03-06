@@ -31,7 +31,10 @@ The Cowork home page has a chat input where you can type or speak your request. 
 
 To give Cowork extra context, you can include files with your message.
 
-1. Drag and drop files directly onto the chat input. Alternatively, select the file picker button to browse your device.
+1. Choose how to add files:
+   - **Drag and drop** files directly onto the chat input.
+   - Select **Upload images and files** to browse your device.
+   - Select **Attach cloud files** to pick files from OneDrive, SharePoint, or Teams.
 1. Wait for the upload to finish. An animated progress chip for each file displays.
 1. Add your message text if needed, then send it.
 
@@ -80,6 +83,16 @@ A status indicator shows your connection state:
 
 If you think of something else while Cowork is still working, you can send another message. It's queued automatically. Your message appears above the input field. Cowork processes queued messages in order.
 
+### Answer questions from Cowork
+
+Sometimes Cowork needs more information to complete your request. When this happens, it presents a set of choices for you to pick from.
+
+1. Review the question and the available options.
+1. Use the arrow keys to navigate, then press **Space** to select your choice.
+1. Select **Submit** to send your answer.
+
+If you'd rather not answer, select **Skip**. Cowork continues with the information it already has.
+
 ### If something goes wrong
 
 If a message fails to send, Cowork shows you an error with an option to retry. To resend the message, select **Retry**.
@@ -90,14 +103,14 @@ Before Cowork takes a sensitive action, like sending an email or posting a messa
 
 ### Review and respond to an approval request
 
-1. When you need an approval, a dialog appears with the details of the action Cowork wants to take. For some actions, a rich preview of the content appears (for example, a draft email or a Teams message). For other actions, a summary of what Cowork plans to  appears.
+1. When you need an approval, a dialog appears with the details of the action Cowork wants to take. For some actions, a rich preview of the content appears (for example, a draft email or a Teams message). For other actions, a summary of what Cowork plans to do appears.
 1. Choose one of the following options:
 
    | Option | What it does |
    |---|---|
    | Approve | Allows Cowork to proceed with the action this one time. |
-   | Approve and remember | Allows Cowork to proceed and remembers your choice for similar actions in the future, so you aren't asked again. |
-   | Cancel | Stops the action. Cowork skips it and moves on with the rest of your request. |
+   | Approve & Remember | Allows Cowork to proceed and remembers your choice for similar actions in the future, so you aren't asked again. |
+   | Reject | Stops the action. Cowork skips it and moves on with the rest of your request. |
 
 > [!IMPORTANT]
 > Always review the details before you approve. Cowork shows you exactly what it plans to do. Check that the recipients, content, and other details are correct.
@@ -117,7 +130,7 @@ Cowork can work with a wide variety of files. You can upload files to provide co
 When Cowork creates or updates files during a conversation, you can grab them from the side panel.
 
 1. Open the side panel if it isn't already visible.
-1. Under the **Output** group in the **Files** section, find the file.
+1. Under the **Output folder** section, find the file.
 1. To save the file to your device, select **Download**.
 
 ### Supported file types
@@ -156,7 +169,7 @@ The following file types can be previewed directly:
 
 ### Preview a document
 
-1. Select a file from the conversation or from the **Files** section in the side panel.
+1. Select a file from the conversation or from the side panel.
 
     The preview opens in a split view next to your chat.
 
@@ -176,8 +189,9 @@ To open or close it, select the side panel toggle in the conversation view.
 
 | Section | What you find |
 |---|---|
-| Progress | The current status of your task and a progress indicator showing how far along Cowork is. |
-| Files | All files in the conversation, organized into **Input** (files you uploaded) and **Output** (files Cowork created). Each file has **Download** and **Preview** buttons. |
+| Progress | A progress bar showing the percentage of tasks complete, plus a step-by-step log of what Cowork is doing. |
+| Input folder | Files you provided as context for the conversation. |
+| Output folder | Files Cowork created. Each file has **Download** and **Preview** buttons. |
 | Skills | Skills that Cowork used during the conversation, shown as chips. |
 
 > [!NOTE]
@@ -226,7 +240,7 @@ Choose the view that works best for you:
 | List | Shows projects in a vertical list with key details. |
 | Grid | Displays projects as cards in a grid layout. |
 
-### Track project status
+### Track project and task status
 
 Every project has a status that tells you where things stand:
 
@@ -235,6 +249,15 @@ Every project has a status that tells you where things stand:
 | In progress | Work is actively underway. |
 | Ready for review | The work is done and needs your review. |
 | Done | The project is complete. |
+
+Individual tasks within a project can also show these statuses:
+
+| Status | Meaning |
+|---|---|
+| In progress | Cowork is actively working on the task. |
+| Needs user input | Cowork is waiting for your response before it can continue. |
+| Done | The task is finished. |
+| Failed | The task didn't complete. Review the conversation for details. |
 
 ### Create a new project
 
@@ -270,10 +293,10 @@ Here's what Cowork can do:
 | PDF | Work with PDF documents. |
 | Email | Compose and send emails. |
 | Scheduling | Schedule meetings. |
-| Calendar | Organize your calendar. |
+| Calendar Management | Organize your calendar. |
 | Meetings | Prepare meeting intelligence. |
-| Daily briefing | Prepare your daily briefing. |
-| Enterprise search | Search across your organization. |
+| Daily Briefing | Prepare your daily briefing. |
+| Enterprise Search | Search across your organization. |
 | Communications | Draft stakeholder communications. |
 
 You can display which skills Cowork used during a conversation in the **Skills** section of the side panel. They appear as chips.
