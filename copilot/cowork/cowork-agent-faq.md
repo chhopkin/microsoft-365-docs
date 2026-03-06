@@ -41,11 +41,11 @@ Cowork comes with a set of built-in skills, each designed for a specific type of
 | Word | Creates and edits Word documents |
 | Excel | Creates and edits spreadsheets |
 | PowerPoint | Creates and edits presentations |
-| PDF | Generates PDF files |
-| Email | Sends and drafts emails on your behalf |
+| PDF | Works with PDF documents |
+| Email | Composes, replies, forwards, and sends emails. Saves drafts and manages attachments |
 | Scheduling | Finds available times and proposes meetings |
-| Calendar Management | Creates, updates, and manages calendar events |
-| Meetings | Schedules meetings with attendees and agendas |
+| Calendar Management | Creates events using natural language, adds Teams meeting links, and manages your calendar |
+| Meetings | Prepares meeting intelligence and insights |
 | Daily Briefing | Summarizes your upcoming day's meetings, priorities, and action items |
 | Enterprise Search | Finds files, people, and information across your organization |
 | Communications | Drafts professional messages for stakeholders and teams |
@@ -91,11 +91,13 @@ Select a file to open an inline preview. You can also go full-screen or open the
 
 ## How does action approval work?
 
-Before Cowork takes a sensitive action like sending an email or posting in Teams, it displays an approval prompt with the following choices:
+Before Cowork takes a sensitive action like sending an email or posting in Teams, it displays an approval prompt. Each prompt includes a risk level (**Low Risk**, **Medium Risk**, or **High Risk**) so you can gauge the impact. Your choices are:
 
 - **Approve**: Let Cowork proceed with the action this one time.
 - **Approve & Remember**: Allow the action now and skip the prompt for similar actions in the future.
 - **Reject**: Stop Cowork from taking the action.
+
+You can also select **Show parameters** to see the technical details of the action before deciding.
 
 > [!NOTE]
 > For some actions, such as sending an email or posting in Teams, Cowork shows you a native preview of the content so you can review it before approving.
@@ -143,6 +145,10 @@ You can share feedback in the following ways:
 - **Thumbs up / thumbs down**: Rate any response from Cowork directly in the conversation.
 - **Document feedback**: When previewing a file Cowork created, use the feedback controls to rate it.
 - **General feedback**: To share broader thoughts about your experience, open the menu and select the feedback option.
+
+## Can I see where Cowork gets its information?
+
+Yes. When Cowork references information in a response, you can open the **Sources** panel to view citations. The panel lists the sources Cowork used so you can verify the information or explore the original content.
 
 ## Does Cowork ask me questions?
 

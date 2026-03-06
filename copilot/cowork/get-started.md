@@ -35,7 +35,7 @@ The Cowork home page opens. A chat input where you can describe what you need di
 
 ## Start your first conversation
 
-1. Type what you want done in the chat input. You can enter up to 16,000 characters, so feel free to include plenty of detail.
+1. Type what you want done in the chat input, or select one of the suggested prompts such as **Catch me up**, **Organize my inbox**, or **Prep for a meeting**. You can enter up to 16,000 characters, so feel free to include plenty of detail.
 1. Attach files if needed. You can drag and drop files onto the input area, select **Upload images and files** to browse your device, or select **Attach cloud files** to pick files from OneDrive, SharePoint, or Teams.
 1. (Optional) Pick a specific agent by typing **@** and selecting from the list.
 1. (Optional) Use voice input by selecting the microphone icon to speak your request instead of typing.
@@ -56,6 +56,8 @@ After you send your message, Cowork begins processing your request. Here's what 
 ## Approve actions
 
 Before Cowork takes an action on your behalf, like sending an email or scheduling a meeting, it asks for your permission. When the approval dialog appears, you have the following choices:
+
+Each approval prompt includes a risk level (**Low Risk**, **Medium Risk**, or **High Risk**) so you can quickly gauge the impact.
 
 - **Approve**: Allow this action to proceed.
 - **Approve & Remember**: Allow this action, and skip the prompt for similar actions in the future.

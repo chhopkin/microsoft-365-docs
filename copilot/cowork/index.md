@@ -34,7 +34,8 @@ The following sections describe what you can ask Cowork to do.
 
 ### Communication
 
-- Draft and send emails, reply to messages, and forward important information to the right people.
+- Draft and send emails, reply to messages, and forward entire email threads to the right people.
+- Save email drafts and manage attachments before sending.
 - Post updates in Teams channels or send direct messages in Teams chats.
 - Prepare polished stakeholder communications such as status updates, announcements, and follow-ups.
 
@@ -46,7 +47,9 @@ The following sections describe what you can ask Cowork to do.
 
 ### Calendar and meetings
 
-- Schedule meetings and manage your calendar&mdash;add events, move things around, or clean up conflicts.
+- Schedule meetings using natural language, such as "set up a 30-minute check-in with Alex tomorrow at 2 PM."
+- Create all-day events or add a Teams meeting link automatically.
+- Manage your calendar&mdash;add events, move things around, or clean up conflicts.
 - Get meeting intelligence and insights to help you prepare for upcoming conversations.
 - Start your day with a daily briefing that highlights what's ahead.
 
@@ -63,9 +66,9 @@ Here are the skills Cowork can use:
 
 | Skill | What Cowork does |
 |---|---|
-| Word | Create Word documents |
-| Excel | Create Excel spreadsheets |
-| PowerPoint | Create PowerPoint presentations |
+| Word | Create and edit Word documents |
+| Excel | Create and edit Excel spreadsheets |
+| PowerPoint | Create and edit PowerPoint presentations |
 | PDF | Work with PDF documents |
 | Email | Compose and send emails |
 | Scheduling | Schedule meetings |
@@ -90,13 +93,17 @@ Here's how a typical interaction works:
 
 You control what Cowork does throughout a conversation.
 
-- **Approve actions**: Cowork asks for your permission before taking sensitive actions. You can **Approve** once, **Approve & Remember** your preference for similar future actions, or **Reject** the action.
+- **Approve actions**: Cowork asks for your permission before taking sensitive actions. Each approval shows a risk level (**Low Risk**, **Medium Risk**, or **High Risk**) so you know the impact. You can **Approve** once, **Approve & Remember** your preference for similar future actions, or **Reject** the action.
 - **Pause and resume**: Pause the agent at any time. Resume when you're ready to continue.
 - **Cancel**: Changed your mind? Stop the current task and redirect Cowork to something else.
 - **Give feedback**: Thumbs up or thumbs down any response, leave feedback on documents, or share general comments about your experience.
 
 > [!TIP]
 > Use **Approve & Remember** for routine actions you trust, like sending emails to your team. You can always review everything Cowork did in your conversation history.
+
+## View sources
+
+When Cowork references information in a response, you can open the **Sources** panel to see where it came from. The panel lists citations so you can verify the information or follow up on the original content.
 
 ## Manage your work
 

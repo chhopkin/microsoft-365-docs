@@ -22,7 +22,7 @@ The Cowork home page has a chat input where you can type or speak your request. 
 
 ### Type a message
 
-1. Go to the Cowork home page.
+1. Go to the Cowork home page. You see a set of suggested prompts such as **Catch me up**, **Organize my inbox**, **Organize my week**, **Prep for a meeting**, **Plan an event**, **Prepare for my 1:1**, and **Research a company**. Select one to get started quickly, or continue with the steps below.
 1. Select the chat input field.
 1. Type your message or instruction. You can enter up to 16,000 characters.
 1. Submit your message by pressing **Enter** or selecting the **Send** button.
@@ -103,7 +103,7 @@ Before Cowork takes a sensitive action, like sending an email or posting a messa
 
 ### Review and respond to an approval request
 
-1. When you need an approval, a dialog appears with the details of the action Cowork wants to take. For some actions, a rich preview of the content appears (for example, a draft email or a Teams message). For other actions, a summary of what Cowork plans to do appears.
+1. When you need an approval, a dialog appears with the details of the action Cowork wants to take. For some actions, a rich preview of the content appears (for example, a draft email or a Teams message). For other actions, a summary of what Cowork plans to do appears. Each approval prompt includes a risk level (**Low Risk**, **Medium Risk**, or **High Risk**) so you can gauge the impact before deciding.
 1. Choose one of the following options:
 
    | Option | What it does |
@@ -111,6 +111,8 @@ Before Cowork takes a sensitive action, like sending an email or posting a messa
    | Approve | Allows Cowork to proceed with the action this one time. |
    | Approve & Remember | Allows Cowork to proceed and remembers your choice for similar actions in the future, so you aren't asked again. |
    | Reject | Stops the action. Cowork skips it and moves on with the rest of your request. |
+
+   To see the technical details of the action, select **Show parameters**. Select **Hide parameters** to collapse the view.
 
 > [!IMPORTANT]
 > Always review the details before you approve. Cowork shows you exactly what it plans to do. Check that the recipients, content, and other details are correct.
@@ -196,6 +198,14 @@ To open or close it, select the side panel toggle in the conversation view.
 
 > [!NOTE]
 > The side panel updates in real time as Cowork works, so you always have a current view of progress, files, and skills.
+
+### View sources
+
+When Cowork references information in a response, you can open the **Sources** panel to view citations. The panel lists the sources Cowork used so you can verify the information or explore the original content.
+
+1. Select the **Sources** link on a response that includes citations.
+1. The **Sources** panel opens alongside the conversation.
+1. Select **Close** to dismiss the panel.
 
 ## Control the conversation
 
@@ -287,13 +297,13 @@ Here's what Cowork can do:
 
 | Skill | What it does |
 |---|---|
-| Word | Create Word documents. |
-| Excel | Create Excel spreadsheets. |
-| PowerPoint | Create PowerPoint presentations. |
+| Word | Create and edit Word documents. |
+| Excel | Create and edit Excel spreadsheets. |
+| PowerPoint | Create and edit PowerPoint presentations. |
 | PDF | Work with PDF documents. |
-| Email | Compose and send emails. |
+| Email | Compose, reply, forward, and send emails. Save drafts and manage attachments. |
 | Scheduling | Schedule meetings. |
-| Calendar Management | Organize your calendar. |
+| Calendar Management | Create events using natural language, add Teams meeting links, and manage your calendar. |
 | Meetings | Prepare meeting intelligence. |
 | Daily Briefing | Prepare your daily briefing. |
 | Enterprise Search | Search across your organization. |
