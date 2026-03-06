@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 03/05/2026
+ms.date: 03/06/2026
 audience: Admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
@@ -89,7 +89,7 @@ Watch a short video on how to set up Microsoft 365 productivity apps on iOS devi
 
         :::image type="content" source="../../media/64f2630b-3164-47a4-9dd6-ca0c29ed5fb3.png" alt-text="Screenshot of Outlook app prompting to set a PIN for organization data on iPhone.":::
 
-   1. Outlook on your iPhone is ready to use.
+1. Outlook on your iPhone is ready to use.
 
 ### [Android](#tab/Android)
 
@@ -101,15 +101,13 @@ Watch a video about installing Outlook and Microsoft 365 on Android devices:
 >
 > If you found this video helpful, check out the [complete training series for small businesses and users new to Microsoft 365](../../business-video/index.yml).
 
-1. To begin setup on your Android phone, go to the Play Store.
+1. To begin setup on your Android phone, go to the **Play Store**.
 
     :::image type="content" source="../../media/93df88e7-c778-40e1-b35e-868ca6e97f6c.png" alt-text="Screenshot of the Android home screen with the Google Play Store icon highlighted for mobile device setup.":::
 
-1. Enter Microsoft Outlook in the Google Play search box and select **Install**.
+1. Enter **Microsoft Outlook** in the Google Play search box and select **Install**. Once Outlook finishes installing, select **Open**.
 
     :::image type="content" source="../../media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png" alt-text="Screenshot of Outlook app listing in Google Play Store with Open button on Android.":::
-
-1. Once Outlook finishes installing, select **Open**.
 
 1. In the Outlook app, select **Get Started**.
 
