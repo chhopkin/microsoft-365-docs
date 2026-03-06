@@ -221,7 +221,7 @@ Predefined templates make it easier to get started quickly. See [Get started wit
 
 After completing the steps in this article:
 
-- Review Copilot usage trends and reports regularly.
+- Review Copilot usage trends and reports regularly. See [Copilot Control System measurement reporting](/copilot/microsoft-365/copilot-control-system/measurement-reporting)
 - Rerun SharePoint and Purview reports on a scheduled basis.
 - Educate site owners and users on labeling, sharing, and responsible Copilot use.
 
