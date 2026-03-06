@@ -225,4 +225,4 @@ After completing the steps in this article:
 - Rerun SharePoint and Purview reports on a scheduled basis.
 - Educate site owners and users on labeling, sharing, and responsible Copilot use.
 
-Well-governed data not only reduces risk—it significantly improves the quality and usefulness of Microsoft 365 Copilot responses.
+Well-governed data not only reduces risk, it also significantly improves the quality and usefulness of Microsoft 365 Copilot responses.
