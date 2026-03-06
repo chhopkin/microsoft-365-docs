@@ -111,11 +111,13 @@ Review these reports regularly, especially during early Copilot adoption.
 
 ### Control access to high-risk SharePoint sites
 
-When oversharing is identified, you can limit exposure without immediately restructuring permissions:
+When oversharing is identified, you can limit exposure with SharePoint Advanced Management controls:
 
-- [Initiate site access reviews](/sharepoint/site-access-review). Ask site owners to validate members and sharing links.
-- [Use Restricted Access Control (RAC)](/sharepoint/restricted-access-control). Grant access to sites through groups.
-- [Set up Restricted Content Discoverability (RCD)](/sharepoint/restricted-content-discovery). Prevent high-risk site content from appearing in Copilot and organization-wide search results without changing permissions.
+1. [Initiate site access reviews](/sharepoint/site-access-review). Ask site owners to validate members and sharing links.
+
+2. [Use Restricted Access Control (RAC)](/sharepoint/restricted-access-control). Grant appropriate access to sites through groups.
+
+3. [Set up Restricted Content Discoverability (RCD)](/sharepoint/restricted-content-discovery). Prevent high-risk site content from appearing in Copilot and organization-wide search results without changing permissions.
 
 > [!TIP]
 > Communicate clearly with site owners and users before applying RAC or RCD to avoid unexpected disruptions.
@@ -146,9 +148,11 @@ If your organization needs time to review permissions at scale:
 
 [Sensitivity labels](/purview/sensitivity-labels) classify data and enforce protection such as encryption, access restrictions, and visual markings.
 
-- [Create and publish sensitivity labels](/purview/create-sensitivity-labels?tabs=classic-label-scheme) for files, emails, and other data assets.
-- [Enable sensitivity labels for files in SharePoint and OneDrive](/purview/sensitivity-labels-sharepoint-onedrive-files), which is required for Copilot to access encrypted files.
-- (Optional) [Enable labels for content in Teams, Microsoft 365 Groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites)  to control access at the container level.
+1. [Create and publish sensitivity labels](/purview/create-sensitivity-labels?tabs=classic-label-scheme) for files, emails, and other data assets.
+
+2. [Enable sensitivity labels for files in SharePoint and OneDrive](/purview/sensitivity-labels-sharepoint-onedrive-files), which is required for Copilot to access encrypted files.
+
+3. (Optional) [Enable labels for content in Teams, Microsoft 365 Groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites)  to control access at the container level.
 
 When Copilot uses labeled content:
 
@@ -160,8 +164,8 @@ When Copilot uses labeled content:
 
 To reduce reliance on manual user action:
 
-- Configure **default sensitivity labels** for SharePoint document libraries.
-- Use **automatic labeling** to detect sensitive information and apply stricter labels at scale.
+- Configure [default sensitivity labels](/purview/default-sensitivity-labels-policies) for SharePoint document libraries.
+- Use [automatic labeling](/purview/apply-sensitivity-label-automatically?tabs=apply-label) to detect sensitive information and apply stricter labels at scale.
 
 Automatic labeling improves consistency and reduces the risk of sensitive content appearing in Copilot responses.
 
@@ -171,9 +175,9 @@ Use **Microsoft Purview DLP** to prevent unintentional or risky sharing:
 
 - Protect data across Exchange, SharePoint, OneDrive, Teams, and endpoints.
 - Block or audit actions such as copying, downloading, or sharing sensitive data.
-- Prevent Copilot from summarizing or referencing content that violates DLP policies.
+- Prevent Copilot from summarizing or referencing content that violates DLP policies. See [Learn about using Microsoft Purview Data Loss Prevention to protect interactions with Microsoft 365 Copilot and Copilot Chat](/purview/dlp-microsoft365-copilot-location-learn-about).
 
-Advanced capabilities—such as Endpoint DLP and Adaptive Protection—require E5 or equivalent licensing.
+Advanced capabilities. such as Endpoint DLP and Adaptive Protection, require Microsoft 365 E5 or equivalent licensing.
 
 ### Remove data you no longer need
 
