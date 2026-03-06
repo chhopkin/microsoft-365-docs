@@ -2,7 +2,7 @@
 title: Security for Microsoft 365 Copilot
 description: Learn how Microsoft secures Microsoft 365 Copilot and how Copilot inherits Microsoft 365 security, compliance, and privacy protections.
 ms.topic: conceptual
-ms.date: 03/03/2026
+ms.date: 03/06/2026
 f1.keywords:
 - NOCSH
 ms.author: deniseb

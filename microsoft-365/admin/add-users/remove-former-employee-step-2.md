@@ -5,10 +5,10 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 03/04/2026
+ms.date: 03/06/2026
 audience: Admin
 ms.topic: how-to
-ms.service: microsoft-365-security
+ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 ms.collection:
 - Tier1
