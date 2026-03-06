@@ -183,10 +183,10 @@ Advanced capabilities. such as [Endpoint DLP](/purview/endpoint-dlp-learn-about)
 
 ### Remove data you no longer need
 
-Stale data increases noise and risk.
+Stale data increases noise and risk. Use [retention policies and retention labels](/purview/retention?tabs=table-overriden) to comply with industry regulations and internal policies, remove old content you're not required to keep, and helps ensure users are working with content that's current and relevant.
 
-- Use **retention policies** to automatically retain or delete content.
-- Use **retention labels** when exceptions are required for specific documents or emails.
+- Use [retention policies](/purview/retention?tabs=table-overriden#retention-policies) to automatically retain or delete content.
+- Use [retention labels](/purview/retention?tabs=table-overriden#retention-labels) when exceptions are required for specific documents or emails.
 
 Cleaning up outdated data improves the relevance and accuracy of Copilot responses.
 
