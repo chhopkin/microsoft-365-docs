@@ -6,7 +6,7 @@ f1.keywords:
 manager: dansimp
 ms.author: deniseb
 author: denisebmsft
-ms.date: 03/05/2026
+ms.date: 03/06/2026
 ms.update-cycle: 180-days
 ms.reviewer: cabailey, ruihu
 audience: Admin
@@ -51,10 +51,13 @@ Microsoft recommends that you also review and follow [Microsoft 365 Copilot – 
 The capabilities described in this article require:
 
 - [Microsoft 365 E3](https://www.microsoft.com/microsoft-365/enterprise/e3) or [Microsoft 365 E5](https://www.microsoft.com/microsoft-365/enterprise/e5) (or [Office 365 E3](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3) or [Office 365 E5](https://www.microsoft.com/microsoft-365/enterprise/office-365-e5)) for core Microsoft 365 services and features, such as SharePoint, OneDrive, and basic Microsoft Purview features.
+
 - [Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)
    - Depending on your subscription plan, you might be able to purchase Microsoft 365 Copilot licenses through the [Microsoft 365 admin center Marketplace page](https://go.microsoft.com/fwlink/p/?linkid=868433), Microsoft partners, or your Microsoft account team.
    - Microsoft 365 Copilot licenses are available as an add-on to other licensing plans. To learn more, see [Understand licensing for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-licensing).
+
 - [SharePoint Advanced Management](/sharepoint/advanced-management) (included with Copilot licenses)
+
 - [Microsoft Purview](/purview/) (varies by feature, but many capabilities are included with Microsoft 365 E3 or E5)
 
 ### Admin roles
@@ -84,11 +87,14 @@ Having accountable site owners ensures permissions, access reviews, and lifecycl
 
 Inactive SharePoint sites can still surface content in Copilot responses.
 
-- Create a [site lifecycle management policy](/sharepoint/site-lifecycle-management#how-to-create-an-inactive-site-policy) to detect inactive sites and generate reports.
-- Notify site owners and ask them to confirm whether the site is still needed.
-- If a site is no longer required:
-  - Put it in **read-only mode** (see [Lock and unlock sites](/sharepoint/manage-lock-status)), or
-  - Move it to [Microsoft 365 Archive](/microsoft-365/archive/archive-overview).
+1. Create a [site lifecycle management policy](/sharepoint/site-lifecycle-management#how-to-create-an-inactive-site-policy) to detect inactive sites and generate reports.
+
+2. Notify site owners and ask them to confirm whether the site is still needed.
+
+3. If a site is no longer required, take one of the following steps:
+
+   - Put it in **read-only mode** (see [Lock and unlock sites](/sharepoint/manage-lock-status))
+   - Move it to [Microsoft 365 Archive](/microsoft-365/archive/archive-overview)
 
 Archived sites aren't accessible to users and aren't used by Copilot, which improves response accuracy.
 
