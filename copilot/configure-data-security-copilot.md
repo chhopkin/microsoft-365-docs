@@ -188,17 +188,17 @@ Stale data increases noise and risk. Use [retention policies and retention label
 - Use [retention policies](/purview/retention?tabs=table-overriden#retention-policies) to automatically retain or delete content.
 - Use [retention labels](/purview/retention?tabs=table-overriden#retention-labels) when exceptions are required for specific documents or emails.
 
-Cleaning up outdated data improves the relevance and accuracy of Copilot responses.
+Cleaning up outdated data helps improves the relevance and accuracy of Copilot responses.
 
 ## Step 3: Monitor and investigate Copilot activity
 
-Even with strong controls, monitoring Copilot usage is essential.
+Even with strong controls, monitoring Copilot usage is essential. Reports and tools are available to help you monitor Copilot usage and activity. See [Copilot Analytics introduction](/viva/insights/copilot-analytics-introduction).
 
 ### Review Copilot prompts and responses
 
 Use Microsoft Purview tools to analyze Copilot interactions:
 
-- **Data Security Posture Management (DSPM) for AI** to proactively monitor AI usage.
+- [Data Security Posture Management (DSPM) for AI](/purview/dspm-for-ai?tabs=m365) to proactively monitor AI usage.
 - **eDiscovery** to search, export, and (if necessary) delete Copilot prompts and responses.
 
 These tools help you:
