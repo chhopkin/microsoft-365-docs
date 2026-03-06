@@ -171,13 +171,15 @@ Automatic labeling improves consistency and reduces the risk of sensitive conten
 
 ### Prevent data leakage with Data Loss Prevention (DLP)
 
-Use **Microsoft Purview DLP** to prevent unintentional or risky sharing:
+Use [Microsoft Purview DLP](/purview/dlp-learn-about-dlp) to prevent unintentional or risky sharing:
 
-- Protect data across Exchange, SharePoint, OneDrive, Teams, and endpoints. See [Create a DLP policy to protect documents with FCI or other properties](/purview/dlp-protect-documents-that-have-fci-or-other-properties).
-- Block or audit actions such as copying, downloading, or sharing sensitive data.
-- Prevent Copilot from summarizing or referencing content that violates DLP policies. See [Learn about using Microsoft Purview Data Loss Prevention to protect interactions with Microsoft 365 Copilot and Copilot Chat](/purview/dlp-microsoft365-copilot-location-learn-about).
+1. Protect data across Exchange, SharePoint, OneDrive, Teams, and endpoints. See [Create a DLP policy to protect documents with FCI or other properties](/purview/dlp-protect-documents-that-have-fci-or-other-properties).
 
-Advanced capabilities. such as Endpoint DLP and Adaptive Protection, require Microsoft 365 E5 or equivalent licensing.
+2. Block or audit actions such as copying, downloading, or sharing sensitive data. See [Protective actions of DLP policies](/purview/dlp-learn-about-dlp#protective-actions-of-dlp-policies).
+
+3. Prevent Copilot from summarizing or referencing content that violates DLP policies. See [Learn about using Microsoft Purview Data Loss Prevention to protect interactions with Microsoft 365 Copilot and Copilot Chat](/purview/dlp-microsoft365-copilot-location-learn-about).
+
+Advanced capabilities. such as [Endpoint DLP](/purview/endpoint-dlp-learn-about) and [Adaptive Protection](/purview/dlp-adaptive-protection-learn), require Microsoft 365 E5 or equivalent licensing.
 
 ### Remove data you no longer need
 
