@@ -100,12 +100,12 @@ Archived sites aren't accessible to users and aren't used by Copilot, which impr
 
 ### Identify overshared or sensitive sites
 
-Use [Data access governance (DAG) reports](/sharepoint/data-access-governance-reports) in the SharePoint admin center to find risk areas:
+Use [Data access governance (DAG) reports](/sharepoint/data-access-governance-reports) in the SharePoint admin center to find risk areas. Here are some examples:
 
-- [Sharing links](/sharepoint/data-access-governance-sharing-links-report) (Anyone, organization-wide, or external)
+- [How sharing links are configured](/sharepoint/data-access-governance-sharing-links-report) (Anyone, organization-wide, or external)
 - [Sites shared with everyone except external users (EEEU)](/sharepoint/data-access-governance-everyone-except-external-user-report)
 - [Sites containing files with sensitivity labels](/sharepoint/data-access-governance-sensitivity-label-report)
-- Oversharing baseline reports across sites, OneDrive libraries, and files (see [Snapshot and activity reports](/sharepoint/data-access-governance-reports#how-to-use-snapshot-and-activity-reports))
+- Oversharing across sites, OneDrive libraries, and files (see [Snapshot and activity reports](/sharepoint/data-access-governance-reports#how-to-use-snapshot-and-activity-reports))
 
 Review these reports regularly, especially during early Copilot adoption.
 
