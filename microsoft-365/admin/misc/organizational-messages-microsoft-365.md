@@ -407,8 +407,8 @@ To enable organizational messages through a policy in Microsoft Intune, follow t
 
    1. Make sure **Configure Windows Spotlight on Lock Screen (User)** is set to one of the following settings:
 
-    - **Windows spotlight enabled.**
-    - **Windows spotlight is always enabled, the user cannot disable it**.
+      - **Windows spotlight enabled.**
+      - **Windows spotlight is always enabled, the user cannot disable it**.
 
    1. Select **Next**.
 
