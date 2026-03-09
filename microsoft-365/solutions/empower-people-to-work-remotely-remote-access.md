@@ -17,7 +17,7 @@ ms.collection:
 - remotework
 - m365solution-remotework
 - m365solution-scenario
-ms.custom:
+ms.custom: m365-solutions-doc-set
 description: Ensure that your remote workers can access on-premises resources while optimizing access to Microsoft 365 cloud services.
 ---
 
@@ -52,7 +52,7 @@ Microsoft 365 traffic must take an indirect route through your organization, whi
 
 With split tunneling, you can configure your VPN client to exclude specific types of traffic from being sent over the VPN connection to the organization network.
 
-To optimize access to Microsoft 365 cloud resources, configure your split tunneling VPN clients to exclude traffic to the **Optimize** category Microsoft 365 endpoints over the VPN connection. For more information, see [Office 365 endpoint categories](../enterprise/microsoft-365-network-connectivity-principles.md#optimizing-connectivity-to-microsoft-365-services). See [this list](../enterprise/urls-and-ip-address-ranges.md) of Optimize category endpoints.
+To optimize access to Microsoft 365 cloud resources, configure your split tunneling VPN clients to exclude traffic to the **Optimize** category Microsoft 365 endpoints over the VPN connection. For more information, see [Office 365 endpoint categories](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles#optimizing-connectivity-to-microsoft-365-services). See [this list](/microsoft-365/enterprise/urls-and-ip-address-ranges) of Optimize category endpoints.
 
 Here is the resulting traffic flow, in which most of the traffic to Microsoft 365 cloud apps bypasses the VPN connection.
 
@@ -60,7 +60,7 @@ Here is the resulting traffic flow, in which most of the traffic to Microsoft 36
 
 This allows the VPN client to send and receive crucial Microsoft 365 cloud service traffic directly over the Internet and to the nearest entry point into the Microsoft network.
 
-For more information and guidance, see [Optimize Office 365 connectivity for remote users using VPN split tunneling](../enterprise/microsoft-365-vpn-split-tunnel.md).
+For more information and guidance, see [Optimize Office 365 connectivity for remote users using VPN split tunneling](/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel).
 
 ## Deploy remote access when all your apps are web apps and you have hybrid identity
 
@@ -110,7 +110,7 @@ See [this article](https://www.microsoft.com/security/blog/2020/04/16/security-g
 ## Admin technical resources for remote access
 
 - [How to quickly optimize Office 365 traffic for remote staff & reduce the load on your infrastructure](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
-- [Optimize Office 365 connectivity for remote users using VPN split tunneling](../enterprise/microsoft-365-vpn-split-tunnel.md)
+- [Optimize Office 365 connectivity for remote users using VPN split tunneling](/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel)
 
 ## Results of Step 2
 
@@ -123,7 +123,6 @@ After deployment of a remote access solution for your remote workers:
 | No remote access VPN solution and you need access to on-premises apps, some of which are not web-based | You have configured Azure P2S VPN. |
 | Remote workers are using their personal devices from home | You have configured Windows 365. |
 | Remote workers are using RDS connections to on-premises systems | You have deployed a Remote Desktop Services gateway in your edge network. |
-|||
 
 ## Next step
 

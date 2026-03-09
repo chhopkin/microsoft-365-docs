@@ -15,6 +15,7 @@ ms.collection:
 - M365-subscription-management 
 - Adm_O365
 - m365solution-collabgovernance
+ms.custom: m365-solutions-doc-set
 search.appverid:
 - MET150
 ms.assetid: 7cf5655d-e523-4bc3-a93b-3ccebf44a01a
@@ -123,4 +124,4 @@ There are a few more things to know:
 
 [Create your collaboration governance plan](collaboration-governance-first.md) (article)
 
-[Create a Microsoft 365 group in the admin center](../admin/create-groups/create-groups.md) (article)
+[Create a Microsoft 365 group in the admin center](/microsoft-365/admin/create-groups/create-groups) (article)

@@ -12,7 +12,7 @@ metadata:
   ms.collection:
   - tier2
   - m365-security
-  ms.date: 11/18/2025
+  ms.date: 01/20/2026
   ms.localizationpriority: medium
   audience: microsoft-business
   keywords: Microsoft 365 Business Premium, Microsoft 365, SMB, FAQ, frequently asked questions, answers, business
@@ -41,12 +41,16 @@ sections:
 
       - question: Is there a limit to how many Microsoft 365 Business Premium licenses I can have?
         answer: |
-          Yes. Business Premium is designed for small to medium-sized businesses with low to medium IT complexity requirements. You can purchase up to 300 Business Premium licenses for an organization.
+          Our Microsoft 365 Business base per user plans are designed for organizations with up to 300 users only.
           
-          You can also mix and  match other cloud subscriptions (for example, Microsoft Defender for Endpoint or another Microsoft 365 Enterprise subscription).
+          Organizations may only provision up to 300 seats total across all of our Business family of plans (Business Basic, Business Standard, Business Premium).
 
-          If you're considering using multiple subscription types, consider working with a trusted IT advisor to determine how best to manage and secure the various subscriptions. Business Premium and Microsoft 365 Enterprise use different capabilities to secure and manage applications and data.
+          For example, if an organization is provisioned for 250 seats of Business Premium, the organization is eligible to provision only 50 more seats total across the Business family of plans.
 
+          Microsoft reserves the right to enforce the tenant limit of 300 provisioned licenses across the Business family of plans. 
+          
+          Organizations with more than 300 users should consider subscribing to Microsoft 365 for enterprise plans.
+          
       - question: Can I combine Microsoft 365 Business Premium with other Microsoft subscription offerings?
         answer: |
           Yes. You can combine Business Premium subscriptions with plans and add-ons from Azure, Dynamics 365, Enterprise Mobility + Security, and Office 365. 

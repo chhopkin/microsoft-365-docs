@@ -17,7 +17,9 @@ ms.collection:
 - m365solution-infoprotection
 - m365solution-overview
 - zerotrust-solution
-ms.custom: admindeeplinkCOMPLIANCE
+ms.custom:
+- admindeeplinkCOMPLIANCE
+- m365-solutions-doc-set
 description: Learn how Microsoft Purview and Microsoft Priva provide a unified data privacy and protection platform to help you comply with data privacy regulations.
 ---
 

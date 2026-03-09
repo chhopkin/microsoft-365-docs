@@ -21,6 +21,7 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 - admindeeplinkTEAMS
+- m365-solutions-doc-set
 - admindeeplinkSPO
 recommendations: false
 description: "Learn how to deploy teams with a baseline level of protection."
@@ -32,15 +33,15 @@ In this article, we look at how to deploy teams with a baseline level of protect
 
 ## Initial protections
 
-As a first step, we recommend that you configure basic identity and device-access policies. See [Policy recommendations for securing Teams chats, groups, and files](../security/office-365-security/zero-trust-identity-device-access-policies-teams.md) for details.
+As a first step, we recommend that you configure basic identity and device-access policies. See [Policy recommendations for securing Teams chats, groups, and files](/security/zero-trust/zero-trust-identity-device-access-policies-workloads) for details.
 
 We also recommend turning on basic Defender for Office 365 features to guard against malware in documents, attachments, and links. We recommend turning on each of the options in the following table.
 
 |Option|Information|
 |:------|:-----------|
-|Safe Attachments for SharePoint, OneDrive and Teams|[Safe Attachments in Microsoft Defender for Office 365](../security/office-365-security/safe-attachments-about.md) <p> [Defender for Office 365 - SharePoint, OneDrive, and Microsoft Teams](../security/office-365-security/safe-attachments-for-spo-odfb-teams-about.md)|
-|Safe Documents|[Safe Documents in Microsoft 365 A5 or E5 Security](../security/office-365-security/safe-documents-in-e5-plus-security-about.md)|
-|Safe Links for Teams|[Safe Links settings for Microsoft Teams](../security/office-365-security/safe-links-about.md#safe-links-settings-for-microsoft-teams)|
+|Safe Attachments for SharePoint, OneDrive and Teams|[Safe Attachments in Microsoft Defender for Office 365](/defender-office-365/safe-attachments-about) <p> [Defender for Office 365 - SharePoint, OneDrive, and Microsoft Teams](/defender-office-365/safe-attachments-for-spo-odfb-teams-about)|
+|Safe Documents|[Safe Documents in Microsoft 365 A5 or E5 Security](/defender-office-365/safe-documents-in-e5-plus-security-about)|
+|Safe Links for Teams|[Safe Links settings for Microsoft Teams](/defender-office-365/safe-links-about#safe-links-settings-for-microsoft-teams)|
 
 ## Teams guest sharing
 
@@ -89,7 +90,7 @@ Microsoft 365 offers additional methods for securing your content. Consider if t
 
 [Configure Teams meetings with baseline protection](/microsoftteams/configure-meetings-baseline-protection)
 
-[Get started with insider risk management](../compliance/insider-risk-management-configure.md)
+[Get started with insider risk management](/purview/insider-risk-management-configure)
 
 [Configure teams with protection for sensitive data](configure-teams-sensitive-protection.md)
 

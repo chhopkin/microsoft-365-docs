@@ -12,6 +12,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - highpri
 - M365solutions
+ms.custom: m365-solutions-doc-set
 f1.keywords: NOCSH
 
 ---
@@ -28,7 +29,7 @@ Download this infographic with security tips for the members of your team - whet
 
 | Item | Description |
 |:-----|:-----|
-|[![The help protect your campaign info graphic.](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](https://download.microsoft.com/download/f/c/5/fc58bc0c-773a-4ac8-a232-6f986f61ef58/M365CampaignsWhatCanUsersDoToSecure.pdf) <br/> [Download as a PDF](https://download.microsoft.com/download/f/c/5/fc58bc0c-773a-4ac8-a232-6f986f61ef58/M365CampaignsWhatCanUsersDoToSecure.pdf) \ [Download as a PowerPoint](https://download.microsoft.com/download/f/c/5/fc58bc0c-773a-4ac8-a232-6f986f61ef58/M365CampaignsWhatCanUsersDoToSecure.pptx)| Share these best practices for keeping your organization's information secure with Microsoft 365. This infographic was created to support the staff of political campaigns because these are targeted by sophisticated hackers. You are welcome to use the PowerPoint to customize this infographic for your own organization. Related article: [How the security recommendations for Microsoft 365 affect your users](../business-premium/m365-campaigns-users.md)|
+|[![The help protect your campaign info graphic.](../media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](https://download.microsoft.com/download/f/c/5/fc58bc0c-773a-4ac8-a232-6f986f61ef58/M365CampaignsWhatCanUsersDoToSecure.pdf) <br/> [Download as a PDF](https://download.microsoft.com/download/f/c/5/fc58bc0c-773a-4ac8-a232-6f986f61ef58/M365CampaignsWhatCanUsersDoToSecure.pdf) \ [Download as a PowerPoint](https://download.microsoft.com/download/f/c/5/fc58bc0c-773a-4ac8-a232-6f986f61ef58/M365CampaignsWhatCanUsersDoToSecure.pptx)| Share these best practices for keeping your organization's information secure with Microsoft 365. This infographic was created to support the staff of political campaigns because these are targeted by sophisticated hackers. You are welcome to use the PowerPoint to customize this infographic for your own organization. Related article: [How the security recommendations for Microsoft 365 affect your users](/microsoft-365/admin/security-and-compliance/m365bp-security-benefits)|
 
 ## Share your business files with Teams, SharePoint, and OneDrive
 
@@ -36,7 +37,7 @@ Download an infographic to get a quick overview of ways to share your business f
   
 | Item | Description |
 |:-----|:-----|
-|[![Thumb image for Share your business files infographic.](../media/solutions-architecture-center/m365-smbscenarios-shareyourfiles-square.png)](https://go.microsoft.com/fwlink/?linkid=2079435) <br/> [Download as a PDF](https://go.microsoft.com/fwlink/?linkid=2079435) \ [Download as a PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079438) | Use these best practices when you share and collaborate on business files so you can keep your information secure and protected. Share in email or in Teams, and store the files in SharePoint and OneDrive. Related article: [Overview of sharing business files](../business-video/overview-file-sharing.md)|
+|[![Thumb image for Share your business files infographic.](../media/solutions-architecture-center/m365-smbscenarios-shareyourfiles-square.png)](https://go.microsoft.com/fwlink/?linkid=2079435) <br/> [Download as a PDF](https://go.microsoft.com/fwlink/?linkid=2079435) \ [Download as a PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079438) | Use these best practices when you share and collaborate on business files so you can keep your information secure and protected. Share in email or in Teams, and store the files in SharePoint and OneDrive. Related article: [Overview of sharing business files](/office/share-files-and-folders-in-microsoft-onedrive-9fcc2f7d-de0c-4cec-93b0-a82024800c07)|
 
 ## Host online meetings in Microsoft Teams
 
@@ -52,7 +53,7 @@ Download an infographic to get tips for working from anywhere with files in OneD
 
 | Item | Description |
 |:-----|:-----|
-|[![Thumb image for Work from anywhere infographic.](../media/solutions-architecture-center/m365-smbscenarios-workfromanywhere-square.png)](https://go.microsoft.com/fwlink/?linkid=2079451) <br/> [Download as a PDF](https://go.microsoft.com/fwlink/?linkid=2079451) \ [Download as a PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079455) | See tips for how to set up your mobile devices to allow you to work from anywhere with Microsoft 365 Apps and OneDrive. Related article: [Work from anywhere](../business-video/work-from-anywhere.md)|
+|[![Thumb image for Work from anywhere infographic.](../media/solutions-architecture-center/m365-smbscenarios-workfromanywhere-square.png)](https://go.microsoft.com/fwlink/?linkid=2079451) <br/> [Download as a PDF](https://go.microsoft.com/fwlink/?linkid=2079451) \ [Download as a PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079455) | See tips for how to set up your mobile devices to allow you to work from anywhere with Microsoft 365 Apps and OneDrive. Related article: [Work from anywhere](/topic/this-article-has-been-retired-24399d07-7368-4bf4-81d6-7b7b95134dea)|
 
 ## Survey customers with Forms in Microsoft 365
 

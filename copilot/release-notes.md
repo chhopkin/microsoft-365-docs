@@ -1,13 +1,13 @@
 ---
 title: Release Notes for Microsoft 365 Copilot
-description: Lists the features that have reached General Availability in each release of Microsoft 365 Copilot.
+description: Lists the features that reach General Availability in each release of Microsoft 365 Copilot.
 f1.keywords:
 - NOCSH
 ms.author: kwekua
 author: kwekuako
 manager: scotv
 ms.update-cycle: 180-days
-ms.date: 11/25/2025
+ms.date: 02/24/2026
 audience: Admin
 ms.reviewer: briandesouza
 ms.topic: release-notes
@@ -27,14 +27,1646 @@ appliesto:
 
 This page lists the latest features and improvements for Microsoft 365 Copilot. It includes changes that are generally available (Current Channel for Microsoft 365 apps) and specific to each platform.
 
-[!INCLUDE [agent-builder-mcs-lite](../microsoft-365/includes/agent-builder-mcs-lite.md)]
-
 ## [All features](#tab/all)
-<!--- All features regardless of platform go here  -->
-<!-- 96890,101634,101246,98572,105501,101737,101655,101648,101641,101111,100743,100742,100599,96886,101360 -->
-## November 24, 2025
 
-Updates released between November 12, 2025, and November 24, 2025.
+<!--- All features regardless of platform go here  -->
+<!-- 101270,100818,110355,80610,109718,101645,100669,100610,100361,100356,100354,98694 -->
+
+## February 24, 2026
+Updates released between February 10, 2026, February 24, 2026
+### Microsoft 365 Copilot extensibility
+
+- **Connect Copilot with Monday.com to track work and team progress** [Web] 
+
+  Users can connect Microsoft 365 Copilot with Monday.com to track work and team progress using the Copilot Connector. 
+
+  **Roadmap ID:** [515177](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515177)
+
+  **Details:**
+
+  **What changed:** Copilot can now pull data from Monday.com boards, tasks, and workflows. This allows users to review team progress and updates directly through Copilot. 
+
+  **Why:** This integration supports teams that rely on Monday.com by bringing their work data into Copilot for easier updates and insights.
+
+  **Try this:** 
+
+  - Ask Copilot to summarize key Monday.com tasks for your team. 
+  - Request a list of items that are overdue or blocked.
+  - Generate a status update based on Monday.com board activity. 
+
+  **Why this matters:**
+
+  **Business impact:** Reduces context switching and improves clarity of work tracking. 
+
+  **Personal impact:** Makes task reviews and updates more efficient.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Microsoft 365 Copilot connectors overview](/microsoftsearch/connectors-overview)
+
+- **Connect Copilot with WordPress.com and WordPress.org** [Web]
+
+  Users can connect Copilot with WordPress.com and WordPress.org to retrieve, summarize, and analyze site content using the Copilot Connector. 
+
+  **Details:** 
+
+  **What changed:** Copilot can now pull posts, pages, and site content from WordPress installations, making it easier to analyze or repurpose web content. 
+
+  **Why:** The integration helps teams working with large content libraries stay informed and reuse content efficiently. 
+
+  **Try this:** 
+
+  - Ask Copilot for a summary of recent posts from your WordPress site. 
+  - Retrieve key themes across published articles. 
+  - Request an analysis of content performance patterns. 
+
+  **Why this matters:** 
+
+  **Business impact:** Supports content teams by improving visibility into site content. 
+
+  **Personal impact:** Simplifies reviewing and reusing website material.
+
+- **Connect Copilot with Azure File Share** [Web]
+
+  Users can connect Copilot with Azure File Share to manage and work with their files using the Copilot Connector. 
+
+  **Details:** 
+
+  **What changed:** Copilot can now retrieve and summarize files stored in Azure File Share, providing insights without requiring users to open each file individually. 
+
+  **Why:** This integration helps organizations using Azure File Share bring their structured content into Copilot for easier processing. 
+
+  **Try this:** 
+
+  - Ask Copilot to list recent files added to Azure File Share. 
+  - Request summaries of documents stored there. 
+  - Retrieve key updates from a specific folder. 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams better use their Azure‑hosted content. 
+
+  **Personal impact:** Makes finding and understanding files faster.
+
+- **Connect Copilot with Veeva** [Web]
+
+  Users can connect Copilot with Veeva to access promotional materials, quality documents, and regulatory information using the Copilot Connector. 
+
+  **Details:** 
+
+  **What changed:** Copilot can now retrieve and summarize approved content stored in Veeva Vault, including compliance and regulatory documents. 
+
+  **Why:** This supports life sciences teams that depend on Veeva for controlled content, helping them access accurate information quickly. 
+
+  **Try this:** 
+
+  - Ask Copilot to summarize a regulatory document stored in Veeva. 
+  - Retrieve approved promotional content for a product. 
+  - Request key updates across quality documentation. 
+
+  **Why this matters:** 
+
+  **Business impact:** Improves access to validated documents for regulated workflows. 
+
+  **Personal impact:** Helps users stay compliant and informed.
+
+- **Connect Copilot with Jira Data Center to manage engineering tasks** [Web]
+
+  Users can connect Microsoft 365 Copilot with Jira Data Center to track and manage engineering tasks using the Copilot Connector. 
+
+  **Details:** 
+
+  **What changed:** Copilot can now retrieve issues, tasks, and updates from Jira Data Center. Users can analyze engineering progress and blockers directly in Copilot. 
+
+  **Why:** This helps engineering teams streamline updates and reduce the need to navigate multiple tools. 
+
+  **Try this:** 
+
+  - Ask Copilot for a summary of Jira engineering issues. 
+  - Request insights on current blockers. 
+  - Generate a high‑level project update. 
+
+  **Why this matters:** 
+
+  **Business impact:** Provides clearer visibility into engineering workflows. 
+
+  **Personal impact:** Helps users stay organized and informed.
+
+- **Out‑of‑box filter support for data sources in Copilot Search** [Web]
+
+  IT admins can customize filters for data sources in Copilot Search without additional development work. 
+
+  **Roadmap ID:** [502534](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502534 ) 
+
+  **Detailes:** 
+
+  **What changed:** Microsoft 365 Copilot search now includes a dynamic filtering experience that surfaces data source–specific filters. When users select a source (such as Outlook, SharePoint, Teams, Azure DevOps, Google Drive, Jira, or Confluence), relevant filters automatically appear in the right rail. 
+
+  **Why:** This gives users more precise control over search results by tailoring filters to the selected data source—without requiring any admin setup or changes to existing policies.
+
+  **Try this:** 
+
+
+  - Select a specific data source in Copilot search (e.g., Outlook or SharePoint).
+  - Use the dynamically populated filters in the right rail to refine results.
+  - Switch data sources to see filters update automatically based on context.
+
+  **Why this matters:** 
+
+  **Business impact:** Improves search accuracy while reducing administrative overhead—no configuration or policy updates required.
+
+  **Personal impact:** Helps users find relevant information faster with less manual refinement.
+
+  **Additional resources:**
+  
+  **Learn:**
+  
+    [Microsoft 365 Copilot: Data source-specific filters in search](https://m365admin.handsontek.net/microsoft-365-copilot-data-source-specific-filters-search/)
+  
+- **Scope grounding for declarative agents to specific data sources** [Windows, Web]   
+
+  Users can scope grounding for declarative agents to specific data sources. 
+
+    **Details:** 
+
+    **What changed:** Users can now define which data sources a declarative agent draws from. This ensures more precise responses and reduces unnecessary information.
+
+    **Why:** This gives users more control over how declarative agents use organizational data.
+
+    **Try this:** 
+
+    - Select a declarative agent where sources have been exposed or define sources in the manifest for your agent.
+    - Limit grounding to a single repository for more focused results. 
+    - Test the agent’s output to confirm improved relevance. 
+
+    **Why this matters:** 
+
+    **Business impact:** Improves control over data usage and response accuracy. 
+
+    **Personal impact:** Helps users get answers that match their needs.
+
+    **Additional resources:**
+    
+    **Learn:**
+    
+    [Declarative agent manifest example](/microsoft-365-copilot/extensibility/declarative-agent-manifest-1.6?branch=main&tabs=json#user-override-object)
+
+- **Embedded knowledge support for declarative agents** [Web]
+
+  Developers can embed knowledge such as PDFs, Word documents, and PowerPoint files for declarative agents. 
+
+  **Roadmap ID:** [474448](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=474448)
+
+  **Detailes:** 
+
+  **What changed:** Declarative agents now support embedded knowledge, allowing developers to include up to 10 local files as grounding resources.
+
+  **Why:** This makes it simpler to build agents that rely on internal documents. 
+
+  **Try this:** 
+
+  - Add embedded files to a declarative agent. 
+  - Test responses to confirm proper grounding. 
+
+  **Why this matters:** 
+
+  **Business impact:** Enhances agent accuracy using internal materials. 
+
+  **Personal impact:** Makes agent development more flexible.
+
+  **Additional Resources:**
+
+  **Learn:**
+
+  [Embedded knowledge object](/microsoft-365-copilot/extensibility/declarative-agent-manifest-1.6?tabs=json#embedded-knowledge-object)
+
+
+- **Declarative agents upgraded to GPT‑5.1**
+
+  Microsoft 365 Copilot declarative agents now use the GPT‑5.1 model with automatic model selection for performance and reasoning. 
+
+  **Detailes:** 
+
+  **What changed:** Declarative agents now run on GPT‑5.1 using “auto” architecture, which selects the best model (fast or reasoning‑optimized) based on the user’s prompt. This improves speed and quality. Note that as the agent uses the "Think deeper" mode to generate higher quality responses, users will experience a slightly higher latency.
+
+  **Why:** The upgrade ensures declarative agents provide more accurate and detailed responses.
+
+  **Try this:** 
+
+  - Use a declarative agent to process complex queries. 
+  - Test scenarios that require fast responses versus deeper reasoning. 
+
+  **Why this matters:** 
+
+  **Business impact:** Supports higher‑quality automation and decision‑making. 
+
+  **Personal impact:** Provides users with faster and more accurate responses. 
+
+
+### PowerPoint
+- **Use Copilot to get a detailed and contextual explanation** [Web, Windows, Mac]
+
+  Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
+
+  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
+
+  **Details:** 
+
+  **What changed:** Copilot can now provide an explanation of any selected object in a presentation. This includes acronyms, individual text boxes, tables images, & entire slide. Previously, users needed to rely on external references or manual research to understand unclear content.
+
+  **Why:** This feature helps users understand unfamiliar or complex information without leaving their presentation
+
+  **Try this:** 
+
+  - Select any text, table or slide, right click and choose “Explain". 
+  - Review the explanation without leaving PowerPoint 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams quickly understand unfamiliar content, reducing time spent researching and improving clarity in presentations.
+
+  **Personal impact:** Makes it easier to grasp the meaning of slide objects without switching apps.
+  
+  **Additional resources:**
+
+  **Blogs:**
+
+  [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
+
+- **Steer presentation length, tone, style, and images with Copilot** [Web, Windows, Mac]
+
+  Users can adjust presentation length, narrative tone, slide style, and AI‑generated images when creating presentations with Copilot.
+
+  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+
+  **Details:** 
+
+  **What changed:** Copilot now supports more granular controls for customization. Users can specify slide count, tone of messaging, stylistic preferences, and visual elements to better tailor their presentations. 
+
+  **Why:** This gives users more creative control and ensures presentations match the intended audience and purpose. 
+
+  **Try this:** 
+
+  - Ask Copilot to shorten your presentation to five slides. 
+  - Set the tone to “professional” or “informal” as needed. 
+  - Request new AI‑generated images that match your theme. 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams build polished presentations more efficiently.
+
+  **Personal impact:** Gives individuals more flexibility and creative options.
+
+### Viva Insights
+- **Copilot Studio agent report enhancements** [Web, Windows, Mac]
+
+  The Copilot Studio agent report includes autonomous agents and provides insights on adoption, impact, time savings, and cost savings. 
+
+  **Roadmap ID:** [499422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499422)
+
+  **Detailes:** 
+
+  **What changed:** The agent report now includes autonomous agents with generative orchestration. It also offers new metrics related to adoption, time saved, and cost benefits. 
+
+  **Why:** These enhancements help organizations understand how Copilot Studio agents are used and the value they deliver. 
+
+  **Try this:** 
+
+  - Open the Copilot Studio agent report to review autonomous agent usage. 
+  - Compare generative and non‑generative agent activity. 
+  - Review time‑saving and cost‑saving insights. 
+
+  **Why this matters:** 
+
+  **Business impact:** Supports better decision‑making about automation and ROI. 
+
+  **Personal impact:** Helps creators understand how their agents are being used.
+
+## February 10, 2026
+Updates released between January 27, 2026, February 10, 2026.
+### Microsoft 365 Copilot extensibility
+- **Admins can set up connector authentication faster with a simplified experience** [Web]
+
+  Admins can now set up connector authentication faster through a simplified and guided OAuth experience.
+
+  **Details:**
+
+  **What changed:** Previously, connector authentication required manual steps and extensive documentation. The new experience introduces a streamlined, guided OAuth flow that significantly reduces setup time.
+
+
+  **Why:** This change modernizes the authentication framework and reduces friction for admins configuring connectors.
+
+  **Try this:**
+
+  - Open connector setup and follow the guided OAuth flow.
+  - Complete authentication for supported connectors such as Gong, GitHub, or Monday.
+
+  **Why this matters:**
+
+  **Business impact:** Reduces configuration time and operational overhead for IT teams.
+
+  **Personal impact:** Makes connector setup faster and easier for admins.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Set up Microsoft 365 Copilot connectors in the Microsoft 365 admin center]( /microsoftsearch/configure-connector)
+
+- **Users can refresh Adaptive Cards in agents to view the latest information** [Web]  
+  
+  Users can refresh Adaptive Cards in agents to ensure they always see the most current information in their workflows.
+
+  **Details:**
+
+  **What changed:** Users can now refresh Adaptive Cards inside their agents to view updated information. Previously, cards remained static unless the agent was recreated or reloaded.
+
+  **Why:** This improvement helps users stay aligned with the latest data, reducing confusion and improving workflow accuracy.
+
+  **Try this:**
+
+
+  - Select the refresh option on an Adaptive Card inside your agent.
+  - Use the updated card to continue your workflow with the latest information.
+  - Check refreshed cards when reviewing time‑sensitive or changing data.
+
+  **Why this matters:**
+
+  **Business impact:** Ensures teams work with accurate, up‑to‑date information.
+
+  **Personal impact:** Reduces manual steps and helps individuals stay current with ongoing changes.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Allow inline editing of Adaptive Card responses (preview)](/microsoft-365-copilot/extensibility/adaptive-card-edits)
+
+- **Field teams can accelerate Copilot adoption using champion connectors** [Web]
+
+  Field teams can use getting started guides of champion connectors to guide customers through Copilot adoption with clear, consistent resources.
+
+  **Details:**
+
+  **What changed:** Field teams can now use getting started guides champion connectors to guide Copilot adoption in top accounts. This adds structured resources and best practices that were not available in earlier workflows.
+
+  **Why:** This change gives field teams consistent tools that help customers adopt Copilot more quickly and confidently.
+
+  **Try this:**
+
+
+  - Review champion connector resources available to your field team.
+  - Share the connector with top accounts beginning their Copilot journey.
+  - Use the resources to guide conversations about adoption planning.
+
+  **Why this matters:**
+
+  **Business impact:** Supports faster and more consistent Copilot adoption across key customer accounts.
+
+  **Personal impact:**  Makes it easier for individuals to provide clear, ready-to-use guidance.
+
+  **Additional Resources:**
+
+  **Learn:**
+
+  [Set up Microsoft 365 Copilot connectors in the Microsoft 365 admin center](/microsoftsearch/configure-connector)
+
+
+- **Declarative Agents help users stay in their workflow** [Web]
+
+  URL‑based dialogs in Declarative Agents allow users to open linked experiences without leaving Copilot, helping them stay focused.
+
+  **Details:**
+
+  **What changed:** Developers can now enable URL‑based dialogs in Declarative Agents. This lets users open external pages or forms directly within Copilot. Previously, these workflows required switching apps or breaking context.
+
+  **Why:** This feature helps users complete tasks without interruption, supporting smoother and more connected workflows.
+
+  **Try this:**
+
+
+  - Open a Declarative Agent that includes a URL‑based dialog.
+  - Follow the dialog link to continue your workflow inside Copilot.
+  - Use the dialog to complete tasks that require external pages or forms.
+
+  **Why this matters:**
+
+  **Business impact:** Reduces context switching and improves workflow continuity.
+
+  **Personal impact:** Helps individuals complete tasks more efficiently without leaving Copilot.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Allow inline editing of Adaptive Card responses (preview)](/microsoft-365-copilot/extensibility/adaptive-card-edits)
+
+-  **More frequent ticket status updates for the ServiceNow Tickets Copilot connector** [Web]
+
+    The ServiceNow Tickets Copilot connector updates ticket status more frequently by ingesting both active and inactive tickets.
+
+    **Roadmap ID:** [505437](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=505437)
+
+    **Details:**
+
+    **What changed:** The ServiceNow Tickets Copilot connector now ingests both active and inactive tickets by default, improving how often ticket status changes appear in Copilot responses. Admins can also edit the data query filter to include inactive tickets for existing connections.
+
+    **Why:** Inactive tickets were not previously ingested, which could lead to outdated ticket status information in Copilot responses. 
+
+    **Try this:**
+
+    - Review the query filter for existing ServiceNow Tickets connections.
+    - Update the filter to include both active and inactive tickets if needed. 
+    - Communicate the change to your ServiceNow stakeholders and Copilot users. 
+
+    **Why this matters:**
+
+    **Business impact:** Improves the quality of Copilot responses that reference ServiceNow tickets by keeping ticket status information current. 
+
+    **Personal impact:** Reduces confusion by showing more up-to-date ticket statuses in Copilot answers.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Manage indexed properties](/microsoftsearch/servicenow-tickets-deployment#query-string)
+
+
+- **Query Miro boards and diagrams with Copilot connectors** [Web]
+
+  Connect Microsoft 365 Copilot to Miro with Copilot connectors so you can query visual boards and diagrams in Copilot.
+
+    **Roadmap ID:** [515166](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515166)
+
+    **Details:**
+
+    **What changed:** Microsoft 365 Copilot now supports a Miro Copilot connector, which makes Miro boards discoverable and usable in Microsoft 365 Copilot and Microsoft Search.
+
+    **Why:** This change helps people access Miro boards and visual planning work without leaving Microsoft 365.
+
+    **Try this:**
+
+    - Connect Microsoft 365 Copilot to Miro with a Copilot connector.
+    - Ask Copilot to summarize the content of a Miro board for a project.
+    - Ask Copilot to list action items on a Miro board.
+
+    **Why this matters:**
+
+    **Business impact:** Brings Miro board knowledge into Microsoft 365 Copilot so teams can find and use visual artifacts in the flow of work. 
+
+    **Personal impact:** Reduces time spent switching tools when you need context from a Miro board.
+
+  **Additional Resources:**
+
+    **Learn:**
+
+    [Deploy the Miro Microsoft 365 Copilot connector](/MicrosoftSearch/miro-deployment)
+
+
+- **Connect Copilot to GitHub Server with Copilot Connector** [Web]
+
+  Connect Copilot to your GitHub Server to retrieve and collaborate on issues, pull requests, and knowledge base content.
+
+  **Details:**
+
+  **What changed:**
+  The Copilot Connector enables a direct connection to GitHub Server. Users can bring issues, pull requests, and knowledge base content into Copilot to view and collaborate.
+
+  **Why:**
+  Centralizing software work items and documentation in Copilot saves time and reduces context switching during development and review activities.
+
+  **Try this:**
+
+
+  - Connect your GitHub Server and ask Copilot to list open issues for a repository.
+  - Use Copilot to summarize a pull request and highlight reviewers’ comments.
+  - Retrieve knowledge base articles to prepare a project briefing.
+
+  **Why this matters:**
+
+  **Business impact:** Speeds up review cycles and keeps development work aligned by consolidating information in one place.
+
+  **Personal impact:** Makes it easier for individuals to find and act on relevant GitHub items.
+
+
+### Teams
+- **Configure and manage agent manifests in Developer Portal**
+
+  Developer Portal now supports management and configuration of Agent Blueprints allowing developers to extend Agent 365 capabilities to their agents including enterprise‑grade identity, observability, notifications, security, and governed access to Microsoft 365 data.
+
+  **Details:**
+
+  **What changed:** Developer Portal now supports full lifecycle actions for agent manifests. Developers can create, edit, and manage manifest configuration in a single place to streamline setup.
+
+  **Why:** Centralizing manifest management reduces friction, improves consistency, and shortens setup time for agent-based solutions.
+
+  **Try this:**
+
+
+  - Create a new agent manifest and define its required settings.
+  - Update an existing manifest to refine configuration details.
+  - Review manifest properties to ensure consistent deployment.
+
+  **Why this matters:**
+
+  **Business impact:** Standardizes agent configuration and reduces setup errors across projects.
+
+  **Personal impact:** Makes it easier for individuals to manage agent settings without switching tools.
+
+  **Additional resources:**
+
+  **Learn:**
+  
+  [Agent Identity Blueprint](/microsoftteams/platform/concepts/build-and-test/manage-your-apps-in-developer-portal#agent-identity-blueprint)
+
+## January 27, 2026
+Updates released between January 13, 2025, and January 27, 2026.
+### Microsoft 365 Copilot Chat
+- **Copilot Chat model selector now offers GPT-5.2** [Android, Windows, iOS, Mac, Web]
+
+  Choose GPT-5.2 in Copilot Chat for faster responses or deeper reasoning, improving accuracy and clarity.
+
+    **Details:**
+
+    **What changed:** The model selector in Copilot Chat now includes GPT-5.2. Users can pick Quick Response for immediate answers or Think Deeper for more thorough reasoning. GPT-5.2 delivers better instruction following, improved math and coding performance, and clearer explanations compared to previous models.
+
+    **Why:** This update provides more flexibility and precision, helping users handle both simple and complex tasks with adaptive reasoning.
+
+    **Try this:**
+
+    - Select More in the model selector and choose Quick Response for quick answers.
+    - Choose Think Deeper when you need detailed reasoning for complex queries.
+
+    **Why this matters:**
+
+    **Business impact:** Enhances productivity by offering tailored response modes for different workflows.
+
+    **Personal impact:** Gives individuals control over response depth, improving efficiency and clarity.
+
+    **Additional resources:**
+
+    **Blogs:**
+    [Available today: GPT-5.2 in Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6)
+- **Copilot icon visibility in Microsoft Edge** [Web]
+
+    Users can now manage the visibility of the Copilot icon in the Microsoft Edge toolbar, while admins can control icon access through policy settings.
+
+    **Roadmap ID:** [536579](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=536579 )
+
+    **Details:**
+
+    **What changed:** Previously, the Copilot icon always appeared in the toolbar. Users can now hide or show the icon, and admins can manage visibility using the ""Microsoft365CopilotChatIconEnabled policy.""
+
+    **Why:** This change gives users and IT admins more flexibility in managing the Edge interface and Copilot availability.
+
+    **Try this:**
+
+    - Right-click the Copilot icon and select Hide Copilot.
+    - Use Edge settings to toggle the icon visibility.
+    - Configure the Microsoft365CopilotChatIconEnabled policy as an admin.
+
+    **Why this matters:**
+
+    **Business impact:** Supports customized user experiences and centralized policy control.
+
+    **Personal impact:** Lets users reduce toolbar clutter or restore the icon when needed.
+### Microsoft 365 Copilot extensibility
+- **Advanced understanding for comments and attachments in SNOW KB and Azure DevOps connectors** [Windows, Web]
+
+  Copilot now understands content within comments and attachments for ServiceNow KB and Azure DevOps work item connectors.
+
+    **Details:**
+
+    **What changed:** Previously, Copilot focused on primary content only. Comments and attachments are now included in content understanding.
+
+    **Why:** This ensures important context is not missed during searches or summaries.
+
+    **Try this:**
+
+    - Ask Copilot about an Azure DevOps work item.
+    - Review insights that include comment and attachment context.
+
+    **Why this matters:**
+
+    **Business impact:** Improves decision making with more complete information.
+
+    **Personal impact:** Reduces the need to manually review supporting content.
+ 
+- **Bring your own Microsoft Foundry agents into Microsoft 365 Copilot** [Web]
+
+  Bring intelligent agents built and hosted in Microsoft Foundry into to Microsoft 365 Copilot and Microsoft Teams—tailored to your organization’s workflows, rules, and compliance needs.
+
+    **What Changed:**
+    You can now connect an existing Foundry agent to Microsoft 365 Copilot and Microsoft Teams via a proxy app built with the Microsoft 365 Agents Toolkit.
+
+    **Why:**
+    Many specialized or regulated industries require custom logic beyond standard Copilot features. This update empowers teams to create agents that are tightly aligned with enterprise policies, domain needs, and governance expectations, and bring them into Microsoft 365 Copilot. 
+
+    **Try This:**
+    - Integrate your Microsoft Foundry agent with Microsoft 365 using Agents Toolkit sample.
+
+    **Why This Matters:**
+
+    **Business Impact:** Enables organizations to build tailored solutions, ensuring Copilot adapts to unique operational needs.
+
+    **Personal Impact:**  Gives developers freedom to innovate while maintaining the required levels of security, compliance, and governance.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Integrate Microsoft Foundry agents](/microsoft-365-copilot/extensibility/overview-custom-engine-agent#integrate-microsoft-foundry-agents)
+- **Copy an agent from Agent Builder to Copilot Studio** [Windows, Web]
+
+  Users can now open agents created in Agent Builder in the Copilot Studio authoring experience.
+
+    **Details:**
+
+    **What changed:** Previously, agents created in Agent Builder experience were limited in capability. Authors can now move agents into  Copilot Studio to access advanced features and publishing options.
+
+    **Why:** This change enables more powerful agents and supports stronger governance and lifecycle management.
+
+    **Try this:**
+
+    - Open an agent created in Agent Builder.
+    - Continue editing the agent in Copilot Studio.
+
+    **Why this matters:**
+
+    **Business impact:** Enables more capable agents with governance controls such as Data Loss Prevention.
+
+    **Personal impact:** Gives creators greater flexibility to enhance their agents.
+- **Generate icons using AI in Agent Builder** [Windows, Web]
+
+  Users can generate custom icons using AI Agent Builder using custom prompts, manually upload their own icon, or select from a set of pre-created icons.
+
+    **Roadmap ID:** [502864](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502864)
+
+    **Details:**
+
+    **What changed:** Previously, users relied on default icons or manual uploads. AI-generated icons are now available in Agent Builder, with size limits of 1 MB (192px).
+
+    **Why:** This feature simplifies icon creation and improves how agents visually represent their purpose.
+
+    **Try this:**
+
+    - Enter a prompt to generate an icon with AI.
+    - Use the agent description to generate an icon automatically.
+    - Upload a custom icon or select a pre-created option.
+
+    **Why this matters:**
+
+    **Business impact:** Improves clarity and usability of custom agents.
+
+    **Personal impact:** Makes agent creation faster and more creative.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Build agents with Agent Builder in Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agent-builder-build-agents)
+- **Improve relevance and personalization by connecting user identities across data sources** [Windows, Web]
+
+  Copilot improves relevance and personalization by connecting user identities across multiple data sources.
+
+    **Details:**
+
+    What changed: Previously, identities from third party systems were not linked to the corresponding Microsoft identity, leading to poor response quality esp with people related queries. Copilot now correlates identities across supported connectors, leading to more relevant and personalized responses. 
+
+    **Why:** This ensures responses better reflect user context across systems.
+
+    **Try this:**
+
+    - Ask Copilot about work spanning multiple connected tools.
+
+    **Why this matters:**
+
+    **Business impact:** Improves cross‑system relevance and response quality in Copilot.
+
+    **Personal impact:** Delivers more accurate, personalized answers.
+ 
+- **Publish Azure AI Foundry agents to Copilot** [Web]
+
+  Developers can launch AI agents to the Copilot Agent Store effortlessly with no coding required.
+
+    **Roadmap ID:** [501112](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=501112 )
+
+    **What Changed:** Users have a one-click publishing flow from Azure AI Foundry to the Microsoft 365 Copilot Agent Store. No development experience is required and agents become instantly accessible.
+
+    **Why:** This enhancement accelerates the delivery of AI-powered solutions to frontline teams and improves deployment efficiency.
+
+    **Try This:**
+
+    - In Azure AI Foundry, open your agent and click Publish to Copilot.
+    - Confirm availability in Word, Teams, and other supported Microsoft 365 apps.
+
+    **Why This Matters:**
+
+    **Business Impact:** Accelerates delivery of tailored AI capabilities across the enterprise.
+
+    **Personal Impact:** Developers spend less time on integration work and more time innovating.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    
+    [Publish agents to Microsoft 365 Copilot and Microsoft Teams](/azure/ai-foundry/agents/how-to/publish-copilot)
+- **Users can leverage multi-agent workflows** [Windows, Web]
+
+  Agents in Copilot can now use other agents to accomplish work if configured. Users can see the interaction between agents.
+
+    **Details:**
+
+    **What changed:** Researcher and other agents could call simple APIs but not other AI agents. Now multiple agents will coordinate to respond to the user's task.
+
+    **Why:** Multi-agent systems support more difficult work that requires multiple special AI systems.
+
+    **Try this:**
+
+    - Administrators: Add some of your most-used agents to Researcher.
+    - Users: Use Researcher on topics that require expertise from the agents available in Researcher's Sources menu.
+    - Developers: Connect other Declarative Agents to your agent.
+
+    **Why this matters:**
+
+    **Business impact:** Streamlines complex, multi system workflows.
+
+    **Personal impact:** Makes interactions with multiple agents feel smoother.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-connected-agents-for-researcher)
+
+    [Connect to other agents from a declarative agent](/microsoft-365-copilot/extensibility/declarative-agent-connected-agent)
+### Microsoft Loop
+- **Generate PowerPoint grounded on a Copilot page** [Web]
+
+  Create a PowerPoint deck grounded on a Copilot page to present page content quickly.
+
+    **Roadmap ID:** [499425](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=499425)
+
+    **Details:**
+
+    **What changed:** You can generate a PowerPoint presentation grounded on the content of a Copilot page, enabling rapid presentation creation based on existing information.
+
+    **Why:** Teams often needs to transform the content on a Page to slide format. Grounded generation speeds up this process and keeps slides aligned with the source.
+
+    **Try this:**
+
+    - Create a launch plan for a new electric scooter brand, including
+    key messaging, target audience, launch channels, and success
+    metrics. Organize it as an outline I can turn into a presentation.​
+
+    - Draft a competitive analysis comparing Nike and Adidas across brand positioning, digital strategy, and customer engagement.
+    Present it as an outline ready to convert into a PowerPoint deck.
+
+    - Develop an employee onboarding overview that covers company culture, core values, and 30-day goals. Structure it as a
+    presentation outline I can generate into slides.
+
+    **Why this matters:**
+
+    **Business impact:** Saves time turning working pages into presentations for reviews and updates.
+
+    **Personal impact:** Helps individuals present page content without manual slide creation.
+
+
+    **Additional Resources:**
+
+    **Support:**
+
+    [Convert your Microsoft 365 Copilot Page into a Word document or PowerPoint presentation](https://support.microsoft.com/topic/convert-your-microsoft-365-copilot-page-into-a-word-document-or-powerpoint-presentation-f39f872a-4f47-408c-8fc9-2c6808c003a1)
+
+<!--- All features regardless of platform go here  -->
+<!-- 74703,100671,100312,96561,96560,96300,104967,104073,102626,101108,97855 -->
+
+## January 13, 2026
+Updates released between December 23, 2025, and January 13, 2026.
+### Microsoft 365 admin center
+- **Admin control to customize AI disclaimers in Copilot Chat** [Windows, Web]
+
+  We updated the AI Disclaimer experience in Microsoft Copilot Chat based on customer feedback. To address this, we introduced an admin control that allows organizations to customize how the disclaimer appears, improving user awareness and flexibility.
+
+  **Details:**
+
+  **What changed:** The AI disclaimer will remain visible in the user experience.
+Admins will gain the ability to heighten this message and to provide a link to their own documentation:
+The disclaimer will display bolded text for increased visibility.
+Admins can configure a custom URL pointing to their AI policy documentation.
+
+  **Why:** Organizations asked for more control over how the disclaimer appears to improve user awareness and flexibility.
+
+  **Try this:**
+
+  - Review the new AI Disclaimer setting in the Admin Portal. 
+  - Decide whether you want to configure this setting for your organization.
+  - If desired, prepare a custom URL to include in the UX.
+  - Communicate this change to your helpdesk staff and Copilot users.
+  - Update internal documentation if you reference the disclaimer experience.
+
+  **Why this matters:**
+
+  **Business impact:** Allows organizations to customize how the disclaimer appears.
+
+  **Personal impact:** Improves user awareness of the disclaimer.
+
+### Microsoft 365 Copilot app
+- **Access all your Copilot-generated content in one library** [Android, Windows, iOS, Mac, Web]
+
+  Use the new Library in the Microsoft 365 Copilot app to easily find and manage your Copilot-created images and pages.
+
+  **Roadmap ID:** [501783](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=501783)
+
+  **What changed:** A new centralized Library view in Copilot lets users access all their AI-generated assets in one place.
+
+  **Why:** Improves organization and removes friction in retrieving past Copilot content.
+
+  **Try this:**
+
+  - Open Copilot app → go to Library
+  - Filter by images or summaries
+  - Share content in Teams or email
+
+  **Business impact:** Boosts collaboration by making assets reusable and sharable.
+
+  **Personal impact:** Saves time by avoiding re-creating previous work.
+
+  **Additional resources:**
+
+  **Learn:**  
+  [Microsoft 365 Copilot Library](/copilot/microsoft-365/copilot-library)
+
+### Microsoft 365 Copilot Chat
+- **Search for meetings by organizer using Copilot Chat** [Windows]
+
+  Quickly find meetings scheduled by a specific person to review or prioritize your calendar.
+
+  **Roadmap ID:** [503859](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=503859)
+
+  **What changed:** Copilot Chat now lets you search your calendar for meetings organized by a specific individual.
+
+  **Why:** Helps users locate calendar items and prioritize activities faster.
+
+  **Try this:**
+
+  - Ask Copilot: “Find meetings organized by Alex Johnson next week.”
+  - Or: “Summarize action items from last 3 meetings organized by Sarah Davis.”
+
+  **Business impact:** Reduces wasted time searching for calendar details.
+
+  **Personal impact:** Gives quick control and visibility over relevant scheduled events.
+  
+### Microsoft 365 Copilot extensibility
+- **Build smarter agents with GPT-5 in Agent Builder** [Android, Windows, iOS, Mac, Web]
+
+  Create more capable and context-aware Copilot agents powered by GPT-5, delivering richer responses and streamlined experiences for your users. 
+
+  **Roadmap ID:** [502552](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502552)
+
+  **Details:** 
+
+  **What changed:** 
+Declarative agents built in Microsoft 365 Copilot now use GPT-5 as the underlying chat model, enabling advanced reasoning, more natural language understanding, and improved multi-step processing. 
+
+  **Why:** 
+Organizations need AI-powered solutions that not only respond accurately but anticipate user needs. GPT-5 delivers higher precision and better handling of complex queries, resulting in agents that feel more responsive and intelligent, reducing repetitive follow-ups. 
+
+  **Try This:** 
+  - Open Agent Builder in Microsoft 365 Copilot to create a new declarative agent that runs on GPT‑5 as the foundation.
+  - Configure your agent with domain-specific knowledge and test its ability to handle scenario-based queries. 
+  - Ask your new agent: *“Help me draft a Q4 performance summary with recommendations based on last quarter’s sales trends.”* 
+
+  **Why this matters:** 
+
+  **Business Impact:** Smarter agents mean streamlined workflows and faster completion of complex business processes, reducing time-to-value and improving ROI on AI initiatives. 
+
+  **Personal Impact:** Users experience fewer frustrations when interacting with Copilot, getting precise answers and recommendations that fit their context—saving time and effort.
+
+- **Connect Dropbox for smarter Copilot file access** [Web]
+
+  Integrate Dropbox with Copilot to access, retrieve, and manage files directly, regardless of where they are stored. 
+
+  **Roadmap ID:** [513282](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513282)
+
+  **What Changed:** A new Copilot connector allows you to integrate Dropbox into the Microsoft 365 Copilot experience. Once connected, Copilot can retrieve and manage files stored in Dropbox and use them for context in responses.
+
+  **Why:** This update eliminates friction by letting Copilot work across locations, so users never waste time searching or switching services. 
+
+  **Try This:** 
+
+  - In Copilot settings, enable the Dropbox connector and sign in with your account. 
+  - **Ask Copilot**, “Summarize the Q4 plan from my Dropbox folder.” 
+  - Use Copilot in Word to insert insights from Dropbox files into a report. 
+
+  **Why it Matters:**
+
+  **Business Impact:** Improve team efficiency by unifying data access across platforms, eliminating manual transfers. 
+
+  **Personal Impact:** Create and edit content with ease by letting Copilot pull in what you need, including content from Dropbox.
+
+  **Additional resources:**
+
+  **Learn:**  
+  [Google Drive Microsoft 365 Copilot connector overview](/microsoftsearch/google-drive-overview)
+ 
+
+- **Connect Microsoft 365 Copilot with Guru for enhanced insights** [Web]
+
+  Microsoft 365 Copilot can now connect with Guru to surface internal knowledge and team insights, enhancing team collaboration and decision-making.
+
+  **Roadmap ID:** [513281](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513281)
+
+
+  **Details:**
+
+  **What changed:** Previously, Microsoft 365 Copilot operated with its standard integrations. With this update, users can connect Microsoft 365 Copilot with Guru, allowing it to access and utilize internal knowledge bases and team insights directly within the workflow.
+
+  **Why:** This feature was added to leverage the wealth of internal knowledge and insights stored in Guru. By doing so, it enhances decision-making processes and streamlines access to valuable information for team members.
+
+  **Try this:**  
+  - Connect Microsoft 365 Copilot with Guru to start accessing your organization's internal knowledge base.
+  - Use the Copilot Connector to query specific team insights and data stored in Guru.
+  - Implement this connection in your workflow to improve collaboration and information retrieval during meetings or project planning.
+
+  **Why this matters:**
+
+  **Business impact:** Integrating Microsoft 365 Copilot with Guru enhances technological capabilities, optimizes workflow efficiency, and strengthens team collaboration by providing immediate access to critical insights.
+
+  **Personal impact:** Individual users benefit from quicker access to information and insights, aiding personal productivity and informed decision-making.
+
+
+- **Expand Copilot Agents with Mail, People, and Meeting Insights** [Windows, Web]
+
+  Copilot declarative agents can now integrate with richer M365 data: mail, people's data, Teams chats, and meeting transcripts.
+
+  **What Changed:** Agents can now tap into richer Microsoft 365 data sources - email, Teams chats, meeting transcripts, and people data - to deliver more context-aware answers and automate tasks seamlessly.
+
+  **Why:** Modern work spans inboxes, chats, calendars, and documents. Constant switching slows teams down. By grounding declarative agents in organizational data, Copilot reduces context-switching, improves accuracy, and accelerates decision-making.
+
+  **Try This:**
+
+  - Create a declarative agent that uses Meetings data to generate a project summary.
+  - **Sample query:** “Summarize decisions and blockers from this week’s meetings relating to Project X.”
+  - Create a declarative agent that uses Email data to draft emails.
+  - **Sample query:** "Draft follow up emails for unresolved items from yesterday."
+
+  **Why This Matters:**
+
+  **Business Impact:** Teams works faster when Copilot agents bring context from across Microsoft 365 into one place. By reducing time spent searching through emails, chats and transcripts, organizations improve decision accuracy, accelerate workflows, and keep projects moving without delays.
+
+  **Personal Impact:** Users no longer need to juggle multiple tools to gather context. Copilot agents can consolidate multiple knowledge capabilities in one place, saving time and reducing cognitive load throughout the workday.
+
+  **Additional resources:**
+
+  **Learn:**  
+  [Add knowledge sources to your declarative agent](/microsoft-365-copilot/extensibility/knowledge-sources)
+
+- **Generate Office documents from agents in Copilot Studio lite** [Windows, Web]
+
+  Agents built with Copilot Studio lite can generate PowerPoint decks, Excel spreadsheets, and Word documents via chat, with files saved to OneDrive.
+
+  **Roadmap ID:** [506753](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=506753)
+
+  **Details:**
+
+  **What changed:** Office skills are available in Copilot Studio lite. Users can chat with an agent to generate PowerPoint, Excel, and Word files. Files are saved to OneDrive to streamline organization and support retention policies. These skills are part of the “Generate code, graphs, and documents” capability (formerly known as Code Interpreter).
+
+  **Why:** Automating common document tasks helps teams move faster and maintain consistency, while OneDrive storage supports governance needs.
+
+  **Try this:**
+
+  - Ask your agent to create a Word document with a project outline.
+  - Request an Excel spreadsheet with labeled columns for status tracking.
+  - Generate a PowerPoint deck with section titles for an upcoming review.
+
+  **Why this matters:**
+
+  **Business impact:** Reduces manual document creation time and supports compliant storage.
+  
+  **Personal impact:** Makes everyday document tasks quicker and easier.
+
+  **Additional resources:** 
+
+  **Learn:**  
+[Add capabilities](/microsoft-365-copilot/extensibility/agent-builder-build-agents#add-capabilities)
+ 
+- **Simplified ServiceNow tickets setup with per-table ACL rules** [Web]
+
+  Admins can now define ACL permission rules per table for ServiceNow ticket ingestion, reducing setup complexity.
+
+  **Details:**
+
+  **What changed:** Previously, permissions were selected for all tables combined. Now, admins define permission rules for each selected table, improving control and clarity.
+
+  **Why:** Per-table ACL rules simplify configuration and provide finer-grained access control aligned with data security practices.
+
+  **Try this:**
+
+  - Set ACL permissions for a single table that requires restricted access.
+  - Review and adjust table-level rules to match ingestion needs.
+  - Validate table permissions to ensure correct access during ingestion.
+
+  **Why this matters:**
+
+  **Business impact:** Reduces configuration complexity and improves security alignment for ticket data.
+  
+  **Personal impact:** Helps individuals manage permissions more clearly and confidently.
+
+  **Additional resources:**
+
+  **Learn:**  
+  [Access permissions](/microsoftsearch/servicenow-tickets-deployment#access-permissions)
+ 
+- **Smart document management with Google Drive integration** [Web]
+
+  Connect Google Drive to Copilot for smooth collaboration in multiple clouds.
+
+  **What Changed:** Copilot can access, reference, and combine insights from Google Drive files, allowing for richer, cross-platform collaboration.
+
+  **Why:** This feature ensures Copilot brings content from different sources together, reducing complexity and improving workflow. 
+
+  **Try This:**
+
+  - Add Google Drive as a connector in Copilot settings. 
+  - Ask Copilot in Word, “Combine insights from my Google Drive marketing plan and recent reports.” 
+  - Use Copilot in PowerPoint to create a slide pulling directly from Google Drive data.
+
+  **Why it Matters:**
+
+  **Business Impact:** Improves cross-platform workflows in hybrid environments
+
+  **Personal Impact:** Minimizes context switching and increases document creation efficiency
+
+  **Additional resources:** 
+
+  **Learn:**  
+  [Google Drive Microsoft 365 Copilot connector overview](/microsoftsearch/google-drive-overview)
+ 
+- **Template-based knowledge ingestion for ServiceNow Knowledge Connector** [Web]
+
+  ServiceNow Knowledge Connector now ingests articles created using out-of-the-box and custom templates, expanding coverage and flexibility.
+
+  **Roadmap ID:** [505436](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=505436)
+
+
+
+  **Details:**
+
+  **What changed:** Previously, template-based knowledge articles were not ingested. The connector now supports out-of-the-box templates such as FAQ, How to, and What is, as well as custom templates used by customers.
+
+  **Why:** Supporting common and custom templates ensures more knowledge content is accessible, improving search and guidance quality.
+
+  **Try this:**
+
+  - Ingest FAQ template articles to improve self-service answers.
+  - Include How to articles to guide users through procedures.
+  - Add custom template articles to reflect organizational standards.
+
+  **Why this matters:**
+
+  **Business impact:** Broadens access to structured knowledge and improves help coverage for teams.
+  
+  **Personal impact:** Makes it easier for individuals to find accurate, template-based guidance.
+
+  **Additional resources:**
+
+  **Learn:**  
+  [Connector capabilities and limitations](/microsoftsearch/servicenow-knowledge-overview#connector-capabilities-and-limitations)
+
+## December 23, 2025
+Updates released between December 10, 2025, and December 23, 2025.
+### Microsoft 365 Copilot app
+- **GPT-5 powers Copilot Chat by default** [Android, Windows, iOS, Mac, Web]
+
+  Copilot Chat delivers faster, smarter results using GPT-5 as the default model.
+
+  **Details:**
+
+  **What Changed:** All Copilot Chat experiences run on GPT-5 by default. Copilot automatically routes prompts to the best-performing models for each task, using fast models for basic tasks and specialized reasoning models for multi-step requests.
+
+  **Why:** Users want speed, accuracy, and minimal friction. This update helps to ensure consistent, high-quality AI interactions in Copilot Chat.
+
+  **Try This:**
+
+  - “Get me up to speed on the latest plans related to [project/initiative]. Help me think through what to do next.”
+  - “Use the attached spreadsheet with customer feedback to create a polished executive report that helps upper management decide where to prioritize resources in our next cycle.”
+
+  **Why this matters:**
+
+  **Business Impact:** Increases accuracy and productivity, helping teams make strong decisions and complete complex work faster.
+
+  **Personal Impact:** Removes friction by letting Copilot choose the best model--fast or reasoning--for the prompt.
+
+  **Additional resources:**
+
+  **Blogs:** 
+
+  <a href="https://www.microsoft.com/microsoft-365/blog/2025/08/07/available-today-gpt-5-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6" target="_blank">Available today: GPT-5 in Microsoft 365 Copilot</a>
+### Microsoft 365 Copilot Chat
+- **Streamlined Copilot chat navigation with expanded history** [Windows, Web]
+
+  A redesigned navigation pane provides a cleaner layout and expanded chat history, making it easier to switch between conversations. This allows you to switch between conversations and pick up where you left off, perfect great for fast-paced projects and multitasking.
+
+  **Roadmap ID:**    <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=516570" target="_blank">516570</a>
+
+  **Details:**
+
+  **What Changed:** The Copilot navigation pane highlights key agents, removes clutter, and expands visible chat history beyond the previous limit of five recent chats. Chat search is also more prominent for faster access to specific threads. This reduces interface clutter.
+
+  **Why:** Users wanted an interface that feels organized and speeds up workflow. This redesign lets you quickly return to prior conversations without digging through menus. 
+
+  **Try This:**
+  - Open the navigation pane in Copilot to see the improved design.
+  - Search for a previous project conversation using the updated chat search bar.
+  - Pin your most important chats to keep them accessible during critical work sessions.
+
+  **Why this matters:**
+
+  **Business Impact:** Standard, simplified navigation UI to help reduce downtime from searching old threads.
+
+  **Personal Impact:** Enjoy a simpler, less cluttered workspace with easier access to past chats.
+
+### Microsoft 365 Copilot extensibility
+- **Access IT service documentation with Freshservice integration** [Web]
+
+  Let Copilot retrieve IT documentation and troubleshooting instructions directly from Freshservice with this integration.
+
+  **Roadmap ID:**    <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=513280" target="_blank">513280</a>
+
+  **Details:**
+  
+  **What Changed:** Freshservice connector gives access to IT procedures and knowledge articles
+
+  **Why:** IT teams and employees often struggle with finding the right documentation. With Copilot pulling service details in real time, response times and productivity benefit.
+
+  **Try This:**
+  - Connect Freshservice in Copilot settings. 
+  - Ask Copilot, “What’s the procedure for resetting passwords from Freshservice?” 
+  - Insert a troubleshooting guide directly into a Teams post for your team. 
+
+  **Why this matters:**
+
+  **Business Impact:** Faster issue resolution reduces downtime and keeps employees productive. 
+
+  **Personal Impact:** Remove frustration, solve issues, and prevent delays caused by searching for documentation.
+ 
+  **Additional resources:** 
+ 
+  **Learn:**
+  
+     <a href="/microsoftsearch/freshservice-overview" target="_blank">Freshservice Microsoft 365 Copilot connector overview</a>
+
+- **Upload Larger Files in Copilot Studio Agent Builder** [Android, Windows, iOS, Web]
+
+  Agent Builder now supports file uploads up to 512 MB when creating agents, ideal for larger files.
+
+  **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500375" target="_blank">500375</a>
+
+  **Details:**
+
+  **What Changed:**
+  This increases the upload size limit in Agent Builder to 512 MB, enabling use of larger files as grounding data.
+
+  **Why:**
+  Users requested more flexibility for grounding agents. Larger files reduce the need to split or compress documents.
+
+  **Try This:**
+  - Drag and drop large documents such as training manuals into your agent project.
+  - Create the agent and ask it to summarize information from uploaded files.
+
+  **Why this matters:**
+
+  **Business Impact:** Allows enterprises to build agents with richer, domain-specific knowledge.
+
+  **Personal Impact:** Complete your work without the need to split files or compress data.
+
+  **Additional resources:**
+ 
+  **Learn:**
+ 
+  <a href="/microsoft-365-copilot/extensibility/agent-builder-add-knowledge#embedded-file-content" target="_blank">Embedded file content</a>
+- **Use .NET client libraries to integrate Microsoft 365 Copilot APIs** [Web]
+
+  Offers official .NET SDKs for integrating with Microsoft 365 Copilot APIs.
+  
+  **Details:**
+
+  **What changed:** Released a .NET SDK for Copilot API calls, making integration easier.
+
+  **Why:** Meets enterprise developers’ need for secure .NET integration options.
+
+  **Try This:**
+  - Install NuGet package
+  - Authenticate and initiate Copilot prompt calls
+  - Process responses in your .NET app
+
+  **Why this matters:**
+
+  **Business Impact:** Improves developer productivity and project speed.
+
+  **Personal Impact:** Gives .NET teams direct hooks into Copilot capabilities.
+
+  **Additional resources:** 
+  
+  **Learn:**
+ 
+  <a href="/microsoft-365-copilot/extensibility/sdks/api-libraries?tabs=csharp" target="_blank">Microsoft 365 Copilot APIs client libraries</a>
+
+- **Use Python client libraries to integrate Microsoft 365 Copilot APIs** [Web]
+
+  Adds official Python libraries for secure integration with Microsoft 365 Copilot APIs.
+
+  **Details:**
+
+  **What changed:** Developers can now leverage Microsoft 365 Copilot APIs using Python SDKs.
+
+  **Why:** Opens opportunities for AI workflows in Python-based applications.
+
+  **Try This:** 
+
+  - Install Python SDK
+  - Authenticate using OAuth
+  - Send prompts and parse results
+
+  **Why this matters:**
+
+  **Business Impact:** Expands Copilot customization for enterprise developers.
+
+  **Personal Impact:** Python devs gain first-class access to Copilot APIs.
+
+  **Additional resources:**
+
+  **Learn:**
+ 
+  <a href="/microsoft-365-copilot/extensibility/sdks/api-libraries?tabs=csharp" target="_blank">Microsoft 365 Copilot APIs client libraries</a>
+
+- **Use TypeScript client libraries to integrate Microsoft 365 Copilot APIs** [Web]
+
+  Build custom integrations with Microsoft 365 Copilot APIs using official TypeScript SDK libraries.
+
+ 
+    **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501574" target="_blank">501574</a>
+
+  **Details:**
+
+  **What changed:** Official TypeScript SDK released for Copilot API integration in web apps.
+
+  **Why:** Standardizes developer integration with Microsoft 365 Copilot features.
+
+  **Try This:**
+
+  - Install SDK via npm
+  - Authenticate using Microsoft Identity
+  - Test API calls for Copilot prompts
+
+  **Why this matters:**
+
+  **Business Impact:** Enables custom enterprise apps with AI-powered features.
+
+  **Personal Impact:** Developers have a secure, documented method for advanced builds.
+
+  **Additional resources:**
+
+  **Learn:**
+ 
+  <a href="/microsoft-365-copilot/extensibility/sdks/api-libraries?tabs=csharp" target="_blank">Microsoft 365 Copilot APIs client libraries</a>
+- **View and Manage SharePoint Agents with Greater Control** [Web]
+
+  Admins can now see all SharePoint agents in a single unified view and manage them more intuitively with a streamlined delete action.
+
+  **Details:**
+  
+  **What Changed:** The enhanced Copilot Control System UI introduces a centralized SharePoint agent inventory and replaces the previous block/unblock workflow with a clear, simplified delete option.
+
+  **Why:** Admins requested more transparent oversight of deployed agents, and this update delivers easier tracking, review, and lifecycle management.
+
+  **Try This:**
+  - Go to Agents and Connectors in the Copilot Control System.
+  - Review all existing SharePoint agents and delete those that are outdated, unused, or no longer compliant.
+
+  **Why this matters:**
+
+  **Business Impact:** Strengthens governance and operational hygiene by reducing risk from stale or misconfigured agents.
+
+  **Personal Impact:** Saves time with straightforward, intuitive controls instead of complex, multi-step administration.
+  
+### Microsoft 365 Copilot Studio
+- **Build Copilot agents using organizational People data** [Windows, Web]
+
+  Developers can build agents in Copilot Studio that deliver personalized, context-aware responses using organizational People data.
+
+  **Details:**
+  
+  **What changed:** Added the ability for agent builders to access and use People data from your directory in responses.
+
+  **Why:** Makes interactions more contextual and human-centric for better relevance.
+
+  **Try This:** 
+  - Enable People data in Agent Builder
+  - Create an agent to answer org-specific directory questions
+  - Test in Microsoft Teams
+
+  **Why this matters:**
+
+  **Business Impact:** Improves accuracy and personalization in enterprise workflows.
+  
+  **Personal Impact:** Users get tailored answers courtesy of context-rich data.
+
+  **Additional resources:**
+  
+  **Learn:**
+  
+  <a href="/microsoft-365-copilot/extensibility/agent-builder-add-knowledge" target="_blank">Add knowledge sources to your declarative agent in Microsoft 365 Copilot</a>
+
+### PowerPoint
+- **Use your organization’s approved assets in Copilot presentations** [Mac, Windows, Web]
+
+  Create branded PowerPoint slides by pulling images and templates from your company’s SharePoint asset library or Templafy integration.
+
+    **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=496366" target="_blank">496366</a>
+      
+  **Details:**
+
+  **What changed:** PowerPoint Copilot integrates with SharePoint Organization Asset Library and Templafy for approved, compliant visuals.
+
+  **Why:** Ensures quality designs aligned with corporate branding guidelines.
+
+  **Try This:** 
+  - Configure SharePoint OAL or Templafy in Microsoft 365
+  - Ask Copilot: “Create a marketing update deck using brand imagery.”
+
+  **Why this matters:**
+
+  **Business impact:** Maintains brand identity across all content.
+
+  **Personal Impact:** Saves design time by eliminating manual asset searching.
+
+  **Additional resources:**
+
+  **Learn:**
+ 
+  <a href="/sharepoint/organization-assets-library" target="_blank">Create an organization assets library</a>
+
+### Word
+- **Referenced sources cited in drafted content** [Windows]
+
+  Draft content with confidence as Copilot automatically includes citations, referencing the information in your text. This feature ensures accuracy and credibility, saving time on manual citation.
+
+
+    **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=380842" target="_blank">380842</a>
+
+  **Details:**
+
+  **What changed:** Copilot in Word now automatically generates citations when incorporating external information into your drafts. This process highlights references directly within the text, eliminating the need for manual citation entry.
+
+  **Why:** Proper attribution is vital for maintaining credibility and avoiding plagiarism. This enhancement simplifies the citation process, ensuring academic and professional integrity without added effort.
+
+  **Try This:**
+
+  - While drafting in Word, ask Copilot: "Include citations for referenced content."
+  - Use Copilot commands to review the generated citations for completeness and accuracy.
+  - Compare the citation style used with your preferred or required academic formatting.
+
+  **Why this matters:**
+
+  **Business Impact:** Enhances the reliability of professional documents by ensuring proper attribution without a complex citation process.
+
+  **Personal Impact:** Save time creating references, allowing more focus on content quality and creativity.
+
+
+<!-- 97032,101872,101667,101293,101383,101349,102997 -->
+## December 10, 2025
+Updates released between November 25, 2025, and December 10, 2025.
+### Microsoft 365 Copilot app
+- **Create polished videos faster with seamless editing and brand customization** [Web]
+
+  Turn text prompts or PowerPoint, Word, and PDF files into high-quality videos. Create professional videos quickly with easier editing, brand integration, and media customization.
+
+  **Roadmap ID:**  <a href="https://www.microsoft.com//microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501560" target="_blank">501560</a>
+
+  **Details:**
+
+  **What changed:**
+  
+  With the upgraded AI Video Creator in Microsoft 365 Copilot, use these new capabilities:
+
+
+  -  Transcript-based editing for greater control. 
+  -  Access to your assets from OneDrive to update stock media. 
+  -  Natural-sounding voiceovers for more authentic narration. 
+  -  Brand color integration from Brand Kit. 
+  -  A redesigned, scene-based structure for streamlined storytelling. 
+  -  A cleaner editing experience for faster, intuitive workflows. 
+
+  **Why:** Video is a powerful medium, but creating professional-quality content is often time-consuming and technically challenging. This update removes roadblocks, so teams create compelling videos in a fraction of the time, using assets and brand elements they already have. 
+
+  **Try this:**
+
+
+  - In Microsoft 365 Copilot, select Create and upload a Word, PDF, or PowerPoint file to generate your first video   draft.
+  - Click on a sentence in the transcript to cut or move sections without timeline complexity. 
+  - Add your official colors from Brand Kit, and swap generic visuals with your OneDrive media for a branded look.
+
+  **Why this matters:** 
+  
+  **Business Impact:** Reduce production bottlenecks and costs by empowering employees to create professional videos for training, marketing, or executive updates without third-party agencies. 
+
+  **Personal Impact:** Focus on the story, save hours on content creation, and eliminate the need for advanced video editing.
+
+  **Additional resources:**
+
+  **Support:**
+
+  
+     <a href="https://support.microsoft.com/topic/create-a-video-with-the-microsoft-365-copilot-app-4edd41f6-a7ad-47d5-9a55-3fd25622c9f8" target="_blank">Create a video with the Microsoft 365 Copilot app</a>
+
+- **Get AI-powered summaries with search views**
+
+  AI Views creates AI-generated summaries to help you identify relevant content, quickly understand search results, and spend less time digging through documents. 
+
+
+  **Details:**
+
+  **What changed:**
+
+  AI Views is now available in the Microsoft 365 Copilot app search experience. It uses AI and Microsoft Graph signals to generate key point summaries for your search results directly on the Copilot Search page. 
+
+  **Why:**
+Users often waste time viewing multiple documents to find the right information. Now users see  an AI and Microsoft Graph-powered overview of search results  inside the Search results page.
+
+  **Try this:**
+
+
+  - Open the Microsoft 365 Copilot app and run a search for a project or topic you’re working on.
+  - Hover over any search result to see the Overview button
+  - View a summary containing context and use the input box at the bottom to Ask Copilot.
+
+  **Why this matters:** 
+
+  **Business Impact:** Teams makes decisions faster with quick access to context-rich summaries, improving productivity. 
+
+  **Personal Impact:** Get key information immediately, letting you focus on delivering results instead of hunting for data.
+### Microsoft 365 Copilot extensibility
+
+- **Access custom engine agents in multiple apps** [Web]
+
+  Use custom engine agents in Word and Excel for a unified Copilot experience everywhere you work.
+
+  **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481136" target="_blank">481136</a>
+
+
+  **Details:**
+
+  What changed: 
+You can see more available custom engine agents across key Microsoft 365 surfaces.
+
+  **Why:** 
+Power users and developers can experience reduced fragmentation and improved workflow consistency.
+
+  **Try this:**
+
+
+  - In Outlook, activate a custom agent for summarizing incoming correspondence based on enterprise policies.
+
+  **Why this matters:**
+
+  **Business Impact:** Extends the value of custom Copilot agents across the Microsoft 365 ecosystem.
+
+  **Personal Impact:** Offers a seamless experience without switching apps or rebuilding context.
+  
+- **Edit adaptive cards inline for a faster build process** [Web]
+
+  Developers can now make quick inline edits on adaptive cards without leaving their design environment, reducing turnaround times. 
+
+  **Details:**
+
+  **What changed:**
+Action.Execute now supports inline editing for adaptive cards.  
+
+  **Why:**
+Custom apps allow for unblocked rapid iteration.  
+
+  **Try this:**
+
+
+  - While building a card, adjust field labels and actions inline instead of exporting and re-importing.  
+
+  **Why this matters:**
+
+  **Business Impact:** Speeds up partner development cycles for faster app rollouts.  
+
+  **Personal Impact:** Eliminates frustrating small text or layout changes.   
+
+  **Additional resources:**
+
+  **Learn:**
+
+  
+   <a href="/microsoft-365-copilot/extensibility/adaptive-card-edits" target="_blank]">Allow inline editing of Adaptive Card responses</a>
+
+
+- **Better security insights help you build confidently** [Web]
+
+  Makers can now see an agent’s detailed protection status and  actionable recommendations in Copilot Studio.
+
+
+  **Details:**
+What changed:
+Enforce protections accurately with a richer visualization of security posture for agents.  
+
+  **Why:**
+Creators are empowered to manage compliance and proactively minimize risks.  
+
+  **Try this:**
+
+
+  - In Copilot Studio, check the security summary for your agent and apply suggested actions to meet policy.  
+
+  **Why this matters:**
+
+  **Business Impact:** Maintains compliance without slowing innovation.  
+
+  **Personal Impact:** Gives creators peace of mind knowing their agents meet enterprise security standards.    
+
+  **Additional resources:**
+
+  **Learn:**
+
+  
+   <a href="/microsoft-copilot-studio/security-agent-runtime-view" target="_blank">Agent runtime protection status</a>
+
+### Microsoft 365 SharePoint
+- **Add multiple SharePoint agents in one Teams conversation** [Web]
+  
+  Include more than one SharePoint agent in a single Teams chat, meeting, or channel. Teams and SharePoint now work together better for smarter collaboration.  
+
+  **Roadmap ID:**<a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481136" target="_blank"> 481136</a>
+
+
+  **Details:**
+
+  **What changed:**
+Teams supports multiple SharePoint agents in a single group chat or channel.  
+
+  **Why:**
+Experience richer scenarios where multiple libraries or sites provide simultaneous insights.  
+
+  **Try this:**
+
+
+  - In your project channel, add two different SharePoint agents to get instant answers about separate libraries.  
+
+  **Why this matters:**
+
+  **Business Impact:** Keeps all content conversation in context, reducing silos across different sites.  
+
+  **Personal Impact:** Stay focused without the need to use multiple chats or apps to gather information.
+
+  **Additional resources:**
+
+  **Support:**
+
+  
+     <a href="https://support.microsoft.com/office/share-an-agent-from-sharepoint-in-teams-6dcbf7b5-8c13-44e5-a68a-dbd71fb76ad3">Share an agent from SharePoint in Teams</a>
+
+### Viva Glint
+- **Multilingual support in Copilot for Viva Glint** [Web]
+
+  Copilot in Viva Glint now understands and responds in multiple languages, helping employees interact in their preferred language.
+
+  **Roadmap ID:**
+<a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=508531" target="_blank">508531</a>
+
+  **Details:**
+
+  **What changed:**
+Copilot for Viva Glint detects the language of a user’s input and responds in that same language.
+
+  **Why:**
+Global teams often face challenges when a tool’s language support is limited. This update improves accessibility and usability, enabling employees to share feedback or gain insights without language barriers.
+
+  **Try this:**
+
+
+  - Type a prompt in your preferred language within Viva Glint Copilot.
+  - Review the response to confirm it matches the language you used.
+  - Share this experience with multilingual teams to streamline feedback processes.
+
+  **Why it Matters:**
+
+  **Business Impact:** Enhances inclusivity and compliance, making it easier to manage employee feedback across multiple regions.
+
+  **Personal Impact:** Saves time and reduces friction for employees who can now interact with Copilot in the language they’re most comfortable with.
+
+<!-- All features regardless of platform go here  -->
+<!-- 96890,101634,101246,98572,105501,101737,101655,101648,101641,101111,100743,100742,100599,96886,101360 -->
+## November 25, 2025
+
+Updates released between November 12, 2025, and November 25, 2025.
 
 ### Microsoft 365 admin center
 
@@ -42,105 +1674,85 @@ Updates released between November 12, 2025, and November 24, 2025.
 
   Prepay for Copilot message consumption with Capacity Packs and track usage easily—reducing unexpected billing surprises.  
 
-    Roadmap ID: [503145](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=503145)
+    **Roadmap ID:** [503145](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=503145)
 
-    **Details:**  
+    ****Details:****  
 
-    **What changed:** 
+    **What changed:** Introduced prepaid Capacity Packs (25,000 messages per month) that apply before pay-as-you-go billing kicks in, plus usage monitoring in PPAC.  
 
-    Introduced prepaid Capacity Packs (25,000 messages per month) that apply before pay-as-you-go billing kicks in, plus usage monitoring in PPAC.  
+    ****Why:**** Improves cost governance and simplifies budgeting for large-scale Copilot deployments.  
 
-    **Why:** 
-    
-    Improves cost governance and simplifies budgeting for large-scale Copilot deployments.  
+  **Try this:**
 
-  **Try This:**  
 
-  -  In Microsoft 365 Admin Center, purchase a Capacity Pack and monitor allocations in Power Platform Admin Center. 
+  -  In Microsoft 365 admin center, purchase a Capacity Pack and monitor allocations in Power Platform admin center. 
 
     **Why this matters:**  
 
-    **Business Impact:** 
-    
-    Predicts and controls Copilot spend with flexible prepaid options.  
+    **Business Impact:** Predicts and controls Copilot spend with flexible prepaid options.  
 
-    **Personal Impact:** 
-    
-    Gives admins peace of mind with transparent, upfront budgeting.  
+    **Personal Impact:** Gives admins peace of mind with transparent, upfront budgeting.  
 
-    **Additional Resources:**
+    **Additional resources:**
   
-    **Learn:** [Copilot Teams Transcription](/microsoftteams/copilot-teams-transcription)
-
-    [Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat and SharePoint agents](/copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs)
+    **Learn:**
 
 
----  
+     [Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat and SharePoint agents](/copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs)
+
+
 - **Reassign agent ownership with full control** [Windows, Web]
 
   Admins can now transfer ownership of shared agents, granting the new owner full edit and delete permissions and revoking all access from the previous owner.  
 
-  **Roadmap ID:** [502867](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=502867)
+  ****Roadmap ID:**** [502867](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=502867)
 
-  **Details:**  
+  ****Details:****  
 
-  **What changed:** 
-  
-  Ownership reassignment capabilities are now live in Microsoft 365 Admin Center, with edits propagating to agent files and associated content.  
+  **What changed:** Ownership reassignment capabilities are now live in Microsoft 365 admin center, with edits propagating to agent files and associated content.  
  
-  **Why:** 
-  
-  Helps maintain governance when employees leave roles or teams without disrupting workflows.  
+  ****Why:**** Helps maintain governance when employees leave roles or teams without disrupting workflows.  
 
-  **Try This:**  
+  **Try this:**
 
-  -  From Admin Center, select a shared agent > choose **Reassign Owner** > confirm access update.  
+
+  -  From admin center, select a shared agent > choose **Reassign Owner** > confirm access update.  
 
   **Why this matters:**  
 
-  **Business Impact:** 
-  
-  Reduces compliance and business continuity risks during staff transitions.  
+  **Business Impact:** Reduces compliance and business continuity risks during staff transitions.  
 
-  **Personal Impact:** 
-  
-  Admins can easily manage lifecycle changes without escalating to engineering teams. 
+  **Personal Impact:** Admins can easily manage lifecycle changes without escalating to engineering teams. 
 
-  **Additional Resources:**
+  **Additional resources:**
 
-   **Learn:** [Reassign an agent's owner with PowerShell](/power-platform/release-plan/2025wave2/microsoft-copilot-studio/reassign-agents-owner-powershell)
+   **Learn:**
 
-   ---
+    [Reassign an agent's owner with PowerShell](/power-platform/release-plan/2025wave2/microsoft-copilot-studio/reassign-agents-owner-powershell)
+
 
 - **Restrict org-wide agent sharing for better governance** [Web]
 
   Manage who can create org-wide sharing links for Copilot Studio agents to maintain tighter organizational control.  
 
-  **Roadmap ID:** [500376](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=500376)
+  ****Roadmap ID:**** [500376](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=500376)
 
-  **Details:**  
+  ****Details:****  
  
-  **What changed:** 
-  
-  New admin control blocks or enables org-wide visibility for Copilot agents.  
+  **What changed:** New admin control blocks or enables org-wide visibility for Copilot agents.  
  
-  **Why:** 
-  
-  Prevents accidental overexposure of sensitive workflows while allowing flexibility for approved agents.  
+  ****Why:**** Prevents accidental overexposure of sensitive workflows while allowing flexibility for approved agents.  
 
-  **Try This:**  
+  **Try this:**
 
-  -  In Admin Center, update **Sharing Settings** to limit org-wide agent links to specific roles or groups.  
+
+  -  In admin center, update **Sharing Settings** to limit org-wide agent links to specific roles or groups.  
 
   **Why this matters:**  
 
-  **Business Impact:** 
-
-  Reduces risk of unauthorized data exposure.  
+  **Business Impact:** Reduces risk of unauthorized data exposure.  
   
-  **Personal Impact:** 
-  
-  Gives admins full confidence before rolling out custom agents at scale
+  **Personal Impact:** Gives admins full confidence before rolling out custom agents at scale
 
 ### Microsoft 365 Copilot app
 
@@ -149,36 +1761,30 @@ Updates released between November 12, 2025, and November 24, 2025.
 
   Personalize the content and tone of audio summaries from your Copilot notebooks by using natural language input.  
 
-    **Roadmap ID:** [499150](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499150)
+    ****Roadmap ID:**** [499150](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499150)
 
-    **Details:**  
+    ****Details:****  
 
-    **What changed:** 
-    
-    Notebook audio overviews are now creator-driven with prompt-based customization.  
+    **What changed:** Notebook audio overviews are now creator-driven with prompt-based customization.  
 
-    **Why:** 
-    
-    Supports diverse use cases—like executive briefings or quick-learning sessions—without extra editing work.  
+    ****Why:**** Supports diverse use cases—like executive briefings or quick-learning sessions—without extra editing work.  
 
-    **Try This:**  
+    **Try this:**
 
-    -  Type: *"Create an upbeat 2-minute audio summary focused on key sales drivers."*  
+
+  -  Type: *"Create an upbeat 2-minute audio summary focused on key sales drivers."*  
 
     **Why this matters:**  
 
-    **Business Impact:** 
-    
-    Enhances the value of notebooks for communication and leadership updates.  
+    **Business Impact:** Enhances the value of notebooks for communication and leadership updates.  
 
-    **Personal Impact:** 
-    
-    Saves time creating engaging summaries without additional tools.  
+    **Personal Impact:** Saves time creating engaging summaries without additional tools.  
 
-    **Additional Resources:**
+    **Additional resources:**
   
-    **Learn:** 
-    
+    **Support:**
+
+
     [Get an audio overview of your notebook with Microsoft 365 Copilot Notebooks](https://support.microsoft.com/topic/get-an-audio-overview-of-your-notebook-with-microsoft-365-copilot-notebooks-a22df989-b9cd-47fb-abac-e888d8f10cd9)
 
 
@@ -188,88 +1794,73 @@ Updates released between November 12, 2025, and November 24, 2025.
 
   Copilot Chat now connects to shared mailboxes, so team-based conversations are more informed and collaborative.  
 
-  **Roadmap ID:** [488797](/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
+  ****Roadmap ID:**** [488797](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
 
-  **Details:**  
+  ****Details:****  
 
   **What changed:** Users with shared mailbox permissions can ground Copilot responses in shared mail content, just like their own emails.  
 
-  **Why:** Eliminates context gaps in team workflows and improves shared visibility on projects.  
+  ****Why:**** Eliminates context gaps in team workflows and improves shared visibility on projects.  
 
-  **Try This:**  
- 
+  **Try this:**
+
+
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
  
-  - Tell Copilot: *"List all the emails around (topic) from  (mailbox@domain.com) > mailbox ."*
+  - Tell Copilot: *"List all the emails around (topic) from  (mailbox@domain.com) > mailbox."*
 
   **Why this matters:**  
 
-  **Business Impact:** 
-  
-  Ensures customer responses or project updates aren't missed when responsibility spans multiple team members.  
+  **Business Impact:** Ensures customer responses or project updates aren't missed when responsibility spans multiple team members.  
 
-  **Personal Impact:** 
-  
-  Reduces copying and manual email checks across shared accounts—Copilot does it for you.
+  **Personal Impact:** Reduces copying and manual email checks across shared accounts—Copilot does it for you.
  
-  **Additional Resources:**
+  **Additional resources:**
 
-  [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
+  **Support:**
 
 
----
+    [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
+
 
 - **Find files faster with improved Copilot Chat filters** [Windows, Web]
 
   
   Use new file type and people refiners in Copilot Chat to quickly get to the right file without sifting through results.  
 
-  **Roadmap ID:** [481136](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=481136)
+  ****Roadmap ID:**** [481136](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=481136)
 
-  **Details:**  
+  ****Details:****  
  
-  **What changed:** 
-  
-  Introduced filters for file types and collaborators in Copilot Chat's CIQ Files tab.  
+  **What changed:** Introduced filters for file types and collaborators in Copilot Chat's CIQ Files tab.  
  
-  **Why:** 
-  
-  Cuts down time spent filtering manually, especially in large file repositories.  
+  ****Why:**** Cuts down time spent filtering manually, especially in large file repositories.  
 
-  **Try This:**  
+  **Try this:**
+
 
   -  In chat, search: *"Quarterly report"* → Filter by **Excel** and collaborator name.  
 
   **Why this matters:**  
  
-  **Business Impact:** 
-  
-  Improves productivity and reduces meeting prep time.  
+  **Business Impact:** Improves productivity and reduces meeting prep time.  
  
-  **Personal Impact:** 
-  
-  Less frustration—find what you need in seconds.
-
---- 
+  **Personal Impact:** Less frustration—find what you need in seconds.
 
 - **Talk to Copilot with voice for faster hands-free work** [Android, Windows, iOS, Mac, Web]
 
-  Speak to Copilot naturally on mobile or desktop to prepare for meetings,brainstorm ideas, or catch up on work—hands-free and grounded in work data.
+  Speak to Copilot naturally on mobile or desktop to prepare for meetings, brainstorm ideas, or catch up on work—hands-free and grounded in work data.
 
-  Roadmap ID: [481138](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
+  **Roadmap ID:** [481138](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
 
-  **Details:**
+  ****Details:****
 
-  **What changed:**
-  
-  Copilot now supports voice input, enabling natural, conversational interactions in the Microsoft 365 Copilot app on mobile, desktop and the web and in the  across Microsoft 365 apps, starting with Outlook, Word and PowerPoint.
+  **What changed:** Copilot now supports voice input, enabling natural, conversational interactions in the Microsoft 365 Copilot app on mobile, desktop and the web and across Microsoft 365 apps, starting with Outlook, Word and PowerPoint.
 
-  **Why:**
+  ****Why:**** Professionals need faster, more intuitive ways to engage with AI during their flow of work, especially when multitasking or on the move. Voice removes friction, letting you work where typing isn't practical.
 
-  Professionals need faster, more intuitive ways to engage with AI during their flow of work, especially when multitasking or on the move.
-Voice   removes friction, letting you work where typing isn't practical.
+  **Try this:**
 
-  **Try This:**
 
   -  Say: *"Confirm the agenda and attendee list for my next meeting"*.
 
@@ -279,17 +1870,16 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Why this Matters:**
 
-  **Business Impact:** 
-  
-  Voice drives productivity and inclusivity through natural interactions that increase engagement, accelerate task completion and reduce downtime.
+  **Business Impact:** Voice drives productivity and inclusivity through natural interactions that increase engagement, accelerate task completion and reduce downtime.
 
-  **Personal Impact:** 
-  
-  Work more comfortably and naturally while saving time, gaining efficiency and giving you the flexibility to use Copilot on the go or at your desk.
+  **Personal Impact:** Work more comfortably and naturally while saving time, gaining efficiency and giving you the flexibility to use Copilot on the go or at your desk.
 
-  **Additional Resources:**
+  **Additional resources:**
 
-  [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea?preview=true)
+  **Support:**
+
+
+    [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea?preview=true)
   
   
 ### Microsoft 365 Copilot extensibility
@@ -298,161 +1888,134 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   You can now interact with your organization's custom engine agents directly from your mobile device (iOS and Android), making Copilot even more adaptable to your workflows on the go. Whether you're away from your desk or managing tasks during a commute, your tailored business logic and automations are always at your fingertips. 
 
-  **Details:** 
+  ****Details:**** 
   
-  **What changed:** 
+  **What changed:** Support for custom engine agents is now available on the Microsoft 365 mobile experience (iOS and Android). You can access the same business-specific workflows and logic you have on desktop, ensuring uninterrupted productivity. 
   
-  Support for custom engine agents is now available on the Microsoft 365 mobile experience (iOS and Android). You can access the same business-specific workflows and logic you have on desktop, ensuring uninterrupted productivity. 
+  ****Why:**** Teams needs consistent, personalized Copilot functionality no matter where they work. Bringing extensibility to mobile ensures employees stay productive and connected—even when away from their primary workstation. 
   
-  **Why:** 
-  
-  Teams need consistent, personalized Copilot functionality no matter where they work. Bringing extensibility to mobile ensures employees stay productive and connected—even when away from their primary workstation. 
-  
-  **Try This:** 
- 
+  **Try this:**
+
+
   -  Open the Microsoft 365 mobile app, launch Copilot, and activate one of your custom engine agents. 
-  - Ask Copilot: *"Run our expense approval workflow and update me on pending approvals."* 
+  - **Ask Copilot:** *"Run our expense approval workflow and update me on pending approvals."* 
   
   **Why this matters:** 
   
-  **Business Impact:** 
+  **Business Impact:** Keep critical business processes running smoothly even when employees are mobile, reducing delays in approvals and operations. 
   
-  Keep critical business processes running smoothly even when employees are mobile, reducing delays in approvals and operations. 
+  **Personal Impact:** Enjoy the same customized Copilot experience wherever you work, saving time and reducing context-switching throughout your day. 
   
-  **Personal Impact:** 
+  **Additional resources:**
   
-  Enjoy the same customized Copilot experience wherever you work, saving time and reducing context-switching throughout your day. 
+  **Learn:**
   
-  **Additional Resources:**
 
-  [Custom engine agents for Microsoft 365 overview](/microsoft-365-copilot/extensibility/overview-custom-engine-agent)
-
----
+    [Custom engine agents for Microsoft 365 overview](/microsoft-365-copilot/extensibility/overview-custom-engine-agent)
 
 - **Enhanced search in Agent Store for easier discovery** [Windows, Web]
 
   Finding the right agents in the Copilot Agent Store just got faster and smarter. Enjoy a streamlined search experience with typeahead suggestions and a clean results page—making it simple to locate exactly what you need without wasted time.  
  
-  **Roadmap ID:** [502617](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617)
+  ****Roadmap ID:**** [502617](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502617)
 
-    **Details:**  
+    ****Details:****  
       
-    **What changed:** 
-    
-    The Agent Store now includes enhanced search capabilities featuring a responsive drop-down menu, typeahead functionality for quick suggestions as you type, and a dedicated search results page for improved clarity.  
+    **What changed:** The Agent Store now includes enhanced search capabilities featuring a responsive drop-down menu, typeahead functionality for quick suggestions as you type, and a dedicated search results page for improved clarity.  
 
-    **Why:** 
-    
-    Customers need a quicker, more intuitive way to explore and find agents. By reducing friction in discovery, you can deploy and extend Copilot solutions with less effort and greater confidence.  
+    ****Why:**** Customers need a quicker, more intuitive way to explore and find agents. By reducing friction in discovery, you can deploy and extend Copilot solutions with less effort and greater confidence.  
 
-    **Try This:**  
+    **Try this:**
 
-  -  Start typing an agent name in the search bar to see type ahead suggestions instantly.  
+
+  -  Start typing an agent name in the search bar to see type-ahead suggestions instantly.  
     
   -  Use the new full results page for a complete view of matching agents.  
 
   **Why this matters:**  
 
-  **Business Impact:** 
-  
-  Accelerate adoption by making it easy for teams to find and integrate the right Copilot tools quickly, boosting productivity across the organization.  
+  **Business Impact:** Accelerate adoption by making it easy for teams to find and integrate the right Copilot tools quickly, boosting productivity across the organization.  
 
   **Personal Impact:** 
-  
-  Save time and reduce frustration with simple, intuitive search that helps you get back to meaningful work faster.
----
+Save time and reduce frustration with simple, intuitive search that helps you get back to meaningful work faster.
+
 - **Export detailed agent metadata for better governance** [Web]
 
   Inventory exports now include richer metadata like capabilities, data sources, and creator details—empowering better auditing and lifecycle control.  
 
-  **Roadmap ID:** [502878](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502878)
+  ****Roadmap ID:**** [502878](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502878)
     
-    **Details:**  
+    ****Details:****  
 
-    **What changed:** 
-    
-    Added expanded metadata fields to Microsoft 365 admin center's agent export.  
+    **What changed:** Added expanded metadata fields to Microsoft 365 admin center's agent export.  
 
-    **Why:** 
-    
-    Provides admins with transparency over how agents are built, what they access, and by whom.  
+    ****Why:**** Provides admins with transparency over how agents are built, what they access, and by whom.  
 
-    **Try This:**  
-    
+    **Try this:**
+
+
   -  Start agent inventory and filter by **Created By** or **Data Sources** to review compliance.  
 
     **Why this matters:**  
 
-    **Business Impact:** 
-    
-    Strengthens governance for AI usage across the organization.  
+    **Business Impact:** Strengthens governance for AI usage across the organization.  
 
-    **Personal Impact:** 
-    
-    Saves admins from chasing multiple tools for visibility—everything is in one export.
+    **Personal Impact:** Saves admins from chasing multiple tools for visibility—everything is in one export.
 
-  **Additional Resources:**
+  **Additional resources:**
 
-  **Learn:** 
-
-  [Export to Excel](/microsoft-365/admin/manage/agent-registry?view=o365-worldwide#export-to-excel)
+  **Learn:**
 
 
----
+    [Export to Excel](/microsoft-365/admin/manage/agent-registry#export-to-excel)
+  
+  
   
 - **Support Message Extensions as Declarative Agents on Mobile** [Android, iOS]
 
   Stay productive on the move with support for message extensions as declarative agents in Copilot on iOS and Android. These extensions simplify workflows like inserting quick snippets, accessing integrated apps, or triggering processes directly from your mobile interface. 
 
-  **Details:** 
+  ****Details:**** 
 
-  **What changed:** 
-  
-  Message extensions based Declarative agents" instead of "Message extensions as declarative agents. 
+  **What changed:** Message extensions based Declarative agents" instead of "Message extensions as declarative agents. 
 
-  **Why:** 
-  
-  Workers increasingly use mobile as their primary device for timely communication and task management. Extending message-based workflows to mobile keeps teams efficient and responsive. 
+  ****Why:**** Workers increasingly use mobile as their primary device for timely communication and task management. Extending message-based workflows to mobile keeps teams efficient and responsive. 
 
-  **Try This:** 
-  
-    -  In a Teams chat on your mobile app, use Copilot to insert a dynamic update from a connected app with a message extension. 
+  **Try this:**
 
-    -  Ask Copilot: *"Insert the latest sales figures into this conversation using our message extension agent."* 
+
+  -  In a Teams chat on your mobile app, use Copilot to insert a dynamic update from a connected app with a message extension. 
+
+    -  **Ask Copilot:** *"Insert the latest sales figures into this conversation using our message extension agent."* 
 
   **Why this matters:** 
 
-  **Business Impact:** 
-  Maintain seamless workflows across devices, ensuring real-time communication and agility for distributed teams. 
+  **Business Impact:** Maintain seamless workflows across devices, ensuring real-time communication and agility for distributed teams. 
 
-  **Personal Impact:** 
-  Eliminate the frustration of being restricted to desktop for advanced actions—get the information and tools you need on the go. 
+  **Personal Impact:** Eliminate the frustration of being restricted to desktop for advanced actions—get the information and tools you need on the go. 
 
-  **Additional Resources:**
+  **Additional resources:**
 
-  **Learn:** 
-  
+  **Learn:**
+
+
   [Extend bot-based message extension as agent for Microsoft 365 Copilot](/microsoftteams/platform/messaging-extensions/build-bot-based-agent?tabs=visual-studio-code)
 
----
 
 - **Unified permissions management for agents** [Windows, Web]
 
   View detailed permissions for each Copilot agent in one place—including app dependencies, delegated permissions, and associated risks. Admins can grant consent directly, simplifying governance and deployment.
 
-  **Roadmap ID:** [502617](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617)
+  ****Roadmap ID:**** [502617](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502617)
 
-  **Details:**
+  ****Details:****
 
-  **What changed:** 
-  
-  Unified Permissions Management now provides a clear view of all required applications, delegated permissions, and associated risk levels from a central console.
+  **What changed:** Unified Permissions Management now provides a clear view of all required applications, delegated permissions, and associated risk levels from a central console.
 
-  **Why:** 
-  
-  Helps admins ensure security and compliance while reducing friction in agent approval workflows.
+  ****Why:**** Helps admins ensure security and compliance while reducing friction in agent approval workflows.
 
-  **Try This:**
+  **Try this:**
+
 
   -  Go to the Permissions tab in Microsoft 365 admin center to review and approve agent permissions.
 
@@ -460,137 +2023,127 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Why This Matters:**
 
-  **Business Impact:** 
-  
-  Strengthens compliance and governance while accelerating agent deployment.
+  **Business Impact:** Strengthens compliance and governance while accelerating agent deployment.
 
-  **Personal Impact:** 
-  
-  Simplifies decision-making for IT teams, saving hours of manual checks.
+  **Personal Impact:** Simplifies decision-making for IT teams, saving hours of manual checks.
 
-  **Additional Resources:**
+  **Additional resources:**
 
-  [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry?view=o365-worldwide)
+  **Learn:**
   
-  ### Microsoft 365 Copilot Studio
+
+   [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry)
+
+  
+### Microsoft 365 Copilot Studio
 
 - **Control org-wide agent sharing from one place** [Web]
 
   Admins now have granular control over whether agents built in Agent Builder can be shared with links that work for anyone in the organization, ensuring policies are followed.
 
-  **Details:**
+  ****Details:****
 
   **What changed:** Admins can restrict or disable organization-wide sharing of agents built in Agent Builder. 
 
-  **Why:** This strengthens governance, prevents agent sprawl, and supports safe adoption at scale.
+  ****Why:**** This strengthens governance, prevents agent sprawl, and supports safe adoption at scale.
 
-  **Try This:**   
+  **Try this:**
 
-  -  In Microsoft 365 Admin Center, go to Agents > Settings > Sharing and configure who can share agent links that work for anyone in the organization. 
+
+  -  In Microsoft 365 admin center, go to Agents > Settings > Sharing and configure who can share agent links that work for anyone in the organization. 
 
   **Why this matters:**  
 
-  **Business Impact:** 
+  **Business Impact:** Strengthens governance, prevents oversharing, and supports compliance as agent adoption needs evolve.   
 
-  Strengthens governance, prevents oversharing, and supports compliance as agent adoption needs evolve.   
+  **Personal Impact:** Gives admins confidence and transparency when scaling adoption. Makers receive clear guidance on enforced admin sharing policies
 
-  **Personal Impact:** 
+  **Additional resources:** 
 
-  Gives admins confidence and transparency when scaling adoption. Makers receive clear guidance on enforced admin sharing policies
+  **Learn:**
 
-  **Additional Resources:** 
 
-  **Learn:** [Sharing](/microsoft-365/admin/manage/agent-settings?view=o365-worldwide#sharing)
+    [Sharing](/microsoft-365/admin/manage/agent-settings#sharing)
 
-    **Learn:** [Share and manage agents built with the Copilot Studio lite experience | Microsoft Learn](/microsoft-365/admin/manage/agent-registry?view=o365-worldwide#share-an-agent)
+  **Demo:**
 
-  **Demo:** [Admin control for org-wide agent sharing links](https://microsoft-my.sharepoint-df.com/personal/sophieroy_microsoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsophieroy%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings%2FDemo%20Admin%20control%20for%20org%2Dwide%20agent%20sharing%20links%2D20250926%5F155245%2DMeeting%20Recording%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea632fb0d%2D5e4c%2D4501%2D92a6%2D1c16c4381542&ct=1764029038871&or=Teams%2DHL&ga=1&gaS=47&isDarkMode=true)
 
-  **Blog:** [Manage and govern at scale](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/whats-new-in-copilot-studio-october-2025/#manage-and-govern-at-scale)
+  [Admin control for org-wide agent sharing links](https://microsoft-my.sharepoint-df.com/personal/sophieroy_microsoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsophieroy%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings%2FDemo%20Admin%20control%20for%20org%2Dwide%20agent%20sharing%20links%2D20250926%5F155245%2DMeeting%20Recording%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea632fb0d%2D5e4c%2D4501%2D92a6%2D1c16c4381542&ct=1764029038871&or=Teams%2DHL&ga=1&gaS=47&isDarkMode=true)
+
+  **Blogs:**
+
+
+  [Manage and govern at scale](https://www.microsoft.com/microsoft-copilot/blog/copilot-studio/whats-new-in-copilot-studio-october-2025/#manage-and-govern-at-scale)
 
 
 ### Microsoft 365 PowerPoint
 
 - **Reference Loop or Page in presentations** [Mac, Windows, Web]
 
-When building a presentation with Copilot, you can now pull in content from Loop components or pages for fully integrated and up-to-date slides.  
+  When building a presentation with Copilot, you can now pull in content from Loop components or pages for fully integrated and up-to-date slides.  
 
-  **Roadmap ID:**  [500864](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500864)
+  ****Roadmap ID:****  [500864](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500864)
 
-  **Details:**  
+  ****Details:****  
 
-  **What changed:** 
+  **What changed:** Copilot for PowerPoint supports referencing Loop components and pages across PC, Mac, and web.  
 
-  Copilot for PowerPoint supports referencing Loop components and pages across PC, Mac, and web.  
+  ****Why:**** Ensures your presentations reflect the latest collaborative content without manual copy-paste.  
 
-  **Why:** 
+  **Try this:**
 
-  Ensures your presentations reflect the latest collaborative content without manual copy-paste.  
 
-  **Try This:**  
-
-  -  Ask Copilot: *"Create a status update deck using the project details from our Loop page."*  
+  -  **Ask Copilot:** *"Create a status update deck using the project details from our Loop page."*  
 
   **Why this matters:**  
 
-  **Business Impact:** 
+  **Business Impact:** Align updates across teams without tedious content migration.  
 
-  Align updates across teams without tedious content migration.  
-
-   **Personal Impact:** 
-
-  Save time by reusing the content you already co-created, in just one step.
+   **Personal Impact:** Save time by reusing the content you already co-created, in just one step.
 
 ### Microsoft 365 SharePoint
 
 -  **Copilot skills for smarter SharePoint administration** [Web]
 
-    Use Copilot to get step-by-step guidance for admin tasks and advanced site searches based on multiple criteria—all from the SharePoint Admin Center.  
+    Use Copilot to get step-by-step guidance for admin tasks and advanced site searches based on multiple criteria—all from the SharePoint admin center.  
 
-    **Roadmap ID:** [501455](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501455)
+    ****Roadmap ID:**** [501455](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501455)
 
-    **Details:**  
+    ****Details:****  
 
     **What changed:** 
 
       Added two major skills:  
 
-      - Guided task instructions (e.g., fixing over-permissioned sites)  
+      - Guided task instructions (for example, fixing over-permissioned sites)  
       
-      - Multi-criteria search for sites (e.g., inactive + shared externally)  
+      - Multi-criteria search for sites (for example, inactive + shared externally)  
 
-    **Why:** 
+    ****Why:**** 
 
     Improves efficiency and accuracy in managing large SharePoint environments.  
 
-    **Try This:**  
+    **Try this:**
 
-    **Ask Copilot:** 
 
-    -  *"Find all inactive sites over 60 days shared externally."*  
-
-    **Prompt:** 
-
-    -  *"Show me steps to reduce permissions for over-shared sites."*  
-
+    -  **Ask Copilot:** *"Find all inactive sites over 60 days shared externally."*
+    -  **Prompt:** *"Show me steps to reduce permissions for over-shared sites."* 
+    
     **Why this matters:**  
 
-    **Business Impact:** 
+    **Business Impact:** Reduces security risk and speeds workload management.  
 
-    Reduces security risk and speeds workload management.  
+    **Personal Impact:** Saves admins hours of navigating settings—answers are instant.  
 
-    **Personal Impact:** 
-
-    Saves admins hours of navigating settings—answers are instant.  
-
-    **Additional Resources:**
+    **Additional resources:**
 
     **Learn:**
-    
-    [Copilot skills in SharePoint admin centers](/sharepoint/sharepoint-copilot-best-practices)
+
+
+     [Copilot skills in SharePoint admin centers](/sharepoint/sharepoint-copilot-best-practices)
 
 <!-- 101643,100829,100490,103496,101683,100910,100875,100679,100896,98419,95902,83819 -->
-## October 28 to November 12, 2025
+## November 12, 2025
 
 Updates released between October 28, 2025, and November 12, 2025.
 
@@ -621,7 +2174,7 @@ Updates released between October 28, 2025, and November 12, 2025.
 
 - **Block SharePoint agents from Agents and connectors page** [Web]
 
-  Administrators have the ability to oversee SharePoint agents as shared applications within the Agents & connectors section (formerly known as integrated apps) of the Microsoft 365 admin center. They can access a list of all shared SharePoint agents and have the option to block or unblock agents from being utilized on M365 Copilot. [Learn more.](/sharepoint/manage-access-agents-in-sharepoint).
+  Administrators have the ability to oversee SharePoint agents as shared applications within the Agents & connectors section (formerly known as integrated apps) of the Microsoft 365 admin center. They can access a list of all shared SharePoint agents and have the option to block or unblock agents from being utilized on M365 Copilot. [Learn more](/sharepoint/manage-access-agents-in-sharepoint).
 
 - **New Enhancements in Organizational Data Ingestion in Microsoft 365** [Web]
 
@@ -630,11 +2183,13 @@ Updates released between October 28, 2025, and November 12, 2025.
 ### Microsoft 365 Copilot Chat
 
 - **RSVP status-based meeting search in Copilot Chat** [Android, Windows, Web]                          
-**Roadmap:** [499429](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499429) 
-  
+
   Quickly find meetings based on RSVP status—either your own or others'. This feature helps you stay organized by surfacing RSVP details for upcoming events, so you can track commitments and follow up with attendees.
 
-  **Try This:** 
+  **Roadmap:** [499429](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499429) 
+
+  **Try this:**
+  
   
   Open Microsoft 365 Chat. 
   Enter queries like:
@@ -645,7 +2200,7 @@ Updates released between October 28, 2025, and November 12, 2025.
 
   View results showing RSVP details for yourself or attendees.
 
-  **Business or Personal Impact:**
+  **Why this matters:**
 
   **Business:** Improves meeting management and accountability by enabling quick visibility into attendee responses, reducing missed follow-ups.
 
@@ -683,7 +2238,7 @@ Updates released between October 28, 2025, and November 12, 2025.
   Copilot Analytics users can now view metrics about their Copilot Chat (Web) usage in Teams and Outlook. These updates enable users to better understand both active usage and action counts in Teams and Outlook and will be available in the Copilot Dashboard, as well as with additional query support. [Learn more](/viva/insights/advanced/reference/metrics).
 
 <!-- 100870,100746,100738,100650,84890,79005,77679,100633,97654,103495,104883,100921,82093,104956,104954,96976 -->
-## October 15 to 28, 2025 updates
+## October 28, 2025
 
 Updates released between October 15, 2025, and October 28, 2025.
 
@@ -735,7 +2290,7 @@ Updates released between October 15, 2025, and October 28, 2025.
 
 - **PPT Copilot now offers an on-canvas experience for translating presentation** [Mac, Web, iOS]
 
-  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation  
+  Now, when creating a presentation using Copilot from an existing presentation, it creates the new presentation in a new file without affecting the original presentation  
   [Learn more.](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.)
 
 ### Teams
@@ -758,11 +2313,11 @@ Updates released between October 15, 2025, and October 28, 2025.
 ### Word
 - **Instantly get helpful options from Copilot** [Mac]
 
-  The Copilot icon in your document margin gives you a variety of actions you can take on your selected text. One click lets you rewrite, get writing suggestions, and more
+  The Copilot icon in your document margin gives you various actions you can take on your selected text. One click lets you rewrite, get writing suggestions, and more
 
 
 <!-- 81574,102200,101036,100353,99396,101413,100885,100884,99941,101259 -->
-## Updates between September 30 and October 15, 2025 
+## October 15, 2025 
 
 Updates released between September 30, 2025, and October 15, 2025.
 
@@ -815,12 +2370,12 @@ Search now delivers more personalized results by using user context and engageme
 ### Viva Learning
 - **Providing users with notifications about Copilot Academy in Teams**
 
-  If a user has a Microsoft 365 Copilot license, they will receive notifications in Teams about the Copilot Academy through Viva Learning. This helps users stay informed about Copilot Academy enhancements with monthly reminders.  
+  If a user has a Microsoft 365 Copilot license, they receive notifications in Teams about the Copilot Academy through Viva Learning. This helps users stay informed about Copilot Academy enhancements with monthly reminders.  
   [Learn more.](/viva/learning/academy-copilot)
 
 
 <!-- 98125,100748,99202,97403/2/1,96887,96775,101440,101071,100986,100267,84459,82746,80915,100886 -->
-## September 30, 2025 updates
+## September 30, 2025
 
 Updates released between September 16, 2025, and September 30, 2025.
 
@@ -875,7 +2430,7 @@ Updates released between September 16, 2025, and September 30, 2025.
 ### PowerPoint
 - **Copilot generates the new presentation in a new file when starting from an existing presentation** [Web]
 
-  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation. [Learn more.](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d)
+  Now, when creating a presentation using Copilot from an existing presentation, it creates the new presentation in a new file without affecting the original presentation. [Learn more.](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d)
 
 - **Seamlessly add topics with Copilot** [Mac, Web, Windows]
 
@@ -948,7 +2503,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 
 - **Copilot Search for Premium SKU commercial users** [Android]
 
-  Copilot Search allows you to search across files, people, 1P and 3P content (e.g. Figma, ServiceNow tickets). You get Copilot answers for Natural Language Search queries.
+  Copilot Search allows you to search across files, people, 1P and 3P content (for example, Figma, ServiceNow tickets). You get Copilot answers for Natural Language Search queries.
 
 - **Direct access to Copilot Chat in Microsoft 365 app** [Android, iOS]
 
@@ -965,7 +2520,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 
 - **Unified Conversations (Chat History) List** [Web]
 
-  We've made it easier to find what you need. Users now see a single, streamlined list of all your conversations. No more switching between tabs or wondering where to look for specific conversations. Just select a conversation and you'll pick up in the same context and mode as where you left off.
+  We've made it easier to find what you need. Users now see a single, streamlined list of all your conversations. No more switching between tabs or wondering where to look for specific conversations. Select a conversation and you'll pick up in the same context and mode as where you left off.
 
 ### OneNote
 
@@ -999,7 +2554,7 @@ Updates released between September 3, 2025, and September 16, 2025.
   Simplify your editing process with Copilot's one-click solution. Apply all grammar and spelling corrections instantly while retaining the option to review and undo changes you don't want to keep. [Learn more](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/fix-spelling-and-grammar-faster-with-microsoft-365-copilot-in-word-for-the-web/4450625)
 
 <!-- 82180,96228,82089,82088,98075,97530,100667,100665,99809,84151,96025 96022 96024,84758,82090,81702,98039,94127,100601,98669,100218,100352,95279,95274,80609,100337,98691,100740,98789,100666 -->
-## Updates between August 19 and September 3, 2025
+## September 3, 2025
 
 Updates released between August 19, 2025, and September 3, 2025.
 
@@ -1017,7 +2572,7 @@ Updates released between August 19, 2025, and September 3, 2025.
 
 - **Get clear sync statuses and error insights** [Windows, Web]
 
-  View actionable user sync and ingestion statuses across all states in Microsoft Admin Center to simplify troubleshooting.  
+  View actionable user sync and ingestion statuses across all states in Microsoft admin center to simplify troubleshooting.  
   [Learn more](/microsoftsearch/connector-view-details)
 
 - **Ground Copilot responses on specific content subsets** [Windows, Web]
@@ -1025,9 +2580,9 @@ Updates released between August 19, 2025, and September 3, 2025.
   Increase precision with Copilot extensibility by using subsets of data connections, ensuring responses are based on the most relevant information.  
   [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-knowledge?branch=main&branchFallbackFrom=pr-en-us-1060)
 
-- **Integrate SharePoint files in Copilot Studio lite experience for smarter agents**
+- **Integrate SharePoint files in Agent Builder for smarter agents**
 
-  Enrich your agents with comprehensive knowledge by adding extensive SharePoint files into Copilot Studio's lite experience, enabling more intelligent and context-aware interactions.  
+  Enrich your agents with comprehensive knowledge by adding extensive SharePoint files into Copilot Studio's Agent Builder, enabling more intelligent and context-aware interactions.  
   [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-knowledge#scope-copilot-connector-data-sources)
 
 - **Search and browse connector catalog with ease** [Windows, Web]
@@ -1035,9 +2590,9 @@ Updates released between August 19, 2025, and September 3, 2025.
   Admins can now quickly find connectors across categories and functions in the Copilot extensibility catalog—making integrations simpler than ever.  
   [Learn more](/microsoftsearch/connector-view-details)
 
-- **Use enterprise data for smarter agents in Copilot Studio lite experience**
+- **Use enterprise data for smarter agents in Agent Builder**
 
-  Enhance agent accuracy by integrating diverse enterprise data sources like ServiceNow tickets or Google Workspace files into Copilot's Copilot Studio lite experience.  
+  Enhance agent accuracy by integrating diverse enterprise data sources like ServiceNow tickets or Google Workspace files into Copilot's Agent Builder.  
   [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-knowledge#scope-copilot-connector-data-sources)
 
 ### Copilot Studio
@@ -1156,7 +2711,7 @@ Updates released between August 19, 2025, and September 3, 2025.
 
 <!-- 93961,99157,98926,95488,84938,100213,100212,98074,97934,97897,97886,97224,96778,96777,96772,95300,95298,95266,84994,84451,84450,84448,79004,100760,100604,100521,100216,75985,99367,99129,98828,98824,95538,83349 -->
 
-## August 19, 2025 - Feature Additions
+## August 19, 2025
 
 Updates released between August 5, 2025, and August 19, 2025.
 
@@ -1328,7 +2883,7 @@ Updates released between August 5, 2025, and August 19, 2025.
   Rewrite, get writing suggestions, and more with just one click.
 <!-- 84976,94586,83228,97391,98372,95029,64023,99774,97856,95297,100348,100344,100339,100338,100350,99397,99368,98331,97241,96111,95253,84428,79743,78252,78115,78114,78099,84472 -->
 
-## Updates between July 22 and August 5, 2025
+## August 5, 2025
 
 Updates released between July 22, 2025, and August 5, 2025.
 
@@ -1344,9 +2899,9 @@ Updates released between July 22, 2025, and August 5, 2025.
   Users in Word and PowerPoint can seamlessly find and install Copilot agents directly from the Unified App Store.  
   [Learn more.](/copilot/microsoft-365/copilot-agent-install)
 
-- **Enhance Copilot Studio lite experience with full screen mode** [Windows, Mac, Web]
+- **Enhance agent builder with full screen mode** [Windows, Mac, Web]
 
-  Enjoy an improved Copilot Studio lite experience with a full-screen view that streamlines the process of creating and managing your agents.  
+  Enjoy an improved agent builder with a full-screen view that streamlines the process of creating and managing your agents.  
   [Learn more.](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build)
 
 - **Enhanced adaptive card capabilities in declarative agents** 
@@ -1396,10 +2951,10 @@ Updates released between July 22, 2025, and August 5, 2025.
 
 ### Microsoft 365 admin center
 
-- **Onboard SharePoint Agents as a PayG scenario in CCS** [Web]
+- **Onboard SharePoint Agents as a pay-as-you-go scenario in CCS** [Web]
 
-  This feature introduces SharePoint Agents to the Pay-as-you-go tab under Copilot → Billing & usage, aligning with the existing workflow used for Microsoft 365 Copilot Chat. Administrators will gain the ability to manage and monitor SharePoint Agent consumption through the familiar Pay-as-you-go interface, ensuring consistent oversight across Copilot experiences. Integration with the SharePoint backend via API enables precise usage tracking and billing for this new scenario.  
-  [Learn more.](/microsoft-365/services/pay-as-you-go-services)
+  This feature introduces SharePoint Agents to the Pay-as-you-go tab under Copilot → Billing & usage, aligning with the existing workflow used for Microsoft 365 Copilot Chat. Administrators gain the ability to manage and monitor SharePoint Agent consumption through the familiar Pay-as-you-go interface, ensuring consistent oversight across Copilot experiences. Integration with the SharePoint backend via API enables precise usage tracking and billing for this new scenario.  
+  [Learn more.](/microsoft-365/commerce/services/pay-as-you-go-services)
 
 ### Microsoft 365 Copilot app
 
@@ -1416,7 +2971,7 @@ Updates released between July 22, 2025, and August 5, 2025.
 
 - **Share agents with your enterprise** [Windows, Web]
 
-  Generate sharing links for your agents in Business Chat. If the recipient doesn't have the agent, they'll be directed to the Microsoft 365 application catalog to install it. If they do, the agent will open directly in Microsoft 365 Copilot Business Chat.  
+  Generate sharing links for your agents in Business Chat. If the recipient doesn't have the agent, they are directed to the Microsoft 365 application catalog to install it. If they do, the agent opens directly in Microsoft 365 Copilot Business Chat.  
   [Learn more.](https://support.microsoft.com/topic/how-to-share-your-agent-44981c08-ab64-43f1-bcf8-ebadfc5469cc)
 
 ### Microsoft Intune
@@ -1482,25 +3037,25 @@ Updates released between July 22, 2025, and August 5, 2025.
 
 <!-- 95840,98124,78170,73064,95241,97367,100044,97230,95268,95263,100351,99775,99156,98362,97883,95681,95248,95192,93065,83328,80346,74714,98515,98840 -->
 
-## July 22, 2025 - Introduced in this update
+## July 22, 2025
 
 Updates released between July 8, 2025, and July 22, 2025.
 
 ### Copilot extensibility
 
-- **Hebrew support in Copilot Studio lite experience** [Windows, Web]
+- **Hebrew support in Agent builder** [Windows, Web]
 
-  Integrate Hebrew language support in Copilot Studio lite experience to build accessible, localized solutions that simplify multilingual deployments and enhance user engagement.  
+  Integrate Hebrew language support in agent builder to build accessible, localized solutions that simplify multilingual deployments and enhance user engagement.  
   [Learn more.](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-availability)
 
 - **Increased support for uploading up to 20 documents to agents' knowledge** [Windows, Web]
 
-  End users and makers can now upload up to 20 documents to ground agents with richer, embedded knowledge in Microsoft Copilot Studio lite experience.  
+  End users and makers can now upload up to 20 documents to ground agents with richer, embedded knowledge in Microsoft Copilot agent builder.  
   [Learn more.](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-knowledge)
 
 - **Share agents from embedded builder** [Windows, Web]
 
-  Users can share agents from an embedded Copilot Studio lite experience to other individual users or group chats.  
+  Users can share agents from an embedded agent builder to other individual users or group chats.  
   [Learn more.](/microsoft-365/admin/manage/manage-embedded-knowledge-agents?)
 
 - **Share agents with context-aware link previews** [Windows, Web]
@@ -1521,7 +3076,7 @@ Updates released between July 8, 2025, and July 22, 2025.
 
 - **Easily find and use knowledge data sources** [Web]
 
-  In Copilot Studio lite experience you can now quickly identify and select the right knowledge data sources without manually scanning long lists. This streamlined workflow helps you get to the insights you need faster for everyday tasks.  
+  In Copilot Studio agent builder you can now quickly identify and select the right knowledge data sources without manually scanning long lists. This streamlined workflow helps you get to the insights you need faster for everyday tasks.  
   [Learn more.](/power-platform/release-plan/2025wave1/microsoft-copilot-studio/use-teams-chats-as-knowledge-sources)
 
 ### Excel
@@ -1576,7 +3131,7 @@ Updates released between July 8, 2025, and July 22, 2025.
 
 - **Microsoft 365 Copilot generates the new presentation in a new file when starting from an existing presentation** [Mac, Windows]
 
-  Now, when creating a presentation using Microsoft 365 Copilot from an existing presentation using, it will create the new presentation in a new file without affecting the original presentation.  
+  Now, when creating a presentation using Microsoft 365 Copilot from an existing presentation using, it creates the new presentation in a new file without affecting the original presentation.  
   [Learn more.](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d)
 
 - **Reference multiple files in your presentation creation using Microsoft 365 Copilot** [Windows, Mac, Web]
@@ -1619,7 +3174,7 @@ Updates released between July 8, 2025, and July 22, 2025.
   Easily work with extensive documents by typing a forward slash (/) or selecting the attach icon to choose a document up to 3,000 pages long. This becomes the basis of the content you're requesting from Copilot, making it seamless to generate content from detailed sources. [Learn more.](https://support.microsoft.com/topic/keep-it-short-and-sweet-a-guide-on-the-length-of-documents-that-you-provide-to-copilot-66de2ffd-deb2-4f0c-8984-098316104389)
 <!-- 84996,84872,95244,83178,77803,78628,96771,99373,99334,97490,95294,97932,97885,97801,94703,93106,79744,97959,95285,95282,95281,64005 -->
 
-## July 8, 2025 - Release Overview
+## July 8, 2025
 
 Updates released between June 24, 2025, and July 8, 2025.
 
@@ -1673,7 +3228,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 
   While performing advanced analysis with Copilot in Excel with Python, users can choose the "Think Deeper" mode to get a more elaborate and detailed plan, followed by automatic execution to generate Python code, results, and explanations. This improves performance on complex asks by leveraging the power of the latest AI reasoning models. [Learn more](https://support.microsoft.com/office/364e4ae9-9343-4d56-952a-5f62b0f70db6).
 
-### Microsoft 365 Admin Center
+### Microsoft 365 admin center
 
 - **Metadata for Shared agent management in Microsoft 365 admin center** [Web]
 
@@ -1687,7 +3242,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 
 - **Updated UI for Microsoft 365 Copilot App** [Windows, Web]
 
-  The Microsoft 365 Copilot app is your starting place for AI at work, offering quick access to secure AI chat, search, files, and content creation in one seamless app. [Learn more](https://www.microsoft.com/en-us/microsoft-365/blog/2025/04/23/microsoft-365-copilot-built-for-the-era-of-human-agent-collaboration).
+  The Microsoft 365 Copilot app is your starting place for AI at work, offering quick access to secure AI chat, search, files, and content creation in one seamless app. [Learn more](https://www.microsoft.com/microsoft-365/blog/2025/04/23/microsoft-365-copilot-built-for-the-era-of-human-agent-collaboration).
 
 ### Microsoft 365 Copilot Chat
 
@@ -1710,7 +3265,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 
 - **Copilot in Meetings will suggest follow up questions to ask it** [Windows, Mac]
 
-  When Copilot in Teams Meetings responds to a prompt, it will also suggest follow up prompts to ask Copilot that builds on the prior response. These questions will generally be based on the response it gave prior, and could be related to honing in on a particular topic, asking for more details, or even reformatting the content into a table if appropriate. [Learn more](https://support.microsoft.com/office/use-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1).
+  When Copilot in Teams Meetings responds to a prompt, it will also suggest follow-up prompts to ask Copilot that builds on the prior response. These questions will generally be based on the response it gave prior, and could be related to honing in on a particular topic, asking for more details, or even reformatting the content into a table if appropriate. [Learn more](https://support.microsoft.com/office/use-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1).
 ### Viva Connections
 - **New News feature in Microsoft Teams** [Android, Windows, iOS, Web]
 
@@ -1733,7 +3288,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 
 <!-- 84447,98006,96078,95296,95230,83646,81354,97565,95267,76606,97885,97810,97309,97034,95597,94574,94070,83213,99889,95904,95903,79335,96243,84996,97832,97496,98196,97305,95679,95290,96368,84987,84440 -->
 
-## June 24, 2025 updates
+## June 24, 2025
 
 Updates released between June 10, 2025, and June 24, 2025.
 
@@ -1772,7 +3327,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 - **Microsoft 365 Agents Toolkit uses Kiota as the API plugin generation tool**
 
-  The Microsoft 365 Agents Toolkit now generate API plugins using Kiota. This unlocks new scenarios in the Agents Toolkit like searching our repository of public APIs, visually selecting the main integration endpoints and improving the maintainability of existing plugins by adding new endpoints as the developer continue evolving their agents. [Learn more](https://github.com/OfficeDev/microsoft-365-agents-toolkit/blob/dev/packages/vscode-extension/CHANGELOG.md#600---may-19-2025).
+  The Microsoft 365 Agents Toolkit now generate API plugins using Kiota. This unlocks new scenarios in the Agents Toolkit like searching our repository of public APIs, visually selecting the main integration endpoints and improving the maintainability of existing plugins by adding new endpoints as the developer continue evolving their agents.
 
 - **Non-citation links remain visible in custom actions** [Windows, Web]
 
@@ -1794,7 +3349,8 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 - **Quarantine compromised agent to boost security**
 
-  Give IT admins a critical tool to isolate potentially compromised agents, reducing risk and protecting your network without disrupting daily operations. [Learn more](/rest/api/power-platform/powervirtualagents/bots/set-bot-as-quarantined?branch=lane-adminsdk-AprMay2025).
+  Give IT admins a critical tool to isolate potentially compromised agents, reducing risk and protecting your network without disrupting daily operations.
+  
 ### Excel
 
 - **Use Copilot with any table in the workbook, referring by natural language** [iOS, Web, Mac, Windows]
@@ -1825,7 +3381,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 - **Catch up on Task related emails through Microsoft 365 Copilot Chat.** [Windows]
 
-  Users can use Microsoft 365 Copilot Chat to prioritize emails that require immediate attention, address urgent tasks, or contain action items or questions. Timely identification of such emails will help users complete these tasks efficiently or plan their work effectively.
+  Users can use Microsoft 365 Copilot Chat to prioritize emails that require immediate attention, address urgent tasks, or contain action items or questions. Timely identification of such emails helps users complete these tasks efficiently or plan their work effectively.
 
 - **Find any past Copilot conversation instantly** [Web]
 
@@ -1858,7 +3414,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 ### Outlook
 - **Content language is the default summarize language** [Mac]
 
-  When summarizing Copilot will try to identify the language of the email and summarize in that language. [Learn more](https://support.microsoft.com/office/frequently-asked-questions-about-copilot-in-outlook-07420c70-099e-4552-8522-7d426712917b?storagetype=live).
+  When summarizing Copilot tries to identify the language of the email and summarize in that language. [Learn more](https://support.microsoft.com/office/frequently-asked-questions-about-copilot-in-outlook-07420c70-099e-4552-8522-7d426712917b?storagetype=live).
 
 ### PowerPoint
 
@@ -1890,7 +3446,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 
 <!-- 83163,93511,99006,97583,75354,97166,95275,99896,99890,99009,97921,97647,97603,97372,97288,96951,96241,96065,84642,84119,81005,80339,77194,72079,97492,80341 -->
-## June 10, 2025 updates
+## June 10, 2025
 
 Updates released between May 29, 2025, and June 10, 2025.
 
@@ -1946,7 +3502,7 @@ Updates released between May 29, 2025, and June 10, 2025.
 
 - **Module UI refresh** [Windows, Web]
 
-  Copilot Chat is designed to provide a streamlined UI, making it easy to get started and achieve your goals quickly. It offers a helpful, understanding, and personalized experience, allowing you to search for past interactions, content, agents, or pages with ease. [Learn more](https://support.microsoft.com/en-us/topic/get-started-with-microsoft-365-copilot-chat-5b00a52d-7296-48ee-b938-b95b7209f737).
+  Copilot Chat is designed to provide a streamlined UI, making it easy to get started and achieve your goals quickly. It offers a helpful, understanding, and personalized experience, allowing you to search for past interactions, content, agents, or pages with ease. [Learn more](https://support.microsoft.com/topic/get-started-with-microsoft-365-copilot-chat-5b00a52d-7296-48ee-b938-b95b7209f737).
 
 - **Simplified Input box update** [Windows, Web]
 
@@ -1964,7 +3520,7 @@ Updates released between May 29, 2025, and June 10, 2025.
 
 - **Create Copilot Pages from Copilot Chat on your mobile phone** [iOS]
 
-  Create Copilot Pages on your mobile phone to continue working on the go. Pages shared in Microsoft 365 are interactive and automatically synchronized for seamless collaboration. [Learn more](https://support.microsoft.com/en-us/topic/create-edit-and-share-microsoft-365-copilot-pages-from-your-phone-6426dfd5-081c-4a9f-b35e-830685deeda7).
+  Create Copilot Pages on your mobile phone to continue working on the go. Pages shared in Microsoft 365 are interactive and automatically synchronized for seamless collaboration. [Learn more](https://support.microsoft.com/topic/create-edit-and-share-microsoft-365-copilot-pages-from-your-phone-6426dfd5-081c-4a9f-b35e-830685deeda7).
 
 ### Microsoft Purview compliance portal
 
@@ -2030,7 +3586,7 @@ Updates released between May 29, 2025, and June 10, 2025.
 
 <!-- 84861,96546,96718,97369,97368,95365,95364,94668,96235,96064,97319,97318,99424,97439,95187,97261,96531,97084,96912,95901,95897,94435,84445,84435,81914,95901 -->
 
-## Updates of May 29, 2025
+## May 29, 2025
 
 Updates released between May 13, 2025, and May 29, 2025.
 
@@ -2070,7 +3626,7 @@ Updates released between May 13, 2025, and May 29, 2025.
 
 - **Visual outline confirms Copilot's data range** [Mac]
 
-  When you call on Copilot, Excel now draws a clear border around the table or cell range in focus. Instantly see exactly what data will be summarized, cleaned, or chart-ready—so you can adjust the selection before Copilot gets to work.
+  When you call on Copilot, Excel now draws a clear border around the table or cell range in focus. Instantly see exactly what data is summarized, cleaned, or chart-ready—so you can adjust the selection before Copilot gets to work.
 
 ### Forms
 
@@ -2103,7 +3659,7 @@ Updates released between May 13, 2025, and May 29, 2025.
 - **Copilot Chat now offers access to cloud files to insert in user prompts** [Windows, Web]
 
   In the Web tab of Copilot Chat or Microsoft 365 Copilot, users can browse OneDrive or SharePoint, select a file, and drop it into their prompt to give Copilot precise context for richer responses.
-- **Enable Copilot Studio lite experience for Copilot chat** [Windows, Web]
+- **Enable agent builder for Copilot chat** [Windows, Web]
 
   Empower developers with the ability to build custom agents to support Copilot Chat. This feature streamlines the creation of tailored chat experiences that enhance everyday communication and workflow.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
@@ -2143,7 +3699,7 @@ Updates released between May 13, 2025, and May 29, 2025.
 
 
 <!-- 84071,75164,96970,94471,93054,97570,83243,96611,99154,96312,98521,98109,97225,96829,96255,96244,94126,93931,93064,93062,84439,83241,95055,72529,99153 -->
-## Updates of May 13, 2025
+## May 13, 2025
 
 Updates released between April 29, 2025, and May 13, 2025.
 ### Copilot Studio
@@ -2165,7 +3721,7 @@ Updates released between April 29, 2025, and May 13, 2025.
  [Learn more](https://support.microsoft.com/office/copilot-in-excel-with-python-364e4ae9-9343-4d56-952a-5f62b0f70db6).
 - **Ask Copilot about any part of your sheet** [Web, Mac, Windows, iOS]
 
-  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This will include understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
+  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This includes understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
 - **Easily access copilot on web** [Web]
 
   Find a dedicated Copilot icon in your web spreadsheet, allowing you to tap into AI-powered insights and streamline tasks without breaking your workflow.
@@ -2199,7 +3755,7 @@ Updates released between April 29, 2025, and May 13, 2025.
 
   Copilot Pages is an interactive, shareable canvas in Microsoft 365 Copilot Chat designed for multiplayer AI collaboration. With Pages, users can turn Copilot responses into something durable with a side-by-side page where users can edit and share with others to collaborate. Now available for Government Cloud users.
  [Learn more](https://support.microsoft.com/topic/introducing-microsoft-365-copilot-pages-6674bd51-9ff5-42c4-9256-44d9428a726f).
-- **Create web-aware agents in Copilot Studio lite experience**
+- **Create web-aware agents in Agent Builder**
 
   Build declarative agents that draw knowledge from up to four public websites, delivering more precise, source-linked answers inside Microsoft 365 chat experiences.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
@@ -2273,9 +3829,9 @@ Updates released between April 16, 2025, and April 29, 2025.
   After finalizing your data with Clean Data, effortlessly switch to Copilot chat for deeper insights and analysis.
  [Learn more](https://support.microsoft.com/office/clean-data-in-excel-7fe20d89-3f57-46d3-b659-e8f3ee853bda).
 ### Microsoft 365 Copilot extensibility
-- **Copilot Studio lite experience now available in new regions** [Windows, Web]
+- **Agent Builder now available in new regions** [Windows, Web]
 
-  You can now access Copilot Studio lite experience in Norway, Sweden, South Korea, and South Africa.
+  You can now access Copilot Studio agent builder in Norway, Sweden, South Korea, and South Africa.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-availability#regional-availability).
 - **Developers using Copilot Studio can use API key auth for actions in a declarative agent**
 
@@ -2290,14 +3846,14 @@ Updates released between April 16, 2025, and April 29, 2025.
 
   Bringing Microsoft 365 Copilot GCC your AI assistant for work in the GCC environment. It combines the power of Large Language Models with your work content and context, to help you draft and rewrite, summarize and organize, catch up on what you missed, and get answers to questions via open prompts. Copilot generates answers using the rich, people-centric data and insights available in the Microsoft Graph. Microsoft 365 Copilot GCC is now available in Stream, SharePoint, OneNote, and Pages in Loop.
  [Learn more](https://techcommunity.microsoft.com/blog/publicsectorblog/what%E2%80%99s-new-in-microsoft-365-copilot-for-government/4399086).
-- **Submit feedback on the Copilot Studio lite experience experience** [Windows, Web]
+- **Submit feedback on the agent builder experience** [Windows, Web]
 
   Improve your custom Copilot Chat solutions by providing targeted feedback on RAI and agent response during test chats. This direct input helps refine and enhance the builder experience.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder#submit-feedback).
 ### Microsoft Purview
 - **GCC Microsoft Purview capabilities for Microsoft 365 Copilot** [Web]
 
-  Microsoft Purview is launching several capabilities in government cloud environments that help secure and govern data in Microsoft 365 Copilot. These are capabilities in Information Protection, Data Lifecycle Management, Audit, eDiscovery, and Communication Compliance. These capabilities will be available once Microsoft 365 Copilot is deployed.
+  Microsoft Purview is launching several capabilities in government cloud environments that help secure and govern data in Microsoft 365 Copilot. These are capabilities in Information Protection, Data Lifecycle Management, Audit, eDiscovery, and Communication Compliance. These capabilities are available once Microsoft 365 Copilot is deployed.
  [Learn more](/purview/ai-microsoft-purview).
 ### Outlook
 - **Chat with Copilot in Outlook for Mac** [Mac]
@@ -2337,7 +3893,7 @@ Updates released between April 16, 2025, and April 29, 2025.
 
 
 <!-- 95249,84156,76195,73845,97889,95286,95264,96345,84526,83221,83405 -->
-## April 16, 2025 - Release Overview
+## April 16, 2025
 
 Updates released between April 2, 2025, and April 16, 2025.
 
@@ -2397,7 +3953,7 @@ Updates released between April 2, 2025, and April 16, 2025.
  [Learn more](https://techcommunity.microsoft.com/blog/spblog/create-pages-with-copilot-in-sharepoint/4394588).
 
 
-## April 2, 2025 - What’s New
+## April 2, 2025
 
 Updates released between March 20, 2025, and April 2, 2025.
 ### Copilot Studio
@@ -2412,7 +3968,7 @@ Updates released between March 20, 2025, and April 2, 2025.
 - **SharePoint knowledge for agents** [Web]
 
   Makers can now leverage additional data sources, including Dataverse and SharePoint, when building autonomous agents. This expands the variety of use cases for autonomous agents.
-- **Use Copilot Studio lite experience in Copilot chat** [Web]
+- **Use agent builder in Copilot chat** [Web]
 
   Create custom agents in Copilot chat to streamline repetitive tasks and achieve consistency. Use specific instructions and grounding details to save time, reuse your agents, and enhance team productivity.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
@@ -2436,9 +3992,9 @@ Updates released between March 20, 2025, and April 2, 2025.
 
   Enjoy enriched emails with interactive hovers that reveal contextual details—like sender info, dates, and follow-up prompts—to streamline your daily workflow.
 ### Microsoft 365 Copilot Studio
-- **Collect user feedback in Copilot Studio lite experience** [Web]
+- **Collect user feedback in Copilot Studio agent builder** [Web]
 
-  Makers can also now submit feedback—compliments, problems, or suggestions—directly to the product team from inside the Copilot Studio lite experience. This can be done at any stage of the authoring process, including comments and optional metadata for troubleshooting. This feature allows quick issue reporting without disrupting workflow and enables the product team to address feedback efficiently.
+  Makers can also now submit feedback—compliments, problems, or suggestions—directly to the product team from inside the Microsoft 365 agent builder. This can be done at any stage of the authoring process, including comments and optional metadata for troubleshooting. This feature allows quick issue reporting without disrupting workflow and enables the product team to address feedback efficiently.
  [Learn more](/power-apps/maker/canvas-apps/agent-builder#provide-feedback).
 ### Microsoft Loop
 - **Load existing Copilot pages and create multiple pages** [Web]
@@ -2472,7 +4028,7 @@ Updates released between March 20, 2025, and April 2, 2025.
 
   Easily convert plain text into structured tables, helping you organize and present data more effectively in your daily work.
 
-## March 19, 2025 - Release Overview
+## March 19, 2025
 
 Updates released between March 5, 2025, and March 19, 2025.
 
@@ -2490,7 +4046,7 @@ Updates released between March 5, 2025, and March 19, 2025.
 
 - **Enhanced transparency for declarative agent metadata**  
 
-  Admins can now view granular metadata in the Microsoft 365 Admin Center—including data source details and custom actions—for declarative agents. This clarity enables more informed decisions on app availability and management across your organization.
+  Admins can now view granular metadata in the Microsoft 365 admin center—including data source details and custom actions—for declarative agents. This clarity enables more informed decisions on app availability and management across your organization.
 
 - **Manage shared Copilot agents across your organization** [Web]  
 
@@ -2506,7 +4062,7 @@ Updates released between March 5, 2025, and March 19, 2025.
 
 - **Copilot on Edge Update** [Web]  
 
-  Copilot on Edge has been updated and requires users to update their version of Edge to version 134.0.3124.51 or newer to receive the latest functionality. This update includes file upload availability on the web tab as well as a smoother authentication experience via the Edge Work Profile.
+  Copilot on Edge has been updated and requires users to update their version of Edge to version 134.0.3124.51 or newer to receive the latest functionality. This update includes file upload availability on the web tab and a smoother authentication experience via the Edge Work Profile.
 
 - **Enhanced large file support in Copilot Chat**  
 
@@ -2550,7 +4106,7 @@ Updates released between March 5, 2025, and March 19, 2025.
 
   Leverage detailed reports on permissioned user counts and sharing links to identify oversharing risks and make informed governance decisions. [Learn more](/sharepoint/data-access-governance-reports).
 
-## March 4, 2025 - Release Overview
+## March 4, 2025
 
 Updates released between February 20, 2025, and March 4, 2025. 
 
@@ -2610,7 +4166,7 @@ Updates released between February 20, 2025, and March 4, 2025.
 
   Convert grounded content from Word documents into dynamic slides with tables. Enhance your presentations with structured, data-driven visuals effortlessly.
 
-## February 19, 2025 - Release Overview
+## February 19, 2025
 
 Updates released between February 5, 2025, and February 19, 2025. 
 
@@ -2672,7 +4228,7 @@ Updates released between February 5, 2025, and February 19, 2025.
 
   Highlight text, start a chat with Copilot, and receive responses tailored to what you've selected. Get targeted writing assistance and refine your content in real time.
 
-## February 4, 2025 - Release Overview
+## February 4, 2025
 
 Updates released between January 24, 2025, and February 4, 2025. 
 
@@ -2763,7 +4319,7 @@ Updates released between January 24, 2025, and February 4, 2025.
 
   Add .txt files as sources with Copilot in Word, streamlining your process when working with text-based research or background content.
 
-## January 23, 2025 - Release Overview
+## January 23, 2025
 
 Updates released between January 8, 2025, and January 23, 2025.
 ### Forms
@@ -2872,7 +4428,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
   Hear Copilot's replies in the chat pane, letting you stay hands-free while reviewing your content.
 
-## January 7, 2025 — Release Overview
+## January 7, 2025
 
 Updates released between December 18, 2024, and January 7, 2025.
 ### Microsoft 365 Copilot
@@ -2891,7 +4447,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Include Code Interpreter in agents** [Windows, Web]  
 
-  Enhance your agents by including Code Interpreter for advanced data analysis tasks in Copilot Studio lite experience. [Learn more](/microsoft-365-copilot/extensibility/add-agent-capabilities#enable-code-interpreter).
+  Enhance your agents by including Code Interpreter for advanced data analysis tasks in agent builder. [Learn more](/microsoft-365-copilot/extensibility/add-agent-capabilities#enable-code-interpreter).
 
 ### OneNote
 
@@ -2931,7 +4487,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Enhance your learning experience with a wider range of external content in Copilot Academy, including links to Copilot Prompt Gallery. [Learn more](/viva/learning/academy-copilot).
 
-## December 17, 2024 - Monthly updates
+## December 17, 2024
 
 ### Microsoft 365 Copilot
 
@@ -3029,11 +4585,11 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Add image generation to agents** [Windows, Web]  
 
-  Enhance your agents by including image generation capabilities in Copilot Studio lite experience [Learn more](/microsoft-365-copilot/extensibility/add-agent-capabilities#image-generator).
+  Enhance your agents by including image generation capabilities in agent builder. [Learn more](/microsoft-365-copilot/extensibility/add-agent-capabilities#image-generator).
 
-- **Create agents in Microsoft 365 Copilot via Copilot Studio lite experience** [Windows, Web]  
+- **Create agents in Microsoft 365 Copilot via agent builder** [Windows, Web]  
 
-  Use Copilot Studio lite experience to create agents that contain specific instructions and knowledge, such as SharePoint files, to suit your needs. [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
+  Use agent builder to create agents that contain specific instructions and knowledge, such as SharePoint files, to suit your needs. [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
 
 ### Microsoft 365 Copilot
 
@@ -3067,7 +4623,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Disable Copilot in meetings** [Windows, Android, iOS, Mac]  
 
-  You can now turn Copilot off in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
+  You can now turn off Copilot in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
 
 ### SharePoint
 
@@ -3135,7 +4691,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Create agents in Copilot with instructions and knowledge sources** [Windows, Web]  
 
-  Users can build Copilot agents that include specific instructions and knowledge, such as SharePoint files, directly from Copilot Chat using Copilot Studio lite experience. [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
+  Users can build Copilot agents that include specific instructions and knowledge, such as SharePoint files, directly from Copilot Chat using Copilot Studio Agent Builder. [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
 
 - **Customize your agent list in Copilot across apps** [Windows, Web]  
 
@@ -3743,7 +5299,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Discover Whiteboard Copilot with First Run Experience** [Windows, Web]  
 
-  First-time users will be guided to discover and leverage the power of Whiteboard Copilot features through an interactive introduction.
+  First-time users are guided to discover and leverage the power of Whiteboard Copilot features through an interactive introduction.
 
 ### Word
 
@@ -3827,7 +5383,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Copilot side pane stays open across group chats** [Windows, Mac]  
 
-  When you open Copilot in a group chat, it will remain open even as you navigate between different chats, saving you time.
+  When you open Copilot in a group chat, it remains open even as you navigate between different chats, saving you time.
 
 ### Outlook
 
@@ -3866,7 +5422,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Easily turn plain text or lists into clear, organized tables for better readability and effortless data handling.
 
-## December, 2023 — What’s New
+## December, 2023
 
 ### Microsoft 365 admin center
 
@@ -4016,7 +5572,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Create a presentation from a simple prompt** [Windows, Web, iOS, Mac]  
 
-  Provide a prompt and Copilot will help you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
+  Provide a prompt and Copilot helps you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
 
 - **Create presentations using your organization's templates** [Windows, Web, iOS, Mac]  
 
@@ -4088,32 +5644,621 @@ Updates released between December 18, 2024, and January 7, 2025.
   Easily turn plain text or lists into clear, organized tables for better readability and effortless data handling. [Learn more](https://support.microsoft.com/topic/923d9763-f896-4da7-8a3f-5b12c3bfc475).
 
 ## [Windows](#tab/win)
+
+## February 24, 2026
+Updates released between February 10, 2026, and February 24, 2026.
+
+- **Scope grounding for declarative agents to specific data sources** [Windows, Web]   
+
+  Users can scope grounding for declarative agents to specific data sources. 
+
+    **Details:** 
+
+    **What changed:** Users can now define which data sources a declarative agent draws from. This ensures more precise responses and reduces unnecessary information.
+
+    **Why:** This gives users more control over how declarative agents use organizational data.
+
+    **Try this:** 
+
+    - Select a declarative agent where sources have been exposed or define sources in the manifest for your agent.
+    - Limit grounding to a single repository for more focused results. 
+    - Test the agent’s output to confirm improved relevance. 
+
+    **Why this matters:** 
+
+    **Business impact:** Improves control over data usage and response accuracy. 
+
+    **Personal impact:** Helps users get answers that match their needs.
+
+    **Additional resources:**
+    
+    **Learn:**
+    
+    [Declarative agent manifest example](/microsoft-365-copilot/extensibility/declarative-agent-manifest-1.6?branch=main&tabs=json#user-override-object)
+
+### PowerPoint
+- **Use Copilot to get a detailed and contextual explanation** [Web, Windows, Mac]
+
+  Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
+
+  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
+
+  **Details:** 
+
+  **What changed:** Copilot can now provide an explanation of any selected object in a presentation. This includes acronyms, individual text boxes, tables images, & entire slide. Previously, users needed to rely on external references or manual research to understand unclear content.
+
+  **Why:** This feature helps users understand unfamiliar or complex information without leaving their presentation
+
+  **Try this:** 
+
+  - Select any text, table or slide, right click and choose “Explain". 
+  - Review the explanation without leaving PowerPoint 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams quickly understand unfamiliar content, reducing time spent researching and improving clarity in presentations.
+
+  **Personal impact:** Makes it easier to grasp the meaning of slide objects without switching apps.
+  
+  **Additional resources:**
+
+  **Blogs:**
+
+  [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
+
+- **Steer presentation length, tone, style, and images with Copilot** [Web, Windows, Mac]
+
+  Users can adjust presentation length, narrative tone, slide style, and AI‑generated images when creating presentations with Copilot.
+
+  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+
+  **Details:** 
+
+  **What changed:** Copilot now supports more granular controls for customization. Users can specify slide count, tone of messaging, stylistic preferences, and visual elements to better tailor their presentations. 
+
+  **Why:** This gives users more creative control and ensures presentations match the intended audience and purpose. 
+
+  **Try this:** 
+
+  - Ask Copilot to shorten your presentation to five slides. 
+  - Set the tone to “professional” or “informal” as needed. 
+  - Request new AI‑generated images that match your theme. 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams build polished presentations more efficiently.
+
+  **Personal impact:** Gives individuals more flexibility and creative options.
+  
+
+
+### Viva Insights
+- **Copilot Studio agent report enhancements** [Web, Windows, Mac]
+
+  The Copilot Studio agent report includes autonomous agents and provides insights on adoption, impact, time savings, and cost savings. 
+
+  **Roadmap ID:** [499422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499422)
+
+  **Detailes:** 
+
+  **What changed:** The agent report now includes autonomous agents with generative orchestration. It also offers new metrics related to adoption, time saved, and cost benefits. 
+
+  **Why:** These enhancements help organizations understand how Copilot Studio agents are used and the value they deliver. 
+
+  **Try this:** 
+
+  - Open the Copilot Studio agent report to review autonomous agent usage. 
+  - Compare generative and non‑generative agent activity. 
+  - Review time‑saving and cost‑saving insights. 
+
+  **Why this matters:** 
+
+  **Business impact:** Supports better decision‑making about automation and ROI. 
+
+  **Personal impact:** Helps creators understand how their agents are being used.
+
+## January 27, 2026
+Updates released between January 13, 2025, and January 27, 2026.
+### Microsoft 365 Copilot Chat
+- **Copilot Chat model selector now offers GPT-5.2** [Android, Windows, iOS, Mac, Web]
+
+  Choose GPT-5.2 in Copilot Chat for faster responses or deeper reasoning, improving accuracy and clarity.
+
+    **Details:**
+
+    **What changed:** The model selector in Copilot Chat now includes GPT-5.2. Users can pick Quick Response for immediate answers or Think Deeper for more thorough reasoning. GPT-5.2 delivers better instruction following, improved math and coding performance, and clearer explanations compared to previous models.
+
+    **Why:** This update provides more flexibility and precision, helping users handle both simple and complex tasks with adaptive reasoning.
+
+    **Try this:**
+
+    - Select More in the model selector and choose Quick Response for quick answers.
+    - Choose Think Deeper when you need detailed reasoning for complex queries.
+
+    **Why this matters:**
+
+    **Business impact:** Enhances productivity by offering tailored response modes for different workflows.
+
+    **Personal impact:** Gives individuals control over response depth, improving efficiency and clarity.
+
+    **Additional resources:**
+
+    **Blogs:**
+
+    [Available today: GPT-5.2 in Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6)
+
+### Microsoft 365 Copilot extensibility
+- **Advanced understanding for comments and attachments in SNOW KB and Azure DevOps connectors** [Windows, Web]
+
+  Copilot now understands content within comments and attachments for ServiceNow KB and Azure DevOps work item connectors.
+
+    **Details:**
+
+    **What changed:** Previously, Copilot focused on primary content only. Comments and attachments are now included in content understanding.
+
+    **Why:** This ensures important context is not missed during searches or summaries.
+
+    **Try this:**
+
+    - Ask Copilot about an Azure DevOps work item.
+    - Review insights that include comment and attachment context.
+
+    **Why this matters:**
+
+    **Business impact:** Improves decision making with more complete information.
+
+    **Personal impact:** Reduces the need to manually review supporting content.
+
+- **Copy an agent from Agent Builder to Copilot Studio** [Windows, Web]
+
+  Users can now open agents created in Agent Builder in the Copilot Studio authoring experience.
+
+    **Details:**
+
+    **What changed:** Previously, agents created in Agent Builder experience were limited in capability. Authors can now move agents into  Copilot Studio to access advanced features and publishing options.
+
+    **Why:** This change enables more powerful agents and supports stronger governance and lifecycle management.
+
+    **Try this:**
+
+    - Open an agent created in Agent Builder.
+    - Continue editing the agent in Copilot Studio.
+
+    **Why this matters:**
+
+    **Business impact:** Enables more capable agents with governance controls such as Data Loss Prevention.
+
+    **Personal impact:** Gives creators greater flexibility to enhance their agents.
+
+- **Generate icons using AI in Agent Builder** [Windows, Web]
+
+  Users can generate custom icons using AI Agent Builder using custom prompts, manually upload their own icon, or select from a set of pre-created icons.
+
+    **Roadmap ID:** [502864](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502864)
+
+    **Details:**
+
+    **What changed:** Previously, users relied on default icons or manual uploads. AI-generated icons are now available in Agent Builder, with size limits of 1 MB (192px).
+
+    **Why:** This feature simplifies icon creation and improves how agents visually represent their purpose.
+
+    **Try this:**
+
+    - Enter a prompt to generate an icon with AI.
+    - Use the agent description to generate an icon automatically.
+    - Upload a custom icon or select a pre-created option.
+
+    **Why this matters:**
+
+    **Business impact:** Improves clarity and usability of custom agents.
+
+    **Personal impact:** Makes agent creation faster and more creative.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Build agents with Agent Builder in Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agent-builder-build-agents)
+
+- **Improve relevance and personalization by connecting user identities across data sources** [Windows, Web]
+
+  Copilot improves relevance and personalization by connecting user identities across multiple data sources.
+
+    **Details:**
+
+    What changed: Previously, identities from third party systems were not linked to the corresponding Microsoft identity, leading to poor response quality esp with people related queries. Copilot now correlates identities across supported connectors, leading to more relevant and personalized responses. 
+
+    **Why:** This ensures responses better reflect user context across systems.
+
+    **Try this:**
+
+    - Ask Copilot about work spanning multiple connected tools.
+
+    **Why this matters:**
+
+    **Business impact:** Improves cross‑system relevance and response quality in Copilot.
+
+    **Personal impact:** Delivers more accurate, personalized answers.
+
+- **Users can leverage multi-agent workflows** [Windows, Web]
+
+  Agents in Copilot can now use other agents to accomplish work if configured. Users can see the interaction between agents.
+
+    **Details:**
+
+    **What changed:** Researcher and other agents could call simple APIs but not other AI agents. Now multiple agents will coordinate to respond to the user's task.
+
+    **Why:** Multi-agent systems support more difficult work that requires multiple special AI systems.
+
+    **Try this:**
+
+    - Administrators: Add some of your most-used agents to Researcher.
+    - Users: Use Researcher on topics that require expertise from the agents available in Researcher's Sources menu.
+    - Developers: Connect other Declarative Agents to your agent.
+
+    **Why this matters:**
+
+    **Business impact:** Streamlines complex, multi system workflows.
+
+    **Personal impact:** Makes interactions with multiple agents feel smoother.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-connected-agents-for-researcher)
+
+    [Connect to other agents from a declarative agent](/microsoft-365-copilot/extensibility/declarative-agent-connected-agent)
+
 <!--- All features that have 'Windows' tag  -->
+<!-- 74703,100671,100312,104967,102626,101108 -->
+
+## January 13, 2026
+Updates released between December 23, 2025, and January 13, 2026.
+### Microsoft 365 admin center
+- **Admin control to customize AI disclaimers in Copilot Chat** [Windows, Web]
+
+  We updated the AI Disclaimer experience in Microsoft Copilot Chat based on customer feedback. To address this, we introduced an admin control that allows organizations to customize how the disclaimer appears, improving user awareness and flexibility.
+
+  **Details:**
+
+  **What changed:** The AI disclaimer will remain visible in the user experience.
+Admins will gain the ability to heighten this message and to provide a link to their own documentation:
+The disclaimer will display bolded text for increased visibility.
+Admins can configure a custom URL pointing to their AI policy documentation.
+
+  **Why:** Organizations asked for more control over how the disclaimer appears to improve user awareness and flexibility.
+
+  **Try this:**
+
+  - Review the new AI Disclaimer setting in the Admin Portal. 
+  - Decide whether you want to configure this setting for your organization.
+  - If desired, prepare a custom URL to include in the UX.
+  - Communicate this change to your helpdesk staff and Copilot users.
+  - Update internal documentation if you reference the disclaimer experience.
+
+  **Why this matters:**
+
+  **Business impact:** Allows organizations to customize how the disclaimer appears.
+
+  **Personal impact:** Improves user awareness of the disclaimer.
+
+### Microsoft 365 Copilot app
+- **Access all your Copilot-generated content in one library** [Android, Windows, iOS, Mac, Web]
+
+  Use the new Library in the Microsoft 365 Copilot app to easily find and manage your Copilot-created images and pages.
+
+  **Roadmap ID:** [501783](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=501783)
+
+  **What changed:** A new centralized Library view in Copilot lets users access all their AI-generated assets in one place.
+
+  **Why:** Improves organization and removes friction in retrieving past Copilot content.
+
+  **Try this:**
+
+  - Open Copilot app → go to Library
+  - Filter by images or summaries
+  - Share content in Teams or email
+
+  **Business impact:** Boosts collaboration by making assets reusable and sharable.
+
+  **Personal impact:** Saves time by avoiding re-creating previous work.
+
+  **Additional resources:**
+
+  **Learn:**  
+  [Microsoft 365 Copilot Library](/copilot/microsoft-365/copilot-library)
+
+### Microsoft 365 Copilot Chat
+- **Search for meetings by organizer using Copilot Chat** [Windows]
+
+  Quickly find meetings scheduled by a specific person to review or prioritize your calendar.
+
+  **Roadmap ID:** [503859](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=503859)
+
+  **What changed:** Copilot Chat now lets you search your calendar for meetings organized by a specific individual.
+
+  **Why:** Helps users locate calendar items and prioritize activities faster.
+
+  **Try this:**
+
+  - Ask Copilot: “Find meetings organized by Alex Johnson next week.”
+  - Or: “Summarize action items from last 3 meetings organized by Sarah Davis.”
+
+  **Business impact:** Reduces wasted time searching for calendar details.
+
+  **Personal impact:** Gives quick control and visibility over relevant scheduled events.
+
+### Microsoft 365 Copilot extensibility
+- **Build smarter agents with GPT-5 in Agent Builder** [Android, Windows, iOS, Mac, Web]
+
+  Create more capable and context-aware Copilot agents powered by GPT-5, delivering richer responses and streamlined experiences for your users. 
+
+  **Roadmap ID:** [502552](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502552)
+
+  **Details:** 
+
+  **What changed:** 
+Declarative agents built in Microsoft 365 Copilot now use GPT-5 as the underlying chat model, enabling advanced reasoning, more natural language understanding, and improved multi-step processing. 
+
+  **Why:** 
+Organizations need AI-powered solutions that not only respond accurately but anticipate user needs. GPT-5 delivers higher precision and better handling of complex queries, resulting in agents that feel more responsive and intelligent, reducing repetitive follow-ups. 
+
+  **Try This:** 
+  - Open Agent Builder in Microsoft 365 Copilot to create a new declarative agent that runs on GPT‑5 as the foundation.
+  - Configure your agent with domain-specific knowledge and test its ability to handle scenario-based queries. 
+  - Ask your new agent: *“Help me draft a Q4 performance summary with recommendations based on last quarter’s sales trends.”* 
+
+  **Why this matters:** 
+
+  **Business Impact:** Smarter agents mean streamlined workflows and faster completion of complex business processes, reducing time-to-value and improving ROI on AI initiatives. 
+
+  **Personal Impact:** Users experience fewer frustrations when interacting with Copilot, getting precise answers and recommendations that fit their context—saving time and effort.
+
+- **Expand Copilot Agents with Mail, People, and Meeting Insights** [Windows, Web]
+
+  Copilot declarative agents can now integrate with richer M365 data: mail, people's data, Teams chats, and meeting transcripts.
+
+  **What Changed:** Agents can now tap into richer Microsoft 365 data sources - email, Teams chats, meeting transcripts, and people data - to deliver more context-aware answers and automate tasks seamlessly.
+
+  **Why:** Modern work spans inboxes, chats, calendars, and documents. Constant switching slows teams down. By grounding declarative agents in organizational data, Copilot reduces context-switching, improves accuracy, and accelerates decision-making.
+
+  **Try This:**
+
+  - Create a declarative agent that uses Meetings data to generate a project summary.
+  - **Sample query:** “Summarize decisions and blockers from this week’s meetings relating to Project X.”
+  - Create a declarative agent that uses Email data to draft emails.
+  - **Sample query:** "Draft follow up emails for unresolved items from yesterday."
+
+  **Why This Matters:**
+
+  **Business Impact:** Teams works faster when Copilot agents bring context from across Microsoft 365 into one place. By reducing time spent searching through emails, chats and transcripts, organizations improve decision accuracy, accelerate workflows, and keep projects moving without delays.
+
+  **Personal Impact:** Users no longer need to juggle multiple tools to gather context. Copilot agents can consolidate multiple knowledge capabilities in one place, saving time and reducing cognitive load throughout the workday.
+
+  **Additional resources:**
+
+  **Learn:**  
+  [Add knowledge sources to your declarative agent](/microsoft-365-copilot/extensibility/knowledge-sources)
+
+- **Generate Office documents from agents in Copilot Studio lite** [Windows, Web]
+
+  Agents built with Copilot Studio lite can generate PowerPoint decks, Excel spreadsheets, and Word documents via chat, with files saved to OneDrive.
+
+  **Roadmap ID:** [506753](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=506753)
+
+  **Details:**
+
+  **What changed:** Office skills are available in Copilot Studio lite. Users can chat with an agent to generate PowerPoint, Excel, and Word files. Files are saved to OneDrive to streamline organization and support retention policies. These skills are part of the “Generate code, graphs, and documents” capability (formerly known as Code Interpreter).
+
+  **Why:** Automating common document tasks helps teams move faster and maintain consistency, while OneDrive storage supports governance needs.
+
+  **Try this:**
+
+  - Ask your agent to create a Word document with a project outline.
+  - Request an Excel spreadsheet with labeled columns for status tracking.
+  - Generate a PowerPoint deck with section titles for an upcoming review.
+
+  **Why this matters:**
+
+  **Business impact:** Reduces manual document creation time and supports compliant storage.
+  
+  **Personal impact:** Makes everyday document tasks quicker and easier.
+
+  **Additional resources:** 
+
+  **Learn:**  
+[Add capabilities](/microsoft-365-copilot/extensibility/agent-builder-build-agents#add-capabilities)
+
+## December 23, 2025
+Updates released between December 10, 2025, and December 23, 2025.
+### Microsoft 365 Copilot app
+- **GPT-5 powers Copilot Chat by default** [Android, Windows, iOS, Mac, Web]
+
+  Copilot Chat delivers faster, smarter results using GPT-5 as the default model.
+
+  **Details:**
+
+  **What Changed:** All Copilot Chat experiences run on GPT-5 by default. Copilot automatically routes prompts to the best-performing models for each task, using fast models for basic tasks and specialized reasoning models for multi-step requests.
+
+  **Why:** Users want speed, accuracy, and minimal friction. This update helps to ensure consistent, high-quality AI interactions in Copilot Chat.
+
+  **Try This:**
+
+  - “Get me up to speed on the latest plans related to [project/initiative]. Help me think through what to do next.”
+  - “Use the attached spreadsheet with customer feedback to create a polished executive report that helps upper management decide where to prioritize resources in our next cycle.”
+
+  **Why this matters:**
+
+  **Business Impact:** Increases accuracy and productivity, helping teams make strong decisions and complete complex work faster.
+
+  **Personal Impact:** Removes friction by letting Copilot choose the best model--fast or reasoning--for the prompt.
+
+  **Additional resources:**
+
+  **Blogs:** 
+
+  <a href="https://www.microsoft.com/microsoft-365/blog/2025/08/07/available-today-gpt-5-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6" target="_blank">Available today: GPT-5 in Microsoft 365 Copilot</a>
+### Microsoft 365 Copilot Chat
+- **Streamlined Copilot chat navigation with expanded history** [Windows, Web]
+
+  A redesigned navigation pane provides a cleaner layout and expanded chat history, making it easier to switch between conversations. This allows you to switch between conversations and pick up where you left off, perfect great for fast-paced projects and multitasking.
+
+  **Roadmap ID:**    <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=516570" target="_blank">516570</a>
+
+  **Details:**
+
+  **What Changed:** The Copilot navigation pane highlights key agents, removes clutter, and expands visible chat history beyond the previous limit of five recent chats. Chat search is also more prominent for faster access to specific threads. This reduces interface clutter.
+
+  **Why:** Users wanted an interface that feels organized and speeds up workflow. This redesign lets you quickly return to prior conversations without digging through menus. 
+
+  **Try This:**
+  - Open the navigation pane in Copilot to see the improved design.
+  - Search for a previous project conversation using the updated chat search bar.
+  - Pin your most important chats to keep them accessible during critical work sessions.
+
+  **Why this matters:**
+
+  **Business Impact:** Standard, simplified navigation UI to help reduce downtime from searching old threads.
+
+  **Personal Impact:** Enjoy a simpler, less cluttered workspace with easier access to past chats.
+### Microsoft 365 Copilot extensibility
+- **Upload Larger Files in Copilot Studio Agent Builder** [Android, Windows, iOS, Web]
+
+  Agent Builder now supports file uploads up to 512 MB when creating agents, ideal for larger files.
+
+  **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500375" target="_blank">500375</a>
+
+  **Details:**
+
+  **What Changed:**
+  This increases the upload size limit in Agent Builder to 512 MB, enabling use of larger files as grounding data.
+
+  **Why:**
+  Users requested more flexibility for grounding agents. Larger files improve reduce the need to split or compress documents.
+
+  **Try This:**
+  - Drag and drop large documents such as training manuals into your agent project.
+  - Create the agent and ask it to summarize information from uploaded files.
+
+  **Why this matters:**
+
+  **Business Impact:** Allows enterprises to build agents with richer, domain-specific knowledge.
+
+  **Personal Impact:** Complete your work without the need to split files or compress data.
+
+  **Additional resources:**
+ 
+  **Learn:**
+ 
+  <a href="/microsoft-365-copilot/extensibility/agent-builder-add-knowledge#embedded-file-content" target="_blank">Embedded file content</a>
+### Microsoft 365 Copilot Studio
+- **Build Copilot agents using organizational People data** [Windows, Web]
+
+  Developers can build agents in Copilot Studio that deliver personalized, context-aware responses using organizational People data.
+
+  **Details:**
+  
+  **What changed:** Added the ability for agent builders to access and use People data from your directory in responses.
+
+  **Why:** Makes interactions more contextual and human-centric for better relevance.
+
+  **Try This:** 
+  - Enable People data in Agent Builder
+  - Create an agent to answer org-specific directory questions
+  - Test in Microsoft Teams
+
+  **Why this matters:**
+
+  **Business Impact:** Improves accuracy and personalization in enterprise workflows.
+  
+  **Personal Impact:** Users get tailored answers courtesy of context-rich data.
+
+  **Additional resources:**
+  
+  **Learn:**
+  
+  <a href="/microsoft-365-copilot/extensibility/agent-builder-add-knowledge" target="_blank">Add knowledge sources to your declarative agent in Microsoft 365 Copilot</a>
+### PowerPoint
+- **Use your organization’s approved assets in Copilot presentations** [Mac, Windows, Web]
+
+  Create branded PowerPoint slides by pulling images and templates from your company’s SharePoint asset library or Templafy integration.
+
+    **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=496366" target="_blank">496366</a>
+      
+  **Details:**
+
+  **What changed:** PowerPoint Copilot integrates with SharePoint Organization Asset Library and Templafy for approved, compliant visuals.
+
+  **Why:** Ensures quality designs aligned with corporate branding guidelines.
+
+  **Try This:** 
+  - Configure SharePoint OAL or Templafy in Microsoft 365
+  - Ask Copilot: “Create a marketing update deck using brand imagery.”
+
+  **Why this matters:**
+
+  **Business impact:**: Maintains brand identity across all content.
+
+  **Personal Impact:** Saves design time by eliminating manual asset searching.
+
+  **Additional resources:**
+
+  **Learn:**
+ 
+  <a href="/sharepoint/organization-assets-library" target="_blank">Create an organization assets library</a>
+### Word
+- **Referenced sources cited in drafted content** [Windows]
+
+  Draft content with confidence as Copilot automatically includes citations, referencing the information in your text. This feature ensures accuracy and credibility, saving time on manual citation.
+
+
+    **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=380842" target="_blank">380842</a>
+
+  **Details:**
+
+  **What changed:** Copilot in Word now automatically generates citations when incorporating external information into your drafts. This process highlights references directly within the text, eliminating the need for manual citation entry.
+
+  **Why:** Proper attribution is vital for maintaining credibility and avoiding plagiarism. This enhancement simplifies the citation process, ensuring academic and professional integrity without added effort.
+
+  **Try This:**
+
+  - While drafting in Word, ask Copilot: "Include citations for referenced content."
+  - Use Copilot commands to review the generated citations for completeness and accuracy.
+  - Compare the citation style used with your preferred or required academic formatting.
+
+  **Why this matters:**
+
+  **Business Impact:** Enhances the reliability of professional documents by ensuring proper attribution without a complex citation process.
+
+  **Personal Impact:** Save time creating references, allowing more focus on content quality and creativity.
+
+<!-- All features that have 'Windows' tag  -->
 <!-- 96890,101634,101246,98572,101655,101641,96886 -->
-## November 12 - 24, 2025
-Updates released between November 12, 2025, and November 24, 2025.
+## November 25, 2025
+Updates released between November 12, 2025, and November 25, 2025.
 ### Microsoft 365 admin center
 
----  
 - **Reassign agent ownership with full control** [Windows, Web]
 
   Admins can now transfer ownership of shared agents, granting the new owner full edit and delete permissions and revoking all access from the previous owner.  
 
-  **Roadmap ID:** [502867](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=502867)
+  ****Roadmap ID:**** [502867](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=502867)
 
-  **Details:**  
+  ****Details:****  
 
   **What changed:** 
   
-  Ownership reassignment capabilities are now live in Microsoft 365 Admin Center, with edits propagating to agent files and associated content.  
+  Ownership reassignment capabilities are now live in Microsoft 365 admin center, with edits propagating to agent files and associated content.  
  
-  **Why:** 
+  ****Why:**** 
   
   Helps maintain governance when employees leave roles or teams without disrupting workflows.  
 
-  **Try This:**  
+  **Try this:**
 
-  -  From Admin Center, select a shared agent > choose **Reassign Owner** > confirm access update.  
+
+  -  From admin center, select a shared agent > choose **Reassign Owner** > confirm access update.  
 
   **Why this matters:**  
 
@@ -4125,33 +6270,34 @@ Updates released between November 12, 2025, and November 24, 2025.
   
   Admins can easily manage lifecycle changes without escalating to engineering teams. 
 
-  **Additional Resources:**
+  **Additional resources:**
 
-   **Learn:** 
+   **Learn:**
+
+
    
    [Reassign an agent's owner with PowerShell](/power-platform/release-plan/2025wave2/microsoft-copilot-studio/reassign-agents-owner-powershell)
----
-
 
 ### Microsoft 365 Copilot Chat
 - **Access shared mailboxes in Copilot Chat** [Android, Windows, iOS, Mac, Web]
 
   Copilot Chat now connects to shared mailboxes, so team-based conversations are more informed and collaborative.  
 
-  **Roadmap ID:**  [488797](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
+  ****Roadmap ID:****  [488797](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
   
 
-  **Details:**  
+  ****Details:****  
 
   **What changed:** Users with shared mailbox permissions can ground Copilot responses in shared mail content, just like their own emails.  
 
-  **Why:** Eliminates context gaps in team workflows and improves shared visibility on projects.  
+  ****Why:**** Eliminates context gaps in team workflows and improves shared visibility on projects.  
 
-  **Try This:**  
- 
+  **Try this:**
+
+
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
  
-  - Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox ."*
+  - Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox."*
 
   **Why this matters:**  
 
@@ -4163,7 +6309,7 @@ Updates released between November 12, 2025, and November 24, 2025.
   
   Reduces copying and manual email checks across shared accounts—Copilot does it for you.
  
-  **Additional Resources:**
+  **Additional resources:**
 
   [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
 
@@ -4172,19 +6318,20 @@ Updates released between November 12, 2025, and November 24, 2025.
   
   Use new file type and people refiners in Copilot Chat to quickly get to the right file without sifting through results.  
 
-  **Roadmap ID:** [481136](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=481136)
+  ****Roadmap ID:**** [481136](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=481136)
 
-  **Details:**  
+  ****Details:****  
  
   **What changed:** 
   
   Introduced filters for file types and collaborators in Copilot Chat's CIQ Files tab.  
  
-  **Why:** 
+  ****Why:**** 
   
   Cuts down time spent filtering manually, especially in large file repositories.  
 
-  **Try This:**  
+  **Try this:**
+
 
   -  In chat, search: *"Quarterly report"* → Filter by **Excel** and collaborator name.  
 
@@ -4197,30 +6344,29 @@ Updates released between November 12, 2025, and November 24, 2025.
   **Personal Impact:** 
   
   Less frustration—find what you need in seconds.
---- 
+
 - **Talk to Copilot with voice for faster hands-free work** [Android, Windows, iOS, Mac, Web]
 
-  Speak to Copilot naturally on mobile or desktop to prepare for meetings,brainstorm ideas, or catch up on work—hands-free and grounded in work data.
+  Speak to Copilot naturally on mobile or desktop to prepare for meetings, brainstorm ideas, or catch up on work—hands-free and grounded in work data.
 
-  Roadmap ID: [481138](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
+  **Roadmap ID:** [481138](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
 
-  **Details:**
+  ****Details:****
 
   **What changed:**
   
-  Copilot now supports voice input, enabling natural, conversational interactions in the Microsoft 365 Copilot app on mobile, desktop and the web and in the  across Microsoft 365 apps, starting with Outlook, Word and PowerPoint.
+  Copilot now supports voice input, enabling natural, conversational interactions in the Microsoft 365 Copilot app on mobile, desktop and the web and across Microsoft 365 apps, starting with Outlook, Word and PowerPoint.
 
-  **Why:**
+  ****Why:****
 
   Professionals need faster, more intuitive ways to engage with AI during their flow of work, especially when multitasking or on the move.
 Voice   removes friction, letting you work where typing isn't practical.
 
-  **Try This:**
+  **Try this:**
+  
 
   -  Say: *"Confirm the agenda and attendee list for my next meeting"*.
-
   -  Try:  *"Create a quick list of next steps from my recent meeting notes."*
-
   -  Ask: *"Summarize this document in five key points."*
 
   **Why this Matters:**
@@ -4233,34 +6379,34 @@ Voice   removes friction, letting you work where typing isn't practical.
   
   Work more comfortably and naturally while saving time, gaining efficiency and giving you the flexibility to use Copilot on the go or at your desk.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea)
   
-  ---
+
 ### Microsoft 365 Copilot extensibility
 - **Enhanced search in Agent Store for easier discovery** [Windows, Web]
 
 
   Finding the right agents in the Copilot Agent Store just got faster and smarter. Enjoy a streamlined search experience with typeahead suggestions and a clean results page—making it simple to locate exactly what you need without wasted time.  
  
-  **Roadmap ID:** [502617](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617)
+  ****Roadmap ID:**** [502617](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502617)
 
 
-    **Details:**  
+    ****Details:****  
       
     **What changed:** 
     
     The Agent Store now includes enhanced search capabilities featuring a responsive drop-down menu, typeahead functionality for quick suggestions as you type, and a dedicated search results page for improved clarity.  
 
-    **Why:** 
+    ****Why:**** 
     
     Customers need a quicker, more intuitive way to explore and find agents. By reducing friction in discovery, you can deploy and extend Copilot solutions with less effort and greater confidence.  
 
-    **Try This:**  
+    **Try this:**
 
-  -  Start typing an agent name in the search bar to see type ahead suggestions instantly.  
-    
+
+  -  Start typing an agent name in the search bar to see type-ahead suggestions instantly.  
   -  Use the new full results page for a complete view of matching agents.  
 
   **Why this matters:**  
@@ -4276,20 +6422,21 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   View detailed permissions for each Copilot agent in one place—including app dependencies, delegated permissions, and associated risks. Admins can grant consent directly, simplifying governance and deployment.
 
-  **Roadmap ID:** [502617](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617)
+  ****Roadmap ID:**** [502617](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502617)
 
 
-  **Details:**
+  ****Details:****
 
   **What changed:** 
   
   Unified Permissions Management now provides a clear view of all required applications, delegated permissions, and associated risk levels from a central console.
 
-  **Why:** 
+  ****Why:**** 
   
   Helps admins ensure security and compliance while reducing friction in agent approval workflows.
 
-  **Try This:**
+  **Try this:**
+
 
   -  Go to the Permissions tab in Microsoft 365 admin center to review and approve agent permissions.
 
@@ -4305,11 +6452,12 @@ Voice   removes friction, letting you work where typing isn't practical.
   
   Simplifies decision-making for IT teams, saving hours of manual checks.
 
-  **Additional Resources:**
+  **Additional resources:**
+
+  **Learn:**
 
   [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry)
 
----
 
 ### Microsoft 365 PowerPoint
 
@@ -4317,22 +6465,23 @@ Voice   removes friction, letting you work where typing isn't practical.
 
 When building a presentation with Copilot, you can now pull in content from Loop components or pages for fully integrated and up-to-date slides.  
 
-  **Roadmap ID:** [500864](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500864)
+  ****Roadmap ID:**** [500864](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500864)
 
 
-  **Details:**  
+  ****Details:****  
 
   **What changed:** 
 
   Copilot for PowerPoint supports referencing Loop components and pages across PC, Mac, and web.  
 
-  **Why:** 
+  ****Why:**** 
 
   Ensures your presentations reflect the latest collaborative content without manual copy-paste.  
 
-  **Try This:**  
-
-  -  Ask Copilot: *"Create a status update deck using the project details from our Loop page."*  
+  **Try this:**  
+  
+  
+  -  **Ask Copilot:** *"Create a status update deck using the project details from our Loop page."*  
 
   **Why this matters:**  
 
@@ -4346,7 +6495,7 @@ When building a presentation with Copilot, you can now pull in content from Loop
 
 
 <!-- 100829,103496,100910,100875,100679 -->
-## October 28 - November 12, 2025
+## November 12, 2025
 Updates released between October 28, 2025, and November 12, 2025.
 ### Excel
 - **Build and analyze surveys with ease using Surveys Agent** [Windows, Mac, Web]
@@ -4354,15 +6503,17 @@ Updates released between October 28, 2025, and November 12, 2025.
   Let Surveys Agent handle the heavy lifting—from writing questions to launching surveys and breaking down results. It's like having a professional researcher inside Copilot, helping you make quick, data-driven decisions.
  [Learn more](https://aka.ms/SurveysAgentAvailable).
 ### Microsoft 365 Copilot Chat
-- **RSVP status-based meeting search in Copilot Chat** [Android, Windows, Web]    
+- **RSVP status-based meeting search in Copilot Chat** [Android, Windows, Web]
+  
 
 **Roadmap:** [499429](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499429)
   
   Quickly find meetings based on RSVP status—either your own or others'. This feature helps you stay organized by surfacing RSVP details for upcoming events, so you can track commitments and follow up with attendees.
 
-  **Try This:** Open Microsoft 365 Chat. 
+  **Try this:** 
   
-  Enter queries like:
+  
+  Open Microsoft 365 Chat. Enter queries like:
 
   -  "Meetings I accepted this week"                                                                        
   -  "Meetings I have not RSVPed this week"                                                                       
@@ -4392,7 +6543,7 @@ Updates released between October 28, 2025, and November 12, 2025.
 
 
 <!-- 84890,77679,104883,100921,96976 -->
-## October 15 - 28, 2025
+## October 28, 2025
 Updates released between October 15, 2025, and October 28, 2025.
 ### Copilot extensibility
 - **Static tab for custom agents in Teams meetings** [Windows, Web]
@@ -4420,7 +6571,7 @@ Updates released between October 15, 2025, and October 28, 2025.
 
 
 <!-- 100353,100885,100884 -->
-## October 15, 2025 updates
+## October 15, 2025
 Updates released between September 30, 2025, and October 15, 2025.
 ### Copilot extensibility
 - **Context-aware search ranking** [Windows, Web]
@@ -4437,7 +6588,7 @@ Updates released between September 30, 2025, and October 15, 2025.
 
 
 <!-- 97403/2/1,96887,101071,100986,100267,80915 -->
-## Updates between September 16 to September 30, 2025
+## September 30, 2025
 Updates released between September 16, 2025, and September 30, 2025.
 ### Microsoft 365 admin center
 - **Usage reports for Copilot search** [Android, Windows, iOS, Mac, Web]
@@ -4467,7 +6618,7 @@ Updates released between September 16, 2025, and September 30, 2025.
 
 <!-- 100345,84276,100364,97770,96984 -->
 
-## Updates of September 16, 2025
+## September 16, 2025
 
 Updates released between September 3, 2025, and September 16, 2025.
 
@@ -4500,7 +6651,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 
 
 <!-- 82180,99809,84151,96025 96022 96024,98039,100352,95279,95274,100337 -->
-## August 19 - September 3, 2025 
+## September 3, 2025 
 Updates released between August 19, 2025, and September 3, 2025.
 ### Copilot extensibility
 - **Add advanced scripting support for ServiceNow catalog** [Windows, Web]
@@ -4509,7 +6660,7 @@ Updates released between August 19, 2025, and September 3, 2025.
  [Learn more](/microsoftsearch/servicenow-catalog-advanced-flow).
 - **Get clear sync statuses and error insights** [Windows, Web]
 
-  View actionable user sync and ingestion statuses across all states in Microsoft Admin Center to simplify troubleshooting.
+  View actionable user sync and ingestion statuses across all states in Microsoft admin center to simplify troubleshooting.
  [Learn more](/microsoftsearch/connector-view-details).
 - **Ground Copilot responses on specific content subsets** [Windows, Web]
 
@@ -4545,7 +6696,7 @@ Updates released between August 19, 2025, and September 3, 2025.
 
 
 <!-- 95488,84938,97934,97897,97224,95300,95298,95266,100604,75985,99367 -->
-## August 19, 2025 updates
+## August 19, 2025
 Updates released between August 5, 2025, and August 19, 2025.
 ### Copilot extensibility
 - **Craft actions using API chaining with low code** [Windows, Web]
@@ -4596,12 +6747,12 @@ Updates released between August 5, 2025, and August 19, 2025.
 
 
 <!-- 84976,94586,83228,95029,64023,99774,100348,100344,100339,100338,99368,98331,97241,79743,84472 -->
-## July 22 - August 5, 2025
+## August 5, 2025
 Updates released between July 22, 2025, and August 5, 2025.
 ### Copilot extensibility
-- **Enhance Copilot Studio lite experience with full screen mode** [Windows, Mac, Web]
+- **Enhance agent builder with full screen mode** [Windows, Mac, Web]
 
-  Enjoy an improved Copilot Studio lite experience with a full-screen view that streamlines the process of creating and managing your agents.
+  Enjoy an improved agent builder experience with a full-screen view that streamlines the process of creating and managing your agents.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
 - **Enhanced Q&A accuracy for SharePoint files** [Windows, Web]
 
@@ -4633,7 +6784,7 @@ Updates released between July 22, 2025, and August 5, 2025.
 ### Microsoft 365 Copilot Chat
 - **Share agents with your enterprise** [Windows, Web]
 
-  Generate sharing links for your agents in Business Chat. If the recipient doesn't have the agent, they'll be directed to the Microsoft 365 application catalog to install it. If they do, the agent will open directly in Microsoft 365 Copilot Business Chat.
+  Generate sharing links for your agents in Business Chat. If the recipient doesn't have the agent, they are directed to the Microsoft 365 application catalog to install it. If they do, the agent opens directly in Microsoft 365 Copilot Business Chat.
  [Learn more](https://support.microsoft.com/topic/how-to-share-your-agent-44981c08-ab64-43f1-bcf8-ebadfc5469cc).
 ### PowerPoint
 - **Copilot uses enterprise assets hosted on SharePoint OAL when creating presentations now** [Mac, Windows, Web]
@@ -4663,20 +6814,20 @@ Updates released between July 22, 2025, and August 5, 2025.
 
 
 <!-- 98124,78170,100044,97230,95268,100351,99775,95681,95248,80346,98515,98840 -->
-## July 22, 2025 - Feature additions
+## July 22, 2025
 Updates released between July 8, 2025, and July 22, 2025.
 ### Copilot extensibility
-- **Hebrew support in Copilot Studio lite experience** [Windows, Web]
+- **Hebrew support in Agent builder** [Windows, Web]
 
-  Integrate Hebrew language support in Copilot Studio lite experience to build accessible, localized solutions that simplify multilingual deployments and enhance user engagement.
+  Integrate Hebrew language support in agent builder to build accessible, localized solutions that simplify multilingual deployments and enhance user engagement.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-availability).
 - **Increased support for uploading up to 20 documents to agents' knowledge** [Windows, Web]
 
-  End users and makers can now upload up to 20 documents to ground agents with richer, embedded knowledge in Microsoft Copilot Studio lite experience.
+  End users and makers can now upload up to 20 documents to ground agents with richer, embedded knowledge in Microsoft Copilot Studio agent builder.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-knowledge).
 - **Share agents from embedded builder** [Windows, Web]
 
-  Users can share agents from an embedded Copilot Studio lite experience to other individual users or group chats.
+  Users can share agents from an embedded agent builder to other individual users or group chats.
  [Learn more](/microsoft-365/admin/manage/manage-embedded-knowledge-agents).
 - **Share agents with context-aware link previews** [Windows, Web]
 
@@ -4701,7 +6852,7 @@ Updates released between July 8, 2025, and July 22, 2025.
  [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
 - **Microsoft 365 Copilot generates the new presentation in a new file when starting from an existing presentation** [Mac, Windows]
 
-  Now, when creating a presentation using Microsoft 365 Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation.
+  Now, when creating a presentation using Microsoft 365 Copilot from an existing presentation, it creates the new presentation in a new file without affecting the original presentation.
  [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
 - **Reference multiple files in your presentation creation using Microsoft 365 Copilot** [Windows, Mac, Web]
 
@@ -4718,7 +6869,7 @@ Updates released between July 8, 2025, and July 22, 2025.
 
 
 <!-- 84996,84872,95244,77803,99334,95294,97932,97885,97801,94703,64005 -->
-## July 8, 2025 - What’s New
+## July 8, 2025
 Updates released between June 24, 2025, and July 8, 2025.
 ### Copilot extensibility
 - **Add Dataverse as knowledge in Copilot** [Web, Windows]
@@ -4750,7 +6901,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 - **Updated UI for Microsoft 365 Copilot App** [Windows, Web]
 
   The Microsoft 365 Copilot app is your starting place for AI at work, offering quick access to secure AI chat, search, files, and content creation in one seamless app.
- [Learn more](https://www.microsoft.com/en-us/microsoft-365/blog/2025/04/23/microsoft-365-copilot-built-for-the-era-of-human-agent-collaboration/).
+ [Learn more](https://www.microsoft.com/microsoft-365/blog/2025/04/23/microsoft-365-copilot-built-for-the-era-of-human-agent-collaboration/).
 ### Microsoft 365 Copilot Chat
 - **Locate your Copilot Pages in Microsoft 365 Copilot Chat navigation pane** [Windows, Web]
 
@@ -4759,7 +6910,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 ### Teams
 - **Copilot in Meetings will suggest follow up questions to ask it** [Windows, Mac]
 
-  When Copilot in Teams Meetings responds to a prompt, it will also suggest follow up prompts to ask Copilot that builds on the prior response. These questions will generally be based on the response it gave prior, and could be related to honing in on a particular topic, asking for more details, or even reformatting the content into a table if appropriate.
+  When Copilot in Teams Meetings responds to a prompt, it will also suggest follow-up prompts to ask Copilot that builds on the prior response. These questions will generally be based on the response it gave prior, and could be related to honing in on a particular topic, asking for more details, or even reformatting the content into a table if appropriate.
  [Learn more](https://support.microsoft.com/office/use-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1).
 ### Viva Connections
 - **New News feature in Microsoft Teams** [Android, Windows, iOS, Web]
@@ -4774,7 +6925,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 
 
 <!-- 98006,95296,83646,81354,97565,95267,97885,97034,83213,99889,95904,95903,79335,84996,97832,98196,97305,95679,96368 -->
-## Updates of June 24, 2025
+## June 24, 2025
 Updates released between June 10, 2025, and June 24, 2025.
 ### Copilot extensibility
 - **Admins can manage Copilot extensibility under Copilot tab in Microsoft 365 admin center** [Windows, Web]
@@ -4822,7 +6973,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 ### Microsoft 365 Copilot Chat
 - **Catch up on Task related emails through Microsoft 365 Copilot Chat.** [Windows]
 
-  Users can use Microsoft 365 Copilot Chat to prioritize emails that require immediate attention, address urgent tasks, or contain action items or questions. Timely identification of such emails will help users complete these tasks efficiently or plan their work effectively.
+  Users can use Microsoft 365 Copilot Chat to prioritize emails that require immediate attention, address urgent tasks, or contain action items or questions. Timely identification of such emails helps users complete these tasks efficiently or plan their work effectively.
 - **Locate your Copilot Pages in Copilot Chat navigation pane** [Windows, Web]
 
   For quick access to your Copilot Pages, find all page artifacts created across your apps/modules in one place underneath the Chat section in the Microsoft 365 Copilot app.
@@ -4860,7 +7011,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 
 <!-- 97166,95275,99896,99890,99009,97921,97372,97288,96951,81005,80339,77194,72079 -->
-##  Release overview of June 10, 2025
+##  June 10, 2025
 Updates released between May 29, 2025, and June 10, 2025.
 ### Copilot extensibility
 - **One-click setup for all connectors** [Windows, Web]
@@ -4881,7 +7032,7 @@ Updates released between May 29, 2025, and June 10, 2025.
 - **Module UI refresh** [Windows, Web]
 
   Copilot Chat is designed to provide a streamlined UI, making it easy to get started and achieve your goals quickly. It offers a helpful, understanding, and personalized experience, allowing you to search for past interactions, content, agents, or pages with ease.
- [Learn more](https://support.microsoft.com/en-us/topic/get-started-with-microsoft-365-copilot-chat-5b00a52d-7296-48ee-b938-b95b7209f737).
+ [Learn more](https://support.microsoft.com/topic/get-started-with-microsoft-365-copilot-chat-5b00a52d-7296-48ee-b938-b95b7209f737).
 - **Simplified Input box update** [Windows, Web]
 
   We've made it easier for users to type prompts with access to CIQ, local files, attach cloud files, and agents by adding it under the Plus Menu.
@@ -4917,7 +7068,7 @@ Updates released between May 29, 2025, and June 10, 2025.
 
 
 <!-- 84861,96546,96718,97368,94668,95187,97261,96531,96912,95901,95897,81914,95901 -->
-## Updates between May 13 and May 29, 2025
+## May 29, 2025
 Updates released between May 13, 2025, and May 29, 2025.
 ### Copilot extensibility
 - **Insert images in adaptive cards for richer interactions** [Windows, Web]
@@ -4937,7 +7088,7 @@ Updates released between May 13, 2025, and May 29, 2025.
 - **Copilot Chat now offers access to cloud files to insert in user prompts** [Windows, Web]
 
   In the Web tab of Copilot Chat or Microsoft 365 Copilot, users can browse OneDrive or SharePoint, select a file, and drop it into their prompt to give Copilot precise context for richer responses.
-- **Enable Copilot Studio lite experience for Copilot chat** [Windows, Web]
+- **Enable agent builder for Copilot chat** [Windows, Web]
 
   Empower developers with the ability to build custom agents to support Copilot Chat. This feature streamlines the creation of tailored chat experiences that enhance everyday communication and workflow.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
@@ -4971,7 +7122,7 @@ Updates released between May 13, 2025, and May 29, 2025.
 
 
 <!-- 96970,94471,97570,83243,96611,97225,96244 -->
-## May 13, 2025 updates
+## May 13, 2025
 Updates released between April 29, 2025, and May 13, 2025.
 ### Excel
 - **Advanced analysis with Python and Copilot** [Windows]
@@ -4980,7 +7131,7 @@ Updates released between April 29, 2025, and May 13, 2025.
  [Learn more](https://support.microsoft.com/office/copilot-in-excel-with-python-364e4ae9-9343-4d56-952a-5f62b0f70db6).
 - **Ask Copilot about any part of your sheet** [Web, Mac, Windows, iOS]
 
-  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This will include understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
+  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This includes understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
 ### Microsoft 365 admin center
 - **Manage pay-as-you-go billing for Copilot** [Windows, Web]
 
@@ -5009,7 +7160,7 @@ Updates released between April 29, 2025, and May 13, 2025.
   Tailor each document opening with your preferred summary style—select brief, standard, or detailed insights to match your workflow.
  [Learn more](https://support.microsoft.com/office/create-a-summary-of-your-document-with-copilot-in-word-79bb7a0a-3bf7-41fe-8c09-56f855b669bf).
 <!-- 81919,96545,96544,77902,97414,81916,96508,96512 -->
-## April 29, 2025 updates
+## April 29, 2025
 Updates released between April 16, 2025, and April 29, 2025.
 ### Excel
 - **Ask Copilot to extract insights from inserted images** [Windows]
@@ -5020,16 +7171,16 @@ Updates released between April 16, 2025, and April 29, 2025.
   Ask questions about images you insert into the prompt area to extract key data for your spreadsheets.
  [Learn more](https://techcommunity.microsoft.com/blog/microsoft365insiderblog/add-images-to-your-copilot-prompts-in-word-and-powerpoint/4359423).
 ### Microsoft 365 Copilot extensibility
-- **Copilot Studio lite experience now available in new regions** [Windows, Web]
+- **Agent builder now available in new regions** [Windows, Web]
 
-  You can now access Copilot Studio lite experience in Norway, Sweden, South Korea, and South Africa.
+  You can now access Copilot Studio agent builder in Norway, Sweden, South Korea, and South Africa.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-availability#regional-availability).
 ### Microsoft Copilot Chat
 - **M365 Copilot for GCC Environments: Wave 2** [Windows]
 
   Bringing Microsoft 365 Copilot GCC your AI assistant for work in the GCC environment. It combines the power of Large Language Models with your work content and context, to help you draft and rewrite, summarize and organize, catch up on what you missed, and get answers to questions via open prompts. Copilot generates answers using the rich, people-centric data and insights available in the Microsoft Graph. Microsoft 365 Copilot GCC is now available in Stream, SharePoint, OneNote, and Pages in Loop. [Learn more](https://techcommunity.microsoft.com/blog/publicsectorblog/what%E2%80%99s-new-in-microsoft-365-copilot-for-government/4399086).
 
-- **Submit feedback on the Copilot Studio lite experience experience** [Windows, Web]
+- **Submit feedback on the agent builder experience** [Windows, Web]
 
   Improve your custom Copilot Chat solutions by providing targeted feedback on RAI and agent response during test chats. This direct input helps refine and enhance the builder experience. [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder#submit-feedback).
 
@@ -5049,7 +7200,7 @@ Updates released between April 16, 2025, and April 29, 2025.
 
 
 <!-- 95249,84156,76195,73845,95264,96345,84526 -->
-## April 16, 2025 - Highlights
+## April 16, 2025
 Updates released between April 2, 2025, and April 16, 2025.
 ### Excel
 - **Access Copilot on-grid in Windows** [Windows]
@@ -5087,7 +7238,7 @@ Updates released between April 2, 2025, and April 16, 2025.
 
 
 <!-- 84823 -->
-## Updates between March 20 and April 2, 2025
+## April 2, 2025
 Updates released between March 20, 2025, and April 2, 2025.
 ### PowerPoint
 - **Translate your presentation** [Windows, Web, Mac]
@@ -5096,7 +7247,7 @@ Updates released between March 20, 2025, and April 2, 2025.
  [Learn more](https://support.microsoft.com/topic/translate-your-presentation-with-copilot-2c622fca-daaf-457c-bc74-f3496cf44a85).
 
 
-## March 19, 2025 - Feature Additions
+## March 19, 2025
 
 Updates released between March 5, 2025, and March 19, 2025.
 
@@ -5124,7 +7275,7 @@ Updates released between March 5, 2025, and March 19, 2025.
 
   Easily share custom prompts from the Copilot Prompt Gallery with your Microsoft Teams team. This streamlined sharing makes it simple for team members to discover and make the most of these prompts in their daily workflow. [Learn more](https://support.microsoft.com/topic/sharing-prompts-with-a-team-2fa7a228-8645-4dc4-beec-d75d6d0bc752?OCID=copilot_ongoingemail_feb25).
 
-## March 4, 2025 - What’s New
+## March 4, 2025
 
 Updates released between February 20, 2025, and March 4, 2025. 
 
@@ -5144,7 +7295,7 @@ Updates released between February 20, 2025, and March 4, 2025.
 
   Convert grounded content from Word documents into dynamic slides with tables. Enhance your presentations with structured, data-driven visuals effortlessly.
 
-## February 19, 2025 - What’s New
+## February 19, 2025
 
 Updates released between February 5, 2025, and February 19, 2025. 
 
@@ -5188,7 +7339,7 @@ Updates released between February 5, 2025, and February 19, 2025.
 
   Highlight text, start a chat with Copilot, and receive responses tailored to what you've selected. Get targeted writing assistance and refine your content in real time.
 
-## February 4, 2025 - What’s New
+## February 4, 2025
 
 Updates released between January 24, 2025, and February 4, 2025.
 
@@ -5234,7 +7385,7 @@ Updates released between January 24, 2025, and February 4, 2025.
 
   Add .txt files as sources with Copilot in Word, streamlining your process when working with text-based research or background content.
 
-## January 23, 2025 - What’s New
+## January 23, 2025
 
 Updates released between January 8, 2025, and January 23, 2025.
 ### Microsoft 365 Copilot Chat
@@ -5297,7 +7448,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
   Hear Copilot's replies in the chat pane, letting you stay hands-free while reviewing your content.
 
-## January 7, 2025 — What’s New
+## January 7, 2025
 
 Updates released between December 18, 2024, and January 7, 2025.
 
@@ -5305,7 +7456,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Include Code Interpreter in agents** [Windows, Web]  
 
-  Enhance your agents by including Code Interpreter for advanced data analysis tasks in Copilot Studio lite experience. [Learn more](/microsoft-365-copilot/extensibility/add-agent-capabilities#enable-code-interpreter).
+  Enhance your agents by including Code Interpreter for advanced data analysis tasks in agent builder. [Learn more](/microsoft-365-copilot/extensibility/add-agent-capabilities#enable-code-interpreter).
 
 ### OneNote
 
@@ -5385,11 +7536,11 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Add image generation to agents** [Windows, Web]  
 
-  Enhance your agents by including image generation capabilities in Copilot Studio lite experience [Learn more](/microsoft-365-copilot/extensibility/add-agent-capabilities#image-generator).
+  Enhance your agents by including image generation capabilities in agent builder. [Learn more](/microsoft-365-copilot/extensibility/add-agent-capabilities#image-generator).
 
-- **Create agents in Microsoft 365 Copilot via Copilot Studio lite experience** [Windows, Web]  
+- **Create agents in Microsoft 365 Copilot via agent builder** [Windows, Web]  
 
-  Use Copilot Studio lite experience to create agents that contain specific instructions and knowledge, such as SharePoint files, to suit your needs. [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
+  Use agent builder to create agents that contain specific instructions and knowledge, such as SharePoint files, to suit your needs. [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
 
 ### PowerPoint
 
@@ -5407,7 +7558,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Disable Copilot in meetings** [Windows, Android, iOS, Mac]  
 
-  You can now turn Copilot off in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
+  You can now turn off Copilot in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
 
 ### Word
 
@@ -5419,7 +7570,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Create more detailed drafts by writing prompts over 2,000 characters and referencing files totaling up to 75,000 words. [Learn more](https://support.microsoft.com/topic/66de2ffd-deb2-4f0c-8984-098316104389).
 
-## October, 2024 — Release Overview
+## October, 2024
 
 ### Microsoft 365 Copilot
 
@@ -5437,7 +7588,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Create agents in Copilot with instructions and knowledge sources** [Windows, Web]  
 
-  Users can build Copilot agents that include specific instructions and knowledge, such as SharePoint files, directly from Copilot Chat using Copilot Studio lite experience. [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
+  Users can build Copilot agents that include specific instructions and knowledge, such as SharePoint files, directly from Copilot Chat using Copilot Studio Agent Builder. [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
 
 - **Customize your agent list in Copilot across apps** [Windows, Web]  
 
@@ -5738,7 +7889,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Users can copy-paste a link of a supported file into the Draft with Copilot UI as a reference, instead of searching for it in the file reference menu.
 
-## April, 2024 — Release Overview
+## April, 2024
 
 ### Microsoft 365 Copilot Chat
 
@@ -5788,7 +7939,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Discover Whiteboard Copilot with First Run Experience** [Windows, Web]  
 
-  First-time users will be guided to discover and leverage the power of Whiteboard Copilot features through an interactive introduction.
+  First-time users are guided to discover and leverage the power of Whiteboard Copilot features through an interactive introduction.
 
 ### Word
 
@@ -5840,7 +7991,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Copilot side pane stays open across group chats** [Windows, Mac]  
 
-  When you open Copilot in a group chat, it will remain open even as you navigate between different chats, saving you time.
+  When you open Copilot in a group chat, it remains open even as you navigate between different chats, saving you time.
 
 ### Outlook
 
@@ -5942,7 +8093,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Create a presentation from a simple prompt** [Windows, Web, iOS, Mac]  
 
-  Provide a prompt and Copilot will help you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
+  Provide a prompt and Copilot helps you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
 
 - **Create presentations using your organization's templates** [Windows, Web, iOS, Mac]  
 
@@ -6009,32 +8160,1567 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Use voice to dictate into the Copilot chat prompt field
 
-## [Web](#tab/web)
+![Uploading image.png…]()](#tab/web)
 <!--- All features that have 'Web' tag  -->
+<!-- 100671,100312,96561,96560,96300,104967,104073,102626,101108,97855 -->
+
+## [Web](#tab/Web)
+
+
+## February 24, 2026
+Updates released between February 10, 2026, February 24, 2026
+### Microsoft 365 Copilot extensibility
+
+- **Connect Copilot with Monday.com to track work and team progress** [Web] 
+
+  Users can connect Microsoft 365 Copilot with Monday.com to track work and team progress using the Copilot Connector. 
+
+  **Roadmap ID:** [515177](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515177)
+
+  **Details:**
+
+  **What changed:** Copilot can now pull data from Monday.com boards, tasks, and workflows. This allows users to review team progress and updates directly through Copilot. 
+
+  **Why:** This integration supports teams that rely on Monday.com by bringing their work data into Copilot for easier updates and insights.
+
+  **Try this:** 
+
+  - Ask Copilot to summarize key Monday.com tasks for your team. 
+  - Request a list of items that are overdue or blocked.
+  - Generate a status update based on Monday.com board activity. 
+
+  **Why this**
+
+  **Business impact:** Reduces context switching and improves clarity of work tracking. 
+
+  **Personal impact:** Makes task reviews and updates more efficient.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Microsoft 365 Copilot connectors overview](/microsoftsearch/connectors-overview)
+
+- **Connect Copilot with WordPress.com and WordPress.org** [Web]
+
+  Users can connect Copilot with WordPress.com and WordPress.org to retrieve, summarize, and analyze site content using the Copilot Connector. 
+
+  **Details:** 
+
+  **What changed:** Copilot can now pull posts, pages, and site content from WordPress installations, making it easier to analyze or repurpose web content. 
+
+  **Why:** The integration helps teams working with large content libraries stay informed and reuse content efficiently. 
+
+  **Try this:** 
+
+  - Ask Copilot for a summary of recent posts from your WordPress site. 
+  - Retrieve key themes across published articles. 
+  - Request an analysis of content performance patterns. 
+
+  **Why this matters:** 
+
+  **Business impact:** Supports content teams by improving visibility into site content. 
+
+  **Personal impact:** Simplifies reviewing and reusing website 
+
+- **Connect Copilot with Azure File Share** [Web]
+
+  Users can connect Copilot with Azure File Share to manage and work with their files using the Copilot Connector. 
+
+  **Details:** 
+
+  **What changed:** Copilot can now retrieve and summarize files stored in Azure File Share, providing insights without requiring users to open each file individually. 
+
+  **Why:** This integration helps organizations using Azure File Share bring their structured content into Copilot for easier processing. 
+
+  **Try this:** 
+
+  - Ask Copilot to list recent files added to Azure File Share. 
+  - Request summaries of documents stored there. 
+  - Retrieve key updates from a specific folder. 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams better use their Azure‑hosted content. 
+
+  **Personal impact:** Makes finding and understanding files faster.
+
+- **Connect Copilot with Veeva** [Web]
+
+  Users can connect Copilot with Veeva to access promotional materials, quality documents, and regulatory information using the Copilot Connector. 
+
+  **Details:** 
+
+  **What changed:** Copilot can now retrieve and summarize approved content stored in Veeva Vault, including compliance and regulatory documents. 
+
+  **Why:** This supports life sciences teams that depend on Veeva for controlled content, helping them access accurate information quickly. 
+
+  **Try this:** 
+
+  - Ask Copilot to summarize a regulatory document stored in Veeva. 
+  - Retrieve approved promotional content for a product. 
+  - Request key updates across quality documentation. 
+
+  **Why this matters:** 
+
+  **Business impact:** Improves access to validated documents for regulated workflows. 
+
+  **Personal impact:** Helps users stay compliant and informed.
+
+- **Connect Copilot with Jira Data Center to manage engineering tasks** [Web]
+
+  Users can connect Microsoft 365 Copilot with Jira Data Center to track and manage engineering tasks using the Copilot Connector. 
+
+  **Details:** 
+
+  **What changed:** Copilot can now retrieve issues, tasks, and updates from Jira Data Center. Users can analyze engineering progress and blockers directly in Copilot. 
+
+  **Why:** This helps engineering teams streamline updates and reduce the need to navigate multiple tools. 
+
+  **Try this:** 
+
+  - Ask Copilot for a summary of Jira engineering issues. 
+  - Request insights on current blockers. 
+  - Generate a high‑level project update. 
+
+  **Why this matters:** 
+
+  **Business impact:** Provides clearer visibility into engineering workflows. 
+
+  **Personal impact:** Helps users stay organized and informed.
+
+- **Out‑of‑box filter support for data sources in Copilot Search** [Web]
+
+  IT admins can customize filters for data sources in Copilot Search without additional development work. 
+
+  **Roadmap ID:** [502534](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502534 ) 
+
+  **Detailes:** 
+
+  **What changed:** Microsoft 365 Copilot search now includes a dynamic filtering experience that surfaces data source–specific filters. When users select a source (such as Outlook, SharePoint, Teams, Azure DevOps, Google Drive, Jira, or Confluence), relevant filters automatically appear in the right rail. 
+
+  **Why:** This gives users more precise control over search results by tailoring filters to the selected data source—without requiring any admin setup or changes to existing policies.
+
+  **Try this:** 
+
+  - Select a specific data source in Copilot search (e.g., Outlook or SharePoint).
+  - Use the dynamically populated filters in the right rail to refine results.
+  - Switch data sources to see filters update automatically based on context.
+
+  **Why this matters:** 
+
+  **Business impact:** Improves search accuracy while reducing administrative overhead—no configuration or policy updates required.
+
+  **Personal impact:** Helps users find relevant information faster with less manual refinement.
+
+  **Additional resources:**
+  
+  **Learn:**
+  
+   [Microsoft 365 Copilot: Data source-specific filters in search](https://m365admin.handsontek.net/microsoft-365-copilot-data-source-specific-filters-search/)
+  
+- **Scope grounding for declarative agents to specific data sources** [Windows, Web]   
+
+  Users can scope grounding for declarative agents to specific data sources. 
+
+    **Details:** 
+
+    **What changed:** Users can now define which data sources a declarative agent draws from. This ensures more precise responses and reduces unnecessary information.
+
+    **Why:** This gives users more control over how declarative agents use organizational data.
+
+    **Try this:** 
+
+    - Select a declarative agent where sources have been exposed or define sources in the manifest for your agent.
+    - Limit grounding to a single repository for more focused results. 
+    - Test the agent’s output to confirm improved relevance. 
+
+    **Why this matters:** 
+
+    **Business impact:** Improves control over data usage and response accuracy. 
+
+    **Personal impact:** Helps users get answers that match their needs.
+
+    **Additional resources:**
+    
+    **Learn:**
+    
+    [Declarative agent manifest example](/microsoft-365-copilot/extensibility/declarative-agent-manifest-1.6?branch=main&tabs=json#user-override-object)
+
+- **Embedded knowledge support for declarative agents** [Web]
+
+  Developers can embed knowledge such as PDFs, Word documents, and PowerPoint files for declarative agents. 
+
+  **Roadmap ID:** [474448](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=474448)
+
+  **Detailes:** 
+
+  **What changed:** Declarative agents now support embedded knowledge, allowing developers to include up to 10 local files as grounding resources.
+
+  **Why:** This makes it simpler to build agents that rely on internal documents. 
+
+  **Try this:** 
+
+  - Add embedded files to a declarative agent. 
+  - Test responses to confirm proper grounding. 
+
+  **Why this matters:** 
+
+  **Business impact:** Enhances agent accuracy using internal materials. 
+
+  **Personal impact:** Makes agent development more flexible.
+
+  **Additional Resources:**
+
+  **Learn:**
+
+  [Embedded knowledge object](/microsoft-365-copilot/extensibility/declarative-agent-manifest-1.6?tabs=json#embedded-knowledge-object)
+  
+### PowerPoint
+- **Use Copilot to get a detailed and contextual explanation** [Web, Windows, Mac]
+
+  Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
+
+  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
+
+  **Details:** 
+
+  **What changed:** Copilot can now provide an explanation of any selected object in a presentation. This includes acronyms, individual text boxes, tables images, & entire slide. Previously, users needed to rely on external references or manual research to understand unclear content.
+
+  **Why:** This feature helps users understand unfamiliar or complex information without leaving their presentation
+
+  **Try this:** 
+
+  - Select any text, table or slide, right click and choose “Explain". 
+  - Review the explanation without leaving PowerPoint 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams quickly understand unfamiliar content, reducing time spent researching and improving clarity in presentations.
+
+  **Personal impact:** Makes it easier to grasp the meaning of slide objects without switching apps.
+  
+  **Additional resources:**
+
+  **Blogs:**
+
+  [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
+
+- **Steer presentation length, tone, style, and images with Copilot** [Web, Windows, Mac]
+
+  Users can adjust presentation length, narrative tone, slide style, and AI‑generated images when creating presentations with Copilot.
+
+  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+
+  **Details:** 
+
+  **What changed:** Copilot now supports more granular controls for customization. Users can specify slide count, tone of messaging, stylistic preferences, and visual elements to better tailor their presentations. 
+
+  **Why:** This gives users more creative control and ensures presentations match the intended audience and purpose. 
+
+  **Try this:** 
+
+  - Ask Copilot to shorten your presentation to five slides. 
+  - Set the tone to “professional” or “informal” as needed. 
+  - Request new AI‑generated images that match your theme. 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams build polished presentations more efficiently.
+
+  **Personal impact:** Gives individuals more flexibility and creative options.
+
+
+### Viva Insights
+- **Copilot Studio agent report enhancements** [Web, Windows, Mac]
+
+  The Copilot Studio agent report includes autonomous agents and provides insights on adoption, impact, time savings, and cost savings. 
+
+  **Roadmap ID:** [499422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499422)
+
+  **Detailes:** 
+
+  **What changed:** The agent report now includes autonomous agents with generative orchestration. It also offers new metrics related to adoption, time saved, and cost benefits. 
+
+  **Why:** These enhancements help organizations understand how Copilot Studio agents are used and the value they deliver. 
+
+  **Try this:** 
+
+  - Open the Copilot Studio agent report to review autonomous agent usage. 
+  - Compare generative and non‑generative agent activity. 
+  - Review time‑saving and cost‑saving insights. 
+
+  **Why this matters:** 
+
+  **Business impact:** Supports better decision‑making about automation and ROI. 
+
+  **Personal impact:** Helps creators understand how their agents are being used.
+
+## February 10, 2026
+Updates released between January 27, 2026, February 10, 2026.
+### Microsoft 365 Copilot extensibility
+- **Admins can set up connector authentication faster with a simplified experience** [Web]
+
+  Admins can now set up connector authentication faster through a simplified and guided OAuth experience.
+
+  **Details:**
+
+  **What changed:** Previously, connector authentication required manual steps and extensive documentation. The new experience introduces a streamlined, guided OAuth flow that significantly reduces setup time.
+
+
+  **Why:** This change modernizes the authentication framework and reduces friction for admins configuring connectors.
+
+  **Try this:**
+
+  - Open connector setup and follow the guided OAuth flow.
+  - Complete authentication for supported connectors such as Gong, GitHub, or Monday.
+
+  **Why this matters:**
+
+  **Business impact:** Reduces configuration time and operational overhead for IT teams.
+
+  **Personal impact:** Makes connector setup faster and easier for admins.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Set up Microsoft 365 Copilot connectors in the Microsoft 365 admin center]( /microsoftsearch/configure-connector)
+
+- **Users can refresh Adaptive Cards in agents to view the latest information** [Web]  
+  
+  Users can refresh Adaptive Cards in agents to ensure they always see the most current information in their workflows.
+
+  **Details:**
+
+  **What changed:** Users can now refresh Adaptive Cards inside their agents to view updated information. Previously, cards remained static unless the agent was recreated or reloaded.
+
+  **Why:** This improvement helps users stay aligned with the latest data, reducing confusion and improving workflow accuracy.
+
+  **Try this:**
+
+
+  - Select the refresh option on an Adaptive Card inside your agent.
+  - Use the updated card to continue your workflow with the latest information.
+  - Check refreshed cards when reviewing time‑sensitive or changing data.
+
+  **Why this matters:**
+
+  **Business impact:** Ensures teams work with accurate, up‑to‑date information.
+
+  **Personal impact:** Reduces manual steps and helps individuals stay current with ongoing changes.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Allow inline editing of Adaptive Card responses (preview)](/microsoft-365-copilot/extensibility/adaptive-card-edits)
+
+- **Field teams can accelerate Copilot adoption using champion connectors** [Web]
+
+  Field teams can use getting started guides of champion connectors to guide customers through Copilot adoption with clear, consistent resources.
+
+  **Details:**
+
+  **What changed:** Field teams can now use getting started guides champion connectors to guide Copilot adoption in top accounts. This adds structured resources and best practices that were not available in earlier workflows.
+
+  **Why:** This change gives field teams consistent tools that help customers adopt Copilot more quickly and confidently.
+
+  **Try this:**
+
+
+  - Review champion connector resources available to your field team.
+  - Share the connector with top accounts beginning their Copilot journey.
+  - Use the resources to guide conversations about adoption planning.
+
+  **Why this matters:**
+
+  **Business impact:** Supports faster and more consistent Copilot adoption across key customer accounts.
+
+  **Personal impact:**  Makes it easier for individuals to provide clear, ready-to-use guidance.
+
+  **Additional Resources:**
+
+  **Learn:**
+
+  [Set up Microsoft 365 Copilot connectors in the Microsoft 365 admin center](/microsoftsearch/configure-connector)
+
+
+- **Declarative Agents help users stay in their workflow** [Web]]
+
+  URL‑based dialogs in Declarative Agents allow users to open linked experiences without leaving Copilot, helping them stay focused.
+
+  **Details:**
+
+  **What changed:** Developers can now enable URL‑based dialogs in Declarative Agents. This lets users open external pages or forms directly within Copilot. Previously, these workflows required switching apps or breaking context.
+
+  **Why:** This feature helps users complete tasks without interruption, supporting smoother and more connected workflows.
+
+  **Try this:**
+
+
+  - Open a Declarative Agent that includes a URL‑based dialog.
+  - Follow the dialog link to continue your workflow inside Copilot.
+  - Use the dialog to complete tasks that require external pages or forms.
+
+  **Why this matters:**
+
+  **Business impact:** Reduces context switching and improves workflow continuity.
+
+  **Personal impact:** Helps individuals complete tasks more efficiently without leaving Copilot.
+
+  **Additional resources:**
+
+  **Learn:**
+
+  [Allow inline editing of Adaptive Card responses (preview)](/microsoft-365-copilot/extensibility/adaptive-card-edits)
+
+-  **More frequent ticket status updates for the ServiceNow Tickets Copilot connector** [Web]
+
+    The ServiceNow Tickets Copilot connector updates ticket status more frequently by ingesting both active and inactive tickets.
+
+    **Roadmap ID:** [505437](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=505437)
+
+    **Details:**
+
+    **What changed:** The ServiceNow Tickets Copilot connector now ingests both active and inactive tickets by default, improving how often ticket status changes appear in Copilot responses. Admins can also edit the data query filter to include inactive tickets for existing connections.
+
+    **Why:** Inactive tickets were not previously ingested, which could lead to outdated ticket status information in Copilot responses. 
+
+    **Try this:**
+
+    - Review the query filter for existing ServiceNow Tickets connections.
+    - Update the filter to include both active and inactive tickets if needed. 
+    - Communicate the change to your ServiceNow stakeholders and Copilot users. 
+
+    **Why this matters:**
+
+    **Business impact:** Improves the quality of Copilot responses that reference ServiceNow tickets by keeping ticket status information current. 
+
+    **Personal impact:** Reduces confusion by showing more up-to-date ticket statuses in Copilot answers.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Manage indexed properties](/microsoftsearch/servicenow-tickets-deployment#query-string)
+
+- **Query Miro boards and diagrams with Copilot connectors** [Web]
+
+  Connect Microsoft 365 Copilot to Miro with Copilot connectors so you can query visual boards and diagrams in Copilot.
+
+    **Roadmap ID:** [515166](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515166)
+
+    **Details:**
+
+    **What changed:** Microsoft 365 Copilot now supports a Miro Copilot connector, which makes Miro boards discoverable and usable in Microsoft 365 Copilot and Microsoft Search.
+
+    **Why:** This change helps people access Miro boards and visual planning work without leaving Microsoft 365.
+
+    **Try this:**
+
+    - Connect Microsoft 365 Copilot to Miro with a Copilot connector.
+    - Ask Copilot to summarize the content of a Miro board for a project.
+    - Ask Copilot to list action items on a Miro board.
+
+    **Why this matters:**
+
+    **Business impact:** Brings Miro board knowledge into Microsoft 365 Copilot so teams can find and use visual artifacts in the flow of work. 
+
+    **Personal impact:** Reduces time spent switching tools when you need context from a Miro board.
+
+  **Additional Resources:**
+
+    **Learn:**
+
+    [Deploy the Miro Microsoft 365 Copilot connector](/MicrosoftSearch/miro-deployment)
+
+- **Connect Copilot to GitHub Server with Copilot Connector** [Web]
+
+  Connect Copilot to your GitHub Server to retrieve and collaborate on issues, pull requests, and knowledge base content.
+
+  **Details:**
+
+  **What changed:**
+  The Copilot Connector enables a direct connection to GitHub Server. Users can bring issues, pull requests, and knowledge base content into Copilot to view and collaborate.
+
+  **Why:**
+  Centralizing software work items and documentation in Copilot saves time and reduces context switching during development and review activities.
+
+  **Try this:**
+
+
+  - Connect your GitHub Server and ask Copilot to list open issues for a repository.
+  - Use Copilot to summarize a pull request and highlight reviewers’ comments.
+  - Retrieve knowledge base articles to prepare a project briefing.
+
+  **Why this matters:**
+
+  **Business impact:** Speeds up review cycles and keeps development work aligned by consolidating information in one place.
+
+  **Personal impact:** Makes it easier for individuals to find and act on relevant GitHub items.
+
+## January 27, 2026
+Updates released between January 13, 2025, and January 27, 2026.
+### Microsoft 365 Copilot Chat
+- **Copilot Chat model selector now offers GPT-5.2** [Android, Windows, iOS, Mac, Web]
+
+  Choose GPT-5.2 in Copilot Chat for faster responses or deeper reasoning, improving accuracy and clarity.
+
+    **Details:**
+
+    **What changed:** The model selector in Copilot Chat now includes GPT-5.2. Users can pick Quick Response for immediate answers or Think Deeper for more thorough reasoning. GPT-5.2 delivers better instruction following, improved math and coding performance, and clearer explanations compared to previous models.
+
+    **Why:** This update provides more flexibility and precision, helping users handle both simple and complex tasks with adaptive reasoning.
+
+    **Try this:**
+
+    - Select More in the model selector and choose Quick Response for quick answers.
+    - Choose Think Deeper when you need detailed reasoning for complex queries.
+
+    **Why this matters:**
+
+    **Business impact:** Enhances productivity by offering tailored response modes for different workflows.
+
+    **Personal impact:** Gives individuals control over response depth, improving efficiency and clarity.
+
+    **Additional resources:**
+
+    **Blogs:**
+    [Available today: GPT-5.2 in Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6)
+
+- **Copilot icon visibility in Microsoft Edge** [Web]
+
+  Users can now manage the visibility of the Copilot icon in the Microsoft Edge toolbar, while admins can control icon access through policy settings.
+
+    **Roadmap ID:** [536579](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=536579 )
+
+    **Details:**
+
+    **What changed:** Previously, the Copilot icon always appeared in the toolbar. Users can now hide or show the icon, and admins can manage visibility using the ""Microsoft365CopilotChatIconEnabled policy.""
+
+    **Why:** This change gives users and IT admins more flexibility in managing the Edge interface and Copilot availability.
+
+    **Try this:**
+
+    - Right-click the Copilot icon and select Hide Copilot.
+    - Use Edge settings to toggle the icon visibility.
+    - Configure the Microsoft365CopilotChatIconEnabled policy as an admin.
+
+    **Why this matters:**
+
+    **Business impact:** Supports customized user experiences and centralized policy control.
+
+    **Personal impact:** Lets users reduce toolbar clutter or restore the icon when needed.
+
+### Microsoft 365 Copilot extensibility
+- **Advanced understanding for comments and attachments in SNOW KB and Azure DevOps connectors** [Windows, Web]
+
+  Copilot now understands content within comments and attachments for ServiceNow KB and Azure DevOps work item connectors.
+
+    **Details:**
+
+    **What changed:** Previously, Copilot focused on primary content only. Comments and attachments are now included in content understanding.
+
+    **Why:** This ensures important context is not missed during searches or summaries.
+
+    **Try this:**
+
+    - Ask Copilot about an Azure DevOps work item.
+    - Review insights that include comment and attachment context.
+
+    **Why this matters:**
+
+    **Business impact:** Improves decision making with more complete information.
+
+    **Personal impact:** Reduces the need to manually review supporting content.
+
+- **Bring your own Microsoft Foundry agents into Microsoft 365 Copilot** [Web]
+
+  Bring intelligent agents built and hosted in Microsoft Foundry into to Microsoft 365 Copilot and Microsoft Teams—tailored to your organization’s workflows, rules, and compliance needs.
+
+    **What Changed:**
+    You can now connect an existing Foundry agent to Microsoft 365 Copilot and Microsoft Teams via a proxy app built with the Microsoft 365 Agents Toolkit.
+
+    **Why:**
+    Many specialized or regulated industries require custom logic beyond standard Copilot features. This update empowers teams to create agents that are tightly aligned with enterprise policies, domain needs, and governance expectations, and bring them into Microsoft 365 Copilot. 
+
+    **Try This:**
+    - Integrate your Microsoft Foundry agent with Microsoft 365 using Agents Toolkit sample.
+
+    **Why This Matters:**
+
+    **Business Impact:** Enables organizations to build tailored solutions, ensuring Copilot adapts to unique operational needs.
+
+    **Personal Impact:**  Gives developers freedom to innovate while maintaining the required levels of security, compliance, and governance.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Integrate Microsoft Foundry agents](/microsoft-365-copilot/extensibility/overview-custom-engine-agent#integrate-microsoft-foundry-agents)
+
+- **Copy an agent from Agent Builder to Copilot Studio** [Windows, Web]
+
+  Users can now open agents created in Agent Builder in the Copilot Studio authoring experience.
+
+    **Details:**
+
+    **What changed:** Previously, agents created in Agent Builder experience were limited in capability. Authors can now move agents into  Copilot Studio to access advanced features and publishing options.
+
+    **Why:** This change enables more powerful agents and supports stronger governance and lifecycle management.
+
+    **Try this:**
+
+    - Open an agent created in Agent Builder.
+    - Continue editing the agent in Copilot Studio.
+
+    **Why this matters:**
+
+    **Business impact:** Enables more capable agents with governance controls such as Data Loss Prevention.
+
+    **Personal impact:** Gives creators greater flexibility to enhance their agents.
+
+- **Generate icons using AI in Agent Builder** [Windows, Web]
+
+  Users can generate custom icons using AI Agent Builder using custom prompts, manually upload their own icon, or select from a set of pre-created icons.
+
+    **Roadmap ID:** [502864](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502864)
+
+    **Details:**
+
+    **What changed:** Previously, users relied on default icons or manual uploads. AI-generated icons are now available in Agent Builder, with size limits of 1 MB (192px).
+
+    **Why:** This feature simplifies icon creation and improves how agents visually represent their purpose.
+
+    **Try this:**
+
+    - Enter a prompt to generate an icon with AI.
+    - Use the agent description to generate an icon automatically.
+    - Upload a custom icon or select a pre-created option.
+
+    **Why this matters:**
+
+    **Business impact:** Improves clarity and usability of custom agents.
+
+    **Personal impact:** Makes agent creation faster and more creative.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Build agents with Agent Builder in Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agent-builder-build-agents)
+
+- **Improve relevance and personalization by connecting user identities across data sources** [Windows, Web]
+
+  Copilot improves relevance and personalization by connecting user identities across multiple data sources.
+
+    **Details:**
+
+    What changed: Previously, identities from third party systems were not linked to the corresponding Microsoft identity, leading to poor response quality esp with people related queries. Copilot now correlates identities across supported connectors, leading to more relevant and personalized responses. 
+
+    **Why:** This ensures responses better reflect user context across systems.
+
+    **Try this:**
+
+    - Ask Copilot about work spanning multiple connected tools.
+
+    **Why this matters:**
+
+    **Business impact:** Improves cross‑system relevance and response quality in Copilot.
+
+    **Personal impact:** Delivers more accurate, personalized answers.
+
+- **Publish Azure AI Foundry agents to Copilot** [Web]
+
+  Developers can launch AI agents to the Copilot Agent Store effortlessly with no coding required.
+
+    **Roadmap ID:** [501112](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=501112 )
+
+    **What Changed:** Users have a one-click publishing flow from Azure AI Foundry to the Microsoft 365 Copilot Agent Store. No development experience is required and agents become instantly accessible.
+
+    **Why:** This enhancement accelerates the delivery of AI-powered solutions to frontline teams and improves deployment efficiency.
+
+    **Try this:**
+
+    - In Azure AI Foundry, open your agent and click Publish to Copilot.
+    - Confirm availability in Word, Teams, and other supported Microsoft 365 apps.
+
+    **Why This Matters:**
+
+    **Business Impact:** Accelerates delivery of tailored AI capabilities across the enterprise.
+
+    **Personal Impact:** Developers spend less time on integration work and more time innovating.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Publish agents to Microsoft 365 Copilot and Microsoft Teams](/azure/ai-foundry/agents/how-to/publish-copilot)
+
+- **Users can leverage multi-agent workflows** [Windows, Web]
+
+  Agents in Copilot can now use other agents to accomplish work if configured. Users can see the interaction between agents.
+
+    **Details:**
+
+    **What changed:** Researcher and other agents could call simple APIs but not other AI agents. Now multiple agents will coordinate to respond to the user's task.
+
+    **Why:** Multi-agent systems support more difficult work that requires multiple special AI systems.
+
+    **Try this:**
+
+    - Administrators: Add some of your most-used agents to Researcher.
+    - Users: Use Researcher on topics that require expertise from the agents available in Researcher's Sources menu.
+    - Developers: Connect other Declarative Agents to your agent.
+
+    **Why this matters:**
+
+    **Business impact:** Streamlines complex, multi system workflows.
+
+    **Personal impact:** Makes interactions with multiple agents feel smoother.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Manage Connected Agents for Researcher in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-connected-agents-for-researcher)
+
+    [Connect to other agents from a declarative agent](/microsoft-365-copilot/extensibility/declarative-agent-connected-agent)
+
+### Microsoft Loop
+- **Generate PowerPoint grounded on a Copilot page** [Web]
+
+  Create a PowerPoint deck grounded on a Copilot page to present page content quickly.
+
+    **Roadmap ID:** [499425](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=499425)
+
+    **Details:**
+
+    **What changed:** You can generate a PowerPoint presentation grounded on the content of a Copilot page, enabling rapid presentation creation based on existing information.
+
+    **Why:** Teams often needs to transform the content on a Page to slide format. Grounded generation speeds up this process and keeps slides aligned with the source.
+
+    **Try this:**
+
+    - Create a launch plan for a new electric scooter brand, including
+    key messaging, target audience, launch channels, and success
+    metrics. Organize it as an outline I can turn into a presentation.​
+
+    - Draft a competitive analysis comparing Nike and Adidas across brand positioning, digital strategy, and customer engagement.
+    Present it as an outline ready to convert into a PowerPoint deck.
+
+    - Develop an employee onboarding overview that covers company culture, core values, and 30-day goals. Structure it as a
+    presentation outline I can generate into slides.
+
+    **Why this matters:**
+
+    **Business impact:** Saves time turning working pages into presentations for reviews and updates.
+
+    **Personal impact:** Helps individuals present page content without manual slide creation.
+
+
+    **Additional Resources:**
+
+    **Support:**
+
+    [Convert your Microsoft 365 Copilot Page into a Word document or PowerPoint presentation](https://support.microsoft.com/topic/convert-your-microsoft-365-copilot-page-into-a-word-document-or-powerpoint-presentation-f39f872a-4f47-408c-8fc9-2c6808c003a1)
+
+### Viva Glint
+- **Copilot employee experience outcomes report with Viva Glint** [Web]
+
+  A new Power BI report in Viva Insights shows how Copilot usage relates to employee experience sentiment in Viva Glint.
+
+    **Roadmap ID:** [496654](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=496654)
+
+    **Details:**
+
+    **What changed:** Previously, Understanding the impact of copilot usage on employee experience outcomes required customers to take the data out and do their own custom analysis. The new report that comes with copilot analytics in Viva Insights provides built-in segmented cohort analysis and heatmap visualizations. 
+
+    **Why:** This helps organizations better understand how Copilot influences employee experience.
+
+    **Try this:**
+
+    - Open Viva Insights and access the Copilot Outcomes report.
+    - Analyze sentiment by Copilot usage patterns.
+
+    **Why this matters:**
+
+    **Business impact:** Enables data‑driven insights into Microsoft 365 copilot adoption and sentiment.
+
+    **Personal impact:** Supports improvements to daily work experiences.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Copilot employee experience outcomes (Glint) report](/viva/insights/advanced/analyst/templates/copilot-employee-experience-outcome-report)
+
+- **Workplace patterns report in Viva Glint** [Web]
+
+  A new report in Viva Glint highlights how employee sentiment relates to workplace patterns and drivers.
+
+    **Roadmap ID:** [489229 ](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=489229)
+
+    **Details:**
+
+    **What changed:** Previously, users relied on custom analysis. The Workplace Patterns report now provides out‑of‑the‑box insights.
+
+    **Why:** This accelerates access to actionable insights for leaders.
+
+    **Try this:**
+
+    - Open the Workplace Patterns Report in Viva Glint.
+    - Share insights with leaders to guide actions.
+
+    **Why this matters:**    
+
+    **Business impact:** Speeds decision‑making using ready‑to‑use insights.
+
+    **Personal impact:** Helps create more informed workplace improvements.
+
+    **Additional Resources:**
+
+    **Learn:**
+
+    [Build agents with Agent Builder in Microsoft 365 Copilot](/microsoft-365-copilot/extensibility/agent-builder-build-agents)
+
+
+## January 13, 2026
+Updates released between December 23, 2025, and January 13, 2026.
+### Microsoft 365 admin center
+- **Admin control to customize AI disclaimers in Copilot Chat** [Windows, Web]
+
+  We updated the AI Disclaimer experience in Microsoft Copilot Chat based on customer feedback. To address this, we introduced an admin control that allows organizations to customize how the disclaimer appears, improving user awareness and flexibility.
+
+  **Details:**
+
+  **What changed:** The AI disclaimer will remain visible in the user experience.
+Admins will gain the ability to heighten this message and to provide a link to their own documentation:
+The disclaimer will display bolded text for increased visibility.
+Admins can configure a custom URL pointing to their AI policy documentation.
+
+  **Why:** Organizations asked for more control over how the disclaimer appears to improve user awareness and flexibility.
+
+  **Try this:**
+
+  - Review the new AI Disclaimer setting in the Admin Portal. 
+  - Decide whether you want to configure this setting for your organization.
+  - If desired, prepare a custom URL to include in the UX.
+  - Communicate this change to your helpdesk staff and Copilot users.
+  - Update internal documentation if you reference the disclaimer experience.
+
+  **Why this matters:**
+
+  **Business impact:** Allows organizations to customize how the disclaimer appears.
+
+  **Personal impact:** Improves user awareness of the disclaimer.
+
+### Microsoft 365 Copilot app
+- **Access all your Copilot-generated content in one library** [Android, Windows, iOS, Mac, Web]
+
+  Use the new Library in the Microsoft 365 Copilot app to easily find and manage your Copilot-created images and pages.
+
+  **Roadmap ID:** [501783](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=501783)
+
+  **What changed:** A new centralized Library view in Copilot lets users access all their AI-generated assets in one place.
+
+  **Why:** Improves organization and removes friction in retrieving past Copilot content.
+
+  **Try this:**
+
+  - Open Copilot app → go to Library
+  - Filter by images or summaries
+  - Share content in Teams or email
+
+  **Business impact:** Boosts collaboration by making assets reusable and sharable.
+
+  **Personal impact:** Saves time by avoiding re-creating previous work.
+
+  **Additional resources:**
+
+  **Learn:**  
+  [Microsoft 365 Copilot Library](/copilot/microsoft-365/copilot-library)
+
+### Microsoft 365 Copilot extensibility
+- **Build smarter agents with GPT-5 in Agent Builder** [Android, Windows, iOS, Mac, Web]
+
+  Create more capable and context-aware Copilot agents powered by GPT-5, delivering richer responses and streamlined experiences for your users. 
+
+  **Roadmap ID:** [502552](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502552)
+
+  **Details:** 
+
+  **What changed:** 
+Declarative agents built in Microsoft 365 Copilot now use GPT-5 as the underlying chat model, enabling advanced reasoning, more natural language understanding, and improved multi-step processing. 
+
+  **Why:** 
+Organizations need AI-powered solutions that not only respond accurately but anticipate user needs. GPT-5 delivers higher precision and better handling of complex queries, resulting in agents that feel more responsive and intelligent, reducing repetitive follow-ups. 
+
+  **Try This:** 
+  - Open Agent Builder in Microsoft 365 Copilot to create a new declarative agent that runs on GPT‑5 as the foundation.
+  - Configure your agent with domain-specific knowledge and test its ability to handle scenario-based queries. 
+  - Ask your new agent: *“Help me draft a Q4 performance summary with recommendations based on last quarter’s sales trends.”* 
+
+  **Why this matters:** 
+
+  **Business Impact:** Smarter agents mean streamlined workflows and faster completion of complex business processes, reducing time-to-value and improving ROI on AI initiatives. 
+
+  **Personal Impact:** Users experience fewer frustrations when interacting with Copilot, getting precise answers and recommendations that fit their context—saving time and effort.
+
+  - **Connect Dropbox for smarter Copilot file access** [Web]
+
+  Integrate Dropbox with Copilot to access, retrieve, and manage files directly, regardless of where they are stored. 
+
+  **Roadmap ID:** [513282](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513282)
+
+  **What Changed:** A new Copilot connector allows you to integrate Dropbox into the Microsoft 365 Copilot experience. Once connected, Copilot can retrieve and manage files stored in Dropbox and use them for context in responses.
+
+  **Why:** This update eliminates friction by letting Copilot work across locations, so users never waste time searching or switching services. 
+
+  **Try This:** 
+
+  - In Copilot settings, enable the Dropbox connector and sign in with your account. 
+  - **Ask Copilot**, “Summarize the Q4 plan from my Dropbox folder.” 
+  - Use Copilot in Word to insert insights from Dropbox files into a report. 
+
+  **Why it Matters:**
+
+  **Business Impact:** Improve team efficiency by unifying data access across platforms, eliminating manual transfers. 
+
+  **Personal Impact:** Create and edit content with ease by letting Copilot pull in what you need, including content from Dropbox.
+
+  **Learn:**  
+  [Google Drive Microsoft 365 Copilot connector overview](/microsoftsearch/google-drive-overview)
+ 
+- **Connect Microsoft 365 Copilot with Guru for enhanced insights** [Web]
+
+  Microsoft 365 Copilot can now connect with Guru to surface internal knowledge and team insights, enhancing team collaboration and decision-making.
+
+  **Roadmap ID:** [513281](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513281)
+
+
+  **Details:**
+
+  **What changed:** Previously, Microsoft 365 Copilot operated with its standard integrations. With this update, users can connect Microsoft 365 Copilot with Guru, allowing it to access and utilize internal knowledge bases and team insights directly within the workflow.
+
+  **Why:** This feature was added to leverage the wealth of internal knowledge and insights stored in Guru. By doing so, it enhances decision-making processes and streamlines access to valuable information for team members.
+
+  **Try this:**  
+  - Connect Microsoft 365 Copilot with Guru to start accessing your organization's internal knowledge base.
+  - Use the Copilot Connector to query specific team insights and data stored in Guru.
+  - Implement this connection in your workflow to improve collaboration and information retrieval during meetings or project planning.
+
+  **Why this matters:**
+
+  **Business impact:** Integrating Microsoft 365 Copilot with Guru enhances technological capabilities, optimizes workflow efficiency, and strengthens team collaboration by providing immediate access to critical insights.
+
+  **Personal impact:** Individual users benefit from quicker access to information and insights, aiding personal productivity and informed decision-making.
+
+- **Smart document management with Google Drive integration** [Web]
+
+  Connect Google Drive to Copilot for smooth collaboration in multiple clouds.
+
+  **What Changed:** Copilot can access, reference, and combine insights from Google Drive files, allowing for richer, cross-platform collaboration.
+
+  **Why:** This feature ensures Copilot brings content from different sources together, reducing complexity and improving workflow. 
+
+  **Try This:**
+
+  - Add Google Drive as a connector in Copilot settings. 
+  - Ask Copilot in Word, “Combine insights from my Google Drive marketing plan and recent reports.” 
+  - Use Copilot in PowerPoint to create a slide pulling directly from Google Drive data.
+
+  **Why it Matters:**
+
+  **Business Impact:** Improves cross-platform workflows in hybrid environments
+
+  **Personal Impact:** Minimizes context switching and increases document creation efficiency
+
+  **Additional resources:** 
+
+  **Learn:**  
+  [Google Drive Microsoft 365 Copilot connector overview](/microsoftsearch/google-drive-overview)
+ 
+- **Expand Copilot Agents with Mail, People, and Meeting Insights** [Windows, Web]
+
+  Copilot declarative agents can now integrate with richer M365 data: mail, people's data, Teams chats, and meeting transcripts.
+
+  **What Changed:** Agents can now tap into richer Microsoft 365 data sources - email, Teams chats, meeting transcripts, and people data - to deliver more context-aware answers and automate tasks seamlessly.
+
+  **Why:** Modern work spans inboxes, chats, calendars, and documents. Constant switching slows teams down. By grounding declarative agents in organizational data, Copilot reduces context-switching, improves accuracy, and accelerates decision-making.
+
+  **Try This:**
+
+  - Create a declarative agent that uses Meetings data to generate a project summary.
+  - **Sample query:** “Summarize decisions and blockers from this week’s meetings relating to Project X.”
+  - Create a declarative agent that uses Email data to draft emails.
+  - **Sample query:** "Draft follow up emails for unresolved items from yesterday."
+
+  **Why This Matters:**
+
+  **Business Impact:** Teams works faster when Copilot agents bring context from across Microsoft 365 into one place. By reducing time spent searching through emails, chats and transcripts, organizations improve decision accuracy, accelerate workflows, and keep projects moving without delays.
+
+  **Personal Impact:** Users no longer need to juggle multiple tools to gather context. Copilot agents can consolidate multiple knowledge capabilities in one place, saving time and reducing cognitive load throughout the workday.
+
+  **Additional resources:**
+
+  **Learn:**  
+  [Add knowledge sources to your declarative agent](/microsoft-365-copilot/extensibility/knowledge-sources)
+
+- **Generate Office documents from agents in Copilot Studio lite** [Windows, Web]
+
+  Agents built with Copilot Studio lite can generate PowerPoint decks, Excel spreadsheets, and Word documents via chat, with files saved to OneDrive.
+
+  **Roadmap ID:** [506753](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=506753)
+
+  **Details:**
+
+  **What changed:** Office skills are available in Copilot Studio lite. Users can chat with an agent to generate PowerPoint, Excel, and Word files. Files are saved to OneDrive to streamline organization and support retention policies. These skills are part of the “Generate code, graphs, and documents” capability (formerly known as Code Interpreter).
+
+  **Why:** Automating common document tasks helps teams move faster and maintain consistency, while OneDrive storage supports governance needs.
+
+  **Try this:**
+
+  - Ask your agent to create a Word document with a project outline.
+  - Request an Excel spreadsheet with labeled columns for status tracking.
+  - Generate a PowerPoint deck with section titles for an upcoming review.
+
+  **Why this matters:**
+
+  **Business impact:** Reduces manual document creation time and supports compliant storage.
+  
+  **Personal impact:** Makes everyday document tasks quicker and easier.
+
+  **Additional resources:** 
+
+  **Learn:**  
+[Add capabilities](/microsoft-365-copilot/extensibility/agent-builder-build-agents#add-capabilities)
+
+ - **Template-based knowledge ingestion for ServiceNow Knowledge Connector** [Web]
+
+  ServiceNow Knowledge Connector now ingests articles created using out-of-the-box and custom templates, expanding coverage and flexibility.
+
+  **Roadmap ID:** [505436](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=505436)
+
+
+
+  **Details:**
+
+  **What changed:** Previously, template-based knowledge articles were not ingested. The connector now supports out-of-the-box templates such as FAQ, How to, and What is, as well as custom templates used by customers.
+
+  **Why:** Supporting common and custom templates ensures more knowledge content is accessible, improving search and guidance quality.
+
+  **Try this:**
+
+  - Ingest FAQ template articles to improve self-service answers.
+  - Include How to articles to guide users through procedures.
+  - Add custom template articles to reflect organizational standards.
+
+  **Why this matters:**
+
+  **Business impact:** Broadens access to structured knowledge and improves help coverage for teams.
+  
+  **Personal impact:** Makes it easier for individuals to find accurate, template-based guidance.
+
+  **Additional resources:**
+
+  **Learn:**  
+  [Connector capabilities and limitations](/microsoftsearch/servicenow-knowledge-overview#connector-capabilities-and-limitations)
+
+- **Simplified ServiceNow tickets setup with per-table ACL rules** [Web]
+
+  Admins can now define ACL permission rules per table for ServiceNow ticket ingestion, reducing setup complexity.
+
+  **Details:**
+
+  **What changed:** Previously, permissions were selected for all tables combined. Now, admins define permission rules for each selected table, improving control and clarity.
+
+  **Why:** Per-table ACL rules simplify configuration and provide finer-grained access control aligned with data security practices.
+
+  **Try this:**
+
+  - Set ACL permissions for a single table that requires restricted access.
+  - Review and adjust table-level rules to match ingestion needs.
+  - Validate table permissions to ensure correct access during ingestion.
+
+  **Why this matters:**
+
+  **Business impact:** Reduces configuration complexity and improves security alignment for ticket data.
+  
+  **Personal impact:** Helps individuals manage permissions more clearly and confidently.
+
+  **Additional resources:**
+
+  **Learn:**  
+  [Access permissions](/microsoftsearch/servicenow-tickets-deployment#access-permissions)
+  
+## December 23, 2025
+Updates released between December 10, 2025, and December 23, 2025.
+### Microsoft 365 Copilot app
+- **GPT-5 powers Copilot Chat by default** [Android, Windows, iOS, Mac, Web]
+
+  Copilot Chat delivers faster, smarter results using GPT-5 as the default model.
+
+  **Details:**
+
+  **What Changed:** All Copilot Chat experiences run on GPT-5 by default. Copilot automatically routes prompts to the best-performing models for each task, using fast models for basic tasks and specialized reasoning models for multi-step requests.
+
+  **Why:** Users want speed, accuracy, and minimal friction. This update helps to ensure consistent, high-quality AI interactions in Copilot Chat.
+
+  **Try This:**
+
+  - “Get me up to speed on the latest plans related to [project/initiative]. Help me think through what to do next.”
+  - “Use the attached spreadsheet with customer feedback to create a polished executive report that helps upper management decide where to prioritize resources in our next cycle.”
+
+  **Why this matters:**
+
+  **Business Impact:** Increases accuracy and productivity, helping teams make strong decisions and complete complex work faster.
+
+  **Personal Impact:** Removes friction by letting Copilot choose the best model--fast or reasoning--for the prompt.
+
+  **Additional resources:**
+
+  **Blogs:** 
+
+  <a href="https://www.microsoft.com/microsoft-365/blog/2025/08/07/available-today-gpt-5-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6" target="_blank">Available today: GPT-5 in Microsoft 365 Copilot</a>
+### Microsoft 365 Copilot Chat
+- **Streamlined Copilot chat navigation with expanded history** [Windows, Web]
+
+  A redesigned navigation pane provides a cleaner layout and expanded chat history, making it easier to switch between conversations. This allows you to switch between conversations and pick up where you left off, perfect great for fast-paced projects and multitasking.
+
+  **Roadmap ID:**    <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=516570" target="_blank">516570</a>
+
+  **Details:**
+
+  **What Changed:** The Copilot navigation pane highlights key agents, removes clutter, and expands visible chat history beyond the previous limit of five recent chats. Chat search is also more prominent for faster access to specific threads. This reduces interface clutter.
+
+  **Why:** Users wanted an interface that feels organized and speeds up workflow. This redesign lets you quickly return to prior conversations without digging through menus. 
+
+  **Try This:**
+  - Open the navigation pane in Copilot to see the improved design.
+  - Search for a previous project conversation using the updated chat search bar.
+  - Pin your most important chats to keep them accessible during critical work sessions.
+
+  **Why this matters:**
+
+  **Business Impact:** Standard, simplified navigation UI to help reduce downtime from searching old threads.
+
+  **Personal Impact:** Enjoy a simpler, less cluttered workspace with easier access to past chats.
+### Microsoft 365 Copilot extensibility
+- **Access IT service documentation with Freshservice integration** [Web]
+
+  Let Copilot retrieve IT documentation and troubleshooting instructions directly from Freshservice with this integration.
+
+  **Roadmap ID:**    <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=513280" target="_blank">513280</a>
+
+  **Details:**
+  
+  **What Changed:** Freshservice connector gives access to IT procedures and knowledge articles
+
+  **Why:** IT teams and employees often struggle with finding the right documentation. With Copilot pulling service details in real time, response times and productivity benefit.
+
+  **Try This:**
+  - Connect Freshservice in Copilot settings. 
+  - Ask Copilot, “What’s the procedure for resetting passwords from Freshservice?” 
+  - Insert a troubleshooting guide directly into a Teams post for your team. 
+
+  **Why this matters:**
+
+  **Business Impact:** Faster issue resolution reduces downtime and keeps employees productive. 
+
+  **Personal Impact:** Remove frustration, solve issues, and prevent delays caused by searching for documentation.
+ 
+  **Additional resources:** 
+ 
+  **Learn:**
+  
+     <a href="/microsoftsearch/freshservice-overview" target="_blank">Freshservice Microsoft 365 Copilot connector overview</a>
+ 
+- **Upload Larger Files in Copilot Studio Agent Builder** [Android, Windows, iOS, Web]
+
+  Agent Builder now supports file uploads up to 512 MB when creating agents, ideal for larger files.
+
+  **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500375" target="_blank">500375</a>
+
+  **Details:**
+
+  **What Changed:**
+  This increases the upload size limit in Agent Builder to 512 MB, enabling use of larger files as grounding data.
+
+  **Why:**
+  Users requested more flexibility for grounding agents. Larger files improve reduce the need to split or compress documents.
+
+  **Try This:**
+  - Drag and drop large documents such as training manuals into your agent project.
+  - Create the agent and ask it to summarize information from uploaded files.
+
+  **Why this matters:**
+
+  **Business Impact:** Allows enterprises to build agents with richer, domain-specific knowledge.
+
+  **Personal Impact:** Complete your work without the need to split files or compress data.
+
+  **Additional resources:**
+ 
+  **Learn:**
+ 
+  <a href="/microsoft-365-copilot/extensibility/agent-builder-add-knowledge#embedded-file-content" target="_blank">Embedded file content</a>
+
+- **Use .NET client libraries to integrate Microsoft 365 Copilot APIs** [Web]
+
+  Offers official .NET SDKs for integrating with Microsoft 365 Copilot APIs.
+  
+  **Details:**
+
+  **What changed:** Released a .NET SDK for Copilot API calls, making integration easier.
+
+  **Why:** Meets enterprise developers’ need for secure .NET integration options.
+
+  **Try This:**
+  - Install NuGet package
+  - Authenticate and initiate Copilot prompt calls
+  - Process responses in your .NET app
+
+  **Why this matters:**
+
+  **Business Impact:** Improves developer productivity and project speed.
+
+  **Personal Impact:** Gives .NET teams direct hooks into Copilot capabilities.
+
+  **Additional resources:** 
+  
+  **Learn:**
+ 
+  <a href="/microsoft-365-copilot/extensibility/sdks/api-libraries?tabs=csharp" target="_blank">Microsoft 365 Copilot APIs client libraries</a>
+- **Use Python client libraries to integrate Microsoft 365 Copilot APIs** [Web]
+
+  Adds official Python libraries for secure integration with Microsoft 365 Copilot APIs.
+
+  **Details:**
+
+  **What changed:** Developers can now leverage Microsoft 365 Copilot APIs using Python SDKs.
+
+  **Why:** Opens opportunities for AI workflows in Python-based applications.
+
+  **Try This:** 
+
+  - Install Python SDK
+  - Authenticate using OAuth
+  - Send prompts and parse results
+
+  **Why this matters:**
+
+  **Business Impact:** Expands Copilot customization for enterprise developers.
+
+  **Personal Impact:** Python devs gain first-class access to Copilot APIs.
+
+  **Additional resources:**
+
+  **Learn:**
+ 
+  <a href="/microsoft-365-copilot/extensibility/sdks/api-libraries?tabs=csharp" target="_blank">Microsoft 365 Copilot APIs client libraries</a>
+
+- **Use TypeScript client libraries to integrate Microsoft 365 Copilot APIs** [Web]
+
+  Build custom integrations with Microsoft 365 Copilot APIs using official TypeScript SDK libraries.
+
+ 
+    **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501574" target="_blank">501574</a>
+
+  **Details:**
+
+  **What changed:** Official TypeScript SDK released for Copilot API integration in web apps.
+
+  **Why:** Standardizes developer integration with Microsoft 365 Copilot features.
+
+  **Try This:**
+
+  - Install SDK via npm
+  - Authenticate using Microsoft Identity
+  - Test API calls for Copilot prompts
+
+  **Why this matters:**
+
+  **Business Impact:** Enables custom enterprise apps with AI-powered features.
+
+  **Personal Impact:** Developers have a secure, documented method for advanced builds.
+
+  **Additional resources:**
+
+  **Learn:**
+ 
+  <a href="/microsoft-365-copilot/extensibility/sdks/api-libraries?tabs=csharp" target="_blank">Microsoft 365 Copilot APIs client libraries</a>
+
+- **View and Manage SharePoint Agents with Greater Control** [Web]
+
+  Admins can now see all SharePoint agents in a single unified view and manage them more intuitively with a streamlined delete action.
+
+  **Details:**
+  
+  **What Changed:** The enhanced Copilot Control System UI introduces a centralized SharePoint agent inventory and replaces the previous block/unblock workflow with a clear, simplified delete option.
+
+  **Why:** Admins requested more transparent oversight of deployed agents, and this update delivers easier tracking, review, and lifecycle management.
+
+  **Try This:**
+  - Go to Agents and Connectors in the Copilot Control System.
+  - Review all existing SharePoint agents and delete those that are outdated, unused, or no longer compliant.
+
+  **Why this matters:**
+
+  **Business Impact:** Strengthens governance and operational hygiene by reducing risk from stale or misconfigured agents.
+
+  **Personal Impact:** Saves time with straightforward, intuitive controls instead of complex, multi-step administration.
+### Microsoft 365 Copilot Studio
+- **Build Copilot agents using organizational People data** [Windows, Web]
+
+  Developers can build agents in Copilot Studio that deliver personalized, context-aware responses using organizational People data.
+
+  **Details:**
+  
+  **What changed:** Added the ability for agent builders to access and use People data from your directory in responses.
+
+  **Why:** Makes interactions more contextual and human-centric for better relevance.
+
+  **Try This:** 
+  - Enable People data in Agent Builder
+  - Create an agent to answer org-specific directory questions
+  - Test in Microsoft Teams
+
+  **Why this matters:**
+
+  **Business Impact:** Improves accuracy and personalization in enterprise workflows.
+  
+  **Personal Impact:** Users get tailored answers courtesy of context-rich data.
+
+  **Additional resources:**
+  
+  **Learn:**
+  
+  <a href="/microsoft-365-copilot/extensibility/agent-builder-add-knowledge" target="_blank">Add knowledge sources to your declarative agent in Microsoft 365 Copilot</a>
+### PowerPoint
+- **Use your organization’s approved assets in Copilot presentations** [Mac, Windows, Web]
+
+  Create branded PowerPoint slides by pulling images and templates from your company’s SharePoint asset library or Templafy integration.
+
+    **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=496366" target="_blank">496366</a>
+      
+  **Details:**
+
+  **What changed:** PowerPoint Copilot integrates with SharePoint Organization Asset Library and Templafy for approved, compliant visuals.
+
+  **Why:** Ensures quality designs aligned with corporate branding guidelines.
+
+  **Try This:** 
+  - Configure SharePoint OAL or Templafy in Microsoft 365
+  - Ask Copilot: “Create a marketing update deck using brand imagery.”
+
+  **Why this matters:**
+
+  **Business impact:**: Maintains brand identity across all content.
+
+  **Personal Impact:** Saves design time by eliminating manual asset searching.
+
+  **Additional resources:**
+
+  **Learn:**
+ 
+  <a href="/sharepoint/organization-assets-library" target="_blank">Create an organization assets library</a>
+
+
+<!-- 97032,101872,101667,101293,101383,102997 -->
+## December 10, 2025
+Updates released between November 25, 2025, and December 10, 2025.
+### Microsoft 365 Copilot app
+- **Create polished videos faster with seamless editing and brand customization** [Web]
+
+  Turn text prompts or PowerPoint, Word, and PDF files into high-quality videos. Create professional videos quickly with easier editing, brand integration, and media customization.
+
+  **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501560" target="_blank">501560</a>
+
+  **Details:**
+
+  **What changed:**
+With the upgraded AI Video Creator in Microsoft 365 Copilot, use these new capabilities: 
+  -  Transcript-based editing for greater control. 
+  -  Access to your assets from OneDrive to update stock media. 
+  -  Natural-sounding voiceovers for more authentic narration. 
+  -  Brand color integration from Brand Kit. 
+  -  A redesigned, scene-based structure for streamlined storytelling. 
+  -  A cleaner editing experience for faster, intuitive workflows. 
+
+  **Why:**
+Video is a powerful medium, but creating professional-quality content is often time-consuming and technically challenging. This update removes roadblocks, so teams create compelling videos in a fraction of the time, using assets and brand elements they already have. 
+
+  **Try this:**
+
+
+  - In Microsoft 365 Copilot, select Create and upload a Word, PDF, or PowerPoint file to generate your first video draft.
+  - Click on a sentence in the transcript to cut or move sections without timeline complexity. 
+  - Add your official colors from Brand Kit, and swap generic visuals with your OneDrive media for a branded look.
+
+  **Why this matters:** 
+  
+  **Business Impact:** Reduce production bottlenecks and costs by empowering employees to create professional videos for training, marketing, or executive updates without third-party agencies. 
+
+  **Personal Impact:** Focus on the story, save hours on content creation, and eliminate the need for advanced video editing.
+
+  **Additional resources:**
+
+  **Support:**
+  
+
+  
+   <a href="https://support.microsoft.com/topic/create-a-video-with-the-microsoft-365-copilot-app-4edd41f6-a7ad-47d5-9a55-3fd25622c9f8" target="_blank">Create a video with the Microsoft 365 Copilot app</a>
+ 
+### Microsoft 365 Copilot extensibility
+
+- **Access custom engine agents in multiple apps** [Web]
+
+  Use custom engine agents in Word and Excel for a unified Copilot experience everywhere you work.
+
+  **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481136" target="_blank">481136</a>
+
+
+  **Details:**
+
+  What changed: 
+You can see more available custom engine agents across key Microsoft 365 surfaces.
+
+  **Why:** 
+Power users and developers can experience reduced fragmentation and improved workflow consistency.
+
+  **Try this:**
+
+
+  - In Outlook, activate a custom agent for summarizing incoming correspondence based on enterprise policies.
+
+  **Why this matters:**
+
+  **Business Impact:** Extends the value of custom Copilot agents across the Microsoft 365 ecosystem.
+
+  **Personal Impact:** Offers a seamless experience without switching apps or rebuilding context.
+
+### Microsoft 365 Copilot Studio
+- **Better security insights help you build confidently** [Web]
+
+  Makers can now see an agent’s detailed protection status and  actionable recommendations in Copilot Studio.
+
+
+  **Details:**
+What changed:
+Enforce protections accurately with a richer visualization of security posture for agents.  
+
+  **Why:** Creators are empowered to manage compliance and proactively minimize risks.  
+
+  **Try this:**
+
+
+  - In Copilot Studio, check the security summary for your agent and apply suggested actions to meet policy.  
+
+  **Why this matters:**
+
+  **Business Impact:** Maintains compliance without slowing innovation.  
+
+  **Personal Impact:** Gives creators peace of mind knowing their agents meet enterprise security standards.    
+
+  **Additional resources:**
+
+  **Learn:**
+
+
+  
+   <a href="/microsoft-copilot-studio/security-agent-runtime-view" target="_blank">Agent runtime protection status</a>
+
+### Microsoft 365 SharePoint
+- **Add multiple SharePoint agents in one Teams conversation** [Web]
+  
+  Include more than one SharePoint agent in a single Teams chat, meeting, or channel. Teams and SharePoint now work together better for smarter collaboration.  
+
+  **Roadmap ID:**<a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481136" target="_blank"> 481136</a>
+
+
+  **Details:**
+
+  **What changed:**
+Teams supports multiple SharePoint agents in a single group chat or channel.  
+
+  **Why:**
+Experience richer scenarios where multiple libraries or sites provide simultaneous insights.  
+
+  **Try this:**
+
+
+  - In your project channel, add two different SharePoint agents to get instant answers about separate libraries.  
+
+  **Why this matters:**
+
+  **Business Impact:** Keeps all content conversation in context, reducing silos across different sites.  
+
+  **Personal Impact:** Stay focused without the need to use multiple chats or apps to gather information.
+
+  **Additional resources:**
+
+  **Support:**
+
+  
+     <a href="https://support.microsoft.com/office/share-an-agent-from-sharepoint-in-teams-6dcbf7b5-8c13-44e5-a68a-dbd71fb76ad3">Share an agent from SharePoint in Teams</a>
+
+### Viva Glint
+- **Multilingual support in Copilot for Viva Glint** [Web]
+
+  Copilot in Viva Glint now understands and responds in multiple languages, helping employees interact in their preferred language.
+
+  **Roadmap ID:**
+<a href="https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=508531" target="_blank">508531</a>
+
+  **Details:**
+
+  **What changed:**
+Copilot for Viva Glint detects the language of a user’s input and responds in that same language.
+
+  **Why:**
+Global teams often face challenges when a tool’s language support is limited. This update improves accessibility and usability, enabling employees to share feedback or gain insights without language barriers.
+
+  **Try this:**
+
+
+  - Type a prompt in your preferred language within Viva Glint Copilot.
+  - Review the response to confirm it matches the language you used.
+  - Share this experience with multilingual teams to streamline feedback processes.
+
+  **Why it Matters:**
+
+  **Business Impact:** Enhances inclusivity and compliance, making it easier to manage employee feedback across multiple regions.
+
+  **Personal Impact:** Saves time and reduces friction for employees who can now interact with Copilot in the language they’re most comfortable with.
+
+<!-- All features that have 'Web' tag  -->
 <!-- 96890,101634,101246,98572,105501,101655,101648,101641,101111,100599,96886,101360 -->
-## November 12 to November 24, 2025
-Updates released between November 12, 2025, and November 24, 2025.
+## November 25, 2025
+Updates released between November 12, 2025, and November 25, 2025.
 ### Microsoft 365 admin center
 - **Reassign agent ownership with full control** [Windows, Web]
 
   Admins can now transfer ownership of shared agents, granting the new owner full edit and delete permissions and revoking all access from the previous owner.  
 
-  **Roadmap ID:** [502867](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=502867)
+  ****Roadmap ID:**** [502867](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=502867)
 
 
-  **Details:**  
+  ****Details:****  
 
   **What changed:** 
   
-  Ownership reassignment capabilities are now live in Microsoft 365 Admin Center, with edits propagating to agent files and associated content.  
+  Ownership reassignment capabilities are now live in Microsoft 365 admin center, with edits propagating to agent files and associated content.  
  
-  **Why:** 
+  ****Why:**** 
   
   Helps maintain governance when employees leave roles or teams without disrupting workflows.  
 
-  **Try This:**  
+  **Try this:**
 
-  -  From Admin Center, select a shared agent > choose **Reassign Owner** > confirm access update.  
+
+  -  From admin center, select a shared agent > choose **Reassign Owner** > confirm access update.  
 
   **Why this matters:**  
 
@@ -6046,31 +9732,34 @@ Updates released between November 12, 2025, and November 24, 2025.
   
   Admins can easily manage lifecycle changes without escalating to engineering teams. 
 
-  **Additional Resources:**
+  **Additional resources:**
 
-   **Learn:** 
+   **Learn:**
+
+
    
-   [Reassign an agent's owner with PowerShell](/power-platform/release-plan/2025wave2/microsoft-copilot-studio/reassign-agents-owner-powershell)
+     [Reassign an agent's owner with PowerShell](/power-platform/release-plan/2025wave2/microsoft-copilot-studio/reassign-agents-owner-powershell)
 
 - **Restrict org-wide agent sharing for better governance** [Web]
 
   Manage who can create org-wide sharing links for Copilot Studio agents to maintain tighter organizational control.  
 
-  **Roadmap ID:** [500376](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=500376)
+  ****Roadmap ID:**** [500376](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=500376)
 
-  **Details:**  
+  ****Details:****  
  
   **What changed:** 
   
   New admin control blocks or enables org-wide visibility for Copilot agents.  
  
-  **Why:** 
+  ****Why:**** 
   
   Prevents accidental overexposure of sensitive workflows while allowing flexibility for approved agents.  
 
-  **Try This:**  
+  **Try this:**
 
-  -  In Admin Center, update **Sharing Settings** to limit org-wide agent links to specific roles or groups.  
+
+  -  In admin center, update **Sharing Settings** to limit org-wide agent links to specific roles or groups.  
 
   **Why this matters:**  
 
@@ -6088,71 +9777,64 @@ Updates released between November 12, 2025, and November 24, 2025.
 
   Personalize the content and tone of audio summaries from your Copilot notebooks by using natural language input.  
 
-    **Roadmap ID:** [499150](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499150)
+    ****Roadmap ID:**** [499150](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499150)
 
-    **Details:**  
+    ****Details:****  
 
     **What changed:** 
     
     Notebook audio overviews are now creator-driven with prompt-based customization.  
 
-    **Why:** 
+    ****Why:**** 
     
     Supports diverse use cases—like executive briefings or quick-learning sessions—without extra editing work.  
 
-    **Try This:**  
+    **Try this:**
 
-    -  Type: *"Create an upbeat 2-minute audio summary focused on key sales drivers."*  
+
+  -  Type: *"Create an upbeat 2-minute audio summary focused on key sales drivers."*  
 
     **Why this matters:**  
 
-    **Business Impact:** 
-    
-    Enhances the value of notebooks for communication and leadership updates.  
+    **Business Impact:** Enhances the value of notebooks for communication and leadership updates.  
 
-    **Personal Impact:** 
-    
-    Saves time creating engaging summaries without additional tools.  
+    **Personal Impact:** Saves time creating engaging summaries without additional tools.  
 
-    **Additional Resources:**
+    **Additional resources:**
   
-    **Learn:** 
+    **Learn:**
+
+
     
     [Get an audio overview of your notebook with Microsoft 365 Copilot Notebooks](https://support.microsoft.com/topic/get-an-audio-overview-of-your-notebook-with-microsoft-365-copilot-notebooks-a22df989-b9cd-47fb-abac-e888d8f10cd9)
 
----
 
----
 ### Microsoft 365 Copilot Chat
 - **Access shared mailboxes in Copilot Chat** [Android, Windows, iOS, Mac, Web]
 
   Copilot Chat now connects to shared mailboxes, so team-based conversations are more informed and collaborative.  
 
-  **Roadmap ID:** [488797](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
+  ****Roadmap ID:**** [488797](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
   
-  **Details:**  
+  ****Details:****  
 
   **What changed:** Users with shared mailbox permissions can ground Copilot responses in shared mail content, just like their own emails.  
 
-  **Why:** Eliminates context gaps in team workflows and improves shared visibility on projects.  
+  ****Why:**** Eliminates context gaps in team workflows and improves shared visibility on projects.  
 
-  **Try This:**  
- 
+  **Try this:**
+
+
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
- 
-  - Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox ."*
+  - Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox."*
 
   **Why this matters:**  
 
-  **Business Impact:** 
-  
-  Ensures customer responses or project updates aren't missed when responsibility spans multiple team members.  
+  **Business Impact:** Ensures customer responses or project updates aren't missed when responsibility spans multiple team members.  
 
-  **Personal Impact:** 
-  
-  Reduces copying and manual email checks across shared accounts—Copilot does it for you.
+  **Personal Impact:** Reduces copying and manual email checks across shared accounts—Copilot does it for you.
  
-  **Additional Resources:**
+  **Additional resources:**
 
   [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
 
@@ -6161,55 +9843,51 @@ Updates released between November 12, 2025, and November 24, 2025.
   
   Use new file type and people refiners in Copilot Chat to quickly get to the right file without sifting through results.  
 
-  **Roadmap ID:** [481136](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=481136)
+  ****Roadmap ID:**** [481136](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=481136)
 
-  **Details:**  
+  ****Details:****  
  
   **What changed:** 
   
   Introduced filters for file types and collaborators in Copilot Chat's CIQ Files tab.  
  
-  **Why:** 
+  ****Why:**** 
   
   Cuts down time spent filtering manually, especially in large file repositories.  
 
-  **Try This:**  
+  **Try this:**
+
 
   -  In chat, search: *"Quarterly report"* → Filter by **Excel** and collaborator name.  
 
   **Why this matters:**  
  
-  **Business Impact:** 
-  
-  Improves productivity and reduces meeting prep time.  
+  **Business Impact:** Improves productivity and reduces meeting prep time.  
  
-  **Personal Impact:** 
-  
-  Less frustration—find what you need in seconds.
---- 
+  **Personal Impact:** Less frustration—find what you need in seconds.
+
 - **Talk to Copilot with voice for faster hands-free work** [Android, Windows, iOS, Mac, Web]
 
-  Speak to Copilot naturally on mobile or desktop to prepare for meetings,brainstorm ideas, or catch up on work—hands-free and grounded in work data.
+  Speak to Copilot naturally on mobile or desktop to prepare for meetings, brainstorm ideas, or catch up on work—hands-free and grounded in work data.
 
-  Roadmap ID: [481138](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
+  **Roadmap ID:** [481138](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
 
-  **Details:**
+  ****Details:****
 
   **What changed:**
   
-  Copilot now supports voice input, enabling natural, conversational interactions in the Microsoft 365 Copilot app on mobile, desktop and the web and in the  across Microsoft 365 apps, starting with Outlook, Word and PowerPoint.
+  Copilot now supports voice input, enabling natural, conversational interactions in the Microsoft 365 Copilot app on mobile, desktop and the web and across Microsoft 365 apps, starting with Outlook, Word and PowerPoint.
 
-  **Why:**
+  ****Why:****
 
   Professionals need faster, more intuitive ways to engage with AI during their flow of work, especially when multitasking or on the move.
 Voice   removes friction, letting you work where typing isn't practical.
 
-  **Try This:**
+  **Try this:**
+
 
   -  Say: *"Confirm the agenda and attendee list for my next meeting"*.
-
   -  Try:  *"Create a quick list of next steps from my recent meeting notes."*
-
   -  Ask: *"Summarize this document in five key points."*
 
   **Why this Matters:**
@@ -6222,30 +9900,30 @@ Voice   removes friction, letting you work where typing isn't practical.
   
   Work more comfortably and naturally while saving time, gaining efficiency and giving you the flexibility to use Copilot on the go or at your desk.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea?preview=true)
   
-  ---
 ### Microsoft 365 Copilot extensibility
 
 - **Enhanced search in Agent Store for easier discovery** [Windows, Web]
 
   Finding the right agents in the Copilot Agent Store just got faster and smarter. Enjoy a streamlined search experience with typeahead suggestions and a clean results page—making it simple to locate exactly what you need without wasted time.  
  
-  **Roadmap ID:** [502617](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617)
+  ****Roadmap ID:**** [502617](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502617)
 
-    **Details:**  
+    ****Details:****  
       
     **What changed:** 
     
     The Agent Store now includes enhanced search capabilities featuring a responsive drop-down menu, typeahead functionality for quick suggestions as you type, and a dedicated search results page for improved clarity.  
 
-    **Why:** 
+    ****Why:**** 
     
     Customers need a quicker, more intuitive way to explore and find agents. By reducing friction in discovery, you can deploy and extend Copilot solutions with less effort and greater confidence.  
 
-    **Try This:**  
+    **Try this:**
+
 
   -  Start typing an agent name in the search bar to see type ahead suggestions instantly.  
     
@@ -6264,55 +9942,54 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   Inventory exports now include richer metadata like capabilities, data sources, and creator details—empowering better auditing and lifecycle control.  
 
-  **Roadmap ID:** [502878](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502878)
+  ****Roadmap ID:**** [502878](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502878)
     
-    **Details:**  
+    ****Details:****  
 
     **What changed:** 
     
     Added expanded metadata fields to Microsoft 365 admin center's agent export.  
 
-    **Why:** 
+    ****Why:**** 
     
     Provides admins with transparency over how agents are built, what they access, and by whom.  
 
-    **Try This:**  
-    
+    **Try this:**
+
+
   -  Start agent inventory and filter by **Created By** or **Data Sources** to review compliance.  
 
     **Why this matters:**  
 
-    **Business Impact:** 
-    
-    Strengthens governance for AI usage across the organization.  
+    **Business Impact:** Strengthens governance for AI usage across the organization.  
 
-    **Personal Impact:** 
-    
-    Saves admins from chasing multiple tools for visibility—everything is in one export.
+    **Personal Impact:** Saves admins from chasing multiple tools for visibility—everything is in one export.
 
-  **Additional Resources:**
+  **Additional resources:**
 
-  **Learn:** 
+  **Learn:**
+  
 
-  [Export to Excel](/microsoft-365/admin/manage/agent-registry?view=o365-worldwide#export-to-excel)
+    [Export to Excel](/microsoft-365/admin/manage/agent-registry#export-to-excel)
 
 - **Unified permissions management for agents** [Windows, Web]
 
   View detailed permissions for each Copilot agent in one place—including app dependencies, delegated permissions, and associated risks. Admins can grant consent directly, simplifying governance and deployment.
 
-  **Roadmap ID:** [502617](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=502617)
+  ****Roadmap ID:**** [502617](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502617)
 
-  **Details:**
+  ****Details:****
 
   **What changed:** 
   
   Unified Permissions Management now provides a clear view of all required applications, delegated permissions, and associated risk levels from a central console.
 
-  **Why:** 
+  ****Why:**** 
   
   Helps admins ensure security and compliance while reducing friction in agent approval workflows.
 
-  **Try This:**
+  **Try this:**
+
 
   -  Go to the Permissions tab in Microsoft 365 admin center to review and approve agent permissions.
 
@@ -6320,56 +9997,61 @@ Voice   removes friction, letting you work where typing isn't practical.
 
   **Why This Matters:**
 
-  **Business Impact:** 
-  
-  Strengthens compliance and governance while accelerating agent deployment.
+  **Business Impact:** Strengthens compliance and governance while accelerating agent deployment.
 
-  **Personal Impact:** 
-  
-  Simplifies decision-making for IT teams, saving hours of manual checks.
+  **Personal Impact:** Simplifies decision-making for IT teams, saving hours of manual checks.
 
-  **Additional Resources:**
+  **Additional resources:**
+
+   **Learn:**
 
   [Agent Registry in the Microsoft 365 admin center](/microsoft-365/admin/manage/agent-registry)
+  
 
----
 ### Microsoft 365 Copilot Studio
 
 - **Control org-wide agent sharing from one place** [Web]
 
   Admins now have granular control over whether agents built in Agent Builder can be shared with links that work for anyone in the organization, ensuring policies are followed.
 
-  **Details:**
+  ****Details:****
 
   **What changed:** Admins can restrict or disable organization-wide sharing of agents built in Agent Builder. 
 
-  **Why:** This strengthens governance, prevents agent sprawl, and supports safe adoption at scale.
+  ****Why:**** This strengthens governance, prevents agent sprawl, and supports safe adoption at scale.
 
-  **Try This:**   
+  **Try this:**
 
-  -  In Microsoft 365 Admin Center, go to Agents > Settings > Sharing and configure who can share agent links that work for anyone in the organization. 
+
+  -  In Microsoft 365 admin center, go to Agents > Settings > Sharing and configure who can share agent links that work for anyone in the organization. 
 
   **Why this matters:**  
 
-  **Business Impact:** 
+  **Business Impact:** Strengthens governance, prevents oversharing, and supports compliance as agent adoption needs evolve.   
 
-  Strengthens governance, prevents oversharing, and supports compliance as agent adoption needs evolve.   
+  **Personal Impact:** Gives admins confidence and transparency when scaling adoption. Makers receive clear guidance on enforced admin sharing policies
 
-  **Personal Impact:** 
+  **Additional resources:** 
 
-  Gives admins confidence and transparency when scaling adoption. Makers receive clear guidance on enforced admin sharing policies
+  **Learn:**
 
-  **Additional Resources:** 
 
-    **Learn:** [Sharing](/microsoft-365/admin/manage/agent-settings#sharing)
+    [Sharing](/microsoft-365/admin/manage/agent-settings#sharing)
 
-    **Learn:** [Share an agent](/microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent#share-an-agent)
 
-  **Demo:** [Admin control for org-wide agent sharing links](https://microsoft-my.sharepoint-df.com/personal/sophieroy_microsoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsophieroy%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings%2FDemo%20Admin%20control%20for%20org%2Dwide%20agent%20sharing%20links%2D20250926%5F155245%2DMeeting%20Recording%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea632fb0d%2D5e4c%2D4501%2D92a6%2D1c16c4381542&ct=1764029038871&or=Teams%2DHL&ga=1&gaS=47&isDarkMode=true)
+  **Learn:**
 
-  **Blog:** [Manage and govern at scale](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/whats-new-in-copilot-studio-october-2025/#manage-and-govern-at-scale)
 
----
+    [Share an agent](/microsoft-365-copilot/extensibility/copilot-studio-lite-share-manage-agent#share-an-agent)
+
+  **Demo:**
+
+    [Admin control for org-wide agent sharing links](https://microsoft-my.sharepoint-df.com/personal/sophieroy_microsoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsophieroy%5Fmicrosoft%5Fcom%2FDocuments%2FRecordings%2FDemo%20Admin%20control%20for%20org%2Dwide%20agent%20sharing%20links%2D20250926%5F155245%2DMeeting%20Recording%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea632fb0d%2D5e4c%2D4501%2D92a6%2D1c16c4381542&ct=1764029038871&or=Teams%2DHL&ga=1&gaS=47&isDarkMode=true)
+
+  **Blogs:**
+
+    [Manage and govern at scale](https://www.microsoft.com/microsoft-copilot/blog/copilot-studio/whats-new-in-copilot-studio-october-2025/#manage-and-govern-at-scale)
+
 
 ### Microsoft 365 PowerPoint
 
@@ -6377,38 +10059,37 @@ Voice   removes friction, letting you work where typing isn't practical.
 
 When building a presentation with Copilot, you can now pull in content from Loop components or pages for fully integrated and up-to-date slides.  
 
-  **Roadmap ID:** [500864](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500864)
+  ****Roadmap ID:**** [500864](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500864)
 
-  **Details:**  
+  ****Details:****  
 
   **What changed:** 
 
   Copilot for PowerPoint supports referencing Loop components and pages across PC, Mac, and web.  
 
-  **Why:** 
+  ****Why:**** 
 
   Ensures your presentations reflect the latest collaborative content without manual copy-paste.  
 
-  **Try This:**  
-
-  -  Ask Copilot: *"Create a status update deck using the project details from our Loop page."*  
+  **Try this:**  
+  
+  
+  -  **Ask Copilot:** *"Create a status update deck using the project details from our Loop page."*  
 
   **Why this matters:**  
 
-  **Business Impact:** 
+  **Business Impact:** Align updates across teams without tedious content migration.  
 
-  Align updates across teams without tedious content migration.  
+   **Personal Impact:** Save time by reusing the content you already co-created, in just one step.
 
-   **Personal Impact:** 
-
-  Save time by reusing the content you already co-created, in just one step.
-
-  **Details:**  
+  ****Details:****  
   - **What changed:** Copilot for PowerPoint supports referencing Loop components and pages across PC, Mac, and web.  
-  - **Why:** Ensures your presentations reflect the latest collaborative content without manual copy-paste.  
+  - ****Why:**** Ensures your presentations reflect the latest collaborative content without manual copy-paste.  
   
-  **Try This:**  
-  - Ask Copilot: *"Create a status update deck using the project details from our Loop page."*  
+  **Try this:**  
+  
+  
+  - **Ask Copilot:** *"Create a status update deck using the project details from our Loop page."*  
 
   **Why this matters:**  
   - **Business Impact:** Align updates across teams without tedious content migration.  
@@ -6418,53 +10099,46 @@ When building a presentation with Copilot, you can now pull in content from Loop
 
 -  **Copilot skills for smarter SharePoint administration** [Web]
   
-    Use Copilot to get step-by-step guidance for admin tasks and advanced site searches based on multiple criteria—all from the SharePoint Admin Center.  
+    Use Copilot to get step-by-step guidance for admin tasks and advanced site searches based on multiple criteria—all from the SharePoint admin center.  
 
-    **Roadmap ID:** [501455](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501455)
+    ****Roadmap ID:**** [501455](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=501455)
 
-    **Details:**  
+    ****Details:****  
 
     **What changed:** 
 
       Added two major skills:  
 
-      * Guided task instructions (e.g., fixing over-permissioned sites)  
+      * Guided task instructions (for example, fixing over-permissioned sites)  
       
-      * Multi-criteria search for sites (e.g., inactive + shared externally)  
+      * Multi-criteria search for sites (for example, inactive + shared externally)  
 
-    **Why:** 
+    ****Why:**** 
 
     Improves efficiency and accuracy in managing large SharePoint environments.  
 
-    **Try This:**  
+    **Try this:**
 
-    **Ask Copilot:** 
 
-    -  *"Find all inactive sites over 60 days shared externally."*  
-
-    **Prompt:** 
-
-    -  *"Show me steps to reduce permissions for over-shared sites."*  
+    **Ask Copilot:** *"Find all inactive sites over 60 days shared externally."*  
+    **Prompt:** *"Show me steps to reduce permissions for over-shared sites."*  
 
     **Why this matters:**  
 
-    **Business Impact:** 
+    **Business Impact:** Reduces security risk and speeds workload management.  
 
-    Reduces security risk and speeds workload management.  
+    **Personal Impact:** Saves admins hours of navigating settings—answers are instant.  
 
-    **Personal Impact:** 
-
-    Saves admins hours of navigating settings—answers are instant.  
-
-    **Additional Resources:**
+    **Additional resources:**
 
     **Learn:**
     
-    [Copilot skills in SharePoint admin centers](/SharePoint/copilot-skills-sharepoint-admin-centers)
+
+      [Copilot skills in SharePoint admin centers](/SharePoint/copilot-skills-sharepoint-admin-centers)
 
 <!-- 101643,100829,100490,103496,101683,100910,100875,100679,100896,98419,95902,83819 -->
 
-## November 12, 2025 — Release Overview
+## November 12, 2025
 
 Updates released between October 28, 2025, and November 12, 2025.
 
@@ -6506,15 +10180,17 @@ Updates released between October 28, 2025, and November 12, 2025.
 
   Copilot Chat now makes visual creation more flexible and intuitive. Upload reference images, edit them step by step, and maintain consistency across versions—perfect for refining designs for presentations, social posts, or print.
 
-- **RSVP status-based meeting search in Copilot Chat** [Android, Windows, Web]                          
+- **RSVP status-based meeting search in Copilot Chat** [Android, Windows, Web]
+-                          
 
 **Roadmap:** [499429](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499429)
   
   Quickly find meetings based on RSVP status—either your own or others'. This feature helps you stay organized by surfacing RSVP details for upcoming events, so you can track commitments and follow up with attendees.
 
-  **Try This:** Open Microsoft 365 Chat. 
+  **Try this:** 
   
-  Enter queries like:
+  
+  Open Microsoft 365 Chat. Enter queries like:
 
   -  "Meetings I accepted this week"                                                                        
   -  "Meetings I have not RSVPed this week"                                                                       
@@ -6557,7 +10233,7 @@ Updates released between October 28, 2025, and November 12, 2025.
 
 <!-- 100870,100650,84890,100633,97654,103495,104883,100921,82093,104956,104954,96976 -->
 
-## Updates from October 15 to 28, 2025
+## October 28, 2025
 
 Updates released between October 15, 2025, and October 28, 2025.
 
@@ -6609,7 +10285,7 @@ Updates released between October 15, 2025, and October 28, 2025.
 
 - **PPT Copilot now offers an on-canvas experience for translating presentation** [Mac, Web, iOS]
 
-  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation. [Learn more](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.).
+  Now, when creating a presentation using Copilot from an existing presentation, it creates the new presentation in a new file without affecting the original presentation. [Learn more](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.).
 
 ### Teams
 
@@ -6624,7 +10300,7 @@ Updates released between October 15, 2025, and October 28, 2025.
 
 <!-- 102200,101036,100353,99396,101413,100885,100884,99941,101259 -->
 
-## September 30 to October 15, 2025 updates
+## October 15, 2025
 
 Updates released between September 30, 2025, and October 15, 2025.
 
@@ -6671,7 +10347,7 @@ Updates released between September 30, 2025, and October 15, 2025.
 
 
 <!-- 98125,99202,97403/2/1,96887,101440,101071,100986,100267,84459,100886 -->
-## Updates between September 16 and September 30, 2025
+## September 30, 2025
 
 Updates released between September 16, 2025, and September 30, 2025.
 
@@ -6717,7 +10393,7 @@ Updates released between September 16, 2025, and September 30, 2025.
 
 - **Copilot generates the new presentation in a new file when starting from an existing presentation** [Web]
 
-  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation. [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
+  Now, when creating a presentation using Copilot from an existing presentation, it creates the new presentation in a new file without affecting the original presentation. [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
 
 - **Seamlessly add topics with Copilot** [Mac, Web, Windows]
 
@@ -6725,7 +10401,7 @@ Updates released between September 16, 2025, and September 30, 2025.
 
 <!-- 96283,84126,100345,100071,101685,100911,100600,100364,100272,100215,100162,97770,96984 -->
 
-## September 16, 2025 updates
+## September 16, 2025
 
 Updates released between September 3, 2025, and September 16, 2025.
 
@@ -6775,7 +10451,7 @@ Updates released between September 3, 2025, and September 16, 2025.
  [Learn more](/copilot/microsoft-365/microsoft-365-copilot-search).
 - **Unified Conversations (Chat History) List** [Web]
 
-  We've made it easier to find what you need. Users now see a single, streamlined list of all your conversations. No more switching between tabs or wondering where to look for specific conversations. Just select a conversation and you'll pick up in the same context and mode as where you left off.
+  We've made it easier to find what you need. Users now see a single, streamlined list of all your conversations. No more switching between tabs or wondering where to look for specific conversations. Select a conversation and you'll pick up in the same context and mode as where you left off.
 ### PowerPoint
 - **Copilot Chat creates and enhances presentation content and design** [Web]
 
@@ -6789,7 +10465,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 
 
 <!-- 82180,96228,82089,82088,98075,96025 96022 96024,84758,82090,81702,94127,100601,98669,100218,100352,95279,95274,80609,100337,98691 -->
-## August 19 and September 3, 2025 — Release Overview
+## September 3, 2025
 
 Updates released between August 19, 2025, and September 3, 2025.
 
@@ -6801,7 +10477,7 @@ Updates released between August 19, 2025, and September 3, 2025.
 
 - **Get clear sync statuses and error insights** [Windows, Web]
 
-  View actionable user sync and ingestion statuses across all states in Microsoft Admin Center to simplify troubleshooting. [Learn more](/microsoftsearch/connector-view-details).
+  View actionable user sync and ingestion statuses across all states in Microsoft admin center to simplify troubleshooting. [Learn more](/microsoftsearch/connector-view-details).
 
 - **Ground Copilot responses on specific content subsets** [Windows, Web]
 
@@ -6887,7 +10563,7 @@ Updates released between August 19, 2025, and September 3, 2025.
   When Copilot generates drafts based on a selection of text, Copilot retains the formatting of the selected text and allows users to apply new formatting, like bold, underline, italic, and more.
 
 <!-- 93961,99157,98926,95488,84938,100213,100212,98074,97934,97897,97886,97224,95300,95298,95266,79004,100604,100521,100216,99367,98828,98824,95538,83349 -->
-## Updates of August 19, 2025
+## August 19, 2025
 Updates released between August 5, 2025, and August 19, 2025.
 ### Copilot extensibility
 - **Craft actions using API chaining with low code** [Windows, Web]
@@ -6993,16 +10669,16 @@ Updates released between August 5, 2025, and August 19, 2025.
 
 
 <!-- 84976,94586,83228,98372,99774,97856,100348,100344,100339,100338,99397,99368,96111,78252 -->
-## Updates from July 22 to August 5, 2025
+## August 5, 2025
 Updates released between July 22, 2025, and August 5, 2025.
 ### Copilot extensibility
 - **Admin pre-approval for trusted declarative agents** [Web]
 
   Admins can now pre-approve specific agents so their actions are always allowed without extra confirmation. This reduces interruptions and helps ensure a smooth workflow in integrated apps.
  [Learn more](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
-- **Enhance Copilot Studio lite experience with full screen mode** [Windows, Mac, Web]
+- **Enhance agent builder with full screen mode** [Windows, Mac, Web]
 
-  Enjoy an improved Copilot Studio lite experience with a full-screen view that streamlines the process of creating and managing your agents.
+  Enjoy an improved agent builder experience with a full-screen view that streamlines the process of creating and managing your agents.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
 - **Enhanced Q&A accuracy for SharePoint files** [Windows, Web]
 
@@ -7028,14 +10704,15 @@ Updates released between July 22, 2025, and August 5, 2025.
   Prevent agents from using model-trained knowledge by turning off internal knowledge, ensuring responses are based on specified grounded sources.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-knowledge#prioritize-your-knowledge-sources-over-general-knowledge).
 ### Microsoft 365 admin center
-- **Onboard SharePoint Agents as a PayG scenario in CCS** [Web]
+- **Onboard SharePoint Agents as a pay-as-you-go scenario in CCS** [Web]
 
-  This feature introduces SharePoint Agents to the Pay-as-you-go tab under Copilot → Billing & usage, aligning with the existing workflow used for Microsoft 365 Copilot Chat. Administrators will gain the ability to manage and monitor SharePoint Agent consumption through the familiar Pay-as-you-go interface, ensuring consistent oversight across Copilot experiences. Integration with the SharePoint backend via API enables precise usage tracking and billing for this new scenario.
- [Learn more](/microsoft-365/services/pay-as-you-go-services).
+  This feature introduces SharePoint Agents to the Pay-as-you-go tab under Copilot → Billing & usage, aligning with the existing workflow used for Microsoft 365 Copilot Chat. Administrators gain the ability to manage and monitor SharePoint Agent consumption through the familiar Pay-as-you-go interface, ensuring consistent oversight across Copilot experiences. Integration with the SharePoint backend via API enables precise usage tracking and billing for this new scenario.
+ [Learn more](/microsoft-365/commerce/services/pay-as-you-go-services)
+
 ### Microsoft 365 Copilot Chat
 - **Share agents with your enterprise** [Windows, Web]
 
-  Generate sharing links for your agents in Business Chat. If the recipient doesn't have the agent, they'll be directed to the Microsoft 365 application catalog to install it. If they do, the agent will open directly in Microsoft 365 Copilot Business Chat.
+  Generate sharing links for your agents in Business Chat. If the recipient doesn't have the agent, they'll be directed to the Microsoft 365 application catalog to install it. If they do, the agent opens directly in Microsoft 365 Copilot Business Chat.
  [Learn more](https://support.microsoft.com/topic/how-to-share-your-agent-44981c08-ab64-43f1-bcf8-ebadfc5469cc).
 ### PowerPoint
 - **Copilot uses enterprise assets hosted on SharePoint OAL when creating presentations now** [Mac, Windows, Web]
@@ -7059,20 +10736,20 @@ Updates released between July 22, 2025, and August 5, 2025.
 
 
 <!-- 95840,95241,97367,100044,97230,95268,95263,100351,99775,99156,98362,97883,95681,95248,95192,93065,83328,74714,98515 -->
-## July 22, 2025 - What's New
+## July 22, 2025
 Updates released between July 8, 2025, and July 22, 2025.
 ### Copilot extensibility
-- **Hebrew support in Copilot Studio lite experience** [Windows, Web]
+- **Hebrew support in Agent builder** [Windows, Web]
 
-  Integrate Hebrew language support in Copilot Studio lite experience to build accessible, localized solutions that simplify multilingual deployments and enhance user engagement.
+  Integrate Hebrew language support in agent builder to build accessible, localized solutions that simplify multilingual deployments and enhance user engagement.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-availability).
 - **Increased support for uploading up to 20 documents to agents' knowledge** [Windows, Web]
 
-  End users and makers can now upload up to 20 documents to ground agents with richer, embedded knowledge in Microsoft Copilot Studio lite experience.
+  End users and makers can now upload up to 20 documents to ground agents with richer, embedded knowledge in Microsoft Copilot Studio agent builder.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-knowledge).
 - **Share agents from embedded builder** [Windows, Web]
 
-  Users can share agents from an embedded Copilot Studio lite experience to other individual users or group chats.
+  Users can share agents from an embedded agent builder to other individual users or group chats.
  [Learn more](/microsoft-365/admin/manage/manage-embedded-knowledge-agents).
 - **Share agents with context-aware link previews** [Windows, Web]
 
@@ -7088,7 +10765,7 @@ Updates released between July 8, 2025, and July 22, 2025.
 ### Copilot Studio
 - **Easily find and use knowledge data sources** [Web]
 
-  In Copilot Studio lite experience you can now quickly identify and select the right knowledge data sources without manually scanning long lists. This streamlined workflow helps you get to the insights you need faster for everyday tasks.
+  In Copilot Studio agent builder you can now quickly identify and select the right knowledge data sources without manually scanning long lists. This streamlined workflow helps you get to the insights you need faster for everyday tasks.
  [Learn more](/power-platform/release-plan/2025wave1/microsoft-copilot-studio/use-teams-chats-as-knowledge-sources).
 ### Excel
 - **Ask Copilot to generate formulas** [Web]
@@ -7145,7 +10822,7 @@ You can now use the dictation button to input your prompts via speech, making in
 
 
 <!-- 84996,84872,95244,83178,77803,78628,99334,97490,95294,97932,97885,97801,94703,93106,97959 -->
-## July 8, 2025 - Feature Additions
+## July 8, 2025
 Updates released between June 24, 2025, and July 8, 2025.
 ### Copilot extensibility
 - **Add Dataverse as knowledge in Copilot** [Web, Windows]
@@ -7174,7 +10851,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 
   While performing advanced analysis with Copilot in Excel with Python, users can choose the "Think Deeper" mode to get a more elaborate and detailed plan, followed by automatic execution to generate Python code, results, and explanations. This improves performance on complex asks by leveraging the power of the latest AI reasoning models.
  [Learn more](https://support.microsoft.com/office/364e4ae9-9343-4d56-952a-5f62b0f70db6).
-### Microsoft 365 Admin Center
+### Microsoft 365 admin center
 - **Metadata for Shared agent management in Microsoft 365 admin center** [Web]
 
   IT admins can view metadata for Shared agents in Microsoft 365 admin center similar to metadata information for line of business applications built by customer organization. It provides IT admins the opportunity to explore all data besides honoring UX filters for a seamless user experience.
@@ -7187,7 +10864,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 - **Updated UI for Microsoft 365 Copilot App** [Windows, Web]
 
   The Microsoft 365 Copilot app is your starting place for AI at work, offering quick access to secure AI chat, search, files, and content creation in one seamless app.
- [Learn more](https://www.microsoft.com/en-us/microsoft-365/blog/2025/04/23/microsoft-365-copilot-built-for-the-era-of-human-agent-collaboration/).
+ [Learn more](https://www.microsoft.com/microsoft-365/blog/2025/04/23/microsoft-365-copilot-built-for-the-era-of-human-agent-collaboration/).
 ### Microsoft 365 Copilot Chat
 - **Locate your Copilot Pages in Microsoft 365 Copilot Chat navigation pane** [Windows, Web]
 
@@ -7220,7 +10897,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 
 
 <!-- 98006,96078,95296,95230,83646,97565,95267,76606,97885,97810,97309,97034,95904,95903,79335,96243,84996,97832,98196,97305,95679,96368 -->
-## Release summary between June 10 and June 24, 2025
+## June 24, 2025
 Updates released between June 10, 2025, and June 24, 2025.
 ### Copilot extensibility
 - **Admins can manage Copilot extensibility under Copilot tab in Microsoft 365 admin center** [Windows, Web]
@@ -7250,7 +10927,8 @@ Updates released between June 10, 2025, and June 24, 2025.
 - **Add custom Copilot Studio agents to Microsoft 365** [Web]
 
   Publish your Copilot Studio agent to the Microsoft 365 channel in one click, then roll it out to yourself, a pilot group, or your whole org. Messages, quick replies, adaptive cards, and multi-turn chat work instantly, while Power Platform analytics and governance keep everything secure and measurable.
- [Learn more](/microsoft-365-copilot/extensibility/publish).
+[Learn more](/microsoft-365-copilot/extensibility/publish)
+
 - **Automate repetitive tasks with agent flows** [Web]
 
   Build agent flows in Copilot Studio using natural language to automate workflows with AI-powered actions. Makers can build intelligent, scalable, and flexible automations for tasks ranging from intelligent summarization to advanced approvals - and get fast, consistent results.
@@ -7321,7 +10999,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 
 
 <!-- 83163,93511,99006,75354,97166,95275,99009,97921,97603,97372,97288,96951,96241,96065,72079,97492 -->
-## Updates between May 29 and June 10, 2025
+## June 10, 2025
 
 Updates released between May 29, 2025, and June 10, 2025.
 ### Copilot extensibility
@@ -7355,7 +11033,7 @@ Key capabilities include hosting with Azure Key Vault to manage your keys, lifet
 - **Module UI refresh** [Windows, Web]
 
   Copilot Chat is designed to provide a streamlined UI, making it easy to get started and achieve your goals quickly. It offers a helpful, understanding, and personalized experience, allowing you to search for past interactions, content, agents, or pages with ease.
- [Learn more](https://support.microsoft.com/en-us/topic/get-started-with-microsoft-365-copilot-chat-5b00a52d-7296-48ee-b938-b95b7209f737).
+ [Learn more](https://support.microsoft.com/topic/get-started-with-microsoft-365-copilot-chat-5b00a52d-7296-48ee-b938-b95b7209f737).
 - **Simplified Input box update** [Windows, Web]
 
   We've made it easier for users to type prompts with access to CIQ, local files, attach cloud files, and agents by adding it under the Plus Menu.
@@ -7447,7 +11125,7 @@ Updates released between May 13, 2025, and May 29, 2025.
 - **Copilot Chat now offers access to cloud files to insert in user prompts** [Windows, Web]
 
   In the Web tab of Copilot Chat or Microsoft 365 Copilot, users can browse OneDrive or SharePoint, select a file, and drop it into their prompt to give Copilot precise context for richer responses.
-- **Enable Copilot Studio lite experience for Copilot chat** [Windows, Web]
+- **Enable agent builder for Copilot chat** [Windows, Web]
 
   Empower developers with the ability to build custom agents to support Copilot Chat. This feature streamlines the creation of tailored chat experiences that enhance everyday communication and workflow.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
@@ -7483,7 +11161,7 @@ Updates released between April 29, 2025, and May 13, 2025.
 ### Excel
 - **Ask Copilot about any part of your sheet** [Web, Mac, Windows, iOS]
 
-  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This will include understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
+  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This includes understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
 - **Easily access copilot on web** [Web]
 
   Find a dedicated Copilot icon in your web spreadsheet, allowing you to tap into AI-powered insights and streamline tasks without breaking your workflow.
@@ -7546,7 +11224,7 @@ Updates released between April 29, 2025, and May 13, 2025.
   Tailor each document opening with your preferred summary style—select brief, standard, or detailed insights to match your workflow.
  [Learn more](https://support.microsoft.com/office/create-a-summary-of-your-document-with-copilot-in-word-79bb7a0a-3bf7-41fe-8c09-56f855b669bf).
 <!-- 81919,96545,96544,73690,82869,77902,94411,98033,97295,96404,83947,96508,96512 -->
-## Updates of April 29, 2025
+## April 29, 2025
 Updates released between April 16, 2025, and April 29, 2025.
 ### Excel
 - **Formula Explain on grid entry points** [Web]
@@ -7562,12 +11240,12 @@ Updates released between April 16, 2025, and April 29, 2025.
   After finalizing your data with Clean Data, effortlessly switch to Copilot chat for deeper insights and analysis.
  [Learn more](https://support.microsoft.com/office/clean-data-in-excel-7fe20d89-3f57-46d3-b659-e8f3ee853bda).
 ### Microsoft 365 Copilot extensibility
-- **Copilot Studio lite experience now available in new regions** [Windows, Web]
+- **Agent builder now available in new regions** [Windows, Web]
 
-  You can now access Copilot Studio lite experience in Norway, Sweden, South Korea, and South Africa.
+  You can now access Copilot Studio agent builder in Norway, Sweden, South Korea, and South Africa.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-availability#regional-availability).
 ### Microsoft Copilot Chat
-- **Submit feedback on the Copilot Studio lite experience experience** [Windows, Web]
+- **Submit feedback on the agent builder experience** [Windows, Web]
 
   Improve your custom Copilot Chat solutions by providing targeted feedback on RAI and agent response during test chats. This direct input helps refine and enhance the builder experience.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder#submit-feedback).
@@ -7610,7 +11288,7 @@ Updates released between April 16, 2025, and April 29, 2025.
 
 
 <!-- 95249,76195,73845,97889,95264,96345,83221,83405 -->
-## April 16, 2025 - What’s New
+## April 16, 2025
 Updates released between April 2, 2025, and April 16, 2025.
 ### Excel
 - **Graph grounded chat** [Windows, Mac, Web]
@@ -7654,7 +11332,7 @@ Updates released between April 2, 2025, and April 16, 2025.
 
 
 <!-- 83343,95770,97325,96069,95072,95842,97326,96239,81548,72729,84823,93924,97327 -->
-## April 2, 2025 - Release Overview
+## April 2, 2025
 Updates released between March 20, 2025, and April 2, 2025.
 ### Copilot Studio
 - **Enhanced SharePoint URL support in Copilot Studio** [Web]
@@ -7668,7 +11346,7 @@ Updates released between March 20, 2025, and April 2, 2025.
 - **SharePoint knowledge for agents** [Web]
 
   Makers can now leverage additional data sources, including Dataverse and SharePoint, when building autonomous agents. This expands the variety of use cases for autonomous agents.
-- **Use Copilot Studio lite experience in Copilot chat** [Web]
+- **Use agent builder in Copilot chat** [Web]
 
   Create custom agents in Copilot chat to streamline repetitive tasks and achieve consistency. Use specific instructions and grounding details to save time, reuse your agents, and enhance team productivity.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
@@ -7688,9 +11366,9 @@ Updates released between March 20, 2025, and April 2, 2025.
 
   Enjoy enriched emails with interactive hovers that reveal contextual details—like sender info, dates, and follow-up prompts—to streamline your daily workflow.
 ### Microsoft 365 Copilot Studio
-- **Collect user feedback in Copilot Studio lite experience** [Web]
+- **Collect user feedback in Copilot Studio agent builder** [Web]
 
-  Makers can also now submit feedback—compliments, problems, or suggestions—directly to the product team from inside the Copilot Studio lite experience. This can be done at any stage of the authoring process, including comments and optional metadata for troubleshooting. This feature allows quick issue reporting without disrupting workflow and enables the product team to address feedback efficiently.
+  Makers can also now submit feedback—compliments, problems, or suggestions—directly to the product team from inside the Microsoft 365 agent builder. This can be done at any stage of the authoring process, including comments and optional metadata for troubleshooting. This feature allows quick issue reporting without disrupting workflow and enables the product team to address feedback efficiently.
  [Learn more](/power-apps/maker/canvas-apps/agent-builder#provide-feedback).
 ### Microsoft Loop
 - **Load existing Copilot pages and create multiple pages** [Web]
@@ -7710,7 +11388,7 @@ Updates released between March 20, 2025, and April 2, 2025.
 
   The chat experience in Word is now simplified with access to attachments, images, and agents now accessed from a single plus-sign menu.
 
-## March 19, 2025 - Release summary
+## March 19, 2025
 Updates released between March 5, 2025, and March 19, 2025.
 
 ### Copilot Studio
@@ -7767,7 +11445,7 @@ Updates released between March 5, 2025, and March 19, 2025.
 
   Leverage detailed reports on permissioned user counts and sharing links to identify oversharing risks and make informed governance decisions. [Learn more](/sharepoint/data-access-governance-reports).
 
-## March 4, 2025 - Feature Additions
+## March 4, 2025
 
 Updates released between February 20, 2025, and March 4, 2025. 
 
@@ -7807,7 +11485,7 @@ Updates released between February 20, 2025, and March 4, 2025.
 
   Convert grounded content from Word documents into dynamic slides with tables. Enhance your presentations with structured, data-driven visuals effortlessly.
 
-## February 19, 2025 - Feature Additions
+## February 19, 2025
 
 Updates released between February 5, 2025, and February 19, 2025. 
 
@@ -7839,7 +11517,7 @@ Updates released between February 5, 2025, and February 19, 2025.
 
   Highlight text, start a chat with Copilot, and receive responses tailored to what you've selected. Get targeted writing assistance and refine your content in real time.
 
-## February 4, 2025 - Feature Additions
+## February 4, 2025
 
 Updates released between January 24, 2025, and February 4, 2025.
 
@@ -7916,7 +11594,7 @@ Updates released between January 24, 2025, and February 4, 2025.
 
   Add .txt files as sources with Copilot in Word, streamlining your process when working with text-based research or background content.
 
-## January 23, 2025 — Highlights
+## January 23, 2025
 
 Updates released between January 8, 2025, and January 23, 2025.
 ### Forms
@@ -7979,7 +11657,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
   Hear Copilot's replies in the chat pane, letting you stay hands-free while reviewing your content.
 
-## January 7, 2025 — Feature Additions
+## January 7, 2025
 
 Updates released between December 18, 2024, and January 7, 2025.
 ### Microsoft 365 admin center
@@ -7992,7 +11670,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Include Code Interpreter in agents** [Windows, Web]  
 
-  Enhance your agents by including Code Interpreter for advanced data analysis tasks in Copilot Studio lite experience. [Learn more](/microsoft-365-copilot/extensibility/add-agent-capabilities#enable-code-interpreter).
+  Enhance your agents by including Code Interpreter for advanced data analysis tasks in agent builder. [Learn more](/microsoft-365-copilot/extensibility/add-agent-capabilities#enable-code-interpreter).
 
 ### Outlook
 
@@ -8018,7 +11696,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Enhance your learning experience with a wider range of external content in Copilot Academy, including links to Copilot Prompt Gallery. [Learn more](/viva/learning/academy-copilot).
 
-## December 17, 2024 — Release Overview
+## December 17, 2024
 
 ### Microsoft 365 Copilot
 
@@ -8056,7 +11734,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Now you can add an image to your chat with Copilot. You can ask questions about the image, extract text, get a description of a chart, translate information, or generate alt text. This helps you stay in the flow of work while getting necessary information to continue working on your document.
 
-## November, 2024 — Release Overview
+## November, 2024
 
 ### Microsoft 365 Copilot Chat
 
@@ -8098,11 +11776,11 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Add image generation to agents** [Windows, Web]  
 
-  Enhance your agents by including image generation capabilities in Copilot Studio lite experience [Learn more](/microsoft-365-copilot/extensibility/add-agent-capabilities#image-generator).
+  Enhance your agents by including image generation capabilities in agent builder. [Learn more](/microsoft-365-copilot/extensibility/add-agent-capabilities#image-generator).
 
-- **Create agents in Microsoft 365 Copilot via Copilot Studio lite experience** [Windows, Web]  
+- **Create agents in Microsoft 365 Copilot via agent builder** [Windows, Web]  
 
-  Use Copilot Studio lite experience to create agents that contain specific instructions and knowledge, such as SharePoint files, to suit your needs. [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
+  Use agent builder to create agents that contain specific instructions and knowledge, such as SharePoint files, to suit your needs. [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
 
 ### Microsoft Loop
 
@@ -8172,7 +11850,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Create agents in Copilot with instructions and knowledge sources** [Windows, Web]  
 
-  Users can build Copilot agents that include specific instructions and knowledge, such as SharePoint files, directly from Copilot Chat using Copilot Studio lite experience. [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
+  Users can build Copilot agents that include specific instructions and knowledge, such as SharePoint files, directly from Copilot Chat using Copilot Studio Agent Builder. [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
 
 - **Customize your agent list in Copilot across apps** [Windows, Web]  
 
@@ -8198,7 +11876,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   On blank documents, Copilot in Word offers one-click example prompts to help you get started quickly.
 
-## September, 2024 — Release Overview
+## September, 2024
 
 ### Microsoft 365 Copilot Chat
 
@@ -8285,7 +11963,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Expand your drafting capabilities by referencing up to 10 items—such as files, emails, and meetings—when using Copilot in Word. [Learn more](https://support.microsoft.com/topic/272ac2c1-c5f7-49c9-8a42-2a8a87846fa0).
 
-## August, 2024 — Release Overview
+## August, 2024
 
 ### Microsoft 365 Copilot
 
@@ -8343,7 +12021,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   View trendlines of key productivity metrics over 6 months and estimate the financial value of Copilot-assisted hours. [Learn more](/viva/insights/advanced/analyst/templates/microsoft-365-copilot-impact).
 
-## July, 2024 — Release Overview
+## July, 2024
 
 ### Microsoft 365 Copilot Chat
 
@@ -8413,7 +12091,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot in Word can now summarize longer documents, with the upper limit increased to about four times more words (approx. 80k words). Get comprehensive overviews of lengthy content.
 
-## June, 2024 — Release Overview
+## June, 2024
 
 ### Excel
 
@@ -8461,7 +12139,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Enhance your documents with AI-generated images using the new integration of Microsoft Designer in Copilot Chat. Also search for stock images and brand assets to bring your content to life seamlessly.
 
-## May, 2024 — Release Overview
+## May, 2024
 
 ### Microsoft 365 Copilot Chat
 
@@ -8589,7 +12267,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Discover Whiteboard Copilot with First Run Experience** [Windows, Web]  
 
-  First-time users will be guided to discover and leverage the power of Whiteboard Copilot features through an interactive introduction.
+  First-time users are guided to discover and leverage the power of Whiteboard Copilot features through an interactive introduction.
 
 ### Word
 
@@ -8613,7 +12291,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Users can copy-paste a link of a supported file into the Draft with Copilot UI as a reference, instead of searching for it in the file reference menu.
 
-## March, 2024 — Release Overview
+## March, 2024
 
 ### Microsoft 365 Copilot Chat
 
@@ -8639,7 +12317,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Include an AI-generated document summary when sharing Word documents. Recipients get a rich preview, aiding quicker understanding and collaboration.
 
-## February, 2024 — Release Overview
+## February, 2024
 
 ### Forms
 
@@ -8647,7 +12325,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Use natural language to describe the form you need, and Copilot will generate it for you. Copilot can also help you customize your form with a theme or apply response settings, to help drive engagement from your audience.
 
-## January, 2024  — Release Overview
+## January, 2024
 
 ### Excel
 
@@ -8780,7 +12458,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Create a presentation from a simple prompt** [Windows, Web, iOS, Mac]  
 
-  Provide a prompt and Copilot will help you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
+  Provide a prompt and Copilot helps you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
 
 - **Create presentations using your organization's templates** [Windows, Web, iOS, Mac]  
 
@@ -8848,67 +12526,208 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [Android](#tab/androidos)
 
+
+
+## January 27, 2026
+Updates released between January 13, 2025, and January 27, 2026.
+### Microsoft 365 Copilot Chat
+- **Copilot Chat model selector now offers GPT-5.2** [Android, Windows, iOS, Mac, Web]
+
+  Choose GPT-5.2 in Copilot Chat for faster responses or deeper reasoning, improving accuracy and clarity.
+
+    **Details:**
+
+    **What changed:** The model selector in Copilot Chat now includes GPT-5.2. Users can pick Quick Response for immediate answers or Think Deeper for more thorough reasoning. GPT-5.2 delivers better instruction following, improved math and coding performance, and clearer explanations compared to previous models.
+
+    **Why:** This update provides more flexibility and precision, helping users handle both simple and complex tasks with adaptive reasoning.
+
+    **Try this:**
+
+    - Select More in the model selector and choose Quick Response for quick answers.
+    - Choose Think Deeper when you need detailed reasoning for complex queries.
+
+    **Why this matters:**
+
+    **Business impact:** Enhances productivity by offering tailored response modes for different workflows.
+
+    **Personal impact:** Gives individuals control over response depth, improving efficiency and clarity.
+
+    **Additional resources:**
+
+    **Blogs:**
+    [Available today: GPT-5.2 in Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6)
+
+<!-- 102626,101108 -->
+## January 13, 2026
+Updates released between December 23, 2025, and January 13, 2026.
+
+### Microsoft 365 Copilot app
+- **Access all your Copilot-generated content in one library** [Android, Windows, iOS, Mac, Web]
+
+  Use the new Library in the Microsoft 365 Copilot app to easily find and manage your Copilot-created images and pages.
+
+  **Roadmap ID:** [501783](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=501783)
+
+  **What changed:** A new centralized Library view in Copilot lets users access all their AI-generated assets in one place.
+
+  **Why:** Improves organization and removes friction in retrieving past Copilot content.
+
+  **Try this:**
+
+  - Open Copilot app → go to Library
+  - Filter by images or summaries
+  - Share content in Teams or email
+
+  **Business impact:** Boosts collaboration by making assets reusable and sharable.
+
+  **Personal impact:** Saves time by avoiding re-creating previous work.
+
+  **Additional resources:**
+
+  **Learn:**  
+  [Microsoft 365 Copilot Library](/copilot/microsoft-365/copilot-library)
+
+### Microsoft 365 Copilot extensibility
+- **Build smarter agents with GPT-5 in Agent Builder** [Android, Windows, iOS, Mac, Web]
+
+  Create more capable and context-aware Copilot agents powered by GPT-5, delivering richer responses and streamlined experiences for your users. 
+
+  **Roadmap ID:** [502552](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502552)
+
+  **Details:** 
+
+  **What changed:** 
+Declarative agents built in Microsoft 365 Copilot now use GPT-5 as the underlying chat model, enabling advanced reasoning, more natural language understanding, and improved multi-step processing. 
+
+  **Why:** 
+Organizations need AI-powered solutions that not only respond accurately but anticipate user needs. GPT-5 delivers higher precision and better handling of complex queries, resulting in agents that feel more responsive and intelligent, reducing repetitive follow-ups. 
+
+  **Try This:** 
+  - Open Agent Builder in Microsoft 365 Copilot to create a new declarative agent that runs on GPT‑5 as the foundation.
+  - Configure your agent with domain-specific knowledge and test its ability to handle scenario-based queries. 
+  - Ask your new agent: *“Help me draft a Q4 performance summary with recommendations based on last quarter’s sales trends.”* 
+
+  **Why this matters:** 
+
+  **Business Impact:** Smarter agents mean streamlined workflows and faster completion of complex business processes, reducing time-to-value and improving ROI on AI initiatives. 
+
+  **Personal Impact:** Users experience fewer frustrations when interacting with Copilot, getting precise answers and recommendations that fit their context—saving time and effort.
+
+## December 23, 2025
+Updates released between December 10, 2025, and December 23, 2025.
+### Microsoft 365 Copilot app
+- **GPT-5 powers Copilot Chat by default** [Android, Windows, iOS, Mac, Web]
+
+  Copilot Chat delivers faster, smarter results using GPT-5 as the default model.
+
+  **Details:**
+
+  **What Changed:** All Copilot Chat experiences run on GPT-5 by default. Copilot automatically routes prompts to the best-performing models for each task, using fast models for basic tasks and specialized reasoning models for multi-step requests.
+
+  **Why:** Users want speed, accuracy, and minimal friction. This update helps to ensure consistent, high-quality AI interactions in Copilot Chat.
+
+  **Try This:**
+
+  - “Get me up to speed on the latest plans related to [project/initiative]. Help me think through what to do next.”
+  - “Use the attached spreadsheet with customer feedback to create a polished executive report that helps upper management decide where to prioritize resources in our next cycle.”
+
+  **Why this matters:**
+
+  **Business Impact:** Increases accuracy and productivity, helping teams make strong decisions and complete complex work faster.
+
+  **Personal Impact:** Removes friction by letting Copilot choose the best model--fast or reasoning--for the prompt.
+
+  **Additional resources:**
+
+  **Blogs:** 
+
+  <a href="https://www.microsoft.com/microsoft-365/blog/2025/08/07/available-today-gpt-5-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6" target="_blank">Available today: GPT-5 in Microsoft 365 Copilot</a>
+### Microsoft 365 Copilot extensibility
+- **Upload Larger Files in Copilot Studio Agent Builder** [Android, Windows, iOS, Web]
+
+  Agent Builder now supports file uploads up to 512 MB when creating agents, ideal for larger files.
+
+  **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500375" target="_blank">500375</a>
+
+  **Details:**
+
+  **What Changed:**
+  This increases the upload size limit in Agent Builder to 512 MB, enabling use of larger files as grounding data.
+
+  **Why:**
+  Users requested more flexibility for grounding agents. Larger files improve reduce the need to split or compress documents.
+
+  **Try This:**
+  - Drag and drop large documents such as training manuals into your agent project.
+  - Create the agent and ask it to summarize information from uploaded files.
+
+  **Why this matters:**
+
+  **Business Impact:** Allows enterprises to build agents with richer, domain-specific knowledge.
+
+  **Personal Impact:** Complete your work without the need to split files or compress data.
+
+  **Additional resources:**
+ 
+  **Learn:**
+ 
+  <a href="/microsoft-365-copilot/extensibility/agent-builder-add-knowledge#embedded-file-content" target="_blank">Embedded file content</a>
+
 <!-- 96890,98572,100743,100742 -->
-## November 24, 2025 updates
-Updates released between November 12, 2025, and November 24, 2025.
+## November 25, 2025
+Updates released between November 12, 2025, and November 25, 2025.
 ### Microsoft 365 Copilot Chat
 - **Access shared mailboxes in Copilot Chat** [Android, Windows, iOS, Mac, Web]
 
   Copilot Chat now connects to shared mailboxes, so team-based conversations are more informed and collaborative.  
 
-  **Roadmap ID:** [488797](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797) 
+  ****Roadmap ID:**** [488797](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797) 
 
-  **Details:**  
+  ****Details:****  
 
   **What changed:** Users with shared mailbox permissions can ground Copilot responses in shared mail content, just like their own emails.  
 
-  **Why:** Eliminates context gaps in team workflows and improves shared visibility on projects.  
+  ****Why:**** Eliminates context gaps in team workflows and improves shared visibility on projects.  
 
-  **Try This:**  
- 
-  -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
- 
-  - Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox ."*
+  **Try this:**
+
+
+  - Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
+  - Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox."*
 
   **Why this matters:**  
 
-  **Business Impact:** 
-  
-  Ensures customer responses or project updates aren't missed when responsibility spans multiple team members.  
+  **Business Impact:** Ensures customer responses or project updates aren't missed when responsibility spans multiple team members.  
 
-  **Personal Impact:** 
-  
-  Reduces copying and manual email checks across shared accounts—Copilot does it for you.
+  **Personal Impact:** Reduces copying and manual email checks across shared accounts—Copilot does it for you.
  
-  **Additional Resources:**
+  **Additional resources:**
 
   [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
 
-  ---
 
 - **Talk to Copilot with voice for faster hands-free work** [Android, Windows, iOS, Mac, Web]
 
-  Speak to Copilot naturally on mobile or desktop to prepare for meetings,brainstorm ideas, or catch up on work—hands-free and grounded in work data.
+  Speak to Copilot naturally on mobile or desktop to prepare for meetings, brainstorm ideas, or catch up on work—hands-free and grounded in work data.
 
-  Roadmap ID: [481138](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
+  **Roadmap ID:** [481138](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
 
-  **Details:**
+  ****Details:****
 
   **What changed:**
   
-  Copilot now supports voice input, enabling natural, conversational interactions in the Microsoft 365 Copilot app on mobile, desktop and the web and in the  across Microsoft 365 apps, starting with Outlook, Word and PowerPoint.
+  Copilot now supports voice input, enabling natural, conversational interactions in the Microsoft 365 Copilot app on mobile, desktop and the web and across Microsoft 365 apps, starting with Outlook, Word and PowerPoint.
 
-  **Why:**
+  ****Why:****
 
   Professionals need faster, more intuitive ways to engage with AI during their flow of work, especially when multitasking or on the move.
 Voice   removes friction, letting you work where typing isn't practical.
 
-  **Try This:**
+  **Try this:**
+
 
   -  Say: *"Confirm the agenda and attendee list for my next meeting"*.
-
   -  Try:  *"Create a quick list of next steps from my recent meeting notes."*
-
   -  Ask: *"Summarize this document in five key points."*
 
   **Why this Matters:**
@@ -8921,95 +12740,94 @@ Voice   removes friction, letting you work where typing isn't practical.
   
   Work more comfortably and naturally while saving time, gaining efficiency and giving you the flexibility to use Copilot on the go or at your desk.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea)
   
-  ---
+
 ### Microsoft 365 Copilot extensibility
 - **Access Custom engine Agents on Microsoft 365 Copilot chat on mobile** [Android, iOS]
 
-
   You can now interact with your organization's custom engine agents directly from your mobile device (iOS and Android), making Copilot even more adaptable to your workflows on the go. Whether you're away from your desk or managing tasks during a commute, your tailored business logic and automations are always at your fingertips. 
 
-  **Details:** 
+  ****Details:**** 
   
-  **What changed:** 
+  **What changed:** Support for custom engine agents is now available on the Microsoft 365 mobile experience (iOS and Android). You can access the same business-specific workflows and logic you have on desktop, ensuring uninterrupted productivity. 
   
-  Support for custom engine agents is now available on the Microsoft 365 mobile experience (iOS and Android). You can access the same business-specific workflows and logic you have on desktop, ensuring uninterrupted productivity. 
+  ****Why:**** Teams needs consistent, personalized Copilot functionality no matter where they work. Bringing extensibility to mobile ensures employees stay productive and connected—even when away from their primary workstation. 
   
-  **Why:** 
-  
-  Teams need consistent, personalized Copilot functionality no matter where they work. Bringing extensibility to mobile ensures employees stay productive and connected—even when away from their primary workstation. 
-  
-  **Try This:** 
- 
-  -  Open the Microsoft 365 mobile app, launch Copilot, and activate one of your custom engine agents. - Ask Copilot: *"Run our expense approval workflow and update me on pending approvals."* 
+  **Try this:**
+
+
+  -  Open the Microsoft 365 mobile app, launch Copilot, and activate one of your custom engine agents. 
+  - **Ask Copilot:** *"Run our expense approval workflow and update me on pending approvals."* 
   
   **Why this matters:** 
   
-  **Business Impact:** 
+  **Business Impact:** Keep critical business processes running smoothly even when employees are mobile, reducing delays in approvals and operations. 
   
-  Keep critical business processes running smoothly even when employees are mobile, reducing delays in approvals and operations. 
+  **Personal Impact:** Enjoy the same customized Copilot experience wherever you work, saving time and reducing context-switching throughout your day. 
   
-  **Personal Impact:** 
-  
-  Enjoy the same customized Copilot experience wherever you work, saving time and reducing context-switching throughout your day. 
-  
-  **Additional Resources:**
+  **Additional resources:**
 
-  [Custom engine agents for Microsoft 365 overview](/microsoft-365-copilot/extensibility/overview-custom-engine-agent)
+
+  **Learn:**
+
+
+    [Custom engine agents for Microsoft 365 overview](/microsoft-365-copilot/extensibility/overview-custom-engine-agent)
 
 - **Support Message Extensions as Declarative Agents on Mobile** [Android, iOS]
 
   Stay productive on the move with support for message extensions as declarative agents in Copilot on iOS and Android. These extensions simplify workflows like inserting quick snippets, accessing integrated apps, or triggering processes directly from your mobile interface. 
 
-  **Details:** 
+  ****Details:**** 
 
   **What changed:** 
   
   Message extensions based Declarative agents" instead of "Message extensions as declarative agents. 
 
-  **Why:** 
+  ****Why:**** 
   
   Workers increasingly use mobile as their primary device for timely communication and task management. Extending message-based workflows to mobile keeps teams efficient and responsive. 
 
-  **Try This:** 
-  
-    -  In a Teams chat on your mobile app, use Copilot to insert a dynamic update from a connected app with a message extension. 
+  **Try this:**
 
-    -  Ask Copilot: *"Insert the latest sales figures into this conversation using our message extension agent."* 
+
+  -  In a Teams chat on your mobile app, use Copilot to insert a dynamic update from a connected app with a message extension.
+
+    
+  -  **Ask Copilot:***"Insert the latest sales figures into this conversation using our message extension agent."* 
 
   **Why this matters:** 
 
-  **Business Impact:** 
-  Maintain seamless workflows across devices, ensuring real-time communication and agility for distributed teams. 
+  **Business Impact:** Maintain seamless workflows across devices, ensuring real-time communication and agility for distributed teams. 
 
-  **Personal Impact:** 
-  Eliminate the frustration of being restricted to desktop for advanced actions—get the information and tools you need on the go. 
+  **Personal Impact:** Eliminate the frustration of being restricted to desktop for advanced actions—get the information and tools you need on the go. 
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:** 
   
-  [Extend bot-based message extension as agent for Microsoft 365 Copilot](/microsoftteams/platform/messaging-extensions/build-bot-based-agent?tabs=visual-studio-code)
+    [Extend bot-based message extension as agent for Microsoft 365 Copilot](/microsoftteams/platform/messaging-extensions/build-bot-based-agent?tabs=visual-studio-code)
 
 <!-- 100829 -->
-## November 12, 2025 — Highlights 
+## November 12, 2025
 
 Updates released between October 28, 2025, and November 12, 2025.
 
 ### Microsoft 365 Copilot Chat
 
-**RSVP status-based meeting search in Copilot Chat** [Android, Windows, Web]                          
+**RSVP status-based meeting search in Copilot Chat** [Android, Windows, Web]  
+
 
 **Roadmap:** [499429](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=499429)
   
   Quickly find meetings based on RSVP status—either your own or others'. This feature helps you stay organized by surfacing RSVP details for upcoming events, so you can track commitments and follow up with attendees.
 
-  **Try This:** Open Microsoft 365 Chat. 
+  **Try this:** 
   
-  Enter queries like:
+  
+  Open Microsoft 365 Chat. Enter queries like:
 
   -  "Meetings I accepted this week"                                                                        
   -  "Meetings I have not RSVPed this week"                                                                       
@@ -9024,7 +12842,7 @@ Updates released between October 28, 2025, and November 12, 2025.
   **Personal:** Helps you stay on top of your schedule and commitments without manually checking each calendar invite.
 
 <!-- 100746 -->
-## October 28, 2025 updates
+## October 28, 2025
 Updates released between October 15, 2025, and October 28, 2025.
 ### Copilot extensibility
 - **@mention capability for mainline Copilot Chat** [Android, iOS]
@@ -9032,7 +12850,7 @@ Updates released between October 15, 2025, and October 28, 2025.
   Use @mention in Copilot Chat to direct interactions to specific agents, ensuring focused and relevant responses from Copilot.
 
 <!-- 100748,100986,100267,100886 -->
-## September 16 and September 30, 2025
+## September 30, 2025
 Updates released between September 16, 2025, and September 30, 2025.
 ### Copilot extensibility
 - **Agents support for Copilot Chat and pay-as-you-go on Microsoft 365 Copilot Mobile** [Android, iOS]
@@ -9052,7 +12870,7 @@ Updates released between September 16, 2025, and September 30, 2025.
   Now upload multiple images into Copilot Chat prompts at once to enhance creative reasoning and generate new content with varied inspiration.
 
 <!-- 100803,100741,100728,97770,96630 -->
-## Updates between September 3 and September 16, 2025
+## September 16, 2025
 Updates released between September 3, 2025, and September 16, 2025.
 ### Copilot extensibility
 - **Mobile support for Analyst agent on Android and iOS** [iOS, Android]
@@ -9064,7 +12882,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 ### Microsoft 365 Copilot app
 - **Copilot Search for Premium SKU commercial users** [Android]
 
-  Copilot Search allows you to search across files, people, 1P and 3P content (e.g. Figma, ServiceNow tickets). You get Copilot answers for Natural Language Search queries.
+  Copilot Search allows you to search across files, people, 1P and 3P content (for example, Figma, ServiceNow tickets). You get Copilot answers for Natural Language Search queries.
 - **Direct access to Copilot Chat in Microsoft 365 app** [Android, iOS]
 
   Microsoft 365 Copilot mobile app is removing bottom tabs and will open directly on Chat for eligible users, making it simpler and easier to chat with Copilot.
@@ -9074,7 +12892,7 @@ Updates released between September 3, 2025, and September 16, 2025.
  [Learn more](/copilot/microsoft-365/microsoft-365-copilot-search).
 
 <!-- 98075,97530,100740 -->
-## August 19 and September 3, 2025
+## September 3, 2025
 
 Updates released between August 19, 2025, and September 3, 2025.
 ### Microsoft 365 Copilot app
@@ -9092,7 +12910,7 @@ Updates released between August 19, 2025, and September 3, 2025.
  [Learn more](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-copilot-memory-a-more-productive-and-personalized-ai-for-the-way-you/4432059).
 
 <!-- 95488,97897,99129 -->
-## August 5 to 19, 2025 updates
+## August 19, 2025
 Updates released between August 5, 2025, and August 19, 2025.
 ### Microsoft 365 Copilot app
 - **Expanded language options with Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
@@ -9110,7 +12928,7 @@ Updates released between August 5, 2025, and August 19, 2025.
  [Learn more](https://support.microsoft.com/office/summarize-an-email-thread-with-copilot-in-outlook-a79873f2-396b-46dc-b852-7fe5947ab640#id0ebbj=new_outlook).
 
 <!-- 94703 -->
-## July 8, 2025 - Documentation Updates
+## July 8, 2025
 Updates released between June 24, 2025, and July 8, 2025.
 ### Viva Connections
 - **New News feature in Microsoft Teams** [Android, Windows, iOS, Web]
@@ -9119,7 +12937,7 @@ Updates released between June 24, 2025, and July 8, 2025.
  [Learn more](https://techcommunity.microsoft.com/blog/viva_connections_blog/introducing-enterprise-news-reader-in-viva-connections/4383832).
 
 <!-- 95597,94574 -->
-## June 10 - 24, 2025
+## June 24, 2025
 Updates released between June 10, 2025, and June 24, 2025.
 ### Teams
 - **Copilot generated summaries for call transfers on Teams phone devices** [Android]
@@ -9148,7 +12966,7 @@ Updates released between May 29, 2025, and June 10, 2025.
   Intelligent meeting recap is now available in GCC High for impromptu calls and meetings, like those started from 'Meet now' and calls started from chat. You can easily browse the recording by speakers and topics, as well as access AI-generated notes, AI-generated tasks, and name mentions after the ad-hoc meeting ends. This capability is available for users with a Teams Premium or M365 Copilot license.
 
 <!-- 98521 -->
-## Updates between April 29 and May 13, 2025
+## Updates between May 13, 2025
 Updates released between April 29, 2025, and May 13, 2025.
 ### Microsoft 365 Copilot Chat
 - **Image generation in mobile Copilot chat** [Android, iOS]
@@ -9162,7 +12980,7 @@ Updates released between March 20, 2025, and April 2, 2025.
 
   Easily gain insights from images by asking natural language questions. Upload images for quick analysis using advanced vision models—helping you make sense of visual data across your apps.
 
-## March 19, 2025 - Monthly Updates
+## March 19, 2025
 Updates released between March 5, 2025, and March 19, 2025.
 ### Microsoft 365 Copilot app
 
@@ -9170,7 +12988,7 @@ Updates released between March 5, 2025, and March 19, 2025.
 
   Stay productive while on the go—use the Microsoft 365 mobile app to view, edit, or share Copilot-generated pages instantly. Collaborate with colleagues in real time, whether you're commuting or between meetings. [Learn more](https://support.microsoft.com/topic/introducing-microsoft-365-copilot-pages-6674bd51-9ff5-42c4-9256-44d9428a726f).
 
-## March 4, 2025 - Documentation Updates
+## March 4, 2025
 
 Updates released between February 20, 2025, and March 4, 2025. 
 
@@ -9180,7 +12998,7 @@ Updates released between February 20, 2025, and March 4, 2025.
 
   Leverage Copilot to search emails across both primary and archived mailboxes by appending 'from my archives' or 'also look for emails in my archives' in your prompts to quickly locate key messages.
 
-## February 19, 2025 - Release Summary
+## February 19, 2025
 
 Updates released between February 5, 2025, and February 19, 2025. 
 
@@ -9197,7 +13015,7 @@ Updates released between February 5, 2025, and February 19, 2025.
   Dive into usage frequency, compare top user groups, and track retention metrics—all in a single, comprehensive dashboard for actionable insights. [Learn more](/viva/insights/org-team-insights/copilot-dashboard#interpreting-the-data).
 
 
-## February 4, 2025 - Monthly Updates
+## February 4, 2025
 
 Updates released between January 24, 2025, and February 4, 2025.
 ### Microsoft 365 Copilot app
@@ -9217,9 +13035,9 @@ Updates released between January 24, 2025, and February 4, 2025.
   Copilot now references your local time zone when responding helping to avoid confusion and scheduling errors.
 
 
-<!--- All features that have 'Android' tag  -->
+<!-- All features that have 'Android' tag  -->
 
-## January 23, 2025 — Monthly Updates
+## January 23, 2025
 
 Updates released between January 8, 2025, and January 23, 2025.
 
@@ -9233,7 +13051,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
   Admins gain control to turn off file uploads for Copilot Chat, helping maintain compliance when sharing sensitive content. 
 
-## January 7, 2025 — Documentation Updates
+## January 7, 2025
 
 Updates released between December 18, 2024, and January 7, 2025.
 ### Microsoft 365 Copilot
@@ -9274,7 +13092,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Disable Copilot in meetings** [Windows, Android, iOS, Mac]  
 
-  You can now turn Copilot off in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
+  You can now turn off Copilot in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
 
 ## October, 2024 — Feature Additions
 
@@ -9418,7 +13236,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 
 
-## November, 2023 — Release Overview
+## November, 2023
 
 ### Microsoft Teams
 
@@ -9464,155 +13282,285 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [iOS](#tab/appleios)
 
+
+## January 27, 2026
+Updates released between January 13, 2025, and January 27, 2026.
+### Microsoft 365 Copilot Chat
+- **Copilot Chat model selector now offers GPT-5.2** [Android, Windows, iOS, Mac, Web]
+
+  Choose GPT-5.2 in Copilot Chat for faster responses or deeper reasoning, improving accuracy and clarity.
+
+    **Details:**
+
+    **What changed:** The model selector in Copilot Chat now includes GPT-5.2. Users can pick Quick Response for immediate answers or Think Deeper for more thorough reasoning. GPT-5.2 delivers better instruction following, improved math and coding performance, and clearer explanations compared to previous models.
+
+    **Why:** This update provides more flexibility and precision, helping users handle both simple and complex tasks with adaptive reasoning.
+
+    **Try this:**
+
+    - Select More in the model selector and choose Quick Response for quick answers.
+    - Choose Think Deeper when you need detailed reasoning for complex queries.
+
+    **Why this matters:**
+
+    **Business impact:** Enhances productivity by offering tailored response modes for different workflows.
+
+    **Personal impact:** Gives individuals control over response depth, improving efficiency and clarity.
+
+    **Additional resources:**
+
+    **Blogs:**
+    [Available today: GPT-5.2 in Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6)
+
+<!-- 102626,101108 -->
+
+## January 13, 2026
+Updates released between December 23, 2025, and January 13, 2026.
+
+### Microsoft 365 Copilot app
+- **Access all your Copilot-generated content in one library** [Android, Windows, iOS, Mac, Web]
+
+  Use the new Library in the Microsoft 365 Copilot app to easily find and manage your Copilot-created images and pages.
+
+  **Roadmap ID:** [501783](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=501783)
+
+  **What changed:** A new centralized Library view in Copilot lets users access all their AI-generated assets in one place.
+
+  **Why:** Improves organization and removes friction in retrieving past Copilot content.
+
+  **Try this:**
+
+  - Open Copilot app → go to Library
+  - Filter by images or summaries
+  - Share content in Teams or email
+
+  **Business impact:** Boosts collaboration by making assets reusable and sharable.
+
+  **Personal impact:** Saves time by avoiding re-creating previous work.
+
+  **Additional resources:**
+
+  **Learn:**  
+  [Microsoft 365 Copilot Library](/copilot/microsoft-365/copilot-library)
+
+### Microsoft 365 Copilot extensibility
+- **Build smarter agents with GPT-5 in Agent Builder** [Android, Windows, iOS, Mac, Web]
+
+  Create more capable and context-aware Copilot agents powered by GPT-5, delivering richer responses and streamlined experiences for your users. 
+
+  **Roadmap ID:** [502552](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502552)
+
+  **Details:** 
+
+  **What changed:** 
+Declarative agents built in Microsoft 365 Copilot now use GPT-5 as the underlying chat model, enabling advanced reasoning, more natural language understanding, and improved multi-step processing. 
+
+  **Why:** 
+Organizations need AI-powered solutions that not only respond accurately but anticipate user needs. GPT-5 delivers higher precision and better handling of complex queries, resulting in agents that feel more responsive and intelligent, reducing repetitive follow-ups. 
+
+  **Try This:** 
+  - Open Agent Builder in Microsoft 365 Copilot to create a new declarative agent that runs on GPT‑5 as the foundation.
+  - Configure your agent with domain-specific knowledge and test its ability to handle scenario-based queries. 
+  - Ask your new agent: *“Help me draft a Q4 performance summary with recommendations based on last quarter’s sales trends.”* 
+
+  **Why this matters:** 
+
+  **Business Impact:** Smarter agents mean streamlined workflows and faster completion of complex business processes, reducing time-to-value and improving ROI on AI initiatives. 
+
+  **Personal Impact:** Users experience fewer frustrations when interacting with Copilot, getting precise answers and recommendations that fit their context—saving time and effort.
+
+## December 23, 2025
+Updates released between December 10, 2025, and December 23, 2025.
+### Microsoft 365 Copilot app
+- **GPT-5 powers Copilot Chat by default** [Android, Windows, iOS, Mac, Web]
+
+  Copilot Chat delivers faster, smarter results using GPT-5 as the default model.
+
+  **Details:**
+
+  **What Changed:** All Copilot Chat experiences run on GPT-5 by default. Copilot automatically routes prompts to the best-performing models for each task, using fast models for basic tasks and specialized reasoning models for multi-step requests.
+
+  **Why:** Users want speed, accuracy, and minimal friction. This update helps to ensure consistent, high-quality AI interactions in Copilot Chat.
+
+  **Try This:**
+
+  - “Get me up to speed on the latest plans related to [project/initiative]. Help me think through what to do next.”
+  - “Use the attached spreadsheet with customer feedback to create a polished executive report that helps upper management decide where to prioritize resources in our next cycle.”
+
+  **Why this matters:**
+
+  **Business Impact:** Increases accuracy and productivity, helping teams make strong decisions and complete complex work faster.
+
+  **Personal Impact:** Removes friction by letting Copilot choose the best model--fast or reasoning--for the prompt.
+
+  **Additional resources:**
+
+  **Blogs:** 
+
+  <a href="https://www.microsoft.com/microsoft-365/blog/2025/08/07/available-today-gpt-5-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6" target="_blank">Available today: GPT-5 in Microsoft 365 Copilot</a>
+### Microsoft 365 Copilot extensibility
+- **Upload Larger Files in Copilot Studio Agent Builder** [Android, Windows, iOS, Web]
+
+  Agent Builder now supports file uploads up to 512 MB when creating agents, ideal for larger files.
+
+  **Roadmap ID:**  <a href="https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500375" target="_blank">500375</a>
+
+  **Details:**
+
+  **What Changed:**
+  This increases the upload size limit in Agent Builder to 512 MB, enabling use of larger files as grounding data.
+
+  **Why:**
+  Users requested more flexibility for grounding agents. Larger files improve reduce the need to split or compress documents.
+
+  **Try This:**
+  - Drag and drop large documents such as training manuals into your agent project.
+  - Create the agent and ask it to summarize information from uploaded files.
+
+  **Why this matters:**
+
+  **Business Impact:** Allows enterprises to build agents with richer, domain-specific knowledge.
+
+  **Personal Impact:** Complete your work without the need to split files or compress data.
+
+  **Additional resources:**
+ 
+  **Learn:**
+ 
+  <a href="/microsoft-365-copilot/extensibility/agent-builder-add-knowledge#embedded-file-content" target="_blank">Embedded file content</a>
+
 <!-- 96890,98572,100743,100742 -->
-## Updates for November 24, 2025
-Updates released between November 12, 2025, and November 24, 2025.
+## November 25, 2025
+Updates released between November 12, 2025, and November 25, 2025.
 ### Microsoft 365 Copilot Chat
 - **Access shared mailboxes in Copilot Chat** [Android, Windows, iOS, Mac, Web]
 
   Copilot Chat now connects to shared mailboxes, so team-based conversations are more informed and collaborative.  
 
-  **Roadmap ID:** [488797](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
+  ****Roadmap ID:**** [488797](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
 
-  **Details:**  
+  ****Details:****  
 
   **What changed:** Users with shared mailbox permissions can ground Copilot responses in shared mail content, just like their own emails.  
 
-  **Why:** Eliminates context gaps in team workflows and improves shared visibility on projects.  
+  ****Why:**** Eliminates context gaps in team workflows and improves shared visibility on projects.  
 
-  **Try This:**  
- 
+  **Try this:**
+
+
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
- 
-  - Tell Copilot: *"List all the emails around  `topic` from < mailbox@domain.com > mailbox ."*
+  - Tell Copilot: *"List all the emails around  `topic` from < mailbox@domain.com > mailbox."*
 
   **Why this matters:**  
 
-  **Business Impact:** 
-  
-  Ensures customer responses or project updates aren't missed when responsibility spans multiple team members.  
+  **Business Impact:** Ensures customer responses or project updates aren't missed when responsibility spans multiple team members.  
 
-  **Personal Impact:** 
-  
-  Reduces copying and manual email checks across shared accounts—Copilot does it for you.
+  **Personal Impact:** Reduces copying and manual email checks across shared accounts—Copilot does it for you.
  
-  **Additional Resources:**
+  **Additional resources:**
 
   [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
 
----
 
 - **Talk to Copilot with voice for faster hands-free work** [Android, Windows, iOS, Mac, Web]
 
-  Speak to Copilot naturally on mobile or desktop to prepare for meetings,brainstorm ideas, or catch up on work—hands-free and grounded in work data.
+  Speak to Copilot naturally on mobile or desktop to prepare for meetings, brainstorm ideas, or catch up on work—hands-free and grounded in work data.
 
-  Roadmap ID: [481138](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
+  **Roadmap ID:** [481138](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
 
-  **Details:**
+  ****Details:****
 
   **What changed:**
   
-  Copilot now supports voice input, enabling natural, conversational interactions in the Microsoft 365 Copilot app on mobile, desktop and the web and in the  across Microsoft 365 apps, starting with Outlook, Word and PowerPoint.
+  Copilot now supports voice input, enabling natural, conversational interactions in the Microsoft 365 Copilot app on mobile, desktop and the web and across Microsoft 365 apps, starting with Outlook, Word and PowerPoint.
 
-  **Why:**
+  ****Why:****
 
   Professionals need faster, more intuitive ways to engage with AI during their flow of work, especially when multitasking or on the move.
 Voice   removes friction, letting you work where typing isn't practical.
 
-  **Try This:**
+  **Try this:**
+
 
   -  Say: *"Confirm the agenda and attendee list for my next meeting"*.
-
   -  Try:  *"Create a quick list of next steps from my recent meeting notes."*
-
   -  Ask: *"Summarize this document in five key points."*
 
   **Why this Matters:**
 
-  **Business Impact:** 
-  
-  Voice drives productivity and inclusivity through natural interactions that increase engagement, accelerate task completion and reduce downtime.
+  **Business Impact:** Voice drives productivity and inclusivity through natural interactions that increase engagement, accelerate task completion and reduce downtime.
 
-  **Personal Impact:** 
-  
-  Work more comfortably and naturally while saving time, gaining efficiency and giving you the flexibility to use Copilot on the go or at your desk.
+  **Personal Impact:** Work more comfortably and naturally while saving time, gaining efficiency and giving you the flexibility to use Copilot on the go or at your desk.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea)
-  
-  ---
+
 
 ### Microsoft 365 Copilot extensibility
 - **Access Custom engine Agents on Microsoft 365 Copilot chat on mobile** [Android, iOS]
 
   You can now interact with your organization's custom engine agents directly from your mobile device (iOS and Android), making Copilot even more adaptable to your workflows on the go. Whether you're away from your desk or managing tasks during a commute, your tailored business logic and automations are always at your fingertips. 
 
-  **Details:** 
+  ****Details:**** 
   
-  **What changed:** 
+  **What changed:** Support for custom engine agents is now available on the Microsoft 365 mobile experience (iOS and Android). You can access the same business-specific workflows and logic you have on desktop, ensuring uninterrupted productivity. 
   
-  Support for custom engine agents is now available on the Microsoft 365 mobile experience (iOS and Android). You can access the same business-specific workflows and logic you have on desktop, ensuring uninterrupted productivity. 
+  ****Why:**** Teams needs consistent, personalized Copilot functionality no matter where they work. Bringing extensibility to mobile ensures employees stay productive and connected—even when away from their primary workstation. 
   
-  **Why:** 
-  
-  Teams need consistent, personalized Copilot functionality no matter where they work. Bringing extensibility to mobile ensures employees stay productive and connected—even when away from their primary workstation. 
-  
-  **Try This:** 
- 
-  -  Open the Microsoft 365 mobile app, launch Copilot, and activate one of your custom engine agents. - Ask Copilot: *"Run our expense approval workflow and update me on pending approvals."* 
+  **Try this:**
+
+
+  -  Open the Microsoft 365 mobile app, launch Copilot, and activate one of your custom engine agents. 
+  - **Ask Copilot:** *"Run our expense approval workflow and update me on pending approvals."* 
   
   **Why this matters:** 
   
-  **Business Impact:** 
+  **Business Impact:** Keep critical business processes running smoothly even when employees are mobile, reducing delays in approvals and operations. 
   
-  Keep critical business processes running smoothly even when employees are mobile, reducing delays in approvals and operations. 
+  **Personal Impact:** Enjoy the same customized Copilot experience wherever you work, saving time and reducing context-switching throughout your day. 
   
-  **Personal Impact:** 
+  **Additional resources:**
   
-  Enjoy the same customized Copilot experience wherever you work, saving time and reducing context-switching throughout your day. 
-  
-  **Additional Resources:**
+  **Learn:**
 
-  [Custom engine agents for Microsoft 365 overview](/microsoft-365-copilot/extensibility/overview-custom-engine-agent)
+    [Custom engine agents for Microsoft 365 overview](/microsoft-365-copilot/extensibility/overview-custom-engine-agent)
 
 - **Support Message Extensions as Declarative Agents on Mobile** [Android, iOS]
 
   Stay productive on the move with support for message extensions as declarative agents in Copilot on iOS and Android. These extensions simplify workflows like inserting quick snippets, accessing integrated apps, or triggering processes directly from your mobile interface. 
 
-  **Details:** 
+  ****Details:**** 
 
   **What changed:** 
   
   Message extensions based Declarative agents" instead of "Message extensions as declarative agents. 
 
-  **Why:** 
+  ****Why:**** 
   
   Workers increasingly use mobile as their primary device for timely communication and task management. Extending message-based workflows to mobile keeps teams efficient and responsive. 
 
-  **Try This:** 
-  
-    -  In a Teams chat on your mobile app, use Copilot to insert a dynamic update from a connected app with a message extension. 
+  **Try this:**
 
-    -  Ask Copilot: *"Insert the latest sales figures into this conversation using our message extension agent."* 
+
+  -  In a Teams chat on your mobile app, use Copilot to insert a dynamic update from a connected app with a message extension.
+  -  **Ask Copilot:** *"Insert the latest sales figures into this conversation using our message extension agent."* 
 
   **Why this matters:** 
 
-  **Business Impact:** 
-  Maintain seamless workflows across devices, ensuring real-time communication and agility for distributed teams. 
+  **Business Impact:** Maintain seamless workflows across devices, ensuring real-time communication and agility for distributed teams. 
 
-  **Personal Impact:** 
-  Eliminate the frustration of being restricted to desktop for advanced actions—get the information and tools you need on the go. 
+  **Personal Impact:** Eliminate the frustration of being restricted to desktop for advanced actions—get the information and tools you need on the go. 
 
-  **Additional Resources:**
+  **Additional resources:**
 
   **Learn:** 
   
-  [Extend bot-based message extension as agent for Microsoft 365 Copilot](/microsoftteams/platform/messaging-extensions/build-bot-based-agent?tabs=visual-studio-code)
+    [Extend bot-based message extension as agent for Microsoft 365 Copilot](/microsoftteams/platform/messaging-extensions/build-bot-based-agent?tabs=visual-studio-code)
 
 <!-- 100746,97654,103495 -->
 
-## Updates of October 28, 2025
+## October 28, 2025
 
 Updates released between October 15, 2025, and October 28, 2025.
 
@@ -9630,10 +13578,10 @@ Updates released between October 15, 2025, and October 28, 2025.
 
 - **PPT Copilot now offers an on-canvas experience for translating presentation** [Mac, Web, iOS]
 
-  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation. [Learn more](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.).
+  Now, when creating a presentation using Copilot from an existing presentation, it creates the new presentation in a new file without affecting the original presentation. [Learn more](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.).
 
 <!-- 100748,100986,100267,100886 -->
-## Updates of September 30, 2025
+## September 30, 2025
 
 Updates released between September 16, 2025, and September 30, 2025.
 
@@ -9659,7 +13607,7 @@ Updates released between September 16, 2025, and September 30, 2025.
   Now upload multiple images into Copilot Chat prompts at once to enhance creative reasoning and generate new content with varied inspiration.
 
 <!-- 100803,100741,100728,99818,97770 -->
-## September 3 to 16, 2025
+## September 16, 2025
 Updates released between September 3, 2025, and September 16, 2025.
 ### Copilot extensibility
 - **Mobile support for Analyst agent on Android and iOS** [iOS, Android]
@@ -9683,7 +13631,7 @@ Updates released between September 3, 2025, and September 16, 2025.
 
 <!-- 98075,97530,100740 -->
 
-## August 19 - September 3, 2025 — Release Overview
+## September 3, 2025
 
 Updates released between August 19, 2025, and September 3, 2025.
 
@@ -9701,7 +13649,7 @@ Updates released between August 19, 2025, and September 3, 2025.
   Copilot Memory leverages insights inferred from conversations between the user and Copilot, along with data from the Microsoft Graph and custom instructions to provide personalized help for tasks. Users have full control and can view, manage, disable or clear memory at any time. [Learn more](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-copilot-memory-a-more-productive-and-personalized-ai-for-the-way-you/4432059).
 
 <!-- 95488,97897,99129 -->
-## August 5 and August 19, 2025
+## August 19, 2025
 Updates released between August 5, 2025, and August 19, 2025.
 ### Microsoft 365 Copilot app
 - **Expanded language options with Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
@@ -9719,7 +13667,7 @@ Updates released between August 5, 2025, and August 19, 2025.
  [Learn more](https://support.microsoft.com/office/summarize-an-email-thread-with-copilot-in-outlook-a79873f2-396b-46dc-b852-7fe5947ab640#id0ebbj=new_outlook).
 
 <!-- 94703 -->
-## July 8, 2025 - Release Summary
+## July 8, 2025
 Updates released between June 24, 2025, and July 8, 2025.
 ### Viva Connections
 - **New News feature in Microsoft Teams** [Android, Windows, iOS, Web]
@@ -9728,7 +13676,7 @@ Updates released between June 24, 2025, and July 8, 2025.
  [Learn more](https://techcommunity.microsoft.com/blog/viva_connections_blog/introducing-enterprise-news-reader-in-viva-connections/4383832).
 
 <!-- 98006 -->
-## Updates between June 10 and June 24, 2025
+## June 24, 2025
 Updates released between June 10, 2025, and June 24, 2025.
 ### Excel
 - **Use Copilot with any table in the workbook, referring by natural language** [iOS, Web, Mac, Windows]
@@ -9737,7 +13685,7 @@ Updates released between June 10, 2025, and June 24, 2025.
  [Learn more](https://techcommunity.microsoft.com/blog/excelblog/smarter-context-awareness-for-copilot-in-excel/4424939).
 
 <!-- 97647,97288,96951,84642,72079 -->
-## Release summary of June 10, 2025
+## June 10, 2025
 Updates released between May 29, 2025, and June 10, 2025.
 ### Microsoft Loop
 - **Copilot Pages module on Microsoft 365 Copilot mobile app** [iOS]
@@ -9747,7 +13695,7 @@ Updates released between May 29, 2025, and June 10, 2025.
 - **Create Copilot Pages from Copilot Chat on your mobile phone** [iOS]
 
   Create Copilot Pages on your mobile phone to continue working on the go. Pages shared in Microsoft 365 are interactive and automatically synchronized for seamless collaboration.
- [Learn more](https://support.microsoft.com/en-us/topic/create-edit-and-share-microsoft-365-copilot-pages-from-your-phone-6426dfd5-081c-4a9f-b35e-830685deeda7).
+ [Learn more](https://support.microsoft.com/topic/create-edit-and-share-microsoft-365-copilot-pages-from-your-phone-6426dfd5-081c-4a9f-b35e-830685deeda7).
 ### Outlook
 - **Custom Instructions for draft with Copilot** [Android, Windows, iOS, Mac, Web]
 
@@ -9762,18 +13710,18 @@ Updates released between May 29, 2025, and June 10, 2025.
   Intelligent meeting recap is now available in GCC High for impromptu calls and meetings, like those started from 'Meet now' and calls started from chat. You can easily browse the recording by speakers and topics, as well as access AI-generated notes, AI-generated tasks, and name mentions after the ad-hoc meeting ends. This capability is available for users with a Teams Premium or M365 Copilot license.
 
 <!-- 98521,97225 -->
-## April 29 to May 13, 2025
+## May 13, 2025
 Updates released between April 29, 2025, and May 13, 2025.
 ### Excel
 - **Ask Copilot about any part of your sheet** [Web, Mac, Windows, iOS]
 
-  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This will include understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
+  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This includes understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
 ### Microsoft 365 Copilot Chat
 - **Image generation in mobile Copilot chat** [Android, iOS]
 
   Create images using natural language to visualize concepts and ideas within the flow of work, directly in Copilot on Microsoft 365, Teams, and Outlook mobile apps.
 
-## March 20 - April 2, 2025 updates
+## April 2, 2025 updates
 
 Updates released between March 20, 2025, and April 2, 2025.
 ### Microsoft 365 Copilot Chat
@@ -9791,7 +13739,7 @@ Updates released between March 20, 2025, and April 2, 2025.
 
   Easily convert plain text into structured tables, helping you organize and present data more effectively in your daily work.
 
-## March 19, 2025 - Introduced in this update
+## March 19, 2025
 
 Updates released between March 5, 2025, and March 19, 2025.
 ### Microsoft 365 Copilot app
@@ -9800,7 +13748,7 @@ Updates released between March 5, 2025, and March 19, 2025.
 
   Stay productive while on the go—use the Microsoft 365 mobile app to view, edit, or share Copilot-generated pages instantly. Collaborate with colleagues in real time, whether you're commuting or between meetings. [Learn more](https://support.microsoft.com/topic/introducing-microsoft-365-copilot-pages-6674bd51-9ff5-42c4-9256-44d9428a726f).
 
-## March 4, 2025 - Release Summary
+## March 4, 2025
 
 Updates released between February 20, 2025, and March 4, 2025. 
 
@@ -9816,11 +13764,11 @@ Updates released between February 20, 2025, and March 4, 2025.
 
   Stay productive no matter where you are. With mobile access to Copilot Pages, you can view, edit, and share content on the go, ensuring seamless collaboration with colleagues. [Learn more](https://support.microsoft.com/topic/introducing-microsoft-365-copilot-pages-6674bd51-9ff5-42c4-9256-44d9428a726f).
 
-## February 19, 2025 - Documentation updates
+## February 19, 2025
 
 Updates released between February 5, 2025, and February 19, 2025. 
 
-<!--- All features that have 'iOS' tag  -->
+<!-- All features that have 'iOS' tag  -->
 
 
 ### Microsoft Teams
@@ -9835,9 +13783,9 @@ Updates released between February 5, 2025, and February 19, 2025.
 
   Dive into usage frequency, compare top user groups, and track retention metrics—all in a single, comprehensive dashboard for actionable insights. [Learn more](/viva/insights/org-team-insights/copilot-dashboard#interpreting-the-data).
 
-<!--- All features that have 'iOS' tag  -->
+<!-- All features that have 'iOS' tag  -->
 
-## February 4, 2025 - Introduced in this update
+## February 4, 2025
 
 Updates released between January 24, 2025, and February 4, 2025. 
 
@@ -9868,7 +13816,7 @@ Updates released between January 24, 2025, and February 4, 2025.
   Quickly produce paragraphs or entire sections for your documents, whether you're creating a brand-new file or adding to existing text. [Learn more](https://support.microsoft.com/office/draft-and-add-content-with-copilot-in-word-069c91f0-9e42-4c9a-bbce-fddf5d581541).
 
 
-## January 23, 2025 — Feature Additions
+## January 23, 2025
 
 Updates released between January 8, 2025, and January 23, 2025.
 
@@ -9888,7 +13836,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
   This adds seven new Copilot adoption metrics to the Copilot dashboard and Viva Insights Advanced insights. It also updates the "total actions taken" metric in the Copilot dashboard to include these new Copilot adoption metrics. [Learn more](https://techcommunity.microsoft.com/blog/viva_insights_blog/new-microsoft-copilot-analytics-features-now-available-%E2%80%93-novemberdecember-2024/4356206).
 
-## January 7, 2025 — Release Summary
+## January 7, 2025
 
 Updates released between December 18, 2024, and January 7, 2025.
 
@@ -9940,7 +13888,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Disable Copilot in meetings** [Windows, Android, iOS, Mac]  
 
-  You can now turn Copilot off in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
+  You can now turn off Copilot in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
 
 ## October, 2024 — Documentation Updates
 
@@ -10295,7 +14243,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Create a presentation from a simple prompt** [Windows, Web, iOS, Mac]  
 
-  Provide a prompt and Copilot will help you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
+  Provide a prompt and Copilot helps you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
 
 - **Create presentations using your organization's templates** [Windows, Web, iOS, Mac]  
 
@@ -10347,160 +14295,356 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 ## [Mac](#tab/mac)
 
+### PowerPoint
+- **Steer presentation length, tone, style, and images with Copilot** [Web, Windows, Mac]
+
+  Users can adjust presentation length, narrative tone, slide style, and AI‑generated images when creating presentations with Copilot.
+
+  **Roadmap ID:** [513422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513422)
+
+  **Details:** 
+
+  **What changed:** Copilot now supports more granular controls for customization. Users can specify slide count, tone of messaging, stylistic preferences, and visual elements to better tailor their presentations. 
+
+  **Why:** This gives users more creative control and ensures presentations match the intended audience and purpose. 
+
+  **Try this:** 
+
+  - Ask Copilot to shorten your presentation to five slides. 
+  - Set the tone to “professional” or “informal” as needed. 
+  - Request new AI‑generated images that match your theme. 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams build polished presentations more efficiently.
+
+  **Personal impact:** Gives individuals more flexibility and creative options.
+  
+
+- **Use Copilot to get a detailed and contextual explanation** [Web, Windows, Mac]
+
+  Users can select the "explain" option from the contextual menu that appears by right clicking on objects or content in PowerPoint to receive a detailed and contextual explanation.
+
+  **Roadmap ID:** [516565](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=516565)
+
+  **Details:** 
+
+  **What changed:** Copilot can now provide an explanation of any selected object in a presentation. This includes acronyms, individual text boxes, tables images, & entire slide. Previously, users needed to rely on external references or manual research to understand unclear content.
+
+  **Why:** This feature helps users understand unfamiliar or complex information without leaving their presentation
+
+  **Try this:** 
+
+  - Select any text, table or slide, right click and choose “Explain". 
+  - Review the explanation without leaving PowerPoint 
+
+  **Why this matters:** 
+
+  **Business impact:** Helps teams quickly understand unfamiliar content, reducing time spent researching and improving clarity in presentations.
+
+  **Personal impact:** Makes it easier to grasp the meaning of slide objects without switching apps.
+  
+  **Additional resources:**
+
+  **Blogs:**
+
+  [Get clarity on complex presentations with Explainer in PowerPoint](https://techcommunity.microsoft.com/blog/Microsoft365InsiderBlog/get-clarity-on-complex-presentations-with-explainer-in-powerpoint/4479559)
+
+
+### Viva Insights
+- **Copilot Studio agent report enhancements** [Web, Windows, Mac]
+
+  The Copilot Studio agent report includes autonomous agents and provides insights on adoption, impact, time savings, and cost savings. 
+
+  **Roadmap ID:** [499422](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=499422)
+
+  **Detailes:** 
+
+  **What changed:** The agent report now includes autonomous agents with generative orchestration. It also offers new metrics related to adoption, time saved, and cost benefits. 
+
+  **Why:** These enhancements help organizations understand how Copilot Studio agents are used and the value they deliver. 
+
+  **Try this:** 
+
+  - Open the Copilot Studio agent report to review autonomous agent usage. 
+  - Compare generative and non‑generative agent activity. 
+  - Review time‑saving and cost‑saving insights. 
+
+  **Why this matters:** 
+
+  **Business impact:** Supports better decision‑making about automation and ROI. 
+
+  **Personal impact:** Helps creators understand how their agents are being used.
+
+## January 27, 2026
+Updates released between January 13, 2025, and January 27, 2026.
+### Microsoft 365 Copilot Chat
+- **Copilot Chat model selector now offers GPT-5.2** [Android, Windows, iOS, Mac, Web]
+
+  Choose GPT-5.2 in Copilot Chat for faster responses or deeper reasoning, improving accuracy and clarity.
+
+    **Details:**
+
+    **What changed:** The model selector in Copilot Chat now includes GPT-5.2. Users can pick Quick Response for immediate answers or Think Deeper for more thorough reasoning. GPT-5.2 delivers better instruction following, improved math and coding performance, and clearer explanations compared to previous models.
+
+    **Why:** This update provides more flexibility and precision, helping users handle both simple and complex tasks with adaptive reasoning.
+
+    **Try this:**
+
+    - Select More in the model selector and choose Quick Response for quick answers.
+    - Choose Think Deeper when you need detailed reasoning for complex queries.
+
+    **Why this matters:**
+
+    **Business impact:** Enhances productivity by offering tailored response modes for different workflows.
+
+    **Personal impact:** Gives individuals control over response depth, improving efficiency and clarity.
+
+    **Additional resources:**
+
+    **Blogs:**
+    [Available today: GPT-5.2 in Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/blog/2025/12/11/available-today-gpt-5-2-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6)
+
+<!-- 100312,102626 -->
+
+## January 13, 2026
+Updates released between December 23, 2025, and January 13, 2026.
+
+### Microsoft 365 Copilot app
+- **Access all your Copilot-generated content in one library** [Android, Windows, iOS, Mac, Web]
+
+  Use the new Library in the Microsoft 365 Copilot app to easily find and manage your Copilot-created images and pages.
+
+  **Roadmap ID:** [501783](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=501783)
+
+  **What changed:** A new centralized Library view in Copilot lets users access all their AI-generated assets in one place.
+
+  **Why:** Improves organization and removes friction in retrieving past Copilot content.
+
+  **Try this:**
+
+  - Open Copilot app → go to Library
+  - Filter by images or summaries
+  - Share content in Teams or email
+
+  **Business impact:** Boosts collaboration by making assets reusable and sharable.
+
+  **Personal impact:** Saves time by avoiding re-creating previous work.
+
+  **Additional resources:**
+
+  **Learn:**  
+  [Microsoft 365 Copilot Library](/copilot/microsoft-365/copilot-library)
+
+### Microsoft 365 Copilot extensibility
+- **Build smarter agents with GPT-5 in Agent Builder** [Android, Windows, iOS, Mac, Web]
+
+  Create more capable and context-aware Copilot agents powered by GPT-5, delivering richer responses and streamlined experiences for your users. 
+
+  **Roadmap ID:** [502552](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=502552)
+
+  **Details:** 
+
+  **What changed:** 
+Declarative agents built in Microsoft 365 Copilot now use GPT-5 as the underlying chat model, enabling advanced reasoning, more natural language understanding, and improved multi-step processing. 
+
+  **Why:** 
+Organizations need AI-powered solutions that not only respond accurately but anticipate user needs. GPT-5 delivers higher precision and better handling of complex queries, resulting in agents that feel more responsive and intelligent, reducing repetitive follow-ups. 
+
+  **Try This:** 
+  - Open Agent Builder in Microsoft 365 Copilot to create a new declarative agent that runs on GPT‑5 as the foundation.
+  - Configure your agent with domain-specific knowledge and test its ability to handle scenario-based queries. 
+  - Ask your new agent: *“Help me draft a Q4 performance summary with recommendations based on last quarter’s sales trends.”* 
+
+  **Why this matters:** 
+
+  **Business Impact:** Smarter agents mean streamlined workflows and faster completion of complex business processes, reducing time-to-value and improving ROI on AI initiatives. 
+
+  **Personal Impact:** Users experience fewer frustrations when interacting with Copilot, getting precise answers and recommendations that fit their context—saving time and effort.
+
+## December 23, 2025
+Updates released between December 10, 2025, and December 23, 2025.
+### Microsoft 365 Copilot app
+- **GPT-5 powers Copilot Chat by default** [Android, Windows, iOS, Mac, Web]
+
+  Copilot Chat delivers faster, smarter results using GPT-5 as the default model.
+
+  **Details:**
+
+  **What Changed:** All Copilot Chat experiences run on GPT-5 by default. Copilot automatically routes prompts to the best-performing models for each task, using fast models for basic tasks and specialized reasoning models for multi-step requests.
+
+  **Why:** Users want speed, accuracy, and minimal friction. This update helps to ensure consistent, high-quality AI interactions in Copilot Chat.
+
+  **Try This:**
+
+  - “Get me up to speed on the latest plans related to [project/initiative]. Help me think through what to do next.”
+  - “Use the attached spreadsheet with customer feedback to create a polished executive report that helps upper management decide where to prioritize resources in our next cycle.”
+
+  **Why this matters:**
+
+  **Business Impact:** Increases accuracy and productivity, helping teams make strong decisions and complete complex work faster.
+
+  **Personal Impact:** Removes friction by letting Copilot choose the best model--fast or reasoning--for the prompt.
+
+  **Additional resources:**
+
+  **Blogs:** 
+
+  <a href="https://www.microsoft.com/microsoft-365/blog/2025/08/07/available-today-gpt-5-in-microsoft-365-copilot/?msockid=281b58ceea286c6226164ec5eb056dd6" target="_blank">Available today: GPT-5 in Microsoft 365 Copilot</a>
+### PowerPoint
+- **Use your organization’s approved assets in Copilot presentations** [Mac, Windows, Web]
+
+  Create branded PowerPoint slides by pulling images and templates from your company’s SharePoint asset library or Templafy integration.
+
+**Roadmap:** 496366
+**What changed:** PowerPoint Copilot integrates with SharePoint Organization Asset Library and Templafy for approved, compliant visuals.
+**Why:** Ensures quality designs aligned with corporate branding guidelines.
+**Try This:** 
+- Configure SharePoint OAL or Templafy in Microsoft 365
+- Ask Copilot: “Create a marketing update deck using brand imagery.”
+**Why this matters:**
+**Business impact:**: Maintains brand identity across all content.
+**Personal Impact:** Saves design time by eliminating manual asset searching.
+**Additional resources:**
+ <a href="/sharepoint/organization-assets-library" target="_blank">Learn more.</a>
+
 <!-- 96890,101246,98572,101737 -->
-## November 12 and November 24, 2025
-Updates released between November 12, 2025, and November 24, 2025.
+## November 25, 2025
+Updates released between November 12, 2025, and November 25, 2025.
 ### Microsoft 365 admin center
 - **Monitor Copilot usage with Capacity Packs** [Mac]
 
   Prepay for Copilot message consumption with Capacity Packs and track usage easily—reducing unexpected billing surprises.  
 
-    Roadmap ID: [503145](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=503145)
+    **Roadmap ID:** [503145](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=503145)
 
-    **Details:**  
+    ****Details:****  
 
     **What changed:** 
 
     Introduced prepaid Capacity Packs (25,000 messages per month) that apply before pay-as-you-go billing kicks in, plus usage monitoring in PPAC.  
 
-    **Why:** 
+    ****Why:**** 
     
     Improves cost governance and simplifies budgeting for large-scale Copilot deployments.  
 
-  **Try This:**  
-
-  -  In Microsoft 365 Admin Center, purchase a Capacity Pack and monitor allocations in Power Platform Admin Center. 
+  **Try this:**
 
 
+  -  In Microsoft 365 admin center, purchase a Capacity Pack and monitor allocations in Power Platform admin center. 
 
 
     **Why this matters:**  
 
-    **Business Impact:** 
-    
-    Predicts and controls Copilot spend with flexible prepaid options.  
+    **Business Impact:** Predicts and controls Copilot spend with flexible prepaid options.  
 
-    **Personal Impact:** 
-    
-    Gives admins peace of mind with transparent, upfront budgeting.  
+    **Personal Impact:** Gives admins peace of mind with transparent, upfront budgeting.  
 
-    **Additional Resources:**
+    **Additional resources:**
   
-    **Learn:** 
-    [Learn more](/microsoftteams/copilot-teams-transcription)
+    **Learn:**
+  
+    [Manage Microsoft 365 Copilot in Teams meetings and events](/microsoftteams/copilot-teams-transcription)
 
     [Use Copilot Studio prepaid capacity packs for Microsoft 365 Copilot Chat and SharePoint agents](/copilot/microsoft-365/pay-as-you-go/copilot-capacity-packs)
 
----  
+
 ### Microsoft 365 Copilot Chat
 
 - **Access shared mailboxes in Copilot Chat** [Android, Windows, iOS, Mac, Web]
 
   Copilot Chat now connects to shared mailboxes, so team-based conversations are more informed and collaborative.  
 
-  **Roadmap ID:** [488797](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
+  ****Roadmap ID:**** [488797](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=488797)
   
-  **Details:**  
+  ****Details:****  
 
   **What changed:** Users with shared mailbox permissions can ground Copilot responses in shared mail content, just like their own emails.  
 
-  **Why:** Eliminates context gaps in team workflows and improves shared visibility on projects.  
+  ****Why:**** Eliminates context gaps in team workflows and improves shared visibility on projects.  
 
-  **Try This:**  
- 
+  **Try this:**
+
+
   -  Tell Copilot: *"Summarize recent emails in <mailbox@domain.com> mailbox."*
- 
-  - Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox ."*
+  -  Tell Copilot: *"List all the emails around `topic` from < mailbox@domain.com > mailbox."*
 
   **Why this matters:**  
 
-  **Business Impact:** 
-  
-  Ensures customer responses or project updates aren't missed when responsibility spans multiple team members.  
+  **Business Impact:** Ensures customer responses or project updates aren't missed when responsibility spans multiple team members.  
 
-  **Personal Impact:** 
-  
-  Reduces copying and manual email checks across shared accounts—Copilot does it for you.
+  **Personal Impact:** Reduces copying and manual email checks across shared accounts—Copilot does it for you.
  
-  **Additional Resources:**
+  **Additional resources:**
 
   [Use Copilot in shared mailboxes and delegate mailboxes](https://support.microsoft.com/topic/use-copilot-in-shared-mailboxes-and-delegate-mailboxes-3e7e5130-eabe-4c19-94ea-117b2a4c14d6)
 
----
+
 - **Talk to Copilot with voice for faster hands-free work** [Android, Windows, iOS, Mac, Web]
 
-  Speak to Copilot naturally on mobile or desktop to prepare for meetings,brainstorm ideas, or catch up on work—hands-free and grounded in work data.
+  Speak to Copilot naturally on mobile or desktop to prepare for meetings, brainstorm ideas, or catch up on work—hands-free and grounded in work data.
 
-  Roadmap ID: [481138](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
+  **Roadmap ID:** [481138](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=481138)
 
-  **Details:**
+  ****Details:****
 
   **What changed:**
   
-  Copilot now supports voice input, enabling natural, conversational interactions in the Microsoft 365 Copilot app on mobile, desktop and the web and in the  across Microsoft 365 apps, starting with Outlook, Word and PowerPoint.
+  Copilot now supports voice input, enabling natural, conversational interactions in the Microsoft 365 Copilot app on mobile, desktop and the web and across Microsoft 365 apps, starting with Outlook, Word and PowerPoint.
 
-  **Why:**
+  ****Why:****
 
   Professionals need faster, more intuitive ways to engage with AI during their flow of work, especially when multitasking or on the move.
 Voice   removes friction, letting you work where typing isn't practical.
 
-  **Try This:**
+  **Try this:**
+
 
   -  Say: *"Confirm the agenda and attendee list for my next meeting"*.
-
   -  Try:  *"Create a quick list of next steps from my recent meeting notes."*
-
   -  Ask: *"Summarize this document in five key points."*
 
   **Why this Matters:**
 
-  **Business Impact:** 
-  
-  Voice drives productivity and inclusivity through natural interactions that increase engagement, accelerate task completion and reduce downtime.
+  **Business Impact:** Voice drives productivity and inclusivity through natural interactions that increase engagement, accelerate task completion and reduce downtime.
 
-  **Personal Impact:** 
-  
-  Work more comfortably and naturally while saving time, gaining efficiency and giving you the flexibility to use Copilot on the go or at your desk.
+  **Personal Impact:** Work more comfortably and naturally while saving time, gaining efficiency and giving you the flexibility to use Copilot on the go or at your desk.
 
-  **Additional Resources:**
+  **Additional resources:**
 
   [Get started with voice features in Microsoft 365 Copilot](https://support.microsoft.com/topic/get-started-with-voice-features-in-microsoft-365-copilot-9262968d-565e-470c-a04b-991eb8e0d1ea)
   
-  ---
 
 ### Microsoft 365 PowerPoint
 - **Reference Loop or Page in presentations** [Mac, Windows, Web]
 
 When building a presentation with Copilot, you can now pull in content from Loop components or pages for fully integrated and up-to-date slides.  
 
-  **Roadmap ID:** [500864](https://www.microsoft.com/en-us/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500864)
+  ****Roadmap ID:**** [500864](https://www.microsoft.com/microsoft-365/roadmap?msockid=2484525e9a9b66d4330b47329bb667c9&filters=&searchterms=500864)
 
-  **Details:**  
+  ****Details:****  
 
   **What changed:** 
 
   Copilot for PowerPoint supports referencing Loop components and pages across PC, Mac, and web.  
 
-  **Why:** 
+  ****Why:**** 
 
   Ensures your presentations reflect the latest collaborative content without manual copy-paste.  
 
-  **Try This:**  
-
-  -  Ask Copilot: *"Create a status update deck using the project details from our Loop page."*  
+  **Try this:**  
+  
+  
+  -  **Ask Copilot:** *"Create a status update deck using the project details from our Loop page."*  
 
   **Why this matters:**  
 
-  **Business Impact:** 
+  **Business Impact:** Align updates across teams without tedious content migration.  
 
-  Align updates across teams without tedious content migration.  
-
-   **Personal Impact:** 
-
-  Save time by reusing the content you already co-created, in just one step.
+   **Personal Impact:** Save time by reusing the content you already co-created, in just one step.
 
 <!-- 103496,100875,100679 -->
-## November 12, 2025 — Release Summary
+## November 12, 2025
 Updates released between October 28, 2025, and November 12, 2025.
 ### Excel
 - **Build and analyze surveys with ease using Surveys Agent** [Windows, Mac, Web]
@@ -10518,7 +14662,7 @@ Updates released between October 28, 2025, and November 12, 2025.
  [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
 
 <!-- 79005,77679,97654,103495,100921 -->
-## October 15 and October 28, 2025 updates
+## October 28, 2025 
 Updates released between October 15, 2025, and October 28, 2025.
 ### PowerPoint
 - **Copilot now offers an on-canvas experience for generating speaker notes** [Mac, Web, iOS]
@@ -10527,7 +14671,7 @@ Updates released between October 15, 2025, and October 28, 2025.
  [Learn more](https://support.microsoft.com/topic/add-speaker-notes-to-your-presentations-using-copilot-7139266b-8a1d-4056-8e30-4edcc4d80873).
 - **PPT Copilot now offers an on-canvas experience for translating presentation** [Mac, Web, iOS]
 
-  Now, when creating a presentation using Copilot from an existing presentation, it will create the new presentation in a new file without affecting the original presentation
+  Now, when creating a presentation using Copilot from an existing presentation, it creates the new presentation in a new file without affecting the original presentation
  [Learn more](https://support.microsoft.com/topic/rewrite-text-with-copilot-in-powerpoint-d70b140b-bb3f-46b7-be64-ceec526a8dcd#:~:text=Select%20the%20textbox%20containing%20the%20text%20you%20want,for%20general%20improvements%20in%20grammar%2C%20spelling%2C%20and%20clarity.).
 ### Teams
 - **Use Copilot in a call without recording or transcribing** [Windows, Mac]
@@ -10545,7 +14689,7 @@ Updates released between October 15, 2025, and October 28, 2025.
   The Copilot icon in your document margin gives you a variety of actions you can take on your selected text. One click lets you rewrite, get writing suggestions, and more
 
 <!-- 100885,100884 -->
-## September 30 - October 15, 2025
+## October 15, 2025
 Updates released between September 30, 2025, and October 15, 2025.
 ### Microsoft 365 Copilot Chat
 - **Create new images using reference uploads** [Windows, Mac, Web]
@@ -10556,7 +14700,7 @@ Updates released between September 30, 2025, and October 15, 2025.
   Generate images in various aspect ratios to suit any need, from social media to presentations, with landscape, portrait, and square options in Copilot Chat.
 
 <!-- 97403/2/1,100986,100267 -->
-## September 16-30, 2025
+## September 30, 2025
 Updates released between September 16, 2025, and September 30, 2025.
 ### Microsoft 365 admin center
 - **Usage reports for Copilot search** [Android, Windows, iOS, Mac, Web]
@@ -10584,7 +14728,7 @@ Updates released between August 19, 2025, and September 3, 2025.
  [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
 
 <!-- 95488,97897 -->
-## Updates between August 5 and August 19, 2025
+## August 19, 2025
 Updates released between August 5, 2025, and August 19, 2025.
 ### Microsoft 365 Copilot app
 - **Expanded language options with Microsoft 365 Copilot** [Android, Windows, iOS, Mac, Web]
@@ -10601,9 +14745,9 @@ Updates released between August 5, 2025, and August 19, 2025.
 ## August 5, 2025
 Updates released between July 22, 2025, and August 5, 2025.
 ### Copilot extensibility
-- **Enhance Copilot Studio lite experience with full screen mode** [Windows, Mac, Web]
+- **Enhance agent builder with full screen mode** [Windows, Mac, Web]
 
-  Enjoy an improved Copilot Studio lite experience with a full-screen view that streamlines the process of creating and managing your agents.
+  Enjoy an improved agent builder experience with a full-screen view that streamlines the process of creating and managing your agents.
  [Learn more](/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
 ### PowerPoint
 - **Copilot uses enterprise assets hosted on SharePoint OAL when creating presentations now** [Mac, Windows, Web]
@@ -10630,7 +14774,7 @@ Updates released between July 22, 2025, and August 5, 2025.
  [Learn more](https://support.microsoft.com/topic/use-writing-suggestions-to-review-content-in-word-fa09c055-d623-4d20-954f-9b064a5a7c80).
 
 <!-- 98124,78170,100044,98515 -->
-## July 22, 2025 - Release Summary
+## July 22, 2025
 Updates released between July 8, 2025, and July 22, 2025.
 ### Microsoft 365 Copilot Chat
 - **Researcher available in GA** [Windows, Mac, Web]
@@ -10640,7 +14784,7 @@ Updates released between July 8, 2025, and July 22, 2025.
 ### PowerPoint
 - **Microsoft 365 Copilot generates the new presentation in a new file when starting from an existing presentation** [Mac, Windows]
 
-  Now, when creating a presentation using Microsoft 365 Copilot from an existing presentation using, it will create the new presentation in a new file without affecting the original presentation
+  Now, when creating a presentation using Microsoft 365 Copilot from an existing presentation using, it creates the new presentation in a new file without affecting the original presentation
  [Learn more](https://support.microsoft.com/office/create-a-new-presentation-with-copilot-in-powerpoint-3222ee03-f5a4-4d27-8642-9c387ab4854d).
 - **Reference multiple files in your presentation creation using Microsoft 365 Copilot** [Windows, Mac, Web]
 
@@ -10653,7 +14797,7 @@ Updates released between July 8, 2025, and July 22, 2025.
  [Learn more](https://www.microsoft.com/microsoft-365-life-hacks/everyday-ai/how-to-use-copilot-in-microsoft-word?msockid=2484525e9a9b66d4330b47329bb667c9).
 
 <!-- 77803,99334,79744,64005 -->
-## July 8, 2025 - Highlights
+## July 8, 2025
 Updates released between June 24, 2025, and July 8, 2025.
 ### Excel
 - **Copilot in Excel with Python | Reasoning Model Integration (Think Deeper)** [Mac, Windows, Web]
@@ -10663,7 +14807,7 @@ Updates released between June 24, 2025, and July 8, 2025.
 ### Teams
 - **Copilot in Meetings will suggest follow up questions to ask it** [Windows, Mac]
 
-  When Copilot in Teams Meetings responds to a prompt, it will also suggest follow up prompts to ask Copilot that builds on the prior response. These questions will generally be based on the response it gave prior, and could be related to honing in on a particular topic, asking for more details, or even reformatting the content into a table if appropriate.
+  When Copilot in Teams Meetings responds to a prompt, it will also suggest follow-up prompts to ask Copilot that builds on the prior response. These questions will generally be based on the response it gave prior, and could be related to honing in on a particular topic, asking for more details, or even reformatting the content into a table if appropriate.
  [Learn more](https://support.microsoft.com/office/use-copilot-in-microsoft-teams-meetings-0bf9dd3c-96f7-44e2-8bb8-790bedf066b1).
 ### Word
 - **Automatic summary of documents on file-open in Word** [Windows, Mac, Web]
@@ -10695,7 +14839,7 @@ Updates released between June 10, 2025, and June 24, 2025.
 ### Outlook
 - **Content language is the default summarize language** [Mac]
 
-  When summarizing Copilot will try to identify the language of the email and summarize in that language.
+  When summarizing Copilot tries to identify the language of the email and summarize in that language.
  [Learn more](https://support.microsoft.com/office/frequently-asked-questions-about-copilot-in-outlook-07420c70-099e-4552-8522-7d426712917b?storagetype=live).
 ### PowerPoint
 - **Create a PowerPoint slide from a file or prompt** [Web, Windows, Mac]
@@ -10753,7 +14897,7 @@ Updates released between May 29, 2025, and June 10, 2025.
   Writing a prompt to draft content based on your selection no longer expands your selection to the entire paragraph, table, or list. You can prompt based on a single sentence or item.
 
 <!-- 96718,99424,97439 -->
-## May 13 - 29, 2025
+## May 29, 2025
 Updates released between May 13, 2025, and May 29, 2025.
 ### Excel
 - **Visual outline confirms Copilot's data range** [Mac]
@@ -10770,12 +14914,12 @@ Updates released between May 13, 2025, and May 29, 2025.
   Add any image, chart, or diagram to your prompt and Copilot instantly extracts text, explains trends, suggests alt text, and surfaces quick insights—making documents more accessible and informative in seconds.
 
 <!-- 97225,93931,83241 -->
-## April 29, 2025 - May 13, 2025
+## May 13, 2025
 Updates released between April 29, 2025, and May 13, 2025.
 ### Excel
 - **Ask Copilot about any part of your sheet** [Web, Mac, Windows, iOS]
 
-  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This will include understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
+  When you ask questions about your worksheet, Copilot can look at the content of your sheet and use it to inform an answer to your question. This includes understanding worksheet data on your selected area, beyond tables and ranges, and provide Copilot answers in chat.
 ### Microsoft 365 app
 - **Copilot in Excel with Python for Mac** [Mac]
 
@@ -10792,7 +14936,7 @@ Updates released between April 29, 2025, and May 13, 2025.
   Tailor each document opening with your preferred summary style—select brief, standard, or detailed insights to match your workflow.
  [Learn more](https://support.microsoft.com/office/create-a-summary-of-your-document-with-copilot-in-word-79bb7a0a-3bf7-41fe-8c09-56f855b669bf).
 <!-- 78144,77902 -->
-## April 16 to April 29, 2025
+## April 29, 2025
 Updates released between April 16, 2025, and April 29, 2025.
 ### Outlook
 - **Chat with Copilot in Outlook for Mac** [Mac]
@@ -10805,7 +14949,7 @@ Updates released between April 16, 2025, and April 29, 2025.
   Selecting the Replace button lets you instantly replace your selected text with content that was generated in Draft with Copilot.
 
 <!-- 76195,73845 -->
-## Updates for April 2 - 16, 2025
+## April 16, 2025
 Updates released between April 2, 2025, and April 16, 2025.
 ### Excel
 - **Graph grounded chat** [Windows, Mac, Web]
@@ -10825,7 +14969,7 @@ Updates released between March 20, 2025, and April 2, 2025.
   Produce a translated copy of your entire presentation in about 40 languages while preserving your slide design and structure, making global collaboration effortless.
  [Learn more](https://support.microsoft.com/topic/translate-your-presentation-with-copilot-2c622fca-daaf-457c-bc74-f3496cf44a85).
 
-## March 19, 2025 - What’s New
+## March 19, 2025
 Updates released between March 5, 2025, and March 19, 2025.
 
 ### Microsoft 365 Copilot Chat
@@ -10834,7 +14978,7 @@ Updates released between March 5, 2025, and March 19, 2025.
 
   Get started in Copilot chat quickly with automatic prompt suggestions that enhance your productivity by providing relevant and context-aware prompts based on your previous interactions.
 
-## March 4, 2025 - Monthly updates
+## March 4, 2025
 
 Updates released between February 20, 2025, and March 4, 2025. 
 
@@ -10850,11 +14994,11 @@ Updates released between February 20, 2025, and March 4, 2025.
 
   Convert grounded content from Word documents into dynamic slides with tables. Enhance your presentations with structured, data-driven visuals effortlessly.
 
-## February 19, 2025 - Monthly Updates
+## February 19, 2025
 
 Updates released between February 5, 2025, and February 19, 2025. 
 
-<!--- All features that have 'Mac' tag  -->
+<!-- All features that have 'Mac' tag  -->
 
 ### Microsoft Teams
 
@@ -10880,9 +15024,9 @@ Updates released between February 5, 2025, and February 19, 2025.
 
   Highlight text, start a chat with Copilot, and receive responses tailored to what you've selected. Get targeted writing assistance and refine your content in real time.
 
-<!--- All features that have 'Mac' tag  -->
+<!-- All features that have 'Mac' tag  -->
 
-## February 4, 2025 - Highlights
+## February 4, 2025
 
 Updates released between January 24, 2025, and February 4, 2025.
 ### Microsoft 365 Copilot Chat
@@ -10918,7 +15062,7 @@ Updates released between January 24, 2025, and February 4, 2025.
   Add .txt files as sources with Copilot in Word, streamlining your process when working with text-based research or background content.
 
 
-## January 23, 2025 — Documentation Updates
+## January 23, 2025
 
 Updates released between January 8, 2025, and January 23, 2025.
 
@@ -10954,7 +15098,7 @@ Updates released between January 8, 2025, and January 23, 2025.
 
   Hear Copilot's replies in the chat pane, letting you stay hands-free while reviewing your content.
 
-## January 7, 2025 — Highlights
+## January 7, 2025
 
 Updates released between December 18, 2024, and January 7, 2025.
 ### Viva Insights
@@ -11005,7 +15149,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Disable Copilot in meetings** [Windows, Android, iOS, Mac]  
 
-  You can now turn Copilot off in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
+  You can now turn off Copilot in your meeting settings. Copilot, recording, and transcription are disabled for meetings where Copilot is off. [Learn more](/microsoftteams/copilot-teams-transcription).
 
 ### Word
 
@@ -11325,7 +15469,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Copilot side pane stays open across group chats** [Windows, Mac]  
 
-  When you open Copilot in a group chat, it will remain open even as you navigate between different chats, saving you time.
+  When you open Copilot in a group chat, it remains open even as you navigate between different chats, saving you time.
 
 ## January, 2024 — Feature Additions
 
@@ -11335,7 +15479,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
   Copilot in Excel now remembers the context of your chats, allowing for follow-up questions and clarifications for a smoother experience.
 
-## December, 2023 — Release Overview
+## December, 2023
 
 ### Word
 
@@ -11401,7 +15545,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 
 - **Create a presentation from a simple prompt** [Windows, Web, iOS, Mac]  
 
-  Provide a prompt and Copilot will help you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
+  Provide a prompt and Copilot helps you generate a presentation, saving you time and effort [Learn more](https://support.microsoft.com/topic/3222ee03-f5a4-4d27-8642-9c387ab4854d).
 
 - **Create presentations using your organization's templates** [Windows, Web, iOS, Mac]  
 
@@ -11452,6 +15596,25 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -19,7 +19,7 @@ service.tree.id: e6e1ea2a-04a0-4f78-bc75-7d45c90eee39
 search.appverid: MET150
 ms.localizationpriority: medium
 description: "Learn where to manage your volume licensing agreement, based on which agreement program type you have."
-ms.date: 05/30/2025
+ms.date: 12/02/2025
 ---
 
 # Manage volume licensing agreements

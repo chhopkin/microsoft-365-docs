@@ -113,7 +113,7 @@ Follow these steps to restore data backed up for OneDrive.
 ### Option 2: Selected content only (preview)
 
 
-Use this option to perform a restore of only selected files and folders from a protected OneDrive account's restore point. In the Microsoft 365 admin center, on the **Microsoft 365 Backup** page, in the **OneDrive** section, select **Restore**.  In this flow, the **Restore specific files or folders** option gives M365 Backup admins the capability to restore a subset of the account's files and folders from a specific restore point. 
+Use this option to perform a restore of only selected files and folders from a protected OneDrive account's restore point. In the Microsoft 365 admin center, on the **Microsoft 365 Backup** page, in the **OneDrive** section, select **Restore**.  In this flow, the **Restore specific files or folders** option gives Microsoft 365 Backup admins the capability to restore a subset of the account's files and folders from a specific restore point. 
 
 ![Screenshot that shows the granular restore step selection.](media/backup-restore-data/granular-restore-step-selection.png)
 
@@ -194,7 +194,7 @@ Follow these steps to restore data backed up for SharePoint.
    
 ### Option 2: Selected content only (preview)
 
-Use this option to perform a restore of only selected files and folders from a protected SharePoint site's restore point. In the Microsoft 365 admin center, on the **Microsoft 365 Backup** page, in the **SharePoint** section, select **Restore**. In this flow, the **Restore specific files or folders** option gives M365 Backup admins the capability to restore a subset of the site's files and folders from a specific restore point.
+Use this option to perform a restore of only selected files and folders from a protected SharePoint site's restore point. In the Microsoft 365 admin center, on the **Microsoft 365 Backup** page, in the **SharePoint** section, select **Restore**. In this flow, the **Restore specific files or folders** option gives Microsoft 365 Backup admins the capability to restore a subset of the site's files and folders from a specific restore point.
 
 ![Screenshot that shows the granular restore step selection.](media/backup-restore-data/granular-restore-step-selection.png)
 
@@ -260,18 +260,24 @@ Follow these steps to restore data backed up for Exchange.
 
 ### Option 2: Selected content only
 
-1. Use this option to perform a partial mailbox restore. On the **Content scope** page, the **Selected content only** option gives the admin the ability to do a granular restore (not full mailbox restore).
+1. Use this option to perform a partial mailbox restore based on specific search criteria. On the **Content scope** page, the **Selected content only** option gives the admin the ability to do a granular restore (not full mailbox restore).
 
     ![Screenshot showing the Content scope page with the Selected content only option selected.](../media/m365-backup/backup-exchange-content-scope-selected.png)
 
-    The search for items is based on four options:
+    You can filter the search for items based on the following options:
 
+    - Time range
     - Sender
     - Recipient
     - Has attachment
-    - Keywords
+    - Subject
+    - Content type
 
-    Choose the time period, then filter and value that you want to do a granular search on to find matching items.
+    Choose the time range, then filter on the values for your granular search to find matching items.
+
+    > [!NOTE]
+    > This option is intended to restore specific content and is limited to restoring 1000 items at a time.  If you receive an error that too many items were returned, adjust or add to your search filters to be more specific.
+
   
 2. Confirm the restore point in time to which the data will be restored from backup. If the restore point is what you want, select **Next**.
 

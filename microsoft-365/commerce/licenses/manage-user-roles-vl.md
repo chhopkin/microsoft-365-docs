@@ -28,16 +28,17 @@ Volume licensing (VL) roles grant users access to VL pages in the <a href="https
 
 VL roles are assigned by one of the following people:
 
-- A VL Administrator of the agreement who adds you as a user and invites you to sign in to register. If you're an Enterprise Agreement (EA) or Enterprise subscription (EU) customer, you don't receive an invitation to sign in to register. Instead, the administrator of the VL agreement grants you access.
+- A VL Administrator of the agreement who adds you as a user and invites you to sign in to register. If you're an Enterprise Agreement (EA) or Enterprise subscription (EAS) customer, you don't receive an invitation to sign in to register. Instead, the administrator of the VL agreement grants you access.
 - A partner or seller who assigns you a role during the contract creation process.
 
 > [!NOTE]
-> If you’re an EA or EU customer, you can use the [Billing Role Assignments API](/rest/api/billing/billing-role-assignments?view=rest-billing-2024-04-01&preserve-view=true) for VL user management.
+> If you’re an EA or EAS customer, you can use the [Billing Role Assignments API](/rest/api/billing/billing-role-assignments?view=rest-billing-2024-04-01&preserve-view=true) for VL user management.
 
 ## Before you begin
 
 - You must have a VL role to access the VL pages in the Microsoft 365 admin center.
 - VL roles are managed by the VL Administrator and don't provide visibility or permissions to other areas of the admin center beyond the VL pages.  
+- VL roles provide access to agreements beyond the agreement end date. Admins need to remove VL roles of any users whose access they want to discontinue.
 
 > [!NOTE]
 > Global Administrators in the admin center don't have access to VL features. It's up to the VL agreement administrator to add any users, including Global Administrators, who might want access to specific Agreements (License IDs). For more information, see [Commonly used Microsoft 365 admin center roles](../../admin/add-users/about-admin-roles.md#commonly-used-microsoft-365-admin-center-roles), and [Volume licensing roles](../../admin/add-users/about-admin-roles.md#volume-licensing-roles).
@@ -50,17 +51,19 @@ The following table shows the relationship between VL roles in the retired Volum
 
 | Microsoft 365 admin center role | (Retired) VLSC role | Allowable actions         |
 |---------------------------------|---------------------|---------------------------|
-| Administrator                   | Administrator       | Can assign, edit, and remove VL user permissions. Can perform all actions granted to other VL roles, except for viewing invoices.<br/><br/>If you're an EA or EU customer, the Administrator can view invoices. |
+| Administrator                   | Administrator       | Can assign, edit, and remove VL user permissions. Can perform all actions granted to other VL roles, except for viewing invoices.<br/><br/>If you're an EA or EAS customer, the Administrator can view invoices. |
 | License position reader         | Licensing Info Viewer | Can view contract details, orders, and contract keys, and create license summaries. |
 | Product download manager        | Download             | Can view contracts and download licensed Microsoft software products. |
 | Product keys reader             | Product Keys         | Can view contracts and contract keys, manage activation and redemption of online services, and view keys on the **Products and services** page. |
-| Benefits reader                 | Software Assurance Manager | Can view contracts and manage Workplace Discount Software Assurance entitlements. |
-| Online services manager         | Online Services Manager    | Can view contracts and orders, reserve online services, manage activation and redemption of online services, and manage subscriptions on the **Billing** > **Licenses** page. |
-| Invoice Reader                  | N/A                        | Can view contracts, the list of invoices, and can download invoices.<br/><br/>This role is automatically assigned to the person listed on the licensing contact as the **Bill To** contract and can’t be assigned to the VL admin.<br/><br/>If you're an EA or EU customer, the Invoice Reader role isn't assigned to the **Bill To** contact. The VL Administrator can view the invoices or assign the Invoice Reader role to any user. |
+| Benefits reader                 |Software Assurance Manager | Can view contracts and manage Workplace Discount Software Assurance entitlements. |
+| Online services manager         | Online Services Manager    |Can view contracts and orders, activate services and manage reservations of online services on the **Billing** > [Your products](https://go.microsoft.com/fwlink/p/?linkid=842054) > [Volume licensing](https://go.microsoft.com/fwlink/p/?linkid=2244144) page.<br/><br/>**NOTE** An OSM must have Global Administrator permissions to also be able to manage and assign subscriptions on the **Billing** > **Licenses** page.|
+| Invoice Reader                  | N/A                        |Can view contracts, the list of invoices, and can download invoices for contracts that are direct with Microsoft.<br/><br/>The Invoice Reader role isn't assigned automatically.  The VL Administrator can view the invoices or assign the Invoice Reader role to any user. Typically, the Invoice Reader role is assigned to the Bill To contact on the volume licensing contract.|
 
 ## Understand the volume licensing administrator role
 
-By default, the VL Administrator role is assigned to the Notices Contact, or the Primary Contact provided by your Microsoft partner or seller when they set up your VL contract. If you're an EA or EU customer, when the VL contract is activated, the VL Administrator role is only assigned to the Notices Contact.
+By default, the VL Administrator role is assigned to the Notices Contact, or the Primary Contact provided by your Microsoft partner or seller when they set up your VL contract. 
+
+If you're an EA or EAS customer, when the VL contract is activated, the VL Administrator role is assigned to both the Notices Contact and to the Online Services Manager (OSM), assuming the user IDs provided on the contract are Microsoft Entra IDs. However, if the user ID provided for the OSM contact isn't a Microsoft Entra ID, the OSM can't be assigned a role in admin center. Instead, a "Tenant Discovery" email is sent to the OSM inviting them to sign in or sign up.
 
 When these contacts sign in to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">admin center</a>, they can assign the VL Administrator role to other users. Those users can then access the Agreement (License ID) in the admin center without being listed on the original VL contract.
 
@@ -77,9 +80,9 @@ If you no longer want to be a VL Administrator, you must first assign the VL Adm
 
 ### If you don’t have a volume licensing user profile in the Microsoft 365 admin center
 
-**For non-EA and EU customers only:** If you're named as a Primary or Notice contact for a contract, you receive a welcome email inviting you to create your VL user profile in the admin center. Alternatively, you can choose to forward the email to someone else who can register and become the VL Administrator in the admin center, instead.
+**For non-EA and non-EAS customers only:** If you're named as a Primary or Notice contact for a contract, you receive a welcome email inviting you to create your VL user profile in the admin center. Alternatively, you can choose to forward the email to someone else who can register and become the VL Administrator in the admin center, instead.
 
-**For EA and EU customers only:** If you're named as a Notice contact for a contract, you receive an email regarding permission for the admin center.
+**For EA and EAS customers only:** If you're named as a Notice contact for a contract, you receive an email regarding permission for the admin center.
 
 ### Change the Primary or Notice Contact information on the licensing contract
 
@@ -87,7 +90,7 @@ If you want to change who is named on a VL contract with a role such as Primary 
 
 Updating the Notices Contact information on active VL contracts helps ensure that any Microsoft or partner communications are received.
 
-If you're an EA or EU customer, when you update the Notice Contact, you don’t get the VL Administrator role, and must ask an existing VL Administrator on the agreement to add you. If there are no active VL Administrators on the agreement, you must submit a change in contact information request via your partner. Next, [contact volume licensing support](contact-vl-support.md) to submit a support request confirming the agreement (License ID) and the Entra ID that you want to use to access the agreement in the Microsoft 365 admin center.
+If you're an EA or EAS customer, when you update the Notice Contact, you don’t get the VL Administrator role, and must ask an existing VL Administrator on the agreement to add you. If there are no active VL Administrators on the agreement, you must submit a change in contact information request via your partner. Next, [contact volume licensing support](contact-vl-support.md) to submit a support request confirming the agreement (License ID) and the Entra ID that you want to use to access the agreement in the Microsoft 365 admin center.
 
 > [!NOTE]
 > You don't have to continually update legal participant roles on VL contracts that are no longer active. After there's at least one active VL Administrator for each License ID, the licenses remain accessible to your organization, and you can add or remove administrators.  
@@ -106,9 +109,9 @@ The **Manage Assignments** page contains a list of all the VL users that you inv
 |------------------------| ------------|
 | Display name           | The user's full name. The display name is automatically populated for users who belong to the tenant. If you add external VL users who don't belong to the tenant, make sure that you enter the full name of the user. |
 | Status                 | Indicates the status of the user. For a list of explanations for the possible status, see the next table in this section. |
-| Actions                | Indicates the action you can take for the user. For example, **View access**, **Resend invite**, and **Reset invite**.<br/><br/>**NOTE**<br/>If you're an EA or EU customer, **Resend invite** and **Reset invite** actions don’t apply. |
-| Sign-in email          | The email address used to sign in to admin center. In most cases, this address is the user's work email, but formats like user\@userorg.onmicrosoft.com are also possible. For non-EU and EU customers, the inclusion of this email is useful for organizations that don't have Microsoft Entra enabled. |
-| Business email         | For non-EU and EU customers, the email address listed on the VL contract – typically the email address of the Primary Contact or Notices Correspondent. When you add new VL users, the invitation is sent to the **Business email** address so that the admin can then forward it to the new user. |
+| Actions                | Indicates the action you can take for the user. For example, **View access**, **Resend invite**, and **Reset invite**.<br/><br/>**NOTE**<br/>If you're an EA or EAS customer, **Resend invite** and **Reset invite** actions don’t apply. |
+| Sign-in email          | The email address used to sign in to admin center. In most cases, this address is the user's work email, but formats like user\@userorg.onmicrosoft.com are also possible. For non-EAS and EAS customers, the inclusion of this email is useful for organizations that don't have Microsoft Entra enabled. |
+| Business email         | For non-EAS and EAS customers, the email address listed on the VL contract – typically the email address of the Primary Contact or Notices Correspondent. When you add new VL users, the invitation is sent to the **Business email** address so that the admin can then forward it to the new user. |
 | Volume licensing roles | Lists the VL roles assigned to the user. |
 
 The following table lists the statuses that you might see in the **Status** column on the **Manage Assignments** page.
@@ -131,13 +134,13 @@ Add new users who don't already have VL permissions.
 1. In the admin center, go to the **Billing** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">**Your products**</a> page, then select the <a href="https://go.microsoft.com/fwlink/p/?linkid=2244144" target="_blank">Volume licensing</a> tab.
 2. In the **Role assignments** section, select **Assign users to contracts**.
 3. Select **Add or edit users**.
-4. **For non-EA and EU customers only:** Search for users you want to add by entering their email address.
+4. **For non-EA and non-EAS customers only:** Search for users you want to add by entering their email address.
 
    - Users with an email address managed by your organization are listed for selection and are added as "Internal user."
    - If you search for a user with an email address not managed by your organization, you see the message "No results found. Press enter to save." You can add the user as an "External user," which provides access only to VL information.
    - If a user's business email is different from their sign-in ID, use the sign-in ID.
 
-5. **For EA and EU customers only:** Search for users you want to add by entering their sign-in ID (work or school account).
+5. **For EA and EAS customers only:** Search for users you want to add by entering their sign-in ID (work or school account).
 
    - If you search for a user with a sign-in ID not managed by your organization, you see the message "No results found” and can’t continue with role assignment. Ask the tenant administrator to create a sign-in ID (work or school account) for the user.
    - Role assignment can’t be done for a business email that's different from the sign-in ID (work or school account).
@@ -167,14 +170,14 @@ After the Agreement (License ID) is selected, assign the VL roles. A user might 
 5. When you return to the **Assign users to contracts** page, you see that the user's details now include the new VL roles.
 6. To save the updates, select **Verify and save user assignments**.
 
-   - **Non-EA and EU customers only:** Users receive a welcome email from microsoft-noreply\@microsoft.com with the subject line "Action required: Sign in to manage your volume licensing assets."
-   - **EA and EU customers only:** Users receive a notification email from microsoft-noreply@microsoft.com with the subject Line "Permission changes for Microsoft Volume Licensing contracts."
+   - **Non-EA and non-EAS customers only:** Users receive a welcome email from microsoft-noreply\@microsoft.com with the subject line "Action required: Sign in to manage your volume licensing assets."
+   - **EA and EAS customers only:** Users receive a notification email from microsoft-noreply@microsoft.com with the subject Line "Permission changes for Microsoft Volume Licensing contracts."
 
-New users can access and manage the Agreement (License IDs) based on the VL roles that you assigned to them. For non-EA and EU customers, License IDs are available approximately two hours after registration is complete.
+New users can access and manage the Agreement (License IDs) based on the VL roles that you assigned to them. For non-EA and non-EAS customers, License IDs are available approximately two hours after registration is complete.
 
-## Import roles in volume licensing agreements (EA and EU customers only)
+## Import roles in volume licensing agreements (EA and EAS customers only)
 
-If you’re a VL Administrator for an EA or EU agreement, you can copy the VL user roles from one agreement to another in the Microsoft 365 admin center. This import streamlines the renewal process by copying multiple roles from one agreement to another, instead of requiring individual user assignment.
+If you’re a VL Administrator for an EA or EAS agreement, you can copy the VL user roles from one agreement to another in the Microsoft 365 admin center. This import streamlines the renewal process by copying multiple roles from one agreement to another, instead of requiring individual user assignment.
 
 > [!IMPORTANT]
 > You must have the administrator role to both the source and target enrollments to use the following steps.
@@ -216,7 +219,7 @@ It can take up to two hours for the role change to be reflected on the **Manage 
 
 ## Apply admin permissions to all license IDs under a parent program
 
-If you're the Primary Contact (non-EA and EU customers only), Notices Contact, or Online Administrator Contact named on an MBSA, you can opt in to inherit VL admin permissions on every Agreement (License ID) added under that MBSA.
+If you're the Primary Contact (non-EA and non-EAS customers only), Notices Contact, or Online Administrator Contact named on an MBSA, you can opt in to inherit VL admin permissions on every Agreement (License ID) added under that MBSA.
 
 To view or change your opt-in preferences, use the following steps.
 

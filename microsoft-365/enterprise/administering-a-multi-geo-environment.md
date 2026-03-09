@@ -1,7 +1,7 @@
 ---
 title: "Service Behavior in a Multi-Geo Enabled Environment"
 ms.reviewer: jugiammo
-ms.date: 08/01/2024
+ms.date: 05/09/2025
 ms.author: v-fahasen
 author: fhasen-msft
 manager: Justin.Giammona

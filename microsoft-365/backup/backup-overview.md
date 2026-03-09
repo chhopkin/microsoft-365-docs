@@ -31,7 +31,7 @@ Key features include:
 - **Partner ecosystem**: Leverage additional features and workflows through integrated partner applications to manage all your backups in one place.
 --->
 > [!Note]
-> Microsoft 365 Backup is currently not available for Government Community Cloud (GCC) organizations. Microsoft 365 Backup also supports PowerShell cmdlets. You can find the associated PowerShell cmdlets in the [Microsoft 365 Backup Storage Graph APIs](/graph/api/resources/backuprestoreroot) reference guide.
+> Microsoft 365 Backup is now available for Government Community Cloud (GCC) organizations. Microsoft 365 Backup also supports PowerShell cmdlets. You can find the associated PowerShell cmdlets in the [Microsoft 365 Backup Storage Graph APIs](/graph/api/resources/backuprestoreroot) reference guide.
 
 ## Scenarios and value proposition
 
@@ -100,6 +100,14 @@ Restoration performance correlates with your recovery time objective, or the tim
 For full OneDrive account and SharePoint site restores, the fastest recovery happens when choosing in-place restore rather a new URL restore. Additionally, choosing one of the recommended express restore points presented in the restore workflow user interface yields the quickest recovery results.
 
 All restore points and restores to new URLs are relatively fast, but same URL restores using a recommended express restore point will typically yield better results. The Exchange Online restore workflow doesn't have or require the "faster" restore points.
+
+We have a number of restore capabilities depending on the scenario, each optimized for that scenario. The restore is not dependent on the amount of data, rather the number of sites and the type of restore point chosen.
+
+1. Single or subsite file restore needed: Use the granular folder/file restore option (public preview as of Dec 2025). These restores should take only a couple of mins.
+
+1. Small site restore: Use one of the daily fast restore points recommended in the UI. This will restore full sites smaller than ~1TB in under 20 mins.
+
+1. Large many site restores: Use our fast or standard restore points. It may take a few hours to "warm up," but will then execute very quickly. Overall this will be very fast as per our performance outline in the perf table below.
 
 The following table summarizes expected performance for a normally distributed tenant, including tenants of large size and scale.
 

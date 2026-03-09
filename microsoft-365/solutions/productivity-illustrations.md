@@ -13,6 +13,7 @@ ms.collection:
 - M365-collaboration
 - M365-security-compliance
 ms.custom:
+- m365-solutions-doc-set
 f1.keywords: NOCSH
 ms.date: 04/30/2024
 
@@ -142,6 +143,6 @@ For more information, see the article for this poster: [Set up your infrastructu
 
 ## See Also
 
-[Architectural models for SharePoint, Exchange, Skype for Business, and Lync](../enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
+[Architectural models for SharePoint, Exchange, Skype for Business, and Lync](/microsoft-365/enterprise/index)
 
-[Cloud adoption Test Lab Guides (TLGs)](../enterprise/cloud-adoption-test-lab-guides-tlgs.md)
+[Cloud adoption Test Lab Guides (TLGs)](/microsoft-365/enterprise/)

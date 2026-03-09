@@ -16,8 +16,9 @@ ms.collection:
 - m365solution-securecollab
 - m365initiative-externalcollab
 ms.custom:
-- chat-teams-channels-revamp 
+- chat-teams-channels-revamp
 - seo-marvel-apr2020
+- m365-solutions-doc-set
 - admindeeplinkMAC
 - admindeeplinkTEAMS
 - admindeeplinkSPO
@@ -82,7 +83,7 @@ To set Teams guest access settings
 1. Ensure that **Guest access** is set to **On**.
 1. Make any desired changes to the additional guest settings, and then select **Save**.
 
-Once Teams guest access is turned on, you can optionally control guest access to individual teams and their associated SharePoint sites using sensitivity labels. For more information, see [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](../compliance/sensitivity-labels-teams-groups-sites.md).
+Once Teams guest access is turned on, you can optionally control guest access to individual teams and their associated SharePoint sites using sensitivity labels. For more information, see [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites).
 
 > [!NOTE]
 > It might take up to twenty-four hours for the Teams guest settings to become active after you turn it on.

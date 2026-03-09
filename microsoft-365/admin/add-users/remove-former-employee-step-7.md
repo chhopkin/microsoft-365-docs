@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: 10/28/2025
 audience: Admin
 ms.topic: how-to
-ms.service: microsoft-365-security
+ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 ms.collection:
 - Tier1
@@ -28,16 +28,16 @@ description: "After you've saved and accessed all of a former employee's user da
 
 # Step 7 - Delete a former employee's user account
 
-After you've saved and accessed all the former employee's user data, you can delete the former employee's account.
+After an employee has left your organization, and you've saved and accessed their user data, you can delete the former employee's account.
 
 > [!IMPORTANT]
 > Don't delete the account if you've set up email forwarding or converted it to a shared mailbox. Both need the account to anchor the forwarding or shared mailbox.
 > 
 > You must have appropriate permissions through a role, such as [User Administrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator) to perform the tasks in this article. 
 
-1. In the Microsoft 365 admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.
+1. In the [Microsoft 365 admin center](https://admin.cloud.microsoft/), go to **Users** > **Active users**. (Or, go directly to the [Active users page](https://go.microsoft.com/fwlink/p/?linkid=834822).)
 
-2. Select the name of the employee that you want to delete.
+2. Select the name of the former employee's account that you want to delete.
 
 3. Under the user's name, select **Delete user**. Choose the options you want for this user, and then select **Delete user**. If you've already given another user access to this user's email and OneDrive, you don't have to do it again here.
 
@@ -62,12 +62,12 @@ If you're using Microsoft Entra ID, see the [Remove-MgUser](/powershell/module/m
 Here's information about how to get an employee out of email (Exchange).
 
 |What you can do|How you do it|
-|:-----|:-----|
+|-----|-----|
 |Terminate a session (such as Outlook on the web, Outlook, Exchange active sync, etc.) and force to open a new session|Reset password|
 |Terminate a session and block access to future sessions (for all protocols)|Disable the account. For example, in the Exchange admin center or using PowerShell: <br/>  `Set-Mailbox user@contoso.com -AccountDisabled:$true`|
 |Terminate the session for a particular protocol (such as ActiveSync)|Disable the protocol. For example, in the Exchange admin center or using PowerShell: <br/>  `Set-CASMailbox user@contoso.com -ActiveSyncEnabled:$false`|
 
-The above operations can be done in three places:
+The preceding operations can be done in three places:
 
 |If you terminate the session here|How long it takes|
 |---|---|
@@ -83,6 +83,13 @@ The above operations can be done in three places:
   
 ## Related content
 
-[Restore a user](restore-user.md) (article)
+- [Restore a user](restore-user.md)
 
-[Reset passwords](reset-passwords.md) (article)
+- [Reset passwords](reset-passwords.md)
+
+- [Microsoft Entra admin center](/entra/fundamentals/entra-admin-center)
+
+- [Exchange admin center](/exchange/exchange-admin-center)
+
+- [Exchange PowerShell](/powershell/module/exchangepowershell)
+

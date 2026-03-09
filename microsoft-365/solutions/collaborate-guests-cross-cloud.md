@@ -16,7 +16,7 @@ ms.collection:
 - m365solution-securecollab
 - m365initiative-externalcollab
 - guest-access-external-collab
-ms.custom: 
+ms.custom: m365-solutions-doc-set
 ms.localizationpriority: medium
 f1.keywords: NOCSH
 recommendations: false
@@ -59,14 +59,14 @@ Inviting guests from organizations in other Microsoft 365 cloud environments req
 
 Additionally, to enable B2B collaboration with an organization in a different Microsoft 365 cloud environment, you need the organization's tenant ID. If you know the fully qualified domain name of the other organization, you can look up the tenantID in the Teams admin center. Open [meeting settings](https://admin.teams.microsoft.com/meetings/settings), select **Lookup** under **Cross-cloud meetings**, type in the fully qualified domain name, and select **Show tenant ID**.
 
-For the best meeting experiences across Microsoft clouds, make sure your network is ready for Microsoft Teams.  [Prepare your organization's network for Microsoft Teams](/microsoftteams/prepare-network#network-requirements) contains guidance on how to optimize your network for Teams.  Also ensure that the necessary DNS, IPs and Ports are enabled for each of the M365 clouds where your users are collaborating.  The following table links to the endpoint definitions for each of the M365 cloud environments:
+For the best meeting experiences across Microsoft clouds, make sure your network is ready for Microsoft Teams.  [Prepare your organization's network for Microsoft Teams](/microsoftteams/prepare-network#network-requirements) contains guidance on how to optimize your network for Teams.  Also ensure that the necessary DNS, IPs and Ports are enabled for each of the Microsoft 365 clouds where your users are collaborating.  The following table links to the endpoint definitions for each of the Microsoft 365 cloud environments:
 
 |Microsoft 365 Cloud Environment|Endpoints|
 |:--------------------------------|:------------------------------|
-|Commercial, GCC|[Worldwide endpoints](../enterprise/urls-and-ip-address-ranges.md)|
-|GCC High|[U.S. Government GCC High endpoints](../enterprise/microsoft-365-u-s-government-gcc-high-endpoints.md)|
-|DoD|[U.S. Government DoD endpoints](../enterprise/microsoft-365-u-s-government-dod-endpoints.md)|
-|China (21Vianet)|[Microsoft 365 operated by 21Vianet](../enterprise/urls-and-ip-address-ranges-21vianet.md)|
+|Commercial, GCC|[Worldwide endpoints](/microsoft-365/enterprise/urls-and-ip-address-ranges)|
+|GCC High|[U.S. Government GCC High endpoints](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints)|
+|DoD|[U.S. Government DoD endpoints](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints)|
+|China (21Vianet)|[Microsoft 365 operated by 21Vianet](/microsoft-365/enterprise/urls-and-ip-address-ranges-21vianet)|
 
 ## Allow cross-tenant connections with other Microsoft 365 cloud environments
 

@@ -21,6 +21,7 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 - admindeeplinkSPO
+- m365-solutions-doc-set
 recommendations: false
 description: Learn how to deploy teams with protection for highly sensitive data.
 ---
@@ -100,7 +101,7 @@ We'll point to the authentication context in the sensitivity label.
 
 For the highly sensitive level of protection, we use a sensitivity label to classify the team. We also use this label to classify and encrypt individual files in the team. (It can also be used on files in other file locations such as SharePoint or OneDrive.)
 
-As a first step, you must enable sensitivity labels for Teams. See [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 Groups, and SharePoint sites](../compliance/sensitivity-labels-teams-groups-sites.md) for details.
+As a first step, you must enable sensitivity labels for Teams. See [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 Groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites) for details.
 
 If you already have sensitivity labels deployed in your organization, consider how this label fits with your overall label strategy. You can change the name or settings if needed to meet the needs of your organization.
 
@@ -133,7 +134,7 @@ To create a sensitivity label
 1. On the **Auto-labeling for schematized data assets** page, select **Next**.
 1. Select **Create label**, and then select **Done**.
 
-Once you've created the label, you need to publish it to the users who will use it. For sensitive protection, we make the label available to all users. You publish the label in the Microsoft Purview portal, on the **Label policies** page under **Information protection**. If you have an existing policy that applies to all users, add this label to that policy. If you need to create a new policy, see [Publish sensitivity labels by creating a label policy](../compliance/create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy).
+Once you've created the label, you need to publish it to the users who will use it. For sensitive protection, we make the label available to all users. You publish the label in the Microsoft Purview portal, on the **Label policies** page under **Information protection**. If you have an existing policy that applies to all users, add this label to that policy. If you need to create a new policy, see [Publish sensitivity labels by creating a label policy](/purview/create-sensitivity-labels?tabs=classic-label-scheme#publish-sensitivity-labels-by-creating-a-label-policy).
 
 ## Teams settings
 
@@ -211,4 +212,4 @@ For more details about how default library labels work, see [Configure a default
 
 ## See Also
 
-[Create and configure sensitivity labels and their policies](../compliance/create-sensitivity-labels.md)
+[Create and configure sensitivity labels and their policies](/purview/create-sensitivity-labels?tabs=classic-label-scheme)

@@ -17,8 +17,9 @@ metadata:
   ms.custom: intro-hub-or-landing
   author: kwekuako #Required; your GitHub user alias, with correct capitalization.
   ms.author: kwekua #Required; microsoft alias of author; optional team alias.
-  ms.date: 10/20/2025 #Required; mm/dd/yyyy format.
+  ms.date: 01/30/2026 #Required; mm/dd/yyyy format.
   ms.localizationpriority: high
+  adobe-target: true
 
 # highlightedContent section (optional)
 # Maximum of 8 items
@@ -38,6 +39,10 @@ highlightedContent:
       itemType: learn
       url: /training/m365/
     # Card
+    - title: Microsoft 365 Community Conference - Learn from experts and MVPs, and expand your Intelligent Work skillset
+      itemType: whats-new
+      url: https://aka.ms/mcag/ipm/26004P
+    # Card
     - title: Get your small business started with Microsoft 365
       itemType: video
       url: business-video/index.yml
@@ -45,10 +50,6 @@ highlightedContent:
     - title: Set up your infrastructure for hybrid work
       itemType: how-to-guide
       url: solutions/empower-people-to-work-remotely.md
-    # Card
-    - title: Learn from the experts - skill up for the era of AI at the Microsoft 365 Community Conference
-      itemType: whats-new
-      url: https://aka.ms/MCAG/IPM/ML25002B
 
 # conceptualContent section (optional)
 conceptualContent:
@@ -140,10 +141,10 @@ conceptualContent:
               text: Set up your infrastructure for hybrid work
             - url: solutions/setup-secure-collaboration-with-teams.md
               itemType: how-to-guide
-              text: Set up secure collaboration
+              text: Set up secure collaboration with Teams
             - url: solutions/deploy-threat-protection.md
               itemType: how-to-guide
-              text: Deploy threat protection
+              text: Deploy Microsoft Defender threat protection
             - url: solutions/data-privacy-protection.md
               itemType: how-to-guide
               text: Manage data privacy and data protection

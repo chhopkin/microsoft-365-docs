@@ -20,8 +20,9 @@ search.appverid:
 - SPO160
 - MET150
 f1.keywords: NOCSH
-ms.custom: 
+ms.custom:
 - admindeeplinkMAC
+- m365-solutions-doc-set
 - admindeeplinkTEAMS
 - admindeeplinkSPO
 ms.localizationpriority: medium

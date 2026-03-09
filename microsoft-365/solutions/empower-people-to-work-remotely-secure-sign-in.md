@@ -17,7 +17,7 @@ ms.collection:
 - remotework
 - m365solution-remotework
 - m365solution-scenario
-ms.custom: 
+ms.custom: m365-solutions-doc-set
 description: Require that your hybrid workers sign in with multifactor authentication (MFA).
 ---
 
@@ -35,7 +35,7 @@ There are three ways to require your users to use MFA based on your Microsoft 36
 |---------|---------|
 |All Microsoft 365 plans (without Microsoft Entra ID P1 or P2 licenses)     |[Enable Security defaults in Microsoft Entra ID](/azure/active-directory/fundamentals/concept-fundamentals-security-defaults). Security defaults in Microsoft Entra ID include MFA for users and administrators.   |
 |Microsoft 365 E3 (includes Microsoft Entra ID P1 licenses)     | Use [Common Conditional Access policies](/azure/active-directory/conditional-access/concept-conditional-access-policy-common) to configure the following policies: <br>- [Require MFA for administrators](/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [Require MFA for all users](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [Block legacy authentication](/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
-|Microsoft 365 E5 (includes Microsoft Entra ID P2 licenses)     |Taking advantage of feature in Microsoft Entra ID, begin to implement Microsoft's [recommended set of Conditional Access and related policies](../security/office-365-security/zero-trust-identity-device-access-policies-common.md) like:<br/> - Requiring MFA when sign-in risk is medium or high. <br/>- Blocking clients that don't support modern authentication. <br/>- Requiring high risk users change their password.|
+|Microsoft 365 E5 (includes Microsoft Entra ID P2 licenses)     |Taking advantage of feature in Microsoft Entra ID, begin to implement Microsoft's [recommended set of Conditional Access and related policies](/security/zero-trust/zero-trust-identity-device-access-policies-common) like:<br/> - Requiring MFA when sign-in risk is medium or high. <br/>- Blocking clients that don't support modern authentication. <br/>- Requiring high risk users change their password.|
 
 ## Security defaults
 
@@ -91,7 +91,7 @@ This table shows the results of enabling MFA with security defaults and Conditio
 |:-------|:-----|:-------|:-------|
 | **Security defaults**  | Can't use Conditional Access policies | Can use Conditional Access policies | Microsoft Authenticator app |
 | **Conditional Access policies** | If any are enabled, you can't enable security defaults | If all are disabled, you can enable security defaults  | User specifies during MFA registration  |
-||||
+
 
 ## Let your users reset their own passwords
 
@@ -106,7 +106,7 @@ In addition to providing cloud authentication for users, Microsoft Entra ID can 
 ## Admin technical resources for MFA and identity
 
 - [Top 5 ways your Microsoft Entra ID can help you enable remote work](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/top-5-ways-your-azure-ad-can-help-you-enable-remote-work/ba-p/1144691)
-- [Identity infrastructure for Microsoft 365](../enterprise/deploy-identity-solution-overview.md)
+- [Identity infrastructure for Microsoft 365](/microsoft-365/enterprise/deploy-identity-solution-overview)
 - [Azure Academy Microsoft Entra ID training videos](https://www.youtube.com/watch?v=pN8o0owHfI0&list=PL-V4YVm6AmwUFpC3rXr2i2piRQ708q_ia)
 
 ## Results of Step 1

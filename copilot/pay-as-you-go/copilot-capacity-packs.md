@@ -128,10 +128,6 @@ No. The Microsoft 365 admin center creates the Microsoft 365 Copilot Chat or Sha
 
 The system currently requires a pay-as-you-go billing setup to utilize any prepaid capacity for Copilot or SharePoint agent. Even if you plan to mostly use the prepaid credits, you must configure pay-as-you-go billing as a backup. Consider setting up alerts or monitoring consumption so you know if you're approaching the prepaid limit. You can also disable the capacity pack usage and rely entirely on pay-as-you-go billing by editing the setting in the Microsoft 365 admin center. However, if you disable the capacity pack usage, your prepaid pack won't apply to Copilot Chat or SharePoint agent usage.
 
-### License requirements for users
-
-End-users using Microsoft 365 Copilot Chat or SharePoint agents must have a Microsoft 365 Copilot license to access Copilot features. The capacity pack and pay-as-you-go billing setup affects billing for credit usage, not the user license requirements. Make sure your users are licensed for Microsoft 365 Copilot; the capacity pack covers the extra agent credit costs, not the core Copilot access.
-
 ## Related content
 
 [Manage Copilot Studio credits and capacity - Power Platform | Microsoft Learn](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new) (article)\

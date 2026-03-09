@@ -38,7 +38,7 @@ This article explains the steps to extend the agent by adding new topics tailore
 
 ## Configure Workday to support additional scenarios
 
-Refer to the security configuration in the [Workday integration article](workday.md#task-7-activate-pending-security-policy-changes). Similar permissions need to be applied to the additional scenarios (business processes) being enabled as part of the agent extensibility. We recommend you consult with Workday and security subject matter expects to determine the right permissions to be applied, complying with your organization's security requirements.
+Refer to the security configuration in the [Workday integration article](workday.md#task-6-security-configuration). Similar permissions need to be applied to the additional scenarios (business processes) being enabled as part of the agent extensibility. We recommend you consult with Workday and security subject matter expects to determine the right permissions to be applied, complying with your organization's security requirements.
 
 ## Prerequisites
 
