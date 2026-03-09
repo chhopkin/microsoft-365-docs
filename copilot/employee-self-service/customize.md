@@ -55,7 +55,7 @@ Solution accelerator packages come with a few components, like connectors, topic
 
 ### Instructions
 
-LLM experiences can be shaped using natural language to use system prompt techniques that influence Employee Self-Service agent reasoning and behaviors. Instructions can be applied to the overall agent, to knowledge sources, to topics, and when publishing to Teams and Microsoft 365 Copilot. In addition, you can include dynamic variables (for example, specific user profile attributes) to further direct and ground the agent for more personalized responses.[Learn more](/microsoft-copilot-studio/knowledge-copilot-studio) about knowledge sources.
+LLM (Large Language Model) experiences can be shaped using natural language to use system prompt techniques that influence Employee Self-Service agent reasoning and behaviors. Instructions can be applied to the overall agent, to knowledge sources, to topics, and when publishing to Teams and Microsoft 365 Copilot. In addition, you can include dynamic variables (for example, specific user profile attributes) to further direct and ground the agent for more personalized responses.[Learn more](/microsoft-copilot-studio/knowledge-copilot-studio) about knowledge sources.
 
 ## Response quality
 
@@ -83,7 +83,7 @@ End-users see the following customizable branding and content elements:
 You can customize most of these elements in Copilot Studio by selecting the **Edit** button in the **Overview** section of the agent.
 
 > [!NOTE]
-> Providing a custom name to the agent shows the provided name for end-users in the Copilot chat interface. Most other admin-related interfaces, such as analytics dashboards in Copilot Studio, Copilot Analytics under Viva Insights, Microsoft Admin Center, Power Platform Admin Center, and other billing reports for metered consumption, display the agent's name:
+> Providing a custom name to the agent shows the provided name for end-users in the Copilot chat interface. Most other admin-related interfaces, such as analytics dashboards in Copilot Studio, Copilot Analytics under Viva Insights, Microsoft admin center, Power Platform admin center, and other billing reports for metered consumption, display the agent's name:
 > 
 > - Employee Self-Service HR
 > - Employee Self-Service IT
@@ -141,7 +141,8 @@ Terms to know:
 
 **Maker JTBD:** Maker needs to add redirection of the User Context retrieval topics from different Employee Self-Service agent external system solution packages. Or, if Makers configure other Topics to retrieve User Context attributes from other systems, then they should also be added as Topic redirections in this Topic.
 
-**Maker - What to customize:** </br>
+**Maker - What to customize:**
+
 **Requirement to use:** None.
 
 1. After message disclaimer (blank). Add message or delete it if you don't want the disclaimer to appear.
