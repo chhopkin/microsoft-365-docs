@@ -328,4 +328,4 @@ To tackle a performance problem,  *right now*, you need to be taking a trace at 
   
 ## See also
 
-[Managing Office 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
+[Managing Office 365 endpoints](managing-office-365-endpoints.md)
