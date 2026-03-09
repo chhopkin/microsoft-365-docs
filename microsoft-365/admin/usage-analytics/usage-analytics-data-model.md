@@ -67,7 +67,7 @@ This table provides user level details for all users that have a license assigne
 | **Timeframe**             | Month value for which this table has data for.                                                                            |
 | **UPN**                   | User principal name (UPN) uniquely identifies the user to be able to join with other external data sources.               |
 | **DisplayName**           | User's display name.                                                                                                      |
-| **IDType**                | Set to: <ul><li>1 if the user is a Viva Engage user who connects using their Viva Engage ID.</li><li>0 if the user connects to Viva Engage using their Microsoft 365 ID.</li></ul> |
+| **IDType**                | Account user used to sign in. Values can be: <ul><li>1 if the user is a Viva Engage user who connects using their Viva Engage ID.</li><li>0 if the user connects to Viva Engage using their Microsoft 365 ID.</li></ul> |
 | **HasLicenseEXO**         | Set to true if the user is assigned a license and enabled to use Exchange on the last day of the month.                   |
 | **HasLicenseODB**         | Set to true if the user is assigned a license and enabled to use OneDrive on the last day of the month.                   |
 | **HasLicenseSPO**         | Set to true if the user is assigned a license and enabled to use SharePoint on the last day of the month.                 |
@@ -92,54 +92,55 @@ This table provides user level details for all users that have a license assigne
 
 This table contains data about each user who had an activity in any of the services in the previous month.
 
-|**Column name**|**Column description**|
-|:-----|:-----|
-|UserID   |Unique user ID that represents a user and enables joining with other data tables within the data set.   |
-|IDType   |ID type is set to 1 if the user is a Viva Engage user who connects by using their Viva Engage ID or 0 if they connect to Viva Engage by using their Microsoft 365 ID. <br/><br/>  Value is 1 to represent that this user connects to Viva Engage with their Viva Engage ID and not their Microsoft 365 ID   |
-|Timeframe   |Month value for which this table represents data for.   |
-|EXO_EmailSent   |Number of emails sent.   |
-|EXO_EmailReceived   |Number of emails received.   |
-|EXO_EmailRead   |Number of emails read activity the user performed, it could be multiple times reading an already read email, or an email received previously.   |
-|EXO_AppointmentCreated   |Number of appointments created.   |
-|EXO_MeetingAccepted   |Number of meetings accepted.   |
-|EXO_MeetingCancelled   |Number of meetings canceled.   |
-|EXO_MeetingDeclined   |Number of meetings declined.   |
-|EXO_MeetingSent   |Number of meetings sent.   |
-|ODB_FileViewedModified   |Number of files this user interacted with on any OneDrive (for example, created, updated, deleted, viewed, or downloaded).   |
-|ODB_FileSynched   |Number of files this user synchronized on any OneDrive.   |
-|ODB_FileSharedInternally   |Number of files this user shared internally from any OneDrive, or with users within groups (that might include external users).   |
-|ODB_FileSharedExternally   |Number of files this user shared externally from any OneDrive.   |
-|ODB_AccessedByOwner   |Number of sites the user interacted with that reside on their own OneDrive.   |
-|ODB_AccessedByOthers   |Number of sites this user interacted with which reside on another user's OneDrive.   |
-|SPO_GroupFileViewedModified   |Number of files this user interacted with on any group site.   |
-|SPO_GroupFileSynched   |Number of files this user synchronized on any group site.   |
-|SPO_GroupFileSharedInternally   |The count of files that are shared with users within the organization, or with users within groups (that might include external users).   |
-|SPO_GroupFileSharedExternally   |Number of files this user shared externally from any group site.   |
-|SPO_GroupAccessedByOwner   |Number of sites the user interacted with that reside on a group site that they own.   |
-|SPO_GroupAccessedByOthers   |Number of sites the user interacted with that reside on a group site that another user owns.   |
-|SPO_OtherFileViewedModified   |Number of files with which this user interacted on any other site.   |
-|SPO_OtherFileSynched   |Number of files this user synchronized from any other site.   |
-|SPO_OtherFileSharedInternally   |Number of files this user shared internally from any other site, or with users within groups (that might include external users).  |
-|SPO_OtherFileSharedExternally   |Number of files this user shared externally from any other site.   |
-|SPO_OtherAccessedByOwner   |Number of sites the user interacted with that reside on other site that they own.   |
-|SPO_OtherAccessedByOthers   |Number of sites the user interacted with that reside on other site that another user owns.   |
-|SPO_TeamFileViewedModified   |Number of files with which this user interacted on any team site.   |
-|SPO_TeamFileSynched   |Number of files this user synchronized from any team site.   |
-|SPO_TeamFileSharedInternally   |Number of files this user shared internally from any team site, or with users within groups (that might include external users).   |
-|SPO_TeamFileSharedExternally   |Number of files this user shared externally from any team site.   |
-|SPO_TeamAccessedByOwner   |Number of sites the user interacted with that reside on a team site that they own.   |
-|SPO_TeamAccessedByOthers   |Number of sites the user interacted with that reside on a team site that another user owns.   |
-|Teams_ChatMessages   |Number of chat messages sent.   |
-|Teams_ChannelMessage   |Number of messages posted to channels.   |
-|Teams_CallParticipate   |Number of calls the user participated in.   |
-|Teams_MeetingParticipate   |Number of meetings the user joined.   |
-|Teams_HasOtherAction   |Boolean value if the user performed other actions in Microsoft Teams.   |
-|YAM_MessagePost   |Number of Viva Engage messages this user posted.   |
-|YAM_MessageLiked   |Number of Viva Engage messages this user liked.   |
-|YAM_MessageRead   |Number of Viva Engage messages this user read.   |
-|SFB_P2PSummary   |Number of peer-to-peer sessions this user took part in.   |
-|SFB_ConfOrgSummary   |Number of conference sessions this user organized.   |
-|SFB_ConfPartSummary   |Number of conference sessions this user participated in.   |
+| **Column name**                   | **Column description** |
+| --------------------------------- |------------------------|
+| **UserID**                        | Unique user ID that represents a user and enables joining with other data tables within the data set. |
+| **IDType**                        | <ul><li>Set to 1 if the user is a Viva Engage user who connects using their Viva Engage ID.</li><li>Set to 0 if the user connects to Viva Engage using their Microsoft 365 ID.</li></ul> |
+| **Timeframe**                     | Month value for which this table represents data for. |
+| **EXO_EmailSent**                 | Number of emails sent. |
+| **EXO_EmailReceived**             | Number of emails received. |
+| **EXO_EmailRead**                 | <ul><li>Number of email read activities performed by the user.</li><li>Includes multiple reads of the same email.</li><li>Includes emails received in previous periods.</li></ul> |
+| **EXO_AppointmentCreated**        | Number of appointments created. |
+| **EXO_MeetingAccepted**           | Number of meetings accepted. |
+| **EXO_MeetingCancelled**          | Number of meetings canceled. |
+| **EXO_MeetingDeclined**           | Number of meetings declined. |
+| **EXO_MeetingSent**               | Number of meetings sent. |
+| **ODB_FileViewedModified**        | <ul><li>Number of files the user interacted with on any OneDrive.</li><li>Includes create, update, delete, view, or download actions.</li></ul> |
+| **ODB_FileSynched**               | Number of files the user synchronized on any OneDrive. |
+| **ODB_FileSharedInternally**      | <ul><li>Number of files shared internally from any OneDrive.</li><li>Includes sharing with users within groups.</li></ul> |
+| **ODB_FileSharedExternally**      | Number of files the user shared externally from any OneDrive. |
+| **ODB_AccessedByOwner**           | Number of OneDrive sites the user interacted with that they own. |
+| **ODB_AccessedByOthers**          | Number of OneDrive sites the user interacted with that are owned by another user. |
+| **SPO_GroupFileViewedModified**   | Number of files the user interacted with on any group site. |
+| **SPO_GroupFileSynched**          | Number of files the user synchronized on any group site. |
+| **SPO_GroupFileSharedInternally** | <ul><li>Files shared within the organization.</li><li>Includes sharing within groups.</li></ul> |
+| **SPO_GroupFileSharedExternally** | Number of files the user shared externally from any group site. |
+| **SPO_GroupAccessedByOwner**      | Number of group sites the user interacted with that they own. |
+| **SPO_GroupAccessedByOthers**     | Number of group sites the user interacted with that are owned by another user. |
+| **SPO_OtherFileViewedModified**   | Number of files the user interacted with on any other site. |
+| **SPO_OtherFileSynched**          | Number of files the user synchronized from any other site. |
+| **SPO_OtherFileSharedInternally** | <ul><li>Files shared internally from other sites.</li><li>Includes sharing within groups.</li></ul> |
+| **SPO_OtherFileSharedExternally** | Number of files the user shared externally from any other site. |
+| **SPO_OtherAccessedByOwner**      | Number of other sites the user interacted with that they own. |
+| **SPO_OtherAccessedByOthers**     | Number of other sites the user interacted with that are owned by another user. |
+| **SPO_TeamFileViewedModified**    | Number of files the user interacted with on any team site. |
+| **SPO_TeamFileSynched**           | Number of files the user synchronized from any team site. |
+| **SPO_TeamFileSharedInternally**  | <ul><li>Files shared internally from team sites.</li><li>Includes sharing within groups.</li></ul> |
+| **SPO_TeamFileSharedExternally**  | Number of files the user shared externally from any team site. |
+| **SPO_TeamAccessedByOwner**       | Number of team sites the user interacted with that they own. |
+| **SPO_TeamAccessedByOthers**      | Number of team sites the user interacted with that are owned by another user. |
+| **Teams_ChatMessages**            | Number of chat messages sent. |
+| **Teams_ChannelMessage**          | Number of messages posted to channels. |
+| **Teams_CallParticipate**         | Number of calls the user participated in. |
+| **Teams_MeetingParticipate**      | Number of meetings the user joined. |
+| **Teams_HasOtherAction**          | Boolean value indicating whether the user performed other actions in Microsoft Teams. |
+| **YAM_MessagePost**               | Number of Viva Engage messages the user posted. |
+| **YAM_MessageLiked**              | Number of Viva Engage messages the user liked. |
+| **YAM_MessageRead**               | Number of Viva Engage messages the user read. |
+| **SFB_P2PSummary**                | Number of peer-to-peer sessions the user took part in. |
+| **SFB_ConfOrgSummary**            | Number of conference sessions the user organized. |
+| **SFB_ConfPartSummary**           | Number of conference sessions the user participated in. |
+
 
 > [!NOTE]
 >
