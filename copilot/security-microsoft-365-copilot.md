@@ -41,11 +41,13 @@ For more information, see [Data, Privacy, and Security for Microsoft 365 Copilot
 
 Microsoft 365 Copilot is built on Microsoft 365 identity and access controls and aligns with Zero Trust principles such as strong identity verification, least‑privilege access, and continuous evaluation.
 
-For more information, see: [Apply principles of Zero Trust to Microsoft 365 Copilot](/security/zero-trust/copilots/zero-trust-microsoft-365-copilot).
+For more information, see [Apply principles of Zero Trust to Microsoft 365 Copilot](/security/zero-trust/copilots/zero-trust-microsoft-365-copilot).
 
 ## Data protection and compliance
 
 Microsoft 365 Copilot honors your organization's existing security and data protection controls. Copilot only accesses data that users are authorized to access, and it respects Microsoft 365 compliance, privacy, and data residency commitments.
+
+For more information, see [How data is protected and audited in Microsoft 365 and Microsoft 365 Copilot](microsoft-365-copilot-architecture-data-protection-auditing.md). 
 
 ### Enterprise data protection
 
