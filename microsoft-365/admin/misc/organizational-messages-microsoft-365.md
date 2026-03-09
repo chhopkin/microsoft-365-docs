@@ -62,11 +62,12 @@ Organizational Messages now include two new capabilities available in public pre
 
 - **Action Segments**: Admins can now target organizational messages based on usage behaviors. For the public preview, two predefined action segments are available for Copilot usage:
 
-  - Inactive Copilot Users.
-  - Inactive Copilot Users in Teams.
-
+  - Inactive Copilot users: all users with a Microsoft 365 Copilot license that have not used Copilot in the prior 28 days.
+    
+  - Inactive Copilot users in Teams: all users with a Microsoft 365 Copilot license that have not used Copilot in Teams in the prior 30 days.
+  
     You can't use **Action Segments** together with email messages during the public preview. **Action Segments** are available for the existing surfaces of Windows Spotlight, Taskbar, Notification Center, and Microsoft Teams notifications.
-
+    
 As we roll out the public preview for these features, we're excited to see how these features enhance communication and help drive Copilot adoption within your organization. We're committed to continuously improving these capabilities based on your feedback and usage.
 
 ## Requirements
