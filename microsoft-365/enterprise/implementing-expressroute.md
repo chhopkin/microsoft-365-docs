@@ -33,9 +33,9 @@ description: Learn how to implement ExpressRoute for Microsoft 365, which provid
 ExpressRoute for Microsoft 365 provides an alternate routing path to many internet facing Microsoft 365 services. The architecture of ExpressRoute for Microsoft 365 is based on advertising public IP prefixes of Microsoft 365 services that are already accessible over the Internet into your provisioned ExpressRoute circuits for subsequent redistribution of those IP prefixes into your network. With ExpressRoute you effectively enable several different routing paths, through the internet and through ExpressRoute, for many Microsoft 365 services. This state of routing on your network might represent a significant change to how your internal network topology is designed.
 
 > [!NOTE]
-> We **do not recommend** ExpressRoute for Microsoft 365 because it does not provide the best connectivity model for the service in most circumstances. As such, Microsoft authorization is required to use this connectivity model. We review every customer request and authorize ExpressRoute for Microsoft 365 only in the rare scenarios where it is necessary. Please read the [ExpressRoute for Microsoft 365 guide](https://www.microsoft.com/download/details.aspx?id=102899) for more information and following a comprehensive review of the document with your productivity, network, and security teams, work with your Microsoft account team to submit an exception if needed. Unauthorized subscriptions trying to create route filters for Microsoft 365 will receive an error message:
+> We **do not recommend** ExpressRoute for Microsoft 365 because it doesn't provide the best connectivity model for the service in most circumstances. As such, Microsoft authorization is required to use this connectivity model. We review every customer request and authorize ExpressRoute for Microsoft 365 only in the rare scenarios where it's necessary. Read the [ExpressRoute for Microsoft 365 guide](https://www.microsoft.com/download/details.aspx?id=102899) for more information and following a comprehensive review of the document with your productivity, network, and security teams, work with your Microsoft account team to submit an exception if needed. Unauthorized subscriptions trying to create route filters for Microsoft 365 will receive an error message:
 >
-> The customer subscription ID \<Azure subscription ID\> is not authorized for creating route filters for Microsoft365.
+> The customer subscription ID \<Azure subscription ID\> is not authorized for creating route filters for Microsoft 365.
 
 You have to carefully plan your ExpressRoute for Microsoft 365 implementation to accommodate for the network complexities of having routing available via both a dedicated circuit with routes injected into your core network and the internet. If you and your team don't perform the detailed planning and testing in this guide, there's a high risk you'll experience intermittent or a total loss of connectivity to Microsoft 365 services when the ExpressRoute circuit is enabled.
 
@@ -137,7 +137,7 @@ Once you understand the services and their associated network traffic flows, you
 1. Locations and portions of your internal network topology, where Microsoft IP prefixes learned from ExpressRoute will be accepted, filtered, and propagated to.
 1. The network topology should illustrate the geographic location of each network segment and how it connects to the Microsoft network over ExpressRoute and/or the Internet.
 
-The diagram below shows each location where people will be using Microsoft 365 from along with the inbound and outbound routing advertisements to Microsoft 365.
+The followiing diagram below shows each location where people will be using Microsoft 365 from along with the inbound and outbound routing advertisements to Microsoft 365:
 
 :::image type="content" source="../media/d866b36b-49bf-416b-af1b-d054e24989d2.png" alt-text="ExpressRoute regional geographic meet-me.":::
 
@@ -159,7 +159,7 @@ Similarly, the inbound network traffic from Microsoft 365 returns in one of thre
 
 ### Determine the appropriate meet-me location
 
-The selection of meet-me locations, which are the physical location where your ExpressRoute circuit connects your network to the Microsoft network, is influenced by the locations where people will access Microsoft 365 from. As a SaaS offering, Microsoft 365 doesn't operate under the IaaS or PaaS regional model in the same way Azure does. Instead, Microsoft 365 is a distributed set of collaboration services, where users might need to connect to endpoints across multiple datacenters and regions, which may not necessarily be in the same location or region where the user's tenant is hosted.
+The selection of meet-me locations, which are the physical location where your ExpressRoute circuit connects your network to the Microsoft network, is influenced by the locations where people will access Microsoft 365 from. As an SaaS offering, Microsoft 365 doesn't operate under the IaaS or PaaS regional model in the same way Azure does. Instead, Microsoft 365 is a distributed set of collaboration services, where users might need to connect to endpoints across multiple datacenters and regions, which may not necessarily be in the same location or region where the user's tenant is hosted.
 
 This means the most important consideration you need to make when selecting meet-me locations for ExpressRoute for Microsoft 365 is where the people in your organization will be connecting from. The general recommendation for optimal Microsoft 365 connectivity is to implement routing, so that user requests to Microsoft 365 services are handed off into the Microsoft network over the shortest network path, this is also often being referred to as 'hot potato' routing. For example, if most of the Microsoft 365 users are in one or two locations, selecting meet-me locations that are in the closest proximity to the location of those users will create the optimal design. If your company has large user populations in many different regions, you might want to consider having multiple ExpressRoute circuits and meet-me locations. For some of your user locations, the shortest/most optimal path into Microsoft network and Microsoft 365, might not be through your internal WAN and ExpressRoute meet-me points, but via the Internet.
 
@@ -169,9 +169,9 @@ Often, there are multiple meet-me locations that could be selected within a regi
 
 |Location  <br/> |Number of people  <br/> |Expected latency to Microsoft network over Internet egress  <br/> |Expected latency to Microsoft network over ExpressRoute  <br/> |
 |----------|-----------|----------|-----------|
-|Los Angeles  <br/> |10,000  <br/> |~15ms  <br/> |~10ms (via Silicon Valley)  <br/> |
-|Washington DC  <br/> |15,000  <br/> |~20ms  <br/> |~10ms (via New York)  <br/> |
-|Dallas  <br/> |5,000  <br/> |~15ms  <br/> |~40ms (via New York)  <br/> |
+|Los Angeles  <br/> |10,000  <br/> |~15 ms  <br/> |~10 ms (via Silicon Valley)  <br/> |
+|Washington DC  <br/> |15,000  <br/> |~20 ms  <br/> |~10 ms (via New York)  <br/> |
+|Dallas  <br/> |5,000  <br/> |~15 ms  <br/> |~40 ms (via New York)  <br/> |
 
 Once the global network architecture showing the Microsoft 365 region, ExpressRoute network service provider meet-me locations, and the quantity of people by location has been developed, it can be used to identify if any optimizations can be made. It may also show global hairpin network connections where traffic routes to a distant location in order to get the meet-me location. If a hairpin on the global network is discovered, it should be remediated before continuing. Either find another meet-me location, or use selective Internet breakout egress points to avoid the hairpin.
 
@@ -191,7 +191,7 @@ Alternatively, the 10 people in Bangladesh might experience better performance w
 ## Create your ExpressRoute for Microsoft 365 implementation plan
 <a name="implementation"> </a>
 
-Your implementation plan should encompass both the technical details of configuring ExpressRoute and the details of configuring all the other infrastructure on your network, such as the following.
+Your implementation plan should encompass both the technical details of configuring ExpressRoute and the details of configuring the other infrastructure on your network, such as the following.
 
 - Plan which services split between ExpressRoute and Internet.
 - Plan for bandwidth, security, high availability, and failover.
@@ -207,7 +207,7 @@ Your implementation plan should encompass both the technical details of configur
 - Plan end-user client LAN routing, such as [configuring a PAC/WPAD file](./managing-office-365-endpoints.md), default route, proxy servers, and BGP route advertisements.
 - Plan perimeter routing, including proxy servers, firewalls, and cloud proxies.
 
-### Plan your bandwidth, security, high availability, and failover
+### Plan your bandwidth, security, high availability, and fail over
 <a name="availability"> </a>
 
 Create a plan for bandwidth required for each major Microsoft 365 workload. Separately estimate Exchange Online, SharePoint, and Skype for Business Online bandwidth requirements. You can use the estimation calculators we've provided for Exchange Online and Skype for Business as a starting place; however, a pilot test with a representative sample of the user profiles and locations is required to fully understand the bandwidth needs of your organization.
@@ -271,7 +271,7 @@ There might be cases where you may choose to direct some inbound flows over Expr
 1. Once your on-premises inbound endpoints are advertised to Microsoft over ExpressRoute, ExpressRoute will effectively become the preferred routing path to those endpoints for all Microsoft services, including Microsoft 365. This means that those endpoint subnets must only be used for communications with Microsoft 365 services and no other services on the Microsoft network. Otherwise, your design will cause asymmetric routing where inbound connections from other Microsoft services prefer to route inbound over ExpressRoute, while the return path will use the Internet.
 1. In the event an ExpressRoute circuit or meet-me location is down, you'll need to ensure the on-premises inbound endpoints are still available to accept requests over a separate network path. This may mean advertising subnets for those endpoints through multiple ExpressRoute circuits.
 1. We recommend applying source NAT for all inbound network traffic flows entering your network through ExpressRoute, especially when these flows cross stateful network devices such as firewalls.
-1. Some on-premises services, such as ADFS proxy or Exchange autodiscover, may receive inbound requests from both Microsoft 365 services and users from the Internet. For these requests Microsoft 365 will target the same FQDN as user requests over the Internet. Allowing inbound user connections from the internet to those on-premises endpoints, while forcing Microsoft 365 connections to use ExpressRoute, represents significant routing complexity. For the vast majority of customers implementing such complex scenarios over ExpressRoute isn't recommended due to operational considerations. This additional overhead includes, managing risks of asymmetric routing and will require you to carefully manage routing advertisements and policies across multiple dimensions.
+1. Some on-premises services, such as ADFS proxy or Exchange autodiscover, may receive inbound requests from both Microsoft 365 services and users from the Internet. For these requests Microsoft 365 will target the same FQDN as user requests over the Internet. Allowing inbound user connections from the internet to those on-premises endpoints, while forcing Microsoft 365 connections to use ExpressRoute, represents significant routing complexity. For most customers implementing such complex scenarios over ExpressRoute isn't recommended due to operational considerations. This additional overhead includes, managing risks of asymmetric routing and will require you to carefully manage routing advertisements and policies across multiple dimensions.
 
 ### Update your network topology plan to show how you would avoid asymmetric routes
 <a name="asymmetric"> </a>
@@ -297,7 +297,7 @@ The following diagram illustrates the asymmetric network path taken when your ne
   - The server on your network routes the return traffic to Microsoft 365 through any available ExpressRoute network connection.
   - The result is an Asymmetric path for that flow to Microsoft 365, resulting in a broken connection.
 
-:::image type="content" source="../media/9c210c2a-e0ea-4180-8ede-1bf41746ce7a.png" alt-text="ExpressRoute Asymetric routing problem 1.":::
+:::image type="content" source="../media/9c210c2a-e0ea-4180-8ede-1bf41746ce7a.png" alt-text="ExpressRoute Asymmetric routing problem 1.":::
 
 ##### Solution 1a: Source NAT
 
@@ -306,7 +306,7 @@ Simply adding a source NAT to the inbound request resolves this misconfigured ne
 1. The incoming request continues to enter through the New Jersey data center's perimeter network. This time Source NAT is available.
 1. The response from the server routes back toward the IP associated with the Source NAT instead of the original IP address, resulting in the response returning along the same network path.
 
-:::image type="content" source="../media/0e87a155-f8de-48ed-92ac-27367b727a82.png" alt-text="ExpressRoute Asymetric routing solution 1.":::
+:::image type="content" source="../media/0e87a155-f8de-48ed-92ac-27367b727a82.png" alt-text="ExpressRoute Asymmetric routing solution 1.":::
 
 ##### Solution 1b: Route Scoping
 
@@ -315,7 +315,7 @@ Alternatively, you can choose to not allow the ExpressRoute BGP prefixes to be a
 1. The incoming request continues to enter through the New Jersey data center's perimeter network. This time the prefixes advertised from Microsoft over the ExpressRoute circuit aren't available to the New Jersey data center.
 1. The response from the server routes back toward the IP associated with the original IP address over the only route available, resulting in the response returning along the same network path.
 
-:::image type="content" source="../media/9cb4b2bf-7aa6-487a-bc02-e02af8a979f6.png" alt-text="ExpressRoute Asymetric routing solution 2.":::
+:::image type="content" source="../media/9cb4b2bf-7aa6-487a-bc02-e02af8a979f6.png" alt-text="ExpressRoute Asymmetric routing solution 2.":::
 
 #### Problem 2: Cloud to on-premises connection over ExpressRoute
 
@@ -327,7 +327,7 @@ The following diagram illustrates the asymmetric network path taken when your ne
   - The computer on your network routes the return traffic to Microsoft 365 through any available ExpressRoute network connection.
   - The result is an Asymmetric connection to Microsoft 365.
 
-:::image type="content" source="../media/f6fd155b-bbb7-472a-846e-039a99f09913.png" alt-text="ExpressRoute Asymetric routing problem 2.":::
+:::image type="content" source="../media/f6fd155b-bbb7-472a-846e-039a99f09913.png" alt-text="ExpressRoute Asymmetric routing problem 2.":::
 
 ##### Solution 2: Source NAT
 
@@ -336,7 +336,7 @@ Simply adding a source NAT to the inbound request resolves this misconfigured ne
 1. The incoming request continues to enter through the New York data center's perimeter network. This time Source NAT is available.
 1. The response from the server routes back toward the IP associated with the Source NAT instead of the original IP address, resulting in the response returning along the same network path.
 
-:::image type="content" source="../media/a5d2b90d-a3ec-4047-afbf-6e6e99f376a7.png" alt-text="ExpressRoute Asymetric routing solution 3.":::
+:::image type="content" source="../media/a5d2b90d-a3ec-4047-afbf-6e6e99f376a7.png" alt-text="ExpressRoute Asymmetric routing solution 3.":::
 
 ### Paper verify that the network design has path symmetry
 

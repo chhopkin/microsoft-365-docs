@@ -70,7 +70,7 @@ Microsoft 365 is designed for optimal performance using endpoint security and en
 
 Certain common performance issues are created when Microsoft 365 traffic is subject to packet inspection and centralized egress:
 
-- High latency can cause poor performance of video and audio streams, and slow response of data retrieval, searches, real-time collaboration, calendar free/busy information, in-product content and other services
+- High latency can cause poor performance of video and audio streams, and slow response of data retrieval, searches, real-time collaboration, calendar free/busy information, in-product content, and other services
 - Egressing connections from a central location defeats the dynamic routing capabilities of the Microsoft 365 global network, adding latency and round-trip time
 - Decrypting SSL secured Microsoft 365 network traffic and re-encrypting it can cause protocol errors and has security risk
 

@@ -36,7 +36,7 @@ Learn how Azure ExpressRoute is used with Microsoft 365 and how to plan the netw
 > [!NOTE]
 > We **do not recommend** ExpressRoute for Microsoft 365 because it doesn't provide the best connectivity model for the service in most circumstances. As such, Microsoft authorization is required to use this connectivity model. We review every customer request and authorize ExpressRoute for Microsoft 365 only in the rare scenarios where it's necessary. Read the [ExpressRoute for Microsoft 365 guide](https://www.microsoft.com/download/details.aspx?id=102899) for more information and following a comprehensive review of the document with your productivity, network, and security teams, work with your Microsoft account team to submit an exception if needed. Unauthorized subscriptions trying to create route filters for Microsoft 365 will receive an error message:
 >
-> The customer subscription ID \<Azure subscription ID\> is not authorized for creating route filters for Office 365.
+> The customer subscription ID \<Azure subscription ID\> isn't authorized for creating route filters for Office 365.
 
 ## Planning Azure ExpressRoute for Microsoft 365
 
@@ -71,7 +71,7 @@ The services that aren't included with ExpressRoute for Microsoft 365 are Micros
 > [!NOTE]
 > Microsoft Defender for Endpoint doesn't provide integration with Azure ExpressRoute. While this doesn't stop customers from defining ExpressRoute rules that enable connectivity from a private network to Microsoft Defender for Endpoint cloud services, it's up to the customer to maintain rules as the service or cloud infrastructure evolves.
 >
-> Outlook for Android, iOS, and Mac don't support integration with Azure ExpressRoute and have a required IP range to function properly. As such, any rules that impact AutoDiscover services need to be maintained by the customer.
+> Outlook for Android, iOS, and Mac don't support integration with Azure ExpressRoute and have a required IP range to function properly. As such, any rules that impact autodiscover services need to be maintained by the customer.
 
 ## Implementing ExpressRoute for Microsoft 365
 
