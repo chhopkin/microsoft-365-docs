@@ -10,7 +10,7 @@ manager: deniseb
 audience: Admin
 description: Learn how to strengthen your organization's security posture - track and maintain.
 ms.topic: solution-overview
-ms.service: microsoft-365-security
+ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 search.appverid: 
   - MET150
