@@ -68,15 +68,15 @@ Follow these steps to use eSignature for Microsoft Word.
 
 2. On the Word **Insert** ribbon, select **eSignatures fields**.
 
-    ![Screenshot of the eSignature fields option on the Insert ribbon in Word.](../media/content-understanding/esignature-fields-option-word.png)
+   ![Screenshot of the eSignature fields option on the Insert ribbon in Word.](../media/content-understanding/esignature-fields-option-word.png)
 
 3. From the side panel, select **Add recipient**.
 
-    ![Screenshot of the eSignature side panel in Word with the Add recipient option.](../media/content-understanding/esignature-add-recipient-option-word.png)
+   ![Screenshot of the eSignature side panel in Word with the Add recipient option.](../media/content-understanding/esignature-add-recipient-option-word.png)
 
 4. Add one or more recipients to sign the document.
 
-    ![Screenshot of the Recipient panel in Word.](../media/content-understanding/esignature-recipient-fields-word.png)
+   ![Screenshot of the Recipient panel in Word.](../media/content-understanding/esignature-recipient-fields-word.png)
 
 5. Select the document location where you want to add an eSignature field. From the side panel, select **Insert** to add signature fields to the document.
 
@@ -84,17 +84,15 @@ Follow these steps to use eSignature for Microsoft Word.
 
 1. Repeat step 5 for all fields you want to be inserted into the document.
 
-
-
-![Screenshot - free text field](media/esignature-create-request-word/screenshot---free-text-field.png)
+   ![Screenshot - free text field](media/esignature-create-request-word/screenshot---free-text-field.png)
 
 1. Optionally, you can add a message to the recipient.
 
-    ![Screenshot of the Optional message option in Word.](../media/content-understanding/esignature-optional-message-word.png)
+   ![Screenshot of the Optional message option in Word.](../media/content-understanding/esignature-optional-message-word.png)
    
 9. Select **Create request**.
 
-    ![Screenshot of the Create request button in Word.](../media/content-understanding/esignature-create-request-button-word.png)
+   ![Screenshot of the Create request button in Word.](../media/content-understanding/esignature-create-request-button-word.png)
 
 1. You'll receive a mail confirmation when the request was sent and recipients receive a link in mail to sign a PDF copy of the Word document.
 
