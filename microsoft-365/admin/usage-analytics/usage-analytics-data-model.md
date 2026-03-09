@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: efrene
 author: efrene
 manager: scotv
-ms.date: 02/19/2020
+ms.date: 03/09/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -32,12 +32,13 @@ description: "Learn how usage analytics connects to an API and provides monthly 
 ## Data for the Microsoft 365 usage analytics tables
 
 Microsoft 365 usage analytics connects to an API that exposes a multidimensional data model. The APIs that Microsoft 365 usage analytics uses to generate its data are from the various, generally available, Graph APIs. The function of the Microsoft 365 usage analytics API by itself isn't generally available.
-  
+
 > [!NOTE]
+>
 > For more information, see [Working with Microsoft 365 usage reports in Microsoft Graph](/graph/api/resources/report).
-  
+
 This API provides information about the monthly trend of usage of the various Microsoft 365 services. For the exact data returned by the API refer to the table in the following section.
-  
+
 ## Data tables returned by the Microsoft 365 Reporting API
 
 |**Table name**|**Information in the table**|**Date range**|
@@ -53,13 +54,27 @@ This API provides information about the monthly trend of usage of the various Mi
 |Tenant Office Activation   |Contains data about number of Office subscription activations, count of activation per device (Android/iOS/Mac/PC), activations by service plan, for example, Microsoft 365 Apps for enterprise, Visio, Project.   |Contains end-of-month state data for a rolling 12-month period including the current partial month.   |
 |User State   |Contains metadata about users, including user display name, products assigned, location, department, title, company. This data is about users who were assigned a license during the last complete month. Every user has a unique user ID.   |This data is about users that had a license assigned during the last complete month.   |
 |User Activity   |Contains per-user level information about activity performed by licensed users. <br/><br/>  See [active user definition](active-user-in-usage-reports.md) for information about the activities within a product that are returned in this data table.   |This data is about users that performed an activity in any of the services during the last complete month.   |
-   
+
+| **Table name** | **Information in the table** | **Date range** |
+|---------------|-----------------------------|----------------|
+| **Tenant Product Usage** | Monthly totals of:<br>- Enabled users<br>- Active users<br>- Month-over-month retained users<br>- First-time users<br>- Cumulative active users | Monthly aggregated data for a rolling 12‑month period, including the current partial month |
+| **Tenant Product Activity** | Monthly totals of activities and active user counts for product activities.<br><br>See [active user definition](active-user-in-usage-reports.md) for details about activities returned in this table. | Monthly aggregated data for a rolling 12‑month period, including the current partial month |
+| **Tenant Office Licenses** | Number of Microsoft Office subscriptions assigned to users | End‑of‑month state data for a rolling 12‑month period, including the current partial month |
+| **Tenant Mailbox Usage** | Mailbox data, including:<br>- Total mailbox count<br>- Storage usage | End‑of‑month state data for a rolling 12‑month period, including the current partial month |
+| **Tenant Client Usage** | Number of users actively using specific clients/devices to connect to:<br>- Exchange Online<br>- Skype for Business<br>- Viva Engage | Monthly aggregated data for a rolling 12‑month period, including the current partial month |
+| **Tenant SharePoint Usage** | SharePoint site data, including:<br>- Total sites (Teams or Groups sites)<br>- Document count<br>- File activity by type<br>- Storage usage | End‑of‑month state data for a rolling 12‑month period, including the current partial month |
+| **Tenant OneDrive Usage** | OneDrive account data, including:<br>- Number of accounts<br>- Document count across OneDrives<br>- Storage usage<br>- File activity by type | End‑of‑month state data for a rolling 12‑month period, including the current partial month |
+| **Tenant Microsoft 365 Groups Usage** | Microsoft 365 Groups usage data, including:<br>- Mailbox<br>- SharePoint<br>- Viva Engage | End‑of‑month state data for a rolling 12‑month period, including the current partial month |
+| **Tenant Office Activation** | Office subscription activation data, including:<br>- Total activations<br>- Activations per device (Android, iOS, Mac, PC)<br>- Activations by service plan (for example, Microsoft 365 Apps for enterprise, Visio, Project) | End‑of‑month state data for a rolling 12‑month period, including the current partial month |
+| **User State** | User metadata, including:<br>- Display name<br>- Assigned products<br>- Location<br>- Department<br>- Title<br>- Company<br><br>Includes users licensed during the last complete month. Each user has a unique user ID. | Users who had a license assigned during the last complete month |
+| **User Activity** | Per‑user activity data for licensed users.<br><br>See [active user definition](active-user-in-usage-reports.md) for details about activities returned in this table. | Users who performed an activity in any service during the last complete month |
+
 Expand the following sections to see the detailed information for each data table.
-  
+
 ### Data table - User State
 
 This table provides user level details for all users that have a license assigned to them during the last complete month. It brings in data from the Microsoft Entra ID.
-  
+
 |**Column name**|**Column description**|
 |:-----|:-----|
 |UserId   |Unique user ID that represents a user and enables joining with other data tables within the data set.   |
@@ -90,7 +105,7 @@ This table provides user level details for all users that have a license assigne
 ### Data table - User Activity
 
 This table contains data about each user who had an activity in any of the services in the previous month.
-  
+
 |**Column name**|**Column description**|
 |:-----|:-----|
 |UserID   |Unique user ID that represents a user and enables joining with other data tables within the data set.   |
@@ -141,12 +156,13 @@ This table contains data about each user who had an activity in any of the servi
 |SFB_ConfPartSummary   |Number of conference sessions this user participated in.   |
 
 > [!NOTE]
+>
 > Teams_HasOtherAction means user is considered active but has a zero value for the Chat Messages, 1:1 calls, Channel Messages, Total Meetings, and Meetings organized.
 
 ### Data table - Tenant Product Usage
 
 This table provides month-over-month adoption data in terms of enable, active, returning, and first-time users for each product within Microsoft 365. The Microsoft 365 values represent active usage in either of the products.
-  
+
 |**Column name**|**Column description**|
 |:-----|:-----|
 |Product   |Name of products for which the usage information is summarized. Microsoft 365 value in the product column represents activity across any of the products   |
@@ -161,7 +177,7 @@ This table provides month-over-month adoption data in terms of enable, active, r
 ### Data table - Tenant Product Activity
 
 This table provides monthly totals of activity and active user count for various activities within the products.
-  
+
 |**Column name**|**Column description**|
 |:-----|:-----|
 |Timeframe   |Month value. There is one row per product per month for the last 12 months including the current partial month.   |
@@ -175,7 +191,7 @@ This table provides monthly totals of activity and active user count for various
 ### Data table - Tenant Mailbox Usage
 
 This table consists of summary data across all licensed Exchange Online users who have a user mailbox. It contains end of month state across all user mailboxes. The data in this table isn't additive across multiple months. Latest month's data in this table represents the most recent state.
-  
+
 |**Column name**|**Column description**|
 |:-----|:-----|
 |TotalMailboxes   |Number of user mailboxes for Microsoft 365 subscription.   |
@@ -194,7 +210,7 @@ This table consists of summary data across all licensed Exchange Online users wh
 ### Data table - Tenant Client Usage
 
 This table provides month-over-month summary data about the clients that the users are using to connect to Exchange Online, Skype for Business and Viva Engage. This table doesn't yet have client use data for SharePoint and OneDrive.
-  
+
 |**Column name**|**Column description**|
 |:-----|:-----|
 |Product   |Name of the product within Microsoft 365 for which client usage data is available.   |
@@ -202,11 +218,11 @@ This table provides month-over-month summary data about the clients that the use
 |UserCount   |Number of users that used each of the clients for each product.   |
 |Timeframe   |Month value   |
 |Content Date   |If timeframe shows current month, this value represents the latest date of the current month for which data is available.  <br/><br/> If Timeframe shows previous month, this value represents the last date of the timeframe month.   |
-   
+
 ### Data table - Tenant SharePoint Usage
 
 This table consists of month over month summary data about the usage or activity of SharePoint sites. This only covers Team Sites and Group sites. The end of month state of SharePoint sites is represented in this column, for example, if a user created a five documents and used 10 MB for total storage, and then deleted some files, and added more files so that at the end of month state for files is seven total that use five MB of storage, the value of represented in this table is end of month state. This table is hidden to avoid duplicate count of aggregations and is used as a source to create two reference tables.
-  
+
 |**Column name**|**Column description**|
 |:-----|:-----|
 |SiteType   |Site type value (any/team/group) (any represents either of these two sites types).   |
@@ -223,7 +239,7 @@ This table consists of month over month summary data about the usage or activity
 ### Data table - Tenant OneDrive Usage
 
 This table provides data about the OneDrive accounts such as number of accounts, number of documents across OneDrive accounts, storage used, file count by activity type. The end of month state of OneDrive accounts is represented in this table. For example, if a user created a Five documents that used 10 MB of storage, and then deleted a few and added more files so that at the end of month they have seven files that use Five MB of storage, then the end of the month value is represented in this table at the end of the month.
-  
+
 |**Column name**|**Column description**|
 |:-----|:-----|
 |SiteType   |Value is "OneDrive".   |
@@ -236,11 +252,11 @@ This table provides data about the OneDrive accounts such as number of accounts,
 |ActivityTotalSites   |Number of OneDrive accounts that recorded any activity during the timeframe. If a OneDrive account had activity earlier in the timeframe, and was deleted by the end of the timeframe, it would still be counted in the active OneDrive account for that timeframe.   |
 |Timeframe   |This column has the date value. Used as Many to one relationship for Calendar table.   |
 |Content Date   |If timeframe shows current month, this value represents the latest date of the current month for which data is available.  <br/><br/> If Timeframe shows previous month, this value represents the last date of the timeframe month.   |
-   
+
 ### Data table - Tenant Microsoft 365 Groups Usage
 
 This table provides data about how Microsoft 365 Groups is used across the organization.
-  
+
 ****
 
 |**Column name**|**Column Description**|
@@ -280,8 +296,8 @@ This table provides data about how Microsoft 365 Groups is used across the organ
 
 ### Data table - Tenant Office Licenses
 
-This table provides month-over-month summary data about the license assignment for users. 
-  
+This table provides month-over-month summary data about the license assignment for users.
+
 |**Column name**|**Column description**|
 |:-----|:-----|
 |LicenseName   |Name of the license.   |
@@ -291,7 +307,7 @@ This table provides month-over-month summary data about the license assignment f
 ### Data table - Tenant Office Activation
 
 The table provides data about the number of Office subscription activations across the service plans, for example, Microsoft 365 Apps for enterprises, Visio, Project. It also provides data about number of activations per device (Android/iOS/Mac/PC).
-  
+
 |**Column name**|**Column description**|
 |:-----|:-----|
 |ServicePlanName   |List of the service plan name values and counts of activations by devices, as depicted by below columns.   |
