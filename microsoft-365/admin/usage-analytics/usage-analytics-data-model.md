@@ -61,40 +61,13 @@ Expand the following sections to see the detailed information for each data tabl
 
 This table provides user level details for all users that have a license assigned to them during the last complete month. It brings in data from the Microsoft Entra ID.
 
-|**Column name**|**Column description**|
-|:-----|:-----|
-|UserId   |Unique user ID that represents a user and enables joining with other data tables within the data set.   |
-|Timeframe   |Month value for which this table has data for.   |
-|UPN   |User principal name (UPN) uniquely identifies the user to be able to join with other external data sources.   |
-|DisplayName   |User's display name.   |
-|IDType   |ID type is set to 1 if the user is a Viva Engage user who connects by using their Viva Engage ID or 0 if they connect to Viva Engage by using their Microsoft 365 ID.  <br/><br/> Value is 1 to represent that this user connects to Viva Engage with their Viva Engage ID and not their Microsoft 365 ID   |
-|HasLicenseEXO   |Set to true if user is assigned a license and enabled to use Exchange on the last day of the month.   |
-|HasLicenseODB   |Set to true if user is assigned a license and enabled to use OneDrive on the last day of the month.   |
-|HasLicenseSPO   |Set to true if user is assigned a license and enabled to use SharePoint on the last day of the month.   |
-|HasLicenseYAM   |Set to true if user is assigned a license and enabled to use Viva Engage on the last day of the month.   |
-|HasLicenseSFB   |Set to true if user is assigned a license and enabled to use Skype For Business on the last day of the month.   |
-|HasLicenseTeams   |Set to true if user is assigned a license and enabled to use Microsoft Teams on the last day of the month.   |
-|Company   |Company data represented in Microsoft Entra ID for this user.   |
-|Department   |Department data represented in Microsoft Entra ID for this user.   |
-|LocationCity   |City data represented in Microsoft Entra ID for this user.   |
-|LocationCountry   |Country/region data represented in Microsoft Entra ID for this user.   |
-|LocationState   |State data represented in Microsoft Entra ID for this user.   |
-|LocationOffice   |User's office.   |
-|Title   |Title data represented in Microsoft Entra ID for this user.   |
-|Deleted   |True if the user was deleted from Microsoft 365 in that last complete month.   |
-|DeletedDate   |Date when the user was deleted from Microsoft 365.   |
-|YAM_State   |States of the user in the Viva Engage system, can be active, deleted, or suspended.   |
-|YAM_ActivationDate   |Date the user entered the state of being active in Viva Engage.   |
-|YAM_DeletionDate   |Date the user entered the state of being deleted in Viva Engage.   |
-|YAM_SuspensionDate   |Date the user entered the state of being suspended in Viva Engage.   |
-
 | **Column name**           | **Column description**                                                                                                    |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | **UserId**                | Unique user ID that represents a user and enables joining with other data tables within the data set.                     |
 | **Timeframe**             | Month value for which this table has data for.                                                                            |
 | **UPN**                   | User principal name (UPN) uniquely identifies the user to be able to join with other external data sources.               |
-| **DisplayName**           | User's display name. |
-| **IDType**                | ID type is set to 1 if the user is a Viva Engage user who connects by using their Viva Engage ID or 0 if they connect to Viva Engage by using their Microsoft 365 ID.<br><br>Value is 1 to represent that this user connects to Viva Engage with their Viva Engage ID and not their Microsoft 365 ID. |
+| **DisplayName**           | User's display name.                                                                                                      |
+| **IDType**                | Set to: <ul><li>1 if the user is a Viva Engage user who connects using their Viva Engage ID.</li><li>0 if the user connects to Viva Engage using their Microsoft 365 ID.</li></ul> |
 | **HasLicenseEXO**         | Set to true if the user is assigned a license and enabled to use Exchange on the last day of the month.                   |
 | **HasLicenseODB**         | Set to true if the user is assigned a license and enabled to use OneDrive on the last day of the month.                   |
 | **HasLicenseSPO**         | Set to true if the user is assigned a license and enabled to use SharePoint on the last day of the month.                 |
@@ -110,7 +83,7 @@ This table provides user level details for all users that have a license assigne
 | **Title**                 | Title data represented in Microsoft Entra ID for this user.                                                               |
 | **Deleted**               | True if the user was deleted from Microsoft 365 in the last complete month.                                               |
 | **DeletedDate**           | Date when the user was deleted from Microsoft 365.                                                                        |
-| **YAM_State**             | State of the user in the Viva Engage system. Values can be active, deleted, or suspended.                                 |
+| **YAM_State**             | State of the user in the Viva Engage system. Values can be: <ul><li>Active.</li><li>Deleted.</li><li>Suspended.</li></ul> |
 | **YAM_ActivationDate**    | Date the user entered the state of being active in Viva Engage.                                                           |
 | **YAM_DeletionDate**      | Date the user entered the state of being deleted in Viva Engage.                                                          |
 | **YAM_SuspensionDate**    | Date the user entered the state of being suspended in Viva Engage.                                                        |
