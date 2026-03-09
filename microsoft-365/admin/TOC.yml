@@ -22,6 +22,8 @@ items:
           items:
            - name: Sign up for Microsoft 365 Business Standard
              href: ../admin/simplified-signup/signup-business-standard.md
+           - name: Sign up for Microsoft 365 Business Standard FAQ
+             href: ../admin/simplified-signup/signup-business-standard-faq.yml
            - name: Set up Microsoft 365 Business Standard
              href: ../admin/setup/setup-business-standard.md
            - name: Invite users to Microsoft 365 for business subscription
@@ -406,6 +408,8 @@ items:
            href: setup/upgrade-users-to-latest-office-client.md
          - name: Organizational messages
            href: misc/organizational-messages-microsoft-365.md
+         - name: Organizational messages FAQ
+           href: misc/organizational-messages-microsoft-365-faq.yml
          - name: Place a mailbox on Litigation Hold
            href: misc/create-litigation-hold-mac.md
          - name: Integrated apps portal
