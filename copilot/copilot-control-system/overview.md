@@ -8,7 +8,7 @@ manager: scotv
 ms.reviewer: bensum
 ms.service: microsoft-365-copilot
 ms.topic: solution-overview
-ms.date: 10/09/2025
+ms.date: 02/25/2026
 ---
 
 # Copilot Control System overview
@@ -84,4 +84,4 @@ For more information, see [Microsoft 365 Copilot help & learning](https://suppor
   - [Management controls](management-controls.md)
   - [Measurement and reporting](measurement-reporting.md)
 - [Copilot Control System - Microsoft Adoption](https://adoption.microsoft.com/copilot/control-system/)
-- [Transparency note for Microsoft 365 Copilot](../microsoft-365-copilot-transparency-note.md)
+- [Application card: Microsoft 365 Copilot](../microsoft-365-copilot-application-card.md)

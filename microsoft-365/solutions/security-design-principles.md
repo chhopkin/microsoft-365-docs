@@ -48,7 +48,7 @@ Customers who sail over these hurdles have good partnerships between the Operati
 
 Next, adopt a Zero Trust architecture approach. This starts with building a modern, identity-based security perimeter. Design the security architecture where every access attempt, whether on-premises or cloud, is treated as untrusted until it's verified—"never trust, always verify." This design approach not only increases security and productivity, but it also allows users to work from anywhere with any device type. The sophisticated cloud controls included with Microsoft 365 help you protect users' identities while controlling access to valuable resources based on user risk level.
 
-For a recommended configuration, see [Identity and device access configurations](../security/office-365-security/zero-trust-identity-device-access-policies-overview.md).
+For a recommended configuration, see [Identity and device access configurations](/security/zero-trust/zero-trust-identity-device-access-policies-overview).
 
 ## Transition security controls to the cloud
 
@@ -76,8 +76,8 @@ To help you clear these hurdles, Microsoft has curated several resources designe
 
 |Resource   |More information  |
 |---------|---------|
-|[Top tasks for security teams to support working from home](../security/top-security-tasks-for-remote-work.md)      | If you find yourself suddenly supporting a mostly work-at-home workforce, this article helps you ramp up security quickly. It includes top recommended tasks based on your licensing plan.    |
-|[Microsoft 365 Zero Trust deployment plan](../security/microsoft-365-zero-trust.md)    | This article provides a deployment plan for building Zero Trust security with Microsoft 365. It includes a downloadable poster you can use to track your progress. |
+|[Top tasks for security teams to support working from home](/microsoft-365/security/top-security-tasks-for-remote-work)      | If you find yourself suddenly supporting a mostly work-at-home workforce, this article helps you ramp up security quickly. It includes top recommended tasks based on your licensing plan.    |
+|[Microsoft 365 Zero Trust deployment plan](/security/zero-trust/microsoft-365-zero-trust)    | This article provides a deployment plan for building Zero Trust security with Microsoft 365. It includes a downloadable poster you can use to track your progress. |
 |[Zero Trust Guidance Center](/security/zero-trust/)  | Learn about the Zero Trust security model, its principles, and how to implement a Zero Trust architecture using the deployment plans. |
 |[docs.security.com/security](/security/)    | Technical guidance from across Microsoft for security strategy and architecture.        |
 | | |

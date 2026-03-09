@@ -72,13 +72,11 @@ When managing Admin Controls, see the table for important definitions of terms r
 
 See visual diagram for an illustration of the relationships between the controls. 
 
-![Diagram showing the privacy controls overview.](media/people-skills-sharing-inferencing-controls/privacy-controls-overview.png)
+![Diagram showing the privacy controls overview.](media/privacy-sharing-access-controls-people6.png)
 
+## Overview of People Skills user experiences control
 
-
-## Overview of People Skills user experiences control 
-
-As an Admin, you can use the __People Skills user experiences__ control to turn off People Skills user experiences for your entire organization, user group subsets, or individual users. This control is the highest-level parent control – it disables all People Skills user experiences entirely for selected users and override and replace the access settings of all other controls. 
+As an Admin, you can use the __People Skills user experiences__ control to turn off People Skills user experiences for your entire organization, user group subsets, or individual users. This control is the highest-level parent control – it disables all People Skills user experiences entirely for selected users and override and replace the access settings of all other controls.
 
 #### What happens when People Skills user experiences are turned off?
 
@@ -182,10 +180,10 @@ Admins have the ability to enable or disable People Skills data sharing with Viv
 
 **Steps to enable or disable sharing with Viva Insights**
 
-![Screenshot: image that shows the user's image.](media/people-skills-sharing-inferencing-controls/image2.png)
+![Screenshot: image that shows the user's image.](media/people-skills-sharing-inferencing-controls/privacy-sharing-access-controls-people.png)
 
 
-![Screenshot that shows the user's image.](media/people-skills-sharing-inferencing-controls/image3.png)
+![Screenshot that shows the user's image.](media/people-skills-sharing-inferencing-controls/privacy-sharing-access-controls-people2.png)
 
 1. Navigate to **Settings** in the left rail of the M365 Admin Center
 
@@ -236,7 +234,7 @@ Below is some general guidance for creating policies:
 
 You can access Feature access management in the M365 Admin Center by following the below instructions:
 
-![Screenshot: showing the user's image.](media/people-skills-sharing-inferencing-controls/image4.png)![User's image](media/people-skills-sharing-inferencing-controls/image5.png)
+![Screenshot: showing the user's image.](media/people-skills-sharing-inferencing-controls/privacy-sharing-access-controls-people3.png)![User's image](media/people-skills-sharing-inferencing-controls/privacy-sharing-access-controls-people4.png)
 
 1. Navigate to **Settings** in the left rail of the M365 Admin Center
 
@@ -250,7 +248,7 @@ You can access Feature access management in the M365 Admin Center by following t
 
 1. Click on **Add policy**
 
-**Create a policy**![Screenshot: image that shows people skills sharing inference controls.](media/people-skills-sharing-inferencing-controls/image6.png)
+**Create a policy**![Screenshot: image that shows people skills sharing inference controls.](media/people-skills-sharing-inferencing-controls/privacy-sharing-access-controls-people5.png)
 
 You can create a policy for any of the available feature controls by following the below instructions: 
 
