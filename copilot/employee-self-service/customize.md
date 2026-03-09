@@ -80,7 +80,7 @@ End-users see the following customizable branding and content elements:
 |Disclaimer message                |Copilot Studio channels page and topic |Add a general disclaimer on the agent's landing page or add a disclaimer that displays after certain responses. |
 |Agent (global) instructions       |Copilot Studio overview page |Draft instructions that help shape your agent's personality, behavior for edge cases, and guidance on how to use user context. |
 
-You can customize most of these elements in Copilot Studio by selecting the **Edit** button in the **Overview** section of the agent. 
+You can customize most of these elements in Copilot Studio by selecting the **Edit** button in the **Overview** section of the agent.
 
 > [!NOTE]
 > Providing a custom name to the agent shows the provided name for end-users in the Copilot chat interface. Most other admin-related interfaces, such as analytics dashboards in Copilot Studio, Copilot Analytics under Viva Insights, Microsoft admin center, Power Platform admin center, and other billing reports for metered consumption, display the agent's name:
