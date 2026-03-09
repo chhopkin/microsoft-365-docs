@@ -41,47 +41,19 @@ This API provides information about the monthly trend of usage of the various Mi
 
 ## Data tables returned by the Microsoft 365 Reporting API
 
-|**Table name**|**Information in the table**|**Date range**|
-|:-----|:-----|:-----|
-|Tenant Product Usage  |Contains monthly totals of enabled, active users, month-over-month retained users, first-time users, and the cumulative active users. |Contains monthly aggregated data for a rolling 12-month period including the current partial month. |
-|Tenant Product Activity   |Contains monthly totals of activities and active user count for various activities within the products.  <br/><br/> See [active user definition](active-user-in-usage-reports.md) for information about the activities within a product that are returned in this data table.   |Contains monthly aggregated data for a rolling 12-month period including the current partial month.   |
-|Tenant Office Licenses   |Contains data about number of Microsoft Office subscriptions assigned to users   |Contains end-of-month state data for a rolling 12-month period including the current partial month.   |
-|Tenant Mailbox Usage   |Contains data about the user's mailbox, for total mailbox count and how storage is used.   |Contains end-of-month state data for a rolling 12-month period including the current partial month.   |
-|Tenant Client Usage   |Contains data about the number of users actively using specific client/devices to connect to Exchange Online, Skype for Business and Viva Engage.   |Contains monthly aggregated data for a rolling 12-month period including the current partial month.   |
-|Tenant SharePoint Usage   |Contains data about the SharePoint sites, covering Team or Groups sites such as total number of sites, number of documents on site, file count by activity type and storage used.   |Contains end-of-month state data for a rolling 12-month period including the current partial month.   |
-|Tenant OneDrive Usage   |Contains data about the OneDrive accounts such as number of accounts, number of documents across OneDrives, storage used, file count by activity type.   |Contains end-of-month state data for a rolling 12-month period including the current partial month.   |
-|Tenant Microsoft 365 Groups Usage   |Contains data about Microsoft 365 Groups usage including Mailbox, SharePoint, and Viva Engage.   |Contains end-of-month state data for a rolling 12-month period including the current partial month.   |
-|Tenant Office Activation   |Contains data about number of Office subscription activations, count of activation per device (Android/iOS/Mac/PC), activations by service plan, for example, Microsoft 365 Apps for enterprise, Visio, Project.   |Contains end-of-month state data for a rolling 12-month period including the current partial month.   |
-|User State   |Contains metadata about users, including user display name, products assigned, location, department, title, company. This data is about users who were assigned a license during the last complete month. Every user has a unique user ID.   |This data is about users that had a license assigned during the last complete month.   |
-|User Activity   |Contains per-user level information about activity performed by licensed users. <br/><br/>  See [active user definition](active-user-in-usage-reports.md) for information about the activities within a product that are returned in this data table.   |This data is about users that performed an activity in any of the services during the last complete month.   |
-
-| **Table name** | **Information in the table** | **Date range** |
-|---------------|-----------------------------|----------------|
-| **Tenant Product Usage** | Monthly totals of:<br>- Enabled users<br>- Active users<br>- Month-over-month retained users<br>- First-time users<br>- Cumulative active users | Monthly aggregated data for a rolling 12‑month period, including the current partial month |
-| **Tenant Product Activity** | Monthly totals of activities and active user counts for product activities.<br><br>See [active user definition](active-user-in-usage-reports.md) for details about activities returned in this table. | Monthly aggregated data for a rolling 12‑month period, including the current partial month |
-| **Tenant Office Licenses** | Number of Microsoft Office subscriptions assigned to users | End‑of‑month state data for a rolling 12‑month period, including the current partial month |
-| **Tenant Mailbox Usage** | Mailbox data, including:<br>- Total mailbox count<br>- Storage usage | End‑of‑month state data for a rolling 12‑month period, including the current partial month |
-| **Tenant Client Usage** | Number of users actively using specific clients/devices to connect to:<br>- Exchange Online<br>- Skype for Business<br>- Viva Engage | Monthly aggregated data for a rolling 12‑month period, including the current partial month |
-| **Tenant SharePoint Usage** | SharePoint site data, including:<br>- Total sites (Teams or Groups sites)<br>- Document count<br>- File activity by type<br>- Storage usage | End‑of‑month state data for a rolling 12‑month period, including the current partial month |
-| **Tenant OneDrive Usage** | OneDrive account data, including:<br>- Number of accounts<br>- Document count across OneDrives<br>- Storage usage<br>- File activity by type | End‑of‑month state data for a rolling 12‑month period, including the current partial month |
-| **Tenant Microsoft 365 Groups Usage** | Microsoft 365 Groups usage data, including:<br>- Mailbox<br>- SharePoint<br>- Viva Engage | End‑of‑month state data for a rolling 12‑month period, including the current partial month |
-| **Tenant Office Activation** | Office subscription activation data, including:<br>- Total activations<br>- Activations per device (Android, iOS, Mac, PC)<br>- Activations by service plan (for example, Microsoft 365 Apps for enterprise, Visio, Project) | End‑of‑month state data for a rolling 12‑month period, including the current partial month |
-| **User State** | User metadata, including:<br>- Display name<br>- Assigned products<br>- Location<br>- Department<br>- Title<br>- Company<br><br>Includes users licensed during the last complete month. Each user has a unique user ID. | Users who had a license assigned during the last complete month |
-| **User Activity** | Per‑user activity data for licensed users.<br><br>See [active user definition](active-user-in-usage-reports.md) for details about activities returned in this table. | Users who performed an activity in any service during the last complete month |
-
-| **Table name** | **Information in the table** | **Date range** |
-|---------------|-----------------------------|----------------|
-| **Tenant Product Usage** | Monthly totals of:<ul><li>Enabled users</li><li>Active users</li><li>Month-over-month retained users</li><li>First-time users</li><li>Cumulative active users</li></ul> | Monthly aggregated data for a rolling 12‑month period, including the current partial month |
-| **Tenant Product Activity** | Monthly totals of activities and active user counts for product activities.<br><br>See <a href="active-user-in-usage-reports.md">active user definition</a> for details about the activities returned in this table. | Monthly aggregated data for a rolling 12‑month period, including the current partial month |
-| **Tenant Office Licenses** | Number of Microsoft Office subscriptions assigned to users | End‑of‑month state data for a rolling 12‑month period, including the current partial month |
-| **Tenant Mailbox Usage** | Mailbox data, including:<ul><li>Total mailbox count</li><li>Storage usage</li></ul> | End‑of‑month state data for a rolling 12‑month period, including the current partial month |
-| **Tenant Client Usage** | Number of users actively using specific clients/devices to connect to:<ul><li>Exchange Online</li><li>Skype for Business</li><li>Viva Engage</li></ul> | Monthly aggregated data for a rolling 12‑month period, including the current partial month |
-| **Tenant SharePoint Usage** | SharePoint site data, including:<ul><li>Total sites (Teams or Groups sites)</li><li>Number of documents</li><li>File count by activity type</li><li>Storage used</li></ul> | End‑of‑month state data for a rolling 12‑month period, including the current partial month |
-| **Tenant OneDrive Usage** | OneDrive account data, including:<ul><li>Number of accounts</li><li>Number of documents across OneDrives</li><li>Storage used</li><li>File count by activity type</li></ul> | End‑of‑month state data for a rolling 12‑month period, including the current partial month |
-| **Tenant Microsoft 365 Groups Usage** | Microsoft 365 Groups usage data, including:<ul><li>Mailbox</li><li>SharePoint</li><li>Viva Engage</li></ul> | End‑of‑month state data for a rolling 12‑month period, including the current partial month |
-| **Tenant Office Activation** | Office subscription activation data, including:<ul><li>Total activations</li><li>Activations per device (Android, iOS, Mac, PC)</li><li>Activations by service plan (for example, Microsoft 365 Apps for enterprise, Visio, Project)</li></ul> | End‑of‑month state data for a rolling 12‑month period, including the current partial month |
-| **User State** | User metadata, including:<ul><li>Display name</li><li>Assigned products</li><li>Location</li><li>Department</li><li>Title</li><li>Company</li></ul>Includes users who were assigned a license during the last complete month. Each user has a unique user ID. | Users who had a license assigned during the last complete month |
-| **User Activity** | Per-user activity data for licensed users.<br><br>See <a href="active-user-in-usage-reports.md">active user definition</a> for details about the activities returned in this table. | Users who performed an activity in any service during the last complete month |
+| **Table name**                      | **Information in the table** | **Date range** |
+| ----------------------------------  | ---------------------------- | -------------- |
+| **Tenant Product Usage**            | Monthly totals of:<ul><li>Enabled users.</li><li>Active users.</li><li>Month-over-month retained users.</li><li>First-time users.</li><li>Cumulative active users.</li></ul> | Monthly aggregated data for a rolling 12‑month period, including the current partial month. |
+| **Tenant Product Activity**         | Monthly totals of activities and active user counts for product activities.<br><br>For more information about the activities returned in this table, see [Active user in Microsoft 365 usage reports](active-user-in-usage-reports.md). | Monthly aggregated data for a rolling 12‑month period, including the current partial month. |
+| **Tenant Office Licenses**          | Number of Microsoft Office subscriptions assigned to users. | End‑of‑month state data for a rolling 12‑month period, including the current partial month. |
+| **Tenant Mailbox Usage**            | Mailbox data, including:<ul><li>Total mailbox count.</li><li>Storage usage.</li></ul> | End‑of‑month state data for a rolling 12‑month period, including the current partial month. |
+| **Tenant Client Usage**             | Number of users actively using specific clients/devices to connect to:<ul><li>Exchange Online.</li><li>Skype for Business.</li><li>Viva Engage.</li></ul> | Monthly aggregated data for a rolling 12‑month period, including the current partial month. |
+| **Tenant SharePoint Usage**         | SharePoint site data, including:<ul><li>Total sites (Teams or Groups sites).</li><li>Number of documents.</li><li>File count by activity type.</li><li>Storage used.</li></ul> | End‑of‑month state data for a rolling 12‑month period, including the current partial month. |
+| **Tenant OneDrive Usage**           | OneDrive account data, including:<ul><li>Number of accounts.</li><li>Number of documents across OneDrives.</li><li>Storage used.</li><li>File count by activity type.</li></ul> | End‑of‑month state data for a rolling 12‑month period, including the current partial month. |
+| **Tenant Microsoft 365 Groups Usage** | Microsoft 365 Groups usage data, including:<ul><li>Mailbox.</li><li>SharePoint.</li><li>Viva Engage.</li></ul> | End‑of‑month state data for a rolling 12‑month period, including the current partial month. |
+| **Tenant Office Activation**        | Office subscription activation data, including:<ul><li>Total activations.</li><li>Activations per device (Android, iOS, Mac, PC).</li><li>Activations by service plan (for example, Microsoft 365 Apps for enterprise, Visio, Project).</li></ul> | End‑of‑month state data for a rolling 12‑month period, including the current partial month. |
+| **User State**                      | User metadata, including:<ul><li>Display name.</li><li>Assigned products.</li><li>Location.</li><li>Department.</li><li>Title.</li><li>Company.</li></ul>Includes users who were assigned a license during the last complete month. Each user has a unique user ID. | Users who had a license assigned during the last complete month. |
+| **User Activity**                   | Per-user activity data for licensed users.<br><br>For more information about the activities returned in this table, see [Active user in Microsoft 365 usage reports](active-user-in-usage-reports.md). | Users who performed an activity in any service during the last complete month. |
 
 Expand the following sections to see the detailed information for each data table.
 
@@ -115,6 +87,33 @@ This table provides user level details for all users that have a license assigne
 |YAM_ActivationDate   |Date the user entered the state of being active in Viva Engage.   |
 |YAM_DeletionDate   |Date the user entered the state of being deleted in Viva Engage.   |
 |YAM_SuspensionDate   |Date the user entered the state of being suspended in Viva Engage.   |
+
+| **Column name**           | **Column description**                                                                                                    |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **UserId**                | Unique user ID that represents a user and enables joining with other data tables within the data set.                     |
+| **Timeframe**             | Month value for which this table has data for.                                                                            |
+| **UPN**                   | User principal name (UPN) uniquely identifies the user to be able to join with other external data sources.               |
+| **DisplayName**           | User's display name. |
+| **IDType**                | ID type is set to 1 if the user is a Viva Engage user who connects by using their Viva Engage ID or 0 if they connect to Viva Engage by using their Microsoft 365 ID.<br><br>Value is 1 to represent that this user connects to Viva Engage with their Viva Engage ID and not their Microsoft 365 ID. |
+| **HasLicenseEXO**         | Set to true if the user is assigned a license and enabled to use Exchange on the last day of the month.                   |
+| **HasLicenseODB**         | Set to true if the user is assigned a license and enabled to use OneDrive on the last day of the month.                   |
+| **HasLicenseSPO**         | Set to true if the user is assigned a license and enabled to use SharePoint on the last day of the month.                 |
+| **HasLicenseYAM**         | Set to true if the user is assigned a license and enabled to use Viva Engage on the last day of the month.                |
+| **HasLicenseSFB**         | Set to true if the user is assigned a license and enabled to use Skype for Business on the last day of the month.         |
+| **HasLicenseTeams**       | Set to true if the user is assigned a license and enabled to use Microsoft Teams on the last day of the month.            |
+| **Company**               | Company data represented in Microsoft Entra ID for this user.                                                             |
+| **Department**            | Department data represented in Microsoft Entra ID for this user.                                                          |
+| **LocationCity**          | City data represented in Microsoft Entra ID for this user.                                                                |
+| **LocationCountry**       | Country/region data represented in Microsoft Entra ID for this user.                                                      |
+| **LocationState**         | State data represented in Microsoft Entra ID for this user.                                                               |
+| **LocationOffice**        | User's office.                                                                                                            |
+| **Title**                 | Title data represented in Microsoft Entra ID for this user.                                                               |
+| **Deleted**               | True if the user was deleted from Microsoft 365 in the last complete month.                                               |
+| **DeletedDate**           | Date when the user was deleted from Microsoft 365.                                                                        |
+| **YAM_State**             | State of the user in the Viva Engage system. Values can be active, deleted, or suspended.                                 |
+| **YAM_ActivationDate**    | Date the user entered the state of being active in Viva Engage.                                                           |
+| **YAM_DeletionDate**      | Date the user entered the state of being deleted in Viva Engage.                                                          |
+| **YAM_SuspensionDate**    | Date the user entered the state of being suspended in Viva Engage.                                                        |
 
 ### Data table - User Activity
 
