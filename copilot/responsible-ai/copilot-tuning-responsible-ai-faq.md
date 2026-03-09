@@ -1,10 +1,10 @@
 ---
 title: FAQ for Copilot Tuning
 f1.keywords:
-ms.author: lauragra
-author: lauragra
-manager: calvind
-ms.date: 09/24/2025
+author: mestew
+ms.author: mstewart
+manager: scotv
+ms.date: 02/11/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: faq
@@ -79,7 +79,7 @@ After using Copilot Tuning to create a task-specific, organization-specific agen
 
 ## Related content
 
-- [Transparency Note for Microsoft 365 Copilot](../microsoft-365-copilot-transparency-note.md)
+- [Application card: Microsoft 365 Copilot](../microsoft-365-copilot-application-card.md)
 - [Microsoft 365 Copilot Tuning overview (preview)](../copilot-tuning-overview.md)
 - [Microsoft AI principles](https://www.microsoft.com/ai/responsible-ai)
 - [Microsoft responsible AI resources](https://www.microsoft.com/ai/responsible-ai-resources)

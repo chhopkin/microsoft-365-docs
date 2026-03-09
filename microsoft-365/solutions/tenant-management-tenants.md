@@ -18,6 +18,7 @@ ms.collection:
 - must-keep
 ms.custom:
 - Ent_Solutions
+- m365-solutions-doc-set
 description: "Deploy and manage single or multiple Microsoft 365 tenants, with options for multi-geo and moving locations."
 ---
 
@@ -55,7 +56,7 @@ When you have multiple tenants, there are restrictions and additional considerat
 
 If you want your users to collaborate more effectively across different Microsoft 365 tenants in a secure manner, inter-tenant collaboration options include using a central location for files and conversations, sharing calendars, using IM, audio/video calls for communication, and securing access to resources and applications.
 
-For more information, see [Microsoft 365 inter-tenant collaboration](../enterprise/microsoft-365-inter-tenant-collaboration.md).
+For more information, see [Microsoft 365 inter-tenant collaboration](/microsoft-365/enterprise/microsoft-365-inter-tenant-collaboration).
 
 ### Cross-tenant mailbox migration (preview)
 
@@ -73,13 +74,13 @@ Here's the target tenant (Tenant A) after cross-tenant mailbox migration.
 
 In this illustration, a single tenant has both domains and both sets of Exchange mailboxes.
 
-For more information, see [Cross-tenant mailbox migration](../enterprise/cross-tenant-mailbox-migration.md).
+For more information, see [Cross-tenant mailbox migration](/microsoft-365/enterprise/cross-tenant-mailbox-migration).
 
 ### Tenant-to-tenant migrations
 
 There are several architectural approaches for mergers, acquisitions, divestitures, and other scenarios that might lead you to migrate an existing Microsoft 365 tenant to a new tenant.
 
-For detailed guidance, see [Microsoft 365 tenant-to-tenant migrations](../enterprise/microsoft-365-tenant-to-tenant-migrations.md).
+For detailed guidance, see [Microsoft 365 tenant-to-tenant migrations](/microsoft-365/enterprise/microsoft-365-tenant-to-tenant-migrations).
 
 ## Multi-Geo for a tenant
 
@@ -91,7 +92,7 @@ Here's an example of an organization that has its default location in Europe and
 
 ![Example of a multi-geo Microsoft 365 tenant.](../media/tenant-management-overview/tenant-management-example-multi-geo.png)
 
-For more information, see [Microsoft 365 Multi-Geo](../enterprise/microsoft-365-multi-geo.md).
+For more information, see [Microsoft 365 Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo).
 
 ## Moving core data to a new datacenter geo
 
@@ -103,7 +104,7 @@ Here's an example in which a Microsoft 365 tenant was moved from the European Un
 
 ![Example of moving a Microsoft 365 tenant between datacenter geos.](../media/tenant-management-overview/tenant-management-example-tenant-move.png)
 
-For more information, see [Moving core data to new Microsoft 365 datacenter geos](../enterprise/moving-data-to-new-datacenter-geos.md).
+For more information, see [Moving core data to new Microsoft 365 datacenter geos](/microsoft-365/enterprise/m365-dr-overview#migrationsmoves).
 
 ## Products and licenses for a tenant
 

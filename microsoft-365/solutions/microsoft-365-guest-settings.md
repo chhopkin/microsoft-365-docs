@@ -16,8 +16,9 @@ ms.collection:
 - m365solution-securecollab
 - m365initiative-externalcollab
 f1.keywords: NOCSH
-ms.custom: 
+ms.custom:
 - seo-marvel-apr2020
+- m365-solutions-doc-set
 - admindeeplinkTEAMS
 - admindeeplinkSPO
 ms.localizationpriority: medium
@@ -242,7 +243,7 @@ Because these settings are subject to the organization-wide settings for SharePo
 
 You can set guest sharing permissions for each site in SharePoint. This setting applies to both site sharing and file and folder sharing. (*Anyone* sharing is not available for site sharing. If you choose **Anyone**, users will be able to share files and folders by using *Anyone* links, and the site itself with new and existing guests.)
 
-If the site has a sensitivity label applied, that label might control the external sharing settings. For more information, see [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](../compliance/sensitivity-labels-teams-groups-sites.md).
+If the site has a sensitivity label applied, that label might control the external sharing settings. For more information, see [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites).
 
 **Navigation:** SharePoint admin center > <a href="https://go.microsoft.com/fwlink/?linkid=2185220" target="_blank">**Active sites**</a> > select the site > **Settings** tab > **More sharing settings**
 

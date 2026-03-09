@@ -8,7 +8,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: m365-planning
 ms.localizationpriority: medium
-ms.custom: 
+ms.custom: m365-solutions-doc-set
 f1.keywords: NOCSH
 ms.collection: 
 - highpri

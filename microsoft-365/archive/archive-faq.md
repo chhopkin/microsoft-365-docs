@@ -18,6 +18,25 @@ description: Read frequently asked questions about Microsoft 365 Archive.
 
 # Frequently asked questions about Microsoft 365 Archive
 
+#### Why can't I see the 'archive' button for file-level archive?
+
+The file-level archive preview allows end users to manually archive files. Starting at the beginning of April 2026, the following prerequisites must be met for the Archive action to be visible:
+
+1. **Billing enabled and Microsoft 365 Archive enabled**.  Pay-as-you-go billing must be configured, and Microsoft 365 Archive must be turned on in the tenant. These settings are required before file-level archive is available. For setup details, see [Admin setup](archive-setup.md).
+
+
+1. **File-level archive (preview) enabled via PowerShell**. During public preview, file-level archive must be explicitly turned on for the tenant by using PowerShell. When file-level archive reaches general availability, this step won’t be required, and file-level archive will be enabled by default when Microsoft 365 Archive is enabled. For details, see [Manage](archive-manage.md).  
+
+   1. **Site enabled for file-level archive [enabled by default]**. File-level archive is allowed on SharePoint sites by default, but admins can disable it per site by using PowerShell. If file-level archive is disabled for a site, the Archive action isn’t available for files on that site. For details, see [Manage](archive-manage.md).  
+      
+1. **User permissioned for archiving**. To archive a file, the user must have 'edit' permissions to the file.  
+
+File-level archive is currently available only on SharePoint sites. Other limitations, such as certain file types, can prevent users from archiving files.  See the full list in the Limitations section of [Overview](archive-overview.md#limitations).
+
+#### How does file-level archive (preview) impact my site-level storage?
+
+File-level archive doesn’t change site storage usage or quota behavior. Archived files are accounted for in site storage the same way as active files. Archiving a file doesn’t reduce reported storage usage, change storage calculations, or affect quota enforcement. Because archived files continue to consume site storage, file-level archive can’t be used to reduce storage usage or store data beyond a site’s allocated quota.
+
 #### What is the difference between Microsoft 365 Archive and SharePoint Advanced Management?
 
 - Microsoft 365 Archive gives the ability to archive a site in SharePoint.
@@ -28,7 +47,7 @@ description: Read frequently asked questions about Microsoft 365 Archive.
 
 #### How does Azure Blob compare to Microsoft 365 Archive?
 
-Microsoft 365 Archive allows you to keep your data in place in SharePoint, providing the following benefits not possible when the data is migrated elsewhere:
+Microsoft 365 Archive allows you to keep data in place in SharePoint, providing benefits that aren’t possible when data is migrated elsewhere:
 
 - Archiving happens quickly, usually within minutes, regardless of the amount or size of content being archived.
 
@@ -38,17 +57,17 @@ Microsoft 365 Archive allows you to keep your data in place in SharePoint, provi
 
 - Sites are archived and rehydrated without loss of metadata, security versioning, and more.
 
+#### What happens to versions for archived files?
+
+Archived files retain all versions. When an archived file is reactivated, all existing versions are restored. Versions can’t be archived independently of the file they belong to.
+
 #### Can content in legal hold be archived?
 
 Yes, nearly all Microsoft Purview features continue to operate as normal.
 
 #### Is content in archived sites searchable?
 
-Admin-level search and Purview-based search operate like normal. End-user search isn't currently supported, but end-user search is on our roadmap.
-
-#### Can I archive at the site-level and file-level?
-
-Currently, only full-site archiving and reactivating is possible in this offering. File-level granular archiving support will be released in 2026. For more information, see the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap?id=477371).
+Admin-level search and Purview-based search operate like normal. End-user search is supported.  To learn more, visit [End-user search.](search/m365-archive-search-overview.md)
 
 #### What’s the availability timing of Microsoft 365 Archive for Microsoft Government Community Cloud (GCC) customers?
 
@@ -64,9 +83,9 @@ You won't be charged for archive storage as long as your combined storage (stand
 
 In eligible EDU tenants, the pooled storage quota is applied. For more information, see [Education offering for Microsoft 365 Archive](archive-education-offering.md#pooled-storage-eligibility).
 
-#### Does archived content get returned in Copilot for Microsoft 365 queries?
+#### Does archived content get returned in Microsoft 365 Copilot queries?
 
-No, archived content isn't used by Copilot for Microsoft 365. 
+No, archived content isn't used by Microsoft 365 Copilot. 
 
 #### Can you delete an archived site, should you no longer need it?  
 

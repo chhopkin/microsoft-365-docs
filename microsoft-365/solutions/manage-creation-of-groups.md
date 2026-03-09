@@ -14,6 +14,7 @@ ms.custom:
   - has-azure-ad-ps-ref
   - azure-ad-ref-level-one-done
   - admindeeplinkMAC
+  - m365-solutions-doc-set
 ms.collection: 
 - highpri
 - M365-subscription-management
@@ -91,7 +92,7 @@ Admins in the roles listed previously don't need to be members of this group; th
 
 4. Finish setting up the group, adding people or other groups who you want to be able to create groups as members (not owners).
 
-For detailed instructions, see [Create, edit, or delete a security group in the Microsoft 365 admin center](../admin/email/create-edit-or-delete-a-security-group.md).
+For detailed instructions, see [Create, edit, or delete a security group in the Microsoft 365 admin center](/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
 
 ## Step 2: Run PowerShell commands
 
@@ -113,7 +114,7 @@ Run the script by typing:
 
 `.\GroupCreators.ps1`
 
-Then, [sign in with your administrator account](../enterprise/connect-to-microsoft-365-powershell.md#step-2-connect-to-azure-ad-for-your-microsoft-365-subscription) when prompted.
+Then, [sign in with your administrator account](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#step-2-connect-to-azure-ad-for-your-microsoft-365-subscription) when prompted.
 
 ```PowerShell
 Import-Module Microsoft.Graph.Beta.Identity.DirectoryManagement
@@ -195,7 +196,7 @@ Try the same procedure again with a member of the group.
 
 - [Collaboration governance planning recommendations](collaboration-governance-overview.md#collaboration-governance-planning-recommendations)
 - [Create your collaboration governance plan](collaboration-governance-first.md)
-- [Getting started with Office 365 PowerShell](../enterprise/getting-started-with-microsoft-365-powershell.md)
+- [Getting started with Office 365 PowerShell](/microsoft-365/enterprise/getting-started-with-microsoft-365-powershell)
 - [Set up self-service group management in Microsoft Entra ID](/azure/active-directory/users-groups-roles/groups-self-service-management)
 - [Set-ExecutionPolicy](/powershell/module/microsoft.powershell.security/set-executionpolicy)
 - [Microsoft Entra cmdlets for configuring group settings](/azure/active-directory/users-groups-roles/groups-settings-cmdlets)

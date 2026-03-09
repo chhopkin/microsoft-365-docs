@@ -265,9 +265,9 @@ For more information, see [Manage Microsoft 365 Copilot agents in the Microsoft 
 
 In the [Microsoft 365 admin center](https://admin.microsoft.com), select **Copilot** > **Settings** > **Data access** > **AI providers for other large language models**.
 
-This setting allows users to use other large language models (LLM) in Copilot Chat and Copilot Studio. For example, they can use Claude models by Anthropic within your Microsoft products. Anthropic hosts these models outside of Microsoft.
+This setting allows users to use other large language models (LLM) in Copilot Chat and Copilot Studio. For example, they can use Claude models by Anthropic within your Microsoft products.
 
-For more information, see [Connect to AI models](connect-to-ai-models.md).
+For more information, see [Connect to AI models](connect-to-ai-subprocessor.md).
 
 ### Copilot in Power Platform and Dynamics 365
 
@@ -305,8 +305,7 @@ Microsoft Purview has many features to help get your data ready for Copilot, suc
 For more information, see the following articles:
 
 - [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview)
-- [Microsoft 365 Copilot admin guide for E3 + SAM licenses](microsoft-365-copilot-e3-guide.md)
-- [Microsoft 365 Copilot admin guide for E5 + SAM licenses](microsoft-365-copilot-e5-guide.md)
+- [Configure data security for Microsoft 365 Copilot](configure-data-security-copilot.md)
 
 ### People Skills in Microsoft 365 Copilot
 

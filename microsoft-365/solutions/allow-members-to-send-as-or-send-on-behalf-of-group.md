@@ -16,7 +16,9 @@ ms.collection:
 - Adm_O365
 - m365solution-collabgovernance
 - Tier1
-ms.custom: admindeeplinkEXCHANGE
+ms.custom:
+  - admindeeplinkEXCHANGE
+  - m365-solutions-doc-set
 search.appverid:
 - MET150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590

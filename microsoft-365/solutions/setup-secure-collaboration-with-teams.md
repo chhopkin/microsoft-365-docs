@@ -16,6 +16,7 @@ ms.collection:
 - m365solution-overview
 ms.custom:
 - M365solutions
+- m365-solutions-doc-set
 - seo-marvel-jun2020
 f1.keywords: NOCSH
 recommendations: false
@@ -178,8 +179,8 @@ When you're ready to set up a secure collaboration environment, follow these ste
 
 ## See also
 
-[Microsoft 365 security documentation](../security/index.yml)
+[Microsoft 365 security documentation](/microsoft-365/security/)
 
-[Microsoft Purview documentation](../compliance/index.yml)
+[Microsoft Purview documentation](/purview/)
 
 [Welcome to Microsoft Teams](/MicrosoftTeams/Teams-overview)

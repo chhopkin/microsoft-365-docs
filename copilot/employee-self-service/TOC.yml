@@ -19,6 +19,8 @@ items:
           href: customize.md
         - name: Craft agent instructions
           href: design-best-practices.md
+        - name: Make agent multilingual
+          href: employee-self-service-multilingual.md
         - name: Sharepoint advanced filtering
           href: sharepoint-filtering.md
         - name: Emotional intelligence and ambiguity
@@ -29,10 +31,18 @@ items:
       href: publish.md
     - name: Agent handoff
       href: agent-handoff.md
+    - name: Agent evaluations
+      href: evaluations.md
 - name: Integrate external systems
   items:
     - name: SAP SuccessFactors
       href: sapsuccessfactors.md
+    - name: SAP SuccessFactors Read and Write scenarios  
+      items:
+      - name: Employee read and write scenarios
+        href: sap-employee-read-write-scenarios.md
+      - name: Manager read and write scenarios 
+        href: sap-manager-read-write-scenarios.md
     - name: Workday
       items:
         - name: Integrating Workday
@@ -65,8 +75,12 @@ items:
           href: servicenow-hrsd-itsm.md
         - name: ServiceNow Live agent
           href: servicenow-live-agent.md
-- name: Usage analytics, feedback, audits, logging
+- name: Usage analytics
   href: usage-analytics.md
+- name: Review user feedback
+  href: feedback.md
+- name: Auditing and Logging
+  href: auditing-logging.md
 - name: Known issues and limitations
   href: known-issues-limitations.md
 - name: Responsible AI FAQ

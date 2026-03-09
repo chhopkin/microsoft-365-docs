@@ -13,8 +13,9 @@ ms.collection:
 - highpri
 - M365-collaboration
 - m365solution-collabgovernance
-ms.custom: 
+ms.custom:
 - M365solutions
+- m365-solutions-doc-set
 f1.keywords: NOCSH
 recommendations: false
 description: "Learn about governing access in Microsoft 365 groups, Teams, and SharePoint."
@@ -33,7 +34,7 @@ The following table provides a quick reference for the access controls available
 ||Control who can share files, folders, and sites.|[Set up and manage access requests](https://support.microsoft.com/office/94b26e0b-2822-49d4-929a-8455698654b3)|
 |Conditional access|||
 ||Multifactor authentication|[Microsoft Entra multifactor authentication](/azure/active-directory/authentication/concept-mfa-howitworks)|
-||Control device access based on group, team, or site sensitivity.|[Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](../compliance/sensitivity-labels-teams-groups-sites.md)|
+||Control device access based on group, team, or site sensitivity.|[Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites)|
 ||Limit site access for unmanaged devices.|[Control SharePoint access from unmanaged devices](/sharepoint/control-access-from-unmanaged-devices)|
 ||Control site access based on location|[Control access to SharePoint and OneDrive data based on network location](/sharepoint/control-access-based-on-network-location)|
 ||Enforce more stringent access conditions when users access SharePoint sites.|[Conditional access policy for SharePoint sites and OneDrive](/sharepoint/authentication-context-example)|
@@ -45,7 +46,7 @@ The following table provides a quick reference for the access controls available
 ||Control the expiration of anonymous sharing links.|[Set an expiration date for Anyone links](./best-practices-anonymous-sharing.md#set-an-expiration-date-for-anyone-links)|
 ||Control the type of sharing link shown to users by default.|[Change the default link type for a site](/sharepoint/change-default-sharing-link)|
 ||Limit external sharing to specific people.|[Limit external sharing to specified security groups](./share-limit-accidental-exposure.md#limit-sharing-of-files-folders-and-sites-with-people-outside-your-organization-to-specified-security-groups)|
-||Control guest access to a group, team, or site based on information sensitivity.|[Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](../compliance/sensitivity-labels-teams-groups-sites.md)|
+||Control guest access to a group, team, or site based on information sensitivity.|[Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites)|
 ||Turn off sharing options.|[Limit sharing in Microsoft 365](./microsoft-365-limit-sharing.md)|
 |User management|||
 ||Review team and group membership regularly.|[What are Microsoft Entra access reviews?](/azure/active-directory/governance/access-reviews-overview)|
@@ -53,11 +54,11 @@ The following table provides a quick reference for the access controls available
 ||Limit OneDrive access to members of a specific security group.|[Restrict OneDrive access by security group](/sharepoint/limit-access)|
 ||Restrict teams or site access to members of a group.|[Restrict SharePoint site access to members of a group](/sharepoint/restricted-access-control)|
 |Information classification|||
-||Classify groups and teams|[Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](../compliance/sensitivity-labels-teams-groups-sites.md)|
-||Automatically classify sensitive content|[Apply a sensitivity label to content automatically](../compliance/apply-sensitivity-label-automatically.md)|
-||Encrypt sensitive content|[Restrict access to content by using sensitivity labels to apply encryption](../compliance/encryption-sensitivity-labels.md)|
+||Classify groups and teams|[Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites)|
+||Automatically classify sensitive content|[Apply a sensitivity label to content automatically](/purview/apply-sensitivity-label-automatically)|
+||Encrypt sensitive content|[Restrict access to content by using sensitivity labels to apply encryption](/purview/encryption-sensitivity-labels)|
 |User segmentation|||
-||Restrict communication between user segments|[Information barriers](../compliance/information-barriers.md)|
+||Restrict communication between user segments|[Information barriers](/purview/information-barriers)|
 |Data residency|||
 ||Store data in specific geo-locations|[Microsoft 365 Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo)|
 
@@ -80,7 +81,7 @@ With Microsoft 365, you can require multifactor authentication for both people i
 
 If you have sensitive information in some of your groups and teams, you can enforce device management policies based on a group or team's sensitivity label. You can block access entirely from unmanaged devices, or allow limited, web only access:
 
-- [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](../compliance/sensitivity-labels-teams-groups-sites.md)
+- [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites)
 
 In SharePoint, you can restrict access to sites from specified network locations.
 
@@ -122,7 +123,7 @@ If your organization has sensitive data that you need to share with guests, but 
 
 Groups and Teams have organization-level settings that allow or deny guest access. While you can [restrict guest access to specific teams or groups by using Microsoft PowerShell](per-group-guest-access.md), we recommend doing this by means of a sensitivity label. With sensitivity labels you can automatically allow or deny guest access based on the label applied:
 
-- [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](../compliance/sensitivity-labels-teams-groups-sites.md)
+- [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites)
 
 In an environment where you frequently invite guests to groups and teams, consider setting up regularly scheduled guest access reviews. Owners can be prompted to review guests in their groups and teams and approve or deny access.
 
@@ -178,25 +179,25 @@ Additional resources:
 
 You can use sensitivity labels to govern guest access, group and team privacy, and access by unmanaged devices for groups and teams. When a user applies the label, these settings are automatically configured as specified by the label settings.
 
-- [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](../compliance/sensitivity-labels-teams-groups-sites.md)
+- [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites)
 
 You can configure Microsoft 365 to auto-apply sensitivity labels to files and emails based on the criteria that you specify, including detecting sensitive information types or pattern matching with trainable classifiers.
 
-- [Apply a sensitivity label to content automatically](../compliance/apply-sensitivity-label-automatically.md)
+- [Apply a sensitivity label to content automatically](/purview/apply-sensitivity-label-automatically)
 
 You can use sensitivity labels to encrypt files, allowing only those with permissions to decrypt and read them.
 
-- [Restrict access to content by using sensitivity labels to apply encryption](../compliance/encryption-sensitivity-labels.md)
+- [Restrict access to content by using sensitivity labels to apply encryption](/purview/encryption-sensitivity-labels)
 
 Additional resources:
 
-- [Learn about sensitivity labels](../compliance/sensitivity-labels.md)
+- [Learn about sensitivity labels](/purview/sensitivity-labels)
 
 ## User segmentation
 
 With information barriers, you can segment your data and users to restrict unwanted communication and collaboration between groups and avoid conflicts of interest in your organization. Information barriers let you create policies to allow or prevent file collaboration, chatting, calling, or meeting invitations between groups of people in your organization.
 
-- [Information barriers](../compliance/information-barriers.md)
+- [Information barriers](/purview/information-barriers)
 
 - [Information barriers in Microsoft Teams](/microsoftteams/information-barriers-in-teams)
 

@@ -17,7 +17,7 @@ ms.collection:
 - remotework
 - m365solution-remotework
 - m365solution-scenario
-ms.custom: 
+ms.custom: m365-solutions-doc-set
 description: Use Microsoft Intune family of products to manage your manage devices, PCs, and other endpoints.
 ---
 
@@ -72,7 +72,7 @@ For more information, see this [overview of Windows Autopilot](/windows/deployme
 
 ## Admin technical resources for endpoint management
 
-- [Device management roadmap for Microsoft 365](../enterprise/device-management-roadmap-microsoft-365.md)
+- [Device management roadmap for Microsoft 365](/microsoft-365/enterprise/device-management-roadmap-microsoft-365)
 - [How to enroll different types of devices for mobile device management](/mem/intune/enrollment/device-enrollment)
 - [How to educate your end users about Microsoft Intune](/mem/intune/fundamentals/end-user-educate)
  
