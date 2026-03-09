@@ -36,30 +36,17 @@ As with any SaaS service and the Internet overall, the scope of natively IPv6 en
 
 Most of Microsoft 365 services have been or will be enabled with IPv6 capabilities transparently for end users and IT admins. Some Microsoft 365 scenarios (such as anonymous inbound e-mail) do have special requirements and considerations for use in conjunction with IPv6. For more details about scenario specific IPv6 requirements and considerations, contact your Microsoft account team or Microsoft support.
 
-Here's a short link you can use to come back: [https://aka.ms/o365ip6](https://aka.ms/o365ip6)
+## Related content
 
-## See also
-
-[Microsoft 365 Network Connectivity Overview](microsoft-365-networking-overview.md)
-
-[Managing Office 365 endpoints](managing-office-365-endpoints.md)
-
-[Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md)
-
-[Office 365 IP Address and URL Web service](microsoft-365-ip-web-service.md)
-
-[Assessing Microsoft 365 network connectivity](assessing-network-connectivity.md)
-
-[Network planning and performance tuning for Microsoft 365](network-planning-and-performance.md)
-
-[Office 365 performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
-
-[Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md)
-
-[Content Delivery Networks](content-delivery-networks.md)
-
-[Microsoft 365 connectivity test](https://aka.ms/netonboard)
-
-[How Microsoft builds its fast and reliable global network](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)
-
-[Office 365 Networking blog](https://techcommunity.microsoft.com/t5/Office-365-Networking/bd-p/Office365Networking)
+- [Microsoft 365 Network Connectivity Overview](microsoft-365-networking-overview.md)
+- [Managing Microsoft 365 endpoints](managing-office-365-endpoints.md)
+- [Microsoft 365 URLs and IP address ranges](urls-and-ip-address-ranges.md)
+- [Microsoft 365 IP Address and URL Web service](microsoft-365-ip-web-service.md)
+- [Assessing Microsoft 365 network connectivity](assessing-network-connectivity.md)
+- [Network planning and performance tuning for Microsoft 365](network-planning-and-performance.md)
+- [Microsoft 365 performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
+- [Performance troubleshooting plan for Microsoft 365](performance-troubleshooting-plan.md)
+- [Content Delivery Networks](content-delivery-networks.md)
+- [Microsoft 365 connectivity test](https://connectivity.office.com/)
+- [How Microsoft builds its fast and reliable global network](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)
+- [Microsoft 365 Networking blog](https://techcommunity.microsoft.com/t5/Office-365-Networking/bd-p/Office365Networking)
