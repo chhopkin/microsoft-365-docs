@@ -178,7 +178,7 @@ Each **Optimize** category route for Exchange Online, SharePoint Online, and Mic
 
 #### Customers in your metropolitan area with better performance
 
-Network latency between the user office location and the Exchange Online service is compared to other Microsoft 365 customers in the same metro area. A network insight is shown if 10% or more of customers in the same metro area have better performance. This means their users have better performance in the Microsoft 365 user interface.
+Network latency between the user office location and the Exchange Online service is compared to other Microsoft 365 customers in the same metropolitan area. A network insight is shown if 10% or more of customers in the same metropolitan area have better performance. This means their users have better performance in the Microsoft 365 user interface.
 
 This network insight is generated on the basis that all users in a city have access to the same telecommunications infrastructure and the same proximity to Internet circuits and Microsoft's network.
 
@@ -402,14 +402,14 @@ The advanced test client uses SignalR to communicate to the web page. For this, 
 
 ### What is Microsoft 365 service front door?
 
-The Microsoft 365 service front door is an entry point on Microsoft's global network where Microsoft 365 clients and services terminate their network connection. For an optimal network connection to Microsoft 365, It's recommended that your network connection is terminated into the closest Microsoft 365 front door in your city or metro.
+The Microsoft 365 service front door is an entry point on Microsoft's global network where Microsoft 365 clients and services terminate their network connection. For an optimal network connection to Microsoft 365, It's recommended that your network connection is terminated into the closest Microsoft 365 front door in your city or metropolitan area.
 
 > [!NOTE]
 > Microsoft 365 service front door has no direct relationship to the **Azure Front Door Service** product available in the Azure marketplace.
 
 ### What is the best Microsoft 365 service front door?
 
-A best Microsoft 365 service front door (formerly known as an optimal service front door) is one that is closest to your network egress, generally in your city or metro area. Use the Microsoft 365 network performance tool to determine location of your in-use Microsoft 365 service front door and the best service front door(s). If the tool determines your in-use front door is one of the best ones, then you should expect great connectivity into Microsoft's global network.
+A best Microsoft 365 service front door (formerly known as an optimal service front door) is one that is closest to your network egress, generally in your city or metropolitan area. Use the Microsoft 365 network performance tool to determine location of your in-use Microsoft 365 service front door and the best service front door(s). If the tool determines your in-use front door is one of the best ones, then you should expect great connectivity into Microsoft's global network.
 
 ### What is an internet egress location?
 

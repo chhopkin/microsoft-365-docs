@@ -50,7 +50,7 @@ Windows Location Service must be consented on the machines. You can test this by
 
 You don't need to add locations in the Admin Center with this method as they're automatically identified at the city resolution. Multiple office locations within the same city won't be shown when using Windows Location Services. Location information is rounded to the nearest 300 meters by 300 meters so that more precise location information isn't accessed. Use of Windows Location Services for network measurements is off by default for customers. You must enable it in the Network Connectivity Settings Location flyout.
 
-      :::image type="content" source="../media/m365-mac-perf/m365-mac-perf-location-enable.png" alt-text="Enable location" border="true":::
+:::image type="content" source="../media/m365-mac-perf/m365-mac-perf-location-enable.png" alt-text="Enable location" border="true":::
 
 The machines should have Wi-Fi networking rather than an ethernet cable. Machines with an ethernet cable don't have accurate location information.
 
