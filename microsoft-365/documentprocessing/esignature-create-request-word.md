@@ -84,7 +84,7 @@ Follow these steps to use eSignature for Microsoft Word.
 
 1. Repeat step 5 for all fields you want to be inserted into the document.
 
-   ![Screenshot - free text field](media/esignature-create-request-word/screenshot---free-text-field.png)
+   :::image type="content" source="../media/esignature-create-request-word/screenshot---free-text-field.png" lightbox="../media/esignature-create-request-word/screenshot---free-text-field.png" alt-text="Screenshot that shows a free text field.":::
 
 1. Optionally, you can add a message to the recipient.
 
