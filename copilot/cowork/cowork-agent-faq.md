@@ -1,7 +1,7 @@
 ---
 title: "Cowork agent FAQ (Frontier)"
 description: "Frequently asked questions about the Cowork agent in Microsoft 365 Copilot."
-ms.date: 02/27/2026
+ms.date: 03/10/2026
 ms.topic: article
 author: leeclontz
 manager: KumarVivek
@@ -32,7 +32,9 @@ Cowork can handle a wide range of everyday work tasks, including:
 - Post in Teams channels and conversations.
 - Organize your calendar and prepare daily briefings.
 - Search across your organization for files, people, and information.
+- Browse web pages to gather information from URLs you provide.
 - Draft stakeholder communications and other professional content.
+- Attach people, meetings, and Teams channels to your conversations to give Cowork context about your work.
 
 ## What skills does Cowork have?
 
@@ -58,7 +60,7 @@ Getting started takes just a few steps.
 
 1. Open  [Microsoft 365 Copilot](https://m365.cloud.microsoft).
 2. Select the **Cowork agent** from the agent list (or use **@Cowork** to mention it).
-3. Describe the task you want to accomplish. You can type up to 16,000 characters, and attach files by dragging them into the chat or using the file picker.
+3. Describe the task you want to accomplish. You can type up to 16,000 characters, attach files by dragging them into the chat or using the file picker, and mention people, meetings, or Teams channels to give Cowork more context.
 4. Send your message. Cowork begins processing your request.
 
 ## What file types does Cowork support?
@@ -89,7 +91,7 @@ Yes. You can preview the following file types directly in the conversation:
 - Images
 - HTML
 
-Select a file to open an inline preview. You can also go full-screen or open the file in its native app.
+Select a file to open an inline preview. For PDF files, you can scroll through all pages and use **Ctrl+F** (or **Cmd+F** on Mac) to search within the document. You can also go full-screen or open the file in its native app.
 
 ## How does action approval work?
 
@@ -116,13 +118,6 @@ Yes. You have the following controls:
 
 Cowork automatically reconnects and picks up where it left off. Progress made while you were disconnected is preserved, so you don't lose any work.
 
-## Can I use my voice to talk to Cowork?
-
-Yes. Select the microphone button in the chat input to speak your message. Cowork transcribes your words and sends them as text.
-
-> [!NOTE]
-> Voice input availability depends on your browser. Not all browsers support this feature.
-
 ## How do I manage my projects and tasks?
 
 Cowork gives you the following ways to stay organized:
@@ -144,7 +139,7 @@ Yes. Every action Cowork takes is authorized through your Microsoft 365 account.
 
 You can share feedback in the following ways:
 
-- **Thumbs up / thumbs down**: Rate any response from Cowork directly in the conversation.
+- **Thumbs up / thumbs down**: Rate any response from Cowork directly in the conversation. You can also add inline comments on specific content to provide detailed feedback.
 - **Document feedback**: When previewing a file Cowork created, use the feedback controls to rate it.
 - **General feedback**: To share broader thoughts about your experience, open the menu and select the feedback option.
 
@@ -155,6 +150,10 @@ Yes. When Cowork references information in a response, you can open the **Source
 ## Does Cowork ask me questions?
 
 Yes. Sometimes Cowork needs more information to complete your request. When this happens, it presents a question with a set of choices for you to pick from. You can select an option, type your own answer, or select **Skip** to let Cowork continue without additional input. The task status shows **Needs user input** when Cowork is waiting for your answer.
+
+## Can I see how long each step takes?
+
+Yes. When Cowork completes a step, a timing indicator shows how long it took. This helps you understand which parts of your request take the most time.
 
 ## Related content
 
