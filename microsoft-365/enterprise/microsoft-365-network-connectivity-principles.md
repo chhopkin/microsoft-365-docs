@@ -60,7 +60,7 @@ The primary goal in the network design should be to minimize latency by reducing
 <a name="BKMK_P1"> </a>
 ### Identify and differentiate Microsoft 365 traffic
 
-:::image type="content" source="../media/621aaec9-971d-4f19-907a-1ae2ef6d72fc.png" alt-text="Identify Microsoft 365 traffic.":::
+:::image type="content" source="../media/621aaec9-971d-4f19-907a-1ae2ef6d72fc.png" alt-text="Screenshot that shows the Identify Microsoft 365 traffic.":::
   
 Identifying Microsoft 365 network traffic is the first step in being able to differentiate that traffic from generic internet-bound network traffic. Microsoft 365 connectivity can be optimized by implementing a combination of approaches like network route optimization, firewall rules, browser proxy settings. Additionally, bypassing of network inspection devices for certain endpoints is also beneficial.
   
@@ -71,7 +71,7 @@ Microsoft publishes all Microsoft 365 endpoints as a web service and provides gu
 <a name="BKMK_P2"> </a>
 ### Egress network connections locally
 
-:::image type="content" source="../media/b42a45be-1ab4-4073-a7dc-fbdfb4aedd24.png" alt-text="Egress network connections locally.":::
+:::image type="content" source="../media/b42a45be-1ab4-4073-a7dc-fbdfb4aedd24.png" alt-text="Screenshot that shows Egress network connections locally.":::
   
 Local DNS and internet egress is of critical importance for reducing connection latency and ensuring that user connections are made to the nearest point of entry to Microsoft 365 services. In a complex network topology, it's important to implement both local DNS and local internet egress together.
   
@@ -81,11 +81,11 @@ In a traditional network architecture, all outbound internet connections travers
   
 Enterprise WANs are often designed to backhaul network traffic to a central company head office for inspection before egress to the internet, usually through one or more proxy servers. The following diagram illustrates such a network topology.
   
-:::image type="content" source="../media/fc87b8fd-a191-47a7-9704-1e445599813a.png" alt-text="Traditional enterprise network model.":::
+:::image type="content" source="../media/fc87b8fd-a191-47a7-9704-1e445599813a.png" alt-text="Screenshot that shows traditional enterprise network model.":::
   
 Because Microsoft 365 runs on the Microsoft Global Network, which includes front-end servers around the world, there's often a front-end server close to the user's location. By providing local internet egress and by configuring internal DNS servers to provide local name resolution for Microsoft 365 endpoints, network traffic destined for Microsoft 365 can connect to Microsoft 365 front end servers as close as possible to the user. The following diagram shows an example of a network topology that allows users connecting from main office, branch office, and remote locations to follow the shortest route to the closest Microsoft 365 entry point.
   
-:::image type="content" source="../media/4d4c07cc-a928-42b8-9a54-6c3741380a33.png" alt-text="WAN network model with regional egress points.":::
+:::image type="content" source="../media/4d4c07cc-a928-42b8-9a54-6c3741380a33.png" alt-text="Screenshot that shows WAN network model with regional egress points.":::
   
 Shortening the network path to Microsoft 365 entry points in this way can improve connectivity performance and the end-user experience in Microsoft 365. It can also help to reduce the effect of future changes to the network architecture on Microsoft 365 performance and reliability.
   
@@ -93,7 +93,7 @@ Also, DNS requests can introduce latency if the responding DNS server is distant
   
 While regional egress can work well for Microsoft 365, the optimum connectivity model would be to always provide network egress at the user's location, regardless of whether it is on the corporate network or remote locations such as homes, hotels, coffee shops, and airports. This local direct egress model is represented in the following diagram.
   
-:::image type="content" source="../media/6bc636b0-1234-4ceb-a45a-aadd1044b39c.png" alt-text="Local egress network architecture.":::
+:::image type="content" source="../media/6bc636b0-1234-4ceb-a45a-aadd1044b39c.png" alt-text="Screenshot that shows local egress network architecture.":::
   
 Enterprises who have adopted Microsoft 365 can take advantage of the Microsoft Global Network's Distributed Service Front Door architecture by ensuring that user connections to Microsoft 365 take the shortest possible route to the nearest Microsoft Global Network entry point. The local egress network architecture does this by allowing Microsoft 365 traffic to be routed over the nearest egress, regardless of user location.
   
@@ -106,7 +106,7 @@ The local egress architecture has the following benefits over the traditional mo
 <a name="BKMK_P3"> </a>
 ### Avoid network hairpins
 
-:::image type="content" source="../media/ee53e8af-f57b-4292-a256-4f36733b263a.png" alt-text="Avoid hairpins.":::
+:::image type="content" source="../media/ee53e8af-f57b-4292-a256-4f36733b263a.png" alt-text="Screenshot that shows to avoid hairpins.":::
   
 As a general rule of thumb, the shortest, most direct route between user and closest Microsoft 365 endpoint offers the best performance. A network hairpin happens when WAN or VPN traffic bound for a particular destination is first directed to another intermediate location (such as security stack, cloud access broker, or cloud-based web gateway), introducing latency and potential redirection to a geographically distant endpoint. Network hairpins are also caused by routing/peering inefficiencies or suboptimal (remote) DNS lookups.
   
@@ -119,7 +119,7 @@ Due to the large number of distributed locations with Microsoft 365 entry points
 <a name="BKMK_P4"> </a>
 ### Assess bypassing proxies, traffic inspection devices, and duplicate security technologies
 
-:::image type="content" source="../media/0131930d-c6cb-4ae1-bbff-fe4cf6939a23.png" alt-text="Bypass proxies, traffic inspection devices, and duplicate security technologies.":::
+:::image type="content" source="../media/0131930d-c6cb-4ae1-bbff-fe4cf6939a23.png" alt-text="Screenshot that shows to bypass proxies, traffic inspection devices, and duplicate security technologies.":::
   
 Enterprise customers should review their network security and risk reduction methods specifically for Microsoft 365 bound traffic and use Microsoft 365 security features to reduce their reliance on intrusive, performance impacting, and expensive network security technologies for Microsoft 365 network traffic.
   
