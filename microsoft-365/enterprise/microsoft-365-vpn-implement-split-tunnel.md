@@ -42,7 +42,7 @@ In this article, you'll find the steps required to migrate your VPN client archi
 
 The following diagram illustrates how the recommended VPN split tunnel solution works:
 
-:::image type="content" source="../media/vpn-split-tunneling/vpn-split-tunnel-example.png" alt-text="Split tunnel VPN solution detail.":::
+:::image type="content" source="../media/vpn-split-tunneling/vpn-split-tunnel-example.png" alt-text="Screenshot that shows Split tunnel VPN solution detail.":::
 
 ### 1. Identify the endpoints to optimize
 
