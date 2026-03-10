@@ -53,7 +53,7 @@ The following network endpoints are used to download the Office for Mac installa
 |:-----|:-----|:-----|
 |```https://go.microsoft.com/fwlink/```  <br/> |ST  <br/> |Microsoft 365 Installation Portal forward link service to latest installation packages.  <br/> |
 |```https://officecdn-microsoft-com.akamaized.net/```  <br/> |SS  <br/> |Location of installation packages on the Content Delivery Network.  <br/> |
-|```https://officecdn.microsoft.com/```  <br/> |SS  <br/> |Location of installation packages on the Content Delivery Network.  <br/> |
+|```https://res.public.onecdn.static.microsoft/mro1cdnstorage/```  <br/> |SS  <br/> |Location of installation packages on the Content Delivery Network.  <br/> |
 |```https://officeci-mauservice.azurewebsites.net/```  <br/> |ST  <br/> |Management Control endpoint for Microsoft AutoUpdate  <br/> |
 |```https://res.public.onecdn.static.microsoft/mro1cdnstorage/```  <br/> |  <br/> |Enhanced content delivery network (CDN) for Microsoft AutoUpdate updates  <br/> |
 
