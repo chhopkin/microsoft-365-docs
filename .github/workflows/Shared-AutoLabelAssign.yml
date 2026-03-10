@@ -1435,7 +1435,29 @@ jobs:
 
                                     # Get permission level of user who created the comment. Need to use .role_name instead of .permission because .permission provides only legacy values. 
                                     # .role_name provides legacy plus triage, maintain, and custom roles like write-elevated.
-                                    $UserPermission = $(Invoke-RestMethod -Method GET -Headers $GitHubHeaders -Uri $UserPermissionUrl).role_name
+                                    # Copilot isn't a real user so attempting to retrieve its permissions on the repo will fail. Set $UserPermission to read if copilot is the submitter.
+                                    If ($PrCreator -ne "copilot") {
+
+                                        Try {
+                                        
+                                            $UserPermission = $(Invoke-RestMethod -Method GET -Headers $GitHubHeaders -Uri $UserPermissionUrl).role_name
+
+                                        } Catch {
+
+                                            Write-Host "Failed to retrieve user permission for $PrCreator. Defaulting to read. Error: $_"
+
+                                            $UserPermission = "read"
+
+                                        }
+
+                                    } Else {
+
+                                        Write-Host "PR creator is copilot. Defaulting to read permissions."
+
+                                        $UserPermission = "read"
+
+                                    }
+                                    
 
                                     # Only add reviewers if the submitter can't sign off on their own PR.
                                     If (($UserPermission -eq "read") -or ($UserPermission -eq "") -or ($UserPermission -eq $Null)) {
