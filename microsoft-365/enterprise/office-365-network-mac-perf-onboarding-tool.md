@@ -46,7 +46,7 @@ The Microsoft 365 network connectivity test tool is located at <https://connecti
 > [!IMPORTANT]
 > It's important to sign in to your Microsoft 365 tenant as all test reports are shared with your administrator and uploaded to the tenant while you're signed in.
 
-:::image type="content" source="../media/m365-mac-perf/m365-mac-perf-test-tool-page.png" alt-text="Connectivity test tool.":::
+:::image type="content" source="../media/m365-mac-perf/m365-mac-perf-test-tool-page.png" alt-text="Screenshot of the Connectivity test tool.":::
 
 Network insights in the Microsoft 365 admin center [https://admin.cloud.microsoft/#/networkperformance](https://admin.cloud.microsoft/#/networkperformance) are based on regular in-product measurements for your Microsoft 365 tenant, aggregated each day. In comparison, network insights from the Microsoft 365 network connectivity test tool [https://connectivity.m365.cloud.microsoft](https://connectivity.m365.cloud.microsoft/)are run locally in the tool.
 
@@ -62,21 +62,21 @@ Here are some example scenarios for using the Microsoft 365 network connectivity
 
 A user complains about being unable to access Microsoft 365 Copilot, and you suspect WebSocket protocol may be blocked for the user. You need to quickly validate if the WebSocket connection is successful for the user. You can ask the user to go to [the network connectivity test tool](https://connectivity.m365.cloud.microsoft/) and select **Run test**. This triggers a set of basic tests including a WebSocket connection test for Copilot, and the user will find the results of the test in the details pane. If WebSocket was blocked for the user, you wouldn't see a green tick but instead a warning to show that the WebSocket connection is blocked. 
 
-:::image type="content" source="media/office-365-network-mac-perf-onboarding-tool/websocketpass.jpg" alt-text="Connectivity test - web socket pass.":::
+:::image type="content" source="media/office-365-network-mac-perf-onboarding-tool/websocketpass.jpg" alt-text="Screenshot that shows the Connectivity test - web socket pass.":::
 
-:::image type="content" source="media/office-365-network-mac-perf-onboarding-tool/wssfail.jpg" alt-text="Connectivity test - WSS fail.":::
+:::image type="content" source="media/office-365-network-mac-perf-onboarding-tool/wssfail.jpg" alt-text="Screenshot that shows the Connectivity test - WSS fail.":::
 
 #### Scenario 2
 
 You receive complaints from users in a branch office that they experience slow connection to Microsoft 365 services. You suspect this could be due to some recent network infrastructure changes at the branch office that results in higher network latency for the users. You can ask the users at the branch office to go to [the network connectivity test tool](https://connectivity.m365.cloud.microsoft/) and select **Run test**. This triggers a set of basic tests including tests to show the distance to network egress and network latency experienced by the user for Exchange online service. In the following screenshot you'll notice that the user is based in Washington state and the network egress is in Arizona. This increases the network latency for the user and the result also shows that 33% of users in Washington state have better a network connection. 
 
-:::image type="content" source="media/office-365-network-mac-perf-onboarding-tool/networkegressfaraway.jpg" alt-text="Connectivity test - network egress far away.":::
+:::image type="content" source="media/office-365-network-mac-perf-onboarding-tool/networkegressfaraway.jpg" alt-text="Screenshot of the Connectivity test - network egress far away.":::
 
 #### Scenario 3
 
 You receive complaints from users in an office location that they experience broken page load while visiting SharePoint sites or Outlook web access or Microsoft admin center web pages. You suspect this could be due to some recent network infrastructure changes at the office location that results in blocked network connections to unified domains like `*.static.microsoft` or `*.usercontent.microsoft` domains. You can ask the users at the branch office to go to [the network connectivity test tool](https://connectivity.m365.cloud.microsoft/) and run the advanced diagnostics test by downloading and running the exe. The results will show you if there are any network connections blocked for the required Microsoft 365 domains published in the article [Microsoft 365 URLs and IP address ranges](urls-and-ip-address-ranges.md).
 
-:::image type="content" source="media/office-365-network-mac-perf-onboarding-tool/unifieddomainsblocked.jpg" alt-text="Connectivity test - unified domains blocked.":::
+:::image type="content" source="media/office-365-network-mac-perf-onboarding-tool/unifieddomainsblocked.jpg" alt-text="Screenshot that shows the Connectivity test - unified domains are blocked.":::
 
 ## What happens at each test step
 
@@ -96,7 +96,7 @@ There are two parts to the Microsoft 365 network connectivity test: the web site
 
 You'll be prompted to download the advanced client test application from the web site after the web browser tests have completed. Open and run the file when prompted.
 
-:::image type="content" source="../media/m365-mac-perf/m365-mac-perf-open-run-file.png" alt-text="Advanced tests client application.":::
+:::image type="content" source="../media/m365-mac-perf/m365-mac-perf-open-run-file.png" alt-text="Screenshot of the Advanced tests client application.":::
 
 ### Start the advanced tests client application
 
@@ -122,23 +122,23 @@ Test reports (excluding any personal identification) are shared with Microsoft e
 
 You can choose users to share your report with. Being able to choose is enabled by default, but it can be disabled by your administrator.
 
-:::image type="content" source="../media/m365-mac-perf/m365-mac-perf-share-to-user.png" alt-text="Sharing a link to your test results with a user.":::
+:::image type="content" source="../media/m365-mac-perf/m365-mac-perf-share-to-user.png" alt-text="Screenshot that shows the sharing a link to your test results with a user.":::
 
 ### Sharing with anyone using a ReportID link
 
 You can share your test report with anyone by providing access to a ReportID link. This link generates a URL that you can send to someone so that they can bring up the test report without signing in. This sharing is disabled by default and must be enabled by your administrator.
 
-:::image type="content" source="../media/m365-mac-perf/m365-mac-perf-share-link.png" alt-text="Sharing a link to your test results.":::
+:::image type="content" source="../media/m365-mac-perf/m365-mac-perf-share-link.png" alt-text="Screenshot that shows the sharing a link to your test results.":::
 
 ## Network Connectivity Test Results
 
 The results are shown in the **Summary** and **Details** tabs. The summary tab shows a map of the detected network perimeter and a comparison of the network assessment to other Microsoft 365 customers nearby. It also allows for sharing of the test report. Here's what the summary results view looks like:
 
-:::image type="content" source="../media/m365-mac-perf/m365-mac-perf-summary-page.png" alt-text="Network connectivity test tool summary results.":::
+:::image type="content" source="../media/m365-mac-perf/m365-mac-perf-summary-page.png" alt-text="Screenshot of the network connectivity test tool summary results.":::
 
 Here's an example of the details tab output. On the details tab, we show a green circle check mark if the result was compared favorably. We show a red triangle exclamation point if the result exceeded a threshold indicating a network insight. The following sections describe each of the details tab results rows and explain the thresholds used for network insights.
 
-:::image type="content" source="../media/m365-mac-perf/m365-mac-perf-all-details.png" alt-text="Network connectivity test tool example test results.":::
+:::image type="content" source="../media/m365-mac-perf/m365-mac-perf-all-details.png" alt-text="Screenshot of the network connectivity test tool example test results.":::
 
 ### Your location information
 
@@ -299,7 +299,7 @@ This section shows the results of an ICMP traceroute to the Exchange Online serv
 
 When you're signed in you can review previous reports that you have run. You can also share them or delete them from the list.
 
-:::image type="content" source="../media/m365-mac-perf/m365-mac-perf-reports-list.png" alt-text="Report list.":::
+:::image type="content" source="../media/m365-mac-perf/m365-mac-perf-reports-list.png" alt-text="Screenshot that shows the list of reports.":::
 
 ## Network health status
 
@@ -316,17 +316,17 @@ The command line test tool can be downloaded here: [Command Line Tool](https://c
 
 You can run it by double clicking the executable in Windows File Explorer, or you can start it from a command prompt, or you can schedule it with task scheduler.
 
-The first time you launch the executable you'll be prompted to accept the end user license agreement (EULA) before testing is performed. If you have already read and accepted the EULA, you can create an empty file called Microsoft-365-Network-Connectivity-Test-EULA-accepted.txt in the current working directory for the executable process when it's launched. To accept the EULA, you can type 'y' and press enter in the command line window when prompted.
+The first time you launch the executable you'll be prompted to accept the end user license agreement (EULA) before testing is performed. If you have already read and accepted the EULA, you can create an empty file called Microsoft-365-Network-Connectivity-Test-EULA-accepted.txt in the current working directory for the executable process when it's launched. To accept the EULA, you can type 'y' and press **Enter** in the command line window when prompted.
 
-The executable accepts the following  command line parameters:
+The executable accepts the following command line parameters:
 
-- -h to show a link to this help documentation
-- -testlist &lt;test&gt; Specifies tests to run. By default only basic tests are run. Valid test names include: all, dnsConnectivityPerf, dnsResolverIdentification, bufferBloat, traceroute, proxy, vpn, skype, connectivity, networkInterface
-- -filepath &lt;filedir&gt; Directory path of test result files. Allowed value is absolute or relative path of an accessible directory
-- -city &lt;city&gt; For the city, state, and country/region fields the specified value will be used if provided. If not provided then Windows Location Services (WLS) will be queried. If WLS fails the location will be detected from the machines network egress
-- -state &lt;state&gt;
-- -country &lt;country&gt;
-- -proxy &lt;account&gt; &lt;password&gt; Proxy account name and password can be provided if you require a proxy to access the Internet
+- `-h` to show a link to this help documentation
+- `-testlist &lt;test&gt;` Specifies tests to run. By default only basic tests are run. Valid test names include: all, dnsConnectivityPerf, dnsResolverIdentification, bufferBloat, traceroute, proxy, vpn, skype, connectivity, networkInterface
+- `-filepath &lt;filedir&gt;` Directory path of test result files. Allowed value is absolute or relative path of an accessible directory
+- `-city &lt;city&gt;` For the city, state, and country/region fields the specified value will be used if provided. If not provided then Windows Location Services (WLS) will be queried. If WLS fails the location will be detected from the machines network egress
+- `-state &lt;state&gt;`
+- `-country &lt;country&gt;`
+- `-proxy &lt;account&gt; &lt;password&gt;` Proxy account name and password can be provided if you require a proxy to access the Internet
 
 ### Results
 
@@ -338,7 +338,7 @@ You can double select on the executable to start the testing and a command promp
 
 ### Launching from the Command Prompt
 
-In a CMD.EXE command prompt window, you can type the path and name of the executable to run it. The filename is MicrosoftConnectivityTest.exe.
+In a `CMD.EXE` command prompt window, you can type the path and name of the executable to run it. The filename is `MicrosoftConnectivityTest.exe`.
 
 ### Launching from Windows Task Scheduler
 
@@ -362,17 +362,17 @@ Reports can be accessed in the following ways:
 
 The reports are available on the below screen once the Assistant has finished scanning the user's machine. To access these reports, simply select on the &#8220;View log&#8221; option to view them.
 
-:::image type="content" source="../media/m365-mac-perf/m365-mac-perf-sara1.png" alt-text="Microsoft Support and Recovery Assistant wizard.":::
+:::image type="content" source="../media/m365-mac-perf/m365-mac-perf-sara1.png" alt-text="Screenshot of the Microsoft Support and Recovery Assistant wizard.":::
 
 Connectivity test results and Telemetry data are collected and uploaded to the **uploadlogs** folder. To access this folder, use one of the following methods:
 
 - Open Run (**Windows logo key + R**), and run the **%localappdata%/saralogs/uploadlogs** command as follows:
 
-:::image type="content" source="../media/m365-mac-perf/m365-mac-perf-sara2.png" alt-text="Run dialog for locating output.":::
+  :::image type="content" source="../media/m365-mac-perf/m365-mac-perf-sara2.png" alt-text="Screenshot that shows the Run dialog for locating output.":::
 
 - In File Explorer, type C:\Users\<UserName>\AppData\Local\saralogs\uploadlogs and press **Enter** as follows:
 
-:::image type="content" source="../media/m365-mac-perf/m365-mac-perf-sara3.png" alt-text="Windows Explorer Address Bar for output.":::
+  :::image type="content" source="../media/m365-mac-perf/m365-mac-perf-sara3.png" alt-text="Screenshot that shows the Windows Explorer Address Bar for output.":::
 
 **Note:** &lt;UserName&gt; is the user's Windows profile name.
 To view the information about the test results and telemetry, double-click and open the files.
@@ -385,7 +385,7 @@ To view the information about the test results and telemetry, double-click and o
 Microsoft Support and Recovery Assistant creates two files:
 
 1. Network Connectivity Report (CSV)
-This report runs the raw JSON file against a rule engine to make sure defined thresholds are being met and if they aren't met a &#8220;warning&#8221; or &#8220;error&#8221; is displayed in the output column of the CSV file. You can view the NetworkConnectivityReport.csv file to be informed about any detected issues or defects. See [What happens at each test step](office-365-network-mac-perf-onboarding-tool.md#what-happens-at-each-test-step) for details on each test and the thresholds for warnings.
+This report runs the raw JSON file against a rule engine to make sure defined thresholds are being met and if they aren't met a &#8220;warning&#8221; or &#8220;error&#8221; is displayed in the output column of the CSV file. You can view the `NetworkConnectivityReport.csv` file to be informed about any detected issues or defects. See [What happens at each test step](office-365-network-mac-perf-onboarding-tool.md#what-happens-at-each-test-step) for details on each test and the thresholds for warnings.
 
 1. Network Connectivity Scan Report (JSON)
 This file provides the raw output test results from the command-line version of the Microsoft 365 network connectivity test tool (MicrosoftConnectivityTest.exe).
