@@ -41,7 +41,7 @@ The **Page Diagnostics for SharePoint tool** is a browser extension for the new 
 
 When you run the Page Diagnostics for SharePoint tool on a SharePoint in Microsoft 365 page, you can select the **Diagnostic Tests** tab to see a list of assets not being hosted by the CDN. These assets are listed under the heading **Content Delivery Network (CDN) check** as shown in the screenshot following.
 
-:::image type="content" source="../media/page-diagnostics-for-spo/pagediag-results-general.png" alt-text="Page diagnostics.":::
+:::image type="content" source="../media/page-diagnostics-for-spo/pagediag-results-general.png" alt-text="Screenshot that shows the page diagnostics for SharePoint.":::
 
 >[!NOTE]
 >The Page Diagnostics tool only works for SharePoint in Microsoft 365, and can't be used on a SharePoint system page.
