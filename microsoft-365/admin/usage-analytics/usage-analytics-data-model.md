@@ -107,25 +107,25 @@ This table contains data about each user who had an activity in any of the servi
 | **EXO_MeetingSent**               | Number of meetings sent. |
 | **ODB_FileViewedModified**        | Number of files the user interacted with on any OneDrive. Includes the following actions:<ul><li>Create.</li><li>Update.</li><li>Delete.</li><li>View.</li><li>Download.</li></ul> |
 | **ODB_FileSynched**               | Number of files the user synchronized on any OneDrive. |
-| **ODB_FileSharedInternally**      | Number of files shared internally from any OneDrive. Includes:<ul><li>Sharing with users within groups.</li></ul> |
+| **ODB_FileSharedInternally**      | Number of files shared internally from any OneDrive including sharing with users within groups. |
 | **ODB_FileSharedExternally**      | Number of files the user shared externally from any OneDrive. |
 | **ODB_AccessedByOwner**           | Number of OneDrive sites the user interacted with that they own. |
 | **ODB_AccessedByOthers**          | Number of OneDrive sites the user interacted with that are owned by another user. |
 | **SPO_GroupFileViewedModified**   | Number of files the user interacted with on any group site. |
 | **SPO_GroupFileSynched**          | Number of files the user synchronized on any group site. |
-| **SPO_GroupFileSharedInternally** | Number of files shared internally from any group site. Includes:<ul><li>Sharing within groups.</li></ul> |
+| **SPO_GroupFileSharedInternally** | Number of files shared internally from any group site including sharing within groups. |
 | **SPO_GroupFileSharedExternally** | Number of files the user shared externally from any group site. |
 | **SPO_GroupAccessedByOwner**      | Number of group sites the user interacted with that they own. |
 | **SPO_GroupAccessedByOthers**     | Number of group sites the user interacted with that are owned by another user. |
 | **SPO_OtherFileViewedModified**   | Number of files the user interacted with on any other site. |
 | **SPO_OtherFileSynched**          | Number of files the user synchronized from any other site. |
-| **SPO_OtherFileSharedInternally** | Number of files shared internally from any other site. Includes:<ul><li>Sharing within groups.</li></ul> |
+| **SPO_OtherFileSharedInternally** | Number of files shared internally from any other site including sharing within groups. |
 | **SPO_OtherFileSharedExternally** | Number of files the user shared externally from any other site. |
 | **SPO_OtherAccessedByOwner**      | Number of other sites the user interacted with that they own. |
 | **SPO_OtherAccessedByOthers**     | Number of other sites the user interacted with that are owned by another user. |
 | **SPO_TeamFileViewedModified**    | Number of files the user interacted with on any team site. |
 | **SPO_TeamFileSynched**           | Number of files the user synchronized from any team site. |
-| **SPO_TeamFileSharedInternally**  | Number of files shared internally from any team site. Includes:<ul><li>Sharing within groups.</li></ul> |
+| **SPO_TeamFileSharedInternally**  | Number of files shared internally from any team site including sharing within groups. |
 | **SPO_TeamFileSharedExternally**  | Number of files the user shared externally from any team site. |
 | **SPO_TeamAccessedByOwner**       | Number of team sites the user interacted with that they own. |
 | **SPO_TeamAccessedByOthers**      | Number of team sites the user interacted with that are owned by another user. |
@@ -143,7 +143,7 @@ This table contains data about each user who had an activity in any of the servi
 
 > [!NOTE]
 >
-> Teams_HasOtherAction means user is considered active but has a zero value for the Chat Messages, 1:1 calls, Channel Messages, Total Meetings, and Meetings organized.
+> **Teams_HasOtherAction** means user is considered active but has a zero value for the Chat Messages, 1:1 calls, Channel Messages, Total Meetings, and Meetings organized.
 
 ### Data table - Tenant Product Usage
 
@@ -154,7 +154,7 @@ This table provides month-over-month adoption data in terms of enable, active, r
 | **Product**               | <ul><li>Name of products for which the usage information is summarized.</li><li>The Microsoft 365 value represents activity across any of the products.</li></ul> |
 | **Timeframe**             | <ul><li>Month value.</li><li>One row per product per month.</li><li>Includes the last 12 months, including the current partial month.</li></ul> |
 | **EnabledUsers**          | <ul><li>Number of users enabled to use the product for the timeframe value.</li><li>Users enabled for any portion of the month are counted.</li></ul> |
-| **ActiveUsers**           | <ul><li>Number of users who performed an intentional activity in the product for the timeframe value.</li><li>A user is counted as active if they performed one of the key product activities.</li><li>Key activities are listed in the Tenant Product Activity table.</li></ul> |
+| **ActiveUsers**           | <ul><li>Number of users who performed an intentional activity in the product for the timeframe value.</li><li>A user is counted as active if they performed one of the key product activities.</li><li>Key activities are listed in the **Tenant Product Activity** table.</li></ul> |
 | **CumulativeActiveUsers** | <ul><li>Number of users enabled to use the product.</li><li>Includes users who have used the product at least once since data collection started.</li><li>Calculated up to and including the timeframe month.</li></ul> |
 | **MoMReturningUsers**     | <ul><li>Number of users active in the timeframe month.</li><li>Users must also have been active in the previous month.</li></ul> |
 | **FirstTimeUsers**        | <ul><li>Number of users who became active in the timeframe month for the first time.</li><li>Activity is measured from the start of data collection in the new usage system.</li><li>Once counted as a first-time user, the user is never counted again.</li></ul> |
@@ -164,15 +164,16 @@ This table provides month-over-month adoption data in terms of enable, active, r
 
 This table provides monthly totals of activity and active user count for various activities within the products.
 
-|**Column name**|**Column description**|
-|:-----|:-----|
-|Timeframe   |Month value. There is one row per product per month for the last 12 months including the current partial month.   |
-|Product   |Name of the product within Microsoft 365 for which usage data is available.   |
-|Activity   |Name of the activity in a product that is used to showcase active use of product.   |
-|ActivityCount   |This is the total number of actions counted for each activity performed within the product across all active users.  <br/><br/> **Note:** For SharePoint and OneDrive activities, this value represents the number of distinct documents with which users interacted with.   |
-|ActiveUserCount   |Number of users who performed the activity within the product.   |
-|TotalDurationInMinute   |Amount of duration in minutes across all active users who used audio or video session in an applicable Skype for Business activity.   |
-|Content Date   |If timeframe shows current month, this value represents the latest date of the current month for which data is available.  <br/><br/> If Timeframe shows previous month, this value represents the last date of the timeframe month.   |
+| **Column name**               | **Column description** |
+|------------------------------|------------------------|
+| **Timeframe**                | <ul><li>Month value.</li><li>One row per product per month.</li><li>Includes the last 12 months, including the current partial month.</li></ul> |
+| **Product**                  | Name of the product within Microsoft 365 for which usage data is available. |
+| **Activity**                 | Name of the activity in a product that is used to showcase active use of the product. |
+| **ActivityCount**            | <ul><li>Total number of actions counted for each activity across all active users.</li><li>For SharePoint and OneDrive activities, this value represents the number of distinct documents users interacted with.</li></ul> |
+| **ActiveUserCount**          | Number of users who performed the activity within the product. |
+| **TotalDurationInMinute**    | <ul><li>Total duration, in minutes, across all active users.</li><li>Applies to audio or video sessions in applicable Skype for Business activities.</li></ul> |
+| **Content Date**             | <ul><li>If the timeframe is the current month, this is the latest date with available data.</li><li>If the timeframe is a previous month, this is the last date of that month.</li></ul> |
+
 
 ### Data table - Tenant Mailbox Usage
 
