@@ -7,7 +7,7 @@ author: chrisda
 manager: deniseb
 ms.audience: Admin
 ms.topic: install-set-up-deploy
-ms.service: microsoft-365-business-security
+ms.service: microsoft-365-admin
 ms.date: 05/31/2024
 ms.localizationpriority: medium
 ms.collection:

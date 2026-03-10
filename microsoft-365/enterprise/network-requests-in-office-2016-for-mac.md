@@ -25,7 +25,7 @@ description: This article describes which endpoints and URLs Office for Mac appl
 
 # Network requests in Office for Mac
 
-Office for Mac applications provide a native app experience on the macOS platform. Each app is designed to work in a variety of scenarios, including states when no network access is available. When a machine is connected to a network, the applications automatically connect to a series of web-based services to provide enhanced functionality. The following information describes which endpoints and URLs the applications try to reach, and the services provided. This information is useful when troubleshooting network configuration issues and setting policies for network proxy servers. The details in this article are intended to complement the [Office 365 URL and address ranges article](urls-and-ip-address-ranges.md), which includes endpoints for computers running Microsoft Windows. Unless noted, the information in this article also applies to Office 2019 for Mac and Office 2016 for Mac, which are available as a one-time purchase from a retail store or through a volume licensing agreement.
+Office for Mac applications provide a native app experience on the macOS platform. Each app is designed to work in various scenarios, including states when no network access is available. When a machine is connected to a network, the applications automatically connect to a series of web-based services to provide enhanced functionality. The following information describes which endpoints and URLs the applications try to reach, and the services provided. This information is useful when troubleshooting network configuration issues and setting policies for network proxy servers. The details in this article are intended to complement the [Office 365 URL and address ranges article](urls-and-ip-address-ranges.md), which includes endpoints for computers running Microsoft Windows. Unless noted, the information in this article also applies to Office 2019 for Mac and Office 2016 for Mac, which are available as a one-time purchase from a retail store or through a volume licensing agreement.
 
 Most of this article is tables detailing network URLs, type, and description of service or feature provided by that endpoint. Each of the Office apps may differ in its service and endpoint usage. The following apps are defined in the tables below:
   
@@ -322,6 +322,6 @@ If your organization blocks requests to URLs via a firewall or proxy server be s
   
 If your proxy server requires authentication, a 407 response is returned to the client. For the best experience, ensure that you're using Office for Mac builds 15.27 or later, as they include specific fixes for working with NTLM and Kerberos servers.
   
-## See also
+## Related content
 
-[Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md)
+[Microsoft 365 URLs and IP address ranges](urls-and-ip-address-ranges.md)
