@@ -85,7 +85,7 @@ End-users see the following customizable branding and content elements:
 
 
 
-You can customize most of these elements in Copilot Studio by selecting the **Edit** button in the **Overview** section of the agent.The additional landing page customizations can be found in the **Settings** section of the **Coiplot dropdown** in the Microsoft 365 admin center. 
+You can customize most of these elements in Copilot Studio by selecting the **Edit** button in the **Overview** section of the agent. The additional landing page customizations can be found in the **Settings** section of the **Copilot dropdown** in the Microsoft 365 admin center. 
 
 > [!NOTE]
 > Providing a custom name to the agent shows the provided name for end-users in the Copilot chat interface. Most other admin-related interfaces, such as analytics dashboards in Copilot Studio, Copilot Analytics under Viva Insights, Microsoft admin center, Power Platform admin center, and other billing reports for metered consumption, display the agent's name:
