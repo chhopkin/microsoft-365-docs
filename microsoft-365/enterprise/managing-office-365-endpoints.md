@@ -50,7 +50,7 @@ Use PAC or WPAD files to manage network requests that are associated with Micros
 > [!NOTE]
 > For more information about the security and performance considerations of direct connectivity to Microsoft 365 endpoints, see [Microsoft 365 Network Connectivity Principles](microsoft-365-network-connectivity-principles.md).
 
-:::image type="content" source="../media/34d402f3-f502-42a0-8156-24a7c4273fa5.png" alt-text="Connecting to Microsoft 365 through firewalls and proxies.":::
+:::image type="content" source="../media/34d402f3-f502-42a0-8156-24a7c4273fa5.png" alt-text="Screenshot that shows connecting to Microsoft 365 through firewalls and proxies.":::
 
 **Figure 1 - Simple enterprise network perimeter**
 
