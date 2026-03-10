@@ -14,6 +14,8 @@ appliesto:
 
 # Cowork overview (Frontier)
 
+[!INCLUDE [preview](../includes/preview.md)]
+
 The Cowork agent in Microsoft 365 Copilot can carry out tasks on your behalf. You describe what you need, and Cowork sends emails, schedules meetings, creates documents, posts in Teams, and manages your calendar. You approve each action before it happens.
 
 ## What is the Cowork agent?

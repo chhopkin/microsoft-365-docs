@@ -14,6 +14,8 @@ appliesto:
 
 # Cowork agent FAQ (Frontier)
 
+[!INCLUDE [preview](../includes/preview.md)]
+
 Find answers to frequently asked questions about the Cowork agent in Microsoft 365 Copilot.
 
 ## What is the Cowork agent?

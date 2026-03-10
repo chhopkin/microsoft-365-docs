@@ -16,6 +16,8 @@ appliesto:
 
 # FAQ for the Cowork agent
 
+[!INCLUDE [preview](../includes/preview.md)]
+
 These frequently asked questions (FAQ) describe the AI impact of the Cowork agent in Microsoft 365 Copilot.
 
 ## What is the Cowork agent?
