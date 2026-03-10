@@ -242,13 +242,13 @@ You have to use [PSPing](/sysinternals/downloads/psping) or another tool that do
   
 1. Run an elevated command prompt by completing these steps:
     
-1. Click **Start**.
+   1. Click **Start**.
+       
+   2. In the **Start Search** box, type cmd, and then press **CTRL+SHIFT+ENTER**.
+       
+   3. If the **User Account Control** dialog box appears, confirm that the action it displays is what you want, and then click **Continue**.
     
-2. In the **Start Search** box, type cmd, and then press **CTRL+SHIFT+ENTER**.
-    
-3. If the **User Account Control** dialog box appears, confirm that the action it displays is what you want, and then click **Continue**.
-    
-2. Navigate to the folder where the tool (in this case PsPing) is installed and test these Office 365 URLs:
+1. Navigate to the folder where the tool (in this case PsPing) is installed and test these Office 365 URLs:
     
   - psping admin.microsoft.com:443
     
@@ -270,11 +270,11 @@ If you're not familiar with proxy bypass, and prefer to take things step by step
   
 1. Run an elevated command prompt by completing these steps:
     
-  1. Click **Start**.
-      
-  2. In the **Start Search** box, type cmd, and then press CTRL+SHIFT+ENTER.
-      
-  3. If the **User Account Control** dialog box appears, confirm that the action it displays is what you want, and then click **Continue**.
+   1. Click **Start**.
+       
+   2. In the **Start Search** box, type cmd, and then press **CTRL+SHIFT+ENTER**.
+       
+   3. If the **User Account Control** dialog box appears, confirm that the action it displays is what you want, and then click **Continue**.
       
 1. Type `ping \<the name of the proxy server your browser uses, or the IP address of the proxy server\>` and then press **ENTER**. If you have PsPing, or some other tool, installed, you can choose to use that tool instead. 
     
