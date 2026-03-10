@@ -40,7 +40,7 @@ For quite some time, VPN models where all connections from the remote user devic
 
 The use of forced tunneled VPNs for connecting to distributed and performance-sensitive cloud applications is suboptimal, but the negative effects have been accepted by some enterprises so as to maintain the security status quo. An example diagram of this scenario can be seen here:
 
-:::image type="content" source="../media/vpn-split-tunneling/enterprise-network-traditional.png" alt-text="Forced Tunnel VPN configuration.":::
+:::image type="content" source="../media/vpn-split-tunneling/enterprise-network-traditional.png" alt-text="Screenshot that shows Forced Tunnel VPN configuration.":::
 
 *Figure 1: A traditional Forced Tunnel VPN solution.*
 
@@ -52,7 +52,7 @@ Microsoft has been working closely with customers and the wider industry to prov
 
 For customers who connect their remote worker devices to the corporate network or cloud infrastructure over VPN, Microsoft recommends that the key Microsoft 365 scenarios **Microsoft Teams**, **SharePoint**, and **Exchange Online** are routed over a *VPN split tunnel* configuration. This becomes especially important as the frontline strategy to facilitate continued user productivity during large-scale work-from-home events such as the COVID-19 crisis.
 
-:::image type="content" source="../media/vpn-split-tunneling/vpn-model-2.png" alt-text="Split Tunnel VPN configuration.":::
+:::image type="content" source="../media/vpn-split-tunneling/vpn-model-2.png" alt-text="Screenshot that shows Split Tunnel VPN configuration.":::
 
 *Figure 2: A VPN split tunnel solution with defined Microsoft 365 exceptions sent directly to the service. All other traffic traverses the VPN tunnel regardless of destination.*
 
@@ -85,7 +85,7 @@ For a step-by-step process to configure Microsoft 365 for remote workers, see [S
 
 Traditional corporate networks are often designed to work securely for a precloud world where most important data, services, applications are hosted on premises and are directly connected to the internal corporate network, as are most users. Thus network infrastructure is built around these elements in that branch offices are connected to the head office via *Multiprotocol Label Switching (MPLS)* networks, and remote users must connect to the corporate network over a VPN to access both on premises endpoints and the Internet. In this model, all traffic from remote users traverses the corporate network and is routed to the cloud service through a common egress point.
 
-:::image type="content" source="../media/vpn-split-tunneling/vpn-model-1.png" alt-text="Forced VPN configuration.":::
+:::image type="content" source="../media/vpn-split-tunneling/vpn-model-1.png" alt-text="Screenshot that shows Forced VPN configuration.":::
 
 *Figure 2: A common VPN solution for remote users where all traffic is forced back into the corporate network regardless of destination.*
 
@@ -109,7 +109,7 @@ This tightly scoped set of endpoints can be split out of the forced VPN tunnel a
 
 Security elements such as DLP, AV protection, authentication, and access control can all be delivered much more efficiently against these endpoints at different layers within the service. As we also divert the bulk of the traffic volume away from the VPN solution, this frees the VPN capacity up for business critical traffic that still relies on it. It also should remove the need in many cases to go through a lengthy and costly upgrade program to deal with this new way of operating.
 
-:::image type="content" source="../media/vpn-split-tunneling/vpn-split-tunnel-example.png" alt-text="Split Tunnel VPN configuration details.":::
+:::image type="content" source="../media/vpn-split-tunneling/vpn-split-tunnel-example.png" alt-text="Screenshot that shows Split Tunnel VPN configuration details.":::
 
 *Figure 3: A VPN split tunnel solution with defined Microsoft 365 exceptions sent direct to the service. All other traffic is forced back into the corporate network regardless of destination.*
 
