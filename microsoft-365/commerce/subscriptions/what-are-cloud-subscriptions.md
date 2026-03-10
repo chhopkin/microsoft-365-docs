@@ -52,7 +52,7 @@ Cloud subscriptions are different from standard subscriptions in the following w
 
 ## Manage your cloud subscriptions
 
-You can use cloud subscriptions to manage the products and services that you buy from us. You can view your list of cloud subscriptions and other details in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>. From there, you can link to the <a href="https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBladeV2" target="_blank">Azure portal</a> where you can manage the cloud subscriptions for your organization. For information about common cloud subscription tasks, see the following articles:
+You can use cloud subscriptions to manage the products and services that you buy from us. You can view your list of cloud subscriptions and other details in the <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 admin center</a>. From there, you can link to the <a href="https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBladeV2" target="_blank">Azure portal</a> where you can manage the cloud subscriptions for your organization. For information about common cloud subscription tasks, [read our FAQ](https://learn.microsoft.com/azure/cost-management-billing/manage/cloud-subscription) or see the following articles:
 
 ### Create and manage cloud subscriptions
 
