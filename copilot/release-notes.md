@@ -138,7 +138,7 @@ Updates released between February 24, 2026, March 10, 2026
 
   Microsoft Edge lets users send a search query from the address bar directly to Copilot to receive a synthesized, more targeted answer.
 
-  **Roadmap ID:** [493287](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=493287) 
+  **Roadmap ID:** [493287](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=493287) 
 
   **Details:**
 
@@ -161,7 +161,7 @@ Updates released between February 24, 2026, March 10, 2026
 
   You can now search for and select Microsoft Teams channels in Context IQ to ground Copilot Chat prompts in the conversations and content that matter most.
 
-  **Roadmap ID:** [429645](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=429645)
+  **Roadmap ID:** [429645](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=429645)
 
   **Details:**
 
@@ -193,7 +193,7 @@ Updates released between February 24, 2026, March 10, 2026
 
     Users can connect Microsoft 365 Copilot with Shortcut to manage agile development workflows using the Copilot Connector. 
 
-    **Roadmap ID:** [515178](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515178)
+    **Roadmap ID:** [515178](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515178)
 
     **Details:** 
 
@@ -217,7 +217,7 @@ Updates released between February 24, 2026, March 10, 2026
 
   Users can connect Microsoft 365 Copilot to Amazon S3 so Copilot can access structured document repositories through a Copilot connector.
 
-  **Roadmap ID:** [513285](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513285)
+  **Roadmap ID:** [513285](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513285)
 
   **Details:**
 
@@ -8553,7 +8553,7 @@ Updates released between February 24, 2026, March 10, 2026
 
     Microsoft Edge lets users send a search query from the address bar directly to Copilot to receive a synthesized, more targeted answer.
 
-    **Roadmap ID:** [493287](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=493287) 
+    **Roadmap ID:** [493287](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=493287) 
 
     **Details:**
 
@@ -8576,7 +8576,7 @@ Updates released between February 24, 2026, March 10, 2026
 
   You can now search for and select Microsoft Teams channels in Context IQ to ground Copilot Chat prompts in the conversations and content that matter most.
 
-  **Roadmap ID:** [429645](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=429645)
+  **Roadmap ID:** [429645](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=429645)
 
   **Details:**
 
@@ -8608,7 +8608,7 @@ Updates released between February 24, 2026, March 10, 2026
 
   Users can connect Microsoft 365 Copilot with Shortcut to manage agile development workflows using the Copilot Connector. 
   
-  **Roadmap ID:** [515178](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=515178)
+  **Roadmap ID:** [515178](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=515178)
   
   **Details:** 
   
@@ -8632,7 +8632,7 @@ Updates released between February 24, 2026, March 10, 2026
 
   Users can connect Microsoft 365 Copilot to Amazon S3 so Copilot can access structured document repositories through a Copilot connector.
   
-  **Roadmap ID:** [513285](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=513285)
+  **Roadmap ID:** [513285](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=513285)
   
   **Details:**
   
@@ -16170,6 +16170,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
