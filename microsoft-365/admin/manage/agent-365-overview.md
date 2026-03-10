@@ -7,7 +7,7 @@ f1.keywords:
 ms.author: frankroj
 author: frankroj
 manager: scotv
-ms.date: 02/26/2026
+ms.date: 03/10/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -102,5 +102,3 @@ Actionable governance cards that display urgent tasks for administrators to main
 - **Ownerless Agents** - Total Agents without an assigned owner, still pending owner assignment.
 
     You can directly select the **Assign Owner** button. The **Assign Owner** button goes to the **Agent Registry** > **Ownerless Agents** filter, showing agents without an assigned owner.
-
-:::image type="content" source="../../media/agents/agent-overview-page.png" alt-text="Screenshot showing the Agent 365 overview page." lightbox="../../media/agents/agent-overview-page.png":::
