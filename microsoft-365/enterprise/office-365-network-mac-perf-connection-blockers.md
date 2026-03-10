@@ -84,9 +84,9 @@ The new Connection Blockers page in the Microsoft 365 admin center under Network
 
 To access the Connection Blockers page:
 
-- Sign in to the Microsoft 365 admin center.
-- Navigate to the **Network Connectivity** section under **Health**
-- Select **Connection Blockers** from the menu.
+1. Sign in to the Microsoft 365 admin center.
+1. Navigate to the **Network Connectivity** section under **Health**
+1. Select **Connection Blockers** from the menu.
 
 ### Interpreting the Data
 
