@@ -38,7 +38,7 @@ For enterprises with global Microsoft 365 tenants and a corporate presence in Ch
 
 China ISPs have regulated offshore connections to the global public Internet that go through perimeter devices that are prone to high-levels of cross-border network congestion. This congestion creates packet loss and latency for all Internet traffic going into and out of China.
 
-:::image type="content" source="../media/O365-networking/China-O365-unoptimized.png" alt-text="Microsoft 365 traffic - unoptimized.":::
+:::image type="content" source="../media/O365-networking/China-O365-unoptimized.png" alt-text="Screenshot that shows Microsoft 365 traffic - unoptimized.":::
 
 Packet loss and latency are detrimental to the performance of network services, especially services that require large data exchanges (such as large file transfers) or requiring near real-time performance (audio and video applications).
 
@@ -60,7 +60,7 @@ As a first step, it's crucial that you follow our benchmark network guidance at 
 
 For information about how to selectively route Microsoft 365 traffic, see [Managing Microsoft 365 endpoints](managing-office-365-endpoints.md). For a list of all worldwide Microsoft 365 URLs and IP addresses, see [Microsoft 365 URLs and IP address ranges](urls-and-ip-address-ranges.md).
 
-:::image type="content" source="../media/O365-networking/China-O365-optimized.png" alt-text="Microsoft 365 traffic - optimized.":::
+:::image type="content" source="../media/O365-networking/China-O365-optimized.png" alt-text="Screenshot that shows Microsoft 365 traffic - optimized.":::
 
 ## User best practices
 
