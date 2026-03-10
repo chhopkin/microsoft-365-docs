@@ -610,7 +610,7 @@ If you need to retrieve the location of the origin, you can use the **Get-PnPTen
 
 <a name="Office365CDNforSPORemoveOriginPnPPosh"> </a>
 
-**Remove an origin from the Office 365 CDN
+**Remove an origin from the Office 365 CDN**
 
 You can remove access to a folder or SharePoint library that you identified as an origin. To take this action, use the **Remove-PnPTenantCdnOrigin** cmdlet.
 
