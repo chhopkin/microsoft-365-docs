@@ -14865,6 +14865,9 @@ Updates released between February 24, 2026, March 10, 2026
   
     [Edit pictures](https://support.microsoft.com/office/edit-pictures-1d4bf84a-ab8b-4b3e-be78-78b0ed9f4ede)
 
+## February 24, 2026
+Updates released between February 10, 2026, February 24, 2026
+
 ### PowerPoint
 
 - **Steer presentation length, tone, style, and images with Copilot** [Web, Windows, Mac]
@@ -16167,6 +16170,7 @@ Updates released between December 18, 2024, and January 7, 2025.
 - **Use voice prompts for assistance** [Windows, Web, Mac]  
 
   Use voice to dictate into the Copilot chat prompt field.
+
 
 
 
