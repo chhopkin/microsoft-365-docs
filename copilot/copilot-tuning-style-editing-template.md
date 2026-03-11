@@ -21,7 +21,7 @@ The **Style Editing** agent template helps organizations standardize how content
 
 This agent is designed for teams that produce large volumes of written content and want consistent, high‑quality results without repeated manual editing.
 
-[!INCLUDE [copilot-tuning-preview](./copilot-tuning-preview.md)]
+[!INCLUDE [copilot-tuning-preview](./includes/copilot-tuning-preview.md)]
 
 ## What the Style Editing agent template does
 
