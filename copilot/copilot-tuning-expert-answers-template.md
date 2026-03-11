@@ -63,7 +63,7 @@ You must select a SharePoint site before asking a question. The agent answers qu
 
 Start by selecting the **Expert Answers agent template** in Agent Builder. 
 
-:::image type="content" source="media/copilot-tuning-expert-answer-template/expert-answers-template-selection.png" alt-text="Screenshot showing the Expert Answers agent template template selection in Agent Builder." lightbox="media/copilot-tuning-expert-answer-template/expert-answers-template-selection.png":::
+:::image type="content" source="media/copilot-tuning-expert-answer-template/expert-answers-template-selection.png" alt-text="Screenshot showing the Expert Answers agent template selection in Agent Builder." lightbox="media/copilot-tuning-expert-answer-template/expert-answers-template-selection.png":::
 
 Provide the following information:
 
