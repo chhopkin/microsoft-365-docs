@@ -27,6 +27,8 @@ description: Learn how to use Microsoft 365 usage analytics in Power BI to track
 
 # Microsoft 365 usage analytics overview
 
+This article is intended for Microsoft 365 administrators who want to understand what insights Microsoft 365 usage analytics provides and how the available reports support adoption and licensing decisions.
+
 Use Microsoft 365 usage analytics within Power BI to gain insights on how your organization is adopting the various services within Microsoft 365. You can visualize and analyze Microsoft 365 usage data, create custom reports, and share the insights within your organization. You can also gain insights into how specific regions or departments are using Microsoft 365.
 
 Microsoft 365 usage analytics gives you access to a prebuilt dashboard that provides a cross-product view of the last 12 months and contains many prebuilt reports. Each report provides specific usage insights. User-specific information is available for the last full calendar month.
@@ -41,6 +43,13 @@ You can access detailed reports for each area by selecting the data tables. You 
 
 - [Navigating and utilizing the reports](navigate-and-utilize-reports.md).
 - [Customizing the reports](customize-reports.md).
+
+
+## Data availability
+
+- Most reports show the last 12 months of data.
+- User-level details are available for the latest complete calendar month.
+- Month values shown in reports always refer to the latest complete month unless otherwise noted.
 
 ## Executive summary dashboard
 
@@ -85,9 +94,10 @@ This report contains a separate report for each Microsoft 365 service, including
 
 ## User activity reports
 
-User activity reports are available for certain individual services. These reports provide user-level detail usage data joined with Active Directory attributes. In addition, the Department Adoption report lets you slice by Active Directory attributes so that you can see active users across all individual services. All metrics are aggregated for the latest complete month. To view the content date, go to the table page and select the UserActivity table where the value under TimeFrame provides the reporting period.
+User activity reports are available for certain individual services. These reports provide user-level detail usage data joined with Active Directory attributes. In addition, the **Department Adoption** report lets you slice by Active Directory attributes so that you can see active users across all individual services. All metrics are aggregated for the latest complete month. To view the content date, go to the table page and select the UserActivity table where the value under TimeFrame provides the reporting period.
 
 > [!NOTE]
+>
 > Global Reader and Usage Summary Reports Reader don't have permission to view the user activity reports.
 
 ## Frequently asked questions (FAQs)
