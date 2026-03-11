@@ -221,13 +221,11 @@ The **Tenant SharePoint Usage** table shows month-over-month summary data about 
 - During the month, users might create, delete, and add files.
 - Only the state at the end of the month is recorded.
 
-For example:
+In the following example, the resulting values shown are seven documents and 5 MB, which represent the end‑of‑month state:
 
 - A user creates five documents that use 10 MB of storage.
 - The user then deletes some files and adds others.
 - At the end of the month, the site contains seven documents that use 5 MB of storage.
-
-    The values shown are seven documents and 5 MB, which represent the end‑of‑month state.
 
 To avoid duplicate counts of aggregations, this table is hidden. It's used as a source to create two reference tables.
 
@@ -259,13 +257,11 @@ The table also shows the end‑of‑month state of OneDrive accounts:
 - Users might create, delete, and add files throughout the month.
 - Only the end‑of‑month totals are recorded in this table.
 
-For example:
+In the following example, the table records seven files and 5 MB, which represent the end‑of‑month state:
 
 - A user creates five documents that use 10 MB of storage.
 - During the month, the user deletes some files and adds others.
 - By the end of the month, the account contains seven files that use 5 MB of storage.
-
-    The table records seven files and 5 MB, which represent the end‑of‑month state.
 
 | **Name**                        | **Description**                                                                                            |
 | ------------------------------- | ---------------------------------------------------------------------------------------------------------- |
