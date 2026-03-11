@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: efrene
 author: efrene
 manager: scotv
-ms.date: 03/09/2026
+ms.date: 03/10/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -67,7 +67,7 @@ This table provides user level details for all users that have a license assigne
 | **Timeframe**             | Month value for which this table has data for.                                                                            |
 | **UPN**                   | User principal name (UPN) uniquely identifies the user to be able to join with other external data sources.               |
 | **DisplayName**           | User's display name.                                                                                                      |
-| **IDType**                | Account user used to sign in. Values can be: <ul><li>1 if the user is a Viva Engage user who connects using their Viva Engage ID.</li><li>0 if the user connects to Viva Engage using their Microsoft 365 ID.</li></ul> |
+| **IDType**                | Account user used to sign in. Values can be: <ul><li>1 if the user is a Viva Engage user who connects using their Viva Engage ID.</li><li>0 if the user connects to Viva Engage using their Microsoft 365 ID.</li></ul>                                                                    |
 | **HasLicenseEXO**         | Set to true if the user is assigned a license and enabled to use Exchange on the last day of the month.                   |
 | **HasLicenseODB**         | Set to true if the user is assigned a license and enabled to use OneDrive on the last day of the month.                   |
 | **HasLicenseSPO**         | Set to true if the user is assigned a license and enabled to use SharePoint on the last day of the month.                 |
@@ -92,54 +92,53 @@ This table provides user level details for all users that have a license assigne
 
 This table contains data about each user who had an activity in any of the services in the previous month.
 
-| **Column name**                   | **Column description** |
-| --------------------------------- |------------------------|
+| **Column name**                   | **Column description**                                                                                |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | **UserID**                        | Unique user ID that represents a user and enables joining with other data tables within the data set. |
-| **IDType**                        | Account user used to sign in. Values can be: <ul><li>1 if the user is a Viva Engage user who connects using their Viva Engage ID.</li><li>0 if the user connects to Viva Engage using their Microsoft 365 ID.</li></ul> |
-| **Timeframe**                     | Month value for which this table represents data for. |
-| **EXO_EmailSent**                 | Number of emails sent. |
-| **EXO_EmailReceived**             | Number of emails received. |
+| **Timeframe**                     | Month value for which this table represents data for.                                                 |
+| **EXO_EmailSent**                 | Number of emails sent.                                                                                |
+| **EXO_EmailReceived**             | Number of emails received.                                                                            |
 | **EXO_EmailRead**                 | Number of email read activities performed by the user. Includes:<ul><li>Multiple reads of the same email.</li><li>Emails received in previous periods.</li></ul> |
-| **EXO_AppointmentCreated**        | Number of appointments created. |
-| **EXO_MeetingAccepted**           | Number of meetings accepted. |
-| **EXO_MeetingCancelled**          | Number of meetings canceled. |
-| **EXO_MeetingDeclined**           | Number of meetings declined. |
-| **EXO_MeetingSent**               | Number of meetings sent. |
+| **EXO_AppointmentCreated**        | Number of appointments created.                                                                       |
+| **EXO_MeetingAccepted**           | Number of meetings accepted.                                                                          |
+| **EXO_MeetingCancelled**          | Number of meetings canceled.                                                                          |
+| **EXO_MeetingDeclined**           | Number of meetings declined.                                                                          |
+| **EXO_MeetingSent**               | Number of meetings sent.                                                                              |
 | **ODB_FileViewedModified**        | Number of files the user interacted with on any OneDrive. Includes the following actions:<ul><li>Create.</li><li>Update.</li><li>Delete.</li><li>View.</li><li>Download.</li></ul> |
-| **ODB_FileSynched**               | Number of files the user synchronized on any OneDrive. |
-| **ODB_FileSharedInternally**      | Number of files shared internally from any OneDrive including sharing with users within groups. |
-| **ODB_FileSharedExternally**      | Number of files the user shared externally from any OneDrive. |
-| **ODB_AccessedByOwner**           | Number of OneDrive sites the user interacted with that they own. |
-| **ODB_AccessedByOthers**          | Number of OneDrive sites the user interacted with that are owned by another user. |
-| **SPO_GroupFileViewedModified**   | Number of files the user interacted with on any group site. |
-| **SPO_GroupFileSynched**          | Number of files the user synchronized on any group site. |
-| **SPO_GroupFileSharedInternally** | Number of files shared internally from any group site including sharing within groups. |
-| **SPO_GroupFileSharedExternally** | Number of files the user shared externally from any group site. |
-| **SPO_GroupAccessedByOwner**      | Number of group sites the user interacted with that they own. |
-| **SPO_GroupAccessedByOthers**     | Number of group sites the user interacted with that are owned by another user. |
-| **SPO_OtherFileViewedModified**   | Number of files the user interacted with on any other site. |
-| **SPO_OtherFileSynched**          | Number of files the user synchronized from any other site. |
-| **SPO_OtherFileSharedInternally** | Number of files shared internally from any other site including sharing within groups. |
-| **SPO_OtherFileSharedExternally** | Number of files the user shared externally from any other site. |
-| **SPO_OtherAccessedByOwner**      | Number of other sites the user interacted with that they own. |
-| **SPO_OtherAccessedByOthers**     | Number of other sites the user interacted with that are owned by another user. |
-| **SPO_TeamFileViewedModified**    | Number of files the user interacted with on any team site. |
-| **SPO_TeamFileSynched**           | Number of files the user synchronized from any team site. |
-| **SPO_TeamFileSharedInternally**  | Number of files shared internally from any team site including sharing within groups. |
-| **SPO_TeamFileSharedExternally**  | Number of files the user shared externally from any team site. |
-| **SPO_TeamAccessedByOwner**       | Number of team sites the user interacted with that they own. |
-| **SPO_TeamAccessedByOthers**      | Number of team sites the user interacted with that are owned by another user. |
-| **Teams_ChatMessages**            | Number of chat messages sent. |
-| **Teams_ChannelMessage**          | Number of messages posted to channels. |
-| **Teams_CallParticipate**         | Number of calls the user participated in. |
-| **Teams_MeetingParticipate**      | Number of meetings the user joined. |
-| **Teams_HasOtherAction**          | Boolean value indicating whether the user performed other actions in Microsoft Teams. |
-| **YAM_MessagePost**               | Number of Viva Engage messages the user posted. |
-| **YAM_MessageLiked**              | Number of Viva Engage messages the user liked. |
-| **YAM_MessageRead**               | Number of Viva Engage messages the user read. |
-| **SFB_P2PSummary**                | Number of peer-to-peer sessions the user took part in. |
-| **SFB_ConfOrgSummary**            | Number of conference sessions the user organized. |
-| **SFB_ConfPartSummary**           | Number of conference sessions the user participated in. |
+| **ODB_FileSynched**               | Number of files the user synchronized on any OneDrive.                                                |
+| **ODB_FileSharedInternally**      | Number of files shared internally from any OneDrive including sharing with users within groups.       |
+| **ODB_FileSharedExternally**      | Number of files the user shared externally from any OneDrive.                                         |
+| **ODB_AccessedByOwner**           | Number of OneDrive sites the user interacted with that they own.                                      |
+| **ODB_AccessedByOthers**          | Number of OneDrive sites the user interacted with that are owned by another user.                     |
+| **SPO_GroupFileViewedModified**   | Number of files the user interacted with on any group site.                                           |
+| **SPO_GroupFileSynched**          | Number of files the user synchronized on any group site.                                              |
+| **SPO_GroupFileSharedInternally** | Number of files shared internally from any group site including sharing within groups.                |
+| **SPO_GroupFileSharedExternally** | Number of files the user shared externally from any group site.                                       |
+| **SPO_GroupAccessedByOwner**      | Number of group sites the user interacted with that they own.                                         |
+| **SPO_GroupAccessedByOthers**     | Number of group sites the user interacted with that are owned by another user.                        |
+| **SPO_OtherFileViewedModified**   | Number of files the user interacted with on any other site.                                           |
+| **SPO_OtherFileSynched**          | Number of files the user synchronized from any other site.                                            |
+| **SPO_OtherFileSharedInternally** | Number of files shared internally from any other site including sharing within groups.                |
+| **SPO_OtherFileSharedExternally** | Number of files the user shared externally from any other site.                                       |
+| **SPO_OtherAccessedByOwner**      | Number of other sites the user interacted with that they own.                                         |
+| **SPO_OtherAccessedByOthers**     | Number of other sites the user interacted with that are owned by another user.                        |
+| **SPO_TeamFileViewedModified**    | Number of files the user interacted with on any team site.                                            |
+| **SPO_TeamFileSynched**           | Number of files the user synchronized from any team site.                                             |
+| **SPO_TeamFileSharedInternally**  | Number of files shared internally from any team site including sharing within groups.                 |
+| **SPO_TeamFileSharedExternally**  | Number of files the user shared externally from any team site.                                        |
+| **SPO_TeamAccessedByOwner**       | Number of team sites the user interacted with that they own.                                          |
+| **SPO_TeamAccessedByOthers**      | Number of team sites the user interacted with that are owned by another user.                         |
+| **Teams_ChatMessages**            | Number of chat messages sent.                                                                         |
+| **Teams_ChannelMessage**          | Number of messages posted to channels.                                                                |
+| **Teams_CallParticipate**         | Number of calls the user participated in.                                                             |
+| **Teams_MeetingParticipate**      | Number of meetings the user joined.                                                                   |
+| **Teams_HasOtherAction**          | Boolean value indicating whether the user performed other actions in Microsoft Teams.                 |
+| **YAM_MessagePost**               | Number of Viva Engage messages the user posted.                                                       |
+| **YAM_MessageLiked**              | Number of Viva Engage messages the user liked.                                                        |
+| **YAM_MessageRead**               | Number of Viva Engage messages the user read.                                                         |
+| **SFB_P2PSummary**                | Number of peer-to-peer sessions the user took part in.                                                |
+| **SFB_ConfOrgSummary**            | Number of conference sessions the user organized.                                                     |
+| **SFB_ConfPartSummary**           | Number of conference sessions the user participated in.                                               |
 
 > [!NOTE]
 >
@@ -164,13 +163,13 @@ This table provides month-over-month adoption data in terms of enable, active, r
 
 This table provides monthly totals of activity and active user count for various activities within the products.
 
-| **Column name**               | **Column description** |
-|------------------------------|------------------------|
+| **Column name**              | **Column description** |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------- |
 | **Timeframe**                | <ul><li>Month value.</li><li>One row per product per month.</li><li>Includes the last 12 months, including the current partial month.</li></ul> |
-| **Product**                  | <ul><li>Name of the product within Microsoft 365 for which usage data is available.</li></ul> |
+| **Product**                  | <ul><li>Name of the product within Microsoft 365 for which usage data is available.</li></ul>           |
 | **Activity**                 | <ul><li>Name of the activity in a product that is used to showcase active use of the product.</li></ul> |
 | **ActivityCount**            | <ul><li>Total number of actions counted for each activity across all active users.</li><li>For SharePoint and OneDrive activities, this value represents the number of distinct documents users interacted with.</li></ul> |
-| **ActiveUserCount**          | <ul><li>Number of users who performed the activity within the product.</li></ul> |
+| **ActiveUserCount**          | <ul><li>Number of users who performed the activity within the product.</li></ul>                        |
 | **TotalDurationInMinute**    | <ul><li>Total duration, in minutes, across all active users.</li><li>Applies to audio or video sessions in applicable Skype for Business activities.</li></ul> |
 | **Content Date**             | <ul><li>If the timeframe is the current month, this is the latest date with available data.</li><li>If the timeframe is a previous month, this is the last date of that month.</li></ul> |
 
@@ -191,7 +190,7 @@ This table consists of summary data across all licensed Exchange Online users wh
 | **MailboxesExceedSendReceiveQuota** | Number of user mailboxes that exceeded the send and receive quota.              |
 | **DeletedMailboxes**                | Number of user mailboxes deleted in the timeframe.                              |
 | **Timeframe**                       | Month value.                                                                    |
-| **Content Date**                    | <ul><li>If the timeframe is the current month, this is the latest date with available data.</li><li>If the timeframe is a previous month, this is the last date of that month.</li></ul> |
+| **Content Date**                    | If the timeframe is: <ul><li> The current month, this is the latest date with available data.</li><li>A previous month, this is the last date of that month.</li></ul> |
 
 ### Data table - Tenant Client Usage
 
@@ -203,24 +202,24 @@ This table provides month-over-month summary data about the clients that the use
 | **ClientId**     | Name of each device used to connect to the product.                                |
 | **UserCount**    | Number of users who used each client for each product.                             |
 | **Timeframe**    | Month value.                                                                       |
-| **Content Date** | <ul><li>If the timeframe is the current month, this is the latest date with available data.</li><li>If the timeframe is a previous month, this is the last date of that month.</li></ul> |
+| **Content Date** | If the timeframe is: <ul><li> The current month, this is the latest date with available data.</li><li>A previous month, this is the last date of that month.</li></ul> |
 
 ### Data table - Tenant SharePoint Usage
 
 This table consists of month over month summary data about the usage or activity of SharePoint sites. This only covers Team Sites and Group sites. The end of month state of SharePoint sites is represented in this column, for example, if a user created a five documents and used 10 MB for total storage, and then deleted some files, and added more files so that at the end of month state for files is seven total that use five MB of storage, the value of represented in this table is end of month state. This table is hidden to avoid duplicate count of aggregations and is used as a source to create two reference tables.
 
-|**Column name**|**Column description**|
-|:-----|:-----|
-|SiteType   |Site type value (any/team/group) (any represents either of these two sites types).   |
-|TotalSites   |Number of sites that existed at the end of the timeframe.   |
-|DocumentCount   |Total number of documents that existed on the site at the end of the timeframe.   |
-|Diplansed   |Total storage used summed across all sites at the end of the timeframe.   |
-|ActivityType   |Number of sites that recorded the various types of file activity (any/active files/ files shared EXT/INT/files synched).   Represents any file activity that was performed.   |
-|SitesWithOwnerActivities   |Number of active sites, where the site owner performed a particular file activity on their own sites. You can get the site owner from the PowerShell command **get-sposite**. This is the person who is responsible for the site.    |
-|SitesWithNonOwnerActivities   |Number of active sites summed up for the month, where the users other than the site owner performed a particular file activity on sites. You can get the site owner from the PowerShell command **get-sposite**. This is the person who is responsible for the site.  |
-|ActivityTotalSites   |Number of sites that recorded any activity during the timeframe. If a site that had activity earlier in the timeframe, and was deleted by the end of the timeframe, it would still be counted in the active site total for that timeframe.   |
-|Timeframe   |This column has the date value. Used as Many to one relationship for Calendar table.   |
-|Content Date   |If timeframe shows current month, this value represents the latest date of the current month for which data is available.  <br/><br/> If Timeframe shows previous month, this value represents the last date of the timeframe month.   |
+| **Column name**                 | **Column description** |
+|-------------------------------- | ---------------------- |
+| **SiteType**                    | <ul><li>Site type value.</li><li>Possible values are any, team, or group.</li><li>The value any represents either team or group sites.</li></ul> |
+| **TotalSites**                  | Number of sites that existed at the end of the timeframe. |
+| **DocumentCount**               | Total number of documents that existed on the site at the end of the timeframe. |
+| **Diplansed**                   | Total storage used, summed across all sites at the end of the timeframe. |
+| **ActivityType**                | <ul><li>Number of sites that recorded specific types of file activity.</li><li>Includes any activity, active files, files shared externally or internally, and files synchronized.</li><li>Represents any file activity that was performed.</li></ul> |
+| **SitesWithOwnerActivities**    | <ul><li>Number of active sites where the site owner performed a file activity on their own site.</li><li>The site owner is the person responsible for the site.</li><li>The site owner can be identified using the PowerShell command <code>get-sposite</code>.</li></ul> |
+| **SitesWithNonOwnerActivities** | <ul><li>Number of active sites where users other than the site owner performed a file activity.</li><li>The site owner is the person responsible for the site.</li><li>The site owner can be identified using the PowerShell command <code>get-sposite</code>.</li></ul> |
+| **ActivityTotalSites**          | <ul><li>Number of sites that recorded any activity during the timeframe.</li><li>Sites deleted by the end of the timeframe are still counted if they had activity earlier in the timeframe.</li></ul> |
+| **Timeframe**                   | <ul><li>Date value.</li><li>Used as a many‑to‑one relationship with the Calendar table.</li></ul> |
+| **Content Date**                | If the timeframe is: <ul><li> The current month, this is the latest date with available data.</li><li>A previous month, this is the last date of that month.</li></ul> |
 
 ### Data table - Tenant OneDrive Usage
 
