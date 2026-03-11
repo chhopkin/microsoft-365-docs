@@ -1,5 +1,5 @@
 ---
-title: Copilot Tuning Expert Answers agent template
+title: Copilot Tuning Expert Answers agent template (early access preview)
 author: lauragra
 ms.author: lauragra
 manager: calvind
@@ -12,14 +12,14 @@ ms.localizationpriority: medium
 description: Learn how to use Copilot Tuning to build an AI model for expert answers.
 ---
 
-# Copilot Tuning Expert Answers agent template
+# Copilot Tuning Expert Answers agent template (early access preview)
 
 The **Expert Answers** agent template is a tunable Microsoft 365 Copilot agent template designed to answer complex, domain-specific questions grounded in your organization's content. You can further tune the agent by using enterprise data to improve answer quality, relevance, and consistency.
 
 This article describes common scenarios, tuning options, requirements, and limitations to help you implement the Expert Answers agent template effectively.
 
 > [!IMPORTANT]
-> Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
+> Microsoft 365 Copilot Tuning is currently available to a limited set of customers through early access programs. Access through [Frontier](https://adoption.microsoft.com/copilot/frontier-program/) is planned for April 2026. Features and requirements are subject to change.
 
 ## Expert Answers agent template overview
 

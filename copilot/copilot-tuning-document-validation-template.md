@@ -1,5 +1,5 @@
 ---
-title: Copilot Tuning Document Validation agent template
+title: Copilot Tuning Document Validation agent template (early access preview)
 description: Learn how to use and tune the Document Validation agent template in Microsoft 365 Copilot to review documents for compliance with organizational guidelines, policies, branding, and regulatory requirements.
 author: david-salas
 ms.author: dsalasbarran
@@ -16,14 +16,14 @@ ms.collection:
 - magic-ai-copilot
 ---
 
-# Copilot Tuning Document Validation agent template
+# Copilot Tuning Document Validation agent template (early access preview)
 
 The **Document Validation** agent template for Microsoft 365 Copilot helps organizations review documents for compliance with internal guidelines, policies, branding standards, and regulatory requirements. It automates manual review workflows by identifying noncompliant content, categorizing violations by risk, and providing actionable remediation guidance directly within documents.
 
 This agent is designed for high-stakes and repeatable review scenarios where accuracy, consistency, and auditability are critical.
 
 > [!IMPORTANT]
-> Copilot Tuning is currently available in the [**Frontier early access program**](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [**What is Frontier?**](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
+> Microsoft 365 Copilot Tuning is currently available to a limited set of customers through early access programs. Access through [Frontier](https://adoption.microsoft.com/copilot/frontier-program/) is planned for April 2026. Features and requirements are subject to change.
 
 ## What the Document Validation agent template does
 

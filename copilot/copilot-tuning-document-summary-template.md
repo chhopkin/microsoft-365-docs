@@ -1,5 +1,5 @@
 ---
-title: Copilot Tuning Document Summary agent template
+title: Copilot Tuning Document Summary agent template (early access preview)
 description: Learn how to configure and tune the Document Summary agent template in Copilot Tuning to generate summaries that align with your organization’s goals, tone, and audience.
 author: david-salas
 ms.author: dsalasbarran
@@ -16,14 +16,14 @@ ms.collection:
 - magic-ai-copilot
 ---
 
-# Copilot Tuning Document Summary agent template
+# Copilot Tuning Document Summary agent template (early access preview)
 
 The **Document Summary** agent template helps you generate summaries that reflect your organization’s voice, priorities, and quality standards. By using Copilot Tuning, you can configure the agent to adapt summaries to specific audiences, purposes, tones, and lengths without rewriting prompts every time.
 
 This capability is useful for scenarios such as executive briefings, legal and compliance reviews, education, healthcare documentation, internal communications, and business development. By standardizing how teams produce summaries, they can save time, improve decision-making, and deliver consistent results.
 
 > [!IMPORTANT]
-> Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
+> Microsoft 365 Copilot Tuning is currently available to a limited set of customers through early access programs. Access through [Frontier](https://adoption.microsoft.com/copilot/frontier-program/) is planned for April 2026. Features and requirements are subject to change.
 
 ## What the agent can do
 

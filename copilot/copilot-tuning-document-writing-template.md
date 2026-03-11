@@ -1,5 +1,5 @@
 ---
-title: Copilot Tuning Document Writing agent template
+title: Copilot Tuning Document Writing agent template (early access preview)
 author: lauragra
 ms.author: lauragra
 manager: calvind
@@ -12,14 +12,14 @@ ms.localizationpriority: medium
 description: Learn how to use Copilot Tuning to build an AI model for document writing.
 ---
 
-# Copilot Tuning Document Writing agent template
+# Copilot Tuning Document Writing agent template (early access preview)
 
 The **Document Writing** agent template helps you generate long-form documents that align with your organization's style, structure, and workflows. By combining reference examples, content inputs, and optional tuning, the agent can draft documents that reflect how your team writes and works.
 
 The template supports scenarios such as technical documentation, legal documents, reports, and other structured content.
 
 > [!IMPORTANT]
-> Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
+> Microsoft 365 Copilot Tuning is currently available to a limited set of customers through early access programs. Access through [Frontier](https://adoption.microsoft.com/copilot/frontier-program/) is planned for April 2026. Features and requirements are subject to change.
 
 ## What the Document Writing agent template can do
 

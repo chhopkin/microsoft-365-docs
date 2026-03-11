@@ -1,5 +1,5 @@
 ---
-title: Customize Microsoft 365 Copilot with Copilot Tuning (preview)
+title: Customize Microsoft 365 Copilot with Copilot Tuning (early access preview)
 description: Get an overview of the process to create a fine-tuned model with Copilot Tuning to customize Microsoft 365 Copilot for your organization.
 author: lauragra
 ms.author: lauragra
@@ -10,7 +10,7 @@ ms.topic: article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ---
-# Customize Microsoft 365 Copilot with Copilot Tuning (preview)
+# Customize Microsoft 365 Copilot with Copilot Tuning (early access preview)
 
 By using Microsoft 365 Copilot Tuning, organizations can tailor AI models to reflect their unique terminology, communication style, and business processes. When you fine-tune large language models (LLMs) with your own data, you can improve the accuracy, tone, and relevance of Copilot responses across your tenant.
 
@@ -19,7 +19,7 @@ Copilot Tuning goes beyond retention and retrieval to train tenant-specific LLMs
 This article describes the process of tuning task-specific agents in Microsoft 365 Copilot for your organization.
 
 > [!IMPORTANT]
-> Copilot Tuning is currently available in the [**Frontier early access program**](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [**What is Frontier?**](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
+> Microsoft 365 Copilot Tuning is currently available to a limited set of customers through early access programs. Access through [Frontier](https://adoption.microsoft.com/copilot/frontier-program/) is planned for April 2026. Features and requirements are subject to change.
 
 ## Fine tuning process overview
 
