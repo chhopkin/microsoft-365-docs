@@ -5,7 +5,7 @@ ms.author: lauragra
 manager: calvind
 ms.collection: operations-pod
 ms.reviewer: riyazp
-ms.date: 02/19/2026
+ms.date: 03/10/2026
 ms.service: microsoft-365-copilot
 ms.topic: how-to
 ms.localizationpriority: medium
@@ -18,8 +18,7 @@ The **Expert Answers** agent template is a tunable Microsoft 365 Copilot agent t
 
 This article describes common scenarios, tuning options, requirements, and limitations to help you implement the Expert Answers agent template effectively.
 
-> [!IMPORTANT]
-> Microsoft 365 Copilot Tuning is currently available to a limited set of customers through early access programs. Access through [Frontier](https://adoption.microsoft.com/copilot/frontier-program/) is planned for April 2026. Features and requirements are subject to change.
+[!INCLUDE [copilot-tuning-preview](../../copilot/includes/copilot-tuning-preview.md)]
 
 ## Expert Answers agent template overview
 

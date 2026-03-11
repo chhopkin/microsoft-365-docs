@@ -4,7 +4,7 @@ description: Learn how to use and tune the Style Editing agent template in Micro
 author: david-salas
 ms.author: dsalasbarran
 manager: calvind
-ms.date: 02/24/2026
+ms.date: 03/10/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: overview
@@ -21,8 +21,7 @@ The **Style Editing** agent template helps organizations standardize how content
 
 This agent is designed for teams that produce large volumes of written content and want consistent, high‑quality results without repeated manual editing.
 
-> [!IMPORTANT]
-> Microsoft 365 Copilot Tuning is currently available to a limited set of customers through early access programs. Access through [Frontier](https://adoption.microsoft.com/copilot/frontier-program/) is planned for April 2026. Features and requirements are subject to change.
+[!INCLUDE [copilot-tuning-preview](../../copilot/includes/copilot-tuning-preview.md)]
 
 ## What the Style Editing agent template does
 

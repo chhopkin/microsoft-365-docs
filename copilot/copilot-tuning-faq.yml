@@ -7,7 +7,7 @@ metadata:
   manager: scotv
   ms.service: microsoft-365-copilot
   ms.topic: faq
-  ms.date: 02/24/2026
+  ms.date: 03/10/2026
 
 title: Microsoft 365 Copilot Tuning FAQ
 summary: |
@@ -15,8 +15,7 @@ summary: |
 
   Copilot Tuning introduces tunable templates in Agent Builder that provide custom task-specific inference recipes. With various tuning options (tune context, tune model, tune tools), the templates utilizes other task-specific recipes. These agents can perform high-value tasks such as document writing, expert answering, summarization, validation, style editing and optimization. These tasks are performed within the security and compliance boundaries of Microsoft 365. 
 
-   > [!IMPORTANT]
-   > Microsoft 365 Copilot Tuning is currently available to a limited set of customers through early access programs. Access through [Frontier](https://adoption.microsoft.com/copilot/frontier-program/) is planned for April 2026. Features and requirements are subject to change.
+  [!INCLUDE [copilot-tuning-preview](../../copilot/includes/copilot-tuning-preview.md)]
 
 sections:
 - name: Copilot Tuning capabilities

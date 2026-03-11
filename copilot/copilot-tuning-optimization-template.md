@@ -5,7 +5,7 @@ ms.author: lauragra
 manager: calvind
 ms.collection: operations-pod
 ms.reviewer: riyazp
-ms.date: 02/19/2026
+ms.date: 03/10/2026
 ms.service: microsoft-365-copilot
 ms.topic: how-to
 ms.localizationpriority: medium
@@ -18,8 +18,7 @@ The **Optimization** agent template for Microsoft 365 Copilot helps you model an
 
 Describe your optimization problem by specifying goals, constraints, and data. The Optimization agent template computes an optimal solution based on those inputs, without requiring expertise in coding or mathematical modeling.
 
-> [!IMPORTANT]
-> Microsoft 365 Copilot Tuning is currently available to a limited set of customers through early access programs. Access through [Frontier](https://adoption.microsoft.com/copilot/frontier-program/) is planned for April 2026. Features and requirements are subject to change.
+[!INCLUDE [copilot-tuning-preview](../../copilot/includes/copilot-tuning-preview.md)]
 
 ## Optimization agent template overview
 

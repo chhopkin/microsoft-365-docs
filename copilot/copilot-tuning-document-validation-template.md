@@ -5,7 +5,7 @@ author: david-salas
 ms.author: dsalasbarran
 manager: calvind
 ms.reviewer: riyazp
-ms.date: 02/24/2026
+ms.date: 03/10/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: overview
@@ -22,8 +22,7 @@ The **Document Validation** agent template for Microsoft 365 Copilot helps organ
 
 This agent is designed for high-stakes and repeatable review scenarios where accuracy, consistency, and auditability are critical.
 
-> [!IMPORTANT]
-> Microsoft 365 Copilot Tuning is currently available to a limited set of customers through early access programs. Access through [Frontier](https://adoption.microsoft.com/copilot/frontier-program/) is planned for April 2026. Features and requirements are subject to change.
+[!INCLUDE [copilot-tuning-preview](../../copilot/includes/copilot-tuning-preview.md)]
 
 ## What the Document Validation agent template does
 

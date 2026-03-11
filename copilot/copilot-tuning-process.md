@@ -5,7 +5,7 @@ author: lauragra
 ms.author: lauragra
 manager: calvind
 ms.reviewer: riyazp
-ms.date: 02/24/2026
+ms.date: 03/10/2026
 ms.topic: article
 ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
@@ -18,8 +18,7 @@ Copilot Tuning goes beyond retention and retrieval to train tenant-specific LLMs
 
 This article describes the process of tuning task-specific agents in Microsoft 365 Copilot for your organization.
 
-> [!IMPORTANT]
-> Microsoft 365 Copilot Tuning is currently available to a limited set of customers through early access programs. Access through [Frontier](https://adoption.microsoft.com/copilot/frontier-program/) is planned for April 2026. Features and requirements are subject to change.
+[!INCLUDE [copilot-tuning-preview](../../copilot/includes/copilot-tuning-preview.md)]
 
 ## Fine tuning process overview
 

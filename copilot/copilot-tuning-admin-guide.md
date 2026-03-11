@@ -4,7 +4,7 @@ f1.keywords:
 author: lauragra
 ms.author: lauragra
 manager: calvind
-ms.date: 02/19/2026
+ms.date: 03/10/2026
 ms.reviwer: riyazp
 ms.update-cycle: 180-days
 audience: Admin
@@ -23,8 +23,7 @@ Microsoft 365 Copilot Tuning (preview) is an AI customization capability that en
 
 This article describes how administrators manage Microsoft 365 Copilot Tuning, including role requirements, availability controls, agent lifecycle management, and data protection considerations.
 
-> [!IMPORTANT]
-> Microsoft 365 Copilot Tuning is currently available to a limited set of customers through early access programs. Access through [Frontier](https://adoption.microsoft.com/copilot/frontier-program/) is planned for April 2026. Features and requirements are subject to change.
+[!INCLUDE [copilot-tuning-preview](../../copilot/includes/copilot-tuning-preview.md)]
 
 ## Tuning availability settings
 
