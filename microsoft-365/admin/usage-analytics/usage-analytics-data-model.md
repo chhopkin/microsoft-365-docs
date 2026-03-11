@@ -208,15 +208,15 @@ This table provides month-over-month summary data about the clients that the use
 
 This table consists of month over month summary data about the usage or activity of SharePoint sites. This only covers Team Sites and Group sites. The end of month state of SharePoint sites is represented in this column, for example, if a user created a five documents and used 10 MB for total storage, and then deleted some files, and added more files so that at the end of month state for files is seven total that use five MB of storage, the value of represented in this table is end of month state. This table is hidden to avoid duplicate count of aggregations and is used as a source to create two reference tables.
 
-| **Column name**                 | **Column description** |
-|-------------------------------- | ---------------------- |
+| **Column name**                 | **Column description**                                                                            |
+|-------------------------------- | ------------------------------------------------------------------------------------------------- |
 | **SiteType**                    | <ul><li>Site type value.</li><li>Possible values are any, team, or group.</li><li>The value any represents either team or group sites.</li></ul> |
-| **TotalSites**                  | Number of sites that existed at the end of the timeframe. |
-| **DocumentCount**               | Total number of documents that existed on the site at the end of the timeframe. |
-| **Diplansed**                   | Total storage used, summed across all sites at the end of the timeframe. |
+| **TotalSites**                  | Number of sites that existed at the end of the timeframe.                                         |
+| **DocumentCount**               | Total number of documents that existed on the site at the end of the timeframe.                   |
+| **Diplansed**                   | Total storage used, summed across all sites at the end of the timeframe.                          |
 | **ActivityType**                | <ul><li>Number of sites that recorded specific types of file activity.</li><li>Includes any activity, active files, files shared externally or internally, and files synchronized.</li><li>Represents any file activity that was performed.</li></ul> |
 | **SitesWithOwnerActivities**    | <ul><li>Number of active sites where the site owner performed a file activity on their own site.</li><li>The site owner is the person responsible for the site.</li><li>The site owner can be identified using the PowerShell command <code>get-sposite</code>.</li></ul> |
-| **SitesWithNonOwnerActivities** | <ul><li>Number of active sites where users other than the site owner performed a file activity.</li><li>The site owner is the person responsible for the site.</li><li>The site owner can be identified using the PowerShell command <code>get-sposite</code>.</li></ul> |
+| **SitesWithNonOwnerActivities** | <ul><li>Number of active sites where users other than the site owner performed a file activity.</li><li>The site owner is the person responsible for the site.</li><li>The site owner can be identified using the PowerShell command <code>get-sposite</code>.</li></ul>   |
 | **ActivityTotalSites**          | <ul><li>Number of sites that recorded any activity during the timeframe.</li><li>Sites deleted by the end of the timeframe are still counted if they had activity earlier in the timeframe.</li></ul> |
 | **Timeframe**                   | <ul><li>Date value.</li><li>Used as a many‑to‑one relationship with the Calendar table.</li></ul> |
 | **Content Date**                | If the timeframe is: <ul><li> The current month, this is the latest date with available data.</li><li>A previous month, this is the last date of that month.</li></ul> |
