@@ -167,44 +167,43 @@ This table provides monthly totals of activity and active user count for various
 | **Column name**               | **Column description** |
 |------------------------------|------------------------|
 | **Timeframe**                | <ul><li>Month value.</li><li>One row per product per month.</li><li>Includes the last 12 months, including the current partial month.</li></ul> |
-| **Product**                  | Name of the product within Microsoft 365 for which usage data is available. |
-| **Activity**                 | Name of the activity in a product that is used to showcase active use of the product. |
+| **Product**                  | <ul><li>Name of the product within Microsoft 365 for which usage data is available.</li></ul> |
+| **Activity**                 | <ul><li>Name of the activity in a product that is used to showcase active use of the product.</li></ul> |
 | **ActivityCount**            | <ul><li>Total number of actions counted for each activity across all active users.</li><li>For SharePoint and OneDrive activities, this value represents the number of distinct documents users interacted with.</li></ul> |
-| **ActiveUserCount**          | Number of users who performed the activity within the product. |
+| **ActiveUserCount**          | <ul><li>Number of users who performed the activity within the product.</li></ul> |
 | **TotalDurationInMinute**    | <ul><li>Total duration, in minutes, across all active users.</li><li>Applies to audio or video sessions in applicable Skype for Business activities.</li></ul> |
 | **Content Date**             | <ul><li>If the timeframe is the current month, this is the latest date with available data.</li><li>If the timeframe is a previous month, this is the last date of that month.</li></ul> |
-
 
 ### Data table - Tenant Mailbox Usage
 
 This table consists of summary data across all licensed Exchange Online users who have a user mailbox. It contains end of month state across all user mailboxes. The data in this table isn't additive across multiple months. Latest month's data in this table represents the most recent state.
 
-|**Column name**|**Column description**|
-|:-----|:-----|
-|TotalMailboxes   |Number of user mailboxes for Microsoft 365 subscription.   |
-|IssueWarningQuota   |Total quota for issuing warning across all users' mailboxes.   |
-|ProhibitSendQuota   |Total quota for prohibit send across all user mailboxes.   |
-|ProhibitSendReceiveQuota   |Total quota for prohibit send receive quota across all user mailboxes.   |
-|TotalItemBytes   |Amount of storage used across all user mailboxes in bytes.   |
-|MailboxesNoWarning   |Number of user mailboxes that were under the storage warning limit.   |
-|MailboxesIssueWarning   |Number of user mailboxes that were issued a warning for storage quota.   |
-|MailboxesExceedSendQuota   |Number of user mailboxes that exceeded the send quota.   |
-|MailboxesExceedSendReceiveQuota   |Number of user mailboxes that exceeded the send/receive quota.   |
-|DeletedMailboxes   |Number of users mailboxes deleted in the timeframe.   |
-|Timeframe   |Month value.   |
-|Content Date   |If timeframe shows current month, this value represents the latest date of the current month for which data is available.  <br/><br/> If Timeframe shows previous month, this value represents the last date of the timeframe month.   |
+| **Column name**                     | **Column description**                                                          |
+| ----------------------------------- |-------------------------------------------------------------------------------- |
+| **TotalMailboxes**                  | Number of user mailboxes for the Microsoft 365 subscription.                    |
+| **IssueWarningQuota**               | Total quota for issuing warnings across all user mailboxes.                     |
+| **ProhibitSendQuota**               | Total quota for prohibiting send actions across all user mailboxes.             |
+| **ProhibitSendReceiveQuota**        | Total quota for prohibiting send and receive actions across all user mailboxes. |
+| **TotalItemBytes**                  | Amount of storage used across all user mailboxes, in bytes.                     |
+| **MailboxesNoWarning**              | Number of user mailboxes that are under the storage warning limit.              |
+| **MailboxesIssueWarning**           | Number of user mailboxes that were issued a storage quota warning.              |
+| **MailboxesExceedSendQuota**        | Number of user mailboxes that exceeded the send quota.                          |
+| **MailboxesExceedSendReceiveQuota** | Number of user mailboxes that exceeded the send and receive quota.              |
+| **DeletedMailboxes**                | Number of user mailboxes deleted in the timeframe.                              |
+| **Timeframe**                       | Month value.                                                                    |
+| **Content Date**                    | <ul><li>If the timeframe is the current month, this is the latest date with available data.</li><li>If the timeframe is a previous month, this is the last date of that month.</li></ul> |
 
 ### Data table - Tenant Client Usage
 
 This table provides month-over-month summary data about the clients that the users are using to connect to Exchange Online, Skype for Business and Viva Engage. This table doesn't yet have client use data for SharePoint and OneDrive.
 
-|**Column name**|**Column description**|
-|:-----|:-----|
-|Product   |Name of the product within Microsoft 365 for which client usage data is available.   |
-|ClientId   |Name of each device used to connect to product.   |
-|UserCount   |Number of users that used each of the clients for each product.   |
-|Timeframe   |Month value   |
-|Content Date   |If timeframe shows current month, this value represents the latest date of the current month for which data is available.  <br/><br/> If Timeframe shows previous month, this value represents the last date of the timeframe month.   |
+| **Column name**  | **Column description**                                                             |
+| ---------------- | ---------------------------------------------------------------------------------- |
+| **Product**      | Name of the product within Microsoft 365 for which client usage data is available. |
+| **ClientId**     | Name of each device used to connect to the product.                                |
+| **UserCount**    | Number of users who used each client for each product.                             |
+| **Timeframe**    | Month value.                                                                       |
+| **Content Date** | <ul><li>If the timeframe is the current month, this is the latest date with available data.</li><li>If the timeframe is a previous month, this is the last date of that month.</li></ul> |
 
 ### Data table - Tenant SharePoint Usage
 
