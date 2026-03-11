@@ -225,18 +225,18 @@ This table consists of month over month summary data about the usage or activity
 
 This table provides data about the OneDrive accounts such as number of accounts, number of documents across OneDrive accounts, storage used, file count by activity type. The end of month state of OneDrive accounts is represented in this table. For example, if a user created a Five documents that used 10 MB of storage, and then deleted a few and added more files so that at the end of month they have seven files that use Five MB of storage, then the end of the month value is represented in this table at the end of the month.
 
-|**Column name**|**Column description**|
-|:-----|:-----|
-|SiteType   |Value is "OneDrive".   |
-|TotalSites   |Number of OneDrive accounts that existed at the end of the timeframe.   |
-|DocumentCount   |Total number of documents that existed across all OneDrive accounts at the end of the timeframe   |
-|Deplanted   |Total storage used summed across all OneDrive account at the end of the timeframe.   |
-|ActivityType   |Number of accounts that recorded the various types of file activity (any/active files/ files shared EXT/INT/files synched).  <br/><br/> Any represents any of the file activity was performed   |
-|SitesWithOwnerActivities   |Number of active OneDrive accounts, where the account owner performed a particular file activity on their own account.   |
-|SitesWithNonOwnerActivities   |Count of OneDrive accounts where file activity is performed by users other than the owner of the account.   |
-|ActivityTotalSites   |Number of OneDrive accounts that recorded any activity during the timeframe. If a OneDrive account had activity earlier in the timeframe, and was deleted by the end of the timeframe, it would still be counted in the active OneDrive account for that timeframe.   |
-|Timeframe   |This column has the date value. Used as Many to one relationship for Calendar table.   |
-|Content Date   |If timeframe shows current month, this value represents the latest date of the current month for which data is available.  <br/><br/> If Timeframe shows previous month, this value represents the last date of the timeframe month.   |
+| **Column name**                 | **Column description**                                                                                     |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **SiteType**                    | <ul><li>Value is <code>OneDrive</code>.</li></ul>                                                          |
+| **TotalSites**                  | Number of OneDrive accounts that existed at the end of the timeframe.                                      |
+| **DocumentCount**               | Total number of documents that existed across all OneDrive accounts at the end of the timeframe.           |
+| **Deplanted**                   | Total storage used, summed across all OneDrive accounts at the end of the timeframe.                       |
+| **ActivityType**                | <ul><li>Number of accounts that recorded specific types of file activity.</li><li>Includes any activity, active files, files shared externally or internally, and files synchronized.</li><li>The value <code>any</code> represents that at least one file activity was performed.</li></ul> |
+| **SitesWithOwnerActivities**    | Number of active OneDrive accounts where the account owner performed a file activity on their own account. |
+| **SitesWithNonOwnerActivities** | Number of OneDrive accounts where file activity was performed by users other than the account owner.       |
+| **ActivityTotalSites**          | <ul><li>Number of OneDrive accounts that recorded any activity during the timeframe.</li><li>Accounts deleted by the end of the timeframe are still counted if they had activity earlier in the timeframe.</li></ul> |
+| **Timeframe**                   | <ul><li>Date value.</li><li>Used as a many‑to‑one relationship with the Calendar table.</li></ul>          |
+| **Content Date**                | <ul><li>If the timeframe is the current month, this is the latest date with available data.</li><li>If the timeframe is a previous month, this is the last date of that month.</li></ul> |
 
 ### Data table - Tenant Microsoft 365 Groups Usage
 
