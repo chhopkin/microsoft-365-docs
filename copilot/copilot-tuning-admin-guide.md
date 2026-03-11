@@ -23,7 +23,7 @@ Microsoft 365 Copilot Tuning (early access preview) is an AI customization capab
 
 This article describes how administrators manage Microsoft 365 Copilot Tuning, including role requirements, availability controls, agent lifecycle management, and data protection considerations.
 
-[!INCLUDE [copilot-tuning-preview](../../copilot/includes/copilot-tuning-preview.md)]
+[!INCLUDE [copilot-tuning-preview](./includes/copilot-tuning-preview.md)]
 
 ## Tuning availability settings
 

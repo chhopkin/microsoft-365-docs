@@ -18,7 +18,7 @@ The **Expert Answers** agent template is a tunable Microsoft 365 Copilot agent t
 
 This article describes common scenarios, tuning options, requirements, and limitations to help you implement the Expert Answers agent template effectively.
 
-[!INCLUDE [copilot-tuning-preview](../../copilot/includes/copilot-tuning-preview.md)]
+[!INCLUDE [copilot-tuning-preview](./includes/copilot-tuning-preview.md)]
 
 ## Expert Answers agent template overview
 

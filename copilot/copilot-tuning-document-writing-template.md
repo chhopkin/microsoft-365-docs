@@ -18,7 +18,7 @@ The **Document Writing** agent template helps you generate long-form documents t
 
 The template supports scenarios such as technical documentation, legal documents, reports, and other structured content.
 
-[!INCLUDE [copilot-tuning-preview](../../copilot/includes/copilot-tuning-preview.md)]
+[!INCLUDE [copilot-tuning-preview](./includes/copilot-tuning-preview.md)]
 
 ## What the Document Writing agent template can do
 

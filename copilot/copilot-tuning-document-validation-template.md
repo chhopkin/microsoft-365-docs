@@ -22,7 +22,7 @@ The **Document Validation** agent template for Microsoft 365 Copilot helps organ
 
 This agent is designed for high-stakes and repeatable review scenarios where accuracy, consistency, and auditability are critical.
 
-[!INCLUDE [copilot-tuning-preview](../../copilot/includes/copilot-tuning-preview.md)]
+[!INCLUDE [copilot-tuning-preview](./includes/copilot-tuning-preview.md)]
 
 ## What the Document Validation agent template does
 

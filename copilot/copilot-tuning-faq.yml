@@ -15,7 +15,7 @@ summary: |
 
   Copilot Tuning introduces tunable templates in Agent Builder that provide custom task-specific inference recipes. With various tuning options (tune context, tune model, tune tools), the templates utilize other task-specific recipes. These agents can perform high-value tasks such as document writing, expert answering, summarization, validation, style editing and optimization. These tasks are performed within the security and compliance boundaries of Microsoft 365. 
 
-  [!INCLUDE [copilot-tuning-preview](../../copilot/includes/copilot-tuning-preview.md)]
+  [!INCLUDE [copilot-tuning-preview](./includes/copilot-tuning-preview.md)]
 
 sections:
 - name: Copilot Tuning capabilities

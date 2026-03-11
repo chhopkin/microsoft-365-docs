@@ -18,7 +18,7 @@ Copilot Tuning goes beyond retention and retrieval to train tenant-specific LLMs
 
 This article describes the process of tuning task-specific agents in Microsoft 365 Copilot for your organization.
 
-[!INCLUDE [copilot-tuning-preview](../../copilot/includes/copilot-tuning-preview.md)]
+[!INCLUDE [copilot-tuning-preview](./includes/copilot-tuning-preview.md)]
 
 ## Fine tuning process overview
 

@@ -18,7 +18,7 @@ The **Optimization** agent template for Microsoft 365 Copilot helps you model an
 
 Describe your optimization problem by specifying goals, constraints, and data. The Optimization agent template computes an optimal solution based on those inputs, without requiring expertise in coding or mathematical modeling.
 
-[!INCLUDE [copilot-tuning-preview](../../copilot/includes/copilot-tuning-preview.md)]
+[!INCLUDE [copilot-tuning-preview](./includes/copilot-tuning-preview.md)]
 
 ## Optimization agent template overview
 

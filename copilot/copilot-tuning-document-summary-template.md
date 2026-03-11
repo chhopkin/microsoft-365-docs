@@ -22,7 +22,7 @@ The **Document Summary** agent template helps you generate summaries that reflec
 
 This capability is useful for scenarios such as executive briefings, legal and compliance reviews, education, healthcare documentation, internal communications, and business development. By standardizing how teams produce summaries, they can save time, improve decision-making, and deliver consistent results.
 
-[!INCLUDE [copilot-tuning-preview](../../copilot/includes/copilot-tuning-preview.md)]
+[!INCLUDE [copilot-tuning-preview](./includes/copilot-tuning-preview.md)]
 
 ## What the agent can do
 
