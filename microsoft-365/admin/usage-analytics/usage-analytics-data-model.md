@@ -157,7 +157,7 @@ This table provides month-over-month adoption data in terms of enable, active, r
 | **CumulativeActiveUsers** | <ul><li>Number of users enabled to use the product.</li><li>Includes users who have used the product at least once since data collection started.</li><li>Calculated up to and including the timeframe month.</li></ul> |
 | **MoMReturningUsers**     | <ul><li>Number of users active in the timeframe month.</li><li>Users must also have been active in the previous month.</li></ul> |
 | **FirstTimeUsers**        | <ul><li>Number of users who became active in the timeframe month for the first time.</li><li>Activity is measured from the start of data collection in the new usage system.</li><li>Once counted as a first-time user, the user is never counted again.</li></ul> |
-| **Content Date**          | <ul><li>If the timeframe is the current month, this is the latest date with available data.</li><li>If the timeframe is a previous month, this is the last date of that month.</li></ul> |
+| **Content Date**          | If the timeframe is:<ul><li> The current month, this is the latest date with available data.</li><li>A previous month, this is the last date of that month.</li></ul> |
 
 ### Data table - Tenant Product Activity
 
@@ -171,7 +171,7 @@ This table provides monthly totals of activity and active user count for various
 | **ActivityCount**            | <ul><li>Total number of actions counted for each activity across all active users.</li><li>For SharePoint and OneDrive activities, this value represents the number of distinct documents users interacted with.</li></ul> |
 | **ActiveUserCount**          | <ul><li>Number of users who performed the activity within the product.</li></ul>                        |
 | **TotalDurationInMinute**    | <ul><li>Total duration, in minutes, across all active users.</li><li>Applies to audio or video sessions in applicable Skype for Business activities.</li></ul> |
-| **Content Date**             | <ul><li>If the timeframe is the current month, this is the latest date with available data.</li><li>If the timeframe is a previous month, this is the last date of that month.</li></ul> |
+| **Content Date**             | If the timeframe is:<ul><li> The current month, this is the latest date with available data.</li><li>A previous month, this is the last date of that month.</li></ul>  |
 
 ### Data table - Tenant Mailbox Usage
 
@@ -190,7 +190,7 @@ This table consists of summary data across all licensed Exchange Online users wh
 | **MailboxesExceedSendReceiveQuota** | Number of user mailboxes that exceeded the send and receive quota.              |
 | **DeletedMailboxes**                | Number of user mailboxes deleted in the timeframe.                              |
 | **Timeframe**                       | Month value.                                                                    |
-| **Content Date**                    | If the timeframe is: <ul><li> The current month, this is the latest date with available data.</li><li>A previous month, this is the last date of that month.</li></ul> |
+| **Content Date**                    | If the timeframe is:<ul><li> The current month, this is the latest date with available data.</li><li>A previous month, this is the last date of that month.</li></ul> |
 
 ### Data table - Tenant Client Usage
 
@@ -202,7 +202,7 @@ This table provides month-over-month summary data about the clients that the use
 | **ClientId**     | Name of each device used to connect to the product.                                |
 | **UserCount**    | Number of users who used each client for each product.                             |
 | **Timeframe**    | Month value.                                                                       |
-| **Content Date** | If the timeframe is: <ul><li> The current month, this is the latest date with available data.</li><li>A previous month, this is the last date of that month.</li></ul> |
+| **Content Date** | If the timeframe is:<ul><li> The current month, this is the latest date with available data.</li><li>A previous month, this is the last date of that month.</li></ul> |
 
 ### Data table - Tenant SharePoint Usage
 
@@ -210,16 +210,16 @@ This table consists of month over month summary data about the usage or activity
 
 | **Column name**                 | **Column description**                                                                            |
 |-------------------------------- | ------------------------------------------------------------------------------------------------- |
-| **SiteType**                    | <ul><li>Site type value.</li><li>Possible values are any, team, or group.</li><li>The value any represents either team or group sites.</li></ul> |
+| **SiteType**                    | Site type value. Possible values are:<ul><li>Any: Represents either team or group sites.</li><li>Team</li>.<li>Group.</li></ul> |
 | **TotalSites**                  | Number of sites that existed at the end of the timeframe.                                         |
 | **DocumentCount**               | Total number of documents that existed on the site at the end of the timeframe.                   |
 | **Diplansed**                   | Total storage used, summed across all sites at the end of the timeframe.                          |
-| **ActivityType**                | <ul><li>Number of sites that recorded specific types of file activity.</li><li>Includes any activity, active files, files shared externally or internally, and files synchronized.</li><li>Represents any file activity that was performed.</li></ul> |
-| **SitesWithOwnerActivities**    | <ul><li>Number of active sites where the site owner performed a file activity on their own site.</li><li>The site owner is the person responsible for the site.</li><li>The site owner can be identified using the PowerShell command <code>get-sposite</code>.</li></ul> |
-| **SitesWithNonOwnerActivities** | <ul><li>Number of active sites where users other than the site owner performed a file activity.</li><li>The site owner is the person responsible for the site.</li><li>The site owner can be identified using the PowerShell command <code>get-sposite</code>.</li></ul>   |
-| **ActivityTotalSites**          | <ul><li>Number of sites that recorded any activity during the timeframe.</li><li>Sites deleted by the end of the timeframe are still counted if they had activity earlier in the timeframe.</li></ul> |
-| **Timeframe**                   | <ul><li>Date value.</li><li>Used as a many‑to‑one relationship with the Calendar table.</li></ul> |
-| **Content Date**                | If the timeframe is: <ul><li> The current month, this is the latest date with available data.</li><li>A previous month, this is the last date of that month.</li></ul> |
+| **ActivityType**                | Number of sites that recorded specific types of file activity. For example:<ul><li>Any activity.</li><li>Active files.</li><li>Files shared externally.</li><li>Files shared internally.</li><li>Files synchronized.</li></ul>Represents any file activity that was performed. |
+| **SitesWithOwnerActivities**    | Number of active sites where the site owner performed a file activity on their own site.<ul><li>The site owner is the person responsible for the site.</li><li>The site owner can be identified using the PowerShell command `get-sposite`.</li></ul> |
+| **SitesWithNonOwnerActivities** | Number of active sites summed up for the month where users other than the site owner performed a file activity.<ul><li>The site owner is the person responsible for the site.</li><li>The site owner can be identified using the PowerShell command `get-sposite`.</li></ul> |
+| **ActivityTotalSites**          | Number of sites that recorded any activity during the timeframe.<ul><li>Sites deleted by the end of the timeframe are still counted if they had activity earlier in the timeframe.</li></ul> |
+| **Timeframe**                   | Date value.<ul><li>Used as a many‑to‑one relationship with the Calendar table.</li></ul> |
+| **Content Date**                | If the timeframe is:<ul><li> The current month, this is the latest date with available data.</li><li>A previous month, this is the last date of that month.</li></ul> |
 
 ### Data table - Tenant OneDrive Usage
 
