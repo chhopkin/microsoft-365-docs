@@ -2,7 +2,7 @@
 title: Security for Microsoft 365 Copilot
 description: Learn how Microsoft secures Microsoft 365 Copilot and how Copilot inherits Microsoft 365 security, compliance, and privacy protections.
 ms.topic: conceptual
-ms.date: 03/06/2026
+ms.date: 03/09/2026
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -33,17 +33,21 @@ Security is foundational to Microsoft's approach to Microsoft 365 Copilot. This 
 
 ## Microsoft's defense‑in‑depth approach
 
-Microsoft applies a multi‑layered, defense‑in‑depth strategy to secure Microsoft 365 Copilot at every level, grounded in enterprise security, privacy, and compliance standards. This layered approach helps ensure that if one control is compromised, other protections remain in place.
+Microsoft applies a multi‑layered, defense‑in‑depth strategy to secure Microsoft 365 Copilot at every level, grounded in enterprise security, privacy, and compliance standards. This layered approach helps ensure that if one control is compromised, other protections remain in place. 
+
+For more information, see [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
 
 ## Identity and access protection
 
 Microsoft 365 Copilot is built on Microsoft 365 identity and access controls and aligns with Zero Trust principles such as strong identity verification, least‑privilege access, and continuous evaluation.
 
-For more information, see: [Apply principles of Zero Trust to Microsoft 365 Copilot](/security/zero-trust/copilots/zero-trust-microsoft-365-copilot).
+For more information, see [Apply principles of Zero Trust to Microsoft 365 Copilot](/security/zero-trust/copilots/zero-trust-microsoft-365-copilot).
 
 ## Data protection and compliance
 
 Microsoft 365 Copilot honors your organization's existing security and data protection controls. Copilot only accesses data that users are authorized to access, and it respects Microsoft 365 compliance, privacy, and data residency commitments.
+
+For more information, see [How data is protected and audited in Microsoft 365 and Microsoft 365 Copilot](microsoft-365-copilot-architecture-data-protection-auditing.md). 
 
 ### Enterprise data protection
 
