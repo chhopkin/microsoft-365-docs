@@ -149,14 +149,14 @@ This table contains data about each user who had an activity in any of the servi
 This table provides month-over-month adoption data in terms of enable, active, returning, and first-time users for each product within Microsoft 365. The Microsoft 365 values represent active usage in either of the products.
 
 | **Column name**           | **Column description** |
-| ------------------------- |------------------------|
-| **Product**               | <ul><li>Name of products for which the usage information is summarized.</li><li>The Microsoft 365 value represents activity across any of the products.</li></ul> |
-| **Timeframe**             | <ul><li>Month value.</li><li>One row per product per month.</li><li>Includes the last 12 months, including the current partial month.</li></ul> |
-| **EnabledUsers**          | <ul><li>Number of users enabled to use the product for the timeframe value.</li><li>Users enabled for any portion of the month are counted.</li></ul> |
-| **ActiveUsers**           | <ul><li>Number of users who performed an intentional activity in the product for the timeframe value.</li><li>A user is counted as active if they performed one of the key product activities.</li><li>Key activities are listed in the **Tenant Product Activity** table.</li></ul> |
-| **CumulativeActiveUsers** | <ul><li>Number of users enabled to use the product.</li><li>Includes users who have used the product at least once since data collection started.</li><li>Calculated up to and including the timeframe month.</li></ul> |
-| **MoMReturningUsers**     | <ul><li>Number of users active in the timeframe month.</li><li>Users must also have been active in the previous month.</li></ul> |
-| **FirstTimeUsers**        | <ul><li>Number of users who became active in the timeframe month for the first time.</li><li>Activity is measured from the start of data collection in the new usage system.</li><li>Once counted as a first-time user, the user is never counted again.</li></ul> |
+| ------------------------- | ---------------------- |
+| **Product**               | Name of products for which the usage information is summarized.<ul><li>The Microsoft 365 value represents activity across any of the products.</li></ul> |
+| **Timeframe**             | Month value.<ul><li>One row per product per month.</li><li>Includes the last 12 months, including the current partial month.</li></ul> |
+| **EnabledUsers**          | Number of users enabled to use the product for the timeframe value.<ul><li>Users enabled for any portion of the month are counted.</li></ul> |
+| **ActiveUsers**           | Number of users who performed an intentional activity in the product for the timeframe value.<ul><li>A user is counted as active if they performed one of the key product activities.</li><li>Key activities are listed in the **Tenant Product Activity** table.</li></ul> |
+| **CumulativeActiveUsers** | Number of users enabled to use the product.<ul><li>Includes users who have used the product at least once since data collection started.</li><li>Calculated up to and including the timeframe month.</li></ul> |
+| **MoMReturningUsers**     | Number of users active in the timeframe month.<ul><li>Users must also have been active in the previous month.</li></ul> |
+| **FirstTimeUsers**        | Number of users who became active in the timeframe month for the first time.<ul><li>Activity is measured from the start of data collection in the new usage system.</li><li>Once counted as a first-time user, the user is never counted again.</li></ul> |
 | **Content Date**          | If the timeframe is:<ul><li> The current month, this is the latest date with available data.</li><li>A previous month, this is the last date of that month.</li></ul> |
 
 ### Data table - Tenant Product Activity
@@ -164,13 +164,13 @@ This table provides month-over-month adoption data in terms of enable, active, r
 This table provides monthly totals of activity and active user count for various activities within the products.
 
 | **Column name**              | **Column description** |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------- |
-| **Timeframe**                | <ul><li>Month value.</li><li>One row per product per month.</li><li>Includes the last 12 months, including the current partial month.</li></ul> |
-| **Product**                  | <ul><li>Name of the product within Microsoft 365 for which usage data is available.</li></ul>           |
-| **Activity**                 | <ul><li>Name of the activity in a product that is used to showcase active use of the product.</li></ul> |
-| **ActivityCount**            | <ul><li>Total number of actions counted for each activity across all active users.</li><li>For SharePoint and OneDrive activities, this value represents the number of distinct documents users interacted with.</li></ul> |
-| **ActiveUserCount**          | <ul><li>Number of users who performed the activity within the product.</li></ul>                        |
-| **TotalDurationInMinute**    | <ul><li>Total duration, in minutes, across all active users.</li><li>Applies to audio or video sessions in applicable Skype for Business activities.</li></ul> |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| **Timeframe**                | Month value.<ul><li>One row per product per month.</li><li>Includes the last 12 months, including the current partial month.</li></ul> |
+| **Product**                  | Name of the product within Microsoft 365 for which usage data is available.                                                            |
+| **Activity**                 | Name of the activity in a product that is used to showcase active use of the product.                                                  |
+| **ActivityCount**            | Total number of actions counted for each activity across all active users.<ul><li>For SharePoint and OneDrive activities, this value represents the number of distinct documents users interacted with.</li></ul> |
+| **ActiveUserCount**          | Number of users who performed the activity within the product.                                                                         |
+| **TotalDurationInMinute**    | Total duration, in minutes, across all active users.<ul><li>Applies to audio or video sessions in applicable Microsoft Teams activities.</li></ul> |
 | **Content Date**             | If the timeframe is:<ul><li> The current month, this is the latest date with available data.</li><li>A previous month, this is the last date of that month.</li></ul>  |
 
 ### Data table - Tenant Mailbox Usage
@@ -210,11 +210,11 @@ This table consists of month over month summary data about the usage or activity
 
 | **Column name**                 | **Column description**                                                                            |
 |-------------------------------- | ------------------------------------------------------------------------------------------------- |
-| **SiteType**                    | Site type value. Possible values are:<ul><li>Any: Represents either team or group sites.</li><li>Team</li>.<li>Group.</li></ul> |
+| **SiteType**                    | Site type value. Possible values are:<ul><li>Any: Represents either team or group sites.</li><li>Team.</li><li>Group.</li></ul> |
 | **TotalSites**                  | Number of sites that existed at the end of the timeframe.                                         |
 | **DocumentCount**               | Total number of documents that existed on the site at the end of the timeframe.                   |
 | **Diplansed**                   | Total storage used, summed across all sites at the end of the timeframe.                          |
-| **ActivityType**                | Number of sites that recorded specific types of file activity. For example:<ul><li>Any activity.</li><li>Active files.</li><li>Files shared externally.</li><li>Files shared internally.</li><li>Files synchronized.</li></ul>Represents any file activity that was performed. |
+| **ActivityType**                | Number of sites that recorded specific types of file activity. Represents any file activity that was performed. For example:<ul><li>Any activity.</li><li>Active files.</li><li>Files shared externally.</li><li>Files shared internally.</li><li>Files synchronized.</li></ul> |
 | **SitesWithOwnerActivities**    | Number of active sites where the site owner performed a file activity on their own site.<ul><li>The site owner is the person responsible for the site.</li><li>The site owner can be identified using the PowerShell command `get-sposite`.</li></ul> |
 | **SitesWithNonOwnerActivities** | Number of active sites summed up for the month where users other than the site owner performed a file activity.<ul><li>The site owner is the person responsible for the site.</li><li>The site owner can be identified using the PowerShell command `get-sposite`.</li></ul> |
 | **ActivityTotalSites**          | Number of sites that recorded any activity during the timeframe.<ul><li>Sites deleted by the end of the timeframe are still counted if they had activity earlier in the timeframe.</li></ul> |
@@ -227,81 +227,79 @@ This table provides data about the OneDrive accounts such as number of accounts,
 
 | **Column name**                 | **Column description**                                                                                     |
 | ------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **SiteType**                    | <ul><li>Value is <code>OneDrive</code>.</li></ul>                                                          |
+| **SiteType**                    | Value is <code>OneDrive</code>.                                                          |
 | **TotalSites**                  | Number of OneDrive accounts that existed at the end of the timeframe.                                      |
 | **DocumentCount**               | Total number of documents that existed across all OneDrive accounts at the end of the timeframe.           |
 | **Deplanted**                   | Total storage used, summed across all OneDrive accounts at the end of the timeframe.                       |
-| **ActivityType**                | <ul><li>Number of accounts that recorded specific types of file activity.</li><li>Includes any activity, active files, files shared externally or internally, and files synchronized.</li><li>The value <code>any</code> represents that at least one file activity was performed.</li></ul> |
+| **ActivityType**                | Number of accounts that recorded specific types of file activity. For example:<ul><li>Any activity.</li><li>Active files.</li><li>Files shared externally.</li><li>Files shared internally.</li><li>Files synchronized.</li></ul> |
 | **SitesWithOwnerActivities**    | Number of active OneDrive accounts where the account owner performed a file activity on their own account. |
 | **SitesWithNonOwnerActivities** | Number of OneDrive accounts where file activity was performed by users other than the account owner.       |
-| **ActivityTotalSites**          | <ul><li>Number of OneDrive accounts that recorded any activity during the timeframe.</li><li>Accounts deleted by the end of the timeframe are still counted if they had activity earlier in the timeframe.</li></ul> |
-| **Timeframe**                   | <ul><li>Date value.</li><li>Used as a many‑to‑one relationship with the Calendar table.</li></ul>          |
-| **Content Date**                | <ul><li>If the timeframe is the current month, this is the latest date with available data.</li><li>If the timeframe is a previous month, this is the last date of that month.</li></ul> |
+| **ActivityTotalSites**          | Number of OneDrive accounts that recorded any activity during the timeframe.<ul><li>Accounts deleted by the end of the timeframe are still counted if they had activity earlier in the timeframe.</li></ul> |
+| **Timeframe**                   | Date value.<ul><li>Used as a many‑to‑one relationship with the Calendar table.</li></ul>                   |
+| **Content Date**                | If the timeframe is:<ul><li> The current month, this is the latest date with available data.</li><li>A previous month, this is the last date of that month.</li></ul> |
 
 ### Data table - Tenant Microsoft 365 Groups Usage
 
 This table provides data about how Microsoft 365 Groups is used across the organization.
 
-****
-
-|**Column name**|**Column Description**|
-|:-----|:-----|
-|TimeFrame   |Month value. There is one row per product per month for the last 12 months including the current partial month.   |
-|GroupType   |Type of group (private/public/any).   |
-|TotalGroups   |Number of groups in each group type.   |
-|ActiveGroups   |Number of active groups.   |
-|MBX_TotalGroups   |Number of mailbox groups.   |
-|MBX_ActiveGroups   |Number of active mailbox groups.   |
-|MBX_TotalActivities   |Number of mailbox activities.   |
-|MBX_TotalItems   |Number of mailbox items.   |
-|MBX_StorageUsed   |Quantity of mailbox storage used.   |
-|SPO_TotalGroups   |Number of SharePoint groups.   |
-|SPO_ActiveGroups   |Number of active SharePoint groups.   |
-|SPO_FileAccessedActiveGroups   |Number of SharePoint groups that have file accessed activities.   |
-|SPO_FileSyncedActiveGroups   |Number of SharePoint groups that have file synchronized activities.   |
-|SPO_FileSharedInternallyActiveGroups   |Number of SharePoint groups that shared activities internally, or with groups (that might include external users).   |
-|SPO_FileSharedExternallyActiveGroups   |Number of SharePoint groups which shared externally activities.   |
-|SPO_TotalActivities   |Number of SharePoint activities.   |
-|SPO_FileAccessedActivities   |Number of SharePoint file accessed activities.   |
-|SPO_FileSyncedActivities   |Number of SharePoint file synchronized activities.   |
-|SPO_FileSharedInternallyActivities   |Number of SharePoint file shared activities internally, or with groups (that might include external members).   |
-|SPO_FileSharedExternallyActivities   |Number of SharePoint file shared externally activities.   |
-|SPO_TotalFiles   |Number of SharePoint files.   |
-|SPO_ActiveFiles   |Number of active SharePoint files.   |
-|SPO_StorageUsed   |Quantity of SharePoint storage used.   |
-|YAM_TotalGroups   |Number of Viva Engage groups.   |
-|YAM_ActiveGroups   |Number of active Viva Engage groups.   |
-|YAM_LikedActiveGroups   |Number of Viva Engage groups which have like activities.   |
-|YAM_PostedActiveGroups   |Number of Viva Engage groups which have post activities.   |
-|YAM_ReadActiveGroups   |Number of Viva Engage groups which have read activities.   |
-|YAM_TotalActivities   |Number of Viva Engage activities.   |
-|YAM_LikedActivities   |Number of Viva Engage like activities.   |
-|YAM_PostedActivties   |Number of Viva Engage post activities.   |
-|YAM_ReadActivites   |Number of Viva Engage read activities.   |
+| **Column name**                          | **Column Description**                                                                                           |
+| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------  |
+| **TimeFrame**                            | Month value. There is one row per product per month for the last 12 months, including the current partial month. |
+| **GroupType**                            | Type of group (private, public, or any).                                                                         |
+| **TotalGroups**                          | Number of groups in each group type.                                                                             |
+| **ActiveGroups**                         | Number of active groups.                                                                                         |
+| **MBX_TotalGroups**                      | Number of mailbox groups.                                                                                        |
+| **MBX_ActiveGroups**                     | Number of active mailbox groups.                                                                                 |
+| **MBX_TotalActivities**                  | Number of mailbox activities.                                                                                    |
+| **MBX_TotalItems**                       | Number of mailbox items.                                                                                         |
+| **MBX_StorageUsed**                      | Quantity of mailbox storage used.                                                                                |
+| **SPO_TotalGroups**                      | Number of SharePoint groups.                                                                                     |
+| **SPO_ActiveGroups**                     | Number of active SharePoint groups.                                                                              |
+| **SPO_FileAccessedActiveGroups**         | Number of SharePoint groups that have file accessed activities.                                                  |
+| **SPO_FileSyncedActiveGroups**           | Number of SharePoint groups that have file synchronized activities.                                              |
+| **SPO_FileSharedInternallyActiveGroups** | Number of SharePoint groups that shared activities internally, or with groups that might include external users. |
+| **SPO_FileSharedExternallyActiveGroups** | Number of SharePoint groups that shared activities externally.                                                   |
+| **SPO_TotalActivities**                  | Number of SharePoint activities.                                                                                 |
+| **SPO_FileAccessedActivities**           | Number of SharePoint file accessed activities.                                                                   |
+| **SPO_FileSyncedActivities**             | Number of SharePoint file synchronized activities.                                                               |
+| **SPO_FileSharedInternallyActivities**   | Number of SharePoint file shared activities internally, or with groups that might include external members.      |
+| **SPO_FileSharedExternallyActivities**   | Number of SharePoint file shared activities externally.                                                          |
+| **SPO_TotalFiles**                       | Number of SharePoint files.                                                                                      |
+| **SPO_ActiveFiles**                      | Number of active SharePoint files.                                                                               |
+| **SPO_StorageUsed**                      | Quantity of SharePoint storage used.                                                                             |
+| **YAM_TotalGroups**                      | Number of Viva Engage groups.                                                                                    |
+| **YAM_ActiveGroups**                     | Number of active Viva Engage groups.                                                                             |
+| **YAM_LikedActiveGroups**                | Number of Viva Engage groups that have like activities.                                                          |
+| **YAM_PostedActiveGroups**               | Number of Viva Engage groups that have post activities.                                                          |
+| **YAM_ReadActiveGroups**                 | Number of Viva Engage groups that have read activities.                                                          |
+| **YAM_TotalActivities**                  | Number of Viva Engage activities.                                                                                |
+| **YAM_LikedActivities**                  | Number of Viva Engage like activities.                                                                           |
+| **YAM_PostedActivties**                  | Number of Viva Engage post activities.                                                                           |
+| **YAM_ReadActivites**                    | Number of Viva Engage read activities.                                                                           |
 
 ### Data table - Tenant Office Licenses
 
 This table provides month-over-month summary data about the license assignment for users.
 
-|**Column name**|**Column description**|
-|:-----|:-----|
-|LicenseName   |Name of the license.   |
-|AssignedCount   |Number of assigned licenses.   |
-|Timeframe   |Month value.   |
+| **Column name**   | **Column description**       |
+| ----------------- | ---------------------------- |
+| **LicenseName**   | Name of the license.         |
+| **AssignedCount** | Number of assigned licenses. |
+| **Timeframe**     | Month value.                 |
 
 ### Data table - Tenant Office Activation
 
 The table provides data about the number of Office subscription activations across the service plans, for example, Microsoft 365 Apps for enterprises, Visio, Project. It also provides data about number of activations per device (Android/iOS/Mac/PC).
 
-|**Column name**|**Column description**|
-|:-----|:-----|
-|ServicePlanName   |List of the service plan name values and counts of activations by devices, as depicted by below columns.   |
-|TotalEnabled   |Number of users enabled per service plan name by the end of the timeframe.   |
-|TotalActivatedUsers   |Number of users that have activated each service plan by the end of the timeframe.   |
-|AndroidCount   |Number of activations per service plan for Android device by the end of the timeframe.   |
-|iOSCount   |Number of activations per service plan for iOS device by the end of the timeframe.   |
-|MacCount   |Number of activations per service plan for MAC device by the end of the timeframe.   |
-|PcCount   |Number of activations per service plan for PC device by the end of the timeframe.   |
-|WinRtCount   |Number of activations per service plan for Windows Mobile device by the end of the timeframe.   |
-|Timeframe   |This column has the date value. Used as Many to one relationship for Calendar table.   |
-|Content Date   |If timeframe shows current month, this value represents the latest date of the current month for which data is available.  <br/><br/> If Timeframe shows previous month, this value represents the last date of the timeframe month.   |
+| **Column name**         | **Column description**                                                                            |
+| ----------------------- | ------------------------------------------------------------------------------------------------- |
+| **ServicePlanName**     | Name of the service plan.                                                                         |
+| **TotalEnabled**        | Number of users enabled for the service plan by the end of the timeframe.                         |
+| **TotalActivatedUsers** | Number of users who activated the service plan by the end of the timeframe.                       |
+| **AndroidCount**        | Number of activations for the service plan on Android devices by the end of the timeframe.        |
+| **iOSCount**            | Number of activations for the service plan on iOS devices by the end of the timeframe.            |
+| **MacCount**            | Number of activations for the service plan on Mac devices by the end of the timeframe.            |
+| **PcCount**             | Number of activations for the service plan on PC devices by the end of the timeframe.             |
+| **WinRtCount**          | Number of activations for the service plan on Windows Mobile devices by the end of the timeframe. |
+| **Timeframe**           | <ul><li>Date value.</li><li>Used as a many‑to‑one relationship with the Calendar table.</li></ul> |
+| **Content Date**        | If the timeframe is:<ul><li> The current month, this is the latest date with available data.</li><li>A previous month, this is the last date of that month.</li></ul> |
