@@ -252,7 +252,7 @@ Agents are AI assistants in Microsoft 365 Copilot that focus on a specific task.
 
 This setting lets you configure who can access agents, and what types of agents they can install.
 
-To see more configurations on the **Copilot** > **Agents** page, select the link to **Manage all agents**.
+To see more configurations on the **Agents** > **All agents** page, select the link to **Manage all agents**.
 
 For more information, see [Manage Microsoft 365 Copilot agents in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
 
