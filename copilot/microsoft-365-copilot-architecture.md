@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: efrene
 author: Efrene
 manager: scotv
-ms.date: 03/03/2026
+ms.date: 03/12/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.reviewer: mandia, bcarter
@@ -61,6 +61,10 @@ Let's take a look:
 1. In a Microsoft 365 app, a user enters a prompt in Copilot.
 
 2. Copilot preprocesses the input prompt by using **grounding** and accesses Microsoft Graph in the user's tenant.
+
+The following video provides an overview of how grounding works in Microsoft 365 Copilot. It's 1 minute and 29 seconds long.
+
+> [!VIDEO ca405f29-ce24-41ea-8fa4-e27f73ed0624]
 
     - Grounding improves the specificity of your prompt, and helps you get answers that are relevant and actionable to your specific task. The prompt can include text from input files or other content Copilot discovers.
 
