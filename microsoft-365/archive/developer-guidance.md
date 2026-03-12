@@ -1,6 +1,8 @@
 ---
 title: Developer guidance for Microsoft 365 Archive
 ms.service: microsoft-365-archive
+ms.author: trgreen
+ms.manager: brgussin
 ms.topic: conceptual
 ms.date: 02/27/2026
 ms.author: trgreen
