@@ -141,7 +141,7 @@ Terms to know:
 
 **Maker JTBD:** Maker needs to add redirection of the User Context retrieval topics from different Employee Self-Service agent external system solution packages. Or, if Makers configure other Topics to retrieve User Context attributes from other systems, then they should also be added as Topic redirections in this Topic.
 
-**Maker - What to customize:**
+**Maker - What to customize:** </br>
 
 **Requirement to use:** None.
 
