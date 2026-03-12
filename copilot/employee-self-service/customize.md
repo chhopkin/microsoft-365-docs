@@ -5,7 +5,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 12/15/2025
+ms.date: 03/12/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -489,8 +489,7 @@ Quick links give users direct access to important tenant resources from the ESS 
 
 ### Edit or remove MAC configuration
 
-You can update any of these settings by exporting the existing CSV, making changes, and re‑uploading the file.  
-To revert to Copilot Studio defaults, delete the configured entries and save your changes.
+You can update any of these settings by exporting the existing CSV, making changes, and reuploading the file. To revert to Copilot Studio defaults, delete the configured entries and save your changes.
 
 ## Customization checklist
 
