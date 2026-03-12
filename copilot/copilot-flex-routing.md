@@ -1,5 +1,5 @@
 ---
-title: "European Union data boundary (EUDB) Flex Routing"
+title: "European Union Data Boundary (EUDB) Flex Routing"
 ms.author: kwekua
 author: kwekuako
 ms.update-cycle: 180-days
@@ -21,7 +21,7 @@ appliesto:
 description: "Learn about Anthropic as a subprocessor for Microsoft."
 ---
 
-# European Union data boundary (EUDB) flex routing
+# European Union Data Boundary (EUDB) flex routing
 
 Flex routing allows customers in the European Union (EU) and the European Free Trade Association (EFTA) to choose whether large language model (LLM) inferencing for Microsoft 365 Copilot and Copilot chat can occur outside the [EU Data Boundary](/privacy/eudb/eu-data-boundary-learn) during times of peak load.
 
