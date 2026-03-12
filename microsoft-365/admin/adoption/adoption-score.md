@@ -6,7 +6,7 @@ author: efrene
 ms.author: efrene
 ms.reviewer: cmcatee
 manager: scotv
-ms.date: 01/23/2026
+ms.date: 03/11/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -112,6 +112,9 @@ Your organization's score is updated daily and reflects user actions completed i
 The Adoption Score home page shows your organization's total score and score history. It also shows the primary insight for each category.
 
 :::image type="content" source="../../media/prodscore-landing.png" alt-text="Screenshot of the Adoption Score page in Microsoft 365 admin center Reports." lightbox="../../media/prodscore-landing.png":::
+
+> [!NOTE]
+> Adoption Score sub-scores are computed on different schedules. Your score may update over the first few days as all sub-scores become available. This is expected behavior. All sub-scores typically arrive within 3 days, but occasional delays of 4–5 days may occur. If a sub-score is delayed beyond 7 days, you will receive a notification in the **Service Health Dashboard** in the Microsoft 365 admin center.
 
 **Your organization's score** appears as a percent value and in points. You can see your points in the numerator and the maximum possible points in the denominator.
 

@@ -32,28 +32,30 @@ items:
       href: pay-as-you-go/overview.md
     - name: Meters for pay-as-you-go
       href: pay-as-you-go/meters.md
-  - name: Data, Privacy, Security, and Responsible AI
+  - name: Security
     items:
-    - name: Data, privacy, and security for Microsoft 365 Copilot
-      href: microsoft-365-copilot-privacy.md
-    - name: Data protection and auditing
-      href: microsoft-365-copilot-architecture-data-protection-auditing.md
-    - name: Data, privacy, and security for web search in Microsoft 365 Copilot and Microsoft 365 Copilot Chat
-      href: manage-public-web-access.md
     - name: Security for Microsoft 365 Copilot
-      href: microsoft-365-copilot-ai-security.md
-    - name: Responsible AI FAQs
-      href: responsible-ai/responsible-ai-overview.md
+      href: security-microsoft-365-copilot.md
+    - name: Blueprint to prevent oversharing
+      href: microsoft-365-copilot-blueprint-oversharing.md
     - name: Apply principles of Zero Trust to Microsoft 365 Copilot
       href: /security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
+  - name: Privacy and Responsible AI
+    items:
     - name: Enterprise data protection
       href: enterprise-data-protection.md
+    - name: Data protection and auditing
+      href: microsoft-365-copilot-architecture-data-protection-auditing.md
+    - name: Data, privacy, and security for Microsoft 365 Copilot
+      href: microsoft-365-copilot-privacy.md
+    - name: Data, privacy, and security for web search in Microsoft 365 Copilot and Microsoft 365 Copilot Chat
+      href: manage-public-web-access.md
+    - name: Responsible AI FAQs
+      href: responsible-ai/responsible-ai-overview.md
     - name: Application card for Microsoft 365 Copilot
       href: microsoft-365-copilot-application-card.md
     - name: Privacy and protections
       href: /copilot/privacy-and-protections?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
-    - name: Copilot in Microsoft Edge
-      href: /copilot/edge?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
   - name: Implementation Readiness
     items:
     - name: Minimum requirements and considerations for Microsoft 365 Copilot and Copilot Chat
@@ -68,18 +70,21 @@ items:
         href: microsoft-365-copilot-chat-requirements.md
     - name: Architecture & how Copilot works
       href: microsoft-365-copilot-architecture.md
+    - name: Configure data security for Microsoft 365 Copilot
+      href: configure-data-security-copilot.md
     - name: Microsoft 365 Copilot Admin settings
       href: microsoft-365-copilot-app-admin-settings.md
     - name: App and network requirements
       href: microsoft-365-copilot-requirements.md
     - name: Copilot Control System overview
       href: copilot-control-system/overview.md
-    - name: Blueprint to prevent oversharing
-      href: microsoft-365-copilot-blueprint-oversharing.md
     - name: Multiple account access to Copilot for work and school documents
       href: multiple-account-access.md
     - name: Copilot in Microsoft 365 admin centers
       href: copilot-for-microsoft-365-admin.md
+    - name: Copilot in Microsoft Edge
+      href: /copilot/edge?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
+
 
 - name: Implement
   items:
@@ -97,12 +102,6 @@ items:
       href: copilot-control-system/management-controls.md
     - name: Measurement and reporting
       href: copilot-control-system/measurement-reporting.md
-    - name: E3 implementation guide
-      displayName: get started
-      href: microsoft-365-copilot-e3-guide.md
-    - name: E5 implementation guide
-      displayName: get started
-      href: microsoft-365-copilot-e5-guide.md
   - name: Enabling Copilot User Experiences
     items:
     - name: Anthropic as a subprocessor for Microsoft Online Services
@@ -195,36 +194,30 @@ items:
         href: microsoft-365-copilot-search-faq.yml
       - name: Connect organizational asset library to Microsoft 365 Copilot Search
         href: microsoft-365-copilot-search-image-tagging-integration.md
-    - name: Copilot Tuning (preview)
+    - name: Copilot Tuning (early access preview)
       items:
       - name: Overview
         href: copilot-tuning-overview.md
-      - name: Tuning process
-        href: copilot-tuning-process.md
-      - name: FAQ
-        href: copilot-tuning-faq.yml
-      - name: Knowledge selection
-        href: copilot-tuning-knowledge-selection.md
       - name: Admin guide
         href: copilot-tuning-admin-guide.md
-      - name: Microsoft 365 admin center
-        href: copilot-tuning-troubleshooting-mac.md
-      - name: Fine-tune models
-        href: /microsoft-copilot-studio/microsoft-copilot-fine-tune-model?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
-      - name: Document generation
-        href: copilot-tuning-doc-generation.md
-      - name: Troubleshooting Document generation
-        href: copilot-tuning-troubleshooting-doc-generation.md
-      - name: Expert Q&A
-        href: copilot-tuning-expert-qa.md
-      - name: Troubleshooting Expert Q&A
-        href: copilot-tuning-troubleshooting-expert-qa.md
-      - name: Summarization
-        href: copilot-tuning-summarization.md
-      - name: FAQ for Copilot Tuning
-        href: responsible-ai/copilot-tuning-responsible-ai-faq.md
-      - name: Troubleshooting Guardrails
-        href: copilot-tuning-troubleshooting-guardrails.md
+      - name: Tuning process
+        href: copilot-tuning-process.md
+      - name: Tuned agent templates
+        items:
+        - name: Document Writing agent template
+          href: copilot-tuning-document-writing-template.md
+        - name: Document Validation agent template
+          href: copilot-tuning-document-validation-template.md
+        - name: Expert Answers agent template
+          href: copilot-tuning-expert-answers-template.md
+        - name: Optimization agent template
+          href: copilot-tuning-optimization-template.md
+        - name: Style Editing agent template
+          href: copilot-tuning-style-editing-template.md
+        - name: Summarization agent template
+          href: copilot-tuning-document-summary-template.md
+      - name: FAQ
+        href: copilot-tuning-faq.yml
     - name: Copilot Library
       items:
       - name: Overview of Copilot Library

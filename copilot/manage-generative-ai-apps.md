@@ -9,7 +9,7 @@ ms.date: 01/27/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: article
-ms.service: microsoft-365-security
+ms.service: microsoft-365-copilot
 ms.localizationpriority: medium
 ms.collection: 
 - m365copilot
@@ -21,7 +21,7 @@ appliesto:
 
 # Manage generative AI apps for your organization
 
-As people embrace and incorporate [generative AI apps](/ai/playbook/technology-guidance/generative-ai/), such as Microsoft 365 Copilot and non-Microsoft AI apps into daily work, it's important for your organization's security team to be able to manage those apps. Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level (see [What Microsoft does to secure Microsoft 365 Copilot](microsoft-365-copilot-ai-security.md#what-microsoft-does-to-secure-microsoft-365-copilot)). 
+As people embrace and incorporate [generative AI apps](/ai/playbook/technology-guidance/generative-ai/), such as Microsoft 365 Copilot and non-Microsoft AI apps into daily work, it's important for your organization's security team to be able to manage those apps. Microsoft applies a multi-layered, defense-in-depth strategy to secure Microsoft 365 Copilot at every level (see [Security for Microsoft 365 Copilot](security-microsoft-365-copilot.md)). 
 
 But what about non-Microsoft AI apps? 
 

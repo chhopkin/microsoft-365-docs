@@ -53,12 +53,12 @@ This action plan contains two parts; a preparation phase, and a logging phase. I
 - Close all extraneous Internet browsers.
 - Start the Steps Recorder, or another screen recorder.
 - Start your Netmon capture (or network tracing tool).
-- Clear your DNS cache on the client computer from the command line by typing ipconfig /flushdns.
+- Clear your DNS cache on the client computer from the command line by typing `ipconfig /flushdns`.
 - Start a new browser session and turn on HTTPWatch.
 - Optional: If you're testing Exchange Online, run the Exchange Client Performance Analyzer tool from the Microsoft 365 admin console.
 - Reproduce the exact steps that cause the performance issue.
 - Stop your Netmon or other tool's trace.
-- At the command line, run a trace route to your Microsoft 365 subscription by typing the following command and then pressing ENTER:
+- At the command line, run a trace route to your Microsoft 365 subscription by typing the following command and then pressing **ENTER**:
 
   ``` cmd
   tracert <subscriptionname>.onmicrosoft.com
@@ -76,7 +76,7 @@ Why? By flushing out the DNS cache, you're starting your tests with a clean slat
 #### Flush your DNS resolver cache
 
 1. Open the command prompt, (either **Start** \> **Run** \> **cmd** or **Windows key** \> **cmd**).
-2. Type the following command and press ENTER:
+2. Type the following command and press **ENTER**:
 
     ``` cmd
     ipconfig /flushdns
@@ -93,16 +93,17 @@ After you install Netmon 3.4, open the tool and take these steps:
 ### Take a Netmon trace and reproduce the issue
 
 1. Launch Netmon 3.4.
-There are three panes on the **Start** page: **Recent Captures**, **Select Networks**, and the **Getting Started with Microsoft Network Monitor 3.4. Notice**. The Select Networks panel will also give you a list of the default networks from which you can capture. Be sure that network cards are selected here.
+   There are three panes on the **Start** page: **Recent Captures**, **Select Networks**, and the **Getting Started with Microsoft Network Monitor 3.4. Notice**.    The Select Networks panel will also give you a list of the default networks from which you can capture. Be sure that network cards are selected here.
 
 2. Click **New Capture** at the top of the **Start** page. This adds a new tab beside the **Start** page tab called **Capture 1**.
-![Netmon's user interface with the New Capture, Start, and Stop buttons highlighted.](../media/d4527d84-62ec-4301-82d5-e0166ff71f20.PNG)
 
-3. To take a simple capture, click **Start** on the toolbar.
+   ![Netmon's user interface with the New Capture, Start, and Stop buttons highlighted.](../media/d4527d84-62ec-4301-82d5-e0166ff71f20.PNG)
 
-4. Reproduce the steps that present a performance issue.
+4. To take a simple capture, click **Start** on the toolbar.
 
-5. Click **Stop** \> **File** \> **Save As**. Remember to give the date and time with the time zone and to mention if it demonstrates bad or good performance.
+5. Reproduce the steps that present a performance issue.
+
+6. Click **Stop** \> **File** \> **Save As**. Remember to give the date and time with the time zone and to mention if it demonstrates bad or good performance.
 
 ## HTTPWatch
 
@@ -123,9 +124,9 @@ In the past, HTTPWatch has been associated with both the Commands and the Explor
 
 3. **Save** the HTTPWatch or **Send by Email**. Remember to name the file so that it includes date and time information and an indication of whether your Watch contains a demonstration of good or bad performance.
 
-![HTTPWatch showing the Network tab for a page load of the Microsoft 365 homepage.](../media/021a2c64-d581-49fd-adf4-4c364f589d75.PNG)
+   ![HTTPWatch showing the Network tab for a page load of the Microsoft 365 homepage.](../media/021a2c64-d581-49fd-adf4-4c364f589d75.PNG)
 
-This screenshot is from the Professional version of HTTPWatch. You can open traces taken in the Basic Version on a computer with a Professional version and read it there. Extra information might be available from the trace through that method.
+   This screenshot is from the Professional version of HTTPWatch. You can open traces taken in the Basic Version on a computer with a Professional version and read it there. Extra information might be available from the trace through that method.
 
 ## Problem Steps Recorder
 
@@ -141,9 +142,9 @@ Steps Recorder, or PSR.exe, allows you to record issues as they're occurring. It
 
 4. Click **Save**.
 
-![A screen shot of the Steps Recorder or PSR.exe.](../media/8542b0aa-a3ff-4718-8dc4-43f5521c6c34.PNG)
+   ![A screen shot of the Steps Recorder or PSR.exe.](../media/8542b0aa-a3ff-4718-8dc4-43f5521c6c34.PNG)
 
-The date and time is recorded for you. This links your PSR to your Netmon trace and HTTPWatch in time, and helps with precision troubleshooting. The date and time in the PSR record can show that a minute passed between the sign in and browsing of the URL and the partial render of the admin site, for example.
+   The date and time is recorded for you. This links your PSR to your Netmon trace and HTTPWatch in time, and helps with precision troubleshooting. The date and time in the PSR record can show that a minute passed between the sign in and browsing of the URL and the partial render of the admin site, for example.
 
 ## Read your traces
 
@@ -496,6 +497,6 @@ We don't cover tools used in application-specific troubleshooting in this networ
 
 ## Related articles
 
-[Managing Microsoft 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
+[Managing Microsoft 365 endpoints](managing-office-365-endpoints.md)
 
-[Microsoft 365 endpoints FAQ](https://support.office.com/article/d4088321-1c89-4b96-9c99-54c75cae2e6d)
+[Microsoft 365 endpoints FAQ](managing-office-365-endpoints.md)
