@@ -349,4 +349,4 @@ Cowork supports keyboard shortcuts to help you work faster.
 
 - [Cowork overview](index.md)
 - [Get started with Cowork](get-started.md)
-- [Cowork agent FAQ](cowork-agent-faq.md)
+- [Cowork agent common questions](cowork-agent-faq.md)

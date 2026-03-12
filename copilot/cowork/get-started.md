@@ -89,4 +89,4 @@ Select the **Tasks** view to see everything you asked Cowork to do. Here you can
 ## Related content
 
 - [Use the Cowork agent](use-cowork-agent.md)
-- [Cowork agent FAQ](cowork-agent-faq.md)
+- [Cowork agent common questions](cowork-agent-faq.md)

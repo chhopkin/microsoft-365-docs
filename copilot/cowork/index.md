@@ -122,4 +122,4 @@ Learn more in [Get started with the Cowork agent](get-started.md).
 ## Related content
 
 - [Use the Cowork agent](use-cowork-agent.md)
-- [Cowork agent FAQ](cowork-agent-faq.md)
+- [Cowork agent common questions](cowork-agent-faq.md)

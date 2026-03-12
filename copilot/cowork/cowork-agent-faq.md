@@ -1,5 +1,5 @@
 ---
-title: "Cowork agent FAQ (Frontier)"
+title: "Cowork agent common questions (Frontier)"
 description: "Frequently asked questions about the Cowork agent in Microsoft 365 Copilot."
 ms.date: 02/27/2026
 ms.topic: article
@@ -12,11 +12,11 @@ appliesto:
 - Microsoft 365 Copilot
 ---
 
-# Cowork agent FAQ (Frontier)
+# Cowork agent common questions (Frontier)
 
 [!INCLUDE [preview](../includes/preview.md)]
 
-Find answers to frequently asked questions about the Cowork agent in Microsoft 365 Copilot.
+Find answers to common questions about the Cowork agent in Microsoft 365 Copilot.
 
 ## What is the Cowork agent?
 

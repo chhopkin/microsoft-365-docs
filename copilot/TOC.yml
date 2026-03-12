@@ -453,7 +453,7 @@ items:
           href: cowork/get-started.md
         - name: Use Cowork agent
           href: cowork/use-cowork-agent.md
-        - name: Cowork agent FAQ
+        - name: Cowork agent common questions
           href: cowork/cowork-agent-faq.md
         - name: Responsible AI FAQ for Cowork agent
           href: responsible-ai/cowork-agent-responsible-ai-overview.md
