@@ -1,5 +1,5 @@
 ---
-title: "Responsible AI overview for the Cowork agent in Microsoft 365 Copilot"
+title: "FAQ for Cowork agent (Frontier)"
 description: "Learn about how the Cowork agent in Microsoft 365 Copilot uses AI responsibly, including links to feature-specific FAQs and the Application Card."
 ms.date: 07/22/2025
 ms.topic: overview
@@ -7,10 +7,12 @@ ms.custom:
   - responsible-ai-faqs
   - transparency-note
 author: leeclontz
+manager: KumarVivek
 ms.author: leeclontz
+
 ---
 
-# Responsible AI overview for the Cowork agent in Microsoft 365 Copilot
+# FAQ for Cowork agent (Frontier)
 
 An AI system includes not only the technology, but also the people who use it, the people affected by it, and the environment in which it's deployed. Microsoft's Responsible AI FAQs are intended to help you understand how AI technology works, the choices system owners and users can make that influence system performance and behavior, and the importance of thinking about the whole system, including the technology, the people, and the environment. You can use Responsible AI FAQs to better understand specific AI systems and features that Microsoft develops.
 
@@ -37,7 +39,7 @@ Cowork is available through the [Frontier program](https://adoption.microsoft.co
 
 ## Application Card
 
-For information about how Microsoft 365 Copilot works, including its intended uses, limitations, evaluations, safety components, and best practices for responsible deployment, see the [Application Card: Microsoft 365 Copilot](../application-card.md).
+For information about how Microsoft 365 Copilot works, including its intended uses, limitations, evaluations, safety components, and best practices for responsible deployment, see the [Application card: Microsoft 365 Copilot](microsoft-365-copilot-application-card.md).
 
 ## Related content
 
