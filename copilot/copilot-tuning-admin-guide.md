@@ -1,10 +1,10 @@
 ---
-title: "Microsoft 365 Copilot Tuning admin guide (preview)"
+title: "Microsoft 365 Copilot Tuning admin guide (early access preview)"
 f1.keywords:
 author: lauragra
 ms.author: lauragra
 manager: calvind
-ms.date: 02/19/2026
+ms.date: 03/10/2026
 ms.reviwer: riyazp
 ms.update-cycle: 180-days
 audience: Admin
@@ -17,14 +17,13 @@ ms.collection:
 - magic-ai-copilot
 description: "Find admin guidance for enabling Copilot Tuning in your organization."
 ---
-# Microsoft 365 Copilot Tuning admin guide (preview)
+# Microsoft 365 Copilot Tuning admin guide (early access preview)
 
-Microsoft 365 Copilot Tuning (preview) is an AI customization capability that enables organizations to create task-specific Copilot agents by tuning large language models (LLMs) with their own organizational data. AI admins manage Copilot Tuning through the Copilot control system in the Microsoft 365 admin center. Copilot Tuning provides multiple layers of control to balance innovation with governance.
+Microsoft 365 Copilot Tuning (early access preview) is an AI customization capability that enables organizations to create task-specific Copilot agents by tuning large language models (LLMs) with their own organizational data. AI admins manage Copilot Tuning through the Copilot control system in the Microsoft 365 admin center. Copilot Tuning provides multiple layers of control to balance innovation with governance.
 
 This article describes how administrators manage Microsoft 365 Copilot Tuning, including role requirements, availability controls, agent lifecycle management, and data protection considerations.
 
-> [!IMPORTANT]
-> Copilot Tuning is currently available in the [Frontier early access program](https://adoption.microsoft.com/copilot/frontier-program/). Frontier includes early access to experimental features, which means features are subject to change. For more information, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7).
+[!INCLUDE [copilot-tuning-preview](./includes/copilot-tuning-preview.md)]
 
 ## Tuning availability settings
 
