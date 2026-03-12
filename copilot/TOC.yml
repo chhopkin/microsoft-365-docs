@@ -454,9 +454,10 @@ items:
         - name: Use Cowork agent
           href: cowork/use-cowork-agent.md
         - name: Cowork agent FAQ
-          href: cowork/cowork-agent-faq.
+          href: cowork/cowork-agent-faq.md
         - name: Responsible AI FAQ for Cowork agent
-          href: ../responsible-ai/cowork-agent-responsible-ai-faq.md
+          href: responsible-ai/cowork-agent-responsible-ai-faq.md
+          rai
       - name: Learning agent
         items:
         - name: Overview and setup of Learning agent
