@@ -1,126 +1,147 @@
 ---
-title: "FAQ for the Cowork agent"
-description: "Get answers to frequently asked questions about responsible AI and the Cowork agent in Microsoft 365 Copilot."
-ms.date: 02/27/2026
+title: "FAQ for the Coworker agent in Microsoft 365 Copilot"
+description: "Get answers about how the Coworker agent in Microsoft 365 Copilot uses AI, including its capabilities, limitations, and safeguards."
+ms.date: 03/03/2026
 ms.topic: faq
 ms.custom:
-  - transparency-note
-author: leeclontz
-manager: KumarVivek
-ms.author: leeclontz
-ms.reviewer: angieandrews
-ms.service: microsoft-365-copilot
-appliesto:
-- Microsoft 365 Copilot
+  - responsible-ai-faqs
+author: microsoft-coworker-team
+ms.author: microsoft-coworker-team
 ---
 
-# FAQ for the Cowork agent
+# FAQ for the Coworker agent in Microsoft 365 Copilot
 
-[!INCLUDE [preview](../includes/preview.md)]
+An AI system includes not only the technology, but also the people who use it, the people affected by it, and the environment in which it's deployed. Microsoft's Responsible AI FAQs are intended to help you understand how AI technology works, the choices system owners and users can make that influence system performance and behavior, and the importance of thinking about the whole system, including the technology, the people, and the environment. You can use Responsible AI FAQs to better understand specific AI systems and features that Microsoft develops.
 
-These frequently asked questions (FAQ) describe the AI impact of the Cowork agent in Microsoft 365 Copilot.
+Responsible AI FAQs are part of a broader effort to put Microsoft's AI principles into practice. To find out more, see [Microsoft AI principles](https://www.microsoft.com/ai/responsible-ai).
 
-## What is the Cowork agent?
+## What is Coworker?
 
-The Cowork agent is an AI-powered assistant in Microsoft 365 Copilot that carries out tasks on your behalf across Microsoft 365. You describe what you need in natural language, and Cowork performs the work. For example, it can send emails, schedule meetings, create documents, post in Teams, and manage files. Each action the agent takes is visible in the conversation. Sensitive actions require your explicit approval before they're executed.
+Coworker is an AI agent in Microsoft 365 Copilot that carries out tasks on your behalf across Microsoft 365. You describe what you need in natural language, and Coworker does the work. It takes your written instructions as input and produces concrete outcomes — emails sent through Outlook, meetings scheduled on your calendar, Word documents and PowerPoint presentations created, messages posted in Teams, and search results drawn from across your organization.
 
-## What are the Cowork agent's capabilities?
+Every action Coworker takes is visible in the conversation. Before it performs a sensitive action, such as sending an email or posting a message, it asks for your approval and shows you a preview of the content.
 
-Cowork can:
+## What are the capabilities of Coworker?
 
-- Draft and send emails, reply to messages, and forward messages with attachments through Outlook.
-- Create and manage calendar events and schedule meetings.
-- Post messages in Teams channels and chats.
-- Create Word documents, Excel spreadsheets, PowerPoint presentations, and PDFs.
-- Search across your organization for files, people, and information.
-- Browse and manage files in OneDrive and SharePoint.
-- Execute Python and Bash scripts to process data, generate reports, or automate calculations.
-- Prepare daily briefings and meeting intelligence summaries.
-- Draft stakeholder communications.
+Coworker has 11 skills that cover the tasks information workers perform most often:
 
-During a conversation, Cowork acquires specialized skills as needed, such as the following: Word, Excel, PowerPoint, PDF, Email, Scheduling, Calendar, Meetings, Daily Briefing, Enterprise Search, and Communications.
+- **Calendar Management** — Create, update, and manage calendar events.
+- **Daily Briefing** — Prepare a summary of your upcoming meetings, priorities, and action items.
+- **Word** — Create and edit Word documents.
+- **Email** — Draft, send, reply to, and forward emails through Outlook.
+- **Enterprise Search** — Search across your organization for files, people, and information.
+- **Meetings** — Generate meeting intelligence summaries, including notes and follow-ups.
+- **PDF** — Create and work with PDF files.
+- **PowerPoint** — Create PowerPoint presentations.
+- **Scheduling** — Find available times and schedule meetings with other people.
+- **Communications** — Draft stakeholder communications and status updates.
+- **Excel** — Create Excel spreadsheets and work with data.
 
-## What is the Cowork agent's intended use?
+To carry out these skills, Coworker connects to your Microsoft 365 services:
 
-Cowork is designed for information workers who use Microsoft 365 and want to delegate multi-step tasks to an AI agent. Typical use cases include:
+- **Outlook** — Sends, receives, and manages email.
+- **Calendar** — Creates and manages events and meeting invitations.
+- **Teams** — Posts messages in channels and chats.
+- **Work IQ** — Retrieves workplace intelligence, including information about people, documents, and organizational context.
+- **Microsoft 365** — Accesses files, people, and organizational data across your Microsoft 365 environment.
+- **Microsoft Learn** — References Microsoft Learn content to provide technical guidance.
+- **Web browsing** — Searches the web and retrieves information from web pages to support your requests.
 
-- Draft and send emails based on verbal or written instructions.
-- Create structured documents from unstructured input (for example, turn meeting notes into a formatted report).
-- Schedule meetings and manage calendar conflicts.
-- Post status updates in Teams channels.
-- Search for and organize files across OneDrive and SharePoint.
+Coworker acquires the specific skills it needs during a conversation based on your request. You can guide the conversation at any point using the **Pause**, **Resume**, and **Cancel** controls.
 
-Cowork isn't intended for use cases that require guaranteed accuracy without human review. Examples are legal filings, medical decisions, or financial transactions that bypass approval processes.
+You can also add work context to your messages. Type **@** to mention a person, or attach files, people, meetings, and channels to give Coworker the information it needs to complete your request. Coworker can browse the web to find current information when your request requires it.
 
-## How is the Cowork agent evaluated, and what metrics are used to measure performance?
+When Coworker creates or modifies files, they appear in a side panel where you can preview and download them. PDF previews support vertical scrolling and in-document search (Ctrl+F). Each step Coworker takes shows its execution time so you can follow its progress.
 
-Microsoft evaluates Cowork across several areas:
+Before performing an action that affects other people or modifies data, Coworker presents an approval dialog with three options:
 
-- **Task completion**: Whether the agent successfully carries out the requested action (for example, it sends an email or creates a document).
-- **Response quality**: Whether the agent's output meets the user's intent based on the natural language instruction.
-- **User feedback**: Thumbs up and thumbs down ratings on individual responses and generated documents, collected directly in the conversation.
-- **Safety and compliance**: Ongoing evaluation to ensure the agent operates within Microsoft's responsible AI principles.
+- **Approve** — Allow the action this one time.
+- **Approve & Remember** — Allow the action and skip the approval prompt for similar actions in the future.
+- **Reject** — Block the action.
 
-## What are the limitations of the Cowork agent, and how can users minimize the impact of these limitations?
+## What is the intended use of Coworker?
 
-Current limitations include:
+Coworker is designed to help information workers complete everyday tasks across Microsoft 365. Typical use cases include:
 
-- Cowork might misinterpret ambiguous or overly broad instructions, leading to actions that don't match your intent.
-- AI-generated documents and messages should be treated as drafts. Always review content before sending or sharing.
-- The agent might produce inaccurate information when searching across your organization, particularly when source data is incomplete or outdated.
-- Complex, multi-step tasks with many dependencies might not always complete as expected.
-- Cowork is dependent on your existing Microsoft 365 permissions. It can't access data or services that your account isn't authorized to use.
+- Drafting and sending emails based on natural language instructions.
+- Scheduling meetings and resolving calendar conflicts.
+- Creating Word documents, Excel spreadsheets, and PowerPoint presentations from unstructured input.
+- Posting status updates and messages in Teams channels and chats.
+- Searching for files, people, and information across your organization.
+- Preparing daily briefings and meeting summaries.
 
-To minimize these limitations:
+Coworker is designed for use within Microsoft 365 Copilot by licensed users in the Frontier program. It is not intended for use cases that require guaranteed accuracy without human review, such as legal filings, medical decisions, or financial transactions.
 
-- Provide clear, specific instructions. Include details about recipients, formatting, and expected outcomes.
-- Review all generated content such as emails, documents, and messages, before approving actions.
-- Use the pause and cancel controls to stop work if the agent is heading in the wrong direction.
-- Provide thumbs up or thumbs down feedback to help improve future responses.
+## How was Coworker evaluated? What metrics are used to measure performance?
 
-## How does the Cowork agent handle action approval?
+Microsoft evaluates Coworker across the following areas:
 
-Before Cowork performs a sensitive action such as sending an email, posting in Teams, or modifying a file, it presents an approval dialog. You have the following options:
+- **Task completion accuracy** — Whether Coworker successfully carries out the requested action (for example, an email is sent to the correct recipients, a meeting is scheduled at the right time).
+- **Content quality** — Whether the text, documents, and messages Coworker produces match your intent and are factually consistent with the source material.
+- **Approval system reliability** — Whether the approval dialog appears correctly before sensitive actions, and whether the Approve, Approve & Remember, and Reject options function as expected.
+- **Adherence to responsible AI principles** — Ongoing evaluation to verify that Coworker operates within Microsoft's responsible AI standards, including fairness, reliability, safety, privacy, and transparency.
 
-- **Approve**: Allow the action to proceed this one time.
-- **Approve and remember**: Allow the action and skip the approval prompt for similar actions in the future.
-- **Cancel**: Block the action.
+Testing covers all 11 supported skills and all connected services. User feedback — including thumbs up/down ratings on individual responses, inline comments, and document feedback when previewing files — informs ongoing improvements to Coworker's quality and safety.
 
-For certain actions, such as sending an email, Cowork displays a preview of the content so you can review it before approving. The agent doesn't execute sensitive actions without your explicit consent.
+## What are the limitations of Coworker? How can users minimize the impact of limitations when using the system?
 
-## How does the Cowork agent handle my data?
+Coworker has the following known limitations:
 
-Cowork operates within the security and compliance boundaries of Microsoft 365.
+1. **Ambiguous instructions** — Coworker may misinterpret ambiguous or overly broad instructions, leading to actions that don't match your intent. To minimize this, provide clear and specific instructions. Include details about recipients, formatting, deadlines, and expected outcomes.
 
-- **Authentication**: Cowork uses your existing Microsoft 365 credentials. It accesses only services and data that your account is permitted to use.
-- **Tenant isolation**: Your data is isolated to your organization's tenant. Cowork can't access data from other tenants.
-- **Data subject rights**: Access, deletion, rectification, and portability requests are supported in accordance with Microsoft's privacy standards.
-- **File storage**: Files that Cowork creates are stored in your OneDrive and SharePoint workspace.
+2. **AI-generated content requires review** — All content Coworker produces — emails, documents, messages, and presentations — should be treated as drafts. Review every piece of generated content before you approve sending, posting, or sharing it.
 
-Cowork doesn't use your data to train AI models. Your organizational data remains within Microsoft 365 and is subject to your organization's existing data governance policies.
+3. **Incomplete search results** — Search results may be incomplete if the source data is outdated, not indexed, or outside the scope of your permissions. Verify important search results against the original source before acting on them.
 
-## What operational factors and settings allow for effective and responsible use?
+4. **Complex multi-step tasks** — Tasks with many dependencies or branching conditions may not complete as expected. Break complex work into smaller, focused steps and review progress at each stage.
 
-- Cowork is available within Microsoft 365 Copilot and is subject to your organization's access policies and licensing.
-- Always review AI-generated content before approving actions that send, post, or share information externally.
-- Use the conversation controls (pause, resume, cancel) to manage the agent's work if it goes off track.
-- Administrators manage Cowork access through the Microsoft 365 admin center.
-- Provide regular feedback through the thumbs up/down controls and the general feedback option to help improve the agent's performance over time.
+5. **Permission boundaries** — Coworker can only access data and services that your Microsoft 365 account is authorized to use. If you don't have access to a resource, Coworker can't access it on your behalf.
 
-## How do I provide feedback on the Cowork agent?
+6. **Voice input** — Voice input is not currently available. Type your instructions directly in the text box.
 
-You can provide feedback in the following ways:
+## What operational factors and settings allow for effective and responsible use of Coworker?
 
-- **Thumbs up or thumbs down**: On individual AI responses in the conversation.
-- **Document feedback**: When previewing files that Cowork created.
-- **General feedback**: Through the feedback option in the header menu.
+### Approval system
 
-Your feedback is used to evaluate and improve the Cowork agent's quality and safety.
+Before Coworker performs a sensitive action, it presents an approval dialog. You have three options:
+
+- **Approve** — Allow the action this one time.
+- **Approve & Remember** — Allow the action and skip the prompt for similar actions in the future.
+- **Reject** — Block the action.
+
+Actions are classified into three risk levels — Low, Medium, and High — based on their potential impact. For actions that produce content visible to others (such as sending an email or posting a Teams message), Coworker displays a preview so you can review the content before approving.
+
+### Conversation controls
+
+You can manage Coworker's work during a conversation:
+
+- **Pause** — Temporarily stop the agent's progress.
+- **Resume** — Continue from where Coworker paused.
+- **Cancel** — Stop the current task entirely.
+
+### Data access
+
+Coworker operates within the security and compliance boundaries of Microsoft 365. It uses your existing credentials and can only access services and data that your account is permitted to use. Your data is isolated to your organization's tenant. Coworker does not use your data to train AI models.
+
+### Feedback mechanisms
+
+Your feedback helps improve Coworker over time. For details on how to provide feedback, see [How do I provide feedback on Coworker?](#how-do-i-provide-feedback-on-coworker) below.
+
+## How do I provide feedback on Coworker?
+
+You can share feedback in several ways:
+
+- **Thumbs up or thumbs down** — Rate individual AI responses directly in the conversation.
+- **Inline comments** — Provide feedback on specific content within the conversation timeline.
+- **Document feedback** — Provide feedback when previewing files that Coworker created or edited.
+- **General feedback** — Use the feedback option in the menu to share broader observations about your experience.
+
+Your feedback is used to evaluate and improve Coworker's quality and safety.
 
 ## Related content
 
-- [Cowork overview](../cowork/index.md)
-- [Get started with the Cowork agent](../cowork/get-started.md)
-- [Use the Cowork agent](../cowork/use-cowork-agent.md)
-- [Cowork agent FAQ](../cowork/cowork-agent-faq.md)
-- [Microsoft AI principles](https://www.microsoft.com/ai/responsible-ai)
+- [Responsible AI FAQs for the Coworker agent](responsible-ai-overview.md)
+- [Coworker overview](overview.md)
+- [Get started with Coworker](getting-started.md)
+- [Use the Coworker agent](using.md)
+- [Coworker FAQ](faq.md)
