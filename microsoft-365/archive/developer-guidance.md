@@ -106,4 +106,4 @@ When reactivating a file, the response indicates whether the file is reactivated
 }
 ```
 
-For full details on parameters, permissions, throttling, and error handling, see the [Microsoft Graph documentation for Microsoft 365 Archive](/graph/api/driveitem-archive?view=graph-rest-beta).
+For full details on parameters, permissions, throttling, and error handling, see the [Microsoft Graph documentation for Microsoft 365 Archive](/graph/api/driveitem-archive).
