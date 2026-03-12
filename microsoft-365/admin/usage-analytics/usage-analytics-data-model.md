@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: efrene
 author: efrene
 manager: scotv
-ms.date: 03/11/2026
+ms.date: 03/12/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -47,7 +47,7 @@ This API provides information about the monthly trend of usage of the various Mi
 | **Tenant Product Activity**         | Monthly totals of activities and active user counts for product activities.<br><br>For more information about the activities returned in this table, see [Active user in Microsoft 365 usage reports](active-user-in-usage-reports.md). | Monthly aggregated data for a rolling 12‑month period, including the current partial month. |
 | **Tenant Office Licenses**          | Number of Microsoft Office subscriptions assigned to users. | End‑of‑month state data for a rolling 12‑month period, including the current partial month. |
 | **Tenant Mailbox Usage**            | Mailbox data, including:<ul><li>Total mailbox count.</li><li>Storage usage.</li></ul> | End‑of‑month state data for a rolling 12‑month period, including the current partial month. |
-| **Tenant Client Usage**             | Number of users actively using specific clients or devices to connect to:<ul><li>Exchange Online.</li><li>Skype for Business.</li><li>Viva Engage.</li></ul> | Monthly aggregated data for a rolling 12‑month period, including the current partial month. |
+| **Tenant Client Usage**             | Number of users actively using specific clients or devices to connect to:<ul><li>Exchange Online.</li><li>Teams.</li><li>Viva Engage.</li></ul> | Monthly aggregated data for a rolling 12‑month period, including the current partial month. |
 | **Tenant SharePoint Usage**         | SharePoint site data, including:<ul><li>Total sites (Teams or Groups sites).</li><li>Number of documents.</li><li>File count by activity type.</li><li>Storage used.</li></ul> | End‑of‑month state data for a rolling 12‑month period, including the current partial month. |
 | **Tenant OneDrive Usage**           | OneDrive account data, including:<ul><li>Number of accounts.</li><li>Number of documents across OneDrives.</li><li>Storage used.</li><li>File count by activity type.</li></ul> | End‑of‑month state data for a rolling 12‑month period, including the current partial month. |
 | **Tenant Microsoft 365 Groups Usage** | Microsoft 365 Groups usage data, including:<ul><li>Mailbox.</li><li>SharePoint.</li><li>Viva Engage.</li></ul> | End‑of‑month state data for a rolling 12‑month period, including the current partial month. |
@@ -72,7 +72,7 @@ The **User State** table provides user-level details for all users who have a li
 | **HasLicenseODB**         | Set to true if the user is assigned a license and enabled to use OneDrive on the last day of the month.                   |
 | **HasLicenseSPO**         | Set to true if the user is assigned a license and enabled to use SharePoint on the last day of the month.                 |
 | **HasLicenseYAM**         | Set to true if the user is assigned a license and enabled to use Viva Engage on the last day of the month.                |
-| **HasLicenseSFB**         | Set to true if the user is assigned a license and enabled to use Skype for Business on the last day of the month.         |
+| **HasLicenseSFB**         | Set to true if the user is assigned a license and enabled to use Teams on the last day of the month.         |
 | **HasLicenseTeams**       | Set to true if the user is assigned a license and enabled to use Microsoft Teams on the last day of the month.            |
 | **Company**               | Company data represented in Microsoft Entra ID for this user.                                                             |
 | **Department**            | Department data represented in Microsoft Entra ID for this user.                                                          |
