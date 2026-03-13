@@ -1,5 +1,5 @@
 ---
-title: "FAQ for Cowork agent"
+title: "REMOVE FAQ for Cowork agent"
 description: "Get answers to frequently asked questions about responsible AI and Cowork agent in Microsoft 365 Copilot."
 ms.date: 03/30/2026
 ms.topic: faq
@@ -14,7 +14,7 @@ appliesto:
 - Microsoft 365 Copilot
 ---
 
-# FAQ for Cowork agent
+# REMOVE FAQ for Cowork agent
 
 [!INCLUDE [preview](../includes/preview.md)]
 
