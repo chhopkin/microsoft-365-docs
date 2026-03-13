@@ -448,10 +448,8 @@ items:
            href: manage/manage-feedback-ms-org.md
          - name: Plan for modern change management in Microsoft 365
            href: manage/plan-for-modern-change-management.md
-         - name: Configure Standard or Deferred release options for Microsoft 365 Copilot
+         - name: Configure release options for Microsoft 365
            href: manage/configure-release-options.md
-         - name: Set up release options for Microsoft 365
-           href: manage/release-options-in-office-365.md
          - name: Prepare for Microsoft 365 updates with Message center
            href: manage/message-center.md
          - name: Power BI usage analytics
