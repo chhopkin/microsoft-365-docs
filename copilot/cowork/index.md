@@ -1,7 +1,7 @@
 ---
 title: "Cowork overview (Frontier)"
-description: "Learn about the Cowork agent for Microsoft 365 Copilot, which is an AI agent that takes action on your behalf."
-ms.date: 02/27/2026
+description: "Learn about Cowork agent for Microsoft 365 Copilot, which is an AI agent that takes action on your behalf."
+ms.date: 03/30/2026
 ms.topic: overview
 author: leeclontz
 manager: KumarVivek
@@ -18,7 +18,7 @@ appliesto:
 
 The Cowork agent in Microsoft 365 Copilot can carry out tasks on your behalf. You describe what you need, and Cowork sends emails, schedules meetings, creates documents, posts in Teams, and manages your calendar. You approve each action before it happens.
 
-## What is the Cowork agent?
+## What is Cowork agent?
 
 Cowork is an AI agent available in Microsoft 365 Copilot. It carries out tasks across your Microsoft 365 environment. Rather than describing what you could do, it does the work.
 
@@ -121,5 +121,5 @@ Learn more in [Get started with the Cowork agent](get-started.md).
 
 ## Related content
 
-- [Use the Cowork agent](use-cowork-agent.md)
+- [Use Cowork agent](use-cowork-agent.md)
 - [Cowork agent common questions](cowork-agent-faq.md)

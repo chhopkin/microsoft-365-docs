@@ -1,7 +1,7 @@
 ---
-title: "FAQ for Cowork agent (Frontier)"
-description: "Learn about how the Cowork agent in Microsoft 365 Copilot uses AI responsibly, including links to feature-specific FAQs and the Application Card."
-ms.date: 07/22/2025
+title: "FAQ for Cowork agent"
+description: "Learn about how Cowork agent in Microsoft 365 Copilot uses AI responsibly, including links to feature-specific FAQs and the Application Card."
+ms.date: 03/30/2026
 ms.topic: overview
 ms.custom:
   - responsible-ai-faqs
@@ -9,10 +9,10 @@ ms.custom:
 author: leeclontz
 manager: KumarVivek
 ms.author: leeclontz
-
+ms.service: microsoft-365-copilot
 ---
 
-# FAQ for Cowork agent (Frontier)
+# FAQ for Cowork agent
 
 [!INCLUDE [preview](../includes/preview.md)]
 
@@ -48,6 +48,5 @@ For information about how Microsoft 365 Copilot works, including its intended us
 - [Cowork overview](../cowork/index.md)
 - [Get started with the Cowork agent](../cowork/get-started.md)
 - [Use the Cowork agent](../cowork/use-cowork-agent.md)
-- [Cowork agent FAQ](../cowork/cowork-agent-faq.md)
-- [FAQ for the Cowork agent](cowork-agent-responsible-ai-faq.md)
+- [Cowork agent common questions](../cowork/cowork-agent-faq.md)
 - [Microsoft AI principles](https://www.microsoft.com/ai/responsible-ai)

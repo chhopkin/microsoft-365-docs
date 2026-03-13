@@ -1,7 +1,7 @@
 ---
-title: "Use the Cowork agent (Frontier)"
-description: "Learn how to have conversations, manage files, approve actions, and organize projects with the Cowork agent in Microsoft 365 Copilot."
-ms.date: 02/27/2026
+title: "Use Cowork agent (Frontier)"
+description: "Learn how to have conversations, manage files, approve actions, and organize projects with Cowork agent in Microsoft 365 Copilot."
+ms.date: 03/30/2026
 ms.topic: how-to
 author: leeclontz
 manager: KumarVivek
@@ -12,7 +12,7 @@ appliesto:
 - Microsoft 365 Copilot
 ---
 
-# Use the Cowork agent (Frontier)
+# Use Cowork agent (Frontier)
 
 [!INCLUDE [preview](../includes/preview.md)]
 

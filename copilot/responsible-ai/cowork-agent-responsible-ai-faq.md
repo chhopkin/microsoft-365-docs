@@ -1,7 +1,7 @@
 ---
-title: "FAQ for the Cowork agent"
-description: "Get answers to frequently asked questions about responsible AI and the Cowork agent in Microsoft 365 Copilot."
-ms.date: 07/22/2025
+title: "FAQ for Cowork agent"
+description: "Get answers to frequently asked questions about responsible AI and Cowork agent in Microsoft 365 Copilot."
+ms.date: 03/30/2026
 ms.topic: faq
 ms.custom:
   - transparency-note
@@ -14,7 +14,7 @@ appliesto:
 - Microsoft 365 Copilot
 ---
 
-# FAQ for the Cowork agent
+# FAQ for Cowork agent
 
 [!INCLUDE [preview](../includes/preview.md)]
 
@@ -119,10 +119,10 @@ Your feedback is used to evaluate and improve the Cowork agent's quality and saf
 
 ## Related content
 
-- [Responsible AI overview for the Cowork agent](cowork-agent-responsible-ai-overview.md)
+- [Responsible AI overview for Cowork agent](cowork-agent-responsible-ai-overview.md)
 - [Cowork overview](../cowork/index.md)
-- [Get started with the Cowork agent](../cowork/get-started.md)
-- [Use the Cowork agent](../cowork/use-cowork-agent.md)
+- [Get started with Cowork agent](../cowork/get-started.md)
+- [Use Cowork agent](../cowork/use-cowork-agent.md)
 - [Cowork agent FAQ](../cowork/cowork-agent-faq.md)
 - [Microsoft AI principles](https://www.microsoft.com/ai/responsible-ai)
 
