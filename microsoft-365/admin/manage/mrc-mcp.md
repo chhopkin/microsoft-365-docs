@@ -1,0 +1,201 @@
+---
+title: "Get started with the Microsoft Release Communications MCP Server"
+ms.author: mabond
+author: mkbond007
+manager: dansimp
+ms.date: 03/13/2026
+audience: Admin
+ms.topic: how-to
+ms.service: microsoft-365-business
+ms.localizationpriority: medium
+ms.collection:
+- Tier2
+- M365-subscription-management
+- Adm_O365
+- Adm_TOC
+ms.custom:
+- AdminSurgePortfolio
+- AdminTemplateSet
+search.appverid:
+- MET150
+description: "Learn how to configure the Microsoft Release Communications MCP Server to search, filter and retrieve the latest feature release information using natural language."
+appliesto:
+- Microsoft 365 Roadmap
+- Azure Updates
+- VS Code
+- Visual Studio
+- GitHub Copilot CLI
+---
+
+# Get Started with the Microsoft Release Communications MCP Server
+
+This article introduces the MRC MCP server, explains how it works, and outlines how to start using it in your environment.
+
+The Microsoft Release Communications (MRC) Model Context Protocol (MCP) Server provides a unified, programmatic way for MCP-compatible AI clients to access trusted and up-to-date information that powers **[Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap)** and **[Azure Updates](https://azure.microsoft.com/updates)**.
+
+MRC MCP Server is a remote **[MCP](https://modelcontextprotocol.io/docs/getting-started/intro)** server that uses streamable HTTP transport, which allows users to search, filter and retrieve the latest feature release information using natural language in AI clients.
+
+Instead of requiring developers to understand schemas and query APIs, this tool lets anyone ask questions in plain language to get precise, structured answers.
+
+**Use cases**
+
+- Enhance **AI clients** such as Visual Studio Code (VS Code), Visual Studio, GitHub Copilot CLI, Claude Code and other MCP‑compatible clients.
+- Enable IT admins, engineers, and technical users to query release and roadmap information directly from their AI client without relying on the websites.
+
+## Requirements
+
+Although the MRC MCP Server is publicly available and free to use, users are subject to the [Microsoft API Terms of Use](https://learn.microsoft.com/en-us/legal/microsoft-apis/terms-of-use). Read and understand the API Terms of Use before using the Learn MCP Server and before including the output in any production environment.
+
+There's no authentication required to access the MRC MCP Server. Users can use their preferred MCP client or agentic development environment, such as VS Code and Visual Studio.
+
+There's no licensing required to use the MCP server.
+
+## MCP Endpoint
+
+To connect with MRC MCP Server, use a compatible AI client with the endpoint pointing to the following URL:
+
+```HTML
+https://www.microsoft.com/releasecommunications/mcp
+```
+
+> [!NOTE]
+> This endpoint is designed for programmatic access by MCP clients via Streamable HTTP. It does not support direct access from a web browser and may return a 405 Method Not Allowed error if accessed manually.
+
+## Installation guide
+
+Although VS Code is a common client for MCP Server, MCP is an open protocol that's supported by many clients including agents in Copilot Studio, in Foundry, and many other agentic IDEs. For some other MCP‑compatible clients, the configuration steps are very similar and involve adding the MCP server endpoint to a client‑specific configuration file or settings.
+
+The high-level process is the following:
+
+1. Configure your AI client
+2. Use the MCP server
+
+**Standard config** works in most clients:
+
+```json
+{
+  "servers": {
+    "MRC-MCP-Server": {
+      "type": "http",
+      "url": "https://www.microsoft.com/releasecommunications/mcp"
+    }
+  }
+}
+```
+
+### Configure your Editor
+
+| Client | Installation / Configuration | MCP Guide |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
+| **VS Code** |  1. Open `~/.vscode/mcp.json`(User level: applies to every VS code session) or `.vscode/mcp.json`(Workspace level: applies only to a specific project)<br/>2. Add the MCP server entry shown above<br/>3. Query release data using your AI client| [VS Code MCP configuration guide](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)|
+| **Visual Studio**      | 1. Create `.mcp.json` at solution or user level<br/>2. Add the MCP server entry shown above<br/>3. Query release data using your AI client                 | [Visual Studio MCP configuration guide](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers?view=vs-2022) |
+| **GitHub Copilot CLI** | 1. Run `/mcp add` in interactive mode, opens a configuration form. <br/> 2. Enter a server name and select **HTTP** as the server type, no authentication required <br/> 3. Press **Ctrl+S** to save (server is available immediately) <br/> **or** <br/> edit `~/.copilot/mcp-config.json`<br/>               | [Copilot CLI MCP guide](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-mcp-servers)                 |
+| **Claude Desktop**        |  Follow "Add custom connector" instructions in official guide.                     | [Claude Desktop MCP guide](https://modelcontextprotocol.io/docs/develop/connect-remote-servers#connecting-to-a-remote-mcp-server)                 |
+| **Claude Code**         |Run `claude mcp add --transport http <name> <endpoint>` <br /> **or** <br/> edit `~/.claude/mcp.json`<br />                                    | [Claude Code MCP guide ](https://code.claude.com/docs/en/mcp)                 |
+| **Cursor** | 1. Open Cursor MCP settings<br/>2. Edit the MCP server configuration to `mcp.json`   | [Cursor MCP guide](https://cursor.com/docs/mcp)                      |
+| **Codex**  | Run `codex mcp add "<name>" --url "<endpoint>"`                               | [Codex MCP documentation](https://github.com/openai/codex/blob/main/codex-rs/config.md#mcp_servers)               |
+
+## Available Tools
+
+The MCP server exposes four tools:
+
+| Tool | Description |
+|---|---|
+| **`get_recent_azure_updates`** | Retrieves Azure update posts from Microsoft Release Communications with optional filtering and search capabilities. Returns up to 50 updates per request with truncated descriptions. Supports OData filtering by products, product categories, tags (Features, Retirements, Security, etc.), status, availability dates, and publication dates. Includes text search on titles and pagination |
+| **`get_azure_update_by_id`** | Retrieves a specific Azure update post by its unique identifier. Returns full details of products, tags, and availability dates. Use this after listing to get full information about a specific post.|
+| **`get_recent_roadmaps`** | Retrieves M365 roadmap posts from Microsoft Release Communications with optional filtering and search capabilities. Returns up to 50 roadmap items per request with truncated descriptions. Supports OData filtering by products, platforms, release rings, cloud instances, status, availability dates, and publication dates. Includes text search on titles and pagination. |
+| **`get_roadmap_by_id`** | Retrieves a specific M365 roadmap post by its unique id. Returns full details of products, and availability dates. Use this after listing to get full information about a specific post.|
+
+> [!TIP]
+> The list tools (`get_recent_azure_updates`, `get_recent_roadmaps`) return truncated descriptions to fit within AI context windows.
+
+## Use the MCP Server
+
+To use the MRC MCP Server after installation, do the following steps:
+
+1. Open a chat window in VS Code with GitHub Copilot or your AI client.
+2. Ask a question related to Microsoft 365 Roadmap or Azure Updates.
+3. Allow the client to use MCP server tools when prompted.
+4. Review the response.
+
+### Example queries
+
+Here are sample natural‑language queries that demonstrate how users can retrieve product release information across Microsoft 365 Roadmap and Azure Updates:
+
+**Microsoft 365 Roadmap**
+
+- As per Microsoft 365 Roadmap, which Microsoft Teams product features are releasing in June 2026?
+- Which Outlook product features on the Microsoft 365 Roadmap were updated last week?
+- What is the status of Feature ID 526798?
+- List all Excel features launching on Mac that are releasing in March.
+- Create an email for my Compliance team to review the Microsoft Purview features that are currently rolling out on Microsoft 365 Roadmap.
+- What is planned for mobile-only apps in OneNote?
+
+**Azure Updates**
+
+- Which Azure features became Generally Available this quarter?
+- Show all Azure retirements scheduled for 2026.
+- What are the latest Azure AI services updates?
+- Which Azure Databricks features were released in February 2026?
+- List all Azure features that are retiring in next 3 months.
+
+## Limitations
+
+The MRC MCP server contains publicly available documentation which is available on [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) and [Azure Updates](https://azure.microsoft.com/updates).
+The underlying product release information refreshes daily.
+
+## Troubleshooting
+
+### MCP tools aren't being invoked
+
+In some cases, even tool-friendly models might not call MCP tools by default. You can improve tool usage by providing **system-level instructions** (if supported by your AI client) that explicitly encourage use of the Release Communications MCP Server tools.
+
+#### System instructions prompt example
+
+When an AI tool doesn't use the MCP tool when expected, configure specific system-level instructions for the tool, similar to the following text:
+
+```text
+You have access to MCP tools provided by the Release Communications MCP Server:
+- `get_recent_roadmaps`
+- `get_roadmap_by_id`
+- `get_recent_azure_updates`
+- `get_azure_update_by_id`
+
+When handling questions about Microsoft 365 Roadmap features or Azure service updates,use these tools to retrieve the most current and authoritative release information
+before responding. When handling questions about Microsoft 365 product roadmap timelines, upcoming feature releases, Azure service updates, or release status for specific products (Teams, Outlook, SharePoint, Excel, etc).
+```
+
+**Best practices**
+
+- Be explicit in your prompt (for example, mention *Azure Updates* or *Microsoft 365 Roadmap*). If the prompt is too generic or doesn't clearly relate to release or roadmap data, the your AI client might not invoke MCP tools.
+- Use a **system-level instruction** (if supported by your AI client) to encourage tool usage.
+- Confirm that the MCP server is correctly configured and enabled in your client
+
+### Customize MCP tool selection
+
+#### VS Code and Visual Studio
+
+VS Code and Visual Studio support **explicit MCP tool selection** in Copilot Agent mode. Selecting only relevant tools (for example, Azure Updates tools) improves accuracy.
+
+1. Open Chat.
+2. Select **Agent** mode.
+3. Select **Configure Tools**.
+4. Select or deselect MCP tools before running the prompt.
+
+**Related documentation**
+
+- [Use tools with agents in VS Code](https://code.visualstudio.com/docs/copilot/agents/agent-tools)
+- [Configure MCP servers in VS Code](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)
+- [Use MCP servers in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers?view=visualstudio)
+
+#### Claude Desktop, Claude Code, Cursor, Codex, GitHub Copilot
+
+These clients don't expose explicit tool selection UI. Instead, do the following:
+
+- Use system instructions to guide tool usage.
+- Avoid mixing Azure and M365 topics in one prompt.
+
+**Related documentation**
+
+- [Connect to remote MCP servers](https://modelcontextprotocol.io/docs/develop/connect-remote-servers#connecting-to-a-remote-mcp-server)
+- [MCP tools specification](https://modelcontextprotocol.io/specification/2025-06-18/server/tools)
