@@ -23,6 +23,8 @@ appliesto:
 - Microsoft 365 admin center
 ---
 
+# Plan for change management in Microsoft 365
+
 Microsoft 365 is changing faster and more continuously than ever, especially as AI and Copilot capabilities roll out across workloads. For IT admins, this means fewer discrete release moments and a steady flow of updates that can affect users, support teams, and governance. A *frontier firm* is an organization that is designed to operate in this environment of continuous change, where updates are expected and managed as part of normal operations rather than treated as exceptions. Unlike traditional change management models—which rely on reactive planning, long validation cycles, and broad delays to reduce risk—frontier firms plan for change proactively and harness AI into their everyday workflows to accelerate decision-making, foster innovation, and prioritize governance, security, and compliance. Microsoft’s modern change management approach supports this shift by providing earlier planning signals, clearer impact communication, and flexible release options, helping you and your organization manage risk, meet compliance requirements, and adopt new Microsoft 365 features with confidence.
 
 This modern change management model for Microsoft 365 helps your Frontier Firm stay on top of major updates in the following ways:
