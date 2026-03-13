@@ -452,7 +452,7 @@
     },
     {
       "source_path": "microsoft-365/solutions/index.yml",
-      "redirect_url": "/previous-versions/microsoft-365/solutions/index.yml",
+      "redirect_url": "/previous-versions/microsoft-365/solutions/index",
       "redirect_document_id": false
     },
     {
