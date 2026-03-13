@@ -38,7 +38,7 @@ This article explains how release options work and how to configure them, so you
 For a comparison of the release options available for Microsoft 365 features, see [Plan for change management in Microsoft 365](plan-for-change-management.md).
 
 > [!NOTE]
-> Standard and deferred release channels aren’t available for GCC, GCC High, and DoD cloud environments. Check this article for updates regarding future support.
+> Deferred release channels aren’t available for GCC, GCC High, and DoD cloud environments. Check this article for updates regarding future support.
 
 ## How release validation works
 
@@ -56,7 +56,7 @@ You must have one of the following roles in Microsoft 365 admin center to config
 - Office Apps Admin
 - Security Admin
 - AI Admin
-- Global Admin
+- Global Admin **(need confirmation that this is still required for TARGETED release and that a lesser role is not possible)**
 
 In order to get early access to the latest AI innovations in Microsoft 365, you can join the Frontier program. You must have a Microsoft 365 Copilot license to use Microsoft Agent 365 and other AI features in Microsoft 365 that are part of the Frontier program. For more information about the Frontier program, see [Frontier: Try what's next in AI](https://adoption.microsoft.com/copilot/frontier-program/).
 
@@ -91,11 +91,13 @@ If you want to use targeted release, we recommend that you only assign a small g
 
 1. Sign in to the Microsoft 365 admin center.
 1. In the left navigation, expand **Copilot** and select **Settings**.
+    :::image type="content" source="Screenshot of Copilot settings in Microsoft 365 admin center" source="../../media/copilot-settings-admin-center.png" alt-text="Screenshot of Copilot settings in Microsoft 365 admin center":::
 1. Under the **All Settings** tab, select **Copilot release preferences: General Availability**.
-1. Choose either **Standard release** or **Deferred release**.
+1. Choose either **Standard release for everyone** or **Deferred release for everyone**.
+    :::image type="content" source="Screenshot of standard release and deferred release options in Microsoft 365 admin center" source="../../media/release-preferences-general-availability.png" alt-text="Screenshot of standard release and deferred release options in Microsoft 365 admin center":::
 1. Add any user exceptions.
-    - If you select **Standard release** and want a specific user to assign to deferred release, search for the user and select their name.
-    - If you select **Deferred release** and want a specific user to assign to standard release, search for the user and select their name.
+    - If you want to only assign a specific user to deferred release, select **Standard release for everyone**, search for the user, and select their name.
+    - If you want to only assign a specific user to standard release, select **Deferred release for everyone**, search for the user, and select their name.
 1. Select **Save**.
 
 If you switch users from deferred release back to standard release, these users may lose access to features that haven't reached standard release yet.
