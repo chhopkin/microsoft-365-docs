@@ -126,6 +126,7 @@
     ".openpublishing.redirection.scheduler.json",
     ".openpublishing.redirection.security.json",
     ".openpublishing.redirection.solutions.json",
+    ".openpublishing.redirection.solutions-migration.json",
     ".openpublishing.redirection.syntex.json",
     ".openpublishing.redirection.test-base.json",
     ".openpublishing.redirection.topics.json",
