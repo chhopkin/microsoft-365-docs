@@ -35,7 +35,7 @@ This modern change management model for Microsoft 365 helps your Frontier Firm s
   - Bullet point summaries that present key information in a clear, scannable format
   - Embedded links that connect to curated supplemental resources
   - Purpose-specific post structure to explain impact and actions to take (including for compliance)
-- Integrate AI tools with Microsoft Release Communications MCP Server to provide detailed information about Microsoft 365 feature updates, including impact, compliance requirements, and rollout timelines, to help you plan and manage change effectively. 
+- Integrate AI tools with Microsoft Release Communications MCP Server to provide detailed information about Microsoft 365 feature updates, including impact, compliance requirements, and rollout timelines, to help you plan and manage change effectively.
 
 ### Customize your organization’s release experience for Microsoft 365
 
@@ -71,3 +71,6 @@ For more details on the updated layout and information on keeping track of chang
 ## Enable AI clients to retrieve product release information with MRC MCP server
 
 By integrating the MRC MCP Server with your AI tools, you can automate the retrieval of release information and generate tailored communications for your organization. For information on how to start using MRC MCP server, see [Get started with the Release Communications MCP Server](configure-mcr-mcp.md).
+
+## Related articles
+
