@@ -1,5 +1,5 @@
 ---
-ms.date: 01/26/2026
+ms.date: 03/13/2026
 ms.update-cycle: 180-days
 title: "Purview management for SharePoint Embedded containers"
 ms.reviewer: dancost, tonchan, abisuresh
@@ -28,6 +28,8 @@ description: "Learn about Purview integration of SharePoint Embedded containers 
 # Purview management for SharePoint Embedded containers
 
 This article covers Purview integration for SharePoint Embedded containers used by Copilot Pages, Copilot Notebooks, and Loop workspaces. The concepts apply to all these products because they share the same underlying SharePoint Embedded infrastructure.
+
+For personal user-owned containers, Copilot Pages, Copilot Notebooks, and Loop My workspace use the same physical SharePoint Embedded container. In admin tools and audit data, that container is identified as owned by Loop.
 
 ## At a glance
 
@@ -58,7 +60,7 @@ Loop application IDs:
 
 - Loop Web Application ID: `a187e399-0c36-4b98-8f04-1edc167a0996`
 - Loop Mobile Application ID: `0922ef46-e1b9-4f7e-9134-9ad00547eb41`
-- Copilot Pages and Copilot Notebooks containers are created using the Loop Application IDs.
+- The personal user-owned container shared by Copilot Pages, Copilot Notebooks, and Loop My workspace is identified using the Loop Application IDs.
 
 ### Search and Export
 
