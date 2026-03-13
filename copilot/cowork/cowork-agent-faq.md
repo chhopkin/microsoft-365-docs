@@ -16,7 +16,7 @@ appliesto:
 
 [!INCLUDE [preview](../includes/preview.md)]
 
-Find answers to common questions about the Cowork agent in Microsoft 365 Copilot.
+Find answers to common questions about Cowork agent in Microsoft 365 Copilot.
 
 ## What is Cowork agent?
 

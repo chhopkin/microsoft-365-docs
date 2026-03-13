@@ -16,7 +16,7 @@ appliesto:
 
 [!INCLUDE [preview](../includes/preview.md)]
 
-The Cowork agent in Microsoft 365 Copilot carries out tasks on your behalf, such as send emails, create documents, schedule meetings, and search across your organization. This article explains everything you can do with Cowork.
+Cowork agent in Microsoft 365 Copilot carries out tasks on your behalf, such as send emails, create documents, schedule meetings, and search across your organization. This article explains everything you can do with Cowork.
 
 ## Start a conversation
 

@@ -1,5 +1,5 @@
 ---
-title: "FAQ for Cowork agent"
+title: "Responsible AI overview for Cowork agent"
 description: "Learn about how Cowork agent in Microsoft 365 Copilot uses AI responsibly, including links to feature-specific FAQs and the Application Card."
 ms.date: 03/30/2026
 ms.topic: overview
@@ -12,7 +12,7 @@ ms.author: leeclontz
 ms.service: microsoft-365-copilot
 ---
 
-# FAQ for Cowork agent
+# Responsible AI overview for Cowork agent
 
 [!INCLUDE [preview](../includes/preview.md)]
 
@@ -22,14 +22,14 @@ Responsible AI FAQs are part of a broader effort to put Microsoft's AI principle
 
 ## AI-driven features
 
-The Cowork agent contains a growing list of AI-driven features. To learn about the capabilities and impact of specific features, select an article in the list.
+Cowork agent contains a growing list of AI-driven features. To learn about the capabilities and impact of specific features, select an article in the list.
 
 - **Task execution across Microsoft 365** — Cowork sends emails, schedules meetings, creates documents, posts in Teams, and manages files based on your natural language instructions.
 - **Work context integration** — You can attach emails, files, and calendar events to your conversation so Cowork has the context it needs to complete your request.
 - **Action approval** — Cowork asks for your approval before performing sensitive actions such as sending an email or posting in a Teams channel.
 - **Conversation controls** — You can pause, resume, or cancel the agent's work at any time, and provide thumbs up or thumbs down feedback on individual responses.
 
-For detailed information about how these features use AI responsibly, see [FAQ for the Cowork agent in Microsoft 365 Copilot](cowork-agent-responsible-ai-faq.md).
+For detailed information about how these features use AI responsibly, see [Responsible AI FAQ for Cowork agent](cowork-agent-responsible-ai-faq.md).
 
 ## About Cowork
 
@@ -46,7 +46,8 @@ For information about how Microsoft 365 Copilot works, including its intended us
 ## Related content
 
 - [Cowork overview](../cowork/index.md)
-- [Get started with the Cowork agent](../cowork/get-started.md)
-- [Use the Cowork agent](../cowork/use-cowork-agent.md)
+- [Get started with Cowork agent](../cowork/get-started.md)
+- [Use Cowork agent](../cowork/use-cowork-agent.md)
 - [Cowork agent common questions](../cowork/cowork-agent-faq.md)
+- [Responsible AI FAQ for Cowork agent](cowork-agent-responsible-ai-faq.md)
 - [Microsoft AI principles](https://www.microsoft.com/ai/responsible-ai)
