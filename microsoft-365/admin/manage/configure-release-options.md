@@ -33,7 +33,12 @@ Microsoft 365 provides multiple release options that let you control when new fe
 
 The available release options include Standard, Deferred, Targeted, and Frontier. Each option serves a different purpose, ranging from early evaluation and feedback to general availability to a delayed rollout for additional review.
 
-This article explains how each release option works, how they differ, and when to use them, so you can choose the approach that best fits your organization’s testing, compliance, and adoption requirements.
+This article explains how release options work and how to configure them, so you can choose the approach that best fits your organization’s testing, compliance, and adoption requirements.
+
+For a comparison of the release options available for Microsoft 365 features, see [Plan for change management in Microsoft 365](plan-for-change-management.md).
+
+> [!NOTE]
+> Standard and deferred release channels aren’t available for GCC, GCC High, and DoD cloud environments. Check this article for updates regarding future support.
 
 ## How release validation works
 
@@ -59,15 +64,11 @@ In order to get early access to the latest AI innovations in Microsoft 365, you 
 > Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 >For more information about administrator roles, see [About administrator roles in the Microsoft 365 admin center](../add-users/about-admin-roles.md).
 
-## Compare release options for Microsoft 365 services
-
-
-
 ## Configure release options for in Microsoft 365 admin center
 
 Standard release is the default release option. To better manage your organization’s readiness and testing needs, you can change the default release selection at any time in the Microsoft 365 admin center using the following steps. It can take up to 24 hours for the following changes to take effect in Microsoft 365.
 
-You can control two separate release settings in the Microsoft 365 admin center.
+You can control three separate release settings in the Microsoft 365 admin center.
 
 ### Targeted release
 
@@ -89,63 +90,29 @@ If you want to use targeted release, we recommend that you only assign a small g
 > Currently, the Deferred release option only supports Microsoft 365 Copilot-related features. For information on which features are Deferred-capable, check Message Center posts. This documentation will be updated as more features are supported.
 
 1. Sign in to the Microsoft 365 admin center.
-1. In the left navigation, expand Copilot and select Settings.
-1. Under the All Settings tab, select Copilot release preferences: General Availability.
-1. Choose either Standard release or Deferred release.
+1. In the left navigation, expand **Copilot** and select **Settings**.
+1. Under the **All Settings** tab, select **Copilot release preferences: General Availability**.
+1. Choose either **Standard release** or **Deferred release**.
 1. Add any user exceptions.
     - If you select **Standard release** and want a specific user to assign to deferred release, search for the user and select their name.
     - If you select **Deferred release** and want a specific user to assign to standard release, search for the user and select their name.
 1. Select **Save**.
 
+If you switch users from deferred release back to standard release, these users may lose access to features that haven't reached standard release yet.
+
 ### Frontier program
+
+**ADD MORE HERE**
 
 For more information about the Frontier program, see [Frontier: Try what's next in AI](https://adoption.microsoft.com/copilot/frontier-program/).
 
-For more information about deploying Microsoft 365 Insider program for Business, see [Microsoft 365 Insider program for Business](https://docs.microsoft.com/microsoft-365/insider/deploy/options).
-
-
-
-
-
-
-As an IT admin, you can now choose to either adopt new, generally available Microsoft 365 Copilot features immediately, or you can choose to delay the rollout of Copilot features to your organization by 30 days after general availability.
-
-This article is only about the general availability release options for Copilot features. For information about  release options that apply to new Outlook, OneDrive, SharePoint in Microsoft 365, Microsoft 365 for the web, Microsoft 365 admin center, and some components of Exchange Online and Microsoft Teams, see [Set up the Standard or Targeted release options for Microsoft 365](release-options-in-office-365.md). For information about release options for Microsoft 365 Apps, see [Overview of update channels for Microsoft 365 Apps](/deployoffice/overview-update-channels).
+For more information about deploying Microsoft 365 Insider program for Business, see [Microsoft 365 Insider program for Business](microsoft-365/insider/deploy/options).
 
 ## Release option best practices
 
+We recommend that you use the release options in the following ways to balance early access with risk management:
 
-
-
-## Prerequisites
-
-You must be a global admin in Microsoft 365 to opt in.
-
-[!INCLUDE [global-administrator-note](../../includes/global-administrator-note.md)]
-
-## Standard vs Deferred release options
-
-> [!NOTE]
-> Standard and deferred release channels aren’t available for GCC, GCC High, and DoD cloud environments.
-
-**Standard release** is the default option where you and your users receive the latest Copilot feature updates when they're released broadly to all customers.
-
-With **Deferred release**, you can delay the rollout of Copilot features to validate and prepare for a new feature's use in your organization. You can choose to have individuals or your entire organization receive Copilot updates 30 days after they are generally available. For heavily regulated organizations, such as financial institutions, a good practice is to assign most users to Deferred release and then assign IT Pros and power users in Standard release so that they can evaluate new features and prepare teams to support your users.
-
-## Configure Standard or Deferred release options
-
-Standard release is the default release option. To better manage your organization’s readiness and testing needs, you can change the default release selection at any time in the Microsoft admin center using the following steps. It can take up to 24 hours for the following changes to take effect in Microsoft 365.
-
-1. Sign in to the Microsoft 365 admin center.
-1. In the left navigation, expand **Copilot** and select **Settings**.
-1. Under the **All Settings**  tab, select **Copilot release preferences: General Availability**.
-1. Choose either **Standard release** or **Deferred release**.
-1. Add any user exceptions.
-    - If you select **Standard release** and want a specific user to assign to **Deferred release**, search for the user and select their name.
-    - If you select **Deferred release** and want a specific user to assign to **Standard release**, search for the user and select their name.
-1. Select **Save**.
-
-If you switch from deferred release back to standard release, your users may lose access to features that haven't reached standard release yet.
+- Only put specific users in Targeted release
 
 ## Related articles
 
