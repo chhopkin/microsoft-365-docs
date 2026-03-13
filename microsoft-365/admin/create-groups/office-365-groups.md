@@ -60,7 +60,7 @@ When you create a Microsoft 365 group, users can automatically access shared res
 
 With a Microsoft 365 group, you don't need to manually assign permissions to individual resources. When you add users to the group, you automatically grant them the appropriate access.
 
-Any user can create a group unless you [limit group creation to a specific set of people](../../solutions/manage-creation-of-groups.md). If you limit group creation, users can't create the following items:
+Any user can create a group unless you [limit group creation to a specific set of people](/previous-versions/microsoft-365/solutions/manage-creation-of-groups.md). If you limit group creation, users can't create the following items:
 
 - Microsoft SharePoint sites.
 - Planner.
@@ -85,9 +85,9 @@ User admins and groups admins can create and manage groups in the [Microsoft 365
 
 As an administrator, you can:
 
-- [Specify who can create groups](../../solutions/manage-creation-of-groups.md).
-- [Create a naming policy for groups in your organization](../../solutions/groups-naming-policy.md).
-- [Choose which domain to use when creating a group](../../solutions/choose-domain-to-create-groups.md).
+- [Specify who can create groups](/previous-versions/microsoft-365/solutions/manage-creation-of-groups.md).
+- [Create a naming policy for groups in your organization](/previous-versions/microsoft-365/solutions/groups-naming-policy.md).
+- [Choose which domain to use when creating a group](/previous-versions/microsoft-365/solutions/choose-domain-to-create-groups.md).
 - [Manage guest access to groups](manage-guest-access-in-groups.md).
 - [Recover a deleted group](restore-deleted-group.md) (within 30 days of deletion).
 
@@ -99,11 +99,11 @@ You can automate group cleanup by using expiration policies. When a group reache
 - Owners can renew the group if the group is still needed.
 - Groups that aren't renewed are automatically deleted.
 
-For more information, see [Microsoft 365 group Expiration Policy](../../solutions/microsoft-365-groups-expiration-policy.md).
+For more information, see [Microsoft 365 group Expiration Policy](/previous-versions/microsoft-365/solutions/microsoft-365-groups-expiration-policy.md).
 
 You can administer your groups from the Microsoft 365 admin center or by using PowerShell. For more information, see [Manage Microsoft 365 Groups with PowerShell](../../enterprise/manage-microsoft-365-groups-with-powershell.md).
 
-If you have many users, such as in a large corporation or enterprise, you might have many users who create groups for various purposes. Review [Plan for governance in Microsoft 365 groups](../../solutions/collaboration-governance-overview.md) for best practices.
+If you have many users, such as in a large corporation or enterprise, you might have many users who create groups for various purposes. Review [Plan for governance in Microsoft 365 groups](/previous-versions/microsoft-365/solutions/collaboration-governance-overview.md) for best practices.
 
 ## Microsoft 365 Groups limits and restrictions
 
@@ -159,4 +159,4 @@ From an administrative perspective, creator's licenses and Microsoft Entra ID su
 - [Learn about Groups in Outlook](https://support.microsoft.com/office/b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 - [Manage Microsoft 365 Groups with PowerShell](../../enterprise/manage-microsoft-365-groups-with-powershell.md).
 - [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits).
-- [Plan for governance in Microsoft 365 groups](../../solutions/collaboration-governance-overview.md).
+- [Plan for governance in Microsoft 365 groups](/previous-versions/microsoft-365/solutions/collaboration-governance-overview.md).
