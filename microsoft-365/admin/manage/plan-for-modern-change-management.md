@@ -1,14 +1,14 @@
 ---
-title: "Plan for modern change management in Microsoft 365"
+title: "Plan for change management in Microsoft 365"
 f1.keywords:
 - CSH
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.reviewer: pamelaar
-ms.date: 02/12/2026
+ms.date: 03/13/2026
+ms.reviewer: pamelaar, gsaini
 audience: Admin
-ms.topic: install-set-up-deploy
+ms.topic: how-to
 ms.service: microsoft-365-business
 ms.localizationpriority: medium
 ms.collection:
@@ -18,49 +18,59 @@ ms.collection:
 - Adm_TOC
 ms.custom:
 search.appverid: MET150
-description: "Plan for modern change management in Microsoft 365."
+description: "Learn how to plan for change management in Microsoft 365."
+appliesto: 
+- Microsoft 365 admin center
 ---
 
-# Plan for modern change management in Microsoft 365
+Microsoft 365 is changing faster and more continuously than ever, especially as AI and Copilot capabilities roll out across workloads. For IT admins, this means fewer discrete release moments and a steady flow of updates that can affect users, support teams, and governance. A *frontier firm* is an organization that is designed to operate in this environment of continuous change, where updates are expected and managed as part of normal operations rather than treated as exceptions. Unlike traditional change management models—which rely on reactive planning, long validation cycles, and broad delays to reduce risk—frontier firms plan for change proactively and harness AI into their everyday workflows to accelerate decision-making, foster innovation, and prioritize governance, security, and compliance. Microsoft’s modern change management approach supports this shift by providing earlier planning signals, clearer impact communication, and flexible release options, helping you and your organization manage risk, meet compliance requirements, and adopt new Microsoft 365 features with confidence.
 
-Our new change management model gives you more control over delivering changes to your organization as new features rollout in Microsoft 365. This model enables faster value delivery for agile customers while supporting compliance for regulated industries.
+This modern change management model for Microsoft 365 helps your Frontier Firm stay on top of major updates in the following ways:
 
-This modern change management model for Microsoft 365 helps you stay on top of more major updates in the following ways:
-
-- Manage general availability release channels based on your organizational readiness for new Copilot features with Standard or Deferred release options
-- Control the release of new features for testing before releasing to the rest of your organization
+- Control feature delivery by using audience-based release phases aligned to your organization’s workflows
+- Manage general availability release channels in the Microsoft 365 admin center based on your organizational readiness for new features with Standard or Deferred release options
+- Control the release of new major features for testing before releasing to the rest of your organization
 - Easily understand feature updates with new Message center enhancements, such as:
-  - Feature updates announcements at the time of availability
-  - Bullet‑point summaries that present key information in a clear, scannable format
+  - Feature update announcements at the time of availability
+  - Bullet point summaries that present key information in a clear, scannable format
   - Embedded links that connect to curated supplemental resources
   - Purpose-specific post structure to explain impact and actions to take (including for compliance)
+- Integrate AI tools with Microsoft Release Communications MCP Server to provide detailed information about Microsoft 365 feature updates, including impact, compliance requirements, and rollout timelines, to help you plan and manage change effectively.
 
-## Choose a release channel for Microsoft 365 Copilot
+### Customize your organization’s release experience for Microsoft 365
 
-> [!NOTE]
-> Standard and deferred release channels aren’t available for GCC, GCC High, and DoD cloud environments.
+From the Microsoft admin center, you can choose between two general availability release channels for Microsoft 365 updates: Standard release and Deferred release.
 
-You can choose between two general availability release channels for Microsoft Copilot 365 updates: Standard release and Deferred release.
+With Standard release, your organization receives new features as soon as they’re generally available. You can immediately manage individual policies and settings for these new features. Your organization is on standard release by default.
+IT admins who need extra time to do security reviews and compliance checks before releasing Microsoft 365 deferred-capable features to their organization might want to assign most users in your organization to Deferred release. To get up to 30 days to prepare for new Microsoft 365 deferred-capable features, switch to deferred release. After 30 days, generally available Microsoft 365 features appear to your users. For either standard or deferred release channel, you can manage individual policies and settings for these new features.
 
-With **Standard release**, your organization receives new features as soon as they’re generally available. You can immediately manage individual policies and settings for these new features.
+If you want to do early experimentation or validation before the broad rollout of M365 features, you can opt-in users for Targeted release or enable the Frontier program.
 
-IT admins of financial institutions and other heavily regulated organizations who need extra time to do security reviews and compliance checks before Microsoft 365 Copilot features might want to assign most users in your organization to **Deferred release**. Your organization is on standard release by default. Switch to deferred release to get up to 30 days to prepare for new Microsoft 365 Copilot features. After 30 days, generally available Microsoft 365 Copilot features appear to your users. You can manage individual policies and settings for these new features.
+#### Compare release options for Microsoft 365 services
 
-For more information on how to configure release channels for Microsoft 365 Copilot, see [Configure Standard or Deferred release options for Microsoft 365 Copilot](configure-release-options.md).
+The following table compares the release options available for Microsoft 365 features to help you understand the differences and choose the right approach for your organization’s needs.
+
+| Release phase        | Primary purpose                       | Feature readiness                     | Key considerations for IT admins                                                                                                                                |
+| -------------------- | ------------------------------------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Frontier**         | Early experimentation and feedback    | Pre‑GA, not fully supported           | Features may change or be removed, are not guaranteed to reach GA, and do not include support, stability, or SLA commitments equivalent to GA                   |
+| **Targeted release** | Validation before broad rollout       | Pre‑GA validation                     | Not all features are guaranteed to reach GA; functionality may still evolve; intended for readiness and validation, not reliance on fully supported GA features |
+| **Standard release** | Default GA rollout                    | Fully supported GA features           | Features are supported, communicated through Message Center and release notes, and expected to remain available under standard lifecycle policies               |
+| **Deferred release** | Delayed GA for additional preparation | Fully supported GA features (delayed) | Same functionality as Standard release, with timing delayed (up to \~30 days) to support governance and compliance readiness                                    |
+
+For more information about release options and how to configure them, see [Configure release options for Microsoft 365 features](configure-release-options.md).
 
 ## Use the updated Message Center interface
 
 Enhance your organization’s ability to deliver timely, relevant, and actionable communications to users with our launch-focused release announcement hub. By integrating bullet-point summaries and supplemental resources into Message Center, you can deliver more applicable and accessible information to your users.
 
 - Stay informed with concise announcements at launch that feature bullet-point summaries and direct links to resources
-- Incorporate a structured and more effective messaging format that includes change descriptions, rollout timelines, affected users and platforms, action checklists, and compliance impacts (including GDPR and AI data handling)
+- Incorporate a structured and more effective messaging format that includes change descriptions, rollout timelines, affected users and platforms, action checklists, and compliance impacts (including data handling)
 
-For more information on the updated layout and information on keeping track of changes using the Microsoft 365 Message Center, see [Message center in the Microsoft 365 admin center](message-center.md).
+For more details on the updated layout and information on keeping track of changes using the Microsoft 365 Message Center, see [Message center in the Microsoft 365 admin center](message-center.md).
+
+## Enable AI clients to retrieve product release information with MRC MCP server
+
+By integrating the MRC MCP Server with your AI tools, you can automate the retrieval of release information and generate tailored communications for your organization. For information on how to start using MRC MCP server, see [Get started with the Release Communications MCP Server](configure-mcr-mcp.md).
 
 ## Related articles
 
-[Configure Standard or Deferred release options for Microsoft 365 Copilot](configure-release-options.md)
-
-[Set up the Standard or Targeted release options for Microsoft 365](release-options-in-office-365.md)
-
-[Prepare for Microsoft 365 updates with Message center](message-center.md)
