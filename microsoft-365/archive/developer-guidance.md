@@ -1,14 +1,15 @@
 ---
 title: Developer guidance for Microsoft 365 Archive
+description: Learn how third-party and ISV applications should detect, avoid, and gracefully handle archived files when using Microsoft Graph and SharePoint APIs.
 ms.service: microsoft-365-archive
-ms.author: trgreen
-ms.manager: brgussin
 ms.topic: conceptual
 ms.date: 02/27/2026
 ms.author: trgreen
 ms.reviewer:
 ms.localizationpriority: medium
 ---
+
+# Developer guidance for Microsoft 365 Archive
 
 ## Overview
 
