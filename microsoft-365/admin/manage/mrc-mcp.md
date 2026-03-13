@@ -44,7 +44,7 @@ Instead of requiring developers to understand schemas and query APIs, this tool 
 
 ## Requirements
 
-Although the MRC MCP Server is publicly available and free to use, users are subject to the [Microsoft API Terms of Use](https://learn.microsoft.com/en-us/legal/microsoft-apis/terms-of-use). Read and understand the API Terms of Use before using the Learn MCP Server and before including the output in any production environment.
+Although the MRC MCP Server is publicly available and free to use, users are subject to the [Microsoft API Terms of Use](/legal/microsoft-apis/terms-of-use). Read and understand the API Terms of Use before using the Learn MCP Server and before including the output in any production environment.
 
 There's no authentication required to access the MRC MCP Server. Users can use their preferred MCP client or agentic development environment, such as VS Code and Visual Studio.
 
@@ -88,7 +88,7 @@ The high-level process is the following:
 | Client | Installation / Configuration | MCP Guide |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
 | **VS Code** |  1. Open `~/.vscode/mcp.json`(User level: applies to every VS code session) or `.vscode/mcp.json`(Workspace level: applies only to a specific project)<br/>2. Add the MCP server entry shown above<br/>3. Query release data using your AI client| [VS Code MCP configuration guide](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)|
-| **Visual Studio**      | 1. Create `.mcp.json` at solution or user level<br/>2. Add the MCP server entry shown above<br/>3. Query release data using your AI client                 | [Visual Studio MCP configuration guide](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers?view=vs-2022) |
+| **Visual Studio**      | 1. Create `.mcp.json` at solution or user level<br/>2. Add the MCP server entry shown above<br/>3. Query release data using your AI client                 | [Visual Studio MCP configuration guide](/visualstudio/ide/mcp-servers) |
 | **GitHub Copilot CLI** | 1. Run `/mcp add` in interactive mode, opens a configuration form. <br/> 2. Enter a server name and select **HTTP** as the server type, no authentication required <br/> 3. Press **Ctrl+S** to save (server is available immediately) <br/> **or** <br/> edit `~/.copilot/mcp-config.json`<br/>               | [Copilot CLI MCP guide](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-mcp-servers)                 |
 | **Claude Desktop**        |  Follow "Add custom connector" instructions in official guide.                     | [Claude Desktop MCP guide](https://modelcontextprotocol.io/docs/develop/connect-remote-servers#connecting-to-a-remote-mcp-server)                 |
 | **Claude Code**         |Run `claude mcp add --transport http <name> <endpoint>` <br /> **or** <br/> edit `~/.claude/mcp.json`<br />                                    | [Claude Code MCP guide ](https://code.claude.com/docs/en/mcp)                 |
@@ -141,7 +141,7 @@ Here are sample natural‑language queries that demonstrate how users can retrie
 
 ## Limitations
 
-The MRC MCP server contains publicly available documentation which is available on [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) and [Azure Updates](https://azure.microsoft.com/updates).
+The MRC MCP server contains publicly available documentation which is available on [Microsoft 365 Roadmap](../roadmap) and [Azure Updates](https://azure.microsoft.com/updates).
 The underlying product release information refreshes daily.
 
 ## Troubleshooting
@@ -186,7 +186,7 @@ VS Code and Visual Studio support **explicit MCP tool selection** in Copilot Age
 
 - [Use tools with agents in VS Code](https://code.visualstudio.com/docs/copilot/agents/agent-tools)
 - [Configure MCP servers in VS Code](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)
-- [Use MCP servers in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers?view=visualstudio)
+- [Use MCP servers in Visual Studio](/visualstudio/ide/mcp-servers)
 
 #### Claude Desktop, Claude Code, Cursor, Codex, GitHub Copilot
 
