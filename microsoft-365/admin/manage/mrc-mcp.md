@@ -18,7 +18,7 @@ ms.custom:
 - AdminTemplateSet
 search.appverid:
 - MET150
-description: "Learn how to configure the Microsoft Release Communications MCP Server to search, filter and retrieve the latest feature release information using natural language."
+description: "Learn how to configure the Microsoft Release Communications MCP Server to search, filter, and retrieve the latest feature release information using natural language."
 appliesto:
 - Microsoft 365 Roadmap
 - Azure Updates
@@ -39,7 +39,7 @@ Instead of requiring developers to understand schemas and query APIs, this tool 
 
 With MRC MCP, you can do the following actions:
 
-- Enhance **AI clients** such as Visual Studio Code (VS Code), Visual Studio, GitHub Copilot CLI, Claude Code and other MCP‑compatible clients.
+- Enhance **AI clients** such as Visual Studio Code (VS Code), Visual Studio, GitHub Copilot CLI, Claude Code, and other MCP‑compatible clients.
 - Enable IT admins, engineers, and technical users to query release and roadmap information directly from their AI client without relying on the websites.
 
 ## Requirements
@@ -59,11 +59,11 @@ https://www.microsoft.com/releasecommunications/mcp
 ```
 
 > [!NOTE]
-> This endpoint is designed for programmatic access by MCP clients via Streamable HTTP. It does not support direct access from a web browser and may return a 405 Method Not Allowed error if accessed manually.
+> This endpoint provides programmatic access for MCP clients over Streamable HTTP. It doesn't support direct access from a web browser and may return a 405 Method Not Allowed error if accessed manually.
 
 ## Installation guide
 
-Although VS Code is a common client for MCP Server, MCP is an open protocol that's supported by many clients including agents in Copilot Studio, in Foundry, and many other agentic IDEs. For some other MCP‑compatible clients, the configuration steps are very similar and involve adding the MCP server endpoint to a client‑specific configuration file or settings.
+MCP is an open protocol that supports many clients, including VS Code, Copilot Studio agents, Foundry, and other agentic IDEs. For some other MCP‑compatible clients, the configuration steps are very similar and involve adding the MCP server endpoint to a client‑specific configuration file or settings.
 
 The high-level process is the following:
 
@@ -137,7 +137,7 @@ Here are sample natural‑language queries that demonstrate how users can retrie
 - Show all Azure retirements scheduled for 2026.
 - What are the latest Azure AI services updates?
 - Which Azure Databricks features were released in February 2026?
-- List all Azure features that are retiring in next 3 months.
+- List all Azure features that are retiring in next three months.
 
 ## Limitations
 
@@ -167,7 +167,7 @@ before responding. When handling questions about Microsoft 365 product roadmap t
 
 Here are some general best practices:
 
-- Be explicit in your prompt (for example, mention *Azure Updates* or *Microsoft 365 Roadmap*). If the prompt is too generic or doesn't clearly relate to release or roadmap data, the your AI client might not invoke MCP tools.
+- Be explicit in your prompt (for example, mention *Azure Updates* or *Microsoft 365 Roadmap*). If the prompt is too generic or doesn't clearly relate to release or roadmap data, then your AI client might not invoke MCP tools.
 - Use a **system-level instruction** (if supported by your AI client) to encourage tool usage.
 - Confirm that the MCP server is correctly configured and enabled in your client
 
@@ -175,7 +175,7 @@ Here are some general best practices:
 
 #### VS Code and Visual Studio
 
-VS Code and Visual Studio support **explicit MCP tool selection** in Copilot Agent mode. Selecting only relevant tools (for example, Azure Updates tools) improves accuracy.
+VS Code and Visual Studio support **explicit MCP tool selection** in Copilot Agent mode. You can improve accuracy by selecting only relevant tools, such as Azure Update tools.
 
 1. Open Chat.
 2. Select **Agent** mode.

@@ -268,7 +268,7 @@ Most users assigned any admin role in Microsoft 365 can view Message center post
 - Privileged role administrator
 - Reports reader
 
-For more information about admin roles, see [About administrator roles in the Microsoft 365 admin center](./add-users/about-admin-roles).
+For more information about admin roles, see [About administrator roles in the Microsoft 365 admin center](/microsoft-365/admin/add-users/about-admin-roles).
 
 ## Give feedback on a post
 

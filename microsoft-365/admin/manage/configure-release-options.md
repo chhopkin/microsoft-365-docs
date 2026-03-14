@@ -123,7 +123,7 @@ The Frontier program offers early access to select AI and Microsoft 365 Copilot 
 
 For more information about the Frontier program, see [Frontier: Try what's next in AI](https://adoption.microsoft.com/copilot/frontier-program/).
 
-For more information about deploying Microsoft 365 Insider program for Business, see [Microsoft 365 Insider program for Business](../insider/deploy/options).
+For more information about deploying Microsoft 365 Insider program for Business, see [Microsoft 365 Insider program for Business](/microsoft-365-apps/insider/deploy/options).
 
 ## Release option best practices
 
