@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 02/25/2026
+ms.date: 03/16/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -60,7 +60,7 @@ Choosing not to assign an add-in versus removing it might make sense if the add-
 
 To remove an add-in that you deployed and no longer need, follow these steps:
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
@@ -76,7 +76,7 @@ To remove an add-in that you deployed and no longer need, follow these steps:
 
 After you deploy an add-in, you can manage user access to the add-in. To manage user access to an add-in, follow these steps:
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
@@ -115,11 +115,11 @@ Support for enabling or disabling access to the Microsoft Marketplace starts in 
 
 To enable or disable access to the Microsoft Marketplace and downloading of add-ins, follow these steps:
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
-1. Under **Settings**, select [Org settings](https://admin.cloud.microsoft/?#/Settings/Services).
+1. Under **Settings**, select [Org settings](https://go.microsoft.com/fwlink/p/?linkid=2053743).
 
 1. In the **Org settings** page, make sure **Services** is selected, and then select **User owned apps and services**.
 
@@ -129,7 +129,7 @@ To enable or disable access to the Microsoft Marketplace and downloading of add-
 
     - Clear **Let users access the Office Store** to block users from accessing the Microsoft Marketplace and prevent users from downloading add-ins.
 
-    :::image type="content" source="../../media/user-owned-apps-and-services.png" alt-text="Screenshot of the user-owned apps and services settings for non-educational tenants in the Microsoft 365 admin center.":::
+    :::image type="content" source="../../media/user-owned-apps-and-services.png" alt-text="Screenshot of the user-owned apps and services settings for non-educational tenants in the Microsoft 365 admin center." lightbox="../../media/user-owned-apps-and-services.png":::
 
 1. Select **Save** after you choose the desired setting. If the setting is already in the desired state, select the **X** in the top-right corner to cancel.
 
@@ -160,7 +160,7 @@ Additional access options are available for educational tenants in the **User ow
 - An adult student.
 - A non-adult student.
 
-:::image type="content" source="../../media/user-owned-apps-and-services-edu.png" alt-text="Screenshot of the user-owned apps and services settings for educational tenants in the Microsoft 365 admin center.":::
+:::image type="content" source="../../media/user-owned-apps-and-services-edu.png" alt-text="Screenshot of the user-owned apps and services settings for educational tenants in the Microsoft 365 admin center." lightbox="../../media/user-owned-apps-and-services-edu.png":::
 
 The user's license information defines the type of user.
 
@@ -178,7 +178,7 @@ After you deploy an add-in, users interact with the add-in directly in their Off
 
 Some add-ins support commands that appear in the ribbon. For example, the **Citations** add-in shows the command **Search Citation** in the ribbon:
 
-:::image type="content" source="../../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png" alt-text="Screenshot of the Microsoft 365 ribbon showing the Search Citations add-in command.":::
+:::image type="content" source="../../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png" alt-text="Screenshot of the Microsoft 365 ribbon showing the Search Citations add-in command." lightbox="../../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png":::
 
 If an add-in doesn't support commands that appear in the ribbon, the user can view the add-in via **Manage your apps**. They can also view all add-ins that are deployed in the organization in **Manage your apps**.
 
