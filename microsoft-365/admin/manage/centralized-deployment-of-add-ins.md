@@ -215,10 +215,10 @@ Alternately, you can use the Microsoft Graph API to run queries to find the list
 
 If you or your users encounter problems loading the add-in while using centrally deployed Microsoft 365 apps for the web (Word, Excel, etc.), [contact Microsoft support](../../business-video/get-help-support.md). Provide the following information about your Microsoft 365 environment in the support ticket.
 
-|Platform|Debug information|
-|---|---|
-|Microsoft 365|Charles/Fiddler logs <br/> Tenant ID ([learn how](/onedrive/find-your-office-365-tenant-id)) <br/> CorrelationID. View the source of one of the Office pages and look for the Correlation ID value and send it to support:  <br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">` <br/> `<input name="user_id" type="hidden" value="1003bffd96933623"></form>`|
-|Rich clients (Windows, Mac)|Charles/Fiddler logs <br/> Build numbers of the client app (preferably as a screenshot from **File/Account**)|
+| **Platform**                | **Debug information** |
+| --------------------------- | --------------------- |
+| Microsoft 365               | <ul><li>Charles/Fiddler logs</li><li>Tenant ID ([learn how](/onedrive/find-your-office-365-tenant-id))</li><li>CorrelationID: View the source of one of the Office pages and look for the Correlation ID value and send it to support. For example:<br/>`<input name=" **wdCorrelationId**" type="hidden" value=" **{BC17079E-505F-3000-C177-26A8E27EB623}**">`<br/>`<input name="user_id" type="hidden" value="1003bffd96933623"></form>`</li></ul> |
+| Rich clients (Windows, Mac) | <ul><li>Charles/Fiddler logs</li><li>Build numbers of the client app (preferably as a screenshot from **File/Account**)</li></ul> |
 
 ## Related content
 
