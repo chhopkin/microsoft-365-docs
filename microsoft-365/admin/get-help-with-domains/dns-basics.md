@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: 03/18/2025
+ms.date: 02/02/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -81,9 +81,8 @@ DNS records stored at a DNS host for your domain are used to direct traffic for 
 |**CNAME (alias or canonical) record**|Redirects one domain to another in the DNS system. When a name server looks up a domain and finds that it has a CNAME record, the server replaces the first domain name with the CNAME, and then looks up the new name.   |
 |**MX (mail exchanger) record**|Points to where your email should be sent. It also has a priority field so that you can send mail to different servers in a priority order.   |
 |**SPF (sender policy framework) record**|A TXT record that helps prevent email spoofing and phishing.   |
-|**SRV (service) record**|Used by Skype for Business Online and Exchange Online to coordinate the flow of information between Microsoft services. For example, the SRV records are required to see presence in Outlook Web App, and to use Skype for Business Online, Skype, or other instant messaging tools with people in other companies.   |
 |**TTL (time-to-live)**|The amount of time that a nameserver keeps a DNS record before the server looks for an updated version.   |
-   
+
 ## How does DNS work?
 
 Part of setting up your domain with a cloud service like Microsoft 365 includes changing or adding [DNS records](dns-basics.md) for the domain. These changes are required because of how the Internet works with DNS (Domain Name System) and domain names, to know where to send or find things, like email and websites. 
@@ -137,19 +136,15 @@ Why might your domain's zone file be somewhere besides at your domain registrar?
 ::: moniker range="o365-worldwide"
 ## Why add a domain in Microsoft 365?
 
-Adding a custom domain, like fourthcoffee.com, to Microsoft 365 lets you use a shorter, more familiar email address and userID with the service. You're [given a domain to use](../setup/domains-faq.yml) when you sign up for a Microsoft 365 account, but it includes "onmicrosoft.com." Many people prefer to add their organization or business domain if they plan to use Microsoft 365 for email. 
-  
+Adding a custom domain, like fourthcoffee.com, to Microsoft 365 lets you use a shorter, more familiar email address and userID with the service. You're [given a domain to use](../setup/domains-faq.yml) when you sign up for a Microsoft 365 account, but it includes "onmicrosoft.com." Many people prefer to add their organization or business domain if they plan to use Microsoft 365 for email. Micrsoft recommends configuring a custom domain to use with their Microsoft 365 subscription.
+
 > [!NOTE]
 > If you just want to download and use Microsoft 365 productivity apps, like Outlook or Word, you don't need to add a domain: [Download and install or reinstall Microsoft 365 or Office 2021 on a PC or Mac](https://support.microsoft.com/office/4414eaaf-0478-48be-9c42-23adc4716658).
   
 You can use your domain name in Microsoft 365 with your email, public website, and instant messaging address.
   
-- **Email:** Your domain name lets you customize your email, so you can use a shorter, easier-to-remember address than [the initial onmicrosoft.com email address](../setup/domains-faq.yml) that comes with your account. So instead of joe@contoso.onmicrosoft.com, the email address (which is also the work account that you use to sign in to Microsoft 365) could be joe@contoso.com. 
-    
-- **Website:** If you have a Microsoft 365 subscription that includes a SharePoint Online Public Website (no longer available for purchase), your public website comes with an initial address like this: `contoso-public.sharepoint.com`. If you set up your website for your business, you can use a custom domain name to rename the website address to something like www.contoso.com. 
-    
-- **Instant messaging:** Your Skype for Business Online address can also be customized to use your domain name, so people in your organization can connect with each other on Skype for Business Online by using a shorter, easier-to-remember address (like joe@contoso.com). 
-    
+- **Email:** Your domain name lets you customize your email, so you can use a shorter, easier-to-remember address than [the initial onmicrosoft.com email address](../setup/domains-faq.yml) that comes with your account. So instead of joe@contoso.onmicrosoft.com, the email address (which is also the work account that you use to sign in to Microsoft 365) could be joe@contoso.com.
+
 ::: moniker-end
 
 ## DNS records required for Microsoft 365

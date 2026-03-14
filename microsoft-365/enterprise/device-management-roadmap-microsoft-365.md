@@ -47,7 +47,7 @@ To help you better assess which device management option is best for you, see [C
 
 Based on your assessment, get started managing your devices with:
 
-- [Intune](/microsoft-365/solutions/manage-devices-with-intune-overview)
+- [Intune](/previous-versions/microsoft-365/solutions/manage-devices-with-intune-overview)
 - [Basic Mobility and Security](https://support.microsoft.com/office/set-up-basic-mobility-and-security-dd892318-bc44-4eb1-af00-9db5430be3cd)
 
 ## Identity and device access recommendations

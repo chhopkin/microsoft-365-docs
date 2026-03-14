@@ -24,6 +24,8 @@ items:
       href: search/m365-archive-search-overview.md
     - name: FAQs
       href: archive-faq.md
+    - name: For developers
+      href: developer-guidance.md
 
 
 

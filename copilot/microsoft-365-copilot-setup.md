@@ -28,7 +28,7 @@ appliesto:
 
 As part of your [Microsoft 365 Copilot adoption](microsoft-365-copilot-enablement-resources.md), the next step is to enable security features, configure the update channel, and assign Copilot licenses to users. This article provides guidance for IT administrators on how to prepare your organization for Microsoft 365 Copilot. It covers foundational implementation and readiness activities, licensing, and steps to ensure a secure and compliant deployment.
 
-:::image type="content" source="media/microsoft-365-copilot-enablement-resources/adopt-copilot-setup-assign-license.svg" alt-text="Diagram that shows the setup and assign license step to adopt and enable Microsoft 365 Copilot." lightbox="media/microsoft-365-copilot-enablement-resources/adopt-copilot-setup-assign-license.svg":::
+:::image type="content" source="media/microsoft-365-copilot-enablement-resources/setup-m365-copilot-assign-licenses.png" alt-text="Diagram that shows the setup and assign license step to adopt and enable Microsoft 365 Copilot." lightbox="media/microsoft-365-copilot-enablement-resources/setup-m365-copilot-assign-licenses.png":::
 
 ## Prerequisites
 

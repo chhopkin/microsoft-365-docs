@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: 09/30/2024
+ms.date: 02/02/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -22,7 +22,7 @@ ms.custom:
 - AdminTemplateSet
 - admindeeplinkEXCHANGE
 - business_assist
-description: "Learn to convert a private mailbox to a shared mailbox that can be accessed by several people instead of by just one person."
+description: "Learn to convert a user mailbox to a shared mailbox that can be accessed by several people instead of by just one person."
 ---
 
 # Convert a user mailbox to a shared mailbox
@@ -49,7 +49,7 @@ When you convert a user's mailbox to a shared mailbox, all of the existing email
 
 - To put an In-Place Hold or a Litigation Hold on a shared mailbox, you must assign an Exchange Online Plan 2 license *or* an Exchange Online Plan 1 license and an Exchange Online Archiving add-on license to the shared mailbox.
 
-## Convert a private mailbox to a shared mailbox
+## Convert a user's mailbox to a shared mailbox
 
 1. In the admin center, go to the **Users** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">Active users</a> page.
 
@@ -69,13 +69,13 @@ After deleting a user account, follow these steps to convert their old mailbox t
 
 3. Reset the user's password.
 
-4. Wait 20-30 minutes for their mailbox to be re-created.
+4. It can take up to 24 hours for their mailbox to be re-created.
 
 5. Once the mailbox is re-created, remove the license from the user's mailbox. Don't delete the user's old mailbox. The shared mailbox needs it there as an anchor.
 
 6. Add members to the shared mailbox.
 
-## Convert a shared mailbox back to a user's (private) mailbox
+## Convert a shared mailbox back to a user's mailbox
 
 1. Go to the <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange admin center</a>.
 

@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: 06/04/2024
 audience: Admin
 ms.topic: how-to
-ms.service: microsoft-365-security
+ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 ms.collection:
 - Tier1

@@ -1,8 +1,8 @@
 ---
-ms.date: 01/26/2026
+ms.date: 03/04/2026
 ms.update-cycle: 180-days
 title: "Manage Copilot Pages and Copilot Notebooks in your organization"
-ms.reviewer: dancost, tonchan
+ms.reviewer: dancost
 ms.author: odocspr
 author: officedocspr5
 manager: jtremper
@@ -34,13 +34,15 @@ Copilot Pages (`.page` files) and Copilot Notebooks are stored in user-owned Sha
 | What you want to control | Where to configure | Default |
 | --- | --- | --- |
 | **Copilot Pages and Copilot Notebooks creation** | Cloud Policy: *Create and view Copilot Pages and Copilot Notebooks* | Enabled |
+| **Code previews in Copilot Chat and Copilot Pages** | Cloud Policy: *Code previews in Copilot Chat and Copilot Pages* | Enabled |
 
 > [!TIP]
-> **Common scenarios**
+> **Quick reference scenarios**
 >
 > - **Block Loop but allow Copilot Pages/Notebooks**: Disable Loop policies; leave *Create and view Copilot Pages and Copilot Notebooks* enabled
 > - **Block Copilot Pages/Notebooks but allow Loop**: Disable *Create and view Copilot Pages and Copilot Notebooks*; leave Loop policies enabled
 > - **Block everything**: Disable both policies
+> - **Block code previews only**: Disable *Enable code previews for AI-generated content in Microsoft 365 Copilot Chat and Copilot Pages*; leave *Create and view Copilot Pages and Copilot Notebooks* enabled
 
 ## Requirements
 
@@ -73,9 +75,10 @@ Existing items are also discoverable through search, Purview, and admins can exp
 
 ## Settings management in Cloud Policy
 
-Copilot Pages and Copilot Notebooks check the following [Cloud Policy](/deployoffice/admincenter/overview-cloud-policy) setting:
+Copilot Pages and Copilot Notebooks check the following [Cloud Policy](/deployoffice/admincenter/overview-cloud-policy) settings:
 
 - **Create and view Copilot Pages and Copilot Notebooks**
+- **Enable code previews for AI-generated content in Microsoft 365 Copilot Chat and Copilot Pages**
 
 1. Sign in to <https://config.office.com/> with your Microsoft 365 admin credentials.
 1. Select **Customization** from the left pane.
@@ -89,6 +92,10 @@ Copilot Pages and Copilot Notebooks check the following [Cloud Policy](/deployof
         - **Not configured**: Copilot Pages and Copilot Notebooks creation and integration are available to the users.
           >[!NOTE]
           >If your organization [disabled the creation of OneDrive](/sharepoint/manage-user-profiles#disable-onedrive-creation-for-some-users), regardless of the setting noted here, these people in your organization can't create Copilot Pages or Copilot Notebooks.
+    - For **Enable code previews for AI-generated content in Microsoft 365 Copilot Chat and Copilot Pages**
+        - **Enabled**: Users can view and interact with AI-generated code previews in Copilot Chat and Copilot Pages, including building [lightweight apps](https://support.microsoft.com/topic/fd42d9f3-258e-4bf9-8c5e-a73083a197cc).
+        - **Disabled**: Copilot doesn't run code previews in Copilot Chat or Copilot Pages.
+        - **Not configured**: Users can view and interact with AI-generated code previews in Copilot Chat and Copilot Pages, including building [lightweight apps](https://support.microsoft.com/topic/fd42d9f3-258e-4bf9-8c5e-a73083a197cc).
 1. Save the policy configuration.
 1. Reassign priority for any security group, if required. (If two or more policy configurations are applicable to the same set of users, the one with the higher priority is applied.)
 
@@ -107,6 +114,9 @@ In case you create a new policy configuration or change the configuration for an
 > In Cloud Policy, lower priority numbers are evaluated first. The priority numbering method described in the preceding steps ensures users in **Group A** have the policy **Enabled**, while all other users in **Group B** have it **Disabled**.
 
 ## Related articles
+
+- [Get started with Microsoft 365 Copilot Pages](https://support.microsoft.com/en-us/topic/get-started-with-microsoft-365-copilot-pages-6674bd51-9ff5-42c4-9256-44d9428a726f)
+- [Build lightweight apps within Microsoft 365 Copilot Pages](https://support.microsoft.com/en-us/topic/build-lightweight-apps-within-microsoft-365-copilot-pages-fd42d9f3-258e-4bf9-8c5e-a73083a197cc)
 
 - [Summary of compliance, lifecycle, governance](cpcn-compliance-summary.md)
 - [Requirements](cpcn-requirements.md)
