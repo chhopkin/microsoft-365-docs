@@ -62,8 +62,6 @@ The following table compares the release options available for Microsoft 365 fea
 | **Standard release** | Default GA rollout | Fully supported GA features | Features are supported, communicated through Message Center and release notes, and expected to remain available under standard lifecycle policies |
 | **Deferred release** | Delayed GA for additional preparation | Fully supported GA features (delayed) | Same functionality as Standard release, with timing delayed (up to \~30 days) to support governance and compliance readiness |
 
-
-
 ## Use the updated Message Center interface
 
 Enhance your organization’s ability to deliver timely, relevant, and actionable communications to users with our launch-focused release announcement hub. By integrating bullet-point summaries and supplemental resources into Message Center, you can deliver more applicable and accessible information to your users.

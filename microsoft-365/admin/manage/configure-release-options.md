@@ -42,7 +42,11 @@ For a comparison of the release options available for Microsoft 365 features, se
 
 ## How release validation works
 
-Any new release is first tested and validated by the feature team, then by the entire Microsoft 365 feature team, followed by all of Microsoft. After internal testing and validation, the next step is a Targeted release (formerly known as First release) to customers who opt-in. At each release ring, Microsoft collects feedback and further validates quality by monitoring key usage metrics. This series of progressive validation is in place to make sure the worldwide release is as robust as possible. The releases are pictured in the following figure.
+Any new release is first tested and validated by the feature team, then by the entire Microsoft 365 feature team, followed by all of Microsoft. After internal testing and validation, the next step is a Targeted release (formerly known as First release) to customers who opt-in. At each release ring, Microsoft collects feedback and further validates quality by monitoring key usage metrics. This series of progressive validation is in place to make sure the worldwide release is as robust as possible.
+
+The releases are pictured in the following figure.
+
+:::image type="content" source="../../media/release-validation-timeline.png" alt-text="Release validation rings for Microsoft 365":::
 
 For significant updates, customers are initially notified by the [Microsoft 365 Roadmap](https://products.office.com/business/office-365-roadmap). As an update gets closer to rolling out, it's communicated through your <a href="https://go.microsoft.com/fwlink/p/?linkid=2070717" target="_blank">Microsoft 365 Message center</a>.
 
@@ -66,7 +70,7 @@ In order to get early access to the latest AI innovations in Microsoft 365, you 
 
 ## Configure release options for in Microsoft 365 admin center
 
-Standard release is the default release option. To better manage your organization’s readiness and testing needs, you can change the default release selection at any time in the Microsoft 365 admin center using the following steps. It can take up to 24 hours for the following changes to take effect in Microsoft 365.
+Standard release is the default release option. To better manage your organization’s readiness and testing needs, you can change the default release selection at any time in the Microsoft 365 admin center. It can take up to 24 hours for the following changes to take effect in Microsoft 365.
 
 You can control three separate release settings in the Microsoft 365 admin center.
 
