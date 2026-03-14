@@ -2346,9 +2346,9 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "copilot/connect-to-ai-models.md",
-      "redirect_url": "/copilot/microsoft-365/connect-to-ai-subprocessor",
-      "redirect_document_id": true
+      "source_path": "microsoft-365/admin/misc/set-up-dns-records-vsb.md",
+      "redirect_url": "/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider",
+      "redirect_document_id": false
     }
   ]
 }

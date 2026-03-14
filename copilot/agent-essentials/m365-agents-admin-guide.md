@@ -4,7 +4,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 01/28/2026
+ms.date: 03/12/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -37,7 +37,7 @@ This guide:
 
 Organizations typically deploy a combination of Microsoft 365 Copilot Chat and Microsoft 365 Copilot. Before you get started, it's important to understand the differences between these two offerings when it comes to deploying and using agents.
 
-Microsoft 365 Copilot Chat is available at no additional cost for all Microsoft Entra account users with a Microsoft 365 or Office 365 subscription. Members of your organization can use agents that are available at no additional cost from the Agent Store. You, as the administrator of your organization, would also need to enable these agents. If your organization requires agents that incorporate your organization’s data, you can provide access to [agents](/copilot/agents) that are billed based on metered consumption. For more information about Microsoft 365 Copilot Chat, see [Minumum requirements and considerations for Microsoft 365 Copilot Chat admins](/copilot/microsoft-365/microsoft-365-copilot-chat-requirements).
+Microsoft 365 Copilot Chat is available at no additional cost for all Microsoft Entra account users with a Microsoft 365 or Office 365 subscription. Members of your organization can use agents that are available at no additional cost from the Agent Store. You, as the administrator of your organization, would also need to enable these agents. If your organization requires agents that incorporate your organization’s data, you can provide access to [agents](/copilot/agents) that are billed based on metered consumption. For more information about Microsoft 365 Copilot Chat, see [Minimum requirements and considerations for Microsoft 365 Copilot Chat admins](/copilot/microsoft-365/microsoft-365-copilot-chat-requirements).
 
 Microsoft 365 Copilot, which includes Microsoft 365 Copilot Chat, requires a Microsoft 365 [Business](https://www.microsoft.com/microsoft-365/business/with-copilot-plans-and-pricing) or [Enterprise](https://www.microsoft.com/microsoft-365/enterprise/microsoft365-plans-and-pricing) plan. It includes AI-powered chat grounded in both web-based and work-based data, as well as the capabilities of Microsoft 365 Copilot Chat. In addition, Microsoft 365 Copilot unlocks embedded Copilot features in Word, Excel, Outlook, and Teams. Additionally, your organization can use [custom agents](/microsoft-365-copilot/extensibility/overview-custom-engine-agent). For more information about deploying Microsoft 365 Copilot, including setting up a Microsoft 365 Copilot rollout plan, see [Minimum requirements to deploy Microsoft 365 Copilot in your organization](/copilot/microsoft-365/microsoft-365-copilot-minimum-requirements).
 
@@ -312,7 +312,7 @@ Whether an agent can be published to an organizational catalog depends on how th
 | Agent publishing method | Details |
 |---|---|
 | Publish Copilot agents from Copilot Studio | Members of your organization can create and [publish copilot agents](/microsoft-copilot-studio/microsoft-copilot-extend-copilot-extensions#publishing-a-copilot-agent) to your organization catalog. You, as the admin, will need to approve these requested agents in Copilot Control System before they're added to the organizational catalog. Members of your organization can find and install the Copilot agent in Microsoft Teams and the Microsoft Copilot app. |
-| Publish custom engine agents from Copilot Studio | Members of your organization can create and [publish custom engine agents](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams) to your organization catalog. You need to approve these requested agents in Copilot Control System before they're added to the organizational catalog. Members of your organization can find and install the custom engine agent in a variety of channels. These channels include Microsoft Teams, Microsoft 365 Copilot, Facebook, WhatsApp, and Twillow, and more. In addition, custom engine agents can be deployed as web and native apps. These agents can also be connected to customer engagement apps as well. |
+| Publish custom engine agents from Copilot Studio | Members of your organization can create and [publish custom engine agents](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams) to your organization catalog. You need to approve these requested agents in Copilot Control System before they're added to the organizational catalog. Members of your organization can find and install the custom engine agent in a variety of channels. These channels include Microsoft Teams, Microsoft 365 Copilot, Facebook, WhatsApp, and Twilio, and more. In addition, custom engine agents can be deployed as web and native apps. These agents can also be connected to customer engagement apps as well. |
 | Share agents created with Microsoft 365 Agents Toolkit | You can also share and collaborate with members of your organization from your development environment. For more information, see [Publish your Microsoft Teams app](/microsoftteams/platform/concepts/deploy-and-publish/apps-publish-overview). |
 
 > [!NOTE]
@@ -346,7 +346,7 @@ In Microsoft 365 admin center you can view your organization’s available agent
 Use the following steps to view your organization’s agent inventory:
 
 1. Open [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-2. Select **Copilot** > **Agents**.
+2. Select **Agents** > **All agents**.
 3. Filter your agent inventory:
     1. Next to **Filters**, select **Availability** > **All users**.
     Note the **Support in** column to recognize where the agent can be used by members of your organization.
@@ -385,7 +385,7 @@ Your Copilot agent ZIP file can be downloaded from Copilot Studio by selecting *
 To upload an agent as a ZIP packet file to the Microsoft 365 admin center:
 
 1. Open Copilot Control System in [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-2. Select **Copilot** > **Agents** > **Upload custom agent**.
+2. Select **Agents** > **All agents** > **Upload custom agent**.
 3. Select **Choose File** to find and select the agent ZIP file.
     The ZIP file is validated.
 4. Verify the agent’s name, icon, and host products. Then, select **Next**.
@@ -438,14 +438,14 @@ Agents are listed in the [Agent inventory](#agent-inventory). The Agent inventor
 To view details about an individual agent:
 
 1. Open the Copilot Control System within [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-2. Select **Copilot** > **Agents**.
+2. Select **Agents** > **All agents**.
     You’ll see the **Agent inventory** tab is selected.
    
     :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-inventory.png" alt-text="Screenshot of your agent inventory in Microsoft 365 admin center."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-inventory.png":::
 
 3. Select an agent from the list.
 4. Review the agent’s details, security, and compliance before to help determine whether an agent should be assigned to or available to users within your organization.
-    a. Select the **Details** tab to review the **Capabilities**, **Knowledge**, and **Actions**. 
+    a. Select the **Data & tools** tab to review the **Capabilities**, **Knowledge**, and **Actions**. 
     b. Select the **Security & compliance** tab to review the agent’s overall certification.
 
 ### Assign agents
@@ -465,7 +465,7 @@ There are two different actions that involve assigning agents to members of your
 To view details about an individual agent:
 
 1. Open the Copilot Control System within [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-2. Select **Copilot** > **Agents**.
+2. Select **Agents** > **All agents**.
     You’ll see the **Agent inventory** tab is selected.
 3. Select an agent from the list.
 4. Select the **Users** tab and select **Assign to**. 
@@ -492,7 +492,7 @@ By deploying an agent, you effectively install the agent on behalf of a user by 
 Use the following steps to deploy an individual agent:
 
 1. Open the Copilot Control System within Microsoft 365 admin center in your browser.
-2. Select **Copilot** > **Agents**.
+2. Select **Agents** > **All agents**.
     You'll see the **Agent inventory** tab is selected.
 3. Select an agent from the list.
 4. Select **Deploy**.
@@ -530,7 +530,7 @@ When an agent is submitted for admin approval, all metadata about an agent’s d
 Use the following steps to view pending agent requests and act on those requests:
 
 1. Open Copilot Control System in [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-2. Select **Copilot** > **Agents** > **Requested agents**.
+2. Select **Agents** > **All agents** > **Requests**.
 3. Select the requested agent and view the agent’s details.
     Confirm the capabilities, data sources, and custom actions that the agent can invoke.
 4. Next to the name of the agent, select the action to **Publish** or **Reject** the agent.
@@ -555,3 +555,4 @@ For more information, see the following resources:
 - [Microsoft 365 Copilot adoption guide](/copilot/microsoft-365/microsoft-365-copilot-enablement-resources)
 - [AI Adoption Score](/microsoft-365/admin/adoption/adoption-score)
 - [Microsoft 365 Copilot agent usage reports](/microsoft-365/admin/activity-reports/microsoft-365-copilot-agents)
+- [Microsoft 365 pay-as-you-go services - Overview and benefits](/microsoft-365/commerce/services/pay-as-you-go-overview)

@@ -51,7 +51,7 @@ To set up pay-as-you-go billing, you need to have this information:
 
 Once you have the information on this list, you're ready to begin. As a first step, you should link an Azure subscription in pay-as-you-go, if you haven't already done so. 
 
-**New Billing experience**: New customers onboarding to Microsoft 365 Backup will now use the new pay-as-you-go set up experience under the **Billing** node in Microsoft Admin Center. Follow the instructions on this page for <a href="/microsoft-365/services/update-pay-as-you-go-setup-billing-node" target="_blank">**Pay-as-you-go Setup**</a>, to set up pay-as-you-go for Microsoft 365 Backup. 
+**New Billing experience**: New customers onboarding to Microsoft 365 Backup will now use the new pay-as-you-go setup experience under the **Billing** node in Microsoft Admin Center. Follow the instructions on this page for <a href="/microsoft-365/commerce/services/pay-as-you-go-setup-billing-node" target="_blank">**Pay-as-you-go Setup**</a>, to set up pay-as-you-go for Microsoft 365 Backup.
 
 **Existing Microsoft 365 Backup customers** will continue to use the billing management experience under **Setup** option in Microsoft Admin Center. Existing customers can use the below steps to view or edit your existing billing setup.
 
@@ -63,7 +63,10 @@ Once you have the information on this list, you're ready to begin. As a first st
   
 5. To turn off Backup, go to **Settings** tab, click on **Backup** and toggle **Status** to Off. 
 
+**Multiple Billing Experience**
 
+Now you can connect multiple billing policies to Backup and segment backup costs into different Azure subscriptions. You can connect more than one billing policies to Microsoft 365 Backup in the **Billing Policies** tab in Pay-as-you-go page. This will be ideal for organizations that prefer to breakdown their cost to different Azure subscriptions. 
+If you prefer to manage Backup by departments, we recommend you enable <a href="/microsoft-365/backup/backup-billing?view=o365-worldwide" target="_blank">**Departmental Billing feature**</a>.
 
 
 ## 2. Create backup policies to protect your data

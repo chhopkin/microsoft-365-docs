@@ -34,7 +34,7 @@ appliesto:
 > [!TIP]
 > **This article is for small and medium sized businesses with up to 300 users**.
 >
-> If you're looking for information for enterprise organizations, see [Deploy ransomware protection for your Microsoft 365 organization](/microsoft-365/solutions/ransomware-protection-microsoft-365).
+> If you're looking for information for enterprise organizations, see [Deploy ransomware protection for your Microsoft 365 organization](/previous-versions/microsoft-365/solutions/ransomware-protection-microsoft-365).
 >
 > If you're a Microsoft partner, see [Resources for Microsoft partners working with small and medium-sized businesses](/defender-business/mdb-partners).
 

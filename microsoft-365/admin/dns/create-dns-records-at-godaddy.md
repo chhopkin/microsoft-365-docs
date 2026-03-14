@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: 03/18/2025
+ms.date: 02/20/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -69,8 +69,7 @@ Follow these steps to automatically verify and set up your GoDaddy domain with M
 
 After you add these records at GoDaddy, your domain will be set up to work with Microsoft services.
 
-> [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).
+[!INCLUDE [Domain propagation note](../../includes/global-administrator-note.md)]
 
 ### Add a TXT record for verification
 
@@ -102,13 +101,13 @@ Before you use your domain with Microsoft, we have to make sure that you own it.
    :::image type="content" source="../../media/dns-godaddy/godaddy-domains-TXTvalue.png" alt-text="Fill in the values from the table for the domain verification TXT record.":::
 
 6. Select **Save**.
-   
+
    Wait a few minutes before you continue, so that the record you just created can update across the Internet.
 
 Now that you've added the record at your domain registrar's site, you'll go back to Microsoft and request the record. When Microsoft finds the correct TXT record, your domain is verified.
-  
+
 To verify the record in Microsoft 365:
-  
+
 1. In the admin center, go to the **Settings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">**Domains**</a>.
 
 2. On the Domains page, select the domain that you're verifying, and select **Start setup**.
@@ -116,11 +115,10 @@ To verify the record in Microsoft 365:
    :::image type="content" source="../../media/dns-IONOS/IONOS-DomainConnects-2.png" alt-text=" Diagram showing Select Start setup.":::
 
 3. Select **Continue**.
-  
+
 4. On the **Verify domain** page, select **Verify**.
 
-> [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).
+[!INCLUDE [Domain propagation note](../../includes/global-administrator-note.md)]
 
 ### Add an MX record so email for your domain will come to Microsoft
 
@@ -248,11 +246,10 @@ Only select this option if your organization uses Microsoft Teams. Teams needs 4
 
 7. Add the other SRV record by performing steps 3-5 again.
 
-> [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).
+[!INCLUDE [Domain propagation note](../../includes/global-administrator-note.md)]
 
 ### Add the two required CNAME records for Microsoft Teams
-  
+
 1. To get started, go to your domains page at GoDaddy by using [this link](https://account.godaddy.com/products/?go_redirect=disabled).
 
    If you're prompted to log in, use your login credentials, select your login name in the upper right, and then select **My Products**.
@@ -275,14 +272,13 @@ Only select this option if your organization uses Microsoft Teams. Teams needs 4
    |CNAME|lyncdiscover|webdir.online.lync.com.  <br/> **This value MUST end with a period (.)**|1 Hour|
 
    :::image type="content" source="../../media/dns-godaddy/godaddy-domains-CNAME-values.png" alt-text="Fill in the values from the table for the CNAME records for Microsoft Teams.":::
-  
+
 6. Select **Save**.
-  
+
 7. Add the other CNAME record by performing steps 3-5 again.
 
-> [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).
-  
+[!INCLUDE [Domain propagation note](../../includes/global-administrator-note.md)]
+
 ## Advanced option: Intune and Mobile Device Management for Microsoft 365
 
 This service helps you secure and remotely manage mobile devices that connect to your domain. Mobile Device Management needs 2 CNAME records so that users can enroll devices to the service.
@@ -311,10 +307,9 @@ This service helps you secure and remotely manage mobile devices that connect to
    |CNAME|enterpriseenrollment|enterpriseenrollment-s.manage.microsoft.com.  <br/> **This value MUST end with a period (.)**|1 Hour|
 
    :::image type="content" source="../../media/dns-godaddy/godaddy-domains-CNAME-values.png" alt-text="Fill in the values from the table for the CNAME records for Mobile Device Management.":::
-  
+
 6. Select **Save**.
-  
+
 7. Add the other CNAME record by performing steps 3-5 again.
 
-> [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).
+[!INCLUDE [Domain propagation note](../../includes/global-administrator-note.md)]
