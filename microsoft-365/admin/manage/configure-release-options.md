@@ -95,10 +95,14 @@ If you want to use targeted release, we recommend that you only assign a small g
 
 1. Sign in to the Microsoft 365 admin center.
 1. In the left navigation, expand **Copilot** and select **Settings**.
-    :::image type="content" source="Screenshot of Copilot settings in Microsoft 365 admin center" source="../../media/copilot-settings-admin-center.png" alt-text="Screenshot of Copilot settings in Microsoft 365 admin center":::
+
+    :::image type="content" source="../../media/copilot-settings-admin-center.png" alt-text="Screenshot of Copilot settings in Microsoft 365 admin center":::
+
 1. Under the **All Settings** tab, select **Copilot release preferences: General Availability**.
 1. Choose either **Standard release for everyone** or **Deferred release for everyone**.
-    :::image type="content" source="Screenshot of standard release and deferred release options in Microsoft 365 admin center" source="../../media/release-preferences-general-availability.png" alt-text="Screenshot of standard release and deferred release options in Microsoft 365 admin center":::
+
+    :::image type="content" source="../../media/release-preferences-general-availability.png" alt-text="Screenshot of standard release and deferred release options in Microsoft 365 admin center":::
+
 1. Add any user exceptions.
     - If you want to only assign a specific user to deferred release, select **Standard release for everyone**, search for the user, and select their name.
     - If you want to only assign a specific user to standard release, select **Deferred release for everyone**, search for the user, and select their name.
@@ -122,7 +126,7 @@ We recommend that you use the release options in the following ways to balance e
 
 ## Related articles
 
-[Plan for modern change management in Microsoft 365](plan-for-modern-change-management.md)
+[Plan for change management in Microsoft 365](plan-for-change-management.md)
 
 [Set up the Standard or Targeted release options for Microsoft 365](release-options-in-office-365.md)
 

@@ -73,7 +73,7 @@ For more details on the updated layout and information on keeping track of chang
 
 ## Enable AI clients to retrieve product release information with MRC MCP server
 
-By integrating the MRC MCP Server with your AI tools, you can automate the retrieval of release information and generate tailored communications for your organization. For information on how to start using MRC MCP server, see [Get started with the Release Communications MCP Server](configure-mcr-mcp.md).
+By integrating the MRC MCP Server with your AI tools, you can automate the retrieval of release information and generate tailored communications for your organization. For information on how to start using MRC MCP server, see [Get started with Release Communications MCP Server](mrc-mcp.md).
 
 ## Related articles
 
@@ -81,4 +81,4 @@ By integrating the MRC MCP Server with your AI tools, you can automate the retri
 
 [Track new and changed features in the Microsoft 365 Message center](message-center.md)
 
-[Get started with the Microsoft Release Communications MCP Server](mcr-mcp.md)
+[Get started with the Microsoft Release Communications MCP Server](mrc-mcp.md)

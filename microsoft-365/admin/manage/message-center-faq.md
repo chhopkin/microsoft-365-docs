@@ -25,9 +25,11 @@ description: "Get answers to frequently asked questions about Microsoft 365 Mess
 
 # Frequently asked questions about Message center
 
+This article provides answers to frequently asked questions that IT admins might have about Message center in Microsoft 365. For more information about Message center, see [Plan for change management](plan-for-change-management.md) and [Track new and changed features in the Microsoft 365 Message center](message-center.md).
+
 ## Who can view posts in Message center?
 
-Most users assigned any admin role in Microsoft 365 can view Message center posts. [Here's a list](#admin-roles-that-dont-have-access-to-the-message-center) of admin roles that don't have access to the Message center. You can also assign the Message center reader role to users who should be able to read and share Message center posts without having any other admin privileges.
+Most users assigned any admin role in Microsoft 365 can view Message center posts. [Here's a list](message-center.md#admin-roles-that-dont-have-access-to-the-message-center) of admin roles that don't have access to the Message center. You can also assign the Message center reader role to users who should be able to read and share Message center posts without having any other admin privileges.
 
 ## Is Message center the only way Microsoft communicates changes about Microsoft 365?
 

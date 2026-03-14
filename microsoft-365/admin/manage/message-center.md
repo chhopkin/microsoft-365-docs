@@ -117,7 +117,7 @@ These three release statuses are updated on each applicable message over the lif
 
 Updates to feature release status are provided on the original Message center post. Filtering capability on **“Status for your org”** allows easier visibility on the updated release status.
 
-The release status is **ONLY** available for new and updated features that are also announced on Microsoft 365 Public Roadmap and that have general availability status (production ready). If you don't see release status on a message, it means the release status isn't available for that feature.
+The release status is only available for new and updated features that are also announced on Microsoft 365 Public Roadmap and that have general availability status (production ready). If you don't see release status on a message, it means the release status isn't available for that feature.
 
 ## Relevance recommendation
 
@@ -255,6 +255,8 @@ Here's a quick overview of the information in each column.
 
 ### Admin roles that don't have access to the Message center
 
+Most users assigned any admin role in Microsoft 365 can view Message center posts. You can also assign the Message center reader role to users who should be able to read and share Message center posts without having any other admin privileges.
+
 - Compliance administrator
 - Conditional access administrator
 - Customer Lockbox access approver
@@ -265,6 +267,8 @@ Here's a quick overview of the information in each column.
 - Intune service administrator
 - Privileged role administrator
 - Reports reader
+
+For more information about admin roles, see [About administrator roles in the Microsoft 365 admin center](/add-users/about-admin-roles).
 
 ## Give feedback on a post
 
@@ -349,7 +353,7 @@ If you'd like to program an alternative way to get real-time service health info
 
 [Frequently asked questions about Message center](message-center-faq.md)
 
-[Plan for modern change management in Microsoft 365](plan-for-modern-change-management.md)
+[Plan for change management in Microsoft 365](plan-for-change-management.md)
 
 [Set up the Standard or Targeted release options](../manage/release-options-in-office-365.md)
 

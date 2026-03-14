@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 02/12/2026
+ms.date: 03/14/2026
 audience: Admin
 ms.topic: install-set-up-deploy
 ms.service: microsoft-365-business
@@ -124,6 +124,6 @@ Discover how to [manage messages](/office365/admin/manage/message-center) in you
 
 [Configure Standard or Deferred release options for Microsoft 365 Copilot](configure-release-options.md)
 
-[Plan for modern change management in Microsoft 365](plan-for-modern-change-management.md)
+[Plan for change management in Microsoft 365](plan-for-modern-change-management.md)
 
 [Prepare for Microsoft 365 updates with Message center](message-center.md)

@@ -37,7 +37,7 @@ MRC MCP Server is a remote **[MCP](https://modelcontextprotocol.io/docs/getting-
 
 Instead of requiring developers to understand schemas and query APIs, this tool lets anyone ask questions in plain language to get precise, structured answers.
 
-**Use cases**
+With MRC MCP, you can do the following actions:
 
 - Enhance **AI clients** such as Visual Studio Code (VS Code), Visual Studio, GitHub Copilot CLI, Claude Code and other MCP‑compatible clients.
 - Enable IT admins, engineers, and technical users to query release and roadmap information directly from their AI client without relying on the websites.
@@ -141,7 +141,7 @@ Here are sample natural‑language queries that demonstrate how users can retrie
 
 ## Limitations
 
-The MRC MCP server contains publicly available documentation which is available on [Microsoft 365 Roadmap](../roadmap) and [Azure Updates](https://azure.microsoft.com/updates).
+The MRC MCP server contains publicly available documentation which is available on [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) and [Azure Updates](https://azure.microsoft.com/updates).
 The underlying product release information refreshes daily.
 
 ## Troubleshooting
@@ -154,7 +154,7 @@ In some cases, even tool-friendly models might not call MCP tools by default. Yo
 
 When an AI tool doesn't use the MCP tool when expected, configure specific system-level instructions for the tool, similar to the following text:
 
-```text
+```markdown
 You have access to MCP tools provided by the Release Communications MCP Server:
 - `get_recent_roadmaps`
 - `get_roadmap_by_id`
@@ -165,7 +165,7 @@ When handling questions about Microsoft 365 Roadmap features or Azure service up
 before responding. When handling questions about Microsoft 365 product roadmap timelines, upcoming feature releases, Azure service updates, or release status for specific products (Teams, Outlook, SharePoint, Excel, etc).
 ```
 
-**Best practices**
+Here are some general best practices:
 
 - Be explicit in your prompt (for example, mention *Azure Updates* or *Microsoft 365 Roadmap*). If the prompt is too generic or doesn't clearly relate to release or roadmap data, the your AI client might not invoke MCP tools.
 - Use a **system-level instruction** (if supported by your AI client) to encourage tool usage.
