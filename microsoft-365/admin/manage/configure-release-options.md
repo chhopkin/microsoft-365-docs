@@ -73,7 +73,7 @@ You can control three separate release settings in the Microsoft 365 admin cente
 ### Targeted release
 
 > [!IMPORTANT]
-> Large or complex updates might take longer than others so that no users are adversely affected. There is no guarantee on the exact timeline of a release. Targeted release is available for customers with either the Office 365 GCC plan or the Office 365 GCC High plan and DoD plan for the following services: new Outlook, OneDrive, SharePoint in Microsoft 365, Microsoft 365 for web, Microsoft 365 admin center, and some components of Exchange Online.
+> Large or complex updates might take longer than others so that no users are adversely affected. There is no guarantee on the exact timeline of a release. Targeted release is available for GCC, GCC High, and DoD cloud environments for the following services: new Outlook, OneDrive, SharePoint in Microsoft 365, Microsoft 365 for web, Microsoft 365 admin center, and some components of Exchange Online.
 
 If you want to use targeted release, we recommend that you only assign a small group of users to Targeted release to test and validate instead of whole tenants.
 
@@ -87,7 +87,7 @@ If you want to use targeted release, we recommend that you only assign a small g
 ### Deferred release
 
 >[!NOTE]
-> Currently, the Deferred release option only supports Microsoft 365 Copilot-related features. For information on which features are Deferred-capable, check Message Center posts. This documentation will be updated as more features are supported.
+> Currently, Deferred release option only supports Microsoft 365 Copilot-related features. For information on which features are Deferred-capable, check Message Center posts. This documentation will be updated as more features are supported.
 
 1. Sign in to the Microsoft 365 admin center.
 1. In the left navigation, expand **Copilot** and select **Settings**.

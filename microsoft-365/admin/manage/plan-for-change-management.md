@@ -29,10 +29,8 @@ Microsoft 365 is changing faster and more continuously than ever, especially as 
 
 This modern change management model for Microsoft 365 helps your Frontier Firm stay on top of major updates in the following ways:
 
-- Manage how your organization experiences major feature updates  
-- Control feature delivery by using audience-based release phases aligned to your organization’s workflows
-- Set up general availability release channels in the Microsoft 365 admin center based on your organizational readiness for new features with Standard or Deferred release options
-- Opt into the release of new major features for testing before releasing to the rest of your organization
+- Manage how your organization experiences major feature updates with audience-based release phases aligned to your organization’s workflows
+  - Opt into the release of new major features for testing and validation before releasing to the rest of your organization
 - Easily understand feature updates with new Message center enhancements, such as:
   - Feature update announcements at the time of availability
   - Bullet point summaries that present key information in a clear, scannable format
@@ -40,6 +38,7 @@ This modern change management model for Microsoft 365 helps your Frontier Firm s
   - Purpose-specific post structure to explain impact and actions to take (including for compliance)
 - Connect AI tools to the Microsoft Release Communications MCP Server to instantly access trusted, up-to-date Microsoft 365 and Azure feature release information using natural language
 - Use AI‑powered access to Message center and Service Health insights to streamline identification of changes and issues and help teams act with clearer context
+- Track upcoming changes with the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap) to understand planned features and expected timing
 
 ## Customize your organization’s release experience for Microsoft 365
 
@@ -62,6 +61,8 @@ The following table compares the release options available for Microsoft 365 fea
 | **Targeted release** | Validation before broad rollout | Pre‑GA validation | Not all features are guaranteed to reach GA; functionality may still evolve; intended for readiness and validation, not reliance on fully supported GA features |
 | **Standard release** | Default GA rollout | Fully supported GA features | Features are supported, communicated through Message Center and release notes, and expected to remain available under standard lifecycle policies |
 | **Deferred release** | Delayed GA for additional preparation | Fully supported GA features (delayed) | Same functionality as Standard release, with timing delayed (up to \~30 days) to support governance and compliance readiness |
+
+
 
 ## Use the updated Message Center interface
 

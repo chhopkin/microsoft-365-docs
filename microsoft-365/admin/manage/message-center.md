@@ -100,50 +100,10 @@ This section identifies any implications for data handling and governance and in
 - Admin control availability and Microsoft Entra ID integration
 - Whether users can self-manage the feature
 
-## Frequently asked questions
-
-### Who can view posts in Message center?
-
-Most users assigned any admin role in Microsoft 365 can view Message center posts. [Here's a list](#admin-roles-that-dont-have-access-to-the-message-center) of admin roles that don't have access to the Message center. You can also assign the Message center reader role to users who should be able to read and share Message center posts without having any other admin privileges.
-
-### Is Message center the only way Microsoft communicates changes about Microsoft 365?
-
-No, but Message center is the primary way we communicate the timing of individual changes in Microsoft 365. For more information, see [Stay on top of Microsoft 365 changes](stay-on-top-of-updates.md).
-
-### How can I see Message center posts in my language?
-
-Message center posts are written in English. You can control whether, by default, posts are shown in English or are automatically machine-translated to your preferred language. You can also select to machine-translate posts to any language we support. For more information, see [Language translation for Message center posts](language-translation-for-message-center-posts.md).
-
-### Can I preview changes or features before they're rolled-out to my organization?
-
-Some changes and new features can be previewed by opting in to the Targeted release program. To opt in, from the Microsoft admin center, go to **Settings** > **Org settings** > **Organization profile** > **Release preferences**. You might need to select **Show all** at the bottom of the left navigation pane in Microsoft admin center to see **Settings**. You can choose Targeted release for your entire organization, or just for selected users. For more information about Targeted release, see [Standard or Targeted release options in Microsoft 365](release-options-in-office-365.md).
-
-### VERIFY IF STILL ACCURATE - Can I find out the exact date a change is available in my organization?
-
-Unfortunately, we can't tell you the exact date a change is made to your organization. In our Message center post, we give as much information as we can on the timing of the release, based on our confidence level. We're working on improvements to get better with that level of detail.
-
-### Are these messages specific to my organization?
-
-We do our best to make sure that you only see Message center posts that affect your organization. The Microsoft 365 Roadmap includes all of the features we're currently working on and rolling out, but not all of these features apply to every organization.
-
-### Can I get message center posts emailed instead?
-
-Yes, you can select to have a weekly digest emailed to you and up to two other email addresses. The emailed weekly digest is turned on by default. If you aren't getting your weekly digests, check your spam folder. For more information on how to set up the weekly digest, see the [Preferences](#preferences) section of this article.
-
-### How do I stop getting the Message center digest?
-
-1. Go to Message center in the Microsoft admin center and select **Preferences**.
-1. In the **Email** tab, turn off the option to **Send me email notifications from message center**.
-
-### How can I ensure data privacy notifications are received by the right contacts in my organization?
-
-As a global admin, you receive data privacy messages for your organization. Additionally, you can assign the Message Center Privacy reader role to people who should see data privacy messages. Other admin roles with access to Message Center can't view data privacy messages. For more information, see [Preferences](#preferences) in this article.
-
-### Why can’t I see a message that was previously in Message center?
-
-To manage the number of messages within Message center, each message expires and is removed after a period of time. Generally, messages expire 30 days after the time period outlined in the message body.
-
 ## Feature release status for your organization in Message Center
+
+> [!NOTE]
+> The release status is only available for limited Microsoft Teams feature announcements.
 
 For each new and updated feature announcement in Message center, the **Status for your org** field provides a release status to help you track when a feature is available in your tenant.
 
@@ -158,9 +118,6 @@ These three release statuses are updated on each applicable message over the lif
 Updates to feature release status are provided on the original Message center post. Filtering capability on **“Status for your org”** allows easier visibility on the updated release status.
 
 The release status is **ONLY** available for new and updated features that are also announced on Microsoft 365 Public Roadmap and that have general availability status (production ready). If you don't see release status on a message, it means the release status isn't available for that feature.
-
-> [!NOTE]
-> The release status will initially be available for a limited number of Microsoft Teams, Outlook on the web and Microsoft 365 admin center feature announcements.
 
 ## Relevance recommendation
 
@@ -263,7 +220,7 @@ We use machine translation to automatically display messages in your preferred l
 > [!NOTE]
 > The weekly digest and any posts that are emailed are sent in English-only. Recipients can use [Translator for Outlook](https://support.microsoft.com/office/3d7e12ed-99d6-406e-a453-b9db0d9653fa) to read the message in their preferred language.
 
-## VERIFY NOTE - Service & monthly active users
+## Service & monthly active users
 
 When you open a message center post, we'll tell you the number of users who have been using that Microsoft 365 app or service in the **Service & monthly active users** section. The numbers are for the last 28 days. This info can help you prioritize which changes you should work on.
 
