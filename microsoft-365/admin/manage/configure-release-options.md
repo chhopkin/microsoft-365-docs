@@ -122,7 +122,12 @@ For more information about deploying Microsoft 365 Insider program for Business,
 
 We recommend that you use the release options in the following ways to balance early access with risk management:
 
-- Only put specific users in Targeted release
+- Only assign specific users in targeted release.
+- If you need to test a feature in targeted release with a larger group of users (or a tenant), consider using a test tenant instead of putting your entire organization in targeted release.
+- Use deferred release for features that are deferred-capable when you need extra time to do security reviews and compliance checks before releasing to your organization.
+- Plan release phases around user impact and readiness, not individual feature controls, to help manage risk and set clear expectations for users.
+- Align your release configuration with your change management and support readiness, including documentation, training, and help desk preparation.
+- Review and adjust audience assignments over time as your organization’s readiness and change tolerance evolve.
 
 ## Related articles
 
