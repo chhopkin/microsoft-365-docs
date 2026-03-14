@@ -34,7 +34,7 @@ appliesto:
 - Microsoft 365 admin center
 ---
 
-# Set up the Standard or Targeted release options for Microsoft 365
+# SET UP REDIRECT TO CONFIGURE - Set up the Standard or Targeted release options for Microsoft 365
 
 > [!IMPORTANT]
 > The Microsoft 365 updates described in this article apply to new Outlook, OneDrive, SharePoint in Microsoft 365, Microsoft 365 for the web, Microsoft 365 admin center, some components of Exchange Online and Microsoft Teams. These release options are targeted, best effort ways to release changes to Microsoft 365 but can't be guaranteed at all times or for all updates. They don't currently apply to services other than those listed previously. For information about release options for Microsoft 365 Apps, see [Overview of update channels for Microsoft 365 Apps](/deployoffice/overview-update-channels).
@@ -124,6 +124,6 @@ Discover how to [manage messages](/office365/admin/manage/message-center) in you
 
 [Configure Standard or Deferred release options for Microsoft 365 Copilot](configure-release-options.md)
 
-[Plan for change management in Microsoft 365](plan-for-modern-change-management.md)
+[Plan for change management in Microsoft 365](plan-for-change-management.md)
 
 [Prepare for Microsoft 365 updates with Message center](message-center.md)
