@@ -42,15 +42,15 @@ For a comparison of the release options available for Microsoft 365 features, se
 
 ## How release validation works
 
-Any new release is first tested and validated by the feature team, then by the entire Microsoft 365 feature team, followed by all of Microsoft. After internal testing and validation, the next step is a Targeted release (formerly known as First release) to customers who opt-in. After internal testing and validation, if you opt in users to the targeted release audience, they can get early access to new features before they’re released broadly to all customers.
+The feature team validates each new release first, followed by the Microsoft 365 feature team and then Microsoft. After internal testing and validation, the next step is a Targeted release (formerly known as First release) to customers who opt in. After internal testing and validation, if you opt in users to the targeted release audience, they can get early access to new features before they’re released broadly to all customers.
 
 At each release ring, Microsoft collects feedback and further validates quality by monitoring key usage metrics. This series of progressive validation is in place to make sure the worldwide release is as robust as possible.
 
-The releases are pictured in the following figure.
+The release audiences are pictured in the following figure.
 
-:::image type="content" source="../../media/release-validation-timeline.png" alt-text="Release validation rings for Microsoft 365":::
+:::image type="content" source="../../media/release-audience-timeline.png" alt-text="Release validation rings for Microsoft 365":::
 
-For significant updates, customers are initially notified by the [Microsoft 365 Roadmap](https://products.office.com/business/office-365-roadmap). As an update gets closer to rolling out, it's communicated through your <a href="https://go.microsoft.com/fwlink/p/?linkid=2070717" target="_blank">Microsoft 365 Message center</a>.
+For significant updates, Microsoft first notifies customers through the [Microsoft 365 Roadmap](https://products.office.com/business/office-365-roadmap). As an update approaches rollout, Microsoft notifies you through the <a href="https://go.microsoft.com/fwlink/p/?linkid=2070717" target="_blank">Microsoft 365 Message center</a>.
 
 > [!NOTE]
 > You need a Microsoft 365 or Microsoft Entra account to access your Message center through the [Microsoft admin center](../admin-overview/admin-center-overview.md). Microsoft 365 home plan users don't have an admin center.
@@ -67,7 +67,7 @@ You must have one of the following roles in Microsoft 365 admin center to config
 In order to get early access to the latest AI innovations in Microsoft 365, you can join the Frontier program. You must have a Microsoft 365 Copilot license to use Microsoft Agent 365 and other AI features in Microsoft 365 that are part of the Frontier program. For more information about the Frontier program, see [Frontier: Try what's next in AI](https://adoption.microsoft.com/copilot/frontier-program/).
 
 > [!IMPORTANT]
-> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
+> Microsoft recommends that you use roles with the fewest permissions to improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 >For more information about administrator roles, see [About administrator roles in the Microsoft 365 admin center](../add-users/about-admin-roles.md).
 
 ## Configure release options for in Microsoft 365 admin center
@@ -79,7 +79,7 @@ You can assign users to release audiences in the Microsoft 365 admin center.
 ### Targeted release
 
 > [!IMPORTANT]
-> Large or complex updates might take longer than others so that no users are adversely affected. There is no guarantee on the exact timeline of a release. Targeted release is available for GCC, GCC High, and DoD cloud environments for the following services: new Outlook, OneDrive, SharePoint in Microsoft 365, Microsoft 365 for web, Microsoft 365 admin center, and some components of Exchange Online.
+> Large or complex updates might take longer than others so that no users are adversely affected. There's no guarantee on the exact timeline of a release. Targeted release is available for GCC, GCC High, and DoD cloud environments for the following services: new Outlook, OneDrive, SharePoint in Microsoft 365, Microsoft 365 for web, Microsoft 365 admin center, and some components of Exchange Online.
 
 To assign users to the Targeted release audience, follow these steps:
 
@@ -90,7 +90,8 @@ To assign users to the Targeted release audience, follow these steps:
 1. Choose **Select users** to add users one at a time, or **Upload users** to add them in bulk.
 1. When you're done adding users, select **Save**.
 
-If you switch from targeted release back to standard release track, your users might lose access to features that haven't reached standard release yet.
+If you move users from targeted release to standard release, they might lose access to features that aren't available yet in standard release.
+
 
 ### Deferred release
 
@@ -114,7 +115,7 @@ To assign users to the Deferred release audience, follow these steps:
     - If you want to only assign a specific user to standard release, select **Deferred release for everyone**, search for the user, and select their name.
 1. Select **Save**.
 
-If you switch users from deferred release back to standard release, these users might lose access to features that haven't reached standard release yet.
+If you move users from standard release to deferred release, they might lose access to features that aren't available yet in standard release.
 
 ## Frontier program
 
@@ -122,7 +123,7 @@ The Frontier program offers early access to select AI and Microsoft 365 Copilot 
 
 For more information about the Frontier program, see [Frontier: Try what's next in AI](https://adoption.microsoft.com/copilot/frontier-program/).
 
-For more information about deploying Microsoft 365 Insider program for Business, see [Microsoft 365 Insider program for Business](/insider/deploy/options).
+For more information about deploying Microsoft 365 Insider program for Business, see [Microsoft 365 Insider program for Business](../insider/deploy/options).
 
 ## Release option best practices
 
@@ -130,7 +131,7 @@ We recommend that you use the release options in the following ways to balance e
 
 - Only assign specific users in targeted release.
 - If you need to test a feature in targeted release with a larger group of users (or a tenant), consider using a test tenant instead of putting your entire organization in targeted release.
-- Leave most users in standard release and IT Pros and power users in targeted release to evaluate new features before they're broadly rolled out. Targeted release users can then prepare user notifications, documentation, and the internal help desk before updates are released worldwide.
+- Keep most users in standard release and assign IT pros and power users to targeted release to evaluate new features ahead of broader rollout. Targeted release users can then prepare user notifications, documentation, and the internal help desk before updates are released worldwide.
 - If you only want to configure release audiences to access broadly available and fully supported features, assign most users in deferred release and put IT Pros and power users in standard release to evaluate new features for privacy and compliance and to prepare teams to support users.
 - Use deferred release for features that are deferred-capable when you need extra time to do security reviews and compliance checks before releasing to your organization.
 - Plan release phases around user impact and readiness, not individual feature controls, to help manage risk and set clear expectations for users.
