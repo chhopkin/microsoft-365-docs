@@ -1,8 +1,8 @@
 ---
 title: An introduction to Employee Self-Service
 f1.keywords: NOCSH
-ms.author: jatonew
-author: MicrosoftJatone
+ms.author: jatonewilson
+author: jatonew
 manager: swatigulati
 ms.reviewer: semani
 ms.date: 11/12/2025
