@@ -1,10 +1,10 @@
 ---
-title: "Microsoft 365 admin center Teams user activity reports"
+title: Microsoft 365 admin center Teams user activity reports
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
 ms.reviewer: hlu
-ms.date: 08/21/2023
+ms.date: 03/12/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -22,7 +22,7 @@ search.appverid:
 - MST160
 - MET150
 - MOE150
-description: "Learn how to get the Microsoft Teams user activity report and gain insights into the Teams activity in your organization."
+description: Learn how to get the Microsoft Teams user activity report and gain insights into the Teams activity in your organization.
 ---
 
 # Microsoft 365 Reports in the admin center - Microsoft Teams user activity
@@ -31,17 +31,21 @@ The Microsoft 365 Reports dashboard shows you the activity overview across the p
 
 ## How to get to the Microsoft Teams user activity report
 
-1. In the admin center, go to the **Reports**, then select **Usage**.
+1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
 
-2. From the dashboard homepage, select the **View more** button on the Microsoft Teams activity card.
+1. From the left navigation bar, select **… Show all**, and then select **Reports** to expand it.
+
+1. Under **Reports**, select [**Usage**](https://admin.cloud.microsoft/?#/reportsUsage).
+
+1. From the **Usage** dashboard, select **Microsoft Teams** in the left navigation, and then make sure the **User activity** tab is selected.
 
 ## Interpret the Microsoft Teams user activity report
 
 You can view the user activity in the Teams report by choosing the **User activity** tab.
 
-![Microsoft 365 reports - Microsoft Teams user activity.](../../media/user-activity-charts.png)
+:::image type="content" source="../../media/user-activity-charts.png" alt-text="Screenshot of Microsoft 365 reports - Microsoft Teams user activity.":::
 
-Select **Choose columns** to add or remove columns from the report.  
+Select **Choose columns** to add or remove columns from the report.
 
 :::image type="content" alt-text="Teams user activity report - choose columns." source="../../media/user-activity-columns.png":::
 
@@ -54,7 +58,7 @@ To ensure data quality, we perform daily data validation checks for the past thr
 |Metric|Mapped metric in Export|Definition|
 |:-----|:-----|:-----|
 |User name|User Principal Name|The email address of the user. You can display the actual email address or make this field anonymous.|
-|Tenant name|Tenant Display Name|The name of an internal or external tenant where a user belongs.<br/><br/>If a user belongs to an external tenant, corresponding data metrics like post messages or reply messages, are calculated based on their interactions in shared channels of the admin’s tenant. Interactions done by the user in their own tenant (outside of shared channels of the given tenant) aren't considered for the admin usage report of given tenant.|
+|Tenant name|Tenant Display Name|The name of an internal or external tenant where a user belongs.<br/><br/>If a user belongs to an external tenant, corresponding data metrics like post messages or reply messages, are calculated based on their interactions in shared channels of the admin's tenant. Interactions done by the user in their own tenant (outside of shared channels of the given tenant) aren't considered for the admin usage report of given tenant.|
 |Is external|Is External|Indicates if the user is an external user or not.|
 |Shared channel tenant names|Shared Channel Tenant Display Names|The names of internal or external tenants of shared channels where the user participated.|
 |Channel messages| Team Chat Message Count|The number of unique messages that the user posted in a team chat during the specified time period. This count includes original posts and replies.|
@@ -95,12 +99,11 @@ To make the data in Teams user activity report anonymous, you have to be a globa
 
 1. In Microsoft 365 admin center, go to the **Settings** > **Org Settings**, and under **Services** tab, choose **Reports**.
 
-2. Select **Reports**, and then choose to **Display anonymous identifiers**. This setting gets applied both to the usage reports in Microsoft 365 admin center and Teams admin center.
+1. Select **Reports**, and then choose to **Display anonymous identifiers**. This setting gets applied both to the usage reports in Microsoft 365 admin center and Teams admin center.
 
-3. Select **Save changes**.
+1. Select **Save changes**.
 
 ## Related content
 
-[Microsoft Teams device usage report](../activity-reports/microsoft-teams-device-usage-preview.md)
-
-[Microsoft Teams usage activity report](../activity-reports/microsoft-teams-usage-activity.md)
+- [Microsoft Teams device usage report](../activity-reports/microsoft-teams-device-usage-preview.md).
+- [Microsoft Teams usage activity report](../activity-reports/microsoft-teams-usage-activity.md).
