@@ -19,6 +19,8 @@ appliesto:
 
 # Employee Self-Service
 
+As part of our GA release, access is being rolled out in waves—starting with managed customers and expanding to all customers over time. If you’d like to explore access sooner, please reach out to your Microsoft account team. If you don’t currently have an account team, keep an eye on this blog post for updates on when the Employee Self-Service Agent will be available to all customers in Copilot Studio: https://aka.ms/ess/gablog
+
 The Employee Self-Service agent is designed as a unified, customer-facing, AI-powered interface for handling employee requests and automating routine tasks within enterprise environments. The Employee Self-Service agent, built on Copilot Studio, is intended to be customized by you. Once you customize it for your organization's needs, the Employee Self-Service agent streamlines access to HR, IT, and operational systems, reducing manual intervention and improving process efficiency.
 
 ## Technical Architecture
