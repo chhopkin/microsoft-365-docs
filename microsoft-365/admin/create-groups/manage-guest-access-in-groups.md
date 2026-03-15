@@ -44,8 +44,8 @@ Once approved, the guest is added to the directory and the group.
 
 Guest access in groups is often used as part of a broader scenario that includes SharePoint or Teams. These services have their own guest sharing settings. For complete instructions for setting up guest sharing across groups, SharePoint, and Teams, see:
 
-- [Collaborate with guests in a site](/previous-versions/microsoft-365/solutions/collaborate-in-site.md)
-- [Collaborate with guests in a team](/previous-versions/microsoft-365/solutions/collaborate-as-team.md)
+- [Collaborate with guests in a site](/previous-versions/microsoft-365/solutions/collaborate-in-site)
+- [Collaborate with guests in a team](/previous-versions/microsoft-365/solutions/collaborate-as-team)
 
 ## Manage groups guest access
 
