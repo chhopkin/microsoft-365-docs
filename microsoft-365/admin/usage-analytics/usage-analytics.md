@@ -1,11 +1,11 @@
 ---
-title: Microsoft 365 Usage Analytics Overview
+title: Microsoft 365 usage analytics overview
 f1.keywords:
 - NOCSH
 ms.author: efrene
 author: efrene
 manager: scotv
-ms.date: 03/12/2026
+ms.date: 03/13/2026
 audience: Admin
 ms.topic: concept-article
 ms.service: microsoft-365-business
@@ -44,7 +44,6 @@ You can access detailed reports for each area by selecting the data tables. You 
 - [Navigating and utilizing the reports](navigate-and-utilize-reports.md).
 - [Customizing the reports](customize-reports.md).
 
-
 ## Data availability
 
 - Most reports show the last 12 months of data.
@@ -57,7 +56,7 @@ The executive summary is a high-level, at-a-glance view of Microsoft 365 for Bus
 
 This summary lets you quickly understand usage patterns in Microsoft 365 and how and where your users are collaborating.
 
-:::image type="content" source="../../media/office365usage-exec-summary.png" alt-text="Screenshot of the Microsoft 365 usage analytics executive summary dashboard showing adoption, usage, mobility, communication, collaboration, and storage metrics.":::
+:::image type="content" source="../../media/office365usage-exec-summary.png" alt-text="Screenshot of the Microsoft 365 usage analytics executive summary dashboard showing adoption, usage, mobility, communication, collaboration, and storage metrics." lightbox="../../media/office365usage-exec-summary.png":::
 
 ## Microsoft 365 reports overview
 

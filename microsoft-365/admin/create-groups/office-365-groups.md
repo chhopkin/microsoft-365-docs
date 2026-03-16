@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365 Groups Overview for Administrators
+title: Microsoft 365 Groups overview for administrators
 ms.reviewer: rahulnayak
-ms.date: 02/25/2026
+ms.date: 03/16/2026
 f1.keywords: NOCSH
 ms.author: deniseb
 author: denisebmsft
@@ -81,7 +81,7 @@ Groups have the following roles:
 
 - **Guests** - External users who are invited to participate in the group.
 
-User admins and groups admins can create and manage groups in the [Microsoft 365 admin center](https://admin.cloud.microsoft/). Delegated administrators, such as consultants acting on behalf of an organization, can't create or manage Microsoft 365 Groups.
+User admins and groups admins can create and manage groups in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339). Delegated administrators, such as consultants acting on behalf of an organization, can't create or manage Microsoft 365 Groups.
 
 As an administrator, you can:
 
@@ -109,16 +109,16 @@ If you have many users, such as in a large corporation or enterprise, you might 
 
 The following limits apply to Microsoft 365 Groups:
 
-| Maximum...                                 | Value |
-| :---------------------------------------   | :---- |
-| Owners per group                           | 100   |
-| Groups a user can create                   | 250   |
-| Groups an admin can create                 | There are no Microsoft 365 group specific limits. There's an overall Microsoft Entra object limit specific to each organization. A Microsoft Entra admin who can manage groups in the organization can create an unlimited number of Microsoft 365 groups up to the Microsoft Entra object limit. See [Microsoft Entra service limits and restrictions](/azure/active-directory/enterprise-users/directory-service-limits-restrictions). |
-| Number of members                          | More than 1,000. Only 1,000 members can access group conversations concurrently. Users might experience delays in Outlook for large groups. |
-| Number of groups a user can be an owner of | 7,000 |
-| Number of groups a user can be a member of | 7,000 |
-| File storage                               | 1 TB + 10 GB per subscribed user, plus any additional storage purchased. You can purchase an unlimited amount of extra storage. |
-| Group Mailbox size                         | 50 GB |
+| **Maximum...**                                 | **Value** |
+| ---------------------------------------------- | --------- |
+| **Owners per group**                           | 100       |
+| **Groups a user can create**                   | 250       |
+| **Groups an admin can create**                 | There are no Microsoft 365 group specific limits. There's an overall Microsoft Entra object limit specific to each organization. A Microsoft Entra admin who can manage groups in the organization can create an unlimited number of Microsoft 365 groups up to the Microsoft Entra object limit. See [Microsoft Entra service limits and restrictions](/azure/active-directory/enterprise-users/directory-service-limits-restrictions). |
+| **Number of members**                          | More than 1,000. Only 1,000 members can access group conversations concurrently. Users might experience delays in Outlook for large groups. |
+| **Number of groups a user can be an owner of** | 7,000     |
+| **Number of groups a user can be a member of** | 7,000     |
+| **File storage**                               | 1 TB + 10 GB per subscribed user, plus any additional storage purchased. You can purchase an unlimited amount of extra storage. |
+| **Group Mailbox size**                         | 50 GB     |
 
 Managing your Microsoft 365 groups is more effective when you have actionable information about group usage. The Microsoft 365 admin center has a reporting tool that lets you see storage use, how many active groups you have, and how users are using the groups. For more information, see [Microsoft 365 Reports in the admin center](../activity-reports/office-365-groups.md).
 
