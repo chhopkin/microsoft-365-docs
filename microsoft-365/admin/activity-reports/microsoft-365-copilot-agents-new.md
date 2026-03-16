@@ -44,7 +44,7 @@ You can view usage within an hour from when users interact with agents, and the 
 
 ## Interpret the Agent Usage report
 
-You can use this report to see the usage of Microsoft 365 Copilot agents in your organization built by your organization, Microsoft, Microsoft Partners. These agents include agents approved by an admin and agents created via agent builder and shared with users in your org. Admins can manage agents in the same way as they manage any other app in the Copilot Control system section of the Microsoft 365 admin center. Learn more in [Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).  
+You can use this report to see the usage of agents in your organization built by your organization, Microsoft, Microsoft Partners. These agents include agents approved by an admin and agents created via agent builder and shared with users in your org. Admins can manage agents in the same way as they manage any other app in the Copilot Control system section of the Microsoft 365 admin center. Learn more in [Manage agents for Microsoft 365 Copilot in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).  
 
 At the top of the report, you can filter by different periods. The agent report can be viewed over the last 7 days, 30 days.
 
