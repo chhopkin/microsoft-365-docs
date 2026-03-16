@@ -94,6 +94,8 @@ Microsoft 365 workloads are broadly consistent across environments, but differen
 
 These differences are an expected outcome of the architectural evolution that led to sovereign cloud environments, not a limitation of individual products.
 
+For more information, see [Feature availability](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot#feature-availability)
+
 ## Microsoft 365 Copilot in U.S. government cloud environments
 
 Microsoft 365 Copilot is available in **GCC, GCC High, and DoD**, and operates entirely within the customer's U.S. government cloud tenant.
