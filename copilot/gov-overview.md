@@ -114,6 +114,8 @@ Microsoft U.S. government cloud environments are designed to align with applicab
 
 For a detailed comparison of compliance across environments, see [Tech Community Blog: Understanding Compliance Between Commercial, Government, DoD & Secret Offerings](https://techcommunity.microsoft.com/blog/publicsectorblog/understanding-compliance-between-commercial-government-dod--secret-offerings---j/4225436).
 
+Also see [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md).
+
 ## Next steps
 
 - Confirm eligibility for Microsoft 365 government cloud environments
