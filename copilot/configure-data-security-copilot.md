@@ -170,7 +170,7 @@ __For sites:__
 
 - Maintain lifecycle hygiene by identifying and addressing inactive or obsolete sites using [SAM inactive site policies](/sharepoint/site-lifecycle-management).
 
-- Use [Microsoft 365 Archive](/microsoft-365/archive/archive-overview?view=o365-worldwide) to store inactive but high-value content at a lower cost while preventing Copilot from processing or reasoning over it.
+- Use [Microsoft 365 Archive](/microsoft-365/archive/archive-overview?view=o365-worldwide&preserve-view=true) to store inactive but high-value content at a lower cost while preventing Copilot from processing or reasoning over it.
 
 __For files:__ 
 
