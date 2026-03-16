@@ -1,5 +1,5 @@
 ---
-ms.date: 01/26/2026
+ms.date: 03/13/2026
 ms.update-cycle: 180-days
 title: "Requirements for Copilot Pages and Copilot Notebooks"
 ms.reviewer: dancost, tonchan
@@ -40,7 +40,7 @@ ai-usage: ai-assisted
 
 ## Overview
 
-Copilot Pages create `.page` files and Copilot Notebooks create `.pod` files, both stored in user-owned SharePoint Embedded containers. Storage counts against your organization's SharePoint quota. For details, see [storage](cpcn-storage.md). To control creation, see [admin policies](cpcn-admin-configuration.md).
+Copilot Pages create `.page` files and Copilot Notebooks create `.pod` files, both stored in the same user-owned SharePoint Embedded container used by Loop My workspace. Storage counts against your organization's SharePoint quota. For details, see [storage](cpcn-storage.md). To control creation, see [admin policies](cpcn-admin-configuration.md).
 
 ## Network requirements
 
@@ -68,7 +68,11 @@ For full functionality including @mentions, users need an Exchange Online mailbo
 
 ## Relationship to Loop components
 
-Copilot Pages and Copilot Notebooks are independent of Loop. You can enable or disable them separately from Loop in your organization. They share the same underlying SharePoint Embedded container (named either "Pages" or "My workspace" depending on which app creates it first).
+Copilot Pages and Copilot Notebooks are independent of Loop. You can enable or disable them separately from Loop in your organization. Their personal content uses the same user-owned SharePoint Embedded container as Loop My workspace. The container is named either "Pages" or "My workspace" depending on which app creates it first.
+
+The single user-owned container is created when a user first needs one of these experiences and at least one of the relevant creation policies allows it. If *Create Loop workspaces in Loop* is disabled but *Create and view Copilot Pages and Copilot Notebooks* is enabled, creating a Copilot Page or Notebook can still create the container. If *Create and view Copilot Pages and Copilot Notebooks* is disabled but *Create Loop workspaces in Loop* is enabled, opening Loop My workspace can still create that same container.
+
+To prevent the single user-owned container from being created, disable both policies for the same user.
 
 To share Copilot Pages as interactive components in Teams, Outlook, Whiteboard, OneNote, or the Loop app, Loop components must be enabled. Without Loop components enabled in the Microsoft 365 ecosystem, Copilot Pages are only interactive within the Microsoft 365 Copilot app and supported chat experiences. For details on enabling Loop components, see [Loop admin policies](loop-admin-configuration.md).
 
