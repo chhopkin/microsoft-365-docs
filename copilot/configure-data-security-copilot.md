@@ -75,8 +75,6 @@ Use [Microsoft Purview](/purview/purview) and [SharePoint Advanced Management](/
 
 - Run the [SAM Content Management Assessment](/sharepoint/content-management-assessment) to identify sites with oversized audiences, Everyone except external users (EEEU) usage, broken inheritance, inappropriate sharing, and sensitive content; and to identify sites that are inactive or ownerless.
 
-- __Prioritize remediation__ for sites and content that are highly shared or accessed and contain sensitive content and broken inheritance, especially if the site is Public; and for sites that are ownerless or inactive.
-
 ### Fix access and permissions
 
 For sites flagged as high-risk, use Microsoft Purview and SAM recommendations to remove excessive access, correct broken inheritance, and ensure accountable ownership.
