@@ -25,7 +25,7 @@ appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# Configure a Secure and Governed Data Foundation for Microsoft 365 Copilot
+# Configure a Secure and Governed Foundation for Microsoft 365 Copilot
 
 > Applies to: Microsoft 365 Copilot, Microsoft Purview, and SharePoint Advanced Management
 
