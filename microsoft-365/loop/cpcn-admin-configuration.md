@@ -103,10 +103,10 @@ Copilot Pages and Copilot Notebooks check the following [Cloud Policy](/deployof
 1. Save the policy configuration.
 1. Reassign priority for any security group, if required. (If two or more policy configurations are applicable to the same set of users, the one with the higher priority is applied.)
 
-In case you create a new policy configuration or change the configuration for an existing policy, there can be a delay in the change being reflected:
+   In case you create a new policy configuration or change the configuration for an existing policy, there can be a delay in the change being reflected:
 
-- If there were existing policy configurations before the change, the change takes up to 90 minutes to be reflected.
-- If there were no policy configurations before the change, the change takes up to 24 hours to be reflected.
+    - If there were existing policy configurations before the change, the change takes up to 90 minutes to be reflected.
+    - If there were no policy configurations before the change, the change takes up to 24 hours to be reflected.
 
 > [!NOTE]
 > To enable a Cloud Policy for only a specific subset of users:
