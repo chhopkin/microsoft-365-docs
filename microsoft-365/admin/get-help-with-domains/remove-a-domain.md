@@ -57,13 +57,13 @@ Before you remove a domain, make sure that:
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-::: moniker-end
-
-::: moniker range="o365-21vianet"
+    ::: moniker-end
+    
+    ::: moniker range="o365-21vianet"
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627).
 
-::: moniker-end
+    ::: moniker-end
 
 1. Select **Users** > **Active users**.
 
@@ -73,7 +73,7 @@ Before you remove a domain, make sure that:
 
 1. In the **Change domains** pane, select a different domain.
 
-You need to do this step for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, sign out and sign back in by using the new domain you chose to continue.
+    You need to do this step for yourself, too, if you're on the domain that you want to remove. When you edit the domain for your account, sign out and sign back in by using the new domain you chose to continue.
 
 ### Move yourself
 
@@ -85,13 +85,13 @@ You need to do this step for yourself, too, if you're on the domain that you wan
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-::: moniker-end
-
-::: moniker range="o365-21vianet"
+    ::: moniker-end
+    
+    ::: moniker range="o365-21vianet"
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627).
 
-::: moniker-end
+    ::: moniker-end
 
 1. In the left navigation bar, select **Users** > **Active Users**.
 
@@ -117,13 +117,13 @@ You can also use PowerShell to move users to another domain. For more informatio
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-::: moniker-end
-
-::: moniker range="o365-21vianet"
+    ::: moniker-end
+    
+    ::: moniker range="o365-21vianet"
 
 1. Sign in to the [Microsoft 365 admin center](https://portal.partner.microsoftonline.cn/adminportal/).
 
-::: moniker-end
+    ::: moniker-end
 
 1. In the left hand navigation pane, select **Teams & groups** to expand it, and then select **Active teams & groups**.
 
@@ -151,13 +151,13 @@ You can also use PowerShell to move users to another domain. For more informatio
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-::: moniker-end
-
-::: moniker range="o365-21vianet"
+    ::: moniker-end
+    
+    ::: moniker range="o365-21vianet"
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627).
 
-::: moniker-end
+    ::: moniker-end
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** > **Domains**.
 
