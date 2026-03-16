@@ -155,23 +155,23 @@ Finally, assess and close AI compliance gaps, define audit and retention require
 
 ### Define regulatory requirements
 
-- Decide [how long to keep audit logs](/purview/audit-log-retention-policies) in accordance with regulatory and internal requirements.
+1. Decide [how long to keep audit logs](/purview/audit-log-retention-policies) in accordance with regulatory and internal requirements.
 
-- Decide how to keep or when to delete __Copilot interactions__ based on legal risk or regulatory requirements with [Purview Data Lifecycle Management](/purview/retention-policies-copilot).
+2. Decide how to keep or when to delete **Copilot interactions** based on legal risk or regulatory requirements with [Purview Data Lifecycle Management](/purview/retention-policies-copilot).
 
-- Use [Purview eDiscovery](/purview/edisc-search-copilot-data) to search, preserve, and produce Copilot-related content for audits or legal requests.
+3. Use [Purview eDiscovery](/purview/edisc-search-copilot-data) to search, preserve, and produce Copilot-related content for audits or legal requests.
 
 ### Improve data hygiene
 
 Reduce ongoing risk and improve Copilot answer quality by continuously cleaning up inactive content and applying retention and deletion policies.
 
-__For sites:__ 
+**For sites**:
 
 - Maintain lifecycle hygiene by identifying and addressing inactive or obsolete sites using [SAM inactive site policies](/sharepoint/site-lifecycle-management).
 
 - Use [Microsoft 365 Archive](/microsoft-365/archive/archive-overview?view=o365-worldwide&preserve-view=true) to store inactive but high-value content at a lower cost while preventing Copilot from processing or reasoning over it.
 
-__For files:__ 
+**For files**: 
 
 - Apply [Purview retention and deletion policies](/purview/create-retention-policies?tabs=teams-retention) to reduce data exposure while meeting record-keeping obligations.
 
