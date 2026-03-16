@@ -1,8 +1,8 @@
 ### YamlMime:FAQ
 metadata:
-  title: Sign Up for Microsoft 365 Business Standard FAQ
+  title: Sign up for Microsoft 365 Business Standard FAQ
   description: Find answers to common questions about signing up for Microsoft 365 Business Standard, including business email, domain setup, and billing.
-  ms.date: 03/04/2026
+  ms.date: 03/13/2026
   f1.keywords:
   - NOCSH
   ms.author: kwekua
@@ -23,13 +23,13 @@ metadata:
   search.appverid:
    - MET150
    - MOE150
-title: Sign Up for Microsoft 365 Business Standard FAQ
+title: Sign up for Microsoft 365 Business Standard FAQ
 summary: |
 
   This article provides answers to frequently asked questions that administrator might have about signing up for Microsoft 365 Business Standard. For more information about Microsoft 365 Business Standard, see [Sign up for Microsoft 365 Business Standard](signup-business-standard.md).
 
 sections:
-- name: Sign Up for Microsoft 365 Business Standard FAQ
+- name: Sign up for Microsoft 365 Business Standard FAQ
   questions:
   - question: |
       What is a business email and what are the advantages of setting one up?
@@ -64,7 +64,7 @@ sections:
   - question: |
       How does recurring billing work?
     answer: |
-      When recurring billing is on, your subscription automatically renews at the end of each billing term. If your subscription is active, you can turn recurring billing off or on in the [Microsoft 365 admin center](https://admin.cloud.microsoft/). For more information, see [Manage recurring billing in the Microsoft 365 admin center](../../commerce/subscriptions/renew-your-subscription.md).
+      When recurring billing is on, your subscription automatically renews at the end of each billing term. If your subscription is active, you can turn recurring billing off or on in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339). For more information, see [Manage recurring billing in the Microsoft 365 admin center](../../commerce/subscriptions/renew-your-subscription.md).
 
   - question: |
       What do I do if I want to change my business name?

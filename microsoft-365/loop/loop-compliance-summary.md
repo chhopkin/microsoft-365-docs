@@ -1,5 +1,5 @@
 ---
-ms.date: 01/26/2026
+ms.date: 03/13/2026
 ms.update-cycle: 180-days
 title: "Summary of governance, lifecycle, and compliance capabilities for Loop experiences"
 ms.reviewer: dancost, tonchan
@@ -79,6 +79,8 @@ The sections below outline governance, lifecycle, and compliance capabilities ap
 ## Data Lifecycle
 
 - Loop's My workspace, Copilot Pages, and Copilot Notebooks are stored together in a single, user-owned SharePoint Embedded container, identified and owned by Loop. Shared Loop workspaces create one SharePoint Embedded container per workspace. These containers don't have individual storage limits; instead, their storage usage counts toward your organization's overall SharePoint storage quota. Currently, there's no admin control to set storage limits for individual SharePoint Embedded containers. Loop files in their OneDrive and SharePoint locations follow the quotas of these storage locations.
+
+  The single user-owned container can be created when either **Create Loop workspaces in Loop** or **Create and view Copilot Pages and Copilot Notebooks** allows creation for the user. To prevent creation of that personal container, disable both policies for the same user.
 
 - See [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md) for information and workflows within SharePoint Admin center or PowerShell.
 

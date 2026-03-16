@@ -16,7 +16,7 @@ ms.collection:
 # Workforce Insights agent
 
 > [!IMPORTANT]
-> Copilot personalization and memory are in preview and subject to change. For more information about the Frontier program, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7)
+> The Workforce Insights agent is in Frontier and subject to change. For more information about the Frontier program, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7)
 
 The Workforce Insights agent helps organizational leaders and their specified delegates:
 

@@ -3,7 +3,7 @@ title: "Microsoft 365 admin center Microsoft 365 Copilot readiness"
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
-ms.date: 01/12/2026
+ms.date: 03/12/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -37,8 +37,8 @@ In the Microsoft 365 Copilot readiness report, which is in continuous enhancemen
 ## How do I get to the Microsoft 365 Copilot report?
 
 1. In the admin center, go to **Reports** > **Usage**.
-1. Select the **Microsoft 365 Copilot** page.
-1. You can view **Readiness** on the first tab. Switch to the **Usage** tab to view adoption and usage metrics.
+1. Select **Microsoft 365 Copilot** to view the list of reports, and then select **Copilot**.
+1. You can view **Readiness** on the first tab. 
 
 ## Interpret the Readiness section in the Microsoft 365 Copilot report
 

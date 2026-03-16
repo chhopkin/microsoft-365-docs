@@ -1,11 +1,11 @@
 ---
-title: Transfer Data Manually Between Microsoft 365 Accounts
+title: Transfer data manually between Microsoft 365 accounts
 f1.keywords:
 - NOCSH
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: 03/09/2026
+ms.date: 03/13/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -143,7 +143,7 @@ To transfer administrative settings between subscriptions, manually configure th
 
 To view and copy general settings for your subscriptions, follow these steps in each browser session:
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
@@ -155,7 +155,7 @@ To view and copy general settings for your subscriptions, follow these steps in 
 
 To view and copy Exchange settings for your subscriptions, follow these steps in each browser session:
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
