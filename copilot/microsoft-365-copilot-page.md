@@ -254,7 +254,7 @@ This setting lets you configure who can access agents, and what types of agents 
 
 To see more configurations on the **Agents** > **All agents** page, select the link to **Manage all agents**.
 
-For more information, see [Manage Microsoft 365 Copilot agents in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
+For more information, see [Manage agents in the Microsoft 365 admin center](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps).
 
 > [!NOTE]
 > For more information for users, see [Introducing Copilot agents](https://support.microsoft.com/topic/introducing-copilot-agents-943e563d-602d-40fa-bdd1-dbc83f582466).

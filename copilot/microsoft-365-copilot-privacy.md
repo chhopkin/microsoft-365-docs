@@ -132,7 +132,7 @@ We already implement multiple forms of protection to help prevent customers from
 
 - Your control over your data is reinforced by Microsoft's commitment to comply with broadly applicable privacy laws, such as the GDPR, and privacy standards, such as ISO/IEC 27018, the world’s first international code of practice for cloud privacy.
 
-- For content accessed through Microsoft 365 Copilot agents, encryption can exclude programmatic access, thus limiting the agent from accessing the content. For more information, see [Configure usage rights for Azure Information Protection](/azure/information-protection/configure-usage-rights).
+- For content accessed through agents in Microsoft 365, encryption can exclude programmatic access, thus limiting the agent from accessing the content. For more information, see [Configure usage rights for Azure Information Protection](/azure/information-protection/configure-usage-rights).
 
 ## Meeting regulatory compliance requirements
 
