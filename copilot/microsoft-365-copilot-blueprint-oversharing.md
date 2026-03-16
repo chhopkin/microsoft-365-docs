@@ -29,14 +29,14 @@ appliesto:
 
 # Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint
 
-Oversharing is one of the most common risks organizations encounter when deploying Microsoft 365 Copilot. Because Copilot surfaces information that users already have permission to access, overly broad sharing can expose content to a wider audience than intended.
+Microsoft 365 Copilot can accelerate how people find information, summarize content, and get work done—by grounding responses in the data users already have permission to access. To realize that value confidently, organizations need a foundation that is secure and governed, equipped with robust guardrails, and aligned with AI regulations. Common challenges like content sprawl, stale sites, and overly broad sharing can reduce answer quality and increase the likelihood that Copilot surfaces information more widely than intended. By implementing reliable guardrails and ensuring compliance with regulatory obligations, organizations can further minimize risks and help ensure that Copilot delivers accurate, responsible results within a trusted environment.
 
-This deployment blueprint provides a prescriptive, phased approach to identifying and reducing oversharing risk when deploying Microsoft 365 Copilot. It's designed for administrators who want clear, actionable guidance.
+This deployment blueprint outlines the essential steps for establishing a secure and governed foundation for Copilot by remediating oversharing, implementing reliable guardrails, and fulfilling AI-related regulatory obligations, delivering a straightforward, approachable path to help every organization get started with confidence.
 
-The blueprint is organized into three phases:
-- Pilot (optional)
-- Deploy
-- Operate
+This blueprint is organized into three pillars:
+- Remediate oversharing
+- Set up guardrails
+- Meet regulations
 
 The blueprint includes:
 - Common causes of oversharing in SharePoint and OneDrive
