@@ -29,7 +29,7 @@ appliesto:
 
 > Applies to: Microsoft 365 Copilot, Microsoft Purview, and SharePoint Advanced Management
 
-[Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-overview) (Copilot) responds to user prompts using data that the user already has permission to access. When your organization's data is well governed, current, and appropriately shared, Copilot can deliver accurate, relevant, and secure responses. This article explains how to prepare, secure, and govern your data, so Copilot can provide high quality results while respecting your organization's security and compliance requirements.
+[Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-overview) (Copilot) responds to user prompts using data that the user already has permission to access. When your organization's data is well governed, current, and appropriately shared, Copilot can deliver accurate, relevant, and secure responses. This article guides you through preparing, securing, and managing Microsoft 365 Copilot. By following these steps, you can help Copilot deliver accurate and relevant results while supporting your organization's security, compliance, and regulatory requirements.
 
 This guidance is intended for IT administrators and security administrators who are preparing their organization for Microsoft 365 Copilot or tightening controls after Copilot is enabled.
 
