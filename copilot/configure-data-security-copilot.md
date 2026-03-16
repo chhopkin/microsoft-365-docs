@@ -73,9 +73,9 @@ First, identify and prioritize high-risk sites and sensitive content, remediate 
 
 Use [Microsoft Purview](/purview/purview) and [SharePoint Advanced Management](/sharepoint/get-ready-copilot-sharepoint-advanced-management) (SAM) to find sites and files that are overshared, ownerless, inactive, or contain sensitive data that could be surfaced by Copilot.
 
-- Review [Purview Data Security Posture Management (DSPM)](/purview/data-security-posture-management-learn-about) data risk assessments to identify sites with sensitive data and risky or overshared links accessible to Copilot.
+1. Review [Purview Data Security Posture Management (DSPM)](/purview/data-security-posture-management-learn-about) data risk assessments to identify sites with sensitive data and risky or overshared links accessible to Copilot.
 
-- Run the [SAM Content Management Assessment](/sharepoint/content-management-assessment) to identify sites with oversized audiences, Everyone except external users (EEEU) usage, broken inheritance, inappropriate sharing, and sensitive content; and to identify sites that are inactive or ownerless.
+2. Run the [SAM Content Management Assessment](/sharepoint/content-management-assessment) to identify sites with oversized audiences, Everyone except external users (EEEU) usage, broken inheritance, inappropriate sharing, and sensitive content; and to identify sites that are inactive or ownerless.
 
 ### Fix access and permissions
 
