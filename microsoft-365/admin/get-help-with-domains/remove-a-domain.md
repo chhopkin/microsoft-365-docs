@@ -57,13 +57,13 @@ Before you remove a domain, make sure that:
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-    ::: moniker-end
+   ::: moniker-end
     
-    ::: moniker range="o365-21vianet"
+   ::: moniker range="o365-21vianet"
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627).
 
-    ::: moniker-end
+   ::: moniker-end
 
 1. Select **Users** > **Active users**.
 
@@ -85,9 +85,9 @@ Before you remove a domain, make sure that:
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-    ::: moniker-end
+   ::: moniker-end
     
-    ::: moniker range="o365-21vianet"
+   ::: moniker range="o365-21vianet"
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627).
 
@@ -117,9 +117,9 @@ You can also use PowerShell to move users to another domain. For more informatio
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-    ::: moniker-end
+   ::: moniker-end
     
-    ::: moniker range="o365-21vianet"
+   ::: moniker range="o365-21vianet"
 
 1. Sign in to the [Microsoft 365 admin center](https://portal.partner.microsoftonline.cn/adminportal/).
 
@@ -151,9 +151,9 @@ You can also use PowerShell to move users to another domain. For more informatio
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
-    ::: moniker-end
+   ::: moniker-end
     
-    ::: moniker range="o365-21vianet"
+   ::: moniker range="o365-21vianet"
 
 1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=850627).
 
