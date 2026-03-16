@@ -4,7 +4,7 @@ description: Get an overview of how Microsoft government clouds evolved, why dif
 author: denisebmsft
 ms.author: deniseb
 manager: dansimp 
-ms.date: 03/03/2026
+ms.date: 03/16/2026
 ms.topic: concept-article
 ms.service: microsoft-365-enterprise
 ms.reviewer: eljones
@@ -45,8 +45,8 @@ This evolution ultimately led to the **U.S. Sovereign Cloud for Government**, wh
 
 A key principle underlying Microsoft government cloud environments is the distinction between **data residency** and **data sovereignty**:
 
-- **Data residency** refers to where customer data is stored and processed.
-- **Data sovereignty** refers to the legal, operational, and personnel controls that govern access to that data.
+- [Data residency](/microsoft-365/enterprise/m365-dr-overview?view=o365-worldwide&preserve-view=true#overview-of-data-residency) refers to where customer data is stored and processed.
+- [Data sovereignty](/industry/sovereign-cloud/concepts/data-controls#what-is-data-sovereignty) refers to the legal, operational, and personnel controls that govern access to that data.
 
 As compliance requirements increase, customers require not only U.S.‑based data storage, but also stronger guarantees around operational isolation, access restrictions, and regulatory alignment. These needs directly influenced the design of GCC, GCC High, and DoD environments.
 
