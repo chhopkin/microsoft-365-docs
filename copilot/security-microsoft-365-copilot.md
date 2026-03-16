@@ -2,7 +2,7 @@
 title: Security for Microsoft 365 Copilot
 description: Learn how Microsoft secures Microsoft 365 Copilot and how Copilot inherits Microsoft 365 security, compliance, and privacy protections.
 ms.topic: conceptual
-ms.date: 03/09/2026
+ms.date: 03/16/2026
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -25,7 +25,7 @@ Security is foundational to Microsoft's approach to Microsoft 365 Copilot. This 
 > [!NOTE]
 > This article describes Microsoft's security approach for Microsoft 365 Copilot. It doesn't include deployment or data‑readiness steps.
 >
-> For rollout planning and readiness guidance, see [Configure data security for Microsoft 365 Copilot](configure-data-security-copilot.md).
+> For rollout planning and readiness guidance, see [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-data-security-copilot.md).
 >
 > For deep technical details about data flow, protections, and auditing, see:
 > - [Microsoft 365 Copilot data protection architecture](/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing)
