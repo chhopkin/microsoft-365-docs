@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Copilot blueprint for oversharing
+title: Secure & Governed Data Foundation for Microsoft 365 Copilot - A deployment blueprint
 description: Use this deployment blueprint to help prevent oversharing when using Microsoft 365 Copilot.
 f1.keywords:
 - NOCSH
@@ -22,12 +22,12 @@ ms.collection:
 - M365-sam
 - MCAT
 ms.custom: [copilot-learning-hub]
-customer-intent: As an admin, I want to use a blueprint to help prevent oversharing when using Microsoft 365 Copilot.
+customer-intent: As an admin, I want to use a blueprint to help set up a secure and governed foundation for Microsoft 365 Copilot.
 appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# Prevent oversharing in Microsoft 365 Copilot: deployment blueprint
+# Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint
 
 Oversharing is one of the most common risks organizations encounter when deploying Microsoft 365 Copilot. Because Copilot surfaces information that users already have permission to access, overly broad sharing can expose content to a wider audience than intended.
 
