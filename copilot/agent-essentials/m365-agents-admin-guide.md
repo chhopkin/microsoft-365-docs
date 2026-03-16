@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Copilot agents admin guide
+title: Agents admin guide for Microsoft 365
 f1.keywords:
 ms.author: erikre
 author: ErikRe
@@ -13,10 +13,10 @@ ms.localizationpriority: medium
 ms.collection:
 - m365copilot
 - magic-ai-copilot
-description: Learn about administering and deploying Microsoft 365 Copilot agents.
+description: Learn about administering and deploying agents in Microsoft 365.
 ---
 
-# Microsoft 365 Copilot agents admin guide
+# Agents admin guide for Microsoft 365
 
 When you add [Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-overview) to your qualifying Microsoft 365 for business subscription, you provide generative AI capabilities to your organization. With these capabilities, you help enhance your organization’s productivity, improve accuracy, and provide personalized assistance.
 
@@ -49,7 +49,7 @@ If you’re already using Copilot, view your [license plan](/copilot/microsoft-3
 
 ### Understand available agent options
 
-To best understand your overall Copilot deployment, you must understand the options available for Copilot agents. Different agent capabilities are available based on whether you choose to deploy Microsoft 365 Copilot Chat without usage billing, deploy Microsoft 365 Copilot Chat with usage billing, or deploy Microsoft 365 Copilot.
+To best understand your overall Copilot deployment, you must understand the options available for agents. Different agent capabilities are available based on whether you choose to deploy Microsoft 365 Copilot Chat without usage billing, deploy Microsoft 365 Copilot Chat with usage billing, or deploy Microsoft 365 Copilot.
 
 > [!NOTE]
 > Agents that access shared tenant data, such as SharePoint or Graph Connector content, are billed based on metered consumption. Agents utilizing metered consumption are off by default for users in Microsoft 365 Copilot Chat.
@@ -190,9 +190,9 @@ Agent policies refer to the tenant settings you can make as an administrator in 
 Copilot agent governance refers to managing agents across your organization using policies, settings, and actions. You can create policies to globally maintain appropriate access to agents, and use administration settings and controls to approve, publish, deploy, remove, and block agents for your organization. By effectively managing Copilot agents, you can help protect and secure the agents and data that your organization uses in a responsible and compliant approach.
 
 For more information related to agent governance, see the following resources:
-- [Microsoft 365 Copilot agents deployment blueprint](m365-agents-blueprint.md)
-- [Microsoft 365 Copilot agents visual guide](m365-agents-visual-map.md)
-- [Microsoft 365 agents deployment checklist](m365-agents-checklist.md)
+- [Agents deployment blueprint for Microsoft 365](m365-agents-blueprint.md)
+- [Agents visual guide for Microsoft 365](m365-agents-visual-map.md)
+- [Agents deployment checklist for Microsoft 365](m365-agents-checklist.md)
 - [What governance or controls are available for agents?](m365-agents-faq.md#what-governance-or-controls-are-available-for-agents)
 - [Governance and security best practices overview](/microsoft-copilot-studio/guidance/sec-gov-intro)
 
@@ -229,7 +229,7 @@ In the Copilot Control System within Microsoft 365 admin center, you can manage 
 - Copilot actions pertaining to available functionality and use
 - Additional settings about how Copilot can be used
 
-For Microsoft 365 Copilot agents, you can specifically control how members of your organization can create and use agents.
+For agents in Microsoft 365, you can specifically control how members of your organization can create and use agents.
 
 > [!TIP]
 > The Microsoft 365 admin center provides Microsoft 365 Copilot [deployment guides and assistance](https://admin.microsoft.com/adminportal/home?Q=ADG#/setupguidance). Consider following the extensibility guide, see [Get started with Microsoft 365 Copilot extensibility](https://admin.microsoft.com/adminportal/home?Q=ADG#/modernonboarding/copilotextensibility).

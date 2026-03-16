@@ -1,11 +1,11 @@
 ---
-title: Share Microsoft 365 Calendars with Users Outside Your Organization
+title: Share Microsoft 365 Calendars with users outside your organization
 f1.keywords:
 - NOCSH
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: 02/25/2026
+ms.date: 03/16/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -38,7 +38,7 @@ As the admin, you can enable external calendar sharing for all users in your org
 
 ## Enable calendar sharing in the Microsoft 365 admin center
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
