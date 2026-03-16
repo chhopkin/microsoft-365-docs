@@ -37,9 +37,8 @@ This guidance is intended for IT administrators and security administrators who 
 
 By completing the steps in this article, you can:
 
-- Reduce oversharing and stale content that can negatively affect Copilot responses.
-- Ensure sensitive data is correctly classified and protected.
-- Control how SharePoint and OneDrive content is discovered by Copilot.
+- Establish guardrails to ensure that users have appropriate access to SharePoint, OneDrive, and Exchange, and that Copilot only references accurate, up-to-date information in line with your organization's policies
+- Make informed choices about how Copilot can and cannot interact with your organization's sensitive data, ensuring control and flexibility in data usage and access
 - Monitor changes and Copilot activity to identify and remediate risk.
 
 ### Licensing
