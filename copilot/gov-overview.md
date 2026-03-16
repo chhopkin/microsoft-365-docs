@@ -108,7 +108,7 @@ As with other Microsoft 365 services, Copilot capabilities may be introduced on 
 
 ## Compliance and trust considerations
 
-Microsoft U.S. government cloud environments are designed to align with applicable U.S. government standards and undergo regular third‑party assessments. Customers remain responsible for configuring Microsoft 365 and Microsoft 365 Copilot to meet their specific regulatory obligations.
+Microsoft U.S. government cloud environments are designed to align with applicable government standards and undergo regular third‑party assessments. Customers remain responsible for configuring Microsoft 365 and Microsoft 365 Copilot to meet their specific regulatory obligations.
 
 For a detailed comparison of compliance across environments, see [Tech Community Blog: Understanding Compliance Between Commercial, Government, DoD & Secret Offerings](https://techcommunity.microsoft.com/blog/publicsectorblog/understanding-compliance-between-commercial-government-dod--secret-offerings---j/4225436).
 
@@ -118,4 +118,6 @@ For a detailed comparison of compliance across environments, see [Tech Community
 - Select the environment that aligns with your data and compliance requirements
 - Plan Microsoft 365 Copilot deployment based on your chosen environment
 
+See the following resources:
 
+- [How to buy](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/microsoft-365-government-how-to-buy)
