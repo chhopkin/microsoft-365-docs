@@ -38,7 +38,7 @@ items:
     items:
     - name: Security for Microsoft 365 Copilot
       href: security-microsoft-365-copilot.md
-    - name: Blueprint to prevent oversharing
+    - name: Secure & Governed Data Foundation for Microsoft 365 Copilot - Deployment blueprint
       href: microsoft-365-copilot-blueprint-oversharing.md
     - name: Apply principles of Zero Trust to Microsoft 365 Copilot
       href: /security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
