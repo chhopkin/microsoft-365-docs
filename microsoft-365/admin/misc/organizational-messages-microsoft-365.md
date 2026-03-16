@@ -1,11 +1,11 @@
 ---
-title: Organizational Messages in Microsoft 365
+title: Organizational messages in Microsoft 365
 f1.keywords:
 - NOCSH
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 03/02/2026
+ms.date: 03/13/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -63,11 +63,11 @@ Organizational Messages now include two new capabilities available in public pre
 - **Action Segments**: Admins can now target organizational messages based on usage behaviors. For the public preview, two predefined action segments are available for Copilot usage:
 
   - Inactive Copilot users: all users with a Microsoft 365 Copilot license that have not used Copilot in the prior 28 days.
-    
+
   - Inactive Copilot users in Teams: all users with a Microsoft 365 Copilot license that have not used Copilot in Teams in the prior 30 days.
-  
+
     You can't use **Action Segments** together with email messages during the public preview. **Action Segments** are available for the existing surfaces of Windows Spotlight, Taskbar, Notification Center, and Microsoft Teams notifications.
-    
+
 As we roll out the public preview for these features, we're excited to see how these features enhance communication and help drive Copilot adoption within your organization. We're committed to continuously improving these capabilities based on your feedback and usage.
 
 ## Requirements
@@ -124,7 +124,7 @@ Familiarize yourself with these three experiences within the organizational mess
 
 To access the organizational messages experiences, you need the [Organizational Messages Writer](/azure/active-directory/roles/permissions-reference#organizational-messages-writer) Microsoft Entra role. After you get that role, you can access the organizational messages centralized experience in the Microsoft 365 admin center by following these steps:
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 1. From the left navigation bar, select **… Show all**, and then select **Reports** to expand it.
 
@@ -191,7 +191,7 @@ The advanced targeting options of **Companies**, **Departments**, **Locations**,
 
 To enable advanced targeting of organizational messages, follow these steps:
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
