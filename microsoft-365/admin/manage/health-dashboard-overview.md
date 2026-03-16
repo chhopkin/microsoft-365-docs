@@ -1,9 +1,9 @@
 ---
-title: Microsoft 365 Health Dashboard Overview
+title: Microsoft 365 Health dashboard overview
 ms.author: kwekua
 author: kwekuako
 manager: scotv
-ms.date: 03/02/2026
+ms.date: 03/13/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-business
@@ -37,7 +37,7 @@ The Health dashboard gives you a snapshot of the overall health of your environm
 
 To open the **Health** dashboard in the Microsoft 365 admin center, follow these steps:
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/) as a user with the global reader role.
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) as a user with the global reader role.
 
 1. From the **Simplified view/Dashboard view/Health** dropdown menu, select **Health**.
 
@@ -65,7 +65,7 @@ In the center of the page, the current service health status of your top apps an
 
 To help you keep up to date with software updates, this section of the dashboard provides an at-a-glance view of whether Microsoft 365 desktop apps like Word, Excel, and PowerPoint are up-to-date. If some devices fall behind, the dashboard displays a list of devices and vulnerabilities to help you understand the risk. This information comes from the Software Updates page, which you can access for more information.
 
-:::image type="content" source="../../media/app-updates.png" alt-text="Screenshot of the Microsoft 365 Health dashboard app update information section.":::
+:::image type="content" source="../../media/app-updates.png" alt-text="Screenshot of the Microsoft 365 Health dashboard app update information section." lightbox="../../media/app-updates.png":::
 
 ### Recommended actions
 
