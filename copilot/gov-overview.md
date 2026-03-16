@@ -120,4 +120,5 @@ For a detailed comparison of compliance across environments, see [Tech Community
 
 See the following resources:
 
+- [Microsoft 365 Copilot for U.S. Government](https://enablement.microsoft.com/copilot/us-government/)
 - [How to buy](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/microsoft-365-government-how-to-buy)
