@@ -36,7 +36,7 @@ Before you deploy for the first time or migrate to Microsoft 365, you can use th
 
 This article is part of [Network planning and performance tuning for Microsoft 365](./network-planning-and-performance.md).
 
-For the steps to optimize your network for Microsoft 365 and other Microsoft cloud platforms and services, see the [Microsoft Cloud Networking for Enterprise Architects](../solutions/cloud-architecture-models.md) poster.
+For the steps to optimize your network for Microsoft 365 and other Microsoft cloud platforms and services, see the [Microsoft Cloud Networking for Enterprise Architects](/previous-versions/microsoft-365/solutions/cloud-architecture-models) poster.
 
 ## Estimate network bandwidth requirements
 <a name="EstimateBandwidthRequirements"> </a>

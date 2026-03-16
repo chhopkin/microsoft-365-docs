@@ -1,8 +1,8 @@
 ### YamlMime:FAQ
 metadata:
-  title: Microsoft 365 Usage Analytics Overview FAQ
+  title: Microsoft 365 usage analytics overview FAQ
   description: Find answers to common questions about Microsoft 365 usage analytics, including data collection, reporting, permissions, and more.
-  ms.date: 03/12/2026
+  ms.date: 03/13/2026
   f1.keywords:
   - NOCSH
   ms.author: kwekua
@@ -23,13 +23,13 @@ metadata:
   search.appverid:
    - MET150
    - MOE150
-title: Microsoft 365 Usage Analytics Overview FAQ
+title: Microsoft 365 usage analytics overview FAQ
 summary: |
 
   This article provides answers to frequently asked questions that administrators might have about Microsoft 365 usage analytics. For more information about Microsoft 365 usage analytics, see [Microsoft 365 usage analytics overview](usage-analytics.md).
 
 sections:
-- name: Microsoft 365 Usage Analytics FAQ
+- name: Microsoft 365 usage analytics FAQ
   questions:
   - question: |
       Is the template app available through for purchase or is it free?
@@ -105,7 +105,7 @@ sections:
   - question: |
       How does the data in the template app differ from the data in the usage reports?
     answer: |
-      The underlying data you see in the template app matches the data you see in the activity reports in the [Microsoft 365 admin center](https://admin.cloud.microsoft/). The key differences are:
+      The underlying data you see in the template app matches the data you see in the activity reports in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339). The key differences are:
 
       - In the Microsoft 365 admin center, you can view data for the last 7, 30, 90, or 180 days.
       - The template app presents data on a monthly basis for up to 12 months.
@@ -202,7 +202,7 @@ sections:
   - question: |
       I have a specific question about the data I'm seeing for my organization. Who can I reach out to?
     answer: |
-        You can use the feedback button in the [Microsoft 365 admin center](https://admin.cloud.microsoft/) activity overview page, or you can open a [support case](../get-help-support.md) to get help with the template app.
+        You can use the feedback button in the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339) activity overview page, or you can open a [support case](../get-help-support.md) to get help with the template app.
 
   - question: |
       How can partners access the data?

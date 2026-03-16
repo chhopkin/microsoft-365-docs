@@ -1,5 +1,5 @@
 ---
-ms.date: 01/26/2026
+ms.date: 03/13/2026
 ms.update-cycle: 180-days
 title: "Summary of governance, lifecycle, and compliance capabilities for Copilot Pages and Copilot Notebooks"
 ms.reviewer: dancost, tonchan
@@ -77,8 +77,9 @@ Copilot Pages and Copilot Notebooks content are stored in SharePoint Embedded. C
 > - Unlike OneDrive, there's no manager workflow to retain content
 > - To preserve content before departure, export using Purview or Graph API or add the container to a retention policy
 
-- **Storage**: Copilot Pages and Copilot Notebooks are stored together in a single, user-owned SharePoint Embedded container (Application Name: Loop). Storage counts against your organization's SharePoint quota. See [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md).
+- **Storage**: Copilot Pages and Copilot Notebooks are stored together in a single user-owned SharePoint Embedded container that is also used by Loop My workspace. In admin tools, the owning application is shown as Loop. Storage counts against your organization's SharePoint quota. See [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md).
   - **Limitation**: There's no admin control to set limits on individual containers.
+  - **Admin control note**: This single user-owned container can be created when either the Loop policy or the Copilot Pages and Copilot Notebooks policy allows creation for the user. To prevent creation, disable both policies for the same user.
   - **Limitation**: Unlike OneDrive, there's no user workflow for content after departure. The container is deleted on the same schedule as OneDrive defaults. See [Storage management after user departure](cpcn-storage.md#storage-management-after-user-departure).
 - **Multi-Geo**: [Supported](/microsoft-365/enterprise/microsoft-365-multi-geo). The container is created in the geo matching the user's [preferred data location](/microsoft-365/enterprise/plan-for-multi-geo#best-practices).
   - **Known issue**: Some operations may not work correctly after moving containers across geos. Microsoft is working on a fix.
