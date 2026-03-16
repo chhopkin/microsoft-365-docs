@@ -22,10 +22,10 @@ Once you back up your data, you might need to restore the data if there was an a
 
 As part of restoring data from backup, admin needs to choose a *restore point* manually or from a tool-recommended OneDrive or SharePoint *express restore point*. A restore point is a prior point in time from which you can restore a healthy version of your content or metadata. For Exchange Online, if the data from a prior point in time is identical to the present state of your data, then there will be no items restored, including Restore to a new folder.
 
-Currently, you can restore OneDrive accounts, SharePoint sites, and Exchange mailbox content from specific prior points in time from the backups.
+Currently, you can restore  accounts, SharePoint sites, and Exchange mailbox content from specific prior points in time from the backups.
 
 > [!IMPORTANT]
-> Granular restore is now generally available for SharePoint sites and OneDrive accounts. Beyond full site/account restores, M365 Backup admins can browse and search restore points to recover specific files and folders.
+> Granular restore is now generally available for SharePoint sites and  accounts. Beyond full site/account restores, M365 Backup admins can browse and search restore points to recover specific files and folders.
 
 </br>
 
@@ -39,13 +39,13 @@ The restore point frequency, also known as the [recovery point objective](backup
 
 |Type  |RPO for 0-14 days in the past  |RPO for 15-365 days in the past  |
 |---------|---------|---------|
-|Full OneDrive account and full SharePoint site restore    |10 minutes     |One week     |
+|Full  account and full SharePoint site restore    |10 minutes     |One week     |
 |Exchange Online   |10 minutes         |10 minutes         |
-|File and folder restore in SharePoint and OneDrive   | Daily   |One week        |
+|File and folder restore in SharePoint and    | Daily   |One week        |
 
 > [!NOTE]
 > You can also use PowerShell cmdlets to perform these operations by following these steps:
-> 1. Go to the [Microsoft 365 Backup Storage Graph APIs](/graph/api/backuprestoreroot-post-onedriveforbusinessrestoresessions) documentation for the specific action you want to perform—for example, restoring data for Onedrive.
+> 1. Go to the [Microsoft 365 Backup Storage Graph APIs](/graph/api/backuprestoreroot-post-forbusinessrestoresessions) documentation for the specific action you want to perform—for example, restoring data for OneDrive.
 > 2. Scroll to the **Example request** section and select the **PowerShell** tab.
 > 3. Install the Microsoft.Graph.BackupRestore module as shown in the example.
 > 4. Run the provided PowerShell command in an Admin PowerShell session to execute the desired action.
