@@ -1,5 +1,5 @@
 ---
-ms.date: 03/04/2026
+ms.date: 03/13/2026
 ms.update-cycle: 180-days
 title: "Manage Copilot Pages and Copilot Notebooks in your organization"
 ms.reviewer: dancost
@@ -27,20 +27,20 @@ description: "Manage Copilot Pages and Copilot Notebooks in your organization"
 
 # Admin policies for Copilot Pages and Copilot Notebooks
 
-Copilot Pages (`.page` files) and Copilot Notebooks are stored in user-owned SharePoint Embedded containers. Storage for these files counts toward your organization's overall SharePoint quota. For details, see [storage and lifecycle](cpcn-storage.md). IT administrators can control the creation and use of Copilot Pages and Copilot Notebooks through Cloud Policy settings.
+Copilot Pages (`.page` files) and Copilot Notebooks are stored in the same user-owned SharePoint Embedded container used by Loop My workspace. Storage for these files counts toward your organization's overall SharePoint quota. For details, see [storage and lifecycle](cpcn-storage.md). IT administrators can control the creation and use of Copilot Pages and Copilot Notebooks through Cloud Policy settings.
 
 ## At a glance
 
 | What you want to control | Where to configure | Default |
 | --- | --- | --- |
 | **Copilot Pages and Copilot Notebooks creation** | Cloud Policy: *Create and view Copilot Pages and Copilot Notebooks* | Enabled |
-| **Code previews in Copilot Chat and Copilot Pages** | Cloud Policy: *Code previews in Copilot Chat and Copilot Pages* | Enabled |
+| **Code previews in Copilot Chat and Copilot Pages** | Cloud Policy: *Enable code previews for AI-generated content in Microsoft 365 Copilot Chat and Copilot Pages* | Enabled |
 
 > [!TIP]
 > **Quick reference scenarios**
 >
-> - **Block Loop but allow Copilot Pages/Notebooks**: Disable Loop policies; leave *Create and view Copilot Pages and Copilot Notebooks* enabled
-> - **Block Copilot Pages/Notebooks but allow Loop**: Disable *Create and view Copilot Pages and Copilot Notebooks*; leave Loop policies enabled
+> - **Block Loop but allow Copilot Pages/Notebooks**: Disable Loop policies; leave *Create and view Copilot Pages and Copilot Notebooks* enabled. The same user-owned container can still be created by Copilot Pages or Copilot Notebooks.
+> - **Block Copilot Pages/Notebooks but allow Loop**: Disable *Create and view Copilot Pages and Copilot Notebooks*; leave Loop policies enabled. The same user-owned container can still be created by Loop My workspace.
 > - **Block everything**: Disable both policies
 > - **Block code previews only**: Disable *Enable code previews for AI-generated content in Microsoft 365 Copilot Chat and Copilot Pages*; leave *Create and view Copilot Pages and Copilot Notebooks* enabled
 
@@ -54,13 +54,17 @@ To apply Cloud Policy to specific users instead of the entire tenant, see [Scopi
 
 Copilot Pages and Copilot Notebooks are independent of Loop. You can enable or disable them separately from Loop in your organization.
 
-Copilot Pages and Copilot Notebooks use the same user-owned SharePoint Embedded container as the Loop My workspace. For more information, see [storage](cpcn-storage.md).
+Copilot Pages, Copilot Notebooks, and Loop My workspace use one single user-owned SharePoint Embedded container per user. For more information, see [storage](cpcn-storage.md).
+
+The container is created when a user first needs one of these experiences and at least one of the relevant creation policies allows it. If *Create Loop workspaces in Loop* is disabled but *Create and view Copilot Pages and Copilot Notebooks* is enabled, creating a Copilot Page or Notebook can still create the single user-owned container. If *Create and view Copilot Pages and Copilot Notebooks* is disabled but *Create Loop workspaces in Loop* is enabled, opening Loop My workspace can still create that same container.
+
+To prevent the single user-owned container from being created, disable both policies for the same user. In SharePoint admin center and PowerShell, the owning application for this container is shown as Loop.
 
 To share Copilot Pages as interactive components (instead of just hyperlinks) in Teams, Outlook, Whiteboard, OneNote, or the Loop application, Loop components must be enabled. Without Loop components enabled in the Microsoft 365 ecosystem, Copilot Pages are only interactive within the Microsoft 365 Copilot app and supported chat experiences. For details on enabling Loop components in the Microsoft 365 ecosystem, see [Loop admin policies](loop-admin-configuration.md).
 
 ## User experience when Copilot Pages and Copilot Notebooks are disabled
 
-When creation is disabled, users are unable to create new Copilot Pages or Notebooks. The Pages module is visible in the Microsoft 365 Copilot app, but the Notebooks module is hidden, preventing users from accessing existing Notebooks through the Copilot App.
+When creation is disabled, users are unable to create new Copilot Pages or Notebooks. The Pages module is visible in the Microsoft 365 Copilot app, but the Notebooks module is hidden, preventing users from accessing existing Notebooks through the Copilot App. If Loop My workspace is still enabled for the user, the same user-owned container might still exist or be created by Loop.
 
 Existing Copilot Pages and Notebooks aren't deleted. Users can still view and edit existing items if they have permission. These files remain accessible in the following ways:
 
@@ -99,10 +103,10 @@ Copilot Pages and Copilot Notebooks check the following [Cloud Policy](/deployof
 1. Save the policy configuration.
 1. Reassign priority for any security group, if required. (If two or more policy configurations are applicable to the same set of users, the one with the higher priority is applied.)
 
-In case you create a new policy configuration or change the configuration for an existing policy, there can be a delay in the change being reflected:
+   In case you create a new policy configuration or change the configuration for an existing policy, there can be a delay in the change being reflected:
 
-- If there were existing policy configurations before the change, the change takes up to 90 minutes to be reflected.
-- If there were no policy configurations before the change, the change takes up to 24 hours to be reflected.
+    - If there were existing policy configurations before the change, the change takes up to 90 minutes to be reflected.
+    - If there were no policy configurations before the change, the change takes up to 24 hours to be reflected.
 
 > [!NOTE]
 > To enable a Cloud Policy for only a specific subset of users:

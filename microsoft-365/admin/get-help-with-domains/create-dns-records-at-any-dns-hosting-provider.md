@@ -1,11 +1,11 @@
 ---
-title: Connect Your Domain by Adding DNS Records
+title: Connect your domain by adding DNS records
 f1.keywords:
 - CSH
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: 02/17/2026
+ms.date: 03/16/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -99,11 +99,11 @@ To add the DNS records needed for Microsoft 365 email services, select the tab b
 
 To add an MX record and other supporting email DNS records for use with email in Microsoft 365 (Outlook, Exchange Online), follow these steps:
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
-1. Under **Settings**, select [**Domains**](https://admin.cloud.microsoft/?#/Domains).
+1. Under **Settings**, select [**Domains**](https://go.microsoft.com/fwlink/p/?linkid=834818).
 
 1. In the **Domains** page, select a domain.
 
@@ -136,11 +136,11 @@ To add an MX record and other supporting email DNS records for use with email in
 
 To add an MX record and other supporting email DNS records for use with email in Microsoft 365 (Outlook, Exchange Online), follow these steps:
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
-1. Under **Settings**, select [**Domains**](https://admin.cloud.microsoft/?#/Domains).
+1. Under **Settings**, select [**Domains**](https://go.microsoft.com/fwlink/p/?linkid=834818).
 
 1. In the **Domains** page, select a domain.
 
@@ -169,13 +169,13 @@ To add an MX record and other supporting email DNS records for use with email in
 
     - **MX record** - This DNS record is required and specifies where email for the domain should go.
 
-      |  DNS record field  | Value |
-      | ------------------ | ----- |
-      | *Type* | **MX** |
-      | *Host Name* or *Alias* | **@** |
+      | **DNS record field**            | **Value**                                            |
+      | ------------------------------- | ---------------------------------------------------- |
+      | *Type*                          | **MX**                                               |
+      | *Host Name* or *Alias*          | **@**                                                |
       | *Points to address* or *Target* | Copy the MX record value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
-      | *Priority* | Set to the highest value available, typically **0**. |
-      | *TTL* | **3600** (1 hour) |
+      | *Priority*                      | Set to the highest value available, typically **0**. |
+      | *TTL*                           | **3600** (1 hour)                                    |
 
       > [!NOTE]
       >
@@ -183,21 +183,21 @@ To add an MX record and other supporting email DNS records for use with email in
 
     - **Autodiscover CNAME record** - This DNS record is optional but highly recommended. It allows automatic configuration of a user's email in products that support it, for example Microsoft Outlook.
 
-      |  DNS record field  | Value |
-      | ------------------ | ----- |
-      | *Type* | **CNAME (Alias)** |
-      | *Host Name* or *Alias* | **autodiscover** |
+      | **DNS record field**            | **Value**         |
+      | ------------------------------- | ----------------- |
+      | *Type*                          | **CNAME (Alias)** |
+      | *Host Name* or *Alias*          | **autodiscover**  |
       | *Points to address* or *Target* | Copy the autodiscover CNAME record value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
-      | *TTL* | **3600** (1 hour) |
+      | *TTL*                           | **3600** (1 hour) |
 
     - **SPF TXT record** - This record is optional but highly recommended. The SPF TXT record helps prevent email spam. For more information on SPF TXT records, see [Help prevent email spam (Outlook, Exchange Online) by adding appropriate DNS records](#help-prevent-email-spam-outlook-exchange-online-by-adding-appropriate-dns-records) in this article.
 
-      |  DNS record field  | Value |
-      | ------------------ | ----- |
-      | *Type* | **TXT (Text)** |
-      | *Host Name*, *TXT Name*, or *Alias* | **@** |
-      | *TXT value* | **v=spf1 include:spf.protection.outlook.com -all** |
-      | *TTL* | **3600** (1 hour) |
+      | **DNS record field**                | **Value**                                          |
+      | ----------------------------------- | -------------------------------------------------- |
+      | *Type*                              | **TXT (Text)**                                     |
+      | *Host Name*, *TXT Name*, or *Alias* | **@**                                              |
+      | *TXT value*                         | **v=spf1 include:spf.protection.outlook.com -all** |
+      | *TTL*                               | **3600** (1 hour)                                  |
 
       > [!IMPORTANT]
       >
@@ -205,19 +205,19 @@ To add an MX record and other supporting email DNS records for use with email in
 
     - **DomainKeys Identified Mail (DKIM) CNAME records** - This record is optional. The DKIM record helps prevent email spam. For more information on DKIM records, see [Help prevent email spam (Outlook, Exchange Online) by adding appropriate DNS records](#help-prevent-email-spam-outlook-exchange-online-by-adding-appropriate-dns-records) in this article.
 
-      |  DNS record field  | Value |
-      | ------------------ | ----- |
-      | *Type* | **CNAME (Alias)**        |
-      | *Host Name* or *Alias* | **selector1._domainkey** |
+      | **DNS record field**            | **Value**                |
+      | ------------------------------- | ------------------------ |
+      | *Type*                          | **CNAME (Alias)**        |
+      | *Host Name* or *Alias*          | **selector1._domainkey** |
       | *Points to address* or *Target* | Copy the first value displayed under **DomainKeys Identified Mail (DKIM)** in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
-      | *TTL* | **3600** (1 hour) |
+      | *TTL*                           | **3600** (1 hour)        |
 
-      |  DNS record field  | Value |
-      | ------------------ | ----- |
-      | *Type* | **CNAME (Alias)** |
-      | *Host Name* or *Alias* | **selector2._domainkey** |
+      | **DNS record field**            | **Value**                |
+      | ------------------------------- | ------------------------ |
+      | *Type*                          | **CNAME (Alias)**        |
+      | *Host Name* or *Alias*          | **selector2._domainkey** |
       | *Points to address* or *Target* | Copy the second value displayed under **DomainKeys Identified Mail (DKIM)** in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
-      | *TTL* | **3600** (1 hour) |
+      | *TTL*                           | **3600** (1 hour)        |
 
 1. If MX records already exist for the previous email provider, take one of the following two actions to ensure that email starts getting delivered to Microsoft 365:
 
@@ -241,11 +241,11 @@ Select the tab based on your registrar's support for **Domain Connect**:
 
 To add CNAME and SRV records required by Microsoft 365 services such as Microsoft Teams, Exchange Online, or Microsoft Intune:
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
-1. Under **Settings**, select [**Domains**](https://admin.cloud.microsoft/?#/Domains).
+1. Under **Settings**, select [**Domains**](https://go.microsoft.com/fwlink/p/?linkid=834818).
 
 1. In the **Domains** page, select a domain.
 
@@ -270,11 +270,11 @@ To add CNAME and SRV records required by Microsoft 365 services such as Microsof
 
 To add CNAME and SRV records required by Microsoft 365 services such as Microsoft Teams, Exchange Online, or Microsoft Intune:
 
-1. Sign in to the [Microsoft 365 admin center](https://admin.cloud.microsoft/).
+1. Sign in to the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339).
 
 1. From the left navigation bar, select **… Show all**, and then select **Settings** to expand it.
 
-1. Under **Settings**, select [**Domains**](https://admin.cloud.microsoft/?#/Domains).
+1. Under **Settings**, select [**Domains**](https://go.microsoft.com/fwlink/p/?linkid=834818).
 
 1. In the **Domains** page, select a domain.
 
@@ -307,56 +307,56 @@ Examples of CNAME and SRV DNS records:
 
 - **CNAME record**
 
-    |  DNS record field  | Value |
-    | ------------------ | ----- |
-    | *Type* | **CNAME (Alias)** |
-    | *Host Name* or *Alias* | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
+    | **DNS record field**            | **Value**                |
+    | ------------------------------- | ------------------------ |
+    | *Type*                          | **CNAME (Alias)**        |
+    | *Host Name* or *Alias*          | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
     | *Points to address* or *Target* | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
-    | *TTL* | **3600** (1 hour) |
+    | *TTL*                           | **3600** (1 hour)        |
 
     For example, to add the required CNAME records for Microsoft Intune, add the following CNAME records:
 
-    |  DNS record field  | Value |
-    | ------------------ | ----- |
-    | *Type* | **CNAME (Alias)** |
-    | *Host Name* or *Alias* | **enterpriseregistration** |
+    | **DNS record field**            | **Value**                               |
+    | ------------------------------- | --------------------------------------- |
+    | *Type*                          | **CNAME (Alias)**                       |
+    | *Host Name* or *Alias*          | **enterpriseregistration**              |
     | *Points to address* or *Target* | **enterpriseregistration.windows.net.** |
-    | *TTL* | **3600** (1 hour) |
+    | *TTL*                           | **3600** (1 hour)                       |
 
-    |  DNS record field  | Value |
-    | ------------------ | ----- |
-    | *Type* | **CNAME (Alias)** |
-    | *Host Name* or *Alias* | **enterpriseenrollment** |
+    | **DNS record field**            | **Value**                                        |
+    | ------------------------------- | ------------------------------------------------ |
+    | *Type*                          | **CNAME (Alias)**                                |
+    | *Host Name* or *Alias*          | **enterpriseenrollment**                         |
     | *Points to address* or *Target* | **enterpriseenrollment-s.manage.microsoft.com.** |
-    | *TTL* | **3600** (1 hour) |
+    | *TTL*                           | **3600** (1 hour)                                |
 
 - **SRV record**
 
-    |  DNS record field  | Value |
-    | ------------------ | ----- |
-    | *Type* | **SRV (Service)** |
-    | *Host Name* or *Alias* | **@** |
-    | *Service* | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
-    | *Protocol* | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
-    | *Target* | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
-    | *Priority* | **100** |
-    | *Weight* | **1** |
-    | *Port* | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
-    | *TTL* | **3600** (1 hour) |
+    | **DNS record field**   | **Value**                                                                                                         |
+    | ---------------------- | ----------------------------------------------------------------------------------------------------------------- |
+    | *Type*                 | **SRV (Service)**                                                                                                 |
+    | *Host Name* or *Alias* | **@**                                                                                                             |
+    | *Service*              | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
+    | *Protocol*             | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
+    | *Target*               | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
+    | *Priority*             | **100**                                                                                                           |
+    | *Weight*               | **1**                                                                                                             |
+    | *Port*                 | Copy the value displayed in the Microsoft 365 admin center **Add DNS records** page and paste it into this field. |
+    | *TTL*                  | **3600** (1 hour)                                                                                                 |
 
   For example, to add the required SRV record for Microsoft Teams in Microsoft 365, add the following SRV record:
 
-    |  DNS record field  | Value |
-    | ------------------ | ----- |
-    | *Type* | **SRV (Service)** |
-    | *Host Name* or *Alias*| **@** |
-    | *Service* | **_sipfederationtls** |
-    | *Protocol* | **TCP** |
-    | *Target* | **sipfed.online.lync.com** |
-    | *Priority* | **100** |
-    | *Weight* | **1** |
-    | *Port* | **5061** |
-    | *TTL* | **3600** (1 hour) |
+    | **DNS record field**   | **Value**                  |
+    | ---------------------- | -------------------------- |
+    | *Type*                 | **SRV (Service)**          |
+    | *Host Name* or *Alias* | **@**                      |
+    | *Service*              | **_sipfederationtls**      |
+    | *Protocol*             | **TCP**                    |
+    | *Target*               | **sipfed.online.lync.com** |
+    | *Priority*             | **100**                    |
+    | *Weight*               | **1**                      |
+    | *Port*                 | **5061**                   |
+    | *TTL*                  | **3600** (1 hour)          |
 
     > [!NOTE]
     >
@@ -387,29 +387,29 @@ If your registrar doesn't allow setting this field to **@**, leave it blank. Use
 
 If your registrar doesn't provide separate **Service** and **Protocol** fields for SRV records, you must specify the **Service** and **Protocol** values in the record's **Host Name**/**Alias** field. To add these values, create a single string, separating the values with a dot. For example, for the following values:
 
-|  DNS record field  | Value |
-| ------------------ | ----- |
-| *Type* | **SRV (Service)** |
-| *Host Name* or *Alias*| **@** |
-| *Service* | **_sipfederationtls** |
-| *Protocol* | **TCP** |
-| *Target* | **sipfed.online.lync.com** |
-| *Priority* | **100** |
-| *Weight* | **1** |
-| *Port* | **5061** |
-| *TTL* | **3600** (1 hour) |
+| **DNS record field**   | **Value**                  |
+| ---------------------- | -------------------------- |
+| *Type*                 | **SRV (Service)**          |
+| *Host Name* or *Alias* | **@**                      |
+| *Service*              | **_sipfederationtls**      |
+| *Protocol*             | **TCP**                    |
+| *Target*               | **sipfed.online.lync.com** |
+| *Priority*             | **100**                    |
+| *Weight*               | **1**                      |
+| *Port*                 | **5061**                   |
+| *TTL*                  | **3600** (1 hour)          |
 
 enter the following value in the **Host Name**/**Alias** field instead of **@**:
 
-|  DNS record field  | Value |
-| ------------------ | ----- |
-| *Type* | **SRV (Service)** |
-| *Host Name* or *Alias*| **_sipfederationtls._tcp** |
-| *Target* | **sipfed.online.lync.com** |
-| *Priority* | **100** |
-| *Weight* | **1** |
-| *Port* | **5061** |
-| *TTL* | **3600** (1 hour) |
+| **DNS record field**   | **Value**                  |
+| ---------------------- | -------------------------- |
+| *Type*                 | **SRV (Service)**          |
+| *Host Name* or *Alias* | **_sipfederationtls._tcp** |
+| *Target*               | **sipfed.online.lync.com** |
+| *Priority*             | **100**                    |
+| *Weight*               | **1**                      |
+| *Port*                 | **5061**                   |
+| *TTL*                  | **3600** (1 hour)          |
 
 #### Priority, Weight, and Port fields aren't available
 
@@ -422,41 +422,41 @@ If your registrar doesn't provide the **Priority**, **Weight**, and **Port**  fi
 
 For example, for the following values:
 
-|  DNS record field  | Value |
-| ------------------ | ----- |
-| *Type* | **SRV (Service)** |
-| *Host Name* or *Alias*| **@** |
-| *Service* | **_sipfederationtls** |
-| *Protocol* | **TCP** |
-| *Target* | **sipfed.online.lync.com** |
-| *Priority* | **100** |
-| *Weight* | **1** |
-| *Port* | **5061** |
-| *TTL* | **3600** (1 hour) |
+| **DNS record field**   | **Value**                  |
+| ---------------------- | -------------------------- |
+| *Type*                 | **SRV (Service)**          |
+| *Host Name* or *Alias* | **@**                      |
+| *Service*              | **_sipfederationtls**      |
+| *Protocol*             | **TCP**                    |
+| *Target*               | **sipfed.online.lync.com** |
+| *Priority*             | **100**                    |
+| *Weight*               | **1**                      |
+| *Port*                 | **5061**                   |
+| *TTL*                  | **3600** (1 hour)          |
 
 enter the following value in the **Target** field:
 
-|  DNS record field  | Value |
-| ------------------ | ----- |
-| *Type* | **SRV (Service)** |
-| *Host Name* or *Alias*| **@** |
-| *Service* | **_sipfederationtls** |
-| *Protocol* | **TCP** |
-| *Target* | **100 1 5061 sipfed.online.lync.com** |
-| *TTL* | **3600** (1 hour) |
+| **DNS record field**   | **Value**                             |
+| ---------------------- | ------------------------------------- |
+| *Type*                 | **SRV (Service)**                     |
+| *Host Name* or *Alias* | **@**                                 |
+| *Service*              | **_sipfederationtls**                 |
+| *Protocol*             | **TCP**                               |
+| *Target*               | **100 1 5061 sipfed.online.lync.com** |
+| *TTL*                  | **3600** (1 hour)                     |
 
 > [!WARNING]
 >
 > - Some registrars require that the string entered into the **Target** field end with a dot (**.**). For example:
 >
->    |  DNS record field  | Value |
->    | ------------------ | ----- |
->    | *Type* | **SRV (Service)** |
->    | *Host Name* or *Alias*| **@** |
->    | *Service* | **_sipfederationtls** |
->    | *Protocol* | **TCP** |
->    | *Target* | **100 1 5061 sipfed.online.lync.com.** |
->    | *TTL* | **3600** (1 hour) |
+>    | **DNS record field**   | **Value**                              |
+>    | ---------------------- | -------------------------------------- |
+>    | *Type*                 | **SRV (Service)**                      |
+>    | *Host Name* or *Alias* | **@**                                  |
+>    | *Service*              | **_sipfederationtls**                  |
+>    | *Protocol*             | **TCP**                                |
+>    | *Target*               | **100 1 5061 sipfed.online.lync.com.** |
+>    | *TTL*                  | **3600** (1 hour)                      |
 >
 >     Check with your registrar to verify if ending with a dot (**.**) is required.
 >
