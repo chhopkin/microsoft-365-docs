@@ -72,7 +72,7 @@ items:
         href: microsoft-365-copilot-chat-requirements.md
     - name: Architecture & how Copilot works
       href: microsoft-365-copilot-architecture.md
-    - name: Configure data security for Microsoft 365 Copilot
+    - name: Configure a secure and governed data foundation for Microsoft 365 Copilot
       href: configure-data-security-copilot.md
     - name: Microsoft 365 Copilot Admin settings
       href: microsoft-365-copilot-app-admin-settings.md
