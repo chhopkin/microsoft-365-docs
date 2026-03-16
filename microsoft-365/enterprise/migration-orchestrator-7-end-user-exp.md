@@ -126,15 +126,23 @@ If you need to edit Identity Mapping while any migration batches are running, do
 
 1. Self-chats ("You") aren't migrated. These self-chats aren't available in the target tenant.
 2. Chat threads created by a user external to the source and target tenant don't migrate or update. Target users don't have access to these chat threads.
-3. Chat threads created by a user who no longer exists and/or no longer has a Teams license on either tenant isn't migrated or updated. Target users don't have access to these chat threads.
+1. Chat threads created by a user who no longer exists and/or no longer has a Teams license on either tenant isn't migrated or updated. Target users don't have access to these chat threads.
+1. 1:1 threads without two members are not migrated.
+
 4. Reactions to chat messages aren't migrated. Target users don't see reactions sent before migration.
 5. Migrated threads that are still accessible on the source tenant. They aren't locked, but any new messages sent after migration don't migrate to the target tenant.
-6. Apps aren't migrated, including Polls.
+1. Apps aren't migrated, including Polls. App messages are not migrated.
+
 7. Forwarded/Scheduled messages aren't migrated. If a scheduled message was sent, it migrates. If a scheduled message was scheduled, but not sent, it doesn't migrate.
 8. Users with unrecognized GUID formats, users without Microsoft accounts, and users without display names or user IDs don't have their messages migrated and aren't added to target threads.
 9. Threads without any identifiable members aren't migrated.
-10. Users who removed from chats before migration don't see the chat history on the target after migration.
-11. Messages with unsupported/decommissioned emojis, missing body content, legacy Skype metadata, code snippets, invalid source images, attachments without extensions, or attachments with missing markers aren't migrated.
+1. Users who have been removed from chats before migration don't see the chat history on the target after migration.
+
+1. Messages with more than 4MB of data, unsupported/decommissioned emojis, missing body content, legacy Skype metadata, code snippets, invalid source images, attachments without extensions, or attachments with missing markers aren't migrated.
+
+1. Deleted messages are not migrated.
+
+1. System Event Messages other than meeting recap messages are not migrated.
 
 ## Meetings issues
 
