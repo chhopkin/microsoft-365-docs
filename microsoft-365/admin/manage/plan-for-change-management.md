@@ -45,7 +45,7 @@ This modern change management model for Microsoft 365 helps your Frontier Firm s
 From the Microsoft admin center, you can choose between two general availability release channels for Microsoft 365 updates: Standard release and Deferred release.
 
 With Standard release, your organization receives new features as soon as they’re generally available. You can immediately manage individual policies and settings for these new features. Your organization is on standard release by default.
-IT admins who need extra time to do security reviews and compliance checks before releasing Microsoft 365 deferred-capable features to their organization might want to assign most users in your organization to Deferred release. To get up to 30 days to prepare for new Microsoft 365 deferred-capable features, switch to deferred release. After 30 days, generally available Microsoft 365 features appear to your users. For either standard or deferred release channel, you can manage individual policies and settings for these new features.
+IT admins who need extra time to do security reviews and compliance checks before releasing Microsoft 365 deferred-capable features to their organization might want to assign most users in your organization to Deferred release. To get up to 30 days to prepare for new Microsoft 365 deferred-capable features, switch to deferred release. After 30 days, generally available Microsoft 365 features appear to your users. For either standard or deferred releases, you can manage individual policies and settings for these new features.
 
 If you want to do early experimentation or validation before the broad rollout of M365 features, you can opt-in users for Targeted release or enable the Frontier program.
 

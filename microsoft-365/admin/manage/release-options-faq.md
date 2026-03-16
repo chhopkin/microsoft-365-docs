@@ -50,7 +50,7 @@ By using the Deferred release option, you can help your organization ensure lega
 
 ## Why would my organization want ot use Targeted release?
 
-Targeted release offers early access to new features before general availability, whereas Standard release offers access to new Microsoft 365 Copilot features as soon as they become generally available. For more information on how to configure Targeted Release for your organization, see Set up the Standard or Targeted release options.
+Targeted release offers early access to new features before general availability, whereas Standard release offers access to new Microsoft 365 Copilot features as soon as they become generally available. For more information on how to configure Targeted Release for your organization, see [Configure release options](configure-release-options.md).
 
 ## How does Deferred Release affect Frontier features?
 

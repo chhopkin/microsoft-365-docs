@@ -92,7 +92,6 @@ To assign users to the Targeted release audience, follow these steps:
 
 If you move users from targeted release to standard release, they might lose access to features that aren't available yet in standard release.
 
-
 ### Deferred release
 
 >[!NOTE]
