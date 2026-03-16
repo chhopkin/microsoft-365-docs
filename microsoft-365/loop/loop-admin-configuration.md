@@ -1,5 +1,5 @@
 ---
-ms.date: 01/26/2026
+ms.date: 03/13/2026
 ms.update-cycle: 180-days
 title: "Manage Loop in your organization"
 ms.reviewer: dancost, tonchan
@@ -45,7 +45,7 @@ description: "Manage Loop in your organization"
 
 ## Overview
 
-Loop components and their integrations are powered by `.loop` files (earlier releases created `.fluid` files), stored in OneDrive, SharePoint, or [SharePoint Embedded](/sharepoint/dev/embedded/concepts/admin-exp/consuming-tenant-admin/cta). Storage counts against your organization's SharePoint quota. For storage locations, see [storage](loop-storage.md#storage).
+Loop components and their integrations are powered by `.loop` files (earlier releases created `.fluid` files), stored in OneDrive, SharePoint, or [SharePoint Embedded](/sharepoint/dev/embedded/concepts/admin-exp/consuming-tenant-admin/cta). Storage counts against your organization's SharePoint quota. Loop My workspace uses the same user-owned SharePoint Embedded container as Copilot Pages and Copilot Notebooks. For storage locations, see [storage](loop-storage.md#storage).
 
 ## Two Admin Policy Tools
 
@@ -62,7 +62,7 @@ Loop components and Loop workspaces are a core service integrated into SharePoin
 
 To apply Cloud Policy settings to specific users, assign the policy to a Microsoft 365 group. For steps to create a group, see [Create a Microsoft 365 group](/microsoft-365/admin/create-groups/create-groups).
 
-You can also use security or dynamic groups. For details, see [Create, edit, or delete a security group](/microsoft-365/admin/email/create-edit-or-delete-a-security-group) and [Create dynamic groups in Azure AD](/azure/active-directory/external-identities/use-dynamic-groups).
+You can also use security or dynamic groups. For details, see [Create, edit, or delete a security group](/microsoft-365/admin/email/create-edit-or-delete-a-security-group) and [Create dynamic groups in Microsoft Entra ID](/azure/active-directory/external-identities/use-dynamic-groups).
 
 > [!NOTE]
 > If you apply the policy to all users in the tenant, group setup isn't required.
@@ -80,35 +80,38 @@ Use this guide to identify which policy tool you need:
 | Loop workspaces (in Loop app or Teams channels) | Cloud Policy: **Create Loop workspaces in Loop** |
 | Loop in Outlook, OneNote, Whiteboard, or New Calendar | Cloud Policy: **Create and view Loop files in Microsoft apps that support Loop** |
 | Loop in Outlook only (granular control) | Cloud Policy: **Create and view Loop files in Outlook** |
-| Loop in Teams chat, channels, and classic meetings | SharePoint PowerShell: `Set-SPOTenant` commands |
+| Loop in Teams chat, channels, and meeting notes | SharePoint PowerShell: `Set-SPOTenant` commands |
 
 ### Full policy reference
 
 |Configure  |Setting Type  |Specific Policy  |Notes  |
 |---------|---------|---------|---------|
-|Loop workspaces creation  |  Cloud Policy  |  **Create Loop workspaces in Loop**  |  Applies to: Loop workspaces, including Teams channel workspaces  |
+|Loop workspaces creation  |  Cloud Policy  |  **Create Loop workspaces in Loop**  |  Applies to: Loop workspaces, including Teams channel workspaces. For the personal user-owned container shared by My workspace, Copilot Pages, and Copilot Notebooks, this is one of the two creation controls.  |
 |Loop component creation and integration across Microsoft 365  |  Cloud Policy  | **Create and view Loop files in Microsoft apps that support Loop**  |  Applies to: <br/> - Outlook integration<br> - [Teams New Calendar](https://support.microsoft.com/office/get-started-with-the-new-calendar-in-microsoft-teams-98f3b637-5da2-43e2-91b3-f312ab3e4dc5) integration<br> - OneNote integration<br> - Whiteboard integration<br><br> Does **NOT** apply to:<br> - Loop workspaces<br> - Teams integration<br> - Copilot Pages<br> - Copilot Notebooks  |
 |Outlook creation and integration of Loop experiences  |  Cloud Policy  |  **Create and view Loop files in Outlook**  |  First checks **Create and view Loop files in Microsoft apps that support Loop**; then applies **Create and view Loop files in Outlook**, if applicable.<br/><br/>Applies to: <br/> - Outlook<br/> - [Teams New Calendar](https://support.microsoft.com/office/get-started-with-the-new-calendar-in-microsoft-teams-98f3b637-5da2-43e2-91b3-f312ab3e4dc5)  |
 |Teams creation and integration  |  SharePoint property  |  See [Settings management for Loop components in Teams](#settings-management-for-loop-functionality-in-teams)  |  Teams only checks the settings in this row.  |
 
-## Storage based view of the admin policy settings
+## Creation path view of the admin policy settings
 
-Configure the creation of content in these locations by using the appropriate policy setting:
+Use this table to map each creation path to the setting it checks. This table doesn't mean each storage location can be turned off independently. Loop My workspace, Copilot Pages, and Copilot Notebooks all use the same user-owned SharePoint Embedded container, while the other rows below create content in separate SharePoint Embedded containers, SharePoint sites, or OneDrive.
 
-|Loop content originally created in|️️️Manage with this policy|Loop content storage|
-|-----|-----|-----|
-|Loop application, My workspace|Cloud Policy: **Create Loop workspaces in Loop**|SharePoint Embedded: ✔️in user-owned container|
-|Loop application, shared workspace|Cloud Policy: **Create Loop workspaces in Loop**|SharePoint Embedded: ✔️in shared container|
-|[Teams channel, shared workspace](https://techcommunity.microsoft.com/blog/microsoft365insiderblog/collaborate-in-real-time-with-workspaces-in-teams/4414334)|Cloud Policy:  **Create Loop workspaces in Loop**|SharePoint Embedded: ✔️in shared container|
-|Teams channel meeting (Teams Classic Calendar)|SharePoint property `Set-SPOTenant -IsCollabMeetingNotesFluidEnabled $true`|SharePoint Site: 📁`Meetings`|
-|Teams channel meeting ([Teams New Calendar](https://support.microsoft.com/office/get-started-with-the-new-calendar-in-microsoft-teams-98f3b637-5da2-43e2-91b3-f312ab3e4dc5))|Cloud Policy: **Create and view Loop files in Microsoft apps that support Loop** -or- **Create and view Loop files in Outlook**|SharePoint Site: 📁`Meetings`|
-|Teams channel|SharePoint property `Set-SPOTenant -IsCollabMeetingNotesFluidEnabled $true`|SharePoint Site: ✔️in Channel folder|
-|Teams private chat|SharePoint property `Set-SPOTenant -IsLoopEnabled $true`|User's OneDrive: 📁`Microsoft Teams Chat files`|
-|Teams private meeting (Teams Classic Calendar)|SharePoint property `Set-SPOTenant -IsLoopEnabled $true`|User's OneDrive: 📁`Meetings`|
-|Teams private meeting ([Teams New Calendar](https://support.microsoft.com/office/get-started-with-the-new-calendar-in-microsoft-teams-98f3b637-5da2-43e2-91b3-f312ab3e4dc5))|Cloud Policy: **Create and view Loop files in Microsoft apps that support Loop** -or- **Create and view Loop files in Outlook**|User's OneDrive: 📁`Meetings`|
-|Outlook email message|Cloud Policy: **Create and view Loop files in Microsoft apps that support Loop** -or- **Create and view Loop files in Outlook**|User's OneDrive: 📁`Attachments`|
-|OneNote for Windows or for the web|Cloud Policy: **Create and view Loop files in Microsoft apps that support Loop**|User's OneDrive: 📁`OneNote Loop files`|
-|Whiteboard|Cloud Policy: **Create and view Loop files in Microsoft apps that support Loop**|User's OneDrive: 📁`Whiteboard\Components`|
+| Creation path | Policy checked for creation | Storage result |
+| --- | --- | --- |
+| Loop application, My workspace | Cloud Policy: **Create Loop workspaces in Loop** | SharePoint Embedded: same user-owned container used by Copilot Pages and Copilot Notebooks |
+| Copilot Pages or Copilot Notebooks | Cloud Policy: **Create and view Copilot Pages and Copilot Notebooks** | SharePoint Embedded: same user-owned container used by Loop My workspace |
+| Loop application, shared workspace | Cloud Policy: **Create Loop workspaces in Loop** | SharePoint Embedded: shared container |
+| [Teams channel, shared workspace](https://techcommunity.microsoft.com/blog/microsoft365insiderblog/collaborate-in-real-time-with-workspaces-in-teams/4414334) | Cloud Policy: **Create Loop workspaces in Loop** | SharePoint Embedded: shared container |
+| Teams channel meeting (Teams In Meeting experience and Teams Classic Calendar) | SharePoint property `Set-SPOTenant -IsCollabMeetingNotesFluidEnabled $true` | SharePoint site: `Meetings` folder |
+| Teams channel meeting ([Teams New Calendar](https://support.microsoft.com/office/get-started-with-the-new-calendar-in-microsoft-teams-98f3b637-5da2-43e2-91b3-f312ab3e4dc5)) | Cloud Policy: **Create and view Loop files in Microsoft apps that support Loop** or **Create and view Loop files in Outlook** | SharePoint site: `Meetings` folder |
+| Teams channel | SharePoint property `Set-SPOTenant -IsCollabMeetingNotesFluidEnabled $true` | SharePoint site: channel folder |
+| Teams private chat | SharePoint property `Set-SPOTenant -IsLoopEnabled $true` | User's OneDrive: `Microsoft Teams Chat files` folder |
+| Teams private meeting (Teams In Meeting experience and Teams Classic Calendar) | SharePoint property `Set-SPOTenant -IsLoopEnabled $true` | User's OneDrive: `Meetings` folder |
+| Teams private meeting ([Teams New Calendar](https://support.microsoft.com/office/get-started-with-the-new-calendar-in-microsoft-teams-98f3b637-5da2-43e2-91b3-f312ab3e4dc5)) | Cloud Policy: **Create and view Loop files in Microsoft apps that support Loop** or **Create and view Loop files in Outlook** | User's OneDrive: `Meetings` folder |
+| Outlook email message | Cloud Policy: **Create and view Loop files in Microsoft apps that support Loop** or **Create and view Loop files in Outlook** | User's OneDrive: `Attachments` folder |
+| OneNote for Windows or for the web | Cloud Policy: **Create and view Loop files in Microsoft apps that support Loop** | User's OneDrive: `OneNote Loop files` folder |
+| Whiteboard | Cloud Policy: **Create and view Loop files in Microsoft apps that support Loop** | User's OneDrive: `Whiteboard\Components` folder |
+
+To prevent the single user-owned SharePoint Embedded container from being created, disable both **Create Loop workspaces in Loop** and **Create and view Copilot Pages and Copilot Notebooks** for the same user.
 
 ## Example configurations
 
@@ -152,6 +155,8 @@ Copilot Pages, Copilot Notebooks, and the Loop experiences (except for Microsoft
 - **Create and view Loop files in Microsoft apps that support Loop**
 - **Create and view Loop files in Outlook**
 
+Loop My workspace uses the same user-owned SharePoint Embedded container as Copilot Pages and Copilot Notebooks. That container can be created when either **Create Loop workspaces in Loop** or **Create and view Copilot Pages and Copilot Notebooks** allows creation for the user. To prevent creation of that single user-owned container, disable both policies for the same user.
+
 1. Sign in to https://config.office.com/ with your Microsoft 365 admin credentials.
 1. Select **Customization** from the left pane.
 1. Select **Policy Management**.
@@ -185,10 +190,10 @@ Copilot Pages, Copilot Notebooks, and the Loop experiences (except for Microsoft
 1. Save the policy configuration.
 1. Reassign priority for any security group, if required. (If two or more policy configurations are applicable to the same set of users, the one with the higher priority is applied.)
 
-In case you create a new policy configuration or change the configuration for an existing policy, there can be a delay in the change being reflected as described below:
+    In case you create a new policy configuration or change the configuration for an existing policy, there can be a delay in the change being reflected as described below:
 
-- If there were existing policy configurations prior to the change, the change takes up to 90 minutes to be reflected.
-- If there were no policy configurations prior to the change, the change takes up to 24 hours to be reflected.
+    - If there were existing policy configurations prior to the change, the change takes up to 90 minutes to be reflected.
+    - If there were no policy configurations prior to the change, the change takes up to 24 hours to be reflected.
 
 > [!NOTE]
 > To enable a Cloud Policy for only a specific subset of users:
