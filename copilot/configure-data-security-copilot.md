@@ -179,7 +179,7 @@ Reduce ongoing risk and improve Copilot answer quality by continuously cleaning 
 
 After completing the steps in this article:
 
-- Use the [Microsoft Purview portal](/purview/purview-portal) and the [Content Governance Agent](/sharepoint/content-governance-agent) to view information and run reports on a scheduled basis.
+1. Use the [Microsoft Purview portal](/purview/purview-portal) and the [Content Governance Agent](/sharepoint/content-governance-agent) to view information and run reports on a scheduled basis.
 
-- Educate site owners and users on labeling, sharing, and responsible Copilot use. See [Microsoft 365 Copilot data and compliance readiness](/copilot/microsoft-365/microsoft-365-copilot-minimum-requirements-data-compliance).
+2. Educate site owners and users on labeling, sharing, and responsible Copilot use. See [Microsoft 365 Copilot data and compliance readiness](/copilot/microsoft-365/microsoft-365-copilot-minimum-requirements-data-compliance).
 
