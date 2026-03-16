@@ -73,7 +73,7 @@ These controls include:
 - Governance and lifecycle policies that reduce long‑term oversharing risk.
 - Information protection policies that restrict Copilot access based on sensitivity labels and DLP conditions.
 
-For prescriptive remediation guidance, see [Microsoft 365 Copilot blueprint for oversharing](microsoft-365-copilot-blueprint-oversharing.md).
+For prescriptive remediation guidance, see [Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint](microsoft-365-copilot-blueprint-oversharing.md).
 
 ## Where Copilot usage data is stored and how it's audited
 
@@ -95,4 +95,4 @@ Retention and deletion behavior follows configured Microsoft Purview retention p
 
 - [Microsoft 365 Copilot architecture and how it works](/copilot/microsoft-365/microsoft-365-copilot-architecture)
 - [Data, Privacy, and Security for Microsoft 365 Copilot](microsoft-365-copilot-privacy.md)
-- [Microsoft 365 Copilot blueprint for oversharing](microsoft-365-copilot-blueprint-oversharing.md)
+- [Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint](microsoft-365-copilot-blueprint-oversharing.md)

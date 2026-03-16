@@ -38,7 +38,7 @@ items:
     items:
     - name: Security for Microsoft 365 Copilot
       href: security-microsoft-365-copilot.md
-    - name: Secure & Governed Data Foundation for Microsoft 365 Copilot - Deployment blueprint
+    - name: Secure & governed data foundation for Microsoft 365 Copilot - Deployment blueprint
       href: microsoft-365-copilot-blueprint-oversharing.md
     - name: Apply principles of Zero Trust to Microsoft 365 Copilot
       href: /security/zero-trust/copilots/zero-trust-microsoft-365-copilot?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/agent-framework/bread/toc.json
@@ -361,7 +361,7 @@ items:
             href: /sharepoint/get-ready-copilot-sharepoint-advanced-management?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
           - name: Use Microsoft Purview Data Security Posture Management (DSPM) for AI
             href: /purview/dspm-for-ai?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
-          - name: Address oversharing concerns in Microsoft 365 Copilot deployment
+          - name: Secure & governed data foundation for Microsoft 365 Copilot - Deployment blueprint
             href: microsoft-365-copilot-blueprint-oversharing.md?toc=/copilot/microsoft-365/toc.json&bc=/copilot/microsoft-365/breadcrumb/toc.json
         - name: Manage auditing and reporting for Copilot agents
           items:
