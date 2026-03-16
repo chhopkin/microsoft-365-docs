@@ -47,8 +47,8 @@ The capabilities described in this article require:
 
 - [Microsoft 365 E3](https://www.microsoft.com/microsoft-365/enterprise/e3) or [Microsoft 365 E5](https://www.microsoft.com/microsoft-365/enterprise/e5) (or [Office 365 E3](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3) or [Office 365 E5](https://www.microsoft.com/microsoft-365/enterprise/office-365-e5)) for core Microsoft 365 services and features, such as SharePoint, OneDrive, and Microsoft Purview features.
 
-  - [Microsoft Purview](/purview/) (varies by feature, with foundational capabilities in E3 licenses and optimized features in E5 licenses)
-    
+  - This article cover both the [Microsoft Purview](/purview/) foundational capabilities that are included in Microsoft 365 E3 and the optimized features that are included in Microsoft 365 E5
+
 - [Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)
 
   - [SharePoint Advanced Management](/sharepoint/advanced-management) (included with Copilot licenses)
