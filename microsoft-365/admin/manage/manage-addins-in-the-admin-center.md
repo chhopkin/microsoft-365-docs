@@ -133,14 +133,14 @@ To enable or disable access to the Microsoft Marketplace and downloading of add-
 
 1. Select **Save** after you choose the desired setting. If the setting is already in the desired state, select the **X** in the top-right corner to cancel.
 
-The **Let users access the Office Store** setting controls all users' ability to acquire the following add-ins from Microsoft Marketplace:
-
-- Add-ins for non-subscription Word, Excel, and PowerPoint on Windows and Mac
-- Add-ins for subscription Microsoft 365
-
- When you disable access to the Microsoft Marketplace, a user who tries to access it sees the following message:
-
- **Office store not available. Unfortunately, your organization has disabled access to the Office Store. Please contact your administrator to get access to the store.**
+    The **Let users access the Office Store** setting controls all users' ability to acquire the following add-ins from Microsoft Marketplace:
+    
+    - Add-ins for non-subscription Word, Excel, and PowerPoint on Windows and Mac
+    - Add-ins for subscription Microsoft 365
+    
+     When you disable access to the Microsoft Marketplace, a user who tries to access it sees the following message:
+    
+     **Office store not available. Unfortunately, your organization has disabled access to the Office Store. Please contact your administrator to get access to the store.**
 
 ### Important limitations and exceptions
 
