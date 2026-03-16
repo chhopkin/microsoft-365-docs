@@ -42,8 +42,8 @@ This blueprint is organized into three pillars:
 The blueprint covers the following areas:
 - A practical framework to reduce Copilot exposure quickly, then harden your environment with enforceable defaults
 - Guidance powered by:
-   - Microsoft Purview, which enables secure and governed Copilot deployment by providing tools to prevent data loss, mitigate insider risk, and ensure compliance with organizational and regulatory requirements for both Copilot at runtime and Microsoft 365 data referenced by Copilot
-   - SharePoint Advanced Management (SAM), which is included with your Microsoft 365 Copilot license. SAM provides capabilities for managing sharing, access, and governance across SharePoint.
+   - [Microsoft Purview](/purview/), which enables secure and governed Copilot deployment by providing tools to prevent data loss, mitigate insider risk, and ensure compliance with organizational and regulatory requirements for both Copilot at runtime and Microsoft 365 data referenced by Copilot
+   - [SharePoint Advanced Management](/sharepoint/advanced-management) (SAM), which is included with your Microsoft 365 Copilot license. SAM provides capabilities for managing sharing, access, and governance across SharePoint.
 - Recommended admin actions to identify high-risk sites and files, apply interim access restrictions if needed, fix access issues, and continuously enforce secure guardrails.
 - Identifying and closing gaps in AI regulatory requirements, defining audit and legal requirements, and enhancing data hygiene for sites and files. 
 
@@ -58,3 +58,5 @@ The blueprint covers the following areas:
 ## Related guidance
 
 - [Microsoft Purview blueprint: Secure by default](/purview/deploymentmodels/depmod-securebydefault-intro)
+- [Configure a secure and governed foundation for Microsoft 365 Copilot](configure-data-security-copilot.md)
+- [SharePoint Advanced Management](/sharepoint/advanced-management)
