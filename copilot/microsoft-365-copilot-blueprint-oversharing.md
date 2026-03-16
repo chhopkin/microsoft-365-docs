@@ -46,9 +46,7 @@ The blueprint covers the following areas:
 - Recommended admin actions to identify high-risk sites and files, apply interim access restrictions if needed, fix access issues, and continuously enforce secure guardrails.
 - Identifying and closing gaps in AI regulatory requirements, defining audit and legal requirements, and enhancing data hygiene for sites and files. 
 
-*IMAGE TO BE UPDATED*
-
-:::image type="content" source="media/microsoft-365-copilot-blueprint-oversharing/blueprint-oversharing-copilot.png" alt-text="Diagram that shows oversharing remediation phases for Microsoft 365 Copilot." lightbox="media/microsoft-365-copilot-blueprint-oversharing/blueprint-oversharing-copilot.png":::
+:::image type="content" source="media/secure-govern-data-microsoft-365-copilot/secure-govern-data-microsoft-365-copilot.png" alt-text="Diagram depicting the blueprint for securing and governing data for Microsoft 365 Copilot." lightbox="media/secure-govern-data-microsoft-365-copilot/secure-govern-data-microsoft-365-copilot.png":::
 
 ## Download the blueprint and documentation
 
