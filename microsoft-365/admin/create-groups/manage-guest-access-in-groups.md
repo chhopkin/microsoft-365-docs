@@ -80,7 +80,7 @@ To remove users in the Microsoft Entra admin center, see [remove a guest user an
 
 ## Related content
 
-[Block guests from a specific group](/previous-versions/microsoft-365/solutions/per-group-guest-access.md) (article)\
+[Block guests from a specific group](/microsoft-365/solutions/per-group-guest-access) (article)\
 [Manage group membership in the Microsoft 365 admin center](add-or-remove-members-from-groups.md) (article)\
 [Microsoft Entra access reviews](/azure/active-directory/active-directory-azure-ad-controls-perform-access-review) (article)\
 [Update-MgUser](/powershell/module/microsoft.graph.users/update-mguser) (article)
