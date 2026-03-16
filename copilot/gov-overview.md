@@ -24,7 +24,7 @@ This article explains:
 - How Microsoft government clouds evolved
 - Why different government cloud environments exist
 - When to use each environment
-- How Microsoft 365 and Microsoft 365 Copilot differ across government cloud SKUs
+- How Microsoft 365 and Microsoft 365 Copilot differ across government cloud subscriptions
 
 ## How Microsoft U.S. government clouds evolved
 
