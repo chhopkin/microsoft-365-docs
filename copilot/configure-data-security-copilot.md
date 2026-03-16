@@ -6,7 +6,7 @@ f1.keywords:
 manager: dansimp
 ms.author: deniseb
 author: denisebmsft
-ms.date: 03/06/2026
+ms.date: 03/16/2026
 ms.update-cycle: 180-days
 ms.reviewer: cabailey, ruihu
 audience: Admin
@@ -25,7 +25,7 @@ appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# Configure a Secure and Governed Foundation for Microsoft 365 Copilot
+# Configure a secure and governed foundation for Microsoft 365 Copilot
 
 > Applies to: Microsoft 365 Copilot, Microsoft Purview, and SharePoint Advanced Management
 
