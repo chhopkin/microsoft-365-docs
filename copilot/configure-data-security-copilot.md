@@ -145,13 +145,13 @@ Finally, assess and close AI compliance gaps, define audit and retention require
 
 ### Identify and address gaps against AI regulations
 
-- Use [Purview Compliance Manager](/purview/compliance-manager) to assess your tenant against AI-related regulatory requirements and Microsoft recommended actions.
+1. Use [Purview Compliance Manager](/purview/compliance-manager) to assess your tenant against AI-related regulatory requirements and Microsoft recommended actions.
 
-- Review __Compliance Manager improvement actions__ related to data protection, auditability, and AI usage controls.
+2. Review **Compliance Manager improvement actions** related to data protection, auditability, and AI usage controls.
 
-- Assign and track remediation work to close __identified compliance gaps__.
+3. Assign and track remediation work to close **identified compliance gaps**.
 
-- Validate improvements using __Purview DSPM__ reports.
+4. Validate improvements using **Purview DSPM** reports.
 
 ### Define regulatory requirements
 
