@@ -77,17 +77,17 @@ Use [Microsoft Purview](/purview/purview) and [SharePoint Advanced Management](/
 
 ### Fix access and permissions
 
-For sites flagged as high-risk, use Microsoft Purview and SAM recommendations to remove excessive access, correct broken inheritance, and ensure accountable ownership.
+For sites you identify as high-risk, use Microsoft Purview and SAM recommendations to remove excessive access, correct broken inheritance, and ensure accountable ownership.
 
 1. Review [Purview DSPM data risk assessment](/purview/data-security-posture-management-oversharing?tabs=m365) recommendations for high-risk sites (for example, apply site sensitivity labels to reflect data sensitivity and restrict oversharing).
 
 1. Initiate [SAM site access reviews](/sharepoint/site-access-review) for high-risk sites so site owners can manage access (down to the file level) and:
 
-   1. Remove __excess users, groups, and company-wide sharing links__ (including EEEU), and re-scope sharing links to approved users or groups.
+   1. Remove **excess users, groups, and company-wide sharing links** (including EEEU), and re-scope sharing links to approved users or groups.
    
-   1. Correct __broken permission inheritance__ on libraries and folders.
+   1. Correct **broken permission inheritance_** on libraries and folders.
    
-   1. Assign or confirm __site ownership__ for all remediated sites using SAM site lifecycle management.
+   1. Assign or confirm **site ownership** for all remediated sites using SAM site lifecycle management.
    
 ### Apply interim Copilot protections
 
