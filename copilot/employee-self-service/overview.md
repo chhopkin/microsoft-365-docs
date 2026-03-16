@@ -5,7 +5,7 @@ ms.author: heidip
 author: MicrosoftHeidi
 manager: dansimp
 ms.reviewer: semani
-ms.date: 11/05/2025
+ms.date: 03/16/2026
 audience: Admin
 ms.topic: article
 ms.service: microsoft-365-copilot
@@ -19,7 +19,9 @@ appliesto:
 
 # Employee Self-Service
 
-The Employee Self-Service agent is designed as a unified, customer-facing, AI-powered interface for handling employee requests and automating routine tasks within enterprise environments. The Employee Self-Service agent, built on Copilot Studio, is intended to be customized by you. Once you customize it for your organization's needs, the Employee Self-Service agent streamlines access to HR, IT, and operational systems, reducing manual intervention and improving process efficiency.
+As part of our general availability release, access is rolling out in waves, starting with managed customers and expanding to all customers over time. If you’d like to explore access sooner, reach out to your Microsoft account team. If you don’t currently have an account team, keep an eye on [this blog post](https://aka.ms/ess/gablog) for updates on when the Employee Self-Service Agent is available to all customers in Copilot Studio.
+
+The Employee Self-Service agent is designed as a unified, customer-facing, AI-powered interface for handling employee requests and automating routine tasks within enterprise environments. The Employee Self-Service agent, built on Copilot Studio, is designed for you to customize. Once you customize it for your organization's needs, the Employee Self-Service agent streamlines access to HR, IT, and operational systems, reducing manual intervention and improving process efficiency.
 
 ## Technical Architecture
 
@@ -102,8 +104,8 @@ The following matrix provides an overview of the various external systems integr
 |IT |Power platform connectors |Not applicable |Not applicable |IT ticketing </br>- Read </br>- Create |Not applicable |Not applicable |
 |IT |Handoff |Not applicable |Not applicable |Handoff to: </br>- Now Assist </br>- Live Agent | | |
 
-- [Learn more](sap-employee-read-write-scenarios.md) about SAP SuccessFactors pre-configured employee read and write scenarios.
-- [Learn more](sap-manager-read-write-scenarios.md) about SAP SuccessFactors pre-configured manager read and write scenarios.
-- [Learn more](workday.md#topics) about Workday pre-configured scenarios.
-- [Learn more](servicenow-hrsd-itsm.md#topics) about ServiceNow HR pre-configured scenarios.
-- [Learn more](servicenow-hrsd-itsm.md#topics-1) about ServiceNow IT pre-configured scenarios.
+- [Learn more](sap-employee-read-write-scenarios.md) about SAP SuccessFactors preconfigured employee read and write scenarios.
+- [Learn more](sap-manager-read-write-scenarios.md) about SAP SuccessFactors preconfigured manager read and write scenarios.
+- [Learn more](workday.md#topics) about Workday preconfigured scenarios.
+- [Learn more](servicenow-hrsd-itsm.md#topics) about ServiceNow HR preconfigured scenarios.
+- [Learn more](servicenow-hrsd-itsm.md#topics-1) about ServiceNow IT preconfigured scenarios.
