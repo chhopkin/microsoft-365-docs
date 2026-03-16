@@ -57,7 +57,7 @@ Microsoft provides three primary Microsoft 365 government cloud environments:
 | Environment | Description | Typical customers |
 |------------|-------------|------------------|
 | **GCC (Government Community Cloud)** | A dedicated environment with U.S. data residency and government‑aligned compliance | Federal civilian agencies, state and local governments, contractors |
-| **GCC High** | A more isolated environment designed for elevated compliance and sovereignty requirements | U.S. Defense agencies and contractors handling ontrolled Unclassified Information (CUI) |
+| **GCC High** | A more isolated environment designed for elevated compliance and sovereignty requirements | U.S. Defense agencies and contractors handling controlled Unclassified Information (CUI) |
 | **DoD** | A highly restricted environment dedicated to the U.S. Department of Defense | DoD agencies and mission partners |
 
 Each environment represents a different point along the sovereignty and isolation spectrum.
@@ -82,7 +82,7 @@ Each environment represents a different point along the sovereignty and isolatio
 - Your workloads must meet DoD SRG Impact Level 5 requirements
 - You require the highest degree of operational isolation
 
-These distinctions reflect architectural decisions made as Microsoft evolved its sovereign cloud offerings.
+These distinctions reflect architectural decisions made as Microsoft evolved our sovereign cloud offerings.
 
 ## How Microsoft 365 differs across U.S. government cloud environments
 
