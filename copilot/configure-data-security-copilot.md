@@ -65,7 +65,7 @@ You need access to the following admin portals and permissions:
    
 ## Step 1: Remediate oversharing
 
-First, identify and contain high-risk sites and sensitive content, remediate access and permissions, and apply interim protections to reduce Copilot exposure while remediation is in progress.
+First, identify and prioritize high-risk sites and sensitive content, remediate access and permissions, and apply interim protections to reduce Copilot exposure while remediation is in progress.
 
 ### Identify high-risk sites and content
 
