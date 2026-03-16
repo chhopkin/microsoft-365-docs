@@ -84,4 +84,4 @@ To invite multiple guests to collaborate with your organization, see [add guests
 
 ## Related content
 
-[Prevent guests from being added to a specific Microsoft 365 group or Microsoft Teams](/previous-versions/microsoft-365/solutions/per-group-guest-access.md)
+[Prevent guests from being added to a specific Microsoft 365 group or Microsoft Teams](/microsoft-365/solutions/per-group-guest-access)
