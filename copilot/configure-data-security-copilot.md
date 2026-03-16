@@ -61,7 +61,7 @@ You need access to the following admin portals and permissions:
 |---|---|
 | [Microsoft 365 admin center](https://admin.microsoft.com/) | Global Administrator or Privileged Role Administrator |
 | [SharePoint admin center](https://go.microsoft.com/fwlink/?linkid=2185219) | SharePoint Administrator |
-| [Microsoft Purview portal](https://purview.microsoft.com/) | Varies by task. See the following articles: <br/>- [Permissions required to create and manage sensitivity labels](/purview/get-started-with-sensitivity-labels#permissions-required-to-create-and-manage-sensitivity-labels)<br/>- [Roles and role groups in Microsoft Defender for Office 365 and Microsoft Purview](/defender-office-365/scc-permissions) |
+| [Microsoft Purview portal](https://purview.microsoft.com/) | Varies by task. See the following articles: <br/>- [Permissions in the Microsoft Purview portal](/purview/purview-permissions)<br/>- [Permissions required to create and manage sensitivity labels](/purview/get-started-with-sensitivity-labels#permissions-required-to-create-and-manage-sensitivity-labels) |
    
 ## Step 1: Remediate oversharing
 
