@@ -66,9 +66,9 @@ The following video provides an overview of how grounding works in Microsoft 365
 
 > [!VIDEO ca405f29-ce24-41ea-8fa4-e27f73ed0624]
 
-    - Grounding improves the specificity of your prompt, and helps you get answers that are relevant and actionable to your specific task. The prompt can include text from input files or other content Copilot discovers.
+- Grounding improves the specificity of your prompt, and helps you get answers that are relevant and actionable to your specific task. The prompt can include text from input files or other content Copilot discovers.
 
-    - The data Copilot uses to generate responses is encrypted in transit.
+- The data Copilot uses to generate responses is encrypted in transit.
 
 3. Copilot sends the grounded prompt to the LLM. The LLM uses the prompt to generate a response that is contextually relevant to the user's task.
 
