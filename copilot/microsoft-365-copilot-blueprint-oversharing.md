@@ -6,7 +6,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 01/27/2026
+ms.date: 03/17/2026
 ms.update-cycle: 180-days
 ms.reviewer:
 audience: Admin
@@ -29,7 +29,9 @@ appliesto:
 
 # Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint
 
-Microsoft 365 Copilot can accelerate how people find information, summarize content, and get work done—by grounding responses in the data users already have permission to access. To realize that value confidently, organizations need a foundation that's secure and governed, equipped with robust guardrails, and aligned with AI regulations. Common challenges like content sprawl, stale sites, and overly broad sharing can reduce answer quality and increase the likelihood that Copilot surfaces information more widely than intended. By implementing reliable guardrails and ensuring compliance with regulatory obligations, you can further minimize risks and help ensure that Copilot delivers accurate, responsible results within a trusted environment.
+Microsoft 365 Copilot can accelerate how people find information, summarize content, and get work done—by grounding responses in the data users already have permission to access. To realize that value confidently, organizations need a foundation that's secure and governed, equipped with robust guardrails, and aligned with AI regulations. 
+
+Common challenges like content sprawl, stale sites, and overly broad sharing can reduce answer quality and increase the likelihood that Copilot surfaces information more widely than intended. By implementing reliable guardrails and ensuring compliance with regulatory obligations, you can further minimize risks and help ensure that Copilot delivers accurate, responsible results within a trusted environment.
 
 This deployment blueprint outlines the essential steps for establishing a secure and governed foundation for Copilot by remediating oversharing, implementing reliable guardrails, and fulfilling AI-related regulatory obligations, delivering a straightforward, approachable path to help every organization get started with confidence.
 
