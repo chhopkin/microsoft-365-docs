@@ -1,5 +1,5 @@
 ---
-title: Configure data security for Microsoft 365 Copilot
+title: Configure a secure and governed foundation for Microsoft 365 Copilot
 description: Get your data ready for Microsoft 365 Copilot.
 f1.keywords:
 - NOCSH
