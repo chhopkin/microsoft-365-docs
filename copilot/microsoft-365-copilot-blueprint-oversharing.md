@@ -43,6 +43,8 @@ This blueprint is organized into three pillars:
 - Set up guardrails
 - Meet regulations
 
+:::image type="content" source="media/secure-govern-data-microsoft-365-copilot/secure-govern-data-microsoft-365-copilot.png" alt-text="Diagram depicting the blueprint for securing and governing data for Microsoft 365 Copilot." lightbox="media/secure-govern-data-microsoft-365-copilot/secure-govern-data-microsoft-365-copilot.png":::
+
 ### What the blueprint covers
 
 The blueprint covers the following areas:
@@ -53,8 +55,6 @@ The blueprint covers the following areas:
    - [SharePoint Advanced Management](/sharepoint/advanced-management) (SAM), which is included with your Microsoft 365 Copilot license. SAM provides capabilities for managing sharing, access, and governance across SharePoint.
 - Recommended admin actions to identify high-risk sites and files, apply interim access restrictions if needed, fix access issues, and continuously enforce secure guardrails.
 - Identifying and closing gaps in AI regulatory requirements, defining audit and legal requirements, and enhancing data hygiene for sites and files. 
-
-:::image type="content" source="media/secure-govern-data-microsoft-365-copilot/secure-govern-data-microsoft-365-copilot.png" alt-text="Diagram depicting the blueprint for securing and governing data for Microsoft 365 Copilot." lightbox="media/secure-govern-data-microsoft-365-copilot/secure-govern-data-microsoft-365-copilot.png":::
 
 ## Download the blueprint and documentation
 
