@@ -31,7 +31,7 @@ Zero Query Logging (ZQL) is a new feature that we're pleased to provide as part 
 
 - **Privacy assurance:** Eliminates query retention in Bing and reduces compliance risks.
 - **Control & transparency:** Admins can explicitly choose ZQL via a simple enable/disable toggle in the [Cloud Policy Service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy).
-- **Enable web grounding safely:** ZQL eliminates data retention concerns during the Bing grounding process. Customers who previously disabled web search in Copilot because of data retention concerns can now enable web grounding with confidence that Bing doesn't retain any Query Data.
+- **Enable web grounding safely:** Zero Query Loggin eliminates data retention concerns during the Bing grounding process. Customers who previously disabled web search in Copilot because of data retention concerns can now enable web grounding with confidence that Bing doesn't retain any Query Data.
 
 ## What is Zero Query Logging?
 
