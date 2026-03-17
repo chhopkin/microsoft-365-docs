@@ -1,7 +1,7 @@
 ---
-title: "Use the Cowork agent (Frontier)"
-description: "Learn how to have conversations, manage files, approve actions, and organize projects with the Cowork agent in Microsoft 365 Copilot."
-ms.date: 03/10/2026
+title: "Use Cowork agent (Frontier)"
+description: "Learn how to have conversations, manage files, approve actions, and organize projects with Cowork agent in Microsoft 365 Copilot."
+ms.date: 03/30/2026
 ms.topic: how-to
 author: leeclontz
 manager: KumarVivek
@@ -12,15 +12,15 @@ appliesto:
 - Microsoft 365 Copilot
 ---
 
-# Use the Cowork agent (Frontier)
+# Use Cowork agent (Frontier)
 
 [!INCLUDE [preview](../includes/preview.md)]
 
-The Cowork agent in Microsoft 365 Copilot carries out tasks on your behalf, such as send emails, create documents, schedule meetings, and search across your organization. This article explains everything you can do with Cowork.
+Cowork agent in Microsoft 365 Copilot carries out tasks on your behalf, such as send emails, create documents, schedule meetings, and search across your organization. This article explains everything you can do with Cowork.
 
 ## Start a conversation
 
-The Cowork home page has a chat input where you can type your request. Below it, a list of your recent tasks appears, so you can resume a previous conversation.
+The Cowork home page has a chat input where you can type or speak your request. Below it, a list of your recent tasks appears, so you can resume a previous conversation.
 
 ### Type a message
 
@@ -40,17 +40,6 @@ To give Cowork extra context, you can include files with your message.
 1. Wait for the upload to finish. An animated progress chip for each file displays.
 1. Add your message text if needed, then send it.
 
-### Add work context
-
-You can mention people, meetings, or Teams channels to give Cowork more context about your request.
-
-1. Select the chat input field.
-1. Use the work context picker to search for and attach:
-   - **People**: Mention colleagues so Cowork knows who's involved.
-   - **Meetings**: Reference a specific meeting for context.
-   - **Teams channels**: Link a channel so Cowork can post or retrieve information from it.
-1. Selected items appear as chips in the input field. Add your message and send it.
-
 ### Select an agent
 
 Cowork gives you access to specialized agents for different kinds of tasks. To direct your message to a specific agent:
@@ -58,6 +47,15 @@ Cowork gives you access to specialized agents for different kinds of tasks. To d
 1. Type **@** in the chat input. A list of available agents appears.
 1. Select the agent you want. It appears in the input field so you know who you're talking to.
 1. Type your message and send it.
+
+### Use voice input
+
+You can also use speech-to-text to dictate your message.
+
+1. Select the microphone button in the chat input area.
+1. Speak your message clearly.
+1. Review the transcribed text in the input field.
+1. Edit the text if needed, then send it.
 
 > [!TIP]
 > Check the home page for your recent tasks. Select any task to jump back into that conversation without starting over.
@@ -72,7 +70,6 @@ As Cowork works on your request, some things happen on screen:
 
 - **Thinking indicator**: An animation lets you know Cowork is processing your message.
 - **Step-by-step updates**: Updates show what Cowork is doing at each stage, such as *Composing your email* or *Searching OneDrive*.
-- **Step timing**: When a step completes, a timing indicator shows how long it took. This helps you understand which parts of your request take the most time.
 - **Streaming response**: Cowork's reply appears word by word as it generates, so you don't have to wait for the entire response.
 
 ### Stay informed about your connection
@@ -168,7 +165,7 @@ You can preview many file types directly inside Cowork. You don't need to downlo
 
 The following file types can be previewed directly:
 
-- **PDF**: Renders inline with scrollable pages. Use **Ctrl+F** (or **Cmd+F** on Mac) to search within the document.
+- **PDF**: Renders inline with page navigation.
 - **CSV**: Displays as a formatted table.
 - **Markdown**: Renders with full formatting.
 - **Images**: Displays inline (png, jpg, jpeg, gif, webp, bmp, svg, ico).
@@ -314,8 +311,6 @@ Here's what Cowork can do:
 | Enterprise Search | Search across your organization. |
 | Communications | Draft stakeholder communications. |
 
-In addition to these built-in skills, Cowork connects to your Microsoft 365 services to take actions directly. It can send emails and manage your inbox through Outlook, manage your calendar, post and read messages in Teams, and browse web pages to gather information you need.
-
 You can display which skills Cowork used during a conversation in the **Skills** section of the side panel. They appear as chips.
 
 ## Provide feedback
@@ -326,13 +321,6 @@ Your feedback helps improve Cowork. You can share it in many ways.
 
 1. Hover over any response from Cowork in the conversation.
 1. Select **thumbs up** if the response was helpful, or **thumbs down** if it wasn't.
-
-### Comment on specific content
-
-1. Select any piece of content in the conversation timeline that you want to comment on.
-1. Add your inline comment to provide specific feedback on that content.
-
-Inline comments help Cowork understand exactly what worked and what didn't, so future responses can be more accurate.
 
 ### Rate documents
 
@@ -361,4 +349,4 @@ Cowork supports keyboard shortcuts to help you work faster.
 
 - [Cowork overview](index.md)
 - [Get started with Cowork](get-started.md)
-- [Cowork agent FAQ](cowork-agent-faq.md)
+- [Cowork agent common questions](cowork-agent-faq.md)

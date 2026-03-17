@@ -194,7 +194,7 @@ items:
         href: microsoft-365-copilot-search-faq.yml
       - name: Connect organizational asset library to Microsoft 365 Copilot Search
         href: microsoft-365-copilot-search-image-tagging-integration.md
-    - name: Copilot Tuning (preview)
+    - name: Copilot Tuning (early access preview)
       items:
       - name: Overview
         href: copilot-tuning-overview.md
@@ -453,8 +453,12 @@ items:
           href: cowork/get-started.md
         - name: Use Cowork agent
           href: cowork/use-cowork-agent.md
-        - name: Cowork agent FAQ
+        - name: Cowork agent common questions
           href: cowork/cowork-agent-faq.md
+        - name: Responsible AI overview
+          href: responsible-ai/cowork-agent-responsible-ai-overview.md
+        - name: Responsible AI FAQ
+          href: responsible-ai/cowork-agent-responsible-ai-faq.md
       - name: Learning agent
         items:
         - name: Overview and setup of Learning agent

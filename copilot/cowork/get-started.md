@@ -1,7 +1,7 @@
 ---
-title: "Get started with the Cowork agent (Frontier)"
-description: "Start using the Cowork agent in Microsoft 365 Copilot to send emails, create documents, schedule meetings, and manage your calendar."
-ms.date: 03/10/2026
+title: "Get started with Cowork agent (Frontier)"
+description: "Start using Cowork agent in Microsoft 365 Copilot to send emails, create documents, schedule meetings, and manage your calendar."
+ms.date: 03/30/2026
 ms.topic: get-started
 author: leeclontz
 manager: KumarVivek
@@ -12,7 +12,7 @@ appliesto:
 - Microsoft 365 Copilot
 ---
 
-# Get started with the Cowork agent (Frontier)
+# Get started with Cowork agent (Frontier)
 
 [!INCLUDE [preview](../includes/preview.md)]
 
@@ -38,8 +38,9 @@ The Cowork home page opens. A chat input where you can describe what you need di
 ## Start your first conversation
 
 1. Type what you want done in the chat input, or select one of the suggested prompts such as **Catch me up**, **Organize my inbox**, or **Prep for a meeting**. You can enter up to 16,000 characters, so feel free to include plenty of detail.
-1. Add context if needed. You can drag and drop files onto the input area, select **Upload images and files** to browse your device, or select **Attach cloud files** to pick files from OneDrive, SharePoint, or Teams. You can also mention people, reference meetings, or link Teams channels to give Cowork more context about your request.
+1. Attach files if needed. You can drag and drop files onto the input area, select **Upload images and files** to browse your device, or select **Attach cloud files** to pick files from OneDrive, SharePoint, or Teams.
 1. (Optional) Pick a specific agent by typing **@** and selecting from the list.
+1. (Optional) Use voice input by selecting the microphone icon to speak your request instead of typing.
 1. Send your message by selecting **Send**.
 
 > [!TIP]
@@ -52,7 +53,6 @@ After you send your message, Cowork begins processing your request. Here's what 
 - **A thinking indicator**: Appears while Cowork figures out the best approach.
 - **Skill messages**: Show when Cowork prepares a skill it needs, such as "Preparing to compose emails" or "Preparing to create Word documents."
 - **Tool steps**: Show exactly what Cowork is doing at each stage, such as *Composing your email* or *Creating your presentation*.
-- **Step timing**: When a step finishes, a timing indicator shows how long it took to complete.
 - **The response streams in**: In real time, so you can follow along as Cowork builds your result.
 
 ## Approve actions
@@ -75,7 +75,7 @@ Sometimes Cowork asks you a question to clarify your request. When this happens,
 When Cowork finishes, any files it created appear in the side panel on the right. From there you can:
 
 - Download files to your device.
-- Preview files directly in the browser. Supported formats include PDF (with search and scrollable pages), Markdown, images, CSV, and HTML.
+- Preview files directly in the browser. Supported formats include PDF, Markdown, images, CSV, and HTML.
 
 The side panel also shows a progress bar with the percentage of tasks complete and the skills Cowork used. You can select **thumbs down** on responses that missed the mark, or **thumbs up** on ones that were helpful.
 
@@ -88,5 +88,5 @@ Select the **Tasks** view to see everything you asked Cowork to do. Here you can
 
 ## Related content
 
-- [Use the Cowork agent](use-cowork-agent.md)
-- [Cowork agent FAQ](cowork-agent-faq.md)
+- [Use Cowork agent](use-cowork-agent.md)
+- [Cowork agent common questions](cowork-agent-faq.md)

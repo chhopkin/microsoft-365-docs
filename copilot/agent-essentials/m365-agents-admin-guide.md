@@ -4,7 +4,7 @@ f1.keywords:
 ms.author: erikre
 author: ErikRe
 manager: dansimp
-ms.date: 01/28/2026
+ms.date: 03/12/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
@@ -346,7 +346,7 @@ In Microsoft 365 admin center you can view your organization’s available agent
 Use the following steps to view your organization’s agent inventory:
 
 1. Open [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-2. Select **Copilot** > **Agents**.
+2. Select **Agents** > **All agents**.
 3. Filter your agent inventory:
     1. Next to **Filters**, select **Availability** > **All users**.
     Note the **Support in** column to recognize where the agent can be used by members of your organization.
@@ -385,7 +385,7 @@ Your Copilot agent ZIP file can be downloaded from Copilot Studio by selecting *
 To upload an agent as a ZIP packet file to the Microsoft 365 admin center:
 
 1. Open Copilot Control System in [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-2. Select **Copilot** > **Agents** > **Upload custom agent**.
+2. Select **Agents** > **All agents** > **Upload custom agent**.
 3. Select **Choose File** to find and select the agent ZIP file.
     The ZIP file is validated.
 4. Verify the agent’s name, icon, and host products. Then, select **Next**.
@@ -438,14 +438,14 @@ Agents are listed in the [Agent inventory](#agent-inventory). The Agent inventor
 To view details about an individual agent:
 
 1. Open the Copilot Control System within [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-2. Select **Copilot** > **Agents**.
+2. Select **Agents** > **All agents**.
     You’ll see the **Agent inventory** tab is selected.
    
     :::image type="content" source="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-inventory.png" alt-text="Screenshot of your agent inventory in Microsoft 365 admin center."  lightbox="/copilot/microsoft-365/agent-essentials/media/m365-agents-admin-guide/agent-inventory.png":::
 
 3. Select an agent from the list.
 4. Review the agent’s details, security, and compliance before to help determine whether an agent should be assigned to or available to users within your organization.
-    a. Select the **Details** tab to review the **Capabilities**, **Knowledge**, and **Actions**. 
+    a. Select the **Data & tools** tab to review the **Capabilities**, **Knowledge**, and **Actions**. 
     b. Select the **Security & compliance** tab to review the agent’s overall certification.
 
 ### Assign agents
@@ -465,7 +465,7 @@ There are two different actions that involve assigning agents to members of your
 To view details about an individual agent:
 
 1. Open the Copilot Control System within [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-2. Select **Copilot** > **Agents**.
+2. Select **Agents** > **All agents**.
     You’ll see the **Agent inventory** tab is selected.
 3. Select an agent from the list.
 4. Select the **Users** tab and select **Assign to**. 
@@ -492,7 +492,7 @@ By deploying an agent, you effectively install the agent on behalf of a user by 
 Use the following steps to deploy an individual agent:
 
 1. Open the Copilot Control System within Microsoft 365 admin center in your browser.
-2. Select **Copilot** > **Agents**.
+2. Select **Agents** > **All agents**.
     You'll see the **Agent inventory** tab is selected.
 3. Select an agent from the list.
 4. Select **Deploy**.
@@ -530,7 +530,7 @@ When an agent is submitted for admin approval, all metadata about an agent’s d
 Use the following steps to view pending agent requests and act on those requests:
 
 1. Open Copilot Control System in [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-2. Select **Copilot** > **Agents** > **Requested agents**.
+2. Select **Agents** > **All agents** > **Requests**.
 3. Select the requested agent and view the agent’s details.
     Confirm the capabilities, data sources, and custom actions that the agent can invoke.
 4. Next to the name of the agent, select the action to **Publish** or **Reject** the agent.

@@ -1,7 +1,7 @@
 ---
 title: "Cowork overview (Frontier)"
-description: "Learn about the Cowork agent for Microsoft 365 Copilot, which is an AI agent that takes action on your behalf."
-ms.date: 03/10/2026
+description: "Learn about Cowork agent for Microsoft 365 Copilot, which is an AI agent that takes action on your behalf."
+ms.date: 03/30/2026
 ms.topic: overview
 author: leeclontz
 manager: KumarVivek
@@ -16,9 +16,9 @@ appliesto:
 
 [!INCLUDE [preview](../includes/preview.md)]
 
-The Cowork agent in Microsoft 365 Copilot can carry out tasks on your behalf. You describe what you need, and Cowork sends emails, schedules meetings, creates documents, posts in Teams, and manages your calendar. You approve each action before it happens.
+Cowork agent in Microsoft 365 Copilot can carry out tasks on your behalf. You describe what you need, and Cowork sends emails, schedules meetings, creates documents, posts in Teams, and manages your calendar. You approve each action before it happens.
 
-## What is the Cowork agent?
+## What is Cowork agent?
 
 Cowork is an AI agent available in Microsoft 365 Copilot. It carries out tasks across your Microsoft 365 environment. Rather than describing what you could do, it does the work.
 
@@ -27,7 +27,6 @@ Cowork is an AI agent available in Microsoft 365 Copilot. It carries out tasks a
 - **Creates documents**: Builds Word documents, Excel spreadsheets, PowerPoint presentations, and PDFs.
 - **Posts in Teams**: Sends messages to channels and chats.
 - **Searches your organization**: Finds the information you need across your company's resources and your OneDrive files.
-- **Adds context from your work**: Attach people, meetings, and Teams channels to your conversations so Cowork has the context it needs.
 
 Every step Cowork takes is visible in your conversation, so you always know exactly what's happening.
 
@@ -40,7 +39,6 @@ The following sections describe what you can ask Cowork to do.
 - Draft and send emails, reply to messages, and forward entire email threads to the right people.
 - Save email drafts and manage attachments before sending.
 - Post updates in Teams channels or send direct messages in Teams chats.
-- Read and respond to messages from your Teams channels directly through the conversation.
 - Prepare polished stakeholder communications such as status updates, announcements, and follow-ups.
 
 ### Documents and files
@@ -61,11 +59,6 @@ The following sections describe what you can ask Cowork to do.
 
 - Search across your organization to find documents, messages, and information.
 - Browse your OneDrive folders and select files to work with.
-- Look up details from Microsoft Learn to answer technical questions.
-
-### Web browsing
-
-- Browse web pages and retrieve information from URLs you provide.
 
 ## Skills
 
@@ -93,8 +86,8 @@ As Cowork prepares skills during a conversation, the side panel updates to show 
 
 Here's how a typical interaction works:
 
-1. **Describe your task**: Tell Cowork what you need. For example, "Send a meeting recap to my team" or "Create a slide deck summarizing Q3 results." You can also attach files, mention people, reference meetings, or link Teams channels to give Cowork more context.
-1. **Watch Cowork work**: The agent breaks your request into steps and works through them one by one. You can follow along as each step appears in the conversation, with timing information showing how long each completed step took.
+1. **Describe your task**: Tell Cowork what you need. For example, "Send a meeting recap to my team" or "Create a slide deck summarizing Q3 results." You can also attach files by dragging them into the chat.
+1. **Watch Cowork work**: The agent breaks your request into steps and works through them one by one. You can follow along as each step appears in the conversation.
 1. **Approve actions when asked**: Before Cowork takes an important action, like sending an email or scheduling a meeting, it pauses and asks for your go-ahead. You decide whether to proceed.
 1. **Review the results**: When Cowork finishes, review what it produced. Download documents, check sent messages, or ask Cowork to make changes.
 
@@ -105,7 +98,7 @@ You control what Cowork does throughout a conversation.
 - **Approve actions**: Cowork asks for your permission before taking sensitive actions. Each approval shows a risk level (**Low Risk**, **Medium Risk**, or **High Risk**) so you know the impact. You can **Approve** once, **Approve & Remember** your preference for similar future actions, or **Reject** the action.
 - **Pause and resume**: Pause the agent at any time. Resume when you're ready to continue.
 - **Cancel**: Changed your mind? Stop the current task and redirect Cowork to something else.
-- **Give feedback**: Thumbs up or thumbs down any response, add inline comments on specific content in the conversation, leave feedback on documents, or share general comments about your experience.
+- **Give feedback**: Thumbs up or thumbs down any response, leave feedback on documents, or share general comments about your experience.
 
 > [!TIP]
 > Use **Approve & Remember** for routine actions you trust, like sending emails to your team. You can always review everything Cowork did in your conversation history.
@@ -124,9 +117,9 @@ Cowork helps you stay organized with built-in project and task management.
 
 ## Get started
 
-Learn more in [Get started with the Cowork agent](get-started.md).
+Learn more in [Get started with Cowork agent](get-started.md).
 
 ## Related content
 
-- [Use the Cowork agent](use-cowork-agent.md)
-- [Cowork agent FAQ](cowork-agent-faq.md)
+- [Use Cowork agent](use-cowork-agent.md)
+- [Cowork agent common questions](cowork-agent-faq.md)

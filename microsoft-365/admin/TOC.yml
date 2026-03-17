@@ -452,6 +452,8 @@ items:
            items:
            - name: About usage analytics
              href: usage-analytics/usage-analytics.md
+           - name: Usage analytics FAQ
+             href: usage-analytics/usage-analytics-faq.yml
            - name: Enable usage analytics
              href: usage-analytics/enable-usage-analytics.md
            - name: Get the latest version of usage analytics
