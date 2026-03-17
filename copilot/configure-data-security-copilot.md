@@ -147,21 +147,21 @@ Finally, assess and close AI compliance gaps, define audit and retention require
 
 ### Identify and address gaps against AI regulations
 
-1. Use [Purview Compliance Manager](/purview/compliance-manager) to assess your tenant against AI-related regulatory requirements and Microsoft recommended actions.
+1. Use [Microsoft Purview Compliance Manager](/purview/compliance-manager) to assess your tenant against AI-related regulatory requirements and Microsoft recommended actions.
 
-2. Review **Compliance Manager improvement actions** related to data protection, auditability, and AI usage controls.
+2. Review **Microsoft Compliance Manager improvement actions** related to data protection, auditability, and AI usage controls.
 
 3. Assign and track remediation work to close **identified compliance gaps**.
 
-4. Validate improvements using **Purview DSPM** reports.
+4. Validate improvements using **Microsoft Purview DSPM** reports.
 
 ### Define regulatory requirements
 
 1. Decide [how long to keep audit logs](/purview/audit-log-retention-policies) in accordance with regulatory and internal requirements.
 
-2. Decide how to keep or when to delete **Copilot interactions** based on legal risk or regulatory requirements with [Purview Data Lifecycle Management](/purview/retention-policies-copilot).
+2. Decide how to keep or when to delete **Copilot interactions** based on legal risk or regulatory requirements with [Microsoft Purview Data Lifecycle Management](/purview/retention-policies-copilot).
 
-3. Use [Purview eDiscovery](/purview/edisc-search-copilot-data) to search, preserve, and produce Copilot-related content for audits or legal requests.
+3. Use [Microsoft Purview eDiscovery](/purview/edisc-search-copilot-data) to search, preserve, and produce Copilot-related content for audits or legal requests.
 
 ### Improve data hygiene
 
@@ -175,7 +175,7 @@ Reduce ongoing risk and improve Copilot answer quality by continuously cleaning 
 
 **For files**: 
 
-- Apply [Purview retention and deletion policies](/purview/create-retention-policies?tabs=teams-retention) to reduce data exposure while meeting record-keeping obligations.
+- Apply [Microsoft Purview retention and deletion policies](/purview/create-retention-policies?tabs=teams-retention) to reduce data exposure while meeting record-keeping obligations.
 
 ## Next steps
 
