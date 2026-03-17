@@ -82,7 +82,7 @@ For more information, see [Responsible AI FAQ for Microsoft Copilot in Azure](/a
 
 ## Protect organizational data
 
-Microsoft 365 Copilot works with different Microsoft services to help you protect your organization's data. When you're ready to deploy agents within your organization, you should consider Microsoft's recommended approach to address oversharing concerns. This approach provides the pilot, deploy, and operate phases to consider when deploying Copilot and agents. Each phase consists of activities, outcomes, and expected effort needed. For more information, see [Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint](/copilot/microsoft-365/microsoft-365-copilot-blueprint-oversharing).
+Microsoft 365 Copilot works with different Microsoft services to help you protect your organization's data. When you're ready to deploy agents within your organization, you should consider Microsoft's recommended approach to address oversharing concerns. This approach provides the pilot, deploy, and operate phases to consider when deploying Copilot and agents. Each phase consists of activities, outcomes, and expected effort needed. For more information, see [Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint](/copilot/microsoft-365/secure-govern-copilot-foundational-deployment-guidance).
 
 In addition, Microsoft provides SharePoint Advance Management and Microsoft Purview to address oversharing. SharePoint Advance Management provides SharePoint site management and content governance capabilities. Microsoft Purview provides security, compliance, and governance across data and files.
 

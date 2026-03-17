@@ -62,7 +62,7 @@ For details, see the following articles:
 
 Microsoft 365 Copilot operates within existing permissions and access controls. Overshared or poorly governed content can affect Copilot results and increase risk.
 
-For prescriptive remediation guidance, see [Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint](/copilot/microsoft-365/microsoft-365-copilot-blueprint-oversharing).
+For prescriptive remediation guidance, see [Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint](/copilot/microsoft-365/secure-govern-copilot-foundational-deployment-guidance).
 
 ## Related guidance
 
@@ -77,4 +77,4 @@ Use these articles for deeper coverage of related articles:
   - [Microsoft 365 Copilot data protection architecture](/copilot/microsoft-365/microsoft-365-copilot-architecture-data-protection-auditing)
 
 - **Oversharing remediation**
-  - [Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint](/copilot/microsoft-365/microsoft-365-copilot-blueprint-oversharing)
+  - [Secure & governed data foundation for Microsoft 365 Copilot: A deployment blueprint](/copilot/microsoft-365/secure-govern-copilot-foundational-deployment-guidance)
