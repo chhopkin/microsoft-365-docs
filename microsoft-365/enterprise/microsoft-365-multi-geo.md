@@ -44,11 +44,12 @@ In a _Multi-Geo_ environment, a Microsoft 365 _Tenant_ consists of a _Primary Pr
 
 _Microsoft 365 Multi-Geo_ is available as an add-on to the following Microsoft 365 subscription plans:
 
-- Microsoft 365 F1, F3, E3, or E5
-- Office 365 F3, E1, E3, or E5
-- Standalone Exchange Online Plan 1 or Plan 2
-- Standalone OneDrive Plan 1 or Plan 2
-- Standalone SharePoint Plan 1 or Plan 2
+- Microsoft 365 F1, F3, E3, or E5 (including SKUs without Microsoft Teams)
+- Office 365 F3, E1, E3, or E5 (including SKUs without Microsoft Teams)
+- Exchange Online Plan 1 or Plan 2
+- OneDrive Plan 1 or Plan 2
+- SharePoint Plan 1 or Plan 2
+- Microsoft Teams Enterprise, EEA, or Essentials
 
 ### Minimum Licensing
 
