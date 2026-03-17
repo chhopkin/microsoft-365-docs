@@ -75,7 +75,7 @@ First, identify and prioritize high-risk sites and sensitive content, remediate 
 
 Use [Microsoft Purview](/purview/purview) and [SharePoint Advanced Management](/sharepoint/get-ready-copilot-sharepoint-advanced-management) (SAM) to find sites and files that are overshared, ownerless, inactive, or contain sensitive data that could be surfaced by Copilot.
 
-1. Review [Purview Data Security Posture Management (DSPM)](/purview/data-security-posture-management-learn-about) data risk assessments to identify sites with sensitive data and risky or overshared links accessible to Copilot.
+1. Review [Microsoft Purview Data Security Posture Management (DSPM)](/purview/data-security-posture-management-learn-about) data risk assessments to identify sites with sensitive data and risky or overshared links accessible to Copilot.
 
 2. Run the [SAM Content Management Assessment](/sharepoint/content-management-assessment) to identify sites with oversized audiences, Everyone except external users (EEEU) usage, broken inheritance, inappropriate sharing, and sensitive content; and to identify sites that are inactive or ownerless.
 
@@ -83,7 +83,7 @@ Use [Microsoft Purview](/purview/purview) and [SharePoint Advanced Management](/
 
 For sites you identify as high-risk, use Microsoft Purview and SAM recommendations to remove excessive access, correct broken inheritance, and ensure accountable ownership.
 
-1. Review [Purview DSPM data risk assessment](/purview/data-security-posture-management-oversharing?tabs=m365) recommendations for high-risk sites (for example, apply site sensitivity labels to reflect data sensitivity and restrict oversharing).
+1. Review [Microsoft Purview DSPM data risk assessment](/purview/data-security-posture-management-oversharing?tabs=m365) recommendations for high-risk sites (for example, apply site sensitivity labels to reflect data sensitivity and restrict oversharing).
 
 1. Initiate [SAM site access reviews](/sharepoint/site-access-review) for high-risk sites so site owners can manage access (down to the file level) and:
 
@@ -99,7 +99,7 @@ While sites are in remediation, apply temporary controls to reduce exposure and 
 
 1. Enable [SAM Restricted Content Discovery (RCD)](/sharepoint/restricted-content-discovery) to exclude sensitive sites from Copilot discovery.
 
-2. Configure [Purview Data Loss Prevention (DLP) for Copilot](/purview/dlp-microsoft365-copilot-location-learn-about) to exclude sensitive content from Copilot grounding.
+2. Configure [Microsoft Purview Data Loss Prevention (DLP) for Copilot](/purview/dlp-microsoft365-copilot-location-learn-about) to exclude sensitive content from Copilot grounding.
 
 3. Validate via audit and reports that **Copilot no longer surfaces restricted content**.
 
@@ -125,11 +125,11 @@ Configure classification and enforcement controls with Microsoft Purview so Copi
 
 1. Configure **default sensitivity labels** to ensure new content is protected.
 
-2. Set up a [Purview DLP for Copilot](/purview/dlp-microsoft365-copilot-location-learn-about) policy to restrict Copilot processing of labeled sensitive content.
+2. Set up a [Microsoft Purview DLP for Copilot](/purview/dlp-microsoft365-copilot-location-learn-about) policy to restrict Copilot processing of labeled sensitive content.
 
-3. Enable a [Purview DLP for Copilot prompt](/purview/dlp-microsoft365-copilot-location-learn-about) policy to restrict Copilot from responding to prompts that contain sensitive information.
+3. Enable a [Microsoft Purview DLP for Copilot prompt](/purview/dlp-microsoft365-copilot-location-learn-about) policy to restrict Copilot from responding to prompts that contain sensitive information.
 
-4. Enable [Purview Insider Risk Management (IRM)](/purview/insider-risk-management-solution-overview) policies to detect potentially inappropriate or non-compliant AI usage.
+4. Enable [Microsoft Purview Insider Risk Management](/purview/insider-risk-management-solution-overview) policies to detect potentially inappropriate or non-compliant AI usage.
 
 ### Continuously enforce and optimize guardrails
 
@@ -139,7 +139,7 @@ Use Microsoft Purview reporting, risk assessments, and alerts to continuously va
 
 2. Use [DSPM data risk assessments](/purview/data-security-posture-management-oversharing?tabs=m365) to continuously validate that sensitive data remains protected from Copilot access.
 
-3. Review **Purview IRM and DLP alerts** to detect and investigate risky AI usage or potential data loss.
+3. Review **Microsoft Purview Insider Risk Management and DLP alerts** to detect and investigate risky AI usage or potential data loss.
 
 ## Step 3: Meet regulations
 
