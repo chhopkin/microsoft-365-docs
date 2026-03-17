@@ -59,7 +59,7 @@ Enterprise Agreement customers must purchase a quantity of _Multi-Geo_ licenses 
 
 _Multi-Geo Capabilities_ in Microsoft 365 is a user-level add-on license. Customers need a license for each user that they want to host in a _Satellite Geography_ location. Customers can add more licenses over time as they add users in _Satellite Geography_ locations.
 
-There are no _Multi-Geo_ licenses specific to shared resources such as SharePoint Sites, Microsoft 365 Groups, Shared Mailboxes, or Microsoft Teams teams. If enough _Multi-Geo_ user licenses have been acquired, then customers are eligible to use _Multi-Geo_ with shared resources without limitation.
+There are no _Multi-Geo_ licenses specific to shared resources such as SharePoint Sites, Microsoft 365 Groups, Shared Mailboxes, or Microsoft Teams. If enough _Multi-Geo_ user licenses have been acquired, then customers are eligible to use _Multi-Geo_ with shared resources without limitation.
 
 ## Microsoft 365 Multi-Geo availability
 
