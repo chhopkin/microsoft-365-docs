@@ -1,5 +1,6 @@
 ---
-title: Controls to prevent query data from being logged in Microsoft 365 Copilot and Copilot Chat: Overview of a control that allows admins to prevent query data from being logged during web grounding processes through Copilot when using Copilot or Copilot Chat.
+title: Zero Query Logging Overview 
+description: Overview of a control that allows admins to prevent query data from being logged during web grounding processes through Copilot when using Copilot or Copilot Chat.
 ms.author: davidedwards
 author: davidedwards
 manager: scotvorg
