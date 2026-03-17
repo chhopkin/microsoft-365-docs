@@ -3,7 +3,7 @@ title: "Get started with the Microsoft Release Communications MCP Server"
 ms.author: mabond
 author: mkbond007
 manager: dansimp
-ms.date: 03/13/2026
+ms.date: 03/16/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -29,9 +29,9 @@ appliesto:
 
 # Get Started with the Microsoft Release Communications MCP Server
 
-This article introduces the MRC MCP server, explains how it works, and outlines how to start using it in your environment.
+This article introduces the Microsoft Release Communications (MRC) Model Context Protocol (MCP) Server, explains how it works, and outlines how to start using it in your environment.
 
-The Microsoft Release Communications (MRC) Model Context Protocol (MCP) Server provides a unified, programmatic way for MCP-compatible AI clients to access trusted and up-to-date information that powers **[Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap)** and **[Azure Updates](https://azure.microsoft.com/updates)**.
+The MRC MCP Server provides a unified, programmatic way for MCP-compatible AI clients to access trusted and up-to-date information that powers **[Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap)** and **[Azure Updates](https://azure.microsoft.com/updates)**.
 
 MRC MCP Server is a remote **[MCP](https://modelcontextprotocol.io/docs/getting-started/intro)** server that uses streamable HTTP transport, which allows users to search, filter and retrieve the latest feature release information using natural language in AI clients.
 
@@ -44,7 +44,7 @@ With MRC MCP, you can do the following actions:
 
 ## Requirements
 
-Although the MRC MCP Server is publicly available and free to use, users are subject to the [Microsoft API Terms of Use](/legal/microsoft-apis/terms-of-use). Read and understand the API Terms of Use before using the Learn MCP Server and before including the output in any production environment.
+Although the MRC MCP Server is publicly available and free to use, users are subject to the [Microsoft API Terms of Use](/legal/microsoft-apis/terms-of-use). Read and understand the API Terms of Use before using the MRC MCP Server and before including the output in any production environment.
 
 There's no authentication required to access the MRC MCP Server. Users can use their preferred MCP client or agentic development environment, such as VS Code and Visual Studio.
 
