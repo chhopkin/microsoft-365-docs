@@ -44,11 +44,11 @@ ZQL doesn't impact what's logged in the Purview Audit Log. The prompts, response
 
 ## How to enable ZQL
 
-Customers can Enable **Zero Query Logging for Copilot web searches** policy via the [Cloud Policy Service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy). The policy can be applied at the tenant level or for specific users for testing purposes.
+Customers can **Enable Zero Query Logging for Copilot web searches** policy via the [Cloud Policy Service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy). The policy can be applied at the tenant level or for specific users for testing purposes.
 
 Customers who currently have web search turned off should turn on the **Allow web search in Copilot policy** in [Cloud Policy Service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy) by following the instructions here: [Data, privacy, and security for web search in Microsoft 365 Copilot and Microsoft 365 Copilot Chat | Microsoft Learn.](/copilot/microsoft-365/manage-public-web-access#it-admin-control-for-both-microsoft-365-copilot-and-microsoft-365-copilot-chat).
 
-:::image type="content" source="media/zql-screenshot-800.png" alt-text="Image of the zero query logging in the admin center." lightbox="media/zql-screenshot-raw.png":::
+:::image type="content" source="media/zql-screenshot-800.png" alt-text="Image of the zero query logging in the admin center." lightbox="media/zql-screenshot-1200.png":::
 
 ## Policy activation timeline
 
@@ -56,7 +56,7 @@ Once enabled, the **Enable Zero Query Logging for Copilot web searches** may tak
 
 We recommend that you first **Enable Zero Query Logging for Copilot web searches** policy, wait 24 hours, and then enable the **Allow web search in Copilot policy** in [Cloud Policy Service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy).
 
-## Feedback
+## Share your thoughts
 
 We're looking for feedback on the quality of web grounding once ZQL is turned on. We encourage participants to provide feedback on a weekly basis, particularly if they experience issues with coverage or quality. This feedback is invaluable as we refine the service.
 
