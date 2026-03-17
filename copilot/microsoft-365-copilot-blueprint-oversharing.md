@@ -33,6 +33,8 @@ Microsoft 365 Copilot can accelerate how people find information, summarize cont
 
 Common challenges like content sprawl, stale sites, and overly broad sharing can reduce answer quality and increase the likelihood that Copilot surfaces information more widely than intended. By implementing reliable guardrails and ensuring compliance with regulatory obligations, you can further minimize risks and help ensure that Copilot delivers accurate, responsible results within a trusted environment.
 
+## How this blueprint can help you secure and govern your data foundation
+
 This deployment blueprint outlines the essential steps for establishing a secure and governed foundation for Copilot by remediating oversharing, implementing reliable guardrails, and fulfilling AI-related regulatory obligations, delivering a straightforward, approachable path to help every organization get started with confidence.
 
 This blueprint is organized into three pillars:
@@ -41,7 +43,10 @@ This blueprint is organized into three pillars:
 - Set up guardrails
 - Meet regulations
 
+## What the blueprint covers
+
 The blueprint covers the following areas:
+
 - A practical framework to reduce Copilot exposure quickly, then harden your environment with enforceable defaults
 - Guidance powered by:
    - [Microsoft Purview](/purview/), which enables secure and governed Copilot deployment by providing tools to prevent data loss, mitigate insider risk, and ensure compliance with organizational and regulatory requirements for both Copilot at runtime and Microsoft 365 data referenced by Copilot
