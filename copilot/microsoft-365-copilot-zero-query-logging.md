@@ -1,0 +1,61 @@
+---
+title: Controls to prevent query data from being logged in Microsoft 365 Copilot and Copilot Chat: Overview of a control that allows admins to prevent query data from being logged during web grounding processes through Copilot when using Copilot or Copilot Chat.
+ms.author: davidedwards
+author: davidedwards
+manager: scotvorg
+ms.date: 03/17/2026
+ms.update-cycle: 180-days
+audience: Admin
+ms.reviewer: suparekh; davidedwards
+ms.topic: overview
+ms.service: microsoft-365-copilot
+ms.localizationpriority: medium
+ms.collection:
+- scotvorg
+- m365copilot
+- magic-ai-copilot
+- essentials-overview
+- trust-pod
+ms.custom: [copilot-learning-hub]
+customer-intent: As an admin, I want to prevent query data from being logged in Microsoft 365 Copilot and Copilot Chat to align with my organization's policies.
+robots: NOINDEX, NOFOLLOW
+appliesto:
+- ✅ Microsoft 365 Copilot
+---
+
+# Zero Query Logging Overview 
+
+Zero Query Logging (ZQL) is a new feature that we're pleased to provide as part of our ongoing commitment to enhance privacy and compliance with web grounding in Microsoft 365 Copilot and Copilot Chat.
+
+## Value proposition for customers
+
+- **Privacy assurance:** Eliminates query retention in Bing and reduces compliance risks.
+- **Control & transparency:** Admins can explicitly choose ZQL via a simple enable/disable toggle in the [Cloud Policy Service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy).
+- **Enable web grounding safely:** Customers who previously disabled web search toggle on Copilot due to data retention concerns during Bing grounding process can now leverage web grounding with confidence that Bing does not retain any Query Data.
+
+## What is Zero Query Logging?
+
+Once ZQL is enabled, no Query Data is logged in Bing during web grounding processes through Copilot. This means that Query Data and identifiers will not be logged by Bing when using web search through Copilot.
+
+To make ZQL possible, Microsoft has created a separate search index for web queries through Copilot. This index curates a subset of the full index used for Bing with the most popular answer types. Once ZQL is turned on, web grounding for Copilot will only occur from this curated web index.
+
+Note that ZQL does not impact what's logged in the Purview Audit Log. The prompts, responses, and web search keywords will continue to be logged in Purview Audit log and can be accessed through Purview eDiscovery, Purview DSPM, and they remain protected by [enterprise data protection](/copilot/microsoft-365/enterprise-data-protection).
+
+## How to enable ZQL
+
+Customers can Enable **Zero Query Logging for Copilot web searches** policy via the [Cloud Policy Service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy). The policy can be applied at the tenant level or for specific users for testing purposes.
+
+Customers who currently have web search turned off should turn on the **Allow web search in Copilot policy** in [Cloud Policy Service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy) by following the instructions here: [Data, privacy, and security for web search in Microsoft 365 Copilot and Microsoft 365 Copilot Chat | Microsoft Learn.](/copilot/microsoft-365/manage-public-web-access#it-admin-control-for-both-microsoft-365-copilot-and-microsoft-365-copilot-chat).
+
+## Policy activation timeline
+
+Once enabled, the **Enable Zero Query Logging for Copilot web searches** may take up to 24 hours to fully propagate. Once in effect, ZQL prevents the storage of any data related to web grounding queries in Copilot in Bing. End users will see no indication that ZQL is enabled in the Copilot Chat user experience.
+
+We recommend that you first **Enable Zero Query Logging for Copilot web searches** policy, wait 24 hours, and then enable the **Allow web search in Copilot policy** in [Cloud Policy Service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy).
+
+## Feedback
+
+We're looking for feedback on the quality of web grounding once ZQL is turned on. We encourage participants to provide feedback on a weekly basis, particularly if they experience issues with coverage or quality. This feedback is invaluable as we refine the service.
+
+**Note:** Account teams, please work with your preview customer and provide feedback here: 
+[Zero Query Logging Private Preview Feedback – Fill out form](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR7vpOeVyG5dJmQjC9j2qTYVUNk1USkVIOTRDU1VJM0gxNzdWVVdCN0dCRy4u&route=shorturl). This form is only accessible by Microsoft accounts to upload screenshots of sample prompts and responses from the use of ZQL.
