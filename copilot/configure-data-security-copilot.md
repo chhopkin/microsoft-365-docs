@@ -6,7 +6,7 @@ f1.keywords:
 manager: dansimp
 ms.author: deniseb
 author: denisebmsft
-ms.date: 03/16/2026
+ms.date: 03/17/2026
 ms.update-cycle: 180-days
 ms.reviewer: cabailey, ruihu
 audience: Admin
@@ -29,7 +29,9 @@ appliesto:
 
 > Applies to: Microsoft 365 Copilot, Microsoft Purview, and SharePoint Advanced Management
 
-[Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-overview) (Copilot) responds to user prompts using data that the user already has permission to access. When your organization's data is well governed, current, and appropriately shared, Copilot can deliver accurate, relevant, and secure responses. This article guides you through preparing, securing, and managing Microsoft 365 Copilot. By following these steps, you can help Copilot deliver accurate and relevant results while supporting your organization's security, compliance, and regulatory requirements.
+[Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-overview) uses Work IQ to enhance responses to user prompts using data that the user already has permission to access. When your organization's data is well governed, current, and appropriately shared, Copilot can deliver accurate, relevant, and secure responses. 
+
+This article guides you through preparing, securing, and managing Microsoft 365 Copilot. By following these steps, you can help Copilot deliver accurate and relevant results while supporting your organization's security, compliance, and regulatory requirements.
 
 This guidance is intended for IT administrators and security administrators who are either preparing their organization for Microsoft 365 Copilot or making necessary adjustments to security and governance conrols after Copilot is enabled.
 
@@ -49,11 +51,11 @@ The capabilities described in this article require:
 
 - [Microsoft 365 E3](https://www.microsoft.com/microsoft-365/enterprise/e3) or [Microsoft 365 E5](https://www.microsoft.com/microsoft-365/enterprise/e5) (or [Office 365 E3](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3) or [Office 365 E5](https://www.microsoft.com/microsoft-365/enterprise/office-365-e5)) for core Microsoft 365 services and features, such as SharePoint, OneDrive, and Microsoft Purview features.
 
-  - This article cover both the [Microsoft Purview](/purview/) foundational capabilities that are included in Microsoft 365 E3 and the optimized features that are included in Microsoft 365 E5
+   This article covers both the [Microsoft Purview](/purview/) foundational capabilities that are included in Microsoft 365 E3 and the optimized features that are included in Microsoft 365 E5
 
 - [Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)
 
-  - [SharePoint Advanced Management](/sharepoint/advanced-management) (included with Copilot licenses)
+- [SharePoint Advanced Management](/sharepoint/advanced-management) (included with Copilot licenses)
     
 ### Admin roles
 
