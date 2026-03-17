@@ -69,15 +69,15 @@ You need access to the following admin portals and permissions:
    
 ## Step 1: Remediate oversharing
 
-First, identify and prioritize high-risk sites and sensitive content, remediate access and permissions, and apply interim protections to reduce Copilot exposure while remediation is in progress.
+First, identify and prioritize high-risk sites and sensitive content, apply interim protections to reduce Copilot exposure, and then remediate access and permissions.
 
 ### Identify high-risk sites and content
 
 Use [Microsoft Purview](/purview/purview) and [SharePoint Advanced Management](/sharepoint/get-ready-copilot-sharepoint-advanced-management) (SAM) to find sites and files that are overshared, ownerless, inactive, or contain sensitive data that could be surfaced by Copilot.
 
-1. Review [Microsoft Purview Data Security Posture Management (DSPM)](/purview/data-security-posture-management-learn-about) Data risk assessments to identify sites with sensitive data and risky or overshared links accessible to Copilot.
+1. Review [Microsoft Purview Data Security Posture Management (DSPM)](/purview/data-security-posture-management-learn-about) Data risk assessments to identify sites with sensitive data, risky sharing links, and content that is frequently accessed.
 
-2. Run the [SAM Content Management Assessment](/sharepoint/content-management-assessment) to identify sites with oversized audiences, Everyone except external users (EEEU) usage, broken inheritance, inappropriate sharing, and sensitive content; and to identify sites that are inactive or ownerless.
+1. Run the [SAM Content Management Assessment](/sharepoint/content-management-assessment) to identify sites with oversized audiences, EEEU usage, broken inheritance, inappropriate sharing, and those that are inactive or ownerless.
 
 ### Fix access and permissions
 
@@ -127,7 +127,7 @@ Use tenant and provisioning defaults to prevent oversharing from being introduce
 
 Configure classification and enforcement controls with Microsoft Purview so Copilot interactions and new content are protected by policy, not by manual remediation.
 
-1. Configure **default sensitivity labels** to ensure new content is protected.
+1. Configure Microsoft Purview Information Protection **default sensitivity labels** to ensure new content is protected.
 
 2. Set up a [Microsoft Purview DLP for Copilot](/purview/dlp-microsoft365-copilot-location-learn-about) policy to restrict Copilot processing of labeled sensitive content.
 
