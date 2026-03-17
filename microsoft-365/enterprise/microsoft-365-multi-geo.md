@@ -25,7 +25,7 @@ The _Microsoft 365 Multi-Geo Capabilities add-on_ ("_Multi-Geo_") provides enter
 
 _Multi-Geo_ is intended for enterprise customers who need to store data in multiple _Geographies_ to satisfy data residency requirements, while retaining single-tenant administration and full-fidelity collaboration experiences between users as necessary.
 
-_Multi-Geo_ enables customers to manage and store in-scope data at a user level for _Microsoft 365 Core Services_ including Exchange Online, SharePoint/OneDrive, Microsoft Teams, and Microsoft 365 Copilot and Copilot Chat. In addition, _Multi-Geo_ can be used with shared resources including SharePoint sites, Microsoft 365 Groups, Shared Mailboxes, eDiscovery, or Microsoft Teams.
+_Multi-Geo_ enables customers to manage and store in-scope data at a user level for _Microsoft 365 Core Services_ including Exchange Online, SharePoint/OneDrive, Microsoft Teams, and Microsoft 365 Copilot and Copilot Chat. In addition, _Multi-Geo_ can be used with shared resources including SharePoint sites, Microsoft 365 Groups, Shared Mailboxes, eDiscovery, or Microsoft Teams teams.
 
 Customers that utilize Microsoft Purview eDiscovery Standard or Premium should refer to [Microsoft 365 Multi-Geo eDiscovery configuration](multi-geo-ediscovery-configuration.md) and [Set up compliance boundaries for eDiscovery investigations](/purview/ediscovery-set-up-compliance-boundaries#searching-and-exporting-content-in-multi-geo-environments) for additional information on region usage and data storage as it relates to Microsoft Purview eDiscovery.
 
@@ -59,7 +59,7 @@ Enterprise Agreement customers must purchase a quantity of _Multi-Geo_ licenses 
 
 _Multi-Geo Capabilities_ in Microsoft 365 is a user-level add-on license. Customers need a license for each user that they want to host in a _Satellite Geography_ location. Customers can add more licenses over time as they add users in _Satellite Geography_ locations.
 
-There are no _Multi-Geo_ licenses specific to shared resources such as SharePoint Sites, Microsoft 365 Groups, Shared Mailboxes, or Microsoft Teams. If enough _Multi-Geo_ user licenses have been acquired, then customers are eligible to use _Multi-Geo_ with shared resources without limitation.
+There are no _Multi-Geo_ licenses specific to shared resources such as SharePoint Sites, Microsoft 365 Groups, Shared Mailboxes, or Microsoft Teams teams. If enough _Multi-Geo_ user licenses have been acquired, then customers are eligible to use _Multi-Geo_ with shared resources without limitation.
 
 ## Microsoft 365 Multi-Geo availability
 
