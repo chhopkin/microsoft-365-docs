@@ -47,6 +47,8 @@ Customers can Enable **Zero Query Logging for Copilot web searches** policy via 
 
 Customers who currently have web search turned off should turn on the **Allow web search in Copilot policy** in [Cloud Policy Service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy) by following the instructions here: [Data, privacy, and security for web search in Microsoft 365 Copilot and Microsoft 365 Copilot Chat | Microsoft Learn.](/copilot/microsoft-365/manage-public-web-access#it-admin-control-for-both-microsoft-365-copilot-and-microsoft-365-copilot-chat).
 
+:::image type="content" source="media/zql-screenshot-800.png" alt-text="Image of the zero query logging in the admin center." lightbox="media/zql-screenshot-raw.png":::
+
 ## Policy activation timeline
 
 Once enabled, the **Enable Zero Query Logging for Copilot web searches** may take up to 24 hours to fully propagate. Once in effect, ZQL prevents the storage of any data related to web grounding queries in Copilot in Bing. End users see no indication that ZQL is enabled in the Copilot Chat user experience.
