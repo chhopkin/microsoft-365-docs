@@ -25,7 +25,7 @@ The _Microsoft 365 Multi-Geo Capabilities add-on_ ("_Multi-Geo_") provides enter
 
 _Multi-Geo_ is intended for enterprise customers who need to store data in multiple _Geographies_ to satisfy data residency requirements, while retaining single-tenant administration and full-fidelity collaboration experiences between users as necessary.
 
-_Multi-Geo_ enables customers to manage and store in-scope data at a user level for _Microsoft 365 Core Services_ including Exchange Online, SharePoint/OneDrive, Microsoft Teams, and Microsoft 365 Copilot and Copilot Chat. In addition, _Multi-Geo_ can be used with shared resources including SharePoint sites, Microsoft 365 Groups, Shared Mailboxes, eDiscovery, or Microsoft Teams teams.
+_Multi-Geo_ enables customers to manage and store in-scope data at a user level for _Microsoft 365 Core Services_ including Exchange Online, SharePoint/OneDrive, Microsoft Teams, and Microsoft 365 Copilot and Copilot Chat. In addition, _Multi-Geo_ can be used with shared resources including SharePoint sites, Microsoft 365 Groups, Shared Mailboxes, eDiscovery, or Microsoft Teams.
 
 Customers that utilize Microsoft Purview eDiscovery Standard or Premium should refer to [Microsoft 365 Multi-Geo eDiscovery configuration](multi-geo-ediscovery-configuration.md) and [Set up compliance boundaries for eDiscovery investigations](/purview/ediscovery-set-up-compliance-boundaries#searching-and-exporting-content-in-multi-geo-environments) for additional information on region usage and data storage as it relates to Microsoft Purview eDiscovery.
 
