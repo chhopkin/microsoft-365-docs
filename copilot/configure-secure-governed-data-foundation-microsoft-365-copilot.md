@@ -1,5 +1,5 @@
 ---
-title: Configure a secure and governed foundation for Microsoft 365 Copilot
+title: Configure data security for Microsoft 365 Copilot
 description: Get your data ready for Microsoft 365 Copilot.
 f1.keywords:
 - NOCSH
@@ -51,7 +51,7 @@ The capabilities described in this article require:
 
 - [Microsoft 365 E3](https://www.microsoft.com/microsoft-365/enterprise/e3) or [Microsoft 365 E5](https://www.microsoft.com/microsoft-365/enterprise/e5) (or [Office 365 E3](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3) or [Office 365 E5](https://www.microsoft.com/microsoft-365/enterprise/office-365-e5)) for core Microsoft 365 services and features, such as SharePoint, OneDrive, and Microsoft Purview features.
 
-   This article covers both the [Microsoft Purview](/purview/) foundational capabilities that are included in Microsoft 365 E3 and the optimized features that are included in Microsoft 365 E5
+- This article covers both the [Microsoft Purview](/purview/) foundational capabilities that are included in Microsoft 365 E3 and the optimized features that are included in Microsoft 365 E5
 
 - [Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)
 
@@ -75,7 +75,7 @@ First, identify and prioritize high-risk sites and sensitive content, remediate 
 
 Use [Microsoft Purview](/purview/purview) and [SharePoint Advanced Management](/sharepoint/get-ready-copilot-sharepoint-advanced-management) (SAM) to find sites and files that are overshared, ownerless, inactive, or contain sensitive data that could be surfaced by Copilot.
 
-1. Review [Microsoft Purview Data Security Posture Management (DSPM)](/purview/data-security-posture-management-learn-about) data risk assessments to identify sites with sensitive data and risky or overshared links accessible to Copilot.
+1. Review [Microsoft Purview Data Security Posture Management (DSPM)](/purview/data-security-posture-management-learn-about) Data risk assessments to identify sites with sensitive data and risky or overshared links accessible to Copilot.
 
 2. Run the [SAM Content Management Assessment](/sharepoint/content-management-assessment) to identify sites with oversized audiences, Everyone except external users (EEEU) usage, broken inheritance, inappropriate sharing, and sensitive content; and to identify sites that are inactive or ownerless.
 
@@ -83,16 +83,20 @@ Use [Microsoft Purview](/purview/purview) and [SharePoint Advanced Management](/
 
 For sites you identify as high-risk, use Microsoft Purview and SAM recommendations to remove excessive access, correct broken inheritance, and ensure accountable ownership.
 
-1. Review [Microsoft Purview DSPM data risk assessment](/purview/data-security-posture-management-oversharing?tabs=m365) recommendations for high-risk sites (for example, apply site sensitivity labels to reflect data sensitivity and restrict oversharing).
+1. Review [Microsoft Purview DSPM Data Risk Assessment](/purview/data-security-posture-management-oversharing?tabs=m365) recommendations for sites flagged as high‑risk and take the following actions:
 
-1. Initiate [SAM site access reviews](/sharepoint/site-access-review) for high-risk sites so site owners can manage access (down to the file level) and:
+- Apply site sensitivity label to reflect data sensitivity and restrict Oversharing
+   
+- Remove excessive or anonymous access, and rescope sharing links to approved users or groups
+   
+2. Initiate [SAM site access reviews](/sharepoint/site-access-review) for high-risk sites so site owners can manage access (down to the file level) and:
 
-   1. Remove **excess users, groups, and company-wide sharing links** (including EEEU), and re-scope sharing links to approved users or groups.
-   
-   1. Correct **broken permission inheritance_** on libraries and folders.
-   
-   1. Assign or confirm **site ownership** for all remediated sites using SAM site lifecycle management.
-   
+- Remove **excess users, groups, and company-wide sharing links** (including EEEU), and re-scope sharing links to approved users or groups.
+
+- Correct **broken permission inheritance_** on libraries and folders.
+
+- Assign or confirm **site ownership** for all remediated sites using SAM site lifecycle management.
+
 ### Apply interim Copilot protections
 
 While sites are in remediation, apply temporary controls to reduce exposure and validate that Copilot is no longer surfacing restricted content.
@@ -135,9 +139,9 @@ Configure classification and enforcement controls with Microsoft Purview so Copi
 
 Use Microsoft Purview reporting, risk assessments, and alerts to continuously validate protection and investigate risky AI usage.
 
-1. Use [DSPM Activity Explorer](/purview/data-security-posture-management-learn-about) to review Copilot interactions (prompts and responses), web search keywords, and sensitive data activity.
+1. Use Microsoft Purview [DSPM Activity Explorer](/purview/data-security-posture-management-learn-about) to review Copilot interactions (prompts and responses), web search keywords, and sensitive data activity.
 
-2. Use [DSPM data risk assessments](/purview/data-security-posture-management-oversharing?tabs=m365) to continuously validate that sensitive data remains protected from Copilot access.
+1. Use Microsoft Purview [DSPM data risk assessments](/purview/data-security-posture-management-oversharing?tabs=m365) to continuously validate that sensitive data remains protected from Copilot access.
 
 3. Review **Microsoft Purview Insider Risk Management and DLP alerts** to detect and investigate risky AI usage or potential data loss.
 
@@ -149,7 +153,7 @@ Finally, assess and close AI compliance gaps, define audit and retention require
 
 1. Use [Microsoft Purview Compliance Manager](/purview/compliance-manager) to assess your tenant against AI-related regulatory requirements and Microsoft recommended actions.
 
-2. Review **Microsoft Compliance Manager improvement actions** related to data protection, auditability, and AI usage controls.
+1. Review **Microsoft Purview Compliance Manager improvement actions** related to data protection, auditability, and AI usage controls.
 
 3. Assign and track remediation work to close **identified compliance gaps**.
 
