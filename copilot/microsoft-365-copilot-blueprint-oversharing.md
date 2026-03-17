@@ -43,7 +43,7 @@ This blueprint is organized into three pillars:
 - Set up guardrails
 - Meet regulations
 
-## What the blueprint covers
+### What the blueprint covers
 
 The blueprint covers the following areas:
 
