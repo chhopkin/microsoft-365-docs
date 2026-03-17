@@ -16,7 +16,7 @@ ms.collection:
 # Workforce Insights agent
 
 > [!IMPORTANT]
-> Copilot personalization and memory are in preview and subject to change. For more information about the Frontier program, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7)
+> The Workforce Insights agent is in Frontier and subject to change. For more information about the Frontier program, see [What is Frontier?](https://support.microsoft.com/topic/what-is-frontier-17c671e0-1906-4d9d-892c-68e11fbff4c7)
 
 The Workforce Insights agent helps organizational leaders and their specified delegates:
 
@@ -67,11 +67,11 @@ For information on responsible AI principles and usage, see the following articl
     1. [Use admin controls to manage access to Workforce Insights](#use-admin-controls-to-manage-access-to-the-workforce-insights-agent-in-your-organization)
     2. Manage delegation policies  
 1. Download the Workforce Insights agent from the Agent Store in Microsoft 365 Copilot.
-1. Set up People Skills.
+1. Set up [People Skills](/copilot/microsoft-365/people-skills-setup).
 
 ## Use admin controls to manage access to the Workforce Insights agent in your organization
 
-You have several controls to deploy the Workforce Insights agent in their organization. You should review the controls to manage Workforce Insights agent deployment and access in their tenant.
+You have several controls to deploy the Workforce Insights agent in your organization. You should review the controls to manage Workforce Insights agent deployment and access in your tenant.
 
 The following controls are available:
 
@@ -87,13 +87,13 @@ For more information on how to manage agents, see [Manage agents for Microsoft 3
 
 As a manager or leader using the Workforce Insights agent, you can assign a delegate, or multiple delegates, to access the organizational data that's available to you about your team.  
 
-For example, if you're a manager, you might have access to confidential attributes about your team. This custom attribute could be called `salary`. If you assign a delegate to access this attribute, the delegate can query data within this column. When you enable delegates, it helps managers and leaders conduct analysis with the support of their team.
+For example, if you're a manager, you might have access to confidential attributes about your team. This custom attribute could be called `salary`. If you assign a delegate to access this attribute, the delegate can query data within this column. When you use delegates, it helps managers and leaders conduct analysis with the support of their team.
 
 ### Delegation admin controls
 
 | Control | Description |
 | --- | --- |
-| Disable the ability for a user to assign delegates | As the admin, you can restrict users from assigning a delegate to view their organizational insights. Use the Microsoft 365 control access to features with PowerShell under the module name WorkforceInsights. |
+| Disable the ability for a user to assign delegates | As the admin, you can restrict users from assigning a delegate to view organizational insights. Use the Microsoft 365 control access to features with PowerShell under the module name WorkforceInsights. |
 | Assign delegates or revoke delegates on behalf of a user | Starting in January 2026, as the admin, you can use PowerShell commandlets to assign or revoke delegates access on behalf of a user. |
 
 ### Assign delegates
@@ -126,7 +126,7 @@ Delegates can request access through a similar workflow.
 
 The following explains:  
 
-- How the Workforce Insights agent uses different types of data that can be supported when made available in your organization
+- How the Workforce Insights agent uses different types of data that is supported when made available in your organization
 - How you can configure data for the Workforce Insights agent to use
 
 | Data type | Description |

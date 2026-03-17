@@ -1,7 +1,7 @@
 ---
 title: "Configure search for Microsoft 365 Multi-Geo"
 ms.reviewer: jugiammo
-ms.date: 12/10/2024
+ms.date: 05/09/2025
 ms.author: v-fahasen
 author: fhasen-msft
 manager: Justin.Giammona

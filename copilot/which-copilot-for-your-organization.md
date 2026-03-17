@@ -40,7 +40,7 @@ Microsoft 365 offers two variants based on licensing. The following image highli
 Includes **Copilot Chat**: AI chat grounded in the web
 
 ✅ Secure with [enterprise data protection](enterprise-data-protection.md)  
-✅ Scalable with [pay-as-you-go](./pay-as-you-go/overview.md) agents 
+✅ Scalable with [pay-as-you-go](./pay-as-you-go/overview.md) agents
 ✅ Included with a Microsoft 365 subscription
 
 **Copilot Chat** is an AI prompt-and-response experience that's [grounded in the web](/copilot/privacy-and-protections#privacy-and-security-of-generated-search-queries) and powered by [large language models (LLMs)](https://azure.microsoft.com/resources/cloud-computing-dictionary/what-are-large-language-models-llms).
@@ -235,4 +235,4 @@ To learn more, see:
 - [Microsoft 365 Copilot overview](microsoft-365-copilot-overview.md)
 - [Microsoft 365 Copilot adoption](https://adoption.microsoft.com/copilot/)
 - [Unified cloud.microsoft domain for Microsoft 365 apps](/microsoft-365/enterprise/cloud-microsoft-domain)
-- [Get your data ready for Microsoft 365 Copilot - Admin guide for E3 + SAM licenses](microsoft-365-copilot-e3-guide.md)
+- [Configure data security for Microsoft 365 Copilot](configure-data-security-copilot.md)

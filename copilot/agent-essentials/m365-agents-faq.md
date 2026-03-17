@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Copilot agents FAQ
+title: Agents FAQ for Microsoft 365
 f1.keywords:
 ms.author: erikre
 author: ErikRe
@@ -13,10 +13,10 @@ ms.localizationpriority: medium
 ms.collection:
 - m365copilot
 - magic-ai-copilot
-description: Get answers to frequently asked questions about Microsoft 365 Copilot agents governance.
+description: Get answers to frequently asked questions about agents governance for Microsoft 365.
 ---
 
-# Microsoft 365 Copilot agents FAQ
+# Agents FAQ for Microsoft 365
 
 ## Do I need an agent or a connector? How do I get started?
 
@@ -50,7 +50,7 @@ People in your organization can also [sideload agents](/copilot/microsoft-365/ag
 
 For more information, see the following articles:
 
-- [Microsoft 365 Copilot agents admin guide](m365-agents-admin-guide.md)
+- [Agents admin guide for Microsoft 365](m365-agents-admin-guide.md)
 - [Manage access to Copilot agents](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps#manage-access-to-copilot-agents)
 
 ## What tools do I need to create, build, implement, and use Copilot agents?
@@ -66,7 +66,7 @@ Depending on what you want to do, Copilot agent tools are available, as summariz
 
 Make sure to review the following resources:
 
-- [Microsoft 365 Copilot agents admin guide](/copilot/microsoft-365/agent-essentials/m365-agents-admin-guide)
+- [Agents admin guide for Microsoft 365](/copilot/microsoft-365/agent-essentials/m365-agents-admin-guide)
 - [Planning guide for Copilot extensibility options](/microsoft-365-copilot/extensibility/planning-guide)
 
 ## What governance or controls are available for agents?
@@ -93,8 +93,8 @@ Yes, administrators can control data sources that are used. Administrators can a
 
 For more information, see the following resources:
 
-- [Manage Microsoft 365 Copilot agents and integrated apps](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps)
-- [Microsoft 365 Copilot connectors overview](/microsoft-365-copilot/extensibility/overview-copilot-connector)
+- [Manage agents and integrated apps in Microsoft 365](/microsoft-365/admin/manage/manage-copilot-agents-integrated-apps)
+- [Connectors overview in Microsoft 365](/microsoft-365-copilot/extensibility/overview-copilot-connector)
 
 ## How does an agent access data?  
 
@@ -115,11 +115,11 @@ In general, administrators should take the following actions:
 - Use [Purview DSPM for AI](/purview/dspm-for-ai?tabs=m365) to identify and mitigate oversharing and insider risks
 - Configure [integrated apps settings](/copilot/microsoft-365/microsoft-365-copilot-app-admin-settings) for extensibility enablement and granular controls
 
-For more information, see [Microsoft 365 Copilot agents admin guide](/copilot/microsoft-365/agent-essentials/m365-agents-admin-guide).
+For more information, see [Agents admin guide for Microsoft 365](/copilot/microsoft-365/agent-essentials/m365-agents-admin-guide).
 
 ## Additional resources
 
-- [Microsoft 365 Copilot agents admin guide](/copilot/microsoft-365/agent-essentials/m365-agents-admin-guide)
-- [Microsoft 365 Copilot agents deployment blueprint](m365-agents-blueprint.md)
-- [Microsoft 365 agents deployment checklist](m365-agents-checklist.md)
-- [Microsoft 365 Copilot agents visual guide](m365-agents-visual-map.md)
+- [Agents admin guide for Microsoft 365](/copilot/microsoft-365/agent-essentials/m365-agents-admin-guide)
+- [Agents deployment blueprint for Microsoft 365](m365-agents-blueprint.md)
+- [Agents deployment checklist for Microsoft 365](m365-agents-checklist.md)
+- [Agents visual guide for Microsoft 365](m365-agents-visual-map.md)
