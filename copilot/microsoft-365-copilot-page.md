@@ -305,7 +305,7 @@ Microsoft Purview has many features to help get your data ready for Copilot, suc
 For more information, see the following articles:
 
 - [Microsoft Purview data security and compliance protections for generative AI apps](/purview/ai-microsoft-purview)
-- [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-data-security-copilot.md)
+- [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-secure-governed-data-foundation-microsoft-365-copilot.md)
 
 ### People Skills in Microsoft 365 Copilot
 

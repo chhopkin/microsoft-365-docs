@@ -47,7 +47,7 @@ Microsoft recommends you complete the assessment before deploying Microsoft 365 
 
 Use the features in your Microsoft 365 subscription and SharePoint Advanced Management (SAM) licenses to help get your data ready for Copilot.
 
-See [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-data-security-copilot.md).
+See [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-secure-governed-data-foundation-microsoft-365-copilot.md).
 
 ✅ **Use the Microsoft Adoption site**
 
@@ -90,5 +90,5 @@ You can also enable feedback for Microsoft 365 Copilot users. To learn more, see
 ## Related articles
 
 - [Copilot Prompt Gallery](copilot-prompt-gallery.md)
-- [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-data-security-copilot.md)
+- [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-secure-governed-data-foundation-microsoft-365-copilot.md)
 - [Microsoft 365 Copilot reports](microsoft-365-copilot-reports-for-admins.md)

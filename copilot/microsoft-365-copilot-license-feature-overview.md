@@ -106,7 +106,7 @@ For more information, see the following articles:
 
 ## Next step
 
-The next step is to start using the features in your license. See [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-data-security-copilot.md).
+The next step is to start using the features in your license. See [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-secure-governed-data-foundation-microsoft-365-copilot.md).
 
 ## Related content
 

@@ -167,7 +167,7 @@ Your Microsoft 365 license includes services and features that help you get your
 More resources:
 
 - [Compare features in the Microsoft 365 licenses that affect Copilot](microsoft-365-copilot-license-feature-overview.md)
-- [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-data-security-copilot.md)
+- [Configure a secure and governed data foundation for Microsoft 365 Copilot](configure-secure-governed-data-foundation-microsoft-365-copilot.md)
 
 ## Related content
 
