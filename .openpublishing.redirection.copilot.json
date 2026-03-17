@@ -84,6 +84,16 @@
          "source_path": "copilot/microsoft-365-copilot-e5-guide.md",
          "redirect_url": "/copilot/microsoft-365/configure-data-security-copilot",
          "redirect_document_id": false
+      },
+      {
+         "source_path": "copilot/microsoft-365-copilot-blueprint-oversharing.md",
+         "redirect_url": "/copilot/microsoft-365/secure-govern-copilot-foundational-deployment-guidance",
+         "redirect_document_id": false
+      },
+      {
+         "source_path": "copilot/microsoft-365-copilot-e5-guide.md",
+         "redirect_url": "/copilot/microsoft-365/configure-data-security-copilot",
+         "redirect_document_id": false
       }
    ]
 }
