@@ -139,9 +139,9 @@ Configure classification and enforcement controls with Microsoft Purview so Copi
 
 Use Microsoft Purview reporting, risk assessments, and alerts to continuously validate protection and investigate risky AI usage.
 
-1. Use Microsoft Purview [DSPM Activity Explorer](/purview/data-security-posture-management-learn-about) to review Copilot interactions (prompts and responses), web search keywords, and sensitive data activity.
+1. Use [Microsoft Purview DSPM Activity Explorer](/purview/data-security-posture-management-learn-about) to review Copilot interactions (prompts and responses), web search keywords, and sensitive data activity.
 
-2. Use Microsoft Purview [DSPM data risk assessments](/purview/data-security-posture-management-oversharing?tabs=m365) to continuously validate that sensitive data remains protected from Copilot access.
+2. Use [Microsoft Purview DSPM data risk assessments](/purview/data-security-posture-management-oversharing?tabs=m365) to continuously validate that sensitive data remains protected from Copilot access.
 
 3. Review **Microsoft Purview Insider Risk Management and DLP alerts** to detect and investigate risky AI usage or potential data loss.
 
