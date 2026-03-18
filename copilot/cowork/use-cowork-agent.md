@@ -71,6 +71,10 @@ As Cowork works on your request, some things happen on screen:
 - **Thinking indicator**: An animation lets you know Cowork is processing your message.
 - **Step-by-step updates**: Updates show what Cowork is doing at each stage, such as *Composing your email* or *Searching OneDrive*.
 - **Streaming response**: Cowork's reply appears word by word as it generates, so you don't have to wait for the entire response.
+- **Interactive cards**: Some responses include interactive cards with structured layouts, buttons, and data displays directly in the conversation.
+
+> [!NOTE]
+> Some background operations, like script execution, run without displaying individual steps. This keeps the conversation focused on results.
 
 ### Stay informed about your connection
 
@@ -111,13 +115,16 @@ Before Cowork takes a sensitive action, like sending an email or posting a messa
    | Option | What it does |
    |---|---|
    | Approve | Allows Cowork to proceed with the action this one time. |
-   | Approve & Remember | Allows Cowork to proceed and remembers your choice for similar actions in the future, so you aren't asked again. |
+   | Approve & Remember | Allows Cowork to proceed and remembers your choice for similar actions in the current conversation, so you aren't asked again. |
    | Reject | Stops the action. Cowork skips it and moves on with the rest of your request. |
 
    To see the technical details of the action, select **Show parameters**. Select **Hide parameters** to collapse the view.
 
 > [!IMPORTANT]
 > Always review the details before you approve. Cowork shows you exactly what it plans to do. Check that the recipients, content, and other details are correct.
+
+> [!NOTE]
+> For certain actions like Outlook mail rules, Cowork presents a detailed approval card that shows exactly what the rule will do before you approve.
 
 ## Work with files
 
@@ -136,6 +143,9 @@ When Cowork creates or updates files during a conversation, you can grab them fr
 1. Open the side panel if it isn't already visible.
 1. Under the **Output folder** section, find the file.
 1. To save the file to your device, select **Download**.
+
+> [!TIP]
+> When Cowork produces multiple output files, select **Download All** at the top of the output file list to download every file as a single zip archive.
 
 ### Supported file types
 
@@ -309,9 +319,24 @@ Here's what Cowork can do:
 | Meetings | Prepare meeting intelligence. |
 | Daily Briefing | Prepare your daily briefing. |
 | Enterprise Search | Search across your organization. |
+| Deep Research | Conducts in-depth research across multiple sources to compile comprehensive answers and analysis on complex topics. |
 | Communications | Draft stakeholder communications. |
+| Adaptive Cards | Generates interactive card-based responses with structured layouts, buttons, and data displays in the conversation. |
 
 You can display which skills Cowork used during a conversation in the **Skills** section of the side panel. They appear as chips.
+
+## Schedule prompts
+
+You can schedule a prompt to run automatically at a set time or on a recurring basis. Scheduled prompts are useful for tasks you want Cowork to handle regularly, such as a daily briefing or a weekly status report.
+
+To create a scheduled prompt:
+
+1. Enter your prompt in the message box.
+1. Select the **Schedule** option instead of sending the prompt immediately.
+1. Choose the frequency (one-time, daily, weekly) and the time.
+1. Select **Save** to activate the schedule.
+
+Scheduled prompts appear in the side panel and in your task list with a schedule indicator. You can edit, pause, or cancel a scheduled prompt at any time from the task list.
 
 ## Provide feedback
 
@@ -326,6 +351,10 @@ Your feedback helps improve Cowork. You can share it in many ways.
 
 1. Open a document in the preview panel.
 1. Use the **thumbs up** or **thumbs down** buttons to rate the quality of the document.
+
+### Leave inline comments
+
+You can leave inline comments directly on messages in the conversation to provide targeted feedback on specific parts of Cowork's response.
 
 ### Send general feedback
 

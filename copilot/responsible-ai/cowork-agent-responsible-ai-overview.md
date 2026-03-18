@@ -28,6 +28,8 @@ Cowork agent contains a growing list of AI-driven features. To learn about the c
 - **Work context integration** — You can attach emails, files, and calendar events to your conversation so Cowork has the context it needs to complete your request.
 - **Action approval** — Cowork asks for your approval before performing sensitive actions such as sending an email or posting in a Teams channel.
 - **Conversation controls** — You can pause, resume, or cancel the agent's work at any time, and provide thumbs up or thumbs down feedback on individual responses.
+- **Deep research** — Synthesizes information from multiple sources to provide comprehensive research reports.
+- **Adaptive card generation** — Creates structured, interactive card-based responses.
 
 For detailed information about how these features use AI responsibly, see [Responsible AI FAQ for Cowork agent](cowork-agent-responsible-ai-faq.md).
 

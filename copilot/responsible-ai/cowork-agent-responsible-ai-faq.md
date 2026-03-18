@@ -37,8 +37,11 @@ Cowork can:
 - Execute Python and Bash scripts to process data, generate reports, or automate calculations.
 - Prepare daily briefings and meeting intelligence summaries.
 - Draft stakeholder communications.
+- Conduct deep research across multiple sources and compile comprehensive analysis.
+- Generate adaptive card responses with structured layouts and data displays.
+- Run scheduled prompts for recurring tasks (daily briefings, weekly reports).
 
-During a conversation, Cowork acquires specialized skills as needed, such as the following: Word, Excel, PowerPoint, PDF, Email, Scheduling, Calendar Management, Meetings, Daily Briefing, Enterprise Search, and Communications.
+During a conversation, Cowork acquires specialized skills as needed, such as the following: Word, Excel, PowerPoint, PDF, Email, Scheduling, Calendar Management, Meetings, Daily Briefing, Enterprise Search, Communications, Deep Research, and Adaptive Cards.
 
 ## What is Cowork agent's intended use?
 
@@ -70,6 +73,7 @@ Current limitations include:
 - The agent might produce inaccurate information when searching across your organization, particularly when source data is incomplete or outdated.
 - Complex, multi-step tasks with many dependencies might not always complete as expected.
 - Cowork is dependent on your existing Microsoft 365 permissions. It can't access data or services that your account isn't authorized to use.
+- Custom skills authored by users or your organization are not validated by Microsoft. Review custom skill outputs carefully, as their quality depends on how the skill was written.
 
 To minimize these limitations:
 
@@ -83,8 +87,8 @@ To minimize these limitations:
 Before Cowork performs a sensitive action such as sending an email, posting in Teams, or modifying a file, it presents an approval dialog. You have the following options:
 
 - **Approve**: Allow the action to proceed this one time.
-- **Approve and remember**: Allow the action and skip the approval prompt for similar actions in the future.
-- **Cancel**: Block the action.
+- **Approve & Remember**: Allow the action and skip the approval prompt for similar actions in the current conversation.
+- **Reject**: Block the action.
 
 For certain actions, such as sending an email, Cowork displays a preview of the content so you can review it before approving. The agent doesn't execute sensitive actions without your explicit consent.
 
