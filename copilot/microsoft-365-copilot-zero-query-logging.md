@@ -55,10 +55,3 @@ Customers who currently have web search turned off should turn on the **Allow we
 Once enabled, the **Enable Zero Query Logging for Copilot web searches** may take up to 24 hours to fully propagate. Once in effect, ZQL prevents the storage of any data related to web grounding queries in Copilot in Bing. End users see no indication that ZQL is enabled in the Copilot Chat user experience.
 
 We recommend that you first **Enable Zero Query Logging for Copilot web searches** policy, wait 24 hours, and then enable the **Allow web search in Copilot policy** in [Cloud Policy Service for Microsoft 365](/microsoft-365-apps/admin-center/overview-cloud-policy).
-
-## Share your thoughts
-
-We're looking for feedback on the quality of web grounding once ZQL is turned on. We encourage participants to provide feedback on a weekly basis, particularly if they experience issues with coverage or quality. This feedback is invaluable as we refine the service.
-
-**Note:** Account teams, please work with your preview customer and provide feedback here: 
-[Zero Query Logging Private Preview Feedback – Fill out form](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR7vpOeVyG5dJmQjC9j2qTYVUNk1USkVIOTRDU1VJM0gxNzdWVVdCN0dCRy4u&route=shorturl). This form is only accessible by Microsoft accounts to upload screenshots of sample prompts and responses from the use of ZQL.
