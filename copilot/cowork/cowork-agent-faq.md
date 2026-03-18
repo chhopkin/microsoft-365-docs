@@ -13,10 +13,10 @@ appliesto:
 ---
 
 # Cowork agent common questions (Frontier)
+[!INCLUDE [cowork-top-note](../includes/cowork-top-note.md)]
+[!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
-[!INCLUDE [preview](../includes/preview.md)]
-
-Find answers to common questions about Cowork agent in Microsoft 365 Copilot.
+Find answers to common questions about Copilot Cowork agent in Microsoft 365 Copilot.
 
 ## What is Cowork agent?
 

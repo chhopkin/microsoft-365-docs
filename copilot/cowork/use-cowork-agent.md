@@ -13,10 +13,10 @@ appliesto:
 ---
 
 # Use Cowork agent (Frontier)
+[!INCLUDE [cowork-top-note](../includes/cowork-top-note.md)]
+[!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
-[!INCLUDE [preview](../includes/preview.md)]
-
-Cowork agent in Microsoft 365 Copilot carries out tasks on your behalf, such as send emails, create documents, schedule meetings, and search across your organization. This article explains everything you can do with Cowork.
+Copilot Cowork agent in Microsoft 365 Copilot carries out tasks on your behalf, such as send emails, create documents, schedule meetings, and search across your organization. This article explains everything you can do with Cowork.
 
 ## Start a conversation
 

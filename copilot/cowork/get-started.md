@@ -13,10 +13,10 @@ appliesto:
 ---
 
 # Get started with Cowork agent (Frontier)
+[!INCLUDE [cowork-top-note](../includes/cowork-top-note.md)]
+[!INCLUDE [cowork-preview](../includes/cowork-preview.md)]
 
-[!INCLUDE [preview](../includes/preview.md)]
-
-Cowork is an agent available in Microsoft 365 Copilot. You describe what you need&mdash;draft an email, build a spreadsheet, schedule a meeting&mdash;and Cowork handles it. This article walks you through your first conversation, from sending a request to reviewing the result.
+Copilot Cowork is an agent available in Microsoft 365 Copilot. You describe what you need&mdash;draft an email, build a spreadsheet, schedule a meeting&mdash;and Cowork handles it. This article walks you through your first conversation, from sending a request to reviewing the result.
 
 ## Prerequisites
 
