@@ -1,12 +1,12 @@
 ---
-title: Secure & Governed Data Foundation for Microsoft 365 Copilot - A deployment blueprint
+title: Secure & Governed Data Foundation for Microsoft 365 Copilot - Foudational Deployment Guidance
 description: Use this deployment blueprint to help prevent oversharing when using Microsoft 365 Copilot.
 f1.keywords:
 - NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 03/17/2026
+ms.date: 03/18/2026
 ms.update-cycle: 180-days
 ms.reviewer:
 audience: Admin
@@ -27,7 +27,7 @@ appliesto:
 - ✅ Microsoft 365 Copilot
 ---
 
-# Secure and Govern Microsoft 365 Copilot: A Foundational Deployment Guidance
+# Secure and govern Microsoft 365 Copilot: Foundational deployment guidance
 
 Microsoft 365 Copilot can accelerate how people find information, summarize content, and get work done—by grounding responses in the data users already have permission to access. To realize that value confidently, organizations need a foundation that's secure and governed, equipped with robust guardrails, and aligned with AI regulations. 
 
