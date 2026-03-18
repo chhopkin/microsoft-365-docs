@@ -1,12 +1,12 @@
 ---
-title: Configure data security for Microsoft 365 Copilot
-description: Get your data ready for Microsoft 365 Copilot.
+title: Configure a secure and governed foundation for Microsoft 365 Copilot
+description: Prepare your organization for Microsoft 365 Copilot.
 f1.keywords:
 - NOCSH
 manager: dansimp
 ms.author: deniseb
 author: denisebmsft
-ms.date: 03/17/2026
+ms.date: 03/18/2026
 ms.update-cycle: 180-days
 ms.reviewer: cabailey, ruihu
 audience: Admin
@@ -85,17 +85,17 @@ For sites you identify as high-risk, use Microsoft Purview and SAM recommendatio
 
 1. Review [Microsoft Purview DSPM Data Risk Assessment](/purview/data-security-posture-management-oversharing?tabs=m365) recommendations for sites flagged as high‑risk and take the following actions:
 
-- Apply site sensitivity label to reflect data sensitivity and restrict Oversharing
+   - Apply site sensitivity label to reflect data sensitivity and restrict oversharing
    
-- Remove excessive or anonymous access, and rescope sharing links to approved users or groups
+   - Remove excessive or anonymous access, and rescope sharing links to approved users or groups
    
 2. Initiate [SAM site access reviews](/sharepoint/site-access-review) for high-risk sites so site owners can manage access (down to the file level) and:
 
-- Remove **excess users, groups, and company-wide sharing links** (including EEEU), and re-scope sharing links to approved users or groups.
+   - Remove **excess users, groups, and company-wide sharing links** (including EEEU), and re-scope sharing links to approved users or groups.
 
-- Correct **broken permission inheritance_** on libraries and folders.
+   - Correct **broken permission inheritance_** on libraries and folders.
 
-- Assign or confirm **site ownership** for all remediated sites using SAM site lifecycle management.
+   - Assign or confirm **site ownership** for all remediated sites using SAM site lifecycle management.
 
 ### Apply interim Copilot protections
 
@@ -119,9 +119,9 @@ Use tenant and provisioning defaults to prevent oversharing from being introduce
 
 1. Enforce [Restricted Access Control (RAC) by default](/sharepoint/restricted-access-control) for business-critical sites at provisioning time.
 
-1. Disable or restrict use of **company-wide sharing groups** and **Anyone** links at the tenant level.
+2. Disable or restrict use of **company-wide sharing groups** and **Anyone** links at the tenant level.
 
-1. **Require site sensitivity labels at provisioning** to enforce correct site privacy and sharing controls by default.
+3. **Require site sensitivity labels at provisioning** to enforce correct site privacy and sharing controls by default.
 
 ### Establish secure guardrails
 
@@ -141,7 +141,7 @@ Use Microsoft Purview reporting, risk assessments, and alerts to continuously va
 
 1. Use Microsoft Purview [DSPM Activity Explorer](/purview/data-security-posture-management-learn-about) to review Copilot interactions (prompts and responses), web search keywords, and sensitive data activity.
 
-1. Use Microsoft Purview [DSPM data risk assessments](/purview/data-security-posture-management-oversharing?tabs=m365) to continuously validate that sensitive data remains protected from Copilot access.
+2. Use Microsoft Purview [DSPM data risk assessments](/purview/data-security-posture-management-oversharing?tabs=m365) to continuously validate that sensitive data remains protected from Copilot access.
 
 3. Review **Microsoft Purview Insider Risk Management and DLP alerts** to detect and investigate risky AI usage or potential data loss.
 
@@ -153,7 +153,7 @@ Finally, assess and close AI compliance gaps, define audit and retention require
 
 1. Use [Microsoft Purview Compliance Manager](/purview/compliance-manager) to assess your tenant against AI-related regulatory requirements and Microsoft recommended actions.
 
-1. Review **Microsoft Purview Compliance Manager improvement actions** related to data protection, auditability, and AI usage controls.
+2. Review **Microsoft Purview Compliance Manager improvement actions** related to data protection, auditability, and AI usage controls.
 
 3. Assign and track remediation work to close **identified compliance gaps**.
 
