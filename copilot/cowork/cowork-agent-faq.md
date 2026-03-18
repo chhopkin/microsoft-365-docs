@@ -2,7 +2,7 @@
 title: "Cowork agent common questions (Frontier)"
 description: "Frequently asked questions about Cowork agent in Microsoft 365 Copilot."
 ms.date: 03/30/2026
-ms.topic: article
+ms.topic: faq
 author: leeclontz
 manager: KumarVivek
 ms.author: leeclontz
@@ -51,6 +51,8 @@ Cowork comes with a set of built-in skills, each designed for a specific type of
 | Daily Briefing | Summarizes your upcoming day's meetings, priorities, and action items |
 | Enterprise Search | Finds files, people, and information across your organization |
 | Communications | Drafts professional messages for stakeholders and teams |
+| Deep Research | Conducts in-depth research across multiple sources to compile comprehensive answers and analysis on complex topics |
+| Adaptive Cards | Generates interactive card-based responses with structured layouts, buttons, and data displays |
 
 ## How do I start using Cowork?
 
@@ -96,7 +98,7 @@ Select a file to open an inline preview. You can also go full-screen or open the
 Before Cowork takes a sensitive action like sending an email or posting in Teams, it displays an approval prompt. Each prompt includes a risk level (**Low Risk**, **Medium Risk**, or **High Risk**) so you can gauge the impact. Your choices are:
 
 - **Approve**: Let Cowork proceed with the action this one time.
-- **Approve & Remember**: Allow the action now and skip the prompt for similar actions in the future.
+- **Approve & Remember**: Allow the action now and skip the prompt for similar actions in the current conversation.
 - **Reject**: Stop Cowork from taking the action.
 
 You can also select **Show parameters** to see the technical details of the action before deciding.
@@ -132,9 +134,17 @@ Cowork gives you the following ways to stay organized:
 
 Select a project to jump back into the conversation.
 
+## Can I schedule recurring prompts?
+
+Yes. You can schedule a prompt to run at a set time or on a recurring basis — daily, weekly, or as a one-time event. Scheduled prompts are useful for tasks like daily briefings or weekly status reports. You can manage, pause, or cancel scheduled prompts from your task list.
+
 ## Where are my files saved?
 
 Files that Cowork creates are saved to your **OneDrive and SharePoint** workspace. You can browse them in the side panel during a conversation or access them directly in OneDrive at any time.
+
+## Can I download all output files at once?
+
+Yes. When Cowork produces multiple files, select **Download All** at the top of the output file list to download everything as a single zip archive.
 
 ## Is Cowork secure?
 
@@ -146,6 +156,7 @@ You can share feedback in the following ways:
 
 - **Thumbs up / thumbs down**: Rate any response from Cowork directly in the conversation.
 - **Document feedback**: When previewing a file Cowork created, use the feedback controls to rate it.
+- **Inline comments**: Leave comments directly on messages in the conversation to provide targeted feedback on specific parts of a response.
 - **General feedback**: To share broader thoughts about your experience, open the menu and select the feedback option.
 
 ## Can I see where Cowork gets its information?

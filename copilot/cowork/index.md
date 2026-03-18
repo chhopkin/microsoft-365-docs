@@ -16,7 +16,7 @@ appliesto:
 
 [!INCLUDE [preview](../includes/preview.md)]
 
-Cowork agent in Microsoft 365 Copilot can carry out tasks on your behalf. You describe what you need, and Cowork sends emails, schedules meetings, creates documents, posts in Teams, and manages your calendar. You approve each action before it happens.
+Cowork agent in Microsoft 365 Copilot can carry out tasks on your behalf. You describe what you need, and Cowork sends emails, schedules meetings, creates documents, posts in Teams, and manages your calendar. Cowork asks for your approval before it takes sensitive actions.
 
 ## What is Cowork agent?
 
@@ -28,7 +28,7 @@ Cowork is an AI agent available in Microsoft 365 Copilot. It carries out tasks a
 - **Posts in Teams**: Sends messages to channels and chats.
 - **Searches your organization**: Finds the information you need across your company's resources and your OneDrive files.
 
-Every step Cowork takes is visible in your conversation, so you always know exactly what's happening.
+Cowork shows each step in your conversation, so you can follow along as it works.
 
 ## What can Cowork do for you?
 
@@ -58,7 +58,12 @@ The following sections describe what you can ask Cowork to do.
 ### Research and search
 
 - Search across your organization to find documents, messages, and information.
+- Perform deep research that synthesizes information from multiple sources into comprehensive reports.
 - Browse your OneDrive folders and select files to work with.
+
+### Automation
+
+- Run prompts on a schedule, so recurring tasks happen automatically.
 
 ## Skills
 
@@ -79,6 +84,8 @@ Here are the skills Cowork can use:
 | Daily Briefing | Prepare your daily briefing |
 | Enterprise Search | Search across your organization |
 | Communications | Draft stakeholder communications |
+| Deep Research | Conduct in-depth research across multiple sources to compile comprehensive answers and analysis |
+| Adaptive Cards | Generate interactive card-based responses with structured layouts, buttons, and data visualization |
 
 As Cowork prepares skills during a conversation, the side panel updates to show which skills are active.
 
@@ -95,7 +102,7 @@ Here's how a typical interaction works:
 
 You control what Cowork does throughout a conversation.
 
-- **Approve actions**: Cowork asks for your permission before taking sensitive actions. Each approval shows a risk level (**Low Risk**, **Medium Risk**, or **High Risk**) so you know the impact. You can **Approve** once, **Approve & Remember** your preference for similar future actions, or **Reject** the action.
+- **Approve actions**: Cowork asks for your permission before taking sensitive actions. Each approval shows a risk level (**Low Risk**, **Medium Risk**, or **High Risk**) so you know the impact. You can **Approve** once, **Approve & Remember** your preference for similar actions in the current conversation, or **Reject** the action.
 - **Pause and resume**: Pause the agent at any time. Resume when you're ready to continue.
 - **Cancel**: Changed your mind? Stop the current task and redirect Cowork to something else.
 - **Give feedback**: Thumbs up or thumbs down any response, leave feedback on documents, or share general comments about your experience.

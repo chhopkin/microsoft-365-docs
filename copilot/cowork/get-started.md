@@ -62,7 +62,7 @@ Before Cowork takes an action on your behalf, like sending an email or schedulin
 Each approval prompt includes a risk level (**Low Risk**, **Medium Risk**, or **High Risk**) so you can quickly gauge the impact.
 
 - **Approve**: Allow this action to proceed.
-- **Approve & Remember**: Allow this action, and skip the prompt for similar actions in the future.
+- **Approve & Remember**: Allow this action, and tell Cowork not to ask for approval on the same type of action again in this conversation.
 - **Reject**: Stop this action.
 
 > [!NOTE]
@@ -74,7 +74,7 @@ Sometimes Cowork asks you a question to clarify your request. When this happens,
 
 When Cowork finishes, any files it created appear in the side panel on the right. From there you can:
 
-- Download files to your device.
+- Download individual files to your device, or select **Download All** to download every file as a single zip archive.
 - Preview files directly in the browser. Supported formats include PDF, Markdown, images, CSV, and HTML.
 
 The side panel also shows a progress bar with the percentage of tasks complete and the skills Cowork used. You can select **thumbs down** on responses that missed the mark, or **thumbs up** on ones that were helpful.
@@ -88,5 +88,6 @@ Select the **Tasks** view to see everything you asked Cowork to do. Here you can
 
 ## Related content
 
+- [Cowork overview](index.md)
 - [Use Cowork agent](use-cowork-agent.md)
 - [Cowork agent common questions](cowork-agent-faq.md)
