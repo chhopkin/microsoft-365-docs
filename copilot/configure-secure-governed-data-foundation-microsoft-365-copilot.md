@@ -33,7 +33,7 @@ appliesto:
 
 This article guides you through preparing, securing, and managing Microsoft 365 Copilot. By following these steps, you can help Copilot deliver accurate and relevant results while supporting your organization's security, compliance, and regulatory requirements.
 
-This guidance is intended for IT administrators and security administrators who are either preparing their organization for Microsoft 365 Copilot or making necessary adjustments to security and governance conrols after Copilot is enabled.
+This guidance is intended for IT administrators and security administrators who are either preparing their organization for Microsoft 365 Copilot or making necessary adjustments to security and governance controls after Copilot is enabled.
 
 ## What this article helps you achieve
 
@@ -41,7 +41,7 @@ By completing the steps in this article, you can:
 
 - Establish guardrails to ensure that users have appropriate access to SharePoint, OneDrive, and Exchange, and that Copilot only references accurate, up-to-date information in line with your organization's policies
 
-- Make informed choices about how Copilot can and cannot interact with your organization's sensitive data, ensuring control and flexibility in data usage and access
+- Make informed choices about how Copilot can and can't interact with your organization's sensitive data, ensuring control and flexibility in data usage and access
 
 - Monitor changes and Copilot activity to identify and remediate risk.
 
@@ -69,7 +69,7 @@ You need access to the following admin portals and permissions:
    
 ## Step 1: Remediate oversharing
 
-First, identify and prioritize high-risk sites and sensitive content, apply interim protections to reduce Copilot exposure, and then remediate access and permissions.
+In this step, you identify and prioritize high-risk sites and sensitive content, apply interim protections to reduce Copilot exposure, and then remediate access and permissions.
 
 ### Identify high-risk sites and content
 
@@ -91,7 +91,7 @@ For sites you identify as high-risk, use Microsoft Purview and SAM recommendatio
    
 2. Initiate [SAM site access reviews](/sharepoint/site-access-review) for high-risk sites so site owners can manage access (down to the file level) and:
 
-   - Remove **excess users, groups, and company-wide sharing links** (including EEEU), and re-scope sharing links to approved users or groups.
+   - Remove **excess users, groups, and company-wide sharing links** (including EEEU), and rescope sharing links to approved users or groups.
 
    - Correct **broken permission inheritance_** on libraries and folders.
 
@@ -111,7 +111,7 @@ While sites are in remediation, apply temporary controls to reduce exposure and 
 
 ## Step 2: Set up guardrails
 
-Next, establish secure defaults and durable guardrails with Microsoft Purview and SAM so new sites and content are protected at creation, and continuously enforce and optimize these controls over time.
+In this step, you establish secure defaults and durable guardrails with Microsoft Purview and SAM so new sites and content are protected at creation, and continuously enforce and optimize these controls over time.
 
 ### Establish secure defaults
 
@@ -133,7 +133,7 @@ Configure classification and enforcement controls with Microsoft Purview so Copi
 
 3. Enable a [Microsoft Purview DLP for Copilot prompt](/purview/dlp-microsoft365-copilot-location-learn-about) policy to restrict Copilot from responding to prompts that contain sensitive information.
 
-4. Enable [Microsoft Purview Insider Risk Management](/purview/insider-risk-management-solution-overview) policies to detect potentially inappropriate or non-compliant AI usage.
+4. Enable [Microsoft Purview Insider Risk Management](/purview/insider-risk-management-solution-overview) policies to detect potentially inappropriate or noncompliant AI usage.
 
 ### Continuously enforce and optimize guardrails
 
@@ -147,7 +147,7 @@ Use Microsoft Purview reporting, risk assessments, and alerts to continuously va
 
 ## Step 3: Meet regulations
 
-Finally, assess and close AI compliance gaps, define audit and retention requirements for Copilot interactions, and improve ongoing data hygiene with Microsoft Purview to support responsible AI governance at scale.
+In this step, you assess and close AI compliance gaps, define audit and retention requirements for Copilot interactions, and improve ongoing data hygiene with Microsoft Purview to support responsible AI governance at scale.
 
 ### Identify and address gaps against AI regulations
 
