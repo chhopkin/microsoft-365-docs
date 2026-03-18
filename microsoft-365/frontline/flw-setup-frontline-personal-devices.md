@@ -25,6 +25,13 @@ manager: viseshag
 
 The frontline Teams onboarding experience helps frontline workers set up Teams on their personal devices. This onboarding experience is available on the web and is intended for use on a desktop kiosk or shared PC at your work site. The steps in the experience update dynamically based on the security policies defined in your organization. If your policies change over time, the experience adapts automatically.
 
+## How it works
+
+
+```
+> [!VIDEO https://youtu.be/Yz52WdwsbBs?si=xnicG8_H_vtSL6jQ]
+```
+
 ## Scenarios supported
 
 - You want to set up Microsoft Teams on a personal device. Supported devices include Android and iOS.
@@ -81,7 +88,7 @@ You could need to download extra apps such as Microsoft Authenticator and/or Com
       ![Screenshot shows a QR code to download the Microsoft Authenticator app.](media/setup-frontline-teams-on-personal-devices/get-authenticator.png)
    
    1. Download Microsoft Teams using the QR code. 
-   
+
 1. You'll open the Microsoft Authenticator app and allow notifications.
    
 1. You'll sign in with your work account and complete setup.
