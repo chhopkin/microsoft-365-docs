@@ -66,9 +66,6 @@ The blueprint covers the following areas:
 ## Related guidance
 
 - [Microsoft Purview blueprint: Secure by default](/purview/deploymentmodels/depmod-securebydefault-intro)
-
 - [Configure a secure and governed foundation for Microsoft 365 Copilot](configure-secure-governed-data-foundation-microsoft-365-copilot.md)
-
 - [Microsoft Purview](/purview/)
-
 - [SharePoint Advanced Management](/sharepoint/advanced-management)
