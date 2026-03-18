@@ -84,10 +84,10 @@ Set-SPOSite -Identity <site_url> -AllowFileArchive $true
 ```
 
 
-1. **Defaults for new sites**. To control the value of the _**-AllowFileArchive**_ flag for sites created in the future, tenants can utilize a new flag on the _**Set-SPOTenant**_ cmdlet called _**-AllowFileArchiveForNewSitesByDefault**_.  By default, this property is set to True, meaning that new sites will be able to archive files by default. This property’s value will be copied to future created sites' ***-AllowFileArchive*** property flag, dictating whether those sites allow file archive.
+1. **Defaults for new sites**. To control the value of the _**-AllowFileArchive**_ flag for sites created in the future, tenants can utilize a new flag on the _**Set-SPOTenant**_ cmdlet called _**-AllowFileArchiveOnNewSitesByDefault**_.  By default, this property is set to True, meaning that new sites will be able to archive files by default. This property’s value will be copied to future created sites' ***-AllowFileArchive*** property flag, dictating whether those sites allow file archive.
 
 ```PowerShell
-Set-SPOTenant -AllowFileArchiveForNewSitesByDefault $true 
+Set-SPOTenant -AllowFileArchiveOnNewSitesByDefault $true 
 ```
 
 Admins can also utilize PowerShell to view usage of file-level archive.  [SharePoint Administrators](/entra/identity/role-based-access-control/permissions-reference#sharepoint-administrator) or [Global Administrators](/entra/identity/role-based-access-control/permissions-reference#global-administrator) can see how much total storage is consumed by file-level archiving for a given site.  The '*ArchivedFileDiskUsed*' property of the ***Get-SPOSite*** cmdlet indicates the storage consumed by all archived files on that site in bytes. 
