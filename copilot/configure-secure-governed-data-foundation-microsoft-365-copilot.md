@@ -51,7 +51,7 @@ The capabilities described in this article require:
 
 - [Microsoft 365 E3](https://www.microsoft.com/microsoft-365/enterprise/e3) or [Microsoft 365 E5](https://www.microsoft.com/microsoft-365/enterprise/e5) (or [Office 365 E3](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3) or [Office 365 E5](https://www.microsoft.com/microsoft-365/enterprise/office-365-e5)) for core Microsoft 365 services and features, such as SharePoint, OneDrive, and Microsoft Purview features.
 
-- [Microsoft Purview foundational capabilities](/purview/) foundational capabilities that are included in Microsoft 365 E3. This article also mentions optimized features that are included in Microsoft 365 E5.
+- This article covers both the [Microsoft Purview](/purview/) foundational capabilities that are included in Microsoft 365 E3. This article also mentions optimized features that are included in Microsoft 365 E5.
 
 - [Microsoft 365 Copilot](microsoft-365-copilot-licensing.md)
 
@@ -75,65 +75,69 @@ In this step, you identify and prioritize high-risk sites and sensitive content,
 
 Use [Microsoft Purview](/purview/purview) and [SharePoint Advanced Management](/sharepoint/get-ready-copilot-sharepoint-advanced-management) (SAM) to find sites and files that are overshared, ownerless, inactive, or contain sensitive data that could be surfaced by Copilot.
 
-1. **Review [Microsoft Purview Data Security Posture Management (DSPM)](/purview/data-security-posture-management-learn-about) data risk assessments** to identify sites with sensitive data, risky sharing links, and content that is frequently accessed.
+1. Review [Microsoft Purview Data Security Posture Management (DSPM)](/purview/data-security-posture-management-learn-about) data risk assessments to identify overshared sites with sensitive data, risky sharing links, and content that is frequently accessed
 
-1. **Run the [SAM Content Management Assessment](/sharepoint/content-management-assessment)** to identify sites with oversized audiences, EEEU usage, broken inheritance, inappropriate sharing, and those that are inactive or ownerless.
+1. Run the [SAM Content Management Assessment](/sharepoint/content-management-assessment) to identify sites with oversized audiences, EEEU usage, broken inheritance, inappropriate sharing, and those that are inactive or ownerless
+
+### Apply interim Copilot protections
+
+Before sites are in remediation, apply temporary controls to reduce exposure and validate that Copilot is no longer surfacing restricted content.
+
+1. Enable [SAM Restricted Content Discovery (RCD)](/sharepoint/restricted-content-discovery) to exclude sensitive sites from Copilot discovery.
+
+1. Configure [Microsoft Purview Data Loss Prevention (DLP) for Copilot](/purview/dlp-microsoft365-copilot-location-learn-about) to exclude sensitive content from Copilot grounding.
+
+Validate through Microsoft Purview Auditing and reports that Copilot no longer surfaces restricted content. (See [Use Microsoft Purview to manage data security & compliance for Microsoft 365 Copilot and Microsoft 365 Copilot Chat](/purview/ai-m365-copilot).)
 
 ### Fix access and permissions
 
 For sites you identify as high risk, use Microsoft Purview and SAM recommendations to remove excessive access, correct broken inheritance, and ensure accountable ownership.
 
-1. **Review [Microsoft Purview DSPM Data Risk Assessment](/purview/data-security-posture-management-oversharing?tabs=m365) recommendations** for sites flagged as high‑risk and take the following actions:
+1. Review [Microsoft Purview DSPM Data Risk Assessment](/purview/data-security-posture-management-oversharing?tabs=m365) recommendations for sites flagged as high‑risk and take the following actions:
 
-   - **Apply [site sensitivity labels](/purview/sensitivity-labels-teams-groups-sites)** to reflect data sensitivity and restrict oversharing
-   
-   - **Remove excessive or anonymous access**, and rescope sharing links to approved users or groups. (See [Manage sharing settings for SharePoint and OneDrive](/sharepoint/turn-external-sharing-on-or-off).)
-   
-2. **Initiate [SAM site access reviews](/sharepoint/site-access-review)** for high-risk sites so site owners can manage access (down to the file level) and:
+  - Apply [site sensitivity labels](/purview/sensitivity-labels-teams-groups-sites) to reflect data sensitivity and restrict oversharing
+    
+  - Remove excessive or anonymous access, and rescope sharing links to approved users or groups. (See [Manage sharing settings for SharePoint and OneDrive](/sharepoint/turn-external-sharing-on-or-off).)
+    
+1. Initiate [SAM site access reviews](/sharepoint/site-access-review) for high-risk sites so site owners can manage access (down to the file level) and:
 
-   - **Remove excess users, groups, and company-wide sharing links** (including EEEU), and rescope sharing links to approved users or groups. (See [Monitor sharing activities in SharePoint](/sharepoint/data-access-governance-sharing-links-report).)
-
-   - **Correct broken permission inheritance** on libraries and folders. (See [Permissions inheritance in SharePoint](/SharePoint/what-is-permissions-inheritance) and [Customize permissions for a SharePoint list or library](https://support.microsoft.com/en-us/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782).)
-
-   - **Assign or confirm site ownership** for all remediated sites using SAM site lifecycle management. (See [Create a SharePoint site ownership policy](/sharepoint/create-sharepoint-site-ownership-policy).)
-
-### Apply interim Copilot protections
-
-While sites are in remediation, apply temporary controls to reduce exposure and validate that Copilot is no longer surfacing restricted content.
-
-1. **Enable [SAM Restricted Content Discovery (RCD)](/sharepoint/restricted-content-discovery)** to exclude sensitive sites from Copilot discovery.
-
-2. **Configure [Microsoft Purview Data Loss Prevention (DLP) for Copilot](/purview/dlp-microsoft365-copilot-location-learn-about)** to exclude sensitive content from Copilot grounding.
-
-3. **Validate through Microsoft Purview Auditing and reports that Copilot no longer surfaces restricted content**. (See [Use Microsoft Purview to manage data security & compliance for Microsoft 365 Copilot and Microsoft 365 Copilot Chat](/purview/ai-m365-copilot).)
-
-4. **Remove these restrictions once site access and permissions are fully remediated**.
+  - Remove excess users, groups, and company-wide sharing links (including EEEU), and rescope sharing links to approved users or groups. (See [Monitor sharing activities in SharePoint](/sharepoint/data-access-governance-sharing-links-report).)
+    
+  - Correct broken permission inheritance on libraries and folders. (See [Permissions inheritance in SharePoint](/SharePoint/what-is-permissions-inheritance) and [Customize permissions for a SharePoint list or library](https://support.microsoft.com/en-us/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782).)
+    
+  - Assign or confirm site ownership for all remediated sites using SAM site lifecycle management. (See [Create a SharePoint site ownership policy](/sharepoint/create-sharepoint-site-ownership-policy).)
+    
+Remove interim Copilot protections once access and permissions are remediated
 
 ## Step 2: Set up guardrails
 
-In this step, you establish secure defaults and durable guardrails with Microsoft Purview and SAM so new sites and content are protected at creation, and continuously enforce and optimize these controls over time.
+In this step, you establish secure defaults and durable guardrails with Microsoft Purview and SAM so new sites and content are protected at creation—and continuously enforce and optimize these controls over time.
 
 ### Establish secure defaults
 
 Use tenant and provisioning defaults to prevent oversharing from being introduced in new sites and sharing links.
 
-1. **Enforce [Restricted Access Control (RAC)](/sharepoint/restricted-access-control) by default** for business-critical sites at provisioning time.
+1. Enforce [Restricted Access Control (RAC)](/sharepoint/restricted-access-control) by default for business-critical sites at provisioning time.
 
 2. **Disable or restrict use of company-wide sharing groups and Anyone links** at the tenant level. (See [How shareable links work in SharePoint and OneDrive](/sharepoint/shareable-links-anyone-specific-people-organization).)
 
-3. **Require site sensitivity labels at provisioning** to enforce correct site privacy and sharing controls by default. (See [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 Groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites).)
+1. Use Microsoft Purview Information Protection to require site sensitivity labels at provisioning to enforce correct site privacy and sharing controls by default. (See [Use sensitivity labels to protect content in Microsoft Teams, Microsoft 365 Groups, and SharePoint sites](/purview/sensitivity-labels-teams-groups-sites).)
 
 ### Establish secure guardrails
 
-Configure classification and enforcement controls with Microsoft Purview so Copilot interactions and new content are protected by policy, not by manual remediation.
+Protect sensitive data by default and decide how it should be used with Copilot using Microsoft Purview.
 
-1. **Configure [Microsoft Purview Information Protection default sensitivity labels](/purview/default-sensitivity-labels-policies)** to ensure new content is protected.
+1. Configure [auto-label](/purview/apply-sensitivity-label-automatically?tabs=apply-label) and [default Microsoft Purview Information Protection sensitivity labels](/purview/default-sensitivity-labels-policies) to ensure sensitive files and emails are protected.
 
-2. **Set up a [Microsoft Purview DLP for Copilot](/purview/dlp-microsoft365-copilot-location-learn-about) policy** to restrict Copilot processing of labeled sensitive content. 
+1. Are there files or emails that shouldn’t be used by Copilot for grounding? If yes, setup [Microsoft Purview DLP for Copilot policies](/purview/dlp-microsoft365-copilot-location-learn-about) to restrict Copilot processing of files and emails with specific sensitivity label
 
-3. **Enable a [Microsoft Purview DLP for Copilot prompt](/purview/dlp-microsoft365-copilot-location-learn-about) policy** to restrict Copilot from responding to prompts that contain sensitive information.
+1. Are there keywords or types of sensitive data that shouldn’t be processed by Copilot? If yes, enable a [Purview DLP for Copilot prompts](/purview/dlp-microsoft365-copilot-location-learn-about) policy to restrict Copilot from responding to prompts containing specified sensitive information
 
-4. **Enable [Microsoft Purview Insider Risk Management](/purview/insider-risk-management-solution-overview) policies** to detect potentially inappropriate or noncompliant AI usage.
+1. Enable a [Microsoft Purview DLP for Copilot prompt](/purview/dlp-microsoft365-copilot-location-learn-about) policy to restrict Copilot from responding to prompts that contain sensitive information.
+
+  - Optionally, allow sensitive data to be used for Work IQ grounding but block from web grounding
+  
+1. Enable [Microsoft Purview Insider Risk Management (IRM](/purview/insider-risk-management-solution-overview)) policies to detect patterns of inappropriate or non‑compliant Copilot usage and [automatically add risky users to more restrictive security policies](/purview/insider-risk-management-adaptive-protection)
 
 ### Continuously enforce and optimize guardrails
 
@@ -161,11 +165,11 @@ In this step, you assess and close AI compliance gaps, define audit and retentio
 
 ### Define regulatory requirements
 
-1. **Decide how long to keep audit logs** in accordance with regulatory and internal requirements. (See [Manage audit log retention policies](/purview/data-security-posture-management-learn-about#how-to-use-data-security-posture-management).)
+1. Decide how long to keep audit logs in accordance with regulatory and internal requirements. (See [Manage audit log retention policies](/purview/data-security-posture-management-learn-about#how-to-use-data-security-posture-management).)
 
-2. **Decide how to keep or when to delete Copilot interactions** based on legal risk or regulatory requirements. (See [Microsoft Purview Data Lifecycle Management](/purview/retention-policies-copilot).)
+1. Decide how to keep or when to delete Copilot interactions based on legal risk or regulatory requirements. (See [Microsoft Purview Data Lifecycle Management](/purview/retention-policies-copilot).)
 
-3. **Use [Microsoft Purview eDiscovery](/purview/edisc-search-copilot-data)** to search, preserve, and produce Copilot-related content for audits or legal requests.
+1. Use [Microsoft Purview eDiscovery](/purview/edisc-search-copilot-data) to search, preserve, and produce Copilot-related content for audits or legal requests.
 
 ### Improve data hygiene
 
@@ -173,19 +177,21 @@ Reduce ongoing risk and improve Copilot answer quality by continuously cleaning 
 
 **For sites**:
 
-- **Maintain lifecycle hygiene by identifying and addressing inactive or obsolete sites**. (See [SAM inactive site policies](/sharepoint/site-lifecycle-management).)
+- Maintain lifecycle hygiene by identifying and addressing inactive or obsolete sites. (See [SAM inactive site policies](/sharepoint/site-lifecycle-management).)
 
-- **Use [Microsoft 365 Archive](/microsoft-365/archive/archive-overview?view=o365-worldwide&preserve-view=true)** to store inactive but high-value content at a lower cost while preventing Copilot from processing or reasoning over it.
+- Use [Microsoft 365 Archive](/microsoft-365/archive/archive-overview?view=o365-worldwide&preserve-view=true) to store inactive but high-value content at a lower cost while preventing Copilot from processing or reasoning over it.
 
 **For files**: 
 
-- **Apply [Microsoft Purview retention and deletion policies](/purview/create-retention-policies?tabs=teams-retention)** to reduce data exposure while meeting record-keeping obligations.
+- Apply [Microsoft Purview retention and deletion policies](/purview/create-retention-policies?tabs=teams-retention) to remove inactive or obsolete files to improve the quality of Copilot responses.
+
+- Use [Microsoft Purview retention labels](/purview/create-retention-labels-data-lifecycle-management) + [Microsoft 365 Archive](/microsoft-365/archive/archive-overview?view=o365-worldwide) to exclude files from Copilot use while preserving them for recordkeeping obligations or discovery
 
 ## Next steps
 
 After completing the steps in this article:
 
-1. **Use the [Microsoft Purview portal](/purview/purview-portal) and the [Content Governance Agent](/sharepoint/content-governance-agent)** to view information and run reports on a scheduled basis.
+1. Use the [Microsoft Purview portal](/purview/purview-portal) and the [Content Governance Agent](/sharepoint/content-governance-agent) to view information and run reports on a scheduled basis.
 
-2. **Educate site owners and users on labeling, sharing, and responsible Copilot use**. (See [Microsoft 365 Copilot data and compliance readiness](/copilot/microsoft-365/microsoft-365-copilot-minimum-requirements-data-compliance).)
+1. Educate site owners and users on labeling, sharing, and responsible Copilot use. (See [Microsoft 365 Copilot data and compliance readiness](/copilot/microsoft-365/microsoft-365-copilot-minimum-requirements-data-compliance).)
 
