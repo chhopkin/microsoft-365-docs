@@ -137,7 +137,7 @@ Protect sensitive data by default and decide how it should be used with Copilot 
 
    Optionally, allow sensitive data to be used for Work IQ grounding but block from web grounding
   
-1. Enable [Microsoft Purview Insider Risk Management (IRM](/purview/insider-risk-management-solution-overview) policies to detect patterns of inappropriate or non‑compliant Copilot usage and [automatically add risky users to more restrictive security policies](/purview/insider-risk-management-adaptive-protection)
+1. Enable [Microsoft Purview Insider Risk Management (IRM](/purview/insider-risk-management-solution-overview) policies to detect patterns of inappropriate or noncompliant Copilot usage and [automatically add risky users to more restrictive security policies](/purview/insider-risk-management-adaptive-protection)
 
 ### Continuously enforce and optimize guardrails
 
