@@ -163,7 +163,7 @@ In this step, you assess and close AI compliance gaps, define audit and retentio
 
 1. **Decide how long to keep audit logs** in accordance with regulatory and internal requirements. (See [Manage audit log retention policies](/purview/data-security-posture-management-learn-about#how-to-use-data-security-posture-management).)
 
-2. **Decide how to keep or when to delete Copilot interactions** based on legal risk or regulatory requirements with [Microsoft Purview Data Lifecycle Management](/purview/retention-policies-copilot).
+2. **Decide how to keep or when to delete Copilot interactions** based on legal risk or regulatory requirements. (See [Microsoft Purview Data Lifecycle Management](/purview/retention-policies-copilot).)
 
 3. **Use [Microsoft Purview eDiscovery](/purview/edisc-search-copilot-data)** to search, preserve, and produce Copilot-related content for audits or legal requests.
 
