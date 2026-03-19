@@ -165,7 +165,7 @@ In this step, you assess and close AI compliance gaps, define audit and retentio
 
 2. **Decide how to keep or when to delete Copilot interactions** based on legal risk or regulatory requirements with [Microsoft Purview Data Lifecycle Management](/purview/retention-policies-copilot).
 
-3. Use [Microsoft Purview eDiscovery](/purview/edisc-search-copilot-data) to search, preserve, and produce Copilot-related content for audits or legal requests.
+3. **Use [Microsoft Purview eDiscovery](/purview/edisc-search-copilot-data)** to search, preserve, and produce Copilot-related content for audits or legal requests.
 
 ### Improve data hygiene
 
@@ -173,19 +173,19 @@ Reduce ongoing risk and improve Copilot answer quality by continuously cleaning 
 
 **For sites**:
 
-- Maintain lifecycle hygiene by identifying and addressing inactive or obsolete sites using [SAM inactive site policies](/sharepoint/site-lifecycle-management).
+- **Maintain lifecycle hygiene by identifying and addressing inactive or obsolete sites** using [SAM inactive site policies](/sharepoint/site-lifecycle-management).
 
-- Use [Microsoft 365 Archive](/microsoft-365/archive/archive-overview?view=o365-worldwide&preserve-view=true) to store inactive but high-value content at a lower cost while preventing Copilot from processing or reasoning over it.
+- **Use [Microsoft 365 Archive](/microsoft-365/archive/archive-overview?view=o365-worldwide&preserve-view=true)** to store inactive but high-value content at a lower cost while preventing Copilot from processing or reasoning over it.
 
 **For files**: 
 
-- Apply [Microsoft Purview retention and deletion policies](/purview/create-retention-policies?tabs=teams-retention) to reduce data exposure while meeting record-keeping obligations.
+- **Apply [Microsoft Purview retention and deletion policies](/purview/create-retention-policies?tabs=teams-retention)** to reduce data exposure while meeting record-keeping obligations.
 
 ## Next steps
 
 After completing the steps in this article:
 
-1. Use the [Microsoft Purview portal](/purview/purview-portal) and the [Content Governance Agent](/sharepoint/content-governance-agent) to view information and run reports on a scheduled basis.
+1. **Use the [Microsoft Purview portal](/purview/purview-portal) and the [Content Governance Agent](/sharepoint/content-governance-agent)** to view information and run reports on a scheduled basis.
 
-2. Educate site owners and users on labeling, sharing, and responsible Copilot use. See [Microsoft 365 Copilot data and compliance readiness](/copilot/microsoft-365/microsoft-365-copilot-minimum-requirements-data-compliance).
+2. **Educate site owners and users on labeling, sharing, and responsible Copilot use**. See [Microsoft 365 Copilot data and compliance readiness](/copilot/microsoft-365/microsoft-365-copilot-minimum-requirements-data-compliance).
 
