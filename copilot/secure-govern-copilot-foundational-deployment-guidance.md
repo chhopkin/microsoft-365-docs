@@ -29,7 +29,7 @@ appliesto:
 
 # Secure and govern Microsoft 365 Copilot: Foundational deployment guidance
 
-Microsoft 365 Copilot can accelerate how people find information, summarize content, and get work done—by grounding responses in the data users already have permission to access. To realize that value confidently, organizations need a foundation that's secure and governed, equipped with robust guardrails, and aligned with AI regulations. 
+Microsoft 365 Copilot can accelerate how people find information, summarize content, and get work done - by grounding responses in the data users already have permission to access. To realize that value confidently, organizations require a foundation that is both secure and well-governed, with robust safeguards in place—including measures to protect interactions when using Copilot—and fully aligned with AI regulatory standards.
 
 ## How this blueprint can help you secure and govern Microsoft 365 Copilot
 
@@ -41,7 +41,8 @@ This blueprint is organized into three pillars:
 - Set up guardrails
 - Meet regulations
 
-:::image type="content" source="media/secure-govern-data-microsoft-365-copilot/secure-govern-data-microsoft-365-copilot.png" alt-text="Diagram depicting the blueprint for securing and governing data for Microsoft 365 Copilot." lightbox="media/secure-govern-data-microsoft-365-copilot/secure-govern-data-microsoft-365-copilot.png":::
+![blueprint](media/secure-govern-copilot-foundational-deployment-guidance/blueprint.png)
+
 
 ### What the blueprint covers
 
@@ -61,7 +62,7 @@ The blueprint covers the following areas:
 
 | Deployment model | Description |
 |---|---|
-| [![Secure and govern data for Microsoft 365 Copilot](media/secure-govern-data-microsoft-365-copilot/secure-govern-data-microsoft-365-copilot.png)](https://aka.ms/Copilot/OversharingBlueprintPDF) | Use this blueprint to remediate oversharing, enforce guardrails, and meet AI regulations for a Microsoft 365 Copilot deployment.<br/><br/>**Includes:**<br/>- Blueprint overview and activities: [PDF](https://aka.ms/Copilot/OversharingBlueprintPDF)<br/>- [PowerPoint](https://aka.ms/Copilot/OversharingBlueprintPPT) |
+| [![Secure and govern data for Microsoft 365 Copilot](media/secure-govern-copilot-foundational-deployment-guidance/blueprint.png)](https://aka.ms/Copilot/SecureGovernBlueprintPDF) | Use this blueprint to remediate oversharing, enforce guardrails, and meet AI regulations for a Microsoft 365 Copilot deployment.<br/><br/>**Includes:**<br/>- Blueprint overview and activities: [PDF](https://aka.ms/Copilot/SecureGovernBlueprintPDF)<br/>- [PowerPoint](https://aka.ms/Copilot/SecureGovernBlueprintPPT) |
 
 ## Related guidance
 
@@ -69,3 +70,4 @@ The blueprint covers the following areas:
 - [Configure a secure and governed foundation for Microsoft 365 Copilot](configure-secure-governed-data-foundation-microsoft-365-copilot.md)
 - [Microsoft Purview](/purview/)
 - [SharePoint Advanced Management](/sharepoint/advanced-management)
+- [Microsoft Zero Trust Assessment](https://microsoft.github.io/zerotrustassessment/guide)
