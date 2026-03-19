@@ -129,11 +129,11 @@ Configure classification and enforcement controls with Microsoft Purview so Copi
 
 1. **Configure Microsoft Purview Information Protection default sensitivity labels** to ensure new content is protected. (See [Default sensitivity labels and policies to protect your data](/purview/default-sensitivity-labels-policies).)
 
-2. **[Set up a Microsoft Purview DLP for Copilot policy](/purview/dlp-microsoft365-copilot-location-learn-about)** to restrict Copilot processing of labeled sensitive content. (See [Sensitivity labels and AI interactions](/purview/ai-m365-copilot#sensitivity-labels-and-ai-interactions).)
+2. **[Set up a Microsoft Purview DLP for Copilot policy](/purview/dlp-microsoft365-copilot-location-learn-about)** to restrict Copilot processing of labeled sensitive content. 
 
-3. Enable a [Microsoft Purview DLP for Copilot prompt](/purview/dlp-microsoft365-copilot-location-learn-about) policy to restrict Copilot from responding to prompts that contain sensitive information.
+3. **[Enable a Microsoft Purview DLP for Copilot prompt policy](/purview/dlp-microsoft365-copilot-location-learn-about)** to restrict Copilot from responding to prompts that contain sensitive information.
 
-4. Enable [Microsoft Purview Insider Risk Management](/purview/insider-risk-management-solution-overview) policies to detect potentially inappropriate or noncompliant AI usage.
+4. **[Enable Microsoft Purview Insider Risk Management](/purview/insider-risk-management-solution-overview) policies** to detect potentially inappropriate or noncompliant AI usage.
 
 ### Continuously enforce and optimize guardrails
 
