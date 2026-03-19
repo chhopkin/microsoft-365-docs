@@ -185,7 +185,7 @@ Reduce ongoing risk and improve Copilot answer quality by continuously cleaning 
 
 - Apply [Microsoft Purview retention and deletion policies](/purview/create-retention-policies?tabs=teams-retention) to remove inactive or obsolete files to improve the quality of Copilot responses.
 
-- Use [Microsoft Purview retention labels](/purview/create-retention-labels-data-lifecycle-management) + [Microsoft 365 Archive](/microsoft-365/archive/archive-overview?view=o365-worldwide&preserve-view=true) to exclude files from Copilot use while preserving them for recordkeeping obligations or discovery
+- Use [Microsoft Purview retention labels](/purview/create-retention-labels-data-lifecycle-management) and [Microsoft 365 Archive](/microsoft-365/archive/archive-overview?view=o365-worldwide&preserve-view=true) to exclude files from Copilot use while preserving them for recordkeeping obligations or discovery
 
 ## Next steps
 
