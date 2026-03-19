@@ -8,7 +8,7 @@ manager: dansimp
 ms.date: 12/10/2025
 audience: Admin
 ms.topic: install-set-up-deploy
-ms.service: microsoft-365-security
+ms.service: microsoft-365-admin
 ms.localizationpriority: high
 ms.collection: 
 - Tier1

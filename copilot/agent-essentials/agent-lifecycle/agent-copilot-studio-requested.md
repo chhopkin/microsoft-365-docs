@@ -18,19 +18,19 @@ description: Learn how to manage requested Copilot Studio agents.
 
 # Manage requested Copilot Studio agents
 
-Your organization can use Copilot Studio to create more advanced agents. These agents can be published to different channels within your organization, such as Microsoft 365 Copilot and Microsoft Teams. When an agent is published from Copilot Studio, the agent will be displayed in the **Requested agents** tab in the Microsoft 365 admin center.
+Your organization can use Copilot Studio to create more advanced agents. These agents can be published to different channels within your organization, such as Microsoft 365 Copilot and Microsoft Teams. When an agent is published from Copilot Studio, the agent will be displayed in the **Requests** tab in the Microsoft 365 admin center.
 
 **Applies to**:<br>
 - Copilot Studio
 
 ## Requested agents pending review
 
-When an agent is submitted for admin approval, all metadata about an agent’s definition is provided in Microsoft 365 admin center. Select the **Details** tab for the agent to better understand the agent’s capabilities, data sources, and custom actions before allowing the agent to be published to your organization.
+When an agent is submitted for admin approval, all metadata about an agent’s definition is provided in Microsoft 365 admin center. Select the **Data & tools** tab for the agent to better understand the agent’s capabilities, data sources, and custom actions before allowing the agent to be published to your organization.
 
 Use the following steps to view pending agent requests and act on those requests:
 
 1. Open Copilot Control System in [Microsoft 365 admin center](https://admin.microsoft.com/) in your browser.
-2. Select **Copilot** > **Agents** > **Requested agents**.
+2. Select **Agents** > **Allk agents** > **Requests**.
 3. Select the requested agent and view the agent’s details.<br>
    Confirm the capabilities, data sources, and custom actions that the agent can invoke.
 4. Next to the name of the agent, select the action to **Publish** or **Reject** the agent.
@@ -45,4 +45,4 @@ When the agent is published, the metadata and definition details provided by the
 
 ### Reject requested agents
 
-When you select the action to **Reject** an agent created with Copilot Studio, the status of the agent in Microsoft 365 admin center is set to **Rejected**. The agent won't be published or made available to members of your organization. You can still view the agent's metadata for reconsideration or audit. The rejected agent will still be visible in the **Requested agents** list.
+When you select the action to **Reject** an agent created with Copilot Studio, the status of the agent in Microsoft 365 admin center is set to **Rejected**. The agent won't be published or made available to members of your organization. You can still view the agent's metadata for reconsideration or audit. The rejected agent will still be visible in the **Requests** list.

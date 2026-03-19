@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: dansimp
 author: dansimp
 manager: dansimp
-ms.date: 03/18/2025
+ms.date: 02/20/2026
 audience: Admin
 ms.topic: how-to
 ms.service: microsoft-365-business
@@ -36,8 +36,7 @@ If 123-reg.co.uk is your DNS hosting provider, follow the steps in this article 
 
 After you add these records at 123-reg.co.uk, your domain will be set up to work with Microsoft services.
 
-> [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Find and fix issues after adding your domain or DNS records](../get-help-with-domains/find-and-fix-issues.md).
+[!INCLUDE [Domain propagation note](../../includes/global-administrator-note.md)]
 
 [!INCLUDE [How to get tech support for SMB](../../includes/smb-how-to-get-tech-support.md)]
 
@@ -90,8 +89,7 @@ To verify the record in Microsoft 365:
 
 1. On the **Verify domain** page, select **Verify**.
 
-> [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).
+[!INCLUDE [Domain propagation note](../../includes/global-administrator-note.md)]
 
 ## Add an MX record so email for your domain will come to Microsoft
 
@@ -221,8 +219,7 @@ Only select this option if your organization uses Skype for Business for online 
 
 7. Add the other SRV record.
 
-> [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Find and fix issues after adding your domain or DNS records](../get-help-with-domains/find-and-fix-issues.md).
+[!INCLUDE [Domain propagation note](../../includes/global-administrator-note.md)]
 
 ### Add the two required CNAME records for Skype for Business
 
@@ -257,8 +254,7 @@ Only select this option if your organization uses Skype for Business for online 
 
 1. Add the other CNAME record.
 
-> [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).
+[!INCLUDE [Domain propagation note](../../includes/global-administrator-note.md)]
 
 ## Advanced option: Intune and Mobile Device Management for Microsoft 365
 
@@ -297,5 +293,4 @@ This service helps you secure and remotely manage mobile devices that connect to
 
 1. Add the other CNAME record.
 
-> [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. If you're having trouble with mail flow or other issues after adding DNS records, see [Troubleshoot issues after changing your domain name or DNS records](../get-help-with-domains/find-and-fix-issues.md).
+[!INCLUDE [Domain propagation note](../../includes/global-administrator-note.md)]

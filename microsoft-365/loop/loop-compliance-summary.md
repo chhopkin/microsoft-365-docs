@@ -1,5 +1,5 @@
 ---
-ms.date: 01/26/2026
+ms.date: 03/13/2026
 ms.update-cycle: 180-days
 title: "Summary of governance, lifecycle, and compliance capabilities for Loop experiences"
 ms.reviewer: dancost, tonchan
@@ -80,13 +80,15 @@ The sections below outline governance, lifecycle, and compliance capabilities ap
 
 - Loop's My workspace, Copilot Pages, and Copilot Notebooks are stored together in a single, user-owned SharePoint Embedded container, identified and owned by Loop. Shared Loop workspaces create one SharePoint Embedded container per workspace. These containers don't have individual storage limits; instead, their storage usage counts toward your organization's overall SharePoint storage quota. Currently, there's no admin control to set storage limits for individual SharePoint Embedded containers. Loop files in their OneDrive and SharePoint locations follow the quotas of these storage locations.
 
+  The single user-owned container can be created when either **Create Loop workspaces in Loop** or **Create and view Copilot Pages and Copilot Notebooks** allows creation for the user. To prevent creation of that personal container, disable both policies for the same user.
+
 - See [Managing SharePoint Embedded containers](cpcn-loop-spe-management.md) for information and workflows within SharePoint Admin center or PowerShell.
 
   > [!IMPORTANT]
   > Unlike OneDrive, for the Loop My workspace, there's no user workflow for content stored in the user-owned SharePoint Embedded container after user departure. The container is deleted on the same schedule as the default OneDrive settings. See [Storage management after user departure](loop-storage.md) for detailed information.
 
 - **[Multi-Geo](/microsoft-365/enterprise/microsoft-365-multi-geo)**: Supported for My workspace and shared Loop workspaces. Content is created in the geo matching the user's or group's [preferred data location](/microsoft-365/enterprise/plan-for-multi-geo#best-practices). Loop content in OneDrive and SharePoint follows the multi-geo capabilities of those services.
-  - To move a workspace to a different geo, use the [same mechanism as SharePoint Communication sites](/microsoft-365/enterprise/m365-dr-workload-spo#move-a-sharepoint-site-or-sharepoint-embedded-container-site).
+  - To move a workspace to a different geo, use the [same mechanism as SharePoint Communication sites](../enterprise/m365-dr-service-spo.md#move-a-sharepoint-site-or-sharepoint-embedded-container-site).
 
   > [!IMPORTANT]
   > Some operations in Loop workspaces (such as sharing or creating new pages) might not function correctly immediately after moving containers across geos. Microsoft is working on a fix.

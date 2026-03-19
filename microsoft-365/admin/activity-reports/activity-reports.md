@@ -57,6 +57,8 @@ To view the reports, you must have one of the following permissions:
 - Teams Communications Administrator
 - User Experience Success Manager (with no user details)
 
+- AI Administrators
+
 For more information, see [About admin roles](../add-users/about-admin-roles.md) and [Assign admin roles](../add-users/assign-admin-roles.md).
 
 ## View the Reports dashboard

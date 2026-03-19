@@ -10,7 +10,7 @@ manager: dansimp
 ms.date: 09/17/2025
 audience: Admin
 ms.topic: overview
-ms.service: microsoft-365-security
+ms.service: microsoft-365-admin
 ms.localizationpriority: medium
 ms.collection:
 - Tier2
@@ -58,9 +58,9 @@ The following video shows how to join a team as a guest in Microsoft Teams. It's
 
 To easily share files and documents with the right people while preventing oversharing, you need to plan your approach. The following resources provide more background to help you create a secure guest sharing environment in Microsoft 365.
 
-- [Plan external collaboration](../../solutions/plan-external-collaboration.md)
-- [Create a secure guest sharing environment](../../solutions/create-secure-guest-sharing-environment.md)
-- [Set up secure file and document sharing and collaboration with Teams in Microsoft 365](../../solutions/setup-secure-collaboration-with-teams.md)
+- [Plan external collaboration](/previous-versions/microsoft-365/solutions/plan-external-collaboration)
+- [Create a secure guest sharing environment](/previous-versions/microsoft-365/solutions/create-secure-guest-sharing-environment)
+- [Set up secure file and document sharing and collaboration with Teams in Microsoft 365](/previous-versions/microsoft-365/solutions/setup-secure-collaboration-with-teams)
 - [Guest access in Microsoft Teams](/microsoftteams/guest-access)
 
 In addition to Microsoft Teams and SharePoint, Microsoft 365 also supports guest access in other applications. The following Microsoft 365 products support guest access.
@@ -84,4 +84,4 @@ To invite multiple guests to collaborate with your organization, see [add guests
 
 ## Related content
 
-[Prevent guests from being added to a specific Microsoft 365 group or Microsoft Teams](../../solutions/per-group-guest-access.md)
+[Prevent guests from being added to a specific Microsoft 365 group or Microsoft Teams](/microsoft-365/solutions/per-group-guest-access)

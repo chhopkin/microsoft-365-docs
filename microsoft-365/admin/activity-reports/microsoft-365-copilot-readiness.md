@@ -3,6 +3,7 @@ title: Microsoft 365 Copilot readiness report - Microsoft 365 admin center
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: scotv
+ms.date: 01/12/2026
 ms.update-cycle: 180-days
 audience: Admin
 ms.topic: concept-article
