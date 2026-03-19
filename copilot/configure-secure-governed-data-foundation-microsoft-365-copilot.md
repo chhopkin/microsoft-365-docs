@@ -161,7 +161,7 @@ In this step, you assess and close AI compliance gaps, define audit and retentio
 
 ### Define regulatory requirements
 
-1. Decide [how long to keep audit logs](/purview/audit-log-retention-policies) in accordance with regulatory and internal requirements.
+1. **Decide how long to keep audit logs** in accordance with regulatory and internal requirements. (See [Manage audit log retention policies](/purview/data-security-posture-management-learn-about#how-to-use-data-security-posture-management).)
 
 2. Decide how to keep or when to delete **Copilot interactions** based on legal risk or regulatory requirements with [Microsoft Purview Data Lifecycle Management](/purview/retention-policies-copilot).
 
