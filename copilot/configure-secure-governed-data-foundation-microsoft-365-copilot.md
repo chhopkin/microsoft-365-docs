@@ -105,7 +105,7 @@ For sites you identify as high risk, use Microsoft Purview and SAM recommendatio
     
    - Correct broken permission inheritance on libraries and folders. (See [Permissions inheritance in SharePoint](/SharePoint/what-is-permissions-inheritance) and [Customize permissions for a SharePoint list or library](https://support.microsoft.com/en-us/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782).)
     
-  - Assign or confirm site ownership for all remediated sites using SAM site lifecycle management. (See [Create a SharePoint site ownership policy](/sharepoint/create-sharepoint-site-ownership-policy).)
+   - Assign or confirm site ownership for all remediated sites using SAM site lifecycle management. (See [Create a SharePoint site ownership policy](/sharepoint/create-sharepoint-site-ownership-policy).)
     
 Remove interim Copilot protections once access and permissions are remediated
 
