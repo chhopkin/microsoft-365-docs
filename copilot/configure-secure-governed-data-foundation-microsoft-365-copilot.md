@@ -127,7 +127,7 @@ Use tenant and provisioning defaults to prevent oversharing from being introduce
 
 Configure classification and enforcement controls with Microsoft Purview so Copilot interactions and new content are protected by policy, not by manual remediation.
 
-1. **Configure Microsoft Purview Information Protection default sensitivity labels** to ensure new content is protected. (See [Default sensitivity labels and policies to protect your data](/purview/default-sensitivity-labels-policies).)
+1. **Configure [Microsoft Purview Information Protection default sensitivity labels](/purview/default-sensitivity-labels-policies)** to ensure new content is protected.
 
 2. **Set up a [Microsoft Purview DLP for Copilot](/purview/dlp-microsoft365-copilot-location-learn-about) policy** to restrict Copilot processing of labeled sensitive content. 
 
