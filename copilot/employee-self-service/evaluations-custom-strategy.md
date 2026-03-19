@@ -44,7 +44,7 @@ Think about custom [evaluations as a strategy](/microsoft-copilot-studio/guidanc
 
 3. **Finally, capture scenarios that act as guardrails for risky questions**
   
-    Add test cases designed to ensure the agent refuses or redirects correctly. These test scenarios protect your organization from misinformation, policy violations, or inappropriate content. These are prompts that shouldn;t be answered, or should be answered a very specific way. Examples include:
+    Add test cases designed to ensure the agent refuses or redirects correctly. These test scenarios protect your organization from misinformation, policy violations, or inappropriate content. These are prompts that shouldn't be answered, or should be answered a very specific way. Examples include:
     - Sensitive HR topics (pay equity opinions, complaints about individuals)
     - Attempts to access confidential or privileged information
     - Requests that violate policy or must be escalated to humans
