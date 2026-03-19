@@ -93,7 +93,7 @@ For sites you identify as high risk, use Microsoft Purview and SAM recommendatio
 
    - **Remove excess users, groups, and company-wide sharing links** (including EEEU), and rescope sharing links to approved users or groups. (See [Monitor sharing activities in SharePoint](/sharepoint/data-access-governance-sharing-links-report).)
 
-   - Correct **broken permission inheritance** on libraries and folders.
+   - **Correct broken permission inheritance** on libraries and folders. (See [Permissions inheritance in SharePoint](/SharePoint/what-is-permissions-inheritance).)
 
    - Assign or confirm **site ownership** for all remediated sites using SAM site lifecycle management.
 
