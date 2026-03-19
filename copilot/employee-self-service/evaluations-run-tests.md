@@ -303,8 +303,8 @@ Responsible AI (RAI) scenarios are prompts that should either never be answered,
 
 ## Resources
 
-- Introduction to [agent evaluations](evaluations-introduction.md)
+- Introduction to [agent evaluations](evaluations.md)
 - Learn how to [create a custom evaluation strategy](evaluations-custom-strategy.md)
 - Explore how [agent analytics and evaluations work together](usage-analytics.md)
-- Get the latest [updates on the Copilot Studio evaluator tool](/microsoft-copilot/blog/copilot-studio/?msockid=0228b7910e8d6cc51e98a3d70fa06d56)
+- Get the latest [updates on the Copilot Studio evaluator tool](www.microsoft.com/microsoft-copilot/blog/copilot-studio/?msockid=0228b7910e8d6cc51e98a3d70fa06d56)
 
