@@ -143,7 +143,7 @@ Use Microsoft Purview reporting, risk assessments, and alerts to continuously va
 
 2. **[Use Microsoft Purview DSPM data risk assessments](/purview/data-security-posture-management-oversharing?tabs=m365)** to continuously validate that sensitive data remains protected from Copilot access.
 
-3. **Review Microsoft Purview Insider Risk Management and DLP alerts** to detect and investigate risky AI usage or potential data loss.
+3. **Review Microsoft Purview Insider Risk Management and DLP alerts** to detect and investigate risky AI usage or potential data loss. (See [Data risk graph in Insider Risk Management](/purview/insider-risk-management-data-risk-graph) and [Learn about investigating DLP alerts](/purview/dlp-alert-investigation-learn).)
 
 ## Step 3: Meet regulations
 
