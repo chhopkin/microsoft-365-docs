@@ -135,7 +135,7 @@ Protect sensitive data by default and decide how it should be used with Copilot 
 
 1. Enable a [Microsoft Purview DLP for Copilot prompt](/purview/dlp-microsoft365-copilot-location-learn-about) policy to restrict Copilot from responding to prompts that contain sensitive information.
 
-  - Optionally, allow sensitive data to be used for Work IQ grounding but block from web grounding
+   Optionally, allow sensitive data to be used for Work IQ grounding but block from web grounding
   
 1. Enable [Microsoft Purview Insider Risk Management (IRM](/purview/insider-risk-management-solution-overview)) policies to detect patterns of inappropriate or non‑compliant Copilot usage and [automatically add risky users to more restrictive security policies](/purview/insider-risk-management-adaptive-protection)
 
