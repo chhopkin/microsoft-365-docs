@@ -105,9 +105,9 @@ While sites are in remediation, apply temporary controls to reduce exposure and 
 
 2. **[Configure Microsoft Purview Data Loss Prevention (DLP) for Copilot](/purview/dlp-microsoft365-copilot-location-learn-about)** to exclude sensitive content from Copilot grounding.
 
-3. Validate through Microsoft Purview audit logs and reports that **Copilot no longer surfaces restricted content**.
+3. **Validate through Microsoft Purview Auditing and reports that Copilot no longer surfaces restricted content**. (See [Use Microsoft Purview to manage data security & compliance for Microsoft 365 Copilot and Microsoft 365 Copilot Chat](/purview/ai-m365-copilot).)
 
-4. Remove these restrictions once site access and permissions are fully remediated.
+4. **Remove these restrictions once site access and permissions are fully remediated**.
 
 ## Step 2: Set up guardrails
 
